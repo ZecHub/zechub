@@ -148,7 +148,7 @@ Datenschutzorientierter Zcash-Blockchain-Explorer (früher CipherScan). Erstellt
 
 ### Exblo
 Block-Explorer zum Testen von Transaktionen im Zcash Testnet.  
-[Besuchen](https://testnet.exblo.app/)
+[Besuchen](https://web.archive.org/web/20241206041317/https://testnet.exblo.app/)
 
 ### OpenZcash
 Öffentliches Transparenz-Dashboard für den Zcash Dev Fund, einschließlich der Buchhaltung für ZCG- und FPF-Förderungen, der Lockbox, Governance und Auszahlungen.  
@@ -184,7 +184,7 @@ Tool zur Verfolgung und Analyse von Datenmetriken zur Marktpreisentwicklung von 
 
 ### Zlink
 Verzeichnis zum Auffinden von Links, Tools und Informationen über das Zcash-Ökosystem.  
-[Besuchen](https://zlink.click)
+[Besuchen](https://web.archive.org/web/20250309010146/https://zlink.click/)
 
 ### Zecmarket
 Der datenschutzorientierte Marktplatz des Zcash-Ökosystems. Zahlungen werden direkt abgewickelt, und die Plattform verwahrt niemals deine Mittel.  

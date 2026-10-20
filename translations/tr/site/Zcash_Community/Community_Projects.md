@@ -148,7 +148,7 @@ Gizlilik öncelikli Zcash blokzinciri gezgini (eski adıyla CipherScan). Next.js
 
 ### Exblo
 Zcash Testnet üzerinde işlemleri test etmek için tasarlanmış blok gezgini.  
-[Ziyaret et](https://testnet.exblo.app/)
+[Ziyaret et](https://web.archive.org/web/20241206041317/https://testnet.exblo.app/)
 
 ### OpenZcash
 Zcash Dev Fund için; ZCG ve FPF hibe muhasebesi, Lockbox, yönetişim ve ödemeleri içeren herkese açık şeffaflık panosu.  
@@ -184,7 +184,7 @@ Zcash piyasa fiyatı performansını takip etmeye ve veri metriklerini sunmaya y
 
 ### Zlink
 Zcash ekosistemiyle ilgili bağlantıları, araçları ve bilgileri bulmak için dizin.  
-[Ziyaret et](https://zlink.click)
+[Ziyaret et](https://web.archive.org/web/20250309010146/https://zlink.click/)
 
 ### Zecmarket
 Zcash ekosisteminin gizlilik öncelikli pazaryeri. Ödemeler doğrudan gerçekleşir ve platform fonlarınızı asla elinde tutmaz.  

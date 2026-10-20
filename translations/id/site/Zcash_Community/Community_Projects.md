@@ -148,7 +148,7 @@ Explorer blockchain Zcash yang mengutamakan privasi (sebelumnya CipherScan). Dib
 
 ### Exblo
 Block explorer yang dirancang untuk menguji transaksi di Testnet Zcash.  
-[Kunjungi](https://testnet.exblo.app/)
+[Kunjungi](https://web.archive.org/web/20241206041317/https://testnet.exblo.app/)
 
 ### OpenZcash
 Dashboard transparansi publik untuk Dev Fund Zcash, termasuk akuntansi hibah ZCG dan FPF, Lockbox, tata kelola, dan pencairan dana.  
@@ -184,7 +184,7 @@ Alat pelacakan dan metrik data untuk kinerja harga pasar Zcash.
 
 ### Zlink
 Direktori untuk menemukan tautan, alat, dan informasi tentang ekosistem Zcash.  
-[Kunjungi](https://zlink.click)
+[Kunjungi](https://web.archive.org/web/20250309010146/https://zlink.click/)
 
 ### Zecmarket
 Marketplace yang mengutamakan privasi dari ekosistem Zcash. Pembayaran diselesaikan secara langsung dan platform ini tidak pernah menyimpan dana Anda.  

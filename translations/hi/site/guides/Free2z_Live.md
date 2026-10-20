@@ -1,6 +1,6 @@
 [![Edit Page](https://img.shields.io/badge/Edit-blue)](https://github.com/zechub/zechub/edit/main/site/guides/Free2z_Live.md)
 
-# Free2z: अकाउंट सेटअप + Livestream ट्यूटोरियल
+# Free2Z: अकाउंट सेटअप + Livestream ट्यूटोरियल
 
 ## परिचय
 
@@ -97,7 +97,7 @@ Free2Z users को अपने पसंदीदा creators को subscribe
 
 ## Live Streaming
 
-Free2z प्लेटफ़ॉर्म एक शानदार feature प्रदान करता है जिसे Free2z Live कहा जाता है। इस tool के साथ, creators subscribed members के लिए live streams शुरू कर सकते हैं। Free2z Live की कुछ मुख्य विशेषताएँ हैं:  
+Free2Z प्लेटफ़ॉर्म एक शानदार feature प्रदान करता है जिसे Free2Z Live कहा जाता है। इस tool के साथ, creators subscribed members के लिए live streams शुरू कर सकते हैं। Free2Z Live की कुछ मुख्य विशेषताएँ हैं:  
 - Audio और video  
 - Screen sharing  
 - Collaborative code editing  
@@ -105,9 +105,9 @@ Free2z प्लेटफ़ॉर्म एक शानदार feature प�
 - Whiteboarding  
 - और भी बहुत कुछ!
 
-### Free2z Live के साथ आप क्या कर सकते हैं
+### Free2Z Live के साथ आप क्या कर सकते हैं
 
-Free2z Live एक शक्तिशाली tool है, जो creators को किसी भी प्रकार का content stream करने की अनुमति देता है। यहाँ कुछ उदाहरण दिए गए हैं कि आप Free2z Live के साथ किस तरह का content stream कर सकते हैं:  
+Free2Z Live एक शक्तिशाली tool है, जो creators को किसी भी प्रकार का content stream करने की अनुमति देता है। यहाँ कुछ उदाहरण दिए गए हैं कि आप Free2Z Live के साथ किस तरह का content stream कर सकते हैं:  
 - Tutorials और demonstrations  
 - Performances और events  
 - Collaborative projects  
@@ -116,7 +116,7 @@ Free2z Live एक शक्तिशाली tool है, जो creators क�
 
 ### Live कैसे जाएँ
 
-Free2z Live के साथ live stream शुरू करना बहुत आसान है। लेकिन stream शुरू करने से पहले कुछ आवश्यकताएँ हैं।  
+Free2Z Live के साथ live stream शुरू करना बहुत आसान है। लेकिन stream शुरू करने से पहले कुछ आवश्यकताएँ हैं।  
 1. Creator के पास न्यूनतम **member price** 10 2Zs **होना ही चाहिए**।  
 2. Creator के अकाउंट में कम से कम 150 2Zs का balance **होना ही चाहिए**।  
 
@@ -124,7 +124,7 @@ Free2z Live के साथ live stream शुरू करना बहुत 
 
 ![Go Live button](/content-images/go-live-4c8ac67505.webp)
 
-Live stream शुरू करने के लिए बस **Go Live** बटन पर क्लिक करें, और Free2z app आपसे आपके microphone और webcam (यदि आपके पास है) के उपयोग की अनुमति माँगेगा। आवश्यक permissions देने के बाद, Free2z आपसे एक nickname दर्ज करने के लिए कहेगा जिसे आप live stream के दौरान उपयोग करना चाहते हैं। Nickname चुन लेने के बाद, अपनी live stream शुरू करने के लिए **Join** पर क्लिक करें।
+Live stream शुरू करने के लिए बस **Go Live** बटन पर क्लिक करें, और Free2Z app आपसे आपके microphone और webcam (यदि आपके पास है) के उपयोग की अनुमति माँगेगा। आवश्यक permissions देने के बाद, Free2Z आपसे एक nickname दर्ज करने के लिए कहेगा जिसे आप live stream के दौरान उपयोग करना चाहते हैं। Nickname चुन लेने के बाद, अपनी live stream शुरू करने के लिए **Join** पर क्लिक करें।
 
 ![Select nickname for live stream](/content-images/select-nickname-414444b992.webp)
 
@@ -134,15 +134,15 @@ Live stream शुरू करने के लिए बस **Go Live** बट
 
 जब लोग live stream में शामिल होते हैं, तो वे chat कर सकते हैं, stage पर आने का अनुरोध कर सकते हैं, polls में vote देकर interact कर सकते हैं, और भी बहुत कुछ कर सकते हैं।
 
-![Example of a Free2z Live session](/content-images/free2z-live-example-eecb2ae553.webp)
+![Example of a Free2Z Live session](/content-images/free2z-live-example-eecb2ae553.webp)
 
-_(Free2z Live session का उदाहरण)_
+_(Free2Z Live session का उदाहरण)_
 
-Free2z Live बहुउपयोगी और शक्तिशाली है। अगले section में, मैं इसकी functionalities और tools का एक overview दूँगा।
+Free2Z Live बहुउपयोगी और शक्तिशाली है। अगले section में, मैं इसकी functionalities और tools का एक overview दूँगा।
 
-### Free2z Live को समझना
+### Free2Z Live को समझना
 
-यह wiki-doc Free2z या Free2z Live की गहराई से व्याख्या करने के लिए नहीं है। लेकिन यहाँ इसके tools का एक सामान्य overview दिया गया है।
+यह wiki-doc Free2Z या Free2Z Live की गहराई से व्याख्या करने के लिए नहीं है। लेकिन यहाँ इसके tools का एक सामान्य overview दिया गया है।
 
 स्क्रीन के नीचे बाईं ओर, हमें कुछ बटन दिखाई देते हैं।
 
@@ -177,19 +177,19 @@ Live stream समाप्त करने के लिए, आपको 'Leav
 
 ## निष्कर्ष
 
-निष्कर्षतः, Free2z creators के लिए एक बहुउपयोगी प्लेटफ़ॉर्म है, जहाँ वे अपनी क्षमताओं का प्रदर्शन कर सकते हैं, ज्ञान साझा कर सकते हैं और अपने प्रोजेक्ट्स के लिए धन जुटा सकते हैं, तथा Free2z Live के शक्तिशाली tool के माध्यम से अपने supporters के साथ जुड़ सकते हैं।
+निष्कर्षतः, Free2Z creators के लिए एक बहुउपयोगी प्लेटफ़ॉर्म है, जहाँ वे अपनी क्षमताओं का प्रदर्शन कर सकते हैं, ज्ञान साझा कर सकते हैं और अपने प्रोजेक्ट्स के लिए धन जुटा सकते हैं, तथा Free2Z Live के शक्तिशाली tool के माध्यम से अपने supporters के साथ जुड़ सकते हैं।
 
 ----
 
 ### संसाधन
 
-[Free2z](https://free2z.cash/)  
-[Free2z दस्तावेज़ीकरण](https://free2z.cash/docs/)  
+[Free2Z](https://free2z.cash/)  
+[Free2Z दस्तावेज़ीकरण](https://free2z.cash/docs/)  
 [2Z अवलोकन](https://free2z.cash/docs/getting-started/tuzis)  
 [प्रोफ़ाइल बनाना](https://free2z.cash/docs/for-creators/creating-a-profile)  
-[Free2z Live क्या है?](https://free2z.cash/docs/for-creators/free2z-live)  
-[Supporters के लिए Free2z](https://free2z.cash/docs/category/for-supporters)
+[Free2Z Live क्या है?](https://free2z.cash/docs/for-creators/free2z-live)  
+[Supporters के लिए Free2Z](https://web.archive.org/web/20260118172223/https://free2z.cash/docs/category/for-supporters/)
 
 ---
 
-_Zechub के लिए James Katz द्वारा लिखित।_
+_ZecHub के लिए James Katz द्वारा लिखित।_

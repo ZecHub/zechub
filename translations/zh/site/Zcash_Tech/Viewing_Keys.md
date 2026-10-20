@@ -74,7 +74,7 @@ zallet rpc z_exportviewingkey '"<unified address>"' true
 
 ### 从自身界面导出 viewing key 的 wallet
 
-[Wallets](/using-zcash/wallets) 页面跟踪各 wallet 对 viewing key 的支持情况及 Ironwood 就绪状态。截至撰写时，同时列出 viewing-key 支持和 **Ironwood: Ready** 的 wallet 包括 ZODL、Zingo!、Zkool、Cake、Zallet、Zecd 和 Nozy。在依赖任何单一 wallet 前，请查看该页面而不是本页，因为就绪状态会变化。
+[Wallets](/using-zcash/wallets) 页面跟踪各 wallet 对 viewing key 的支持情况及 Ironwood 就绪状态。截至撰写时，同时列出 viewing-key 支持和 **Ironwood: Ready** 的 wallet 包括 ZODL、Zingo!、Zkool、Cake、Zallet、zecd 和 Nozy。在依赖任何单一 wallet 前，请查看该页面而不是本页，因为就绪状态会变化。
 
 ## 将 viewing key 作为仅查看账户导入
 

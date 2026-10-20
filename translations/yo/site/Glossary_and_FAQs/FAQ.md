@@ -68,7 +68,7 @@ A kọ àwọn ìpinnu sínú ìlànà tí a sì fọwọ́ sí lórí ẹ̀wọ
 
 <div className="rounded-2xl border border-border bg-card p-5 my-4">
 
-Kíkà àkọ́kọ́ [ìtọ́sọ́nà wa láti dènà àwọn olùṣàwárí](/guides/blockchain-explorers)Lẹ́yìn náà, ṣàyẹ̀wò [Olùṣàwárí Àkọsílẹ̀ Zcash](https://zcashblockexplorer.com).
+Kíkà àkọ́kọ́ [ìtọ́sọ́nà wa láti dènà àwọn olùṣàwárí](/guides/blockchain-explorers)Lẹ́yìn náà, ṣàyẹ̀wò [Olùṣàwárí Àkọsílẹ̀ Zcash](https://mainnet.zcashexplorer.app).
 
 Awọn iṣowo naa yoo pari lẹhin iṣẹju 25 (awọn bulọọki 20) ati pe a yoo da owo pada laifọwọyi.
 

@@ -162,5 +162,5 @@ Ironwood 未改变的内容包括：如今用于花费和生成证明的密码�
 - [zips#1134：完全后量子 Zcash](https://github.com/zcash/zips/issues/1134)
 - [Tachyon 项目路线图](https://tachyon.z.cash/roadmap/)
 - [NU7 民调结果：我们听到了什么，以及下一步去向](https://forum.zcashcommunity.com/t/nu7-polling-results-what-we-heard-and-where-we-go-from-here/54775)
-- [Blockchair 上的区块 3,428,143](https://blockchair.com/zcash/block/3428143)
+- [ZecBlock 上的区块 3,428,143](https://zecblock.com/block/3428143)
 - [论坛请求：Zcash 是否具备后量子安全性？](https://forum.zcashcommunity.com/t/is-zcash-post-quantum-help-wanted-d-proposal/57154)

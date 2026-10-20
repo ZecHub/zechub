@@ -68,7 +68,7 @@ Zcash 在本质上比 Bitcoin 或 Ethereum 更具隐私性。它提供快速的�
 
 <div className="rounded-2xl border border-border bg-card p-5 my-4">
 
-首先阅读 [我们的区块浏览器指南](/guides/blockchain-explorers)。然后查看 [Zcash 区块浏览器](https://zcashblockexplorer.com)。
+首先阅读 [我们的区块浏览器指南](/guides/blockchain-explorers)。然后查看 [Zcash 区块浏览器](https://mainnet.zcashexplorer.app)。
 
 交易约在 25 分钟（20 个区块）后过期，资金将自动退回。
 

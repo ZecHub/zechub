@@ -100,11 +100,9 @@ I seed DNS espongono un elenco di altri nodi affidabili tramite un server integr
 
 Queste sono piattaforme di esempio che consentono l'accesso ai dati della rete Zcash:
 
-[Zcash Esploratore di blocchi](https://zcashblockexplorer.com)
+[Zcash Esploratore di blocchi](https://mainnet.zcashexplorer.app)
 
 [Coinmetrics](https://docs.coinmetrics.io/info/assets/zec)
-
-[Blockchair](https://blockchair.com/zcash)
 
 Puoi anche contribuire allo sviluppo della rete eseguendo test o proponendo nuovi miglioramenti e fornendo metriche.
 

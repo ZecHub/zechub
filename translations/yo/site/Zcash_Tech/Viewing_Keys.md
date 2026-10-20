@@ -74,7 +74,7 @@ Tí a bá fi àdírẹ́sì Sapling sílẹ̀, a ó máa rí kọ́kọ́rọ́ 
 
 ### Àwọn àpò tí ó ń kó àwọn kọ́kọ́rọ́ ìwòran jáde láti inú ìrísí tiwọn
 
-Àwọn [Àwọn Àpò Ìpamọ́](/using-zcash/wallets) ojú ìwé náà ń tọ́ka sí ìrànlọ́wọ́ àmì wíwo àti ìmúrasílẹ̀ Ironwood fún àpò owó kọ̀ọ̀kan. Ní àkókò tí a ń kọ ọ́, àwọn àpò owó tí a kọ sí àpò owó àti **Ironwood: Ready** ní ZODL, Zingo!, Zkool, Cake, Zallet, Zecd àti Nozy nínú. Ṣàyẹ̀wò ojú ìwé yẹn dípò èyí kí o tó gbẹ́kẹ̀lé àpò owó kan ṣoṣo, nítorí pé ìmúrasílẹ̀ yípadà.
+Àwọn [Àwọn Àpò Ìpamọ́](/using-zcash/wallets) ojú ìwé náà ń tọ́ka sí ìrànlọ́wọ́ àmì wíwo àti ìmúrasílẹ̀ Ironwood fún àpò owó kọ̀ọ̀kan. Ní àkókò tí a ń kọ ọ́, àwọn àpò owó tí a kọ sí àpò owó àti **Ironwood: Ready** ní ZODL, Zingo!, Zkool, Cake, Zallet, zecd àti Nozy nínú. Ṣàyẹ̀wò ojú ìwé yẹn dípò èyí kí o tó gbẹ́kẹ̀lé àpò owó kan ṣoṣo, nítorí pé ìmúrasílẹ̀ yípadà.
 
 ## Gbígbé kọ́kọ́rọ́ ìwòran wọlé gẹ́gẹ́ bí àkọọ́lẹ̀ aago-ìwò nìkan
 

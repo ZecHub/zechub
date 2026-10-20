@@ -100,11 +100,9 @@ Os seeders DNS expõem uma lista de outros nós fiáveis através de um servidor
 
 Estas são plataformas de exemplo que permitem o acesso a dados da Rede Zcash:
 
-[Zcash Explorador de Blocos](https://zcashblockexplorer.com)
+[Zcash Explorador de Blocos](https://mainnet.zcashexplorer.app)
 
 [Coinmetrics](https://docs.coinmetrics.io/info/assets/zec)
-
-[Blockchair](https://blockchair.com/zcash)
 
 Também pode contribuir para o desenvolvimento da rede executando testes ou propondo novas melhorias e fornecendo métricas.
 

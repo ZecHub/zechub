@@ -15,7 +15,7 @@ ZF 소액 보조금 신청자를 위해 오픈, 커뮤니티 업데이트 및 "P
 
 최근 ZecHub 위키에 추가된 영지식 차폐 풀과 Decoy 기반 익명성의 차이를 분석합니다. 차폐 풀, 영지식 증명, 링 서명 및 기밀 거래에 대한 소개. 비교를 통해 Zcash가 선호하는 온체인 프라이버시 보장을 제공하는 이유에 대한 명확한 추론을 제공합니다.
 
-[차폐 풀 vs Decoy 기반 시스템](https://zechub.wiki/zk-shielded-pools-vs-decoy-based-privacy)
+[차폐 풀 vs Decoy 기반 시스템](https://zechub.wiki/guides/zero-knowledge-vs-decoys)
 
 
 # Zcash 업데이트
@@ -26,7 +26,7 @@ ZF 소액 보조금 신청자를 위해 오픈, 커뮤니티 업데이트 및 "P
 
 [ZF 소액 보조금 2차 신청](https://forum.zcashcommunity.com/t/opening-applications-for-the-second-round-of-zf-minor-grants/45463) 
 
-[ZFAV, 콘텐츠 제작자 가이드 발간](https://zechub.wiki/zfav/guides)
+[ZFAV, 콘텐츠 제작자 가이드 발간](https://zechub.wiki/zfav-club/guides-for-creators)
 
 
 #### Zcash 커뮤니티 보조금 업데이트
@@ -55,7 +55,7 @@ ZF 소액 보조금 신청자를 위해 오픈, 커뮤니티 업데이트 및 "P
 
 [이더리움 스테이킹은 현재 호황](https://decrypt.co/153813/ethereum-staking-is-booming-but-value-of-defi-assets-keeps-falling)
 
-[개인정보 보호가 나쁜 단어가 된 이유](https://www.coindesk.com/consensus-magazine/2023/08/25/when-did-privacy-become-a-bad-word) (★)
+[개인정보 보호가 나쁜 단어가 된 이유](https://web.archive.org/web/20240419061842/https://www.coindesk.com/consensus-magazine/2023/08/25/when-did-privacy-become-a-bad-word/) (★)
 
 [온리팬즈 계정이 Friend.tech(base dapp)로 모여들고있다](https://decrypt.co/153723/onlyfans-accounts-take-over-friend-tech-crypt-app-adds-photo-feature)
 

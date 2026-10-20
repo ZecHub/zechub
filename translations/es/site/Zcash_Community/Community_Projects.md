@@ -148,7 +148,7 @@ Explorador de blockchain de Zcash que prioriza la privacidad (anteriormente Ciph
 
 ### Exblo
 Explorador de bloques diseñado para probar transacciones en la Testnet de Zcash.  
-[Visitar](https://testnet.exblo.app/)
+[Visitar](https://web.archive.org/web/20241206041317/https://testnet.exblo.app/)
 
 ### OpenZcash
 Panel público de transparencia para el Dev Fund de Zcash, que incluye la contabilidad de subvenciones de ZCG y FPF, el Lockbox, la gobernanza y los desembolsos.  
@@ -184,7 +184,7 @@ Herramienta de seguimiento y métricas de datos para el rendimiento del precio d
 
 ### Zlink
 Directorio para encontrar enlaces, herramientas e información sobre el ecosistema de Zcash.  
-[Visitar](https://zlink.click)
+[Visitar](https://web.archive.org/web/20250309010146/https://zlink.click/)
 
 ### Zecmarket
 El marketplace que prioriza la privacidad del ecosistema de Zcash. Los pagos se liquidan directamente y la plataforma nunca retiene tus fondos.  

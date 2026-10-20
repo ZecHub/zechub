@@ -191,7 +191,7 @@ Jika frasa pemulihan atau key hilang, proses restorasi mandiri tidak dapat dimul
 
 Jalur tersebut tidak sama dengan memulihkan frasa pemulihan yang masih kamu miliki. Jangan berikan frasa pemulihan yang aktif kepada siapa pun yang menawarkan untuk "memulihkannya" untukmu. Versi penipuan dari layanan ini sangat umum terjadi.
 
-[Unciphered](https://unciphered.com) adalah satu firma yang melakukan pekerjaan ini secara internal dan telah diliput di tempat-tempat seperti [Wired](https://www.wired.com/story/unciphered-crypto-wallet-recovery/). Mereka adalah layanan pemulihan crypto umum, bukan alat khusus Zcash, dan mereka mengenakan biaya untuk pekerjaan tersebut. ZecHub tidak mendukung firma pemulihan mana pun. Jika kamu memilih jalur ini, konfirmasikan domain resmi secara mandiri dan asumsikan siapa pun yang mengirimkan DM kepadamu terlebih dahulu adalah penipu.
+[Unciphered](https://unciphered.com) adalah satu firma yang melakukan pekerjaan ini secara internal dan telah diliput di tempat-tempat seperti Wired. Mereka adalah layanan pemulihan crypto umum, bukan alat khusus Zcash, dan mereka mengenakan biaya untuk pekerjaan tersebut. ZecHub tidak mendukung firma pemulihan mana pun. Jika kamu memilih jalur ini, konfirmasikan domain resmi secara mandiri dan asumsikan siapa pun yang mengirimkan DM kepadamu terlebih dahulu adalah penipu.
 
 Jika kamu masih memiliki frasa pemulihan atau spending key yang berfungsi, mulailah dengan jalur pemulihan mandiri seperti Zkool atau Argos di mesin milikmu sendiri sebagai gantinya.
 

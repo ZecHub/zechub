@@ -148,7 +148,7 @@ ZcashToCash (zcashto.cash) — ZEC в Cash App, Chime, Monzo, Revolut, Venmo и�
 
 ### Exblo
 Обозреватель блоков, предназначенный для тестирования транзакций в Testnet Zcash.  
-[Посетить](https://testnet.exblo.app/)
+[Посетить](https://web.archive.org/web/20241206041317/https://testnet.exblo.app/)
 
 ### OpenZcash
 Публичная панель прозрачности для Dev Fund Zcash, включая учёт грантов ZCG и FPF, Lockbox, управление и выплаты.  
@@ -184,7 +184,7 @@ ZcashToCash (zcashto.cash) — ZEC в Cash App, Chime, Monzo, Revolut, Venmo и�
 
 ### Zlink
 Каталог для поиска ссылок, инструментов и информации об экосистеме Zcash.  
-[Посетить](https://zlink.click)
+[Посетить](https://web.archive.org/web/20250309010146/https://zlink.click/)
 
 ### Zecmarket
 Ориентированная на конфиденциальность торговая площадка экосистемы Zcash. Платежи рассчитываются напрямую, и платформа никогда не хранит ваши средства.  

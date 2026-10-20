@@ -42,7 +42,7 @@ C'est le moment d'élargir notre horizon et d'explorer le potentiel de Zcash. À
 
 [Edge avec SDK 2.0, autoshielding, adresses unifiées disponibles dès maintenant](https://forum.zcashcommunity.com/t/edge-with-sdk-2-0-autoshielding-unified-addresses-now-live/46010)
 
-[Découvrez Zlink | Explorateur de l'écosystème Zcash](https://zlink.click/#network)
+[Découvrez Zlink | Explorateur de l'écosystème Zcash](https://web.archive.org/web/20250309010146/https://zlink.click/)
 
 [Les participants du premier tour recevront la semaine prochaine des invitations pour le second tour - Recherche utilisateur Zcash](https://twitter.com/UseZcash/status/1725198824174395636)
 

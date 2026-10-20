@@ -74,7 +74,7 @@ Kupitisha anwani ya Sapling hurejesha ufunguo kamili wa kutazama wa akaunti ya S
 
 ### Pochi zinazohamisha funguo za kutazama kutoka kwa kiolesura chao
 
-Ya [Pochi](/using-zcash/wallets) Ukurasa hufuatilia usaidizi wa ufunguo wa kutazama na utayari wa Ironwood kwa kila pochi. Wakati wa kuandika haya, pochi zinazoorodhesha usaidizi wa ufunguo wa kutazama na **Ironwood: Tayari** zinajumuisha ZODL, Zingo!, Zkool, Cake, Zallet, Zecd na Nozy. Angalia ukurasa huo badala ya huu kabla ya kutegemea pochi yoyote, kwa sababu utayari hubadilika.
+Ya [Pochi](/using-zcash/wallets) Ukurasa hufuatilia usaidizi wa ufunguo wa kutazama na utayari wa Ironwood kwa kila pochi. Wakati wa kuandika haya, pochi zinazoorodhesha usaidizi wa ufunguo wa kutazama na **Ironwood: Tayari** zinajumuisha ZODL, Zingo!, Zkool, Cake, Zallet, zecd na Nozy. Angalia ukurasa huo badala ya huu kabla ya kutegemea pochi yoyote, kwa sababu utayari hubadilika.
 
 ## Kuingiza ufunguo wa kutazama kama akaunti ya kutazama pekee
 

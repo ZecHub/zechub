@@ -16,7 +16,7 @@ Küresel Elçi Programı, Zcash ekosistemine yüksek kaliteli katkılarda buluna
 
 Elçiler, planladıkları faaliyetler üzerinde yaratıcı özgürlüğe sahiptir; bu da erişim çalışmalarını yerel bağlamlarına uyarlamalarını sağlar.
 
-## [Küresel Elçi Web Sitesi](https://zcashambassadors.com)
+## [Küresel Elçi Web Sitesi](https://web.archive.org/web/20240413194338/https://zcashambassadors.com/)
 
 ## Aktif Elçi Toplulukları (2026)
 

@@ -100,11 +100,9 @@ DNS seeders ɖea node bubu siwo ŋu kakaɖedzi le ƒe xexlẽdzesi ɖe go to ser
 
 Esiawo nye kpɔɖeŋu mɔnu siwo ɖea mɔ be woakpɔ Zcash Network ƒe nyatakakawo:
 
-[Zcash Block ƒe Ʋuʋudedi](https://zcashblockexplorer.com)
+[Zcash Block ƒe Ʋuʋudedi](https://mainnet.zcashexplorer.app)
 
 [Gakuwo ƒe xexlẽdzesiwo](https://docs.coinmetrics.io/info/assets/zec)
-
-[Blockchair](https://blockchair.com/zcash)
 
 Àte ŋu akpe asi ɖe network la ƒe ŋgɔyiyi hã ŋu to dodokpɔwo wɔwɔ alo ŋgɔyiyi yeyewo dodo ɖe ŋgɔ & metrics nana me.
 

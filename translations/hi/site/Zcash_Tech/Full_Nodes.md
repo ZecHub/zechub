@@ -100,11 +100,9 @@ DNS seeders एक built-in server के माध्यम से अन्य
 
 ये उदाहरण platforms हैं जो Zcash Network data तक पहुंच प्रदान करते हैं:
 
-[Zcash ब्लॉक एक्सप्लोरर](https://zcashblockexplorer.com)
+[Zcash ब्लॉक एक्सप्लोरर](https://mainnet.zcashexplorer.app)
 
 [Coinmetrics](https://docs.coinmetrics.io/info/assets/zec)
-
-[Blockchair](https://blockchair.com/zcash)
 
 आप tests चलाकर या नए सुधार प्रस्तावित करके एवं metrics उपलब्ध कराकर भी network के विकास में योगदान दे सकते हैं।
 

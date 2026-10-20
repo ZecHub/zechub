@@ -97,7 +97,7 @@ Fún **Zcash Mainnet**;
 > **Paarẹ ETH -> ZEC** - Lo awọn iṣẹ bii **LeoDex** ki o si fi ranṣẹ si adirẹsi aabo rẹ. 
 > **Yíyọ Pàṣípààrọ̀** - Fa ZEC tí o rà padà sí àdírẹ́sì ààbò WebZjs rẹ. 
 
-![LEODEX-SWAP](/content-images/HyLQ0G2ugg-8d82ef24f6.webp)
+![LeoDex-SWAP](/content-images/HyLQ0G2ugg-8d82ef24f6.webp)
 
 
 > => Lo àwọn àdírẹ́sì tí a fi ààbò (z) pamọ́ fún **ìpamọ́ gbogbo**.
@@ -158,7 +158,7 @@ Fún **Zcash Mainnet**;
 > Àwọn ẹ̀rí tí a fi ààbò pamọ́ lè gba àkókò, WebAssembly ń ṣe ìṣírò nínú ẹ̀rọ aṣàwárí. 
 > Ìgbàpadà rọrùn, fi MetaMask àti Snap náà sori ẹrọ, lẹ́yìn náà kó irúgbìn rẹ tó wà tẹ́lẹ̀ wọlé. 
 > Snap naa yipada si **aabo ZEC**, awọn adirẹsi ti o han gbangba kii ṣe idojukọ**. 
-> Lò ó [zcashblockexplorer.com](https://zcashblockexplorer.com) fún àwọn ìjẹ́rìí ìṣòwò.
+> Lò ó [mainnet.zcashexplorer.app](https://mainnet.zcashexplorer.app) fún àwọn ìjẹ́rìí ìṣòwò.
 
 
 

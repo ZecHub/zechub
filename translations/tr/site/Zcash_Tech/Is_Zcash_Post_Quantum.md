@@ -162,5 +162,5 @@ Zcash Foundation’in NU7 duygu yoklamasında (Şubat 2026), kuantumla kurtarıl
 - [zips#1134: Tamamen kuantum sonrası Zcash](https://github.com/zcash/zips/issues/1134)
 - [Proje Tachyon yol haritası](https://tachyon.z.cash/roadmap/)
 - [NU7 Yoklama Sonuçları: Duyduklarımız ve Buradan Nereye Gideceğimiz](https://forum.zcashcommunity.com/t/nu7-polling-results-what-we-heard-and-where-we-go-from-here/54775)
-- [Blockchair üzerindeki 3.428.143. blok](https://blockchair.com/zcash/block/3428143)
+- [ZecBlock üzerindeki 3.428.143. blok](https://zecblock.com/block/3428143)
 - [Forum isteği: Zcash kuantum sonrası mı?](https://forum.zcashcommunity.com/t/is-zcash-post-quantum-help-wanted-d-proposal/57154)

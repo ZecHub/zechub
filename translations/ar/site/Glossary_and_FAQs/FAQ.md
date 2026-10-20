@@ -68,7 +68,7 @@ Zcash أكثر خصوصيةً جوهريًا من Bitcoin أو Ethereum. وهو 
 
 <div className="rounded-2xl border border-border bg-card p-5 my-4">
 
-اقرأ أولًا [دليلنا لمستكشفات الكتل](/guides/blockchain-explorers). ثم تحقق من [Zcash مستكشف الكتل ](https://zcashblockexplorer.com).
+اقرأ أولًا [دليلنا لمستكشفات الكتل](/guides/blockchain-explorers). ثم تحقق من [Zcash مستكشف الكتل ](https://mainnet.zcashexplorer.app).
 
 تنتهي صلاحية المعاملات بعد نحو 25 دقيقة (20 كتلة)، وتُعاد الأموال تلقائيًا.
 

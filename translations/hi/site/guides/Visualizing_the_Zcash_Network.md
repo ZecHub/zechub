@@ -122,7 +122,7 @@ cargo run --release --features crawler --bin crawler -- --help
 
 यह प्रोग्राम को compile करेगा और सुनिश्चित करेगा कि सब कुछ सही तरह से काम कर रहा है।
 
-Crawler चलाने के लिए start command में `--seed-addrs` flag जोड़ना आवश्यक है, जिसमें कम-से-कम एक मान्य Zcash node IP address होना चाहिए। सही परिणाम पाने के लिए crawler को पर्याप्त समय तक चलने देना चाहिए। कुछ sample node IP addresses यहाँ मिल सकते हैं: [https://zcashblockexplorer.com/nodes](https://zcashblockexplorer.com/nodes).
+Crawler चलाने के लिए start command में `--seed-addrs` flag जोड़ना आवश्यक है, जिसमें कम-से-कम एक मान्य Zcash node IP address होना चाहिए। सही परिणाम पाने के लिए crawler को पर्याप्त समय तक चलने देना चाहिए। कुछ sample node IP addresses यहाँ मिल सकते हैं: [https://mainnet.zcashexplorer.app/nodes](https://mainnet.zcashexplorer.app/nodes).
 
 Crawler के चलने के दौरान उससे जानकारी प्राप्त करने के लिए start command में `--rpc-addr` flag जोड़ना आवश्यक है। केवल crawler चलाने के लिए यह आवश्यक नहीं है, लेकिन इसके बिना कोई भी जानकारी दिखाने के लिए crawler को रोकना पड़ेगा (ctrl+c या SIGKILL)।
 

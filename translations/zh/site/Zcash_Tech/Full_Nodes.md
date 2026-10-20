@@ -100,11 +100,9 @@ DNS 种子节点通过内置服务器公开其他可靠节点的列表。这让�
 
 以下是可访问 Zcash 网络数据的示例平台：
 
-[Zcash 区块浏览器](https://zcashblockexplorer.com)
+[Zcash 区块浏览器](https://mainnet.zcashexplorer.app)
 
 [Coinmetrics](https://docs.coinmetrics.io/info/assets/zec)
-
-[Blockchair](https://blockchair.com/zcash)
 
 你还可以通过运行测试、提出新的改进建议并提供指标，为网络的发展作出贡献。
 

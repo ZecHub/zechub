@@ -148,7 +148,7 @@ YWallet 的后继产品。支持当前的屏蔽池 Ironwood。
 
 ### Exblo
 专为在 Zcash Testnet 上测试交易而设计的区块浏览器。  
-[访问](https://testnet.exblo.app/)
+[访问](https://web.archive.org/web/20241206041317/https://testnet.exblo.app/)
 
 ### OpenZcash
 面向 Zcash Dev Fund 的公开透明仪表盘，包括 ZCG 和 FPF 资助核算、Lockbox、治理和拨款。  
@@ -184,7 +184,7 @@ YWallet 的后继产品。支持当前的屏蔽池 Ironwood。
 
 ### Zlink
 用于查找有关 Zcash 生态系统的链接、工具和信息的目录。  
-[访问](https://zlink.click)
+[访问](https://web.archive.org/web/20250309010146/https://zlink.click/)
 
 ### Zecmarket
 Zcash 生态系统中以隐私为先的市场。付款直接结算，平台绝不持有您的资金。  

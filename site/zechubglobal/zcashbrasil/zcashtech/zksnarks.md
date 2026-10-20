@@ -12,7 +12,7 @@ Provedor ---> Faz Reivindicação ---> Verificador Escolhe ---> Aceitar/Rejeitar
 
 Na ciência da computação, o termo para provas verificáveis ​​de forma eficiente é chamado de Provas NP. Estas provas curtas podem ser verificadas em tempo polinomial. A ideia geral é "Existe uma solução para um teorema e é passada para o verificador para verificá-la"
 
-- [Provas NP](https://cdn.discordapp.com/attachments/860525418008674327/1070395089559494716/NPlanguage.jpg "NP Language")
+- [Provas NP](https://web.archive.org/web/20231212030406/https://cdn.discordapp.com/attachments/860525418008674327/1070395089559494716/NPlanguage.jpg "NP Language")
 
 Em uma linguagem NP = duas condições devem ocorrer:
 
@@ -26,7 +26,7 @@ Em uma linguagem NP = duas condições devem ocorrer:
 
 - **Aleatoriedade**: As solicitações do verificador para o provador são aleatórias e o provador deve ser capaz de responder corretamente a cada uma delas.
 
-- [Provas de IP](https://cdn.discordapp.com/attachments/860525418008674327/1070395089194594345/IPmodel.jpg "Protocolo IP")
+- [Provas de IP](https://web.archive.org/web/20231212030406/https://cdn.discordapp.com/attachments/860525418008674327/1070395089194594345/IPmodel.jpg "Protocolo IP")
 
 Usando interação e aleatoriedade juntas, é possível provar uma afirmação para um verificador cego em Tempo Polinomial Probabilístico (PPT).
 
@@ -66,7 +66,7 @@ Real View: Todos os históricos possíveis de interações entre Provedor e Veri
 
 Visualização Simulada: O verificador simula todas as interações possíveis entre o Provedor e o Verificador
 
-- [Paradigma de Simulação](https://cdn.discordapp.com/attachments/860525418008674327/1070395090259947520/simulation.jpg "Paradigma de simulação")
+- [Paradigma de Simulação](https://web.archive.org/web/20231212030406/https://cdn.discordapp.com/attachments/860525418008674327/1070395090259947520/simulation.jpg "Paradigma de simulação")
 
 Um diferenciador de tempo polinomial tenta determinar se eles estão olhando para a visão real ou simulada e solicita uma amostra de ambos repetidamente.
 
@@ -98,7 +98,7 @@ Exemplo: "3x² + 8x + 17"
 
 **Circuito Aritmético**: Um modelo para computar polinômios. De forma mais geral, pode ser definido como um gráfico acíclico direcionado no qual, em cada nó do gráfico, uma operação aritmética é executada. O circuito consiste em portas de adição, portas de multiplicação e algumas portas constantes. Da mesma forma que os circuitos booleanos transportam bits em fios, os circuitos aritméticos transportam inteiros.
 
-- [Circuito](https://cdn.discordapp.com/attachments/860525418008674327/1070405388048011305/circuit.jpg "DAG")
+- [Circuito](https://web.archive.org/web/20231212030406/https://cdn.discordapp.com/attachments/860525418008674327/1070405388048011305/circuit.jpg "DAG")
 
 Neste exemplo, o provador quer convencer o verificador de que conhece uma solução para o circuito aritmético.
 
@@ -122,7 +122,7 @@ Para formar um SNARK que pode ser usado para circuitos gerais são necessários 
 
 Os procedimentos de configuração ajudam o verificador resumindo um circuito e gerando parâmetros públicos.
 
-- [Configuração](https://cdn.discordapp.com/attachments/860525418008674327/1070395089899229245/setup.jpg "Configuração")
+- [Configuração](https://web.archive.org/web/20231212030406/https://cdn.discordapp.com/attachments/860525418008674327/1070395089899229245/setup.jpg "Configuração")
 
 ---
 
@@ -171,7 +171,7 @@ As transações não são necessariamente privadas em um zk-EVM.
 
 A vantagem de um serviço Rollup baseado em prova (zk-Rollup) é processar um lote de centenas/milhares de transações e a L1 é capaz de verificar uma prova sucinta de que todas as transações foram processadas corretamente, dimensionando a taxa de transferência da rede por um fator de 100 ou 1000.
 
-- [zkvm](https://cdn.discordapp.com/attachments/860525418008674327/1070395090612265000/zkvm.jpg "ZKVM")
+- [zkvm](https://web.archive.org/web/20231212030406/https://cdn.discordapp.com/attachments/860525418008674327/1070395090612265000/zkvm.jpg "ZKVM")
 
 **Interoperabilidade**: Isso é alcançado em uma zk-Bridge 'bloqueando' ativos em uma blockchain de origem e provando à chain de destino que os ativos foram bloqueados (prova de consenso).
 

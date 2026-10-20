@@ -26,7 +26,7 @@ Because there are two types, value can move in four ways: transparent to transpa
 
 ## What an explorer can see
 
-A public explorer such as [Blockchair](https://blockchair.com/zcash) can clearly read:
+A public explorer such as [ZecBlock](https://zecblock.com/) can clearly read:
 
 - Any fully transparent (t to t) payment, end to end.
 - Money entering the shielded pool (the transparent side and the amount).
@@ -65,7 +65,7 @@ Query the raw data and the shielded sender and receiver fields come back empty. 
 - [Zcash: privacy and security recommendations](https://z.cash/support/security/privacy-security-recommendations/)
 - [A shielded ecosystem (Electric Coin Company)](https://web.archive.org/web/20260903010654/https://electriccoin.co/blog/shielded-ecosystem/)
 - [How Zcash technology works](https://z.cash/technology/)
-- [Blockchair Zcash explorer](https://blockchair.com/zcash)
+- [ZecBlock](https://zecblock.com/)
 
 ## Related pages
 

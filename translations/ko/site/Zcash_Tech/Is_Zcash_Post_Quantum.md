@@ -162,5 +162,5 @@ Zcash Foundation의 NU7 정서 조사(2026년 2월)에서 양자 복구 가능�
 - [zips#1134: 완전한 포스트 양자 Zcash](https://github.com/zcash/zips/issues/1134)
 - [Project Tachyon 로드맵](https://tachyon.z.cash/roadmap/)
 - [NU7 설문 결과: 우리가 들은 내용과 앞으로의 방향](https://forum.zcashcommunity.com/t/nu7-polling-results-what-we-heard-and-where-we-go-from-here/54775)
-- [Blockchair의 블록 3,428,143](https://blockchair.com/zcash/block/3428143)
+- [ZecBlock의 블록 3,428,143](https://zecblock.com/block/3428143)
 - [포럼 요청: Zcash는 포스트 양자 보안인가?](https://forum.zcashcommunity.com/t/is-zcash-post-quantum-help-wanted-d-proposal/57154)

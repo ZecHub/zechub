@@ -68,7 +68,7 @@ Maamuzi huandikwa katika vipimo na kuidhinishwa kwenye mnyororo wakati mtandao u
 
 <div className="rounded-2xl border border-border bg-card p-5 my-4">
 
-Usomaji wa kwanza [mwongozo wetu wa kuzuia wachunguzi](/guides/blockchain-explorers)Kisha angalia [Kichunguzi cha Kizuizi Zcash](https://zcashblockexplorer.com).
+Usomaji wa kwanza [mwongozo wetu wa kuzuia wachunguzi](/guides/blockchain-explorers)Kisha angalia [Kichunguzi cha Kizuizi Zcash](https://mainnet.zcashexplorer.app).
 
 Miamala huisha baada ya takriban dakika 25 (vizuizi 20) na pesa hurejeshwa kiotomatiki.
 

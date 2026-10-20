@@ -97,7 +97,7 @@ Le **Zcash Mainnet** gome la;
 > **Trɔ ETH -> ZEC** - Zã subɔsubɔdɔwo abe **LeoDex** eye nàɖoe ɖe wò adrɛs si wokpɔ ta na. 
 > **Exchange Withdrawal** - Ðe ZEC si nèƒle la ɖa ɖe wò WebZjs ƒe adrɛs si wokpɔ ta na la dzi. 
 
-![LEODEX-SWAP](/content-images/HyLQ0G2ugg-8d82ef24f6.webp)
+![LeoDex-SWAP](/content-images/HyLQ0G2ugg-8d82ef24f6.webp)
 
 
 > => Zã adrɛs siwo wokpɔ ta na (z) hena **adzamenyawo blibo**.
@@ -158,7 +158,7 @@ Le **Zcash Mainnet** gome la;
 > Kpeɖodzi siwo wokpɔ ta na ate ŋu axɔ ɣeyiɣi, WebAssembly kpɔa akɔntabubu gbɔ le web-browser me. 
 > Gbugbɔgaxɔ le bɔbɔe,de MetaMask kple Snap, emegbe tsɔ wò nuku si li xoxo la vɛ. 
 > Snap la nye **shielded ZEC**, adrɛs siwo me kɔ la nye **menye nusi ŋu wole ŋku lém ɖo o**. 
-> Zã [zcashblockexplorer.com ƒe nyatakakadzraɖoƒea](https://zcashblockexplorer.com) hena asitsatsa ƒe kpeɖodziwo.
+> Zã [mainnet.zcashexplorer.app ƒe nyatakakadzraɖoƒea](https://mainnet.zcashexplorer.app) hena asitsatsa ƒe kpeɖodziwo.
 
 
 

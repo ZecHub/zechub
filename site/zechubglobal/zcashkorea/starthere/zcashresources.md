@@ -31,7 +31,7 @@ Z.cash는 Zcash의 메인 웹사이트입니다. Zcash 사용자를 위해 Zcash
 
 **[Zcash Github](https://github.com/zcash/zcash)**
 
-코딩이 필요하고 Zcash의 기술적 측면에 대해 더 깊이 알고 싶습니까? Zcash Github Repo는 최초의 Zcash 노드 구현인 zcashd 의 저장소입니다. [zcashd](https://electriccoin.co/zcashd/)
+코딩이 필요하고 Zcash의 기술적 측면에 대해 더 깊이 알고 싶습니까? Zcash Github Repo는 최초의 Zcash 노드 구현인 zcashd 의 저장소입니다. [zcashd](https://web.archive.org/web/20240222050745/https://electriccoin.co/zcashd/)
 
 
 **[Zcash Foundation Github](https://github.com/ZcashFoundation)**

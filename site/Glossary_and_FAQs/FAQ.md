@@ -68,7 +68,7 @@ Decisions are written into the specification and ratified on-chain when the netw
 
 <div className="rounded-2xl border border-border bg-card p-5 my-4">
 
-First read [our guide to block explorers](/guides/blockchain-explorers). Then check [Zcash Block Explorer](https://zcashblockexplorer.com).
+First read [our guide to block explorers](/guides/blockchain-explorers). Then check [Zcash Block Explorer](https://mainnet.zcashexplorer.app).
 
 Transactions expire after approximately 25 minutes (20 blocks) and funds are returned automatically.
 

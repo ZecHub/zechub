@@ -101,7 +101,7 @@ Inklusi keuangan, yang dulunya merupakan mercusuar harapan, kini menghadapi baya
 
 Bagi mereka yang sedang menjelajahi wilayah baru CBDC, sumber daya akan menjadi kompas Anda.
 1. Bank for International Settlements ([BIS](https://www.bis.org/search?keywords=cbdc))
-2. Dana Moneter Internasional ([IMF](https://www.imf.org/en/About))
+2. Dana Moneter Internasional ([IMF](https://web.archive.org/web/20260708111341/https://www.imf.org/en/about))
 3. Makalah penelitian ([paper](https://papers.ssrn.com/searchresults.cfm?term=CBDC))
 4. Jurnal Akademik ([journal](https://www.bis.org/publ/work976.pdf))
 5. Artikel C.E.I ([Article](https://cei.org/blog/central-banks-are-watching-lets-watch-them-back/))

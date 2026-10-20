@@ -122,7 +122,7 @@ cargo run --release --features crawler --bin crawler -- --help
 
 Esia aƒo ɖoɖowɔɖia nu ƒu eye wòakpɔ egbɔ be nusianu le dɔ wɔm nyuie.
 
-Be woawɔ Crawler la, ehiã be woatsɔ '--seed-addrs' aflaga akpe ɖe gɔmedzedze ƒe sededea ŋu, si me Zcash node IP adrɛs ɖeka ya teti, si sɔ, anɔ. Ele be woaɖe mɔ na crawler la be wòaƒu du hena ɣeyiɣi si sɔ be woakpɔ emetsonu si sɔ. Woateŋu akpɔ kpɔɖeŋu node IP adrɛs aɖewo le [https://zcashblockexplorer.com/nodes](https://zcashblockexplorer.com/nodes).
+Be woawɔ Crawler la, ehiã be woatsɔ '--seed-addrs' aflaga akpe ɖe gɔmedzedze ƒe sededea ŋu, si me Zcash node IP adrɛs ɖeka ya teti, si sɔ, anɔ. Ele be woaɖe mɔ na crawler la be wòaƒu du hena ɣeyiɣi si sɔ be woakpɔ emetsonu si sɔ. Woateŋu akpɔ kpɔɖeŋu node IP adrɛs aɖewo le [https://mainnet.zcashexplorer.app/nodes](https://mainnet.zcashexplorer.app/nodes).
 
 Be nàxɔ nyatakaka tso Crawler gbɔ esime wòle dɔ wɔm la, ele be nàtsɔ '--rpc-addr' aflaga akpe ɖe gɔmedzedze ƒe sededea ŋu. Esia mehiã be woawɔ crawler la ŋutɔ ko o gake ne menye nenema o la, abia be woatɔ crawler (ctrl+c alo SIGKILL) be woaɖe nyatakaka aɖeke afia kura o.
 

@@ -162,5 +162,5 @@ Le Zcash Foundation's NU7 seselelãme ƒe numekuku (February 2026) me la, quantu
 - [zips#1134: Zcash si le quantum megbe bliboe](https://github.com/zcash/zips/issues/1134)
 - [Dɔwɔɖoɖo Tachyon ƒe mɔfiame](https://tachyon.z.cash/roadmap/)
 - [NU7 ƒe Nyametsotsowo: Nusiwo Míese Kple Afisi Míeyi Tso Afisia](https://forum.zcashcommunity.com/t/nu7-polling-results-what-we-heard-and-where-we-go-from-here/54775)
-- [Block 3,428,143 le Blockchair dzi](https://blockchair.com/zcash/block/3428143)
+- [Block 3,428,143 le ZecBlock dzi](https://zecblock.com/block/3428143)
 - [Nyamedzroƒe ƒe biabiawo: Ðe Zcash nye post-quantum?](https://forum.zcashcommunity.com/t/is-zcash-post-quantum-help-wanted-d-proposal/57154)

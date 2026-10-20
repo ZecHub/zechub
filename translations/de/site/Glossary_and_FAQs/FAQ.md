@@ -68,7 +68,7 @@ Entscheidungen werden in die Spezifikation aufgenommen und on-chain ratifiziert,
 
 <div className="rounded-2xl border border-border bg-card p-5 my-4">
 
-Lesen Sie zunächst [unseren Leitfaden zu Block-Explorern](/guides/blockchain-explorers). Prüfen Sie anschließend den [Zcash Block Explorer](https://zcashblockexplorer.com).
+Lesen Sie zunächst [unseren Leitfaden zu Block-Explorern](/guides/blockchain-explorers). Prüfen Sie anschließend den [Zcash Block Explorer](https://mainnet.zcashexplorer.app).
 
 Transaktionen laufen nach etwa 25 Minuten (20 Blöcken) ab und die Gelder werden automatisch zurückerstattet.
 

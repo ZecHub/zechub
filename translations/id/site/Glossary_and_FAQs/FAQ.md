@@ -68,7 +68,7 @@ Keputusan ditulis ke dalam spesifikasi dan diratifikasi on-chain ketika network 
 
 <div className="rounded-2xl border border-border bg-card p-5 my-4">
 
-Pertama, bacalah [panduan kami tentang block explorer](/guides/blockchain-explorers). Kemudian periksa [Zcash Block Explorer](https://zcashblockexplorer.com).
+Pertama, bacalah [panduan kami tentang block explorer](/guides/blockchain-explorers). Kemudian periksa [Zcash Block Explorer](https://mainnet.zcashexplorer.app).
 
 Transaksi kedaluwarsa setelah sekitar 25 menit (20 blok) dan dana dikembalikan secara otomatis.
 

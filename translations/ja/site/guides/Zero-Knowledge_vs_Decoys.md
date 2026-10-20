@@ -74,5 +74,5 @@ https://youtu.be/XpRzKqEfpP4
 
 https://electriccoin.co/blog/zcash-evolution/
 
-https://electriccoin.co/zcash-metrics/
+https://web.archive.org/web/20240327000137/https://electriccoin.co/zcash-metrics/
 https://electriccoin.co/blog/viewing-keys-selective-disclosure/

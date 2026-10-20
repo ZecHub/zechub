@@ -19,7 +19,7 @@ Wɔn a wɔyɛ nnam no bi ni:
 | Naomi Brockwell (NBTV) na ɔde ne nsa kyerɛɛ ne so     | Nsɛmbisa a ɛkorɔn ne emu nsɛm a ɛfa kokoam nsɛm ho           | [Nsrahwɛ ->](https://naomibrockwell.com/highprofileinterviews) |
 | Sqribbles a wɔde kyerɛw nsɛm                  | Adebɔ ne mpɔtam hɔfo a wɔde Zcash nneɛma di dwuma              | [Nsrahwɛ ->](https://free2z.cash/sqribbles) |
 | Str4d                      | Mfiridwuma ho nkyerɛwee a efi Zcash core developer hɔ             | [Nsrahwɛ ->](https://words.str4d.xyz/) |
-| CipherScan Nnawɔtwe Biara          | Nnawɔtwe biara blog nsɛm a ɛfa Zcash blockchain analytics ho    | [Nsrahwɛ ->](https://cipherscan.app/) |
+| CipherScan Nnawɔtwe Biara          | Nnawɔtwe biara blog nsɛm a ɛfa Zcash blockchain analytics ho    | [Nsrahwɛ ->](https://zecblock.com/) |
 | Zcash Shielded Nsɛm ho amanneɛbɔ        | Nnawɔtwe biara kokoam nsɛm ne abɔde a nkwa wom ho amanneɛbɔ digest                 | [Nsrahwɛ ->](https://zechub.substack.com/) |
 | ZecHub DAO Blog na ɔkyerɛwee            | Nsɛm ne nkyerɛkyerɛ mu nsɛm a efi ZecHub DAO mpɔtam hɔ | [Nsrahwɛ ->](https://zechub.wiki) |
 

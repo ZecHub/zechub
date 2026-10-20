@@ -97,7 +97,7 @@ Para **Zcash Mainnet**;
 > **Intercambiar ETH -> ZEC** - Usa servicios como **LeoDex** y envía a tu dirección blindada.  
 > **Retiro desde exchange** - Retira el ZEC comprado a tu dirección blindada de WebZjs.  
 
-![INTERCAMBIO-LEODEX](/content-images/HyLQ0G2ugg-8d82ef24f6.webp)
+![INTERCAMBIO-LeoDex](/content-images/HyLQ0G2ugg-8d82ef24f6.webp)
 
 
 > => Usa direcciones blindadas (z) para **privacidad total**.
@@ -158,4 +158,4 @@ Para **Zcash Mainnet**;
 > Las pruebas blindadas pueden tardar; WebAssembly gestiona el cómputo en el navegador.  
 > La recuperación es sencilla: instala MetaMask y el Snap, luego importa tu semilla existente.  
 > El Snap usa por defecto **ZEC blindado**; las direcciones transparentes **no son el enfoque principal**.  
-> Usa [zcashblockexplorer.com](https://zcashblockexplorer.com) para confirmar transacciones.
+> Usa [mainnet.zcashexplorer.app](https://mainnet.zcashexplorer.app) para confirmar transacciones.

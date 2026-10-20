@@ -97,7 +97,7 @@ Maka **Zcash Mainnet**;
 > **Gbanwee ETH -> ZEC** - Jiri ọrụ dịka **LeoDex** ziga ya na adreesị echekwara gị. 
 > **Mwepụ Mgbanwe** - Wepụ ZEC azụrụ na adreesị nchekwa WebZjs gị. 
 
-![LEODEX-SWAP](/content-images/HyLQ0G2ugg-8d82ef24f6.webp)
+![LeoDex-SWAP](/content-images/HyLQ0G2ugg-8d82ef24f6.webp)
 
 
 > => Jiri adreesị echekwara (z) maka **nzuzo zuru oke**.
@@ -158,7 +158,7 @@ Maka **Zcash Mainnet**;
 > Ihe akaebe echekwara nwere ike were oge, WebAssembly na-ejikwa mgbakọ na mwepụ n'ime ihe nchọgharị. 
 > Iweghachite dị mfe, wụnye MetaMask na Snap, wee bubata mkpụrụ gị dị ugbu a. 
 > Snap na-agbanwe agbanwe gaa na **ZEC**, adreesị doro anya abụghị **ihe a na-elekwasị anya na ya**. 
-> Jiri [zcashblockexplorer.com](https://zcashblockexplorer.com) maka nkwenye azụmahịa.
+> Jiri [mainnet.zcashexplorer.app](https://mainnet.zcashexplorer.app) maka nkwenye azụmahịa.
 
 
 

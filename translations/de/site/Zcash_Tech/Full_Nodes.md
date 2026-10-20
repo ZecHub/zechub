@@ -100,11 +100,9 @@ DNS-Seeder stellen über einen integrierten Server eine Liste anderer zuverläss
 
 Dies sind Beispielplattformen, die Zugriff auf Zcash-Netzwerkdaten ermöglichen:
 
-[Zcash Block Explorer](https://zcashblockexplorer.com)
+[Zcash Block Explorer](https://mainnet.zcashexplorer.app)
 
 [Coinmetrics](https://docs.coinmetrics.io/info/assets/zec)
-
-[Blockchair](https://blockchair.com/zcash)
 
 Du kannst außerdem zur Entwicklung des Netzwerks beitragen, indem du Tests ausführst, neue Verbesserungen vorschlägst und Metriken bereitstellst.
 

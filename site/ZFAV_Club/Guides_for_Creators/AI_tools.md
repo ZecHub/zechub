@@ -48,7 +48,7 @@ login with X, Google, Discord, Telegram
 - [Midjourney Bot](https://discord.com/invite/midjourney) in Discord - from $10/month - [Get started Guide](https://docs.midjourney.com/docs/quick-start)
 can get about 100 free generations by rating a lot of others [images in here](https://www.midjourney.com/app/rank-pairs/)
 (have to make it to top2000 raters - about 15 minutes of rating pictures)
-- [DALL-E 2](https://labs.openai.com/) [](https://openai.com/dall-e-2)- $15/115 generations - (free 15 generations/month)
+- [DALL-E 2](https://web.archive.org/web/20250601174514/https://labs.openai.com/) [](https://openai.com/dall-e-2)- $15/115 generations - (free 15 generations/month)
 - [DALL-E 3](https://openai.com/dall-e-3/) - included in ChatGPT-4 - $20/month
 - [Nightcafe Creator](https://creator.nightcafe.studio/) (4 generations free, paid starts $6/month)
 
@@ -82,7 +82,7 @@ can get about 100 free generations by rating a lot of others [images in here](ht
 
 ### Voice generating
 
-- [play.ht](https://play.ht/) - free - (subscription from $39/month)
+- [play.ht](https://web.archive.org/web/20260310162301/https://play.ht/) - free - (subscription from $39/month)
 - [ElevenLabs](https://elevenlabs.io/) - free - (subscription from $5/month)
 - [Murf](https://murf.ai/) - free - (subscription from $29/month)
 - [Resemble](https://www.resemble.ai/) - try for free (after $0.006 per second)

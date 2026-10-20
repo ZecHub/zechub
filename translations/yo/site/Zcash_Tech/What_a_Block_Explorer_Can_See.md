@@ -26,7 +26,7 @@ Nítorí pé oríṣi méjì ló wà, iye lè gbéra ní ọ̀nà mẹ́rin: à�
 
 ## Ohun tí olùṣàwárí lè rí
 
-Olùwádìí gbogbogbò bíi [Blockchair](https://blockchair.com/zcash) le ka ni kedere:
+Olùwádìí gbogbogbò bíi [ZecBlock](https://zecblock.com/) le ka ni kedere:
 
 - Ìsanwó èyíkéyìí tí ó ṣe kedere (t sí t), láti òpin dé òpin.
 - Owó tí ó ń wọ inú adágún tí a dáàbò bò (ẹ̀gbẹ́ tí ó hàn gbangba àti iye náà).
@@ -65,7 +65,7 @@ Beere awọn data aise ati awọn aaye ti o ni aabo fun oluranṣẹ ati olugba 
 - [Zcash: awọn iṣeduro ikọkọ ati aabo](https://z.cash/support/security/privacy-security-recommendations/)
 - [A shielded ecosystem (Electric Coin Company)](https://web.archive.org/web/20260903010654/https://electriccoin.co/blog/shielded-ecosystem/)
 - [Báwo ni ìmọ̀ ẹ̀rọ Zcash ṣe ń ṣiṣẹ́](https://z.cash/technology/)
-- [Olùwádìí Zcash Blockchair](https://blockchair.com/zcash)
+- [ZecBlock](https://zecblock.com/)
 
 ## Àwọn ojú ìwé tó jọra
 

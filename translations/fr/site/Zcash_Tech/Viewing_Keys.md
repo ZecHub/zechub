@@ -74,7 +74,7 @@ Fournir une adresse Sapling renvoie la clé de visualisation complète étendue 
 
 ### Wallets qui exportent des clés de visualisation depuis leur propre interface
 
-La page [Wallets](/using-zcash/wallets) répertorie la prise en charge des clés de visualisation et l'état de préparation à Ironwood pour chaque wallet. Au moment de la rédaction, les wallets indiquant à la fois la prise en charge des clés de visualisation et **Ironwood: Ready** comprennent ZODL, Zingo!, Zkool, Cake, Zallet, Zecd et Nozy. Consultez cette page plutôt que celle-ci avant de vous fier à un wallet particulier, car cet état évolue.
+La page [Wallets](/using-zcash/wallets) répertorie la prise en charge des clés de visualisation et l'état de préparation à Ironwood pour chaque wallet. Au moment de la rédaction, les wallets indiquant à la fois la prise en charge des clés de visualisation et **Ironwood: Ready** comprennent ZODL, Zingo!, Zkool, Cake, Zallet, zecd et Nozy. Consultez cette page plutôt que celle-ci avant de vous fier à un wallet particulier, car cet état évolue.
 
 ## Importer une clé de visualisation en tant que compte en lecture seule
 

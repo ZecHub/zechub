@@ -34,7 +34,7 @@ Z.cash — это основной веб-сайт Zcash. Он предоста�
 **[Zcash Github](https://github.com/zcash/zcash)**
 
 
-У вас есть навыки программирования и вы хотите глубже погрузиться в техническую сторону Zcash? Репозиторий Zcash Github — это репозиторий [zcashd](https://electriccoin.co/zcashd/), первой реализации узла Zcash.
+У вас есть навыки программирования и вы хотите глубже погрузиться в техническую сторону Zcash? Репозиторий Zcash Github — это репозиторий [zcashd](https://web.archive.org/web/20240222050745/https://electriccoin.co/zcashd/), первой реализации узла Zcash.
 
 
 **[Zcash Foundation Github](https://github.com/ZcashFoundation)**

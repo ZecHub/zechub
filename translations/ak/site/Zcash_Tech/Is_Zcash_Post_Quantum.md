@@ -162,5 +162,5 @@ Wɔ Zcash Foundation's NU7 sentiment polling (February 2026) mu no, quantum reco
 - [zips#1134: Zcash a ɛwɔ quantum akyi koraa](https://github.com/zcash/zips/issues/1134)
 - [Project Tachyon kwankyerɛ](https://tachyon.z.cash/roadmap/)
 - [NU7 Polling Results: Nea Yɛtee ne Baabi a Yɛkɔ Fi Ha](https://forum.zcashcommunity.com/t/nu7-polling-results-what-we-heard-and-where-we-go-from-here/54775)
-- [Block 3,428,143 wɔ Blockchair so](https://blockchair.com/zcash/block/3428143)
+- [Block 3,428,143 wɔ ZecBlock so](https://zecblock.com/block/3428143)
 - [Forum abisade: So Zcash yɛ post-quantum?](https://forum.zcashcommunity.com/t/is-zcash-post-quantum-help-wanted-d-proposal/57154)

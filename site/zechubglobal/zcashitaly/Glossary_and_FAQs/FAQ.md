@@ -34,7 +34,7 @@ Le decisioni dal processo ZIP sono inserite nelle specifiche di Zcash, così com
 
 ## Dov'è la mia transazione?
 
-Prima leggi [il nostro articolo](https://zechub.notion.site/Zcash-Blockchain-Explorer-4b4d970cb53e474989932c6e1a78b629) sui block explorer. Successivamente controlla [Zcash block explorer](https://zcashblockexplorer.com) notando che tutte le transazioni scadono per impostazione predefinita dopo circa 25 minuti/20 blocchi e i fondi vengono restituiti all'indirizzo di invio originale. 
+Prima leggi [il nostro articolo](https://zechub.notion.site/Zcash-Blockchain-Explorer-4b4d970cb53e474989932c6e1a78b629) sui block explorer. Successivamente controlla [Zcash block explorer](https://mainnet.zcashexplorer.app) notando che tutte le transazioni scadono per impostazione predefinita dopo circa 25 minuti/20 blocchi e i fondi vengono restituiti all'indirizzo di invio originale. 
 
 Se la tua transazione scade, la cosa migliore da fare è provare nuovamente la transazione con alcune possibili modifiche.
 

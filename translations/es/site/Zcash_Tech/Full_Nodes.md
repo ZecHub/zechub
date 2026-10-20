@@ -100,11 +100,9 @@ Los sembradores DNS exponen una lista de otros nodos confiables mediante un serv
 
 Estas son plataformas de ejemplo que permiten acceder a datos de la red Zcash:
 
-[Zcash Explorador de bloques](https://zcashblockexplorer.com)
+[Zcash Explorador de bloques](https://mainnet.zcashexplorer.app)
 
 [Coinmetrics](https://docs.coinmetrics.io/info/assets/zec)
-
-[Blockchair](https://blockchair.com/zcash)
 
 También puedes contribuir al desarrollo de la red ejecutando pruebas o proponiendo nuevas mejoras y proporcionando métricas.
 

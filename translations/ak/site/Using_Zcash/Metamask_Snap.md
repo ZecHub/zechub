@@ -97,7 +97,7 @@ Sɛ wopɛ sɛ wohu **Zcash Mainnet** a;
 > **Swap ETH -> ZEC** - Fa nnwuma te sɛ **LeoDex** di dwuma na fa kɔ wo shielded address no so. 
 > **Exchange Withdrawal** - Twe ZEC a woatɔ no kɔ wo WebZjs address a wɔabɔ ho ban no so. 
 
-![LEODEX-SWAP](/content-images/HyLQ0G2ugg-8d82ef24f6.webp)
+![LeoDex-SWAP](/content-images/HyLQ0G2ugg-8d82ef24f6.webp)
 
 
 > => Fa address ahorow a wɔabɔ ho ban (z) di dwuma ma **kokoamsɛm a edi mũ**.
@@ -158,7 +158,7 @@ Sɛ wopɛ sɛ wohu **Zcash Mainnet** a;
 > Adanse a wɔabɔ ho ban betumi agye bere, WebAssembly di akontaabu ho dwuma wɔ browser mu. 
 > Recovery yɛ mmerɛw,install MetaMask ne Snap, afei import wo dedaw aba. 
 > Snap no defaults yɛ **shielded ZEC**, address a ɛda adi pefee no yɛ **ɛnyɛ focus**. 
-> Fa di dwuma [zcashblockexplorer.com na ɛwɔ hɔ](https://zcashblockexplorer.com) ama asɛm no ho adansedi krataa.
+> Fa di dwuma [mainnet.zcashexplorer.app na ɛwɔ hɔ](https://mainnet.zcashexplorer.app) ama asɛm no ho adansedi krataa.
 
 
 

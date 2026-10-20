@@ -100,11 +100,9 @@ DNS seeder menyediakan daftar node andal lainnya melalui server bawaan. Hal ini 
 
 Berikut adalah contoh platform yang memungkinkan akses ke data Jaringan Zcash:
 
-[Zcash Penjelajah Blok](https://zcashblockexplorer.com)
+[Zcash Penjelajah Blok](https://mainnet.zcashexplorer.app)
 
 [Coinmetrics](https://docs.coinmetrics.io/info/assets/zec)
-
-[Blockchair](https://blockchair.com/zcash)
 
 Anda juga dapat berkontribusi pada pengembangan jaringan dengan menjalankan pengujian atau mengusulkan peningkatan baru & menyediakan metrik.
 

@@ -21,9 +21,9 @@ Sɛ woyɛ foforo wɔ Zcash mu a, fa di dwuma [akwankyerɛ yi](/start-here/new-us
 
 ---
 
-1. Go to [ZecHub ne Github repo no](https://github.com/ZecHub/zechub)
+1. Go to [ZecHub ne GitHub repo no](https://github.com/ZecHub/zechub)
    
-2. Yɛ Github akonta foforo anaa fa w’ankasa wo deɛ kɔ mu
+2. Yɛ GitHub akonta foforo anaa fa w’ankasa wo deɛ kɔ mu
    
 3. Di akwankyerɛ yi akyi na sua sɛnea wobɛyɛ twe abisade:
 
@@ -51,15 +51,15 @@ Wɔ anigyeɛ a ɛne sɛ wobɛkura uniform hwɛbea akɔ ZecHub mu no, template bi
 3. No inappropriate content.
 ```
 
-Ntoboa a Wɔde Ma: [ha](https://explorer.zec.rocks/ua/u17sawf3pdh7z6tsy83vhjd2z7sztpy9y87wyyqz4vqshn3yhch28q3ud3lr0etadl3flz4c9zdrtn9lwlf23vzmjnll97efxzg9h0rjzn9qvhvqr8p3394ysnfhg560xxxc66yxzh8r548myxn3l2qrc9pfrt8nrzhxvlpuuykv7czjsm)
+Ntoboa a Wɔde Ma: [ha](https://mainnet.zcashexplorer.app/ua/u17sawf3pdh7z6tsy83vhjd2z7sztpy9y87wyyqz4vqshn3yhch28q3ud3lr0etadl3flz4c9zdrtn9lwlf23vzmjnll97efxzg9h0rjzn9qvhvqr8p3394ysnfhg560xxxc66yxzh8r548myxn3l2qrc9pfrt8nrzhxvlpuuykv7czjsm)
 
-<a href="https://explorer.zec.rocks/ua/u17sawf3pdh7z6tsy83vhjd2z7sztpy9y87wyyqz4vqshn3yhch28q3ud3lr0etadl3flz4c9zdrtn9lwlf23vzmjnll97efxzg9h0rjzn9qvhvqr8p3394ysnfhg560xxxc66yxzh8r548myxn3l2qrc9pfrt8nrzhxvlpuuykv7czjsm">
+<a href="https://mainnet.zcashexplorer.app/ua/u17sawf3pdh7z6tsy83vhjd2z7sztpy9y87wyyqz4vqshn3yhch28q3ud3lr0etadl3flz4c9zdrtn9lwlf23vzmjnll97efxzg9h0rjzn9qvhvqr8p3394ysnfhg560xxxc66yxzh8r548myxn3l2qrc9pfrt8nrzhxvlpuuykv7czjsm">
     <img src="/content-images/image-2023-11-18-141228046-644b4c542d.webp" alt="" width="200" height="200"/>
 </a>
 
 
 
-**DISCLAIMER: ZecHub yɛ adwuma a ɛde ne ho koraa na ɛyɛ open-source a Zcash mpɔtam hɔfo na wɔde sii hɔ. Biribiara nni hɔ a ɛwɔ Github akoraeɛ yi mu a ɛnsɛ sɛ wɔbu no sɛ sikasɛm anaa sikasɛm ho afotuo - ɛyɛ nsɛm ho amanneɛbɔ nko ara.**
+**DISCLAIMER: ZecHub yɛ adwuma a ɛde ne ho koraa na ɛyɛ open-source a Zcash mpɔtam hɔfo na wɔde sii hɔ. Biribiara nni hɔ a ɛwɔ GitHub akoraeɛ yi mu a ɛnsɛ sɛ wɔbu no sɛ sikasɛm anaa sikasɛm ho afotuo - ɛyɛ nsɛm ho amanneɛbɔ nko ara.**
 
 ---
 

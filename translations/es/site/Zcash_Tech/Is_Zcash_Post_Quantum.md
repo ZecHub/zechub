@@ -162,5 +162,5 @@ En las encuestas de opinión Zcash Foundation de NU7 (febrero de 2026), la recup
 - [zips#1134: Zcash totalmente poscuántico](https://github.com/zcash/zips/issues/1134)
 - [Hoja de ruta del proyecto Tachyon](https://tachyon.z.cash/roadmap/)
 - [NU7 Resultados de la encuesta: lo que escuchamos y hacia dónde vamos a partir de aquí](https://forum.zcashcommunity.com/t/nu7-polling-results-what-we-heard-and-where-we-go-from-here/54775)
-- [Bloque 3,428,143 en Blockchair](https://blockchair.com/zcash/block/3428143)
+- [Bloque 3,428,143 en ZecBlock](https://zecblock.com/block/3428143)
 - [Solicitud en el foro: ¿Es Zcash poscuántico?](https://forum.zcashcommunity.com/t/is-zcash-post-quantum-help-wanted-d-proposal/57154)

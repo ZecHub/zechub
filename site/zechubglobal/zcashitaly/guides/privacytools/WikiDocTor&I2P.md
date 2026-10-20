@@ -34,7 +34,7 @@ Seguite le seguenti istruzioni per collegare Tor al portafoglio Zcash *(Ywallet)
 
 5. Controllare la barra delle applicazioni o la homepage di Orbot per verificare che Tor sia in esecuzione; la conferma si ha quando si vede "Connected to the Tor network".
 
-* Per il video tutorial vedere [qui](https://drive.google.com/file/d/12ODTLrjgSzYFeAOTrv-P9LvfBVOvrSXK/view?usp=sharing)
+* Per il video tutorial vedere qui
 
 *Nota: se Tor è bloccato dalla rete mobile, è possibile utilizzare un Bridge Server come metodo alternativo di connessione.
 
@@ -64,7 +64,7 @@ Seguite le seguenti istruzioni per collegare Tor al portafoglio Zcash *(Ywallet)
 
 Zcashd è il portafoglio ufficiale full-node basato su Linux, aggiornato e mantenuto dagli sviluppatori di Electric coin Co. È destinato agli utenti che desiderano estrarre e convalidare transazioni in zcash, nonché inviare e ricevere zcash.
 
-* Il sito ufficiale per scaricare Zcashd Wallet si trova [qui](https://electriccoin.co/zcashd/). 
+* Il sito ufficiale per scaricare Zcashd Wallet si trova [qui](https://web.archive.org/web/20240222050745/https://electriccoin.co/zcashd/). 
 
 * Installare il portafoglio: Link al video tutorial [qui](https://www.youtube.com/watch?v=hTKL0jPu7X0) fornito dagli sviluppatori del portafoglio Zcash.
 

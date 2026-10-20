@@ -97,7 +97,7 @@ Bu, ağ bilgilerini ve explorer bağlantılarını etkinleştirir.
 > **ETH -> ZEC Takası** - **LeoDex** gibi hizmetleri kullanın ve shielded adresinize gönderin.  
 > **Borsadan Çekim** - Satın aldığınız ZEC'yi WebZjs shielded adresinize çekin.  
 
-![LEODEX-SWAP](/content-images/HyLQ0G2ugg-8d82ef24f6.webp)
+![LeoDex-SWAP](/content-images/HyLQ0G2ugg-8d82ef24f6.webp)
 
 
 > => **Tam gizlilik** için shielded (z) adresleri kullanın.
@@ -158,4 +158,4 @@ Bu, ağ bilgilerini ve explorer bağlantılarını etkinleştirir.
 > Shielded proof'ların oluşturulması zaman alabilir; hesaplama tarayıcı içinde WebAssembly tarafından gerçekleştirilir.  
 > Kurtarma basittir, MetaMask ve Snap'i yükleyin, ardından mevcut seed'inizi içe aktarın.  
 > Snap varsayılan olarak **shielded ZEC** kullanır, transparent adresler **odak noktası değildir**.  
-> İşlem onayları için [zcashblockexplorer.com](https://zcashblockexplorer.com) kullanın.
+> İşlem onayları için [mainnet.zcashexplorer.app](https://mainnet.zcashexplorer.app) kullanın.

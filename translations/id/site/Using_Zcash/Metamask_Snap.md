@@ -97,7 +97,7 @@ Untuk **Mainnet Zcash**;
 > **Swap ETH -> ZEC** - Gunakan layanan seperti **LeoDex** dan kirim ke alamat terlindungi kamu.  
 > **Penarikan Exchange** - Tarik ZEC yang telah dibeli ke alamat terlindungi WebZjs kamu.  
 
-![LEODEX-SWAP](/content-images/HyLQ0G2ugg-8d82ef24f6.webp)
+![LeoDex-SWAP](/content-images/HyLQ0G2ugg-8d82ef24f6.webp)
 
 
 > => Gunakan alamat (z) terlindungi untuk **privasi penuh**.
@@ -158,7 +158,7 @@ Untuk **Mainnet Zcash**;
 > Proof terlindungi mungkin memakan waktu, WebAssembly menangani komputasi di dalam browser.  
 > Pemulihan sangat mudah, instal MetaMask dan Snap tersebut, lalu impor frasa pemulihan kamu yang sudah ada.  
 > Snap ini secara default menggunakan **ZEC terlindungi**, alamat transparan **bukan merupakan fokus utama**.  
-> Gunakan [zcashblockexplorer.com](https://zcashblockexplorer.com) untuk konfirmasi transaksi.
+> Gunakan [mainnet.zcashexplorer.app](https://mainnet.zcashexplorer.app) untuk konfirmasi transaksi.
 
 
 

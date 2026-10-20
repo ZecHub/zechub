@@ -26,7 +26,7 @@ Poiché esistono due tipi, il valore può muoversi in quattro modi: da trasparen
 
 ## Cosa può vedere un explorer
 
-Un explorer pubblico come [Blockchair](https://blockchair.com/zcash) può leggere chiaramente:
+Un explorer pubblico come [ZecBlock](https://zecblock.com/) può leggere chiaramente:
 
 - Qualsiasi pagamento completamente trasparente (da t a t), da un capo all'altro.
 - Il denaro che entra nella pool schermata (il lato trasparente e l'importo).
@@ -65,7 +65,7 @@ Se interroghi i dati grezzi, i campi schermati del mittente e del destinatario r
 - [Zcash: raccomandazioni su privacy e sicurezza](https://z.cash/support/security/privacy-security-recommendations/)
 - [Un ecosistema schermato (Electric Coin Company)](https://web.archive.org/web/20260903010654/https://electriccoin.co/blog/shielded-ecosystem/)
 - [Come funziona la tecnologia di Zcash](https://z.cash/technology/)
-- [Explorer Zcash di Blockchair](https://blockchair.com/zcash)
+- [ZecBlock](https://zecblock.com/)
 
 ## Pagine correlate
 

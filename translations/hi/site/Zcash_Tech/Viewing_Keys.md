@@ -74,7 +74,7 @@ Sapling पता देने पर उस खाते की Sapling extende
 
 ### वे Wallets जो अपने इंटरफ़ेस से viewing keys निर्यात करते हैं
 
-[Wallets](/using-zcash/wallets) पृष्ठ प्रत्येक wallet के लिए viewing-key समर्थन और Ironwood readiness का विवरण रखता है। लेखन के समय, viewing-key समर्थन और **Ironwood: Ready** दोनों सूचीबद्ध करने वाले wallets में ZODL, Zingo!, Zkool, Cake, Zallet, Zecd और Nozy शामिल हैं। किसी एक wallet पर निर्भर होने से पहले इस पृष्ठ को देखें, क्योंकि readiness बदलती रहती है।
+[Wallets](/using-zcash/wallets) पृष्ठ प्रत्येक wallet के लिए viewing-key समर्थन और Ironwood readiness का विवरण रखता है। लेखन के समय, viewing-key समर्थन और **Ironwood: Ready** दोनों सूचीबद्ध करने वाले wallets में ZODL, Zingo!, Zkool, Cake, Zallet, zecd और Nozy शामिल हैं। किसी एक wallet पर निर्भर होने से पहले इस पृष्ठ को देखें, क्योंकि readiness बदलती रहती है।
 
 ## Watch-only खाते के रूप में viewing key आयात करना
 

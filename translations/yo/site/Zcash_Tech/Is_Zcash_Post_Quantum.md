@@ -162,5 +162,5 @@ Nínú ìwádìí ìròhìn ìròhìn ìròhìn NU7 Zcash Foundation's (February
 - [awọn ifibọ #1134: Ni kikun lẹhin-quantum Zcash](https://github.com/zcash/zips/issues/1134)
 - [Ilana itọsọna Tachyon ti Iṣẹ akanṣe](https://tachyon.z.cash/roadmap/)
 - [Àwọn èsì ìdìbò NU7: Ohun tí a gbọ́ àti ibi tí a ti ń lọ láti ibi](https://forum.zcashcommunity.com/t/nu7-polling-results-what-we-heard-and-where-we-go-from-here/54775)
-- [Àkọsílẹ̀ 3,428,143 lórí Blockchair](https://blockchair.com/zcash/block/3428143)
+- [Àkọsílẹ̀ 3,428,143 lórí ZecBlock](https://zecblock.com/block/3428143)
 - [Ìbéèrè fún ìgbìmọ̀: Ṣé Zcash jẹ́ lẹ́yìn-ìwọ̀n?](https://forum.zcashcommunity.com/t/is-zcash-post-quantum-help-wanted-d-proposal/57154)

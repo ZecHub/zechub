@@ -48,7 +48,7 @@
 - [بوت Midjourney](https://discord.com/invite/midjourney) على Discord - ابتداءً من $10/شهريًا - [دليل البدء](https://docs.midjourney.com/docs/quick-start)
 يمكنك الحصول على نحو 100 عملية توليد مجانية من خلال تقييم عدد كبير من [الصور هنا](https://www.midjourney.com/app/rank-pairs/)
 (يجب أن تصل إلى أفضل 2000 مُقيِّم - حوالي 15 دقيقة من تقييم الصور)
-- [DALL-E 2](https://labs.openai.com/) [](https://openai.com/dall-e-2)- $15/115 عملية توليد - (15 عملية توليد مجانية/شهريًا)
+- [DALL-E 2](https://web.archive.org/web/20250601174514/https://labs.openai.com/) [](https://openai.com/dall-e-2)- $15/115 عملية توليد - (15 عملية توليد مجانية/شهريًا)
 - [DALL-E 3](https://openai.com/dall-e-3/) - مضمّن في ChatGPT-4 - $20/شهريًا
 - [Nightcafe Creator](https://creator.nightcafe.studio/) (4 عمليات توليد مجانية، والمدفوع يبدأ من $6/شهريًا)
 
@@ -82,7 +82,7 @@
 
 ### توليد الأصوات
 
-- [play.ht](https://play.ht/) - مجاني - (الاشتراك يبدأ من $39/شهريًا)
+- [play.ht](https://web.archive.org/web/20260310162301/https://play.ht/) - مجاني - (الاشتراك يبدأ من $39/شهريًا)
 - [ElevenLabs](https://elevenlabs.io/) - مجاني - (الاشتراك يبدأ من $5/شهريًا)
 - [Murf](https://murf.ai/) - مجاني - (الاشتراك يبدأ من $29/شهريًا)
 - [Resemble](https://www.resemble.ai/) - جرّبه مجانًا (ثم $0.006 لكل ثانية)

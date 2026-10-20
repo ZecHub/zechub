@@ -82,7 +82,7 @@ Los sembradores de DNS exponen una lista de otros nodos confiables a través de 
 
 Estas son algunas plataformas que permiten el acceso a los datos de la red de Zcash:
 
-[Zcash Block Explorer](https://zcashblockexplorer.com)
+[Zcash Block Explorer](https://mainnet.zcashexplorer.app)
 
 [Coinmetrics](https://docs.coinmetrics.io/info/assets/zec)
 

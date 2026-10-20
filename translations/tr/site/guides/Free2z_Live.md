@@ -1,6 +1,6 @@
 [![Edit Page](https://img.shields.io/badge/Edit-blue)](https://github.com/zechub/zechub/edit/main/site/guides/Free2z_Live.md)
 
-# Free2z: Hesap kurulumu + Canlı yayın eğitimi
+# Free2Z: Hesap kurulumu + Canlı yayın eğitimi
 
 ## Giriş
 
@@ -97,7 +97,7 @@ Ya da bir gönderinin içindeyken kayan artı düğmesini arayın. Buradan içer
 
 ## Canlı Yayın
 
-Free2z platformu, Free2z Live adlı harika bir özellik sunar. Bu araçla içerik üreticileri, abone olmuş üyeler için canlı yayınlar başlatabilir. Free2z Live'ın bazı temel özellikleri şunlardır:  
+Free2Z platformu, Free2Z Live adlı harika bir özellik sunar. Bu araçla içerik üreticileri, abone olmuş üyeler için canlı yayınlar başlatabilir. Free2Z Live'ın bazı temel özellikleri şunlardır:  
 - Ses ve video  
 - Ekran paylaşımı  
 - İşbirlikçi kod düzenleme  
@@ -105,9 +105,9 @@ Free2z platformu, Free2z Live adlı harika bir özellik sunar. Bu araçla içeri
 - Beyaz tahta  
 - Ve çok daha fazlası!
 
-### Free2z Live ile neler yapabilirsiniz
+### Free2Z Live ile neler yapabilirsiniz
 
-Free2z Live, içerik üreticilerinin her tür içeriği yayınlamasına olanak tanıyan güçlü bir araçtır. İşte Free2z Live ile yayınlayabileceğiniz içerik türlerine birkaç örnek:  
+Free2Z Live, içerik üreticilerinin her tür içeriği yayınlamasına olanak tanıyan güçlü bir araçtır. İşte Free2Z Live ile yayınlayabileceğiniz içerik türlerine birkaç örnek:  
 - Eğitimler ve gösterimler  
 - Performanslar ve etkinlikler  
 - İşbirlikçi projeler  
@@ -116,7 +116,7 @@ Free2z Live, içerik üreticilerinin her tür içeriği yayınlamasına olanak t
 
 ### Nasıl canlı yayına çıkılır
 
-Free2z Live ile canlı yayın başlatmak çok kolaydır. Ancak yayınınıza başlamadan önce birkaç gereklilik vardır.  
+Free2Z Live ile canlı yayın başlatmak çok kolaydır. Ancak yayınınıza başlamadan önce birkaç gereklilik vardır.  
 1. İçerik üreticisinin minimum **member price** değeri **10 2Zs** olmalıdır.  
 2. İçerik üreticisinin hesabında en az **150 2Zs** bakiye bulunmalıdır.  
 
@@ -124,7 +124,7 @@ Free2z Live ile canlı yayın başlatmak çok kolaydır. Ancak yayınınıza ba�
 
 ![Go Live düğmesi](/content-images/go-live-4c8ac67505.webp)
 
-Canlı yayın başlatmak için yalnızca **Go Live** düğmesine tıklayın; Free2z uygulaması mikrofonunuzu ve web kameranızı (varsa) kullanmak için sizden izin isteyecektir. Gerekli izinleri verdikten sonra Free2z, canlı yayın sırasında kullanmak istediğiniz bir takma ad girmenizi isteyecektir. Bir takma ad seçtikten sonra canlı yayını başlatmak için **Join** düğmesine tıklayın.
+Canlı yayın başlatmak için yalnızca **Go Live** düğmesine tıklayın; Free2Z uygulaması mikrofonunuzu ve web kameranızı (varsa) kullanmak için sizden izin isteyecektir. Gerekli izinleri verdikten sonra Free2Z, canlı yayın sırasında kullanmak istediğiniz bir takma ad girmenizi isteyecektir. Bir takma ad seçtikten sonra canlı yayını başlatmak için **Join** düğmesine tıklayın.
 
 ![Canlı yayın için takma ad seçimi](/content-images/select-nickname-414444b992.webp)
 
@@ -134,15 +134,15 @@ Ve tamam! Bir canlı yayın başlattığınızda, profilinizde yayında olduğun
 
 İnsanlar canlı yayına katıldığında sohbet edebilir, sahneye çıkmak için istekte bulunabilir, anketlerde oy vererek etkileşime girebilir ve daha fazlasını yapabilir.
 
-![Bir Free2z Live oturumu örneği](/content-images/free2z-live-example-eecb2ae553.webp)
+![Bir Free2Z Live oturumu örneği](/content-images/free2z-live-example-eecb2ae553.webp)
 
-_(Free2z Live oturumu örneği)_
+_(Free2Z Live oturumu örneği)_
 
-Free2z Live çok yönlü ve güçlüdür. Bir sonraki bölümde, işlevleri ve araçları hakkında genel bir bakış sunacağım.
+Free2Z Live çok yönlü ve güçlüdür. Bir sonraki bölümde, işlevleri ve araçları hakkında genel bir bakış sunacağım.
 
-### Free2z Live'ı keşfetmek
+### Free2Z Live'ı keşfetmek
 
-Bu wiki belgesi, Free2z veya Free2z Live için derinlemesine bir rehber olmayı amaçlamıyor. Ancak burada araçlarına dair genel bir bakış bulabilirsiniz.
+Bu wiki belgesi, Free2Z veya Free2Z Live için derinlemesine bir rehber olmayı amaçlamıyor. Ancak burada araçlarına dair genel bir bakış bulabilirsiniz.
 
 Ekranın sol alt kısmında birkaç düğme görüyoruz.
 
@@ -177,19 +177,19 @@ Bu wiki belgesinin amacı tüm eklentileri açıklamak değil, ancak her birini 
 
 ## Sonuç
 
-Sonuç olarak Free2z, içerik üreticilerinin yeteneklerini sergileyebileceği, bilgi paylaşabileceği ve projeleri için fon toplayabileceği; ayrıca Free2z Live'ın güçlü aracıyla destekçileriyle etkileşim kurabileceği çok yönlü bir platformdur.
+Sonuç olarak Free2Z, içerik üreticilerinin yeteneklerini sergileyebileceği, bilgi paylaşabileceği ve projeleri için fon toplayabileceği; ayrıca Free2Z Live'ın güçlü aracıyla destekçileriyle etkileşim kurabileceği çok yönlü bir platformdur.
 
 ----
 
 ### Kaynaklar
 
-[Free2z](https://free2z.cash/)  
-[Free2z belgeleri](https://free2z.cash/docs/)  
+[Free2Z](https://free2z.cash/)  
+[Free2Z belgeleri](https://free2z.cash/docs/)  
 [2Z Genel Bakış](https://free2z.cash/docs/getting-started/tuzis)  
 [Profil oluşturma](https://free2z.cash/docs/for-creators/creating-a-profile)  
-[Free2z Live nedir?](https://free2z.cash/docs/for-creators/free2z-live)  
-[Destekçiler için Free2z](https://free2z.cash/docs/category/for-supporters)
+[Free2Z Live nedir?](https://free2z.cash/docs/for-creators/free2z-live)  
+[Destekçiler için Free2Z](https://web.archive.org/web/20260118172223/https://free2z.cash/docs/category/for-supporters/)
 
 ---
 
-_James Katz tarafından Zechub için yazılmıştır._
+_James Katz tarafından ZecHub için yazılmıştır._

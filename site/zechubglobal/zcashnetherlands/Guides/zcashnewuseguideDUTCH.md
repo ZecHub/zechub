@@ -16,7 +16,7 @@ Een belangrijke opmerking is dat u niet 1 volledige ZEC hoeft te kopen. ZEC is d
 
 Nadat je wat ZEC hebt gekocht, wil je het misschien naar een Zcash-portemonnee verplaatsen. Dit [artikel legt uit](https://www.ledger.com/academy/not-your-keys-not-your-coins-why-it-matters) waarom het belangrijk is om ZEC in een portemonnee te houden.
 
-We raden aan een [afgeschermde portemonnee](https://github.com/ZecHub/zechub/blob/main/usingzec/wallets/mobileshieldedwallets.md) te gebruiken omdat deze portemonnees de [privacyfuncties](https://www.gemini.com/prices/zcash) bieden die ZEC uniek maken. Hier is een [video](https://www.youtube.com/watch?v=AefftLsENaU) over het downloaden van een afgeschermde walet. Hier is een [blog](https://zechub.substack.com/p/private-vs-transparent) waarin de verschillen tussen de verschillende soorten portemonnees van Zcash worden uitgelegd.
+We raden aan een [afgeschermde portemonnee](https://zechub.wiki/wallets) te gebruiken omdat deze portemonnees de [privacyfuncties](https://www.gemini.com/prices/zcash) bieden die ZEC uniek maken. Hier is een [video](https://www.youtube.com/watch?v=AefftLsENaU) over het downloaden van een afgeschermde walet. Hier is een [blog](https://zechub.substack.com/p/private-vs-transparent) waarin de verschillen tussen de verschillende soorten portemonnees van Zcash worden uitgelegd.
 
 ---
 

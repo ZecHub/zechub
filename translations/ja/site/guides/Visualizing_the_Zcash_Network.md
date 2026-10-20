@@ -117,7 +117,7 @@ cargo run --release --features crawler --bin crawler -- --help
 
 これによりプログラムがコンパイルされ、すべてが正常に動作しているか確認できます。
 
-クライアラーを実行するには、開始コマンドに '--seed-addrs' フラグを追加し、少なくとも1つの有効なZcashノードIPアドレスを含める必要があります。クライアラーは正確な結果を得るために、ある程度の時間をかけて実行されるべきです。いくつかのサンプルノードIPアドレスは [https://zcashblockexplorer.com/nodes](https://zcashblockexplorer.com/nodes) にあります。
+クライアラーを実行するには、開始コマンドに '--seed-addrs' フラグを追加し、少なくとも1つの有効なZcashノードIPアドレスを含める必要があります。クライアラーは正確な結果を得るために、ある程度の時間をかけて実行されるべきです。いくつかのサンプルノードIPアドレスは [https://mainnet.zcashexplorer.app/nodes](https://mainnet.zcashexplorer.app/nodes) にあります。
 
 クライアラーが動作している間に情報を取得するには、開始コマンドに '--rpc-addr' フラグを追加する必要があります。これはクライアラー自体だけを実行するためには必須ではありませんが、それ以外の場合はクライアラーを停止（ctrl+c または SIGKILL）しない限り情報を表示することはできません。
 

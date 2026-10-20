@@ -122,7 +122,7 @@ cargo run --release --features crawler --bin crawler -- --help
 
 Hii itakusanya programu na kuhakikisha kila kitu kinafanya kazi vizuri.
 
-Ili kuendesha Kitambaa, inahitajika kuongeza bendera ya '--seed-addrs' kwenye amri ya kuanza, ikiwa na angalau anwani moja ya IP ya nodi ya Zcash, halali. Kitambaa kinapaswa kuruhusiwa kufanya kazi kwa muda unaofaa ili kupata matokeo sahihi. Baadhi ya anwani za IP za nodi za sampuli zinaweza kupatikana kwenye [https://zcashblockexplorer.com/nodes](https://zcashblockexplorer.com/nodes).
+Ili kuendesha Kitambaa, inahitajika kuongeza bendera ya '--seed-addrs' kwenye amri ya kuanza, ikiwa na angalau anwani moja ya IP ya nodi ya Zcash, halali. Kitambaa kinapaswa kuruhusiwa kufanya kazi kwa muda unaofaa ili kupata matokeo sahihi. Baadhi ya anwani za IP za nodi za sampuli zinaweza kupatikana kwenye [https://mainnet.zcashexplorer.app/nodes](https://mainnet.zcashexplorer.app/nodes).
 
 Ili kupata taarifa kutoka kwa Kitambaa kinapoendeshwa, inahitajika kuongeza bendera ya '--rpc-addr' kwenye amri ya kuanza. Hii haihitajiki tu kuendesha kitambaa chenyewe lakini vinginevyo itahitaji kusimamisha kitambaa (ctrl+c au SIGKILL) ili kuonyesha taarifa yoyote kabisa.
 

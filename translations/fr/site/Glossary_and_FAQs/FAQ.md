@@ -68,7 +68,7 @@ Les décisions sont inscrites dans la spécification et ratifiées on-chain lors
 
 <div className="rounded-2xl border border-border bg-card p-5 my-4">
 
-Lisez d’abord [notre guide des explorateurs de blocs](/guides/blockchain-explorers). Consultez ensuite l’explorateur de blocs [Zcash](https://zcashblockexplorer.com).
+Lisez d’abord [notre guide des explorateurs de blocs](/guides/blockchain-explorers). Consultez ensuite l’explorateur de blocs [Zcash](https://mainnet.zcashexplorer.app).
 
 Les transactions expirent après environ 25 minutes (20 blocs) et les fonds sont retournés automatiquement.
 

@@ -6,7 +6,7 @@ Leo, bilioni kadhaa ya watu duniani hawana ufikiaji wa sarafu ya haki na wazi au
 
 ## Watu Na Timu
 
-TKampuni ya The Electric Coin ina karibu wafanyakazi 30 ambao wametawanyika duniani kote. Wanafanya kazi katika maeneo mbalimbali kama vile maendeleo ya itifaki, maendeleo ya programu, usalama wa itifaki, maendeleo ya biashara, na mahusiano ya kisheria. [Maelezo zaidi](https://electriccoin.co/team/)
+TKampuni ya The Electric Coin ina karibu wafanyakazi 30 ambao wametawanyika duniani kote. Wanafanya kazi katika maeneo mbalimbali kama vile maendeleo ya itifaki, maendeleo ya programu, usalama wa itifaki, maendeleo ya biashara, na mahusiano ya kisheria. [Maelezo zaidi](https://web.archive.org/web/20240311110626/https://electriccoin.co/team/)
 
 ## Muundo Wa Shirika
 
