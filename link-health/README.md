@@ -19,7 +19,7 @@ are skipped, since those are examples rather than live links.
 | Certificate problems | TLS failure |
 | Timeouts | No response within 15 seconds |
 | Invalid URLs | Malformed or protocol-relative |
-| Could not verify | 401, 402, 403, 407, 429, 451 or 999: the host refused an automated check (login, paywall, bot protection, rate limit). Not counted as needing attention; open it in a browser |
+| Could not verify | 401, 402, 403, 429, 451 or 999: the host refused an automated check (login, paywall, bot protection, rate limit). Not counted as needing attention; open it in a browser |
 | Redirects | 3xx, worth pointing at the final destination |
 | Duplicate URLs | The same external link repeated within one page |
 

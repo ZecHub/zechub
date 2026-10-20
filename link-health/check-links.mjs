@@ -231,11 +231,11 @@ function routeExists(route, mdFiles, appRoutes) {
 
 async function checkExternal(url) {
   // Statuses a host sends when it refuses an automated client rather than
-  // because the page is gone: login or paywall (401, 402, 407), bot protection
+  // because the page is gone: login or paywall (401, 402), bot protection
   // (403, LinkedIn's 999), legal block (451), rate limit (429). In the 2026-10
   // sweep about two thirds of the links reported with these opened normally in
   // a browser, so they are reported as unverified, not as broken.
-  const BLOCKED = new Set([401, 402, 403, 407, 429, 451, 999]);
+  const BLOCKED = new Set([401, 402, 403, 429, 451, 999]);
   const attempt = async (method) => {
     const ctrl = new AbortController();
     const timer = setTimeout(() => ctrl.abort(), TIMEOUT_MS);
@@ -338,7 +338,17 @@ async function retryPass(urls, results, check, opts = {}) {
       // Out of time: keep the first result rather than stretch the weekly job.
       if (Date.now() + wait > deadline) return;
       await sleep(wait);
-      results[i] = await check(urls[i]);
+      // The budget covers the request too: a probe still running at the
+      // deadline is abandoned (its own 15 s timeout ends it) and the first
+      // result stands.
+      let timer;
+      const late = new Promise((resolve) => {
+        timer = setTimeout(() => resolve(null), Math.max(0, deadline - Date.now()));
+      });
+      const next = await Promise.race([check(urls[i]), late]);
+      clearTimeout(timer);
+      if (next === null) return;
+      results[i] = next;
       retried++;
     }
   });
@@ -561,6 +571,7 @@ async function main() {
     filesScanned: mdFiles.length,
     linksFound: linkCount,
     uniqueExternalChecked: checked,
+    // Key name kept for artifact readers; it now also counts 429/5xx re-probes.
     retriedAfterNetworkFailure: retried,
     allowlistEntries: allowlist.length,
     totals,
@@ -572,7 +583,7 @@ async function main() {
 
   console.log(
     `Scanned ${mdFiles.length} files, ${linkCount} links, ${checked} unique external ` +
-      `(${retried} retried after a network failure). ` +
+      `(${retried} re-probed slowly after a network error, rate limit or server error). ` +
       `${serious} needing attention, ${totals.redirect} redirects, ${totals.duplicate} duplicates.`,
   );
 }

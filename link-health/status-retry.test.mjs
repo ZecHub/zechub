@@ -16,7 +16,11 @@ const source = readFileSync(
 );
 // Same source-extraction approach as the other link-health tests: do not run
 // the weekly scan or keep a second copy of the functions under test.
-const between = (from, to) => source.slice(source.indexOf(from), source.indexOf(to));
+const between = (from, to) => {
+  // A renamed marker would otherwise slice garbage and fail as a SyntaxError.
+  assert.ok(source.includes(from) && source.includes(to), `marker missing: ${from} / ${to}`);
+  return source.slice(source.indexOf(from), source.indexOf(to));
+};
 const checkExternal = new Function(
   "TIMEOUT_MS",
   between("async function checkExternal", "async function pool") + "; return checkExternal;",
@@ -134,5 +138,22 @@ test("retry pass stops at the time budget and keeps the first results", async ()
   });
   assert.equal(retried, 0);
   assert.equal(calls, 0);
+  assert.deepEqual(results.map((r) => r.state), ["blocked", "blocked"]);
+});
+
+test("a re-probe still running at the deadline is dropped and the first result kept", async () => {
+  const urls = ["https://slow.example/1", "https://slow.example/2"];
+  const results = [{ state: "blocked", status: 429 }, { state: "blocked", status: 429 }];
+  let calls = 0;
+  const slow = () => {
+    calls++;
+    return new Promise((resolve) => setTimeout(() => resolve({ state: "ok", status: 200 }), 300));
+  };
+  const retried = await retryPass(urls, results, slow, { gapMs: 0, budgetMs: 50, sleep: async () => {} });
+  assert.equal(retried, 0);
+  assert.equal(calls, 1);
+  assert.deepEqual(results.map((r) => r.state), ["blocked", "blocked"]);
+  // Let the abandoned probe settle so it cannot write afterwards.
+  await new Promise((resolve) => setTimeout(resolve, 350));
   assert.deepEqual(results.map((r) => r.state), ["blocked", "blocked"]);
 });
