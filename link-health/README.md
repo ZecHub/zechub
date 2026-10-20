@@ -40,12 +40,22 @@ app falls back on, so a link that works in production is not reported as broken.
 If the rules in the app's `src/lib/helpers.ts` change, update `transformUri` here
 to match.
 
-Two things are deliberately not treated as broken routes:
+Three things are deliberately not treated as broken routes:
 
 - Pages served by the app rather than by markdown, such as `/wallets` and
   `/dashboard`. The route list is read from the app repo at scan time.
 - Absolute links ending in `.md`, which point at repository files. The
   contributing docs use these on purpose.
+- Files the app serves from its `public/` folder, such as `/changelly.png`.
+  They are checked as assets against the app repo instead.
+
+The word lists and special-case map in `transformUri` are a copy of the app's
+`src/lib/helpers.ts`, including its whole-segment rule (`Zec` does not rewrite
+inside `Zecmap`). Copy them again when the app changes.
+
+External links to documentation placeholders are skipped: `example.com`,
+`.example`, `.test`, `.invalid`, `.localhost` and loopback addresses such as
+`http://localhost:3000` in setup guides.
 
 ## Allowlist
 
