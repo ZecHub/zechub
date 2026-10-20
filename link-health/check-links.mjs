@@ -41,14 +41,19 @@ const ALLOWLIST_PATH = "link-health/allowlist.txt";
 
 const LOWERCASE_WORDS = ["Guides", "Tutorials", "Contribute", "In", "The", "Vs", "And", "Is", "Zk"];
 const UPPERCASE_WORDS = ["Zec", "Dex", "Nft", "Zcap", "Zfav", "Snarks", "Frost", "2fa", "Pgp", "I2p", "Dao"];
+// Same keys, values and ORDER as specialWordsMap in the app's helpers.ts.
 const SPECIAL_WORDS = {
   Non_Custodial: "Non-Custodial",
   Zero_Knowledge: "Zero-Knowledge",
+  "Zero_To_Zero-Knowledge": "Zero_to_Zero_Knowledge",
   Defi: "DeFi",
+  "Glossary And FAQs": "Glossary & FAQ's",
   Z2z: "z2z",
   Faq: "FAQ",
   ZECHub: "ZecHub",
   ZEChub: "ZecHub",
+  Zechub: "ZecHub",
+  Zecweekly: "ZecWeekly",
   Av_Club: "AV_Club",
   guides_For_Creators: "Guides_for_Creators",
   Grapheneos: "GrapheneOS",
@@ -60,20 +65,28 @@ const SPECIAL_WORDS = {
   Help_Build_ZecHub: "Help_build_ZecHub",
   zkool_Multisig: "Zkool_Multisig",
   Zenith_installation: "Zenith_Installation",
+  Raspberry_Pi5_Zebra_Lightwalletd_Zingo: "Raspberry_pi5_Zebra_Lightwalletd_Zingo",
   Btcpayserver_Zcash_Plugin: "BTCPayServer_Zcash_Plugin",
   Uris: "URIs",
   Free2z_Livestreaming: "Free2Z_Livestreaming",
   Avalanche_Redbridge: "Avalanche_RedBridge",
+  Raspberry_Pi_4_Full_Node: "Raspberry_Pi_4_Full_Node",
   Raspberry_Pi_4_Zebra_Node: "Raspberry_pi_4_Zebra_Node",
-  Raspberry_Pi5_Zebra_Lightwalletd_Zingo: "Raspberry_pi5_Zebra_Lightwalletd_Zingo",
   Coinholder_Directed_Retroactive_Grants: "CoinHolder_Directed_Retroactive_Grants",
   zkav: "ZKAV",
 };
 
+// The app applies the word lists to whole path segments only (bounded by start,
+// end, "/" or "_"), so "Zec" does not rewrite inside "Zecmap" or "ZecHub".
+function replaceWholeSegments(input, word, replacement) {
+  const re = new RegExp(`(^|[_/])${word}(?=[_/]|$)`, "g");
+  return input.replace(re, (_m, boundary) => boundary + replacement);
+}
+
 function transformUri(uri) {
   let t = uri.replace(/\b\w/g, (l) => l.toUpperCase()).replace(/-/g, "_");
-  for (const w of LOWERCASE_WORDS) if (t.includes(w)) t = t.replace(w, w.toLowerCase());
-  for (const w of UPPERCASE_WORDS) if (t.includes(w)) t = t.replace(w, w.toUpperCase());
+  for (const w of LOWERCASE_WORDS) t = replaceWholeSegments(t, w, w.toLowerCase());
+  for (const w of UPPERCASE_WORDS) t = replaceWholeSegments(t, w, w.toUpperCase());
   for (const [w, target] of Object.entries(SPECIAL_WORDS)) if (t.includes(w)) t = t.replaceAll(w, target);
   return t;
 }
@@ -152,11 +165,30 @@ function classify(url) {
   if (url.startsWith("#")) return "anchor";
   if (url.startsWith("//")) return "protocol-relative";
   if (url.startsWith("/content-images/") || url.startsWith("/content-banners/")) return "asset";
+  // Other files the app serves from public/ (logos such as /changelly.png).
+  if (/^\/[^?#]*\.(png|jpe?g|gif|svg|webp|avif|ico|pdf|mp4|webm|mp3)($|[?#])/i.test(url)) return "asset";
   // Absolute links ending in .md point at repository files (contributing docs do
   // this deliberately), not at wiki routes, so they are not route failures.
   if (url.startsWith("/") && /\.md($|[?#])/i.test(url)) return "repo-file";
   if (url.startsWith("/")) return "route";
   return "relative";
+}
+
+// Documentation placeholders, never real links: RFC 2606 / RFC 6761 reserved
+// names (example.com/.net/.org, *.example, *.test, *.invalid, *.localhost) and
+// loopback addresses in setup guides (http://localhost:3000).
+function isPlaceholderHost(hostname) {
+  const h = hostname.toLowerCase().replace(/\.$/, "");
+  if (h === "localhost" || h === "0.0.0.0" || h === "[::1]") return true;
+  if (/^127(\.\d{1,3}){3}$/.test(h)) return true; // the whole 127.0.0.0/8 loopback range
+  if (/(^|\.)example\.(com|net|org)$/.test(h)) return true;
+  return /\.(example|test|invalid|localhost)$/.test(h);
+}
+
+// The public/ path an asset link points at: query and fragment dropped
+// ("/doc.pdf#p2" is the file /doc.pdf).
+function assetKey(url) {
+  return url.split(/[?#]/)[0];
 }
 
 /**
@@ -486,7 +518,7 @@ async function main() {
       }
 
       if (kind === "asset") {
-        if (assetSet && !assetSet.has(link.url.split("?")[0])) {
+        if (assetSet && !assetSet.has(assetKey(link.url))) {
           findings.push({ kind: "asset", url: link.url, file: link.file, line: link.line, detail: "not found in zechub-wiki/public" });
         }
         continue;
@@ -501,6 +533,7 @@ async function main() {
           continue;
         }
         if (allowed(parsed.href)) continue;
+        if (isPlaceholderHost(parsed.hostname)) continue;
         if (!externalTargets.has(parsed.href)) externalTargets.set(parsed.href, []);
         externalTargets.get(parsed.href).push(link);
       }
