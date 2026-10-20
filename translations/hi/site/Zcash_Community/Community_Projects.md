@@ -104,7 +104,7 @@ Discord bot जो Zcash लेन-देन तक निर्बाध और
 
 ### ZODL
 ZODL (पूर्व में Zashi) का प्रमुख Zcash वॉलेट। iOS और Android पर उपलब्ध। shielded ZEC और NU7 coinholder मतदान का समर्थन करता है।  
-[देखें](https://zodl.app/)
+[देखें](https://zodl.com/)
 
 ### Noir Wallet
 सरल और निजी ZEC लेन-देन के लिए डिज़ाइन किया गया गोपनीयता-केंद्रित Zcash वॉलेट।  

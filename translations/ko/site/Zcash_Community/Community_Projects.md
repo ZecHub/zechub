@@ -104,7 +104,7 @@ Zcash 거래에 원활하고 안전하게 접근할 수 있도록 제공하는 D
 
 ### ZODL
 ZODL(이전 Zashi)의 대표 Zcash 지갑입니다. iOS 및 Android에서 사용할 수 있습니다. 실드 ZEC 및 NU7 코인 보유자 투표를 지원합니다.  
-[방문](https://zodl.app/)
+[방문](https://zodl.com/)
 
 ### Noir Wallet
 간단하고 프라이빗한 ZEC 거래를 위해 설계된 프라이버시 중심 Zcash 지갑입니다.  

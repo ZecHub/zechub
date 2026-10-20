@@ -104,7 +104,7 @@ Bot Discord che offre accesso semplice e sicuro alle transazioni di Zcash.
 
 ### ZODL
 Portafoglio Zcash di punta di ZODL (in precedenza Zashi). Disponibile su iOS e Android. Supporta ZEC schermati e il voto dei possessori di NU7.  
-[Visita](https://zodl.app/)
+[Visita](https://zodl.com/)
 
 ### Noir Wallet
 Portafoglio Zcash incentrato sulla privacy, progettato per transazioni ZEC semplici e private.  

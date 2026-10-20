@@ -104,7 +104,7 @@ Zcash işlemlerine sorunsuz ve güvenli erişim sağlayan Discord botu.
 
 ### ZODL
 ZODL'in (eski adıyla Zashi) amiral gemisi Zcash cüzdanı. iOS ve Android için kullanılabilir. Korumalı ZEC ve NU7 coinholder oylamasını destekler.  
-[Ziyaret et](https://zodl.app/)
+[Ziyaret et](https://zodl.com/)
 
 ### Noir Wallet
 Basit ve özel ZEC işlemleri için tasarlanmış, gizlilik odaklı Zcash cüzdanı.  

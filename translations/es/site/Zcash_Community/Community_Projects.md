@@ -104,7 +104,7 @@ Bot de Discord que proporciona acceso fluido y seguro a transacciones de Zcash.
 
 ### ZODL
 Wallet insignia de Zcash de ZODL (anteriormente Zashi). Disponible en iOS y Android. Admite ZEC blindado y votación de tenedores de monedas de NU7.  
-[Visitar](https://zodl.app/)
+[Visitar](https://zodl.com/)
 
 ### Noir Wallet
 Wallet de Zcash centrada en la privacidad, diseñada para transacciones de ZEC sencillas y privadas.  

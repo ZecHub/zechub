@@ -425,8 +425,8 @@
       "edited": false
     },
     "Using_Zcash/Recovering_Funds.md": {
-      "src": "sha256:51fa2f5d37997d41885b5bfea7d4f6ae42a72a0a77c3f66cdc4943de683b3805",
-      "src_commit": "a3c7bbd1e0442c7b09e49a167c712f6387fa62b4",
+      "src": "sha256:8bce7fe103cb30427a802711cf82601dee3fe31a2e204c7d76e94685d8f7f6e5",
+      "src_commit": "48b5c1e1e3bc335b8ddde6ce8dff01d68384bee1",
       "engine": "gt",
       "mode": "full",
       "tool": "gt-static+handfix+gloss-restore",
@@ -625,11 +625,11 @@
       "edited": false
     },
     "Zcash_Community/Community_Projects.md": {
-      "src": "sha256:140bd6c3e3eff02fdd6b132813e6a00d64184b1db6f2fdd0e7bbcec85fba4b56",
-      "src_commit": "33f1c0fde7f53a8c2cb9259f6c9af3d1acc1162d",
+      "src": "sha256:250cd5a9a9c1ff5e7b8cc71e2fc22ffa80190531a6d5f7f1932889133882e17a",
+      "src_commit": "6202ddb2e7be6ea66986d64668424ab8478b94c8",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "gt-static+handfix",
       "edited": false
     },
     "Zcash_Community/Cypherpunk_Zero_NFT.md": {
@@ -2235,11 +2235,11 @@
       "edited": false
     },
     "Using_Zcash/Recovering_Funds.md": {
-      "src": "sha256:51fa2f5d37997d41885b5bfea7d4f6ae42a72a0a77c3f66cdc4943de683b3805",
-      "src_commit": "57046345b0ca2fc74136f961a97ca0168970052b",
+      "src": "sha256:8bce7fe103cb30427a802711cf82601dee3fe31a2e204c7d76e94685d8f7f6e5",
+      "src_commit": "48b5c1e1e3bc335b8ddde6ce8dff01d68384bee1",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+handfix",
       "edited": false
     },
     "Using_Zcash/Shielded_Pools.md": {
@@ -2435,11 +2435,11 @@
       "edited": false
     },
     "Zcash_Community/Community_Projects.md": {
-      "src": "sha256:140bd6c3e3eff02fdd6b132813e6a00d64184b1db6f2fdd0e7bbcec85fba4b56",
-      "src_commit": "33f1c0fde7f53a8c2cb9259f6c9af3d1acc1162d",
+      "src": "sha256:250cd5a9a9c1ff5e7b8cc71e2fc22ffa80190531a6d5f7f1932889133882e17a",
+      "src_commit": "6202ddb2e7be6ea66986d64668424ab8478b94c8",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+handfix",
       "edited": false
     },
     "Zcash_Community/Cypherpunk_Zero_NFT.md": {
@@ -4069,11 +4069,11 @@
       "edited": false
     },
     "Using_Zcash/Recovering_Funds.md": {
-      "src": "sha256:51fa2f5d37997d41885b5bfea7d4f6ae42a72a0a77c3f66cdc4943de683b3805",
-      "src_commit": "ca265dffcdbd2ffc8bf6b5d1758ca9606ab699a5",
+      "src": "sha256:8bce7fe103cb30427a802711cf82601dee3fe31a2e204c7d76e94685d8f7f6e5",
+      "src_commit": "48b5c1e1e3bc335b8ddde6ce8dff01d68384bee1",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+handfix",
       "edited": false
     },
     "Using_Zcash/Shielded_Pools.md": {
@@ -4269,11 +4269,11 @@
       "edited": false
     },
     "Zcash_Community/Community_Projects.md": {
-      "src": "sha256:140bd6c3e3eff02fdd6b132813e6a00d64184b1db6f2fdd0e7bbcec85fba4b56",
-      "src_commit": "33f1c0fde7f53a8c2cb9259f6c9af3d1acc1162d",
+      "src": "sha256:250cd5a9a9c1ff5e7b8cc71e2fc22ffa80190531a6d5f7f1932889133882e17a",
+      "src_commit": "6202ddb2e7be6ea66986d64668424ab8478b94c8",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+handfix",
       "edited": false
     },
     "Zcash_Community/Cypherpunk_Zero_NFT.md": {
@@ -5903,8 +5903,8 @@
       "edited": false
     },
     "Using_Zcash/Recovering_Funds.md": {
-      "src": "sha256:51fa2f5d37997d41885b5bfea7d4f6ae42a72a0a77c3f66cdc4943de683b3805",
-      "src_commit": "a3c7bbd1e0442c7b09e49a167c712f6387fa62b4",
+      "src": "sha256:8bce7fe103cb30427a802711cf82601dee3fe31a2e204c7d76e94685d8f7f6e5",
+      "src_commit": "48b5c1e1e3bc335b8ddde6ce8dff01d68384bee1",
       "engine": "gt",
       "mode": "full",
       "tool": "gt-static+handfix+gloss-restore",
@@ -6103,11 +6103,11 @@
       "edited": false
     },
     "Zcash_Community/Community_Projects.md": {
-      "src": "sha256:140bd6c3e3eff02fdd6b132813e6a00d64184b1db6f2fdd0e7bbcec85fba4b56",
-      "src_commit": "33f1c0fde7f53a8c2cb9259f6c9af3d1acc1162d",
+      "src": "sha256:250cd5a9a9c1ff5e7b8cc71e2fc22ffa80190531a6d5f7f1932889133882e17a",
+      "src_commit": "6202ddb2e7be6ea66986d64668424ab8478b94c8",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "gt-static+handfix",
       "edited": false
     },
     "Zcash_Community/Cypherpunk_Zero_NFT.md": {
@@ -7721,11 +7721,11 @@
       "edited": false
     },
     "Using_Zcash/Recovering_Funds.md": {
-      "src": "sha256:51fa2f5d37997d41885b5bfea7d4f6ae42a72a0a77c3f66cdc4943de683b3805",
-      "src_commit": "ca265dffcdbd2ffc8bf6b5d1758ca9606ab699a5",
+      "src": "sha256:8bce7fe103cb30427a802711cf82601dee3fe31a2e204c7d76e94685d8f7f6e5",
+      "src_commit": "48b5c1e1e3bc335b8ddde6ce8dff01d68384bee1",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+handfix",
       "edited": false
     },
     "Using_Zcash/Shielded_Pools.md": {
@@ -7921,11 +7921,11 @@
       "edited": false
     },
     "Zcash_Community/Community_Projects.md": {
-      "src": "sha256:140bd6c3e3eff02fdd6b132813e6a00d64184b1db6f2fdd0e7bbcec85fba4b56",
-      "src_commit": "eea0a456ccf1d30e6f16e09001936734bc432baf",
+      "src": "sha256:250cd5a9a9c1ff5e7b8cc71e2fc22ffa80190531a6d5f7f1932889133882e17a",
+      "src_commit": "6202ddb2e7be6ea66986d64668424ab8478b94c8",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+handfix",
       "edited": false
     },
     "Zcash_Community/Cypherpunk_Zero_NFT.md": {
@@ -9555,11 +9555,11 @@
       "edited": false
     },
     "Using_Zcash/Recovering_Funds.md": {
-      "src": "sha256:51fa2f5d37997d41885b5bfea7d4f6ae42a72a0a77c3f66cdc4943de683b3805",
-      "src_commit": "ca265dffcdbd2ffc8bf6b5d1758ca9606ab699a5",
+      "src": "sha256:8bce7fe103cb30427a802711cf82601dee3fe31a2e204c7d76e94685d8f7f6e5",
+      "src_commit": "48b5c1e1e3bc335b8ddde6ce8dff01d68384bee1",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+handfix",
       "edited": false
     },
     "Using_Zcash/Shielded_Pools.md": {
@@ -9755,11 +9755,11 @@
       "edited": false
     },
     "Zcash_Community/Community_Projects.md": {
-      "src": "sha256:140bd6c3e3eff02fdd6b132813e6a00d64184b1db6f2fdd0e7bbcec85fba4b56",
-      "src_commit": "33f1c0fde7f53a8c2cb9259f6c9af3d1acc1162d",
+      "src": "sha256:250cd5a9a9c1ff5e7b8cc71e2fc22ffa80190531a6d5f7f1932889133882e17a",
+      "src_commit": "6202ddb2e7be6ea66986d64668424ab8478b94c8",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+handfix",
       "edited": false
     },
     "Zcash_Community/Cypherpunk_Zero_NFT.md": {
@@ -11389,11 +11389,11 @@
       "edited": false
     },
     "Using_Zcash/Recovering_Funds.md": {
-      "src": "sha256:51fa2f5d37997d41885b5bfea7d4f6ae42a72a0a77c3f66cdc4943de683b3805",
-      "src_commit": "9d7d666987d76d6b8fa86bd6c6840fb809bb2226",
+      "src": "sha256:8bce7fe103cb30427a802711cf82601dee3fe31a2e204c7d76e94685d8f7f6e5",
+      "src_commit": "48b5c1e1e3bc335b8ddde6ce8dff01d68384bee1",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+handfix",
       "edited": false
     },
     "Using_Zcash/Shielded_Pools.md": {
@@ -11589,11 +11589,11 @@
       "edited": false
     },
     "Zcash_Community/Community_Projects.md": {
-      "src": "sha256:140bd6c3e3eff02fdd6b132813e6a00d64184b1db6f2fdd0e7bbcec85fba4b56",
-      "src_commit": "33f1c0fde7f53a8c2cb9259f6c9af3d1acc1162d",
+      "src": "sha256:250cd5a9a9c1ff5e7b8cc71e2fc22ffa80190531a6d5f7f1932889133882e17a",
+      "src_commit": "6202ddb2e7be6ea66986d64668424ab8478b94c8",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+handfix",
       "edited": false
     },
     "Zcash_Community/Cypherpunk_Zero_NFT.md": {
@@ -13479,11 +13479,11 @@
       "edited": false
     },
     "Zcash_Community/Community_Projects.md": {
-      "src": "sha256:140bd6c3e3eff02fdd6b132813e6a00d64184b1db6f2fdd0e7bbcec85fba4b56",
-      "src_commit": "33f1c0fde7f53a8c2cb9259f6c9af3d1acc1162d",
+      "src": "sha256:250cd5a9a9c1ff5e7b8cc71e2fc22ffa80190531a6d5f7f1932889133882e17a",
+      "src_commit": "6202ddb2e7be6ea66986d64668424ab8478b94c8",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+handfix",
       "edited": false
     },
     "Zcash_Community/Cypherpunk_Zero_NFT.md": {
@@ -14399,11 +14399,11 @@
       "edited": false
     },
     "Using_Zcash/Recovering_Funds.md": {
-      "src": "sha256:51fa2f5d37997d41885b5bfea7d4f6ae42a72a0a77c3f66cdc4943de683b3805",
-      "src_commit": "60d233cf78d329bdee6c349a5fd20eb6fe38158d",
+      "src": "sha256:8bce7fe103cb30427a802711cf82601dee3fe31a2e204c7d76e94685d8f7f6e5",
+      "src_commit": "48b5c1e1e3bc335b8ddde6ce8dff01d68384bee1",
       "engine": "llm",
       "mode": "full",
-      "tool": "google/gemma-4-26b-a4b",
+      "tool": "google/gemma-4-26b-a4b+handfix",
       "edited": false
     },
     "Zcash_Use_Cases/Sign_in_With_Zcash.md": {
@@ -15057,11 +15057,11 @@
       "edited": false
     },
     "Using_Zcash/Recovering_Funds.md": {
-      "src": "sha256:51fa2f5d37997d41885b5bfea7d4f6ae42a72a0a77c3f66cdc4943de683b3805",
-      "src_commit": "4c141ff9de5b6791c60fd8cabbc9728e9ebfdb36",
+      "src": "sha256:8bce7fe103cb30427a802711cf82601dee3fe31a2e204c7d76e94685d8f7f6e5",
+      "src_commit": "48b5c1e1e3bc335b8ddde6ce8dff01d68384bee1",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static+gloss-restore+prose-retranslate+table-rebuild",
+      "tool": "gt-static+gloss-restore+prose-retranslate+table-rebuild+handfix",
       "edited": false
     },
     "Using_Zcash/Shielded_Pools.md": {
@@ -15257,11 +15257,11 @@
       "edited": false
     },
     "Zcash_Community/Community_Projects.md": {
-      "src": "sha256:140bd6c3e3eff02fdd6b132813e6a00d64184b1db6f2fdd0e7bbcec85fba4b56",
-      "src_commit": "33f1c0fde7f53a8c2cb9259f6c9af3d1acc1162d",
+      "src": "sha256:250cd5a9a9c1ff5e7b8cc71e2fc22ffa80190531a6d5f7f1932889133882e17a",
+      "src_commit": "6202ddb2e7be6ea66986d64668424ab8478b94c8",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "gt-static+handfix",
       "edited": false
     },
     "Zcash_Community/Cypherpunk_Zero_NFT.md": {
@@ -16883,11 +16883,11 @@
       "edited": false
     },
     "Using_Zcash/Recovering_Funds.md": {
-      "src": "sha256:51fa2f5d37997d41885b5bfea7d4f6ae42a72a0a77c3f66cdc4943de683b3805",
-      "src_commit": "ca265dffcdbd2ffc8bf6b5d1758ca9606ab699a5",
+      "src": "sha256:8bce7fe103cb30427a802711cf82601dee3fe31a2e204c7d76e94685d8f7f6e5",
+      "src_commit": "48b5c1e1e3bc335b8ddde6ce8dff01d68384bee1",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra+itglossary+itreview",
+      "tool": "codex/gpt-5.6-terra+itglossary+itreview+handfix",
       "edited": false
     },
     "Using_Zcash/Shielded_Pools.md": {
@@ -17083,11 +17083,11 @@
       "edited": false
     },
     "Zcash_Community/Community_Projects.md": {
-      "src": "sha256:140bd6c3e3eff02fdd6b132813e6a00d64184b1db6f2fdd0e7bbcec85fba4b56",
-      "src_commit": "33f1c0fde7f53a8c2cb9259f6c9af3d1acc1162d",
+      "src": "sha256:250cd5a9a9c1ff5e7b8cc71e2fc22ffa80190531a6d5f7f1932889133882e17a",
+      "src_commit": "6202ddb2e7be6ea66986d64668424ab8478b94c8",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+handfix",
       "edited": false
     },
     "Zcash_Community/Cypherpunk_Zero_NFT.md": {
@@ -18717,11 +18717,11 @@
       "edited": false
     },
     "Using_Zcash/Recovering_Funds.md": {
-      "src": "sha256:51fa2f5d37997d41885b5bfea7d4f6ae42a72a0a77c3f66cdc4943de683b3805",
-      "src_commit": "ca265dffcdbd2ffc8bf6b5d1758ca9606ab699a5",
+      "src": "sha256:8bce7fe103cb30427a802711cf82601dee3fe31a2e204c7d76e94685d8f7f6e5",
+      "src_commit": "48b5c1e1e3bc335b8ddde6ce8dff01d68384bee1",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+handfix",
       "edited": false
     },
     "Using_Zcash/Shielded_Pools.md": {
@@ -18917,11 +18917,11 @@
       "edited": false
     },
     "Zcash_Community/Community_Projects.md": {
-      "src": "sha256:140bd6c3e3eff02fdd6b132813e6a00d64184b1db6f2fdd0e7bbcec85fba4b56",
-      "src_commit": "33f1c0fde7f53a8c2cb9259f6c9af3d1acc1162d",
+      "src": "sha256:250cd5a9a9c1ff5e7b8cc71e2fc22ffa80190531a6d5f7f1932889133882e17a",
+      "src_commit": "6202ddb2e7be6ea66986d64668424ab8478b94c8",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+handfix",
       "edited": false
     },
     "Zcash_Community/Cypherpunk_Zero_NFT.md": {
@@ -20551,11 +20551,11 @@
       "edited": false
     },
     "Using_Zcash/Recovering_Funds.md": {
-      "src": "sha256:51fa2f5d37997d41885b5bfea7d4f6ae42a72a0a77c3f66cdc4943de683b3805",
-      "src_commit": "ca265dffcdbd2ffc8bf6b5d1758ca9606ab699a5",
+      "src": "sha256:8bce7fe103cb30427a802711cf82601dee3fe31a2e204c7d76e94685d8f7f6e5",
+      "src_commit": "48b5c1e1e3bc335b8ddde6ce8dff01d68384bee1",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+handfix",
       "edited": false
     },
     "Using_Zcash/Shielded_Pools.md": {
@@ -20751,11 +20751,11 @@
       "edited": false
     },
     "Zcash_Community/Community_Projects.md": {
-      "src": "sha256:140bd6c3e3eff02fdd6b132813e6a00d64184b1db6f2fdd0e7bbcec85fba4b56",
-      "src_commit": "33f1c0fde7f53a8c2cb9259f6c9af3d1acc1162d",
+      "src": "sha256:250cd5a9a9c1ff5e7b8cc71e2fc22ffa80190531a6d5f7f1932889133882e17a",
+      "src_commit": "6202ddb2e7be6ea66986d64668424ab8478b94c8",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+handfix",
       "edited": false
     },
     "Zcash_Community/Cypherpunk_Zero_NFT.md": {
@@ -22385,11 +22385,11 @@
       "edited": false
     },
     "Using_Zcash/Recovering_Funds.md": {
-      "src": "sha256:51fa2f5d37997d41885b5bfea7d4f6ae42a72a0a77c3f66cdc4943de683b3805",
-      "src_commit": "ca265dffcdbd2ffc8bf6b5d1758ca9606ab699a5",
+      "src": "sha256:8bce7fe103cb30427a802711cf82601dee3fe31a2e204c7d76e94685d8f7f6e5",
+      "src_commit": "48b5c1e1e3bc335b8ddde6ce8dff01d68384bee1",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+handfix",
       "edited": false
     },
     "Using_Zcash/Shielded_Pools.md": {
@@ -22585,11 +22585,11 @@
       "edited": false
     },
     "Zcash_Community/Community_Projects.md": {
-      "src": "sha256:140bd6c3e3eff02fdd6b132813e6a00d64184b1db6f2fdd0e7bbcec85fba4b56",
-      "src_commit": "33f1c0fde7f53a8c2cb9259f6c9af3d1acc1162d",
+      "src": "sha256:250cd5a9a9c1ff5e7b8cc71e2fc22ffa80190531a6d5f7f1932889133882e17a",
+      "src_commit": "6202ddb2e7be6ea66986d64668424ab8478b94c8",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+handfix",
       "edited": false
     },
     "Zcash_Community/Cypherpunk_Zero_NFT.md": {
@@ -24219,11 +24219,11 @@
       "edited": false
     },
     "Using_Zcash/Recovering_Funds.md": {
-      "src": "sha256:51fa2f5d37997d41885b5bfea7d4f6ae42a72a0a77c3f66cdc4943de683b3805",
-      "src_commit": "ca265dffcdbd2ffc8bf6b5d1758ca9606ab699a5",
+      "src": "sha256:8bce7fe103cb30427a802711cf82601dee3fe31a2e204c7d76e94685d8f7f6e5",
+      "src_commit": "48b5c1e1e3bc335b8ddde6ce8dff01d68384bee1",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+handfix",
       "edited": false
     },
     "Using_Zcash/Shielded_Pools.md": {
@@ -24419,11 +24419,11 @@
       "edited": false
     },
     "Zcash_Community/Community_Projects.md": {
-      "src": "sha256:140bd6c3e3eff02fdd6b132813e6a00d64184b1db6f2fdd0e7bbcec85fba4b56",
-      "src_commit": "33f1c0fde7f53a8c2cb9259f6c9af3d1acc1162d",
+      "src": "sha256:250cd5a9a9c1ff5e7b8cc71e2fc22ffa80190531a6d5f7f1932889133882e17a",
+      "src_commit": "6202ddb2e7be6ea66986d64668424ab8478b94c8",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+handfix",
       "edited": false
     },
     "Zcash_Community/Cypherpunk_Zero_NFT.md": {
@@ -26053,8 +26053,8 @@
       "edited": false
     },
     "Using_Zcash/Recovering_Funds.md": {
-      "src": "sha256:51fa2f5d37997d41885b5bfea7d4f6ae42a72a0a77c3f66cdc4943de683b3805",
-      "src_commit": "a3c7bbd1e0442c7b09e49a167c712f6387fa62b4",
+      "src": "sha256:8bce7fe103cb30427a802711cf82601dee3fe31a2e204c7d76e94685d8f7f6e5",
+      "src_commit": "48b5c1e1e3bc335b8ddde6ce8dff01d68384bee1",
       "engine": "nllb",
       "mode": "full",
       "tool": "gt-static+handfix+gloss-restore+prose-retranslate+table-rebuild",
@@ -26253,11 +26253,11 @@
       "edited": false
     },
     "Zcash_Community/Community_Projects.md": {
-      "src": "sha256:140bd6c3e3eff02fdd6b132813e6a00d64184b1db6f2fdd0e7bbcec85fba4b56",
-      "src_commit": "33f1c0fde7f53a8c2cb9259f6c9af3d1acc1162d",
+      "src": "sha256:250cd5a9a9c1ff5e7b8cc71e2fc22ffa80190531a6d5f7f1932889133882e17a",
+      "src_commit": "6202ddb2e7be6ea66986d64668424ab8478b94c8",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "gt-static+handfix",
       "edited": false
     },
     "Zcash_Community/Cypherpunk_Zero_NFT.md": {
@@ -27871,11 +27871,11 @@
       "edited": false
     },
     "Using_Zcash/Recovering_Funds.md": {
-      "src": "sha256:51fa2f5d37997d41885b5bfea7d4f6ae42a72a0a77c3f66cdc4943de683b3805",
-      "src_commit": "ca265dffcdbd2ffc8bf6b5d1758ca9606ab699a5",
+      "src": "sha256:8bce7fe103cb30427a802711cf82601dee3fe31a2e204c7d76e94685d8f7f6e5",
+      "src_commit": "48b5c1e1e3bc335b8ddde6ce8dff01d68384bee1",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+handfix",
       "edited": false
     },
     "Using_Zcash/Shielded_Pools.md": {
@@ -28071,11 +28071,11 @@
       "edited": false
     },
     "Zcash_Community/Community_Projects.md": {
-      "src": "sha256:140bd6c3e3eff02fdd6b132813e6a00d64184b1db6f2fdd0e7bbcec85fba4b56",
-      "src_commit": "33f1c0fde7f53a8c2cb9259f6c9af3d1acc1162d",
+      "src": "sha256:250cd5a9a9c1ff5e7b8cc71e2fc22ffa80190531a6d5f7f1932889133882e17a",
+      "src_commit": "6202ddb2e7be6ea66986d64668424ab8478b94c8",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+handfix",
       "edited": false
     },
     "Zcash_Community/Cypherpunk_Zero_NFT.md": {
@@ -29705,11 +29705,11 @@
       "edited": false
     },
     "Using_Zcash/Recovering_Funds.md": {
-      "src": "sha256:51fa2f5d37997d41885b5bfea7d4f6ae42a72a0a77c3f66cdc4943de683b3805",
-      "src_commit": "ca265dffcdbd2ffc8bf6b5d1758ca9606ab699a5",
+      "src": "sha256:8bce7fe103cb30427a802711cf82601dee3fe31a2e204c7d76e94685d8f7f6e5",
+      "src_commit": "48b5c1e1e3bc335b8ddde6ce8dff01d68384bee1",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+handfix",
       "edited": false
     },
     "Using_Zcash/Shielded_Pools.md": {
@@ -29905,11 +29905,11 @@
       "edited": false
     },
     "Zcash_Community/Community_Projects.md": {
-      "src": "sha256:140bd6c3e3eff02fdd6b132813e6a00d64184b1db6f2fdd0e7bbcec85fba4b56",
-      "src_commit": "33f1c0fde7f53a8c2cb9259f6c9af3d1acc1162d",
+      "src": "sha256:250cd5a9a9c1ff5e7b8cc71e2fc22ffa80190531a6d5f7f1932889133882e17a",
+      "src_commit": "6202ddb2e7be6ea66986d64668424ab8478b94c8",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+handfix",
       "edited": false
     },
     "Zcash_Community/Cypherpunk_Zero_NFT.md": {
@@ -31539,11 +31539,11 @@
       "edited": false
     },
     "Using_Zcash/Recovering_Funds.md": {
-      "src": "sha256:51fa2f5d37997d41885b5bfea7d4f6ae42a72a0a77c3f66cdc4943de683b3805",
-      "src_commit": "4c141ff9de5b6791c60fd8cabbc9728e9ebfdb36",
+      "src": "sha256:8bce7fe103cb30427a802711cf82601dee3fe31a2e204c7d76e94685d8f7f6e5",
+      "src_commit": "48b5c1e1e3bc335b8ddde6ce8dff01d68384bee1",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static+gloss-restore+prose-retranslate+table-rebuild",
+      "tool": "gt-static+gloss-restore+prose-retranslate+table-rebuild+handfix",
       "edited": false
     },
     "Using_Zcash/Shielded_Pools.md": {
@@ -31739,11 +31739,11 @@
       "edited": false
     },
     "Zcash_Community/Community_Projects.md": {
-      "src": "sha256:140bd6c3e3eff02fdd6b132813e6a00d64184b1db6f2fdd0e7bbcec85fba4b56",
-      "src_commit": "33f1c0fde7f53a8c2cb9259f6c9af3d1acc1162d",
+      "src": "sha256:250cd5a9a9c1ff5e7b8cc71e2fc22ffa80190531a6d5f7f1932889133882e17a",
+      "src_commit": "6202ddb2e7be6ea66986d64668424ab8478b94c8",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "gt-static+handfix",
       "edited": false
     },
     "Zcash_Community/Cypherpunk_Zero_NFT.md": {
@@ -33325,11 +33325,11 @@
       "edited": false
     },
     "Using_Zcash/Recovering_Funds.md": {
-      "src": "sha256:51fa2f5d37997d41885b5bfea7d4f6ae42a72a0a77c3f66cdc4943de683b3805",
-      "src_commit": "2ccb48ae5d1bb19f4e56bf965347a4f3e9a19a2f",
+      "src": "sha256:8bce7fe103cb30427a802711cf82601dee3fe31a2e204c7d76e94685d8f7f6e5",
+      "src_commit": "48b5c1e1e3bc335b8ddde6ce8dff01d68384bee1",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+handfix",
       "edited": false
     },
     "Using_Zcash/Shielded_Pools.md": {
@@ -33525,11 +33525,11 @@
       "edited": false
     },
     "Zcash_Community/Community_Projects.md": {
-      "src": "sha256:140bd6c3e3eff02fdd6b132813e6a00d64184b1db6f2fdd0e7bbcec85fba4b56",
-      "src_commit": "33f1c0fde7f53a8c2cb9259f6c9af3d1acc1162d",
+      "src": "sha256:250cd5a9a9c1ff5e7b8cc71e2fc22ffa80190531a6d5f7f1932889133882e17a",
+      "src_commit": "6202ddb2e7be6ea66986d64668424ab8478b94c8",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+handfix",
       "edited": false
     },
     "Zcash_Community/Cypherpunk_Zero_NFT.md": {

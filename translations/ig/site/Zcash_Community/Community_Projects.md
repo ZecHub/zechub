@@ -104,7 +104,7 @@ Bot Discord na-enye ohere zuru oke na nchekwa iji nweta azụmahịa Zcash.
 
 ### ZODL
 Akpa Zcash nke ọkọlọtọ sitere na ZODL (nke bụbu Zashi). Dị na iOS na Android. Na-akwado ntuli aka ZEC na NU7 nke ndị nwere mkpụrụ ego na-echebe. 
-[Gaa leta](https://zodl.app/)
+[Gaa leta](https://zodl.com/)
 
 ### Obere akpa Noir
 Akpa Zcash lekwasịrị anya na nzuzo nke e mere maka azụmahịa ZEC dị mfe na nkeonwe. 

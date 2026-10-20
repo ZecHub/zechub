@@ -104,7 +104,7 @@ Bot Discord yang menyediakan akses lancar dan aman ke transaksi Zcash.
 
 ### ZODL
 Dompet unggulan Zcash dari ZODL (sebelumnya Zashi). Tersedia di iOS dan Android. Mendukung ZEC terlindungi dan pemungutan suara pemegang koin NU7.  
-[Kunjungi](https://zodl.app/)
+[Kunjungi](https://zodl.com/)
 
 ### Noir Wallet
 Dompet Zcash berfokus privasi yang dirancang untuk transaksi ZEC yang sederhana dan privat.  

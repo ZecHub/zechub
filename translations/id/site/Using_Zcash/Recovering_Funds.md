@@ -48,11 +48,11 @@ Untuk referensi migrasi lengkap, termasuk rute pemulihan terperinci, perintah, b
 
 [Baca ZEC Panduan Lengkap Migrasi Pool di ZecHub](/research/zec-pool-migration/view) secara lengkap
 
-> **Sebelum kamu memulai:** pertama-tama tentukan **apa yang sedang kamu pulihkan dan materi pemulihan apa yang masih kamu miliki**. Seed dompet saat ini atau spending key non-Sprout yang didukung mungkin hanya memerlukan pemulihan normal. Materi lama — seperti seed ZecWallet Lite, `wallet.dat` legacy, atau spending key Sapling atau Sprout mandiri — mungkin memerlukan jalur pemulihan khusus.
+> **Sebelum kamu memulai:** pertama-tama tentukan **apa yang sedang kamu pulihkan dan materi pemulihan apa yang masih kamu miliki**. Seed dompet saat ini atau spending key non-Sprout yang didukung mungkin hanya memerlukan pemulihan normal. Materi lama — seperti seed Zecwallet Lite, `wallet.dat` legacy, atau spending key Sapling atau Sprout mandiri — mungkin memerlukan jalur pemulihan khusus.
 >
 > Jika kamu merasa dana tersebut ada di **Sprout**, pastikan kamu masih memiliki otoritas pengeluaran sebelum meluangkan waktu untuk pemulihan. Alamat `zc...` atau materi viewing saja tidak cukup untuk memindahkan dana tersebut.
 >
-> **YWallet tidak lagi mendukung Zcash setelah Ironwood.** Gunakan **Zkool** untuk pemulihan non-Sprout biasa dari seed dan key yang didukung. Gunakan **Argos** untuk pemulihan ZecWallet Lite, file dompet legacy, dan spending key Sapling/Sprout mandiri. Untuk Sprout, Argos adalah rute pertama yang harus dicoba; panduan lapangan lengkap mencakup fallback sidecar legacy.
+> **YWallet tidak lagi mendukung Zcash setelah Ironwood.** Gunakan **Zkool** untuk pemulihan non-Sprout biasa dari seed dan key yang didukung. Gunakan **Argos** untuk pemulihan Zecwallet Lite, file dompet legacy, dan spending key Sapling/Sprout mandiri. Untuk Sprout, Argos adalah rute pertama yang harus dicoba; panduan lapangan lengkap mencakup fallback sidecar legacy.
 >
 > Gunakan tabel di bawah ini berdasarkan **apa yang sebenarnya kamu miliki**, bukan alat pemulihan yang kamu ingat pernah kamu gunakan.
 
@@ -60,8 +60,8 @@ Untuk referensi migrasi lengkap, termasuk rute pemulihan terperinci, perintah, b
 | --- | --- |
 | Sebuah frasa pemulihan atau **non-Sprout spending key** yang didukung dari dompet yang saat ini atau baru saja dikelola, termasuk material YWallet Zcash lama | [Zkool](#fund-recovery-with-zkool) |
 | **Hanya viewing key** | Zkool dapat mengimpor viewing key yang didukung untuk akses baca-saja, tetapi viewing key tidak dapat memberikan otorisasi untuk pemulihan pengeluaran. Temukan seed atau spending key yang sesuai. |
-| Seed **ZecWallet Lite** berisi 24 kata | [Argos](#zecwallet-lite-and-legacy-wallet-recovery-with-argos) |
-| ZecWallet Lite atau zcashd `wallet.dat`, atau sebuah Sapling / Sprout spending key mandiri | [Argos](#zecwallet-lite-and-legacy-wallet-recovery-with-argos). Per 18 September 2026, v1.3.0 adalah versi terbaru dan yang disarankan; gunakan v1.2.0 atau yang lebih baru untuk pemulihan `wallet.dat` dan Sprout. |
+| Seed **Zecwallet Lite** berisi 24 kata | [Argos](#zecwallet-lite-and-legacy-wallet-recovery-with-argos) |
+| Zecwallet Lite atau zcashd `wallet.dat`, atau sebuah Sapling / Sprout spending key mandiri | [Argos](#zecwallet-lite-and-legacy-wallet-recovery-with-argos). Per 18 September 2026, v1.3.0 adalah versi terbaru dan yang disarankan; gunakan v1.2.0 atau yang lebih baru untuk pemulihan `wallet.dat` dan Sprout. |
 | Material Sprout yang tidak dapat ditangani oleh Argos, atau pemulihan di mana kamu ingin komponen legacy berada di bawah kendalimu sendiri | Gunakan rute sidecar legacy dalam [panduan lengkap full field guide](/research/zec-pool-migration/view). |
 | Tidak ada seed atau spending key yang berfungsi, tetapi memiliki perangkat yang terkunci, kata sandi yang terlupakan, atau disk yang rusak | [Pemulihan profesional](#professional-recovery-when-you-do-not-have-the-seed). Jangan pernah mengirimkan seed atau spending key yang berfungsi kepada seseorang yang menghubungimu tanpa diminta. |
 
@@ -119,11 +119,11 @@ Jika dompet atau akun lama hanya berisi **ZEC transparan**, pulihkan akun terseb
 
 Unshield All sangat berguna saat kamu melakukan penarikan ke exchange yang hanya menerima alamat transparan. Tombol shielding hanya akan muncul jika akun memiliki alamat terlindungi, dan Unshield All hanya akan muncul jika akun memiliki alamat transparan.
 
-## Pemulihan ZecWallet Lite dan dompet lama dengan Argos
+## Pemulihan Zecwallet Lite dan dompet lama dengan Argos
 
-[ZecWallet Lite](https://github.com/adityapk00/zecwallet-lite) tidak lagi dikelola dan repositorinya telah diarsipkan. Derivasi frasa pemulihannya berbeda dari tata letak yang digunakan oleh dompet saat ini, sehingga mengimpor frasa yang sama ke dalam dompet modern dapat menyebabkan dana yang tersimpan di alamat turunan tambahan milik ZecWallet Lite tidak terbawa. [Argos](https://argos.sovright.com), dari Sovright, adalah workspace pemulihan desktop yang dibuat untuk kasus ini dan kasus pemulihan lama lainnya.
+[Zecwallet Lite](https://github.com/adityapk00/zecwallet-lite) tidak lagi dikelola dan repositorinya telah diarsipkan. Derivasi frasa pemulihannya berbeda dari tata letak yang digunakan oleh dompet saat ini, sehingga mengimpor frasa yang sama ke dalam dompet modern dapat menyebabkan dana yang tersimpan di alamat turunan tambahan milik Zecwallet Lite tidak terbawa. [Argos](https://argos.sovright.com), dari Sovright, adalah workspace pemulihan desktop yang dibuat untuk kasus ini dan kasus pemulihan lama lainnya.
 
-Argos membaca seed dan file dompet ZecWallet Lite, zcashd `wallet.dat`, Sapling standalone extended spending keys, dan Sprout material spending. Untuk Sprout, seed ZecWallet Lite saja tidak cukup karena kunci-kunci tersebut dibuat secara terpisah. Argos adalah alat pemulihan, bukan dompet untuk penggunaan sehari-hari: periksa material sumber secara lokal, pindai, lalu sweep ke dalam dompet yang kamu kelola.
+Argos membaca seed dan file dompet Zecwallet Lite, zcashd `wallet.dat`, Sapling standalone extended spending keys, dan Sprout material spending. Untuk Sprout, seed Zecwallet Lite saja tidak cukup karena kunci-kunci tersebut dibuat secara terpisah. Argos adalah alat pemulihan, bukan dompet untuk penggunaan sehari-hari: periksa material sumber secara lokal, pindai, lalu sweep ke dalam dompet yang kamu kelola.
 
 Least Authority telah [diaudit](https://argos.sovright.com/assets/least-authority-argos-audit-2026-06-29.pdf) alat tersebut. Proses pemulihan sendiri tidak dipungut biaya. Donasi opsional untuk Sovright dapat muncul selama proses sweep.
 
@@ -134,7 +134,7 @@ Least Authority telah [diaudit](https://argos.sovright.com/assets/least-authorit
 1. Unduh aplikasi desktop dari situs resmi [Argos](https://argos.sovright.com) atau halaman rilis [GitHub](https://github.com/sovright/argos/releases). Verifikasi checksum atau tanda tangan saat dipublikasikan.
 2. Gunakan rilis Argos terbaru. Per 18 September 2026, **v1.3.0** adalah versi terbaru dan yang disarankan. Gunakan **v1.2.0 atau yang lebih baru untuk pemulihan `wallet.dat` dan Sprout**. Build yang lebih lama dari 1.1.0 masih dapat memindai tetapi membuat sweep pre-Ironwood yang akan ditolak oleh jaringan; perbarui dan coba lagi.
 3. Bekerjalah pada mesin yang kamu percayai. Utamakan enkripsi disk penuh. Jangan melakukan screen-share saat frasa pemulihan, passphrase, atau spending key terlihat.
-4. Siapkan tujuan Unified Address dari dompet terawat yang kamu kendalikan, seperti [ZODL](https://zodl.app/). Konfirmasi alamat di dompet tersebut sebelum kamu menempelkannya ke Argos.
+4. Siapkan tujuan Unified Address dari dompet terawat yang kamu kendalikan, seperti [ZODL](https://zodl.com/). Konfirmasi alamat di dompet tersebut sebelum kamu menempelkannya ke Argos.
 
 ### Pemulihan frasa pemulihan
 
@@ -153,7 +153,7 @@ Menyiarkan sweep bersifat tidak dapat dibatalkan. Simpan file dompet asli sampai
 
 ### File dompet dan kunci mandiri
 
-Pada layar selamat datang, **Saya memiliki file dompet** mencakup file ZecWallet Lite, sebuah zcashd `wallet.dat`, atau Sapling extended spending keys yang berdiri sendiri. Pemulihan spending-key Sprout yang berdiri sendiri ditangani oleh Sprout path/CLI pemulihan milik Argos.
+Pada layar selamat datang, **Saya memiliki file dompet** mencakup file Zecwallet Lite, sebuah zcashd `wallet.dat`, atau Sapling extended spending keys yang berdiri sendiri. Pemulihan spending-key Sprout yang berdiri sendiri ditangani oleh Sprout path/CLI pemulihan milik Argos.
 
 Argos membaca file dompet tanpa mengubahnya. Jika dompet dienkripsi, masukkan passphrase saat diminta; data tersebut digunakan dalam memori dan tidak ditulis ke disk. Tinjau jumlah kunci transparan, Sapling, dan Sprout sebelum kamu memulai pemindaian.
 
@@ -161,7 +161,7 @@ Viewing key tidak dapat diterima untuk sebuah sweep karena tidak dapat memberika
 
 ### Catatan Sprout
 
-Seed phrase ZecWallet Lite tidak menurunkan kunci Sprout. Kunci-kunci tersebut dibuat secara terpisah. Pulihkan Sprout dari zcashd `wallet.dat`, atau dari spending key mandiri di CLI.
+Seed phrase Zecwallet Lite tidak menurunkan kunci Sprout. Kunci-kunci tersebut dibuat secara terpisah. Pulihkan Sprout dari zcashd `wallet.dat`, atau dari spending key mandiri di CLI.
 
 Jika file tersebut sudah memiliki data note yang dapat dibelanjakan dan witness yang tersimpan di cache, Argos dapat menawarkan **Sweep dana Sprout** tanpa perlu melakukan chain scan. Jika tidak, ia dapat menjalankan pemindaian full-block yang dapat dilanjutkan (resumable) melalui jaringan P2P. Pemindaian tersebut berukuran besar dan lambat. Checkpoint yang ditulis bersifat mampu-belanja (spend-capable), jadi lindungi file tersebut seperti dompet aslinya.
 
@@ -181,9 +181,9 @@ Migrasi bertahap dapat menggunakan beberapa transaksi, sehingga total biaya bisa
 
 ## Pemulihan Mendalam dengan ZExcavator
 
-[ZExCavator](https://github.com/zingolabs/zexcavator) adalah proyek pemulihan Zingo Labs yang sedang dalam tahap pengembangan, yang saat ini berfokus pada file dompet ZecWallet Lite dan migrasi format dompet. README-nya saat ini mengarahkan pengguna pemulihan dana ke opsi ekspor **Zingolib** sementara dukungan ZeWIF yang lebih lengkap masih dalam tahap pengembangan.
+[ZExCavator](https://github.com/zingolabs/zexcavator) adalah proyek pemulihan Zingo Labs yang sedang dalam tahap pengembangan, yang saat ini berfokus pada file dompet Zecwallet Lite dan migrasi format dompet. README-nya saat ini mengarahkan pengguna pemulihan dana ke opsi ekspor **Zingolib** sementara dukungan ZeWIF yang lebih lengkap masih dalam tahap pengembangan.
 
-Anggap ini sebagai alat tingkat lanjut/kasus khusus alih-alih jalur pemulihan default. Untuk frasa pemulihan ZecWallet Lite biasa, file dompet, zcashd `wallet.dat`, dan spending key standalone yang didukung, coba Argos terlebih dahulu. Verifikasi apa pun yang dipulihkan oleh ZExCavator di dalam dompet yang terawat sebelum kamu mengandalkannya.
+Anggap ini sebagai alat tingkat lanjut/kasus khusus alih-alih jalur pemulihan default. Untuk frasa pemulihan Zecwallet Lite biasa, file dompet, zcashd `wallet.dat`, dan spending key standalone yang didukung, coba Argos terlebih dahulu. Verifikasi apa pun yang dipulihkan oleh ZExCavator di dalam dompet yang terawat sebelum kamu mengandalkannya.
 
 ## Pemulihan profesional saat kamu tidak memiliki frasa pemulihan
 
