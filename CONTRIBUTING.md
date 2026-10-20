@@ -85,6 +85,15 @@ Note* ZecHub Global page translation rate limit is 10 pages per week.
 
 **Adding a new language to the wiki:** the curated wiki languages are translated and kept up to date by the translation pipeline, so a new language is a permanent commitment, not a set of page PRs. Open an issue first, naming the language, and wait for the maintainers' decision before translating pages. The native reviewer is selected through a ZecHub Translation Quality bounty; the proposer may apply. See [docs/adding-a-language.md](docs/adding-a-language.md) for what is involved, the roles, the costs and the review process.
 
+**When your PR adds, moves or deletes wiki pages, or names a new project.** Curated wiki pages are translated by the translation pipeline into every wiki language (a page shows in English until its translation exists), so these updates belong in the same PR, each only when it applies:
+
+- **New project or product names** go in `translation/protected-terms.json` (`preserveVerbatim`), spelled exactly as the project writes it on its own site (`SwissBorg`, `THORSwap`, `BTCPay Server`); otherwise the pipeline can translate the name in the translated pages. Run `node scripts/check-terms-file.mjs --fix` to put the list back in order. Two spellings of the same name go together in an `equivalentForms` group. The PR template asks you to list the names with their official URL, so a maintainer can check the spelling.
+- **A new page** goes in `translation/curated-pages.txt` (the default: the translation routine then translates it into every language) or, if it should stay English only, in `translation/english-only-pages.txt`.
+- **A deleted or moved page** must leave those lists: run `node translation/decurate.mjs <old path>` from the repository root. It removes the list line, the page's translations and their manifest entries.
+- After either of the last two, run `node translation/gen-menu-titles.mjs` and commit the result.
+
+You don't have to remember the commands: the **Curation check** on your PR comments the exact change to make and turns green once the lists match the pages. Please don't translate curated pages by hand; the translation routine and its manifest handle them (see [docs/translation-contributor-workflow.md](docs/translation-contributor-workflow.md)).
+
 ### ZecHub Wiki - 0.04 ZEC per accepted edit to docs
 
 Sometimes our information in the docs isn't spot on. That's okay. That's why we open-source them! If you find something that needs a change in a wiki-doc, please go to the footer of the doc (which links to its Github page) and suggest a change via a PR.
