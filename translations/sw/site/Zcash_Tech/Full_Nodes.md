@@ -100,11 +100,9 @@ Vipandikizi vya DNS huonyesha orodha ya nodi zingine zinazoaminika kupitia seva 
 
 Hizi ni mifano ya mifumo inayoruhusu ufikiaji wa data ya Mtandao Zcash:
 
-[Kichunguzi cha Kizuizi Zcash](https://zcashblockexplorer.com)
+[Kichunguzi cha Kizuizi Zcash](https://mainnet.zcashexplorer.app)
 
 [Sarafu za kielektroniki](https://docs.coinmetrics.io/info/assets/zec)
-
-[Blockchair](https://blockchair.com/zcash)
 
 Unaweza pia kuchangia katika maendeleo ya mtandao kwa kufanya majaribio au kupendekeza maboresho mapya na kutoa vipimo.
 

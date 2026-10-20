@@ -100,11 +100,9 @@ Les seeders DNS exposent une liste d’autres nœuds fiables via un serveur int�
 
 Voici des plateformes d’exemple permettant d’accéder aux données du réseau Zcash :
 
-[Zcash Explorateur de blocs](https://zcashblockexplorer.com)
+[Zcash Explorateur de blocs](https://mainnet.zcashexplorer.app)
 
 [Coinmetrics](https://docs.coinmetrics.io/info/assets/zec)
-
-[Blockchair](https://blockchair.com/zcash)
 
 Vous pouvez également contribuer au développement du réseau en exécutant des tests, en proposant de nouvelles améliorations et en fournissant des métriques.
 

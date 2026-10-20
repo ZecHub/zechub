@@ -167,7 +167,7 @@
 
 [محفظة Zodl](https://zodl.com)
 
-[حوكمة ShapeShift DAO (رمز FOX)](https://shapeshift.com/fox-token)
+[حوكمة ShapeShift DAO (رمز FOX)](https://web.archive.org/web/20210126180411/https://shapeshift.com/fox-token)
 
 [Zcash Community Grants](https://zcashcommunitygrants.org/)
 

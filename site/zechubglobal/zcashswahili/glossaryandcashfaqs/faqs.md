@@ -32,7 +32,7 @@ Maamuzi kutoka kwenye mchakato wa ZIP huandikwa kwenye maelezo ya Zcash, vilevil
 
 ## Muamala Yangu Iko Wapi?
 
-kwanza soma [makala yetu](https://zechub.notion.site/Zcash-Blockchain-Explorer-4b4d970cb53e474989932c6e1a78b629) kwenye block explorers. Halafu angalia na [Zcash block explorer](https://zcashblockexplorer.com) Kumbuka kuwa shughuli zote hufikia kikomo kwa kipindi cha takriban dakika 25 au kwa kujumlisha bloki 20, na fedha hurudishwa kwa anwani ya awali ya mtumaji.
+kwanza soma [makala yetu](https://zechub.notion.site/Zcash-Blockchain-Explorer-4b4d970cb53e474989932c6e1a78b629) kwenye block explorers. Halafu angalia na [Zcash block explorer](https://mainnet.zcashexplorer.app) Kumbuka kuwa shughuli zote hufikia kikomo kwa kipindi cha takriban dakika 25 au kwa kujumlisha bloki 20, na fedha hurudishwa kwa anwani ya awali ya mtumaji.
 
 Ikiwa muamala wako unamalizika muda wake, jambo bora la kufanya ni kujaribu tena muamala wako kwa mabadiliko kadhaa yanayowezekana.
 

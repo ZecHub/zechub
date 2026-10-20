@@ -148,7 +148,7 @@ Kichunguzi cha blockchain Zcash cha kwanza kwa faragha (zamani CipherScan). Kime
 
 ### Exblo
 Kichunguzi cha block kilichoundwa kwa ajili ya kujaribu miamala kwenye Zcash Testnet. 
-[Tembelea](https://testnet.exblo.app/)
+[Tembelea](https://web.archive.org/web/20241206041317/https://testnet.exblo.app/)
 
 ### OpenZcash
 Dashibodi ya uwazi wa umma kwa ajili ya Mfuko wa Zcash Dev, ikiwa ni pamoja na uhasibu wa ruzuku za ZCG na FPF, Lockbox, utawala, na malipo. 
@@ -184,7 +184,7 @@ Zana ya ufuatiliaji na vipimo vya data kwa utendaji wa bei ya soko la Zcash.
 
 ### Zlink
 Saraka ya kutafuta viungo, zana, na taarifa kuhusu mfumo ikolojia Zcash. 
-[Tembelea](https://zlink.click)
+[Tembelea](https://web.archive.org/web/20250309010146/https://zlink.click/)
 
 ### Zecmarket
 Soko la kwanza la faragha la mfumo ikolojia wa Zcash. Malipo hulipwa moja kwa moja na mfumo hauhifadhi pesa zako kamwe. 

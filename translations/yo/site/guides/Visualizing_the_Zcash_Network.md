@@ -122,7 +122,7 @@ cargo run --release --features crawler --bin crawler -- --help
 
 Èyí yóò kó gbogbo ètò náà jọ, yóò sì rí i dájú pé ohun gbogbo ń ṣiṣẹ́ dáadáa.
 
-Láti ṣiṣẹ́ Crawler, ó pọndandan láti fi àsíá '--seed-adds' kún àṣẹ ìbẹ̀rẹ̀, tí ó ní ó kéré tán àdírẹ́sì IP Zcash node kan tí ó wúlò. Ó yẹ kí a jẹ́ kí crawler náà ṣiṣẹ́ fún àkókò tí ó yẹ kí ó tó lè rí àbájáde pípéye. A lè rí àwọn àdírẹ́sì IP node kan lórí àpẹẹrẹ [https://zcashblockexplorer.com/nodes](https://zcashblockexplorer.com/nodes).
+Láti ṣiṣẹ́ Crawler, ó pọndandan láti fi àsíá '--seed-adds' kún àṣẹ ìbẹ̀rẹ̀, tí ó ní ó kéré tán àdírẹ́sì IP Zcash node kan tí ó wúlò. Ó yẹ kí a jẹ́ kí crawler náà ṣiṣẹ́ fún àkókò tí ó yẹ kí ó tó lè rí àbájáde pípéye. A lè rí àwọn àdírẹ́sì IP node kan lórí àpẹẹrẹ [https://mainnet.zcashexplorer.app/nodes](https://mainnet.zcashexplorer.app/nodes).
 
 Láti gba ìwífún láti ọ̀dọ̀ Crawler nígbà tí ó bá ń ṣiṣẹ́, ó pọndandan láti fi àsíá '--rpc-addr' kún àṣẹ ìbẹ̀rẹ̀. Èyí kò pọndandan láti ṣiṣẹ́ crawler fúnra rẹ̀ nìkan ṣùgbọ́n bí bẹ́ẹ̀ kọ́ yóò nílò dídá crawler (ctrl+c tàbí SIGKILL) dúró láti fi ìwífún èyíkéyìí hàn rárá.
 

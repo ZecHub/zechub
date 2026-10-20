@@ -68,7 +68,7 @@ Le decisioni vengono scritte nella specifica e ratificate on-chain quando la ret
 
 <div className="rounded-2xl border border-border bg-card p-5 my-4">
 
-Leggi prima [la nostra guida ai block explorer](/guides/blockchain-explorers). Poi controlla [Zcash Block Explorer](https://zcashblockexplorer.com).
+Leggi prima [la nostra guida ai block explorer](/guides/blockchain-explorers). Poi controlla [Zcash Block Explorer](https://mainnet.zcashexplorer.app).
 
 Le transazioni scadono dopo circa 25 minuti (20 blocchi) e i fondi vengono restituiti automaticamente.
 

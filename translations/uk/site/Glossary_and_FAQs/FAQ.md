@@ -68,7 +68,7 @@ Zcash принципово приватніший за Bitcoin або Ethereum. 
 
 <div className="rounded-2xl border border-border bg-card p-5 my-4">
 
-Спершу прочитайте [наш посібник із блокчейн-оглядачів](/guides/blockchain-explorers). Потім перевірте [Zcashоглядач блоків](https://zcashblockexplorer.com).
+Спершу прочитайте [наш посібник із блокчейн-оглядачів](/guides/blockchain-explorers). Потім перевірте [Zcashоглядач блоків](https://mainnet.zcashexplorer.app).
 
 Термін дії транзакцій спливає приблизно через 25 хвилин (20 блоків), а кошти повертаються автоматично.
 

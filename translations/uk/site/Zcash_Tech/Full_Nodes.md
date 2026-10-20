@@ -100,11 +100,9 @@ DNS-сідери надають список інших надійних вуз�
 
 Ось приклади платформ, що надають доступ до мережевих даних Zcash:
 
-[Zcash Оглядач блоків](https://zcashblockexplorer.com)
+[Zcash Оглядач блоків](https://mainnet.zcashexplorer.app)
 
 [Coinmetrics](https://docs.coinmetrics.io/info/assets/zec)
-
-[Blockchair](https://blockchair.com/zcash)
 
 Ви також можете сприяти розвитку мережі, запускаючи тести, пропонуючи нові покращення та надаючи метрики.
 

@@ -19,7 +19,7 @@ Hapa kuna baadhi ya zile zinazofanya kazi:
 | Naomi Brockwell (NBTV)     | Mahojiano na maudhui ya hadhi ya juu kuhusu faragha           | [Tembelea ->](https://naomibrockwell.com/highprofileinterviews) |
 | Sqribbles                  | Maudhui ya Zcash yanayoendeshwa na ubunifu na jamii              | [Tembelea ->](https://free2z.cash/sqribbles) |
 | Str4d                      | Maandishi ya kiufundi kutoka kwa msanidi programu mkuu wa Zcash             | [Tembelea ->](https://words.str4d.xyz/) |
-| CipherScan ya Kila Wiki          | Machapisho ya blogu ya kila wiki yanayohusu uchanganuzi wa blockchain Zcash    | [Tembelea ->](https://cipherscan.app/) |
+| CipherScan ya Kila Wiki          | Machapisho ya blogu ya kila wiki yanayohusu uchanganuzi wa blockchain Zcash    | [Tembelea ->](https://zecblock.com/) |
 | Habari Zilizolindwa za Zcash        | Muhtasari wa habari za faragha na mfumo ikolojia kila wiki                 | [Tembelea ->](https://zechub.substack.com/) |
 | Blogu ZecHub DAO            | Makala na maudhui ya kielimu kutoka kwa jumuiya ya ZecHub DAO | [Tembelea ->](https://zechub.wiki) |
 

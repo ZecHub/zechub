@@ -97,7 +97,7 @@ MetaMask тепер підтримує **захищений Zcash (ZEC)** чер
 > **Обмін ETH -> ZEC** - скористайтеся сервісами на кшталт **LeoDex** і надішліть кошти на свою захищену адресу.  
 > **Виведення з біржі** - виведіть придбані ZEC на свою захищену адресу WebZjs.  
 
-![LEODEX-SWAP](/content-images/HyLQ0G2ugg-8d82ef24f6.webp)
+![LeoDex-SWAP](/content-images/HyLQ0G2ugg-8d82ef24f6.webp)
 
 
 > => Використовуйте захищені (z) адреси для **повної приватності**.
@@ -158,4 +158,4 @@ MetaMask тепер підтримує **захищений Zcash (ZEC)** чер
 > Створення shielded proofs може зайняти час, WebAssembly виконує обчислення в браузері.  
 > Відновлення просте: встановіть MetaMask і Snap, а потім імпортуйте наявну seed-фразу.  
 > Snap за замовчуванням використовує **shielded ZEC**, transparent addresses **не є основним фокусом**.  
-> Використовуйте [zcashblockexplorer.com](https://zcashblockexplorer.com) для підтвердження транзакцій.
+> Використовуйте [mainnet.zcashexplorer.app](https://mainnet.zcashexplorer.app) для підтвердження транзакцій.

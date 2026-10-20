@@ -148,7 +148,7 @@ Rust में लिखा गया Zcash के लिए प्रायो�
 
 ### Exblo
 Zcash Testnet पर लेन-देन परीक्षण के लिए डिज़ाइन किया गया block एक्सप्लोरर।  
-[देखें](https://testnet.exblo.app/)
+[देखें](https://web.archive.org/web/20241206041317/https://testnet.exblo.app/)
 
 ### OpenZcash
 Zcash Dev Fund के लिए सार्वजनिक पारदर्शिता डैशबोर्ड, जिसमें ZCG और FPF grant लेखांकन, Lockbox, शासन और वितरण शामिल हैं।  
@@ -184,7 +184,7 @@ Zcash बाजार मूल्य प्रदर्शन के लिए 
 
 ### Zlink
 Zcash पारिस्थितिकी तंत्र के लिंक, टूल और जानकारी खोजने की निर्देशिका।  
-[देखें](https://zlink.click)
+[देखें](https://web.archive.org/web/20250309010146/https://zlink.click/)
 
 ### Zecmarket
 Zcash पारिस्थितिकी तंत्र का गोपनीयता-प्रथम marketplace। भुगतान सीधे निपटते हैं और मंच कभी आपके फंड नहीं रखता।  

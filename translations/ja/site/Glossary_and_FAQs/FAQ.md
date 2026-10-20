@@ -68,7 +68,7 @@ Zcashは、BitcoinやEthereumよりも根本的に高いプライバシーを備
 
 <div className="rounded-2xl border border-border bg-card p-5 my-4">
 
-まず、[ブロックエクスプローラーのガイド](/guides/blockchain-explorers)をお読みください。次に、[Zcash Block Explorer](https://zcashblockexplorer.com)を確認してください。
+まず、[ブロックエクスプローラーのガイド](/guides/blockchain-explorers)をお読みください。次に、[Zcash Block Explorer](https://mainnet.zcashexplorer.app)を確認してください。
 
 トランザクションは約25分（20ブロック）後に期限切れとなり、資金は自動的に返却されます。
 

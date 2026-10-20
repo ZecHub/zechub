@@ -148,7 +148,7 @@ ZcashToCash (zcashto.cash) — من ZEC إلى Cash App أو Chime أو Monzo أ
 
 ### Exblo
 مستكشف كتل مصمم لاختبار المعاملات على Testnet Zcash.  
-[زيارة](https://testnet.exblo.app/)
+[زيارة](https://web.archive.org/web/20241206041317/https://testnet.exblo.app/)
 
 ### OpenZcash
 لوحة شفافية عامة لصندوق تطوير Zcash، بما يشمل محاسبة منح ZCG وFPF وLockbox والحوكمة والمدفوعات.  
@@ -184,7 +184,7 @@ ZcashToCash (zcashto.cash) — من ZEC إلى Cash App أو Chime أو Monzo أ
 
 ### Zlink
 دليل للعثور على الروابط والأدوات والمعلومات حول منظومة Zcash.  
-[زيارة](https://zlink.click)
+[زيارة](https://web.archive.org/web/20250309010146/https://zlink.click/)
 
 ### Zecmarket
 السوق التي تضع الخصوصية أولاً في منظومة Zcash. تتم تسوية المدفوعات مباشرة ولا تحتفظ المنصة بأموالك مطلقاً.  

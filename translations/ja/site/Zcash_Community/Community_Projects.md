@@ -148,7 +148,7 @@ ZECの送信、受信、スワップをサポートする、マルチチェー�
 
 ### Exblo
 Zcash Testnet上の取引テスト向けに設計されたブロックエクスプローラー。  
-[訪問](https://testnet.exblo.app/)
+[訪問](https://web.archive.org/web/20241206041317/https://testnet.exblo.app/)
 
 ### OpenZcash
 Zcash Dev Fundの公開透明性ダッシュボード。ZCGおよびFPFの助成金会計、Lockbox、ガバナンス、支出を含みます。  
@@ -184,7 +184,7 @@ Zcashの市場価格パフォーマンスを追跡するデータ指標ツール
 
 ### Zlink
 Zcashエコシステムに関するリンク、ツール、情報を見つけるためのディレクトリ。  
-[訪問](https://zlink.click)
+[訪問](https://web.archive.org/web/20250309010146/https://zlink.click/)
 
 ### Zecmarket
 Zcashエコシステムのプライバシー第一のマーケットプレイス。決済は直接完了し、プラットフォームがあなたの資金を保有することはありません。  

@@ -162,5 +162,5 @@ Zcash Foundation の NU7 意向調査（2026年2月）では、量子回復可�
 - [zips#1134: 完全な耐量子 Zcash](https://github.com/zcash/zips/issues/1134)
 - [Project Tachyon ロードマップ](https://tachyon.z.cash/roadmap/)
 - [NU7 調査結果：得られた意見と今後の進路](https://forum.zcashcommunity.com/t/nu7-polling-results-what-we-heard-and-where-we-go-from-here/54775)
-- [Blockchair のブロック3,428,143](https://blockchair.com/zcash/block/3428143)
+- [ZecBlock のブロック3,428,143](https://zecblock.com/block/3428143)
 - [フォーラムの依頼：Zcash は耐量子ですか？](https://forum.zcashcommunity.com/t/is-zcash-post-quantum-help-wanted-d-proposal/57154)

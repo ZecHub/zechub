@@ -162,5 +162,5 @@ Ironwood هو ترقية الشبكة NU6.3. وقد تم تفعيله على Mai
 - [zips#1134: Zcash كامل المقاومة للكمّ](https://github.com/zcash/zips/issues/1134)
 - [خارطة طريق مشروع Tachyon](https://tachyon.z.cash/roadmap/)
 - [NU7 نتائج الاستطلاع: ما سمعناه وإلى أين نذهب من هنا](https://forum.zcashcommunity.com/t/nu7-polling-results-what-we-heard-and-where-we-go-from-here/54775)
-- [الكتلة 3,428,143 على Blockchair](https://blockchair.com/zcash/block/3428143)
+- [الكتلة 3,428,143 على ZecBlock](https://zecblock.com/block/3428143)
 - [طلب في المنتدى: هل Zcash ما بعد كمّي؟](https://forum.zcashcommunity.com/t/is-zcash-post-quantum-help-wanted-d-proposal/57154)

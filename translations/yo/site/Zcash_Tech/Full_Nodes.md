@@ -100,11 +100,9 @@ Nípa ṣíṣiṣẹ́ gbogbo nọ́mbà kan, o ń ran lọ́wọ́ láti mú k
 
 Àwọn àpẹẹrẹ ìtàkùn tí ó gba ààyè láti wọlé sí dátà Zcash Network nìyí:
 
-[Olùṣàwárí Àkọsílẹ̀ Zcash](https://zcashblockexplorer.com)
+[Olùṣàwárí Àkọsílẹ̀ Zcash](https://mainnet.zcashexplorer.app)
 
 [Àwọn Coinmetrics](https://docs.coinmetrics.io/info/assets/zec)
-
-[Blockchair](https://blockchair.com/zcash)
 
 O tun le ṣe alabapin si idagbasoke nẹtiwọọki naa nipa ṣiṣe awọn idanwo tabi daba awọn ilọsiwaju tuntun ati pese awọn wiwọn.
 

@@ -122,7 +122,7 @@ cargo run --release --features crawler --bin crawler -- --help
 
 Nke a ga-achịkọta usoro ahụ ma hụ na ihe niile na-arụ ọrụ nke ọma.
 
-Iji gbaa Crawler ọsọ, ọ dị mkpa ka ị tinye ọkọlọtọ '--seed-adds' na iwu mmalite, nke nwere opekata mpe otu adreesị IP nke Zcash node dị irè. Ekwesịrị ịhapụ crawler ahụ ka ọ na-agba ọsọ ruo oge kwesịrị ekwesị iji nweta nsonaazụ ziri ezi. Enwere ike ịchọta ụfọdụ adreesị IP nke node node na [https://zcashblockexplorer.com/nodes](https://zcashblockexplorer.com/nodes).
+Iji gbaa Crawler ọsọ, ọ dị mkpa ka ị tinye ọkọlọtọ '--seed-adds' na iwu mmalite, nke nwere opekata mpe otu adreesị IP nke Zcash node dị irè. Ekwesịrị ịhapụ crawler ahụ ka ọ na-agba ọsọ ruo oge kwesịrị ekwesị iji nweta nsonaazụ ziri ezi. Enwere ike ịchọta ụfọdụ adreesị IP nke node node na [https://mainnet.zcashexplorer.app/nodes](https://mainnet.zcashexplorer.app/nodes).
 
 Iji nweta ozi site n'aka Crawler mgbe ọ na-agba ọsọ, ọ dị mkpa ka ị tinye ọkọlọtọ '--rpc-addr' na iwu mmalite. Nke a abụghị naanị iji gbaa crawler n'onwe ya kama ọ ga-achọ ka a kwụsị crawler (ctrl+c ma ọ bụ SIGKILL) iji gosipụta ozi ọ bụla ma ọlị.
 

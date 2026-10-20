@@ -97,7 +97,7 @@ MetaMask で **Add Network** を選択し、次を入力します:
 > **ETH -> ZEC をスワップ** - **LeoDex** などのサービスを使用し、あなたの shielded address に送信します。  
 > **取引所からの出金** - 購入した ZEC をあなたの WebZjs shielded address に出金します。  
 
-![LEODEX-SWAP](/content-images/HyLQ0G2ugg-8d82ef24f6.webp)
+![LeoDex-SWAP](/content-images/HyLQ0G2ugg-8d82ef24f6.webp)
 
 
 > => **完全なプライバシー**のために shielded (z) addresses を使用してください。
@@ -158,4 +158,4 @@ MetaMask で **Add Network** を選択し、次を入力します:
 > Shielded proof の生成には時間がかかる場合があり、計算はブラウザ内で WebAssembly が処理します。  
 > 復元は簡単です。MetaMask と Snap をインストールし、既存のシードをインポートしてください。  
 > Snap はデフォルトで **shielded ZEC** を使用し、transparent addresses は **主眼ではありません**。  
-> トランザクション確認には [zcashblockexplorer.com](https://zcashblockexplorer.com) を使用してください。
+> トランザクション確認には [mainnet.zcashexplorer.app](https://mainnet.zcashexplorer.app) を使用してください。

@@ -68,7 +68,7 @@ Woŋlɔa nyametsotsowo ɖe nɔnɔmeawo me eye woda asi ɖe wo dzi le kɔsɔkɔs�
 
 <div className="rounded-2xl border border-border bg-card p-5 my-4">
 
-Xlẽe gbã [míaƒe mɔfiala si xea mɔ na anyigbayeyedilawo](/guides/blockchain-explorers). Emegbe nàlé ŋku ɖe eŋu [Zcash Block ƒe Ʋuʋudedi](https://zcashblockexplorer.com).
+Xlẽe gbã [míaƒe mɔfiala si xea mɔ na anyigbayeyedilawo](/guides/blockchain-explorers). Emegbe nàlé ŋku ɖe eŋu [Zcash Block ƒe Ʋuʋudedi](https://mainnet.zcashexplorer.app).
 
 Asitsatsaawo wu enu le abe miniti 25 (blok 20) megbe eye wotrɔa ga la le wo ɖokui si.
 

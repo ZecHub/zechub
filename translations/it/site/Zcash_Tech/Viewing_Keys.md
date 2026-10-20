@@ -74,7 +74,7 @@ Passare un indirizzo Sapling restituisce le chiavi di visualizzazione complete e
 
 ### Portafogli che esportano chiavi di visualizzazione dalla propria interfaccia
 
-La pagina [Portafogli](/using-zcash/wallets) tiene traccia del supporto alle chiavi di visualizzazione e della compatibilità con Ironwood per ciascun portafoglio. Al momento della stesura, i portafogli che indicano sia il supporto alle chiavi di visualizzazione sia **Ironwood: Ready** includono ZODL, Zingo!, Zkool, Cake, Zallet, Zecd e Nozy. Consulta quella pagina anziché questa prima di affidarti a un singolo portafoglio, perché lo stato di compatibilità cambia.
+La pagina [Portafogli](/using-zcash/wallets) tiene traccia del supporto alle chiavi di visualizzazione e della compatibilità con Ironwood per ciascun portafoglio. Al momento della stesura, i portafogli che indicano sia il supporto alle chiavi di visualizzazione sia **Ironwood: Ready** includono ZODL, Zingo!, Zkool, Cake, Zallet, zecd e Nozy. Consulta quella pagina anziché questa prima di affidarti a un singolo portafoglio, perché lo stato di compatibilità cambia.
 
 ## Importare le chiavi di visualizzazione come account solo visualizzazione
 

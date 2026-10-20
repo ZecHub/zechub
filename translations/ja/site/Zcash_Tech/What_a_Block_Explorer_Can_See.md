@@ -26,7 +26,7 @@ Zcashには2種類のアドレスがあります。
 
 ## エクスプローラーが見られるもの
 
-[Blockchair](https://blockchair.com/zcash) のような公開エクスプローラーは、次のものを明確に読み取れます。
+[ZecBlock](https://zecblock.com/) のような公開エクスプローラーは、次のものを明確に読み取れます。
 
 - 完全に透明な（t から t）支払いは、最初から最後まで。
 - 資金がシールドプールに入ること（透明な側と金額）。
@@ -65,7 +65,7 @@ Zcashには2種類のアドレスがあります。
 - [Zcash: プライバシーとセキュリティに関する推奨事項](https://z.cash/support/security/privacy-security-recommendations/)
 - [シールドされたエコシステム（Electric Coin Company）](https://web.archive.org/web/20260903010654/https://electriccoin.co/blog/shielded-ecosystem/)
 - [Zcash技術の仕組み](https://z.cash/technology/)
-- [Blockchair Zcashエクスプローラー](https://blockchair.com/zcash)
+- [ZecBlock](https://zecblock.com/)
 
 ## 関連ページ
 

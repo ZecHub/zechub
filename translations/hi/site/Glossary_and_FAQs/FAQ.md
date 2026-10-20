@@ -68,7 +68,7 @@ Zcash, Bitcoin या Ethereum की तुलना में मूलतः 
 
 <div className="rounded-2xl border border-border bg-card p-5 my-4">
 
-पहले [ब्लॉक एक्सप्लोररों के लिए हमारी मार्गदर्शिका](/guides/blockchain-explorers) पढ़ें। फिर [Zcash ब्लॉक एक्सप्लोरर](https://zcashblockexplorer.com) देखें।
+पहले [ब्लॉक एक्सप्लोररों के लिए हमारी मार्गदर्शिका](/guides/blockchain-explorers) पढ़ें। फिर [Zcash ब्लॉक एक्सप्लोरर](https://mainnet.zcashexplorer.app) देखें।
 
 लेनदेन लगभग 25 मिनट (20 ब्लॉक) बाद समाप्त हो जाते हैं और धनराशि स्वचालित रूप से वापस कर दी जाती है।
 

@@ -21,9 +21,9 @@ Si eres nuevo en Zcash, usa [esta guía](/start-here/new-user-guide).****
 
 ---
 
-1. Ve al [repositorio de Github de ZecHub](https://github.com/ZecHub/zechub)
+1. Ve al [repositorio de GitHub de ZecHub](https://github.com/ZecHub/zechub)
    
-2. Crea una nueva cuenta de Github o inicia sesión con la tuya
+2. Crea una nueva cuenta de GitHub o inicia sesión con la tuya
    
 3. Sigue esta guía para aprender a hacer un pull request:
 
@@ -51,15 +51,15 @@ Con el interés de mantener una apariencia uniforme en ZecHub, hay una plantilla
 3. No inappropriate content.
 ```
 
-Donaciones: [aquí](https://explorer.zec.rocks/ua/u17sawf3pdh7z6tsy83vhjd2z7sztpy9y87wyyqz4vqshn3yhch28q3ud3lr0etadl3flz4c9zdrtn9lwlf23vzmjnll97efxzg9h0rjzn9qvhvqr8p3394ysnfhg560xxxc66yxzh8r548myxn3l2qrc9pfrt8nrzhxvlpuuykv7czjsm)
+Donaciones: [aquí](https://mainnet.zcashexplorer.app/ua/u17sawf3pdh7z6tsy83vhjd2z7sztpy9y87wyyqz4vqshn3yhch28q3ud3lr0etadl3flz4c9zdrtn9lwlf23vzmjnll97efxzg9h0rjzn9qvhvqr8p3394ysnfhg560xxxc66yxzh8r548myxn3l2qrc9pfrt8nrzhxvlpuuykv7czjsm)
 
-<a href="https://explorer.zec.rocks/ua/u17sawf3pdh7z6tsy83vhjd2z7sztpy9y87wyyqz4vqshn3yhch28q3ud3lr0etadl3flz4c9zdrtn9lwlf23vzmjnll97efxzg9h0rjzn9qvhvqr8p3394ysnfhg560xxxc66yxzh8r548myxn3l2qrc9pfrt8nrzhxvlpuuykv7czjsm">
+<a href="https://mainnet.zcashexplorer.app/ua/u17sawf3pdh7z6tsy83vhjd2z7sztpy9y87wyyqz4vqshn3yhch28q3ud3lr0etadl3flz4c9zdrtn9lwlf23vzmjnll97efxzg9h0rjzn9qvhvqr8p3394ysnfhg560xxxc66yxzh8r548myxn3l2qrc9pfrt8nrzhxvlpuuykv7czjsm">
     <img src="/content-images/image-2023-11-18-141228046-644b4c542d.webp" alt="" width="200" height="200"/>
 </a>
 
 
 
-**DESCARGO DE RESPONSABILIDAD: ZecHub es una iniciativa completamente independiente y de código abierto fundada por miembros de la comunidad de Zcash. Nada de lo contenido en este repositorio de Github debe considerarse asesoramiento financiero o de inversión; es solo para fines informativos.**
+**DESCARGO DE RESPONSABILIDAD: ZecHub es una iniciativa completamente independiente y de código abierto fundada por miembros de la comunidad de Zcash. Nada de lo contenido en este repositorio de GitHub debe considerarse asesoramiento financiero o de inversión; es solo para fines informativos.**
 
 ---
 

@@ -68,7 +68,7 @@ Zcash принципиально более конфиденциален, чем
 
 <div className="rounded-2xl border border-border bg-card p-5 my-4">
 
-Сначала прочитайте [наше руководство по обозревателям блоков](/guides/blockchain-explorers). Затем проверьте обозреватель блоков [Zcash](https://zcashblockexplorer.com).
+Сначала прочитайте [наше руководство по обозревателям блоков](/guides/blockchain-explorers). Затем проверьте обозреватель блоков [Zcash](https://mainnet.zcashexplorer.app).
 
 Срок действия транзакций истекает примерно через 25 минут (20 блоков), а средства возвращаются автоматически.
 

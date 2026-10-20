@@ -122,7 +122,7 @@ cargo run --release --features crawler --bin crawler -- --help
 
 Ini akan mengompilasi program dan memastikan semuanya berfungsi dengan baik.
 
-Untuk menjalankan Crawler, kamu perlu menambahkan flag '--seed-addrs' pada perintah awal, yang berisi setidaknya satu alamat IP Zcash node yang valid. Crawler harus dibiarkan berjalan dalam jangka waktu yang wajar untuk mendapatkan hasil yang akurat. Beberapa contoh alamat IP node dapat ditemukan di [https://zcashblockexplorer.com/nodes](https://zcashblockexplorer.com/nodes).
+Untuk menjalankan Crawler, kamu perlu menambahkan flag '--seed-addrs' pada perintah awal, yang berisi setidaknya satu alamat IP Zcash node yang valid. Crawler harus dibiarkan berjalan dalam jangka waktu yang wajar untuk mendapatkan hasil yang akurat. Beberapa contoh alamat IP node dapat ditemukan di [https://mainnet.zcashexplorer.app/nodes](https://mainnet.zcashexplorer.app/nodes).
 
 Untuk mendapatkan informasi dari Crawler saat sedang berjalan, kamu perlu menambahkan flag `--rpc-addr` ke perintah awal. Hal ini tidak hanya diperlukan untuk menjalankan crawler itu sendiri, tetapi jika tidak dilakukan, kamu harus menghentikan crawler (ctrl+c atau SIGKILL) agar informasi apa pun dapat ditampilkan.
 

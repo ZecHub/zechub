@@ -20,7 +20,7 @@
 | Naomi Brockwell (NBTV)     | プライバシーに関する著名なインタビューおよびコンテンツ | [アクセス ->](https://naomibrockwell.com/highprofileinterviews) |
 | Sqribbles                  | 創造的でコミュニティ主導型のZcashコンテンツ          | [アクセス ->](https://free2z.cash/sqribbles) |
 | Str4d                      | Zcashコア開発者による技術的な書き込み               | [アクセス ->](https://words.str4d.xyz/) |
-| CipherScan Weekly          | Zcashブロックチェーン解析を扱う週次ブログ投稿        | [アクセス ->](https://cipherscan.app/) |
+| CipherScan Weekly          | Zcashブロックチェーン解析を扱う週次ブログ投稿        | [アクセス ->](https://zecblock.com/) |
 | Zcash Shielded News        | プライバシーおよびエコシステムに関する週次ニュースダイジェスト | [アクセス ->](https://zechub.substack.com/) |
 | ZecHub DAO Blog            | ZecHub DAOコミュニティからの記事および教育コンテンツ  | [アクセス ->](https://zechub.wiki) |
 

@@ -13,7 +13,7 @@ ___
 |--------------|-----------|
 | **Ações**: | Em vez de criar várias provas individuais para cada gasto e saída, o protocolo Orchard os mescla em uma única 'ação'. |
 | **Endereços**: | Zcash tem endereços blindados (Z/zaddr) e transparentes (T/taddr). Os endereços unificados (UA) estão sendo implementados gradualmente para substituir Z & T após a atualização NU5. |
-| **Arborist Call**: | Uma chamada bimestral sobre atualizações de desenvolvimento de protocolo e pesquisa. Registre-se aqui [15:00 UTC](https://us06web.zoom.us/webinar/register/WN_Vk7WMz9sRkiIr_hqH_x3LA) / [22:30 UTC](https://us06web.zoom.us/webinar/register/WN_z0k1ipsnRkS4-DGqDhULdA ) / [Notas](https://github.com/ZcashCommunityGrants/arboretum-notes) |
+| **Arborist Call**: | Uma chamada bimestral sobre atualizações de desenvolvimento de protocolo e pesquisa. Registre-se aqui [15:00 UTC](https://web.archive.org/web/20230130034337/https://us06web.zoom.us/webinar/register/WN_Vk7WMz9sRkiIr_hqH_x3LA) / [22:30 UTC](https://web.archive.org/web/20230323232320/https://us06web.zoom.us/webinar/register/WN_z0k1ipsnRkS4-DGqDhULdA ) / [Notas](https://github.com/ZcashCommunityGrants/arboretum-notes) |
 | **Auto-shielding**: | Permite que os usuários (mais especificamente suas carteiras) movam fundos automaticamente de um endereço transparente para o pool ZEC blindado mais recente. |
 
 
@@ -27,7 +27,7 @@ ___
 |--------------|-----------|
 | **Benchmarking**: | Os mineradores podem enviar métricas sobre a eficiência de vários hardwares usados ​​para minerar Zcash. Disponível para visualização [aqui](https://zcashbenchmarks.info) |
 | **Bloco**: | Um Bloco é um registro na blockchain Zcash que contém um conjunto de transações enviadas na rede. Aproximadamente a cada 75 segundos, em média, um novo bloco é anexado ao blockchain. |
-| **Block Explorer**: | Uma ferramenta online para visualizar todas as transações, passadas e atuais, no blockchain. Eles fornecem informações úteis, como hashrate de rede e crescimento de transações. [Zcash Block Explorer](https://zcashblockexplorer.com/) |
+| **Block Explorer**: | Uma ferramenta online para visualizar todas as transações, passadas e atuais, no blockchain. Eles fornecem informações úteis, como hashrate de rede e crescimento de transações. [Zcash Block Explorer](https://mainnet.zcashexplorer.app/) |
 | **Blogs**: | [Blog ECC](https://electriccoin.co/blog/) / [Zcash Foundation Blog](https://zfnd.org/blog/) / [Zcash Community Blog](https://www.zcashcommunity.com /blog/) |
 | **Blossom**: | A terceira grande atualização de rede para Zcash. [Mais informações](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html?highlight=orchard#blossom) |
 
@@ -81,7 +81,7 @@ ___
 | **Educação**: | Vídeos orientados ao aprendizado explicando o Zcash [aqui](https://www.zcashcommunity.com/zcash-education/) |
 | **Encrypted Memos**: | Um campo adicional para transações enviadas para endereços blindados que fica visível para o destinatário de um pagamento. O memorando criptografado é visível apenas para o remetente e o destinatário, a menos que a chave de visualização ou a divulgação do pagamento sejam compartilhadas com terceiros. |
 | **Equihash**: | O algoritmo de mineração de prova de trabalho orientado à memória que é usado no Zcash. |
-| **Eventos**: | O calendário de eventos relacionados ao Zcash [aqui](https://electriccoin.co/events/) |
+| **Eventos**: | O calendário de eventos relacionados ao Zcash [aqui](https://web.archive.org/web/20260823125948/https://electriccoin.co/events/) |
 | **Exchanges**:| [Lista de trocas que suportam Zcash](https://z.cash/exchanges/) |
 
 
@@ -182,7 +182,7 @@ ___
 
 | | |
 |--------------|-----------|
-| **Métricas**: | As métricas de rede estão disponíveis [aqui](https://electriccoin.co/zcash-metrics/) |
+| **Métricas**: | As métricas de rede estão disponíveis [aqui](https://web.archive.org/web/20240327000137/https://electriccoin.co/zcash-metrics/) |
 | **Metadados**: | Dados que são gerados juntamente com uma transação Zcash do usuário. Isso pode incluir altura do bloco, versão da transação ou altura da expiração, etc. |
 |**Mobile SDK**: | Um SDK leve que conecta o Android ao Zcash, permitindo que aplicativos Android de terceiros enviem e recebam transações blindadas. [Github](https://github.com/zcash/zcash-android-wallet-sdk)|
 | **Mineração**: | O processo em que, para cada bloco, os nós da rede Zcash competem fazendo cálculos matemáticos complexos para encontrar uma solução baseada em uma dificuldade auto-ajustável. Os mineradores Zcash são recompensados ​​com as taxas de transação das transações que eles confirmam e bloqueiam as recompensas. [Guia](https://z.cash/mining-zcash/) |
@@ -347,7 +347,7 @@ ___
 |--------------|-----------|
 | **Zcash Community Grants**: | Um comitê de doações eleito pela comunidade que financia projetos que promovem a usabilidade, segurança, privacidade e adoção do Zcash - [site do ZCG](https://zcashcommunitygrants.org) |
 | **Zcashd**: | O nó completo Zcashd baixa uma cópia do blockchain Zcash, impõe regras da rede Zcash e pode executar todas as funcionalidades. O zcash-cli permite interações com o nó (por exemplo, para dizer a ele para enviar uma transação). [Docs](https://zcash.readthedocs.io/en/latest/rtd_pages/zcashd.html) |
-| **Zcash Developer Alliance (ZDA)**: | Priorizando a interoperabilidade entre cadeias como a primeira entrega, ela reúne uma variedade de equipes para trabalhar em direção a um objetivo comum. [Zcash Developer Alliance](https://electriccoin.co/zcash-developer-alliance/) |
+| **Zcash Developer Alliance (ZDA)**: | Priorizando a interoperabilidade entre cadeias como a primeira entrega, ela reúne uma variedade de equipes para trabalhar em direção a um objetivo comum. [Zcash Developer Alliance](https://web.archive.org/web/20240222040552/https://electriccoin.co/zcash-developer-alliance/) |
 | **Zcash Foundation/Fundação Zcash**: | Uma instituição de caridade pública 501(c)(3) que constrói infraestrutura de privacidade financeira para o bem público, atendendo principalmente usuários do protocolo Zcash e blockchain. [site](https://zfnd.org) |
 | **Zcon**: | Uma conferência presencial anual centrada no ecossistema Zcash. [Zcon3 Playlist](https://www.youtube.com/playlist?list=PL40dyJ0UYTLJm-Cl7ez3UXp8R4IuUNDfb)|
 | **Zebra**: | Uma implementação de nó completo independente do protocolo Zcash. - [O Livro Zebra](https://zebra.zfnd.org) |

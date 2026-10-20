@@ -31,7 +31,7 @@ A yoo kọ ẹkọ diẹ sii nipa Ilana ikọkọ kan eyiti o nlo Imudaniloju-ti
 
 [Josh Swihart Fe Kuro ni ECC](https://twitter.com/jswihart/status/1681663020852736000) 
 
-[Kalẹnda Ologba ZFAV 📆 fun Zcon4!](https://zechub.wiki/zfav/calendar) 
+Kalẹnda Ologba ZFAV 📆 fun Zcon4! 
 
 [ZF- Ojo iwaju ti igbeowosile Zcash ati Decentralization](https://twitter.com/ZcashFoundation/status/1682479746007826432?t=UiLUIKecGAq65xOj1VCLNg&s=19) 
 
@@ -68,7 +68,7 @@ A yoo kọ ẹkọ diẹ sii nipa Ilana ikọkọ kan eyiti o nlo Imudaniloju-ti
 
 #### Iroyin ati Media 
 
-[Ile-ẹjọ UK funni ni afilọ lati ọdọ Craig Wright Lori ẹjọ Bitcoin - Cointelegraph](https://cointelegraph.com/news/uk-courts-grants-appeal-craig-wright-bitcoin-rights-lawsuit) 
+[Ile-ẹjọ UK funni ni afilọ lati ọdọ Craig Wright Lori ẹjọ Bitcoin - Cointelegraph](https://web.archive.org/web/20250827103632/https://cointelegraph.com/news/uk-courts-grants-appeal-craig-wright-bitcoin-rights-lawsuit) 
 
 [DOJ ngbero lati jeki iwadii Crypto po si 🕵️ -The Block](https://www.theblock.co/post/240967/doj-looks-to-increase-crypto-investigations-with-move-to-merge-teams) 
 

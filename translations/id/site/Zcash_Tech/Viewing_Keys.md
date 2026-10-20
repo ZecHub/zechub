@@ -74,7 +74,7 @@ Memasukkan alamat Sapling akan mengembalikan extended full viewing key Sapling d
 
 ### Dompet yang mengekspor viewing key dari antarmuka mereka sendiri
 
-Halaman [Wallets](/using-zcash/wallets) melacak dukungan viewing-key dan Ironwood kesiapan untuk setiap dompet. Pada saat penulisan ini, dompet yang mencantumkan dukungan viewing-key sekaligus **Ironwood: Ready** meliputi ZODL, Zingo!, Zkool, Cake, Zallet, Zecd, dan Nozy. Periksa halaman tersebut daripada halaman ini sebelum mengandalkan satu dompet pun, karena kesiapan dapat berubah.
+Halaman [Wallets](/using-zcash/wallets) melacak dukungan viewing-key dan Ironwood kesiapan untuk setiap dompet. Pada saat penulisan ini, dompet yang mencantumkan dukungan viewing-key sekaligus **Ironwood: Ready** meliputi ZODL, Zingo!, Zkool, Cake, Zallet, zecd, dan Nozy. Periksa halaman tersebut daripada halaman ini sebelum mengandalkan satu dompet pun, karena kesiapan dapat berubah.
 
 ## Mengimpor viewing key sebagai akun watch-only
 

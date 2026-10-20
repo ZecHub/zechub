@@ -101,7 +101,7 @@ Bir zamanlar umut ışığı olan finansal kapsayıcılık, potansiyel ayrımcı
 
 CBDC'lerin keşfedilmemiş topraklarına adım atanlar için kaynaklar pusulanız hâline gelir.
 1. Uluslararası Ödemeler Bankası ([BIS](https://www.bis.org/search?keywords=cbdc))
-2. Uluslararası Para Fonu ([IMF](https://www.imf.org/en/About))
+2. Uluslararası Para Fonu ([IMF](https://web.archive.org/web/20260708111341/https://www.imf.org/en/about))
 3. Araştırma makaleleri ([makale](https://papers.ssrn.com/searchresults.cfm?term=CBDC))
 4. Akademik dergiler ([dergi](https://www.bis.org/publ/work976.pdf))
 5. C.E.I makalesi  ([Makale](https://cei.org/blog/central-banks-are-watching-lets-watch-them-back/))

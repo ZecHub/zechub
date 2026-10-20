@@ -101,7 +101,7 @@ L'inclusione finanziaria, un tempo faro di speranza, affronta le ombre di una po
 
 Per chi si avventura nel territorio inesplorato delle CBDC, le risorse diventano la propria bussola.
 1. La Banca dei Regolamenti Internazionali ([BIS](https://www.bis.org/search?keywords=cbdc))
-2. il Fondo Monetario Internazionale ([FMI](https://www.imf.org/en/About))
+2. il Fondo Monetario Internazionale ([FMI](https://web.archive.org/web/20260708111341/https://www.imf.org/en/about))
 3. Documenti di ricerca ([documento](https://papers.ssrn.com/searchresults.cfm?term=CBDC))
 4. Riviste accademiche ([rivista](https://www.bis.org/publ/work976.pdf))
 5. Articolo del C.E.I  ([Articolo](https://cei.org/blog/central-banks-are-watching-lets-watch-them-back/))

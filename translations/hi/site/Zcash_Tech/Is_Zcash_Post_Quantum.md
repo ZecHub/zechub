@@ -162,5 +162,5 @@ Zcash Foundation की NU7 भावनात्मक मतदान (फर�
 - [zips#1134: पूर्णतः पोस्ट-क्वांटम Zcash](https://github.com/zcash/zips/issues/1134)
 - [Project Tachyon रोडमैप](https://tachyon.z.cash/roadmap/)
 - [NU7 मतदान परिणाम: हमने क्या सुना और यहां से आगे कहां जाएं](https://forum.zcashcommunity.com/t/nu7-polling-results-what-we-heard-and-where-we-go-from-here/54775)
-- [Blockchair पर ब्लॉक 3,428,143](https://blockchair.com/zcash/block/3428143)
+- [ZecBlock पर ब्लॉक 3,428,143](https://zecblock.com/block/3428143)
 - [फ़ोरम अनुरोध: क्या Zcash पोस्ट-क्वांटम है?](https://forum.zcashcommunity.com/t/is-zcash-post-quantum-help-wanted-d-proposal/57154)

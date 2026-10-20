@@ -100,11 +100,9 @@ Ndị na-emepụta DNS na-ekpughe ndepụta nke nodes ndị ọzọ a pụrụ �
 
 Ndị a bụ ihe atụ nke ikpo okwu ndị na-enye ohere ịnweta data Zcash Network:
 
-[Ihe Nchọgharị Zcash Block](https://zcashblockexplorer.com)
+[Ihe Nchọgharị Zcash Block](https://mainnet.zcashexplorer.app)
 
 [Ọnụ ego](https://docs.coinmetrics.io/info/assets/zec)
-
-[Blockchair](https://blockchair.com/zcash)
 
 I nwekwara ike itinye aka na mmepe nke netwọk ahụ site na ịme ule ma ọ bụ ịtụ aro mmezi ọhụrụ na inye usoro.
 

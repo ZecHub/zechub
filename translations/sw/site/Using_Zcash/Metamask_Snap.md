@@ -97,7 +97,7 @@ Kwa **Zcash Mainnet**;
 > **Badilisha ETH -> ZEC** - Tumia huduma kama **LeoDex** na utume kwa anwani yako iliyolindwa. 
 > **Kutoa Pesa** - Toa pesa kutoka ZEC uliyonunua kwenye anwani yako iliyolindwa ya WebZjs. 
 
-![LEODEX-SWAP](/content-images/HyLQ0G2ugg-8d82ef24f6.webp)
+![LeoDex-SWAP](/content-images/HyLQ0G2ugg-8d82ef24f6.webp)
 
 
 > => Tumia anwani zilizolindwa (z) kwa **faragha kamili**.
@@ -158,7 +158,7 @@ Kwa **Zcash Mainnet**;
 > Uthibitishaji uliolindwa unaweza kuchukua muda, WebAssembly hushughulikia hesabu ndani ya kivinjari. 
 > Urejeshaji ni rahisi, sakinisha MetaMask na Snap, kisha ingiza mbegu yako iliyopo. 
 > Snap hubadilika kuwa **ZEC**, anwani zinazoonekana sio **lengo**. 
-> Tumia [zcashblockexplorer.com](https://zcashblockexplorer.com) kwa uthibitisho wa miamala.
+> Tumia [mainnet.zcashexplorer.app](https://mainnet.zcashexplorer.app) kwa uthibitisho wa miamala.
 
 
 

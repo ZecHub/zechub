@@ -1,6 +1,6 @@
 [![编辑页面](https://img.shields.io/badge/Edit-blue)](https://github.com/zechub/zechub/edit/main/site/guides/Free2z_Live.md)
 
-# Free2z：账户设置 + 直播教程
+# Free2Z：账户设置 + 直播教程
 
 ## 简介
 
@@ -97,7 +97,7 @@ Free2Z 允许用户订阅自己喜欢的创作者，并获得独家功能和仅�
 
 ## 直播
 
-Free2z 平台提供了一项很棒的功能，叫做 Free2z Live。通过这个工具，创作者可以为已订阅的会员开启直播。Free2z Live 的一些关键功能包括：  
+Free2Z 平台提供了一项很棒的功能，叫做 Free2Z Live。通过这个工具，创作者可以为已订阅的会员开启直播。Free2Z Live 的一些关键功能包括：  
 - 音频和视频  
 - 屏幕共享  
 - 协作代码编辑  
@@ -105,9 +105,9 @@ Free2z 平台提供了一项很棒的功能，叫做 Free2z Live。通过这个�
 - 白板  
 - 以及更多功能！
 
-### 你可以用 Free2z Live 做什么
+### 你可以用 Free2Z Live 做什么
 
-Free2z Live 是一个功能强大的工具，允许创作者直播任何类型的内容。以下是一些你可以通过 Free2z Live 直播的内容示例：  
+Free2Z Live 是一个功能强大的工具，允许创作者直播任何类型的内容。以下是一些你可以通过 Free2Z Live 直播的内容示例：  
 - 教程与演示  
 - 表演与活动  
 - 协作项目  
@@ -116,7 +116,7 @@ Free2z Live 是一个功能强大的工具，允许创作者直播任何类型�
 
 ### 如何开始直播
 
-使用 Free2z Live 开启直播非常简单。但在开始直播前，需要满足几个条件。  
+使用 Free2Z Live 开启直播非常简单。但在开始直播前，需要满足几个条件。  
 1. 创作者 **必须** 将最低 **member price** 设置为 10 2Zs。  
 2. 创作者账户中 **必须** 至少有 150 2Zs 余额。  
 
@@ -124,7 +124,7 @@ Free2z Live 是一个功能强大的工具，允许创作者直播任何类型�
 
 ![Go Live 按钮](/content-images/go-live-4c8ac67505.webp)
 
-要开始直播，只需点击 **Go Live** 按钮，Free2z 应用会请求使用你的麦克风和摄像头（如果你有的话）的权限。授予所需权限后，Free2z 会要求你输入一个想在直播期间使用的昵称。选择好昵称后，点击 **Join** 开始你的直播。
+要开始直播，只需点击 **Go Live** 按钮，Free2Z 应用会请求使用你的麦克风和摄像头（如果你有的话）的权限。授予所需权限后，Free2Z 会要求你输入一个想在直播期间使用的昵称。选择好昵称后，点击 **Join** 开始你的直播。
 
 ![为直播选择昵称](/content-images/select-nickname-414444b992.webp)
 
@@ -134,15 +134,15 @@ Free2z Live 是一个功能强大的工具，允许创作者直播任何类型�
 
 当有人加入直播后，他们可以聊天、申请上台、通过投票互动等等。
 
-![Free2z Live 会话示例](/content-images/free2z-live-example-eecb2ae553.webp)
+![Free2Z Live 会话示例](/content-images/free2z-live-example-eecb2ae553.webp)
 
-_(Free2z Live 会话示例)_
+_(Free2Z Live 会话示例)_
 
-Free2z Live 灵活且强大。在下一节中，我将概述它的功能和工具。
+Free2Z Live 灵活且强大。在下一节中，我将概述它的功能和工具。
 
-### 探索 Free2z Live
+### 探索 Free2Z Live
 
-这篇 wiki 文档并不打算成为 Free2z 或 Free2z Live 的深入指南。但这里会对其工具做一个总体概览。
+这篇 wiki 文档并不打算成为 Free2Z 或 Free2Z Live 的深入指南。但这里会对其工具做一个总体概览。
 
 在屏幕左下角，我们可以看到几个按钮。
 
@@ -177,19 +177,19 @@ Free2z Live 灵活且强大。在下一节中，我将概述它的功能和工�
 
 ## 结论
 
-总之，Free2z 是一个功能多样的平台，创作者可以借此展示能力、分享知识并为自己的项目筹集资金，还能通过强大的 Free2z Live 工具与支持者互动。
+总之，Free2Z 是一个功能多样的平台，创作者可以借此展示能力、分享知识并为自己的项目筹集资金，还能通过强大的 Free2Z Live 工具与支持者互动。
 
 ----
 
 ### 资源
 
-[Free2z](https://free2z.cash/)  
-[Free2z 文档](https://free2z.cash/docs/)  
+[Free2Z](https://free2z.cash/)  
+[Free2Z 文档](https://free2z.cash/docs/)  
 [2Z 概览](https://free2z.cash/docs/getting-started/tuzis)  
 [创建资料页](https://free2z.cash/docs/for-creators/creating-a-profile)  
-[什么是 Free2z Live？](https://free2z.cash/docs/for-creators/free2z-live)  
-[面向支持者的 Free2z](https://free2z.cash/docs/category/for-supporters)
+[什么是 Free2Z Live？](https://free2z.cash/docs/for-creators/free2z-live)  
+[面向支持者的 Free2Z](https://web.archive.org/web/20260118172223/https://free2z.cash/docs/category/for-supporters/)
 
 ---
 
-_由 James Katz 为 Zechub 撰写。_
+_由 James Katz 为 ZecHub 撰写。_

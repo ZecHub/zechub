@@ -26,7 +26,7 @@ Esiane sɛ ɛsom bo abien nti, bo betumi akɔ akwan anan so: nea ɛda adi kɔ ne
 
 ## Nea obi a ɔhwehwɛ nneɛma mu betumi ahu
 
-Ɔmanfo nhwehwɛmufo te sɛ [Blockchair](https://blockchair.com/zcash) betumi akenkan pefee sɛ:
+Ɔmanfo nhwehwɛmufo te sɛ [ZecBlock](https://zecblock.com/) betumi akenkan pefee sɛ:
 
 - Tutua biara a ɛda adi koraa (t kosi t), awiei kosi awiei.
 - Sika a ɛhyɛn ɔtare a wɔabɔ ho ban no mu (ɔfã a ɛda adi pefee ne sika dodow no).
@@ -65,7 +65,7 @@ Bisa raw data no na shielded sender ne receiver fields no san ba kwa. Ɛnyɛ nea
 - [Zcash: kokoamsɛm ne ahobammɔ ho nyansahyɛ ahorow](https://z.cash/support/security/privacy-security-recommendations/)
 - [Abɔde a nkwa wom a wɔabɔ ho ban (Electric Coin Company) .](https://web.archive.org/web/20260903010654/https://electriccoin.co/blog/shielded-ecosystem/)
 - [Sɛnea Zcash mfiridwuma yɛ adwuma](https://z.cash/technology/)
-- [Blockchair Zcash nhwehwɛmufo](https://blockchair.com/zcash)
+- [ZecBlock](https://zecblock.com/)
 
 ## Nkratafa a ɛfa ho
 

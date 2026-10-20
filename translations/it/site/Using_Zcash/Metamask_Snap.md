@@ -97,7 +97,7 @@ Per **Zcash Mainnet**;
 > **Scambia ETH -> ZEC** - Utilizza servizi come **LeoDex** e invia al tuo indirizzo schermato.  
 > **Prelievo da Exchange** - Preleva ZEC acquistati verso il tuo indirizzo schermato di WebZjs.  
 
-![LEODEX-SWAP](/content-images/HyLQ0G2ugg-8d82ef24f6.webp)
+![LeoDex-SWAP](/content-images/HyLQ0G2ugg-8d82ef24f6.webp)
 
 
 > => Usa indirizzi schermati (z) per la **privacy completa**.
@@ -158,4 +158,4 @@ Per **Zcash Mainnet**;
 > Le prove schermate potrebbero richiedere tempo, WebAssembly gestisce il calcolo nel browser.  
 > Il ripristino è semplice, installa MetaMask e lo Snap, poi importa la tua seed esistente.  
 > Lo Snap predefinito è **ZEC schermati**, gli indirizzi Transparent **non sono il focus**.  
-> Usa [zcashblockexplorer.com](https://zcashblockexplorer.com) per le conferme delle transazioni.
+> Usa [mainnet.zcashexplorer.app](https://mainnet.zcashexplorer.app) per le conferme delle transazioni.

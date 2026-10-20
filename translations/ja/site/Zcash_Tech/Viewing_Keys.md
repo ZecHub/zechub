@@ -74,7 +74,7 @@ Sapling アドレスを渡すと、そのアカウントの Sapling Extended Ful
 
 ### 自身のインターフェースから Viewing Key をエクスポートできるウォレット
 
-[Wallets](/using-zcash/wallets) ページでは、各ウォレットの Viewing Key サポートと Ironwood 対応状況を追跡しています。本稿執筆時点で、Viewing Key サポートと **Ironwood: Ready** の両方を記載しているウォレットには、ZODL、Zingo!、Zkool、Cake、Zallet、Zecd、Nozy があります。対応状況は変わるため、個別のウォレットを利用する前には本ページではなくそのページを確認してください。
+[Wallets](/using-zcash/wallets) ページでは、各ウォレットの Viewing Key サポートと Ironwood 対応状況を追跡しています。本稿執筆時点で、Viewing Key サポートと **Ironwood: Ready** の両方を記載しているウォレットには、ZODL、Zingo!、Zkool、Cake、Zallet、zecd、Nozy があります。対応状況は変わるため、個別のウォレットを利用する前には本ページではなくそのページを確認してください。
 
 ## Viewing Key を watch-only アカウントとしてインポートする
 

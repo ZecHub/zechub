@@ -167,7 +167,7 @@ Integrasi ShapeShift dan Zcash merupakan langkah maju yang berarti bagi privasi 
 
 Dompet [Zodl](https://zodl.com)
 
-Tata Kelola [DAOShapeShift (Token FOX)](https://shapeshift.com/fox-token)
+Tata Kelola [DAOShapeShift (Token FOX)](https://web.archive.org/web/20210126180411/https://shapeshift.com/fox-token)
 
 [Zcash Community Grants](https://zcashcommunitygrants.org/)
 

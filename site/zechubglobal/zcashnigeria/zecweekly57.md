@@ -12,7 +12,7 @@ ati Itumọ si ede Yoruba nipasẹ "Hardaeborla" ([Hardaeborla](https://twitter.
 
 ## Nkan Ẹkọ ti Ọsẹ yii
 Pipinpin awọn iyatọ laarin awọn adagun-omi Idabobo Imọ Zero ati ailorukọ-orisun ti o da lori ni afikun aipẹ si wiki ZecHub. Iṣafihan si Awọn adagun-omi Dabobo, Awọn ẹri Imọye Zero, Awọn Ibuwọlu Iwọn & Awọn iṣowo Asiri. Awọn afiwera lẹhinna fa ni fifun ni ero ti o daju lẹhin idi ti Zcash n pese awọn iṣeduro aṣiri lori-pq aifẹ.
-[Ka ni ibi yìí](https://zechub.wiki/zk-shielded-pools-vs-decoy-based-privacy) 
+[Ka ni ibi yìí](https://zechub.wiki/guides/zero-knowledge-vs-decoys) 
 
 
 
@@ -24,7 +24,7 @@ Pipinpin awọn iyatọ laarin awọn adagun-omi Idabobo Imọ Zero ati ailoruk�
 
 [Awọn ẹgbẹ ECC dojukọ iṣẹ ṣiṣe apamọwọ](https://forum.zcashcommunity.com/t/opening-applications-for-the-second-round-of-zf-minor-grants/45463) 
 
-[Ẹgbẹ ZFAV ṣe atẹjade awọn itọsọna 📚 fun awọn olupilẹṣẹ àkóónú](https://zechub.wiki/zfav/guides) 
+[Ẹgbẹ ZFAV ṣe atẹjade awọn itọsọna 📚 fun awọn olupilẹṣẹ àkóónú](https://zechub.wiki/zfav-club/guides-for-creators) 
 
 ####  Awọn imudojuiwọn Awọn ifunni Agbegbe Zcash
 
@@ -52,7 +52,7 @@ Pipinpin awọn iyatọ laarin awọn adagun-omi Idabobo Imọ Zero ati ailoruk�
 
 [Ilosiwaju tí de ba Ethereum Staking💹  - Decrypt](https://decrypt.co/153813/ethereum-staking-is-booming-but-value-of-defi-assets-keeps-falling) 
 
-[Kini idi ti asiri di ọrọ buburu? - Coindesk](https://www.coindesk.com/consensus-magazine/2023/08/25/when-did-privacy-become-a-bad-word) 
+[Kini idi ti asiri di ọrọ buburu? - Coindesk](https://web.archive.org/web/20240419061842/https://www.coindesk.com/consensus-magazine/2023/08/25/when-did-privacy-become-a-bad-word/) 
 
 [Account tí OnlyFans tí Gba Friend.tech - Decrypt](https://decrypt.co/153723/onlyfans-accounts-take-over-friend-tech-crypt-app-adds-photo-feature) 
 
@@ -62,7 +62,7 @@ Pipinpin awọn iyatọ laarin awọn adagun-omi Idabobo Imọ Zero ati ailoruk�
 
 [Awọn iran ti ọjọ iwaju lórí Decentralization - Cypherpunk](https://www.cypherpunktimes.com/visions-of-a-decentralised-future/) 
 
-[Akojọpọ ọsẹ - Lori Brink](https://onthebrink-podcast.com/roundup-08-25-23/) 
+[Akojọpọ ọsẹ - Lori Brink](https://web.archive.org/web/20240424024941/https://onthebrink-podcast.com/roundup-08-25-23/) 
 
 
 

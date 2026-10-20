@@ -19,7 +19,7 @@
 | Naomi Brockwell (NBTV)    | Известные интервью и материалы о конфиденциальности        | [Перейти ->](https://naomibrockwell.com/highprofileinterviews) |
 | Sqribbles                 | Креативный контент о Zcash, создаваемый сообществом        | [Перейти ->](https://free2z.cash/sqribbles) |
 | Str4d                     | Технические статьи от основного разработчика Zcash         | [Перейти ->](https://words.str4d.xyz/) |
-| CipherScan Weekly         | Еженедельные публикации с аналитикой блокчейна Zcash       | [Перейти ->](https://cipherscan.app/) |
+| CipherScan Weekly         | Еженедельные публикации с аналитикой блокчейна Zcash       | [Перейти ->](https://zecblock.com/) |
 | Zcash Shielded News       | Еженедельный дайджест новостей о конфиденциальности и экосистеме | [Перейти ->](https://zechub.substack.com/) |
 | ZecHub DAO Blog           | Статьи и образовательные материалы от сообщества ZecHub DAO | [Перейти ->](https://zechub.wiki) |
 

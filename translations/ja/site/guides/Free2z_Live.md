@@ -97,7 +97,7 @@ Zcashを使用して、自分の2Zs残高をクリックすることで、さら
 
 ## ライブ配信
 
-Free2zプラットフォームは、Free2z Liveという素晴らしい機能を提供しています。このツールを使用して、サブスクライバーが参加できるライブストリームを開始できます。Free2z Liveの主な特徴には以下があります：  
+Free2Zプラットフォームは、Free2Z Liveという素晴らしい機能を提供しています。このツールを使用して、サブスクライバーが参加できるライブストリームを開始できます。Free2Z Liveの主な特徴には以下があります：  
 - 音声と動画  
 - スクリーン共有  
 - コラボレーションコード編集  
@@ -105,9 +105,9 @@ Free2zプラットフォームは、Free2z Liveという素晴らしい機能を
 - 白板  
 - その他多数！
 
-### Free2z Liveで何ができるか
+### Free2Z Liveで何ができるか
 
-Free2z Liveは強力なツールであり、クリエイターがどんな種類のコンテンツを配信するにも対応可能です。以下にいくつかの例を示します：  
+Free2Z Liveは強力なツールであり、クリエイターがどんな種類のコンテンツを配信するにも対応可能です。以下にいくつかの例を示します：  
 - チュートリアルやデモンストレーション  
 - 演出やイベント  
 - コラボプロジェクト  
@@ -116,7 +116,7 @@ Free2z Liveは強力なツールであり、クリエイターがどんな種類
 
 ### ライブ配信の開始方法
 
-Free2z Liveを使用してライブ配信を開始するのは非常に簡単ですが、配信を開始する前にいくつかの要件があります。  
+Free2Z Liveを使用してライブ配信を開始するのは非常に簡単ですが、配信を開始する前にいくつかの要件があります。  
 1. クリエイターは**最低でも10 2Zs（Tuzies）の会員価格**を持つ必要があります。  
 2. クリエイターのアカウントには**少なくとも150 2Zs（Tuzies）の残高**が必要です。  
 
@@ -124,7 +124,7 @@ Free2z Liveを使用してライブ配信を開始するのは非常に簡単で
 
 ![Go Liveボタン](/content-images/go-live-4c8ac67505.webp)
 
-ライブ配信を開始するには、「Go Live（ライブ配信開始）」ボタンをクリックし、Free2zアプリはマイクとウェブカメラ（もしあれば）の使用を許可するために確認を求めます。必要な権限を付与した後、Free2zはライブ配信中に使用したいニックネームを入力するように求めます。ニックネームを選択したら、「Join（参加）」をクリックしてライブ配信を開始してください。
+ライブ配信を開始するには、「Go Live（ライブ配信開始）」ボタンをクリックし、Free2Zアプリはマイクとウェブカメラ（もしあれば）の使用を許可するために確認を求めます。必要な権限を付与した後、Free2Zはライブ配信中に使用したいニックネームを入力するように求めます。ニックネームを選択したら、「Join（参加）」をクリックしてライブ配信を開始してください。
 
 ![ライブ配信用のニックネーム選択](/content-images/select-nickname-414444b992.webp)
 
@@ -134,15 +134,15 @@ Free2z Liveを使用してライブ配信を開始するのは非常に簡単で
 
 人々がライブ配信に参加すると、チャットしたり、ステージに参加を依頼したり、投票によるインタラクションなどを行えます。
 
-![Free2z Liveセッションの例](/content-images/free2z-live-example-eecb2ae553.webp)
+![Free2Z Liveセッションの例](/content-images/free2z-live-example-eecb2ae553.webp)
 
-_(Free2z Liveセッションの例)_
+_(Free2Z Liveセッションの例)_
 
-Free2z Liveは多機能で強力です。次のセクションでは、その機能とツールの概要を提供します。
+Free2Z Liveは多機能で強力です。次のセクションでは、その機能とツールの概要を提供します。
 
-### Free2z Liveの探索
+### Free2Z Liveの探索
 
-このWikiドキュメントは、Free2zまたはFree2z Liveに関する詳しいガイドではありませんが、ここにいくつかの主要なツールの概観を示します。
+このWikiドキュメントは、Free2ZまたはFree2Z Liveに関する詳しいガイドではありませんが、ここにいくつかの主要なツールの概観を示します。
 
 画面の左下にはいくつかのボタンがあります。
 
@@ -177,19 +177,19 @@ Free2z Liveは多機能で強力です。次のセクションでは、その機
 
 ## 結論
 
-結論として、Free2zは、クリエイターが自分の能力を披露し、知識を共有し、プロジェクトのために資金を集めるための多機能なプラットフォームであり、強力なツールであるFree2z Liveを通じてサポーターと関与できます。
+結論として、Free2Zは、クリエイターが自分の能力を披露し、知識を共有し、プロジェクトのために資金を集めるための多機能なプラットフォームであり、強力なツールであるFree2Z Liveを通じてサポーターと関与できます。
 
 ----
 
 ### リソース
 
-[Free2z](https://free2z.cash/)  
-[Free2zドキュメント](https://free2z.cash/docs/)  
+[Free2Z](https://free2z.cash/)  
+[Free2Zドキュメント](https://free2z.cash/docs/)  
 [2Z概要](https://free2z.cash/docs/getting-started/tuzis)  
 [プロフィールの作成](https://free2z.cash/docs/for-creators/creating-a-profile)  
-[Free2z Liveとは？](https://free2z.cash/docs/for-creators/free2z-live)  
-[サポーター向けFree2z](https://free2z.cash/docs/category/for-supporters)
+[Free2Z Liveとは？](https://free2z.cash/docs/for-creators/free2z-live)  
+[サポーター向けFree2Z](https://web.archive.org/web/20260118172223/https://free2z.cash/docs/category/for-supporters/)
 
 ---
 
-_ZechubのためにJames Katzが書きました。_
+_ZecHubのためにJames Katzが書きました。_

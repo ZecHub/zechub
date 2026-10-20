@@ -162,5 +162,5 @@ In den Meinungsumfragen des Zcash Foundation im NU7 (Februar 2026) hatte Quantum
 - [zips#1134: Vollständig post-quantisches Zcash](https://github.com/zcash/zips/issues/1134)
 - [Roadmap von Project Tachyon](https://tachyon.z.cash/roadmap/)
 - [NU7 Umfrageergebnisse: Was wir gehört haben und wohin es von hier aus geht](https://forum.zcashcommunity.com/t/nu7-polling-results-what-we-heard-and-where-we-go-from-here/54775)
-- [Block 3.428.143 auf Blockchair](https://blockchair.com/zcash/block/3428143)
+- [Block 3.428.143 auf ZecBlock](https://zecblock.com/block/3428143)
 - [Forumanfrage: Ist Zcash post-quantum?](https://forum.zcashcommunity.com/t/is-zcash-post-quantum-help-wanted-d-proposal/57154)

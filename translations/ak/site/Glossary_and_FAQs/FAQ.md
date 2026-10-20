@@ -68,7 +68,7 @@ Wɔkyerɛw gyinaesi ahorow wɔ nkyerɛkyerɛmu no mu na wɔpene so wɔ nkɔnsɔn
 
 <div className="rounded-2xl border border-border bg-card p-5 my-4">
 
-Di kan kenkan [yɛn akwankyerɛ a yɛde siw nhwehwɛmufo kwan](/guides/blockchain-explorers). Afei hwɛ [Zcash Block Nhwehwɛmufoɔ](https://zcashblockexplorer.com).
+Di kan kenkan [yɛn akwankyerɛ a yɛde siw nhwehwɛmufo kwan](/guides/blockchain-explorers). Afei hwɛ [Zcash Block Nhwehwɛmufoɔ](https://mainnet.zcashexplorer.app).
 
 Nnwuma no twam wɔ bɛyɛ simma 25 (20 blocks) akyi na wɔsan de sika no ba ara kwa.
 

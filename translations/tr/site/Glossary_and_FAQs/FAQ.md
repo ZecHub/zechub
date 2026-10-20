@@ -68,7 +68,7 @@ Kararlar teknik belirtime yazılır ve ağ bunları benimsediğinde zincir üzer
 
 <div className="rounded-2xl border border-border bg-card p-5 my-4">
 
-Önce [blok gezginleri kılavuzumuzu](/guides/blockchain-explorers) okuyun. Ardından [Zcash Blok Gezgini'ni](https://zcashblockexplorer.com) kontrol edin.
+Önce [blok gezginleri kılavuzumuzu](/guides/blockchain-explorers) okuyun. Ardından [Zcash Blok Gezgini'ni](https://mainnet.zcashexplorer.app) kontrol edin.
 
 İşlemler yaklaşık 25 dakika (20 blok) sonra sona erer ve fonlar otomatik olarak iade edilir.
 

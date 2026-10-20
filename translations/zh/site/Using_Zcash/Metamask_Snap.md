@@ -97,7 +97,7 @@ MetaMask 现已通过 **由 ChainSafe 开发的 Zcash Snap** 支持 **屏蔽版 
 > **将 ETH 兑换为 ZEC** - 使用 **LeoDex** 等服务，并发送到你的屏蔽地址。  
 > **交易所提币** - 将购买的 ZEC 提现到你的 WebZjs 屏蔽地址。  
 
-![LEODEX 兑换](/content-images/HyLQ0G2ugg-8d82ef24f6.webp)
+![LeoDex 兑换](/content-images/HyLQ0G2ugg-8d82ef24f6.webp)
 
 
 > => 使用屏蔽（z）地址可获得 **完整隐私**。
@@ -158,4 +158,4 @@ MetaMask 现已通过 **由 ChainSafe 开发的 Zcash Snap** 支持 **屏蔽版 
 > 屏蔽证明可能需要一些时间，WebAssembly 会在浏览器内处理计算。  
 > 恢复很简单，安装 MetaMask 和该 Snap，然后导入你现有的助记词。  
 > 该 Snap 默认使用 **屏蔽版 ZEC**，Transparent addresses **并非重点**。  
-> 使用 [zcashblockexplorer.com](https://zcashblockexplorer.com) 查看交易确认情况。
+> 使用 [mainnet.zcashexplorer.app](https://mainnet.zcashexplorer.app) 查看交易确认情况。

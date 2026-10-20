@@ -162,5 +162,5 @@ Dans les sondages d'opinion Zcash Foundation de NU7 (février 2026), la récupé
 - [zips#1134 : Zcash entièrement post-quantique](https://github.com/zcash/zips/issues/1134)
 - [Feuille de route du projet Tachyon](https://tachyon.z.cash/roadmap/)
 - [NU7 Résultats du sondage : ce que nous avons entendu et où nous allons à partir de là](https://forum.zcashcommunity.com/t/nu7-polling-results-what-we-heard-and-where-we-go-from-here/54775)
-- [Bloc 3 428 143 sur Blockchair](https://blockchair.com/zcash/block/3428143)
+- [Bloc 3 428 143 sur ZecBlock](https://zecblock.com/block/3428143)
 - [Demande sur le forum : Zcash est-il post-quantique ?](https://forum.zcashcommunity.com/t/is-zcash-post-quantum-help-wanted-d-proposal/57154)

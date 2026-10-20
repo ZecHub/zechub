@@ -48,7 +48,7 @@ accesso con X, Google, Discord, Telegram
 - [Midjourney Bot](https://discord.com/invite/midjourney) su Discord - da 10 $/mese - [Guida introduttiva](https://docs.midjourney.com/docs/quick-start)
 puoi ottenere circa 100 generazioni gratuite valutando molte immagini di altri [qui](https://www.midjourney.com/app/rank-pairs/)
 (devi arrivare tra i primi 2000 valutatori - circa 15 minuti a valutare immagini)
-- [DALL-E 2](https://labs.openai.com/) [](https://openai.com/dall-e-2)- 15 $/115 generazioni - (15 generazioni gratuite/mese)
+- [DALL-E 2](https://web.archive.org/web/20250601174514/https://labs.openai.com/) [](https://openai.com/dall-e-2)- 15 $/115 generazioni - (15 generazioni gratuite/mese)
 - [DALL-E 3](https://openai.com/dall-e-3/) - incluso in ChatGPT-4 - 20 $/mese
 - [Nightcafe Creator](https://creator.nightcafe.studio/) (4 generazioni gratuite, a pagamento da 6 $/mese)
 
@@ -82,7 +82,7 @@ puoi ottenere circa 100 generazioni gratuite valutando molte immagini di altri [
 
 ### Generazione di voce
 
-- [play.ht](https://play.ht/) - gratuito - (abbonamento da 39 $/mese)
+- [play.ht](https://web.archive.org/web/20260310162301/https://play.ht/) - gratuito - (abbonamento da 39 $/mese)
 - [ElevenLabs](https://elevenlabs.io/) - gratuito - (abbonamento da 5 $/mese)
 - [Murf](https://murf.ai/) - gratuito - (abbonamento da 29 $/mese)
 - [Resemble](https://www.resemble.ai/) - prova gratuita (poi 0,006 $ al secondo)

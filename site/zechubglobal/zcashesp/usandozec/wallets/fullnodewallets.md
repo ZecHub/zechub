@@ -4,7 +4,7 @@
 Conoce más sobre los distintos _pools_ de Zcash 
 
 ---
-# [Zcashd](https://electriccoin.co/zcashd/) #
+# [Zcashd](https://web.archive.org/web/20240222050745/https://electriccoin.co/zcashd/) #
 La billetera de nodo completo oficial, basada en Linux, actualizada y mantenida por los desarrolladores principales de la Electronic Coin Co.
 
 # Zecwallet Full Node #

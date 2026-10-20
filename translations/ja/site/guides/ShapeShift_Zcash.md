@@ -167,7 +167,7 @@ ShapeShiftとZcashの統合は、分散型金融におけるプライバシー�
 
 [Zodlウォレット](https://zodl.com)
 
-[ShapeShift DAOガバナンス（FOXトークン）](https://shapeshift.com/fox-token)
+[ShapeShift DAOガバナンス（FOXトークン）](https://web.archive.org/web/20210126180411/https://shapeshift.com/fox-token)
 
 [Zcashコミュニティグランツ](https://zcashcommunitygrants.org/)
 

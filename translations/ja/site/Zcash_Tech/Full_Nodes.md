@@ -100,11 +100,9 @@ DNSシーダーは、組み込みサーバーを通じて、信頼できる他�
 
 以下は、Zcashネットワークデータへのアクセスを提供するプラットフォームの例です。
 
-[Zcash ブロックエクスプローラー](https://zcashblockexplorer.com)
+[Zcash ブロックエクスプローラー](https://mainnet.zcashexplorer.app)
 
 [Coinmetrics](https://docs.coinmetrics.io/info/assets/zec)
-
-[Blockchair](https://blockchair.com/zcash)
 
 テストの実行、新しい改善提案、メトリクスの提供を通じて、ネットワークの開発に貢献することもできます。
 

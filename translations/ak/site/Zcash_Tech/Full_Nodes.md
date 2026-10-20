@@ -100,11 +100,9 @@ DNS seeders da node afoforo a wotumi de ho to so a wɔahyehyɛ adi denam server 
 
 Eyinom yɛ nhwɛso platform ahorow a ɛma kwan ma wotumi kɔ Zcash Network data so:
 
-[Zcash Block Nhwehwɛmufoɔ](https://zcashblockexplorer.com)
+[Zcash Block Nhwehwɛmufoɔ](https://mainnet.zcashexplorer.app)
 
 [Coinmetrics a wɔde yɛ nneɛma](https://docs.coinmetrics.io/info/assets/zec)
-
-[Blockchair](https://blockchair.com/zcash)
 
 Wo nso wobɛtumi aboa ama ntwamutam no anya nkɔsoɔ denam sɔhwɛ a wobɛtu mmirika anaasɛ wobɛhyɛ nkɔsoɔ foforɔ ho nyansa & metrics a wode bɛma.
 

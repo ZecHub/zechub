@@ -16,7 +16,7 @@ Program Global Ambassador mengidentifikasi anggota komunitas yang memberikan kon
 
 Duta Besar memiliki kebebasan kreatif atas kegiatan yang mereka rencanakan, sehingga memungkinkan mereka untuk menyesuaikan penjangkauan dengan konteks lokal mereka.
 
-## Situs Web Duta Global [](https://zcashambassadors.com)
+## Situs Web Duta Global [](https://web.archive.org/web/20240413194338/https://zcashambassadors.com/)
 
 ## Komunitas Duta Besar yang Aktif (2026)
 

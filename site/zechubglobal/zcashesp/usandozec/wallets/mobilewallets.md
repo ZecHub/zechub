@@ -48,7 +48,7 @@ Las billeteras móviles te permiten usar Zcash cuando sales de casa, desde donde
 
 ## [Zecwallet Lite](https://zecwallet.co/) ##
 
-| [Android](https://play.google.com/store/apps/details?id=com.zecwalletmobile) | [iOS](https://apps.apple.com/us/app/id1516128405) |
+| [Android](https://web.archive.org/web/20230320095858/https://play.google.com/store/apps/details?id=com.zecwalletmobile) | [iOS](https://web.archive.org/web/20230321190228/https://apps.apple.com/us/app/id1516128405) |
 
 ### Pools ###
 

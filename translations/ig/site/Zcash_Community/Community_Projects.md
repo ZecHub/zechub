@@ -148,7 +148,7 @@ Ihe nchọgharị blockchain Zcash nke mbụ (nke bụbu CipherScan). Ejiri Next
 
 ### Exblo
 Emebere Block Explorer maka ịnwale azụmahịa na Zcash Testnet. 
-[Gaa leta](https://testnet.exblo.app/)
+[Gaa leta](https://web.archive.org/web/20241206041317/https://testnet.exblo.app/)
 
 ### OpenZcash
 Ihe ngosiputa ọha na eze maka Zcash Dev Fund, gụnyere akaụntụ ego ZCG na FPF, Lockbox, ọchịchị, na ịkwụ ụgwọ. 
@@ -184,7 +184,7 @@ Ngwa nyocha na usoro data maka arụmọrụ ọnụahịa ahịa Zcash.
 
 ### Zlink
 Ndekọ maka ịchọta njikọ, ngwaọrụ, na ozi gbasara usoro Zcash. 
-[Gaa leta](https://zlink.click)
+[Gaa leta](https://web.archive.org/web/20250309010146/https://zlink.click/)
 
 ### Ahịa Zecmarket
 Ahịa nzuzo nke usoro Zcash. Ụgwọ ọrụ na-akwụ ụgwọ ozugbo, ikpo okwu ahụ anaghịkwa ejide ego gị. 

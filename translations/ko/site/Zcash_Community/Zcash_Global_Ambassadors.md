@@ -16,7 +16,7 @@
 
 앰배서더는 계획하는 활동에 대해 창의적인 자유를 가지며, 이를 통해 현지 상황에 맞춰 홍보 활동을 조정할 수 있습니다.
 
-## [글로벌 앰배서더 웹사이트](https://zcashambassadors.com)
+## [글로벌 앰배서더 웹사이트](https://web.archive.org/web/20240413194338/https://zcashambassadors.com/)
 
 ## 활동 중인 앰배서더 커뮤니티 (2026)
 

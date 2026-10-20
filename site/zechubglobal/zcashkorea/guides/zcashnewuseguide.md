@@ -16,7 +16,7 @@ Zcash 네트워크를 사용하려면 해당 통화인 ZEC를 구매해야 합�
 
 ZEC를 구입한 후에는 Zcash 지갑으로 이동하는 것이 좋습니다. 이 [기사](https://www.ledger.com/academy/not-your-keys-not-your-coins-why-it-matters)에서는 지갑에 ZEC를 넣는 것이 왜 중요한지 설명합니다.
 
-[차폐 지갑](https://github.com/ZecHub/zechub/blob/main/usingzec/wallets/mobileshieldedwallets.md)은 ZEC를 독특하게 만드는 [privacy 기능](https://www.gemini.com/prices/zcash)을 제공하기 때문에 사용하는 것이 좋습니다. [비디오](https://www.youtube.com/watch?v=AefftLsENaU)에서 차폐 지갑을 다운로드하는 방법을 소개합니다. Zcash의 다양한 지갑 유형 간의 차이점을 설명하는 [블로그](https://zechub.substack.com/p/private-vs-transparent)입니다.
+[차폐 지갑](https://zechub.wiki/wallets)은 ZEC를 독특하게 만드는 [privacy 기능](https://www.gemini.com/prices/zcash)을 제공하기 때문에 사용하는 것이 좋습니다. [비디오](https://www.youtube.com/watch?v=AefftLsENaU)에서 차폐 지갑을 다운로드하는 방법을 소개합니다. Zcash의 다양한 지갑 유형 간의 차이점을 설명하는 [블로그](https://zechub.substack.com/p/private-vs-transparent)입니다.
 
 ---
 

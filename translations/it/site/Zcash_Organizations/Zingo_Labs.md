@@ -1,6 +1,6 @@
 #  <img src="/content-images/e38b13a9-d410-426a-a1e6-2dde105d56c4-6b8154e5ae.webp" alt="Alt Text" width="50"/> ZingoLabs
 
-[Sito ufficiale](https://zingolabs.org/) - [Github](https://github.com/zingolabs) - [X/Twitter](https://x.com/ZingoLabs) - [Instagram](https://www.instagram.com/zingolabesp/)
+[Sito ufficiale](https://zingolabs.org/) - [GitHub](https://github.com/zingolabs) - [X/Twitter](https://x.com/ZingoLabs) - [Instagram](https://www.instagram.com/zingolabesp/)
 
 ZingoLabs è un team di visionari dedicato a migliorare l'esperienza umana. Crediamo che la tecnologia debba andare a beneficio dell'umanità e che si prosperi attraverso interazioni consensuali. Stiamo individuando gli schemi che rendono tutto questo possibile.
 
@@ -16,14 +16,14 @@ Una delle principali funzionalità di Zingo! è la capacità di utilizzare il ca
 Zingo! è disponibile per dispositivi mobili e PC. Trovi tutti i download [qui](https://zingolabs.org/)
 
 ### Zingolib ([GitHub](https://github.com/zingolabs/zingolib))
-Un'API e un'app di test che espongono le funzionalità di zcash per l'utilizzo da parte delle applicazioni. Zingolib fornisce sia una libreria per zingo-mobile, sia un'applicazione cli inclusa per interagire con zcashd tramite lightwalletd chiamata Zingo-cli, un client proxy-lightwalletd da riga di comando.
+Un'API e un'app di test che espongono le funzionalità di zcash per l'utilizzo da parte delle applicazioni. Zingolib fornisce sia una libreria per zingo-mobile, sia un'applicazione cli inclusa per interagire con zcashd tramite lightwalletd chiamata zingo-cli, un client proxy-lightwalletd da riga di comando.
 
 ### Zaino Indexer ([GitHub](https://github.com/zingolabs/zaino))
 Zaino è un Indexer sviluppato in Rust dal team Zingo, che mira a sostituire lightwalletd e a portare avanti il progetto di deprecazione di zcashd.
 
-Zaino offre funzionalità essenziali sia per i light client, come portafogli e applicazioni che non richiedono l'intera cronologia della blockchain, sia per i full client o portafogli. Supporta inoltre i block explorer, garantendo l'accesso sia alla blockchain finalizzata sia alla migliore chain non finalizzata e alla mempool, entrambe gestite da un full validator Zebra o Zcashd.
+Zaino offre funzionalità essenziali sia per i light client, come portafogli e applicazioni che non richiedono l'intera cronologia della blockchain, sia per i full client o portafogli. Supporta inoltre i block explorer, garantendo l'accesso sia alla blockchain finalizzata sia alla migliore chain non finalizzata e alla mempool, entrambe gestite da un full validator Zebra o zcashd.
 
-###  ZLN (zcash-local-net) ([GitHub](https://github.com/zingolabs/zcash-local-net))
+###  ZLN (zcash-local-net) ([GitHub](https://github.com/zingolabs/infrastructure/tree/dev/zcash_local_net))
 Un insieme di utility che avviano e gestiscono i processi Zcash. Viene utilizzato per i test di integrazione nello sviluppo di:
 - lightclient
 - indexer
@@ -31,6 +31,6 @@ Un insieme di utility che avviano e gestiscono i processi Zcash. Viene utilizzat
 
 Il suo obiettivo è offrire un ambiente di test altamente adattabile e robusto per i nodi core (validator) come zcash e zebra, gli indexer come lightwallet e zaino e, come minimo, zingo-cli come portafoglio light client.
 
-Questo repository è progettato per confrontare le funzionalità di vari validator (come Zcashd e Zebrad) e indexer (come Lightwalletd e Zaino) al fine di facilitare la migrazione durante il processo di deprecazione di Zcashd.
+Questo repository è progettato per confrontare le funzionalità di vari validator (come zcashd e Zebrad) e indexer (come lightwalletd e Zaino) al fine di facilitare la migrazione durante il processo di deprecazione di zcashd.
 
-Oltre a fornire strumenti per avviare, memorizzare nella cache e caricare i dati della chain Zcash (per mainnet, testnet e regtest), zcash-local-net include una serie di test per confrontare le capacità di Lightwalletd e Zaino su tutti i servizi RPC Lightwallet. Questi test possono essere eseguiti direttamente da Zaino (vedi [https://github.com/zingolabs/zaino/blob/dev/docs/testing.md](https://github.com/zingolabs/zaino/blob/dev/docs/testing.md)) per valutare i servizi RPC Lightwallet ospitati in Zaino.
+Oltre a fornire strumenti per avviare, memorizzare nella cache e caricare i dati della chain Zcash (per mainnet, testnet e regtest), zcash-local-net include una serie di test per confrontare le capacità di lightwalletd e Zaino su tutti i servizi RPC Lightwallet. Questi test possono essere eseguiti direttamente da Zaino (vedi [https://github.com/zingolabs/zaino/blob/dev/docs/testing.md](https://github.com/zingolabs/zaino/blob/dev/docs/testing.md)) per valutare i servizi RPC Lightwallet ospitati in Zaino.

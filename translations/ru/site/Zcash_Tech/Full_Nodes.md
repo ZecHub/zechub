@@ -100,11 +100,9 @@ DNS-сидеры предоставляют список других надёж
 
 Вот примеры платформ, предоставляющих доступ к данным сети Zcash:
 
-[Zcash Обозреватель блокчейна](https://zcashblockexplorer.com)
+[Zcash Обозреватель блокчейна](https://mainnet.zcashexplorer.app)
 
 [Coinmetrics](https://docs.coinmetrics.io/info/assets/zec)
-
-[Blockchair](https://blockchair.com/zcash)
 
 Вы также можете внести вклад в развитие сети, запуская тесты, предлагая новые улучшения и предоставляя метрики.
 

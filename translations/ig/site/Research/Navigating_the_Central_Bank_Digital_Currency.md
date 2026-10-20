@@ -101,7 +101,7 @@ Financial inclusion, once a beacon of hope, faces the shadows of potential discr
 
 Maka ndị na-abanye n'ókèala a na-amaghị nke CBDC, akụnụba ga-abụ kọmpas gị.
 1. Ụlọ Akụ Maka Ịgba Ụgwọ Mba Nile ([BIS na-ekwu okwu ya.](https://www.bis.org/search?keywords=cbdc))
-2. Ụlọ ọrụ International Monetary Fund ([IMF na-ekwu okwu ya.](https://www.imf.org/en/About))
+2. Ụlọ ọrụ International Monetary Fund ([IMF na-ekwu okwu ya.](https://web.archive.org/web/20260708111341/https://www.imf.org/en/about))
 3. Akwụkwọ nyocha ([akwụkwọ](https://papers.ssrn.com/searchresults.cfm?term=CBDC))
 4. Akwụkwọ akụkọ agụmakwụkwọ ([akwụkwọ akụkọ](https://www.bis.org/publ/work976.pdf))
 5. C.E.I Isiokwu ([Isiokwu nke mbụ](https://cei.org/blog/central-banks-are-watching-lets-watch-them-back/))

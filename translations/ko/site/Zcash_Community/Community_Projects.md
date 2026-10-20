@@ -148,7 +148,7 @@ ZEC의 송금, 수신 및 스왑을 지원하는 멀티체인 오픈소스 자�
 
 ### Exblo
 Zcash Testnet에서 거래를 테스트하도록 설계된 블록 탐색기입니다.  
-[방문](https://testnet.exblo.app/)
+[방문](https://web.archive.org/web/20241206041317/https://testnet.exblo.app/)
 
 ### OpenZcash
 Zcash Dev Fund를 위한 공개 투명성 대시보드로, ZCG 및 FPF 보조금 회계, Lockbox, 거버넌스 및 지급 내역을 포함합니다.  
@@ -184,7 +184,7 @@ Zcash 시장 가격 성과를 위한 추적 및 데이터 지표 도구입니다
 
 ### Zlink
 Zcash 생태계에 관한 링크, 도구 및 정보를 찾기 위한 디렉터리입니다.  
-[방문](https://zlink.click)
+[방문](https://web.archive.org/web/20250309010146/https://zlink.click/)
 
 ### Zecmarket
 Zcash 생태계의 프라이버시 우선 마켓플레이스입니다. 결제는 직접 정산되며 플랫폼은 사용자의 자금을 절대 보관하지 않습니다.  

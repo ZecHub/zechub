@@ -6,7 +6,7 @@ Visión general de cómo funcionan Blockchain y Zcash:
 
 [Zcash Docs](https://zcash.readthedocs.io/en/latest/)
 
-[Mastering Bitcoin: Programming The Open Blockchain](https://www.amazon.com/Mastering-Bitcoin-Programming-Open-Blockchain-ebook/dp/B071K7FCD4)
+[Mastering Bitcoin: Programming The Open Blockchain](https://web.archive.org/web/20230225165018/https://www.amazon.com/Mastering-Bitcoin-Programming-Open-Blockchain-ebook/dp/B071K7FCD4)
 
 [Zcashd RPC's](https://zcash.github.io/rpc/)
 

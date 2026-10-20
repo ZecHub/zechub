@@ -162,5 +162,5 @@ Ironwood — это сетевое обновление NU6.3. Оно актив
 - [zips#1134: Полностью постквантовый Zcash](https://github.com/zcash/zips/issues/1134)
 - [Дорожная карта проекта Tachyon](https://tachyon.z.cash/roadmap/)
 - [NU7 Результаты опроса: что мы услышали и куда движемся дальше](https://forum.zcashcommunity.com/t/nu7-polling-results-what-we-heard-and-where-we-go-from-here/54775)
-- [Блок 3,428,143 в Blockchair](https://blockchair.com/zcash/block/3428143)
+- [Блок 3,428,143 в ZecBlock](https://zecblock.com/block/3428143)
 - [Запрос на форуме: является ли Zcash постквантовым?](https://forum.zcashcommunity.com/t/is-zcash-post-quantum-help-wanted-d-proposal/57154)

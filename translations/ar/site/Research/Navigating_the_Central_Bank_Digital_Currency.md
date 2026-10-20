@@ -101,7 +101,7 @@ __الاتحاد الأوروبي: Eurozone CBDC__
 
 بالنسبة لأولئك الذين يغامرون في الأراضي غير المطروقة لـ CBDCs، تصبح الموارد بوصلتكم.
 1. بنك التسويات الدولية ([BIS](https://www.bis.org/search?keywords=cbdc))
-2. صندوق النقد الدولي ([IMF](https://www.imf.org/en/About))
+2. صندوق النقد الدولي ([IMF](https://web.archive.org/web/20260708111341/https://www.imf.org/en/about))
 3. أوراق بحثية ([ورقة](https://papers.ssrn.com/searchresults.cfm?term=CBDC))
 4. مجلات أكاديمية ([مجلة](https://www.bis.org/publ/work976.pdf))
 5. مقال C.E.I  ([مقال](https://cei.org/blog/central-banks-are-watching-lets-watch-them-back/))

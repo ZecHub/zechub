@@ -100,11 +100,9 @@ DNS tohumlayıcıları, yerleşik bir sunucu üzerinden diğer güvenilir düğ�
 
 Bunlar, Zcash Ağ verilerine erişim sağlayan örnek platformlardır:
 
-[Zcash Blok Gezgini](https://zcashblockexplorer.com)
+[Zcash Blok Gezgini](https://mainnet.zcashexplorer.app)
 
 [Coinmetrics](https://docs.coinmetrics.io/info/assets/zec)
-
-[Blockchair](https://blockchair.com/zcash)
 
 Ayrıca testler çalıştırarak veya yeni iyileştirmeler önerip metrikler sağlayarak ağın geliştirilmesine katkıda bulunabilirsiniz.
 

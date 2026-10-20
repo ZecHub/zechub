@@ -162,5 +162,5 @@ Dalam jajak pendapat sentimen NU7 dari Zcash Foundation (Februari 2026), pemulih
 - [zips#1134: Zcash](https://github.com/zcash/zips/issues/1134) yang sepenuhnya pasca-quantum
 - [Roadmap Proyek Tachyon](https://tachyon.z.cash/roadmap/)
 - [NU7 Hasil Polling: Apa yang Kami Dengar dan Ke Mana Kita Melangkah dari Sini](https://forum.zcashcommunity.com/t/nu7-polling-results-what-we-heard-and-where-we-go-from-here/54775)
-- [Blok 3,428,143 pada Blockchair](https://blockchair.com/zcash/block/3428143)
+- [Blok 3,428,143 pada ZecBlock](https://zecblock.com/block/3428143)
 - [Permintaan Forum: Apakah Zcash pasca-quantum?](https://forum.zcashcommunity.com/t/is-zcash-post-quantum-help-wanted-d-proposal/57154)

@@ -148,7 +148,7 @@ Aṣiri-akọkọ-oluwadi blockchain Zcash (ti a ti mọ tẹlẹ CipherScan). A
 
 ### Exblo
 Olùṣàwárí Àkọsílẹ̀ tí a ṣe fún ìdánwò àwọn ìṣòwò lórí Zcash Testnet. 
-[Ṣèbẹ̀wò](https://testnet.exblo.app/)
+[Ṣèbẹ̀wò](https://web.archive.org/web/20241206041317/https://testnet.exblo.app/)
 
 ### OpenZcash
 Dásọ́ọ̀dù ìṣàfihàn gbogbogbò fún Zcash Dev Fund, pẹ̀lú ìṣirò owó ìrànlọ́wọ́ ZCG àti FPF, Lockbox, ìjọ́ba, àti ìsanwó. 
@@ -184,7 +184,7 @@ Ohun èlò ìtọ́pinpin àti ìwọ̀n dátà fún iṣẹ́ iye owó ọjà Z
 
 ### Zlink
 Itọsọna fun wiwa awọn ọna asopọ, awọn irinṣẹ, ati alaye nipa eto-ẹkọ Zcash. 
-[Ṣèbẹ̀wò](https://zlink.click)
+[Ṣèbẹ̀wò](https://web.archive.org/web/20250309010146/https://zlink.click/)
 
 ### Zecmarket
 Ọjà ìpamọ́ àkọ́kọ́ ti ètò Zcash. Àwọn ìsanwó yóò dúró tààràtà, pẹpẹ náà kò sì ní gba owó rẹ. 

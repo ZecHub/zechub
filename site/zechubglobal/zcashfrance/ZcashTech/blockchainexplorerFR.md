@@ -19,10 +19,10 @@ Ethereum : [0x43117fc201f8d3c09a72d42ab4a048003f348917771b9ace64b8944a91807320](
 Cosmos : [D0587C76E7689A9EFBDDA587DDB450F6C6E972FCEEA37DD8DA9AF95C23CF8170](https://www.mintscan.io/cosmos/txs/D0587C76E7689A9EFBDDA587DDB450F6C6E972FCEEA37DD8DA9AF95C23CF8170)
 
 
-Zcash (public) : [8dd212847a97c5eb9cee5e7e58c4d9e739f4156273ae3b2da1a4ff79ad95ff82](https://zcashblockexplorer.com/transactions/8dd212847a97c5eb9cee5e7e58c4d9e739f4156273ae3b2da1a4ff79ad95ff82)
+Zcash (public) : [8dd212847a97c5eb9cee5e7e58c4d9e739f4156273ae3b2da1a4ff79ad95ff82](https://mainnet.zcashexplorer.app/transactions/8dd212847a97c5eb9cee5e7e58c4d9e739f4156273ae3b2da1a4ff79ad95ff82)
   
   
-Zcash (privé) : [19a4be270089490ece2e5fe7a6c9b9804af3c7ed43e1fb1b744b0fb29070fa5d](https://zcashblockexplorer.com/transactions/19a4be270089490ece2e5fe7a6c9b9804af3c7ed43e1fb1b744b0fb29070fa5d)
+Zcash (privé) : [19a4be270089490ece2e5fe7a6c9b9804af3c7ed43e1fb1b744b0fb29070fa5d](https://mainnet.zcashexplorer.app/transactions/19a4be270089490ece2e5fe7a6c9b9804af3c7ed43e1fb1b744b0fb29070fa5d)
 
 
 #### Remarquez avec Zcash comment la deuxième transaction a tous les détails importants cachés, c'est important et a de grandes implications dans un monde numérique.
@@ -53,7 +53,7 @@ Voici quatre bons exemples de différents explorateurs de blockchain :
 
 * [Mempool.space](https://mempool.space)
 * [Ethscan](https://etherscan.io/)
-* [Zcashblockexplorer](https://zcashblockexplorer.com/)
+* [Zcashblockexplorer](https://mainnet.zcashexplorer.app/)
 * [Mintscan](https://hub.mintscan.io/chains/ibc-network)
 
 

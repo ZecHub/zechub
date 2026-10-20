@@ -148,7 +148,7 @@ Zcash blockchain explorer (kan no na wɔfrɛ no CipherScan). Wɔde Next.js 15, T
 
 ### Exblo
 Block explorer a wɔayɛ sɛ wɔde bɛsɔ nnwuma ahwɛ wɔ Zcash Testnet so. 
-[Sra](https://testnet.exblo.app/)
+[Sra](https://web.archive.org/web/20241206041317/https://testnet.exblo.app/)
 
 ### OpenZcash
 Ɔmanfoɔ nhumu dashboard ma Zcash Dev Fund, a ZCG ne FPF mmoa akontabuo, Lockbox, nnisoɔ, ne sika a wɔde ma ka ho. 
@@ -184,7 +184,7 @@ Tracking ne data metrics adwinnade ma Zcash gua so bo adwumayɛ.
 
 ### Zlink
 Directory a wɔde hwehwɛ links, nnwinnade, ne nsɛm a ɛfa Zcash ecosystem ho. 
-[Sra](https://zlink.click)
+[Sra](https://web.archive.org/web/20250309010146/https://zlink.click/)
 
 ### Zecmarket na ɔkyerɛwee
 Zcash abɔde a nkwa wom nhyehyɛe no gua a edi kan a ɛfa kokoam nsɛm ho. Katua no siesie tẽẽ na asɛnka agua no nkura wo sika da. 

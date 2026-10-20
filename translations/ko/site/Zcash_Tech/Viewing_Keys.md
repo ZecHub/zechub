@@ -74,7 +74,7 @@ Sapling 주소를 전달하면 해당 계정의 Sapling 확장 Full Viewing Key(
 
 ### 자체 인터페이스에서 Viewing Key를 내보내는 지갑
 
-[Wallets](/using-zcash/wallets) 페이지는 각 지갑의 Viewing Key 지원 및 Ironwood 준비 상태를 추적합니다. 작성 시점에 Viewing Key 지원과 **Ironwood: Ready**를 모두 표시하는 지갑에는 ZODL, Zingo!, Zkool, Cake, Zallet, Zecd 및 Nozy가 있습니다. 준비 상태는 변경되므로, 특정 지갑에 의존하기 전에 이 페이지를 확인하세요.
+[Wallets](/using-zcash/wallets) 페이지는 각 지갑의 Viewing Key 지원 및 Ironwood 준비 상태를 추적합니다. 작성 시점에 Viewing Key 지원과 **Ironwood: Ready**를 모두 표시하는 지갑에는 ZODL, Zingo!, Zkool, Cake, Zallet, zecd 및 Nozy가 있습니다. 준비 상태는 변경되므로, 특정 지갑에 의존하기 전에 이 페이지를 확인하세요.
 
 ## Viewing Key를 보기 전용 계정으로 가져오기
 

@@ -148,7 +148,7 @@ Explorer della blockchain di Zcash incentrato sulla privacy (in precedenza Ciphe
 
 ### Exblo
 Block explorer progettato per testare transazioni sulla Testnet di Zcash.  
-[Visita](https://testnet.exblo.app/)
+[Visita](https://web.archive.org/web/20241206041317/https://testnet.exblo.app/)
 
 ### OpenZcash
 Dashboard pubblica di trasparenza per il Dev Fund di Zcash, inclusa la contabilità dei finanziamenti ZCG e FPF, il Lockbox, la governance e le erogazioni.  
@@ -184,7 +184,7 @@ Strumento di monitoraggio e metriche dei dati per l'andamento del prezzo di merc
 
 ### Zlink
 Directory per trovare link, strumenti e informazioni sull'ecosistema di Zcash.  
-[Visita](https://zlink.click)
+[Visita](https://web.archive.org/web/20250309010146/https://zlink.click/)
 
 ### Zecmarket
 Il marketplace incentrato sulla privacy dell'ecosistema di Zcash. I pagamenti vengono regolati direttamente e la piattaforma non detiene mai i tuoi fondi.  

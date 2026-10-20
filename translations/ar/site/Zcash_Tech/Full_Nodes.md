@@ -100,11 +100,9 @@ Zakura هو عقدة كاملة ثانية متوافقة مع الإجماع، 
 
 هذه منصات نموذجية تتيح الوصول إلى بيانات شبكة Zcash:
 
-[Zcash مستكشف الكتل](https://zcashblockexplorer.com)
+[Zcash مستكشف الكتل](https://mainnet.zcashexplorer.app)
 
 [Coinmetrics](https://docs.coinmetrics.io/info/assets/zec)
-
-[Blockchair](https://blockchair.com/zcash)
 
 يمكنك أيضاً المساهمة في تطوير الشبكة عبر إجراء الاختبارات أو اقتراح تحسينات جديدة وتقديم المقاييس.
 

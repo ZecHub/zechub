@@ -16,7 +16,7 @@ The Global Ambassador Program identifies community members who make high-quality
 
 Ambassadors have creative freedom over the activities they plan, enabling them to tailor outreach to their local context.
 
-## [Global Ambassador Website](https://zcashambassadors.com)
+## [Global Ambassador Website](https://web.archive.org/web/20240413194338/https://zcashambassadors.com/)
 
 ## Active Ambassador Communities (2026)
 

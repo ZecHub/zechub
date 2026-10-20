@@ -173,13 +173,13 @@ Free2z Live сам по себе является отличным инстру�
 
 [Документация Free2z](https://free2z.cash/docs/)
 
-[Обзор 2Z](https://free2z.cash/docs/2Zs/)
+[Обзор 2Z](https://web.archive.org/web/20250328063025/https://free2z.cash/docs/2Zs/)
 
-[Создание профиля](https://free2z.cash/docs/creators/creating-a-profile)
+[Создание профиля](https://web.archive.org/web/20250328054344/https://free2z.cash/docs/creators/creating-a-profile)
 
-[Что такое Free2z Live?](https://free2z.cash/docs/creators/free2z-live)
+[Что такое Free2z Live?](https://web.archive.org/web/20250328050025/https://free2z.cash/docs/creators/free2z-live)
 
-[Free2z для сторонников](https://free2z.cash/docs/category/for-supporters)
+[Free2z для сторонников](https://web.archive.org/web/20260118172223/https://free2z.cash/docs/category/for-supporters/)
 
 ---
 _Написано Джеймсом Кацем для Zechub._

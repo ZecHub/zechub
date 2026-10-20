@@ -16,7 +16,7 @@ Una nota importante è che non è necessario acquistare 1 intero ZEC. ZEC è div
 
 Dopo aver acquistato degli ZEC, potresti voler spostarli in un portafoglio Zcash. Questo [articolo spiegazione](https://www.ledger.com/academy/not-your-keys-not-your-coins-why-it-matters) perché è importante costudire ZEC in un portafoglio.
 
-Raccomandiamo di usare un [portafoglio schermato](https://github.com/ZecHub/zechub/blob/main/usingzec/wallets/mobileshieldedwallets.md) perché questi portafogli offrono le [funzionalità di privacy](https://www.gemini.com/prices/zcash) che rendono ZEC unico. Ecco un [video](https://www.youtube.com/watch?v=AefftLsENaU) su come scaricare un portafoglio schermato. Qui trovi un [articolo di blog](https://zechub.substack.com/p/private-vs-transparent) che spiega le differenze tra i diversi tipi di portafoglio di Zcash.
+Raccomandiamo di usare un [portafoglio schermato](https://zechub.wiki/wallets) perché questi portafogli offrono le [funzionalità di privacy](https://www.gemini.com/prices/zcash) che rendono ZEC unico. Ecco un [video](https://www.youtube.com/watch?v=AefftLsENaU) su come scaricare un portafoglio schermato. Qui trovi un [articolo di blog](https://zechub.substack.com/p/private-vs-transparent) che spiega le differenze tra i diversi tipi di portafoglio di Zcash.
 
 ---
 
