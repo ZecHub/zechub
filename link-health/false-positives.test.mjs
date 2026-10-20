@@ -16,9 +16,9 @@ const between = (from, to) => {
 const transformUri = new Function(
   between("const LOWERCASE_WORDS", "/** Loose comparison used by the app") + "; return transformUri;",
 )();
-const { classify, isPlaceholderHost } = new Function(
+const { classify, isPlaceholderHost, assetKey } = new Function(
   between("function classify", "/**\n * Routes served by the Next.js app") +
-    "; return { classify, isPlaceholderHost };",
+    "; return { classify, isPlaceholderHost, assetKey };",
 )();
 const site = new URL("../site", import.meta.url).pathname;
 
@@ -47,14 +47,19 @@ test("files under the app's public/ root are assets, not routes", () => {
   for (const u of ["/zcash-tech/png-guide", "/wallets", "/using-zcash/a.md"]) {
     assert.notEqual(classify(u), "asset", u);
   }
+  // The lookup key matches the file in public/ whatever follows it.
+  for (const [u, key] of [["/doc.pdf#p2", "/doc.pdf"], ["/a/b/c.webp?x=1", "/a/b/c.webp"],
+    ["/content-images/x.webp?v=2#top", "/content-images/x.webp"], ["/changelly.png", "/changelly.png"]]) {
+    assert.equal(assetKey(u), key, u);
+  }
 });
 
 test("documentation placeholders are never probed", () => {
   for (const h of ["example.com", "btcpay.example.com", "EXAMPLE.org", "shop.example", "foo.test",
-    "x.invalid", "app.localhost", "localhost", "127.0.0.1", "0.0.0.0"]) {
+    "x.invalid", "app.localhost", "localhost", "127.0.0.1", "127.0.1.1", "127.255.255.254", "0.0.0.0", "[::1]"]) {
     assert.equal(isPlaceholderHost(h), true, h);
   }
-  for (const h of ["examples.com", "example.co", "zechub.wiki", "myexample.com", "testnet.z.cash", "localhost.run"]) {
+  for (const h of ["examples.com", "example.co", "zechub.wiki", "myexample.com", "testnet.z.cash", "localhost.run", "127.example.org.uk", "1270.0.0.1"]) {
     assert.equal(isPlaceholderHost(h), false, h);
   }
 });

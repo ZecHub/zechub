@@ -179,9 +179,16 @@ function classify(url) {
 // loopback addresses in setup guides (http://localhost:3000).
 function isPlaceholderHost(hostname) {
   const h = hostname.toLowerCase().replace(/\.$/, "");
-  if (h === "localhost" || h === "127.0.0.1" || h === "0.0.0.0" || h === "[::1]") return true;
+  if (h === "localhost" || h === "0.0.0.0" || h === "[::1]") return true;
+  if (/^127(\.\d{1,3}){3}$/.test(h)) return true; // the whole 127.0.0.0/8 loopback range
   if (/(^|\.)example\.(com|net|org)$/.test(h)) return true;
   return /\.(example|test|invalid|localhost)$/.test(h);
+}
+
+// The public/ path an asset link points at: query and fragment dropped
+// ("/doc.pdf#p2" is the file /doc.pdf).
+function assetKey(url) {
+  return url.split(/[?#]/)[0];
 }
 
 /**
@@ -511,7 +518,7 @@ async function main() {
       }
 
       if (kind === "asset") {
-        if (assetSet && !assetSet.has(link.url.split("?")[0])) {
+        if (assetSet && !assetSet.has(assetKey(link.url))) {
           findings.push({ kind: "asset", url: link.url, file: link.file, line: link.line, detail: "not found in zechub-wiki/public" });
         }
         continue;
