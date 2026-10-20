@@ -79,4 +79,4 @@ Eyinom wɔ dua no mu fi 8 October 2026. Ntu mmirika `shieldNewsletter.sh` kosi s
 4. Nhwehwɛmu a wɔyɛe `z_getoperationstatus` ma saa oprehyɛn id.
 5. Kyerɛw txid no akyi nkutoo `success`.
 
-Nkyerɛkyerɛ krataafa dedaw no da so ara wɔ [Shielded Newsletter nkyerɛwee ahorow](/tutorials/shieldednewsletter/readme). Fa kratafa yi di dwuma ma ɔkwan a wɔfa so yɛ no.
+Nkyerɛkyerɛ krataafa dedaw no da so ara wɔ [Shielded Newsletter nkyerɛwee ahorow](https://github.com/ZecHub/zechub/blob/main/site/tutorials/shieldedNewsletter/readme.md). Fa kratafa yi di dwuma ma ɔkwan a wɔfa so yɛ no.

@@ -4,7 +4,7 @@
 
 # Zakura Knoten
 
-> 🇧🇷 [Version auf Portugiesisch](/zechubglobal/zcashbrasil/zcashtech/zakura)
+> 🇧🇷 [Version auf Portugiesisch](/pt/zcash-tech/zakura-node)
 
 Zakura ist eine kostenlose, quelloffene Full-Knoten-Implementierung für Zcash, die auf Skalierung ausgelegt ist. Als Fork von [Zebra](Zebra_Full_Node.md) und entwickelt durch eine Zusammenarbeit zwischen **Valar Group** und **Project Tachyon** bietet Zakura eine drastisch schnellere Synchronisierung, natives Block-Pruning und eine Kompatibilitätsschicht für ältere `zcashd`-Werkzeuge. Version 1.0.0 wurde am 15. Juli 2026 veröffentlicht.
 

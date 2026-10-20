@@ -79,4 +79,4 @@ Un exécuteur corrigé devrait :
 4. Interroger `z_getoperationstatus` pour cet identifiant d'opération.
 5. Enregistrer le txid uniquement après `success`.
 
-L'ancienne page du tutoriel reste disponible à [Scripts de bulletin d'information blindé](/tutorials/shieldednewsletter/readme). Utilisez cette page pour la procédure.
+L'ancienne page du tutoriel reste disponible à [Scripts de bulletin d'information blindé](https://github.com/ZecHub/zechub/blob/main/site/tutorials/shieldedNewsletter/readme.md). Utilisez cette page pour la procédure.

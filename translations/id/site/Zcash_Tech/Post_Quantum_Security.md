@@ -251,10 +251,9 @@ Bagi pemula, ide utamanya sederhana: privasi saat ini mengurangi paparan data di
 - [Apakah Zcash Post-Quantum?](/zcash-tech/is-zcash-post-quantum) - Apa yang Ironwood berubah, apa yang masih terekspos, dan tabel status berdasarkan tanggal
 - [Pool Terlindungi](/using-zcash/shielded-pools) - Bagaimana Zcash transaksi terlindungi melindungi detail transaksi
 - [Halo](/zcash-tech/halo) - Sistem proof Zcash tanpa trusted setup
-- [ZKP & ZK-SNARKS](/zcash-tech/zk-snarks) - Bagaimana zero-knowledge proofs bekerja dalam Zcash
+- [ZKP & zk-SNARKs](/zcash-tech/zk-snarks) - Bagaimana zero-knowledge proofs bekerja dalam Zcash
 - [Viewing Keys](/zcash-tech/viewing-keys) - Bagaimana pengungkapan selektif bekerja untuk Zcash terlindungi
 - [Zcash Aset Terlindungi](/zcash-tech/zcash-shielded-assets) - Aset terlindungi di masa depan dan dukungan aset privat
-- [Privasi sebagai Prinsip Inti](/privacy/privacy-as-a-core-principle) - Mengapa privasi finansial itu penting
 
 ## Referensi
 

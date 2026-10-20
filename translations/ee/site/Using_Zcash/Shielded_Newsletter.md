@@ -79,4 +79,4 @@ Ele be duƒula si woɖɔ ɖo la na:
 4. Numekuku `z_getoperationstatus` na dɔwɔwɔ ƒe id ma.
 5. Ŋlɔ txid la ɖi le ema megbe ko `success`.
 
-Nufiame ƒe axa xoxoa gakpɔtɔ le [Nyadzɔdzɔgbalẽ ƒe nuŋɔŋlɔ siwo Wokpɔ ta na](/tutorials/shieldednewsletter/readme). Zã axa sia hena dɔa wɔwɔ.
+Nufiame ƒe axa xoxoa gakpɔtɔ le [Nyadzɔdzɔgbalẽ ƒe nuŋɔŋlɔ siwo Wokpɔ ta na](https://github.com/ZecHub/zechub/blob/main/site/tutorials/shieldedNewsletter/readme.md). Zã axa sia hena dɔa wɔwɔ.

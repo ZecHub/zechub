@@ -79,4 +79,4 @@ zallet -c ~/.zallet/zallet.toml rpc z_sendmany \
 4. 针对该操作 ID 轮询 `z_getoperationstatus`。
 5. 仅在 `success` 之后记录 txid。
 
-旧教程页面仍位于 [屏蔽式通讯脚本](/tutorials/shieldednewsletter/readme)。请使用本页的操作流程。
+旧教程页面仍位于 [屏蔽式通讯脚本](https://github.com/ZecHub/zechub/blob/main/site/tutorials/shieldedNewsletter/readme.md)。请使用本页的操作流程。
