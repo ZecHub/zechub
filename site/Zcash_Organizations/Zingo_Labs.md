@@ -23,7 +23,7 @@ Zaino is an Indexer developed in Rust by the Zingo team, that aims to replace li
 
 Zaino offers essential features for both light clients, such as wallets and applications that do not require the full blockchain history, and full clients or wallets. It also supports block explorers, granting access to both the finalized blockchain and the non-finalized best chain and mempool managed by a Zebra or zcashd full validator.
 
-###  ZLN (zcash-local-net) ([](https://.com/zingolabs/infrastructure/tree/dev/zcash_local_net))
+###  ZLN (zcash-local-net) ([GitHub](https://.com/zingolabs/infrastructure/tree/dev/zcash_local_net))
 
 A set of utilities that launch and manage Zcash processes. This is used for integration testing in the development of:
 - lightclients
