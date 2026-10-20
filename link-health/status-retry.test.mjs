@@ -157,3 +157,15 @@ test("a re-probe still running at the deadline is dropped and the first result k
   await new Promise((resolve) => setTimeout(resolve, 350));
   assert.deepEqual(results.map((r) => r.state), ["blocked", "blocked"]);
 });
+
+test("no probe starts when the pause overslept past the deadline", async () => {
+  const urls = ["https://late.example/1"];
+  const results = [{ state: "blocked", status: 429 }];
+  let calls = 0;
+  const retried = await retryPass(urls, results, async () => { calls++; return { state: "ok", status: 200 }; }, {
+    gapMs: 0, budgetMs: 30, sleep: () => new Promise((resolve) => setTimeout(resolve, 80)),
+  });
+  assert.equal(retried, 0);
+  assert.equal(calls, 0);
+  assert.deepEqual(results.map((r) => r.state), ["blocked"]);
+});

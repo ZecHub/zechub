@@ -338,6 +338,8 @@ async function retryPass(urls, results, check, opts = {}) {
       // Out of time: keep the first result rather than stretch the weekly job.
       if (Date.now() + wait > deadline) return;
       await sleep(wait);
+      // A timer can fire late; never start a probe after the deadline.
+      if (Date.now() >= deadline) return;
       // The budget covers the request too: a probe still running at the
       // deadline is abandoned (its own 15 s timeout ends it) and the first
       // result stands.
