@@ -13,7 +13,7 @@ ZecHub adalah pusat edukasi terdesentralisasi untuk Zcash. Tujuan dari [ZecHub](
 3. [Sebuah Podcast yang mewawancarai anggota komunitas](https://www.youtube.com/playlist?list=PL6_epn0lASLHlNCMtUErX8UfaJK6N9K5O).
 4. [Buletin mingguan Zcash.](https://zechub.substack.com/)
 
-Tutorial, blog singkat, dan buletin ini bersifat open source dan dihosting di GitHub, yang berarti siapa pun dari komunitas dapat berkontribusi. Hal ini dilakukan untuk memastikan konten tetap akurat dan agar saluran ini sendiri tidak mengalami titik kegagalan tunggal (single point of failure).
+Tutorial, blog singkat, dan buletin ini bersifat open source dan dihosting di GitHub, yang berarti siapa pun dari komunitas dapat berkontribusi. Hal ini dilakukan untuk memastikan konten tetap akurat dan agar saluran ini sendiri tidak mengalami titik kegagalan tunggal.
 
 Jika kamu baru di Zcash, gunakan [panduan ini](/start-here/new-user-guide).****
 
@@ -21,7 +21,7 @@ Jika kamu baru di Zcash, gunakan [panduan ini](/start-here/new-user-guide).****
 
 ---
 
-1. Buka repo GitHub [ZecHub](https://github.com/ZecHub/zechub)
+1. Buka [repo GitHub ZecHub](https://github.com/ZecHub/zechub)
    
 2. Buat akun GitHub baru atau masuk dengan akun milikmu sendiri
    
@@ -30,13 +30,13 @@ Jika kamu baru di Zcash, gunakan [panduan ini](/start-here/new-user-guide).****
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
     className="w-full h-full"
-    src="https://www.youtube.com/embed/8eYDTyV39a4""
+    src="https://www.youtube.com/embed/8eYDTyV39a4"
     title="Cara Berkontribusi ke ZecHub!"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowFullScreen
     loading="lazy"
   />
-</div >
+</div>
 
 
 ## Panduan Kontributor
@@ -59,8 +59,8 @@ Donasi: [di sini](https://mainnet.zcashexplorer.app/ua/u17sawf3pdh7z6tsy83vhjd2z
 
 
 
-**PENYANGKALAN: ZecHub adalah inisiatif sumber terbuka yang sepenuhnya independen dan didirikan oleh anggota komunitas Zcash. Tidak ada hal yang terkandung dalam repositori GitHub ini yang boleh dianggap sebagai nasihat keuangan atau investasi - ini hanya untuk tujuan informasi.**
+**PENAFIAN: ZecHub adalah inisiatif sumber terbuka yang sepenuhnya independen dan didirikan oleh anggota komunitas Zcash. Tidak ada hal yang terkandung dalam repositori GitHub ini yang boleh dianggap sebagai nasihat keuangan atau investasi - ini hanya untuk tujuan informasi.**
 
 ---
 
-*Jika kamu ingin menambahkan, atau menyarankan pengeditan pada halaman wiki ini, silakan kunjungi repo github [ZecHub](https://github.com/ZecHub/zechub) dan ajukan pull request.*
+*Jika kamu ingin menambahkan, atau menyarankan pengeditan pada halaman wiki ini, silakan kunjungi [repo GitHub ZecHub](https://github.com/ZecHub/zechub) dan ajukan pull request.*

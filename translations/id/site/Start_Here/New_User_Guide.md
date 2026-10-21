@@ -34,7 +34,7 @@ Satu catatan penting adalah kamu tidak perlu membeli 1 ZEC utuh.
 
 Setelah kamu membeli beberapa *ZEC*, kamu mungkin ingin memindahkannya ke dompet Zcash.
 
-Artikel [ini menjelaskan ](https://www.ledger.com/academy/not-your-keys-not-your-coins-why-it-matters) mengapa menyimpan *ZEC* di dalam dompet itu penting.
+[Artikel ini](https://www.ledger.com/academy/not-your-keys-not-your-coins-why-it-matters) menjelaskan mengapa menyimpan *ZEC* di dalam dompet itu penting.
 
 Kami menyarankan penggunaan [dompet terlindungi](https://zechub.wiki/wallets) karena dompet ini menyediakan fitur privasi yang membuat *ZEC* unik.
 
@@ -49,7 +49,7 @@ Berikut adalah video ulasan mengenai dompet terlindungi modern:
     allowFullScreen
     loading="lazy"
   />
-</div >
+</div>
 
 
 
@@ -57,7 +57,7 @@ Berikut adalah video ulasan mengenai dompet terlindungi modern:
 
 **Tarik ZEC**
 
-Setelah kamu membuat dompetmu, kamu akan ingin menarik ZEC milikmu ke dalam dompet tersebut.
+Setelah kamu membuat dompetmu, kamu perlu menarik ZEC milikmu ke dompet tersebut.
 
 Berikut adalah tutorial tentang cara melakukannya.
 
@@ -70,7 +70,7 @@ Berikut adalah tutorial tentang cara melakukannya.
     allowFullScreen
     loading="lazy"
   />
-</div >
+</div>
 
 
 ---
@@ -82,13 +82,13 @@ Setelah kamu menyetorkan sejumlah ZEC ke dalam dompetmu, kamu sudah siap untuk m
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
     className="w-full h-full"
-    src="https://www.youtube.com/embed/tEfQaYPV0UE""
+    src="https://www.youtube.com/embed/tEfQaYPV0UE"
     title="Tips Berguna saat menggunakan Zcash 🔒"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowFullScreen
     loading="lazy"
   />
-</div >
+</div>
 
 ---
 
@@ -96,9 +96,9 @@ Setelah kamu menyetorkan sejumlah ZEC ke dalam dompetmu, kamu sudah siap untuk m
 
 Forum Komunitas Zcash adalah tempat di mana anggota komunitas Zcash mendiskusikan segala hal yang berkaitan dengan Zcash. Kami juga memiliki server Discord.
 
-Forum Komunitas [Zcash](https://forum.zcashcommunity.com/) | [Zcash Global](https://discord.gg/zcash).
+[Forum Komunitas Zcash](https://forum.zcashcommunity.com/) | [Zcash Global](https://discord.gg/zcash).
 
-Komunitas ini sangat bersemangat dan sangat menyambut anggota baru. Terkadang percakapan bisa menjadi teknis, tetapi jangan khawatir! Jika kamu memiliki pertanyaan, kamu bisa bertanya.
+Komunitasnya penuh semangat dan sangat ramah kepada anggota baru. Terkadang percakapan bisa menjadi teknis, tetapi jangan khawatir! Jika kamu memiliki pertanyaan, kamu bisa bertanya.
 
 <a href="">
     <img width="auto" height="200" alt="zcash-logo-horizontal-transparent" src="/content-images/c1d40441-4336-4754-b3bf-5a746b19a9d5-6d2eca6cbf.webp" />
