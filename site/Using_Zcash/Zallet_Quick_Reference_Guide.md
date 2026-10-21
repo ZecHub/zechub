@@ -10,13 +10,13 @@
 - zcashd reached its End-of-Support halt on 18 July 2026 and no longer runs. Zebra now handles the node side; Zallet handles the wallet side.
 - You drive Zallet from the command line with `zallet rpc <command>`, much as you used `zcash-cli` before.
 - Every argument after the command name must be valid JSON, which means string values keep their double quotes.
-- Zallet is still in alpha. Commands can change between releases, and not every zcashd RPC has been ported across yet.
+- Zallet is in beta. Commands can change between releases, and not every zcashd RPC has been ported across yet.
 
 ## Core Explanation
 
 Zallet exposes its functionality through JSON-RPC, the same interface style the zcashd wallet used. Anything you want the wallet to do — check a balance, create an account, send a shielded payment — is a command you pass to `zallet rpc`.
 
-Two things differ from the old `zcash-cli` habit and account for most early mistakes. First, arguments must be valid JSON rather than bare text, so a string argument carries its own quotation marks inside the shell quotes. Second, the set of available commands depends on which alpha release you are running, so the list built into your binary is more reliable than any written page, including this one.
+Two things differ from the old `zcash-cli` habit and account for most early mistakes. First, arguments must be valid JSON rather than bare text, so a string argument carries its own quotation marks inside the shell quotes. Second, the set of available commands depends on which beta release you are running, so the list built into your binary is more reliable than any written page, including this one.
 
 To list all available RPCs:
 
@@ -37,7 +37,7 @@ zallet rpc help '"<command>"'
 
 - **Dropping the inner quotes on string arguments.** `zallet rpc validateaddress u1abc...` fails, because the address has to arrive as JSON. It needs to be written `'"u1abc..."'`.
 - **Assuming every zcashd RPC exists here.** Porting is still in progress. Some methods behave identically, some need different usage, and some will not be carried over at all.
-- **Treating this page as authoritative over your binary.** Zallet is in alpha and moves quickly. When a command here does not work, check `zallet rpc help` before assuming something is broken.
+- **Treating this page as authoritative over your binary.** Zallet is in beta and moves quickly. When a command here does not work, check `zallet rpc help` before assuming something is broken.
 - **Expecting Zallet to be a node.** It is the wallet half of the pair. Zebra runs the node, and Zallet talks to it.
 
 ## RPC Commands
