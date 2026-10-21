@@ -30,6 +30,19 @@ Shielded Labs 公开列出了多个活跃项目领域：
 - [动态费用](https://shieldedlabs.net/fees/) - 随着网络演进，为更可预测、更易用且更具韧性的 Zcash 交易费用开展的研究和工具开发。
 - [Zero](https://shieldedlabs.net/zero/) - 一套获支持的开源 Zcash 基础设施软件，面向交易所、矿池、钱包提供商及其他依赖 Zcash 基础设施的组织。
 - [Ironwood](https://shieldedlabs.net/ironwood/) - 为应对 Orchard 伪造漏洞而创建的 Zcash 网络升级和屏蔽资金池，旨在恢复对 Zcash 流通供应量可独立验证的可靠性。
+- [Epoch](https://shieldedlabs.net/epoch-future-proof-cryptography-for-zcash/) - 一项于 2026 年 10 月宣布的研究与工程项目，旨在为 Zcash 开发可用于生产环境的高保障后量子密码学，并扩大对关键密码学组件的形式化验证。该项目目标是在 2027 年年底前实现可用于生产环境的实施方案，可作为未来网络升级的基础。它与 Project Tachyon 及整个生态系统中的其他后量子工作相辅相成。
+
+## Epoch 与密码学团队
+
+2026 年 10 月，Shielded Labs 启动了 Epoch，这是一项专门致力于让 Zcash 能够抵御量子计算、AI 辅助攻击及其他高级威胁的工作。该项目旨在替换易受量子攻击的加密组件，并对协议的关键部分应用形式化验证。
+
+Epoch 由一个三人密码学团队领导：
+
+- **Ulrich Haböck** – 首席密码学家（曾任职于 StarkWare；更早曾就职于 Polygon Zero）。零知识证明和后量子密码学专家；logUp 查找论证的作者，以及 Circle STARKs 论文的合著者。
+- **Luke Edwards** – 密码学工程师（曾担任 Aztec 密码学工程团队的技术负责人）。拥有亚利桑那大学应用数学博士学位。
+- **Suyash Bagad** – 密码学工程师（曾任职于 Aztec，负责 Barretenberg 库及 PLONK 证明系统家族相关工作）。拥有 IIT Bombay 的 BTech 和 MTech 学位；其研究生研究聚焦于保护隐私的储备证明。
+
+第一阶段重点调研现有研究成果，依据 Zcash 的安全性和性能要求评估候选构造，并提出一项具体的后量子方案。目标是在 2027 年底完成可投入生产的实现。
 
 ## Ironwood 贡献
 
@@ -54,5 +67,7 @@ Zcash 不使用自动化链上治理来决定协议变更。投票和社区意�
 - [动态费用](https://shieldedlabs.net/fees/)
 - [Zero](https://shieldedlabs.net/zero/)
 - [Ironwood](https://shieldedlabs.net/ironwood/)
+- [Epoch：面向 Zcash](https://shieldedlabs.net/epoch-future-proof-cryptography-for-zcash/) 的面向未来的密码学
+- [团队](https://shieldedlabs.net/team/)
 - [治理与投票](https://shieldedlabs.net/governance/)
 - [Shielded Labs GitHub](https://github.com/ShieldedLabs)
