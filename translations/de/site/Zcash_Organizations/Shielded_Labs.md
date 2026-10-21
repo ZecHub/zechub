@@ -30,19 +30,6 @@ Shielded Labs listet öffentlich mehrere aktive Projektbereiche auf:
 - [Dynamische Gebühren](https://shieldedlabs.net/fees/) - Forschung und Tools für besser vorhersehbare, nutzerfreundliche und widerstandsfähige Zcash-Transaktionsgebühren, während sich das Netzwerk weiterentwickelt.
 - [Zero](https://shieldedlabs.net/zero/) - Eine unterstützte Suite quelloffener Zcash-Infrastruktursoftware für Börsen, Mining-Pools, Wallet-Anbieter und andere Organisationen, die auf Zcash-Infrastruktur angewiesen sind.
 - [Ironwood](https://shieldedlabs.net/ironwood/) - Ein Zcash-Netzwerk-Upgrade und abgeschirmter Pool, der als Reaktion auf die Orchard-Geldfälschungsschwachstelle geschaffen wurde und die unabhängig überprüfbare Solidität des umlaufenden Zcash-Angebots wiederherstellen soll.
-- [Epoch](https://shieldedlabs.net/epoch-future-proof-cryptography-for-zcash/) - Ein im Oktober 2026 angekündigtes Forschungs- und Entwicklungsprojekt zur Entwicklung produktionsreifer, hochzuverlässiger Post-Quanten-Kryptografie für Zcash und zum Ausbau der formalen Verifikation kritischer kryptografischer Komponenten. Das Projekt strebt bis Ende 2027 eine produktionsreife Implementierung an, die die Grundlage für ein künftiges Netzwerk-Upgrade bilden könnte. Es ergänzt das Projekt Tachyon und andere Post-Quanten-Bemühungen im gesamten Ökosystem.
-
-## Epoch- und Kryptografie-Team
-
-Im Oktober 2026 startete Shielded Labs Epoch, eine gezielte Initiative, um Zcash gegen Quantencomputing, KI-gestützte Angriffe und andere fortgeschrittene Bedrohungen zukunftssicher zu machen. Das Projekt zielt darauf ab, quantenanfällige kryptografische Komponenten zu ersetzen und formale Verifikation auf kritische Teile des Protokolls anzuwenden.
-
-Epoch wird von einem dreiköpfigen Kryptografieteam geleitet:
-
-- **Ulrich Haböck** – Chefkryptograf (zuvor bei StarkWare; davor bei Polygon Zero). Experte für Zero-Knowledge-Beweise und Post-Quanten-Kryptografie; Autor des logUp-Lookup-Arguments und Mitautor der Circle-STARKs-Arbeit.
-- **Luke Edwards** – Kryptografieingenieur (zuvor technischer Leiter des Kryptografie-Engineering-Teams bei Aztec). Promovierte in Angewandter Mathematik an der University of Arizona.
-- **Suyash Bagad** – Kryptografieingenieur (zuvor bei Aztec, tätig an der Barretenberg-Bibliothek und der PLONK-Familie von Beweissystemen). Hat BTech- und MTech-Abschlüsse vom IIT Bombay; seine Forschung im Rahmen des Studiums konzentrierte sich auf datenschutzwahrende Reserve-Nachweise.
-
-Phase 1 konzentriert sich auf die Sichtung bestehender Forschung, die Bewertung potenzieller Konstruktionen anhand der Sicherheits- und Leistungsanforderungen von Zcash sowie die Ausarbeitung eines konkreten Post-Quantum-Vorschlags. Eine produktionsreife Implementierung wird bis Ende 2027 angestrebt.
 
 ## Beitrag zu Ironwood
 
@@ -60,14 +47,12 @@ Zcash verwendet keine automatische On-Chain-Governance für Protokolländerungen
 
 ## Ressourcen
 
-- [Shielded Labs Webseite](https://shieldedlabs.net/)
-- [Shielded Labs Projekte](https://shieldedlabs.net/projects/)
-- [Netzwerk-Nachhaltigkeitsmechanismus](https://shieldedlabs.net/nsm/)
-- [Crosslink FAQ](https://shieldedlabs.net/crosslink-faq/)
+- [Shielded Labs-Website](https://shieldedlabs.net/)
+- [Shielded Labs-Projekte](https://shieldedlabs.net/projects/)
+- [Network Sustainability Mechanism](https://shieldedlabs.net/nsm/)
+- [Crosslink-FAQ](https://shieldedlabs.net/crosslink-faq/)
 - [Dynamische Gebühren](https://shieldedlabs.net/fees/)
 - [Zero](https://shieldedlabs.net/zero/)
 - [Ironwood](https://shieldedlabs.net/ironwood/)
-- [Epoch: Zukunftssichere Kryptografie für Zcash](https://shieldedlabs.net/epoch-future-proof-cryptography-for-zcash/)
-- [Team](https://shieldedlabs.net/team/)
-- [Governance und Abstimmungen](https://shieldedlabs.net/governance/)
-- [Shielded Labs GitHub](https://github.com/ShieldedLabs)
+- [Governance und Umfragen](https://shieldedlabs.net/governance/)
+- [Shielded Labs auf GitHub](https://github.com/ShieldedLabs)

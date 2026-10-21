@@ -30,19 +30,6 @@ Shielded Labs는 여러 활성 프로젝트 영역을 공개적으로 나열합�
 - [동적 수수료](https://shieldedlabs.net/fees/) - 네트워크가 발전함에 따라 더 예측 가능하고 사용자 친화적이며 견고한 Zcash 거래 수수료를 위한 연구 및 도구입니다.
 - [Zero](https://shieldedlabs.net/zero/) - 거래소, 채굴 풀, 지갑 제공업체 및 Zcash 인프라에 의존하는 기타 조직을 위한 지원되는 오픈소스 Zcash 인프라 소프트웨어 모음입니다.
 - [Ironwood](https://shieldedlabs.net/ironwood/) - Orchard 위조 취약점에 대응하여 만들어진 Zcash 네트워크 업그레이드 및 실드 풀로, Zcash 유통 공급량의 독립적으로 검증 가능한 건전성을 복원하도록 설계되었습니다.
-- [Epoch](https://shieldedlabs.net/epoch-future-proof-cryptography-for-zcash/) - Zcash를 위한 프로덕션 수준의 높은 보증성을 갖춘 포스트 양자 암호화를 개발하고 핵심 암호 구성 요소의 정형 검증을 확대하기 위해 2026년 10월 발표된 연구 및 엔지니어링 프로젝트입니다. 이 프로젝트는 향후 네트워크 업그레이드의 기반이 될 수 있는 프로덕션 수준 구현을 2027년 말까지 완성하는 것을 목표로 합니다. Project Tachyon 및 생태계 전반의 다른 포스트 양자 노력과 상호 보완적입니다.
-
-## Epoch 및 암호학 팀
-
-2026년 10월 Shielded Labs는 양자 컴퓨팅, AI 지원 공격 및 기타 고도화된 위협에 대비해 Zcash의 미래 경쟁력을 확보하기 위한 전담 프로젝트인 Epoch를 시작했습니다. 이 프로젝트는 양자 공격에 취약한 암호화 구성 요소를 교체하고 프로토콜의 핵심 부분에 정형 검증을 적용하는 것을 목표로 합니다.
-
-Epoch는 3명으로 구성된 암호학 팀이 이끌고 있습니다:
-
-- **Ulrich Haböck** – 수석 암호학자(이전 StarkWare 근무, 그 이전에는 Polygon Zero 근무). 영지식 증명 및 포스트양자 암호학 전문가이며, logUp 룩업 논증의 저자이자 Circle STARKs 논문의 공동 저자입니다.
-- **Luke Edwards** – 암호학 엔지니어(이전 Aztec의 암호학 엔지니어링 팀 기술 책임자). University of Arizona에서 응용수학 박사 학위를 받았습니다.
-- **Suyash Bagad** – 암호학 엔지니어(이전 Aztec에서 Barretenberg 라이브러리 및 PLONK 증명 시스템 계열 작업 담당). IIT Bombay에서 BTech 및 MTech 학위를 받았으며, 대학원 연구는 프라이버시를 보존하는 준비금 증명에 중점을 두었습니다.
-
-1단계는 기존 연구를 조사하고, 후보 구성을 Zcash 보안 및 성능 요구사항에 따라 평가하며, 구체적인 포스트 양자 제안을 마련하는 데 중점을 둡니다. 상용 환경에 적합한 구현은 2027년 말까지 완료하는 것을 목표로 합니다.
 
 ## Ironwood 기여
 
@@ -67,7 +54,5 @@ Zcash는 프로토콜 변경에 자동 온체인 거버넌스를 사용하지 �
 - [동적 수수료](https://shieldedlabs.net/fees/)
 - [Zero](https://shieldedlabs.net/zero/)
 - [Ironwood](https://shieldedlabs.net/ironwood/)
-- [Epoch: Zcash](https://shieldedlabs.net/epoch-future-proof-cryptography-for-zcash/)를 위한 미래 보장형 암호학
-- [팀](https://shieldedlabs.net/team/)
-- [거버넌스 및 투표](https://shieldedlabs.net/governance/)
+- [거버넌스 및 설문조사](https://shieldedlabs.net/governance/)
 - [Shielded Labs GitHub](https://github.com/ShieldedLabs)
