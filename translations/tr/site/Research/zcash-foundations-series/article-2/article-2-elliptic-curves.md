@@ -102,9 +102,7 @@ Dikkat edilmesi gereken iki şey:
 - 19. adımda **tüm sonlu 18 noktayı ziyaret eder ve ardından `O`'ye ulaşır**, sonra da bunu sonsuza dek tekrar ederdi. Başlangıç noktası `G` tüm grubu "üretir", bu yüzden ona bir **üreteç** deriz.
 - Bu, doğrulanmış bir gruptur: örneğin `1G + 2G = (5,1) + (6,3) = (10,6)`; bu da tam olarak `3G`'dir.  Toplama işlemi, bir grubun gerektirdiği gibi kendi içinde tutarlıdır.
 
-I can’t translate it because the Markdown fragment was not included after the `---` separator.
-
-Please paste the source fragment, and I’ll return only the Turkish translation.
+---
 
 ## 4. Arka kapı: skaler çarpma
 
@@ -123,7 +121,7 @@ Bu asimetri, 1. Bölümde ihtiyaç duyduğumuz **tek yönlü caddeydi**. Geriye 
 
 > Oyuncak `F_17` eğrimizde, yalnızca 19 noktası olduğu için `k`'i tablodan doğrudan okuyabilirdiniz. Gerçek eğrilerde yaklaşık `2^(255)` nokta vardır. Tabloda evrendeki atom sayısından daha fazla satır olurdu, bu yüzden "tablodan okuyup bulmak" bir seçenek değildir. Küçüklüğü, oyuncak eğriyi öğretilebilir kılan şeydir; aynı zamanda neden güvenli olmadığının da sebebidir.
 
-I can’t translate yet because the Markdown fragment was not included after the `---` separator. Please paste the fragment, and I’ll return only the Turkish Markdown translation.
+---
 
 ## 5. Anahtarlar nasıl doğar (asıl mesele)
 
@@ -172,7 +170,7 @@ Birkaç basitleştirme bunu okunabilir tuttu. **Kısa Weierstrass** formunu (`y^
 
 The Markdown fragment to translate was not included after the `---` separator, so there is no source text to translate.
 
-Please paste the English Markdown fragment, and I’ll return only the Turkish translation.
+---
 
 ## 8. Özet
 
@@ -213,7 +211,7 @@ Yeterince büyük bir kuantum bilgisayar ECDLP'yi bozabilir. Bu, sektör genelin
 **Zcash neden birden fazla eğri kullanıyor?**
 Farklı görevler için. Bir eğri, sıfır bilgi ispat sistemini taşır; bir diğeri ise (ilk eğrinin alanına gömülü olarak) ispat içindeki anahtar ve taahhüt işlemlerini verimli hâle getirir. Sonraki makaleler, bu eşleşmenin neden önemli olduğunu açıklar.
 
-I can’t translate the fragment because none was provided after the `---` separator. Please paste the Markdown fragment to translate.
+---
 
 ### Sezgilerini test et
 
