@@ -36,7 +36,7 @@ zallet rpc help '"<command>"'
 ## Common Mistakes
 
 - **Dropping the inner quotes on string arguments.** `zallet rpc validateaddress u1abc...` fails, because the address has to arrive as JSON. It needs to be written `'"u1abc..."'`.
-- **Assuming every zcashd RPC exists here.** Porting is still in progress. Some methods behave identically, some need different usage, and some will not be carried over at all.
+- **Assuming every  RPC exists here.** Porting is still in progress. Some methods behave identically, some need different usage, and some will not be carried over at all.
 - **Treating this page as authoritative over your binary.** Zallet is in beta and moves quickly. When a command here does not work, check `zallet rpc help` before assuming something is broken.
 - **Expecting Zallet to be a node.** It is the wallet half of the pair. Zebra runs the node, and Zallet talks to it.
 
@@ -474,7 +474,7 @@ zallet rpc z_viewtransaction '"<txid>"'
 
 ## Related Pages
 
-- [Migration Guide: Zcashd to Zebrad and Zallet](/guides/migration-guide-zcashd-to-zebrad-zallet) — step-by-step move from an existing zcashd setup
+- [Migration Guide: zcashd to Zebrad and Zallet](/guides/migration-guide-zcashd-to-zebrad-zallet) — step-by-step move from an existing zcashd setup
 - [Zebra Full Node](/zcash-tech/zebra-full-node) — the node implementation Zallet works alongside
 - [Full Nodes](/zcash-tech/full-nodes) — what running a full node involves and why you might want one
 - [Wallets](/using-zcash/wallets) — lighter wallet options if a full node is more than you need
