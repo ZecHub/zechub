@@ -96,7 +96,7 @@ Zcash は、シールド取引を使って**完全にプライベートな送金
 <br/>
 
 ## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="chain-links icon"/> 関連
-- [プライバシー - シールド vs 透明](/zcash-tech/what-a-block-explorer-can-see)
+- [ブロックエクスプローラーで確認できること](/zcash-tech/what-a-block-explorer-can-see)
 
 <br/>
 

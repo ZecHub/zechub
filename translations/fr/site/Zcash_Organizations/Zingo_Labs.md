@@ -23,8 +23,9 @@ Zaino est un indexeur développé en Rust par l'équipe Zingo, qui vise à rempl
 
 Zaino offre des fonctionnalités essentielles à la fois pour les clients légers, tels que les portefeuilles et les applications qui n'ont pas besoin de l'historique complet de la blockchain, et pour les clients complets ou les portefeuilles. Il prend également en charge les explorateurs de blocs, en donnant accès à la fois à la blockchain finalisée et à la meilleure chaîne non finalisée ainsi qu'à la mempool gérées par un validateur complet Zebra ou zcashd.
 
-###  ZLN (zcash-local-net) ([GitHub](https://github.com/zingolabs/infrastructure/tree/dev/zcash_local_net))
-Un ensemble d'utilitaires qui lancent et gèrent les processus Zcash. Cela est utilisé pour les tests d'intégration dans le développement de :
+###  ZLN (zcash-local-net) ([GitHub](https://.com/zingolabs/infrastructure/tree/dev/zcash_local_net))
+
+Un ensemble d'utilitaires qui lancent et gèrent des processus Zcash. Il est utilisé pour les tests d'intégration dans le développement de :
 - clients légers
 - indexeurs
 - validateurs
@@ -33,4 +34,4 @@ Son objectif est d'offrir un environnement de test très adaptable et robuste po
 
 Ce dépôt est conçu pour comparer les fonctionnalités de différents validateurs (comme zcashd et Zebrad) et indexeurs (tels que lightwalletd et Zaino) afin de faciliter la migration durant le processus de dépréciation de zcashd.
 
-En plus de fournir des outils pour démarrer, mettre en cache et charger les données de chaîne Zcash (pour mainnet, testnet et regtest), zcash-zocal-net inclut une série de tests pour comparer les capacités de lightwalletd et Zaino sur l'ensemble des services RPC Lightwallet. Ces tests peuvent être exécutés directement depuis Zaino (voir [https://github.com/zingolabs/zaino/blob/dev/docs/testing.md](https://github.com/zingolabs/zaino/blob/dev/docs/testing.md)]) afin d'évaluer les services RPC Lightwallet hébergés dans Zaino.
+Outre les outils permettant de démarrer, de mettre en cache et de charger les données de chaîne Zcash (pour mainnet, testnet et regtest), zcash-local-net inclut une série de tests pour comparer les capacités de lightwalletd et de Zaino dans l’ensemble des services RPC Lightwallet. Ces tests peuvent être exécutés directement depuis Zaino (voir [https://.com/zingolabs/zaino/blob/dev/docs/testing.md](https://github.com/zingolabs/zaino/blob/dev/docs/testing.md)) pour évaluer les services RPC Lightwallet hébergés dans Zaino.

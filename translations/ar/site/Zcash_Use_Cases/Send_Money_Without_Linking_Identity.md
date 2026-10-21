@@ -95,8 +95,8 @@
 
 <br/>
 
-## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="أيقونة روابط السلسلة"/> ذو صلة
-- [الخصوصية - المحمي مقابل الشفاف](/zcash-tech/what-a-block-explorer-can-see)
+## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="chain-links icon"/> ذو صلة
+- [ما الذي يمكن لمستكشف الكتل رؤيته](/zcash-tech/what-a-block-explorer-can-see)
 
 <br/>
 

@@ -94,8 +94,8 @@ Zcash позволяет осуществлять **полностью прив�
 
 <br/>
 
-## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="иконка цепочки"/> Связанные статьи
-- [Приватность - Защищённые vs Прозрачные](/zcash-tech/what-a-block-explorer-can-see)
+## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="chain-links icon"/> Связанные статьи
+- [Что может увидеть обозреватель блоков](/zcash-tech/what-a-block-explorer-can-see)
 
 <br/>
 

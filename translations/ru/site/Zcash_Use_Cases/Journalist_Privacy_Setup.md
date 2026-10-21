@@ -106,7 +106,7 @@ Zcash предоставляет:
 
 ## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="иконка связей"/> Связанные статьи
 
-- [Приватность - Рекомендации](/start-here/who-can-see-your-zcash-payment)
+- [Кто может видеть ваш платёж в Zcash](/start-here/who-can-see-your-zcash-payment)
 - [Отправляйте деньги без привязки к идентичности](/zcash-use-cases/send-money-without-linking-identity)
 
  <br/>

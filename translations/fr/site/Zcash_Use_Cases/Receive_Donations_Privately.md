@@ -51,7 +51,7 @@ Cela vous permet de recevoir des fonds **sans exposer votre graphe financier**.
 ## <img src="/content-images/icons8-toolbox-9bebbb1619.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="icône boîte à outils"/> Ce dont vous avez besoin
 
 - Un portefeuille Zcash prenant en charge les adresses blindées :
-  - ZODL
+  - Zodl
   - Zingo!
   - Autres portefeuilles compatibles
 
@@ -106,7 +106,7 @@ Vous pouvez :
 
 ## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="icône liens de chaîne"/> Lié
 
-- [Confidentialité - Blindé vs Transparent](/zcash-tech/what-a-block-explorer-can-see)
+- [Ce qu’un explorateur de blocs peut voir](/zcash-tech/what-a-block-explorer-can-see)
 - [Portefeuilles](/wallets)
 
 <br/>
