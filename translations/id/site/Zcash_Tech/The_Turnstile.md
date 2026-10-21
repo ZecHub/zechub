@@ -5,7 +5,7 @@
 - Turnstile adalah aturan akuntansi publik yang melacak seberapa banyak nilai yang masuk dan keluar dari setiap pool terlindungi
 - Ini memungkinkan siapa pun untuk memverifikasi bahwa sebuah pool tidak pernah membayar lebih banyak daripada yang dimasukkan ke dalamnya, meskipun transaksi di dalamnya bersifat privat
 - Hal ini melindungi pasokan ZEC dari bug tersembunyi, karena koin palsu tidak dapat meninggalkan sebuah pool tanpa merusak perhitungan
-- Ini bekerja tanpa memperlemah privasi, karena hanya total pool yang bersifat publik, bukan transaksi individual
+- Pembayaran di dalam sebuah pool tetap privat. Sebuah transaksi yang memindahkan ZEC antarpool menunjukkan jumlah yang dipindahkannya
 - Turnstile adalah alasan mengapa migrasi Orchard ke Ironwood dapat membuktikan bahwa pasokan terlindungi dalam kondisi baik
 
 <br/>
@@ -41,7 +41,7 @@ Zcash memiliki beberapa pool terlindungi sepanjang sejarahnya, seperti Sprout, S
 1. Saat ZEC berpindah ke dalam pool terlindungi, jumlah tersebut ditambahkan ke saldo publik pool tersebut
 2. Saat ZEC keluar dari sebuah pool, jumlah tersebut dikurangi
 3. Jaringan menolak setiap blok yang akan membuat saldo pool menjadi negatif, yang berarti lebih banyak jumlah yang keluar daripada yang pernah masuk
-4. Transaksi terlindungi secara individual tetap sepenuhnya privat, hanya total pool yang bersifat publik
+4. Setiap transaksi hanya menunjukkan aliran bersihnya ke dalam atau keluar dari sebuah pool, yaitu saldo nilainya. Untuk pembayaran di dalam satu pool, itu hanyalah biaya
 
 Jaringan melacak saldo untuk setiap value pool dengan cara ini, termasuk Sprout, Sapling, Orchard, pool Ironwood yang baru, serta saldo transparan dan lockbox. Karena hal ini, meskipun isi pasti dari sebuah pool disembunyikan, jumlah maksimum yang dapat keluar dibatasi oleh apa yang masuk. Tidak ada inflasi tersembunyi yang dapat lolos ke dalam sirkulasi.
 
@@ -71,7 +71,7 @@ Pertama, ini melakukan kompartementalisasi risiko. Bug kriptografis pada satu po
 
 Kedua, hal ini memungkinkan komunitas untuk memverifikasi pasokan secara retrospektif. Jika sebuah bug ditemukan di kemudian hari, catatan turnstile akan menunjukkan apakah ada nilai yang keluar dari sebuah pool lebih banyak daripada yang masuk ke dalamnya. Catatan yang bersih merupakan bukti kuat bahwa tidak ada pemalsuan yang dieksploitasi.
 
-Ketiga, hal ini menjaga privasi saat melakukan semua ini. Hanya total pada tingkat pool yang bersifat publik. Transaksi individu Anda tetap terlindungi. Auditabilitas dan privasi dapat berdampingan, sebuah hal yang tidak biasa dan merupakan salah satu kekuatan tersembunyi dari Zcash.
+Ketiga, hal ini menjaga pembayaran di dalam pool tetap bersifat pribadi sambil melakukan semua ini. Setiap transaksi hanya memublikasikan aliran bersihnya masuk ke atau keluar dari suatu pool, yang untuk pembayaran di dalam satu pool hanyalah biaya. Transfer antarpool, seperti dari Orchard ke Ironwood, menunjukkan jumlah yang berpindah. Auditabilitas dan privasi dapat berdampingan, sebuah hal yang tidak biasa dan merupakan salah satu kekuatan tersembunyi dari Zcash.
 
 <br/>
 
@@ -99,10 +99,10 @@ Inilah alasan mendalam mengapa turnstile sangat penting melampaui sekadar akunta
 
 ## Kesalahpahaman umum
 
-- Turnstile tidak mengungkap transaksi Anda. Ia hanya menghitung total pool, bukan siapa yang mengirim apa kepada siapa
+- Turnstile tidak mengungkap siapa yang mengirim apa kepada siapa. Ia memang menunjukkan jumlah dari setiap transaksi yang memindahkan ZEC antar-pool
 - Ia tidak menangkap pemalsu berdasarkan nama. Ia membatasi jumlah yang dapat keluar dari sebuah pool, yang mana inilah yang melindungi pasokan
 - Ini bukanlah penemuan baru untuk Ironwood. Ia telah menjaga setiap transisi pool terlindungi utama dalam sejarah Zcash
-- Total pool publik tidak memperlemah privasi. Privasi terletak pada transaksi di dalam pool, yang tetap tersembunyi
+- Total pool publik tidak memperlemah privasi pembayaran di dalam pool. Memindahkan ZEC antar-pool menunjukkan jumlah yang dipindahkan, sehingga ZIP 318 meminta dompet untuk bermigrasi dalam jumlah standar dari waktu ke waktu
 
 <br/>
 

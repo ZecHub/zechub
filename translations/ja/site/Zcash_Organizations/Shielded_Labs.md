@@ -30,6 +30,19 @@ Shielded Labsは、複数の進行中のプロジェクト領域を公開して�
 - [Dynamic Fees](https://shieldedlabs.net/fees/) - ネットワークの進化に合わせ、より予測しやすく、ユーザーフレンドリーで、耐性の高いZcashトランザクション手数料を実現するための研究とツール群です。
 - [Zero](https://shieldedlabs.net/zero/) - 取引所、マイニングプール、ウォレットプロバイダー、およびZcashインフラストラクチャに依存するその他の組織向けにサポートされる、オープンソースのZcashインフラストラクチャソフトウェア群です。
 - [Ironwood](https://shieldedlabs.net/ironwood/) - Orchardの偽造脆弱性への対応として作成されたZcashネットワークアップグレードおよびシールドプールであり、Zcashの流通供給量について独立して検証可能な健全性を回復するよう設計されています。
+- [Epoch](https://shieldedlabs.net/epoch-future-proof-cryptography-for-zcash/) - Zcash向けの本番環境対応かつ高保証の耐量子暗号の開発と、重要な暗号コンポーネントに対する形式検証の拡充を目的として、2026年10月に発表された研究・エンジニアリングプロジェクトです。このプロジェクトは、将来のネットワークアップグレードの基盤となり得る、本番環境対応の実装を2027年末までに完成させることを目標としています。Project Tachyonおよびエコシステム全体における他の耐量子化の取り組みを補完するものです。
+
+## エポックおよび暗号技術チーム
+
+2026年10月、Shielded Labsは、量子コンピューティング、AI支援攻撃、その他の高度な脅威に対してZcashの将来性を確保するための専用取り組みであるEpochを開始しました。このプロジェクトは、量子脆弱な暗号コンポーネントを置き換え、プロトコルの重要部分に形式検証を適用することを目指しています。
+
+Epochは3名からなる暗号技術チームが主導しています：
+
+- **Ulrich Haböck** – 主任暗号研究者（以前はStarkWare、それ以前はPolygon Zeroに所属）。ゼロ知識証明および耐量子暗号の専門家であり、logUp lookup argumentの著者、Circle STARKs論文の共著者。
+- **Luke Edwards** – 暗号技術エンジニア（以前はAztecの暗号技術エンジニアリングチームのテクニカルリード）。アリゾナ大学で応用数学の博士号を取得。
+- **Suyash Bagad** – 暗号技術エンジニア（以前はAztecに所属し、BarretenbergライブラリおよびPLONK系列の証明システムに従事）。IIT BombayでBTechおよびMTechの学位を取得し、大学院研究ではプライバシー保護型の準備金証明に焦点を当てた。
+
+フェーズ1では、既存研究の調査、Zcashのセキュリティおよび性能要件に照らした候補構成の評価、ならびに具体的な耐量子提案の策定に重点を置きます。本番環境対応の実装は2027年末を目標としています。
 
 ## Ironwoodへの貢献
 
@@ -47,12 +60,14 @@ Zcashは、プロトコル変更に自動的なオンチェーンガバナンス
 
 ## リソース
 
-- [Shielded Labsのウェブサイト](https://shieldedlabs.net/)
-- [Shielded Labsのプロジェクト](https://shieldedlabs.net/projects/)
-- [Network Sustainability Mechanism](https://shieldedlabs.net/nsm/)
+- [Shielded Labsウェブサイト](https://shieldedlabs.net/)
+- [Shielded Labsプロジェクト](https://shieldedlabs.net/projects/)
+- [ネットワーク持続可能性メカニズム](https://shieldedlabs.net/nsm/)
 - [Crosslink FAQ](https://shieldedlabs.net/crosslink-faq/)
-- [Dynamic Fees](https://shieldedlabs.net/fees/)
+- [動的手数料](https://shieldedlabs.net/fees/)
 - [Zero](https://shieldedlabs.net/zero/)
 - [Ironwood](https://shieldedlabs.net/ironwood/)
+- [Epoch：Zcash](https://shieldedlabs.net/epoch-future-proof-cryptography-for-zcash/)のための将来性ある暗号技術
+- [チーム](https://shieldedlabs.net/team/)
 - [ガバナンスと投票](https://shieldedlabs.net/governance/)
 - [Shielded Labs GitHub](https://github.com/ShieldedLabs)

@@ -30,6 +30,19 @@ Shielded Labs सार्वजनिक रूप से कई सक्र�
 - [डायनेमिक शुल्क](https://shieldedlabs.net/fees/) - नेटवर्क के विकसित होने के साथ अधिक अनुमानित, उपयोगकर्ता-अनुकूल और सुदृढ़ Zcash लेनदेन शुल्कों के लिए शोध और टूलिंग।
 - [Zero](https://shieldedlabs.net/zero/) - एक्सचेंजों, माइनिंग पूलों, वॉलेट प्रदाताओं और Zcash इन्फ्रास्ट्रक्चर पर निर्भर अन्य संगठनों के लिए समर्थित ओपन-सोर्स Zcash इन्फ्रास्ट्रक्चर सॉफ्टवेयर का एक सुइट।
 - [Ironwood](https://shieldedlabs.net/ironwood/) - Orchard जालसाजी भेद्यता के प्रत्युत्तर में बनाया गया Zcash नेटवर्क अपग्रेड और शील्डेड पूल, जिसे Zcash की प्रचलनशील सप्लाई की स्वतंत्र रूप से सत्यापनीय विश्वसनीयता बहाल करने के लिए डिज़ाइन किया गया है।
+- [Epoch](https://shieldedlabs.net/epoch-future-proof-cryptography-for-zcash/) - अक्टूबर 2026 में घोषित एक शोध और इंजीनियरिंग परियोजना, जिसका उद्देश्य Zcash के लिए उत्पादन-तैयार, उच्च-विश्वसनीयता वाली पोस्ट-क्वांटम क्रिप्टोग्राफी विकसित करना और महत्वपूर्ण क्रिप्टोग्राफिक घटकों के औपचारिक सत्यापन का विस्तार करना है। परियोजना का लक्ष्य 2027 के अंत तक उत्पादन-तैयार कार्यान्वयन तैयार करना है, जो भविष्य के नेटवर्क अपग्रेड का आधार बन सकता है। यह Project Tachyon और पूरे इकोसिस्टम में अन्य पोस्ट-क्वांटम प्रयासों का पूरक है।
+
+## एपोक और क्रिप्टोग्राफी टीम
+
+अक्टूबर 2026 में Shielded Labs ने Epoch लॉन्च किया, जो Zcash को क्वांटम कंप्यूटिंग, AI-सहायित हमलों और अन्य उन्नत खतरों के विरुद्ध भविष्य के लिए सुरक्षित बनाने का एक समर्पित प्रयास है। परियोजना का उद्देश्य क्वांटम-संवेदनशील क्रिप्टोग्राफ़िक घटकों को बदलना और प्रोटोकॉल के महत्वपूर्ण हिस्सों पर औपचारिक सत्यापन लागू करना है।
+
+Epoch का नेतृत्व तीन-सदस्यीय क्रिप्टोग्राफी टीम करती है:
+
+- **Ulrich Haböck** – मुख्य क्रिप्टोग्राफर (पूर्व में StarkWare में; इससे पहले Polygon Zero में)। zero-knowledge proofs और post-quantum cryptography के विशेषज्ञ; logUp lookup argument के लेखक और Circle STARKs शोधपत्र के सह-लेखक।
+- **Luke Edwards** – क्रिप्टोग्राफी इंजीनियर (पूर्व में Aztec में क्रिप्टोग्राफी इंजीनियरिंग टीम के तकनीकी प्रमुख)। University of Arizona से अनुप्रयुक्त गणित में PhD प्राप्त की है।
+- **Suyash Bagad** – क्रिप्टोग्राफी इंजीनियर (पूर्व में Aztec में, Barretenberg लाइब्रेरी और PLONK proof systems परिवार पर कार्यरत)। IIT Bombay से BTech और MTech डिग्रियाँ प्राप्त की हैं; उनका स्नातक अनुसंधान गोपनीयता-संरक्षण करने वाले reserves proofs पर केंद्रित था।
+
+चरण 1 में मौजूदा शोध का सर्वेक्षण, Zcash सुरक्षा और प्रदर्शन आवश्यकताओं के विरुद्ध संभावित संरचनाओं का मूल्यांकन, और एक ठोस post-quantum प्रस्ताव तैयार करना शामिल है। उत्पादन-तैयार कार्यान्वयन का लक्ष्य 2027 के अंत तक रखा गया है।
 
 ## Ironwood योगदान
 
@@ -48,11 +61,13 @@ Zcash प्रोटोकॉल परिवर्तनों के लि�
 ## संसाधन
 
 - [Shielded Labs वेबसाइट](https://shieldedlabs.net/)
-- [Shielded Labs परियोजनाएँ](https://shieldedlabs.net/projects/)
+- [Shielded Labs प्रोजेक्ट्स](https://shieldedlabs.net/projects/)
 - [नेटवर्क स्थिरता तंत्र](https://shieldedlabs.net/nsm/)
-- [Crosslink FAQ](https://shieldedlabs.net/crosslink-faq/)
-- [डायनेमिक शुल्क](https://shieldedlabs.net/fees/)
-- [Zero](https://shieldedlabs.net/zero/)
+- [Crosslink अक्सर पूछे जाने वाले प्रश्न](https://shieldedlabs.net/crosslink-faq/)
+- [गतिशील शुल्क](https://shieldedlabs.net/fees/)
+- [ज़ीरो](https://shieldedlabs.net/zero/)
 - [Ironwood](https://shieldedlabs.net/ironwood/)
-- [गवर्नेंस और पोलिंग](https://shieldedlabs.net/governance/)
+- [Epoch: Zcash के लिए भविष्य-सुरक्षित क्रिप्टोग्राफी](https://shieldedlabs.net/epoch-future-proof-cryptography-for-zcash/)
+- [टीम](https://shieldedlabs.net/team/)
+- [शासन और मतदान](https://shieldedlabs.net/governance/)
 - [Shielded Labs GitHub](https://github.com/ShieldedLabs)

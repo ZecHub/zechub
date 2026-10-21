@@ -50,7 +50,7 @@ A pool Ironwood é a pool de valor blindado criada pela NU6.3 no bloco 3 428 143
 
 1. Após a ativação, a antiga pool Orchard passa a ser apenas para gasto, pelo que não poderá entrar nela novo valor.
 2. O novo valor blindado passa a entrar no Ironwood.
-3. O ZEC blindado mantém as mesmas fortes garantias de privacidade que ocultam remetente, destinatário e montante.
+3. Dentro de Ironwood, o ZEC blindado mantém a privacidade que oculta remetente, destinatário e montante. Mover ZEC de Orchard para Ironwood revela o montante transferido.
 
 ## O turnstile
 
@@ -68,7 +68,7 @@ As regras de consenso mantêm cada pool de valor, incluindo a Ironwood, dentro d
 
 ## O que os utilizadores precisam de fazer
 
-As wallets e o software de nó tratam da maior parte disto automaticamente, mas a mudança prática é simples: ao longo do tempo, mover as participações blindadas da antiga pool Orchard através do turnstile para a pool Ironwood. Segue as orientações do fornecedor da tua wallet e atualiza sempre para uma versão suportada antes do bloco de ativação.
+As wallets e o software de nó tratam da maior parte disto automaticamente, mas a mudança prática é simples: ao longo do tempo, mover as participações blindadas da antiga pool Orchard através do turnstile para a pool Ironwood. Cada transferência mostra o seu montante na blockchain, pelo que as wallets que seguem [ZIP 318](https://zips.z.cash/zip-0318) o dividem em montantes padrão e enviam-nos ao longo do tempo. Segue as orientações do fornecedor da tua wallet e mantém o teu software numa versão suportada.
 
 ## Glossário
 
@@ -85,9 +85,9 @@ As wallets e o software de nó tratam da maior parte disto automaticamente, mas 
 
 O meu ZEC foi afetado? Não. Não há evidência de que o bug alguma vez tenha sido usado, não houve impacto nos fundos dos utilizadores e não houve alteração na oferta total.
 
-Preciso de fazer alguma coisa? Mantém a tua wallet e o software de nó atualizados para uma versão suportada antes do bloco de ativação. A tua wallet move os fundos para o Ironwood ao longo do tempo à medida que gastas, por isso não há nada manual que exija pressa. Segue as orientações do fornecedor da tua wallet.
+Preciso de fazer alguma coisa? Mantém o software da tua wallet e do nó numa versão suportada. Gastar fundos Orchard move-os para Ironwood, e o montante que transita é público. Algumas wallets oferecem uma migração que envia montantes padrão ao longo do tempo, tornando mais difícil associar o teu saldo. Segue as orientações do fornecedor da tua wallet.
 
-A Zcash continua privada? Sim. O Ironwood mantém a mesma privacidade blindada que oculta remetente, destinatário e montante. Esta atualização diz respeito à integridade da oferta, não à privacidade.
+A Zcash continua privada? Sim. Os pagamentos dentro de Ironwood ocultam o remetente, o destinatário e o montante, tal como os pagamentos de Orchard. O montante que se move entre pools, como de Orchard para Ironwood, é público. Esta atualização diz respeito à integridade da oferta.
 
 O bug chegou alguma vez a ser explorado? Não há evidência disso. Foi descoberto através de investigação de segurança, divulgado de forma responsável e corrigido antes de qualquer dano conhecido.
 
@@ -110,6 +110,10 @@ Através do turnstile. Cada moeda que sai da antiga pool Orchard é contada num 
 [ZIP 257: Implementação da Mitigação Temporária da Vulnerabilidade da Orchard e da Atualização de Rede NU6.2](https://zips.z.cash/zip-0257)
 
 [ZIP 2005: Recuperabilidade Quântica do Ironwood](https://zips.z.cash/zip-2005)
+
+[ZIP 229: Formato de Transação Versão 6](https://zips.z.cash/zip-0229)
+
+[ZIP 318: Orchard para Ironwood Migração](https://zips.z.cash/zip-0318)
 
 [Ironwood: Uma Nova Shielded Pool para a Zcash](https://zodl.com/ironwood-a-new-shielded-pool-for-zcash/)
 

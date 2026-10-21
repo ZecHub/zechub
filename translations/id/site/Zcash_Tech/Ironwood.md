@@ -48,9 +48,9 @@ NU6.2 mengamankan sirkuit Orchard untuk semua transaksi baru, tetapi nilai yang 
 
 Pool Ironwood adalah pool nilai terlindungi yang dibuat oleh NU6.3 pada blok 3,428,143. Pool ini dibangun di atas sirkuit yang telah diperbaiki dan menggunakan format catatan yang dapat dipulihkan secara kuantum (sebuah desain yang memungkinkan dana dipulihkan jika [komputer kuantum](../zcash-tech/post-quantum-security) berhasil mematahkan kriptografi saat ini), yang didefinisikan dalam [ZIP 2005](https://zips.z.cash/zip-2005).
 
-1. Setelah aktivasi, pool Orchard yang lama menjadi hanya-untuk-pengeluaran (spend-only), sehingga tidak ada nilai baru yang dapat masuk ke dalamnya.
+1. Setelah aktivasi, pool Orchard yang lama menjadi hanya-untuk-pengeluaran, sehingga tidak ada nilai baru yang dapat masuk ke dalamnya.
 2. Nilai terlindungi yang baru mengalir ke Ironwood sebagai gantinya.
-3. ZEC terlindungi tetap mempertahankan jaminan privasi kuat yang sama yang menyembunyikan pengirim, penerima, dan jumlahnya.
+3. Di dalam Ironwood, ZEC terlindungi mempertahankan privasi yang menyembunyikan pengirim, penerima, dan jumlahnya. Memindahkan ZEC dari Orchard ke Ironwood menunjukkan jumlah yang dipindahkan.
 
 ## Turnstile
 
@@ -68,7 +68,7 @@ Aturan konsensus menjaga setiap pool nilai, termasuk Ironwood, tetap berada dala
 
 ## Apa yang perlu dilakukan pengguna
 
-Dompet dan perangkat lunak node menangani sebagian besar hal ini secara otomatis, tetapi perubahan praktisnya sederhana: seiring berjalannya waktu, pindahkan kepemilikan terlindungi dari pool Orchard lama melalui turnstile ke dalam pool Ironwood. Ikuti panduan dari penyedia dompet Anda, dan selalu perbarui ke rilis yang didukung sebelum blok aktivasi.
+Dompet dan perangkat lunak node menangani sebagian besar hal ini secara otomatis, tetapi perubahan praktisnya sederhana: seiring berjalannya waktu, pindahkan kepemilikan terlindungi dari pool Orchard lama melalui turnstile ke dalam pool Ironwood. Setiap pemindahan menampilkan jumlahnya pada blockchain, sehingga dompet yang mengikuti [ZIP 318](https://zips.z.cash/zip-0318) membaginya menjadi jumlah standar dan mengirimkannya seiring waktu. Ikuti panduan dari penyedia dompet Anda, dan gunakan perangkat lunak Anda pada rilis yang didukung.
 
 ## Glosarium
 
@@ -85,9 +85,9 @@ Dompet dan perangkat lunak node menangani sebagian besar hal ini secara otomatis
 
 Apakah ZEC saya terdampak? Tidak. Tidak ada bukti bahwa bug tersebut pernah digunakan, tidak ada dampak terhadap dana pengguna, dan tidak ada perubahan pada total suplai.
 
-Apakah Anda perlu melakukan sesuatu? Pastikan dompet dan perangkat lunak node Anda diperbarui ke rilis yang didukung sebelum blok aktivasi. Dompet Anda akan memindahkan dana ke Ironwood secara bertahap seiring dengan penggunaan Anda, sehingga tidak ada hal manual yang perlu terburu-buru. Ikuti panduan dari penyedia dompet Anda.
+Apakah Anda perlu melakukan sesuatu? Pastikan dompet dan perangkat lunak node Anda menggunakan rilis yang didukung. Membelanjakan dana Orchard memindahkannya ke Ironwood, dan jumlah yang berpindah bersifat publik. Beberapa dompet menawarkan migrasi yang mengirimkan jumlah standar secara bertahap, sehingga saldo Anda lebih sulit dikaitkan. Ikuti panduan dari penyedia dompet Anda.
 
-Apakah Zcash masih privat? Ya. Ironwood tetap mempertahankan privasi terlindungi yang sama yang menyembunyikan pengirim, penerima, dan jumlahnya. Peningkatan ini adalah mengenai integritas pasokan, bukan privasi.
+Apakah Zcash masih privat? Ya. Pembayaran di dalam Ironwood menyembunyikan pengirim, penerima, dan jumlahnya, sebagaimana pembayaran Orchard. Jumlah yang berpindah antar-pool, seperti dari Orchard ke Ironwood, bersifat publik. Peningkatan ini adalah tentang integritas pasokan.
 
 Apakah bug tersebut pernah dieksploitasi? Tidak ada bukti bahwa hal itu terjadi. Bug ini ditemukan melalui riset keamanan, diungkapkan secara bertanggung jawab, dan diperbaiki sebelum terjadi kerugian yang diketahui.
 
@@ -110,6 +110,10 @@ Melalui turnstile. Setiap koin yang meninggalkan pool Orchard lama akan dihitung
 [ZIP 257: Penerapan Mitigasi Kerentanan Sementara Orchard dan NU6.2 Peningkatan Jaringan ](https://zips.z.cash/zip-0257)
 
 [ZIP 2005: Ironwood Pemulihan Kuantum](https://zips.z.cash/zip-2005)
+
+[ZIP 229: Format Transaksi Versi 6](https://zips.z.cash/zip-0229)
+
+[ZIP 318: Orchard ke Migrasi Ironwood](https://zips.z.cash/zip-0318)
 
 [Ironwood: Sebuah Pool Terlindungi Baru untuk Zcash](https://zodl.com/ironwood-a-new-shielded-pool-for-zcash/)
 

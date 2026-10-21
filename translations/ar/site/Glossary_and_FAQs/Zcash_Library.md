@@ -131,7 +131,7 @@
 | Noir Wallet | محفظة Zcash على شكل إضافة متصفح ومدعومة من Zcash Community Grants، وقد بُنيت لربط ZEC المحمي مباشرةً بتطبيقات المتصفح بدلًا من الاعتماد على رموز QR والتحويلات اليدوية. [zknoir.com](https://www.zknoir.com/) |
 | NU5 | سادس ترقية رئيسية للشبكة في Zcash، وقد قدمت مجمع Orchard المحمي وUnified Addresses. [مزيد من المعلومات](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#nu5) |
 | NU6 | سابع ترقية رئيسية للشبكة في Zcash، وتعدل دعم الكتلة لتمويل برنامج Zcash Community Grants وخزانة صندوق تمويل التطوير المؤجل. وقد فُعّلت في أواخر 2024. [مزيد من المعلومات](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#nu6) |
-| NU7 | الترقية الرئيسية التالية للشبكة بعد Ironwood. تشمل الميزات المرشحة أعمال التوسع الخاصة بـ Project Tachyon، وZcash Shielded Assets، وNetwork Sustainability Mechanism. |
+| NU7 | ترقية الشبكة التي تلي Ironwood، والمستهدفة للشبكة الرئيسية في 5 نوفمبر 2026. وفقًا لـ [ZIP 259](https://zips.z.cash/zip-0259)، تجلب كتلًا مدتها 25 ثانية (ZIP 218)، وNetwork Sustainability Mechanism مع إعادة تدوير الرسوم (ZIPs 235 و237)، وإنهاء معاملات الإصدار 4، مما يجعل أموال Sprout غير قابلة للإنفاق (ZIP 2003). لا تضيف أي صيغة جديدة للمعاملات؛ ولا يشكل Tachyon ولا Zcash Shielded Assets جزءًا منها. |
 
 ## O
 

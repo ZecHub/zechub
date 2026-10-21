@@ -131,7 +131,7 @@
 | Noir Wallet | Браузерный кошелёк-расширение для Zcash, поддерживаемый Zcash Community Grants и созданный для прямого подключения экранированных ZEC к браузерным приложениям вместо использования QR-кодов и ручных переводов. [zknoir.com](https://www.zknoir.com/) |
 | NU5 | 6-е крупное сетевое обновление Zcash, вводящее экранированный пул Orchard и Unified Addresses. [Подробнее](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#nu5) |
 | NU6 | 7-е крупное сетевое обновление Zcash, корректирующее субсидию за блок для финансирования программы Zcash Community Grants и отложенного резервного фонда разработчиков. Активировано в конце 2024 года. [Подробнее](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#nu6) |
-| NU7 | Следующее крупное сетевое обновление после Ironwood. Среди возможных функций — работы Project Tachyon по масштабированию, Zcash Shielded Assets и Network Sustainability Mechanism. |
+| NU7 | Сетевое обновление после Ironwood, запланированное для mainnet на 5 ноября 2026 года. Согласно [ZIP 259](https://zips.z.cash/zip-0259), оно вводит 25-секундные блоки (ZIP 218), Network Sustainability Mechanism с перераспределением комиссий (ZIP 235 и 237) и прекращение поддержки транзакций версии 4, из-за чего средства Sprout нельзя будет потратить (ZIP 2003). Оно не добавляет нового формата транзакций; Tachyon и Zcash экранированные активы не входят в него. |
 
 ## O
 

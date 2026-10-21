@@ -124,14 +124,14 @@ Zcash ile ilgili temel terimler, kavramlar ve kaynaklar için kapsamlı bir söz
 
 ## N
 
-| Term | Definition |
+| Terim | Tanım |
 |------|-----------|
 | Network Sustainability Mechanism (NSM) | Shielded Labs tarafından, protokolün uzun vadeli güvenlik bütçesinin tamamen ihraçlara dayanmaması için işlem ücretlerinin bir kısmının yakılmasını öneren bir teklif. ZIP 234'te belirtilmiştir, 2026 itibarıyla inceleme altındadır. |
 | Nighthawk | Zcash için bir mobil cüzdan. [Web Sitesi](https://nighthawkwallet.com) |
 | Noir Wallet | Zcash Community Grants tarafından desteklenen, shielded ZEC'i QR kodlara ve manuel transferlere dayanmak yerine doğrudan tarayıcı uygulamalarına bağlamak için geliştirilmiş bir Zcash tarayıcı eklentisi cüzdanı. [zknoir.com](https://www.zknoir.com/) |
 | NU5 | Orchard shielded havuzu ve Unified Address'leri tanıtan, Zcash için 6. Büyük Ağ Yükseltmesi. [Daha Fazla Bilgi](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#nu5) |
 | NU6 | Zcash Community Grants programını ve Ertelenmiş Geliştirici Fonu Kilit Kutusu'nu finanse etmek için blok sübvansiyonunu ayarlayan, Zcash için 7. Büyük Ağ Yükseltmesi. 2024'ün sonlarında etkinleştirildi. [Daha Fazla Bilgi](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#nu6) |
-| NU7 | Ironwood'dan sonraki bir sonraki büyük ağ yükseltmesi. Aday özellikler arasında Project Tachyon'ın ölçeklendirme çalışmaları, Zcash Shielded Assets ve Network Sustainability Mechanism yer alıyor. |
+| NU7 | Ironwood'dan sonraki ağ yükseltmesi; ana ağ için 5 Kasım 2026 hedefleniyor. [ZIP 259](https://zips.z.cash/zip-0259) uyarınca, 25 saniyelik blokları (ZIP 218), ücret geri dönüşümüyle birlikte Network Sustainability Mechanism'i (ZIP 235 ve 237) ve Sprout fonlarını harcanamaz hâle getiren sürüm 4 işlemlerinin sona ermesini (ZIP 2003) getiriyor. Yeni bir işlem formatı eklemiyor; Tachyon ve Zcash Shielded Assets bunun parçası değil. |
 
 ## O
 

@@ -30,6 +30,19 @@
 - [الرسوم الديناميكية](https://shieldedlabs.net/fees/) - بحث وأدوات لرسوم معاملات Zcash أكثر قابلية للتنبؤ، وأسهل للمستخدم، وأكثر صمودًا مع تطور الشبكة.
 - [Zero](https://shieldedlabs.net/zero/) - حزمة مدعومة من برمجيات البنية التحتية مفتوحة المصدر لـ Zcash، مخصصة للمنصات، ومجمّعات التعدين، ومزوّدي المحافظ، والمنظمات الأخرى التي تعتمد على بنية Zcash التحتية.
 - [Ironwood](https://shieldedlabs.net/ironwood/) - ترقية لشبكة Zcash ومجمع محمي أُنشئا استجابةً لثغرة التزوير في Orchard، وصُمما لاستعادة سلامة معروض Zcash المتداول القابلة للتحقق المستقل.
+- [Epoch](https://shieldedlabs.net/epoch-future-proof-cryptography-for-zcash/) - مشروع بحثي وهندسي أُعلن عنه في أكتوبر 2026 لتطوير تشفير ما بعد الكم الجاهز للإنتاج وعالي الضمان لـ Zcash، وتوسيع نطاق التحقق الرسمي من المكونات التشفيرية الحرجة. يستهدف المشروع تنفيذًا جاهزًا للإنتاج بحلول نهاية عام 2027 يمكن أن يشكل أساسًا لترقية مستقبلية للشبكة. وهو يكمّل مشروع Tachyon وجهود ما بعد الكم الأخرى في مختلف أنحاء النظام البيئي.
+
+## فريق الحقبة والتشفير
+
+في أكتوبر 2026، أطلقت Shielded Labs مشروع Epoch، وهو جهد مخصص لتحصين Zcash للمستقبل ضد الحوسبة الكمومية والهجمات المدعومة بالذكاء الاصطناعي والتهديدات المتقدمة الأخرى. يهدف المشروع إلى استبدال المكونات التشفيرية المعرّضة للخطر أمام الحوسبة الكمومية وتطبيق التحقق الشكلي على الأجزاء الحرجة من البروتوكول.
+
+يقود Epoch فريقٌ للتشفير مكوّن من ثلاثة أشخاص:
+
+- **Ulrich Haböck** – كبير خبراء التشفير (عمل سابقًا لدى StarkWare؛ وقبل ذلك لدى Polygon Zero). خبير في براهين المعرفة الصفرية والتشفير المقاوم للكم؛ مؤلف حجة البحث logUp والمؤلف المشارك لورقة Circle STARKs.
+- **Luke Edwards** – مهندس تشفير (كان سابقًا القائد التقني لفريق هندسة التشفير لدى Aztec). حاصل على دكتوراه في الرياضيات التطبيقية من جامعة أريزونا.
+- **Suyash Bagad** – مهندس تشفير (عمل سابقًا لدى Aztec، على مكتبة Barretenberg وعائلة PLONK من أنظمة الإثبات). حاصل على درجتي BTech وMTech من IIT Bombay؛ ركز بحثه في الدراسات العليا على براهين احتياطيات تحافظ على الخصوصية.
+
+تركز المرحلة الأولى على مسح الأبحاث القائمة، وتقييم البُنى المرشحة مقابل متطلبات الأمان والأداء الخاصة بـ Zcash، وإعداد مقترح ملموس لما بعد الكم. ويُستهدف توفير تنفيذ جاهز للإنتاج بحلول نهاية عام 2027.
 
 ## مساهمة Ironwood
 
@@ -47,12 +60,14 @@
 
 ## الموارد
 
-- [موقع Shielded Labs الإلكتروني](https://shieldedlabs.net/)
-- [مشاريع Shielded Labs](https://shieldedlabs.net/projects/)
+- [Shielded Labs موقع إلكتروني](https://shieldedlabs.net/)
+- [Shielded Labs مشاريع](https://shieldedlabs.net/projects/)
 - [آلية استدامة الشبكة](https://shieldedlabs.net/nsm/)
-- [الأسئلة الشائعة حول Crosslink](https://shieldedlabs.net/crosslink-faq/)
+- [Crosslink الأسئلة الشائعة](https://shieldedlabs.net/crosslink-faq/)
 - [الرسوم الديناميكية](https://shieldedlabs.net/fees/)
-- [Zero](https://shieldedlabs.net/zero/)
+- [صفر](https://shieldedlabs.net/zero/)
 - [Ironwood](https://shieldedlabs.net/ironwood/)
-- [الحوكمة والاستطلاعات](https://shieldedlabs.net/governance/)
-- [GitHub الخاص بـ Shielded Labs](https://github.com/ShieldedLabs)
+- [Epoch: تشفير مستقبلي لـ Zcash](https://shieldedlabs.net/epoch-future-proof-cryptography-for-zcash/)
+- [الفريق](https://shieldedlabs.net/team/)
+- [الحوكمة والتصويت](https://shieldedlabs.net/governance/)
+- [Shielded Labs GitHub](https://github.com/ShieldedLabs)

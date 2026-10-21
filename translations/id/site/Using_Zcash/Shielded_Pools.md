@@ -66,7 +66,7 @@ Pool terlindungi Orchard diaktifkan pada 31 Mei 2022 sebagai bagian dari peningk
 
 Orchard secara signifikan meningkatkan kegunaan, efisiensi, dan privasi dengan mengurangi kebocoran metadata transaksi dan memperkenalkan model transaksi yang lebih fleksibel berdasarkan Action alih-alih input dan output terlindungi tradisional.
 
-Sejak peningkatan Ironwood diaktifkan pada 28 Juli 2026, **Orchard hanya dapat digunakan untuk pengeluaran**. Tidak ada nilai baru yang dapat masuk ke dalam pool. Dana yang sudah ada di sana masih dapat dibelanjakan, dan sedang bermigrasi keluar menuju Ironwood melalui turnstile. Dompet akan menangani ini untuk kamu, meskipun sebagian besar memberikan kamu kendali atas kecepatannya.
+Sejak peningkatan Ironwood diaktifkan pada 28 Juli 2026, **Orchard hanya dapat digunakan untuk pengeluaran**. Tidak ada nilai baru yang dapat masuk ke dalam pool. Dana yang sudah ada di sana masih dapat dibelanjakan, dan sedang bermigrasi keluar menuju Ironwood melalui turnstile. Dompet akan menangani ini untuk kamu, meskipun sebagian besar memberikan kamu kendali atas kecepatannya. Setiap perpindahan keluar dari Orchard menampilkan jumlahnya di blockchain, jadi cara dompet membagi dan menentukan waktu migrasi memengaruhi privasi.
 
 Jika kamu menyimpan dana Orchard, lihat [Ironwood](/zcash-tech/ironwood) untuk memahami apa arti migrasi ini dalam praktiknya.
 

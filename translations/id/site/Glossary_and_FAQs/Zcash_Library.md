@@ -131,7 +131,7 @@ Glosarium komprehensif mengenai istilah kunci, konsep, dan sumber daya yang terk
 | Noir Wallet | Sebuah ekstensi browser dompet Zcash yang didukung oleh Zcash Community Grants, dibuat untuk menghubungkan ZEC terlindungi secara langsung ke aplikasi browser alih-alih mengandalkan kode QR dan transfer manual. [zknoir.com](https://www.zknoir.com/) |
 | NU5 | Peningkatan Jaringan Utama ke-6 untuk Zcash, memperkenalkan pool terlindungi Orchard dan Unified Addresses. [Info Lebih Lanjut](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#nu5) |
 | NU6 | Peningkatan Jaringan Utama ke-7 untuk Zcash, menyesuaikan subsidi blok untuk mendanai program Zcash Community Grants dan Brankas Dana Developer yang Ditangguhkan. Diaktifkan pada akhir 2024. [Info Lebih Lanjut](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#nu6) |
-| NU7 | Peningkatan jaringan utama berikutnya setelah Ironwood. Fitur kandidat mencakup pekerjaan penskalaan Project Tachyon, Zcash Shielded Assets, dan Network Sustainability Mechanism. |
+| NU7 | Peningkatan jaringan setelah Ironwood, yang ditargetkan untuk mainnet pada 5 November 2026. Berdasarkan [ZIP 259](https://zips.z.cash/zip-0259), peningkatan ini menghadirkan blok 25 detik (ZIP 218), Network Sustainability Mechanism dengan daur ulang biaya (ZIP 235 dan 237), serta berakhirnya transaksi versi 4, yang membuat dana Sprout tidak dapat dibelanjakan (ZIP 2003). Tidak menambahkan format transaksi baru; Tachyon dan Zcash Shielded Assets bukan bagian darinya. |
 
 ## Please provide the Markdown fragment you would like me to translate. I am ready to begin the localization process according to your specific instructions and terminology.
 

@@ -124,14 +124,14 @@ Un glossaire complet des principaux termes, concepts et ressources liés à Zcas
 
 ## N
 
-| Term | Definition |
+| Terme | Définition |
 |------|-----------|
 | Network Sustainability Mechanism (NSM) | Une proposition de Shielded Labs visant à brûler une part des frais de transaction afin que le budget de sécurité à long terme du protocole ne repose pas entièrement sur l'émission. Spécifiée dans ZIP 234, en cours d'examen en 2026. |
 | Nighthawk | Un wallet mobile pour Zcash. [Site web](https://nighthawkwallet.com) |
-| Noir Wallet | Un wallet d'extension de navigateur pour Zcash soutenu par Zcash Community Grants, conçu pour connecter directement les ZEC protégés aux applications du navigateur au lieu de s'appuyer sur des codes QR et des transferts manuels. [zknoir.com](https://www.zknoir.com/) |
+| Noir Wallet | Un wallet d'extension de navigateur Zcash soutenu par Zcash Community Grants, conçu pour connecter directement les ZEC protégés aux applications du navigateur au lieu de s'appuyer sur des codes QR et des transferts manuels. [zknoir.com](https://www.zknoir.com/) |
 | NU5 | La 6e mise à niveau majeure du réseau pour Zcash, introduisant le pool protégé Orchard et les adresses Unified. [Plus d'infos](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#nu5) |
 | NU6 | La 7e mise à niveau majeure du réseau pour Zcash, ajustant la subvention des blocs afin de financer le programme Zcash Community Grants et la réserve bloquée différée du fonds de développement. Activée fin 2024. [Plus d'infos](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#nu6) |
-| NU7 | La prochaine mise à niveau majeure du réseau après Ironwood. Les fonctionnalités candidates incluent les travaux de mise à l'échelle de Project Tachyon, Zcash Shielded Assets et le Network Sustainability Mechanism. |
+| NU7 | La mise à niveau du réseau après Ironwood, prévue sur le réseau principal le 5 novembre 2026. Selon [ZIP 259](https://zips.z.cash/zip-0259), elle introduit des blocs de 25 secondes (ZIP 218), le Network Sustainability Mechanism avec recyclage des frais (ZIPs 235 et 237), ainsi que la fin des transactions de version 4, ce qui rend les fonds Sprout inutilisables (ZIP 2003). Elle n'ajoute aucun nouveau format de transaction ; Tachyon et les Shielded Assets Zcash n'en font pas partie. |
 
 ## O
 

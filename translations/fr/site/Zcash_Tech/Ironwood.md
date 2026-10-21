@@ -48,9 +48,9 @@ NU6.2 a sécurisé le circuit Orchard pour toutes les nouvelles transactions, ma
 
 Le pool Ironwood est le pool de valeur shielded créé par NU6.3 au bloc 3 428 143. Il repose sur le circuit corrigé et utilise un format de note récupérable face au quantique (une conception qui permettrait de récupérer les fonds si les [ordinateurs quantiques](../zcash-tech/post-quantum-security) finissaient par casser la cryptographie actuelle), défini dans la [ZIP 2005](https://zips.z.cash/zip-2005).
 
-1. Après l’activation, l’ancien pool Orchard devient spend-only, donc aucune nouvelle valeur ne peut y entrer.
-2. La nouvelle valeur shielded entre désormais dans Ironwood.
-3. Les ZEC shielded conservent les mêmes solides garanties de confidentialité qui cachent l’expéditeur, le destinataire et le montant.
+1. Après l’activation, l’ancien pool Orchard devient exclusivement dépensable, donc aucune nouvelle valeur ne peut y entrer.
+2. La valeur nouvellement protégée afflue plutôt dans Ironwood.
+3. Au sein de Ironwood, les ZEC protégés conservent la confidentialité qui masque l’expéditeur, le destinataire et le montant. Le déplacement de ZEC de Orchard vers Ironwood révèle le montant déplacé.
 
 ## Le tourniquet
 
@@ -68,7 +68,7 @@ Les règles de consensus maintiennent chaque pool de valeur, y compris Ironwood,
 
 ## Ce que les utilisateurs doivent faire
 
-Les wallets et les logiciels de nœud gèrent l’essentiel automatiquement, mais le changement pratique est simple : au fil du temps, déplacez vos avoirs shielded depuis l’ancien pool Orchard, via le tourniquet, vers le pool Ironwood. Suivez les indications de votre fournisseur de wallet, et mettez toujours à jour vers une version prise en charge avant le bloc d’activation.
+Les wallets et les logiciels de nœud gèrent l’essentiel automatiquement, mais le changement pratique est simple : au fil du temps, déplacez vos avoirs shielded depuis l’ancien pool Orchard, via le tourniquet, vers le pool Ironwood. Chaque déplacement affiche son montant sur la blockchain ; les wallets qui suivent [ZIP 318](https://zips.z.cash/zip-0318) le divisent donc en montants standard et les envoient au fil du temps. Suivez les indications de votre fournisseur de wallet et maintenez votre logiciel à jour avec une version prise en charge.
 
 ## Glossaire
 
@@ -85,9 +85,9 @@ Les wallets et les logiciels de nœud gèrent l’essentiel automatiquement, mai
 
 Mon ZEC a-t-il été affecté ? Non. Il n’existe aucune preuve que le bug ait jamais été utilisé, aucun impact sur les fonds des utilisateurs, et aucun changement dans l’offre totale.
 
-Dois-je faire quelque chose ? Gardez votre wallet et votre logiciel de nœud à jour avec une version prise en charge avant le bloc d’activation. Votre wallet déplace progressivement les fonds vers Ironwood au fur et à mesure de vos dépenses, donc il n’y a rien d’urgent à faire manuellement. Suivez les indications de votre fournisseur de wallet.
+Dois-je faire quelque chose ? Gardez votre wallet et votre logiciel de nœud à jour avec une version prise en charge. Dépenser des fonds Orchard les déplace vers Ironwood, et le montant transféré est public. Certains wallets proposent une migration qui envoie des montants standards au fil du temps, rendant ainsi votre solde plus difficile à relier. Suivez les indications de votre fournisseur de wallet.
 
-Zcash est-il toujours privé ? Oui. Ironwood conserve la même confidentialité shielded qui cache l’expéditeur, le destinataire et le montant. Cette mise à niveau concerne l’intégrité de l’offre, pas la confidentialité.
+Zcash est-il toujours privé ? Oui. Les paiements au sein de Ironwood cachent l’expéditeur, le destinataire et le montant, comme le faisaient les paiements Orchard. Le montant qui passe d’un pool à l’autre, par exemple de Orchard à Ironwood, est public. Cette mise à niveau concerne l’intégrité de l’offre.
 
 Le bug a-t-il déjà été exploité ? Il n’existe aucune preuve que ce soit le cas. Il a été découvert dans le cadre de recherches en sécurité, divulgué de manière responsable, puis corrigé avant tout dommage connu.
 
@@ -110,6 +110,10 @@ Grâce au tourniquet. Chaque pièce quittant l’ancien pool Orchard est compté
 [ZIP 257 : Déploiement de la mitigation temporaire de la vulnérabilité d’Orchard et de la mise à niveau réseau NU6.2](https://zips.z.cash/zip-0257)
 
 [ZIP 2005 : Récupérabilité quantique d’Ironwood](https://zips.z.cash/zip-2005)
+
+[ZIP 229 : format de transaction version 6](https://zips.z.cash/zip-0229)
+
+[ZIP 318 : Migration de Orchard vers Ironwood](https://zips.z.cash/zip-0318)
 
 [Ironwood : un nouveau pool shielded pour Zcash](https://zodl.com/ironwood-a-new-shielded-pool-for-zcash/)
 
