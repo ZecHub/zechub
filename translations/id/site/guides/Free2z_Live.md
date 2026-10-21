@@ -179,7 +179,7 @@ Tujuan dari dokumen wiki ini bukanlah untuk menjelaskan semua plugin, tetapi say
 
 Sebagai kesimpulan, Free2Z adalah platform serbaguna bagi para kreator untuk memamerkan kemampuan mereka, berbagi pengetahuan dan mengumpulkan dana untuk proyek mereka, serta berinteraksi dengan pendukung mereka melalui alat yang kuat dari Free2Z Live.
 
-Please provide the Markdown fragment you would like me to translate. I am ready to begin the localization process following all your specified rules and terminology.
+----
 
 ### Sumber Daya
 

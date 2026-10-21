@@ -149,7 +149,7 @@ Sinkronisasi akan memakan waktu **beberapa jam hingga beberapa hari** tergantung
 
 -> Koneksi peer (seharusnya 10-30 peer)
 
-Please provide the Markdown fragment you would like me to translate. I am ready to begin the localization process following all your specified rules and terminology.
+-> Tidak ada error yang berulang
 
 
 #### Langkah 7: Dapatkan Alamat Node Kamu

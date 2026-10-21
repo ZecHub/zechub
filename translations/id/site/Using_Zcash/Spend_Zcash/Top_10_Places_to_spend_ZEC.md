@@ -24,7 +24,7 @@ Dengan mempertimbangkan semua poin di atas, ada banyak tempat di mana kamu dapat
 
 ## Tempat terbaik yang menerima ZEC
 
-Please provide the Markdown fragment you would like me to translate. I am ready to begin the localization process following all your specified rules and terminology.
+ ****
 
 Khususnya di Venezuela, ada banyak tempat (tempat fisik dan platform daring) di mana kamu bisa mendapatkan produk atau layanan dan membayar dengan Zcash… Mari kita mulai!
 

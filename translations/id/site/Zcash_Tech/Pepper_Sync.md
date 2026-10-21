@@ -150,4 +150,4 @@ Zingo 2.0 dengan Pepper Sync bukan sekadar peningkatan; ini adalah sebuah lompat
 - Forum Komunitas ](https://forum.zcashcommunity.com/) [Zcash
 - Pengumuman Resmi - [Zingo Labs Twitter](https://twitter.com/ZingoLabs)
 
-Please provide the Markdown fragment you would like me to translate. I am ready to begin the localization process following all your specified rules and terminology.
+___

@@ -6,7 +6,7 @@
 
 Komunitas Zcash adalah sekelompok orang yang dinamis yang bekerja keras untuk menjadikan ZEC salah satu mata uang kripto penjaga privasi yang paling banyak digunakan di dunia. Komunitas ini terdiri dari berbagai individu dari seluruh dunia - developer, pendidik, advokat, dan pembangun - yang disatukan oleh keyakinan bersama akan privasi finansial.
 
-Please provide the Markdown fragment you would like me to translate. I am ready to begin the localization process according to your specific rules and terminology.
+----
 
 ## Di mana Anda dapat menemukan anggota komunitas
 
@@ -54,7 +54,7 @@ Zcash memiliki kehadiran global yang aktif di X. Akun utama untuk diikuti:
 | [@cipherscan_app](https://x.com/cipherscan_app) | Explorer blockchain CipherScan |
 | [@zerodartz](https://x.com/Zerodartz) | Meme dan komentar komunitas |
 
-Please provide the Markdown fragment you would like me to translate. I am ready to begin the localization process following all your specified rules and terminology.
+----
 
 ## Hub Komunitas Regional
 
@@ -69,7 +69,7 @@ Please provide the Markdown fragment you would like me to translate. I am ready 
 - [Zcash Afrika Timur](https://forum.zcashcommunity.com/t/privacy-has-landed-in-south-africa-join-in/55706) - Afrika Selatan dan Afrika Timur
 - [genzcash](https://x.com/genzcash) - Komunitas Zcash yang berfokus pada kaum muda
 
-Please provide the Markdown fragment you would like me to translate. I am ready to begin once the content is provided.
+----
 
 ## Sumber Daya
 

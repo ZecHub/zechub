@@ -16,7 +16,7 @@ Glosarium komprehensif mengenai istilah kunci, konsep, dan sumber daya yang terk
 | Arborist Call | Panggilan dua mingguan yang mencakup pembaruan protokol Zcash dan pengembangan riset. Diselenggarakan di Forum Komunitas Zcash dan Discord. [Catatan Rapat](https://github.com/ZcashCommunityGrants/arboretum-notes) / [Pengumuman Forum](https://forum.zcashcommunity.com) |
 | Auto-shielding | Memungkinkan pengguna (lebih spesifiknya dompet mereka) untuk secara otomatis memindahkan dana dari alamat transparan ke pool ZEC terlindungi terbaru. |
 
-## Please provide the Markdown fragment you would like me to translate. I am ready to begin the localization process according to your specific instructions and terminology requirements.
+## B
 
 | Istilah | Definisi |
 |------|-----------|
@@ -26,7 +26,7 @@ Glosarium komprehensif mengenai istilah kunci, konsep, dan sumber daya yang terk
 | Blogs | [ZODL Blog (sebelumnya Electric Coin Co)](https://zodl.com/blog/) / [Zcash Foundation Blog](https://zfnd.org/blog/) / [ZecHub Newsletter](https://zechub.substack.com/) |
 | Blossom | Peningkatan Jaringan Utama ke-3 untuk Zcash. [Info Lebih Lanjut](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html?highlight=orchard#blossom) |
 
-## I cannot translate this fragment because it contains only a single character "C" without any context or content to be translated. Please provide the full Markdown text you wish to have translated.
+## C
 
 | Istilah | Definisi |
 |------|-----------|
@@ -37,7 +37,7 @@ Glosarium komprehensif mengenai istilah kunci, konsep, dan sumber daya yang terk
 | CrossPay | Sebuah fitur dalam dompet ZODL yang memungkinkan Anda membelanjakan ZEC terlindungi sementara penerima dibayar dalam aset dan chain yang mereka pilih, diarahkan melalui NEAR Intents alih-alih exchange terpusat. |
 | Cypherpunk Zero | Sebuah Alam Semesta Kreatif dan upaya kolaboratif antara ECC, ilustrator Stranger Wolf, Mighty Jaxx, dan mitra ekosistem terpilih. [Sosial Cypherpunk Zero](https://x.com/cypherpunkZero) / [OpenSea Koleksi](https://opensea.io/collection/cypherpunk-zero) |
 
-## Please provide the Markdown fragment you would like me to translate. I am ready to begin the localization process according to your specific instructions and terminology.
+## D
 
 | Istilah | Definisi |
 |------|-----------|
@@ -46,7 +46,7 @@ Glosarium komprehensif mengenai istilah kunci, konsep, dan sumber daya yang terk
 | Developer Resources | [Developer Resources](https://www.zcashcommunity.com/developers/) |
 | Documentation | [Dokumentasi Resmi](https://zcash.readthedocs.io/en/latest/) |
 
-## Please provide the Markdown fragment you would like me to translate. I am ready to begin the localization process following all your specified rules and terminology.
+## E
 
 | Istilah | Definisi |
 |------|-----------|
@@ -58,7 +58,7 @@ Glosarium komprehensif mengenai istilah kunci, konsep, dan sumber daya yang terk
 | Events | Kalender acara terkait Zcash dapat dilihat di [Luma](https://luma.com/zcash) dan [Zcash Foundation](https://zfnd.org/zf-events/) |
 | Exchanges | [Daftar Exchange yang mendukung Zcash](https://z.cash/exchanges/) |
 
-## I cannot translate this fragment because it contains only a single letter "F", which does not constitute a meaningful text or document to be translated according to your instructions. Please provide the full Markdown content you wish to have translated.
+## F
 
 | Istilah | Definisi |
 |------|-----------|
@@ -68,13 +68,13 @@ Glosarium komprehensif mengenai istilah kunci, konsep, dan sumber daya yang terk
 | Free2Z | Sebuah alat untuk konten anonim dan donasi pribadi yang didukung oleh Zcash. [Free2Z](https://free2z.com) |
 | FROST | Skema tanda tangan Schnorr Threshold Round-Optimized yang fleksibel. [Research Paper](https://eprint.iacr.org/2020/852) |
 
-## I cannot translate this fragment because it contains only a single letter "G", which does not constitute a meaningful text or Markdown document to be translated. Please provide the full Markdown content you wish to have translated.
+## G
 
 | Istilah | Definisi |
 |------|-----------|
 | Governance | Keputusan dari proses ZIP ditulis ke dalam spesifikasi Zcash, serta perangkat lunak yang menjalankan jaringan. Perubahan tersebut diratifikasi on-chain ketika mayoritas jaringan mengadopsi peningkatan tersebut dan tidak merusak konsensus. [Riwayat Protokol Lengkap](https://zfnd.org/protocol-agreements-and-major-decisions/) |
 
-## I cannot translate this fragment because it contains only a single letter "H", which does not constitute a complete Markdown document or a meaningful text fragment to be translated according to your instructions. Please provide the full Markdown content you wish to have translated.
+## H
 
 | Istilah | Definisi |
 |------|-----------|
@@ -92,19 +92,19 @@ Glosarium komprehensif mengenai istilah kunci, konsep, dan sumber daya yang terk
 | Investment | Sejumlah opsi finansial tersedia bagi investor institusional atau family office yang ingin mendapatkan eksposur terhadap Zcash. [Daftar lengkap](https://z.cash/investors/) |
 | Ironwood | Peningkatan jaringan NU6.3, aktif di mainnet sejak blok 3,428,143 pada 28 Juli 2026. Ironwood menambahkan pool terlindungi baru yang dibangun pada sirkuit Orchard yang telah dikoreksi dan menutup pool Orchard asli, sehingga siapa pun dapat memeriksa bahwa pasokan yang beredar benar. Aturan konsensusnya ditetapkan dalam [ZIP 258](https://zips.z.cash/zip-0258). [Ironwood](/zcash-tech/ironwood) |
 
-## I cannot translate this fragment because it contains only a single letter "J", which does not constitute a meaningful text or Markdown document to be translated. Please provide the full Markdown content you wish to have translated.
+## J
 
 | Istilah | Definisi |
 |------|-----------|
 | JubJub | Sebuah kurva eliptik yang dirancang agar dapat diimplementasikan secara efisien dalam sirkuit zk-SNARK. |
 
-## Please provide the Markdown fragment you would like me to translate. I am ready to begin the localization process according to your specific rules and terminology.
+## K
 
 | Istilah | Definisi |
 |------|-----------|
 | Keystone Wallet | Sebuah hardware wallet air-gapped dengan dukungan native Zcash (Orchard terlindungi) yang kompatibel dengan ZODL untuk cold signing. [Keystone](https://keyst.one) |
 
-## I cannot translate this fragment because it contains only a single letter "L", which does not constitute a meaningful text or Markdown document to be translated. Please provide the full content you wish to have translated.
+## L
 
 | Istilah | Definisi |
 |------|-----------|
@@ -112,7 +112,7 @@ Glosarium komprehensif mengenai istilah kunci, konsep, dan sumber daya yang terk
 | librustzcash | Sebuah workspace Rust yang berisi semua crate dan dependensi untuk bekerja dengan Zcash. [repo](https://github.com/zcash/librustzcash) |
 | lightwalletd | Sebuah server stateless yang melayani light client dengan informasi blockchain. [lightwalletd](https://zcash.readthedocs.io/en/latest/rtd_pages/lightclient_support.html) |
 
-## Please provide the Markdown fragment you would like me to translate. I am ready to begin the localization process according to your instructions.
+## M
 
 | Istilah | Definisi |
 |------|-----------|
@@ -122,7 +122,7 @@ Glosarium komprehensif mengenai istilah kunci, konsep, dan sumber daya yang terk
 | Mining | Proses di mana untuk setiap blok, node dalam jaringan Zcash bersaing dengan melakukan perhitungan matematika yang kompleks untuk menemukan solusi berdasarkan tingkat kesulitan yang menyesuaikan diri secara otomatis. [Panduan](https://z.cash/mining-zcash/) |
 | Multisignature | Sebuah alamat yang memerlukan beberapa tanda tangan kunci privat untuk membelanjakan dana. Saat ini, fungsionalitas multisig hanya didukung oleh alamat transparan. |
 
-## Please provide the Markdown fragment you would like me to translate. I am ready to begin the localization process according to your instructions.
+## N
 
 | Istilah | Definisi |
 |------|-----------|
@@ -133,7 +133,7 @@ Glosarium komprehensif mengenai istilah kunci, konsep, dan sumber daya yang terk
 | NU6 | Peningkatan Jaringan Utama ke-7 untuk Zcash, menyesuaikan subsidi blok untuk mendanai program Zcash Community Grants dan Brankas Dana Developer yang Ditangguhkan. Diaktifkan pada akhir 2024. [Info Lebih Lanjut](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#nu6) |
 | NU7 | Peningkatan jaringan setelah Ironwood, yang ditargetkan untuk mainnet pada 5 November 2026. Berdasarkan [ZIP 259](https://zips.z.cash/zip-0259), peningkatan ini menghadirkan blok 25 detik (ZIP 218), Network Sustainability Mechanism dengan daur ulang biaya (ZIP 235 dan 237), serta berakhirnya transaksi versi 4, yang membuat dana Sprout tidak dapat dibelanjakan (ZIP 2003). Tidak menambahkan format transaksi baru; Tachyon dan Zcash Shielded Assets bukan bagian darinya. |
 
-## Please provide the Markdown fragment you would like me to translate. I am ready to begin the localization process according to your specific instructions and terminology.
+## O
 
 | Istilah | Definisi |
 |------|-----------|
@@ -141,7 +141,7 @@ Glosarium komprehensif mengenai istilah kunci, konsep, dan sumber daya yang terk
 | Orchard | Pool terlindungi yang diperkenalkan dalam NU5. Ironwood menyegelnya setelah bug pada soundness ditemukan, sehingga Anda tidak lagi dapat mengirim atau menerima di dalam Orchard. Dana hanya keluar melalui turnstile. [Pool terlindungi](/using-zcash/shielded-pools) |
 | Overwinter | Peningkatan jaringan pertama untuk Zcash. [Info Lebih Lanjut](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#overwinter) |
 
-## Please provide the Markdown fragment you would like me to translate. I am ready to begin the localization process according to your instructions.
+## P
 
 | Istilah | Definisi |
 |------|-----------|
@@ -151,20 +151,20 @@ Glosarium komprehensif mengenai istilah kunci, konsep, dan sumber daya yang terk
 | PIR (Private Information Retrieval) | Teknik yang memungkinkan Anda mengambil sebuah catatan dari server tanpa membuat server mengetahui catatan mana yang Anda minta. Sedang dalam penelitian aktif untuk Zcash sebagai cara bagi light wallet untuk mengambil apa yang mereka butuhkan tanpa membocorkan apa yang sedang mereka cari. |
 | Podcast | [Radiolab (Zcash Ceremony)](https://archive.org/details/radiolab_podcast17crypto_zcash_ceremony) / [RealVisionFinance](https://www.youtube.com/watch?v=ibA_4kwd_YI) / [EthDenver](https://www.youtube.com/watch?v=t62isi58XcQ) / [UpOnlyPodcast](https://www.youtube.com/watch?v=AjC9T938o3Q) / [Zcast en Español](https://www.youtube.com/@ZcastEsp) |
 
-## Please provide the Markdown content you would like me to translate. I am ready to begin the localization process according to your instructions.
+## Q
 
 | Istilah | Definisi |
 |------|-----------|
 | QR Code | Kode yang dapat dibaca mesin yang digunakan untuk menyandikan alamat Zcash agar mudah dipindai. Unified Addresses (UAs) biasanya dibagikan melalui kode QR pada dompet Zcash modern. |
 | Quantum Recoverability | Sebuah properti dari catatan Ironwood, yang ditentukan dalam [ZIP 2005](https://zips.z.cash/zip-2005), yang menjaga agar catatan on-chain sebuah koin tetap dapat dipulihkan jika komputer kuantum di masa depan berhasil mematahkan kriptografi yang melindunginya saat ini. Ini adalah jalur pemulihan alih-alih ketahanan kuantum, dan ini berlaku untuk catatan Ironwood, bukan untuk dana Sprout, Sapling atau Orchard yang sudah ada. |
 
-## Please provide the Markdown fragment you would like me to translate. I am ready to begin the localization process according to your instructions.
+## R
 
 | Istilah | Definisi |
 |------|-----------|
 | Recovery Phrase | Urutan 12 atau 24 huruf dan angka yang digunakan untuk mencadangkan dan memulihkan dompet. Di Zcash, frasa ini meregenerasi spending key dan viewing key, menjadikannya sangat penting untuk pemulihan dana dan keamanan. |
 
-## I cannot fulfill this request because the input provided ("S") is insufficient to perform a translation. Please provide the full Markdown fragment you wish to have translated.
+## S
 
 | Istilah | Definisi |
 |------|-----------|
@@ -177,7 +177,7 @@ Glosarium komprehensif mengenai istilah kunci, konsep, dan sumber daya yang terk
 | Spending Key | Kunci privat yang memungkinkan pengeluaran dari alamat terlindungi (juga memungkinkan Anda melihat saldo dan riwayat). |
 | Sprout | Versi protokol terlindungi asli dari Zcash (diluncurkan 2016). |
 
-## I cannot fulfill this request because the input provided is only a single character "T", which does not contain any content to translate. Please provide the full Markdown fragment you wish to have translated.
+## T
 
 | Istilah | Definisi |
 |------|-----------|
@@ -192,33 +192,33 @@ Glosarium komprehensif mengenai istilah kunci, konsep, dan sumber daya yang terk
 | Transparent Transaction | Transaksi yang secara eksklusif terjadi antara alamat transparan - semuanya dapat dilihat secara publik. |
 | Turnstile | Aturan akuntansi yang melacak seberapa banyak nilai yang masuk dan keluar dari setiap pool terlindungi, sehingga tidak ada pool yang dapat mengeluarkan lebih banyak daripada yang masuk ke dalamnya. Digunakan pada setiap transisi pool dalam sejarah Zcash, dan saat ini menjaga migrasi dari Orchard ke dalam Ironwood. [Informasi selengkapnya](/zcash-tech/the-turnstile) |
 
-## Please provide the Markdown fragment you would like me to translate. I am ready to begin the localization process following all your specified rules and terminology.
+## U
 
 | Istilah | Definisi |
 |------|-----------|
 | Unified Address | Format alamat modern (diperkenalkan pada NU5) yang berfungsi untuk pembayaran transparan maupun terlindungi dalam satu string. |
 | Upgrade Activation | Tinggi blok spesifik di mana peningkatan jaringan (misalnya NU5, NU6) diaktifkan secara otomatis. |
 
-## Please provide the Markdown fragment you would like me to translate. I am ready to begin the localization process following all your specified rules and terminology.
+## V
 
 | Istilah | Definisi |
 |------|-----------|
 | Viewing Key | Sebuah private key yang memungkinkan Anda melihat saldo dan riwayat transaksi dari alamat terlindungi tanpa kemampuan untuk membelanjakan dana tersebut. |
 
-## I cannot translate this fragment because it contains only a single character "W" which does not constitute a meaningful Markdown document or content to be translated. Please provide the full Markdown text you wish to have translated.
+## W
 
 | Istilah | Definisi |
 |------|-----------|
 | Wallet | Perangkat lunak atau perangkat keras yang menyimpan private key dan memungkinkan Anda mengirim/menerima ZEC. Dompet aktif meliputi ZODL (iOS/Android), Zingo! (mobile/desktop), Nighthawk (Android), Zkool (mobile/desktop), Zallet (akan datang), dan Keystone (perangkat keras). Untuk daftar lengkap, lihat [Zcash Ecosystem Wallets](https://z.cash/ecosystem/?wallets=#tag-wallets) |
 | WebZjs | JavaScript SDK pertama untuk Zcash, dibangun oleh ChainSafe untuk lingkungan browser. Ini menjadi dasar bagi snap Zcash Shielded Wallet yang menghadirkan ZEC terlindungi ke MetaMask. |
 
-## Please provide the Markdown fragment you would like me to translate. I am ready to begin the localization process following all your specified rules and terminology.
+## X
 
 | Istilah | Definisi |
 |------|-----------|
 | XZC | Simbol ticker lama untuk Zcash yang digunakan pada beberapa exchange lama. Ticker resminya adalah ZEC. |
 
-## Please provide the Markdown fragment you would like me to translate. I am ready to begin the localization process following all your specified rules and terminology.
+## Y
 
 | Istilah | Definisi |
 |------|-----------|
