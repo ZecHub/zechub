@@ -55,7 +55,7 @@ Pilih folder yang berisi file situs web kamu dan navigasikan ke opsi Tambahkan F
     <img src="/content-images/ipfs-site-folder-2c96524d98.webp" alt="" width="400" height="200"/>
 </a>
 
-Please provide the Markdown fragment you would like me to translate. I am ready to begin once you provide the source text.
+–
 
 Jika menggunakan Terminal, jalankan perintah: `ipfs add -r folder_name` untuk menambahkan seluruh folder secara rekursif ke IPFS.
 
@@ -63,7 +63,7 @@ Jika menggunakan Terminal, jalankan perintah: `ipfs add -r folder_name` untuk me
 
 Setelah file situs web kamu ditambahkan ke IPFS, kamu perlu melakukan **pin** pada file tersebut untuk memastikan file tetap tersedia di jaringan.
 
-Please provide the Markdown fragment you would like me to translate. I am ready to begin the localization process following all your specified rules and terminology.
+–
 
 Jika menggunakan Terminal, jalankan perintah: Jika menggunakan Terminal, jalankan perintah: `ipfs pin add **hash**`
 
@@ -73,7 +73,7 @@ Sebagai alternatif, kamu juga dapat menyematkan direktori menggunakan layanan se
 
 Ini sangat menghemat banyak waktu!
 
-Please provide the Markdown fragment you would like me to translate. I am ready to begin the localization process following all your specified rules and terminology.
+–
 
 ### Akses situs web kamu di IPFS:
 
@@ -120,7 +120,7 @@ Akan membutuhkan waktu untuk menyebar melalui jaringan sebelum kamu dapat meliha
 
 *Selamat! Kamu sekarang memiliki situs web yang tahan sensor.*
 
-Please provide the Markdown fragment you would like me to translate. I am ready to begin once you input the text.
+____
 
 **Sumber Daya**
 

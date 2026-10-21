@@ -271,7 +271,7 @@ cd btcpayserver-docker
 
 ### Langkah 2: Ekspor Variabel Lingkungan
 
-Please provide the Markdown fragment you would like me to translate. Once you provide the text containing the ``btcpay.example.com`` placeholder, I will proceed with the translation following all your specified rules.
+Ganti `btcpay.example.com` dengan domain kamu yang sebenarnya:
 
 ```
 export BTCPAY_HOST="btcpay.example.com"
@@ -664,7 +664,7 @@ Setelah menginstal plugin, bagian **Zcash** baru akan muncul di menu pengaturan.
 > **Catatan:** viewing key Sapling lama didukung, tetapi untuk menggunakan Alamat Orchard/Unified, kamu harus menyediakan **UFVK**.
 
 
-Please provide the Markdown fragment you would like me to translate. I am ready to begin according to your instructions.
+   Contoh format:
 
 `uview184syv9wftwngkay8d...`
 

@@ -16,7 +16,7 @@ Tambahkan, edit, atau hapus blok di sini; wiki akan mengambilnya dari file ini.
 - Website: https://near.com/
 - Deskripsi: Exchange cepat dengan dukungan NEAR. Lakukan deposit, jual, dan swap termasuk token meme populer seperti TRUMP, MELANIA, BERA, dan lainnya
 
-Please provide the Markdown fragment you would like me to translate. I am ready to begin once you share the content.
+___
 
 ### Nativeswap
 
@@ -25,7 +25,7 @@ Please provide the Markdown fragment you would like me to translate. I am ready 
 - Website: https://nativeswap.io/
 - Deskripsi: Perdagangan Cross-Chain Native Tanpa Hambatan melalui Maya Protocol. Berdagang langsung secara on-chain tanpa bridge atau wrapped token - nikmati biaya terendah di industri dan kontrol aset sepenuhnya.
 
-Please provide the Markdown fragment you would like me to translate. I am ready to begin once you input the text.
+___
 
 ### Firo DEX
 
@@ -34,7 +34,7 @@ Please provide the Markdown fragment you would like me to translate. I am ready 
 - Website: https://github.com/firoorg/FiroDEX-Desktop
 - Deskripsi: Swap terdesentralisasi tanpa perlu kepercayaan menggunakan atomic swap dengan FiroDEX!.
 
-Please provide the Markdown fragment you would like me to translate. I am ready to begin once you provide the content.
+___
 
 ### LeoDex
 
@@ -43,7 +43,7 @@ Please provide the Markdown fragment you would like me to translate. I am ready 
 - Website: https://leodex.io
 - Deskripsi: Swap crosschain ke dalam dan keluar dari ZEC, yang dirutekan melalui THORChain, Maya Protocol, Chainflip, NEAR Intents, Relay, dan Rango. Tanpa akun, tanpa KYC, dan tidak perlu koneksi dompet pada rute yang didukung.
 
-Please provide the Markdown fragment you would like me to translate. I am ready to begin the localization process according to your instructions.
+___
 
 ### Bison Wallet
 
@@ -52,7 +52,7 @@ Please provide the Markdown fragment you would like me to translate. I am ready 
 - Website: https://dex.decred.org/
 - Deskripsi: Tukarkan crypto secara peer-to-peer. Tanpa biaya transaksi. Tanpa KYC.
 
-Please provide the Markdown fragment you would like me to translate. I am ready to begin once the content is provided.
+___
 
 ### THORSwap
 
@@ -61,7 +61,7 @@ Please provide the Markdown fragment you would like me to translate. I am ready 
 - Situs web: https://app.thorswap.finance/
 - Deskripsi: DEX cross-chain yang didukung oleh THORChain, memungkinkan swap asli antara Bitcoin, Ethereum, dan aset utama lainnya tanpa token wrapped.
 
-Please provide the Markdown fragment you would like me to translate. I am ready to begin once you input the text.
+___
 
 ### Router Protocol
 
@@ -70,7 +70,7 @@ Please provide the Markdown fragment you would like me to translate. I am ready 
 - Website: https://www.routerprotocol.com/
 - Deskripsi: Lapisan transportasi likuiditas cross-chain yang memungkinkan transfer aset dan data secara mulus di antara beberapa blockchain.
 
-Please provide the Markdown fragment you would like me to translate. I am ready to begin once you provide the content.
+___
 
 ### Peer
 
@@ -79,7 +79,7 @@ Please provide the Markdown fragment you would like me to translate. I am ready 
 - Website: https://peer.xyz/
 - Deskripsi: Exchange peer-to-peer terdesentralisasi yang memungkinkan transaksi crypto secara langsung dengan privasi dan kontrol pengguna yang ditingkatkan.
 
-Please provide the Markdown fragment you would like me to translate. I am ready to begin the localization process according to your instructions.
+___
 
 ### RocketX
 
@@ -88,7 +88,7 @@ Please provide the Markdown fragment you would like me to translate. I am ready 
 - Website: https://rocketx.exchange/
 - Deskripsi: Agregator DEX hybrid yang memungkinkan swap lintas-chain di berbagai blockchain dengan routing optimal dan tarif kompetitif.
 
-Please provide the Markdown fragment you would like me to translate. I am ready to begin the localization process following all your specified rules and terminology.
+___
 
 ### THORChain
 
@@ -97,7 +97,7 @@ Please provide the Markdown fragment you would like me to translate. I am ready 
 - Website: https://swap.thorchain.org/
 - Deskripsi: Exchange cross-chain Layer 1 terdesentralisasi. Lakukan swap aset asli seperti ZEC, BTC, dan ETH secara langsung tanpa bridge, wrapped token, atau perantara.
 
-Please provide the Markdown fragment you would like me to translate. I am ready to begin the localization process following all your specified rules and terminology.
+___
 
 ### Loofta
 
@@ -107,7 +107,7 @@ Please provide the Markdown fragment you would like me to translate. I am ready 
 - Deskripsi: Platform pembayaran dan swap privat non-kustodial. Kirim dan terima crypto secara privat antar chain, dengan Zcash sebagai lapisan penyelesaian untuk privasi finansial yang lebih ditingkatkan.
 
 
-Please provide the Markdown fragment you would like me to translate. I am ready to begin the localization process following all your specified rules and terminology.
+___
 
 
 ### ZcashToCash

@@ -18,7 +18,7 @@ Buatlah konten video dalam kategori berikut:```
 
 Buatlah desain seperti poster/grafik/animasi untuk Zcash & ekosistem Privasi
 
-Please provide the Markdown fragment you would like me to translate. I am ready to localize your ZecHub wiki content into Indonesian following all your specified rules and terminology.
+Terjemahkan halaman wiki mana pun yang sudah ada.
 
 Melaporkan bug
 
@@ -57,13 +57,13 @@ Kami memposting tugas terbuka di [ZEC Bounties](https://bounties.zechub.wiki/). 
 
 Jika ada cara lain yang ingin kamu gunakan untuk berkontribusi, silakan kirim pesan ke ZecHub ([@ZecHub](https://twitter.com/zechub)) di Twitter atau Bergabunglah dengan [Discord](https://discord.gg/zcash) kami.
 
-Please provide the Markdown fragment you would like me to translate. I am ready to begin once you provide the content.
+____
 
 **Untuk melakukan pembayaran, ZecHub mewajibkan semua kontributor untuk melengkapi formulir deklarasi dengan Nama & Alamat Terlindungi mereka:**
 
 **Alamat ( Zcash | Namada | Penumbra | Ycash )**
 
-Please provide the Markdown fragment you would like me to translate. I am ready to begin the localization process according to your specific rules and terminology.
+____
 
 <div>
     <iframe

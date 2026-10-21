@@ -12811,7 +12811,7 @@
       "src_commit": "3336a9152b64b4e8894a412cd8de9a2263b90a77",
       "engine": "llm",
       "mode": "full",
-      "tool": "google/gemma-4-26b-a4b",
+      "tool": "google/gemma-4-26b-a4b+replyfix",
       "edited": false
     },
     "contribute/ZecHub_DAO.md": {
@@ -12867,7 +12867,7 @@
       "src_commit": "3336a9152b64b4e8894a412cd8de9a2263b90a77",
       "engine": "llm",
       "mode": "full",
-      "tool": "google/gemma-4-26b-a4b",
+      "tool": "google/gemma-4-26b-a4b+replyfix",
       "edited": false
     },
     "guides/Akash_Network_Zebra.md": {
@@ -12875,7 +12875,7 @@
       "src_commit": "3336a9152b64b4e8894a412cd8de9a2263b90a77",
       "engine": "llm",
       "mode": "full",
-      "tool": "google/gemma-4-26b-a4b",
+      "tool": "google/gemma-4-26b-a4b+replyfix",
       "edited": false
     },
     "guides/Avalanche_RedBridge.md": {
@@ -12907,7 +12907,7 @@
       "src_commit": "7f2ae6404e4de308386122dcfd0ef3c1d490735a",
       "engine": "llm",
       "mode": "full",
-      "tool": "google/gemma-4-26b-a4b+handfix",
+      "tool": "google/gemma-4-26b-a4b+handfix+replyfix",
       "edited": false
     },
     "guides/Free2Z_Livestreaming.md": {
@@ -12987,7 +12987,7 @@
       "src_commit": "3336a9152b64b4e8894a412cd8de9a2263b90a77",
       "engine": "llm",
       "mode": "full",
-      "tool": "google/gemma-4-26b-a4b+termfix",
+      "tool": "google/gemma-4-26b-a4b+termfix+replyfix",
       "edited": false
     },
     "guides/Viewing_Key_Transaction_Export.md": {
@@ -13043,7 +13043,7 @@
       "src_commit": "7f2ae6404e4de308386122dcfd0ef3c1d490735a",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra+handfix",
+      "tool": "codex/gpt-5.6-terra+handfix+replyfix",
       "edited": false
     },
     "guides/Zgo_Payment_Processor.md": {
@@ -13307,7 +13307,7 @@
       "src_commit": "3336a9152b64b4e8894a412cd8de9a2263b90a77",
       "engine": "llm",
       "mode": "full",
-      "tool": "google/gemma-4-26b-a4b",
+      "tool": "google/gemma-4-26b-a4b+replyfix",
       "edited": false
     },
     "tutorials/zenithserver/zenithBeta.md": {
@@ -13315,7 +13315,7 @@
       "src_commit": "3336a9152b64b4e8894a412cd8de9a2263b90a77",
       "engine": "llm",
       "mode": "full",
-      "tool": "google/gemma-4-26b-a4b",
+      "tool": "google/gemma-4-26b-a4b+replyfix",
       "edited": false
     },
     "Using_Zcash/Buying_ZEC.md": {
@@ -13331,7 +13331,7 @@
       "src_commit": "3336a9152b64b4e8894a412cd8de9a2263b90a77",
       "engine": "llm",
       "mode": "full",
-      "tool": "google/gemma-4-26b-a4b",
+      "tool": "google/gemma-4-26b-a4b+replyfix",
       "edited": false
     },
     "Using_Zcash/Creators_and_Tips.md": {
@@ -13347,7 +13347,7 @@
       "src_commit": "3336a9152b64b4e8894a412cd8de9a2263b90a77",
       "engine": "llm",
       "mode": "full",
-      "tool": "google/gemma-4-26b-a4b",
+      "tool": "google/gemma-4-26b-a4b+replyfix",
       "edited": false
     },
     "Using_Zcash/Encifher_Swaps.md": {
@@ -13403,7 +13403,7 @@
       "src_commit": "3336a9152b64b4e8894a412cd8de9a2263b90a77",
       "engine": "llm",
       "mode": "full",
-      "tool": "google/gemma-4-26b-a4b",
+      "tool": "google/gemma-4-26b-a4b+replyfix",
       "edited": false
     },
     "Using_Zcash/Testnet.md": {
@@ -13435,7 +13435,7 @@
       "src_commit": "3336a9152b64b4e8894a412cd8de9a2263b90a77",
       "engine": "llm",
       "mode": "full",
-      "tool": "google/gemma-4-26b-a4b",
+      "tool": "google/gemma-4-26b-a4b+replyfix",
       "edited": false
     },
     "Using_Zcash/Zecmap.md": {
@@ -13475,7 +13475,7 @@
       "src_commit": "3336a9152b64b4e8894a412cd8de9a2263b90a77",
       "engine": "llm",
       "mode": "full",
-      "tool": "google/gemma-4-26b-a4b+termfix",
+      "tool": "google/gemma-4-26b-a4b+termfix+replyfix",
       "edited": false
     },
     "Zcash_Community/Community_Projects.md": {
@@ -13555,7 +13555,7 @@
       "src_commit": "3336a9152b64b4e8894a412cd8de9a2263b90a77",
       "engine": "llm",
       "mode": "full",
-      "tool": "google/gemma-4-26b-a4b",
+      "tool": "google/gemma-4-26b-a4b+replyfix",
       "edited": false
     },
     "Zcash_Organizations/Electric_Coin_Company.md": {
@@ -13675,7 +13675,7 @@
       "src_commit": "3336a9152b64b4e8894a412cd8de9a2263b90a77",
       "engine": "llm",
       "mode": "full",
-      "tool": "google/gemma-4-26b-a4b+termfix",
+      "tool": "google/gemma-4-26b-a4b+termfix+replyfix",
       "edited": false
     },
     "Zcash_Tech/Private_Information_Retrieval.md": {
@@ -13827,7 +13827,7 @@
       "src_commit": "3336a9152b64b4e8894a412cd8de9a2263b90a77",
       "engine": "llm",
       "mode": "full",
-      "tool": "google/gemma-4-26b-a4b",
+      "tool": "google/gemma-4-26b-a4b+replyfix",
       "edited": false
     },
     "ZFAV_Club/Guides_for_Creators/AI_tools.md": {
@@ -13875,7 +13875,7 @@
       "src_commit": "3336a9152b64b4e8894a412cd8de9a2263b90a77",
       "engine": "llm",
       "mode": "full",
-      "tool": "google/gemma-4-26b-a4b",
+      "tool": "google/gemma-4-26b-a4b+replyfix",
       "edited": false
     },
     "ZFAV_Club/Guides_for_Creators/Serve_Github_Repo_with_IPFS.md": {
@@ -13907,7 +13907,7 @@
       "src_commit": "49adb4bc5f4d2ac1bfcaad0ee49d2d29328afd2d",
       "engine": "llm",
       "mode": "full",
-      "tool": "google/gemma-4-26b-a4b",
+      "tool": "google/gemma-4-26b-a4b+replyfix",
       "edited": false
     },
     "Privacy_Tools/VPN_and_DVPN.md": {
@@ -14147,7 +14147,7 @@
       "src_commit": "ec5192d0ea0dfc1e066a5c537abe3ebdbd260b13",
       "engine": "llm",
       "mode": "full",
-      "tool": "google/gemma-4-26b-a4b",
+      "tool": "google/gemma-4-26b-a4b+replyfix",
       "edited": false
     },
     "guides/Raspberry_Pi_4_Full_Node.md": {
@@ -14283,7 +14283,7 @@
       "src_commit": "e68ba1cf2061bd94544968bc9d0b6ce1d080a4ea",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+replyfix",
       "edited": false
     },
     "Research/selective-disclosure-zcash.md": {

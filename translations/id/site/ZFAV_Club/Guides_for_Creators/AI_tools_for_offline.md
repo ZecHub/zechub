@@ -7,7 +7,7 @@
 <aside>
 *Masih dalam tahap penulisan dan pengembangan...*</aside>
 
-I cannot translate this fragment because it does not contain any translatable text; it only contains an HTML closing tag (`</aside>`). Please provide the content you wish to have translated.
+</aside>
 
 ### Menghasilkan gambar
 

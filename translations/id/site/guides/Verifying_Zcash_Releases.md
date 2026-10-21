@@ -67,7 +67,7 @@ curl -sLO $BASE/SHA256SUMS.sigstore.json
 sha256sum -c --ignore-missing SHA256SUMS
 ```
 
-Please provide the Markdown fragment you would like me to translate. I am ready to begin the localization process following all your specified rules and terminology.
+Output asli:
 
 ```
 zebrad-6.3.0-x86_64-unknown-linux-gnu.tar.gz: OK
@@ -95,7 +95,7 @@ PowerShell tidak memiliki mode verifikasi `-c`, jadi kamu harus membandingkannya
 Get-FileHash .\zebrad-6.3.0-x86_64-unknown-linux-gnu.tar.gz -Algorithm SHA256 | Format-List
 ```
 
-Please provide the Markdown fragment you would like me to translate. I am ready to begin the localization process according to your instructions.
+Output asli:
 
 ```
 Algorithm : SHA256
@@ -199,7 +199,7 @@ openssl x509 -in cert.der -inform DER -pubkey -noout > pub.pem
 openssl dgst -sha256 -verify pub.pem -signature sig.bin SHA256SUMS
 ```
 
-Please provide the Markdown fragment you would like me to translate. I am ready to begin the localization process according to your specific rules and terminology.
+Output asli:
 
 ```
 Verified OK
@@ -249,7 +249,7 @@ gpg --verify zallet-v0.1.0-beta.2-linux-amd64.tar.gz.asc \
              zallet-v0.1.0-beta.2-linux-amd64.tar.gz
 ```
 
-Please provide the Markdown fragment you would like me to translate. I am ready to begin the localization process according to your specific rules and terminology.
+Output asli:
 
 ```
 gpg: Signature made Tue Jul 28 19:18:44 2026 WAT
@@ -271,7 +271,7 @@ gpg --verify zallet-v0.1.0-beta.2-linux-amd64.tar.gz.asc \
              zallet-v0.1.0-beta.2-linux-amd64.tar.gz
 ```
 
-Please provide the Markdown fragment you would like me to translate. I am ready to begin the localization process following all your specified rules and terminology.
+Output asli:
 
 ```
 gpg: Signature made Tue Jul 28 19:18:44 2026 WAT
@@ -296,7 +296,7 @@ Pernyataan transisi kunci ZODL menyebutkan sidik jari `0338 34DD 49DE CF9D BB99 
 gpg --list-keys --with-subkey-fingerprints sysadmin@zodl.com
 ```
 
-Please provide the Markdown fragment you would like me to translate. I am ready to begin the localization process following all your specified rules and terminology.
+Output asli:
 
 ```
 pub   rsa4096 2026-03-23 [SCEA]
@@ -388,7 +388,7 @@ printf '\x00' >> tampered.tar.gz
 sha256sum -c tampered.sha256
 ```
 
-Please provide the Markdown fragment you would like me to translate. I am ready to begin the localization process following all your specified rules and terminology.
+Output asli:
 
 ```
 tampered.tar.gz: FAILED

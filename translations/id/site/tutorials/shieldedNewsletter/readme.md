@@ -82,7 +82,7 @@ modifikasi port RPC zebrad yang benar (8232) dan sertakan username serta pw dari
 
 `./target/release/zallet -c /home/zktails/.zallet/zallet.toml rpc help`
 
-Please provide the Markdown fragment you would like me to translate. I am ready to begin the localization process according to your instructions.
+Seharusnya menampilkan output
 
 ```bash
 getrawtransaction
