@@ -6,7 +6,7 @@
 
 ## Ringkasan Singkat
 
-- **ZEC** adalah mata uang digital yang mengutamakan privasi yang dibangun di atas blockchain Zcash
+- **ZEC** adalah mata uang digital yang mengutamakan privasi dan dibangun di atas blockchain Zcash
 - Berbeda dengan Bitcoin, ZEC mendukung **transaksi terlindungi (privat)** sepenuhnya menggunakan zero-knowledge proofs
 - Kamu memegang kendali atas privasi finansialmu: pilih apa yang ingin kamu ungkapkan, dan kepada siapa
 - Zcash bersifat open-source, permissionless, dan terdesentralisasi
@@ -20,7 +20,7 @@
 
 ---
 
-ZEC adalah mata uang digital yang berbasis pada blockchain Zcash. Ini adalah pendekatan terdekat terhadap uang tunai di web. Meskipun memiliki banyak fitur serupa dengan Bitcoin, ia mengatasi kelemahan terbesar Bitcoin dengan memungkinkan pengguna untuk menjalankan transaksi moneter yang sepenuhnya privat.
+ZEC adalah mata uang digital yang berbasis pada blockchain Zcash. Ini adalah bentuk yang paling mendekati uang tunai di web. Meskipun memiliki banyak fitur serupa dengan Bitcoin, ia mengatasi kelemahan terbesar Bitcoin dengan memungkinkan pengguna untuk menjalankan transaksi moneter yang sepenuhnya privat.
 
 #### Mengapa mata uang privat itu penting?
 
@@ -28,15 +28,15 @@ ZEC memberikan kesempatan kepada orang-orang untuk mentransfer data secara permi
 
 #### Sumber Daya
 
-Kasus Zcash dan Privasi [](https://www.zcashzeal.org/blog/the-case-for-zcash-amp-privacy)
+[Argumen untuk Zcash dan Privasi](https://www.zcashzeal.org/blog/the-case-for-zcash-amp-privacy)
 
 [Ekosistem Terlindungi](https://web.archive.org/web/20260903010654/https://electriccoin.co/blog/shielded-ecosystem/)
 
-Rekomendasi Privasi [Zcash](https://z.cash/support/security/privacy-security-recommendations/)
+[Rekomendasi Privasi Zcash](https://z.cash/support/security/privacy-security-recommendations/)
 
 ## Apa itu Zcash?
 
-Zcash adalah sebuah implementasi dari protokol "Zerocash". Ini adalah buku besar berbasis blockchain sumber terbuka yang memiliki sistem pembuktian zero-knowledge yang canggih. Berdasarkan kode Bitcoin, ia berspesialisasi dalam menawarkan standar privasi yang lebih tinggi melalui sistem pembuktiannya yang menjaga kerahasiaan metadata [transaksi](https://nym.com/blog/what-is-metadata). Pada intinya, Zcash adalah kepemilikan data pribadi yang ditransfer secara tanpa izin saat transaksi dilakukan.
+Zcash adalah sebuah implementasi dari protokol "Zerocash". Ini adalah buku besar berbasis blockchain sumber terbuka yang memiliki sistem pembuktian zero-knowledge yang canggih. Berdasarkan kode Bitcoin, ia berspesialisasi dalam menawarkan standar privasi yang lebih tinggi melalui sistem pembuktiannya yang menjaga kerahasiaan [metadata transaksi](https://nym.com/blog/what-is-metadata). Pada intinya, Zcash adalah kepemilikan data pribadi yang ditransfer secara permissionless saat transaksi dilakukan.
 
 #### Mengapa ini penting?
 

@@ -11,19 +11,19 @@ Beberapa hal di sini mungkin terasa membingungkan. Kami mengerti! Ada banyak inf
 
 Jika kamu baru mengenal Zcash, ini adalah tempat yang tepat untuk mulai mempelajarinya. Hal pertama yang harus kamu lakukan adalah memeriksa halaman-halaman berikut:
 
-[Zcash Panduan Pengguna Baru](https://zechub.wiki/start-here/new-user-guide#content)
+[Panduan Pengguna Baru Zcash](https://zechub.wiki/start-here/new-user-guide#content)
 
-[Zcash Sumber Daya](https://zechub.wiki/start-here/zcash-resources#content)
+[Sumber Daya Zcash](https://zechub.wiki/start-here/zcash-resources#content)
 
-Dasar-dasar [Zcash](https://zechub.wiki/start-here/what-is-zec-and-zcash#content)
+[Dasar-dasar Zcash](https://zechub.wiki/start-here/what-is-zec-and-zcash#content)
 
-## Siap digunakan Zcash
+## Siap menggunakan Zcash
 
-Setelah kamu membaca dokumen pengantar dan sumber daya terkait lainnya, silakan tonton video [Tutorials ZECmenggunakan ](https://zechub.wiki/guides/using-zec-privately#content)[ dan ](https://youtube.com/playlist?list=PL6_epn0lASLFF28ePj7P5TvtMG_WE7p3O&si=4vleWUbCGbNJu1-M)untuk mulai mengenal cara menggunakan ZEC.
+Setelah kamu membaca dokumen pengantar dan sumber daya terkait, silakan lihat [Menggunakan ZEC](https://zechub.wiki/guides/using-zec-privately#content) dan video [Tutorial](https://youtube.com/playlist?list=PL6_epn0lASLFF28ePj7P5TvtMG_WE7p3O&si=4vleWUbCGbNJu1-M) untuk mulai mengenal cara menggunakan ZEC.
 
 ## Saya adalah anggota komunitas Zcash
 
-Jika kamu adalah anggota komunitas, luar biasa! Hal terbaik yang bisa kamu lakukan untuk tetap mendapatkan informasi terbaru adalah dengan mengikuti buletin mingguan [Zcash Ecosystem Digest](https://zechub.substack.com/s/zcash-ecosystem-digest) dan mengikuti semua akun pada [Daftar Zcashhalaman komunitas](https://zechub.wiki/zcash-community/community-links#content).
+Jika kamu adalah anggota komunitas, luar biasa! Hal terbaik yang bisa kamu lakukan untuk tetap mendapatkan informasi terbaru adalah dengan mengikuti buletin mingguan [Zcash Ecosystem Digest](https://zechub.substack.com/s/zcash-ecosystem-digest) dan mengikuti semua akun pada [Daftar halaman komunitas Zcash](https://zechub.wiki/zcash-community/community-links#content).
 
 ## Saya ingin berkontribusi ke ZecHub
 
