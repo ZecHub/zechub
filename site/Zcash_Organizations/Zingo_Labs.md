@@ -34,6 +34,6 @@ A set of utilities that launch and manage Zcash processes. This is used for inte
 
 Its goal is to offer a highly adaptable and sturdy testing environment for core nodes (validators) such as Zebra, indexers like Zaino, and light client wallets such as zingo-cli.
 
-The default stack it launches is Zebrad, Zainod, and zcash-devtool. The legacy `zcashd` and lightwalletd processes sit behind an unsupported `legacy-stack` feature and are scheduled for removal.
+The default stack it launches is Zebrad, zainod, and zcash-devtool. The legacy `zcashd` and lightwalletd processes sit behind an unsupported `legacy-stack` feature and are scheduled for removal.
 
 In addition to providing tools to start, cache, and load Zcash chain data (for mainnet, testnet, and regtest), zcash-local-net is used from Zaino's test suite to assess the Lightwallet RPC services hosted in Zaino (see [Zaino testing docs](https://github.com/zingolabs/zaino/blob/dev/docs/testing.md)).
