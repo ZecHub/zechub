@@ -121,7 +121,7 @@ Komunitas kamu dapat:
 
 ## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="chain-links icon"/> Terkait
 
-- [Privasi - Praktik terbaik](/start-here/who-can-see-your-zcash-payment)
+- [Siapa yang dapat melihat pembayaran Zcash kamu](/start-here/who-can-see-your-zcash-payment)
 - [Kirim uang tanpa menghubungkan identitas](/zcash-use-cases/send-money-without-linking-identity)
  
 

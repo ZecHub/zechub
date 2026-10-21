@@ -95,8 +95,8 @@ Você pode:
 
 <br/>
 
-## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="ícone de links em cadeia"/> Relacionado
-- [Privacidade - Blindado vs Transparente](/zcash-tech/what-a-block-explorer-can-see)
+## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="chain-links icon"/> Relacionados
+- [O que um explorador de blocos pode ver](/zcash-tech/what-a-block-explorer-can-see)
 
 <br/>
 

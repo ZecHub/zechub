@@ -131,7 +131,7 @@
 | Noir Wallet | 一款由 Zcash Community Grants 支持的 Zcash 浏览器扩展钱包，旨在将 shielded ZEC 直接连接到浏览器应用，而不是依赖二维码和手动转账。 [zknoir.com](https://www.zknoir.com/) |
 | NU5 | Zcash 的第 6 次重大网络升级，引入了 Orchard shielded pool 和 Unified Addresses。 [更多信息](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#nu5) |
 | NU6 | Zcash 的第 7 次重大网络升级，调整了区块补贴，用于资助 Zcash Community Grants 项目和延期开发基金锁箱。于 2024 年底激活。 [更多信息](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#nu6) |
-| NU7 | Ironwood 之后的下一次重大网络升级。候选功能包括 Project Tachyon 的扩容工作、Zcash Shielded Assets 以及 Network Sustainability Mechanism。 |
+| NU7 | Ironwood 之后的网络升级，目标是在 2026 年 11 月 5 日上线主网。根据 [ZIP 259](https://zips.z.cash/zip-0259)，它将引入 25 秒区块（ZIP 218）、带手续费回收的 Network Sustainability Mechanism（ZIPs 235 和 237），并终止版本 4 交易，使 Sprout 资金无法花费（ZIP 2003）。它不会新增交易格式；Tachyon 和 Zcash Shielded Assets 不属于此次升级。 |
 
 ## O
 

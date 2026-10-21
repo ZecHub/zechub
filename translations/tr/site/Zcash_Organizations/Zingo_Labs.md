@@ -23,9 +23,10 @@ Zaino, Zingo ekibi tarafından Rust ile geliştirilmiş bir Indexer'dır; lightw
 
 Zaino, hem cüzdanlar ve tam blockchain geçmişine ihtiyaç duymayan uygulamalar gibi hafif istemciler, hem de tam istemciler veya cüzdanlar için temel özellikler sunar. Ayrıca block explorer'ları da destekler ve bir Zebra veya zcashd tam doğrulayıcısı tarafından yönetilen hem finalize edilmiş blockchain'e hem de finalize edilmemiş best chain ve mempool'a erişim sağlar.
 
-###  ZLN (zcash-local-net) ([GitHub](https://github.com/zingolabs/infrastructure/tree/dev/zcash_local_net))
-Zcash süreçlerini başlatan ve yöneten bir dizi yardımcı araç. Bu, şu alanların geliştirilmesinde entegrasyon testleri için kullanılır:
-- light client'lar
+###  ZLN (zcash-local-net) ([GitHub](https://.com/zingolabs/infrastructure/tree/dev/zcash_local_net))
+
+Zcash süreçlerini başlatan ve yöneten bir yardımcı programlar kümesi. Bu, aşağıdakilerin geliştirilmesinde entegrasyon testi için kullanılır:
+- hafif istemciler
 - indexer'lar
 - doğrulayıcılar
 
@@ -33,4 +34,4 @@ Amacı, zcash ve zebra gibi çekirdek düğümler (doğrulayıcılar), lightwall
 
 Bu depo, zcashd kullanımının sonlandırılması sürecindeki geçişi kolaylaştırmak için çeşitli doğrulayıcıların (zcashd ve Zebrad gibi) ve indexer'ların (lightwalletd ve Zaino gibi) işlevselliğini karşılaştırmak üzere tasarlanmıştır.
 
-zcash-zocal-net, Zcash zincir verilerini (mainnet, testnet ve regtest için) başlatma, önbelleğe alma ve yükleme araçları sağlamanın yanı sıra, tüm Lightwallet RPC hizmetlerinde lightwalletd ile Zaino'nun yeteneklerini karşılaştırmak için bir dizi test de içerir. Bu testler, Zaino üzerinde barındırılan Lightwallet RPC hizmetlerini değerlendirmek için doğrudan Zaino'dan çalıştırılabilir (bkz. [https://github.com/zingolabs/zaino/blob/dev/docs/testing.md](https://github.com/zingolabs/zaino/blob/dev/docs/testing.md)]).
+Zcash zincir verilerini (mainnet, testnet ve regtest için) başlatma, önbelleğe alma ve yükleme araçları sağlamanın yanı sıra zcash-local-net, tüm Lightwallet RPC hizmetlerinde lightwalletd ve Zaino yeteneklerini karşılaştırmak için bir dizi test içerir. Bu testler doğrudan Zaino üzerinden çalıştırılabilir (Zaino üzerinde barındırılan Lightwallet RPC hizmetlerini değerlendirmek için bkz. [https://.com/zingolabs/zaino/blob/dev/docs/testing.md](https://github.com/zingolabs/zaino/blob/dev/docs/testing.md))).

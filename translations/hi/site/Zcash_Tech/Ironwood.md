@@ -48,9 +48,9 @@ NU6.2 ने सभी नए transactions के लिए Orchard circuit क�
 
 Ironwood pool वह shielded value pool है जिसे NU6.3 द्वारा ब्लॉक 3,428,143 पर बनाया गया है। यह सुधारे गए circuit पर आधारित है और quantum-recoverable note format का उपयोग करता है (ऐसा design जो funds को recover करने देता है यदि कभी [quantum computers](../zcash-tech/post-quantum-security) आज की cryptography को तोड़ दें), जिसे [ZIP 2005](https://zips.z.cash/zip-2005) में परिभाषित किया गया है।
 
-1. सक्रियण के बाद, पुराना Orchard pool केवल spend-only बन जाता है, इसलिए उसमें कोई नई value प्रवेश नहीं कर सकती।
-2. नई shielded value अब Ironwood में प्रवाहित होती है।
-3. Shielded ZEC वही मजबूत privacy guarantees बनाए रखता है जो sender, receiver, और amount को छिपाते हैं।
+1. सक्रियण के बाद, पुराना Orchard पूल केवल खर्च-योग्य बन जाता है, इसलिए उसमें कोई नया मूल्य प्रवेश नहीं कर सकता।
+2. नया शील्डेड मूल्य इसके बजाय Ironwood में प्रवाहित होता है।
+3. Ironwood के भीतर, शील्डेड ZEC उस गोपनीयता को बनाए रखता है जो प्रेषक, प्राप्तकर्ता और राशि को छिपाती है। ZEC को Orchard से Ironwood में स्थानांतरित करने से स्थानांतरित राशि दिखाई देती है।
 
 ## turnstile
 
@@ -68,7 +68,7 @@ Consensus rules, Ironwood सहित हर value pool को नेटवर�
 
 ## उपयोगकर्ताओं को क्या करना चाहिए
 
-Wallets और नोड software इसका अधिकांश भाग स्वचालित रूप से संभालते हैं, लेकिन व्यावहारिक परिवर्तन सरल है: समय के साथ, अपने shielded holdings को पुराने Orchard pool से turnstile के माध्यम से Ironwood pool में ले जाएँ। अपने wallet provider के मार्गदर्शन का पालन करें, और activation block से पहले हमेशा किसी supported release पर update करें।
+वॉलेट और नोड सॉफ़्टवेयर इसका अधिकांश भाग स्वचालित रूप से संभालते हैं, लेकिन व्यावहारिक परिवर्तन सरल है: समय के साथ, अपनी shielded होल्डिंग्स को पुराने Orchard पूल से turnstile के माध्यम से Ironwood पूल में ले जाएँ। हर स्थानांतरण अपनी राशि ब्लॉकचेन पर दिखाता है, इसलिए [ZIP 318](https://zips.z.cash/zip-0318) का पालन करने वाले वॉलेट इसे मानक राशियों में विभाजित करते हैं और समय के साथ भेजते हैं। अपने वॉलेट प्रदाता के मार्गदर्शन का पालन करें, और अपने सॉफ़्टवेयर को समर्थित रिलीज़ पर बनाए रखें।
 
 ## शब्दावली
 
@@ -85,9 +85,9 @@ Wallets और नोड software इसका अधिकांश भाग �
 
 क्या मेरा ZEC प्रभावित हुआ? नहीं। ऐसा कोई प्रमाण नहीं है कि bug का कभी उपयोग हुआ, उपयोगकर्ता निधियों पर कोई प्रभाव पड़ा, या कुल आपूर्ति में कोई बदलाव हुआ।
 
-क्या मुझे कुछ करने की आवश्यकता है? activation block से पहले अपने wallet और नोड software को किसी supported release पर updated रखें। आपका wallet समय के साथ, जब आप खर्च करते हैं, funds को Ironwood में ले जाता है, इसलिए हाथ से जल्दी करने जैसा कुछ नहीं है। अपने wallet provider के मार्गदर्शन का पालन करें।
+क्या मुझे कुछ करने की आवश्यकता है? अपने wallet और नोड software को किसी supported release पर रखें। Orchard funds खर्च करने पर वे Ironwood में चले जाते हैं, और पार होने वाली राशि सार्वजनिक होती है। कुछ wallets ऐसी migration प्रदान करते हैं जो समय के साथ मानक राशियाँ भेजती है, ताकि आपके balance को लिंक करना कठिन हो। अपने wallet provider के मार्गदर्शन का पालन करें।
 
-क्या Zcash अब भी private है? हाँ। Ironwood वही shielded privacy बनाए रखता है जो sender, receiver, और amount को छिपाती है। यह upgrade privacy के बारे में नहीं, बल्कि supply integrity के बारे में है।
+क्या Zcash अब भी निजी है? हाँ। Ironwood के भीतर भुगतान sender, receiver, और amount को छिपाते हैं, जैसा कि Orchard भुगतान करते थे। पूलों के बीच स्थानांतरित होने वाली amount, जैसे Orchard से Ironwood तक, सार्वजनिक है। यह upgrade supply integrity के बारे में है।
 
 क्या bug का कभी दुरुपयोग हुआ था? ऐसा कोई प्रमाण नहीं है। इसे security research के माध्यम से खोजा गया, जिम्मेदारी से प्रकट किया गया, और किसी भी ज्ञात नुकसान से पहले ठीक कर दिया गया।
 
@@ -110,6 +110,10 @@ turnstile के माध्यम से। पुराने Orchard pool �
 [ZIP 257: Orchard Temporary Vulnerability Mitigation और NU6.2 Network Upgrade का परिनियोजन](https://zips.z.cash/zip-0257)
 
 [ZIP 2005: Ironwood Quantum Recoverability](https://zips.z.cash/zip-2005)
+
+[ZIP 229: संस्करण 6 लेनदेन प्रारूप](https://zips.z.cash/zip-0229)
+
+[ZIP 318: Orchard से Ironwood माइग्रेशन](https://zips.z.cash/zip-0318)
 
 [Ironwood: Zcash के लिए एक नया Shielded Pool](https://zodl.com/ironwood-a-new-shielded-pool-for-zcash/)
 

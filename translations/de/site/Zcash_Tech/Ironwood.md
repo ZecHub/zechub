@@ -18,11 +18,11 @@ Neu bei Zcash? Beginne mit [Was sind ZEC und Zcash](../start-here/what-is-zec-an
 
 ## Warum Ironwood nötig war
 
-Ende Mai 2026 legte der unabhängige Sicherheitsforscher Taylor Hornby während eines Protokoll-Audits für [Shielded Labs](../zcash-organizations/shielded-labs) verantwortungsvoll einen Soundness-Fehler im Orchard Shielded Pool offen. Orchard war damals Zcashs neuester Shielded Pool, und die Schwachstelle lag in einem Teil seiner Zero-Knowledge-Schaltung, der auf elliptischen Kurven basiert und das [Halo](../zcash-tech/halo)-2-Proving-System verwendet.
+Ende Mai 2026 legte der unabhängige Sicherheitsforscher Taylor Hornby während eines Protokoll-Audits für [Shielded Labs](../zcash-organizations/shielded-labs) verantwortungsvoll einen Soundness-Fehler im Orchard Shielded Pool offen. Orchard war damals Zcashs neuester Shielded Pool, und die Schwachstelle lag in einem auf elliptischen Kurven basierenden Teil seiner Zero-Knowledge-Schaltung, der das [Halo](../zcash-tech/halo)-2-Proving-System verwendet.
 
 1. Ein Soundness-Fehler bedeutet, dass die Mathematik, die beweist, dass eine Transaktion gültig ist, dies nicht vollständig garantiert.
-2. Theoretisch hätte ein Angreifer die Schwachstelle nutzen können, um ungültigen Wert innerhalb des Orchard Pools zu fälschen und Gelder auszugeben, die ihm nicht wirklich gehörten, ohne Spuren zu hinterlassen, die ein normaler Knoten erkannt hätte.
-3. Zcashs Schleuse begrenzte weiterhin, wie viel Wert Orchard überhaupt verlassen konnte, sodass das Gesamtangebot nicht aufgebläht werden konnte, aber die Kryptografie des Pools selbst garantierte nicht länger, dass jede verborgene Coin darin echt war.
+2. Theoretisch hätte ein Angreifer die Schwachstelle nutzen können, um ungültigen Wert innerhalb des Orchard-Pools zu fälschen und Gelder auszugeben, die ihm nicht wirklich gehörten, ohne Spuren zu hinterlassen, die ein normaler Knoten erkannt hätte.
+3. Die Schleuse von Zcash begrenzte weiterhin, wie viel Wert Orchard überhaupt verlassen konnte, sodass die Gesamtmenge nicht aufgebläht werden konnte, aber die Kryptografie des Pools selbst garantierte nicht länger, dass jede verborgene Coin darin echt war.
 
 ![Der Fehler erklärt: Eine Transaktion führt 5 ZEC ein, aber der fehlerhafte Beweis wird trotzdem akzeptiert, wenn 7 ZEC herauskommen, wodurch 2 ZEC aus dem Nichts entstehen](/content-images/ironwood-bug-8f689d6f61.webp)
 
@@ -50,7 +50,7 @@ Der Ironwood Pool ist der durch NU6.3 bei Block 3.428.143 geschaffene Shielded-V
 
 1. Nach der Aktivierung wird der alte Orchard Pool zu einem Nur-Ausgabe-Pool, sodass kein neuer Wert mehr in ihn eintreten darf.
 2. Neu abgeschirmter Wert fließt stattdessen in Ironwood.
-3. Shielded ZEC behält dieselben starken Datenschutzgarantien, die Sender, Empfänger und Betrag verbergen.
+3. Innerhalb von Ironwood behält abgeschirmtes ZEC den Datenschutz, der Sender, Empfänger und Betrag verbirgt. Das Verschieben von ZEC aus Orchard in Ironwood zeigt den verschobenen Betrag.
 
 ## Die Schleuse
 
@@ -68,7 +68,7 @@ Die Konsensregeln halten jeden Value Pool, einschließlich Ironwood, innerhalb d
 
 ## Was Nutzer tun müssen
 
-Wallets und Knoten-Software erledigen das meiste davon automatisch, aber die praktische Umstellung ist einfach: Bewege im Laufe der Zeit Shielded-Bestände aus dem alten Orchard Pool durch die Schleuse in den Ironwood Pool. Folge den Hinweisen deines Wallet-Anbieters und aktualisiere immer auf eine unterstützte Version, bevor der Aktivierungsblock erreicht wird.
+Wallets und Knoten-Software erledigen das meiste davon automatisch, aber die praktische Umstellung ist einfach: Bewege im Laufe der Zeit Shielded-Bestände aus dem alten Orchard Pool durch die Schleuse in den Ironwood Pool. Jede Bewegung zeigt ihren Betrag auf der Blockchain, daher teilen Wallets, die [ZIP 318](https://zips.z.cash/zip-0318) befolgen, ihn in Standardbeträge auf und senden sie im Laufe der Zeit. Folge den Hinweisen deines Wallet-Anbieters und halte deine Software auf einer unterstützten Version.
 
 ## Glossar
 
@@ -85,9 +85,9 @@ Wallets und Knoten-Software erledigen das meiste davon automatisch, aber die pra
 
 War mein ZEC betroffen? Nein. Es gibt keine Hinweise darauf, dass der Fehler jemals verwendet wurde, keine Auswirkungen auf Nutzergelder und keine Veränderung des Gesamtangebots.
 
-Muss ich etwas tun? Halte deine Wallet- und Knoten-Software vor dem Aktivierungsblock auf einer unterstützten Version. Deine Wallet bewegt Gelder im Laufe der Zeit nach Ironwood, während du ausgibst, daher gibt es nichts Manuelles, das du überstürzt erledigen müsstest. Folge den Hinweisen deines Wallet-Anbieters.
+Muss ich etwas tun? Halte deine Wallet- und Knoten-Software auf einer unterstützten Version. Durch das Ausgeben von Orchard-Geldern werden sie nach Ironwood verschoben, und der übertragene Betrag ist öffentlich. Einige Wallets bieten eine Migration an, die im Laufe der Zeit Standardbeträge überträgt, sodass dein Guthaben schwerer zuzuordnen ist. Folge den Hinweisen deines Wallet-Anbieters.
 
-Ist Zcash immer noch privat? Ja. Ironwood behält denselben Shielded-Datenschutz bei, der Sender, Empfänger und Betrag verbirgt. Bei diesem Upgrade geht es um die Integrität des Angebots, nicht um Datenschutz.
+Ist Zcash immer noch privat? Ja. Zahlungen innerhalb von Ironwood verbergen Sender, Empfänger und Betrag, genau wie Zahlungen mit Orchard. Der Betrag, der zwischen Pools bewegt wird, beispielsweise von Orchard zu Ironwood, ist öffentlich. Bei diesem Upgrade geht es um die Integrität des Angebots.
 
 Wurde der Fehler jemals ausgenutzt? Es gibt keine Hinweise darauf. Er wurde durch Sicherheitsforschung gefunden, verantwortungsvoll offengelegt und vor jedem bekannten Schaden behoben.
 
@@ -110,6 +110,10 @@ Durch die Schleuse. Jede Coin, die den alten Orchard Pool verlässt, wird an ein
 [ZIP 257: Einführung der vorübergehenden Minderung der Orchard-Schwachstelle und des Netzwerk-Upgrades NU6.2](https://zips.z.cash/zip-0257)
 
 [ZIP 2005: Ironwood Quantum Recoverability](https://zips.z.cash/zip-2005)
+
+[ZIP 229: Transaktionsformat Version 6](https://zips.z.cash/zip-0229)
+
+[ZIP 318: Migration von Orchard zu Ironwood](https://zips.z.cash/zip-0318)
 
 [Ironwood: Ein neuer Shielded Pool für Zcash](https://zodl.com/ironwood-a-new-shielded-pool-for-zcash/)
 

@@ -96,7 +96,7 @@ Bu, maksimum gizlilik sağlar.
 <br/>
 
 ## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="chain-links icon"/> İlgili
-- [Gizlilik - Shielded ve Transparent](/zcash-tech/what-a-block-explorer-can-see)
+- [Bir Blok Gezgini Neleri Görebilir](/zcash-tech/what-a-block-explorer-can-see)
 
 <br/>
 

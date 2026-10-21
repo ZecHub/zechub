@@ -29,7 +29,20 @@ Shielded Labs secara publik mencantumkan beberapa area proyek yang aktif:
 - [Crosslink](https://shieldedlabs.net/crosslink-faq/) - Usulan peningkatan konsensus hibrida yang akan menggabungkan produksi blok proof-of-work Zcash dengan finalitas proof-of-stake, sehingga pemegang ZEC dapat membantu mengamankan jaringan sementara penambang terus memproduksi blok.
 - [Biaya Dinamis](https://shieldedlabs.net/fees/) - Riset dan tooling untuk biaya transaksi Zcash yang lebih terprediksi, ramah pengguna, dan tangguh seiring berkembangnya jaringan.
 - [Zero](https://shieldedlabs.net/zero/) - Rangkaian perangkat lunak infrastruktur Zcash sumber terbuka yang didukung untuk exchange, mining pool, penyedia dompet, dan organisasi lain yang mengandalkan infrastruktur Zcash.
-- [Ironwood](https://shieldedlabs.net/ironwood/) - Sebuah peningkatan jaringan Zcash dan pool terlindungi yang dibuat sebagai respons terhadap kerentanan pemalsuan Orchard, dirancang untuk memulihkan validitas pasokan beredar Zcash yang dapat diverifikasi secara independen.
+- [Ironwood](https://shieldedlabs.net/ironwood/) - Sebuah peningkatan jaringan Zcash dan pool terlindungi yang dibuat sebagai respons terhadap kerentanan pemalsuan Orchard, dirancang untuk memulihkan kekokohan pasokan beredar Zcash yang dapat diverifikasi secara independen.
+- [Epoch](https://shieldedlabs.net/epoch-future-proof-cryptography-for-zcash/) - Sebuah proyek riset dan rekayasa yang diumumkan pada Oktober 2026 untuk mengembangkan kriptografi post-quantum dengan tingkat jaminan tinggi yang siap untuk produksi bagi Zcash serta memperluas verifikasi formal terhadap komponen kriptografi kritis. Proyek ini menargetkan implementasi siap produksi pada akhir 2027 yang dapat menjadi dasar bagi peningkatan jaringan di masa mendatang. Proyek ini melengkapi Proyek Tachyon dan upaya post-quantum lainnya di seluruh ekosistem.
+
+## Epoch dan tim kriptografi
+
+Pada Oktober 2026, Shielded Labs meluncurkan Epoch, sebuah upaya khusus untuk mempersiapkan Zcash menghadapi komputasi kuantum, serangan berbantuan AI, dan ancaman canggih lainnya di masa depan. Proyek ini bertujuan mengganti komponen kriptografis yang rentan terhadap kuantum serta menerapkan verifikasi formal pada bagian-bagian kritis dari protokol.
+
+Epoch dipimpin oleh tim kriptografi yang terdiri dari tiga orang:
+
+- **Ulrich Haböck** – Ahli Kriptografi Utama (sebelumnya di StarkWare; sebelumnya lagi di Polygon Zero). Pakar dalam proof zero-knowledge dan kriptografi pascakuantum; penulis argumen lookup logUp dan salah satu penulis makalah Circle STARKs.
+- **Luke Edwards** – Insinyur Kriptografi (sebelumnya pemimpin teknis tim rekayasa kriptografi di Aztec). Memegang gelar PhD dalam Matematika Terapan dari University of Arizona.
+- **Suyash Bagad** – Insinyur Kriptografi (sebelumnya di Aztec, mengerjakan pustaka Barretenberg dan keluarga sistem proof PLONK). Memegang gelar BTech dan MTech dari IIT Bombay; penelitian pascasarjananya berfokus pada proof cadangan yang menjaga privasi.
+
+Fase 1 berfokus pada peninjauan penelitian yang ada, evaluasi konstruksi kandidat terhadap persyaratan keamanan dan kinerja Zcash, serta penyusunan proposal pascakuantum yang konkret. Implementasi yang siap untuk produksi ditargetkan pada akhir 2027.
 
 ## Kontribusi Ironwood
 
@@ -47,12 +60,14 @@ Zcash tidak menggunakan tata kelola on-chain otomatis untuk perubahan protokol. 
 
 ## Sumber Daya
 
-- Situs web [Shielded Labs](https://shieldedlabs.net/)
-- Proyek-proyek [Shielded Labs](https://shieldedlabs.net/projects/)
+- [Shielded Labs situs web](https://shieldedlabs.net/)
+- [Shielded Labs proyek](https://shieldedlabs.net/projects/)
 - [Mekanisme Keberlanjutan Jaringan](https://shieldedlabs.net/nsm/)
 - [Crosslink FAQ](https://shieldedlabs.net/crosslink-faq/)
 - [Biaya Dinamis](https://shieldedlabs.net/fees/)
 - [Zero](https://shieldedlabs.net/zero/)
 - [Ironwood](https://shieldedlabs.net/ironwood/)
-- [Tata kelola dan pemungutan suara](https://shieldedlabs.net/governance/)
+- [Epoch: Kriptografi Tahan Masa Depan untuk Zcash](https://shieldedlabs.net/epoch-future-proof-cryptography-for-zcash/)
+- [Tim](https://shieldedlabs.net/team/)
+- [Tata Kelola dan jajak pendapat](https://shieldedlabs.net/governance/)
 - [Shielded Labs GitHub](https://github.com/ShieldedLabs)

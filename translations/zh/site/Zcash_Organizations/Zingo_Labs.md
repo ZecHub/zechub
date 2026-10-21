@@ -23,14 +23,15 @@ Zaino 是由 Zingo 团队使用 Rust 开发的一个 Indexer，目标是替代 l
 
 Zaino 为轻客户端（如钱包和不需要完整区块链历史的应用程序）以及全客户端或钱包提供关键功能。它还支持区块浏览器，可访问由 Zebra 或 zcashd 全验证节点管理的已最终确认区块链，以及未最终确认的最佳链和内存池。
 
-###  ZLN (zcash-local-net) ([GitHub](https://github.com/zingolabs/infrastructure/tree/dev/zcash_local_net))
-一组用于启动和管理 Zcash 进程的实用工具。这被用于以下开发中的集成测试：
+###  ZLN (zcash-local-net) ([GitHub](https://.com/zingolabs/infrastructure/tree/dev/zcash_local_net))
+
+一套用于启动和管理 Zcash 进程的实用工具。用于以下项目开发中的集成测试：
 - 轻客户端
-- indexer
+- 索引器
 - 验证节点
 
 其目标是为核心节点（验证节点）（如 zcash 和 zebra）、indexer（如 lightwallet 和 zaino），以及至少作为轻客户端钱包的 zingo-cli，提供一个高度可适配且稳健的测试环境。
 
 该仓库旨在比较不同验证节点（如 zcashd 和 Zebrad）以及 indexer（如 lightwalletd 和 Zaino）的功能，以便在 zcashd 弃用过程中促进迁移。
 
-除了提供用于启动、缓存和加载 Zcash 链数据（适用于 mainnet、testnet 和 regtest）的工具外，zcash-zocal-net 还包含一系列测试，用于比较 lightwalletd 和 Zaino 在所有 Lightwallet RPC 服务上的能力。这些测试可以直接从 Zaino 执行（参见 [https://github.com/zingolabs/zaino/blob/dev/docs/testing.md](https://github.com/zingolabs/zaino/blob/dev/docs/testing.md)])，以评估由 Zaino 托管的 Lightwallet RPC 服务。
+除了提供用于启动、缓存和加载 Zcash 链数据（适用于主网、测试网和 regtest）的工具外，zcash-local-net 还包含一系列测试，用于比较 lightwalletd 和 Zaino 在所有 Lightwallet RPC 服务中的功能。这些测试可以直接从 Zaino 执行（参见 [https://.com/zingolabs/zaino/blob/dev/docs/testing.md](https://github.com/zingolabs/zaino/blob/dev/docs/testing.md))，以评估托管在 Zaino 中的 Lightwallet RPC 服务。

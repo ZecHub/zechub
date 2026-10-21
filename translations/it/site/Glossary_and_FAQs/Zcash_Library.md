@@ -131,7 +131,7 @@ Un glossario completo dei termini chiave, dei concetti e delle risorse relativi 
 | Noir Wallet | Un portafoglio Zcash in forma di estensione del browser supportato da Zcash Community Grants, creato per collegare direttamente gli ZEC schermati alle applicazioni del browser invece di affidarsi a codici QR e trasferimenti manuali. [zknoir.com](https://www.zknoir.com/) |
 | NU5 | Il 6° grande aggiornamento di rete di Zcash, che introduce la pool schermata Orchard e gli indirizzi unificati. [Maggiori informazioni](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#nu5) |
 | NU6 | Il 7° grande aggiornamento di rete di Zcash, che adegua il sussidio per blocco per finanziare il programma Zcash Community Grants e il Deferred Dev Fund Lockbox. Attivato alla fine del 2024. [Maggiori informazioni](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#nu6) |
-| NU7 | Il prossimo grande aggiornamento di rete dopo Ironwood. Tra le funzionalità candidate figurano il lavoro di scalabilità di Project Tachyon, Zcash Shielded Assets e il Network Sustainability Mechanism. |
+| NU7 | L'aggiornamento di rete successivo a Ironwood, previsto per mainnet il 5 novembre 2026. Secondo [ZIP 259](https://zips.z.cash/zip-0259) introduce blocchi da 25 secondi (ZIP 218), il Network Sustainability Mechanism con riciclo delle commissioni (ZIP 235 e 237) e la fine delle transazioni di versione 4, che rende i fondi Sprout non spendibili (ZIP 2003). Non aggiunge alcun nuovo formato di transazione; Tachyon e gli Zcash Shielded Assets non ne fanno parte. |
 
 ## O
 

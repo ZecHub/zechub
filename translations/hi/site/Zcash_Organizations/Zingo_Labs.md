@@ -1,6 +1,6 @@
 #  <img src="/content-images/e38b13a9-d410-426a-a1e6-2dde105d56c4-6b8154e5ae.webp" alt="Alt Text" width="50"/> ZingoLabs
 
-[अधिकारिक वेबसाइट](https://zingolabs.org/) - [GitHub](https://github.com/zingolabs) - [X/Twitter](https://x.com/ZingoLabs) - [इंस्टाग्राम](https://www.instagram.com/zingolabesp/)
+[आधिकारिक वेबसाइट](https://zingolabs.org/) - [GitHub](https://github.com/zingolabs) - [X/Twitter](https://x.com/ZingoLabs) - [इंस्टाग्रामInstagram](https://www.instagram.com/zingolabesp/)
 
 ZingoLabs एक दृष्टिकोण की टीम है जो मनुष्य के अनुभव को सुधारने पर काम करती है। हमें लगता है कि प्रौद्योगिकी मनुष्यता के लिए फायदेमंद होनी चाहिए और हम सहमति के बातचीत के माध्यम से विकसित होते हैं। हम ऐसे प्रतिमानों का पता लगा रहे हैं जो इसकी अनुमति देते हैं।
 
@@ -23,8 +23,9 @@ Zaino एक Indexer है, जो Rust में Zingo टीम द्वा�
 
 Zaino दोनों light clients, जैसे कि वॉलेट और अनुप्रयोग जो पूर्ण blockchain इतिहास की आवश्यकता नहीं होती, और full clients या वॉलेट के लिए आवश्यक सुविधाओं को प्रदान करता है। इसके अलावा, block explorers के लिए भी समर्थन है, जो फाइनलाइज़ड blockchain और non-finalized best chain और mempool के उपयोगकर्ता द्वारा प्रबंधित Zebra या zcashd full validator की ओर से एक्सेस के लिए अनुमति देता है।
 
-###  ZLN (zcash-local-net) ([GitHub](https://github.com/zingolabs/infrastructure/tree/dev/zcash_local_net))
-एक उपयोगिताओं की सीरीज़, जो Zcash प्रक्रियाओं के शुरूआत और प्रबंधन के लिए है। इसका उपयोग विकास में निम्नलिखित के समाकलन परीक्षण के लिए किया जाता है:
+###  ZLN (zcash-local-net) ([GitHub](https://.com/zingolabs/infrastructure/tree/dev/zcash_local_net))
+
+Zcash प्रक्रियाओं को लॉन्च और प्रबंधित करने वाली उपयोगिताओं का एक समूह। इसका उपयोग निम्न के विकास में integration testing के लिए किया जाता है:
 - lightclients
 - indexers
 - validators
@@ -33,4 +34,4 @@ Zaino दोनों light clients, जैसे कि वॉलेट और 
 
 इस रिपोज़िटरी के डिज़ाइन के अनुसार, zcashd और Zebrad जैसे विभिन्न validators (जैसे zcashd और Zebrad) और indexers (जैसे lightwalletd और Zaino) की कार्यक्षमता की तुलना करने के लिए उपयोगिताओं की प्रदान करता है, जिससे zcashd deprecation प्रक्रिया के दौरान माइग्रेशन सुगम हो सके।
 
-Zcash-local-net के अलावा, zcash-zocal-net के उपयोगकर्ता को Zcash chain data (मुख्य नेटवर्क, परीक्षण नेटवर्क और regtest) के शुरूआत, कैशिंग और लोड के उपकरण प्रदान करता है। zcash-zocal-net में lightwalletd और Zaino की क्षमताओं की तुलना करने के लिए विभिन्न परीक्षणों की श्रृंखला शामिल है, Lightwallet RPC सेवाओं के सभी तत्वों के लिए। यह परीक्षण Zaino से सीधे (देखें [https://github.com/zingolabs/zaino/blob/dev/docs/testing.md](https://github.com/zingolabs/zaino/blob/dev/docs/testing.md)) काम कर सकता है, Lightwallet RPC सेवाओं की जाँच के लिए Zaino में मेजबान।
+Zcash चेन डेटा (mainnet, testnet और regtest के लिए) को शुरू करने, कैश करने और लोड करने के उपकरण प्रदान करने के अलावा, zcash-local-net में सभी Lightwallet RPC सेवाओं में lightwalletd और Zaino की क्षमताओं की तुलना करने के लिए परीक्षणों की एक श्रृंखला शामिल है। इन परीक्षणों को सीधे Zaino से चलाया जा सकता है (Zaino में होस्ट की गई Lightwallet RPC सेवाओं का आकलन करने के लिए [https://.com/zingolabs/zaino/blob/dev/docs/testing.md](https://github.com/zingolabs/zaino/blob/dev/docs/testing.md)) देखें)।

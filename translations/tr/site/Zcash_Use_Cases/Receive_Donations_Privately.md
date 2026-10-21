@@ -51,7 +51,7 @@ Bu, **mali ilişkinizi açığa çıkarmadan** para almanızı sağlar.
 ## <img src="/content-images/icons8-toolbox-9bebbb1619.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> İhtiyacınız Olanlar
 
 - Korumalı adresleri destekleyen bir Zcash cüzdanı:
-  - ZODL
+  - Zodl
   - Zingo!
   - Desteklenen diğer cüzdanlar
 
@@ -106,7 +106,7 @@ Bağışçıları şunlara teşvik edin:
 
 ## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="chain-links icon"/> İlgili
 
-- [Gizlilik - Shielded ve Şeffaf](/zcash-tech/what-a-block-explorer-can-see)
+- [Bir Block Explorer'ın Görebilecekleri](/zcash-tech/what-a-block-explorer-can-see)
 - [Cüzdanlar](/wallets)
 
 <br/>

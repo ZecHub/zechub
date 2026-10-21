@@ -1,6 +1,6 @@
 #  <img src="/content-images/e38b13a9-d410-426a-a1e6-2dde105d56c4-6b8154e5ae.webp" alt="Alt Text" width="50"/> ZingoLabs
 
-[공식 웹사이트](https://zingolabs.org/) - [GitHub](https://github.com/zingolabs) - [X/Twitter](https://x.com/ZingoLabs) - [인스타그램](https://www.instagram.com/zingolabesp/)
+[공식 웹사이트](https://zingolabs.org/) - [GitHub](https://github.com/zingolabs) - [X/Twitter](https://x.com/ZingoLabs) - [Instagram](https://www.instagram.com/zingolabesp/)
 
 ZingoLabs는 인간 경험을 향상시키기 위해 열정을 가진 혁신가들의 팀입니다. 우리는 기술이 인류에 이익을 주어야 하며, 우리가 합의를 통해 상호작용함으로써 번영한다고 믿습니다. 이러한 가능성을 만들어내는 패턴들을 파악하고 있습니다.
 
@@ -23,9 +23,10 @@ Zaino는 Rust로 개발된 Zingo 팀의 인덱서이며, lightwalletd를 대체�
 
 Zaino는 가벼운 클라이언트(예: 지갑 및 블록체인 전체 역사가 필요하지 않은 앱)와 전체 클라이언트 또는 지갑 모두에 필수적인 기능을 제공합니다. 또한, Zebra 또는 zcashd 전체 검증자로 관리되는 최종화된 블록체인과 비최종화된 최상의 체인 및 메모풀에 접근할 수 있는 블록 탐색기도 지원합니다.
 
-###  ZLN (zcash-local-net) ([GitHub](https://github.com/zingolabs/infrastructure/tree/dev/zcash_local_net))
-Zcash 프로세스를 시작하고 관리하는 유틸리티의 집합입니다. 다음을 개발할 때 통합 테스트에 사용됩니다:
-- 가벼운 클라이언트
+###  ZLN (zcash-local-net) ([GitHub](https://.com/zingolabs/infrastructure/tree/dev/zcash_local_net))
+
+Zcash 프로세스를 시작하고 관리하는 유틸리티 모음입니다. 이는 다음의 개발에서 통합 테스트에 사용됩니다:
+- 라이트 클라이언트
 - 인덱서
 - 검증자
 
@@ -33,4 +34,4 @@ Zcash 프로세스를 시작하고 관리하는 유틸리티의 집합입니다.
 
 이 저장소는 zcashd 폐지 과정 중 마이그레이션을 용이하게 하기 위해 다양한 검증자(예: zcashd 및 Zebrad)와 인덱서(예: lightwalletd 및 Zaino)의 기능을 비교하는 데 설계되었습니다.
 
-또한, 메인넷, 테스트넷, regtest에 대한 Zcash 체인 데이터를 시작, 캐시 및 로드할 수 있는 도구를 제공하는 것 외에도 zcash-local-net은 lightwalletd와 Zaino의 모든 Lightwallet RPC 서비스에서 기능을 비교하는 일련의 테스트를 포함합니다. 이러한 테스트는 Zaino에서 직접 실행할 수 있습니다(예: [https://github.com/zingolabs/zaino/blob/dev/docs/testing.md](https://github.com/zingolabs/zaino/blob/dev/docs/testing.md))로, Zaino에 호스팅된 Lightwallet RPC 서비스를 평가할 수 있습니다.
+Zcash 체인 데이터(mainnet, testnet 및 regtest용)를 시작, 캐시 및 로드하기 위한 도구를 제공하는 것 외에도, zcash-local-net에는 모든 Lightwallet RPC 서비스에서 lightwalletd 및 Zaino의 기능을 비교하기 위한 일련의 테스트가 포함되어 있습니다. 이러한 테스트는 Zaino에서 직접 실행할 수 있습니다(Zaino에서 호스팅되는 Lightwallet RPC 서비스를 평가하려면 [https://.com/zingolabs/zaino/blob/dev/docs/testing.md](https://github.com/zingolabs/zaino/blob/dev/docs/testing.md)) 참조).

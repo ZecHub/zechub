@@ -68,7 +68,7 @@ La pool schermata Orchard è stata attivata il 31 maggio 2022 come parte dell’
 
 Orchard ha migliorato significativamente usabilità, efficienza e privacy riducendo la perdita di metadati delle transazioni e introducendo un modello di transazione più flessibile basato su Action anziché sui tradizionali input e output schermati.
 
-Da quando l’aggiornamento Ironwood è stato attivato il 28 luglio 2026, **Orchard è solo per la spesa**. Nessun nuovo valore può entrare nella pool. I fondi già presenti possono ancora essere spesi e stanno migrando verso Ironwood attraverso il turnstile. I portafogli gestiscono questo processo per te, anche se la maggior parte ti offre un certo controllo sul ritmo.
+Da quando l’aggiornamento Ironwood è stato attivato il 28 luglio 2026, **Orchard è solo per la spesa**. Nessun nuovo valore può entrare nella pool. I fondi già presenti possono ancora essere spesi e stanno migrando verso Ironwood attraverso il turnstile (tornello). I portafogli gestiscono questo processo per te, anche se la maggior parte ti offre un certo controllo sul ritmo. Ogni trasferimento in uscita da Orchard mostra il proprio importo sulla blockchain, quindi il modo in cui un portafoglio suddivide e programma la migrazione è importante per la privacy.
 
 Se possiedi fondi in Orchard, vedi [Ironwood](/zcash-tech/ironwood) per capire cosa significa in pratica la migrazione.
 

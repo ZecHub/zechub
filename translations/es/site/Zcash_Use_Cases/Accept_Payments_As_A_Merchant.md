@@ -121,7 +121,7 @@ Ahora puedes:
 
 
 - [Billeteras](/wallets)
-- [Privacidad - Mejores prácticas](/start-here/who-can-see-your-zcash-payment)
+- [Quién puede ver tu Zcash pago](/start-here/who-can-see-your-zcash-payment)
 
 <br/>
 

@@ -5,7 +5,7 @@
 - Le tourniquet est une règle de comptabilité publique qui suit la quantité de valeur entrant et sortant de chaque pool blindé
 - Il permet à quiconque de vérifier qu’un pool ne verse jamais plus que ce qui y a été déposé, même si les transactions à l’intérieur sont privées
 - Cela protège l’offre de ZEC contre un bug caché, car des pièces contrefaites ne peuvent pas sortir d’un pool sans rompre le décompte
-- Il fonctionne sans affaiblir la confidentialité, puisque seuls les totaux des pools sont publics, jamais les transactions individuelles
+- Les paiements à l’intérieur d’un pool restent privés. Une transaction qui déplace ZEC entre des pools indique le montant qu’elle déplace
 - Le tourniquet est la raison pour laquelle la migration d’Orchard vers Ironwood peut prouver que l’offre blindée est saine
 
 <br/>
@@ -38,10 +38,10 @@ La règle est simple : un pool ne peut jamais laisser sortir plus de valeur qu�
 
 Zcash a connu plusieurs pools blindés au cours de son histoire, comme Sprout, Sapling et Orchard. La valeur circule entre la chaîne transparente et ces pools, et parfois aussi entre les pools eux-mêmes. Le tourniquet surveille ces mouvements :
 
-1. Quand des ZEC entrent dans un pool blindé, le montant est ajouté au solde public de ce pool
-2. Quand des ZEC sortent d’un pool, le montant est soustrait
+1. Lorsqu’ZEC entre dans un pool blindé, le montant est ajouté au solde public de ce pool
+2. Lorsqu’ZEC sort d’un pool, le montant est soustrait
 3. Le réseau rejette tout bloc qui rendrait le solde d’un pool négatif, ce qui signifierait qu’il en est sorti plus qu’il n’y est jamais entré
-4. Les transactions blindées individuelles restent entièrement privées ; seuls les totaux des pools sont publics
+4. Chaque transaction n’affiche que son flux net entrant ou sortant d’un pool, son solde de valeur. Pour un paiement au sein d’un même pool, il s’agit simplement des frais
 
 Le réseau suit ainsi un solde pour chaque pool de valeur, y compris Sprout, Sapling, Orchard, le nouveau pool Ironwood, ainsi que les soldes transparents et lockbox. Grâce à cela, même si le contenu exact d’un pool est caché, le maximum qui pourra jamais en sortir reste limité par ce qui y est entré. Aucune inflation cachée ne peut s’échapper dans la circulation.
 
@@ -71,7 +71,7 @@ D’abord, il compartimente le risque. Un bug cryptographique dans un pool reste
 
 Ensuite, il permet à la communauté de vérifier l’offre a posteriori. Si un bug est découvert plus tard, l’enregistrement du tourniquet montre si davantage de valeur a un jour quitté un pool qu’il n’en était entré. Un historique propre constitue une preuve solide qu’aucune contrefaçon n’a été exploitée.
 
-Enfin, il préserve la confidentialité tout en accomplissant tout cela. Seuls les totaux au niveau des pools sont publics. Vos transactions individuelles restent blindées. L’auditabilité et la confidentialité coexistent, ce qui est inhabituel et constitue l’une des forces discrètes de Zcash.
+Troisièmement, il préserve la confidentialité des paiements au sein d’un pool tout en accomplissant tout cela. Chaque transaction ne publie que son flux net entrant ou sortant d’un pool, ce qui, pour un paiement au sein d’un même pool, correspond simplement aux frais. Un transfert entre des pools, comme de Orchard vers Ironwood, affiche le montant qui les traverse. L’auditabilité et la confidentialité coexistent, ce qui est inhabituel et constitue l’une des forces discrètes de Zcash.
 
 <br/>
 
@@ -99,10 +99,10 @@ C’est la raison plus profonde pour laquelle le tourniquet compte au-delà de l
 
 ## Idées reçues courantes
 
-- Le tourniquet ne révèle pas vos transactions. Il ne comptabilise que les totaux des pools, pas qui a envoyé quoi à qui
-- Il n’identifie pas un contrefacteur par son nom. Il limite la quantité qui peut sortir d’un pool, ce qui est ce qui protège l’offre
+- Le tourniquet ne révèle pas qui a envoyé quoi à qui. Il montre toutefois le montant de toute transaction qui déplace ZEC entre les pools
+- Il n’identifie pas un contrefacteur par son nom. Il limite la quantité qui peut sortir d’un pool, ce qui protège l’offre
 - Ce n’est pas une nouvelle invention pour Ironwood. Il a protégé chaque grande transition entre pools blindés dans l’histoire de Zcash
-- Un total public de pool n’affaiblit pas la confidentialité. La confidentialité se trouve dans les transactions à l’intérieur du pool, qui restent cachées
+- Un total public de pool n’affaiblit pas la confidentialité des paiements à l’intérieur du pool. Le déplacement de ZEC entre les pools révèle le montant déplacé, c’est pourquoi ZIP 318 demande aux portefeuilles de migrer progressivement par montants standard
 
 <br/>
 

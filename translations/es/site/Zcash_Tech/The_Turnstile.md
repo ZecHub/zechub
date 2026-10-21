@@ -5,7 +5,7 @@
 - El torniquete es una regla pública de contabilidad que rastrea cuánto valor entra y sale de cada pool blindado
 - Permite que cualquiera verifique que un pool nunca paga más de lo que recibió, aunque las transacciones dentro de él sean privadas
 - Esto protege el suministro de ZEC frente a un bug oculto, porque las monedas falsificadas no pueden salir de un pool sin romper el conteo
-- Funciona sin debilitar la privacidad, ya que solo los totales del pool son públicos, nunca las transacciones individuales
+- Los pagos dentro de un pool siguen siendo privados. Una transacción que mueve ZEC entre pools muestra la cantidad que mueve
 - El torniquete es la razón por la que la migración de Orchard a Ironwood puede demostrar que el suministro blindado es sólido
 
 <br/>
@@ -41,7 +41,7 @@ Zcash ha tenido varios pools blindados a lo largo de su historia, como Sprout, S
 1. Cuando ZEC entra en un pool blindado, la cantidad se suma al saldo público de ese pool
 2. Cuando ZEC sale de un pool, la cantidad se resta
 3. La red rechaza cualquier bloque que hiciera que el saldo de un pool fuera negativo, lo que significaría que salió más de lo que alguna vez entró
-4. Las transacciones blindadas individuales siguen siendo totalmente privadas; solo los totales del pool son públicos
+4. Cada transacción muestra únicamente su flujo neto hacia dentro o fuera de un pool, su saldo de valor. Para un pago dentro de un mismo pool, eso es solo la comisión
 
 La red rastrea de esta manera un saldo para cada pool de valor, incluidos Sprout, Sapling, Orchard, el nuevo pool Ironwood, y los saldos transparentes y de lockbox. Gracias a esto, incluso si el contenido exacto de un pool está oculto, el máximo que puede salir de él siempre está limitado por lo que entró. Ninguna inflación oculta puede escapar a la circulación.
 
@@ -71,7 +71,7 @@ Primero, compartimentaliza el riesgo. Un bug criptográfico en un pool queda con
 
 Segundo, permite a la comunidad verificar el suministro de forma retrospectiva. Si más adelante se descubre un bug, el registro del torniquete muestra si alguna vez salió más valor de un pool del que entró. Un historial limpio es una fuerte evidencia de que no se explotó ninguna falsificación.
 
-Tercero, preserva la privacidad mientras hace todo esto. Solo los totales a nivel de pool son públicos. Tus transacciones individuales siguen blindadas. La auditabilidad y la privacidad coexisten, lo cual es inusual y es una de las fortalezas silenciosas de Zcash.
+Tercero, mantiene privados los pagos dentro de un pool mientras hace todo esto. Cada transacción publica únicamente su flujo neto hacia dentro o fuera de un pool, que para un pago dentro de un mismo pool es solo la comisión. Una transferencia entre pools, como de Orchard a Ironwood, muestra la cantidad que cruza. La auditabilidad y la privacidad coexisten, lo cual es inusual y es una de las fortalezas silenciosas de Zcash.
 
 <br/>
 
@@ -99,10 +99,10 @@ Esta es la razón más profunda por la que el torniquete importa más allá de l
 
 ## Malentendidos comunes
 
-- El torniquete no revela tus transacciones. Solo contabiliza los totales del pool, no quién envió qué a quién
+- El torniquete no revela quién envió qué a quién. Sí muestra el monto de cualquier transacción que mueve ZEC entre pools
 - No atrapa a un falsificador por nombre. Limita cuánto puede salir de un pool, y eso es lo que protege el suministro
 - No es una invención nueva para Ironwood. Ha protegido cada gran transición de pools blindados en la historia de Zcash
-- Un total público del pool no debilita la privacidad. La privacidad está en las transacciones dentro del pool, que permanecen ocultas
+- Un total público del pool no debilita la privacidad de los pagos dentro del pool. Mover ZEC entre pools muestra el monto transferido, por lo que ZIP 318 pide a las wallets migrar en montos estándar con el tiempo
 
 <br/>
 

@@ -124,14 +124,14 @@ Zcash와 관련된 핵심 용어, 개념, 리소스를 종합적으로 정리한
 
 ## N
 
-| Term | Definition |
+| 용어 | 정의 |
 |------|-----------|
 | Network Sustainability Mechanism (NSM) | 프로토콜의 장기적인 보안 예산이 전적으로 발행량에만 의존하지 않도록 거래 수수료의 일부를 소각하자는 Shielded Labs의 제안입니다. ZIP 234에 명시되어 있으며, 2026년에 검토 중입니다. |
 | Nighthawk | Zcash용 모바일 지갑입니다. [웹사이트](https://nighthawkwallet.com) |
 | Noir Wallet | Zcash Community Grants의 지원을 받는 Zcash 브라우저 확장 지갑으로, QR 코드와 수동 전송에 의존하는 대신 shielded ZEC를 브라우저 애플리케이션에 직접 연결하도록 구축되었습니다. [zknoir.com](https://www.zknoir.com/) |
 | NU5 | Orchard shielded 풀과 Unified Addresses를 도입한 Zcash의 여섯 번째 주요 네트워크 업그레이드입니다. [자세히 보기](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#nu5) |
 | NU6 | Zcash Community Grants 프로그램과 지연된 개발자 기금 락박스에 자금을 지원하기 위해 블록 보조금을 조정한 Zcash의 일곱 번째 주요 네트워크 업그레이드입니다. 2024년 말에 활성화되었습니다. [자세히 보기](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#nu6) |
-| NU7 | Ironwood 이후의 다음 주요 네트워크 업그레이드입니다. 후보 기능에는 Project Tachyon의 확장성 작업, Zcash Shielded Assets, 그리고 Network Sustainability Mechanism이 포함됩니다. |
+| NU7 | Ironwood 이후의 네트워크 업그레이드로, 2026년 11월 5일 메인넷 적용을 목표로 합니다. [ZIP 259](https://zips.z.cash/zip-0259)에 따르면, 25초 블록(ZIP 218), 수수료 재순환을 포함한 Network Sustainability Mechanism(ZIP 235 및 237), 그리고 버전 4 거래의 종료를 도입하며, 이로 인해 Sprout 자금은 사용할 수 없게 됩니다(ZIP 2003). 새로운 거래 형식은 추가하지 않으며, Tachyon 및 Zcash Shielded Assets는 여기에 포함되지 않습니다. |
 
 ## O
 

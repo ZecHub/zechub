@@ -4,8 +4,8 @@
 
 - Il turnstile (tornello) è una regola contabile pubblica che tiene traccia di quanto valore entra ed esce da ogni pool schermata
 - Permette a chiunque di verificare che una pool non paghi mai più di quanto vi è stato immesso, anche se le transazioni al suo interno sono private
-- Questo protegge l'offerta di ZEC da un bug nascosto, perché monete contraffatte non possono uscire da una pool senza alterare il conteggio
-- Funziona senza indebolire la privacy, poiché solo i totali delle pool sono pubblici, mai le singole transazioni
+- Questo protegge la quantità di ZEC nelle pool schermate da un bug nascosto, perché monete contraffatte non possono uscire da una pool senza alterare il conteggio
+- I pagamenti all'interno di una pool restano privati. Una transazione che sposta ZEC tra le pool mostra l'importo che sposta
 - Il turnstile è il motivo per cui la migrazione da Orchard a Ironwood può dimostrare che la quantità di ZEC nelle pool schermate è solida
 
 <br/>
@@ -41,7 +41,7 @@ Zcash ha avuto diverse pool schermate nel corso della sua storia, come Sprout, S
 1. Quando ZEC entra in una pool schermata, l'importo viene aggiunto al saldo pubblico di quella pool
 2. Quando ZEC esce da una pool, l'importo viene sottratto
 3. La rete rifiuta qualsiasi blocco che renderebbe negativo il saldo di una pool, cioè quando è uscito più valore di quanto ne sia mai entrato
-4. Le singole transazioni schermate restano completamente private, solo i totali delle pool sono pubblici
+4. Ogni transazione mostra solo il suo flusso netto in entrata o in uscita da una pool, il suo saldo di valore. Per un pagamento all'interno di una sola pool, si tratta semplicemente della commissione
 
 La rete tiene traccia in questo modo di un saldo per ogni pool di valore, inclusi Sprout, Sapling, Orchard, la nuova pool Ironwood, e i saldi trasparenti e lockbox. Grazie a questo, anche se il contenuto esatto di una pool è nascosto, il massimo che potrà mai uscirne è limitato da ciò che vi è entrato. Nessuna inflazione nascosta può sfuggire ed entrare in circolazione.
 
@@ -71,7 +71,7 @@ Primo, compartimentalizza il rischio. Un bug crittografico in una pool resta con
 
 Secondo, permette alla comunità di verificare l'offerta retrospettivamente. Se in seguito viene scoperto un bug, il registro del turnstile mostra se da una pool sia mai uscito più valore di quanto vi sia entrato. Un registro pulito è una forte prova del fatto che nessuna contraffazione sia stata sfruttata.
 
-Terzo, preserva la privacy mentre fa tutto questo. Solo i totali a livello di pool sono pubblici. Le tue singole transazioni restano schermate. Verificabilità e privacy coesistono, cosa insolita ed è uno dei punti di forza silenziosi di Zcash.
+Terzo, mantiene privati i pagamenti all'interno di una pool mentre fa tutto questo. Ogni transazione pubblica solo il proprio flusso netto in entrata o in uscita da una pool, che per un pagamento all'interno della stessa pool è solo la commissione. Un trasferimento tra pool, ad esempio da Orchard a Ironwood, mostra l'importo che attraversa le pool. Verificabilità e privacy coesistono, cosa insolita e uno dei punti di forza silenziosi di Zcash.
 
 <br/>
 
@@ -99,10 +99,10 @@ Questa è la ragione più profonda per cui il turnstile conta, oltre alla sempli
 
 ## Idee sbagliate comuni
 
-- Il turnstile non rivela le tue transazioni. Si limita a contabilizzare i totali delle pool, non chi ha inviato cosa a chi
+- Il turnstile (tornello) non rivela chi ha inviato cosa a chi. Mostra però l'importo di qualsiasi transazione che sposta ZEC tra le pool
 - Non identifica nominalmente un falsario. Limita quanto può uscire da una pool, ed è questo che protegge l'offerta
 - Non è una nuova invenzione per Ironwood. Ha protetto ogni grande transizione tra pool schermate nella storia di Zcash
-- Un totale pubblico della pool non indebolisce la privacy. La privacy è nelle transazioni all'interno della pool, che restano nascoste
+- Un totale pubblico della pool non indebolisce la privacy dei pagamenti all'interno della pool. Spostare ZEC tra le pool mostra l'importo spostato, ed è per questo che ZIP 318 chiede ai portafogli di migrare gradualmente in importi standard
 
 <br/>
 
