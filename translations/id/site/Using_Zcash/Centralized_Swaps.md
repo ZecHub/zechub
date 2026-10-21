@@ -16,7 +16,7 @@ Tambahkan, edit, atau hapus blok di sini; wiki akan mengambilnya dari file ini.
 - Website: https://letsexchange.io/
 - Deskripsi: Sebuah hub exchange kripto dengan 4.500+ mata uang kripto, likuiditas yang dalam, cross-chain swap, on- & off-ramp, DEX, serta transaksi yang cepat dan aman.
 
-Please provide the Markdown fragment you would like me to translate. I am ready to begin the localization process according to your instructions.
+___
 
 ### NEAR Intents
 
@@ -25,7 +25,7 @@ Please provide the Markdown fragment you would like me to translate. I am ready 
 - Website: https://app.near-intents.org/
 - Deskripsi: Exchange cepat dengan dukungan NEAR. Lakukan deposit, jual, dan swap termasuk token meme populer seperti TRUMP, MELANIA, BERA, dan lainnya
 
-Please provide the Markdown fragment you would like me to translate. I am ready to begin the localization process following all your specified rules and terminology.
+___
 
 ### ShapeShift
 
@@ -34,7 +34,7 @@ Please provide the Markdown fragment you would like me to translate. I am ready 
 - Situs web: https://private.shapeshift.com/
 - Deskripsi: Dompet Kamu. Satu Aplikasi. Peluang Tanpa Batas · Tukarkan Bitcoin, Ethereum, dan lainnya dengan kurs terbaik di berbagai DEX dan agregator terkemuka
 
-Please provide the Markdown fragment you would like me to translate. I am ready to begin the localization process according to your specific rules and terminology.
+___
 
 ### Stealth EX
 
@@ -43,7 +43,7 @@ Please provide the Markdown fragment you would like me to translate. I am ready 
 - Website: https://stealthex.io/
 - Deskripsi: StealthEX adalah exchange cryptocurrency instan untuk swap tanpa batas yang layanannya bebas dari registrasi dan tidak menyimpan dana pengguna di dalam platform. StealthEX adalah tempat terbaik untuk membeli cryptocurrency.
 
-Please provide the Markdown fragment you would like me to translate. I am ready to begin the localization process according to your specific rules and terminology.
+___
 
 ### Changelly
 
@@ -52,7 +52,7 @@ Please provide the Markdown fragment you would like me to translate. I am ready 
 - Website: https://changelly.com/
 - Deskripsi: Changelly adalah crypto coin exchange dengan eksekusi instan yang sangat dikenal karena biayanya yang terendah di industri, hingga hanya 0,25% pada crypto exchanges. Ini juga memenuhi definisi sebagai crypto exchange yang paling serbaguna.
 
-Please provide the Markdown fragment you would like me to translate. I am ready to begin once you share the content.
+___
 
 ### flyp.me
 
@@ -61,7 +61,7 @@ Please provide the Markdown fragment you would like me to translate. I am ready 
 - Website: https://flyp.me/en/#/
 - Deskripsi: Penukar tanpa akun flyp.me dan FYP Token lahir untuk melindungi privasi, mempromosikan desentralisasi, mendukung kepemilikan akar rumput, dan membina komunitas yang percaya pada konsensus.
 
-Please provide the Markdown fragment you would like me to translate. I am ready to begin once you provide the content.
+___
 
 ### Exolix
 
@@ -70,7 +70,7 @@ Please provide the Markdown fragment you would like me to translate. I am ready 
 - Website: https://exolix.com
 - Deskripsi: Tukarkan 1311+ crypto secara instan, dengan kurs terbaik dan tanpa registrasi
 
-Please provide the Markdown fragment you would like me to translate. I am ready to begin once you share the content.
+___
 
 ### Trocodor
 
@@ -79,7 +79,7 @@ Please provide the Markdown fragment you would like me to translate. I am ready 
 - Website: https://trocador.app/
 - Deskripsi: Tukarkan Cryptocurrency Secara Anonim. Cepat. Aman. Tanpa Birokrasi. Tersedia Kartu Debit Prabayar.
 
-Please provide the Markdown fragment you would like me to translate. I am ready to begin the localization process according to your instructions.
+___
 
 ### Bison Wallet
 
@@ -88,7 +88,7 @@ Please provide the Markdown fragment you would like me to translate. I am ready 
 - Website: https://dex.decred.org/
 - Deskripsi: Tukarkan crypto secara peer to peer. Tanpa biaya trading. Tanpa KYC. Decentralised Exchange yang dibangun oleh Decred Project.
 
-Please provide the Markdown fragment you would like me to translate. I am ready to begin once you input the text.
+___
 
 ### Firo DEX
 
@@ -97,7 +97,7 @@ Please provide the Markdown fragment you would like me to translate. I am ready 
 - Website: https://github.com/firoorg/FiroDEX-Desktop
 - Deskripsi: Swap terdesentralisasi tanpa kepercayaan menggunakan atomic swap dengan FiroDEX!.
 
-Please provide the Markdown fragment you would like me to translate. I am ready to begin once you provide the content.
+___
 
 ### Changenow
 
@@ -106,7 +106,7 @@ Please provide the Markdown fragment you would like me to translate. I am ready 
 - Website: https://changenow.io/?from=usdterc20&to=zec
 - Deskripsi: Limitless WEB 3 Crypto Exchange – Sederhana, Cepat, Tanpa Kustodial.
 
-Please provide the Markdown fragment you would like me to translate. I am ready to begin once you provide the content.
+___
 
 ### Fixed Float
 
@@ -115,7 +115,7 @@ Please provide the Markdown fragment you would like me to translate. I am ready 
 - Website: https://ff.io
 - Deskripsi: Exchange cryptocurrency instan dan sepenuhnya otomatis dengan Lightning Network.
 
-Please provide the Markdown fragment you would like me to translate. I am ready to begin the localization process following all your specified rules and terminology.
+___
 
 ### Xchange
 
@@ -124,7 +124,7 @@ Please provide the Markdown fragment you would like me to translate. I am ready 
 - Website: https://xchange.me/
 - Deskripsi: Exchange Cryptocurrency Anonim, murah, andal, AlwaysOnTime dan tanpa registrasi apa pun. Mirror Tor khusus tersedia.
 
-Please provide the Markdown fragment you would like me to translate. I am ready to begin as soon as you provide the content.
+___
 
 ### BitcoinVN
 
@@ -133,7 +133,7 @@ Please provide the Markdown fragment you would like me to translate. I am ready 
 - Website: https://bitcoinvn.io/?deposit=xmr&settle=zec/
 - Deskripsi: Exchange Bitcoin & Cryptocurrency Instan di Vietnam. Beli, jual, atau swap di antara 80 aset termasuk VND, BTC, XMR, USDT, ETH, BCH, SOL
 
-Please provide the Markdown fragment you would like me to translate. I am ready to begin once you provide the content.
+___
 
 ### LeoDex
 

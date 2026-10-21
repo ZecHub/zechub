@@ -86,7 +86,7 @@ zallet rpc getrawtransaction '"<txid>"' [verbose] ['"<blockhash>"']
 zallet rpc getwalletinfo
 ```
 
-Please provide the Markdown fragment you would like me to translate. I am ready to begin as soon as you provide the content.
+Tidak ada parameter.
 
 ---
 
@@ -96,7 +96,7 @@ Please provide the Markdown fragment you would like me to translate. I am ready 
 zallet rpc getwalletstatus
 ```
 
-Please provide the Markdown fragment you would like me to translate. I am ready to begin once you provide the content.
+Tidak ada parameter.
 
 ---
 
@@ -106,7 +106,7 @@ Please provide the Markdown fragment you would like me to translate. I am ready 
 zallet rpc listaddresses
 ```
 
-Please provide the Markdown fragment you would like me to translate. I am ready to begin once you provide the content.
+Tidak ada parameter.
 
 ---
 
@@ -162,7 +162,7 @@ zallet rpc verifymessage '"<address>"' '"<signature>"' '"<message>"'
 zallet rpc walletlock
 ```
 
-Please provide the Markdown fragment you would like me to translate. I am ready to begin according to your instructions.
+Tidak ada parameter.
 
 ---
 

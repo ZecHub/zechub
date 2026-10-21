@@ -30,7 +30,7 @@ nix profile install git+https://code.vergara.tech/Vergara_Tech/zenith?ref=master
 
 `zenithgui`
 
-Please provide the Markdown fragment you would like me to translate. I am ready to begin the localization process following all your specified rules and terminology.
+atau
 
 `zenithserver`
 

@@ -65,7 +65,7 @@ Singkatnya, apa yang paling penting adalah mengurangi atau menghilangkan kebocor
 </a>
 
 
-Please provide the Markdown fragment you would like me to translate. I am ready to begin the localization process according to your instructions.
+____
 
 ***Tautan Referensi***
 

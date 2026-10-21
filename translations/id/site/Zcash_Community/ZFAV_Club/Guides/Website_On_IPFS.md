@@ -57,7 +57,7 @@ Pilih folder yang berisi file situs web Anda dan navigasikan ke opsi Tambahkan F
 
 ![](/content-images/ipfs-site-folder-2c96524d98.webp)
 
-Please provide the Markdown fragment you would like me to translate. I am ready to begin the localization process following all your specified rules and terminology.
+--
 
 Jika menggunakan Terminal, Jalankan perintah: <mark>ipfs add -r "folder_name"</mark> untuk menambahkan seluruh folder secara rekursif ke IPFS.
 
@@ -66,7 +66,7 @@ Jika menggunakan Terminal, Jalankan perintah: <mark>ipfs add -r "folder_name"</m
 
 Setelah file situs web Anda ditambahkan ke IPFS, Anda perlu melakukan **pin** pada file tersebut untuk memastikan file tetap tersedia di jaringan.
 
-Please provide the Markdown fragment you would like me to translate. I am ready to begin according to your instructions.
+--
 
 Jika menggunakan Terminal, Jalankan perintah: Jika menggunakan Terminal, Jalankan perintah: <mark>ipfs pin add "hash"</mark>
 
@@ -77,7 +77,7 @@ Sebagai alternatif, Anda juga dapat menyematkan direktori menggunakan layanan se
 
 Ini sangat menghemat banyak waktu!
 
-Please provide the Markdown fragment you would like me to translate. I am ready to begin the localization process following all your specified rules and terminology.
+--
 
 ### Akses situs web Anda di IPFS:
 
