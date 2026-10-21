@@ -5,7 +5,7 @@
 - The turnstile is a public accounting rule that tracks how much value enters and leaves each shielded pool
 - It lets anyone verify that a pool never pays out more than was put into it, even though the transactions inside are private
 - This protects the ZEC supply from a hidden bug, because counterfeit coins cannot leave a pool without breaking the count
-- It works without weakening privacy, since only pool totals are public, never individual transactions
+- Payments inside a pool stay private. A transaction that moves ZEC between pools shows the amount it moves
 - The turnstile is the reason the Orchard to Ironwood migration can prove the shielded supply is sound
 
 <br/>
@@ -41,7 +41,7 @@ Zcash has several shielded pools over its history, such as Sprout, Sapling, and 
 1. When ZEC moves into a shielded pool, the amount is added to that pool's public balance
 2. When ZEC moves out of a pool, the amount is subtracted
 3. The network rejects any block that would make a pool's balance go negative, meaning more has left than ever entered
-4. Individual shielded transactions stay fully private, only the pool totals are public
+4. Each transaction shows only its net flow into or out of a pool, its value balance. For a payment inside one pool, that is just the fee
 
 The network tracks a balance for every value pool this way, including Sprout, Sapling, Orchard, the new Ironwood pool, and the transparent and lockbox balances. Because of this, even if the exact contents of a pool are hidden, the maximum that can ever come out is capped by what went in. No hidden inflation can escape into circulation.
 
@@ -71,7 +71,7 @@ First, it compartmentalizes risk. A cryptographic bug in one pool is contained t
 
 Second, it lets the community verify the supply in retrospect. If a bug is later discovered, the turnstile record shows whether more value ever left a pool than entered it. A clean record is strong evidence that no counterfeiting was exploited.
 
-Third, it preserves privacy while doing all of this. Only pool-level totals are public. Your individual transactions remain shielded. Auditability and privacy coexist, which is unusual and is one of Zcash's quiet strengths.
+Third, it keeps payments inside a pool private while doing all of this. Each transaction publishes only its net flow into or out of a pool, which for a payment inside one pool is just the fee. A transfer between pools, such as from Orchard to Ironwood, shows the amount that crosses. Auditability and privacy coexist, which is unusual and is one of Zcash's quiet strengths.
 
 <br/>
 
@@ -99,10 +99,10 @@ This is the deeper reason the turnstile matters beyond simple accounting. It is 
 
 ## Common misconceptions
 
-- The turnstile does not reveal your transactions. It only tallies pool totals, not who sent what to whom
+- The turnstile does not reveal who sent what to whom. It does show the amount of any transaction that moves ZEC between pools
 - It does not catch a counterfeiter by name. It caps how much can leave a pool, which is what protects the supply
 - It is not a new invention for Ironwood. It has guarded every major shielded pool transition in Zcash history
-- A public pool total does not weaken privacy. The privacy is in the transactions inside the pool, which stay hidden
+- A public pool total does not weaken privacy for payments inside the pool. Moving ZEC between pools shows the amount moved, which is why ZIP 318 asks wallets to migrate in standard amounts over time
 
 <br/>
 
