@@ -7,6 +7,13 @@
 // translation/model-replies.json (shared with the translation runner); the
 // matching rules are in translation/lib/model-replies.mjs.
 //
+// Second test, for replies in the TARGET language (idea from @chairulakmal):
+// a block with nothing to translate ("---", a lone HTML tag, a heading of one
+// or two characters) must come through unchanged; text in its place is
+// reported. It compares against the English the page was translated from
+// (src_commit in translation/sync-state.json), so a stale but correct
+// translation does not misalign; the current English is the fallback.
+//
 // Scope (--base): only translation pages this change added, modified or
 // renamed, and only lines the page did not already have at the merge base.
 // A reply already on main is a notice, so it does not fail an unrelated PR
@@ -20,7 +27,7 @@ import { execFileSync } from "node:child_process";
 import { existsSync, readdirSync, readFileSync, statSync } from "node:fs";
 import { join } from "node:path";
 
-import { findModelReplies, loadPatterns } from "../translation/lib/model-replies.mjs";
+import { findModelReplies, findReplacedAnchors, loadPatterns } from "../translation/lib/model-replies.mjs";
 
 const root = process.cwd();
 const git = (args) => execFileSync("git", args, { cwd: root, encoding: "utf8", maxBuffer: 64 * 1024 * 1024, stdio: ["ignore", "pipe", "pipe"] });
@@ -92,13 +99,37 @@ if (base) {
   pages = walk("translations").filter((p) => source(p));
 }
 
+// English the page was translated from: sync-state's src_commit at <rev>.
+const stateAt = new Map();
+function syncState(rev) {
+  if (!stateAt.has(rev)) {
+    let st = {};
+    try { st = JSON.parse(rev ? showAt(rev, "translation/sync-state.json") ?? "{}" : readFileSync(join(root, "translation/sync-state.json"), "utf8")); }
+    catch { /* no state: fall back to the current English */ }
+    stateAt.set(rev, st);
+  }
+  return stateAt.get(rev);
+}
+function englishFor(tr, rev, fallback) {
+  const p = tr.split("/");
+  const c = syncState(rev)?.[p[1]]?.[p.slice(3).join("/")]?.src_commit;
+  return (c && showAt(c, source(tr))) ?? fallback;
+}
+// Both tests can flag the same line; report it once (the English-opening hit).
+function findAll(trText, enText, enBase) {
+  const found = findModelReplies(trText, enText, patterns);
+  const seen = new Set(found.map((h) => h.line));
+  for (const h of findReplacedAnchors(trText, enBase)) if (!seen.has(h.line)) found.push(h);
+  return found.sort((x, y) => x.line - y.line);
+}
+
 const errors = [], inherited = [];
 let checked = 0;
 for (const tr of pages.sort()) {
   const src = source(tr);
   const srcAbs = join(root, src);
   const enText = existsSync(srcAbs) && statSync(srcAbs).isFile() ? readFileSync(srcAbs, "utf8") : "";
-  const found = findModelReplies(readFileSync(join(root, tr), "utf8"), enText, patterns);
+  const found = findAll(readFileSync(join(root, tr), "utf8"), enText, englishFor(tr, null, enText));
   checked++;
   if (!found.length) continue;
   // Lines the page already carried at the base are inherited, matched by text
@@ -108,7 +139,7 @@ for (const tr of pages.sort()) {
     const oldTr = renamedFrom.get(tr) ?? tr;
     const bTr = showAt(mergeBase, oldTr);
     const bEn = showAt(mergeBase, source(oldTr) ?? src) ?? "";
-    if (bTr !== null) for (const h of findModelReplies(bTr, bEn, patterns)) before.set(h.text, (before.get(h.text) ?? 0) + 1);
+    if (bTr !== null) for (const h of findAll(bTr, bEn, englishFor(oldTr, mergeBase, bEn))) before.set(h.text, (before.get(h.text) ?? 0) + 1);
   }
   for (const h of found) {
     const n = before.get(h.text) ?? 0;
@@ -117,7 +148,10 @@ for (const tr of pages.sort()) {
   }
 }
 
-const msg = (h) => `this line is a model's reply about the translation request (${h.id}), not a translation: "${h.text.slice(0, 120)}${h.text.length > 120 ? "…" : ""}". Copy the English line if it has no text to translate (a separator, a single letter), or translate it.`;
+const quote = (t) => `"${t.slice(0, 120)}${t.length > 120 ? "…" : ""}"`;
+const msg = (h) => h.english
+  ? `the English has "${h.english}" here, which has nothing to translate, but the translation has text in its place: ${quote(h.text)}. This is usually a model's reply about the request, in the target language. Put "${h.english}" back.`
+  : `this line is a model's reply about the translation request (${h.id}), not a translation: ${quote(h.text)}. Copy the English line if it has no text to translate (a separator, a single letter), or translate it.`;
 for (const e of errors) {
   if (annotate) console.log(`::error file=${e.tr},line=${e.line},title=model reply::${msg(e)}`);
   else console.log(`${e.tr}:${e.line}: error: ${msg(e)}`);

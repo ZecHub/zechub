@@ -132,7 +132,10 @@ jobs:
       # Indonesian pages and 5 in a Turkish one reached main with every other
       # gate green, because the line is valid Markdown in a Latin script
       # (#2467). The openings are listed in translation/model-replies.json,
-      # which the translation runner reads too. Same scope rule as numbers:
+      # which the translation runner reads too. Replies in the target language
+      # are caught structurally: a "---", a lone HTML tag or a one/two
+      # character heading in the English must come through unchanged.
+      # Same scope rule as numbers:
       # translated pages the PR changes, replies already at the base are a
       # notice.
       - name: Model replies on changed translations
