@@ -12,7 +12,10 @@
 // or two characters) must come through unchanged; text in its place is
 // reported. It compares against the English the page was translated from
 // (src_commit in translation/sync-state.json), so a stale but correct
-// translation does not misalign; the current English is the fallback.
+// translation does not misalign. When that English cannot be read (no
+// src_commit, a shallow clone, a source renamed since), the structural test is
+// skipped for the page with a notice; it never falls back to the current
+// English, which may have gained a rule the translation rightly lacks.
 //
 // Scope (--base): only translation pages this change added, modified or
 // renamed, and only lines the page did not already have at the merge base.
@@ -110,14 +113,25 @@ function syncState(rev) {
   }
   return stateAt.get(rev);
 }
-function englishFor(tr, rev, fallback) {
+// null when it cannot be read; `alias` is the page's name before a rename.
+function englishFor(tr, rev, alias) {
   const p = tr.split("/");
-  const c = syncState(rev)?.[p[1]]?.[p.slice(3).join("/")]?.src_commit;
-  return (c && showAt(c, source(tr))) ?? fallback;
+  const st = syncState(rev)?.[p[1]] ?? {};
+  for (const name of alias && alias !== tr ? [tr, alias] : [tr]) {
+    const q = name.split("/");
+    const c = st[q.slice(3).join("/")]?.src_commit ?? st[p.slice(3).join("/")]?.src_commit;
+    if (!c) continue;
+    const text = showAt(c, source(name));
+    if (text !== null) return text;
+  }
+  return null;
 }
+const noBaseline = new Set();
 // Both tests can flag the same line; report it once (the English-opening hit).
-function findAll(trText, enText, enBase) {
-  const found = findModelReplies(trText, enText, patterns);
+// A line either English contains (current or src_commit) is a quote, not a reply.
+function findAll(trText, enText, enBase, tr) {
+  const found = findModelReplies(trText, enBase ? `${enText}\n${enBase}` : enText, patterns);
+  if (enBase === null) { if (tr) noBaseline.add(tr); return found; }
   const seen = new Set(found.map((h) => h.line));
   for (const h of findReplacedAnchors(trText, enBase)) if (!seen.has(h.line)) found.push(h);
   return found.sort((x, y) => x.line - y.line);
@@ -129,7 +143,7 @@ for (const tr of pages.sort()) {
   const src = source(tr);
   const srcAbs = join(root, src);
   const enText = existsSync(srcAbs) && statSync(srcAbs).isFile() ? readFileSync(srcAbs, "utf8") : "";
-  const found = findAll(readFileSync(join(root, tr), "utf8"), enText, englishFor(tr, null, enText));
+  const found = findAll(readFileSync(join(root, tr), "utf8"), enText, englishFor(tr, null, renamedFrom.get(tr)), tr);
   checked++;
   if (!found.length) continue;
   // Lines the page already carried at the base are inherited, matched by text
@@ -139,7 +153,7 @@ for (const tr of pages.sort()) {
     const oldTr = renamedFrom.get(tr) ?? tr;
     const bTr = showAt(mergeBase, oldTr);
     const bEn = showAt(mergeBase, source(oldTr) ?? src) ?? "";
-    if (bTr !== null) for (const h of findAll(bTr, bEn, englishFor(oldTr, mergeBase, bEn))) before.set(h.text, (before.get(h.text) ?? 0) + 1);
+    if (bTr !== null) for (const h of findAll(bTr, bEn, englishFor(oldTr, mergeBase))) before.set(h.text, (before.get(h.text) ?? 0) + 1);
   }
   for (const h of found) {
     const n = before.get(h.text) ?? 0;
@@ -160,6 +174,12 @@ if (inherited.length) {
   console.log(`\nnotice: ${inherited.length} model reply line(s) on the changed pages were already there at the base; not caused by this change, cheap to fix while you are in the file:`);
   for (const h of inherited.slice(0, 10)) console.log(`  - ${h.tr}:${h.line}: ${h.text.slice(0, 80)}`);
   if (inherited.length > 10) console.log(`  ... and ${inherited.length - 10} more`);
+}
+
+if (noBaseline.size) {
+  console.log(`\nnotice: the English these ${noBaseline.size} page(s) were translated from could not be read (no src_commit in translation/sync-state.json, a shallow clone, or a renamed source), so only the reply openings were checked on them:`);
+  for (const p of [...noBaseline].slice(0, 5)) console.log(`  - ${p}`);
+  if (noBaseline.size > 5) console.log(`  ... and ${noBaseline.size - 5} more`);
 }
 
 const scope = mergeBase ? `${checked} changed translated page(s)` : `${checked} translated page(s)`;

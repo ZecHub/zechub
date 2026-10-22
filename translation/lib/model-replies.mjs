@@ -95,6 +95,7 @@ export function findModelReplies(trText, enText = "", patterns = loadPatterns())
 // not line up.
 
 // "hr:---", "html:img", "html:/div", "h:## B", or null for a normal line.
+// (A setext heading "B\n---" is a two-line block; see setextAnchor.)
 export function anchorKey(line) {
   const t = line.trim();
   if (/^(?:-{3,}|\*{3,}|_{3,})$/.test(t)) return "hr:" + t;
@@ -121,8 +122,17 @@ export function splitBlocks(text) {
   return out;
 }
 
+// "B\n---" / "B\n===": a setext heading of one or two characters.
+function setextAnchor(lines) {
+  if (lines.length !== 2 || !/^(?:=+|-+)$/.test(lines[1].trim())) return null;
+  const t = lines[0].trim();
+  return t && [...t].length <= 2 ? `h:setext:${t}` : null;
+}
+
 function blockKey(b) {
   if (b.lines.length === 1) { const a = anchorKey(b.lines[0]); if (a) return a; }
+  const sx = setextAnchor(b.lines);
+  if (sx) return sx;
   const f = b.lines[0].trim();
   if (/^(```|~~~)/.test(f)) return "code";
   const h = f.match(/^(#{1,6})\s/);
@@ -144,10 +154,25 @@ export function findReplacedAnchors(trText, enText) {
   const a = E.map(blockKey), b = T.map(blockKey);
   if (!a.some(isAnchorKey)) return [];
   const n = a.length, m = b.length;
-  // Weighted LCS over block keys (pages are a few hundred blocks at most). A
-  // pair of same-kind blocks scores 1, plus up to 1 when their lengths are
-  // alike, so a paragraph pairs with its translation rather than with the
-  // short reply that sits next to it.
+  const found = [];
+  const report = (ei, tj) => {
+    const tb = T[tj];
+    const anchor = E[ei].lines.map((l) => l.trim()).join("\n");
+    // The rule kept, with the next line glued to it ("---\n## Glossary").
+    if (E[ei].lines.length === 1 && (tb.lines[0].trim() === anchor || tb.lines.at(-1).trim() === anchor)) return;
+    const text = tb.lines.map((l) => l.trim()).join(" ");
+    found.push({ line: tb.start, id: `replaced-${a[ei].split(":")[0]}`, text, english: anchor });
+  };
+  // Same number of blocks: the usual case, and the one a reply produces (it
+  // takes the anchor's place one for one). Pair blocks in order.
+  if (n === m) {
+    a.forEach((k, i) => { if (isAnchorKey(k) && !isAnchorKey(b[i])) report(i, i); });
+    return found;
+  }
+  // Otherwise (a block merged or split somewhere) align by shape: weighted
+  // LCS over block keys (pages are a few hundred blocks at most). A pair of
+  // same-kind blocks scores 1, plus up to 1 when their lengths are alike, so a
+  // paragraph pairs with its translation rather than with a short reply.
   const len = (blk) => blk.lines.join(" ").length;
   const la = E.map(len), lb = T.map(len);
   const score = (i, j) => 1 + Math.min(la[i], lb[j]) / Math.max(la[i], lb[j], 1);
@@ -163,15 +188,6 @@ export function findReplacedAnchors(trText, enText) {
   }
   pairs.push([n, m]);
 
-  const found = [];
-  const report = (ei, tj) => {
-    const tb = T[tj];
-    const anchor = E[ei].lines[0].trim();
-    // The rule kept, with the next line glued to it ("---\n## Glossary").
-    if (tb.lines[0].trim() === anchor || tb.lines.at(-1).trim() === anchor) return;
-    const text = tb.lines.map((l) => l.trim()).join(" ");
-    found.push({ line: tb.start, id: `replaced-${a[ei].split(":")[0]}`, text, english: anchor });
-  };
   let pi = -1, pj = -1;
   for (const [i, j] of pairs) {
     const eg = [], tg = [];

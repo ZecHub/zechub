@@ -119,6 +119,18 @@ test("a reply next to a paragraph is the line reported, not the paragraph", () =
   assert.deepEqual(findReplacedAnchors(ru, en).map((x) => x.line), [5]);
 });
 
+test("setext headings, lone HTML tags and CRLF pages", () => {
+  const en = "# T\n\nIntro paragraph.\n\nB\n---\n\nBody text under B.\n\n<br>\n\nEnd.\n";
+  const tr = "# T\n\nВступление.\n\nПожалуйста, пришлите фрагмент.\n\nТекст под B.\n\n<br>\n\nКонец.\n";
+  assert.deepEqual(findReplacedAnchors(tr, en).map((x) => [x.line, x.english]), [[5, "B\n---"]]);
+  // A long setext heading is text to translate, not an anchor.
+  assert.deepEqual(findReplacedAnchors("# T\n\nОбзор\n---\n", "# T\n\nOverview\n---\n"), []);
+  const html = tr.replace("Пожалуйста, пришлите фрагмент.", "Б\n---").replace("<br>", "Bitte sende den Block.");
+  assert.deepEqual(findReplacedAnchors(html, en).map((x) => x.english), ["<br>"]);
+  const crlf = (t) => t.replace(/\n/g, "\r\n");
+  assert.deepEqual(findReplacedAnchors(crlf(tr), crlf(en)).map((x) => x.line), [5]);
+});
+
 // ---- the CLI, scoped the way CI runs it ----
 let repo;
 const CLEAN_ENV = Object.fromEntries(Object.entries(process.env).filter(([k]) => !/^GIT_/.test(k)));
@@ -209,5 +221,39 @@ test("the structural rule compares with the English the page was translated from
   const r = run("--base", "main");
   assert.equal(r.status, 1, r.out);
   assert.match(r.out, /node\.md:5: error: the English has "---" here/);
+  git("checkout", "-q", "main");
+});
+
+test("without a readable src_commit the structural test is skipped, never run on the current English", () => {
+  git("checkout", "-qb", "nostate");
+  // The current English gained a rule; the translation, made before, rightly lacks it.
+  w("site/gain.md", "# Gain\n\nFirst part.\n\n---\n\nSecond part.\n");
+  w("translations/de/site/gain.md", "# Gewinn\n\nErster Teil.\n\nZweiter Teil.\n");
+  commit("no src_commit for gain.md");
+  const r = run("--base", "main");
+  assert.equal(r.status, 0, r.out);
+  assert.match(r.out, /could not be read/);
+  git("checkout", "-q", "main");
+});
+
+test("a renamed page is compared with the English under its old name", () => {
+  git("checkout", "-qb", "rename");
+  const body = Array.from({ length: 12 }, (_, i) => `Paragraph ${i + 1} about the node and how it works.`).join("\n\n");
+  const deBody = Array.from({ length: 12 }, (_, i) => `Absatz ${i + 1} über den Knoten und wie er funktioniert.`).join("\n\n");
+  w("site/old.md", `# Old\n\n${body}\n\n---\n\n## Next\n`);
+  commit("english under the old name");
+  const v1 = git("rev-parse", "HEAD").trim();
+  git("mv", "site/old.md", "site/new.md");
+  w("translations/de/site/old.md", `# Alt\n\n${deBody}\n\n---\n\n## Weiter\n`);
+  w("translation/sync-state.json", JSON.stringify({ de: { "old.md": { src_commit: v1 } } }));
+  commit("translation of the old name");
+  const base = git("rev-parse", "HEAD").trim();
+  git("mv", "translations/de/site/old.md", "translations/de/site/new.md");
+  w("translations/de/site/new.md", `# Alt\n\n${deBody}\n\nBitte sende den neuen englischen Block.\n\n## Weiter\n`);
+  w("translation/sync-state.json", JSON.stringify({ de: { "new.md": { src_commit: v1 } } }));
+  commit("rename the translation, and a reply sneaks in");
+  const r = run("--base", base);
+  assert.equal(r.status, 1, r.out);
+  assert.match(r.out, /new\.md:27: error: the English has "---" here/);
   git("checkout", "-q", "main");
 });
