@@ -2,36 +2,38 @@
 
 [公式ウェブサイト](https://zingolabs.org/) - [GitHub](https://github.com/zingolabs) - [X/Twitter](https://x.com/ZingoLabs) - [Instagram](https://www.instagram.com/zingolabesp/)
 
-ZingoLabs は、人間の体験をより良くすることに尽力する先見者たちのチームです。私たちは、テクノロジーは人類に利益をもたらすべきであり、合意に基づく相互作用を通じてこそ人は繁栄すると信じています。私たちは、それを可能にするパターンを見いだしています。
+ZingoLabsは、人間の体験を向上させることに専念するビジョナリーのチームです。私たちは、テクノロジーは人類に恩恵をもたらすべきであり、合意に基づく相互作用を通じて繁栄すると信じています。私たちは、それを可能にするパターンを見出しています。
 
-Zingo Lab Cyan は Shielded DAO として運営されています。私たちは資金をトレジャリーに保管しており、すべてのメンバーがビューキーを持っています。資金は、メンバーが提案に賛成票を投じたときにトレジャリーから支出されます。
+Zingo Lab CyanはShielded DAOとして運営されています。私たちは、すべてのメンバーがview keyを持つトレジャリーに資金を保管しています。メンバーが提案に賛成票を投じると、トレジャリーから資金が支出されます。
 
 ## プロジェクト
 
-### Zingo! Wallet ([GitHub](https://github.com/zingolabs/zingo-mobile))
-Zingo Wallet は、使いやすさを重視して設計されたフル機能の Zcash ウォレットでありながら、より上級のユーザー向けの高度な機能もいくつか備えています。transparent、Sapling、Orchard プールをサポートし、定期的な支払いのためのアドレス帳を備え、さまざまな言語で利用できます。Orchard を最初にサポートし、NU5 形式を最初に実装したウォレットでもあります。
+### Zingo! ウォレット ([GitHub](https://github.com/zingolabs/zingo-mobile))
+Zingo ウォレットは、ユーザーフレンドリーに設計されたフル機能のZcashウォレットですが、上級ユーザー向けの高度な機能も一部含まれています。transparent、Sapling、Ironwoodプールをサポートし、定期的な支払いのためのアドレス帳を備え、さまざまな言語で利用できます。Orchardをサポートし、NU5形式を実装した最初のウォレットでした。
 
-Zingo! の主な特徴のひとつは、Memo フィールドを使用してトランザクションに関する有益なインサイトを提供できることです。
+Zingo!の主な機能の一つは、Memoフィールドを使用してトランザクションに関する有益な情報を提供できることです。
 
-Zingo! はモバイル端末と PC で利用できます。すべてのダウンロードは[こちら](https://zingolabs.org/)で見つかります。
+Zingo!はモバイルデバイスとPCで利用できます。すべてのダウンロードは[こちら](https://zingolabs.org/)で見つかります
 
 ### Zingolib ([GitHub](https://github.com/zingolabs/zingolib))
-アプリケーションで利用するために zcash の機能を公開する API とテストアプリです。Zingolib は zingo-mobile 向けのライブラリを提供するとともに、lightwalletd 経由で zcashd とやり取りするための、zingo-cli と呼ばれるコマンドライン lightwalletd プロキシクライアントである CLI アプリケーションも含んでいます。
+アプリケーションで利用できるようZcash機能を公開するAPIおよびテストアプリです。Zingolibは、zingo-mobile用ライブラリに加え、zingo-cliという同梱のcliアプリケーションも提供しています。これは、[Zaino](/zcash-tech/zaino)のようなチェーンインデクサーと通信するコマンドラインのライトウォレットです。
 
-### Zaino Indexer ([GitHub](https://github.com/zingolabs/zaino))
-Zaino は Zingo チームによって Rust で開発されたインデクサーで、lightwalletd を置き換え、zcashd 廃止プロジェクトを前進させることを目指しています。
+### Zaino インデクサー ([GitHub](https://github.com/zingolabs/zaino))
+Zainoは、Zingoチームが開発したZcashブロックチェーン向けのRustインデクサーです。[Z3スタック](/zcash-tech/z3-stack)におけるインデクサーであり、[Zebra](/zcash-tech/zebra-full-node)バリデータからチェーンデータをインデックス化し、ウォレット、エクスプローラー、その他のクライアントに提供します。lightwalletdの後継となる道筋です。
 
-Zaino は、ウォレットや完全なブロックチェーン履歴を必要としないアプリケーションのようなライトクライアントと、フルクライアントやウォレットの両方に不可欠な機能を提供します。また、ブロックエクスプローラーにも対応しており、Zebra または zcashd のフルバリデーターによって管理される、確定済みブロックチェーンと未確定のベストチェーンおよびメモリプールの両方にアクセスできます。
+Zainoは、ウォレットなど完全なブロックチェーン履歴を必要としないアプリケーションやライトクライアント、およびフルクライアントやウォレットの両方に不可欠な機能を提供します。また、ブロックエクスプローラーもサポートし、Zebraフルバリデータが管理する確定済みブロックチェーンと、未確定のベストチェーンおよびメモリプールの両方へのアクセスを提供します。
 
-###  ZLN (zcash-local-net) ([GitHub](https://.com/zingolabs/infrastructure/tree/dev/zcash_local_net))
+`zcashd`は2026年7月18日、ブロック3,417,100でサポート終了による停止に達し、Ironwood（NU6.3）をサポートしていません。ZainoはZebraバリデータを読み取ります。
 
-Zcash プロセスを起動・管理するユーティリティ群。以下の開発における統合テストに使用されます：
+###  ZLN (zcash-local-net) ([GitHub](https://github.com/zingolabs/infrastructure/tree/dev/zcash_local_net))
+
+Zcashプロセスを起動・管理するユーティリティ群です。これは、以下の開発における統合テストに使用されます。
 - ライトクライアント
 - インデクサー
-- バリデーター
+- バリデータ
 
-その目的は、zcash や zebra のようなコアノード（バリデーター）、lightwallet や zaino のようなインデクサー、そして最低限ではライトクライアントウォレットとしての zingo-cli に対して、高い適応性と堅牢性を備えたテスト環境を提供することです。
+その目的は、Zebraのようなコアノード（バリデータ）、Zainoのようなインデクサー、zingo-cliのようなライトクライアントウォレット向けに、高度に適応可能で堅牢なテスト環境を提供することです。
 
-このリポジトリは、zcashd 廃止プロセス中の移行を円滑にするために、さまざまなバリデーター（zcashd や Zebrad など）とインデクサー（lightwalletd や Zaino など）の機能を比較できるよう設計されています。
+起動されるデフォルトのスタックは、Zebrad、zainod、zcash-devtoolです。レガシーの`zcashd`およびlightwalletdプロセスは、サポートされていない`legacy-stack`機能の背後にあり、削除が予定されています。
 
-Zcashのチェーンデータ（mainnet、testnet、regtest向け）を起動、キャッシュ、読み込むためのツールに加え、zcash-local-netには、すべてのLightwallet RPCサービスにおけるlightwalletdとZainoの機能を比較する一連のテストが含まれています。これらのテストはZainoから直接実行できます（ZainoでホストされているLightwallet RPCサービスを評価するには、[https://.com/zingolabs/zaino/blob/dev/docs/testing.md](https://github.com/zingolabs/zaino/blob/dev/docs/testing.md))を参照してください）。
+Zcashチェーンデータ（mainnet、testnet、regtest用）の起動、キャッシュ、読み込みのためのツールを提供することに加え、zcash-local-netは、Zainoのテストスイートから、ZainoでホストされるLightwallet RPCサービスを評価するために使用されます（[Zainoテストドキュメント](https://github.com/zingolabs/zaino/blob/dev/docs/testing.md)を参照）。
