@@ -10,6 +10,20 @@ We ran every step below with a real transfer on 27 September 2026, starting with
 
 ---
 
+## TL;DR
+
+- ZEC in your Solana wallet is a **Solana token** (mint `A7bd…QXaS`) backed 1:1 by real ZEC that the NEAR OmniBridge holds on the Zcash chain — "paper ZEC" that lives on Solana's public ledger and can't be shielded there.
+- The route is two steps: **deposit** the token on solswap.org (NEAR Intents), then **withdraw** on near.com to your wallet's shielded `u1` address. Don't use Phantom's own Swap button — it can't help you.
+- Use a wallet the [ZecHub directory](/wallets) marks **Ironwood: Ready**, and keep a little SOL in Phantom for the Solana fee.
+- Our real test (27 September 2026, 0.00266336 ZEC): deposit landed in 9 seconds, withdrawal took about 8 minutes, total cost ~0.00025 ZEC + 0.0016 SOL.
+- Safety line: only sign message requests on `near.com`/`solswap.org` with `intents.near` in the message, never type your seed phrase, and paste a `u1`, never a `t1`.
+
+## Visual analogy
+
+ZEC on Solana works like a **casino chip**. It prices like cash, and the casino — the NEAR OmniBridge — promises real banknotes (native ZEC) to anyone who returns the chip. But the chip is just a row in the casino's ledger: everyone can see who holds it, and its value depends on the casino's systems staying sound. Withdrawing through near.com is walking to the cage and cashing the chip. Once the banknotes are in a shielded pool, they're in your own opaque wallet — nobody can see the amount or the holder anymore.
+
+---
+
 ## What you actually hold
 
 The ZEC in your Solana wallet is a token on Solana, not coins on the Zcash network. The NEAR OmniBridge issues it and holds real ZEC on the Zcash chain to back it; the bridge has been live on Solana since October 2025. Its Solana leg runs on Wormhole messages and NEAR Chain Signatures, not on a Zcash light client, so the Solana side is only as sound as those two systems. People call it "paper ZEC". It tracks the price of ZEC, but every balance and every transfer sits on Solana's public ledger under your wallet address, and it can't be shielded while it stays there.
@@ -181,9 +195,28 @@ New holders get targeted. Almost every scam you'll see is one of these:
 
 ---
 
+## Common Mistakes
+
+- **Using Phantom's Swap button** instead of the deposit flow. You already hold the token — swapping just exchanges one paper ZEC for another token and gets you no closer to native ZEC.
+- **Pasting a `t1` address**, or a `u1` that hides a transparent receiver, when your wallet offers a shielded-only `u1`. The deposit lands public and links it to your wallet permanently.
+- **Assuming funds are stuck** when solswap's Withdraw page shows "–". The balance follows your Phantom key, not the website — finish the withdrawal on near.com.
+- **Signing a message without checking it.** A look-alike site can empty your NEAR Intents balance with one signature. The site must be `near.com` and the message must contain `"verifying_contract": "intents.near"`.
+- **Confusing the two "ZEC" tickers.** The Solana token and native Zcash ZEC share a name but not a network — sending either to the other chain loses it.
+
 ## What to do with shielded ZEC
 
 - Keep it private when you spend it: [Using ZEC privately](/guides/using-zec-privately)
 - Find places that take it: [Places to spend ZEC](/using-zcash/spend-zcash/top-10-places-to-spend-zec)
 - Send it with a private message attached: [Memos](/using-zcash/memos)
 - Pay someone without linking your identity: [Send money without linking identity](/zcash-use-cases/send-money-without-linking-identity)
+
+---
+
+## Related Pages
+
+- [How to swap for ZEC in Phantom Wallet](/using-zcash/solswap) — the solswap screens in more detail
+- [Shielded pools](/using-zcash/shielded-pools) — what Ironwood/Orchard pools are and how receivers work
+- [Who can see your Zcash payment?](/start-here/who-can-see-your-zcash-payment) — what shielding actually hides
+- [Wallets](/wallets) — the directory; check the **Ironwood: Ready** label
+- [Custodial exchanges](/using-zcash/custodial-exchanges) — the trade-off this route avoids
+- [Recovering funds](/using-zcash/recovering-funds) — what to keep safe so you never lose access

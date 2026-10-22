@@ -10,13 +10,13 @@
 - zcashd ने 18 जुलाई 2026 को अपना End-of-Support halt प्राप्त कर लिया और अब नहीं चलता। अब नोड वाले हिस्से को Zebra संभालता है; wallet वाले हिस्से को Zallet संभालता है।
 - आप Zallet को command line से `zallet rpc <command>` के माध्यम से चलाते हैं, लगभग वैसे ही जैसे पहले `zcash-cli` का उपयोग करते थे।
 - command नाम के बाद आने वाला हर argument मान्य JSON होना चाहिए, यानी string values अपने double quotes के साथ ही रहती हैं।
-- Zallet अभी भी alpha में है। Releases के बीच commands बदल सकती हैं, और अभी हर zcashd RPC को यहाँ port नहीं किया गया है।
+- Zallet अभी beta में है। Releases के बीच commands बदल सकती हैं, और अभी हर zcashd RPC को यहाँ port नहीं किया गया है।
 
 ## मुख्य व्याख्या
 
 Zallet अपनी functionality को JSON-RPC के माध्यम से उपलब्ध कराता है, जो वही interface style है जिसका उपयोग zcashd wallet करता था। आप wallet से जो भी करवाना चाहते हैं — balance जांचना, account बनाना, shielded भुगतान भेजना — वह सब `zallet rpc` को दिया जाने वाला एक command है।
 
-पुरानी `zcash-cli` आदत की तुलना में दो चीजें अलग हैं, और शुरुआती अधिकतर गलतियों की वजह भी वही हैं। पहली, arguments को bare text की बजाय मान्य JSON होना चाहिए, इसलिए shell quotes के अंदर किसी string argument को अपने quotation marks भी साथ रखने होते हैं। दूसरी, उपलब्ध commands का सेट इस बात पर निर्भर करता है कि आप कौन-सी alpha release चला रहे हैं, इसलिए आपके binary में शामिल सूची किसी भी लिखित पेज से अधिक भरोसेमंद है, इसमें यह पेज भी शामिल है।
+पुरानी `zcash-cli` आदत की तुलना में दो चीजें अलग हैं, और शुरुआती अधिकतर गलतियों की वजह भी वही हैं। पहली, arguments को bare text की बजाय मान्य JSON होना चाहिए, इसलिए shell quotes के अंदर किसी string argument को अपने quotation marks भी साथ रखने होते हैं। दूसरी, उपलब्ध commands का सेट इस बात पर निर्भर करता है कि आप कौन-सी beta release चला रहे हैं, इसलिए आपके binary में शामिल सूची किसी भी लिखित पेज से अधिक भरोसेमंद है, इसमें यह पेज भी शामिल है।
 
 सभी उपलब्ध RPCs की सूची देखने के लिए:
 
@@ -36,8 +36,8 @@ zallet rpc help '"<command>"'
 ## आम गलतियाँ
 
 - **String arguments में अंदर वाले quotes हटा देना।** `zallet rpc validateaddress u1abc...` विफल हो जाएगा, क्योंकि address को JSON के रूप में पहुँचना होता है। इसे `'"u1abc..."'` के रूप में लिखा जाना चाहिए।
-- **यह मान लेना कि हर zcashd RPC यहाँ मौजूद है।** Porting अभी जारी है। कुछ methods बिल्कुल वैसा ही व्यवहार करते हैं, कुछ के उपयोग का तरीका अलग है, और कुछ को बिल्कुल भी आगे नहीं लाया जाएगा।
-- **इस पेज को अपने binary से अधिक आधिकारिक मान लेना।** Zallet alpha में है और तेज़ी से बदल रहा है। यदि यहाँ दिया गया कोई command काम न करे, तो यह मानने से पहले कि कुछ टूटा हुआ है, `zallet rpc help` जांचें।
+- **यह मान लेना कि हर RPC यहाँ मौजूद है।** Porting अभी जारी है। कुछ methods बिल्कुल वैसा ही व्यवहार करते हैं, कुछ के उपयोग का तरीका अलग है, और कुछ को बिल्कुल भी आगे नहीं लाया जाएगा।
+- **इस पेज को अपने binary से अधिक आधिकारिक मान लेना।** Zallet beta में है और तेज़ी से बदल रहा है। यदि यहाँ दिया गया कोई command काम न करे, तो यह मानने से पहले कि कुछ टूटा हुआ है, `zallet rpc help` जांचें।
 - **यह अपेक्षा करना कि Zallet स्वयं एक नोड है।** यह इस जोड़ी का wallet वाला आधा हिस्सा है। Zebra नोड चलाता है, और Zallet उससे बात करता है।
 
 ## RPC Commands
@@ -474,7 +474,7 @@ zallet rpc z_viewtransaction '"<txid>"'
 
 ## संबंधित पेज
 
-- [Migration Guide: Zcashd से Zebrad और Zallet](/guides/migration-guide-zcashd-to-zebrad-zallet) — मौजूदा zcashd setup से step-by-step migration
+- [Migration Guide: zcashd से Zebrad और Zallet](/guides/migration-guide-zcashd-to-zebrad-zallet) — मौजूदा zcashd सेटअप से चरण-दर-चरण स्थानांतरण
 - [Zebra Full Node](/zcash-tech/zebra-full-node) — वह नोड implementation जिसके साथ Zallet काम करता है
 - [Full Nodes](/zcash-tech/full-nodes) — full-नोड चलाने में क्या शामिल है और आप इसे क्यों चलाना चाह सकते हैं
 - [Wallets](/using-zcash/wallets) — यदि full-नोड आपकी ज़रूरत से अधिक है तो हल्के wallet विकल्प

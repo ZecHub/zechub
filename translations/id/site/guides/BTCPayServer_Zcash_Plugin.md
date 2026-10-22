@@ -404,7 +404,7 @@ mkdir -p docker-compose-generator/docker-fragments
 nano docker-compose-generator/docker-fragments/zcash-lightwalletd.custom.yml
 ```
 
-Silakan berikan konten Markdown yang ingin kamu terjemahkan. Saya siap menerjemahkannya ke dalam Bahasa Indonesia sesuai dengan aturan profesional yang telah kamu tetapkan.
+Tambahkan konten berikut:
 
 ```
 exclusive:

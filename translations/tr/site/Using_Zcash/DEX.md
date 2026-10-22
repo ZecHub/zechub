@@ -106,7 +106,7 @@ ___
 - Web sitesi: https://loofta.xyz/
 - Açıklama: Saklama hizmeti sunmayan özel ödeme ve swap platformu. Daha güçlü finansal gizlilik için mutabakat katmanı olarak Zcash'i kullanarak zincirler arasında gizli şekilde kripto gönderip alın.
 
-Yeni İngilizce blok boş görünüyor. Lütfen çevrilecek metni gönderin.
+___
 
 ### ZcashToCash
 
