@@ -10,13 +10,13 @@
 - zcashd 已于 2026 年 7 月 18 日到达支持终止停机时间，现已无法继续运行。现在由 Zebra 负责节点端；Zallet 负责钱包端。
 - 你可以通过命令行使用 `zallet rpc <command>` 来操作 Zallet，就像你之前使用 `zcash-cli` 一样。
 - 命令名之后的每一个参数都必须是合法的 JSON，这意味着字符串值必须保留其双引号。
-- Zallet 目前仍处于 alpha 阶段。不同版本之间命令可能会变化，而且并不是每个 zcashd RPC 都已经移植过来。
+- Zallet 目前仍处于 beta 阶段。不同版本之间命令可能会变化，而且并不是每个 zcashd RPC 都已经移植过来。
 
 ## 核心说明
 
 Zallet 通过 JSON-RPC 暴露其功能，这与 zcashd 钱包曾使用的接口风格相同。任何你希望钱包执行的操作——检查余额、创建账户、发送 shielded 支付——都可以作为命令传给 `zallet rpc`。
 
-与旧的 `zcash-cli` 使用习惯相比，有两点不同，而这也解释了大多数早期错误。第一，参数必须是合法的 JSON，而不能是裸文本，因此字符串参数必须在 shell 引号内部自带引号。第二，可用命令集取决于你正在运行的 alpha 版本，因此你二进制文件内置的命令列表比任何书面页面都更可靠，包括本页。
+与旧的 `zcash-cli` 使用习惯相比，有两点不同，而这也解释了大多数早期错误。第一，参数必须是合法的 JSON，而不能是裸文本，因此字符串参数必须在 shell 引号内部自带引号。第二，可用命令集取决于你正在运行的 beta 版本，因此你二进制文件内置的命令列表比任何书面页面都更可靠，包括本页。
 
 列出所有可用 RPC：
 
@@ -36,8 +36,8 @@ zallet rpc help '"<command>"'
 ## 常见错误
 
 - **遗漏字符串参数内部的引号。** `zallet rpc validateaddress u1abc...` 会失败，因为该地址必须以 JSON 形式传入。正确写法应为 `'"u1abc..."'`。
-- **假设每个 zcashd RPC 在这里都存在。** 移植工作仍在进行中。有些方法行为完全相同，有些需要不同的用法，还有一些根本不会被迁移过来。
-- **把本页视为比你的二进制文件更权威。** Zallet 仍处于 alpha 阶段，变化很快。如果这里的某个命令无法工作，请先检查 `zallet rpc help`，再假定是哪里坏了。
+- **假设这里存在每个 RPC。** 移植工作仍在进行中。有些方法行为完全相同，有些需要不同的用法，还有一些根本不会被迁移过来。
+- **把本页视为比你的二进制文件更权威。** Zallet 仍处于 beta 阶段，变化很快。如果这里的某个命令无法工作，请先检查 `zallet rpc help`，再假定是哪里坏了。
 - **把 Zallet 当作节点。** 它只是这对组件中的钱包一半。Zebra 运行节点，而 Zallet 与其通信。
 
 ## RPC 命令
@@ -474,8 +474,8 @@ zallet rpc z_viewtransaction '"<txid>"'
 
 ## 相关页面
 
-- [迁移指南：从 Zcashd 到 Zebrad 和 Zallet](/guides/migration-guide-zcashd-to-zebrad-zallet) — 从现有 zcashd 配置逐步迁移
-- [Zebra 全节点](/zcash-tech/zebra-full-node) — 与 Zallet 配合工作的节点实现
+- [迁移指南：从 zcashd 到 Zebrad 和 Zallet](/guides/migration-guide-zcashd-to-zebrad-zallet) — 从现有 zcashd 配置逐步迁移
+- [Zebra 全节点](/zcash-tech/zebra-full-node) — 与 Zallet 协同工作的节点实现
 - [全节点](/zcash-tech/full-nodes) — 运行全节点需要做什么，以及你为什么可能会想运行一个
 - [钱包](/using-zcash/wallets) — 如果全节点超出你的需求，这里有更轻量的钱包选项
-- [交易](/using-zcash/transactions) — shielded 交易与透明交易有何不同
+- [交易](/using-zcash/transactions) — 屏蔽交易与透明交易有何不同
