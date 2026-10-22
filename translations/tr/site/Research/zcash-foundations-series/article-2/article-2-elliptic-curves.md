@@ -11,7 +11,7 @@
 
 [1](article-1-finite-fields.md) Makalesi bize aritmetik için mükemmel bir oyun alanı sundu: sonlu cisim. Ama bir cisim tek başına yalnızca sayılardan ibarettir. [0](article-0-shielded-transaction.md) Makalesi]'ndeki anahtarları ve "mühürlü zarfları" inşa etmek için Zcash'nin özel, tek yönlü bir zorluk türüne sahip bir nesneye ihtiyacı var: ileri yönde hesaplaması kolay, tersine çevirmesi ise pratikte imkânsız. Bu nesne bir **eliptik eğri**dir. Bu makale onu en temelden inşa ediyor; cebirden önce sezgi geliyor.
 
-Kaynak Markdown parçası mesajda yer almıyor, bu yüzden çeviriyi üretemiyorum. Lütfen `---` satırından sonra çevrilecek Markdown FRAGMENT metnini yapıştırın; yalnızca Türkçe çeviriyi döndüreceğim.
+---
 
 ## 1. Neden önemsemelisiniz?
 
@@ -26,7 +26,7 @@ Her gizlilik sistemi bir **tek yönlü caddeye** ihtiyaç duyar: ileri doğru gi
 
 Sade sonlu cisim çarpımı yeterince iyi değildir; bölme işlemi onu anında geri alır (Zaten 1. Makale’nin bütün amacı buydu). Kolay bir "geri alma" düğmesi olmayan bir şeye ihtiyacımız var. Eliptik eğriler tam olarak bunu sağlar ve ayrıca, noktaları taahhütler oluşturmak için mükemmel olan bir şekilde birleşir. Nasıl olduğuna bakalım.
 
-Çevrilecek Markdown parçası mesajda görünmüyor. Lütfen `---` işaretinden sonra çevrilecek metni yapıştırın.
+---
 
 ## 2. Sezgi: noktalarını "toplayabildiğiniz" bir eğri
 
@@ -62,7 +62,7 @@ Gerçekten şaşırtıcı olan kısım şu: **bu eğri üzerindeki iki noktayı 
 
 Her sayı sisteminin bir `0`’si vardır; topladığınızda hiçbir şeyi değiştirmeyen şey. Eliptik bir eğri üzerinde bu rolü, **sonsuzdaki nokta** denilen ve `O` şeklinde yazılan özel bir ek nokta oynar. Bunu, “sonsuz derecede yukarıda”, dikey doğruların buluştuğu yer olarak düşünebilirsiniz. `O`’yi herhangi bir noktaya eklemek, onu hiç değiştirmez; tıpkı `0` eklemek gibi.
 
-Lütfen çevrilecek Markdown parçasını gönderin.
+---
 
 ## 3. Resimlerden sonlu bir cisme
 
@@ -147,7 +147,7 @@ Bu bir **Pedersen taahhüdüdür** ve istediğimiz her iki özelliğe de sahipti
 
 Daha sonra paha biçilmez olduğu ortaya çıkan ek bir özellik daha var: bu taahhütler **toplanabiliyor**. `v_1` için olan taahhüt ile `v_2` için olan taahhüdün toplamı, `v_1 + v_2` için geçerli bir taahhüttür. Bu "homomorfik" davranış sayesinde Zcash, daha sonra bir işleme *giren* paranın işlemden *çıkan* paraya eşit olduğunu, herhangi bir miktarı açığa vurmadan ispatlayabilecek. Bunun karşılığını yaklaşık 6. Makale civarında alacağız.
 
-Markdown parçası sağlanmadı. Lütfen çevrilecek İngilizce Markdown içeriğini gönderin.
+---
 
 ## 6. Bunun Zcash içindeki yeri
 
@@ -162,7 +162,7 @@ Bir eğrinin neden başka bir eğrinin alanının içine "gömüldüğü" ve iki
 
 ![alternatif metin](/content-images/image-13-ffdd703c60.webp)]
 
-Lütfen çevirmemi istediğiniz Markdown parçasını gönderin.
+---
 
 ## 7. Dürüst bir uyarı
 
@@ -181,7 +181,7 @@ The Markdown fragment to translate was not included after the `---` separator, s
 - **Anahtarlar:** özel anahtar `k`, açık anahtar `kG`. **Taahhütler:** Pedersen biçimi `v.G + r.H`; bu yapı gizler, bağlayıcıdır ve elverişli şekilde **toplanabilir**.
 - **Zcash** içinde, Sapling **BLS12-381 + Jubjub** kullanır ve Orchard **Pallas/Vesta (Pasta)** eğrilerini kullanır; her anahtar ve taahhüt bunların üzerinde yer alır.
 
-Lütfen çevrilecek Markdown parçasını gönderin.
+---
 
 ## Sözlük
 
@@ -195,7 +195,7 @@ Lütfen çevrilecek Markdown parçasını gönderin.
 | **ECDLP** | `kG`'den `k`'yi geri elde etmenin zor problemi; güvenliğin temeli |
 | **Pedersen taahhüdü** | `v.G + r.H`; gizleyen, bağlayan ve toplanabilen mühürlü bir zarf |
 
-Metin parçası sağlanmadığı için çeviri yapılamıyor. Lütfen çevrilecek İngilizce Markdown parçasını gönderin.
+---
 
 ## SSS
 
@@ -222,7 +222,7 @@ Bölüm 3’teki doğrulanmış tabloyu kullanarak, oyuncak eğrimizde `9G + 10G
 `9 + 10 = 19` ve `19G = O`’nin sonsuzdaki nokta olduğunu gördük. Dolayısıyla `9G + 10G = O`. Bu, `10G`’nin `9G`’nin **negatifi** (toplamsal tersi) olduğu anlamına gelir: “sıfır” noktasını veren iki nokta. Bir eğri üzerinde, bir noktanın negatifi sadece x-ekseni boyunca ayna görüntüsüdür ve gerçekten de `9G = (7,6)` ile `10G = (7,11)` aynı `x`’yi paylaşır ve `y` değerlerinin toplamı `17 = 0 (mod 17)` eder. Yapı tamamen tutarlıdır; “bu bir gruptur” ifadesinin güvence altına aldığı şey de tam olarak budur.
 </details>
 
-Çevrilecek Markdown parçası mesajınızda görünmüyor. Lütfen `---` satırının altına metni yapıştırın.
+---
 
 ### Sırada ne var
 
