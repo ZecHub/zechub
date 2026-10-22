@@ -126,6 +126,26 @@ jobs:
       - name: Page hygiene gate self-test
         run: node scripts/check-page-hygiene.test.mjs
 
+      # A model's reply about the translation request saved as the translation
+      # ("Please provide the Markdown fragment you would like me to
+      # translate...", "I cannot translate this fragment..."): 85 lines in 20
+      # Indonesian pages and 5 in a Turkish one reached main with every other
+      # gate green, because the line is valid Markdown in a Latin script
+      # (#2467). The openings are listed in translation/model-replies.json,
+      # which the translation runner reads too. Replies in the target language
+      # are caught structurally: a "---", a lone HTML tag or a one/two
+      # character heading in the English must come through unchanged.
+      # Same scope rule as numbers:
+      # translated pages the PR changes, replies already at the base are a
+      # notice.
+      - name: Model replies on changed translations
+        env:
+          BASE_REF_OUT: ${{ steps.base.outputs.ref }}
+        run: node scripts/check-model-replies.mjs --base "$BASE_REF_OUT"
+
+      - name: Model-reply gate self-test
+        run: node --test scripts/check-model-replies.test.mjs
+
       # Numbers and dates on the TRANSLATED pages a PR changes. Engines garble
       # numbers while the rest of the page stays intact: "ZIP 2emma" and
       # "November 202kan" from the local model, a changed block height, a
