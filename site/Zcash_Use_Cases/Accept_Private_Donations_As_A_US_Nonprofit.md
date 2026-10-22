@@ -5,7 +5,7 @@
   Intermediate - 10 min
 </span>
 
-> This page is general information, not legal or tax advice. US tax rules change, so check each step with your accountant or tax adviser. Every rule below links to its IRS source.
+> This page is general information, not legal or tax advice. US tax rules change, so check each step with your accountant or tax adviser. Every rule below links to its IRS source, checked in October 2026 against Publication 526 (for 2025 returns) and Form 8283 (December 2025 revision). The IRS virtual currency FAQ was written for transactions before 2025, so check it against current guidance.
 
 ## TL;DR
 
@@ -73,7 +73,7 @@ Write down, and have your board approve:
 
 ### Step 3: Publish a shielded address
 
-- Share a shielded unified address (it starts with `u1`) on your donate page
+- Share a shielded-only address on your donate page. A [unified address](/using-zcash/unified-addresses) starts with `u1`, but it can also contain a transparent receiver, and a gift from a transparent-only wallet then lands publicly. Use your wallet's shielded-only address if it offers one.
 - Don't publish a transparent address (it starts with `t1` or `t3`)
 - Ask donors who want a receipt to put their email in the [memo](/using-zcash/memos). The memo is encrypted, so only your organization can read it.
 
@@ -95,11 +95,11 @@ A donor can't deduct a single gift of $250 or more without a written acknowledgm
 - A description of the gift, for example "1.5 ZEC". Don't put a dollar value on it: valuing the gift is the donor's job.
 - Whether you gave anything in return, for example "No goods or services were provided in exchange for this contribution."
 
-Send it by the time the donor files their tax return. Sending it right away is simplest.
+The donor must have it before they file their tax return ([Publication 526](https://www.irs.gov/pub/irs-pdf/p526.pdf)). Organizations usually send it by January 31 of the next year; sending it right away is simplest.
 
 ### Step 6: Sign Form 8283 for gifts over $5,000
 
-If a donor claims more than $5,000, they need a qualified appraisal. The IRS confirmed this applies to crypto ([CCA 202302012](https://www.irs.gov/pub/irs-wd/202302012.pdf)). The donor brings you [Form 8283](https://www.irs.gov/pub/irs-pdf/f8283.pdf), and you sign the donee part of Section B. Your signature confirms you received the ZEC on that date; it doesn't confirm the donor's value ([IRS FAQ, Q36](https://www.irs.gov/individuals/international-taxpayers/frequently-asked-questions-on-virtual-currency-transactions)).
+If a donor claims more than $5,000, they need a qualified appraisal. Crypto doesn't count as a publicly traded security, so the appraisal applies to it ([Publication 526](https://www.irs.gov/pub/irs-pdf/p526.pdf), [CCA 202302012](https://www.irs.gov/pub/irs-wd/202302012.pdf)). The donor brings you [Form 8283](https://www.irs.gov/pub/irs-pdf/f8283.pdf), and you sign the donee part of Section B. Your signature confirms you received the ZEC on that date; it doesn't confirm the donor's value ([IRS FAQ, Q36](https://www.irs.gov/individuals/international-taxpayers/frequently-asked-questions-on-virtual-currency-transactions)).
 
 ### Step 7: Convert to dollars, if you need to
 
