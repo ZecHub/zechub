@@ -4,6 +4,20 @@
 
 ---
 
+## TL;DR
+
+- A Unified Address (UA) is one address string that can carry several receiver types — transparent, Sapling, Orchard, or a mix — and the paying wallet automatically picks the best receiver it supports.
+- You cannot validate a UA by decoding Bech32m alone: ZIP-316 scrambles the payload with F4Jumble first, so a partial decoder can silently accept malleated (tampered) addresses.
+- The correct pipeline is: decode Bech32m → invert F4Jumble → strip the 16-byte HRP padding → extract the `(typecode, length, content)` entries.
+- A valid UA must contain at least one shielded receiver (Sapling or Orchard), carry unique typecodes in ascending order, and never include both P2PKH and P2SH.
+- For anything that touches real funds, use maintained libraries such as the `zcash_address` crate — this page explains what they do internally.
+
+
+## Visual analogy
+
+A Unified Address is a sealed envelope with several labelled cards inside, one card per payment rail (transparent, Sapling, Orchard). F4Jumble is the tamper-evident seal: change even one character on the envelope and the contents rearrange completely, so tampering becomes obvious. Decoding means opening the envelope and reading each card; validation means checking every card against the ZIP-316 rules before you trust any of them.
+
+
 ## The big picture
 
 A Unified Address (UA) is a single address string that carries multiple receiver types: **Transparent**, **Sapling**, **Orchard**, or a combination. The paying wallet automatically selects the best receiver pool it supports.
@@ -81,6 +95,15 @@ For known receiver types, verify that the encoded length matches the type's spec
 
 ---
 
+## Common Mistakes
+
+- **Treating "it decodes" as "it is valid".** A string can decode cleanly and still violate ZIP-316 — for example, carry only a transparent receiver — and must be rejected.
+- **Skipping F4Jumble.** Decoding raw Bech32m without inverting F4Jumble yields scrambled bytes that can masquerade as receivers; some malleated addresses also survive naive checks.
+- **Mixing up networks.** The HRP `u` means mainnet and `utest` means testnet; accepting a testnet UA on mainnet sends funds to a place nobody can reach.
+- **Trusting string equality.** Two UAs can differ in text yet represent the same address. Compare parsed receivers, not raw strings.
+- **Hand-rolling a parser for real payments.** Compact-size length errors and the `0xE0`–`0xFC` MUST-understand metadata range are exactly what official test vectors and maintained crates guard against.
+
+
 ## Best practices for developers
 
 - **Compare parsed receivers, not raw strings.** Decode addresses first before checking equality.
@@ -113,3 +136,11 @@ For known receiver types, verify that the encoded length matches the type's spec
 | **Malleability** | Unauthorized modification of address bytes without detection. |
 
 See also: [Viewing Keys](./Viewing_Keys.md)
+## Related Pages
+
+- [Viewing Keys](./Viewing_Keys.md) — share read access to shielded wallets without spend authority
+- [Zcash Shielded Assets](./Zcash_Shielded_Assets.md) — the shielded pools behind Sapling and Orchard receivers
+- [What a Block Explorer Can See](./What_a_Block_Explorer_Can_See.md) — what stays visible when payments use shielded receivers
+- [Zcash Wallet Syncing](./Zcash_Wallet_Syncing.md) — how wallets discover transactions for the receivers inside a UA
+
+
