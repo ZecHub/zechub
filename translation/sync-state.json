@@ -13907,7 +13907,7 @@
       "src_commit": "49adb4bc5f4d2ac1bfcaad0ee49d2d29328afd2d",
       "engine": "llm",
       "mode": "full",
-      "tool": "google/gemma-4-26b-a4b+replyfix",
+      "tool": "google/gemma-4-26b-a4b+replyfix+handfix",
       "edited": false
     },
     "Privacy_Tools/VPN_and_DVPN.md": {
