@@ -41,3 +41,13 @@ Net
 # The historical-adjective half of "Byzantine Fault Tolerance" on
 # Crosslink_Protocol; the concept renders descriptively in translations.
 Byzantine
+
+# Names the detector flags on Privacy_Tools/GrapheneOS.md, Privacy_Tools/Tor_and_I2P.md
+# and Zcash_Tech/Halo.md (standardized 2026-10-21), decided 2026-10-22:
+# "OPSEC" (operational security) and "DVPN" (decentralized VPN) are generic
+# terms, not brands; translations may localise them.
+OPSEC
+DVPN
+# Like Bitcoin, left unprotected: Japanese and Korean pages write it in the
+# usual local script (イーサリアム, 이더리움).
+Ethereum

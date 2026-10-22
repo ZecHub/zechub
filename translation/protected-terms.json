@@ -5,6 +5,7 @@
     "Altcoin Buzz",
     "Android",
     "AngryDavee",
+    "Anoma",
     "Arborist Calls",
     "Argos",
     "Aztec",
@@ -14,6 +15,7 @@
     "Bankr",
     "Base",
     "BazaarSwap",
+    "BCTV14",
     "BEAM",
     "Binance",
     "Bison Wallet",
@@ -52,6 +54,7 @@
     "Commonwealth",
     "CompactTxStreamer",
     "Conceal",
+    "CopperheadOS",
     "Cosmos",
     "Craiyon",
     "Crosslink",
@@ -62,6 +65,7 @@
     "CyberGhost",
     "Cypherpunk Technologies",
     "Dark.fi",
+    "Darkfi",
     "DASH",
     "Dash",
     "Dash Evolution",
@@ -77,6 +81,7 @@
     "EDGAR",
     "Edge Wallet",
     "Elai",
+    "Electric Coin Co",
     "Electric Coin Company",
     "ElevenLabs",
     "Epoch",
@@ -86,6 +91,7 @@
     "eZcash",
     "FairySwap",
     "Feature Net",
+    "Filecoin",
     "Firn",
     "Firo",
     "Firo DEX",
@@ -103,6 +109,7 @@
     "Gemini",
     "GitHub",
     "GPT4All",
+    "GrapheneOS",
     "Grayscale",
     "Grayscale Investments Sponsors",
     "Guild",
@@ -187,6 +194,8 @@
     "OneKey",
     "OpenSea",
     "OpenZcash",
+    "Orbis",
+    "Orbot",
     "Orca",
     "Orchard",
     "OTCQX",
@@ -245,6 +254,7 @@
     "StarkWare",
     "StarryAI",
     "Stealth EX",
+    "Str4d",
     "SupraNational",
     "Suprnova",
     "sUSDC",
@@ -281,6 +291,7 @@
     "Vizor",
     "Vultisig",
     "Web3",
+    "WebUSB",
     "Windows",
     "Winklevoss Capital",
     "WooCommerce",
@@ -349,6 +360,7 @@
     "zk-SNARKs",
     "zkBob",
     "Zkool",
+    "zkSNARKs",
     "ZKsync",
     "Zlink",
     "ZODL",
@@ -362,7 +374,8 @@
   "equivalentForms": [
     [
       "zk-SNARK",
-      "zk-SNARKs"
+      "zk-SNARKs",
+      "zkSNARKs"
     ],
     [
       "DZap",
@@ -371,6 +384,10 @@
     [
       "cbZEC",
       "cbZec"
+    ],
+    [
+      "Electric Coin Company",
+      "Electric Coin Co"
     ]
   ]
 }
