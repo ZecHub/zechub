@@ -163,9 +163,14 @@ export function findReplacedAnchors(trText, enText) {
     const text = tb.lines.map((l) => l.trim()).join(" ");
     found.push({ line: tb.start, id: `replaced-${a[ei].split(":")[0]}`, text, english: anchor });
   };
-  // Same number of blocks: the usual case, and the one a reply produces (it
-  // takes the anchor's place one for one). Pair blocks in order.
-  if (n === m) {
+  // Same number of blocks, and every anchor the translation has sits where the
+  // English has one: the case a reply produces (it takes an anchor's place one
+  // for one). Pair blocks in order. A translation that moved a rule (a
+  // paragraph added above it, two merged below) goes to the alignment instead.
+  // One that dropped a rule AND added a block elsewhere is reported here; the
+  // rule is really missing, and once it is restored the counts differ and the
+  // alignment takes over.
+  if (n === m && b.every((k, j) => !isAnchorKey(k) || isAnchorKey(a[j]))) {
     a.forEach((k, i) => { if (isAnchorKey(k) && !isAnchorKey(b[i])) report(i, i); });
     return found;
   }
@@ -175,7 +180,9 @@ export function findReplacedAnchors(trText, enText) {
   // paragraph pairs with its translation rather than with a short reply.
   const len = (blk) => blk.lines.join(" ").length;
   const la = E.map(len), lb = T.map(len);
-  const score = (i, j) => 1 + Math.min(la[i], lb[j]) / Math.max(la[i], lb[j], 1);
+  // Two identical anchors are the surest pairing there is; weigh them above
+  // any pair of paragraphs.
+  const score = (i, j) => (isAnchorKey(a[i]) ? 3 : 1 + Math.min(la[i], lb[j]) / Math.max(la[i], lb[j], 1));
   const L = Array.from({ length: n + 1 }, () => new Float64Array(m + 1));
   for (let i = n - 1; i >= 0; i--)
     for (let j = m - 1; j >= 0; j--)

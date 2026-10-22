@@ -108,7 +108,7 @@ function syncState(rev) {
   if (!stateAt.has(rev)) {
     let st = {};
     try { st = JSON.parse(rev ? showAt(rev, "translation/sync-state.json") ?? "{}" : readFileSync(join(root, "translation/sync-state.json"), "utf8")); }
-    catch { /* no state: fall back to the current English */ }
+    catch { /* no state: englishFor returns null, the structural test is skipped */ }
     stateAt.set(rev, st);
   }
   return stateAt.get(rev);
@@ -164,10 +164,11 @@ for (const tr of pages.sort()) {
 
 const quote = (t) => `"${t.slice(0, 120)}${t.length > 120 ? "…" : ""}"`;
 const msg = (h) => h.english
-  ? `the English has "${h.english}" here, which has nothing to translate, but the translation has text in its place: ${quote(h.text)}. This is usually a model's reply about the request, in the target language. Put "${h.english}" back.`
+  ? `the English has "${h.english.replace(/\n/g, " ")}" here, which has nothing to translate, and the translation has text in its place instead: ${quote(h.text)}. This is usually a model's reply about the request, in the target language. Put "${h.english.replace(/\n/g, " ")}" back.`
   : `this line is a model's reply about the translation request (${h.id}), not a translation: ${quote(h.text)}. Copy the English line if it has no text to translate (a separator, a single letter), or translate it.`;
 for (const e of errors) {
-  if (annotate) console.log(`::error file=${e.tr},line=${e.line},title=model reply::${msg(e)}`);
+  // Workflow commands end at a newline; escape as GitHub documents.
+  if (annotate) console.log(`::error file=${e.tr},line=${e.line},title=model reply::${msg(e).replace(/%/g, "%25").replace(/\r/g, "%0D").replace(/\n/g, "%0A")}`);
   else console.log(`${e.tr}:${e.line}: error: ${msg(e)}`);
 }
 if (inherited.length) {

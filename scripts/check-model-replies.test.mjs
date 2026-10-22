@@ -131,6 +131,12 @@ test("setext headings, lone HTML tags and CRLF pages", () => {
   assert.deepEqual(findReplacedAnchors(crlf(tr), crlf(en)).map((x) => x.line), [5]);
 });
 
+test("a rule moved by a paragraph added above and two merged below is not a reply", () => {
+  const en = "# T\n\nFirst paragraph.\n\n---\n\nSecond paragraph.\n\nThird paragraph.\n";
+  const tr = "# T\n\nErster Absatz.\n\nEin eingefügter Absatz.\n\n---\n\nZweiter und dritter Absatz zusammen.\n";
+  assert.deepEqual(findReplacedAnchors(tr, en), []);
+});
+
 // ---- the CLI, scoped the way CI runs it ----
 let repo;
 const CLEAN_ENV = Object.fromEntries(Object.entries(process.env).filter(([k]) => !/^GIT_/.test(k)));
