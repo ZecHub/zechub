@@ -32,6 +32,36 @@ Sprout is the baseline that every later change builds on. When the network-upgra
 
 ![Timeline from the August 2016 announcement through the parameter Ceremony to the October 28, 2016 Sprout launch](/content-images/sprout-timeline-348766352a.webp)
 
+
+## TL;DR
+
+- Sprout is the original launch of Zcash, live at the genesis block on October 28, 2016 (hardcoded timestamp 07:56 UTC) — not a numbered network upgrade.
+- It shipped the first practical zk-SNARK shielded transactions: z-addresses hide sender, receiver, and amount while nodes still verify no double-spends and balanced books.
+- Its parameters came from the Ceremony: six participants each generated a secret shard ("toxic waste"); if even one destroyed theirs, counterfeiting stayed impossible. One participant remained anonymous.
+- Sprout's proving was slow and memory-heavy — exactly the pain that pushed the Sapling redesign two years later.
+- Warning: once NU7 activates (mainnet targeted 5 November 2026, ZIP 259), ZEC still in Sprout becomes unspendable — migrate first (see the page's Recovering funds link).
+
+## Core Explanation
+
+Every public blockchain before Sprout displayed payments: who paid whom, and how much. Sprout was the first live, permissionless network to hide those details while still proving nobody cheated — strong on-chain privacy that worked in practice, not just on paper. Transparent addresses (t-addresses) behave like Bitcoin; shielded addresses (z-addresses) send value into the Sprout pool, where zk-SNARKs let a transaction prove validity without revealing details. No numbered ZIP defines Sprout — the ZIP process began later, with Overwinter — so Sprout is described by the original Zcash Protocol Specification and the Zerocash construction behind it.
+
+## Visual analogy
+
+Sprout is the first vault in the bank's history: deposits go into a black box that proves every withdrawal is covered without showing who owns what. The Ceremony is the master key cut into six pieces and scattered across the world — the vault's secret can only be rebuilt if someone reassembles every single piece.
+
+## Deep Dive
+
+When the network-upgrade mechanism arrived with Overwinter, it labeled the original rules consensus branch id 0 — the baseline every later branch measures from. The launch was announced in August 2016 for an October 28 genesis; the Ceremony ran in the weeks before; the Electric Coin Company (then the Zerocoin Electric Coin Company), led by Zooko Wilcox, built and shipped it. Publicly named Ceremony participants include Zooko Wilcox, Andrew Miller, Peter Van Valkenburgh, Peter Todd, and Derek Hinch of NCC Group.
+
+## Common Mistakes
+
+- **Calling Sprout a network upgrade.** It is the launch state; the upgrade mechanism itself only arrived with Overwinter.
+- **Believing the Ceremony required all six participants to be honest.** The opposite: security holds as long as at least one destroyed their shard.
+- **Ignoring the NU7 deadline.** After NU7 (ZIP 259) activates, Sprout ZEC is unspendable — move funds to a newer pool first.
+- **Assuming Sprout was always deposit-closed.** Canopy later stopped new value entering Sprout; withdrawals remained possible until NU7's rule.
+- **Thinking "shielded" means "unverifiable".** Nodes fully verify sprout transactions; they just cannot see the details.
+
+
 ## Glossary
 
 | Term | Plain-English meaning |
@@ -88,5 +118,14 @@ Sprout is the original launch of Zcash, not a later upgrade. It has been active 
 [Electric Coin Company](../zcash-organizations/electric-coin-company)
 
 ---
+
+
+## Related Pages
+
+- [Overwinter](./Overwinter.md) — the first upgrade, which labeled Sprout's rules branch id 0
+- [Sapling](./Sapling.md) — the redesign Sprout's slow proving motivated
+- [Canopy](./Canopy.md) — the upgrade that sealed Sprout to new deposits
+- [zk_SNARKS](./zk_SNARKS.md) — the technology behind the shielded pool
+
 
 Series: [Network Upgrades index](../start-here/network-upgrades) · Next: [Overwinter](../zcash-tech/overwinter)
