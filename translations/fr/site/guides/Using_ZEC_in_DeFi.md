@@ -140,11 +140,11 @@ Par l’intermédiaire du réseau [Base](https://www.base.org/), cbZEC sert de r
 
 <div class="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   
-<iframe width="560" height="315" src="https://www.youtube.com/embed/NcOQH5OeV7I?si=IPB1OElBsYj1AUt9" title="Coinbase Wrapped (ZEC CBZEC) Token Analysis" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NcOQH5OeV7I?si=IPB1OElBsYj1AUt9" title="Coinbase Wrapped (ZEC cbZEC) Token Analysis" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 </div>
 
-Vous trouverez ci-dessous les plateformes DeFi sur Base qui prennent en charge cbZec 
+Vous trouverez ci-dessous les plateformes DeFi sur Base qui prennent en charge cbZEC 
 
 ---
 
