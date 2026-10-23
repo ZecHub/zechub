@@ -48,6 +48,10 @@ Byzantine
 # terms, not brands; translations may localise them.
 OPSEC
 DVPN
+# Left unprotected by decision: Japanese, Korean and Chinese pages write it in
+# the usual local script (ビットコイン, 비트코인, 比特币), and each language follows
+# its glossary. Listed 2026-10-23 so the brand hold stops waiting for it.
+Bitcoin
 # Like Bitcoin, left unprotected: Japanese and Korean pages write it in the
 # usual local script (イーサリアム, 이더리움).
 Ethereum

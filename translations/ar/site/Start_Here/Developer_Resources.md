@@ -100,7 +100,7 @@ Testnet هي سلسلة منفصلة ذات عملات بلا قيمة، تسم�
 
 أُبقيت لأن المقالات الأقدم ترتبط بها، ولأنها لا تزال مرجعًا لكيفية تصرف العقدة المتقاعدة. لا تبدأ من هنا.
 
-يوثق [كتاب Zcashd](https://zcash.github.io/zcash/) و[مرجع RPC لـ zcashd](https://zcash.github.io/rpc/) برمجيات وصلت إلى [نهاية العمر](https://zcash.github.io/zcash/user/end-of-life.html) في يوليو 2026. ومستودع [zcash/zcash](https://github.com/zcash/zcash) مؤرشف.
+يوثق [كتاب zcashd](https://zcash.github.io/zcash/) و[مرجع RPC لـ zcashd](https://zcash.github.io/rpc/) برمجيات وصلت إلى [نهاية العمر](https://zcash.github.io/zcash/user/end-of-life.html) في يوليو 2026. ومستودع [zcash/zcash](https://github.com/zcash/zcash) مؤرشف.
 
 إذا كان لديك مورد لإضافته، أو لاحظت شيئًا هنا أصبح قديمًا، فافتح issue أو pull request. لا تملك الفرق دائمًا القدرة على إبقاء كل شيء محدّثًا، والإبلاغ عما واجهته يساعد في توجيه الأدلة.
 

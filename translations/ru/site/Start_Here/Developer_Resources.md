@@ -100,7 +100,7 @@ zcashd включал кошелёк вместе с узлом. Этот кош
 
 Сохранены, поскольку на них ссылаются старые статьи и поскольку они всё ещё служат справочником о поведении выведенного из эксплуатации узла. Не начинайте с них.
 
-[The Zcashd Book](https://zcash.github.io/zcash/) и [справочник zcashd RPC](https://zcash.github.io/rpc/) документируют ПО, достигшее [конца жизненного цикла](https://zcash.github.io/zcash/user/end-of-life.html) в июле 2026 года. Репозиторий [zcash/zcash](https://github.com/zcash/zcash) архивирован.
+[The zcashd Book](https://zcash.github.io/zcash/) и [справочник zcashd RPC](https://zcash.github.io/rpc/) документируют ПО, достигшее [конца жизненного цикла](https://zcash.github.io/zcash/user/end-of-life.html) в июле 2026 года. Репозиторий [zcash/zcash](https://github.com/zcash/zcash) архивирован.
 
 Если у вас есть ресурс, который стоит добавить, или вы заметили здесь устаревшую информацию, откройте issue или pull request. У команд не всегда есть возможность поддерживать всё в актуальном состоянии, и информация о том, с чем вы столкнулись, помогает направлять разработку руководств.
 
