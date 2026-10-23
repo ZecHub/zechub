@@ -26,11 +26,11 @@ Yeni kullanıcı rehberinde belirtildiği gibi, Zcash forumu Zcash konuları ve 
 
 Z.cash, Zcash'in ana web sitesidir. Geniş bir kullanıcı kitlesi için Zcash hakkında içerik ve dokümantasyon sunar ve yeni kullanıcıların Zcash ile ilgili teknik açıklamaları daha derinlemesine incelemesine olanak tanır.
 
-**[Zcash Github](https://github.com/zcash/zcash)**
+**[Zcash GitHub](https://github.com/zcash/zcash)**
 
-Kodlama becerileriniz var mı ve Zcash'in teknik tarafına daha derinden dalmak mı istiyorsunuz? Zcash Github Repo, ilk Zcash düğüm uygulaması olan zcashd'nin deposudur. zcashd, 18 Temmuz 2026'da otomatik destek sonu durdurmasına ulaştı ve artık bakımı yapılmıyor; bu girdinin önceden bağlantı verdiği indirme sayfası da artık sunulmuyor. Bakımı yapılan yığın, düğüm için [Zebra](https://github.com/ZcashFoundation/zebra) ve cüzdan için [Zallet](https://github.com/zcash/zallet) şeklindedir — [zcashd'den Zebra ve Zallet'e geçiş rehberine](https://zechub.wiki/guides/migration-guide-zcashd-to-zebrad-zallet) bakın.
+Kodlama becerileriniz var mı ve Zcash'in teknik tarafına daha derinden dalmak mı istiyorsunuz? Zcash GitHub Repo, ilk Zcash düğüm uygulaması olan zcashd'nin deposudur. zcashd, 18 Temmuz 2026'da otomatik destek sonu durdurmasına ulaştı ve artık bakımı yapılmıyor; bu girdinin önceden bağlantı verdiği indirme sayfası da artık sunulmuyor. Bakımı yapılan yığın, düğüm için [Zebra](https://github.com/ZcashFoundation/zebra) ve cüzdan için [Zallet](https://github.com/zcash/zallet) şeklindedir — [zcashd'den Zebra ve Zallet'e geçiş rehberine](https://zechub.wiki/guides/migration-guide-zcashd-to-zebrad-zallet) bakın.
 
-**[Zcash Foundation Github](https://github.com/ZcashFoundation)**
+**[Zcash Foundation GitHub](https://github.com/ZcashFoundation)**
 
 Zcash Foundation projelerine ev sahipliği yapan bir diğer GitHub deposu; buna Rust ile yazılmış bir Zcash düğüm uygulaması olan [zebra](https://github.com/ZcashFoundation/zebra) da dahildir.
 

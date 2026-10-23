@@ -100,7 +100,7 @@ Nnansa yi hackathon aba no yɛ nea nkurɔfo rekyekye ho mfonini pa: [ZecHub 2024
 
 Wɔde sie efisɛ nsɛm dedaw no bata wɔn ho, na esiane sɛ wɔda so ara yɛ nea wɔde gyina hɔ ma sɛnea node a wɔakɔ pɛnhyen no yɛɛ n’ade nti. Mfi ase wɔ ha.
 
-[Zcashd Nhoma no](https://zcash.github.io/zcash/) ne nea [zcashd RPC nkyerɛkyerɛmu](https://zcash.github.io/rpc/) document software a ɛduruu [nkwa awiei](https://zcash.github.io/zcash/user/end-of-life.html) wɔ July 2026. Ɔde ne nsa kyerɛɛ ne so [zcash/zcash a wɔde di dwuma](https://github.com/zcash/zcash) wɔde nneɛma akorae no asie.
+[zcashd Nhoma no](https://zcash.github.io/zcash/) ne nea [zcashd RPC nkyerɛkyerɛmu](https://zcash.github.io/rpc/) document software a ɛduruu [nkwa awiei](https://zcash.github.io/zcash/user/end-of-life.html) wɔ July 2026. Ɔde ne nsa kyerɛɛ ne so [zcash/zcash a wɔde di dwuma](https://github.com/zcash/zcash) wɔde nneɛma akorae no asie.
 
 Sɛ wowɔ resource bi a wode bɛka ho, anaasɛ wuhu biribi wɔ ha a ayɛ stale a, bue issue anaa pull request. Ɛnyɛ bere nyinaa na akuw ahorow wɔ tumi a wɔde bɛma biribiara ayɛ nea ɛwɔ hɔ mprempren, na nea wutuu mmirika kɔɔ mu no frankaa a wode bɛhyɛ mu no boa ma wɔkyerɛ akwankyerɛfo no kwan.
 

@@ -100,7 +100,7 @@ Recent hackathon results are a good picture of what people are building: [ZecHub
 
 Kept because older articles link to them, and because they are still the reference for how the retired node behaved. Do not start here.
 
-[The Zcashd Book](https://zcash.github.io/zcash/) and the [zcashd RPC reference](https://zcash.github.io/rpc/) document software that reached [end of life](https://zcash.github.io/zcash/user/end-of-life.html) in July 2026. The [zcash/zcash](https://github.com/zcash/zcash) repository is archived.
+[The zcashd Book](https://zcash.github.io/zcash/) and the [zcashd RPC reference](https://zcash.github.io/rpc/) document software that reached [end of life](https://zcash.github.io/zcash/user/end-of-life.html) in July 2026. The [zcash/zcash](https://github.com/zcash/zcash) repository is archived.
 
 If you have a resource to add, or you spot something here that has gone stale, open an issue or a pull request. Teams do not always have capacity to keep everything current, and flagging what you ran into helps direct the guides.
 

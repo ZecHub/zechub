@@ -100,7 +100,7 @@ TAZを入手することが難しい部分です。これは、古いドキュ�
 
 古い記事からリンクされていること、そして廃止されたノードの動作に関する参照資料であり続けることから残しています。ここから始めないでください。
 
-[The Zcashd Book](https://zcash.github.io/zcash/)と[zcashd RPCリファレンス](https://zcash.github.io/rpc/)は、2026年7月に[サポート終了](https://zcash.github.io/zcash/user/end-of-life.html)となったソフトウェアを文書化しています。[zcash/zcash](https://github.com/zcash/zcash)リポジトリはアーカイブされています。
+[The zcashd Book](https://zcash.github.io/zcash/)と[zcashd RPCリファレンス](https://zcash.github.io/rpc/)は、2026年7月に[サポート終了](https://zcash.github.io/zcash/user/end-of-life.html)となったソフトウェアを文書化しています。[zcash/zcash](https://github.com/zcash/zcash)リポジトリはアーカイブされています。
 
 追加したいリソースがある場合、またはここに古くなった情報を見つけた場合は、issueまたはプルリクエストを作成してください。チームには常にすべてを最新に保つ余力があるとは限らず、遭遇した問題を知らせることがガイドの改善につながります。
 
