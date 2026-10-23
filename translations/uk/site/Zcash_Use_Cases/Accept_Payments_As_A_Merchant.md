@@ -121,7 +121,7 @@ Zcash надає:
 
 
 - [Гаманці](/wallets)
-- [Приватність — найкращі практики](/privacy/best-practices)
+- [Хто може бачити ваш платіж у Zcash](/start-here/who-can-see-your-zcash-payment)
 
 <br/>
 

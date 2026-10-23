@@ -27,8 +27,8 @@ Rust -> [https://rustup.rs/](https://rustup.rs/)
 jq -> [https://jqlang.github.io/jq/download/](https://jqlang.github.io/jq/download/)
 （ターミナルでJSON情報を表示するために）
 
-curl -> [https://everything.curl.dev/get/linux](https://everything.curl.dev/get/linux)
-（クライアラーRPCをクエリするため）
+curl -> [https://everything.curl.dev/install/linux.html](https://everything.curl.dev/install/linux.html)
+（クローラーRPCをクエリするため）
 
 npm (nvmとともに) -> [https://medium.com/@iam_vinojan/how-to-install-node-js-and-npm-using-node-version-manager-nvm-143165b16ce1](https://medium.com/@iam_vinojan/how-to-install-node-js-and-npm-using-node-version-manager-nvm-143165b16ce1)
 （ブラウザでP2P-Vizを表示するために）
@@ -117,7 +117,7 @@ cargo run --release --features crawler --bin crawler -- --help
 
 これによりプログラムがコンパイルされ、すべてが正常に動作しているか確認できます。
 
-クライアラーを実行するには、開始コマンドに '--seed-addrs' フラグを追加し、少なくとも1つの有効なZcashノードIPアドレスを含める必要があります。クライアラーは正確な結果を得るために、ある程度の時間をかけて実行されるべきです。いくつかのサンプルノードIPアドレスは [https://zcashblockexplorer.com/nodes](https://zcashblockexplorer.com/nodes) にあります。
+クライアラーを実行するには、開始コマンドに '--seed-addrs' フラグを追加し、少なくとも1つの有効なZcashノードIPアドレスを含める必要があります。クライアラーは正確な結果を得るために、ある程度の時間をかけて実行されるべきです。いくつかのサンプルノードIPアドレスは [https://mainnet.zcashexplorer.app/nodes](https://mainnet.zcashexplorer.app/nodes) にあります。
 
 クライアラーが動作している間に情報を取得するには、開始コマンドに '--rpc-addr' フラグを追加する必要があります。これはクライアラー自体だけを実行するためには必須ではありませんが、それ以外の場合はクライアラーを停止（ctrl+c または SIGKILL）しない限り情報を表示することはできません。
 

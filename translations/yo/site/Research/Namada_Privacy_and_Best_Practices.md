@@ -8,7 +8,7 @@ published: 2025-08-02
 
 ![Namada Logo](/content-images/nam-078c7b6883.webp)
 
-# Àṣà tó dára jùlọ fún Ìpamọ́-Námádà
+# Àwọn Ìlànà Ìpamọ́ Namada Tó Dáa Jùlọ
 
 > Ìtọ́ni tó wúlò, tí a lè gbé ṣe láti rí i pé o ní ìpamọ́ra dé ibi tó pọ̀ jù lọ lórí Namada - àti òye pàtó nípa bí ààbò rẹ̀ ti ń parí sí.
 
@@ -18,7 +18,7 @@ published: 2025-08-02
 
 ## Bí Namada Ṣe Ń Dáàbò Bo Ìṣírí Rẹ
 
-Namada jẹ́ olómìnira, ìpamọ-kọ̀ọ́kàn blockchain tí ó fi àdírésì àpò owó pamọ́, iye ìdánwò àti àwọn òdìkejì nípa lílo **zero-knowledge proofs (zk-SNARK)**.
+Namada jẹ́ blockchain aládàáni, àkọ́kọ́ ìpamọ́ tí ó ń fi àdírẹ́sì àpò owó, iye ìṣòwò, àti ìwọ̀nba pamọ́ nípa lílo **ẹ̀rí ìmọ̀ òdo (zk-SNARKs)**.
 
 ### Àwọn Ànímọ́ Ìpamọ́ pàtàkì
 
@@ -58,7 +58,7 @@ Paapaa aṣiri on-chain ti o lagbara julọ le jẹ ipalara nipasẹ ihuwasi olu
 ### 2. Àwọn Ohun Ìní Tó Ń Mú Kí Ọ̀ràn Túbọ̀ Rọrùn Sí I
 - Lo adirẹsi àlàfo kan tí a yàtọ̀ sí ** nìkan** fún àwọn afárá tó ń wọlé.
 - Ẹ tètè dáàbò bo àwọn ohun ìní yín lẹ́yìn tí ẹ bá ti wọlé.
-- Má ṣe máa lọ síbi tó bá ti ṣeé ṣe.
+- Dín ààlà tí ó ń jáde láti Namada kù nígbà tí ó bá ṣeé ṣe.
 
 ### 3. MASP (Multi-Asset Shielded Pool) Àjọ tí ó ń dáàbò bo àwọn ohun ìní púpọ̀.
 - Pa gbogbo ohun ìní mọ́ lábẹ́ MASP gẹ́gẹ́ bí àfojúsùn.
@@ -96,7 +96,7 @@ Paapaa aṣiri on-chain ti o lagbara julọ le jẹ ipalara nipasẹ ihuwasi olu
 ## Ṣíṣe àfikún
 
 Ṣe o ni awọn ilana to dara julọ tabi alaye? 
-[Darapọ̀ mọ́ ìjíròrò lórí Àríyànjiyàn](https://discord.gg/srC76aE6)
+[Darapọ mọ ijiroro lori Discord](https://discord.gg/srC76aE6)
 
 ---
 *Ìgbà tí a ṣe àtúnṣe ìkẹyìn: March 2026*

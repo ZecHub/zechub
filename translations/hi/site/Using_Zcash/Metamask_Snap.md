@@ -64,9 +64,10 @@ MetaMask में **Add Network** चुनें और यह दर्ज �
 **Zcash Mainnet** के लिए;
 ```markdown
 - Name: Zcash Mainnet  
-- RPC URL: https://mainnet.lightwalletd.com:9067 
+- RPC URL: https://zjs.zec.rocks 
 - Symbol: ZEC
 ```
+`https://zjs.zec.rocks` एक WebZjs-compatible (gRPC-web) lightwalletd सर्वर है, जिसे [zec.rocks](https://zec.rocks) (@emersonian) संचालित करता है। टेस्टनेट के लिए, `https://zjs.zec.rocks/testnet` का उपयोग करें। यदि आप WebZjs वेब wallet स्वयं चलाते हैं, तो इसे `LIGHTWALLETD_PROXY` के रूप में सेट करें।
 
 ---
 
@@ -96,7 +97,7 @@ MetaMask में **Add Network** चुनें और यह दर्ज �
 > **ETH -> ZEC swap करें** - **LeoDex** जैसी सेवाओं का उपयोग करें और अपनी shielded address पर भेजें।  
 > **Exchange Withdrawal** - खरीदे गए ZEC को अपने WebZjs shielded address पर withdraw करें।  
 
-![LEODEX-SWAP](/content-images/HyLQ0G2ugg-8d82ef24f6.webp)
+![LeoDex-SWAP](/content-images/HyLQ0G2ugg-8d82ef24f6.webp)
 
 
 > => **पूर्ण गोपनीयता** के लिए shielded (z) addresses का उपयोग करें।
@@ -157,4 +158,4 @@ MetaMask में **Add Network** चुनें और यह दर्ज �
 > Shielded proofs में समय लग सकता है, WebAssembly browser के भीतर computation संभालता है।  
 > Recovery सरल है, MetaMask और Snap इंस्टॉल करें, फिर अपनी मौजूदा seed import करें।  
 > Snap डिफ़ॉल्ट रूप से **shielded ZEC** पर केंद्रित है, transparent addresses **मुख्य फोकस नहीं हैं**।  
-> transaction confirmations के लिए [zcashblockexplorer.com](https://zcashblockexplorer.com) का उपयोग करें।
+> transaction confirmations के लिए [mainnet.zcashexplorer.app](https://mainnet.zcashexplorer.app) का उपयोग करें।

@@ -10,7 +10,7 @@ Saa akwankyerɛ yi ma anammɔn anammɔn nanteɛ a ɛfa sɛdeɛ wɔbɛyɛ multisi
     src="https://www.youtube.com/embed/eagkCIv3BlQ"
     title="Zkool Demo | The Successor to Ywallet"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    ma kwan maFullScreen no
+    allowFullScreen
     loading="lazy"
   />
 </div>

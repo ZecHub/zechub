@@ -74,7 +74,7 @@ Rosa anatabasamu kwa fahari akionyesha kwamba anakubali **Zcash.**
 
 **Website**: somosdulceros.com imekataliwa na haiwezi kutatua tena Tumia viungo vya kijamii hapa chini.
 
-** Mitandao ya kijamii:** [Instagram ya Mtandao](https://www.instagram.com/somos_dulceros) | [X Jukwaa la Mbele](https://twitter.com/RosaMRangel) | [Free2z](https://free2z.cash/Criptodulceros/zpage/criptodulceros-01)
+** Mitandao ya kijamii:** [Instagram](https://www.instagram.com/somos_dulceros) | [X Jukwaa la Mbele](https://twitter.com/RosaMRangel) | [Free2z](https://free2z.cash/Criptodulceros/zpage/criptodulceros-01)
 
 **Zcash Unified Address:** 
 
@@ -106,7 +106,7 @@ Baadhi ya vitu vingine nzuri Papeles a rangi handcrafts.
 
 ** Mitandao ya kijamii** 
 
-[Instagram ya Mtandao](https://instagram.com/papelesacolor) | [Free2z](https://free2z.cash/PapelesaColor) 
+[Instagram](https://instagram.com/papelesacolor) | [Free2z](https://free2z.cash/PapelesaColor) 
 
 [Mti wa Linktree](https://linktr.ee/Papelesacolor)
 
@@ -138,7 +138,7 @@ Je, unataka kujisikia *uwezo?* **Emprendedoras Digitales de Venezuela** ni mahal
 
 ** Mitandao ya kijamii:** 
 
-[Instagram ya Mtandao](https://instagram.com/emprendedorasdigitalesve) |  [Jukwaa la kuendesha gari](https://twitter.com/EmpreDigiVE) | [Telegram ya simu](https://t.me/emprendedorasdigitalesve) | [LinkedIn](https://www.linkedin.com/company/emprendedorasdigitalesve/) 
+[Instagram](https://instagram.com/emprendedorasdigitalesve) |  [Jukwaa la kuendesha gari](https://twitter.com/EmpreDigiVE) | [Telegram](https://t.me/emprendedorasdigitalesve) | [LinkedIn](https://www.linkedin.com/company/emprendedorasdigitalesve/) 
 
 **Unified Address:** 
 
@@ -163,7 +163,7 @@ Mahali hapa, linalodhibitiwa na **Roosevelt Gordones and Aura Brito** hutoa hudu
 
 ** Mitandao ya Kijamii**
 
-[Telegram ya simu](https://t.me/gorbritsm) | [Instagram ya Mtandao](https://www.instagram.com/gorbritsm/) |  [X Jukwaa la jukwaa](https://twitter.com/GorBritSM) | 
+[Telegram](https://t.me/gorbritsm) | [Instagram](https://www.instagram.com/gorbritsm/) |  [X Jukwaa la jukwaa](https://twitter.com/GorBritSM) | 
 
 GorBrit inakubali mbinu mbalimbali za malipo, ikiwa ni pamoja na Cryptocurrencies, kati ya ambayo, ni ** Zcash. *
 
@@ -193,7 +193,7 @@ Kazi yake inajulikana katika mazingira ya Zcash shukrani kwa mchango wake kwenye
 
 ** Mitandao ya kijamii:**
 
-[Telegram ya simu](https://t.me/Robmarn) | [X Jukwaa la Mbele](https://twitter.com/robmarn) | [Free2z](https://free2z.cash/robmarn)
+[Telegram](https://t.me/Robmarn) | [X Jukwaa la Mbele](https://twitter.com/robmarn) | [Free2z](https://free2z.cash/robmarn)
 
  Barquisimeto - Venezuela 
 
@@ -205,7 +205,7 @@ Misumari nzuri, mikono mizuri shukrani kwa Karin Beauty Studio.
 
 ** Mitandao ya kijamii:** 
 
-[Instagram ya Mtandao](https://instagram.com/karinbeautystudio) 
+[Instagram](https://instagram.com/karinbeautystudio) 
 
 **Unified Address:** 
 
@@ -229,7 +229,7 @@ Nice kifahari kuwasilisha kwa ajili ya scrunchies Corona de brilllitos
 
 ** Mitandao ya Kijamii**
 
-[Instagram ya Mtandao](https://instagram.com/coronadebrillitos) 
+[Instagram](https://instagram.com/coronadebrillitos) 
 
 **Zcash Unified Address** 
 
@@ -261,7 +261,7 @@ Tecnopapapi ndiye mtu sahihi wa kuwasiliana naye!
 
 ** Mitandao ya kijamii** 
 
-Free2z. [Telegram ya simu](https://t.me/Lexihel) | [YouTube ya Kiingereza](https://youtube.com/@tecnopapapi) | [X Jukwaa la Mbele](https://twitter.com/tecnopapapi) | [TikTok](https://www.tiktok.com/@lexihel) | [Instagram ya Mtandao](https://www.instagram.com/tecnopapapi/) |  [Facebook ya kijamii](https://www.facebook.com/tecnopapapi) 
+Free2z. [Telegram](https://t.me/Lexihel) | [YouTube](https://youtube.com/@tecnopapapi) | [X Jukwaa la Mbele](https://twitter.com/tecnopapapi) | [TikTok](https://www.tiktok.com/@lexihel) | [Instagram](https://www.instagram.com/tecnopapapi/) |  [Facebook ya kijamii](https://www.facebook.com/tecnopapapi) 
 
 Tecnopapapi inakubali cryptocurrencies (ikiwa ni pamoja na 3ZEC) na mbinu nyingine za malipo. 
 
@@ -349,7 +349,7 @@ Huduma ya utoaji. Kuchukua mbali. Uhifadhi
 
 ** Mitandao ya kijamii** 
 
-[Instagram ya Mtandao](https://instagram.com/allegriniristorante) | [X Jukwaa la Mbele](https://twitter.com/AllegriniRisto) | [Telegram ya simu](https://t.me/AllegriniRistorante) | [Pinterest](https://pin.it/6z8hq6F)
+[Instagram](https://instagram.com/allegriniristorante) | [X Jukwaa la Mbele](https://twitter.com/AllegriniRisto) | [Telegram](https://t.me/AllegriniRistorante) | [Pinterest](https://pin.it/6z8hq6F)
 
 (Karibuni katika [free2z.cash (kiasi cha fedha)](http://free2z.cash). )
 

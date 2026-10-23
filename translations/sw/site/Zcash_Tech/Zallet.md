@@ -28,11 +28,11 @@ Zallet ni sasa katika ** beta**. Ni haijawahi kikamilifu upya. Breaking mabadili
 
 `zcashd` bundled Bitcoin Core inayotokana makubaliano node na mkoba katika mchakato mmoja. kubuni kwamba ni gone.
 
- Jukumu. Kijiko cha zamani. Kijibo cha sasa.
+| Jukumu | Mrundiko wa zamani | Mrundiko wa sasa |
 |------|-----------|---------------|
-Makubaliano / P2P. `zcashd` Zebra (Kikundi cha wanyama)`zebrad`) au Zakura.
- Wallet / funguo / mizani. `zcashd` `wallet.dat` Zallet. (Mwanamke)`wallet.db`) |
-Mwangaza-mteja indexer. `lightwalletd` Zaino au `lightwalletd` |
+| Makubaliano / P2P | `zcashd` | Zebra (`zebrad`) au Zakura |
+| Pochi / funguo / salio | `zcashd` `wallet.dat` | **Zallet** (`wallet.db`) |
+| Kiashiria cha mteja wa mwanga | `lightwalletd` | Zaino au `lightwalletd` |
 
 Kugawanya mkoba nje ya node ina maana:
 
@@ -182,13 +182,13 @@ Hatua kwa hatua operator maelezo: [Kiongozi wa Uhamiaji: zcashd kwa Zebrad/Zalle
 
 ## Jinsi Zallet inahusiana na programu nyingine
 
- Zallet zecd Zashi / ZODL YWallet Zebra Zakura Zaino
+| | Zallet | zecd | Zashi / ZODL / YWallet | Zebra / Zakura | Zaino |
 |--|--------|------|------------------------|----------------|-------|
- Ni nini? Full-node RPC mkoba Shielded kwanza mfuko wa fedha server End user mifuko ya fedha makubaliano node Indexer / lightwalletd badala.
-Inachukua nafasi ya. `zcashd` mkoba. Si kuanguka-katika `zcashd` clone  Programu za simu/desktop  `zcashd` kiungo. `lightwalletd` |
- Inahitaji node ya ndani Ndiyo. Yes (Zebra default) No (mteja mwanga). It * is* the node. Yes.
- zcashd RPC compat. Imeundwa kama njia ya Compat. ndogo iliyochaguliwa subset tu N/A sehemu / Zakura hali ya Compact API tofauti
-◯ Mtindo wa utunzaji. ▪ Opereta anaweka funguo ndani ya nyumba yake `wallet.db` Seed-kupata server. Kifaa cha mtumiaji funguo hakuna mkoba, hakuna funguo.
+| Ni nini | Pochi ya RPC yenye nodi kamili | Seva ya pochi iliyolindwa kwanza | Pochi za watumiaji wa mwisho | Nodi ya makubaliano | Kibadilishaji cha Indexer / lightwalletd |
+| Hubadilisha | `zcashd` pochi | Sio nafasi ya kuingia `zcashd` nakala | Programu za simu/kompyuta | `zcashd` nodi | `lightwalletd` |
+| Inahitaji nodi ya ndani | Ndiyo | Ndiyo (Zebra kwa chaguo-msingi) | Hapana (mteja mwepesi) | Ni *kifundo* | Ndiyo |
+| zcashd RPC compat | Imeundwa kama njia ya upatanishi | Kikundi kidogo kilichochaguliwa pekee | N/A | Hali ya ulinganifu wa sehemu / Zakura | API tofauti |
+| Mfano wa uangalizi | Mendeshaji anashikilia funguo ndani `wallet.db` | Seva inayoweza kupona mbegu | Funguo za kifaa cha mtumiaji | Hakuna pochi | Hakuna funguo |
 
 Zallet na **zecd** wanaweza wote kukaa mbele ya Zebra. Pick Zallet wakati unahitaji `z_*` mkoba uso na uhamiaji njia kutoka `wallet.dat`. Chagua zecd wakati unataka server ulinzi-kwanza kwamba ni wazi * si* a `zcashd` kiungo.
 

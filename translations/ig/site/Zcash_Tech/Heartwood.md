@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Osisi nkwụ
+# Heartwood
 
 > Heartwood gara ndụ na Zcash mainnet na ngọngọ 903,000 (July 16, 2020 UTC).
 
@@ -18,7 +18,7 @@ Why this matters. Miners earn newly minted ZEC every time they mine a block. Bef
 
 The coinbase transaction is the special transaction that pays out a block reward. Before Heartwood, its outputs had to be transparent, so a miner's freshly minted ZEC always started life in a public address. Heartwood changed the consensus rules so that, in the words of ZIP 213, coinbase transactions may contain Sapling outputs. In plain terms, miners can now receive rewards directly into shielded Sapling addresses. Transparent coinbase outputs are still supported, so this is a new option, not a forced change.
 
-![Before Heartwood a miner's block reward had to go to a transparent public address. After Heartwood coinbase transactions may contain Sapling outputs, so the reward can go straight to a shielded address](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/heartwood-shielded-coinbase.png)
+![Before Heartwood a miner's block reward had to go to a transparent public address. After Heartwood coinbase transactions may contain Sapling outputs, so the reward can go straight to a shielded address](/content-images/heartwood-shielded-coinbase-3bf38ae60d.webp)
 
 ## Ihe Mere E Ji Bu ụzọ Kụọ Osisi Sapling
 
@@ -28,25 +28,25 @@ Shielded coinbase targets Sapling outputs specifically, and there is a reason fo
 
 Heartwood also changed what a block header commits to. The header field previously named hashFinalSaplingRoot was repurposed and renamed to hashLightClientRoot. It now commits to the root of a Merkle Mountain Range (MMR), a running structure built over the header data and metadata of prior blocks, such as timestamps, difficulty targets, Sapling roots, accumulated work, and transaction counts. That commitment lets a light client, or an outside chain, verify Zcash's proof-of-work using a small proof whose size grows only logarithmically with the length of the chain. The payoff is better light-client wallets and easier third-party and cross-chain integration, because a client no longer has to download every block to trust the work behind the chain.
 
-![FlyClient flow: each block's header data is committed into a Merkle Mountain Range root (hashLightClientRoot), which lets a light client verify proof-of-work with a small logarithmic-size proof](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/heartwood-flyclient.png)
+![FlyClient flow: each block's header data is committed into a Merkle Mountain Range root (hashLightClientRoot), which lets a light client verify proof-of-work with a small logarithmic-size proof](/content-images/heartwood-flyclient-0c6b5bda0d.webp)
 
 ## Ebe Heartwood dabara adaba
 
 Heartwood is one step in a run of Zcash upgrades, each adding a piece the next one relies on. Overwinter and Sapling arrived in 2018, Blossom in 2019, and Heartwood in 2020 at block 903,000. Canopy followed later in 2020 at block 1,046,400. Sapling is the key link in this chain for Heartwood: its efficient shielded-transaction machinery was the technical precondition that made shielded coinbase possible.
 
-![Timeline of Zcash upgrades: Overwinter and Sapling in 2018, Blossom in 2019, and Heartwood in 2020](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/heartwood-timeline.png)
+![Timeline of Zcash upgrades: Overwinter and Sapling in 2018, Blossom in 2019, and Heartwood in 2020](/content-images/heartwood-timeline-99bc79b6e9.webp)
 
 ## Akwụkwọ ọkọwa okwu
 
-Okwu. N'asụsụ Bekee nkịtị pụtara:
+| Oge okwu | Nkọwa Bekee dị mfe |
 |---|---|
-◯ Nwelite netwọk (NU) ▸ Mgbanwe a haziri ahazi na iwu nkwekọrịta Zcash, nke arụ ọrụ n'ogo ngọngọ setịpụrụ.
- Mgbasa ozi Coinbase  Ọ bụ azụmahịa pụrụ iche n'ime ngọngọ ọ bụla nke na-akwụ ụgwọ ọrụ ahụ.
-◯ Adreesị Sapling echedoro. Ụdị adreesị Zcash nke onwe ya site na nkwalite Sapling.
-◯ Ụlọ akụ ego e chebere echebe ❖ Mgbanwe nke Heartwood na-eme ka a kwụọ ụgwọ ọrụ ndị dị n'ime oghere ahụ gaa n'adres Sapling echekwara echebe.
- FlyClient  Usoro nke na-enye ndị ahịa ọkụ aka ịchọpụta ihe àmà ọrụ site n'iji obere ihe ngosi.
-◯ Merkle Mountain Range (MMR) A na-agba ọsọ nchịkọta nke blocks gara aga na block header commits to.
-◯ Consensus branch id. A mkpado na-akọwa nke nkwalite si iwu a azụmahịa eso, eji maka replay nchedo.
+| Network upgrade (NU) | Mgbanwe nhazi na iwu nkwekọrịta Zcash's, nke a na-arụ ọrụ na elu blọk edobere |
+| Coinbase transaction | Azụmahịa pụrụ iche dị na ngọngọ ọ bụla nke na-akwụ ụgwọ ngọngọ ahụ |
+| Shielded Sapling address | Ụdị adreesị Zcash nkeonwe nke mmelite Sapling webatara |
+| Shielded coinbase | Mgbanwe Heartwood nke na-ekwe ka a kwụọ ụgwọ ọrụ ngọngọ n'ime adreesị Sapling echekwara |
+| FlyClient | Ụzọ nke na-enye ndị ahịa ìhè ohere iji obere ihe akaebe chọpụta ihe akaebe nke ọrụ |
+| Merkle Mountain Range (MMR) | Nchịkọta na-agba ọsọ nke blọk ndị gara aga nke isi blọk ahụ na-eme |
+| Consensus branch id | Akara ngosi nke na-akọwa iwu nkwalite azụmahịa na-eso, nke ejiri maka nchekwa replay |
 
 ## Ajụjụ ndị a na-ajụkarị
 
@@ -88,7 +88,7 @@ Mgbasa ozi Coinbase ga-abụ ihe na-enweghị ntụpọ, yabụ ụgwọ ọrụ
 
 [Akpa ego](../using-zcash/wallets)
 
-[zk-SNARKS](../zcash-tech/zk-snarks)
+[zk-SNARKs](../zcash-tech/zk-snarks)
 
 [Electric Coin Company](../zcash-organizations/electric-coin-company)
 
@@ -96,4 +96,4 @@ Mgbasa ozi Coinbase ga-abụ ihe na-enweghị ntụpọ, yabụ ụgwọ ọrụ
 
 ---
 
-Usoro: [Nhazi nke netwọkụ na-emelite.](../start-here/network-upgrades) · Nke gara aga: [Osisi okooko osisi Blossom](../zcash-tech/blossom) · Nke ọzọ: [Ugboro abụọ](../zcash-tech/canopy)
+Usoro: [Nhazi nke netwọkụ na-emelite.](../start-here/network-upgrades) · Nke gara aga: [Blossom](../zcash-tech/blossom) · Nke ọzọ: [Canopy](../zcash-tech/canopy)

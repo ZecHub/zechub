@@ -6,7 +6,7 @@
 # Zcash Adreslerini Görselleştirme
 
 Zcash hakkında ilk kez bilgi ediniyorsanız, hemen iki tür [işlemin](https://zechub.wiki/using-zcash/transactions) gerçekleşebileceğini fark edeceksiniz: *transparent* ve *shielded*.
-Ayrıca, Zcash ekosistemindeki en son gelişmeleri takip ediyorsanız, [Unified Address](https://electriccoin.co/blog/unified-addresses-in-zcash-explained/) ya da UA'leri öğrenmiş olabilirsiniz.
+Ayrıca, Zcash ekosistemindeki en son gelişmeleri takip ediyorsanız, [Birleşik Adresleri](https://web.archive.org/web/20260823012524/https://electriccoin.co/blog/unified-addresses-in-zcash-explained/) ya da UA'leri öğrenmiş olabilirsiniz.
 Zcash sektöründeki kişiler *shielded* işlemlerden söz ettiğinde, sapling veya orchard protokolleri için kodlanmış adresleri içeren işlemleri kastederler. 
 UA'ler, *shielded* ya da transparent türündeki *herhangi bir* işlemi tek bir adres içinde birleştirmek için tasarlanmıştır. Bu genelleme, ileriye dönük olarak kullanıcı deneyimini sadeleştirmenin anahtarıdır. Bu rehberin amacı, UA'lere dair anlayışı somut görsel örneklerle desteklemektir.
 

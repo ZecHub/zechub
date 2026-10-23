@@ -131,16 +131,16 @@ Las pruebas de conocimiento cero son un campo profundo y nos quedamos en el nive
 
 | Término | Significado en lenguaje sencillo |
 |---|---|
-| **Prueba de conocimiento cero** | Convencer a alguien de que una afirmación es verdadera sin revelar nada más |
-| **Probador / Verificador** | Quien hace la prueba / quien la comprueba |
-| **Completitud** | Las afirmaciones verdaderas siempre son aceptadas (de un probador honesto) |
-| **Solidez** | Las afirmaciones falsas son rechazadas (los tramposos no pueden ganar salvo por suerte) |
-| **Testigo** | Las entradas secretas que hacen verdadera la afirmación |
-| **Circuito aritmético** | Una afirmación reescrita como sumas y multiplicaciones sobre un campo finito |
-| **No interactivo (Fiat-Shamir)** | Una prueba de una sola vez que no necesita ida y vuelta en vivo |
-| **Sucinto** | La prueba es minúscula y rápida de verificar sin importar el tamaño de la afirmación |
+| **Zero-knowledge proof** | Convencer a alguien de que una afirmación es verdadera sin revelar nada más |
+| **Prover / Verifier** | Quien hace la prueba / quien la comprueba |
+| **Completeness** | Las afirmaciones verdaderas siempre son aceptadas (de un probador honesto) |
+| **Soundness** | Las afirmaciones falsas son rechazadas (los tramposos no pueden ganar salvo por suerte) |
+| **Witness** | Las entradas secretas que hacen verdadera la afirmación |
+| **Arithmetic circuit** | Una afirmación reescrita como sumas y multiplicaciones sobre un campo finito |
+| **Non-interactive (Fiat-Shamir)** | Una prueba de una sola vez que no necesita ida y vuelta en vivo |
+| **Succinct** | La prueba es minúscula y rápida de verificar sin importar el tamaño de la afirmación |
 | **zk-SNARK** | Zero-knowledge Succinct Non-interactive ARgument of Knowledge |
-| **Configuración de confianza / residuo tóxico** | Generación única de parámetros cuyo secreto residual debe destruirse |
+| **Trusted setup / toxic waste** | Generación única de parámetros cuyo secreto residual debe destruirse |
 
 ---
 

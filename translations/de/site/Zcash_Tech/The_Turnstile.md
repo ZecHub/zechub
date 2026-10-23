@@ -5,7 +5,7 @@
 - Das Drehkreuz ist eine öffentliche Buchhaltungsregel, die verfolgt, wie viel Wert in jeden abgeschirmten Pool hinein- und aus ihm herausfließt
 - Es ermöglicht jedem zu überprüfen, dass ein Pool niemals mehr auszahlt, als in ihn hineingegeben wurde, obwohl die Transaktionen darin privat sind
 - Das schützt den ZEC-Bestand vor einem versteckten Bug, weil gefälschte Coins einen Pool nicht verlassen können, ohne die Zählung zu verletzen
-- Es funktioniert, ohne die Privatsphäre zu schwächen, da nur die Pool-Gesamtsummen öffentlich sind, niemals einzelne Transaktionen
+- Zahlungen innerhalb eines Pools bleiben privat. Eine Transaktion, die ZEC zwischen Pools verschiebt, zeigt den Betrag, den sie verschiebt
 - Das Drehkreuz ist der Grund, warum die Migration von Orchard nach Ironwood beweisen kann, dass der abgeschirmte Bestand korrekt ist
 
 <br/>
@@ -41,7 +41,7 @@ Zcash hatte im Laufe seiner Geschichte mehrere abgeschirmte Pools, etwa Sprout, 
 1. Wenn ZEC in einen abgeschirmten Pool bewegt wird, wird der Betrag zum öffentlichen Saldo dieses Pools addiert
 2. Wenn ZEC einen Pool verlässt, wird der Betrag abgezogen
 3. Das Netzwerk lehnt jeden Block ab, der den Saldo eines Pools negativ machen würde, also wenn mehr herausgegangen wäre, als jemals hineingegangen ist
-4. Einzelne abgeschirmte Transaktionen bleiben vollständig privat, nur die Pool-Gesamtsummen sind öffentlich
+4. Jede Transaktion zeigt nur ihren Nettofluss in einen oder aus einem Pool, ihre Wertbilanz. Bei einer Zahlung innerhalb eines Pools ist das lediglich die Gebühr
 
 Das Netzwerk verfolgt auf diese Weise einen Saldo für jeden Wertpool, einschließlich Sprout, Sapling, Orchard, des neuen Ironwood-Pools sowie der transparenten und Lockbox-Salden. Dadurch gilt: Selbst wenn der genaue Inhalt eines Pools verborgen ist, ist das Maximum, das jemals herauskommen kann, durch das begrenzt, was hineingegangen ist. Versteckte Inflation kann nicht in Umlauf gelangen.
 
@@ -71,7 +71,7 @@ Erstens begrenzt es Risiken auf einen abgegrenzten Bereich. Ein kryptographische
 
 Zweitens ermöglicht es der Community, den Bestand rückblickend zu verifizieren. Wenn später ein Bug entdeckt wird, zeigt der Drehkreuz-Datensatz, ob jemals mehr Wert einen Pool verlassen hat, als in ihn hineingegangen ist. Ein sauberer Datensatz ist ein starkes Indiz dafür, dass keine Fälschung ausgenutzt wurde.
 
-Drittens bewahrt es die Privatsphäre und leistet all dies zugleich. Nur Summen auf Pool-Ebene sind öffentlich. Deine individuellen Transaktionen bleiben abgeschirmt. Prüfbarkeit und Privatsphäre bestehen nebeneinander, was ungewöhnlich ist und eine von Zcashs stillen Stärken darstellt.
+Drittens hält es Zahlungen innerhalb eines Pools bei all dem privat. Jede Transaktion veröffentlicht nur ihren Nettofluss in oder aus einem Pool, der bei einer Zahlung innerhalb desselben Pools lediglich die Gebühr ist. Ein Transfer zwischen Pools, etwa von Orchard nach Ironwood, zeigt den Betrag, der den Pool wechselt. Prüfbarkeit und Privatsphäre bestehen nebeneinander, was ungewöhnlich ist und eine der stillen Stärken von Zcash darstellt.
 
 <br/>
 
@@ -99,10 +99,10 @@ Das ist der tiefere Grund, warum das Drehkreuz über einfache Buchhaltung hinaus
 
 ## Häufige Missverständnisse
 
-- Das Drehkreuz legt deine Transaktionen nicht offen. Es zählt nur Pool-Gesamtsummen, nicht wer wem was gesendet hat
+- Das Drehkreuz legt nicht offen, wer wem was gesendet hat. Es zeigt jedoch den Betrag jeder Transaktion, die ZEC zwischen Pools bewegt
 - Es identifiziert keinen Fälscher namentlich. Es begrenzt, wie viel einen Pool verlassen kann, und genau das schützt den Bestand
 - Es ist keine neue Erfindung für Ironwood. Es hat jeden großen Übergang zwischen abgeschirmten Pools in der Geschichte von Zcash geschützt
-- Eine öffentliche Pool-Gesamtsumme schwächt die Privatsphäre nicht. Die Privatsphäre steckt in den Transaktionen innerhalb des Pools, die verborgen bleiben
+- Eine öffentliche Pool-Gesamtsumme schwächt die Privatsphäre von Zahlungen innerhalb des Pools nicht. Das Verschieben von ZEC zwischen Pools zeigt den verschobenen Betrag, weshalb ZIP 318 Wallets dazu auffordert, im Laufe der Zeit in Standardbeträgen zu migrieren
 
 <br/>
 

@@ -137,14 +137,14 @@ Damit dies lesbar bleibt, haben wir vereinfacht. Echte Spezifikationen werden in
 
 | Begriff | Bedeutung in einfacher Sprache |
 |---|---|
-| **Formale Verifikation** | Der mathematische Beweis, dass ein System in allen Fällen eine Spezifikation erfüllt |
-| **Spezifikation** | Eine präzise Aussage darüber, was „korrektes Verhalten“ bedeutet |
+| **Formal verification** | Der mathematische Beweis, dass ein System in allen Fällen eine Spezifikation erfüllt |
+| **Specification** | Eine präzise Aussage darüber, was „korrektes Verhalten“ bedeutet |
 | **System** | Das tatsächlich überprüfte Programm, die Schaltung oder das Protokoll |
-| **Beweis** | Eine endliche Kette logischer Schritte, die eine Behauptung für alle Fälle begründet |
-| **Beweisassistent / Theorembeweiser** | Software (Lean, Rocq, Isabelle), die jeden Schritt eines Beweises prüft |
-| **Maschinell geprüft** | Schritt für Schritt von einem Computer überprüft, nicht nur von Menschen gelesen |
-| **Induktion** | Eine Beweistechnik: Am Anfang wahr, und jeder Schritt überträgt sie auf den nächsten |
-| **Annahme** | Eine Bedingung, auf der der Beweis beruht; ist sie falsch, gilt die Garantie möglicherweise nicht |
+| **Proof** | Eine endliche Kette logischer Schritte, die eine Behauptung für alle Fälle begründet |
+| **Proof assistant / theorem prover** | Software (Lean, Rocq, Isabelle), die jeden Schritt eines Beweises prüft |
+| **Machine-checked** | Schritt für Schritt von einem Computer überprüft, nicht nur von Menschen gelesen |
+| **Induction** | Eine Beweistechnik: Am Anfang wahr, und jeder Schritt überträgt sie auf den nächsten |
+| **Assumption** | Eine Bedingung, auf der der Beweis beruht; ist sie falsch, gilt die Garantie möglicherweise nicht |
 
 ---
 

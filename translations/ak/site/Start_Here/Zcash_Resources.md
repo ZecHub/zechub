@@ -26,11 +26,11 @@ Sɛnea yɛaka wɔ ɔdefoɔ akwankyerɛ foforɔ no mu no, Zcash forum yɛ beaeɛ 
 
 Z.cash yɛ Zcash wɛbsaet titiriw. Ɛde Zcash mu nsɛm ne nkrataa ma wɔn a wɔde di dwuma ahorow pii na ɛma wɔn a wɔde di dwuma foforo no kwan ma wɔde wɔn ho hyɛ mfiridwuma mu nkyerɛkyerɛmu a atwa Zcash ho ahyia no mu kɔ akyiri.
 
-**[Zcash Github na ɛyɛ adwuma](https://github.com/zcash/zcash)**
+**[Zcash GitHub na ɛyɛ adwuma](https://github.com/zcash/zcash)**
 
-Got coding chops na wopɛ sɛ wode wo ho hyɛ mu kɔ akyiri wɔ technical fã a Zcash? Zcash Github Repo no yɛ akoraeɛ ma zcashd, Zcash node dwumadie a ɛdi kan. zcashd duu ne automatic end-of-support halt wɔ 18 July 2026 na wɔnhwɛ so bio, na download krataafa a saa nsɛm yi de link kɔ no no, wɔmfa nni dwuma bio. Stack a wɔhwɛ so no yɛ [Zebra](https://github.com/ZcashFoundation/zebra) ma node no ne [Zallet](https://github.com/zcash/zallet) ma sika kotoku no — hwɛ [zcashd to Zebra ne Zallet atutra akwankyerɛ](https://zechub.wiki/guides/migration-guide-zcashd-to-zebrad-zallet).
+Got coding chops na wopɛ sɛ wode wo ho hyɛ mu kɔ akyiri wɔ technical fã a Zcash? Zcash GitHub Repo no yɛ akoraeɛ ma zcashd, Zcash node dwumadie a ɛdi kan. zcashd duu ne automatic end-of-support halt wɔ 18 July 2026 na wɔnhwɛ so bio, na download krataafa a saa nsɛm yi de link kɔ no no, wɔmfa nni dwuma bio. Stack a wɔhwɛ so no yɛ [Zebra](https://github.com/ZcashFoundation/zebra) ma node no ne [Zallet](https://github.com/zcash/zallet) ma sika kotoku no — hwɛ [zcashd to Zebra ne Zallet atutra akwankyerɛ](https://zechub.wiki/guides/migration-guide-zcashd-to-zebrad-zallet).
 
-**[Zcash Foundation Github](https://github.com/ZcashFoundation)**
+**[Zcash Foundation GitHub](https://github.com/ZcashFoundation)**
 
 GitHub akoraeɛ foforɔ a ɛgye Zcash Foundation no nnwuma, a nea ɛka ho ne [ɔsebɔ](https://github.com/ZcashFoundation/zebra), Zcash node a wɔde di dwuma wɔ Rust mu.
 

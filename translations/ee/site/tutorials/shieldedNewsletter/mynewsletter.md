@@ -24,7 +24,7 @@ Zebra 1.8.0 Nu yeyetɔ si woɖe ɖe go, FROST wota, Zooko Dze Zcash Dɔwɔɖoɖo
 
 [Zcash Avalanche Elastic Subnet Tɔdzisasrã ƒe Nyatakaka yeye](https://forum.zcashcommunity.com/t/zcash-elastic-subnet-bridge-on-avalanche/44220/63)
 
-[ZEC si wokpɔ ta na la trɔna kple Maya ƒe Ðoɖowɔɖi](https://x.com/GiMa9550/status/1808960168681476288)
+[ZEC si wokpɔ ta na la trɔna kple Maya Protocol](https://x.com/GiMa9550/status/1808960168681476288)
 
 [Official shielded support na zcash le ledger hw-gakotoku me](https://forum.zcashcommunity.com/t/official-shielded-support-for-zcash-in-ledger-hw-wallet/45965/90)
 

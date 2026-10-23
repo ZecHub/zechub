@@ -16,7 +16,7 @@ Guide for deploying a zcashd Zcash full node (Electric Coin Co implementation) u
     src="https://www.youtube.com/embed/SVekeNU6_-g"
     title="Zcash Full Node setup on Akash Network"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    ruhusuFullScreen
+    allowFullScreen
     loading="lazy"
   />
 </div>
@@ -514,7 +514,7 @@ Wakati usawa wako ni mdogo, Akash itafunga moja kwa moja kupelekwa kwako. ** Ong
 
 ** Zcash Explorers**: [https://zechub.wiki/guides/blockchain-explorers](https://zechub.wiki/guides/blockchain-explorers)
 
-**Akash Mzozo**: [https://discord.akash.network](https://discord.akash.network) (kwa masuala ya mtoa huduma)
+**Akash Discord**: [https://discord.akash.network](https://discord.akash.network) (kwa masuala ya mtoa huduma)
 
 ## Maelezo ya Mwisho
 

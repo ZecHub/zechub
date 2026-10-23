@@ -7,7 +7,7 @@
 
 ### Infrastructure communautaire 
 
-Le programme de primes de ZecHub s’adresse aux développeurs en proposant une alternative plus libre et simplifiée aux tâches individuelles : [Primes ZEC](https://bounties.zechub.wiki/). 
+Le programme de primes de ZecHub constitue la voie rémunérée pour ce travail : [ZEC Bounties](https://bounties.zechub.wiki/). Comment choisir un numéro de ZEC : [politique relative aux montants des primes](https://bounties.zechub.wiki/docs/bounty-amounts). Processus de contribution : [Contribuer à ZecHub](https://zechub.wiki/contribute/contributing-guide).
 
 
 ## Guides utiles 

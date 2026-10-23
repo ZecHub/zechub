@@ -1,11 +1,11 @@
-[!Edit Ukurasa](https://img.shields.io/badge/Edit-blue)](https://github.com/zechub/zechub/edit/main/site/Privacy_Tools/Namada_Protocol.md)
+[![Edit Page](https://img.shields.io/badge/Edit-blue)](https://github.com/zechub/zechub/edit/main/site/Privacy_Tools/Namada_Protocol.md)
 
 # Itifaki ya Namada
 
-[Logo ya Namada](/content-images/logo-2067e2533d.webp)
+![Namada Logo](/content-images/logo-2067e2533d.webp)
 
 
-## Namada ni nini?
+## What is Namada?
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -13,54 +13,54 @@
     src="https://www.youtube.com/embed/Wg_WtPdBig0"
     title="Zcash Explained: Namada-Zcash Strategic Alliance"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    ruhusuFullScreen
+    allowFullScreen
     loading="lazy"
   />
 </div>
 
-Namada Protocol serves as a Layer 1 platform based on proof-of-stake consensus, designed to provide interchain asset-agnostic privacy. Through the Inter-Blockchain Communication (IBC) protocol, Namada seamlessly integrates with fast-finality chains, enabling smooth interoperability. Additionally, Namada establishes a trustless two-way bridge with Ethereum, facilitating secure and reliable communication between the two networks.
+Itifaki ya Namada hutumika kama jukwaa la Tabaka la 1 linalotegemea makubaliano ya uthibitisho wa hisa, iliyoundwa kutoa faragha ya kutokuamini mali kati ya minyororo. Kupitia itifaki ya Mawasiliano ya Inter-Blockchain (IBC), Namada huunganishwa bila shida na minyororo ya mwisho wa haraka, na kuwezesha ushirikiano mzuri. Zaidi ya hayo, Namada huanzisha daraja lisiloaminika la njia mbili na Ethereum, na kuwezesha mawasiliano salama na ya kuaminika kati ya mitandao hiyo miwili.
 
-Namada prioritizes privacy by implementing an enhanced iteration of the Multi-Asset Shielded Pool (MASP) circuit. This upgraded version enables all types of assets, including both fungible and non-fungible tokens, to utilize a shared shielded set just exactly as that of Zcash. As a result, the act of transferring supported assets on Namada becomes distinct as it becomes difficult to identify due to the high level of privacy involved. Also, the latest update to the Multi Asset Shielded Pool circuit enables shielded set rewards which is a groundbreaking feature or incentive that allocates resources to promote privacy as a public good.
+Namada inaweka kipaumbele faragha kwa kutekeleza uundaji ulioboreshwa wa mzunguko wa Multi-Asset Shielded Pool (MASP). Toleo hili lililoboreshwa huwezesha aina zote za mali, ikiwa ni pamoja na tokeni zinazoweza kuoza na zisizoweza kuoza, kutumia seti iliyoshirikiwa iliyolindwa sawasawa na ile ya Zcash. Kwa hivyo, kitendo cha kuhamisha mali zinazoungwa mkono kwenye Namada kinakuwa tofauti kadri inavyokuwa vigumu kutambua kutokana na kiwango cha juu cha faragha kinachohusika. Pia, sasisho jipya la mzunguko wa Multi Asset Shielded Pool huwezesha zawadi za seti iliyolindwa ambayo ni kipengele cha msingi au motisha inayotenga rasilimali ili kukuza faragha kama bidhaa ya umma.
 
-## Ethereum Bridge + IBC Sambamba
+## Daraja la Ethereum + IBC Inalingana
 
-The integration of the Ethereum bridge into Namada eliminates the need for a separate protocol, as it becomes an integral part of the Namada ecosystem. Validators within Namada are entrusted with running the bridge alongside the core Namada protocol. These validators also serve as relayers when it comes to transferring assets to Namada, making the involvement of additional actors unnecessary. On the other hand, when transferring assets to Ethereum, external parties (known as relayers) are involved, although they bear no responsibility for validating or securing the bridge.
+Kuunganishwa kwa daraja la Ethereum na Namada huondoa hitaji la itifaki tofauti, kwani inakuwa sehemu muhimu ya mfumo ikolojia wa Namada. Wathibitishaji ndani ya Namada wamepewa jukumu la kuendesha daraja pamoja na itifaki kuu Namada. Wathibitishaji hawa pia hutumika kama wasambazaji linapokuja suala la kuhamisha mali kwenda Namada, na kufanya ushiriki wa wahusika wengine kuwa sio lazima. Kwa upande mwingine, wakati wa kuhamisha mali kwenda Ethereum, wahusika wa nje (wanaojulikana kama wasambazaji) wanahusika, ingawa hawana jukumu la kuthibitisha au kulinda daraja.
 
-[Ethereum Bridge Mchoro](/content-images/image-0fd8f754ba.webp)
+![Ethereum Bridge Diagram](/content-images/image-0fd8f754ba.webp)
 
-Namada Protocol also has the ability to seamlessly connect with any fast-finality chain that supports the Inter-Blockchain Communication (IBC) protocol. When it comes to interoperating with Ethereum, Namada implements a specialized and secure Ethereum bridge that operates in a trustless manner. This bridge is carefully designed to prioritize safety by enforcing flow controls for all bridge connections and treating any faulty Ethereum transfers as a serious offense that can result in slashing penalties.
+Itifaki ya Namada pia ina uwezo wa kuungana bila shida na mnyororo wowote wa haraka unaounga mkono itifaki ya Mawasiliano ya Inter-Blockchain (IBC). Linapokuja suala la kushirikiana na Ethereum, Namada hutekeleza daraja maalum na salama la Ethereum linalofanya kazi kwa njia isiyoaminika. Daraja hili limeundwa kwa uangalifu ili kuweka kipaumbele usalama kwa kutekeleza udhibiti wa mtiririko wa miunganisho yote ya daraja na kutibu uhamisho wowote wa Ethereum wenye hitilafu kama kosa kubwa ambalo linaweza kusababisha adhabu za kukatwa.
 
-## Zawadi Zilizohifadhiwa
+## Zawadi za Seti Iliyolindwa
 
-Katika update ya mwisho ya [Namada Itifaki](https://blog.namada.net/what-is-namada/), watumiaji ambao kushikilia mali shielded ni motisha ya kushiriki kikamilifu katika pamoja seti shieled. Hii inafanywa inawezekana kupitia ushirikiano wa mzunguko updated MASP, ambayo sasa ni pamoja na ubunifu kubadilisha Circuit. Kwa leveraging kipengele hiki kipya, Namada inahimiza Watumiaji kuchangia pamoja kulindwa kuweka na kushikiliwa kwa mali za ulinzi.
+Katika sasisho jipya zaidi la [Itifaki ya Namada](https://namada.net/blog/what-is-namada), watumiaji wanaomiliki mali zilizolindwa wanahamasishwa kushiriki kikamilifu katika seti iliyolindwa pamoja. Hii inawezekana kupitia ujumuishaji wa saketi iliyosasishwa MASP, ambayo sasa inajumuisha Mzunguko bunifu wa Kubadilisha. Kwa kutumia kipengele hiki kipya, Namada inawahimiza watumiaji kuchangia seti iliyolindwa pamoja kwa kushikilia mali zilizolindwa.
 
-In Namada, the shielded set is considered a non-exclusive and anti-rivalrous public good. This means that as more individuals utilize shielded transfers, the level of privacy guarantees improves for each participant. The protocol recognizes the importance of collective adoption and participation in enhancing privacy for all users. Therefore, by incentivizing users to hold shielded assets and contribute to the shared shielded set, Namada fosters a stronger and more robust privacy ecosystem.
+Katika Namada, seti iliyolindwa inachukuliwa kuwa faida isiyo ya kipekee na isiyopingana na wapinzani wa umma. Hii ina maana kwamba kadri watu wengi wanavyotumia uhamisho uliolindwa, kiwango cha dhamana ya faragha kinaboreka kwa kila mshiriki. Itifaki inatambua umuhimu wa kupitishwa kwa pamoja na ushiriki katika kuimarisha faragha kwa watumiaji wote. Kwa hivyo, kwa kuwahamasisha watumiaji kushikilia mali zilizolindwa na kuchangia seti iliyolindwa pamoja, Namada inakuza mfumo ikolojia wa faragha wenye nguvu na imara zaidi.
 
-## Kuhifadhiwa Mali Transaction
+## Muamala wa Mali Zilizolindwa
 
-When it comes to shielded transfers, whether it involves an Ethereum non-fungible token (NFT), ATOM, or NAM, they are indistinguishable from one another. This means that the privacy-preserving features provided by the MASP (Modified Accumulator Sapling Protocol), an enhanced version of the Zcash Sapling circuit, apply uniformly to all types of assets. The MASP circuit enables all assets within the Namada ecosystem to share the same shielded set. This approach ensures that privacy guarantees are not fragmented among individual assets. Regardless of the transaction volume associated with a particular asset, the privacy protection remains consistent and independent.
+Linapokuja suala la uhamisho uliolindwa, iwe unahusisha tokeni isiyoweza kufungika ya Ethereum (NFT), ATOM, au NAM, haziwezi kutofautishwa. Hii ina maana kwamba vipengele vya kuhifadhi faragha vinavyotolewa na MASP (Itifaki ya Sapling ya Mkusanyiko Iliyorekebishwa), toleo lililoboreshwa la saketi Sapling Zcash, hutumika sawasawa kwa aina zote za mali. Saketi MASP huwezesha mali zote ndani ya mfumo ikolojia Namada kushiriki seti moja iliyolindwa. Mbinu hii inahakikisha kwamba dhamana za faragha hazigawanyikiwi kati ya mali za kibinafsi. Bila kujali kiasi cha muamala kinachohusiana na mali fulani, ulinzi wa faragha unabaki thabiti na huru.
 
-! [Asset Shielded Transaction Diagram] (Mchoro wa shughuli za mali iliyohifadhiwa)](/content-images/image-1-512c639d56.webp)
+![Shielded Assets Transaction Diagram](/content-images/image-1-512c639d56.webp)
 
-By unifying the shielded set across different assets, Namada ensures that privacy is upheld uniformly, regardless of the specific asset type involved in a shielded transfer. This approach promotes a cohesive privacy framework within the protocol and enhances the confidentiality of transactions involving Ethereum NFTs, ATOM, NAM, and other supported assets. Namada also enables private transfer of fungible and non-fungible tokens using novel zk-SNARKs, ensuring confidentiality for native and non-native tokens just like it is done on Zcash.
+Kwa kuunganisha seti iliyolindwa katika mali tofauti, Namada inahakikisha kwamba faragha inadumishwa kwa usawa, bila kujali aina maalum ya mali inayohusika katika uhamisho uliolindwa. Mbinu hii inakuza mfumo thabiti wa faragha ndani ya itifaki na huongeza usiri wa miamala inayohusisha Ethereum NFTs, ATOM, NAM, na mali zingine zinazoungwa mkono. Namada pia huwezesha uhamisho wa kibinafsi wa tokeni zinazoweza kuoza na zisizoweza kuoza kwa kutumia zk-SNARKs, kuhakikisha usiri kwa tokeni asilia na zisizo za asili kama vile inavyofanywa kwenye Zcash.
 
-## Malipo ya Chini na Matumizi ya Haraka
+## Ada Ndogo na Miamala ya Haraka
 
-Namada combines two key elements to deliver fast transaction speed and finality: fast-proof generation and modern Byzantine Fault Tolerant (BFT) consensus. These two features enable Namada to achieve a transaction processing rate comparable to Visa, a well-known payment network recognized for its high throughput capabilities. Fast-proof generation refers to the efficient production of cryptographic proofs that validate the correctness and integrity of transactions on the Blockchain. By employing advanced techniques and optimizations, Namada Protocol minimizes the computational overhead required to generate these proofs, resulting in swift verification and confirmation of transactions.
+Namada inachanganya vipengele viwili muhimu ili kutoa kasi na umaliziaji wa haraka wa miamala: uzalishaji usio na madhara haraka na makubaliano ya kisasa ya Byzantine Fault Tolerant (BFT). Vipengele hivi viwili vinamwezesha Namada kufikia kiwango cha usindikaji wa miamala kinacholingana na Visa, mtandao unaojulikana wa malipo unaotambuliwa kwa uwezo wake wa juu wa utoaji. Uzalishaji usio na madhara haraka unamaanisha uzalishaji bora wa uthibitisho wa kriptografia unaothibitisha usahihi na uadilifu wa miamala kwenye Blockchain. Kwa kutumia mbinu na uboreshaji wa hali ya juu, Itifaki ya Namada hupunguza gharama ya hesabu inayohitajika ili kutoa uthibitisho huu, na kusababisha uthibitisho wa haraka na uthibitisho wa miamala.
 
-Additionally, Namada utilizes modern BFT consensus algorithms, which ensure the integrity and agreement of transactions across the network. These consensus mechanisms enable Namada to reach a consensus on the order and validity of transactions, providing a strong guarantee of finality. With finality, transactions are considered irreversible, reducing the risk of double-spending or transaction rollback. Namada follows a similar approach to Anoma, another protocol known for its scalability solutions. Namada adopts fractal instances, which allow for the creation of nested chains within the main blockchain. This fractal structure enables horizontal scaling by distributing the load across multiple instances, enhancing the overall capacity and performance of the network.
+Zaidi ya hayo, Namada hutumia algoritimu za kisasa za makubaliano ya BFT, ambazo zinahakikisha uadilifu na makubaliano ya miamala katika mtandao mzima. Mifumo hii ya makubaliano huwezesha Namada kufikia makubaliano kuhusu mpangilio na uhalali wa miamala, na kutoa dhamana kubwa ya mwisho. Kwa mwisho, miamala huchukuliwa kuwa haiwezi kurekebishwa, na kupunguza hatari ya matumizi maradufu au kurudisha miamala nyuma. Namada inafuata mbinu sawa na Anoma, itifaki nyingine inayojulikana kwa suluhisho zake za kupanuka. Namada hutumia mifano ya fractal, ambayo inaruhusu uundaji wa minyororo iliyofungwa ndani ya blockchain kuu. Muundo huu wa fractal huwezesha upimaji mlalo kwa kusambaza mzigo katika mifano mingi, na kuongeza uwezo na utendaji wa jumla wa mtandao.
 
-## Namada na Zcash Mshikamano wa Kimkakati
+## Muungano wa Kimkakati wa Namada na Zcash
 
-Kulingana na chapisho la hivi karibuni ambalo linaweza kupatikana [Namada Protocol Blog](https://blog.namada.net/rfc-proposal-for-a-strategic-alliance-between-namada-and-zcash/), timu nyuma ya Namada Itifaki ni msisimko kuwasilisha pendekezo na ombi-kwa-maoni (RFC) kwa ajili ya muungano wa kimkakati kati ya mali Namada na Zcash, minyororo, na jamii.
+Kulingana na chapisho la hivi karibuni ambalo linaweza kupatikana [Blogu ya Itifaki ya Namada](https://namada.net/blog/rfc-proposal-for-a-strategic-alliance-between-namada-and-zcash), timu iliyo nyuma ya Itifaki ya Namada inafurahi kuwasilisha pendekezo na ombi la maoni (RFC) kwa ajili ya muungano wa kimkakati kati ya mali, minyororo, na jamii za Namada na Zcash.
 
-[Namada-Zcash kimkakati Alliance Mchoro](/content-images/image-2-68804c60f3.webp)
+![Namada-Zcash Strategic Alliance Diagram](/content-images/image-2-68804c60f3.webp)
 
-The proposed alliance encompasses three primary elements. Firstly, there is a grants pool that will be created to provide funding for projects that bring advantages to both Zcash and Namada. Secondly, an airdrop of NAM tokens will be allocated to ZEC holders. Lastly, a plan is in place to establish a trust-minimized bridge connecting Zcash and Namada. Once implemented, this bridge will enable ZEC holders, referred to as Zolders, to utilize their ZEC on Namada. Furthermore, Zolders will have the opportunity to access the wider Cosmos and Ethereum ecosystems through Namada. You can learn more about the strategic alliance on [Zcash Community Forum](https://forum.zcashcommunity.com/t/rfc-proposal-for-a-strategic-alliance-between-namada-and-zcash/44372)
+Muungano uliopendekezwa unajumuisha vipengele vitatu vya msingi. Kwanza, kuna kundi la ruzuku ambalo litaundwa ili kutoa ufadhili kwa miradi inayoleta faida kwa Zcash na Namada. Pili, tone la ishara za NAM litatengwa kwa wamiliki wa ZEC. Mwishowe, mpango upo wa kuanzisha daraja lililopunguzwa uaminifu linalounganisha Zcash na Namada. Mara tu litakapotekelezwa, daraja hili litawawezesha wamiliki wa ZEC, wanaojulikana kama Zolders, kutumia ZEC yao kwenye Namada. Zaidi ya hayo, Zolders watapata fursa ya kufikia mifumo ikolojia pana Cosmos na Ethereum kupitia Namada. Unaweza kujifunza zaidi kuhusu muungano wa kimkakati kuhusu [Jukwaa la Jumuiya ya Zcash](https://forum.zcashcommunity.com/t/rfc-proposal-for-a-strategic-alliance-between-namada-and-zcash/44372)
 
-## Viungo vya Marejeo
+## Viungo vya Marejeleo
 
-- [Namada Itifaki rasmi Video](https://www.youtube.com/watch?v=Wg_WtPdBig0)
-- [Namada Itifaki Official Website](https://namada.net/)
-- [Blogi ya Namada](https://blog.namada.net/)
-- [Namada Docs](https://docs.namada.net/)
+- [Video Rasmi ya Itifaki ya Namada](https://www.youtube.com/watch?v=Wg_WtPdBig0)
+- [Tovuti Rasmi ya Itifaki ya Namada](https://namada.net/)
+- [Blogu Namada](https://namada.net/blog)
+- [Hati za Namada](https://docs.namada.net/)

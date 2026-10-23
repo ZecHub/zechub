@@ -109,7 +109,7 @@ Hii ni sababu ya kina turntile mambo zaidi kuliko uhasibu rahisi. Ni utaratibu k
 ## Rasilimali
 
 1. [ZIP 209: Kuzuia nje ya mbalimbali Chain Thamani Pool Mizani](https://zips.z.cash/zip-0209) - sheria ya makubaliano nyuma turntile
-2. [ZIP 211: Disabling Kuongeza ya thamani mpya kwa Chipukizi Chain Thamani Pool](https://zips.z.cash/zip-0211) - jinsi ya shina bwawa ilikuwa imefungwa kwa amana mpya
+2. [ZIP 211: Kuzima Uongezaji wa Thamani Mpya kwenye Kikosi cha Thamani cha Mnyororo wa Sprout](https://zips.z.cash/zip-0211) - jinsi bwawa la Sprout lilivyofungwa kwa amana mpya
 3. [ZIP 258: NU6.3](https://zips.z.cash/zip-0258) - kuboresha kwamba utangulizi Ironwood pool na inaongoza thamani katika turnstile
 4. [Turntile Utekelezaji Dhidi ya Falsari](https://electriccoin.co/blog/turnstile-enforcement-against-counterfeiting/) - maelezo ya awali kutoka Electric Coin Company
 5. [Zcash Itifaki ya Utaratibu Specifications](https://zips.z.cash/protocol/protocol.pdf) - tazama sehemu juu ya usawa na saini yenye kuunganisha kwa maelezo kamili.

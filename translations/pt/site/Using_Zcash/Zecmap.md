@@ -57,12 +57,12 @@ Se um negócio aceita ZEC e ainda não está no ZecMap, qualquer membro da comun
 
 | Campo | O que fornecer |
 |-------|----------------|
-| Nome do negócio | Nome oficial tal como aparece publicamente |
-| Website ou contacto | URL ou perfil social |
-| Localização | Morada para negócios físicos; região para online |
-| Categoria | Café, restaurante, loja, serviço, loja online, etc. |
-| Evidência | Página pública de pagamentos, anúncio do comerciante ou confirmação direta |
-| Notas de pagamento | Presencial, online, ou ambos; ZEC transparente ou shielded |
+| Business name | Nome oficial tal como aparece publicamente |
+| Website or contact | URL ou perfil social |
+| Location | Morada para negócios físicos; região para online |
+| Category | Café, restaurante, loja, serviço, loja online, etc. |
+| Evidence | Página pública de pagamentos, anúncio do comerciante ou confirmação direta |
+| Payment notes | Presencial, online, ou ambos; ZEC transparente ou shielded |
 
 As submissões devem evitar dados privados de clientes. Se utilizares prova de transação, remove detalhes pessoais, números de encomenda e moradas residenciais antes de partilhar.
 
@@ -137,7 +137,7 @@ As melhorias planeadas incluem:
 
 ## Páginas relacionadas
 
-- [Gastar ZEC](/using-zcash/spend-zcash) — Outras formas de usar ZEC no mundo real
+- [Gastar ZEC](/using-zcash/spend-zcash/top-10-places-to-spend-zec) — Outras formas de usar ZEC no mundo real
 - [Processadores de Pagamento](/using-zcash/payment-processors) — Ferramentas para comerciantes aceitarem ZEC
 - [Usar ZEC Privadamente](/guides/using-zec-privately) — Melhores práticas para pagamentos shielded
 - [Wallets](/using-zcash/wallets) — Wallets compatíveis com pagamentos a comerciantes em ZEC

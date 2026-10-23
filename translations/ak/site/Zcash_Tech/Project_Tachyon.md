@@ -95,13 +95,13 @@ Adwuma a ɛfa ho no da adi dedaw. [Zakura](https://zechub.wiki/zcash-tech/zakura
 
 | Asɛmfua | Nkyerɛaseɛ |
 |---|---|
-| Sɔhwɛ decryption | Mmɔden a wobɛbɔ sɛ wobɛpae nkitahodi ahorow no mu mmiako mmiako de ahwehwɛ nea wɔde akɔma wo no |
-| In-band kokoam nkyekyɛmu | Wɔde sikatua ahintasɛm no to asɛm no mu wɔ blockchain no so, sɛnea Zcash yɛ nnɛ |
-| Out-of-band akatua a wotua | Sikatua ho nsɛm a wɔde bɛfa nea ɔde kɔma ne nea ogye no ntam tẽẽ sen sɛ wɔbɛfa nkɔnsɔnkɔnsɔn |
+| Trial decryption | Mmɔden a wobɛbɔ sɛ wobɛpae nkitahodi ahorow no mu mmiako mmiako de ahwehwɛ nea wɔde akɔma wo no |
+| In-band secret distribution | Wɔde sikatua ahintasɛm no to asɛm no mu wɔ blockchain no so, sɛnea Zcash yɛ nnɛ |
+| Out-of-band payment | Sikatua ho nsɛm a wɔde bɛfa nea ɔde kɔma ne nea ogye no ntam tẽẽ sen sɛ wɔbɛfa nkɔnsɔnkɔnsɔn |
 | Oblivious synchronization | Fetching chain data a wallet hia a wonkyerɛ data a wɔbisae |
-| Adanse a wɔde kura data (PCD) | Data a ɛde adanse a ɛkyerɛ sɛ ɛyɛ nokware tu kwan, enti wobetumi aka adanse ahorow abom na wɔabɔ |
-| Shielded ayɔnkofa aggregate | Tachyon kwan a ɔfa so bundling shielded state sesa, ɛsakra sɛnea wɔde di nkitaho na wɔde wɔn nsa hyɛ ase |
-| ledger a wontumi nkyerɛ nsonsonoe a ɛda ntam | Agyapadeɛ a ɛbɔɔ nnwuma ho ban no, wɔrentumi nka no ntetew mu mfi wɔn ho wɔn ho |
+| Proof-carrying data (PCD) | Data a ɛde adanse a ɛkyerɛ sɛ ɛyɛ nokware tu kwan, enti wobetumi aka adanse ahorow abom na wɔabɔ |
+| Shielded transaction aggregate | Tachyon kwan a ɔfa so bundling shielded state sesa, ɛsakra sɛnea wɔde di nkitaho na wɔde wɔn nsa hyɛ ase |
+| ledger indistinguishability | Agyapadeɛ a ɛbɔɔ nnwuma ho ban no, wɔrentumi nka no ntetew mu mfi wɔn ho wɔn ho |
 
 <br/>
 
@@ -121,7 +121,7 @@ Adwuma a ɛfa ho no da adi dedaw. [Zakura](https://zechub.wiki/zcash-tech/zakura
 
 - [Kokoam Nsɛm a Wɔgye](https://zechub.wiki/zcash-tech/private-information-retrieval) - kwan foforo a wofa so fa saa sika kotokuo scanning bottleneck koro no ara ho
 - [Zakura Node na ɔkyerɛwee](https://zechub.wiki/zcash-tech/zakura-node) - node a wokyekyeree no fã bi fi Tachyon mfiridwuma mmɔdenbɔ mu
-- [Dade a Wɔde Yɛ Nnua](https://zechub.wiki/zcash-tech/ironwood) - upgrade a ɛyɛɛ adwuma wɔ July 2026 mu, a ɛtaa yɛ basaa ne Tachyon
+- [Ironwood](https://zechub.wiki/zcash-tech/ironwood) - upgrade a ɛyɛɛ adwuma wɔ July 2026 mu, a ɛtaa yɛ basaa ne Tachyon
 - [Turnstile a ɛwɔ hɔ no](https://zechub.wiki/zcash-tech/the-turnstile) - afiri a Tachyon betumi de adi dwuma se deployed se n'ankasa pool
 - [Quantum Akyi Ahobammɔ](https://zechub.wiki/zcash-tech/post-quantum-security) - a Tachyon tena bere tenten protocol adwuma ho
 - [Sɛnea Wɔhyehyɛ Zcash](https://zechub.wiki/start-here/how-zcash-is-organized) - hwan na oye saa adwuma yi ne sedee ecosystem no hyia

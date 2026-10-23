@@ -13,7 +13,7 @@ This guide explains how the payment flow works, how to set up an account, and ho
 1. [Kí ló dé tó o fi lo ZGo](#why-use-zgo)
 2. [Báwo ni ZGo ṣe ń ṣiṣẹ́](#how-zgo-works)
 3. [Lí ṣí àkáǹtì](#setting-up-an-account)
-4. [Jáde pẹ̀lú Xero](#zgo-with-xero)
+4. [ZGo pẹlu Xero](#zgo-with-xero)
 5. [ZGo pẹlu WooCommerce](#zgo-with-woocommerce)
 6. [Àwọn Ànímọ́](#features)
 7. [Àwọn àṣìṣe tó wọ́pọ̀](#common-mistakes)
@@ -122,7 +122,7 @@ Fun iṣeto, ọna naa kuru: gba apamọwọ Zcash, ṣẹda akọọlẹ kan ni
 
 - [Ìkànnì àjọ ZGo](https://zgo.cash/)
 - [Xero Integration Configuration walkthrough] Àwọn àlàyé tó ṣe pàtàkì](https://hedgedoc.vergara.tech/s/4iXC67fmb)
-- [WooCommerce] [ì í ì ¤í ë ¤](https://woocommerce.com/) àti [WordPress](https://wordpress.org/)
+- [WooCommerce](https://woocommerce.com/) àti [WordPress](https://wordpress.org/)
 - [Xero](https://www.xero.com/)
 - [Ojúewé ìkànnì iṣẹ́ Zcash](https://z.cash/)
 - [Àwọn Wàléètì ZecHub](https://zechub.wiki/wallets), akojọ awọn apamọwọ Zcash ti o ni ibamu

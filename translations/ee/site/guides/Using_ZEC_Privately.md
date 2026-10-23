@@ -43,7 +43,7 @@ Nufiame aɖe si ku ɖe alesi woaɖe ZEC le asitɔtrɔ me ŋue nye esi. De dzesii
     src="https://www.youtube.com/embed/REUbkLzK7J4"
     title="Buy and withdraw ZEC to a shielded wallet from Gemini"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    ɖe mɔ ɖeFullScreen ŋu
+    allowFullScreen
     loading="lazy"
   />
 </div>
@@ -58,7 +58,7 @@ Nufiame aɖe si ku ɖe alesi nàkpɔ wò ZEC ta tso adrɛs si me kɔ dzi ayi adr
     src="https://www.youtube.com/embed/W2msuzrxr3s"
     title="Shield your ZEC from a transparent to shielded address"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    ɖe mɔ ɖeFullScreen ŋu
+    allowFullScreen
     loading="lazy"
   />
 </div>
@@ -73,7 +73,7 @@ Nufiame aɖee nye esi ku ɖe alesi woaƒle ZEC le Coinbase eye woaɖoe ɖe Zodl 
     src="https://www.youtube.com/embed/Avweu5V9QRc"
     title="Coinbase + Zashi: Buy Zcash & Shield Instantly"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    ɖe mɔ ɖeFullScreen ŋu
+    allowFullScreen
     loading="lazy"
   />
 </div>

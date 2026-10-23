@@ -57,12 +57,12 @@ Ne asitsaha aɖe xɔ ZEC eye mele ZecMap dzi haɖe o la, nutoa me tɔ ɖesiaɖe 
 
 | Agbledeƒe | Nusiwo woatsɔ ana |
 |-------|----------------|
-| Asitsa ƒe ŋkɔ | Dziɖuɖua ƒe ŋkɔ abe alesi wòdze le dutoƒo ene |
-| Nyatakakadzraɖoƒe alo kadodo | URL alo hadomenyatakaka |
-| Teƒe si wòle | Adrɛs na asitsaha ŋutɔŋutɔwo; nuto na internet dzi |
-| Ƒomedodo | Cafe, nuɖuɖudzraƒe, fiase, subɔsubɔdɔ, internet dzi fiase, kple bubuawo |
-| Kpeɖodziwo | Dutoƒofexexe ƒe axa, asitsala ƒe gbeƒãɖeɖe, alo kpeɖodzi tẽ |
-| Fexexe ŋuti nuŋlɔɖiwo | Ame ŋutɔ gbɔ, Internet dzi, alo evea siaa; si me kɔ alo si ŋu wokpɔa akpoxɔnu le ZEC |
+| Business name | Dziɖuɖua ƒe ŋkɔ abe alesi wòdze le dutoƒo ene |
+| Website or contact | URL alo hadomenyatakaka |
+| Location | Adrɛs na asitsaha ŋutɔŋutɔwo; nuto na internet dzi |
+| Category | Cafe, nuɖuɖudzraƒe, fiase, subɔsubɔdɔ, internet dzi fiase, kple bubuawo |
+| Evidence | Dutoƒofexexe ƒe axa, asitsala ƒe gbeƒãɖeɖe, alo kpeɖodzi tẽ |
+| Payment notes | Ame ŋutɔ gbɔ, Internet dzi, alo evea siaa; si me kɔ alo si ŋu wokpɔa akpoxɔnu le ZEC |
 
 Ele be nusiwo woatsɔ aɖo ɖa la naƒo asa na asisiwo ƒe ame ŋutɔ ƒe nyatakakawo. Ne èle asitsatsa ƒe kpeɖodzi zãm la, ɖe ame ŋutɔ ƒe nyatakakawo, nudɔdɔ ƒe xexlẽdzesiwo, kple aƒe ƒe adrɛswo ɖa hafi nàmae.
 
@@ -137,7 +137,7 @@ Dɔwɔwɔ ɖe ŋgɔ siwo ŋu wowɔ ɖoɖo ɖo dometɔ aɖewoe nye:
 
 ## Axa Siwo Do Ƒome Kplii
 
-- [Zã ZEC](/using-zcash/spend-zcash) — Mɔ bubu siwo dzi woato azã ZEC le xexe ŋutɔŋutɔ me
+- [Zã ZEC](/using-zcash/spend-zcash/top-10-places-to-spend-zec) — Mɔ bubu siwo dzi woato azã ZEC le xexe ŋutɔŋutɔ me
 - [Fexexe Ŋuti Dɔwɔlawo](/using-zcash/payment-processors) — Dɔwɔnu siwo ana asitsalawo naxɔ ZEC
 - [ZEC Zazã le Adzame](/guides/using-zec-privately) — Nuwɔna nyuitɔwo kekeake le fexexe si wotsɔ akpoxɔnu wɔe ŋu
 - [Gakotokuwo](/using-zcash/wallets) — Gakotoku siwo sɔ kple ZEC asitsalawo ƒe fexexe

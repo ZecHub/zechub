@@ -18,9 +18,9 @@ ZecHub не підтримує жоден конкретний сервіс об
 
 ___
 
-### Near-intents
+### NEAR Intents
 
-<img src="/nearintents.png" alt="Near-intents" width="200" height="100"/>
+<img src="/nearintents.png" alt="NEAR Intents" width="200" height="100"/>
 
 - Вебсайт: https://app.near-intents.org/
 - Опис: Швидкий обмін за підтримки NEAR. Робіть депозити, продавайте, обмінюйте, зокрема популярні TRUMP, MELANIA, BERA та інші мемкоїни
@@ -59,7 +59,7 @@ ___
 <img src="/flyp.me.png" alt="flyp.me" width="200" height="100"/>
 
 - Вебсайт: https://flyp.me/en/#/
-- Опис: Обмінник Flyp.me без облікового запису та токен FYP були створені для захисту приватності, просування децентралізації, підтримки власності на низовому рівні та розвитку спільноти, що вірить у консенсус.
+- Опис: Обмінник flyp.me без облікового запису та токен FYP були створені для захисту приватності, просування децентралізації, підтримки власності на низовому рівні та розвитку спільноти, що вірить у консенсус.
 
 ___
 
@@ -126,9 +126,9 @@ ___
 
 ___
 
-### Bitcoin VN
+### BitcoinVN
 
-<img src="/Bitcoinvn.png" alt="Bitcoin VN" width="200" height="100"/>
+<img src="/Bitcoinvn.png" alt="BitcoinVN" width="200" height="100"/>
 
 - Вебсайт: https://bitcoinvn.io/?deposit=xmr&settle=zec/
 - Опис: Миттєвий обмін Bitcoin і криптовалют у В’єтнамі. Купуйте, продавайте або обмінюйте між 80 активами, зокрема VND, BTC, XMR, USDT, ETH, BCH, SOL

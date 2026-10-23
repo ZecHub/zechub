@@ -5,10 +5,10 @@
 
 # Visualizando Endereços Zcash
 
-Se você está aprendendo sobre Zcash pela primeira vez, perceberá imediatamente que há dois tipos de [transações](https://zechub.wiki/using-zcash/transactions) que podem ocorrer: *transparentes* e *shielded*.
-Além disso, se você tem acompanhado os desenvolvimentos mais recentes no ecossistema Zcash, talvez já tenha aprendido sobre [Unified Addresses](https://electriccoin.co/blog/unified-addresses-in-zcash-explained/), ou UA's.
-Quando as pessoas da indústria Zcash falam sobre transações *shielded*, elas se referem a transações que envolvem endereços codificados para os protocolos sapling ou orchard. 
-As UA's são projetadas para unificar *qualquer* tipo de transação shielded ou transparente em um único endereço. Essa generalização é a chave para simplificar a UX daqui para frente. O objetivo deste guia é complementar o entendimento sobre UA's com exemplos visuais concretos.
+Se está a aprender sobre Zcash pela primeira vez, perceberá imediatamente que há dois tipos de [transações](https://zechub.wiki/using-zcash/transactions) que podem ocorrer: *transparentes* e *blindadas*.
+Além disso, se tem acompanhado os desenvolvimentos mais recentes no ecossistema Zcash, poderá ter aprendido sobre [Endereços Unificados](https://web.archive.org/web/20260823012524/https://electriccoin.co/blog/unified-addresses-in-zcash-explained/), ou UA's.
+Quando as pessoas da indústria Zcash falam sobre transações *blindadas*, referem-se a transações que envolvem endereços codificados para os protocolos sapling ou orchard. 
+As UA's foram concebidas para unificar *qualquer* tipo de transação blindada ou transparente num único endereço. Esta generalização é a chave para simplificar a UX no futuro. O objetivo deste guia é complementar a compreensão das UA's com exemplos visuais concretos.
 
 ## Tipos de endereços Zcash
 

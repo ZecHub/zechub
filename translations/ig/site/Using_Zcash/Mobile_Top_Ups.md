@@ -42,7 +42,7 @@ Hey... e tinyela ego na akara m! I nwekwara ike ikwenye email gị n'oge usoro �
 Usoro a dị n'elu chọrọ ịmepụta akaụntụ Coinsbee. Ọ bụrụ na ịchọrọ ka ọ bụghị, CardsRelay na-ere mobile top ups maka ZEC enweghị ndebanye aha.
 
 ### 1. Họrọ mba gị na onye ọrụ ya.
-Ịga leta ya . [KaadịRelay](https://cardsrelay.com) na-emeghe Mobile Top Ups ngalaba. Ihe karịrị ndị ọrụ 750 kwadoro n'ụwa niile.
+Ịga leta ya . [CardsRelay](https://cardsrelay.com) na-emeghe Mobile Top Ups ngalaba. Ihe karịrị ndị ọrụ 750 kwadoro n'ụwa niile.
 
 ### 2. Tinye nọmba na ego ole i ji ya.
 Tinye nọmba ekwentị a ga-akwụ ụgwọ ma họrọ uru mgbakwunye. Ọnụahịa egosiri bụ otu ngụkọta niile, na enweghị akara mgbanwe ọnụego dị iche agbakwunyere mgbe e mesịrị.

@@ -7,7 +7,7 @@
 
 ### 커뮤니티 인프라 
 
-ZecHub 바운티 프로그램은 개별 작업에 대한 보다 자유롭고 간소화된 대안을 개발자에게 제공합니다: [ZEC 바운티](https://bounties.zechub.wiki/). 
+ZecHub 바운티 프로그램은 이 작업에 대한 유급 경로입니다: [ZEC Bounties](https://bounties.zechub.wiki/). ZEC 수량을 정하는 방법: [바운티 금액 정책](https://bounties.zechub.wiki/docs/bounty-amounts). 기여자 작업 흐름: [ZecHub에 기여하기](https://zechub.wiki/contribute/contributing-guide).
 
 
 ## 유용한 가이드 

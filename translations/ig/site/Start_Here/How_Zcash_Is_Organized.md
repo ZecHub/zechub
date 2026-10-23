@@ -108,7 +108,7 @@ Wiki a dị iji nyere gị aka ịga n'ihu, yabụ nzọụkwụ kachasị mma b
 - [Ntuziaka Onye Ọrụ Ọhụrụ](https://zechub.wiki/start-here/new-user-guide) maka njem mbụ site na iji Zcash.
 - [Ọdọ Mmiri Ndị E Chebere Echiche Ha Na Ya](https://zechub.wiki/using-zcash/shielded-pools) maka etu Zcash si eme ka azụmahịa bụrụ nke onwe ya.
 - [Ihe na-eme ka ọ dị mma.](https://zechub.wiki/zcash-tech/the-turnstile) maka etu e si eme ka ego ahụ dịgide na-enyocha ya.
-- [Osisi ígwè](https://zechub.wiki/zcash-tech/ironwood) maka ọdọ mmiri echekwara na netwọk ahụ na-akwaga ebe a.
+- [Ironwood](https://zechub.wiki/zcash-tech/ironwood) maka ọdọ mmiri echekwara na netwọk ahụ na-akwaga ebe a.
 - [Nwelite netwọkụ](https://zechub.wiki/start-here/network-upgrades) maka etu Zcash si agbanwe oge niile.
 - [zk-SNARKs](https://zechub.wiki/zcash-tech/zk-snarks) maka nzuzo nke ihe omimi ahụ.
 

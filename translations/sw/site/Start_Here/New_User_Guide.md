@@ -46,7 +46,7 @@ Hapa ni video ya kupitia mifuko kisasa ulinzi:
     src="https://www.youtube.com/embed/6IIRRZ17Q74"
     title="Zcash Shielded Wallets Explained"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    ruhusuFullScreen
+    allowFullScreen
     loading="lazy"
   />
 </div>
@@ -67,7 +67,7 @@ Hapa ni mafunzo juu ya jinsi ya kufanya hivyo.
     src="https://www.youtube.com/embed/Avweu5V9QRc"
     title="Coinbase + Zashi: Buy Zcash & Shield Instantly"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    ruhusuFullScreen
+    allowFullScreen
     loading="lazy"
   />
 </div>
@@ -85,7 +85,7 @@ Baada ya kuweka baadhi ZEC katika mkoba wako, uko tayari kutuma kabisa ulinzi, s
     src="https://www.youtube.com/embed/tEfQaYPV0UE"
     title="Useful Tips when using Zcash 🔒"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    ruhusuFullScreen
+    allowFullScreen
     loading="lazy"
   />
 </div>

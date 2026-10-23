@@ -215,13 +215,13 @@ Fifia èlé anyigbatata la ɖe asi. Nusiwo kplɔ wo nɔewo ɖo ƒe akpa mamlɛa 
 
 | Nyagbe | Plain-Eŋlisigbe me gɔmesese |
 |---|---|
-| **De dzesii** | Asixɔxɔ ƒe akpa si nye ame ŋutɔ tɔ, Zcash ƒe nusi sɔ kple gaku alo gagbalẽ |
-| **De dzesi ɖokuitsɔtsɔna** | Nya ɣaɣlawo ƒe nutrenu si ɖo kpe edzi be nuŋlɔɖi aɖe li evɔ meɖee fia o |
-| **De dzesi ɖokuitsɔtsɔna ƒe ati** | Dutoƒo nuŋlɔɖi si wotsɔ kpe ɖe eŋu ɖeɖeko le nuŋlɔɖi ƒe ŋugbedodowo katã ŋu |
+| **Note** | Asixɔxɔ ƒe akpa si nye ame ŋutɔ tɔ, Zcash ƒe nusi sɔ kple gaku alo gagbalẽ |
+| **Note commitment** | Nya ɣaɣlawo ƒe nutrenu si ɖo kpe edzi be nuŋlɔɖi aɖe li evɔ meɖee fia o |
+| **Note commitment tree** | Dutoƒo nuŋlɔɖi si wotsɔ kpe ɖe eŋu ɖeɖeko le nuŋlɔɖi ƒe ŋugbedodowo katã ŋu |
 | **Nullifier** | Dzesi tɔxɛ "si wozã" si wota ne wozã nuŋlɔɖi aɖe, si xea mɔ na gazazã zi eve |
-| **Zero-sidzedze ƒe kpeɖodzi** | Kpeɖodzi be nya aɖe nye nyateƒe esime mele naneke ɖem fia wu eƒe nyateƒenyenye o |
-| **Akpoxɔnu / ametakpɔnu ɖeɖeɖa** | Gawo ʋuʋu yi / do goe le ame ŋutɔ ƒe xexe si me wokpɔa akpoxɔnu le me |
-| **Nukpɔkpɔ ƒe safui** | Safui si naa aƒetɔa dea dzesi nuŋlɔɖi siwo woŋlɔ na wo hexlẽa |
+| **Zero-knowledge proof** | Kpeɖodzi be nya aɖe nye nyateƒe esime mele naneke ɖem fia wu eƒe nyateƒenyenye o |
+| **Shielding / deshielding** | Gawo ʋuʋu yi / do goe le ame ŋutɔ ƒe xexe si me wokpɔa akpoxɔnu le me |
+| **Viewing key** | Safui si naa aƒetɔa dea dzesi nuŋlɔɖi siwo woŋlɔ na wo hexlẽa |
 
 ---
 

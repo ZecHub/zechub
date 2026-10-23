@@ -17,7 +17,7 @@ Free2Z è nata come piattaforma incentrata sulla privacy, costruita per permette
 
 ![](/content-images/IMG-9360-5deeba8c68.webp)
 
-* Assicurati di aggiungere anche il tuo indirizzo Zcash nel campo del wallet per ricevere donazioni e mance dai sostenitori.
+* Assicurati di aggiungere anche il tuo indirizzo Zcash nel campo del portafoglio per ricevere donazioni e mance dai sostenitori.
 
 ![](/content-images/IMG-9361-5c9ce21046.webp)
 

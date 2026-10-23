@@ -1,142 +1,129 @@
 # Pool di mining di Zcash
 
-## Cosa sono i pool di mining di Zcash?
+## Cosa sono le pool di mining di Zcash?
 
-I pool di mining di Zcash sono servizi che consentono ai miner individuali di combinare la propria potenza di calcolo (hashrate). Mettendo in comune le risorse, i partecipanti aumentano le probabilità di risolvere i blocchi della rete e ottengono pagamenti costanti, anche se più piccoli, invece di affidarsi al sistema a lotteria imprevedibile del mining in solitaria.
+Le pool di mining di Zcash sono servizi che consentono ai miner individuali di combinare la propria potenza di calcolo (hashrate). Mettendo in comune le risorse, i partecipanti aumentano le probabilità di risolvere i blocchi della rete e ottengono pagamenti costanti, anche se più piccoli, invece di affidarsi al sistema a lotteria imprevedibile del mining in solitaria.
 
 ---
 
-## Elenco dei pool di mining di Zcash:
+## Elenco delle pool di mining di Zcash:
 
 ---
 
 ### [Slush Pool (Braiins Pool)](https://braiins.com/pool)
 
 <a href="https://braiins.com/pool">
-    <img src="https://github.com/gorgagian123/Exchanges-Logo/blob/main/braiins_logo.jpg?raw=true" alt="Slush Pool (Braiins Pool) Logo" width="200" height="100"/>
+    <img src="/content-images/braiins_logo-dce5130f46.webp" alt="Slush Pool (Braiins Pool) Logo" width="200" height="100"/>
 </a>
 
 - Sito web: [Slush Pool (Braiins Pool)](https://braiins.com/pool)
 - Pagamenti privati: SÌ
 - Tipo di pool: Pay Per Share
-- Commissione del pool: 2%
+- Commissione della pool: 2%
 
 ---
 
 ### [Luxor](https://luxor.tech/)
 
 <a href="https://luxor.tech/">
-    <img src="https://github.com/gorgagian123/Exchanges-Logo/blob/main/Luxor%20Pool.png?raw=true" alt="Luxor Logo" width="200" height="100"/>
+    <img src="/content-images/Luxor-20Pool-3aa38cd52b.webp" alt="Luxor Logo" width="200" height="100"/>
 </a>
 
 - Sito web: [Luxor](https://luxor.tech/)
 - Pagamenti privati: SÌ
 - Tipo di pool: Pay Per Share
-- Commissione del pool: 3%
+- Commissione della pool: 3%
 
 ---
 
-### [FlyPool](https://zcash.flypool.org/)
+### [Flypool](https://zcash.flypool.org/)
 
 <a href="https://zcash.flypool.org/">
-    <img src="https://github.com/gorgagian123/Exchanges-Logo/blob/main/Flypool.jpg?raw=true" alt="FlyPool Logo" width="200" height="100"/>
+    <img src="/content-images/Flypool-031c2edf57.webp" alt="FlyPool Logo" width="200" height="100"/>
 </a>
 
-- Sito web: [FlyPool](https://zcash.flypool.org/)
+- Sito web: [Flypool](https://zcash.flypool.org/)
 - Pagamenti privati: SÌ
 - Tipo di pool: Pay Per Last N 
-- Commissione del pool: 1%
+- Commissione della pool: 1%
 
 ---
 
 ### [2Miners](https://zec.2miners.com/)
 
 <a href="https://zec.2miners.com/">
-    <img src="https://github.com/gorgagian123/Exchanges-Logo/blob/main/2Miners.png?raw=true" alt="2Miners Logo" width="200" height="100"/>
+    <img src="/content-images/2Miners-3c99609047.webp" alt="2Miners Logo" width="200" height="100"/>
 </a>
 
 - Sito web: [2Miners](https://zec.2miners.com/)
 - Pagamenti privati: No
 - Tipo di pool: Pay Per Last N 
-- Commissione del pool: 1%
+- Commissione della pool: 1%
 
 ---
 
-### [Nanopool](https://zec.nanopool.org/login)
+### [Nanopool](https://zec.nanopool.org/)
 
-<a href="https://zec.nanopool.org/login">
-    <img src="https://github.com/gorgagian123/Exchanges-Logo/blob/main/Nanopool.jpg?raw=true" alt="Nanopool Logo" width="200" height="100"/>
+<a href="https://zec.nanopool.org/">
+    <img src="/content-images/Nanopool-e484b00998.webp" alt="Nanopool Logo" width="200" height="100"/>
 </a>
 
-- Sito web: [Nanopool](https://zec.nanopool.org/login)
+- Sito web: [Nanopool](https://zec.nanopool.org/)
 - Pagamenti privati: No
 - Tipo di pool: Pay Per Last N 
-- Commissione del pool: 1%
+- Commissione della pool: 1%
 
 ---
 
 ### [Poolin](https://www.poolin.com/)
 
 <a href="https://www.poolin.com/">
-    <img src="https://github.com/gorgagian123/Exchanges-Logo/blob/main/Poolin.jpg?raw=true" alt="Poolin Logo" width="200" height="100"/>
+    <img src="/content-images/Poolin-6fd4b44ba3.webp" alt="Poolin Logo" width="200" height="100"/>
 </a>
 
 - Sito web: [Poolin](https://www.poolin.com/)
 - Pagamenti privati: No
 - Tipo di pool: Pay Per Share
-- Commissione del pool: 3%
+- Commissione della pool: 3%
 
 ---
 
 ### [Antpool](https://v3.antpool.com/home)
 
 <a href="https://v3.antpool.com/home">
-    <img src="https://github.com/gorgagian123/Exchanges-Logo/blob/main/Antpool.jpg?raw=true" alt="Antpool Logo" width="200" height="100"/>
+    <img src="/content-images/Antpool-9c5dac3b65.webp" alt="Antpool Logo" width="200" height="100"/>
 </a>
 
 - Sito web: [Antpool](https://v3.antpool.com/home)
 - Pagamenti privati: No
 - Tipo di pool: Pay Per Share
-- Commissione del pool: 3%
+- Commissione della pool: 3%
 
 ---
 
 ### [ViaBTC](https://www.viabtc.com/en/)
 
 <a href="https://www.viabtc.com/en/">
-    <img src="https://github.com/gorgagian123/Exchanges-Logo/blob/main/ViaBTC.png?raw=true" alt="ViaBTC Logo" width="200" height="100"/>
+    <img src="/content-images/ViaBTC-8fa5be7bd7.webp" alt="ViaBTC Logo" width="200" height="100"/>
 </a>
 
 - Sito web: [ViaBTC](https://www.viabtc.com/en/)
 - Pagamenti privati: No
 - Tipo di pool: Pay Per Share+
-- Commissione del pool: 4%
-
----
-
-### [Zhash](https://zcash.zhash.pro/stats)
-
-<a href="https://zcash.zhash.pro/stats">
-    <img src="https://github.com/gorgagian123/Exchanges-Logo/blob/main/Zhash.png?raw=true" alt="Zhash Logo" width="200" height="100"/>
-</a>
-
-- Sito web: [Zhash](https://zcash.zhash.pro/stats)
-- Pagamenti privati: No
-- Tipo di pool: Pay Per Last N Shares
-- Commissione del pool: 0%
+- Commissione della pool: 4%
 
 ---
 
 ### [Foundry Zcash Mining Pool](https://foundrydigital.com/foundry-zcash-pool/)
 
 <a href="https://foundrydigital.com/foundry-zcash-pool/">
-    <img src="https://github.com/gorgagian123/Exchanges-Logo/blob/main/Foundry.png?raw=true" alt="Foundry Zcash Mining Pool Logo" width="200" height="100"/>
+    <img src="/content-images/Foundry-3f33346374.webp" alt="Foundry Zcash Mining Pool Logo" width="200" height="100"/>
 </a>
 
 - Sito web: [Foundry Zcash Mining Pool](https://foundrydigital.com/foundry-zcash-pool/)
 - Pagamenti privati: No
 - Tipo di pool: Pay Per Last N Shares
-- Commissione del pool: Non resa pubblica
+- Commissione della pool: Non resa pubblica
 
 ---
 
@@ -149,7 +136,7 @@ I pool di mining di Zcash sono servizi che consentono ai miner individuali di co
 - Sito web: [suprnova](https://zec.suprnova.cc/)
 - Pagamenti privati: No
 - Tipo di pool: Pay Per Last N Shares
-- Commissione del pool: 0,5% - 1%
+- Commissione della pool: 0,5% - 1%
 
 ---
 
@@ -162,17 +149,17 @@ I pool di mining di Zcash sono servizi che consentono ai miner individuali di co
 - Sito web: [NiceHash](https://www.nicehash.com/blog/post/how-to-start-mining-zec-equihash-on-nicehash)
 - Pagamenti privati: si viene pagati in Bitcoin (BTC)
 - Tipo di pool: Hashrate Marketplace / Proxy Pool
-- Commissione del pool: 0,5% - 1%
+- Commissione della pool: 0,5% - 1%
 
 ---
 
 ### [Sovright Mining Pool](https://mining.sovright.com/)
 
 <a href="https://mining.sovright.com/">
-    <img src="https://pbs.twimg.com/profile_images/2061550069489471488/-qOtwa1p_400x400.png" alt="Sovright Logo" width="200" height="100"/>
+    <img src="/content-images/-qOtwa1p_400x400-fce1523375.webp" alt="Sovright Logo" width="200" height="100"/>
 </a>
 
 - Sito web: [Sovright Mining Pool](https://mining.sovright.com/)
 - Pagamenti privati: SÌ
 - Tipo di pool: Pay Per Last N Shares (PPLNS)
-- Commissione del pool: 1%
+- Commissione della pool: 1%

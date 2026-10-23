@@ -93,5 +93,5 @@ Es importante ser honestos sobre la etapa en la que está esto. Se trata de inve
 
 - [Sincronización de wallets de Zcash](https://zechub.wiki/zcash-tech/zcash-wallet-syncing) - por qué la sincronización funciona hoy de la manera en que lo hace
 - [Nodos de lightwallet](https://zechub.wiki/zcash-tech/lightwallet-nodes) - el modelo de cliente ligero que PIR mejoraría
-- [ZK-SNARKs](https://zechub.wiki/zcash-tech/zk-snarks) - la otra gran herramienta criptográfica detrás de la privacidad de Zcash
+- [zk-SNARKs](https://zechub.wiki/zcash-tech/zk-snarks) - la otra gran herramienta criptográfica detrás de la privacidad de Zcash
 - [Seguridad post-cuántica](https://zechub.wiki/zcash-tech/post-quantum-security) - por qué los métodos basados en retículas importan para el futuro

@@ -10,6 +10,14 @@ The official Arborist Calls page is maintained by the Zcash Foundation:
 
 **[https://zfnd.org/arborist-calls/](https://zfnd.org/arborist-calls/)**
 
+<p>
+  <a
+    href="/arborist-calls"
+    className="inline-flex items-center rounded-lg bg-yellow-400 px-4 py-2 font-semibold text-black hover:bg-yellow-300"
+  >
+    Search the call archive
+  </a>
+</p>
 
 ## How to Join
 
@@ -17,12 +25,12 @@ The calls alternate between two recurring time slots so that contributors in dif
 
 - **15:00 UTC** timeslot
 
-
 The Foundation page is the source of truth for registration links, calendar files, and meeting access because meeting links can change.
 
 ## Notes, Agendas, and Recordings
 
 - Full agendas and minutes: [arboretum-notes](https://github.com/ZcashCommunityGrants/arboretum-notes)
+- Searchable archive on this wiki: [Arborist Calls archive](/arborist-calls)
 - Recent recordings: [Zcash Arborist Call playlist](https://www.youtube.com/playlist?list=PL40dyJ0UYTLJqD_3PE9qiJTxse-iHnn1G)
 - Zcash R&D discussion: [Zcash R&D Discord](https://discord.gg/xpzPR53xtU)
 - Long-form discussion: [Zcash Community Forum](https://forum.zcashcommunity.com/)

@@ -1,4 +1,4 @@
-# Curve Ellittiche: Dove Nascono le Chiavi e gli Impegni di Zcash
+# Curve ellittiche: dove nascono le chiavi e gli impegni di Zcash
 ##### Ricerca originale di [Annkkitaaa](https://github.com/Annkkitaaa)
 
 ![alt text](/content-images/image-10-c1097b22d7.webp)
@@ -130,7 +130,7 @@ Ora abbiamo tutto il necessario per spiegare una vera chiave crittografica, ed �
 > **Scegli un numero segreto `k`. Pubblica il punto `kG`. Tutto qui.**
 > `k` è la tua **chiave privata**. `kG` è la tua **chiave pubblica**. La strada a senso unico (ECDLP) garantisce che nessuno possa ricondurre `kG` a `k`.
 
-Questa singola idea, *una chiave pubblica è uno scalare segreto moltiplicato per un generatore fisso*, è il seme delle chiavi di spesa, delle viewing key e degli indirizzi di Zcash. L'intero albero delle chiavi sovrappone più struttura a questo, ma ogni ramo cresce da questa radice.
+Questa singola idea, *una chiave pubblica è uno scalare segreto moltiplicato per un generatore fisso*, è il seme delle chiavi di spesa, delle chiavi di visualizzazione e degli indirizzi di Zcash. L'intero albero delle chiavi sovrappone più struttura a questo, ma ogni ramo cresce da questa radice.
 
 ### Bonus: perché i punti della curva costituiscono impegni perfetti
 
@@ -185,13 +185,13 @@ Alcune semplificazioni hanno mantenuto questo testo leggibile. Abbiamo usato la 
 
 | Termine | Significato in parole semplici |
 |---|---|
-| **Curva ellittica** | Punti che soddisfano `y^2 = x^3 + ax + b`, con una speciale "addizione" di punti |
-| **Addizione di punti** | La regola della corda-e-tangente: retta per due punti, prendi la terza intersezione, rifletti |
-| **Punto all'infinito (`O`)** | Lo "zero" della curva; sommarlo non cambia nulla |
-| **Generatore (`G`)** | Un punto base i cui multipli alla fine coprono l'intero gruppo |
-| **Moltiplicazione scalare (`kG`)** | Sommare `G` a se stesso `k` volte; facile in avanti, difficile da invertire |
+| **Elliptic curve** | Punti che soddisfano `y^2 = x^3 + ax + b`, con una speciale "addizione" di punti |
+| **Point addition** | La regola della corda-e-tangente: retta per due punti, prendi la terza intersezione, rifletti |
+| **Point at infinity (`O`)** | Lo "zero" della curva; sommarlo non cambia nulla |
+| **Generator (`G`)** | Un punto base i cui multipli alla fine coprono l'intero gruppo |
+| **Scalar multiplication (`kG`)** | Sommare `G` a se stesso `k` volte; facile in avanti, difficile da invertire |
 | **ECDLP** | Il problema difficile di recuperare `k` da `kG`; il fondamento della sicurezza |
-| **Impegno di Pedersen** | `v.G + r.H`; una busta sigillata che nasconde, vincola e si somma |
+| **Pedersen commitment** | `v.G + r.H`; una busta sigillata che nasconde, vincola e si somma |
 
 ---
 

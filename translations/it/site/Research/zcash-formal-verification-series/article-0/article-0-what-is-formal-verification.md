@@ -15,7 +15,7 @@ La maggior parte dei software è considerata affidabile perché è stata *testat
 
 Ecco una storia vera, ed è il motivo per cui questa serie esiste.
 
-Nel 2022, la criptovaluta incentrata sulla privacy Zcash ha lanciato un nuovo pool schermato chiamato Orchard, permettendo alle persone di effettuare transazioni con gli importi nascosti. Per quattro anni ha funzionato senza difetti e ha superato ripetuti audit professionali. Poi, nel maggio 2026, un ricercatore di sicurezza, ragionando attentamente sulla matematica sottostante (con l'aiuto di strumenti di IA), ha individuato un singolo punto **sottovincolato** nella matematica del sistema. Quella sola lacuna avrebbe potuto permettere a un attaccante di creare una quantità *illimitata* di denaro contraffatto e, poiché gli importi erano nascosti, nessuno avrebbe visto che stava accadendo. Il difetto era stato presente per tutto il tempo.
+Nel 2022, la criptovaluta incentrata sulla privacy Zcash ha lanciato una nuova pool schermata chiamata Orchard, permettendo alle persone di effettuare transazioni con gli importi nascosti. Per quattro anni ha funzionato senza difetti e ha superato ripetuti audit professionali. Poi, nel maggio 2026, un ricercatore di sicurezza, ragionando attentamente sulla matematica sottostante (con l'aiuto di strumenti di IA), ha individuato un singolo punto **sottovincolato** nella matematica del sistema. Quella sola lacuna avrebbe potuto permettere a un attaccante di creare una quantità *illimitata* di denaro contraffatto e, poiché gli importi erano nascosti, nessuno avrebbe visto che stava accadendo. Il difetto era stato presente per tutto il tempo.
 
 Non è stato scoperto dai test. Ogni test aveva avuto esito positivo per quattro anni. È stato scoperto da qualcuno che *ragionava sulla matematica*. E quando il team lo ha corretto, non si è limitato a rilasciare una patch e andare avanti. Ha scritto una **dimostrazione matematica verificata da una macchina**, composta da oltre 2.700 teoremi individuali, che il sostituto non poteva contenere affatto quella classe di difetto.
 
@@ -137,14 +137,14 @@ Per mantenere questo testo leggibile abbiamo semplificato. Le specifiche reali s
 
 | Termine | Significato in linguaggio semplice |
 |---|---|
-| **Verifica formale** | Dimostrare matematicamente che un sistema soddisfa una specifica in tutti i casi |
-| **Specifica** | Un'affermazione precisa di cosa significhi «comportamento corretto» |
-| **Sistema** | Il programma, circuito o protocollo effettivamente controllato |
-| **Dimostrazione** | Una catena finita di passaggi logici che stabilisce un'affermazione per tutti i casi |
-| **Assistente di dimostrazione / dimostratore di teoremi** | Software (Lean, Rocq, Isabelle) che controlla ogni passaggio di una dimostrazione |
-| **Verificato da una macchina** | Verificato passo dopo passo da un computer, non solo tramite lettura umana |
-| **Induzione** | Una tecnica di dimostrazione: vera all'inizio, e ogni passaggio la porta al successivo |
-| **Assunzione** | Una condizione su cui la dimostrazione si basa; se è falsa, la garanzia potrebbe non valere |
+| **Formal verification** | Dimostrare matematicamente che un sistema soddisfa una specifica in tutti i casi |
+| **Specification** | Un'affermazione precisa di cosa significhi «comportamento corretto» |
+| **System** | Il programma, circuito o protocollo effettivamente controllato |
+| **Proof** | Una catena finita di passaggi logici che stabilisce un'affermazione per tutti i casi |
+| **Proof assistant / theorem prover** | Software (Lean, Rocq, Isabelle) che controlla ogni passaggio di una dimostrazione |
+| **Machine-checked** | Verificato passo dopo passo da un computer, non solo tramite lettura umana |
+| **Induction** | Una tecnica di dimostrazione: vera all'inizio, e ogni passaggio la porta al successivo |
+| **Assumption** | Una condizione su cui la dimostrazione si basa; se è falsa, la garanzia potrebbe non valere |
 
 ---
 

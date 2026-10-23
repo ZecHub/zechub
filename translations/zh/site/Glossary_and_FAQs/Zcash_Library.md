@@ -1,6 +1,6 @@
 # Zcash 资料库
 
-与 Zcash 相关的关键术语、概念和资源的综合词汇表。
+与 Zcash 相关的关键术语、概念和资源的综合词汇表。这是查询发布说明、论坛帖子或钱包更新日志中术语的唯一资料库。
 
 ### 快速导航
 [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) | [G](#g) | [H](#h) | [I](#i) | [J](#j) | [K](#k) | [L](#l) | [M](#m) | [N](#n) | [O](#o) | [P](#p) | [Q](#q) | [R](#r) | [S](#s) | [T](#t) | [U](#u) | [V](#v) | [W](#w) | [X](#x) | [Y](#y) | [Z](#z)
@@ -12,7 +12,7 @@
 | 术语 | 定义 |
 |------|-----------|
 | Actions | Orchard 协议不会为每一笔 Spend 和 Output 分别创建多个独立证明，而是将它们合并为一个单独的 Action。 |
-| Addresses | Zcash 有 Shielded（Z/zaddr）和 Transparent（T/taddr）地址。随着 NU5 升级的推进，Unified addresses（UA）正逐步取代 Z 和 T。 |
+| Addresses | Zcash 有 Shielded（zaddr）和 Transparent（taddr）地址。统一地址（UA）将多种接收方类型捆绑在一起，使发送方钱包能够选择双方都支持的最佳类型。规定于 [ZIP 316](https://zips.z.cash/zip-0316)。 [统一地址](/zcash-tech/unified-addresses) |
 | Arborist Call | 每两周一次的电话会议，涵盖 Zcash 协议与研究开发更新。托管于 Zcash Community Forum 和 Discord。 [会议记录](https://github.com/ZcashCommunityGrants/arboretum-notes) / [论坛公告](https://forum.zcashcommunity.com) |
 | Auto-shielding | 让用户（更准确地说是他们的钱包）能够自动将资金从透明地址转移到最新的受保护 ZEC 池中。 |
 
@@ -23,25 +23,25 @@
 | Benchmarking | 矿工可以提交用于挖掘 Zcash 的各类硬件效率指标。 [在此查看](https://zcashbenchmarks.info) |
 | Block | 区块是 Zcash blockchain 中的一条记录，包含一组在网络上发送的交易。平均大约每 75 秒，就会有一个新区块被附加到 blockchain 上。 |
 | Block Explorer | 用于查看 blockchain 上所有过去和当前交易的在线工具。 [Zcash 区块浏览器](https://zcashexplorer.app/) |
-| Blogs | [ZODL 博客（原 Electric Coin Co）](https://zodl.com/blog/) / [Zcash Foundation 博客](https://zfnd.org/blog/) / [ZecHub 博客](https://zechub.wiki/zechub-dao) |
+| Blogs | [ZODL 博客（原 Electric Coin Co）](https://zodl.com/blog/) / [Zcash Foundation 博客](https://zfnd.org/blog/) / [ZecHub 新闻通讯](https://zechub.substack.com/) |
 | Blossom | Zcash 的第 3 次重大网络升级。 [更多信息](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html?highlight=orchard#blossom) |
 
 ## C
 
 | 术语 | 定义 |
 |------|-----------|
-| Canopy | Zcash 的第 5 次重大网络升级。 [更多信息](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html?highlight=orchard#canopy) |
+| Canopy | Zcash 的第 5 次重大网络升级。[更多信息](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html?highlight=orchard#canopy) |
 | Commitment Scheme | 允许承诺者用一个短字符串对某个多项式作出承诺，验证者可借此确认该已承诺多项式所声称的求值结果。这对于降低 Zcash 协议中的通信成本很有帮助。 |
-| Community | [Zcash 官方社区论坛](https://forum.zcashcommunity.com) / [Zcash 社区 Discord](https://discord.com/channels/669694001464737815/669694001921654794) / [Zcash R&D Discord](https://discord.com/invite/6AK7keWFaK) / [Reddit](https://www.reddit.com/r/zec/) / [Telegram](https://t.me/Zcash_Community) / [Twitter](https://x.com/zcash) |
-| Crosslink | 一种提出中的混合共识设计，保留工作量证明的区块生产机制，并在其上增加一层权益证明终局性层，从而在不放弃挖矿的情况下，让区块获得更强的终局性。它源自 Trailing Finality Layer 研究，由 Shielded Labs 开发，截至 2026 年仍处于 testnet 开发阶段。 |
+| Community | [官方 Zcash 社区论坛](https://forum.zcashcommunity.com) / [Zcash 社区 Discord](https://discord.com/channels/669694001464737815/669694001921654794) / [Zcash R&D Discord](https://discord.com/invite/6AK7keWFaK) / [Reddit](https://www.reddit.com/r/zec/) / [Telegram](https://t.me/Zcash_Community) / [Twitter](https://x.com/zcash) |
+| Crosslink | 一种提出中的混合共识设计，将使权益证明与 Zcash 现有的工作量证明并行运行。Shielded Labs 负责主导这项工作，并在 `zebra-crosslink` 仓库中维护一个原型。Crosslink 目前并非 Zcash 的一部分。[Crosslink 协议](/zcash-tech/crosslink-protocol) |
 | CrossPay | ZODL 钱包中的一项功能，可让你花费受屏蔽的 ZEC，同时收款人则以其偏好的资产和链收到付款；该过程通过 NEAR Intents 路由，而非通过中心化交易所。 |
-| Cypherpunk Zero | 由 ECC、插画师 Stranger Wolf、Mighty Jaxx 以及部分生态合作伙伴共同打造的创意宇宙与协作项目。 [Cypherpunk Zero 网站](https://halo.electriccoin.co/?utm_source=ECC&utm_medium=Website&utm_campaign=None) / [Opensea 收藏集](https://opensea.io/collection/cypherpunk-zero) |
+| Cypherpunk Zero | 由 ECC、插画师 Stranger Wolf、Mighty Jaxx 以及部分生态合作伙伴共同打造的创意宇宙与协作项目。[Cypherpunk Zero 社交媒体](https://x.com/cypherpunkZero) / [OpenSea 收藏集](https://opensea.io/collection/cypherpunk-zero) |
 
 ## D
 
 | 术语 | 定义 |
 |------|-----------|
-| DeFi | 将 ZEC 集成到 DeFi 中的项目： [Maya Protocol](https://www.mayaprotocol.com/ecosystem#user-interfaces/) / [Near Intents](https://near-intents.org/) / [ZenRock](https://app.zenrocklabs.io/) / [ShapeShift](https://app.shapeshift.com/) / [LeoDex](https://leodex.io/) / [ThorSwap](https://app.thorswap.finance/) |
+| DeFi | 将 ZEC 集成到 DeFi 中的项目： [Maya Protocol](https://www.mayaprotocol.com/ecosystem#user-interfaces/) / [NEAR Intents](https://near-intents.org/) / [ZenRock](https://app.zenrocklabs.io/) / [ShapeShift](https://app.shapeshift.com/) / [LeoDex](https://leodex.io/) / [THORSwap](https://app.thorswap.finance/) |
 | Deshielding | 指一笔交易从 zaddr（受保护地址）发送到 taddr（透明地址）。交易来源不可见，但资金会进入一个公开可见的价值池。 |
 | Developer Resources | [开发者资源](https://www.zcashcommunity.com/developers/) |
 | Documentation | [官方文档](https://zcash.readthedocs.io/en/latest/) |
@@ -51,7 +51,7 @@
 | 术语 | 定义 |
 |------|-----------|
 | ECC | Electric Coin Company，即推出 Zcash 协议的团队，此前名为 Zcash Company。其整个工程团队在 2026 年 1 月因与 Bootstrap 董事会的治理争议而集体辞职，随后成立了 ZODL。 |
-| ECDSA | 椭圆曲线数字签名算法是一种密码学上安全的数字签名方案。ECDSA 的签名/验证算法依赖于椭圆曲线点乘。 |
+| ECDSA | 椭圆Curve数字签名算法是一种密码学上安全的数字签名方案。ECDSA 的签名/验证算法依赖于椭圆曲线点乘。 |
 | Education | 讲解 Zcash 的学习向视频可在[这里](https://www.zcashcommunity.com/zcash-education/)查看 |
 | Encrypted Memos | 发送到受保护地址的交易中附带的一个额外字段，付款接收者可以看到。加密 memo 仅对发送方和接收方可见。 |
 | Equihash | Zcash 所使用的、偏重内存的工作量证明挖矿算法。 |
@@ -62,9 +62,9 @@
 
 | 术语 | 定义 |
 |------|-----------|
-| Fiat-Shamir | 一种将交互式知识证明转换为基于其上的数字签名的技术。通过这种方式，可以在不泄露底层信息的前提下，公开证明某个事实（例如知晓某个秘密）。 |
+| Fiat-Shamir | 一种将交互式知识证明转换为基于其的数字签名的技术。通过这种方式，可以在不泄露底层信息的前提下，公开证明某个事实（例如知晓某个秘密）。 |
 | Formal Verification | 通过数学方式证明一个系统的行为与规范完全一致，而不是仅仅依赖测试。zkSecurity 和 ZODL 的贡献者使用 Lean 定理证明器，以这种方式验证了 Ironwood Action 电路，以证明其不存在可靠性漏洞。 |
-| Founders Reward | Founders Reward 占区块总奖励的 20%，从每个区块的价值中扣除，并以透明方式分配，用于推动协议开发与成长。 |
+| Founders Reward | 创始人奖励占区块总奖励的 20%，从每个区块的价值中扣除，并以透明方式分配，用于推动协议开发与成长。 |
 | Free2Z | 由 Zcash 驱动的匿名内容与私密捐赠工具。 [Free2Z](https://free2z.com) |
 | FROST | 灵活的轮次优化 Schnorr 门限签名方案。 [研究论文](https://eprint.iacr.org/2020/852) |
 
@@ -72,7 +72,7 @@
 
 | 术语 | 定义 |
 |------|-----------|
-| Governance | ZIP 流程产生的决策会写入 Zcash 规范以及运行该网络的软件中。当网络中的大多数采用该升级且不破坏共识时，这些变更会在链上获得确认。 [完整协议历史](https://zfnd.org/protocol-governance/) |
+| Governance | ZIP 流程产生的决策会写入 Zcash 规范以及运行该网络的软件中。当网络中的大多数采用该升级且不破坏共识时，这些变更会在链上获得确认。 [完整协议历史](https://zfnd.org/protocol-agreements-and-major-decisions/) |
 
 ## H
 
@@ -90,7 +90,7 @@
 | Integrations | 你可以通过多个第三方提供商接受 Zcash 支付。 [支付处理商](https://z.cash/zcash-for-business/) |
 | Interactive Proof System | 一种抽象机器模型，将计算建模为双方——证明者与验证者——之间的信息交换。 |
 | Investment | 希望获得 Zcash 敞口的机构投资者或家族办公室可以使用多种金融工具。 [完整列表](https://z.cash/investors/) |
-| Ironwood | 于 2026 年 7 月 28 日在主网上区块 3,428,143 激活的网络升级（NU6.3）。它引入了一个新的 shielded pool，也称为 Ironwood，并使 Orchard pool 变为仅可支出，以便现有价值穿过 turnstile 迁移。 [更多信息](/zcash-tech/ironwood) |
+| Ironwood | 网络升级 NU6.3，于 2026 年 7 月 28 日在主网区块 3,428,143 起生效。Ironwood 新增了一个基于经修正的 Orchard 电路构建的 shielded pool，并封存原有的 Orchard pool，因此任何人都可以验证流通供应量是否真实可靠。其共识规则在 [ZIP 258](https://zips.z.cash/zip-0258) 中规定。 [Ironwood](/zcash-tech/ironwood) |
 
 ## J
 
@@ -109,8 +109,8 @@
 | 术语 | 定义 |
 |------|-----------|
 | Layer-1 | 指基础网络及其底层基础设施。Layer-1 blockchain 无需依赖其他网络即可验证并最终确认交易。Zcash 是一条 L1 blockchain。 |
-| librustzcash | 一个 Rust workspace，包含用于处理 Zcash 的所有 crates 和依赖项。 [仓库](https://github.com/zcash/librustzcash) |
-| Lightwalletd | 一种无状态服务器，向轻客户端提供 blockchain 信息。 [Lightwalletd](https://zcash.readthedocs.io/en/latest/rtd_pages/lightclient_support.html) |
+| librustzcash | 一个 Rust workspace，包含用于处理 Zcash 的所有 crates 和依赖项。[仓库](https://github.com/zcash/librustzcash) |
+| lightwalletd | 一种无状态服务器，向轻客户端提供 blockchain 信息。[lightwalletd](https://zcash.readthedocs.io/en/latest/rtd_pages/lightclient_support.html) |
 
 ## M
 
@@ -118,7 +118,7 @@
 |------|-----------|
 | Metrics | 网络指标可在[这里](https://tokenterminal.com/explorer/projects/zcash/metrics/all)查看 |
 | Metadata | 与用户的 Zcash 交易一同生成的数据。这可能包括区块高度、交易版本或过期高度等。 |
-| Mobile SDK | 一个轻量级 SDK，可将 Android 连接到 Zcash，使第三方 Android 应用能够发送和接收受保护交易。 [Github](https://github.com/zcash/zcash-android-wallet-sdk) |
+| Mobile SDK | 一个轻量级 SDK，可将 Android 连接到 Zcash，使第三方 Android 应用能够发送和接收受保护交易。 [GitHub](https://github.com/zcash/zcash-android-wallet-sdk) |
 | Mining | 在该过程中，对于每个区块，Zcash 网络中的节点会基于自动调整的难度进行复杂数学计算竞争，以找到解。 [指南](https://z.cash/mining-zcash/) |
 | Multisignature | 一种地址，需要多个私钥签名才能花费其中资金。目前，多签功能仅支持透明地址。 |
 
@@ -130,15 +130,15 @@
 | Nighthawk | 一款用于 Zcash 的移动钱包。 [网站](https://nighthawkwallet.com) |
 | Noir Wallet | 一款由 Zcash Community Grants 支持的 Zcash 浏览器扩展钱包，旨在将 shielded ZEC 直接连接到浏览器应用，而不是依赖二维码和手动转账。 [zknoir.com](https://www.zknoir.com/) |
 | NU5 | Zcash 的第 6 次重大网络升级，引入了 Orchard shielded pool 和 Unified Addresses。 [更多信息](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#nu5) |
-| NU6 | Zcash 的第 7 次重大网络升级，调整了区块补贴，用于资助 Zcash Community Grants 项目和 Shielded Labs。于 2024 年底激活。 [更多信息](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#nu6) |
-| NU7 | Ironwood 之后的下一次重大网络升级。候选功能包括 Project Tachyon 的扩容工作、Zcash Shielded Assets 以及 Network Sustainability Mechanism。 |
+| NU6 | Zcash 的第 7 次重大网络升级，调整了区块补贴，用于资助 Zcash Community Grants 项目和延期开发基金锁箱。于 2024 年底激活。 [更多信息](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#nu6) |
+| NU7 | Ironwood 之后的网络升级，目标是在 2026 年 11 月 5 日上线主网。根据 [ZIP 259](https://zips.z.cash/zip-0259)，它将引入 25 秒区块（ZIP 218）、带手续费回收的 Network Sustainability Mechanism（ZIPs 235 和 237），并终止版本 4 交易，使 Sprout 资金无法花费（ZIP 2003）。它不会新增交易格式；Tachyon 和 Zcash Shielded Assets 不属于此次升级。 |
 
 ## O
 
 | 术语 | 定义 |
 |------|-----------|
 | Oblivious Synchronization | Project Tachyon 中正在开发的一种方法，使 wallet 能够在不泄露其正在查询哪些 notes 的情况下，从不受信任的服务器请求其所需的数据。服务器永远不会获知你的 nullifiers，因为该协议会使它们以不可关联的方式演化。[说明文档](https://seanbowe.com/blog/tachyon-scaling-zcash-oblivious-synchronization/) |
-| Orchard Shielded Pool | Zcash 的第三个受保护池，代表了我们 ZK-SNARKs 技术栈的持续演进。[完整详情](https://electriccoin.co/blog/explaining-halo-2/) |
+| Orchard | 在 NU5 中引入的受保护池。发现可靠性漏洞后，Ironwood 将其关闭，因此你无法再在 Orchard 内发送或接收资金。资金只能通过 turnstile 离开。[受保护池](/using-zcash/shielded-pools) |
 | Overwinter | Zcash 的第 1 次网络升级。[更多信息](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#overwinter) |
 
 ## P
@@ -181,7 +181,7 @@
 
 | 术语 | 定义 |
 |------|-----------|
-| Tachyon | Zcash 的扩容计划，目标指向 NU7。它让钱包从扫描每一个区块，转向采用带证明的钱包状态、oblivious synchronization 和可裁剪的节点状态，目标是将屏蔽交易吞吐量提升到每秒数千笔交易。[项目网站](https://tachyon.z.cash/overview/) |
+| Tachyon | Zcash 的扩容计划。它不属于 NU7（[ZIP 259](https://zips.z.cash/zip-0259)），且没有激活日期。它让钱包从扫描每一个区块，转向采用带证明的钱包状态、oblivious synchronization 和可裁剪的节点状态，目标是将屏蔽交易吞吐量提升到每秒数千笔交易。[项目网站](https://tachyon.z.cash/overview/) |
 | TAZ | Testnet Zcash（无价值的测试货币）。 |
 | Testnet | 一个独立的 blockchain，用于在主网之前测试升级和功能。 |
 | Trailing Finality Layer (TFL) | 关于在 Zcash 的工作量证明链之后增加一个终局性层的研究，从而无需替代挖矿就能让最近的区块获得最终确定性。Crosslink 就是由这项研究产生的设计方案。 |
@@ -230,20 +230,21 @@
 |------|-----------|
 | Zcash | 以隐私为核心的加密货币，使用 zk-SNARKs。连接透明支付（Bitcoin 风格）与完全受保护支付。 |
 | Zcash Foundation | 支持 Zcash 生态系统、资助开发并推动隐私保护的独立非营利组织。 |
-| Zcash Network | 由节点组成的点对点网络，用于验证交易并维护 blockchain。 |
+| Zcash Network | 由节点组成的点对点网络，用于验证交易并维护区块链。 |
 | ZEC | Zcash 的官方货币代码（部分交易所仍显示 XZC）。 |
+| Z3 stack | 共同替代 zcashd 的三个程序：Zebra 用于节点，Zaino 用于索引，Zallet 用于钱包。[Z3 堆栈](/zcash-tech/z3-stack) |
 | Zerocash | Zcash 所基于的学术协议（2014）。 |
-| Zaino | 下一代 Zcash 索引器，用于替代 lightwalletd，由 Zcash Foundation 构建。它使轻客户端能够以更快且更私密的方式同步。属于 Zcash Z3 基础设施升级的一部分。 |
-| Zakura | 于 2026 年 7 月发布的 Zcash 全节点实现，由 Valar Group 和 Project Tachyon 基于 Zebra 的分叉版本构建。它以吞吐量和同步速度为目标，具备快照引导功能，并明确以卡网络级别的规模为目标，约每秒 50,000 笔交易。 [zakura.com](https://zakura.com) |
-| Zallet | 在 zcashd 退役后接管其钱包功能的钱包组件，基于 Zaino 构建，属于 Zcash Z3 基础设施工作的一部分。 |
-| Zebra | Zcash Foundation 基于 Rust 的全节点实现（zcashd 的替代方案）。已可用于生产环境，并在持续积极维护。 [GitHub](https://github.com/ZcashFoundation/zebra) |
-| zcashd | 最初的 Zcash 全节点，分叉自 Bitcoin Core。经过长期弃用后于 2026 年 7 月退役，其职责拆分为由 Zebra 负责共识、由 Zallet 负责钱包功能。 |
-| ZIP | Zcash Improvement Proposal——社区用于提议和确认协议变更的治理流程。 [ZIP 仓库](https://github.com/zcash/zips) |
-| ZODL | Zcash Open Development Lab。该独立组织由 Josh Swihart 与前 Electric Coin Company 工程团队于 2026 年初创立，他们因与 Bootstrap 的治理争议辞职后成立了该组织。其在 2026 年 3 月筹集了超过 2500 万美元的种子轮融资，并维护 Zodl 钱包；该钱包于 2026 年 2 月由 Zashi 更名而来。 [zodl.com](https://zodl.com) |
+| Zaino | 由 Zingo Labs 使用 Rust 编写的索引器，用于从 Zebra 节点提供钱包数据。它接管了 zcashd 过去为轻钱包执行的索引工作。[Zaino](/zcash-tech/zaino) |
+| Zakura | 为扩展性而构建的独立 Zcash 全节点，由 Sean Bowe 和 Dev Ojha 领导。它同步更快，原生修剪区块，并可在其之上运行 zcashd，以支持仍依赖该软件的软件。[Zakura 节点](/zcash-tech/zakura-node) |
+| Zallet | 替代 zcashd 钱包的钱包。请迁移现有的 `wallet.dat`，而不是重新开始。[Zallet](/zcash-tech/zallet) 和 [Zallet 快速参考](/using-zcash/zallet-quick-reference-guide) |
+| Zebra | 替代 zcashd 的全节点，由 Zcash Foundation 维护。如需验证节点，请运行它。[Zebra 全节点](/zcash-tech/zebra-full-node) |
+| zcashd | 最初的 Zcash 全节点和钱包，现已退役。6.20.0 版本于 2026 年 7 月 18 日在区块 3417100 时自行关闭，且从未支持 NU6.3。请改用 Z3 堆栈或 Zakura。[迁移指南](/guides/migration-guide-zcashd-to-zebrad-zallet) |
+| ZIP | Zcash Improvement Proposal——社区用于提议和确认协议变更的治理流程。[ZIP 仓库](https://github.com/zcash/zips) |
+| ZODL | Zcash Open Development Lab。该独立组织由 Josh Swihart 与前 Electric Coin Company 工程团队于 2026 年初创立，他们因与 Bootstrap 的治理争议辞职后成立了该组织。其在 2026 年 3 月筹集了超过 2500 万美元的种子轮融资，并维护 ZODL 钱包；该钱包于 2026 年 2 月由 Zashi 更名而来。[zodl.com](https://zodl.com) |
 | zk-SNARKs | 零知识简洁非交互式知识论证——为 Zcash 受保护交易提供支持的密码学技术。它允许在不泄露任何秘密信息的情况下证明某个陈述（例如有效花费）。 |
-| ZSA (Zcash Shielded Assets) | 用户发行的代币，继承了 Zcash 的受保护隐私特性，使 ZEC 以外的资产也能在网络上私密流转。规范定义见 [ZIP 226](https://zips.z.cash/zip-0226)，并且是 NU7 的候选功能之一。 |
+| ZSA (Zcash Shielded Assets) | 用户发行的代币，继承了 Zcash 的受保护隐私特性，使 ZEC 以外的资产也能在网络上私密流转。规范定义见 [ZIP 226](https://zips.z.cash/zip-0226)。它不属于 NU7（[ZIP 259](https://zips.z.cash/zip-0259)），且尚无激活日期。 |
 
 ---
 
-**最后更新：** 2026 年 7 月
+**最后更新：** 2026 年 10 月
 **想要参与贡献？** [在 GitHub 上编辑此页面](https://github.com/ZecHub/zechub/edit/main/site/Glossary_and_FAQs/Zcash_Library.md)

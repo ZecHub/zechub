@@ -21,7 +21,7 @@ Mentre i dati viaggiano sui server o su internet, sono esposti a molti fattori c
 
 **Memo cifrati di Zcash**
 
-I wallet desktop e mobili di Zcash hanno una funzionalità integrata che permette agli utenti di inviare messaggi cifrati con transazioni schermate private. La dimensione del memo/messaggio può arrivare fino a 512 byte per transazione, con commissioni di transazione inferiori a 1 centesimo di dollaro USA. A causa del modo in cui le transazioni vengono rilevate per preservare la privacy e del tempo di blocco della rete, i messaggi possono richiedere fino a 1 minuto o più per essere ricevuti. 
+I portafogli desktop e mobile di Zcash hanno una funzionalità integrata che permette agli utenti di inviare messaggi crittografati con transazioni schermate private. La dimensione del memo/messaggio può arrivare fino a 512 byte per transazione, con commissioni di transazione inferiori a 1 centesimo di dollaro USA. A causa del modo in cui le transazioni vengono rilevate per preservare la privacy e del tempo di blocco della rete, i messaggi possono richiedere fino a 1 minuto o più per essere ricevuti. 
 
 Provalo: https://z.cash/wallets 
 
@@ -33,7 +33,7 @@ Provalo: https://z.cash/wallets
 
 Il messenger privato Signal è un'app di messaggistica sicura con la privacy dei dati al suo apice. L'app del messenger privato Signal è gratuita e facile da usare, gli utenti non hanno bisogno di alcuna esperienza pregressa. L'app Signal ha una tecnologia di crittografia end-to-end che garantisce che la tua comunicazione sia completamente privata. Chiunque desideri inviare messaggi privati in modo sicuro dovrebbe considerare l'uso dell'app del messenger privato Signal, perché ridurrà esponenzialmente sia le tue vulnerabilità di cybersicurezza sia la tua impronta di dati.
 
-Provala: [https://signal.org/download](https://signal.org/download)
+Provala: [https://signal.org/download/](https://signal.org/download/)
 
 **BisonRelay**
 

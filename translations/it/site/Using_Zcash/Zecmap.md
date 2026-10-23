@@ -20,7 +20,7 @@ Sito web: [zecmap.com](https://zecmap.com/)
 
 ---
 
-## Cosa Fa ZecMap
+## Cosa fa ZecMap
 
 ZecMap organizza le attività che accettano Zcash su una mappa globale. Ogni scheda mostra il nome dell'attività, la categoria, la posizione o il sito web, e come viene accettato ZEC. Questo rende facile per i possessori di ZEC:
 
@@ -31,21 +31,21 @@ ZecMap organizza le attività che accettano Zcash su una mappa globale. Ogni sch
 
 ---
 
-## Casi d'Uso
+## Casi d'uso
 
-### Trovare Commercianti Locali
+### Trovare commercianti locali
 
-Apri [zecmap.com](https://zecmap.com/) e cerca sulla mappa i commercianti vicino a te. Prima di visitarli, conferma con l'attività che ZEC sia attualmente accettato e chiedi quale wallet o flusso di pagamento preferiscono.
+Apri [zecmap.com](https://zecmap.com/) e cerca sulla mappa i commercianti vicino a te. Prima di visitarli, conferma con l'attività che ZEC sia attualmente accettato e chiedi quale portafoglio o flusso di pagamento preferiscono.
 
-### Scoprire Negozi e Servizi Online
+### Scoprire negozi e servizi online
 
 ZecMap elenca anche attività online. Esplora per categoria per trovare negozi e-commerce, servizi di hosting, provider VPN e altri commercianti digitali che accettano pagamenti in Zcash.
 
-### Pianificare Viaggi Attorno a ZEC
+### Pianificare viaggi attorno a ZEC
 
 Stai viaggiando verso una nuova città o un nuovo paese? ZecMap ti permette di esplorare la copertura dei commercianti prima del tuo arrivo, così puoi pianificare soste in ristoranti, negozi e servizi favorevoli a ZEC.
 
-### Supportare i Nuovi Utenti di Zcash
+### Supportare i nuovi utenti di Zcash
 
 I nuovi utenti spesso imparano come acquistare e conservare ZEC prima di scoprire dove spenderlo. ZecMap fornisce quel passo successivo — un elenco pratico e consultabile dell'utilità reale di ZEC nel mondo.
 
@@ -57,18 +57,18 @@ Se un'attività accetta ZEC e non è ancora su ZecMap, qualsiasi membro della co
 
 | Campo | Cosa fornire |
 |-------|----------------|
-| Nome dell'attività | Nome ufficiale così come appare pubblicamente |
-| Sito web o contatto | URL o profilo social |
-| Posizione | Indirizzo per le attività fisiche; regione per quelle online |
-| Categoria | Bar, ristorante, negozio, servizio, negozio online, ecc. |
-| Prove | Pagina pubblica dei pagamenti, annuncio del commerciante o conferma diretta |
-| Note di pagamento | Di persona, online o entrambi; ZEC trasparente o shielded |
+| Business name | Nome ufficiale così come appare pubblicamente |
+| Website or contact | URL o profilo social |
+| Location | Indirizzo per le attività fisiche; regione per quelle online |
+| Category | Bar, ristorante, negozio, servizio, negozio online, ecc. |
+| Evidence | Pagina pubblica dei pagamenti, annuncio del commerciante o conferma diretta |
+| Payment notes | Di persona, online o entrambi; ZEC trasparente o schermato |
 
 Gli invii dovrebbero evitare dati privati dei clienti. Se usi una prova di transazione, rimuovi i dettagli personali, i numeri d'ordine e gli indirizzi di casa prima di condividerla.
 
 ---
 
-## Verifica e Approvazione
+## Verifica e approvazione
 
 Le schede passano attraverso un processo di revisione prima di apparire pubblicamente:
 
@@ -82,7 +82,7 @@ Poiché le opzioni di pagamento dei commercianti possono cambiare, considera le 
 
 ---
 
-## Programma di Ricompense per i Collaboratori
+## Programma di ricompense per i collaboratori
 
 ZecMap ricompensa i collaboratori che aiutano a far crescere e mantenere la directory. Le ricompense sono pensate per incoraggiare:
 
@@ -95,7 +95,7 @@ Per le regole attuali delle ricompense e come richiederle, visita [zecmap.com](h
 
 ---
 
-## Caratteristiche Principali
+## Caratteristiche principali
 
 - **Mappa globale interattiva** — esplora o cerca commercianti per posizione.
 - **Schede delle attività** — commercianti locali e online con dettagli di pagamento.
@@ -113,7 +113,7 @@ ZecMap ha anche annunciato una partnership con [CipherPay](https://cipherpay.app
 
 ---
 
-## Sviluppi Futuri
+## Sviluppi futuri
 
 I miglioramenti pianificati includono:
 
@@ -126,21 +126,21 @@ I miglioramenti pianificati includono:
 
 ---
 
-## Suggerimenti per Usare ZecMap
+## Suggerimenti per usare ZecMap
 
 - **Conferma prima di andare.** Verifica sempre con il commerciante che ZEC sia attualmente accettato.
-- **Controlla il tipo di pagamento.** Alcune attività accettano ZEC trasparente, altre preferiscono shielded. Chiedi prima di pagare.
+- **Controlla il tipo di pagamento.** Alcune attività accettano ZEC trasparente, altre preferiscono ZEC schermato. Chiedi prima di pagare.
 - **Aiuta la comunità.** Se trovi una scheda obsoleta o errata, segnalala così che altri non vengano fuorviati.
 - **Aggiungi ciò che conosci.** Se un'attività locale accetta ZEC e non è elencata, inviala — la tua conoscenza locale è preziosa.
 
 ---
 
-## Pagine Correlate
+## Pagine correlate
 
-- [Spendere ZEC](/using-zcash/spend-zcash) — Altri modi per usare ZEC nel mondo reale
+- [Spendere ZEC](/using-zcash/spend-zcash/top-10-places-to-spend-zec) — Altri modi per usare ZEC nel mondo reale
 - [Processori di Pagamento](/using-zcash/payment-processors) — Strumenti per i commercianti per accettare ZEC
-- [Usare ZEC in Modo Privato](/guides/using-zec-privately) — Migliori pratiche per i pagamenti shielded
-- [Wallet](/using-zcash/wallets) — Wallet compatibili con i pagamenti in ZEC ai commercianti
+- [Usare ZEC in modo privato](/guides/using-zec-privately) — Migliori pratiche per i pagamenti schermati
+- [Portafogli](/using-zcash/wallets) — Portafogli compatibili con i pagamenti in ZEC ai commercianti
 - [Exchange Non-Custodial](/using-zcash/non-custodial-exchanges) — Ottieni ZEC da spendere
 
 ## Risorse

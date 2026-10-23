@@ -1,0 +1,12 @@
+{
+  "exact": [
+    "logo",
+    "img1",
+    "image",
+    "alt text"
+  ],
+  "patterns": [
+    "^img\\s*\\d+$",
+    "^https?://\\S+$"
+  ]
+}

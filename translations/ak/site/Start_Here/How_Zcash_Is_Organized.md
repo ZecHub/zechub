@@ -108,9 +108,9 @@ Saa wiki yi wɔ hɔ sɛ ɛbɛboa wo ma woakɔ akyiri, enti ade a edi hɔ a eye s
 - [Akwankyerɛ Foforo a Wɔde Di Dwuma](https://zechub.wiki/start-here/new-user-guide) ma nantew a edi kan a wode Zcash bedi dwuma
 - [Atare a Wɔabɔ ho Ban](https://zechub.wiki/using-zcash/shielded-pools) sɛnea Zcash de nnwuma sie kokoam no
 - [Nneɛma a wɔde dannan nneɛma](https://zechub.wiki/zcash-tech/the-turnstile) sɛnea sika a wɔde ma no kɔ so yɛ nea wotumi di ho adanse no ho
-- [Dade dua](https://zechub.wiki/zcash-tech/ironwood) ma shielded pool a network no retu akɔ hɔ no
+- [Ironwood](https://zechub.wiki/zcash-tech/ironwood) ma shielded pool a network no retu akɔ hɔ no
 - [Network Nkɔsoɔ a Wɔayɛ](https://zechub.wiki/start-here/network-upgrades) sɛnea Zcash sesa bere a bere kɔ so no
-- [zk-SNARKs a wɔde wɔn ho hyɛ mu](https://zechub.wiki/zcash-tech/zk-snarks) ma cryptography a ɛwɔ kokoam nsɛm no akyi no
+- [zk-SNARKs](https://zechub.wiki/zcash-tech/zk-snarks) ma cryptography a ɛwɔ kokoam nsɛm no akyi no
 
 Kratafa biara link kɔ pii so, enti wubetumi adi thread no akyi sɛnea wopɛ.
 

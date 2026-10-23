@@ -46,11 +46,11 @@ Nsonsonoe no ne sɛ wobɛyɛ biribi a ɛwɔ hɔ ankasa na woayɛ ho nhwehwɛmu d
 
 Nkyerɛkyerɛmu biara a wɔfa no kwan pa so, ɛmfa ho sɛnea ɛyɛ den fa no, efi nneɛma abiɛsa pɛ mu. Fa eyinom si hɔ yiye na nea aka nyinaa yɛ nsɛm nketenkete.
 
-nkyerεmu: Nnyinaso. Nkyerԑase a emu da hɔ. Nhwehwԑmu mu nnyinaso ahorow.
+| Ɔdum | Nkyerɛase a ɛda adi pefee | Ɔdansi nsɛdi |
 |---|---|---|
-**Specification**. Nkyerɛkyerɛmu a emu da hɔ ma nea "ɔfata" *kyerɛ no.* "Ɛsɛ sɛ wɔto apon biara mu sa so anadwo".
-**System**. Ade ankasa a wɔhwɛ so (program, circuit, protocol) Ɔdan no ne emu nsaano kwan ho nhyehyɛeɛ
-**Sɔduro**: Nkɔmmɔ a emu yɛ den fa sɛnea nhyehyɛe no di ne ho so bere nyinaa. Abɛkyerɛ sɛ, "Kata" ano a wobɛtumi de ato apon biara mu nti na wɔato wɔn nsa afrɛ wo yi.
+| **Nkyerɛkyerɛmu** | Asɛm a ɛyɛ pɛpɛɛpɛ a ɛkyerɛ nea "teɛ" *kyerɛ* | "Ɛsɛ sɛ wɔto ɔpon biara mu anadwo" |
+| **Sestɛm** | Ade ankasa a wɔrehwɛ mu (program, circuit, protocol) | Ɔdan no ne afiri a wɔde to mu |
+| **Nnyinasoɔ** | Akyinnyegye a emu yɛ den a ɛkyerɛ sɛ nhyehyɛe no hyia nea wɔakyerɛ no bere nyinaa | Ɔyɛkyerɛ a ntease wom a ɛkyerɛ sɛ "lock" a wobɛmia no to apon nyinaa mu |
 
 Na nea ɛto so anan a ɛyɛ komm no ma biribiara yɛ nokware:
 
@@ -85,11 +85,11 @@ Esiane sɛ ɛyɛ mfitiase (0) na ɔfã biara fa no kɔ a edi hɔ so nti, ɛfata 
 
 Wͻ abodin a w'atwe no asensεn so de, tumi wɔ mu esiane sɛ ɛma wonya ntease fa baabi a *nsonsonoe fi ba ankasa. Ԑbᴐne biara wᴐ mmara-ahwehwԑde nhyehyεε bi mu yƐtumi hu ne ho nsunsuansoɔ firi mmeae abiesa:
 
-nkyerεw no ase fi nsesaeԑ bi mu. Deɛn na ɛkyerɛ? Yɛbɛtumi asusu ho anaa?
+| Fibea a mmoawa bi fi | Nea ɛkyerɛ | So yebetumi akyerɛ sɛ ɛyɛ akyirikyiri? |
 |---|---|---|
-nkyerεmu no ankasa ne nhwehwԑmu anaa mmara a ԑyԑ mfomso (anaa ahwehwɛde bi nni hɔ, nkyerɛase bɔne) YƐYƐ saa de ma mmaransɛm mu nhwehwɛmu.
-**The implementation**. Code no ntumi mfa nokorɛdie nyɛ adwuma wɔ nkyerɛaseɛ a ɛyɛ papa mu. Ɛtɔ da bi na saa mfomsoɔ yi ma adanseɛ hunu yɛ yie, nanso sɛ ɛba saa a, ɛbɛtumi asesa ne nyinaa anaa ɛde ɔhaw kɛse ba so.
-**A broken assumption** Biribi a ne nyinaa gyina so no yɛ atoro. Daabi; nsunsuansoɔ na ɛma biribi ba mu.
+| **Nkyerɛkyerɛmu no** | Nkontaabu anaa mmara no ankasa yɛ mfomso (tebea a ɛyera, nkyerɛase bɔne) | **Yiw**, tẽẽ, eyi yɛ formal verification's home turf |
+| **Nneɛma a wɔde di dwuma** | Mmara no ntumi mfa nokwaredi nni nsɛm a wɔakyerɛkyerɛ mu a ɛteɛ ho dwuma | Ɔfã bi; mpɛn pii no, huammɔdi a ɛtete saa no gyaw adanse a wotumi hu |
+| **Nsusuwii a abubu** | Biribi a nhyehyɛe no nyinaa de wɔn ho to so no dan atoro | Daabi; nsusuwii ahorow ne fapem a wontumi ntew so |
 
 Saa nnwumakuw yi ho hia sen sɛnea ɛte, na Ɔfã a ɛtɔ so 2 ne 3 no fa eyi ho. Nsunsuansoɔ akɛseɛ a ɛyɛ hu paa no mu pii wɔ hɔ: nea ɛsɛ sɛ afidie yɛ de kyerɛ nneɛma kwan pɛpɛɛpɛ. Ɛno nti na mmɔdenbɔ pa biara a wɔde hwehwɛ biribi ase kɔ akyiri di kan si saa botae no akyi.
 
@@ -135,16 +135,16 @@ To keep this readable we simplified. Real specifications are written in precise 
 
 ## Nsɛmfua a wɔde di dwuma
 
-Asɛmfua. Nkyerεase a emu da hɔ wɔ Borɔfo mu no kyerɛ sɛ:
+| Asɛmfua | Plain-English asekyerɛ |
 |---|---|
-**Formal verification**: Susuw ho a, ɛkyerɛ sɛ ɔkwan bi di akwankyerɛ so wɔ nsɛm nyinaa mu.
-**Nkyerɛmu**. Nkyerɛkyerɛmu a emu da hɔ ma nea "abrabɔ pa" kyerɛ no mu pɛpɛɛpɛ.
-**System**: Nhyehyɛeɛ, amansin anaa protocol ankasa a wɔhwehwɛ mu.
-**Dansedie**: Ninyɛne a wɔdi mu na wɔde di dwuma ma asɛm biara ba so.
-** Proof assistant / theorem prover** Software (Lean, Rocq, Isabelle) a ɔhwɛ adanseɛ biara so.
-**Machine-checked**. Agyinaadehunu so wɔ akwantu nyinaa mu, ɛnyɛ nnipa akenkan nko ara na ɛhwɛ no kwan.
-**Induction** A proof technique: true at the start, and each step carries it to the next. *Ade a edi kan no yɛ nokware na ɔfã biara de kɔ nea ɛdi hɔ mu.**
-**Annyehyԑde** Ahyehye a adansedie no gyina so; sε atoro, bͻto mu sɛ nkabomu no ntumi nnyina hɔ.
+| **Formal verification** | Ɛkyerɛ, wɔ akontaabu mu, sɛ nhyehyɛe bi hyia nsɛm pɔtee bi a wɔahyɛ ato hɔ ma nsɛm nyinaa |
+| **Specification** | Asɛm pɔtee a ɛfa nea "suban a ɛteɛ" kyerɛ ho |
+| **System** | Dwumadi, ɔmansin, anaa protocol ankasa a wɔrehwɛ mu |
+| **Proof** | Anamɔn a ntease wom a ɛwɔ anohyeto a ɛde asɛm bi a wɔka ma nsɛm nyinaa si hɔ |
+| **Proof assistant / theorem prover** | Software (Lean, Rocq, Isabelle) a ɛhwɛ anammɔn biara a ɛwɔ adanse bi mu |
+| **Machine-checked** | Kɔmputa na ɛkyerɛ sɛ ɛyɛ nokware anammɔn biara, ɛnyɛ nnipa akenkan nkutoo |
+| **Induction** | Adanse kwan: ɛyɛ nokware wɔ mfiase, na anammɔn biara de kɔ nea edi hɔ no so |
+| **Assumption** | Tebea a adanse no de ne ho to so; sɛ ɛyɛ atoro a, ebia guarantee no renkura mu |
 
 ---
 

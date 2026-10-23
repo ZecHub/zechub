@@ -26,7 +26,7 @@ Zcashには2種類のアドレスがあります。
 
 ## エクスプローラーが見られるもの
 
-[Blockchair](https://blockchair.com/zcash) のような公開エクスプローラーは、次のものを明確に読み取れます。
+[ZecBlock](https://zecblock.com/) のような公開エクスプローラーは、次のものを明確に読み取れます。
 
 - 完全に透明な（t から t）支払いは、最初から最後まで。
 - 資金がシールドプールに入ること（透明な側と金額）。
@@ -56,23 +56,23 @@ Zcashには2種類のアドレスがあります。
 
 ## 実践してみましょう
 
-- [Zodl](https://zodl.com) や [Zingo!](https://www.zingolabs.org/) のように、デフォルトでシールドアドレスを使うウォレットを使いましょう。
+- [ZODL](https://zodl.com) や [Zingo!](https://www.zingolabs.org/) のように、デフォルトでシールドアドレスを使うウォレットを使いましょう。
 - 透明アドレスでZECを受け取ったら、使う前にシールドアドレスへ移しましょう。
 - 可能な限り、シールドアドレスに支払いましょう。透明な支払いはすべて完全に公開されますが、シールドされた支払いはそうではありません。
 
 ## リソース
 
-- [Zcash: プライバシーとセキュリティの推奨事項](https://z.cash/support/security/privacy-security-recommendations/)
-- [シールドされたエコシステム（Electric Coin Company）](https://electriccoin.co/blog/shielded-ecosystem/)
-- [Zcashの技術の仕組み](https://z.cash/technology/)
-- [Blockchair Zcashエクスプローラー](https://blockchair.com/zcash)
+- [Zcash: プライバシーとセキュリティに関する推奨事項](https://z.cash/support/security/privacy-security-recommendations/)
+- [シールドされたエコシステム（Electric Coin Company）](https://web.archive.org/web/20260903010654/https://electriccoin.co/blog/shielded-ecosystem/)
+- [Zcash技術の仕組み](https://z.cash/technology/)
+- [ZecBlock](https://zecblock.com/)
 
 ## 関連ページ
 
 - [Zcashの基本](/start-here/what-is-zec-and-zcash)
 - [ウォレット](/using-zcash/wallets)
 - [シールドプール](/using-zcash/shielded-pools)
-- [ZK-SNARKs](/zcash-tech/zk-snarks)
+- [zk-SNARKs](/zcash-tech/zk-snarks)
 
 ---
 

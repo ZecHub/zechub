@@ -2,16 +2,14 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Igwe mmiri na-enye ọkụ
+# Faucets
 
 <img width="2138" height="878" alt="Screenshot_2025-10-30_10-36-45" src="/content-images/bba0da3b-7064-4680-9535-a0dfcf50cc00-1827fccf4b.webp" />
 
 
-Faucets bụ ọrụ na-enye obere ego nke cryptocurrency n'efu. Ndị mmepe na -ejikarị ha eme ihe iji nwalee ya ma ndị ọrụ nweta ntakịrị ego crypto n'enweghị ịzụta ya. Ha na -amachi oke ego nke onye ọrụ nwere ike ịnata maka oge enyere.
+Paucets bụ ọrụ ndị na-enye obere ego cryptocurrency n'efu. Ndị mmepe na-ejikarị ha eme nnwale na ego cryptocurrency, ndị ọrụ na-ejikwa ha enweta obere ego cryptocurrency na-enweghị ịzụta ya. Ha na-ebelata ego cryptocurrency nke onye ọrụ nwere ike ịnweta ruo oge ụfọdụ.
 
 Mainnet: <a href="https://zecfaucet.com">zecfaucet</a>
-
-Testnet: <a href="https://testnet.zecfaucet.com">testnet.zecaucet.com</a>
 
 Testnet: <a href="https://fauzec.com/">fauzec.com</a>
 

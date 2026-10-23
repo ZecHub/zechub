@@ -442,8 +442,8 @@ Füge die folgende Zeile hinzu und ersetze dabei die URL durch deinen gewünscht
 
 Du kannst verwenden:
 
-* Einen **öffentlichen Node**, wie `https://lightwalletd.zcash-infra.com`
-* Deinen eigenen selbst gehosteten Node, separat von BTCPay Server bereitgestellt
+* Einen **öffentlichen Knoten**, wie `https://zec.rocks:443`
+* Deinen eigenen selbst gehosteten Knoten, separat von BTCPay Server bereitgestellt
 
 > Wenn das externe `lightwalletd` nicht verfügbar oder überlastet ist, schlagen abgeschirmte Zahlungen fehl.
 > Für kritische Dienste solltest du einen **stabilen und bewährten Endpunkt** wählen (wie den Standard `zec.rocks`).
@@ -477,11 +477,28 @@ Außerdem hilft sie dir, **die Kosten für einen gemieteten VPS zu vermeiden**, 
 ### Schritt 1: Cloudflare Tunnel installieren
 
 1. Erstelle ein Konto bei [cloudflare.com](https://www.cloudflare.com) und füge deine Domain hinzu.
-2. Installiere auf deinem **Heimserver** Cloudflare Tunnel:
+2. Installiere auf deinem **Heimserver** Cloudflare Tunnel mithilfe des offiziellen Paket-Repositorys von Cloudflare:
 
-```
+```bash
+sudo mkdir -p --mode=0755 /usr/share/keyrings
+curl -fsSL https://pkg.cloudflare.com/cloudflare-main.gpg | sudo tee /usr/share/keyrings/cloudflare-main.gpg >/dev/null
+echo "deb [signed-by=/usr/share/keyrings/cloudflare-main.gpg] https://pkg.cloudflare.com/cloudflared any main" | sudo tee /etc/apt/sources.list.d/cloudflared.list
 sudo apt update
-sudo apt install cloudflared --legacy
+sudo apt install cloudflared
+```
+
+Falls `apt install cloudflared` fehlschlägt, installiere stattdessen die entsprechende Version von `.deb`:
+
+```bash
+# Raspberry Pi / ARM64
+curl -L --output cloudflared.deb https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-arm64.deb
+sudo dpkg -i cloudflared.deb
+```
+
+```bash
+# x86_64
+curl -L --output cloudflared.deb https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-amd64.deb
+sudo dpkg -i cloudflared.deb
 ```
 
 3. Authentifiziere dich bei Cloudflare:

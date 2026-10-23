@@ -2,29 +2,29 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Àlàfo Ìpèsè Agbegbe ZecHub
+# Ìlànà Ìpèsè Àwùjọ ZecHub
 
 
-### Àwọn Ohun Ìnípèsè Ilẹ̀-Èdè Àpapọ̀ 
+### Àwọn Àgbékalẹ̀ Àwùjọ 
 
-Ètò ìràpadà ZecHub ń pèsè fún àwọn olùdàgbà nínú ọ̀nà tí ó jẹ́ òmìnira àti èyí tó rọrùn láti lò dípò iṣẹ́-ṣiṣe ẹnìkọ̀ọ̀kan: [Àwọn owó orí ZEC](https://bounties.zechub.wiki/). 
+Ètò ẹ̀bùn ZecHub ni ọ̀nà tí a sanwó fún iṣẹ́ yìí: [ZEC Bounties](https://bounties.zechub.wiki/). Báwo ni a ṣe le yan nọ́mbà ZEC kan: [eto imulo iye ẹbun](https://bounties.zechub.wiki/docs/bounty-amounts)Ìṣiṣẹ́ olùkópa: [Ṣe àfikún sí ZecHub](https://zechub.wiki/contribute/contributing-guide). 
 
 
-## Àwọn Ìwé Tó Wúlò fún Wa 
+## Àwọn Ìtọ́sọ́nà Tó Wúlò 
 
-- [Atọ́nà fún Olùgbéejáde ZecHub](https://zechub.wiki/developers)
+- [Ìtọ́sọ́nà Olùgbékalẹ̀ ZecHub](https://zechub.wiki/developers)
 
-- [Zcash Ka àwọn ìwé-ìwé rẹ̀](https://zcash.readthedocs.io/en/latest/)
+- [Zcash Readdocs](https://zcash.readthedocs.io/en/latest/)
 
-- [Ìwé Zebra náà](https://zebra.zfnd.org)
+- [Ìwé Zebra](https://zebra.zfnd.org)
 
-- [Àwọn Àkọsílẹ̀ Ìkànnì Akash](https://akash.network/docs/)
+- [Àwọn ìwé àkójọpọ̀ nẹ́tíwọ́ọ̀kì Akash](https://akash.network/docs/)
 
-- [Ṣíṣeto Zebrad lórí Àkànlò Akash Network](https://zechub.wiki/guides/akash-network-zebra#content)
+- [Ṣíṣeto Zebrad lórí Nẹ́tíwọ́ọ̀kì Akash](https://zechub.wiki/guides/akash-network-zebra#content)
 
-- [Àwọn Àbá fún Ìsanwó Zcash (Fídíò)](https://www.youtube.com/watch?v=l5auYQIzYsQ)
+- [Àlàyé Àwọn Ìbéèrè Ìsanwó Zcash (fídíò)](https://www.youtube.com/watch?v=l5auYQIzYsQ)
 
-- [Àkọsílẹ̀ ZIP-321](https://zips.z.cash/zip-0321)
+- [ZIP-321 Specification](https://zips.z.cash/zip-0321)
 
-Ti o ba nilo ni ijinle imọran lati Zcash awọn Difelopa ti o le ṣe kan post lori awọn [Àjọ Ìparapọ̀ Àwọn Orílẹ̀-èdè](https://forum.zcashcommunity.com).
+Tí o bá nílò ìmọ̀ràn tó jinlẹ̀ láti ọ̀dọ̀ àwọn olùgbékalẹ̀ Zcash o lè kọ ìròyìn kan sí wọn lórí [Àpérò Àwùjọ](https://forum.zcashcommunity.com).
 

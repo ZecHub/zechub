@@ -14,7 +14,7 @@ Rust [https://rustup.rs/](https://rustup.rs/)
 jq [https://jqlang.github.io/jq/download/](https://jqlang.github.io/jq/download/)
 (per visualizzare informazioni json nel terminale)
 
-curl [https://everything.curl.dev/get/linux](https://everything.curl.dev/get/linux)
+curl [https://everything.curl.dev/install/linux.html](https://everything.curl.dev/install/linux.html)
 (per interrogare il crawler RPC)
 
 npm (con nvm) [https://medium.com/@iam_vinojan/how-to-install-node-js-and-npm-using-node-version-manager-nvm-143165b16ce1](https://medium.com/@iam_vinojan/how-to-install-node-js-and-npm-using-node-version-manager-nvm-143165b16ce1)
@@ -112,7 +112,7 @@ cargo run --release --features crawler --bin crawler -- --help
 
 Ciò compilerà il programma e assicurerà che tutto funzioni correttamente.
 
-Per eseguire il Crawler, è necessario aggiungere l'opzione '--seed-addrs' al comando di avvio, contenente almeno un indirizzo IP valido di un nodo Zcash. Il Crawler dovrebbe essere eseguito per un periodo di tempo ragionevole per ottenere un risultato accurato. Alcuni esempi di indirizzi IP dei nodi possono essere trovati su [https://zcashblockexplorer.com/nodes](https://zcashblockexplorer.com/nodes).
+Per eseguire il Crawler, è necessario aggiungere l'opzione '--seed-addrs' al comando di avvio, contenente almeno un indirizzo IP valido di un nodo Zcash. Il Crawler dovrebbe essere eseguito per un periodo di tempo ragionevole per ottenere un risultato accurato. Alcuni esempi di indirizzi IP dei nodi possono essere trovati su [https://mainnet.zcashexplorer.app/nodes](https://mainnet.zcashexplorer.app/nodes).
 
 Per ottenere informazioni dal Crawler mentre è in esecuzione, è necessario aggiungere l'opzione '--rpc-addr' al comando di avvio. Questo non è necessario solo per eseguire il Crawler stesso, ma altrimenti richiederebbe di interrompere il Crawler (ctrl+c o SIGKILL) per visualizzare qualsiasi informazione.
 

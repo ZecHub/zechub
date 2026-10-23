@@ -2,35 +2,36 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Ìwé ìròyìn ZecWeekly Newsletter
+# Ìwé Ìròyìn ZecWeekly
 
-ZecWeekly jẹ́ ìwé ìròyìn tí ó ń jáde ní gbogbo òwúrọ̀ ọjọ́ Sunday. Ó ni àwọn iroyin tó ṣẹlẹ̀ láàárín ọ̀sẹ̀ nínú ètò ìgbé ayé Zcash. Àwọn ọmọ ẹgbẹ́ agbègbè ló máa n ṣètò rẹ̀ lọsọ̀ọ̀sẹ̀, a sì tún fi àlàyé nípa ohun tó yẹ kún un sí ìwé ìròyìn náà. Jọwọ ṣe alabapin fún ìwé ìròyìn yìí [níhìn-ín ni](https://zechub.substack.com/).
+ZecWeekly jẹ́ ìwé ìròyìn tí ó máa ń jáde ní gbogbo òwúrọ̀ ọjọ́ Sunday. Ó ní gbogbo ìròyìn tí ó ṣẹlẹ̀ ní ọ̀sẹ̀ nínú ètò Zcash nínú. Àwọn ọmọ ẹgbẹ́ àwùjọ ló máa ń ṣètò ìròyìn náà lọ́sọ̀ọ̀sẹ̀, gbogbo àwọn ìjápọ̀ tó bá yẹ ni a sì máa ń fi kún ìwé ìròyìn náà. Jọ̀wọ́ ṣe alabapin sí ìwé ìròyìn náà [Nibi](https://zechub.substack.com/).
 
-## Ṣíṣe àfikún
+## Ṣe alabapin
 
-Newsletter contributions work best when one contributor prepares the edition for the correct week, follows the current bounty or coordination thread, and submits the pull request after the weekly links are ready. Please do not submit a future edition before ZecHub has posted or confirmed the date for that edition. Early pull requests often miss late-week updates, conflict with an assigned curator, or use the wrong deadline.
+Àwọn ìfikún ìwé ìròyìn máa ń ṣiṣẹ́ dáadáa jùlọ nígbà tí olùkópa kan bá ń ṣètò àtúnse náà fún ọ̀sẹ̀ tó tọ́, tí ó tẹ̀lé àkójọpọ̀ owó tàbí ìṣọ̀kan lọ́wọ́lọ́wọ́, tí ó sì fi ìbéèrè ìfàsẹ́yìn sílẹ̀ lẹ́yìn tí àwọn ìjápọ̀ ọ̀sọ̀ọ̀sẹ̀ bá ti ṣetán. Jọ̀wọ́ má ṣe fi àtúnse ọjọ́ iwájú sílẹ̀ kí ZecHub tó fi tàbí fi ọjọ́ ìfàsẹ́yìn náà hàn. Àwọn ìbéèrè ìfàsẹ́yìn ní ìbẹ̀rẹ̀ sábà máa ń pàdánù àwọn àtúnse ní ìparí ọ̀sẹ̀, tí ó máa ń tako olùtọ́jú tí a yàn, tàbí tí ó bá lo àkókò tí kò tọ́.
 
-### 1. Jẹ́ kí wọ́n rí i pé òótọ́ ni Bíbélì náà wà báyìí.
+### 1. Jẹ́rìí àtúnse tó wà lọ́wọ́lọ́wọ́
 
-Kí o tó bẹ̀rẹ̀ sí kọ ọ́:
+Ṣaaju ki o to bẹrẹ kikọ:
 
-- Ṣíṣayẹwo rẹ. [Àwọn owó orí ZEC ](https://bounties.zechub.wiki/) fún iṣẹ́ ìwé ìròyìn tó wà lọ́wọ́lọ́wọ̀.
-- Dúró kí wọ́n tó yan ọ̀kan fún ẹ.
+- Ṣàyẹ̀wò [ZEC Bounties](https://bounties.zechub.wiki/) fún iṣẹ́ ìwé ìròyìn lọ́wọ́lọ́wọ́.
+- Dúró kí a tó yàn án.
+- Àwọn àtẹ̀jáde ìwé ìròyìn wà lára ẹgbẹ́ XS ti [eto imulo iye ẹbun](https://bounties.zechub.wiki/docs/bounty-amounts)Iye owó tí a rí nínú ìwé ìròyìn ZEC lórí owó náà ni iye owó náà, kì í ṣe àkọlé àtijọ́ kankan nínú ìwé ìròyìn náà.
 
 ![ss](/content-images/149a802c-b64f-4969-ad89-e83ffecf568e-d5d8387145.webp)
 
 
 
-### 2. Ṣíṣe àlàfo sí ibi ìpamọ́ náà.
+### 2. Fọ ibi ipamọ naa
 
-Ti o ba jẹ tuntun si GitHub, lo iṣan iṣẹ yii:
+Ti o ba jẹ tuntun si GitHub, lo ilana yii:
 
-1. Ṣí ìlẹ̀kùn náà sílẹ̀. [Àkójọ ZecHub](https://github.com/ZecHub/zechub).
-2. Tẹ **Fork** ki o si ṣẹda forukọsilẹ labẹ akọọlẹ GitHub rẹ.
-3. Ninu forukọsilẹ rẹ, ṣẹda ẹka tuntun fun atẹjade naa. Orukọ ẹka ti o mọ jẹ iranlọwọ, gẹgẹbi: `digest-may-30-2026`.
-4. Rii daju pe rẹ fa ibeere yoo afojusun `ZecHub/zechub` bi ibi ipamọ ipilẹ ati `main` gẹ́gẹ́ bí ẹ̀ka ìpilẹ̀ṣẹ̀.
+1. Ṣí i [Ibi ipamọ ZecHub](https://github.com/ZecHub/zechub).
+2. Tẹ **Fork** kí o sì ṣẹ̀dá fork lábẹ́ àkọọ́lẹ̀ GitHub rẹ.
+3. Nínú fọ́ọ̀kì rẹ, ṣẹ̀dá ẹ̀ka tuntun fún àtúnse náà. Orúkọ ẹ̀ka tí ó ṣe kedere wúlò, bíi `digest-may-30-2026`.
+4. Rii daju pe ibeere fifa rẹ yoo fojusi `ZecHub/zechub` gẹ́gẹ́ bí ibi ìkópamọ́ ìpìlẹ̀ àti `main` gẹ́gẹ́ bí ẹ̀ka ìpìlẹ̀.
 
-Ti o ba lo laini aṣẹ, iṣan iṣẹ kanna dabi eleyi:
+Tí o bá lo laini àṣẹ, ìṣiṣẹ́ kan náà dàbí èyí:
 
 ```bash
 git clone https://github.com/YOUR-USERNAME/zechub.git
@@ -38,42 +39,42 @@ cd zechub
 git checkout -b digest-month-day-year
 ```
 
-Gbépò rẹ̀ padà. `YOUR-USERNAME` URL loke jẹ ibi-ipamọ ati pe kii yoo yanju bi a ti kọ.
+Rọpo `YOUR-USERNAME` pẹ̀lú orúkọ ìforúkọsílẹ̀ GitHub tirẹ. URL tí ó wà lókè yìí jẹ́ ibi tí a fi pamọ́, kò sì ní yanjú bí a ṣe kọ ọ́ sílẹ̀.
 
-### 3. Ṣẹda faili iwe iroyin naa
+### 3. Ṣẹ̀dá fáìlì ìwé ìròyìn
 
-Lo àwọn ohun tó wà nínú ìwé náà. [Àdàkọ ìwé ìròyìn](https://github.com/ZecHub/zechub/blob/main/newsletter/newslettertemplate.md) àwọn ìtẹ̀jáde ìwé ìròyìn wà lára ohun tó yẹ kó o máa kà. [`newsletter`](https://github.com/ZecHub/zechub/tree/main/newsletter) ìwé àjákọ.
+Lo [àwòṣe ìwé ìròyìn](https://github.com/ZecHub/zechub/blob/main/newsletter/newslettertemplate.md) gẹ́gẹ́ bí ibi ìbẹ̀rẹ̀ rẹ. Àwọn àtúnṣe ìwé ìròyìn jẹ́ ti [`newsletter`](https://github.com/ZecHub/zechub/tree/main/newsletter) folda.
 
-Nigbati o ba n ṣẹda faili:
+Nígbà tí o bá ń ṣẹ̀dá fáìlì:
 
-- Ṣe àpapọ̀ orúkọ fáìlì tí a béèrè láti ṣe tàbí èyí tí àwọn ẹ̀dà tó ṣẹṣẹ̀ gba wọlé ń lò.
-- Pa aṣẹ abala kanna mọ bi awoṣe ayafi ti iṣẹ-ṣiṣe ba beere fun ọna kika oriṣiriṣi.
-- Fi àwọn ìjápọ̀ láti ọ̀sẹ̀ tó bá yẹ nìkan kún un.
-- Kọ àlàyé ṣókí tó ṣe kedere nípa ìjápọ̀ kọ̀ọ̀kan kí àwọn òǹkàwé lè lóye ìdí tí ó fi ṣe pàtàkì.
-- Yíyèsí àwọn ìsọfúnni tó wà ní èdè míì tàbí kó o ṣe àkópọ̀ wọn sí èdè Gẹ̀ẹ́sì nígbà tí ó bá pọn dandan.
-- Ṣayẹwo gbogbo ìjápọ̀ kí o tó ṣí ìbéèrè yí.
+- Ṣe ìbáramu pẹ̀lú ìrísí orúkọ fáìlì tí ìtẹ̀jáde náà béèrè fún tàbí tí àwọn àtúnṣe tuntun tí a gbà lò.
+- Pa abala kan naa mọ́ gẹ́gẹ́ bí àpẹẹrẹ àyàfi tí iṣẹ́ náà bá béèrè fún ìrísí tó yàtọ̀.
+- Fi àwọn ìjápọ̀ láti ọ̀sẹ̀ tó báramu nìkan kún un.
+- Kọ àpèjúwe kúkúrú, tó ṣe kedere fún gbogbo ìjápọ̀ kí àwọn òǹkàwé lè lóye ìdí tó fi ṣe pàtàkì.
+- Túmọ̀ tàbí ṣàkópọ̀ àwọn orísun tí kìí ṣe ti èdè Gẹ̀ẹ́sì ní èdè Gẹ̀ẹ́sì nígbà tí ó bá yẹ.
+- Ṣàyẹ̀wò gbogbo ìjápọ̀ kí o tó ṣí ìbéèrè fífà.
 
-### 4. Máa wá àwọn ìkànnì tó o lè lò nígbà tí àkókò bá tó lójú rẹ.
+### 4. Gba awọn ọna asopọ jọ ni akoko ti o tọ
 
-ZecWeekly maa n bo iṣẹ eto-aye Zcash fun ọsẹ ti o wa lọwọlọwọ ati pe a tẹjade ni opin ọsẹ. Akoko ailewu julọ jẹ:
+ZecWeekly sábà máa ń ṣe àgbékalẹ̀ ìgbòkègbodò ètò-ẹ̀dá Zcash fún ọ̀sẹ̀ yìí, a sì máa ń tẹ̀ ẹ́ jáde ní ìparí ọ̀sẹ̀ náà. Àkókò tó dára jùlọ ni:
 
-- Bẹrẹ gbigba awọn ìjápọ lẹ́yìn tí a bá gbé àdàkọ tàbí iṣẹ-ṣiṣe ìwé ìròyìn tó wà lọ́wọ́lọ́wọ̀ jáde.
-- Máa ṣe àkọsílẹ̀ bó bá ṣì ṣeé lò láàárín ọ̀sẹ̀.
-- Fi ìbéèrè ìfàsẹ́yìn náà ránṣẹ́ ní àkókò tó sún mọ́ ọjọ tí o fẹ fi ìwé ọ̀hún ránṣẹ, lẹ́yìn ìgbà ti o bá ṣayẹwo bóyá àwọn àtúnṣe òpin-ọsẹ wà.
-- Má ṣe fi ìwé ìròyìn ọ̀sẹ̀ tó ń bọ̀ ránṣẹ́ kí iṣẹ́ náà tí yóò wáyé ní ọjọ́ yẹn tàbí kó o máà tíì rí ìmúdájú látọ̀dọ̀ ZecHub pé ó yẹ kí ìwọ kọ ẹ.
+- Bẹ̀rẹ̀ sí í kó àwọn ìjápọ̀ jọ lẹ́yìn tí a bá ti fi ìròyìn tàbí iṣẹ́ ìròyìn tuntun ránṣẹ́.
+- Pa àkọsílẹ̀ kan mọ́ nígbà tí ọ̀sẹ̀ náà ṣì ń ṣiṣẹ́.
+- Fi ìbéèrè ìfàsẹ́yìn náà sílẹ̀ ní ìparí ọjọ́ ìfiránṣẹ́ tí a béèrè fún, lẹ́yìn tí o bá ti ṣàyẹ̀wò fún àwọn àtúnṣe tó máa wáyé ní ìparí ọ̀sẹ̀.
+- Má ṣe fi ìwé ìròyìn ọ̀sẹ̀ tó ń bọ̀ sílẹ̀ kí iṣẹ́ náà tó dé tàbí kí ZecHub tó fìdí rẹ̀ múlẹ̀ pé ó yẹ kí o múra sílẹ̀.
 
-Bí àtúnṣe kan bá sọ pé kí o fi síta ní ọjọ́ pàtó, tẹ̀lé ọjọ́ náà. Tí ojúewé yìí kò bá bá ìwé tí a ti ṣe jáde mu, tèmi ni kóo máa lò fún ìtẹ̀jáde tó ń lọ lójoojúmọ́.
+Tí ìṣòro kan bá sọ pé kí a fi sílẹ̀ ní ọjọ́ pàtó kan, tẹ̀lé ọjọ́ náà. Tí ìforígbárí bá wà láàárín ojú ìwé yìí àti ọ̀ràn lọ́wọ́lọ́wọ́, tẹ̀lé ọ̀ràn lọ́wọ́lọ́wọ́.
 
-### 5. Ṣii ibeere fa jade
+### 5. Ṣí ìbéèrè ìfàgùn náà
 
-Nígbà tí àtẹ ìsọfúnni rẹ bá ti ṣetan:
+Nígbà tí fáìlì ìwé ìròyìn rẹ bá ti ṣetán:
 
-1. Fi àyípadà rẹ sí ọ̀pá ìdì.
-2. Ṣii ìbéèrè ìfàṣẹ́yọ̀ sínú `ZecHub/zechub` lórí àwọn ohun tó wà nínú ìwé náà. `main` ẹ̀ka.
-3. Lo àkọlé tó bá ìtẹ̀jáde náà mu, irú bíi: `Zcash Ecosystem Digest | May 30th`.
-4. So ọ̀rọ̀ náà nínú ara ìbéèrè tí a fi ń fa nǹkan jáde kí àwọn olùṣirò lè so iṣẹ́ pẹ̀lú ìgbésẹ̀.
+1. Fi awọn iyipada rẹ sinu orita rẹ.
+2. Ṣí ìbéèrè ìfà kan sí `ZecHub/zechub` lórí `main` ẹ̀ka.
+3. Lo àkọlé kan tó bá àtúnse náà mu, bíi `Zcash Ecosystem Digest | May 30th`.
+4. So iṣoro naa pọ mọ ara ẹ̀ka ìbéèrè fifa ki awọn oluyẹwo le so iṣẹ naa pọ mọ iṣẹ naa.
 
-Àpẹẹrẹ ara ìfilọ́:
+Àpẹẹrẹ ara ìbéèrè fa:
 
 ```md
 Closes #ISSUE_NUMBER
@@ -84,44 +85,44 @@ Summary:
 - Checks links and descriptions for the requested week.
 ```
 
-Lẹ́yìn tí ìkésíni yíyọ bá ṣí, wo fún àtúnyèwò àwọn ọ̀rọ̀. Bí ZecHub bá béèrè fún àtúnṣe, ṣe àtòjọ ẹka kan náà dípò kí o ṣii ìbéèrè yíyẹ kejì fún ìtẹ̀jáde kannáà.
+Lẹ́yìn tí ìbéèrè fún ìfàsẹ́yìn bá ti ṣí, kíyèsí àwọn àkíyèsí àtúnyẹ̀wò. Tí ZecHub bá béèrè fún àtúnṣe, ṣe àtúnṣe ẹ̀ka kan náà dípò ṣí ìbéèrè ìfàsẹ́yìn kejì fún àtúnṣe kan náà.
 
-### Àwọn àpẹẹrẹ tó ti ṣẹlẹ̀ rí
+### Àwọn àpẹẹrẹ gidi
 
-Lo awọn ibeere fifọ iwe iroyin ti a dapọ wọnyi bi apẹẹrẹ ti ifisilẹ to gba:
+Lo awọn ibeere fa iwe iroyin ti a dapọpọ wọnyi bi apẹẹrẹ ti awọn ifisilẹ ti a gba:
 
-- [Ìròyìn nípa ètò ìgbé ayé Zcash, April 11th.](https://github.com/ZecHub/zechub/pull/1551)
-- [Ìròyìn nípa ètò ìgbé ayé Zcash 28 oṣù Kẹta.](https://github.com/ZecHub/zechub/pull/1544)
-- [Ìròyìn nípa ètò ìgbé ayé Zcash 14 February.](https://github.com/ZecHub/zechub/pull/1474)
+- [Àkójọpọ̀ ètò ìṣẹ̀dá-ẹ̀dá Zcash | Ọjọ́ kọkànlá oṣù kẹrin](https://github.com/ZecHub/zechub/pull/1551)
+- [Àkójọpọ̀ ètò ìṣẹ̀dá-ẹ̀dá Zcash | Oṣù Kẹta Ọjọ́ Kejìdínlọ́gbọ̀n](https://github.com/ZecHub/zechub/pull/1544)
+- [Àkójọpọ̀ ètò ìṣẹ̀dá-ẹ̀dá Zcash | Ọjọ́ kẹrìnlá oṣù kejì](https://github.com/ZecHub/zechub/pull/1474)
 
 
 ![Merged ZecWeekly newsletter pull request example](/content-images/9230d68d-6406-4c8a-992c-df84e0d318d8-8893d2de55.webp)
 
-Nigbati o ba ṣe afiwe iṣẹ rẹ pẹlu apẹẹrẹ kan, fojusi lori ipo faili naa, ọna kika akọle, aṣẹ apakan, awọn apejuwe asopọ, ati boya ibeere fa fi pada si iṣẹ ti o tọ.
+Nígbà tí o bá ń fi iṣẹ́ rẹ wé àpẹẹrẹ kan, pọkàn pọ̀ sórí ibi tí fáìlì wà, bí a ṣe ń kọ orúkọ rẹ̀, bí a ṣe ń ṣètò ìpín, àwọn àpèjúwe ìjápọ̀, àti bóyá ìbéèrè ìfà náà so pọ̀ mọ́ iṣẹ́ tó tọ́.
 
-### Àwọn àṣìṣe tó wọ́pọ̀ láti yẹra fún
+### Àwọn àṣìṣe tó wọ́pọ̀ láti yẹra fún
 
-- Ṣíṣí ìkésíni láti fa nǹkan jáde kí ọjọ́ àtúnṣe tàbí iṣẹ́ náà tó di èyí tí a fìdí rẹ̀ múlẹ̀.
-- Ṣiṣẹ lori ọrọ ti o ni ibeere yiyọ asopọ tẹlẹ.
-- Fifi awọn fa ibeere si ara rẹ onigun dipo ti `ZecHub/zechub`.
-- Lilo orukọ faili ti ko tọ tabi fifi faili naa si ita awọn ohun elo rẹ. `newsletter` ìwé àjákọ.
-- Fífi ẹ̀dà ìwé kan tó ti pẹ́ gan-an ṣe àtúnṣe láìlo ọjọ́, ìjápọ̀ àti àkọsílẹ̀.
-- Fífi ìjápọ̀ sí i láti ọ̀sẹ̀ tí kò yẹ.
-- Fi àwọn ìjápọ̀ tí kò bá ṣiṣẹ́, àdàkọ ìjábọ̀ tàbí àkọsílẹ̀ ibi-ìpamọ́ sílẹ̀ nínú Àpẹẹrẹ.
-- Ṣíṣí ìkésíni tí ó mú jáde tuntun lẹ́yìn àyẹ̀wò àwọn ọ̀rọ̀ dípò títún ẹka àkọkọ ṣe.
+- Ṣíṣí ìbéèrè ìfàsí kí ó tó di ọjọ́ àtúnṣe tàbí iṣẹ́ náà ni a ti fi ìdí rẹ̀ múlẹ̀.
+- Ṣiṣẹ́ lórí ọ̀ràn kan tí ó ti ní ìbéèrè ìfàmọ́ra tí a ti so pọ̀ tẹ́lẹ̀.
+- Fífi ìbéèrè ìfàsẹ́yìn ránṣẹ́ sí oríkì tìrẹ dípò `ZecHub/zechub`.
+- Lílo orúkọ fáìlì tí kò tọ́ tàbí fífi fáìlì náà síta `newsletter` folda.
+- Ṣíṣe àdàkọ àtẹ̀jáde àtijọ́ láìṣe àtúnṣe gbogbo ọjọ́, ìjápọ̀, àti àpèjúwe.
+- Fifi awọn ọna asopọ kun lati ọsẹ ti ko tọ.
+- Fi àwọn ìjápọ̀ tí ó ti bàjẹ́ sílẹ̀, àwọn ìjápọ̀ tí ó jọra, tàbí ọ̀rọ̀ tí ó ní ibi tí a gbé kalẹ̀ láti inú àwòṣe náà.
+- Ṣíṣí ìbéèrè ìfà tuntun lẹ́yìn àtúnyẹ̀wò àwọn àkíyèsí dípò ṣíṣe àtúnṣe ẹ̀ka àtilẹ̀wá.
 
-### Àtòjọ àyẹ̀wò ìkẹyìn
+### Àkójọ àkójọ ìkẹyìn
 
-Ṣaaju ki o to beere atunwo, jẹrisi pe:
+Kí o tó béèrè fún àtúnyẹ̀wò, jẹ́rìí sí i pé:
 
-- Ọjọ́ tí ẹ̀dà tàbí iṣẹ́ náà bá ṣe pàdé fáìlì ìwé ìròyìn rẹ.
-- Kò sí ìkésíni mìíràn tí ó wà ní ṣíṣí fún fífi nǹkan ránṣẹ́ tó ń bo ọ̀rọ̀ tàbí ìtẹ̀jáde kan náà.
-- Àpamọ́ náà wà nínú àkájọ ìwé. `newsletter` ìwé àjákọ.
-- Àwọn abala àdàkọ ti pé.
-- Gbogbo ìjápọ̀ náà ń ṣiṣẹ́, ó sì ní àlàyé tó wúlò.
-- Ara ìfilọ́ tí ó bá ń fa àdàkọ náà ni yóò so kókó tó tọ̀nà.
-- O wà ní ìmúrasílẹ̀ láti ṣe àtúnṣe bí àwọn olùṣàyẹwò bá béèrè fún àyípadà.
+- Àkójọ tàbí ọjọ́ iṣẹ́ náà bá fáìlì ìwé ìròyìn rẹ mu.
+- Kò sí ìbéèrè ìfàsẹ́yìn mìíràn tó ń sọ̀rọ̀ nípa àtẹ̀jáde tàbí àtúnse kan náà.
+- Faili naa wa ninu `newsletter` folda.
+- Awọn apakan awoṣe ti pari.
+- Gbogbo ìjápọ̀ ló ń ṣiṣẹ́, ó sì ní àpèjúwe tó wúlò.
+- Ara ìbéèrè ìfàmọ́ra náà so ìṣòro tó tọ́ pọ̀.
+- O wa lati ṣe awọn atunṣe ti awọn oluyẹwo ba beere fun awọn iyipada.
 
-## Àwọn ìtẹ̀jáde tó ti kọjá
+## Àwọn àtúnṣe tó ti kọjá
 
-[Àpamọ́ ZecWeekly](https://zechub.substack.com/p/archive)
+[Àkójọ ìwé ZecWeekly](https://zechub.substack.com/p/archive)

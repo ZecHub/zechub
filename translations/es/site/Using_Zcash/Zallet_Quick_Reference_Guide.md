@@ -10,13 +10,13 @@
 - zcashd alcanzó su parada por fin de soporte el 18 de julio de 2026 y ya no se ejecuta. Zebra ahora se encarga del lado del nodo; Zallet se encarga del lado de la wallet.
 - Manejas Zallet desde la línea de comandos con `zallet rpc <command>`, de forma muy parecida a como antes usabas `zcash-cli`.
 - Todos los argumentos después del nombre del comando deben ser JSON válido, lo que significa que los valores de tipo string conservan sus comillas dobles.
-- Zallet sigue en fase alfa. Los comandos pueden cambiar entre versiones, y todavía no todos los RPC de zcashd han sido portados.
+- Zallet está en fase beta. Los comandos pueden cambiar entre versiones, y todavía no todos los RPC de zcashd han sido portados.
 
 ## Explicación básica
 
 Zallet expone su funcionalidad a través de JSON-RPC, el mismo estilo de interfaz que usaba la wallet de zcashd. Cualquier cosa que quieras que haga la wallet — comprobar un saldo, crear una cuenta, enviar un pago blindado — es un comando que pasas a `zallet rpc`.
 
-Hay dos diferencias con el antiguo hábito de `zcash-cli`, y explican la mayoría de los errores iniciales. Primero, los argumentos deben ser JSON válido en lugar de texto sin formato, por lo que un argumento de tipo string lleva sus propias comillas dentro de las comillas del shell. Segundo, el conjunto de comandos disponibles depende de la versión alfa que estés ejecutando, así que la lista integrada en tu binario es más fiable que cualquier página escrita, incluida esta.
+Hay dos diferencias con el antiguo hábito de `zcash-cli`, y explican la mayoría de los errores iniciales. Primero, los argumentos deben ser JSON válido en lugar de texto sin formato, por lo que un argumento de tipo string lleva sus propias comillas dentro de las comillas del shell. Segundo, el conjunto de comandos disponibles depende de la versión beta que estés ejecutando, así que la lista integrada en tu binario es más fiable que cualquier página escrita, incluida esta.
 
 Para listar todos los RPC disponibles:
 
@@ -36,8 +36,8 @@ zallet rpc help '"<command>"'
 ## Errores comunes
 
 - **Omitir las comillas internas en los argumentos de tipo string.** `zallet rpc validateaddress u1abc...` falla, porque la dirección tiene que llegar como JSON. Debe escribirse `'"u1abc..."'`.
-- **Asumir que todos los RPC de zcashd existen aquí.** El portado sigue en curso. Algunos métodos se comportan de forma idéntica, otros requieren un uso distinto, y algunos no se trasladarán en absoluto.
-- **Tratar esta página como más autoritativa que tu binario.** Zallet está en fase alfa y evoluciona rápido. Cuando un comando de esta página no funcione, comprueba `zallet rpc help` antes de asumir que algo está roto.
+- **Asumir que todos los RPC existen aquí.** El portado sigue en curso. Algunos métodos se comportan de forma idéntica, otros requieren un uso distinto, y algunos no se trasladarán en absoluto.
+- **Tratar esta página como más autoritativa que tu binario.** Zallet está en fase beta y evoluciona rápido. Cuando un comando de esta página no funcione, comprueba `zallet rpc help` antes de asumir que algo está roto.
 - **Esperar que Zallet sea un nodo.** Es la mitad wallet del conjunto. Zebra ejecuta el nodo, y Zallet se comunica con él.
 
 ## Comandos RPC
@@ -474,8 +474,8 @@ zallet rpc z_viewtransaction '"<txid>"'
 
 ## Páginas relacionadas
 
-- [Guía de migración: de Zcashd a Zebrad y Zallet](/guides/migration-guide-zcashd-to-zebrad-zallet) — transición paso a paso desde una configuración existente de zcashd
-- [Nodo completo Zebra](/zcash-tech/zebra-full-node) — la implementación de nodo con la que trabaja Zallet
+- [Guía de migración: de zcashd a Zebrad y Zallet](/guides/migration-guide-zcashd-to-zebrad-zallet) — transición paso a paso desde una configuración existente de zcashd
+- [Zebra Nodo completo](/zcash-tech/zebra-full-node) — la implementación de nodo con la que trabaja Zallet
 - [Nodos completos](/zcash-tech/full-nodes) — qué implica ejecutar un nodo completo y por qué podrías querer uno
 - [Wallets](/using-zcash/wallets) — opciones de wallet más ligeras si un nodo completo es más de lo que necesitas
 - [Transacciones](/using-zcash/transactions) — cómo se diferencian las transacciones blindadas y transparentes

@@ -30,6 +30,19 @@ Shielded Labs enumera públicamente varias áreas de proyectos activos:
 - [Comisiones dinámicas](https://shieldedlabs.net/fees/) - Investigación y herramientas para comisiones de transacción de Zcash más predecibles, fáciles de usar y resilientes a medida que evoluciona la red.
 - [Zero](https://shieldedlabs.net/zero/) - Un conjunto compatible de software de infraestructura de Zcash de código abierto para exchanges, pools de minería, proveedores de wallets y otras organizaciones que dependen de la infraestructura de Zcash.
 - [Ironwood](https://shieldedlabs.net/ironwood/) - Una actualización de red de Zcash y un pool blindado creados en respuesta a la vulnerabilidad de falsificación de Orchard, diseñados para restaurar la solidez verificable de forma independiente del suministro circulante de Zcash.
+- [Epoch](https://shieldedlabs.net/epoch-future-proof-cryptography-for-zcash/) - Un proyecto de investigación e ingeniería anunciado en octubre de 2026 para desarrollar criptografía poscuántica lista para producción y de alta garantía para Zcash, y ampliar la verificación formal de componentes criptográficos críticos. El proyecto tiene como objetivo una implementación lista para producción a finales de 2027 que podría constituir la base de una futura actualización de red. Complementa el proyecto Tachyon y otros esfuerzos poscuánticos en todo el ecosistema.
+
+## Epoch y el equipo de criptografía
+
+En octubre de 2026, Shielded Labs lanzó Epoch, una iniciativa dedicada a preparar Zcash para el futuro frente a la computación cuántica, los ataques asistidos por IA y otras amenazas avanzadas. El proyecto busca reemplazar componentes criptográficos vulnerables a la computación cuántica y aplicar verificación formal a partes críticas del protocolo.
+
+Epoch está dirigido por un equipo de criptografía de tres personas:
+
+- **Ulrich Haböck** – Criptógrafo jefe (anteriormente en StarkWare; previamente en Polygon Zero). Experto en pruebas de conocimiento cero y criptografía poscuántica; autor del argumento de búsqueda logUp y coautor del artículo sobre Circle STARKs.
+- **Luke Edwards** – Ingeniero de criptografía (anteriormente líder técnico del equipo de ingeniería criptográfica en Aztec). Tiene un doctorado en Matemáticas Aplicadas por la Universidad de Arizona.
+- **Suyash Bagad** – Ingeniero de criptografía (anteriormente en Aztec, trabajando en la biblioteca Barretenberg y la familia PLONK de sistemas de prueba). Tiene títulos de BTech y MTech del IIT Bombay; su investigación de posgrado se centró en pruebas de reservas que preservan la privacidad.
+
+La fase 1 se centra en examinar la investigación existente, evaluar construcciones candidatas frente a los requisitos de seguridad y rendimiento de Zcash, y elaborar una propuesta concreta poscuántica. Se prevé una implementación lista para producción para finales de 2027.
 
 ## Contribución a Ironwood
 
@@ -47,12 +60,14 @@ Zcash no utiliza gobernanza automática en cadena para los cambios de protocolo.
 
 ## Recursos
 
-- [Sitio web de Shielded Labs](https://shieldedlabs.net/)
-- [Proyectos de Shielded Labs](https://shieldedlabs.net/projects/)
+- [Shielded Labs sitio web](https://shieldedlabs.net/)
+- [Shielded Labs proyectos](https://shieldedlabs.net/projects/)
 - [Mecanismo de sostenibilidad de la red](https://shieldedlabs.net/nsm/)
-- [Preguntas frecuentes sobre Crosslink](https://shieldedlabs.net/crosslink-faq/)
-- [Comisiones dinámicas](https://shieldedlabs.net/fees/)
+- [Crosslink Preguntas frecuentes](https://shieldedlabs.net/crosslink-faq/)
+- [Tarifas dinámicas](https://shieldedlabs.net/fees/)
 - [Zero](https://shieldedlabs.net/zero/)
 - [Ironwood](https://shieldedlabs.net/ironwood/)
-- [Gobernanza y encuestas](https://shieldedlabs.net/governance/)
-- [GitHub de Shielded Labs](https://github.com/ShieldedLabs)
+- [Epoch: Criptografía preparada para el futuro para Zcash](https://shieldedlabs.net/epoch-future-proof-cryptography-for-zcash/)
+- [Equipo](https://shieldedlabs.net/team/)
+- [Gobernanza y votación](https://shieldedlabs.net/governance/)
+- [Shielded Labs GitHub](https://github.com/ShieldedLabs)

@@ -37,7 +37,7 @@ Hoje, a rede contém cinco pools de valor principais:
 <br/>
 
 ![img1](/content-images/4ba8cca2-cea5-42d2-8ec2-2122b26f5144-9db37e245e.webp)
-Fig 1: Um gráfico que mostra os atuais 4 pools em outubro de 2025
+Fig 1: Um gráfico que mostra os três pools blindados (Sprout, Sapling e Orchard) até 29 de outubro de 2025, antes da ativação do Ironwood
 
 <br/>
 
@@ -60,7 +60,7 @@ ____
 
 
 ![img2](/content-images/a672e001-6dbc-4e76-ab31-0ed7d7d2ff72-93b5a23e5d.webp)
-Fig 2: Um gráfico que mostra o pool Orchard em outubro de 2025
+Fig 2: Um gráfico que mostra o pool Orchard até 29 de outubro de 2025, antes da ativação do Ironwood
 
 <br/>
 
@@ -68,7 +68,7 @@ O Orchard Shielded Pool foi ativado em 31 de maio de 2022 como parte da atualiza
 
 Orchard melhorou significativamente a usabilidade, a eficiência e a privacidade ao reduzir a fuga de metadados das transações e ao introduzir um modelo de transação mais flexível baseado em Actions em vez de entradas e saídas blindadas tradicionais.
 
-Desde que a atualização Ironwood foi ativada em 28 de julho de 2026, **Orchard está em modo apenas-gasto**. Nenhum novo valor pode entrar no pool. Os fundos já mantidos aí ainda podem ser gastos e estão a migrar para Ironwood através do turnstile. As wallets tratam disto por si, embora a maioria lhe dê algum controlo sobre o ritmo.
+Desde que a atualização Ironwood foi ativada em 28 de julho de 2026, **Orchard está em modo apenas-gasto**. Nenhum novo valor pode entrar no pool. Os fundos já mantidos aí ainda podem ser gastos e estão a migrar para Ironwood através do torniquete. As wallets tratam disto por si, embora a maioria lhe dê algum controlo sobre o ritmo. Cada transferência de saída de Orchard mostra o seu montante na blockchain, pelo que a forma como uma wallet divide e calendariza a migração é importante para a privacidade.
 
 Se detém fundos em Orchard, veja [Ironwood](/zcash-tech/ironwood) para perceber o que a migração significa na prática.
 
@@ -78,7 +78,7 @@ ____
 
 
 ![img3](/content-images/b1c6bb71-9356-45eb-8e4a-19d7cf1790ae-5e3051b082.webp)
-Fig 3: Um gráfico que mostra o pool Sapling em outubro de 2025
+Fig 3: Um gráfico que mostra o pool Sapling até 29 de outubro de 2025, antes da ativação do Ironwood
 
 <br/>
 
@@ -98,7 +98,7 @@ ____
 
 
 ![img4](/content-images/956eceed-f4d6-4087-99d0-32a770449dda-a3cc45305e.webp)
-Fig 4: Um gráfico que mostra o pool Sprout em outubro de 2025
+Fig 4: Um gráfico que mostra o pool Sprout até 29 de outubro de 2025, antes da ativação do Ironwood
 
 Sprout foi o primeiro protocolo de privacidade Zero Knowledge aberto e permissionless alguma vez lançado. Foi lançado em 28 de outubro de 2016.
 
@@ -113,7 +113,7 @@ Sprout foi usado como uma ferramenta inicial para a [mineração slow start de Z
 <br/>
 
 ![img5](/content-images/01de2907-b62d-4421-83d7-ea4908faa828-6f74b724ed.webp)
-Fig 5: Um gráfico que mostra o pool Transparent em outubro de 2025
+Fig 5: Um gráfico que mostra o pool Transparent até 29 de outubro de 2025, antes da ativação do Ironwood
 
 <br/>
 
@@ -184,5 +184,5 @@ Veja [Ironwood](/zcash-tech/ironwood) para a própria atualização, e [O Turnst
 - [Wallets](/using-zcash/wallets) — Que wallets são mantidas e estão prontas para Ironwood
 - [Transações](/using-zcash/transactions) — Como enviar transações blindadas
 - [Comprar ZEC](/using-zcash/buying-zec) — Adquirir ZEC antes de o usar em pools
-- [ZK-SNARKs](/zcash-tech/zk-snarks) — A base criptográfica dos pools blindados
+- [zk-SNARKs](/zcash-tech/zk-snarks) — A base criptográfica dos pools blindados
 - [O que são ZEC e Zcash](/start-here/what-is-zec-and-zcash) — Contexto sobre a privacidade de Zcash

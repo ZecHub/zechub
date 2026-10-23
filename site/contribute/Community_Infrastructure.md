@@ -7,7 +7,7 @@
 
 ### Community Infrastructure 
 
-The ZecHub bounty program caters to developers in a more free & streamlined alternative to individual tasks: [ZEC Bounties](https://bounties.zechub.wiki/). 
+The ZecHub bounty program is the paid path for this work: [ZEC Bounties](https://bounties.zechub.wiki/). How to pick a ZEC number: [bounty amounts policy](https://bounties.zechub.wiki/docs/bounty-amounts). Contributor workflow: [Contributing to ZecHub](https://zechub.wiki/contribute/contributing-guide). 
 
 
 ## Useful Guides 

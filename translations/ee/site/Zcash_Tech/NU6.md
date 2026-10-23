@@ -21,7 +21,7 @@ NU6 yi edzi ɖo block ƒe kpekpeɖeŋunana ƒe 20% ɖe ŋgɔyiyi ƒe gakpekpeɖe
 
 Block subsidy susɔea, kpakple asitsatsa ƒe fewo, yia tomenukulawo si kpɔa network la ta. NU6 hã trɔ asi le gazazã ƒe ɖoɖo kple dev-ga ƒe se siwo li fifia (ZIP 207 kple ZIP 214) ŋu be woasɔ ɖe ɖoɖo yeye sia nu.
 
-![NU6 development-fund split: 20 percent of the block subsidy goes to development, with 8 percent to Zcash Community Grants and 12 percent into the Deferred Dev Fund Lockbox](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/nu6-dev-fund-split.png)
+![NU6 development-fund split: 20 percent of the block subsidy goes to development, with 8 percent to Zcash Community Grants and 12 percent into the Deferred Dev Fund Lockbox](/content-images/nu6-dev-fund-split-08bc73e317.webp)
 
 ## Aɖaka si wohe ɖe megbe la
 
@@ -41,7 +41,7 @@ NU6 hã tu akɔntabubu ƒe vovototo aɖe le alesi wowɔa ZEC yeyee me, si gɔme 
 2. Le NU6 megbe la, ele be coinbase ƒe asitsatsa nada sɔ pɛpɛpɛ: ele be nusiwo wowɔ ƒe asixɔxɔ bliboa nasɔ kple tomenukulawo ƒe kpekpeɖeŋu kpe ɖe fewo ŋu, megasɔ gbɔ o eye megaɖiɖi o.
 3. Esi tomenukulawo magate ŋu axɔ ZEC ƒe nu sue aɖe eye woatɔ dzoe le vo me o ta la, woate ŋu agblɔ ZEC ƒe agbɔsɔsɔ bliboa si anɔ anyi gbeɖeka la ɖi pɛpɛpɛ azɔ.
 
-![Coinbase balancing before and after NU6: before, coinbase could under-claim and burn ZEC so supply was not exactly predictable. After, coinbase must balance exactly so issuance is exactly predictable](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/nu6-coinbase-balance.png)
+![Coinbase balancing before and after NU6: before, coinbase could under-claim and burn ZEC so supply was not exactly predictable. After, coinbase must balance exactly so issuance is exactly predictable](/content-images/nu6-coinbase-balance-0fa2394799.webp)
 
 ## Alesi gazazã va trɔe
 
@@ -51,18 +51,18 @@ NU6 nye ta ɖeka le ŋutinya didi aɖe me ku ɖe alesi Zcash xea fe na eɖokui �
 2. NU6 (November 2024) gbugbɔ trɔ asi le gadodo ma ŋu le afã evelia megbe eye wòɖo Deferred Dev Fund Lockbox, eye wòdzra ga si woaɖe ɖe go ƒe akpa aɖe ɖo na gakpekpeɖeŋu siwo nutoa me tɔwo atso nya me le etsɔme.
 3. NU6.1 (2025) ɖo biabia si NU6 gblẽ ɖi ʋuʋu ɖi, amesi kpɔa ga siwo wodzra ɖo ɖi dzi, to block subsidy ƒe 8% dzi yiyi na Zcash Community Grants eye wòfia mɔ 12% yi gaku si dzi gakuxɔlawo kpɔna si lockbox la xe nuku me.
 
-![How Zcash funding evolved: Canopy created the development fund, NU6 set up the lockbox, and NU6.1 set the rules for who controls it](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/nu6-funding-timeline.png)
+![How Zcash funding evolved: Canopy created the development fund, NU6 set up the lockbox, and NU6.1 set the rules for who controls it](/content-images/nu6-funding-timeline-2427db58c0.webp)
 
 ## Nyagɔmeɖegbalẽ
 
 | Nyagbe | Plain-Eŋlisigbe me gɔmesese |
 |---|---|
-| Block ƒe kpekpeɖeŋunana | ZEC yeye si wowɔ kple block ɖesiaɖe si woɖe |
-| Coinbase ƒe asitsatsa | Asitsatsa tɔxɛ si xea block aɖe ƒe kpekpeɖeŋu kple fewo |
-| Deferred Dev Fund ƒe Ʋuʋudedi ƒe Aɖaka | Nudzraɖoƒe si le ɖoɖowɔɖi me si léa ga si woɖe ɖe go ƒe akpa aɖe ɖe asi hena etsɔme si nutoa me tɔwo tso nya me le be woazã |
-| Zcash Hadome Gakpekpeɖeŋunana (ZCG) | Kɔmiti si naa ga dɔwɔwɔ si Zcash nutoa me tɔwo wɔna eye wowɔa dɔ na wo |
-| Nubabla ƒe alɔdze id | Dzesidede nodes zãna tsɔ gblɔa upgrade ƒe se siwo dzi block zɔna ɖo |
-| Netwɔƒe ƒe ŋgɔyiyi (NU) | Tɔtrɔ si wowɔ ɖekae ɖe Zcash ƒe se siwo dzi woda asi ɖo ŋu, si wowɔ dɔ le block ƒe kɔkɔme si woɖo ɖi |
+| Block subsidy | ZEC yeye si wowɔ kple block ɖesiaɖe si woɖe |
+| Coinbase transaction | Asitsatsa tɔxɛ si xea block aɖe ƒe kpekpeɖeŋu kple fewo |
+| Deferred Dev Fund Lockbox | Nudzraɖoƒe si le ɖoɖowɔɖi me si léa ga si woɖe ɖe go ƒe akpa aɖe ɖe asi hena etsɔme si nutoa me tɔwo tso nya me le be woazã |
+| Zcash Community Grants (ZCG) | Kɔmiti si naa ga dɔwɔwɔ si Zcash nutoa me tɔwo wɔna eye wowɔa dɔ na wo |
+| Consensus branch id | Dzesidede nodes zãna tsɔ gblɔa upgrade ƒe se siwo dzi block zɔna ɖo |
+| Network upgrade (NU) | Tɔtrɔ si wowɔ ɖekae ɖe Zcash ƒe se siwo dzi woda asi ɖo ŋu, si wowɔ dɔ le block ƒe kɔkɔme si woɖo ɖi |
 
 ## Nyabiasewo ƒe Nyabiasewo
 

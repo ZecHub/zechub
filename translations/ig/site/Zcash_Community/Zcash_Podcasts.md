@@ -37,5 +37,5 @@
 </li>
 </ul>
 
-Ọ bụrụ na anyị nwere ike ịnye gị ihe ọ bụla, biko kpọtụrụ [Discord] ma gwa m mgbe i mechara.](https://discord.gg/zcash) anyị ga-agbakwunye ya na ndepụta ahụ.
+Ọ bụrụ na anyị nwere ike ịnye gị ihe ọ bụla, biko kpọtụrụ [Discord](https://discord.gg/zcash) anyị ga-agbakwunye ya na ndepụta ahụ.
 

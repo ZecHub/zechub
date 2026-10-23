@@ -11,6 +11,15 @@ Zcash Arborist Calls 是定期举行的协议开发会议，重点关注网络�
 **[https://zfnd.org/arborist-calls/](https://zfnd.org/arborist-calls/)**
 
 
+<p>
+  <a
+    href="/arborist-calls"
+    className="inline-flex items-center rounded-lg bg-yellow-400 px-4 py-2 font-semibold text-black hover:bg-yellow-300"
+  >
+    搜索会议存档
+  </a>
+</p>
+
 ## 如何加入
 
 会议在两个固定时段之间轮换举行，以便不同地区的贡献者都能参与。请使用 Zcash Foundation 官方页面获取最新的日历文件和 Zoom 链接：
@@ -22,10 +31,11 @@ Zcash Arborist Calls 是定期举行的协议开发会议，重点关注网络�
 
 ## 笔记、议程与录像
 
-- 完整议程与会议纪要：[arboretum-notes](https://github.com/ZcashCommunityGrants/arboretum-notes)
-- 最近的录像：[Zcash Arborist Call 播放列表](https://www.youtube.com/playlist?list=PL40dyJ0UYTLJqD_3PE9qiJTxse-iHnn1G)
-- Zcash 研发讨论：[Zcash R&D Discord](https://discord.gg/xpzPR53xtU)
-- 长篇讨论：[Zcash Community Forum](https://forum.zcashcommunity.com/)
+- 完整议程和会议纪要：[arboretum-notes](https://github.com/ZcashCommunityGrants/arboretum-notes)
+- 本维基上的可搜索存档：[Arborist Calls 存档](/arborist-calls)
+- 最近的录音：[Zcash Arborist Call 播放列表](https://www.youtube.com/playlist?list=PL40dyJ0UYTLJqD_3PE9qiJTxse-iHnn1G)
+- Zcash R&D 讨论：[Zcash R&D Discord](https://discord.gg/xpzPR53xtU)
+- 长篇讨论：[Zcash 社区论坛](https://forum.zcashcommunity.com/)
 
 ## 谁应该参加
 

@@ -29,7 +29,7 @@
    - [Addebito](#charge)
 5. [Casi d'uso ed esempi](#use-cases--examples)
 6. [Installazione](#installation)
-7. [Configurare il wallet Zimppy](#setting-up-the-zimppy-wallet)
+7. [Configurare il portafoglio Zimppy](#setting-up-the-zimppy-wallet)
 8. [Integrare Zimppy](#integrating-zimppy--typescript-sdk)
    - [Server (schermato)](#typescript-server--shielded)
    - [Server (trasparente)](#typescript-server--transparent)
@@ -115,7 +115,7 @@ MPP segue il flusso HTTP **402 Payment Required**:
 - Firma delle challenge **HMAC-SHA256**
 - Risposte di errore strutturate **RFC 9457**
 - Endpoint **`/.well-known/payment`** per l'individuazione automatica del metodo di pagamento
-- **Orchard IVK** (Incoming Viewing Key) per la verifica dei pagamenti lato server senza esporre le chiavi di spesa
+- **Orchard IVK** (la Incoming Viewing Key) per la verifica dei pagamenti lato server senza esporre la chiave di spesa
 
 ---
 
@@ -220,11 +220,11 @@ zimppy-rs = "0.5"           # Rust SDK (charge, session, axum)
 
 ---
 
-## Configurare il wallet Zimppy
+## Configurare il portafoglio Zimppy
 
-La CLI di Zimppy offre un'interfaccia wallet completa. Tutti i comandi sono disponibili tramite `npx zimppy`.
+La CLI di Zimppy offre un'interfaccia completa per il portafoglio. Tutti i comandi sono disponibili tramite `npx zimppy`.
 
-### Passaggio 1 : creare un wallet
+### Passaggio 1 : creare un portafoglio
 
 ```bash
 npx zimppy wallet create
@@ -246,9 +246,9 @@ npx zimppy wallet balance --all
 
 Mostra una ripartizione del saldo per account tra tutti gli account ZIP-32.
 
-### Passaggio 3 : finanziare il wallet
+### Passaggio 3 : finanziare il portafoglio
 
-Invia ZEC al tuo Unified Address da qualsiasi wallet o exchange compatibile con Zcash. I depositi schermati arrivano direttamente al tuo account Orchard.
+Invia ZEC alla Unified Address da qualsiasi portafoglio o exchange compatibile con Zcash. I depositi schermati arrivano direttamente al tuo account Orchard.
 
 ### Passaggio 4 : inviare e schermare fondi
 
@@ -301,7 +301,7 @@ return result.withReceipt(Response.json({ data }))
 ```
 
 **Punti chiave:**
-- `zcash({ wallet: 'server' })` carica il wallet schermato del server
+- `zcash({ wallet: 'server' })` carica il portafoglio schermato del server
 - `mppx.charge()` gestisce l'intero ciclo di vita di challenge/verifica 402
 - `result.withReceipt()` allega la ricevuta di pagamento crittografica alla risposta
 
@@ -396,24 +396,24 @@ let resp = client
 | `npx zimppy wallet send <addr> <zat>` | Invia ZEC schermato o trasparente |
 | `npx zimppy wallet transfer <from> <to> <zat>` | Trasferimento interno tra account |
 | `npx zimppy wallet shield` | Sposta fondi trasparenti in Orchard (schermato) |
-| `npx zimppy wallet use <name>` | Cambia l'identità del wallet attivo |
+| `npx zimppy wallet use <name>` | Cambia l'identità del portafoglio attivo |
 | `npx zimppy request <url>` | Richiesta automatica 402 -> pagamento -> nuovo tentativo |
 
 ---
 
 ## Funzionalità principali
 
-### Wallet nativi per agenti
+### Portafogli nativi per agenti
 
-I wallet Zimppy sono progettati per l'uso programmatico da parte di agenti AI, non per estensioni del browser gestite da persone. Le chiavi vengono gestite tramite CLI o SDK, gli account possono essere ruotati tramite **derivazione degli account ZIP-32**, e il wallet supporta flussi di pagamento completamente automatizzati senza approvazione umana per ogni transazione.
+I portafogli Zimppy sono progettati per l'uso programmatico da parte di agenti AI, non per estensioni del browser gestite da persone. Le chiavi vengono gestite tramite CLI o SDK, gli account possono essere ruotati tramite **derivazione degli account ZIP-32**, e il portafoglio supporta flussi di pagamento completamente automatizzati senza approvazione umana per ogni transazione.
 
 ### Supporto multi-agente
 
-Più agenti possono operare dallo stesso wallet utilizzando la **rotazione degli account ZIP-32**: ogni agente riceve il proprio account con monitoraggio del saldo isolato, capacità di trasferimento tra account e report del saldo per account. Ciò consente la gestione di flotte di molti agenti da una singola infrastruttura wallet.
+Più agenti possono operare dallo stesso portafoglio utilizzando la **rotazione degli account ZIP-32**: ogni agente riceve il proprio account con monitoraggio del saldo isolato, capacità di trasferimento tra account e report del saldo per account. Ciò consente la gestione di flotte di molti agenti da una singola infrastruttura di portafogli.
 
 ### Transazioni Zcash completamente schermate (Orchard)
 
-I pagamenti schermati utilizzano il **protocollo Orchard** di Zcash, il pool schermato più recente e sicuro. Il server verifica i pagamenti mediante una **Incoming Viewing Key (IVK)**, che può decrittografare le note ricevute senza esporre la chiave di spesa. Gli attacchi replay vengono prevenuti tramite **associazione del memo**: ogni challenge incorpora un memo univoco `zimppy:{challenge_id}` verificato crittograficamente.
+I pagamenti schermati utilizzano il **protocollo Orchard** di Zcash, la pool schermata introdotta da NU5. Il server verifica i pagamenti mediante una **Incoming Viewing Key (IVK)**, che può decrittografare le note ricevute senza esporre la chiave di spesa. Gli attacchi di replay vengono prevenuti tramite il **vincolo del memo** - ogni sfida incorpora un memo univoco `zimppy:{challenge_id}` verificato crittograficamente.
 
 ### Sessioni, latenza zero per richiesta
 
@@ -449,7 +449,7 @@ packages/
 
 **`zimppy-core`** - Il nucleo crittografico. Gestisce la decrittazione delle note Orchard utilizzando l'IVK del server, il parsing dei memo, la logica di protezione dai replay e la verifica delle challenge. Scritto in Rust per prestazioni e correttezza.
 
-**`zimppy-wallet`** - Un wallet Zcash nativo basato su `zingolib`. Gestisce chiavi, account, saldi schermati/trasparenti e invio delle transazioni.
+**`zimppy-wallet`** - Un portafoglio Zcash nativo basato su `zingolib`. Gestisce chiavi, account, saldi schermati/trasparenti e invio delle transazioni.
 
 **`zimppy-rs`** - L'SDK Rust. Fornisce i trait `ChargeMethod`, `SessionMethod` e `PaymentProvider`, oltre agli estrattori Axum (`MppCharge`, `WithReceipt`) per un'integrazione ergonomica del server.
 
@@ -457,7 +457,7 @@ packages/
 
 **`zimppy-ts`** - L'SDK TypeScript. Avvolge i binding NAPI con API async/await idiomatiche per i flussi di addebito, sessione e streaming SSE.
 
-**`zimppy-cli`** - Il wallet da riga di comando e strumento per richieste. Supporta il pagamento automatico (402 -> pagamento -> nuovo tentativo), la gestione delle sessioni e tutte le operazioni del wallet.
+**`zimppy-cli`** - Il portafoglio da riga di comando e strumento per richieste. Supporta il pagamento automatico (402 -> pagamento -> nuovo tentativo), la gestione delle sessioni e tutte le operazioni del portafoglio.
 
 ---
 
@@ -472,7 +472,7 @@ packages/
 
 ---
 
-## Cosa include - Riepilogo delle funzionalità
+## Cosa include - riepilogo delle funzionalità
 
 | Funzionalità | Descrizione |
 |---|---|
@@ -481,7 +481,7 @@ packages/
 | **Addebito** | Pagamento schermato o trasparente per richiesta HTTP (flusso 402) |
 | **Pagamenti trasparenti** | T-address con protezione dai replay per challenge + comando shield |
 | **Multi-account** | Rotazione degli account ZIP-32, trasferimenti tra account, saldi per account |
-| **Wallet CLI** | Invia, scherma, trasferisci, saldo --all, whoami, pagamento automatico |
+| **Portafoglio CLI** | Invia, scherma, trasferisci, saldo --all, whoami, pagamento automatico |
 | **Doppio SDK** | TypeScript e Rust |
 | **Conforme alle specifiche** | Challenge HMAC-SHA256, errori RFC 9457, discovery `/.well-known/payment` |
 
@@ -493,8 +493,8 @@ packages/
 
 ## Pagine correlate
 
-- [Wallet](/using-zcash/wallets) — Wallet Zcash che supportano transazioni schermate
-- [Pool schermati](/using-zcash/shielded-pools) — Come le transazioni schermate Orchard proteggono i dati di pagamento
+- [Portafogli](/using-zcash/wallets) — Portafogli Zcash che supportano transazioni schermate
+- [Pool schermate](/using-zcash/shielded-pools) — Come le transazioni schermate Orchard proteggono i dati di pagamento
 - [Elaboratori di pagamento](/using-zcash/payment-processors) — Altri modi per accettare pagamenti Zcash
 - [Zcash Shielded Assets](/zcash-tech/zcash-shielded-assets) — ZSA e il futuro della programmabilità di Zcash
 - [Progetti della community](/zcash-community/community-projects) — Altri progetti dell'ecosistema Zcash

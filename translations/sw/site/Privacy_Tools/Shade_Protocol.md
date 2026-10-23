@@ -1,76 +1,76 @@
-[!Edit Ukurasa](https://img.shields.io/badge/Edit-blue)](https://github.com/zechub/zechub/edit/main/site/Privacy_Tools/Shade_Protocol.md)
+[![Edit Page](https://img.shields.io/badge/Edit-blue)](https://github.com/zechub/zechub/edit/main/site/Privacy_Tools/Shade_Protocol.md)
 
-# Shade Itifaki
+# Shade Protocol
 
-[Shade Itifaki Logo](/content-images/Af8EzlNiwGr4FTFX7oqdBuE-71316827d0.webp)
+![Shade Protocol Logo](/content-images/Af8EzlNiwGr4FTFX7oqdBuE-71316827d0.webp)
 
-## Kanuni ya Kivuli ni nini?
+## What is Shade Protocol?
 
-Shade Protocol is a privacy preserving DeFi (Decentralized Finance) ecosystem that aims to offer a suite of financial products while ensuring user privacy and security. Built on Secret Network, Shade Protocol focuses on creating a privacy centric financial environment, providing users with tools like stablecoins, synthetic assets, lending platforms, and more. The flagship product of Shade Protocol is the Silk Stablecoin, which combines privacy features with price stability.
+Shade Protocol ni mfumo ikolojia wa DeFi (Fedha Iliyogatuliwa) unaolinda faragha ambao unalenga kutoa seti ya bidhaa za kifedha huku ukihakikisha faragha na usalama wa mtumiaji. Imejengwa kwenye Mtandao wa Siri, Shade Protocol inalenga kuunda mazingira ya kifedha yanayozingatia faragha, kuwapa watumiaji zana kama vile sarafu thabiti, mali za sintetiki, majukwaa ya mikopo, na zaidi. Bidhaa kuu ya Shade Protocol ni Silk Stablecoin, ambayo inachanganya vipengele vya faragha na uthabiti wa bei.
 
-## Teknolojia Inayotumiwa 
+## Teknolojia Iliyotumika 
 
-** Mtandao wa Siri **
+**Mtandao wa Siri**
 
-Shade Protocol is built on the Secret Network, a layer 1 blockchain that provides privacy preserving smart contracts. Secret Network uses encrypted inputs, outputs, and state to ensure transaction privacy, protecting user data from being exposed on the public ledger.
+Shade Protocol imejengwa kwenye Mtandao wa Siri, blockchain ya safu ya 1 ambayo hutoa faragha inayohifadhi mikataba mahiri. Mtandao wa Siri hutumia ingizo, matokeo, na hali iliyosimbwa kwa njia fiche ili kuhakikisha faragha ya miamala, na kulinda data ya mtumiaji kutokana na kufichuliwa kwenye leja ya umma.
 
-[Mchoro wa Mtandao Siri](/content-images/1-yyZ5hFOw6z8zXX_rgJn5iw-9091067aa1.webp)
+![Secret Network Diagram](/content-images/1-yyZ5hFOw6z8zXX_rgJn5iw-9091067aa1.webp)
 
-Secret Network enables developers to build decentralized applications with encrypted data, both natively on Secret and on other blockchains through cross chain communication, unlocking powerful new use cases for Web3.
+Mtandao wa Siri huwawezesha watengenezaji kujenga programu zilizogawanywa kwa kutumia data iliyosimbwa, zote mbili kwenye Siri na kwenye blockchain zingine kupitia mawasiliano mtambuka, na kufungua matumizi mapya yenye nguvu kwa Web3.
 
-** Cosmos SDK na Tendermint Core **
+**Cosmos SDK na Tendermint Core**
 
-Cosmos iliundwa ili kuunganisha blockchains heterogeneous kwa kufafanua njia bora na zaidi ya kisasa ya kujenga blockchain hizi kutumia zana mpya kama Tendermint na SDK Cosmos. 
-Itifaki hutumia Cosmos SDK, mfumo wa moduli kwa ajili ya kujenga scalable na maingiliano blockchain maombi. Hii inaruhusu Shade Protocol kufaidika na nguvu na interoperability ya mazingira Cosmos.
+Cosmos iliundwa ili kuunganisha blockchain tofauti kwa kufafanua njia bora na za kisasa zaidi za kujenga blockchain hizi kwa kutumia zana mpya kama Tendermint na Cosmos SDK. 
+Itifaki hii inatumia Cosmos SDK, mfumo wa moduli wa kujenga programu za blockchain zinazoweza kupanuliwa na kuendeshwa kwa pamoja. Hii inaruhusu Shade Protocol kufaidika na uthabiti na utendakazi wa pamoja wa mfumo ikolojia Cosmos.
 
-! [Cosmos SDK na Tendermint Core Mchoro](/content-images/83dfbb311bfd6ce22d1c9468160d8e33b4c5ce8e-ed16bb7658.webp)
+![Cosmos SDK and Tendermint Core Diagram](/content-images/83dfbb311bfd6ce22d1c9468160d8e33b4c5ce8e-ed16bb7658.webp)
 
-Kwa makubaliano na usalama wa mtandao, Shade Itifaki inaajiri Tendermint Core, ambayo hutoa Byzantine Fault Tolerant (BFT) makubaliana, kuhakikisha usalama wa juu na haraka finality.
+Kwa makubaliano na usalama wa mtandao, Shade Protocol inatumia Tendermint Core, ambayo hutoa makubaliano ya Byzantine Fault Tolerant (BFT), kuhakikisha usalama wa hali ya juu na umaliziaji wa haraka.
 
-** Faragha Kuhifadhi Fedha Decentralized **
+**Kuhifadhi Faragha Fedha Zilizogatuliwa**
 
-Privacy preserving DeFi leverages advanced cryptographic techniques like encrypted transactions, zero knowledge proofs, and private smart contracts to maintain user privacy and data confidentiality on blockchain networks. By using technologies such as Secret Network's secret contracts and Cosmos SDK for interoperability, these solutions enable confidential transactions, private asset management, and selective disclosure, ensuring financial activities remain secure and compliant with privacy regulations. This approach protects users from tracking and fraud, offering decentralized financial freedom while adhering to privacy standards.
+DeFi hutumia mbinu za hali ya juu za usimbaji fiche kama vile miamala iliyosimbwa kwa njia fiche, uthibitisho wa maarifa usio na uthibitisho, na mikataba ya faragha mahiri ili kudumisha faragha ya mtumiaji na usiri wa data kwenye mitandao ya blockchain. Kwa kutumia teknolojia kama vile mikataba ya siri ya Secret Network na Cosmos SDK kwa ajili ya ushirikiano, suluhisho hizi huwezesha miamala ya siri, usimamizi wa mali binafsi, na ufichuzi teule, kuhakikisha shughuli za kifedha zinabaki salama na zinafuata kanuni za faragha. Mbinu hii huwalinda watumiaji kutokana na ufuatiliaji na ulaghai, ikitoa uhuru wa kifedha uliogawanywa huku ikifuata viwango vya faragha.
 
-## Matumizi
+## Maombi
 
-** Shade na Silk Tokens **
+**Tokeni za Kivuli na Hariri**
 
-Shade Protocol utilizes viewing keys for its two main tokens: Shade ($SHD) and Silk ($SILK). Shade ($SHD) serves multiple roles, acting as the treasury, governance, and revenue sharing token within the ecosystem. It is used in staking, governance proposals, liquidity provision, transactions, and bonds. Silk ($SILK), on the other hand, is the protocol’s privacy focused stablecoin, pegged to a diverse basket of global currencies and commodities such as gold, Bitcoin, USD, Euro, and Yen.
+Shade Protocol hutumia funguo za kutazama kwa tokeni zake kuu mbili: Shade ($SHD) na Hariri ($SILK). Shade ($SHD) hutumikia majukumu mengi, ikitenda kama tokeni ya hazina, utawala, na ugawanaji mapato ndani ya mfumo ikolojia. Inatumika katika kuweka akiba, mapendekezo ya utawala, utoaji wa ukwasi, miamala, na dhamana. Hariri ($SILK), kwa upande mwingine, ni sarafu thabiti inayozingatia faragha ya itifaki, iliyounganishwa na kikapu tofauti cha sarafu za kimataifa na bidhaa kama vile dhahabu, Bitcoin, USD, Euro, na Yen.
 
-! [Shade na Silk Tokens - Sehemu ya 1](/content-images/9wTrxCdx8AoRcCwsGub13QXuY-807ed3b400.webp)
+![Shade and Silk Tokens - Part 1](/content-images/9wTrxCdx8AoRcCwsGub13QXuY-807ed3b400.webp)
 
-! [Shade na Silk Tokens - Sehemu ya 2](/content-images/IUC9YWfErTebCBsMkdbCnjSWGEY-4ed6d5cedf.webp)
+![Shade and Silk Tokens - Part 2](/content-images/IUC9YWfErTebCBsMkdbCnjSWGEY-4ed6d5cedf.webp)
 
 ### Faragha
 
-One of the main reasons users might prefer Shade Protocol is the privacy it offers. Transactions on Shade are shielded from public view, ensuring that financial data remains confidential. Unlike traditional public blockchains where transaction details are visible to all, Shade Protocol tokens utilize encrypted inputs, outputs, and states, meaning that sensitive information remains hidden from prying eyes. This enhances user privacy and security, allowing individuals to engage in financial activities without exposing their personal information or transaction history, thereby protecting against potential threats and preserving financial confidentiality.
+Mojawapo ya sababu kuu ambazo watumiaji wanaweza kupendelea Shade Protocol ni faragha inayotoa. Miamala kwenye Shade inalindwa kutokana na mtazamo wa umma, kuhakikisha kwamba data ya kifedha inabaki kuwa siri. Tofauti na blockchain za kawaida za umma ambapo maelezo ya miamala yanaonekana kwa wote, tokeni za Shade Protocol hutumia ingizo, matokeo, na hali zilizosimbwa kwa njia fiche, ikimaanisha kuwa taarifa nyeti hubaki zimefichwa kutoka kwa macho ya watu wanaoifuatilia. Hii huongeza faragha na usalama wa mtumiaji, ikiruhusu watu binafsi kushiriki katika shughuli za kifedha bila kufichua taarifa zao binafsi au historia ya miamala, na hivyo kulinda dhidi ya vitisho vinavyoweza kutokea na kuhifadhi usiri wa kifedha.
 
 ### Thamani Imara
 
-The Silk Stablecoin provides price stability, which is crucial for users who want to avoid the volatility often associated with cryptocurrencies. Silk is pegged to a basket of assets, which helps maintain its value over time. Every stablecoin derives its value from a specific source, typically being pegged to the US dollar. However, this approach carries significant, often unrecognized risks. Silk mitigates these risks by maintaining stability amidst global volatility without relying on a single value peg like the US dollar. Instead, Silk's value is based on a weighted index known as the Silk Currency Basket. This basket includes a selection of global currencies (USD, CAD, EUR, JPY) and commodities such as Bitcoin and gold. By incorporating multiple currencies and assets, Silk achieves greater peg stability compared to individual currencies. Extensive research and testing have shown that gold and Bitcoin, as reliable stores of value, outperform traditional currencies, justifying their inclusion in the basket.
+Sarafu ya Hariri Stablecoin hutoa uthabiti wa bei, jambo ambalo ni muhimu kwa watumiaji wanaotaka kuepuka uthabiti ambao mara nyingi huhusishwa na sarafu za kidijitali. Hariri imeunganishwa kwenye kikapu cha mali, ambacho husaidia kudumisha thamani yake baada ya muda. Kila sarafu ya hisa hupata thamani yake kutoka kwa chanzo maalum, kwa kawaida huunganishwa na dola ya Marekani. Hata hivyo, mbinu hii ina hatari kubwa, ambazo mara nyingi hazitambuliki. Hariri hupunguza hatari hizi kwa kudumisha uthabiti katikati ya uthabiti wa kimataifa bila kutegemea kigingi kimoja cha thamani kama dola ya Marekani. Badala yake, thamani ya Hariri inategemea faharisi yenye uzito inayojulikana kama Kikapu cha Sarafu cha Hariri. Kikapu hiki kinajumuisha uteuzi wa sarafu za kimataifa (USD, CAD, EUR, JPY) na bidhaa kama vile Bitcoin na dhahabu. Kwa kuingiza sarafu na mali nyingi, Hariri hupata uthabiti mkubwa wa kigingi ikilinganishwa na sarafu za kibinafsi. Utafiti na majaribio ya kina yameonyesha kuwa dhahabu na Bitcoin, kama hifadhi za thamani zinazoaminika, hufanya kazi vizuri zaidi kuliko sarafu za jadi, na kuhalalisha kuingizwa kwao kwenye kikapu.
 
-### Ugawaji wa madaraka ya umma
+### Ugatuzi
 
-As a DeFi platform, Shade Protocol operates without central control, providing users with financial autonomy. Shade Protocol's decentralized governance allows its community of token holders to participate directly in the decision making process. Token holders can propose changes, vote on initiatives, and contribute to the development and direction of the protocol. This ensures that control is distributed across a diverse group of stakeholders rather than being held by a central authority. By leveraging blockchain technology, the governance process is transparent, secure, and immutable, fostering a more inclusive and resilient ecosystem.
+Kama jukwaa la DeFi, Shade Protocol inafanya kazi bila udhibiti mkuu, ikiwapa watumiaji uhuru wa kifedha. Utawala wa madaraka Shade Protocol's huruhusu jumuiya yake ya wamiliki wa tokeni kushiriki moja kwa moja katika mchakato wa kufanya maamuzi. Wamiliki wa tokeni wanaweza kupendekeza mabadiliko, kupiga kura kuhusu mipango, na kuchangia katika maendeleo na mwelekeo wa itifaki. Hii inahakikisha kwamba udhibiti unasambazwa katika kundi tofauti la wadau badala ya kushikiliwa na mamlaka kuu. Kwa kutumia teknolojia ya blockchain, mchakato wa utawala ni wazi, salama, na hauwezi kubadilika, na kukuza mfumo ikolojia unaojumuisha zaidi na thabiti.
 
-### Ushirikiano wa pamoja
+### Utendaji kazi pamoja
 
-Being part of the Cosmos ecosystem means that Shade Protocol can easily interact with other blockchains, enhancing liquidity and providing more opportunities for users to leverage their assets across different networks. By utilizing privacy preserving technologies from the Secret Network, Shade Protocol ensures that these cross chain activities maintain confidentiality and integrity. This interoperability not only enhances the flexibility and functionality of decentralized applications but also fosters a more interconnected and robust blockchain ecosystem, reducing reliance on isolated networks and promoting broader adoption of decentralized finance solutions.
+Kuwa sehemu ya mfumo ikolojia Cosmos kunamaanisha kuwa Shade Protocol inaweza kuingiliana kwa urahisi na blockchain zingine, kuongeza ukwasi na kutoa fursa zaidi kwa watumiaji kutumia mali zao katika mitandao tofauti. Kwa kutumia teknolojia za kuhifadhi faragha kutoka kwa Mtandao wa Siri, Shade Protocol inahakikisha kwamba shughuli hizi za mnyororo mtambuka hudumisha usiri na uadilifu. Ushirikiano huu sio tu huongeza kubadilika na utendaji wa programu zilizogawanywa lakini pia hukuza mfumo ikolojia wa blockchain uliounganishwa zaidi na imara, kupunguza utegemezi kwenye mitandao iliyotengwa na kukuza utumiaji mpana wa suluhisho za fedha zilizogawanywa.
 
-[Interoperability Mchoro](/content-images/3zIwSJHEwP9tkn4aI0do0lhgFTE-2aed930de0.webp)
+![Interoperability Diagram](/content-images/3zIwSJHEwP9tkn4aI0do0lhgFTE-2aed930de0.webp)
 
-## Matokeo
+## Hitimisho
 
-Shade Protocol ni mradi wa upainia katika nafasi ya DeFi, ikitoa suluhisho za kifedha zinazozingatia faragha zilizojengwa kwenye teknolojia thabiti. Kwa kutoa sarafu thabiti na huduma za faragha na kukuza safu kamili ya zana za fedha, Itifaki ya Kivuli inakusudia kuhudumia watumiaji ambao wanathamini usalama, utulivu, na utengamano.
+Shade Protocol ni mradi wa upainia katika nafasi ya DeFi, unaotoa suluhisho za kifedha zinazozingatia faragha zilizojengwa juu ya teknolojia imara. Kwa kutoa sarafu thabiti yenye vipengele vya faragha na kutengeneza seti kamili ya zana za kifedha, Shade Protocol inalenga kuwahudumia watumiaji wanaothamini usalama, uthabiti, na ugatuzi.
 
-Shade Protocol's principles of cohesiveness and value capture provide a solid foundation for stability and a seamless user experience, positioning it as a future leader in DeFi protocols. With adaptive, scalable governance and a well defined roadmap for introducing new Shade Protocol primitives, the potential for rapid growth is undoubtedly immense.
+Kanuni Shade Protocol's za mshikamano na uchukuaji wa thamani hutoa msingi imara wa uthabiti na uzoefu wa mtumiaji usio na mshono, na kuiweka kama kiongozi wa baadaye katika itifaki za DeFi. Kwa utawala unaobadilika na unaoweza kupanuliwa na ramani iliyofafanuliwa vizuri ya kuanzisha kanuni mpya za Shade Protocol, uwezekano wa ukuaji wa haraka bila shaka ni mkubwa sana.
 
-#### Viungo vya Marejeo
+#### Viungo vya Marejeleo
  
-[Website ya Shade Protocol](https://shadeprotocol.com)
+[Tovuti Shade Protocol](https://shadeprotocol.io/)
 
-[Katikati (Shade Itifaki) ](https://medium.com/@shadeprotocoldevs/what-is-shade-protocol-efc1ef7aeabf)
+[Medium (Shade Protocol) ](https://medium.com/@shadeprotocoldevs/what-is-shade-protocol-efc1ef7aeabf)
 
-[Altcoin Buzz.io](https://www.altcoinbuzz.io/reviews/what-is-shade-protocol/)
+[Altcoin Buzz.io](https://web.archive.org/web/20250319054025/https://www.altcoinbuzz.io/reviews/what-is-shade-protocol/)
 
 [Messari.io](https://messari.io/project/shade/profile)

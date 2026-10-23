@@ -38,7 +38,7 @@ Impareremo qualcosa di più su un protocollo di privacy intercatena che utilizza
 
 [Josh Swihart lascia l'ECC](https://twitter.com/jswihart/status/1681663020852736000)
 
-[Calendario del club per Zcon4 di ZFAV](https://wiki.zechub.xyz/zfav/calendar)
+Calendario del club per Zcon4 di ZFAV
 
 
 
@@ -78,7 +78,7 @@ Impareremo qualcosa di più su un protocollo di privacy intercatena che utilizza
 
 #### Notizie e media
 
-[Il tribunale britannico accoglie l'appello di Craig Wright nella causa sui diritti dei Bitcoin - Cointelegraph](https://cointelegraph.com/news/uk-courts-grants-appeal-craig-wright-bitcoin-rights-lawsuit) 
+[Il tribunale britannico accoglie l'appello di Craig Wright nella causa sui diritti dei Bitcoin - Cointelegraph](https://web.archive.org/web/20250827103632/https://cointelegraph.com/news/uk-courts-grants-appeal-craig-wright-bitcoin-rights-lawsuit) 
 
 [Il DOJ cerca di aumentare le indagini sulle criptovalute con una mossa per unire i team - The Block](https://www.theblock.co/post/240967/doj-looks-to-increase-crypto-investigations-with-move-to-merge-teams) 
 
@@ -88,7 +88,7 @@ Impareremo qualcosa di più su un protocollo di privacy intercatena che utilizza
 
 [Celsius Network raggiunge un accordo che potrebbe aprire la strada alla restituzione dei fondi dei clienti: WSJ - The Block](https://www.theblock.co/post/241028/celsius-network-reaches-settlements-wsj) 
 
-[Calendario del club ZFAV per Zcon4](https://wiki.zechub.xyz/zfav/calendar)
+Calendario del club ZFAV per Zcon4
 
 
 

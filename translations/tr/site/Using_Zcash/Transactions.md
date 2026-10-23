@@ -134,7 +134,7 @@ Bunları asla herkese açık sohbette, sosyal medyada veya bir sorun takip siste
 
 - Seed phrase veya kurtarma ifadesi
 - Harcama anahtarı, özel anahtar veya cüzdan yedeği
-- Tam görüntüleme anahtarı
+- Full Viewing Key
 - Bakiyeleri, tam adresleri, notları, QR kodlarını veya borsa hesap ayrıntılarını gösteren ekran görüntüleri
 - Kişisel kimlik belgeleri veya hesap kurtarma kayıtları
 
@@ -167,7 +167,7 @@ Destek ekiplerinin seed phrase'inize, harcama anahtarınıza, özel anahtarını
 
 ## Not
 
-Lütfen, ZEC kullanmanın en güvenli yolunun gönderici, alıcı, cüzdan ve hizmetin hepsi desteklediğinde korumalı işlemleri kullanmak olduğunu unutmayın. Bazı cüzdanlar ve borsalar, birden fazla Zcash alıcı türünü tek bir adreste birleştirebilen [birleşik adresleri](https://electriccoin.co/blog/unified-addresses-in-zcash-explained/#:~:text=The%20unified%20address%20(UA)%20is,within%20the%20broader%20Zcash%20ecosystem.) destekler.
+Lütfen, ZEC kullanmanın en güvenli yolunun gönderici, alıcı, cüzdan ve hizmetin hepsi bunları desteklediğinde korumalı işlemleri kullanmak olduğunu unutmayın. Bazı cüzdanlar ve borsalar, birden fazla Zcash alıcı türünü tek bir adreste birleştirebilen [birleşik adresleri](https://web.archive.org/web/20260823012524/https://electriccoin.co/blog/unified-addresses-in-zcash-explained/#:~:text=The%20unified%20address%20(UA)%20is,within%20the%20broader%20Zcash%20ecosystem.) destekler.
 
 ## Kaynaklar
 
@@ -178,6 +178,7 @@ Lütfen, ZEC kullanmanın en güvenli yolunun gönderici, alıcı, cüzdan ve hi
 ## İlgili Sayfalar
 
 - [Cüzdanlar](/using-zcash/wallets) - hangi cüzdanların korumalı gönderimi desteklediği ve hangilerinin yalnızca şeffaf olduğu
+- [Ödeme açıklamaları](/zcash-tech/payment-disclosures) - bir göndericinin korumalı bir ödemenin seçilen ayrıntılarını nasıl kanıtlayabileceği
 - [Korumalı Havuzlar](/using-zcash/shielded-pools) - korumalı fonlarınızın bulunduğu havuzlar olan Sapling ve Orchard
 - [Notlar](/using-zcash/memos) - korumalı bir işlemle birlikte aktarılabilen şifrelenmiş mesajlar
 - [Şeffaf Borsa Adresleri](/using-zcash/transparent-exchange-addresses) - TEX adresleri ve borsaların bunları neden kullandığı

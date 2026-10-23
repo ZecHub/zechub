@@ -2,29 +2,29 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# ZecHub Community Infrastructure Framework (Akan Asɛdeɛ a Ɛwɔ Mpɔtam)
+# ZecHub Mpɔtam Hɔ Nnwuma Nhyehyɛeɛ
 
 
-### Amanaman mu Nkyekyem Mu Ahyehyԑde 
+### Mpɔtam Hɔ Nneɛma a Wɔde Yɛ Adwuma 
 
-ZecHub bounty program no ma developer nya kwan a w'atumi adi dwuma ne ɔkwan foforo bi so wɔ nnwuma biara ho: [ZEC bounties (Ɔman no mu akatua)](https://bounties.zechub.wiki/). 
+ZecHub bounty nhyehyɛe no ne ɔkwan a wotua ho ka ma adwuma yi: [ZEC Bounties](https://bounties.zechub.wiki/). Sɛnea wobɛpaw ZEC nɔma: [bounty sika a wɔde ma ho nhyehyɛe](https://bounties.zechub.wiki/docs/bounty-amounts). Adwumayɛfo a wɔboa: [Ɔreboa ZecHub](https://zechub.wiki/contribute/contributing-guide). 
 
 
-## Akwankyerɛ a Ɛboa 
+## Akwankyerɛ a Mfaso Wɔ So 
 
-- [ZecHub Developer Guide (Nkyerεkyerεfoɔ Nkyerɛkyerɛ)](https://zechub.wiki/developers)
+- [ZecHub Developer Akwankyerɛ](https://zechub.wiki/developers)
 
-- [Zcash Kenkan nkrataafa no](https://zcash.readthedocs.io/en/latest/)
+- [Zcash Kenkan akyerɛwfo](https://zcash.readthedocs.io/en/latest/)
 
-- [The Zebra Book](https://zebra.zfnd.org)
+- [Zebra Nhoma no](https://zebra.zfnd.org)
 
-- [Akash Network Docs (Nneɛma a Ɛwɔ Akan mu)](https://akash.network/docs/)
+- [Akash Network Nsɛm a Wɔakyerɛw](https://akash.network/docs/)
 
-- [Zebrad a wɔhyehyɛ no Akash Network so](https://zechub.wiki/guides/akash-network-zebra#content)
+- [Zebrad a wɔrehyehyɛ wɔ Akash Network so](https://zechub.wiki/guides/akash-network-zebra#content)
 
-- [Zcash ka a wɔ srɛ sɛ wɔntua no ho nkyerɛkyerɛmu (video)](https://www.youtube.com/watch?v=l5auYQIzYsQ)
+- [Wɔakyerɛkyerɛ Zcash Katua Ho Abisade Mu (video)](https://www.youtube.com/watch?v=l5auYQIzYsQ)
 
-- [ZIP-321 Nkyerεkyerεmu](https://zips.z.cash/zip-0321)
+- [ZIP-321 Nkyerɛkyerɛmu](https://zips.z.cash/zip-0321)
 
-Sɛ wohia afotuo a ɛkɔ akyiri firi Zcash developerfoɔ hɔ no, wobɛtumi atwerɛ krataa wɔ wɔn wɛbsaet. [Amanaman Nkabom Nhyiamu](https://forum.zcashcommunity.com).
+Sɛ wo hia afotuo a emu dɔ firi Zcash developers hɔ a wobɛtumi ayɛ post wɔ [Mpɔtam Hɔ Nhyiam](https://forum.zcashcommunity.com).
 

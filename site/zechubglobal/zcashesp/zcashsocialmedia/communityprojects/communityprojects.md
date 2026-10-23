@@ -1,6 +1,6 @@
 ## Proyectos de la comunidad Zcash
 
-[Explorador de Bloques](https://zcashblockexplorer.com)
+[Explorador de Bloques](https://mainnet.zcashexplorer.app)
 
 El Explorador de Bloques de Zcash provee información de las Transacciones / Direcciones / Los bloques en la Mempool, etc. También permite utilizar la clave de visualización de la información sobre el pago de las transacciones.
 
@@ -44,7 +44,7 @@ El Equipo Zeme permite a los creadores recibir propinas fácilmente de cualquier
 
 Zgo es un registro de Zcash. Permite a vendedores y comerciantes aceptar ZEC. Actualmente, se está probando la app para obtener feedback de alta calidad sobre la usabilidad y características de ZGo.
 
-[Zlink](https://zlink.click)
+[Zlink](https://web.archive.org/web/20250309010146/https://zlink.click/)
 
 Zlink es la forma más simple de encontrar cualquier enlace, herramienta, información del ecosistema Zcash que necesites.
 
@@ -60,7 +60,7 @@ ___
 
 Un aftok es una nueva y radical forma de organización cooperativa, empresarial, ascendente. Es una forma para que tú y algunos amigos de confianza construyan cosas juntos y que les paguen por su esfuerzo, sin la jerarquía o los gastos de una compañía tradicional.
 
-[Atomic DEX](https://atomicdex.io/en/)
+[Atomic DEX](https://web.archive.org/web/20250116100519/https://atomicdex.io/en/)
 
 AtomicDEX es una billetera multimoneda, puente y DEX todo en una sola app. Versiones para móvil y escritorio disponibles.
 
@@ -76,7 +76,7 @@ RenBridge (servicio cerrado)
 
 Ren Protocol se descontinuó y RenBridge ya no está disponible.
 
-[ZeroBridge](https://bridge.zerodao.com/#/transfer/ETH)
+[ZeroBridge](https://web.archive.org/web/20260122164455/https://bridge.zerodao.com/#/transfer/ETH)
 
 ZeroBridge es un cliente descentralizado del protocolo Zero DAO, que permite el scripting de activos a través de la cadena en un navegador con tu billetera actual. @zerodaoHQ hace posible financiar una dirección nueva de ETH con ZEC blindado.
 

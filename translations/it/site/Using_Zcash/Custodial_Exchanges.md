@@ -4,7 +4,7 @@
 
 # <img src="/content-images/image-2024-02-03-173258092-a5440e5ee2.webp" alt="Alt Text" width="50"/>   Exchange con custodia
 
-Ironwood è il pool schermato introdotto con l'aggiornamento della rete di luglio 2026. Gli exchange che gestiscono solo t-address trasparenti non lo utilizzano mai, quindi sono contrassegnati come non applicabili. Quando un exchange gestisce indirizzi schermati ma non ha dichiarato quale pool utilizza, la riga lo indica invece di fare supposizioni.
+Ironwood è la pool schermata introdotta con l'aggiornamento di rete di luglio 2026. Gli exchange che gestiscono solo t-address trasparenti non la utilizzano mai, quindi sono contrassegnati come non applicabili. Quando un exchange gestisce indirizzi schermati ma non ha dichiarato quale pool utilizza, la riga lo indica invece di fare supposizioni.
 
 ---
 
@@ -43,7 +43,7 @@ ___
 - Sito web: [BitcoinVN](https://bitcoinvn.io)
 - Coppie: BTC/ZEC, ETH/ZEC, USDT/ZEC, XMR/ZEC, LTC/ZEC, DASH/ZEC
 - Supporta: Trasparente | Schermato (deposito e prelievo con z-address)
-- Tempo di deposito: Immediato (swap non custodial)
+- Tempo di deposito: Immediato (swap non-custodial)
 - Ironwood: Non indicato
 ___
 
@@ -125,13 +125,13 @@ ___
 - Ironwood: Non applicabile, solo indirizzi trasparenti
 ___
 
-## [OKEx](https://okex.com)
+## [OKX (precedentemente OKEx)](https://www.okx.com)
 
-<a href="https://okex.com">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/8/89/Official_logo_of_OKEx.png" alt="OKEx Logo" width="200" height="100"/>
+<a href="https://www.okx.com">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/8/89/Official_logo_of_OKEx.png" alt="OKX logo (shown under its former OKEx branding)" width="200" height="100"/>
 </a>
 
-- Sito web: [OKEx](https://okex.com)
+- Sito web: [OKX](https://www.okx.com)
 - Coppie: ALL/ZEC
 - Supporta: Trasparente
 - Tempo di deposito: 25 minuti 

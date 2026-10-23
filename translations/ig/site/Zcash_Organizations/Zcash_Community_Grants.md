@@ -6,35 +6,35 @@
 
 ## Nkwupụta Ozi
 
-The Zcash Community Grants program funds independent teams entering the Zcash ecosystem, to perform major ongoing development (or other work) for the public good of the Zcash ecosystem. 
+Mmemme Zcash Community Grants na-enye ndị otu nọọrọ onwe ha ego maka ịbanye na usoro Zcash, iji mee nnukwu mmepe na-aga n'ihu (ma ọ bụ ọrụ ndị ọzọ) maka ọdịmma ọha na eze nke usoro Zcash. 
 
-## Ndị Mmadụ na Ìgwè Ndị Ọrụ
+## Ndị mmadụ na Ndị otu
 
-Zcash Community Grants na-achịkwa otu kọmitii, nke ugbu a nwere mmadụ ise. Ọgbakọ a na-enyocha ma kwado arịrịọ maka onyinye sitere n'aka ndị otu nke atọ chọrọ iwulite usoro Zcash.](https://zcashcommunitygrants.org/committee/)
+Kọmitii na-ahụ maka Zcash Community Grants, nke nwere mmadụ ise ugbu a. Obodo a na-enyocha ma na-akwado ngwa onyinye sitere n'aka ndị otu nke atọ chọrọ iwulite na usoro Zcash. Ozi ndị ọzọ gbasara [Ndị otu](https://zcashcommunitygrants.org/committee/)
 
-Recent projects that have been approved by the ZCG are Zcash Shielded Assets (ZSA)  led by the QEDIT team. Bringing DeFi to ZEC with Zcash with a new payments protocol adding additional features to the Zcash mainnet. 
+Ọrụ ndị ZCG kwadoro n'oge na-adịbeghị anya bụ Zcash Shielded Assets (ZSA) nke ndị otu QEDIT na-edu. Iwebata DeFi na ZEC na Zcash site na usoro ịkwụ ụgwọ ọhụrụ na-agbakwụnye atụmatụ ndị ọzọ na Zcash mainnet. 
 
-Zcash Media's Short Documentary featuring notable Zcashers such as Edward Snowden, Zooko & Deirdre Connolly with the purpose of creating relevant, entertaining and educational videos to be widely shared. 
+Akwụkwọ akụkọ dị mkpirikpi nke Zcash Media nke gosipụtara ndị Zcash dịka Edward Snowden, Zooko na Deirdre Connolly iji mepụta vidiyo ndị dị mkpa, na-atọ ụtọ ma na-akụzi ihe ka a kesaa ha nke ọma. 
 
-Hardware wallets integration of Ledger to fully support Sapling shielded transactions, this allows Zcash to be stored privately & securely. This has been carried out by the Zondax Team. 
+Njikọta obere akpa ngwaọrụ nke Ledger iji kwado azụmahịa Sapling nke ọma, nke a na-enye ohere ịchekwa Zcash n'onwe ya na n'enweghị nsogbu. Ndị otu Zondax emeela nke a. 
 
-Easy one-click shielded payment and Point-of-sale system for brick and mortar shops SDK nke ZGo na-eme. 
+An Easy one-click shielded payment and Point-of-sale system for brick and mortar shops SDK being undertaken by ZGo. 
 
-Mmemme Global Ambassador na-enyere Zcash aka inweta nnọchite anya sara mbara na mba ụwa na maka ihe omume obodo n'onwe ya gburugburu ụwa. 
+Mmemme onye nnọchi anya mba ụwa na-enyere Zcash aka inweta nnọchite anya sara mbara n'ụwa niile yana maka ihe omume obodo n'onwe ya gburugburu ụwa. 
 
-Ọtụtụ ọrụ ndị ọzọ enyochala site na Zcash Grants Committee, lee a [Full, Updated List](https://docs.google.com/spreadsheets/d/1FQ28rDCyRW0TiNxrm3rgD8ai2KGUsXAjPieQmI1kKKg/edit?gid=135980745#gid=135980745) nke oru ngo ndị e nyere.
+Kọmitii Ego Zcash enyochaala ọtụtụ ọrụ ndị ọzọ, lee a [Ndepụta zuru ezu, emelitere](https://docs.google.com/spreadsheets/d/1FQ28rDCyRW0TiNxrm3rgD8ai2KGUsXAjPieQmI1kKKg/edit?gid=135980745#gid=135980745) nke ọrụ ndị e nyefere.
 
-## Otú E Si Hazie Ọgbakọ
+## Nhazi nhazi
 
-Zcash Community Grants bụ nzukọ nọọrọ onwe ya site na Electric Coin Company na Zcash Foundation. 
+Zcash Community Grants bụ otu nọọrọ onwe ya nke sitere na Electric Coin Company na Zcash Foundation. 
 
-## Nkwado ego
+## Ego enyemaka
 
-Ụlọ ọrụ Electric Coin Company na-enweta 8% nke [Zcash development fund](https://zips.z.cash/zip-1014)Ha na-eji ego ndị a akwado ndị otu mmepe nke ndị ọzọ yana maka ọrụ dị n'ime.
+Zcash Community Grants na-enweta 8% nke enyemaka ngọngọ, n'okpuru ụdị ego e guzobere na NU6.1 site na [ZIP 1016](https://zips.z.cash/zip-1016)Mmiri ahụ malitere mgbe nke mbụ [ZIP 1015](https://zips.z.cash/zip-1015) Mmiri ahụ agwụla, ọ na-agakwa ruo mgbe Zcash's ga-ekewa nke atọ na ngọngọ 4,406,400 n'okpuru oghere ngọngọ dị ugbu a. ZCG na-eji ego ndị a akwado ndị otu nọọrọ onwe ha n'ofe usoro Zcash.
 
-## Akụnụba
+## akụrụngwa
 
-[Zcash mmepe na ọchịchị](https://z.cash/zcash-development-and-governance/)
+[Mmepe na ọchịchị Zcash](https://z.cash/zcash-development-and-governance/)
 
 
 
@@ -47,50 +47,50 @@ Zcash Community Grants bụ nzukọ nọọrọ onwe ya site na Electric Coin Co
     src="https://www.youtube.com/embed/ItEwc1lzvzc"
     title="How to Submit a Grant Application via ZCG"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    kweeFullScreen
+    allowFullScreen
     loading="lazy"
   />
 </div>
 
 
-### Nzọụkwụ nke Mbụ: Kwadebe Ihe Ị Ga-ekwu
+### Nzọụkwụ nke 1: Kwadebe Atụmatụ Gị
 Mepụta atụmatụ doro anya gụnyere:
-- Aha oru ngo na nkọwa nke onye na-achọ akwụkwọ
+- Aha ọrụ na nkọwa onye na-achọ ọrụ
 - Nkwupụta nsogbu na ngwọta a tụrụ aro
-- Ihe ndị a ga-ewepụta, usoro iheomume, na ihe ndị dị mkpa
-- Mmefu ego na arịrịọ maka ego
-- Ahụmahụ dị mkpa na ihe ize ndụ
+- Mbipụta, usoro iheomume, na ihe omume dị mkpa
+- Arịrịọ mmefu ego na ego
+- Ahụmịhe na ihe egwu dị mkpa
 
 ---
 
-### Nzọụkwụ 2: Nyefee na GitHub
-1. Gaa na **Zcash Community Grants GitHub repository**
-2. Mepee taabụ **Issues** wee pịa **New Issue**
-3. Họrọ ihe kwesịrị ekwesị **ngalaba ngwa template**
-4. Mejupụta mpaghara niile achọrọ ma nyefee
+### Nzọụkwụ nke 2: Zipu na GitHub
+1. Gaa na ebe nchekwa **Zcash Community Grants GitHub**
+2. Mepee taabụ **Mgbasa Ozi** wee pịa **Mgbasa Ozi Ọhụrụ**
+3. Họrọ ndebiri ngwa **nye onyinye kwesịrị ekwesị**
+4. Mezue ubi niile achọrọ ma nyefee
 
-Okwu GitHub bụ ihe ndekọ ngwa ngwa **.
+Okwu GitHub bụ **ndekọ ngwa gọọmentị**.
 
 ---
 
-### Nzọụkwụ 3: Mepụta Post Community Forum
+### Nzọụkwụ nke 3: Mepụta Post Nzukọ Obodo
 1. Gaa na **Zcash Community Forum**
-2. Mepụta isiokwu ọhụrụ na ụdị **Zcash Community Grants**
-3. Jiri otu aha ahụ dị ka mbipụta GitHub
-4. Tinye nchịkọta dị mkpirikpi ma tinye ** njikọ na mbipụta GitHub **
+2. Mepụta eriri ọhụrụ na ngalaba **Zcash Community Grants**
+3. Jiri otu aha ahụ dị ka okwu GitHub
+4. Tinye nchịkọta dị mkpirikpi ma tinye **njikọ na nsogbu GitHub**
 
 ---
 
-### Nzọụkwụ nke Anọ: Na-atụle Ihe Ndị A Na-amụ
-- Nyochaa nsogbu GitHub na isiokwu forum
+### Nzọụkwụ nke 4: Tinye aka na nyocha
+- Lelee nsogbu GitHub na isiokwu mkparịta ụka
 - Zaa ajụjụ na nzaghachi sitere na Kọmitii ZCG na obodo
 
 ---
 
-### Nzọụkwụ nke Ise: Ihe Ga-esi na Ya Pụta
-- Nkwupụta ndị a kwadoro na-aga n'ihu na ntinye ego na ịkọ akụkọ
-- A ga-enyocha ma weghachite atụmatụ ndị a na-anabataghị ** MAY **
+### Nzọụkwụ nke 5: Nsonaazụ
+- Atụmatụ ndị a kwadoro na-aga n'ihu na ntinye ego na akụkọ
+- Aro ndị a na-anaghị akwado **Enwere ike** ka emegharịa ma nyefee ọzọ
 
 ---
 
-**Cheta:** GitHub bụ isi mmalite nke ndekọ; nzukọ a bụ maka mkparịta ụka ọha na eze.
+**Rịba ama:** GitHub bụ isi iyi nke ihe ndekọ; ogbako ahụ bụ maka mkparịta ụka ọha na eze.

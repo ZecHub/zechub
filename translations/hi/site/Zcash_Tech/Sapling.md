@@ -16,7 +16,7 @@ Sapling, Zcash का दूसरा प्रमुख network upgrade था,
 
 Sapling का मुख्य भाग zero-knowledge proof को तेज़ी से बनाने का एक तरीका है, जो shielded transaction को निजी रखता है। मूल Sprout डिज़ाइन में एक ही proving circuit (JoinSplit circuit) का उपयोग होता था, जो धीमा था और बहुत memory लेता था। Sapling ने इसे Zcash Protocol Specification में वर्णित दो purpose-built circuits, Spend circuit और Output circuit, से बदल दिया। परिणामस्वरूप लागत में बड़ी कमी आई। Electric Coin Company के अनुसार, एक shielded transaction को लगभग 40 megabytes memory का उपयोग करते हुए केवल कुछ सेकंड में बनाया जा सकता है। Sapling से पहले का Sprout baseline इससे कहीं अधिक भारी था, जो लगभग कई मिनट और कई gigabytes memory के स्तर का था (Sprout पक्ष के ये आँकड़े व्यापक रूप से उद्धृत अनुमानित baseline हैं)।
 
-![Sprout बनाम Sapling shielded transaction लागत](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/sapling-before-after.png)
+![Sprout बनाम Sapling shielded transaction लागत](/content-images/sapling-before-after-a045b0b48f.webp)
 
 ## नई keys
 
@@ -24,7 +24,7 @@ Sapling ने shielded addresses और keys का एक नया सेट 
 
 इससे जुड़ा एक और बदलाव यह है कि Sapling ने proof बनाने के काम को transaction पर sign करने के काम से अलग कर दिया। जो device zero-knowledge proof बनाता है, वही device spend authority रखने वाला होना अब आवश्यक नहीं रहा। यही decoupling hardware wallet को आपकी spending key को अलग-थलग सुरक्षित रखने देती है, जबकि कोई दूसरा device अपेक्षाकृत भारी proving work करता है।
 
-![Proving device proof को एक अलग signing device को सौंपता है](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/sapling-decoupled-spend.png)
+![Proving device proof को एक अलग signing device को सौंपता है](/content-images/sapling-decoupled-spend-6fceca13a2.webp)
 
 ## trusted setup
 
@@ -34,7 +34,7 @@ Sapling के circuits public parameters के एक सेट पर नि�
 
 Sapling, जून 2018 के upgrade Overwinter के बाद आया, जिसने network के upgrade mechanism को तैयार किया था। Electric Coin Company ने अगस्त 2018 में जारी zcashd 2.0.0 में mainnet activation height निर्धारित की, और जब ब्लॉक 419,200 mined हुआ तो network ने Sapling नियमों पर स्विच कर लिया। chain पर, उस क्षण को Sapling consensus branch id द्वारा चिह्नित किया जाता है।
 
-![Zcash लॉन्च से Sapling activation तक की timeline](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/sapling-timeline.png)
+![Zcash लॉन्च से Sapling activation तक की timeline](/content-images/sapling-timeline-6cad184c30.webp)
 
 ## शब्दावली
 
@@ -44,7 +44,7 @@ Sapling, जून 2018 के upgrade Overwinter के बाद आया, �
 | Sprout | मूल shielded protocol जिसके साथ Zcash लॉन्च हुआ था, और जो Sapling की तुलना में धीमा और भारी था। |
 | Spend and Output circuits | Sapling के दो नए proving circuits जिन्होंने Sprout के एकल JoinSplit circuit को प्रतिस्थापित किया। |
 | Diversified address | कई unlinkable payment addresses में से एक, जिसे आप एक single key से derive कर सकते हैं। |
-| Viewing key | ऐसी key जो किसी को wallet के transactions देखने देती है, बिना उससे funds खर्च करने की क्षमता दिए। |
+| Viewing Key | ऐसी key जो किसी को wallet के transactions देखने देती है, बिना उससे funds खर्च करने की क्षमता दिए। |
 | Consensus branch id | एक छोटा code जो network को बताता है कि कोई transaction किस upgrade के नियमों का पालन करता है। |
 
 ## FAQ
@@ -59,7 +59,7 @@ Sprout और Sapling में क्या अंतर है? Sprout पह�
 
 कुछ स्रोत 28 अक्टूबर और कुछ 29 अक्टूबर क्यों कहते हैं? Activation height पहले से निर्धारित की गई थी ताकि 28 अक्टूबर 2018 को target किया जा सके। जो ब्लॉक वास्तव में बदलाव को सक्रिय करता है, ब्लॉक 419,200, वह 29 अक्टूबर UTC के शुरुआती घंटों में mined हुआ था। कई स्थानीय time zones में तब भी 28 अक्टूबर ही था। दोनों ही स्थिति में यह वही ब्लॉक और वही क्षण है।
 
-viewing key क्या है? Viewing key आपको shielded wallet के लिए read access साझा करने देती है। full या incoming viewing key वाला व्यक्ति wallet के transaction details देख सकता है, लेकिन उसके funds खर्च नहीं कर सकता। अधिक जानकारी के लिए [Viewing Keys](../zcash-tech/viewing-keys) देखें।
+viewing key क्या है? Viewing Key आपको shielded wallet के लिए read access साझा करने देती है। full या incoming viewing key वाला व्यक्ति wallet के transaction details देख सकता है, लेकिन उसके funds खर्च नहीं कर सकता। अधिक जानकारी के लिए [Viewing Keys](../zcash-tech/viewing-keys) देखें।
 
 ## अपनी समझ जाँचें
 
@@ -82,7 +82,7 @@ Sprout के अंतर्गत, shielded transaction बनाने मे
 
 - [Shielded Pools](../using-zcash/shielded-pools)
 - [Viewing Keys](../zcash-tech/viewing-keys)
-- [zk-SNARKS](../zcash-tech/zk-snarks)
+- [zk-SNARKs](../zcash-tech/zk-snarks)
 - [Zcash Network Upgrades](../start-here/network-upgrades)
 - [Wallets](../using-zcash/wallets)
 - [Electric Coin Company](../zcash-organizations/electric-coin-company)

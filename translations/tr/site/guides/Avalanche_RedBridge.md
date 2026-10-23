@@ -62,7 +62,7 @@ Daha fazla teknik ayrıntı için kullanıcıların, entegrasyonun ayrıntılar�
 * Teslimatlar: 
 2025’in 1. çeyreğinde ekip, herkesin kullanıcı deneyimini deneyebileceği, geri bildirim verebileceği ve iyileştirme önerilerinde bulunabileceği [red·bridge demo web sitesinin](https://redbridge-demo.red.dev/index.html) lansmanını duyurdu. Bu site aynı zamanda teknik olmayan kişileri projeyle tanıştırmanın kolay bir yolu olarak da hizmet veriyor.
 
-* Ekip, red·bridge’in nihai sürümü için Zebra kullandı. Bunu test etmek için Avalanche’ın Fuji testnet’i üzerinde çalışan test blokzincirleri ZavaX Oracle’daki üç düğümün ikisini yükselttiler. Son düğüm de başarıyla yükseltildi; artık [Zavax Oracle](https://zavax-oracle.red.dev/) ZEBRA üzerinde çalışıyor!
+* Ekip, red·bridge’in nihai sürümü için Zebra kullandı. Bunu test etmek için Avalanche’ın Fuji testnet’i üzerinde çalışan test blokzincirleri ZavaX Oracle’daki üç düğümün ikisini yükselttiler. Son düğüm de başarıyla yükseltildi; artık [Zavax Oracle](https://web.archive.org/web/20260823181644/https://zavax-oracle.red.dev/) Zebra üzerinde çalışıyor!
 
 * 2025’in 1. çeyreğinde, red.bridge web sitesi başlangıçta kırmızı olan ilk sürümün aksine red, Dark, Light ve Zebra olmak üzere dört görünüm sunacak şekilde kodlandı.
 

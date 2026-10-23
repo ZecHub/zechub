@@ -43,7 +43,7 @@ Nke a bụ nkuzi maka otu esi ewepụ ZEC site na mgbanwe. Rịba ama na nke a b
     src="https://www.youtube.com/embed/REUbkLzK7J4"
     title="Buy and withdraw ZEC to a shielded wallet from Gemini"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    kweeFullScreen
+    allowFullScreen
     loading="lazy"
   />
 </div>
@@ -58,7 +58,7 @@ Nke a bụ nkuzi maka otu esi echebe ZEC gị site na adreesị doro anya gaa na
     src="https://www.youtube.com/embed/W2msuzrxr3s"
     title="Shield your ZEC from a transparent to shielded address"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    kweeFullScreen
+    allowFullScreen
     loading="lazy"
   />
 </div>
@@ -73,7 +73,7 @@ Nke a bụ nkuzi maka otu esi azụta ZEC na Coinbase ma zigara ya Zodl.
     src="https://www.youtube.com/embed/Avweu5V9QRc"
     title="Coinbase + Zashi: Buy Zcash & Shield Instantly"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    kweeFullScreen
+    allowFullScreen
     loading="lazy"
   />
 </div>

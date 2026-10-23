@@ -14,8 +14,9 @@ Beiträge zum Newsletter funktionieren am besten, wenn ein Mitwirkender die Ausg
 
 Bevor du mit dem Schreiben beginnst:
 
-- Prüfe [ZEC Bounties ](https://bounties.zechub.wiki/) auf die aktuelle Newsletter-Aufgabe.
-- Warte auf deine Zuweisung
+- Prüfe [ZEC Bounties](https://bounties.zechub.wiki/) auf die aktuelle Newsletter-Aufgabe.
+- Warte auf deine Zuweisung.
+- Newsletter-Ausgaben fallen in das XS-Band der [Richtlinie zu Bounty-Beträgen](https://bounties.zechub.wiki/docs/bounty-amounts). Die ZEC-Angabe bei der aktuellen Bounty ist der Betrag, nicht eine ältere Überschrift in den Beitragsleitfäden.
 
 ![ss](/content-images/149a802c-b64f-4969-ad89-e83ffecf568e-d5d8387145.webp)
 

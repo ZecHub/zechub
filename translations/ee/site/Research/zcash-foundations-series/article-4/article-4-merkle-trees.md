@@ -135,13 +135,13 @@ Nuwɔwɔ bɔbɔewo, abe alesi wònɔna ɖaa ene. Merkle ati ŋutɔŋutɔ siwo dz
 
 | Nyagbe | Plain-Eŋlisigbe me gɔmesese |
 |---|---|
-| **Merkle ƒe ati** | Hashes ƒe ati aɖe; aŋgbawo nye data asibidɛwo, dzilawo hash wo viwo |
-| **Aŋgba** | Node si le ete; le Zcash me la, nuŋlɔɖi ɖeka ƒe ɖokuitsɔtsɔna |
-| **Merkle ƒe ke** | Asibidɛ ɖeka si le etame si ƒo ati bliboa nu ƒu kpuie |
-| **Dzesidemɔ / Merkle kpeɖodzi** | Nɔvi hashes siwo hiã be woatsɔ aɖo kpe edzi be aŋgba aɖe le ati |
-| **Markle ati si dzina ɖe edzi** | Merkle-ti si woate ŋu atsɔ akpe ɖe eŋu ko (agbawo koe wotsɔ kpena ɖe eŋu ɣesiaɣi) |
+| **Merkle tree** | Hashes ƒe ati aɖe; aŋgbawo nye data asibidɛwo, dzilawo hash wo viwo |
+| **Leaf** | Node si le ete; le Zcash me la, nuŋlɔɖi ɖeka ƒe ɖokuitsɔtsɔna |
+| **Merkle root** | Asibidɛ ɖeka si le etame si ƒo ati bliboa nu ƒu kpuie |
+| **Authentication path / Merkle proof** | Nɔvi hashes siwo hiã be woatsɔ aɖo kpe edzi be aŋgba aɖe le ati |
+| **Incremental Merkle tree** | Merkle-ti si woate ŋu atsɔ akpe ɖe eŋu ko (agbawo koe wotsɔ kpena ɖe eŋu ɣesiaɣi) |
 | **Anchor** | Merkle ke aɖe si a spend yɔ be "ati ƒe nɔnɔme si ŋu mele kpe ɖom edzi le" |
-| **Nullifier ƒe ɖoɖo** | Nusiwo wozã ƒe dzesiwo ƒe ƒuƒoƒo ɖe vovo si xea mɔ na gazazã zi eve |
+| **Nullifier set** | Nusiwo wozã ƒe dzesiwo ƒe ƒuƒoƒo ɖe vovo si xea mɔ na gazazã zi eve |
 
 ---
 

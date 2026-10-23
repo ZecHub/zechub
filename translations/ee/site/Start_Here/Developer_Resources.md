@@ -15,7 +15,7 @@ The stack changed a great deal in 2026. zcashd, si nɔ network la dzi kpɔm le e
 |:--|:--|:--|
 | Node blibo | Zebra alo Zakura | [Zebra ƒe Agbalẽa](https://zebra.zfnd.org/), [zakura.com dzi](https://zakura.com/) |
 | Blibo node gakotoku | Zallet, le beta me | [Zallet ƒe Agbalẽa](https://zcash.github.io/zallet/) |
-| Light wallet server | Zaino or lightwalletd | [Zaino](https://github.com/zingolabs/zaino), [lightwalletd](https://github.com/zcash/lightwalletd) |
+| Kekeli gakotoku ƒe dɔwɔƒe | Zaino alo lightwalletd | [Zaino](https://github.com/zingolabs/zaino), [lightwalletd](https://github.com/zcash/lightwalletd) |
 | Gakotoku ƒe agbalẽdzraɖoƒewo | librustzcash ƒe aɖakawo | [librustzcash](https://github.com/zcash/librustzcash) |
 | Asitelefon dzi | Android kple iOS SDKwo | [Android dzi](https://github.com/zcash/zcash-android-wallet-sdk), [iOS](https://github.com/zcash/zcash-swift-wallet-sdk) |
 | Nusiwo wogblɔ tso eŋu | Protocol spec kple ZIPwo | [zips.z.ga si wotsɔna xɔa gae](https://zips.z.cash) |
@@ -92,7 +92,7 @@ Ne ènye ame yeye le blockchains me le goawo katã me la, . [Bitcoin ƒe aɖaŋu
 
 ## Nutoa me kple wɔnawo
 
-The [Zcash Numekuku Kple Dɔwɔnawo ƒe Masɔmasɔ](https://discord.gg/6AK7keWFaK) nye afisi woƒo nu tso protocol kple gakotoku ƒe ŋgɔyiyi ŋu le, eye [Zcash Nutome Nyamedzroƒe](https://forum.zcashcommunity.com/) tsɔa aɖaŋuɖoɖo didiwo kple kpekpeɖeŋu kawo.
+The [Zcash Numekuku Kple Dɔwɔnawo Discord](https://discord.gg/6AK7keWFaK) nye afisi woƒo nu tso protocol kple gakotoku ƒe ŋgɔyiyi ŋu le, eye [Zcash Nutome Nyamedzroƒe](https://forum.zcashcommunity.com/) tsɔa aɖaŋuɖoɖo didiwo kple kpekpeɖeŋu kawo.
 
 Hackathon me tsonu siwo wowɔ nyitsɔ laa nye nusiwo amewo le tutum ƒe nɔnɔmetata nyui aɖe: [ZecHub ƒe 2024](https://x.com/ZecHub/status/1845212469809033489), [ZecHub ƒe 2025](https://x.com/ZecHub/status/1975565960661635283) kple... [Zypherpunk ƒe Hackathon ƒe 2025](https://forum.zcashcommunity.com/t/zypherpunk-hackathon-winners/53985).
 
@@ -100,7 +100,7 @@ Hackathon me tsonu siwo wowɔ nyitsɔ laa nye nusiwo amewo le tutum ƒe nɔnɔme
 
 Wodzrae ɖo elabena nyati xoxowo do ƒome kpli wo, eye elabena wogakpɔtɔ nye nufiame na alesi node si xɔ dzudzɔ le dɔme la wɔ nui. Mègadze egɔme tso afisia o.
 
-[Zcashd ƒe Agbalẽa](https://zcash.github.io/zcash/) kple... [zcashd RPC ƒe nufiame](https://zcash.github.io/rpc/) nuŋlɔɖi kɔmpiutadziɖoɖo si ɖo [agbe ƒe nuwuwu](https://zcash.github.io/zcash/user/end-of-life.html) le July 2026. Eƒe [zcash/zcash ƒe ga](https://github.com/zcash/zcash) nudzraɖoƒea le nudzraɖoƒe.
+[zcashd ƒe Agbalẽa](https://zcash.github.io/zcash/) kple... [zcashd RPC ƒe nufiame](https://zcash.github.io/rpc/) nuŋlɔɖi kɔmpiutadziɖoɖo si ɖo [agbe ƒe nuwuwu](https://zcash.github.io/zcash/user/end-of-life.html) le July 2026. Eƒe [zcash/zcash ƒe ga](https://github.com/zcash/zcash) nudzraɖoƒea le nudzraɖoƒe.
 
 Ne dɔwɔnu aɖe le asiwò nàtsɔ akpe ɖe eŋu, alo nèkpɔ nane le afisia si gblẽ la, ʋu nya aɖe alo hehe ƒe biabiawo. Menye ɣesiaɣie ŋutete nɔa ƒuƒoƒowo si be woana nusianu nanɔ yeye o, eye aflaga tsɔtsɔ de nusi nèdo goe kpena ɖe mɔfialawo ŋu wòfiaa mɔ wo.
 

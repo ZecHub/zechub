@@ -185,13 +185,13 @@ Ein paar Vereinfachungen haben das hier lesbar gehalten. Wir haben die **kurze W
 
 | Begriff | Bedeutung in einfachem Englisch |
 |---|---|
-| **Elliptische Kurve** | Punkte, die `y^2 = x^3 + ax + b` erfüllen, mit einer besonderen „Addition“ von Punkten |
-| **Punktaddition** | Die Sekanten-und-Tangenten-Regel: Linie durch zwei Punkte, den dritten Treffer nehmen, spiegeln |
-| **Punkt im Unendlichen (`O`)** | Die „Null“ der Kurve; sie zu addieren verändert nichts |
+| **Elliptic curve** | Punkte, die `y^2 = x^3 + ax + b` erfüllen, mit einer besonderen „Addition“ von Punkten |
+| **Point addition** | Die Sekanten-und-Tangenten-Regel: Linie durch zwei Punkte, den dritten Treffer nehmen, spiegeln |
+| **Point at infinity (`O`)** | Die „Null“ der Kurve; sie zu addieren verändert nichts |
 | **Generator (`G`)** | Ein Basispunkt, dessen Vielfache schließlich die ganze Gruppe abdecken |
-| **Skalarmultiplikation (`kG`)** | `G` zu sich selbst `k`-mal addieren; vorwärts leicht, rückwärts schwer |
+| **Scalar multiplication (`kG`)** | `G` zu sich selbst `k`-mal addieren; vorwärts leicht, rückwärts schwer |
 | **ECDLP** | Das schwere Problem, `k` aus `kG` zu rekonstruieren; das Sicherheitsfundament |
-| **Pedersen-Commitment** | `v.G + r.H`; ein versiegelter Umschlag, der verbirgt, bindet und sich addieren lässt |
+| **Pedersen commitment** | `v.G + r.H`; ein versiegelter Umschlag, der verbirgt, bindet und sich addieren lässt |
 
 ---
 

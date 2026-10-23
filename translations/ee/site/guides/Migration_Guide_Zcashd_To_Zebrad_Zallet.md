@@ -141,7 +141,7 @@ zallet migrate-zcashd-wallet --zcashd-datadir /path/to/zcashd/datadir
 
 **Nusi meva dze o.** Wotsɔa xexlẽdzesiwo ka nya ta le esiawo ŋu tsɔ wu be woatsɔ wo tso duta vɛ:
 
-* **Sprout gazazã ƒe safuiwo kple ga.** Zallet medoa alɔ Sprout ƒe ta o. Mɔ si woŋlɔ ɖi enye be woaɖe Sprout ƒe ga ado goe to zcashd zazã me hafi axɔ dzudzɔ le dɔ me, eye ema megate ŋu dzɔna o. Ne esia kpɔ ŋusẽ ɖe dziwò la, bia le... [Zcash Numekuku Kple Dɔwɔnawo ƒe Masɔmasɔ](https://discord.gg/xpzPR53xtU) alo be [nutoa me ƒe nyamedzroƒe](https://forum.zcashcommunity.com/) hafi awɔ nu bubu aɖe.
+* **Sprout gazazã ƒe safuiwo kple ga.** Zallet medoa alɔ Sprout ƒe ta o. Mɔ si woŋlɔ ɖi enye be woaɖe Sprout ƒe ga ado goe to zcashd zazã me hafi axɔ dzudzɔ le dɔ me, eye ema megate ŋu dzɔna o. Ne esia kpɔ ŋusẽ ɖe dziwò la, bia le... [Zcash Numekuku Kple Dɔwɔnawo Discord](https://discord.gg/xpzPR53xtU) alo be [nutoa me ƒe nyamedzroƒe](https://forum.zcashcommunity.com/) hafi awɔ nu bubu aɖe.
 * Adrɛsgbalẽa me nyawo
 * Watch-only nuŋɔŋlɔ siwo wodzra ɖo dutoƒo safui alo redeem script manɔmee, kple nya siwo me dutoƒo safui siwo womeƒo o
 * Regtest gakotokuwo kpɔ

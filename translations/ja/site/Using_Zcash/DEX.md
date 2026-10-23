@@ -9,11 +9,11 @@ ZecHubは特定の分散型取引所サービスを推奨していません。�
 以下の各`###`見出しは、https://zechub.wiki/dex.上の1つのカードです。
 ここでブロックを追加、編集、または削除すると、wikiがこのファイルから読み取ります。
 
-### Near-intents
+### NEAR Intents
 
-<img src="/nearintents.png" alt="Near-intents" width="200" height="100"/>
+<img src="/nearintents.png" alt="NEAR Intents" width="200" height="100"/>
 
-- ウェブサイト: https://app.near-intents.org/
+- ウェブサイト: https://near.com/
 - 説明: NEARの支援による高速な取引所。入金、売却、スワップが可能で、人気のTRUMP、MELANIA、BERAなどのミームも含まれます
 
 ___
@@ -67,7 +67,7 @@ ___
 
 <img src="/routerProtocolLogo.png" alt="Router Protocol" width="200" height="100"/>
 
-- ウェブサイト: https://app.routerprotocol.com/
+- ウェブサイト: https://www.routerprotocol.com/
 - 説明: 複数のブロックチェーン間でシームレスな資産およびデータ転送を可能にするクロスチェーン流動性輸送レイヤー。
 
 ___
@@ -105,3 +105,12 @@ ___
 
 - ウェブサイト: https://loofta.xyz/
 - 説明: 非カストディアル型のプライベート決済・スワッププラットフォーム。金融プライバシーを強化する決済レイヤーとしてZcashを利用し、チェーンをまたいで暗号資産をプライベートに送受信できます。
+
+___
+
+### ZcashToCash
+
+<img width="1774" height="887" alt="ChatGPT Image Sep 22, 2026, 08_27_53 PM" src="/content-images/3f7aa1a6-3646-442b-8f66-1ef8988051ba-3ddc295461.webp" />
+
+- ウェブサイト：https://zcashto.cash/
+- 説明：Peerを介したノンカストディアルなZECから法定通貨への換金。シールドされたZECを送信すると、Venmo、Cash App、Revolut、Zelle、Chime、Monzoなどの日常的な決済アプリで、100以上の地域にわたり支払いを受け取れます。CEXアカウントは不要で、法定通貨の支払い証明後にエスクローが完了します。

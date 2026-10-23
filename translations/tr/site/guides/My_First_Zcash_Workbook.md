@@ -8,11 +8,9 @@
 
 Bu rehber, çalışma kitabının temel öğrenme akışına genel bir bakış sunar ve dokuz ana bölüme ayrılır. Kitabın kendisinin yerine geçmez; aksine, eğitsel akışı özetleyen ve eğitmenler, öğrenciler ve topluluk eğitimcileri için önemli bilgileri öne çıkaran tamamlayıcı bir kaynaktır.
 
-Çalışma kitabı PDF olarak ya da etkileşimli bir flipbook olarak ücretsiz indirilebilir:
+Çalışma kitabı PDF olarak ücretsiz indirilebilir:
 
 [Taslak](https://drive.google.com/file/d/1eYWLgvAAHzCpr2b7bZ494FTZAtHqmtRk/view)
-
-[Flipbook](https://midd.me/nbp2)
 
 [GitHub Deposu](https://github.com/massadoptionorg/My-First-Zcash) 
 
@@ -147,12 +145,12 @@ Bu profiller, okurlara Zcash'in dünyanın dört bir yanından mühendisler, tas
 
 Son bölüm, okurları Zcash ekosisteminin bir parçası olmaya davet eder. Fırsatlar arasında şunlar yer alır:
 
-- Zcash Global Discord'a katılmak  
+- Zcash Küresel Discord'a katılmak  
 - Topluluk görüşmelerine ve çalışma gruplarına katılmak  
 - Gelecekteki çalışma kitabı çevirilerine katkıda bulunmak  
 - Açık kaynak eğitimi desteklemek  
-- İçerik, kod katkıları, sanat çalışmaları veya geri bildirim üretmek  
-- Zcash topluluk hibelerini keşfetmek  
+- İçerik, kod katkıları, sanat eseri veya geri bildirim oluşturmak  
+- Zcash Community Grants'yi keşfetmek
 
 Mesaj açıktır: herkes katılabilir ve topluluk, her geçmişten ve her beceri seviyesinden katkıcıyı memnuniyetle karşılar.
 

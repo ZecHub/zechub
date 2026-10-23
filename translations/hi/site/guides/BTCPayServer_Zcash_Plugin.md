@@ -442,8 +442,8 @@ export BTCPAYGEN_ADDITIONAL_FRAGMENTS="$BTCPAYGEN_ADDITIONAL_FRAGMENTS;zcash-lig
 
 आप उपयोग कर सकते हैं:
 
-* कोई **public node**, जैसे `https://lightwalletd.zcash-infra.com`
-* आपका अपना self-hosted node, जो BTCPay Server से अलग deploy किया गया हो
+* एक **सार्वजनिक नोड**, जैसे `https://zec.rocks:443`
+* आपका अपना self-hosted नोड, जो BTCPay Server से अलग deploy किया गया हो
 
 > यदि external `lightwalletd` अनुपलब्ध हो जाए या overloaded हो जाए, तो shielded payments विफल हो जाएँगी।
 > महत्वपूर्ण services के लिए **स्थिर और भरोसेमंद endpoint** चुनें (जैसे default `zec.rocks`)।
@@ -477,11 +477,28 @@ BTCPay Server आपकी custom config apply करेगा और निर�
 ### चरण 1: Cloudflare Tunnel install करें
 
 1. [cloudflare.com](https://www.cloudflare.com) पर एक account बनाएँ और अपना domain जोड़ें।
-2. अपने **home server** पर Cloudflare Tunnel install करें:
+2. अपने **home server** पर Cloudflare के आधिकारिक package repository का उपयोग करके Cloudflare Tunnel install करें:
 
-```
+```bash
+sudo mkdir -p --mode=0755 /usr/share/keyrings
+curl -fsSL https://pkg.cloudflare.com/cloudflare-main.gpg | sudo tee /usr/share/keyrings/cloudflare-main.gpg >/dev/null
+echo "deb [signed-by=/usr/share/keyrings/cloudflare-main.gpg] https://pkg.cloudflare.com/cloudflared any main" | sudo tee /etc/apt/sources.list.d/cloudflared.list
 sudo apt update
-sudo apt install cloudflared --legacy
+sudo apt install cloudflared
+```
+
+यदि `apt install cloudflared` विफल हो जाए, तो इसके बजाय संबंधित `.deb` इंस्टॉल करें:
+
+```bash
+# Raspberry Pi / ARM64
+curl -L --output cloudflared.deb https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-arm64.deb
+sudo dpkg -i cloudflared.deb
+```
+
+```bash
+# x86_64
+curl -L --output cloudflared.deb https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-amd64.deb
+sudo dpkg -i cloudflared.deb
 ```
 
 3. Cloudflare के साथ authenticate करें:

@@ -7,7 +7,7 @@
 ## In sintesi
 
 - **ZEC** è una valuta digitale orientata alla privacy, costruita sulla blockchain di Zcash
-- A differenza di Bitcoin, ZEC supporta transazioni completamente **Shielded (private)** tramite prove a conoscenza zero
+- A differenza di Bitcoin, ZEC supporta transazioni completamente **schermate (private)** tramite prove a conoscenza zero
 - Hai il controllo della tua privacy finanziaria: scegli cosa rivelare e a chi
 - Zcash è open-source, senza permessi e decentralizzata
 
@@ -30,7 +30,7 @@ ZEC offre alle persone la possibilità di trasferire dati senza bisogno di autor
 
 [Il caso di Zcash e la privacy](https://www.zcashzeal.org/blog/the-case-for-zcash-amp-privacy)
 
-[Un ecosistema Shielded](https://electriccoin.co/blog/shielded-ecosystem/)
+[Un ecosistema schermato](https://web.archive.org/web/20260903010654/https://electriccoin.co/blog/shielded-ecosystem/)
 
 [Raccomandazioni sulla privacy di Zcash](https://z.cash/support/security/privacy-security-recommendations/)
 
@@ -52,14 +52,12 @@ Zcash risolve il principale difetto di Bitcoin: la proprietà privata e il trasf
 
 [Come funziona](https://z.cash/technology/)
 
-[L'HTTPS delle blockchain](https://nakamoto.com/zcash-the-https-of-blockchains/)
-
 ---
 
 ## Pagine correlate
 
-- [Guida per i nuovi utenti](/start-here/new-user-guide) — Introduzione passo dopo passo per i nuovi possessori di ZEC
-- [Wallet](/using-zcash/wallets) — Scegli un wallet Shielded per custodire il tuo ZEC
-- [Acquistare ZEC](/using-zcash/buying-zec) — Dove e come acquistare ZEC
-- [Pool Shielded](/using-zcash/shielded-pools) — Come i pool di Zcash mantengono private le transazioni
-- [ZK-SNARKs](/zcash-tech/zk-snarks) — La crittografia alla base della privacy di Zcash
+- [Guida per nuovi utenti](/start-here/new-user-guide) — Introduzione passo dopo passo per i nuovi possessori di ZEC
+- [Portafogli](/using-zcash/wallets) — Scegli un portafoglio schermato per conservare i tuoi ZEC
+- [Acquistare ZEC](/using-zcash/buying-zec) — Dove e come acquisire ZEC
+- [Pool schermate](/using-zcash/shielded-pools) — Come le pool di Zcash mantengono private le transazioni
+- [zk-SNARKs](/zcash-tech/zk-snarks) — La crittografia alla base della privacy di Zcash

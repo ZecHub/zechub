@@ -56,7 +56,7 @@ ZecHub, "Zero to Zero Knowledge" 튜토리얼 세션을 통해 블록체인 개�
 
 [Sideshift.ai 지갑 통합](https://forum.zcashcommunity.com/t/sideshift-ai-wallet-integration/44615?utm_source=dlvr.it&utm_medium=twitter)
 
-[Zingo랩스는 Zingo월렛에 흥미로 기능을 추가했습니다](https://free2z.cash/zingolabs/zpage/zingo-wallet-1-2-122)
+Zingo랩스는 Zingo월렛에 흥미로 기능을 추가했습니다
 
 [e-zec mod Zcash 브라질 폰 기부](https://twitter.com/ezecZshield/status/1655953913714212864?t=z8BWmUuQnG74-kkl5Oyb3w&s=19)
 

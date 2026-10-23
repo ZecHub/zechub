@@ -21,13 +21,13 @@ Il en découle deux choses :
 1. Les blocs arrivent environ deux fois plus souvent, donc la chaîne peut transporter approximativement deux fois plus de transactions par unité de temps.
 2. Votre transaction reçoit sa première confirmation plus tôt, car vous n’attendez pas aussi longtemps le bloc suivant.
 
-![Avant Blossom, l’objectif de bloc était de 150 secondes, avec des confirmations plus lentes et un débit plus faible. Après Blossom, l’objectif est de 75 secondes, avec des confirmations plus rapides et un débit approximativement doublé](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/blossom-block-spacing.png)
+![Avant Blossom, l’objectif de bloc était de 150 secondes, avec des confirmations plus lentes et un débit plus faible. Après Blossom, l’objectif est de 75 secondes, avec des confirmations plus rapides et un débit approximativement doublé](/content-images/blossom-block-spacing-50b6bfbacc.webp)
 
 ## Maintenir l’émission stable
 
 Des blocs plus rapides soulèvent une question. Si Zcash produisait deux fois plus de blocs et que chaque bloc versait toujours la même récompense, le réseau créerait des ZEC deux fois plus vite. Blossom évite cela. Elle a réduit de moitié la récompense versée par bloc, et elle a doublé l’intervalle de réduction de moitié de la récompense de bloc, le faisant passer de 840 000 à 1 680 000 blocs ([ZIP 208](https://zips.z.cash/zip-0208)). Deux fois plus de blocs, chacun versant deux fois moins, reviennent à créer la même quantité de ZEC par unité de temps. Le calendrier de l’offre totale et le moment des futures réductions de moitié, mesurés en temps réel, n’ont pas changé.
 
-![Comment Blossom maintient l’émission stable : les blocs de 75 secondes arrivent deux fois plus souvent, la récompense par bloc est divisée par deux, l’intervalle de réduction de moitié est doublé, donc l’émission totale au fil du temps reste la même](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/blossom-emission-balance.png)
+![Comment Blossom maintient l’émission stable : les blocs de 75 secondes arrivent deux fois plus souvent, la récompense par bloc est divisée par deux, l’intervalle de réduction de moitié est doublé, donc l’émission totale au fil du temps reste la même](/content-images/blossom-emission-balance-f2443e29ab.webp)
 
 ## Une mise à niveau obligatoire
 
@@ -41,12 +41,12 @@ Blossom était la troisième mise à niveau du réseau de Zcash. Elle a suivi Ov
 
 | Terme | Signification en langage simple |
 |---|---|
-| Espacement cible des blocs | Le temps que le réseau vise entre un bloc et le suivant |
-| Récompense de bloc | Les nouveaux ZEC créés et versés à mesure que chaque bloc est miné |
-| Intervalle de réduction de moitié | Le nombre de blocs qui s’écoulent entre chaque réduction de moitié de la récompense de bloc |
-| Identifiant de branche de consensus | Une étiquette qui indique quel ensemble de règles du réseau un nœud ou une transaction suit |
-| Changement bilatéral du consensus | Un changement de règle que chaque nœud doit adopter pour rester sur le réseau |
-| Mise à niveau du réseau (NU) | Un changement coordonné des règles de consensus de Zcash, activé à une hauteur de bloc définie |
+| Block target spacing | Le temps que le réseau vise entre un bloc et le suivant |
+| Block reward | Les nouveaux ZEC créés et versés à mesure que chaque bloc est miné |
+| Halving interval | Le nombre de blocs qui s’écoulent entre chaque réduction de moitié de la récompense de bloc |
+| Consensus branch id | Une étiquette qui indique quel ensemble de règles du réseau un nœud ou une transaction suit |
+| Bilateral consensus change | Un changement de règle que chaque nœud doit adopter pour rester sur le réseau |
+| Network upgrade (NU) | Un changement coordonné des règles de consensus de Zcash, activé à une hauteur de bloc définie |
 
 ## FAQ
 

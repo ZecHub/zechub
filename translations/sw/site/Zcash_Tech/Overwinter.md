@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Kuishi kwa majira ya baridi kali
+# Overwinter
 
 > Overwinter alienda kuishi juu ya Zcash mainnet katika block 347,500 (Juni 26, 2018 UTC).
 
@@ -12,7 +12,7 @@ Overwinter ni Zcash [kuboresha mtandao](../start-here/network-upgrades), ya kwan
 
 Why this matters. Changing the rules of a live blockchain is dangerous. Get it wrong and two versions of the network can disagree, or a transaction meant for one chain can be copied onto another. Before Overwinter, Zcash had no standard, replay-safe way to coordinate a rule change. Overwinter fixed that. It gave Zcash a formal process for upgrades and, just as important, two-way replay protection, so a transaction that is valid under one set of rules cannot be replayed under another. That groundwork is what made Sapling, and every upgrade after it, possible to activate cleanly.
 
-![Before and after Overwinter: before, no standard upgrade path and no replay protection. After, a network upgrade mechanism with two-way replay protection and safe future upgrades](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/overwinter-before-after.png)
+![Before and after Overwinter: before, no standard upgrade path and no replay protection. After, a network upgrade mechanism with two-way replay protection and safe future upgrades](/content-images/overwinter-before-after-acf4f5d283.webp)
 
 ## Utaratibu wa kuboresha
 
@@ -28,7 +28,7 @@ Replay ni wakati mtu inachukua shughuli ambayo ilikuwa halali juu ya mlolongo mm
 
 Hii kazi mkono kwa mkono na toleo jipya 3 shughuli format kutoka [ZIP 202 - Ujumbe wa posta.](https://zips.z.cash/zip-0202), wakati mwingine huitwa Overwintered format. Inaongeza fOverwintered bendera na toleo kundi id ambayo kufanya wazi ni seti ya makubaliano sheria shughuli anamilikiwa kwa. Kama faida upande, mpango mpya saini pia kuboreshwa jinsi haraka manunuzi uwazi ni kuthibitishwa.
 
-![How replay protection works: a wallet signs a transaction that commits to the current consensus branch id, so the transaction cannot be replayed on any other branch](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/overwinter-replay-flow.png)
+![How replay protection works: a wallet signs a transaction that commits to the current consensus branch id, so the transaction cannot be replayed on any other branch](/content-images/overwinter-replay-flow-754ec8578a.webp)
 
 ## Mpango wa kumalizika muda wake
 
@@ -38,18 +38,18 @@ Hii kazi mkono kwa mkono na toleo jipya 3 shughuli format kutoka [ZIP 202 - Ujum
 
 Overwinter ilikuwa ya kwanza Zcash mtandao kuboresha baada ya Oktoba 2016 mainnet uzinduzi, na ni kusafirishwa makusudi mbele Sapling. kazi yake alikuwa miundombinu, si makala. Kwa kufunga upgrading utaratibu na mashine replay-ulinzi wa kwanza, alitoa kila baadaye kuongeza (Sapling, Blossom, Heartwood, Canopy, NU5, na wale baada) njia salama kuamsha.
 
-![Timeline from the October 2016 Sprout launch, through the 2016 to 2018 stretch with no upgrade framework, to Overwinter in June 2018](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/overwinter-timeline.png)
+![Timeline from the October 2016 Sprout launch, through the 2016 to 2018 stretch with no upgrade framework, to Overwinter in June 2018](/content-images/overwinter-timeline-689d9bcf20.webp)
 
 ## Orodha ya maneno
 
-Neno la Kiingereza lisilo na maana.
+| Muhula | Maana ya Kiingereza cha kawaida |
 |---|---|
- Network Upgrade (NU)  mabadiliko uratibu kwa Zcash ya makubaliano sheria, ulioamilishwa katika block kuweka urefu.
-◯ Id ya tawi la makubaliano. Kitambulisho kifupi ambacho kinaita seti ya sasa ya sheria za makubaliani.
-│Kiwango cha uanzishaji.‬️ Kiwango ambacho sheria mpya za uboreshaji wa mtandao huanza kutumika.‬
-│ Ulinzi wa kurudia.‬ Kanuni ambayo huzuia shughuli halali kwenye mlolongo mmoja kutumiwa tena katika mwingine.‬
-Mempool. Hifadhi ya shughuli ambazo zimetangazwa lakini bado kuchimbwa katika block.
-☐ Transaction expiry. A mwisho block urefu baada ya ambayo unmined shughuli ni imeshuka.
+| Network upgrade (NU) | Mabadiliko yaliyoratibiwa kwa sheria za makubaliano Zcash's, yaliyoamilishwa kwa urefu wa block uliowekwa |
+| Consensus branch id | Kitambulisho kifupi kinachotaja seti ya sasa ya sheria za makubaliano |
+| Activation height | Kizuizi ambacho sheria mpya za uboreshaji wa mtandao huanza kutumika |
+| Replay protection | Sheria inayozuia muamala halali kwenye mnyororo mmoja kutumiwa tena kwenye mwingine |
+| Mempool | Dimbwi la miamala ambayo imetangazwa lakini bado haijachimbwa kwenye kizuizi |
+| Transaction expiry | Urefu wa kizuizi cha kumalizika muda ambao baada ya muamala ambao haujachimbwa hupunguzwa |
 
 ## FAQs
 
@@ -105,4 +105,4 @@ Kwa sababu ilijenga mashine ambayo kila upgrades baadaye inategemea. Overwinter 
 
 ---
 
-Mfululizo: [Kiwango cha Upgrades Network](../start-here/network-upgrades) · Zamani: [Mchanga](../zcash-tech/sprout) · Kisha: [Sapling](../zcash-tech/sapling)
+Mfululizo: [Kiwango cha Upgrades Network](../start-here/network-upgrades) · Zamani: [Sprout](../zcash-tech/sprout) · Kisha: [Sapling](../zcash-tech/sapling)

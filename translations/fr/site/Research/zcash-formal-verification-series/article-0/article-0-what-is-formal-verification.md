@@ -137,14 +137,14 @@ Pour préserver la lisibilité, nous avons simplifié. Les vraies spécification
 
 | Terme | Signification en langage courant |
 |---|---|
-| **Vérification formelle** | Prouver mathématiquement qu’un système satisfait une spécification dans tous les cas |
-| **Spécification** | Une énonciation précise de ce que signifie un « comportement correct » |
-| **Système** | Le programme, circuit ou protocole concret qui est vérifié |
-| **Preuve** | Une chaîne finie d’étapes logiques établissant une affirmation pour tous les cas |
-| **Assistant de preuve / démonstrateur de théorèmes** | Logiciel (Lean, Rocq, Isabelle) qui vérifie chaque étape d’une preuve |
-| **Vérifié par machine** | Vérifié étape par étape par un ordinateur, et non seulement par une lecture humaine |
-| **Récurrence** | Technique de preuve : vraie au départ, puis chaque étape l’étend à la suivante |
-| **Hypothèse** | Condition dont dépend la preuve ; si elle est fausse, la garantie peut ne pas tenir |
+| **Formal verification** | Prouver mathématiquement qu’un système satisfait une spécification dans tous les cas |
+| **Specification** | Une énonciation précise de ce que signifie un « comportement correct » |
+| **System** | Le programme, circuit ou protocole concret qui est vérifié |
+| **Proof** | Une chaîne finie d’étapes logiques établissant une affirmation pour tous les cas |
+| **Proof assistant / theorem prover** | Logiciel (Lean, Rocq, Isabelle) qui vérifie chaque étape d’une preuve |
+| **Machine-checked** | Vérifié étape par étape par un ordinateur, et non seulement par une lecture humaine |
+| **Induction** | Technique de preuve : vraie au départ, puis chaque étape l’étend à la suivante |
+| **Assumption** | Condition dont dépend la preuve ; si elle est fausse, la garantie peut ne pas tenir |
 
 ---
 

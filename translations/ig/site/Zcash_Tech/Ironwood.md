@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Osisi ígwè
+# Ironwood
 
 > Ironwood arụ ọrụ na Zcash mainnet na ngọngọ 3,428,143 na July 28, 2026 UTC, ọ nọkwa ndụ kemgbe.
 
@@ -14,7 +14,7 @@ Why this matters. With transparent money like Bitcoin, anyone can check that no 
 
 Ọhụrụ na Zcash? Bido site n'ịmalite. [Gịnị bụ ZEC na Zcash?](../start-here/what-is-zec-and-zcash) na nke a: [Ọdọ Mmiri Ndị E Chebere Echiche Ha Na Ya](../using-zcash/shielded-pools), mgbe ahụ, laghachi ebe a.
 
-![Ironwood value migration flow: value leaves the Orchard pool, passes through the turnstile checkpoint, and enters the new Ironwood pool](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/ironwood-flow.png)
+![Ironwood value migration flow: value leaves the Orchard pool, passes through the turnstile checkpoint, and enters the new Ironwood pool](/content-images/ironwood-flow-8af7a58b99.webp)
 
 ## Ihe Mere Osisi Ironwood Ji Dị Mkpa
 
@@ -24,7 +24,7 @@ Na ngwụcha ọnwa Mee 2026, onye nyocha nchekwa onwe ya Taylor Hornby, n'oge n
 2. Na usoro iwu, onye na-awakpo nwere ike iji ntụpọ ahụ mepụta uru adịghị mma n'ime ọdọ mmiri Orchard ma jiri ego ndị na - abụghị nke ha mee ihe, hapụ enweghị akara ọ bụla node nkịtị ga - ejide.
 3. Zcash's turnstile ka na-emebi ego ole uru nwere ike ịhapụ Orchard, yabụ enweghị ike ịgbagha ngụkọta ahụ, mana cryptography nke ọdọ mmiri anaghịzi ekwe nkwa na mkpụrụ ego ọ bụla zoro ezo n'ime ya bụ ezigbo.
 
-![The bug explained: a transaction puts in 5 ZEC, but the flawed proof still passes when 7 ZEC come out, creating 2 ZEC from nothing](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/ironwood-bug.png)
+![The bug explained: a transaction puts in 5 ZEC, but the flawed proof still passes when 7 ZEC come out, creating 2 ZEC from nothing](/content-images/ironwood-bug-8f689d6f61.webp)
 
 The numbers above are a simplified picture. The real flaw was in a specific piece of the circuit's math, not a literal count of coins going in and out. The point to take away is only that a soundness bug can let value be created inside the pool without detection.
 
@@ -34,13 +34,13 @@ Importantly, there is no evidence the bug was ever exploited, no evidence of imp
 
 Ndị obodo Zcash zigara ndozi na nkebi kama ịbụ otu oge.
 
-![Ironwood response timeline: the Orchard bug is found in May 2026, the pool is paused in June 2026, the circuit is fixed in NU6.2, and Ironwood activated at block 3,428,143 on July 28, 2026](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/ironwood-timeline.png)
+![Ironwood response timeline: the Orchard bug is found in May 2026, the pool is paused in June 2026, the circuit is fixed in NU6.2, and Ironwood activated at block 3,428,143 on July 28, 2026](/content-images/ironwood-timeline-36243f0cd7.webp)
 
 1. Na mbido June 2026, ihe na-adịru nwa oge gbanyụrụ ọdọ mmiri Orchard ka a kwadebere idozi ya.
 2. Nwelite NU6.2 doziri usoro Orchard n'onwe ya, na-emechi nsogbu ahụ dị mkpa.
 3. Nwelite NU6.3, Ironwood, na-ewebata ọdọ mmiri ọhụrụ a kpuchiri ekpuchi yana ebe nlele ọha ka uru ahụ wee pụọ na olulu ochie Orchard n'okpuru nyocha zuru oke.
 
-![The fix in NU6.2: the corrected proof requires inputs to equal outputs, so a valid 5 ZEC output passes while an attempt to output 7 ZEC is rejected](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/ironwood-fix.png)
+![The fix in NU6.2: the corrected proof requires inputs to equal outputs, so a valid 5 ZEC output passes while an attempt to output 7 ZEC is rejected](/content-images/ironwood-fix-bb4f70ddc9.webp)
 
 ## Ihe ọdọ mmiri Ironwood na-eme
 
@@ -72,14 +72,14 @@ Wallets and node software handle most of this automatically, but the practical s
 
 ## Akwụkwọ ọkọwa okwu
 
-Okwu. N'asụsụ Bekee nkịtị pụtara:
+| Oge okwu | Nkọwa Bekee dị mfe |
 |---|---|
-❖ Ebe a na-edebe ego ndị e zoro ezo. A naghị eji ihe ọ bụla amata onye nwe ha ma ọ bụ otú o si dịrị ya.
-◯ Nrụpụta nke ezi uche. Njehie na-eme ka azụmahịa adịghị mma gafere nyocha nkwenye dị ka a ga - asị na ọ bụ ezigbo ya.
-◯ Turnstile ❑ Ebe a na-enyocha ihe n'ihu ọha nke na-agụpụta ego ndị e bufeere ha ka ọ bụrụzie onye ga-ahụ maka ya.
--Naanị-emefu: A ọdọ mmiri ị nwere ike imefu si, ma enweghị ike tinye ọhụrụ uru na...
-◯ Nwelite netwọk (NU) ▸ Mgbanwe a haziri ahazi na iwu nkwekọrịta Zcash, nke arụ ọrụ n'ogo ngọngọ setịpụrụ.
- Quantum-recoverable note. Ụdị akwụkwọ ego e mere ka a na-enweta ego ma ọ bụrụ na kọmputa kọmpụta mebie ihe ndị dị n'akwụkwọ nzuzo taa.
+| Shielded pool | Nchịkọta ego nke ego na ndị nwe ya zoro ezo site na nzuzo efu |
+| Soundness bug | Njehie nke na-ekwe ka azụmahịa na-ezighi ezi gafere nyocha akaebe dị ka a ga-asị na ọ dị irè |
+| Turnstile | Ebe nlele ọha nke na-agụta uru na-agagharị n'etiti ọdọ mmiri ka ọkọnọ ahụ wee nọgide na-enyocha ya |
+| Spend-only | Ọdọ mmiri ị nwere ike iji, mana ị gaghị etinye uru ọhụrụ na ya |
+| Network upgrade (NU) | Mgbanwe nhazi na iwu nkwekọrịta Zcash's, nke a na-arụ ọrụ na elu blọk edobere |
+| Quantum-recoverable note | E mere usoro ndetu ka e wee nweta ego ma ọ bụrụ na kọmputa quantum emebie ihe ndekọ ego nke oge a |
 
 ## Ajụjụ ndị a na-ajụkarị
 
@@ -121,7 +121,7 @@ Site na turnstile. A na-agụta mkpụrụ ego ọ bụla nke si n'ọdọ mmiri
 
 [Halo](../zcash-tech/halo)
 
-[zk-SNARKS](../zcash-tech/zk-snarks)
+[zk-SNARKs](../zcash-tech/zk-snarks)
 
 [Nchebe nke Post Quantum](../zcash-tech/post-quantum-security)
 

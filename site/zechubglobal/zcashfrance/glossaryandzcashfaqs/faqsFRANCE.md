@@ -33,7 +33,7 @@ Les décisions du processus ZIP sont écrites dans la spécification Zcash, ains
 
 ## Où est ma transaction ?
 
-Lisez d'abord [notre article](https://zechub.notion.site/Zcash-Blockchain-Explorer-4b4d970cb53e474989932c6e1a78b629) sur les explorateurs de blocs. Vérifiez ensuite avec [Zcash block explorer](https://zcashblockexplorer.com) en notant que toutes les transactions expirent par défaut après environ 25 minutes/20 blocs et que les fonds sont renvoyés à l'adresse d'envoi d'origine.
+Lisez d'abord [notre article](https://zechub.notion.site/Zcash-Blockchain-Explorer-4b4d970cb53e474989932c6e1a78b629) sur les explorateurs de blocs. Vérifiez ensuite avec [Zcash block explorer](https://mainnet.zcashexplorer.app) en notant que toutes les transactions expirent par défaut après environ 25 minutes/20 blocs et que les fonds sont renvoyés à l'adresse d'envoi d'origine.
 
 Si votre transaction expire, la meilleure chose à faire est de réessayer votre transaction avec quelques modifications possibles.
 
@@ -66,7 +66,7 @@ Oui, Zcash permet une confidentialité totale pour les utilisateurs en chiffrant
 
 Zcash ne crypte pas les données pour les transactions multisignatures (en attendant l'intégration de FROST) ou ne protège pas contre les corrélations faites avec les transactions publiques *transparentes* (par exemple, lorsque Zcash est échangé vers/depuis une autre crypto-monnaie) et ne masque pas non plus les adresses IP.
 
-Pour en savoir plus, cliquez ici : [Un écosystème protégé](https://electriccoin.co/blog/shielded-ecosystem)
+Pour en savoir plus, cliquez ici : [Un écosystème protégé](https://web.archive.org/web/20260903010654/https://electriccoin.co/blog/shielded-ecosystem/)
 
 ___
 

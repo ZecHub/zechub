@@ -23,10 +23,10 @@ Gli sviluppatori che creano portafogli, exchange, software di mining o strumenti
 - Invio e ricezione di transazioni
 - Mining di nuovi blocchi con monete TAZ a valore zero
 - Creazione di interfacce utente e API
-- Testare le caratteristiche di privacy delle transazioni (Transparent vs Shielded)
+- Testare le caratteristiche di privacy delle transazioni (trasparenti vs schermate)
 
 **Esempio:**
-Strumenti come [`zcash_tx_tool`](https://github.com/QED-it/zcash_tx_tool) utilizzano Testnet per generare transazioni e testare le funzionalità di Zcash shielded.  
+Strumenti come [`zcash_tx_tool`](https://github.com/QED-it/zcash_tx_tool) utilizzano Testnet per generare transazioni e testare le funzionalità degli asset schermati di Zcash.  
 
 **Scenario del mondo reale
 Lo sviluppatore di un portafoglio può collegare il software a un endpoint RPC di Testnet e simulare l'intero ciclo di vita - creazione di indirizzi, invio di transazioni schermate e convalida dei saldi - prima di andare in onda su Mainnet.
@@ -40,7 +40,7 @@ Una nuova regola di consenso o un nuovo tipo di transazione vengono prima inviat
 
 #### 3. Test delle implementazioni dei nodi
 
-Il nodo Zcash mantenuto è **Zebra** (il nodo basato su Rust mantenuto dalla Zcash Foundation) e il wallet mantenuto è [Zallet](https://github.com/zcash/zallet). `zcashd`, l'implementazione del nodo originale, ha raggiunto il suo arresto automatico di fine supporto il 18 luglio 2026 e non è più mantenuto - vedi la [guida alla migrazione da zcashd a Zebra e Zallet](https://zechub.wiki/guides/migration-guide-zcashd-to-zebrad-zallet). Il testnet consente di testare i nodi in condizioni reali senza rischi finanziari.
+Il nodo mantenuto di Zcash è **Zebra** (il nodo basato su Rust mantenuto dalla Zcash Foundation) e il portafoglio mantenuto è [Zallet](https://github.com/zcash/zallet). `zcashd`, l'implementazione del nodo originale, ha raggiunto il suo arresto automatico di fine supporto il 18 luglio 2026 e non è più mantenuto - vedi la [guida alla migrazione da zcashd a Zebra e Zallet](https://zechub.wiki/guides/migration-guide-zcashd-to-zebrad-zallet). Testnet consente di testare i nodi in condizioni reali senza rischi finanziari.
 
 Gli sviluppatori di nodi possono:
 
@@ -51,7 +51,7 @@ Gli sviluppatori di nodi possono:
 
 #### 4. Apprendimento e formazione
 
-I principianti possono imparare le funzioni di Zcash come il mining, la creazione di transazioni Shielded e l'uso degli Unified Address.  
+I principianti possono imparare le funzioni di Zcash come il mining, la creazione di transazioni schermate e l'uso degli indirizzi unificati.  
 I tutorial e la documentazione della comunità forniscono l'accesso a **Testnet faucet, explorer e guide**.
 
 
@@ -61,7 +61,7 @@ I tutorial e la documentazione della comunità forniscono l'accesso a **Testnet 
 
 - Connettersi a Zcash Testnet
 - Richiedi TAZ da un faucet
-- Inviare transazioni Shielded
+- Inviare transazioni schermate
 - Verifica la privacy e la stabilità dell'interfaccia utente
 
 Anche in caso di errori non si perde alcun ZEC reale.
@@ -83,7 +83,7 @@ Garantisce la sicurezza del codice di produzione e previene le perdite finanziar
 
 Previene i tempi di inattività o la perdita di guadagni quando si passa a Mainnet.
 
-### 4. Ricerca accademica / Protocollo
+### 4. Ricerca accademica / protocollo
 
 I ricercatori possono testare innovazioni come la **verifica senza stato**, l'ottimizzazione delle prove a zero conoscenza** o altri esperimenti sui protocolli utilizzando Testnet.  
 Gli utenti avanzati possono anche eseguire **testnet personalizzate o ambienti regtest** per esperimenti specializzati.
@@ -113,7 +113,7 @@ Gli utenti avanzati possono anche eseguire **testnet personalizzate o ambienti r
 
 - Non è denaro reale; non può essere scambiato con ZEC o moneta fiat
 - Utilizzata per i test, lo sviluppo e l'apprendimento
-- Segue tutte le regole di Zcash: può essere inviata, minata e utilizzata in indirizzi Shielded
+- Segue tutte le regole di Zcash: può essere inviata, minata e utilizzata in indirizzi schermati
 
 **Esempio:**
 Uno sviluppatore può inviare 100 TAZ da un indirizzo Testnet a un altro per testare una funzione del portafoglio senza rischiare ZEC reali.  
@@ -129,10 +129,10 @@ Un **faucet** (in italiano rubinetto) è un servizio che offre monete TAZ gratui
 - Gli utenti forniscono un indirizzo Testnet; il faucet invia una piccola quantità di TAZ
 - Evita la necessità di mining manuale di TAZ
 
-**Esempio:**
-1. Visita un faucet di Testnet (ad esempio, [testnet.zecfaucet.com](https://testnet.zecfaucet.com) | [fauzec.com](https://fauzec.com/)])
-2. Inserisci il tuo indirizzo Testnet
-3. Richiedi TAZ
+**Esempio:**  
+1. Visita un faucet di Testnet (ad esempio, [fauzec.com](https://fauzec.com/) | [zcashfaucet.jinolabs.xyz](https://zcashfaucet.jinolabs.xyz/))  
+2. Inserisci il tuo indirizzo Testnet  
+3. Richiedi TAZ  
 4. Ricevi immediatamente le TAZ per iniziare i test
 
 **Perché è importante
@@ -142,18 +142,18 @@ Un **faucet** (in italiano rubinetto) è un servizio che offre monete TAZ gratui
 
 
 
-## Zkool e Zingo! Portafogli
+## Portafogli Zkool e Zingo!
 
 ### Zkool
 
 - Portafoglio multi-account per utenti avanzati di Zcash
 - Supporta frasi seed, chiavi di visualizzazione, indirizzi trasparenti e schermati
-- Può connettersi a Mainnet, Testnet o Regtest tramite nodi completi o server lightwallet
+- Può connettersi a Mainnet, Testnet o Regtest tramite full node (nodi completi) o server lightwallet
 
 ### Zingo!
 
 - Portafoglio mobile incentrato su privacy e semplicità
-- Supporta gli indirizzi Shielded e Unified
+- Supporta gli indirizzi schermati e unificati
 - Aggiornato per supportare i protocolli Testnet (incluso NU6 Testnet)
 
 ## Abilitazione di Testnet nei portafogli
@@ -176,7 +176,7 @@ Un **faucet** (in italiano rubinetto) è un servizio che offre monete TAZ gratui
 - Gli account ZEC di Mainnet non sono interessati
 - Utilizza un server lightwallet Testnet se richiesto
 
-### Zingo! Portafoglio
+### Portafoglio Zingo!
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -190,13 +190,13 @@ Un **faucet** (in italiano rubinetto) è un servizio che offre monete TAZ gratui
 </div>
 
 
-Una volta abilitati, i portafogli possono inviare e ricevere TAZ, testare transazioni Shielded e fare esperimenti in tutta sicurezza.
+Una volta abilitati, i portafogli possono inviare e ricevere TAZ, testare transazioni schermate e fare esperimenti in tutta sicurezza.
 
 
 ## Dopo aver abilitato Testnet
 
 - Le transazioni si comportano come quelle di Mainnet, ma con TAZ di **valore zero**
-- È possibile testare le transazioni Shielded, gli indirizzi multipli e le funzioni di privacy
+- È possibile testare le transazioni schermate, gli indirizzi multipli e le funzioni di privacy
 - Gli sviluppatori possono eseguire il debug e testare le funzionalità senza rischiare un vero ZEC
 
 

@@ -70,7 +70,7 @@ enable_cookie_auth = false
 
 > rmdir zcash-haskell
 
-> git clone https://git.vergara.tech/Vergara_Tech/zcash-haskell.git
+> git clone https://code.vergara.tech/Vergara_Tech/zcash-haskell.git
 
 
 ### Install Depedencies

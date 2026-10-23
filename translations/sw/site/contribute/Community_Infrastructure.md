@@ -2,29 +2,29 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# ZecHub Jamii Miundombinu Mfumo wa
+# Mfumo wa Miundombinu ya Jumuiya ya ZecHub
 
 
-### Miundombinu ya Jumuiya 
+### Miundombinu ya Jamii 
 
-Programu ya bounty ZecHub caters kwa watengenezaji katika huru zaidi & rahisi mbadala wa kazi za mtu binafsi: [ZEC Bounties (Zaka za Mkoa wa Kijijini)](https://bounties.zechub.wiki/). 
+Programu ya fadhila ZecHub ndiyo njia inayolipwa kwa kazi hii: [ZEC Bounties](https://bounties.zechub.wiki/)Jinsi ya kuchagua nambari ZEC: [sera ya kiasi cha fadhila](https://bounties.zechub.wiki/docs/bounty-amounts)Mtiririko wa kazi wa wachangiaji: [Kuchangia ZecHub](https://zechub.wiki/contribute/contributing-guide). 
 
 
-## Miongozo Yenye Kutumika 
+## Miongozo Muhimu 
 
-- [ZecHub Developer Mwongozo](https://zechub.wiki/developers)
+- [Mwongozo wa Wasanidi Programu ZecHub](https://zechub.wiki/developers)
 
-- [Zcash Soma hati za utafiti.](https://zcash.readthedocs.io/en/latest/)
+- [Zcash Readthedocs](https://zcash.readthedocs.io/en/latest/)
 
 - [Kitabu cha Zebra](https://zebra.zfnd.org)
 
-- [Akash Mtandao Docs](https://akash.network/docs/)
+- [Hati za Mtandao wa Akash](https://akash.network/docs/)
 
-- [Kuanzisha Zebrad juu ya Mtandao Akash](https://zechub.wiki/guides/akash-network-zebra#content)
+- [Kuanzisha Zebrad kwenye Mtandao wa Akash](https://zechub.wiki/guides/akash-network-zebra#content)
 
-- [Maombi ya Malipo kwa Zcash Yaelezwa (Video)](https://www.youtube.com/watch?v=l5auYQIzYsQ)
+- [Maombi ya Malipo Zcash Yamefafanuliwa (video)](https://www.youtube.com/watch?v=l5auYQIzYsQ)
 
-- [ZIP-321 vipimo](https://zips.z.cash/zip-0321)
+- [Vipimo vya ZIP-321](https://zips.z.cash/zip-0321)
 
-Kama unahitaji ushauri wa kina kutoka kwa watengenezaji Zcash unaweza kufanya post juu ya [Mkutano wa Jumuiya ya Ulaya](https://forum.zcashcommunity.com).
+Ukihitaji ushauri wa kina kutoka kwa watengenezaji wa Zcash unaweza kuandika chapisho kuhusu [Jukwaa la Jumuiya](https://forum.zcashcommunity.com).
 

@@ -148,15 +148,15 @@ Nous avons simplifié pour des raisons de clarté. Le développement Lean réel 
 | Terme | Signification en langage clair |
 |---|---|
 | **Ironwood** | Le nouveau pool protégé de Zcash (2026), qui remplace le pool Orchard défectueux |
-| **Intégrité du solde** | Le pool ne verse jamais plus de valeur que ce qui y est entré publiquement |
-| **Solidité de connaissance** | Une preuve valide exige que le prouveur détienne un témoin authentique |
-| **Extracteur** | Une procédure qui extrait le témoin de tout prouveur convaincant |
+| **Balance integrity** | Le pool ne verse jamais plus de valeur que ce qui y est entré publiquement |
+| **Knowledge soundness** | Une preuve valide exige que le prouveur détienne un témoin authentique |
+| **Extractor** | Une procédure qui extrait le témoin de tout prouveur convaincant |
 | **Lean** | L’assistant de preuve utilisé pour vérifier la preuve par machine |
 | **ValidLedger** | Le modèle formel des règles de consensus sur lequel raisonnent les théorèmes |
-| **Empreinte** | La frontière entre les mathématiques prouvées et le logiciel Rust exécuté |
-| **Selon les hypothèses énoncées** | La preuve tient à condition que les hypothèses cryptographiques nommées soient valides |
-| **Tourniquet** | Une règle plafonnant les sorties d’un pool à ses dépôts vérifiables |
-| **Cryptographie à haute assurance** | Construire de la cryptographie en faisant de la vérification formelle une étape standard |
+| **Fingerprint** | La frontière entre les mathématiques prouvées et le logiciel Rust exécuté |
+| **Under stated assumptions** | La preuve tient à condition que les hypothèses cryptographiques nommées soient valides |
+| **Turnstile** | Une règle plafonnant les sorties d’un pool à ses dépôts vérifiables |
+| **High-assurance cryptography** | Construire de la cryptographie en faisant de la vérification formelle une étape standard |
 
 ---
 

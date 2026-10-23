@@ -14,7 +14,7 @@ Zcash Shielded Assets (ZSA) एक प्रस्तावित प्रो�
 - **यह क्या है:** ERC-20-शैली के custom assets, लेकिन डिफ़ॉल्ट रूप से shielded।
 - **इसे कौन बना रहा है:** [QEDIT](https://qed-it.com/), Zcash Foundation से मिले एक grant के तहत, Electric Coin Company के सहयोग से।
 - **इसे कैसे निर्दिष्ट किया गया है:** [ZIP 226](https://zips.z.cash/zip-0226) (transfer और burn) के साथ [ZIP 227](https://zips.z.cash/zip-0227) (issuance)।
-- **स्थिति:** अभी mainnet पर live नहीं है। ZSA प्रोटोकॉल को Network Upgrade 7 (NU7) में deploy किए जाने की योजना है।
+- **स्थिति:** अभी mainnet पर live नहीं है और Network Upgrade 7 (NU7) का हिस्सा भी नहीं है। [ZIP 259](https://zips.z.cash/zip-0259), जिसमें NU7 द्वारा deploy की जाने वाली हर चीज़ सूचीबद्ध है, में ZIP 226 या ZIP 227 शामिल नहीं हैं, और ZSA सक्रियण की कोई तारीख तय नहीं की गई है।
 - **फ़ीस:** हमेशा ZEC में चुकाई जाती है, चाहे कौन-सा asset भेजा जा रहा हो।
 
 ---
@@ -29,7 +29,7 @@ Zcash Shielded Assets, Zcash blockchain पर custom tokens के निर्
 
 ZSAs का एक बड़ा संभावित उपयोग Zcash प्रोटोकॉल पर stablecoins जारी करना होगा। Stablecoins वे cryptocurrencies हैं जिनका मूल्य किसी fiat currency, जैसे US Dollar या Euro, से जुड़ा होता है। वर्तमान में, सबसे व्यापक रूप से प्रचलित stablecoins में से कुछ ERC-20 tokens हैं, जैसे [USDC](https://www.circle.com/en/usdc) और [Dai](https://docs.makerdao.com/)।
 
-ZSAs का एक और संभावित उपयोग governance tokens जारी करने में होगा। उदाहरण के लिए, Zechub (इस wiki का प्रकाशक) एक Decentralized Autonomous Organization (DAO) है और अपने सदस्यों को प्रस्तावों तथा governance निर्णयों पर मतदान के लिए एक ZSA बना और जारी कर सकता है।
+ZSAs का एक और संभावित उपयोग governance tokens जारी करने में होगा। उदाहरण के लिए, ZecHub (इस wiki का प्रकाशक) एक Decentralized Autonomous Organization (DAO) है और अपने सदस्यों को प्रस्तावों तथा governance निर्णयों पर मतदान के लिए एक ZSA बना और जारी कर सकता है।
 
 ZSAs को [QEDIT](https://qed-it.com/) द्वारा विकसित किया जा रहा है, [Zcash Foundation](/zcash-organizations/zcash-foundation) से मिले एक बड़े grant के तहत, [Electric Coin Company](/zcash-organizations/electric-coin-company) के सहयोग से। चूँकि इस परियोजना पर अभी सक्रिय रूप से काम चल रहा है, इसलिए अपडेट्स Zcash forum के [इस thread](https://forum.zcashcommunity.com/t/grant-update-zcash-shielded-assets-monthly-updates/41153) पर पोस्ट किए जाते हैं। QEDIT द्वारा किया गया [ZSA grant application](https://zcashgrants.org/gallery/25215916-53ea-4041-a3b2-6d00c487917d/33106640/) Zcash Foundation grants website पर उपलब्ध है।
 
@@ -129,7 +129,7 @@ Shielded Assets (ZSA/UDA) के लिए ZSA प्रस्ताव [QEDIT](
 
 | आम धारणा | वास्तव में क्या स्थिति है |
 | --- | --- |
-| "ZSAs आज Zcash पर live हैं।" | नहीं हैं। ZSA को Network Upgrade 7 (NU7) में deploy किए जाने की योजना है और यह अभी भी review और testing के अधीन है। |
+| "ZSAs आज Zcash पर live हैं।" | नहीं हैं। ZSA, Network Upgrade 7 (NU7) का हिस्सा नहीं है, जिसे [ZIP 259](https://zips.z.cash/zip-0259) ने ZIP 226 या ZIP 227 के बिना परिभाषित किया है, और यह अभी भी review और testing के अधीन है। |
 | "ZSA, Zcash में smart contracts लाता है।" | ZSA assets के issuance, transfer और burn को निर्दिष्ट करता है। यह सामान्य-उद्देश्य programmable contract layer नहीं है। |
 | "आप ZSA fees को उसी ZSA token में चुका सकते हैं।" | फ़ीस ZEC में चुकाई जाती है। |
 | "यदि यह shielded है, तो token supply भी गुप्त होनी चाहिए।" | ZIP 227 जानबूझकर issuance को transparent बनाता है, ताकि हर asset की supply को सार्वजनिक रूप से ट्रैक किया जा सके। Balances और transfers निजी रहते हैं; supply नहीं। |
@@ -139,8 +139,8 @@ Shielded Assets (ZSA/UDA) के लिए ZSA प्रस्ताव [QEDIT](
 
 ## संबंधित पृष्ठ
 
-- [Halo](/zcash-tech/halo) — Orchard के पीछे का proving system, वही प्रोटोकॉल जिसका विस्तार ZSA करता है
-- [Zk-SNARKs](/zcash-tech/zk-snarks) — वे zero-knowledge proofs जो किसी shielded transfer को उजागर किए बिना सत्यापित करने देते हैं
+- [Halo](/zcash-tech/halo) — Orchard के पीछे की proving system, जिसका विस्तार ZSA प्रोटोकॉल करता है
+- [zk-SNARKs](/zcash-tech/zk-snarks) — वे zero-knowledge proofs जो किसी shielded transfer को उजागर किए बिना सत्यापित करने देते हैं
 - [Shielded Pools](/using-zcash/shielded-pools) — जहाँ ZSAs, ZEC के साथ मौजूद होंगे
 - [Transactions](/using-zcash/transactions) — एक Zcash transaction कैसे तैयार किया जाता है
 - [Zebra Full Node](/zcash-tech/zebra-full-node) — ऊपर दिए गए ZSA demo में प्रयुक्त नोड कार्यान्वयन

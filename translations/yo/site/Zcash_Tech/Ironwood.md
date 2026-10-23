@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Igi irin-igi
+# Ironwood
 
 > Ironwood ti ṣiṣẹ lori Zcash mainnet ni bulọọki 3,428,143 ni Oṣu Keje 28, 2026 UTC, ati pe o wa laaye lati igba naa.
 
@@ -10,13 +10,13 @@ Ohun tí ẹ ó mú lọ: ohun ti Ironwood yí padà, ìdí tí àbùkù owó t�
 
 Ironwood jẹ Zcash kan. [àtúnṣe síra ẹ̀rọ](../start-here/network-upgrades), ni ifowosi NU6.3, ti o ṣe agbekalẹ adagun-odo tuntun kan pẹlu orukọ kanna. A [adágún tí a fi ọ̀pá ìdáàbòbò ṣe](../using-zcash/shielded-pools) ni awọn akojọpọ ti owo eyi ti iye ati eni duro farapamọ nipa [ìkọ̀wé-ìmọ́ òfo (zero knowledge cryptography)](../zcash-tech/zk-snarks). Ironwood exists to contain and audit a soundness bug found in the existing Orchard shielded pool, and to give the community a stronger way to check that the total supply of ZEC is honest. Its consensus rules are specified in [ZIP 258](https://zips.z.cash/zip-0258).
 
-ìdí tí èyí fi ṣe pàtàkì. pẹ̀lú owó tó ń ṣàn bí Bitcoin, ẹnikẹ́ni lè wò ó bóyá a kò ṣẹṣẹ̣ dá ẹyọ owó kankan nípa kíka ìwé àkọsílẹ̀ gbogbo ènìyàn. owó ààbò bo iye náà, nítorí náà o ò le kàn wo nìkan. dípò ìyẹn ìlànà ìkọwéránṣá fúnra rẹ ní láti mú un dájú pé ẹnìkan kò lè ṣèdáwó lábéko àṣírí. ironwood jẹ kókó torí wọ́n rí aṣiṣe kan nínú ìdámọ̀ràn fún odò ìṣùpọ̀ Orchard. ìtúbọ̀ sí ipò gíga yìí ti dínà ìyàtọ̀ ọ̀hún àti fífún ẹnikẹ́ni lóhun lati fìdí rẹmi wípé ìpèsè ZEC ṣì jẹ́ olóòótọ. àwọn oníṣòwò sì tún sọ pé: "ìyẹn ni ohun mìíràn".
+Kí ló dé tí èyí fi ṣe pàtàkì? Pẹ̀lú owó tí ó hàn gbangba bíi Bitcoin, ẹnikẹ́ni lè ṣàyẹ̀wò pé kò sí owó tí wọ́n fi ṣe àfọwọ́kọ nípa kíkà ledger. Owó tí a fi ààbò pamọ́ máa ń fi iye owó náà pamọ́, nítorí náà o kò lè wo lásán. Dípò bẹ́ẹ̀, ìwé-ìpamọ́ fúnra rẹ̀ gbọ́dọ̀ rí i dájú pé kò sí ẹni tí ó lè dá owó ní ìkọ̀kọ̀. Ironwood ṣe pàtàkì nítorí pé a rí àṣìṣe kan nínú ìdánilójú yẹn fún adágún Orchard. Ìmúdàgbàsókè náà ti àlàfo náà pa, ó sì fún ẹnikẹ́ni ní ọ̀nà láti jẹ́rìí sí i pé àpapọ̀ iye ZEC ṣì jẹ́ òótọ́.
 
 Ṣé o ṣẹ̀ṣẹ̀ ń lo Zcash? Bẹrẹ pẹlú: [Kí ni ZEC àti Zcash?](../start-here/what-is-zec-and-zcash) àti pé, [Àwọn Erékùṣù Tó Ń Wà Níbi Ààbò](../using-zcash/shielded-pools), wá padà wálé.
 
-![Ironwood value migration flow: value leaves the Orchard pool, passes through the turnstile checkpoint, and enters the new Ironwood pool](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/ironwood-flow.png)
+![Ironwood value migration flow: value leaves the Orchard pool, passes through the turnstile checkpoint, and enters the new Ironwood pool](/content-images/ironwood-flow-8af7a58b99.webp)
 
-## Ìdí Tí Wọ́n Fi Nílò Igi Irin
+## Idi ti a fi nilo Ironwood
 
 Ní òpin oṣù karùn-ún ọdún 2026, olùwádìí ààbò tí ó dá wà Taylor Hornby, nígbà ìwífúnni nípa ìlànà fún àwọn ẹ̀rọ ìgbàlódé. [Àwọn Ilé Iṣẹ́ Ààbò](../zcash-organizations/shielded-labs), responsibly disclosed a soundness bug in the Orchard shielded pool. orchard je Zcash titun ti o ni aabo igbi omi nigba naa, ati pe aiṣedeede joko ninu apakan iyipo elliptic-curve ti agbegbe oye odo rẹ, eyiti o lo awọn ohun elo iṣakoso agbara lati ṣe atunṣe idaduro fun lilo owo onihoho lori ẹrọ iṣowo wọn. [Halo](../zcash-tech/halo) 2 ètò ìwádìí.
 
@@ -24,7 +24,7 @@ Ní òpin oṣù karùn-ún ọdún 2026, olùwádìí ààbò tí ó dá wà Ta
 2. Ní èrò, aṣekúpani lè lo àléébù náà láti fi ṣe iye tí kò bá tọ́ nínú Orchard pool kí ó sì ná owó tó jẹ́ pé kì í ṣe tiwọn gan-an, láìfi àmì kankan sílẹ̀ èyí tí òpó ìsọ̀rí kan yóò mú.
 3. Ìyípadà owó Zcash ṣì ń dí iye tí ó lè kúrò ní Orchard, nítorí náà gbogbo ìtòlé́sẹẹsẹ kò le di èyí tó pọ̀ jù lọ. ṣùgbọ́n ìlànà àdììtú ti pool yìí ò tún fi dá a lójú pé ẹyọ owó kọ̀ọ̀kan tí wọ́n bá pa mọ́ nínú rẹ̀ jẹ gidi mọ́.
 
-![The bug explained: a transaction puts in 5 ZEC, but the flawed proof still passes when 7 ZEC come out, creating 2 ZEC from nothing](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/ironwood-bug.png)
+![The bug explained: a transaction puts in 5 ZEC, but the flawed proof still passes when 7 ZEC come out, creating 2 ZEC from nothing](/content-images/ironwood-bug-8f689d6f61.webp)
 
 àwọn iye tí ó wà lókè yìí jẹ́ àwòrán tó rọrùn. àléébù gidi náà ni nínú apá kan pàtó ti ìṣirò ẹ̀ka, kì í ṣe ìsókè owó-ayéwálé tí ń wọlé àti jáde ní ọ̀nà òótọ́. ohun tá a fẹ́ mú kúrò níbẹ̀ nìkan ni pé kòkòrò àìlálàá lè jẹ́ kí èrè di èyí tí a dá sínú adágún láìṣe àwárí rẹ̀. bí àpẹẹrẹ: nígbàtí o bá rí i pé ẹnìkan fi nǹkan díẹ̀ pa mọ́ fún àkókò gígùn ju ẹni mìíràn lọ, ńṣe lo máa dà bíi pé òun fúnra rẹ̀ kó
 
@@ -34,13 +34,13 @@ O ṣe pataki, ko si ẹri pe a lo bug naa lailai, ko ni ẹri ti ipa lori awọ
 
 Àwọn aráàlú Zcash fi àwọn àtúnṣe ránṣẹ́ ní ìpele dípò gbogbo wọn lẹ̀ẹ̀kan.
 
-![Ironwood response timeline: the Orchard bug is found in May 2026, the pool is paused in June 2026, the circuit is fixed in NU6.2, and Ironwood activated at block 3,428,143 on July 28, 2026](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/ironwood-timeline.png)
+![Ironwood response timeline: the Orchard bug is found in May 2026, the pool is paused in June 2026, the circuit is fixed in NU6.2, and Ironwood activated at block 3,428,143 on July 28, 2026](/content-images/ironwood-timeline-36243f0cd7.webp)
 
 1. Ní ìbẹ̀rẹ̀ oṣù June 2026, ètò àbòjúṣe kan dá omi-ìmọ́ Orchard dúró nígbà tí wọ́n ń múra bí wọn yóò ṣe tún un mọ.
 2. Àtúnṣe NU6.2 ṣe àtúnse sí ẹ̀ka Orchard fúnra rẹ̀, tí ó sì pa ibi ìjìnlẹ̀ tó wà nídìí.
 3. Àtúnṣe NU6.3, Ironwood, ṣafihan adágún tuntun tí a fi ààbò ṣe àti ibùdó ìwádìí fún gbogbo ènìyàn kí iye lè kúrò nínú adágùn Orchard ti ó wà lábẹ́ ètò ìdánwò.
 
-![The fix in NU6.2: the corrected proof requires inputs to equal outputs, so a valid 5 ZEC output passes while an attempt to output 7 ZEC is rejected](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/ironwood-fix.png)
+![The fix in NU6.2: the corrected proof requires inputs to equal outputs, so a valid 5 ZEC output passes while an attempt to output 7 ZEC is rejected](/content-images/ironwood-fix-bb4f70ddc9.webp)
 
 ## Ohun tí adágún Ironwood ń ṣe
 
@@ -72,20 +72,20 @@ Awọn apamọwọ ati sọfitiwia node ṣe itọju pupọ julọ ti eyi laif�
 
 ## Àkójọ àwọn ọ̀rọ̀
 
-Ọ̀rọ̀-ìtumọ̀ èdè Gẹ̀ẹ́sì tó rọrùn.
+| Àkókò ìgba | Ìtumọ̀ Gẹ̀ẹ́sì lásán |
 |---|---|
-ìdìpọ̀ tí a fi ààbò bo. Ìpín owó ti iye àti àwọn oní-ọ̀hún ni ó fara sin nípa lílo ìlànà ìkòwé ní ìmọ̀ òfo (zero knowledge cryptography).
-ìṣòro ìmúṣẹ. Ìkùdíẹ̀-káàtó tí ó jẹ́ kí àdàkọ tó bá ti di aláìdára kọjá ìdánwò ẹ̀rí bí ẹni pé ó tọ̀nà ni.
-Turnstile: Ibi àyẹ̀wò tí gbogbo ènìyàn ń lò láti ka iye owó tó ń lọ láàárín àwọn ìsọ̀rí kí ètò ìpèsè náà lè wà nílẹ̀.
- Spend-only: Àkójọ tí ẹ lè náwó sí, ṣùgbọ́n kò le fi iye tuntun kún un.
- Network upgrade (NU)  Aṣayan iyipada ti a ṣepọ si awọn ofin ifọkanbalẹ Zcash, ti o ṣiṣẹ ni giga bulọọki ṣeto.
-Àkọlé tí a lè rí padà nínú àpò-ìwé. Ètò ìsọfúnni kan táa ṣe láti mú owó náà padà báwọn kọ̀ǹpútà kọnfúńmù tó ń lo àwọn ohun èlò ìgbàlódé yìí ti já sí ẹyọ kòkòrò àrùn, èyí sì jẹ́ kí wọ́n mọ bí wọ́n á ṣe máa fi ìwé ránṣẹ́ ní tààràtà àti bó ṣe yẹ káwọn èèyàn máa lò ó lọ láìṣe pàṣípààrọ̀ fún wọn.
+| Shielded pool | Àkójọ owó tí iye àti àwọn olówó rẹ̀ wà lábẹ́ ìkọ̀kọ̀ ìmọ̀-òdodo |
+| Soundness bug | Àbùkù kan tó ń jẹ́ kí ìṣòwò tí kò tọ́ kọjá àyẹ̀wò ẹ̀rí bíi pé ó wúlò |
+| Turnstile | Àyẹ̀wò gbogbogbòò tí ó ń ka iye ìṣípò láàárín àwọn adágún kí ìpèsè náà lè dúró ní àyẹ̀wò |
+| Spend-only | Adágún omi kan tí o lè ná láti, ṣùgbọ́n tí o kò lè fi ìní tuntun kún un |
+| Network upgrade (NU) | Àyípadà tí a ṣètò sí àwọn òfin ìfohùnṣọ̀kan Zcash's, tí a mú ṣiṣẹ́ ní gíga bulọ́ọ̀kì tí a ṣètò |
+| Quantum-recoverable note | A ṣe àgbékalẹ̀ àkọsílẹ̀ kan kí a lè gba owó padà tí àwọn kọ̀ǹpútà quantum bá lè ba ìkọ̀kọ̀ ayélujára òde òní jẹ́ |
 
 ## Àwọn ìbéèrè tí a sábà máa ń béèrè
 
 ṣé ZEC mi ní ipa kankan? kò sí ẹ̀rí pé wọ́n lo àbùdá náà rí, kò sì sí ìpalára fún owó àwọn oníṣe àti pé gbogbo ohun tí wọ́n ń pèsè ò yí padà.
 
-ṣé mo nílò láti ṣe ohunkóhun? mú kí àpò-ìpamọ́ àti software node rẹ di ìgbàlódé sí ìtúmọ̀ tí ó ní ìtìlẹyìn ṣáájú ìdènà ìgbésẹ. àpò ìṣàmúlò yín ń gbé owó lọ sínú ironwood bí àkókò ti nlọ gẹ́gẹ́ bi ẹ bá lo, nítorí náà kò si ohun kan tó yẹ kó yára fún ọ. tẹ̀lé àwọn ìlànà olùpèsè àpò òwò yín.
+Ṣé mo nílò láti ṣe ohunkóhun? Jẹ́ kí àpò owó àti sọ́fítíwètì rẹ máa ṣe àtúnṣe sí ìtújáde tí a lè ṣe kí ó tó di pé a ti mú un ṣiṣẹ́. Àpò owó rẹ máa ń gbé owó lọ sí Ironwood nígbà tí o bá ń náwó, nítorí náà kò sí ohun tí o lè fi ọwọ́ ṣe. Tẹ̀lé ìtọ́sọ́nà olùpèsè àpò owó rẹ.
 
 Is Zcash still private? Yes. Ironwood keeps the same shielded privacy that hides sender, receiver, and amount. This upgrade is about supply integrity, not privacy.
 
@@ -121,7 +121,7 @@ Through the turnstile. Every coin leaving the old Orchard pool is counted at a p
 
 [Halo](../zcash-tech/halo)
 
-[àwọn ohun èlò tí wọ́n ń pè ní zk-SNARKS](../zcash-tech/zk-snarks)
+[àwọn ohun èlò tí wọ́n ń pè ní zk-SNARKs](../zcash-tech/zk-snarks)
 
 [Ààbò Lẹ́yìn Ìwòye-ìmọ̀dá](../zcash-tech/post-quantum-security)
 

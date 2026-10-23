@@ -14,8 +14,9 @@ Newsletter contributions work best when one contributor prepares the edition for
 
 Before you start writing:
 
-- Check [ZEC Bounties ](https://bounties.zechub.wiki/) for the current newsletter task.
-- Wait to be assigned
+- Check [ZEC Bounties](https://bounties.zechub.wiki/) for the current newsletter task.
+- Wait to be assigned.
+- Newsletter editions sit in the XS band of the [bounty amounts policy](https://bounties.zechub.wiki/docs/bounty-amounts). The ZEC figure on the live bounty is the amount, not any older heading in the contributing guides.
 
 ![ss](/content-images/149a802c-b64f-4969-ad89-e83ffecf568e-d5d8387145.webp)
 

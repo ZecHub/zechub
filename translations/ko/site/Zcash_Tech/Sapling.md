@@ -16,7 +16,7 @@ Sapling은 Zcash 네트워크의 두 번째 주요 업그레이드로, Zcash 출
 
 Sapling의 핵심은 실드된 트랜잭션의 프라이버시를 유지하는 영지식 증명을 더 빠르게 생성하는 방식입니다. 기존 Sprout 설계는 느리고 메모리 소모가 큰 단일 증명 회로(JoinSplit 회로)를 사용했습니다. Sapling은 이를 Zcash Protocol Specification에 설명된 두 개의 목적별 회로, 즉 Spend 회로와 Output 회로로 대체했습니다. 그 결과 비용이 크게 감소했습니다. Electric Coin Company에 따르면 실드된 트랜잭션은 약 40메가바이트의 메모리로 빠르면 몇 초 만에 생성할 수 있습니다. Sapling 이전의 Sprout 기준선은 훨씬 더 무거워서, 대략 몇 분과 수 기가바이트의 메모리가 필요했습니다(이 Sprout 측 수치는 널리 인용되는 대략적 기준선입니다).
 
-![Sprout와 Sapling 실드된 트랜잭션 비용 비교](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/sapling-before-after.png)
+![Sprout와 Sapling 실드된 트랜잭션 비용 비교](/content-images/sapling-before-after-a045b0b48f.webp)
 
 ## 새로운 키
 
@@ -24,7 +24,7 @@ Sapling은 또한 새로운 실드된 주소와 키 집합을 도입했습니다
 
 이와 관련된 변화로, Sapling은 증명을 생성하는 작업과 트랜잭션에 서명하는 작업을 분리했습니다. 영지식 증명을 생성하는 장치가 더 이상 지출 권한을 보유한 장치일 필요가 없습니다. 이러한 분리는 별도의 장치가 더 무거운 증명 생성 작업을 수행하는 동안, 하드웨어 지갑이 사용자의 spending key를 격리된 상태로 유지할 수 있게 해줍니다.
 
-![증명 생성 장치가 별도의 서명 장치에 증명을 전달하는 모습](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/sapling-decoupled-spend.png)
+![증명 생성 장치가 별도의 서명 장치에 증명을 전달하는 모습](/content-images/sapling-decoupled-spend-6fceca13a2.webp)
 
 ## 신뢰 설정
 
@@ -34,7 +34,7 @@ Sapling의 회로는 신중하게 생성되어야 했던 공개 파라미터 집
 
 Sapling은 2018년 6월 업그레이드인 Overwinter를 뒤따랐으며, Overwinter는 네트워크의 업그레이드 메커니즘을 준비했습니다. Electric Coin Company는 2018년 8월 출시된 zcashd 2.0.0에 메인넷 활성화 높이를 설정했고, 블록 419,200이 채굴되었을 때 네트워크는 Sapling 규칙으로 전환되었습니다. 체인 상에서는 그 순간이 Sapling 합의 브랜치 id로 표시됩니다.
 
-![Zcash 출시부터 Sapling 활성화까지의 타임라인](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/sapling-timeline.png)
+![Zcash 출시부터 Sapling 활성화까지의 타임라인](/content-images/sapling-timeline-6cad184c30.webp)
 
 ## 용어집
 
@@ -44,7 +44,7 @@ Sapling은 2018년 6월 업그레이드인 Overwinter를 뒤따랐으며, Overwi
 | Sprout | Zcash가 처음 출시할 때 사용한 최초의 실드된 프로토콜로, Sapling보다 느리고 무거웠습니다. |
 | Spend and Output circuits | Sprout의 단일 JoinSplit 회로를 대체한 Sapling의 두 가지 새로운 증명 회로입니다. |
 | Diversified address | 하나의 키에서 파생할 수 있는, 서로 연결되지 않는 여러 결제 주소 중 하나입니다. |
-| Viewing key | 누군가가 지갑의 트랜잭션을 볼 수 있게 하되, 그 지갑에서 자금을 지출할 수는 없게 하는 키입니다. |
+| Viewing Key | 누군가가 지갑의 트랜잭션을 볼 수 있게 하되, 그 지갑에서 자금을 지출할 수는 없게 하는 키입니다. |
 | Consensus branch id | 트랜잭션이 어떤 업그레이드 규칙을 따르는지 네트워크에 알려주는 짧은 코드입니다. |
 
 ## FAQ
@@ -82,7 +82,7 @@ Sprout에서는 실드된 트랜잭션을 생성하는 데 몇 분이 걸리고 
 
 - [Shielded Pools](../using-zcash/shielded-pools)
 - [Viewing Keys](../zcash-tech/viewing-keys)
-- [zk-SNARKS](../zcash-tech/zk-snarks)
+- [zk-SNARKs](../zcash-tech/zk-snarks)
 - [Zcash 네트워크 업그레이드](../start-here/network-upgrades)
 - [지갑](../using-zcash/wallets)
 - [Electric Coin Company](../zcash-organizations/electric-coin-company)

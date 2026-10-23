@@ -11,8 +11,6 @@
 
 الشبكة الرئيسية: <a href="https://zecfaucet.com">zecfaucet</a>
 
-الشبكة التجريبية: <a href="https://testnet.zecfaucet.com">testnet.zecaucet.com</a>
-
 الشبكة التجريبية: <a href="https://fauzec.com/">fauzec.com</a>
 
 الشبكة التجريبية: <a href="https://zcashfaucet.jinolabs.xyz/">zcashfaucet.jinolabs.xyz</a>

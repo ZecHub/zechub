@@ -12,7 +12,7 @@ Pesquisadores da Zcash Foundation estão colaborando em um rascunho informativo 
 
 Free2z é uma plataforma para conteúdo anônimo e doações privadas.
 
-- [Zashi Wallet](https://electriccoin.co/zashi/)
+- [Zashi Wallet](https://web.archive.org/web/20260217121832/https://electriccoin.co/zashi/)
 
 Carteira desenvolvida pela Electric Coin Company para transações e interações de forma privada.
 
@@ -48,7 +48,7 @@ O Zeme Team permite que criadores recebam facilmente gorjetas de qualquer pessoa
 
 ZGo é um Registrador Zcash, permitindo que vendedores e comerciantes aceitem Zcash. Atualmente testando o aplicativo para obter feedback de alta qualidade sobre a usabilidade e recursos do ZGo.
 
-[Zlink](https://zlink.click)
+[Zlink](https://web.archive.org/web/20250309010146/https://zlink.click/)
 
 Zlink é a maneira mais simples de encontrar qualquer link, ferramenta, informação que você precisa sobre o ecossistema do Zcash.
 
@@ -58,7 +58,7 @@ Zlink é a maneira mais simples de encontrar qualquer link, ferramenta, informa�
 
 O aftok é um novo tipo radical de cooperação, uma organização empresarial bottom-up. É uma maneira para você e alguns amigos confiáveis ​​construírem coisas juntos e serem pagos por seus esforços, sem a hierarquia ou os custos administrativos de uma empresa tradicional.
 
-[Atomic DEX](https://atomicdex.io/en/)
+[Atomic DEX](https://web.archive.org/web/20250116100519/https://atomicdex.io/en/)
 
 AtomicDEX é uma carteira, ponte e DEX multi-coin combinados em um único aplicativo. Versões móveis/desktop disponíveis.
 
@@ -74,7 +74,7 @@ RenBridge (serviço encerrado)
 
 O Ren Protocol foi descontinuado e o RenBridge não está mais disponível.
 
-[ZeroBridge](https://bridge.zerodao.com/#/transfer/ETH)
+[ZeroBridge](https://web.archive.org/web/20260122164455/https://bridge.zerodao.com/#/transfer/ETH)
 
 ZeroBridge é um cliente descentralizado do protocolo Zero DAO, permitindo a escrita de ativos cross-chain em um navegador com sua carteira existente, @zerodaoHQ torna possível financiar um novo endereço ETH com ZEC protegido.
 

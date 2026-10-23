@@ -21,7 +21,7 @@ A ṣe e lati mu awọn ọrẹ ati ẹbi wọle si Zcash ati owo-ori oni-nọmb
 A tún orúkọ àpò náà sọ di **Zodl** ní February 2026 lẹ́yìn tí ẹgbẹ̀ yí padà sí ZODL. Àwọn oníṣe tó wà kò nílò láti ṣe ohunkóhun, bí app ti ń dá orúkọ tuntun sílẹ̀ nígbà ìmúbòjúsíwájú rẹ̀ kejì, ìdí nìyí tí àwọn ìjápọ ilé-ìtajà lókè ṣí Zodl sílẹ̀. Wàyí o ni a tọju ibẹ dípò ECC, nítorí náà wo ojúewé [ZODL page](/zcash-organizations/zodl) fún ìsọfúnni tó wà lọ́wọ́lọ́wó́.
 
 Àwọn ìkójọpọ tí a kọ́ ní àwọn ọdún ECC:
-- [Ìlànà owó:](https://electriccoin.co/blog/coinbase-zashi-1-2-release/) àwọn tí kò tíì mọ̀ nípa ẹyọ owó kọ́kọ́rípù lè ra ZEC ní tààràtà nínú àpò, kí wọ́n sì bọ́ sí ìdààmú tó máa ń bá wíwé orúkọ akọọlẹ kan àti jíjẹ́ káwọn èèyàn mọ̀ ọ tàbí yíya owó kúrò lára rẹ.
+- [Coinbase:](https://electriccoin.co/blog/coinbase-zashi-1-2-release/) àwọn tí kò tíì mọ̀ nípa ẹyọ owó kọ́kọ́rípù lè ra ZEC ní tààràtà nínú àpò, kí wọ́n sì bọ́ sí ìdààmú tó máa ń bá wíwé orúkọ akọọlẹ kan àti jíjẹ́ káwọn èèyàn mọ̀ ọ tàbí yíya owó kúrò lára rẹ.
 
 - [Flexa: ì í ë ¤ì 'í ¬](https://electriccoin.co/blog/zashi-flexa-integration-is-here-spend-zec-at-thousands-of-retailers/) ó mú kí o rọrùn láti lo ZEC, tí yóò jẹ́ káwọn oníbàárà tuntun lè ná owó náà ní ẹgbẹẹgbẹ̀rún àwọn ilé ìtajà bíi Barnes & Noble, GameStop àti Chipotle.
 

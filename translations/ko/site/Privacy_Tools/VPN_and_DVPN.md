@@ -54,7 +54,7 @@ Zcash(ZEC)는 금융 거래에서 향상된 프라이버시를 제공하도록 �
 
    __Zcash 결제__: Mullvad는 Zcash를 결제 옵션으로 받아들여, 사용자가 보안성이 높은 방식으로 구독료를 지불할 수 있도록 합니다. Mullvad VPN.
 
-3. [__Nym VPN (dVPN)__](https://nymtech.net/)
+3. [__Nym VPN (dVPN)__](https://nym.com/)
    
    Nym VPN은 프라이버시 중심 네트워크를 통해 사용자의 프라이버시와 보안을 향상시키는 분산형 가상 사설망(dVPN)입니다. 전통적인 VPN과 달리, Nym VPN은 mixnet을 활용하여 사용자 트래픽을 노드 네트워크를 통해 라우팅합니다. Nym VPN의 주요 기능은 다음과 같습니다:
 
@@ -66,11 +66,13 @@ Zcash(ZEC)는 금융 거래에서 향상된 프라이버시를 제공하도록 �
 
    __강력한 프라이버시__: Nym VPN은 프라이버시에 중점을 두고 있으며, 계정 생성 시 개인 정보 제공이 필요하지 않습니다.
 
+Zcash 지갑별 라우팅에 대해서는 [Nym 믹스넷을 통해 Zcash 지갑 트래픽 라우팅하기](./Nym_Mixnet_Wallet_Setup.md)을(를) 참조하세요.
+
 ## Zcash 결제를 지원하는 다른 VPN:
 
- 3. [__ExpressVPN__](https://www.expressvpn.com/)
- 4. [__NordVPN__](https://nordvpn.com/)
- 5. [__CyberGhost__](https://www.cyberghostvpn.com/en_US/)
- 6. [__Private Internet Access (PIA)__](https://www.privateinternetaccess.com/)
+3. [__ExpressVPN__](https://www.expressvpn.com/)
+4. [__NordVPN__](https://nordvpn.com/)
+5. [__CyberGhost__](https://www.cyberghostvpn.com/)
+6. [__Private Internet Access (PIA)__](https://www.privateinternetaccess.com/)
 
 암호화폐 결제 옵션의 가용성은 변경될 수 있으므로, Zcash를 포함한 수락되는 결제 방법에 대한 최신 정보를 확인하려면 해당 VPN 제공업체의 웹사이트나 고객 지원팀에 문의하는 것이 좋습니다.

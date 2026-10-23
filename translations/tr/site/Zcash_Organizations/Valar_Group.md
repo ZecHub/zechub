@@ -6,7 +6,7 @@
 
 [Web sitesini ziyaret edin](https://valargroup.dev/)
 
-<img width="200" height="200" alt="254678133" src="https://github.com/user-attachments/assets/0dc8c697-bcad-492a-b024-89b502d27af4" />
+<img width="200" height="200" alt="254678133" src="/content-images/0dc8c697-bcad-492a-b024-89b502d27af4-4c0d4552c2.webp" />
 
 
 ## Misyon Beyanı
@@ -171,7 +171,7 @@ Valar Group, Zcash'in 2026 geliştirme ortamı etrafında oluşan bağımsız pr
 - **Project Tachyon**, özyineleme, biçimsel doğrulama ve uzun vadeli ölçeklenebilirliğe odaklanmaktadır.
 - **Valar Group**, özel coin sahibi oylaması, düğüm performansı, PIR ve bu sistemlerin üretimde işletilmesi için gereken mühendisliğe odaklanmaktadır.
 
-Ayırt edici katkısı, korumalı yönetişimi operasyonel hâle getirmesidir. NU7 oylaması bu altyapının ilk büyük kullanımıdır: sahipler Ironwood bakiyelerini kanıtlar, Zodl ve Vizor gibi cüzdanlar akışı entegre edebilir ve herkes belirli bir sahibin nasıl oy kullandığını öğrenmeden sayımı denetleyebilir.
+Ayırt edici katkısı, korumalı yönetişimi operasyonel hâle getirmesidir. NU7 oylaması bu altyapının ilk büyük kullanımıdır: sahipler Ironwood bakiyelerini kanıtlar, ZODL ve Vizor gibi cüzdanlar akışı entegre edebilir ve herkes belirli bir sahibin nasıl oy kullandığını öğrenmeden sayımı denetleyebilir.
 
 Aynı ekibin düğüm ve senkronizasyon çalışmaları, bu tablonun diğer yarısını desteklemeyi amaçlar. Cüzdanlar senkronize olamıyorsa, düğümler yetişemiyorsa veya yükseltmeler hızlıca uygulanamıyorsa özel oylama daha az faydalıdır. Valar Group, yönetişimi, düğüm yazılımını ve cüzdan altyapısını tek bir sorun olarak ele alır: operasyonel gücü tek bir kuruluşta yoğunlaştırmadan özel Zcash'i ölçekli biçimde kullanılabilir kılmak.
 

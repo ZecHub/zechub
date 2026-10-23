@@ -137,14 +137,14 @@ Para mantener esto legible, simplificamos. Las especificaciones reales se escrib
 
 | Término | Significado en lenguaje sencillo |
 |---|---|
-| **Verificación formal** | Demostrar matemáticamente que un sistema cumple una especificación en todos los casos |
-| **Especificación** | Una declaración precisa de lo que significa «comportamiento correcto» |
-| **Sistema** | El programa, circuito o protocolo real que se está comprobando |
-| **Prueba** | Una cadena finita de pasos lógicos que establece una afirmación para todos los casos |
-| **Asistente de pruebas / demostrador de teoremas** | Software (Lean, Rocq, Isabelle) que comprueba cada paso de una prueba |
-| **Verificado por una máquina** | Verificado paso a paso por una computadora, no solo mediante lectura humana |
-| **Inducción** | Una técnica de prueba: es verdadera al inicio y cada paso la lleva al siguiente |
-| **Suposición** | Una condición de la que depende la prueba; si es falsa, la garantía puede no cumplirse |
+| **Formal verification** | Demostrar matemáticamente que un sistema cumple una especificación en todos los casos |
+| **Specification** | Una declaración precisa de lo que significa «comportamiento correcto» |
+| **System** | El programa, circuito o protocolo real que se está comprobando |
+| **Proof** | Una cadena finita de pasos lógicos que establece una afirmación para todos los casos |
+| **Proof assistant / theorem prover** | Software (Lean, Rocq, Isabelle) que comprueba cada paso de una prueba |
+| **Machine-checked** | Verificado paso a paso por una computadora, no solo mediante lectura humana |
+| **Induction** | Una técnica de prueba: es verdadera al inicio y cada paso la lleva al siguiente |
+| **Assumption** | Una condición de la que depende la prueba; si es falsa, la garantía puede no cumplirse |
 
 ---
 

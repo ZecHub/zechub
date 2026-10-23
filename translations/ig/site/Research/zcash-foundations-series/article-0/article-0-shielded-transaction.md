@@ -1,7 +1,7 @@
 # Otu Azụmaahịa Zcash E Chebere na-arụ ọrụ n'ezie
 ##### Nnyocha mbụ sitere na [Annkkitaaa](https://github.com/Annkkitaaa)
 
-! [Alt ederede](/content-images/image-fedc371488.webp)
+! ![Alt ederede](/content-images/image-fedc371488.webp)
 
 ### Ihe omuma tupu mgbakọ na mwepụ: enweghị usoro nhazi nke ịkwụ ụgwọ onwe onye
 
@@ -35,18 +35,18 @@ Idozi nghọtahie ahụ bụ akụkọ dum nke usoro isiokwu a. Ka anyị malite
 
 Before anything else, clear up a common misconception: **Zcash is not "the private coin." It's a coin that offers privacy as an option.** It actually started life as a fork of Bitcoin, and it carries two parallel systems on the same blockchain.
 
-❖ Ụwa nke na-enwu n'ime mmiri ❖ Eluigwe nke e kpuchiri ekpuchi ❖
+| | **Ụwa doro anya** | **Ụwa e ji ọta kpuchie** |
 |---|---|---|
-Nzuzo. Ọha, dị ka Bitcoin. Nkeonwe.
-Adreesị na-amalite site na... `t...` | `z...` or `u...` |
-❖ Onye na-ezipụ / onye na-anata / ego ❖ E nwere ike ịhụ ya anya ❖ A gaghị ahụ ya anya
-◯ Nkà na ụzụ ndị dị n'azụ ◯ Akwụkwọ ndekọ ọha na eze dị ka nke Bitcoin ◯ Nkwekọrịta nzuzo + ihe akaebe na-enweghị ihe ọmụma
+| Nzuzo | Ọha, dịka Bitcoin | Nkeonwe |
+| Adreesị na-amalite na | `t...` | `z...` or `u...` |
+| Onye zitere / onye nnata / ego | **A na-ahụ ya** nye mmadụ niile | **Zoro** site n'aka onye ọ bụla |
+| Teknụzụ dị n'okpuru | ledger ọha na eze nke ụdị Bitcoin | Nkwa nzuzo + ihe akaebe na-enweghị ihe ọmụma |
 
 Ego nwedịrị ike ịgafe ókèala dị n'etiti ha: ịkwaga ego * n'ime * ụwa a na-echebe bụ * mkpuchi *, na ịkwapụ ha bụ * unshielding *.
 
 The transparent world is "Bitcoin you already roughly understand." It's the **shielded world** that contains all the beautiful cryptography, and that's the only world this series cares about.
 
-! [Alt ederede](/content-images/image-1-f821d24c6f.webp)
+! ![Alt ederede](/content-images/image-1-f821d24c6f.webp)
 
 ---
 
@@ -72,13 +72,13 @@ Ugbu a, ka anyị nye ha ezigbo aha ha.
 
 Okwu ise ndị a bụ okwu niile nke Zcash echekwara. Mụta ha dịka akụkọ, ọ bụghị dị ka akwụkwọ ọkọwa okwu, ha ga-arapara.
 
-N'akụkọ ahụ, ezigbo okwu Zcash bụ ihe ọ bụ n'ezie.
+| N'akụkọ ahụ | Okwu Zcash n'ezie | Ihe ọ bụ n'ezie |
 |---|---|---|
- Ihe dị n'ime envelopu (ego + onye nwe ya + ihe nzuzo)  **Rịba ama**  The private "coin": a chunk of value belonging to someone
-| The sealed, opaque envelope on the board | **Note commitment** | A cryptographic seal proving an envelope exists while hiding what's inside |
-◯ Ogwe akwụkwọ ozi ahụ n'onwe ya ◯ ◯ Osisi ntinye akwụkwọ ◯ A na-edebanye ihe ndekọ nke akwụkwọ ọ bụla e dere ede.
-◯ Ihe na-adịghị adị n'ebe a na-etinye ego ◯ Nkọwa pụrụ iche nke pụtara na e jirila ego a mee ihe ugbu a
-"N'azụ ákwà mgbochi" anwansi. Ihe akaebe na-egosi na mmefu ahụ dum bụ ihe ziri ezi, na-ekpugheghị ihe ọ bụla.
+| Ihe dị n'ime envelopu ahụ (ego + onye nwe ya + ihe nzuzo) | **Rịba ama** | "Mkpụrụ ego nkeonwe": obere uru nke onye nwe ya |
+| Envelopu ahụ e mechiri emechi, nke na-adịghị acha ọcha nke dị na bọọdụ ahụ | **Rịba ama nkwa** | Akara nzuzo nke na-egosi na envelopu dị ma na-ezo ihe dị n'ime ya |
+| Akwụkwọ ozi ahụ n'onwe ya | **Rịba ama osisi nkwa** | Ndekọ mgbakwunye naanị nke *ndetu ọ bụla e kere* |
+| Ihe nrịbama efu dị na ihe mkpofu "gbanyụrụ" | **Ihe na-emebi ihe** | Ihe nrịbama pụrụ iche nke pụtara "e mefuru ego a ugbu a" |
+| Anwansi "n'azụ ákwà mgbochi" | **Ihe akaebe na-enweghị ihe ọmụma** | Ihe akaebe na mmefu niile dị irè, ọ dịghịkwa ihe ọ bụla gosiri na o mere |
 
 If you remember nothing else from this article, remember this table. Everything that follows is just *why* each piece has to be shaped the way it is.
 
@@ -124,7 +124,7 @@ The miracle is that the proof reveals **none** of those facts. Not the amount, n
 
 A note is *born*, it *lives* on the board, and eventually it *dies*, and crucially, its birth and its death look unrelated to anyone watching.
 
-! [Alt ederede](/content-images/image-2-0eca0ea4f7.webp)
+! ![Alt ederede](/content-images/image-2-0eca0ea4f7.webp)
 
 ---
 
@@ -132,7 +132,7 @@ A note is *born*, it *lives* on the board, and eventually it *dies*, and crucial
 
 Ka anyị lee ka Alice si kwụọ Bob ụgwọ, ka a na-edepụta nzọụkwụ ọ bụla o mere n'ihu ọha na nke onwe ya.
 
-! [Alt ederede](/content-images/image-4-7af0dfe795.webp)
+! ![Alt ederede](/content-images/image-4-7af0dfe795.webp)
 
 Rịba ama asymmetry nke na-eme ka nzuzo ọrụ:
 
@@ -146,14 +146,14 @@ Rịba ama asymmetry nke na-eme ka nzuzo ọrụ:
 
 ## 8. Ihe ụwa na-ahụ vs. ihe zoro ezo
 
-Eziokwu banyere ịkwụ ụgwọ ahụ, ọ bụ ihe ọha na eze ga-ahụ?
+| Eziokwu gbasara ịkwụ ụgwọ ahụ | Ọha na eze na-ahụ ya? |
 |---|---|
-Na *a* shielded azụmahịa mere. Ee.
-❑ Ọ na-erube isi n'iwu nile (ọ dịghị adịgboroja, ọ dịghị eji okpukpu abụọ emefu ego) ❑ Ee (site na ihe akaebe)
-Ònye zitere ego ahụ? Ezochiri ya.
-Onye natara ya. Zoro ezo.
-♬ ** Ego ole ** ka e zigara ♬ Zoro ezo ♫
-**Kedụ** akwụkwọ ozi mbụ e ji mee ihe. Zoro ezo
+| Na *a* azụmahịa echekwara mere |  Ee |
+| Na o rubere isi n'iwu niile (anaghị emefu ego, ọ dịghị imefu ego ugboro abụọ) |  Ee (site na ihe akaebe) |
+| **Onye** zitere ego ahụ |  Ezoro ezo |
+| **Onye** natara ya |  Ezoro ezo |
+| **Ego ole ka e zigara** |  Ezoro ezo |
+| **Nke** e tinyere akwụkwọ ndetu mbụ |  Ezoro ezo |
 
 This is the resolution of the paradox from Section 1. The public verifies the *rules*, not the *contents*. Verification and privacy stop fighting, because the zero-knowledge proof lets you check the former without touching the latter.
 
@@ -187,15 +187,15 @@ This is a **mental model**, not the spec. To keep it newcomer-friendly we've qui
 
 "Anyị ga-alaghachi na nke a" ọ bụla dị n'elu bụ eri. Nke a bụ ebe a na-ejikọta nke ọ bụla:
 
-! [Alt ederede](/content-images/image-29-27ef4636ff.webp)
+! ![Alt ederede](/content-images/image-29-27ef4636ff.webp)
 
-◯ N'isiokwu a, e nwere otu ihe a na-emebeghị. ◯ Ebe a ga-edozi ya.
+| Nkọwa zuru oke site n'isiokwu a | Ebe a na-edozi ya |
 |---|---|
-❑ Olee otú envelopu e mechiri emechi pụrụ isi bụrụ nke a na-apụghị izo ezo *na* nke na-enweghị ike ịgha ụgha? ▪ Nkeji edemede 3: nkwa
-❑ Ebee ka igodo na usoro nri nzuzo si abịa? ❑ Isiokwu 1 & 2: ubi na curves
-❑ Olee ihe bụ́ "ụyọkọ" ahụ kpọmkwem? ▪ Nkeji edemede 4: Osisi Merkle
-| How can you prove something while revealing nothing? | Article 5: zero-knowledge proofs |
-❑ Olee otú ihe ise ahụ si ejikọta ọnụ n'ezi Zcash? ❑ Nkeji edemede 6: usoro nchebe.
+| Kedu ka envelopu e mechiri emechi ga-esi bụrụ ma ihe zoro ezo ma ihe a na-apụghị ịgbanwe agbanwe? | Isiokwu nke atọ: nkwa |
+| Ebee ka igodo na uzommeputa nzuzo si abịa? | Isiokwu nke 1 na nke 2: ubi na usoro |
+| Gịnị bụ *bọdụ ahụ* kpọmkwem? | Isiokwu nke 4: Osisi Merkle |
+| Kedu ka ị ga-esi gosi ihe n'agbanyeghị na ị naghị ekpughe ihe ọ bụla? | Isiokwu nke ise: ihe akaebe na-egosi na enweghị ihe ọmụma |
+| Kedu ka iberibe ise niile si ejikọta ọnụ na ezigbo Zcash? | Nkeji edemede nke isii: usoro nchekwa |
 
 ---
 
@@ -213,15 +213,15 @@ Ugbu a, jide map ahụ. Ndị fọdụrụ n'usoro ahụ na-emejupụta ya.
 
 ## Okwu
 
-Okwu. N'asụsụ Bekee nkịtị pụtara.
+| Oge okwu | Nkọwa Bekee dị mfe |
 |---|---|
-** Cheta ** A onwe unit nke uru, Zcash si Ẹkot a mkpụrụ ego ma ọ bụ akwụkwọ ego.
-** Nkwekọrịta akwụkwọ ego** A akara cryptographic nke na-egosi na akwụkwọ ego dị n'ekpugheghị ya.
-♬ ** Osisi ntinye akwụkwọ ** ♬ Ihe ndekọ ọha na eze nke ntinye akwụkwọ niile
-** Nullifier ** A pụrụ iche "na-emefu" akara bipụtara mgbe a dee na-eji, na-egbochi abụọ-eji.
-Ihe akaebe na-egosi na okwu bụ eziokwu ma na-ekpughe ihe ọ bụla karịa eziokwu ya.
-♬ **Ichebe/iwepụ ichebe** ♬ Ịkwaga ego n'ime/n'èzí ụwa nzuzo a na-echebe.
-** Igodo nlele ** Igodi nke na-eme ka onye nwe ya chọpụta ma gụọ ihe edere na ya.
+| **Note** | Ọnụọgụ uru nkeonwe, Zcash's yiri mkpụrụ ego ma ọ bụ akwụkwọ ego |
+| **Note commitment** | Akara nzuzo nke na-egosi na ndetu dị adị n'ekpugheghị ya |
+| **Note commitment tree** | Ndekọ ọha na eze nke nkwa ndetu niile dị na mgbakwunye |
+| **Nullifier** | Ihe nrịbama "e mefuru" pụrụ iche nke e bipụtara mgbe ejiri akwụkwọ ndetu mee ihe, na-egbochi mmefu okpukpu abụọ |
+| **Zero-knowledge proof** | Ihe akaebe na-egosi na okwu bụ eziokwu ebe ọ na-ekpughe ihe ọ bụla karịrị eziokwu ya |
+| **Shielding / deshielding** | Ịkwaga ego n'ime / n'ime ụwa nkeonwe echekwara |
+| **Viewing key** | Igodo nke na-enye onye nwe ya ohere ịchọpụta ma gụọ ihe ndetu e degaara ha |
 
 ---
 

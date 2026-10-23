@@ -10,7 +10,7 @@ This guide provides a step by step walkthrough on how to perform multisig transa
     src="https://www.youtube.com/embed/eagkCIv3BlQ"
     title="Zkool Demo | The Successor to Ywallet"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    jẹ́ kíFullScreen
+    allowFullScreen
     loading="lazy"
   />
 </div>
@@ -22,12 +22,12 @@ This guide provides a step by step walkthrough on how to perform multisig transa
 1. Ṣii ohun elo Zkool ki o lọ si Akọọlẹ Tuntun.
 
 
-! [ì ì1 ](/content-images/ee906e49-361a-49b6-9484-904897fe2e3f-074e400a9c.webp)
+! ![ì ì1 ](/content-images/ee906e49-361a-49b6-9484-904897fe2e3f-074e400a9c.webp)
 
 3. Kọ orúkọ àkáǹtì rẹ sílẹ̀ (bíi Anabelle). 
    
 
-! [ì ì ì2 ](/content-images/e9c325d3-8507-433a-a0c6-6e8c1ea2a254-a637810ed5.webp)
+! ![ì ì ì2 ](/content-images/e9c325d3-8507-433a-a0c6-6e8c1ea2a254-a637810ed5.webp)
 
 
 4. O lè yípò **Láti Lo Àtúnṣe Àárínlé** tàbí **Tún Àkáǹtì ṣe** bí ó bá pọn dandan.
@@ -36,7 +36,7 @@ This guide provides a step by step walkthrough on how to perform multisig transa
 5. Lẹ́yìn tí o bá ti dá àkọọ́lẹ̀ náà sílẹ̀, ó máa fara hàn nínú ìtòlẹ́sẹẹsẹ ìkànnì rẹ. 
 
 
-! [ì ì ì3 ](/content-images/c446cbca-fb3e-49b9-b1d4-fd727cd1b0fb-971cf76b33.webp)
+! ![ì ì ì3 ](/content-images/c446cbca-fb3e-49b9-b1d4-fd727cd1b0fb-971cf76b33.webp)
 
 
 ## 2. Gbígba Owó
@@ -55,7 +55,7 @@ Akọọlẹ kọọkan n ṣe agbekalẹ awọn iru adirẹsi pupọ:
 Yan iru ti o fẹ lo ki o si pin lati gba owo. 
 
 
-! [ì ì 1⁄4](/content-images/c9de5dfe-e9d7-423d-8d90-35c1a08ffd5d-a0d6a4e7b7.webp)
+! ![ì ì 1⁄4](/content-images/c9de5dfe-e9d7-423d-8d90-35c1a08ffd5d-a0d6a4e7b7.webp)
 
 
 
@@ -66,7 +66,7 @@ Yan iru ti o fẹ lo ki o si pin lati gba owo.
 1. Lọ sí abala "Ẹni tó ń gbà á". 
 
 
-! [ì í ì °5](/content-images/9f3a03b9-dd56-450c-a8dc-4370f9289138-3217d846b7.webp)
+! ![ì í ì °5](/content-images/9f3a03b9-dd56-450c-a8dc-4370f9289138-3217d846b7.webp)
 
 
 3. Kọ àdírẹ́sì ẹni tó ń gba owó náà sínú rẹ. 
@@ -79,7 +79,7 @@ Yan iru ti o fẹ lo ki o si pin lati gba owo.
 Nígbà tí ó bá parí, àfikún owó náà yóò wà nínú àkọọ́lẹ̀ àkọsílẹ̀ rẹ. 
 
 
-! [ì ì °6](/content-images/6e6da76b-cd18-4567-a5c0-74f07ddefc64-78dc3362dc.webp)
+! ![ì ì °6](/content-images/6e6da76b-cd18-4567-a5c0-74f07ddefc64-78dc3362dc.webp)
 
 
 ## 4. Ṣiṣe awọn iṣowo Multisig: Ṣiṣeto ipilẹṣẹ bọtini pinpin (Multisig)

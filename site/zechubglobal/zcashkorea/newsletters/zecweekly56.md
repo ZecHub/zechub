@@ -41,7 +41,7 @@ Curated by 'TonyAkins'([@TonyAkins01](https://twitter.com/TonyAkins01))
 [#dWebCamp에서 협력하는 ZFAV와 Zcash 브라질!](https://twitter.com/ZFAVClub/status/1692289261263868271)
  ( #dWebCamp address : https://dwebcamp.org/ )
 
-[Zcash 북클럽 첫 미팅](https://zcashambassadors.com/event/zcash-book-club-first-meeting/)
+[Zcash 북클럽 첫 미팅](https://web.archive.org/web/20231210230022/https://zcashambassadors.com/event/zcash-book-club-first-meeting/)
 
 
 ## 뉴스 & 미디어

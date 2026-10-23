@@ -21,14 +21,14 @@ NU6 ha continuato a destinare il 20% del sussidio di blocco al finanziamento del
 
 Il resto del sussidio di blocco, più le commissioni di transazione, va ai miner che proteggono la rete. NU6 ha anche aggiornato le regole esistenti dei funding stream e del dev fund (ZIP 207 e ZIP 214) per adattarle a questa nuova struttura.
 
-![Suddivisione del development fund di NU6: il 20 percento del sussidio di blocco va allo sviluppo, con l’8 percento a Zcash Community Grants e il 12 percento nel Deferred Dev Fund Lockbox](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/nu6-dev-fund-split.png)
+![Suddivisione del development fund di NU6: il 20 percento del sussidio di blocco va allo sviluppo, con l’8 percento a Zcash Community Grants e il 12 percento nel Deferred Dev Fund Lockbox](/content-images/nu6-dev-fund-split-08bc73e317.webp)
 
 ## Il lockbox differito
 
-La quota del 12% è la nuova idea introdotta da NU6. Invece di essere pagato a un indirizzo destinatario, quel valore viene depositato direttamente in un pool nel protocollo chiamato Deferred Dev Fund Lockbox, definito in [ZIP 2001](https://zips.z.cash/zip-2001).
+La quota del 12% è la nuova idea introdotta da NU6. Invece di essere pagato a un indirizzo destinatario, quel valore viene depositato direttamente in una pool nel protocollo chiamata Deferred Dev Fund Lockbox, definita in [ZIP 2001](https://zips.z.cash/zip-2001).
 
 1. Il lockbox è un nuovo tipo di funding stream (DEFERRED_POOL), in cui il valore della ricompensa di blocco confluisce nel protocollo stesso, non a una persona o organizzazione.
-2. La rete lo tiene traccia come saldo di un proprio pool di valore della catena, allo stesso modo in cui tiene traccia dei saldi dei pool schermati.
+2. La rete lo tiene traccia come saldo di una propria pool di valori della chain, allo stesso modo in cui tiene traccia dei saldi delle pool schermate.
 3. NU6 ha creato il lockbox intenzionalmente ma ha lasciato aperta la domanda più difficile: chi controlla quei fondi e come vengono rilasciati?
 
 A questa domanda è stata data risposta in seguito da [NU6.1](../zcash-tech/nu6-1), che ha definito la governance: ha continuato il flusso dell’8% del sussidio di blocco verso Zcash Community Grants e ha indirizzato un flusso del 12% in un fondo controllato dai detentori di monete alimentato dal lockbox.
@@ -41,7 +41,7 @@ NU6 ha anche chiuso un vuoto contabile nel modo in cui viene creato il nuovo ZEC
 2. Dopo NU6, una transazione coinbase deve essere esattamente in equilibrio: il valore totale in uscita deve essere uguale al sussidio del miner più le commissioni, né più né meno.
 3. Poiché i miner non possono più reclamare meno del dovuto e bruciare accidentalmente ZEC, l’ammontare totale di ZEC che esisterà mai ora può essere previsto con esattezza.
 
-![Bilanciamento della coinbase prima e dopo NU6: prima, la coinbase poteva reclamare meno del dovuto e bruciare ZEC, quindi l’offerta non era prevedibile con esattezza. Dopo, la coinbase deve essere esattamente in equilibrio, quindi l’emissione è esattamente prevedibile](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/nu6-coinbase-balance.png)
+![Bilanciamento della coinbase prima e dopo NU6: prima, la coinbase poteva reclamare meno del dovuto e bruciare ZEC, quindi l’offerta non era prevedibile con esattezza. Dopo, la coinbase deve essere esattamente in equilibrio, quindi l’emissione è esattamente prevedibile](/content-images/nu6-coinbase-balance-0fa2394799.webp)
 
 ## Come si è evoluto il finanziamento
 
@@ -51,18 +51,18 @@ NU6 è un capitolo di una storia più lunga su come Zcash finanzia se stesso.
 2. NU6 (novembre 2024) ha ristrutturato quel finanziamento dopo il secondo halving e ha istituito il Deferred Dev Fund Lockbox, riservando una quota dell’emissione per futuri grant decisi dalla comunità.
 3. NU6.1 (2025) ha risposto alla domanda lasciata aperta da NU6, cioè chi controlla i fondi riservati, continuando a destinare l’8% del sussidio di blocco a Zcash Community Grants e indirizzando il 12% in un fondo controllato dai detentori di monete alimentato dal lockbox.
 
-![Come si è evoluto il finanziamento di Zcash: Canopy ha creato il development fund, NU6 ha istituito il lockbox e NU6.1 ha stabilito le regole su chi lo controlla](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/nu6-funding-timeline.png)
+![Come si è evoluto il finanziamento di Zcash: Canopy ha creato il development fund, NU6 ha istituito il lockbox e NU6.1 ha stabilito le regole su chi lo controlla](/content-images/nu6-funding-timeline-2427db58c0.webp)
 
 ## Glossario
 
 | Termine | Significato in parole semplici |
 |---|---|
-| Sussidio di blocco | Il nuovo ZEC creato con ogni blocco che viene minato |
-| Transazione coinbase | La transazione speciale che distribuisce il sussidio e le commissioni di un blocco |
+| Block subsidy | Il nuovo ZEC creato con ogni blocco che viene minato |
+| Coinbase transaction | La transazione speciale che distribuisce il sussidio e le commissioni di un blocco |
 | Deferred Dev Fund Lockbox | Una riserva nel protocollo che conserva una quota dell’emissione per un futuro utilizzo deciso dalla comunità |
 | Zcash Community Grants (ZCG) | Un comitato che finanzia lavori realizzati dalla e per la comunità Zcash |
 | Consensus branch id | L’identificatore che i nodi usano per capire quali regole di aggiornamento segue un blocco |
-| Aggiornamento di rete (NU) | Una modifica coordinata alle regole di consenso di Zcash, attivata a una determinata altezza di blocco |
+| Network upgrade (NU) | Una modifica coordinata alle regole di consenso di Zcash, attivata a una determinata altezza di blocco |
 
 ## FAQ
 

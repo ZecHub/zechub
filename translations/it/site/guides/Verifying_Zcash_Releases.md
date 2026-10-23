@@ -18,7 +18,7 @@
 
 ## Perché questo conta ancora di più per Zcash
 
-Un binario wallet manomesso può esfiltrare una spending key o una viewing key. A differenza di una password compromessa, questa perdita è permanente: non c'è rollback, non c'è chargeback e non c'è assistenza clienti. Le transazioni shielded proteggono ciò che avviene *on chain*, ma non offrono alcuna protezione quando il software che stai eseguendo è stato sostituito prima ancora di raggiungerti.
+Un binario del portafoglio manomesso può esfiltrare una chiave di spesa o una chiave di visualizzazione. A differenza di una password compromessa, questa perdita è permanente: non c'è rollback, non c'è chargeback e non c'è assistenza clienti. Le transazioni schermate proteggono ciò che avviene *on-chain*, ma non offrono alcuna protezione quando il software che esegui è stato sostituito prima ancora di raggiungerti.
 
 Questo è uno dei pochi vettori d'attacco per cui le garanzie di privacy del protocollo semplicemente non sono rilevanti. La verifica è il livello che copre questo rischio.
 
@@ -176,13 +176,13 @@ Il Subject Alternative Name è l'identità. Indica il repository, il file esatto
 
 | Campo | Valore per v6.3.0 |
 |---|---|
-| Emittente OIDC | `https://token.actions.githubusercontent.com` |
-| Repository sorgente | `https://github.com/ZcashFoundation/zebra` |
-| Commit di build | `f5c5277fe41eba9c74f37098738f93f35dd70d60` |
+| OIDC issuer | `https://token.actions.githubusercontent.com` |
+| Source repository | `https://github.com/ZcashFoundation/zebra` |
+| Build commit | `f5c5277fe41eba9c74f37098738f93f35dd70d60` |
 | Ref | `refs/tags/v6.3.0` |
-| Ambiente runner | `github-hosted` |
-| Esecuzione workflow | `.../actions/runs/31424510487/attempts/1` |
-| Visibilità del repository | `public` |
+| Runner environment | `github-hosted` |
+| Workflow run | `.../actions/runs/31424510487/attempts/1` |
+| Repository visibility | `public` |
 
 Ognuno di questi elementi è verificabile. L'hash del commit dovrebbe corrispondere al tag nel repository; l'esecuzione del workflow dovrebbe esistere ed essere pubblica.
 
@@ -219,13 +219,13 @@ Il bundle contiene una voce Rekor che prova che la firma è stata pubblicata in 
 
 | Campo | Valore |
 |---|---|
-| Indice log Rekor | `2412071838` |
-| Tipo di voce | `hashedrekord v0.0.1` |
-| Integrata il | 2026-08-10 19:43:09 UTC |
+| Rekor log index | `2412071838` |
+| Entry type | `hashedrekord v0.0.1` |
+| Integrated at | 2026-08-10 19:43:09 UTC |
 
 È questo che rende rilevabile un uso improprio silenzioso delle chiavi. Una firma che non è mai comparsa nel log, o che vi è comparsa in un momento implausibile, è un segnale su cui vale la pena agire. Confronta il tempo di integrazione con l'annuncio della release.
 
-> **Nota sul percorso OpenSSL:** verifica la firma rispetto alla chiave pubblica del certificato, ma di per sé non convalida la catena del certificato fino alla root di Sigstore né controlla la prova di inclusione della voce nel log. `cosign verify-blob` fa tutte e tre le cose. Usa OpenSSL per capire il meccanismo; usa `cosign` come controllo effettivo.
+> **Nota sul percorso OpenSSL:** verifica la firma rispetto alla chiave pubblica del certificato, ma di per sé non convalida la catena di certificati fino alla radice di Sigstore né controlla la prova di inclusione della voce di log. `cosign verify-blob` fa tutte e tre le cose. Usa OpenSSL per capire il meccanismo; usa `cosign` come controllo effettivo.
 
 ---
 
@@ -384,6 +384,7 @@ La verifica è utile solo se sai riconoscere un fallimento. Eccone uno reale, ot
 
 ```bash
 cp zebrad-6.3.0-x86_64-unknown-linux-gnu.tar.gz tampered.tar.gz
+sha256sum tampered.tar.gz > tampered.sha256
 printf '\x00' >> tampered.tar.gz
 sha256sum -c tampered.sha256
 ```
@@ -427,31 +428,31 @@ Un fallimento della firma è più grave di un fallimento del checksum. Una discr
 
 | Progetto | Release pubblicate su | Metodo | Da dove proviene la chiave |
 |---|---|---|---|
-| **Zebra** | `github.com/ZcashFoundation/zebra/releases` | `SHA256SUMS` + bundle Sigstore | Nessuna chiave: identità CI tramite GitHub OIDC |
-| **Zallet** | `github.com/zcash/zallet/releases` | GPG `.asc` distaccato, provenance SLSA, SBOM | `apt.z.cash/zodl.asc` — primaria `0338 34DD…58E2 6AB1`, sottochiave di firma `1FE9 9324…23F0 617F` |
+| **Zebra** | `github.com/ZcashFoundation/zebra/releases` | `SHA256SUMS` + Sigstore bundle | Nessuna chiave: identità CI tramite GitHub OIDC |
+| **Zallet** | `github.com/zcash/zallet/releases` | Detached GPG `.asc`, SLSA provenance, SBOM | `apt.z.cash/zodl.asc` — primaria `0338 34DD…58E2 6AB1`, sottochiave di firma `1FE9 9324…23F0 617F` |
 | **zcashd** | *ritirato* | — | Arrestato al blocco 3,417,100 il 2026-07-18. Non installarlo. |
-| **Zodl** (ex Zashi) | App Store / Google Play; `zodl-inc` su GitHub | Firma dello store; binari Android standalone firmati con GPG | Chiave ZODL secondo la dichiarazione di transizione |
+| **Zodl** (ex Zashi) | App Store / Google Play; `zodl-inc` su GitHub | Store signing; standalone Android binaries GPG-signed | Chiave ZODL secondo la dichiarazione di transizione |
 
-> **Nota sul nome:** Zashi è stato rinominato in **Zodl** nel 2026, prima su App Store e poi su Google Play. Le guide più vecchie che si riferiscono a "Zashi" descrivono la stessa linea di wallet.
+> **Nota sul nome:** Zashi è stato rinominato in **Zodl** nel 2026, prima su App Store e poi su Google Play. Le guide più vecchie che si riferiscono a "Zashi" descrivono la stessa linea di portafogli.
 
 ---
 
-## Parte 5 — Wallet mobili e hardware wallet
+## Parte 5 — Portafogli mobili e portafogli hardware
 
 La verifica funziona in modo diverso quando si esce dai download diretti.
 
 **App store.** Non puoi controllare personalmente una firma. È lo store a firmare il pacchetto, e tu ti fidi della revisione dello store e dell'integrità dell'account sviluppatore. Quello che *puoi* verificare è di avere l'app giusta: conferma il nome dell'editore e l'identificatore del pacchetto rispetto al sito ufficiale del progetto, non ai risultati di ricerca. Le app di impersonificazione sono comuni, e una scheda nello store non è una prova di autenticità.
 
-**APK Android standalone.** Questi *possono* essere verificati. ZODL pubblica binari Android standalone firmati con GPG tramite GitHub Releases, quindi si applica il flusso della Parte 2. Preferisci questo percorso se vuoi una catena verificabile.
+**APK Android autonomi.** Questi *possono* essere verificati. ZODL pubblica binari Android autonomi firmati con GPG tramite GitHub Releases, quindi si applica il flusso della Parte 2. Preferisci questo percorso se vuoi una catena verificabile.
 
-**Hardware wallet.** Il dispositivo attesta il proprio firmware, quindi l'ancora di fiducia è l'hardware, non un file sulla tua macchina. Vedi [Keystone Zashi](/guides/keystone-zashi) per il flusso di verifica del dispositivo. Acquista direttamente dal produttore: le manomissioni della supply chain avvengono tra la fabbrica e l'acquirente.
+**Portafogli hardware.** Il dispositivo attesta il proprio firmware, quindi l'ancora di fiducia è l'hardware, non un file sulla tua macchina. Vedi [Keystone Zashi](/guides/keystone-zashi) per il flusso di verifica del dispositivo. Acquista direttamente dal produttore: le manomissioni della supply chain avvengono tra la fabbrica e l'acquirente.
 
 ---
 
 ## Ulteriori letture
 
 - [Sicurezza dell'ecosistema Zcash](/zcash-community/zcash-ecosystem-security) — policy di divulgazione e contatti di sicurezza
-- [Nodo completo Zebra](/zcash-tech/zebra-full-node) — installare Zebra dopo averlo verificato
+- [Full node Zebra](/zcash-tech/zebra-full-node) — installare Zebra dopo averlo verificato
 - [Guida rapida di riferimento a Zallet](/using-zcash/zallet-quick-reference-guide) — usare Zallet
 - [Documentazione Sigstore](https://docs.sigstore.dev/)
 - [Livelli di provenance SLSA](https://slsa.dev/)

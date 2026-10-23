@@ -6,6 +6,8 @@
 
 > Zcash는 2016년 10월 28일, Sprout 차폐 풀과 함께 출시되었습니다.
 
+> **경고:** NU7가 활성화되면 Sprout 풀에 아직 남아 있는 ZEC는 사용할 수 없게 됩니다(메인넷 목표일은 2026년 11월 5일, 최종 결정일은 2026년 10월 20일이며, [ZIP 259](https://zips.z.cash/zip-0259) 참조). Sprout 자금을 보유하고 있다면 [자금 복구](../using-zcash/recovering-funds)를 읽고 먼저 이전하세요.
+
 이 문서를 통해 알게 될 것: Sprout는 Zcash가 시작된 지점이며, 사적이면서도 검증 가능한 화폐가 실제 블록체인에서 처음으로 작동한 사례입니다.
 
 Sprout는 나중에 나온 [네트워크 업그레이드](../start-here/network-upgrades)가 아니라 Zcash 네트워크의 최초 출시입니다. 2016년 10월 28일 제네시스 블록과 함께 가동되었습니다. Sprout를 정의하는 번호 붙은 ZIP은 없습니다. ZIP 절차는 이후 Overwinter와 함께 시작되었기 때문에, Sprout는 원래의 Zcash 프로토콜 명세와 그것이 기반으로 삼은 Zerocash 구조로 설명됩니다. Zooko Wilcox가 이끈 [Electric Coin Company](../zcash-organizations/electric-coin-company)(당시 이름은 Zerocoin Electric Coin Company)가 이를 개발하고 출시했습니다. Sprout는 최초의 실용적인 zk-SNARK 차폐 트랜잭션과 원래의 차폐 풀을 도입하여, 네트워크가 잔액의 합이 맞는지 계속 확인하면서도 사람들이 송신자, 수신자, 금액이 숨겨진 상태로 ZEC를 보낼 수 있게 했습니다. 이 이름은 팀이 성장할 것으로 기대했던, 이제 막 싹튼 어린 체인을 상징했습니다.
@@ -16,30 +18,30 @@ Sprout는 나중에 나온 [네트워크 업그레이드](../start-here/network-
 
 Sprout는 두 종류의 주소를 만들었습니다. 투명 주소(t-address)는 Bitcoin처럼 작동하며, 세부 정보가 공개 원장에 보입니다. 차폐 주소(z-address)는 자금을 Sprout [차폐 풀](../using-zcash/shielded-pools)로 보내며, 그 안에서는 송신자, 수신자, 금액이 숨겨진 상태로 유지됩니다. 핵심은 [zk-SNARKs](../zcash-tech/zk-snarks)입니다. 이는 세부 정보를 전혀 공개하지 않고도 이중 지불이 없고 잔액의 합이 맞는 유효한 거래임을 보여줄 수 있는 영지식 증명입니다. Sprout는 이것이 실제 운영 중인 암호화폐에서 프로덕션 환경으로 처음 실행된 사례였습니다.
 
-![투명 트랜잭션은 송신자, 수신자, 금액을 드러내지만, Sprout 차폐 트랜잭션은 이 세 가지를 모두 숨기면서도 검증 가능하게 유지합니다](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/sprout-shielded-vs-transparent.png)
+![투명 트랜잭션은 송신자, 수신자, 금액을 드러내지만, Sprout 차폐 트랜잭션은 이 세 가지를 모두 숨기면서도 검증 가능하게 유지합니다](/content-images/sprout-shielded-vs-transparent-61d3b1980c.webp)
 
 ## Ceremony
 
 Sprout의 zk-SNARKs에는 공개 파라미터 집합이 필요했고, 이를 안전하게 생성하려면 Ceremony라고 불리는 일회성 설정이 필요했습니다. 서로 멀리 떨어진 별개의 장소에 있던 여섯 명의 참여자가 각자 toxic waste라고 불리는 비밀 조각 하나를 생성했습니다. 만약 누군가가 이 조각들을 모두 다시 모은다면, 아무것도 없는 상태에서 ZEC를 위조할 수 있었습니다. 이 설계는 그 위험을 단순한 규칙으로 바꾸었습니다. 참여자 중 단 한 명만이라도 자기 조각을 파기했다면, 전체 비밀은 결코 재구성될 수 없었고 따라서 위조는 불가능하게 유지되었습니다. 공개적으로 이름이 알려진 참여자에는 Zooko Wilcox, Andrew Miller, Peter Van Valkenburgh, Peter Todd, NCC Group의 Derek Hinch가 포함됩니다. 한 명의 참여자는 익명으로 남기를 선택했습니다.
 
-![Ceremony: 여섯 명의 참여자가 비공개 조각을 생성한 뒤 toxic waste를 파기하고, 공개된 Sprout 파라미터만 남깁니다](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/sprout-ceremony-flow.png)
+![Ceremony: 여섯 명의 참여자가 비공개 조각을 생성한 뒤 toxic waste를 파기하고, 공개된 Sprout 파라미터만 남깁니다](/content-images/sprout-ceremony-flow-ae16f6282a.webp)
 
 ## 기원
 
 Sprout는 이후의 모든 변경이 그 위에 쌓이는 기준선입니다. Overwinter와 함께 네트워크 업그레이드 메커니즘이 도입되었을 때, 원래 규칙은 합의 브랜치 id 0으로 표시되었습니다. 이는 단순히 아직 어떤 업그레이드도 적용되지 않았다는 뜻입니다. 그 이후의 모든 것(Overwinter, Sapling, Blossom, Heartwood, Canopy, NU5, NU6, 그리고 그 이후)은 Sprout가 시작한 체인 위에 놓여 있습니다. 출시는 2016년 8월에 10월 28일 제네시스를 목표로 발표되었고, Ceremony는 그 전 몇 주 동안 진행되었으며, 제네시스 블록에 하드코딩된 타임스탬프는 2016년 10월 28일 07:56 UTC입니다.
 
-![2016년 8월 발표부터 파라미터 Ceremony를 거쳐 2016년 10월 28일 Sprout 출시까지의 타임라인](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/sprout-timeline.png)
+![2016년 8월 발표부터 파라미터 Ceremony를 거쳐 2016년 10월 28일 Sprout 출시까지의 타임라인](/content-images/sprout-timeline-348766352a.webp)
 
 ## 용어집
 
 | 용어 | 쉬운 뜻 |
 |---|---|
 | zk-SNARK | 송신자, 수신자, 금액을 공개하지 않고도 거래가 유효하다는 것을 보여주는 영지식 증명 |
-| 차폐 풀 | 금액과 당사자가 숨겨지는 Zcash의 비공개 영역입니다. Sprout 풀은 그 첫 번째였습니다 |
-| z-address와 t-address | z-address는 차폐되어 세부 정보를 비공개로 유지합니다. t-address는 투명하며 세부 정보를 공개 원장에 드러냅니다 |
-| Ceremony | Sprout의 공개 파라미터를 생성한 뒤 toxic waste를 폐기한 2016년의 다자간 설정 |
+| Shielded pool | 금액과 당사자가 숨겨지는 Zcash의 비공개 영역입니다. Sprout 풀은 그 첫 번째였습니다 |
+| z-address and t-address | z-address는 차폐되어 세부 정보를 비공개로 유지합니다. t-address는 투명하며 세부 정보를 공개 원장에 드러냅니다 |
+| The Ceremony | Sprout의 공개 파라미터를 생성한 뒤 toxic waste를 폐기한 2016년의 다자간 설정 |
 | Toxic waste | ZEC가 위조되지 않도록 파기되어야 했던 Ceremony의 비밀 키 조각 |
-| 합의 브랜치 id 0 | 업그레이드 이전 기준선이라는 뜻의 Sprout 규칙 라벨 |
+| Consensus branch id 0 | 업그레이드 이전 기준선이라는 뜻의 Sprout 규칙 라벨 |
 
 ## FAQ
 
@@ -77,7 +79,7 @@ Sprout는 나중에 이루어진 업그레이드가 아니라 Zcash의 원래 �
 
 [차폐 풀](../using-zcash/shielded-pools)
 
-[zk-SNARKS](../zcash-tech/zk-snarks)
+[zk-SNARKs](../zcash-tech/zk-snarks)
 
 [Zcash 네트워크 업그레이드](../start-here/network-upgrades)
 

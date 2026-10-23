@@ -113,8 +113,8 @@ Zcash de hash ahorow adi dwuma wɔ ne nsusuwii ahorow nyinaa mu, na wɔapaw emu 
 | Nsusuwii | Hashes a wɔde di dwuma | Ɛhe na |
 |---|---|---|
 | **Sprout** (a edi kan koraa) | **SHA-256** na ɛyɛ adwuma | Hyɛ bɔhyɛ ahorow ne dua no nsow |
-| **Sapling** | **Pedersen hashes**, plus **BLAKE2** | Pedersen for note commitments and the Merkle tree; BLAKE2 for key derivation and nullifiers |
-| **Orchard** (current) | **Sinsemilla**, plus **Poseidon** | Sinsemilla for note commitments and the Merkle tree; Poseidon for the nullifier, all designed for arithmetic circuits |
+| **Sapling** | **Pedersen hashes**, ne **BLAKE2** | Pedersen ma note commitments ne Merkle dua no; BLAKE2 ma key derivation ne nullifiers |
+| **Orchard** (mprempren) | **Sinsemilla**, ne **Poseidon** ka ho | Sinsemilla ma nsɛm a wɔahyɛ no nsow ne Merkle dua no; Poseidon ma nullifier, ne nyinaa a wɔayɛ ama akontaabu amansin |
 
 Edin a ɛsɛ sɛ wohu ne **Pedersen** ne **Sinsemilla** (commitment-style hashes a wɔasisi afi curve points, enti wonya "adds up" superpower no agyapade na ɛda adi sɛ ne bo nyɛ den) ne **Poseidon** (field-arithmetic hash a wɔde atirimpɔw ayɛ ama zero-knowledge circuits). Bere a Ahyɛde 0 kae sɛ wɔasɔ krataa bi mu nsɛm ano ayɛ no bɔhyɛ a, *eyi* ne mfiri a ɛreyɛ nsɔano no.
 
@@ -142,14 +142,14 @@ Yɛyɛɛ no ​​mmerɛw sɛnea ɛbɛyɛ a nneɛma mu daa hɔ. Ahofama nhyehyɛ
 
 | Asɛmfua | Plain-English asekyerɛ |
 |---|---|
-| **Hash dwumadie** | Crushes data biara ma ɛyɛ fixed-size nsateaa nkyerɛwee tiawa (digest) |
+| **Hash function** | Crushes data biara ma ɛyɛ fixed-size nsateaa nkyerɛwee tiawa (digest) |
 | **Digest** | Nsateaa a ɛfiri hash dwumadie bi mu |
-| **Preimage a wɔko tia** | Entumi nsan digest bi nsan nkɔ ne input (ɔkwan biako so) |
-| **Nneɛma a ɛbɔ ho ban** | Wontumi nnya input abien a ɛwɔ digest koro |
-| **Avalanche nkɛntɛnso** | Nsakrae ketewaa bi a ɛba input mu sesa digest |
-| **Ahofama** | Lock a value now, da no adi akyiri yi, ntumi nni atoro wɔ ho |
-| **Ade a ɛma anifurae (`r`)** | Random number a ɛyɛ foforo a ɛma bɔhyɛ bi sie |
-| **ZK-adamfofa hash** | Hash a wɔasisi afi field akontabuo mu enti ɛyɛ cheap sɛ wobɛkyerɛ sɛ |
+| **Preimage resistance** | Entumi nsan digest bi nsan nkɔ ne input (ɔkwan biako so) |
+| **Collision resistance** | Wontumi nnya input abien a ɛwɔ digest koro |
+| **Avalanche effect** | Nsakrae ketewaa bi a ɛba input mu sesa digest |
+| **Commitment** | Lock a value now, da no adi akyiri yi, ntumi nni atoro wɔ ho |
+| **Blinding factor (`r`)** | Random number a ɛyɛ foforo a ɛma bɔhyɛ bi sie |
+| **ZK-friendly hash** | Hash a wɔasisi afi field akontabuo mu enti ɛyɛ cheap sɛ wobɛkyerɛ sɛ |
 
 ---
 

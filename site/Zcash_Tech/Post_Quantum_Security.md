@@ -13,6 +13,8 @@
 - Zcash is preparing through research, ZIPs, and upgrade proposals such as ZIP 2005 and Project Tachyon.
 - A safe post-quantum migration has to protect funds, privacy, wallets, exchanges, and consensus rules at the same time.
 
+For what Ironwood changed and a dated status of each piece, see [Is Zcash Post-Quantum?](/zcash-tech/is-zcash-post-quantum).
+
 ## What Is Quantum Computing?
 
 A normal computer stores information as bits. Each bit is either `0` or `1`.
@@ -246,12 +248,12 @@ For beginners, the main idea is simple: privacy today reduces future data exposu
 
 ## Related Pages
 
+- [Is Zcash Post-Quantum?](/zcash-tech/is-zcash-post-quantum) - What Ironwood changed, what is still exposed, and a dated status table
 - [Shielded Pools](/using-zcash/shielded-pools) - How Zcash shielded transactions protect transaction details
 - [Halo](/zcash-tech/halo) - Zcash's proof system without a trusted setup
-- [ZKP & ZK-SNARKS](/zcash-tech/zk-snarks) - How zero-knowledge proofs work in Zcash
+- [ZKP & zk-SNARKs](/zcash-tech/zk-snarks) - How zero-knowledge proofs work in Zcash
 - [Viewing Keys](/zcash-tech/viewing-keys) - How selective disclosure works for shielded Zcash
 - [Zcash Shielded Assets](/zcash-tech/zcash-shielded-assets) - Future shielded assets and private asset support
-- [Privacy as a Core Principle](/privacy/privacy-as-a-core-principle) - Why financial privacy matters
 
 ## References
 

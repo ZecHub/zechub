@@ -1,7 +1,7 @@
 # Osisi Merkle: Otu Blockchain si echeta Nkọwa Ọ bụla
 ##### Nnyocha mbụ sitere na [Annkkitaaa](https://github.com/Annkkitaaa)
 
-! [Alt ederede](/content-images/image-19-cfbdcf8f78.webp)
+! ![Alt ederede](/content-images/image-19-cfbdcf8f78.webp)
 
 ### Nchịkọta nke ọtụtụ nde nkwekọrịta n'otu mkpịsị aka pere mpe
 
@@ -34,7 +34,7 @@ Cheedị echiche banyere asọmpi nkwụsị, ma kama ndị egwuregwu ịga n'ih
 - Gwakọta nne na nna ahụ, jikọta ha abụọ ọnụ, werezie ha mee otu.
 - Gaa n'ihu ruo mgbe otu mkpịsị aka na-anọdụ n'elu. Onye mmeri ahụ bụ mgbọrọgwụ Merkle.
 
-! [Alt ederede](/content-images/image-20-f5d57e425a.webp)
+! ![Alt ederede](/content-images/image-20-f5d57e425a.webp)
 
 Otu ihe kachasị mkpa na-esote ozugbo site na mmetụta avalanche (Nkeji edemede 3):
 
@@ -77,7 +77,7 @@ step 2:  H(hAB , hCD)      = ROOT?     (combine with the uncle)
 
 Gbakọọ maka n'ezie: nke a na-enye `1b3faa3fcc5e...`, nke ** kwekọrọ na mgbọrọgwụ.** A na-egosi na akwụkwọ ahụ dị n'osisi ahụ.
 
-! [Alt ederede](/content-images/image-21-d9e5d6eaf6.webp)
+! ![Alt ederede](/content-images/image-21-d9e5d6eaf6.webp)
 
 Ihe abụọ na-eme ka nke a dị ike:
 
@@ -99,7 +99,7 @@ Ihe ole na ole doro anya:
 - Osisi ndị Zcash na-echebe nwere omimi nke 32m, nke pụtara na ha nwere ike ijide ruo `2^(32)` (ihe karịrị ijeri anọ)
 - **ZK-friendly hashing.** The tree isn't built with SHA-256. Sapling hashes the tree with **Pedersen hashes** and Orchard uses **Sinsemilla** (both from Article 3), precisely so the membership climb is cheap to prove inside a circuit.
 
-! [Alt ederede](/content-images/image-22-518354b8d5.webp)
+! ![Alt ederede](/content-images/image-22-518354b8d5.webp)
 
 ### Otu ihe osisi anaghị eme bụ imefu ego okpukpu abụọ
 
@@ -107,10 +107,10 @@ The tree proves a note **exists**. It does not, by itself, stop you from spendin
 
 So the two public structures play complementary roles, and keeping them separate is exactly what severs the link between a note's birth and its death:
 
-Ọdịdị. Ajụjụ ọ na-aza. E melite mgbe.
+| Ọdịdị | Azịza ya | Emelitere mgbe |
 |---|---|---|
- **Nkọwa osisi ntinye aka**  "Ihe edeturu a ọ dị adị?"  A na-edepụta ihe edetu (agbakwunyere ntinye aka)
-"Ejirila akwụkwọ a emefu?" Akwụkwọ bụ akwụkwọ e ji emefu ego.
+| **Rịba ama osisi nkwa** | "Ndetu a ọ dị?" | E mepụtara ndetu **e** (etinyere nkwa) |
+| **Nchịkọta ihe na-emebi ihe** | "E mefurula akwụkwọ a?" | E tinyere ndetu **n'ọrụ** (ebipụtara ihe na-emebi ihe) |
 
 ---
 
@@ -133,15 +133,15 @@ Simplifications, as usual. Real incremental Merkle trees track "frontier" nodes 
 
 ## Okwu
 
-Okwu. N'asụsụ Bekee nkịtị pụtara.
+| Oge okwu | Nkọwa Bekee dị mfe |
 |---|---|
-**Merkle tree** A osisi nke hashes; epupụta bụ data mkpịsị aka, nne na nna hash ụmụ ha.
-**Leaf**: A n'okpuru ọnụ; na Zcash, otu note nkwa.
-**Merkle mgbọrọgwụ**. The otu n'elu mkpịsị aka na-achịkọta dum osisi.
- ** Ụzọ nkwenye / Ihe akaebe Merkle **  Ụmụnne hashes dị mkpa iji gosipụta akwụkwọ dị na osisi ahụ
-** Osisi Merkle na-abawanye** Osisi osisi Merkle nke na-agbakwunye naanị (a na-etinye akwụkwọ naanị mgbe ọ bụla)
-**Anchor** A Merkle mgbọrọgwụ na a na-emefu zoro aka dị ka "osisi ala m na-egosi megide".
-** Nullifier set ** Nchịkọta dị iche iche nke ihe eji eme ihe na-egbochi okpukpu abụọ.
+| **Merkle tree** | Osisi nke hashes; akwụkwọ bụ akara mkpịsị aka data, ndị nne na nna na-emegbu ụmụ ha |
+| **Leaf** | Ọnụ ala; na Zcash, nkwa otu ihe ndetu |
+| **Merkle root** | Mkpisi aka elu nke otu na-achịkọta osisi ahụ dum |
+| **Authentication path / Merkle proof** | Ihe ndị nwanne kwesịrị iji gosi na akwụkwọ dị n'osisi ahụ |
+| **Incremental Merkle tree** | Osisi Merkle nke naanị ya na-agbakwunye (a na-etinye akwụkwọ naanị mgbe niile) |
+| **Anchor** | Mgbọrọgwụ Merkle nke na-ezo aka dị ka "ọnọdụ osisi m na-egosi megide" |
+| **Nullifier set** | Nchịkọta dị iche iche nke ihe nrịbama emefuru nke na-egbochi mmefu okpukpu abụọ |
 
 ---
 

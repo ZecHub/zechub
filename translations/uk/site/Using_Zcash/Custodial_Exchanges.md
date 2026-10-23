@@ -125,13 +125,13 @@ ___
 - Ironwood: Не застосовується, лише прозорі адреси
 ___
 
-## [OKEx](https://okex.com)
+## [OKX (раніше OKEx)](https://www.okx.com)
 
-<a href="https://okex.com">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/8/89/Official_logo_of_OKEx.png" alt="OKEx Logo" width="200" height="100"/>
+<a href="https://www.okx.com">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/8/89/Official_logo_of_OKEx.png" alt="OKX logo (shown under its former OKEx branding)" width="200" height="100"/>
 </a>
 
-- Вебсайт: [OKEx](https://okex.com)
+- Вебсайт: [OKX](https://www.okx.com)
 - Пари: ALL/ZEC
 - Підтримка: Прозорі
 - Час депозиту: 25 хвилин 

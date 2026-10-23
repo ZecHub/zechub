@@ -68,7 +68,7 @@ ZeroBridge es un cliente descentralizado del protocolo Zero DAO, lo que permite 
 
 ### Paso 1: Convertir ZEC blindado a ETH
 
-Visita [ZeroDAO](https://bridge.zerodao.com/#/transfer/ETH) 
+Visita [ZeroDAO](https://web.archive.org/web/20260122164455/https://bridge.zerodao.com/#/transfer/ETH) 
 
 Conéctate a la billetera de tu elección
 

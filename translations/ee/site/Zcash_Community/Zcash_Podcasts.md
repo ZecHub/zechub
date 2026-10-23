@@ -37,5 +37,5 @@
 </li>
 </ul>
 
-Ðe podcast nyui aɖe to mía ŋua? Te ɖe mía ŋu le [Masɔmasɔ](https://discord.gg/zcash) eye míatsɔe akpe ɖe xexlẽdzesiawo ŋu.
+Ðe podcast nyui aɖe to mía ŋua? Te ɖe mía ŋu le [Discord](https://discord.gg/zcash) eye míatsɔe akpe ɖe xexlẽdzesiawo ŋu.
 

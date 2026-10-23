@@ -14,7 +14,7 @@ Zcash Shielded Assets (ZSA) は、**ZEC 以外**の資産、つまりステー�
 - **これは何か:** ERC-20 風のカスタム資産だが、デフォルトでシールドされるもの。
 - **誰が開発しているか:** [QEDIT](https://qed-it.com/)。Zcash Foundation の助成を受け、Electric Coin Company と協力して開発。
 - **どのように仕様化されているか:** [ZIP 226](https://zips.z.cash/zip-0226)（送付とバーン）と [ZIP 227](https://zips.z.cash/zip-0227)（発行）。
-- **ステータス:** まだメインネットでは稼働していません。ZSA プロトコルは Network Upgrade 7 (NU7) でデプロイ予定です。
+- **ステータス:** メインネットではまだ稼働しておらず、Network Upgrade 7 (NU7) の一部でもありません。[ZIP 259](https://zips.z.cash/zip-0259) は、NU7 がデプロイするすべての内容を列挙していますが、ZIP 226 または ZIP 227 は含まれておらず、ZSA の有効化日はまだ設定されていません。
 - **手数料:** 移動する資産に関係なく、常に ZEC で支払われます。
 
 ---
@@ -29,7 +29,7 @@ Zcash Shielded Assets は、Zcash ブロックチェーン上でカスタムト�
 
 ZSA の大きな潜在的用途のひとつは、Zcash プロトコル上でステーブルコインを発行することです。ステーブルコインは、米ドルやユーロなどの法定通貨に価値を連動させる暗号資産です。現在、最も広く流通しているステーブルコインの一部は、[USDC](https://www.circle.com/en/usdc) や [Dai](https://docs.makerdao.com/) のような ERC-20 トークンです。
 
-ZSA のもうひとつの潜在的用途は、ガバナンストークンの発行です。たとえば、この wiki の発行元である Zechub は分散型自律組織 (DAO) であり、提案やガバナンス上の意思決定に対する投票のために、メンバーへ ZSA を作成・発行できます。
+ZSA のもうひとつの潜在的用途は、ガバナンストークンの発行です。たとえば、この wiki の発行元である ZecHub は分散型自律組織 (DAO) であり、提案やガバナンス上の意思決定に対する投票のために、メンバーへ ZSA を作成・発行できます。
 
 ZSA は [QEDIT](https://qed-it.com/) によって、[Zcash Foundation](/zcash-organizations/zcash-foundation) からの大規模助成のもと、[Electric Coin Company](/zcash-organizations/electric-coin-company) と協力して開発されています。このプロジェクトは現在も活発に開発が進められているため、更新情報は Zcash フォーラムの [このスレッド](https://forum.zcashcommunity.com/t/grant-update-zcash-shielded-assets-monthly-updates/41153) に投稿されています。QEDIT による [ZSA 助成申請](https://zcashgrants.org/gallery/25215916-53ea-4041-a3b2-6d00c487917d/33106640/) は、Zcash Foundation の助成ウェブサイトで閲覧できます。
 
@@ -129,7 +129,7 @@ Shielded Assets (ZSA/UDA) の ZSA 提案は、Zcash ブロックチェーン上�
 
 | よくある認識 | 実際にはどうか |
 | --- | --- |
-| 「ZSA は今日すでに Zcash 上で稼働している。」 | いいえ。ZSA は Network Upgrade 7 (NU7) でのデプロイが予定されており、現在もレビューとテストが続いています。 |
+| 「ZSA は今日すでに Zcash 上で稼働している。」 | いいえ。ZSA は Network Upgrade 7 (NU7) には含まれておらず、[ZIP 259](https://zips.z.cash/zip-0259) は ZIP 226 および ZIP 227 なしでそれを定義しています。ZSA は現在もレビューとテストが続いています。 |
 | 「ZSA は Zcash にスマートコントラクトをもたらす。」 | ZSA が規定するのは資産の発行、送付、バーンです。汎用的なプログラム可能コントラクト層ではありません。 |
 | 「ZSA の手数料は ZSA トークン自体で支払える。」 | 手数料は ZEC で支払われます。 |
 | 「シールドされているなら、トークン供給量も秘密でなければならない。」 | ZIP 227 は意図的に発行を透明にしているため、各資産の供給量は公開で追跡できます。残高と送付は非公開のままですが、供給量は非公開ではありません。 |
@@ -140,7 +140,7 @@ Shielded Assets (ZSA/UDA) の ZSA 提案は、Zcash ブロックチェーン上�
 ## 関連ページ
 
 - [Halo](/zcash-tech/halo) — ZSA が拡張するプロトコル Orchard を支える証明システム
-- [Zk-SNARKs](/zcash-tech/zk-snarks) — シールドされた送付を開示せずに検証可能にするゼロ知識証明
+- [zk-SNARKs](/zcash-tech/zk-snarks) — シールドされた送付を開示せずに検証可能にするゼロ知識証明
 - [Shielded Pools](/using-zcash/shielded-pools) — ZSA が ZEC と並んで存在することになる場所
 - [Transactions](/using-zcash/transactions) — Zcash トランザクションがどのように構成されるか
 - [Zebra フルノード](/zcash-tech/zebra-full-node) — 上記の ZSA デモで使用されているノード実装

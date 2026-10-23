@@ -1,7 +1,7 @@
 # Elliptic Curves: Ebe a mụrụ igodo na nkwa nke Zcash
 ##### Nnyocha mbụ sitere na [Annkkitaaa](https://github.com/Annkkitaaa)
 
-! [Alt ederede](/content-images/image-10-c1097b22d7.webp)
+! ![Alt ederede](/content-images/image-10-c1097b22d7.webp)
 
 ### Okporo ámá nwere nanị otu ụzọ nke e si n'ebe ndị dị n'akụkụ ụzọ gbagọrọ agbagọ wuo
 
@@ -38,7 +38,7 @@ y^2 = x^3 + ax + b
 
 Over ordinary numbers it looks like a smooth, swooping curve, often with a rounded loop and two tails:
 
-! [Alt ederede](/content-images/image-14-1d2e8c25d2.webp)
+! ![Alt ederede](/content-images/image-14-1d2e8c25d2.webp)
 
 Ihe na-eju anya n'ezie: ** ị nwere ike "tinye" isi abụọ na usoro a iji nweta isi nke atọ na otu usoro ahụ.** Nke a abụghị mgbakwunye nke nhazi. Ọ bụ iwu geometric, ọ dịkwa mfe * ịhụ * karịa ikwu.
 
@@ -50,7 +50,7 @@ Iji gbakwunye `P + Q`:
 2. Ahịrị ahụ na-adaba na curve n'otu ebe ọzọ. Kpọọ ya `R*`.
 3. ** Chebara ya echiche `R*` n'ofe axis ahụ.** Ntụgharị uche ahụ bụ azịza ya, `P + Q`.
 
-! [Alt ederede](/content-images/image-11-61f3df1989.webp)
+! ![Alt ederede](/content-images/image-11-61f3df1989.webp)
 
 ### Ụkpụrụ nke tangent (ịgbakwunye otu isi n'onwe ya)
 
@@ -84,7 +84,7 @@ Were ya `y^2 = x^3 + 2x + 2` n'elu ubi a na-ejedebe `F_17`. Ịgụpụta isi ih
 
 Ugbu a họrọ ebe `G = (5, 1)` ma na-agbakwunye ya n'onwe ya. Lee ihe na-eme (ahịrị nke ọ bụla dị n'okpuru ebe a bụ nke e mere atụmatụ, ọ bụghị nke e chepụtara echepụta):
 
-Nzọụkwụ. Ebe.
+| Nzọụkwụ | Isi | Nzọụkwụ | Isi |
 |---|---|---|---|
 | `1G` | (5, 1) | `11G` | (13, 10) |
 | `2G` | (6, 3) | `12G` | (0, 11) |
@@ -94,7 +94,7 @@ Nzọụkwụ. Ebe.
 | `6G` | (16, 13) | `16G` | (10, 11) |
 | `7G` | (0, 6) | `17G` | (6, 14) |
 | `8G` | (13, 7) | `18G` | (5, 16) |
-| `9G` | (7, 6) | `19G` **O (enweghị ngwụcha) **
+| `9G` | (7, 6) | `19G` | **O (enweghị ngwụcha)** |
 | `10G` | (7, 11) | | |
 
 Ihe abụọ ị ga-arịba ama:
@@ -110,14 +110,14 @@ Tebụl ahụ nke `1G, 2G, 3G, ...` bụ obi ihe niile. Ịgbakwụnye isi ihe u
 
 Ugbu a, ka anyị tụlee ụzọ abụọ e si eme anwansi:
 
-Ntuziaka. Ajụjụ. Ihe isi ike.
+| Ntuziaka | Ajụjụ | Ihe isi ike |
 |---|---|---|
-** Na-aga n'ihu ** Given `k` na `G`, gbakọọ `kG` Ọ dị mfe. Ọbụna maka nnukwu mbara igwe. `k`, a trick called *double-and-add* gets there in a few hundred steps |
- ** Na-alaghachi azụ **  `G` na `kG`, gbakee `k` ** Ọ gaghị ekwe omume ** na ezigbo usoro nzuzo.
+| **Ndị Na-aga n'ihu** | E nyere `k` na `G`, gbakọọ `kG` | **Mfe.** Ọbụna maka nnukwu ihe gbasara mbara igwe `k`, aghụghọ a na-akpọ *double-and-add* na-erute ebe ahụ n'ime narị nzọụkwụ ole na ole |
+| **Ala azụ** | E nyere `G` na `kG`, gbakee `k` | **Ọ gaghị ekwe omume nke ọma** n'ezie usoro nzuzo |
 
 Nke ahụ asymmetry bụ ** otu ụzọ n'okporo ámá ** anyị mkpa na Nkebi nke 1. `k` produced this point?") is called the **Elliptic Curve Discrete Logarithm Problem (ECDLP)**, and on the curves Zcash uses, no known method solves it before the heat death of the universe.
 
-! [Alt ederede](/content-images/image-12-86b9ace6cb.webp)
+! ![Alt ederede](/content-images/image-12-86b9ace6cb.webp)
 
 > N'egwuregwu anyị `F_17` I nwere ike ịgụ ya `k` Ezi curves nwere gburugburu `2^(255)` N'ihi ya, ọ bụrụ na anyị agụọ ihe ndị a n'akwụkwọ ahụ, anyị ga-achọpụta na e nwere ihe ndị ọzọ dị mkpa anyị kwesịrị ime.
 
@@ -153,14 +153,14 @@ A bonus onwunwe na-aghọ priceless mgbe e mesịrị: ndị a nkwa **gbakwunye 
 
 Mkpịsị aka ndị ahụ bụ ihe e ji n'aka ma bụrụ ndị a pụrụ inyocha enyocha.
 
-Zcash design curves ọ na-eji ọrụ
+| Zcash design | Ihe ndị ọ na-eji | Ọrụ |
 |---|---|---|
-| **Sapling** (older) | **BLS12-381** plus an embedded curve called **Jubjub** | BLS12-381 carries the proof system; Jubjub is built over BLS12-381's scalar field so that key and commitment operations are cheap to perform *inside* a zero-knowledge proof |
-| **Orchard** (current) | **Pallas** and **Vesta** (the "Pasta" cycle) | Pallas carries Orchard's keys and commitments; the Pallas/Vesta pairing is specially arranged to make advanced proofs efficient |
+| **Sapling** (nke ochie) | **BLS12-381** tinyere usoro agbakwunyere nke a na-akpọ **Jubjub** | BLS12-381 nwere sistemụ ihe akaebe; E wuru Jubjub n'elu ubi scalar BLS12-381's ka ọrụ isi na nkwa wee dị ọnụ ala iji *n'ime* ihe akaebe efu |
+| **Orchard** (ugbu a) | **Pallas** na **Vesta** (usoro "Pasta") | Pallas na-ebu igodo na nkwa Orchard's; a haziri njikọ Pallas/Vesta nke ọma iji mee ka ihe akaebe dị elu dị irè |
 
 The reasons one curve gets "embedded" inside another's field, and why a *cycle* of two curves is useful, are real and important, but they belong to the proof-system articles. For now the takeaway is solid: **every Zcash key is a scalar times a generator, and every Zcash commitment is a sum of curve points**, living on one of these named curves.
 
-! [Alt ederede](/content-images/image-13-ffdd703c60.webp)
+! ![Alt ederede](/content-images/image-13-ffdd703c60.webp)
 
 ---
 
@@ -183,15 +183,15 @@ Ihe ole na ole e mere iji mee ka ọ dị mfe ọgụgụ.`y^2 = x^3 + ax + b`);
 
 ## Okwu
 
-Okwu. N'asụsụ Bekee nkịtị pụtara.
+| Oge okwu | Nkọwa Bekee dị mfe |
 |---|---|
-** Elliptic curve ** Points afọ ojuju `y^2 = x^3 + ax + b`, na "nchịkọta" pụrụ iche nke isi ihe.
-Ụkpụrụ chord-and-tangent: akara site na isi ihe abụọ, were nke atọ, tụgharịa uche.
-**Ebe na-enweghị njedebe (`O`) **  Ọkpụkpụ ahụ bụ "efu"; ịgbakwunye ya agbanweghị ihe ọ bụla.
-** Onye na-emepụta ihe (`G`) **. Ebe ndabere nke ọtụtụ ya na-emecha kpuchie ìgwè ahụ dum.
-** Mgbakọta scalar (`kG`) ** Ịgbakwunye `G` onwe ya `k` Oge; ọ dị mfe ịga n'ihu, siri ike ịlaghachi azụ.
-Nsogbu siri ike nke mgbake `k` site na `kG`; ntọala nchekwa
-♬ **Pedersen nkwa nkwa** ♬ `v.G + r.H`; envelopu e mechiri emechi nke na-ezo, na-ejikọta, ma na-agbakọ.
+| **Elliptic curve** | Isi ihe na-eju afọ `y^2 = x^3 + ax + b`, yana "mgbakwunye" pụrụ iche nke isi ihe |
+| **Point addition** | Iwu chord-na-tangent: ahịrị gafere isi ihe abụọ, were nke atọ kụrụ, tụgharịa uche |
+| **Point at infinity (`O`)** | "Efu" nke usoro ahụ; itinye ya agbanweghị ihe ọ bụla |
+| **Generator (`G`)** | Isi ihe nke ọnụọgụgụ ya mechara kpuchie otu ahụ dum |
+| **Scalar multiplication (`kG`)** | Na-agbakwụnye `G` nye onwe ya `k` oge; dị mfe ịga n'ihu, siri ike ịlaghachi azụ |
+| **ECDLP** | Nsogbu siri ike nke ịlọghachi `k` site na `kG`ntọala nchekwa |
+| **Pedersen commitment** | `v.G + r.H`; envelopu e mechiri emechi nke na-ezo, na-ekekọta, ma na-agbakwụnye |
 
 ---
 

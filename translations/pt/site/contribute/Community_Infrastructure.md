@@ -7,7 +7,7 @@
 
 ### Infraestrutura da Comunidade 
 
-O programa de recompensas ZecHub destina-se a programadores, oferecendo uma alternativa mais livre e simplificada a tarefas individuais: [Recompensas ZEC](https://bounties.zechub.wiki/). 
+O programa de recompensas ZecHub é a via remunerada para este trabalho: [ZEC Bounties](https://bounties.zechub.wiki/). Como escolher um montante de ZEC: [política de montantes de recompensas](https://bounties.zechub.wiki/docs/bounty-amounts). Fluxo de trabalho dos colaboradores: [Contribuir para ZecHub](https://zechub.wiki/contribute/contributing-guide).
 
 
 ## Guias Úteis 

@@ -28,7 +28,7 @@ Rust -> [https://rustup.rs/](https://rustup.rs/)
 jq -> [https://jqlang.github.io/jq/download/](https://jqlang.github.io/jq/download/)
 (json bilgisini terminalde görüntülemek için)
 
-curl -> [https://everything.curl.dev/get/linux](https://everything.curl.dev/get/linux)
+curl -> [https://everything.curl.dev/install/linux.html](https://everything.curl.dev/install/linux.html)
 (crawler RPC’sini sorgulamak için)
 
 npm (nvm ile birlikte) -> [https://medium.com/@iam_vinojan/how-to-install-node-js-and-npm-using-node-version-manager-nvm-143165b16ce1](https://medium.com/@iam_vinojan/how-to-install-node-js-and-npm-using-node-version-manager-nvm-143165b16ce1)
@@ -122,7 +122,7 @@ cargo run --release --features crawler --bin crawler -- --help
 
 Bu, programı derleyecek ve her şeyin düzgün çalıştığını doğrulayacaktır.
 
-Crawler’ı çalıştırmak için, başlangıç komutuna en az bir geçerli Zcash düğüm IP adresi içeren bir '--seed-addrs' bayrağı eklemek gerekir. Doğru bir sonuç elde etmek için crawler’ın makul bir süre çalışmasına izin verilmelidir. Bazı örnek düğüm IP adresleri [https://zcashblockexplorer.com/nodes](https://zcashblockexplorer.com/nodes) adresinde bulunabilir.
+Crawler’ı çalıştırmak için, başlangıç komutuna en az bir geçerli Zcash düğüm IP adresi içeren bir '--seed-addrs' bayrağı eklemek gerekir. Doğru bir sonuç elde etmek için crawler’ın makul bir süre çalışmasına izin verilmelidir. Bazı örnek düğüm IP adresleri [https://mainnet.zcashexplorer.app/nodes](https://mainnet.zcashexplorer.app/nodes) adresinde bulunabilir.
 
 Crawler çalışırken ondan bilgi almak için, başlangıç komutuna '--rpc-addr' bayrağını eklemek gerekir. Bu yalnızca crawler’ı çalıştırmak için gerekli değildir, ancak aksi takdirde herhangi bir bilgiyi görüntülemek için crawler’ı durdurmanız gerekir (ctrl+c veya SIGKILL).
 

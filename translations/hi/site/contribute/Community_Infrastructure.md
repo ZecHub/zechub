@@ -7,7 +7,7 @@
 
 ### सामुदायिक अवसंरचना 
 
-ZecHub बाउंटी कार्यक्रम डेवलपर्स के लिए व्यक्तिगत कार्यों का अधिक मुक्त और सुव्यवस्थित विकल्प प्रदान करता है: [ZEC बाउंटियाँ](https://bounties.zechub.wiki/). 
+ZecHub बाउंटी कार्यक्रम इस कार्य के लिए भुगतान का मार्ग है: [ZEC Bounties](https://bounties.zechub.wiki/). ZEC संख्या कैसे चुनें: [बाउंटी राशि नीति](https://bounties.zechub.wiki/docs/bounty-amounts). योगदानकर्ता कार्यप्रवाह: [ZecHub में योगदान](https://zechub.wiki/contribute/contributing-guide).
 
 
 ## उपयोगी मार्गदर्शिकाएँ 

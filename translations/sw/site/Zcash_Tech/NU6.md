@@ -21,7 +21,7 @@ NU6 iliendelea kutuma 20% ya ruzuku kwa ufadhili wa maendeleo baada ya Novemba 2
 
 Sehemu iliyobaki ya ruzuku, pamoja na ada za shughuli, huenda kwa wachimbaji ambao huhifadhi mtandao. NU6 pia ilibadilisha kanuni zilizopo za mkondo wa ufadhili na mfuko wa fedha (ZIP 207 na ZIP 214) kutoshea muundo huu mpya.
 
-![NU6 development-fund split: 20 percent of the block subsidy goes to development, with 8 percent to Zcash Community Grants and 12 percent into the Deferred Dev Fund Lockbox](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/nu6-dev-fund-split.png)
+![NU6 development-fund split: 20 percent of the block subsidy goes to development, with 8 percent to Zcash Community Grants and 12 percent into the Deferred Dev Fund Lockbox](/content-images/nu6-dev-fund-split-08bc73e317.webp)
 
 ## lockbox kuahirishwa
 
@@ -41,7 +41,7 @@ NU6 pia kufungwa upungufu uhasibu katika jinsi ZEC mpya ni kuundwa, kama ilivyoe
 2. Baada ya NU6, shughuli coinbase lazima usawa hasa: jumla pato thamani lazima sawa na mchimbaji ruzuku pamoja ada, si zaidi wala chini.
 3. Kwa sababu wachimbaji hawawezi tena kudai chini na kwa bahati mbaya kuchoma ZEC, jumla ya kiasi cha ZEC ambacho kitakuwepo sasa kinaweza kutabirika haswa.
 
-![Coinbase balancing before and after NU6: before, coinbase could under-claim and burn ZEC so supply was not exactly predictable. After, coinbase must balance exactly so issuance is exactly predictable](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/nu6-coinbase-balance.png)
+![Coinbase balancing before and after NU6: before, coinbase could under-claim and burn ZEC so supply was not exactly predictable. After, coinbase must balance exactly so issuance is exactly predictable](/content-images/nu6-coinbase-balance-0fa2394799.webp)
 
 ## Jinsi fedha zilivyobadilika
 
@@ -51,18 +51,18 @@ NU6 ni sura moja katika hadithi ndefu kuhusu jinsi Zcash inavyolipia yenyewe.
 2. NU6 (Novemba 2024) ilibadilisha uwekezaji huo baada ya nusu ya pili na kuanzisha Mfuko wa Deferred Dev Lockbox, ikihifadhi sehemu ya uchapishaji kwa misaada inayoamuliwa baadaye.
 3. NU6.1 (2025) answered the question NU6 left open, who controls the reserved funds, by continuing 8% of the block subsidy to Zcash Community Grants and directing 12% into a coin-holder-controlled fund seeded by the lockbox.
 
-![How Zcash funding evolved: Canopy created the development fund, NU6 set up the lockbox, and NU6.1 set the rules for who controls it](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/nu6-funding-timeline.png)
+![How Zcash funding evolved: Canopy created the development fund, NU6 set up the lockbox, and NU6.1 set the rules for who controls it](/content-images/nu6-funding-timeline-2427db58c0.webp)
 
 ## Orodha ya maneno
 
-Neno la Kiingereza lisilo na maana.
+| Muhula | Maana ya Kiingereza cha kawaida |
 |---|---|
- Block ruzuku. ZEC mpya kuundwa kwa kila block kwamba ni kuchimbwa,
- Coinbase shughuli. The maalum ya manunuzi ambayo hulipa nje misaada block na ada.
-│ Deferred Dev Fund Lockbox. A katika-Itifaki akiba ambayo inashikilia sehemu ya utoaji kwa ajili ya matumizi baadaye jamii kuamua.
-Zcash Community Grants (ZCG) Kamati ambayo inafadhili kazi na kwa ajili ya jamii za Zcash.
-◯ id ya tawi la makubaliano. Nodes za kitambulisho hutumia kuambia ambayo sheria upgrades block anafuata.
- Network Upgrade (NU)  mabadiliko uratibu kwa Zcash ya makubaliano sheria, ulioamilishwa katika block kuweka urefu.
+| Block subsidy | ZEC mpya iliyoundwa na kila kitalu kinachochimbwa |
+| Coinbase transaction | Muamala maalum unaolipa ruzuku na ada za block |
+| Deferred Dev Fund Lockbox | Akiba ya ndani ya itifaki ambayo inashikilia sehemu ya kutolewa kwa matumizi ya baadaye yaliyoamuliwa na jamii |
+| Zcash Community Grants (ZCG) | Kamati inayofadhili kazi na na kwa ajili ya jumuiya Zcash |
+| Consensus branch id | Nodi za kitambulisho hutumia kubaini ni sheria gani za uboreshaji ambazo kizuizi hufuata |
+| Network upgrade (NU) | Mabadiliko yaliyoratibiwa kwa sheria za makubaliano Zcash's, yaliyoamilishwa kwa urefu wa block uliowekwa |
 
 ## FAQs
 

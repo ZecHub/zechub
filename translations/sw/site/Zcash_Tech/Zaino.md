@@ -16,12 +16,12 @@ Zaino anakaa kati ya Zebra na programu mteja. zebra ni makubaliano node: inapaku
 
 Kutenganishwa huko huweka madaraka wazi:
 
-Sehemu ya kazi. Jukumu la kazi.
+| Kipengele | Jukumu |
 |:--|:--|
-Zebra. Full node na kuthibitisha.
-Zaino: Indexer na mteja-mbele API huduma.
-Zallet Huduma ya pochi.
- lightwalletd. mzee mwanga mfuko wa fedha server kwamba Zaino ni iliyoundwa na kuchukua nafasi au kuongeza
+| Zebra | Nodi kamili na kithibitishaji |
+| Zaino | Huduma ya API ya kiashiria na inayomlenga mteja |
+| Zallet | Huduma ya pochi |
+| lightwalletd | Seva ya zamani ya pochi nyepesi ambayo Zaino imeundwa kuchukua nafasi au kukamilisha |
 
 Zaino hutoa utendaji kwa wateja mwanga, wateja kamili au pochi, na block explorers. Inatoa upatikanaji wa mlolongo finalized, mzunguko bora yasiyo ya mwisho, na mempool data uliofanyika na Zebra.
 

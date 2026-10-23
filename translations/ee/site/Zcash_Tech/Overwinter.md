@@ -2,9 +2,9 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Dzomeŋɔli
+# Overwinter
 
-> Dzomeŋɔli yi agbe le Zcash mainnet dzi le block 347,500 (June 26, 2018 UTC).
+> Overwinter yi agbe le Zcash mainnet dzi le block 347,500 (June 26, 2018 UTC).
 
 Nusi nàtsɔ adzoe: alesi Zcash srɔ̃ alesi wòatrɔ eya ŋutɔ ƒe sewo dedie, kple nusita gɔmeɖoanyi ma na be ŋgɔyiyi ɖesiaɖe si woawɔ emegbe, si adze egɔme tso Sapling dzi, te ŋu dzɔ.
 
@@ -12,13 +12,13 @@ Dzomeŋɔli nye Zcash [network ƒe ŋgɔyiyi](../start-here/network-upgrades), s
 
 Nusitae esia le vevie ɖo. Blockchain si le agbe ƒe sewo tɔtrɔ nye afɔku. Get it wrong eye network la ƒe tɔtrɔ eve ate ŋu malɔ̃ ɖe edzi o, alo woate ŋu awɔ asitsatsa si woɖo na kɔsɔkɔsɔ ɖeka ƒe kɔpi ɖe bubu dzi. Do ŋgɔ na Overwinter la, mɔnu aɖeke menɔ Zcash si si sɔ, si me woate ŋu agbugbɔ aƒoe le si dzi woato awɔ ɖoɖo ɖe se ƒe tɔtrɔ ŋu o. Dzomeŋɔli ɖɔ ema ɖo. Ena Zcash wɔ ɖoɖo si wowɔ le se nu hena asitɔtrɔwo eye, nenema ke wòle vevie nenema ke, mɔ eve dzi gbugbɔgaƒoƒo takpɔkpɔ, eyata womate ŋu agbugbɔ adzɔnuwɔna si sɔ le sewo ƒe hatsotso aɖe te le bubu te o. Gɔmeɖoanyi mae na be Sapling, kple ŋgɔyiyi ɖesiaɖe si wowɔ le esia megbe, te ŋu wɔa dɔ dzadzɛ.
 
-![Before and after Overwinter: before, no standard upgrade path and no replay protection. After, a network upgrade mechanism with two-way replay protection and safe future upgrades](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/overwinter-before-after.png)
+![Before and after Overwinter: before, no standard upgrade path and no replay protection. After, a network upgrade mechanism with two-way replay protection and safe future upgrades](/content-images/overwinter-before-after-acf4f5d283.webp)
 
 ## Mɔnu si wozãna tsɔ doa nuwo ɖe ŋgɔe
 
 Overwinter to Network Upgrade Mechanism vɛ, si gɔme woɖe le [ZIP 200 ƒe xexlẽme](https://zips.z.cash/zip-0200). Fifia ŋgɔyiyi ɖesiaɖe ɖea nu eve gɔme: alɔdze id si dzi woda asi ɖo si yɔa se siwo li fifia ƒe ŋkɔ, kple dɔwɔwɔ ƒe kɔkɔme, si nye mɔxenu si dzi se yeyeawo awɔ dɔ le. Esia naa fesre si me kɔ na amesiame si le Zcash kɔmpiuta dɔwɔɖoɖo zãm be wòawɔ yeye hafi atrɔ.
 
-Dzomeŋɔli ŋutɔ wɔ dɔ le mainnet dzi le block 347,500.
+Overwinter ŋutɔ wɔ dɔ le mainnet dzi le block 347,500 dzi.
 
 [ZIP 201 ƒe xexlẽdzesi](https://zips.z.cash/zip-0201) kpɔa alesi nodes wɔa nu ɖe ​​wo nɔewo ŋu ƒo xlã ŋgɔyiyi aɖe gbɔ. Hafi woawɔ dɔ la, nodes lɔ̃a kadodo kple hati siwo zãa version ɖeka. Le dɔwɔwɔ me la, node aɖe tsoa kadodo me kple hati siwo le alɔdze si dzi woda asi ɖo bubu dzi, eyata network la ma dzadzɛ le se yeyeawo nu le esi teƒe be wòatɔtɔ.
 
@@ -28,7 +28,7 @@ Gbugbɔgaƒoƒo nye ne ame aɖe xɔ asitsatsa si nɔ dɔ wɔm le kɔsɔkɔsɔ ɖ
 
 Esia wɔa dɔ asi le asi me kple version 3 ƒe asitsatsa ƒe ɖoɖo yeyea tso [ZIP 202 ƒe xexlẽdzesi](https://zips.z.cash/zip-0202), si woyɔna ɣeaɖewoɣi be Overwintered ƒe nɔnɔme. Etsɔa fOverwintered aflaga kple version group id kpena ɖe eŋu si naa eme kɔ be se siwo me nukpɔsusu ɖeka le ƒe hatsotso si me asitsatsa le. Abe viɖe si le akpa aɖe dzi ene la, asidede agbalẽ te ƒe ɖoɖo yeyea na alesi woɖoa kpe asitsatsa siwo me kɔ kabakaba dzi hã nyo ɖe edzi.
 
-![How replay protection works: a wallet signs a transaction that commits to the current consensus branch id, so the transaction cannot be replayed on any other branch](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/overwinter-replay-flow.png)
+![How replay protection works: a wallet signs a transaction that commits to the current consensus branch id, so the transaction cannot be replayed on any other branch](/content-images/overwinter-replay-flow-754ec8578a.webp)
 
 ## Asitsatsa ƒe ɣeyiɣia wu enu
 
@@ -38,18 +38,18 @@ Esia wɔa dɔ asi le asi me kple version 3 ƒe asitsatsa ƒe ɖoɖo yeyea tso [Z
 
 Overwinter nye Zcash network ƒe tɔtrɔ gbãtɔ le October 2016 mainnet ƒe dodo megbe, eye woɖoe koŋ ɖoe ɖa do ŋgɔ na Sapling. Eƒe dɔe nye xɔtuɖaŋuwo, ke menye features o. Esi wòde mɔ̃ si wotsɔ trɔa asi le nu ŋu kple mɔ̃ si kpɔa eta gbugbɔgaƒoƒo gbã me la, ena mɔ si le dedie si dzi woato awɔ dɔ le tɔtrɔ ɖesiaɖe si woawɔ emegbe (Sapling, Blossom, Heartwood, Canopy, NU5, kple esiwo kplɔe ɖo) ŋu.
 
-![Timeline from the October 2016 Sprout launch, through the 2016 to 2018 stretch with no upgrade framework, to Overwinter in June 2018](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/overwinter-timeline.png)
+![Timeline from the October 2016 Sprout launch, through the 2016 to 2018 stretch with no upgrade framework, to Overwinter in June 2018](/content-images/overwinter-timeline-689d9bcf20.webp)
 
 ## Nyagɔmeɖegbalẽ
 
 | Nyagbe | Plain-Eŋlisigbe me gɔmesese |
 |---|---|
-| Netwɔƒe ƒe ŋgɔyiyi (NU) | Tɔtrɔ si wowɔ ɖekae ɖe Zcash ƒe se siwo dzi woda asi ɖo ŋu, si wowɔ dɔ le block ƒe kɔkɔme si woɖo ɖi |
-| Nubabla ƒe alɔdze id | Dzesidenu kpui aɖe si yɔa se siwo dzi woda asi ɖo ƒe hatsotso si li fifia |
-| Dɔwɔwɔ ƒe kɔkɔme | Block si dzi network upgrade ƒe se yeyewo dze dɔwɔwɔ gɔme le |
-| Gbugbɔ ƒoƒo takpɔkpɔ | Se si xea mɔ na asitsatsa si sɔ le kɔsɔkɔsɔ ɖeka dzi be woagazãe le bubu dzi o |
-| Mempool ƒe ƒuƒoƒo | Asitsatsa siwo woɖe ɖe go gake womeɖe tome haɖe o ɖe block |
-| Asitsatsa ƒe nuwuwu | Exiration block height si megbe woɖe asi le asitsatsa si womeɖe o ŋu |
+| Network upgrade (NU) | Tɔtrɔ si wowɔ ɖekae ɖe Zcash ƒe se siwo dzi woda asi ɖo ŋu, si wowɔ dɔ le block ƒe kɔkɔme si woɖo ɖi |
+| Consensus branch id | Dzesidenu kpui aɖe si yɔa se siwo dzi woda asi ɖo ƒe hatsotso si li fifia |
+| Activation height | Block si dzi network upgrade ƒe se yeyewo dze dɔwɔwɔ gɔme le |
+| Replay protection | Se si xea mɔ na asitsatsa si sɔ le kɔsɔkɔsɔ ɖeka dzi be woagazãe le bubu dzi o |
+| Mempool | Asitsatsa siwo woɖe ɖe go gake womeɖe tome haɖe o ɖe block |
+| Transaction expiry | Exiration block height si megbe woɖe asi le asitsatsa si womeɖe o ŋu |
 
 ## Nyabiasewo ƒe Nyabiasewo
 
@@ -79,15 +79,15 @@ Elabena eyae tu mɔ̃ siwo dzi wotrɔ asi le emegbe ɖesiaɖe. Overwinter to Net
 
 [ZIP 200: Netwɔƒe ƒe Ðɔɖɔɖo ƒe Mɔnu](https://zips.z.cash/zip-0200)
 
-[ZIP 201: Network Hatiwo Dzikpɔkpɔ na Dzomeŋɔli](https://zips.z.cash/zip-0201)
+[ZIP 201: Network Hatiwo Dzikpɔkpɔ na Overwinter](https://zips.z.cash/zip-0201)
 
-[ZIP 202: Version 3 Asitsatsa ƒe Nɔnɔme na Dzomeŋɔli](https://zips.z.cash/zip-0202)
+[ZIP 202: Version 3 Asitsatsa ƒe Nɔnɔme na Overwinter](https://zips.z.cash/zip-0202)
 
 [ZIP 203: Asitsatsa ƒe Nuwuwu](https://zips.z.cash/zip-0203)
 
-[ZIP 143: Asitsatsa ƒe Asidede Asi ƒe Dzesidede na Dzomeŋɔli](https://zips.z.cash/zip-0143)
+[ZIP 143: Asitsatsa ƒe Asidede Asi ƒe Dzesidede na Overwinter](https://zips.z.cash/zip-0143)
 
-[Le Dzomeŋɔli me Network Upgrade](https://z.cash/upgrade/overwinter/)
+[Overwinter Network Upgrade](https://z.cash/upgrade/overwinter/)
 
 ### Kpɔe hã
 

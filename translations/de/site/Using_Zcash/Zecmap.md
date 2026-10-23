@@ -57,12 +57,12 @@ Wenn ein Unternehmen ZEC akzeptiert und noch nicht auf ZecMap ist, kann jedes Co
 
 | Feld | Was anzugeben ist |
 |-------|----------------|
-| Unternehmensname | Offizieller Name, wie er öffentlich erscheint |
-| Website oder Kontakt | URL oder Social-Media-Profil |
-| Standort | Adresse für physische Unternehmen; Region für Online-Angebote |
-| Kategorie | Café, Restaurant, Geschäft, Dienstleistung, Onlineshop usw. |
-| Nachweis | Öffentliche Zahlungsseite, Händlerankündigung oder direkte Bestätigung |
-| Zahlungsnotizen | Vor Ort, online oder beides; transparentes oder abgeschirmtes ZEC |
+| Business name | Offizieller Name, wie er öffentlich erscheint |
+| Website or contact | URL oder Social-Media-Profil |
+| Location | Adresse für physische Unternehmen; Region für Online-Angebote |
+| Category | Café, Restaurant, Geschäft, Dienstleistung, Onlineshop usw. |
+| Evidence | Öffentliche Zahlungsseite, Händlerankündigung oder direkte Bestätigung |
+| Payment notes | Vor Ort, online oder beides; transparentes oder abgeschirmtes ZEC |
 
 Einreichungen sollten keine privaten Kundendaten enthalten. Wenn du Transaktionsnachweise verwendest, entferne persönliche Details, Bestellnummern und Wohnadressen, bevor du sie teilst.
 
@@ -137,7 +137,7 @@ Geplante Verbesserungen umfassen:
 
 ## Verwandte Seiten
 
-- [ZEC ausgeben](/using-zcash/spend-zcash) — Weitere Möglichkeiten, ZEC in der realen Welt zu nutzen
+- [ZEC ausgeben](/using-zcash/spend-zcash/top-10-places-to-spend-zec) — Weitere Möglichkeiten, ZEC in der realen Welt zu nutzen
 - [Zahlungsabwickler](/using-zcash/payment-processors) — Tools für Händler, um ZEC zu akzeptieren
 - [ZEC privat nutzen](/guides/using-zec-privately) — Best Practices für abgeschirmte Zahlungen
 - [Wallets](/using-zcash/wallets) — Wallets, die mit ZEC-Händlerzahlungen kompatibel sind

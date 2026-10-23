@@ -1,0 +1,13 @@
+{
+  "_comment": "Per-locale reader register, chosen by page path. A prompt head containing {{REGISTER}} gets the matching instruction; heads without it are unaffected. Prefixes are matched against the path under site/. Read by prompt_head.py (bash and Python callers) and by sync.mjs (block-level updates).",
+  "id": {
+    "default": "anda",
+    "rules": [
+      { "register": "kamu", "prefixes": ["guides/", "tutorials/", "Using_Zcash/", "Zcash_Use_Cases/", "Privacy_Tools/", "ZFAV_Club/", "Start_Here/", "contribute/"] }
+    ],
+    "text": {
+      "kamu": "Address the reader informally as \"kamu\" (friendly tone for tutorials and guides). Never use \"Anda\".",
+      "anda": "Address the reader formally as \"Anda\" (technical and reference pages). Never use \"kamu\"."
+    }
+  }
+}

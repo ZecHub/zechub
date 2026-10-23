@@ -2,11 +2,11 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Ihe Ọmụma efu vs Decoy based Systems
+# Sistemụ dabere na ihe ọmụma efu vs Decoy
 
-"Cryptocurrency exposes all your spending activities to the public since it's just like a Twitter to your Bank account and this is a great issue that must be solved by adopting on chain privacy." - Ian Miers at [Devcon4](https://youtube.com/watch?v=9s3EbSKDA3o&feature=share9).
+"Ego dijitalụ na-ekpughe ihe niile ị na-emefu n'ihu ọha ebe ọ bụ na ọ dị ka Twitter na akaụntụ ụlọ akụ gị, nke a bụkwa nnukwu nsogbu nke a ga-edozi site na iji nzuzo nke usoro a." - Ian Miers na [Devcon4](https://youtube.com/watch?v=9s3EbSKDA3o&feature=share9).
 
-Certain crypto projects have gained recognition for their privacy-centric approaches. Zcash is renowned for employing Zero Knowledge Proofs (ZK) to protect transaction amounts and addresses. Monero stands out for its utilization of a Decoy-based sender obfuscation in combination with other encryption schemes to attain user privacy on the blockchain.
+Ụfọdụ ọrụ crypto enwetala amara maka ụzọ ha si elekwasị anya na nzuzo. A maara Zcash maka iji Zero Knowledge Proofs (ZK) echebe ọnụọgụ na adreesị azụmahịa. Monero pụtara ìhè maka ojiji nke Decoy-based sender obfuscation yana atụmatụ nzuzo ndị ọzọ iji nweta nzuzo onye ọrụ na blockchain.
 
 
 <a href="">
@@ -14,28 +14,28 @@ Certain crypto projects have gained recognition for their privacy-centric approa
 </a>
 
 
-## Ịghọta ZK Proofs na Decoy Based Systems
+## Ịghọta ZK Proofs na Sistemụ Dabere na Decoy
 
-Zero Knowledge Proofs are cryptographic systems that allow one party (the prover) to demonstrate to another party (the verifier) the validity of a statement without revealing *any underlying information about the statement itself*. In the context of Zcash, ZK proofs are employed to verify the validity of a transaction without disclosing transaction details such as the SENDER, RECEIVER or transaction AMOUNT. 
+Ihe akaebe ihe ọmụma efu bụ sistemụ nzuzo nke na-enye otu onye (onye akaebe) ohere igosi onye ọzọ (onye nyocha) izi ezi nke nkwupụta na-ekpugheghị *ozi ọ bụla dị n'okpuru gbasara nkwupụta ahụ n'onwe ya*. N'ihe gbasara Zcash, a na-eji ihe akaebe ZK iji chọpụta izi ezi nke azụmahịa na-ekpugheghị nkọwa azụmahịa dịka onye zitere, onye nnata ma ọ bụ ego azụmahịa. 
 
-**This ensures that user privacy is preserved as the transaction remains confidential while still being validated. This technology is designed to ensure the confidentiality of financial transactions on the Zcash network.**
+**Nke a na-eme ka a hụ na a na-echekwa nzuzo onye ọrụ ka azụmahịa ahụ na-abụ ihe nzuzo ma a ka na-enyocha ya. Emebere teknụzụ a iji hụ na nzuzo nke azụmahịa ego na netwọk Zcash.**
 
-Na usoro ndị dabeere na Decoy dị ka [RingCT](https://twitter.com/ZecHub/status/1636473585781948416), multiple transactions are combined making it challenging or difficult to trace the actual source and destination of funds. The algorithm introduces decoy inputs and outputs in transactions also employing encryption of the addresses used as inputs & using Range proofs to validate the amount transferred is spendable. 
+N'ime sistemụ Decoy dịka [RingCT](https://twitter.com/ZecHub/status/1636473585781948416), a na-ejikọta ọtụtụ azụmahịa na-eme ka ọ sie ike ma ọ bụ sie ike ịchọpụta ebe ego si na ebe ego ahụ si. Algọridim ahụ na-ewebata ntinye na mmepụta aghụghọ na azụmahịa yana iji nzuzo nke adreesị eji dị ka ntinye & iji ihe akaebe Range iji gosi na ego e zigara bụ ihe a ga-emefu. 
 
-Usoro a na-eme ka ụzọ azụmahịa ahụ ghara ịdị. Ojiji nke ntinye ntinye na- eme ka ọ bụrụ ihe ịma aka nye onye ọ bụla na-enyocha blockchain iji chọpụta onye eziga, onye nnata, ma ọ bụ ego azụmahịa. 
+Ụzọ a na-egbochi ụzọ azụmahịa. Ojiji nke ntinye aghụghọ na-eme ka ọ sie ike nye onye ọ bụla na-enyocha blockchain ịchọpụta ezigbo onye zitere ya, onye nnata, ma ọ bụ ego azụmahịa. 
 
-**Important Note**: This method of on-chain privacy preserving transaction still explicitly reveals (encrypted) inputs to all user transactions. Metadata such as the *FLOW OF TRANSACTIONS* between different users on the network can still be gathered. If an adversary actively participates in generating transactions on the network, it effectively deanonymises the decoy inputs of other users. 
+**Ihe Dị Mkpa**: Ụzọ a nke ịchekwa nzuzo n'usoro azụmahịa ka na-ekpughe nke ọma ntinye (ezoro ezo) na azụmahịa ndị ọrụ niile. Enwere ike ịchịkọta metadata dị ka *ỌRỤ N'ỤZỌ AGBANWE* n'etiti ndị ọrụ dị iche iche na netwọk ahụ. Ọ bụrụ na onye mmegide esonye na imepụta azụmahịa na netwọk ahụ, ọ na-ewepụ aha ndị ọrụ ndị ọzọ. 
 
 
-## Uru nke ZK n'elu Decoy Based Systems
+## Uru nke Sistemụ Dabere na ZK Over Decoy
 
-Ma Zcash ma Monero bụ cryptocurrencies na-elekwasị anya na nzuzo, mana ha na-enweta nzuzo n'ụzọ dị iche iche. 
+Ma Zcash na Monero bụ ego dijitalụ lekwasịrị anya na nzuzo, mana ha na-enweta nzuzo n'ụzọ dị iche iche. 
 
-Ndị a bụ ụfọdụ uru nke ihe akaebe Zcash na-enweghị ihe ọmụma (ZK) karịa usoro aghụghọ nke Monero:
+Lee ụfọdụ uru nke ihe akaebe efu Zcash's (ZK) karịa sistemụ aghụghọ nke Monero:
 
-1) **Nkọwapụta Nhọrọ**: Site na njirimara Zcash ZK, ndị ọrụ nwere nhọrọ iji kpughee nkọwa azụmahịa na ndị ọzọ akọwapụtara [Gụọ ECC Blog na Nkọwa Nhọrọ](https://electriccoin.co/blog/viewing-keys-selective-disclosure/). In Zcash, shielded transactions' encrypted contents allow individuals to selectively reveal data from a particular transfer. Additionally, a viewing key can be provided to disclose all transactions associated with a specific shielded address. This feature allows for regulatory compliance and auditability without compromising the overall privacy of the network. 
+1) **Ngosipụta Nhọrọ**: Site na atụmatụ Zcash ZK, ndị ọrụ nwere nhọrọ ikpughe nkọwa azụmahịa nye ndị otu akọwapụtara [Gụọ blọgụ ECC na Nkọwapụta Nhọrọ](https://electriccoin.co/blog/viewing-keys-selective-disclosure/)Na Zcash, ihe dị n'ime azụmahịa echekwara na-enye ndị mmadụ ohere ikpughe data site na mbufe kpọmkwem. Na mgbakwunye, enwere ike inye igodo nlele iji kpughee azụmahịa niile metụtara adreesị echekwara kpọmkwem. Njirimara a na-enye ohere maka nnabata iwu na nyocha na-enweghị imebi nzuzo zuru oke nke netwọk ahụ. 
 
-Ọ bụ ezie na Monero's decoy algorithm (akara mbinye aka) na-enyere aka n'inye nzuzo, ọ naghị enye * nhọrọ * ngosi n'otu ụzọ ahụ.
+Ọ bụ ezie na algọridim aghụghọ nke Monero (mbinye aka mgbanaka) na-enyere aka n'inye nzuzo, ọ naghị enye *nhọrọ* ngosipụta n'otu ụzọ ahụ.
 
 
 <a href="">
@@ -43,21 +43,21 @@ Ndị a bụ ụfọdụ uru nke ihe akaebe Zcash na-enweghị ihe ọmụma (ZK
 </a>
 
 
-2) **Optional Visibility**: Zcash allows users to choose between transparent (non-private) and shielded (private) transactions. This connotes that Zcash offers users the flexibility to either keep their financial information private (shielded) or make it transparent and publicly available similar to most other blockchains as explained on [Zcash official website](https://z.cash/learn/what-is-the-difference-between-shielded-and-transparent-zcash/). This opt-in privacy allows for greater flexibility and business/organisational relevant use cases, as some transactions may require less privacy for public scrutiny, while others benefit from enhanced privacy.
+2) **Nhọrọ Nhụpụta**: Zcash na-enye ndị ọrụ ohere ịhọrọ n'etiti azụmahịa doro anya (nke na-abụghị nkeonwe) na azụmahịa echekwara (nkeonwe). Nke a na-egosi na Zcash na-enye ndị ọrụ ohere idobe ozi ego ha n'onwe (n'ebe a na-echebe ya) ma ọ bụ mee ka ọ doo anya ma dịrị n'ihu ọha dịka ọtụtụ blockchain ndị ọzọ dịka akọwara na ya [Ebe nrụọrụ weebụ gọọmentị Zcash](https://z.cash/learn/what-is-the-difference-between-shielded-and-transparent-zcash/)Nzuzo a maka nhọrọ na-enye ohere maka mgbanwe ka ukwuu na okwu ojiji azụmaahịa/òtù, ebe ụfọdụ azụmahịa nwere ike ịchọ obere nzuzo maka nyocha ọha, ebe ndị ọzọ na-erite uru site na nchekwa ka mma.
 
 
-3) **Anonymity Set**: The [ahaghị aha set](https://docs.wasabiwallet.io/FAQ/FAQ-UseWasabi.html#what-is-the-difference-between-anonymity-set-and-anonymity-score) of zero knowledge shielded pools comprises all transactions that have *ever* occurred. This is significantly larger than most other on-chain techniques for achieving transaction unlinkability. Note: this only applies to transactions within the same shielded pool.
+3) **Nhazi Amaghị Aha**: The [aha njirimara](https://docs.wasabiwallet.io/FAQ/FAQ-UseWasabi.html#what-is-the-difference-between-anonymity-set-and-anonymity-score) nke ọdọ mmiri ihe ọmụma efu nwere ihe niile emerela. Nke a buru ibu karịa ọtụtụ usoro ndị ọzọ dị n'usoro iji nweta njikọ na-enweghị njikọ. Rịba ama: nke a metụtara naanị azụmahịa dị n'ime otu ọdọ mmiri ahụ.
 
-The use of decoys does increase the anonymity set. However this approach is dependent entirely on the number of *real* users on the network. 
+Ojiji nke aghụghọ na-eme ka njirimara nzuzo dịkwuo elu. Agbanyeghị, ụzọ a dabere kpamkpam na ọnụọgụgụ *ezigbo* ndị ọrụ na netwọk ahụ. 
 
-4) ** Enweghị Ntọala A Tụkwasịrị Obi **: Zcash's Sprout & Sapling setup utilized a multi-party computation known as the "trusted setup ceremony". Nwelite NU5 na nso nso a achọghị ntụkwasị obi ọ bụla na iguzosi ike n'ezi ihe nke nhazi usoro ihe ọmụma efu. [Gụọ ECC Blog na NU5](https://electriccoin.co/blog/nu5-activates-on-mainnet-eliminating-trusted-setup-and-launching-a-new-era-for-zcash/).
+4) **Enweghị Ntọala A Tụkwasara Obi**: Nhazi Sprout & Sapling Zcash's jiri mgbakọta ọtụtụ mmadụ nke a maara dị ka "ememe ntọala a tụkwasịrị obi". Mmelite NU5 nke na-adịbeghị anya achọghị ntụkwasị obi na iguzosi ike n'ezi ihe nke ntọala sekit ihe ọmụma efu. [Gụọ blọgụ ECC na NU5](https://electriccoin.co/blog/nu5-activates-on-mainnet-eliminating-trusted-setup-and-launching-a-new-era-for-zcash/).
 
-5) **Nchekwa data**: [zk-SNARK technology](https://zechub.wiki/zcash-technology) used in Zcash's shielded pools allows for significantly enhanced security for users. The reduction of metadata leakage on-chain means that users are safe from adversaries such as potential hackers or oppressive state bodies. 
+5) **Nzuzo Data**: Nke [teknụzụ zk-SNARK](https://zechub.wiki/zcash-tech/zk-snarks) eji ya na ọdọ mmiri ndị e ji kpuchie Zcash's na-enye ohere maka nchekwa dị ukwuu maka ndị ọrụ. Mbelata ntapụ metadata na-apụta na ndị ọrụ nwere nchebe pụọ n'aka ndị iro dịka ndị nwere ike ịghọgbu ndị ọzọ ma ọ bụ ndị otu steeti na-emegbu. 
 
-E nwere ọtụtụ ihe atụ ebe achọpụtara ahụhụ na Monero's decoy selection algorithm.](https://coindesk.com/markets/2021/07/27/bug-found-in-decoy-algorithm-for-privacy-coin-monero). 
+E nwere ọtụtụ ihe atụ ebe achọpụtara njehie na algọridim nhọrọ decoy nke Monero. Nsogbu ndị a nwere ike ikpughe mmefu ndị ọrụ dịka akụkọ si kwuo [CoinDesk](https://coindesk.com/markets/2021/07/27/bug-found-in-decoy-algorithm-for-privacy-coin-monero). 
 
 
-Na nchịkọta ihe kachasị mkpa bụ iji belata ma ọ bụ kpochapụ ihe ọmụma nke onye ọrụ na data dị ka Zooko kọwara na [Orchid (priv8) AMA ndụ nnọkọ](https://youtube.com/watch?v=XpRzKqEfpP4&feature=share9) 
+Na nchịkọta, ihe kacha mkpa bụ ibelata ma ọ bụ wepụ mmịpụta nke ozi na data onye ọrụ dịka Zooko kọwara na [Oge ndụ nke Orchid (priv8) AMA](https://youtube.com/watch?v=XpRzKqEfpP4&feature=share9) 
 
 
 <a href="">
@@ -67,7 +67,7 @@ Na nchịkọta ihe kachasị mkpa bụ iji belata ma ọ bụ kpochapụ ihe �
 
 ____
 
-***Njikọ Njikọ ***
+***Njikọ ntụaka***
 
 https://z.cash/learn/
 
@@ -81,7 +81,7 @@ https://youtu.be/XpRzKqEfpP4
 
 https://electriccoin.co/blog/zcash-evolution/
 
-https://electriccoin.co/zcash-metrics/
+https://web.archive.org/web/20240327000137/https://electriccoin.co/zcash-metrics/
 https://electriccoin.co/blog/viewing-keys-selective-disclosure/
 
 

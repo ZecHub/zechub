@@ -186,13 +186,13 @@ Pour rester accessible aux débutants, nous avons simplifié quelques vérités.
 
 | Terme | Signification en langage courant |
 |---|---|
-| **Arithmétique modulaire** | Une arithmétique qui revient au début après avoir atteint une valeur fixe, comme une horloge |
+| **Modular arithmetic** | Une arithmétique qui revient au début après avoir atteint une valeur fixe, comme une horloge |
 | **mod p** | « Divisez par `p` et gardez le reste » |
-| **Corps** | Un système de nombres dans lequel l'addition, la soustraction, la multiplication et la division fonctionnent toutes |
-| **Corps fini `F_p`** | Les nombres `0..p-1` avec une arithmétique effectuée modulo un nombre premier `p` |
-| **Inverse (réciproque)** | L'élément `a^(-1)` tel que `a x a^(-1) = 1` ; « diviser par `a` » signifie multiplier par lui |
-| **Diviseur de zéro** | Deux valeurs non nulles dont le produit est zéro ; la chose qui ruine les modulos composés |
-| **Premier** | Un nombre entier supérieur à 1 qui n'a pas d'autres facteurs que 1 et lui-même |
+| **Field** | Un système de nombres dans lequel l'addition, la soustraction, la multiplication et la division fonctionnent toutes |
+| **Finite field `F_p`** | Les nombres `0..p-1` avec une arithmétique effectuée modulo un nombre premier `p` |
+| **Inverse (reciprocal)** | L'élément `a^(-1)` tel que `a x a^(-1) = 1` ; « diviser par `a` » signifie multiplier par lui |
+| **Zero divisor** | Deux valeurs non nulles dont le produit est zéro ; la chose qui ruine les modulos composés |
+| **Prime** | Un nombre entier supérieur à 1 qui n'a pas d'autres facteurs que 1 et lui-même |
 
 ---
 

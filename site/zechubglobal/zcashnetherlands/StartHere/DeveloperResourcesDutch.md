@@ -6,7 +6,7 @@ Breed overzicht van hoe Blockchains & Zcash werkt:
 
 [Zcash Docs](https://zcash.readthedocs.io/en/latest/)
 
-[Bitcoin beheersen: de open blockchain programmeren](https://www.amazon.com/Mastering-Bitcoin-Programming-Open-Blockchain-ebook/dp/B071K7FCD4)
+[Bitcoin beheersen: de open blockchain programmeren](https://web.archive.org/web/20230225165018/https://www.amazon.com/Mastering-Bitcoin-Programming-Open-Blockchain-ebook/dp/B071K7FCD4)
 
 [Zcashd RPC's](https://zcash.github.io/rpc/)
 

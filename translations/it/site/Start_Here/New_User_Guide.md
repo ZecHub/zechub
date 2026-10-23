@@ -7,9 +7,9 @@
 ## In sintesi
 
 - **Acquista ZEC** su un exchange supportato (Gemini, BitcoinVN, ecc.)
-- **Configura un wallet Shielded** (consigliati: Zodl, Zingo o Zkool)
-- **Preleva** il tuo ZEC dall'exchange al tuo wallet Shielded
-- **Invia una transazione Shielded** — il tuo primo pagamento privato su Zcash
+- **Configura un portafoglio schermato** (consigliati: Zodl, Zingo o Zkool)
+- **Preleva** il tuo ZEC dall'exchange al tuo portafoglio schermato
+- **Invia una transazione schermata** — il tuo primo pagamento privato su Zcash
 - **Unisciti alla comunità** sul forum o su Discord
 
 ---
@@ -30,15 +30,15 @@ Una nota importante: non è necessario acquistare 1 *ZEC* intero.
 
 ---
 
-**Configura un wallet**
+**Configura un portafoglio**
 
-Dopo aver acquistato del *ZEC*, potresti volerlo trasferire su un wallet Zcash.
+Dopo aver acquistato del *ZEC*, potresti volerlo trasferire su un portafoglio Zcash.
 
-Questo [articolo spiega](https://www.ledger.com/academy/not-your-keys-not-your-coins-why-it-matters) perché è importante custodire il proprio *ZEC* in un wallet.
+Questo [articolo spiega](https://www.ledger.com/academy/not-your-keys-not-your-coins-why-it-matters) perché è importante custodire il proprio *ZEC* in un portafoglio.
 
-Ti consigliamo di usare un [wallet Shielded](https://zechub.wiki/wallets) perché questi wallet offrono le funzionalità di privacy che rendono *ZEC* unico.
+Ti consigliamo di usare un [portafoglio schermato](https://zechub.wiki/wallets) perché questi portafogli offrono le funzionalità di privacy che rendono *ZEC* unico.
 
-Ecco un video che illustra i moderni wallet Shielded:
+Ecco un video che illustra i moderni portafogli schermati:
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -57,7 +57,7 @@ Ecco un video che illustra i moderni wallet Shielded:
 
 **Preleva ZEC**
 
-Dopo aver creato il tuo wallet, dovrai prelevare il tuo ZEC su di esso.
+Dopo aver creato il tuo portafoglio, dovrai prelevare il tuo ZEC su di esso.
 
 Ecco un tutorial su come farlo.
 
@@ -75,9 +75,9 @@ Ecco un tutorial su come farlo.
 
 ---
 
-**Invia una transazione Shielded**
+**Invia una transazione schermata**
 
-Dopo aver depositato del ZEC nel tuo wallet, sei pronto per inviare una transazione completamente Shielded e privata. Una transazione Shielded è uno scambio di ZEC che tutela pienamente la privacy di ciascun partecipante. Ecco alcuni consigli utili quando usi ZEC Shielded.
+Dopo aver depositato dello ZEC nel tuo portafoglio, sei pronto per inviare una transazione completamente schermata e privata. Una transazione schermata è uno scambio di ZEC che tutela pienamente la privacy di ciascun partecipante. Ecco alcuni consigli utili quando usi ZEC schermato.
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -109,7 +109,7 @@ La comunità è appassionata e molto accogliente con i nuovi arrivati. A volte l
 ## Pagine correlate
 
 - [Cos'è ZEC e Zcash](/start-here/what-is-zec-and-zcash) — Comprendi le basi prima di iniziare
-- [Acquistare ZEC](/using-zcash/buying-zec) — Elenco completo degli exchange che supportano i prelievi Shielded
-- [Wallet](/using-zcash/wallets) — Confronta tutti i wallet Zcash per funzionalità e piattaforma
-- [Pool Shielded](/using-zcash/shielded-pools) — Scopri perché le transazioni Shielded sono importanti
+- [Acquistare ZEC](/using-zcash/buying-zec) — Elenco completo degli exchange che supportano i prelievi schermati
+- [Portafogli](/using-zcash/wallets) — Confronta tutti i portafogli Zcash per funzionalità e piattaforma
+- [Pool schermate](/using-zcash/shielded-pools) — Scopri perché le transazioni schermate sono importanti
 - [Transazioni](/using-zcash/transactions) — Come inviare e ricevere ZEC in modo privato

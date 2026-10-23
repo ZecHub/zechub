@@ -105,4 +105,4 @@ Questa settimana ZecHub rilascia una nuova serie didattica: Zcash 101. Si tratta
 
 #### Social Italiani
 
-[Blog](https://zcashitalia.com/) | [Gruppo Telegram](https://t.me/zcashita) | [Gruppo Discord](https://discord.com/channels/978714252934258779/1091806217359347802) | [Gruppo Facebook](https://www.facebook.com/groups/zecitalia) | [Twitter](https://twitter.com/InsideZcash) |
+[Blog](https://web.archive.org/web/20240419175552/https://zcashitalia.com/) | [Gruppo Telegram](https://t.me/zcashita) | [Gruppo Discord](https://discord.com/channels/978714252934258779/1091806217359347802) | [Gruppo Facebook](https://www.facebook.com/groups/zecitalia) | [Twitter](https://twitter.com/InsideZcash) |

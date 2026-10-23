@@ -23,7 +23,7 @@ The Crosslink Protocol is a landmark development in Zcash evolution, steering it
 
 This transition aligns with global trends in blockchain innovation, where projects are shifting to environmentally sustainable and decentralized mechanisms. Crosslinks' dual consensus model ensures Zcash maintains its strong cryptographic privacy guarantees while evolving to meet contemporary challenges.
 
-Àbá Proof-of-Stake (PoS) jẹ́ àdàkọ ti a ṣe láti da ẹ̀rí iṣẹ́ pọ̀ pẹ̀lú PoS, tí ó ní ìlépa lati yanjú àwọn àìlera bí 51% ìjà nígbàtí o ń tọ́jú ìdásílẹ̀ àti dín ìlò agbára kù. Hybrid PoS ṣafihan awọn notaries tó fọwọsi bulọọki dá lórí ZEC tí wọ́n fi okùn sí i. Ẹrọ yìí ni wọn ṣe fún títún ètò aabo pápá ati fífi ìdíwòdìyẹsẹ mú ọ̀nà mu, èyí sì n pèsè ọ̀kan mìíràn díẹ̀ lọ́lá ju ìlànà PoW lásán lọ.
+Àbá Proof-of-Stake (PoS) jẹ́ àdàkọ ti a ṣe láti da ẹ̀rí iṣẹ́ pọ̀ pẹ̀lú PoS, tí ó ní ìlépa lati yanjú àwọn àìlera bí 51% ìjà nígbàtí o ń tọ́jú ìdásílẹ̀ àti dín ìlò agbára kù. Hybrid PoS ṣafihan awọn notaries tó fọwọsi bulọọki dá lórí ZEC tí wọ́n fi okùn sí i. Ẹrọ yìí ni wọn ṣe fún títún ètò aabo pápá ati fífi ìdíwòdìgbà mú ọ̀nà mu, èyí sì n pèsè ọ̀kan mìíràn díẹ̀ lọ́lára ju ìlànà PoW lásán lọ.
 
 ### Kí nìdí Hybrid PoS/PoW bi akọkọ igbeyewo?
 
@@ -36,14 +36,14 @@ This transition aligns with global trends in blockchain innovation, where projec
 
 The Crosslink protocol is a proposed design for Zcash's hybrid Proof-of-Work/Proof-of-Stake (PoW/PoS) stage. It integrates PoW with a Byzantine Fault Tolerance (BFT) protocol, enabling assured finality as long as either PoW or PoS remains secure. The design aims to strengthen network security and decentralization by incorporating staked validation while maintaining miner participation. A key feature of the proposal, called Crosslink 2, simplifies the architecture by unifying BFT proposers and miners. This streamlined approach minimizes structural changes and allows the use of a "dummy" BFT layer, making it easier to prototype and deploy while maintaining high-security standards.
 
-The implementation plan includes a roadmap with estimated engineering costs for integrating Crosslink 2* into Zcash's Zebra client. This phased deployment focuses on balancing stakeholder incentives, reducing disruption, and aligning with Zcash goals for scalability, usability, and decentralization. Growing confidence in the protocol's robust security properties further solidifies its potential as a key step in Zcash evolution. By addressing energy efficiency and enhancing consensus mechanisms, Crosslink offers a forward-looking solution to evolving blockchain challenges. For more details, refer to the [Àkójọ GitHub](https://github.com/ShieldedLabs/crosslink-deployment) àti àwọn [Àjọ Ìgbìmọ̀ Zcash Forum](https://forum.zcashcommunity.com).
+The implementation plan includes a roadmap with estimated engineering costs for integrating Crosslink 2* into Zcash's Zebra client. This phased deployment focuses on balancing stakeholder incentives, reducing disruption, and aligning with Zcash goals for scalability, usability, and decentralization. Growing confidence in the protocol's robust security properties further solidifies its potential as a key step in Zcash evolution. By addressing energy efficiency and enhancing consensus mechanisms, Crosslink offers a forward-looking solution to evolving blockchain challenges. For more details, refer to the [Àkójọ GitHub](https://github.com/ShieldedLabs/zebra-crosslink) àti àwọn [Àjọ Ìgbìmọ̀ Zcash Forum](https://forum.zcashcommunity.com).
 
 ### Àwọn Àfojúsùn àti Ìlépa Crosslink
 
 A ṣe apẹrẹ Ilana Crosslink lati koju awọn ibi-afẹde iṣakoso pupọ pataki fun ọjọ iwaju Zcash:
 
 1. **Ipa-ipinlẹ**:
-   * Nípa fífi PoS kún, Zcash dín ìgbẹ́kẹ̀lé lórí ohun èlò tí a ṣe fún PoW (ASICs) kù, èyí tó sábà máa ń kó agbára ìṣàmúlò jọ láàárín àwọn oníṣẹ́-ṣiṣe ńláńlá díẹ̀.
+   * Nípa fífi PoS kún, Zcash dín ìgbẹ́kẹ̀lé lórí ohun èlò tí a ṣe fún PoW (ASICs) kù, èyí tó sábà máa ń kó agbára ìṣọ́wó lọ sókè láàárín àwọn oníṣẹ́-òṣìṣẹ́ ńláńlá díẹ̀.
    * PoS gba ikopa lati agbegbe ti o gbooro, nibiti awọn oniwun owo ṣe idogo dukia wọn lati ni aabo nẹtiwọọki naa, ṣiṣe idaniloju ifọkanbalẹ pinpin diẹ sii.
    * Nípa fífi ìfọwọ́sílẹ̀ tí ó nípìn-ín nínú ṣe, àgbékalẹ̀ náà rí i dájú pé àwọn olùkópa ètò ọrọ̀ ajé ń kó ipa tó lágbára nínú àdéhùn, èyí sì dín bí wọ́n ti gbẹkẹle iṣẹ́ iwakusa kù.
 2. **Ìdarí tí ó dára sí i**:
@@ -69,7 +69,7 @@ Think of a parcel service that issues two different documents for the same deliv
 
 ### Ààbò àti Ìlépa Iṣẹ́-ìṣe ti Crosslink
 
-Àgbékalẹ̀ Crosslink ní láti pèsè oríṣi ìwé àkọsílẹ̀ méjì fún Zcash: àgbékalẹ̀ tí ó parí (LOG_fin) àti èyí tó pẹ́ díẹ̀ jù lọ (LO G ba). A ṣe é kí á lè wà láàyè, kó sì dáàbò bò àwọn ìsọfúnni.
+Àgbékalẹ̀ Crosslink ní láti pèsè oríṣi ìwé àkọsílẹ̀ méjì fún Zcash: àgbékalẹ̀ tí ó parí (LOG_fin) àti èyí tó pẹ́ díẹ̀ jù lọ (LO G ba). A ṣe é kí á wà láàyè, kó sì dáàbò bò wá.
 
 Igbimọ-iṣowo ti o kere ju n fa ifunni ipari nipasẹ ko si diẹ sii ju awọn bulọọki * L *. O ṣe idaniloju aabo atunṣe labẹ ilana blockchain nikan ati ṣetọju idaduro ati ailewu kii buru julọ ju awoṣe Zcash tẹlẹ lọ. Ni apẹrẹ Crosslink 2* ti a sọ di mimọ, iwe ifowopamọ idadoro kekere jẹ simplifies idagbasoke ati gbigba nipa ṣiṣẹ bi pq kan PoW okun .
 
@@ -90,7 +90,7 @@ Crosslink ṣe àgbéyẹ̀wò àwọn ewu tó jẹ mọ́ ìwé àkọsílẹ̀
 * Àlàyé Ìṣiṣẹ́: Ifilọlẹ̀ Crosslink gba àtúnṣe sí ìlànà ìfohùnmọ̀sọ̀rọ Zcash, títí kan yíyan ètò pínpín ìpín àti títún àwọn òfin àdéhùn nẹtiwọki ṣe láti ṣètìléyìn fún àmúlùmálà èrò orí.
 * Ifilọlẹ ni ipele: A yoo ṣe ilana naa ni awọn ipo lati rii daju iduroṣinṣin nẹtiwọki ati adaṣe agbegbe. Awọn ipele akọkọ fojusi lori imuse imọ-ẹrọ, atẹle nipasẹ iṣọpọ ijọba fun yiyan awọn notaries.
 
-O le ṣawari awọn alaye imọ-ẹrọ ati tọpinpin ilọsiwaju rẹ nipasẹ Awọn ọna kika Iṣakoso. [Àkójọ Ìmúgbòòrò Crosslink lórí GitHub](https://github.com/ShieldedLabs/crosslink-deployment).
+O le ṣawari awọn alaye imọ-ẹrọ ati tọpinpin ilọsiwaju rẹ nipasẹ Awọn ọna kika Iṣakoso. [ìpamọ́ zebra-crosslink lórí GitHub](https://github.com/ShieldedLabs/zebra-crosslink) àti pé, [Ìwé Àwọn Ẹranko Zebra-Crosslink Book](https://shieldedlabs.github.io/zebra-crosslink/).
 
 ## Àwọn Ohun Tó Lè Yọrí sí Lóòótọ́
 
@@ -130,7 +130,7 @@ Crosslink mọ ipa ipilẹ ti awọn oniwakiri PoW ni idagbasoke Zcash lakoko ig
 
 - Àwọn ìlàlóye láti ọ̀dọ́: [Àjọ Ìgbìmọ̀ Zcash - Àwọn ìjíròrò lórí Crosslink](https://forum.zcashcommunity.com)
 - Àwọn àtúnṣe tí ó wà nípamọ́: [Electric Coin Company Blog](https://electriccoin.co)
-- Ìfojúsọ́nà sí ìmúgbòòrò: [Ìdí tí PoS Àdàpọ̀ fi ṣe pàtàkì fún Zcash](https://forum.zcashcommunity.com)
+- Ìfojúsọ́nà sí ìmúgbòòrò: [Ìdí tí PoS Àdàpọ̀ ṣe pàtàkì fún Zcash](https://forum.zcashcommunity.com)
 
   Àlàyé:
 
@@ -140,7 +140,7 @@ Crosslink mọ ipa ipilẹ ti awọn oniwakiri PoW ni idagbasoke Zcash lakoko ig
        src="https://www.youtube.com/embed/O4wQi_i7k0I"
        title="Crosslink"
        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-       gba Àwòrán-ìwòyí ní kíkún (FullScreen)
+       allowFullScreen
        loading="lazy"
      />
 </div>

@@ -3,75 +3,75 @@
 </a>
 
 
-# Fífi ojú wo àwọn Adirẹsi Zcash
+# Fífi ojú inú wo àwọn àdírẹ́sì Zcash
 
-If you're learning about Zcash for the first time you will immediately realize there are two types of [transactions](https://zechub.wiki/using-zcash/transactions) èyí lè wáyé: *transparent* àti *shielded*.
-Pẹlupẹlu, ti o ba ti n tọju pẹlu awọn idagbasoke tuntun ni ilolupo eda abemi Zcash, o le ti kẹkọọ nipa [Awọn Adirẹsi Aladani](https://electriccoin.co/blog/unified-addresses-in-zcash-explained/), or UA's.
-When folks in the Zcash industry talk about *shielded* transactions, they mean transactions that involve addresses that are encoded for either the sapling or orchard protocols. 
-UA's are designed to unify *any* type of shielded or transparent transaction into a single address. This generalization is the key to simplifying the UX moving forward. The purpose of this guide is to supplement understanding of UA's with concrete visual examples.
+Tí o bá ń kọ́ nípa Zcash fún ìgbà àkọ́kọ́, o máa rí i lẹ́sẹ̀kẹsẹ̀ pé oríṣi méjì ló wà [awọn iṣowo](https://zechub.wiki/using-zcash/transactions) tí ó lè ṣẹlẹ̀: *àfihàn* àti *àbò*.
+Síwájú sí i, tí o bá ti ń tẹ̀lé àwọn ìdàgbàsókè tuntun nínú ètò-ẹ̀rọ Zcash, o lè ti kọ́ nípa rẹ̀ [Àwọn Àdírẹ́sì Ìṣọ̀kan](https://web.archive.org/web/20260823012524/https://electriccoin.co/blog/unified-addresses-in-zcash-explained/), or UA's.
+Nígbà tí àwọn ènìyàn nínú iṣẹ́ Zcash bá ń sọ̀rọ̀ nípa àwọn ìṣòwò *tí a dáàbò bò*, wọ́n túmọ̀ sí àwọn ìṣòwò tí ó ní àwọn àdírẹ́sì tí a fi àmì sí fún àwọn ìlànà igi tàbí ọgbà igi. 
+A ṣe àwọn UA láti so *èyíkéyìí* irú ìṣòwò tí a dáàbò bò tàbí tí ó hàn gbangba pọ̀ mọ́ àdírẹ́sì kan. Ìṣàpapọ̀ yìí ni kọ́kọ́rọ́ láti mú kí UX rọrùn síi ní ìlọsíwájú. Ète ìtọ́sọ́nà yìí ni láti fi àwọn àpẹẹrẹ ìrísí tó dájú kún òye UA.
 
-## Awọn oriṣi adirẹsi Zcash
+## Awọn oriṣi awọn adirẹsi Zcash
 
-Lọwọlọwọ awọn oriṣi adirẹsi mẹta lo wa ni lilo titi di oni.
+Lọ́wọ́lọ́wọ́, oríṣi àdírẹ́sì mẹ́ta pàtàkì ló wà tí a ń lò títí di òní. Àwọn wọ̀nyí ni
 
-* tó ṣe kedere
+* di mimọ
 
-! [ì ì1 ](/content-images/219261771-a9957ec3-2841-4073-9cfd-1db9d6-574fc930f0.webp)
+![img1](/content-images/219261771-a9957ec3-2841-4073-9cfd-1db9d6-574fc930f0.webp)
 
-* ọmọ ọ̀dọ́
+* igi ogbin
 
-! [ì ì ì2 ](/content-images/219261784-1a617e70-f588-4eed-96bf-f0789d-e10ebfc543.webp)
+![img2](/content-images/219261784-1a617e70-f588-4eed-96bf-f0789d-e10ebfc543.webp)
 
 * Unified Address (Full)
 
-! [ì ì ì3 ](/content-images/219261794-bcc79db6-4dc6-4c6a-867b-3717b8-a3650f8968.webp)
+![img3](/content-images/219261794-bcc79db6-4dc6-4c6a-867b-3717b8-a3650f8968.webp)
 
 
-First thing to notice is how the length of each type of address is different. You can see this visually by the number of characters in the address string *or* by looking at the associated QR codes. As length of the address increases, the QR code tends to zoom out and fit more data into the square.
+Ohun àkọ́kọ́ tí a gbọ́dọ̀ kíyèsí ni bí gígùn irú àdírẹ́sì kọ̀ọ̀kan ṣe yàtọ̀ síra. O lè rí èyí ní ojú ìwòye nípa iye àwọn ohun kikọ nínú okùn àdírẹ́sì *tàbí* nípa wíwo àwọn kódì QR tí ó so mọ́ ọn. Bí gígùn àdírẹ́sì náà ṣe ń pọ̀ sí i, kódì QR máa ń dínkù sí i, ó sì máa ń fi àwọn dátà púpọ̀ sí i sínú onígun mẹ́rin náà.
 
-* `t1goiSyw2JinFCmUnfiwwp72LEZzD42TyYu` ó ní àwọn òǹkọ̀wé márùndínlógójì
-* `zs1cpf4prtmnqpg6x2ngcrwelu9a39z9l9lqukq9fwagnaqrknk34a7n3szwxpjuxfjdxkuzykel53` jẹ àwọn àmì 78
-* `u1ckeydud0996ftppqrnpdsqyeq4e57qcyjr4raht4dc8j3njuyj3gmm9yk7hq9k88cdkqfuqusgpcpjfhwu3plm2vrd32g8du78kzkm5un357r4vkhz4vhxd4yfl8zvszk99cmsc89qv4trd7jzkcs8h6lukzgy25j8cv76p0g603nrrg6yt6cxsh2v8rmkasskd69ylfyphhjyv0cxs` jẹ 213 awọn ohun kikọ gun
+* `t1goiSyw2JinFCmUnfiwwp72LEZzD42TyYu` Ó gùn ní àwọn ohun kikọ 35
+* `zs1cpf4prtmnqpg6x2ngcrwelu9a39z9l9lqukq9fwagnaqrknk34a7n3szwxpjuxfjdxkuzykel53` Ó gùn ní àwọn ohun kikọ 78
+* `u1ckeydud0996ftppqrnpdsqyeq4e57qcyjr4raht4dc8j3njuyj3gmm9yk7hq9k88cdkqfuqusgpcpjfhwu3plm2vrd32g8du78kzkm5un357r4vkhz4vhxd4yfl8zvszk99cmsc89qv4trd7jzkcs8h6lukzgy25j8cv76p0g603nrrg6yt6cxsh2v8rmkasskd69ylfyphhjyv0cxs` Ó gùn ní àwọn ohun kikọ 213
 
-Ohun kejì láti ṣàkíyèsí ni àfikún tí ó wà nínú ìlà àdírẹ́sì kọ̀ọ̀kan - ìbẹ̀rẹ̀ tí ó ṣe kedere pẹ̀lú *t*, ìkókó pẹ̀lu *zs*, àti níkẹyìn UA's pẹ̀lẹ́lú *u1*.
+Ohun kejì tí a gbọ́dọ̀ kíyèsí ni ìṣáájú ìlà àdírẹ́sì kọ̀ọ̀kan -- ìbẹ̀rẹ̀ tí ó ṣe kedere pẹ̀lú *t*, igi kékeré pẹ̀lú *zs*, àti ní ìkẹyìn UA pẹ̀lú *u1*.
 
-Ó ṣe pàtàkì láti kíyè sí:
+Ó ṣe pàtàkì láti kíyèsí:
 
-#### "Orchard payment addresses do not have a stand-alone string encoding. Instead, we define "unified addresses" that can bundle together addresses of different types, including Orchard. Unified addresses have a Human-Readable Part of "u" on Mainnet, i.e. they will have the prefix "u1". "
+#### "Àwọn àdírẹ́sì ìsanwó Orchard kò ní ìkọ̀wé okùn tí ó dúró fúnra rẹ̀. Dípò bẹ́ẹ̀, a túmọ̀ "àdírẹ́sì ìṣọ̀kan" tí ó lè so àwọn àdírẹ́sì onírúurú pọ̀, títí kan Orchard. Àwọn àdírẹ́sì ìṣọ̀kan ní Apá tí a lè kà nípa ènìyàn nínú "u" lórí Mainnet, ìyẹn ni pé wọn yóò ní ìpele ìṣáájú "u1". "
 
 ## Unified Address receivers
 
-Gẹ́gẹ́ bí a ti sọ níbí](https://medium.com/@hanh425/transaction-privacy-78f80f9f175e) a le kọ UA pẹlu awọn olugba oriṣiriṣi -- diẹ ninu apapo ti ṣiṣan, igi gbigbẹ oloorun, ati awọn iru adirẹsi ọgba.
-Yàtọ̀ sí àwọn àbùdá tí kò ṣeé fojú rí yìí, àwọn tó wọ́pọ̀ jù lọ tó o máa rí nínú igbó ni:
+Gẹ́gẹ́ bí a ti ṣe àgbéyẹ̀wò rẹ̀ [Nibi](https://medium.com/@hanh425/transaction-privacy-78f80f9f175e) Ẹnìkan lè kọ́ àwọn UA pẹ̀lú onírúurú àwọn olugba -- àpapọ̀ àwọn irú àdírẹ́sì tí ó hàn gbangba, irúgbìn igi, àti irúgbìn igi.
+Yato si UA kikun, awọn wọnyi ni awọn wọpọ julọ ti iwọ yoo rii ni igbo:
 
-* ìmọ́lẹ̀ + ọ̀wọ́ igi
+* kedere + igi
 
-! [ì ì 1⁄4](/content-images/219267475-38ad1419-0aac-4205-b18e-687328-46b8f12f80.webp)
+![img4](/content-images/219267475-38ad1419-0aac-4205-b18e-687328-46b8f12f80.webp)
 
-* àlàfo + ọgbà èso
-
-
-! [ì í ì °5](/content-images/219267496-90db21ff-f4e1-4a50-8f2a-1a71d9-7423486eb5.webp)
-
-* ọgbà àjàrà + ọgbà èso
+* ọgbà igi + tí ó ṣe kedere
 
 
-! [ì ì °6](/content-images/219267520-6b731ec2-e911-4469-acc5-c39d4a-a89ba01b88.webp)
+![img5](/content-images/219267496-90db21ff-f4e1-4a50-8f2a-1a71d9-7423486eb5.webp)
 
-* ọgbà èso
+* igi ati ọgba igi
+
+
+![img6](/content-images/219267520-6b731ec2-e911-4469-acc5-c39d4a-a89ba01b88.webp)
+
+* ọgbà igi
   
-![ì ì ì£1⁄4ì í ](/content-images/219267538-1a748fff-4034-4559-96ac-182723-3d69e23dac.webp)
+![img7](/content-images/219267538-1a748fff-4034-4559-96ac-182723-3d69e23dac.webp)
 
-Ohun akọkọ lati ṣe akiyesi ni wipe kọọkan ti awọn wọnyi UA ká wa ni lati kanna ikọkọ bọtini! ohun keji lati se akiyesi ni awọn ipari ti kọọkan iru ti UA:
+Ohun àkọ́kọ́ tí a gbọ́dọ̀ kíyèsí ni pé gbogbo àwọn UA wọ̀nyí wá láti inú kọ́kọ́rọ́ ìkọ̀kọ̀ kan náà! Ohun kejì tí a gbọ́dọ̀ kíyèsí ni gígùn gbogbo irú UA:
 
-* t+s `u13qutpuktq026dwczvxmnh8mxdacsjx3kg2rrhzgns8zsty53t9y0hqp5d440zc9w7z7zkkjqw8dq0uuc0mkt883464mq8mkys7l4xjnhylh7u3u02ukknurm5yxerqlf500y2atq28e` 141 àwọn àmì
-* t+o `u1yvwppp7ann6n3pgkysdu0spvr50w4jf4jwgme3c8x8fp4av59rupgvdd3fddc3f2cwrk3ghs5lxt87ggj8cvjuzcrf4jkejwlu9pc83gk2vtx03ucqcc3ed0furcuypqs6d6swu3nws` 141 àwọn àmì
-* s+o `u1dq8kg78fgpjsc7dn2ynpdzc8xu99wra0jec4jy30rjqk5frsj62qtgqcu9nn0j8g352phlwprshancgxcuhdcclx0wxtvqylhmuegas7ul8hwnwggy727l05pyujuywtnn4nkfznctaelpkcrqcm9cxhkgv3t9jtrvgym7la5varrmzc` Àwọn àmì 178
-* o   `u1cysntkxwt0h4sahp7rhj7u27pgc2ga7685ekf65g0d5ht5glkfm4zkumhvkd2zg2pdrgv3mrwq2x3vw2yl5u7zef3cr2nqwrzu7v2dsa` 106 àwọn àmì
+* t+s `u13qutpuktq026dwczvxmnh8mxdacsjx3kg2rrhzgns8zsty53t9y0hqp5d440zc9w7z7zkkjqw8dq0uuc0mkt883464mq8mkys7l4xjnhylh7u3u02ukknurm5yxerqlf500y2atq28e` Àwọn ohun kikọ 141
+* t+o `u1yvwppp7ann6n3pgkysdu0spvr50w4jf4jwgme3c8x8fp4av59rupgvdd3fddc3f2cwrk3ghs5lxt87ggj8cvjuzcrf4jkejwlu9pc83gk2vtx03ucqcc3ed0furcuypqs6d6swu3nws` Àwọn ohun kikọ 141
+* s+o `u1dq8kg78fgpjsc7dn2ynpdzc8xu99wra0jec4jy30rjqk5frsj62qtgqcu9nn0j8g352phlwprshancgxcuhdcclx0wxtvqylhmuegas7ul8hwnwggy727l05pyujuywtnn4nkfznctaelpkcrqcm9cxhkgv3t9jtrvgym7la5varrmzc` Àwọn ohun kikọ 178
+* o   `u1cysntkxwt0h4sahp7rhj7u27pgc2ga7685ekf65g0d5ht5glkfm4zkumhvkd2zg2pdrgv3mrwq2x3vw2yl5u7zef3cr2nqwrzu7v2dsa` Àwọn ohun kikọ 106
 
-Ohun kẹta lati ṣe akiyesi ni bi o ṣe jẹ wiwo kọọkan UA jẹ iyatọ diẹ! Agbara ti UA ni * yiyan * ti wọn fun laaye fun awọn olumulo ipari. Ti ni ọjọ iwaju a nilo ilana tuntun, UA yoo ṣetan lati tan.
+Ohun kẹta tí a gbọ́dọ̀ kíyèsí ni bí ojú UA kọ̀ọ̀kan ṣe yàtọ̀ díẹ̀! Agbára UA ni *àṣàyàn* tí wọ́n gbà láàyè fún àwọn olùlò. Tí a bá nílò ìlànà tuntun ní ọjọ́ iwájú, UA yóò ti ṣetán láti bẹ̀rẹ̀.
 
-## Àwọn orísun
+## Àwọn Orísun
 
 https://zcash.github.io/orchard/design/keys.html
 

@@ -18,9 +18,9 @@ ZecHub는 특정 거래소 서비스를 보증하지 않습니다. 직접 조사
 
 ___
 
-### Near-intents
+### NEAR Intents
 
-<img src="/nearintents.png" alt="Near-intents" width="200" height="100"/>
+<img src="/nearintents.png" alt="NEAR Intents" width="200" height="100"/>
 
 - 웹사이트: https://app.near-intents.org/
 - 설명: NEAR를 기반으로 하는 빠른 거래 서비스입니다. 입금, 매도, 스왑을 지원하며 TRUMP, MELANIA, BERA 등 인기 밈 코인도 이용할 수 있습니다.
@@ -59,7 +59,7 @@ ___
 <img src="/flyp.me.png" alt="flyp.me" width="200" height="100"/>
 
 - 웹사이트: https://flyp.me/en/#/
-- 설명: 계정이 필요 없는 Flyp.me 거래소와 FYP 토큰은 개인정보 보호와 탈중앙화를 촉진하고, 풀뿌리 소유권과 합의를 중시하는 커뮤니티를 지원하기 위해 만들어졌습니다.
+- 설명: flyp.me 계정이 필요 없는 거래소와 FYP 토큰은 개인정보 보호와 탈중앙화를 촉진하고, 풀뿌리 소유권과 합의를 중시하는 커뮤니티를 지원하기 위해 만들어졌습니다.
 
 ___
 
@@ -126,9 +126,9 @@ ___
 
 ___
 
-### Bitcoin VN
+### BitcoinVN
 
-<img src="/Bitcoinvn.png" alt="Bitcoin VN" width="200" height="100"/>
+<img src="/Bitcoinvn.png" alt="BitcoinVN" width="200" height="100"/>
 
 - 웹사이트: https://bitcoinvn.io/?deposit=xmr&settle=zec/
 - 설명: 베트남의 즉시 비트코인 및 암호화폐 거래소입니다. VND, BTC, XMR, USDT, ETH, BCH, SOL을 포함한 80개 자산을 구매, 판매 또는 스왑할 수 있습니다.

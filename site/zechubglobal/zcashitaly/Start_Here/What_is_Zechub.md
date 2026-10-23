@@ -30,7 +30,7 @@ Per mantenere un aspetto uniforme per ZecHub, è disponibile un modello (templat
 2. Nessun contenuto di marketing o sponsorizzato.
 3. Nessun contenuto inappropriato.
 
-Donazioni: [qui](https://zcashblockexplorer.com/ua/u17sawf3pdh7z6tsy83vhjd2z7sztpy9y87wyyqz4vqshn3yhch28q3ud3lr0etadl3flz4c9zdrtn9lwlf23vzmjnll97efxzg9h0rjzn9qvhvqr8p3394ysnfhg560xxxc66yxzh8r548myxn3l2qrc9pfrt8nrzhxvlpuuykv7czjsm)
+Donazioni: [qui](https://mainnet.zcashexplorer.app/ua/u17sawf3pdh7z6tsy83vhjd2z7sztpy9y87wyyqz4vqshn3yhch28q3ud3lr0etadl3flz4c9zdrtn9lwlf23vzmjnll97efxzg9h0rjzn9qvhvqr8p3394ysnfhg560xxxc66yxzh8r548myxn3l2qrc9pfrt8nrzhxvlpuuykv7czjsm)
 
 ![Screenshot_2023-07-18_23-19-14](/content-images/90c7879b-2b19-4fb3-a730-64066d266a86-26a528b103.webp)
 

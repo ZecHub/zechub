@@ -176,13 +176,13 @@ En conclusión, Free2z es una plataforma versátil para que los creadores muestr
 
 [Free2z documentation](https://free2z.cash/docs/)
 
-[2Z Overview](https://free2z.cash/docs/2Zs/)
+[2Z Overview](https://web.archive.org/web/20250328063025/https://free2z.cash/docs/2Zs/)
 
-[Creating a profile](https://free2z.cash/docs/creators/creating-a-profile)
+[Creating a profile](https://web.archive.org/web/20250328054344/https://free2z.cash/docs/creators/creating-a-profile)
 
-[What is Free2z Live?](https://free2z.cash/docs/creators/free2z-live)
+[What is Free2z Live?](https://web.archive.org/web/20250328050025/https://free2z.cash/docs/creators/free2z-live)
 
-[Free2z for Supporters](https://free2z.cash/docs/category/for-supporters)
+[Free2z for Supporters](https://web.archive.org/web/20260118172223/https://free2z.cash/docs/category/for-supporters/)
 
 ---
 _Redactado por James Katz de Zechub._

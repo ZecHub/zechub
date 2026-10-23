@@ -6,7 +6,7 @@ Hoy en día, miles de millones de personas en el mundo no tienen acceso a una mo
 
 ## Personas y equipos
 
-Electric Coin Company tiene casi 30 empleados distribuidos por todo el mundo. Trabajan en varias cosas como el desarrollo de protocolos, el desarrollo de aplicaciones, la seguridad de los protocolos, el desarrollo empresarial y las relaciones regulatorias. [Más información](https://electriccoin.co/team/).
+Electric Coin Company tiene casi 30 empleados distribuidos por todo el mundo. Trabajan en varias cosas como el desarrollo de protocolos, el desarrollo de aplicaciones, la seguridad de los protocolos, el desarrollo empresarial y las relaciones regulatorias. [Más información](https://web.archive.org/web/20240311110626/https://electriccoin.co/team/).
 
 ## Estructura organizativa
 

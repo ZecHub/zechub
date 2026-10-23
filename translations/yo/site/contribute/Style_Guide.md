@@ -34,10 +34,10 @@
 
 - ** Yẹra fun awọn ọrọ ti kii ṣe Gẹẹsi** bii de facto tabi ad hoc. Ṣọra fun abbreviations Latin ti awọn gbolohun ede Gẹẹti wọpọ.
 
-    Lo èyí dípò èyí.
+    | Lo èyí    | Dípò èyí |
     |-------------|-----------------|
-    Àpẹẹrẹ: Ẹ̀yin ẹbí mi.
-    èyí ni... ìyẹn sì ń jẹ́, "ìyẹn".
+    | fun apere | e.g.            |
+    | iyẹn ni     | i.e.            |
 
 ## Àwọn ìkànnì Twitter rẹ̀
 

@@ -7,7 +7,7 @@
 
 ### Infrastruttura della community 
 
-Il programma di ricompense di ZecHub si rivolge agli sviluppatori offrendo un'alternativa più libera e snella alle attività individuali: [Ricompense ZEC](https://bounties.zechub.wiki/). 
+Il programma di ricompense di ZecHub è il percorso retribuito per questo lavoro: [ZEC Bounties](https://bounties.zechub.wiki/). Come scegliere un importo in ZEC: [politica sugli importi delle ricompense](https://bounties.zechub.wiki/docs/bounty-amounts). Flusso di lavoro per i collaboratori: [Contribuire a ZecHub](https://zechub.wiki/contribute/contributing-guide).
 
 
 ## Guide utili 

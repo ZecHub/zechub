@@ -13,42 +13,42 @@ Lo stack è cambiato notevolmente nel 2026. zcashd, che ha gestito la rete per g
 
 | Livello | Cosa usare | Inizia da |
 |:--|:--|:--|
-| Nodo completo | Zebra o Zakura | [The Zebra Book](https://zebra.zfnd.org/), [zakura.com](https://zakura.com/) |
-| Wallet per nodo completo | Zallet, in beta | [The Zallet Book](https://zcash.github.io/zallet/) |
-| Server per wallet leggero | Zaino o lightwalletd | [Zaino](https://github.com/zingolabs/zaino), [lightwalletd](https://github.com/zcash/lightwalletd) |
-| Librerie per wallet | I crate di librustzcash | [librustzcash](https://github.com/zcash/librustzcash) |
+| Full node (nodo completo) | Zebra o Zakura | [The Zebra Book](https://zebra.zfnd.org/), [zakura.com](https://zakura.com/) |
+| Portafoglio per full node | Zallet, in beta | [The Zallet Book](https://zcash.github.io/zallet/) |
+| Server per portafoglio leggero | Zaino o lightwalletd | [Zaino](https://github.com/zingolabs/zaino), [lightwalletd](https://github.com/zcash/lightwalletd) |
+| Librerie per portafogli | I crate di librustzcash | [librustzcash](https://github.com/zcash/librustzcash) |
 | Mobile | SDK Android e iOS | [Android](https://github.com/zcash/zcash-android-wallet-sdk), [iOS](https://github.com/zcash/zcash-swift-wallet-sdk) |
 | Specifica | Specifica del protocollo e ZIP | [zips.z.cash](https://zips.z.cash) |
 
 ## Nodi
 
-Un nodo convalida il consenso e conserva la catena. Esistono due implementazioni in sviluppo attivo.
+Un nodo convalida il consenso e conserva la chain. Esistono due implementazioni in sviluppo attivo.
 
 [Zebra](/zcash-tech/zebra-full-node) è il nodo della Zcash Foundation, scritto in Rust, ed è quello presupposto dalla maggior parte delle guide attuali. [The Zebra Book](https://zebra.zfnd.org/) spiega come installarlo ed eseguirlo, mentre il [repository](https://github.com/ZcashFoundation/zebra) è dove avviene lo sviluppo.
 
-[Zakura](/zcash-tech/zakura-node) è un nodo più recente, descritto dai suoi autori come un "nodo completo Zcash compatibile con il consenso, realizzato per la scalabilità", con sincronizzazione più veloce, potatura dei blocchi e una modalità di compatibilità con zcashd. È guidato da Sean Bowe, cofondatore di Zcash, e Dev Ojha. È open source con licenza Apache 2.0 in [zakura-core/zakura](https://github.com/zakura-core/zakura).
+[Zakura](/zcash-tech/zakura-node) è un nodo più recente, descritto dai suoi autori come un "full node Zcash compatibile con il consenso, realizzato per la scalabilità", con sincronizzazione più veloce, potatura dei blocchi e una modalità di compatibilità con zcashd. È guidato da Sean Bowe, cofondatore di Zcash, e Dev Ojha. È open source con licenza Apache 2.0 in [zakura-core/zakura](https://github.com/zakura-core/zakura).
 
-ZecHub dispone di una pagina [Nodi completi](/zcash-tech/full-nodes) che illustra i compromessi tra le varie opzioni.
+ZecHub dispone di una pagina [Full node](/zcash-tech/full-nodes) che illustra i compromessi tra le varie opzioni.
 
-## Il wallet per nodo completo
+## Il portafoglio per full node
 
-zcashd integrava un wallet nel nodo. Quel wallet non esiste più e [Zallet](https://github.com/zcash/zallet) ne è il sostituto. The Zallet Book lo descrive come "un wallet Zcash per nodo completo scritto in Rust", in fase di sviluppo "come sostituto del wallet zcashd".
+zcashd integrava un portafoglio nel nodo. Quel portafoglio non esiste più e [Zallet](https://github.com/zcash/zallet) ne è il sostituto. Il libro di Zallet lo descrive come "un portafoglio Zcash per full node scritto in Rust", in fase di sviluppo "come sostituto del portafoglio zcashd".
 
-Leggi l'avvertenza sulla sicurezza prima di affidarti a esso. Zallet è in beta, "non è stato completamente revisionato", potrebbero verificarsi modifiche incompatibili "in qualsiasi momento, richiedendo di eliminare e ricreare il proprio wallet Zallet", e non tutti i metodi RPC di zcashd sono stati ancora portati.
+Leggi l'avvertenza sulla sicurezza prima di affidarti a esso. Zallet è in beta, "non è stato completamente esaminato", potrebbero verificarsi modifiche incompatibili "in qualsiasi momento, richiedendoti di eliminare e ricreare il tuo portafoglio Zallet", e non tutti i metodi RPC di zcashd sono stati ancora portati.
 
 Se stai migrando una configurazione esistente, ZecHub offre una [guida alla migrazione da zcashd a Zebra e Zallet](/guides/migration-guide-zcashd-to-zebrad-zallet) e un [riferimento rapido di Zallet](/using-zcash/zallet-quick-reference-guide).
 
-## Server per wallet leggeri
+## Server per portafogli leggeri
 
-La maggior parte dei wallet non esegue un nodo. Comunicano con un server che conserva la catena e ne restituisce una visualizzazione compatta.
+La maggior parte dei portafogli non esegue un nodo. Comunicano con un server che conserva la chain e ne restituisce una visualizzazione compatta.
 
-[lightwalletd](https://github.com/zcash/lightwalletd) è il servizio originale, scritto in Go, descritto come "un servizio backend che fornisce un'interfaccia efficiente in termini di larghezza di banda alla blockchain Zcash". [Zaino](/zcash-tech/zaino) è l'indicizzatore più recente, scritto in Rust, e legge da un validatore completo anziché mantenere una propria copia della catena.
+[lightwalletd](https://github.com/zcash/lightwalletd) è il servizio originale, scritto in Go, descritto come "un servizio backend che fornisce un'interfaccia efficiente in termini di larghezza di banda alla blockchain Zcash". [Zaino](/zcash-tech/zaino) è l'indicizzatore più recente, scritto in Rust, e legge da un validatore completo anziché mantenere una propria copia della chain.
 
 La documentazione del [Protocollo dei client leggeri](https://zcash.readthedocs.io/en/latest/lightwalletd/index.html) copre il protocollo stesso. La pagina [Nodi Lightwallet](/zcash-tech/lightwallet-nodes) illustra cosa questi server possono e non possono vedere di un utente, aspetto che vale la pena comprendere prima di sceglierne uno.
 
-## Creare un wallet
+## Creare un portafoglio
 
-La maggior parte del lavoro sui wallet avviene nei crate Rust di [librustzcash](https://github.com/zcash/librustzcash), sui quali si basano gli SDK mobili e diversi wallet desktop. Ogni crate è documentato su [docs.rs](https://docs.rs).
+La maggior parte del lavoro sui portafogli avviene nei crate Rust di [librustzcash](https://github.com/zcash/librustzcash), sui quali si basano gli SDK mobili e diversi portafogli desktop. Ogni crate è documentato su [docs.rs](https://docs.rs).
 
 | Crate | A cosa serve |
 |:--|:--|
@@ -74,25 +74,25 @@ Per la crittografia sottostante, leggi [The halo2 Book](https://zcash.github.io/
 
 ## Testnet
 
-Testnet è una catena separata con monete prive di valore, chiamate TAZ. Sia Zebra sia Zakura possono essere eseguiti su di essa e la [guida a testnet](https://zcash.readthedocs.io/en/latest/rtd_pages/testnet_guide.html) tratta la configurazione dei nodi.
+Testnet è una chain separata con monete prive di valore, chiamate TAZ. Sia Zebra sia Zakura possono essere eseguiti su di essa e la [guida a testnet](https://zcash.readthedocs.io/en/latest/rtd_pages/testnet_guide.html) tratta la configurazione dei nodi.
 
 [testnet.zcashexplorer.app](https://testnet.zcashexplorer.app/) è un block explorer testnet funzionante, con una controparte mainnet su [mainnet.zcashexplorer.app](https://mainnet.zcashexplorer.app/).
 
-Ottenere TAZ è la parte più complicata, perché i faucet collegati dalla documentazione più vecchia hanno smesso di rispondere. [zcashfaucet.jinolabs.xyz](https://zcashfaucet.jinolabs.xyz) è un faucet gestito dalla comunità che esegue "il proprio nodo, wallet e miner", paga "piccole erogazioni z2z schermate" e limita le richieste con una "proof of work del browser anziché un fornitore di captcha". È open source sotto licenza MIT. Se non è disponibile, chiedi nel Discord Zcash R&D, come suggerisce la stessa documentazione Zcash.
+Ottenere TAZ è la parte più complicata, perché i faucet collegati dalla documentazione più vecchia hanno smesso di rispondere. [zcashfaucet.jinolabs.xyz](https://zcashfaucet.jinolabs.xyz) è un faucet gestito dalla comunità che esegue "il proprio nodo, portafoglio e miner", paga "piccole erogazioni z2z schermate" e limita le richieste con una "prova di lavoro del browser anziché un fornitore di captcha". È open source sotto licenza MIT. Se non è disponibile, chiedi nel Discord Zcash R&D, come suggerisce la stessa documentazione Zcash.
 
 ## Documentazione generale
 
-La [Documentazione Zcash](https://zcash.readthedocs.io/en/latest/) è ancora la fonte unica più ampia e tratta concetti del protocollo, integrazione e mining. Leggila con una certa attenzione. È versionata rispetto a zcashd, perciò alcune sue parti descrivono un nodo che non è più in esecuzione, mentre le sezioni sul protocollo e sui client leggeri restano utili. Vale la pena leggere il [modello di minaccia dell'app wallet Zcash](https://zcash.readthedocs.io/en/latest/rtd_pages/wallet_threat_model.html) disponibile lì prima di progettare qualunque cosa riguardi la privacy degli utenti.
+La [Documentazione Zcash](https://zcash.readthedocs.io/en/latest/) è ancora la fonte unica più ampia e tratta concetti del protocollo, integrazione e mining. Leggila con una certa attenzione. È versionata rispetto a zcashd, perciò alcune sue parti descrivono un nodo che non è più in esecuzione, mentre le sezioni sul protocollo e sui light client restano utili. Vale la pena leggere il [modello di minaccia dell'app portafoglio Zcash](https://zcash.readthedocs.io/en/latest/rtd_pages/wallet_threat_model.html) disponibile lì prima di progettare qualunque cosa riguardi la privacy degli utenti.
 
 Se sei nuovo alle blockchain in generale, [Mastering Bitcoin](https://github.com/bitcoinbook/bitcoinbook) è la raccomandazione abituale per i fondamenti condivisi ed è leggibile gratuitamente per intero. Non tratta le transazioni schermate.
 
 ## Altri strumenti menzionati dagli sviluppatori
 
-[Arti](https://docs.rs/arti/latest/arti/) è l'implementazione Rust di Tor, usata da zcash_client_backend per instradare il traffico dei wallet. [Tailscale](https://github.com/tailscale/tailscale) viene menzionato per connettersi a un nodo eseguito in proprio. [warp2](https://github.com/hhanh00/warp2) è un'implementazione di sincronizzazione veloce di Hanh, sebbene non sia stata aggiornata dal 2023.
+[Arti](https://docs.rs/arti/latest/arti/) è l'implementazione Rust di Tor, usata da zcash_client_backend per instradare il traffico dei portafogli. [Tailscale](https://github.com/tailscale/tailscale) viene menzionato per connettersi a un nodo eseguito in proprio. [warp2](https://github.com/hhanh00/warp2) è un'implementazione di sincronizzazione veloce di Hanh, sebbene non sia stata aggiornata dal 2023.
 
 ## Comunità ed eventi
 
-Il [Discord Zcash R&D](https://discord.gg/6AK7keWFaK) è il luogo in cui si discutono lo sviluppo del protocollo e dei wallet, mentre il [Forum della comunità Zcash](https://forum.zcashcommunity.com/) ospita proposte più dettagliate e discussioni di supporto.
+Il [Discord Zcash R&D](https://discord.gg/6AK7keWFaK) è il luogo in cui si discutono lo sviluppo del protocollo e dei portafogli, mentre il [Forum della comunità Zcash](https://forum.zcashcommunity.com/) ospita proposte più dettagliate e discussioni di supporto.
 
 I risultati dei recenti hackathon offrono un buon quadro di ciò che le persone stanno costruendo: [ZecHub 2024](https://x.com/ZecHub/status/1845212469809033489), [ZecHub 2025](https://x.com/ZecHub/status/1975565960661635283) e lo [Zypherpunk Hackathon 2025](https://forum.zcashcommunity.com/t/zypherpunk-hackathon-winners/53985).
 
@@ -100,7 +100,7 @@ I risultati dei recenti hackathon offrono un buon quadro di ciò che le persone 
 
 Conservate perché gli articoli più vecchi vi rimandano e perché rimangono il riferimento per il comportamento del nodo ritirato. Non iniziare da qui.
 
-[The Zcashd Book](https://zcash.github.io/zcash/) e il [riferimento RPC di zcashd](https://zcash.github.io/rpc/) documentano software che ha raggiunto la [fine del ciclo di vita](https://zcash.github.io/zcash/user/end-of-life.html) nel luglio 2026. Il repository [zcash/zcash](https://github.com/zcash/zcash) è archiviato.
+[The zcashd Book](https://zcash.github.io/zcash/) e il [riferimento RPC di zcashd](https://zcash.github.io/rpc/) documentano software che ha raggiunto la [fine del ciclo di vita](https://zcash.github.io/zcash/user/end-of-life.html) nel luglio 2026. Il repository [zcash/zcash](https://github.com/zcash/zcash) è archiviato.
 
 Se hai una risorsa da aggiungere, o individui qualcosa qui che non è più aggiornato, apri una issue o una pull request. I team non sempre hanno la capacità di mantenere tutto aggiornato e segnalare ciò che hai incontrato aiuta a orientare le guide.
 

@@ -21,9 +21,9 @@ ZecHub — это децентрализованный образователь�
 
 ---
 
-1. Перейдите в [репозиторий ZecHub на Github](https://github.com/ZecHub/zechub)
+1. Перейдите в [репозиторий ZecHub на GitHub](https://github.com/ZecHub/zechub)
    
-2. Создайте новую учетную запись Github или войдите в свою существующую
+2. Создайте новую учетную запись GitHub или войдите в свою существующую
    
 3. Следуйте этому руководству, чтобы узнать, как отправить pull request:
 
@@ -51,15 +51,15 @@ ZecHub — это децентрализованный образователь�
 3. No inappropriate content.
 ```
 
-Пожертвования: [здесь](https://explorer.zec.rocks/ua/u17sawf3pdh7z6tsy83vhjd2z7sztpy9y87wyyqz4vqshn3yhch28q3ud3lr0etadl3flz4c9zdrtn9lwlf23vzmjnll97efxzg9h0rjzn9qvhvqr8p3394ysnfhg560xxxc66yxzh8r548myxn3l2qrc9pfrt8nrzhxvlpuuykv7czjsm)
+Пожертвования: [здесь](https://mainnet.zcashexplorer.app/ua/u17sawf3pdh7z6tsy83vhjd2z7sztpy9y87wyyqz4vqshn3yhch28q3ud3lr0etadl3flz4c9zdrtn9lwlf23vzmjnll97efxzg9h0rjzn9qvhvqr8p3394ysnfhg560xxxc66yxzh8r548myxn3l2qrc9pfrt8nrzhxvlpuuykv7czjsm)
 
-<a href="https://explorer.zec.rocks/ua/u17sawf3pdh7z6tsy83vhjd2z7sztpy9y87wyyqz4vqshn3yhch28q3ud3lr0etadl3flz4c9zdrtn9lwlf23vzmjnll97efxzg9h0rjzn9qvhvqr8p3394ysnfhg560xxxc66yxzh8r548myxn3l2qrc9pfrt8nrzhxvlpuuykv7czjsm">
+<a href="https://mainnet.zcashexplorer.app/ua/u17sawf3pdh7z6tsy83vhjd2z7sztpy9y87wyyqz4vqshn3yhch28q3ud3lr0etadl3flz4c9zdrtn9lwlf23vzmjnll97efxzg9h0rjzn9qvhvqr8p3394ysnfhg560xxxc66yxzh8r548myxn3l2qrc9pfrt8nrzhxvlpuuykv7czjsm">
     <img src="/content-images/image-2023-11-18-141228046-644b4c542d.webp" alt="" width="200" height="200"/>
 </a>
 
 
 
-**ОТКАЗ ОТ ОТВЕТСТВЕННОСТИ: ZecHub — это полностью независимая инициатива с открытым исходным кодом, основанная участниками сообщества Zcash. Ничто из содержащегося в этом репозитории Github не должно рассматриваться как финансовый или инвестиционный совет — материалы предназначены исключительно для информационных целей.**
+**ОТКАЗ ОТ ОТВЕТСТВЕННОСТИ: ZecHub — это полностью независимая инициатива с открытым исходным кодом, основанная участниками сообщества Zcash. Ничто из содержащегося в этом репозитории GitHub не должно рассматриваться как финансовый или инвестиционный совет — материалы предназначены исключительно для информационных целей.**
 
 ---
 

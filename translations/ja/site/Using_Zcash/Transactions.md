@@ -167,7 +167,7 @@ Zcashトランザクションは、ウォレットに表示されたからとい
 
 ## 注記
 
-ZECを使用する最も安全な方法は、送信者、受信者、ウォレット、およびサービスのすべてが対応している場合に、常にシールドトランザクションを使用することです。一部のウォレットおよび取引所は、複数のZcash受信者タイプを1つのアドレスにまとめられる[Unified Address](https://electriccoin.co/blog/unified-addresses-in-zcash-explained/#:~:text=The%20unified%20address%20(UA)%20is,within%20the%20broader%20Zcash%20ecosystem.)をサポートしています。
+ZECを使用する最も安全な方法は、送信者、受信者、ウォレット、およびサービスのすべてが対応している場合に、シールドトランザクションを使用することです。一部のウォレットおよび取引所は、複数のZcash受信者タイプを1つのアドレスにまとめられる[統合アドレス](https://web.archive.org/web/20260823012524/https://electriccoin.co/blog/unified-addresses-in-zcash-explained/#:~:text=The%20unified%20address%20(UA)をサポートしています。
 
 ## リソース
 
@@ -178,6 +178,7 @@ ZECを使用する最も安全な方法は、送信者、受信者、ウォレ�
 ## 関連ページ
 
 - [ウォレット](/using-zcash/wallets) - シールド送信をサポートするウォレットと、トランスペアレントのみのウォレット
+- [支払い開示](/zcash-tech/payment-disclosures) - 送信者が1件のシールド支払いに関する選択した詳細を証明する方法
 - [シールドプール](/using-zcash/shielded-pools) - シールドされた資金が存在するSaplingおよびOrchardのプール
 - [メモ](/using-zcash/memos) - シールドトランザクションに添付できる暗号化メッセージ
 - [トランスペアレントな取引所アドレス](/using-zcash/transparent-exchange-addresses) - TEXアドレスと、取引所がそれらを使用する理由

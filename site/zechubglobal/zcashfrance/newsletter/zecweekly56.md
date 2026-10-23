@@ -38,7 +38,7 @@ La ressource recommandée cette semaine est les sessions Zcon ! Lors de Zcon4, I
 
 [ZFAV et ZcashBrazil collaborent à #dWebCamp pour la technologie et les connexions !](https://twitter.com/ZFAVClub/status/1692289261263868271)
 
-[Première réunion du Club du livre Zcash](https://zcashambassadors.com/event/zcash-book-club-first-meeting/)
+[Première réunion du Club du livre Zcash](https://web.archive.org/web/20231210230022/https://zcashambassadors.com/event/zcash-book-club-first-meeting/)
 
 #### Actualités et médias
 

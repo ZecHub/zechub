@@ -3,7 +3,7 @@
 </a>
 
 
-# Usare questa Wiki
+# Usare questa wiki
 
 Alcune cose potrebbero sembrare opprimenti. Lo capiamo! C'è molta informazione qui. Ecco una semplice guida passo-passo che evidenzia come navigare la wiki.
 

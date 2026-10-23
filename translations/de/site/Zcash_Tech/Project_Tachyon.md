@@ -7,10 +7,10 @@
 ## TL;DR
 
 - Tachyon ist ein vorgeschlagenes Redesign der Art und Weise, wie Zcash-Wallets abgeschirmte Mittel finden und ausgeben, damit das Netzwerk auf sehr große Nutzerzahlen wachsen kann
-- Heute muss eine Wallet einen großen Teil der blockchain zu entschlüsseln versuchen, um herauszufinden, welche Zahlungen ihr gehören, und das ist der Hauptgrund, warum das Synchronisieren abgeschirmter Wallets langsam wirkt
+- Heute muss eine Wallet versuchen, einen großen Teil der Blockchain zu entschlüsseln, um herauszufinden, welche Zahlungen ihr gehören, und das ist der Hauptgrund, warum die Synchronisierung abgeschirmter Wallets langsam wirkt
 - Tachyon ersetzt dies durch **oblivious synchronization**, sodass eine Wallet abruft, was sie braucht, ohne alles zu scannen und ohne einem Server mitzuteilen, welche Teile sie haben wollte
-- Außerdem verlagert es Zahlungsdetails aus der blockchain in die Zahlungsanfrage selbst, was das Protokoll vereinfacht, aber die Verantwortung auf Wallets verlagert
-- Es ist ein Vorschlag, der erstmals im April 2025 veröffentlicht und als Kandidat für NU7 benannt wurde. Er ist **nicht veröffentlicht**, und er erfordert einen Entwicklungsaufwand in der Größenordnung des Sapling-Upgrades
+- Außerdem verlagert es Zahlungsdetails aus der Blockchain in die Zahlungsanfrage selbst, was das Protokoll vereinfacht, aber die Verantwortung auf Wallets verlagert
+- Es ist ein Vorschlag, der erstmals im April 2025 veröffentlicht wurde. Er ist **nicht Teil von NU7** und **nicht veröffentlicht**, und er erfordert einen Entwicklungsaufwand in der Größenordnung des Sapling-Upgrades
 
 <br/>
 
@@ -73,7 +73,7 @@ Der dritte Strang sind **Aggregate abgeschirmter Transaktionen**, die verändern
 
 ## Stand der Arbeiten
 
-Tachyon ist ein **Vorschlag, keine veröffentlichte Funktion**. Er wurde im April 2025 veröffentlicht, und ein Folgebeitrag im Mai 2025 behandelte die Auswirkungen auf den Konsens. Es wird als Kandidat für NU7, das nächste große Upgrade nach Ironwood, genannt, aber über die Inhalte von NU7 entscheiden die Coinholder per Abstimmung, und bei Tachyon ist nichts beschlossen.
+Tachyon ist ein **Vorschlag, keine veröffentlichte Funktion**. Er wurde im April 2025 veröffentlicht, und ein Folgebeitrag im Mai 2025 behandelte die Auswirkungen auf den Konsens. Er wurde als Kandidat für NU7, das nächste Upgrade nach Ironwood, genannt, ist jedoch nicht im am 17. September 2026 vereinbarten Umfang von NU7 enthalten: [ZIP 259](https://zips.z.cash/zip-0259) führt auf, was NU7 bereitstellt, und die [Forenankündigung](https://forum.zcashcommunity.com/t/nu7-timeline/57655) besagt, dass darin kein neues Transaktionsformat vorkommt. Für Tachyon wurde kein Aktivierungsdatum festgelegt.
 
 Die eigene Einordnung des Autors ist, dass es sich um einen umsetzbaren Plan und nicht um spekulative Forschung handelt, der jedoch einen mit Sapling vergleichbaren Entwicklungsaufwand benötigt und einige schwierigere Fragen bewusst für später offenlässt.
 
@@ -86,8 +86,8 @@ Verwandte Arbeiten sind bereits sichtbar. [Zakura](https://zechub.wiki/zcash-tec
 - **Tachyon ist nicht live.** Keine Wallet verwendet es heute, und kein Upgrade hat es aktiviert.
 - **Tachyon ist nicht dasselbe wie Ironwood.** Ironwood wurde im Juli 2026 aktiviert und behandelte den Orchard-Pool und die Schleuse. Tachyon ist ein separater, späterer Vorschlag zur Skalierung.
 - **Tachyon reduziert nicht die Privatsphäre.** Das Ziel ist, die Ununterscheidbarkeit des Ledgers zu erhalten und gleichzeitig die Skalierungskosten zu beseitigen, nicht Privatsphäre gegen Geschwindigkeit einzutauschen.
-- **Die Verifizierung von zk-SNARKs war nie der Engpass.** Der Vorschlag stellt klar, dass der langsame Teil darin besteht, wie Wallets Zustand entdecken und koordinieren, nicht in den Kosten für die Überprüfung von Beweisen.
-- **„Für NU7 vorgesehen“ ist keine Verpflichtung.** Was in NU7 aufgenommen wird, entscheidet eine Abstimmung.
+- **Die Verifizierung von zk-SNARK war nie der Engpass.** Der Vorschlag stellt klar, dass der langsame Teil darin besteht, wie Wallets Zustand entdecken und koordinieren, nicht in den Kosten für die Überprüfung von Beweisen.
+- **Tachyon ist nicht in NU7 enthalten.** Es wurde einst als Kandidat genannt, aber der im September 2026 vereinbarte Umfang umfasst 25-Sekunden-Blöcke, Gebührenrecycling und das Ende von Transaktionen der Version 4, ohne neues Transaktionsformat ([ZIP 259](https://zips.z.cash/zip-0259)).
 
 <br/>
 
@@ -95,13 +95,13 @@ Verwandte Arbeiten sind bereits sichtbar. [Zakura](https://zechub.wiki/zcash-tec
 
 | Begriff | Bedeutung |
 |---|---|
-| Probeentschlüsselung | Der Versuch, Transaktionen einzeln zu entschlüsseln, um die an dich gerichteten zu finden |
-| In-Band-Verteilung von Geheimnissen | Das Zahlungsgeheimnis innerhalb der Transaktion auf der blockchain zu platzieren, wie Zcash es heute tut |
-| Out-of-Band-Zahlung | Die Zahlungsdetails direkt zwischen Absender und Empfänger zu übermitteln, statt über die chain |
+| Trial decryption | Der Versuch, Transaktionen einzeln zu entschlüsseln, um die an dich gerichteten zu finden |
+| In-band secret distribution | Das Zahlungsgeheimnis innerhalb der Transaktion auf der blockchain zu platzieren, wie Zcash es heute tut |
+| Out-of-band payment | Die Zahlungsdetails direkt zwischen Absender und Empfänger zu übermitteln, statt über die chain |
 | Oblivious synchronization | Die chain-Daten abzurufen, die eine Wallet benötigt, ohne offenzulegen, welche Daten angefordert wurden |
-| Beweistragende Daten (PCD) | Daten, die mit einem Beweis ihrer eigenen Korrektheit übertragen werden, sodass Beweise kombiniert und komprimiert werden können |
-| Aggregat abgeschirmter Transaktionen | Tacyons Methode, Änderungen des abgeschirmten Zustands zu bündeln, wodurch sich ihre Kommunikation und Signierung verändern |
-| Ledger-Ununterscheidbarkeit | Die Eigenschaft, dass abgeschirmte Transaktionen nicht voneinander unterschieden werden können |
+| Proof-carrying data (PCD) | Daten, die mit einem Beweis ihrer eigenen Korrektheit übertragen werden, sodass Beweise kombiniert und komprimiert werden können |
+| Shielded transaction aggregate | Die Methode von Tachyon, Änderungen des abgeschirmten Zustands zu bündeln, wodurch sich ihre Kommunikation und Signierung verändern |
+| ledger indistinguishability | Die Eigenschaft, dass abgeschirmte Transaktionen nicht voneinander unterschieden werden können |
 
 <br/>
 

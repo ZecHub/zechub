@@ -1,23 +1,34 @@
-# ** Private SOL/USDC -> ZEC Swap Using Encrypt.trade** 
+# **SOL/USDC -> ZEC Swap Kutumia Encrypt.trade** 
 
 
 ![img1](/content-images/Bkbg5alCll-7a02545c00.webp)
 
 
-*Gateway yako binafsi, msalaba-mnyororo swaps powered na karibu nia.* 
+*Badilisha kutoka Solana hadi Zcash, huku hatua ya mnyororo ikipitia Karibu na Malengo.* 
 
 ---
 
-###  Utangulizi wa Kitabu cha Mwanzo 
-Katika ulimwengu wa leo blockchain, faragha si hiari - ni muhimu. Kwa [** encrypt.trade**](https://app.encifher.io/zec), watumiaji wanaweza seamlessly kubadilishana ** SOL au USDC** juu Solana katika ** Zcash (ZEC) ** wakati kuweka shughuli kabisa binafsi. Hakuna exchanges centralized, hakuna utambulisho yatokanayo - tu rahisi, encrypted swapping. 
+###  Utangulizi 
+[**simba.biashara**](https://encrypt.trade/zec) ni programu ya Solana inayoendeshwa na JMD Labs Inc. Inakuwezesha kubadilisha **SOL au USDC** kwenye Solana hadi **Zcash (ZEC)**. Tokeni zako kwanza hufungwa katika matoleo yaliyosimbwa kwa njia fiche ili kiasi hicho kifichwe kwenye Solana, kisha hubadilishwa hadi ZEC kupitia Near Intents.
+
+Ubadilishaji huo ni wa faragha kwa njia fulani lakini si wote. Programu yenyewe ni yake [hati](https://docs.encifher.io/docs) Sema mwingiliano wako na mnyororo si wa siri: watu wanaweza kuona kwamba pochi yako ilitumia programu, lakini si kiasi ulichohamisha. ZEC pia hufika kwenye anwani ya uwazi, kwa hivyo inaendelea kuonekana kwenye mnyororo wa Zcash hadi utakapoulinda.
 
 
 ![img2](/content-images/ByQ2qpeRee-67fce2814c.webp)
 
 ---
 
-###  Hatua 1: Kuunganisha yako Solana Wallet 
-Kutembelea [encrypt.trade (kubadilisha kwa njia ya biashara)](https://app.encifher.io/zec) kutumia ** Chrome au Firefox, na kuunganisha yako ** Phantom**, Solflare, au Slope mkoba. Hakikisha mfuko wako ina kutosha SOL kwa ajili ya ada za gesi na ishara unataka biashara. Mara baada ya kushikamana, uko tayari kufunga mali zako. 
+###  Mambo ya Kujua Kabla ya Kubadilishana 
+- **Upande wa Solana.** Kufunga huficha kiasi, lakini anwani ya pochi yako na matumizi yake ya programu ni ya umma [mbinu bora](https://docs.encifher.io/docs/best-practices) onya kwamba kufunga, kubadilisha na kufungua rahisi hufanya muamala wako uweze kuunganishwa.
+- **Usimbaji fiche.** Mizani iliyosimbwa kwa njia fiche husindikwa nje ya mnyororo ndani ya eneo la vifaa (TEE). Wasanidi programu [karatasi](https://eprint.iacr.org/2026/1504) inasema hii inategemea uadilifu wa TEE, usimamizi wa funguo za kizingiti cha uaminifu na mzizi wa uthibitisho wa wingu, si kwenye usimbaji fiche pekee.
+- **Hatua ya mnyororo mtambuka.** Kubadilishana hadi ZEC hupitia Karibu na Malengo, ambapo watatuzi huru hujaza mpangilio.
+- **Zcash.** Malengo ya Karibu yanaorodhesha ZEC kama inayoungwa mkono kwa [anwani zinazoonekana wazi pekee](https://docs.near-intents.org/resources/chain-support), na sehemu ya ZEC kwenye encrypt.trade ilikubali anwani za uwazi (t1 au t3) pekee wakati mwongozo huu ulipokaguliwa mnamo Septemba 2026. Anwani ya uwazi inaonyesha salio lake na uhamisho unaoingia hadharani hadi utakapolinda.
+- **Uchunguzi.** Programu huangalia pochi zinazounganisha dhidi ya hifadhidata kama vile TRM na Chainalysis, na [ukurasa wa kufuata sheria](https://docs.encifher.io/docs/compliance) inasema rekodi zilizosimbwa kwa njia fiche zinaweza kukaguliwa ikiwa kuna sababu halali za kisheria. Near Intents inaendesha yenyewe [uchunguzi](https://docs.near-intents.org/security-compliance/risk-and-compliance) pia.
+
+---
+
+###  Hatua ya 1: Unganisha Pochi Yako ya Solana 
+Tembelea [encrypt.trade](https://encrypt.trade/zec) Kwa kutumia **Chrome au Firefox**, na unganisha pochi yako ya **Phantom**, **Solflare**, au **Slope**. Hakikisha pochi yako ina **SOL** ya kutosha kwa ada ya mafuta na tokeni unazotaka kubadilishana. Ukishaunganisha, uko tayari kugharamia mali zako. 
 
 
 ![img3](/content-images/SyVOs6lRxx-cbd8193e84.webp)
@@ -33,8 +44,8 @@ Kutembelea [encrypt.trade (kubadilisha kwa njia ya biashara)](https://app.encifh
 
 ---
 
-###  Hatua ya 2: Weka Vipande Vyako vya Kuonyesha Shukrani 
-Kuzunguka kwa ** Wrap** sehemu. Chagua ** SOL ** au ** USDC, kuingia kiasi cha fedha na kuthibitisha. Programu kufunga mali yako na masuala ya matoleo encrypted (eSOL au eUSDC) **. Ili kuongeza faragha, wrapping kidogo zaidi kuliko wewe ni mipango ya kubadilishana - hii inazuia moja-kwa-moja traceability. 
+###  Hatua ya 2: Funga Tokeni Zako 
+Nenda kwenye sehemu ya **Funga**. Chagua **SOL** au **USDC**, ingiza kiasi, na uthibitishe. Programu hufunga mali zako na hutoa matoleo ya **yaliyosimbwa kwa njia fiche (eSOL au eUSDC)**. Kufunga kiasi tofauti na unachobadilisha hufanya iwe vigumu kulinganisha hizo mbili kwa kiasi, lakini haifichi kwamba pochi yako ilitumia programu hiyo. 
 
 
 
@@ -50,8 +61,8 @@ Kuzunguka kwa ** Wrap** sehemu. Chagua ** SOL ** au ** USDC, kuingia kiasi cha f
 
 ---
 
-###  Hatua ya 3: Kuandaa yako Zodl Wallet 
-Kupakua [**Zodl**](https://zodl.com), the Zcash wallet maintained by ZODL. Copy your **Unified Address** from the Receive tab - it supports both transparent and shielded ZEC. Save your seed phrase securely before proceeding.  
+###  Hatua ya 3: Tayarisha Pochi Yako ZODL 
+Pakua [**ZODL**](https://zodl.com), pochi ya Zcash inayodumishwa na ZODL. Kwenye skrini ya Kupokea, nakili Anwani yako ya **Zcash Transparent** (inaanza na t1). encrypt.trade haikubali anwani zilizolindwa au zilizounganishwa kwa ZEC kwa sasa. Hifadhi kifungu chako cha mbegu kwa usalama kabla ya kuendelea. 
 
 
 ![img7](/content-images/SykjhpgRll-60d19f6979.webp)
@@ -59,8 +70,8 @@ Kupakua [**Zodl**](https://zodl.com), the Zcash wallet maintained by ZODL. Copy 
 
 ---
 
-###  Hatua ya 4: Badilisha kwa faragha 
-Kurudi kwenye ** encrypt.trade**, kwenda kwa ** Swap** Chagua ** eSOL / eUSDC -> ZEC**, kuweka anwani yako ya Zodl, angalia maelezo, na uthibitishe.
+###  Hatua ya 4: Badilisha 
+Rudi kwenye **encrypt.trade**, nenda kwenye **Swap**. Chagua **eSOL/eUSDC -> ZEC**, bandika anwani yako ya uwazi ZODL, pitia maelezo, na uthibitishe.
 
 
 
@@ -72,7 +83,7 @@ Kurudi kwenye ** encrypt.trade**, kwenda kwa ** Swap** Chagua ** eSOL / eUSDC ->
 ![img9](/content-images/S1yoapgRle-6d2031a62c.webp)
 
 
-** NEAR Makusudi** injini moja kwa moja hushughulikia msalaba-mnyororo routing - kutoa ** ZEC ** moja kwa mmoja kwenye pochi yako ya Zodl ndani sekunde. 
+**Near Intents** hushughulikia uelekezaji wa mnyororo mtambuka na kutuma **ZEC** kwenye pochi yako ZODL. Inaweza kuchukua dakika chache. Near Intents inapendekeza kuruhusu hadi dakika 15 kwa ubadilishaji wa mnyororo mtambuka. 
 
 
 
@@ -80,9 +91,17 @@ Kurudi kwenye ** encrypt.trade**, kwenda kwa ** Swap** Chagua ** eSOL / eUSDC ->
 
 ---
 
-###  Hatua ya 5: Linda na Usiwafikie Watu Wengi 
-Mara baada ya kupokea, kutumia Zodl ** Shield** chaguo kuhamisha yako ZEC katika bwawa shielded kwa faragha upeo. Daima kuthibitisha viungo, kuepuka kurudia anwani na mtihani kiasi kidogo kwanza. 
+###  Hatua ya 5: Kinga ZEC Yako 
+Mara tu ZEC itakapofika, tumia chaguo la ZODL's **Shield** kuihamisha kwenye [bwawa la kuogelea lenye ngao](/using-zcash/shielded-pools)Hadi wakati huo iko katika anwani ya uwazi ambapo mtu yeyote anaweza kuona salio. Kulinda hulinda unachofanya baadaye, lakini uhamisho unaoingia na muamala wa kulinda hubaki ukionekana kwenye mnyororo. Daima thibitisha viungo, epuka kutumia anwani tena, na jaribu kiasi kidogo kwanza. 
 
 ---
 
-Kwa kuchanganya ** kasi ya Solana, usiri wa Zcash na automatisering ya NEAR Intents, encrypt.trade inafafanua upya kile ubadilishaji wa kibinafsi unaweza kuwa - haraka, bila mshono, na kwa kweli ni siri.
+###  Nani Anahusika na Wapi pa Kupata Msaada 
+- **encrypt.trade** ni programu, inayoendeshwa na JMD Labs Inc. Ni [sera ya faragha](https://encrypt.trade/privacy) Inasema inakusanya data ya kiufundi kama vile IP, kivinjari na maelezo ya kifaa, hutuma anwani yako ya pochi, historia ya hivi karibuni na salio kwa watoa huduma za utiifu kabla ya kubadilishana, na inaweza kuhifadhi kumbukumbu na matokeo ya uchunguzi wa AML kwa hadi miaka mitano [masharti](https://encrypt.trade/terms) Kataza kutumia VPN au proksi kuficha eneo lako. Usaidizi: help@encifher.io au [Kikundi cha Telegram](https://t.me/+ZWHGMW4ZHXQwYTZl) imeunganishwa kutoka kwa programu.
+- **Karibu na Malengo** hupitia hatua ya mnyororo mtambuka na kutoa ZEC. Tazama yake [Masharti ya API ya 1Click](https://docs.near-intents.org/security-compliance/terms-of-service) na sera ya faragha katika near.com/privacy, mabadiliko ya wimbo kwenye [Karibu na Kichunguzi cha Makusudi](https://explorer.near-intents.org), na kuomba msaada katika [Telegram ya Madhumuni ya Karibu](https://t.me/near_intents).
+
+Masharti na anwani zinazoungwa mkono zinaweza kubadilika, kwa hivyo angalia matoleo ya sasa kabla ya kubadilishana kwa kiasi kikubwa. Kwa maelezo zaidi kuhusu picha pana, tazama [Mabadilishano Yasiyo ya Uhifadhi](/using-zcash/non-custodial-exchanges).
+
+---
+
+Kwa kuchanganya **Solana**, **Zcash** na **Near Intents**, **encrypt.trade** inakupa njia ya haraka kutoka SOL au USDC hadi ZEC. Inaficha kiasi kwenye Solana lakini si ya faragha kutoka mwanzo hadi mwisho, kwa hivyo linda ZEC yako mara tu inapotua.

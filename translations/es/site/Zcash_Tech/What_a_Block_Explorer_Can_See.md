@@ -26,7 +26,7 @@ Debido a que hay dos tipos, el valor puede moverse de cuatro maneras: transparen
 
 ## Lo que puede ver un explorador
 
-Un explorador público como [Blockchair](https://blockchair.com/zcash) puede leer claramente:
+Un explorador público como [ZecBlock](https://zecblock.com/) puede leer claramente:
 
 - Cualquier pago completamente transparente (t a t), de extremo a extremo.
 - Dinero que entra en el pool blindado (el lado transparente y la cantidad).
@@ -63,16 +63,16 @@ Si consultas los datos sin procesar, los campos de remitente y receptor blindado
 ## Recursos
 
 - [Zcash: recomendaciones de privacidad y seguridad](https://z.cash/support/security/privacy-security-recommendations/)
-- [Un ecosistema blindado (Electric Coin Company)](https://electriccoin.co/blog/shielded-ecosystem/)
+- [Un ecosistema blindado (Electric Coin Company)](https://web.archive.org/web/20260903010654/https://electriccoin.co/blog/shielded-ecosystem/)
 - [Cómo funciona la tecnología de Zcash](https://z.cash/technology/)
-- [Explorador de Zcash de Blockchair](https://blockchair.com/zcash)
+- [ZecBlock](https://zecblock.com/)
 
 ## Páginas relacionadas
 
 - [Conceptos básicos de Zcash](/start-here/what-is-zec-and-zcash)
 - [Wallets](/using-zcash/wallets)
 - [Pools blindados](/using-zcash/shielded-pools)
-- [ZK-SNARKs](/zcash-tech/zk-snarks)
+- [zk-SNARKs](/zcash-tech/zk-snarks)
 
 ---
 

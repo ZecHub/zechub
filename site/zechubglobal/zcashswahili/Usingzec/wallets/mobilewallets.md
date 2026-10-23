@@ -2,7 +2,7 @@
 
 Mikoba ya simu inakuwezesha kutumia Zcash mahali popote.
 
-Jifunze zaidi kuhusu aina tofauti za mabwawa ya Zcash [<img src="/content-images/square-arrow-up-right-bb992d84b8.svg" width="18" height="18">](https://wiki.zechub.xyz/zcash-value-pools)
+Jifunze zaidi kuhusu aina tofauti za mabwawa ya Zcash [<img src="/content-images/square-arrow-up-right-bb992d84b8.svg" width="18" height="18">](https://zechub.wiki/using-zcash/shielded-pools)
 
 ---
 
@@ -46,7 +46,7 @@ Jifunze zaidi kuhusu aina tofauti za mabwawa ya Zcash [<img src="/content-images
 
 
 ### Zecwallet Lite [<img src="/content-images/arrow-up-right-from-square-d43db44b0a.svg" width="20" height="20">](https://zecwallet.co/)
-| Android [<img src="/content-images/square-arrow-up-right-bb992d84b8.svg" width="15" height="15">](https://play.google.com/store/apps/details?id=com.zecwalletmobile) | iOS [<img src="/content-images/square-arrow-up-right-bb992d84b8.svg" width="15" height="15">](https://apps.apple.com/us/app/id1516128405) |
+| Android [<img src="/content-images/square-arrow-up-right-bb992d84b8.svg" width="15" height="15">](https://web.archive.org/web/20230320095858/https://play.google.com/store/apps/details?id=com.zecwalletmobile) | iOS [<img src="/content-images/square-arrow-up-right-bb992d84b8.svg" width="15" height="15">](https://web.archive.org/web/20230321190228/https://apps.apple.com/us/app/id1516128405) |
 
 #### Mabwawa
 | Transparent | Sapling | Orchard |

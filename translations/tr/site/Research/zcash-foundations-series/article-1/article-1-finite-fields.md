@@ -186,13 +186,13 @@ Yeni başlayanlar için dostane kalmak adına birkaç doğru şeyi sadeleştirdi
 
 | Terim | Sade anlamı |
 |---|---|
-| **Modüler aritmetik** | Sabit bir değere ulaştıktan sonra başa saran aritmetik; saat gibi |
+| **Modular arithmetic** | Sabit bir değere ulaştıktan sonra başa saran aritmetik; saat gibi |
 | **mod p** | “`p`’ye böl ve kalanı tut” |
-| **Alan** | Toplama, çıkarma, çarpma ve bölmenin hepsinin çalıştığı bir sayı sistemi |
-| **Sonlu alan `F_p`** | `0..p-1` sayıları üzerinde, asal `p` modunda yapılan aritmetik |
+| **Field** | Toplama, çıkarma, çarpma ve bölmenin hepsinin çalıştığı bir sayı sistemi |
+| **Finite field `F_p`** | `0..p-1` sayıları üzerinde, asal `p` modunda yapılan aritmetik |
 | **Inverse (reciprocal)** | `a x a^(-1) = 1` olacak `a^(-1)` elemanı; “`a`’ya bölmek”, onunla çarpmak demektir |
 | **Zero divisor** | Çarpımları sıfır olan iki sıfır-dışı değer; bileşik modülleri bozan şey |
-| **Asal** | 1’den büyük olup 1 ve kendisi dışında çarpanı olmayan tam sayı |
+| **Prime** | 1’den büyük olup 1 ve kendisi dışında çarpanı olmayan tam sayı |
 
 ---
 

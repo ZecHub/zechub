@@ -2,11 +2,11 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# ZECD  Shielded-Kwanza Wallet Server
+# zecd  Shielded-Kwanza Wallet Server
 
-> 🇧🇷 [Versión en Português Tafsiri ya Kihispania](/zechubglobal/zcashbrasil/zcashtech/zecd)
+> 🇧🇷 [Versión en Português Tafsiri ya Kihispania](/pt/zcash-tech/zecd)
 
-ZECD ni wallet server-kinga ya kwanza kwa ajili ya Zcash, kujengwa juu ya [librustzcash](https://github.com/zcash/librustzcash) Ni inatoa watengenezaji na malipo integrators ya kawaida, Bitcoin-ambayo inaendana API kwa kuingiliana na Zcash  wakati kufanya Orchard (majivu zaidi binafsi) default. Iliyotengenezwa na [zec.rocks](https://zec.rocks), ZECD imeundwa kuchukua nafasi ya `zcashd`'s mfuko wa fedha utendaji katika kisasa, wingu-asili deployments.
+zecd ni wallet server-kinga ya kwanza kwa ajili ya Zcash, kujengwa juu ya [librustzcash](https://github.com/zcash/librustzcash) Ni inatoa watengenezaji na malipo integrators ya kawaida, Bitcoin-ambayo inaendana API kwa kuingiliana na Zcash  wakati kufanya Orchard (majivu zaidi binafsi) default. Iliyotengenezwa na [zec.rocks](https://zec.rocks), zecd imeundwa kuchukua nafasi ya `zcashd`'s mfuko wa fedha utendaji katika kisasa, wingu-asili deployments.
 
 ** Toleo la sasa:** 0.5.0-rc3 (Julai 13, 2026)  na msaada wa Ironwood (NU6.3). Weka kupitia `cargo install zecd` au kutumia picha rasmi Docker.
 
@@ -14,7 +14,7 @@ ZECD ni wallet server-kinga ya kwanza kwa ajili ya Zcash, kujengwa juu ya [libru
 
 ## TL;DR
 
-- ZECD ni ** mkoba daemon (server) ** si full node. Ni hushughulikia funguo, skanning, kuthibitisha na RPC bila kuzungumza ya itifaki P2P Zcash.
+- zecd ni ** mkoba daemon (server) ** si full node. Ni hushughulikia funguo, skanning, kuthibitisha na RPC bila kuzungumza ya itifaki P2P Zcash.
 - Inazungumza ** Bitcoin Core JSON-RPC lahaja **: sawa njia majina, maumbo uwanja, auth, na makosa codes  wengi wateja Bitcoin RPC kazi kwa Zcash nje ya sanduku.
 - **Orchard (kuhifadhiwa) anwani ni default**; uwazi (t-anwani) na Sapling msaada zinahitaji wazi kuchagua katika kwa mkoba.
 - Ni unajumuisha na ** binafsi mwenyeji [Zebra](Zebra_Full_Node.md) full node** kupitia ndani JSON-RPC  hakuna lightwalletd zinahitajika.
@@ -25,11 +25,11 @@ ZECD ni wallet server-kinga ya kwanza kwa ajili ya Zcash, kujengwa juu ya [libru
 
 ---
 
-## ZECD Hutatua Tatizo Gani?
+## zecd Hutatua Tatizo Gani?
 
 `zcashd` Zcash awali node na mkoba pamoja  forked kutoka Bitcoin C ++ codebase katika 2016. Baada ya muda, hii umba msuguano: code ni vigumu kudumisha, mfuko wa fedha kwa nguvu wanashirikiana na Node, na anwani uwazi zinawasilishwa kama chaguzi darasa la kwanza kando wale ulinzi.
 
-ZECD hutenganisha jukumu la mkoba kutoka makubaliano. Ni ** safu ya mfuko wa fedha maalum** ambayo inakaa kati ya maombi na node kamili ya Zebra, ikitoa:
+zecd hutenganisha jukumu la mkoba kutoka makubaliano. Ni ** safu ya mfuko wa fedha maalum** ambayo inakaa kati ya maombi na node kamili ya Zebra, ikitoa:
 
 - safi, kisasa Rust utekelezaji kujengwa juu ya librustzcash (Biblioteca hiyo nguvu Zodl na Zingo)
 - Faragha-kwa default kubuni (Orchard anwani isipokuwa vinginevyo umeboreshwa)
@@ -40,19 +40,19 @@ ZECD hutenganisha jukumu la mkoba kutoka makubaliano. Ni ** safu ya mfuko wa fed
 
 ## Usanifu wa majengo
 
-ZECD inafanya kazi katika mtindo wa ngazi tatu:
+zecd inafanya kazi katika mtindo wa ngazi tatu:
 
 ```
 Your app / Bitcoin RPC client
         ↓  JSON-RPC
-       ZECD
+       zecd
    (keys, scanning, proving, RPC)
         ↓  JSON-RPC (local only)
        Zebra
    (full node — consensus, mempool, chain data)
 ```
 
-ZECD kuwasiliana na Zebra ** peke kupitia ndani JSON-RPC**  hakuna peer kwa mtandao wa rika, hakuna indexers ya tatu chama cha, hakuna lightwalletd. uhusiano zebra ni makusudi tu za mitaa: ZECD kukataa kutuma sifa kwa kimataifa routable mwenyeji isipokuwa wazi umeboreshwa nje ya bendi salama handaki (kwa mfano WireGuard au SSH).
+zecd kuwasiliana na Zebra ** peke kupitia ndani JSON-RPC**  hakuna peer kwa mtandao wa rika, hakuna indexers ya tatu chama cha, hakuna lightwalletd. uhusiano zebra ni makusudi tu za mitaa: zecd kukataa kutuma sifa kwa kimataifa routable mwenyeji isipokuwa wazi umeboreshwa nje ya bendi salama handaki (kwa mfano WireGuard au SSH).
 
 ---
 
@@ -60,20 +60,20 @@ ZECD kuwasiliana na Zebra ** peke kupitia ndani JSON-RPC**  hakuna peer kwa mtan
 
 ### Kuhifadhiwa-Kwanza, Orchard kwa Default
 
-ZECD inatumia Orchard Unified Anwani kama default aina ya anwani. Sapling na uwazi (t-anwani) mabwawa zinahitaji wazi Configuration kwa mkoba. Design hii inapunguza hatari ya ajali transparent inatuma  kawaida faragha pitfall katika umri wa zana za Zcash.
+zecd inatumia Orchard Unified Anwani kama default aina ya anwani. Sapling na uwazi (t-anwani) mabwawa zinahitaji wazi Configuration kwa mkoba. Design hii inapunguza hatari ya ajali transparent inatuma  kawaida faragha pitfall katika umri wa zana za Zcash.
 
 Sera ya faragha ni configurable kwa wito au kimataifa katika `[spend] privacy_policy`:
 
-Sera. Tabia.
+| Sera | Tabia |
 |--------|----------|
-| `AllowRevealedRecipients` (default) ▸ Inaruhusu hutuma kwa wapokeaji wa uwazi; inaonyesha kiasi na mpokeaji kwenye mnyororo.
-| `AllowRevealedAmounts` | Permits cross-pool sends (Sapling↔Orchard) but rejects transparent recipients |
-| `FullPrivacy` ❖ Tu kikamilifu-kuhifadhiwa hutuma ndani ya kundi moja; inakataza wapokeaji uwazi na msalaba wa makundi.
-| `AllowFullyTransparent` Pia inaruhusu t→t hutuma fedha kutoka UTXOs uwazi.
+| `AllowRevealedRecipients` (chaguo-msingi) | Vibali hutumwa kwa wapokeaji wazi; huonyesha kiasi na mpokeaji kwenye mnyororo |
+| `AllowRevealedAmounts` | Huruhusu kutuma mbegu za mtambuka (Sapling↔Orchard) lakini hukataa wapokeaji wazi |
+| `FullPrivacy` | Hutuma ujumbe ulio na kinga kamili ndani ya bwawa moja pekee; hukataa wapokeaji wa uwazi na bwawa la kuvuka |
+| `AllowFullyTransparent` | Pia inaruhusu t→t kutuma kunakofadhiliwa kutoka kwa UTXO zenye uwazi |
 
 ### Bitcoin Core RPC Upatano
 
-ZECD inatekeleza Bitcoin Core JSON-RPC lahaja na kufuata katika:
+zecd inatekeleza Bitcoin Core JSON-RPC lahaja na kufuata katika:
 
 - Majina ya njia (kwa mfano. `getblockchaininfo`, `getbalance`, `getnewaddress`, `listtransactions`, `sendtoaddress`, `sendmany`)
 - Majina ya uwanja na aina katika majibu
@@ -81,23 +81,23 @@ ZECD inatekeleza Bitcoin Core JSON-RPC lahaja na kufuata katika:
 - Msingi auth, `rpcauth` viingilio, na faili ya kuki uthibitisho
 - Makodi ya makosa na HTTP hali ramani (HTTP 500 kwa mwili kosa, 401 semantics)
 
-Hii ina maana maktaba nyingi zilizopo Bitcoin malipo, kubadilishana integrations, na ufuatiliaji zana inaweza kuingiliana na Zcash kupitia ZECD kwa mabadiliko kidogo au hakuna code.
+Hii ina maana maktaba nyingi zilizopo Bitcoin malipo, kubadilishana integrations, na ufuatiliaji zana inaweza kuingiliana na Zcash kupitia zecd kwa mabadiliko kidogo au hakuna code.
 
 Suite ya kufuata (140 + hundi) anaendesha juu kila PR dhidi ya kuishi regtest daemon na pia kuthibitishwa dhidi testnet umma.
 
 ### Memo Shielded (ZIP-302)
 
-ZECD inaonyesha kipengele cha kumbukumbu ya walinzi wa Zcash kupitia uso unaojulikana wa Bitcoin RPC  kitu ambacho hakipatikani katika zana za kawaida za Bitcoin:
+zecd inaonyesha kipengele cha kumbukumbu ya walinzi wa Zcash kupitia uso unaojulikana wa Bitcoin RPC  kitu ambacho hakipatikani katika zana za kawaida za Bitcoin:
 
 - `sendtoaddress` kukubali hiari hex memo kama ziada trailing parameter (hadi 512 baiti; kukataliwa kwa wapokeaji uwazi)
 - Mawasiliano ya historia entries kutoka `listtransactions` na `gettransaction` ni pamoja na: `memo` (hex) na `memoStr` (Texts decoded) mashamba wakati pato hubeba moja
 - Zero kiasi hutuma kwa mpokeaji shielded ni mkono kwa ajili ya kumbukumbu tu matumizi kesi (ya `z_sendmany` "kumbusho-tu-tuma" muundo)
 
-Hii inafanya ZECD inafaa kwa ajili ya maombi ambayo yanahitaji faragha, on-chain ujumbe pamoja na malipo.
+Hii inafanya zecd inafaa kwa ajili ya maombi ambayo yanahitaji faragha, on-chain ujumbe pamoja na malipo.
 
 ### Watu Wasio na Uraia kwa Kuzaliwa
 
-ZECD bado ** hakuna nje ya mlolongo hali ambayo mbegu tu kurejesha hakuweza kujenga upya**. database mkoba (`data.sqlite`) ni derivable kabisa kutoka kwa neno mbegu  ulinzi fedha zinapatikana bila masharti; uwazi fedha zinalipwa hadi umeboreshwa pengo kikomo.
+zecd bado ** hakuna nje ya mlolongo hali ambayo mbegu tu kurejesha hakuweza kujenga upya**. database mkoba (`data.sqlite`) ni derivable kabisa kutoka kwa neno mbegu  ulinzi fedha zinapatikana bila masharti; uwazi fedha zinalipwa hadi umeboreshwa pengo kikomo.
 
 Ili kurejesha mkoba kutoka mbegu:
 
@@ -105,17 +105,17 @@ Ili kurejesha mkoba kutoka mbegu:
 zecd init --restore --birthday <block-height>
 ```
 
-Hii inafanya data directory **disposable**: chombo na hakuna kiasi kudumu, kujengwa upya kutoka mbegu juu ya kila kuanza, haina kupoteza kitu muhimu. waendeshaji ni wajibu kwa ajili ya kufuatilia anwani wao kutoa  ZECD tu anakumbuka anwani mara moja wamepokea fedha on-chain.
+Hii inafanya data directory **disposable**: chombo na hakuna kiasi kudumu, kujengwa upya kutoka mbegu juu ya kila kuanza, haina kupoteza kitu muhimu. waendeshaji ni wajibu kwa ajili ya kufuatilia anwani wao kutoa  zecd tu anakumbuka anwani mara moja wamepokea fedha on-chain.
 
-Labels ni makusudi kukosekana. Kwa sababu labels hawana on-mnyororo chanzo na haiwezi kuwa upya kutoka mbegu, ZECD tu haina msaada wao. Wito wa njia ya lebo anarudi a `method-not-found` kosa (`-32601`).
+Labels ni makusudi kukosekana. Kwa sababu labels hawana on-mnyororo chanzo na haiwezi kuwa upya kutoka mbegu, zecd tu haina msaada wao. Wito wa njia ya lebo anarudi a `method-not-found` kosa (`-32601`).
 
 ### Hakuna lightwalletd Utegemezi
 
-ZECD derives compact blocks, tree state, na mempool visibility moja kwa moja kutoka Zebra's JSON-RPC. Hakuna lightwalletd kuendesha au kudumisha  kupunguza kazi ya utata wa utoaji binafsi mwenyeji.
+zecd derives compact blocks, tree state, na mempool visibility moja kwa moja kutoka Zebra's JSON-RPC. Hakuna lightwalletd kuendesha au kudumisha  kupunguza kazi ya utata wa utoaji binafsi mwenyeji.
 
 ### Cloud-asili na Containerized kupelekwa
 
-usanifu stateless ya ZECD ni iliyoundwa kwa ajili Docker na Kubernetes mazingira:
+usanifu stateless ya zecd ni iliyoundwa kwa ajili Docker na Kubernetes mazingira:
 
 - Full Docker Kuandika stack (`zebra → zecd`) inapatikana katika kumbukumbu.
 - Hatua ya mwisho afya katika bandari `9233` na configurable tayari probes (`synced` or `connected`)
@@ -127,7 +127,7 @@ usanifu stateless ya ZECD ni iliyoundwa kwa ajili Docker na Kubernetes mazingira
 
 ## Mifano ya Usimamizi wa Watoto
 
-ZECD inasaidia mifano mitatu ya uhifadhi wa ufunguo, inayofaa kwa mahitaji tofauti ya kupelekwa na usalama:
+zecd inasaidia mifano mitatu ya uhifadhi wa ufunguo, inayofaa kwa mahitaji tofauti ya kupelekwa na usalama:
 
 ### 1. Unencrypted (Default  Auto-Kufungua)
 
@@ -170,23 +170,23 @@ zecd init --datadir ./data-watch --ufvk "uview1..." --birthday <height>
 
 Fedha zinaweza kupatikana kutoka kwa mnemonic pekee. Kila kitu kingine ni cache.
 
- Artefact. Location. What it protects? Back up? (Kipengee)
+| Kifaa cha bandia | Mahali | Inalinda nini | Hifadhi nakala rudufu? |
 |----------|----------|-----------------|----------|
-** Maneno 24 ya kumbukumbu**. Imeonyeshwa mara moja katika `zecd init` Fedha  hasara = kupoteza kudumu. ** Ndiyo  offline (karatasi / HSM) **
-| `keys.toml` | `<wallet dir>/keys.toml`  Mbegu iliyofichwa + siku ya kuzaliwa + mtandao. ** Ndiyo  kama siri**
-| `identity.txt` | `[keys] age_identity` Kufafanua. `keys.toml` (kutumia mamlaka) ** Ndiyo  tofauti na `keys.toml`** |
-◯ Urefu wa siku ya kuzaliwa. `keys.toml` ◯ hufanya kurejesha haraka (kiasi chochote kabla ya kwanza tx) ▸ Rekodi na mnemonic ❖
-| `data.sqlite` | `<wallet dir>/data.sqlite`  Kifurushi cha mkoba  kujengwa upya kutoka mbegu juu ya kurejesha. No  disposable.
-| `blocks/` | `<wallet dir>/blocks/`  Compact block cache. No  kamwe meli; inaweza kukua kubwa.
-| `.cookie` | `<datadir>/.cookie`  RPC cookie ya muda mfupi. Hakuna  kuzaliwa upya wakati wa kuanza
+| **Mnemoniki ya maneno 24** | Imeonyeshwa mara moja katika `zecd init` | Fedha — hasara = hasara ya kudumu | **Ndiyo — nje ya mtandao (karatasi/HSM)** |
+| `keys.toml` | `<wallet dir>/keys.toml` | Mbegu iliyosimbwa kwa njia fiche + siku ya kuzaliwa + mtandao | **Ndiyo — kama Siri** |
+| `identity.txt` | `[keys] age_identity` | Huondoa maficho `keys.toml` (tumia mamlaka) | **Ndiyo — tofauti na `keys.toml`** |
+| Urefu wa siku ya kuzaliwa | Ndani `keys.toml` | Hurejesha haraka (urefu wowote kabla ya kipimo cha kwanza) | Rekodi kwa kutumia kumbukumbu |
+| `data.sqlite` | `<wallet dir>/data.sqlite` | Akiba ya pochi — imejengwa upya kutoka kwa mbegu wakati wa kurejesha | Hapana — inayoweza kutupwa |
+| `blocks/` | `<wallet dir>/blocks/` | Akiba ya kizuizi kidogo | Hapana — kamwe usisafirishe; inaweza kukua kubwa |
+| `.cookie` | `<datadir>/.cookie` | Kidakuzi cha RPC cha muda mfupi | Hapana — imetengenezwa upya wakati wa kuanza |
 
-> ** orodha ya data lazima kuwa mwenyeji-kwenye.** ZECD's single-instance lock (`<datadir>/.lock` ni OS ushauri lock haina span majeshi. Kamwe kushiriki data directory kusoma-kuandika katika mashine (NFS, Kubernetes `ReadWriteMany` mbili ZECD matukio ingekuwa uharibifu mkoba DB. Matumizi ya `ReadWriteOnce` kiasi katika Kubernetes.
+> ** orodha ya data lazima kuwa mwenyeji-kwenye.** zecd's single-instance lock (`<datadir>/.lock` ni OS ushauri lock haina span majeshi. Kamwe kushiriki data directory kusoma-kuandika katika mashine (NFS, Kubernetes `ReadWriteMany` mbili zecd matukio ingekuwa uharibifu mkoba DB. Matumizi ya `ReadWriteOnce` kiasi katika Kubernetes.
 
 ---
 
 ## RPC Njia Safelist
 
-Kwa ajili ya kupelekwa ambapo uvujaji wa sifa itakuwa janga, ZECD inasaidia kuzuia uso RPC kwa subset waliochaguliwa wa mbinu:
+Kwa ajili ya kupelekwa ambapo uvujaji wa sifa itakuwa janga, zecd inasaidia kuzuia uso RPC kwa subset waliochaguliwa wa mbinu:
 
 ```toml
 [rpc]
@@ -201,17 +201,17 @@ Njia yoyote si katika orodha anarudi `-32601` (HTTP 404)  indistinguishable kuto
 
 Watengenezaji kuhamia kutoka Bitcoin au zcashd zana lazima kuwa na ufahamu wa hizi divergences makusudi:
 
-Mazoea Bitcoin Core ZECD
+| Tabia | Kiini cha Bitcoin | zecd |
 |----------|-------------|------|
-Fomati ya anwani. `1...` / `bc1...` | `u1...` (Orchard Unified Address)  si parseable kama anwani Bitcoin na mteja string-parsing.
- Labels. Full kuhifadhi lebo. Si kutekelezwa  `setlabel`, `listlabels`, nk kurudi `-32601` |
- ada. user-settable; soko la ada ZIP-317 deterministic tu; `settxfee`, `fee_rate`, `subtractfeefromamount` kukataliwa na `-8` |
-Memo. Haikubaliwi. `sendtoaddress` anakubali hex memo; historia ina `memo` + `memoStr` mashamba.
-☐ Uthibitisho wa kutumia 1 ▸ 3 (badiliko mwenyewe) / 10 (mtu mwingine) ❑ Configurable kupitia `trusted_confirmations` / `untrusted_confirmations` |
-| `listsinceblock` kwenye reorg. Hurudi kwa uma. Inarudi `-5` (Block haipatikani) kama mshale ni reorganized mbali  tena msingi line na parameterless wito.
-◯ Kuwasilisha barua pepe kwa mpokeaji katika: `sendmany`  kosa. JSON parser collapses duplicates (last wins) kabla ZECD anaona yao  don't list the same address twice
- Usawa wakati wa awali ya kulandanisha. Blocks au joto-up. Hutumika usawa sehemu  gate automatisering juu ya `GET /readyz` (inarudi 503 mpaka kabisa kulandanishwa na kuboresha backlog ni drained)
-| `minconf 0` in `getbalance`  0-conf usawa. kutumika kama 1  ulinzi noti ni kamwe spendable unmined.
+| Muundo wa anwani | `1...` / `bc1...` | `u1...` (Orchard Unified Address) — haiwezi kutafsiriwa kama anwani ya Bitcoin kwa kutumia wateja wanaochanganua mfuatano |
+| Lebo | Duka kamili la lebo | Haijatekelezwa — `setlabel`, `listlabels`, n.k. kurudi `-32601` |
+| Ada | Inayoweza kutatuliwa na mtumiaji; soko la ada | ZIP-317 yenye uthabiti pekee; `settxfee`, `fee_rate`, `subtractfeefromamount` kukataliwa na `-8` |
+| Kumbukumbu | Haitumiki | `sendtoaddress` inakubali memo ya hex; historia ina `memo` + `memoStr` mashamba |
+| Uthibitisho wa matumizi | 1 | 3 (badiliko mwenyewe) / 10 (mhusika wa tatu) — inaweza kusanidiwa kupitia `trusted_confirmations` / `untrusted_confirmations` |
+| `listsinceblock` kwenye upangaji upya | Anarudi kwenye uma | Marejesho `-5` (Kizuizi hakipatikani) ikiwa kielekezi kimepangwa upya — rekebisha msingi kwa kutumia simu isiyo na vigezo |
+| Nakala za wapokeaji katika `sendmany` | Hitilafu | Kichanganuzi cha JSON hukunja nakala rudufu (ushindi wa mwisho) kabla ya zecd kuziona — usiorodheshe anwani sawa mara mbili |
+| Salio la pochi wakati wa usawazishaji wa awali | Vitalu au kupasha joto | Huhudumia salio la sehemu — otomatiki ya lango imewashwa `GET /readyz` (hurejesha 503 hadi itakaposawazishwa kikamilifu na mzigo wa uboreshaji utakapoisha) |
+| `minconf 0` in `getbalance` | Salio la 0-conf | Imetumika kama 1 — noti iliyolindwa haiwezi kutumika bila kuchimbwa |
 
 ---
 
@@ -274,43 +274,43 @@ zecd --datadir ./data init --restore --birthday 2500000
 
 ## Bandari za chaguo-msingi
 
-Mtandao: ZECD RPC Zebra RPC (Backend) Afya.
+| Mtandao | RPC zecd | Zebra RPC (nyuma) | Afya |
 |---------|----------|---------------------|--------|
-Mainnet 8232 8234 9233 Msaada wa simu za mkononi.
-Testnet 18232 18234 9233 - Mchoro wa mtihani.
+| Mtandao Mkuu | 8232 | 8234 | 9233 |
+| Mtandao wa Majaribio | 18232 | 18234 | 9233 |
 
 ---
 
-## ZECD dhidi ya zcashd dhidi Zaino
+## zecd dhidi ya zcashd dhidi Zaino
 
-| | zcashd | Zaino | ZECD |
+| | zcashd | Zaino | zecd |
 |--|--------|-------|------|
- Jukumu: Full node + wallet. Indexer (huchukua nafasi ya lightwalletd)  Wallet server tu
-Lugha. C++. Rust. Rust
-Hali. Deprecated Active. Active (v0.5.0-rc3, Julai 2026)
-| Default pool | Transparent | N/A | Orchard (shielded) |
- RPC lugha zcashd-hususa gRPC (lightwalletd) Bitcoin Core JSON-RPC
-inahitaji node kamili. self Ndiyo Zebra au zcashd. zebra.
- Ufufuzi wa hali ya juu. No N/A Yes (mbegu tu)
-Memo za kulindwa. Ndiyo (`z_sendmany`(N/A) Ndiyo.
- Kutazama tu (UFVK) Ndiyo. Ndio, ndiyo.
-Wingu-asili. Hapana. Sehemu ya kweli, ndiyo.
- Install  Kujenga/binary  Jenga. `cargo install zecd` |
+| Jukumu | Nodi kamili + pochi | Kiashiria (kinachukua nafasi ya lightwalletd) | Seva ya pochi pekee |
+| Lugha | C++ | Kutu | Kutu |
+| Hali | Imeondolewa kwenye huduma | Inayotumika | Inayotumika (v0.5.0-rc3, Julai 2026) |
+| Bwawa chaguo-msingi | Uwazi | N/A | Orchard (iliyofunikwa) |
+| Lahaja ya RPC | zcashd-specific | gRPC (lightwalletd) | Bitcoin Core JSON-RPC |
+| Inahitaji nodi kamili | Ndiyo (mimi mwenyewe) | Zebra au zcashd | Zebra |
+| Urejeshaji usio na uraia | No | N/A | Ndiyo (ya mbegu pekee) |
+| Memo zilizolindwa | Ndiyo (`z_sendmany`) | N/A | Ndiyo (uso wa Bitcoin RPC) |
+| Saa pekee (UFVK) | Ndiyo | Ndiyo | Ndiyo |
+| Asili ya wingu | No | Sehemu | Ndiyo |
+| Sakinisha | Muundo/binary | Jenga | `cargo install zecd` |
 
 ---
 
 ## Kurasa Zinazohusiana
 
-- [Zebra Full Node (Njia ya Kuunganisha)](Zebra_Full_Node.md)  full node ZECD inaunganisha kwa
+- [Zebra Full Node (Njia ya Kuunganisha)](Zebra_Full_Node.md)  full node zecd inaunganisha kwa
 - [Zaino Indexing Kifaa cha Kuonyesha Maonyesho ya Picha](Zaino.md)  mbadala indexer njia (huchukua nafasi ya lightwalletd)
 - [Zakura Node (Kituo cha Zakura)](Zakura_Node.md)  nyingine full node utekelezaji (furka ya Zebra)
-- [Kuangalia funguo za kuvinjari](Viewing_Keys.md)  jinsi ZECD scans mlolongo kutumia akaunti viewing funguo
+- [Kuangalia funguo za kuvinjari](Viewing_Keys.md)  jinsi zecd scans mlolongo kutumia akaunti viewing funguo
 - [Mkoba](/using-zcash/wallets)  maelezo ya jumla mzunguko wa pochi
 
 ## Rasilimali
 
-- [ZECD GitHub (zecrocks/zecd)](https://github.com/zecrocks/zecd)
-- [ZECD Operations Runbook (Kitabu cha Uendeshaji wa Shughuli)](https://github.com/zecrocks/zecd/blob/main/docs/OPERATIONS.md)
+- [zecd GitHub (zecrocks/zecd)](https://github.com/zecrocks/zecd)
+- [zecd Operations Runbook (Kitabu cha Uendeshaji wa Shughuli)](https://github.com/zecrocks/zecd/blob/main/docs/OPERATIONS.md)
 - [zec.rocks](https://zec.rocks)
 - [librustzcash  msingi Zcash maktaba ya cryptography](https://github.com/zcash/librustzcash)
 - [ZIP-317: Utaratibu wa Ada ya Kuhamisha Kiasi.](https://zips.z.cash/zip-0317)

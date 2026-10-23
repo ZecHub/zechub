@@ -33,7 +33,7 @@ Zcash डेस्कटॉप और मोबाइल wallet में एक
 
 Signal private messenger एक सुरक्षित messaging app है जिसमें डेटा गोपनीयता अपने उच्चतम स्तर पर होती है। Signal private messenger app निःशुल्क है और उपयोग में आसान है, उपयोगकर्ताओं को किसी पूर्व अनुभव की आवश्यकता नहीं होती। Signal app में एंड-टू-एंड एन्क्रिप्शन तकनीक है जो सुनिश्चित करती है कि आपका संचार पूरी तरह निजी रहे। जो भी व्यक्ति निजी संदेश सुरक्षित रूप से भेजना चाहता है, उसे Signal private messenger app का उपयोग करने पर विचार करना चाहिए क्योंकि यह आपकी साइबर सुरक्षा कमजोरियों और आपके data footprint — दोनों को बहुत कम कर देगा।
 
-इसे आज़माएँ: [https://signal.org/download](https://signal.org/download)
+इसे आज़माएँ: [https://signal.org/download/](https://signal.org/download/)
 
 **BisonRelay**
 

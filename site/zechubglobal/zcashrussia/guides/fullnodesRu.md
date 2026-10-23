@@ -82,7 +82,7 @@ Zebra — это независимая реализация полного уз
 
 Вот примеры платформ, которые разрешают доступ к данным сети Zcash:
 
-[Обозреватель блоков Zcash](https://zcashblockexplorer.com)
+[Обозреватель блоков Zcash](https://mainnet.zcashexplorer.app)
 
 [Коинметрика](https://docs.coinmetrics.io/info/assets/zec)
 

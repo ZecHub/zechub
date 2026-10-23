@@ -12,7 +12,7 @@ ZEC geeft mensen de mogelijkheid om zonder toestemming gegevens over te dragen. 
 
 [De zaak van Zcash en privacy](https://www.zcashzeal.org/blog/the-case-for-zcash-amp-privacy)
 
-[Een afgeschermd ecosysteem](https://electriccoin.co/blog/shielded-ecosystem/)
+[Een afgeschermd ecosysteem](https://web.archive.org/web/20260903010654/https://electriccoin.co/blog/shielded-ecosystem/)
 
 [Zcash-privacyaanbevelingen](https://z.cash/support/security/privacy-security-recommendations/)
 

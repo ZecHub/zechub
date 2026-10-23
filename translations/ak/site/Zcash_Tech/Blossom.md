@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Nhwiren a ɛyɛ fɛ
+# Blossom
 
 > Blossom kɔɔ so traa ase wɔ Zcash mainnet so wɔ block 653,600 (December 11, 2019 UTC).
 
@@ -21,13 +21,13 @@ Nneɛma abien di akyi:
 1. Block ahorow ba bɛyɛ mmɔho abien, enti nkɔnsɔnkɔnsɔn no tumi de nnwuma a wɔyɛ no bɛyɛ mmɔho abien wɔ bere biako biara mu.
 2. Wo asɛm no nya ne confirmation a edi kan ntɛm, efisɛ wontwɛn bere tenten saa mma block a edi hɔ no.
 
-![Before Blossom the block target was 150 seconds with slower confirmations and lower throughput. After Blossom the target is 75 seconds with faster confirmations and roughly double the throughput](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/blossom-block-spacing.png)
+![Before Blossom the block target was 150 seconds with slower confirmations and lower throughput. After Blossom the target is 75 seconds with faster confirmations and roughly double the throughput](/content-images/blossom-block-spacing-50b6bfbacc.webp)
 
 ## Sɛ wɔbɛma sika a wɔde ma no akɔ so ayɛ nea ɛkɔ so daa
 
 Block ahorow a ɛyɛ ntɛmntɛm ma asɛmmisa bi sɔre. Sɛ Zcash yɛɛ blocks mmɔho abien na block biara da so ara tua akatua koro no ara a, network no bɛbɔ ZEC ntɛmntɛm mmɔho abien. Blossom kwati saa. Ɛtew akatua a wotua wɔ block biara so no so fã, na ɛmaa block-akatua a wɔtew so fã no mmɔho abien fii block 840,000 koduu 1,680,000 ([ZIP 208 na ɛwɔ hɔ](https://zips.z.cash/zip-0208)). Block dodow mmɔho abien, a emu biara tua fã no, yɛ adwuma kodu ZEC dodow koro no ara a wɔbɔ wɔ bere unit biara mu. Nhyehyɛe a wɔde bɛma nyinaa ne bere a wɔbɛtew so daakye, a wɔsusuw no bere ankasa mu no ansakra.
 
-![How Blossom keeps issuance steady: 75 second blocks arrive twice as often, the per-block reward is halved, the halving interval is doubled, so total emission over time stays the same](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/blossom-emission-balance.png)
+![How Blossom keeps issuance steady: 75 second blocks arrive twice as often, the per-block reward is halved, the halving interval is doubled, so total emission over time stays the same](/content-images/blossom-emission-balance-f2443e29ab.webp)
 
 ## Nkɔso a ɛyɛ ahyɛde
 
@@ -41,12 +41,12 @@ Blossom yɛ Zcash network upgrade a ɛtɔ so mmiɛnsa. Ɛdii Overwinter ne Sapli
 
 | Asɛmfua | Plain-English asekyerɛ |
 |---|---|
-| Block botaeɛ ntam kwan | Bere a ntwamutam no de si n’ani so wɔ block biako ne nea edi hɔ ntam |
-| Block akatua | ZEC foforo no bɔɔ na wotuae bere a wɔtu block biara |
-| Halving ntamgyinafo | Block dodow ahe na ɛtwam wɔ block akatua no fã biara ntam |
-| Nhyiamu baa dwumadibea id | Tag a ɛhyɛ network mmara ahorow a node anaa asɛm bi di akyi agyirae |
-| Aman abien adwene a ɛwɔ hɔ no nsakrae | Mmara nsakrae a ɛsɛ sɛ node biara gye tom na ama atra netɛw |
-| Netwɛk no mu nkɔso (NU) | Nsakraeɛ a wɔayɛ no pɛpɛɛpɛ wɔ Zcash mmara a wɔpene so, a wɔayɛ adwuma wɔ block height a wɔahyɛ |
+| Block target spacing | Bere a ntwamutam no de si n’ani so wɔ block biako ne nea edi hɔ ntam |
+| Block reward | ZEC foforo no bɔɔ na wotuae bere a wɔtu block biara |
+| Halving interval | Block dodow ahe na ɛtwam wɔ block akatua no fã biara ntam |
+| Consensus branch id | Tag a ɛhyɛ network mmara ahorow a node anaa asɛm bi di akyi agyirae |
+| Bilateral consensus change | Mmara nsakrae a ɛsɛ sɛ node biara gye tom na ama atra netɛw |
+| Network upgrade (NU) | Nsakraeɛ a wɔayɛ no pɛpɛɛpɛ wɔ Zcash mmara a wɔpene so, a wɔayɛ adwuma wɔ block height a wɔahyɛ |
 
 ## FAQ
 
@@ -96,4 +96,4 @@ Efisɛ Blossom nso tew akatua a wotua wɔ block biara so no so fã na ɔmaa bere
 
 ---
 
-Ntoatoasoɔ: [Network Upgrades ho nkyerɛkyerɛmu](../start-here/network-upgrades) · Dada: [Sapling](../zcash-tech/sapling) · Deɛ ɛdi hɔ: [Koma Nnua](../zcash-tech/heartwood)
+Ntoatoasoɔ: [Network Upgrades ho nkyerɛkyerɛmu](../start-here/network-upgrades) · Dada: [Sapling](../zcash-tech/sapling) · Deɛ ɛdi hɔ: [Heartwood](../zcash-tech/heartwood)

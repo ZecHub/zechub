@@ -3,16 +3,16 @@
 ## TL;DR
 
 - Il recupero privato delle informazioni, o PIR, consente a un dispositivo di recuperare un elemento dal database di un server senza che il server scopra quale elemento è stato richiesto
-- Zcash ne ha bisogno perché un wallet privato non può chiedere a un server quali transazioni sono le proprie senza compromettersi
-- Oggi i wallet scaricano e analizzano molti più dati del necessario, ed è una delle ragioni principali per cui la sincronizzazione è lenta
-- Il PIR permetterebbe a un wallet di recuperare privatamente solo i propri dati, eliminando quel collo di bottiglia e mantenendo intatta la privacy
-- È un'area di ricerca attiva per Zcash, potente in teoria, e in fase di adattamento pratico per wallet reali
+- Zcash ne ha bisogno perché un portafoglio privato non può chiedere a un server quali transazioni sono le proprie senza compromettersi
+- Oggi i portafogli scaricano e analizzano molti più dati del necessario, ed è una delle ragioni principali per cui la sincronizzazione è lenta
+- Il PIR permetterebbe a un portafoglio di recuperare privatamente solo i propri dati, eliminando quel collo di bottiglia e mantenendo intatta la privacy
+- È un'area di ricerca attiva per Zcash, potente in teoria, e viene resa pratica per portafogli reali
 
 <br/>
 
 ## A chi è rivolto
 
-- Chiunque si sia chiesto come un wallet privato trovi le proprie monete senza rivelare quali siano
+- Chiunque si sia chiesto come un portafoglio privato trovi le proprie monete senza rivelare quali siano
 - I nuovi arrivati che continuano a vedere il PIR menzionato accanto al lavoro di scalabilità di Zcash
 - I lettori che vogliono prima il concetto e solo dopo la crittografia che lo sostiene
 
@@ -20,11 +20,11 @@
 
 ## Il problema che il PIR risolve per Zcash
 
-Zcash nasconde chi è il destinatario di una transazione. Questa privacy crea una domanda scomoda: se la rete non può vedere quali transazioni appartengono a te, come fa il tuo wallet a trovarle?
+Zcash nasconde chi è il destinatario di una transazione. Questa privacy crea una domanda scomoda: se la rete non può vedere quali transazioni appartengono a te, come fa il tuo portafoglio a trovarle?
 
-Oggi la risposta è brutale. Un wallet non può chiedere a un server quali transazioni sono le mie, perché quella domanda rivelerebbe esattamente ciò che Zcash cerca di nascondere. Quindi, invece, il wallet scarica una grande quantità di dati e verifica localmente ogni elemento per capire cosa gli appartiene. Funziona, e preserva la privacy, ma è lento e pesante. Questa scansione è uno dei motivi principali per cui la sincronizzazione del wallet può sembrare macchinosa.
+Oggi la risposta è brutale. Un portafoglio non può chiedere a un server quali transazioni sono le mie, perché quella domanda rivelerebbe esattamente ciò che Zcash cerca di nascondere. Quindi, invece, il portafoglio scarica una grande quantità di dati e verifica localmente ogni elemento per capire cosa gli appartiene. Funziona, e preserva la privacy, ma è lento e pesante. Questa scansione è uno dei motivi principali per cui la sincronizzazione del portafoglio può sembrare macchinosa.
 
-L'ideale sarebbe un modo per permettere a un wallet di chiedere a un server esattamente i propri dati, riceverli, senza che il server scopra mai cosa è stato richiesto. Questo è esattamente ciò che offre il recupero privato delle informazioni.
+L'ideale sarebbe un modo per permettere a un portafoglio di chiedere a un server esattamente i propri dati, riceverli, senza che il server scopra mai cosa è stato richiesto. Questo è esattamente ciò che offre il recupero privato delle informazioni.
 
 <br/>
 
@@ -74,24 +74,24 @@ L'ostacolo storico è sempre stato il costo. In modo ingenuo, il server deve toc
 
 Il PIR fa parte dello sforzo per rendere Zcash sia privato sia veloce su larga scala.
 
-L'obiettivo è il collo di bottiglia della scansione del wallet descritto in precedenza. Il lavoro del Valar Group sta sviluppando tecniche di recupero privato delle informazioni affinché un wallet possa recuperare i propri dati da un server senza che il server scopra quali voci sono state richieste. Un'applicazione concreta è il controllo privato dei nullifier. Un nullifier è un marcatore univoco pubblicato quando una nota viene spesa, che impedisce che gli stessi fondi vengano spesi due volte. Un wallet deve spesso verificare se un determinato nullifier sia già apparso, in altre parole se una nota sia ancora non spesa, e farlo tramite un server oggi può rivelare su quale nota si stia chiedendo. Il recupero privato delle informazioni permette al wallet di porre questa domanda senza rivelare quale nullifier gli interessi. Questo si affianca ad altri lavori di scalabilità, tra cui Project Tachyon e nuovo software per nodi, mirati a rimuovere i limiti di prestazione che oggi frenano i wallet privati.
+L'obiettivo è il collo di bottiglia della scansione del portafoglio descritto in precedenza. Il lavoro presso Valar Group sta sviluppando tecniche di recupero privato delle informazioni affinché un portafoglio possa recuperare i propri dati da un server senza che il server scopra quali voci sono state richieste. Un'applicazione concreta è il controllo privato dei nullifier. Un nullifier è un marcatore univoco pubblicato quando una nota viene spesa, che impedisce che gli stessi fondi vengano spesi due volte. Un portafoglio deve spesso verificare se un determinato nullifier sia già apparso, in altre parole se una nota sia ancora non spesa, e farlo tramite un server oggi può rivelare su quale nota si stia chiedendo. Il recupero privato delle informazioni permette al portafoglio di porre questa domanda senza rivelare quale nullifier gli interessi. Questo si affianca ad altri lavori di scalabilità, tra cui Project Tachyon e nuovo software per nodi, mirati a rimuovere i limiti di prestazione che oggi frenano i portafogli privati.
 
-È importante essere onesti riguardo alla fase in cui ci troviamo. Si tratta di ricerca e ingegneria attive, non di una funzionalità finita e già distribuita. Il concetto è ben consolidato e la direzione è definita, ma rendere il PIR abbastanza efficiente per i wallet di tutti i giorni su dispositivi comuni è esattamente la parte difficile su cui si sta lavorando ora.
+È importante essere onesti riguardo alla fase in cui ci troviamo. Si tratta di ricerca e ingegneria attive, non di una funzionalità finita e già distribuita. Il concetto è ben consolidato e la direzione è definita, ma rendere il PIR abbastanza efficiente per i portafogli di tutti i giorni su dispositivi comuni è esattamente la parte difficile su cui si sta lavorando ora.
 
 <br/>
 
 ## Equivoci comuni
 
 - Il PIR nasconde quale elemento hai richiesto, ma non necessariamente il fatto che tu abbia contattato il server; i metadati a livello di rete sono una questione separata
-- Il PIR non è unico di Zcash, è uno strumento crittografico generale che Zcash sta applicando alla privacy dei wallet
-- Una sincronizzazione più rapida grazie al PIR è un obiettivo ancora in corso, non una funzionalità già presente nei wallet
+- Il PIR non è unico di Zcash, è uno strumento crittografico generale che Zcash sta applicando alla privacy dei portafogli
+- Una sincronizzazione più rapida grazie al PIR è un obiettivo ancora in corso, non una funzionalità già presente nei portafogli
 - Scaricare tutto e analizzare localmente, l'approccio attuale, preserva la privacy ma è lento; il PIR punta a mantenere la privacy eliminando la lentezza
 
 <br/>
 
 ## Pagine correlate
 
-- [Sincronizzazione dei Wallet Zcash](https://zechub.wiki/zcash-tech/zcash-wallet-syncing) - perché oggi la sincronizzazione funziona in questo modo
+- [Sincronizzazione dei portafogli Zcash](https://zechub.wiki/zcash-tech/zcash-wallet-syncing) - perché oggi la sincronizzazione funziona in questo modo
 - [Nodi Lightwallet](https://zechub.wiki/zcash-tech/lightwallet-nodes) - il modello light client che il PIR migliorerebbe
 - [zk-SNARKs](https://zechub.wiki/zcash-tech/zk-snarks) - l'altro principale strumento crittografico alla base della privacy di Zcash
 - [Sicurezza Post-Quantistica](https://zechub.wiki/zcash-tech/post-quantum-security) - perché i metodi basati su reticoli sono importanti per il futuro

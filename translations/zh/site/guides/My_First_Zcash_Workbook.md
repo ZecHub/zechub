@@ -8,11 +8,9 @@
 
 本指南概述了这本练习手册的核心学习路径，共分为九个主要部分。它并不是对原书本身的替代，而是一份配套资源，用于总结整体教学流程，并为讲师、学生和社区教育者重点标出重要信息。
 
-该练习手册可免费下载为 PDF，或以交互式翻页电子书形式阅读：
+该练习手册可免费下载为 PDF：
 
 [大纲](https://drive.google.com/file/d/1eYWLgvAAHzCpr2b7bZ494FTZAtHqmtRk/view)
-
-[翻页书](https://midd.me/nbp2)
 
 [GitHub 仓库](https://github.com/massadoptionorg/My-First-Zcash) 
 
@@ -147,12 +145,12 @@ Zcash Foundation 的社区支持协调员。
 
 最后一部分邀请读者加入 Zcash 生态系统。参与方式包括：
 
-- 加入 Zcash Global Discord  
-- 参加社区电话会议和工作组  
-- 为未来的练习手册翻译作出贡献  
+- 加入 Zcash 全球 Discord  
+- 参与社区电话会议和工作组  
+- 为未来的工作簿翻译作出贡献  
 - 支持开源教育  
-- 创作内容、提交代码、制作艺术作品或提供反馈  
-- 了解 Zcash 社区资助机会  
+- 创作内容、贡献代码、艺术作品或反馈  
+- 探索 Zcash Community Grants
 
 传达的信息很明确：任何人都可以参与，社区欢迎各种背景和技能水平的贡献者。
 

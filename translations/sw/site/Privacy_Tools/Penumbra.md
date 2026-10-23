@@ -1,4 +1,4 @@
-# Kivuli cha Nuru (penumbra) 
+# Penumbra 
 
 Penumbra ipo kuwa ya kukata makali, kikamilifu ulinzi safu-1 mtandao vying katika Cosmos mazingira. Inawezesha watumiaji wake kufanya shughuli salama, hisa na kubadilishana ishara, na soko bila kufunua metadata yao juu-mnyororo. Kama blockchain kabisa kulindwa, pia inatoa mikataba walinda kwenye wavuti bila kuathiri faragha au utengamano  Penumbla ina faragha kwa default, hakuna miamala uwazi au thamani wazi pool.
 

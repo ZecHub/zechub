@@ -26,9 +26,9 @@ https://www.youtube.com/watch?v=HtorP8TJ5vk
 
 #### Aggiornamenti di ECC e ZF
 
-- [ECC - Obiettivi fissati → gennaio '24](https://zcashitalia.com/lecc-fissa-gli-obiettivi-e-la-pianificazione-fino-a-gennaio-2024/) 🎯
+- [ECC - Obiettivi fissati → gennaio '24](https://web.archive.org/web/20240304124526/https://zcashitalia.com/lecc-fissa-gli-obiettivi-e-la-pianificazione-fino-a-gennaio-2024/) 🎯
 
-- [ECC esce dalla modalità di emergenza 👍](https://zcashitalia.com/problemi-di-prestazioni-del-portafoglio-risolti-ecc-esce-dalla-modalita-di-emergenza/)
+- [ECC esce dalla modalità di emergenza 👍](https://web.archive.org/web/20240304111947/https://zcashitalia.com/problemi-di-prestazioni-del-portafoglio-risolti-ecc-esce-dalla-modalita-di-emergenza/)
 
 - [Arborist 🌳 Riassunto della chiamata - 2 novembre](https://twitter.com/zksquirrel/status/1720317640420298781)
 
@@ -106,4 +106,4 @@ https://www.youtube.com/watch?v=HtorP8TJ5vk
 
 #### Social Italiani
 
-[Blog](https://zcashitalia.com/) | [Gruppo Telegram](https://t.me/zcashita) | [Gruppo Discord](https://discord.com/channels/978714252934258779/1091806217359347802) | [Gruppo Facebook](https://www.facebook.com/groups/zecitalia) | [Twitter](https://twitter.com/InsideZcash) |
+[Blog](https://web.archive.org/web/20240419175552/https://zcashitalia.com/) | [Gruppo Telegram](https://t.me/zcashita) | [Gruppo Discord](https://discord.com/channels/978714252934258779/1091806217359347802) | [Gruppo Facebook](https://www.facebook.com/groups/zecitalia) | [Twitter](https://twitter.com/InsideZcash) |

@@ -16,7 +16,7 @@ Das Global Ambassador Program identifiziert Community-Mitglieder, die hochwertig
 
 Botschafter haben kreative Freiheit bei den Aktivitäten, die sie planen, sodass sie ihre Ansprache auf ihren lokalen Kontext zuschneiden können.
 
-## [Website der Global Ambassadors](https://zcashambassadors.com)
+## [Website der Global Ambassadors](https://web.archive.org/web/20240413194338/https://zcashambassadors.com/)
 
 ## Aktive Botschafter-Communities (2026)
 
@@ -31,7 +31,7 @@ Botschafter haben kreative Freiheit bei den Aktivitäten, die sie planen, sodass
 | Ostafrika | [Zcash East Africa](https://x.com/ZcashEastAfrica) | Wachstum der Community in Ostafrika und Uganda |
 | Südafrika | [Zcash South Africa](https://twitter.com/Zcash_SA) | Südafrika |
 | Ghana | [Zcash Ghana](https://x.com/ZcashGH) | Ghana |
-| Mexiko | [zcashqro](https://x.com/zcashqro) | Ansprache von Universitäten und Einführung von Entwicklern |
+| Mexiko | [Zcash Mexico](https://x.com/ZcashMx) | Ansprache von Universitäten und Einführung von Entwicklern |
 | Russland | [ruZcash](https://x.com/ruZCASH) | Russischsprachige Inhalte und Community |
 | Indien | [Zcash India](https://x.com/ZcashIND) | Entwicklerbildung und Community-Wachstum |
 | Korea | [Zcash Korea](https://x.com/zcashkorea) | Koreanische Bildungsinhalte |
@@ -39,5 +39,5 @@ Botschafter haben kreative Freiheit bei den Aktivitäten, die sie planen, sodass
 ## Bewerbung als Botschafter
 
 Du kannst dich auch beteiligen durch:
-- Beiträge zu Bounties von [ZecHub DAO](https://app.dework.xyz/zechub-2424)
+- Beiträge zu [ZEC Bounties](https://bounties.zechub.wiki/)
 - Beitritt zum [Zcash Global Discord](https://discord.gg/zcash)

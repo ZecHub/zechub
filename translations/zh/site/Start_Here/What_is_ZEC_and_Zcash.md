@@ -30,7 +30,7 @@ ZEC 让人们有机会无需许可地传输数据。拥有一个点对点、无�
 
 [Zcash 与隐私的理由](https://www.zcashzeal.org/blog/the-case-for-zcash-amp-privacy)
 
-[一个屏蔽生态系统](https://electriccoin.co/blog/shielded-ecosystem/)
+[一个屏蔽生态系统](https://web.archive.org/web/20260903010654/https://electriccoin.co/blog/shielded-ecosystem/)
 
 [Zcash 隐私建议](https://z.cash/support/security/privacy-security-recommendations/)
 
@@ -52,14 +52,12 @@ Zcash 解决了 Bitcoin 最大的缺陷：数据的私有所有权与传输。�
 
 [工作原理](https://z.cash/technology/)
 
-[区块链领域的 HTTPS](https://nakamoto.com/zcash-the-https-of-blockchains/)
-
 ---
 
 ## 相关页面
 
-- [新用户指南](/start-here/new-user-guide) — 为新的 ZEC 持有者提供分步入门指导
+- [新用户指南](/start-here/new-user-guide) — 为新的 ZEC 持有者提供分步入门指南
 - [钱包](/using-zcash/wallets) — 选择一个屏蔽钱包来持有你的 ZEC
-- [购买 ZEC](/using-zcash/buying-zec) — 在哪里以及如何获取 ZEC
-- [屏蔽池](/using-zcash/shielded-pools) — Zcash 的资金池如何保持交易私密
-- [ZK-SNARKs](/zcash-tech/zk-snarks) — Zcash 隐私背后的密码学
+- [购买ZEC](/using-zcash/buying-zec) — 在何处以及如何获取 ZEC
+- [屏蔽池](/using-zcash/shielded-pools) — Zcash 池如何保持交易私密
+- [zk-SNARKs](/zcash-tech/zk-snarks) — 支撑 Zcash 隐私的密码学原理

@@ -1,0 +1,38 @@
+name: Image alt-text report
+
+# Accessibility inventory for English wiki pages. Findings are advisory and do
+# not fail CI; parser/configuration errors still do.
+on:
+  pull_request:
+    paths:
+      - "site/**/*.md"
+      - "scripts/check-image-alt-text.mjs"
+      - "scripts/check-image-alt-text.test.mjs"
+      - "scripts/image-alt-placeholders.json"
+      - "docs/image-alt-text-report.md"
+      - ".github/workflows/image-alt-text-report.yml"
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+concurrency:
+  group: image-alt-text-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+
+      - name: Test image parser
+        run: node scripts/check-image-alt-text.test.mjs
+
+      - name: Report image alt-text findings
+        run: node scripts/check-image-alt-text.mjs

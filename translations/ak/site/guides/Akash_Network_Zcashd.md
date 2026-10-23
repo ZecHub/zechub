@@ -16,7 +16,7 @@ Akwankyerɛ a ɛfa sɛnea wode zcashd Zcash full node (Electric Coin Co dwumadie
     src="https://www.youtube.com/embed/SVekeNU6_-g"
     title="Zcash Full Node setup on Akash Network"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    ma kwan maFullScreen no
+    allowFullScreen
     loading="lazy"
   />
 </div>
@@ -514,7 +514,7 @@ Sɛ wo balance no sua a, Akash bɛ auto-close wo deployment no. **Top up wo wall
 
 **Zcash Nhwehwɛmufoɔ**: [https://zechub.wiki/guides/blockchain-explorers](https://zechub.wiki/guides/blockchain-explorers)
 
-**Akash Akasakasa**: [https://discord.akash.network](https://discord.akash.network) (ma nsɛm a ɛfa ɔdemafo ho) .
+**Akash Discord**: [https://discord.akash.network](https://discord.akash.network) (ma nsɛm a ɛfa ɔdemafo ho) .
 
 ## Nsɛm a Etwa To
 

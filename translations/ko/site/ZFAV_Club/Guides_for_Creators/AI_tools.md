@@ -30,9 +30,9 @@
 
 ### 무료 도구:
 
-- [ImgnAI](https://imgnai.com/) 디스코드 또는 텔레그램의 봇 - [시작 가이드](https://imgnai.gitbook.io/imgnai/) 및 
+- [ImgnAI](https://imgnai.com/) Discord 또는 Telegram의 봇 - [시작 가이드](https://imgnai.gitbook.io/imgnai/) 및 
 이제는 [Webapp ImgnAI](https://app.imgnai.com/home)와 별도 계정 로그인
-X, Google, 디스코드, 텔레그램으로 로그인 가능
+X, Google, Discord, Telegram으로 로그인 가능
 - [Bing Dalle3](https://www.bing.com/create) - 무료 버전은 느릴 수 있음
 - [Adobe Firefly](https://www.adobe.com/ee/sensei/generative-ai/firefly.html) - 무료로 제공되는 양 제한됨
 - [Ideogram](https://ideogram.ai/login) - 이미지에 현실적인 읽을 수 있는 텍스트 생성에 강함
@@ -48,7 +48,7 @@ X, Google, 디스코드, 텔레그램으로 로그인 가능
 - 디스코드에 있는 [Midjourney Bot](https://discord.com/invite/midjourney) - 월 $10 이상, [시작 가이드](https://docs.midjourney.com/docs/quick-start)
 다른 사람의 이미지를 평가함으로써 약 100개의 무료 생성 가능 [여기](https://www.midjourney.com/app/rank-pairs/)에서
 (상위 2000명의 평가자로 진입해야 함 - 약 15분 동안 이미지 평가)
-- [DALL-E 2](https://labs.openai.com/) [](https://openai.com/dall-e-2)- $15/115 생성 - (월별 무료 15개 생성)
+- [DALL-E 2](https://web.archive.org/web/20250601174514/https://labs.openai.com/) [](https://openai.com/dall-e-2)- $15/115 생성 - (월별 무료 15개 생성)
 - [DALL-E 3](https://openai.com/dall-e-3/) - ChatGPT-4에 포함됨 - 월 $20
 - [Nightcafe Creator](https://creator.nightcafe.studio/) (4개 생성 무료, 유료는 월 $6부터)
 
@@ -56,9 +56,9 @@ X, Google, 디스코드, 텔레그램으로 로그인 가능
 
 ### 도구 (보통 무료 체험 제공):
 
-- [RunwayML GEN-2](https://runwayml.com/) (무료 체험, 월 $15 구독 요금제)
-- [Pika labs 디스코드 봇](https://www.pika.art/) (현재 무료?)
-- [elai](https://elai.io/) (월 $23 구독 요금제)
+- [RunwayML GEN-2](https://runwayml.com/) (무료 체험, 월 $15부터 구독)
+- [Pika labs Discord 봇](https://www.pika.art/) (현재 무료?)
+- [Elai](https://elai.io/) (월 $23부터 구독)
 
 ### 영상/오디오 번역 도구:
 
@@ -82,7 +82,7 @@ X, Google, 디스코드, 텔레그램으로 로그인 가능
 
 ### 음성 생성
 
-- [play.ht](https://play.ht/) - 무료 제공 - (월 $39 구독 요금제)
+- [play.ht](https://web.archive.org/web/20260310162301/https://play.ht/) - 무료 제공 - (월 $39 구독 요금제)
 - [ElevenLabs](https://elevenlabs.io/) - 무료 제공 - (월 $5 구독 요금제)
 - [Murf](https://murf.ai/) - 무료 제공 - (월 $29 구독 요금제)
 - [Resemble](https://www.resemble.ai/) - 무료 체험 가능 (초당 $0.006)

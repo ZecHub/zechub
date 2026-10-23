@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Òdòdó òyìnbó
+# Blossom
 
 > Blossom lọ si ìkànnì Zcash mainnet ní block 653,600 (December 11, 2019 UTC).
 
@@ -21,13 +21,13 @@ Ohun méjì ló tẹ̀ lé e:
 1. Àwọn ìdìpọ̀ máa ń dé ní ìgbà méjì ju ti tẹ́lẹ̀ lọ, nítorí náà ẹyọ-ẹsẹ lè gbé nǹkan bí iye àwọn ìṣòwò tó pọ̀ sí i nínú àkókò kan.
 2. Ìṣirò rẹ yóò gba ìmúdájú àkọ́kọ́ ní kíákíá, nítorí pé o kò dúró pẹ̀lú fún àlàfo tó tẹ̀lé e.
 
-![Before Blossom the block target was 150 seconds with slower confirmations and lower throughput. After Blossom the target is 75 seconds with faster confirmations and roughly double the throughput](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/blossom-block-spacing.png)
+![Before Blossom the block target was 150 seconds with slower confirmations and lower throughput. After Blossom the target is 75 seconds with faster confirmations and roughly double the throughput](/content-images/blossom-block-spacing-50b6bfbacc.webp)
 
 ## Fífi àwọn owó tí wọ́n ń tẹ̀ jáde dúró ṣinṣin
 
 Faster blocks raise a question. If Zcash made twice as many blocks and each block still paid the same reward, the network would create ZEC twice as fast. Blossom avoids that. It halved the reward paid per block, and it doubled the block-reward halving interval from 840,000 to 1,680,000 blocks ([ZIP 208 ìyẹn àwọn tó ń gbé nílùú](https://zips.z.cash/zip-0208)) Awọn bulọọki meji, ọkọọkan san idaji iye ti o ṣiṣẹ si iye kanna ti ZEC ṣẹda fun akoko kan. Eto ipese lapapọ ati awọn akoko ti awọn halving iwaju, wiwọn ni akoko gidi, ko yipada.
 
-![How Blossom keeps issuance steady: 75 second blocks arrive twice as often, the per-block reward is halved, the halving interval is doubled, so total emission over time stays the same](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/blossom-emission-balance.png)
+![How Blossom keeps issuance steady: 75 second blocks arrive twice as often, the per-block reward is halved, the halving interval is doubled, so total emission over time stays the same](/content-images/blossom-emission-balance-f2443e29ab.webp)
 
 ## Àtúnṣe tí ó pọn dandan
 
@@ -39,20 +39,20 @@ Blossom je Zcash's third network upgrade. O tẹle Overwinter ati Sapling, o si 
 
 ## Àkójọ àwọn ọ̀rọ̀
 
-Ọ̀rọ̀-ìtumọ̀ èdè Gẹ̀ẹ́sì tó rọrùn.
+| Àkókò ìgba | Ìtumọ̀ Gẹ̀ẹ́sì lásán |
 |---|---|
-ìkápá ìlà-oòrùn. Àsìkò tí nẹ́tàkì ń wá láti gba ààrin ibùdó kan sí òmíràn.
-ì£1⁄4ë¡ ì ¬í ©. ZEC tuntun ti a ṣẹda ati sanwo bi kọọkan bulọọki ni mined.
-ìdí ìdajì. Ìdìpọ̀ mélòó ló kọjá láàárín ìdálẹ́gbẹ̀é èrè dídádá ibùdó náà?
-☐ Ajọṣepọ ẹka id. O kan aami ti o ami eyi ti ṣeto ti nẹtiwọki ofin a node tabi iṣowo ni atẹle
-ìyípadà ìfohùnṣòfò méjì-láàárín. Ìyípadà òfin tí gbogbo àpòòdì gbọ́dọ̀ tẹ̀ lé láti wà nínú ẹ̀rọ náà.
- Network upgrade (NU)  Aṣayan iyipada ti a ṣepọ si awọn ofin ifọkanbalẹ Zcash, ti o ṣiṣẹ ni giga bulọọki ṣeto.
+| Block target spacing | Akoko ti nẹtiwọọki naa fẹ lati wa laarin bulọọki kan ati ekeji |
+| Block reward | ZEC tuntun naa ṣẹda ati sanwo jade bi a ṣe n wa gbogbo bulọọki kọọkan |
+| Halving interval | Iye awọn bulọọki melo lo kọja laarin idaji ere bulọọki kọọkan |
+| Consensus branch id | Àmì kan tí ó ń fi àmì sí àwọn ìlànà nẹ́tíwọ́ọ̀kì tí ó ń tẹ̀lé nọ́ńbà tàbí ìṣòwò kan |
+| Bilateral consensus change | Àyípadà òfin tí gbogbo nódù gbọ́dọ̀ gbà láti dúró lórí nẹ́tíwọ́ọ̀kì |
+| Network upgrade (NU) | Àyípadà tí a ṣètò sí àwọn òfin ìfohùnṣọ̀kan Zcash's, tí a mú ṣiṣẹ́ ní gíga bulọ́ọ̀kì tí a ṣètò |
 
 ## Àwọn ìbéèrè tí a sábà máa ń béèrè
 
 ṣé ọ̀rọ̀ Blossom yí iye ZEC tí ó wà padà tàbí ìgbà tí ìlàjì wáyé? rárá. owó èrè fún ààrá kan dín kù sí méjì àti àkókò tó fi ń díwọ́n ìlàjọ náà di ìlọ́po meji ní àsìkò yìí, nítorí èyí ni pé iye àwọn ZEC ti a dá sílẹ̀ nínú ẹyọ-akoko kò sì tún ṣe kíkọjúgbà ìlàjá ọjọ́ iwájú mọ́.
 
-ṣé blossom yí ZEC mi padà tàbí ìpamọ́ra mi? rárá. blossoms yí àkókò àlàfo àti ìṣirò èrè padà. kò fọwọ́ kan owó rẹ tàbí àwọn ìdánwò tí a fi dídákẹ́ jẹ̀rẹ́ rẹ o, ó ṣe tán ohun tó ń sọ ni pé kí n máa ṣètò bí mo bá fẹ́ láti gba ẹrù náà lọ síbi iṣẹ́ fún ọ ní gbogbo ìgbà.
+Ṣé Blossom yí ZEC mi tàbí ìpamọ́ mi padà? Rárá o. Blossom yí àkókò ìdènà àti ìṣirò ẹ̀bùn padà. Kò kan ìwọ̀n rẹ tàbí àwọn ìṣòwò rẹ tí a dáàbò bò.
 
 kí ni 75 ìṣẹ́júkôjì túmọ̀ sí gan-an? ó jẹ àfojúsùn, kìí ṣe ìdánilójú. àwọn ẹyọ kọ̀ǹpútà tí a rí nípa èrí iṣẹ́, nítorí náà ìyàtọ̀ gidi láàrin awọn ẹyẹkọ̀ọ̀kan yàtọ̀ si ara wọn. nẹtiwọki ńlépa fún ọ̀kan ní nǹkan bí gbogbo ọjọ́á márùndínlọ́gọ́ta dípò 150 lọ́dọọdún.
 
@@ -96,4 +96,4 @@ Nítorí pé Blossom tún dín èrè tí wọ́n ń san fún ọ̀kọ̀ọ̀kan
 
 ---
 
-Àtòjọ: [Atọka Awọn igbesoke Nẹtiwọki](../start-here/network-upgrades) · Àwọn tó ṣáájú: [Sapling](../zcash-tech/sapling) · Àtúnṣe: [Igi àyà igi](../zcash-tech/heartwood)
+Àtòjọ: [Atọka Awọn igbesoke Nẹtiwọki](../start-here/network-upgrades) · Àwọn tó ṣáájú: [Sapling](../zcash-tech/sapling) · Àtúnṣe: [Heartwood](../zcash-tech/heartwood)

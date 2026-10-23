@@ -14,8 +14,9 @@ ZecWeekly 是一份每周日早晨发布的新闻简报，涵盖当周 Zcash 生
 
 开始撰写前：
 
-- 查看 [ZEC Bounties ](https://bounties.zechub.wiki/)了解当前新闻简报任务。
-- 等待分配
+- 查看 [ZEC Bounties](https://bounties.zechub.wiki/) 以了解当前新闻简报任务。
+- 等待分配。
+- 新闻简报各期属于 [悬赏金额政策](https://bounties.zechub.wiki/docs/bounty-amounts)中的 XS 档。实时悬赏中的 ZEC 数值即为金额，并非贡献指南中任何较早的标题。
 
 ![ss](/content-images/149a802c-b64f-4969-ad89-e83ffecf568e-d5d8387145.webp)
 

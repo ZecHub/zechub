@@ -7,7 +7,7 @@
 
 ### Інфраструктура спільноти
 
-Програма винагород ZecHub пропонує розробникам вільнішу й спрощенішу альтернативу окремим завданням: [Винагороди ZEC](https://bounties.zechub.wiki/).
+Програма винагород ZecHub — це оплачуваний шлях для цієї роботи: [ZEC Bounties](https://bounties.zechub.wiki/). Як обрати номер ZEC: [політика щодо сум винагород](https://bounties.zechub.wiki/docs/bounty-amounts). Робочий процес для учасників: [Участь у ZecHub](https://zechub.wiki/contribute/contributing-guide).
 
 
 ## Корисні посібники

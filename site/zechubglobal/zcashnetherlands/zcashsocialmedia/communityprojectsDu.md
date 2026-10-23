@@ -1,7 +1,7 @@
 ## Zcash gemeenschapsprojecten
 
 
-[Block Explorer](https://zcashblockexplorer.com)
+[Block Explorer](https://mainnet.zcashexplorer.app)
 
 De Zcash Block Explorer biedt informatie zoals transactiegegevens / blokinformatie / Adressen / Mempool Blocks enz. Maakt het ook mogelijk om de Transaction Payment Disclosure Viewing Key te gebruiken.
 
@@ -52,7 +52,7 @@ Met Zeme Team kunnen videomakers eenvoudig tips ontvangen van iedereen in de com
 ZGo is een Zkassa. Leveranciers en verkopers in staat stellen Zcash te accepteren. Momenteel wordt de app getest om feedback van hoge kwaliteit te krijgen over de bruikbaarheid en functies van ZGo.
 
 
-[Zlink](https://zlink.klik)
+[Zlink](https://web.archive.org/web/20250309010146/https://zlink.click/)
 
 Zlink is de eenvoudigste manier om elke link, tool en informatie te vinden die je nodig hebt over het ecosysteem van Zcash.
 
@@ -68,7 +68,7 @@ ___
 
 Een aftok is een radicaal nieuw soort coöperatieve, bottom-up bedrijfsorganisatie. Het is een manier voor jou en een paar vertrouwde vrienden om samen dingen op te bouwen en betaald te krijgen voor je inspanningen, zonder de hiërarchie of overhead van een traditioneel bedrijf.
 
-[Atomic DEX](https://atomicdex.io/en/)
+[Atomic DEX](https://web.archive.org/web/20250116100519/https://atomicdex.io/en/)
 
 AtomicDEX is een portemonnee met meerdere munten, bridge en DEX in één app. Mobiele/desktopversies beschikbaar.
 
@@ -87,7 +87,7 @@ RenBridge (dienst gesloten)
 Ren Protocol is stopgezet en RenBridge is niet meer beschikbaar.
 
 
-[ZeroBridge](https://bridge.zerodao.com/#/transfer/ETH)
+[ZeroBridge](https://web.archive.org/web/20260122164455/https://bridge.zerodao.com/#/transfer/ETH)
 
 ZeroBridge is een gedecentraliseerde client van het Zero DAO-protocol, waardoor cross-chain asset scripting in een browser met uw bestaande portemonnee mogelijk is. @zerodaoHQ maakt het mogelijk om een ​​nieuw ETH-adres te financieren met Shielded ZEC.
 

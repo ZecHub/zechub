@@ -12,6 +12,7 @@
 * Un **Mode de sécurité** s’active si le registre finalisé a plus de *L* blocs de retard : le PoW continue, mais les activités économiques sont mises en pause jusqu’à résolution du problème.
 * Au fil du temps, les validateurs PoS recevront une part croissante des récompenses, réduisant les gains des mineurs PoW ; le protocole introduit les changements progressivement.
 * Le protocole est développé par Shielded Labs, avec une feuille de route pour intégrer Crosslink 2* dans le client Zebra de Zcash.
+* Crosslink n’est pas actif sur le réseau principal de Zcash. Il fonctionne sur Feature Net de Shielded Labs, un réseau de test auquel tout le monde peut participer. Voir « Où en est Crosslink » ci-dessous.
 
 ## Explication principale
 
@@ -36,7 +37,7 @@ L’approche hybride Proof-of-Stake (PoS) combine le Proof-of-Work (PoW) traditi
 
 Le protocole Crosslink est une conception proposée pour l’étape hybride Proof-of-Work/Proof-of-Stake (PoW/PoS) de Zcash. Il intègre le PoW à un protocole de tolérance aux fautes byzantines (BFT), permettant une finalité assurée tant que le PoW ou le PoS reste sécurisé. La conception vise à renforcer la sécurité et la décentralisation du réseau en intégrant une validation par mise sous séquestre tout en maintenant la participation des mineurs. Une caractéristique clé de la proposition, appelée Crosslink 2, simplifie l’architecture en unifiant les proposeurs BFT et les mineurs. Cette approche rationalisée minimise les changements structurels et permet l’utilisation d’une couche BFT « factice », ce qui facilite le prototypage et le déploiement tout en maintenant des normes de sécurité élevées.
 
-Le plan d’implémentation comprend une feuille de route avec des coûts d’ingénierie estimés pour intégrer Crosslink 2* dans le client Zebra de Zcash. Ce déploiement par phases vise à équilibrer les incitations des parties prenantes, à réduire les perturbations et à s’aligner sur les objectifs de Zcash en matière d’évolutivité, d’utilisabilité et de décentralisation. La confiance croissante dans les solides propriétés de sécurité du protocole consolide encore davantage son potentiel en tant qu’étape clé de l’évolution de Zcash. En répondant aux enjeux d’efficacité énergétique et en améliorant les mécanismes de consensus, Crosslink propose une solution tournée vers l’avenir face à l’évolution des défis de la blockchain. Pour plus de détails, consultez le [dépôt GitHub](https://github.com/ShieldedLabs/crosslink-deployment) et le [forum communautaire de Zcash](https://forum.zcashcommunity.com).
+Le plan d’implémentation comprend une feuille de route avec des coûts d’ingénierie estimés pour intégrer Crosslink 2* dans le client Zebra de Zcash. Ce déploiement par phases vise à équilibrer les incitations des parties prenantes, à réduire les perturbations et à s’aligner sur les objectifs de Zcash en matière d’évolutivité, d’utilisabilité et de décentralisation. La confiance croissante dans les solides propriétés de sécurité du protocole consolide encore davantage son potentiel en tant qu’étape clé de l’évolution de Zcash. En répondant aux enjeux d’efficacité énergétique et en améliorant les mécanismes de consensus, Crosslink propose une solution tournée vers l’avenir face à l’évolution des défis de la blockchain. Pour plus de détails, consultez le [dépôt GitHub](https://github.com/ShieldedLabs/zebra-crosslink) et le [forum communautaire de Zcash](https://forum.zcashcommunity.com).
 
 ### Buts et objectifs de Crosslink
 
@@ -81,7 +82,7 @@ Crosslink intègre un **Mode de sécurité** pour traiter les risques associés 
 
 ### Détails techniques et déploiement
 
-Le protocole Crosslink est activement développé et déployé par Shielded Labs en collaboration avec des partenaires clés de l’écosystème comme Zodl. L’implémentation du protocole comprend :
+Le protocole Crosslink est activement développé et déployé par Shielded Labs en collaboration avec des partenaires clés de l’écosystème tels que ZODL. L’implémentation du protocole comprend :
 
 * La mise en place de mécanismes de staking sécurisés pour les participants PoS.
 * La modification de la structure de récompense afin d’équilibrer les incitations entre mineurs et stakers.
@@ -90,7 +91,20 @@ Le protocole Crosslink est activement développé et déployé par Shielded Labs
 * Logique d’activation : l’introduction de Crosslink nécessite des modifications des règles de consensus de Zcash, notamment la définition du processus de distribution du stake et la mise à jour des règles du protocole réseau pour prendre en charge le consensus hybride.
 * Déploiement par phases : le protocole sera déployé par étapes afin d’assurer la stabilité du réseau et l’adaptation de la communauté. Les phases initiales se concentrent sur l’implémentation technique, suivie de l’intégration de la gouvernance pour la sélection des notaires.
 
-Vous pouvez explorer les détails techniques et suivre sa progression via le [dépôt de déploiement Crosslink sur GitHub](https://github.com/ShieldedLabs/crosslink-deployment).
+Le prototype initial et sa documentation se trouvent dans le [dépôt zebra-crosslink sur GitHub](https://github.com/ShieldedLabs/zebra-crosslink) et dans [Le livre zebra-crosslink](https://shieldedlabs.github.io/zebra-crosslink/). Les travaux en cours sont décrits dans la section suivante.
+
+### Où se situe Crosslink
+
+Crosslink reste une proposition. La FAQ de Shielded Labs [Crosslink FAQ](https://shieldedlabs.net/crosslink-faq/) indique qu’elle « devrait passer par le processus de gouvernance standard de Zcash » avant de pouvoir être activée sur le mainnet.
+
+Ce qui existe aujourd’hui, c’est le **Feature Net** : un réseau de test exploité par Shielded Labs, avec sa propre monnaie de test, cTAZ, où chacun peut miner, faire du staking et exécuter un finaliseur. [Version 14](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v14), publiée le 1er octobre 2026, commence en simple preuve de travail et active progressivement Crosslink : le staking à partir du bloc 20 736, la première liste de finaliseurs établie au bloc 34 560, et la finalité BFT à partir du bloc 36 288 ([source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/librustzcash/zcash_primitives/src/bft.rs#L546-L555)).
+
+Deux éléments de cette page ont évolué depuis sa rédaction :
+
+* **Le rôle appelé notaire ici est appelé finaliseur** dans le logiciel et les notes de version de Shielded Labs. Les stakers délèguent des jetons à un finaliseur, et les finaliseurs ayant la mise la plus importante votent pour finaliser les blocs.
+* **Le code a été déplacé.** Le dépôt zebra-crosslink ci-dessus a été mis à jour pour la dernière fois en avril 2026. Les versions de Feature Net proviennent de [crosslink_monolith](https://github.com/ShieldedLabs/crosslink_monolith/releases), et la conception est documentée dans le livre [Crosslink](https://shieldedlabs.github.io/crosslink_book/).
+
+Pour l’essayer vous-même, suivez le guide [Crosslink Feature Net](/guides/crosslink-feature-net). Pour surveiller le réseau sans rien exécuter, ouvrez l’onglet Crosslink sur [ZecHub Outils](https://zechub.wiki/tools?tool=crosslink).
 
 ## Implications pratiques
 
@@ -121,16 +135,17 @@ Ce mécanisme à double consensus renforce l’engagement de Zcash envers la con
 
 ## Pages liées
 
-- [Nœud complet Zebra](/zcash-tech/zebra-full-node) — le client dans lequel Crosslink 2* devrait être intégré.
-- [Nœuds complets](/zcash-tech/full-nodes) — comment les nœuds valident aujourd’hui les règles de consensus, avant tout changement vers un consensus hybride.
-- [Mises à niveau du réseau](/start-here/network-upgrades) — comment les changements de règles de consensus atteignent le réseau Zcash.
-- [Politique monétaire de Zcash](/start-here/zcash-monetary-policy) — la structure de récompense de bloc que Crosslink redistribuerait.
+- [Crosslink Feature Net](/guides/crosslink-feature-net) — installez l’application de bureau Feature Net, déléguez votre mise à un finalizer et vérifiez votre position.
+- [Zebra Nœud complet](/zcash-tech/zebra-full-node) — l’intégration du client Crosslink 2* est prévue.
+- [Nœuds complets](/zcash-tech/full-nodes) — comment les nœuds valident aujourd’hui les règles de consensus, avant toute modification du consensus hybride.
+- [Mises à niveau du réseau](/start-here/network-upgrades) — comment les modifications des règles de consensus atteignent le réseau Zcash.
+- [Zcash Politique monétaire](/start-here/zcash-monetary-policy) — la structure de récompense de bloc que Crosslink redistribuerait.
 
 ## Ressources supplémentaires
 
-- Points de vue de la communauté : [Forum communautaire de Zcash - discussions sur Crosslink](https://forum.zcashcommunity.com)
-- Mises à jour officielles : [Blog d’Electric Coin Company](https://electriccoin.co)
-- Accent sur la durabilité : [Pourquoi le PoS hybride est important pour Zcash](https://forum.zcashcommunity.com)
+- Discussion communautaire : [Crosslink : Feature Net incentivées, sur le forum communautaire Zcash](https://forum.zcashcommunity.com/t/crosslink-incentivized-feature-net/55210)
+- Mises à jour officielles : [Crosslink sur Shielded Labs](https://shieldedlabs.net/crosslink/) et les publications [Feature Net](https://github.com/ShieldedLabs/crosslink_monolith/releases)
+- Référence de conception : [Le livre Crosslink](https://shieldedlabs.github.io/crosslink_book/)
 
   Référence :
 

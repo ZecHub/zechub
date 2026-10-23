@@ -21,9 +21,9 @@ Ne ènye ame yeye le Zcash me la, zãe [mɔfiame sia](/start-here/new-user-guide
 
 ---
 
-1. Go to [ZecHub ƒe Github ƒe nuŋlɔɖi](https://github.com/ZecHub/zechub)
+1. Go to [ZecHub ƒe GitHub ƒe nuŋlɔɖi](https://github.com/ZecHub/zechub)
    
-2. Wɔ Github akɔnta yeye alo nàge ɖe eme kple tɔwò
+2. Wɔ GitHub akɔnta yeye alo nàge ɖe eme kple tɔwò
    
 3. Wɔ ɖe mɔfiame sia dzi be nàsrɔ̃ alesi nàwɔ hehe ƒe biabiawo:
 
@@ -33,7 +33,7 @@ Ne ènye ame yeye le Zcash me la, zãe [mɔfiame sia](/start-here/new-user-guide
     src="https://www.youtube.com/embed/8eYDTyV39a4"
     title="How to Contribute to ZecHub!"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    ɖe mɔ ɖeFullScreen ŋu
+    allowFullScreen
     loading="lazy"
   />
 </div>
@@ -51,15 +51,15 @@ Le didi be woalé ZecHub ƒe dzedzeme ɖeka me ɖe asi ta la, nɔnɔmetata aɖe 
 3. No inappropriate content.
 ```
 
-Nudzɔdzɔwo: [afi sia](https://explorer.zec.rocks/ua/u17sawf3pdh7z6tsy83vhjd2z7sztpy9y87wyyqz4vqshn3yhch28q3ud3lr0etadl3flz4c9zdrtn9lwlf23vzmjnll97efxzg9h0rjzn9qvhvqr8p3394ysnfhg560xxxc66yxzh8r548myxn3l2qrc9pfrt8nrzhxvlpuuykv7czjsm)
+Nudzɔdzɔwo: [afi sia](https://mainnet.zcashexplorer.app/ua/u17sawf3pdh7z6tsy83vhjd2z7sztpy9y87wyyqz4vqshn3yhch28q3ud3lr0etadl3flz4c9zdrtn9lwlf23vzmjnll97efxzg9h0rjzn9qvhvqr8p3394ysnfhg560xxxc66yxzh8r548myxn3l2qrc9pfrt8nrzhxvlpuuykv7czjsm)
 
-<a href="https://explorer.zec.rocks/ua/u17sawf3pdh7z6tsy83vhjd2z7sztpy9y87wyyqz4vqshn3yhch28q3ud3lr0etadl3flz4c9zdrtn9lwlf23vzmjnll97efxzg9h0rjzn9qvhvqr8p3394ysnfhg560xxxc66yxzh8r548myxn3l2qrc9pfrt8nrzhxvlpuuykv7czjsm">
+<a href="https://mainnet.zcashexplorer.app/ua/u17sawf3pdh7z6tsy83vhjd2z7sztpy9y87wyyqz4vqshn3yhch28q3ud3lr0etadl3flz4c9zdrtn9lwlf23vzmjnll97efxzg9h0rjzn9qvhvqr8p3394ysnfhg560xxxc66yxzh8r548myxn3l2qrc9pfrt8nrzhxvlpuuykv7czjsm">
     <img src="/content-images/image-2023-11-18-141228046-644b4c542d.webp" alt="" width="200" height="200"/>
 </a>
 
 
 
-**AGBALẼŊLƆÐI: ZecHub nye ɖoɖo si le eɖokui si keŋkeŋ eye wòʋu ɖi si Zcash nutoa me tɔwo ɖo. Mele be woabu naneke si le Github ƒe nudzraɖoƒe sia be enye ganyawo alo gadodo ƒe aɖaŋuɖoɖo o - nyatakakawo ɖeɖeko tae.**
+**AGBALẼŊLƆÐI: ZecHub nye ɖoɖo si le eɖokui si keŋkeŋ eye wòʋu ɖi si Zcash nutoa me tɔwo ɖo. Mele be woabu naneke si le GitHub ƒe nudzraɖoƒe sia be enye ganyawo alo gadodo ƒe aɖaŋuɖoɖo o - nyatakakawo ɖeɖeko tae.**
 
 ---
 

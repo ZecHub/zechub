@@ -1,5 +1,5 @@
 # Obscura Labs
-<img width="369" height="434" alt="obscuralabs" src="https://github.com/user-attachments/assets/5fda3e74-750c-487e-92e9-3cacc15f9b4b" />
+<img width="369" height="434" alt="obscuralabs" src="/content-images/5fda3e74-750c-487e-92e9-3cacc15f9b4b-b41e98d3e5.webp" />
 
 [वेबसाइट देखें](https://www.obscuralabs.org/)
 
@@ -51,7 +51,7 @@ Obscura Labs नेटवर्क की पहुंच, भौगोलिक
 * Public Zcash mainnet RPC endpoints.
 * Public Zcash testnet RPC endpoints.
 * Zebra full नोड.
-* Lightwalletd सेवाएं।
+* lightwalletd सेवाएं।
 * DNS seeders.
 * Public infrastructure monitoring.
 * Developer-focused APIs.
@@ -128,11 +128,11 @@ DNS seeders नए Zcash नोड को network से जुड़ते स�
 
 Zebra, Zcash consensus protocol का एक स्वतंत्र implementation है। Zebra इन्फ्रास्ट्रक्चर का संचालन network accessibility, implementation diversity, और Zcash नोड के भौगोलिक वितरण में योगदान देता है।
 
-### Lightwalletd Services
+### lightwalletd Services
 
-Obscura Labs, Zcash wallet connectivity का समर्थन करने के लिए Lightwalletd infrastructure का संचालन करता है।
+Obscura Labs, Zcash wallet connectivity का समर्थन करने के लिए lightwalletd infrastructure का संचालन करता है।
 
-Lightwalletd, light-client wallets को blockchain data उपलब्ध कराता है, बिना इस आवश्यकता के कि हर wallet उपयोगकर्ता को एक पूर्ण Zcash नोड चलाना पड़े। इसलिए विश्वसनीय Lightwalletd सेवाएं mobile wallets और अन्य lightweight Zcash applications के लिए महत्वपूर्ण हैं।
+lightwalletd, light-client wallets को blockchain data उपलब्ध कराता है, बिना इस आवश्यकता के कि हर wallet उपयोगकर्ता को एक पूर्ण Zcash नोड चलाना पड़े। इसलिए विश्वसनीय lightwalletd सेवाएं mobile wallets और अन्य lightweight Zcash applications के लिए महत्वपूर्ण हैं।
 
 ### Infrastructure Monitoring
 

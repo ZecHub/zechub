@@ -9,11 +9,11 @@ Zcash jẹ Proof-of-Work cryptocurrency. Gbogbo ìdìpò mined pín rẹ ** bloc
 - **Àpẹẹrẹ tó wà nísinsìnyí (lẹ́yìn NU6 / Kọkànlá Oṣù 2024 lọ)** 
   Lati Oṣu Kẹrin ọdun 2026 pinpin naa jẹ:
 
-☐ Ẹni tó ń gba owó náà ☐ Ìpíndójú iye tí wọ́n fi ṣe é / ipò rẹ̀
+| Olùgbà                      | Ogorun | Ohun ti o ṣe inawo / ipo                                      |
 |--------------------------------|------------|-------------------------------------------------------------|
-Àwọn tó ń wa nǹkan ní ìsàlẹ̀. 80% àwọn tí wọ́n bá ti pawọ́ tì ni yóò gba èrè náà.
-Zcash Community Grants (ZCG) 8% Awọn ẹbun agbegbe (tesiwaju titi di ~2028)
-Lockbox (ìlànà tí a ń darí) 12% Owó tó wà nílẹ̀ ti kó jọ; kò sí ètò ìnáwó kankan, wọ́n nílò àbò àwọn aráàlú lọ́jọ́ iwájú.
+| Àwọn awakùsà                         | 80%        | Ẹ̀bùn tààrà fún àwọn awakùsà                               |
+| Àwọn Ìrànlọ́wọ́ Àwùjọ Zcash (ZCG)   | 8%         | Àwọn owó ìrànlọ́wọ́ fún àwùjọ (tí ó ń bá a lọ títí di ~ 2028)                  |
+| Àpótí ìpamọ́ (tí ìlànà ìṣàkóso rẹ̀)  | 12%        | Owó kó jọ; kò sí ètò ìnáwó kankan síbẹ̀; ìdìbò àwùjọ ọjọ́ iwájú nílò |
 
 - **Iṣura iṣaaju-NU6 ti itan (2020 -Nov 2024)** 
   20% ti gbogbo owó-ìtìlẹyìn lọ tààrà sí àwọn àjọ ìdàgbàsókè:
@@ -117,11 +117,11 @@ ZIP 1016 (ti a dabaa ni Kínní 2025, ipo: Ti a dabaru) ṣafihan awoṣe inawo 
 
 ## 4. Àtẹ Ìsọfúnni Rápọ - Bí Owó Tó Ń Wá Ṣe Ń Yí Padà
 
- àkókò: àwọn tó ń wa nǹkan ní ìsàlẹ̀, ECC/Bootstrap ZF ZCG Lockbox Notes.
+| Àkókò           | Àwọn awakùsà | ECC/Bootstrap | ZF   | ZCG  | Àpótí Títìpa | Àwọn Àkíyèsí                                      |
 |------------------|--------|---------------|------|------|---------|--------------------------------------------|
-| 2020 - Nov 2024  | 80%    | 7%            | 5%   | 8%   | -       | Classic dev fund                           |
- November 2024 - ní báyìí 80% 0% 0% 8% 12% NU6 àwòṣe + ìmúgbòòrò ZCG.
- Proposed (ZIP 1016) 80% 0% 0% 8% 12% (Coinholder-Controlled) Titi di idaji kẹta; oludari owo n dìbò.
+| 2020 - Oṣù kọkànlá 2024  | 80%    | 7%            | 5%   | 8%   | -       | Owó ìdàgbàsókè àtijọ́                           |
+| Oṣù kọkànlá ọdún 2024 - nísinsìnyí   | 80%    | 0%            | 0%   | 8%   | 12%     | Àwòṣe NU6 + ìfàgùn ZCG                  |
+| A gbé kalẹ̀ (ZIP 1016) | 80% | 0%         | 0%   | 8%   | 12% (Ẹni tí ó ní èrè owó) | Títí di ìdajì kẹta; àwọn tó ni owó dúkìá dìbò |
 
 ## 5. Àwọn Ohun Ìní Tó Wà Níbàámu Pẹ̀lú Iṣẹ́ Náà
 

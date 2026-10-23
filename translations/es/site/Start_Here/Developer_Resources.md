@@ -100,7 +100,7 @@ Los resultados de hackatones recientes ofrecen una buena imagen de lo que la gen
 
 Se conservan porque artículos antiguos enlazan a ellos y porque siguen siendo la referencia sobre cómo se comportaba el nodo retirado. No empieces aquí.
 
-[El libro de Zcashd](https://zcash.github.io/zcash/) y la [referencia RPC de zcashd](https://zcash.github.io/rpc/) documentan software que llegó al [final de su vida útil](https://zcash.github.io/zcash/user/end-of-life.html) en julio de 2026. El repositorio [zcash/zcash](https://github.com/zcash/zcash) está archivado.
+[El libro de zcashd](https://zcash.github.io/zcash/) y la [referencia RPC de zcashd](https://zcash.github.io/rpc/) documentan software que llegó al [final de su vida útil](https://zcash.github.io/zcash/user/end-of-life.html) en julio de 2026. El repositorio [zcash/zcash](https://github.com/zcash/zcash) está archivado.
 
 Si tienes un recurso que añadir, o detectas algo aquí que ha quedado desactualizado, abre un issue o un pull request. Los equipos no siempre tienen capacidad para mantener todo actualizado, y señalar lo que encontraste ayuda a orientar las guías.
 

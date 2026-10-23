@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Maua ya maua
+# Blossom
 
 > Blossom alienda kuishi kwenye Zcash mainnet katika block 653,600 (Desemba 11, 2019 UTC).
 
@@ -21,13 +21,13 @@ Mambo mawili yanafuata:
 1. Vitalu kufika kuhusu mara mbili kama kawaida, hivyo mlolongo inaweza kubeba takriban mara mbili ya shughuli kwa kitengo cha muda.
 2. shughuli yako anapata uthibitisho wake wa kwanza mapema, kwa sababu huna kusubiri muda mrefu kwa ajili ya kuzuia ijayo.
 
-![Before Blossom the block target was 150 seconds with slower confirmations and lower throughput. After Blossom the target is 75 seconds with faster confirmations and roughly double the throughput](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/blossom-block-spacing.png)
+![Before Blossom the block target was 150 seconds with slower confirmations and lower throughput. After Blossom the target is 75 seconds with faster confirmations and roughly double the throughput](/content-images/blossom-block-spacing-50b6bfbacc.webp)
 
 ## Kuweka utoaji imara
 
 Kwa hivyo, ikiwa Zcash ilifanya vitalu mara mbili na kila block bado inalipa thawabu sawa, mtandao ungeunda ZEC haraka zaidi. Blossom anaepuka hiyo. Ilipunguza nusu ya tuzo iliyolipiwa kwa kila kizuizi, na ikaongeza maradufu muda wa kupunguzwa-mshahara kutoka 840,000 hadi 1,680,000 blocks (kwa mfano wakati ambapo mtu alipewa zawadi kubwa sana).[ZIP 208 - Ujumbe wa posta.](https://zips.z.cash/zip-0208)Mara mbili kama vitalu, kila kulipa nusu ya kiasi hicho, kazi nje kwa idadi sawa ya ZEC kuundwa kwa kitengo cha muda. jumla ugavi ratiba na wakati wa halving baadaye, kipimo katika muda halisi, si iliyopita.
 
-![How Blossom keeps issuance steady: 75 second blocks arrive twice as often, the per-block reward is halved, the halving interval is doubled, so total emission over time stays the same](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/blossom-emission-balance.png)
+![How Blossom keeps issuance steady: 75 second blocks arrive twice as often, the per-block reward is halved, the halving interval is doubled, so total emission over time stays the same](/content-images/blossom-emission-balance-f2443e29ab.webp)
 
 ## A lazima kuboresha
 
@@ -39,14 +39,14 @@ Blossom was Zcash's third network upgrade. It followed Overwinter and Sapling, a
 
 ## Orodha ya maneno
 
-Neno la Kiingereza lisilo na maana.
+| Muhula | Maana ya Kiingereza cha kawaida |
 |---|---|
---Block lengo spacing-- muda mtandao inalenga kwa kati ya block moja na ijayo.
- Block malipo. ZEC mpya kuundwa na kulipwa nje kama kila block ni kuchimbwa.
-Kupunguza kwa nusu muda wa mapumziko. Ni vipande vingapi vinavyopita kati ya kila kupunguzwa kwa malipo ya kipengele cha pili?
-◯ Id ya tawi la makubaliano. Tag ambayo alama ni seti gani ya mtandao sheria node au shughuli inafuata.
-◯ Mabadiliko ya makubaliano baina ya pande mbili. Badiliko la sheria ambayo kila node lazima ipitishe ili kubaki kwenye mtandao.
- Network Upgrade (NU)  mabadiliko uratibu kwa Zcash ya makubaliano sheria, ulioamilishwa katika block kuweka urefu.
+| Block target spacing | Muda ambao mtandao unalenga kati ya kizuizi kimoja na kingine |
+| Block reward | ZEC mpya iliundwa na kulipwa kadri kila kitalu kinavyochimbwa |
+| Halving interval | Ni vitalu vingapi vinavyopita kati ya kila nusu ya zawadi ya vitalu |
+| Consensus branch id | Lebo inayoashiria ni seti gani ya sheria za mtandao ambazo nodi au muamala unafuata |
+| Bilateral consensus change | Mabadiliko ya sheria ambayo kila nodi lazima ipitishe ili kubaki kwenye mtandao |
+| Network upgrade (NU) | Mabadiliko yaliyoratibiwa kwa sheria za makubaliano Zcash's, yaliyoamilishwa kwa urefu wa block uliowekwa |
 
 ## FAQs
 
@@ -96,4 +96,4 @@ Kwa sababu Blossom pia nusu tuzo kulipwa kwa block na mara mbili ya kupunguza mu
 
 ---
 
-Mfululizo: [Kiwango cha Upgrades Network](../start-here/network-upgrades) · Zamani: [Sapling](../zcash-tech/sapling) · Kisha: [Miti ya moyo](../zcash-tech/heartwood)
+Mfululizo: [Kiwango cha Upgrades Network](../start-here/network-upgrades) · Zamani: [Sapling](../zcash-tech/sapling) · Kisha: [Heartwood](../zcash-tech/heartwood)

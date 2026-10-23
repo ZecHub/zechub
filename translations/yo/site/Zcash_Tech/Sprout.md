@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Èso ẹ̀ka igi
+# Sprout
 
 > Zcash ti ṣe ifilọlẹ ni Oṣu Kẹwa Ọjọ 28, Ọdun 2016, pẹlu adagun-odo Sprout.
 
@@ -16,30 +16,30 @@ Why this matters. Every public blockchain before Sprout put your payments on dis
 
 Sprout dá oríṣi adirẹsi méjì. àwọn àdírẹ́sì tí ó ṣe kedere (t-addresses) ṣiṣẹ bí Bitcoin, pẹ̀lú ìsọfúnni tó hàn nínú ìwé àkọsílẹ̀ gbogbo ènìyàn. àwọn ìdáríjì àdíréìsì (z-adddresses) rán owó sínú Sprout [adágún tí a fi ọ̀pá ìdáàbòbò ṣe](../using-zcash/shielded-pools), nibi ti oluranlowo, olugba, ati iye naa wa ni pamọ. Ẹtan jẹ [àwọn zk-SNARKs](../zcash-tech/zk-snarks), èrí ìmọ-nǹkan tí ó jẹ́ kí ìsòwò kan fi hàn pé o léwu, láìsí owó méjì àti àlàfo tó ń pọ̀ sí i láìfi èyíkéyìí nínú àwọn kúlẹ̀kúlẹ̀ náà han. Sprout ni ìgbà àkọ́kọ́ tí èyí máa ṣiṣẹ nídìí iṣẹ́ lórí ẹyọ owó onídìgbòlù gidi.
 
-![Transparent transactions expose sender, receiver, and amount, while Sprout shielded transactions hide all three yet stay verifiable](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/sprout-shielded-vs-transparent.png)
+![Transparent transactions expose sender, receiver, and amount, while Sprout shielded transactions hide all three yet stay verifiable](/content-images/sprout-shielded-vs-transparent-61d3b1980c.webp)
 
 ## Àjọṣe Ìgbéyàwó Náà
 
 The zk-SNARKs in Sprout needed a set of public parameters, and generating them safely required a one-time setup called the Ceremony. Six participants in separate, distant locations each generated a secret piece, called toxic waste. If anyone ever reassembled all the pieces, they could forge ZEC out of nothing. The design turned that risk into a simple rule: as long as at least one participant destroyed their piece, the full secret could never be rebuilt, so counterfeiting stayed impossible. The participants who have been named publicly include Zooko Wilcox, Andrew Miller, Peter Van Valkenburgh, Peter Todd, and Derek Hinch of NCC Group. One participant chose to stay anonymous.
 
-![The Ceremony: six participants generate private shards, then destroy the toxic waste, leaving only the public Sprout parameters](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/sprout-ceremony-flow.png)
+![The Ceremony: six participants generate private shards, then destroy the toxic waste, leaving only the public Sprout parameters](/content-images/sprout-ceremony-flow-ae16f6282a.webp)
 
 ## Orílẹ̀-èdè tí wọ́n ti wá ni.
 
 Sprout is the baseline that every later change builds on. When the network-upgrade mechanism arrived with Overwinter, it labeled the original rules as consensus branch id 0, which simply means no upgrade has been applied yet. Everything since then (Overwinter, Sapling, Blossom, Heartwood, Canopy, NU5, NU6, and onward) sits on the chain Sprout started. The launch was announced in August 2016 for an October 28 genesis, the Ceremony ran in the weeks before, and the genesis block's hardcoded timestamp reads October 28, 2016, at 07:56 UTC.
 
-![Timeline from the August 2016 announcement through the parameter Ceremony to the October 28, 2016 Sprout launch](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/sprout-timeline.png)
+![Timeline from the August 2016 announcement through the parameter Ceremony to the October 28, 2016 Sprout launch](/content-images/sprout-timeline-348766352a.webp)
 
 ## Àkójọ àwọn ọ̀rọ̀
 
-Ọ̀rọ̀-ìtumọ̀ èdè Gẹ̀ẹ́sì tó rọrùn.
+| Àkókò ìgba | Ìtumọ̀ Gẹ̀ẹ́sì lásán |
 |---|---|
-zk-SNARK Àrídájú tí kò ní ìmọ̀ tó fi hàn pé ìnáwó kan jẹ́ ojúlówó láìfi ẹni tó rán an, olùgbà á tàbí iye owó náà han.
-| Shielded pool | The private side of Zcash where amounts and parties are hidden. The Sprout pool was the first one |
- z-address and t-addresse. Awon adirẹsi z ni won maa n fi pamọ ki o si ma se jẹki alaye naa di ikọkọ, a ko le ri i ninu iwe iroyin ti gbogbo eniyan mọ nipa rẹ ati pe wọn yoo fihan ọ awọn nkan to wa lori akọọlẹ gbangba.
-Ìpínlẹ̀ náà ìtòlé́sẹẹsẹ ọ̀pọ̀lọpọ̀ ẹgbẹ́ ọdún 2016 tí ó mú àwọn ìlànà fún gbogbo ènìyàn jáde àti léyìn èyí tó pàdánù ègbé olóró.
-Àwọn ohun ìkọ̀ǹbá olóró. Àmì àṣírí láti ibi ayẹyẹ náà tí a pa run kí ZEC má bàa díbọ́n.
-☐ Ètò ìfọwọ́sowọ̀pọ̀ ẹka id 0. Ojú-ìwòye fún àwọn ìlànà Sprout, tó túmọ̀ sí àlàfo kí ó to ṣe ìtúnṣe nẹtiwẹẹbù èyíkéyìí.
+| zk-SNARK | Ẹ̀rí àìmọ̀ tí ó fi hàn pé ìṣòwò kan wúlò láìsí fífi olùránṣẹ́, olùgbà, tàbí iye tí ó fi hàn |
+| Shielded pool | Apá ìkọ̀kọ̀ ti Zcash níbi tí a ti fi owó àti àwọn ayẹyẹ pamọ́ sí. Adágún Sprout ni àkọ́kọ́ |
+| z-address and t-address | Àdírẹ́sì z ni a fi ààbò bo, àwọn àkọsílẹ̀ náà sì jẹ́ àṣírí. Àdírẹ́sì t náà ṣe kedere, ó sì fi àwọn àlàyé hàn lórí ledger gbogbogbòò |
+| The Ceremony | Ètò ẹgbẹ́ olókìkí ti ọdún 2016 tí ó mú àwọn ìlànà gbogbogbòò Sprout's jáde, lẹ́yìn náà ó kó àwọn ìdọ̀tí olóró náà kúrò |
+| Toxic waste | Àwọn kókó pàtàkì láti inú ayẹyẹ náà tí a ní láti parun kí a má baà lè ṣe àgbélébùú ZEC |
+| Consensus branch id 0 | Àmì fún àwọn òfin Sprout's, tí ó túmọ̀ sí ìpìlẹ̀ ṣáájú àtúnṣe nẹ́tíwọ́ọ̀kì èyíkéyìí |
 
 ## Àwọn ìbéèrè tí a sábà máa ń béèrè
 
@@ -49,7 +49,7 @@ Why is there no ZIP number for Sprout? The ZIP process began later, with the Ove
 
 ṣé ó yẹ kí n gbẹ́kẹ̀lé àwọn mẹ́fà tó wà nínú ayẹyẹ náà? a ṣe ètò yìí láti jẹ́ pé ẹnìkan ṣoṣo ló máa sọ òtítọ́. olúkúlùkù wọn ní ohun ìkọ̀kọ̀ kan, tí ẹni kan bá sì pa èyí tiwọn run, kò sí bí wọ́n á ṣe tún gbogbo àṣírí yẹn kọ àti ẹnikẹ́ni ò lè fi ZEC ṣẹ́gun. márùn-ún lára àwọn olùkópa ni orúkọ wọn fara hàn fún gbogbo ènìyàn nígbà tí ọ̀kan kì í dárúkọ rẹ̀ rárá.
 
-ṣé ọ̀dọ́mọdé òde òní ni wọ́n ń lo ẹrù ìnáwó tí ó ní ààbò? bóyá bẹ́ẹ̀ kọ́. ọmọdékùnrin náà ló kọ́kọ́ ṣe é, àmọ́ àwọn ohun tuntun tó wá jáde lẹ́yìn ìgbà yẹn bíi Sapling mú kí ètò ìṣójútó rẹ̀ tètè máa ṣiṣẹ́ dáadáa sí i, èyí sì jẹ́ káwọn èèyàn mọ bí wọn á ṣe lè fi owó pamọ́ fún ara wọn lónìí. ọmọ-ọdọ ṣì wúlò gan-an torí pé iṣẹ́ yìí ti fìdí rẹ̀ múlẹ̀ pé àwọn oníṣòwò kò le ṣàyèwo nǹkan kan lórí nẹ́tàkì alágbèérìn.
+Ṣé adágún Sprout ni àpò owó mi ń lò báyìí? Ó ṣeé ṣe kí ó máà rí bẹ́ẹ̀. Sprout ni adágún owó àkọ́kọ́ tí a fi ààbò pamọ́, ṣùgbọ́n àwọn àtúnṣe tó tẹ̀lé e bíi Sapling ṣe àgbékalẹ̀ àwòrán tí ó yára kánkán, àti pé ọ̀pọ̀lọpọ̀ àwọn adágún owó ló ń lo àwọn adágún tuntun lónìí. Sprout ṣì ṣe pàtàkì nítorí iṣẹ́ tí ó fi hàn pé àwọn ìṣòwò àdáni, tí a lè fìdí rẹ̀ múlẹ̀ lè ṣiṣẹ́ lórí nẹ́tíwọ́ọ̀kì aláàyè.
 
 What made Sprout different from Bitcoin? Bitcoin puts every payment on a public ledger where amounts and addresses are visible. Sprout added shielded transactions that hide the sender, receiver, and amount while still letting the network confirm the transaction is valid. It kept transparent addresses too, so both styles live on the same chain.
 
@@ -77,7 +77,7 @@ Sprout ni ipilẹṣẹ akọkọ ti Zcash, kii ṣe igbesoke nigbamii. O ti n �
 
 [Àwọn Erékùṣù Tó Ń Wà Níbi Ààbò](../using-zcash/shielded-pools)
 
-[àwọn ohun èlò tí wọ́n ń pè ní zk-SNARKS](../zcash-tech/zk-snarks)
+[àwọn ohun èlò tí wọ́n ń pè ní zk-SNARKs](../zcash-tech/zk-snarks)
 
 [Àwọn Àtúnṣe sí Ìpínlẹ̀ Zcash](../start-here/network-upgrades)
 
@@ -87,4 +87,4 @@ Sprout ni ipilẹṣẹ akọkọ ti Zcash, kii ṣe igbesoke nigbamii. O ti n �
 
 ---
 
-Àtòjọ: [Atọka Awọn igbesoke Nẹtiwọki](../start-here/network-upgrades) · Àtúnṣe: [Ìgbà òtútù](../zcash-tech/overwinter)
+Àtòjọ: [Atọka Awọn igbesoke Nẹtiwọki](../start-here/network-upgrades) · Àtúnṣe: [Overwinter](../zcash-tech/overwinter)

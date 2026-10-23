@@ -21,9 +21,9 @@ Ti o ba ti wa ni titun si Zcash, lo [yi guide](/start-here/new-user-guide).****
 
 ---
 
-1. Lọ sí [ìpamọ́ Github ti ZecHub](https://github.com/ZecHub/zechub)
+1. Lọ sí [ìpamọ́ GitHub ti ZecHub](https://github.com/ZecHub/zechub)
    
-2. Ṣẹ̀dá àkọọ́lẹ̀ Github tuntun tàbí wọlé pẹlú tìrẹ fúnra rẹ.
+2. Ṣẹ̀dá àkọọ́lẹ̀ GitHub tuntun tàbí wọlé pẹlú tìrẹ fúnra rẹ.
    
 3. Tẹle itọsọna yii lati kọ bi o ṣe le mu ibeere:
 
@@ -33,7 +33,7 @@ Ti o ba ti wa ni titun si Zcash, lo [yi guide](/start-here/new-user-guide).****
     src="https://www.youtube.com/embed/8eYDTyV39a4"
     title="How to Contribute to ZecHub!"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    gba Àwòrán-ìwòyí ní kíkún (FullScreen)
+    allowFullScreen
     loading="lazy"
   />
 </div>
@@ -51,15 +51,15 @@ Láti lè mú kí ojúewé ZecHub máa rí bákan náà, àwòkọ́ṣe kan wà
 3. No inappropriate content.
 ```
 
-Àwọn ọrẹ: [bí yìí](https://explorer.zec.rocks/ua/u17sawf3pdh7z6tsy83vhjd2z7sztpy9y87wyyqz4vqshn3yhch28q3ud3lr0etadl3flz4c9zdrtn9lwlf23vzmjnll97efxzg9h0rjzn9qvhvqr8p3394ysnfhg560xxxc66yxzh8r548myxn3l2qrc9pfrt8nrzhxvlpuuykv7czjsm)
+Àwọn ọrẹ: [bí yìí](https://mainnet.zcashexplorer.app/ua/u17sawf3pdh7z6tsy83vhjd2z7sztpy9y87wyyqz4vqshn3yhch28q3ud3lr0etadl3flz4c9zdrtn9lwlf23vzmjnll97efxzg9h0rjzn9qvhvqr8p3394ysnfhg560xxxc66yxzh8r548myxn3l2qrc9pfrt8nrzhxvlpuuykv7czjsm)
 
-<a href="https://explorer.zec.rocks/ua/u17sawf3pdh7z6tsy83vhjd2z7sztpy9y87wyyqz4vqshn3yhch28q3ud3lr0etadl3flz4c9zdrtn9lwlf23vzmjnll97efxzg9h0rjzn9qvhvqr8p3394ysnfhg560xxxc66yxzh8r548myxn3l2qrc9pfrt8nrzhxvlpuuykv7czjsm">
+<a href="https://mainnet.zcashexplorer.app/ua/u17sawf3pdh7z6tsy83vhjd2z7sztpy9y87wyyqz4vqshn3yhch28q3ud3lr0etadl3flz4c9zdrtn9lwlf23vzmjnll97efxzg9h0rjzn9qvhvqr8p3394ysnfhg560xxxc66yxzh8r548myxn3l2qrc9pfrt8nrzhxvlpuuykv7czjsm">
     <img src="/content-images/image-2023-11-18-141228046-644b4c542d.webp" alt="" width="200" height="200"/>
 </a>
 
 
 
-**IYẸRỌ: ZecHub jẹ ipilẹṣẹ ti o ni ominira ati orisun ṣiṣi silẹ nipasẹ awọn ọmọ ẹgbẹ agbegbe Zcash. Ko si nkankan ninu ibi ipamọ Github yii yẹ ki a ṣe akiyesi imọran owo tabi idoko-owo - o wa fun idi alaye nikan.**
+**IYẸRỌ: ZecHub jẹ ipilẹṣẹ ti o ni ominira ati orisun ṣiṣi silẹ nipasẹ awọn ọmọ ẹgbẹ agbegbe Zcash. Ko si nkankan ninu ibi ipamọ GitHub yii yẹ ki a ṣe akiyesi imọran owo tabi idoko-owo - o wa fun idi alaye nikan.**
 
 ---
 

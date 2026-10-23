@@ -134,7 +134,7 @@ Never post these in public chat, social media, or an issue tracker:
 
 - Seed phrase or recovery phrase
 - Spending key, private key, or wallet backup
-- Full viewing key
+- Full Viewing Key
 - Screenshots showing balances, full addresses, memos, QR codes, or exchange account details
 - Personal identity documents or account recovery records
 
@@ -167,7 +167,7 @@ Support teams do not need your seed phrase, spending key, private key, or full v
 
 ## Note
 
-Please note that the safest way to use ZEC is using shielded transactions whenever the sender, recipient, wallet, and service all support them. Some wallets and exchanges support [unified addresses](https://electriccoin.co/blog/unified-addresses-in-zcash-explained/#:~:text=The%20unified%20address%20(UA)%20is,within%20the%20broader%20Zcash%20ecosystem.), which can combine multiple Zcash receiver types into one address.
+Please note that the safest way to use ZEC is using shielded transactions whenever the sender, recipient, wallet, and service all support them. Some wallets and exchanges support [unified addresses](https://web.archive.org/web/20260823012524/https://electriccoin.co/blog/unified-addresses-in-zcash-explained/#:~:text=The%20unified%20address%20(UA)%20is,within%20the%20broader%20Zcash%20ecosystem.), which can combine multiple Zcash receiver types into one address.
 
 ## Resources
 
@@ -178,6 +178,7 @@ Please note that the safest way to use ZEC is using shielded transactions whenev
 ## Related Pages
 
 - [Wallets](/using-zcash/wallets) - which wallets support shielded sending, and which are transparent only
+- [Payment disclosures](/zcash-tech/payment-disclosures) - how a sender can prove selected details of one shielded payment
 - [Shielded Pools](/using-zcash/shielded-pools) - Sapling and Orchard, the pools your shielded funds live in
 - [Memos](/using-zcash/memos) - encrypted messages that can travel with a shielded transaction
 - [Transparent Exchange Addresses](/using-zcash/transparent-exchange-addresses) - TEX addresses and why exchanges use them

@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Ìgbà òtútù
+# Overwinter
 
 > Overwinter lọ laaye lori Zcash mainnet ni bulọọki 347,500 (June 26, 2018 UTC).
 
@@ -12,7 +12,7 @@ Overwinter jẹ Zcash kan. [àtúnṣe síra ẹ̀rọ](../start-here/network-up
 
 ìdí tí èyí fi ṣe pàtàkì. yípadà àwọn ìlànà ti ẹ̀rọ alágbèéká jẹ́ ewu. bí ó bá ṣàṣìṣe, àdàkọ méjì nínú nẹtiwọọki lè máà gbà pé òótọ́ ni tàbí kí ìsòwò kan tó wà fún ẹ̀ka-ìpínlẹ̀ mìíràn di ohun èlò míì. ṣáájú Overwinter, Zcash kò ní ọ̀nà pàtó kankan láti ṣètò ètò ìṣúnná owó náà lọ́nà tí yóò sì ṣeé tún lò padà. overwinter yanjú ìṣòro yìí. ó pèsè ìgbésẹ̀ òfin fún títúbòo sípò àti dídáàbòbo ìtúsíwájú méjèèjì, nítorí náà àdéhùn tí ó tọ lábẹ́ oríṣi ìlànà kan kò le wáyé lábẹ́ òmíràn. iṣẹ́ ìpìlè yẹn ló mú kó ṣeé ṣe fún Sapling àti gbogbo ìdásílọ́po lẹ́yìn rẹ̀ láti ṣiṣẹ́ láìléwu.
 
-![Before and after Overwinter: before, no standard upgrade path and no replay protection. After, a network upgrade mechanism with two-way replay protection and safe future upgrades](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/overwinter-before-after.png)
+![Before and after Overwinter: before, no standard upgrade path and no replay protection. After, a network upgrade mechanism with two-way replay protection and safe future upgrades](/content-images/overwinter-before-after-acf4f5d283.webp)
 
 ## Ọna ìmúbọ̀sípò náà
 
@@ -28,7 +28,7 @@ Overwinter fúnra rẹ̀ ti ṣiṣẹ́ lórí ìkànnì orí rédíò ní ẹy
 
 Eleyi ṣiṣẹ ọwọ ni apa pẹlu awọn titun version 3 idunadura kika lati [ZIP 202 (ìyẹn àwọn tó ń gbé ibẹ̀)](https://zips.z.cash/zip-0202), nigbakan ti a npe ni ọna kika Overwintered. O ṣafikun asia fOverwintered ati id ẹgbẹ ẹya kan eyiti o ṣe kedere eyi ti ṣeto awọn ofin ifọkanbalẹ iṣowo jẹ tirẹ. Gẹgẹbi anfani apa, eto ibuwọlu tuntun tun mu ilọsiwaju bi yarayara awọn iṣiro ṣiṣanṣe le di mimọ.
 
-![How replay protection works: a wallet signs a transaction that commits to the current consensus branch id, so the transaction cannot be replayed on any other branch](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/overwinter-replay-flow.png)
+![How replay protection works: a wallet signs a transaction that commits to the current consensus branch id, so the transaction cannot be replayed on any other branch](/content-images/overwinter-replay-flow-754ec8578a.webp)
 
 ## Ìmúṣẹ ìsòwò náà
 
@@ -38,22 +38,22 @@ Eleyi ṣiṣẹ ọwọ ni apa pẹlu awọn titun version 3 idunadura kika lat
 
 Overwinter was the first Zcash network upgrade after the October 2016 mainnet launch, and it shipped deliberately ahead of Sapling. Its job was infrastructure, not features. By installing the upgrade mechanism and the replay-protection machinery first, it gave every later upgrade (Sapling, Blossom, Heartwood, Canopy, NU5, and the ones after) a safe path to activate.
 
-![Timeline from the October 2016 Sprout launch, through the 2016 to 2018 stretch with no upgrade framework, to Overwinter in June 2018](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/overwinter-timeline.png)
+![Timeline from the October 2016 Sprout launch, through the 2016 to 2018 stretch with no upgrade framework, to Overwinter in June 2018](/content-images/overwinter-timeline-689d9bcf20.webp)
 
 ## Àkójọ àwọn ọ̀rọ̀
 
-Ọ̀rọ̀-ìtumọ̀ èdè Gẹ̀ẹ́sì tó rọrùn.
+| Àkókò ìgba | Ìtumọ̀ Gẹ̀ẹ́sì lásán |
 |---|---|
- Network upgrade (NU)  Aṣayan iyipada ti a ṣepọ si awọn ofin ifọkanbalẹ Zcash, ti o ṣiṣẹ ni giga bulọọki ṣeto.
-☐ Idì ẹ̀ka ìfohùnṣòwò. Aṣàmúlò ṣókí tí ó ńpè àwọn ìlànà ìfọwọ́sowọpọ tó wà nísinsìnyí ni orúkọ rẹ̀.
-ìgùn ìmúṣẹ. Ìdìpọ̀ tí àwọn ìlànà tuntun ti àtúnṣe nẹ́tàkì fi ń bẹ̀rẹ̀ sí ṣiṣẹ́.
-Ààbò láti tún ṣe. Òfin tí ó dáwó ìsòwò tó bá wúlò lórí ẹ̀ka kan dúró kí a má lòó ní òmíràn.
-Mempool: Àkójọ àwọn ìsòwò tí a ti gbé jáde ṣùgbọ́n kò tíì di ohun èlò ìdánilẹ́kọ̀ọ́.
-íṣe ìsúná. Ìsọ̀rí tí ó péjú, lẹ́yìn èyí ni a máa ń yọ àdàkọ tí kò bá ti ṣe é jáde kúrò nínú rẹ̀.
+| Network upgrade (NU) | Àyípadà tí a ṣètò sí àwọn òfin ìfohùnṣọ̀kan Zcash's, tí a mú ṣiṣẹ́ ní gíga bulọ́ọ̀kì tí a ṣètò |
+| Consensus branch id | Àmì ìdámọ̀ kúkúrú kan tí ó ń sọ orúkọ àwọn òfin ìfohùnṣọ̀kan lọ́wọ́lọ́wọ́ |
+| Activation height | Àkọsílẹ̀ tí àwọn òfin tuntun ti ìgbéga nẹ́tíwọ́ọ̀kì kan gbéṣẹ́ sí |
+| Replay protection | Òfin kan tí ó dá ìṣòwò kan dúró láti má ṣe tún lò lórí ẹ̀wọ̀n kan lórí òmíràn |
+| Mempool | Àkójọ àwọn ìṣòwò tí a ti gbé jáde ṣùgbọ́n tí a kò tí ì wakọ̀ sínú bulọ́ọ̀kì kan |
+| Transaction expiry | Gíga bulọọki ipari ti a fi silẹ lẹhin ti a ti yọ iṣowo ti a ko tii wa kuro |
 
 ## Àwọn ìbéèrè tí a sábà máa ń béèrè
 
-ṣé overwinter yí ZEC mi padà tàbí ìpamọ́ra mi? rárá. overwinters kò fi àwọn àfikún tuntun kún un, bẹ́ẹ̀ ni wọn ò fọwọ́ kan ìṣàdálẹ̀ tí a ṣe lábẹ́ ìdènà o. ó ń ṣètò fún gbígbéga ọjọ́ ọ̀la tó nípọn rẹ owó àti àṣírí ara ẹni yín kì í nípa lórí ẹ. nígbà náà, kí ló dé táá mú kó ṣeé ṣe láti máa lo ohun èlò yìí láìfi ohunkóhun pa mọ́ nínú ilé iṣẹ́ wa?
+Ṣé Overwinter yí ZEC mi tàbí ìpamọ́ mi padà? Rárá. Overwinter kò fi àwọn ohun tuntun kún un, kò sì fọwọ́ kan àwọn ìṣòwò tí a dáàbò bò. Ó ń mú kí àwọn àtúnṣe ọjọ́ iwájú dára. Owó àti ìpamọ́ rẹ kò ní ipa kankan lórí.
 
 Did Overwinter add Sapling or shielded addresses? No. Overwinter added no shielded features. It prepared the ground so that Sapling could activate safely later.
 
@@ -87,7 +87,7 @@ Nitoripe o kọ awọn ẹrọ ti gbogbo igbesoke nigbamii da lori. Overwinter �
 
 [ZIP 143: Ìmúṣẹ ìforúkọsílẹ̀ Àdéhùn fún Overwinter](https://zips.z.cash/zip-0143)
 
-[Àtúnṣe sípínlẹ̀-ìmọ́lé fún ìgbà òtútù](https://z.cash/upgrade/overwinter/)
+[Igbesoke Nẹtiwọọki Overwinter](https://z.cash/upgrade/overwinter/)
 
 ### Ẹ tún wo:
 
@@ -105,4 +105,4 @@ Nitoripe o kọ awọn ẹrọ ti gbogbo igbesoke nigbamii da lori. Overwinter �
 
 ---
 
-Àtòjọ: [Atọka Awọn igbesoke Nẹtiwọki](../start-here/network-upgrades) · Àwọn tó ṣáájú: [Èso ẹ̀ka igi](../zcash-tech/sprout) · Àtúnṣe: [Sapling](../zcash-tech/sapling)
+Àtòjọ: [Atọka Awọn igbesoke Nẹtiwọki](../start-here/network-upgrades) · Àwọn tó ṣáájú: [Sprout](../zcash-tech/sprout) · Àtúnṣe: [Sapling](../zcash-tech/sapling)

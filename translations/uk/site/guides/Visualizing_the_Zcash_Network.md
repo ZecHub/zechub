@@ -28,8 +28,8 @@ Rust -> [https://rustup.rs/](https://rustup.rs/)
 jq -> [https://jqlang.github.io/jq/download/](https://jqlang.github.io/jq/download/)
 (для відображення json-інформації в терміналі)
 
-curl -> [https://everything.curl.dev/get/linux](https://everything.curl.dev/get/linux)
-(для запитів до RPC Crawler)
+curl -> [https://everything.curl.dev/install/linux.html](https://everything.curl.dev/install/linux.html)
+(для запитів до RPC crawler)
 
 npm (з nvm) -> [https://medium.com/@iam_vinojan/how-to-install-node-js-and-npm-using-node-version-manager-nvm-143165b16ce1](https://medium.com/@iam_vinojan/how-to-install-node-js-and-npm-using-node-version-manager-nvm-143165b16ce1)
 (для відображення P2P-Viz у браузері)
@@ -122,7 +122,7 @@ cargo run --release --features crawler --bin crawler -- --help
 
 Це скомпілює програму й переконається, що все працює належним чином.
 
-Щоб запустити Crawler, потрібно додати прапорець '--seed-addrs' до команди запуску, вказавши щонайменше одну дійсну IP-адресу вузла Zcash. Щоб отримати точний результат, Crawler слід дати попрацювати достатній проміжок часу. Деякі приклади IP-адрес вузлів можна знайти на [https://zcashblockexplorer.com/nodes](https://zcashblockexplorer.com/nodes).
+Щоб запустити Crawler, потрібно додати прапорець '--seed-addrs' до команди запуску, вказавши щонайменше одну дійсну IP-адресу вузла Zcash. Щоб отримати точний результат, Crawler слід дати попрацювати достатній проміжок часу. Деякі приклади IP-адрес вузлів можна знайти на [https://mainnet.zcashexplorer.app/nodes](https://mainnet.zcashexplorer.app/nodes).
 
 Щоб отримувати інформацію від Crawler під час його роботи, потрібно додати прапорець '--rpc-addr' до команди запуску. Це не обов’язково лише для самого запуску Crawler, але інакше для відображення будь-якої інформації доведеться зупинити Crawler (ctrl+c або SIGKILL).
 

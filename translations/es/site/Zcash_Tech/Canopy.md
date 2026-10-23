@@ -12,7 +12,7 @@ Canopy es la quinta actualización de red de Zcash, también etiquetada como Net
 
 Por qué esto importa. Zcash financia su propio desarrollo a partir de las recompensas por bloque, porque no tiene una empresa detrás. La recompensa de los fundadores que financió sus primeros años estaba programada para terminar en la primera reducción a la mitad. Canopy fue el reemplazo: dirigió una parte fija de cada recompensa por bloque hacia un Development Fund y estableció quién lo recibe. Ese modelo fue refinado por actualizaciones posteriores, hasta [NU6.1](../zcash-tech/nu6-1).
 
-![Antes de Canopy, la recompensa de los fundadores financiaba el desarrollo y estaba programada para terminar en la primera reducción a la mitad. Después de Canopy, el Development Fund toma el 20 por ciento de cada recompensa por bloque y se extiende hasta la segunda reducción a la mitad en 2024](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/canopy-founders-to-devfund.png)
+![Antes de Canopy, la recompensa de los fundadores financiaba el desarrollo y estaba programada para terminar en la primera reducción a la mitad. Después de Canopy, el Development Fund toma el 20 por ciento de cada recompensa por bloque y se extiende hasta la segunda reducción a la mitad en 2024](/content-images/canopy-founders-to-devfund-010676e799.webp)
 
 ## El fondo de desarrollo
 
@@ -30,7 +30,7 @@ El Development Fund toma el 20 por ciento de cada recompensa por bloque. Los min
 
 Medidas sobre la recompensa por bloque completa en lugar de solo el fondo, esas participaciones equivalen al 7 por ciento para Electric Coin Company, 5 por ciento para la Zcash Foundation y 8 por ciento para Major Grants. Ambas formas de describirlo representan las mismas cifras.
 
-![El Development Fund es el 20 por ciento de cada recompensa por bloque, dividido en 35 por ciento para Bootstrap y Electric Coin Company, 25 por ciento para la Zcash Foundation y 40 por ciento para Major Grants](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/canopy-dev-fund-split.png)
+![El Development Fund es el 20 por ciento de cada recompensa por bloque, dividido en 35 por ciento para Bootstrap y Electric Coin Company, 25 por ciento para la Zcash Foundation y 40 por ciento para Major Grants](/content-images/canopy-dev-fund-split-005bf6f2dd.webp)
 
 ## El cambio en el pool Sprout
 
@@ -38,7 +38,7 @@ Canopy también comenzó a retirar el pool blindado más antiguo. Sprout fue el 
 
 Desde el momento en que Canopy se activó, no se puede agregar nuevo valor al pool Sprout. En términos técnicos, el campo vpub_old de cada JoinSplit debe ser cero. Los fondos ya existentes en Sprout todavía pueden retirarse, por lo que nadie queda excluido, pero el pool solo puede hacerse más pequeño a partir de aquí. Este es un primer paso hacia la eventual deprecación del pool heredado Sprout en favor de pools blindados más nuevos.
 
-![Antes de Canopy, el valor podía tanto entrar como salir del pool Sprout. Después de Canopy, no puede entrar nuevo valor, pero los retiros siguen estando permitidos](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/canopy-sprout-pool.png)
+![Antes de Canopy, el valor podía tanto entrar como salir del pool Sprout. Después de Canopy, no puede entrar nuevo valor, pero los retiros siguen estando permitidos](/content-images/canopy-sprout-pool-f5166aa049.webp)
 
 ## Los extras técnicos
 
@@ -48,12 +48,12 @@ Junto con los cambios de financiación, Canopy incluyó dos ZIP técnicos más p
 
 | Término | Significado en lenguaje sencillo |
 |---|---|
-| Recompensa de los fundadores | El modelo de financiación original que pagó el desarrollo temprano de Zcash, programado para terminar en la primera reducción a la mitad |
+| Founders reward | El modelo de financiación original que pagó el desarrollo temprano de Zcash, programado para terminar en la primera reducción a la mitad |
 | Development Fund | La porción del 20 por ciento de cada recompensa por bloque que Canopy dirigió al desarrollo, vigente hasta la segunda reducción a la mitad |
-| Recompensa por bloque (subsidio) | Los nuevos ZEC creados y pagados cuando se mina cada bloque |
-| Reducción a la mitad | El evento programado en el que la recompensa por bloque se reduce a la mitad |
+| Block reward (subsidy) | Los nuevos ZEC creados y pagados cuando se mina cada bloque |
+| Halving | El evento programado en el que la recompensa por bloque se reduce a la mitad |
 | Funding stream | El mecanismo de consenso (ZIP 207) que dirige parte de la subvención por bloque a direcciones receptoras definidas |
-| Pool Sprout | El pool blindado original de Zcash, al que Canopy dejó de permitir la entrada de nuevo valor |
+| Sprout pool | El pool blindado original de Zcash, al que Canopy dejó de permitir la entrada de nuevo valor |
 
 ## Preguntas frecuentes
 

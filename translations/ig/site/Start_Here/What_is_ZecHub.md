@@ -21,9 +21,9 @@ The tutorials, short-form blogs, and newsletter are open sourced and hosted on G
 
 ---
 
-1. Gaa na [ZecHub's Github repo](https://github.com/ZecHub/zechub)
+1. Gaa na [ZecHub's GitHub repo](https://github.com/ZecHub/zechub)
    
-2. Mepụta akaụntụ Github ọhụrụ ma ọ bụ banye na nke gị
+2. Mepụta akaụntụ GitHub ọhụrụ ma ọ bụ banye na nke gị
    
 3. Soro ntuziaka a iji mụta otu esi eme arịrịọ ịdọrọ:
 
@@ -33,7 +33,7 @@ The tutorials, short-form blogs, and newsletter are open sourced and hosted on G
     src="https://www.youtube.com/embed/8eYDTyV39a4"
     title="How to Contribute to ZecHub!"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    kweeFullScreen
+    allowFullScreen
     loading="lazy"
   />
 </div>
@@ -51,15 +51,15 @@ N'ihi na ịnọgide na-enwe otu ụdị anya ka ZecHub, e nwere a template nke 
 3. No inappropriate content.
 ```
 
-Onyinye: [n'ebe a](https://explorer.zec.rocks/ua/u17sawf3pdh7z6tsy83vhjd2z7sztpy9y87wyyqz4vqshn3yhch28q3ud3lr0etadl3flz4c9zdrtn9lwlf23vzmjnll97efxzg9h0rjzn9qvhvqr8p3394ysnfhg560xxxc66yxzh8r548myxn3l2qrc9pfrt8nrzhxvlpuuykv7czjsm)
+Onyinye: [n'ebe a](https://mainnet.zcashexplorer.app/ua/u17sawf3pdh7z6tsy83vhjd2z7sztpy9y87wyyqz4vqshn3yhch28q3ud3lr0etadl3flz4c9zdrtn9lwlf23vzmjnll97efxzg9h0rjzn9qvhvqr8p3394ysnfhg560xxxc66yxzh8r548myxn3l2qrc9pfrt8nrzhxvlpuuykv7czjsm)
 
-<a href="https://explorer.zec.rocks/ua/u17sawf3pdh7z6tsy83vhjd2z7sztpy9y87wyyqz4vqshn3yhch28q3ud3lr0etadl3flz4c9zdrtn9lwlf23vzmjnll97efxzg9h0rjzn9qvhvqr8p3394ysnfhg560xxxc66yxzh8r548myxn3l2qrc9pfrt8nrzhxvlpuuykv7czjsm">
+<a href="https://mainnet.zcashexplorer.app/ua/u17sawf3pdh7z6tsy83vhjd2z7sztpy9y87wyyqz4vqshn3yhch28q3ud3lr0etadl3flz4c9zdrtn9lwlf23vzmjnll97efxzg9h0rjzn9qvhvqr8p3394ysnfhg560xxxc66yxzh8r548myxn3l2qrc9pfrt8nrzhxvlpuuykv7czjsm">
     <img src="/content-images/image-2023-11-18-141228046-644b4c542d.webp" alt="" width="200" height="200"/>
 </a>
 
 
 
-**DISCLAIMER: ZecHub is a completely independent and open-source initiative founded by Zcash community members. Nothing contained in this Github repository should be considered financial or investment advice - it is for informational purposes only.**
+**DISCLAIMER: ZecHub is a completely independent and open-source initiative founded by Zcash community members. Nothing contained in this GitHub repository should be considered financial or investment advice - it is for informational purposes only.**
 
 ---
 

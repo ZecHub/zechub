@@ -221,7 +221,7 @@ Vous tenez maintenant la carte. Le reste de la série vient la compléter.
 | **Nullifier** | Un marqueur unique de « dépensé » publié lorsqu’une note est utilisée, empêchant les doubles dépenses |
 | **Zero-knowledge proof** | Une preuve qu’une affirmation est vraie sans rien révéler au-delà de sa véracité |
 | **Shielding / deshielding** | Le déplacement de fonds vers / hors du monde privé blindé |
-| **Viewing Key** | La clé qui permet au propriétaire de détecter et de lire les notes qui lui sont adressées |
+| **Viewing key** | La clé qui permet au propriétaire de détecter et de lire les notes qui lui sont adressées |
 
 ---
 

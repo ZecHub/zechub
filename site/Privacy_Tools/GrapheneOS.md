@@ -4,7 +4,14 @@
 
 # Graphene OS
 
-GrapheneOS is a non-profit, open-source project dedicated to enhancing privacy and security on mobile devices while maintaining compatibility with Android apps. This Operating system places a strong emphasis on advancing privacy and security technologies, with a particular focus on bolstering sandboxing, exploit mitigations, and refining the permission model. Born in 2014 under the moniker **CopperheadOS**. it has since evolved into the formidable guardian of your digital privacy and security.
+## TL;DR
+
+- **GrapheneOS** is a non-profit, open-source mobile operating system focused on privacy and security, with full compatibility with everyday Android apps
+- Core strengths: hardened app sandbox, memory-safe code and exploit mitigations, hardware-backed verified boot, fine-grained permissions, and USB-C port protection when the device is locked
+- Installation is via the official **WebUSB installer** (recommended for most users) or the **command-line flow** for technical users
+- For a Zcash user, it is a strong base for mobile self-custody: pair it with a maintained shielded wallet and standard OPSEC hygiene
+
+GrapheneOS is a non-profit, open-source project dedicated to enhancing privacy and security on mobile devices while maintaining compatibility with Android apps. This Operating system places a strong emphasis on advancing privacy and security technologies, with a particular focus on bolstering sandboxing, exploit mitigations, and refining the permission model. Born in 2014 under the moniker **CopperheadOS**, it has since evolved into the formidable guardian of your digital privacy and security.
 
 The GrapheneOS primary objective is to reinforce the security boundaries, such as the app sandbox, without adversely affecting the user experience. 
 
@@ -107,3 +114,10 @@ Check out the installation Guide via the link below and follow the installation 
 ## **Conclusion**
 
 In essence, GrapheneOS is all about providing an alternative mobile operating system that prioritizes the privacy and security of its users, giving them greater control over their digital lives while offering compatibility with the apps they rely on. It is a project that aims to set a high standard for mobile device security and privacy in an age where these concerns are paramount.
+
+## Related pages
+
+- [Secure Messengers](Secure_Messengers.md) — private communication on a hardened device
+- [PGP Encryption](PGP_Encryption.md) — encrypted mail and file exchange
+- [VPN and DVPN](VPN_and_DVPN.md) — network-layer privacy on mobile
+- [Web Browsers](Web_Browsers.md) — choosing and hardening a mobile browser

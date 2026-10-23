@@ -14,7 +14,7 @@
 
 ## Quais São as Considerações de Segurança ao Selecionar um Navegador Web?
 
-Ao selecionar um navegador web, há algumas coisas a ter em mente: vulnerabilidades e explorações de segurança costumam ser descobertas regularmente. Alguns navegadores são rastreáveis de alguma forma, mas há navegadores que permitem aos utilizadores navegar anonimamente — [navegador Tor](https://www.torproject.org/download/), por exemplo. 
+Ao selecionar um navegador web, há algumas coisas a ter em mente: vulnerabilidades e explorações de segurança costumam ser descobertas regularmente. Alguns navegadores são rastreáveis de alguma forma, mas há navegadores que permitem aos utilizadores navegar anonimamente — [Tornavegador](https://download.torproject.org/), por exemplo.
 
 **Impressão Digital**: Se quiser manter privadas informações como os softwares instalados na sua máquina, a configuração do hardware e mais, considere procurar um navegador web que suporte o recurso de resistência à impressão digital. 
 

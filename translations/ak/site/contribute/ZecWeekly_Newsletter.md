@@ -2,20 +2,21 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# ZecWeekly Newsletter
+# ZecWeekly Nsɛmma Nhoma
 
 ZecWeekly yɛ nsɛmma nhoma a ɛba Kwasida anɔpa biara. Ɛka nsɛm a esisii wɔ dapɛn no mu wɔ Zcash abɔdeɛ a nkwa wom mu nyinaa ho. Mpɔtam hɔfoɔ na wɔhwɛ amanneɛbɔ no so dapɛn biara na wɔde nkitahodiɛ a ɛfa ho nyinaa ka nsɛm ho amanneɛbɔ krataa no ho. Yɛsrɛ sɛ monkyerɛw wo din wɔ nsɛmma nhoma no mu [ha](https://zechub.substack.com/).
 
 ## Boa
 
-Nsɛmma nhoma ntoboa yɛ adwuma yiye bere a ɔboafo biako siesie nkyerɛase no ma dapɛn a ɛfata, di mprempren bounty anaa coordination thread no akyi, na ɔde twe adesrɛ no kɔ bere a dapɛn dapɛn link ahorow no ayɛ krado akyi. Yɛsrɛ sɛ mfa daakye nkyerɛaseɛ biara nkɔma ansa na ZecHub de ahyɛ da a wɔde bɛba saa nkyerɛaseɛ no so anaasɛ ahyɛ no den. Twe adesrɛ a edi kan no taa hwere dapɛn awiei updates, ɛne curator a wɔde ama no bɔ abira, anaasɛ wɔde bere a wɔde ama a ɛnteɛ di dwuma.
+Newsletter ntoboa yɛ adwuma yie berɛ a ntoboafoɔ baako siesie nkyerɛaseɛ no ma dapɛn a ɛfata, di mprempren bounty anaa coordination thread no akyi, na ɔde twe adesrɛ no kɔ bere a dapɛn dapɛn links no ayɛ krado akyi. Yɛsrɛ sɛ mma daakye nkyerɛaseɛ biara mmra ansa na ZecHub de ahyɛ da a wɔde bɛba saa nkyerɛaseɛ no so anaasɛ ahyɛ no den. Twe adesrɛ a edi kan no taa hwere dapɛn awiei updates, ɛne curator a wɔde ama no bɔ abira, anaasɛ wɔde bere a wɔde ama a ɛnteɛ di dwuma.
 
 ### 1. Si nea ɛwɔ hɔ mprempren no so dua
 
 Ansa na wubefi ase akyerɛw:
 
-- Hwɛ [ZEC Bounties na ɛyɛ adwuma ](https://bounties.zechub.wiki/) ama mprempren nsɛmma nhoma adwuma no.
-- Twɛn na wɔama wo adwuma
+- Hwɛ [ZEC Bounties](https://bounties.zechub.wiki/) ama mprempren nsɛmma nhoma adwuma no.
+- Twɛn na wɔama wo adwuma.
+- Newsletter editions te XS nnwontofo kuw no mu [bounty sika a wɔde ma ho nhyehyɛe](https://bounties.zechub.wiki/docs/bounty-amounts). ZEC akontaabu a ɛwɔ live bounty no so no yɛ sika no, ɛnyɛ asɛmti dedaw biara a ɛwɔ akwankyerɛ nhoma ahorow a ɛboa no mu.
 
 ![ss](/content-images/149a802c-b64f-4969-ad89-e83ffecf568e-d5d8387145.webp)
 
@@ -23,14 +24,14 @@ Ansa na wubefi ase akyerɛw:
 
 ### 2. Fork akorae no
 
-Sɛ woyɛ foforo wɔ GitHub mu a, fa adwumayɛ nhyehyɛe yi di dwuma:
+Sɛ woyɛ foforo wɔ GitHub, fa adwumayɛ nhyehyɛe yi di dwuma:
 
 1. Bue no [ZecHub akoraeɛ](https://github.com/ZecHub/zechub).
 2. Klik **Fork** na yɛ fork wɔ wo GitHub akonta ase.
 3. Wɔ wo fork mu no, yɛ baa dwumadibea foforo ma edition no. Baa dwumadibea din a emu da hɔ boa, te sɛ `digest-may-30-2026`.
 4. Hwɛ sɛ wo twe abisade no bɛto w’ani so `ZecHub/zechub` sɛ base akoraeɛ ne `main` sɛ nnyinaso nkorabata.
 
-Sɛ wode ahyɛdeɛ kwan no di dwuma a, adwumayɛ kwan korɔ no ara te sɛ yei:
+Sɛ wode ahyɛde kwan no di dwuma a, adwumayɛ nhyehyɛe koro no ara te sɛ eyi:
 
 ```bash
 git clone https://github.com/YOUR-USERNAME/zechub.git
@@ -42,7 +43,7 @@ Hyɛ anan mu `YOUR-USERNAME` ne w’ankasa GitHub dwumadie din. URL a ɛwɔ atif
 
 ### 3. Yɛ nsɛmma nhoma fael no
 
-Fa no di dwuma [nsɛm ho amanneɛbɔ krataa nsusuwso](https://github.com/ZecHub/zechub/blob/main/newsletter/newslettertemplate.md) sɛ wo mfiase. Newsletter nkyerɛase ahorow no yɛ nea ɛwɔ... [`newsletter`](https://github.com/ZecHub/zechub/tree/main/newsletter) folda no mu.
+Fa no di dwuma [nsɛm ho amanneɛbɔ krataa nsusuwso](https://github.com/ZecHub/zechub/blob/main/newsletter/newslettertemplate.md) sɛ wo mfiase. Newsletter nkyerɛase ahorow no yɛ nea ɛwɔ.. [`newsletter`](https://github.com/ZecHub/zechub/tree/main/newsletter) folda no mu.
 
 Sɛ woreyɛ fael no a:
 
@@ -59,7 +60,7 @@ ZecWeekly taa ka Zcash abɔdeɛ a nkwa wom dwumadiɛ ho asɛm ma dapɛn a ɛwɔ 
 
 - Fi ase boaboa link ahorow ano bere a wɔde mprempren nsɛmma nhoma anaa adwuma no ahyɛ hɔ awie no.
 - Fa sraadi sie bere a dapɛn no da so ara yɛ nnam no.
-- Fa twe adesrɛ no kɔma bɛn da a wobisae sɛ wode bɛmena no, bere a woahwɛ sɛ dapɛn awiei nsɛm foforo bi wɔ hɔ no awie no.
+- Fa twe abisadeɛ no kɔma bɛn da a wɔabisa sɛ wode bɛmena no, berɛ a woahwɛ sɛ dapɛn awieeɛ mu nsɛm foforɔ bi wɔ hɔ awie no.
 - Mfa dapɛn a ɛbɛba daakye amanneɛbɔ krataa nkɔma ansa na adwuma a wɔbɛyɛ ama saa da no aba hɔ anaasɛ ansa na ZecHub asi so dua sɛ ɛsɛ sɛ wusiesie.
 
 Sɛ nsɛmma nhoma bi ka sɛ ɛsɛ sɛ wode mena ansa na da pɔtee bi adu a, di saa da no akyi. Sɛ akasakasa bi wɔ krataafa yi ne mprempren asɛm bi ntam a, di mprempren asɛm no akyi.
@@ -84,11 +85,11 @@ Summary:
 - Checks links and descriptions for the requested week.
 ```
 
-Sɛ wobue twe abisade no wie a, hwɛ sɛnea wɔbɛsan ahwɛ mu nsɛm. Sɛ ZecHub bisa sɛ wɔnyɛ nsakrae a, yɛ baa dwumadibea koro no ara foforo sen sɛ wubebue twetwe adesrɛ a ɛto so abien ama nkyerɛase koro no ara.
+Sɛ wobue twe abisade no wie a, hwɛ sɛnea wɔbɛsan ahwɛ mu nsɛm. Sɛ ZecHub bisa sɛ wɔnyɛ nsakraeɛ a, yɛ baa dwumadibea koro no ara foforɔ sen sɛ wobɛbue twetwe abisadeɛ a ɛtɔ so mmienu ama nkyerɛaseɛ korɔ no ara.
 
 ### Nhwɛso ahorow ankasa
 
-Fa saa nsɛmma nhoma twetwe abisade ahorow a wɔaka abom yi di dwuma sɛ nhwɛsode a ɛfa nsɛm a wɔagye atom ho:
+Fa saa nsɛmma nhoma twetwe abisade ahorow a wɔaka abom yi di dwuma sɛ nhwɛso a ɛfa nsɛm a wɔagye atom ho:
 
 - [Zcash Abɔde a Nkwa Wom Ho Nhyehyɛe Digest | Ɔpɛpɔn da a ɛtɔ so 11](https://github.com/ZecHub/zechub/pull/1551)
 - [Zcash Abɔde a Nkwa Wom Ho Nhyehyɛe Digest | Oforisuo da a ɛtɔ so aduonu nwɔtwe](https://github.com/ZecHub/zechub/pull/1544)
@@ -97,7 +98,7 @@ Fa saa nsɛmma nhoma twetwe abisade ahorow a wɔaka abom yi di dwuma sɛ nhwɛso
 
 ![Merged ZecWeekly newsletter pull request example](/content-images/9230d68d-6406-4c8a-992c-df84e0d318d8-8893d2de55.webp)
 
-Sɛ wode w’adwuma no toto nhwɛsoɔ bi ho a, fa w’adwene si fael no beaeɛ, asɛmti no nhyehyɛɛ, ɔfa nhyehyɛeɛ, nkitahodiɛ nkyerɛkyerɛmu, ne sɛ ebia twetwe abisadeɛ no san kɔ adwuma a ɛfata no so anaa.
+Sɛ wode w’adwuma no toto nhwɛsoɔ bi ho a, fa w’adwene si fael no beaeɛ, asɛmti no nhyehyɛɛ, ɔfa nhyehyɛeɛ, link nkyerɛkyerɛmu, ne sɛ ebia twetwe abisadeɛ no san kɔ adwuma a ɛfata no so anaa.
 
 ### Mfomso ahorow a wɔtaa di a ɛsɛ sɛ wɔkwati
 
@@ -108,7 +109,7 @@ Sɛ wode w’adwuma no toto nhwɛsoɔ bi ho a, fa w’adwene si fael no beaeɛ, 
 - Dedaw bi a wobɛkyerɛw a worensakra date, link, ne nkyerɛkyerɛmu biara.
 - Link ahorow a efi dapɛn a ɛnteɛ mu a wode bɛka ho.
 - Gyae link a abubu, link a ɛyɛ abien, anaa placeholder nsɛm a efi template no mu.
-- Bue twe adesrɛ foforo bere a wɔasan ahwɛ nsɛm a wɔkae akyi sen sɛ wobɛma baa dwumadibea a edi kan no ayɛ foforo.
+- Wobue twe adesrɛ foforo bere a woasan ahwɛ nsɛm a wɔkae akyi sen sɛ wobɛma baa dwumadibea a edi kan no ayɛ foforo.
 
 ### Nhwehwɛmu a etwa to
 
@@ -116,12 +117,12 @@ Ansa na wobɛsrɛ sɛ wobɛsan ahwɛ mu no, si so dua sɛ:
 
 - Ɔsɛmpɔw anaa adwuma da no ne wo nsɛmma nhoma fael no hyia.
 - Open pull request foforo biara nni hɔ a ɛkata issue anaa edition koro no ara so dedaw.
-- Fael no wɔ... `newsletter` folda no mu.
+- Fael no wɔ.. `newsletter` folda no mu.
 - Template afã horow no awie.
 - Link biara yɛ adwuma na ɛwɔ nkyerɛkyerɛmu a mfaso wɔ so.
-- Twe adesrɛ nipadua no de asɛm a ɛteɛ no bata ho.
+- Twe abisade nipadua no de asɛm a ɛteɛ no bata ho.
 - Wowɔ hɔ sɛ wobɛyɛ nsakrae sɛ nhwehwɛmufo bisa nsakrae a.
 
 ## Nkyerɛase ahorow a atwam
 
-[ZecWeekly Archive](https://zechub.substack.com/p/archive)
+[ZecWeekly Nsɛm a Wɔakora So](https://zechub.substack.com/p/archive)

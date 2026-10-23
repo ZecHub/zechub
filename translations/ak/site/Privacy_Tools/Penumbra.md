@@ -1,4 +1,4 @@
-# Penumbra na ɔkyerɛwee 
+# Penumbra 
 
 Penumbra wɔ hɔ sɛ ɛbɛyɛ layer-1 ntam nkitahodi a ɛyɛ nwonwa, a wɔabɔ ho ban koraa a ɛresi akan wɔ Cosmos abɔde a nkwa wom nhyehyɛe no mu. Ɛma wɔn a wɔde di dwuma no tumi di gua wɔ ahobammɔ mu, de token to gua na wɔsesa, na wɔyɛ gua so a wɔnda wɔn metadata adi wɔ nkɔnsɔnkɔnsɔn so. Sɛ́ blockchain a wɔabɔ ho ban koraa no, ɛsan nso de nnwuma a wɔabɔ ho ban ma wɔ wɛb no so a ɛnsɛe kokoamsɛm anaasɛ decentralization — Penumbra wɔ kokoamsɛm default, a nkitahodi a ɛda adi pefee anaasɛ bo a ɛsom a ɛda adi nni hɔ.
 

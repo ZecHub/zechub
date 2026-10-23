@@ -16,7 +16,7 @@ Mɔfiame na zcashd Zcash blibo node (Electric Coin Co dɔwɔwɔ) zazã [Akash ƒ
     src="https://www.youtube.com/embed/SVekeNU6_-g"
     title="Zcash Full Node setup on Akash Network"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    ɖe mɔ ɖeFullScreen ŋu
+    allowFullScreen
     loading="lazy"
   />
 </div>
@@ -514,7 +514,7 @@ Ne wò ga si susɔ la vɔ la, Akash axe wò dɔwɔwɔ le eɖokui si. **Tsɔ wò 
 
 **Zcash Nukulawo**: [https://zechub.wiki/guides/blockchain-explorers](https://zechub.wiki/guides/blockchain-explorers)
 
-**Akash ƒe Masɔmasɔ**: [https://discord.akash.network](https://discord.akash.network) (na dɔwɔƒe si naa kpekpeɖeŋu ƒe nyawo)
+**Akash Discord**: [https://discord.akash.network](https://discord.akash.network) (na dɔwɔƒe si naa kpekpeɖeŋu ƒe nyawo)
 
 ## Nya Mamlɛawo
 

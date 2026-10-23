@@ -9,11 +9,11 @@ Zcash bụ ihe akaebe nke ọrụ cryptocurrency. Nke ọ bụla na-egwupụta a
 - ** Ihe nlere ugbu a (post-NU6 / November 2024 na nke ọzọ)** 
   Site na Eprel 2026 nkesa bụ:
 
-❑ Onye ọ na-akwụ ụgwọ ya. ● Pasentị o ji enye gị ego ahụ. □ Ihe ndị ị ga-enweta n'aka ha/ọnọdụ i nwere.
+| Onye nnata                      | Pasentị | Ihe ọ na-akwụ / ọnọdụ ya                                      |
 |--------------------------------|------------|-------------------------------------------------------------|
-Ndị na-egwu ego. 80% Direct block reward to miners.
-Zcash Community Grants (ZCG) 8% Onyinye obodo (na-aga n'ihu ruo ~2028)
-Lockbox (usoro-achịkwa) 12% Akụ na-agbakọta; enweghị usoro mmefu ọ bụla, a chọrọ ntuli aka obodo n'ọdịnihu.
+| Ndị na-egwuputa ihe                         | 80%        | Ụgwọ ọrụ ngọngọ ozugbo nye ndị na-egwuputa ihe                               |
+| Enyemaka Obodo Zcash (ZCG)   | 8%         | Enyemaka obodo (ga-aga n'ihu ruo ~ 2028)                  |
+| Igbe mkpọchi (nke usoro njikwa)  | 12%        | Ego na-agbakọta; enweghị usoro mmefu ugbu a; a chọrọ ntuli aka obodo n'ọdịnihu |
 
 - **Pre-NU6 akụkọ ihe mere eme dev ego (2020 - Nov 2024)** 
   20% nke ego enyemaka ọ bụla gara ozugbo na òtù mmepe:
@@ -117,11 +117,11 @@ Ebumnuche a bụ ịkwaga site na njikwa nke nzukọ gaa n'ịchị achị ndị
 
 ## 4. Isiokwu Ntụle Ngwa - Ọdịnihu nke Ego Na-enye Aka
 
- Oge: Ndị na-egwupụta akụ̀ n'ime ala (miners) ECC/Bootstrap ZF,ZCG Lockbox Notes.
+| Oge           | Ndị na-egwuputa ihe | ECC/Bootstrap | ZF   | ZCG  | Igbe mkpọchi | Ihe ndetu                                      |
 |------------------|--------|---------------|------|------|---------|--------------------------------------------|
-2020 - Nov 2024 80% 7% 5% 8% Classic Dev Fund (Nkezi ego nke ndị na-emepụta ihe)
- Nov 2024 - ugbu a 80% 0% 0% 8% 12% NU6 nlereanya + ZCG ndọtị.
-(ZIP 1016) 80% 0% 0% 8% 12% Nke onye nwe ya na-achịkwa Ruo mgbe ọkara nke atọ; ndị nwere ego ga-eme ntuli aka.
+| 2020 - Nọvemba 2024  | 80%    | 7%            | 5%   | 8%   | -       | Ego mmepe ochie                           |
+| Nọvemba 2024 - ugbu a   | 80%    | 0%            | 0%   | 8%   | 12%     | Ihe nlereanya NU6 + ndọtị ZCG                  |
+| Aro (ZIP 1016) | 80% | 0%         | 0%   | 8%   | 12% (Onye ji ego ejikọta) | Ruo ọkara nke atọ; ntuli aka onye ji ego |
 
 ## 5. Akụ Ndị E Ji Eme Ihe
 

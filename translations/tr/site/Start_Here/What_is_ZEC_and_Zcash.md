@@ -30,7 +30,7 @@ ZEC, insanlara veriyi izne ihtiyaç duymadan aktarma fırsatı verir. Eşten eş
 
 [Zcash ve Gizliliğin Gerekçesi](https://www.zcashzeal.org/blog/the-case-for-zcash-amp-privacy)
 
-[Shielded Bir Ekosistem](https://electriccoin.co/blog/shielded-ecosystem/)
+[Korumalı Bir Ekosistem](https://web.archive.org/web/20260903010654/https://electriccoin.co/blog/shielded-ecosystem/)
 
 [Zcash Gizlilik Önerileri](https://z.cash/support/security/privacy-security-recommendations/)
 
@@ -52,14 +52,12 @@ Zcash, Bitcoin'in en büyük kusurunu çözer; verinin özel mülkiyeti ve aktar
 
 [Nasıl Çalışır](https://z.cash/technology/)
 
-[Blokzincirlerin HTTPS'i](https://nakamoto.com/zcash-the-https-of-blockchains/)
-
 ---
 
 ## İlgili Sayfalar
 
-- [Yeni Kullanıcı Rehberi](/start-here/new-user-guide) — Yeni ZEC sahipleri için adım adım başlangıç
-- [Cüzdanlar](/using-zcash/wallets) — ZEC'inizi tutmak için bir shielded cüzdan seçin
-- [ZEC Satın Alma](/using-zcash/buying-zec) — ZEC'i nereden ve nasıl edinebilirsiniz
-- [Shielded Havuzlar](/using-zcash/shielded-pools) — Zcash havuzlarının işlemleri nasıl özel tuttuğu
-- [ZK-SNARKs](/zcash-tech/zk-snarks) — Zcash gizliliğinin arkasındaki kriptografi
+- [Yeni Kullanıcı Rehberi](/start-here/new-user-guide) — Yeni ZEC sahipleri için adım adım başlangıç rehberi
+- [Cüzdanlar](/using-zcash/wallets) — ZEC tutmak için korumalı bir cüzdan seçin
+- [ZEC Satın Alma](/using-zcash/buying-zec) — ZEC nereden ve nasıl edinilir
+- [Korumalı Havuzlar](/using-zcash/shielded-pools) — Zcash havuzlarının işlemleri nasıl gizli tuttuğu
+- [zk-SNARKs](/zcash-tech/zk-snarks) — Zcash gizliliğinin arkasındaki kriptografi

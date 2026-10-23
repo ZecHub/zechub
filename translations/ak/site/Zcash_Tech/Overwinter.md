@@ -2,9 +2,9 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Awɔw bere mu
+# Overwinter
 
-> Awɔw bere no kɔɔ so traa ase wɔ Zcash mainnet so wɔ block 347,500 (June 26, 2018 UTC).
+> Overwinter kɔɔ so traa ase wɔ Zcash mainnet so wɔ block 347,500 (June 26, 2018 UTC).
 
 Nea wobɛfa: sɛnea Zcash suaa sɛ ɔbɛsesa n’ankasa mmara dwoodwoo, ne nea enti a saa fapem no maa akyiri yi nkɔso biara, a efi ase wɔ Sapling, tumi yɛɛ yiye.
 
@@ -12,7 +12,7 @@ Awɔw bere mu yɛ Zcash [network upgrade a wɔde yɛ adwuma](../start-here/netwo
 
 Nea enti a eyi ho hia. Blockchain a ɛte ase ho mmara a wobɛsakra no yɛ asiane. Get it wrong na network no nkyerɛase abien betumi ampene so, anaasɛ wobetumi ayɛ asɛm bi a wɔahyɛ da ayɛ ama nkɔnsɔnkɔnsɔn biako ho mfonini akɔ foforo so. Ansa na Overwinter reba no, na Zcash nni ɔkwan biara a ɛyɛ gyinapɛn, a ahobammɔ wom a wɔde bɛsan abɔ a wɔbɛfa so ayɛ mmara nsakrae ho nhyehyɛe. Overwinter siesiee saa asɛm no. Ɛmaa Zcash yɛɛ nhyehyɛeɛ a ɛfata ma nkɔsoɔ ne, sɛdeɛ ɛho hia saa ara no, akwan mmienu replay ahobanbɔ, enti asɛm a ɛyɛ adwuma wɔ mmara baako ase no, wɔrentumi nsan nkɔbɔ bio wɔ foforɔ ase. Saa fapem adwuma no ne nea ɛmaa Sapling, ne nkɔso biara a wɔyɛe wɔ ɛno akyi no, tumi yɛɛ adwuma yiye.
 
-![Before and after Overwinter: before, no standard upgrade path and no replay protection. After, a network upgrade mechanism with two-way replay protection and safe future upgrades](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/overwinter-before-after.png)
+![Before and after Overwinter: before, no standard upgrade path and no replay protection. After, a network upgrade mechanism with two-way replay protection and safe future upgrades](/content-images/overwinter-before-after-acf4f5d283.webp)
 
 ## Adwinnade a wɔde yɛ upgrade no
 
@@ -28,7 +28,7 @@ Replay yɛ bere a obi fa asɛm bi a na ɛyɛ adwuma wɔ nkɔnsɔnkɔnsɔn biako 
 
 Eyi yɛ adwuma nsa ne nsa ne foforo version 3 transaction format fi [ZIP 202 na ɛwɔ hɔ](https://zips.z.cash/zip-0202), a ɛtɔ mmere bi a wɔfrɛ no Overwintered format no. Ɛde fOverwintered frankaa ne version kuw id a ɛma ɛda adi pefee sɛ mmara a wɔpene so bɛn na asɛm bi yɛ ne dea. Sɛ́ mfaso a ɛwɔ ɔfã bi no, nhyehyɛe foforo a wɔde wɔn nsa hyɛ ase no nso maa sɛnea wogye nnwuma a ɛda adi pefee tom ntɛmntɛm no yɛɛ yiye.
 
-![How replay protection works: a wallet signs a transaction that commits to the current consensus branch id, so the transaction cannot be replayed on any other branch](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/overwinter-replay-flow.png)
+![How replay protection works: a wallet signs a transaction that commits to the current consensus branch id, so the transaction cannot be replayed on any other branch](/content-images/overwinter-replay-flow-754ec8578a.webp)
 
 ## Aguadi no bere atwam
 
@@ -38,18 +38,18 @@ Eyi yɛ adwuma nsa ne nsa ne foforo version 3 transaction format fi [ZIP 202 na 
 
 Overwinter yɛ Zcash network upgrade a edi kan wɔ October 2016 mainnet a wɔde sii hɔ akyi, na ɛhyɛɛ da de kɔmaa Sapling. Ná n’adwuma ne infrastructure, na ɛnyɛ features. Ɛdenam upgrade mechanism ne replay-protection machinery a odii kan de sii hɔ so no, ɛmaa upgrade biara a ɛba akyiri yi (Sapling, Blossom, Heartwood, Canopy, NU5, ne nea edi hɔ) nyaa ɔkwan a ahobammɔ wom a wɔbɛfa so ayɛ adwuma.
 
-![Timeline from the October 2016 Sprout launch, through the 2016 to 2018 stretch with no upgrade framework, to Overwinter in June 2018](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/overwinter-timeline.png)
+![Timeline from the October 2016 Sprout launch, through the 2016 to 2018 stretch with no upgrade framework, to Overwinter in June 2018](/content-images/overwinter-timeline-689d9bcf20.webp)
 
 ## Nsɛmfua Nkyerɛase
 
 | Asɛmfua | Plain-English asekyerɛ |
 |---|---|
-| Netwɛk no mu nkɔso (NU) | Nsakraeɛ a wɔayɛ no pɛpɛɛpɛ wɔ Zcash mmara a wɔpene so, a wɔayɛ adwuma wɔ block height a wɔahyɛ |
-| Nhyiamu baa dwumadibea id | Nkyerɛkyerɛmu tiawa a ɛbɔ mprempren mmara a wɔagye atom no din |
-| Activation sorokɔ | Block a network upgrade bi mmara foforo no di dwuma |
-| Replay ahobammɔ | Mmara a esiw asɛm a ɛyɛ adwuma wɔ nkɔnsɔnkɔnsɔn biako so kwan sɛ wɔbɛsan de adi dwuma wɔ foforo so |
+| Network upgrade (NU) | Nsakraeɛ a wɔayɛ no pɛpɛɛpɛ wɔ Zcash mmara a wɔpene so, a wɔayɛ adwuma wɔ block height a wɔahyɛ |
+| Consensus branch id | Nkyerɛkyerɛmu tiawa a ɛbɔ mprempren mmara a wɔagye atom no din |
+| Activation height | Block a network upgrade bi mmara foforo no di dwuma |
+| Replay protection | Mmara a esiw asɛm a ɛyɛ adwuma wɔ nkɔnsɔnkɔnsɔn biako so kwan sɛ wɔbɛsan de adi dwuma wɔ foforo so |
 | Mempool | Nkitahodi ahorow a wɔabɔ ho dawuru nanso wonnya ntutuu mu nkɔ block |
-| Aguadi no bere atwam | Expiration block height a ɛno akyi no wɔtow asɛm a wɔantow gu |
+| Transaction expiry | Expiration block height a ɛno akyi no wɔtow asɛm a wɔantow gu |
 
 ## FAQ
 
@@ -79,15 +79,15 @@ Efisɛ ɛno na ɛyɛɛ mfiri a akyiri yi nkɔso biara gyina so no. Overwinter de
 
 [ZIP 200: Ntrɛwmu a Wɔde Yɛ Ntrɛwmu](https://zips.z.cash/zip-0200)
 
-[ZIP 201: Network Peer Management ma Awɔw Bere](https://zips.z.cash/zip-0201)
+[ZIP 201: Network Peer Management ma Overwinter](https://zips.z.cash/zip-0201)
 
-[ZIP 202: Version 3 Nkitahodi Nhyehyɛe a Wɔde Ma Awɔw Bere](https://zips.z.cash/zip-0202)
+[ZIP 202: Version 3 Nkitahodi Nhyehyɛe a Wɔde Ma Overwinter](https://zips.z.cash/zip-0202)
 
 [ZIP 203: Aguadi no twam](https://zips.z.cash/zip-0203)
 
-[ZIP 143: Aguadi Nsaano Nkyerɛwee a Wɔde Di Dwuma ma Awɔw Bere](https://zips.z.cash/zip-0143)
+[ZIP 143: Aguadi Nsaano Nkyerɛwee a Wɔde Di Dwuma ma Overwinter](https://zips.z.cash/zip-0143)
 
-[Awɔw Bere mu Network Upgrade](https://z.cash/upgrade/overwinter/)
+[Overwinter Network Upgrade](https://z.cash/upgrade/overwinter/)
 
 ### Hwɛ nso
 
@@ -105,4 +105,4 @@ Efisɛ ɛno na ɛyɛɛ mfiri a akyiri yi nkɔso biara gyina so no. Overwinter de
 
 ---
 
-Ntoatoasoɔ: [Network Upgrades ho nkyerɛkyerɛmu](../start-here/network-upgrades) · Dada: [Ffifi](../zcash-tech/sprout) · Deɛ ɛdi hɔ: [Sapling](../zcash-tech/sapling)
+Ntoatoasoɔ: [Network Upgrades ho nkyerɛkyerɛmu](../start-here/network-upgrades) · Dada: [Sprout](../zcash-tech/sprout) · Deɛ ɛdi hɔ: [Sapling](../zcash-tech/sapling)

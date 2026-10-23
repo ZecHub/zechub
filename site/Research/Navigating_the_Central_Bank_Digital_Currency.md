@@ -101,7 +101,7 @@ Financial inclusion, once a beacon of hope, faces the shadows of potential discr
 
 For those venturing into the uncharted territory of CBDCs, resources become your compass.
 1. The Bank for International Settlements ([BIS](https://www.bis.org/search?keywords=cbdc))
-2. the International Monetary Fund ([IMF](https://www.imf.org/en/About))
+2. the International Monetary Fund ([IMF](https://web.archive.org/web/20260708111341/https://www.imf.org/en/about))
 3. Research papers ([paper](https://papers.ssrn.com/searchresults.cfm?term=CBDC))
 4. Academic Journals ([journal](https://www.bis.org/publ/work976.pdf))
 5. C.E.I Article  ([Article](https://cei.org/blog/central-banks-are-watching-lets-watch-them-back/))

@@ -2,24 +2,33 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-## Zebra Node'a Giriş
+# Zebra Tam Düğüm
 
-Zebra ile tanışın: Rust ile Zcash Node Altyapısında Devrim
+## Kısaca
 
-Tamamen Rust ile geliştirilmiş ilk Zcash node'u olan Zebra ile tanışın; bu çığır açan başarı, Zcash ekosisteminde önemli bir dönüm noktasıdır. Zcash eşler arası ağa sorunsuz biçimde entegre edilen Zebra, ağın dayanıklılığını güçlendiren kritik bir araç olarak hizmet eder. İşlemleri doğrulama ve yayınlama ile Zcash blockchain durumunu titizlikle koruma gibi temel işlevleri sayesinde Zebra, daha merkeziyetsiz bir ağ altyapısına katkıda bulunur.
+- Zebra (`zebrad`), Rust ile yazılmış ve Zcash Foundation tarafından sürdürülen Zcash tam düğümüdür.
+- Blokları ve işlemleri doğrular, zincir durumunu korur ve eşler arası ağ üzerinden diğer düğümlerle iletişim kurar.
+- Zebra ve zcashd aynı protokolü uyguladı ve birlikte çalışabiliyordu. zcashd kullanımdan kaldırıldığından beri Zebra mutabakat rolünü üstlenmektedir.
+- Çalıştırmanın iki yolu vardır: `zfnd/zebra` Docker imajı veya kaynak koddan derleme.
+- Önerilen donanım 4 CPU çekirdeği, 16 GB RAM ve 300 GB disktir. Asgari gereksinim, aynı 300 GB disk alanıyla 2 çekirdek ve 4 GB RAM'dir.
 
-## Zcashd Node Uygulamasına Karşı Avantajları
-Kökeni Bitcoin'in temel kod tabanına dayanan ve Electric Coin Company tarafından geliştirilen özgün Zcash node'u zcashd'nin aksine, bizim uygulamamız bağımsız bir yapıdır. Güvenlik ve verimlilik odağıyla sıfırdan geliştirilen Zebra, bellek güvenliğine sahip Rust dilinin gücünden yararlanır.
+## Temel Açıklama
 
-Farklı kökenlere sahip olmalarına rağmen, hem zcashd hem de Zebra aynı protokole uyar; bu da aralarında sorunsuz iletişim ve birlikte çalışabilirlik sağlar. Bu yenilik yalnızca Zcash ekosistemini genişletmekle kalmaz, aynı zamanda blockchain node geliştirme için yeni bir standart belirler.
+Zebra, tamamen Rust ile yazılmış ilk Zcash düğümüdür. İşlemleri doğrulayıp yayınladığı ve blok zinciri durumunu koruduğu Zcash eşler arası ağında yer alır. İkinci bağımsız bir uygulamanın bulunması, ağ altyapısının herhangi tek bir kod tabanına daha az bağımlı olmasını sağlar.
 
-## Zebra Launcher Talimatları
+### Zebra ve zcashd
 
-Zebra'yı Docker image'ımızı kullanarak çalıştırabilir veya manuel olarak derleyebilirsiniz. Lütfen Sistem Gereksinimleri bölümüne bakın.
+Özgün Zcash düğümü olan zcashd, Bitcoin'in kod tabanından Electric Coin Company tarafından geliştirildi. Zebra ise güvenlik ve verimliliğe odaklanılarak, bellek güvenli bir dil olan Rust'ta sıfırdan yazıldı.
 
-### Docker Kullanımı:
+Her iki uygulama da aynı protokolü takip eder; dolayısıyla iletişim kurabilir ve birlikte çalışabilirler. zcashd, 18 Temmuz 2026'da Destek Sonu durma noktasına ulaştı ve artık başlamıyor; bu da kullanımda olan düğüm uygulamaları olarak Zebra ve Zakura'ü bırakıyor. Daha geniş tablo için [Tam Düğümler](/zcash-tech/full-nodes) sayfasına bakın.
 
-En son sürümümüzü zahmetsizce çalıştırmak ve en güncel duruma senkronize etmek için aşağıdaki komutu çalıştırın:
+## Zebra Çalıştırma
+
+Zebra'yi Docker imajını kullanarak çalıştırabilir veya manuel olarak derleyebilirsiniz. Lütfen Sistem Gereksinimleri bölümüne bakın.
+
+### Docker Kullanımı
+
+En son sürümü çalıştırmak ve zincirin ucuyla senkronize etmek için aşağıdaki komutu çalıştırın:
 
 ```
 
@@ -27,114 +36,128 @@ docker run zfnd/zebra:latest
 
 ```
 
-Daha kapsamlı talimatlar ve ayrıntılı bilgiler için lütfen [Docker dokümantasyonumuza](https://zebra.zfnd.org/user/docker.html) başvurun.
+Tam talimatlar için [Docker belgelerine](https://zebra.zfnd.org/user/docker.html) bakın.
 
-### Zebra Derleme:
+### Zebra Derleme
 
-Zebra'yı derlemek için Rust, libclang ve bir C++ derleyicisi gerekir.
+Zebra derlemek için Rust, libclang ve bir C++ derleyicisi gerekir.
 
-- Zebra yalnızca bununla test edildiğinden, en son kararlı Rust sürümünün kurulu olduğundan emin olun.
+- Zebra yalnızca bununla test edildiği için en son kararlı Rust sürümünün kurulu olduğundan emin olun.
 - Gerekli derleme bağımlılıkları şunlardır:
   - libclang (libclang-dev veya llvm-dev olarak da bilinir)
-  - clang veya başka bir C++ derleyicisi (tüm platformlar için g++ ya da macOS için Xcode gibi)
-  - *--experimental_allow_proto3_optional* bayrağı ile protoc (Protocol Buffers derleyicisi); bu bayrak, 16 Mayıs 2020'de yayımlanan Protocol Buffers v3.12.0 ile sunulmuştur.
+  - clang ya da başka bir C++ derleyicisi (tüm platformlar için g++ veya macOS için Xcode gibi)
+  - Protocol Buffers v3.12.0'da (16 Mayıs 2020'de yayımlandı) kullanıma sunulan *--experimental_allow_proto3_optional* bayrağıyla birlikte protoc (Protocol Buffers derleyicisi).
 
+### Kurulum ve Başlatma
 
-
-### Arch Üzerindeki Bağımlılıklar:
-
-Bağımlılıkların karşılandığından emin olduktan sonra, Zebra'yı derlemek ve kurmak için aşağıdaki komutu çalıştırın:
+glibc 2.34 veya daha yeni sürümü kullanan x86_64 ya da aarch64 Linux'ta (Ubuntu 22.04+, Debian 12+, RHEL 9+, Amazon Linux 2023), derleme bağımlılıklarını atlayabilir ve imzalı, önceden derlenmiş bir ikili dosya kurabilirsiniz:
 
 ```
-
-cargo install --locked zebrad
-
+cargo binstall zebrad
 ```
 
-Zebra'yı başlatmak için şunu çalıştırın:
+Aynı ikili dosyalar, her GitHub sürümüne `zebrad-<version>-<target>.tar.gz` olarak eklenir; her birinde SHA-256 sağlama toplamı, Sigstore derleme-kökeni kanıtı ve Cosign imzası bulunur. Eski platformlarda Docker imajını kullanın veya kaynak koddan derleyin.
+
+Kaynak koddan derlemek için kodu alın ve sürüm ikili dosyasını derleyin:
 
 ```
-zebrad start
-
+git clone https://github.com/ZcashFoundation/zebra.git
+cd zebra
+cargo build --release --bin zebrad
 ```
 
+Düğümü şu komutla başlatın:
 
-## İsteğe Bağlı Yapılandırmalar ve Özellikler:
+```
+target/release/zebrad start
+```
 
+Kurulum rehberi: [zebra.zfnd.org/user/install.html](https://zebra.zfnd.org/user/install.html)
 
-### - Yapılandırma Dosyasını Başlatma:
+## İsteğe Bağlı Yapılandırmalar ve Özellikler
 
-  - Aşağıdaki komutu kullanarak bir yapılandırma dosyası oluşturun:
-    
+### Yapılandırma Dosyasını Başlatma
+
+  - Şu komutu kullanarak bir yapılandırma dosyası oluşturun:
+
   ```
   zebrad generate -o ~/.config/zebrad.toml
-  
+
   ```
 
-  - Oluşturulan *zebrad.toml*, Linux'un varsayılan tercih dizinine yerleştirilir. Diğer işletim sistemlerinin varsayılan konumları için dokümantasyonumuza bakın.
+  - Oluşturulan *zebrad.toml*, Linux'un varsayılan tercih dizinine yerleştirilecektir. Diğer işletim sistemlerinin varsayılan konumları için belgelere bakın.
 
+### İlerleme Çubuklarını Yapılandırma
 
+  - Terminalde ilerleme çubukları kullanarak temel metrikleri görüntülemek için *zebrad.toml* dosyanızdaki *tracing.progress_bar* ayarını yapılandırın. Not: İlerleme çubuğu tahminlerinin aşırı derecede büyük olabildiği bilinen bir sorun vardır.
 
-### - İlerleme Çubuklarını Yapılandırma:
+### Madenciliği Yapılandırma
 
-  - *zebrad.toml* dosyanızda *tracing.progress_bar* ayarını yapılandırarak önemli metriklerin terminalde ilerleme çubuklarıyla gösterilmesini sağlayın. Not: İlerleme çubuğu tahminlerinin aşırı büyük hale gelebildiği bilinen bir sorun vardır.
+  - Zebra, Docker'da bir *MINER_ADDRESS* ve port eşlemesi belirtilerek madencilik için yapılandırılabilir. Daha fazla ayrıntıyı [Madencilik desteği belgelerinde](https://zebra.zfnd.org/user/mining-docker.html) bulabilirsiniz.
 
+### Özel Derleme Özellikleri
 
-
-### - Madenciliği Yapılandırma:
-
-  - Zebra, Docker içinde bir *MINER_ADDRESS* ve port eşlemesi belirtilerek madencilik için özelleştirilebilir. Daha fazla ayrıntıyı [Madencilik desteği dokümantasyonumuzda](https://zebra.zfnd.org/user/mining-docker.html) bulabilirsiniz.
-
-
-### - Özel Derleme Özellikleri:
-
-  - Prometheus metrikleri, Sentry izleme, deneysel Elasticsearch desteği ve daha fazlası gibi ek Cargo özellikleriyle Zebra'nın işlevselliğini genişletin.
+  - Prometheus metrikleri, Sentry izleme, deneysel Elasticsearch desteği ve daha fazlası gibi ek Cargo özellikleriyle Zebra'nin işlevselliğini genişletin.
 
   - Kurulum sırasında `--features` bayrağının parametreleri olarak birden fazla özelliği listeleyerek bunları birleştirin.
 
+  - Performansı optimize etmek amacıyla bazı hata ayıklama ve izleme özellikleri sürüm derlemelerinde devre dışı bırakılır. Deneysel ve geliştirici özelliklerinin tam listesi için [API belgelerine](https://docs.rs/zebrad/latest/zebrad/index.html#zebra-feature-flags) başvurun.
 
-### Not: Bazı hata ayıklama ve izleme özellikleri, performansı optimize etmek için release derlemelerinde devre dışı bırakılmıştır.
+## Sistem Gereksinimleri ve Ağ Yapılandırması
 
-Deneysel ve geliştirici özelliklerinin kapsamlı bir listesi için lütfen [API dokümantasyonumuza](https://docs.rs/zebrad/latest/zebrad/index.html#zebra-feature-flags) bakın.
- 
+### Önerilen Gereksinimler
 
-# Zebra için Sistem Gereksinimleri ve Ağ Yapılandırması
-
-Tamamen Rust ile geliştirilmiş devrim niteliğindeki Zcash node'u zebrad'i derlemek ve çalıştırmak için en iyi performans ve güvenilirliği sağlamak adına aşağıdaki sistem gereksinimlerini öneriyoruz:
-
-### Sistem Gereksinimleri:
 - CPU: 4 CPU çekirdeği
 - RAM: 16 GB
-- Disk Alanı: İkili dosyaların derlenmesi ve önbelleğe alınmış chain state'in depolanması için 300 GB kullanılabilir disk alanı
-- Ağ: Aylık en az 300 GB yükleme ve indirme kapasitesine sahip 100 Mbps ağ bağlantısı
+- Disk Alanı: İkili dosyaları derlemek ve önbelleğe alınmış zincir durumunu depolamak için 300 GB kullanılabilir disk alanı
+- Ağ: Ayda en az 300 GB yükleme ve indirme ile 100 Mbps ağ bağlantısı
 
+### Asgari Gereksinimler
 
-Lütfen Zebra'nın test paketinin, makinenizin özelliklerine bağlı olarak tamamlanmasının bir saatten fazla sürebileceğini unutmayın. Daha yavaş sistemler Zebra'yı derleyip çalıştırabiliyor olabilir, ancak testler yoluyla kesin performans sınırlarını henüz belirlemiş değiliz.
+- CPU: 2 CPU çekirdeği
+- RAM: 4 GB
+- Disk Alanı: 300 GB kullanılabilir disk alanı
 
+Zebra'nin test paketi, makinenizin özelliklerine bağlı olarak tamamlanması bir saatten fazla sürebilir. Daha yavaş sistemler de Zebra'yi derleyip çalıştırabilir. Kesin performans sınırları testlerle belirlenmemiştir.
 
-### Disk Gereksinimleri:
+### Disk Gereksinimleri
+
 - Zebra, önbelleğe alınmış Mainnet verileri için yaklaşık 300 GB ve önbelleğe alınmış Testnet verileri için 10 GB kullanır. Disk kullanımının zamanla artmasını bekleyin.
-- Veritabanı, özellikle kapatma veya yeniden başlatma sırasında düzenli olarak temizlenir ve veri bütünlüğü sağlanır. Zorla sonlandırmalar veya panikler nedeniyle tamamlanmamış değişiklikler, Zebra yeniden başlatıldığında geri alınır.
+- Veritabanı periyodik olarak, ayrıca kapatma veya yeniden başlatma sırasında temizlenir. Değişiklikler veritabanı işlemleri kullanılarak kaydedilir. Zorla sonlandırma veya panic nedeniyle tamamlanmamış değişiklikler, Zebra bir sonraki kez başladığında geri alınır.
 
+### Ağ Gereksinimleri ve Portlar
 
-### Ağ Gereksinimleri ve Portlar:
 - Zebra, gelen ve giden bağlantılar için aşağıdaki TCP portlarını kullanır:
   - Mainnet için 8233
   - Testnet için 18233
-- Zebra'yı belirli bir listen_addr ile yapılandırmak, bu adresin gelen bağlantılar için ilan edilmesini sağlar. Senkronizasyon için giden bağlantılar gerekli olsa da gelen bağlantılar isteğe bağlıdır.
-- İşletim sistemi DNS çözümleyicisi üzerinden (genellikle 53 numaralı port) Zcash DNS seeders erişimi gereklidir.
-- Zebra herhangi bir port üzerinden giden bağlantılar kurabilse de, zcashd diğer ağlara yönelik DDoS saldırılarını azaltmak için varsayılan portlardaki eşleri tercih eder.
+- Zebra'yi belirli bir listen_addr ile yapılandırmak, bu adresi gelen bağlantılar için duyurur. Senkronizasyon için giden bağlantılar gereklidir; gelen bağlantılar isteğe bağlıdır.
+- İşletim sistemi DNS çözümleyicisi aracılığıyla Zcash DNS seed'lerine erişim gereklidir (genellikle port 53).
+- Zebra herhangi bir port üzerinden giden bağlantılar kurabilir. zcashd, diğer ağlara yönelik DDoS saldırılarında kullanılmaktan kaçınmak için varsayılan portlardaki eşleri tercih eder.
 
+### Tipik Mainnet Ağ Kullanımı
 
-### Tipik Mainnet Ağ Kullanımı:
-- İlk Senkronizasyon: İlk senkronizasyon için 300 GB indirme gerekir; sonraki indirmelerde bunun artması beklenir.
-- Sürekli Güncellemeler: Kullanıcı işlem boyutlarına ve eş isteklerine bağlı olarak günlük 10 MB ile 10 GB arasında yükleme ve indirme bekleyin.
-- Zebra, her dahili veritabanı sürümü değişikliğinde bir ilk senkronizasyon başlatır; bu da sürüm yükseltmeleri sırasında tam chain indirmeleri gerektirebilir.
-- Gidiş-dönüş gecikmesi 2 saniye veya daha az olan eşler tercih edilir. Gecikme bu eşiği aşarsa lütfen yardım için bir destek kaydı gönderin.
+- İlk Senkronizasyon: İlk senkronizasyon için 300 GB indirme gerekir ve bu miktarın artması beklenmektedir.
+- Süregelen Güncellemeler: Kullanıcı işlem boyutlarına ve eş isteklerine bağlı olarak günlük 10 MB ile 10 GB arasında yükleme ve indirme.
+- Zebra, her dahili veritabanı sürümü değişikliğinde ilk senkronizasyon başlatır; bu, sürüm yükseltmeleri sırasında zincirin tamamının indirilmesi anlamına gelebilir.
+- Gidiş-dönüş gecikmesi 2 saniye veya daha az olan eşler tercih edilir. Gecikme bu eşiği aşarsa Zebra deposunda bir kayıt açın.
 
+## Yaygın Hatalar
 
-Bu önerilere ve yapılandırmalara uyarak, Zebra'nın Zcash ağı içindeki verimliliğini ve etkinliğini en üst düzeye çıkarabilirsiniz. Herhangi bir sorunla karşılaşırsanız veya ek yardıma ihtiyaç duyarsanız, destek ekibimiz size rehberlik sağlamaya hazırdır.
+- Diski bugünün ihtiyaçlarına göre boyutlandırmak. Önbelleğe alınmış Mainnet durumu zaten 300 GB'a yakın ve büyümeye devam ediyor.
+- `zebrad`'den cüzdan RPC'leri beklemek. Anahtarlar ve bakiyeler, ayrı bir program olan [Zallet](https://github.com/zcash/zallet) içinde bulunur.
+- `zebrad`'yi tek başına çalıştırıp hafif cüzdanların bağlanmasını beklemek. Bu yol, lightwalletd ya da [Zaino](/zcash-tech/zaino) olmak üzere bir indeksleyici gerektirir.
+- Beklenmedik bir yeniden senkronizasyonu hata olarak görmek. Bir veritabanı sürümü değişikliği bunu tasarım gereği tetikler.
 
+## İlgili Sayfalar
 
-Zebra Node Kurulum rehberinin bağlantısı burada:
-https://zebra.zfnd.org/user/install.html?highlight=zebra%20launcher#installing-zebra
+- [Tam Düğümler](/zcash-tech/full-nodes) - tam düğümün ne yaptığı ve hangi uygulamaların bulunduğu
+- [Zakura Düğümü](/zcash-tech/zakura-node) - daha hızlı senkronizasyon ve budama özelliğine sahip, Zebra'den çatallanmış bir düğüm
+- [Zaino](/zcash-tech/zaino) - hafif cüzdanlara hizmet veren Rust indeksleyicisi
+- [Hafif Cüzdan Düğümleri](/zcash-tech/lightwallet-nodes) - hafif cüzdanların sorguladığı sunucular
+- [Zcash Madencilik Rehberi](/using-zcash/zcash-mining-guide) - kendi düğümünüze karşı madencilik
+
+## Daha Fazla Öğrenme
+
+- [Zebra Kitabı](https://zebra.zfnd.org)
+- [ üzerindeki Zebra GitHub](https://github.com/ZcashFoundation/zebra/)
+- [Sistem Gereksinimleri](https://zebra.zfnd.org/user/requirements.html)

@@ -5,10 +5,10 @@
 
 # Zcash Adrɛswo Kpɔkpɔ le susu me
 
-Ne èle nu srɔ̃m tso Zcash ŋu zi gbãtɔ la, àkpɔe enumake be [asitsatsa] ƒomevi eve li](https://zechub.wiki/using-zcash/transactions) si ate ŋu adzɔ: *si me kɔ* eye *woakpɔ akpoxɔnu*.
-Gawu la, ne èle nu yeye siwo le edzi yim le Zcash ƒe lãwo ƒe agbenɔnɔ me la kpɔm la, ɖewohĩ èsrɔ̃ nu tso [Unified Addresses](https://electriccoin.co/blog/unified-addresses-in-zcash-explained/), or UA's.
+Ne èle nu srɔ̃m tso Zcash ŋu zi gbãtɔ la, àkpɔe enumake be ƒomevi eve li [asitsatsa ƒe ɖoɖowo](https://zechub.wiki/using-zcash/transactions) si ateŋu adzɔ: *si me kɔ* eye *wokpɔ akpoxɔnu*.
+Gawu la, ne èle nu yeye siwo le edzi yim le Zcash ƒe lãwo ƒe agbenɔnɔ me la kpɔm la, ke ɖewohĩ èsrɔ̃ nu tso eŋu [Adrɛs Siwo Wowɔ Ðekae](https://web.archive.org/web/20260823012524/https://electriccoin.co/blog/unified-addresses-in-zcash-explained/), or UA's.
 Ne folks le Zcash dɔwɔƒea ƒo nu tso *shielded* asitsatsa ŋu la, wofia asitsatsa siwo lɔ adrɛs siwo woŋlɔ ɖe kɔpi me na sapling alo orchard protocols. 
-Wotrɔ asi le UA's ŋu be woawɔ *ɖesiaɖe* ƒe asitsatsa si wokpɔ ta na alo esi me kɔ la ɖekae ɖe adrɛs ɖeka me. Generalization siae nye nu vevitɔ si ana UX nanɔ bɔbɔe le ŋgɔyiyi me. Taɖodzinu si le mɔfiame sia ŋue nye be wòatsɔ kpɔɖeŋu ŋutɔŋutɔ siwo wokpɔna akpe ɖe UA ƒe gɔmesese ŋu.
+Wotrɔ asi le UA's ŋu be woawɔ *ɖesiaɖe* ƒe asitsatsa si wokpɔ ta na alo esi me kɔ la ɖekae ɖe adrɛs ɖeka me. Generalization sia nye nu vevitɔ si ana UX nanɔ bɔbɔe be wòanɔ ŋgɔ yim. Taɖodzinu si le mɔfiame sia ŋue nye be woatsɔ kpɔɖeŋu ŋutɔŋutɔ siwo wokpɔna akpe ɖe UA ƒe gɔmesese ŋu.
 
 ## Zcash adrɛs ƒomeviwo
 
@@ -18,7 +18,7 @@ Fifia la, adrɛs ƒomevi vevi etɔ̃e wozãna vaseɖe fifia. Esiawo dometɔ aɖe
 
 ![img1](/content-images/219261771-a9957ec3-2841-4073-9cfd-1db9d6-574fc930f0.webp)
 
-* atikutsetsewo ƒe ƒuƒu
+* atikutsetsewo ƒe ŋeŋe
 
 ![img2](/content-images/219261784-1a617e70-f588-4eed-96bf-f0789d-e10ebfc543.webp)
 
@@ -27,7 +27,7 @@ Fifia la, adrɛs ƒomevi vevi etɔ̃e wozãna vaseɖe fifia. Esiawo dometɔ aɖe
 ![img3](/content-images/219261794-bcc79db6-4dc6-4c6a-867b-3717b8-a3650f8968.webp)
 
 
-Nu gbãtɔ si wòle be míade dzesii enye alesi adrɛs ƒomevi ɖesiaɖe ƒe didime to vovoe. Àte ŋu akpɔ esia kple ŋku to ŋɔŋlɔdzesi siwo le adrɛs ƒe ka me *alo* ne èlé ŋku ɖe QR-dzesi siwo do ƒome kplii ŋu. Ne adrɛs la ƒe didime le dzidzim ɖe edzi la, QR-kɔda la dina be yeaɖiɖi ɖe edzi eye wòatsɔ nyatakaka geɖe ade dzogoe ene me.
+Nu gbãtɔ si wòle be míade dzesii enye alesi adrɛs ƒomevi ɖesiaɖe ƒe didime to vovoe. Àte ŋu akpɔ esia kple ŋku to ŋɔŋlɔdzesi siwo le adrɛs ƒe ka me *alo* ne èlé ŋku ɖe QR-kɔda siwo do ƒome kplii ŋu. Ne adrɛs la ƒe didime le dzidzim ɖe edzi la, QR-kɔda la dina be yeaɖiɖi ɖe edzi eye wòatsɔ nyatakaka geɖe ade dzogoe ene me.
 
 * `t1goiSyw2JinFCmUnfiwwp72LEZzD42TyYu` ƒe didime nye ŋɔŋlɔdzesi 35
 * `zs1cpf4prtmnqpg6x2ngcrwelu9a39z9l9lqukq9fwagnaqrknk34a7n3szwxpjuxfjdxkuzykel53` ƒe didime nye ŋɔŋlɔdzesi 78
@@ -41,10 +41,10 @@ Ele vevie be míade dzesii be:
 
 ## Unified Address receivers
 
-Abe alesi míeƒo nu tsoe [le afisia ene](https://medium.com/@hanh425/transaction-privacy-78f80f9f175e) ame ateŋu atu UA's kple receivers vovovowo -- ɖewo ƒokpli transparent,sapling, kple atikutsetsebɔ adrɛs ƒomeviwo.
+Abe alesi míedzro emee ene [afi sia](https://medium.com/@hanh425/transaction-privacy-78f80f9f175e) ame ateŋu atu UA's kple receivers vovovowo -- ɖewo ƒokpli transparent,sapling, kple atikutsetsebɔ adrɛs ƒomeviwo.
 Tsɔ kpe ɖe UA blibo ŋu la, esiwo bɔ wu siwo nàkpɔ le gbe me lae nye esi:
 
-* nusi me kɔ + atikutsetse ƒe atikutsetse
+* nusi me kɔ + atikutsetse
 
 ![img4](/content-images/219267475-38ad1419-0aac-4205-b18e-687328-46b8f12f80.webp)
 
@@ -62,7 +62,7 @@ Tsɔ kpe ɖe UA blibo ŋu la, esiwo bɔ wu siwo nàkpɔ le gbe me lae nye esi:
   
 ![img7](/content-images/219267538-1a748fff-4034-4559-96ac-182723-3d69e23dac.webp)
 
-Nu gbãtɔ si wòle be míade dzesii enye be UA siawo dometɔ ɖesiaɖe tso private key ɖeka me! Nu evelia si wòle be míade dzesii enye UA ƒomevi ɖesiaɖe ƒe didime:
+Nu gbãtɔ si wòle be míade dzesii enye be UA siawo dometɔ ɖesiaɖe tso ame ŋutɔ ƒe safui ɖeka me! Nu evelia si wòle be míade dzesii enye UA ƒomevi ɖesiaɖe ƒe didime:
 
 * t+s `u13qutpuktq026dwczvxmnh8mxdacsjx3kg2rrhzgns8zsty53t9y0hqp5d440zc9w7z7zkkjqw8dq0uuc0mkt883464mq8mkys7l4xjnhylh7u3u02ukknurm5yxerqlf500y2atq28e` ŋɔŋlɔdzesi 141 ye le eme
 * t+o `u1yvwppp7ann6n3pgkysdu0spvr50w4jf4jwgme3c8x8fp4av59rupgvdd3fddc3f2cwrk3ghs5lxt87ggj8cvjuzcrf4jkejwlu9pc83gk2vtx03ucqcc3ed0furcuypqs6d6swu3nws` ŋɔŋlɔdzesi 141 ye le eme

@@ -117,7 +117,7 @@ Zcash dziɖuɖu nye "on-chain protocol rules" kple "off-chain social consensus" 
 
 ## 4. Nufiame Tabla Kaba - Gazazã ƒe Nɔnɔmetɔtrɔ
 
-| Ɣeyiɣi si me | Tomenukulawo | ECC/Afɔdzideƒe | ZF | ZCG ƒe | Lockbox | De dzesiiwo |
+| Ɣeyiɣi si me | Tomenukulawo | ECC/Afɔdzideƒe | ZF | ZCG | Lockbox | De dzesiiwo |
 |------------------|--------|---------------|------|------|---------|--------------------------------------------|
 | 2020 - Nov 2024 | 80% ƒe xexlẽme | 7% ƒe xexlẽme | 5% ƒe xexlẽme | 8% ƒe xexlẽme | - | Klasik dev gaxɔ |
 | Nov 2024 - fifia | 80% ƒe xexlẽme | 0% ƒe xexlẽme | 0% ƒe xexlẽme | 8% ƒe xexlẽme | 12% ƒe xexlẽme | NU6 ƒe kpɔɖeŋu + ZCG ƒe kekeɖenudɔ |

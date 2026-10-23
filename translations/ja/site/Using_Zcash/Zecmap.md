@@ -57,12 +57,12 @@ ZecMapにはオンライン事業者も掲載されています。カテゴリ�
 
 | 項目 | 提供する内容 |
 |-------|----------------|
-| 企業・店舗名 | 公開されている正式名称 |
-| ウェブサイトまたは連絡先 | URLまたはソーシャルプロフィール |
-| 所在地 | 実店舗なら住所、オンラインなら地域 |
-| カテゴリ | カフェ、レストラン、店舗、サービス、オンラインショップなど |
-| 証拠 | 公開された支払いページ、加盟店の告知、または直接確認 |
-| 支払いに関する注記 | 対面、オンライン、または両方；transparent ZECまたはshielded ZEC |
+| Business name | 公開されている正式名称 |
+| Website or contact | URLまたはソーシャルプロフィール |
+| Location | 実店舗なら住所、オンラインなら地域 |
+| Category | カフェ、レストラン、店舗、サービス、オンラインショップなど |
+| Evidence | 公開された支払いページ、加盟店の告知、または直接確認 |
+| Payment notes | 対面、オンライン、または両方；transparent ZECまたはshielded ZEC |
 
 登録申請には、顧客の個人データを含めないようにしてください。取引証明を使う場合は、共有前に個人情報、注文番号、自宅住所を削除してください。
 
@@ -137,7 +137,7 @@ ZecMapは、利用店舗が増えつつある決済ネットワーク**Flexa**�
 
 ## 関連ページ
 
-- [ZECを使う](/using-zcash/spend-zcash) — 現実世界でZECを使うほかの方法
+- [ZECを使う](/using-zcash/spend-zcash/top-10-places-to-spend-zec) — 現実世界でZECを使うほかの方法
 - [決済プロセッサ](/using-zcash/payment-processors) — 加盟店がZECを受け付けるためのツール
 - [ZECをプライベートに使う](/guides/using-zec-privately) — shielded決済のベストプラクティス
 - [ウォレット](/using-zcash/wallets) — ZEC加盟店決済に対応するウォレット

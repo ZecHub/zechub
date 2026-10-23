@@ -21,13 +21,13 @@ De esto se desprenden dos cosas:
 1. Los bloques llegan aproximadamente el doble de seguido, por lo que la cadena puede transportar aproximadamente el doble de transacciones por unidad de tiempo.
 2. Tu transacción recibe su primera confirmación antes, porque no esperas tanto al siguiente bloque.
 
-![Antes de Blossom el objetivo entre bloques era de 150 segundos, con confirmaciones más lentas y menor rendimiento. Después de Blossom el objetivo es de 75 segundos, con confirmaciones más rápidas y aproximadamente el doble de rendimiento](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/blossom-block-spacing.png)
+![Antes de Blossom el objetivo entre bloques era de 150 segundos, con confirmaciones más lentas y menor rendimiento. Después de Blossom el objetivo es de 75 segundos, con confirmaciones más rápidas y aproximadamente el doble de rendimiento](/content-images/blossom-block-spacing-50b6bfbacc.webp)
 
 ## Mantener estable la emisión
 
 Los bloques más rápidos plantean una pregunta. Si Zcash produjera el doble de bloques y cada bloque siguiera pagando la misma recompensa, la red crearía ZEC dos veces más rápido. Blossom evita eso. Redujo a la mitad la recompensa pagada por bloque y duplicó el intervalo de halving de la recompensa de bloque de 840,000 a 1,680,000 bloques ([ZIP 208](https://zips.z.cash/zip-0208)). El doble de bloques, cada uno pagando la mitad, da como resultado la misma cantidad de ZEC creada por unidad de tiempo. El calendario de suministro total y el momento de los futuros halvings, medidos en tiempo real, no cambiaron.
 
-![Cómo Blossom mantiene estable la emisión: los bloques de 75 segundos llegan el doble de seguido, la recompensa por bloque se reduce a la mitad, el intervalo de halving se duplica, por lo que la emisión total con el paso del tiempo se mantiene igual](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/blossom-emission-balance.png)
+![Cómo Blossom mantiene estable la emisión: los bloques de 75 segundos llegan el doble de seguido, la recompensa por bloque se reduce a la mitad, el intervalo de halving se duplica, por lo que la emisión total con el paso del tiempo se mantiene igual](/content-images/blossom-emission-balance-f2443e29ab.webp)
 
 ## Una actualización obligatoria
 
@@ -41,12 +41,12 @@ Blossom fue la tercera actualización de red de Zcash. Siguió a Overwinter y Sa
 
 | Término | Significado en lenguaje sencillo |
 |---|---|
-| Espaciado objetivo entre bloques | El tiempo al que la red apunta entre un bloque y el siguiente |
-| Recompensa de bloque | Los nuevos ZEC creados y pagados cuando se mina cada bloque |
-| Intervalo de halving | Cuántos bloques transcurren entre cada halving de la recompensa de bloque |
+| Block target spacing | El tiempo al que la red apunta entre un bloque y el siguiente |
+| Block reward | Los nuevos ZEC creados y pagados cuando se mina cada bloque |
+| Halving interval | Cuántos bloques transcurren entre cada halving de la recompensa de bloque |
 | Consensus branch id | Una etiqueta que marca qué conjunto de reglas de red está siguiendo un nodo o una transacción |
-| Cambio de consenso bilateral | Un cambio de reglas que cada nodo debe adoptar para permanecer en la red |
-| Actualización de red (NU) | Un cambio coordinado en las reglas de consenso de Zcash, activado a una altura de bloque determinada |
+| Bilateral consensus change | Un cambio de reglas que cada nodo debe adoptar para permanecer en la red |
+| Network upgrade (NU) | Un cambio coordinado en las reglas de consenso de Zcash, activado a una altura de bloque determinada |
 
 ## Preguntas frecuentes
 

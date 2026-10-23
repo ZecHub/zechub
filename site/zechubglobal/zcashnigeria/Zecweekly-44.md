@@ -16,7 +16,7 @@ Iwe iroyin ti ọsẹ yii yoo ṣawari sinu awọn iṣẹlẹ tuntun laarin ilo
 ## Nkan Ẹkọ ti Ọsẹ yii
 Ni ọsẹ yii nkan ẹkọ, a yoo kọ ẹkọ nipa eto isọdọtun eyiti o le ṣee lo lati fipamọ ati pinpin awọn faili lori Intanẹẹti nipasẹ ohun elo ti a mọ si InterPlanetary File System (IPFS). Ninu ikẹkọ yii, iwọ yoo tun kọ ẹkọ bii o ṣe le ṣe atẹjade oju opo wẹẹbu rẹ lori IPFS lati jẹ ki ilana isọdọtun pipe lori oju opo wẹẹbu rẹ.
 
-Kọ ẹkọ diẹ sii nipa IPFS [nibi](https://wiki.zechub.xyz/zfav/guides/publish-a-site-on-ipfs) 
+Kọ ẹkọ diẹ sii nipa IPFS [nibi](https://zechub.wiki/zfav-club/guides-for-creators/publish-site-on-ipfs) 
 
 ## Awọn imudojuiwọn Zcash
 
@@ -63,7 +63,7 @@ Kọ ẹkọ diẹ sii nipa IPFS [nibi](https://wiki.zechub.xyz/zfav/guides/publ
 
 
 #### Iroyin ati Media 
-[A16z ṣe idasilẹ eto idibo ailorukọ fun Ethereum](https://cointelegraph.com/news/A16z-releases-anonymous-voting-system-for-Ethereum)
+[A16z ṣe idasilẹ eto idibo ailorukọ fun Ethereum](https://web.archive.org/web/20260711141039/https://cointelegraph.com/news/a16z-releases-anonymous-voting-system-for-ethereum)
 
 [Crypto Exchange Coinone's Exec iṣaaju jẹwọ awọn idiyele abẹtẹlẹ ni ilu South Korea](https://www.google.com/amp/s/www.coindesk.com/policy/2023/05/26/crypto-exchange-coinones-former-exec-acknowledges-bribery-charges-in-south-korea-report/%3foutputType=amp) 
 

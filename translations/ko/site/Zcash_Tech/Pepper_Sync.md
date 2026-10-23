@@ -52,9 +52,9 @@ Pepper Sync는 여러 개선점을 도입했습니다:
 
 ### 시각 자료
 
-- 상세 흐름도 - 전체 과정을 보여줍니다. ![상세 흐름도](https://github.com/user-attachments/assets/119c13ec-76be-42bd-b558-762d09275a1b)
+- 상세 흐름도 - 전체 과정을 보여줍니다. ![상세 흐름도](/content-images/119c13ec-76be-42bd-b558-762d09275a1b-8ba7a18302.webp)
 
-- 간단한 흐름도 - 일반 사용자를 위한 빠른 개요입니다. ![간단한 흐름도](https://github.com/user-attachments/assets/9b612cbd-f24d-4472-9b87-0f2c908bb368)
+- 간단한 흐름도 - 일반 사용자를 위한 빠른 개요입니다. ![간단한 흐름도](/content-images/9b612cbd-f24d-4472-9b87-0f2c908bb368-eb34a722a2.webp)
 
 ## 자세히 보기
 

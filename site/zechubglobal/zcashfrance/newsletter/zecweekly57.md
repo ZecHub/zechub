@@ -15,7 +15,7 @@ Une autre semaine passionnante pour Zcash alors que la communauté a reçu un im
 
 Décortiquez les différences entre les pools protégés à connaissance zéro et l'anonymat basé sur des leurres dans la récente addition au wiki de ZecHub. Une introduction aux pools protégés, aux preuves à connaissance zéro, aux signatures de cercle et aux transactions confidentielles. Des comparaisons sont ensuite établies, donnant une raison claire pour laquelle Zcash offre des garanties de confidentialité en chaîne préférables.
 
-[Lire pools protégés vs Systèmes basés sur des leurres](https://wiki.zechub.xyz/zk-shielded-pools-vs-decoy-based-privacy)
+[Lire pools protégés vs Systèmes basés sur des leurres](https://zechub.wiki/guides/zero-knowledge-vs-decoys)
 
 # Mises à jour Zcash
 
@@ -25,7 +25,7 @@ Décortiquez les différences entre les pools protégés à connaissance zéro e
 
 [Ouverture des candidatures pour le deuxième tour des subventions mineures de ZF](https://forum.zcashcommunity.com/t/opening-applications-for-the-second-round-of-zf-minor-grants/45463)
 
-[ZFAV publie des guides pour les créateurs de contenu](https://wiki.zechub.xyz/zfav/guides)
+[ZFAV publie des guides pour les créateurs de contenu](https://zechub.wiki/zfav-club/guides-for-creators)
 
 #### Mises à jour des subventions de la communauté Zcash
 
@@ -51,7 +51,7 @@ Décortiquez les différences entre les pools protégés à connaissance zéro e
 
 [Ethereum Staking est en plein essor](https://decrypt.co/153813/ethereum-staking-is-booming-but-value-of-defi-assets-keeps-falling)
 
-[Pourquoi la confidentialité est-elle devenue un mot tabou ?](https://www.coindesk.com/consensus-magazine/2023/08/25/when-did-privacy-become-a-bad-word)
+[Pourquoi la confidentialité est-elle devenue un mot tabou ?](https://web.archive.org/web/20240419061842/https://www.coindesk.com/consensus-magazine/2023/08/25/when-did-privacy-become-a-bad-word/)
 
 [Les comptes OnlyFans prennent le contrôle de Friend.tech alors que l'application Crypto ajoute une fonction de photo](https://decrypt.co/153723/onlyfans-accounts-take-over-friend-tech-crypt-app-adds-photo-feature)
 
@@ -61,7 +61,7 @@ Décortiquez les différences entre les pools protégés à connaissance zéro e
 
 [Visions d'un avenir décentralisé - Cypherpunk Times](https://www.cypherpunktimes.com/visions-of-a-decentralised-future/)
 
-[Le point de la semaine - On the Brink](https://onthebrink-podcast.com/roundup-08-25-23/)
+[Le point de la semaine - On the Brink](https://web.archive.org/web/20240424024941/https://onthebrink-podcast.com/roundup-08-25-23/)
 
 ## Quelques tweets sur Zcash
 

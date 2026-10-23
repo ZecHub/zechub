@@ -14,8 +14,9 @@ Las contribuciones al boletín funcionan mejor cuando una persona colaboradora p
 
 Antes de empezar a escribir:
 
-- Consulta [ZEC Bounties ](https://bounties.zechub.wiki/) para ver la tarea actual del boletín.
-- Espera a que se te asigne
+- Consulta [ZEC Bounties](https://bounties.zechub.wiki/) para ver la tarea actual del boletín.
+- Espera a que se te asigne.
+- Las ediciones del boletín se encuentran en la banda XS de la [política de importes de recompensas](https://bounties.zechub.wiki/docs/bounty-amounts). La cifra ZEC de la recompensa activa es el importe, no ningún encabezado anterior de las guías de contribución.
 
 ![ss](/content-images/149a802c-b64f-4969-ad89-e83ffecf568e-d5d8387145.webp)
 

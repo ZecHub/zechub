@@ -134,7 +134,7 @@ Veröffentliche diese Informationen niemals in öffentlichen Chats, sozialen Med
 
 - Seed-Phrase oder Wiederherstellungsphrase
 - Spending Key, privater Schlüssel oder Wallet-Backup
-- Vollständiger Viewing Key
+- Full Viewing Key
 - Screenshots mit Guthaben, vollständigen Adressen, Memos, QR-Codes oder Kontodetails einer Börse
 - Persönliche Identitätsdokumente oder Unterlagen zur Kontowiederherstellung
 
@@ -167,7 +167,7 @@ Support-Teams benötigen weder deine Seed-Phrase noch deinen Spending Key, priva
 
 ## Hinweis
 
-Bitte beachte, dass die sicherste Art, ZEC zu verwenden, darin besteht, abgeschirmte Transaktionen zu nutzen, wann immer Absender, Empfänger, Wallet und Dienst sie alle unterstützen. Einige Wallets und Börsen unterstützen [Unified Addresses](https://electriccoin.co/blog/unified-addresses-in-zcash-explained/#:~:text=The%20unified%20address%20(UA)%20is,within%20the%20broader%20Zcash%20ecosystem.), die mehrere Zcash-Empfängertypen in einer Adresse kombinieren können.
+Bitte beachte, dass die sicherste Art, ZEC zu verwenden, darin besteht, abgeschirmte Transaktionen zu nutzen, wann immer Absender, Empfänger, Wallet und Dienst sie alle unterstützen. Einige Wallets und Börsen unterstützen [einheitliche Adressen](https://web.archive.org/web/20260823012524/https://electriccoin.co/blog/unified-addresses-in-zcash-explained/#:~:text=The%20unified%20address%20(UA), die mehrere Zcash-Empfängertypen in einer Adresse kombinieren können.
 
 ## Ressourcen
 
@@ -178,6 +178,7 @@ Bitte beachte, dass die sicherste Art, ZEC zu verwenden, darin besteht, abgeschi
 ## Verwandte Seiten
 
 - [Wallets](/using-zcash/wallets) - welche Wallets abgeschirmtes Senden unterstützen und welche nur transparent sind
+- [Zahlungsnachweise](/zcash-tech/payment-disclosures) - wie ein Absender ausgewählte Details einer abgeschirmten Zahlung nachweisen kann
 - [Abgeschirmte Pools](/using-zcash/shielded-pools) - Sapling und Orchard, die Pools, in denen sich deine abgeschirmten Mittel befinden
 - [Memos](/using-zcash/memos) - verschlüsselte Nachrichten, die mit einer abgeschirmten Transaktion übertragen werden können
 - [Transparente Börsenadressen](/using-zcash/transparent-exchange-addresses) - TEX-Adressen und warum Börsen sie verwenden

@@ -32,7 +32,7 @@ O Protocolo Namada também tem a capacidade de se conectar perfeitamente com qua
 
 ## Recompensas do Conjunto Blindado
 
-Na atualização mais recente do [Protocolo Namada](https://blog.namada.net/what-is-namada/), os usuários que mantêm ativos blindados são incentivados a participar ativamente do conjunto blindado compartilhado. Isso é possível por meio da integração do circuito MASP atualizado, que agora inclui o inovador Convert Circuit. Ao aproveitar esse novo recurso, Namada incentiva os usuários a contribuir para o conjunto blindado compartilhado mantendo ativos blindados.
+Na atualização mais recente do [Protocolo Namada](https://namada.net/blog/what-is-namada), os utilizadores que detêm ativos blindados são incentivados a participar ativamente no conjunto blindado partilhado. Isto é possível através da integração do circuito MASP atualizado, que agora inclui o inovador Convert Circuit. Ao tirar partido desta nova funcionalidade, Namada incentiva os utilizadores a contribuir para o conjunto blindado partilhado mantendo ativos blindados.
 
 Na Namada, o conjunto blindado é considerado um bem público não exclusivo e antirrival. Isso significa que, à medida que mais pessoas utilizam transferências blindadas, o nível de garantias de privacidade melhora para cada participante. O protocolo reconhece a importância da adoção e da participação coletiva no fortalecimento da privacidade para todos os usuários. Portanto, ao incentivar os usuários a manter ativos blindados e contribuir para o conjunto blindado compartilhado, Namada promove um ecossistema de privacidade mais forte e robusto.
 
@@ -52,7 +52,7 @@ Além disso, Namada utiliza algoritmos modernos de consenso BFT, que garantem a 
 
 ## Namada e a Aliança Estratégica com Zcash
 
-De acordo com uma publicação recente que pode ser encontrada no [Blog do Protocolo Namada](https://blog.namada.net/rfc-proposal-for-a-strategic-alliance-between-namada-and-zcash/), a equipe por trás do Protocolo Namada tem o prazer de apresentar uma proposta e um request-for-comment (RFC) para uma aliança estratégica entre os ativos, chains e comunidades de Namada e Zcash.
+De acordo com uma publicação recente que pode ser encontrada no [Blog do Protocolo Namada](https://namada.net/blog/rfc-proposal-for-a-strategic-alliance-between-namada-and-zcash), a equipa por trás do Protocolo Namada tem o prazer de apresentar uma proposta e um pedido de comentários (RFC) para uma aliança estratégica entre os ativos, chains e comunidades de Namada e Zcash.
 
 ![Diagrama da Aliança Estratégica Namada-Zcash](/content-images/image-2-68804c60f3.webp)
 
@@ -62,5 +62,5 @@ A aliança proposta abrange três elementos principais. Primeiro, haverá um fun
 
 - [Vídeo Oficial do Protocolo Namada](https://www.youtube.com/watch?v=Wg_WtPdBig0)
 - [Site Oficial do Protocolo Namada](https://namada.net/)
-- [Blog da Namada](https://blog.namada.net/)
+- [Blog da Namada](https://namada.net/blog)
 - [Documentação da Namada](https://docs.namada.net/)

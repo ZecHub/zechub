@@ -8,7 +8,7 @@ A le lo IPFS lati pin awọn faili media nla laarin wa ni ọna Peer to Peer.
 
 Nitorina kini iṣoro naa: awọn ẹnu-ọna IPFS ko ṣiṣẹ fun awọn faili nla, wọn yoo pẹ.
 
-** Àwọn ohun tí ó pọn dandan **: [IPFS Desktop](https://docs.ipfs.tech/install/ipfs-desktop/) + [Àwòrán-ìwòwòye alágbára](https://brave.com/)
+**Àwọn ohun tí ó pọn dandan**: [IPFS Desktop](https://docs.ipfs.tech/install/ipfs-desktop/) + [Ẹ̀rọ Aṣàwárí Brave](https://brave.com/)
 
 Tldr, fídíò náà wà ní ìparí.
 

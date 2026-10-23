@@ -57,12 +57,12 @@ Si une entreprise accepte les ZEC et ne figure pas encore sur ZecMap, n’import
 
 | Champ | Ce qu’il faut fournir |
 |-------|----------------|
-| Nom de l’entreprise | Nom officiel tel qu’il apparaît publiquement |
-| Site web ou contact | URL ou profil social |
-| Emplacement | Adresse pour les entreprises physiques ; région pour les activités en ligne |
-| Catégorie | Café, restaurant, magasin, service, boutique en ligne, etc. |
-| Preuve | Page publique de paiement, annonce du commerçant ou confirmation directe |
-| Notes de paiement | En personne, en ligne ou les deux ; ZEC transparent ou shielded |
+| Business name | Nom officiel tel qu’il apparaît publiquement |
+| Website or contact | URL ou profil social |
+| Location | Adresse pour les entreprises physiques ; région pour les activités en ligne |
+| Category | Café, restaurant, magasin, service, boutique en ligne, etc. |
+| Evidence | Page publique de paiement, annonce du commerçant ou confirmation directe |
+| Payment notes | En personne, en ligne ou les deux ; ZEC transparent ou shielded |
 
 Les soumissions doivent éviter les données privées des clients. Si vous utilisez une preuve de transaction, supprimez les informations personnelles, les numéros de commande et les adresses domiciliaires avant de la partager.
 
@@ -137,7 +137,7 @@ Les améliorations prévues comprennent :
 
 ## Pages liées
 
-- [Dépenser des ZEC](/using-zcash/spend-zcash) — D’autres façons d’utiliser les ZEC dans le monde réel
+- [Dépenser des ZEC](/using-zcash/spend-zcash/top-10-places-to-spend-zec) — D’autres façons d’utiliser les ZEC dans le monde réel
 - [Processeurs de paiement](/using-zcash/payment-processors) — Outils permettant aux commerçants d’accepter les ZEC
 - [Utiliser les ZEC de manière privée](/guides/using-zec-privately) — Bonnes pratiques pour les paiements shielded
 - [Wallets](/using-zcash/wallets) — Wallets compatibles avec les paiements marchands en ZEC

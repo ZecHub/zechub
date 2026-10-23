@@ -64,9 +64,10 @@ MetaMask тепер підтримує **захищений Zcash (ZEC)** чер
 Для **Zcash Mainnet**;
 ```markdown
 - Name: Zcash Mainnet  
-- RPC URL: https://mainnet.lightwalletd.com:9067 
+- RPC URL: https://zjs.zec.rocks 
 - Symbol: ZEC
 ```
+`https://zjs.zec.rocks` — це сумісний із WebZjs (gRPC-web) сервер lightwalletd, яким керує [zec.rocks](https://zec.rocks) (@emersonian). Для testnet використовуйте `https://zjs.zec.rocks/testnet`. Якщо ви самостійно запускаєте вебгаманець WebZjs, це значення слід установити як `LIGHTWALLETD_PROXY`.
 
 ---
 
@@ -96,7 +97,7 @@ MetaMask тепер підтримує **захищений Zcash (ZEC)** чер
 > **Обмін ETH -> ZEC** - скористайтеся сервісами на кшталт **LeoDex** і надішліть кошти на свою захищену адресу.  
 > **Виведення з біржі** - виведіть придбані ZEC на свою захищену адресу WebZjs.  
 
-![LEODEX-SWAP](/content-images/HyLQ0G2ugg-8d82ef24f6.webp)
+![LeoDex-SWAP](/content-images/HyLQ0G2ugg-8d82ef24f6.webp)
 
 
 > => Використовуйте захищені (z) адреси для **повної приватності**.
@@ -157,4 +158,4 @@ MetaMask тепер підтримує **захищений Zcash (ZEC)** чер
 > Створення shielded proofs може зайняти час, WebAssembly виконує обчислення в браузері.  
 > Відновлення просте: встановіть MetaMask і Snap, а потім імпортуйте наявну seed-фразу.  
 > Snap за замовчуванням використовує **shielded ZEC**, transparent addresses **не є основним фокусом**.  
-> Використовуйте [zcashblockexplorer.com](https://zcashblockexplorer.com) для підтвердження транзакцій.
+> Використовуйте [mainnet.zcashexplorer.app](https://mainnet.zcashexplorer.app) для підтвердження транзакцій.

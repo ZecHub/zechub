@@ -1,6 +1,6 @@
 ZCASH ECOSYSTEM DIGEST | JULY 6
 
-Zebra 1.8.0 Ẹ̀dà tó ṣẹ̀ṣẹ̀ jáde, FROST ti jáde, Zooko Ti Bẹ̀rẹ̀ Iṣẹ́-ìmọ̀ Zcash Tuntun & Àdánwò Àwọn Ìpàdé-ìṣàmúlò Tí a Ṣójútó lórí Àlàkalẹ̀ Maya 
+Àtẹ̀jáde tuntun Zebra 1.8.0, FROST ti jáde, Zooko bẹ̀rẹ̀ iṣẹ́ akanṣe Zcash tuntun àti ìdánwò àwọn àyípadà ààbò lórí Maya Protocol 
 
 ### ECC & ZF Awọn imudojuiwọn:
 
@@ -24,7 +24,7 @@ Zebra 1.8.0 Ẹ̀dà tó ṣẹ̀ṣẹ̀ jáde, FROST ti jáde, Zooko Ti Bẹ̀
 
 [Zcash Avalanche Elastic Subnet Bridge Àtúnṣe](https://forum.zcashcommunity.com/t/zcash-elastic-subnet-bridge-on-avalanche/44220/63)
 
-[Aṣọ́ ZEC pààrọ̀ pẹ̀lú Ìlànà Maya](https://x.com/GiMa9550/status/1808960168681476288)
+[Àwọn ìyípadà ZEC tí a dáàbò bo pẹ̀lú Maya Protocol](https://x.com/GiMa9550/status/1808960168681476288)
 
 [Awọn osise shielded support fun zcash ni ledger hw-apamọwọ](https://forum.zcashcommunity.com/t/official-shielded-support-for-zcash-in-ledger-hw-wallet/45965/90)
 

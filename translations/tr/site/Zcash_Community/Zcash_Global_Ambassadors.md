@@ -16,7 +16,7 @@ Küresel Elçi Programı, Zcash ekosistemine yüksek kaliteli katkılarda buluna
 
 Elçiler, planladıkları faaliyetler üzerinde yaratıcı özgürlüğe sahiptir; bu da erişim çalışmalarını yerel bağlamlarına uyarlamalarını sağlar.
 
-## [Küresel Elçi Web Sitesi](https://zcashambassadors.com)
+## [Küresel Elçi Web Sitesi](https://web.archive.org/web/20240413194338/https://zcashambassadors.com/)
 
 ## Aktif Elçi Toplulukları (2026)
 
@@ -31,7 +31,7 @@ Elçiler, planladıkları faaliyetler üzerinde yaratıcı özgürlüğe sahipti
 | Doğu Afrika | [Zcash East Africa](https://x.com/ZcashEastAfrica) | Doğu Afrika, Uganda topluluğunun büyümesi |
 | Güney Afrika | [Zcash South Africa](https://twitter.com/Zcash_SA) | Güney Afrika |
 | Gana | [Zcash Ghana](https://x.com/ZcashGH) | Gana |
-| Meksika | [zcashqro](https://x.com/zcashqro) | Üniversitelere erişim ve geliştiricileri ekosisteme kazandırma |
+| Meksika | [Zcash Mexico](https://x.com/ZcashMx) | Üniversitelere erişim ve geliştiricileri ekosisteme kazandırma |
 | Rusya | [ruZcash](https://x.com/ruZCASH) | Rusça içerik ve topluluk |
 | Hindistan | [Zcash India](https://x.com/ZcashIND) | Geliştirici eğitimi ve topluluğun büyümesi |
 | Kore | [Zcash Korea](https://x.com/zcashkorea) | Korece eğitim içeriği |
@@ -39,5 +39,5 @@ Elçiler, planladıkları faaliyetler üzerinde yaratıcı özgürlüğe sahipti
 ## Elçi Olmak İçin Başvurun
 
 Şunları yaparak da katkıda bulunabilirsiniz:
-- [ZecHub DAO](https://app.dework.xyz/zechub-2424) ödüllerine katkıda bulunmak
+- [ZEC Bounties](https://bounties.zechub.wiki/)e katkıda bulunmak
 - [Zcash Global Discord](https://discord.gg/zcash)'a katılmak

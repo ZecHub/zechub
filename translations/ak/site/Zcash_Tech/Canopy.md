@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Canopy a wɔde yɛ adwuma
+# Canopy
 
 > Canopy kɔɔ live wɔ Zcash mainnet so wɔ block 1,046,400 (November 18, 2020 UTC).
 
@@ -12,7 +12,7 @@ Canopy yɛ Zcash network upgrade a ɛtɔ so anum, a wɔsan frɛ no Network Upgra
 
 Nea enti a eyi ho hia. Zcash de sika ma n’ankasa nkɔso fi block akatua mu, efisɛ enni adwumakuw biara wɔ n’akyi. Ná wɔahyɛ sɛ wɔn a wɔhyehyɛɛ no ​​akatua a wotuae wɔ ne mfiase mfe no ho no bɛba awiei wɔ fã a edi kan no mu. Canopy na wɔde sii ananmu: ɛde block akatua biara mu kyɛfa pɔtee bi kɔɔ Nkɔso Foto mu na ɛkyerɛɛ nea obenya. Wɔnam nkɔso a wɔyɛe akyiri yi so yɛɛ saa mfonini no yiye, kosii sɛ [NU6.1](../zcash-tech/nu6-1).
 
-![Before Canopy the founders reward funded development and was set to end at the first halving. After Canopy the Development Fund takes 20 percent of each block reward and runs to the second halving in 2024](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/canopy-founders-to-devfund.png)
+![Before Canopy the founders reward funded development and was set to end at the first halving. After Canopy the Development Fund takes 20 percent of each block reward and runs to the second halving in 2024](/content-images/canopy-founders-to-devfund-010676e799.webp)
 
 ## Nkɔso sikakorabea no
 
@@ -30,7 +30,7 @@ Development Fund no gye block biara akatua ɔha biara mu nkyem 20. Wɔn a wotu f
 
 Sɛ wɔde toto block akatua no nyinaa ho sen sɛ wɔde sikakorabea no nkutoo susuw ho a, saa kyɛfa no yɛ adwuma kodu ɔha biara mu nkyem 7 ma Electric Coin Company, ɔha biara mu nkyem 5 ma Zcash Foundation, ne ɔha biara mu nkyem 8 ma Major Grants. Akwan abien no nyinaa a wɔfa so kyerɛkyerɛ mu no yɛ akontaahyɛde koro.
 
-![The Development Fund is 20 percent of each block reward, split 35 percent to Bootstrap and the Electric Coin Company, 25 percent to the Zcash Foundation, and 40 percent to Major Grants](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/canopy-dev-fund-split.png)
+![The Development Fund is 20 percent of each block reward, split 35 percent to Bootstrap and the Electric Coin Company, 25 percent to the Zcash Foundation, and 40 percent to Major Grants](/content-images/canopy-dev-fund-split-005bf6f2dd.webp)
 
 ## Sprout pool no sesa
 
@@ -38,7 +38,7 @@ Canopy nso fii ase gyaee ɔtare a akyɛ sen biara a wɔabɔ ho ban no. Sprout ne
 
 Efi bere a Canopy yɛɛ adwuma no, wontumi mfa botae foforo biara nka Sprout pool no ho. Wɔ mfiridwuma mu no, ɛsɛ sɛ vpub_old field a ɛwɔ JoinSplit biara mu no yɛ zero. Sika a ɛwɔ Sprout dedaw no da so ara tumi yi, enti wɔmfa obiara nkɔ, nanso ɔtare no betumi atew afi ha nkutoo. Eyi yɛ anammɔn a edi kan a ɛbɛma awiei koraa no wɔbɛpoo Sprout ɔtare a ɛyɛ agyapade no de agye atare foforo a wɔabɔ ho ban no atom.
 
-![Before Canopy, value could both enter and leave the Sprout pool. After Canopy, no new value can enter but withdrawals are still allowed](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/canopy-sprout-pool.png)
+![Before Canopy, value could both enter and leave the Sprout pool. After Canopy, no new value can enter but withdrawals are still allowed](/content-images/canopy-sprout-pool-f5166aa049.webp)
 
 ## Mfiridwuma mu nneɛma a ɛka ho no
 
@@ -48,11 +48,11 @@ Wɔ sikasɛm mu nsakrae no akyi no, Canopy de mfiridwuma mu ZIP nketewa abien ku
 
 | Asɛmfua | Plain-English asekyerɛ |
 |---|---|
-| Founders akatua | Mfitiaseɛ sikasɛm nhwɛsoɔ a ɛtuaa Zcash nkɔsoɔ a ɛdi kan no ho ka, a wɔayɛ nhyehyɛeɛ sɛ ɛbɛba awieeɛ wɔ fã a ɛdi kan |
-| Nkɔsoɔ Fotoɔ | Ɔha biara mu nkyem 20 kyɛfa a ɛwɔ block biara akatua a Canopy de kɔɔ nkɔso mu, tuu mmirika kɔɔ fã a ɛto so abien |
-| Block akatua (mmoa a wɔde ma) | ZEC foforo no bɔɔ na wotuae bere a wɔtu block biara |
-| Nkyekyɛmu fã | Adeyɛ a wɔayɛ ho nhyehyɛe a wɔatwa block akatua no mu abien |
-| Sika a wɔde ma asubɔnten | Consensus mechanism (ZIP 207) a ɛkyerɛ block subsidy no fã bi kwan kɔ recipient address ahorow a wɔakyerɛkyerɛ mu |
+| Founders reward | Mfitiaseɛ sikasɛm nhwɛsoɔ a ɛtuaa Zcash nkɔsoɔ a ɛdi kan no ho ka, a wɔayɛ nhyehyɛeɛ sɛ ɛbɛba awieeɛ wɔ fã a ɛdi kan |
+| Development Fund | Ɔha biara mu nkyem 20 kyɛfa a ɛwɔ block biara akatua a Canopy de kɔɔ nkɔso mu, tuu mmirika kɔɔ fã a ɛto so abien |
+| Block reward (subsidy) | ZEC foforo no bɔɔ na wotuae bere a wɔtu block biara |
+| Halving | Adeyɛ a wɔayɛ ho nhyehyɛe a wɔatwa block akatua no mu abien |
+| Funding stream | Consensus mechanism (ZIP 207) a ɛkyerɛ block subsidy no fã bi kwan kɔ recipient address ahorow a wɔakyerɛkyerɛ mu |
 | Sprout pool | Zcash mfitiase shielded pool, a Canopy gyaee gye a wobegye bo foforo akɔ |
 
 ## FAQ
@@ -109,4 +109,4 @@ Ná wɔayɛ nhyehyɛe sɛ mfitiasefo a wɔhyehyɛɛ no ​​akatua no bɛba awi
 
 ---
 
-Ntoatoasoɔ: [Network Upgrades ho nkyerɛkyerɛmu](../start-here/network-upgrades) · Dada: [Koma Nnua](../zcash-tech/heartwood) · Deɛ ɛdi hɔ: [NU5](../zcash-tech/nu5)
+Ntoatoasoɔ: [Network Upgrades ho nkyerɛkyerɛmu](../start-here/network-upgrades) · Dada: [Heartwood](../zcash-tech/heartwood) · Deɛ ɛdi hɔ: [NU5](../zcash-tech/nu5)

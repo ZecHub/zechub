@@ -7,7 +7,7 @@
 
 ### البنية التحتية للمجتمع
 
-يقدّم برنامج مكافآت ZecHub للمطورين بديلاً أكثر حرية وانسيابية للمهام الفردية: [مكافآت ZEC](https://bounties.zechub.wiki/). 
+برنامج مكافآت ZecHub هو المسار المدفوع لهذا العمل: [ZEC Bounties](https://bounties.zechub.wiki/). كيفية اختيار رقم ZEC: [سياسة مبالغ المكافآت](https://bounties.zechub.wiki/docs/bounty-amounts). سير عمل المساهمين: [المساهمة في ZecHub](https://zechub.wiki/contribute/contributing-guide).
 
 
 ## أدلة مفيدة

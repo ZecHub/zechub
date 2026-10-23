@@ -2,15 +2,15 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# ZKP & ZK-SNARKS
+# ZKP & zk-SNARKs
 
 ## TL;DR
 
-- **ZK-SNARKs** = 제로 커널리티 서큐잇 넌인터랙티브 아규먼츠 오브 노우ledge
-- 한쪽 당사자가 **어떤 정보를 알고 있음을 증명할 수 있게 해주되**, 그 정보 자체는 드러내지 않도록 합니다.
-- Zcash는 ZK-SNARKs를 사용하여 거래가 유효함(올바른 금액, 미사용 입력)을 **보낸 사람, 받은 사람 또는 금액을 드러내지 않고** 증명합니다.
-- "서큐잇"은 복잡한 명제조차도 검증이 빠르고 간단하게 이루어질 수 있음을 의미합니다.
-- Orchard 풀은 **신뢰 설정이 필요 없는** Halo 2라는 ZK-SNARK 시스템을 사용합니다.
+- **zk-SNARKs** = 영지식 간결 비대화형 지식 논증
+- 한쪽 당사자가 정보 자체를 공개하지 않고도 **무언가를 알고 있음을 증명할 수 있게 해줍니다**
+- Zcash는 zk-SNARKs를 사용하여 거래가 유효함(올바른 금액, 미사용 입력)을 **보낸 사람, 받는 사람 또는 금액을 공개하지 않고** 증명합니다
+- "간결"은 복잡한 명제의 경우에도 증명이 매우 작고 빠르게 검증될 수 있음을 의미합니다
+- Orchard 풀은 **신뢰 설정이 필요 없는** zk-SNARK 시스템인 Halo 2를 사용합니다
 
 ---
 
@@ -159,11 +159,11 @@ SHA-256은 커밋먼트 스키마에서 사용할 수 있는 해시 함수의 �
 
 **SNARK 증명 구축 유형**:
 
-[Groth16](https://www.youtube.com/watch?v=QDplVkyncYQ): 신뢰 설정이 필요하지만, 검증이 매우 빠르게 이루어지는 짧은 증명을 제공합니다.
+[Groth16](https://eprint.iacr.org/2016/260): 신뢰 설정이 필요하지만 빠르게 검증할 수 있는 매우 짧은 증명을 제공합니다.
 
 [Sonic](https://www.youtube.com/watch?v=oTRAg6Km1os)/[Marlin](https://www.youtube.com/watch?v=bJDLf8KLdL0)/[Plonk](https://eprint.iacr.org/2019/953): 보편적인 신뢰 설정.
 
-[DARK](https://www.youtube.com/watch?v=_ZDM7NwSxEY)/[HALO](https://eprint.iacr.org/archive/2019/1021/20200218:011907)/[STARK](https://www.youtube.com/watch?v=wFZ_YIetK1o): 신뢰 설정이 필요하지 않지만, 증명이 약간 더 길거나 증명자가 실행하는 데 시간이 더 오래 걸릴 수 있습니다.
+[DARK](https://eprint.iacr.org/2019/1229)/[Halo](https://eprint.iacr.org/archive/2019/1021/20200218:011907)/[STARK](https://www.youtube.com/watch?v=wFZ_YIetK1o): 신뢰 설정이 필요하지 않지만, 증명이 약간 더 길거나 증명자가 실행하는 데 시간이 더 오래 걸릴 수 있습니다.
 
 SNARKS are useful when multiple verifiers are needed such as a blockchain like Zcash or zk-Rollup such as [Aztec](https://docs.aztec.network) so that multiple validating nodes don't have to interact over several rounds with each proof. 
 
@@ -179,7 +179,7 @@ Read the [Halo2 book](https://zcash.github.io/halo2/index.html) for more informa
 
 ## Other Zero-Knowledge Applications 
 
-zk-SNARKS provide several advantages in a variety of different applications. Let's take a look at some examples.
+zk-SNARKs는 다양한 애플리케이션에서 여러 가지 장점을 제공합니다. 몇 가지 예를 살펴보겠습니다.
 
 **Scalability**: This is achieved by 'Outsourcing Computation'. There is no strict need for zero-knowledge for an L1 chain to verify the work of an off-chain service. Transactions are not necessarily private on a zk-EVM.
 
@@ -222,9 +222,9 @@ Further Learning:
 
 ## Related Pages
 
-- [Shielded Pools](/using-zcash/shielded-pools) — How ZK-SNARKs are used in Zcash value pools
-- [Halo](/zcash-tech/halo) — Zcash's ZK-SNARK system that eliminates trusted setups
-- [Post-Quantum Security in Zcash](/zcash-tech/post-quantum-security) - How future quantum risks relate to Zcash cryptography
-- [Zcash Shielded Assets](/zcash-tech/zcash-shielded-assets) — ZSAs built on ZK-SNARK technology
-- [What is ZEC and Zcash](/start-here/what-is-zec-and-zcash) — Introduction to Zcash and its privacy model
-- [Privacy as a Core Principle](/privacy/privacy-as-a-core-principle) — Why financial privacy matters
+- [Shielded Pools](/using-zcash/shielded-pools) — zk-SNARKs가 Zcash 가치 풀에서 사용되는 방식
+- [Halo](/zcash-tech/halo) — 신뢰 설정을 없애는 Zcash의 zk-SNARK 시스템
+- [Zcash의 양자 내성 보안](/zcash-tech/post-quantum-security) - 미래의 양자 위험이 Zcash 암호학과 관련되는 방식
+- [Zcash Shielded Assets](/zcash-tech/zcash-shielded-assets) — zk-SNARK 기술을 기반으로 구축된 ZSA
+- [ZEC와 Zcash란 무엇인가](/start-here/what-is-zec-and-zcash) — Zcash 및 그 프라이버시 모델 소개
+- [누가 당신의 Zcash 결제를 볼 수 있나요?](/start-here/who-can-see-your-zcash-payment) — 무엇이 공개되고, 실드가 무엇을 숨기는지

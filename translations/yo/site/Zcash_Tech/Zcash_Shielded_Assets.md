@@ -6,142 +6,142 @@
     <img src="/content-images/image-2023-11-18-160742427-658dda69c0.webp" alt="" width="800" height="500"/>
 </a>
 
-# Awọn ohun-ini ti a fi aabo Zcash pamọ
+# Àwọn Ohun Ìní tí a fi ààbò Zcash ṣe
 
 ## TL;DR
 
-Awọn ohun-ini Zcash Shielded (ZSA) jẹ itẹsiwaju ilana ti a dabaa eyiti yoo gba awọn ohun elo ** miiran ju ZEC**  stablecoins, awọn ami iṣakoso, tabi eyikeyi dukia aṣa  gbe inu adagun ipamọ Zcash's shielded, pẹlu oluranlowo, olugba, ati iye naa pa mọ.
+Àwọn Ohun Èlò Ààbò Zcash (ZSA) jẹ́ àfikún ìlànà tí a dámọ̀ràn tí yóò jẹ́ kí àwọn ohun ìní **yàtọ̀ sí ZEC** — àwọn owó ìdáná, àwọn àmì ìṣàkóso, tàbí èyíkéyìí ohun ìní àṣà — gbé inú adágún ààbò Zcash's, pẹ̀lú ẹni tí ó fi ránṣẹ́, ẹni tí ó gbà á, àti iye owó náà ní ìkọ̀kọ̀.
 
-- **Kínni ó jẹ́:** Àwọn ohun ìní àdáṣe tí a ṣe bíi ERC-20, ṣùgbọ́n wọ́n ti di ìdènà nípasẹ̀ àìrídájú.
-- ** Ta ló ń kọ́ ọ:** [QEDIT](https://qed-it.com/), under a grant from the Zcash Foundation, in collaboration with the Electric Coin Company.
-- **Bá a ṣe ń sọ ọ́:** [ZIP 226](https://zips.z.cash/zip-0226) (yípò tí wọ́n sì sun ún) pa pọ̀ pẹ̀lú [ZIP 227](https://zips.z.cash/zip-0227) (ìkásẹ̀jáde).
-- **Ìṣòro:** kò sí lórí ẹ̀rọ-ìpínlẹ̀. Àdéhùn ZSA ti wà fún ìmúgbòòrò nínú Ìyípadà Ẹ̀ka 7 (NU7).
-- **Iye owo:** O maa n san ni ZEC, laibikita ohun-ini ti a gbe.
-
----
-
-## Àlàyé Ìpilẹ̀ṣẹ̀
-
-Awọn ohun-ini Zcash Shielded (ZSA) jẹ ilọsiwaju ti a dabaa si ilana Zcash eyiti yoo gba ẹda, gbigbe ati sisun awọn dukia aṣa lori pqp.
-
-Tó o bá mọ àwọn ìlànà tó wà nínú ìwé yìí dáadáa, á dáa kó o ka ibẹ̀. [ERC-20 (ìyẹn iye owó tí wọ́n ń ná)](https://ethereum.org/en/developers/docs/standards/tokens/erc-20/) Àmì ìdìpọ̀ lórí ẹ̀ka Ethereum, ZSAs jẹ́ fún Zcash bí ERC-20 ṣe wà fún Ethereum.
-
-Zcash Shielded Assets yoo jẹ ki ẹda ti awọn ami aṣa lori blockchain Zcash, nitorinaa gbigba awọn aami miiran ju: [ZEC](/guides/using-zec-privately) láti jàǹfààní nínú àìdánimọ̀ àti ìpamọ́ àwọn ìṣòwò tí a fi ààbò bo lórí ẹ̀rọ-ìpínlẹ̀ Zcash.
-
-A major potential use of ZSAs would be to issue stablecoins on the Zcash protocol. Stablecoins are cryptocurrencies that peg their value to a fiat currency, such as the US Dollar or Euro. Currently, some of the most widely circulated stablecoins are ERC-20 tokens such as [USDC (ì í ì)](https://www.circle.com/en/usdc) àti pé, [Dádì mi!](https://docs.makerdao.com/).
-
-Àpẹẹrẹ míràn tí ó ṣeé lò nínú ZSA ni fún fífi àwọn àmì ìṣàkóso ṣe. Bí àpẹẹrẹ, Zechub (olùdíje wiki yìí) jẹ́ Ẹ̀ka Ọmọnìyàn Oníṣekúṣe-Ọkànkan (DAO), àti pé o lè dá kí a sì fi àwo n ẹgbẹ rẹ̀ sípò láti dìbò lórí ìpolongo àti ìpinnu ìṣàjọba.
-
-ZSAs ti wa ni idagbasoke nipa [QEDIT](https://qed-it.com/), labẹ kan pataki iranlowo lati awọn [Zcash Foundation](/zcash-organizations/zcash-foundation) ní ìfọ̀rọ̀wánilẹ́nuwò pẹ̀lú àjọ náà. [Electric Coin Company](/zcash-organizations/electric-coin-company)Bi ise agbese yi ti wa ni ṣi actively idagbasoke, awọn imudojuiwọn ti a fi sori ẹrọ lori [ìró yìí](https://forum.zcashcommunity.com/t/grant-update-zcash-shielded-assets-monthly-updates/41153) ti awọn Zcash forum. Awọn [Ohun elo iranlowo ZSA](https://zcashgrants.org/gallery/25215916-53ea-4041-a3b2-6d00c487917d/33106640/) by QEDIT wà lórí ìkànnì Zcash Foundation grants.
+- **Kí ni:** Àwọn ohun ìní àdáni ERC-20, ṣùgbọ́n a dáàbò bò wọ́n nípasẹ̀ àìṣeédá.
+- **Ta ló ń kọ́ ọ:** [QEDIT](https://qed-it.com/), lábẹ́ owó ìrànlọ́wọ́ láti ọ̀dọ̀ Zcash Foundation, pẹ̀lú ìfọwọ́sowọ́pọ̀ pẹ̀lú Electric Coin Company.
+- **Bá a ṣe sọ ọ́ di mímọ̀:** [ZIP 226](https://zips.z.cash/zip-0226) (gbigbe ati sisun) papọ pẹlu [ZIP 227](https://zips.z.cash/zip-0227) (ìfilọ́lẹ̀).
+- **Ipo:** ko si lori mainnet ati pe ko si ara Network Upgrade 7 (NU7). [ZIP 259](https://zips.z.cash/zip-0259), èyí tí ó ṣe àkójọ gbogbo ohun tí NU7 ń gbé jáde, kò ní ZIP 226 tàbí ZIP 227 nínú, bẹ́ẹ̀ ni a kò tí ì ṣètò ọjọ́ ìṣiṣẹ́ ZSA kankan.
+- **Owo:** A maa n san ni ZEC, laibikita ohun-ini ti a gbe.
 
 ---
 
-## Ìran / Àfiwé
+## Àlàyé Pàtàkì
 
-### Àpótí tí a fi òǹtẹ̀ dì ni.
+Àwọn Ohun Èlò Ààbò Zcash (ZSA) jẹ́ àtúnṣe tí a dámọ̀ràn sí ìlànà Zcash tí yóò jẹ́ kí a ṣẹ̀dá, gbé e lọ, àti jó àwọn ohun ìní àṣà lórí ẹ̀wọ̀n Zcash.
 
-Picture a Zcash shielded transaction as a plain, sealed envelope dropped into a public mailbox. Anyone can see that an envelope was posted. Nobody can see who sent it, who collects it, or what is inside — and every envelope looks identical to every other one.
+Tí o bá mọ nípa [ERC-20](https://ethereum.org/en/developers/docs/standards/tokens/erc-20/) boṣewa àmì lórí blockchain Ethereum, ZSAs jẹ́ sí Zcash bí àmì ERC-20 ṣe jẹ́ sí Ethereum.
 
-Today, an envelope on the Zcash network can only carry one thing: ZEC.
+Zcash Shielded Assets yoo jẹ ki o ṣee ṣe lati ṣẹda awọn ami iyasọtọ lori blockchain Zcash, nitorinaa gbigba awọn ami miiran yatọ si [ZEC](/guides/using-zec-privately) láti jàǹfààní láti inú àìdánimọ̀ àti ìpamọ́ àwọn ìṣòwò tí a dáàbò bo lórí Zcash blockchain.
 
-ZSA kò yí àpòòwé padà. Ó ńyí **ohun tí ó jẹ́ ìyàsímímó nínú rẹ̀** pa dà. Lẹ́yìn ti a bá ṣe ZSA, àpóòwè kan náà tó ní èdìdì lè gbé owó ìdákóso (stablecoin), àmì ìṣàkóso DAO tàbí kókó ìwà òótọ́ ilé-iṣẹ́  àti láti òkè yóò ṣì rí bí gbogbo àpòọwó mìíràn lórí ẹ̀rọ alágbèéká.
+Lílo pàtàkì kan tí ó ṣeé ṣe fún ZSA ni láti fi àwọn stablecoins jáde lórí ìlànà Zcash. Stablecoins jẹ́ àwọn owó ìnáwó tí ó ń so ìníyelórí wọn mọ́ owó fiat, bíi Dọ́là Amẹ́ríkà tàbí Yúrò. Lọ́wọ́lọ́wọ́, díẹ̀ lára àwọn stablecoins tí ó wọ́pọ̀ jùlọ ni àwọn àmì ERC-20 bíi [USDC](https://www.circle.com/en/usdc) àti [Dai](https://docs.makerdao.com/).
 
-Ohun kan tó yẹ ká fi sọ́kàn ni pé: **owó ìfìwéránṣẹ́ máa ń jẹ ZEC nígbà gbogbo**, láìka ohun tí wọ́n bá kó sínú àpòòwé náà sí.
+Lílo ZSA mìíràn tó ṣeé ṣe ni fún fífún àwọn àmì ìṣàkóso. Fún àpẹẹrẹ, ZecHub (olùtẹ̀wé wiki yìí) jẹ́ Àjọ Adánidá Tí A Dínká Sílẹ̀ (DAO) ó sì lè ṣẹ̀dá àti fún àwọn ọmọ ẹgbẹ́ rẹ̀ ní ZSA fún ìdìbò lórí àwọn àbá àti ìpinnu ìṣàkóso.
 
-### Ohun tí ẹni tó ń wo nǹkan láyìíká lè rí
+Àwọn ZSA ni wọ́n ń ṣe àgbékalẹ̀ rẹ̀ nípasẹ̀ [QEDIT](https://qed-it.com/), labẹ ifunni pataki lati ọdọ [Zcash Foundation](/zcash-organizations/zcash-foundation) ni ifowosowopo pẹlu [Electric Coin Company](/zcash-organizations/electric-coin-company)Bí iṣẹ́ yìí ṣe ń lọ lọ́wọ́lọ́wọ́, a ń fi àwọn àtúnṣe tuntun sí i [ìfọ̀rọ̀wérọ̀ yìí](https://forum.zcashcommunity.com/t/grant-update-zcash-shielded-assets-monthly-updates/41153) ti apejọ Zcash [Ohun elo iranlọwọ ZSA](https://zcashgrants.org/gallery/25215916-53ea-4041-a3b2-6d00c487917d/33106640/) láti ọwọ́ QEDIT wà lórí ojú-òpó wẹ́ẹ̀bù ìrànlọ́wọ́ Zcash Foundation.
 
-Ẹnìkan tó ń wo nǹkan lè rí... ERC-20 lórí Ethereum, ZSA lórí Zcash.
+---
+
+## Ìwòran / Àfiwé
+
+### Àpò ìwé tí a fi èdìdì dì
+
+Fojú inú wo ìṣòwò tí a fi ààbò fún Zcash gẹ́gẹ́ bí àpòòwé tí a fi dì tí a sì fi sínú àpótí ìfìwéránṣẹ́ gbogbogbòò. Ẹnikẹ́ni lè rí i pé àpòòwé kan wà níbẹ̀. Kò sí ẹni tí ó lè rí ẹni tí ó fi ránṣẹ́, ẹni tí ó gbà á, tàbí ohun tí ó wà nínú rẹ̀ — gbogbo àpòòwé náà sì jọra sí ara wọn.
+
+Lónìí, àpò ìwé kan lórí nẹ́tíwọ́ọ̀kì Zcash lè gbé ohun kan ṣoṣo: ZEC.
+
+ZSA kì í yí àpò ìwé náà padà. Ó máa ń yí **ohun tí a gbà láàyè nínú rẹ̀** padà. Lẹ́yìn ZSA, àpò ìwé kan náà tí a fi èdìdì dì lè gbé owó stablecoin, àmì ìṣàkóso DAO, tàbí ibi ìdúróṣinṣin ilé-iṣẹ́ — àti láti òde, yóò tún dàbí gbogbo àpò ìwé mìíràn lórí nẹ́tíwọ́ọ̀kì náà.
+
+Àlàyé kan tó yẹ kí a máa tẹ̀lé ni: **a máa ń san owó ìfìwéránṣẹ́ ní ZEC**, láìka ohun tó wà nínú àpò ìwé náà sí.
+
+### Ohun tí olùwòran láti òde lè rí
+
+| Olùwòran lè rí... | ERC-20 lórí Ethereum | ZSA lórí Zcash |
 | --- | --- | --- |
-Ta ló rán an? Ààbò fún gbogbo ènìyàn.
-Àwọn tó gba ìsọfúnni náà. Ààbò fún gbogbo ènìyàn.
-☐ Owó tó wọlé. ☐ Ètò tí kò ní láárí.
-Àwọn ìdìpọ̀ owó ẹnìkọ̀ọ̀kan. Àwùjọ. Aṣọ́ra.
-☐ Ètò ìkóhun-ìmọ̀ tó wà nínú àwọn ohun àmúṣọrọ̀ náà.
-Owó tí wọ́n fi ń san owó náà ETH ZEC
+| Ta ló rán an | Gbangba | A dáàbò bo |
+| Ẹni tó gbà á | Gbangba | A dáàbò bo |
+| Elo ni a gbe lọ | Gbangba | A dáàbò bo |
+| Ìwọ̀ntúnwọ̀nsí ẹnìkọ̀ọ̀kan | Gbangba | A dáàbò bo |
+| Ipese apapọ ti ohun-ini naa | Gbangba | **Gbogbogbò — mọọmọ** |
+| Owó tí a san ni a san owó náà nínú | ETH | ZEC |
 
-### Ìdí tí ìlà ìpèsè kò fi jẹ́ àṣìṣe kan
+### Kí ló dé tí ìlà ìpèsè kì í ṣe àṣìṣe
 
-Àwọn ìlà méjì tó wà nísàlẹ̀ tábìlì ni ZSA ti ń dùn.
+Àwọn ìlà méjì ìsàlẹ̀ tábìlì ni ZSA ti ń gbádùn mọ́ni.
 
-ZIP 227 deliberately keeps **issuance transparent**, so that the circulating supply of every asset can be tracked on-chain. Individual holdings and individual payments stay private; the total number of tokens in existence does not.
+ZIP 227 mọ̀ọ́mọ̀ mú kí **ìfilọ́lẹ̀ náà hàn gbangba**, kí a lè tọ́pasẹ̀ ìpèsè gbogbo dúkìá lórí ẹ̀wọ̀n. Àwọn ohun ìní ẹnìkọ̀ọ̀kan àti ìsanwó ẹnìkọ̀ọ̀kan dúró ní ìkọ̀kọ̀; àpapọ̀ iye àwọn àmì tí ó wà kò sí.
 
-Fun olutaja stablecoin, apapo naa jẹ aaye ju idaamu lọ. A le ṣe ayẹwo awọn idaduro lodi si ipese ti o ṣayẹwo gbangba, lakoko ti awọn eniyan nlo aami gangan tọju iwọntunwọnsi wọn ati awọn sisanwo fun ara wọn.
+Fún olùfúnni ní owó stablecoin, àpapọ̀ yẹn ni kókó dípò àdéhùn. A lè ṣe àyẹ̀wò owó ìpamọ́ pẹ̀lú ìpèsè tí gbogbo ènìyàn lè fìdí rẹ̀ múlẹ̀, nígbà tí àwọn ènìyàn tí wọ́n ń lo àmì ìdámọ̀ náà ń pa ìwọ̀n àti ìsanwó wọn mọ́ fún ara wọn.
 
 ### Ohun ìní kan, ìdánimọ̀ kan
 
-Every asset gets a unique **Asset Identifier**, derived from the issuer's issuance key together with a text description of the asset. Two different issuers cannot produce the same identifier, and minting or changing an asset requires cryptographic authorization from its issuer. In envelope terms: anyone can post an envelope, but only the mint that owns a given asset can print more of it.
+Gbogbo ohun ìní ní **Àmì ìdánimọ̀** àrà ọ̀tọ̀ kan, tí a rí láti inú kọ́kọ́rọ́ ìfúnni olùfúnni pẹ̀lú àpèjúwe ọ̀rọ̀ nípa ohun ìní náà. Àwọn olùfúnni méjì tó yàtọ̀ kò le ṣe ìdánimọ̀ kan náà, àti ṣíṣe àtúnṣe tàbí yíyípadà ohun ìní kan nílò àṣẹ ìkọ̀kọ̀ láti ọ̀dọ̀ olùfúnni rẹ̀. Ní àwọn ọ̀rọ̀ àpò ìwé: ẹnikẹ́ni le fi àpò ìwé ránṣẹ́, ṣùgbọ́n mint tó ní ohun ìní kan nìkan ló le tẹ̀ sí i.
 
 ---
 
-## Wọlé Lọ Jìnnà
+## Jíjìn Jìnnìjìnnì
 
 ### Àfihàn ZSA lórí Zebra
 
 [![Video Thumbnail](/content-images/hqdefault-3ae84de424.webp)](https://youtu.be/1MZMGC9ViyA)
 
-Ẹ fi àwòkẹ́kọ̀ó́ náà hàn fún ara yín!
+**Ṣiṣe àfihàn náà fún ara rẹ!**
 
-Ṣe àdàkọ ibi ìpamọ́ ohun èlò zcash-tx: [https://github.com/QED-it/zcash_tx_tool](https://github.com/QED-it/zcash_tx_tool)
+Ṣe ẹ̀rọ ìpamọ́ zcash-tx-tool: [https://github.com/QED-it/zcash_tx_tool](https://github.com/QED-it/zcash_tx_tool)
 
-### Àwọn Àbá fún Ìmúṣiṣẹ́pọ̀ Zcash (ZIPs)
+### Àwọn Ìdámọ̀ràn Ìdàgbàsókè Zcash (Àwọn ZIP)
 
-- [ZIP 226](https://zips.z.cash/zip-0226): Ìfipamọ́ àti Iná àwọn Ohun-ìní tí a fi Zcash dídì bojú
-- [ZIP 227](https://zips.z.cash/zip-0227): Ìfilọlẹ àwọn Nǹkan tí a fi Ààbò pamọ́ Zcash
-- [ZIP 230](https://zips.z.cash/zip-0230): Ẹ̀dà 6 Àtòjọ Ìṣowo
+- [ZIP 226](https://zips.z.cash/zip-0226): Gbigbe ati Sisun Awọn Ohun-ini Idaabobo Zcash
+- [ZIP 227](https://zips.z.cash/zip-0227): Ìfilọ́lẹ̀ Àwọn Ohun Èlò Ààbò Zcash
+- [ZIP 230](https://zips.z.cash/zip-0230): Ẹ̀yà 6 Ìlànà Ìṣòwò
 
-> ** Akọsilẹ lori ZIP 230:** A ti yọ ZIP 230, a kò sì ní fi í sílò. Ẹ̀dà ìsòwò 6 ni ó di mímọ báyìí nípa lílo àwọn àlàfo tí wọ́n ń jẹ "Zip" láti ṣe iṣẹ́-ṣiṣe náà, èyí tó máa mú kí o lè lo ohun èèlò yìí fún ìdíje kan tàbí òmíràn. [ZIP 229](https://zips.z.cash/zip-0229)Wo ìfilọ́lẹ̀ tó wà ní òkè ìwé ìròyìn náà. [ZIP 230](https://zips.z.cash/zip-0230) ojú ìwé.
+> **Àkíyèsí lórí ZIP 230:** A ti yọ ZIP 230 kúrò láti ìgbà náà, a kò sì ní fi ránṣẹ́ sí i. Ẹ̀yà ìṣòwò 6 ni a ti ṣàlàyé báyìí nípasẹ̀ [ZIP 229](https://zips.z.cash/zip-0229)Wo àkíyèsí tó wà ní òkè [ZIP 230](https://zips.z.cash/zip-0230) ojú ìwé.
 
-ZIP 226 defines the OrchardZSA protocol — an extension of the Orchard protocol that carries the transfer and burn of custom assets. ZIP 227 defines how those assets are created in the first place, and must only be implemented alongside ZIP 226.
+ZIP 226 ṣàlàyé ìlànà OrchardZSA — ìtẹ̀síwájú ìlànà Orchard tí ó ń gbé ìgbésẹ̀ àti sísun àwọn dúkìá àṣà. ZIP 227 ṣàlàyé bí a ṣe ń ṣẹ̀dá àwọn dúkìá wọ̀nyẹn ní àkọ́kọ́, a sì gbọ́dọ̀ ṣe é pẹ̀lú ZIP 226 nìkan.
 
-### Àbá fún Ìrànwọ́ ZSA
+### Ìdámọ̀ràn Ìrànlọ́wọ́ ZSA
 
-Atilẹyin ZSA fun Awọn ohun-ini ti a fi oju pa (ZSA/UDA) ni gbekalẹ nipasẹ awọn ile-iṣẹ iṣakoso. [QEDIT](https://qed-it.com/) ẹgbẹ lati kọ awọn ohun-ini aabo jeneriki lori blockchain Zcash. Awọn wọnyi ni a maa n tọka si bi Ohun-ini Ti A Ṣe Itumọ Olumulo (UDA) tabi gẹgẹbi Awọn Owo Idaabobo Zcash (ZSA).
+Ìdámọ̀ràn ZSA fún Àwọn Ohun Èlò Ààbò (ZSA/UDA) ni a gbé kalẹ̀ láti ọwọ́ [QEDIT](https://qed-it.com/) ẹgbẹ́ láti kọ́ àwọn ohun ìní ààbò gbogbogbòò lórí ẹ̀rọ ìbánisọ̀rọ̀ Zcash. Àwọn wọ̀nyí ni a sábà máa ń pè ní Àwọn Ohun ìní Tí a Ti Dámọ̀ (UDA) tàbí Zcash Shielded Assets (ZSA).
 
-Pẹlu yi ni imọran, awọn egbe ni [QEDIT](https://qed-it.com/) awọn ero lati mu DeFi si ilolupo eda abemi Zcash ati, ni akoko kanna, jẹ ki lilo ti imọ-ẹrọ aṣiri to dara julọ laarin eto iseda ayika DeFi tẹlẹ. Ninu iwadii ibo kan, ẹgbẹ naa beere, ati pe agbegbe dahun pe: [Awọn ohun-ini ti o ni aabo gbogbogbo (ZSA/UDA) jẹ ẹya ti a beere julọ lọwọlọwọ.](https://twitter.com/BenarrochDaniel/status/1428327864034791429).
+Pẹ̀lú ìmọ̀ràn yìí, ẹgbẹ́ náà ní [QEDIT](https://qed-it.com/) ngbero lati mu DeFi wa sinu eto-ẹkọ Zcash ati, ni akoko kanna, mu ki a lo imọ-ẹrọ ikọkọ ti o dara julọ laarin eto-ẹkọ DeFi ti o wa tẹlẹ. Ninu iwadi iwadi kan, ẹgbẹ naa beere, ati pe agbegbe naa dahun pe [Àwọn ohun ìní ààbò gbogbogbòò (ZSA/UDA) ni ohun tí a béèrè fún jùlọ ní àkókò yìí](https://twitter.com/BenarrochDaniel/status/1428327864034791429).
 
-Àwọn àbá yìí bá ìlànà tó wà nínú ìwé òfin náà mu. [Àbá fún Ìmúṣiṣẹ́pọ̀ Zcash (ZIP)](https://zips.z.cash/zip-0000) Àkọsílẹ̀ àti a ṣe àlàyé wọn nínú ZIP 226 & ZIP227.
+Awọn imọran wọnyi ni ibamu pẹlu imọ-ẹrọ [Ìdámọ̀ràn Ìdàgbàsókè Zcash (ZIP)](https://zips.z.cash/zip-0000) ìṣàpèjúwe àti pé a ti ṣàlàyé rẹ̀ nínú ZIP 226 & ZIP 227.
 
-1. [ZIP 226](https://zips.z.cash/zip-0226): Ìfipamọ́ àti Iná àwọn Ohun-ìní tí a fi Zcash dídì bojú
-2. [ZIP 227](https://zips.z.cash/zip-0227): Ìfilọlẹ àwọn Nǹkan tí a fi Ààbò pamọ́ Zcash
-
----
-
-## Àwọn Ohun Tó Lè Yọrí sí Lóòótọ́
-
-**Bí o bá ní ZEC tàbí tóo ń lò ó**
-
-- ZSAs ni a ṣe apejuwe bi itẹsiwaju ti Orchard ("OrchardZSA"), nitorinaa wọn yoo pin awọn ẹrọ aabo ZEC tẹlẹ lo. Iwe apamọwọ rẹ yoo nilo atilẹyin ZSA kedere ṣaaju ki o to le ṣetọju tabi firanṣẹ wọn.
-- You will always need some ZEC on hand. Fees for issuing and transferring a ZSA are paid in ZEC, not in the asset itself.
-- Kò sí nǹkan kan nípa àwọn ìnáwó ZEC tí o ti ṣe tó yí padà.
-
-** Ti o ba jẹ olutaja ti o ni agbara  stablecoin, DAO kan, ile-iṣẹ**
-
-- Ṣíṣírò ohun ìní kan gba àṣẹ láti ṣe àdàkọ tí a so mọ́ kókó ìṣirò, nítorí náà ìwọ nìkan ló lè ṣeré tàbí yí àwọn àmì nǹkan ara rẹ padà.
-- Your asset's circulating supply is publicly auditable while your users' balances and transfers are not. For a regulated issuer, this is usually the exact combination required.
-- Ìṣirò ìsúnniṣe kan ṣoṣo lè dá ohun-ìní ju ẹyọ kan lọ lẹ́ẹ̀kan náà.
-
-**Fún ètò ìgbé ayé**
-
-- Nitoripe gbogbo owo ZSA ni a tọka si ZEC, iṣẹ-ṣiṣe ninu eyikeyi dukia ọjọ iwaju ti o funni lori Zcash ṣẹda ibeere fun ZEC tikararẹ.
+1. [ZIP 226](https://zips.z.cash/zip-0226): Gbigbe ati Sisun Awọn Ohun-ini Idaabobo Zcash
+2. [ZIP 227](https://zips.z.cash/zip-0227): Ìfilọ́lẹ̀ Àwọn Ohun Èlò Ààbò Zcash
 
 ---
 
-## Àwọn Àṣìṣe Tó Máa Ń Ṣẹlẹ̀ Lóde Òní
+## Àwọn Àbájáde Tó Wúlò
 
-☐ Èrò tó gbòde kan. Kí ló fà á?
+**Tí o bá di tàbí lo ZEC**
+
+- A túmọ̀ ZSAs sí ìfàsẹ́yìn Orchard ("OrchardZSA"), nítorí náà wọn yóò pín ẹ̀rọ ààbò tí ZEC ti ń lò tẹ́lẹ̀. Àpò owó rẹ yóò nílò ìrànlọ́wọ́ ZSA kí ó tó lè di tàbí kí ó fi ránṣẹ́.
+- O yoo nilo diẹ ninu ZEC ni ọwọ nigbagbogbo. Awọn idiyele fun fifunni ati gbigbe ZSA ni a san ni ZEC, kii ṣe ninu ohun-ini funrararẹ.
+- Kò sí ohun tó ń yípadà nípa àwọn ìṣòwò ZEC rẹ tó wà tẹ́lẹ̀.
+
+**Tí o bá jẹ́ olùfúnni ní àǹfààní — owó stablecoin, DAO, ilé-iṣẹ́ kan**
+
+- Fífúnni ní dúkìá kan nílò àṣẹ ìkọ̀kọ̀ tí a so mọ́ kọ́kọ́rọ́ ìfúnni, nítorí náà ìwọ nìkan ni ó lè ṣe àtúnṣe tàbí yí àwọn ànímọ́ dúkìá rẹ padà.
+- A le ṣe àyẹ̀wò ìpèsè tí ó wà ní ìkángun dúkìá rẹ ní gbangba nígbà tí a kò lè ṣe àyẹ̀wò ìwọ́ntúnwọ̀nsì àti ìgbesẹ̀ àwọn olùlò rẹ. Fún olùfúnni tí a ń ṣàkóso, èyí sábà máa ń jẹ́ àpapọ̀ pàtó tí a nílò.
+- Iṣòwò kan ṣoṣo lè ṣẹ̀dá ohun ìní ju ẹyọ kan lọ ní ẹ̀ẹ̀kan náà.
+
+**Fun eto eda abemi**
+
+- Nítorí pé gbogbo owó ZSA ni a ń pè ní ZEC, ìgbòkègbodò nínú dúkìá ọjọ́ iwájú tí a bá fún Zcash ló ń mú kí ZEC fúnra rẹ̀ béèrè fún.
+
+---
+
+## Àwọn Àṣìṣe Tó Wọ́pọ̀
+
+| Ìgbàgbọ́ gbogbogbò | Kí ni ó jẹ́ gan-an? |
 | --- | --- |
-| "ZSAs are live on Zcash today." | They are not. ZSA is scheduled for deployment in Network Upgrade 7 (NU7) and is still under review and testing. |
-ZSA n mu awọn iwe adehun ọlọgbọn wa si Zcash. "ZSA ṣe alaye ifisilẹ, gbigbe ati sisun ti ohun-ini. Kii ṣe ipele adehun eto gbogboogbo kan".
-"O le san owo ZSA ninu ami-ami ZSA funrararẹ". Owó ni a fi ń ṣe owó ní ZEC.
- "Ti o ba ti wa ni ipamọ, awọn ami ifihan gbọdọ jẹ ikọkọ pẹlu". ZIP 227 ṣe iṣedede ṣiṣafihan lori idiwọ, ki a le tọpinpin ipese ohun-ini kọọkan gbangba. Awọn iwontunwonsi ati gbigbe duro si ara ẹni; ipese ko ṣeeṣe. 
-"ZIP 230 ni àdàkọ ìmúṣiṣẹ́ 6 tí ó wà nísinsìnyí". A ti yọ ZIP 230 kúrò. Àdàkọ 6 jẹ̀ wípé a mọ ọ sí ZIP 229.
+| "Àwọn ZSA wà lórí Zcash lónìí." | Wọn kìí ṣe bẹ́ẹ̀. ZSA kìí ṣe ara Network Upgrade 7 (NU7), èyí tí [ZIP 259](https://zips.z.cash/zip-0259) n ṣalaye laisi ZIP 226 tabi ZIP 227, o si tun wa labẹ atunyẹwo ati idanwo. |
+| "ZSA mu awọn adehun ọlọgbọn wa si Zcash." | ZSA sọ nípa ìfúnni, gbigbe àti sísun àwọn dúkìá. Kì í ṣe ìpele àdéhùn tí a lè ṣètò fún gbogbogbòò. |
+| "O le san owo ZSA ninu ami ZSA funrararẹ." | A san owo ni ZEC. |
+| "Tí a bá dáàbò bò ó, ìpèsè àmì náà gbọ́dọ̀ jẹ́ àṣírí pẹ̀lú." | ZIP 227 mú kí ìfiránṣẹ́ náà ṣe kedere nítorí pé a mọ̀ ọ́n ṣe é, nítorí náà a lè tọ́pasẹ̀ ìfiránṣẹ́ dúkìá kọ̀ọ̀kan ní gbangba. Ìwọ̀n àti ìfiránṣẹ́ náà dúró ní ìkọ̀kọ̀; ìfiránṣẹ́ náà kò sí níbẹ̀. |
+| "ZIP 230 ni ọna kika iṣowo ẹya 6 lọwọlọwọ." | A ti yọ ZIP 230 kuro. A ti ṣe àtúnṣe ẹ̀yà 6 nípasẹ̀ ZIP 229 báyìí. |
 
 ---
 
-## Àwọn ojúewé tó ní í ṣe pẹ̀lú rẹ̀
+## Àwọn ojú ìwé tó jọra
 
-- [Halo](/zcash-tech/halo)  eto ti o nfihan lẹhin Orchard, ilana ZSA gbooro sii
-- [Zk-SNARKs (ì í ì ë°©í °)](/zcash-tech/zk-snarks)  àwọn ẹ̀rí tí kò ní ìmọ̀ kankan tó jẹ́ kí a lè ṣàyẹ̀wò ìfipèsè ìdánilẹ́kọ̀ọ́ kan láìsí pé ó fara hàn
-- [Àwọn Erékùṣù Tó Ń Wà Níbi Ààbò](/using-zcash/shielded-pools)  ibi tí àwọn ZSA yóò gbé pẹ̀lú àwọn ZEC.
-- [Àwọn Àdéhùn Ìṣirò](/using-zcash/transactions)  bí wọ́n ṣe ń ṣètò ìnáwó Zcash kan.
-- [Zebra Ìkànnì Pípéye](/zcash-tech/zebra-full-node)  ìmúṣẹ node tí a lò nínú àfihàn ZSA lókè yìí.
+- [Halo](/zcash-tech/halo) — eto ti o fihan lẹhin Orchard, ilana naa ZSA gbooro sii
+- [zk-SNARKs](/zcash-tech/zk-snarks) — àwọn ẹ̀rí àìmọ̀ tí ó jẹ́ kí a fìdí ìyípadà tí a dáàbò bò múlẹ̀ láìsí ìfihàn
+- [Àwọn Adágún Tí A Dáàbò Bo](/using-zcash/shielded-pools) — níbi tí àwọn ZSA yóò máa gbé lẹ́gbẹ̀ẹ́ ZEC
+- [Awọn iṣowo](/using-zcash/transactions) — bá a ṣe ń ṣe ìṣòwò Zcash papọ̀
+- [Kún Node Àmì Zebra](/zcash-tech/zebra-full-node) — imuse node ti a lo ninu demo ZSA loke

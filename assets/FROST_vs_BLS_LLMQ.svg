@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 580" width="1000" height="580" role="img" aria-label="Dash's BLS LLMQ threshold signatures are signed by a masternode quorum and authorize a network fact such as a ChainLock, at the consensus layer. Zcash's FROST under ZIP 312 is signed by a small group of individual keyholders and authorizes a spend from one shielded account, at the wallet layer. The two are not interchangeable.">
+  <title>What each threshold scheme signs over</title>
+  <desc>A side-by-side comparison. On the left, Dash's deployed BLS LLMQ scheme: a quorum of masternodes produces a BLS threshold signature that attests to a network fact, such as a ChainLock finalising a block or an InstantSend lock on a transaction. It operates at the consensus layer using a separate BLS key domain. On the right, Zcash's draft FROST scheme under ZIP 312: a small group of individual keyholders, with a coordinator, produces a RedPallas Schnorr signature that authorizes a spend from a single Orchard shielded account. It operates at the wallet layer using that account's spend authorizing key. Different signers, different object, different layer.</desc>
+
+  <style>
+    .panel { fill: #FFFFFF; }
+    .ink { fill: #15181D; }
+    .muted { fill: #656C7A; }
+    .rule { stroke: #E3E6EB; }
+    .card { fill: #F6F7F9; stroke: #E3E6EB; }
+    .dash { fill: #1C75BC; }
+    .dashsoft { fill: #E8F2FA; stroke: #9CC8E8; }
+    .dashink { fill: #14537F; }
+    .zec { fill: #F4B728; }
+    .zecsoft { fill: #FDF3DC; stroke: #E8C878; }
+    .zecink { fill: #7A5B0B; }
+    .arrow { stroke: #8B93A1; fill: none; }
+    .head { fill: #8B93A1; }
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, Helvetica, Arial, sans-serif; }
+    .t-title { font-size: 24px; font-weight: 700; }
+    .t-sub { font-size: 13.5px; }
+    .t-panel { font-size: 16px; font-weight: 700; }
+    .t-status { font-size: 11px; font-weight: 700; letter-spacing: 1.1px; }
+    .t-lbl { font-size: 12.5px; }
+    .t-lblb { font-size: 13px; font-weight: 650; }
+    .t-chip { font-size: 12px; }
+    .t-foot { font-size: 11.5px; }
+    .t-claim { font-size: 14px; font-weight: 650; }
+    @media (prefers-color-scheme: dark) {
+      .panel { fill: #14171C; }
+      .ink { fill: #E9ECF1; }
+      .muted { fill: #98A1B0; }
+      .rule { stroke: #2A2F38; }
+      .card { fill: #1B1F26; stroke: #2A2F38; }
+      .dash { fill: #4FA3DB; }
+      .dashsoft { fill: #0F2A3D; stroke: #2A6390; }
+      .dashink { fill: #7FBDE8; }
+      .zecink { fill: #F4B728; }
+      .zecsoft { fill: #2A2313; stroke: #6B551C; }
+      .arrow { stroke: #6B7280; }
+      .head { fill: #6B7280; }
+    }
+  </style>
+
+  <defs>
+    <marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" class="head"/>
+    </marker>
+  </defs>
+
+  <rect class="panel" x="0" y="0" width="1000" height="580" rx="10"/>
+
+  <text class="ink t-title" x="40" y="48">Two threshold schemes, two different objects</text>
+  <text class="muted t-sub" x="40" y="74">Dash already has threshold signatures. They do not do what ZIP 312 does.</text>
+  <line class="rule" x1="40" y1="94" x2="960" y2="94" stroke-width="1"/>
+
+  <!-- ===== LEFT: DASH ===== -->
+  <rect class="card" x="40" y="116" width="440" height="382" rx="8" stroke-width="1"/>
+  <text class="ink t-panel" x="64" y="146">Dash — BLS / LLMQ</text>
+  <text class="dashink t-status" x="64" y="166">DEPLOYED</text>
+
+  <text class="muted t-lbl" x="64" y="198">Signed by a quorum of masternodes</text>
+  <g class="dash">
+    <circle cx="80" cy="222" r="9"/>
+    <circle cx="110" cy="222" r="9"/>
+    <circle cx="140" cy="222" r="9"/>
+    <circle cx="170" cy="222" r="9"/>
+    <circle cx="200" cy="222" r="9"/>
+    <circle cx="230" cy="222" r="9"/>
+    <circle cx="260" cy="222" r="9"/>
+    <circle cx="290" cy="222" r="9"/>
+    <circle cx="320" cy="222" r="9"/>
+    <circle cx="350" cy="222" r="9"/>
+  </g>
+  <text class="muted t-chip" x="372" y="227">many</text>
+
+  <line class="arrow" x1="215" y1="244" x2="215" y2="282" stroke-width="1.5" marker-end="url(#ar)"/>
+  <text class="ink t-lblb" x="232" y="268">BLS threshold signature</text>
+
+  <rect class="dashsoft" x="64" y="294" width="392" height="104" rx="6" stroke-width="1"/>
+  <text class="dashink t-lblb" x="84" y="320">Authorizes a network fact</text>
+  <text class="muted t-chip" x="84" y="344">ChainLock — this block is final</text>
+  <text class="muted t-chip" x="84" y="364">InstantSend — this transaction is locked</text>
+  <text class="muted t-chip" x="84" y="384">Platform validator consensus</text>
+
+  <line class="rule" x1="64" y1="420" x2="456" y2="420" stroke-width="1"/>
+  <text class="muted t-foot" x="64" y="442">Layer: consensus</text>
+  <text class="muted t-foot" x="64" y="460">Key space: a separate BLS domain, outside the BIP 32 tree</text>
+  <text class="muted t-foot" x="64" y="478">Scheme: BLS</text>
+
+  <!-- ===== RIGHT: ZCASH ===== -->
+  <rect class="card" x="520" y="116" width="440" height="382" rx="8" stroke-width="1"/>
+  <text class="ink t-panel" x="544" y="146">Zcash — FROST (ZIP 312)</text>
+  <text class="zecink t-status" x="544" y="166">DRAFT — NO REFERENCE IMPLEMENTATION</text>
+
+  <text class="muted t-lbl" x="544" y="198">Signed by a few individual keyholders</text>
+  <g class="zec">
+    <rect x="552" y="211" width="22" height="22" rx="4"/>
+    <rect x="590" y="211" width="22" height="22" rx="4"/>
+    <rect x="628" y="211" width="22" height="22" rx="4"/>
+  </g>
+  <text class="muted t-chip" x="664" y="227">2 of 3</text>
+  <rect class="card" x="744" y="209" width="120" height="26" rx="13" stroke-width="1"/>
+  <text class="muted t-chip" x="804" y="226" text-anchor="middle">Coordinator</text>
+
+  <line class="arrow" x1="600" y1="246" x2="600" y2="282" stroke-width="1.5" marker-end="url(#ar)"/>
+  <text class="ink t-lblb" x="617" y="268">RedPallas Schnorr signature</text>
+
+  <rect class="zecsoft" x="544" y="294" width="392" height="104" rx="6" stroke-width="1"/>
+  <text class="zecink t-lblb" x="564" y="320">Authorizes one spend</text>
+  <text class="muted t-chip" x="564" y="344">From a single Orchard shielded account</text>
+  <text class="muted t-chip" x="564" y="364">Shared custody, DAO treasury, personal multisig</text>
+  <text class="muted t-chip" x="564" y="384">Signature is valid spend authorization as already defined</text>
+
+  <line class="rule" x1="544" y1="420" x2="936" y2="420" stroke-width="1"/>
+  <text class="muted t-foot" x="544" y="442">Layer: wallet</text>
+  <text class="muted t-foot" x="544" y="460">Key space: the account's spend authorizing key (ask)</text>
+  <text class="muted t-foot" x="544" y="478">Scheme: Schnorr — RedPallas for Orchard, RedJubjub for Sapling</text>
+
+  <!-- ===== CLAIM ===== -->
+  <line class="rule" x1="40" y1="520" x2="960" y2="520" stroke-width="1"/>
+  <text class="ink t-claim" x="40" y="546">Different signers, a different object, a different layer. Having one does not give you the other.</text>
+  <text class="muted t-foot" x="40" y="566">Sources: ZIP 312 (Draft, Wallet category); Dash Core documentation on masternode quorums. Checked 27 September 2026.</text>
+</svg>

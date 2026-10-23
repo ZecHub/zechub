@@ -5,13 +5,21 @@
 
 # Why Privacy Matters
 
+## TL;DR
+
+- **Tor** routes your traffic through three relays and works for both the normal web and onion services — today it is the practical default for anonymising wallet connections and browsing
+- **I2P** is a fully encrypted peer-to-peer overlay network designed for its own internal services; **no current Zcash node speaks I2P natively**
+- **On mobile:** route a Zcash wallet through Tor in a few taps with Orbot ("Tor Enabled Apps")
+- **Running a Zcash node over Tor is not possible right now:** `zcashd` reached end of support on 18 July 2026, and Zebra's Tor feature is still disabled upstream
+- Tor hides *where you are*, not *what you do on-chain* — transparent transactions remain public
+
 In the digital era, safeguarding your [privacy](https://www.privacyguides.org/en/) has become increasingly vital. While some may view privacy as a lost cause, it is not. Your privacy is at stake and should be a concern. Privacy holds significant value as it relates to power, and ensuring that power is wielded responsibly is crucial.
 
 ## Tor & I2P Technologies
 
 ## Tor
 
-[Tor](https://www.privacyguides.org/en/tor/?h=tor) is a proxy tool that ustilizes the Tor network to establish connections for applications. Torbot achieves this by routing their traffic through Tor, thus enhancing [privacy and anonymity](https://www.torproject.org/) for these applications.
+[Tor](https://www.privacyguides.org/en/tor/?h=tor) is a proxy tool that utilizes the Tor network to establish connections for applications. Tor achieves this by routing their traffic through Tor, thus enhancing [privacy and anonymity](https://www.torproject.org/) for these applications.
 
 ## I2P Network
 
@@ -39,30 +47,30 @@ Both Tor and I2P are decentralized and anonymous peer-to-peer networks, but I2P 
 
 Orbot is a no-cost virtual private network (VPN) designed for smartphones that directs traffic from all applications on your device through the Tor network.
 
-Follow these instructions to route a Zcash wallet through Tor. Note that Ywallet, which earlier versions of this guide used, is no longer maintained and will not follow the network after Ironwood, so pick a maintained wallet from the [Wallets](/using-zcash/wallets) page.
+Follow these instructions to route a Zcash wallet through Tor. Note that YWallet, which earlier versions of this guide used, is no longer maintained and will not follow the network after Ironwood, so pick a maintained wallet from the [Wallets](/using-zcash/wallets) page.
 
 1.  Download and install *Orbot* from the app store.
 
-2.  After insatllation, a greetings message will appear. Continue to the *Orbot* home page and click on *'Tor Enabled Apps'.*              
+2.  After installation, a greetings message will appear. Continue to the *Orbot* home page and click on *'Tor Enabled Apps'.*              
 
 3. This will prompt a page on the screen showing the Tor-compatible applications. Find your Zcash wallet in the list and make sure it is selected.
 
 4. A connection request to set up a VPN will appear, which will allow *Orbot* to monitor the network traffic. *Orbot* will Initialise once this permission has been approved. 
 
-5. Check the taskbar or the Orbot homepage to verify that Tor is runnung, this is confirmed when you see 'Connected to the Tor network'.
+5. Check the taskbar or the Orbot homepage to verify that Tor is running, this is confirmed when you see 'Connected to the Tor network'.
 
 *Note: If Tor is blocked by your mobile network, you may use a Bridge Server as an alternative way to connect.*
 
 
 ## Installing Tor on PC or desktop
 
-* Tor browser can be downloaded from the official website, you can access the link [here](https://www.torproject.org/download/).
+* Tor browser can be downloaded from the official website, you can access the link [here](https://download.torproject.org/).
 
  The most convenient way for installing Tor is through the Tor Browser Bundle. If you prefer headless installations, you may opt to install the Tor daemon separately. 
 
 *Note: By default, the Tor Browser bundle exposes a SOCKS listener on tcp/9150 and the Tor daemon exposes the SOCKS listener on tcp/9050.*
 
-* Refer to the installation [instructions](https://support.torproject.org/apt/) specific to your operating system as provided by the Tor Project.
+* Refer to the installation [instructions](https://support.torproject.org/little-t-tor/getting-started/installing/) specific to your operating system as provided by the Tor Project.
 
 ## Running a node over Tor
 
@@ -85,3 +93,11 @@ If you need node-level anonymity now, the workable approach is to put the whole 
 - **Route your wallet through Tor** with Orbot on mobile, as described above. This is the practical option for most people, and it hides your IP from the lightwalletd server your wallet talks to
 - **Use Tor Browser** for block explorers, forums and anything else where you would rather not be linked by address
 - **Remember what Tor does not hide.** It anonymises your network location, not your on-chain activity. Sending from a transparent address is still public, and value crossing between shielded pools still publishes the amount. See [Shielded Pools](/using-zcash/shielded-pools) for what stays visible
+
+## Related pages
+
+- [VPN and DVPN](VPN_and_DVPN.md) — VPN alternatives and how they compare
+- [Web Browsers](Web_Browsers.md) — browser hardening for everyday privacy
+- [Secure Messengers](Secure_Messengers.md) — private communication tools
+- [What a Block Explorer Can See](../Zcash_Tech/What_a_Block_Explorer_Can_See.md) — what your node-level privacy does and does not protect
+- [Shielded Pools](/using-zcash/shielded-pools) — what stays visible on-chain even with network-layer anonymity

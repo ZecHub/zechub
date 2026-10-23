@@ -1,7 +1,7 @@
 # Kuangazia Anwani za Zcash kwa Njia ya Vitendo
 
 Ikiwa unajifunza kuhusu Zcash kwa mara ya kwanza, utagundua mara moja kuwa kuna aina mbili za [miamala](https://zechub.notion.site/Transactions-2862a2c98a104c3fa08402fb9d5b71b8) zinazoweza kutokea: *Za uwazi/transparent* na * za kinga/shielded*.
-Zaidi ya hayo, ikiwa umekuwa ukifuatilia maendeleo ya hivi karibuni katika mfumo wa Zcash, labda umesikia juu ya [Unified Addresses](https://electriccoin.co/blog/unified-addresses-in-zcash-explained/), au UA's.
+Zaidi ya hayo, ikiwa umekuwa ukifuatilia maendeleo ya hivi karibuni katika mfumo wa Zcash, labda umesikia juu ya [Unified Addresses](https://web.archive.org/web/20260823012524/https://electriccoin.co/blog/unified-addresses-in-zcash-explained/), au UA's.
 Wakati watu katika tasnia ya Zcash wanazungumzia miamala za *kinga* wanamaanisha miamala ambayo inahusisha anwani zilizohifadhiwa kwa itifaki za sapling au orchard.
 UA's zimeundwa ili kuunganisha aina *yoyote* ya miamala ya kinga au ya uwazi katika anwani moja. Ujumuishaji huu ni ufunguo wa kusimplisha UX (uzoefu wa mtumiaji) katika siku zijazo. Lengo la mwongozo huu ni kusaidia uelewa wa UA's na kuonyesha mifano ya kuona kwa njia ya vitendo.
 

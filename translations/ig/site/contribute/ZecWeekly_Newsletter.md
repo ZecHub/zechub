@@ -2,35 +2,36 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Akwụkwọ akụkọ ZecWeekly Newsletter
+# Akwụkwọ Ozi ZecWeekly
 
-ZecWeekly is a newsletter that goes out every Sunday morning. It includes all the news that happened during the week in the Zcash ecosystem. The news is curated weekly by community members and all relevant links are added to the newsletter. Please subscribe to the newsletter [ebe a .](https://zechub.substack.com/).
+ZecWeekly bụ akwụkwọ ozi nke na-apụta kwa ụtụtụ Sọnde. Ọ gụnyere akụkọ niile mere n'izu ahụ na gburugburu ebe obibi Zcash. Ndị obodo na-ahazi akụkọ ahụ kwa izu, a na-agbakwụnyekwa njikọ niile dị mkpa na akwụkwọ ozi ahụ. Biko denye aha na akwụkwọ ozi ahụ [Ebe a](https://zechub.substack.com/).
 
-## Na-enye aka
+## Nye onyinye
 
-Akwụkwọ akụkọ na-arụ ọrụ kachasị mma mgbe otu onye nyere aka kwadebe mbipụta maka izu ziri ezi, soro usoro ego ma ọ bụ nhazi nke ugbu a, wee nyefee arịrịọ ịdọrọ mgbe njikọ ndị dị kwa izu kwadebere. Biko etinyela akwụkwọ ọdịnihu tupu ZecHub edee ma ọ bụkwanụ gosi ụbọchị maka mbipụta ahụ. Arịrịọ mbupụ n'oge anaghị echefu mmelite ngwụcha izu ụka, esemokwu ya na onye nlekọta e kenyere ya, ma ọ̄bụ jiri oge njedebe ezighi ezi.
+Ntinye akwụkwọ ozi na-arụ ọrụ nke ọma mgbe otu onye na-enye aka na-akwado mbipụta ahụ maka izu kwesịrị ekwesị, soro usoro ihe nrite ma ọ bụ nhazi dị ugbu a, ma nyefee arịrịọ mwepụ mgbe njikọ izu dị njikere. Biko etinyela mbipụta n'ọdịnihu tupu ZecHub ebipụ ma ọ bụ kwado ụbọchị maka mbipụta ahụ. Arịrịọ mwepụta mbụ na-abụkarị ndị na-anaghị enweta mmelite n'ọgwụgwụ izu, na-emegide onye nlekọta e kenyere, ma ọ bụ jiri oge njedebe na-ezighi ezi.
 
-### 1. Chọpụta mbipụta nke dị ugbu a.
+### 1. Kwado mbipụta dị ugbu a
 
-Tupu ị malite ide ihe:
+Tupu ịmalite ide:
 
-- Lelee ya . [Ihe ndị ZEC na-akwụ ụgwọ ha. ](https://bounties.zechub.wiki/) maka ọrụ akwụkwọ akụkọ dị ugbu a.
+- Lelee [ZEC Bounties](https://bounties.zechub.wiki/) maka ọrụ akwụkwọ ozi dị ugbu a.
 - Chere ka e kenye gị ọrụ.
+- Mbipụta akwụkwọ ozi dị n'ime otu XS nke [amụma ego onyinye](https://bounties.zechub.wiki/docs/bounty-amounts)Ọnụọgụ ZEC dị na onyinye ahụ dị ndụ bụ ego ahụ, ọ bụghị isi ihe ochie ọ bụla dị na ntuziaka ndị na-enye onyinye.
 
 ![ss](/content-images/149a802c-b64f-4969-ad89-e83ffecf568e-d5d8387145.webp)
 
 
 
-### 2. Gbanye ebe nchekwa ahụ.
+### 2. Gbanye ebe nchekwa ahụ
 
 Ọ bụrụ na ị bụ onye ọhụrụ na GitHub, jiri usoro ọrụ a:
 
-1. Mepee ihe ahụ . [Ebe nchekwa ZecHub](https://github.com/ZecHub/zechub).
-2. Pịa **Fork** ma mepụta fork n'okpuru akaụntụ GitHub gị.
-3. Na forks gị, mepụta ngalaba ọhụrụ maka mbipụta ahụ. Aha ngalaba doro anya na-enye aka, dịka: `digest-may-30-2026`.
-4. Jide n'aka na arịrịọ ịdọpụ gị ga-elekwasị anya `ZecHub/zechub` dị ka isi nchekwa na `main` dị ka alaka nke isi.
+1. Mepee [Ebe nchekwa ZecHub](https://github.com/ZecHub/zechub).
+2. Pịa **Fork** wee mepụta ndụdụ n'okpuru akaụntụ GitHub gị.
+3. N'ime ndụdụ gị, mepụta alaka ọhụrụ maka mbipụta ahụ. Aha alaka doro anya na-enyere aka, dịka ọmụmaatụ `digest-may-30-2026`.
+4. Jide n'aka na arịrịọ ịdọrọ gị ga-elekwasị anya `ZecHub/zechub` dị ka ebe nchekwa ntọala na `main` dị ka alaka isi.
 
-Ọ bụrụ na ị jiri akara iwu, otu usoro ọrụ ahụ dị ka nke a:
+Ọ bụrụ na ị na-eji akara iwu, otu usoro ọrụ ahụ yiri nke a:
 
 ```bash
 git clone https://github.com/YOUR-USERNAME/zechub.git
@@ -38,42 +39,42 @@ cd zechub
 git checkout -b digest-month-day-year
 ```
 
-Dochie ya . `YOUR-USERNAME` na aha njirimara GitHub gị. URL dị n'elu bụ ebe nchekwa ma agaghị edozi dịka edere ya.
+Dochie `YOUR-USERNAME` jiri aha njirimara GitHub nke gị. URL dị n'elu bụ ihe njide ebe ọ ga-adị, ọ gaghịkwa edozi ya dịka e dere ya.
 
-### 3. Mepụta faịlụ akwụkwọ akụkọ ahụ
+### 3. Mepụta faịlụ akwụkwọ ozi
 
-Jiri ihe ndị a: [akwụkwọ akụkọ template](https://github.com/ZecHub/zechub/blob/main/newsletter/newslettertemplate.md) dị ka gị amalite. akwụkwọ akụkọ mbipụta na-anọ n'ime ndị kasị mma nke a usoro, ma ọ bụ ọbụna ihe kacha mkpa maka ọrụ ahụ. [`newsletter`](https://github.com/ZecHub/zechub/tree/main/newsletter) akwụkwọ.
+Jiri ya [ndebiri akwụkwọ ozi](https://github.com/ZecHub/zechub/blob/main/newsletter/newslettertemplate.md) dị ka ebe mmalite gị. Mbipụta akwụkwọ ozi dị na [`newsletter`](https://github.com/ZecHub/zechub/tree/main/newsletter) folda.
 
-Mgbe ị na- eke faịlụ:
+Mgbe ị na-ede faịlụ:
 
-- Kwekọrịta aha faịlụ a chọrọ site na mbipụta ma ọ bụ jiri ya mee ihe n'oge ndị ọzọ.
-- Debe otu usoro nkebi ahụ dị ka template ọ gwụla ma ọrụ a rịọrọ maka ụdị ọzọ.
-- Tinye njikọ site na izu dị mkpa naanị.
-- Dee nkọwa dị nkenke ma doo anya maka njikọ ọ bụla ka ndị na-agụ ya wee ghọta ihe mere o ji dị mkpa.
-- Na-asụgharị ma ọ bụ na-achịkọta isi mmalite ndị ọzọ n'asụsụ Bekee mgbe achọrọ.
-- Lelee njikọ ọ bụla tupu imeghe arịrịọ ịdọrọ.
+- Dakọọ usoro aha faịlụ nke nsogbu ahụ rịọrọ maọbụ nke mbipụta ndị a nabatara n'oge na-adịbeghị anya jiri.
+- Debe otu usoro nkebi ahụ dịka ndebiri ahụ ma ọ gwụla ma ọrụ ahụ chọrọ usoro dị iche.
+- Tinye njikọ sitere na izu dị mkpa naanị.
+- Dee nkọwa dị mkpirikpi ma doo anya maka njikọ ọ bụla ka ndị na-agụ akwụkwọ wee ghọta ihe mere o ji dị mkpa.
+- Tụgharịa ma ọ bụ chịkọta isi mmalite ndị na-abụghị Bekee na Bekee mgbe ọ dị mkpa.
+- Lelee njikọ ọ bụla tupu imepe arịrịọ ịdọrọ.
 
-### 4. Chọta njikọ n'oge kwesịrị ekwesị
+### 4. Chịkọta njikọ n'oge kwesịrị ekwesị
 
-ZecWeekly na-ejikarị ihe omume nke usoro okike Zcash maka izu a ma bipụtara ya nso njedebe nke izu. Oge kachasị mma bụ:
+ZecWeekly na-ekpuchikarị ọrụ gburugburu Zcash maka izu a ma a na-ebipụta ya na ngwụcha izu. Oge kachasị nchebe bụ:
 
-- Bido ịnakọta njikọ mgbe e biputere mbipụta akwụkwọ akụkọ ma ọ bụ ọrụ dị ugbu a.
-- Na-edepụta ihe ndị ị ga na-eme n'izu.
-- Nyefee arịrịọ ịdọrọ ahụ nso na ụbọchị ntinye achọrọ, mgbe i nyochachara maka mmelite nke ngwụcha izu.
-- Ejila akwụkwọ akụkọ maka izu na-abịa n'ihu tupu ọrụ ahụ dị ma ọ bụ tupu ZecHub ekwenye na ị ga-akwadebe ya.
+- Malite ịchịkọta njikọ mgbe ebipụtara akwụkwọ ozi ma ọ bụ ọrụ dị ugbu a.
+- Debe ihe osise mgbe izu ahụ ka na-arụ ọrụ.
+- Zipu arịrịọ mwepụta ahụ tupu ụbọchị nnyefe achọrọ, mgbe ị lechara anya maka mmelite izu ụka ikpeazụ.
+- Etinyela akwụkwọ ozi izuụka na-abịa tupu ọrụ maka ụbọchị ahụ eruo ma ọ bụ tupu ZecHub akwado na ị kwesịrị ịkwadebe ya.
 
-Ọ bụrụ na e nwere ụbọchị a kapịrị ọnụ ị ga-ezitere akwụkwọ gị, mee ya n'ụbọchị ahụ. Ọ bụrụkwa na peeji nke dị ebe a ekwekọghị ná mbipụta ọhụrụ unu bipụtara ugbu a, mewe ihe ndị ọzọ e kwuru gbasara isiokwu ahụ.
+Ọ bụrụ na nsogbu kwuru ka e nyefee ya tupu ụbọchị kpọmkwem, soro ụbọchị ahụ. Ọ bụrụ na esemokwu dị n'etiti ibe a na nke dị ugbu a, soro okwu dị ugbu a.
 
 ### 5. Mepee arịrịọ ịdọrọ
 
-Mgbe faịlụ akwụkwọ akụkọ gị dị njikere:
+Mgbe faịlụ akwụkwọ ozi gị dị njikere:
 
-1. Gbanwee mgbanwe gị na ndụdụ.
-2. Mepee arịrịọ ịdọrọ na-abanye n'ime `ZecHub/zechub` na nke a: `main` alaka ụlọ ọrụ.
-3. Jiri aha dabara n'akwụkwọ ahụ ị na-agụ, dị ka: `Zcash Ecosystem Digest | May 30th`.
-4. Jikọọ okwu ahụ na arịrịọ ọchụchọ ka ndị nyocha wee nwee ike ijikọta ọrụ ahụ n'ọrụ.
+1. Kwe ka mgbanwe gị dịrị na ndụdụ gị.
+2. Mepee arịrịọ ịdọrọ n'ime `ZecHub/zechub` na `main` alaka.
+3. Jiri aha nke dabara na mbipụta ahụ, dịka ọmụmaatụ `Zcash Ecosystem Digest | May 30th`.
+4. Jikọọ nsogbu ahụ n'ime ngalaba arịrịọ ndọta ka ndị nyocha wee nwee ike ijikọ ọrụ ahụ na ọrụ ahụ.
 
-Ihe atụ nke arịrịọ ịdọrọ:
+Ihe atụ nke arịrịọ ịdọpụta ahụ:
 
 ```md
 Closes #ISSUE_NUMBER
@@ -84,44 +85,44 @@ Summary:
 - Checks links and descriptions for the requested week.
 ```
 
-Mgbe arịrịọ ọpụpụ ahụ mepere, lelee maka nyocha nyochaa. Ọ bụrụ na ZecHub rịọrọ ka edezi ya, mee mmelite otu alaka kama ịmepe arịrịọta nke abụọ maka mbipụta yiri ya.
+Mgbe e meghere arịrịọ ahụ, lelee anya maka nkọwa nyocha. Ọ bụrụ na ZecHub arịọ maka ndozi, melite otu alaka ahụ kama imepe arịrịọ nke abụọ maka otu mbipụta ahụ.
 
-### Ihe atụ ndị mere eme
+### Ezigbo ihe atụ
 
-Jiri arịrịọ ndị a na-adọta akwụkwọ akụkọ agwakọtara dị ka ihe atụ nke ntinye n'aka:
+Jiri arịrịọ ndị a jikọtara ọnụ dị ka ihe atụ nke ntinye a nabatara:
 
-- [Zcash Ecosystem Digest. April 11th Ụbọchị iri na otu nke ọnwa anọ](https://github.com/ZecHub/zechub/pull/1551)
-- [Zcash Ecosystem Digest. 28 nke Machị](https://github.com/ZecHub/zechub/pull/1544)
-- [Zcash Ecosystem Digest. Febụwarị 14th](https://github.com/ZecHub/zechub/pull/1474)
+- [Nchịkọta Zcash Ecosystem | Eprel 11](https://github.com/ZecHub/zechub/pull/1551)
+- [Nchịkọta Zcash Ecosystem | Machị 28](https://github.com/ZecHub/zechub/pull/1544)
+- [Nchịkọta Zcash Ecosystem | Febụwarị 14](https://github.com/ZecHub/zechub/pull/1474)
 
 
 ![Merged ZecWeekly newsletter pull request example](/content-images/9230d68d-6406-4c8a-992c-df84e0d318d8-8893d2de55.webp)
 
-Mgbe ị na-atụnyere ọrụ gị n'ihe atụ, lekwasị anya na ebe faịlụ ahụ dị, usoro aha ya, nhazi nke ngalaba, nkọwa njikọ yana ma ọ bụrụ na arịrịọ a dọtara jikọtara azụ gaa ọrụ ziri ezi.
+Mgbe ị na-atụnyere ọrụ gị na ihe atụ, lekwasị anya n'ebe faịlụ dị, usoro aha, usoro ngalaba, nkọwa njikọ, na ma arịrịọ ndọta ahụ ọ ga-ejikọghachi na ọrụ ziri ezi.
 
-### Ihe ndị mmadụ na-emekarị nke ị ga-ezere ime.
+### Mmejọ ndị a na-emekarị izere
 
-- Ịmepe arịrịọ ịdọrọ tupu ụbọchị mbipụta ma ọ bụ ọrụ ahụ ekwenye.
-- Na-arụ ọrụ na nsogbu nke nwere njikọ arịrịọ ịdọrọ.
-- Ịnyefe arịrịọ ịdọrọ na fork gị kama nke ahụ. `ZecHub/zechub`.
-- Iji aha faịlụ na ezighi ezi ma ọ bụ itinye faịlụ ahụ n'èzí nke nchekwa data . `newsletter` akwụkwọ.
-- Iṅomi mbipụta ochie n'emezigharịghị ụbọchị, njikọ na nkọwa ya nile.
-- Ịgbakwunye njikọ sitere n'izu na-ezighi ezi.
-- Ịhapụ njikọ ndị mebiri emebi, njikọta abụọ ma ọ bụ ederede ebe nchekwa site na ndebiri.
-- Ịmepe arịrịọ ọhụrụ mgbe ị nyochachara ihe ndị e kwuru kama imelite alaka mbụ.
+- A na-akwado imepe arịrịọ ịdọrọ tupu ụbọchị mbipụta ma ọ bụ ọrụ ahụ.
+- Ịrụ ọrụ na nsogbu nke nwere arịrịọ njikọ njikọ.
+- Itinye arịrịọ ịdọpụta na ndụdụ nke gị kama `ZecHub/zechub`.
+- Iji aha faịlụ na-ezighi ezi ma ọ bụ itinye faịlụ ahụ n'èzí `newsletter` folda.
+- Idetuo mbipụta ochie na-emeliteghị ụbọchị, njikọ, na nkọwa ọ bụla.
+- Itinye njikọ site na izu na-ezighi ezi.
+- Ịhapụ njikọ ndị gbawara agbawa, njikọ ndị e megharịrị, ma ọ bụ ederede ihe njide site na template ahụ.
+- Imepe arịrịọ ndọpụta ọhụrụ mgbe emechara nyocha okwu kama imelite alaka mbụ ahụ.
 
-### Ndepụta nyocha ikpeazụ
+### Ndepụta ikpeazụ
 
-Tupu ị rịọ maka nyochaa, gosi na:
+Tupu ị rịọ maka nyocha, gosi na:
 
-- Ụbọchị mbipụta maọbụ ọrụ kwekọrọ na faịlụ akwụkwọ akụkọ gị.
-- Enweghị arịrịọ ọ bụla ọzọ a na-emeghe ugbu a maka otu mbipụta ma ọ bụ mbipụta ahụ.
-- Faịl dị na . `newsletter` akwụkwọ.
-- Ngalaba template zuru ezu.
+- Ụbọchị nsogbu ma ọ bụ ụbọchị ọrụ ahụ dabara na faịlụ akwụkwọ ozi gị.
+- Ọ dịghị arịrịọ ọzọ a na-akpọ "open pull" nke na-ekpuchi otu mbipụta ma ọ bụ mbipụta ahụ.
+- Faịlụ ahụ dị na faịlụ ahụ `newsletter` folda.
+- Ngalaba ndebiri ahụ ezuola.
 - Njikọ ọ bụla na-arụ ọrụ ma nwee nkọwa bara uru.
-- Isi arịrịọ ahụ na-ejikọta ihe ziri ezi.
-- Ị dị njikere imezi ma ọ bụrụ na ndị nyocha rịọrọ mgbanwe.
+- Òtù arịrịọ ndọta ahụ jikọtara nsogbu ziri ezi.
+- Ị dị njikere ime mgbanwe ma ọ bụrụ na ndị nyocha arịọ maka mgbanwe.
 
 ## Mbipụta ndị gara aga
 
-[Ihe ndekọ ZecWeekly Archive](https://zechub.substack.com/p/archive)
+[Ebe Nchekwa ZecWeekly](https://zechub.substack.com/p/archive)

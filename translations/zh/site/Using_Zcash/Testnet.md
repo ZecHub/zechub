@@ -130,10 +130,10 @@ Zcash 目前维护的节点是 **Zebra**(由 Zcash Foundation维护的基于 Rus
 - 无需手动挖矿即可获得 TAZ  
 
 **示例：**  
-1. 访问一个 Testnet 水龙头（例如 [testnet.zecfaucet.com](https://testnet.zecfaucet.com) | [fauzec.com](https://fauzec.com/)）  
+1. 访问一个 Testnet 水龙头（例如 [fauzec.com](https://fauzec.com/) | [zcashfaucet.jinolabs.xyz](https://zcashfaucet.jinolabs.xyz/)）  
 2. 输入你的 Testnet 地址  
 3. 申请 TAZ  
-4. 立即收到 TAZ，开始测试  
+4. 立即收到 TAZ，开始测试
 
 **为什么这很重要：**  
 - 可在不冒 ZEC 风险的情况下安全测试  

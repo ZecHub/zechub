@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Ugboro abụọ
+# Canopy
 
 > Canopy gara ndụ na Zcash mainnet na ngọngọ 1,046,400 (November 18, 2020 UTC).
 
@@ -12,7 +12,7 @@ Canopy bụ nkwalite netwọk nke ise Zcash, a na-akpọkwa Network Upgrade 4 (N
 
 Why this matters. Zcash funds its own development from block rewards, because it has no company behind it. The founders reward that paid for its early years was set to end at the first halving. Canopy was the replacement: it routed a fixed share of each block reward into a Development Fund and set who receives it. That model was refined by later upgrades, up to [NU6.1](../zcash-tech/nu6-1).
 
-![Before Canopy the founders reward funded development and was set to end at the first halving. After Canopy the Development Fund takes 20 percent of each block reward and runs to the second halving in 2024](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/canopy-founders-to-devfund.png)
+![Before Canopy the founders reward funded development and was set to end at the first halving. After Canopy the Development Fund takes 20 percent of each block reward and runs to the second halving in 2024](/content-images/canopy-founders-to-devfund-010676e799.webp)
 
 ## Ego mmepe ahụ.
 
@@ -30,7 +30,7 @@ Ulo oru mmepe na-ewe 20% nke ụgwọ ọrụ ọ bụla. ndị omimi na-ejide 8
 
 Measured against the whole block reward instead of just the fund, those shares work out to 7 percent for the Electric Coin Company, 5 percent for the Zcash Foundation, and 8 percent for Major Grants. Both ways of describing it are the same numbers.
 
-![The Development Fund is 20 percent of each block reward, split 35 percent to Bootstrap and the Electric Coin Company, 25 percent to the Zcash Foundation, and 40 percent to Major Grants](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/canopy-dev-fund-split.png)
+![The Development Fund is 20 percent of each block reward, split 35 percent to Bootstrap and the Electric Coin Company, 25 percent to the Zcash Foundation, and 40 percent to Major Grants](/content-images/canopy-dev-fund-split-005bf6f2dd.webp)
 
 ## Mgbanwe nke ọdọ mmiri Sprout
 
@@ -38,7 +38,7 @@ Canopy malitekwara ịla ezumike nká ọdọ mmiri kachasị ochie. Sprout bụ
 
 From the moment Canopy activated, no new value can be added into the Sprout pool. In technical terms, the vpub_old field of every JoinSplit must be zero. Funds already in Sprout can still be withdrawn, so nobody is locked out, but the pool can only shrink from here. This is a first step toward eventually deprecating the legacy Sprout pool in favor of newer shielded pools.
 
-![Before Canopy, value could both enter and leave the Sprout pool. After Canopy, no new value can enter but withdrawals are still allowed](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/canopy-sprout-pool.png)
+![Before Canopy, value could both enter and leave the Sprout pool. After Canopy, no new value can enter but withdrawals are still allowed](/content-images/canopy-sprout-pool-f5166aa049.webp)
 
 ## Ihe ndị ọzọ dị mkpa e ji arụ ọrụ ahụ́ ike .
 
@@ -46,14 +46,14 @@ N'akụkụ mgbanwe ego, Canopy nwere obere ZIP abụọ. [ZIP 212 (Ụlọ ọr
 
 ## Akwụkwọ ọkọwa okwu
 
-Okwu. N'asụsụ Bekee nkịtị pụtara:
+| Oge okwu | Nkọwa Bekee dị mfe |
 |---|---|
- Ndị guzobere ụgwọ ọrụ  Ụdị ego mbụ nke kwụrụ maka mmepe Zcash na mbido, a ga-agwụcha ya n'ọkara mbụ.
-Development Fund. The 20 percent òkè nke ọ bụla ngọngọ ụgwọ ọrụ na Canopy routed ka mmepe, agba ọsọ n'ime abụọ halving.
- Nkwụghachi ụgwọ nke ngọngọ (onyinye) ZEC ọhụrụ mepụtara ma kwụọ ya ka a na-egwupụta oghere ọ bụla.
- Ịgbaji. Ihe omume a na-eme atụmatụ ebe ụgwọ ọrụ nke ngọngọ ahụ ga-ebelata n'etiti ọkara.
- Nkwado ego  Usoro nkwekọrịta (ZIP 207) nke na-eduzi akụkụ nke nkwado ngọngọ gaa adreesị ndị nnata akọwapụtara.
- Sprout ọdọ mmiri Zcash mbụ echekwara ọdọ mmiri, nke Canopy kwụsịrị ịnakwere ọhụrụ uru n'ime.
+| Founders reward | Ụdị ego mbụ nke kwụrụ ụgwọ maka mmepe Zcash n'oge mbụ, nke a na-eme atụmatụ ịkwụsị na ọkara mbụ |
+| Development Fund | Pasentị iri abụọ nke ụgwọ ọrụ ngọngọ ọ bụla nke Canopy butere na mmepe, na-agba ọsọ ruo ọkara nke abụọ |
+| Block reward (subsidy) | ZEC ọhụrụ ahụ mepụtara ma kwụọ ụgwọ ka a na-egwupụta blọk ọ bụla |
+| Halving | Mmemme a haziri ebe a ga-ebelata ụgwọ ọrụ blọk ahụ n'ime ọkara |
+| Funding stream | Usoro nkwekọrịta (ZIP 207) nke na-eduzi akụkụ nke enyemaka ngọngọ gaa na adreesị onye nnata akọwapụtara |
+| Sprout pool | Ọdọ mmiri mbụ Zcash's e ji ihe nchebe kpuchie, nke Canopy kwụsịrị ịnakwere uru ọhụrụ |
 
 ## Ajụjụ ndị a na-ajụkarị
 
@@ -109,4 +109,4 @@ E mere atụmatụ na ụgwọ ọrụ ndị guzobere mbụ ga-akwụsị n'oge 
 
 ---
 
-Usoro: [Nhazi nke netwọkụ na-emelite.](../start-here/network-upgrades) · Nke gara aga: [Osisi nkwụ](../zcash-tech/heartwood) · Nke ọzọ: [NU5](../zcash-tech/nu5)
+Usoro: [Nhazi nke netwọkụ na-emelite.](../start-here/network-upgrades) · Nke gara aga: [Heartwood](../zcash-tech/heartwood) · Nke ọzọ: [NU5](../zcash-tech/nu5)

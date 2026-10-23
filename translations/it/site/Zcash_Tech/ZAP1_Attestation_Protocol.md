@@ -12,7 +12,7 @@ Chiunque disponga di un hash di foglia può verificare l'intero percorso dalla f
 
 - **Agnostico rispetto all'applicazione**: qualsiasi operatore Zcash può definire i propri tipi di evento e le proprie stringhe di personalizzazione
 - **Preserva la privacy**: i payload degli eventi vengono sottoposti ad hash prima dell'ancoraggio. Solo gli hash finiscono on-chain.
-- **Verificabile in modo indipendente**: la verifica necessita solo del pacchetto di prova e dell'accesso alla catena. Nessuna fiducia nell'operatore richiesta.
+- **Verificabile in modo indipendente**: la verifica richiede solo il pacchetto di prove e l'accesso alla chain. Non è richiesta alcuna fiducia nell'operatore.
 - **Compatibile con ZIP 302**: ZAP1 sta convergendo verso un partType di ZIP 302 per il payload di attestazione
 
 ## Cosa esiste

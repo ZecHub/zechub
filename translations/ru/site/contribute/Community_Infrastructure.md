@@ -7,7 +7,7 @@
 
 ### Инфраструктура сообщества 
 
-Программа вознаграждений ZecHub предлагает разработчикам более свободную и оптимизированную альтернативу отдельным заданиям: [ZEC Bounties](https://bounties.zechub.wiki/). 
+Программа вознаграждений ZecHub — оплачиваемый путь для этой работы: [ZEC Bounties](https://bounties.zechub.wiki/). Как выбрать номер ZEC: [политика сумм вознаграждений](https://bounties.zechub.wiki/docs/bounty-amounts). Процесс работы участника: [Вклад в ZecHub](https://zechub.wiki/contribute/contributing-guide).
 
 
 ## Полезные руководства 

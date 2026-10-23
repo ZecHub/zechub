@@ -14,8 +14,9 @@ Les contributions à la newsletter fonctionnent mieux lorsqu’un contributeur p
 
 Avant de commencer à rédiger :
 
-- Consultez [les primes ZEC ](https://bounties.zechub.wiki/) pour connaître la tâche actuelle de la newsletter.
-- Attendez d’être désigné
+- Consultez [ZEC Bounties](https://bounties.zechub.wiki/) pour connaître la tâche actuelle de la newsletter.
+- Attendez qu’une tâche vous soit attribuée.
+- Les éditions de la newsletter relèvent de la tranche XS de la [politique relative aux montants des primes](https://bounties.zechub.wiki/docs/bounty-amounts). Le chiffre ZEC figurant sur la prime active correspond au montant, et non à un ancien titre figurant dans les guides de contribution.
 
 ![ss](/content-images/149a802c-b64f-4969-ad89-e83ffecf568e-d5d8387145.webp)
 

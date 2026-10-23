@@ -14,8 +14,9 @@ Bülten katkıları, bir katkıda bulunan doğru haftanın sayısını hazırlad
 
 Yazmaya başlamadan önce:
 
-- Güncel bülten görevi için [ZEC Bounties ](https://bounties.zechub.wiki/) sayfasını kontrol edin.
-- Atanmayı bekleyin
+- Güncel bülten görevi için [ZEC Bounties](https://bounties.zechub.wiki/) sayfasını kontrol edin.
+- Atanmayı bekleyin.
+- Bülten sayıları, [ödül tutarları politikası](https://bounties.zechub.wiki/docs/bounty-amounts)'nin XS bandında yer alır. Aktif ödüldeki ZEC rakamı tutardır; katkı rehberlerindeki eski başlıklar değildir.
 
 ![ss](/content-images/149a802c-b64f-4969-ad89-e83ffecf568e-d5d8387145.webp)
 

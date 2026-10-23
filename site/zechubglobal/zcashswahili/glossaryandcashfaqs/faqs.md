@@ -32,7 +32,7 @@ Maamuzi kutoka kwenye mchakato wa ZIP huandikwa kwenye maelezo ya Zcash, vilevil
 
 ## Muamala Yangu Iko Wapi?
 
-kwanza soma [makala yetu](https://zechub.notion.site/Zcash-Blockchain-Explorer-4b4d970cb53e474989932c6e1a78b629) kwenye block explorers. Halafu angalia na [Zcash block explorer](https://zcashblockexplorer.com) Kumbuka kuwa shughuli zote hufikia kikomo kwa kipindi cha takriban dakika 25 au kwa kujumlisha bloki 20, na fedha hurudishwa kwa anwani ya awali ya mtumaji.
+kwanza soma [makala yetu](https://zechub.notion.site/Zcash-Blockchain-Explorer-4b4d970cb53e474989932c6e1a78b629) kwenye block explorers. Halafu angalia na [Zcash block explorer](https://mainnet.zcashexplorer.app) Kumbuka kuwa shughuli zote hufikia kikomo kwa kipindi cha takriban dakika 25 au kwa kujumlisha bloki 20, na fedha hurudishwa kwa anwani ya awali ya mtumaji.
 
 Ikiwa muamala wako unamalizika muda wake, jambo bora la kufanya ni kujaribu tena muamala wako kwa mabadiliko kadhaa yanayowezekana.
 
@@ -66,7 +66,7 @@ Ndiyo, Zcash inawezesha faragha kamili kwa watumiaji kwa kusimbua taarifa za mtu
 
 Zcash haifanyi yafuatayo: kuweka data kwa ajili ya muunganiko wa mikono mingi (kwa sasa bado inasubiri kuunganishwa kwa FROST) au kulinda dhidi ya uhusiano wa miamala wazi ya umma (kwa mfano, wakati Zcash inanunuliwa/kuuzwa kwa sarafu nyingine ya sarafu ya sarafu) wala haijifichi anwani za IP.
 
-Soma zaidi hapa: [Mazingira ya Kinga](https://electriccoin.co/blog/shielded-ecosystem)
+Soma zaidi hapa: [Mazingira ya Kinga](https://web.archive.org/web/20260903010654/https://electriccoin.co/blog/shielded-ecosystem/)
 
 ___
 

@@ -2,91 +2,92 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Ndị na-enyocha Blockchain
+# Ndị Na-eme Ihe Nchọgharị Blockchain
 
 ## Okwu Mmalite
 
-In the traditional business world every transaction includes a receipt for proof of purchase. Similarly, in the blockchain world a user receives a digital receipt in the form of a transaction id for every transaction completed. Most wallets will provide this for you. Blockchain explorers are simply tools that allow one to visualize what has already happened on a blockchain. They take for inputs: transaction id's, addresses, or block hashes, and visually output what took place.
+N'ụwa azụmaahịa ọdịnala, azụmahịa ọ bụla nwere nnata maka ihe akaebe nke ịzụrụ ihe. N'otu aka ahụ, n'ụwa blockchain, onye ọrụ na-enweta nnata dijitalụ n'ụdị ID azụmahịa maka azụmahịa ọ bụla emechara. Ọtụtụ obere akpa ego ga-enye gị nke a. Ndị na-eme nchọpụta Blockchain bụ naanị ngwaọrụ ndị na-enye mmadụ ohere ịhụ ihe mere na blockchain. Ha na-ewere ntinye: ID azụmahịa, adreesị, ma ọ bụ hashes ngọngọ, ma na-egosipụta ihe mere n'anya.
 
-## Ihe atụ ndị ọzọ
+## Ihe atụ
 <div>
 
-- Bitcoin: Ọ bụ ego. [c839b44a7052393f4672cdc4ec79f8f15d3036565e13bed0fab91f674506a7c](https://mempool.space/tx/c839b44a7052393f4672cdc4ec79f8f15d3036565e13bede0fab91f674506a7c)
+- Bitcoin: [c839b44a7052393f4672cdc4ec79f8f15d3036565e13bede0fab91f674506a7c](https://mempool.space/tx/c839b44a7052393f4672cdc4ec79f8f15d3036565e13bede0fab91f674506a7c)
 
-- Ethereum: Ọ bụ ihe dị mma. [0x43117fc201f8d3c09a72d42ab4a048003f348917771b9ace64b8944a91807320](https://etherscan.io/tx/0x43117fc201f8d3c09a72d42ab4a048003f348917771b9ace64b8944a91807320)
+- Ethereum: [0x43117fc201f8d3c09a72d42ab4a048003f348917771b9ace64b8944a91807320](https://etherscan.io/tx/0x43117fc201f8d3c09a72d42ab4a048003f348917771b9ace64b8944a91807320)
 
-- Ihe niile: [D0587C76E7689A9EFBDDA587DDB450F6C6E972FCEEA37DD8DA9AF95C23CF8170](https://www.mintscan.io/cosmos/txs/D0587C76E7689A9EFBDDA587DDB450F6C6E972FCEEA37DD8DA9AF95C23CF8170)
+- Cosmos: [D0587C76E7689A9EFBDDA587DDB450F6C6E972FCEEA37DD8DA9AF95C23CF8170](https://www.mintscan.io/cosmos/txs/D0587C76E7689A9EFBDDA587DDB450F6C6E972FCEEA37DD8DA9AF95C23CF8170)
 
-- Zcash (ọha na eze): [8dd212847a97c5eb9cee5e7e58c4d9e739f4156273ae3b2da1a4ff79ad95ff82](https://explorer.zec.rocks/transactions/8dd212847a97c5eb9cee5e7e58c4d9e739f4156273ae3b2da1a4ff79ad95ff82)
+- Zcash (ọha): [8dd212847a97c5eb9cee5e7e58c4d9e739f4156273ae3b2da1a4ff79ad95ff82](https://mainnet.zcashexplorer.app/transactions/8dd212847a97c5eb9cee5e7e58c4d9e739f4156273ae3b2da1a4ff79ad95ff82)
 
-- Zcash (nkeonwe): [19a4be270089490ece2e5fe7a6c9b9804af3c7ed43e1fb1b744b0fb29070fa5d](https://explorer.zec.rocks/transactions/19a4be270089490ece2e5fe7a6c9b9804af3c7ed43e1fb1b744b0fb29070fa5d)
+- Zcash (nkeonwe): [19a4be270089490ece2e5fe7a6c9b9804af3c7ed43e1fb1b744b0fb29070fa5d](https://mainnet.zcashexplorer.app/transactions/19a4be270089490ece2e5fe7a6c9b9804af3c7ed43e1fb1b744b0fb29070fa5d)
 
 </div>
 
 
-#### Rịba ama na Zcash ka azụmahịa nke abụọ si nwee nkọwa niile dị mkpa zoro ezo, nke a bụ ihe dị mkpa ma nwee nnukwu mmetụta n'ụwa dijitalụ.
+#### Rịba ama na Zcash otu azụmahịa nke abụọ si zoo nkọwa niile dị mkpa, nke a dị mkpa ma nwee nnukwu ihe ọ pụtara n'ụwa dijitalụ.
 
 
-## Chaatị Map nke Blockchain
+## Maapụ Blockchain
 
-Ya mere, anyị nwere ogologo eriri nke ihe odide dị ka a digital nnata, ugbu a gịnị? Nke a bụ ebe anyị na-eji a [onye nchọpụta blockchain](https://nym.com/blog/using-blockchain-privately), ma ọ bụ map, iji nyere anyị aka ịghọta ihe mere na blockchain. Rịba ama otú nke ọ bụla yinye nwere ya version of [onye nchọpụta blockchain](https://nym.com/blog/using-blockchain-privately) above. It's important to understand that all these blockchain projects are examples of open source software. That is, anyone can contribute to and or fork the code to their liking. With that understanding, each project specializes in different areas and customizes the blockchain explorer to fit the needs of said project.
+Ya mere, anyị nwere ogologo eriri mkpụrụedemede a dị ka nnata dijitalụ, gịnị ugbu a? Nke a bụ ebe anyị na-eji [onye na-eme nchọpụta blockchain](https://nym.com/blog/using-blockchain-privately), ma ọ bụ maapụ, iji nyere anyị aka ịghọta ihe mere na blockchain. Rịba ama otu agbụ ọ bụla si nwee ụdị nke ya [onye na-eme nchọpụta blockchain](https://nym.com/blog/using-blockchain-privately) n'elu. Ọ dị mkpa ịghọta na ọrụ blockchain ndị a niile bụ ihe atụ nke ngwanrọ mepere emepe. Nke ahụ bụ, onye ọ bụla nwere ike itinye aka na ma ọ bụ gbanwee koodu ahụ dịka ọ masịrị ya. Site na nghọta ahụ, ọrụ ọ bụla pụrụ iche na mpaghara dị iche iche ma hazie ihe nchọgharị blockchain ka ọ dabara na mkpa nke ọrụ ahụ.
 
-### Ihe ndị e ji eme ihe na ya
-Transactions are placed into *blocks*. When a block is mined/validated every transaction inside that block is confirmed and a block hash is created. Any hash created can be input into a block explorer. You may have seen CEX's needing a number of *confirmations* before they release your funds, this is the metric they are using to make sure your transaction is 
-sufficiently finalized. How does the blockchain determine which transactions get into the next block? Complex topic of research, but most modern chains use the idea of *fees* to determine who gets into the front of the line. The higher the fee, the higher the chance you move up to the front of the queue.
+### Blọk
+A na-etinye azụmahịa n'ime *blọk*. Mgbe e gwupụtara/kwadoro blọk, a na-akwado azụmahịa ọ bụla dị n'ime blọk ahụ ma mepụta hash blọk. Enwere ike itinye hash ọ bụla e kere n'ime onye na-eme nchọpụta blọk. Ị nwere ike ịhụla na CEX chọrọ ọtụtụ *nkwenye* tupu ha ewepụta ego gị, nke a bụ usoro ha ji eme ihe iji hụ na azụmahịa gị dị mma 
+Emechara nke ọma. Kedu ka blockchain si ekpebi azụmahịa ndị ga-abanye na ngọngọ ọzọ? Isiokwu dị mgbagwoju anya nke nyocha, mana ọtụtụ usoro ọgbara ọhụrụ na-eji echiche nke *ụgwọ* ekpebi onye ga-abanye n'ihu ahịrị. Ka ụgwọ ahụ dị elu, otú ahụ ka ohere ị ga-esi gaa n'ihu ahịrị ahụ ka elu.
 
-### Adreesị ndị dị na ya
+### Adreesị
 
-Ụzọ na-atọ ụtọ iji jiri anya mụta ihe. [ndị na-enyocha ihe gbasara blockchain](https://nym.com/blog/using-blockchain-privately) is to input the address of any random transaction. Then you can move backward in time and see where the funds originated! Each transaction has both an input and output address.  Armed with this information, one can readily move both forward and backward from any transaction that has been spent. For those that like puzzles, this is the digital equivalent of a huge financial puzzle, and could be used for transparency purposes. Using a blockchain explorer makes this not only much easier to visualize, it *also highlights* the need for transaction privacy. Unless you're using shielded Zcash, you can do this with *any* transparent blockchain: BTC, ETH, ATOM, DOGE, VTC, etc ... . This point is critical for anyone using the blockchain safely moving into a digital only future.
+Ụzọ na-atọ ụtọ iji mụta ihe n'anya [Ndị nchọpụta blockchain](https://nym.com/blog/using-blockchain-privately) bụ itinye adreesị nke azụmahịa ọ bụla na-enweghị usoro. Mgbe ahụ, ị nwere ike ịlaghachi azụ n'oge wee hụ ebe ego ahụ si malite! Azụmahịa ọ bụla nwere ma adreesị ntinye na mmepụta. Site na ozi a, mmadụ nwere ike ịga n'ihu na azụ site na azụmahịa ọ bụla ejirila. Maka ndị na-enwe mmasị na mgbagwoju anya, nke a bụ ihe nhata dijitalụ nke nnukwu mgbagwoju anya ego, a pụkwara iji ya mee ihe maka ebumnuche nghọta. Iji ihe nchọgharị blockchain na-eme ka nke a ghara ịdị mfe iche n'echiche, ọ *na-egosipụtakwa* mkpa ọ dị maka nzuzo azụmahịa. Ọ gwụla ma ị na-eji Zcash, ị nwere ike ime nke a na *blockchain doro anya* ọ bụla: BTC, ETH, ATOM, DOGE, VTC, wdg .... Isi ihe a dị oke mkpa maka onye ọ bụla na-eji blockchain ahụ n'enweghị nsogbu na-abanye n'ọdịnihu dijitalụ naanị.
 
-### Ego ole ha ruru
+### Ego
 
-Similar to addresses above, any transaction on a public blockchain has the amounts publicly available on full display. This includes amounts on both the input and output addresses for any transaction. One exception to this is when you choose to use Shielded Zcash -- then all amounts are hidden. For small business owners who necessarily need privacy for *fair trade*, this is a huge benefit!
+Dịka adreesị dị n'elu, azụmahịa ọ bụla na blockchain ọha nwere ego dị n'ihu ọha na ngosipụta zuru oke. Nke a gụnyere ego dị na adreesị ntinye na mmepụta maka azụmahịa ọ bụla. Otu ihe dị iche na nke a bụ mgbe ị họọrọ iji Shielded Zcash -- mgbe ahụ ego niile ga-ezo. Maka ndị nwe obere azụmaahịa bụ ndị chọrọ nzuzo maka *azụmahịa ziri ezi*, nke a bụ nnukwu uru!
 
 ![amounts](/content-images/206312357-e9504151-830f-4fa1-81cb-f23619-210f51493c.webp)
 
 
-### Ihe onye na-eme nchọpụta nwere ike ma ghara ịhụ na Zcash
+### Ihe onye na-eme nchọpụta nwere ike ịhụ na enweghị ike ịhụ na Zcash
 
 #### TL;DR
-- Ihe na-eme ka ihe doo anya (`t`) adreesị na-ahụ anya n'ụzọ zuru ezu na onye nchọpụta, dị ka Bitcoin.
-- Azụmahịa ezoro ezo (z ruo z) na-ezobe ego, adreesị ahụ, na memo ahụ.
-- A ka na-ahụ ụgwọ ahụ, ọbụlagodi n'ihe azụmahịa echekwara kpamkpam.
-- Ichebe (na-agagharị agagharị) `t` na-echebe) ma deshielding (a ga- echebe azụ ka a n'ihu nke ọzọ). `t`) na-ahụ anya, n'ihi na otu akụkụ bụ uzo.
-- Nzuzo na-adịgide naanị mgbe ego dị n'ime ọdọ mmiri ndị ahụ echekwara.
+- Transparent (`t`) adreesị na-apụta ìhè nke ọma na ihe nchọgharị, dịka Bitcoin
+- Azụmahịa echekwara nke ọma (z ruo z) na-ezochi ego ahụ, adreesị, na ihe ndetu ahụ
+- A ka na-ahụ ụgwọ ahụ, ọbụlagodi na azụmahịa echekwara nke ọma
+- Ịkpuchi (na-agagharị) `t` iji kpuchie) na iji ihe mkpuchi (echekwara azụ na `t`) na-apụta ìhè nke ọma, n'ihi na otu akụkụ na-apụta ìhè
+- Nzuzo na-ejide naanị mgbe ego ahụ dị n'ime ọdọ mmiri ndị a na-echebe
 
-Zcash nwere ihe karịrị otu ụdị adreesị, onye na-enyocha ya na-emeso ha n'ụzọ dị iche.
+Zcash nwere ọtụtụ ụdị adreesị, onye na-eme nchọpụta na-emeso ha nke ọma n'ụzọ dị iche iche.
 
-Adreesị doro anya, malite na: `t`Onye na-enyocha ego ga-egosi onye zitere ya, onye natara ya, ego ole o nyere ha nakwa ebe e si nweta ego ahụ.
+Adreesị doro anya, malite na `t`, rụọ ọrụ dị ka Bitcoin. Onye na-eme nchọpụta na-egosi onye zitere ya, onye natara ya, ego ole o nwere, na ụzọ isi laghachi ebe ego ahụ si bịa.
 
-Adreesị ndị a na-echebe bụ akụkụ nke onwe. Ego dị n'ime Sapling ma ọ bụ Orchard [ọdọ mmiri ndị e chebere echebe.](https://zechub.wiki/using-zcash/shielded-pools#content) a na-echebe ya site n'ihe akaebe nke ihe ọmụma efu. Chọọ maka azụmahịa zuru ezu echekwara ma onye nchọpụta ahụ enweghị ike igosi ego, adreesị, ma ọ bụ memo. Ọ nwere ike ikwenye naanị na ezi azụmahịa mere ma dekọba ya na ngọngọ. Nke a bụ ihe atụ nzuzo zoro ezo egosiri nso elu peeji a.
+Adreesị e ji kpuchie bụ akụkụ nkeonwe. Ego dị na Sapling ma ọ bụ Orchard [ọdọ mmiri e kpuchiri ekpuchi](https://zechub.wiki/using-zcash/shielded-pools#content) a na-echebe ha site na enweghị ihe akaebe ihe ọmụma. Chọọ azụmahịa echekwara nke ọma, onye na-eme nchọpụta ahụ enweghịkwa ike igosi ego ole ọ dị, adreesị, ma ọ bụ ihe ndetu ahụ. Ọ nwere ike igosi naanị na azụmahịa ziri ezi mere ma dekọọ ya na blọk. Nke a bụ ihe atụ nzuzo zoro ezo nke egosiri n'elu peeji a.
 
-Otu nkọwa na-anọgide anya ọbụna n'ihi kpamkpam shielded azụmahịa: ụgwọ. Zcash nkwekọrịta iwu achọ uzo ego ka a kwuru hoo haa, otú onye nchoputa nwere ike mgbe niile egosi ya, ọbụna mgbe ichekwa ndị e kpuchiri ekpuchi. N'ihi nke ahụ ọ bụ ezi omume iji ọkọlọtọ obere akpa ego, mere gị azụmahịa adịghị kwụpụta site akwụ ụgwọ ihe pụrụ iche ego.
+Otu nkọwa na-apụta ìhè ọbụlagodi maka azụmahịa echekwara nke ọma: ụgwọ ahụ. Iwu nkwekọrịta Zcash chọrọ ka e kwuo ụgwọ doro anya nke ọma, yabụ onye na-eme nchọpụta nwere ike igosi ya mgbe niile, ọbụlagodi mgbe e zoro ego ahụ. N'ihi ya, ọ bụ ezigbo omume iji ụgwọ obere akpa nkịtị, ka azụmahịa gị ghara ịpụta ìhè site n'ịkwụ ụgwọ dị iche.
 
-Onye nchọpụta ahụ nwekwara ike ịhụ mgbe ego gafere n'etiti akụkụ ndị na-ekpuchi ma ọ bụ nke a na-ahụ anya. `t` ego n'ime ọdọ mmiri bụ shielding, na-akpụ akpụ ha azụ si dị deshielding. ndị crossings na-nwere ike ịhụ akụkụ ụfọdụ n'ihi na otu akụkụ ahụ doro anya. naanị kpamkpam onwe z ka z ọrụ, nke mgbe emetụ a `t` adreesị, na-edebe ihe niile ma e wezụga ụgwọ zoro ezo.
+Onye na-eme nchọpụta ahụ nwekwara ike ịhụ mgbe ego na-agafe n'etiti akụkụ ndị doro anya na ndị a na-echebe `t` ego n'ime ọdọ mmiri na-echebe, ibugharị ha azụ na-eme ka ihe kpuchie onwe ha. A na-ahụ akụkụ ndị ahụ nke ọma n'ihi na otu akụkụ na-apụta ìhè. Naanị ihe omume z ruo z nkeonwe zuru oke, nke na-adịghị emetụ aka `t` adreesị, na-ezochi ihe niile ma e wezụga ụgwọ ahụ.
 
-Ihe ị ga-amụta: nzuzo na-adabere n'ịnọgide n'ime ọdọ mmiri ndị a kpuchiri ekpuchi. Ozugbo ego metụrụ otu ihe dị mkpa, ọ bụ mgbe ahụ ka ha nwere ike ịbanye n'otu ebe ma nwee ohere ịnweta ya ọzọ. `t` adreesị, na akụkụ nke akụkọ ihe mere eme ha bụ ọha dị ka Bitcoin. Iji gosipụta ọrụ gị kpuchiri ekpuchi nye onye ị họọrọ, dịka onye nyocha ego, kesaa igodo nlele kama ime ya ka ọ bụrụ ọhaneze. Lee akwụkwọ ozi ahụ site na ndị ahịa maka nkọwa zuru ezu banyere otu esi eji akara ngosi a ma ama iji mee ka o doo anya na e nwere ike ịnweta data nzuzo ọzọ karịa mgbe niile. [Igodo Nlele](https://zechub.wiki/zcash-tech/viewing-keys#content) peeji nke.
-
-
-### Ndepụta nke Zcash Block Explorers
-
-- [Zcash Block Explorer (Nchịkọta nke ihe nchọgharị)](https://mainnet.zcashexplorer.app/)
-
-- [Oche oche akwa.](https://blockchair.com)
-
-- [3xpl (ọ bụ naanị)](https://3xpl.com/zcash)
-
-- [Bitquery (ụlọ nkwakọba ihe)](https://explorer.bitquery.io/zcash)
+Ihe ị ga-eburu n'uche: nzuzo dabere na ịnọ n'ime ọdọ mmiri ndị a na-echebe `t` adreesị, akụkụ nke akụkọ ihe mere eme ha bụ nke ọha dịka Bitcoin. Iji gosi onye ị họọrọ ihe ị na-eme nke ọma, dị ka onye na-ahụ maka akaụntụ, kesaa igodo nlele kama ime ka ọ pụta ìhè. Lee akụkụ nke akụkọ ihe mere eme ha [Igodo Ilele](https://zechub.wiki/zcash-tech/viewing-keys#content) peeji.
 
 
-### Ihe Nlere Anya Na-egosi
+### Ndepụta nke Ndị Na-eme Ihe Nchọgharị Zcash Block
 
-Lee ihe atụ anọ dị mma nke ndị na-enyocha blockchain:
+- [Ihe Nchọgharị Zcash Block](https://mainnet.zcashexplorer.app/)
 
-* [Mempool.space (Nkeji nke abụọ)](https://mempool.space)
-* [Ethscan (n'asụsụ Bekee)](https://etherscan.io/)
-* [Zcash Block Explorer (Nchịkọta nke ihe nchọgharị)](https://mainnet.zcashexplorer.app)
-* [Mintscan (n'asụsụ Bekee)](https://hub.mintscan.io/chains/ibc-network)
+- [3xpl](https://3xpl.com/zcash)
+
+- [ShieldedScan](https://shieldedscan.xyz)
+
+- [ZecBlock](https://zecblock.com/)
+
+
+
+### Nduzi Anya
+
+Lee ihe atụ anọ dị mma nke ndị nchọpụta blockchain dị iche iche:
+
+* [Mempool.space](https://mempool.space)
+* [Ethscan](https://etherscan.io/)
+* [Ihe Nchọgharị Zcash Block](https://mainnet.zcashexplorer.app)
+* [Mintscan](https://hub.mintscan.io/chains/ibc-network)
 
 
 ![bitcoinExlporer](/content-images/206279968-a06eb0a1-b3a6-49af-a30f-7d871b-1418d95d28.webp)

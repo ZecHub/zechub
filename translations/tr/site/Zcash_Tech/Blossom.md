@@ -21,13 +21,13 @@ Bundan iki sonuç çıkar:
 1. Bloklar yaklaşık iki kat daha sık gelir, bu yüzden zincir zaman birimi başına kabaca iki kat daha fazla işlem taşıyabilir.
 2. İşleminiz ilk onayını daha erken alır, çünkü bir sonraki blok için o kadar uzun beklemezsiniz.
 
-![Blossom'dan önce blok hedefi 150 saniyeydi; onaylar daha yavaştı ve işlem kapasitesi daha düşüktü. Blossom'dan sonra hedef 75 saniyedir; onaylar daha hızlıdır ve kapasite kabaca iki katına çıkar](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/blossom-block-spacing.png)
+![Blossom'dan önce blok hedefi 150 saniyeydi; onaylar daha yavaştı ve işlem kapasitesi daha düşüktü. Blossom'dan sonra hedef 75 saniyedir; onaylar daha hızlıdır ve kapasite kabaca iki katına çıkar](/content-images/blossom-block-spacing-50b6bfbacc.webp)
 
 ## İhracı sabit tutmak
 
 Daha hızlı bloklar bir soruyu gündeme getirir. Eğer Zcash iki kat fazla blok üretse ve her blok hâlâ aynı ödülü verseydi, ağ ZEC'i iki kat daha hızlı üretirdi. Blossom bunu önler. Blok başına ödenen ödülü yarıya indirdi ve blok ödülü yarılanma aralığını 840,000 bloktan 1,680,000 bloğa çıkardı ([ZIP 208](https://zips.z.cash/zip-0208)). İki kat fazla blok ve her birinin yarı miktarda ödeme yapması, zaman birimi başına üretilen ZEC miktarını aynı tutar. Toplam arz takvimi ve gelecekteki yarılanmaların gerçek zamana göre zamanlaması değişmedi.
 
-![Blossom'un ihracı nasıl sabit tuttuğu: 75 saniyelik bloklar iki kat daha sık gelir, blok başına ödül yarıya iner, yarılanma aralığı iki katına çıkar; böylece zaman içindeki toplam emisyon aynı kalır](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/blossom-emission-balance.png)
+![Blossom'un ihracı nasıl sabit tuttuğu: 75 saniyelik bloklar iki kat daha sık gelir, blok başına ödül yarıya iner, yarılanma aralığı iki katına çıkar; böylece zaman içindeki toplam emisyon aynı kalır](/content-images/blossom-emission-balance-f2443e29ab.webp)
 
 ## Zorunlu bir yükseltme
 
@@ -41,12 +41,12 @@ Blossom, Zcash'in üçüncü ağ yükseltmesiydi. Overwinter ve Sapling'den sonr
 
 | Terim | Sade anlamı |
 |---|---|
-| Hedef blok aralığı | Ağın bir blok ile sonraki blok arasında hedeflediği süre |
-| Blok ödülü | Her blok kazıldığında oluşturulan ve dağıtılan yeni ZEC |
-| Yarılanma aralığı | Blok ödülünün her yarılanması arasında geçen blok sayısı |
-| Uzlaşma dalı kimliği | Bir düğümün veya işlemin hangi ağ kuralları kümesini izlediğini gösteren etiket |
-| İki taraflı uzlaşma değişikliği | Ağda kalmak için her düğümün benimsemesi gereken kural değişikliği |
-| Ağ yükseltmesi (NU) | Belirli bir blok yüksekliğinde etkinleşen, Zcash'in uzlaşma kurallarındaki koordineli değişiklik |
+| Block target spacing | Ağın bir blok ile sonraki blok arasında hedeflediği süre |
+| Block reward | Her blok kazıldığında oluşturulan ve dağıtılan yeni ZEC |
+| Halving interval | Blok ödülünün her yarılanması arasında geçen blok sayısı |
+| Consensus branch id | Bir düğümün veya işlemin hangi ağ kuralları kümesini izlediğini gösteren etiket |
+| Bilateral consensus change | Ağda kalmak için her düğümün benimsemesi gereken kural değişikliği |
+| Network upgrade (NU) | Belirli bir blok yüksekliğinde etkinleşen, Zcash'in uzlaşma kurallarındaki koordineli değişiklik |
 
 ## SSS
 

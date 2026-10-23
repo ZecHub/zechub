@@ -30,7 +30,7 @@ ZEC дає людям можливість передавати дані permiss
 
 [Аргументи на користь Zcash і приватності](https://www.zcashzeal.org/blog/the-case-for-zcash-amp-privacy)
 
-[Shielded екосистема](https://electriccoin.co/blog/shielded-ecosystem/)
+[Захищена екосистема](https://web.archive.org/web/20260903010654/https://electriccoin.co/blog/shielded-ecosystem/)
 
 [Рекомендації щодо приватності в Zcash](https://z.cash/support/security/privacy-security-recommendations/)
 
@@ -52,14 +52,12 @@ Zcash усуває найбільший недолік Bitcoin: приватне
 
 [Як це працює](https://z.cash/technology/)
 
-[HTTPS для блокчейнів](https://nakamoto.com/zcash-the-https-of-blockchains/)
-
 ---
 
 ## Пов’язані сторінки
 
-- [Посібник для нового користувача](/start-here/new-user-guide) — Покроковий вступ для нових власників ZEC
-- [Гаманці](/using-zcash/wallets) — Оберіть shielded гаманець для зберігання своїх ZEC
+- [Посібник для нових користувачів](/start-here/new-user-guide) — Покрокове ознайомлення для нових власників ZEC
+- [Гаманці](/using-zcash/wallets) — Виберіть захищений гаманець для зберігання своїх ZEC
 - [Купівля ZEC](/using-zcash/buying-zec) — Де і як придбати ZEC
-- [Shielded Pools](/using-zcash/shielded-pools) — Як пули Zcash зберігають приватність транзакцій
-- [ZK-SNARKs](/zcash-tech/zk-snarks) — Криптографія, що лежить в основі приватності Zcash
+- [Захищені пули](/using-zcash/shielded-pools) — Як пули Zcash зберігають транзакції приватними
+- [zk-SNARKs](/zcash-tech/zk-snarks) — Криптографія, що забезпечує приватність Zcash

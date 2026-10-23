@@ -11,6 +11,15 @@ Zcash Arborist Calls नियमित रूप से आयोजित ह�
 **[https://zfnd.org/arborist-calls/](https://zfnd.org/arborist-calls/)**
 
 
+<p>
+  <a
+    href="/arborist-calls"
+    className="inline-flex items-center rounded-lg bg-yellow-400 px-4 py-2 font-semibold text-black hover:bg-yellow-300"
+  >
+    कॉल संग्रह खोजें
+  </a>
+</p>
+
 ## कैसे जुड़ें
 
 ये कॉल दो आवर्ती समय स्लॉट्स के बीच बारी-बारी से आयोजित की जाती हैं, ताकि विभिन्न क्षेत्रों के योगदानकर्ता भाग ले सकें। वर्तमान calendar files और Zoom links के लिए आधिकारिक Zcash Foundation पृष्ठ का उपयोग करें:
@@ -22,7 +31,8 @@ Zcash Arborist Calls नियमित रूप से आयोजित ह�
 
 ## नोट्स, एजेंडा, और रिकॉर्डिंग्स
 
-- पूर्ण एजेंडा और कार्यवृत्त: [arboretum-notes](https://github.com/ZcashCommunityGrants/arboretum-notes)
+- पूर्ण कार्यसूचियाँ और कार्यवृत्त: [arboretum-notes](https://github.com/ZcashCommunityGrants/arboretum-notes)
+- इस विकी पर खोजने योग्य संग्रह: [Arborist Calls संग्रह](/arborist-calls)
 - हाल की रिकॉर्डिंग्स: [Zcash Arborist Call प्लेलिस्ट](https://www.youtube.com/playlist?list=PL40dyJ0UYTLJqD_3PE9qiJTxse-iHnn1G)
 - Zcash R&D चर्चा: [Zcash R&D Discord](https://discord.gg/xpzPR53xtU)
 - विस्तृत चर्चा: [Zcash Community Forum](https://forum.zcashcommunity.com/)

@@ -8,11 +8,9 @@
 
 Questa guida fornisce una panoramica dell'arco di apprendimento centrale del quaderno, suddiviso in nove sezioni principali. Non sostituisce il libro stesso, ma è piuttosto una risorsa di accompagnamento che riassume il percorso didattico ed evidenzia informazioni importanti per istruttori, studenti ed educatori della comunità.
 
-Il quaderno è disponibile gratuitamente per il download in PDF o come flipbook interattivo:
+Il quaderno è disponibile gratuitamente per il download in PDF:
 
 [Outline](https://drive.google.com/file/d/1eYWLgvAAHzCpr2b7bZ494FTZAtHqmtRk/view)
-
-[Flipbook](https://midd.me/nbp2)
 
 [GitHub Repo](https://github.com/massadoptionorg/My-First-Zcash) 
 
@@ -31,7 +29,7 @@ Questa prima sezione introduce i lettori all'idea del denaro digitale e al perch
 
 ## 2. Chi ha costruito Zcash e perché esiste?
 
-Questa sezione spiega le origini di Zcash attraverso la lente della ricerca scientifica e della crittografia. Introduce le prove a conoscenza zero, in particolare gli "zk-SNARK", come la tecnologia rivoluzionaria che rende possibili le transazioni private schermate.
+Questa sezione spiega le origini di Zcash attraverso la lente della ricerca scientifica e della crittografia. Introduce le prove a conoscenza zero, in particolare "zk-SNARKs", come la tecnologia rivoluzionaria che rende possibili le transazioni private schermate.
 
 Il quaderno tocca anche la storia del lancio di Zcash, i suoi principi fondanti e la comunità globale che oggi mantiene e supporta l'ecosistema. La missione è incentrata sul dare potere agli individui, fornire accesso al denaro digitale resistente alla censura e far progredire la tecnologia della privacy per tutti.
 
@@ -43,7 +41,7 @@ Il quaderno tocca anche la storia del lancio di Zcash, i suoi principi fondanti 
 Questa parte scompone le basi tecniche del protocollo Zcash in un linguaggio accessibile. I concetti chiave includono:
 
 - Indirizzi trasparenti vs. schermati  
-- Viewing key e divulgazione controllata  
+- Chiavi di visualizzazione e divulgazione controllata  
 - Il ruolo dei miner/validatori  
 - Come le prove a conoscenza zero validano le transazioni  
 - Come la privacy viene preservata pur garantendo che la rete resti decentralizzata e sicura  
@@ -55,7 +53,7 @@ I diagrammi e le metafore visive nel quaderno aiutano a semplificare questi conc
 
 ## 4. Usare Zcash nella vita di tutti i giorni
 
-La quarta sezione si concentra su esempi d'uso concreti. Mostra come qualcuno potrebbe inviare e ricevere Zcash usando i wallet mobili, come i codici QR facilitino i pagamenti e come gli utenti impieghino le transazioni schermate per protezione personale, riservatezza aziendale o trasferimenti transfrontalieri.
+La quarta sezione si concentra su esempi d'uso concreti. Mostra come qualcuno potrebbe inviare e ricevere Zcash usando i portafogli mobili, come i codici QR facilitino i pagamenti e come gli utenti impieghino le transazioni schermate per protezione personale, riservatezza aziendale o trasferimenti transfrontalieri.
 
 Gli esempi mostrano situazioni del mondo reale, tra cui dare mance agli artisti, trasferire denaro a parenti all'estero, sostenere ONG in modo anonimo o utilizzare Zcash come paghetta digitale privata di un adolescente.
 
@@ -65,7 +63,7 @@ Gli esempi mostrano situazioni del mondo reale, tra cui dare mance agli artisti,
 
 Questa sezione mette in evidenza come sviluppatori, designer, ricercatori ed educatori possano costruire su Zcash. Introduce concetti come:
 
-- Wallet Zcash  
+- Portafogli Zcash  
 - SDK per sviluppatori  
 - Gruppi di lavoro della comunità  
 - Il ruolo dei contributori nello sviluppo open-source  
@@ -82,9 +80,9 @@ Questa sezione insegna le abitudini fondamentali di sicurezza digitale:
 
 - Proteggere le chiavi e le seed phrase  
 - Evitare le truffe  
-- Comprendere i wallet custodial vs. non-custodial  
+- Comprendere i portafogli custodial (custodia di terzi) vs. non-custodial  
 - Praticare una solida igiene delle password  
-- Evitare di condividere pubblicamente informazioni sensibili del wallet  
+- Evitare di condividere pubblicamente informazioni sensibili del portafoglio  
 
 Queste lezioni dotano i nuovi utenti di abitudini chiave che vanno oltre Zcash, estendendosi alla vita digitale in generale.
 
@@ -110,7 +108,7 @@ Uno studente di scuola superiore interessato a privacy, computer, crittografia e
 
 **Pacu (@thecodebuffet)** 
 
-Un veterano sviluppatore di wallet Zcash, in precedenza presso ECC dove lavorava su SDK e tecnologia Light Client, ora contributore dell'ecosistema con una sovvenzione ZCG.
+Un veterano sviluppatore di portafogli Zcash, in precedenza presso ECC dove lavorava su SDK e tecnologia light client, ora contributore dell'ecosistema con un finanziamento ZCG.
 
 **Marek** 
 
@@ -147,12 +145,12 @@ Questi profili mostrano ai lettori che Zcash è mantenuto da una comunità etero
 
 La sezione finale invita i lettori a diventare parte dell'ecosistema Zcash. Le opportunità includono:
 
-- Unirsi al Zcash Global Discord  
-- Partecipare alle community call e ai gruppi di lavoro  
-- Contribuire alle future traduzioni del quaderno  
-- Sostenere la didattica open-source  
-- Creare contenuti, contributi di codice, opere artistiche o feedback  
-- Esplorare le sovvenzioni della comunità Zcash  
+- Unirsi al programma globale Zcash Discord  
+- Partecipare alle chiamate della comunità e ai gruppi di lavoro  
+- Contribuire alle future traduzioni del workbook  
+- Sostenere l'istruzione open source  
+- Creare contenuti, contributi di codice, opere d'arte o feedback  
+- Esplorare Zcash Community Grants
 
 Il messaggio è chiaro: chiunque può partecipare, e la comunità accoglie contributori di ogni provenienza e livello di competenza.
 

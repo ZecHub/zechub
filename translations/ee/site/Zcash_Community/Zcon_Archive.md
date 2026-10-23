@@ -19,7 +19,7 @@ Zcon0 nye míaƒe ƒe sia ƒe takpekpe gbãtɔ, eye wòyi edzi nyuie ŋutɔ. Mí
     src="https://www.youtube.com/embed/videoseries?si=LSWQXFdGUkKVg4EQ&amp;list=PL40dyJ0UYTLK507afWUMgzUYeh-i4qQWS"
     title="Zcon0 Playlist"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    ɖe mɔ ɖeFullScreen ŋu
+    allowFullScreen
     loading="lazy"
   />
 </div>
@@ -37,7 +37,7 @@ Zcon0 nye míaƒe ƒe sia ƒe takpekpe gbãtɔ, eye wòyi edzi nyuie ŋutɔ. Mí
     src="https://www.youtube.com/embed/videoseries?si=9OVMGx-9GW_0ADw6&amp;list=PL40dyJ0UYTLLjPZaKjdhMoCNanb77_Ztj"
     title="Zcon1 Playlist"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    ɖe mɔ ɖeFullScreen ŋu
+    allowFullScreen
     loading="lazy"
   />
 </div>
@@ -55,7 +55,7 @@ Zcon2 dzɔ le Kuɖa, June 8th kple Braɖa, June 9th 2021. Zcon2 nye virtual conf
     src="https://www.youtube.com/embed/videoseries?si=f5dbKWQYi8uUwyp1&amp;list=PL40dyJ0UYTLLa68H9ibpiSZqeevqKizg4"
     title="Zcon2 Playlist"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    ɖe mɔ ɖeFullScreen ŋu
+    allowFullScreen
     loading="lazy"
   />
 </div>
@@ -73,7 +73,7 @@ Zcon3 dzɔ le Las Vegas tso August 7-9th 2022.
     src="https://www.youtube.com/embed/videoseries?si=Th6bxLipUFXM0EGj&amp;list=PL40dyJ0UYTLJm-Cl7ez3UXp8R4IuUNDfb"
     title="Zcon3 Playlist"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    ɖe mɔ ɖeFullScreen ŋu
+    allowFullScreen
     loading="lazy"
   />
 </div>
@@ -92,7 +92,7 @@ Takpekpe si woawɔ le ame ŋutɔ ŋkume la le Barcelona, ​​Spain July 30-31,
     src="https://www.youtube.com/embed/videoseries?si=M8RwBEgu3hSRrR_C&amp;list=PL40dyJ0UYTLII7oQRQmNOFf0d2iKT35tL"
     title="Zcon4 Playlist"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    ɖe mɔ ɖeFullScreen ŋu
+    allowFullScreen
     loading="lazy"
   />
 </div>
@@ -109,7 +109,7 @@ ZconV dzɔ le May 6th-10th, 2024. ZconV nye virtual conference
     src="https://www.youtube.com/embed/videoseries?si=1M-vTsYjCEtq7_jo&amp;list=PL40dyJ0UYTLJ41e2uSOJItvbW1YVR49aR"
     title="ZconV Playlist"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    ɖe mɔ ɖeFullScreen ŋu
+    allowFullScreen
     loading="lazy"
   />
 </div>
@@ -127,7 +127,7 @@ ZconVI dzɔ le March 4th-7th, 2025. ZconVI nye takpekpe vevi aɖe
     src="https://www.youtube.com/embed/videoseries?si=YTXE18wOOqQY44lA&amp;list=PL40dyJ0UYTLIIhRk8vu2hkPL_q7OWO7wk"
     title="ZconVI Playlist"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    ɖe mɔ ɖeFullScreen ŋu
+    allowFullScreen
     loading="lazy"
   />
 </div>

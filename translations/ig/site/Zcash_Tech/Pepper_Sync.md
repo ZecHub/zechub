@@ -35,12 +35,12 @@ Pepper Sync na-ewebata ọtụtụ ndozi:
 
 Ụdị ochie nke Zingo na-emekarị ka ndị ọrụ nwee nkụda mmụọ site n'ogologo oge syncing, njikwa njehie doro anya, na iji ihe onwunwe dị arọ. Pepper Sync edozi nsogbu ndị a:
 
-Njirimara: Zingo gara aga nsụgharị. Zingo 2.0 na Pepper Sync.
+| atụmatụ            | Ụdị Zingo gara aga                | Zingo 2.0 na Pepper Sync                   |
 | ------------------ | -------------------------------------- | -------------------------------------------- |
-| Sync Speed         | Slower, especially on first setup      | Much faster initial and ongoing sync         |
-◯ Nchịkwa njehie ❖ Ịkwụsị ọrụ mgbe ụfọdụ na ọdịda ndị a na-akọwaghị nke ọma ❑ Mma nkwụsi ike site n'ịrụpụta mgbake akpaaka ▸ Ọdịmma dị mma maka usoro ihe omume gị ❏ Nchekwa onwe onye: Ihe niile ga - adị ka ọ bụrụ na ị nọ ebe ahụ.
-◯ Ahụmahụ onye ọrụ. Sync chere "opaque" nye ndị bịara ọhụrụ. Transparent, na ọnọdụ doro anya karị na mmelite.
-❑ Ọrụ Ngwaọrụ ◆ Ọdịda CPU/ebe nchekwa dị elu □ Ịhazi maka iji ihe onwunwe eme ihe n'ụzọ na-enweghị nsogbu ● Nrụpụta nke ngwa ọrụ ▪ Njikọ aka ndị ọzọ: Jiri usoro a mee ihe.
+| Ọsọ Mmekọrịta         | Jiri nwayọ nwayọ, ọkachasị na ntọala mbụ      | Mmekọrịta mbụ na nke na-aga n'ihu ngwa ngwa karịa         |
+| Njikwa Mmejọ     | Nsogbu mgbe ụfọdụ na ọdịda na-edoghị anya | Mbelata nkwụsi ike ka mma site na mgbake akpaka   |
+| Ahụmịhe Onye Ọrụ    | Mmekọrịta ahụ dị ka "ihe na-adịghị ahụkebe" nye ndị bịara ọhụrụ        | Na-edo anya, yana ọnọdụ na mmelite doro anya |
+| Arụmọrụ Ngwaọrụ | Ojiji dị elu nke CPU/ebe nchekwa                  | Emebere maka ojiji akụrụngwa dị mfe            |
 
 Na nkenke: ịmekọrịta ugbu a dị ngwa, ntụkwasị obi karị ma dịkwa mfe nghọta.
 
@@ -52,9 +52,9 @@ Ihe edeturu bụ akụkụ dị mkpa. Ọ bụla mbipute gara aga na-emeso mmek�
 
 ### Ihe ndị na-egosi ihe nkiri
 
-- Nkọwa zuru ezu - Na-egosi usoro dum. ![Detailed Flow](https://github.com/user-attachments/assets/119c13ec-76be-42bd-b558-762d09275a1b)
+- Nkọwa zuru ezu - Na-egosi usoro dum. ![Detailed Flow](/content-images/119c13ec-76be-42bd-b558-762d09275a1b-8ba7a18302.webp)
 
-- Mfe Flow - Nlele ngwa maka ndị ọrụ kwa ụbọchị. ![Simplified Flow](https://github.com/user-attachments/assets/9b612cbd-f24d-4472-9b87-0f2c908bb368)
+- Mfe Flow - Nlele ngwa maka ndị ọrụ kwa ụbọchị. ![Simplified Flow](/content-images/9b612cbd-f24d-4472-9b87-0f2c908bb368-eb34a722a2.webp)
 
 ## Ịbanye n'Okpuru Mmiri Dị Omimi
 

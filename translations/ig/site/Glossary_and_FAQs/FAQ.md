@@ -63,7 +63,7 @@ A na-ede mkpebi n'ime nkọwapụta ma kwado ya mgbe netwọk ahụ nabatara ha.
 
 <div className="rounded-2xl border border-border bg-card p-5 my-4">
 
-Ịgụ nke mbụ . [akwụkwọ anyị na-eduzi ndị nchọpụta mgbochi.](/guides/blockchain-explorers)Ya mere , lelee ya . [Zcash Block Explorer (Nchịkọta nke ihe nchọgharị)](https://zcashblockexplorer.com).
+Ịgụ nke mbụ . [akwụkwọ anyị na-eduzi ndị nchọpụta mgbochi.](/guides/blockchain-explorers)Ya mere , lelee ya . [Zcash Block Explorer (Nchịkọta nke ihe nchọgharị)](https://mainnet.zcashexplorer.app).
 
 Azụmahịa na-agwụ mgbe ihe dị ka nkeji 25 (20 blocks) ma a ga-eweghachi ego ahụ n'onwe ya.
 
@@ -95,7 +95,7 @@ Zcash anaghị eme **not**:
 - Chebe megide mmekọrịta na azụmahịa ndị doro anya.
 - Zoro adreesị IP
 
-Ihe ndị ọzọ ị ga-agụ: [Ebe E Chebere Ihe Ndị Dị n'Eluigwe na Ala](https://electriccoin.co/blog/shielded-ecosystem)
+Ihe ndị ọzọ ị ga-agụ: [Ebe E Chebere Ihe Ndị Dị n'Eluigwe na Ala](https://web.archive.org/web/20260903010654/https://electriccoin.co/blog/shielded-ecosystem/)
 
 </div>
 

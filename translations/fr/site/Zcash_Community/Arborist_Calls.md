@@ -11,6 +11,15 @@ La page officielle des Arborist Calls est maintenue par la Zcash Foundation :
 **[https://zfnd.org/arborist-calls/](https://zfnd.org/arborist-calls/)**
 
 
+<p>
+  <a
+    href="/arborist-calls"
+    className="inline-flex items-center rounded-lg bg-yellow-400 px-4 py-2 font-semibold text-black hover:bg-yellow-300"
+  >
+    Rechercher dans les archives des appels
+  </a>
+</p>
+
 ## Comment participer
 
 Les appels alternent entre deux créneaux horaires récurrents afin que les contributeurs de différentes régions puissent participer. Utilisez la page officielle de la Zcash Foundation pour consulter les fichiers de calendrier actuels et les liens Zoom :
@@ -22,10 +31,11 @@ La page de la Foundation est la source de référence pour les liens d’inscrip
 
 ## Notes, ordres du jour et enregistrements
 
-- Ordres du jour complets et comptes rendus : [notes de l’arboretum](https://github.com/ZcashCommunityGrants/arboretum-notes)
-- Enregistrements récents : [playlist des Zcash Arborist Calls](https://www.youtube.com/playlist?list=PL40dyJ0UYTLJqD_3PE9qiJTxse-iHnn1G)
-- Discussion R&D Zcash : [Discord R&D Zcash](https://discord.gg/xpzPR53xtU)
-- Discussion longue durée : [Forum de la communauté Zcash](https://forum.zcashcommunity.com/)
+- Ordres du jour complets et comptes rendus : [arboretum-notes](https://github.com/ZcashCommunityGrants/arboretum-notes)
+- Archive consultable par recherche sur ce wiki : [Arborist Calls archive](/arborist-calls)
+- Enregistrements récents : [Zcash playlist Arborist Call](https://www.youtube.com/playlist?list=PL40dyJ0UYTLJqD_3PE9qiJTxse-iHnn1G)
+- Discussion R&D : [Zcash R&D Discord](https://discord.gg/xpzPR53xtU)
+- Discussion approfondie : [Zcash Forum communautaire](https://forum.zcashcommunity.com/)
 
 ## Qui devrait participer
 

@@ -28,8 +28,8 @@ Rust -> [https://rustup.rs/](https://rustup.rs/)
 jq -> [https://jqlang.github.io/jq/download/](https://jqlang.github.io/jq/download/)
 (para mostrar información json en la terminal)
 
-curl -> [https://everything.curl.dev/get/linux](https://everything.curl.dev/get/linux)
-(para consultar el RPC del crawler)
+curl -> [https://everything.curl.dev/install/linux.html](https://everything.curl.dev/install/linux.html)
+(para consultar el RPC del rastreador)
 
 npm (con nvm) -> [https://medium.com/@iam_vinojan/how-to-install-node-js-and-npm-using-node-version-manager-nvm-143165b16ce1](https://medium.com/@iam_vinojan/how-to-install-node-js-and-npm-using-node-version-manager-nvm-143165b16ce1)
 (para mostrar P2P-Viz en el navegador)
@@ -122,7 +122,7 @@ cargo run --release --features crawler --bin crawler -- --help
 
 Esto compilará el programa y garantizará que todo esté funcionando correctamente.
 
-Para ejecutar el Crawler, es necesario añadir una bandera `--seed-addrs` al comando de inicio, que contenga al menos una dirección IP válida de un nodo de Zcash. Se debe permitir que el crawler se ejecute durante un tiempo razonable para obtener un resultado preciso. Algunas direcciones IP de nodos de ejemplo se pueden encontrar en [https://zcashblockexplorer.com/nodes](https://zcashblockexplorer.com/nodes).
+Para ejecutar el Crawler, es necesario añadir una bandera `--seed-addrs` al comando de inicio, que contenga al menos una dirección IP válida de un nodo de Zcash. Se debe permitir que el crawler se ejecute durante un tiempo razonable para obtener un resultado preciso. Algunas direcciones IP de nodos de ejemplo se pueden encontrar en [https://mainnet.zcashexplorer.app/nodes](https://mainnet.zcashexplorer.app/nodes).
 
 Para obtener información del Crawler mientras se está ejecutando, es necesario añadir la bandera `--rpc-addr` al comando de inicio. Esto no es obligatorio para ejecutar únicamente el crawler, pero de lo contrario será necesario detenerlo (`ctrl+c` o `SIGKILL`) para mostrar cualquier información.
 

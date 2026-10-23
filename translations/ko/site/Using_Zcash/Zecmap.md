@@ -57,12 +57,12 @@ ZecMap에는 온라인 비즈니스도 등록되어 있습니다. 카테고리�
 
 | 항목 | 제공할 내용 |
 |-------|----------------|
-| 비즈니스 이름 | 공개적으로 사용되는 공식 명칭 |
-| 웹사이트 또는 연락처 | URL 또는 소셜 프로필 |
-| 위치 | 오프라인 비즈니스의 경우 주소, 온라인의 경우 지역 |
-| 카테고리 | 카페, 레스토랑, 상점, 서비스, 온라인 상점 등 |
-| 증빙 | 공개 결제 페이지, 가맹점 공지 또는 직접 확인 |
-| 결제 메모 | 오프라인, 온라인 또는 둘 다; transparent 또는 shielded ZEC |
+| Business name | 공개적으로 사용되는 공식 명칭 |
+| Website or contact | URL 또는 소셜 프로필 |
+| Location | 오프라인 비즈니스의 경우 주소, 온라인의 경우 지역 |
+| Category | 카페, 레스토랑, 상점, 서비스, 온라인 상점 등 |
+| Evidence | 공개 결제 페이지, 가맹점 공지 또는 직접 확인 |
+| Payment notes | 오프라인, 온라인 또는 둘 다; transparent 또는 shielded ZEC |
 
 등록 시에는 개인 고객 데이터를 피해야 합니다. 거래 증빙을 사용할 경우, 공유하기 전에 개인정보, 주문 번호, 집 주소를 제거하세요.
 
@@ -137,7 +137,7 @@ ZecMap은 점점 더 많은 소매 매장에서 사용되는 결제 네트워크
 
 ## 관련 페이지
 
-- [ZEC 사용하기](/using-zcash/spend-zcash) — 실제 세계에서 ZEC를 사용하는 다른 방법
+- [ZEC 사용하기](/using-zcash/spend-zcash/top-10-places-to-spend-zec) — 실제 세계에서 ZEC를 사용하는 다른 방법
 - [결제 처리업체](/using-zcash/payment-processors) — 가맹점이 ZEC를 받기 위한 도구
 - [ZEC를 프라이버시 있게 사용하기](/guides/using-zec-privately) — shielded 결제를 위한 모범 사례
 - [지갑](/using-zcash/wallets) — ZEC 가맹점 결제와 호환되는 지갑

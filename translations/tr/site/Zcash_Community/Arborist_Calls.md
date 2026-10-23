@@ -11,6 +11,15 @@ Resmî Arborist Calls sayfası Zcash Foundation tarafından sürdürülmektedir:
 **[https://zfnd.org/arborist-calls/](https://zfnd.org/arborist-calls/)**
 
 
+<p>
+  <a
+    href="/arborist-calls"
+    className="inline-flex items-center rounded-lg bg-yellow-400 px-4 py-2 font-semibold text-black hover:bg-yellow-300"
+  >
+    Görüşme arşivinde ara
+  </a>
+</p>
+
 ## Nasıl Katılabilirsiniz
 
 Çağrılar, farklı bölgelerdeki katkı sağlayıcıların katılabilmesi için dönüşümlü olarak iki düzenli zaman diliminde yapılır. Güncel takvim dosyaları ve Zoom bağlantıları için resmî Zcash Foundation sayfasını kullanın:
@@ -22,10 +31,11 @@ Toplantı bağlantıları değişebileceği için kayıt bağlantıları, takvim
 
 ## Notlar, Gündemler ve Kayıtlar
 
-- Tam gündemler ve tutanaklar: [arboretum-notes](https://github.com/ZcashCommunityGrants/arboretum-notes)
-- Son kayıtlar: [Zcash Arborist Call oynatma listesi](https://www.youtube.com/playlist?list=PL40dyJ0UYTLJqD_3PE9qiJTxse-iHnn1G)
-- Zcash Ar-Ge tartışması: [Zcash Ar-Ge Discord](https://discord.gg/xpzPR53xtU)
-- Uzun biçimli tartışmalar: [Zcash Topluluk Forumu](https://forum.zcashcommunity.com/)
+- Tam gündemler ve toplantı tutanakları: [arboretum-notes](https://github.com/ZcashCommunityGrants/arboretum-notes)
+- Bu vikide aranabilir arşiv: [Arborist Calls arşiv](/arborist-calls)
+- Yakın tarihli kayıtlar: [Zcash Arborist Call oynatma listesi](https://www.youtube.com/playlist?list=PL40dyJ0UYTLJqD_3PE9qiJTxse-iHnn1G)
+- Zcash R&D tartışması: [Zcash R&D Discord](https://discord.gg/xpzPR53xtU)
+- Uzun soluklu tartışma: [Zcash Topluluk Forumu](https://forum.zcashcommunity.com/)
 
 ## Kimler Katılmalı
 

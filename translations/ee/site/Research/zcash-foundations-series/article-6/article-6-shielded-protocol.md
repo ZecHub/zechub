@@ -152,15 +152,15 @@ Esiae nye nɔnɔmetata si de blibo wu le nusiwo kplɔ wo nɔewo ɖo me, gake ega
 
 | Nyagbe | Plain-Eŋlisigbe me gɔmesese |
 |---|---|
-| **Gazazã ƒe safui** | Ke ɖeka ƒe nya ɣaɣla si me zãla ƒe safuiwo katã tso |
-| **Nukpɔkpɔ ƒe safui** | Eɖea wò asitsatsa fiana na amesi le asiwò evɔ mèɖea mɔ na wo be woazã |
-| **Zazã ŋuti numeɖeɖe** | Tx ƒe akpa si ɖua nuŋlɔɖi (nullifier, anchor, proof) |
-| **Emetsonu ƒe numeɖeɖe** | Tx ƒe akpa si wɔa nuŋlɔɖi (ɖokuitsɔtsɔna, nya ɣaɣla, kpeɖodzi) |
-| **Action (Orchard)** | A unified unit doing one spend and one output together |
-| **Asixɔxɔ ƒe ɖokuitsɔtsɔna** | A homomorphic Pedersen ƒe ɖokuitsɔtsɔna na ga home aɖe |
-| **Asidede agbalẽ te si blaa ame** | Asidede agbalẽ te si ɖo kpe asixɔxɔwo ƒe dadasɔ dzi evɔ meɖe wo fia o |
+| **Spending key** | Ke ɖeka ƒe nya ɣaɣla si me zãla ƒe safuiwo katã tso |
+| **Viewing key** | Eɖea wò asitsatsa fiana na amesi le asiwò evɔ mèɖea mɔ na wo be woazã |
+| **Spend description** | Tx ƒe akpa si ɖua nuŋlɔɖi (nullifier, anchor, proof) |
+| **Output description** | Tx ƒe akpa si wɔa nuŋlɔɖi (ɖokuitsɔtsɔna, nya ɣaɣla, kpeɖodzi) |
+| **Action (Orchard)** | Dɔwɔha ɖeka si wɔa gazazã ɖeka kple nu ɖeka wɔwɔ ɖekae |
+| **Value commitment** | A homomorphic Pedersen ƒe ɖokuitsɔtsɔna na ga home aɖe |
+| **Binding signature** | Asidede agbalẽ te si ɖo kpe asixɔxɔwo ƒe dadasɔ dzi evɔ meɖe wo fia o |
 | **Anchor** | Ati ƒe ke a gazazã ɖo kpe hamevinyenye dzi tsi tre ɖe |
-| **Dodokpɔ ƒe nya ɣaɣlawo ɖeɖeɖa** | Amesi xɔe le ŋugbedodo yeyewo dom kpɔ be yeake ɖe nuŋlɔɖi siwo woɖo na wo ŋu |
+| **Trial decryption** | Amesi xɔe le ŋugbedodo yeyewo dom kpɔ be yeake ɖe nuŋlɔɖi siwo woɖo na wo ŋu |
 
 ---
 

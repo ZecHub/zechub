@@ -12,6 +12,7 @@
 * **Safety Mode**는 최종 확정 원장이 *L* 블록보다 더 뒤처질 경우 활성화됩니다. 이때 PoW는 계속되지만, 문제가 해결될 때까지 경제 활동은 일시 중단됩니다.
 * 시간이 지나면서 PoS 검증자는 점점 더 큰 보상 비중을 받게 되고, PoW 채굴자의 수익은 감소합니다. 프로토콜은 이러한 변화를 점진적으로 도입합니다.
 * 이 프로토콜은 Shielded Labs가 개발 중이며, Crosslink 2*를 Zcash의 Zebra 클라이언트에 통합하기 위한 로드맵이 마련되어 있습니다.
+* Crosslink는 Zcash 메인넷에서 활성화되어 있지 않습니다. 이는 누구나 참여할 수 있는 테스트 네트워크인 Shielded Labs의 Feature Net에서 실행됩니다. 아래의 "Crosslink의 현황"을 참조하세요.
 
 ## Core Explanation
 
@@ -36,7 +37,7 @@ Crosslink Protocol은 Zcash의 진화에서 중요한 이정표로, Zcash를 **H
 
 Crosslink 프로토콜은 Zcash의 하이브리드 Proof-of-Work/Proof-of-Stake (PoW/PoS) 단계를 위해 제안된 설계입니다. 이는 PoW를 Byzantine Fault Tolerance (BFT) 프로토콜과 통합하여, PoW 또는 PoS 중 하나만 안전하게 유지되어도 보장된 파이널리티를 가능하게 합니다. 이 설계는 채굴자의 참여를 유지하면서 스테이킹 기반 검증을 도입해 네트워크 보안성과 탈중앙화를 강화하는 것을 목표로 합니다. Crosslink 2라고 불리는 이 제안의 핵심 특징은 BFT 제안자와 채굴자를 통합하여 아키텍처를 단순화한다는 점입니다. 이러한 간소화된 접근 방식은 구조적 변경을 최소화하고 "더미" BFT 계층을 사용할 수 있게 하여, 높은 보안 기준을 유지하면서도 프로토타이핑과 배포를 더 쉽게 만듭니다.
 
-구현 계획에는 Crosslink 2*를 Zcash의 Zebra 클라이언트에 통합하기 위한 예상 엔지니어링 비용이 포함된 로드맵이 담겨 있습니다. 이 단계적 배포는 이해관계자 인센티브의 균형을 맞추고, 혼란을 줄이며, 확장성·사용성·탈중앙화라는 Zcash의 목표에 부합하는 데 초점을 둡니다. 프로토콜의 강력한 보안 속성에 대한 신뢰가 커지면서, Zcash 진화의 핵심 단계가 될 잠재력도 더욱 확고해지고 있습니다. 에너지 효율성을 개선하고 합의 메커니즘을 강화함으로써, Crosslink는 진화하는 블록체인 과제에 대한 미래지향적 해법을 제시합니다. 자세한 내용은 [GitHub 저장소](https://github.com/ShieldedLabs/crosslink-deployment)와 [Zcash Community Forum](https://forum.zcashcommunity.com)을 참고하세요.
+구현 계획에는 Crosslink 2*를 Zcash의 Zebra 클라이언트에 통합하기 위한 예상 엔지니어링 비용이 포함된 로드맵이 담겨 있습니다. 이 단계적 배포는 이해관계자 인센티브의 균형을 맞추고, 혼란을 줄이며, 확장성·사용성·탈중앙화라는 Zcash의 목표에 부합하는 데 초점을 둡니다. 프로토콜의 강력한 보안 속성에 대한 신뢰가 커지면서, Zcash 진화의 핵심 단계가 될 잠재력도 더욱 확고해지고 있습니다. 에너지 효율성을 개선하고 합의 메커니즘을 강화함으로써, Crosslink는 진화하는 블록체인 과제에 대한 미래지향적 해법을 제시합니다. 자세한 내용은 [GitHub 저장소](https://github.com/ShieldedLabs/zebra-crosslink)와 [Zcash Community Forum](https://forum.zcashcommunity.com)을 참고하세요.
 
 ### Crosslink의 목표와 목적
 
@@ -81,7 +82,7 @@ Crosslink는 더 낮은 지연 시간의 원장이 최종 확정 원장보다 �
 
 ### 기술적 세부사항과 배포
 
-Crosslink Protocol은 Zodl과 같은 주요 생태계 파트너와 협력하여 Shielded Labs가 적극적으로 개발 및 배포하고 있습니다. 프로토콜 구현에는 다음이 포함됩니다:
+Crosslink Protocol은 ZODL과 같은 주요 생태계 파트너와 협력하여 Shielded Labs가 적극적으로 개발 및 배포하고 있습니다. 프로토콜 구현에는 다음이 포함됩니다:
 
 * PoS 참여자를 위한 안전한 스테이킹 메커니즘 구축.
 * 채굴자와 스테이커 사이의 인센티브 균형을 맞추기 위한 보상 구조 수정.
@@ -90,7 +91,20 @@ Crosslink Protocol은 Zodl과 같은 주요 생태계 파트너와 협력하여 
 * 활성화 로직: Crosslink의 도입은 Zcash 합의 규칙의 변경을 필요로 하며, 여기에는 지분 분배 프로세스 정의와 하이브리드 합의를 지원하기 위한 네트워크 프로토콜 규칙 업데이트가 포함됩니다.
 * 단계적 배포: 네트워크 안정성과 커뮤니티 적응을 보장하기 위해 프로토콜은 단계적으로 출시됩니다. 초기 단계는 기술적 구현에 초점을 맞추고, 이후 공증인 선정을 위한 거버넌스 통합이 뒤따릅니다.
 
-기술적 세부사항을 살펴보고 진행 상황을 추적하려면 [GitHub의 Crosslink Deployment Repository](https://github.com/ShieldedLabs/crosslink-deployment)를 확인하세요.
+이전 프로토타입과 그 문서는 [GitHub의 zebra-crosslink 리포지토리](https://github.com/ShieldedLabs/zebra-crosslink) 및 [zebra-crosslink 안내서](https://shieldedlabs.github.io/zebra-crosslink/)에 있습니다. 현재 작업은 다음 섹션에서 설명합니다.
+
+### Crosslink의 현재 위치
+
+Crosslink는 여전히 제안입니다. Shielded Labs' [Crosslink FAQ](https://shieldedlabs.net/crosslink-faq/)에는 메인넷에서 활성화되기 전에 “표준 Zcash 거버넌스 절차를 거쳐야 한다”고 명시되어 있습니다.
+
+현재 존재하는 것은 **Feature Net**입니다. 이는 Shielded Labs가 운영하는 테스트 네트워크로, 자체 테스트 코인 cTAZ를 보유하며 누구나 채굴, 스테이킹, 그리고 파이널라이저를 실행할 수 있습니다. 2026년 10월 1일 출시된 [Version 14](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v14)는 일반적인 작업 증명으로 시작해 Crosslink를 단계적으로 활성화합니다: 블록 20,736부터 스테이킹, 블록 34,560에서 첫 번째 파이널라이저 명단을 확정하고, 블록 36,288부터 BFT 최종성을 적용합니다 ([출처](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/librustzcash/zcash_primitives/src/bft.rs#L546-L555)).
+
+이 페이지의 두 가지 사항은 작성된 이후 변경되었습니다:
+
+* **여기서 공증인이라고 부르는 역할은 Shielded Labs의 소프트웨어 및 릴리스 노트에서 finalizer라고 불립니다.** 스테이커는 코인을 finalizer에게 위임하며, 스테이크가 가장 많은 finalizer들이 블록을 최종 확정하기 위해 투표합니다.
+* **코드가 이동했습니다.** 위의 zebra-crosslink 리포지터리는 2026년 4월에 마지막으로 업데이트되었습니다. Feature Net 릴리스는 [crosslink_monolith](https://github.com/ShieldedLabs/crosslink_monolith/releases)에서 제공되며, 설계는 [Crosslink 책](https://shieldedlabs.github.io/crosslink_book/)에 문서화되어 있습니다.
+
+직접 해보려면 [Crosslink Feature Net](/guides/crosslink-feature-net) 가이드를 따라 하세요. 아무것도 실행하지 않고 네트워크를 확인하려면 [ZecHub Tools](https://zechub.wiki/tools?tool=crosslink)에서 Crosslink 탭을 여세요.
 
 ## Practical Implications
 
@@ -121,16 +135,17 @@ Crosslink는 Zcash 초기 개발에서 PoW 채굴자가 수행한 기반적 역�
 
 ## Related Pages
 
-- [Zebra 풀 노드](/zcash-tech/zebra-full-node) — Crosslink 2*가 통합될 예정인 클라이언트입니다.
-- [풀 노드](/zcash-tech/full-nodes) — 하이브리드 합의 변경 이전에 오늘날 노드가 합의 규칙을 검증하는 방식입니다.
+- [Crosslink Feature Net](/guides/crosslink-feature-net) — Feature Net 데스크톱 앱을 설치하고, 파이널라이저에 스테이킹한 뒤 자신의 포지션을 확인하세요.
+- [Zebra 풀 노드](/zcash-tech/zebra-full-node) — 클라이언트 Crosslink 2*가 통합될 예정입니다.
+- [풀 노드](/zcash-tech/full-nodes) — 하이브리드 합의 변경 이전에 노드가 오늘날 합의 규칙을 검증하는 방식입니다.
 - [네트워크 업그레이드](/start-here/network-upgrades) — 합의 규칙 변경이 Zcash 네트워크에 도달하는 방식입니다.
-- [Zcash 통화 정책](/start-here/zcash-monetary-policy) — Crosslink가 재분배하게 될 블록 보상 구조입니다.
+- [Zcash 통화 정책](/start-here/zcash-monetary-policy) — Crosslink이 재분배하게 될 블록 보상 구조입니다.
 
 ## Additional Resources
 
-- 커뮤니티 인사이트: [Zcash Community Forum - Crosslink 토론](https://forum.zcashcommunity.com)
-- 공식 업데이트: [Electric Coin Company 블로그](https://electriccoin.co)
-- 지속가능성 초점: [왜 Hybrid PoS가 Zcash에 중요한가](https://forum.zcashcommunity.com)
+- 커뮤니티 토론: [Crosslink: 인센티브가 제공되는 Feature Net, Zcash 커뮤니티 포럼](https://forum.zcashcommunity.com/t/crosslink-incentivized-feature-net/55210)에서
+- 공식 업데이트: [Crosslink 및 Shielded Labs](https://shieldedlabs.net/crosslink/)의 [Feature Net 릴리스](https://github.com/ShieldedLabs/crosslink_monolith/releases)
+- 디자인 참고 자료: [Crosslink 책](https://shieldedlabs.github.io/crosslink_book/)
 
   참고 자료:
 

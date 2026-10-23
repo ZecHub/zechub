@@ -21,9 +21,9 @@ Zcash'e yeniyseniz, [bu kılavuzu](/start-here/new-user-guide) kullanın.****
 
 ---
 
-1. [ZecHub'ın Github deposuna](https://github.com/ZecHub/zechub) gidin
+1. [ZecHub'ın GitHub deposuna](https://github.com/ZecHub/zechub) gidin
    
-2. Yeni bir Github hesabı oluşturun veya kendi hesabınızla giriş yapın
+2. Yeni bir GitHub hesabı oluşturun veya kendi hesabınızla giriş yapın
    
 3. Pull request'in nasıl yapılacağını öğrenmek için bu kılavuzu takip edin:
 
@@ -51,15 +51,15 @@ ZecHub'ın tutarlı bir görünüme sahip olmasını sağlamak amacıyla, depoya
 3. No inappropriate content.
 ```
 
-Bağışlar: [burada](https://explorer.zec.rocks/ua/u17sawf3pdh7z6tsy83vhjd2z7sztpy9y87wyyqz4vqshn3yhch28q3ud3lr0etadl3flz4c9zdrtn9lwlf23vzmjnll97efxzg9h0rjzn9qvhvqr8p3394ysnfhg560xxxc66yxzh8r548myxn3l2qrc9pfrt8nrzhxvlpuuykv7czjsm)
+Bağışlar: [burada](https://mainnet.zcashexplorer.app/ua/u17sawf3pdh7z6tsy83vhjd2z7sztpy9y87wyyqz4vqshn3yhch28q3ud3lr0etadl3flz4c9zdrtn9lwlf23vzmjnll97efxzg9h0rjzn9qvhvqr8p3394ysnfhg560xxxc66yxzh8r548myxn3l2qrc9pfrt8nrzhxvlpuuykv7czjsm)
 
-<a href="https://explorer.zec.rocks/ua/u17sawf3pdh7z6tsy83vhjd2z7sztpy9y87wyyqz4vqshn3yhch28q3ud3lr0etadl3flz4c9zdrtn9lwlf23vzmjnll97efxzg9h0rjzn9qvhvqr8p3394ysnfhg560xxxc66yxzh8r548myxn3l2qrc9pfrt8nrzhxvlpuuykv7czjsm">
+<a href="https://mainnet.zcashexplorer.app/ua/u17sawf3pdh7z6tsy83vhjd2z7sztpy9y87wyyqz4vqshn3yhch28q3ud3lr0etadl3flz4c9zdrtn9lwlf23vzmjnll97efxzg9h0rjzn9qvhvqr8p3394ysnfhg560xxxc66yxzh8r548myxn3l2qrc9pfrt8nrzhxvlpuuykv7czjsm">
     <img src="/content-images/image-2023-11-18-141228046-644b4c542d.webp" alt="" width="200" height="200"/>
 </a>
 
 
 
-**SORUMLULUK REDDİ: ZecHub, Zcash topluluğu üyeleri tarafından kurulmuş tamamen bağımsız ve açık kaynaklı bir girişimdir. Bu Github deposunda yer alan hiçbir şey finansal veya yatırım tavsiyesi olarak değerlendirilmemelidir - yalnızca bilgilendirme amaçlıdır.**
+**SORUMLULUK REDDİ: ZecHub, Zcash topluluğu üyeleri tarafından kurulmuş tamamen bağımsız ve açık kaynaklı bir girişimdir. Bu GitHub deposunda yer alan hiçbir şey finansal veya yatırım tavsiyesi olarak değerlendirilmemelidir - yalnızca bilgilendirme amaçlıdır.**
 
 ---
 

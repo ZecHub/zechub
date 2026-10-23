@@ -125,13 +125,13 @@ ___
 - Ironwood: Nicht zutreffend, nur transparente Adressen
 ___
 
-## [OKEx](https://okex.com)
+## [OKX (ehemals OKEx)](https://www.okx.com)
 
-<a href="https://okex.com">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/8/89/Official_logo_of_OKEx.png" alt="OKEx Logo" width="200" height="100"/>
+<a href="https://www.okx.com">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/8/89/Official_logo_of_OKEx.png" alt="OKX-Logo (unter der früheren Marke OKEx dargestellt)" width="200" height="100"/>
 </a>
 
-- Website: [OKEx](https://okex.com)
+- Website: [OKX](https://www.okx.com)
 - Handelspaare: ALLE/ZEC
 - Unterstützt: Transparent
 - Einzahlungszeit: 25 Minuten 

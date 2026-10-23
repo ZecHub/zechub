@@ -28,11 +28,11 @@ Zallet dị ugbu a na ** beta**. A nyochabeghị ya nke ọma. Mgbanwe ndị meb
 
 `zcashd` a na-ejikọta Bitcoin Core nke sitere na nkwekọrịta nkwenye na obere akpa n'otu usoro. E meela atụmatụ ahụ.
 
- Ọrụ: Old stack, ugbu a na-arụ ọrụ.
+| Ọrụ | Ogbe ochie | Ọnụọgụ dị ugbu a |
 |------|-----------|---------------|
-◯ Nkwekọrịta / P2P. `zcashd` Zebra (Ụmụ anụmanụ)`zebrad`) ma ọ bụ Zakura.
- Akpa ego / igodo / nguzozi. `zcashd` `wallet.dat` | **Zallet** (`wallet.db`) |
-◯ Onye na-edepụta ihe nke onye ahịa dị mfe. `lightwalletd` ◯ Zaino ma ọ bụ `lightwalletd` |
+| Nkwekọrịta / P2P | `zcashd` | Zebra (`zebrad`) ma ọ bụ Zakura |
+| Obere akpa / igodo / nguzozi | `zcashd` `wallet.dat` | **Zallet** (`wallet.db`) |
+| Ihe ngosi ndị ahịa ọkụ | `lightwalletd` | Zaino ma ọ bụ `lightwalletd` |
 
 Ịkewa obere akpa ahụ site na ọnụ pụtara:
 
@@ -182,13 +182,13 @@ Nzọụkwụ site nzọụkwụ onye ọrụ na-ekwu: [Ntuziaka Mbugharị: zca
 
 ## Olee otú Zallet si emekọrịta na ngwanrọ ndị ọzọ
 
-Zallet  zecd Zashi / ZODL / YWallet Zebra / Zakura Zaino Nke a bụ ihe dị na peeji nke 2
+| | Zallet | zecd | Zashi / ZODL / YWallet | Zebra / Zakura | Zaino |
 |--|--------|------|------------------------|----------------|-------|
-◯ Ihe ọ bụ: Full-node RPC wallet ▸ Shielded-first wallet server ❖ End user wallets 📅 Consensus node  Indexer / lightwalletd replacement‬ ￼ Ọ bụrụ na ị nwere ike ịchọta ihe ndị ọzọ, biko kpọtụrụ anyị.
-Ọ na-anọchi anya. `zcashd` Akpa ego. Ọ bụghị ihe a na-eji agagharị agagharị n'ụlọ ọrụ ahụ `zcashd` clone  Ngwaọrụ mkpanaka/desktọpụ  Gosi ihe ngosi nke ngwa ahụ. `zcashd` ọnụ. `lightwalletd` |
-❑ Chọrọ otu mpaghara ebe. ● Ee (Zebra site na ndabara) ▪ Mba (onye ahịa dị mfe). * Ọ bụ* ọnụ ụlọ ahụ. □ Ee
- zcashd RPC compat  Ezubere dị ka ụzọ kọmpụta  Obere subset ahọpụtara naanị N/A  Partial / Zakura Compat mode  API dị iche
-◯ Ụdị nlekọta. Onye na-arụ ọrụ ji mkpịsị ugodi n'ime ya `wallet.db` Ihe nkesa nwere ike weghachite mkpụrụ. Igodo ngwaọrụ onye ọrụ enweghị obere akpa ego, igodo adịghị.
+| Gịnị ka ọ bụ | Akpa RPC zuru oke | Ihe nkesa obere akpa nchekwa nke mbụ | Obere akpa ndị ọrụ ikpeazụ | Nọmba nkwekọrịta | Ndochi Indexer / lightwalletd |
+| Na-anọchi | `zcashd` obere akpa ego | Ọ bụghị ihe a ga-atụba n'ime `zcashd` klọn | Ngwa mkpanaka/desktọpụ | `zcashd` ọnụ | `lightwalletd` |
+| Achọrọ ebe nkwado mpaghara | Ee | Ee (Zebra dịka ndabara) | Mba (onye ahịa dị mfe) | Ọ bụ *ngọdụ* ahụ | Ee |
+| nkwekọrịta RPC zcashd | E mere ya dị ka ụzọ mgbakọ ahụ | Naanị obere obere ihe ahọpụtara | N/A | Ụdị nkwekọrịta nke Zakura / Zakura akụkụ | API dị iche |
+| Ụdị nchekwa | Onye ọrụ ahụ jidere igodo n'ime `wallet.db` | Ihe nkesa a na-enweta mkpụrụ | Igodo ngwaọrụ onye ọrụ | Enweghị obere akpa ego | Enweghị igodo |
 
 Zallet and **zecd** can both sit in front of Zebra. Pick Zallet when you need the `z_*` obere akpa elu na a Mbugharị ụzọ si `wallet.dat`. Họrọ zecd mgbe ịchọrọ ihe nkesa nke mbụ na-echebe bụ nke doro anya * abụghị* a `zcashd` onye na-eme ka mmadụ.
 

@@ -13,8 +13,8 @@ Mɔfiame sia ɖe alesi fexexe ƒe sisi wɔa dɔe, alesi woaɖo akɔnta, kple ale
 1. [Nukatae nàzã ZGo](#why-use-zgo)
 2. [Alesi ZGo wɔa dɔe](#how-zgo-works)
 3. [Akɔntabubu ɖoɖo](#setting-up-an-account)
-4. [ZYi kple Xero](#zgo-with-xero)
-5. [ZYi kple WooCommerce](#zgo-with-woocommerce)
+4. [ZGo kple Xero](#zgo-with-xero)
+5. [ZGo kple WooCommerce](#zgo-with-woocommerce)
 6. [Ŋutinuwo](#features)
 7. [Vodada siwo bɔ](#common-mistakes)
 8. [Nyanuwuwuw](#conclusion)
@@ -57,7 +57,7 @@ Be nàwɔ ZGo akɔnta la, ehiã be nàzã Zcash gakotoku si me ZEC sue aɖe le. 
 
 Ne akɔnta la nya le dɔ wɔm ko la, asitsala ma ke ate ŋu azã ZGo hena fexexe zi ɖeka (QR-kɔda ɖeka le wɔna si dona me) alo atsɔ ka aƒoe ɖe ɖoɖo si anɔ anyi ɖaa me to Xero alo WooCommerce dzi.
 
-## ZYi kple Xero
+## ZGo kple Xero
 
 [Xero ƒe ŋkɔ](https://www.xero.com/) nye alilikpo me akɔntabubu ƒe mɔnu si dɔwɔƒe suewo kple gãwo dometɔ geɖe zãna. ZGo–Xero ƒe ƒoƒo ɖekae na be asitsala ɖea adzɔxegbalẽvi ɖe go le Xero me, naa asisi la xea fe ɖe eta le ZEC me, eye wònana Xero dea dzesi adzɔxegbalẽvia le eɖokui si be woxee ne asitsatsa la ɖo kpe edzi ko.
 
@@ -73,7 +73,7 @@ ZEC la dzena ɖe asitsala la ƒe gakotoku me, ke menye le akɔnta aɖeke si dzi 
 
 Ne èdi be yeaɖoe zi gbãtɔ la, wɔ ɖe azɔlizɔzɔ si woɖo ɖi la dzi: [Xero Integration Configuration](https://hedgedoc.vergara.tech/s/4iXC67fmb).
 
-## ZYi kple WooCommerce
+## ZGo kple WooCommerce
 
 Le Internet dzi fiase siwo le dɔ wɔm le [WooCommerce](https://woocommerce.com/) kple [WordPress](https://wordpress.org/), ZGo naa plugin si woɖo ɖi. Plugin la tsɔa Zcash kpena ɖe eŋu abe fexexemɔnu ene le nuƒleɣi eye wòkpɔa nudɔdɔ ƒe nɔnɔmea gbɔ le eɖokui si ne fexexea ɖo kpe edzi.
 
@@ -122,7 +122,7 @@ Le ɖoɖowɔwɔ gome la, mɔa le kpuie: xɔ Zcash gakotoku, wɔ akɔnta le [zgo.
 
 - [ZGo ƒe nyatakakadzraɖoƒe si dziɖuɖua da asi ɖo](https://zgo.cash/)
 - [Xero Integration Configuration ƒe azɔlizɔzɔ](https://hedgedoc.vergara.tech/s/4iXC67fmb)
-- [WooCommerce ƒe Dɔwɔƒe](https://woocommerce.com/) kple [WordPress](https://wordpress.org/)
+- [WooCommerce](https://woocommerce.com/) kple [WordPress](https://wordpress.org/)
 - [Xero ƒe ŋkɔ](https://www.xero.com/)
 - [Zcash dɔa ƒe gɔmedzedze](https://z.cash/)
 - [ZecHub ƒe Gakotokuwo](https://zechub.wiki/wallets), Zcash gakotoku siwo sɔ ƒe ŋkɔwo

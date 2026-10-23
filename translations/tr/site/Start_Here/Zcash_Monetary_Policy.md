@@ -6,7 +6,7 @@
 
 ## Zcash'in ekonomisi nasıldır?
 
-Zcash'in parasal tabanı, Bitcoin'in 21 milyon ZEC para biriminden oluşan sabit arzıyla aynıdır. Her 75 saniyede bir, Zcash blockchain'ine yeni bir [blok](https://zcash.readthedocs.io/en/latest/rtd_pages/glossary.html#:~:text=Block,mempool%20in%20an%20unconfirmed%20state.) kazılır ve 3.125 ZEC'lik bir blok ödülü dolaşıma girer. Bu blok ödülü, madencilere ve [Zcash geliştirme fonuna](https://zips.z.cash/zip-1014) dağıtılır.
+Zcash'in parasal tabanı, Bitcoin'in 21 milyon ZEC para biriminden oluşan sabit arzıyla aynıdır. Her 75 saniyede bir, Zcash blockchain'ine yeni bir [blok](https://zcash.readthedocs.io/en/latest/rtd_pages/glossary.html#:~:text=Block,mempool%20in%20an%20unconfirmed%20state.) kazılır ve 1.5625 ZEC'lik bir blok ödülü dolaşıma girer. Bu blok ödülü, madencilere ve [Zcash geliştirme fonuna](https://zips.z.cash/zip-1014) dağıtılır.
 
 Blok ödülü miktarı, 21 milyon ZEC'in tamamı dolaşıma girene kadar yaklaşık her dört yılda bir yarıya iner. Zcash enflasyonu, neredeyse tam olarak Bitcoin'inkini taklit eder. Yeni coin'ler oluşturuldukça enflasyonun düştüğünü ve her yarılanmada bu oranın önemli ölçüde azaldığını belirtmek önemlidir.
 

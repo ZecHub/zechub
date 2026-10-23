@@ -121,7 +121,7 @@ Zcash 可实现：
 
 
 - [钱包](/wallets)
-- [隐私 - 最佳实践](/privacy/best-practices)
+- [谁能看到您的Zcash付款](/start-here/who-can-see-your-zcash-payment)
 
 <br/>
 

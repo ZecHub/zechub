@@ -42,7 +42,7 @@ Hey... a ti fi owó kún ìlà mi! O tún lè fìdí imeeli rẹ múlẹ̀ nígb
 Ọna ti o wa loke nilo lati ṣẹda akọọlẹ Coinsbee. Ti o ba fẹ ko ṣe, CardsRelay n ta awọn afikun alagbeka fun ZEC laisi iforukọsilẹ.
 
 ### 1. Yan orilẹ-ede rẹ ati oniṣẹ rẹ.
-Ìbẹ̀wò [Àwọn KádàRelé](https://cardsrelay.com) ó ju àádọ́rin dín nírínwó (750) àwọn oníṣẹ̀ tó ń gbà á káàkiri ayé.
+Ìbẹ̀wò [CardsRelay](https://cardsrelay.com) ó ju àádọ́rin dín nírínwó (750) àwọn oníṣẹ̀ tó ń gbà á káàkiri ayé.
 
 ### 2. Kọ iye àti bí owó náà ṣe pọ̀ tó sínú ìwé.
 Tẹ nọmba foonu alagbeka ti o fẹ lati ni ifowopamọ ati yan iye afikun. Iye owo ti a fihan jẹ gbogbo-gbogbo lapapọ, laisi iyasọtọ paṣipaarọ iyipada pataki kan nigbamii.

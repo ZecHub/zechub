@@ -100,7 +100,7 @@ Yakın dönem hackathon sonuçları, insanların neler geliştirdiğine dair iyi
 
 Eski makaleler bunlara bağlantı verdiği ve kullanımdan kaldırılmış düğümün nasıl davrandığına dair hâlâ referans oldukları için korunmuştur. Buradan başlamayın.
 
-[The Zcashd Book](https://zcash.github.io/zcash/) ve [zcashd RPC başvurusu](https://zcash.github.io/rpc/), Temmuz 2026'da [kullanım ömrünün sonuna](https://zcash.github.io/zcash/user/end-of-life.html) ulaşan yazılımı belgeler. [zcash/zcash](https://github.com/zcash/zcash) deposu arşivlenmiştir.
+[The zcashd Book](https://zcash.github.io/zcash/) ve [zcashd RPC başvurusu](https://zcash.github.io/rpc/), Temmuz 2026'da [kullanım ömrünün sonuna](https://zcash.github.io/zcash/user/end-of-life.html) ulaşan yazılımı belgeler. [zcash/zcash](https://github.com/zcash/zcash) deposu arşivlenmiştir.
 
 Eklenecek bir kaynağınız varsa veya burada güncelliğini yitirmiş bir şey görürseniz bir issue ya da pull request açın. Ekiplerin her şeyi güncel tutacak kapasitesi her zaman olmayabilir; karşılaştığınız sorunları bildirmek, kılavuzların yönlendirilmesine yardımcı olur.
 

@@ -135,13 +135,13 @@ Simplificaciones, como siempre. Los árboles de Merkle incrementales reales rast
 
 | Término | Significado en lenguaje sencillo |
 |---|---|
-| **Árbol de Merkle** | Un árbol de hashes; las hojas son huellas digitales de datos, los padres hashean a sus hijos |
-| **Hoja** | Un nodo inferior; en Zcash, un compromiso de nota |
-| **Raíz de Merkle** | La única huella digital superior que resume todo el árbol |
-| **Ruta de autenticación / prueba de Merkle** | Los hashes hermanos necesarios para demostrar que una hoja está en el árbol |
-| **Árbol de Merkle incremental** | Un árbol de Merkle de solo anexado (las hojas solo se añaden) |
+| **Merkle tree** | Un árbol de hashes; las hojas son huellas digitales de datos, los padres hashean a sus hijos |
+| **Leaf** | Un nodo inferior; en Zcash, un compromiso de nota |
+| **Merkle root** | La única huella digital superior que resume todo el árbol |
+| **Authentication path / Merkle proof** | Los hashes hermanos necesarios para demostrar que una hoja está en el árbol |
+| **Incremental Merkle tree** | Un árbol de Merkle de solo anexado (las hojas solo se añaden) |
 | **Anchor** | Una raíz de Merkle que un gasto referencia como "el estado del árbol contra el que estoy demostrando" |
-| **Conjunto de nullifiers** | La colección separada de marcadores de gasto que bloquea los double-spends |
+| **Nullifier set** | La colección separada de marcadores de gasto que bloquea los double-spends |
 
 ---
 

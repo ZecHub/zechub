@@ -64,9 +64,10 @@ Bu, ağ bilgilerini ve explorer bağlantılarını etkinleştirir.
 **Zcash Mainnet** için;
 ```markdown
 - Name: Zcash Mainnet  
-- RPC URL: https://mainnet.lightwalletd.com:9067 
+- RPC URL: https://zjs.zec.rocks 
 - Symbol: ZEC
 ```
+`https://zjs.zec.rocks`, [zec.rocks](https://zec.rocks) (@emersonian) tarafından işletilen WebZjs uyumlu (gRPC-web) bir lightwalletd sunucusudur. Testnet için `https://zjs.zec.rocks/testnet` kullanın. WebZjs web cüzdanını kendiniz çalıştırıyorsanız, bu `LIGHTWALLETD_PROXY` olarak ayarlanacak değerdir.
 
 ---
 
@@ -96,7 +97,7 @@ Bu, ağ bilgilerini ve explorer bağlantılarını etkinleştirir.
 > **ETH -> ZEC Takası** - **LeoDex** gibi hizmetleri kullanın ve shielded adresinize gönderin.  
 > **Borsadan Çekim** - Satın aldığınız ZEC'yi WebZjs shielded adresinize çekin.  
 
-![LEODEX-SWAP](/content-images/HyLQ0G2ugg-8d82ef24f6.webp)
+![LeoDex-SWAP](/content-images/HyLQ0G2ugg-8d82ef24f6.webp)
 
 
 > => **Tam gizlilik** için shielded (z) adresleri kullanın.
@@ -157,4 +158,4 @@ Bu, ağ bilgilerini ve explorer bağlantılarını etkinleştirir.
 > Shielded proof'ların oluşturulması zaman alabilir; hesaplama tarayıcı içinde WebAssembly tarafından gerçekleştirilir.  
 > Kurtarma basittir, MetaMask ve Snap'i yükleyin, ardından mevcut seed'inizi içe aktarın.  
 > Snap varsayılan olarak **shielded ZEC** kullanır, transparent adresler **odak noktası değildir**.  
-> İşlem onayları için [zcashblockexplorer.com](https://zcashblockexplorer.com) kullanın.
+> İşlem onayları için [mainnet.zcashexplorer.app](https://mainnet.zcashexplorer.app) kullanın.

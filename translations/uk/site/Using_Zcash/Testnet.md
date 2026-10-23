@@ -130,10 +130,10 @@ Zcash періодично оновлює свій базовий протоко
 - Це усуває потребу майнити TAZ вручну  
 
 **Приклад:**  
-1. Відвідайте кран Testnet (наприклад, [testnet.zecfaucet.com](https://testnet.zecfaucet.com) | [fauzec.com](https://fauzec.com/))  
+1. Відвідайте кран Testnet (наприклад, [fauzec.com](https://fauzec.com/) | [zcashfaucet.jinolabs.xyz](https://zcashfaucet.jinolabs.xyz/))  
 2. Введіть свою адресу Testnet  
 3. Запросіть TAZ  
-4. Отримайте TAZ миттєво, щоб почати тестування  
+4. Отримайте TAZ миттєво, щоб почати тестування
 
 **Чому це важливо:**  
 - Безпечне тестування без ризику для ZEC  

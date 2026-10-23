@@ -33,7 +33,7 @@ Sia Zcash che Monero sono criptovalute incentrate sulla privacy, ma raggiungono 
 
 Ecco alcuni vantaggi delle prove a conoscenza zero (ZK) di Zcash rispetto al sistema di decoy di Monero:
 
-1) **Divulgazione selettiva**: con il set di funzionalità ZK di Zcash, gli utenti hanno la possibilità di rivelare i dettagli delle transazioni a parti specifiche [Leggi il blog di ECC sulla divulgazione selettiva](https://electriccoin.co/blog/viewing-keys-selective-disclosure/). In Zcash, i contenuti cifrati delle transazioni schermate consentono agli individui di rivelare selettivamente i dati di un determinato trasferimento. Inoltre, può essere fornita una viewing key per divulgare tutte le transazioni associate a uno specifico indirizzo schermato. Questa funzionalità consente la conformità normativa e la verificabilità senza compromettere la privacy complessiva della rete. 
+1) **Divulgazione selettiva**: con il set di funzionalità ZK di Zcash, gli utenti hanno la possibilità di rivelare i dettagli delle transazioni a parti specifiche [Leggi il blog di ECC sulla divulgazione selettiva](https://electriccoin.co/blog/viewing-keys-selective-disclosure/). In Zcash, i contenuti cifrati delle transazioni schermate consentono agli individui di rivelare selettivamente i dati di un determinato trasferimento. Inoltre, può essere fornita una chiave di visualizzazione per divulgare tutte le transazioni associate a uno specifico indirizzo schermato. Questa funzionalità consente la conformità normativa e la verificabilità senza compromettere la privacy complessiva della rete. 
 
 Sebbene l'algoritmo di decoy di Monero (firma ad anello) aiuti a fornire privacy, non offre la divulgazione *selettiva* nello stesso modo.
 
@@ -46,15 +46,15 @@ Sebbene l'algoritmo di decoy di Monero (firma ad anello) aiuti a fornire privacy
 2) **Visibilità opzionale**: Zcash consente agli utenti di scegliere tra transazioni trasparenti (non private) e schermate (private). Questo significa che Zcash offre agli utenti la flessibilità di mantenere private le proprie informazioni finanziarie (schermate) oppure di renderle trasparenti e pubblicamente disponibili, in modo simile alla maggior parte delle altre blockchain, come spiegato sul [sito ufficiale di Zcash](https://z.cash/learn/what-is-the-difference-between-shielded-and-transparent-zcash/). Questa privacy opt-in consente una maggiore flessibilità e casi d'uso rilevanti per aziende/organizzazioni, poiché alcune transazioni possono richiedere meno privacy per il controllo pubblico, mentre altre traggono beneficio da una privacy potenziata.
 
 
-3) **Anonymity set**: l'[anonymity set](https://docs.wasabiwallet.io/FAQ/FAQ-UseWasabi.html#what-is-the-difference-between-anonymity-set-and-anonymity-score) delle shielded pool a conoscenza zero comprende tutte le transazioni che si sono *mai* verificate. Questo è significativamente più grande della maggior parte delle altre tecniche on-chain per ottenere la non collegabilità delle transazioni. Nota: questo si applica solo alle transazioni all'interno della stessa shielded pool.
+3) **Anonymity set**: l'[anonymity set](https://docs.wasabiwallet.io/FAQ/FAQ-UseWasabi.html#what-is-the-difference-between-anonymity-set-and-anonymity-score) delle pool schermate a conoscenza zero comprende tutte le transazioni che si siano *mai* verificate. Questo è significativamente più grande rispetto alla maggior parte delle altre tecniche on-chain per ottenere la non collegabilità delle transazioni. Nota: questo si applica solo alle transazioni all'interno della stessa pool schermata.
 
 L'uso dei decoy aumenta effettivamente l'anonymity set. Tuttavia, questo approccio dipende interamente dal numero di utenti *reali* sulla rete. 
 
 4) **Nessun trusted setup**: il setup Sprout e Sapling di Zcash utilizzava un calcolo multipartitico noto come "trusted setup ceremony". Il recente upgrade NU5 non ha richiesto alcun Trust (fiducia) nell'integrità del setup del circuito a conoscenza zero. [Leggi il blog di ECC su NU5](https://electriccoin.co/blog/nu5-activates-on-mainnet-eliminating-trusted-setup-and-launching-a-new-era-for-zcash/).
 
-5) **Privacy dei dati**: la [tecnologia zk-SNARK](https://zechub.wiki/zcash-technology) usata nelle shielded pool di Zcash consente una sicurezza notevolmente potenziata per gli utenti. La riduzione della fuga di metadati on-chain significa che gli utenti sono al sicuro da avversari come potenziali hacker o organismi statali oppressivi. 
+5) **Privacy dei dati**: la [tecnologia zk-SNARK](https://zechub.wiki/zcash-tech/zk-snarks) usata nelle pool schermate di Zcash consente una sicurezza notevolmente potenziata per gli utenti. La riduzione della fuga di metadati on-chain significa che gli utenti sono al sicuro da avversari come potenziali hacker o organismi statali oppressivi.
 
-Ci sono stati diversi casi in cui sono stati identificati bug nell'algoritmo di selezione dei decoy di Monero. Questi bug avevano il potenziale di rivelare le spese degli utenti, secondo un report di [Coindesk](https://coindesk.com/markets/2021/07/27/bug-found-in-decoy-algorithm-for-privacy-coin-monero). 
+Ci sono stati diversi casi in cui sono stati identificati bug nell'algoritmo di selezione dei decoy di Monero. Questi bug avevano il potenziale di rivelare le spese degli utenti, secondo un report di [CoinDesk](https://coindesk.com/markets/2021/07/27/bug-found-in-decoy-algorithm-for-privacy-coin-monero).
 
 
 In sintesi, ciò che conta davvero di più è ridurre o eliminare la fuga di informazioni e dati degli utenti, come spiegato da Zooko alla [sessione live AMA di Orchid (priv8)](https://youtube.com/watch?v=XpRzKqEfpP4&feature=share9) 
@@ -81,7 +81,7 @@ https://youtu.be/XpRzKqEfpP4
 
 https://electriccoin.co/blog/zcash-evolution/
 
-https://electriccoin.co/zcash-metrics/
+https://web.archive.org/web/20240327000137/https://electriccoin.co/zcash-metrics/
 https://electriccoin.co/blog/viewing-keys-selective-disclosure/
 
 

@@ -10,13 +10,13 @@
 - O zcashd atingiu a sua paragem de Fim de Suporte em 18 de julho de 2026 e já não é executado. O Zebra trata agora do lado do nó; o Zallet trata do lado da wallet.
 - O Zallet é operado a partir da linha de comandos com `zallet rpc <command>`, de forma semelhante ao que fazia antes com `zcash-cli`.
 - Todos os argumentos após o nome do comando têm de ser JSON válido, o que significa que os valores de texto mantêm as aspas duplas.
-- O Zallet ainda está em alpha. Os comandos podem mudar entre versões, e nem todos os RPC do zcashd foram ainda migrados.
+- O Zallet está em beta. Os comandos podem mudar entre versões, e nem todos os RPC do zcashd foram ainda migrados.
 
 ## Explicação Principal
 
 O Zallet expõe a sua funcionalidade através de JSON-RPC, o mesmo estilo de interface que a wallet do zcashd usava. Tudo o que quiser que a wallet faça — verificar um saldo, criar uma conta, enviar um pagamento shielded — é um comando que passa a `zallet rpc`.
 
-Duas coisas diferem do antigo hábito com `zcash-cli` e explicam a maioria dos erros iniciais. Primeiro, os argumentos têm de ser JSON válido em vez de texto simples, por isso um argumento de texto traz as suas próprias aspas dentro das aspas do shell. Segundo, o conjunto de comandos disponíveis depende da versão alpha que está a executar, por isso a lista incorporada no seu binário é mais fiável do que qualquer página escrita, incluindo esta.
+Duas coisas diferem do antigo hábito com `zcash-cli` e explicam a maioria dos erros iniciais. Primeiro, os argumentos têm de ser JSON válido em vez de texto simples, por isso um argumento de texto traz as suas próprias aspas dentro das aspas do shell. Segundo, o conjunto de comandos disponíveis depende da versão beta que está a executar, por isso a lista incorporada no seu binário é mais fiável do que qualquer página escrita, incluindo esta.
 
 Para listar todos os RPC disponíveis:
 
@@ -36,9 +36,9 @@ zallet rpc help '"<command>"'
 ## Erros Comuns
 
 - **Omitir as aspas internas em argumentos de texto.** `zallet rpc validateaddress u1abc...` falha, porque o endereço tem de chegar como JSON. Tem de ser escrito como `'"u1abc..."'`.
-- **Assumir que todos os RPC do zcashd existem aqui.** A migração ainda está em curso. Alguns métodos comportam-se de forma idêntica, alguns exigem uso diferente e alguns não serão migrados de todo.
-- **Tratar esta página como mais autoritativa do que o seu binário.** O Zallet está em alpha e evolui rapidamente. Quando um comando aqui não funcionar, verifique `zallet rpc help` antes de assumir que algo está avariado.
-- **Esperar que o Zallet seja um nó.** É a metade wallet do par. O Zebra executa o nó, e o Zallet comunica com ele.
+- **Assumir que todos os RPC existem aqui.** A migração ainda está em curso. Alguns métodos comportam-se de forma idêntica, alguns exigem uso diferente e alguns não serão migrados de todo.
+- **Tratar esta página como mais autoritativa do que o seu binário.** Zallet está em beta e evolui rapidamente. Quando um comando aqui não funcionar, verifique `zallet rpc help` antes de assumir que algo está avariado.
+- **Esperar que Zallet seja um nó.** É a metade wallet do par. Zebra executa o nó, e Zallet comunica com ele.
 
 ## Comandos RPC
 
@@ -474,8 +474,8 @@ zallet rpc z_viewtransaction '"<txid>"'
 
 ## Páginas Relacionadas
 
-- [Guia de Migração: Zcashd para Zebrad e Zallet](/guides/migration-guide-zcashd-to-zebrad-zallet) — migração passo a passo a partir de uma configuração existente do zcashd
-- [Nó Completo Zebra](/zcash-tech/zebra-full-node) — a implementação de nó com a qual o Zallet funciona
+- [Guia de Migração: zcashd para Zebrad e Zallet](/guides/migration-guide-zcashd-to-zebrad-zallet) — migração passo a passo a partir de uma configuração existente de zcashd
+- [Zebra Nó Completo](/zcash-tech/zebra-full-node) — a implementação de nó que funciona juntamente com Zallet
 - [Nós Completos](/zcash-tech/full-nodes) — o que envolve executar um nó completo e porque poderá querer um
-- [Wallets](/using-zcash/wallets) — opções de wallet mais leves se um nó completo for mais do que precisa
-- [Transações](/using-zcash/transactions) — como as transações shielded e transparentes diferem
+- [Carteiras](/using-zcash/wallets) — opções de carteira mais leves se um nó completo for mais do que precisa
+- [Transações](/using-zcash/transactions) — como as transações protegidas e transparentes diferem

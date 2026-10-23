@@ -2,14 +2,14 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Zcash Msingi
+# Misingi ya Zcash
 
 ## TL;DR
 
-- **ZEC** ni faragha-kwanza fedha digital kujengwa juu ya blockchain Zcash
-- Tofauti na Bitcoin, ZEC inasaidia shughuli kamili za ** ulinzi (wa kibinafsi) ** kwa kutumia uthibitisho wa ujuzi wa sifuri
-- Unaweza kudhibiti faragha yako ya kifedha: chagua nini cha kufunua, na kwa nani
-- Zcash ni chanzo wazi, ruhusa, na madaraka
+- **ZEC** ni sarafu ya kidijitali ya kwanza kwa ajili ya faragha iliyojengwa kwenye blockchain ya Zcash
+- Tofauti na Bitcoin, ZEC inasaidia kikamilifu miamala ya **faragha (ya faragha)** kwa kutumia uthibitisho wa kutojua chochote.
+- Unadhibiti faragha yako ya kifedha: chagua cha kufichua, na kwa nani
+- Zcash ni chanzo huria, haina ruhusa, na imegawanywa katika maeneo mengine
 
 ---
 
@@ -20,27 +20,27 @@
 
 ---
 
-ZEC ni sarafu ya dijiti ambayo inategemea blockchain ya Zcash. Ni karibu zaidi kwa pesa kwenye wavuti. Wakati inashiriki huduma nyingi zinazofanana na Bitcoin, hutatua kasoro kubwa ya Bitcoin kwa kuwezesha watumiaji kuendesha shughuli za kifedha za kibinafsi kabisa.
+ZEC ni sarafu ya kidijitali inayotegemea blockchain ya Zcash. Ni makadirio ya karibu zaidi ya pesa taslimu mtandaoni. Ingawa inashiriki vipengele vingi vinavyofanana na Bitcoin, hutatua dosari kubwa zaidi ya Bitcoin kwa kuwawezesha watumiaji kuendesha miamala ya kifedha ya kibinafsi kikamilifu.
 
 #### Kwa nini sarafu ya kibinafsi ni muhimu?
 
-ZEC inatoa watu fursa ya kuhamisha data bila ruhusa. Kuwa na peer-to-peer, mfumo wa pesa bila ruhusu huwapa watu uwezo wa kuhifadhi thamani, au kufanya shughuli na wengine, huru kutoka kwa vyombo vya kati. ZEC inawawezesha watu kuchagua wakati wanataka kufichua habari kuhusu fedha zao na wengine.
+ZEC huwapa watu fursa ya kuhamisha data bila ruhusa. Kuwa na mfumo wa pesa wa rika kwa rika, bila ruhusa huwapa watu uwezo wa kuhifadhi thamani, au kufanya miamala na wengine, bila kujali vyombo vya kati. ZEC huwawezesha watu kuchagua wanapotaka kufichua taarifa kuhusu fedha zao na wengine.
 
 #### Rasilimali
 
 [Kesi ya Zcash na Faragha](https://www.zcashzeal.org/blog/the-case-for-zcash-amp-privacy)
 
-[Ecosystem Iliyohifadhiwa](https://electriccoin.co/blog/shielded-ecosystem/)
+[Mfumo Ekolojia Uliolindwa](https://web.archive.org/web/20260903010654/https://electriccoin.co/blog/shielded-ecosystem/)
 
-[Zcash Usiri Mapendekezo](https://z.cash/support/security/privacy-security-recommendations/)
+[Mapendekezo ya Faragha ya Zcash](https://z.cash/support/security/privacy-security-recommendations/)
 
 ## Zcash ni nini?
 
-Zcash ni utekelezaji wa "Zerocash" itifaki. Ni wazi chanzo, blockchain-msingi kitabu kwamba makala ya kisasa sifuri-maarifa kuthibitisha mfumo. Kulingana na kanuni Bitcoin ya, ni maalumu katika kutoa kiwango cha juu cha faragha kupitia kuthibitisha yake mfumo wa kuhifadhi usiri wa [transaction metadata](https://nym.com/blog/what-is-metadata)Katika kiini chake, Zcash ni umiliki wa data binafsi ambayo ni ruhusa bila kuhamishwa wakati shughuli ni kufanywa. 
+Zcash ni utekelezaji wa itifaki ya "Zerocash". Ni kitabu cha kumbukumbu cha chanzo huria, kinachotegemea blockchain ambacho kina mfumo tata wa kuthibitisha maarifa yasiyo na kikomo. Kulingana na msimbo wa Bitcoin, inataalamu katika kutoa kiwango cha juu cha faragha kupitia mfumo wake wa kuthibitisha unaohifadhi usiri wa [metadata ya miamala](https://nym.com/blog/what-is-metadata)Katika kiini chake, Zcash ni umiliki wa data binafsi ambao huhamishwa bila ruhusa wakati miamala inafanywa. 
 
-#### Kwa nini jambo hilo ni muhimu?
+#### Kwa nini ni muhimu?
 
-Zcash solves Bitcoin's biggest flaw; private ownership and transfer of data. Katika dunia ambapo blockchain maombi na cryptocurrencies ni kuwa zaidi kwa kiasi kikubwa kukubalika, pseudonymous shughuli ni tena chaguo viable kulinda faragha ya mtumiaji. ufuatiliaji maombi ni kuwa inazidi sana kutumika kuchambua blockchain shughuli.
+Zcash hutatua dosari kubwa zaidi ya Bitcoin; umiliki binafsi na uhamisho wa data. Katika ulimwengu ambapo programu za blockchain na sarafu za kidijitali zinazidi kukubalika, miamala bandia si chaguo linalofaa tena kulinda faragha ya mtumiaji. Programu za ufuatiliaji zinazidi kutumika kuchambua miamala ya blockchain.
 
 <a href="">
     <img src="/content-images/Zcash-logo-1-26747e0dd3.webp" alt="" width="60" height="60"/>
@@ -48,18 +48,16 @@ Zcash solves Bitcoin's biggest flaw; private ownership and transfer of data. Kat
 
 #### Rasilimali
 
-[Vitu vya Msingi](https://z.cash/the-basics/)
+[Misingi](https://z.cash/the-basics/)
 
 [Jinsi Inavyofanya Kazi](https://z.cash/technology/)
-
-[HTTPS ya Blockchains](https://nakamoto.com/zcash-the-https-of-blockchains/)
 
 ---
 
 ## Kurasa Zinazohusiana
 
-- [Mwongozo Mpya wa Mtumiaji](/start-here/new-user-guide)  Hatua kwa hatua onboarding kwa wamiliki mpya ZEC
-- [Mifuko ya fedha](/using-zcash/wallets)  Chagua mkoba wa kulinda ili kushikilia ZEC yako
-- [Kununua ZEC](/using-zcash/buying-zec)  Wapi na jinsi ya kupata ZEC
-- [Vidimbwi vya Kuhifadhiwa](/using-zcash/shielded-pools)  Jinsi Zcash pools kuweka shughuli binafsi
-- [ZK-SNARKs](/zcash-tech/zk-snarks)  Cryptography nyuma Zcash faragha
+- [Mwongozo Mpya wa Mtumiaji](/start-here/new-user-guide) — Uboreshaji wa hatua kwa hatua kwa wamiliki wapya wa ZEC
+- [Pochi](/using-zcash/wallets) — Chagua pochi iliyofunikwa ili kushikilia ZEC yako
+- [Kununua ZEC](/using-zcash/buying-zec) — Wapi na jinsi ya kupata ZEC
+- [Mabwawa ya Kuogelea Yenye Ngao](/using-zcash/shielded-pools) — Jinsi mabwawa ya Zcash yanavyoweka miamala kuwa ya faragha
+- [zk-SNARKs](/zcash-tech/zk-snarks) — Usimbaji fiche nyuma ya faragha ya Zcash

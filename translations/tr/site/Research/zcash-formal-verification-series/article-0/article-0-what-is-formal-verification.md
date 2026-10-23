@@ -137,14 +137,14 @@ Bunu okunabilir tutmak için basitleştirdik. Gerçek spesifikasyonlar İngilizc
 
 | Terim | Sade İngilizce anlamı |
 |---|---|
-| **Formal doğrulama** | Bir sistemin tüm durumlar için bir spesifikasyonu karşıladığını matematiksel olarak kanıtlama |
-| **Spesifikasyon** | “Doğru davranış”ın ne anlama geldiğine dair kesin ifade |
-| **Sistem** | Kontrol edilen gerçek program, devre veya protokol |
-| **Kanıt** | Bir iddiayı tüm durumlar için ortaya koyan sonlu mantıksal adımlar zinciri |
-| **Kanıt asistanı / teorem ispatlayıcı** | Bir kanıtın her adımını denetleyen yazılım (Lean, Rocq, Isabelle) |
-| **Makine tarafından denetlenmiş** | Yalnızca insan okumayla değil, bilgisayar tarafından adım adım doğrulanmış |
-| **Tümevarım** | Bir kanıt tekniği: başlangıçta doğru ve her adım onu sonrakine taşır |
-| **Varsayım** | Kanıtın dayandığı koşul; yanlışsa garanti geçerli olmayabilir |
+| **Formal verification** | Bir sistemin tüm durumlar için bir spesifikasyonu karşıladığını matematiksel olarak kanıtlama |
+| **Specification** | “Doğru davranış”ın ne anlama geldiğine dair kesin ifade |
+| **System** | Kontrol edilen gerçek program, devre veya protokol |
+| **Proof** | Bir iddiayı tüm durumlar için ortaya koyan sonlu mantıksal adımlar zinciri |
+| **Proof assistant / theorem prover** | Bir kanıtın her adımını denetleyen yazılım (Lean, Rocq, Isabelle) |
+| **Machine-checked** | Yalnızca insan okumayla değil, bilgisayar tarafından adım adım doğrulanmış |
+| **Induction** | Bir kanıt tekniği: başlangıçta doğru ve her adım onu sonrakine taşır |
+| **Assumption** | Kanıtın dayandığı koşul; yanlışsa garanti geçerli olmayabilir |
 
 ---
 

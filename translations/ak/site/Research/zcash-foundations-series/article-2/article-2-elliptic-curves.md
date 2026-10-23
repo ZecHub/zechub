@@ -155,7 +155,7 @@ Nsateaa nkyerɛwee no yɛ kɔnkrit na wotumi hwɛ mu.
 
 | Zcash nhyehyɛe | Curves a ɛde di dwuma | Dwuma a Di |
 |---|---|---|
-| **Sapling** (older) | **BLS12-381** plus an embedded curve called **Jubjub** | BLS12-381 carries the proof system; Jubjub is built over BLS12-381's scalar field so that key and commitment operations are cheap to perform *inside* a zero-knowledge proof |
+| **Sapling** (akyɛde) | **BLS12-381** ne curve a wɔde ahyɛ mu a wɔfrɛ no **Jubjub** | BLS12-381 kura adansedi nhyehyɛe no; Wɔakyekye Jubjub wɔ BLS12-381's scalar field so sɛnea ɛbɛyɛ a key ne commitment operations bɛyɛ nea ne bo yɛ mmerɛw sɛ wɔbɛyɛ *mu* zero-nimdeɛ adanse |
 | **Nnua turo** (mprempren) | **Pallas** ne **Vesta** ("Pasta" kyinhyia no) | Pallas kura Orchard nsafe ne ne bɔhyɛ ahorow; wɔayɛ Pallas/Vesta pairing no ho nhyehyɛe titiriw sɛnea ɛbɛyɛ a adanse a ɛkɔ akyiri no bɛyɛ adwuma yiye |
 
 Nea enti a curve biako nya "embedded" wɔ foforo afuw mu, ne nea enti a *cycle* a curve abien ho wɔ mfaso no yɛ nokware na ɛho hia, nanso ɛyɛ proof-system articles no dea. Mprempren de, takeaway no yɛ den: **Zcash safoa biara yɛ scalar mpɛn generator, na Zcash bɔhyɛ biara yɛ curve nsɛntitiriw a wɔaboaboa ano**, a ɛte saa curves a wɔato din yi mu biako so.
@@ -185,13 +185,13 @@ Nneɛma kakraa bi a wɔayɛ no mmerɛw no maa eyi kɔɔ so kenkan. Yɛde **Weier
 
 | Asɛmfua | Plain-English asekyerɛ |
 |---|---|
-| **Elliptic a ɛyɛ kurukuruwa** | Nsɛntitiriw a ɛma abotɔyam `y^2 = x^3 + ax + b`, a "ade ka ho" soronko bi a ɛfa nsɛntitiriw ho |
-| **Nsɛntitiriw a wɔde ka ho** | Chord-and-tangent mmara: line fa nsɛntitiriw abien mu, fa hit a ɛto so abiɛsa, kyerɛ |
-| **Twe adwene si baabi a enni ano (`O`)** | Curve no yɛ "zero"; sɛ wode ka ho a, ɛnsesa hwee |
-| **Nneɛma a ɛma anyinam ahoɔden (`G`)** | Base point a awiei koraa no ne multiples kata kuw no nyinaa so |
-| **Scalar dodow a ɛkɔ soro (`kG`)** | Ɔde ka ho `G` ma n’ankasa ho `k` mmere; ɛnyɛ den sɛ wobɛkɔ anim, ɛyɛ den sɛ wobɛsan akɔ akyi |
-| **ECDLP** na ɛyɛ adwuma | Ɔhaw a emu yɛ den a ɛne sɛ obi ho bɛtɔ no `k` firi `kG`; ahobammɔ fapem no |
-| **Pedersen bɔhyɛ** | `v.G + r.H`; envelope a wɔatoto mu a ɛde sie, kyekyere, na ɛka bom |
+| **Elliptic curve** | Nsɛntitiriw a ɛma abotɔyam `y^2 = x^3 + ax + b`, a "ade ka ho" soronko bi a ɛfa nsɛntitiriw ho |
+| **Point addition** | Chord-and-tangent mmara: line fa nsɛntitiriw abien mu, fa hit a ɛto so abiɛsa, kyerɛ |
+| **Point at infinity (`O`)** | Curve no yɛ "zero"; sɛ wode ka ho a, ɛnsesa hwee |
+| **Generator (`G`)** | Base point a awiei koraa no ne multiples kata kuw no nyinaa so |
+| **Scalar multiplication (`kG`)** | Ɔde ka ho `G` ma n’ankasa ho `k` mmere; ɛnyɛ den sɛ wobɛkɔ anim, ɛyɛ den sɛ wobɛsan akɔ akyi |
+| **ECDLP** | Ɔhaw a emu yɛ den a ɛne sɛ obi ho bɛtɔ no `k` firi `kG`; ahobammɔ fapem no |
+| **Pedersen commitment** | `v.G + r.H`; envelope a wɔatoto mu a ɛde sie, kyekyere, na ɛka bom |
 
 ---
 

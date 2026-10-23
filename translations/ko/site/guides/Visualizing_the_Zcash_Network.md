@@ -27,7 +27,7 @@ Rust -> [https://rustup.rs/](https://rustup.rs/)
 jq -> [https://jqlang.github.io/jq/download/](https://jqlang.github.io/jq/download/)
 (터미널에서 JSON 정보를 표시하기 위해)
 
-curl -> [https://everything.curl.dev/get/linux](https://everything.curl.dev/get/linux)
+curl -> [https://everything.curl.dev/install/linux.html](https://everything.curl.dev/install/linux.html)
 (크롤러 RPC를 쿼리하기 위해)
 
 npm (nvm과 함께) -> [https://medium.com/@iam_vinojan/how-to-install-node-js-and-npm-using-node-version-manager-nvm-143165b16ce1](https://medium.com/@iam_vinojan/how-to-install-node-js-and-npm-using-node-version-manager-nvm-143165b16ce1)
@@ -114,7 +114,7 @@ cargo run --release --features crawler --bin crawler -- --help
 
 이 명령은 프로그램을 컴파일하고 모든 것이 정상적으로 작동하는지 확인합니다.
 
-크롤러를 실행하려면 시작 명령에 '--seed-addrs' 플래그를 추가해야 하며, 이 플래그는 적어도 하나의 유효한 Zcash 노드 IP 주소를 포함해야 합니다. 크롤러가 충분히 오랜 시간 동안 실행되어야 정확한 결과를 얻을 수 있습니다. 일부 샘플 노드 IP 주소는 [https://zcashblockexplorer.com/nodes](https://zcashblockexplorer.com/nodes)에서 찾을 수 있습니다.
+크롤러를 실행하려면 시작 명령에 '--seed-addrs' 플래그를 추가해야 하며, 이 플래그는 적어도 하나의 유효한 Zcash 노드 IP 주소를 포함해야 합니다. 크롤러가 충분히 오랜 시간 동안 실행되어야 정확한 결과를 얻을 수 있습니다. 일부 샘플 노드 IP 주소는 [https://mainnet.zcashexplorer.app/nodes](https://mainnet.zcashexplorer.app/nodes)에서 찾을 수 있습니다.
 
 크롤러가 실행 중일 때 정보를 가져오려면 시작 명령에 '--rpc-addr' 플래그를 추가해야 합니다. 크롤러 자체만 실행하려는 경우 이 플래그는 필수적이지 않지만, 아무 정보도 표시하려면 크롤러를 중단해야 합니다 (ctrl+c 또는 SIGKILL).
 

@@ -8,11 +8,9 @@
 
 Esta guía ofrece una visión general del arco principal de aprendizaje del cuaderno, dividido en nueve secciones principales. No sustituye al libro en sí, sino que es un recurso complementario que resume el recorrido educativo y destaca información importante para instructores, estudiantes y educadores comunitarios.
 
-El cuaderno está disponible gratuitamente para descargar en PDF o como flipbook interactivo:
+El cuaderno está disponible gratuitamente para descargar en PDF:
 
 [Esquema](https://drive.google.com/file/d/1eYWLgvAAHzCpr2b7bZ494FTZAtHqmtRk/view)
-
-[Flipbook](https://midd.me/nbp2)
 
 [Repositorio de GitHub](https://github.com/massadoptionorg/My-First-Zcash) 
 
@@ -149,10 +147,10 @@ La sección final invita a los lectores a formar parte del ecosistema de Zcash. 
 
 - Unirse al Discord Global de Zcash  
 - Participar en llamadas comunitarias y grupos de trabajo  
-- Contribuir a futuras traducciones del cuaderno  
+- Contribuir a futuras traducciones del cuaderno de trabajo  
 - Apoyar la educación de código abierto  
-- Crear contenido, contribuciones de código, arte o comentarios  
-- Explorar las subvenciones comunitarias de Zcash  
+- Crear contenido, contribuciones de código, obras de arte o comentarios  
+- Explorar Zcash Community Grants
 
 El mensaje es claro: cualquiera puede participar, y la comunidad da la bienvenida a colaboradores de todos los orígenes y niveles de experiencia.
 

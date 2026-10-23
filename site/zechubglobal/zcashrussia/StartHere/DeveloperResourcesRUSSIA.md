@@ -6,7 +6,7 @@
 
 [Документы Zcash](https://zcash.readthedocs.io/en/latest/)
 
-[Освоение биткойнов: программирование открытого блокчейна](https://www.amazon.com/Mastering-Bitcoin-Programming-Open-Blockchain-ebook/dp/B071K7FCD4)
+[Освоение биткойнов: программирование открытого блокчейна](https://web.archive.org/web/20230225165018/https://www.amazon.com/Mastering-Bitcoin-Programming-Open-Blockchain-ebook/dp/B071K7FCD4)
 
 [RPC Zcashd](https://zcash.github.io/rpc/)
 

@@ -6,6 +6,8 @@
 
 > Zcash wurde am 28. Oktober 2016 mit dem abgeschirmten Sprout-Pool gestartet.
 
+> **Warnung:** NU7 macht ZEC, die sich noch im Sprout-Pool befinden, nach der Aktivierung nicht mehr ausgebbar (Mainnet-Zieltermin: 5. November 2026, endgültige Entscheidung: 20. Oktober 2026; siehe [ZIP 259](https://zips.z.cash/zip-0259)). Wenn du über Sprout-Guthaben verfügst, lies [Wiederherstellung von Guthaben](../using-zcash/recovering-funds) und migriere sie zuerst.
+
 Das Wichtigste vorweg: Sprout ist der Ursprung von Zcash, das erste Mal, dass privates, verifizierbares Geld auf einer live laufenden blockchain funktionierte.
 
 Sprout ist der ursprüngliche Start des Zcash-Netzwerks, nicht ein späteres [Netzwerk-Upgrade](../start-here/network-upgrades). Es ging mit dem Genesis-Block am 28. Oktober 2016 live. Es gibt keine nummerierte ZIP, die Sprout definiert: Der ZIP-Prozess begann erst später mit Overwinter, daher wird Sprout durch die ursprüngliche Zcash Protocol Specification und die Zerocash-Konstruktion beschrieben, auf der es aufgebaut wurde. Die [Electric Coin Company](../zcash-organizations/electric-coin-company) (damals die Zerocoin Electric Coin Company), unter der Leitung von Zooko Wilcox, entwickelte und veröffentlichte es. Sprout führte die ersten praxistauglichen abgeschirmten zk-SNARK-Transaktionen und den ursprünglichen abgeschirmten Pool ein, sodass Menschen ZEC senden konnten, wobei Absender, Empfänger und Betrag verborgen blieben, während das Netzwerk weiterhin überprüfte, dass die Salden stimmten. Der Name sollte eine junge, sprießende Chain signalisieren, von der das Team erwartete, dass sie wachsen würde.
@@ -16,28 +18,28 @@ Warum das wichtig ist. Jede öffentliche blockchain vor Sprout stellte deine Zah
 
 Sprout schuf zwei Arten von Adressen. Transparente Adressen (t-addresses) funktionieren wie bei Bitcoin, mit Details, die im öffentlichen Ledger sichtbar sind. Abgeschirmte Adressen (z-addresses) senden Mittel in den Sprout-[Shielded Pool](../using-zcash/shielded-pools), in dem Absender, Empfänger und Betrag verborgen bleiben. Der Trick sind [zk-SNARKs](../zcash-tech/zk-snarks), Zero-Knowledge-Beweise, die es einer Transaktion erlauben zu zeigen, dass sie gültig ist, ohne Doppelausgaben und mit korrekt aufaddierten Salden, ohne irgendeines der Details offenzulegen. Sprout war das erste Mal, dass dies in der Produktion auf einer live laufenden Kryptowährung funktionierte.
 
-![Transparente Transaktionen legen Absender, Empfänger und Betrag offen, während abgeschirmte Sprout-Transaktionen alle drei verbergen und dennoch verifizierbar bleiben](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/sprout-shielded-vs-transparent.png)
+![Transparente Transaktionen legen Absender, Empfänger und Betrag offen, während abgeschirmte Sprout-Transaktionen alle drei verbergen und dennoch verifizierbar bleiben](/content-images/sprout-shielded-vs-transparent-61d3b1980c.webp)
 
 ## Die Ceremony
 
 Die zk-SNARKs in Sprout benötigten einen Satz öffentlicher Parameter, und deren sichere Erzeugung erforderte ein einmaliges Setup namens Ceremony. Sechs Teilnehmer an getrennten, weit voneinander entfernten Orten erzeugten jeweils ein geheimes Teilstück, genannt toxic waste. Falls jemals alle Teilstücke wieder zusammengesetzt würden, könnte man ZEC aus dem Nichts fälschen. Das Design machte aus diesem Risiko eine einfache Regel: Solange mindestens ein Teilnehmer sein Teilstück zerstörte, konnte das vollständige Geheimnis niemals rekonstruiert werden, sodass Fälschungen unmöglich blieben. Zu den Teilnehmern, deren Namen öffentlich bekannt sind, gehören Zooko Wilcox, Andrew Miller, Peter Van Valkenburgh, Peter Todd und Derek Hinch von NCC Group. Ein Teilnehmer entschied sich, anonym zu bleiben.
 
-![Die Ceremony: sechs Teilnehmer erzeugen private Fragmente und zerstören dann den toxic waste, sodass nur die öffentlichen Sprout-Parameter übrig bleiben](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/sprout-ceremony-flow.png)
+![Die Ceremony: sechs Teilnehmer erzeugen private Fragmente und zerstören dann den toxic waste, sodass nur die öffentlichen Sprout-Parameter übrig bleiben](/content-images/sprout-ceremony-flow-ae16f6282a.webp)
 
 ## Der Ursprung
 
 Sprout ist die Grundlage, auf der jede spätere Änderung aufbaut. Als der Netzwerk-Upgrade-Mechanismus mit Overwinter eingeführt wurde, bezeichnete er die ursprünglichen Regeln als consensus branch id 0, was einfach bedeutet, dass noch kein Upgrade angewendet wurde. Alles seitdem (Overwinter, Sapling, Blossom, Heartwood, Canopy, NU5, NU6 und alles Weitere) baut auf der Chain auf, die Sprout begonnen hat. Der Start wurde im August 2016 für einen Genesis am 28. Oktober angekündigt, die Ceremony lief in den Wochen davor, und der fest im Genesis-Block codierte Zeitstempel lautet 28. Oktober 2016 um 07:56 UTC.
 
-![Zeitleiste von der Ankündigung im August 2016 über die Parameter-Ceremony bis zum Sprout-Start am 28. Oktober 2016](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/sprout-timeline.png)
+![Zeitleiste von der Ankündigung im August 2016 über die Parameter-Ceremony bis zum Sprout-Start am 28. Oktober 2016](/content-images/sprout-timeline-348766352a.webp)
 
 ## Glossar
 
 | Begriff | Bedeutung in einfachem Deutsch |
 |---|---|
 | zk-SNARK | Ein Zero-Knowledge-Beweis, der zeigt, dass eine Transaktion gültig ist, ohne Absender, Empfänger oder Betrag offenzulegen |
-| Shielded Pool | Der private Bereich von Zcash, in dem Beträge und Beteiligte verborgen sind. Der Sprout-Pool war der erste |
-| z-address und t-address | Eine z-address ist abgeschirmt und hält Details privat. Eine t-address ist transparent und zeigt Details im öffentlichen Ledger |
-| Die Ceremony | Das Multi-Party-Setup von 2016, das die öffentlichen Parameter von Sprout erzeugte und danach den toxic waste verwarf |
+| Shielded pool | Der private Bereich von Zcash, in dem Beträge und Beteiligte verborgen sind. Der Sprout-Pool war der erste |
+| z-address and t-address | Eine z-address ist abgeschirmt und hält Details privat. Eine t-address ist transparent und zeigt Details im öffentlichen Ledger |
+| The Ceremony | Das Multi-Party-Setup von 2016, das die öffentlichen Parameter von Sprout erzeugte und danach den toxic waste verwarf |
 | Toxic waste | Die geheimen Schlüsselteile aus der Ceremony, die zerstört werden mussten, damit ZEC nicht gefälscht werden konnte |
 | Consensus branch id 0 | Die Bezeichnung für die Regeln von Sprout, also die Grundlage vor jedem Netzwerk-Upgrade |
 
@@ -77,7 +79,7 @@ Sprout ist der ursprüngliche Start von Zcash, nicht ein späteres Upgrade. Es i
 
 [Shielded Pools](../using-zcash/shielded-pools)
 
-[zk-SNARKS](../zcash-tech/zk-snarks)
+[zk-SNARKs](../zcash-tech/zk-snarks)
 
 [Zcash Netzwerk-Upgrades](../start-here/network-upgrades)
 

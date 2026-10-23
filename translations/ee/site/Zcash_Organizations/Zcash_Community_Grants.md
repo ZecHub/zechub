@@ -6,11 +6,11 @@
 
 ## Dɔdasi Ŋuti Nyatakaka
 
-Zcash Hadome Gakpekpeɖeŋunaɖoɖoa naa ga ƒuƒoƒo siwo le wo ɖokui si siwo gena ɖe Zcash ƒe lãwo ƒe agbenɔnɔ ƒe ɖoɖoa me, be woawɔ ŋgɔyiyi gã siwo yia edzi (alo dɔ bubuwo) hena Zcash lãwo ƒe agbenɔnɔ ƒe ɖoɖoa ƒe nyonyo. 
+Zcash Community Grants naa ga ƒuƒoƒo siwo le wo ɖokui si siwo gena ɖe Zcash lãwo ƒe agbenɔnɔ ƒe ɖoɖoa me, be woawɔ ŋgɔyiyi gã siwo yia edzi (alo dɔ bubuwo) hena Zcash lãwo ƒe agbenɔnɔ ƒe ɖoɖoa ƒe nyonyo. 
 
 ## Amewo Kple Ƒuƒoƒowo
 
-Kɔmiti aɖee kpɔa Zcash Community Grants dzi, eye ame atɔ̃e le eme fifia. Nuto sia léa ŋku ɖe kpekpeɖeŋunana ƒe biabiawo ŋu tso ame etɔ̃lia ƒe ƒuƒoƒo siwo di be yewoatu Zcash ƒe ɖoɖowɔɖia ɖe edzi gbɔ eye woda asi ɖe wo dzi. Nyatakaka bubuwo tso [Team](https://zcashcommunitygrants.org/committee/)
+Kɔmiti aɖee kpɔa Zcash Community Grants dzi, eye ame atɔ̃e le eme fifia. Nuto sia léa ŋku ɖe kpekpeɖeŋunana ƒe biabiawo ŋu tso ame etɔ̃lia ƒe ƒuƒoƒo siwo di be yewoatu Zcash ɖoɖowɔɖia ɖe edzi gbɔ eye woda asi ɖe wo dzi. Nyatakaka bubuwo tso.. [Dɔwɔha](https://zcashcommunitygrants.org/committee/)
 
 Dɔ siwo wowɔ nyitsɔ laa siwo dzi ZCG da asi ɖoe nye Zcash Shielded Assets (ZSA) si QEDIT ƒe ƒuƒoƒoa kplɔ. DeFi hehe va ZEC kple Zcash kple fexexe ƒe ɖoɖo yeye si tsɔ nɔnɔme bubuwo kpe ɖe Zcash mainnet ŋu. 
 
@@ -18,19 +18,19 @@ Zcash Media ƒe Nuŋlɔɖi Kpuie si me Zcashertɔ ɖedzesiwo abe Edward Snowden,
 
 Hardware gakotokuwo ƒe ƒoƒo ɖekae le Ledger be woado alɔ Sapling shielded transactions bliboe, esia na be woate ŋu adzra Zcash ɖo le ame ŋutɔ & dedie. Zondax Ƒuƒoƒoae wɔ esia. 
 
-A Easy one-click shielded payment kple Point-of-sale system na brick kple mortar fiasewo SDK si ZGo le wɔwɔm. 
+A Easy one-click shielded payment kple Point-of-sale system na brick kple mortar fiasewo SDK si ZGo. 
 
-Xexeame Katã ƒe Dutanyanyuigblɔla ƒe ɖoɖoa kpena ɖe Zcash ŋu wòkpɔa teƒe geɖe wu le dukɔwo dome kple na nutoa me wɔnawo siwo wowɔna le ame ŋutɔ ŋkume le xexeame godoo. 
+Xexeame Katã ƒe Dutanyanyuigblɔla ƒe ɖoɖoa kpena ɖe Zcash ŋu wòkpɔa teƒe geɖe wu le dukɔwo dome kple na nutoa me wɔna siwo wowɔna le ame ŋutɔ ŋkume le xexeame godoo. 
 
-Zcash ƒe Gakpekpeɖeŋunana Kɔmitia to dɔ bubu geɖewo me, kpɔ [Full, Updated List](https://docs.google.com/spreadsheets/d/1FQ28rDCyRW0TiNxrm3rgD8ai2KGUsXAjPieQmI1kKKg/edit?gid=135980745#gid=135980745) ƒe dɔ siwo woɖo ɖa.
+Zcash Grants Committee la to dɔ geɖewo me, kpɔ a [Ŋkɔwo ƒe Ŋkɔ Blibo, Siwo Wotrɔ Asi Le](https://docs.google.com/spreadsheets/d/1FQ28rDCyRW0TiNxrm3rgD8ai2KGUsXAjPieQmI1kKKg/edit?gid=135980745#gid=135980745) ƒe dɔ siwo woɖo ɖa.
 
 ## Habɔbɔ ƒe Dɔwɔɖoɖo
 
-Zcash Community Grants nye habɔbɔ si le eɖokui si tso Electric Coin Company kple Zcash Foundation gbɔ. 
+Zcash Community Grants nye habɔbɔ si le eɖokui si tso Electric Coin Company kple Zcash Foundation. 
 
 ## Gakpekpeɖeŋunana
 
-Electric Coin Company xɔa 8% le [Zcash ŋgɔyiyi ga la me](https://zips.z.cash/zip-1014). Wozãa ga siawo tsɔ doa alɔ ame etɔ̃lia ƒe ŋgɔyiyihawo eye wozãa ememe dɔwɔnawo hã.
+Zcash Community Grants xɔa 8% le block subsidy me, le gadodo ƒe kpɔɖeŋu si woɖo ɖe NU6.1 by [ZIP 1016 ƒe xexlẽdzesi](https://zips.z.cash/zip-1016). Tɔsisi la dze egɔme esime do ŋgɔ [ZIP 1015 ƒe xexlẽdzesi](https://zips.z.cash/zip-1015) stream wu enu, eye wòzɔna vaseɖe Zcash's afã etɔ̃lia le block 4,406,400 le block dometsotso si li fifia te. ZCG zãa ga siawo tsɔ doa alɔ ƒuƒoƒo siwo le wo ɖokui si le Zcash lãwo ƒe agbenɔnɔ ƒe ɖoɖo bliboa me.
 
 ## Nunɔamesiwo
 
@@ -47,7 +47,7 @@ Electric Coin Company xɔa 8% le [Zcash ŋgɔyiyi ga la me](https://zips.z.cash/
     src="https://www.youtube.com/embed/ItEwc1lzvzc"
     title="How to Submit a Grant Application via ZCG"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    ɖe mɔ ɖeFullScreen ŋu
+    allowFullScreen
     loading="lazy"
   />
 </div>
@@ -64,20 +64,20 @@ Wɔ aɖaŋuɖoɖo si me kɔ si me:
 ---
 
 ### Afɔɖeɖe 2: Ðoe ɖe GitHub
-1. Yi **Zcash Community Grants GitHub ƒe nudzraɖoƒe** .
-2. Ʋu **Nyawo** ƒe akpaa eye nàzi **Nya Yeye** dzi.
-3. Tia **grant application template** si sɔ.
+1. Yi **Zcash Community Grants GitHub nudzraɖoƒe**
+2. Ʋu **Nyawo** ƒe akpaa eye nàzi **Nya Yeye** dzi
+3. Tia **grant application template** si sɔ
 4. Kpe agble siwo katã hiã la ɖo eye nàtsɔe aɖo ɖa
 
-GitHub ƒe nya la nye **dɔwɔwɔ ƒe nuŋlɔɖi si dziɖuɖua ɖo**.
+GitHub nya la nye **dɔwɔwɔ ƒe nuŋlɔɖi si dziɖuɖua ɖo**.
 
 ---
 
 ### Afɔɖeɖe 3: Wɔ Nutoa me Nyamedzroƒe ƒe Nyatakaka
 1. Yi **Zcash Hamea ƒe Nyamedzroƒe**
-2. Wɔ ka yeye le **Zcash Community Grants** ƒe hatsotso me
-3. Zã tanya ma ke si zã GitHub ƒe tataa
-4. Tsɔ kpukpui kpui aɖe kpee eye nàde **kadodo si yi GitHub ƒe nyatia gbɔ** eme.
+2. Wɔ ka yeye le **Zcash Community Grants** hatsotso me
+3. Zã tanya ma ke si zã GitHub tataa
+4. Tsɔ kpukpui kpui aɖe kpee eye nàde **kadodo si yi GitHub ƒe nyatia gbɔ** eme
 
 ---
 

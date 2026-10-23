@@ -16,7 +16,7 @@
 
 राजदूतों को अपनी योजनाबद्ध गतिविधियों पर रचनात्मक स्वतंत्रता होती है, जिससे वे अपने स्थानीय संदर्भ के अनुरूप पहुँच कार्यक्रम तैयार कर सकते हैं।
 
-## [वैश्विक राजदूत वेबसाइट](https://zcashambassadors.com)
+## [वैश्विक राजदूत वेबसाइट](https://web.archive.org/web/20240413194338/https://zcashambassadors.com/)
 
 ## सक्रिय राजदूत समुदाय (2026)
 
@@ -31,7 +31,7 @@
 | पूर्वी अफ्रीका | [Zcash East Africa](https://x.com/ZcashEastAfrica) | पूर्वी अफ्रीका, युगांडा में समुदाय का विकास |
 | दक्षिण अफ्रीका | [Zcash South Africa](https://twitter.com/Zcash_SA) | दक्षिण अफ्रीका |
 | घाना | [Zcash Ghana](https://x.com/ZcashGH) | घाना |
-| मेक्सिको | [zcashqro](https://x.com/zcashqro) | विश्वविद्यालय पहुँच और डेवलपर ऑनबोर्डिंग |
+| मेक्सिको | [Zcash Mexico](https://x.com/ZcashMx) | विश्वविद्यालय पहुँच और डेवलपर ऑनबोर्डिंग |
 | रूस | [ruZcash](https://x.com/ruZCASH) | रूसी-भाषी सामग्री और समुदाय |
 | भारत | [Zcash India](https://x.com/ZcashIND) | डेवलपर शिक्षा और समुदाय का विकास |
 | कोरिया | [Zcash Korea](https://x.com/zcashkorea) | कोरियाई शैक्षिक सामग्री |
@@ -39,5 +39,5 @@
 ## राजदूत बनने के लिए आवेदन करें
 
 आप इसमें भी शामिल हो सकते हैं:
-- [ZecHub DAO](https://app.dework.xyz/zechub-2424) बाउंटियों में योगदान देकर
+- [ZEC Bounties](https://bounties.zechub.wiki/) में योगदान देकर
 - [Zcash Global Discord](https://discord.gg/zcash) से जुड़कर

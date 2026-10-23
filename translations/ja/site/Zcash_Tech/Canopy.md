@@ -12,7 +12,7 @@ Canopy は Zcash における5回目のネットワークアップグレード�
 
 これが重要な理由。Zcash には背後に企業が存在しないため、ブロック報酬から自らの開発資金を賄っています。初期の数年間の開発費を支えた創設者報酬は、最初の半減時に終了する予定でした。Canopy はその置き換えでした。各ブロック報酬の一定割合を Development Fund に振り向け、その受け取り先を定めたのです。このモデルは後続のアップグレードでさらに洗練され、[NU6.1](../zcash-tech/nu6-1) にまで引き継がれています。
 
-![Canopy 以前は創設者報酬が開発資金を賄っており、最初の半減時に終了する予定でした。Canopy 以後は Development Fund が各ブロック報酬の20パーセントを受け取り、2024年の2回目の半減まで続きます](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/canopy-founders-to-devfund.png)
+![Canopy 以前は創設者報酬が開発資金を賄っており、最初の半減時に終了する予定でした。Canopy 以後は Development Fund が各ブロック報酬の20パーセントを受け取り、2024年の2回目の半減まで続きます](/content-images/canopy-founders-to-devfund-010676e799.webp)
 
 ## 開発基金
 
@@ -30,7 +30,7 @@ Development Fund は各ブロック報酬の20パーセントを受け取りま�
 
 基金全体ではなくブロック報酬全体に対して換算すると、これらの割合は Electric Coin Company に7パーセント、Zcash Foundation に5パーセント、Major Grants に8パーセントとなります。どちらの言い方でも、数字としては同じです。
 
-![Development Fund は各ブロック報酬の20パーセントであり、その内訳は Bootstrap と Electric Coin Company に35パーセント、Zcash Foundation に25パーセント、Major Grants に40パーセントです](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/canopy-dev-fund-split.png)
+![Development Fund は各ブロック報酬の20パーセントであり、その内訳は Bootstrap と Electric Coin Company に35パーセント、Zcash Foundation に25パーセント、Major Grants に40パーセントです](/content-images/canopy-dev-fund-split-005bf6f2dd.webp)
 
 ## Sprout プールの変更
 
@@ -38,7 +38,7 @@ Canopy はまた、最も古いシールド化プールの段階的な終了も�
 
 Canopy が有効化された瞬間から、Sprout プールには新しい価値を追加できなくなりました。技術的には、すべての JoinSplit における vpub_old フィールドは 0 でなければなりません。すでに Sprout にある資金は引き出せるため、誰かが締め出されることはありませんが、この先このプールは縮小する一方になります。これは、従来の Sprout プールを最終的に新しいシールド化プールへ置き換えて廃止するための第一歩です。
 
-![Canopy 以前は価値を Sprout プールに入れることも出すこともできました。Canopy 以後は新しい価値を入れることはできませんが、引き出しは引き続き可能です](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/canopy-sprout-pool.png)
+![Canopy 以前は価値を Sprout プールに入れることも出すこともできました。Canopy 以後は新しい価値を入れることはできませんが、引き出しは引き続き可能です](/content-images/canopy-sprout-pool-f5166aa049.webp)
 
 ## 技術的な追加事項
 

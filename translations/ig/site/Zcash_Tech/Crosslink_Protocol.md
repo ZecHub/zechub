@@ -2,137 +2,152 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Usoro Nkwekọrịta Crosslink
+# Usoro Crosslink
 
 ## TL;DR
 
-* The Crosslink protocol is a proposed design for Zcash's hybrid Proof-of-Work/Proof-of-Stake (PoW/PoS) stage. It integrates PoW with a Byzantine Fault Tolerance (BFT) protocol, enabling assured finality as long as either PoW or PoS remains secure.
-* PoS ngwakọ na-ewebata ndị notari bụ ndị kwadoro ngọngọ dabere na ZEC  nke mbụ, emesịa họrọ ya dabere na zed.
-* Crosslink na-achọ inye akwụkwọ ndekọ abụọ: **akwụkwọ ndekọ emechara (LOG_fin)** maka nchekwa rollback, yana ** obere oge ledger (LO G ba) ** nke gbatịrị ya site n'ihe karịrị * L* blocks.
-* A ** Ọnọdụ Nchedo** na-arụ ọrụ ma ọ bụrụ na akwụkwọ ndekọ aha ikpeazụ ahụ dị n'azụ karịa * L* blocks: PoW gara n'ihu, mana ihe omume akụ na ụba kwụsịrị ruo mgbe edozi nsogbu a.
-* Ka oge na-aga, ndị nyocha PoS ga-enweta oke ụgwọ ọrụ nke ọma, belata ego ndị miners PoW; usoro ahụ ji nwayọọ nwayọọ ewebata mgbanwe.
-* Usoro ahụ na-emepe emepe site Shielded Labs, yana ụzọ maka ijikọta Crosslink 2 * n'ime onye ahịa Zebra nke Zcash.
+* Usoro Crosslink bụ atụmatụ a tụrụ aro maka usoro Proof-of-Work/Proof-of-Stake (PoW/PoS) Zcash's. Ọ na-ejikọta PoW na usoro Byzantine Fault Tolerance (BFT), na-eme ka njedebe dị mma ma ọ bụrụhaala na PoW ma ọ bụ PoS ka dị nchebe.
+* Ngwakọta PoS na-ewebata ndị notaries ndị na-akwado blọk dabere na ZEC nke e tinyere n'ime ya — nke mbụ na-anaghị agbanwe agbanwe, nke e mechara họrọ dabere na ZEC.
+* Crosslink na-achọ inye akwụkwọ ndekọ abụọ: akwụkwọ ndekọ ikpeazụ (LOG_fin) **maka nchekwa ịtụgharị, na akwụkwọ ndekọ obere oge (LOG_ba)** nke na-agbatị ya karịa blọk *L*.
+* Usoro **Nchekwa** na-arụ ọrụ ma ọ bụrụ na akwụkwọ ndekọ ego emechara daa n'azụ site na ihe karịrị ngọngọ *L*: PoW na-aga n'ihu, mana ọrụ akụ na ụba na-akwụsị ruo mgbe edoziri nsogbu ahụ.
+* Ka oge na-aga, ndị na-akwado PoS ga-enweta òkè na-abawanye ụba nke ụgwọ ọrụ, na-ebelata ego ndị na-egwuputa PoW; usoro a na-ewebata mgbanwe nwayọọ nwayọọ.
+* Ụlọ Shielded Labs, ya na ụzọ e si eji Crosslink 2* eme ihe n'ime onye ahịa Zebra Zcash's.
+* Crosslink anaghị arụ ọrụ na Zcash mainnet. Ọ na-agba ọsọ na Shielded Labs' Feature Net, netwọk nnwale onye ọ bụla nwere ike isonye. Lee "Ebe Crosslink dị" n'okpuru.
 
-## Nkọwa nke isi ihe dị na ya.
+## Nkọwa Isi
 
-### Okwu Mmalite: Zcash Hybrid PoS na Crosslink Protocol
+### Okwu Mmalite: Zcash Hybrid PoS na Usoro Njikọ Crosslink
 
-The Crosslink Protocol is a landmark development in Zcash evolution, steering it towards a **Hybrid Proof-of-Stake (PoS)** and **Proof-of-Work (PoW)** model. Traditional PoW, while reliable for ensuring network security, faces criticism for energy consumption and centralization risks associated with industrial mining. Crosslink introduces a hybrid system, merging the proven robustness of PoW with the efficiency and governance advantages of PoS.
+Usoro Crosslink bụ mmepe dị mkpa na mgbanwe Zcash, na-eduzi ya gaa na ụdị **Akwado Ngwakọta (PoS)** na **Akwado Ọrụ (PoW)**. PoW ọdịnala, ọ bụ ezie na a pụrụ ịtụkwasị ya obi maka nchekwa netwọk, na-eche nkatọ maka oriri ike na ihe egwu etiti metụtara igwu ala ụlọ ọrụ mmepụta ihe. Crosslink na-ewebata usoro ngwakọ, na-ejikọta ike PoW a gosipụtara na arụmọrụ na uru ọchịchị nke PoS.
 
 ![image](/content-images/a2ffb19d-e570-4723-b669-a66e14fc6b71-a727c958de.webp)
 
-This transition aligns with global trends in blockchain innovation, where projects are shifting to environmentally sustainable and decentralized mechanisms. Crosslinks' dual consensus model ensures Zcash maintains its strong cryptographic privacy guarantees while evolving to meet contemporary challenges.
+Mgbanwe a dabara na usoro ụwa niile na mmepụta ihe blockchain, ebe ọrụ na-agbanwe gaa na usoro ndị ga-adigide gburugburu ebe obibi na nke na-agbasaghị ekewa. Ụdị nkwekọrịta abụọ nke Crosslinks na-eme ka Zcash na-ejigide nkwa nzuzo nzuzo siri ike ya ebe ọ na-agbanwe iji merie ihe ịma aka nke oge a.
 
-Usoro ihe ngosi nke ngwakọ (PoS) jikọtara ngosipụta ọrụ ọdịnala na PoS, iji dozie nsogbu dịka mwakpo 51% ma debe decentralization ma belata oriri ike. Hybrid PoS ewebata notaries ndị kwadoro ngọngọ dabere na ZEC ejikọrọ ọnụ. Ezubere usoro a iji melite nchekwa agbụ yana nyocha nkwenye, na-enye ụzọ ọzọ siri ike karịa sistemụ PoW dị ọcha.
+Usoro Proof-of-Stake (PoS) jikọtara Proof-of-Work (PoW) ọdịnala na PoS, na-achọ idozi adịghị ike dịka mwakpo 51% ebe a na-ejigide ikewapụ na ibelata oriri ike. Hybrid PoS na-ewebata ndị notaries na-akwado blọk dabere na ZEC. Emebere usoro a iji melite nchekwa agbụ na nkwenye nlele, na-enye nhọrọ siri ike karịa na sistemụ PoW dị ọcha.
 
-### Gịnị mere ngwakọ PoS/PoW ji bụrụ ule mbụ?
+### Gịnị kpatara PoS/PoW Ngwakọta ji bụrụ ule mbụ?
 
-* Ọ na-eme ọganihu n'ebe dị ọcha PoS.
-* Ọ na-eme ka o kwe omume igwu egwu n'otu oge ma jiri ihe eji eme ihe na usoro okike.
-* Ọ na-ebelata nsogbu nchekwa nwere ike inwe ya na usoro PoS ruo mgbe ọ ga - enwe nnukwu ihe nkwenye na ntụkwasị obi.
-* E gosipụtara usoro izugbe site na Ethereum in Production.
+* Ọ na-aga n'ihu na PoS dị ọcha.
+* Ọ na-eme ka e nwee ike igwu ala n'otu oge na iji ihe eji eme ihe na gburugburu ebe obibi.
+* Ọ na-ebelata nsogbu nchekwa nwere ike inwe site na usoro PoS ruo mgbe o nwere oke ntụkwasị obi na nkwenye dị elu.
+* Ethereum egosila ụzọ izugbe a na-esi eme ya na Mmepụta.
 
-### Ihe Crosslink bụ
+### Gịnị bụ Crosslink
 
-The Crosslink protocol is a proposed design for Zcash's hybrid Proof-of-Work/Proof-of-Stake (PoW/PoS) stage. It integrates PoW with a Byzantine Fault Tolerance (BFT) protocol, enabling assured finality as long as either PoW or PoS remains secure. The design aims to strengthen network security and decentralization by incorporating staked validation while maintaining miner participation. A key feature of the proposal, called Crosslink 2, simplifies the architecture by unifying BFT proposers and miners. This streamlined approach minimizes structural changes and allows the use of a "dummy" BFT layer, making it easier to prototype and deploy while maintaining high-security standards.
+Usoro Crosslink bụ atụmatụ a tụrụ aro maka usoro Proof-of-Work/Proof-of-Stake (PoW/PoS) Zcash's. Ọ na-ejikọta PoW na usoro Byzantine Fault Tolerance (BFT), na-eme ka njedebe dị mma ma ọ bụrụhaala na PoW ma ọ bụ PoS ka dị nchebe. Ebumnuche imewe a bụ ime ka nchekwa netwọk na nkewa sie ike site na itinye nkwenye staked ebe ọ na-ejigide isonye na ndị na-egwuputa ihe. Isi ihe dị na atụmatụ a, nke a na-akpọ Crosslink 2, na-eme ka usoro nhazi ahụ dị mfe site n'ịjikọta ndị na-atụ aro BFT na ndị na-egwuputa ihe. Usoro a dị mfe na-ebelata mgbanwe nhazi ma na-enye ohere iji oyi akwa BFT "dummy", na-eme ka ọ dịrị mfe ịmepụta ma tinye ya ebe ọ na-ejigide ụkpụrụ nchekwa dị elu.
 
-The implementation plan includes a roadmap with estimated engineering costs for integrating Crosslink 2* into Zcash's Zebra client. This phased deployment focuses on balancing stakeholder incentives, reducing disruption, and aligning with Zcash goals for scalability, usability, and decentralization. Growing confidence in the protocol's robust security properties further solidifies its potential as a key step in Zcash evolution. By addressing energy efficiency and enhancing consensus mechanisms, Crosslink offers a forward-looking solution to evolving blockchain challenges. For more details, refer to the [Ebe nchekwa GitHub](https://github.com/ShieldedLabs/crosslink-deployment) na ndị ọzọ. [Nzukọ Obodo Zcash Forum](https://forum.zcashcommunity.com).
+Atụmatụ mmejuputa a gụnyere ụzọ nhazi nke nwere atụmatụ ọnụ ahịa injinia maka itinye Crosslink 2* n'ime onye ahịa Zebra Zcash's. Ntinye a na-aga n'ihu na-elekwasị anya n'ịhazi mkpali ndị nwere mmasị, ibelata nsogbu, na ịhazi ihe mgbaru ọsọ Zcash maka nhazi, ojiji, na enweghị ike. Inwekwu obi ike na ihe nchekwa siri ike nke usoro a na-eme ka ikike ya sie ike dị ka nzọụkwụ dị mkpa na mgbanwe Zcash. Site n'ịgwọta arụmọrụ ike na ime ka usoro nkwekọrịta dịkwuo mma, Crosslink na-enye ngwọta na-atụ anya n'ihu maka nsogbu blockchain na-agbanwe agbanwe. Maka nkọwa ndị ọzọ, lee anya na [Ebe nchekwa GitHub](https://github.com/ShieldedLabs/zebra-crosslink) na [Ọgbakọ Obodo Zcash](https://forum.zcashcommunity.com).
 
-### Nzube na Ihe Mgbaru Ọsọ nke Crosslink
+### Ebumnuche na Ebumnuche nke Crosslink
 
-Ejiri Usoro Crosslink mee ihe iji dozie ọtụtụ ebumnuche dị mkpa maka ọdịnihu nke Zcash:
+Emebere Usoro Crosslink iji lebara anya n'ọtụtụ ihe mgbaru ọsọ dị mkpa maka ọdịnihu Zcash:
 
-1. **Decentralization**: Ọ bụ ihe dị mkpa.
-   * By incorporating PoS, Zcash reduces reliance on specialized PoW hardware (ASICs), which often concentrates mining power among a few large operators.
-   * PoS na-enye ohere maka isonye site n'aka obodo sara mbara, ebe ndị nwere mkpụrụ ego tinyere akụ ha iji chekwaa netwọkụ ahụ, hụ na nkwekọrịta kesara.
-   * Site na iwebata nkwenye nke ndị nwere mmasị, usoro ahụ ga-eme ka ndị ọrụ akụnụba rụọ ọrụ dị mkpa n'ime nkwekọrịta, belata ịdabere naanị na Ngwuputa.
-2. **Ọchịchị a na-achịkwa nke ọma**:
-   * Coinholders gain voting rights through staking, enabling them to influence decisions about network upgrades, funding allocations, and ecosystem priorities. This democratic mechanism aligns the protocol's evolution with community interests.
-3. ** Ike arụmọrụ**:
-   * Transitioning partially to PoS significantly lowers energy demands, aligning Zcash with global sustainability initiatives. PoS is inherently less resource-intensive compared to the computationally heavy PoW. Hybrid systems aim to lower energy use compared to PoW-only systems while maintaining high security.
-4. **Nchebe na Nkwado Ego**:
-   * Ijikọta PoW na PoS dị iche iche ihe mkpali akụnụba maka ndị sonyere netwọkụ, na-ekwe nkwa nchekwa siri ike n'enweghị ịdabere gabiga ókè na otu usoro.
-   * Staking na-ewebata usoro ụgwọ ọrụ a pụrụ ịkọwapụta maka ndị sonyere, na -emepụta atụmatụ mara mma maka ndị ọchụnta ego ogologo oge.
-5. **Enwekwu Nchedo**: Crosslink na-achọ ime ka ike nke netwọk megide mwakpo mgbagha agbụ site n'ịmekọrịta PoS tinyere PoW.
+1. **Nhazi nkewa**:
+   * Site na itinye PoS, Zcash na-ebelata ntụkwasị obi na ngwaike PoW pụrụ iche (ASICs), nke na-etinye ike igwu ala n'etiti ndị ọrụ ole na ole buru ibu.
+   * PoS na-enye ohere isonye site na obodo sara mbara, ebe ndị ji ego na-etinye ihe onwunwe ha iji chekwaa netwọk ahụ, na-ahụ na nkwekọrịta kesara nke ọma.
+   * Site n'iwebata nkwenye nke a na-etinye n'ọrụ, usoro a na-ahụ na ndị sonyere n'ihe gbasara akụ na ụba na-ekere òkè dị mkpa n'ihe gbasara nkwekọrịta, na-ebelata ntụkwasị obi na igwu ala naanị.
+2. **Ọchịchị Kachasị Mma**:
+   * Ndị ji ego na-enweta ikike ntuli aka site na itinye ego, nke na-eme ka ha nwee ike imetụta mkpebi gbasara mmelite netwọk, nkesa ego, na ihe ndị kacha mkpa na gburugburu ebe obibi. Usoro ọchịchị onye kwuo uche ya a na-ejikọta mgbanwe nke usoro ahụ na ọdịmma obodo.
+3. **Arụmọrụ Ike**:
+   * Ịgbanwe akụkụ ụfọdụ gaa na PoS na-ebelata mkpa ike nke ukwuu, na-eme ka Zcash na atụmatụ nkwado zuru ụwa ọnụ dịgide. PoS anaghị eji akụrụngwa eme ihe nke ukwuu ma e jiri ya tụnyere PoW dị arọ nke kọmputa. Sistemụ ngwakọ na-achọ ibelata ojiji ike ma e jiri ya tụnyere sistemụ PoW naanị ma na-echekwa nchekwa dị elu.
+4. **Nchekwa Akụ na Ụba na Ịdịgide**:
+   * Ijikọta PoW na PoS na-eme ka ihe mkpali akụ na ụba dị iche iche maka ndị sonyere na netwọk dị iche iche, na-ahụ na nchekwa siri ike na-enweghị ịdabere na otu usoro.
+   * Staking na-ewebatakwa ihe nlereanya a na-atụ anya ya maka ndị sonyere, na-emepụta atụmatụ mara mma maka ndị na-etinye ego ogologo oge.
+5. **Mmụba Nchekwa**: Crosslink na-achọ ime ka netwọk ahụ sie ike megide mwakpo nhazigharị agbụ site na ijikọta PoS na PoW.
 
-## Ihe Anya / Ntụle
+## Anya / Ihe atụ
 
 ![image](/content-images/b34afda4-fe33-448f-b0dd-279fd6cef1f5-73f58cdcc6.webp)
 
-Cheedị banyere ọrụ ngwugwu nke na-ewepụta akwụkwọ abụọ dị iche maka otu nnyefe. Nke mbụ bụ nyocha nsuso: ọ pụtara ngwa ngwa, gwa gị ebe ikekwe ngwungwu ahụ nọ, ma a ga -agbazi ya mgbe ụfọdụ. Nke abụọ bụ nnata nnabata e debere aka n'akwụkwọ: ọ bịarutere ka oge gasịrị, mana ozugbo o mere onye ọbụla anaghị arụ ụka ya. Ọ bụrụ na ị nwere ike ịchọta ihe ndị ọzọ gbasara ozi ịntanetị, ha kwesịrị ịbụ ezigbo nchọpụta iji chọpụta eziokwu niile metụtara usoro azụmahịa gị.
+Chee echiche banyere ọrụ ngwugwu nke na-enye akwụkwọ abụọ dị iche iche maka otu nnyefe ahụ. Nke mbụ bụ nyocha nsuso: ọ na-apụta ngwa ngwa, na-agwa gị ebe ngwugwu ahụ nwere ike ịdị, a na-emezikwa ya mgbe ụfọdụ. Nke abụọ bụ akwụkwọ nnata nnyefe e tinyere aka na ya: ọ na-abịa ma emechaa, mana ozugbo ọ dị, ọ dịghị onye na-agbagha ya.
 
-The lower-latency ledger is the tracking scan, and the finalized ledger is the signed receipt. Both describe the same chain of events; they differ in how quickly they appear and how firmly they hold.
+Akwụkwọ ndekọ nke na-adịghị ala ala bụ nyocha nsochi, akwụkwọ ndekọ ikpeazụ bụkwa akwụkwọ nnata e bịanyere aka na ya. Ha abụọ na-akọwa otu usoro ihe omume; ha dị iche n'otú ha si apụta ngwa ngwa na otú ha si ejidesi ike.
 
-Safety Mode is what the depot does when signed receipts stop arriving while scans keep piling up. Parcels still move through the building — but the office stops paying out against scans alone until the signatures catch up.
+Ụdị Nchekwa bụ ihe ebe nchekwa ahụ na-eme mgbe akwụkwọ nnata mbinye aka kwụsịrị ịbịa ebe nyocha na-aga n'ihu. Ngwugwu ka na-agafe n'ụlọ ahụ — mana ụlọ ọrụ ahụ na-akwụsị ịkwụ ụgwọ maka nyocha naanị ruo mgbe mbinye aka ahụ ga-erute.
 
-## Ịbanye n'Okpuru Mmiri Dị Omimi
+## Mmiri miri emi
 
-### Nchebe na arụmọrụ nke Crosslink
+### Ebumnuche Nchekwa na Arụmọrụ nke Crosslink
 
-Usoro Crosslink na-achọ inye ụdị akwụkwọ ndekọ abụọ maka Zcash: **akwụkwọ njedebe (LOG_fin) ** yana ** obere oge ledger (LO G ba).** Akwụkwọ ahụ emechara kwadoro nchekwa rollback n'okpuru ezi uche dị mma banyere ma ọ bụ Byzantine Fault Tolerance (BFT) ma ọ bụkwanụ blockchain (BC) protocol. Ezubere ya ka ọ dịrị ndụ ma nwee nchebe ọbụna n'ime akụkụ netwọk, nwere nkwụsịtụ ihe karịrị okpukpu abụọ nke ugbu a Zcash block chain maka nkwenye ngọngọ ndị yiri ya.
+Usoro Crosslink na-achọ inye ụdị akwụkwọ ndekọ abụọ maka Zcash: akwụkwọ ndekọ ikpeazụ (LOG_fin) **na akwụkwọ ndekọ obere oge (LOG_ba)**. Akwụkwọ ndekọ ikpeazụ na-ahụ na nchekwa nlọghachi azụ n'okpuru echiche ezi uche dị na ya gbasara usoro Byzantine Fault Tolerance (BFT) ma ọ bụ usoro blockchain (BC). Emebere ya ka ọ dịrị ndụ ma nwee nchekwa ọbụlagodi n'okpuru nkebi netwọk, yana latency ntakịrị karịa okpukpu abụọ nke blockchain Zcash dị ugbu a maka nkwenye ngọngọ nhata.
 
-The lower-latency ledger extends the finalized ledger by no more than *L* blocks. It ensures rollback safety under the blockchain protocol alone and maintains latency and security no worse than the existing Zcash model. In the streamlined Crosslink 2* design, the lower latency ledger simplifies development and adoption by functioning as a PoW chain.
+Akwụkwọ ndekọta nke dị ala na-agbatị akwụkwọ ndekọta emechara site na ihe karịrị *L* blọk. Ọ na-ahụ na nchekwa rollback n'okpuru usoro blockchain naanị ya ma na-echekwa latency na nchekwa adịghị njọ karịa ụdị Zcash dị ugbu a. Na nhazi Crosslink 2* a haziri nke ọma, akwụkwọ ndekọta nke dị ala na-eme ka mmepe na nnabata dị mfe site na ịrụ ọrụ dị ka agbụ PoW.
 
 ![image](/content-images/fd039664-4852-4fb0-8c88-0615f1ed116e-41459b81dc.webp)
 
-### Ọnọdụ nchekwa na nnweta nwere oke.
+### Ọdịdị Nnweta na Ọnọdụ Nchekwa A Na-enwere Oke
 
-Crosslink incorporates a **Safety Mode** to address risks associated with the lower-latency ledger running far ahead of the finalized ledger. This prevents discrepancies, such as imbalanced account states or unverified security gaps in temporary solutions by service providers. Safety Mode is activated if the finalized ledger falls behind by more than a constant *L* blocks. During this state, the blockchain continues PoW operations (ensuring basic security), but economic activities are paused until the issue is resolved. This mechanism is designed to recover from exceptional conditions like major attacks while supporting governance-based rollback policies.
+Crosslink gụnyere **Ụdị Nchekwa** iji dozie ihe egwu ndị metụtara akwụkwọ ndekọ ego dị ala nke na-aga n'ihu akwụkwọ ndekọ ego emechara. Nke a na-egbochi nghọtahie, dị ka ọnọdụ akaụntụ na-enweghị nhazi ma ọ bụ oghere nchekwa a na-anaghị enyocha na ngwọta nwa oge site n'aka ndị na-enye ọrụ. A na-arụ ọrụ Ọnọdụ Nchekwa ma ọ bụrụ na akwụkwọ ndekọ ego emechara daa n'azụ site na ihe karịrị ngọngọ *L* na-adịgide adịgide. N'oge a, blockchain na-aga n'ihu na-arụ ọrụ PoW (na-ahụ maka nchekwa bụ isi), mana a na-akwụsị ọrụ akụ na ụba ruo mgbe edoziri nsogbu ahụ. Emebere usoro a iji gbakee site na ọnọdụ pụrụ iche dị ka mwakpo dị ukwuu ebe ọ na-akwado amụma mweghachi dabere na ọchịchị.
 
-### Nkọwapụta na Nkesa nke Ngwaọrụ a.
+### Nkọwa teknụzụ na ntinye
 
-Usoro Crosslink na-arụsi ọrụ ike ma tinye ya site n'aka Shielded Labs na mmekorita ya na ndị mmekọ gburugburu ebe obibi dị ka Zodl. Mmejuputa iwu nke usoro a gụnyere:
+Ụlọ Shielded Labs na-emepụta ma na-etinye usoro Crosslink Protocol n'ọrụ ya na ndị mmekọ gburugburu ebe obibi dị mkpa dịka ZODL. Mmejuputa usoro a gụnyere:
 
-* Ịmepụta usoro nchekwa maka ndị na-esonye PoS.
-* Ịgbanwe usoro ụgwọ ọrụ iji mee ka ihe mgbakwunye dị n'etiti ndị na-egwupụta akụnụba na ndị nwere mmasị.
-* Ịhụ na azụ ndakọrịta na a enweghị nkebi ọrụ ahụmahụ n'oge mgbanwe.
-* Notary System: The protocol incorporates notaries who sign off on blocks. Initially, static notaries are used, transitioning to a dynamic system where notaries are elected based on staked ZEC.
-* Logic nke ọrụ: Mwepụta Crosslink chọrọ mgbanwe na iwu nkwekọrịta Zcash, gụnyere ịkọwa usoro nkesa stake ma melite ụkpụrụ protocol netwọk iji kwado nkwado ngwakọ.
-* Ntinye nke usoro: Usoro a ga-agbasa na ọkwa iji hụ nkwụsi ike netwọkụ yana mmegharị obodo. Oge mbụ lekwasịrị anya na mmejuputa teknụzụ, sochiri ijikọ ọchịchị maka ịhọrọ ndị notari.
+* Ịmepụta usoro nchekwa maka ndị sonyere na PoS.
+* Ịgbanwe usoro ụgwọ ọrụ iji mee ka ihe mkpali dịrị n'etiti ndị na-egwuputa ihe na ndị na-etinye ego.
+* Iji hụ na enwere ike ijikọ azụ na ahụmịhe onye ọrụ n'oge mgbanwe ahụ.
+* Sistemụ Ndekọ: Usoro a gụnyere ndị notaries ndị bịanyere aka na blọk. Na mbụ, a na-eji ndị notaries static eme ihe, na-agbanwe gaa na sistemụ dynamic ebe a na-ahọpụta ndị notaries dabere na ZEC.
+* Usoro Mmegharị: Mwebata nke Crosslink chọrọ mgbanwe na iwu nkwekọrịta Zcash, gụnyere ịkọwapụta usoro nkesa òkè na imelite iwu usoro netwọk iji kwado nkwekọrịta ngwakọ.
+* Ntinye Usoro n'usoro: Usoro a ga-amalite n'usoro iji hụ na netwọk kwụsiri ike ma mee ka obodo kwekọọ. Usoro mbụ na-elekwasị anya na mmejuputa teknụzụ, wee soro njikọta ọchịchị maka ịhọrọ ndị na-ede akwụkwọ.
 
-Ị nwere ike ịchọpụta nkọwa ndị dị na ya ma soro ọganihu ya site n'aka onye ọrụ. [Ebe nchekwa ntinye Crosslink na GitHub](https://github.com/ShieldedLabs/crosslink-deployment).
+Ihe atụ mbụ na akwụkwọ ya dị na [ebe nchekwa zebra-crosslink dị na GitHub](https://github.com/ShieldedLabs/zebra-crosslink) na [Akwụkwọ njikọ zebra](https://shieldedlabs.github.io/zebra-crosslink/)A kọwara ọrụ dị ugbu a na ngalaba na-esote.
 
-## Ihe Ndị A Pụrụ Ime n'Ọrụ Ahụ
+### Ebe Crosslink dị
 
-### Mmetụta na PoW Miners 'Enweta
+Crosslink ka bụ atụmatụ. Ụlọ nyocha Shielded Labs' [Ajụjụ Ndị Crosslink](https://shieldedlabs.net/crosslink-faq/) na-ekwu na ọ "ga-achọ ịgafe usoro nchịkwa Zcash nkịtị" tupu ọ rụọ ọrụ na mainnet.
 
-Crosslink na-ekweta ọrụ ntọala nke ndị PoW miners na mmepe Zcash n'oge ọ na - akwadebe maka mgbanwe nwayọ:
+Ihe dị taa bụ **Feature Net**: netwọk nnwale nke Shielded Labs, nke nwere mkpụrụ ego nnwale nke ya, cTAZ, ebe onye ọ bụla nwere ike igwu ala, tinye aka na ya ma gbaa ihe mmechi. [Ụdị nke 14](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v14), ewepụtara na 1 Ọktoba 2026, malitere dị ka ihe akaebe doro anya nke ọrụ ma gbanwee Crosslink n'ọkwa dị iche iche: staking site na block 20,736, ndepụta mbụ nke ndị ikpeazụ ewepụtara na block 34,560, na njedebe BFT site na block 36,288 ([isi mmalite](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/librustzcash/zcash_primitives/src/bft.rs#L546-L555)).
 
-* **Mbelata ụgwọ ọrụ nchịkọta**:
-  * Ka oge na-aga, ndị nyocha PoS ga-enweta oke ụgwọ ọrụ nke ukwuu, belata ego ha nwetara. Nhazi a gosipụtara ọnọdụ dị ala nke PoW n'ụdị ngwakọ ahụ.
-* **Ngalaba n'ụzọ ziri ezi**:
-  * Usoro ahụ na-ewebata mgbanwe nke nta nke nta, iji hụ na ndị ọrụ mọnk nwere oge zuru oke iji gbanwee ma ọ bụ nyochaa ọrụ ọhụrụ n'ime usoro okike Zcash, dịka ịkwaga staking ma ọ̄ bụ inye aka na ọrụ netwọkụ ọzọ.
-* **Ibelata ihe ize ndụ nke ịhazi ebe**:
-  * PoS staking ọdọ mmiri na-e mere iji gbochie ịta nke ike, àjà nta Player a ohere isonye on n'uru. Nke a gụnyere obibia counteracts ugbu a ịta hụrụ ASIC dabeere Ngwuputa.
-* PoW miners will experience reduced revenue as part of the block reward is reallocated to PoS validators. This reallocation ensures a balanced incentive system, rewarding both miners and stakers for securing the network.
-* A na-eme atụmatụ mgbanwe nke nta nke nta iji belata mmetụta akụnụba ndị ọrụ mọnk nwere ma kwalite itinye aka n'ihe metụtara.
+Ihe abụọ dị na peeji a agbanweela kemgbe e dere ya:
 
-Usoro nkwekọrịta abụọ a na-eme ka nkwa Zcash dịkwuo ike maka nzuzo, nkwado, yana mwepụ nke isi, tinye ya dịka onye ndu n'ihu na oghere blockchain.
+* **Ọrụ a na-akpọ notary ebe a ka a na-akpọ finalizer** na ngwanrọ na ndetu ntọhapụ Shielded Labs'. Stakers na-enyefe mkpụrụ ego n'aka onye ikpeazụ, ebe ndị ikpeazụ nwere votu kachasị na ndị sonyere iji mechie blọk.
+* **Koodu a agbanweela.** Emelitere ebe nchekwa zebra-crosslink dị n'elu ikpeazụ na Eprel 2026. Mwepụta Feature Net sitere na [crosslink_monolith](https://github.com/ShieldedLabs/crosslink_monolith/releases), a na-edekwa imewe ahụ n'ime [Akwụkwọ Crosslink](https://shieldedlabs.github.io/crosslink_book/).
 
-## Ihe Ndị A Na-emekarịhie Emeghị
+Iji nwalee ya n'onwe gị, soro ya [Feature Net Crosslink](/guides/crosslink-feature-net) ntuziaka. Iji lelee netwọk ahụ na-agba ọsọ ọ bụla, mepee taabụ Crosslink na [Ngwaọrụ ZecHub](https://zechub.wiki/tools?tool=crosslink).
 
-** Ịgụ Crosslink dị ka iwu nkwekọrịta na-arụ ọrụ. Peeji a kọwara atụmatụ e mere maka ya nke nwere usoro mmejuputa nhazi. Iwebata ya chọrọ mgbanwe n'iwu Zcash, bụ ihe ụzọ ahụ na Zebra Integration Work ga - eme.
+## Mmetụta Bara Uru
 
-**Assuming PoS replaces mining**. Crosslink is a hybrid design: PoW block production continues alongside staked validation. Even in Safety Mode, the blockchain continues PoW operations while economic activities are paused.
+### Mmetụta na Ego Ndị Na-egwupụta PoW
 
-**Treating "finality" as faster confirmation**. The finalized ledger is designed for a latency slightly more than double that of the current Zcash blockchain for equivalent block confirmations. What it adds is rollback safety, not speed — the lower-latency ledger is the fast view.
+Crosslink kwetara na ọrụ ndị na-egwuputa PoW na-arụ na mmepe mbụ Zcash ka ha na-akwado maka mgbanwe nwayọ nwayọ:
 
-** Na-agbagha akwụkwọ ndekọ abụọ ahụ. LOG_ba abụghị agbụ dị iche: ọ na - eme ka akwụkwọ edere edepụtara site n'ihe karịrị * L * blocks, yana na Crosslink 2* imewe ya dịka eriri PoW .
+* **Ebelatala ụgwọ ọrụ ngọngọ**:
+  * Ka oge na-aga, ndị na-akwado PoS ga-enweta òkè na-abawanye ụba nke ụgwọ ọrụ, na-ebelata ego ndị na-egwuputa PoW. Nkesagharị a na-egosipụta ọrụ PoW na-ebelata na ụdị ngwakọ.
+* **Mgbanwe Ziri Ezi**:
+  * Usoro a na-ewebata mgbanwe nwayọọ nwayọọ, na-eme ka ndị na-egwuputa ihe nwee oge zuru oke iji gbanwee ma ọ bụ nyochaa ọrụ ọhụrụ n'ime usoro Zcash, dịka ịgbanwe gaa na staking ma ọ bụ itinye aka na ọrụ netwọk ndị ọzọ.
+* **Ibelata Ihe Ize Ndụ nke Nhazi Obodo**:
+  * E mere ọdọ mmiri PoS iji gbochie mkpokọta ike, na-enye obere ndị egwuregwu ohere isonye n'otu ọnọdụ. Ụzọ a gụnyere ihe niile na-emegide mkpokọta ugbu a a na-ahụ na igwu ala dabere na ASIC.
+* Ndị na-egwuputa PoW ga-enweta mbelata ego site na mgbanwe akụkụ nke ụgwọ ọrụ blọk ahụ nye ndị na-akwado PoS. Nhazi ebe a na-eme ka usoro mkpali guzozie, na-akwụghachi ma ndị na-egwuputa na ndị nwere mmasị ụgwọ maka nchekwa netwọk ahụ.
+* A na-eme atụmatụ mgbanwe nwayọ nwayọ iji belata mmetụta akụ na ụba na ndị na-egwupụta ihe ubi ma kwalite itinye aka na ndị nwere mmasị.
+
+Usoro nkwekọrịta abụọ a na-eme ka nkwa Zcash's maka nzuzo, nkwado, na mgbasa ozi sie ike, na-etinye ya dị ka onye ndu na-ele anya n'ihu na oghere blockchain.
+
+## Mmejọ Ndị A Na-emekarị
+
+**Ịgụ Crosslink dị ka iwu nkwekọrịta na-arụ ọrụ**. Peeji a na-akọwa atụmatụ atụmatụ nwere atụmatụ ntinye nke usoro. Iwebata ya chọrọ mgbanwe na iwu nkwekọrịta Zcash, nke bụ ihe map na ọrụ njikọta Zebra bụ maka ya.
+
+**Na-eche na PoS ga-anọchi ọrụ nke igwu ala**. Crosslink bụ nhazi ngwakọ: Mmepụta ngọngọ PoW na-aga n'ihu n'akụkụ nkwenye staked. Ọbụna na ọnọdụ nchekwa, blockchain na-aga n'ihu na ọrụ PoW ebe a na-akwụsị ọrụ akụ na ụba.
+
+**Na-emeso "nkwenye ikpeazụ" dị ka nkwenye ngwa ngwa**. Emebere akwụkwọ ndekọ emechara maka latency karịa okpukpu abụọ nke Zcash blockchain dị ugbu a maka nkwenye ngọngọ nhata. Ihe ọ na-agbakwụnye bụ nchekwa rollback, ọ bụghị ọsọ - akwụkwọ ndekọ ndekọ dị ala bụ echiche ngwa ngwa.
+
+**Na-agbagwoju anya akwụkwọ ndekọ abụọ ahụ**. LOG_ba abụghị agbụ dị iche: ọ na-agbatị akwụkwọ ndekọ ikpeazụ site na ihe karịrị blọk *L*, na nhazi Crosslink 2* ọ na-arụ ọrụ dị ka agbụ PoW.
 
 ## Peeji ndị metụtara ya
 
-- [Zebra Full Node (Nọmba zuru ezu)](/zcash-tech/zebra-full-node)  onye ahịa Crosslink 2 * a na-eme atụmatụ ijikọta.
-- [Nọmba zuru ezu](/zcash-tech/full-nodes)  etu ọnụ si akwado iwu nkwekọrịta taa, tupu mgbanwe ọ bụla nke ngwakọ.
-- [Nwelite netwọkụ](/start-here/network-upgrades)  etu mgbanwe iwu nkwekọrịta si erute netwọkụ Zcash.
-- [Zcash Monetary Policy Ụgwọ ego nke ụlọ akụ na-akwụ ụgwọ.](/start-here/zcash-monetary-policy)  ihe nkwụghachi ụgwọ nke ngọngọ Crosslink ga-ekesa.
+- [Feature Net Crosslink](/guides/crosslink-feature-net) — wụnye ngwa desktọpụ Feature Net, tinye ya na ihe mmechi wee lelee ọnọdụ gị.
+- [Zebra zuru oke](/zcash-tech/zebra-full-node) — a na-eme atụmatụ itinye onye ahịa Crosslink 2* n'ime ya.
+- [Ọnụ zuru ezu](/zcash-tech/full-nodes) — otu n'ime otu n'ime ndị a si akwado iwu nkwekọrịta taa, tupu mgbanwe nkwekọrịta ọ bụla.
+- [Nkwalite netwọkụ](/start-here/network-upgrades) — otu mgbanwe iwu nkwekọrịta si erute netwọk Zcash.
+- [Amụma Ego Zcash](/start-here/zcash-monetary-policy) — usoro ụgwọ ọrụ ngọngọ nke Crosslink ga-ekesa ọzọ.
 
-## Ihe Ndị Ọzọ E Nwere Ike Iji Nyere Anyị Aka
+## Akụrụngwa Ndị Ọzọ
 
-- Ihe ndị obodo na-achọpụta: [Nzukọ Zcash Community Forum - Mkparịta ụka Crosslink](https://forum.zcashcommunity.com)
-- Akụkọ ndị ọhụrụ: [Ụlọọrụ Electric Coin Company Blog](https://electriccoin.co)
-- Nkwado nkwado: [Ihe mere PoS ngwakọ ji dị mkpa maka Zcash](https://forum.zcashcommunity.com)
+- Mkparịta ụka obodo: [Crosslink: Feature Net, na Zcash Community Forum](https://forum.zcashcommunity.com/t/crosslink-incentivized-feature-net/55210)
+- Mmelite gọọmentị: [Crosslink na Shielded Labs](https://shieldedlabs.net/crosslink/) na [Mwepụta Feature Net](https://github.com/ShieldedLabs/crosslink_monolith/releases)
+- Ntuziaka imewe: [Akwụkwọ Crosslink](https://shieldedlabs.github.io/crosslink_book/)
 
-  Ebe e si nweta ya:
+  Ntụaka:
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
      <iframe
@@ -140,7 +155,7 @@ Usoro nkwekọrịta abụọ a na-eme ka nkwa Zcash dịkwuo ike maka nzuzo, nk
        src="https://www.youtube.com/embed/O4wQi_i7k0I"
        title="Crosslink"
        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-       kweeFullScreen
+       allowFullScreen
        loading="lazy"
      />
 </div>

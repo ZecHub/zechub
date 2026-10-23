@@ -19,7 +19,7 @@ Zcon0 ni ìpàdé ọdọọdún wa àkọ́kọ́, ó sì lọ dáadáa gan-an.
     src="https://www.youtube.com/embed/videoseries?si=LSWQXFdGUkKVg4EQ&amp;list=PL40dyJ0UYTLK507afWUMgzUYeh-i4qQWS"
     title="Zcon0 Playlist"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    jẹ́ kíFullScreen
+    allowFullScreen
     loading="lazy"
   />
 </div>
@@ -37,7 +37,7 @@ Zcon0 ni ìpàdé ọdọọdún wa àkọ́kọ́, ó sì lọ dáadáa gan-an.
     src="https://www.youtube.com/embed/videoseries?si=9OVMGx-9GW_0ADw6&amp;list=PL40dyJ0UYTLLjPZaKjdhMoCNanb77_Ztj"
     title="Zcon1 Playlist"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    jẹ́ kíFullScreen
+    allowFullScreen
     loading="lazy"
   />
 </div>
@@ -55,7 +55,7 @@ Zcon2 waye ni ọjọ Tuesday, June 8th ati Wednesday, June 9th 2021.
     src="https://www.youtube.com/embed/videoseries?si=f5dbKWQYi8uUwyp1&amp;list=PL40dyJ0UYTLLa68H9ibpiSZqeevqKizg4"
     title="Zcon2 Playlist"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    jẹ́ kíFullScreen
+    allowFullScreen
     loading="lazy"
   />
 </div>
@@ -73,7 +73,7 @@ Zcon3 wáyé ní Las Vegas láti August 7-9th 2022.
     src="https://www.youtube.com/embed/videoseries?si=Th6bxLipUFXM0EGj&amp;list=PL40dyJ0UYTLJm-Cl7ez3UXp8R4IuUNDfb"
     title="Zcon3 Playlist"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    jẹ́ kíFullScreen
+    allowFullScreen
     loading="lazy"
   />
 </div>
@@ -92,7 +92,7 @@ Zcon3 wáyé ní Las Vegas láti August 7-9th 2022.
     src="https://www.youtube.com/embed/videoseries?si=M8RwBEgu3hSRrR_C&amp;list=PL40dyJ0UYTLII7oQRQmNOFf0d2iKT35tL"
     title="Zcon4 Playlist"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    jẹ́ kíFullScreen
+    allowFullScreen
     loading="lazy"
   />
 </div>
@@ -109,7 +109,7 @@ ZconV waye ni Oṣu Karun ọjọ 6-10th, 2024.
     src="https://www.youtube.com/embed/videoseries?si=1M-vTsYjCEtq7_jo&amp;list=PL40dyJ0UYTLJ41e2uSOJItvbW1YVR49aR"
     title="ZconV Playlist"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    jẹ́ kíFullScreen
+    allowFullScreen
     loading="lazy"
   />
 </div>
@@ -127,7 +127,7 @@ ZconVI waye ni Oṣu Kẹta Ọjọ 4-7th, 2025.
     src="https://www.youtube.com/embed/videoseries?si=YTXE18wOOqQY44lA&amp;list=PL40dyJ0UYTLIIhRk8vu2hkPL_q7OWO7wk"
     title="ZconVI Playlist"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    jẹ́ kíFullScreen
+    allowFullScreen
     loading="lazy"
   />
 </div>

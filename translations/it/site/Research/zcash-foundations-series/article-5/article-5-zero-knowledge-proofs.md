@@ -131,16 +131,16 @@ Le prove a conoscenza zero sono un campo profondo e siamo rimasti di proposito a
 
 | Termine | Significato in parole semplici |
 |---|---|
-| **Prova a conoscenza zero** | Convincere qualcuno che un enunciato è vero senza rivelare nient'altro |
+| **Zero-knowledge proof** | Convincere qualcuno che un enunciato è vero senza rivelare nient'altro |
 | **Prover / Verifier** | Chi produce la prova / chi la verifica |
-| **Completezza** | Gli enunciati veri vengono sempre accettati (da un prover onesto) |
-| **Solidità** | Gli enunciati falsi vengono rifiutati (i bari non possono vincere se non per fortuna) |
-| **Testimone** | Gli input segreti che rendono vero l'enunciato |
-| **Circuito aritmetico** | Un enunciato riscritto come addizioni e moltiplicazioni su un campo finito |
-| **Non interattiva (Fiat-Shamir)** | Una prova in un colpo solo che non richiede scambi dal vivo |
-| **Succinta** | La prova è minuscola e veloce da verificare indipendentemente dalla dimensione dell'enunciato |
+| **Completeness** | Gli enunciati veri vengono sempre accettati (da un prover onesto) |
+| **Soundness** | Gli enunciati falsi vengono rifiutati (i bari non possono vincere se non per fortuna) |
+| **Witness** | Gli input segreti che rendono vero l'enunciato |
+| **Arithmetic circuit** | Un enunciato riscritto come addizioni e moltiplicazioni su un campo finito |
+| **Non-interactive (Fiat-Shamir)** | Una prova in un colpo solo che non richiede scambi dal vivo |
+| **Succinct** | La prova è minuscola e veloce da verificare indipendentemente dalla dimensione dell'enunciato |
 | **zk-SNARK** | Zero-knowledge Succinct Non-interactive ARgument of Knowledge |
-| **Trusted setup / rifiuto tossico** | Generazione di parametri una tantum il cui segreto residuo deve essere distrutto |
+| **Trusted setup / toxic waste** | Generazione di parametri una tantum il cui segreto residuo deve essere distrutto |
 
 ---
 

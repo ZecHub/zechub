@@ -61,12 +61,13 @@
 يؤدي ذلك إلى تفعيل معلومات الشبكة وروابط المستكشف.
 ![إضافة-شبكة-مخصصة....](/content-images/S1hq7f2Oel-e1ca8b9044.webp)
 
-لـ **Zcash Mainnet**;
+لـ **Zcash الشبكة الرئيسية**؛  
 ```markdown
 - Name: Zcash Mainnet  
-- RPC URL: https://mainnet.lightwalletd.com:9067 
+- RPC URL: https://zjs.zec.rocks 
 - Symbol: ZEC
 ```
+`https://zjs.zec.rocks` هو خادم lightwalletd متوافق مع WebZjs ‏(gRPC-web) تديره [zec.rocks](https://zec.rocks) (@emersonian). للشبكة التجريبية، استخدم `https://zjs.zec.rocks/testnet`. إذا كنت تشغّل محفظة الويب WebZjs بنفسك، فهذه هي القيمة التي يجب ضبطها لتكون `LIGHTWALLETD_PROXY`.
 
 ---
 
@@ -96,7 +97,7 @@
 > **مبادلة ETH -> ZEC** - استخدم خدمات مثل **LeoDex** وأرسل إلى عنوانك المحمي.  
 > **السحب من منصة التداول** - اسحب ZEC الذي اشتريته إلى عنوان WebZjs المحمي الخاص بك.  
 
-![مبادلة-LEODEX](/content-images/HyLQ0G2ugg-8d82ef24f6.webp)
+![مبادلة-LeoDex](/content-images/HyLQ0G2ugg-8d82ef24f6.webp)
 
 
 > => استخدم العناوين المحمية (z) للحصول على **خصوصية كاملة**.
@@ -157,4 +158,4 @@
 > قد تستغرق الإثباتات المحمية وقتًا، ويتولى WebAssembly معالجة العمليات داخل المتصفح.  
 > الاسترداد بسيط، ثبّت MetaMask وSnap، ثم استورد العبارة الأولية الحالية لديك.  
 > يعتمد Snap افتراضيًا على **ZEC المحمي**، أما العناوين الشفافة فهي **ليست محور التركيز**.  
-> استخدم [zcashblockexplorer.com](https://zcashblockexplorer.com) لتأكيدات المعاملات.
+> استخدم [mainnet.zcashexplorer.app](https://mainnet.zcashexplorer.app) لتأكيدات المعاملات.

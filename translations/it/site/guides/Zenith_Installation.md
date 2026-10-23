@@ -1,4 +1,4 @@
-# Installazione del wallet full node con GUI Zenith  
+# Installazione del portafoglio full node (nodo completo) con GUI Zenith  
 
 ## Video tutorial
 
@@ -70,7 +70,7 @@ enable_cookie_auth = false
 
 > rmdir zcash-haskell
 
-> git clone https://git.vergara.tech/Vergara_Tech/zcash-haskell.git
+> git clone https://code.vergara.tech/Vergara_Tech/zcash-haskell.git
 
 
 ### Installa le dipendenze

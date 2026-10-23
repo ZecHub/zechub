@@ -34,7 +34,7 @@ Le decisioni dal processo ZIP sono inserite nelle specifiche di Zcash, così com
 
 ## Dov'è la mia transazione?
 
-Prima leggi [il nostro articolo](https://zechub.notion.site/Zcash-Blockchain-Explorer-4b4d970cb53e474989932c6e1a78b629) sui block explorer. Successivamente controlla [Zcash block explorer](https://zcashblockexplorer.com) notando che tutte le transazioni scadono per impostazione predefinita dopo circa 25 minuti/20 blocchi e i fondi vengono restituiti all'indirizzo di invio originale. 
+Prima leggi [il nostro articolo](https://zechub.notion.site/Zcash-Blockchain-Explorer-4b4d970cb53e474989932c6e1a78b629) sui block explorer. Successivamente controlla [Zcash block explorer](https://mainnet.zcashexplorer.app) notando che tutte le transazioni scadono per impostazione predefinita dopo circa 25 minuti/20 blocchi e i fondi vengono restituiti all'indirizzo di invio originale. 
 
 Se la tua transazione scade, la cosa migliore da fare è provare nuovamente la transazione con alcune possibili modifiche.
 
@@ -67,7 +67,7 @@ Sì, Zcash consente una completa privacy per gli utenti cifrando i dati del mitt
 
 Zcash non: cifra i dati per le transazioni multisignature (in attesa dell'integrazione di FROST) o protegge dalle correlazioni effettuate con le transazioni pubbliche trasparenti (ad esempio, quando Zcash viene scambiato con un'altra criptovaluta) e non oscura gli indirizzi IP.
 
-Per maggiori informazioni, leggi qui: [A Shielded Ecosystem](https://electriccoin.co/blog/shielded-ecosystem)
+Per maggiori informazioni, leggi qui: [A Shielded Ecosystem](https://web.archive.org/web/20260903010654/https://electriccoin.co/blog/shielded-ecosystem/)
 
 ___
 

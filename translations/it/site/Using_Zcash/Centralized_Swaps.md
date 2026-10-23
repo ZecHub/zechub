@@ -18,9 +18,9 @@ Aggiungi, modifica o rimuovi qui un blocco; il wiki lo rileva da questo file.
 
 ___
 
-### Near-intents
+### NEAR Intents
 
-<img src="/nearintents.png" alt="Near-intents" width="200" height="100"/>
+<img src="/nearintents.png" alt="NEAR Intents" width="200" height="100"/>
 
 - Sito web: https://app.near-intents.org/
 - Descrizione: Exchange veloce con il supporto di NEAR. Effettua depositi, vendi e scambia, inclusi i popolari TRUMP, MELANIA, BERA e altri meme
@@ -32,7 +32,7 @@ ___
 <img src="/content-images/shapeshift-27053ae96b.webp" alt="ShapeShift" width="200" height="100"/>
 
 - Sito web: https://private.shapeshift.com/
-- Descrizione: Il tuo wallet. Un'app. Infinite opportunità · Scambia Bitcoin, Ethereum e altro ancora alle migliori tariffe tra i principali DEX e aggregatori
+- Descrizione: Il tuo portafoglio. Un'app. Infinite opportunità · Scambia Bitcoin, Ethereum e altro ancora alle migliori tariffe tra i principali DEX e aggregatori
 
 ___
 
@@ -59,7 +59,7 @@ ___
 <img src="/flyp.me.png" alt="flyp.me" width="200" height="100"/>
 
 - Sito web: https://flyp.me/en/#/
-- Descrizione: L'exchange Flyp.me senza account e il token FYP sono nati per proteggere la privacy, promuovere la decentralizzazione, sostenere la proprietà dal basso e favorire una comunità che crede nel consenso.
+- Descrizione: L'exchange flyp.me senza account e il token FYP sono nati per proteggere la privacy, promuovere la decentralizzazione, sostenere la proprietà dal basso e favorire una comunità che crede nel consenso.
 
 ___
 
@@ -126,9 +126,9 @@ ___
 
 ___
 
-### Bitcoin VN
+### BitcoinVN
 
-<img src="/Bitcoinvn.png" alt="Bitcoin VN" width="200" height="100"/>
+<img src="/Bitcoinvn.png" alt="BitcoinVN" width="200" height="100"/>
 
 - Sito web: https://bitcoinvn.io/?deposit=xmr&settle=zec/
 - Descrizione: Exchange istantaneo di Bitcoin e criptovalute in Vietnam. Acquista, vendi o scambia tra 80 asset, inclusi VND, BTC, XMR, USDT, ETH, BCH, SOL
@@ -140,4 +140,4 @@ ___
 <img src="/leodex-logo.png" alt="LeoDex" width="200" height="100"/>
 
 - Sito web: https://leodex.io/
-- Descrizione: Swap cross-chain senza account e senza KYC. Invia BTC, ETH e altro ancora da qualsiasi wallet, exchange o cold storage a un indirizzo di deposito monouso e ricevi ZEC — non è richiesta alcuna connessione al wallet.
+- Descrizione: Scambio cross-chain senza account e senza KYC. Invia BTC, ETH e altro ancora da qualsiasi portafoglio, exchange o cold storage a un indirizzo di deposito monouso e ricevi ZEC — non è richiesta alcuna connessione al portafoglio.

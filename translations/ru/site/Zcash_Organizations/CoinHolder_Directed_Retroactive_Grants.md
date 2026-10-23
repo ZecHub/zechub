@@ -46,7 +46,7 @@
 
 **Подача заявки**:
 
-- Опубликуйте на форуме сообщества Zcash (forum.zcashcommunity.com) в разделе Гранты.
+- Опубликуйте на форуме сообщества Zcash ([forum.zcashcommunity.com](https://forum.zcashcommunity.com/c/grants/32)) в разделе Гранты.
 - Заголовок: "[Ретроактивный грант] - [Название проекта]".
 - Используйте четкий формат Markdown.
 

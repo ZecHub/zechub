@@ -6,7 +6,7 @@
 
 [Lọ sí ojú-ìwé rẹ̀.](https://valargroup.dev/)
 
-<img width="200" height="200" alt="254678133" src="https://github.com/user-attachments/assets/0dc8c697-bcad-492a-b024-89b502d27af4" />
+<img width="200" height="200" alt="254678133" src="/content-images/0dc8c697-bcad-492a-b024-89b502d27af4-4c0d4552c2.webp" />
 
 
 ## Àlàyé Ìpolongo Iṣẹ́-Ìyanu
@@ -121,7 +121,7 @@ The Zcash Foundation publicly welcomed the project, noting that Zebra was releas
 
 Eyi jẹ ipilẹ ti o gbẹkẹle Iboju iboji ati ohun elo fun UX apamọwọ ikọkọ to yara.
 
-### Igi irin ati Ẹ̀rọ NU7
+### Ironwood ati Imọ-ẹrọ NU7
 
 Valar Group je ara ti June 2026 apapọ ifaramọ to Ironwood ati ki o si fi ipa ninu awọn idajọ-igbimọ imuse ati onibara ise ni ayika titun pool. O tun ṣiṣẹ NU7 testnet amayederun, pẹlu darapo iwe afọwọkọ ati gbangba nodes gbalejo labẹ aarin ajo fun irufẹ kan bi ile igbimọ oludari lati ṣe iwadii ohun elo lori rẹ nlo nipa lilo ọna asopọ ayelujara (NAS) lati mu wọn jade kuro ninu awọn oniwe-aaye data. `nu7.valargroup.dev`.
 
@@ -171,7 +171,7 @@ Awọn alaye ti gbangba lati arin 2026 ṣe apejuwe Valar Group ati Ise agbese T
 - ** Project Tachyon** n tẹnu mọ́ àtúnṣe, ìwádìí tí ó ṣe é fọwọ́ sí àti agbára láti yípò ní pẹ̀lú.
 - ** Valar Group** n fojusi lori idibo ti awọn oniwun owo aladani, iṣẹ node, PIR, ati imọ-ẹrọ ti o nilo lati ṣiṣẹ awọn ọna ṣiṣe wọnyẹn ni iṣelọpọ.
 
-Ìpín tirẹ̀ tó ṣe pàtàkì ni ṣíṣe ìṣàkóso tí a fi ààbò bo iṣẹ́. Odibo NU7 jẹ lilo akọkọ ti o tobi julọ ti iṣiro yẹn: awọn oniwun fihan idaduro Ironwood, apamọwọ bii Zodl ati Vizor le ṣajọpọ ṣiṣan naa, ẹnikẹni si le ṣayẹwo iye laisi imọ bi oluwa kan pato ṣe dibo.
+Ìpín tirẹ̀ tó ṣe pàtàkì ni ṣíṣe ìṣàkóso tí a fi ààbò bo iṣẹ́. Odibo NU7 jẹ lilo akọkọ ti o tobi julọ ti iṣiro yẹn: awọn oniwun fihan idaduro Ironwood, apamọwọ bii ZODL ati Vizor le ṣajọpọ ṣiṣan naa, ẹnikẹni si le ṣayẹwo iye laisi imọ bi oluwa kan pato ṣe dibo.
 
 Awọn ẹgbẹ kanna ti n ṣe akopọ ati iṣẹ iṣọkan ni a pinnu lati ṣakoso idaji keji ti aworan yẹn. Odibo ikọkọ jẹ diẹ wulo bi awọn apamọwọ ko ba le muuṣiṣẹpọ, awọn isẹpo ko le tọju, tabi igbesoke ko le ṣee lo yarayara. Ẹgbẹ Valar wo ilana ijọba, sọfitiwia node, ati amayederun apo-owo gẹgẹbi iṣoro kan: mu Zcash aladani ṣiṣẹ lori iwọn laisi idojukọ agbara ṣiṣe ninu agbari kan ṣoṣo.
 

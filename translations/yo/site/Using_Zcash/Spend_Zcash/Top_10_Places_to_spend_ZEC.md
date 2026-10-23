@@ -74,7 +74,7 @@ Rosa rẹ́rìn-ín músẹ́, ó sì fi hàn pé òun gbà láti gba owó Zcash. 
 
 **Ojú-ìkànnì**: somosdulceros.com ti fẹ̀yìn tì, kò sì tún ní ìtumọ̀ mọ́. Lo àwọn ìjápọ̀ àjọlò tó wà lókè yìí.
 
-Àwọn ìkànnì àjọlò orí ayélujára:** [Instagram: Àwọn ojúewé wọ̀nyí wà nínú ìkànnì yìí:](https://www.instagram.com/somos_dulceros) | [Àtẹ X](https://twitter.com/RosaMRangel) | [Free2z (ì ì í ë ¤)](https://free2z.cash/Criptodulceros/zpage/criptodulceros-01)
+Àwọn ìkànnì àjọlò orí ayélujára:** [Instagram](https://www.instagram.com/somos_dulceros) | [Àtẹ X](https://twitter.com/RosaMRangel) | [Free2z (ì ì í ë ¤)](https://free2z.cash/Criptodulceros/zpage/criptodulceros-01)
 
 **Zcash Unified Address:** 
 
@@ -106,7 +106,7 @@ Ohun kan tó yàtọ̀, tí kò sì láfiwé? Àpótí ìléwọ́ tẹlifóònù
 
 Àwọn ìkànnì àjọlò orí ayélujára (Social media) 
 
-[Instagram: Àwọn ojúewé wọ̀nyí wà nínú ìkànnì yìí:](https://instagram.com/papelesacolor) | [Free2z (ì ì í ë ¤)](https://free2z.cash/PapelesaColor) 
+[Instagram](https://instagram.com/papelesacolor) | [Free2z (ì ì í ë ¤)](https://free2z.cash/PapelesaColor) 
 
 [Igi ìsopọ̀ (linktree)](https://linktr.ee/Papelesacolor)
 
@@ -138,7 +138,7 @@ u1u7unmxgr6efh0l94hz0ag6zku4rjeuuarhql5xsnt744e2lu0dsmhrye5a6mlahw067atgh6x0ykax
 
 Àwọn ìkànnì àjọlò orí ayélujára:** 
 
-[Instagram: Àwọn ojúewé wọ̀nyí wà nínú ìkànnì yìí:](https://instagram.com/emprendedorasdigitalesve) |  [Ètò ìsọ̀rí](https://twitter.com/EmpreDigiVE) | [Ìsọfúnni orí tẹlifóònù](https://t.me/emprendedorasdigitalesve) | [Àjọ LinkedIn](https://www.linkedin.com/company/emprendedorasdigitalesve/) 
+[Instagram](https://instagram.com/emprendedorasdigitalesve) |  [Ètò ìsọ̀rí](https://twitter.com/EmpreDigiVE) | [Telegram](https://t.me/emprendedorasdigitalesve) | [Àjọ LinkedIn](https://www.linkedin.com/company/emprendedorasdigitalesve/) 
 
 **Unified Address:** 
 
@@ -163,7 +163,7 @@ Ibi tí Roosevelt Gordones àti Aura Brito ń darí yìí, ó ní àwọn iṣ�
 
 Àwọn Ìkànnì Àjọṣe Ọmọnìyàn (Social Media)
 
-[Ìsọfúnni orí tẹlifóònù](https://t.me/gorbritsm) | [Instagram: Àwọn ojúewé wọ̀nyí wà nínú ìkànnì yìí:](https://www.instagram.com/gorbritsm/) |  [X Àtẹ̀gùn](https://twitter.com/GorBritSM) | 
+[Telegram](https://t.me/gorbritsm) | [Instagram](https://www.instagram.com/gorbritsm/) |  [X Àtẹ̀gùn](https://twitter.com/GorBritSM) | 
 
 GorBrit gba awọn ọna isanwo oriṣiriṣi, pẹlu Awọn Cryptocurrencies, laarin eyiti o jẹ ** Zcash. **
 
@@ -193,7 +193,7 @@ Iṣẹ rẹ jẹ olokiki ni agbegbe Zcash ọpẹ si ilowosi rẹ fun ẹgbẹ-
 
 Àwọn ìkànnì àjọlò orí ayélujára:**
 
-[Ìsọfúnni orí tẹlifóònù](https://t.me/Robmarn) | [Àtẹ X](https://twitter.com/robmarn) | [Free2z (ì ì í ë ¤)](https://free2z.cash/robmarn)
+[Telegram](https://t.me/Robmarn) | [Àtẹ X](https://twitter.com/robmarn) | [Free2z (ì ì í ë ¤)](https://free2z.cash/robmarn)
 
 Barquisimeto - Venezuela (ìlú yìí wà ní ìlà oòrùn) 
 
@@ -205,7 +205,7 @@ Barquisimeto - Venezuela (ìlú yìí wà ní ìlà oòrùn)
 
 Àwọn ìkànnì àjọlò orí ayélujára:** 
 
-[Instagram: Àwọn ojúewé wọ̀nyí wà nínú ìkànnì yìí:](https://instagram.com/karinbeautystudio) 
+[Instagram](https://instagram.com/karinbeautystudio) 
 
 **Unified Address:** 
 
@@ -229,7 +229,7 @@ Do you know what’s amazing about Zcash? Having people like Gissell, a 16-yr ol
 
 Àwọn Ìkànnì Àjọṣe Ọmọnìyàn (Social Media)
 
-[Instagram: Àwọn ojúewé wọ̀nyí wà nínú ìkànnì yìí:](https://instagram.com/coronadebrillitos) 
+[Instagram](https://instagram.com/coronadebrillitos) 
 
 **Zcash Unified Address** 
 
@@ -261,7 +261,7 @@ Tecnopapapi ni ẹni tó yẹ kó o kàn sí!
 
 Àwọn ìkànnì àjọlò orí ayélujára (Social media) 
 
-Free2z ì í ë ¤. [Ìsọfúnni orí tẹlifóònù](https://t.me/Lexihel) | [YouTube (ìkànnì)](https://youtube.com/@tecnopapapi) | [Àtẹ X](https://twitter.com/tecnopapapi) | [TikTok (ìkànnì)](https://www.tiktok.com/@lexihel) | [Instagram: Àwọn ojúewé wọ̀nyí wà nínú ìkànnì yìí:](https://www.instagram.com/tecnopapapi/) |  [Facebook (ìkànnì)](https://www.facebook.com/tecnopapapi) 
+Free2z ì í ë ¤. [Telegram](https://t.me/Lexihel) | [YouTube](https://youtube.com/@tecnopapapi) | [Àtẹ X](https://twitter.com/tecnopapapi) | [TikTok](https://www.tiktok.com/@lexihel) | [Instagram](https://www.instagram.com/tecnopapapi/) |  [Facebook (ìkànnì)](https://www.facebook.com/tecnopapapi) 
 
 Tecnopapapi gba awọn owo-iworo (pẹlu 3ZEC) ati awọn ọna isanwo miiran. 
 
@@ -349,7 +349,7 @@ Iṣẹ́ ìkórè. Gbé àwọn ìwé náà lọ. Àkọsílẹ̀ àtìléyìn
 
 Àwọn ìkànnì àjọlò orí ayélujára (Social media) 
 
-[Instagram: Àwọn ojúewé wọ̀nyí wà nínú ìkànnì yìí:](https://instagram.com/allegriniristorante) | [Àtẹ X](https://twitter.com/AllegriniRisto) | [Ìsọfúnni orí tẹlifóònù](https://t.me/AllegriniRistorante) | [Pinterest (ìkànnì)](https://pin.it/6z8hq6F)
+[Instagram](https://instagram.com/allegriniristorante) | [Àtẹ X](https://twitter.com/AllegriniRisto) | [Telegram](https://t.me/AllegriniRistorante) | [Pinterest (ìkànnì)](https://pin.it/6z8hq6F)
 
 (Ní kété ní [free2z.cash (ì í ì ë°©)](http://free2z.cash). )
 

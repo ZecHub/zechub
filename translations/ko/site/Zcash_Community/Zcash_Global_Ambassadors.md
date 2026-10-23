@@ -16,7 +16,7 @@
 
 앰배서더는 계획하는 활동에 대해 창의적인 자유를 가지며, 이를 통해 현지 상황에 맞춰 홍보 활동을 조정할 수 있습니다.
 
-## [글로벌 앰배서더 웹사이트](https://zcashambassadors.com)
+## [글로벌 앰배서더 웹사이트](https://web.archive.org/web/20240413194338/https://zcashambassadors.com/)
 
 ## 활동 중인 앰배서더 커뮤니티 (2026)
 
@@ -31,7 +31,7 @@
 | 동아프리카 | [Zcash East Africa](https://x.com/ZcashEastAfrica) | 동아프리카, 우간다 커뮤니티 성장 |
 | 남아프리카 | [Zcash South Africa](https://twitter.com/Zcash_SA) | 남아프리카 |
 | 가나 | [Zcash Ghana](https://x.com/ZcashGH) | 가나 |
-| 멕시코 | [zcashqro](https://x.com/zcashqro) | 대학 홍보 및 개발자 온보딩 |
+| 멕시코 | [Zcash Mexico](https://x.com/ZcashMx) | 대학 홍보 및 개발자 온보딩 |
 | 러시아 | [ruZcash](https://x.com/ruZCASH) | 러시아어 콘텐츠 및 커뮤니티 |
 | 인도 | [Zcash India](https://x.com/ZcashIND) | 개발자 교육 및 커뮤니티 성장 |
 | 한국 | [Zcash Korea](https://x.com/zcashkorea) | 한국어 교육 콘텐츠 |
@@ -39,5 +39,5 @@
 ## 앰배서더 지원하기
 
 다음과 같은 방법으로도 참여할 수 있습니다:
-- [ZecHub DAO](https://app.dework.xyz/zechub-2424) 바운티에 기여
+- [ZEC Bounties](https://bounties.zechub.wiki/)에 기여
 - [Zcash Global Discord](https://discord.gg/zcash)에 참여

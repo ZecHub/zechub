@@ -19,6 +19,7 @@ detects that staleness deterministically.
 | `seed-sync-state.mjs` | Re-runnable seeder that regenerates the two data files above | PR1 |
 | `detect-staleness.mjs` | Deterministic detector: classifies each page per locale | PR2 |
 | `check-invariants.mjs` | Blocking CI: manifest ⇔ translations ⇔ curated-list bijection | PR3 |
+| `lib/numbers.mjs` | Number and digit-token comparison behind `scripts/check-numbers.mjs` (blocking CI on changed translations) | |
 
 ## The manifest (`sync-state.json`)
 

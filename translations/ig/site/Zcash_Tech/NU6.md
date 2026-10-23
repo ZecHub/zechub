@@ -21,7 +21,7 @@ NU6 gara n'ihu na-eziga 20% nke onyinye nkwado maka mmepe ego mgbe November 2024
 
 Ihe fọdụrụ na ntinye ego, gbakwunyere ụgwọ azụmahịa, ga-aga ndị miners bụ ndị chebere netwọk ahụ. NU6 emelitere usoro mmefu ego dị ugbu a na iwu dev-fund (ZIP 207 na ZIP 214) iji dabara n'usoro ọhụrụ a.
 
-![NU6 development-fund split: 20 percent of the block subsidy goes to development, with 8 percent to Zcash Community Grants and 12 percent into the Deferred Dev Fund Lockbox](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/nu6-dev-fund-split.png)
+![NU6 development-fund split: 20 percent of the block subsidy goes to development, with 8 percent to Zcash Community Grants and 12 percent into the Deferred Dev Fund Lockbox](/content-images/nu6-dev-fund-split-08bc73e317.webp)
 
 ## Igbe mkpọchi a na-echere oge.
 
@@ -41,7 +41,7 @@ NU6 mechikwara oghere ndekọ ego n'otú e si emepụta ZEC ọhụrụ, nke ak�
 2. Mgbe NU6 gasịrị, azụmahịa nke mkpụrụ ego ga-edozi kpọmkwem: uru mmepụta zuru ezu aghaghị ịdị ka onyinye enyemaka na ụgwọ ọrụ, ọ bụghị karịa ma ọ bụ obere.
 3. Ebe ọ bụ na ndị ọrụ mịna enweghịzi ike ịsị ka e nye ha ZEC ma mebie ya n'amaghị ama, a pụrụ ịkọwazuo ọnụ ọgụgụ nke ZEC ga-adị adị.
 
-![Coinbase balancing before and after NU6: before, coinbase could under-claim and burn ZEC so supply was not exactly predictable. After, coinbase must balance exactly so issuance is exactly predictable](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/nu6-coinbase-balance.png)
+![Coinbase balancing before and after NU6: before, coinbase could under-claim and burn ZEC so supply was not exactly predictable. After, coinbase must balance exactly so issuance is exactly predictable](/content-images/nu6-coinbase-balance-0fa2394799.webp)
 
 ## Otú e si enweta ego ahụ
 
@@ -51,18 +51,18 @@ NU6 bụ otu isiakwụkwọ n'akụkọ toro ogologo banyere etu Zcash si akwụ
 2. NU6 (November 2024) weghachiri ego ahụ mgbe nke abụọ gbasasịrị ma guzobe Deferred Dev Fund Lockbox, na-edebe òkè nke mbipụta maka onyinye ndị obodo kpebiri n'ọdịnihu.
 3. NU6.1 (2025) answered the question NU6 left open, who controls the reserved funds, by continuing 8% of the block subsidy to Zcash Community Grants and directing 12% into a coin-holder-controlled fund seeded by the lockbox.
 
-![How Zcash funding evolved: Canopy created the development fund, NU6 set up the lockbox, and NU6.1 set the rules for who controls it](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/nu6-funding-timeline.png)
+![How Zcash funding evolved: Canopy created the development fund, NU6 set up the lockbox, and NU6.1 set the rules for who controls it](/content-images/nu6-funding-timeline-2427db58c0.webp)
 
 ## Akwụkwọ ọkọwa okwu
 
-Okwu. N'asụsụ Bekee nkịtị pụtara:
+| Oge okwu | Nkọwa Bekee dị mfe |
 |---|---|
- Nkwado ego nke mgbochi ZEC ọhụrụ e kere eke na ngọngọ ọ bụla a gwuru.
- Mgbasa ozi Coinbase. Ihe pụrụ iche nke na-akwụ ụgwọ ego a ga-eji kwụọ ụtụ isi maka otu ngọngọ nakwa ụgwọ ndị ọzọ ọ ga-akwụ.
-◯ Deferred Dev Fund Lockbox. Ihe nchekwa dị na protocol nke nwere oke nkesa maka ọdịnihu obodo kpebiri iji ya mee ihe.
-Zcash Community Grants (ZCG) Kọmitii na-enye ego ọrụ site n'aka ndị obodo Zcash.
-◯ ID ngalaba nkwekọrịta ❖ Nọmba njirimara na-eji agwa nke iwu mmelite a ga-agbaso.
-◯ Nwelite netwọk (NU) ▸ Mgbanwe a haziri ahazi na iwu nkwekọrịta Zcash, nke arụ ọrụ n'ogo ngọngọ setịpụrụ.
+| Block subsidy | ZEC ọhụrụ e mepụtara site na ngọngọ ọ bụla e gwupụtara n'ala |
+| Coinbase transaction | Azụmahịa pụrụ iche nke na-akwụ ụgwọ enyemaka na ụgwọ nke otu ngọngọ |
+| Deferred Dev Fund Lockbox | Nchekwa dị n'ime usoro nke nwere òkè nke mwepụta maka ojiji obodo kpebiri n'ọdịnihu |
+| Zcash Community Grants (ZCG) | Kọmitii nke na-akwado ọrụ nke obodo Zcash na-arụ na maka obodo Zcash |
+| Consensus branch id | Ihe njirimara na-eji akọwa iwu mmelite nke ngọngọ na-eso |
+| Network upgrade (NU) | Mgbanwe nhazi na iwu nkwekọrịta Zcash's, nke a na-arụ ọrụ na elu blọk edobere |
 
 ## Ajụjụ ndị a na-ajụkarị
 

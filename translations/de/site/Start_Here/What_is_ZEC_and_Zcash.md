@@ -30,7 +30,7 @@ ZEC gibt Menschen die Möglichkeit, Daten erlaubnisfrei zu übertragen. Ein Peer
 
 [Der Fall für Zcash und Privatsphäre](https://www.zcashzeal.org/blog/the-case-for-zcash-amp-privacy)
 
-[Ein abgeschirmtes Ökosystem](https://electriccoin.co/blog/shielded-ecosystem/)
+[Ein abgeschirmtes Ökosystem](https://web.archive.org/web/20260903010654/https://electriccoin.co/blog/shielded-ecosystem/)
 
 [Zcash-Empfehlungen zum Datenschutz](https://z.cash/support/security/privacy-security-recommendations/)
 
@@ -52,14 +52,12 @@ Zcash löst Bitcoins größten Schwachpunkt: den privaten Besitz und Transfer vo
 
 [Wie es funktioniert](https://z.cash/technology/)
 
-[Das HTTPS der Blockchains](https://nakamoto.com/zcash-the-https-of-blockchains/)
-
 ---
 
 ## Verwandte Seiten
 
-- [Leitfaden für neue Nutzer](/start-here/new-user-guide) — Schritt-für-Schritt-Einstieg für neue ZEC-Inhaber
-- [Wallets](/using-zcash/wallets) — Wähle eine abgeschirmte Wallet, um deine ZEC aufzubewahren
-- [ZEC kaufen](/using-zcash/buying-zec) — Wo und wie du ZEC erwerben kannst
+- [Leitfaden für neue Nutzer](/start-here/new-user-guide) — Schritt-für-Schritt-Einführung für neue ZEC-Besitzer
+- [Wallets](/using-zcash/wallets) — Wähle eine abgeschirmte Wallet zur Aufbewahrung deiner ZEC
+- [Kauf von ZEC](/using-zcash/buying-zec) — Wo und wie du ZEC erwerben kannst
 - [Abgeschirmte Pools](/using-zcash/shielded-pools) — Wie Zcash-Pools Transaktionen privat halten
-- [ZK-SNARKs](/zcash-tech/zk-snarks) — Die Kryptografie hinter dem Datenschutz von Zcash
+- [zk-SNARKs](/zcash-tech/zk-snarks) — Die Kryptografie hinter der Privatsphäre von Zcash

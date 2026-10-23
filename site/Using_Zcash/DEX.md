@@ -9,11 +9,11 @@ ZecHub does not endorse any particular Decentralised Exchange service, please do
 Each `###` heading below is one card on https://zechub.wiki/dex.
 Add, edit, or remove a block here; the wiki picks it up from this file.
 
-### Near-intents
+### NEAR Intents
 
-<img src="/nearintents.png" alt="Near-intents" width="200" height="100"/>
+<img src="/nearintents.png" alt="NEAR Intents" width="200" height="100"/>
 
-- Website: https://app.near-intents.org/
+- Website: https://near.com/
 - Description: Fast exchange with the support of NEAR. Make deposits, sell, swap including popular TRUMP, MELANIA, BERA and other memes
 
 ___
@@ -67,7 +67,7 @@ ___
 
 <img src="/routerProtocolLogo.png" alt="Router Protocol" width="200" height="100"/>
 
-- Website: https://app.routerprotocol.com/
+- Website: https://www.routerprotocol.com/
 - Description: Cross-chain liquidity transport layer that allows seamless asset and data transfer between multiple blockchains.
 
 ___
@@ -105,4 +105,17 @@ ___
 
 - Website: https://loofta.xyz/
 - Description: Non-custodial private payment and swap platform. Send and receive crypto privately across chains, with Zcash as the settlement layer for enhanced financial privacy.
+
+
+___
+
+
+### ZcashToCash
+
+<img width="1774" height="887" alt="ChatGPT Image Sep 22, 2026, 08_27_53 PM" src="/content-images/3f7aa1a6-3646-442b-8f66-1ef8988051ba-3ddc295461.webp" />
+
+
+
+- Website: https://zcashto.cash/
+- Description: Non-custodial ZEC-to-fiat cash out via Peer. Send shielded ZEC and receive payouts in everyday payment apps such as Venmo, Cash App, Revolut, Zelle, Chime, and Monzo across 100+ geographies. No CEX account required; escrow completes after proof of fiat payment.
 

@@ -4,25 +4,59 @@
 
 # Notlar
 
-#### Şifreli Notlar Gönderme
+## Kısaca
 
-Bir Z2Z (shielded-to-shielded) işlemi gönderirken, işleme bir not (mesaj) ekleyebilirsiniz. Bu not, farklı amaçlarla kullanılabilir.
+* Memo, korumalı bir adrese gönderilen ödemeye eklediğiniz kısa bir nottur. Şifrelenmiştir; bu nedenle blok zincirini izleyen kişiler onu okuyamaz.
+* Memo alanı en fazla 512 bayt metin tutar.
+* İnsanlar memoları, bir ödemeyi kimin gönderdiğini ve ne için olduğunu belirtmek veya özel mesaj göndermek için kullanır.
+* Şeffaf adreslere yapılan ödemeler memo taşıyamaz.
+* Bir [ödeme talebi bağlantısı](/using-zcash/payment-request-uris), mağazanın her siparişi etiketleyebilmesi için memoyu sizin yerinize doldurabilir.
 
-#### İşlemleri İmzalama
+## Temel Açıklama
 
-Notlar öncelikle ödemeleri imzalamak için kullanılır. Shielded işlemler verilerinizi şifrelediği için, size ZEC gönderenin kim olduğunu ve ZEC’in ne için gönderilmiş olabileceğini göremezsiniz. Kullanıcılar, karşı tarafa işlemin kimden geldiğini bildirmek için not alanına adlarını veya takma adlarını imza olarak ekleyebilir. Ayrıca işlemin ne için yapıldığını da açıklayabilirler.
+### Şifreli Memo Gönderme
 
-#### Mesaj Gönderme
+Z2Z (korumalıdan korumalıya) işlem gönderirken, işleme bir memo (mesaj) ekleyebilirsiniz. Bu memo birkaç farklı amaçla kullanılabilir.
 
-Şifreli notun bir başka kullanım senaryosu da, bir z-addr sahibi birine mesaj göndermektir. Bu mesajlar her şey hakkında olabilir; ister [bir arkadaş için hatırlatma](https://twitter.com/iansagstette/status/1542142468505870336), ister [mümkün olduğunca gizli kalması gereken hassas bir mesaj](https://twitter.com/InsideZcash/status/1545800146352578560) olsun.
+### İşlemleri İmzalama
 
-#### Blockchain Üzerinde Aşk Notları
+Memolar öncelikle ödemeleri imzalamak için kullanılır. Korumalı işlemler verilerinizi şifrelediğinden, size ZEC gönderenin kim olduğunu ve ZEC ne için olabileceğini göremezsiniz. Kullanıcılar, karşı tarafın işlemin kimden geldiğini bilmesi için memo alanına adlarını veya takma adlarını yazabilir. Ayrıca işlemin ne için olduğunu da açıklayabilirler.
 
-Bir kişi, Zcash blockchain’inin ilk bloklarından birinde partnerine bir aşk notu gönderdi. Başka biri de partnerinin kendisine bir Zcash notu aracılığıyla bir dosya gönderdiğini fark etti. Bu dosya, kendisi ve uzaktaki sevgilisinin birlikte katılmayı konuştuğu, yurt dışındaki özel bir etkinliğe ait bir biletti. Not, bir aşk mektubuydu.
+### Mesaj Gönderme
 
-#### İleri Düzey
+Şifreli memo için bir diğer kullanım alanı, z-addr kullanan birine mesaj göndermektir. Bu mesajlar, ister bir [arkadaşa hatırlatma](https://twitter.com/iansagstette/status/1542142468505870336) isterse [mümkün olduğunca gizli kalması gereken hassas bir mesaj](https://twitter.com/InsideZcash/status/1545800146352578560) olsun, herhangi bir konuda olabilir.
 
-İşte Zcash Shielded Memos, Magic-Wormhole CLI ve zcashd kullanarak dosyaları bir bilgisayardan diğerine güvenli şekilde göndermenin yolu!: 
+### Blok Zincirinde Aşk Notları
+
+Zcash blok zincirindeki ilk bloklardan birinde partnerine aşk notu gönderen biri vardı. Birisi, partnerinin kendisine Zcash memo aracılığıyla bir dosya gönderdiğini keşfetti. Bu dosya, onun ve uzaktaki sevgilisinin birlikte katılmaktan söz ettiği yurt dışındaki özel bir etkinliğe biletti. Memo bir aşk notuydu.
+
+## Görsel / Analoji
+
+Korumalı bir ödemeyi, içinde para bulunan mühürlü bir zarf olarak düşünün. Memo, parayla birlikte zarfa katlanmış bir nottur.
+
+Blok zinciri postanedir. Zarfı taşır ve ulaştığını kaydeder, ancak onu asla açmaz. Zarfı açan kişi notu okur. Şeffaf bir ödeme kartpostaldır; dolayısıyla içine not katlanacak bir zarf yoktur.
+
+## Derinlemesine İnceleme
+
+### Bir memoya neler sığar
+
+Memo alanı her zaman tam olarak 512 bayttır. Daha kısa bir metin memosu şifrelenmeden önce sıfır baytlarıyla doldurulur; böylece zincir üzerindeki her memo aynı boyutta görünür.
+
+Çoğu memo düz UTF-8 metnidir. [ZIP 302](https://zips.z.cash/zip-0302) ayrıca `0xF5` veya daha yüksek bir baytla başlayan memoları başka veri türleri için ayırır ve `0xF6` ardından sıfırların gelmesi “memo yok” anlamına gelir.
+
+Bir işlemdeki her korumalı çıktı kendi memosunu taşır; dolayısıyla birkaç kişiye ödeme yapan tek bir işlem, her biri için farklı bir not içerebilir.
+
+### Gelişmiş
+
+> **Tarihsel. Bu demo artık yazıldığı şekliyle çalışmıyor.**
+>
+> Aşağıdaki demo zcashd kullanır ve [alma betiği](https://github.com/ZecHub/zechub/blob/main/site/tutorials/ZcashMagicWormhole/receiveOwlsWormhole.sh) memoları `zcash-cli` aracılığıyla okur. zcashd, 18 Temmuz 2026'da otomatik Destek Sonu durdurmasına ulaştı; bu nedenle bu betik çalışan bir düğüme erişemez ve başka bir sisteme taşınmadı.
+>
+> Korumalı memoları komut satırından okumak Zallet üzerinde hâlâ çalışır: `zallet rpc z_listunspent`, alınan her korumalı notu betiğin okuduğu aynı `memoStr` alanıyla döndürür. Komut için [Zallet Hızlı Başvuru Kılavuzu](/using-zcash/zallet-quick-reference-guide)na, bir düğümü zcashd üzerinden taşımak için de [Zebra ve Zallet](/guides/migration-guide-zcashd-to-zebrad-zallet) geçiş kılavuzuna bakın. Zallet hâlâ beta aşamasındadır.
+>
+> Bu bölüm, Magic-Wormhole demosunun tarihsel kaydı olarak korunmuştur.
+
+İşte, dosyaları bir bilgisayardan diğerine güvenli şekilde göndermek için Magic-Wormhole CLI ve zcashd ile Zcash Korumalı Memoların nasıl kullanılacağı!
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -35,6 +69,17 @@ Bir kişi, Zcash blockchain’inin ilk bloklarından birinde partnerine bir aşk
   />
 </div>
 
-#### Kaynaklar
+## İlgili Sayfalar
 
-[Şifreli Not Alanı](https://electriccoin.co/blog/encrypted-memo-field/)
+- [Ödeme Talebi URI'leri](/using-zcash/payment-request-uris): bir `zcash:` bağlantısına veya QR koduna memo ekleyin.
+- [İşlemler](/using-zcash/transactions): korumalı ve şeffaf işlem türleri.
+- [Korumalı Havuzlar](/using-zcash/shielded-pools): memoları taşıyan korumalı notların bulunduğu yer.
+- [Cüzdanlar](/using-zcash/wallets): memoları destekleyen cüzdanları bulmak için Korumalı Memo filtresini kullanın.
+- [Zallet Hızlı Başvuru Kılavuzu](/using-zcash/zallet-quick-reference-guide): alınan memoları komut satırından okuyun.
+- [Zcash İçerik Üreticileri için Araçlar](/using-zcash/creators-and-tips): bahşişle birlikte mesaj gönderen bahşiş araçları.
+
+### Kaynaklar
+
+[Şifreli Memo Alanı](https://electriccoin.co/blog/encrypted-memo-field/)
+
+**Son güncelleme:** Ekim 2026

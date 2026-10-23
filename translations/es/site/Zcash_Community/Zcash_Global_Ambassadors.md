@@ -16,7 +16,7 @@ El Programa de Embajadores Globales identifica a miembros de la comunidad que re
 
 Los embajadores tienen libertad creativa sobre las actividades que planifican, lo que les permite adaptar la divulgación a su contexto local.
 
-## [Sitio web de Embajadores Globales](https://zcashambassadors.com)
+## [Sitio web de Embajadores Globales](https://web.archive.org/web/20240413194338/https://zcashambassadors.com/)
 
 ## Comunidades activas de embajadores (2026)
 
@@ -31,7 +31,7 @@ Los embajadores tienen libertad creativa sobre las actividades que planifican, l
 | África Oriental | [Zcash East Africa](https://x.com/ZcashEastAfrica) | África Oriental, crecimiento de la comunidad en Uganda |
 | Sudáfrica | [Zcash South Africa](https://twitter.com/Zcash_SA) | Sudáfrica |
 | Ghana | [Zcash Ghana](https://x.com/ZcashGH) | Ghana |
-| México | [zcashqro](https://x.com/zcashqro) | Divulgación universitaria e incorporación de desarrolladores |
+| México | [Zcash Mexico](https://x.com/ZcashMx) | Divulgación universitaria e incorporación de desarrolladores |
 | Rusia | [ruZcash](https://x.com/ruZCASH) | Contenido y comunidad en ruso |
 | India | [Zcash India](https://x.com/ZcashIND) | Educación para desarrolladores y crecimiento de la comunidad |
 | Corea | [Zcash Korea](https://x.com/zcashkorea) | Contenido educativo en coreano |
@@ -39,5 +39,5 @@ Los embajadores tienen libertad creativa sobre las actividades que planifican, l
 ## Solicita convertirte en embajador
 
 También puedes participar de las siguientes maneras:
-- Contribuyendo a las recompensas de [ZecHub DAO](https://app.dework.xyz/zechub-2424)
-- Uniéndote al [Discord Global de Zcash](https://discord.gg/zcash)
+- Contribuyendo a [ZEC Bounties](https://bounties.zechub.wiki/)
+- Uniéndote al [Zcash Global Discord](https://discord.gg/zcash)

@@ -154,13 +154,13 @@ Il s'agit de l'image la plus complète de la série, mais cela reste un modèle.
 |---|---|
 | **Spending key** | Le secret racine unique dont dérivent toutes les clés d'un utilisateur |
 | **Viewing key** | Révèle vos transactions à un détenteur sans lui permettre de dépenser |
-| **Description de dépense** | La partie d'une tx qui consomme une note (nullifier, anchor, preuve) |
-| **Description de sortie** | La partie d'une tx qui crée une note (commitment, texte chiffré, preuve) |
+| **Spend description** | La partie d'une tx qui consomme une note (nullifier, anchor, preuve) |
+| **Output description** | La partie d'une tx qui crée une note (commitment, texte chiffré, preuve) |
 | **Action (Orchard)** | Une unité unifiée effectuant ensemble une dépense et une sortie |
 | **Value commitment** | Un commitment Pedersen homomorphe sur un montant |
 | **Binding signature** | La signature qui prouve que les valeurs s'équilibrent sans les révéler |
 | **Anchor** | La racine d'arbre contre laquelle une dépense prouve son appartenance |
-| **Déchiffrement d'essai** | Le fait pour un destinataire de tester de nouveaux commitments pour trouver les notes qui lui sont destinées |
+| **Trial decryption** | Le fait pour un destinataire de tester de nouveaux commitments pour trouver les notes qui lui sont destinées |
 
 ---
 

@@ -33,7 +33,7 @@ Beslissingen van het ZIP-proces worden geschreven in de Zcash-specificatie, even
 
 ## Waar is mijn transactie?
 
-Lees eerst [ons artikel](https://zechub.notion.site/Zcash-Blockchain-Explorer-4b4d970cb53e474989932c6e1a78b629) over block explorers. Controleer vervolgens met [Zcash block explorer](https://zcashblockexplorer.com) dat alle transacties standaard verlopen na ~25 minuten/20 blokken en dat geld wordt teruggestuurd naar het oorspronkelijke verzendadres.
+Lees eerst [ons artikel](https://zechub.notion.site/Zcash-Blockchain-Explorer-4b4d970cb53e474989932c6e1a78b629) over block explorers. Controleer vervolgens met [Zcash block explorer](https://mainnet.zcashexplorer.app) dat alle transacties standaard verlopen na ~25 minuten/20 blokken en dat geld wordt teruggestuurd naar het oorspronkelijke verzendadres.
 
 Als uw transactie verloopt, kunt u het beste uw transactie opnieuw proberen met enkele mogelijke aanpassingen.
 
@@ -66,7 +66,7 @@ Ja, Zcash maakt volledige privacy mogelijk voor gebruikers door gegevens over de
 
 Zcash versleutelt geen gegevens voor transacties met meerdere handtekeningen (in afwachting van integratie van FROST) of beschermt tegen correlaties die zijn gemaakt met openbare *transparante* transacties (bijvoorbeeld wanneer Zcash wordt verhandeld naar/van een andere cryptocurrency) en het verdoezelt ook geen IP-adressen.
 
-Verder lezen hier: [Een afgeschermd ecosysteem](https://electriccoin.co/blog/shielded-ecosystem)
+Verder lezen hier: [Een afgeschermd ecosysteem](https://web.archive.org/web/20260903010654/https://electriccoin.co/blog/shielded-ecosystem/)
 
 ___
 

@@ -25,15 +25,15 @@ Olúkúlùkù, gbogbo ohun tí o ti kọ́ jẹ́ ọlọgbọ́n. ṣùgbọ́n
 
 Àkọsílẹ̀ gbogbo rẹ̀ wà ní ojú ìwé kan, láti ìtàn Àpilẹ̀kọ 0 títí dé ojúlówó ẹ̀rọ náà.
 
-Àpilẹ̀kọ 0 ohun èlò ìtàn. Ẹ̀yà ara gidi. A ṣe é láti...
+| Àpilẹ̀kọ 0 ìtàn | Apá gidi | Láti inú rẹ̀ ni a ti kọ́ ọ |
 |---|---|---|
-Owó inú àpòòwé kan. **Àkíyèsí** (iye, ẹni tí ó gbà á, ìṣẹ̀lẹ̀ tó wáyé láìròtẹ́lẹ̀) tí a ṣe bí ẹ̀yà-ìpín-ọ̀rọ̀ (Art 1)
-Àpótí tí wọ́n fi òǹtẹ̀ dì tí kò ní àlàfo. Àkọlé àdéhùn. Àdéhùn Pedersen/Sinsemilla (Àwòrán 2, 3)
-Àwòrán ìjókòó tí ó wà fún gbogbo ènìyàn **Àkíyèsí igi ìfọ̀kànsí** (ìdákò = gbòǹgbò rẹ̀) igi Merkle tí ó ń pọ̀ sí i (Àwòrán 4)
-Àmì tí kò ní ìmúṣẹ. **Nullifier** ZK-friendly hash of note + secret key (Art 2, 3)
-"Owó tí ó wọlé dọ́gba sí owó tí ó jáde" **Ìpín iye + àyèwò ìdìpọ̀** Homomorphic Pedersen commitments (Art 2, 3)
-Ìṣẹ́ òkùnkùn tó wà lẹ́yìn ìkápá náà. Àrídájú ìmọ̀-kúrò. Zk-SNARK lórí ẹ̀ka ìṣirò kan.
-"Ìwọ nìkan ló lè ka àpòòwé rẹ". ** Àkọlé tí a fi kọ̀ǹpútà pamọ́ + àwọn kókó ìwòwòye** encryption + key hierarchy (ìwé yìí)
+| Owó tí ó wà nínú àpòòwé kan | **Àkíyèsí** (iye, olùgbà, àìròtẹ́lẹ̀) | tí a fi àmì sí gẹ́gẹ́ bí àwọn èròjà pápá (Àwòrán 1) |
+| Àpò tí kò ní ìbòjú tí a dì | **Ṣe akiyesi ifaramo** | Pedersen / Sinsemilla ifaramo (Aworan 2, 3) |
+| Igbimọ gbogbogbo | **Ṣe akiyesi igi ifaramo** (ìdákọ̀ró = gbòǹgbò rẹ̀) | Igi Merkle onípele (Àwòrán 4) |
+| Àmì òfo náà | **Ohun tí kò ní jẹ́ kí ó bàjẹ́** | ìkọsílẹ̀ àkọọ́lẹ̀ + kọ́kọ́rọ́ àṣírí tí ó bá ZK mu (Àwòrán 2, 3) |
+| "Owó tó wà nínu owó dọ́gba pẹ̀lú owó tó jáde" | **Awọn ileri iye + ayẹwo iwontunwonsi** | Àwọn ìlérí Pedersen tí ó ní ìrísí (Àwòrán 2, 3) |
+| Idán ìṣẹ́gun lẹ́yìn aṣọ ìbòrí | **Ẹ̀rí ìmọ̀ òdo** | zk-SNARK lórí ìṣètò ìṣirò (Àwòrán 5) |
+| "Iwọ nikan ni o le ka apoowe rẹ" | **Àkọsílẹ̀ ìkọ̀kọ̀ + àwọn kọ́kọ́rọ́ wíwo** | ìfọwọ́sowọ́pọ̀ + ìṣètò bọtini (àpilẹ̀kọ yìí) |
 
 ---
 
@@ -82,13 +82,13 @@ Jẹ ki a ṣe apejọ Alice sanwo Bob. A yoo lo Sapling ká kedere "lo ẹgbẹ
 
 **Iṣowo ti o ni aabo kan ni awọn iru awọn apejuwe meji:**
 
-Àkọsílẹ̀ ìnáwó (ó ń gba àlàyé) Àpèjúwe ìjáde (ó dá àlàyé kan)
+| Àpèjúwe ìnáwó (ó gba àkọsílẹ̀) | Àpèjúwe àbájáde (ó ṣẹ̀dá àkọsílẹ̀) |
 |---|---|
-☐ ìmúṣẹ iye ìmúlò ☐ ìdánilójú iye ìjáde
-ìdí tí ó fi hàn pé ó dúró ṣinṣin sí (gbòǹgbò igi kan) àdéhùn tuntun tí ó ṣe pàtàkì (ewé tuntun kan)
-▪ ohun tó máa ń mú kí owó tí wọ́n ná kúrò. ▪ ọ̀rọ̀ ìdánilójú fún dídíje.
-▪ kókó tí wọ́n tún ṣe láìsí ẹni tó mọ̀ ọ́n lára + ìforúkọsílẹ̀ tó fún wọn láṣẹ láti náwó. ▪ àkọsílẹ̀ tó wà nínú kọ̀ǹpútà tí a fi kọ̀wé sí * (ìyẹn ni ìwé tí a ti fi kọ́ni)
-a **zk-SNARK** ti o fi idi awọn ẹtọ mẹrin han. a **zK-SNAK** fi idi wi pe abajade ti wa ni apẹrẹ daradara.
+| ifaramo iye ti titẹ sii | ifaramo iye ti abajade |
+| **okọ** o fihan lodi si (gbongbo igi kan) | ìdúró tuntun **àkíyèsí** (ìwé tuntun) |
+| **asán** ti àkọsílẹ̀ tí a ti ná | kọ́kọ́rọ́ **aláìpẹ́** fún ìfipamọ́ |
+| kọ́kọ́rọ́ gbogbogbò tí a tún ṣe àtúnṣe + ìfọwọ́sowọ́pọ̀ àṣẹ ìnáwó | àkọsílẹ̀ **tí a fi ìkọ̀kọ̀ sí** (ọ̀rọ̀ ìkọ̀kọ̀ fún ẹni tí a gbà á) |
+| **zk-SNARK** ti o fihan awọn ẹtọ mẹrin naa | a **zk-SNARK** ti o fihan pe abajade naa wa ni apẹrẹ daradara |
 
 Pẹlupẹlu ọkan ** ifọwọsi ibuwọlu ** lori gbogbo akopọ, fifun iwontunwonsi iye (Abala 5).
 
@@ -102,15 +102,15 @@ Trace the privacy: the network checked the anchor, checked the nullifier was fre
 
 Àpilẹ̀kọ 0 fi tọkàntọkàn ṣí àwọn ìbéèrè sílẹ̀.
 
- Ìyí tí a ṣí ní Àpilẹ̀kọ 0  Ti pa ní
+| A ṣí ìṣẹ́po náà ní Àpilẹ̀kọ 0 | Ti pa nipasẹ |
 |---|---|
-❑ Báwo ni àpò ìwé tí a kò lè fọ́ ṣe ṣeé ṣe? ▪ Ìpinnu: fífi ara rẹ pamọ́ kúrò nínú àìròtẹ́lẹ̀, dídi ẹni tí kò ní kó sínú ìjàǹbá / ẹnubodè tó ní àyípo (Ẹ̀ka 3)
-❑ Ibo làwọn kókó àti àwọn ìlànà àṣírí ti wá? ▪ Ìṣirò àyè àti ìmúdàgba scalar-elliptic-curve (Art 1, 2)
- Kí gan-an ni "àgbékalẹ̀"?  Igi Merkle tí ó ń pọ̀ sí i ti àwọn àdéhùn àkọsílẹ̀; gbòǹgbò rẹ̀ ni ìdásílẹ̀ (Art 4)
- Kí ló dé tí a kò fi lè so àmì òfo náà mọ́ àpòòwé rẹ̀?  Nullifier jẹ́ kókó ìdìpọ̀ tí a tọ́jú lọ́nà tó yàtọ̀ sí àwọn àdéhùn (Art 2, 3, 4)
- Bawo ni o ṣe fi ẹri ti o wulo nigba ti ko fi ohunkohun han?  A zk-SNARK lori arithmetic circuit encoding gbogbo awọn mẹrin gbólóhùn (Art 5)
-❑ Báwo ni ẹni tó ń gba owó náà ṣe mọ̀ pé wọ́n ti sanwó fún un?❑ Àkọsílẹ̀ náà wà ní ìpamọ́ sí adirẹsi rẹ̀; o lè fi kókó àyẹ̀wò tú u.
-Bawo ni a ṣe le fi "owó wọlé = owó jáde" múlẹ̀ ní ìkọ̀kọ̀? Homomorphic value commitments + the binding signature (Sec 5)
+| Báwo ni a ṣe lè ṣe àpò ìwé tí a ti dí tí kò sì ṣeé yípadà? | Àwọn ìlérí: fífi ara pamọ́ kúrò nínú àìròtẹ́lẹ̀, dídì mọ́ kúrò nínú ìdènà ìkọlù / ilẹ̀kùn ìtẹ̀ (Àwòrán 3) |
+| Níbo ni àwọn kọ́kọ́rọ́ àti àwọn oúnjẹ ìkọ̀kọ̀ ti wá? | Ìsọdipúpọ̀ scalar oníṣirò pápá àti elliptic-curve (Àwòrán 1, 2) |
+| Kí ni "ìgbìmọ̀" gan-an? | Igi Merkle tí ó ń fi àwọn ìlérí pàtàkì kún un; gbòǹgbò rẹ̀ ni ìdákọ́ró (Àwòrán 4) |
+| Kí ló dé tí a kò fi lè so àmì ìforúkọsílẹ̀ náà mọ́ àpò rẹ̀? | Àìsí-ìparẹ́ ni àmì ìkọ̀kọ̀ tí a fi pamọ́ sí àkójọpọ̀ ọ̀tọ̀ láti ọ̀dọ̀ àwọn ìlérí (Àwòrán 2, 3, 4) |
+| Báwo lo ṣe lè fi hàn pé òótọ́ ni nígbà tí o kò sì sọ ohunkóhun? | zk-SNARK lórí àyíká ìṣirò kan tí ó ń ṣàkójọ gbogbo àwọn ẹ̀tọ́ mẹ́rẹ̀ẹ̀rin (Àwòrán 5) |
+| Báwo ni ẹni tí a gbà á ṣe mọ̀ pé wọ́n ti san owó fún un? | A fi àmì ìkọ̀kọ̀ náà sí àdírẹ́sì wọn; wọ́n fi kọ́kọ́rọ́ wíwo yí i padà láti viewing key (àpilẹ̀kọ yìí) |
+| Báwo ni a ṣe ń fi "owo wọlé = owó jáde" sí ìkọ̀kọ̀? | Àwọn ìlérí iye oníṣe + ìfọwọ́sowọ́pọ̀ ìdènà (Apá 5) |
 
 Àdììtú tó wà ní ojú ìwé àkọ́kọ́, *yẹ̀wò ohun tí o kò lè rí*, ti di ohun tí kò sí mọ́ báyìí. Ẹ̀rọ náà ń ṣàyẹ̀wò **ìpolongo nípa àwọn ìsọfúnni tó fara sin**, kì í ṣe àwọn ìwífún fúnra wọn.
 
@@ -122,10 +122,10 @@ A kọ ẹkọ pẹlu ilana Sapling nitori pe pipin rẹ jẹ kedere julọ. ap�
 
 | | **Sapling** | **Orchard** |
 |---|---|---|
-☐ Ìṣirò ìsọfúnni ☐ Àkọsílẹ̀ ìṣẹ̀dá ☐ Àwọn ìṣe tí wọ́n ń ṣe (olúkúlùkù máa ń ná owó kan + owó kan jáde)
-Ẹ̀rí ètò Groth16 (ìdásílẹ̀ tí a gbẹ́kẹ̀lé) Halo 2 (kò sí ìdàsílẹ̀ tó ṣeé gbára lé)
-Àwọn ìyí BLS12-381 + Jubjub Pallas / Vesta (Pasta)
-Ìpinnu ìsọfúnni Pedersen Sinsemilla
+| Ẹyọ iṣowo | yà sọ́tọ̀ **Nawo** àti **Output** àwọn àpèjúwe | ìṣọ̀kan **Àwọn ìgbésẹ̀** (olúkúlùkù ni ẹnìkan ná + ìjáde kan) |
+| Ètò ìdánilójú | **Groth16** (eto ti a gbẹkẹle) | **Halo 2** (kò sí ètò tí a gbẹ́kẹ̀lé) |
+| Àwọn ìtẹ̀ | BLS12-381 + Jubjub | Pallas / Vesta (Pasita) |
+| Ààbò ìforúkọsílẹ̀ | Pedersen | Sinsemilla |
 
 Gbogbo ero ninu nkan yi gbe lori taara; Orchard nipataki bundles ná-ati-jade papọ ati swaps ni a ẹri eto pẹlu ko si ayeye.
 
@@ -150,17 +150,17 @@ This is the most complete picture in the series, but still a model. We compresse
 
 ## Àkójọ àwọn ọ̀rọ̀
 
-Ọ̀rọ̀-ìtumọ̀ èdè Gẹ̀ẹ́sì tó rọrùn.
+| Àkókò ìgba | Ìtumọ̀ Gẹ̀ẹ́sì lásán |
 |---|---|
-**Spending key** Ìkọ̀kọ̀ gbòǹgbò kan ṣoṣo tí gbogbo àwọn kókó oníṣe ń jáde láti inú rẹ̀
-**Kíwo kókó** Ó ń fi àwọn ìnáwó rẹ hàn fún ẹni tí ó ní wọn láì jẹ́ kí wọ́n náwó
-**Spend description** Apakan ti tx ti o jẹ akọsilẹ kan (nullifier, anchor, proof)
-** Àpèjúwe ìjade ** Apá ti tx tí ó ń dá àkọsílẹ̀ (ìdánilójú, àdàkọ tí a fi kọ̀ǹpútà ṣe, èrí) sílẹ̀
-**Action (Orchard) **: Ẹ̀yà kan ṣoṣo tó ń lo owó kan, tó sì ń mú nǹkan kan jáde pa pọ̀.
-** Ìpín iye** A homomorphic Pedersen ìpín sí iye kan
-** Binding signature** Àmì tí ó fi hàn wípé iye náà wà níwọ̀ntúnwọ̀nsì láìfi wọ́n hàn
-**Anchor** Gúúsù igi tí a lò fi hàn pé ọmọ ẹgbẹ lòdì sí...
-**Trial decryption** A olugba igbeyewo titun adehun lati ri awọn akọsilẹ ti a ti pinnu fun wọn.
+| **Spending key** | Àṣírí gbòǹgbò kan ṣoṣo tí gbogbo àwọn kọ́kọ́rọ́ olùlò ti wá |
+| **Viewing key** | Ṣí àwọn ìṣòwò rẹ hàn fún ẹni tó ni ín láìjẹ́ kí wọ́n náwó |
+| **Spend description** | Apá tx kan tí ó ń gba àkọsílẹ̀ kan (ohun tí kò ní ìtumọ̀, ìdámọ̀, ẹ̀rí) |
+| **Output description** | Apá tx kan tí ó ṣẹ̀dá àkọsílẹ̀ kan (ìdúróṣinṣin, ìkọ̀wé ìkọ̀kọ̀, ẹ̀rí) |
+| **Action (Orchard)** | Ẹyọ kan ṣoṣo tí ó ń lo owó kan àti ìyọrísí kan papọ̀ |
+| **Value commitment** | Ìfẹ́ Pedersen tó ní ìrísí tó jọra sí iye kan |
+| **Binding signature** | Ibuwọlu ti o fihan pe awọn iye wa ni iwọntunwọnsi laisi ṣiṣafihan wọn |
+| **Anchor** | Gbòǹgbò igi tí a náwó fi hàn pé ọmọ ẹgbẹ́ lòdì sí |
+| **Trial decryption** | Olùgbàlejò kan ń dán àwọn ìlérí tuntun wò láti rí àwọn àkọsílẹ̀ tí a ṣe fún wọn |
 
 ---
 

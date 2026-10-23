@@ -1,7 +1,7 @@
 ## Projets communautaires Zcash
 
 
-[Explorateur de blocs](https://zcashblockexplorer.com)
+[Explorateur de blocs](https://mainnet.zcashexplorer.app)
 
 L'explorateur de blocs Zcash fournit des informations telles que les données de transaction / les informations de bloc / les adresses / les blocs Mempool, etc. Permet également d'utiliser la clé de visualisation de la divulgation des paiements de transaction.
 
@@ -52,7 +52,7 @@ Zeme Team permet aux créateurs de recevoir facilement des conseils de n'importe
 ZGo est un registre Zcash. Permettre aux vendeurs et aux marchands d'accepter Zcash. Teste actuellement l'application pour obtenir des commentaires de haute qualité sur la convivialité et les fonctionnalités de ZGo.
 
 
-[Zlink](https://zlink.click)
+[Zlink](https://web.archive.org/web/20250309010146/https://zlink.click/)
 
 Zlink est le moyen le plus simple de trouver n'importe quel lien, outil, information dont vous avez besoin sur l'écosystème de Zcash.
 
@@ -68,7 +68,7 @@ ___
 
 Un aftok est un nouveau type radical d'organisation commerciale coopérative et ascendante. C'est un moyen pour vous et quelques amis de confiance de construire des choses ensemble et d'être payés pour vos efforts, sans la hiérarchie ni les frais généraux d'une entreprise traditionnelle.
 
-[DEX atomique](https://atomicdex.io/en/)
+[DEX atomique](https://web.archive.org/web/20250116100519/https://atomicdex.io/en/)
 
 AtomicDEX est un portefeuille multi-pièces, un pont et un DEX réunis dans une seule application. Versions mobiles/de bureau disponibles.
 
@@ -87,7 +87,7 @@ RenBridge (service fermé)
 Ren Protocol a été arrêté et RenBridge n'est plus disponible.
 
 
-[ZeroBridge](https://bridge.zerodao.com/#/transfer/ETH)
+[ZeroBridge](https://web.archive.org/web/20260122164455/https://bridge.zerodao.com/#/transfer/ETH)
 
 ZeroBridge est un client décentralisé du protocole Zero DAO, permettant des scripts d'actifs inter-chaînes dans un navigateur avec votre portefeuille existant, @zerodaoHQ permet de financer une nouvelle adresse ETH avec Shielded ZEC.
 

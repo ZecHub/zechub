@@ -17,7 +17,7 @@ Tunaweza kutumia hii kati yetu katika ZF AV Club kwa ajili ya kuhamisha faili ku
 * PLUS *, tutashirikiana moja kwa moja na timu ya IPFS katika Maabara ya Itifaki ili kuendeleza kesi hii ya matumizi.
 Faida nyingine iliyotokana na uhusiano uliofanywa kwenye dWeb Camp!
 
-Bila IPFS imewekwa kwenye mashine ya kupokea NA kutumia kivinjari kwamba si jasiri: Utahitaji kusubiri kwa gateway kupakia faili. * Hii itarudi kosa 504 juu ya faili kubwa.*
+Bila IPFS iliyosakinishwa kwenye mashine ya kupokea NA kutumia kivinjari ambacho si Brave: Utahitaji kusubiri hadi lango lipakie faili. *Taraji hii itarudisha hitilafu ya 504 kwenye faili kubwa.*
 
 Next: Jinsi ya siri watu wengine files juu ya mashine yako ili hatuna moja uhakika wa kushindwa tatizo wakati node awali huenda nje ya mtandao.
 

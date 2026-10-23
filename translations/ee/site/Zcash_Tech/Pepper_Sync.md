@@ -6,7 +6,7 @@
 
 ## TL;DR
 
-* Pepper Sync nye synchronization engine si woto vɛ le Zingo me! 2.0, si nye Zcash gakotoku si woate ŋu azã le mɔ gbadza nu si Zingo Labs tu.
+* Pepper Sync nye synchronization engine si woto vɛ le Zingo! 2.0, si nye Zcash gakotoku si woate ŋu azã le mɔ gbadza nu si Zingo Labs.
 * Ezãa non-linear synchronization tsɔ wu be wòalé ŋku ɖe kɔsɔkɔsɔa ŋu le akpa gã siwo kplɔ wo nɔewo ɖo me, eyata wò ga si susɔ kple asitsatsa la dzena kaba ŋutɔ.
 * Wodzraa ŋgɔyiyi ɖo ɣesiaɣi. Ne kadodoa ɖiɖi alo dɔwɔnua tu la, wogadzea wɔwɔ ɖekae gɔme tso afisi wòtɔ ɖo tsɔ wu be woagadze egɔme ake.
 * Àte ŋu azãe hafi synchronization nawu enu.
@@ -14,7 +14,7 @@
 
 ## Numeɖeɖe Vevitɔ
 
-Zingo 2.0 nye Zingo ƒe tɔtrɔ yeyetɔ! gakotoku, gakotoku si le bɔbɔe, si woate ŋu aʋu na Zcash nutoa me tɔwo. Ɣletivi si woɖe ɖe go siae nye Pepper Sync, si nye tɔtrɔ gã aɖe si gbugbɔ bu alesi gakotokuwo do ƒome kple blockchain la ŋu keŋkeŋ.
+Zingo 2.0 nye Zingo! gakotoku, gakotoku si le bɔbɔe, si woate ŋu aʋu na Zcash nutoa me tɔwo. Ɣletivi si woɖe ɖe go siae nye Pepper Sync, si nye tɔtrɔ gã aɖe si gbugbɔ bu alesi gakotokuwo doa ka kple blockchain la ŋu keŋkeŋ.
 
 Tsã la, nuwɔwɔ ɖekae ate ŋu ase le eɖokui me be ele blewu vevesesetɔe, vodadawo ate ŋu adzɔ, eye nunɔamesiwo sɔ gbɔ, eye ɣeaɖewoɣi la, zinɛ ɖe ezãlawo dzi be woagadze egɔme tso gɔmedzedzea me ke. Pepper Sync trɔa nu mawo katã. Enaa nuwɔwɔ ɖekae kabakaba, wònɔa bɔbɔe, kakaɖedzi nɔa eŋu, eye mebiaa nu geɖe tso wò mɔ̃a dzi o, evɔ wòkpɔa asitsatsa siwo ŋu wokpɔ ta na ƒe adzamenyawo ta bliboe.
 
@@ -52,9 +52,9 @@ Dzesi lae nye akpa vevitɔ. Trɔtrɔ ɖesiaɖe si do ŋgɔ bu sync si wotso la b
 
 ### Mɔfiame siwo wokpɔna
 
-- Detailed Flow - Fia ɖoɖo bliboa. ![Detailed Flow](https://github.com/user-attachments/assets/119c13ec-76be-42bd-b558-762d09275a1b)
+- Detailed Flow - Fia ɖoɖo bliboa. ![Detailed Flow](/content-images/119c13ec-76be-42bd-b558-762d09275a1b-8ba7a18302.webp)
 
-- Simplified Flow - Nukpɔkpɔ kabakaba na gbesiagbe zãlawo. ![Simplified Flow](https://github.com/user-attachments/assets/9b612cbd-f24d-4472-9b87-0f2c908bb368)
+- Simplified Flow - Nukpɔkpɔ kabakaba na gbesiagbe zãlawo. ![Simplified Flow](/content-images/9b612cbd-f24d-4472-9b87-0f2c908bb368-eb34a722a2.webp)
 
 ## Deep Dive (Tsi me tsi goglo).
 
@@ -101,7 +101,7 @@ To gakotoku ƒe nuteƒekpɔkpɔ ƒe nyonyo me la, Pepper Sync doa ŋusẽ Zcash 
 
 ## Vodada Siwo Wowɔna Zi geɖe
 
-**Nuwɔwɔ ɖe Pepper Sync ŋu abe gakotoku ene le eɖokui si**. Pepper Sync nye synchronization engine si le Zingo la me! gakotoku, ke menye dɔwɔnu si woɖe ɖe vovo o. Ède Zingo ɖe wò kɔmpiuta dzi; Pepper Sync ye nye nusi ƒua du le ete.
+**Nuwɔwɔ ɖe Pepper Sync ŋu abe gakotoku ene le eɖokui si**. Pepper Sync nye synchronization engine si le Zingo! gakotoku, ke menye dɔwɔnu si woɖe ɖe vovo o. Ède Zingo; Pepper Sync ye nye nusi ƒua du le ete.
 
 **Ne míetsɔe be nuwɔwɔ ɖekae kabakaba wu fia be adzamenyawo gbɔdzɔ wu**. Duƒuƒua tso alesi woxɔa block data, ɖoa ɖoɖo ɖe wo ŋu, eye wodzraa wo ɖo me, ke menye tso nyatakaka bubuwo ɖeɖefia me o. Asitsatsa siwo wotsɔ akpoxɔnu wɔe la nɔa ame ŋutɔ ƒe nya me le ɣeyiɣi bliboa me.
 

@@ -130,10 +130,10 @@
 - يُغني ذلك عن الحاجة إلى تعدين TAZ يدويًا  
 
 **مثال:**  
-1. زُر صنبور Testnet (مثل [testnet.zecfaucet.com](https://testnet.zecfaucet.com) | [fauzec.com](https://fauzec.com/))  
+1. زُر صنبور Testnet (مثل [fauzec.com](https://fauzec.com/) | [zcashfaucet.jinolabs.xyz](https://zcashfaucet.jinolabs.xyz/))  
 2. أدخل عنوان Testnet الخاص بك  
 3. اطلب TAZ  
-4. استلم TAZ فورًا لبدء الاختبار  
+4. استلم TAZ فورًا لبدء الاختبار
 
 **لماذا هذا مهم:**  
 - اختبار آمن من دون المخاطرة بـ ZEC  

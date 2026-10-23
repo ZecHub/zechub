@@ -1,6 +1,6 @@
 [![Edit Page](https://img.shields.io/badge/Edit-blue)](https://github.com/zechub/zechub/edit/main/site/guides/Free2z_Live.md)
 
-# Free2z: Налаштування акаунта + посібник зі стримів наживо
+# Free2Z: Налаштування акаунта + посібник зі стримів наживо
 
 ## Вступ
 
@@ -134,7 +134,7 @@ Free2Z Live — це потужний інструмент, який дозво�
 
 Коли люди приєднуються до стриму наживо, вони можуть спілкуватися в чаті, просити вийти на сцену, взаємодіяти через голосування в опитуваннях тощо.
 
-![Example of a Free2z Live session](/content-images/free2z-live-example-eecb2ae553.webp)
+![Example of a Free2Z Live session](/content-images/free2z-live-example-eecb2ae553.webp)
 
 _(Приклад сесії Free2Z Live)_
 
@@ -183,13 +183,13 @@ Free2Z Live — це універсальний і потужний інстру
 
 ### Ресурси
 
-[Free2z](https://free2z.cash/)  
-[Документація Free2z](https://free2z.cash/docs/)  
+[Free2Z](https://free2z.cash/)  
+[Документація Free2Z](https://free2z.cash/docs/)  
 [Огляд 2Z](https://free2z.cash/docs/getting-started/tuzis)  
 [Створення профілю](https://free2z.cash/docs/for-creators/creating-a-profile)  
-[Що таке Free2z Live?](https://free2z.cash/docs/for-creators/free2z-live)  
-[Free2z для прихильників](https://free2z.cash/docs/category/for-supporters)
+[Що таке Free2Z Live?](https://free2z.cash/docs/for-creators/free2z-live)  
+[Free2Z для прихильників](https://web.archive.org/web/20260118172223/https://free2z.cash/docs/category/for-supporters/)
 
 ---
 
-_Написано James Katz для Zechub._
+_Написано James Katz для ZecHub._

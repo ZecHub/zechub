@@ -1,19 +1,19 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/contribute/Contributing_Guide.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Seite bearbeiten"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
 # Zu ZecHub beitragen
 
-ZecHub hilft Menschen, mehr über Zcash zu lernen. Wenn du diese Seite liest, freuen wir uns sehr, dass du darüber nachdenkst, beizutragen! Jeder Beitrag, den du leistest, wird auf [zechub.wiki](https://www.zechub.wiki/) und in den anderen sozialen Medien von ZecHub sichtbar sein.
+ZecHub hilft Menschen, mehr über Zcash zu erfahren. Wenn du diese Seite liest, freuen wir uns sehr, dass du darüber nachdenkst, etwas beizutragen! Jeder Beitrag von dir wird auf [zechub.wiki](https://www.zechub.wiki/) und anderen sozialen Medien von ZecHub sichtbar sein.
 
 ### Neue Mitwirkende
 
-Um einen Überblick über ZecHub zu erhalten, lies das [README](https://github.com/ZecHub/zechub/blob/main/README.md).
+Um einen Überblick über ZecHub zu erhalten, lies die [README](https://github.com/ZecHub/zechub/blob/main/README.md).
 
 
 ### Erste Schritte
 
-ZecHub nutzt GitHub, um Beiträge der Community zu verwalten. Wenn du neu auf GitHub bist, keine Sorge! Wir erklären dir Schritt für Schritt, wie du dich als Community-Mitwirkende:r bei ZecHub einbringen kannst. Wir zahlen Trinkgelder in ZEC für angenommene Beiträge aus. In diesem Leitfaden erhältst du einen Überblick über den Beitrags-Workflow – vom Eröffnen eines Issues über das Erstellen eines Pull Requests (PR) bis hin zur Prüfung und dem Mergen des PR.
+ZecHub verwendet GitHub, um Beiträge der Community zu verwalten. Wenn du neu bei GitHub bist, keine Sorge! Wir erklären dir, wie du dich als Community-Mitwirkende:r bei ZecHub einbringen kannst. Für angenommene Beiträge zahlen wir Trinkgelder in abgeschirmtem ZEC aus. Die Belohnungshöhen sind in ZEC nicht festgelegt — siehe [Wie Belohnungen festgelegt werden](#how-rewards-are-set). In diesem Leitfaden erhältst du einen Überblick über den Beitragsablauf: vom Eröffnen eines Issues über das Erstellen eines Pull Requests (PR) bis hin zur Überprüfung und zum Mergen des PR.
 
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
@@ -28,45 +28,82 @@ ZecHub nutzt GitHub, um Beiträge der Community zu verwalten. Wenn du neu auf Gi
 </div>
 
 
-### Am Gespräch teilnehmen
+### Tritt der Unterhaltung bei
 
-Tritt zuerst über unsere [Community-Links](https://zechub.wiki/zcash-community/community-links) der Unterhaltung bei.
+Tritt zunächst der Unterhaltung über unsere [Community-Links](https://zechub.wiki/zcash-community/community-links) bei.
 
-### Stilrichtlinien
+### Styleguides
 
-Jeder Beitrag zu ZecHub sollte dem [ZecHub-Stilhandbuch](https://zechub.wiki/contribute/style-guide) folgen. Das gilt für Wikis, Dokumentationen und Inhalte für soziale Medien.
+Jeder Beitrag zu ZecHub sollte dem [ZecHub Styleguide](https://zechub.wiki/contribute/style-guide) folgen. Dies gilt für Wikis, Dokumentationen und Inhalte in sozialen Medien.
 
 ### Möglichkeiten, wie du beitragen kannst
 
-ZecHub ist ein gemeinschaftsgetriebenes Projekt, das darauf abzielt, Unterstützung und Ressourcen für Zcash-Nutzer:innen und Entwickler:innen bereitzustellen. Es gibt viele Möglichkeiten, sich bei ZecHub einzubringen, darunter das Schreiben für unseren wöchentlichen Newsletter, Beiträge zu unserer Wissensdatenbank oder Hilfe bei Entwicklungsprojekten.
+ZecHub ist ein von der Community getragenes Projekt, das Unterstützung und Ressourcen für Nutzer:innen und Entwickler:innen von Zcash bereitstellen soll. Es gibt viele Möglichkeiten, dich bei ZecHub einzubringen, darunter das Schreiben für unseren wöchentlichen Newsletter, Beiträge zu unserer Wissensdatenbank oder Hilfe bei Entwicklungsprojekten.
 
-Dies sind die Arten von Beiträgen, die ZecHub derzeit akzeptiert:
+Dies sind die Arten von Beiträgen, die ZecHub derzeit annimmt:
 
-#### Entwicklungsarbeit - 0.12 bis zu 0.5 ZEC pro genehmigtem PR
+### Wie Belohnungen festgelegt werden
 
-Jede genehmigte Entwicklungsarbeit, die beim Aufbau des Zcash-Ökosystems hilft. Dazu können unser Wiki, neue Wallets oder jede andere Anwendung gehören, die dir einfällt.
+Trinkgelder werden in abgeschirmtem ZEC ausgezahlt. Die ZEC-Zahlen, die früher in den untenstehenden Überschriften standen, waren historische Momentaufnahmen zu einem älteren ZEC/USD-Kurs. Betrachte sie nicht als aktuelle Kurse.
 
-#### Zcash-Tutorials (Video) - bis zu 0.15 ZEC pro Tutorial
+So wird ein Betrag ausgewählt:
 
-Hier ist unten ein Beispiel-Tutorial:
+1. Ordne die Arbeit einem USD-Intervall in der Richtlinie zu [Bounty-Beträgen](https://bounties.zechub.wiki/docs/bounty-amounts) zu.
+2. Wähle ein Ziel innerhalb dieser Spanne — nicht automatisch den Höchstwert.
+3. Rechne zum öffentlichen ZEC/USD-Spotkurs um und trage ZEC für die Bounty ein:
 
+```
+zec_to_enter = usd_target / zec_usd_spot
+```
+
+Runde auf 4 Dezimalstellen. Die Richtliniendatei ist die einzige maßgebliche Quelle. Falls diese Seite und jene Datei voneinander abweichen, gilt die Richtlinie.
+
+Bezahlte Arbeiten sind auf [ZEC Bounties](https://bounties.zechub.wiki/) aufgeführt.
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
     className="w-full h-full"
-    src="https://www.youtube.com/embed/qz4KzDjkqu8"
-    title="WSL-Installation + Zcashd-Kompilierung/Transaktions-Tutorial"
+    src="https://www.youtube.com/embed/Lb5Bvl1GkRQ"
+    title="ZecBounties erklärt | Verdiene ZEC durch Beiträge"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowFullScreen
     loading="lazy"
   />
 </div>
 
-Erstelle und teile Tutorials zu Zcash-Apps und werde dafür belohnt. Reiche einen PR bei zechub/tutorials ein oder sende das Video an den Kanal #video-content auf Discord. Wenn das Video unsere Kriterien erfüllt, werden wir es veröffentlichen und dir ein Trinkgeld geben.
+Drei Zustände, die nicht dasselbe sind:
 
-#### ZecHub Wiki - bis zu 0.08 ZEC pro veröffentlichter neuer Wiki-Seite
+1. **Gemergt** — der PR wurde in das Repository übernommen.
+2. **Belohnung genehmigt** — ein Sponsor oder die DAO stimmt zu, dass eine Belohnung geschuldet ist und in welcher Höhe.
+3. **Bezahlt** — ZEC erreicht dein abgeschirmtes Unified Address.
 
-Unsere Wiki-Seite stellt Bildungsinhalte zu Zcash in einem einfachen und leicht verständlichen Format bereit. Zcash ist eine sehr fortschrittliche Technologie mit einer lebendigen Community, daher gibt es noch mehr Dokumentation, die wir erstellen müssen. Unser Ziel ist es, Dokumentation zu folgenden Themen aufzubauen:
+Ein gemergter Beitrag genehmigt nicht automatisch eine Belohnung. Eine genehmigte Belohnung ist keine abgeschlossene Zahlung.
+
+#### Entwicklungsarbeit
+
+Jede genehmigte Entwicklungsarbeit, die beim Aufbau des Zcash-Ökosystems hilft. Dies kann unser Wiki, neue Wallets oder jede Anwendung umfassen, die dir einfällt.
+
+#### Zcash Tutorials (Video)
+
+Hier ist ein Beispiel-Tutorial:
+
+
+<div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
+  <iframe
+    className="w-full h-full"
+    src="https://www.youtube.com/embed/qz4KzDjkqu8"
+    title="WSL-Installation + Zcashd-Kompilierungs-/Transaktions-Tutorial"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowFullScreen
+    loading="lazy"
+  />
+</div>
+
+Erstelle und teile Tutorials zu Zcash-Apps und erhalte Belohnungen. Reiche einen PR bei zechub/tutorials ein oder sende das Video an den Kanal #video-content in Discord. Wenn das Video unsere Kriterien erfüllt, veröffentlichen wir es und geben dir ein Trinkgeld.
+
+#### ZecHub Wiki - neue Wiki-Seite veröffentlicht
+
+Unsere Wiki-Seite bietet Zcash-Bildungsmaterialien in einem einfachen und leicht verständlichen Format. Zcash ist eine sehr fortschrittliche Technologie mit einer lebendigen Community, daher gibt es noch mehr Dokumentation, die wir erstellen müssen. Unser Ziel ist es, Dokumentation zu folgenden Themen aufzubauen:
 
 ```
 - Zcash and its related technologies
@@ -76,38 +113,56 @@ Unsere Wiki-Seite stellt Bildungsinhalte zu Zcash in einem einfachen und leicht 
 - Privacy Ecosystem & Tools
 ```
 
-Das sind ziemlich breite Themenbereiche, daher gibt es viel, woran man arbeiten kann. Wenn du Inspiration suchst, schau dir unsere aktuelle [Wiki-Dokumentationsseite](https://zechub.wiki/) an und sieh nach, was noch fehlt. Sobald du entschieden hast, worüber du schreiben möchtest, beginne mit deinen Änderungen und lerne, wie du einen PR an das ZecHub-Repo einreichst. Alle unsere Dokumente werden in diesem Repo erstellt und gepflegt. Befolge den [ZecHub-Stil-Leitfaden](https://zechub.wiki/contribute/style-guide), wenn du eine Wiki-Seite schreibst, und nutze eine bestehende Seite im selben Bereich als strukturelle Referenz. Nachdem du einen PR eingereicht hast, sende bitte eine Nachricht an @dismad, @squirrel oder @vito im Bereich #zechub auf Discord; sie werden deinen PR prüfen und mergen, wenn er bereit ist, zur Seite hinzugefügt zu werden. Wenn er gemergt wird, fügen sie das Dokument zur ZecHub-Website hinzu. Wenn das Dokument noch nicht bereit ist, schlagen sie dir im PR Änderungen vor.
+Dies sind recht breite Bereiche, daher gibt es viel, woran man arbeiten kann. Wenn du Inspiration möchtest, sieh dir unsere aktuelle [Wiki-Dokumentationsseite](https://zechub.wiki/) an und prüfe, was fehlt. Sobald du entschieden hast, worüber du schreiben möchtest, nimm deine Änderungen vor und lerne, wie du einen PR an das ZecHub-Repository einreichst. Alle unsere Dokumentationen werden in diesem Repository erstellt und gepflegt. Befolge beim Schreiben einer Wiki-Seite den [ZecHub Styleguide](https://zechub.wiki/contribute/style-guide) und nutze eine bestehende Seite im selben Abschnitt als strukturelle Referenz. Nachdem du einen PR eingereicht hast, schreibe bitte @dismad, @squirrel oder @vito im Bereich #zechub des Discords. Sie werden deinen PR überprüfen und mergen, wenn er bereit ist, der Website hinzugefügt zu werden. Falls er gemergt wird, fügen sie das Dokument zur ZecHub-Website hinzu. Falls das Dokument noch nicht bereit ist, schlagen sie dir im PR Änderungen vor.
 
-#### ZecHub Wiki - 0.015 ZEC pro angenommener Bearbeitung der Dokumentation
+#### ZecHub Wiki - übersetzte Wiki-Seite
 
-Manchmal sind unsere Informationen in der Dokumentation nicht ganz korrekt. Das ist okay. Genau deshalb haben wir sie als Open Source veröffentlicht! Wenn du etwas findest, das in einem Wiki-Dokument geändert werden muss, gehe bitte in den Footer des Dokuments (der auf die zugehörige Github-Seite verlinkt) und schlage die Änderung über einen PR vor.
+Das Ziel von ZecHub ist es, einen Open-Source-Bildungshub bereitzustellen, zu dem jede Person in der Zcash-Community beitragen kann. Einer der größten Erfolge des Hubs besteht darin, zu sehen, wie Community-Mitglieder ZecHub-Materialien in ihre jeweilige Landessprache übersetzen.
 
-#### ZecHub Wiki - 0.005 ZEC pro behobenem defekten Link
+Hinweis: Das globale Limit für Seitenübersetzungen von ZecHub beträgt 10 Seiten pro Woche.
 
-Wenn du feststellst, dass ein Link defekt ist oder etwas Wichtiges falsch geschrieben wurde, gehe bitte in den Footer des Dokuments (der auf die zugehörige Github-Seite verlinkt) und schlage die Änderung über einen PR vor.
+Kuratierte Sprachseiten unter `translations/<locale>/site/` werden anhand eines Source-Hash-Manifests mit ihrer englischen Quelle abgeglichen. Siehe [translation/README-sync.md](https://github.com/ZecHub/zechub/blob/main/translation/README-sync.md) für die Erkennung veralteter Inhalte, den Synchronisierungsablauf und die Validierung geschützter Begriffe.
 
-#### Newsletter - 0.05 ZEC pro Ausgabe
+#### ZecHub Wiki - Bearbeitung eines bestehenden Dokuments
 
-Wir produzieren den wöchentlichen Newsletter des Ökosystems. Das ist eine besonders einfache und unkomplizierte Möglichkeit, dich einzubringen! Der Newsletter erscheint jeden Freitag oder Samstag. Wenn du einen Newsletter schreiben möchtest, schreibe @squirrel im Bereich #zecweekly auf Discord, um Bescheid zu geben.
+Manchmal sind unsere Informationen in der Dokumentation nicht ganz korrekt. Das ist in Ordnung. Deshalb stellen wir sie als Open Source bereit! Wenn du etwas findest, das in einem Wiki-Dokument geändert werden muss, gehe bitte zur Fußzeile des Dokuments (die auf die entsprechende Github-Seite verlinkt) und schlage über einen PR eine Änderung vor.
 
-Danach kannst du zum [Newsletter-Bereich dieses Repositories](/newsletter/newsletterbasics.md) gehen und einen Pull Request einreichen, um eine neue Ausgabe des Newsletters zu erstellen. Bitte folge dem Format, das in dieser [Vorlage](/newsletter/newslettertemplate.md) verwendet wird.
+#### ZecHub Wiki - defekter Link behoben
 
-Nachdem du das getan hast, wird @squirrel oder (auf Discord) sehen, dass deine neue Ausgabe des Newsletters verfügbar ist, und sie wird dann geprüft und in das Repository gemergt. Nachdem sie gemergt wurde, nehmen sie den Inhalt und veröffentlichen ihn über Substack.
+Wenn du feststellst, dass ein Link defekt ist oder etwas Wichtiges falsch geschrieben wurde, gehe bitte zur Fußzeile des Dokuments (die auf die entsprechende Github-Seite verlinkt) und schlage die Änderung über einen PR vor.
 
+#### Newsletter - neue Ausgabe
 
-#### Podcast - .25 ZEC pro auf den sozialen Kanälen von ZecHub veröffentlichter Episode
+Wir erstellen den wöchentlichen Newsletter des Ökosystems. Das ist eine sehr einfache Möglichkeit, dich einzubringen! Der Newsletter erscheint jeden Freitag oder Samstag. Wenn du einen Newsletter schreiben möchtest, schreibe @squirrel im Bereich #zecweekly von Discord, um dies mitzuteilen.
 
-Hast du eine Idee für eine Nachrichtensendung, einen Podcast, einen Twitter-Talk oder ein anderes Video-/Audio-Format? Erzähl es uns auf Discord in #video-content, und wir sprechen darüber.
+Danach kannst du zum [Newsletter-Bereich dieses Repositories](/newsletter/newsletterbasics.md) gehen und einen Pull Request einreichen, um eine neue Ausgabe des Newsletters zu erstellen. Bitte folge dem Format dieser [Vorlage](/newsletter/newslettertemplate.md).
 
-Die Belohnungen für diese Art von Inhalten sind etwas höher, daher müsste ein Vorschlag bei ZecHubs DAO eingereicht werden, bevor die Ausgaben genehmigt werden.
+Danach werden @squirrel oder (in Discord) sehen, dass deine neue Newsletter-Ausgabe verfügbar ist, sie überprüfen und dann in das Repository mergen. Nach dem Mergen übernehmen sie den Inhalt und veröffentlichen ihn über Substack.
 
+#### Newsletter - Übersetzung
+
+Derzeit haben wir Ausgaben auf Spanisch, Portugiesisch und Russisch. Die übersetzten Versionen werden in ihren sozialen Medien veröffentlicht, und wir bemühen uns, sie über die sozialen Medien von ZecHub zu verbreiten.
+
+Wenn du den Newsletter in deine Landessprache übersetzen möchtest, teile uns mit, über welchen Kanal du ihn verbreiten würdest und in welcher Sprache du den Newsletter veröffentlichen möchtest, damit wir die Veröffentlichung koordinieren können.
+
+#### Podcast - Episode in den sozialen Medien von ZecHub veröffentlicht
+
+Hast du eine Idee für eine Nachrichtensendung, einen Podcast, einen Twitter-Vortrag oder ein anderes Video-/Audioformat? Teile sie uns in Discord #video-content mit, und wir sprechen darüber.
+
+Die Belohnungen für diese Art von Inhalten sind etwas höher, daher müsste vor der Genehmigung der Ausgabe ein Vorschlag bei der DAO von ZecHub eingereicht werden.
+
+#### Kreative Beiträge für soziale Medien
+
+Wir möchten neue ansprechende Inhalte für unsere sozialen Medien. Kurze Videos, GIFs, Memes und andere kreative Beiträge werden akzeptiert, wenn sie dem [ZecHub Styleguide](https://zechub.wiki/contribute/style-guide) entsprechen. Die Belohnungshöhe richtet sich nach der Richtlinie zu [Bounty-Beträgen](https://bounties.zechub.wiki/docs/bounty-amounts).
+
+Du kannst auch Vorschaubilder für unseren Newsletter und Podcast gestalten. Wenn du Designtalent hast, schreibe uns in #design auf Discord.
 
 #### Andere Ideen? Lass es uns wissen!
 
-Hast du einen anderen Vorschlag? Erzähl es uns in #general auf Discord. Wir können darüber sprechen und sehen, ob ZecHubs DAO ihn unterstützen wird.
+Hast du einen anderen Vorschlag? Teile ihn uns in #general auf Discord mit. Wir können ihn besprechen und sehen, ob die DAO von ZecHub ihn unterstützen wird.
 
-### Zum Schluss
+### Zum Abschluss
 
-Bitte zögere nicht, damit zu beginnen, zu einem der angesehensten Protokolle der Branche beizutragen. Das ist eine großartige Möglichkeit, dich bei Zcash einzubringen. Wenn du Fragen zum Beitragen hast, lass es uns bitte auf [Discord](#join-the-conversation) wissen.
+Bitte zögere nicht, damit zu beginnen, zu einem der angesehensten Protokolle der Branche beizutragen. Dies ist eine großartige Möglichkeit, dich bei Zcash einzubringen. Wenn du Fragen zum Beitragen hast, teile sie uns bitte auf [Discord](#join-the-conversation) mit.
 
 Danke!

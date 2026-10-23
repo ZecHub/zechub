@@ -52,7 +52,7 @@ https://free2z.cash/Joaolenister/zpage/stories-of-zcash
 
 [Plus de 2Z gratuits pour les inscriptions !](https://twitter.com/free2zcash/status/1731171909629550855)
 
-[Wiki ZecHub - Pages de portefeuilles redessinées](https://zechub.wiki/site/Using_Zcash/Wallets#content)
+[Wiki ZecHub - Pages de portefeuilles redessinées](https://zechub.wiki/using-zcash/wallets)
 
 [Découvrez les dernières nouveautés de Zcash AI](https://twitter.com/ZcashAI/status/1731048591735849038)
 

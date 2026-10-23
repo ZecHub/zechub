@@ -7,15 +7,15 @@
 > **Pubblico:** principianti. La Parte 1 ha introdotto la verifica formale; qui incontriamo il vero bug che l'ha resa urgente. Tutto il necessario viene spiegato da zero.
 > **Cosa vi rimarrà:** un quadro intuitivo ma accurato di come un sistema crittografico di prove possa contenere una falla di soundness, di cosa fosse esattamente il bug "Orchard" di Zcash, perché questa classe di bug possa restare nascosta per anni e perché sia già accaduto in passato.
 
-Nella Parte 1 abbiamo detto che i test possono mostrare la presenza di bug, ma mai la loro assenza, e che i bug più pericolosi risiedono nella *specifica* di un sistema, nella sua matematica sottostante. Questo articolo è il caso di studio. Nel 2026 è stata trovata una falla nel pool schermato Orchard di Zcash che avrebbe potuto consentire a un attaccante di creare denaro contraffatto invisibile e illimitato. Era sopravvissuta quattro anni e audit ripetuti. Comprenderla, insieme ai suoi predecessori, è la motivazione più chiara possibile per dimostrare formalmente la correttezza dei sistemi.
+Nella Parte 1 abbiamo detto che i test possono mostrare la presenza di bug, ma mai la loro assenza, e che i bug più pericolosi risiedono nella *specifica* di un sistema, nella sua matematica sottostante. Questo articolo è uno studio di caso. Nel 2026 è stata trovata una falla nella pool schermata Orchard di Zcash che avrebbe potuto consentire a un attaccante di creare una quantità illimitata di denaro contraffatto in modo invisibile. Era sopravvissuta per quattro anni e ad audit ripetuti. Comprenderla, insieme ai suoi predecessori, è la motivazione più chiara possibile per dimostrare la correttezza dei sistemi.
 
 ---
 
 ## 1. Perché dovrebbe importarvi?
 
-Zcash è una criptovaluta con una modalità privata. Nel suo pool schermato, gli importi, i mittenti e i destinatari delle transazioni sono **nascosti**. Questa privacy viene ottenuta usando **prove a conoscenza zero**: prove crittografiche che dimostrano che una transazione rispetta tutte le regole, senza rivelarne il contenuto.
+Zcash è una criptovaluta con una modalità privata. Nella sua pool schermata, gli importi, i mittenti e i destinatari delle transazioni sono **nascosti**. Questa privacy viene ottenuta usando **prove a conoscenza zero**: prove crittografiche che dimostrano che una transazione rispetta tutte le regole, senza rivelarne il contenuto.
 
-Questo design ha un doppio risvolto. Su un registro trasparente come quello di Bitcoin, se qualcuno creasse monete dal nulla, i numeri gonfiati sarebbero visibili a tutti, e la rete potrebbe individuarli e annullarli. In un pool schermato, i numeri sono nascosti per progettazione. Quindi, se il sistema di prove stesso avesse una falla che permette a una transazione non valida di sembrare valida, la contraffazione sarebbe **non rilevabile**. Non la si potrebbe individuare ispezionando il registro, perché il registro è deliberatamente opaco.
+Questo design ha un doppio taglio. Su un registro trasparente come quello di Bitcoin, se qualcuno creasse monete dal nulla, i numeri gonfiati sarebbero visibili a tutti e la rete potrebbe individuarli e annullarli. In una pool schermata, i numeri sono nascosti per design. Quindi, se il sistema di prove stesso avesse una falla che permettesse a una transazione non valida di sembrare valida, la contraffazione sarebbe **non rilevabile**. Non la si potrebbe individuare ispezionando il registro, perché il registro è deliberatamente opaco.
 
 Questo è esattamente il rischio concretizzatosi in Orchard. Per capirlo, dobbiamo guardare cosa verifica davvero una prova a conoscenza zero.
 
@@ -71,7 +71,7 @@ Secondo la divulgazione di Shielded Labs e del ricercatore Taylor Hornby, la fal
 
 > Un **elemento sotto-vincolato del circuito Orchard** rendeva possibile fornire **input falsi arbitrari a una moltiplicazione su curva ellittica e far comunque superare la verifica della moltiplicazione.**
 
-In parole semplici, nella lista di controllo del circuito mancavano le caselle che avrebbero dovuto fissare quella moltiplicazione. A causa della lacuna, un attaccante sufficientemente esperto avrebbe potuto costruire una prova di transazione che il sistema avrebbe accettato, anche se la transazione creava valore dal nulla. Questa è **contraffazione**, e poiché gli importi nel pool schermato sono nascosti, sarebbe stata **non rilevabile** dal registro. Il team Tachyon ha poi descritto la stessa falla a livello di codice come righe mancanti nel circuito che alteravano silenziosamente le equazioni sottostanti.
+In parole semplici, nella lista di controllo del circuito mancavano le caselle che avrebbero dovuto fissare quella moltiplicazione. A causa della lacuna, un attaccante sufficientemente esperto avrebbe potuto costruire una prova di una transazione che il sistema avrebbe accettato, anche se la transazione creasse valore dal nulla. Questa è **contraffazione** e, poiché gli importi nella pool schermata sono nascosti, sarebbe stata **non rilevabile** dal registro. Il team di Tachyon ha poi descritto la stessa falla a livello di codice come righe mancanti nel circuito che alteravano silenziosamente le equazioni sottostanti.
 
 I parallelismi con la nostra storia della lista di controllo sono esatti:
 
@@ -128,7 +128,7 @@ Il filo conduttore è netto: le falle che potrebbero restare nascoste per sempre
 Gli sviluppatori di Zcash si sono mossi rapidamente e per fasi:
 
 1. **Rimedio d'emergenza (entro il 1-2 giugno 2026).** Entro pochi giorni dalla divulgazione, un aggiornamento d'emergenza della rete ha chiuso la finestra di vulnerabilità, aggiungendo i vincoli mancanti affinché la matematica del circuito fosse nuovamente sound.
-2. **Un nuovo inizio dimostrabile (“Ironwood”, attivato il 28 luglio 2026).** Invece di fidarsi indefinitamente di una versione corretta del vecchio pool, la comunità ha lanciato un pool schermato completamente nuovo, Ironwood, basato sul circuito corretto ma partendo da zero, e accompagnato da una prova formale di correttezza verificata da una macchina.
+2. **Un nuovo inizio dimostrabile ("Ironwood", attivato il 28 luglio 2026).** Invece di fidarsi indefinitamente di una versione corretta della vecchia pool, la comunità ha lanciato una pool schermata completamente nuova, Ironwood, basata sul circuito corretto ma partendo da zero, e accompagnata da una prova formale di correttezza verificata da una macchina.
 
 Quel secondo passaggio è il punto in cui la verifica formale entra nella storia, ed è l'argomento della Parte 3. Vale la pena anticipare la consapevolezza su cui il team ha agito, perché unisce l'intera serie:
 
@@ -146,12 +146,12 @@ Abbiamo semplificato deliberatamente. Il circuito reale coinvolge centinaia di r
 
 ## 9. Riepilogo
 
-- Il pool schermato di Zcash nasconde gli importi mediante **prove a conoscenza zero**, quindi una falla in tali prove potrebbe consentire una **contraffazione invisibile**.
+- La pool schermata di Zcash nasconde gli importi mediante **prove a conoscenza zero**, quindi una falla in tali prove potrebbe consentire una **contraffazione invisibile**.
 - Un sistema di prove verifica un **circuito** fisso di **vincoli**; la sua proprietà cruciale è la **soundness**: solo le affermazioni vere dovrebbero avere un **testimone** soddisfacente.
 - Un **vincolo mancante** crea una **lacuna di soundness**, consentendo il passaggio di affermazioni false. (Caso giocattolo verificato: `b(b−1)=0` impone che `b` sia 0 oppure 1; rimuovendolo, `b` può essere qualsiasi valore. Questa esatta classe di bug è reale nella storia di Zcash.)
 - Il **bug Orchard** era una **moltiplicazione su curva ellittica sotto-vincolata**: input falsi arbitrari potevano superare la verifica della moltiplicazione, consentendo contraffazione illimitata e non rilevabile. Un exploit funzionante è stato dimostrato in una rete di test.
 - È rimasto nascosto per **quattro anni** (dal maggio 2022 al giugno 2026) perché i test campionano i casi e non lo hanno mai campionato; è stato trovato ragionando sulla matematica, con assistenza AI, il 29 maggio 2026.
-- La contraffazione non rilevabile può risiedere solo nella **specifica**, e Zcash ha già visto questa famiglia di bug in precedenza. Zcash ha risposto con una correzione d'emergenza e un nuovo pool verificato formalmente, **Ironwood**, oggetto della Parte 3.
+- La contraffazione non rilevabile può risiedere solo nella **specifica**, e Zcash ha già visto questa famiglia di bug in precedenza. Zcash ha risposto con una correzione d'emergenza e una nuova pool verificata formalmente, **Ironwood**, oggetto della Parte 3.
 
 ---
 
@@ -159,15 +159,15 @@ Abbiamo semplificato deliberatamente. Il circuito reale coinvolge centinaia di r
 
 | Termine | Significato in parole semplici |
 |---|---|
-| **Pool schermato** | La modalità privata di Zcash, nella quale importi e parti coinvolte sono nascosti |
-| **Prova a conoscenza zero** | Una prova che un'affermazione nascosta è valida, senza rivelare altro |
-| **Circuito** | L'insieme fisso di condizioni aritmetiche che una transazione valida deve soddisfare |
-| **Vincolo** | Una condizione (equazione) nel circuito |
-| **Testimone** | I valori segreti che soddisfano i vincoli |
+| **Shielded pool** | La modalità schermata di Zcash, nella quale importi e parti coinvolte sono nascosti |
+| **Zero-knowledge proof** | Una prova che un'affermazione nascosta è valida, senza rivelare altro |
+| **Circuit** | L'insieme fisso di condizioni aritmetiche che una transazione valida deve soddisfare |
+| **Constraint** | Una condizione (equazione) nel circuito |
+| **Witness** | I valori segreti che soddisfano i vincoli |
 | **Soundness** | La garanzia che solo le affermazioni vere possano produrre una prova valida |
-| **Lacuna di soundness** | Un vincolo mancante che consente il passaggio di affermazioni false |
-| **Sotto-vincolato** | Un circuito a cui manca una condizione necessaria, alla radice del bug Orchard |
-| **Rilevabile / non rilevabile** | Se lo sfruttamento lascerebbe prove nel registro pubblico |
+| **Soundness gap** | Un vincolo mancante che consente il passaggio di affermazioni false |
+| **Under-constrained** | Un circuito a cui manca una condizione necessaria, alla radice del bug Orchard |
+| **Detectable / undetectable** | Se lo sfruttamento lascerebbe prove nel registro pubblico |
 
 ---
 
@@ -196,13 +196,13 @@ Supponiamo che una transazione schermata debba dimostrare che “il denaro in en
 
 <details><summary>Risposta</summary>
 
-Con quell'output non vincolato, il prover potrebbe impostarlo a un valore maggiore di quanto consentito dagli input reali, creando valore dal nulla: una contraffazione. La prova verificherebbe comunque, perché il vincolo mancante è l'unica cosa che avrebbe rilevato lo squilibrio. E poiché il pool schermato nasconde gli importi, il registro mostra solo che “si è verificata una transazione valida”, senza squilibri visibili che facciano scattare un allarme. La falsificazione è reale ma invisibile: è proprio per questo che la soundness del circuito è così importante e deve essere dimostrata anziché testata.
+Con quell'output non vincolato, il prover potrebbe impostarlo a un valore maggiore di quanto consentito dagli input reali, creando valore dal nulla: una contraffazione. La prova verrebbe comunque verificata, perché il vincolo mancante è l'unica cosa che avrebbe rilevato lo squilibrio. E poiché la pool schermata nasconde gli importi, il registro mostra solo che "si è verificata una transazione valida", senza squilibri visibili che facciano scattare un allarme. La contraffazione è reale ma invisibile: è proprio per questo che la soundness del circuito è così importante e deve essere dimostrata anziché testata.
 </details>
 
 ---
 
 ### Cosa segue
 
-**Parte 3 · Ironwood:** la correzione non è stata soltanto una patch. Gli ingegneri di Zcash hanno costruito un nuovo pool schermato e lo hanno accompagnato con una prova matematica verificata da una macchina, composta da oltre 2.700 teoremi scritti nell'assistente di dimostrazione Lean, che non può creare denaro contraffatto secondo le assunzioni dichiarate. Vedremo cosa significano “integrità del bilancio” e “soundness della conoscenza”, cosa copre e cosa non copre esattamente la prova, e come il vecchio pool sia stato ritirato in sicurezza.
+**Parte 3 · Ironwood:** la correzione non è stata soltanto una patch. Gli ingegneri di Zcash hanno costruito una nuova pool schermata e l'hanno accompagnata con una prova matematica verificata da una macchina, composta da oltre 2.700 teoremi scritti nell'assistente di dimostrazione Lean, che non può creare denaro contraffatto secondo le assunzioni dichiarate. Vedremo cosa significano "integrità del bilancio" e "soundness della conoscenza", cosa copre e cosa non copre esattamente la prova, e come la vecchia pool sia stata ritirata in sicurezza.
 
 *Parte della* serie sulla verifica formale *per [ZecHub](https://zechub.org).*
