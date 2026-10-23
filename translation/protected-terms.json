@@ -32,9 +32,7 @@
     "CacaoSwap",
     "Canopy",
     "CardsRelay",
-    "CBZEC",
     "cbZEC",
-    "cbZec",
     "ChainLocks",
     "Changelly",
     "Changenow",
@@ -360,7 +358,6 @@
     "zk-SNARKs",
     "zkBob",
     "Zkool",
-    "zkSNARKs",
     "ZKsync",
     "Zlink",
     "ZODL",
@@ -374,16 +371,11 @@
   "equivalentForms": [
     [
       "zk-SNARK",
-      "zk-SNARKs",
-      "zkSNARKs"
+      "zk-SNARKs"
     ],
     [
       "DZap",
       "Dzap"
-    ],
-    [
-      "cbZEC",
-      "cbZec"
     ],
     [
       "Electric Coin Company",
