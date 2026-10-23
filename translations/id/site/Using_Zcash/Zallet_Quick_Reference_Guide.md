@@ -10,13 +10,13 @@
 - zcashd telah mencapai penghentian End-of-Support pada 18 Juli 2026 dan tidak lagi berjalan. Zebra sekarang menangani sisi node; Zallet menangani sisi dompet.
 - Kamu menjalankan Zallet dari command line dengan `zallet rpc <command>`, sama seperti saat kamu menggunakan `zcash-cli` sebelumnya.
 - Setiap argumen setelah nama perintah harus berupa JSON yang valid, yang berarti nilai string tetap mempertahankan tanda kutip ganda mereka.
-- Zallet masih dalam tahap alpha. Perintah dapat berubah di antara rilis, dan belum semua RPC zcashd dipindahkan ke sini.
+- Zallet berada dalam tahap beta. Perintah dapat berubah di antara rilis, dan belum semua RPC zcashd dipindahkan ke sini.
 
 ## Penjelasan Inti
 
 Zallet mengekspos fungsionalitasnya melalui JSON-RPC, gaya antarmuka yang sama dengan yang digunakan oleh dompet zcashd. Apa pun yang kamu inginkan dari dompet tersebut — memeriksa saldo, membuat akun, mengirim pembayaran terlindungi — adalah perintah yang kamu teruskan ke `zallet rpc`.
 
-Ada dua hal yang berbeda dari kebiasaan `zcash-cli` lama dan menjadi penyebab sebagian besar kesalahan di awal. Pertama, argumen harus berupa JSON yang valid, bukan sekadar teks biasa, sehingga argumen string membawa tanda kutipnya sendiri di dalam tanda kutip shell. Kedua, kumpulan perintah yang tersedia bergantung pada rilis alpha mana yang sedang kamu jalankan, sehingga daftar yang tertanam dalam binary kamu lebih andal daripada halaman tertulis apa pun, termasuk halaman ini.
+Ada dua hal yang berbeda dari kebiasaan `zcash-cli` lama dan menjadi penyebab sebagian besar kesalahan di awal. Pertama, argumen harus berupa JSON yang valid, bukan sekadar teks biasa, sehingga argumen string membawa tanda kutipnya sendiri di dalam tanda kutip shell. Kedua, kumpulan perintah yang tersedia bergantung pada rilis beta mana yang sedang kamu jalankan, sehingga daftar yang tertanam dalam binary kamu lebih andal daripada halaman tertulis apa pun, termasuk halaman ini.
 
 Untuk menampilkan semua RPC yang tersedia:
 
@@ -36,8 +36,8 @@ zallet rpc help '"<command>"'
 ## Kesalahan Umum
 
 - **Menghapus tanda kutip dalam pada argumen string.** `zallet rpc validateaddress u1abc...` gagal, karena alamat harus dikirim sebagai JSON. Argumen tersebut perlu ditulis `'"u1abc..."'`.
-- **Mengasumsikan setiap RPC zcashd ada di sini.** Proses porting masih berlangsung. Beberapa metode berperilaku identik, beberapa memerlukan penggunaan yang berbeda, dan beberapa tidak akan dipindahkan sama sekali.
-- **Menganggap halaman ini sebagai acuan utama untuk binary kamu.** Zallet masih dalam tahap alpha dan berkembang dengan cepat. Jika sebuah perintah di sini tidak berfungsi, periksa `zallet rpc help` sebelum berasumsi ada sesuatu yang rusak.
+- **Mengasumsikan setiap RPC ada di sini.** Proses porting masih berlangsung. Beberapa metode berperilaku identik, beberapa memerlukan penggunaan yang berbeda, dan beberapa tidak akan dipindahkan sama sekali.
+- **Menganggap halaman ini sebagai acuan utama untuk binary kamu.** Zallet masih dalam tahap beta dan berkembang dengan cepat. Jika sebuah perintah di sini tidak berfungsi, periksa `zallet rpc help` sebelum berasumsi ada sesuatu yang rusak.
 - **Mengharapkan Zallet adalah sebuah node.** Ini adalah bagian dompet dari pasangan tersebut. Zebra menjalankan node, dan Zallet berkomunikasi dengannya.
 
 ## Perintah RPC
@@ -474,8 +474,8 @@ zallet rpc z_viewtransaction '"<txid>"'
 
 ## Halaman Terkait
 
-- Panduan Migrasi [: Zcashd ke Zebrad dan Zallet](/guides/migration-guide-zcashd-to-zebrad-zallet) — langkah demi langkah pindah dari pengaturan zcashd yang sudah ada
+- [Panduan Migrasi: zcashd ke Zebrad dan Zallet](/guides/migration-guide-zcashd-to-zebrad-zallet) — langkah demi langkah pindah dari pengaturan zcashd yang sudah ada
 - [Zebra Full Node](/zcash-tech/zebra-full-node) — implementasi node yang bekerja bersama Zallet
-- [Full Nodes](/zcash-tech/full-nodes) — apa saja yang terlibat dalam menjalankan full node dan mengapa kamu mungkin membutuhkannya
+- [Full Node](/zcash-tech/full-nodes) — apa saja yang terlibat dalam menjalankan full node dan mengapa kamu mungkin membutuhkannya
 - [Dompet](/using-zcash/wallets) — opsi dompet yang lebih ringan jika full node terasa berlebihan bagi kebutuhanmu
 - [Transaksi](/using-zcash/transactions) — bagaimana perbedaan antara transaksi terlindungi dan transparan
