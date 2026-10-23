@@ -277,6 +277,43 @@ test("export: menu labels that exist only in the locale dictionary are reviewed 
   assert.match(md, /\| menuLabels\.Spend Zcash \| Spend Zcash \| Belanjakan Zcash \|/);
 });
 
+test("import: a reviewer note that only mentions the hint later is kept", () => {
+  const md = [
+    "## Top menu (header) and its submenus",
+    "",
+    "| # | ID | English | Indonesian | \u2705 Confirmed | Notes |",
+    "|---:|---|---|---|---|---|",
+    "| 1 | navigation.more | More | Lainnya | OK | Shorter, as the Header bar: keep it short note asks |",
+  ].join("\n");
+  assert.equal(parseKit(md).flatMap((t) => t.rows)[0].notes, "Shorter, as the Header bar: keep it short note asks");
+});
+
+test("export --only-missing keeps disputed phrases", () => {
+  const g = structuredClone(ID);
+  const [k] = Object.keys(g.phrases);
+  g.phrases[k] = { ...g.phrases[k], status: "disputed", dispute: "two readings" };
+  const en = { navigation: { a: k } };
+  const md = exportKit({ glossary: g, termsEn: TERMS_EN, kit: "ui", dict: en, enDict: en, preserveVerbatim: PV, brands: BRANDS, onlyMissing: true });
+  assert.match(md, /\| 1 \| navigation\.a \|/);
+});
+
+test("round trip: language-menu strings import as UI phrases", () => {
+  const en = { common: { languageSearch: "Search languages", close: "Close" } };
+  const loc = { common: { languageSearch: "Cari bahasa", close: "Tutup" } };
+  const md = markAllOk(exportKit({ glossary: ID, termsEn: TERMS_EN, kit: "ui", dict: loc, enDict: en, preserveVerbatim: PV, brands: BRANDS }));
+  const { glossary } = run(ID, md);
+  assert.equal(glossary.phrases["Search languages"].target, "Cari bahasa");
+  assert.equal(glossary.phrases["Search languages"].applies_to, "ui");
+  assert.equal(glossary.phrases["Close"].target, "Tutup");
+});
+
+test("the Greek follow-up kit parses and lists the header-bar rows", () => {
+  const rows = parseKit(read("../test-fixtures/menus-review-el-followup.md")).flatMap((t) => t.rows);
+  assert.ok(rows.length >= 18);
+  assert.ok(rows.some((r) => r.english === "Use Zcash"));
+  assert.ok(rows.some((r) => r.english === "Search languages"));
+});
+
 test("isNameOnly: whole names only, case-insensitive", () => {
   assert.ok(isNameOnly("Keystone Zashi", ["Keystone", "Zashi"]));
   assert.ok(isNameOnly("Metamask Snap", ["MetaMask Snap"]));

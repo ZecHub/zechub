@@ -41,7 +41,9 @@ export const UI_SECTION_KEYS = {
   common: ["language", "languageSearch", "languageSuggested", "languageAll", "languageNone", "search", "close"],
 };
 
-// Labels shown side by side in the desktop header bar. The bar must fit on one
+// Labels shown side by side in the desktop header bar (zechub-wiki
+// src/components/Navigation/Navigation.tsx: the four menus, More, and the
+// Bounties and Dashboard buttons). The bar must fit on one
 // line (otherwise the site falls back to the menu button), so the kit asks the
 // reviewer for the shortest natural form of these rows.
 export const HEADER_BAR_IDS = [
@@ -54,6 +56,9 @@ export const HEADER_BAR_IDS = [
   "navigation.dashboard",
 ];
 const HEADER_BAR_NOTE = "Header bar: keep it short";
+// Only the hint as exported (at the start of the cell) is removed.
+const HEADER_BAR_PREFIX = new RegExp(`^\\s*${HEADER_BAR_NOTE}\\s*[.;,]?\\s*`);
+const stripHeaderBarHint = (notes) => notes.replace(HEADER_BAR_PREFIX, "").trim();
 
 const UI_SECTION_TITLES = {
   navigation: "Top menu (header) and its submenus",
@@ -149,7 +154,7 @@ export function parseKit(md) {
         proposed: idx.proposed > idx.english ? (c[idx.proposed] ?? "") : "",
         confirmed: c[idx.confirm] ?? "",
         // The export pre-fills the header-bar hint; it is not a reviewer note.
-        notes: idx.notes >= 0 ? (c[idx.notes] ?? "").replace(HEADER_BAR_NOTE, "").replace(/^[\s.;,]+/, "").trim() : "",
+        notes: idx.notes >= 0 ? stripHeaderBarHint(c[idx.notes] ?? "") : "",
       });
     }
     tables.push({ kind, section, rows });
@@ -691,7 +696,7 @@ export function exportKit({ glossary, termsEn, kit, termIds = null, evidence = n
       // the locale dictionaries (filled by the menu-label sync). Take those too.
       if (section === "menuLabels" && dict?.menuLabels) {
         for (const k of Object.keys(dict.menuLabels)) {
-          if (!(k in (enDict.menuLabels ?? {}))) items.push({ path: [section, k], value: k });
+          if (!Object.hasOwn(enDict.menuLabels ?? {}, k)) items.push({ path: [section, k], value: k });
         }
       }
       if (!items.length) continue;
@@ -704,7 +709,8 @@ export function exportKit({ glossary, termsEn, kit, termIds = null, evidence = n
         // --only-missing: a follow-up kit for an already reviewed language,
         // with only the labels the glossary does not decide yet.
         // Header-bar rows stay in, to ask for their shortest form.
-        if (onlyMissing && glossary.phrases?.[english] && !HEADER_BAR_IDS.includes(path.join("."))) continue;
+        // A disputed phrase is not decided: it stays in.
+        if (onlyMissing && glossary.phrases?.[english]?.status === "approved" && !HEADER_BAR_IDS.includes(path.join("."))) continue;
         rows.push([path.join("."), english, proposeFor(english, get(dict, path))]);
       }
       if (onlyMissing && !rows.length) continue;
