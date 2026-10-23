@@ -7367,6 +7367,14 @@
       "mode": "full",
       "tool": "codex/gpt-5.6-terra",
       "edited": false
+    },
+    "Start_Here/Zcash_Monetary_Policy.md": {
+      "src": "sha256:92b8053f5d6ab9e0a31a9b565b647adbafb3b1fdba3f3f69b2b1399dc84274e6",
+      "src_commit": "801c87eae5554c633a845aa1b656aec96d911426",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
     }
   },
   "es": {
