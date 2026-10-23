@@ -10,6 +10,20 @@ Abbiamo eseguito ogni passaggio qui sotto con un trasferimento reale il 27 sette
 
 ---
 
+## In breve
+
+- ZEC nel tuo portafoglio Solana è un **token Solana** (mint `A7bd…QXaS`) garantito 1:1 da veri ZEC che l'OmniBridge di NEAR detiene sulla chain Zcash — "ZEC cartaceo" che si trova sul registro pubblico di Solana e non può essere schermato lì.
+- Il percorso prevede due passaggi: **deposita** il token su solswap.org (NEAR Intents), poi **preleva** su near.com verso l'indirizzo `u1` schermato del tuo portafoglio. Non usare il pulsante Swap di Phantom — non può aiutarti.
+- Usa un portafoglio che la directory [ZecHub](/wallets) contrassegna come **Ironwood: pronta**, e tieni un po' di SOL in Phantom per la commissione Solana.
+- Il nostro test reale (27 settembre 2026, 0,00266336 ZEC): il deposito è arrivato in 9 secondi, il prelievo ha richiesto circa 8 minuti, costo totale ~0,00025 ZEC + 0,0016 SOL.
+- Indicazione di sicurezza: firma richieste di messaggio solo su `near.com`/`solswap.org` con `intents.near` nel messaggio, non digitare mai la tua frase mnemonica e incolla `u1`, mai `t1`.
+
+## Analogia visiva
+
+ZEC su Solana funziona come un **gettone da casinò**. Ha un prezzo come il contante e il casinò — il NEAR OmniBridge — promette banconote reali (ZEC nativi) a chiunque restituisca il gettone. Ma il gettone è solo una riga nel libro mastro del casinò: tutti possono vedere chi lo possiede e il suo valore dipende dalla solidità dei sistemi del casinò. Prelevare tramite near.com è come andare alla cassa e incassare il gettone. Una volta che le banconote sono in una pool schermata, si trovano nel tuo portafoglio opaco: nessuno può più vedere l'importo o il titolare.
+
+---
+
 ## Cosa possiedi effettivamente
 
 Gli ZEC nel tuo portafoglio Solana sono un token su Solana, non monete sulla rete Zcash. L'OmniBridge di NEAR lo emette e detiene veri ZEC sulla chain Zcash a sua garanzia; il bridge è attivo su Solana dall'ottobre 2025. Il suo segmento Solana opera tramite messaggi Wormhole e NEAR Chain Signatures, non tramite un light client Zcash, quindi il lato Solana è affidabile solo quanto questi due sistemi. La gente lo chiama "ZEC cartaceo". Tiene il passo con il prezzo di ZEC, ma ogni saldo e ogni trasferimento si trova sul registro pubblico di Solana associato all'indirizzo del tuo portafoglio, e non può essere schermato finché rimane lì.
@@ -181,9 +195,28 @@ I nuovi possessori sono bersagli mirati. Quasi ogni truffa che vedrai rientra in
 
 ---
 
+## Errori comuni
+
+- **Usare il pulsante Scambio di Phantom** invece del flusso di deposito. Possiedi già il token: lo scambio sostituisce solo un ZEC cartaceo con un altro token e non ti avvicina allo ZEC nativo.
+- **Incollare un indirizzo `t1`**, o un `u1` che nasconde un ricevitore trasparente, quando il tuo portafoglio offre un `u1` esclusivamente schermato. Il deposito arriva pubblicamente e viene collegato permanentemente al tuo portafoglio.
+- **Supporre che i fondi siano bloccati** quando la pagina Withdraw di solswap mostra "–". Il saldo segue la tua chiave Phantom, non il sito web: completa il prelievo su near.com.
+- **Firmare un messaggio senza controllarlo.** Un sito simile può svuotare il tuo saldo NEAR Intents con una sola firma. Il sito deve essere `near.com` e il messaggio deve contenere `"verifying_contract": "intents.near"`.
+- **Confondere i due ticker "ZEC".** Il token Solana e lo Zcash nativo ZEC condividono un nome, ma non una rete: inviare uno dei due all'altra chain lo fa perdere.
+
 ## Cosa fare con gli ZEC schermati
 
 - Mantienili privati quando li spendi: [Usare ZEC privatamente](/guides/using-zec-privately)
 - Trova luoghi che li accettano: [Luoghi in cui spendere ZEC](/using-zcash/spend-zcash/top-10-places-to-spend-zec)
 - Invali con un messaggio privato allegato: [Memo](/using-zcash/memos)
 - Paga qualcuno senza collegare la tua identità: [Invia denaro senza collegare l'identità](/zcash-use-cases/send-money-without-linking-identity)
+
+---
+
+## Pagine correlate
+
+- [Come effettuare uno scambio per ZEC in Phantom Wallet](/using-zcash/solswap) — le schermate di solswap in maggiore dettaglio
+- [Pool schermate](/using-zcash/shielded-pools) — cosa sono le pool Ironwood/Orchard e come funzionano i destinatari
+- [Chi può vedere il tuo pagamento Zcash?](/start-here/who-can-see-your-zcash-payment) — cosa nasconde effettivamente la schermatura
+- [Portafogli](/wallets) — l'elenco; controlla l'etichetta **Ironwood: Pronto**
+- [Exchange custodial (custodia di terzi)](/using-zcash/custodial-exchanges) — il compromesso che questo percorso evita
+- [Recupero dei fondi](/using-zcash/recovering-funds) — cosa tenere al sicuro per non perdere mai l'accesso

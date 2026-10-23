@@ -26,11 +26,11 @@ As mentioned in the new user guide, the Zcash forum is a great place to have lon
 
 Z.cash jẹ oju opo wẹẹbu akọkọ ti Zcash O pese akoonu ati iwe-ipamọ ti ZCash fun ọpọlọpọ awọn olumulo ati gba awọn olumulo tuntun laaye lati jinle sinu alaye imọ ẹrọ ni ayika ZCASH .
 
-**[Zcash Github ì í ë ¤ì 'ë©'í ¬](https://github.com/zcash/zcash)**
+**[Zcash GitHub ì í ë ¤ì 'ë©'í ¬](https://github.com/zcash/zcash)**
 
-Ṣe o ni awọn ohun elo ti n ṣe awopọ ati pe o fẹ lati jinlẹ sinu ẹgbẹ imọ-ẹrọ Zcash? Awọn Repo Github zcash jẹ ibi ipamọ fun zcashd, imuse node akọkọ Zcash. zcash d de opin atilẹyin laifọwọyi rẹ duro ni 18 Keje 2026 ko si tun ṣetọju, ati oju-iwe igbasilẹ eyiti titẹsi yii lo lati sopọ mọ a ko sin mọ. Apapo ti o wa lọwọlọwọ ni: [Zebra](https://github.com/ZcashFoundation/zebra) fún ìsọ̀rí náà àti [Zallet](https://github.com/zcash/zallet) fún àpò  wo àwọn ojúewé tó wà nísàlẹ̀ yìí: [zcashd to Zebra and Zallet migration guide ìtójútán ìrìnàjò àwọn ẹyẹ zebra àti zallet](https://zechub.wiki/guides/migration-guide-zcashd-to-zebrad-zallet).
+Ṣe o ni awọn ohun elo ti n ṣe awopọ ati pe o fẹ lati jinlẹ sinu ẹgbẹ imọ-ẹrọ Zcash? Awọn Repo GitHub zcash jẹ ibi ipamọ fun zcashd, imuse node akọkọ Zcash. zcash d de opin atilẹyin laifọwọyi rẹ duro ni 18 Keje 2026 ko si tun ṣetọju, ati oju-iwe igbasilẹ eyiti titẹsi yii lo lati sopọ mọ a ko sin mọ. Apapo ti o wa lọwọlọwọ ni: [Zebra](https://github.com/ZcashFoundation/zebra) fún ìsọ̀rí náà àti [Zallet](https://github.com/zcash/zallet) fún àpò  wo àwọn ojúewé tó wà nísàlẹ̀ yìí: [zcashd to Zebra and Zallet migration guide ìtójútán ìrìnàjò àwọn ẹyẹ zebra àti zallet](https://zechub.wiki/guides/migration-guide-zcashd-to-zebrad-zallet).
 
-**[Zcash Foundation Github](https://github.com/ZcashFoundation)**
+**[Zcash Foundation GitHub](https://github.com/ZcashFoundation)**
 
 Another GitHub repository hosting projects of the Zcash Foundation, including [ẹyẹ àpáta](https://github.com/ZcashFoundation/zebra), ìmúṣẹ Zcash node nínú Rust.
 

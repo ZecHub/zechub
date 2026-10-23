@@ -120,9 +120,8 @@ export function checkTermsData(data, raw) {
     // true of a case-insensitive consumer, and the consumers are case-sensitive:
     // check-protected-terms.mjs builds `new RegExp(...)` with no `i` flag. So
     // "DASH" and "Dash" protect two different casings and both entries do real
-    // work. The live file relies on that for seven groups, among them the
-    // three-way CBZEC / cbZEC / cbZec — so the rule rejected the very file it
-    // guards. Where two casings genuinely are one term, equivalentForms says so
+    // work. The live file relies on that for several groups, so the rule
+    // rejected the very file it guards. Where two casings genuinely are one term, equivalentForms says so
     // deliberately, and those rules belong to term-forms.mjs (see below).
     const seen = new Set();
     for (const t of list) {

@@ -140,11 +140,11 @@ cbZEC, ZEC उपयोगकर्ताओं को Zcash ecosystem के �
 
 <div class="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   
-<iframe width="560" height="315" src="https://www.youtube.com/embed/NcOQH5OeV7I?si=IPB1OElBsYj1AUt9" title="Coinbase Wrapped (ZEC CBZEC) Token विश्लेषण" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NcOQH5OeV7I?si=IPB1OElBsYj1AUt9" title="Coinbase Wrapped (ZEC cbZEC) Token विश्लेषण" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 </div>
 
-नीचे Base पर वे DeFi platforms दिए गए हैं जो cbZec का समर्थन करते हैं 
+नीचे Base पर वे DeFi platforms दिए गए हैं जो cbZEC का समर्थन करते हैं 
 
 ---
 

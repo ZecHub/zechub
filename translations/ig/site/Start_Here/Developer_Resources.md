@@ -7,7 +7,7 @@
 
 Ihe ndị ị chọrọ iji wuo na Zcash, nke a chịkọtara site n'ihe onye ọ bụla bụ maka kama edepụtara ya n'otu ikpo.
 
-Zcashd, nke na-agba ọsọ netwọkụ maka ọtụtụ akụkọ ihe mere eme ya, ruru njedebe ndụ ya na 18 July 2026 na ngọngọ dị elu 3417100, yana ọnụ ọ bụla a gbanwere agbanwe ga -emechi n'ogologo ahụ ma jụ ịmaliteghachi. Ntuziaka edere maka zcashd bụ akụkọ ntolite ugbu a kama ịbụ ebe mbido, yabụ edepụtara ibe a gburugburu ihe dochie anya ya.
+zcashd, nke na-agba ọsọ netwọkụ maka ọtụtụ akụkọ ihe mere eme ya, ruru njedebe ndụ ya na 18 July 2026 na ngọngọ dị elu 3417100, yana ọnụ ọ bụla a gbanwere agbanwe ga -emechi n'ogologo ahụ ma jụ ịmaliteghachi. Ntuziaka edere maka zcashd bụ akụkọ ntolite ugbu a kama ịbụ ebe mbido, yabụ edepụtara ibe a gburugburu ihe dochie anya ya.
 
 ## Ihe ndị dị n'elu na-egosi otu ihe.
 
@@ -100,7 +100,7 @@ Nsonaazụ hackathon ndị na-adịbeghị anya bụ ezigbo ihe osise nke ihe nd
 
 E debere ha n'ihi na isiokwu ndị ochie jikọtara ya, nakwa maka na ọ ka bụ ihe e ji ama etu ọnụ ahụ lara ezumike nká si akpa agwa. Amalitela ebe a.
 
-[Akwụkwọ Zcashd ahụ .](https://zcash.github.io/zcash/) na ndị ọzọ. [zcashd RPC ntụaka](https://zcash.github.io/rpc/) akwụkwọ software na ruru [ngwụcha ndụ ya.](https://zcash.github.io/zcash/user/end-of-life.html) na July 2026. The [zcash/zcash](https://github.com/zcash/zcash) a na-echekwa nchekwa data.
+[Akwụkwọ zcashd ahụ .](https://zcash.github.io/zcash/) na ndị ọzọ. [zcashd RPC ntụaka](https://zcash.github.io/rpc/) akwụkwọ software na ruru [ngwụcha ndụ ya.](https://zcash.github.io/zcash/user/end-of-life.html) na July 2026. The [zcash/zcash](https://github.com/zcash/zcash) a na-echekwa nchekwa data.
 
 Ọ bụrụ na ị nwere akụ iji tinye, ma ọ bụ hụ ihe ebe a nke ga-agwụla oge, mepee nsogbu ma ọ bụkwanụ rịọ arịrịọ. Ndị otu anaghị enwe ike idobe ihe niile ugbu a, yana ịkọwapụta ihe ị zutere na -enyere aka iduzi ndị nduzi ahụ.
 

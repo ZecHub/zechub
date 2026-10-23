@@ -26,11 +26,11 @@ Dịka e kwuru na ntuziaka onye ọrụ ọhụrụ, nzukọ Zcash bụ ebe dị
 
 Z.cash bụ ebe nrụọrụ weebụ nke Zcash, ọ na-enye ọdịnaya na akwụkwọ banyere Zcash maka ọtụtụ ndị ọrụ ma nye ohere ka ndị ọhụrụ nwee ike ịbanye n'ime nkọwa gbasara teknụzụ gburugburu Zcash .
 
-**[Zcash Github](https://github.com/zcash/zcash)**
+**[Zcash GitHub](https://github.com/zcash/zcash)**
 
-Zcash Github Repo bụ ebe nchekwa maka zcashd, mmejuputa iwu mbụ nke node. zcash d ruru njedebe nkwado ya na 18 July 2026 ma anaghịzi edobe ya, a naghịkwa arụ ọrụ ibe nbudata ntinye a iji jikọta njikọ ahụ. A na-echekwa nchịkọta echekwara ka ọ bụrụ ihe nchọgharị weebụ dị mma karịa ndị ọzọ niile nwere ike ịnweta site na ịpị bọtịnụ "Zach". [Zebra](https://github.com/ZcashFoundation/zebra) maka node na [Zallet](https://github.com/zcash/zallet) maka obere akpa  lee akwụkwọ ozi ahụ . [zcashd na Zebra na Zallet ntughari nduzi.](https://zechub.wiki/guides/migration-guide-zcashd-to-zebrad-zallet).
+Zcash GitHub Repo bụ ebe nchekwa maka zcashd, mmejuputa iwu mbụ nke node. zcash d ruru njedebe nkwado ya na 18 July 2026 ma anaghịzi edobe ya, a naghịkwa arụ ọrụ ibe nbudata ntinye a iji jikọta njikọ ahụ. A na-echekwa nchịkọta echekwara ka ọ bụrụ ihe nchọgharị weebụ dị mma karịa ndị ọzọ niile nwere ike ịnweta site na ịpị bọtịnụ "Zach". [Zebra](https://github.com/ZcashFoundation/zebra) maka node na [Zallet](https://github.com/zcash/zallet) maka obere akpa  lee akwụkwọ ozi ahụ . [zcashd na Zebra na Zallet ntughari nduzi.](https://zechub.wiki/guides/migration-guide-zcashd-to-zebrad-zallet).
 
-**[Zcash Foundation Github](https://github.com/ZcashFoundation)**
+**[Zcash Foundation GitHub](https://github.com/ZcashFoundation)**
 
 Ebe nchekwa GitHub ọzọ na-akwado ọrụ nke Zcash Foundation, gụnyere [anụ ọhịa zebra](https://github.com/ZcashFoundation/zebra), mmejuputa nke Zcash node na Rust.
 

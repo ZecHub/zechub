@@ -28,7 +28,7 @@ Halo is a trustless, recursive zero-knowledge proof system discovered by Sean Bo
 
 ### No trusted setup
 
-zkSNARKs rely on a common reference string (CRS) as a public parameter for proving and verifying. This CRS must be generated in advance by a trusted party. Until recently, elaborate secure multi-party computations (MPC) — as those performed by the Aztec network and Zcash — were necessary to mitigate the risk involved during this [trusted setup ceremony](https://zkproof.org/2021/06/30/setup-ceremonies/amp/).
+zk-SNARKs rely on a common reference string (CRS) as a public parameter for proving and verifying. This CRS must be generated in advance by a trusted party. Until recently, elaborate secure multi-party computations (MPC) — as those performed by the Aztec network and Zcash — were necessary to mitigate the risk involved during this [trusted setup ceremony](https://zkproof.org/2021/06/30/setup-ceremonies/amp/).
 
 Zcash's earlier Sprout and Sapling shielded pools utilised the BCTV14 and Groth16 zk-proving systems. While these were secure, they had limitations: they were not scalable because they were tied to a single application, the "toxic waste" (remnants of cryptographic material generated during the genesis ceremony) could persist, and there was an element of trust (albeit minute) in deeming the ceremony acceptable.
 

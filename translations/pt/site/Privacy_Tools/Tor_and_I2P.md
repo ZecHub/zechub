@@ -5,13 +5,21 @@
 
 # Porque a Privacidade Importa
 
+## Resumo
+
+- **Tor** encaminha o seu tráfego através de três retransmissores e funciona tanto para a web normal como para os serviços onion — atualmente, é a opção prática predefinida para anonimizar ligações de wallets e navegação
+- **I2P** é uma rede de sobreposição peer-to-peer totalmente encriptada, concebida para os seus próprios serviços internos; **nenhum nó Zcash atual comunica I2P de forma nativa**
+- **Em dispositivos móveis:** encaminhe uma wallet Zcash através de Tor com alguns toques, usando Orbot ("Aplicações com Tor ativado")
+- **Neste momento, não é possível executar um nó Zcash através de Tor:** o suporte para `zcashd` terminou a 18 de julho de 2026, e a funcionalidade Tor do Zebra continua desativada a montante
+- Tor oculta *onde está*, não *o que faz on-chain* — as transações transparentes continuam públicas
+
 Na era digital, proteger a sua [privacidade](https://www.privacyguides.org/en/) tornou-se cada vez mais vital. Embora alguns possam ver a privacidade como uma causa perdida, não o é. A sua privacidade está em risco e deve ser uma preocupação. A privacidade tem um valor significativo, pois está relacionada com poder, e garantir que esse poder é exercido de forma responsável é crucial.
 
 ## Tecnologias Tor & I2P
 
 ## Tor
 
-[Tor](https://www.privacyguides.org/en/tor/?h=tor) é uma ferramenta de proxy que utiliza a rede Tor para estabelecer ligações para aplicações. O Torbot consegue isto ao encaminhar o seu tráfego através do Tor, aumentando assim a [privacidade e o anonimato](https://www.torproject.org/) dessas aplicações.
+[Tor](https://www.privacyguides.org/en/tor/?h=tor) é uma ferramenta de proxy que utiliza a rede Tor para estabelecer ligações para aplicações. Tor consegue isto encaminhando o seu tráfego através de Tor, melhorando assim a [privacidade e anonimato](https://www.torproject.org/) destas aplicações.
 
 ## Rede I2P
 
@@ -43,13 +51,13 @@ Siga estas instruções para encaminhar uma wallet Zcash através do Tor. Note q
 
 1.  Descarregue e instale o *Orbot* a partir da loja de aplicações.
 
-2.  Após a instalação, aparecerá uma mensagem de boas-vindas. Continue para a página inicial do *Orbot* e clique em *'Tor Enabled Apps'.*              
+2.  Após a instalação, aparecerá uma mensagem de boas-vindas. Continue para a página inicial do *Orbot* e clique em *'Tor Apps ativadas'.*
 
 3. Isto fará surgir uma página no ecrã com as aplicações compatíveis com Tor. Encontre a sua wallet Zcash na lista e certifique-se de que está selecionada.
 
 4. Aparecerá um pedido de ligação para configurar uma VPN, o que permitirá ao *Orbot* monitorizar o tráfego de rede. O *Orbot* será inicializado assim que esta permissão for aprovada. 
 
-5. Verifique a barra de tarefas ou a página inicial do Orbot para confirmar que o Tor está em execução; isso é confirmado quando vir 'Connected to the Tor network'.
+5. Verifique a barra de tarefas ou a página inicial de Orbot para confirmar que Tor está em execução; isto é confirmado quando vir 'Ligado à rede Tor'.
 
 *Nota: Se o Tor estiver bloqueado pela sua rede móvel, pode usar um Bridge Server como forma alternativa de ligação.*
 
@@ -85,3 +93,11 @@ Se precisa de anonimato ao nível do nó agora, a abordagem viável é colocar t
 - **Encaminhar a sua wallet através do Tor** com o Orbot no telemóvel, conforme descrito acima. Esta é a opção prática para a maioria das pessoas e oculta o seu IP do servidor lightwalletd com o qual a sua wallet comunica
 - **Usar o Tor Browser** para exploradores de blocos, fóruns e qualquer outra coisa em que prefira não ser associado pelo endereço
 - **Lembre-se do que o Tor não oculta.** Anonimiza a localização da sua rede, não a sua atividade on-chain. Enviar a partir de um endereço transparente continua a ser público, e o valor que atravessa entre pools shielded continua a publicar o montante. Veja [Shielded Pools](/using-zcash/shielded-pools) para perceber o que continua visível
+
+## Páginas relacionadas
+
+- [VPN e DVPN](VPN_and_DVPN.md) — alternativas a VPN e como se comparam
+- [Navegadores Web](Web_Browsers.md) — reforço da segurança do navegador para a privacidade quotidiana
+- [Mensageiros Seguros](Secure_Messengers.md) — ferramentas de comunicação privada
+- [O que um Explorador de Blocos Pode Ver](../Zcash_Tech/What_a_Block_Explorer_Can_See.md) — o que a privacidade ao nível do nó protege e o que não protege
+- [Pools Protegidas](/using-zcash/shielded-pools) — o que permanece visível na blockchain, mesmo com anonimato na camada de rede
