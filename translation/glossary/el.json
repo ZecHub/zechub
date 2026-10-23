@@ -1,0 +1,2474 @@
+{
+  "locale": "el",
+  "version": 4,
+  "meta": {
+    "language_name": "Greek",
+    "native_name": "Ελληνικά",
+    "engine": "llm",
+    "script": "Grek",
+    "dir": "ltr",
+    "language_lead": [
+      "@panoskokmotos"
+    ],
+    "last_review": "2026-10-23"
+  },
+  "style": {
+    "variety": "natural, fluent Greek",
+    "register": {
+      "default": "εσύ",
+      "ui": "εσύ",
+      "text": {
+        "εσύ": "Address the reader informally with «εσύ» (second person singular) everywhere, also in technical pages. Never use the formal «εσείς»."
+      }
+    },
+    "english_in_brackets": "first-use",
+    "loanwords": "keep-english",
+    "loanwords_text": "Crypto loanwords (blockchain, token, swap, staking) stay in English; translate only where a common Greek term exists (κόμβος, έξυπνο συμβόλαιο). The terminology list below wins over this rule.",
+    "capitalise_kept_english_at_sentence_start": true,
+    "numerals": "western",
+    "decimal_separator": ",",
+    "quotes": "Greek guillemets «…» outside, “…” inside",
+    "abbreviations_with_full_stop": [
+      "π.χ",
+      "κ.λπ",
+      "δηλ"
+    ],
+    "writing_rules": [
+      "Thousands take a full stop and decimals a comma (1.000,5)."
+    ]
+  },
+  "terms": {
+    "wallet": {
+      "target": "πορτοφόλι",
+      "forms": [
+        "πορτοφόλι",
+        "πορτοφόλια",
+        "πορτοφολιού",
+        "πορτοφολιών"
+      ],
+      "context": "A wallet in running text: «πορτοφόλι». Inside the device name \"hardware wallet\" the English stays (see hardware-wallet).",
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "glossary-review-el.md#terms-1"
+    },
+    "shielded": {
+      "target": "θωρακισμένο",
+      "forms": [
+        "θωρακισμένο",
+        "θωρακισμένα",
+        "θωρακισμένος",
+        "θωρακισμένη",
+        "θωρακισμένες",
+        "θωρακισμένοι",
+        "θωρακισμένου",
+        "θωρακισμένης",
+        "θωρακισμένων"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Agrees with the noun in use: θωρακισμένη διεύθυνση/συναλλαγή, θωρακισμένο pool.",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "glossary.md#terms-2"
+    },
+    "transaction": {
+      "target": "συναλλαγή",
+      "forms": [
+        "συναλλαγή"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "glossary.md#terms-3"
+    },
+    "privacy": {
+      "target": "ιδιωτικότητα",
+      "forms": [
+        "ιδιωτικότητα"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "glossary.md#terms-5"
+    },
+    "pool": {
+      "target": "pool",
+      "keep_english": true,
+      "forms": [
+        "pool",
+        "pools",
+        "Pool",
+        "Pools"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "glossary.md#terms-6"
+    },
+    "proof": {
+      "target": "απόδειξη",
+      "forms": [
+        "απόδειξη"
+      ],
+      "rejected": [
+        {
+          "text": "proof"
+        }
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "«απόδειξη μηδενικής γνώσης» is the established Greek term in courses and articles.",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "glossary.md#terms-10"
+    },
+    "node": {
+      "target": "κόμβος",
+      "forms": [
+        "κόμβος"
+      ],
+      "rejected": [
+        {
+          "text": "node"
+        }
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "«κόμβος» is the standard Greek word for a network node; reads naturally to non-developers.",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "glossary.md#terms-9"
+    },
+    "transparent": {
+      "target": "διαφανές",
+      "forms": [
+        "διαφανές",
+        "διαφανής",
+        "διαφανή",
+        "διαφανείς",
+        "διαφανούς",
+        "διαφανών"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "glossary.md#terms-12"
+    },
+    "exchange": {
+      "target": "ανταλλακτήριο",
+      "forms": [
+        "ανταλλακτήριο",
+        "ανταλλακτήρια",
+        "ανταλλακτηρίου",
+        "ανταλλακτηρίων"
+      ],
+      "rejected": [
+        {
+          "text": "exchange"
+        }
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Matches the menus and Greek apps, e.g. MetaMask «Εισηγμένο σε ανταλλακτήριο»: https://github.com/MetaMask/metamask-extension/blob/6b79fa6210e16aad899edc570eae007028959472/app/_locales/el/messages.json#L9835",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "glossary.md#terms-16"
+    },
+    "memo": {
+      "target": "σημείωμα",
+      "forms": [
+        "σημείωμα"
+      ],
+      "rejected": [
+        {
+          "text": "memo"
+        }
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Matches the menu label «Σημειώματα»; keeps it distinct from «note», which stays English.",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "glossary.md#terms-17"
+    },
+    "viewing-key": {
+      "target": "viewing key",
+      "keep_english": true,
+      "forms": [
+        "viewing key",
+        "viewing keys",
+        "view key",
+        "view keys"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "glossary.md#terms-26"
+    },
+    "fee": {
+      "target": "τέλη",
+      "forms": [
+        "τέλη"
+      ],
+      "rejected": [
+        {
+          "text": "τέλος"
+        }
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "«τέλος» alone reads as «end»; wallets say «τέλη δικτύου», e.g. MetaMask in Greek: https://github.com/MetaMask/metamask-extension/blob/6b79fa6210e16aad899edc570eae007028959472/app/_locales/el/messages.json#L1425",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "glossary.md#terms-21"
+    },
+    "swap": {
+      "target": "swap",
+      "keep_english": true,
+      "forms": [
+        "swap",
+        "swaps",
+        "Swap",
+        "Swaps",
+        "swapping",
+        "swapped"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "glossary.md#terms-27"
+    },
+    "custodial": {
+      "target": "custodial",
+      "keep_english": true,
+      "forms": [
+        "custodial",
+        "Custodial",
+        "custody",
+        "Custody",
+        "non-custodial",
+        "Non-custodial",
+        "self-custody",
+        "Self-custody"
+      ],
+      "rejected": [
+        {
+          "text": "θεματοφυλακτικό"
+        }
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Greek crypto media and apps say «custodial / non-custodial»; «θεματοφυλακτικό» sounds like legal text.",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "glossary.md#terms-19"
+    },
+    "zero-knowledge": {
+      "target": "μηδενικής γνώσης",
+      "forms": [
+        "μηδενικής γνώσης",
+        "μηδενική γνώση"
+      ],
+      "rejected": [
+        {
+          "text": "zero-knowledge"
+        }
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Established Greek term («αποδείξεις μηδενικής γνώσης»); used as a genitive modifier.",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "glossary.md#terms-22"
+    },
+    "network-upgrade": {
+      "target": "αναβάθμιση δικτύου",
+      "forms": [
+        "αναβάθμιση δικτύου"
+      ],
+      "rejected": [
+        {
+          "text": "network upgrade"
+        }
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Plain Greek, understood by everyone; NU5/NU6 names stay as they are.",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "glossary.md#terms-32"
+    },
+    "mining": {
+      "target": "εξόρυξη",
+      "forms": [
+        "εξόρυξη"
+      ],
+      "rejected": [
+        {
+          "text": "ναρκοθέτηση"
+        }
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "«ναρκοθέτηση» means laying landmines; crypto mining is «εξόρυξη».",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "glossary.md#terms-20"
+    },
+    "miner": {
+      "target": "εξορύκτης",
+      "forms": [
+        "εξορύκτης"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "glossary.md#terms-39"
+    },
+    "full-node": {
+      "target": "πλήρης κόμβος",
+      "forms": [
+        "πλήρης κόμβος"
+      ],
+      "rejected": [
+        {
+          "text": "full node"
+        }
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Follows «κόμβος» for node.",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "glossary.md#terms-34"
+    },
+    "turnstile": {
+      "target": "turnstile",
+      "keep_english": true,
+      "forms": [
+        "turnstile",
+        "turnstiles",
+        "Turnstile",
+        "Turnstiles"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "glossary.md#terms-37"
+    },
+    "spending-key": {
+      "target": "spending key",
+      "keep_english": true,
+      "forms": [
+        "spending key",
+        "spending keys",
+        "Spending key",
+        "Spending Key"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "glossary.md#terms-38"
+    },
+    "seed-phrase": {
+      "target": "φράση ανάκτησης",
+      "forms": [
+        "φράση ανάκτησης"
+      ],
+      "rejected": [
+        {
+          "text": "seed phrase"
+        }
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "What Greek wallet apps show, e.g. MetaMask «Μυστική Φράση Ανάκτησης»: https://github.com/MetaMask/metamask-extension/blob/6b79fa6210e16aad899edc570eae007028959472/app/_locales/el/messages.json#L2851",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "glossary.md#terms-50"
+    },
+    "light-client": {
+      "target": "light client",
+      "keep_english": true,
+      "forms": [
+        "light client",
+        "light clients",
+        "Light client",
+        "Light Client"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "glossary.md#terms-55"
+    },
+    "token": {
+      "target": "token",
+      "keep_english": true,
+      "forms": [
+        "token",
+        "tokens",
+        "Token",
+        "Tokens"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "glossary.md#terms-28"
+    },
+    "chain": {
+      "target": "αλυσίδα",
+      "forms": [
+        "αλυσίδα",
+        "αλυσίδας",
+        "αλυσίδες"
+      ],
+      "context": "The word chain on its own in a sentence: «αλυσίδα». The fixed terms on-chain and cross-chain stay English.",
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "glossary-review-el.md#terms-11"
+    },
+    "cross-chain": {
+      "target": "cross-chain",
+      "keep_english": true,
+      "forms": [
+        "cross-chain",
+        "Cross-chain"
+      ],
+      "context": "The fixed crypto term Greek readers use; not the word chain on its own (αλυσίδα).",
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "glossary-review-el.md#terms-52"
+    },
+    "faucet": {
+      "target": "faucet",
+      "keep_english": true,
+      "forms": [
+        "faucet",
+        "faucets",
+        "Faucet",
+        "Faucets"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "glossary.md#terms-49"
+    },
+    "developer": {
+      "target": "προγραμματιστής",
+      "forms": [
+        "προγραμματιστής"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "glossary.md#terms-33"
+    },
+    "dashboard": {
+      "target": "πίνακας ελέγχου",
+      "forms": [
+        "πίνακας ελέγχου"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "glossary.md#terms-51"
+    },
+    "visualizer": {
+      "target": "visualizer",
+      "keep_english": true,
+      "forms": [
+        "visualizer",
+        "visualizers",
+        "Visualizer",
+        "visualiser"
+      ],
+      "rejected": [
+        {
+          "text": "εργαλείο οπτικοποίησης"
+        }
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Used as the tool's name in the menu; «εργαλείο οπτικοποίησης» is too long for a label.",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "glossary.md#terms-62"
+    },
+    "use-case": {
+      "target": "περίπτωση χρήσης",
+      "forms": [
+        "περίπτωση χρήσης",
+        "περιπτώσεις χρήσης",
+        "περίπτωσης χρήσης",
+        "περιπτώσεων χρήσης"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "glossary.md#terms-53"
+    },
+    "brand": {
+      "target": "brand",
+      "keep_english": true,
+      "forms": [
+        "brand",
+        "brands",
+        "Brand",
+        "Brands"
+      ],
+      "rejected": [
+        {
+          "text": "εμπορική ταυτότητα"
+        }
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "«brand» is the usual word for logos and visual identity in Greek; matches the menu label.",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "glossary.md#terms-61"
+    },
+    "treasury": {
+      "target": "ταμείο",
+      "forms": [
+        "ταμείο"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "glossary.md#terms-57"
+    },
+    "top-up": {
+      "target": "ανανέωση",
+      "forms": [
+        "ανανέωση",
+        "ανανεώσεις",
+        "ανανέωσης",
+        "ανανεώσεων"
+      ],
+      "rejected": [
+        {
+          "text": "ανανεώστε"
+        }
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "«ανανεώστε» is a command («renew!»); the term is «ανανέωση» (ανανέωση κινητού), as in the menu.",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "glossary.md#terms-58"
+    },
+    "tools": {
+      "target": "εργαλεία",
+      "forms": [
+        "εργαλεία"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "glossary.md#terms-25"
+    },
+    "newsletter": {
+      "target": "newsletter",
+      "keep_english": true,
+      "forms": [
+        "newsletter",
+        "newsletters",
+        "Newsletter",
+        "Newsletters"
+      ],
+      "rejected": [
+        {
+          "text": "ενημερωτικό δελτίο"
+        }
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "«newsletter» is what Greek sites and readers use; matches the menu label.",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "glossary.md#terms-45"
+    },
+    "address": {
+      "target": "διεύθυνση",
+      "forms": [
+        "διεύθυνση",
+        "διευθύνσεις",
+        "διεύθυνσης",
+        "διευθύνσεων"
+      ],
+      "rejected": [
+        {
+          "text": "προσφώνηση"
+        }
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "«προσφώνηση» means a form of address/greeting; a wallet address is «διεύθυνση».",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "glossary.md#terms-4"
+    },
+    "block": {
+      "target": "μπλοκ",
+      "forms": [
+        "μπλοκ"
+      ],
+      "context": "A block of the chain in running text: «μπλοκ». The tool name \"block explorer\" stays English.",
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "glossary.md#terms-7"
+    },
+    "blockchain": {
+      "target": "blockchain",
+      "keep_english": true,
+      "forms": [
+        "blockchain",
+        "Blockchain",
+        "blockchains",
+        "Blockchains"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "glossary.md#terms-15"
+    },
+    "signature": {
+      "target": "υπογραφή",
+      "forms": [
+        "υπογραφή"
+      ],
+      "rejected": [
+        {
+          "text": "κρυπτογραφική υπογραφή"
+        }
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Context already makes it cryptographic; «κρυπτογραφική υπογραφή» is too long for every use.",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "glossary.md#terms-18"
+    },
+    "commitment": {
+      "target": "commitment",
+      "keep_english": true,
+      "forms": [
+        "commitment",
+        "Commitment",
+        "commitments",
+        "Commitments"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "glossary.md#terms-23"
+    },
+    "nullifier": {
+      "target": "nullifier",
+      "keep_english": true,
+      "forms": [
+        "nullifier",
+        "Nullifier",
+        "nullifiers",
+        "Nullifiers"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "glossary.md#terms-40"
+    },
+    "note": {
+      "target": "note",
+      "keep_english": true,
+      "forms": [
+        "note",
+        "Note",
+        "notes",
+        "Notes"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "glossary.md#terms-13"
+    },
+    "trusted-setup": {
+      "target": "trusted setup",
+      "keep_english": true,
+      "forms": [
+        "trusted setup",
+        "Trusted setup",
+        "trusted setups",
+        "Trusted setups"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "glossary.md#terms-46"
+    },
+    "consensus": {
+      "target": "συναίνεση",
+      "forms": [
+        "συναίνεση"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "glossary.md#terms-29"
+    },
+    "governance": {
+      "target": "διακυβέρνηση",
+      "forms": [
+        "διακυβέρνηση"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "glossary.md#terms-36"
+    },
+    "grant": {
+      "target": "επιχορήγηση",
+      "forms": [
+        "επιχορήγηση",
+        "επιχορηγήσεις",
+        "επιχορήγησης",
+        "επιχορηγήσεων"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "glossary.md#terms-24"
+    },
+    "halving": {
+      "target": "halving",
+      "keep_english": true,
+      "forms": [
+        "halving",
+        "Halving",
+        "halvings",
+        "Halvings"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "glossary.md#terms-43"
+    },
+    "staking": {
+      "target": "staking",
+      "keep_english": true,
+      "forms": [
+        "staking",
+        "Staking",
+        "stake",
+        "Stake",
+        "stakes",
+        "Stakes",
+        "staked",
+        "Staked"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "glossary.md#terms-30"
+    },
+    "finalizer": {
+      "target": "finalizer",
+      "keep_english": true,
+      "forms": [
+        "finalizer",
+        "Finalizer",
+        "finalizers",
+        "Finalizers"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "glossary.md#terms-44"
+    },
+    "bond": {
+      "target": "bond",
+      "keep_english": true,
+      "forms": [
+        "bond",
+        "Bond",
+        "bonds",
+        "Bonds",
+        "bonding",
+        "Bonding",
+        "unbonding",
+        "Unbonding",
+        "unbond",
+        "Unbond"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "glossary.md#terms-47"
+    },
+    "encryption": {
+      "target": "κρυπτογράφηση",
+      "forms": [
+        "κρυπτογράφηση"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "glossary.md#terms-14"
+    },
+    "decentralized": {
+      "target": "αποκεντρωμένο",
+      "forms": [
+        "αποκεντρωμένο"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "glossary.md#terms-31"
+    },
+    "on-chain": {
+      "target": "on-chain",
+      "keep_english": true,
+      "forms": [
+        "on-chain",
+        "On-chain",
+        "off-chain",
+        "Off-chain"
+      ],
+      "context": "The fixed crypto term Greek readers use; not the word chain on its own (αλυσίδα).",
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "glossary-review-el.md#terms-35"
+    },
+    "bridge": {
+      "target": "γέφυρα",
+      "forms": [
+        "γέφυρα"
+      ],
+      "rejected": [
+        {
+          "text": "μπριτζ"
+        }
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "«μπριτζ» is a transliteration nobody uses; Greek crypto media say «γέφυρα».",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "glossary.md#terms-42"
+    },
+    "payment": {
+      "target": "πληρωμή",
+      "forms": [
+        "πληρωμή",
+        "πληρωμές",
+        "πληρωμής",
+        "πληρωμών"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "glossary.md#terms-8"
+    },
+    "smart-contract": {
+      "target": "έξυπνο συμβόλαιο",
+      "forms": [
+        "έξυπνο συμβόλαιο"
+      ],
+      "rejected": [
+        {
+          "text": "smart contract"
+        }
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Established Greek term, used in Greek press and law texts.",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "glossary.md#terms-54"
+    },
+    "unlinkable": {
+      "target": "μη συσχετίσιμο",
+      "forms": [
+        "μη συσχετίσιμο"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "glossary.md#terms-60"
+    },
+    "permissionless": {
+      "target": "χωρίς ανάγκη άδειας",
+      "forms": [
+        "χωρίς ανάγκη άδειας"
+      ],
+      "rejected": [
+        {
+          "text": "χωρίς άδεια"
+        }
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "«χωρίς άδεια» can read as «unlicensed / illegal»; this keeps the meaning «no approval needed».",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "glossary.md#terms-59"
+    },
+    "scaling": {
+      "target": "κλιμάκωση",
+      "forms": [
+        "κλιμάκωση"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "glossary.md#terms-48"
+    },
+    "selective-disclosure": {
+      "target": "επιλεκτική αποκάλυψη",
+      "forms": [
+        "επιλεκτική αποκάλυψη"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "glossary.md#terms-56"
+    },
+    "hardware-wallet": {
+      "target": "hardware wallet",
+      "keep_english": true,
+      "forms": [
+        "hardware wallet",
+        "hardware wallets"
+      ],
+      "context": "The physical signing device: Greek users say and search for «hardware wallet». Not the software wallet (πορτοφόλι).",
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "glossary-review-el.md#terms-41"
+    }
+  },
+  "phrases": {
+    "Accept Payments": {
+      "target": "Αποδοχή πληρωμών",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "menus.md#navigation-32"
+    },
+    "Akash Network": {
+      "target": "Δίκτυο Akash",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "menus.md#navigation-60"
+    },
+    "Akash Network Zebra": {
+      "target": "Zebra στο Δίκτυο Akash",
+      "rejected": [
+        {
+          "text": "Akash Network Zebra"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "Same wording as the guides menu «Δίκτυο Akash».",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "menus.md#menuLabels-2"
+    },
+    "Avalanche RedBridge": {
+      "target": "Avalanche RedBridge",
+      "keep_english": true,
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "menus.md#navigation-61"
+    },
+    "Block Explorers": {
+      "target": "Block explorers",
+      "context": "The tool name stays English, like the reviewer's on-chain and hardware wallet; a block on its own is «μπλοκ».",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "menus-review-el.md#navigation-20"
+    },
+    "Blockchain Explorers": {
+      "target": "Blockchain explorers",
+      "keep_english": true,
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "menus.md#navigation-64"
+    },
+    "Brand": {
+      "target": "Brand",
+      "keep_english": true,
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "menus.md#navigation-50"
+    },
+    "BTCPayServer Plugin": {
+      "target": "Plugin BTCPayServer",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "menus.md#navigation-65"
+    },
+    "BTCPayServer Zcash Plugin": {
+      "target": "Plugin BTCPayServer για Zcash",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "menus.md#menuLabels-4"
+    },
+    "Buying ZEC": {
+      "target": "Αγορά ZEC",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "menus.md#navigation-16"
+    },
+    "CoinHolder Directed Retroactive Grants": {
+      "target": "Αναδρομικές επιχορηγήσεις με ψήφο κατόχων ZEC",
+      "rejected": [
+        {
+          "text": "Αναδρομικές επιχορηγήσεις κατόχων coin"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "«κατόχων coin» is half English; coinholders direct the grants by vote.",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "menus.md#navigation-51"
+    },
+    "Community": {
+      "target": "Κοινότητα",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "menus.md#navigation-11"
+    },
+    "Community Blogs": {
+      "target": "Ιστολόγια κοινότητας",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "menus.md#navigation-40"
+    },
+    "Community Building": {
+      "target": "Ανάπτυξη κοινότητας",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "menus.md#menuLabels-80"
+    },
+    "Community Forum": {
+      "target": "Φόρουμ κοινότητας",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "menus.md#navigation-42"
+    },
+    "Community Links": {
+      "target": "Σύνδεσμοι κοινότητας",
+      "rejected": [
+        {
+          "text": "Κρίκοι κοινότητας"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "«Κρίκοι» are chain links; web links are «σύνδεσμοι».",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "menus.md#navigation-41"
+    },
+    "Community Projects": {
+      "target": "Έργα κοινότητας",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "menus.md#navigation-43"
+    },
+    "Contribute": {
+      "target": "Συνεισφορά",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "menus.md#navigation-12"
+    },
+    "Custodial Exchanges": {
+      "target": "Custodial ανταλλακτήρια",
+      "rejected": [
+        {
+          "text": "Custodial exchanges"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "Glossary: custodial stays English, exchange → ανταλλακτήριο.",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "menus.md#menuLabels-74"
+    },
+    "Cypherpunk Zero NFT": {
+      "target": "Cypherpunk Zero NFT",
+      "keep_english": true,
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "menus.md#navigation-47"
+    },
+    "DAO": {
+      "target": "DAO",
+      "keep_english": true,
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "menus.md#navigation-6"
+    },
+    "Dashboard": {
+      "target": "Πίνακας ελέγχου",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "menus.md#navigation-13"
+    },
+    "Developers": {
+      "target": "Προγραμματιστές",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "menus.md#navigation-10"
+    },
+    "Donate": {
+      "target": "Δωρεά",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "menus.md#navigation-8"
+    },
+    "Donations": {
+      "target": "Δωρεές",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "menus.md#navigation-37"
+    },
+    "Ecosystem": {
+      "target": "Οικοσύστημα",
+      "context": "The menu label on its own (nominative). In a phrase Greek changes the ending: «οικοσυστήματος» (see Zcash Ecosystem Security).",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "menus-review-el.md#navigation-39"
+    },
+    "Exchanges": {
+      "target": "Ανταλλακτήρια",
+      "rejected": [
+        {
+          "text": "Exchanges"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "Glossary: exchange → ανταλλακτήριο.",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "menus.md#navigation-19"
+    },
+    "Explore": {
+      "target": "Εξερεύνηση",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "menus.md#navigation-9"
+    },
+    "Extras": {
+      "target": "Επιπλέον",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "menus.md#menuLabels-18"
+    },
+    "Faucets": {
+      "target": "Faucets",
+      "keep_english": true,
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "menus.md#navigation-17"
+    },
+    "For Forks & Maintainers": {
+      "target": "Για forks και maintainers",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "menus.md#exploreMenu-13"
+    },
+    "Fork zechub": {
+      "target": "Fork του zechub",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "menus.md#exploreMenu-15"
+    },
+    "Fork zechub-wiki": {
+      "target": "Fork του zechub-wiki",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "menus.md#exploreMenu-14"
+    },
+    "Free2z Live": {
+      "target": "Free2z Live",
+      "keep_english": true,
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "menus.md#navigation-53"
+    },
+    "Freelance Privacy": {
+      "target": "Ιδιωτικότητα για ελεύθερους επαγγελματίες",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "menus.md#navigation-33"
+    },
+    "Full Explore": {
+      "target": "Πλήρης εξερεύνηση",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "menus.md#exploreMenu-1"
+    },
+    "Glossary & FAQ's": {
+      "target": "Γλωσσάρι και συχνές ερωτήσεις",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "menus.md#menuLabels-78"
+    },
+    "Glossary & FAQs": {
+      "target": "Γλωσσάρι και συχνές ερωτήσεις",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "menus.md#exploreMenu-11"
+    },
+    "Governance": {
+      "target": "Διακυβέρνηση",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "menus.md#navigation-4"
+    },
+    "Guides": {
+      "target": "Οδηγοί",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "menus.md#navigation-2"
+    },
+    "How to Participate": {
+      "target": "Πώς να συμμετάσχεις",
+      "rejected": [
+        {
+          "text": "Πώς να συμμετάσχετε"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "Informal «εσύ» register.",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "menus.md#menuLabels-24"
+    },
+    "Journalist Privacy": {
+      "target": "Ιδιωτικότητα για δημοσιογράφους",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "menus.md#navigation-34"
+    },
+    "Keeping Records": {
+      "target": "Τήρηση αρχείων",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "menus.md#navigation-35"
+    },
+    "Memos": {
+      "target": "Σημειώματα",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "menus.md#navigation-24"
+    },
+    "Mobile Top Ups": {
+      "target": "Ανανεώσεις κινητού",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "menus.md#navigation-25"
+    },
+    "More": {
+      "target": "Περισσότερα",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "menus.md#navigation-14"
+    },
+    "Navigation": {
+      "target": "Πλοήγηση",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "menus.md#sideMenu-1"
+    },
+    "Newsletter": {
+      "target": "Newsletter",
+      "keep_english": true,
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "menus.md#navigation-7"
+    },
+    "Nym Mixnet Wallet Setup": {
+      "target": "Ρύθμιση πορτοφολιού Nym Mixnet",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "menus.md#menuLabels-81"
+    },
+    "Nym VPN": {
+      "target": "Nym VPN",
+      "keep_english": true,
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "menus.md#navigation-54"
+    },
+    "Organizations": {
+      "target": "Οργανισμοί",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "menus.md#navigation-49"
+    },
+    "Overview": {
+      "target": "Επισκόπηση",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "menus.md#navigation-72"
+    },
+    "Pay for AI": {
+      "target": "Πληρωμή για AI",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "menus.md#menuLabels-79"
+    },
+    "Payment Processors": {
+      "target": "Επεξεργαστές πληρωμών",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "menus.md#navigation-27"
+    },
+    "Payment Request URIs": {
+      "target": "URI αιτήματος πληρωμής",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "menus.md#navigation-26"
+    },
+    "Podcast": {
+      "target": "Podcast",
+      "keep_english": true,
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "menus.md#menuLabels-33"
+    },
+    "Privacy Tools": {
+      "target": "Εργαλεία ιδιωτικότητας",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "menus.md#menuLabels-77"
+    },
+    "Private Community Treasury": {
+      "target": "Ιδιωτικό ταμείο κοινότητας",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "menus.md#navigation-36"
+    },
+    "Raspberry Pi 4 Full Node": {
+      "target": "Πλήρης κόμβος σε Raspberry Pi 4",
+      "rejected": [
+        {
+          "text": "Full node σε Raspberry Pi 4"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "Glossary: full node → πλήρης κόμβος.",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "menus.md#menuLabels-35"
+    },
+    "Raspberry pi 4 Zebra Node": {
+      "target": "Κόμβος Zebra σε Raspberry Pi 4",
+      "rejected": [
+        {
+          "text": "Node Zebra σε Raspberry Pi 4"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "Glossary: node → κόμβος.",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "menus.md#menuLabels-36"
+    },
+    "Raspberry Pi Zcashd Node": {
+      "target": "Κόμβος Zcashd σε Raspberry Pi",
+      "rejected": [
+        {
+          "text": "Node Zcashd σε Raspberry Pi"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "Glossary: node → κόμβος.",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "menus.md#navigation-57"
+    },
+    "Raspberry Pi Zebra Node": {
+      "target": "Κόμβος Zebra σε Raspberry Pi",
+      "rejected": [
+        {
+          "text": "Node Zebra σε Raspberry Pi"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "Glossary: node → κόμβος.",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "menus.md#navigation-59"
+    },
+    "Raspberry pi5 Zebra Lightwalletd Zingo": {
+      "target": "Raspberry Pi5 Zebra Lightwalletd Zingo",
+      "keep_english": true,
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "menus.md#navigation-58"
+    },
+    "Recovering Funds": {
+      "target": "Ανάκτηση κεφαλαίων",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "menus.md#navigation-28"
+    },
+    "Research": {
+      "target": "Έρευνα",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "menus.md#menuLabels-39"
+    },
+    "Send Money Privately": {
+      "target": "Ιδιωτική αποστολή χρημάτων",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "menus.md#navigation-38"
+    },
+    "Shielded Pools": {
+      "target": "Θωρακισμένα pools",
+      "rejected": [
+        {
+          "text": "Shielded pools"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "Glossary: shielded → θωρακισμένο, pool stays English.",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "menus.md#navigation-21"
+    },
+    "Shop": {
+      "target": "Κατάστημα",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "menus.md#navigation-73"
+    },
+    "Sitemap": {
+      "target": "Χάρτης ιστοτόπου",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "menus.md#menuLabels-42"
+    },
+    "Start Here": {
+      "target": "Ξεκίνα εδώ",
+      "rejected": [
+        {
+          "text": "Ξεκινήστε εδώ"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "Informal «εσύ» register.",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "menus.md#navigation-31"
+    },
+    "Store": {
+      "target": "Κατάστημα",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "menus.md#menuLabels-44"
+    },
+    "Tools": {
+      "target": "Εργαλεία",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "menus.md#navigation-29"
+    },
+    "Transactions": {
+      "target": "Συναλλαγές",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "menus.md#navigation-23"
+    },
+    "Transparent Exchange Addresses": {
+      "target": "Διαφανείς διευθύνσεις ανταλλακτηρίων",
+      "rejected": [
+        {
+          "text": "Transparent διευθύνσεις ανταλλακτηρίων"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "Glossary: transparent → διαφανές; no half-English label. Glossary: transparent → διαφανές.",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "menus.md#navigation-22"
+    },
+    "Tutorials": {
+      "target": "Tutorials",
+      "keep_english": true,
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "menus.md#navigation-3"
+    },
+    "Use Cases": {
+      "target": "Περιπτώσεις χρήσης",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "menus.md#navigation-30"
+    },
+    "Use Zcash": {
+      "target": "Χρήση του Zcash",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "menus.md#navigation-15"
+    },
+    "Using Zcash": {
+      "target": "Χρήση του Zcash",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "menus.md#menuLabels-52"
+    },
+    "Using ZEC in DeFi": {
+      "target": "Χρήση ZEC στο DeFi",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "menus.md#navigation-55"
+    },
+    "Using ZEC Privately": {
+      "target": "Ιδιωτική χρήση ZEC",
+      "rejected": [
+        {
+          "text": "Ιδιωτικοποίηση ZEC"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "«Ιδιωτικοποίηση» means privatisation; matches the top menu label.",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "menus.md#navigation-56"
+    },
+    "Visual Identity": {
+      "target": "Οπτική ταυτότητα",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "menus.md#menuLabels-53"
+    },
+    "Visualizer": {
+      "target": "Visualizer",
+      "keep_english": true,
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "menus.md#navigation-5"
+    },
+    "Visualizing the Zcash Network": {
+      "target": "Οπτικοποίηση του δικτύου Zcash",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "menus.md#navigation-66"
+    },
+    "Visualizing Zcash Addresses": {
+      "target": "Οπτικοποίηση διευθύνσεων Zcash",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "menus.md#navigation-67"
+    },
+    "Wallets": {
+      "target": "Πορτοφόλια",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "menus.md#navigation-1"
+    },
+    "Ywallet FROST Demo": {
+      "target": "Demo Ywallet FROST",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "menus.md#navigation-63"
+    },
+    "Zcash Community": {
+      "target": "Κοινότητα Zcash",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "menus.md#menuLabels-60"
+    },
+    "Zcash Ecosystem Security": {
+      "target": "Ασφάλεια οικοσυστήματος Zcash",
+      "context": "Same word as Ecosystem, in the genitive (οικοσυστήματος) as Greek grammar requires.",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "menus-review-el.md#navigation-46"
+    },
+    "Zcash Governance": {
+      "target": "Διακυβέρνηση Zcash",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "menus.md#menuLabels-62"
+    },
+    "Zcash Improvement Proposals": {
+      "target": "Προτάσεις βελτίωσης Zcash",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "menus.md#navigation-68"
+    },
+    "Zcash Media": {
+      "target": "Μέσα Zcash",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "menus.md#navigation-44"
+    },
+    "Zcash Organizations": {
+      "target": "Οργανισμοί Zcash",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "menus.md#menuLabels-65"
+    },
+    "Zcash Podcasts": {
+      "target": "Podcasts Zcash",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "menus.md#navigation-45"
+    },
+    "Zcash Tech": {
+      "target": "Τεχνολογία Zcash",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "menus.md#menuLabels-76"
+    },
+    "Zcash Use Cases": {
+      "target": "Περιπτώσεις χρήσης Zcash",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "menus.md#menuLabels-75"
+    },
+    "Zcon Archive": {
+      "target": "Αρχείο Zcon",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "menus.md#navigation-48"
+    },
+    "Zcon Vozes Archive": {
+      "target": "Αρχείο Zcon Vozes",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "menus.md#menuLabels-68"
+    },
+    "Zenith Installation": {
+      "target": "Εγκατάσταση Zenith",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "menus.md#navigation-70"
+    },
+    "Zero Knowledge vs Decoy Systems": {
+      "target": "Μηδενική γνώση έναντι συστημάτων δολωμάτων",
+      "rejected": [
+        {
+          "text": "Zero knowledge έναντι συστημάτων decoy"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "Glossary: zero-knowledge in Greek; «δολώματα» is the Greek word for decoys.",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "menus.md#navigation-71"
+    },
+    "Zero-Knowledge vs Decoys": {
+      "target": "Μηδενική γνώση έναντι δολωμάτων",
+      "rejected": [
+        {
+          "text": "Zero-knowledge έναντι decoys"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "Same as the guides menu label.",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "menus.md#menuLabels-70"
+    },
+    "Zgo Payment Processor": {
+      "target": "Επεξεργαστής πληρωμών Zgo",
+      "rejected": [
+        {
+          "text": "Επεξεργαστής κειμένου Zgo"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "«Επεξεργαστής κειμένου» means word processor.",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "menus.md#navigation-52"
+    },
+    "Zingolib and Zaino Tutorial": {
+      "target": "Tutorial Zingolib και Zaino",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "menus.md#navigation-69"
+    },
+    "ZIPs & Grants": {
+      "target": "ZIPs και επιχορηγήσεις",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "menus.md#menuLabels-59"
+    },
+    "Zkool Multisig": {
+      "target": "Zkool Multisig",
+      "keep_english": true,
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-23",
+      "source": "menus.md#navigation-62"
+    }
+  },
+  "changelog": [
+    {
+      "version": 2,
+      "date": "2026-10-23",
+      "terms": [
+        "address",
+        "block",
+        "blockchain",
+        "bond",
+        "brand",
+        "bridge",
+        "commitment",
+        "consensus",
+        "custodial",
+        "dashboard",
+        "decentralized",
+        "developer",
+        "encryption",
+        "exchange",
+        "faucet",
+        "fee",
+        "finalizer",
+        "full-node",
+        "governance",
+        "grant",
+        "halving",
+        "light-client",
+        "memo",
+        "miner",
+        "mining",
+        "network-upgrade",
+        "newsletter",
+        "node",
+        "note",
+        "nullifier",
+        "payment",
+        "permissionless",
+        "pool",
+        "privacy",
+        "proof",
+        "scaling",
+        "seed-phrase",
+        "selective-disclosure",
+        "shielded",
+        "signature",
+        "smart-contract",
+        "spending-key",
+        "staking",
+        "swap",
+        "token",
+        "tools",
+        "top-up",
+        "transaction",
+        "transparent",
+        "treasury",
+        "trusted-setup",
+        "turnstile",
+        "unlinkable",
+        "use-case",
+        "viewing-key",
+        "visualizer",
+        "zero-knowledge"
+      ],
+      "phrases": [],
+      "summary": "Imported glossary.md (reviewed by @panoskokmotos), style answers"
+    },
+    {
+      "version": 3,
+      "date": "2026-10-23",
+      "terms": [],
+      "phrases": [
+        "Accept Payments",
+        "Akash Network",
+        "Akash Network Zebra",
+        "Avalanche RedBridge",
+        "BTCPayServer Plugin",
+        "BTCPayServer Zcash Plugin",
+        "Blockchain Explorers",
+        "Brand",
+        "Buying ZEC",
+        "CoinHolder Directed Retroactive Grants",
+        "Community",
+        "Community Blogs",
+        "Community Building",
+        "Community Forum",
+        "Community Links",
+        "Community Projects",
+        "Contribute",
+        "Custodial Exchanges",
+        "Cypherpunk Zero NFT",
+        "DAO",
+        "Dashboard",
+        "Developers",
+        "Donate",
+        "Donations",
+        "Exchanges",
+        "Explore",
+        "Extras",
+        "Faucets",
+        "For Forks & Maintainers",
+        "Fork zechub",
+        "Fork zechub-wiki",
+        "Free2z Live",
+        "Freelance Privacy",
+        "Full Explore",
+        "Glossary & FAQ's",
+        "Glossary & FAQs",
+        "Governance",
+        "Guides",
+        "How to Participate",
+        "Journalist Privacy",
+        "Keeping Records",
+        "Memos",
+        "Mobile Top Ups",
+        "More",
+        "Navigation",
+        "Newsletter",
+        "Nym Mixnet Wallet Setup",
+        "Nym VPN",
+        "Organizations",
+        "Overview",
+        "Pay for AI",
+        "Payment Processors",
+        "Payment Request URIs",
+        "Podcast",
+        "Privacy Tools",
+        "Private Community Treasury",
+        "Raspberry Pi 4 Full Node",
+        "Raspberry Pi Zcashd Node",
+        "Raspberry Pi Zebra Node",
+        "Raspberry pi 4 Zebra Node",
+        "Raspberry pi5 Zebra Lightwalletd Zingo",
+        "Recovering Funds",
+        "Research",
+        "Send Money Privately",
+        "Shielded Pools",
+        "Shop",
+        "Sitemap",
+        "Start Here",
+        "Store",
+        "Tools",
+        "Transactions",
+        "Transparent Exchange Addresses",
+        "Tutorials",
+        "Use Cases",
+        "Use Zcash",
+        "Using ZEC Privately",
+        "Using ZEC in DeFi",
+        "Using Zcash",
+        "Visual Identity",
+        "Visualizer",
+        "Visualizing Zcash Addresses",
+        "Visualizing the Zcash Network",
+        "Wallets",
+        "Ywallet FROST Demo",
+        "ZIPs & Grants",
+        "Zcash Community",
+        "Zcash Governance",
+        "Zcash Improvement Proposals",
+        "Zcash Media",
+        "Zcash Organizations",
+        "Zcash Podcasts",
+        "Zcash Tech",
+        "Zcash Use Cases",
+        "Zcon Archive",
+        "Zcon Vozes Archive",
+        "Zenith Installation",
+        "Zero Knowledge vs Decoy Systems",
+        "Zero-Knowledge vs Decoys",
+        "Zgo Payment Processor",
+        "Zingolib and Zaino Tutorial",
+        "Zkool Multisig"
+      ],
+      "summary": "Imported menus.md (reviewed by @panoskokmotos)"
+    },
+    {
+      "version": 4,
+      "date": "2026-10-23",
+      "terms": [
+        "wallet",
+        "hardware-wallet",
+        "chain",
+        "on-chain",
+        "cross-chain"
+      ],
+      "phrases": [
+        "Ecosystem",
+        "Zcash Ecosystem Security",
+        "Block Explorers"
+      ],
+      "summary": "Greek native review by @panoskokmotos (Translation Quality bounty, stage 1, #2489): the deliberate splits wallet/hardware wallet and chain/on-chain/cross-chain the case ending of Ecosystem and the tool name Block explorers, with contexts; Greek case and plural forms added by the steward so menu phrases match their terms; style answers (εσύ, «» quotes, decimal comma, western digits, English in brackets on first use)."
+    }
+  ]
+}
