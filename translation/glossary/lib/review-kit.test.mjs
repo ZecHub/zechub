@@ -229,6 +229,102 @@ test("export: names are left out (protected-terms.json lists them); dictionary v
   assert.doesNotMatch(md, /Keystone Zashi|Zcash Foundation|Names kept in English/);
 });
 
+test("export: only the menu strings of common, and the header-bar hint", () => {
+  const en = {
+    navigation: { guides: "Guides", usingZcash: { label: "Use Zcash" }, wallets: "Wallets" },
+    common: { languageSearch: "Search languages", close: "Close", readMore: "Read More" },
+  };
+  const md = exportKit({ glossary: ID, termsEn: TERMS_EN, kit: "ui", dict: en, enDict: en, preserveVerbatim: PV, brands: BRANDS });
+  assert.match(md, /## Language menu and search buttons/);
+  assert.match(md, /\| common\.languageSearch \| Search languages \|/);
+  assert.match(md, /\| common\.close \| Close \|/);
+  assert.doesNotMatch(md, /common\.readMore/, "page sentences in common are not menu text");
+  assert.match(md, /\| navigation\.guides \| Guides \| [^|]* \|  \| Header bar: keep it short \|/);
+  assert.match(md, /\| navigation\.usingZcash\.label \| Use Zcash \| [^|]* \|  \| Header bar: keep it short \|/);
+  assert.match(md, /\| navigation\.wallets \| Wallets \| [^|]* \|  \|  \|/);
+  assert.match(md, /sit side by side in the desktop header bar/);
+});
+
+test("import: the pre-filled header-bar hint is not stored as a reviewer note", () => {
+  const md = [
+    "## Top menu (header) and its submenus",
+    "",
+    "| # | ID | English | Indonesian | \u2705 Confirmed | Notes |",
+    "|---:|---|---|---|---|---|",
+    "| 1 | navigation.guides | Guides | Panduan | OK | Header bar: keep it short |",
+    "| 2 | navigation.more | More | Lainnya | OK | Header bar: keep it short. Shorter than Selengkapnya |",
+  ].join("\n");
+  const rows = parseKit(md).flatMap((t) => t.rows);
+  assert.equal(rows[0].notes, "");
+  assert.equal(rows[1].notes, "Shorter than Selengkapnya");
+});
+
+test("export --only-missing: only labels the glossary does not decide yet", () => {
+  const decided = Object.keys(ID.phrases)[0];
+  const en = { navigation: { a: decided, b: "Brand New Label", more: decided }, menuLabels: { c: decided } };
+  const md = exportKit({ glossary: ID, termsEn: TERMS_EN, kit: "ui", dict: en, enDict: en, preserveVerbatim: PV, brands: BRANDS, onlyMissing: true });
+  assert.match(md, /\| 1 \| navigation\.b \| Brand New Label \|/);
+  assert.doesNotMatch(md, /navigation\.a \|/, "decided labels are left out");
+  assert.match(md, /navigation\.more \|.*Header bar: keep it short/, "header-bar rows stay, to ask for a short form");
+  assert.doesNotMatch(md, /## Submenu entries/, "a section with nothing left is dropped");
+  assert.doesNotMatch(md, /## Other approved phrases/);
+});
+
+test("export: menu labels that exist only in the locale dictionary are reviewed too", () => {
+  const en = { menuLabels: { "Old Label": "Old Label" } };
+  const loc = { menuLabels: { "Old Label": "Label Lama", "Spend Zcash": "Belanjakan Zcash" } };
+  const md = exportKit({ glossary: ID, termsEn: TERMS_EN, kit: "ui", dict: loc, enDict: en, preserveVerbatim: PV, brands: BRANDS });
+  assert.match(md, /\| menuLabels\.Spend Zcash \| Spend Zcash \| Belanjakan Zcash \|/);
+});
+
+test("import: a reviewer note that only mentions the hint later is kept", () => {
+  const md = [
+    "## Top menu (header) and its submenus",
+    "",
+    "| # | ID | English | Indonesian | \u2705 Confirmed | Notes |",
+    "|---:|---|---|---|---|---|",
+    "| 1 | navigation.more | More | Lainnya | OK | Shorter, as the Header bar: keep it short note asks |",
+  ].join("\n");
+  assert.equal(parseKit(md).flatMap((t) => t.rows)[0].notes, "Shorter, as the Header bar: keep it short note asks");
+});
+
+test("import: the hint is stripped only on header-bar rows", () => {
+  const md = [
+    "## Top menu (header) and its submenus",
+    "",
+    "| # | ID | English | Indonesian | \u2705 Confirmed | Notes |",
+    "|---:|---|---|---|---|---|",
+    "| 1 | navigation.wallets | Wallets | Dompet | OK | Header bar: keep it short, like the others |",
+  ].join("\n");
+  assert.equal(parseKit(md).flatMap((t) => t.rows)[0].notes, "Header bar: keep it short, like the others");
+});
+
+test("export --only-missing keeps disputed phrases", () => {
+  const g = structuredClone(ID);
+  const [k] = Object.keys(g.phrases);
+  g.phrases[k] = { ...g.phrases[k], status: "disputed", dispute: "two readings" };
+  const en = { navigation: { a: k } };
+  const md = exportKit({ glossary: g, termsEn: TERMS_EN, kit: "ui", dict: en, enDict: en, preserveVerbatim: PV, brands: BRANDS, onlyMissing: true });
+  assert.match(md, /\| 1 \| navigation\.a \|/);
+});
+
+test("round trip: language-menu strings import as UI phrases", () => {
+  const en = { common: { languageSearch: "Search languages", close: "Close" } };
+  const loc = { common: { languageSearch: "Cari bahasa", close: "Tutup" } };
+  const md = markAllOk(exportKit({ glossary: ID, termsEn: TERMS_EN, kit: "ui", dict: loc, enDict: en, preserveVerbatim: PV, brands: BRANDS }));
+  const { glossary } = run(ID, md);
+  assert.equal(glossary.phrases["Search languages"].target, "Cari bahasa");
+  assert.equal(glossary.phrases["Search languages"].applies_to, "ui");
+  assert.equal(glossary.phrases["Close"].target, "Tutup");
+});
+
+test("the Greek follow-up kit parses and lists the header-bar rows", () => {
+  const rows = parseKit(read("../test-fixtures/menus-review-el-followup.md")).flatMap((t) => t.rows);
+  assert.ok(rows.length >= 18);
+  assert.ok(rows.some((r) => r.english === "Use Zcash"));
+  assert.ok(rows.some((r) => r.english === "Search languages"));
+});
+
 test("isNameOnly: whole names only, case-insensitive", () => {
   assert.ok(isNameOnly("Keystone Zashi", ["Keystone", "Zashi"]));
   assert.ok(isNameOnly("Metamask Snap", ["MetaMask Snap"]));
