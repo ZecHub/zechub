@@ -8,7 +8,8 @@
     "start": "node dist/index.js",
     "db:migrate": "prisma migrate dev",
     "db:generate": "prisma generate",
-    "db:studio": "prisma studio"
+    "db:studio": "prisma studio",
+    "test": "node --test"
   },
   "dependencies": {
     "@fastify/cors": "^9.0.0",

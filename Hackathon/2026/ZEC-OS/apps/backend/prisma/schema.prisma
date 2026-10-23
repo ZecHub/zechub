@@ -25,6 +25,7 @@ model User {
 
   sessions    UserSession[]
   challenges  AuthChallenge[]
+  recoveryOtps RecoveryOtp[]
   settings    UserSettings?
   watchlist   UserWatchlist?
   state       UserState?
@@ -72,6 +73,25 @@ model AuthChallenge {
   createdAt  DateTime @default(now())
 
   user      User @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+// ── Account recovery one-time passcodes ──────────────────────────────────────
+// A recovery code is delivered out-of-band (shielded memo to the account's own
+// address) and only its salted hash is stored here — never the code itself, and
+// never any wallet seed/recovery phrase. Short TTL + hard attempt cap bound the
+// online brute-force probability over the 10^6 keyspace.
+model RecoveryOtp {
+  id         String    @id @default(cuid())
+  userId     String
+  codeHash   String                      // scrypt:N:r:p:salt:hash of the 6-digit code
+  attempts   Int       @default(0)       // wrong guesses; code dies at MAX_OTP_ATTEMPTS
+  consumedAt DateTime?                    // set once used (success) or burned (too many tries)
+  expiresAt  DateTime
+  createdAt  DateTime  @default(now())
+
+  user       User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId])
 }
 
 model UserSettings {

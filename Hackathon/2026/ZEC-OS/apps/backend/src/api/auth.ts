@@ -5,6 +5,7 @@ import { getLightdInfo, getLatestBlock, getAddressUtxos } from '../zaino/client'
 import { getSenderAddresses, txidBufferToHex } from '../lib/txSender';
 import { walletConfigured, backendZaddr, zListReceivedByAddress, zSendMany, decodeMemoHex } from '../wallet/rpc';
 import { hashPassword, verifyPassword, MIN_PASSWORD_LENGTH } from '../lib/password';
+import { recoveryRoutes } from './recovery';
 
 const ZEC_ADDR_RE = /^(t1|t3|u1|zs1)[a-zA-Z0-9]{30,}/;
 function isValidZecAddress(a: string) { return ZEC_ADDR_RE.test(a.trim()); }
@@ -75,6 +76,9 @@ async function issueVerifiedSession(userId: string, challengeId: string) {
 }
 
 export async function authRoutes(server: FastifyInstance) {
+  // Account recovery (OTP) — /api/auth/recovery/start, /api/auth/recovery/verify-otp
+  server.register(recoveryRoutes, { prefix: '/recovery' });
+
   // Explicit logout — delete this session so it doesn't linger as a "live"
   // session and get miscounted as a signed-out-elsewhere on the next login.
   server.post('/logout', async (req, reply) => {
