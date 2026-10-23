@@ -288,6 +288,17 @@ test("import: a reviewer note that only mentions the hint later is kept", () => 
   assert.equal(parseKit(md).flatMap((t) => t.rows)[0].notes, "Shorter, as the Header bar: keep it short note asks");
 });
 
+test("import: the hint is stripped only on header-bar rows", () => {
+  const md = [
+    "## Top menu (header) and its submenus",
+    "",
+    "| # | ID | English | Indonesian | \u2705 Confirmed | Notes |",
+    "|---:|---|---|---|---|---|",
+    "| 1 | navigation.wallets | Wallets | Dompet | OK | Header bar: keep it short, like the others |",
+  ].join("\n");
+  assert.equal(parseKit(md).flatMap((t) => t.rows)[0].notes, "Header bar: keep it short, like the others");
+});
+
 test("export --only-missing keeps disputed phrases", () => {
   const g = structuredClone(ID);
   const [k] = Object.keys(g.phrases);

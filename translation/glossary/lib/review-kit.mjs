@@ -146,15 +146,18 @@ export function parseKit(md) {
     let j = i + 2;
     for (; j < lines.length && lines[j].trim().startsWith("|"); j++) {
       const c = splitRow(lines[j]);
+      const id = idx.id >= 0 ? c[idx.id] : "";
+      const notes = idx.notes >= 0 ? (c[idx.notes] ?? "") : "";
       rows.push({
         line: j + 1,
         num: idx.num >= 0 ? c[idx.num] : String(rows.length + 1),
-        id: idx.id >= 0 ? c[idx.id] : "",
+        id,
         english: c[idx.english] ?? "",
         proposed: idx.proposed > idx.english ? (c[idx.proposed] ?? "") : "",
         confirmed: c[idx.confirm] ?? "",
-        // The export pre-fills the header-bar hint; it is not a reviewer note.
-        notes: idx.notes >= 0 ? stripHeaderBarHint(c[idx.notes] ?? "") : "",
+        // The export pre-fills the header-bar hint on those rows only; it is
+        // not a reviewer note. Other rows keep their notes untouched.
+        notes: HEADER_BAR_IDS.includes(id) ? stripHeaderBarHint(notes) : notes,
       });
     }
     tables.push({ kind, section, rows });
