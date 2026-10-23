@@ -33,13 +33,34 @@ import {
   validateLocale,
 } from "./glossary.mjs";
 
-export const UI_SECTIONS = ["navigation", "menuLabels", "exploreMenu", "sideMenu"];
+export const UI_SECTIONS = ["navigation", "menuLabels", "exploreMenu", "sideMenu", "common"];
+
+// Only these `common` strings are menu text: the language menu and the search
+// and close buttons. The rest of `common` (page sentences) is not reviewed here.
+export const UI_SECTION_KEYS = {
+  common: ["language", "languageSearch", "languageSuggested", "languageAll", "languageNone", "search", "close"],
+};
+
+// Labels shown side by side in the desktop header bar. The bar must fit on one
+// line (otherwise the site falls back to the menu button), so the kit asks the
+// reviewer for the shortest natural form of these rows.
+export const HEADER_BAR_IDS = [
+  "navigation.usingZcash.label",
+  "navigation.zcashCommunity.label",
+  "navigation.guides",
+  "navigation.organizations.label",
+  "navigation.more",
+  "navigation.bounties",
+  "navigation.dashboard",
+];
+const HEADER_BAR_NOTE = "Header bar: keep it short";
 
 const UI_SECTION_TITLES = {
   navigation: "Top menu (header) and its submenus",
   menuLabels: "Submenu entries (page names in the menus)",
   exploreMenu: "Yellow coin menu (bottom right)",
   sideMenu: "Side menu on article pages",
+  common: "Language menu and search buttons",
   phrases: "Other approved phrases",
 };
 
@@ -127,7 +148,8 @@ export function parseKit(md) {
         english: c[idx.english] ?? "",
         proposed: idx.proposed > idx.english ? (c[idx.proposed] ?? "") : "",
         confirmed: c[idx.confirm] ?? "",
-        notes: idx.notes >= 0 ? (c[idx.notes] ?? "") : "",
+        // The export pre-fills the header-bar hint; it is not a reviewer note.
+        notes: idx.notes >= 0 ? (c[idx.notes] ?? "").replace(HEADER_BAR_NOTE, "").replace(/^[\s.;,]+/, "").trim() : "",
       });
     }
     tables.push({ kind, section, rows });
@@ -594,7 +616,7 @@ function conflictLines(glossary, termsEn) {
  * @param {string[]} [args.preserveVerbatim]
  * @param {string[]} [args.brands]
  */
-export function exportKit({ glossary, termsEn, kit, termIds = null, evidence = null, dict = null, enDict = null, preserveVerbatim = [], brands = [], instructions = null }) {
+export function exportKit({ glossary, termsEn, kit, termIds = null, evidence = null, dict = null, enDict = null, preserveVerbatim = [], brands = [], instructions = null, onlyMissing = false }) {
   const loc = glossary.locale;
   const lang = glossary.meta?.language_name ?? loc;
   const byId = termsById(termsEn);
@@ -662,22 +684,40 @@ export function exportKit({ glossary, termsEn, kit, termIds = null, evidence = n
       return current ?? "";
     };
     for (const section of UI_SECTIONS) {
-      const items = leaves(enDict[section], [section]);
+      const keys = UI_SECTION_KEYS[section];
+      const items = leaves(enDict[section], [section]).filter(({ path }) => !keys || keys.includes(String(path[1])));
+      // menuLabels is keyed by the English label, and en.json lists only the
+      // labels someone added there; newer menu entries exist only as keys of
+      // the locale dictionaries (filled by the menu-label sync). Take those too.
+      if (section === "menuLabels" && dict?.menuLabels) {
+        for (const k of Object.keys(dict.menuLabels)) {
+          if (!(k in (enDict.menuLabels ?? {}))) items.push({ path: [section, k], value: k });
+        }
+      }
+      if (!items.length) continue;
       const rows = [];
       for (const { path, value } of items) {
         const english = value.trim();
         seenLabels.add(english);
         // Names stay English everywhere and are listed in protected-terms.json.
         if (preserveVerbatim.includes(english) || isNameOnly(english, names)) continue;
+        // --only-missing: a follow-up kit for an already reviewed language,
+        // with only the labels the glossary does not decide yet.
+        // Header-bar rows stay in, to ask for their shortest form.
+        if (onlyMissing && glossary.phrases?.[english] && !HEADER_BAR_IDS.includes(path.join("."))) continue;
         rows.push([path.join("."), english, proposeFor(english, get(dict, path))]);
       }
+      if (onlyMissing && !rows.length) continue;
       out.push(`## ${UI_SECTION_TITLES[section]}`, `(\`${section}\`: ${rows.length} labels)`, "");
+      if (rows.some(([id]) => HEADER_BAR_IDS.includes(id))) {
+        out.push(`Rows marked "${HEADER_BAR_NOTE}" sit side by side in the desktop header bar, which must fit on one line: please use the shortest natural form (one or two words), even if a longer one is more precise.`, "");
+      }
       out.push(row(["#", "ID", "English", lang, "\u2705 Confirmed", "Notes"]));
       out.push("|---:|---|---|---|---|---|");
-      rows.forEach(([id, en, prop], i) => out.push(row([i + 1, id, en, prop, "", ""])));
+      rows.forEach(([id, en, prop], i) => out.push(row([i + 1, id, en, prop, "", HEADER_BAR_IDS.includes(id) ? HEADER_BAR_NOTE : ""])));
       out.push("");
     }
-    const others = Object.entries(glossary.phrases ?? {})
+    const others = onlyMissing ? [] : Object.entries(glossary.phrases ?? {})
       .filter(([k, e]) => e.applies_to !== "pages" && !seenLabels.has(k))
       .map(([k]) => k)
       .sort();

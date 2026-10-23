@@ -94,7 +94,11 @@ with the `kamu` register, while a `Zcash_Tech/` page gets `Anda`.
 
    The pages kit lists the words used in wiki pages, with how often they occur
    in English and what the translated pages contain today. The UI kit lists
-   the website menu labels. Both start with a list of open conflicts, and the
+   the website menu labels, the language menu and the search and close
+   buttons; the labels of the desktop header bar are marked "Header bar: keep
+   it short", because the bar must fit on one line. For a language already
+   reviewed, `--only-missing` exports a follow-up kit with only the labels the
+   glossary does not decide yet, plus the header-bar rows. Both start with a list of open conflicts, and the
    pages kit ends with style questions (formal or informal "you", English in
    brackets, and so on).
 
