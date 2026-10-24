@@ -4,7 +4,7 @@ Glossary version 1. Kit: ui.
 
 **نحوهٔ تکمیل**
 - **ستون ✅:** اگر معادلِ نشان‌داده‌شده درست است، `OK` بنویسید؛ برای حفظ واژهٔ انگلیسی، `keep English` بنویسید؛ یا معادلی را که خودتان به کار می‌برید بنویسید. در هر خانه فقط یک معادل بنویسید. اگر مطمئن نیستید، آن را خالی بگذارید. ستون `ID` را ویرایش نکنید.
-- **ستون `Notes` (مهم):** برای هر ردیفی که تغییر می‌دهید یا با `keep English` علامت می‌زنید، یک خط کوتاه با بیان خودتان بنویسید و دلیل آن را توضیح دهید؛ برای مثال: «این همان چیزی است که صرافی‌ها و کیف‌پول‌های محلی استفاده می‌کنند» یا «این واژه به معنی نشانی خیابان است». همچنین زمانی که واژهٔ درست به بافت بستگی دارد (فعل یا اسم، منو یا صفحه) یا ردیفی مبهم است، از `Notes` استفاده کنید. تغییرات بدون یادداشت ممکن است پذیرفته نشوند.
+- **ستون `Notes` (مهم):** برای هر ردیفی که تغییر می‌دهید یا با `keep English` علامت می‌زنید، یک خط کوتاه با بیان خودتان بنویسید و دلیل آن را توضیح دهید؛ برای مثال: «این همان اصطلاحی است که صرافی‌ها و کیف‌پول‌های محلی به کار می‌برند» یا «این واژه به معنی نشانی خیابان است». همچنین زمانی که واژهٔ درست به بافت بستگی دارد (فعل یا اسم، منو یا صفحه) یا ردیفی مبهم است، از `Notes` استفاده کنید. تغییرات بدون یادداشت ممکن است پذیرفته نشوند.
 
 _(Machine-translated, not yet checked by a native speaker: please correct this paragraph in Notes.)_
 
@@ -32,7 +32,7 @@ Rows marked "Header bar: keep it short" sit side by side in the desktop header b
 | 2 | navigation.guides | Guides | راهنمایان |  | Header bar: keep it short |
 | 3 | navigation.tutorials | Tutorials | آموزش‌ها |  |  |
 | 4 | navigation.governance | Governance | حکمرانی |  |  |
-| 5 | navigation.visualizer | Visualizer | نمایشگر |  |  |
+| 5 | navigation.visualizer | Visualizer | Visualizer |  |  |
 | 6 | navigation.dao | DAO | DAO |  |  |
 | 7 | navigation.newsletter | Newsletter | خبرنامه |  |  |
 | 8 | navigation.donate | Donate | حمایت مالی |  |  |
@@ -47,8 +47,8 @@ Rows marked "Header bar: keep it short" sit side by side in the desktop header b
 | 17 | navigation.usingZcash.faucets | Faucets | فاست‌ها |  |  |
 | 18 | navigation.usingZcash.wallets | Wallets | کیف‌پول‌ها |  |  |
 | 19 | navigation.usingZcash.exchanges | Exchanges | صرافی‌ها |  |  |
-| 20 | navigation.usingZcash.blockExplorers | Block Explorers | مرورگرهای بلاک |  |  |
-| 21 | navigation.usingZcash.shieldedPools | Shielded Pools | استخرهای شیلدشده |  |  |
+| 20 | navigation.usingZcash.blockExplorers | Block Explorers | کاوشگرهای بلاک |  |  |
+| 21 | navigation.usingZcash.shieldedPools | Shielded Pools | استخرهای محافظت‌شده |  |  |
 | 22 | navigation.usingZcash.transparentExchangeAddresses | Transparent Exchange Addresses | آدرس‌های شفاف صرافی |  |  |
 | 23 | navigation.usingZcash.transactions | Transactions | تراکنش‌ها |  |  |
 | 24 | navigation.usingZcash.memos | Memos | یادداشت‌ها |  |  |
@@ -78,10 +78,10 @@ Rows marked "Header bar: keep it short" sit side by side in the desktop header b
 | 48 | navigation.zcashCommunity.zconArchive | Zcon Archive | آرشیو Zcon |  |  |
 | 49 | navigation.organizations.label | Organizations | سازمان‌ها |  | Header bar: keep it short |
 | 50 | navigation.organizations.brand | Brand | برند |  |  |
-| 51 | navigation.organizations.coinholderDirectedRetroactiveGrants | CoinHolder Directed Retroactive Grants | گرنت‌های بازنگرانه هدایت‌شده توسط هولدرها |  |  |
+| 51 | navigation.organizations.coinholderDirectedRetroactiveGrants | CoinHolder Directed Retroactive Grants | گرنت‌های گذشته‌نگر به انتخاب دارندگان سکه |  |  |
 | 52 | navigation.guidesSubmenu.zgoPaymentProcessor | Zgo Payment Processor | پردازشگر پرداخت Zgo |  |  |
 | 53 | navigation.guidesSubmenu.free2zLive | Free2z Live | Free2z Live |  |  |
-| 54 | navigation.guidesSubmenu.nymVpn | Nym VPN | VPN نایم |  |  |
+| 54 | navigation.guidesSubmenu.nymVpn | Nym VPN | Nym VPN |  |  |
 | 55 | navigation.guidesSubmenu.usingZecInDefi | Using ZEC in DeFi | استفاده از ZEC در DeFi |  |  |
 | 56 | navigation.guidesSubmenu.usingZecPrivately | Using ZEC Privately | استفاده خصوصی از ZEC |  |  |
 | 57 | navigation.guidesSubmenu.raspberryPiZcashdNode | Raspberry Pi Zcashd Node | نود Zcashd با Raspberry Pi |  |  |
@@ -91,7 +91,7 @@ Rows marked "Header bar: keep it short" sit side by side in the desktop header b
 | 61 | navigation.guidesSubmenu.avalancheRedbridge | Avalanche RedBridge | Avalanche RedBridge |  |  |
 | 62 | navigation.guidesSubmenu.zkoolMultisig | Zkool Multisig | مولتی‌سیگ Zkool |  |  |
 | 63 | navigation.guidesSubmenu.ywalletFrostDemo | Ywallet FROST Demo | دموی FROST در Ywallet |  |  |
-| 64 | navigation.guidesSubmenu.blockchainExplorers | Blockchain Explorers | مرورگرهای بلاک‌چین |  |  |
+| 64 | navigation.guidesSubmenu.blockchainExplorers | Blockchain Explorers | کاوشگرهای بلاک‌چین |  |  |
 | 65 | navigation.guidesSubmenu.btcPayServerPlugin | BTCPayServer Plugin | پلاگین BTCPayServer |  |  |
 | 66 | navigation.guidesSubmenu.visualizingZcashNetwork | Visualizing the Zcash Network | نمایش شبکه Zcash |  |  |
 | 67 | navigation.guidesSubmenu.visualizingZcashAddresses | Visualizing Zcash Addresses | نمایش آدرس‌های Zcash |  |  |
@@ -111,7 +111,7 @@ Rows marked "Header bar: keep it short" sit side by side in the desktop header b
 | 2 | menuLabels.Akash Network Zebra | Akash Network Zebra | Akash Network Zebra |  |  |
 | 3 | menuLabels.Avalanche RedBridge | Avalanche RedBridge | Avalanche RedBridge |  |  |
 | 4 | menuLabels.BTCPayServer Zcash Plugin | BTCPayServer Zcash Plugin | پلاگین Zcash برای BTCPayServer |  |  |
-| 5 | menuLabels.Blockchain Explorers | Blockchain Explorers | مرورگرهای بلاک‌چین |  |  |
+| 5 | menuLabels.Blockchain Explorers | Blockchain Explorers | کاوشگرهای بلاک‌چین |  |  |
 | 6 | menuLabels.Brand | Brand | برند |  |  |
 | 7 | menuLabels.Buying ZEC | Buying ZEC | خرید ZEC |  |  |
 | 8 | menuLabels.Community Blogs | Community Blogs | وبلاگ‌های جامعه |  |  |
@@ -136,7 +136,7 @@ Rows marked "Header bar: keep it short" sit side by side in the desktop header b
 | 27 | menuLabels.Memos | Memos | یادداشت‌ها |  |  |
 | 28 | menuLabels.Mobile Top Ups | Mobile Top Ups | شارژ موبایل |  |  |
 | 29 | menuLabels.Newsletter | Newsletter | خبرنامه |  |  |
-| 30 | menuLabels.Nym VPN | Nym VPN | VPN نایم |  |  |
+| 30 | menuLabels.Nym VPN | Nym VPN | Nym VPN |  |  |
 | 31 | menuLabels.Payment Processors | Payment Processors | پردازشگرهای پرداخت |  |  |
 | 32 | menuLabels.Payment Request URIs | Payment Request URIs | URIهای درخواست پرداخت |  |  |
 | 33 | menuLabels.Podcast | Podcast | پادکست |  |  |
@@ -147,7 +147,7 @@ Rows marked "Header bar: keep it short" sit side by side in the desktop header b
 | 38 | menuLabels.Recovering Funds | Recovering Funds | بازیابی دارایی‌ها |  |  |
 | 39 | menuLabels.Research | Research | پژوهش |  |  |
 | 40 | menuLabels.Send Money Privately | Send Money Privately | ارسال خصوصی پول |  |  |
-| 41 | menuLabels.Shielded Pools | Shielded Pools | استخرهای شیلدشده |  |  |
+| 41 | menuLabels.Shielded Pools | Shielded Pools | استخرهای محافظت‌شده |  |  |
 | 42 | menuLabels.Sitemap | Sitemap | نقشه سایت |  |  |
 | 43 | menuLabels.Start Here | Start Here | از اینجا شروع کنید |  |  |
 | 44 | menuLabels.Store | Store | فروشگاه |  |  |
@@ -160,7 +160,7 @@ Rows marked "Header bar: keep it short" sit side by side in the desktop header b
 | 51 | menuLabels.Using ZEC in DeFi | Using ZEC in DeFi | استفاده از ZEC در DeFi |  |  |
 | 52 | menuLabels.Using Zcash | Using Zcash | استفاده از Zcash |  |  |
 | 53 | menuLabels.Visual Identity | Visual Identity | هویت بصری |  |  |
-| 54 | menuLabels.Visualizer | Visualizer | نمایشگر |  |  |
+| 54 | menuLabels.Visualizer | Visualizer | Visualizer |  |  |
 | 55 | menuLabels.Visualizing Zcash Addresses | Visualizing Zcash Addresses | نمایش آدرس‌های Zcash |  |  |
 | 56 | menuLabels.Visualizing the Zcash Network | Visualizing the Zcash Network | نمایش شبکه Zcash |  |  |
 | 57 | menuLabels.Wallets | Wallets | کیف‌پول‌ها |  |  |
@@ -180,7 +180,7 @@ Rows marked "Header bar: keep it short" sit side by side in the desktop header b
 | 71 | menuLabels.Zgo Payment Processor | Zgo Payment Processor | پردازشگر پرداخت Zgo |  |  |
 | 72 | menuLabels.Zingolib and Zaino Tutorial | Zingolib and Zaino Tutorial | آموزش Zingolib و Zaino |  |  |
 | 73 | menuLabels.Zkool Multisig | Zkool Multisig | مولتی‌سیگ Zkool |  |  |
-| 74 | menuLabels.Custodial Exchanges | Custodial Exchanges | صرافی‌های متمرکز |  |  |
+| 74 | menuLabels.Custodial Exchanges | Custodial Exchanges | صرافی‌های امانی |  |  |
 | 75 | menuLabels.Zcash Use Cases | Zcash Use Cases | کاربردهای Zcash |  |  |
 | 76 | menuLabels.Zcash Tech | Zcash Tech | فناوری Zcash |  |  |
 | 77 | menuLabels.Privacy Tools | Privacy Tools | ابزارهای حریم خصوصی |  |  |

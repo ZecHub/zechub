@@ -4,7 +4,7 @@ Glossary version 1. Kit: pages.
 
 **نحوهٔ تکمیل**
 - **ستون ✅:** اگر معادلِ نشان‌داده‌شده درست است، `OK` بنویسید؛ برای حفظ واژهٔ انگلیسی، `keep English` بنویسید؛ یا معادلی را که خودتان به کار می‌برید بنویسید. در هر خانه فقط یک معادل بنویسید. اگر مطمئن نیستید، آن را خالی بگذارید. ستون `ID` را ویرایش نکنید.
-- **ستون `Notes` (مهم):** برای هر ردیفی که تغییر می‌دهید یا با `keep English` علامت می‌زنید، یک خط کوتاه با بیان خودتان بنویسید و دلیل آن را توضیح دهید؛ برای مثال: «این همان چیزی است که صرافی‌ها و کیف‌پول‌های محلی استفاده می‌کنند» یا «این واژه به معنی نشانی خیابان است». همچنین زمانی که واژهٔ درست به بافت بستگی دارد (فعل یا اسم، منو یا صفحه) یا ردیفی مبهم است، از `Notes` استفاده کنید. تغییرات بدون یادداشت ممکن است پذیرفته نشوند.
+- **ستون `Notes` (مهم):** برای هر ردیفی که تغییر می‌دهید یا با `keep English` علامت می‌زنید، یک خط کوتاه با بیان خودتان بنویسید و دلیل آن را توضیح دهید؛ برای مثال: «این همان اصطلاحی است که صرافی‌ها و کیف‌پول‌های محلی به کار می‌برند» یا «این واژه به معنی نشانی خیابان است». همچنین زمانی که واژهٔ درست به بافت بستگی دارد (فعل یا اسم، منو یا صفحه) یا ردیفی مبهم است، از `Notes` استفاده کنید. تغییرات بدون یادداشت ممکن است پذیرفته نشوند.
 
 _(Machine-translated, not yet checked by a native speaker: please correct this paragraph in Notes.)_
 
@@ -31,23 +31,23 @@ No conflicts.
 | 3 | transaction | transaction | A transfer of coins recorded on the blockchain. | 1,317 | (none found) | تراکنش |  |  |
 | 4 | address | address | A string that identifies where to send coins (shielded z-address, unified address, transparent t-address). Not: a street address, or 'to address' (speak to, deal with). | 1,186 | (none found) | آدرس |  |  |
 | 5 | privacy | privacy | Keeping your financial information hidden from others; the core value of Zcash. | 833 | (none found) | حریم خصوصی |  |  |
-| 6 | pool | pool | A bucket of coins sharing one privacy technology (the shielded Orchard pool, the transparent pool); also a mining pool. Suggestion: keep English. | 758 | (none found) | pool |  |  |
-| 7 | block | block | A batch of transactions added to the blockchain; block height is its position in the chain. Not: 'to block' (prevent, stop). | 668 | (none found) | بلوک |  |  |
+| 6 | pool | pool | A bucket of coins sharing one privacy technology (the shielded Orchard pool, the transparent pool); also a mining pool. Suggestion: keep English. | 758 | (none found) | استخر |  |  |
+| 7 | block | block | A batch of transactions added to the blockchain; block height is its position in the chain. Not: 'to block' (prevent, stop). | 668 | (none found) | بلاک |  |  |
 | 8 | payment | payment | Sending coins to pay someone. | 644 | (none found) | پرداخت |  |  |
-| 9 | node | node | A computer running Zcash software that stores and checks the blockchain. Suggestion: keep English. | 609 | (none found) | node |  |  |
+| 9 | node | node | A computer running Zcash software that stores and checks the blockchain. Suggestion: keep English. | 609 | (none found) | نود |  |  |
 | 10 | proof | proof | Cryptographic proof: mathematical evidence that a statement is true (for example that a transaction is valid) without showing the data. Not: proof as general evidence in a non-cryptographic sense. Suggestion: keep English. | 583 | (none found) | proof |  |  |
 | 11 | chain | chain | Short for blockchain. | 491 | (none found) | زنجیره |  |  |
 | 12 | transparent | transparent | The public, Bitcoin-like part of Zcash where addresses and amounts are visible to everyone. | 468 | (none found) | شفاف |  |  |
 | 13 | note | note | In Zcash, a shielded unit of value (like a private coin) held by a shielded address. Not: a written note or remark, and 'to note' (to notice); translate those normally. | 427 | (none found) | note |  |  |
-| 14 | encryption | encryption | Scrambling data so only holders of the right key can read it; 'encrypted' describes such data. | 316 | (none found) | رمزنگاری |  |  |
-| 15 | blockchain | blockchain | The shared public record of all transactions, built from linked blocks. Suggestion: keep English. | 302 | (none found) | blockchain |  |  |
-| 16 | exchange | exchange | A business or service where people buy, sell or trade cryptocurrencies (a crypto exchange). Not: the verb 'to exchange' (to swap one thing for another). Suggestion: keep English. | 287 | (none found) | exchange |  |  |
-| 17 | memo | memo | A short private message attached to a shielded transaction. | 233 | (none found) | memo |  |  |
+| 14 | encryption | encryption | Scrambling data so only holders of the right key can read it; 'encrypted' describes such data. | 316 | (none found) | رمزگذاری |  |  |
+| 15 | blockchain | blockchain | The shared public record of all transactions, built from linked blocks. Suggestion: keep English. | 302 | (none found) | بلاک‌چین |  |  |
+| 16 | exchange | exchange | A business or service where people buy, sell or trade cryptocurrencies (a crypto exchange). Not: the verb 'to exchange' (to swap one thing for another). Suggestion: keep English. | 287 | (none found) | صرافی |  |  |
+| 17 | memo | memo | A short private message attached to a shielded transaction. | 233 | (none found) | یادداشت |  |  |
 | 18 | custodial | custodial | Who holds the keys: custodial means a company holds your coins for you; non-custodial or self-custody means you hold them. | 216 | (none found) | امانی |  |  |
-| 19 | signature | signature | Cryptographic proof that the holder of a key approved a transaction or message. Not: a handwritten signature. | 214 | (none found) | امضای رمزنگاری‌شده |  |  |
+| 19 | signature | signature | Cryptographic proof that the holder of a key approved a transaction or message. Not: a handwritten signature. | 214 | (none found) | امضای دیجیتال |  |  |
 | 20 | fee | fee | The small amount paid to the network to process a transaction. | 208 | (none found) | کارمزد |  |  |
 | 21 | mining | mining | Using computers to add new blocks to the blockchain and earn newly created coins. Not: 'determining' and other words that merely contain the letters. | 208 | (none found) | استخراج |  |  |
-| 22 | zero-knowledge | zero-knowledge | Cryptography that proves something is true without revealing the underlying information. Suggestion: keep English. | 204 | (none found) | zero-knowledge |  |  |
+| 22 | zero-knowledge | zero-knowledge | Cryptography that proves something is true without revealing the underlying information. Suggestion: keep English. | 204 | (none found) | دانش صفر |  |  |
 | 23 | commitment | commitment | A cryptographic value that binds to hidden data (e.g. a note commitment) without revealing it. Not: a promise or pledge. Suggestion: keep English. | 203 | (none found) | سرسپردگی |  |  |
 | 24 | viewing-key | viewing key | A key that lets someone see, but not spend, the transactions of a wallet. Capitalised 'Viewing Key' is already a protected name. Suggestion: keep English. | 201 | (none found) | viewing key |  |  |
 | 25 | grant | grant | Money awarded to fund a project or contributor (e.g. Zcash Community Grants). Not: 'to grant' (to allow, give). | 195 | (none found) | گرنت |  |  |
@@ -60,7 +60,7 @@ No conflicts.
 | 32 | network-upgrade | network upgrade | A scheduled change to Zcash's rules that all nodes adopt at a set block height (NU5, NU6 and so on). | 130 | (none found) | ارتقای شبکه |  |  |
 | 33 | developer | developer | A person who writes software, here usually for Zcash or a Zcash wallet. Not: development (the activity), which is usually translated. | 129 | (none found) | توسعه‌دهنده |  |  |
 | 34 | on-chain | on-chain | Recorded on the blockchain itself; off-chain means outside it. Suggestion: keep English. | 123 | (none found) | on-chain |  |  |
-| 35 | full-node | full node | A node that downloads and verifies the entire blockchain. Suggestion: keep English. | 120 | (none found) | full node |  |  |
+| 35 | full-node | full node | A node that downloads and verifies the entire blockchain. Suggestion: keep English. | 120 | (none found) | فول‌نود |  |  |
 | 36 | governance | governance | How decisions about Zcash (funding, upgrades) are made and by whom. | 103 | (none found) | حکمرانی |  |  |
 | 37 | turnstile | turnstile | Zcash mechanism that checks the total coins leaving a pool never exceed what entered it. Suggestion: keep English. | 102 | (none found) | turnstile |  |  |
 | 38 | spending-key | spending key | The secret key that authorises spending coins; whoever has it controls the funds. Suggestion: keep English. | 96 | (none found) | spending key |  |  |
@@ -74,7 +74,7 @@ No conflicts.
 | 46 | newsletter | newsletter | A regular email or post that collects ZecHub and Zcash news. | 50 | (none found) | خبرنامه |  |  |
 | 47 | scaling | scaling | Increasing how many transactions a network can handle. Not: shrinking or resizing. | 48 | (none found) | مقیاس‌پذیری |  |  |
 | 48 | bond | bond | Stake locked and delegated to a finalizer for a period; unbonding releases it. Not: a financial bond (debt security) or a personal bond. | 46 | (none found) | bond |  |  |
-| 49 | faucet | faucet | A website that gives away tiny amounts of (often test) coins for free. Suggestion: keep English. | 43 | (none found) | faucet |  |  |
+| 49 | faucet | faucet | A website that gives away tiny amounts of (often test) coins for free. Suggestion: keep English. | 43 | (none found) | فاست |  |  |
 | 50 | seed-phrase | seed phrase | A list of 12 to 24 words that backs up and restores a wallet. | 42 | (none found) | عبارت بازیابی |  |  |
 | 51 | dashboard | dashboard | A page that shows live figures and charts at a glance. | 41 | (none found) | داشبورد |  |  |
 | 52 | cross-chain | cross-chain | Working across two or more different blockchains. Suggestion: keep English. | 39 | (none found) | cross-chain |  |  |
