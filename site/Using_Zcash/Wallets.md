@@ -407,3 +407,16 @@
 - Features: Multi-Chain | Shielded Transactions | Swaps | FROST Multisig | Cold Signing
 - Ironwood: Shielded and Transparent
 - Status: Beta (Continuous Development)
+
+---
+
+## [Zecboat](https://zecboat.com/)
+![logo](https://zecboat.com/images/logo.png)
+Devices: Desktop (Native Application)
+Operating System: Debian Linux
+Wallet Support: Seed Phrase | Wallet Restore
+Pools: Transparent | Ironwood Shielded
+Features: Shielded ZEC Transactions | Shielded Asset Storage and Transfers | On-Chain Collection Verification | Local Transaction Proving | Optional YubiKey Protection for Wallet Key File
+Ironwood: Shielded and Transparent
+Status: Beta (No Independent Security Audit)
+
