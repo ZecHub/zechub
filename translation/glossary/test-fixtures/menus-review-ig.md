@@ -18,32 +18,32 @@ No conflicts.
 
 | # | ID | English | Igbo | ✅ Confirmed | Notes |
 |---:|---|---|---|---|---|
-| 1 | navigation.wallets | Wallets | Akpa ego |  |  |
-| 2 | navigation.guides | Guides | Akwụkwọ ntuziaka |  |  |
-| 3 | navigation.tutorials | Tutorials | Nkuzi |  |  |
-| 4 | navigation.governance | Governance | Ọchịchị |  |  |
-| 5 | navigation.visualizer | Visualizer | Onye na-ahụ anya |  |  |
-| 6 | navigation.dao | DAO | DAO |  |  |
-| 7 | navigation.newsletter | Newsletter | Akwụkwọ akụkọ |  |  |
-| 8 | navigation.donate | Donate | Nye onyinye |  |  |
-| 9 | navigation.explore | Explore | Nyochaa |  |  |
-| 10 | navigation.developers | Developers | Ndị mmepe |  |  |
-| 11 | navigation.community | Community | Ihe Community |  |  |
-| 12 | navigation.contribute | Contribute | Na-enye aka |  |  |
-| 13 | navigation.dashboard | Dashboard | Ogwe njikwa |  |  |
-| 14 | navigation.more | More | Ọzọ |  |  |
-| 15 | navigation.usingZcash.label | Use Zcash | Jiri Zcash |  |  |
-| 16 | navigation.usingZcash.buyingZec | Buying ZEC | Ịzụta ZEC |  |  |
-| 17 | navigation.usingZcash.faucets | Faucets | Faucets |  |  |
-| 18 | navigation.usingZcash.wallets | Wallets | Akpa ego |  |  |
-| 19 | navigation.usingZcash.exchanges | Exchanges | Mmekọrịta |  |  |
-| 20 | navigation.usingZcash.blockExplorers | Block Explorers | Ndị na-enyocha Block |  |  |
-| 21 | navigation.usingZcash.shieldedPools | Shielded Pools | Ọdọ Mmiri Ndị E Chebere |  |  |
-| 22 | navigation.usingZcash.transparentExchangeAddresses | Transparent Exchange Addresses | Adreesị Mgbanwerịta Ọcha |  |  |
-| 23 | navigation.usingZcash.transactions | Transactions | Mmekọrịta |  |  |
-| 24 | navigation.usingZcash.memos | Memos | Ihe ncheta |  |  |
-| 25 | navigation.usingZcash.mobileTopUps | Mobile Top Ups | Ngwaọrụ Mobile Top Ups |  |  |
-| 26 | navigation.usingZcash.paymentRequestUris | Payment Request URIs | Ịkwụ Ụgwọ Arịrịọ URI |  |  |
+| 1 | navigation.wallets | Wallets | Akpa ego | Ok |  Best Translates the word wallet to an ordinary igbo user|
+| 2 | navigation.guides | Guides | Akwụkwọ ntuziaka |Ok  |The translation should be very easy for an ordinary user to understand|
+| 3 | navigation.tutorials | Tutorials | Nkuzi |Ok  |  The translation gives the suitable contextual meaning of the word |
+| 4 | navigation.governance | Governance | Ọchịchị |Ok  | very suitable  translation to the contextual meaning of the English word|
+| 5 | navigation.visualizer | Visualizer | Onye na-ahụ anya |  No |As regards the contextual meaning this might not be the most suitable translation|
+| 6 | navigation.dao | DAO | DAO | Ok |Best kept English |
+| 7 | navigation.newsletter | Newsletter | Akwụkwọ akụkọ | Ok | This is also an appropriate translation of the English word|
+| 8 | navigation.donate | Donate | Nye onyinye |  Ok| This is an appropriate translation for the word in context|
+| 9 | navigation.explore | Explore | Nyochaa |Ok  | Best Translates the word in context|
+| 10 | navigation.developers | Developers | Ndị mmepe |  Ok |Appropriate for the contextual meaning of the English word|
+| 11 | navigation.community | Community | Ihe Community |No  | Not an appropriate Igbo translation|
+| 12 | navigation.contribute | Contribute | Na-enye aka |Ok  | The translation gives an easy to understand contextual meaning of the word|
+| 13 | navigation.dashboard | Dashboard | Ogwe njikwa |  Ok|  This gives the closest contextual meaning to the English word|
+| 14 | navigation.more | More | Ọzọ | Ok | This is the correct igbo translation for the English word|
+| 15 | navigation.usingZcash.label | Use Zcash | Jiri Zcash | Ok | This gives a very  suitable translation to the English word|
+| 16 | navigation.usingZcash.buyingZec | Buying ZEC | Ịzụta ZEC | Ok | The translation should  be easy for an ordinary user to understand|
+| 17 | navigation.usingZcash.faucets | Faucets | Faucets | Ok | Best kept English |
+| 18 | navigation.usingZcash.wallets | Wallets | Akpa ego | Ok | Gives the suitable translation to the word "Wallet"|
+| 19 | navigation.usingZcash.exchanges | Exchanges | Mmekọrịta | No |  The translation doesn't give the contextual meaning of the word|
+| 20 | navigation.usingZcash.blockExplorers | Block Explorers | Ndị na-enyocha Block | Ok |Appropriate  translation for the word in context|
+| 21 | navigation.usingZcash.shieldedPools | Shielded Pools | Ọdọ Mmiri Ndị E Chebere |  No| Best kept English|
+| 22 | navigation.usingZcash.transparentExchangeAddresses | Transparent Exchange Addresses | Adreesị Mgbanwerịta Ọcha |No  | The translation doesn't give an appropriate meaning to the word in context|
+| 23 | navigation.usingZcash.transactions | Transactions | Mmekọrịta |No  | The translation "Azụmahia" gives a better contextual translation|
+| 24 | navigation.usingZcash.memos | Memos | Ihe ncheta |Ok  |The translation is very appropriate for the word in context|
+| 25 | navigation.usingZcash.mobileTopUps | Mobile Top Ups | Ngwaọrụ Mobile Top Ups |No  |  The translationis not an appropriate igbo word, it is best kept English|
+| 26 | navigation.usingZcash.paymentRequestUris | Payment Request URIs | Ịkwụ Ụgwọ Arịrịọ URI |  No | The translation doesn't give an appropriate contextual translation to the word |
 | 27 | navigation.usingZcash.paymentProcessors | Payment Processors | Ndị na-arụ ọrụ ịkwụ ụgwọ |  |  |
 | 28 | navigation.usingZcash.recoveringFunds | Recovering Funds | Nkwụghachi Ego |  |  |
 | 29 | navigation.usingZcash.tools | Tools | Ngwá ọrụ |  |  |
