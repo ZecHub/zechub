@@ -19,7 +19,7 @@ files, so a decision made once applies everywhere.
 | `review-instructions.json` | The fill-in instructions in the reviewer's language, printed above the English ones in an exported table. `machine: true` marks a text no native speaker has checked yet. |
 | `prompt-template.md` | The part of the translation prompt that is the same for every language. |
 | `render-prompt.mjs` | Prints the prompt for one page of one language. Logic in `lib/render-prompt.mjs`. |
-| `test-fixtures/` | The filled review tables for Indonesian (used by the tests) and Italian; the open review tables for the other 18 languages, Greek included (`glossary-review-<loc>.md`, `menus-review-<loc>.md`, for the native-speaker review bounties); and the hand-written prompt heads the generated ones replace (`legacy-heads/`). |
+| `test-fixtures/` | The filled review tables for Indonesian (used by the tests) and Italian; the open review tables for the other 19 languages, Greek and Persian included (`glossary-review-<loc>.md`, `menus-review-<loc>.md`, for the native-speaker review bounties); and the hand-written prompt heads the generated ones replace (`legacy-heads/`). |
 
 Names of products, companies and protocols (Zcash, Orchard, Zashi, ...) are
 not in these files. They stay in English in every language and are listed in
@@ -94,7 +94,11 @@ with the `kamu` register, while a `Zcash_Tech/` page gets `Anda`.
 
    The pages kit lists the words used in wiki pages, with how often they occur
    in English and what the translated pages contain today. The UI kit lists
-   the website menu labels. Both start with a list of open conflicts, and the
+   the website menu labels, the language menu and the search and close
+   buttons; the labels of the desktop header bar are marked "Header bar: keep
+   it short", because the bar must fit on one line. For a language already
+   reviewed, `--only-missing` exports a follow-up kit with only the labels the
+   glossary does not decide yet, plus the header-bar rows. Both start with a list of open conflicts, and the
    pages kit ends with style questions (formal or informal "you", English in
    brackets, and so on).
 
