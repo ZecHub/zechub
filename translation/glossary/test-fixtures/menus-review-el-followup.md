@@ -32,39 +32,39 @@ Rows marked "Header bar: keep it short" sit side by side in the desktop header b
 
 | # | ID | English | Greek | ✅ Confirmed | Notes |
 |---:|---|---|---|---|---|
-| 1 | navigation.guides | Guides | Οδηγοί |  | Header bar: keep it short |
-| 2 | navigation.dashboard | Dashboard | Πίνακας ελέγχου |  | Header bar: keep it short |
-| 3 | navigation.more | More | Περισσότερα |  | Header bar: keep it short |
-| 4 | navigation.usingZcash.label | Use Zcash | Χρήση του Zcash |  | Header bar: keep it short |
-| 5 | navigation.zcashCommunity.label | Ecosystem | Οικοσύστημα |  | Header bar: keep it short |
-| 6 | navigation.organizations.label | Organizations | Οργανισμοί |  | Header bar: keep it short |
+| 1 | navigation.guides | Guides | Οδηγοί | OK | Header bar: keep it short |
+| 2 | navigation.dashboard | Dashboard | Πίνακας ελέγχου | OK | Kept long on purpose: no shorter Greek word fits; the bar can fall back to the menu button. |
+| 3 | navigation.more | More | Περισσότερα | OK | Header bar: keep it short |
+| 4 | navigation.usingZcash.label | Use Zcash | Χρήση του Zcash | Χρήση Zcash | Header bar: same meaning without the article, as short as «Οικοσύστημα». |
+| 5 | navigation.zcashCommunity.label | Ecosystem | Οικοσύστημα | OK | Header bar: keep it short |
+| 6 | navigation.organizations.label | Organizations | Οργανισμοί | OK | Header bar: keep it short |
 
 ## Submenu entries (page names in the menus)
 (`menuLabels`: 11 labels)
 
 | # | ID | English | Greek | ✅ Confirmed | Notes |
 |---:|---|---|---|---|---|
-| 1 | menuLabels.Zallet Quick Reference Guide | Zallet Quick Reference Guide | Σύντομος οδηγός αναφοράς για το Zallet |  |  |
-| 2 | menuLabels.Spend Zcash | Spend Zcash | Δαπάνη Zcash |  |  |
-| 3 | menuLabels.Places to Spend ZEC | Places to Spend ZEC | Μέρη για δαπάνη ZEC |  |  |
-| 4 | menuLabels.Free2Z Livestreaming | Free2Z Livestreaming | Ζωντανές μεταδόσεις Free2Z |  |  |
-| 5 | menuLabels.Hardened Zebrad | Hardened Zebrad | Ενισχυμένο Zebrad |  |  |
-| 6 | menuLabels.Akash Network Zcashd | Akash Network Zcashd | Zcashd στο Δίκτυο Akash |  |  |
-| 7 | menuLabels.Brave Wallet Guide | Brave Wallet Guide | Οδηγός Brave Wallet |  |  |
-| 8 | menuLabels.Migration Guide Zcashd To Zebrad Zallet | Migration Guide Zcashd To Zebrad Zallet | Οδηγός μετάβασης από Zcashd σε Zebrad Zallet |  |  |
-| 9 | menuLabels.My First Zcash Workbook | My First Zcash Workbook | Το πρώτο μου βιβλίο εργασίας για το Zcash |  |  |
-| 10 | menuLabels.Verifying Zcash Releases | Verifying Zcash Releases | Επαλήθευση εκδόσεων Zcash |  |  |
-| 11 | menuLabels.Viewing Key Transaction Export | Viewing Key Transaction Export | Εξαγωγή συναλλαγών μέσω Viewing Key |  |  |
+| 1 | menuLabels.Zallet Quick Reference Guide | Zallet Quick Reference Guide | Σύντομος οδηγός αναφοράς για το Zallet | OK |  |
+| 2 | menuLabels.Spend Zcash | Spend Zcash | Δαπάνη Zcash | Ξόδεψε Zcash | «Δαπάνη» sounds like an accounting expense; informal imperative like the rest of the site. |
+| 3 | menuLabels.Places to Spend ZEC | Places to Spend ZEC | Μέρη για δαπάνη ZEC | Πού να ξοδέψεις ZEC | Natural Greek; «Μέρη για δαπάνη» reads like a translation. |
+| 4 | menuLabels.Free2Z Livestreaming | Free2Z Livestreaming | Ζωντανές μεταδόσεις Free2Z | OK |  |
+| 5 | menuLabels.Hardened Zebrad | Hardened Zebrad | Ενισχυμένο Zebrad | OK |  |
+| 6 | menuLabels.Akash Network Zcashd | Akash Network Zcashd | Zcashd στο Δίκτυο Akash | OK |  |
+| 7 | menuLabels.Brave Wallet Guide | Brave Wallet Guide | Οδηγός Brave Wallet | OK | Brave Wallet is the product's name, so it stays English. |
+| 8 | menuLabels.Migration Guide Zcashd To Zebrad Zallet | Migration Guide Zcashd To Zebrad Zallet | Οδηγός μετάβασης από Zcashd σε Zebrad Zallet | Οδηγός μετάβασης από Zcashd σε Zebrad και Zallet | Two separate programs, so «και» is needed. |
+| 9 | menuLabels.My First Zcash Workbook | My First Zcash Workbook | Το πρώτο μου βιβλίο εργασίας για το Zcash | Το πρώτο μου τετράδιο Zcash | A school workbook is «τετράδιο» in Greek; «βιβλίο εργασίας» sounds translated. |
+| 10 | menuLabels.Verifying Zcash Releases | Verifying Zcash Releases | Επαλήθευση εκδόσεων Zcash | OK |  |
+| 11 | menuLabels.Viewing Key Transaction Export | Viewing Key Transaction Export | Εξαγωγή συναλλαγών μέσω Viewing Key | Εξαγωγή συναλλαγών με viewing key | Glossary: viewing key stays English in lowercase. «συναλλαγών» is συναλλαγή in the plural genitive. |
 
 ## Language menu and search buttons
 (`common`: 7 labels)
 
 | # | ID | English | Greek | ✅ Confirmed | Notes |
 |---:|---|---|---|---|---|
-| 1 | common.language | Language | Γλώσσα |  |  |
-| 2 | common.search | Search | Αναζήτηση |  |  |
-| 3 | common.close | Close | Κλείσιμο |  |  |
-| 4 | common.languageSearch | Search languages | Αναζήτηση γλωσσών |  |  |
-| 5 | common.languageSuggested | Suggested | Προτεινόμενες |  |  |
-| 6 | common.languageAll | All languages | Όλες οι γλώσσες |  |  |
-| 7 | common.languageNone | No language found | Δεν βρέθηκε γλώσσα |  |  |
+| 1 | common.language | Language | Γλώσσα | OK |  |
+| 2 | common.search | Search | Αναζήτηση | OK |  |
+| 3 | common.close | Close | Κλείσιμο | OK |  |
+| 4 | common.languageSearch | Search languages | Αναζήτηση γλωσσών | OK |  |
+| 5 | common.languageSuggested | Suggested | Προτεινόμενες | OK |  |
+| 6 | common.languageAll | All languages | Όλες οι γλώσσες | OK |  |
+| 7 | common.languageNone | No language found | Δεν βρέθηκε γλώσσα | OK |  |
