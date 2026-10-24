@@ -38,28 +38,28 @@ No conflicts.
 | 18 | navigation.usingZcash.wallets | Wallets | Akpa ego | Ok | Gives the suitable translation to the word "Wallet"|
 | 19 | navigation.usingZcash.exchanges | Exchanges | Mmekọrịta | No |  The translation doesn't give the contextual meaning of the word|
 | 20 | navigation.usingZcash.blockExplorers | Block Explorers | Ndị na-enyocha Block | Ok |Appropriate  translation for the word in context|
-| 21 | navigation.usingZcash.shieldedPools | Shielded Pools | Ọdọ Mmiri Ndị E Chebere |  No| Best kept English|
+| 21 | navigation.usingZcash.shieldedPools | Shielded Pools | Ọdọ Mmiri Ndị E Chebere |  No| This translation doesn't give the contextual meaning to the word in context|
 | 22 | navigation.usingZcash.transparentExchangeAddresses | Transparent Exchange Addresses | Adreesị Mgbanwerịta Ọcha |No  | The translation doesn't give an appropriate meaning to the word in context|
 | 23 | navigation.usingZcash.transactions | Transactions | Mmekọrịta |No  | The translation "Azụmahia" gives a better contextual translation|
 | 24 | navigation.usingZcash.memos | Memos | Ihe ncheta |Ok  |The translation is very appropriate for the word in context|
 | 25 | navigation.usingZcash.mobileTopUps | Mobile Top Ups | Ngwaọrụ Mobile Top Ups |No  |  The translationis not an appropriate igbo word, it is best kept English|
 | 26 | navigation.usingZcash.paymentRequestUris | Payment Request URIs | Ịkwụ Ụgwọ Arịrịọ URI |  No | The translation doesn't give an appropriate contextual translation to the word |
-| 27 | navigation.usingZcash.paymentProcessors | Payment Processors | Ndị na-arụ ọrụ ịkwụ ụgwọ |  |  |
-| 28 | navigation.usingZcash.recoveringFunds | Recovering Funds | Nkwụghachi Ego |  |  |
-| 29 | navigation.usingZcash.tools | Tools | Ngwá ọrụ |  |  |
-| 30 | navigation.usingZcash.useCases | Use Cases | Jiri Ọnọdụ |  |  |
-| 31 | navigation.usingZcash.useCasesSubmenu.startHere | Start Here | Malite Ebe a |  |  |
-| 32 | navigation.usingZcash.useCasesSubmenu.acceptPayments | Accept Payments | Nabata Ịkwụ Ụgwọ |  |  |
-| 33 | navigation.usingZcash.useCasesSubmenu.freelancePrivacy | Freelance Privacy | Nzuzo nke onwe onye |  |  |
-| 34 | navigation.usingZcash.useCasesSubmenu.journalistPrivacy | Journalist Privacy | Nzuzo nke Onye nta akụkọ |  |  |
-| 35 | navigation.usingZcash.useCasesSubmenu.keepingRecords | Keeping Records | Idebe Ihe ndekọ |  |  |
-| 36 | navigation.usingZcash.useCasesSubmenu.privateCommunityTreasury | Private Community Treasury | Ụlọ Akụ nke Onwe Onye |  |  |
-| 37 | navigation.usingZcash.useCasesSubmenu.donations | Donations | Onyinye E Nyere |  |  |
-| 38 | navigation.usingZcash.useCasesSubmenu.sendMoneyPrivately | Send Money Privately | Na-ezipụ Ego n'Ebe Ọ Bụla |  |  |
-| 39 | navigation.zcashCommunity.label | Ecosystem | Ihe Ndị Dị n'Eluigwe |  |  |
-| 40 | navigation.zcashCommunity.communityBlogs | Community Blogs | Blọọgụ Obodo |  |  |
-| 41 | navigation.zcashCommunity.communityLinks | Community Links | Njikọ nke Community |  |  |
-| 42 | navigation.zcashCommunity.communityForum | Community Forum | Nzukọ Ndị Isi Obodo |  |  |
+| 27 | navigation.usingZcash.paymentProcessors | Payment Processors | Ndị na-arụ ọrụ ịkwụ ụgwọ |  Ok|  Very suitable  translation  for the word in  context |
+| 28 | navigation.usingZcash.recoveringFunds | Recovering Funds | Nkwụghachi Ego | Ok |  The translation gives the appropriate meaning to the word in context|
+| 29 | navigation.usingZcash.tools | Tools | Ngwá ọrụ | Ok | The translation  should  be easy to understand for the ordinary user|
+| 30 | navigation.usingZcash.useCases | Use Cases | Jiri Ọnọdụ | Ok  | Suits the  context  translation of the English word|
+| 31 | navigation.usingZcash.useCasesSubmenu.startHere | Start Here | Malite Ebe a |Ok  |  Gives the correct translation of the English word|
+| 32 | navigation.usingZcash.useCasesSubmenu.acceptPayments | Accept Payments | Nabata Ịkwụ Ụgwọ | Ok |The translation gives  an appropriate meaning of the word in context|
+| 33 | navigation.usingZcash.useCasesSubmenu.freelancePrivacy | Freelance Privacy | Nzuzo nke onwe onye |Ok   | Suitable  translation to the English word in context|
+| 34 | navigation.usingZcash.useCasesSubmenu.journalistPrivacy | Journalist Privacy | Nzuzo nke Onye nta akụkọ | Ok |The  translation  gives the correct meaning to the word|
+| 35 | navigation.usingZcash.useCasesSubmenu.keepingRecords | Keeping Records | Idebe Ihe ndekọ |Ok  | Best fit translation to the word in context|
+| 36 | navigation.usingZcash.useCasesSubmenu.privateCommunityTreasury | Private Community Treasury | Ụlọ Akụ nke Onwe Onye |Keep  English | The proposed translation doesn't givethe correct meaning to the word in context|
+| 37 | navigation.usingZcash.useCasesSubmenu.donations | Donations | Onyinye E Nyere |  Ok|  Best Translates the word in context|
+| 38 | navigation.usingZcash.useCasesSubmenu.sendMoneyPrivately | Send Money Privately | Na-ezipụ Ego n'Ebe Ọ Bụla | Keep English| The translation proposed doesn't give the correct meaning to the word in context|
+| 39 | navigation.zcashCommunity.label | Ecosystem | Ihe Ndị Dị n'Eluigwe |  Keep English|The translation  proposed doesn't give the suitable meaning to the word in context|
+| 40 | navigation.zcashCommunity.communityBlogs | Community Blogs | Blọọgụ Obodo |  Keep English|  The translation proposed doesn't give the correct meaning to the word in context|
+| 41 | navigation.zcashCommunity.communityLinks | Community Links | Njikọ nke Community | Keep  English|The translation  doesn't  give the correct translation to the word in context|
+| 42 | navigation.zcashCommunity.communityForum | Community Forum | Nzukọ Ndị Isi Obodo | Keep  English|The translation  proposed  doesn't give the correct translation of the word in context|
 | 43 | navigation.zcashCommunity.communityProjects | Community Projects | Ihe Omume Ndị E Nwere n"Ọgbakọ |  |  |
 | 44 | navigation.zcashCommunity.zcashMedia | Zcash Media | Zcash Mgbasa Ozi |  |  |
 | 45 | navigation.zcashCommunity.zcashPodcasts | Zcash Podcasts | Zcash Podcasts |  |  |
