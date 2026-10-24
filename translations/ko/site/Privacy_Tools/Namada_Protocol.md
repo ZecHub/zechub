@@ -32,7 +32,7 @@ Namada 프로토콜은 또한 IBC(Inter-Blockchain Communication) 프로토콜�
 
 ## 쉴드 세트 보상
 
-[Namada 프로토콜](https://blog.namada.net/what-is-namada/)의 최신 업데이트에 따르면, 쉴드 자산을 소유한 사용자는 공유된 쉴드 세트에 적극적으로 참여하도록 인센티브를 제공받습니다. 이는 업그레이드된 MASP 회로와 통합되어, 혁신적인 Convert 회로가 포함되어 있기 때문에 가능합니다. 이러한 새로운 기능을 활용하여 Namada는 사용자가 쉴드 자산을 소유함으로써 공유된 쉴드 세트에 기여하도록 장려합니다.
+[Namada 프로토콜](https://namada.net/blog/what-is-namada)의 최신 업데이트에서 쉴드 자산을 보유한 사용자는 공유 쉴드 세트에 적극적으로 참여하도록 인센티브를 받습니다. 이는 이제 혁신적인 Convert Circuit을 포함하는 업데이트된 MASP 회로의 통합으로 가능해졌습니다. 이 새로운 기능을 활용하여 Namada는 사용자가 쉴드 자산을 보유함으로써 공유 쉴드 세트에 기여하도록 장려합니다.
 
 Namada에서의 쉴드 세트는 비독점적이고 반경쟁적인 공공재로 간주됩니다. 이는 더 많은 사람들이 쉴드 전송을 사용할수록 각 참여자에게 제공되는 개인 정보 보호 수준이 향상된다는 의미입니다. 프로토콜은 집단 채택과 참여가 모든 사용자의 개인정보 보호를 강화하는 데 중요하다고 인식합니다. 따라서, 쉴드 자산을 소유하고 공유된 쉴드 세트에 기여하도록 사용자를 인센티브화함으로써 Namada는 더 강력하고 견고한 개인 정보 보호 생태계를 조성합니다.
 
@@ -52,7 +52,7 @@ Namada는 두 가지 핵심 요소를 결합하여 빠른 거래 속도와 최�
 
 ## Namada와 Zcash 전략적 동맹
 
-[Namada 프로토콜 블로그](https://blog.namada.net/rfc-proposal-for-a-strategic-alliance-between-namada-and-zcash/)에 게시된 최근 공고에 따르면, Namada 프로토콜 팀은 Namada와 Zcash 자산, 체인 및 커뮤니티 간의 전략적 동맹을 제안하고 요청-댓글(RFC)을 발표하기를 기대합니다.
+[Namada 프로토콜 블로그](https://namada.net/blog/rfc-proposal-for-a-strategic-alliance-between-namada-and-zcash)에 게시된 최근 글에 따르면, Namada 프로토콜 팀은 Namada 및 Zcash 자산, 체인, 커뮤니티 간의 전략적 동맹을 위한 제안 및 의견 요청(RFC)을 기쁘게 소개합니다.
 
 ![Namada-Zcash 전략적 동맹 다이어그램](/content-images/image-2-68804c60f3.webp)
 
@@ -62,5 +62,5 @@ Namada는 두 가지 핵심 요소를 결합하여 빠른 거래 속도와 최�
 
 - [Namada 프로토콜 공식 영상](https://www.youtube.com/watch?v=Wg_WtPdBig0)
 - [Namada 프로토콜 공식 웹사이트](https://namada.net/)
-- [Namada 블로그](https://blog.namada.net/)
+- [Namada 블로그](https://namada.net/blog)
 - [Namada 문서](https://docs.namada.net/)

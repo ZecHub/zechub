@@ -8,6 +8,18 @@ Las direcciones blindadas te permiten realizar transacciones revelando lo menos 
 
 Una viewing key es la herramienta para la divulgación selectiva: eliges quién ve qué y nunca entregas autoridad para gastar al hacerlo.
 
+## En resumen
+
+Una clave de visualización otorga acceso de **solo lectura** a la actividad de una dirección o cuenta Zcash blindada: quien la posea puede ver las transacciones entrantes (y, para las claves de visualización completas, las salientes), pero nunca puede gastar.
+
+- **Qué es:** la herramienta de divulgación selectiva de los pools blindados. Introducida en [ZIP 310](https://zips.z.cash/zip-0310), añadida al protocolo en la actualización de red Sapling.
+- **Qué permite:** detectar depósitos (claves entrantes `uivk…`) o visibilidad completa de entradas y salidas para una cuenta (claves de visualización completas unificadas `uview…`), y claves heredadas Sapling `zxviews…`.
+- **Qué no permite:** autoridad para gastar. Nada de lo que haga el titular de una clave de visualización puede mover fondos.
+- **Dónde funciona hoy:** exportación/importación en [Zallet](https://github.com/zcash/zallet) (v0.1.0-beta.2+, `z_exportviewingkey` / `z_importviewingkey`) y cuentas de solo visualización en wallets como Zkool; consulta la página de [Wallets](/using-zcash/wallets) para ver la matriz de compatibilidad actual.
+- **La regla general:** prefiere la clave más limitada que responda a la pregunta planteada, y recuerda que una clave entregada no puede revocarse; solo puede quedar obsoleta al mover los fondos.
+
+---
+
 ## ¿Por qué usar una viewing key?
 
 Los escritos de Electric Coin Company sobre el tema exponen las situaciones que se presentan con más frecuencia, y siguen siendo las habituales hoy en día:
@@ -74,7 +86,7 @@ Pasar una dirección Sapling devuelve la Sapling extended full viewing key de es
 
 ### Wallets que exportan viewing keys desde su propia interfaz
 
-La página [Wallets](/using-zcash/wallets) registra la compatibilidad con viewing keys y la preparación para Ironwood de cada wallet. Al momento de escribir esto, las wallets que indican compatibilidad con viewing keys y **Ironwood: Ready** incluyen ZODL, Zingo!, Zkool, Cake, Zallet, Zecd y Nozy. Consulta esa página en lugar de esta antes de depender de cualquier wallet específica, porque la preparación cambia.
+La página [Wallets](/using-zcash/wallets) registra la compatibilidad con viewing keys y la preparación para Ironwood de cada wallet. Al momento de escribir esto, las wallets que indican compatibilidad con viewing keys y **Ironwood: Ready** incluyen ZODL, Zingo!, Zkool, Cake, Zallet, zecd y Nozy. Consulta esa página en lugar de esta antes de depender de cualquier wallet específica, porque la preparación cambia.
 
 ## Importar una viewing key como cuenta de solo visualización
 
@@ -104,17 +116,75 @@ Si seguiste una versión anterior de esta página, o una traducción de ella, tr
 - **El tutorial de Ywallet.** La página Wallets marca Ywallet como **Ironwood: Not Ready**, por lo que no es la wallet a la que se debe dirigir a las personas para viewing keys de la era Ironwood. Zkool, del mismo desarrollador, acepta la misma gama de claves y está marcada como Ready.
 - **zcashblockexplorer.com/vk.** El servicio devuelve HTTP 503 con un certificado no válido, y se ha eliminado en lugar de reemplazarse. Pegar una viewing key en un sitio web entrega todo tu historial de transacciones a quien opere ese sitio, lo cual siempre fue la opción más débil de las tres en la página anterior. Importa la clave en una wallet que ejecutes tú en su lugar.
 
+## Visual / Analogía
+
+### La ventana del auditor
+
+Piensa en una cuenta blindada como una sala de cajas de seguridad en un banco:
+
+- La **clave de gasto** es la llave de la habitación. Quien la posea puede abrir cajas y sacar su contenido.
+- Una **clave de visualización** es la ventana del auditor hacia esa habitación. El auditor puede observar cada caja entrar y salir, leer las etiquetas y llevar un registro contable, pero la ventana no tiene manija. La persona que mira a través de ella no puede mover nada dentro de la habitación.
+
+### Lo que la ventana no puede mostrar
+
+La ventana da a la habitación, no al mundo exterior. Muestra la actividad protegida de la cuenta observada; no convierte al observador en alguien que observa toda la blockchain, ni le permite correlacionar la actividad de la cuenta con el historial no protegido de nadie más. Y dado que la ventana se instala a nivel de cuenta, darle a alguien una mirilla para una caja de depósito (una única dirección) aún le da la vista completa de las entradas de toda la habitación, que es precisamente la razón por la que existe la regla de la clave más restringida.
+
+### Por qué no puedes recuperar la ventana
+
+Una clave de visualización es información, no una entrada de permiso. Una vez copiada, existe hasta que los fondos salen de la cuenta que observa. La solución práctica es la rotación: trasladar los saldos a una cuenta nueva cuyas claves la otra parte nunca recibió, y la antigua ventana se asoma a una habitación vacía.
+
+## Análisis en profundidad
+
+### Descifrado de prueba: cómo funciona realmente la visualización
+
+Cada transacción blindada cifra los textos planos de sus notas para el destinatario previsto. Una wallet que posee una viewing key realiza un **descifrado de prueba**: para cada transacción que encuentra en la cadena, intenta descifrar los textos cifrados de las notas con la clave. Los aciertos revelan el valor de la nota, el diversificador del destinatario y el memo; los fallos no tienen coste. Por eso, la misma incoming viewing key sigue funcionando en los pools Orchard y Ironwood — [ZIP 326](https://zips.z.cash/zip-0326) limita un receptor al *protocolo* Orchard, por lo que los textos cifrados de las notas Ironwood tienen formato de Orchard y se descifran mediante prueba con las viewing keys Orchard de la cuenta dentro del dominio de cifrado de notas Ironwood.
+
+### Completa frente a entrante: qué determina la derivación
+
+Una clave de visualización **completa** puede derivar la capacidad de visualización saliente, lo que permite a un auditor reconstruir el lado del *remitente* de una transferencia una vez descifrada la transacción. Una clave de visualización **entrante** se queda deliberadamente corta: detecta y descifra notas entrantes, pero no puede reconstruir la vinculación saliente. La derivación entre estas capacidades es unidireccional —la clave entrante se deriva *de* la clave completa, nunca al revés—, lo que hace que «solo entrante» sea una degradación real en lugar de una promesa. El indicador `use_qsk` de [ZIP 2005](https://zips.z.cash/zip-2005) modifica la propia derivación, por lo que las claves recuperables cuánticamente constituyen una familia de claves completamente distinta, no una variante de la anterior.
+
+### Cómo se ve la migración para un espectador
+
+Dado que la migración [ZIP 318](https://zips.z.cash/zip-0318) es una serie aleatorizada de pequeñas transacciones uniformes de Orchard a Ironwood, quien posee la clave ve una escalera: muchos escalones de valor de denominación canónica en lugar de un solo salto. Ningún escalón revela el saldo total que se está migrando, pero el *patrón* es reconocible — lo cual es la contrapartida prevista de un torniquete auditable.
+
+## Implicaciones prácticas
+
+- **Para exchanges y procesadores de pagos:** carga la clave de visualización entrante de la cuenta (o UFVK para una cobertura completa) en un nodo de detección y reconcilia automáticamente los depósitos de clientes, exactamente como lo harías con una dirección transparente, pero la clave de gasto del cliente nunca sale del almacenamiento en frío.
+- **Para auditores y pruebas de reservas:** una clave de visualización completa transforma «confía en nosotros» en «verifica esto»: saldos e historial completo de transacciones de las cuentas observadas, sin ninguna capacidad de tocarlas. Combínala con [Divulgaciones de pagos](/zcash-tech/payment-disclosures) para pruebas puntuales sobre un único pago.
+- **Para la debida diligencia:** entrega a una contraparte la clave de la cuenta relevante para la relación, no la de toda tu wallet. Si la relación termina, rota la cuenta.
+- **Para elegir herramientas:** Zallet exporta UFVK e importa Sapling claves de visualización completas extendidas; Zkool acepta claves unificadas y heredadas como cuentas de solo visualización. Consulta la página [Wallets](/using-zcash/wallets) para ver la matriz actual de preparación de Ironwood antes de estandarizar una wallet.
+- **El coste de la divulgación es permanente:** cada titular adicional de una clave es una línea de crédito de privacidad permanente que no puedes cerrar. Emite claves por relación, limítalas a una sola cuenta y documenta quién posee qué.
+
+## Errores comunes
+
+| Creencia común | Lo que realmente ocurre |
+| --- | --- |
+| "Una viewing key puede gastar los fondos si se filtra." | No puede. Las viewing keys no otorgan autoridad para gastar; lo peor que puede causar una filtración es revelar el historial. |
+| "Puedo revocar una viewing key más adelante." | No puedes. Una clave entregada funciona hasta que los fondos se transfieren a una cuenta cuyas claves la otra parte no posee. |
+| "Exportar una UIVK para una sola dirección solo muestra esa dirección." | Las viewing keys se aplican a toda la cuenta. Una UIVK muestra la actividad entrante de cada pool de la cuenta. |
+| "`zcash-cli z_exportviewingkey` todavía funciona." | No. zcashd llegó a su interrupción por fin de soporte el 18 de julio de 2026; usa `z_exportviewingkey` / `z_importviewingkey` de Zallet en su lugar. |
+| "Pegar una viewing key en una herramienta web es seguro porque es de solo lectura." | Que sea de solo lectura sigue significando que todo el historial de transacciones de esa cuenta se entrega a quien administre el sitio. Importa la clave en una wallet que administres tú. |
+| "Zallet puede importar cualquier viewing key que Zallet pueda exportar." | No. Zallet solo importa extended full viewing keys de Sapling; las claves unificadas de `uview…` deben importarse en wallets que acepten claves unificadas, como Zkool. |
+
+## Páginas relacionadas
+
+- [Divulgaciones de pagos](/zcash-tech/payment-disclosures) — demostrar detalles seleccionados de un pago sin conceder acceso continuo a una cuenta
+- [Direcciones unificadas](/zcash-tech/unified-addresses) — la capa de direcciones que contiene receptores de claves de visualización
+- [Ironwood](/zcash-tech/ironwood) — el pool blindado de NU6.3 al que migra Orchard
+- [El Torniquete](/zcash-tech/the-turnstile) — el mecanismo de migración de Orchard a Ironwood que los observadores pueden seguir
+- [Wallets](/using-zcash/wallets) — el directorio completo de wallets, compatibilidad con claves de visualización y preparación para Ironwood
+- [Exportar el historial de transacciones desde un Viewing Key](/guides/viewing-key-transaction-export) — convertir una clave importada en un archivo completo de historial de txid/comisión/memo
+
 ## Recursos
 
 Usa viewing keys según sea necesario y prefiere la clave más limitada que responda a la pregunta planteada.
 
 - [Divulgaciones de pagos](/zcash-tech/payment-disclosures) - demostrar detalles seleccionados de un pago sin otorgar acceso continuo a una cuenta
-- [ZIP 326: Consecuencias de NU6.3 para las Wallets](https://zips.z.cash/zip-0326) — cómo se comportan las claves de visualización entre los pools Orchard e Ironwood
-- [ZIP 229: Formato de transacción versión 6](https://zips.z.cash/zip-0229) — define los pools Orchard e Ironwood
-- [Registro de cambios de Zallet](https://github.com/zcash/zallet/blob/main/CHANGELOG.md) — qué versión añadió cada método RPC
-- [README de Zkool](https://github.com/hhanh00/zkool2/blob/main/README.md) — tipos de cuentas y claves compatibles
-- [ECC, Explicación de las Viewing Keys](https://electriccoin.co/blog/explaining-viewing-keys/)
-- [ECC, Divulgación selectiva y Viewing Keys](https://electriccoin.co/blog/viewing-keys-selective-disclosure/)
-- [ECC, Zcash Viewing Key Presentación de video](https://www.youtube.com/watch?v=NXjK_Ms7D5U&t=199s)
-
-Véase también: [Direcciones unificadas](./Unified_Addresses.md)
+- [ZIP 326: NU6.3 Consecuencias para las billeteras](https://zips.z.cash/zip-0326) — cómo se comportan las claves de visualización en los pools Orchard y Ironwood
+- [ZIP 229: Formato de transacción de la versión 6](https://zips.z.cash/zip-0229) — define los pools Orchard y Ironwood
+- [ZIP 310](https://zips.z.cash/zip-0310) — especificación de claves de visualización
+- [Zallet registro de cambios](https://github.com/zcash/zallet/blob/main/CHANGELOG.md) — qué versión añadió qué método RPC
+- [Zkool README](https://github.com/hhanh00/zkool2/blob/main/README.md) — tipos de cuentas y claves compatibles
+- [ECC, Explicación de las claves de visualización](https://electriccoin.co/blog/explaining-viewing-keys/)
+- [ECC, Divulgación selectiva y claves de visualización](https://electriccoin.co/blog/viewing-keys-selective-disclosure/)
+- [ECC, Zcash Viewing Key Presentación en video](https://www.youtube.com/watch?v=NXjK_Ms7D5U&t=199s)

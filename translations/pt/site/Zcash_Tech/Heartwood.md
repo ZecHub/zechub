@@ -18,7 +18,7 @@ Porque isto importa. Os mineiros ganham ZEC recém-criado sempre que mineram um 
 
 A transação coinbase é a transação especial que paga a recompensa de um bloco. Antes do Heartwood, as suas saídas tinham de ser transparentes, por isso o ZEC recém-criado de um mineiro começava sempre a sua vida num endereço público. Heartwood alterou as regras de consenso para que, nas palavras do ZIP 213, as transações coinbase possam conter saídas Sapling. Em termos simples, os mineiros podem agora receber recompensas diretamente em endereços Sapling shielded. As saídas coinbase transparentes continuam a ser suportadas, por isso esta é uma nova opção, não uma alteração obrigatória.
 
-![Antes do Heartwood, a recompensa de bloco de um mineiro tinha de ir para um endereço público transparente. Depois do Heartwood, as transações coinbase podem conter saídas Sapling, por isso a recompensa pode ir diretamente para um endereço shielded](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/heartwood-shielded-coinbase.png)
+![Antes do Heartwood, a recompensa de bloco de um mineiro tinha de ir para um endereço público transparente. Depois do Heartwood, as transações coinbase podem conter saídas Sapling, por isso a recompensa pode ir diretamente para um endereço shielded](/content-images/heartwood-shielded-coinbase-3bf38ae60d.webp)
 
 ## Porque primeiro Sapling
 
@@ -28,13 +28,13 @@ O shielded coinbase visa especificamente saídas Sapling, e há uma razão para 
 
 Heartwood também alterou aquilo a que o cabeçalho de bloco se compromete. O campo do cabeçalho anteriormente chamado hashFinalSaplingRoot foi reaproveitado e renomeado para hashLightClientRoot. Agora compromete-se com a raiz de uma Merkle Mountain Range (MMR), uma estrutura contínua construída sobre os dados do cabeçalho e metadados de blocos anteriores, como timestamps, objetivos de dificuldade, raízes Sapling, trabalho acumulado e contagens de transações. Esse compromisso permite que um cliente leve, ou uma cadeia externa, verifique a prova de trabalho da Zcash usando uma prova pequena cujo tamanho cresce apenas de forma logarítmica com o comprimento da cadeia. O benefício é ter wallets de cliente leve melhores e uma integração de terceiros e entre cadeias mais fácil, porque um cliente já não precisa de descarregar todos os blocos para confiar no trabalho por detrás da cadeia.
 
-![Fluxo do FlyClient: os dados do cabeçalho de cada bloco são comprometidos numa raiz Merkle Mountain Range (hashLightClientRoot), o que permite a um cliente leve verificar a prova de trabalho com uma pequena prova de tamanho logarítmico](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/heartwood-flyclient.png)
+![Fluxo do FlyClient: os dados do cabeçalho de cada bloco são comprometidos numa raiz Merkle Mountain Range (hashLightClientRoot), o que permite a um cliente leve verificar a prova de trabalho com uma pequena prova de tamanho logarítmico](/content-images/heartwood-flyclient-0c6b5bda0d.webp)
 
 ## Onde o Heartwood se enquadra
 
 Heartwood é um passo numa sequência de atualizações da Zcash, cada uma acrescentando uma peça da qual a seguinte depende. Overwinter e Sapling chegaram em 2018, Blossom em 2019, e Heartwood em 2020 no bloco 903.000. Canopy seguiu-se mais tarde em 2020 no bloco 1.046.400. Sapling é o elo-chave desta cadeia para o Heartwood: o seu mecanismo eficiente de transações shielded foi a pré-condição técnica que tornou possível o shielded coinbase.
 
-![Linha temporal das atualizações da Zcash: Overwinter e Sapling em 2018, Blossom em 2019 e Heartwood em 2020](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/heartwood-timeline.png)
+![Linha temporal das atualizações da Zcash: Overwinter e Sapling em 2018, Blossom em 2019 e Heartwood em 2020](/content-images/heartwood-timeline-99bc79b6e9.webp)
 
 ## Glossário
 
@@ -88,7 +88,7 @@ As saídas coinbase tinham de ser transparentes, por isso a recompensa recém-cr
 
 [Wallets](../using-zcash/wallets)
 
-[zk-SNARKS](../zcash-tech/zk-snarks)
+[zk-SNARKs](../zcash-tech/zk-snarks)
 
 [Electric Coin Company](../zcash-organizations/electric-coin-company)
 

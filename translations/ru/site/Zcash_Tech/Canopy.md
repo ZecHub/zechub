@@ -12,7 +12,7 @@ Canopy — это пятое сетевое обновление Zcash, такж
 
 Почему это важно. Zcash финансирует собственную разработку из наград за блок, потому что за ним не стоит компания. Founders reward, который оплачивал первые годы его существования, должен был закончиться при первом халвинге. Canopy стал заменой: он направил фиксированную долю каждой награды за блок в Development Fund и определил, кто её получает. Эта модель уточнялась в более поздних обновлениях вплоть до [NU6.1](../zcash-tech/nu6-1).
 
-![До Canopy founders reward финансировал разработку и должен был закончиться при первом халвинге. После Canopy Development Fund получает 20 процентов от каждой награды за блок и действует до второго халвинга в 2024 году](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/canopy-founders-to-devfund.png)
+![До Canopy founders reward финансировал разработку и должен был закончиться при первом халвинге. После Canopy Development Fund получает 20 процентов от каждой награды за блок и действует до второго халвинга в 2024 году](/content-images/canopy-founders-to-devfund-010676e799.webp)
 
 ## Фонд развития
 
@@ -30,7 +30,7 @@ Development Fund получает 20 процентов от каждой наг
 
 Если считать относительно всей награды за блок, а не только фонда, эти доли составляют 7 процентов для Electric Coin Company, 5 процентов для Zcash Foundation и 8 процентов для Major Grants. Оба способа описания дают одни и те же числа.
 
-![Development Fund составляет 20 процентов от каждой награды за блок и делится так: 35 процентов Bootstrap и Electric Coin Company, 25 процентов Zcash Foundation и 40 процентов Major Grants](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/canopy-dev-fund-split.png)
+![Development Fund составляет 20 процентов от каждой награды за блок и делится так: 35 процентов Bootstrap и Electric Coin Company, 25 процентов Zcash Foundation и 40 процентов Major Grants](/content-images/canopy-dev-fund-split-005bf6f2dd.webp)
 
 ## Изменение пула Sprout
 
@@ -38,7 +38,7 @@ Canopy также начал выводить из использования с
 
 С момента активации Canopy в пул Sprout больше нельзя добавлять новую стоимость. В технических терминах это означает, что поле vpub_old в каждом JoinSplit должно быть равно нулю. Средства, уже находящиеся в Sprout, по-прежнему можно выводить, так что никто не теряет доступ, но сам пул отныне может только уменьшаться. Это первый шаг к будущему отказу от устаревшего пула Sprout в пользу более новых экранированных пулов.
 
-![До Canopy стоимость могла как входить в пул Sprout, так и выходить из него. После Canopy новая стоимость больше не может входить, но вывод средств по-прежнему разрешён](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/canopy-sprout-pool.png)
+![До Canopy стоимость могла как входить в пул Sprout, так и выходить из него. После Canopy новая стоимость больше не может входить, но вывод средств по-прежнему разрешён](/content-images/canopy-sprout-pool-f5166aa049.webp)
 
 ## Дополнительные технические изменения
 

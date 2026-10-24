@@ -14,7 +14,7 @@ Les Zcash Shielded Assets (ZSA) sont une extension proposée du protocole qui pe
 - **Ce que c’est :** des actifs personnalisés de type ERC-20, mais blindés par défaut.
 - **Qui le développe :** [QEDIT](https://qed-it.com/), dans le cadre d’une subvention de la Zcash Foundation, en collaboration avec Electric Coin Company.
 - **Comment c’est spécifié :** [ZIP 226](https://zips.z.cash/zip-0226) (transfert et destruction) avec [ZIP 227](https://zips.z.cash/zip-0227) (émission).
-- **Statut :** pas encore en service sur le mainnet. Le protocole ZSA est prévu pour être déployé lors de la Network Upgrade 7 (NU7).
+- **Statut :** pas encore en service sur le mainnet et ne fait pas partie de la Network Upgrade 7 (NU7). [ZIP 259](https://zips.z.cash/zip-0259), qui répertorie tout ce que NU7 déploie, n’inclut pas ZIP 226 ni ZIP 227, et aucune date d’activation des ZSA n’a été fixée.
 - **Frais :** toujours payés en ZEC, quel que soit l’actif transféré.
 
 ---
@@ -129,7 +129,7 @@ Ces propositions respectent techniquement la spécification [Zcash Improvement P
 
 | Croyance courante | Ce qui est réellement le cas |
 | --- | --- |
-| "Les ZSA sont déjà en service sur Zcash aujourd’hui." | Non. ZSA est prévu pour être déployé lors de la Network Upgrade 7 (NU7) et fait encore l’objet de révisions et de tests. |
+| "Les ZSA sont déjà en service sur Zcash aujourd’hui." | Non. ZSA ne fait pas partie de la Network Upgrade 7 (NU7), que [ZIP 259](https://zips.z.cash/zip-0259) définit sans ZIP 226 ni ZIP 227, et fait encore l’objet de révisions et de tests. |
 | "ZSA apporte les smart contracts à Zcash." | ZSA spécifie l’émission, le transfert et la destruction d’actifs. Ce n’est pas une couche de contrats programmables à usage général. |
 | "Vous pouvez payer les frais ZSA dans le jeton ZSA lui-même." | Les frais sont payés en ZEC. |
 | "Si c’est blindé, l’offre du jeton doit aussi être secrète." | ZIP 227 rend délibérément l’émission transparente, afin que l’offre de chaque actif puisse être suivie publiquement. Les soldes et les transferts restent privés ; l’offre ne l’est pas. |
@@ -140,7 +140,7 @@ Ces propositions respectent techniquement la spécification [Zcash Improvement P
 ## Pages liées
 
 - [Halo](/zcash-tech/halo) — le système de preuve derrière Orchard, le protocole que ZSA étend
-- [Zk-SNARKs](/zcash-tech/zk-snarks) — les preuves à divulgation nulle de connaissance qui permettent de vérifier un transfert blindé sans le révéler
+- [zk-SNARKs](/zcash-tech/zk-snarks) — les preuves à divulgation nulle de connaissance qui permettent de vérifier un transfert blindé sans le révéler
 - [Shielded Pools](/using-zcash/shielded-pools) — l’endroit où les ZSA cohabiteraient avec le ZEC
 - [Transactions](/using-zcash/transactions) — comment une transaction Zcash est construite
 - [Zebra Full Node](/zcash-tech/zebra-full-node) — l’implémentation de nœud utilisée dans la démo ZSA ci-dessus

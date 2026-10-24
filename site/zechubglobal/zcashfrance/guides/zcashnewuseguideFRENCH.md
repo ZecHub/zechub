@@ -16,7 +16,7 @@ Une note importante est que vous n'avez pas besoin d'acheter 1 ZEC complète. La
 
 Après avoir acheté du ZEC, vous voudrez peut-être le déplacer vers un portefeuille Zcash. Cet [article explique](https://www.ledger.com/academy/not-your-keys-not-your-coins-why-it-matters) pourquoi il est important de conserver ZEC dans un portefeuille.
 
-Nous vous recommandons d'utiliser un [portefeuille blindé](https://github.com/ZecHub/zechub/blob/main/usingzec/wallets/mobileshieldedwallets.md) car ces portefeuilles fournissent les [fonctionnalités de confidentialité](https://www.gemini.com/prices/zcash) qui rendent ZEC unique. Voici une [vidéo](https://www.youtube.com/watch?v=AefftLsENaU) sur la façon de télécharger un portefeuille blindé. Voici un [blog](https://zechub.substack.com/p/private-vs-transparent) expliquant les différences entre les différents types de portefeuille de Zcash.
+Nous vous recommandons d'utiliser un [portefeuille blindé](https://zechub.wiki/wallets) car ces portefeuilles fournissent les [fonctionnalités de confidentialité](https://www.gemini.com/prices/zcash) qui rendent ZEC unique. Voici une [vidéo](https://www.youtube.com/watch?v=AefftLsENaU) sur la façon de télécharger un portefeuille blindé. Voici un [blog](https://zechub.substack.com/p/private-vs-transparent) expliquant les différences entre les différents types de portefeuille de Zcash.
 
 ---
 

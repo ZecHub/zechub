@@ -100,7 +100,7 @@ TAZ를 얻는 것이 까다로운 부분입니다. 오래된 문서에서 연결
 
 오래된 글에서 이를 연결하고 있으며, 은퇴한 노드의 동작 방식을 확인하는 참고 자료로 여전히 유용하기 때문에 보존합니다. 여기서 시작하지 마세요.
 
-[The Zcashd Book](https://zcash.github.io/zcash/)과 [zcashd RPC 참조](https://zcash.github.io/rpc/)는 2026년 7월에 [수명 종료](https://zcash.github.io/zcash/user/end-of-life.html)에 도달한 소프트웨어를 문서화합니다. [zcash/zcash](https://github.com/zcash/zcash) 리포지터리는 보관 처리되었습니다.
+[The zcashd Book](https://zcash.github.io/zcash/)과 [zcashd RPC 참조](https://zcash.github.io/rpc/)는 2026년 7월에 [수명 종료](https://zcash.github.io/zcash/user/end-of-life.html)에 도달한 소프트웨어를 문서화합니다. [zcash/zcash](https://github.com/zcash/zcash) 리포지터리는 보관 처리되었습니다.
 
 추가할 리소스가 있거나 여기에서 오래된 내용을 발견했다면 이슈 또는 풀 리퀘스트를 열어 주세요. 팀이 항상 모든 것을 최신으로 유지할 역량을 갖추고 있는 것은 아니며, 마주친 문제를 알려주면 가이드의 방향을 정하는 데 도움이 됩니다.
 

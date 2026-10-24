@@ -33,7 +33,7 @@ Les décisions du processus ZIP sont écrites dans la spécification Zcash, ains
 
 ## Où est ma transaction ?
 
-Lisez d'abord [notre article](https://zechub.notion.site/Zcash-Blockchain-Explorer-4b4d970cb53e474989932c6e1a78b629) sur les explorateurs de blocs. Vérifiez ensuite avec [Zcash block explorer](https://zcashblockexplorer.com) en notant que toutes les transactions expirent par défaut après environ 25 minutes/20 blocs et que les fonds sont renvoyés à l'adresse d'envoi d'origine.
+Lisez d'abord [notre article](https://zechub.notion.site/Zcash-Blockchain-Explorer-4b4d970cb53e474989932c6e1a78b629) sur les explorateurs de blocs. Vérifiez ensuite avec [Zcash block explorer](https://mainnet.zcashexplorer.app) en notant que toutes les transactions expirent par défaut après environ 25 minutes/20 blocs et que les fonds sont renvoyés à l'adresse d'envoi d'origine.
 
 Si votre transaction expire, la meilleure chose à faire est de réessayer votre transaction avec quelques modifications possibles.
 

@@ -71,9 +71,9 @@ Free2Z James Katz의 새로운 Zcash 사용자 가이드가 등장했습니다.
 
 [트위터와 머스크가 암호화폐 시장에 미치는 영향](https://www.cypherpunktimes.com/how-x-twitter-and-musk-influence-the-crypto-market/) 
 
-[private 코인에 관심 있는 캐나다인](https://www.crypto-news-flash.com/canadians-unfazed-by-cbdc-millions-opt-for-privacy-coins-monero-dash-and-zcash-over-central-bank-digital-currency/)👛
+private 코인에 관심 있는 캐나다인👛
 
-[Zcash는 올바른 방향으로 가고 있습니다](https://cointelegraph.com/innovation-circle/5-things-crypto-must-get-right-for-mainstream-adoption-to-happen)
+[Zcash는 올바른 방향으로 가고 있습니다](https://web.archive.org/web/20250827115931/https://cointelegraph.com/innovation-circle/5-things-crypto-must-get-right-for-mainstream-adoption-to-happen)
 
 
 ## 일부 Zcash 트윗

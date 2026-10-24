@@ -167,7 +167,7 @@ ShapeShift поддерживает обмены ZEC между нескольк
 
 [Кошелек ZODL](https://zodl.com)
 
-[Управление ShapeShift DAO (токен FOX)](https://shapeshift.com/fox-token)
+[Управление ShapeShift DAO (токен FOX)](https://web.archive.org/web/20210126180411/https://shapeshift.com/fox-token)
 
 [Zcash Community Grants](https://zcashcommunitygrants.org/)
 

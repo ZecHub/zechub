@@ -1,6 +1,6 @@
 # Come inviare e ricevere Zcash (ZEC) schermato con Brave Wallet: una guida passo passo alla privacy
 
-Brave Wallet è un wallet crypto sicuro e nativo, integrato direttamente nel browser Brave, senza bisogno di estensioni.
+Brave Wallet è un portafoglio crypto sicuro e nativo, integrato direttamente nel browser Brave, senza bisogno di estensioni.
 
 
 ## Perché il supporto a ZEC schermato è importante
@@ -33,9 +33,9 @@ Gli utenti possono ora inviare/ricevere ZEC senza rivelare saldi o metadati, il 
 
 1. Apri il browser Brave (per ora solo desktop)
 
-2. Clicca sull'icona del Wallet o vai su brave://wallet
+2. Clicca sull'icona del portafoglio o vai su brave://wallet
 
-3. Configura il tuo wallet (crealo o importalo)
+3. Configura il tuo portafoglio (crealo o importalo)
 
 4. Accedi alla dashboard crypto
 
@@ -47,11 +47,11 @@ Gli utenti possono ora inviare/ricevere ZEC senza rivelare saldi o metadati, il 
 
 **Passaggi trattati:**
 
-1. Nella dashboard del Wallet, clicca su "Manage Assets"
+1. Nella dashboard del Portafoglio, clicca su "Manage Assets"
 
 2. Cerca ZEC e abilitalo
 
-3. ZEC ora appare nel tuo wallet
+3. ZEC ora appare nel tuo portafoglio
 
 
 ![img2](/content-images/6f2b2190-cf55-4394-9d5f-29ff9b5bb525-13d37cb455.webp)
@@ -89,7 +89,7 @@ Gli utenti possono ora inviare/ricevere ZEC senza rivelare saldi o metadati, il 
 
 4. Conferma i dettagli della transazione
 
-5. Clicca su Send: i fondi vengono ora trasferiti in modo privato, usando il pool Orchard
+5. Clicca su Send: i fondi vengono ora trasferiti privatamente, usando la pool Orchard
 
 
 ![img4](/content-images/Internet_20250808_172118_4-e6df0f7fe2.webp)
@@ -101,7 +101,7 @@ Gli utenti possono ora inviare/ricevere ZEC senza rivelare saldi o metadati, il 
 
 Ecco una spiegazione per ciascun tipo di indirizzo Zcash:
 
-**indirizzo-t (t1...)** - Gli indirizzi trasparenti funzionano come gli indirizzi Bitcoin, il che significa che le transazioni sono pubbliche sulla blockchain. Sono più facili da usare con wallet non-Zcash, ma non offrono privacy.
+**indirizzo-t (t1...)** - Gli indirizzi trasparenti funzionano come gli indirizzi Bitcoin, il che significa che le transazioni sono pubbliche sulla blockchain. Sono più facili da usare con portafogli non-Zcash, ma non offrono privacy.
 
 **indirizzo-z (zs...)** - Gli indirizzi schermati usano la tecnologia di privacy di Zcash (Sprout/Sapling) per nascondere mittente, destinatario e importo. Solo le view key o il proprietario possono rivelarne i dettagli.
 

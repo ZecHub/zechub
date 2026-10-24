@@ -14,7 +14,7 @@ Ironwood 是 Zcash 的一次[网络升级](../start-here/network-upgrades)，正
 
 刚接触 Zcash？先阅读[什么是 ZEC 和 Zcash](../start-here/what-is-zec-and-zcash)以及[屏蔽池](../using-zcash/shielded-pools)，然后再回到这里。
 
-![Ironwood 价值迁移流程：价值离开 Orchard 池，经过 turnstile 检查点，并进入新的 Ironwood 池](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/ironwood-flow.png)
+![Ironwood 价值迁移流程：价值离开 Orchard 池，经过 turnstile 检查点，并进入新的 Ironwood 池](/content-images/ironwood-flow-8af7a58b99.webp)
 
 ## 为什么需要 Ironwood
 
@@ -24,7 +24,7 @@ Ironwood 是 Zcash 的一次[网络升级](../start-here/network-upgrades)，正
 2. 理论上，攻击者可能利用这一缺陷在 Orchard 池内部伪造无效价值，并花费实际上并不属于他们的资金，而且不会留下任何普通节点能够捕捉到的痕迹。
 3. Zcash 的 turnstile 仍然限制了 Orchard 最多能够流出多少价值，因此总供应量不可能被膨胀，但该池自身的密码学已不再能够保证其中每一枚隐藏币都是真实的。
 
-![漏洞说明：一笔交易放入 5 ZEC，但存在缺陷的证明在输出 7 ZEC 时仍然会通过，从而凭空创造出 2 ZEC](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/ironwood-bug.png)
+![漏洞说明：一笔交易放入 5 ZEC，但存在缺陷的证明在输出 7 ZEC 时仍然会通过，从而凭空创造出 2 ZEC](/content-images/ironwood-bug-8f689d6f61.webp)
 
 上面的数字只是一个简化示意。真正的缺陷存在于电路数学中的一个特定部分，而不是字面意义上的币进出数量统计。这里要理解的重点只是：可靠性漏洞可能让价值在池内被创造出来而无法被发现。
 
@@ -34,13 +34,13 @@ Ironwood 是 Zcash 的一次[网络升级](../start-here/network-upgrades)，正
 
 Zcash 社区分阶段推出修复，而不是一次性全部完成。
 
-![Ironwood 响应时间线：Orchard 漏洞于 2026 年 5 月被发现，池子于 2026 年 6 月暂停，电路在 NU6.2 中被修复，而 Ironwood 于 2026 年 7 月 28 日在区块 3,428,143 激活](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/ironwood-timeline.png)
+![Ironwood 响应时间线：Orchard 漏洞于 2026 年 5 月被发现，池子于 2026 年 6 月暂停，电路在 NU6.2 中被修复，而 Ironwood 于 2026 年 7 月 28 日在区块 3,428,143 激活](/content-images/ironwood-timeline-36243f0cd7.webp)
 
 1. 2026 年 6 月上旬，一项临时措施禁用了 Orchard 池，以便为完整修复争取时间。
 2. NU6.2 升级修正了 Orchard 电路本身，堵上了底层的可靠性漏洞。
 3. NU6.3 升级，也就是 Ironwood，引入了一个全新的屏蔽池和一个公开检查点，使价值能够在完全审计下从旧的 Orchard 池迁移出去。
 
-![NU6.2 中的修复：修正后的证明要求输入等于输出，因此合法的 5 ZEC 输出会通过，而试图输出 7 ZEC 的行为会被拒绝](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/ironwood-fix.png)
+![NU6.2 中的修复：修正后的证明要求输入等于输出，因此合法的 5 ZEC 输出会通过，而试图输出 7 ZEC 的行为会被拒绝](/content-images/ironwood-fix-bb4f70ddc9.webp)
 
 ## Ironwood 池的作用
 
@@ -50,7 +50,7 @@ Ironwood 池是由 NU6.3 在区块 3,428,143 创建的屏蔽价值池。它构�
 
 1. 激活后，旧的 Orchard 池将变为仅可支出，因此不能再有新的价值进入其中。
 2. 新进入屏蔽状态的价值将改为流入 Ironwood。
-3. 屏蔽的 ZEC 仍然保有同样强大的隐私保障，隐藏发送方、接收方和金额。
+3. 在 Ironwood 内，屏蔽的 ZEC 保持着隐藏发送方、接收方和金额的隐私性。将 ZEC 从 Orchard 转入 Ironwood 会显示转移的金额。
 
 ## turnstile
 
@@ -68,7 +68,7 @@ Turnstile 对 Zcash 来说并不新鲜。网络此前已经在 Sprout、Sapling 
 
 ## 用户需要做什么
 
-钱包和节点软件会自动处理其中大部分事情，但实际上的变化很简单：随着时间推移，将屏蔽持仓从旧的 Orchard 池经由 turnstile 迁移到 Ironwood 池。请遵循你的钱包提供方的指导，并始终在激活区块之前更新到受支持的版本。
+钱包和节点软件会自动处理其中大部分事情，但实际上的变化很简单：随着时间推移，将屏蔽持仓从旧的 Orchard 池经由 turnstile 迁移到 Ironwood 池。每次迁移都会在区块链上显示其金额，因此遵循 [ZIP 318](https://zips.z.cash/zip-0318) 的钱包会将其拆分为标准金额，并随时间逐步发送。请遵循你的钱包提供方的指导，并让你的软件保持在受支持的版本。
 
 ## 术语表
 
@@ -85,9 +85,9 @@ Turnstile 对 Zcash 来说并不新鲜。网络此前已经在 Sprout、Sapling 
 
 我的 ZEC 受到影响了吗？没有。没有证据表明该漏洞曾被使用，没有对用户资金造成影响，总供应量也没有变化。
 
-我需要做什么吗？请在激活区块之前，将你的钱包和节点软件更新到受支持的版本。你的钱包会在你花费资金时，随着时间推移将资金迁移到 Ironwood，因此没有什么需要手动赶紧完成的操作。请遵循你的钱包提供方的指导。
+我需要做什么吗？请将你的钱包和节点软件保持在受支持的版本。花费 Orchard 资金会将其转入 Ironwood，且转入的金额是公开的。部分钱包提供迁移功能，会随着时间推移发送标准金额，使你的余额更难被关联。请遵循你的钱包提供方的指导。
 
-Zcash 还保持隐私吗？是的。Ironwood 保留了相同的屏蔽隐私特性，仍会隐藏发送方、接收方和金额。这次升级关注的是供应完整性，而不是隐私性。
+Zcash 还保持隐私吗？是的。Ironwood 内的付款会隐藏发送方、接收方和金额，就像 Orchard 付款一样。在资金池之间转移的金额，例如从 Orchard 到 Ironwood 的金额，是公开的。这次升级关注的是供应完整性。
 
 这个漏洞曾被利用过吗？没有证据表明它被利用过。它是在安全研究中被发现的，被负责任地披露，并在已知损害发生之前得到了修复。
 
@@ -111,6 +111,10 @@ Zcash 还保持隐私吗？是的。Ironwood 保留了相同的屏蔽隐私特�
 
 [ZIP 2005：Ironwood 量子可恢复性](https://zips.z.cash/zip-2005)
 
+[ZIP 229：版本 6 交易格式](https://zips.z.cash/zip-0229)
+
+[ZIP 318: Orchard 至 Ironwood 迁移](https://zips.z.cash/zip-0318)
+
 [Ironwood：Zcash 的新屏蔽池](https://zodl.com/ironwood-a-new-shielded-pool-for-zcash/)
 
 ### 另请参阅
@@ -121,7 +125,7 @@ Zcash 还保持隐私吗？是的。Ironwood 保留了相同的屏蔽隐私特�
 
 [Halo](../zcash-tech/halo)
 
-[zk-SNARKS](../zcash-tech/zk-snarks)
+[zk-SNARKs](../zcash-tech/zk-snarks)
 
 [后量子安全](../zcash-tech/post-quantum-security)
 

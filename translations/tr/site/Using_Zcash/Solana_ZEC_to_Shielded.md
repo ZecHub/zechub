@@ -10,6 +10,20 @@ Aşağıdaki her adımı 27 Eylül 2026'da, Phantom içinde 0.00266336 ZEC ile b
 
 ---
 
+## Kısaca
+
+- Solana cüzdanınızdaki ZEC, NEAR OmniBridge'nın Zcash zincirinde tuttuğu gerçek ZEC tarafından 1:1 oranında desteklenen bir **Solana tokenidir** (mint `A7bd…QXaS`) — Solana'ın herkese açık defterinde bulunan ve orada korumalı hâle getirilemeyen "kâğıt ZEC".
+- İşlem iki adımdan oluşur: tokeni solswap.org üzerinde **yatırın** (NEAR Intents), ardından near.com üzerinde cüzdanınızın korumalı `u1` adresine **çekin**. Phantom'nin kendi Swap düğmesini kullanmayın — size yardımcı olamaz.
+- [ZecHub dizininin](/wallets) **Ironwood: Hazır** olarak işaretlediği bir cüzdan kullanın ve Solana ücreti için Phantom içinde biraz SOL bulundurun.
+- Gerçek testimizde (27 Eylül 2026, 0.00266336 ZEC): yatırma 9 saniyede tamamlandı, çekme yaklaşık 8 dakika sürdü, toplam maliyet ~0.00025 ZEC + 0.0016 SOL oldu.
+- Güvenlik notu: yalnızca `near.com`/`solswap.org` üzerinde, mesajda `intents.near` bulunan mesaj isteklerini imzalayın; seed phrase'inizi asla yazmayın ve bir `u1` yapıştırın, asla `t1` yapıştırmayın.
+
+## Görsel benzetme
+
+Solana üzerindeki ZEC, bir **kumarhane fişi** gibi çalışır. Nakit gibi fiyatlanır ve kumarhane — NEAR OmniBridge — fişi geri getiren herkese gerçek banknotları (yerel ZEC) vermeyi vaat eder. Ancak fiş, kumarhanenin defterindeki yalnızca bir satırdır: herkes kimin elinde olduğunu görebilir ve değeri, kumarhanenin sistemlerinin sağlam kalmasına bağlıdır. near.com üzerinden çekim yapmak, vezneye gidip fişi bozdurmak gibidir. Banknotlar bir shielded pool'a girdikten sonra kendi opak cüzdanınızdadır — artık hiç kimse tutarı veya sahibini göremez.
+
+---
+
 ## Aslında ne tutuyorsunuz?
 
 Solana cüzdanınızdaki ZEC, Zcash ağındaki coinler değil, Solana üzerindeki bir tokendir. NEAR OmniBridge onu çıkarır ve karşılığını sağlamak için Zcash zincirinde gerçek ZEC tutar; köprü Ekim 2025'ten beri Solana'da aktiftir. Solana ayağı, Zcash hafif istemcisi yerine Wormhole mesajları ve NEAR Chain Signatures üzerinde çalışır; dolayısıyla Solana tarafı yalnızca bu iki sistem kadar sağlamdır. İnsanlar buna "kâğıt ZEC" der. ZEC fiyatını takip eder, ancak her bakiye ve her transfer Solana'nın herkese açık defterinde cüzdan adresiniz altında yer alır ve orada kaldığı sürece korunamaz.
@@ -20,7 +34,7 @@ Sahip olduğunuzun gerçek token olduğunu kontrol edin. Phantom içinde **ZEC**
 A7bdiYdS5GjqGFtxf17ppRHtDKPkkRqbKtR27dxvQXaS
 ```
 
-![Phantom's About Zcash panel showing the contract address A7bd…QXaS on the Solana network](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Using_Zcash/assets/solana-zec-to-shielded/01-phantom-zec-mint.png)
+![Phantom's About Zcash panel showing the contract address A7bd…QXaS on the Solana network](/content-images/01-phantom-zec-mint-4a718bc213.webp)
 
 Phantom bunu `A7bd…QXaS` olarak kısaltır; bu nedenle ilk ve son karakterleri karşılaştırın veya tam adresi [Solscan](https://solscan.io/token/A7bdiYdS5GjqGFtxf17ppRHtDKPkkRqbKtR27dxvQXaS) üzerinde arayın. Cüzdanınızdaki, adı veya logosu ne olursa olsun, başka herhangi bir "ZEC" tokeni bu token değildir. Ona dokunmayın.
 
@@ -47,7 +61,7 @@ Cüzdanı arama sonucundan veya reklamdan değil, dizin kartındaki bağlantıda
 
 Cüzdanınız iki tür adres gösterir:
 
-![A Zcash wallet's Receive screen with a shielded address starting u1 and a transparent address starting t1](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Using_Zcash/assets/solana-zec-to-shielded/02-zodl-receive.png)
+![A Zcash wallet's Receive screen with a shielded address starting u1 and a transparent address starting t1](/content-images/02-zodl-receive-c98cd378fb.webp)
 
 | Şununla başlar | Tür | Herkesin gördüğü |
 |---|---|---|
@@ -72,11 +86,11 @@ Solana ücreti için Phantom içinde biraz SOL bulundurun.
 2. **Deposit** öğesine dokunun. **Asset** için **Zcash**, **Network** için **Solana** ve yöntem için **Wallet** seçin.
 3. Tutarı girin (veya **Max** öğesine dokunun) ve işlemi Phantom içinde onaylayın.
 
-![solswap Deposit screen with Zcash as the asset, Solana as the network and Wallet as the method](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Using_Zcash/assets/solana-zec-to-shielded/03-solswap-deposit.png)
+![solswap Deposit screen with Zcash as the asset, Solana as the network and Wallet as the method](/content-images/03-solswap-deposit-425691e62f.webp)
 
 Yatırma işlemimiz 15:09:08'de (UTC+1) Solana bloğuna ulaştı ve solswap dokuz saniye sonra bunu **Completed** olarak gösterdi.
 
-![solswap deposit history showing Completed, +0.0026 ZEC](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Using_Zcash/assets/solana-zec-to-shielded/04-solswap-deposit-complete.png)
+![solswap deposit history showing Completed, +0.0026 ZEC](/content-images/04-solswap-deposit-complete-be5feaf758.webp)
 
 ZEC'iniz artık NEAR Intents bakiyenizde duruyor. Phantom anahtarınız bundan yapılan her çıkışı yetkilendirir, NEAR Intents çözücüleri teslimatı gerçekleştirir ve NEAR Intents uyumluluk incelemesi için bakiye tutabilir (aşağıdaki güven notlarına bakın).
 
@@ -84,22 +98,22 @@ ZEC'iniz artık NEAR Intents bakiyenizde duruyor. Phantom anahtarınız bundan y
 
 solswap'ta bir **Withdraw** sayfası da var, ancak bizim için çalışmadı. **Received amount** ve **Fee** "–" olarak kaldı ve Zcash veya Solana'yı ağ olarak seçmemiz fark etmeksizin düğme hiçbir şey yapmadı.
 
-![solswap Withdraw form with the received amount and fee stuck at a dash](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Using_Zcash/assets/solana-zec-to-shielded/05-solswap-withdraw-blank.png)
+![solswap Withdraw form with the received amount and fee stuck at a dash](/content-images/05-solswap-withdraw-blank-92c6e64c65.webp)
 
 Bu sizin de başınıza gelirse ZEC'iniz sıkışmış değildir. Bakiye web sitesine değil, cüzdanınızın anahtarına bağlıdır; dolayısıyla o cüzdanla oturum açtığınız herhangi bir NEAR Intents uygulaması ona erişebilir. İşlemi near.com'da tamamladık:
 
 1. `near.com` adresine gidin ve aynı Phantom cüzdanıyla oturum açın.
 2. solswap bakiyeniz **Move legacy assets** altında görünür (near.com, eski NEAR Intents uygulamalarındaki bakiyeleri "legacy" olarak adlandırır). ZEC satırında **Withdraw** öğesine dokunun. **Move** seçeneğine ihtiyacınız yoktur.
 
-![near.com Move legacy assets page listing 0.0026 ZEC with Move and Withdraw buttons](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Using_Zcash/assets/solana-zec-to-shielded/06-nearcom-legacy-assets.png)
+![near.com Move legacy assets page listing 0.0026 ZEC with Move and Withdraw buttons](/content-images/06-nearcom-legacy-assets-7ee16c5ac4.webp)
 
 3. **Network** için **Zcash** seçin, cüzdanınızın `u1` adresini **Recipient** olarak yapıştırın ve ilk ve son altı karakteri cüzdanınızdakiyle karşılaştırın.
 
-![near.com Withdraw legacy asset form with Zcash as the network and a u1 recipient, receive at least 0.00233164 ZEC, about 2 minutes](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Using_Zcash/assets/solana-zec-to-shielded/07-nearcom-withdraw.png)
+![near.com Withdraw legacy asset form with Zcash as the network and a u1 recipient, receive at least 0.00233164 ZEC, about 2 minutes](/content-images/07-nearcom-withdraw-724ef22b38.webp)
 
 4. **Review withdrawal** öğesine dokunun, özeti okuyun ve **Send** öğesine dokunun.
 
-![near.com Review send screen: network Zcash, recipient receives at least 0.00233164 ZEC, fee 0 ZEC, you pay 0.00266336 ZEC](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Using_Zcash/assets/solana-zec-to-shielded/08-nearcom-review.png)
+![near.com Review send screen: network Zcash, recipient receives at least 0.00233164 ZEC, fee 0 ZEC, you pay 0.00266336 ZEC](/content-images/08-nearcom-review-b6053f675b.webp)
 
 5. Phantom, near.com için sizden **Sign Message** ister. Bu imza, NEAR Intents'in bakiyenizi taşımasını yetkilendirir. SOL maliyeti yoktur, ancak bu onu zararsız kılmaz: taklit bir site aynı isteği gösterip NEAR Intents bakiyenizi bununla boşaltabilir. **Confirm** öğesine dokunmadan önce bunların hepsini kontrol edin; herhangi biri başarısız olursa **Cancel** öğesine dokunun:
    - İstekte adı geçen site `near.com`'dir. (1. adımdaki yatırma, `solswap.org` kaynaklı sıradan bir Phantom işlem isteğiydi; orada da adı aynı şekilde kontrol edin.)
@@ -107,13 +121,13 @@ Bu sizin de başınıza gelirse ZEC'iniz sıkışmış değildir. Bakiye web sit
    - Mesaj, ekran görüntüsündeki gibi okunabilir metin olmalıdır. Okunamayan bir veri yığınıysa veya site adres çubuğunuzdaki siteyle eşleşmiyorsa reddedin.
    - Sizden asla kurtarma ifadenizi istemez. İmzalama, onu yazmayı asla içermez.
 
-![Phantom Sign Message request from near.com on the Solana network](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Using_Zcash/assets/solana-zec-to-shielded/09-phantom-sign-message.png)
+![Phantom Sign Message request from near.com on the Solana network](/content-images/09-phantom-sign-message-cb1ce6d20f.webp)
 
 6. near.com sırasıyla **Processing send**, **Sending** ve **Complete** gösterir. **View on explorer**, transferin NEAR Intents kaydını açar.
 
-![near.com status screen: Sending 0.0023 ZEC, all three steps complete](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Using_Zcash/assets/solana-zec-to-shielded/10-nearcom-complete.png)
+![near.com status screen: Sending 0.0023 ZEC, all three steps complete](/content-images/10-nearcom-complete-c641093c46.webp)
 
-![NEAR Intents explorer record: created 3:59:28 PM, withdrawn to the u1 address 4:07:55 PM, with the Zcash withdraw transaction ID](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Using_Zcash/assets/solana-zec-to-shielded/11-intents-explorer.png)
+![NEAR Intents explorer record: created 3:59:28 PM, withdrawn to the u1 address 4:07:55 PM, with the Zcash withdraw transaction ID](/content-images/11-intents-explorer-f93f87814e.webp)
 
 ### Testimizin maliyeti ve süresi
 
@@ -145,19 +159,19 @@ Solana'dan çıkan her rota OmniBridge'e güvenir; çünkü köprü, tokeninizin
 
 Korumalı olarak ulaştı. ZEC'imiz bir `u1` adresine gitti ve doğrudan Ironwood korumalı havuzuna ulaştı. Şeffaf bir adım yoktu ve elle korunacak hiçbir şey bulunmuyordu. Cüzdan, onayları toplarken 16:07'de (UTC+1) onu koruma simgesiyle **Receiving…** olarak listeledi.
 
-![Zcash wallet activity showing Receiving 0.00241336 ZEC with a shield icon](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Using_Zcash/assets/solana-zec-to-shielded/12-zodl-receiving.png)
+![Zcash wallet activity showing Receiving 0.00241336 ZEC with a shield icon](/content-images/12-zodl-receiving-cb9f41511d.webp)
 
 Kendiniz kontrol etmek için cüzdanınızdaki işlemi açın ve işlem kimliğini kopyalayın.
 
-![Zcash wallet transaction details with the transaction ID and timestamp](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Using_Zcash/assets/solana-zec-to-shielded/13-zodl-tx-details.png)
+![Zcash wallet transaction details with the transaction ID and timestamp](/content-images/13-zodl-tx-details-b08434d680.webp)
 
 Onu [Zcash blok gezginine](https://mainnet.zcashexplorer.app) yapıştırın. Özete takılmayın. Bizimki **Shielded Inputs / Outputs 0 / 0** ve **Transferred from/to shielded pool 0.0 ZEC** yazıyor; çünkü gezginin özeti henüz Ironwood'i saymıyor. Gördüğünüz `t1` adresleri sizin değil, gönderen tarafındadır (harcadığı ZEC ve elinde tuttuğu para üstü).
 
-![Explorer summary for the transaction: two transparent inputs, one transparent output, 0/0 shielded](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Using_Zcash/assets/solana-zec-to-shielded/14-explorer-summary.png)
+![Explorer summary for the transaction: two transparent inputs, one transparent output, 0/0 shielded](/content-images/14-explorer-summary-6153afb265.webp)
 
 **Raw TX: JSON** seçeneğine tıklayın ve `ironwood` arayın. Oradaki negatif bir `valueBalance`, ZEC'in Ironwood havuzuna girdiğini gösterir. Bizimki, tam olarak ulaşan tutar olan `-0.00241336` idi ve işlemde bunu kimin aldığına dair hiçbir şey gösterilmiyordu.
 
-![Raw transaction JSON with the ironwood section highlighted: valueBalance -0.00241336 (highlight added)](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Using_Zcash/assets/solana-zec-to-shielded/15-explorer-raw-ironwood.png)
+![Raw transaction JSON with the ironwood section highlighted: valueBalance -0.00241336 (highlight added)](/content-images/15-explorer-raw-ironwood-8ff8ae0892.webp)
 
 [Bir blok gezgini neleri görebilir?](/zcash-tech/what-a-block-explorer-can-see), alanların geri kalanını açıklar.
 
@@ -181,9 +195,28 @@ Yeni sahipler hedef alınır. Göreceğiniz neredeyse her dolandırıcılık şu
 
 ---
 
+## Yaygın Hatalar
+
+- **Para yatırma akışı yerine Phantom'nin Swap düğmesini kullanmak.** Token zaten elinizde — swap işlemi yalnızca bir kâğıt ZEC'i başka bir tokenla değiştirir ve sizi yerel ZEC'ye yaklaştırmaz.
+- **Bir `t1` adresini** veya cüzdanınız korumalı-yalnızca `u1` sunarken şeffaf bir alıcıyı gizleyen bir `u1`'ü yapıştırmak. Para yatırma işlemi herkese açık olarak gerçekleşir ve onu cüzdanınıza kalıcı olarak bağlar.
+- solswap'ın Withdraw sayfasında "–" göründüğünde **fonların sıkıştığını varsaymak.** Bakiye web sitesini değil, Phantom anahtarınızı takip eder — para çekme işlemini near.com'da tamamlayın.
+- **Kontrol etmeden bir mesaj imzalamak.** Benzer görünümlü bir site, tek bir imzayla NEAR Intents bakiyenizi boşaltabilir. Site `near.com` olmalı ve mesaj `"verifying_contract": "intents.near"` içermelidir.
+- **İki "ZEC" ticker'ını karıştırmak.** Solana tokenı ile yerel Zcash ZEC aynı adı paylaşır, ancak aynı ağı paylaşmaz — herhangi birini diğer zincire göndermek onu kaybetmenize yol açar.
+
 ## Korumalı ZEC ile ne yapabilirsiniz?
 
 - Harcadığınızda gizli tutun: [ZEC'i gizli kullanma](/guides/using-zec-privately)
 - Kabul eden yerleri bulun: [ZEC harcanabilecek yerler](/using-zcash/spend-zcash/top-10-places-to-spend-zec)
 - Ekli özel bir mesajla gönderin: [Notlar](/using-zcash/memos)
 - Kimliğinizi bağlamadan birine ödeme yapın: [Kimliği bağlamadan para gönderme](/zcash-use-cases/send-money-without-linking-identity)
+
+---
+
+## İlgili Sayfalar
+
+- [Phantom Wallet'ta ZEC için nasıl takas yapılır](/using-zcash/solswap) — solswap ekranlarına daha ayrıntılı bakış
+- [Korumalı havuzlar](/using-zcash/shielded-pools) — Ironwood/Orchard havuzlarının ne olduğu ve alıcıların nasıl çalıştığı
+- [Zcash ödemenizi kim görebilir?](/start-here/who-can-see-your-zcash-payment) — korumanın gerçekte neyi gizlediği
+- [Cüzdanlar](/wallets) — dizin; **Ironwood: Hazır** etiketini kontrol edin
+- [Saklamalı borsalar](/using-zcash/custodial-exchanges) — bu yolun kaçındığı ödünleşim
+- [Fonları kurtarma](/using-zcash/recovering-funds) — erişimi asla kaybetmemek için neleri güvenle saklamanız gerektiği

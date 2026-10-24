@@ -2,11 +2,11 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="ページを編集"/>
 </a>
 
-# ZECD — Shielded-First ウォレットサーバー
+# zecd — Shielded-First ウォレットサーバー
 
-> 🇧🇷 [ポルトガル語版](/zechubglobal/zcashbrasil/zcashtech/zecd)
+> 🇧🇷 [ポルトガル語版](/pt/zcash-tech/zecd)
 
-ZECD は Zcash 向けの shielded-first ウォレットサーバーで、[librustzcash](https://github.com/zcash/librustzcash) 上に構築され、Bitcoin Core の JSON-RPC 方言を通じて利用できます。開発者や決済インテグレーターに、Zcash とやり取りするための使い慣れた Bitcoin 互換 API を提供しつつ、Orchard（最もプライベートなプール）をデフォルトにしています。[zec.rocks](https://zec.rocks) によって開発された ZECD は、モダンでクラウドネイティブなデプロイメントにおいて `zcashd` のウォレット機能を置き換えるよう設計されています。
+zecd は Zcash 向けの shielded-first ウォレットサーバーで、[librustzcash](https://github.com/zcash/librustzcash) 上に構築され、Bitcoin Core の JSON-RPC 方言を通じて利用できます。開発者や決済インテグレーターに、Zcash とやり取りするための使い慣れた Bitcoin 互換 API を提供しつつ、Orchard（最もプライベートなプール）をデフォルトにしています。[zec.rocks](https://zec.rocks) によって開発された zecd は、モダンでクラウドネイティブなデプロイメントにおいて `zcashd` のウォレット機能を置き換えるよう設計されています。
 
 **現在のバージョン:** 0.5.0-rc3（2026年7月13日）— Ironwood（NU6.3）をサポート。`cargo install zecd` でインストールするか、公式 Docker イメージを利用できます。
 
@@ -14,7 +14,7 @@ ZECD は Zcash 向けの shielded-first ウォレットサーバーで、[librus
 
 ## 要点
 
-- ZECD は **ウォレットデーモン（サーバー）** であり、フルノードではありません。鍵管理、スキャン、証明生成、RPC を扱いますが、Zcash の P2P プロトコルは話しません。
+- zecd は **ウォレットデーモン（サーバー）** であり、フルノードではありません。鍵管理、スキャン、証明生成、RPC を扱いますが、Zcash の P2P プロトコルは話しません。
 - **Bitcoin Core の JSON-RPC 方言** を話します。メソッド名、フィールド構造、認証、エラーコードが同じで、多くの Bitcoin RPC クライアントはそのまま Zcash で動作します。
 - **Orchard（shielded）アドレスがデフォルト** です。transparent（t-address）および Sapling のサポートは、ウォレットごとに明示的なオプトインが必要です。
 - **セルフホストされた [Zebra](Zebra_Full_Node.md) フルノード** にローカル JSON-RPC 経由で接続します。lightwalletd は不要です。
@@ -25,11 +25,11 @@ ZECD は Zcash 向けの shielded-first ウォレットサーバーで、[librus
 
 ---
 
-## ZECD はどんな問題を解決するのか？
+## zecd はどんな問題を解決するのか？
 
 `zcashd` は Zcash の元祖ノード兼ウォレットで、2016 年に Bitcoin の C++ コードベースからフォークされました。時間が経つにつれ、これが摩擦を生みました。コードは保守が難しく、ウォレットはノードと密結合しており、transparent アドレスは shielded アドレスと並んで第一級の選択肢として提示されます。
 
-ZECD はウォレットの責務をコンセンサスから分離します。これは、アプリケーションと Zebra フルノードの間に位置する**専用ウォレットレイヤー**であり、以下を提供します。
+zecd はウォレットの責務をコンセンサスから分離します。これは、アプリケーションと Zebra フルノードの間に位置する**専用ウォレットレイヤー**であり、以下を提供します。
 
 - librustzcash 上に構築された、クリーンでモダンな Rust 実装（Zodl と Zingo を支えるのと同じライブラリ）
 - デフォルトでプライバシー重視の設計（別途設定しない限り Orchard アドレス）
@@ -40,19 +40,19 @@ ZECD はウォレットの責務をコンセンサスから分離します。こ
 
 ## アーキテクチャ
 
-ZECD は 3 層モデルで動作します。
+zecd は 3 層モデルで動作します。
 
 ```
 Your app / Bitcoin RPC client
         ↓  JSON-RPC
-       ZECD
+       zecd
    (keys, scanning, proving, RPC)
         ↓  JSON-RPC (local only)
        Zebra
    (full node — consensus, mempool, chain data)
 ```
 
-ZECD は Zebra と**ローカル JSON-RPC のみ**を通じて通信します。P2P ネットワーキングも、サードパーティのインデクサーも、lightwalletd も使いません。Zebra への接続は意図的にローカル専用です。ZECD は、帯域外で保護されたトンネル（たとえば WireGuard や SSH）向けに明示的に設定されていない限り、グローバルに到達可能なホストへ認証情報を送ることを拒否します。
+zecd は Zebra と**ローカル JSON-RPC のみ**を通じて通信します。P2P ネットワーキングも、サードパーティのインデクサーも、lightwalletd も使いません。Zebra への接続は意図的にローカル専用です。zecd は、帯域外で保護されたトンネル（たとえば WireGuard や SSH）向けに明示的に設定されていない限り、グローバルに到達可能なホストへ認証情報を送ることを拒否します。
 
 ---
 
@@ -60,7 +60,7 @@ ZECD は Zebra と**ローカル JSON-RPC のみ**を通じて通信します。
 
 ### Shielded-First、デフォルトで Orchard
 
-ZECD は、デフォルトのアドレスタイプとして Orchard Unified Address を使用します。Sapling および transparent（t-address）プールは、ウォレットごとに明示的な設定が必要です。この設計により、古い Zcash ツールでよくあるプライバシー上の落とし穴である、誤って transparent 送金してしまうリスクを減らします。
+zecd は、デフォルトのアドレスタイプとして Orchard Unified Address を使用します。Sapling および transparent（t-address）プールは、ウォレットごとに明示的な設定が必要です。この設計により、古い Zcash ツールでよくあるプライバシー上の落とし穴である、誤って transparent 送金してしまうリスクを減らします。
 
 プライバシーポリシーは、呼び出しごと、またはグローバルに `[spend] privacy_policy` で設定できます。
 
@@ -73,7 +73,7 @@ ZECD は、デフォルトのアドレスタイプとして Orchard Unified Addr
 
 ### Bitcoin Core RPC 互換性
 
-ZECD は以下にわたって Bitcoin Core の JSON-RPC 方言を実装しています。
+zecd は以下にわたって Bitcoin Core の JSON-RPC 方言を実装しています。
 
 - メソッド名（例: `getblockchaininfo`, `getbalance`, `getnewaddress`, `listtransactions`, `sendtoaddress`, `sendmany`）
 - レスポンス内のフィールド名と型
@@ -81,23 +81,23 @@ ZECD は以下にわたって Bitcoin Core の JSON-RPC 方言を実装してい
 - Basic 認証、`rpcauth` エントリ、cookie ファイル認証
 - エラーコードと HTTP ステータスマッピング（エラーボディ付き HTTP 500、401 セマンティクス）
 
-つまり、既存の多くの Bitcoin 決済ライブラリ、取引所インテグレーション、監視ツールは、コード変更をほとんど、あるいはまったく行わずに ZECD 経由で Zcash とやり取りできます。
+つまり、既存の多くの Bitcoin 決済ライブラリ、取引所インテグレーション、監視ツールは、コード変更をほとんど、あるいはまったく行わずに zecd 経由で Zcash とやり取りできます。
 
 適合性テストスイート（140 以上のチェック）は、すべての PR で稼働中の regtest デーモンに対して実行されており、公開 testnet でも検証されています。
 
 ### Shielded メモ（ZIP-302）
 
-ZECD は、標準的な Bitcoin ツールにはない Zcash の shielded メモ機能を、使い慣れた Bitcoin RPC インターフェースを通じて公開します。
+zecd は、標準的な Bitcoin ツールにはない Zcash の shielded メモ機能を、使い慣れた Bitcoin RPC インターフェースを通じて公開します。
 
 - `sendtoaddress` は、追加の末尾パラメータとして任意の 16 進メモを受け付けます（最大 512 バイト。transparent な受取人には拒否）
 - `listtransactions` と `gettransaction` のトランザクション履歴エントリには、出力がメモを持つ場合に `memo`（16 進）および `memoStr`（デコード済みテキスト）フィールドが含まれます
 - shielded な受取人へのゼロ金額送信は、メモ専用ユースケース向けにサポートされます（`z_sendmany` の “memo-only-send” パターン）
 
-これにより ZECD は、支払いと並行してプライベートなオンチェーンメッセージングを必要とするアプリケーションに適しています。
+これにより zecd は、支払いと並行してプライベートなオンチェーンメッセージングを必要とするアプリケーションに適しています。
 
 ### 設計上ステートレス
 
-ZECD は、**シードだけの復元で再構築できないオフチェーン状態を一切保持しません**。ウォレットデータベース（`data.sqlite`）はシードフレーズから完全に導出可能であり、shielded 資金は無条件に復元され、transparent 資金は設定されたギャップリミットまで復元されます。
+zecd は、**シードだけの復元で再構築できないオフチェーン状態を一切保持しません**。ウォレットデータベース（`data.sqlite`）はシードフレーズから完全に導出可能であり、shielded 資金は無条件に復元され、transparent 資金は設定されたギャップリミットまで復元されます。
 
 シードからウォレットを復元するには:
 
@@ -105,17 +105,17 @@ ZECD は、**シードだけの復元で再構築できないオフチェーン�
 zecd init --restore --birthday <block-height>
 ```
 
-これにより、データディレクトリは**使い捨て**にできます。永続ボリュームのないコンテナを毎回シードから再構築して起動しても、重要なものは何も失われません。オペレーターは自分が配布したアドレスを追跡する責任があります。ZECD がアドレスを記憶するのは、それらがオンチェーンで資金を受け取った後だけです。
+これにより、データディレクトリは**使い捨て**にできます。永続ボリュームのないコンテナを毎回シードから再構築して起動しても、重要なものは何も失われません。オペレーターは自分が配布したアドレスを追跡する責任があります。zecd がアドレスを記憶するのは、それらがオンチェーンで資金を受け取った後だけです。
 
-ラベル機能は意図的に存在しません。ラベルはオンチェーン上に情報源がなく、シードから再構築できないため、ZECD は単純にそれをサポートしません。ラベル関連メソッドを呼び出すと、`method-not-found` エラー（`-32601`）が返ります。
+ラベル機能は意図的に存在しません。ラベルはオンチェーン上に情報源がなく、シードから再構築できないため、zecd は単純にそれをサポートしません。ラベル関連メソッドを呼び出すと、`method-not-found` エラー（`-32601`）が返ります。
 
 ### lightwalletd への依存なし
 
-ZECD は、コンパクトブロック、ツリー状態、mempool の可視性を Zebra の JSON-RPC から直接導出します。運用・保守すべき lightwalletd は存在せず、セルフホスト環境の運用複雑性を下げます。
+zecd は、コンパクトブロック、ツリー状態、mempool の可視性を Zebra の JSON-RPC から直接導出します。運用・保守すべき lightwalletd は存在せず、セルフホスト環境の運用複雑性を下げます。
 
 ### クラウドネイティブおよびコンテナ化されたデプロイメント
 
-ZECD のステートレスアーキテクチャは Docker および Kubernetes 環境向けに設計されています。
+zecd のステートレスアーキテクチャは Docker および Kubernetes 環境向けに設計されています。
 
 - 完全な Docker Compose スタック（`zebra → zecd`）をリポジトリで提供
 - ポート `9233` 上のヘルスエンドポイント。設定可能な readiness probe（`synced` または `connected`）
@@ -127,7 +127,7 @@ ZECD のステートレスアーキテクチャは Docker および Kubernetes �
 
 ## カストディモデル
 
-ZECD は、デプロイメントやセキュリティ要件に応じた 3 つの鍵カストディモデルをサポートします。
+zecd は、デプロイメントやセキュリティ要件に応じた 3 つの鍵カストディモデルをサポートします。
 
 ### 1. 非暗号化（デフォルト — 自動アンロック）
 
@@ -180,13 +180,13 @@ zecd init --datadir ./data-watch --ufvk "uview1..." --birthday <height>
 | `blocks/` | `<wallet dir>/blocks/` | コンパクトブロックキャッシュ | いいえ — 配布しないこと。大きくなりうる |
 | `.cookie` | `<datadir>/.cookie` | 一時的な RPC cookie | いいえ — 起動時に再生成 |
 
-> **データディレクトリはホストローカルでなければなりません。** ZECD の単一インスタンスロック（`<datadir>/.lock`）は OS の advisory lock であり、ホストをまたぎません。データディレクトリを複数マシンで読み書き共有してはいけません（NFS、Kubernetes の `ReadWriteMany` など）— 2 つの ZECD インスタンスがウォレット DB を破損させます。Kubernetes では `ReadWriteOnce` ボリュームを使用してください。
+> **データディレクトリはホストローカルでなければなりません。** zecd の単一インスタンスロック（`<datadir>/.lock`）は OS の advisory lock であり、ホストをまたぎません。データディレクトリを複数マシンで読み書き共有してはいけません（NFS、Kubernetes の `ReadWriteMany` など）— 2 つの zecd インスタンスがウォレット DB を破損させます。Kubernetes では `ReadWriteOnce` ボリュームを使用してください。
 
 ---
 
 ## RPC メソッドのセーフリスト
 
-認証情報漏えいが壊滅的になりうるデプロイメント向けに、ZECD は RPC インターフェースを選択したメソッド群に制限することをサポートしています。
+認証情報漏えいが壊滅的になりうるデプロイメント向けに、zecd は RPC インターフェースを選択したメソッド群に制限することをサポートしています。
 
 ```toml
 [rpc]
@@ -201,7 +201,7 @@ allowed_methods = ["getblockchaininfo", "getbalance", "getnewaddress", "listtran
 
 Bitcoin または zcashd ツールから移行する開発者は、以下の意図的な相違点を把握しておくべきです。
 
-| 動作 | Bitcoin Core | ZECD |
+| 動作 | Bitcoin Core | zecd |
 |----------|-------------|------|
 | アドレス形式 | `1...` / `bc1...` | `u1...`（Orchard Unified Address）— 文字列解析ベースのクライアントでは Bitcoin アドレスとして解釈不可 |
 | ラベル | 完全なラベルストア | 未実装 — `setlabel`、`listlabels` などは `-32601` を返す |
@@ -209,7 +209,7 @@ Bitcoin または zcashd ツールから移行する開発者は、以下の意�
 | メモ | 未サポート | `sendtoaddress` は 16 進メモを受け付ける。履歴には `memo` + `memoStr` フィールドあり |
 | 支出可能になるまでの承認数 | 1 | 3（自分のおつり）/ 10（第三者）— `trusted_confirmations` / `untrusted_confirmations` で設定可能 |
 | reorg 時の `listsinceblock` | フォーク地点まで巻き戻る | カーソルが reorg で消えた場合は `-5`（Block not found）を返す — パラメータなし呼び出しで再ベースライン化 |
-| `sendmany` の重複受取人 | エラー | ZECD が見る前に JSON パーサーが重複を畳み込む（最後の値が有効）— 同じアドレスを 2 回列挙しないこと |
+| `sendmany` の重複受取人 | エラー | zecd が見る前に JSON パーサーが重複を畳み込む（最後の値が有効）— 同じアドレスを 2 回列挙しないこと |
 | 初期同期中の残高 | ブロックするかウォームアップ | 部分残高を返す — 自動化は `GET /readyz` によって制御（完全同期かつ拡張バックログ解消まで 503 を返す） |
 | `getbalance` の `minconf 0` | 0-conf 残高 | 1 として扱われる — shielded ノートは未採掘状態では決して支出可能にならない |
 
@@ -274,16 +274,16 @@ zecd --datadir ./data init --restore --birthday 2500000
 
 ## デフォルトポート
 
-| Network | ZECD RPC | Zebra RPC（バックエンド） | Health |
+| Network | zecd RPC | Zebra RPC（バックエンド） | Health |
 |---------|----------|---------------------|--------|
 | Mainnet | 8232 | 8234 | 9233 |
 | Testnet | 18232 | 18234 | 9233 |
 
 ---
 
-## ZECD vs. zcashd vs. Zaino
+## zecd vs. zcashd vs. Zaino
 
-| | zcashd | Zaino | ZECD |
+| | zcashd | Zaino | zecd |
 |--|--------|-------|------|
 | 役割 | フルノード + ウォレット | インデクサー（lightwalletd を置き換える） | ウォレットサーバーのみ |
 | 言語 | C++ | Rust | Rust |
@@ -301,16 +301,16 @@ zecd --datadir ./data init --restore --birthday 2500000
 
 ## 関連ページ
 
-- [Zebra フルノード](Zebra_Full_Node.md) — ZECD が接続するフルノード
+- [Zebra フルノード](Zebra_Full_Node.md) — zecd が接続するフルノード
 - [Zaino インデクサー](Zaino.md) — 別のインデクサー方式（lightwalletd を置き換える）
 - [Zakura ノード](Zakura_Node.md) — 別のフルノード実装（Zebra のフォーク）
-- [Viewing Keys](Viewing_Keys.md) — ZECD がアカウントの Viewing Key を使ってチェーンをスキャンする方法
+- [Viewing Keys](Viewing_Keys.md) — zecd がアカウントの Viewing Key を使ってチェーンをスキャンする方法
 - [ウォレット](/using-zcash/wallets) — ウォレットエコシステムの概要
 
 ## リソース
 
-- [ZECD GitHub（zecrocks/zecd）](https://github.com/zecrocks/zecd)
-- [ZECD 運用ランブック](https://github.com/zecrocks/zecd/blob/main/docs/OPERATIONS.md)
+- [zecd GitHub（zecrocks/zecd）](https://github.com/zecrocks/zecd)
+- [zecd 運用ランブック](https://github.com/zecrocks/zecd/blob/main/docs/OPERATIONS.md)
 - [zec.rocks](https://zec.rocks)
 - [librustzcash — 中核となる Zcash 暗号ライブラリ](https://github.com/zcash/librustzcash)
 - [ZIP-317: 比例送金手数料メカニズム](https://zips.z.cash/zip-0317)

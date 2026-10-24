@@ -46,6 +46,38 @@ jobs:
             # commit rather than failing the job for a history reason.
             echo "ref=HEAD^" >> "$GITHUB_OUTPUT"
           fi
+      # The term list every other gate in this job reads. They all load it
+      # defensively (`?? []`), so a misspelled key or a section that stopped
+      # being an array would leave them protecting NOTHING while still exiting
+      # 0. Checked first, so a malformed file fails here with a clear message
+      # instead of turning every gate below it into a silent no-op.
+      - name: Validate protected-terms.json
+        run: node scripts/check-terms-file.mjs
+
+      # The gate's own regression suite: each rule is broken on purpose and
+      # must fail. A gate whose failure mode is exiting 0 cannot be trusted on
+      # green alone.
+      - name: Terms-file gate self-test
+        run: node scripts/check-terms-file.test.mjs
+
+      # The brand detector behind the sync's pre-flight hold: a page whose new
+      # English names an unprotected brand waits instead of being translated
+      # twice. Advisory for contributors, so only its self-test runs here.
+      - name: Brand-candidate detector self-test
+        run: node scripts/brand-candidates.test.mjs
+
+      # Community-reviewed glossaries (translation/glossary/): the shared
+      # English list and every <loc>.json, against each other and against
+      # preserveVerbatim. Data only, nothing reads it at translation time yet,
+      # but a malformed file must not merge: the first consumer would inherit
+      # it. --base adds the version check (an approved change bumps `version`
+      # and is named in the changelog), so this step sits in the job that
+      # already resolves the base with full history.
+      - name: Validate glossaries
+        env:
+          BASE_REF_OUT: ${{ steps.base.outputs.ref }}
+        run: node translation/glossary/validate.mjs --base "$BASE_REF_OUT"
+
       - name: Validate protected terminology
         # Scoped to what this change did to translations. Inherited staleness
         # (English edited, translations not yet re-synced) is reported as a
@@ -94,6 +126,42 @@ jobs:
       - name: Page hygiene gate self-test
         run: node scripts/check-page-hygiene.test.mjs
 
+      # A model's reply about the translation request saved as the translation
+      # ("Please provide the Markdown fragment you would like me to
+      # translate...", "I cannot translate this fragment..."): 85 lines in 20
+      # Indonesian pages and 5 in a Turkish one reached main with every other
+      # gate green, because the line is valid Markdown in a Latin script
+      # (#2467). The openings are listed in translation/model-replies.json,
+      # which the translation runner reads too. Replies in the target language
+      # are caught structurally: a "---", a lone HTML tag or a one/two
+      # character heading in the English must come through unchanged.
+      # Same scope rule as numbers:
+      # translated pages the PR changes, replies already at the base are a
+      # notice.
+      - name: Model replies on changed translations
+        env:
+          BASE_REF_OUT: ${{ steps.base.outputs.ref }}
+        run: node scripts/check-model-replies.mjs --base "$BASE_REF_OUT"
+
+      - name: Model-reply gate self-test
+        run: node --test scripts/check-model-replies.test.mjs
+
+      # Numbers and dates on the TRANSLATED pages a PR changes. Engines garble
+      # numbers while the rest of the page stays intact: "ZIP 2emma" and
+      # "November 202kan" from the local model, a changed block height, a
+      # damaged transaction hash, and a Yoruba date that Google Translate wrote
+      # out as words meaning a different day. Fails on a digit/letter token the
+      # English lacks and on a number (other than 0-10) that vanished or
+      # appeared; damage already present at the base is a notice. Igbo missing
+      # numbers are advisory; see the script header for the calibration.
+      - name: Validate numbers on changed translations
+        env:
+          BASE_REF_OUT: ${{ steps.base.outputs.ref }}
+        run: node scripts/check-numbers.mjs --base "$BASE_REF_OUT"
+
+      - name: Number gate self-test
+        run: node --test scripts/check-numbers.test.mjs
+
       # A glossary's Term column is vocabulary and a Parameter column holds
       # identifiers: both stay English in every locale, only the explanation is
       # translated. Engines glossed them (Arborist Call -> sw "Wito wa Mtaalamu
@@ -125,6 +193,15 @@ jobs:
       - name: Link-health parser self-test
         run: node link-health/check-links.test.mjs
 
+      - name: Link-health response cleanup self-test
+        run: node --test link-health/response-body.test.mjs
+
+      - name: Link-health status and retry self-test
+        run: node --test link-health/status-retry.test.mjs
+
+      - name: Link-health false-positive self-test
+        run: node --test link-health/false-positives.test.mjs
+
   hash-lib-tests:
     runs-on: ubuntu-latest
     steps:
@@ -138,6 +215,11 @@ jobs:
         # Shell-glob (not a bare dir) so it works on Node 20 and still picks up
         # any future *.test.mjs without editing this workflow.
         run: node --test translation/lib/*.test.mjs
+      - name: Unit-test the glossary library
+        # Every validation rule in translation/glossary/lib/glossary.mjs has a
+        # case that must fail; a rule that silently stopped firing would let a
+        # malformed glossary enforce nothing.
+        run: node --test translation/glossary/lib/*.test.mjs
 
   menu-titles-fresh:
     # Freshness gate: the menu-titles manifests must match a from-scratch

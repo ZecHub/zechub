@@ -6,7 +6,7 @@
 
 ## 팀 구성원
 
-Electric Coin Company(ECC)에는 전 세계에 분산되어 있는 거의 30명의 직원이 있습니다. 그들은 프로토콜 개발, 애플리케이션 개발, 프로토콜 보안, 비즈니스 개발 및 규제 관계와 같은 다양한 일을 합니다. [직원 정보](https://electriccoin.co/team/)
+Electric Coin Company(ECC)에는 전 세계에 분산되어 있는 거의 30명의 직원이 있습니다. 그들은 프로토콜 개발, 애플리케이션 개발, 프로토콜 보안, 비즈니스 개발 및 규제 관계와 같은 다양한 일을 합니다. [직원 정보](https://web.archive.org/web/20240311110626/https://electriccoin.co/team/)
 
 ## 조직 구조
 

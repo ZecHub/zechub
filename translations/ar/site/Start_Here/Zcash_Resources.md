@@ -26,11 +26,11 @@ Zcash Community هو موقع يديره المجتمع ويسلط الضوء ع
 
 Z.cash هو الموقع الرئيسي لـ Zcash. يوفّر محتوى ووثائق عن Zcash لمجموعة واسعة من المستخدمين، ويتيح للمستخدمين الجدد التعمق أكثر في الشروحات التقنية المتعلقة بـ Zcash.
 
-**[Zcash Github](https://github.com/zcash/zcash)**
+**[Zcash GitHub](https://github.com/zcash/zcash)**
 
-هل لديك مهارات برمجية وترغب في التعمق أكثر في الجانب التقني من Zcash؟ مستودع Zcash Github هو مستودع zcashd، أول تنفيذ لعقدة Zcash. وصل zcashd إلى توقفه التلقائي لنهاية الدعم في 18 يوليو 2026 ولم يعد خاضعًا للصيانة، كما أن صفحة التنزيل التي كان هذا الإدخال يشير إليها لم تعد متاحة. الحزمة الخاضعة للصيانة هي [Zebra](https://github.com/ZcashFoundation/zebra) للعقدة و[Zallet](https://github.com/zcash/zallet) للمحفظة — راجع [دليل الترحيل من zcashd إلى Zebra وZallet](https://zechub.wiki/guides/migration-guide-zcashd-to-zebrad-zallet).
+هل لديك مهارات برمجية وترغب في التعمق أكثر في الجانب التقني من Zcash؟ مستودع Zcash GitHub هو مستودع zcashd، أول تنفيذ لعقدة Zcash. وصل zcashd إلى توقفه التلقائي لنهاية الدعم في 18 يوليو 2026 ولم يعد خاضعًا للصيانة، كما أن صفحة التنزيل التي كان هذا الإدخال يشير إليها لم تعد متاحة. الحزمة الخاضعة للصيانة هي [Zebra](https://github.com/ZcashFoundation/zebra) للعقدة و[Zallet](https://github.com/zcash/zallet) للمحفظة — راجع [دليل الترحيل من zcashd إلى Zebra وZallet](https://zechub.wiki/guides/migration-guide-zcashd-to-zebrad-zallet).
 
-**[Zcash Foundation Github](https://github.com/ZcashFoundation)**
+**[Zcash Foundation GitHub](https://github.com/ZcashFoundation)**
 
 مستودع GitHub آخر يستضيف مشاريع Zcash Foundation، بما في ذلك [zebra](https://github.com/ZcashFoundation/zebra)، وهو تنفيذ لعقدة Zcash بلغة Rust.
 

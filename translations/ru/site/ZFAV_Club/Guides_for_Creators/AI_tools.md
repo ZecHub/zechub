@@ -47,7 +47,7 @@
 - [Midjourney Bot](https://discord.com/invite/midjourney) в Discord - от $10 в месяц - [Руководство по началу работы](https://docs.midjourney.com/docs/quick-start)
 можно получить около 100 бесплатных генераций, оценивая много других изображений [здесь](https://www.midjourney.com/app/rank-pairs/)
 (нужно войти в топ2000 рейтингов - примерно 15 минут оценки картинок)
-- [DALL-E 2](https://labs.openai.com/) [](https://openai.com/dall-e-2)- $15 за 115 генераций - (бесплатные 15 генераций в месяц)
+- [DALL-E 2](https://web.archive.org/web/20250601174514/https://labs.openai.com/) [](https://openai.com/dall-e-2)- $15 за 115 генераций - (бесплатные 15 генераций в месяц)
 - [DALL-E 3](https://openai.com/dall-e-3/) - входит в ChatGPT-4 - $20 в месяц
 - [Nightcafe Creator](https://creator.nightcafe.studio/) (4 генерации бесплатно, платная подписка начинается с $6 в месяц)
 
@@ -81,7 +81,7 @@
 
 ### Генерация голоса
 
-- [play.ht](https://play.ht/) - бесплатный - (подписка от $39 в месяц)
+- [play.ht](https://web.archive.org/web/20260310162301/https://play.ht/) - бесплатный - (подписка от $39 в месяц)
 - [ElevenLabs](https://elevenlabs.io/) - бесплатный - (подписка от $5 в месяц)
 - [Murf](https://murf.ai/) - бесплатный - (подписка от $29 в месяц)
 - [Resemble](https://www.resemble.ai/) - попробуйте бесплатно (после $0.006 за секунду)

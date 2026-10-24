@@ -97,7 +97,7 @@ Para a **Zcash Mainnet**;
 > **Trocar ETH -> ZEC** - Use serviços como **LeoDex** e envie para seu endereço shielded.  
 > **Saque de exchange** - Saque o ZEC comprado para seu endereço shielded do WebZjs.  
 
-![TROCA-LEODEX](/content-images/HyLQ0G2ugg-8d82ef24f6.webp)
+![TROCA-LeoDex](/content-images/HyLQ0G2ugg-8d82ef24f6.webp)
 
 
 > => Use endereços shielded (z) para **privacidade total**.
@@ -158,4 +158,4 @@ Para a **Zcash Mainnet**;
 > As provas shielded podem levar tempo; o WebAssembly faz o processamento no navegador.  
 > A recuperação é simples: instale o MetaMask e o Snap e depois importe sua seed existente.  
 > O Snap usa por padrão **ZEC shielded**; endereços transparentes **não são o foco**.  
-> Use [zcashblockexplorer.com](https://zcashblockexplorer.com) para confirmações de transações.
+> Use [mainnet.zcashexplorer.app](https://mainnet.zcashexplorer.app) para confirmações de transações.

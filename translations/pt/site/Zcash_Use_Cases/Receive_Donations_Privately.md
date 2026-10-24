@@ -106,7 +106,7 @@ Você pode:
 
 ## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="ícone de links"/> Relacionado
 
-- [Privacidade - Blindado vs Transparente](/privacy/shielded-vs-transparent)
+- [O que um explorador de blocos consegue ver](/zcash-tech/what-a-block-explorer-can-see)
 - [Carteiras](/wallets)
 
 <br/>

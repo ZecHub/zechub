@@ -23,7 +23,7 @@ Ebe mmụta Zcash maka ndị lanarịrị ime ihe ike n'ụlọ.
 [Gaa leta](https://zshieldher.com/)
 
 ### ZecForge
-Ihe okike maka usoro Zcash lekwasịrị anya na ntinye aka, mmepe nke ndị okike, na nkesa ọdịnaya. 
+Ihe okike maka usoro Zcash lekwasịrị anya na ntinye aka, mmepe ndị okike, na nkesa ọdịnaya. 
 [Gaa leta](https://x.com/zec_forge)
 
 ### Ịmụta usoro vidiyo Zcash nke ọma
@@ -59,7 +59,7 @@ E mere ikpo okwu mmekọrịta obodo na ụgwọ ọrụ maka obodo Zcash, ọr�
 [Gaa leta](https://gleyo.app/)
 
 ### Ebe Enyemaka Zcash
-E mere dashboard onyinye nke lekwasịrị anya n'obodo iji mee ka o dị mfe ịchọta, nyochaa, na inyocha onyinye Zcash. Ọ na-eweta ngwa onyinye, ihe ndị dị mkpa, mmefu ego, mkparịta ụka, na nyocha n'otu ebe site na ịdọrọ data dị ndụ site na ebe nchekwa Zcash Community Grants GitHub. Ikpo okwu a na-achọ inye ahụmịhe doro anya na nke bara uru karịa maka ndị na-achọ akwụkwọ, ndị otu kọmitii, na ndị nyocha obodo. 
+E mere dashboard onyinye nke lekwasịrị anya n'obodo iji mee ka o dị mfe ịchọta, nyochaa, na inyocha onyinye Zcash. Ọ na-eweta ngwa onyinye, ihe ndị dị mkpa, mmefu ego, mkparịta ụka, na nyocha n'otu ebe site na ịdọrọ data dị ndụ site na ebe nchekwa Zcash Community Grants GitHub. Ikpo okwu a na-achọ inye ahụmịhe doro anya na nke bara uru karịa maka ndị na-achọ akwụkwọ, ndị otu kọmitii, na ndị na-enyocha obodo. 
 [Gaa leta](https://staging.zgrantshub.com/)
 
 ---
@@ -75,8 +75,7 @@ Mfe iji, obere akpa Zcash dị ọtụtụ nke nwere njirimara zuru oke yana nkw
 [Gaa leta](https://play.google.com/store/apps/details?id=com.Nerdbank.eZcash.App)
 
 ### Obere akpa Nozy
-Orchard-first obere akpa Zcash mbụ e wuru maka Zebrad na lightwalletd. Na-akwado izipu/nata nke ọma, njikwa igodo mpaghara echekwara, na ndetu Ironwood (NU6.3) na mbugharị Orchard-to-Ironwood. A naghị anabata adreesị doro anya maka usoro ịkwụ ụgwọ na-eche onye ọrụ ihu. 
-
+Orchard-first obere akpa Zcash mbụ e wuru maka zebrad na lightwalletd. Na-akwado izipu/nata nke ọma, njikwa igodo mpaghara echekwara, na ndetu Ironwood (NU6.3) na mbugharị Orchard-to-Ironwood. A naghị anabata adreesị doro anya maka usoro ịkwụ ụgwọ na-eche onye ọrụ ihu. 
 [Gaa leta](https://github.com/LEONINE-DAO/Nozy-wallet)
 
 ### Overpay.com
@@ -86,7 +85,6 @@ Orchard-first obere akpa Zcash mbụ e wuru maka Zebrad na lightwalletd. Na-akwa
 ### ZcashToCash
 ZcashToCash (zcashto.cash) — ZEC gaa na Cash App, Chime, Monzo, Revolut, Venmo, ma ọ bụ Zelle site na Peer. A na-agbanwe ZEC ka ọ bụrụ USDC (NEAR), mgbe ahụ, iwu Peer na Base na-ewepụta USDC mgbe onye na-anara ego gosipụtara ịkwụ ụgwọ fiat. Taker na-ahụ aha njirimara ngwa ịkwụ ụgwọ. Ọ bụghị CEX, ọ bụghị ZEC-in-escrow. 
 [Gaa leta](https://zcashto.cash/)
-
 
 ### Akpa Zafu
 Akpa nzuzo nke mepere emepe maka Zcash na Penumbra. Mgbatị ihe nchọgharị nwere ihe akaebe nke ndị ahịa, usoro nhazi ọkụ nke ndị ahịa, akara oyi, FROST multisig, na igodo enweghị echiche na-apụ na ngwaọrụ ahụ. 
@@ -106,7 +104,7 @@ Bot Discord na-enye ohere zuru oke na nchekwa iji nweta azụmahịa Zcash.
 
 ### ZODL
 Akpa Zcash nke ọkọlọtọ sitere na ZODL (nke bụbu Zashi). Dị na iOS na Android. Na-akwado ntuli aka ZEC na NU7 nke ndị nwere mkpụrụ ego na-echebe. 
-[Gaa leta](https://zodl.app/)
+[Gaa leta](https://zodl.com/)
 
 ### Obere akpa Noir
 Akpa Zcash lekwasịrị anya na nzuzo nke e mere maka azụmahịa ZEC dị mfe na nkeonwe. 
@@ -117,7 +115,7 @@ Akpa nchekwa dabere na ebumnuche nke e wuru na azụmahịa Zcash echebe.
 [Ọgbakọ](https://forum.zcashcommunity.com/t/zecvault-a-goal-based-savings-wallet-built-on-zcash-shielded-transactions/55464)
 
 ### Zkool
-Onye ga-anọchi YWallet na-akwado atụmatụ usoro Zcash kachasị ọhụrụ gụnyere Orchard. 
+Onye ga-anọchi YWallet. Na-akwado Ironwood, ọdọ mmiri a na-echebe ugbu a. 
 [Ọgbakọ](https://forum.zcashcommunity.com/t/zkool-the-successor-to-ywallet/51139)
 
 ### MonteZecret
@@ -144,13 +142,13 @@ Akpa desktọpụ naanị elekere ka e mere maka ndị mmadụ n'otu n'otu na ò
 
 ## Ndị Na-eme Nnyocha, Data, na Dashboards Netwọk
 
-### Nyocha SipherScan
-Ihe nchọgharị blockchain Zcash nke mbụ. Ejiri Next.js 15, TypeScript, na Rust/WASM rụọ ya. Nchọpụta anaghị ewepụta metadata ajụjụ. 
-[Gaa leta](https://cipherscan.app/)
+### ZecBlock
+Ihe nchọgharị blockchain Zcash nke mbụ (nke bụbu CipherScan). Ejiri Next.js 15, TypeScript, na Rust/WASM. Nchọpụta anaghị ewepụta metadata ajụjụ. Nhazigharị ya na ibe mbụ enwere ike ịhazi, ajụjụ na azịza (beta), chaatị ndị a na-ekerịta, na ihe ndị ọzọ. 
+[Gaa leta](https://zecblock.com/)
 
 ### Exblo
 Emebere Block Explorer maka ịnwale azụmahịa na Zcash Testnet. 
-[Gaa leta](https://testnet.exblo.app/)
+[Gaa leta](https://web.archive.org/web/20241206041317/https://testnet.exblo.app/)
 
 ### OpenZcash
 Ihe ngosiputa ọha na eze maka Zcash Dev Fund, gụnyere akaụntụ ego ZCG na FPF, Lockbox, ọchịchị, na ịkwụ ụgwọ. 
@@ -176,13 +174,17 @@ Ngwaọrụ iji lelee oge nzaghachi gRPC nke Zcash lightwalletd nodes.
 Dashboard maka ọnụọgụgụ netwọk Zcash n'oge na-adịbeghị anya na usoro nchekwa. 
 [Gaa leta](https://zecstats.com)
 
+### ZecZcash
+Data Zcash nọọrọ onwe ya, ngwaọrụ, na ebe nyocha. Gụnyere ihe nchọgharị, ngwaọrụ ahịa na ọkara, ntuziaka obere akpa, na akụkọ gbasara gburugburu ebe obibi. Anaghị ejikọ ya na ECC ma ọ bụ Zcash Foundation. 
+[Gaa leta](https://zeczcash.com/)
+
 ### zecprice
 Ngwa nyocha na usoro data maka arụmọrụ ọnụahịa ahịa Zcash. 
 [Gaa leta](https://zecprice.com)
 
 ### Zlink
 Ndekọ maka ịchọta njikọ, ngwaọrụ, na ozi gbasara usoro Zcash. 
-[Gaa leta](https://zlink.click)
+[Gaa leta](https://web.archive.org/web/20250309010146/https://zlink.click/)
 
 ### Ahịa Zecmarket
 Ahịa nzuzo nke usoro Zcash. Ụgwọ ọrụ na-akwụ ụgwọ ozugbo, ikpo okwu ahụ anaghịkwa ejide ego gị. 
@@ -237,12 +239,17 @@ Sistemụ nyocha nke lekwasịrị anya na nzuzo nke na-eji azụmahịa Zcash e
 
 ## Onye Mmepụta, Nnwale, na Akụrụngwa
 
+### Ztreamer
+Mmejuputa Zcash indexer na lightwallet-protocol (CompactTxStreamer) nke e ji Zakura node mee nke ọma. Ọ na-agba ọsọ node + indexer + wallet server n'otu usoro (ztreamer); na-akwado gRPC na Zakura v2 P2P. Nhazi akụkọ ihe mere eme ngwa ngwa na obere oge na-eje ozi maka obere akpa ego. 
+[Gaa leta](https://github.com/distractedm1nd/ztreamer)  
+[Kretị](https://crates.io/crates/ztreamer-indexer)
+
 ### Ziggurat
 Ngwa nnwale netwọk maka ndị mmepe zcashd na Zebra. Gụnyere ihe eji agagharị Zcash. 
 [Gaa leta](https://github.com/runziggurat/zcash)
 
 ### ZecDev
-Ngwa ọrụ Linux mbụ nke na-eweta netwọk Zebra regtest nwere faucet, ihe eji etinye Unified Address, na lightwalletd ma ọ bụ Zaino, yana GitHub Actions enwere ike iji ya eme ihe ọzọ maka usoro mgbasa ozi echekwara site na njedebe ruo na njedebe. 
+Ngwa ọrụ Linux-first nke na-eweta netwọk Zebra regtest nwere faucet, ihe eji etinye Unified Address, na lightwalletd ma ọ bụ Zaino, yana GitHub Actions enwere ike iji ya eme ihe ọzọ maka usoro mgbasa ozi echekwara site na njedebe ruo na njedebe. 
 [Gaa leta](https://github.com/zecdev)
 
 ### Akụrụngwa Fuzzing Zebra na-eduzi
@@ -277,7 +284,7 @@ Ngwaọrụ maka imepụta ọdịnaya na-amaghị aha na onyinye nkeonwe nke Zc
 Ọnụ ụzọ ámá Zcash na-enye obere akpa ihe nchọgharị na ohere DeFi nke nwere usoro dị iche iche. 
 [Ọgbakọ](https://forum.zcashcommunity.com/t/rhea-finance-zcash-gateway-browser-wallet-cross-chain-defi/55073)
 
-### BazaAgbanwee
+### BazaarSwap
 DEX Zcash-native nke na-eweta ZEC echekwara na Web3 DeFi site na WalletConnect. 
 [Ọgbakọ](https://forum.zcashcommunity.com/t/introducing-bazaarswap-bringing-zec-to-web3-defi/55479)
 
@@ -285,7 +292,7 @@ DEX Zcash-native nke na-eweta ZEC echekwara na Web3 DeFi site na WalletConnect.
 Mgbanwe nke Decred nke na-akwado Zcash. 
 [Gaa leta](https://dex.decred.org)
 
-### Obere Brave
+### Brave Wallet
 Akpa ihe nchọgharị nwere nkwado Zcash. 
 [Gaa leta](https://brave.com/wallet/)
 
@@ -301,7 +308,7 @@ Ikpo okwu poker nke ndị ọgbọ-na-otu nke jikọtara nzuzo site na njedebe r
 
 ## Ụlọ ọrụ na Ụlọ nyocha
 
-### Ụlọ nyocha echekwara
+### Shielded Labs
 Òtù nkwado Zcash nọọrọ onwe ya, nke e ji onyinye kwado, nke dị na Switzerland. Òtù mbụ n'ime gburugburu ebe obibi nke na-enwetabeghị ego mmepe ma ọ bụ ego enyemaka mgbochi. 
 [Gaa leta](https://shieldedlabs.net/)
 

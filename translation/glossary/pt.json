@@ -1,0 +1,88 @@
+{
+  "locale": "pt",
+  "version": 2,
+  "meta": {
+    "language_name": "Portuguese",
+    "native_name": "Português",
+    "engine": "llm",
+    "script": "Latn",
+    "dir": "ltr",
+    "language_lead": [],
+    "last_review": null
+  },
+  "style": {
+    "variety": "natural, fluent Portuguese (pt-PT/neutral)",
+    "loanwords_text": "Common technical loanwords (e.g. blockchain, wallet, bridge) may remain in Latin script where that is the natural Portuguese usage; do not force awkward coinages.",
+    "abbreviations_with_full_stop": [
+      "abr",
+      "ago",
+      "aprox",
+      "cap",
+      "dez",
+      "etc",
+      "ex",
+      "fev",
+      "jan",
+      "jul",
+      "jun",
+      "máx",
+      "mín",
+      "nov",
+      "nº",
+      "out",
+      "pág",
+      "set",
+      "Sr",
+      "Sra",
+      "vol"
+    ]
+  },
+  "terms": {
+    "node": {
+      "target": "nó",
+      "forms": [
+        "nó",
+        "nós",
+        "nodo"
+      ],
+      "rejected": [
+        {
+          "text": "node",
+          "word": true,
+          "ci": true
+        },
+        {
+          "text": "nodes",
+          "word": true,
+          "ci": true
+        }
+      ],
+      "inflection": "It is NOT a loanword: use the translated term in compounds and plurals too.",
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@steward (legacy prompt head)"
+      ],
+      "reviewed_at": "2026-10-10",
+      "source": "prompt_head_pt.txt"
+    }
+  },
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-10-10",
+      "terms": [
+        "node"
+      ],
+      "phrases": [],
+      "summary": "Imported from the runner's hand-written prompt_head_pt.txt: language variety, loanword rule and the node rendering, approved by the steward as legacy prompt-head rules."
+    },
+    {
+      "version": 2,
+      "date": "2026-10-14",
+      "terms": [],
+      "phrases": [],
+      "summary": "Gate only (not sent to the model): abbreviations written with a full stop, so the sentence-boundary gate stops reading them as sentence ends (e.g. \"out. …\")."
+    }
+  ]
+}

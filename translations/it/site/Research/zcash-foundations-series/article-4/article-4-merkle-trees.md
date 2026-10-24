@@ -116,7 +116,7 @@ Quindi le due strutture pubbliche svolgono ruoli complementari, e tenerle separa
 
 ## 6. Una dichiarazione onesta
 
-Semplificazioni, come al solito. I veri alberi di Merkle incrementali tengono traccia dei nodi di "frontiera" così che la radice possa aggiornarsi senza ricostruire tutto; la rete conserva una finestra di anchor recenti, non solo l'ultima, così che i wallet non si rompano a ogni nuovo blocco; e le foglie vuote usano un valore di padding definito. Abbiamo inoltre disegnato alberi binari con ordinate potenze di due. Niente di tutto questo cambia l'intuizione: foglie di commitment, sottoposte ad hashing a coppie fino a un'unica radice, con brevi prove di appartenenza. La contabilità esatta tornerà nell'articolo sul protocollo.
+Semplificazioni, come al solito. I veri alberi di Merkle incrementali tengono traccia dei nodi di "frontiera" così che la radice possa aggiornarsi senza ricostruire tutto; la rete conserva una finestra di anchor recenti, non solo l'ultima, così che i portafogli non si rompano a ogni nuovo blocco; e le foglie vuote usano un valore di padding definito. Abbiamo inoltre disegnato alberi binari con ordinate potenze di due. Niente di tutto questo cambia l'intuizione: foglie di commitment, sottoposte ad hashing a coppie fino a un'unica radice, con brevi prove di appartenenza. La contabilità esatta tornerà nell'articolo sul protocollo.
 
 ---
 

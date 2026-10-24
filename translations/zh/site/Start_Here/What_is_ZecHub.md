@@ -21,9 +21,9 @@ ZecHub 是一个面向 Zcash 的去中心化教育中心。[ZecHub](http://zechu
 
 ---
 
-1. 前往 [ZecHub 的 Github 仓库](https://github.com/ZecHub/zechub)
+1. 前往 [ZecHub 的 GitHub 仓库](https://github.com/ZecHub/zechub)
    
-2. 创建一个新的 Github 账户，或使用你自己的账户登录
+2. 创建一个新的 GitHub 账户，或使用你自己的账户登录
    
 3. 按照本指南学习如何提交 pull request：
 
@@ -51,15 +51,15 @@ ZecHub 是一个面向 Zcash 的去中心化教育中心。[ZecHub](http://zechu
 3. No inappropriate content.
 ```
 
-捐款：[这里](https://explorer.zec.rocks/ua/u17sawf3pdh7z6tsy83vhjd2z7sztpy9y87wyyqz4vqshn3yhch28q3ud3lr0etadl3flz4c9zdrtn9lwlf23vzmjnll97efxzg9h0rjzn9qvhvqr8p3394ysnfhg560xxxc66yxzh8r548myxn3l2qrc9pfrt8nrzhxvlpuuykv7czjsm)
+捐款：[这里](https://mainnet.zcashexplorer.app/ua/u17sawf3pdh7z6tsy83vhjd2z7sztpy9y87wyyqz4vqshn3yhch28q3ud3lr0etadl3flz4c9zdrtn9lwlf23vzmjnll97efxzg9h0rjzn9qvhvqr8p3394ysnfhg560xxxc66yxzh8r548myxn3l2qrc9pfrt8nrzhxvlpuuykv7czjsm)
 
-<a href="https://explorer.zec.rocks/ua/u17sawf3pdh7z6tsy83vhjd2z7sztpy9y87wyyqz4vqshn3yhch28q3ud3lr0etadl3flz4c9zdrtn9lwlf23vzmjnll97efxzg9h0rjzn9qvhvqr8p3394ysnfhg560xxxc66yxzh8r548myxn3l2qrc9pfrt8nrzhxvlpuuykv7czjsm">
+<a href="https://mainnet.zcashexplorer.app/ua/u17sawf3pdh7z6tsy83vhjd2z7sztpy9y87wyyqz4vqshn3yhch28q3ud3lr0etadl3flz4c9zdrtn9lwlf23vzmjnll97efxzg9h0rjzn9qvhvqr8p3394ysnfhg560xxxc66yxzh8r548myxn3l2qrc9pfrt8nrzhxvlpuuykv7czjsm">
     <img src="/content-images/image-2023-11-18-141228046-644b4c542d.webp" alt="" width="200" height="200"/>
 </a>
 
 
 
-**免责声明：ZecHub 是一项完全独立且开源的倡议，由 Zcash 社区成员发起。本 Github 仓库中的任何内容都不应被视为金融或投资建议——仅供信息参考。**
+**免责声明：ZecHub 是一项完全独立且开源的倡议，由 Zcash 社区成员发起。本 GitHub 仓库中的任何内容都不应被视为金融或投资建议——仅供信息参考。**
 
 ---
 

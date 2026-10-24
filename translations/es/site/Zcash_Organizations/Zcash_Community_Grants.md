@@ -30,7 +30,7 @@ Las Subvenciones Comunitarias de Zcash son una organización independiente de El
 
 ## Financiación
 
-Electric Coin Company recibe el 8% del [fondo de desarrollo de Zcash](https://zips.z.cash/zip-1014). Utiliza estos fondos para apoyar a equipos de desarrollo de terceros y también para sus operaciones internas.
+Zcash Community Grants recibe el 8% del subsidio de bloque, bajo el modelo de financiación establecido en NU6.1 por el [ZIP 1016](https://zips.z.cash/zip-1016). El flujo comenzó cuando expiró el flujo anterior del [ZIP 1015](https://zips.z.cash/zip-1015), y se extiende hasta el tercer halving de Zcash en el bloque 4.406.400 según el espaciado de bloques actual. ZCG utiliza estos fondos para apoyar a equipos independientes en todo el ecosistema de Zcash.
 
 ## Recursos
 

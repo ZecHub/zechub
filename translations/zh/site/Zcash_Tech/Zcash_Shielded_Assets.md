@@ -14,7 +14,7 @@ Zcash 屏蔽资产（ZSA）是一项提议中的协议扩展，它将允许 **�
 - **它是什么：** 类似 ERC-20 风格的自定义资产，但默认是屏蔽的。
 - **谁在构建它：** [QEDIT](https://qed-it.com/)，在 Zcash Foundation 的资助下，与 Electric Coin Company 合作开发。
 - **它如何被规范：** [ZIP 226](https://zips.z.cash/zip-0226)（转账与销毁）与 [ZIP 227](https://zips.z.cash/zip-0227)（发行）共同构成。
-- **状态：** 尚未在主网上线。ZSA 协议计划在 Network Upgrade 7（NU7）中部署。
+- **状态：** 尚未在主网上线，也不属于 Network Upgrade 7（NU7）的一部分。[ZIP 259](https://zips.z.cash/zip-0259)列出了 NU7 部署的所有内容，其中不包括 ZIP 226 或 ZIP 227，且尚未设定 ZSA 的激活日期。
 - **费用：** 始终以 ZEC 支付，无论转移的是哪种资产。
 
 ---
@@ -29,7 +29,7 @@ Zcash 屏蔽资产将支持在 Zcash blockchain 上创建自定义代币，从�
 
 ZSA 的一个重要潜在用途，是在 Zcash 协议上发行稳定币。稳定币是一类将其价值锚定到法定货币（如美元或欧元）的加密货币。目前，一些流通最广的稳定币是 ERC-20 代币，例如 [USDC](https://www.circle.com/en/usdc) 和 [Dai](https://docs.makerdao.com/)。
 
-ZSA 的另一个潜在用途，是发行治理代币。例如，Zechub（本 wiki 的发布者）是一个去中心化自治组织（DAO），它可以创建并向其成员发行一种 ZSA，用于对提案和治理决策进行投票。
+ZSA 的另一个潜在用途，是发行治理代币。例如，ZecHub（本 wiki 的发布者）是一个去中心化自治组织（DAO），它可以创建并向其成员发行一种 ZSA，用于对提案和治理决策进行投票。
 
 ZSA 由 [QEDIT](https://qed-it.com/) 开发，在 [Zcash Foundation](/zcash-organizations/zcash-foundation) 的一项重大资助下，与 [Electric Coin Company](/zcash-organizations/electric-coin-company) 合作推进。由于该项目仍在积极开发中，更新内容会发布在 Zcash 论坛上的[这个帖子](https://forum.zcashcommunity.com/t/grant-update-zcash-shielded-assets-monthly-updates/41153)中。QEDIT 提交的 [ZSA 资助申请](https://zcashgrants.org/gallery/25215916-53ea-4041-a3b2-6d00c487917d/33106640/)可在 Zcash Foundation 的资助网站上查看。
 
@@ -129,7 +129,7 @@ ZIP 226 定义了 OrchardZSA 协议——这是 Orchard 协议的一个扩展，
 
 | 常见说法 | 实际情况 |
 | --- | --- |
-| “ZSA 今天已经在 Zcash 上线了。” | 并没有。ZSA 计划在 Network Upgrade 7（NU7）中部署，目前仍在审查和测试中。 |
+| “ZSA 今天已经在 Zcash 上线了。” | 并没有。ZSA 不属于 Network Upgrade 7（NU7）；[ZIP 259](https://zips.z.cash/zip-0259) 在不包含 ZIP 226 或 ZIP 227 的情况下定义了该升级，而 ZSA 目前仍在审查和测试中。 |
 | “ZSA 会把智能合约带到 Zcash。” | ZSA 规定的是资产的发行、转移和销毁。它不是一个通用可编程合约层。 |
 | “你可以用 ZSA 代币本身支付 ZSA 手续费。” | 手续费以 ZEC 支付。 |
 | “如果它是屏蔽的，那代币供应量也一定是保密的。” | ZIP 227 出于设计目的让发行保持透明，因此每种资产的供应量都可以被公开追踪。余额和转账保持私密；供应量则不会。 |
@@ -140,7 +140,7 @@ ZIP 226 定义了 OrchardZSA 协议——这是 Orchard 协议的一个扩展，
 ## 相关页面
 
 - [Halo](/zcash-tech/halo) —— Orchard 背后的证明系统，也是 ZSA 所扩展的协议
-- [Zk-SNARKs](/zcash-tech/zk-snarks) —— 零知识证明，使得屏蔽转账可以在不被公开的情况下得到验证
+- [zk-SNARKs](/zcash-tech/zk-snarks) —— 零知识证明，使得屏蔽转账可以在不被公开的情况下得到验证
 - [屏蔽池](/using-zcash/shielded-pools) —— ZSA 将与 ZEC 一同存在的地方
 - [交易](/using-zcash/transactions) —— 一笔 Zcash 交易是如何构成的
 - [Zebra 全节点](/zcash-tech/zebra-full-node) —— 上述 ZSA 演示中使用的节点实现

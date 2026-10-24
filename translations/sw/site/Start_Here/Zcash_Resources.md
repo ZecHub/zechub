@@ -26,11 +26,11 @@ Kama ilivyoelezwa katika mwongozo mpya wa mtumiaji, jukwaa Zcash ni mahali kubwa
 
 Z.cash ni tovuti kuu ya Zcash, ambayo hutoa maudhui na nyaraka za Zcash kwa watumiaji mbalimbali na inaruhusu watumiaje wapya kuzama zaidi katika maelezo ya kiufundi karibu na Zcash.
 
-**[Zcash Github](https://github.com/zcash/zcash)**
+**[Zcash GitHub](https://github.com/zcash/zcash)**
 
-Zcash Github Repo ni ghala kwa ajili ya zcashd, kwanza Zcash node utekelezaji. zcashD kufikiwa moja kwa moja mwisho wa msaada kusimamishwa juu 18 Julai 2026 na si tena kudumishwa, na ukurasa download hii kuingia kutumika kuunganisha na haitumiki tena. stack iimarishwe ni: [Zebra](https://github.com/ZcashFoundation/zebra) kwa node na [Zallet](https://github.com/zcash/zallet) kwa ajili ya mkoba  kuona [zcashd kwa Zebra na Zallet uhamiaji mwongozo](https://zechub.wiki/guides/migration-guide-zcashd-to-zebrad-zallet).
+Zcash GitHub Repo ni ghala kwa ajili ya zcashd, kwanza Zcash node utekelezaji. zcashD kufikiwa moja kwa moja mwisho wa msaada kusimamishwa juu 18 Julai 2026 na si tena kudumishwa, na ukurasa download hii kuingia kutumika kuunganisha na haitumiki tena. stack iimarishwe ni: [Zebra](https://github.com/ZcashFoundation/zebra) kwa node na [Zallet](https://github.com/zcash/zallet) kwa ajili ya mkoba  kuona [zcashd kwa Zebra na Zallet uhamiaji mwongozo](https://zechub.wiki/guides/migration-guide-zcashd-to-zebrad-zallet).
 
-**[Zcash Foundation Github](https://github.com/ZcashFoundation)**
+**[Zcash Foundation GitHub](https://github.com/ZcashFoundation)**
 
 Mwingine GitHub hazina mwenyeji miradi ya Zcash Foundation, ikiwa ni pamoja na [kipepeo wa porini](https://github.com/ZcashFoundation/zebra), Zcash node utekelezaji katika kutu.
 

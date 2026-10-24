@@ -14,7 +14,7 @@ Porque isto é importante. Com dinheiro transparente como o Bitcoin, qualquer pe
 
 És novo na Zcash? Começa por [O que são ZEC e Zcash](../start-here/what-is-zec-and-zcash) e [Shielded Pools](../using-zcash/shielded-pools), e depois volta aqui.
 
-![Fluxo de migração de valor do Ironwood: o valor sai da pool Orchard, passa pelo ponto de controlo do turnstile e entra na nova pool Ironwood](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/ironwood-flow.png)
+![Fluxo de migração de valor do Ironwood: o valor sai da pool Orchard, passa pelo ponto de controlo do turnstile e entra na nova pool Ironwood](/content-images/ironwood-flow-8af7a58b99.webp)
 
 ## Porque foi necessário o Ironwood
 
@@ -24,7 +24,7 @@ No final de maio de 2026, o investigador independente de segurança Taylor Hornb
 2. Em teoria, um atacante poderia ter usado a falha para forjar valor inválido dentro da pool Orchard e gastar fundos que na realidade não lhe pertenciam, sem deixar vestígios que um nó normal conseguisse detetar.
 3. O turnstile da Zcash continuava, ainda assim, a limitar a quantidade de valor que alguma vez poderia sair da Orchard, pelo que a oferta total não podia ser inflacionada, mas a criptografia da própria pool já não garantia que cada moeda oculta dentro dela fosse real.
 
-![Explicação do bug: uma transação coloca 5 ZEC, mas a prova defeituosa continua a ser aceite quando saem 7 ZEC, criando 2 ZEC do nada](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/ironwood-bug.png)
+![Explicação do bug: uma transação coloca 5 ZEC, mas a prova defeituosa continua a ser aceite quando saem 7 ZEC, criando 2 ZEC do nada](/content-images/ironwood-bug-8f689d6f61.webp)
 
 Os números acima são uma imagem simplificada. A falha real estava numa parte específica da matemática do circuito, não numa contagem literal de moedas a entrar e a sair. A ideia essencial é apenas que um bug de solidez pode permitir criar valor dentro da pool sem deteção.
 
@@ -34,13 +34,13 @@ Os números acima são uma imagem simplificada. A falha real estava numa parte e
 
 A comunidade Zcash lançou correções por fases, em vez de tudo de uma só vez.
 
-![Cronologia da resposta ao Ironwood: o bug da Orchard é encontrado em maio de 2026, a pool é suspensa em junho de 2026, o circuito é corrigido na NU6.2 e o Ironwood foi ativado no bloco 3.428.143 em 28 de julho de 2026](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/ironwood-timeline.png)
+![Cronologia da resposta ao Ironwood: o bug da Orchard é encontrado em maio de 2026, a pool é suspensa em junho de 2026, o circuito é corrigido na NU6.2 e o Ironwood foi ativado no bloco 3.428.143 em 28 de julho de 2026](/content-images/ironwood-timeline-36243f0cd7.webp)
 
 1. No início de junho de 2026, uma medida temporária desativou a pool Orchard enquanto era preparada uma correção completa.
 2. A atualização NU6.2 corrigiu o próprio circuito Orchard, fechando a vulnerabilidade de solidez subjacente.
 3. A atualização NU6.3, Ironwood, introduz uma nova shielded pool e um ponto de controlo público para que o valor possa sair da antiga pool Orchard sob auditoria completa.
 
-![A correção na NU6.2: a prova corrigida exige que as entradas sejam iguais às saídas, pelo que uma saída válida de 5 ZEC é aceite, enquanto uma tentativa de emitir 7 ZEC é rejeitada](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/ironwood-fix.png)
+![A correção na NU6.2: a prova corrigida exige que as entradas sejam iguais às saídas, pelo que uma saída válida de 5 ZEC é aceite, enquanto uma tentativa de emitir 7 ZEC é rejeitada](/content-images/ironwood-fix-bb4f70ddc9.webp)
 
 ## O que faz a pool Ironwood
 
@@ -50,7 +50,7 @@ A pool Ironwood é a pool de valor blindado criada pela NU6.3 no bloco 3 428 143
 
 1. Após a ativação, a antiga pool Orchard passa a ser apenas para gasto, pelo que não poderá entrar nela novo valor.
 2. O novo valor blindado passa a entrar no Ironwood.
-3. O ZEC blindado mantém as mesmas fortes garantias de privacidade que ocultam remetente, destinatário e montante.
+3. Dentro de Ironwood, o ZEC blindado mantém a privacidade que oculta remetente, destinatário e montante. Mover ZEC de Orchard para Ironwood revela o montante transferido.
 
 ## O turnstile
 
@@ -68,7 +68,7 @@ As regras de consenso mantêm cada pool de valor, incluindo a Ironwood, dentro d
 
 ## O que os utilizadores precisam de fazer
 
-As wallets e o software de nó tratam da maior parte disto automaticamente, mas a mudança prática é simples: ao longo do tempo, mover as participações blindadas da antiga pool Orchard através do turnstile para a pool Ironwood. Segue as orientações do fornecedor da tua wallet e atualiza sempre para uma versão suportada antes do bloco de ativação.
+As wallets e o software de nó tratam da maior parte disto automaticamente, mas a mudança prática é simples: ao longo do tempo, mover as participações blindadas da antiga pool Orchard através do turnstile para a pool Ironwood. Cada transferência mostra o seu montante na blockchain, pelo que as wallets que seguem [ZIP 318](https://zips.z.cash/zip-0318) o dividem em montantes padrão e enviam-nos ao longo do tempo. Segue as orientações do fornecedor da tua wallet e mantém o teu software numa versão suportada.
 
 ## Glossário
 
@@ -85,9 +85,9 @@ As wallets e o software de nó tratam da maior parte disto automaticamente, mas 
 
 O meu ZEC foi afetado? Não. Não há evidência de que o bug alguma vez tenha sido usado, não houve impacto nos fundos dos utilizadores e não houve alteração na oferta total.
 
-Preciso de fazer alguma coisa? Mantém a tua wallet e o software de nó atualizados para uma versão suportada antes do bloco de ativação. A tua wallet move os fundos para o Ironwood ao longo do tempo à medida que gastas, por isso não há nada manual que exija pressa. Segue as orientações do fornecedor da tua wallet.
+Preciso de fazer alguma coisa? Mantém o software da tua wallet e do nó numa versão suportada. Gastar fundos Orchard move-os para Ironwood, e o montante que transita é público. Algumas wallets oferecem uma migração que envia montantes padrão ao longo do tempo, tornando mais difícil associar o teu saldo. Segue as orientações do fornecedor da tua wallet.
 
-A Zcash continua privada? Sim. O Ironwood mantém a mesma privacidade blindada que oculta remetente, destinatário e montante. Esta atualização diz respeito à integridade da oferta, não à privacidade.
+A Zcash continua privada? Sim. Os pagamentos dentro de Ironwood ocultam o remetente, o destinatário e o montante, tal como os pagamentos de Orchard. O montante que se move entre pools, como de Orchard para Ironwood, é público. Esta atualização diz respeito à integridade da oferta.
 
 O bug chegou alguma vez a ser explorado? Não há evidência disso. Foi descoberto através de investigação de segurança, divulgado de forma responsável e corrigido antes de qualquer dano conhecido.
 
@@ -111,6 +111,10 @@ Através do turnstile. Cada moeda que sai da antiga pool Orchard é contada num 
 
 [ZIP 2005: Recuperabilidade Quântica do Ironwood](https://zips.z.cash/zip-2005)
 
+[ZIP 229: Formato de Transação Versão 6](https://zips.z.cash/zip-0229)
+
+[ZIP 318: Orchard para Ironwood Migração](https://zips.z.cash/zip-0318)
+
 [Ironwood: Uma Nova Shielded Pool para a Zcash](https://zodl.com/ironwood-a-new-shielded-pool-for-zcash/)
 
 ### Ver também
@@ -121,7 +125,7 @@ Através do turnstile. Cada moeda que sai da antiga pool Orchard é contada num 
 
 [Halo](../zcash-tech/halo)
 
-[zk-SNARKS](../zcash-tech/zk-snarks)
+[zk-SNARKs](../zcash-tech/zk-snarks)
 
 [Segurança Pós-Quântica](../zcash-tech/post-quantum-security)
 

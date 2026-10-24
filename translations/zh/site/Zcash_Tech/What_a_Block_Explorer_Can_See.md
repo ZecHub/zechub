@@ -26,7 +26,7 @@ Zcash 有两种地址。
 
 ## 浏览器能看到什么
 
-像 [Blockchair](https://blockchair.com/zcash) 这样的公共浏览器可以清楚读取：
+像 [ZecBlock](https://zecblock.com/) 这样的公共浏览器可以清楚读取：
 
 - 任何完全透明（t 到 t）的支付，从头到尾。
 - 进入 shielded pool 的资金（透明侧以及金额）。
@@ -65,7 +65,7 @@ Zcash 有两种地址。
 - [Zcash：隐私与安全建议](https://z.cash/support/security/privacy-security-recommendations/)
 - [屏蔽生态系统（Electric Coin Company）](https://web.archive.org/web/20260903010654/https://electriccoin.co/blog/shielded-ecosystem/)
 - [Zcash 技术如何运作](https://z.cash/technology/)
-- [Blockchair Zcash 浏览器](https://blockchair.com/zcash)
+- [ZecBlock](https://zecblock.com/)
 
 ## 相关页面
 

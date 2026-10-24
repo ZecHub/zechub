@@ -2,7 +2,7 @@
 
 Les appels Zcash Arborist sont des réunions de développement de protocole bihebdomadaires axées sur le suivi de la logistique du déploiement de protocole à venir, les problèmes de mise en œuvre des nœuds de consensus et la recherche de protocole.
 
-Toute personne souhaitant contribuer au développement du protocole Zcash et partager des actualités sur les projets de nœuds Zcash. Inscrivez-vous ici : [15:00 UTC](https://us06web.zoom.us/webinar/register/WN_Vk7WMz9sRkiIr_hqH_x3LA) / [22:30 UTC](https://us06web.zoom.us/webinar/register/WN_z0k1ipsnRkS4- DGqDhULdA)
+Toute personne souhaitant contribuer au développement du protocole Zcash et partager des actualités sur les projets de nœuds Zcash. Inscrivez-vous ici : [15:00 UTC](https://web.archive.org/web/20230130034337/https://us06web.zoom.us/webinar/register/WN_Vk7WMz9sRkiIr_hqH_x3LA) / [22:30 UTC](https://us06web.zoom.us/webinar/register/WN_z0k1ipsnRkS4- DGqDhULdA)
 
 La liste complète avec les notes complètes et les ordres du jour peut être trouvée [ici](https://github.com/ZcashCommunityGrants/arboretum-notes).
 

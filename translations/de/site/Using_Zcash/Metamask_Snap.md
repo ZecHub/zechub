@@ -94,7 +94,7 @@ Für **Zcash Mainnet**;
 > **ETH -> ZEC tauschen** - Nutze Dienste wie **LeoDex** und sende an deine abgeschirmte Adresse.  
 > **Auszahlung von einer Börse** - Hebe gekaufte ZEC an deine abgeschirmte WebZjs-Adresse ab.  
 
-![LEODEX-TAUSCH](/content-images/HyLQ0G2ugg-8d82ef24f6.webp)
+![LeoDex-TAUSCH](/content-images/HyLQ0G2ugg-8d82ef24f6.webp)
 
 
 > => Verwende abgeschirmte (z) Adressen für **volle Privatsphäre**.
@@ -153,4 +153,4 @@ Für **Zcash Mainnet**;
 > Abgeschirmte Proofs können Zeit benötigen, WebAssembly übernimmt die Berechnung im Browser.  
 > Die Wiederherstellung ist einfach: Installiere MetaMask und das Snap und importiere dann deinen vorhandenen Seed.  
 > Das Snap verwendet standardmäßig **abgeschirmtes ZEC**, transparente Adressen stehen **nicht im Fokus**.  
-> Verwende [zcashblockexplorer.com](https://zcashblockexplorer.com) für Transaktionsbestätigungen.
+> Verwende [mainnet.zcashexplorer.app](https://mainnet.zcashexplorer.app) für Transaktionsbestätigungen.

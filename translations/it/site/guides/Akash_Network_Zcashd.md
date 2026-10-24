@@ -1,4 +1,4 @@
-# Distribuzione di zcashd su Akash tramite Console
+# Distribuzione di zcashd su Akash tramite console
 
 > **Deprecato. Non seguire questa guida per distribuire un nodo che intendi usare.**
 >
@@ -8,7 +8,7 @@
 >
 > Questa pagina è mantenuta come documento storico della distribuzione di zcashd.
 
-Guida per distribuire un nodo completo zcashd di Zcash (implementazione di Electric Coin Co) usando [Akash Console](https://console.akash.network). Di seguito trovi un video tutorial. Una guida più approfondita è disponibile sotto.
+Guida per distribuire un full node (nodo completo) zcashd di Zcash (implementazione di Electric Coin Co) usando [Akash Console](https://console.akash.network). Di seguito trovi un video tutorial. Una guida più approfondita è disponibile sotto.
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -22,9 +22,9 @@ Guida per distribuire un nodo completo zcashd di Zcash (implementazione di Elect
 </div>
 
 
-## Cosa Stai Distribuendo
+## Cosa stai distribuendo
 
-Un nodo completo zcashd che:
+Un full node zcashd che:
 
 -> Sincronizzerà l'intera blockchain di Zcash (350GB+ per mainnet, ~ 40GB per testnet)
 
@@ -40,16 +40,16 @@ Un nodo completo zcashd che:
 
 -> zcashd era l'implementazione originale del nodo Zcash di Electric Coin Co, ferma dal 18 luglio 2026
 
--> Zebra, della Zcash Foundation, è il nodo completo in uso oggi
+-> Zebra, della Zcash Foundation, è il full node in uso oggi
 
 -> Solo Zebra segue la chain attuale; un nodo zcashd non può raggiungere la punta
 
--> Il wallet di zcashd è stato sostituito da [Zallet](/using-zcash/zallet-quick-reference-guide)
+-> Il portafoglio di zcashd è stato sostituito da [Zallet](/using-zcash/zallet-quick-reference-guide)
 
--> Usa zcashd se hai bisogno della funzionalità wallet o di specifiche API RPC
+-> Usa zcashd se hai bisogno della funzionalità del portafoglio o di specifiche API RPC
 
 
-### **Importante: Mappatura delle Porte su Akash**
+### **Importante: mappatura delle porte su Akash**
 
 Quando esponi una porta su Akash (ad esempio, la porta 8233 per il P2P di zcashd), **NON viene associata a quella porta esatta** sull'IP pubblico del provider. Invece, il provider assegna una porta alta casuale (come 31234 o 42567) e la inoltra tramite reverse proxy alla porta 8233 del tuo container.
 
@@ -70,39 +70,39 @@ Questo viene gestito automaticamente. Usa semplicemente l'URI che Akash ti forni
 
 ## Prerequisiti
 
--> Estensione browser **Keplr Wallet** installata (Chrome/Brave/Firefox)
+-> Estensione del browser **Keplr Wallet** installata (Chrome/Brave/Firefox)
 
 -> **Token AKT** - Ottieni 50-100 AKT da un exchange (Coinbase, Kraken, Osmosis)
 
 -> **5 minuti** per cliccare nell'interfaccia della Console
 
 
-## Passo 1: Collega il Tuo Wallet
+## Passo 1: collega il tuo portafoglio
 
 -> Vai su [https://console.akash.network](https://console.akash.network)
 
--> Clicca **"Connect Wallet"** in alto a destra
+-> Clicca su **"Connect Wallet"** in alto a destra
 
--> Scegli **Keplr** (o il tuo wallet Cosmos preferito)
+-> Scegli **Keplr** (o il tuo portafoglio Cosmos preferito)
 
 -> Approva la connessione quando compare Keplr
 
 
-Il tuo saldo AKT dovrebbe apparire in alto a destra. Se è zero, finanzia prima il tuo wallet.
+Il tuo saldo AKT dovrebbe apparire in alto a destra. Se è zero, finanzia prima il tuo portafoglio.
 
-## Passo 2: Crea la Distribuzione
+## Passo 2: crea la distribuzione
 
 -> Clicca il pulsante **"Deploy"** (grande pulsante blu, al centro della pagina)
 
 -> Scegli **"Build your template"** (oppure vai direttamente al caricamento dell'SDL)
 
-### Opzione A: Carica il File SDL (Consigliato)
+### Opzione A: carica il file SDL (consigliato)
 
 > **Questo pulsante distribuisce un nodo fermo.** Addebita il costo sul tuo saldo AKT per un nodo che non può sincronizzarsi. Usa invece la [guida di Zebra](/guides/akash-network-zebra).
 
 [![Distribuisci su Akash](/content-images/deploy-with-akash-btn-74abb88d44.svg)](https://console.akash.network/new-deployment?step=edit-deployment&templateId=akash-network-awesome-akash-zcash-zcashd)
 
-### Opzione B: Usa l'Editor SDL
+### Opzione B: usa l'editor SDL
 
 Se vuoi incollare manualmente l'SDL:
 
@@ -115,7 +115,7 @@ Se vuoi incollare manualmente l'SDL:
 -> Clicca **"Create Deployment"**
 
 
-## Passo 3: Controlla e Approva il Deposito
+## Passo 3: controlla e approva il deposito
 
 La Console ti mostrerà:
 
@@ -126,7 +126,7 @@ La Console ti mostrerà:
 
 Clicca **"Approve"** e firma la transazione in Keplr.
 
-## Passo 4: Scegli un Provider
+## Passo 4: scegli un provider
 
 Dopo ~ 30 secondi, vedrai le offerte dei provider. Ogni offerta mostra:
 
@@ -148,7 +148,7 @@ Dopo ~ 30 secondi, vedrai le offerte dei provider. Ogni offerta mostra:
 
 Clicca **"Accept Bid"** sul provider scelto e firma in Keplr.
 
-## Passo 5: Attendi la Distribuzione
+## Passo 5: attendi la distribuzione
 
 La Console:
 
@@ -161,7 +161,7 @@ La Console:
 
 Questo richiede 1-2 minuti. Vedrai aggiornamenti di stato nell'interfaccia.
 
-## Passo 6: Verifica che Sia in Esecuzione
+## Passo 6: verifica che sia in esecuzione
 
 Una volta distribuito, vedrai:
 
@@ -172,7 +172,7 @@ Una volta distribuito, vedrai:
 -> Scheda **Leases**: dettagli sulla tua distribuzione (DSEQ, provider, costo)
 
 
-### Controlla i Log
+### Controlla i log
 
 Clicca su **Logs** e dovresti vedere zcashd che si avvia:
 
@@ -193,7 +193,7 @@ La sincronizzazione richiederà **da ore a giorni** a seconda della rete. Contro
 -> Nessun errore ripetuto
 
 
-## Passo 7: Ottieni l'Indirizzo del Tuo Nodo
+## Passo 7: ottieni l'indirizzo del tuo nodo
 
 Clicca sulla scheda **Leases**, poi su **URIs**.
 
@@ -209,9 +209,9 @@ Questo è il tuo **endpoint P2P pubblico** del nodo. Gli altri nodi Zcash si con
 
 Se hai abilitato RPC (commentato di default nell'SDL), vedrai anche l'endpoint RPC qui con la sua porta mappata.
 
-## Opzioni di Configurazione
+## Opzioni di configurazione
 
-### Passare a Testnet
+### Passare a testnet
 
 L'SDL usa Mainnet come predefinito. Per usare Testnet:
 
@@ -302,7 +302,7 @@ RPC è disabilitato di default per sicurezza. Per abilitarlo:
 
 **Promemoria sulla mappatura delle porte**: anche se esponi RPC globalmente, Akash lo mapperà a una porta alta casuale (non 8232/18232). Controlla gli URI nella tua distribuzione per vedere l'endpoint pubblico effettivo. Con *global: false* (consigliato), l'endpoint RPC è accessibile solo all'interno della rete di distribuzione Akash, non da internet pubblica.
 
-### Abilitare l'Indice delle Transazioni
+### Abilitare l'indice delle transazioni
 
 L'indice delle transazioni ti consente di interrogare qualsiasi transazione tramite il suo ID via RPC. Usa più storage (~ 20% in più).
 
@@ -326,7 +326,7 @@ Decommenta in *env*:
 
 Questo abilita automaticamente txindex e aggiunge metodi RPC extra.
 
-### Abilitare le Metriche Prometheus
+### Abilitare le metriche Prometheus
 
 Per raccogliere metriche per il monitoraggio:
 
@@ -349,7 +349,7 @@ Per raccogliere metriche per il monitoraggio:
    
 Le metriche saranno disponibili su http://yourendpoint:9969/metrics in formato Prometheus.
 
-### Regolare Risorse/Prezzi
+### Regolare risorse/prezzi
 
 Se non stai ricevendo offerte o vuoi ottimizzare i costi:
 
@@ -371,7 +371,7 @@ Se non stai ricevendo offerte o vuoi ottimizzare i costi:
 
 I valori dell'SDL sono impostati in modo prudentemente alto. La maggior parte dei provider offrirà prezzi inferiori.
 
-## Aggiornare la Tua Distribuzione
+## Aggiornare la tua distribuzione
 
 Devi cambiare la configurazione dopo la distribuzione?
 
@@ -390,7 +390,7 @@ Devi cambiare la configurazione dopo la distribuzione?
 
 ## Monitoraggio
 
-### Tramite Console
+### Tramite console
 
 -> **Scheda Logs**: log del container in tempo reale
 
@@ -401,7 +401,7 @@ Devi cambiare la configurazione dopo la distribuzione?
 
 ### Tramite RPC (se abilitato)
 
-Se hai abilitato RPC, puoi interrogare il tuo nodo come un normale nodo completo zcashd (perché lo è!)
+Se hai abilitato RPC, puoi interrogare il tuo nodo come un normale full node zcashd (perché lo è!)
 
 ### Alternativa zcash-cli
 
@@ -414,7 +414,7 @@ zcash-cli getpeerinfo
 zcash-cli getinfo
 ```
 
-## Chiudere la Tua Distribuzione
+## Chiudere la tua distribuzione
 
 Quando hai finito o vuoi smettere di pagare:
 
@@ -429,11 +429,11 @@ Quando hai finito o vuoi smettere di pagare:
 
 Il tuo deposito di 5 AKT verrà rimborsato. Lo **storage persistente** dovrebbe essere conservato dal provider, ma non farci affidamento: trattalo come qualsiasi altro cloud provider.
 
-## Risoluzione dei Problemi
+## Risoluzione dei problemi
 
 ### Errore "Insufficient funds"
 
-Hai bisogno di più AKT. Finanzia il tuo wallet Keplr.
+Hai bisogno di più AKT. Finanzia il tuo portafoglio Keplr.
 
 ### Non compaiono offerte
 
@@ -454,7 +454,7 @@ Il provider potrebbe avere problemi. Chiudi la distribuzione e prova un provider
 
 Dal blocco di Fine Supporto del 18 luglio 2026, questo è lo stato permanente previsto e non un ritardo di avvio, e nessuna attesa o nuova distribuzione risolverà il problema. Distribuisci invece [Zebra](/guides/akash-network-zebra).
 
-### Errori "Out of memory" nei log
+### Errori "out of memory" nei log
 
 Hai risparmiato troppo sulla RAM. Chiudi la distribuzione e ridistribuisci con almeno 12Gi di memoria (16Gi consigliati).
 
@@ -482,18 +482,18 @@ Il provider potrebbe avere problemi di rete o banda lenta. Di solito si risolve 
 -> Ricorda che le porte sono mappate da Akash - usa l'URI della tua distribuzione, non direttamente 8232
 
 
-## Gestione dei Costi
+## Gestione dei costi
 
 Monitora la spesa nella Console:
 
 -> **My Deployments** -> La tua distribuzione -> Mostra la stima del "Cost per month"
 
--> Il saldo del tuo wallet Keplr diminuirà nel tempo
+-> Il saldo del tuo portafoglio Keplr diminuirà nel tempo
 
 
-Quando il tuo saldo sarà basso, Akash chiuderà automaticamente la tua distribuzione. **Ricarica periodicamente il tuo wallet** oppure imposta avvisi.
+Quando il tuo saldo sarà basso, Akash chiuderà automaticamente la tua distribuzione. **Ricarica periodicamente il tuo portafoglio** oppure imposta avvisi.
 
-### Ridurre i Costi
+### Ridurre i costi
 
 -> **Usa Testnet** per test non di produzione (50% più economico)
 
@@ -506,7 +506,7 @@ Quando il tuo saldo sarà basso, Akash chiuderà automaticamente la tua distribu
 -> **Disabilita txindex** se non ti serve (risparmia ~ 20% di storage)
 
 
-### Risorse Aggiuntive
+### Risorse aggiuntive
 
 **Akash Console**: [https://console.akash.network](https://console.akash.network)
 
@@ -516,11 +516,11 @@ Quando il tuo saldo sarà basso, Akash chiuderà automaticamente la tua distribu
 
 **Discord di Akash**: [https://discord.akash.network](https://discord.akash.network) (per problemi con i provider)
 
-## Note Finali
+## Note finali
 
 - **Lo storage persistente è importante.** Non saltare *persistent: true* e non usare la classe *beta2*. Usa *beta3*.
 - **La sincronizzazione iniziale è lenta.** Abbi pazienza. È normale per i nodi blockchain.
-- **Mantieni finanziato il tuo wallet.** Le distribuzioni si chiudono automaticamente quando finisci gli AKT.
+- **Mantieni finanziato il tuo portafoglio.** Le distribuzioni si chiudono automaticamente quando finisci gli AKT.
 - **I backup non sono automatici.** Se i dati ti interessano, considera che possano sparire e pianifica di conseguenza.
 - **La sicurezza RPC è critica.** Non esporre RPC a internet senza misure di sicurezza adeguate.
 - **Gli zcash-params vengono messi in cache.** Al primo avvio vengono scaricati ~2GB di parametri crittografici. È normale e accade una sola volta.

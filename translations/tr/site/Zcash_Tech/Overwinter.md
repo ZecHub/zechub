@@ -12,7 +12,7 @@ Overwinter, Zcash'in [ağ yükseltmelerinden](../start-here/network-upgrades) bi
 
 Bunun neden önemli olduğu. Çalışan bir blockchain'in kurallarını değiştirmek tehlikelidir. Hata yaparsanız ağın iki sürümü anlaşmazlığa düşebilir ya da bir zincir için amaçlanan bir işlem başka bir zincirde kopyalanabilir. Overwinter'dan önce Zcash'in bir kural değişikliğini koordine etmek için standart, replay-safe bir yolu yoktu. Overwinter bunu düzeltti. Zcash'e yükseltmeler için resmi bir süreç kazandırdı ve aynı derecede önemli olarak çift yönlü replay koruması ekledi; böylece bir kural kümesi altında geçerli olan bir işlem başka bir kural kümesi altında yeniden oynatılamaz. Sapling'i ve ondan sonraki her yükseltmeyi sorunsuz şekilde etkinleştirmeyi mümkün kılan temel işte buydu.
 
-![Overwinter öncesi ve sonrası: öncesinde standart bir yükseltme yolu ve replay koruması yoktu. Sonrasında çift yönlü replay korumasına sahip bir ağ yükseltme mekanizması ve güvenli gelecekteki yükseltmeler vardı](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/overwinter-before-after.png)
+![Overwinter öncesi ve sonrası: öncesinde standart bir yükseltme yolu ve replay koruması yoktu. Sonrasında çift yönlü replay korumasına sahip bir ağ yükseltme mekanizması ve güvenli gelecekteki yükseltmeler vardı](/content-images/overwinter-before-after-acf4f5d283.webp)
 
 ## Yükseltme mekanizması
 
@@ -28,7 +28,7 @@ Replay, birinin bir zincirde geçerli olan bir işlemi alıp başka bir zincirde
 
 Bu, [ZIP 202](https://zips.z.cash/zip-0202)'den gelen ve bazen Overwintered formatı olarak adlandırılan yeni sürüm 3 işlem formatıyla el ele çalışır. İşlemin hangi consensus kuralları kümesine ait olduğunu açıkça gösteren bir fOverwintered işareti ve bir version group id ekler. Ek bir fayda olarak, yeni imza şeması transparent işlemlerin ne kadar hızlı doğrulandığını da iyileştirdi.
 
-![Replay koruması nasıl çalışır: bir cüzdan, mevcut consensus branch id'sine bağlanan bir işlem imzalar; böylece işlem başka hiçbir branch üzerinde yeniden oynatılamaz](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/overwinter-replay-flow.png)
+![Replay koruması nasıl çalışır: bir cüzdan, mevcut consensus branch id'sine bağlanan bir işlem imzalar; böylece işlem başka hiçbir branch üzerinde yeniden oynatılamaz](/content-images/overwinter-replay-flow-754ec8578a.webp)
 
 ## İşlem sona ermesi
 
@@ -38,7 +38,7 @@ Bu, [ZIP 202](https://zips.z.cash/zip-0202)'den gelen ve bazen Overwintered form
 
 Overwinter, Ekim 2016'daki ana ağ lansmanından sonra gelen ilk Zcash ağ yükseltmesiydi ve bilinçli olarak Sapling'den önce yayımlandı. Görevi özellikler değil, altyapıydı. Önce yükseltme mekanizmasını ve replay koruma altyapısını kurarak, sonraki her yükseltmeye (Sapling, Blossom, Heartwood, Canopy, NU5 ve sonrakilere) güvenli bir etkinleşme yolu sağladı.
 
-![Ekim 2016'daki Sprout lansmanından, 2016 ile 2018 arasındaki yükseltme çerçevesiz döneme ve Haziran 2018'deki Overwinter'a uzanan zaman çizelgesi](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/overwinter-timeline.png)
+![Ekim 2016'daki Sprout lansmanından, 2016 ile 2018 arasındaki yükseltme çerçevesiz döneme ve Haziran 2018'deki Overwinter'a uzanan zaman çizelgesi](/content-images/overwinter-timeline-689d9bcf20.webp)
 
 ## Sözlük
 

@@ -6,7 +6,7 @@ Tegenwoordig hebben miljarden mensen in de wereld geen toegang tot een eerlijke 
 
 ## Mensen en teams
 
-The Electric Coin Company heeft bijna 30 medewerkers die over de hele wereld verspreid zijn. Ze werken aan verschillende zaken, zoals protocolontwikkeling, applicatie-ontwikkeling, protocolbeveiliging, bedrijfsontwikkeling en regelgevingsrelaties. Meer [info](https://electriccoin.co/team/)
+The Electric Coin Company heeft bijna 30 medewerkers die over de hele wereld verspreid zijn. Ze werken aan verschillende zaken, zoals protocolontwikkeling, applicatie-ontwikkeling, protocolbeveiliging, bedrijfsontwikkeling en regelgevingsrelaties. Meer [info](https://web.archive.org/web/20240311110626/https://electriccoin.co/team/)
 
 ## Organisatiestructuur
 

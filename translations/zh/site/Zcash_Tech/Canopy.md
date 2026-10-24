@@ -12,7 +12,7 @@ Canopy 是 Zcash 的第五次网络升级，也称为 Network Upgrade 4（NU4）
 
 这为什么重要。Zcash 通过区块奖励为自身开发提供资金，因为它背后没有公司支持。为其早期发展提供资金的创始人奖励原定在第一次减半时结束。Canopy 就是它的替代方案：它将每笔区块奖励中的固定份额导入 Development Fund，并规定由谁接收这些资金。这个模式后来又在后续升级中不断完善，一直到 [NU6.1](../zcash-tech/nu6-1)。
 
-![在 Canopy 之前，创始人奖励为开发提供资金，并计划在第一次减半时结束。Canopy 之后，Development Fund 提取每笔区块奖励的 20%，并持续到 2024 年第二次减半](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/canopy-founders-to-devfund.png)
+![在 Canopy 之前，创始人奖励为开发提供资金，并计划在第一次减半时结束。Canopy 之后，Development Fund 提取每笔区块奖励的 20%，并持续到 2024 年第二次减半](/content-images/canopy-founders-to-devfund-010676e799.webp)
 
 ## Development Fund
 
@@ -30,7 +30,7 @@ Development Fund 提取每笔区块奖励的 20%。矿工保留其余 80%。这 
 
 如果按整个区块奖励而不仅仅是基金本身来计算，那么这些份额分别相当于：Electric Coin Company 占 7%，Zcash Foundation 占 5%，Major Grants 占 8%。这两种表述说的是同一组数字。
 
-![Development Fund 占每笔区块奖励的 20%，其中 35% 分给 Bootstrap 和 Electric Coin Company，25% 分给 Zcash Foundation，40% 分给 Major Grants](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/canopy-dev-fund-split.png)
+![Development Fund 占每笔区块奖励的 20%，其中 35% 分给 Bootstrap 和 Electric Coin Company，25% 分给 Zcash Foundation，40% 分给 Major Grants](/content-images/canopy-dev-fund-split-005bf6f2dd.webp)
 
 ## Sprout 资金池的变化
 
@@ -38,7 +38,7 @@ Canopy 还开始让最早的屏蔽资金池逐步退出。Sprout 是 Zcash 的�
 
 从 Canopy 激活那一刻起，任何新价值都不能再加入 Sprout 资金池。用技术术语来说，就是每个 JoinSplit 的 `vpub_old` 字段都必须为零。已经在 Sprout 中的资金仍然可以提取，因此不会有人因此失去访问权，但从现在起这个资金池只能继续缩小。这是最终弃用旧版 Sprout 资金池、转而使用更新屏蔽资金池的第一步。
 
-![在 Canopy 之前，价值既可以进入也可以离开 Sprout 资金池。Canopy 之后，不再允许新价值进入，但仍然允许提取](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/canopy-sprout-pool.png)
+![在 Canopy 之前，价值既可以进入也可以离开 Sprout 资金池。Canopy 之后，不再允许新价值进入，但仍然允许提取](/content-images/canopy-sprout-pool-f5166aa049.webp)
 
 ## 技术补充内容
 

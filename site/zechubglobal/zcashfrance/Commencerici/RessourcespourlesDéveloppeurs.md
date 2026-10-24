@@ -6,7 +6,7 @@ Aperçu général du fonctionnement de Blockchains & Zcash :
 
 [Documents Zcash](https://zcash.readthedocs.io/en/latest/)
 
-[Maîtriser Bitcoin : Programmation de la Blockchain ouverte](https://www.amazon.com/Mastering-Bitcoin-Programming-Open-Blockchain-ebook/dp/B071K7FCD4)
+[Maîtriser Bitcoin : Programmation de la Blockchain ouverte](https://web.archive.org/web/20230225165018/https://www.amazon.com/Mastering-Bitcoin-Programming-Open-Blockchain-ebook/dp/B071K7FCD4)
 
 [Zcashd RPC](https://zcash.github.io/rpc/)
 

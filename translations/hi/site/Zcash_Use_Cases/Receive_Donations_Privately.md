@@ -105,7 +105,7 @@ Zcash छिपे हुए लेनदेन छिपाता है:
 
 ## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="chain-links icon"/> संबंधित
 
-- [गोपनीयता - छिपे हुए vs खुले](/privacy/shielded-vs-transparent)
+- [ब्लॉक एक्सप्लोरर क्या देख सकता है](/zcash-tech/what-a-block-explorer-can-see)
 - [वॉलेट्स](/wallets)
 
 <br/>

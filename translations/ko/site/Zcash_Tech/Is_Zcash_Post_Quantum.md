@@ -71,7 +71,7 @@ Ironwood가 바꾸지 않은 것: 오늘날 지출과 증명에 사용되는 암
 
 **노출 기간이 존재합니다.** Ironwood가 활성화된 때부터 이전 프로토콜이 비활성화될 때까지, 양자 공격자는 여전히 모든 실드 풀에서 자금을 훔치거나, 인플레이션을 일으키거나, 자금을 막을 수 있습니다. ZIP 2005는 이를 "중요 노출 기간"이라 부르며, 이 기간 중 공격은 보유자가 나중에 복구할 능력에도 피해를 줄 수 있다고 경고합니다. 따라서 양자 공격이 실현 가능해지기 **전에** Zcash가 Orchard, Sapling 및 Sprout를 비활성화해야 한다고 명시합니다.
 
-**비활성화 일정은 없습니다.** 어떤 ZIP도 Orchard 또는 Sapling를 비활성화하는 일정을 정하지 않았습니다. Draft이자 ZIP 후보인 NU7 2003은 버전 4 거래를 허용하지 않음으로써 Sprout 지출을 비활성화합니다. Sapling 출금 전용 논의는 2026년 4월 포럼에서 시작되었습니다.
+**Sprout를 제외하면 비활성화 일정은 없습니다.** 어떤 ZIP도 Orchard 또는 Sapling를 비활성화하는 일정을 정하지 않았습니다. Sprout는 다릅니다. [ZIP 259](https://zips.z.cash/zip-0259)에는 NU7가 도입하는 변경 사항 중 하나로 ZIP 2003이 명시되어 있으므로, NU7가 활성화되면 버전 4 거래는 무효가 되고 Sprout 풀에 남아 있는 모든 ZEC는 지출할 수 없게 됩니다. 메인넷 활성화는 2026년 11월 5일로 예정되어 있으며, 최종 결정은 2026년 10월 20일에 내려질 예정입니다([포럼 공지](https://forum.zcashcommunity.com/t/nu7-timeline/57655)). Sapling 출금 전용 논의는 2026년 4월 포럼에서 시작되었습니다.
 
 **복구 프로토콜은 완성되지 않았습니다.** ZIP 2005는 이를 개략적으로만 설명하며 세부 사항은 "변경될 수 있다"고 밝힙니다. 배포된 내용은 없습니다.
 
@@ -97,7 +97,7 @@ Ironwood가 바꾸지 않은 것: 오늘날 지출과 증명에 사용되는 암
 
 ## 상태 표
 
-최종 확인일: 2026년 9월 13일. ZIP의 헤더 상태와 네트워크 상태는 다릅니다. ZIP 2005는 2026년 7월부터 해당 규칙이 Mainnet에서 시행되고 있음에도 헤더에 여전히 "Proposed"라고 표시합니다.
+최종 확인일: 2026년 9월 13일. 단, Sprout 행은 2026년 10월 9일에 업데이트되었습니다. ZIP의 헤더 상태와 네트워크 상태는 다릅니다. ZIP 2005는 2026년 7월부터 해당 규칙이 Mainnet에서 시행되고 있음에도 헤더에 여전히 "Proposed"라고 표시합니다.
 
 | 항목 | ZIP 상태 | 네트워크 상태 | 날짜 | 출처 |
 |---|---|---|---|---|
@@ -106,7 +106,7 @@ Ironwood가 바꾸지 않은 것: 오늘날 지출과 증명에 사용되는 암
 | 자금을 Ironwood로 옮기는 지갑 | ZIP 2005, ZIP 318 및 ZIP 326(Draft)의 지침 | 권장됨, 지갑에 따라 다름 | 2026년 7월 28일부터 | [ZIP 318](https://zips.z.cash/zip-0318), [ZIP 326](https://zips.z.cash/zip-0326) |
 | 복구 프로토콜 | ZIP 2005 내부에만 개략적으로 제시됨 | **구현되지 않음** | 날짜 없음 | [ZIP 2005](https://zips.z.cash/zip-2005) |
 | Orchard 및 Sapling 비활성화 | ZIP 없음 | **일정 미정** | 2026년 4월부터 Sapling 논의 | [Forum](https://forum.zcashcommunity.com/t/sapling-withdraw-only-discussion-kickoff/55223) |
-| Sprout 지출 비활성화(ZIP 2003) | Draft, NU7 후보 | **활성화되지 않음** | 날짜 없음 | [ZIP 2003](https://zips.z.cash/zip-2003) |
+| Sprout 지출 비활성화(ZIP 2003) | Draft, ZIP 259(Draft)에 따라 NU7가 배포 | **활성화되지 않음** | Mainnet 목표일 2026년 11월 5일, 최종 결정일 2026년 10월 20일 | [ZIP 2003](https://zips.z.cash/zip-2003), [ZIP 259](https://zips.z.cash/zip-0259) |
 | 투명 복구 가능성(ZIP 2007) | Reserved | **제안** | ZIP 2025년 7월 5일 예약, 2026년 6월 17일 논의 시작 | [zips#1302](https://github.com/zcash/zips/issues/1302) |
 | 알려진 주소의 포스트 양자 프라이버시 | 공개 이슈, ZIP 없음 | **연구** | #1133은 2022년 8월 18일, #1307은 2026년 6월 23일 개설 | [zips#1133](https://github.com/zcash/zips/issues/1133), [zips#1307](https://github.com/zcash/zips/issues/1307) |
 | Project Tachyon | ZIP 없음 | **제안**, 개발 중 | 2025년 4월 최초 공개 | [tachyon.z.cash](https://tachyon.z.cash/roadmap/) |
@@ -162,5 +162,5 @@ Zcash Foundation의 NU7 정서 조사(2026년 2월)에서 양자 복구 가능�
 - [zips#1134: 완전한 포스트 양자 Zcash](https://github.com/zcash/zips/issues/1134)
 - [Project Tachyon 로드맵](https://tachyon.z.cash/roadmap/)
 - [NU7 설문 결과: 우리가 들은 내용과 앞으로의 방향](https://forum.zcashcommunity.com/t/nu7-polling-results-what-we-heard-and-where-we-go-from-here/54775)
-- [Blockchair의 블록 3,428,143](https://blockchair.com/zcash/block/3428143)
+- [ZecBlock의 블록 3,428,143](https://zecblock.com/block/3428143)
 - [포럼 요청: Zcash는 포스트 양자 보안인가?](https://forum.zcashcommunity.com/t/is-zcash-post-quantum-help-wanted-d-proposal/57154)

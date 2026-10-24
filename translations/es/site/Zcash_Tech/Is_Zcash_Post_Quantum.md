@@ -71,7 +71,7 @@ Lo que no cambió Ironwood: la criptografía usada hoy para gastar y demostrar, 
 
 **Existe una ventana de exposición.** Desde la activación de Ironwood hasta que se desactiven los protocolos antiguos, un atacante cuántico aún podría robar, inflar o bloquear fondos en todos los pools blindados. ZIP 2005 denomina a esto el "período crítico de exposición" y advierte que un ataque durante este período aún podría perjudicar la capacidad de un titular para recuperarse posteriormente. Por eso dice que Zcash debe desactivar Orchard, Sapling y Sprout **antes** de que los ataques cuánticos sean factibles.
 
-**La desactivación no tiene fecha.** Ningún ZIP programa desactivar Orchard o Sapling. ZIP 2003, un borrador y candidato a NU7, deshabilitaría los gastos Sprout al no permitir transacciones de versión 4. En abril de 2026 se inició en el foro una discusión sobre un modo de solo retiro Sapling.
+**La desactivación no tiene fecha, salvo para Sprout.** Ningún ZIP programa desactivar Orchard o Sapling. Sprout es diferente: [ZIP 259](https://zips.z.cash/zip-0259) enumera ZIP 2003 entre los cambios que implementa NU7, por lo que las transacciones de versión 4 pasan a ser inválidas una vez que se activa NU7 y cualquier ZEC que quede en el pool Sprout se vuelve imposible de gastar. La activación de Mainnet está prevista para el 5 de noviembre de 2026, y la decisión final se espera para el 20 de octubre de 2026 ([anuncio en el foro](https://forum.zcashcommunity.com/t/nu7-timeline/57655)). En abril de 2026 se inició en el foro una discusión sobre un modo de solo retiro Sapling.
 
 **El Protocolo de Recuperación no está terminado.** ZIP 2005 solo lo esboza y dice que los detalles "están sujetos a cambios". No se ha implementado nada al respecto.
 
@@ -97,7 +97,7 @@ Ninguna de estas está activa.
 
 ## Tabla de estado
 
-Verificado por última vez el 13 de septiembre de 2026. El estado del encabezado de un ZIP y su estado en la red son cosas distintas: ZIP 2005 sigue diciendo "Propuesto" en su encabezado, aunque sus reglas se aplican en Mainnet desde julio de 2026.
+Verificado por última vez el 13 de septiembre de 2026, excepto la fila de Sprout, que se actualizó el 9 de octubre de 2026. El estado del encabezado de un ZIP y su estado en la red son cosas distintas: ZIP 2005 sigue diciendo "Propuesto" en su encabezado, aunque sus reglas se aplican en Mainnet desde julio de 2026.
 
 | Elemento | Estado de ZIP | Estado de la red | Fecha | Fuente |
 |---|---|---|---|---|
@@ -106,7 +106,7 @@ Verificado por última vez el 13 de septiembre de 2026. El estado del encabezado
 | Wallets moviendo fondos a Ironwood | Guía en ZIP 2005, ZIP 318 y ZIP 326 (Borrador) | Recomendado, depende de tu wallet | Desde el 28 jul. 2026 | [ZIP 318](https://zips.z.cash/zip-0318), [ZIP 326](https://zips.z.cash/zip-0326) |
 | Protocolo de Recuperación | Esbozado solo dentro de ZIP 2005 | **No implementado** | Sin fecha | [ZIP 2005](https://zips.z.cash/zip-2005) |
 | Desactivación de Orchard y Sapling | Sin ZIP | **No programada** | Discusión Sapling desde abr. 2026 | [Foro](https://forum.zcashcommunity.com/t/sapling-withdraw-only-discussion-kickoff/55223) |
-| Deshabilitar gastos Sprout (ZIP 2003) | Borrador, candidato a NU7 | **No activado** | Sin fecha | [ZIP 2003](https://zips.z.cash/zip-2003) |
+| Deshabilitar gastos Sprout (ZIP 2003) | Borrador, implementado por NU7 conforme a ZIP 259 (Borrador) | **No activado** | Objetivo para Mainnet: 5 nov. 2026; decisión final: 20 oct. 2026 | [ZIP 2003](https://zips.z.cash/zip-2003), [ZIP 259](https://zips.z.cash/zip-0259) |
 | Recuperabilidad transparente (ZIP 2007) | Reservado | **Propuesta** | ZIP reservado el 5 jul. 2025, discusión abierta el 17 jun. 2026 | [zips#1302](https://github.com/zcash/zips/issues/1302) |
 | Privacidad poscuántica para direcciones conocidas | Incidencias abiertas, sin ZIP | **Investigación** | #1133 abierta el 18 ago. 2022, #1307 abierta el 23 jun. 2026 | [zips#1133](https://github.com/zcash/zips/issues/1133), [zips#1307](https://github.com/zcash/zips/issues/1307) |
 | Proyecto Tachyon | Sin ZIP | **Propuesta**, en desarrollo | Publicado por primera vez en abr. 2025 | [tachyon.z.cash](https://tachyon.z.cash/roadmap/) |
@@ -162,5 +162,5 @@ En las encuestas de opinión Zcash Foundation de NU7 (febrero de 2026), la recup
 - [zips#1134: Zcash totalmente poscuántico](https://github.com/zcash/zips/issues/1134)
 - [Hoja de ruta del proyecto Tachyon](https://tachyon.z.cash/roadmap/)
 - [NU7 Resultados de la encuesta: lo que escuchamos y hacia dónde vamos a partir de aquí](https://forum.zcashcommunity.com/t/nu7-polling-results-what-we-heard-and-where-we-go-from-here/54775)
-- [Bloque 3,428,143 en Blockchair](https://blockchair.com/zcash/block/3428143)
+- [Bloque 3,428,143 en ZecBlock](https://zecblock.com/block/3428143)
 - [Solicitud en el foro: ¿Es Zcash poscuántico?](https://forum.zcashcommunity.com/t/is-zcash-post-quantum-help-wanted-d-proposal/57154)

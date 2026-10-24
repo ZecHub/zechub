@@ -26,7 +26,7 @@ Esi wònye be ƒomevi eve li ta la, asixɔxɔ ate ŋu azɔ le mɔ ene nu: esi me
 
 ## Nusi anyigbayeyedila ate ŋu akpɔ
 
-Dutoƒonudila aɖe abe [Blockchair](https://blockchair.com/zcash) ate ŋu axlẽe kɔte be:
+Dutoƒonudila aɖe abe [ZecBlock](https://zecblock.com/) ate ŋu axlẽe kɔte be:
 
 - Fexexe ɖesiaɖe si me kɔ bliboe (t vaseɖe t), tso nuwuwu vaseɖe nuwuwu.
 - Ga si gena ɖe ta si wotsɔ akpoxɔnu wɔe la me (afã si me kɔ kple ga home si woaxe).
@@ -65,7 +65,7 @@ Bia nyatakaka xoxoawo eye shielded sender and receiver fields trɔ gbɔ ƒuƒlu.
 - [Zcash: ame ŋutɔ ƒe nyawo kple dedienɔnɔ ŋuti aɖaŋuɖoɖowo](https://z.cash/support/security/privacy-security-recommendations/)
 - [Nu gbagbewo ƒe agbenɔnɔ ƒe ɖoɖo si wokpɔ ta na (Electric Coin Company) .](https://web.archive.org/web/20260903010654/https://electriccoin.co/blog/shielded-ecosystem/)
 - [Alesi Zcash mɔ̃ɖaŋununya wɔa dɔe](https://z.cash/technology/)
-- [Blockchair Zcash ƒe anyigbayeyedila](https://blockchair.com/zcash)
+- [ZecBlock](https://zecblock.com/)
 
 ## Axa siwo do ƒome kplii
 

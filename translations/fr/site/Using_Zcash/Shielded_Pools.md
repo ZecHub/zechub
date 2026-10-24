@@ -68,7 +68,7 @@ Le pool shielded Orchard a été activé le 31 mai 2022 dans le cadre de la mise
 
 Orchard a considérablement amélioré la facilité d’utilisation, l’efficacité et la confidentialité en réduisant la fuite de métadonnées des transactions et en introduisant un modèle de transaction plus flexible basé sur des Actions plutôt que sur des entrées et sorties shielded traditionnelles.
 
-Depuis l’activation de la mise à niveau Ironwood le 28 juillet 2026, **Orchard est en dépense uniquement**. Aucune nouvelle valeur ne peut entrer dans le pool. Les fonds qui s’y trouvent déjà peuvent toujours être dépensés, et migrent vers Ironwood via le turnstile. Les wallets s’en chargent pour vous, bien que la plupart vous laissent un certain contrôle sur le rythme.
+Depuis l’activation de la mise à niveau Ironwood le 28 juillet 2026, **Orchard est en dépense uniquement**. Aucune nouvelle valeur ne peut entrer dans le pool. Les fonds qui s’y trouvent déjà peuvent toujours être dépensés, et migrent vers Ironwood via le turnstile. Les wallets s’en chargent pour vous, bien que la plupart vous laissent un certain contrôle sur le rythme. Chaque sortie de Orchard affiche son montant sur la blockchain ; la manière dont un wallet répartit et cadence la migration est donc importante pour la confidentialité.
 
 Si vous détenez des fonds dans Orchard, consultez [Ironwood](/zcash-tech/ironwood) pour comprendre ce que cette migration signifie en pratique.
 

@@ -1,6 +1,6 @@
 #  <img src="/content-images/e38b13a9-d410-426a-a1e6-2dde105d56c4-6b8154e5ae.webp" alt="Alt Text" width="50"/> ZingoLabs
 
-[Official Website](https://zingolabs.org/) - [Github](https://github.com/zingolabs) - [X/Twitter](https://x.com/ZingoLabs) - [Instagram](https://www.instagram.com/zingolabesp/)
+[Official Website](https://zingolabs.org/) - [GitHub](https://github.com/zingolabs) - [X/Twitter](https://x.com/ZingoLabs) - [Instagram](https://www.instagram.com/zingolabesp/)
 
 ZingoLabs is a team of visionaries dedicated to enhancing the human experience. We believe that technology should benefit humanity and that we thrive through consensual interactions. We are identifying the patterns that make this possible.
 
@@ -8,30 +8,32 @@ Zingo Lab Cyan operates as a Shielded DAO. We store our funds in a treasury wher
 
 ## Projects
 
-### Zingo! Wallet ([Github](https://github.com/zingolabs/zingo-mobile))
-Zingo Wallet is a fully featured Zcash wallet designed for user friendliness, although it includes some advanced features for more advanced users. It supports transparent, Sapling and Orchard pools, has an address book for recurrent payments and is available in various languages. It was the first wallet to support Orchard and to implement NU5 formats.
+### Zingo! Wallet ([GitHub](https://github.com/zingolabs/zingo-mobile))
+Zingo Wallet is a fully featured Zcash wallet designed for user friendliness, although it includes some advanced features for more advanced users. It supports transparent, Sapling and Ironwood pools, has an address book for recurrent payments and is available in various languages. It was the first wallet to support Orchard and to implement NU5 formats.
 
 One of the main features of Zingo! is its ability to use the Memo field to offer valuable insights about your transactions.
 
 Zingo! is available for mobile devices and PCs. You will find all downloads [here](https://zingolabs.org/)
 
-### Zingolib ([Github](https://github.com/zingolabs/zingolib))
-An API and test-app that exposes zcash functionality for app consumption. Zingolib provides both a library for zingo-mobile, as well as an included cli application to interact with zcashd via lightwalletd called Zingo-cli, a command line lightwalletd-proxy client.
+### Zingolib ([GitHub](https://github.com/zingolabs/zingolib))
+An API and test-app that exposes zcash functionality for app consumption. Zingolib provides both a library for zingo-mobile, as well as an included cli application called zingo-cli, a command-line light wallet that talks to a chain indexer such as [Zaino](/zcash-tech/zaino).
 
-### Zaino Indexer ([Github](https://github.com/zingolabs/zaino))
-Zaino is an Indexer developed in Rust by the Zingo team, that aims to replace lightwalletd and to push forward the zcashd deprecation project.
+### Zaino Indexer ([GitHub](https://github.com/zingolabs/zaino))
+Zaino is a Rust indexer for the Zcash blockchain, developed by the Zingo team. It is the indexer in the [Z3 stack](/zcash-tech/z3-stack): it indexes chain data from a [Zebra](/zcash-tech/zebra-full-node) validator and serves wallets, explorers, and other clients. It is the successor path to lightwalletd.
 
-Zaino offers essential features for both light clients, such as wallets and applications that do not require the full blockchain history, and full clients or wallets. It also supports block explorers, granting access to both the finalized blockchain and the non-finalized best chain and mempool managed by a Zebra or Zcashd full validator.
+Zaino offers essential features for both light clients, such as wallets and applications that do not require the full blockchain history, and full clients or wallets. It also supports block explorers, granting access to both the finalized blockchain and the non-finalized best chain and mempool managed by a Zebra full validator.
 
-###  ZLN (zcash-local-net) ([Github](https://github.com/zingolabs/zcash-local-net))
+`zcashd` reached its End-of-Support halt on 18 July 2026 at block 3,417,100 and does not support Ironwood (NU6.3). Zaino reads a Zebra validator.
+
+###  ZLN (zcash-local-net) ([GitHub](https://github.com/zingolabs/infrastructure/tree/dev/zcash_local_net))
+
 A set of utilities that launch and manage Zcash processes. This is used for integration testing in the development of:
 - lightclients
 - indexers
 - validators
 
-Its goal is to offer a highly adaptable and sturdy testing environment for core nodes (validators) such as zcash and zebra, indexers like lightwallet and zaino, minimally, zingo-cli as a light client wallet.
+Its goal is to offer a highly adaptable and sturdy testing environment for core nodes (validators) such as Zebra, indexers like Zaino, and light client wallets such as zingo-cli.
 
-This repository is designed to compare the functionality of various validators (like Zcashd and Zebrad) and indexers (such as Lightwalletd and Zaino) to facilitate the migration during the Zcashd deprecation process.
+The default stack it launches is Zebrad, zainod, and zcash-devtool. The legacy `zcashd` and lightwalletd processes sit behind an unsupported `legacy-stack` feature and are scheduled for removal.
 
-In addition to providing tools to start, cache, and load Zcash chain data (for mainnet, testnet, and regtest), zcash-zocal-net includes a series of tests to compare the capabilities of Lightwalletd and Zaino across all Lightwallet RPC services. These tests can be executed directly from Zaino (see [https://github.com/zingolabs/zaino/blob/dev/docs/testing.md](https://github.com/zingolabs/zaino/blob/dev/docs/testing.md)]) to assess the Lightwallet RPC services hosted in Zaino.
-
+In addition to providing tools to start, cache, and load Zcash chain data (for mainnet, testnet, and regtest), zcash-local-net is used from Zaino's test suite to assess the Lightwallet RPC services hosted in Zaino (see [Zaino testing docs](https://github.com/zingolabs/zaino/blob/dev/docs/testing.md)).

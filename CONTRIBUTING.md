@@ -4,8 +4,6 @@
 
 If you're reading this page, we're really excited that you're considering contributing! Any contribution you make will be reflected on [zechub.xyz](https://www.zechub.xyz/) and other ZecHub social media :sparkles:
 
-<!-- TODO: We need to have a CoC -->
-<!-- Read our [Code of Conduct](/CODE_OF_CONDUCT.md) to keep our community approachable and respectable. -->
 
 ## New contributors
 
@@ -28,6 +26,29 @@ First, join the conversation in the [Zcash Global discord](https://discord.gg/zc
 ## Style guides
 
 Any contribution to ZecHub should follow the [ZecHub style guide](site/contribute/Style_Guide.md). This includes wikis, docs and social media contents.
+
+## Contribution and moderation rules
+
+ZecHub is an open-source education project. Contributions should be accurate,
+properly sourced, respectful, and consistent with the project's style and
+licensing requirements.
+
+When contributing to ZecHub:
+
+- Do not plagiarize or misattribute another person's work.
+- Do not knowingly submit misleading, fabricated, or malicious technical content.
+- Do not publish another person's private information, impersonate others, or make threats.
+- Disagree with the work or technical claim, not the person.
+- Follow the [ZecHub style guide](site/contribute/Style_Guide.md) and the repository's [license](/LICENSE).
+- Bounty and documentation submissions must meet their stated acceptance criteria and be of sufficient quality for publication.
+
+Maintainers may request changes, reject or close contributions that do not meet
+these requirements, and restrict repository participation when necessary to
+protect the project or its contributors.
+
+For sensitive moderation concerns, do not post private information publicly.
+Contact @dismad or @tokidoki directly using the project's existing maintainer
+communication channels.
 
 ## Ways you can contribute
 
@@ -61,6 +82,17 @@ ZecHub's goal is to provide an open-source education hub that anyone in the Zcas
 Note* ZecHub Global page translation rate limit is 10 pages per week.
 
 **Keeping curated translations current:** curated locale pages under `translations/<locale>/site/` are tracked against their English source by a source-hash manifest, so a page can be flagged and re-synced when its English source changes. See [translation/README-sync.md](translation/README-sync.md) for how staleness detection, the sync workflow, and protected-terms validation fit together.
+
+**Adding a new language to the wiki:** the curated wiki languages are translated and kept up to date by the translation pipeline, so a new language is a permanent commitment, not a set of page PRs. Open an issue first, naming the language, and wait for the maintainers' decision before translating pages. The native reviewer is selected through a ZecHub Translation Quality bounty; the proposer may apply. See [docs/adding-a-language.md](docs/adding-a-language.md) for what is involved, the roles, the costs and the review process.
+
+**When your PR adds, moves or deletes wiki pages, or names a new project.** Curated wiki pages are translated by the translation pipeline into every wiki language (a page shows in English until its translation exists), so these updates belong in the same PR, each only when it applies:
+
+- **New project or product names** go in `translation/protected-terms.json` (`preserveVerbatim`), spelled exactly as the project writes it on its own site (`SwissBorg`, `THORSwap`, `BTCPay Server`); otherwise the pipeline can translate the name in the translated pages. Run `node scripts/check-terms-file.mjs --fix` to put the list back in order. Two spellings of the same name go together in an `equivalentForms` group. The PR template asks you to list the names with their official URL, so a maintainer can check the spelling.
+- **A new page** goes in `translation/curated-pages.txt` (the default: the translation routine then translates it into every language) or, if it should stay English only, in `translation/english-only-pages.txt`.
+- **A deleted or moved page** must leave those lists: run `node translation/decurate.mjs <old path>` from the repository root. It removes the list line, the page's translations and their manifest entries.
+- After either of the last two, run `node translation/gen-menu-titles.mjs` and commit the result.
+
+You don't have to remember the commands: the **Curation check** on your PR comments the exact change to make and turns green once the lists match the pages. Please don't translate curated pages by hand; the translation routine and its manifest handle them (see [docs/translation-contributor-workflow.md](docs/translation-contributor-workflow.md)).
 
 ### ZecHub Wiki - 0.04 ZEC per accepted edit to docs
 

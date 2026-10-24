@@ -26,7 +26,7 @@ Zcash에는 두 종류의 주소가 있습니다.
 
 ## 탐색기가 볼 수 있는 것
 
-[Blockchair](https://blockchair.com/zcash) 같은 공개 탐색기는 다음을 명확하게 읽을 수 있습니다:
+[ZecBlock](https://zecblock.com/) 같은 공개 탐색기는 다음을 명확하게 읽을 수 있습니다:
 
 - 완전히 투명한(t에서 t로) 모든 결제를 처음부터 끝까지.
 - 자금이 실드 풀로 들어가는 것(투명한 쪽과 금액).
@@ -65,7 +65,7 @@ Zcash에는 두 종류의 주소가 있습니다.
 - [Zcash: 프라이버시 및 보안 권장 사항](https://z.cash/support/security/privacy-security-recommendations/)
 - [실드 생태계 (Electric Coin Company)](https://web.archive.org/web/20260903010654/https://electriccoin.co/blog/shielded-ecosystem/)
 - [Zcash 기술의 작동 방식](https://z.cash/technology/)
-- [Blockchair Zcash 탐색기](https://blockchair.com/zcash)
+- [ZecBlock](https://zecblock.com/)
 
 ## 관련 페이지
 

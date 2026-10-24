@@ -121,7 +121,7 @@
 
 
 - [المحافظ](/wallets)
-- [الخصوصية - أفضل الممارسات](/privacy/best-practices)
+- [من يمكنه رؤية Zcashدفعتك](/start-here/who-can-see-your-zcash-payment)
 
 <br/>
 

@@ -122,8 +122,9 @@ Each one is reproducible locally. CI resolves the base ref from the pull request
 | Job | Run it locally | What it checks |
 |-----|----------------|----------------|
 | `protected-terms` | `node scripts/check-protected-terms.mjs --base origin/main` | every protected term the English page uses survives in the translation |
+| `protected-terms` (numbers step) | `node scripts/check-numbers.mjs --base origin/main` | numbers, dates, times and hashes in a changed translation match the English (see [Numbers and dates](#numbers-and-dates)) |
 | `manifest-invariants` | `node translation/check-invariants.mjs --base origin/main` | manifest ⇔ files ⇔ curated list, plus the two provenance rules above |
-| `hash-lib-tests` | `node --test translation/lib/*.test.mjs` | the pure hash, title and term-form modules |
+| `hash-lib-tests` | `node --test translation/lib/*.test.mjs` | the pure hash, title, term-form and number-comparison modules |
 | `menu-titles-fresh` | `node translation/gen-menu-titles.mjs --check` | generated menu-title manifests match the content |
 | `frontmatter-parity` | `node scripts/check-frontmatter.mjs --base origin/main` | a translation declares the same leading YAML block as its English source |
 
@@ -153,7 +154,22 @@ Three quieter shapes break nothing and are caught by the same job: an empty bloc
 
 `--base` scopes this job to the translations your change touched, and it fails only on damage your change actually did — a defect already on the page, left alone, is a notice. If you edit an English page that has front matter, its translations are not yours to answer for either; that drift is the sync pipeline's work. Run the check bare for a whole-tree sweep, which is also what a push to `main` runs.
 
+### Numbers and dates
+
+Copy every number from the English as digits: dates, times, block heights, amounts, versions, hashes and addresses. Reorder a date to your locale's convention (`24. August 2026`, `2026年8月24日`, `24/08/2026`) and use your own thousands and decimal separators (`3.428.143`, `3 428 143`, `0,5`), but do not spell a number out as a word and do not drop it. Machine engines get this wrong in ways that look fluent: Google Translate wrote "August 24, 2026, 19:00 UTC" in Yoruba as words that mean 16 August at 19 o'clock in the morning.
+
+`scripts/check-numbers.mjs` compares each changed translation with its English page, on prose only (code, URLs, link targets, HTML attributes, image paths and protected names are ignored):
+
+- **Digit tokens (blocking):** a word mixing digits and three or more letters that the English does not have, such as `202kan`, `ZIP 2emma`, `2Atuo` for `2Miners`, or a transaction hash with one character changed.
+- **Versions (blocking):** a version such as `1.2.3`, `v0.15.2` or `version 2.1` must appear unchanged (a leading `v` may come or go), and the translation must not add one. `1.2.3` -> `1.2.4` fails even though every digit is small. Dotted dates (`24.08.2026`) and thousands groups (`1.000.000`) are not versions.
+- **Numbers (blocking):** a number that disappeared from the page or appeared from nowhere. Separators, digit scripts, month names (`August` = 8), clock times in any common form (`19:00` = `7 PM` = `午後7時` = `오후 7시` = `19 h 00` = `pukul 19.00`; a wrong conversion such as `9 PM` still fails), ordinals (`3rd`), spelled-out English numbers (`twenty five million`) and Chinese, Japanese, Korean and Hindi magnitudes (`2100万` = 21 million) are understood.
+- **Advisory only:** numbers from 0 to 10 (often a word in good prose), and a number that is still on the page but appears a different number of times. In Igbo a missing number is advisory as well, because Google Translate spells Igbo numbers out and every value checked was right; Yoruba stays blocking because a third of its spelled-out numbers were wrong.
+
+With `--base` only the translations your change touches are checked, and a finding that page already had at the base, in the same place (matched by the surrounding text, not the line number), is a notice. Moving a bad token from one paragraph to another counts as new. Run it bare for a whole-tree sweep; on `main` that reports existing damage, mostly in the Google-translated locales.
+
 ## Adding a new language
+
+Before any of the steps below, a new language needs the maintainers' approval and a native reviewer selected through a Translation Quality bounty: see [Adding a new language to ZecHub](adding-a-language.md) for the roles, costs and review process.
 
 The framework is locale-generic. Adding a locale spans both repositories:
 

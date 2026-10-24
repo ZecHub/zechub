@@ -100,7 +100,7 @@ Ti o ba jẹ tuntun si awọn blockchains ni gbogbogbo, [Mímọ Bitcoin Lọ́n�
 
 A pa wọn mọ́ nítorí pé àwọn àpilẹ̀kọ tí ó ti pẹ́ ní ìjápọ̀ sí i, àti wípé wọ́n ṣì jẹ́ àtúnyèwò fún bí nóò tó bá fẹsẹ̀ ara rẹ̀ sílẹ̀ ṣe hùwà. Ẹ má bẹ̀rẹ̀ láti ibí yìí o.
 
-[Ìwé Zcashd náà](https://zcash.github.io/zcash/) àti àwọn [zcashd RPC reference](https://zcash.github.io/rpc/) software àkọsílẹ̀ tí ó dé ọdọ [ìparí ayé.](https://zcash.github.io/zcash/user/end-of-life.html) ní July 2026. Àwọn ìsọfúnni tó wà nínú ìwé ìròyìn náà ni: [zcash/zcash ì í ë ¤ì 'ë¦¬í ¬ê°](https://github.com/zcash/zcash) ibi ìpamọ́ náà ti wà ní àkọsílẹ̀.
+[Ìwé zcashd náà](https://zcash.github.io/zcash/) àti àwọn [zcashd RPC reference](https://zcash.github.io/rpc/) software àkọsílẹ̀ tí ó dé ọdọ [ìparí ayé.](https://zcash.github.io/zcash/user/end-of-life.html) ní July 2026. Àwọn ìsọfúnni tó wà nínú ìwé ìròyìn náà ni: [zcash/zcash ì í ë ¤ì 'ë¦¬í ¬ê°](https://github.com/zcash/zcash) ibi ìpamọ́ náà ti wà ní àkọsílẹ̀.
 
 If you have a resource to add, or you spot something here that has gone stale, open an issue or a pull request. Teams do not always have capacity to keep everything current, and flagging what you ran into helps direct the guides.
 

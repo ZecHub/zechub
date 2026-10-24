@@ -7,15 +7,15 @@
 
 # Cypherpunk Zero
 
-Cypherpunk Zero एक कहानी-वाचन श्रृंखला है जो Zero पर केंद्रित है, जो एक युवा cypherpunk hacker और स्वतंत्रता सेनानी है। Zero इस समय एक dystopian दुःस्वप्न में जी रही है और वह समाज को जकड़ने वाले केंद्रीकृत gatekeepers के खिलाफ लड़ने के लिए code का उपयोग करती है। यह कहानी Zcash और Halo cryptography से प्रेरित थी। यह रचनात्मक कार्य ECC, Stranger World, Might Jaxx और चुनिंदा ecosystem partners के बीच एक सहयोगात्मक प्रयास है। यह रचनात्मक कार्य विशेष रूप से एक [NFT श्रृंखला](https://opensea.io/collection/cypherpunk-zero) पर केंद्रित रहा है, लेकिन एक [प्रस्तावना कॉमिक](https://halo.electriccoin.co/#view-prologue) और [संग्रहणीय खिलौना](https://mightyjaxx.com/products/cypherpunk-zero) भी जारी किए गए हैं। NFT समुदाय, जो मुख्यतः Twitter पर सक्रिय है, ने अभियान और व्यापक Zcash समुदाय का समर्थन करने वाली परियोजनाओं को संगठित करने और पूरा करने के लिए एक [विकेंद्रीकृत संगठन (DAO)](https://twitter.com/CypherpunkDAO) भी बनाया है।
+Cypherpunk Zero, Zero नामक एक युवा cypherpunk हैकर और स्वतंत्रता सेनानी पर केंद्रित कहानी कहने की एक श्रृंखला है। Zero वर्तमान में एक डायस्टोपियन दुःस्वप्न में रह रही है और समाज को जकड़ने वाले केंद्रीकृत द्वारपालों के विरुद्ध लड़ने के लिए वह कोड का उपयोग करती है। यह कहानी Zcash और Halo क्रिप्टोग्राफी से प्रेरित थी। यह रचनात्मक कार्य ECC, Stranger World, Might Jaxx और चुनिंदा इकोसिस्टम भागीदारों का एक सहयोगात्मक प्रयास है। यह रचनात्मक कार्य मुख्य रूप से एक [NFT श्रृंखला](https://opensea.io/collection/cypherpunk-zero) पर केंद्रित रहा है और एक [संग्रहणीय खिलौना](https://mightyjaxx.com/products/cypherpunk-zero) भी जारी किया गया है। मुख्यतः Twitter पर सक्रिय NFT समुदाय ने अभियान और व्यापक Zcash समुदाय का समर्थन करने वाली परियोजनाओं को संगठित करने और पूरा करने के लिए एक [विकेंद्रीकृत संगठन (DAO)](https://twitter.com/CypherpunkDAO) भी बनाया है।
 
-## Anti-roadmap Roadmap
+## एंटी-रोडमैप रोडमैप
 
-हमने बहुत सी परियोजनाओं को उनके NFT roadmap पर ज़रूरत से ज़्यादा वादे करते और कम परिणाम देते देखा है। इसलिए, कोई औपचारिक roadmap नहीं है। भरोसा रखिए कि हमारे पास NFT holders के लिए कुछ शानदार, विशिष्ट लाभ pipeline में हैं — कुछ अपेक्षित, कुछ अप्रत्याशित। तैयार हो जाइए और इस सफ़र में हमारे साथ जुड़िए।
+हमने बहुत-सी परियोजनाओं को अपने NFT रोडमैप पर अत्यधिक वादे करते और कम परिणाम देते देखा है। इसलिए, कोई औपचारिक रोडमैप नहीं है। भरोसा रखें कि हमारे पास NFT धारकों के लिए कुछ अद्भुत, विशेष लाभ पाइपलाइन में हैं—कुछ अपेक्षित, कुछ अप्रत्याशित। कमर कस लें और इस यात्रा में हमारे साथ शामिल हों।
 
-## Governance
+## शासन
 
-[Snapshot](https://snapshot.box/#/s:cypherpunkzerodao.eth) — DAO का vote.cypherpunkzero.com पर स्थित कस्टम पोर्टल बंद कर दिया गया है और उसका डोमेन अब रीज़ॉल्व नहीं होता; यही बचा हुआ Snapshot स्पेस है।
+[Snapshot](https://snapshot.box/#/s:cypherpunkzerodao.eth) — DAO का vote.cypherpunkzero.com पर मौजूद कस्टम पोर्टल बंद कर दिया गया है और उसका डोमेन अब रिज़ॉल्व नहीं होता; यह बचा हुआ Snapshot स्पेस है।
 
 [Guild](https://guild.xyz/cypherpunkzerodao)
 
@@ -35,34 +35,32 @@ Cypherpunk Zero एक कहानी-वाचन श्रृंखला ह
 </div>
 
 
-## NFT's किस chain पर स्थित हैं?
+## NFT किस chain पर स्थित हैं?
 
 [Ethereum](https://etherscan.io/address/0x3e86d6cf041b719c575f57050697c115f0a53758)
 
-## token allocations क्या हैं?
+## टोकन आवंटन क्या हैं?
 
-*कुल आपूर्ति*: Ethereum Mainnet पर 10,000 अद्वितीय generative NFTs  
-आपूर्ति का 4% (पहले 400 NFTs) परियोजना के शुरुआती समर्थकों को airdrop किया गया था, जिन्होंने Zcash X Mighty Jaxx: Cypherpunk Zero Genesis Edition Toy 59 खरीदा था।
+*कुल आपूर्ति*: Ethereum Mainnet पर 10,000 अद्वितीय जनरेटिव NFTs  
+आपूर्ति का 4% (पहले 400 NFTs) उन परियोजना के शुरुआती समर्थकों को airdrop किया गया था, जिन्होंने Zcash X Mighty Jaxx: Cypherpunk Zero Genesis Edition Toy 59 खरीदा था।
 
-आपूर्ति का 72% (7,200 NFTs) एक नई whitelisting प्रणाली के माध्यम से जनता के लिए जारी किया जाएगा, जिसके लिए encrypted memos का समर्थन करने वाले Zcash wallet का उपयोग आवश्यक है (अधिक विवरण नीचे)।
+आपूर्ति का 72% (7,200 NFTs) एक नए whitelisting तंत्र के माध्यम से जनता के लिए जारी किया जाएगा, जिसके लिए एन्क्रिप्टेड memos का समर्थन करने वाले Zcash wallet का उपयोग आवश्यक है (अधिक विवरण नीचे)।
 
-आपूर्ति का 24% (2,400 NFTs) ECC द्वारा Cypherpunk Reserve में रखा जाएगा, ताकि Web3 क्षेत्र में Zcash और privacy को आगे बढ़ाने वाली भविष्य की पहलों में इसका उपयोग किया जा सके।
+आपूर्ति का 24% (2,400 NFTs) भविष्य की उन पहलों में उपयोग के लिए Cypherpunk Reserve में ECC द्वारा रखा जाएगा जो Zcash और Web3 क्षेत्र में गोपनीयता को आगे बढ़ाती हैं।
 
 
 # Cypherpunk Zero v2 Whitelist 
 
-हाँ, मूल collection hack हो गया था, भविष्य अब भी लिखा जाना बाकी है।
+हाँ, मूल संग्रह हैक हो गया था, भविष्य अभी लिखा नहीं गया है।
 
-## Resources
-
-[Cypherpunk Zero वेबसाइट](https://halo.electriccoin.co/)
+## संसाधन
 
 [Cypherpunk Zero Twitter](https://twitter.com/cypherpunkZero)
 
-[Cypherpunk Zero Opensea संग्रह](https://opensea.io/collection/cypherpunk-zero)
+[Cypherpunk Zero OpenSea संग्रह](https://opensea.io/collection/cypherpunk-zero)
 
 [Cypherpunk Zero DAO Twitter](https://twitter.com/CypherpunkDAO)
 
 [Cypherpunk Zero DAO Discord](https://discord.com/invite/sjfgXys4Jf)
 
-[Cypherpunk Zero NFT मेगा थ्रेड](https://forum.zcashcommunity.com/t/cypherpunk-zero-nft-megathread/41502?u=dismad)
+[Cypherpunk Zero NFT Mega Thread](https://forum.zcashcommunity.com/t/cypherpunk-zero-nft-megathread/41502?u=dismad)

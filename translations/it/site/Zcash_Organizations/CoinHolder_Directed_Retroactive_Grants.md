@@ -1,4 +1,4 @@
-# Coinholder-Directed Retroactive Grants
+# Finanziamenti retroattivi decisi dai detentori di ZEC
 
 Il **Coinholder-Directed Retroactive Grants Program** finanzia il lavoro già completato che ha apportato un valore verificabile all'ecosistema Zcash.
 
@@ -12,7 +12,7 @@ I grant sono **esclusivamente retroattivi**: premiano contributi passati (ad es.
 
 ---
 
-## Eligible Applications
+## Eligible applications
 
 **Focus**:
 
@@ -37,7 +37,7 @@ Votate separatamente; vince quella con il maggior sostegno in ZEC.
 
 Da parte dei Key-Holder per questioni legali o per danni agli utenti/alla comunità (raro, con motivazione).
 
-## How to Submit an Application
+## How to submit an application
 
 **Prepara la proposta**:
 
@@ -57,7 +57,7 @@ Da parte dei Key-Holder per questioni legali o per danni agli utenti/alla comuni
 **Scadenza**:
 
 
-- Trimestrale; annunciata su forum/X (ad es. Q4 2025: 12 ottobre 2025, 23:59 UTC).
+- Trimestrale; annunciata su forum/X (es. Q4 2025: 12 ottobre 2025, 23:59 UTC).
 - Invii tardivi: ripresentali al turno successivo oppure candidati agli ZCG.
 
 
@@ -65,9 +65,9 @@ Da parte dei Key-Holder per questioni legali o per danni agli utenti/alla comuni
 
 Rispondi alle domande della comunità durante i 30 giorni di revisione.
 
-#### note: Amministrato da FPF (conformità, comunicazione); le proposte vengono raccolte su GitHub per garantirne la visibilità.
+#### Note: amministrato da FPF (conformità, comunicazione); le proposte vengono raccolte su GitHub per garantirne la visibilità.
 
-## Voting Process and Cadence
+## Voting process and cadence
 
 **Cadenza trimestrale** (ad es. Q4 2025, Q1 2026):
 
@@ -83,21 +83,21 @@ Inizia dopo la scadenza; discussione/feedback nei thread del forum (spesso viene
 
 Segue la revisione (ad es. ~1-2 settimane a novembre per il Q4).
 
-**Risultati e erogazione**:
+**Risultati ed erogazione**:
 
 Subito dopo; i grant approvati vengono pagati secondo i termini (KYC per importi >$50k).
 
 **Voto**:
 
-  - I coinholder votano con le proprie disponibilità in ZEC (senza lockup; il pool Orchard è idoneo).
+  - I possessori di ZEC votano con le proprie disponibilità in ZEC (senza lockup; la pool Orchard è idonea).
   - Meccanismo: polling decentralizzato (ad es. tramite voting authorities).
   - **Approvazione**: quorum di almeno 420.000 ZEC + maggioranza semplice di voti favorevoli.
   - Voti indipendenti; le monete sono riutilizzabili tra più proposte.
   - Risultati pubblici e trasparenti.
 
 
-#### note: **Turno attuale (al 5 gennaio 2026)**: Q4 2025 completato (voto di novembre); gli invii per il Q1 2026 sono attesi a breve: monitora il forum per gli annunci.
+#### Note: **Turno attuale (al 5 gennaio 2026)**: Q4 2025 completato (voto di novembre); gli invii per il Q1 2026 sono attesi a breve: monitora il forum per gli annunci.
 
-## Latest Updates:
+## Latest updates:
 
 Consulta la [Sezione Grants dello Zcash Community Forum](https://forum.zcashcommunity.com/c/grants/32). Il processo può evolvere con il feedback della comunità.

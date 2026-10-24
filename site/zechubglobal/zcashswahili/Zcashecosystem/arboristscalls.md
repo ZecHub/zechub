@@ -2,7 +2,7 @@
 
 Mikutano ya Zcash Arborist ni mikutano ya kila wiki mbili ya maendeleo ya itifaki inayojikita katika kufuatilia mipango ya uwekaji wa itifaki inayokuja, masuala ya utekelezaji wa nodi za makubaliano, na utafiti wa itifaki.
 
-Mtu Yeyote anayetaka kuchangia katika maendeleo ya itifaki ya Zcash na kushiriki habari kuhusu miradi ya nodi za Zcash. Jisajili hapa: [15:00 UTC](https://us06web.zoom.us/webinar/register/WN_Vk7WMz9sRkiIr_hqH_x3LA) / [22:30 UTC](https://us06web.zoom.us/webinar/register/WN_z0k1ipsnRkS4-DGqDhULdA)
+Mtu Yeyote anayetaka kuchangia katika maendeleo ya itifaki ya Zcash na kushiriki habari kuhusu miradi ya nodi za Zcash. Jisajili hapa: [15:00 UTC](https://web.archive.org/web/20230130034337/https://us06web.zoom.us/webinar/register/WN_Vk7WMz9sRkiIr_hqH_x3LA) / [22:30 UTC](https://web.archive.org/web/20230323232320/https://us06web.zoom.us/webinar/register/WN_z0k1ipsnRkS4-DGqDhULdA)
 
 Orodha kamili na maelezo yote na ajenda zinaweza kupatikana [hapa](https://github.com/ZcashCommunityGrants/arboretum-notes). 
 

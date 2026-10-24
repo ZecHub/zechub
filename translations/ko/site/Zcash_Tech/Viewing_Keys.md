@@ -8,6 +8,18 @@
 
 Viewing Key는 선택적 공개를 위한 도구입니다. 누구에게 무엇을 보여줄지 직접 선택하며, 이를 위해 지출 권한을 넘겨줄 필요가 없습니다.
 
+## 요약
+
+뷰잉 키는 차폐된 Zcash 주소 또는 계정의 활동에 대한 **읽기 전용** 접근 권한을 부여합니다. 이를 보유한 사람은 수신 거래(그리고 Full Viewing Key의 경우 발신 거래도)를 볼 수 있지만, 절대 지출할 수는 없습니다.
+
+- **무엇인가:** 실드 풀의 선택적 공개 도구입니다. [ZIP 310](https://zips.z.cash/zip-0310)에서 도입되어 Sapling 네트워크 업그레이드에서 프로토콜에 추가되었습니다.
+- **무엇을 제공하는가:** 입금 감지(`uivk…` 인커밍 키) 또는 계정의 전체 입출금 가시성(`uview…` 통합 전체 보기 키), 그리고 레거시 Sapling `zxviews…` 키입니다.
+- **무엇을 제공하지 않는가:** 지출 권한입니다. 보기 키 보유자가 하는 어떤 작업도 자금을 이동할 수 없습니다.
+- **현재 어디서 작동하는가:** [Zallet](https://github.com/zcash/zallet)에서 내보내기/가져오기(v0.1.0-beta.2+, `z_exportviewingkey` / `z_importviewingkey`)와 Zkool 등의 지갑에서 감시 전용 계정을 사용할 수 있습니다. 현재 지원 매트릭스는 [지갑](/using-zcash/wallets) 페이지를 참조하세요.
+- **경험칙:** 질문에 답하는 데 필요한 가장 좁은 범위의 키를 우선 사용하고, 한 번 전달한 키는 회수할 수 없으며 자금을 옮겨야만 그 키의 효력을 벗어날 수 있음을 기억하세요.
+
+---
+
 ## Viewing Key를 사용하는 이유는 무엇인가요?
 
 이 주제에 관한 Electric Coin Company의 글은 가장 흔히 발생하는 상황을 설명하며, 오늘날에도 여전히 일반적인 사례입니다.
@@ -74,7 +86,7 @@ Sapling 주소를 전달하면 해당 계정의 Sapling 확장 Full Viewing Key(
 
 ### 자체 인터페이스에서 Viewing Key를 내보내는 지갑
 
-[Wallets](/using-zcash/wallets) 페이지는 각 지갑의 Viewing Key 지원 및 Ironwood 준비 상태를 추적합니다. 작성 시점에 Viewing Key 지원과 **Ironwood: Ready**를 모두 표시하는 지갑에는 ZODL, Zingo!, Zkool, Cake, Zallet, Zecd 및 Nozy가 있습니다. 준비 상태는 변경되므로, 특정 지갑에 의존하기 전에 이 페이지를 확인하세요.
+[Wallets](/using-zcash/wallets) 페이지는 각 지갑의 Viewing Key 지원 및 Ironwood 준비 상태를 추적합니다. 작성 시점에 Viewing Key 지원과 **Ironwood: Ready**를 모두 표시하는 지갑에는 ZODL, Zingo!, Zkool, Cake, Zallet, zecd 및 Nozy가 있습니다. 준비 상태는 변경되므로, 특정 지갑에 의존하기 전에 이 페이지를 확인하세요.
 
 ## Viewing Key를 보기 전용 계정으로 가져오기
 
@@ -104,17 +116,75 @@ zallet rpc z_importviewingkey '"<zxviews… key>"' '"whenkeyisnew"' 0
 - **Ywallet 안내.** Wallets 페이지는 Ywallet을 **Ironwood: Not Ready**로 표시하므로 Ironwood 시대의 Viewing Key를 위해 사람들에게 추천할 지갑이 아닙니다. 동일한 개발자의 Zkool은 같은 범위의 키를 허용하며 Ready로 표시됩니다.
 - **zcashblockexplorer.com/vk.** 이 서비스는 유효하지 않은 인증서와 함께 HTTP 503을 반환하며, 대체되지 않고 삭제되었습니다. 웹사이트에 Viewing Key를 붙여 넣으면 전체 거래 내역을 해당 웹사이트 운영자에게 넘기게 되며, 이는 이전 페이지의 세 가지 옵션 중 언제나 가장 취약한 방식이었습니다. 대신 직접 실행하는 지갑으로 키를 가져오세요.
 
+## 시각적 / 비유
+
+### 감사인의 창
+
+보호된 계정을 은행의 안전 금고실이라고 생각해 보세요:
+
+- **지출 키**는 방 열쇠입니다. 이를 가진 사람은 누구나 상자를 열고 내용물을 꺼낼 수 있습니다.
+- **뷰잉 키**는 감사자가 그 방을 들여다볼 수 있는 창입니다. 감사자는 모든 상자가 들어오고 나가는 것을 보고, 라벨을 읽고, 원장을 기록할 수 있습니다. 하지만 그 창에는 손잡이가 없습니다. 창을 통해 들여다보는 사람은 방 안의 어떤 것도 옮길 수 없습니다.
+
+### 창이 표시할 수 없는 것
+
+창은 방을 향할 뿐, 그 바깥세상을 향하지는 않습니다. 이는 관찰 대상 계정의 차폐된 활동을 보여줄 뿐이며, 관찰자를 블록체인 전체의 관찰자로 만들지도 않고 계정의 활동을 다른 사람의 비차폐 이력과 연관지을 수도 없게 합니다. 또한 이 창은 계정 수준에 설치되므로, 한 개의 보관함(단일 주소)을 들여다볼 수 있는 구멍을 누군가에게 제공하더라도 그 사람은 방 전체의 수신 내역을 볼 수 있습니다. 바로 이것이 가장 좁은 키 규칙이 존재하는 이유입니다.
+
+### 창을 되돌릴 수 없는 이유
+
+Viewing Key는 권한 항목이 아니라 정보 조각입니다. 한 번 복사되면, 그것이 지켜보는 계정에서 자금이 나갈 때까지 존재합니다. 실질적인 해결책은 교체입니다. 상대방이 한 번도 키를 받은 적 없는 새 계정으로 잔액을 옮기면, 오래된 창은 빈 방을 마주하게 됩니다.
+
+## 심층 분석
+
+### 시험 복호화: 보기 기능이 실제로 작동하는 방식
+
+모든 차폐 트랜잭션은 의도된 수신자에게 노트 평문을 암호화합니다. viewing key를 보유한 지갑은 **시도 복호화**를 수행합니다. 체인에서 찾은 각 트랜잭션에 대해 이 키로 노트 암호문을 복호화하려 시도합니다. 성공하면 노트의 가치, 수신자 diversifier 및 메모가 드러나며, 실패해도 비용은 들지 않습니다. यही 때문에 동일한 incoming viewing key는 Orchard 및 Ironwood 풀 전반에서 계속 작동합니다. [ZIP 326](https://zips.z.cash/zip-0326)은 수신자를 Orchard *protocol*에 한정하므로, Ironwood 노트 암호문은 Orchard 형태이며 Ironwood 노트 암호화 도메인에서 계정의 Orchard viewing key로 시도 복호화됩니다.
+
+### 전체 대 수신: 어떤 파생이 이를 결정하는가
+
+**전체** 보기 키는 발신 보기 기능을 파생할 수 있으며, 이는 트랜잭션이 복호화된 후 감사자가 전송의 *발신자* 측을 재구성할 수 있게 합니다. **수신** 보기 키는 의도적으로 그보다 제한적입니다. 수신 노트를 감지하고 복호화할 수는 있지만 발신 연결 관계를 재구성할 수는 없습니다. 이러한 기능 간의 파생은 단방향입니다. 수신 키는 전체 키*로부터* 파생되며, 그 반대는 절대 아닙니다. 따라서 “수신 전용”은 약속이 아니라 실제로 제한된 권한이 됩니다. [ZIP 2005](https://zips.z.cash/zip-2005)의 `use_qsk` 플래그는 파생 자체를 변경하므로, 양자 복구 가능한 키는 기존 키의 변형이 아니라 완전히 다른 키 계열입니다.
+
+### 뷰어에게 마이그레이션이 어떻게 보이는가
+
+[ZIP 318](https://zips.z.cash/zip-0318) 마이그레이션은 작고 균일한 Orchard-에서-Ironwood 거래를 무작위로 연속 수행하므로, 키를 보유한 관찰자에게는 하나의 큰 변동이 아니라 표준 액면가 값의 여러 단계로 이루어진 계단처럼 보입니다. 개별 단계 하나만으로는 마이그레이션되는 총 잔액을 알 수 없지만, *패턴*은 식별할 수 있습니다. 이는 감사 가능한 턴스타일이 의도한 절충안입니다.
+
+## 실질적 영향
+
+- **거래소 및 결제 처리업체용:** 투명 주소를 사용할 때와 마찬가지로 계정의 incoming viewing key(또는 완전한 범위를 위한 UFVK)를 감지 노드에 로드하고 고객 입금을 자동으로 대조할 수 있습니다. 단, 고객의 spending key는 콜드 스토리지를 절대 벗어나지 않습니다.
+- **감사 및 지급준비금 증명용:** full viewing key는 "우리를 믿으세요"를 "직접 검증하세요"로 바꿉니다. 감시 대상 계정의 잔액과 전체 거래 내역을 확인할 수 있지만, 해당 계정에 손을 댈 권한은 전혀 없습니다. 단일 결제에 관한 일회성 증명에는 [결제 공개](/zcash-tech/payment-disclosures)를 함께 사용하세요.
+- **실사 용도:** 거래와 관련된 계정의 키만 상대방에게 제공하고, 지갑 전체를 제공하지 마세요. 관계가 종료되면 해당 계정을 교체하세요.
+- **도구 선택용:** Zallet는 UFVK를 내보내고 Sapling extended full viewing key를 가져오며, Zkool는 unified 및 legacy key를 감시 전용 계정으로 받아들입니다. 지갑을 표준으로 채택하기 전에 [지갑](/using-zcash/wallets) 페이지에서 현재 Ironwood 준비 상태 매트릭스를 확인하세요.
+- **공개의 비용은 영구적입니다:** 키를 보유한 사람이 한 명 늘어날 때마다 닫을 수 없는 영구적인 프라이버시 신용 한도가 생깁니다. 관계별로 키를 발급하고, 하나의 계정으로 범위를 제한하며, 누가 무엇을 보유하는지 기록하세요.
+
+## 흔한 실수
+
+| 일반적인 믿음 | 실제 상황 |
+| --- | --- |
+| "뷰잉 키가 유출되면 자금을 사용할 수 있다." | 그렇지 않습니다. 뷰잉 키에는 지출 권한이 없으며, 유출 시 최악의 경우 거래 내역이 공개될 뿐입니다. |
+| "나중에 뷰잉 키를 취소할 수 있다." | 취소할 수 없습니다. 전달한 키는 상대방이 보유하지 않은 키를 가진 계정으로 자금이 이동할 때까지 작동합니다. |
+| "한 주소의 UIVK를 내보내면 해당 주소만 표시된다." | 뷰잉 키는 계정 범위로 적용됩니다. UIVK는 계정 내 모든 풀의 수신 활동을 표시합니다. |
+| "`zcash-cli z_exportviewingkey`는 여전히 작동한다." | 아닙니다. zcashd는 2026년 7월 18일 지원 종료에 따라 중단되었으므로, 대신 Zallet의 `z_exportviewingkey` / `z_importviewingkey`를 사용하세요. |
+| "읽기 전용이므로 웹 도구에 뷰잉 키를 붙여넣어도 안전하다." | 읽기 전용이라도 해당 계정의 전체 거래 내역을 사이트 운영자에게 넘기는 것을 의미합니다. 직접 운영하는 지갑에 키를 가져오세요. |
+| "Zallet는 Zallet가 내보낼 수 있는 모든 뷰잉 키를 가져올 수 있다." | 아닙니다. Zallet는 Sapling 확장 전체 뷰잉 키만 가져올 수 있으며, 통합 `uview…` 키는 Zkool처럼 통합 키를 지원하는 지갑에 넣어야 합니다. |
+
+## 관련 페이지
+
+- [결제 공개](/zcash-tech/payment-disclosures) — 계정에 대한 지속적인 접근 권한을 부여하지 않고 하나의 결제에 관한 선택된 세부 정보를 증명하는 것
+- [통합 주소](/zcash-tech/unified-addresses) — viewing key 수신자를 담는 주소 계층
+- [Ironwood](/zcash-tech/ironwood) — Orchard이(가) 마이그레이션되는 NU6.3 차폐 풀
+- [턴스타일](/zcash-tech/the-turnstile) — 시청자가 지켜볼 수 있는 Orchard에서 Ironwood로의 마이그레이션 메커니즘
+- [지갑](/using-zcash/wallets) — 지갑, viewing key 지원 및 Ironwood 준비 상태의 전체 디렉터리
+- [Viewing Key에서 거래 내역 내보내기](/guides/viewing-key-transaction-export) — 가져온 키를 완전한 txid/수수료/메모 내역 파일로 변환하는 것
+
 ## 자료
 
 Viewing Key는 필요한 경우에만 사용하고, 질문에 답할 수 있는 가장 좁은 범위의 키를 선호하세요.
 
-- [Payment disclosures](/zcash-tech/payment-disclosures) - 계정에 대한 지속적인 접근 권한을 부여하지 않고 하나의 결제에 관한 선택된 세부 정보를 증명
-- [ZIP 326: NU6.3 Consequences for Wallets](https://zips.z.cash/zip-0326) — Orchard 및 Ironwood 풀 전반에서 Viewing Key가 작동하는 방식
-- [ZIP 229: Version 6 Transaction Format](https://zips.z.cash/zip-0229) — Orchard 및 Ironwood 풀을 정의
-- [Zallet changelog](https://github.com/zcash/zallet/blob/main/CHANGELOG.md) — 어떤 릴리스가 어떤 RPC 메서드를 추가했는지
+- [결제 공개](/zcash-tech/payment-disclosures) - 계정에 대한 지속적인 접근 권한을 부여하지 않고 하나의 결제에 대한 선택된 세부 정보를 증명하기
+- [ZIP 326: NU6.3 지갑에 미치는 영향](https://zips.z.cash/zip-0326) — Orchard 및 Ironwood 풀 전반에서 viewing key가 작동하는 방식
+- [ZIP 229: 버전 6 거래 형식](https://zips.z.cash/zip-0229) — Orchard 및 Ironwood 풀을 정의합니다
+- [ZIP 310](https://zips.z.cash/zip-0310) — viewing key 사양
+- [Zallet 변경 로그](https://github.com/zcash/zallet/blob/main/CHANGELOG.md) — 어떤 릴리스에 어떤 RPC 메서드가 추가되었는지
 - [Zkool README](https://github.com/hhanh00/zkool2/blob/main/README.md) — 지원되는 계정 및 키 유형
 - [ECC, Viewing Key 설명](https://electriccoin.co/blog/explaining-viewing-keys/)
-- [ECC, 선택적 공개와 Viewing Key](https://electriccoin.co/blog/viewing-keys-selective-disclosure/)
+- [ECC, 선택적 공개 및 Viewing Key](https://electriccoin.co/blog/viewing-keys-selective-disclosure/)
 - [ECC, Zcash Viewing Key 동영상 프레젠테이션](https://www.youtube.com/watch?v=NXjK_Ms7D5U&t=199s)
-
-참고: [Unified Address](./Unified_Addresses.md)

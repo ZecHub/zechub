@@ -26,7 +26,7 @@ Comme il existe deux types d’adresses, la valeur peut circuler de quatre faço
 
 ## Ce qu’un explorateur peut voir
 
-Un explorateur public comme [Blockchair](https://blockchair.com/zcash) peut clairement lire :
+Un explorateur public comme [ZecBlock](https://zecblock.com/) peut clairement lire :
 
 - Tout paiement entièrement transparent (t vers t), de bout en bout.
 - L’argent entrant dans le pool protégé (le côté transparent et le montant).
@@ -65,7 +65,7 @@ Si vous interrogez les données brutes, les champs de l’expéditeur et du dest
 - [Zcash : recommandations de confidentialité et de sécurité](https://z.cash/support/security/privacy-security-recommendations/)
 - [Un écosystème protégé (Electric Coin Company)](https://web.archive.org/web/20260903010654/https://electriccoin.co/blog/shielded-ecosystem/)
 - [Comment fonctionne la technologie Zcash](https://z.cash/technology/)
-- [Explorateur Zcash de Blockchair](https://blockchair.com/zcash)
+- [ZecBlock](https://zecblock.com/)
 
 ## Pages associées
 

@@ -5,7 +5,7 @@
 - Zcash non è costruito da un'unica azienda, ma da molte organizzazioni indipendenti che possiedono ciascuna una parte diversa del lavoro
 - Per la maggior parte della sua storia, due organizzazioni hanno guidato lo sviluppo, Electric Coin Company e Zcash Foundation
 - Nel gennaio 2026 l'intero team di Electric Coin Company si è dimesso dopo una disputa sulla governance, e l'ecosistema si è riorganizzato in diversi team indipendenti
-- Oggi il protocollo, il software dei nodi, i wallet, la ricerca, la scalabilità e i finanziamenti sono gestiti da gruppi separati
+- Oggi il protocollo, il software dei nodi, i portafogli, la ricerca, la scalabilità e i finanziamenti sono gestiti da gruppi separati
 - Nessuna singola organizzazione controlla Zcash, la rete è open source e permissionless, e ha continuato a funzionare normalmente durante ogni cambiamento
 
 <br/>
@@ -40,7 +40,7 @@ Questa struttura a due pilastri ha retto per anni, ma dipendeva da quel finanzia
 
 Nel gennaio 2026 la struttura è cambiata bruscamente. Il 7 gennaio, Josh Swihart, amministratore delegato di Electric Coin Company, ha annunciato su X che l'intero team dell'azienda si era dimesso.
 
-Bootstrap era una nonprofit creata nel 2020 per governare Electric Coin Company, che ne era diventata una controllata interamente posseduta. Il disaccordo tra il team dell'azienda e questo consiglio si è accumulato nel tempo e ha toccato diverse questioni, tra cui la direzione dell'organizzazione, come finanziare lo sviluppo e il futuro del wallet Zashi, che il team voleva trasferire in una società privata per raccogliere capitali esterni. Swihart ha descritto l'uscita come un constructive discharge, un termine legale che significa che le condizioni erano state cambiate in modo così grave da rendere di fatto forzate le dimissioni, e ha affermato che una maggioranza del consiglio si era disallineata dalla missione di Zcash.
+Bootstrap era una nonprofit creata nel 2020 per governare Electric Coin Company, che ne era diventata una controllata interamente posseduta. Il disaccordo tra il team dell'azienda e questo consiglio si è accumulato nel tempo e ha toccato diverse questioni, tra cui la direzione dell'organizzazione, come finanziare lo sviluppo e il futuro del portafoglio Zashi, che il team voleva trasferire in una società privata per raccogliere capitali esterni. Swihart ha descritto l'uscita come un constructive discharge, un termine legale che significa che le condizioni erano state cambiate in modo così grave da rendere di fatto forzate le dimissioni, e ha affermato che una maggioranza del consiglio si era disallineata dalla missione di Zcash.
 
 Per correttezza, conta anche l'altra versione dei fatti. Bootstrap ha presentato il conflitto come una questione di governance e di conformità legale nonprofit. Il fondatore di Zcash, Zooko Wilcox, ha difeso pubblicamente i membri del consiglio nominati nella disputa, dicendo di aver lavorato con loro per molti anni e di considerarli persone di alta integrità, chiarendo al tempo stesso di non schierarsi sul disaccordo in sé.
 
@@ -58,18 +58,18 @@ Oggi il lavoro è distribuito tra organizzazioni indipendenti, ognuna con una re
 
 ### Le due organizzazioni nate dalla scissione del 2026
 
-1. ZODL, lo Zcash Open Development Lab, è stato formato dall'ex team di Electric Coin Company ed è guidato da Josh Swihart. Ha raccolto più di venticinque milioni di dollari da investitori esterni e lavora sullo sviluppo del protocollo core, incluso il sistema di proving Halo 2 che alimenta le più recenti transazioni shielded di Zcash, e sul wallet ZODL, un wallet mobile shielded by default precedentemente chiamato Zashi. Vedi [ZODL](https://zechub.wiki/zcash-organizations/zodl).
-2. Sovright è una nonprofit formata da tre ex membri del consiglio di Bootstrap. Si concentra su strumenti e supporto per l'ecosistema e ha costruito Argos, uno strumento per aiutare i primi utenti a recuperare fondi rimasti bloccati in un vecchio wallet non più mantenuto. Vedi [Sovright](https://zechub.wiki/zcash-organizations/sovright).
+1. ZODL, lo Zcash Open Development Lab, è stato formato dall'ex team di Electric Coin Company ed è guidato da Josh Swihart. Ha raccolto più di venticinque milioni di dollari da investitori esterni e lavora sullo sviluppo del protocollo core, incluso il sistema di proving Halo 2 che alimenta le più recenti transazioni schermate di Zcash, e sul portafoglio ZODL, un portafoglio mobile schermato per impostazione predefinita precedentemente chiamato Zashi. Vedi [ZODL](https://zechub.wiki/zcash-organizations/zodl).
+2. Sovright è una nonprofit formata da tre ex membri del consiglio di Bootstrap. Si concentra su strumenti e supporto per l'ecosistema e ha costruito Argos, uno strumento per aiutare i primi utenti a recuperare fondi rimasti bloccati in un vecchio portafoglio non più mantenuto. Vedi [Sovright](https://zechub.wiki/zcash-organizations/sovright).
 
 ### Stewardship del protocollo, ricerca e software dei nodi
 
 3. Zcash Foundation mantiene Zebra, il nodo Rust che diventerà il nodo principale della rete man mano che il client più vecchio zcashd verrà ritirato. Inoltre cura l'organizzazione GitHub di Zcash, il sito z.cash e l'account principale di Zcash su X, e collabora con ZecHub per aiutare a gestire alcune di queste risorse. Vedi [Zcash Foundation](https://zechub.wiki/zcash-organizations/zcash-foundation).
-4. Shielded Labs è una nonprofit indipendente con finanziamento tramite donazioni e con sede in Svizzera. Si concentra sulla ricerca e sulla sostenibilità a lungo termine, incluso il meccanismo di sostenibilità della rete che finanzia lo sviluppo futuro e il lavoro Crosslink per aggiungere finalità proof of stake a Zcash, e ha finanziato l'audit di sicurezza che ha scoperto la vulnerabilità del pool Orchard nel 2026. Vedi [Shielded Labs](https://zechub.wiki/zcash-organizations/shielded-labs).
+4. Shielded Labs è una nonprofit indipendente con finanziamento tramite donazioni e con sede in Svizzera. Si concentra sulla ricerca e sulla sostenibilità a lungo termine, incluso il meccanismo di sostenibilità della rete che finanzia lo sviluppo futuro e il lavoro Crosslink per aggiungere finalità proof of stake a Zcash, e ha finanziato l'audit di sicurezza che ha scoperto la vulnerabilità della pool Orchard nel 2026. Vedi [Shielded Labs](https://zechub.wiki/zcash-organizations/shielded-labs).
 5. Electric Coin Company resta parte della storia come l'organizzazione che ha creato e lanciato Zcash nel 2016. Vedi [Electric Coin Company](https://zechub.wiki/zcash-organizations/electric-coin-company).
 
 ### Scalabilità e crittografia
 
-6. Project Tachyon è uno sforzo di scalabilità guidato dal crittografo Sean Bowe. Propone un nuovo modo per i wallet di sincronizzarsi con la blockchain, chiamato oblivious synchronization, che riduce le dimensioni delle transazioni e, come effetto collaterale, avvicina Zcash alla privacy post-quantistica. Il suo lavoro è documentato su [tachyon.z.cash](https://tachyon.z.cash/).
+6. Project Tachyon è uno sforzo di scalabilità guidato dal crittografo Sean Bowe. Propone un nuovo modo per i portafogli di sincronizzarsi con la blockchain, chiamato sincronizzazione cieca (Oblivious Synchronization), che riduce le dimensioni delle transazioni e, come effetto collaterale, avvicina Zcash alla privacy post-quantistica. Il suo lavoro è documentato su [tachyon.z.cash](https://tachyon.z.cash/).
 7. Il Valar Group è un laboratorio di ricerca e ingegneria crittografica che lavora sul protocollo Zcash per denaro digitale privato e post-quantistico su larga scala. Collabora strettamente con Project Tachyon sul lavoro relativo a scalabilità e quantistica. Maggiori informazioni sul suo lavoro sono disponibili su [valargroup.dev](https://valargroup.dev/).
 
 ### Organizzazioni regionali e comunitarie
@@ -85,7 +85,7 @@ Oggi il lavoro è distribuito tra organizzazioni indipendenti, ognuna con una re
 10. Zcash Community Grants finanzia collaboratori indipendenti e progetti della comunità con una porzione della block reward, distribuendo il lavoro tra molti team oltre alle organizzazioni principali. Vedi [Zcash Community Grants](https://zechub.wiki/zcash-organizations/zcash-community-grants).
 11. Financial Privacy Foundation supporta l'ecosistema Zcash e i progetti della comunità. Vedi [Financial Privacy Foundation](https://zechub.wiki/zcash-organizations/financial-privacy-foundation).
 
-Tutte queste organizzazioni mantengono repository open source, quindi il loro lavoro può essere letto, verificato e sviluppato da chiunque. E le organizzazioni non raccontano l'intera storia. Molti contributi significativi provengono da individui e da aziende sotto contratto finanziate tramite grant, piuttosto che dalle sole organizzazioni principali. Accanto a loro ci sono team di wallet, comunità regionali, sviluppatori indipendenti e investitori che detengono e sostengono ZEC senza costruire il protocollo. L'elenco sopra è la struttura portante, non il quadro completo.
+Tutte queste organizzazioni mantengono repository open source, quindi il loro lavoro può essere letto, verificato e sviluppato da chiunque. E le organizzazioni non raccontano l'intera storia. Molti contributi significativi provengono da individui e da aziende sotto contratto finanziate tramite finanziamenti, piuttosto che dalle sole organizzazioni principali. Accanto a loro ci sono team di portafogli, comunità regionali, sviluppatori indipendenti e investitori che detengono e sostengono ZEC senza costruire il protocollo. L'elenco sopra è la struttura portante, non il quadro completo.
 
 <br/>
 
@@ -93,7 +93,7 @@ Tutte queste organizzazioni mantengono repository open source, quindi il loro la
 
 Quale organizzazione conta per te dipende da ciò che vuoi fare.
 
-1. Per usare Zcash, ti serve un wallet, quindi ZODL e il suo wallet sono un punto di partenza naturale.
+1. Per usare Zcash, ti serve un portafoglio, quindi ZODL e il suo portafoglio sono un punto di partenza naturale.
 2. Per gestire un nodo o comprendere il software della rete, guarda a Zcash Foundation e al suo nodo Zebra.
 3. Per finanziare un progetto o contribuire con lavoro retribuito, guarda a Zcash Community Grants.
 4. Per seguire la ricerca e il futuro del protocollo, segui Shielded Labs, Project Tachyon e il Valar Group.
@@ -106,9 +106,9 @@ Questo wiki esiste per aiutarti ad approfondire, quindi il miglior passo success
 
 - [Che cosa sono ZEC e Zcash](https://zechub.wiki/start-here/what-is-zec-and-zcash) per le basi della rete e della moneta
 - [Guida per nuovi utenti](https://zechub.wiki/start-here/new-user-guide) per una prima panoramica sull'uso di Zcash
-- [Shielded Pools](https://zechub.wiki/using-zcash/shielded-pools) per capire come Zcash mantiene private le transazioni
-- [Il turnstile](https://zechub.wiki/zcash-tech/the-turnstile) per capire come l'offerta monetaria resta verificabile
-- [Ironwood](https://zechub.wiki/zcash-tech/ironwood) per il pool shielded verso cui la rete sta migrando
+- [Pool schermate](https://zechub.wiki/using-zcash/shielded-pools) per capire come Zcash mantiene private le transazioni
+- [Il turnstile (tornello)](https://zechub.wiki/zcash-tech/the-turnstile) per capire come l'offerta monetaria resta verificabile
+- [Ironwood](https://zechub.wiki/zcash-tech/ironwood) per la pool schermata verso cui la rete sta migrando
 - [Network Upgrades](https://zechub.wiki/start-here/network-upgrades) per capire come Zcash cambia nel tempo
 - [zk-SNARKs](https://zechub.wiki/zcash-tech/zk-snarks) per la crittografia alla base della privacy
 

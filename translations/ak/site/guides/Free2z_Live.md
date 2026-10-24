@@ -1,6 +1,6 @@
 [![Edit Page](https://img.shields.io/badge/Edit-blue)](https://github.com/zechub/zechub/edit/main/site/guides/Free2z_Live.md)
 
-# Free2z: Akontaabu nhyehyɛe + Livestream nkyerɛkyerɛ
+# Free2Z: Akontaabu nhyehyɛe + Livestream nkyerɛkyerɛ
 
 ## Nnianimu
 
@@ -97,7 +97,7 @@ Anaasɛ, fi post bi mu hwehwɛ floating plus button no. Efi ha no, wubetumi de n
 
 ## Live Streaming a Wɔde Di Dwuma
 
-Free2z platform no de ade a ɛyɛ hu a wɔfrɛ no Free2z Live ma. Wɔnam saa adwinnade yi so no, adebɔfo betumi afi ase ayɛ live streams ama asɔremma a wɔakyerɛw wɔn din. Free2z Live no mu nneɛma atitiriw bi ne: 
+Free2Z platform no de ade a ɛyɛ hu a wɔfrɛ no Free2Z Live ma. Wɔnam saa adwinnade yi so no, adebɔfo betumi afi ase ayɛ live streams ama asɔremma a wɔakyerɛw wɔn din. Free2Z Live no mu nneɛma atitiriw bi ne: 
 - Ɔdio ne video 
 - Screen kyɛfa a wɔde kyɛ 
 - Mmara a wɔbom yɛ a wɔde sesa 
@@ -105,9 +105,9 @@ Free2z platform no de ade a ɛyɛ hu a wɔfrɛ no Free2z Live ma. Wɔnam saa adw
 - Whiteboarding a wɔde kyerɛw nsɛm 
 - Na pii nso!
 
-### Dɛn na wubetumi de Free2z Live ayɛ
+### Dɛn na wubetumi de Free2Z Live ayɛ
 
-Free2z Live yɛ adwinnadeɛ a tumi wom, ɛma adebɔfoɔ tumi de nneɛma biara a ɛwɔ mu no kɔ. Nhwɛsoɔ kakraa bi a ɛfa nneɛma ko a wobɛtumi de Free2z Live abɔ ho nie: 
+Free2Z Live yɛ adwinnadeɛ a tumi wom, ɛma adebɔfoɔ tumi de nneɛma biara a ɛwɔ mu no kɔ. Nhwɛsoɔ kakraa bi a ɛfa nneɛma ko a wobɛtumi de Free2Z Live abɔ ho nie: 
 - Nkyerɛkyerɛ ne ɔyɛkyerɛ ahorow 
 - Dwumadi ahorow ne nsɛm a esisi 
 - Nnwuma a wɔbom yɛ 
@@ -116,7 +116,7 @@ Free2z Live yɛ adwinnadeɛ a tumi wom, ɛma adebɔfoɔ tumi de nneɛma biara a 
 
 ### Sɛnea wobɛkɔ live
 
-Ɛyɛ mmerɛw yiye sɛ wode Free2z Live befi ase ayɛ live stream. Nanso ahwehwɛde kakraa bi wɔ hɔ ansa na woatumi afi wo asuten no ase. 
+Ɛyɛ mmerɛw yiye sɛ wode Free2Z Live befi ase ayɛ live stream. Nanso ahwehwɛde kakraa bi wɔ hɔ ansa na woatumi afi wo asuten no ase. 
 1. Ɔbɔadeɛ no **ɛsɛ sɛ** nya **asɔremma boɔ** a ɛsua koraa a ɛyɛ 2Zs 10. 
 2. Ɔbɔadeɛ no **ɛsɛ** sɛ anyɛ yie koraa no, 2Zs 150 a aka wɔ wɔn akontaabuo mu. 
 
@@ -124,7 +124,7 @@ Sɛ ɔbɔadeɛ no du **abien no nyinaa** a ɛwɔ atifi hɔ no so a, ahyɛnsodeɛ
 
 ![Go Live button](/content-images/go-live-4c8ac67505.webp)
 
-Sɛ wopɛ sɛ wohyɛ live stream ase a, klik **Go Live** button no so kɛkɛ, na Free2z app no bɛsrɛ kwan sɛ wode wo microphone ne wɛbcam bedi dwuma (sɛ wowɔ bi a). Sɛ woma kwan a ɛho hia wie a, Free2z bɛka akyerɛ wo sɛ kyerɛw abodin bi a wopɛ sɛ wode di dwuma wɔ live stream no mu. Sɛ wopaw nickname wie a, klik **Join** na hyɛ wo live stream no ase.
+Sɛ wopɛ sɛ wohyɛ live stream ase a, klik **Go Live** button no so kɛkɛ, na Free2Z app no bɛsrɛ kwan sɛ wode wo microphone ne wɛbcam bedi dwuma (sɛ wowɔ bi a). Sɛ woma kwan a ɛho hia wie a, Free2Z bɛka akyerɛ wo sɛ kyerɛw abodin bi a wopɛ sɛ wode di dwuma wɔ live stream no mu. Sɛ wopaw nickname wie a, klik **Join** na hyɛ wo live stream no ase.
 
 ![Select nickname for live stream](/content-images/select-nickname-414444b992.webp)
 
@@ -134,15 +134,15 @@ Na wɔayɛ! Sɛ wohyɛ aseɛ yɛ live stream a, wo profile bɛkyerɛ icon bi a �
 
 Sɛ nkurɔfo kɔka live stream no ho a, wobetumi abɔ nkɔmmɔ, abisa sɛ wɔmmɛka asɛnka agua no ho, adi nkitaho denam abatow a wɔbɛtow wɔ abatow mu so, ne nea ɛkeka ho.
 
-![Example of a Free2z Live session](/content-images/free2z-live-example-eecb2ae553.webp)
+![Example of a Free2Z Live session](/content-images/free2z-live-example-eecb2ae553.webp)
 
-_(Nhwɛso a ɛfa Free2z Live nhyiam ho)_
+_(Nhwɛso a ɛfa Free2Z Live nhyiam ho)_
 
-Free2z Live yɛ adwuma pii na ɛwɔ tumi. Wɔ ɔfa a edi hɔ no mu no, m’ayɛ ne dwumadie ne ne nnwinnadeɛ ho nsusuiɛ.
+Free2Z Live yɛ adwuma pii na ɛwɔ tumi. Wɔ ɔfa a edi hɔ no mu no, m’ayɛ ne dwumadie ne ne nnwinnadeɛ ho nsusuiɛ.
 
-### Yɛrehwehwɛ Free2z Live mu
+### Yɛrehwehwɛ Free2Z Live mu
 
-Saa wiki-doc yi nnyɛ nea wɔayɛ sɛ ɛbɛyɛ akwankyerɛ a emu dɔ a ɛfa Free2z anaa Free2z Live ho. Nanso ne nnwinnade ho nsɛm a wɔaka abom wɔ ɔkwan a ɛkɔ akyiri so ni.
+Saa wiki-doc yi nnyɛ nea wɔayɛ sɛ ɛbɛyɛ akwankyerɛ a emu dɔ a ɛfa Free2Z anaa Free2Z Live ho. Nanso ne nnwinnade ho nsɛm a wɔaka abom wɔ ɔkwan a ɛkɔ akyiri so ni.
 
 Wɔ screen no ase benkum so no, yehu buttons kakraa bi.
 
@@ -177,19 +177,19 @@ Ase nifa so bɔtn ahorow no kura dwumadi ahorow a ɛfa live stream nkitahodi no 
 
 ## Awie
 
-Sɛ yɛde rewie a, Free2z yɛ beaeɛ a ɛyɛ adwuma pii ma adebɔfoɔ a wɔde bɛda wɔn tumi adi, akyɛ nimdeɛ na wɔaboaboa sika ano ama wɔn nnwuma, na wɔne wɔn akyigyinafoɔ adi nkitaho denam Free2z Live adwinnadeɛ a tumi wom no so.
+Sɛ yɛde rewie a, Free2Z yɛ beaeɛ a ɛyɛ adwuma pii ma adebɔfoɔ a wɔde bɛda wɔn tumi adi, akyɛ nimdeɛ na wɔaboaboa sika ano ama wɔn nnwuma, na wɔne wɔn akyigyinafoɔ adi nkitaho denam Free2Z Live adwinnadeɛ a tumi wom no so.
 
 ----
 
 ### Akadeɛ
 
-[Free2z](https://free2z.cash/)  
-[Free2z nkrataa a wɔde kyerɛw](https://free2z.cash/docs/)  
+[Free2Z](https://free2z.cash/)  
+[Free2Z nkrataa a wɔde kyerɛw](https://free2z.cash/docs/)  
 [2Z Nsɛm a Wɔaka abom](https://free2z.cash/docs/getting-started/tuzis)  
 [Profile a wobɛyɛ](https://free2z.cash/docs/for-creators/creating-a-profile)  
-[Dɛn ne Free2z Live?](https://free2z.cash/docs/for-creators/free2z-live)  
-[Free2z ma Wɔn a Wɔboa](https://free2z.cash/docs/category/for-supporters)
+[Dɛn ne Free2Z Live?](https://free2z.cash/docs/for-creators/free2z-live)  
+[Free2Z ma Wɔn a Wɔboa](https://web.archive.org/web/20260118172223/https://free2z.cash/docs/category/for-supporters/)
 
 ---
 
-_James Katz na ɔkyerɛwee maa Zechub._
+_James Katz na ɔkyerɛwee maa ZecHub._

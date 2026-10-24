@@ -121,7 +121,7 @@ Her işlem için:
 
 
 - [Cüzdanlar](/wallets)
-- [Gizlilik - En İyi Uygulamalar](/privacy/best-practices)
+- [Zcash ödemenizi kim görebilir?](/start-here/who-can-see-your-zcash-payment)
 
 <br/>
 

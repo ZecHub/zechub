@@ -97,7 +97,7 @@ MetaMask теперь поддерживает **экранированный Zc
 > **Обмен ETH -> ZEC** - Используйте сервисы, такие как **LeoDex**, и отправляйте средства на ваш экранированный адрес.  
 > **Вывод с биржи** - Выведите купленные ZEC на ваш экранированный адрес WebZjs.  
 
-![LEODEX-SWAP](/content-images/HyLQ0G2ugg-8d82ef24f6.webp)
+![LeoDex-SWAP](/content-images/HyLQ0G2ugg-8d82ef24f6.webp)
 
 
 > => Используйте экранированные (z) адреса для **полной приватности**.
@@ -158,4 +158,4 @@ MetaMask теперь поддерживает **экранированный Zc
 > Создание shielded-доказательств может занимать время; вычисления в браузере обрабатываются через WebAssembly.  
 > Восстановление простое: установите MetaMask и Snap, затем импортируйте существующую сид-фразу.  
 > Snap по умолчанию использует **shielded ZEC**, transparent addresses **не являются основным фокусом**.  
-> Используйте [zcashblockexplorer.com](https://zcashblockexplorer.com) для подтверждения транзакций.
+> Используйте [mainnet.zcashexplorer.app](https://mainnet.zcashexplorer.app) для подтверждения транзакций.

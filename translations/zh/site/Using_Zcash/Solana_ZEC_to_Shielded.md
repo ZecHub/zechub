@@ -10,6 +10,20 @@
 
 ---
 
+## 简而言之
+
+- 你 Solana 钱包中的 ZEC 是一种 **Solana 代币**（铸造地址为 `A7bd…QXaS`），由 NEAR OmniBridge 在 Zcash 链上持有的真实 ZEC 以 1:1 比例支持——存在于 Solana 公共账本上、且无法在那里被屏蔽的“纸面 ZEC”。
+- 路径分两步：先在 solswap.org（NEAR Intents）**存入**该代币，然后在 near.com 上**提现**至你钱包的屏蔽 `u1` 地址。不要使用 Phantom 自带的 Swap 按钮——它帮不了你。
+- 使用 [ZecHub 目录](/wallets) 标记为 **Ironwood：就绪** 的钱包，并在 Phantom 中保留少量 SOL 以支付 Solana 费用。
+- 我们的实际测试（2026 年 9 月 27 日，0.00266336 ZEC）：存入在 9 秒内到账，提现耗时约 8 分钟，总成本约为 0.00025 ZEC + 0.0016 SOL。
+- 安全提示：仅在 `near.com`/`solswap.org` 上签署消息中含有 `intents.near` 的请求，绝不要输入你的助记词，并且应粘贴 `u1`，绝不要粘贴 `t1`。
+
+## 视觉类比
+
+ZEC 在 Solana 上的运作方式就像一枚**赌场筹码**。它的定价如同现金，而赌场——NEAR OmniBridge——承诺向任何归还筹码的人兑现真正的纸钞（原生 ZEC）。但这枚筹码只是赌场账本中的一行记录：所有人都能看到谁持有它，其价值取决于赌场系统是否保持稳健。通过 near.com 提现，就像走到兑换柜台将筹码兑现。一旦纸钞进入 shielded pool，它们就进入了你自己的不透明钱包——再也没有人能看到金额或持有人。
+
+---
+
 ## 你实际持有的是什么
 
 你 Solana 钱包中的 ZEC 是 Solana 上的代币，并非 Zcash 网络上的币。NEAR OmniBridge 发行该代币，并在 Zcash 链上持有真实的 ZEC 作为支撑；该桥自 2025 年 10 月起已在 Solana 上运行。其 Solana 端依赖 Wormhole 消息和 NEAR Chain Signatures，而非 Zcash 轻客户端，因此 Solana 端的可靠性仅取决于这两个系统。人们称它为“纸面 ZEC”。它跟踪 ZEC 的价格，但每笔余额和转账都位于 Solana 公共账本中、归属你的钱包地址；只要它留在那里，就无法被屏蔽。
@@ -20,7 +34,7 @@
 A7bdiYdS5GjqGFtxf17ppRHtDKPkkRqbKtR27dxvQXaS
 ```
 
-![Phantom's About Zcash panel showing the contract address A7bd…QXaS on the Solana network](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Using_Zcash/assets/solana-zec-to-shielded/01-phantom-zec-mint.png)
+![Phantom's About Zcash panel showing the contract address A7bd…QXaS on the Solana network](/content-images/01-phantom-zec-mint-4a718bc213.webp)
 
 Phantom 会将其缩写为 `A7bd…QXaS`，因此请比对首尾字符，或在 [Solscan](https://solscan.io/token/A7bdiYdS5GjqGFtxf17ppRHtDKPkkRqbKtR27dxvQXaS) 上查询完整地址。你钱包中任何其他名为“ZEC”的代币，无论名称或徽标为何，都不是这个代币。不要动它。
 
@@ -47,7 +61,7 @@ ZecHub 不会替你选择。请从 [ZecHub 钱包目录](/wallets) 中挑选，�
 
 你的钱包会显示两类地址：
 
-![A Zcash wallet's Receive screen with a shielded address starting u1 and a transparent address starting t1](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Using_Zcash/assets/solana-zec-to-shielded/02-zodl-receive.png)
+![A Zcash wallet's Receive screen with a shielded address starting u1 and a transparent address starting t1](/content-images/02-zodl-receive-c98cd378fb.webp)
 
 | 开头 | 类型 | 公众能看到什么 |
 |---|---|---|
@@ -72,11 +86,11 @@ ZecHub 不会替你选择。请从 [ZecHub 钱包目录](/wallets) 中挑选，�
 2. 点按 **存入**。将 **资产** 设置为 **Zcash**、**网络** 设置为 **Solana**，并将方式设置为 **钱包**。
 3. 输入金额（或点按 **最大值**），并在 Phantom 中批准交易。
 
-![solswap Deposit screen with Zcash as the asset, Solana as the network and Wallet as the method](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Using_Zcash/assets/solana-zec-to-shielded/03-solswap-deposit.png)
+![solswap Deposit screen with Zcash as the asset, Solana as the network and Wallet as the method](/content-images/03-solswap-deposit-425691e62f.webp)
 
 我们的存款于 15:09:08（UTC+1）进入 Solana 区块，九秒后 solswap 将其显示为 **已完成**。
 
-![solswap deposit history showing Completed, +0.0026 ZEC](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Using_Zcash/assets/solana-zec-to-shielded/04-solswap-deposit-complete.png)
+![solswap deposit history showing Completed, +0.0026 ZEC](/content-images/04-solswap-deposit-complete-be5feaf758.webp)
 
 你的 ZEC 现在位于你的 NEAR Intents 余额中。你的 Phantom 密钥授权每一次转出操作，NEAR Intents 求解器负责执行交付，而 NEAR Intents 可以因合规审查而暂时持有余额（参见下方信任说明）。
 
@@ -84,22 +98,22 @@ ZecHub 不会替你选择。请从 [ZecHub 钱包目录](/wallets) 中挑选，�
 
 solswap 也有 **提取** 页面，但对我们无效。无论我们选择 Zcash 还是 Solana 作为网络，**收到金额** 和 **费用** 始终显示为“–”，按钮也没有任何反应。
 
-![solswap Withdraw form with the received amount and fee stuck at a dash](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Using_Zcash/assets/solana-zec-to-shielded/05-solswap-withdraw-blank.png)
+![solswap Withdraw form with the received amount and fee stuck at a dash](/content-images/05-solswap-withdraw-blank-92c6e64c65.webp)
 
 如果你遇到这种情况，你的 ZEC 并没有被卡住。余额绑定于你钱包的密钥，而不是网站，因此你使用该钱包登录的任何 NEAR Intents 应用都能访问它。我们在 near.com 完成了操作：
 
 1. 前往 `near.com`，并使用同一个 Phantom 钱包登录。
 2. 你的 solswap 余额会显示在 **迁移旧资产** 下（near.com 将来自较旧 NEAR Intents 应用的余额称为“旧版”）。在 ZEC 所在行点按 **提取**。你不需要使用 **迁移**。
 
-![near.com Move legacy assets page listing 0.0026 ZEC with Move and Withdraw buttons](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Using_Zcash/assets/solana-zec-to-shielded/06-nearcom-legacy-assets.png)
+![near.com Move legacy assets page listing 0.0026 ZEC with Move and Withdraw buttons](/content-images/06-nearcom-legacy-assets-7ee16c5ac4.webp)
 
 3. 将 **网络** 设为 **Zcash**，在 **收款人** 中粘贴你钱包的 `u1` 地址，并与钱包比对前六个和后六个字符。
 
-![near.com Withdraw legacy asset form with Zcash as the network and a u1 recipient, receive at least 0.00233164 ZEC, about 2 minutes](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Using_Zcash/assets/solana-zec-to-shielded/07-nearcom-withdraw.png)
+![near.com Withdraw legacy asset form with Zcash as the network and a u1 recipient, receive at least 0.00233164 ZEC, about 2 minutes](/content-images/07-nearcom-withdraw-724ef22b38.webp)
 
 4. 点按 **审核提取**，阅读摘要后点按 **发送**。
 
-![near.com Review send screen: network Zcash, recipient receives at least 0.00233164 ZEC, fee 0 ZEC, you pay 0.00266336 ZEC](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Using_Zcash/assets/solana-zec-to-shielded/08-nearcom-review.png)
+![near.com Review send screen: network Zcash, recipient receives at least 0.00233164 ZEC, fee 0 ZEC, you pay 0.00266336 ZEC](/content-images/08-nearcom-review-b6053f675b.webp)
 
 5. Phantom 会要求你为 near.com **签署消息**。此签名授权 NEAR Intents 转移你的余额。它不消耗 SOL，但这并不代表无害：仿冒网站可以显示相同请求，并借此清空你的 NEAR Intents 余额。点按 **确认** 前，请检查以下所有内容；若任一项不符，请点按 **取消**：
    - 请求中显示的网站是 `near.com`。（第 1 步的存款是来自 `solswap.org` 的普通 Phantom 交易请求；同样检查其中的名称。）
@@ -107,13 +121,13 @@ solswap 也有 **提取** 页面，但对我们无效。无论我们选择 Zcash
    - 消息应当是如截图所示的可读文本。如果它是无法阅读的数据块，或网站与地址栏中的网站不一致，请拒绝。
    - 它绝不会要求你的助记词。签名不涉及输入助记词。
 
-![Phantom Sign Message request from near.com on the Solana network](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Using_Zcash/assets/solana-zec-to-shielded/09-phantom-sign-message.png)
+![Phantom Sign Message request from near.com on the Solana network](/content-images/09-phantom-sign-message-cb1ce6d20f.webp)
 
 6. near.com 会显示 **正在处理发送**、**正在发送** 和 **完成**。**在浏览器中查看** 会打开该转账的 NEAR Intents 记录。
 
-![near.com status screen: Sending 0.0023 ZEC, all three steps complete](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Using_Zcash/assets/solana-zec-to-shielded/10-nearcom-complete.png)
+![near.com status screen: Sending 0.0023 ZEC, all three steps complete](/content-images/10-nearcom-complete-c641093c46.webp)
 
-![NEAR Intents explorer record: created 3:59:28 PM, withdrawn to the u1 address 4:07:55 PM, with the Zcash withdraw transaction ID](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Using_Zcash/assets/solana-zec-to-shielded/11-intents-explorer.png)
+![NEAR Intents explorer record: created 3:59:28 PM, withdrawn to the u1 address 4:07:55 PM, with the Zcash withdraw transaction ID](/content-images/11-intents-explorer-f93f87814e.webp)
 
 ### 我们的测试成本和所需时间
 
@@ -145,19 +159,19 @@ NEAR 的桥公布标准 Zcash 提取的最低额度为 0.01 ZEC、费用为 0.00
 
 它已以屏蔽状态到账。我们的 ZEC 发送至 `u1` 地址，并直接进入 Ironwood 屏蔽池。没有透明步骤，也无需手动屏蔽。钱包在收集确认时，于 16:07（UTC+1）将其列为带屏蔽图标的 **正在接收…**。
 
-![Zcash wallet activity showing Receiving 0.00241336 ZEC with a shield icon](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Using_Zcash/assets/solana-zec-to-shielded/12-zodl-receiving.png)
+![Zcash wallet activity showing Receiving 0.00241336 ZEC with a shield icon](/content-images/12-zodl-receiving-cb9f41511d.webp)
 
 若要自行检查，请在钱包中打开该交易并复制交易 ID。
 
-![Zcash wallet transaction details with the transaction ID and timestamp](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Using_Zcash/assets/solana-zec-to-shielded/13-zodl-tx-details.png)
+![Zcash wallet transaction details with the transaction ID and timestamp](/content-images/13-zodl-tx-details-b08434d680.webp)
 
 将其粘贴到 [Zcash 区块浏览器](https://mainnet.zcashexplorer.app)中。不要被摘要误导。我们的摘要显示 **屏蔽输入 / 输出 0 / 0** 以及 **从/至屏蔽池转移 0.0 ZEC**，因为浏览器的摘要尚未统计 Ironwood。你看到的 `t1` 地址位于发送端（它花费的 ZEC 及保留的找零），并非你的地址。
 
-![Explorer summary for the transaction: two transparent inputs, one transparent output, 0/0 shielded](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Using_Zcash/assets/solana-zec-to-shielded/14-explorer-summary.png)
+![Explorer summary for the transaction: two transparent inputs, one transparent output, 0/0 shielded](/content-images/14-explorer-summary-6153afb265.webp)
 
 点击 **原始 TX：JSON** 并搜索 `ironwood`。其中的负 `valueBalance` 表示 ZEC 正在进入 Ironwood 池。我们的值为 `-0.00241336`，与实际到账金额完全一致，并且交易中没有任何内容显示接收者是谁。
 
-![Raw transaction JSON with the ironwood section highlighted: valueBalance -0.00241336 (highlight added)](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Using_Zcash/assets/solana-zec-to-shielded/15-explorer-raw-ironwood.png)
+![Raw transaction JSON with the ironwood section highlighted: valueBalance -0.00241336 (highlight added)](/content-images/15-explorer-raw-ironwood-8ff8ae0892.webp)
 
 [区块浏览器能看到什么](/zcash-tech/what-a-block-explorer-can-see)解释了其余字段。
 
@@ -181,9 +195,28 @@ NEAR 的桥公布标准 Zcash 提取的最低额度为 0.01 ZEC、费用为 0.00
 
 ---
 
+## 常见错误
+
+- **使用 Phantom 的 Swap 按钮**，而不是充值流程。你已经持有该代币——兑换只是把一种纸面 ZEC 换成另一种代币，离原生 ZEC 并没有更近。
+- **粘贴 `t1` 地址**，或粘贴隐藏了透明接收方的 `u1`，而你的钱包提供的是仅屏蔽的 `u1`。充值会公开到账，并永久关联到你的钱包。
+- 当 solswap 的 Withdraw 页面显示“–”时，**以为资金被卡住了**。余额取决于你的 Phantom 密钥，而不是网站——请在 near.com 完成提现。
+- **未检查就签署消息。** 仿冒网站只需一次签名就能清空你的 NEAR Intents 余额。网站必须是 `near.com`，且消息必须包含 `"verifying_contract": "intents.near"`。
+- **混淆两个“ZEC”代币代码。** Solana 代币与原生 Zcash ZEC 同名但不在同一网络——将任一发送到另一条链都会丢失。
+
 ## 可以如何使用屏蔽的 ZEC
 
 - 私密地使用它：[私密使用 ZEC](/guides/using-zec-privately)
 - 查找接受它的地点：[可消费 ZEC 的地点](/using-zcash/spend-zcash/top-10-places-to-spend-zec)
 - 发送时附带一条私密消息：[备注](/using-zcash/memos)
 - 在不关联身份的情况下付款给他人：[在不关联身份的情况下转账](/zcash-use-cases/send-money-without-linking-identity)
+
+---
+
+## 相关页面
+
+- [如何在 Phantom Wallet 中兑换 ZEC](/using-zcash/solswap) — 更详细了解 solswap 页面
+- [屏蔽资金池](/using-zcash/shielded-pools) — Ironwood/Orchard 资金池是什么，以及接收方如何运作
+- [谁能看到你的 Zcash 付款？](/start-here/who-can-see-your-zcash-payment) — 屏蔽实际隐藏了什么
+- [钱包](/wallets) — 钱包目录；查看 **Ironwood：就绪** 标签
+- [托管型交易所](/using-zcash/custodial-exchanges) — 此路径所避免的取舍
+- [恢复资金](/using-zcash/recovering-funds) — 应妥善保管什么，才能永远不失去访问权限

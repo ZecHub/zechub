@@ -25,7 +25,7 @@ Z.cash is de hoofdwebsite van Zcash. Het biedt inhoud en documentatie van Zcash 
 
 **[Zcash Github](https://github.com/zcash/zcash)**
 
-Heb je codeerkarbonades en wil je dieper in de technische kant van Zcash duiken? De Zcash Github Repo is de repository voor [zcashd](https://electriccoin.co/zcashd/), de eerste Zcash node-implementatie.
+Heb je codeerkarbonades en wil je dieper in de technische kant van Zcash duiken? De Zcash Github Repo is de repository voor [zcashd](https://web.archive.org/web/20240222050745/https://electriccoin.co/zcashd/), de eerste Zcash node-implementatie.
 
 **[Zcash Foundation Github](https://github.com/ZcashFoundation)**
 

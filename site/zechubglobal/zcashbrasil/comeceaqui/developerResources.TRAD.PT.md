@@ -6,7 +6,7 @@ Uma lista dos recursos recomendados para novos desenvolvedores Zcash
 
 - [Documentos Zcash ](https://zcash.readthedocs.io/en/latest/)
 
-- [Dominando o Bitcoin: Programando a Blockchain Aberta](https://www.amazon.com/Mastering-Bitcoin-Programming-Open-Blockchain-ebook/dp/B071K7FCD4)
+- [Dominando o Bitcoin: Programando a Blockchain Aberta](https://web.archive.org/web/20230225165018/https://www.amazon.com/Mastering-Bitcoin-Programming-Open-Blockchain-ebook/dp/B071K7FCD4)
 
 - [RPCs do Zcashd](https://zcash.github.io/rpc/)
 

@@ -5,13 +5,21 @@
 
 # Warum Privatsphäre wichtig ist
 
+## TL;DR
+
+- **Tor** leitet deinen Datenverkehr über drei Relays und funktioniert sowohl für das normale Web als auch für Onion-Dienste — heute ist es der praktische Standard zur Anonymisierung von Wallet-Verbindungen und beim Surfen
+- **I2P** ist ein vollständig verschlüsseltes Peer-to-Peer-Overlay-Netzwerk für eigene interne Dienste; **kein aktueller Zcash-Knoten spricht I2P nativ**
+- **Auf Mobilgeräten:** Leite eine Zcash-Wallet mit wenigen Tippen über Tor mit Orbot („Tor Enabled Apps“)
+- **Der Betrieb eines Zcash-Knotens über Tor ist derzeit nicht möglich:** `zcashd` erreichte am 18. Juli 2026 sein Supportende, und die Tor-Funktion von Zebra ist im Upstream weiterhin deaktiviert
+- Tor verbirgt *wo du bist*, nicht *was du on-chain tust* — transparente Transaktionen bleiben öffentlich
+
 Im digitalen Zeitalter ist der Schutz Ihrer [Privatsphäre](https://www.privacyguides.org/en/) zunehmend wichtig geworden. Während manche Privatsphäre als verlorene Sache betrachten, ist das nicht der Fall. Ihre Privatsphäre steht auf dem Spiel und sollte Anlass zur Sorge geben. Privatsphäre hat einen erheblichen Wert, da sie mit Macht zusammenhängt, und es ist entscheidend, sicherzustellen, dass diese Macht verantwortungsvoll ausgeübt wird.
 
 ## Tor- und I2P-Technologien
 
 ## Tor
 
-[Tor](https://www.privacyguides.org/en/tor/?h=tor) ist ein Proxy-Tool, das das Tor-Netzwerk nutzt, um Verbindungen für Anwendungen herzustellen. Orbot erreicht dies, indem es deren Datenverkehr durch Tor leitet und so [Privatsphäre und Anonymität](https://www.torproject.org/) für diese Anwendungen verbessert.
+[Tor](https://www.privacyguides.org/en/tor/?h=tor) ist ein Proxy-Tool, das das Tor-Netzwerk nutzt, um Verbindungen für Anwendungen herzustellen. Tor erreicht dies, indem es deren Datenverkehr über Tor leitet und dadurch [Privatsphäre und Anonymität](https://www.torproject.org/) für diese Anwendungen verbessert.
 
 ## I2P-Netzwerk
 
@@ -39,30 +47,30 @@ Sowohl Tor als auch I2P sind dezentrale und anonyme Peer-to-Peer-Netzwerke, aber
 
 Orbot ist ein kostenloses virtuelles privates Netzwerk (VPN) für Smartphones, das den Datenverkehr aller Anwendungen auf Ihrem Gerät durch das Tor-Netzwerk leitet.
 
-Befolgen Sie diese Anweisungen, um ein Zcash-Wallet durch Tor zu leiten. Beachten Sie, dass Ywallet, das in früheren Versionen dieses Leitfadens verwendet wurde, nicht mehr gepflegt wird und dem Netzwerk nach Ironwood nicht mehr folgen wird. Wählen Sie daher ein gepflegtes Wallet von der Seite [Wallets](/using-zcash/wallets).
+Befolgen Sie diese Anweisungen, um ein Zcash-Wallet durch Tor zu leiten. Beachten Sie, dass YWallet, das in früheren Versionen dieses Leitfadens verwendet wurde, nicht mehr gepflegt wird und dem Netzwerk nach Ironwood nicht mehr folgen wird. Wählen Sie daher ein gepflegtes Wallet von der Seite [Wallets](/using-zcash/wallets).
 
 1.  Laden Sie *Orbot* aus dem App Store herunter und installieren Sie es.
 
-2.  Nach der Installation erscheint eine Begrüßungsnachricht. Gehen Sie weiter zur *Orbot*-Startseite und klicken Sie auf *'Tor Enabled Apps'.*              
+2. Nach der Installation erscheint eine Begrüßungsnachricht. Gehen Sie zur Startseite von *Orbot* und klicken Sie auf *'Tor Enabled Apps'.*
 
 3. Dadurch wird auf dem Bildschirm eine Seite mit den Tor-kompatiblen Anwendungen angezeigt. Suchen Sie Ihr Zcash-Wallet in der Liste und stellen Sie sicher, dass es ausgewählt ist.
 
 4. Es erscheint eine Verbindungsanfrage zum Einrichten eines VPN, wodurch *Orbot* den Netzwerkverkehr überwachen kann. *Orbot* wird initialisiert, sobald diese Berechtigung genehmigt wurde. 
 
-5. Prüfen Sie die Taskleiste oder die Orbot-Startseite, um zu verifizieren, dass Tor läuft; bestätigt wird dies, wenn Sie 'Connected to the Tor network' sehen.
+5. Überprüfe die Taskleiste oder die Orbot-Startseite, um sicherzustellen, dass Tor läuft. Dies wird bestätigt, wenn du „Mit dem Tor-Netzwerk verbunden“ siehst.
 
 *Hinweis: Wenn Tor von Ihrem Mobilfunknetz blockiert wird, können Sie alternativ einen Bridge Server verwenden, um sich zu verbinden.*
 
 
 ## Tor auf dem PC oder Desktop installieren
 
-* Der Tor Browser kann von der offiziellen Website heruntergeladen werden; den Link finden Sie [hier](https://www.torproject.org/download/).
+* Der Tor Browser kann von der offiziellen Website heruntergeladen werden; den Link finden Sie [hier](https://download.torproject.org/).
 
  Die bequemste Art, Tor zu installieren, ist über das Tor Browser Bundle. Wenn Sie eine Installation ohne grafische Oberfläche bevorzugen, können Sie stattdessen den Tor-Daemon separat installieren. 
 
 *Hinweis: Standardmäßig stellt das Tor Browser Bundle einen SOCKS-Listener auf tcp/9150 bereit und der Tor-Daemon einen SOCKS-Listener auf tcp/9050.*
 
-* Beachten Sie die vom Tor Project bereitgestellten Installations-[anweisungen](https://support.torproject.org/apt/), die speziell für Ihr Betriebssystem gelten.
+* Beachten Sie die vom Tor Project bereitgestellten Installations-[anweisungen](https://support.torproject.org/little-t-tor/getting-started/installing/), die speziell für Ihr Betriebssystem gelten.
 
 ## Einen Knoten über Tor betreiben
 
@@ -85,3 +93,11 @@ Wenn Sie jetzt Anonymität auf Knoten-Ebene benötigen, ist der praktikable Ansa
 - **Leiten Sie Ihr Wallet durch Tor** mit Orbot auf Mobilgeräten, wie oben beschrieben. Das ist die praktikable Option für die meisten Menschen und verbirgt Ihre IP vor dem lightwalletd-Server, mit dem Ihr Wallet spricht
 - **Verwenden Sie den Tor Browser** für Block Explorer, Foren und alles andere, bei dem Sie lieber nicht über Ihre Adresse verknüpft werden möchten
 - **Denken Sie daran, was Tor nicht verbirgt.** Es anonymisiert Ihren Netzwerkstandort, nicht Ihre On-Chain-Aktivität. Das Senden von einer transparenten Adresse ist weiterhin öffentlich, und Werte, die zwischen abgeschirmten Pools übertragen werden, veröffentlichen weiterhin den Betrag. Siehe [Shielded Pools](/using-zcash/shielded-pools), um zu erfahren, was sichtbar bleibt
+
+## Verwandte Seiten
+
+- [VPN und DVPN](VPN_and_DVPN.md) — VPN-Alternativen und ihr Vergleich
+- [Webbrowser](Web_Browsers.md) — Browser-Härtung für den alltäglichen Datenschutz
+- [Sichere Messenger](Secure_Messengers.md) — Tools für private Kommunikation
+- [Was ein Block Explorer sehen kann](../Zcash_Tech/What_a_Block_Explorer_Can_See.md) — was Ihre Privatsphäre auf Knotenebene schützt und was nicht
+- [Shielded Pools](/using-zcash/shielded-pools) — was selbst bei Anonymität auf Netzwerkebene on-chain sichtbar bleibt

@@ -167,7 +167,7 @@ ShapeShift kple Zcash ƒe ƒoƒo ɖekae tsi tre ɖi na afɔɖeɖe si ŋu gɔmese
 
 [Zodl ƒe Gakotoku](https://zodl.com)
 
-[ShapeShift DAO Dziɖuɖu (FOX Token) .](https://shapeshift.com/fox-token)
+[ShapeShift DAO Dziɖuɖu (FOX Token) .](https://web.archive.org/web/20210126180411/https://shapeshift.com/fox-token)
 
 [Zcash Nutome ƒe Gakpekpeɖeŋunana](https://zcashcommunitygrants.org/)
 

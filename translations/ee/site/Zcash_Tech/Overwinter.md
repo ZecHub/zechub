@@ -12,7 +12,7 @@ Dzomeŋɔli nye Zcash [network ƒe ŋgɔyiyi](../start-here/network-upgrades), s
 
 Nusitae esia le vevie ɖo. Blockchain si le agbe ƒe sewo tɔtrɔ nye afɔku. Get it wrong eye network la ƒe tɔtrɔ eve ate ŋu malɔ̃ ɖe edzi o, alo woate ŋu awɔ asitsatsa si woɖo na kɔsɔkɔsɔ ɖeka ƒe kɔpi ɖe bubu dzi. Do ŋgɔ na Overwinter la, mɔnu aɖeke menɔ Zcash si si sɔ, si me woate ŋu agbugbɔ aƒoe le si dzi woato awɔ ɖoɖo ɖe se ƒe tɔtrɔ ŋu o. Dzomeŋɔli ɖɔ ema ɖo. Ena Zcash wɔ ɖoɖo si wowɔ le se nu hena asitɔtrɔwo eye, nenema ke wòle vevie nenema ke, mɔ eve dzi gbugbɔgaƒoƒo takpɔkpɔ, eyata womate ŋu agbugbɔ adzɔnuwɔna si sɔ le sewo ƒe hatsotso aɖe te le bubu te o. Gɔmeɖoanyi mae na be Sapling, kple ŋgɔyiyi ɖesiaɖe si wowɔ le esia megbe, te ŋu wɔa dɔ dzadzɛ.
 
-![Before and after Overwinter: before, no standard upgrade path and no replay protection. After, a network upgrade mechanism with two-way replay protection and safe future upgrades](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/overwinter-before-after.png)
+![Before and after Overwinter: before, no standard upgrade path and no replay protection. After, a network upgrade mechanism with two-way replay protection and safe future upgrades](/content-images/overwinter-before-after-acf4f5d283.webp)
 
 ## Mɔnu si wozãna tsɔ doa nuwo ɖe ŋgɔe
 
@@ -28,7 +28,7 @@ Gbugbɔgaƒoƒo nye ne ame aɖe xɔ asitsatsa si nɔ dɔ wɔm le kɔsɔkɔsɔ ɖ
 
 Esia wɔa dɔ asi le asi me kple version 3 ƒe asitsatsa ƒe ɖoɖo yeyea tso [ZIP 202 ƒe xexlẽdzesi](https://zips.z.cash/zip-0202), si woyɔna ɣeaɖewoɣi be Overwintered ƒe nɔnɔme. Etsɔa fOverwintered aflaga kple version group id kpena ɖe eŋu si naa eme kɔ be se siwo me nukpɔsusu ɖeka le ƒe hatsotso si me asitsatsa le. Abe viɖe si le akpa aɖe dzi ene la, asidede agbalẽ te ƒe ɖoɖo yeyea na alesi woɖoa kpe asitsatsa siwo me kɔ kabakaba dzi hã nyo ɖe edzi.
 
-![How replay protection works: a wallet signs a transaction that commits to the current consensus branch id, so the transaction cannot be replayed on any other branch](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/overwinter-replay-flow.png)
+![How replay protection works: a wallet signs a transaction that commits to the current consensus branch id, so the transaction cannot be replayed on any other branch](/content-images/overwinter-replay-flow-754ec8578a.webp)
 
 ## Asitsatsa ƒe ɣeyiɣia wu enu
 
@@ -38,7 +38,7 @@ Esia wɔa dɔ asi le asi me kple version 3 ƒe asitsatsa ƒe ɖoɖo yeyea tso [Z
 
 Overwinter nye Zcash network ƒe tɔtrɔ gbãtɔ le October 2016 mainnet ƒe dodo megbe, eye woɖoe koŋ ɖoe ɖa do ŋgɔ na Sapling. Eƒe dɔe nye xɔtuɖaŋuwo, ke menye features o. Esi wòde mɔ̃ si wotsɔ trɔa asi le nu ŋu kple mɔ̃ si kpɔa eta gbugbɔgaƒoƒo gbã me la, ena mɔ si le dedie si dzi woato awɔ dɔ le tɔtrɔ ɖesiaɖe si woawɔ emegbe (Sapling, Blossom, Heartwood, Canopy, NU5, kple esiwo kplɔe ɖo) ŋu.
 
-![Timeline from the October 2016 Sprout launch, through the 2016 to 2018 stretch with no upgrade framework, to Overwinter in June 2018](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/overwinter-timeline.png)
+![Timeline from the October 2016 Sprout launch, through the 2016 to 2018 stretch with no upgrade framework, to Overwinter in June 2018](/content-images/overwinter-timeline-689d9bcf20.webp)
 
 ## Nyagɔmeɖegbalẽ
 

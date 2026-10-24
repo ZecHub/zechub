@@ -41,9 +41,9 @@ Waarom zou een gebruiker dit ooit willen doen? Van de blog van Electric Coin Co.
 ![myViewKey](/content-images/208585568-46065002-6682-4ff4-ae8b-d20620-739ab12b6c.webp)
 
 
-#### zcashblockexplorer.com
+#### mainnet.zcashexplorer.app
 
-* Richt uw browser gewoon op [hier](https://zcashblockexplorer.com/vk) en wacht op de resultaten! opmerking: dit resultaat staat nu op het zcashblockexplorer-knooppunt en dus vertrouw je deze info toe aan de eigenaren van zcashblockexplorer.com
+* Richt uw browser gewoon op [hier](https://mainnet.zcashexplorer.app/vk) en wacht op de resultaten! opmerking: dit resultaat staat nu op het zcashblockexplorer-knooppunt en dus vertrouw je deze info toe aan de eigenaren van mainnet.zcashexplorer.app
 
 ### Bronnen
 

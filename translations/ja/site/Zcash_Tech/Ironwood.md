@@ -14,7 +14,7 @@ Ironwood は、正式には NU6.3 と呼ばれる Zcash の[ネットワーク�
 
 Zcash が初めてですか？ まずは [ZEC と Zcash とは](../start-here/what-is-zec-and-zcash) と [シールドプール](../using-zcash/shielded-pools) を読み、そのあとでここに戻ってきてください。
 
-![Ironwood への価値移行フロー: 価値が Orchard プールを離れ、turnstile のチェックポイントを通過し、新しい Ironwood プールに入る](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/ironwood-flow.png)
+![Ironwood への価値移行フロー: 価値が Orchard プールを離れ、turnstile のチェックポイントを通過し、新しい Ironwood プールに入る](/content-images/ironwood-flow-8af7a58b99.webp)
 
 ## なぜ Ironwood が必要だったのか
 
@@ -24,7 +24,7 @@ Zcash が初めてですか？ まずは [ZEC と Zcash とは](../start-here/wh
 2. 理論上、攻撃者はこの欠陥を使って Orchard プール内で無効な価値を不正生成し、本来は自分のものでない資金を使うことができた可能性があり、その痕跡は通常のノードでは検知できませんでした。
 3. それでも Zcash の turnstile は Orchard から出ていける価値の総量に上限を設けていたため、総供給量が水増しされることはありませんでしたが、プール自身の暗号技術はもはや内部のすべての隠されたコインが本物であることを保証していませんでした。
 
-![バグの説明: トランザクションは 5 ZEC を入れるが、欠陥のある証明では 7 ZEC が出てきても通ってしまい、何もないところから 2 ZEC が作られる](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/ironwood-bug.png)
+![バグの説明: トランザクションは 5 ZEC を入れるが、欠陥のある証明では 7 ZEC が出てきても通ってしまい、何もないところから 2 ZEC が作られる](/content-images/ironwood-bug-8f689d6f61.webp)
 
 上の数字は単純化したイメージです。実際の欠陥は、コインの出入りを文字どおり数え間違えるものではなく、回路の数学の特定の部分にありました。ここで理解すべき点は、soundness バグによってプール内で価値が検知されずに生成されうる、ということだけです。
 
@@ -34,13 +34,13 @@ Zcash が初めてですか？ まずは [ZEC と Zcash とは](../start-here/wh
 
 Zcash コミュニティは、すべてを一度に行うのではなく、段階的に修正を展開しました。
 
-![Ironwood 対応のタイムライン: Orchard のバグは 2026年5月に発見され、プールは 2026年6月に一時停止され、回路は NU6.2 で修正され、Ironwood は 2026年7月28日にブロック 3,428,143 で有効化された](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/ironwood-timeline.png)
+![Ironwood 対応のタイムライン: Orchard のバグは 2026年5月に発見され、プールは 2026年6月に一時停止され、回路は NU6.2 で修正され、Ironwood は 2026年7月28日にブロック 3,428,143 で有効化された](/content-images/ironwood-timeline-36243f0cd7.webp)
 
 1. 2026年6月初旬、完全な修正の準備が整うまでの暫定措置として Orchard プールが無効化されました。
 2. NU6.2 アップグレードにより Orchard 回路そのものが修正され、根本的な soundness 脆弱性が解消されました。
 3. NU6.3 アップグレードである Ironwood は、新しいシールドプールと公開チェックポイントを導入し、古い Orchard プールから価値を完全な監査のもとで移動できるようにします。
 
-![NU6.2 での修正: 修正後の証明では入力と出力が等しいことが必要となるため、有効な 5 ZEC の出力は通るが、7 ZEC を出力しようとする試みは拒否される](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/ironwood-fix.png)
+![NU6.2 での修正: 修正後の証明では入力と出力が等しいことが必要となるため、有効な 5 ZEC の出力は通るが、7 ZEC を出力しようとする試みは拒否される](/content-images/ironwood-fix-bb4f70ddc9.webp)
 
 ## Ironwood プールは何をするのか
 
@@ -50,7 +50,7 @@ Ironwood プールは、ブロック 3,428,143 で NU6.3 により作成され�
 
 1. 有効化後、古い Orchard プールは spend-only となり、新しい価値はそこに入れられなくなります。
 2. 新たにシールドされる価値は代わりに Ironwood に流れます。
-3. シールドされた ZEC は、送信者・受信者・金額を隠す同じ強力なプライバシー保証を維持します。
+3. Ironwood 内では、シールドされた ZEC は送信者・受信者・金額を隠すプライバシーを維持します。Orchard から Ironwood へ ZEC を移動すると、移動した金額が示されます。
 
 ## turnstile
 
@@ -68,7 +68,7 @@ turnstile は Zcash にとって新しいものではありません。ネット
 
 ## ユーザーが行う必要があること
 
-ウォレットとノードソフトウェアがこの大部分を自動で処理しますが、実務上の変化はシンプルです。時間をかけて、シールドされた保有分を古い Orchard プールから turnstile を通して Ironwood プールへ移してください。ウォレット提供元の案内に従い、有効化ブロックの前に必ずサポート対象のリリースへ更新してください。
+ウォレットとノードソフトウェアがこの大部分を自動で処理しますが、実務上の変化はシンプルです。時間をかけて、シールドされた保有分を古い Orchard プールから turnstile を通して Ironwood プールへ移してください。各移動ではその金額がブロックチェーン上に表示されるため、[ZIP 318](https://zips.z.cash/zip-0318) に従うウォレットは、これを標準的な金額に分割し、時間をかけて送信します。ウォレット提供元の案内に従い、ソフトウェアをサポート対象のリリースに保ってください。
 
 ## 用語集
 
@@ -85,9 +85,9 @@ turnstile は Zcash にとって新しいものではありません。ネット
 
 私の ZEC は影響を受けましたか？ いいえ。このバグが実際に使われた証拠はなく、ユーザー資金への影響もなく、総供給量の変化もありません。
 
-何かする必要がありますか？ 有効化ブロックの前に、ウォレットとノードソフトウェアをサポート対象のリリースへ更新してください。ウォレットは支出に伴って時間をかけて資金を Ironwood に移動するため、急いで手動で何かする必要はありません。ウォレット提供元の案内に従ってください。
+何かする必要がありますか？ ウォレットとノードソフトウェアをサポート対象のリリースに維持してください。Orchard の資金を使うと、それらは Ironwood に移動し、移動した金額は公開されます。一部のウォレットでは、標準額を時間をかけて送る移行機能を提供しており、残高の関連付けが困難になります。ウォレット提供元の案内に従ってください。
 
-Zcash は今でもプライベートですか？ はい。Ironwood は、送信者・受信者・金額を隠す同じシールドされたプライバシーを維持します。このアップグレードは供給量の健全性に関するものであり、プライバシーに関するものではありません。
+Zcash は今でもプライベートですか？ はい。Ironwood 内の支払いは、Orchard の支払いと同様に、送信者・受信者・金額を隠します。Orchard から Ironwood への移動など、プール間で移動する金額は公開されます。このアップグレードは供給量の健全性に関するものです。
 
 そのバグは実際に悪用されましたか？ その証拠はありません。これはセキュリティ研究によって発見され、責任ある形で開示され、既知の被害が出る前に修正されました。
 
@@ -111,6 +111,10 @@ turnstile を通じてです。古い Orchard プールを離れるすべての�
 
 [ZIP 2005: Ironwood Quantum Recoverability](https://zips.z.cash/zip-2005)
 
+[ZIP 229: バージョン 6 のトランザクション形式](https://zips.z.cash/zip-0229)
+
+[ZIP 318: Orchard から Ironwood への移行](https://zips.z.cash/zip-0318)
+
 [Ironwood: Zcash の新しいシールドプール](https://zodl.com/ironwood-a-new-shielded-pool-for-zcash/)
 
 ### 関連項目
@@ -121,7 +125,7 @@ turnstile を通じてです。古い Orchard プールを離れるすべての�
 
 [Halo](../zcash-tech/halo)
 
-[zk-SNARKS](../zcash-tech/zk-snarks)
+[zk-SNARKs](../zcash-tech/zk-snarks)
 
 [ポスト量子セキュリティ](../zcash-tech/post-quantum-security)
 

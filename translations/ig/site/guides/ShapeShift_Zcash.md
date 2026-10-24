@@ -167,7 +167,7 @@ The ShapeShift and Zcash integration represents a meaningful step forward for pr
 
 [Zodl obere akpa](https://zodl.com)
 
-[ShapeShift DAO Ọchịchị (FOX Token)](https://shapeshift.com/fox-token)
+[ShapeShift DAO Ọchịchị (FOX Token)](https://web.archive.org/web/20210126180411/https://shapeshift.com/fox-token)
 
 [Onyinye Community Zcash](https://zcashcommunitygrants.org/)
 

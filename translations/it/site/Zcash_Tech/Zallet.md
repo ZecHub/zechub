@@ -4,19 +4,19 @@
 
 # Zallet
 
-Zallet è un wallet Zcash full-node scritto in Rust. Sostituisce il wallet che in precedenza era incorporato in `zcashd`. Dopo che `zcashd` ha raggiunto l'interruzione del supporto il 18 luglio 2026 all'altezza del blocco 3417100, i compiti di consenso e wallet sono stati separati: **Zebra** o **Zakura** convalidano la catena, mentre **Zallet** conserva le chiavi, scansiona le note ed espone il JSON-RPC del wallet.
+Zallet è un portafoglio Zcash full node (nodo completo) scritto in Rust. Sostituisce il portafoglio che in precedenza era incorporato in `zcashd`. Dopo che `zcashd` ha raggiunto l'interruzione del supporto il 18 luglio 2026 all'altezza del blocco 3417100, i compiti di consenso e del portafoglio sono stati separati: **Zebra** o **Zakura** convalidano la chain, mentre **Zallet** conserva le chiavi, scansiona le note ed espone il JSON-RPC del portafoglio.
 
-Zallet è attualmente in versione **beta**. Non è stato sottoposto a una revisione completa. Modifiche incompatibili potrebbero richiedere l'eliminazione e la ricreazione del wallet. Non considerarlo una soluzione di custodia in produzione per grandi quantità di ZEC senza aver letto gli avvisi di sicurezza nel [The Zallet Book](https://zcash.github.io/zallet/).
+Zallet è attualmente in versione **beta**. Non è stato sottoposto a una revisione completa. Modifiche incompatibili potrebbero richiedere l'eliminazione e la ricreazione del portafoglio. Non considerarlo una soluzione di custodia in produzione per grandi quantità di ZEC senza aver letto gli avvisi di sicurezza nel [The Zallet Book](https://zcash.github.io/zallet/).
 
 ---
 
 ## In breve
 
-- Zallet è un **wallet RPC full-node**, non un light wallet mobile né un nodo di consenso.
-- Sostituisce la componente wallet di `zcashd`. La componente nodo è [Zebra](Zebra_Full_Node.md) oppure [Zakura](Zakura_Node.md).
+- Zallet è un **portafoglio RPC full node**, non un portafoglio light mobile né un nodo di consenso.
+- Sostituisce la componente portafoglio di `zcashd`. La componente nodo è [Zebra](Zebra_Full_Node.md) oppure [Zakura](Zakura_Node.md).
 - Scritto in **Rust**, con doppia licenza MIT / Apache-2.0, mantenuto in [zcash/zallet](https://github.com/zcash/zallet).
 - Ultima release pubblicata alla fine di agosto 2026: **v0.1.0-beta.3**.
-- Comunica con i dati della catena attraverso uno di due backend: **zebra-state** (`ReadStateService` diretto contro un `zebrad` locale) oppure **Zaino**.
+- Comunica con i dati della chain attraverso uno di due backend: **zebra-state** (`ReadStateService` diretto contro un `zebrad` locale) oppure **Zaino**.
 - Espone un sottoinsieme JSON-RPC compatibile con **zcashd**. Alcuni metodi sono cambiati; altri sono stati volutamente omessi.
 - Il materiale delle chiavi è sempre crittografato con **age**. Cronologia delle transazioni, indirizzi e chiavi di visualizzazione rimangono in chiaro in `wallet.db`.
 - Include tre binari in un unico archivio firmato: `zallet` (launcher), `zallet-zebra` e `zallet-zaino`.
@@ -26,21 +26,21 @@ Zallet è attualmente in versione **beta**. Non è stato sottoposto a una revisi
 
 ## Perché esiste Zallet
 
-`zcashd` raggruppava un nodo di consenso derivato da Bitcoin Core e un wallet in un unico processo. Quel progetto non esiste più.
+`zcashd` raggruppava un nodo di consenso derivato da Bitcoin Core e un portafoglio in un unico processo. Quel progetto non esiste più.
 
 | Ruolo | Stack precedente | Stack attuale |
 |------|-----------|---------------|
 | Consenso / P2P | `zcashd` | Zebra (`zebrad`) oppure Zakura |
-| Wallet / chiavi / saldi | `zcashd` `wallet.dat` | **Zallet** (`wallet.db`) |
+| Portafoglio / chiavi / saldi | `zcashd` `wallet.dat` | **Zallet** (`wallet.db`) |
 | Indicizzatore light client | `lightwalletd` | Zaino oppure `lightwalletd` |
 
-Separare il wallet dal nodo significa:
+Separare il portafoglio dal nodo significa:
 
 - Il software del nodo può essere sostituito (Zebra rispetto a Zakura) senza spostare le chiavi.
-- La scansione del wallet e l'autorità di spesa risiedono in un processo che può essere protetto separatamente.
+- La scansione del portafoglio e l'autorità di spesa risiedono in un processo che può essere protetto separatamente.
 - La semantica RPC può evolvere verso gli account ZIP 32, gli Unified Addresses e i PCZT anziché rimanere bloccata sulle peculiarità di `zcashd`.
 
-Zallet è il wallet destinato agli operatori che in precedenza utilizzavano `zcashd` come hot wallet, backend per exchange, faucet o wallet per pagamenti di mining.
+Zallet è il portafoglio destinato agli operatori che in precedenza utilizzavano `zcashd` come portafoglio hot, backend per exchange, faucet o portafoglio per pagamenti di mining.
 
 ---
 
@@ -51,7 +51,7 @@ Zallet è in versione **beta**.
 Cosa significa in pratica:
 
 - Modifiche incompatibili possono arrivare in qualsiasi beta. Potrebbe essere necessario eliminare la directory dei dati e ricominciare.
-- Non tutti gli RPC del wallet `zcashd` sono stati portati.
+- Non tutti gli RPC del portafoglio `zcashd` sono stati portati.
 - La semantica di alcuni metodi portati differisce da `zcashd`. Le integrazioni devono leggere la pagina [semantica modificata](https://zcash.github.io/zallet/zcashd/json_rpc.html).
 - I crate sono in fase di sviluppo e non sono stati sottoposti a una revisione completa.
 - Zallet **non** è una libreria Rust. Non esistono garanzie se vi si dipende come tale.
@@ -64,7 +64,7 @@ I feedback vanno alle [issue GitHub](https://github.com/zcash/zallet/issues/new)
 
 ## Architettura
 
-Zallet è suddiviso in tre workspace Cargo affinché i due backend della catena possano seguire grafi di dipendenze differenti.
+Zallet è suddiviso in tre workspace Cargo affinché i due backend della chain possano seguire grafi di dipendenze differenti.
 
 ```
 zallet            launcher: reads `backend` in zallet.toml (default "zebra")
@@ -88,7 +88,7 @@ Zallet  (zallet-zebra or zallet-zaino)
 Your application, exchange, faucet, or operator scripts
 ```
 
-Zallet è un **wallet full-node**: richiede un nodo validante locale. Non è un light client. Per i light wallet e i server di blocchi compatti, vedi [Zaino](Zaino.md) e [Nodi Lightwallet](Lightwallet_Nodes.md).
+Zallet è un **portafoglio full node**: richiede un nodo validante locale. Non è un light client. Per i portafogli light e i server di blocchi compatti, vedi [Zaino](Zaino.md) e [Nodi Lightwallet](Lightwallet_Nodes.md).
 
 Lo stack compose Zcash Foundation [Z3](https://github.com/ZcashFoundation/z3) esegue insieme Zebra + Zallet, con Zaino autonomo opzionale per light client esterni.
 
@@ -98,11 +98,11 @@ Lo stack compose Zcash Foundation [Z3](https://github.com/ZcashFoundation/z3) es
 
 Zallet è basato sugli account ZIP 32, non sull'unico account implicito di `zcashd`.
 
-- Un wallet può contenere **più mnemonic BIP 39**. Ogni mnemonic è una radice di spesa indipendente, identificata da una **seed fingerprint** (`zip32seedfp1…`).
+- Un portafoglio può contenere **più mnemonic BIP 39**. Ogni mnemonic è una radice di spesa indipendente, identificata da una **seed fingerprint** (`zip32seedfp1…`).
 - Gli **account** sono derivati da un seed con un indice account ZIP 32. All'interno di una singola istanza di Zallet, possiedono anche un **UUID** locale. L'identità portabile di un account è `(seedfp, account index)`.
-- Gli indirizzi sono **Unified Addresses ZIP 316**, prodotti con `z_getaddressforaccount`. Un account può avere molti indirizzi diversificati; i receiver shielded non sono collegabili on-chain.
+- Gli indirizzi sono **Unified Addresses ZIP 316**, prodotti con `z_getaddressforaccount`. Un account può avere molti indirizzi diversificati; i receiver schermati non sono collegabili on-chain.
 - Le chiavi di spesa importate (`z_importkey`) e gli indirizzi watch-only (`z_importaddress`) diventano account UUID non coperti da alcun mnemonic.
-- Le chiavi di visualizzazione possono essere esportate e importate (`z_exportviewingkey`, `z_importviewingkey`), comprese le unified full viewing keys e le incoming viewing keys.
+- Le chiavi di visualizzazione possono essere esportate e importate (`z_exportviewingkey`, `z_importviewingkey`), comprese le chiavi di visualizzazione complete unificate e le chiavi di visualizzazione in entrata.
 
 `getnewaddress` non è implementato. Usa `z_getnewaccount` e `z_getaddressforaccount`.
 
@@ -126,14 +126,14 @@ Copiare `wallet.db` mentre Zallet è in esecuzione non è un backup sicuro. SQLi
 
 ## JSON-RPC
 
-Zallet implementa un sottoinsieme degli RPC wallet di `zcashd` su HTTP con autenticazione Basic. Effettua il bind su loopback. L'uso remoto dovrebbe passare attraverso un tunnel crittografato. `rpc.allow_insecure_remote_bind` esiste ed è insicuro.
+Zallet implementa un sottoinsieme degli RPC del portafoglio `zcashd` su HTTP con autenticazione Basic. Effettua il bind su loopback. L'uso remoto dovrebbe passare attraverso un tunnel crittografato. `rpc.allow_insecure_remote_bind` esiste ed è insicuro.
 
 Differenze rilevanti rispetto a `zcashd`:
 
 - I campi dei saldi in `getwalletinfo` sono vuoti. Usa `z_getbalances`, `z_getbalanceforaccount`, `z_gettotalbalance`.
 - Le commissioni seguono **ZIP 317**. Non esiste `settxfee`.
 - La costruzione delle spese si sta spostando sui **PCZT** (transazioni Zcash create parzialmente, ZIP 374). Gli RPC PCZT sono arrivati nella serie beta.
-- Un **blocco di sincronizzazione** globale blocca gli RPC di saldo e spesa mentre il wallet recupera il ritardo o si riprende da una riorganizzazione (`ClientInInitialDownload` / `ForbiddenBySafeMode`).
+- Un **blocco di sincronizzazione** globale blocca gli RPC di saldo e spesa mentre il portafoglio recupera il ritardo o si riprende da una riorganizzazione (`ClientInInitialDownload` / `ForbiddenBySafeMode`).
 
 I metodi volutamente omessi includono `createrawtransaction`, `fundrawtransaction`, `getnewaddress`, `getrawchangeaddress`, `keypoolrefill`, `importwallet` e `encryptwallet`. Le alternative sono elencate nel [Zallet Book](https://zcash.github.io/zallet/zcashd/json_rpc.html).
 
@@ -143,7 +143,7 @@ I metodi volutamente omessi includono `createrawtransaction`, `fundrawtransactio
 
 I percorsi di installazione ufficiali (pacchetti Debian, Docker, binari di release) sono nella [guida all'installazione](https://zcash.github.io/zallet/guide/installation/index.html). Gli archivi di release sono denominati `zallet-<version>-<arch>.tar.gz` e contengono tutti e tre i binari.
 
-Flusso minimo per un nuovo wallet:
+Flusso minimo per un nuovo portafoglio:
 
 ```bash
 # data directory; default is $HOME/.zallet
@@ -157,7 +157,7 @@ zallet -d /path/to/zallet/datadir confirm-backup
 zallet -d /path/to/zallet/datadir start
 ```
 
-Indirizza `[indexer]` a un endpoint JSON-RPC `zebrad` locale. Il backend zebra richiede anche `[indexer.read_state_service]` e un `zebrad` compilato con la funzionalità indexer affinché Zallet possa leggere direttamente lo stato della catena.
+Indirizza `[indexer]` a un endpoint JSON-RPC `zebrad` locale. Il backend zebra richiede anche `[indexer.read_state_service]` e un `zebrad` compilato con la funzionalità indexer affinché Zallet possa leggere direttamente lo stato della chain.
 
 Le immagini riproducibili possono essere compilate con [StageX](https://codeberg.org/stagex/stagex/) (Docker 25+, image store containerd, GNU Make).
 
@@ -184,13 +184,13 @@ Note operative passo per passo: [Guida alla migrazione: da zcashd a Zebrad/Zalle
 
 | | Zallet | zecd | Zashi / ZODL / YWallet | Zebra / Zakura | Zaino |
 |--|--------|------|------------------------|----------------|-------|
-| Cos'è | Wallet RPC full-node | Server wallet incentrato sullo shielded | Wallet per utenti finali | Nodo di consenso | Indicizzatore / sostituto di lightwalletd |
-| Sostituisce | Wallet `zcashd` | Non è un clone `zcashd` drop-in | App mobile/desktop | Nodo `zcashd` | `lightwalletd` |
+| Cos'è | Portafoglio RPC full node | Server di portafoglio incentrato sullo schermato | Portafogli per utenti finali | Nodo di consenso | Indicizzatore / sostituto di lightwalletd |
+| Sostituisce | Portafoglio `zcashd` | Non è un clone `zcashd` drop-in | App mobile/desktop | Nodo `zcashd` | `lightwalletd` |
 | Richiede un nodo locale | Sì | Sì (Zebra per impostazione predefinita) | No (light client) | È il nodo | Sì |
 | Compatibilità RPC zcashd | Progettato come percorso di compatibilità | Solo un piccolo sottoinsieme selezionato | N/D | Modalità di compatibilità parziale / Zakura | API diversa |
-| Modello di custodia | L'operatore conserva le chiavi in `wallet.db` | Server recuperabile tramite seed | Chiavi sul dispositivo dell'utente | Nessun wallet | Nessuna chiave |
+| Modello di custodia | L'operatore conserva le chiavi in `wallet.db` | Server recuperabile tramite seed | Chiavi sul dispositivo dell'utente | Nessun portafoglio | Nessuna chiave |
 
-Zallet e **zecd** possono entrambi essere posti davanti a Zebra. Scegli Zallet quando ti serve la superficie wallet di `z_*` e un percorso di migrazione da `wallet.dat`. Scegli zecd quando desideri un server incentrato sullo shielded che esplicitamente *non* è un clone di `zcashd`.
+Zallet e **zecd** possono entrambi essere posti davanti a Zebra. Scegli Zallet quando ti serve la superficie del portafoglio `z_*` e un percorso di migrazione da `wallet.dat`. Scegli zecd quando desideri un server incentrato sullo schermato che esplicitamente *non* è un clone di `zcashd`.
 
 Esiste un prodotto consumer separato su [zallet.io](https://www.zallet.io/) che riutilizza il nome. Quell'app non è questo progetto.
 
@@ -198,12 +198,12 @@ Esiste un prodotto consumer separato su [zallet.io](https://www.zallet.io/) che 
 
 ## Pagine correlate
 
-- [Nodi completi](Full_Nodes.md) — Zebra, Zakura e il nodo `zcashd` ritirato
-- [Nodo completo Zebra](Zebra_Full_Node.md) — il nodo letto dal backend predefinito di Zallet
+- [Full node (nodo completo)](Full_Nodes.md) — Zebra, Zakura e il nodo `zcashd` ritirato
+- [Full node Zebra](Zebra_Full_Node.md) — il nodo che il backend predefinito di Zallet legge
 - [Nodo Zakura](Zakura_Node.md) — nodo validante alternativo
 - [Zaino](Zaino.md) — backend indicizzatore e server light client
-- [ZECD](ZECD.md) — un altro progetto di server wallet su librustzcash
-- [Sincronizzazione dei wallet Zcash](Zcash_Wallet_Syncing.md) — come i wallet shielded scansionano la catena
+- [ZECD](ZECD.md) — un altro progetto di server di portafoglio su librustzcash
+- [Sincronizzazione dei portafogli Zcash](Zcash_Wallet_Syncing.md) — come i portafogli schermati scansionano la chain
 - [Chiavi di visualizzazione](Viewing_Keys.md)
 
 ## Risorse

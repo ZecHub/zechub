@@ -137,7 +137,7 @@ ZecMap 还宣布与 [CipherPay](https://cipherpay.app) 达成合作，以深化�
 
 ## 相关页面
 
-- [花费 ZEC](/using-zcash/spend-zcash) — 在现实世界中使用 ZEC 的其他方式
+- [花费 ZEC](/using-zcash/spend-zcash/top-10-places-to-spend-zec) — 在现实世界中使用 ZEC 的其他方式
 - [支付处理商](/using-zcash/payment-processors) — 帮助商家接受 ZEC 的工具
 - [私密地使用 ZEC](/guides/using-zec-privately) — shielded 支付的最佳实践
 - [钱包](/using-zcash/wallets) — 与 ZEC 商家支付兼容的 wallet

@@ -26,11 +26,11 @@ Zcash Communityは、Zcashエコシステムを支援するコミュニティ主
 
 Z.cashはZcashのメインウェブサイトです。幅広いユーザー向けにZcashのコンテンツとドキュメントを提供し、新規ユーザーがZcashに関する技術的な説明をさらに深く学べるようにしています。
 
-**[Zcash Github](https://github.com/zcash/zcash)**
+**[Zcash GitHub](https://github.com/zcash/zcash)**
 
-コーディングのスキルがあり、Zcashの技術面をより深く掘り下げたいですか？Zcash Github Repoは、最初のZcashノード実装であるzcashdのリポジトリです。zcashdは2026年7月18日に自動サポート終了停止に達し、現在は保守されていません。また、この項目が以前リンクしていたダウンロードページも提供されなくなっています。保守されているスタックは、ノード用の[Zebra](https://github.com/ZcashFoundation/zebra)とウォレット用の[Zallet](https://github.com/zcash/zallet)です。詳細は[zcashdからZebraおよびZalletへの移行ガイド](https://zechub.wiki/guides/migration-guide-zcashd-to-zebrad-zallet)を参照してください。
+コーディングのスキルがあり、Zcashの技術面をより深く掘り下げたいですか？Zcash GitHub Repoは、最初のZcashノード実装であるzcashdのリポジトリです。zcashdは2026年7月18日に自動サポート終了停止に達し、現在は保守されていません。また、この項目が以前リンクしていたダウンロードページも提供されなくなっています。保守されているスタックは、ノード用の[Zebra](https://github.com/ZcashFoundation/zebra)とウォレット用の[Zallet](https://github.com/zcash/zallet)です。詳細は[zcashdからZebraおよびZalletへの移行ガイド](https://zechub.wiki/guides/migration-guide-zcashd-to-zebrad-zallet)を参照してください。
 
-**[Zcash Foundation Github](https://github.com/ZcashFoundation)**
+**[Zcash Foundation GitHub](https://github.com/ZcashFoundation)**
 
 Zcash Foundationのプロジェクトをホストするもう一つのGitHubリポジトリです。Rustで書かれたZcashノード実装である[zebra](https://github.com/ZcashFoundation/zebra)などが含まれます。
 

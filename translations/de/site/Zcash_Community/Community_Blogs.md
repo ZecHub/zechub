@@ -19,7 +19,7 @@ Hier sind einige der aktiven Blogs:
 | Naomi Brockwell (NBTV)    | Hochkarätige Interviews und Inhalte zum Thema Privatsphäre       | [Besuchen ->](https://naomibrockwell.com/highprofileinterviews) |
 | Sqribbles                 | Kreative und Community-getriebene Zcash-Inhalte                  | [Besuchen ->](https://free2z.cash/sqribbles) |
 | Str4d                     | Technische Texte vom Zcash-Core-Entwickler                       | [Besuchen ->](https://words.str4d.xyz/) |
-| CipherScan Weekly         | Wöchentliche Blogbeiträge zur Zcash-Blockchain-Analyse           | [Besuchen ->](https://cipherscan.app/) |
+| CipherScan Weekly         | Wöchentliche Blogbeiträge zur Zcash-Blockchain-Analyse           | [Besuchen ->](https://zecblock.com/) |
 | Zcash Shielded News       | Wöchentliche Zusammenfassung von Neuigkeiten zu Privatsphäre und Ökosystem | [Besuchen ->](https://zechub.substack.com/) |
 | ZecHub DAO Blog           | Artikel und Bildungsinhalte aus der ZecHub DAO-Community         | [Besuchen ->](https://zechub.wiki) |
 

@@ -13,7 +13,7 @@ Los pools de minería de Zcash son servicios que permiten a los mineros individu
 ### [Slush Pool (Braiins Pool)](https://braiins.com/pool)
 
 <a href="https://braiins.com/pool">
-    <img src="https://github.com/gorgagian123/Exchanges-Logo/blob/main/braiins_logo.jpg?raw=true" alt="Slush Pool (Braiins Pool) Logo" width="200" height="100"/>
+    <img src="/content-images/braiins_logo-dce5130f46.webp" alt="Slush Pool (Braiins Pool) Logo" width="200" height="100"/>
 </a>
 
 - Sitio web: [Slush Pool (Braiins Pool)](https://braiins.com/pool)
@@ -26,7 +26,7 @@ Los pools de minería de Zcash son servicios que permiten a los mineros individu
 ### [Luxor](https://luxor.tech/)
 
 <a href="https://luxor.tech/">
-    <img src="https://github.com/gorgagian123/Exchanges-Logo/blob/main/Luxor%20Pool.png?raw=true" alt="Luxor Logo" width="200" height="100"/>
+    <img src="/content-images/Luxor-20Pool-3aa38cd52b.webp" alt="Luxor Logo" width="200" height="100"/>
 </a>
 
 - Sitio web: [Luxor](https://luxor.tech/)
@@ -36,13 +36,13 @@ Los pools de minería de Zcash son servicios que permiten a los mineros individu
 
 ---
 
-### [FlyPool](https://zcash.flypool.org/)
+### [Flypool](https://zcash.flypool.org/)
 
 <a href="https://zcash.flypool.org/">
-    <img src="https://github.com/gorgagian123/Exchanges-Logo/blob/main/Flypool.jpg?raw=true" alt="FlyPool Logo" width="200" height="100"/>
+    <img src="/content-images/Flypool-031c2edf57.webp" alt="FlyPool Logo" width="200" height="100"/>
 </a>
 
-- Sitio web: [FlyPool](https://zcash.flypool.org/)
+- Sitio web: [Flypool](https://zcash.flypool.org/)
 - Pagos privados: SÍ
 - Tipo de pool: Pago por las últimas N 
 - Comisión del pool: 1%
@@ -52,7 +52,7 @@ Los pools de minería de Zcash son servicios que permiten a los mineros individu
 ### [2Miners](https://zec.2miners.com/)
 
 <a href="https://zec.2miners.com/">
-    <img src="https://github.com/gorgagian123/Exchanges-Logo/blob/main/2Miners.png?raw=true" alt="2Miners Logo" width="200" height="100"/>
+    <img src="/content-images/2Miners-3c99609047.webp" alt="2Miners Logo" width="200" height="100"/>
 </a>
 
 - Sitio web: [2Miners](https://zec.2miners.com/)
@@ -65,7 +65,7 @@ Los pools de minería de Zcash son servicios que permiten a los mineros individu
 ### [Nanopool](https://zec.nanopool.org/)
 
 <a href="https://zec.nanopool.org/">
-    <img src="https://github.com/gorgagian123/Exchanges-Logo/blob/main/Nanopool.jpg?raw=true" alt="Nanopool Logo" width="200" height="100"/>
+    <img src="/content-images/Nanopool-e484b00998.webp" alt="Nanopool Logo" width="200" height="100"/>
 </a>
 
 - Sitio web: [Nanopool](https://zec.nanopool.org/)
@@ -78,7 +78,7 @@ Los pools de minería de Zcash son servicios que permiten a los mineros individu
 ### [Poolin](https://www.poolin.com/)
 
 <a href="https://www.poolin.com/">
-    <img src="https://github.com/gorgagian123/Exchanges-Logo/blob/main/Poolin.jpg?raw=true" alt="Poolin Logo" width="200" height="100"/>
+    <img src="/content-images/Poolin-6fd4b44ba3.webp" alt="Poolin Logo" width="200" height="100"/>
 </a>
 
 - Sitio web: [Poolin](https://www.poolin.com/)
@@ -91,7 +91,7 @@ Los pools de minería de Zcash son servicios que permiten a los mineros individu
 ### [Antpool](https://v3.antpool.com/home)
 
 <a href="https://v3.antpool.com/home">
-    <img src="https://github.com/gorgagian123/Exchanges-Logo/blob/main/Antpool.jpg?raw=true" alt="Antpool Logo" width="200" height="100"/>
+    <img src="/content-images/Antpool-9c5dac3b65.webp" alt="Antpool Logo" width="200" height="100"/>
 </a>
 
 - Sitio web: [Antpool](https://v3.antpool.com/home)
@@ -104,7 +104,7 @@ Los pools de minería de Zcash son servicios que permiten a los mineros individu
 ### [ViaBTC](https://www.viabtc.com/en/)
 
 <a href="https://www.viabtc.com/en/">
-    <img src="https://github.com/gorgagian123/Exchanges-Logo/blob/main/ViaBTC.png?raw=true" alt="ViaBTC Logo" width="200" height="100"/>
+    <img src="/content-images/ViaBTC-8fa5be7bd7.webp" alt="ViaBTC Logo" width="200" height="100"/>
 </a>
 
 - Sitio web: [ViaBTC](https://www.viabtc.com/en/)
@@ -114,23 +114,10 @@ Los pools de minería de Zcash son servicios que permiten a los mineros individu
 
 ---
 
-### [Zhash](https://zcash.zhash.pro/stats)
-
-<a href="https://zcash.zhash.pro/stats">
-    <img src="https://github.com/gorgagian123/Exchanges-Logo/blob/main/Zhash.png?raw=true" alt="Zhash Logo" width="200" height="100"/>
-</a>
-
-- Sitio web: [Zhash](https://zcash.zhash.pro/stats)
-- Pagos privados: No
-- Tipo de pool: Pago por las últimas N participaciones
-- Comisión del pool: 0%
-
----
-
 ### [Foundry Zcash Mining Pool](https://foundrydigital.com/foundry-zcash-pool/)
 
 <a href="https://foundrydigital.com/foundry-zcash-pool/">
-    <img src="https://github.com/gorgagian123/Exchanges-Logo/blob/main/Foundry.png?raw=true" alt="Foundry Zcash Mining Pool Logo" width="200" height="100"/>
+    <img src="/content-images/Foundry-3f33346374.webp" alt="Foundry Zcash Mining Pool Logo" width="200" height="100"/>
 </a>
 
 - Sitio web: [Foundry Zcash Mining Pool](https://foundrydigital.com/foundry-zcash-pool/)
@@ -169,7 +156,7 @@ Los pools de minería de Zcash son servicios que permiten a los mineros individu
 ### [Sovright Mining Pool](https://mining.sovright.com/)
 
 <a href="https://mining.sovright.com/">
-    <img src="https://pbs.twimg.com/profile_images/2061550069489471488/-qOtwa1p_400x400.png" alt="Sovright Logo" width="200" height="100"/>
+    <img src="/content-images/-qOtwa1p_400x400-fce1523375.webp" alt="Sovright Logo" width="200" height="100"/>
 </a>
 
 - Sitio web: [Sovright Mining Pool](https://mining.sovright.com/)

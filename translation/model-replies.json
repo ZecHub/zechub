@@ -1,0 +1,16 @@
+{
+  "$comment": "Openings of a model's reply ABOUT a translation request instead of a translation (ZecHub/zechub#2467). One list, read by scripts/check-model-replies.mjs in CI and by the translation runner at write time, so the two cannot drift apart. Each pattern is a JavaScript regular expression, matched case-insensitively against the START of a prose line after its Markdown markers (heading #, list bullet, quote >, table pipe). English on purpose: a translation into one of our locales never opens a line with these, and a line the English page itself contains is never flagged.",
+  "patterns": [
+    { "id": "please-provide", "re": "^please (?:provide|share|send|paste|input|give)\\b" },
+    { "id": "cannot", "re": "^i (?:cannot|can ?not|can['’]t|am unable to|['’]m unable to|won['’]t|will not|am not able to)\\b" },
+    { "id": "sorry", "re": "^(?:i['’]m sorry|i am sorry|sorry,|i apologi[sz]e)\\b" },
+    { "id": "ready", "re": "^i(?: am|['’]m) (?:ready|happy|glad) to\\b" },
+    { "id": "could-you", "re": "^(?:could|can|would) you (?:please )?(?:provide|share|send|paste|clarify|give)\\b" },
+    { "id": "here-is", "re": "^here(?: is|['’]s| are) (?:the|your|a) (?:translat|locali[sz]|fragment|markdown|text)" },
+    { "id": "as-an-ai", "re": "^as an ai\\b" },
+    { "id": "translation-label", "re": "^(?:translation|translated text|localized text|localised text|output)\\s*:" },
+    { "id": "about-fragment", "re": "^(?:the|this) (?:provided |given |input |source )?(?:fragment|text|input|content|markdown)(?: you provided)? (?:is|contains|appears|seems|does not|doesn['’]t|only|has no)\\b" },
+    { "id": "nothing-to-translate", "re": "^(?:there is )?nothing to translate\\b" },
+    { "id": "once-you", "re": "^once you (?:provide|share|send|paste|input)\\b" }
+  ]
+}

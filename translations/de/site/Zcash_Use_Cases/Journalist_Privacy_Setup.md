@@ -113,7 +113,7 @@ Du kannst:
 
 ## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="Kettenglieder-Symbol"/> Verwandt
 
-- [Datenschutz – Best Practices](/privacy/best-practices)
+- [Wer kann deine Zcash Zahlung sehen](/start-here/who-can-see-your-zcash-payment)
 - [Geld senden, ohne die Identität zu verknüpfen](/zcash-use-cases/send-money-without-linking-identity)
 
  <br/>

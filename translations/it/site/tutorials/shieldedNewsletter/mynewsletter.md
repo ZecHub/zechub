@@ -24,15 +24,15 @@ Zebra 1.8.0 ultima release, FROST è pubblicato, Zooko avvia un nuovo progetto Z
 
 [Zcash Avalanche Elastic Subnet Bridge Update](https://forum.zcashcommunity.com/t/zcash-elastic-subnet-bridge-on-avalanche/44220/63)
 
-[Shielded ZEC swaps with Maya Protocol](https://x.com/GiMa9550/status/1808960168681476288)
+[Scambi di ZEC schermati con Maya Protocol](https://x.com/GiMa9550/status/1808960168681476288)
 
-[Official shielded support for zcash in ledger hw-wallet](https://forum.zcashcommunity.com/t/official-shielded-support-for-zcash-in-ledger-hw-wallet/45965/90)
+[Supporto ufficiale per Zcash schermato nel portafoglio hardware Ledger](https://forum.zcashcommunity.com/t/official-shielded-support-for-zcash-in-ledger-hw-wallet/45965/90)
 
 [Zcash Ecosystem Security Lead update](https://forum.zcashcommunity.com/t/grant-update-zcash-ecosystem-security-lead/47541/4)
 
 [Zcash Community Grants Meeting Minutes 6-25](https://forum.zcashcommunity.com/t/zcash-community-grants-meeting-minutes-6-25-2024/48199)
 
-[Official Shielded Support for Zcash in Ledger update](https://forum.zcashcommunity.com/t/official-shielded-support-for-zcash-in-ledger-hw-wallet/45965/90)
+[Aggiornamento sul supporto ufficiale per Zcash schermato in Ledger](https://forum.zcashcommunity.com/t/official-shielded-support-for-zcash-in-ledger-hw-wallet/45965/90)
 
 
 

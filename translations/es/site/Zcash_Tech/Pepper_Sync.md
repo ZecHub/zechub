@@ -52,9 +52,9 @@ El marcador es la parte importante. Cada versión anterior trataba una sincroniz
 
 ### Guías visuales
 
-- Flujo Detallado - Muestra el proceso completo. ![Detailed Flow](https://github.com/user-attachments/assets/119c13ec-76be-42bd-b558-762d09275a1b)
+- Flujo Detallado - Muestra el proceso completo. ![Detailed Flow](/content-images/119c13ec-76be-42bd-b558-762d09275a1b-8ba7a18302.webp)
 
-- Flujo Simplificado - Vista rápida para usuarios cotidianos. ![Simplified Flow](https://github.com/user-attachments/assets/9b612cbd-f24d-4472-9b87-0f2c908bb368)
+- Flujo Simplificado - Vista rápida para usuarios cotidianos. ![Simplified Flow](/content-images/9b612cbd-f24d-4472-9b87-0f2c908bb368-eb34a722a2.webp)
 
 ## Análisis en profundidad
 

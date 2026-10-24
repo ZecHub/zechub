@@ -137,7 +137,7 @@ ZecMapは、利用店舗が増えつつある決済ネットワーク**Flexa**�
 
 ## 関連ページ
 
-- [ZECを使う](/using-zcash/spend-zcash) — 現実世界でZECを使うほかの方法
+- [ZECを使う](/using-zcash/spend-zcash/top-10-places-to-spend-zec) — 現実世界でZECを使うほかの方法
 - [決済プロセッサ](/using-zcash/payment-processors) — 加盟店がZECを受け付けるためのツール
 - [ZECをプライベートに使う](/guides/using-zec-privately) — shielded決済のベストプラクティス
 - [ウォレット](/using-zcash/wallets) — ZEC加盟店決済に対応するウォレット

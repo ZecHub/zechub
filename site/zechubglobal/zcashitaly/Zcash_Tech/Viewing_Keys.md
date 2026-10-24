@@ -41,9 +41,9 @@ Perché un utente vorrebbe mai farlo? Dall'articolo di Electric Coin Co. sulla q
 ![myViewKey](/content-images/208585568-46065002-6682-4ff4-ae8b-d20620-739ab12b6c.webp)
 
 
-#### zcashblockexplorer.com
+#### mainnet.zcashexplorer.app
 
-* Semplicemente entra a questo [link](https://zcashblockexplorer.com/vk), inserisci la chiave di visualizzazione e clicca su "Start Importing" per ottenere i risultati! Nota: questi risultati sono ora sul nodo di zcashblockexplorer e quindi stai affidando queste informazioni ai proprietari di zcashblockexplorer.com
+* Semplicemente entra a questo [link](https://mainnet.zcashexplorer.app/vk), inserisci la chiave di visualizzazione e clicca su "Start Importing" per ottenere i risultati! Nota: questi risultati sono ora sul nodo di zcashblockexplorer e quindi stai affidando queste informazioni ai proprietari di mainnet.zcashexplorer.app
 
 ### Resources
 

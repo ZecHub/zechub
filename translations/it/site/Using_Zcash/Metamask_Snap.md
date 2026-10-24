@@ -1,4 +1,4 @@
-# Guida all'integrazione Zcash Snap di Metamask
+# Guida all'integrazione Zcash Snap di MetaMask
 
 Per una guida completa e una spiegazione visiva, guarda questa [**guida YouTube**](https://www.youtube.com/watch?v=UJh9Ilkohdw): 
 
@@ -46,7 +46,7 @@ MetaMask ora supporta **Zcash (ZEC) schermati** tramite lo **Zcash Snap sviluppa
 
 ---
 
-## **2. (Opzionale) Aggiungi la rete Zcash**
+## **2. (Opzionale) aggiungi la rete Zcash**
 
 In MetaMask, scegli **Aggiungi Rete** e inserisci:
 
@@ -67,11 +67,11 @@ Per **Zcash Mainnet**;
 - RPC URL: https://zjs.zec.rocks 
 - Symbol: ZEC
 ```
-`https://zjs.zec.rocks` è un server lightwalletd compatibile con WebZjs (gRPC-web), gestito da [zec.rocks](https://zec.rocks) (@emersonian). Per la testnet, usa `https://zjs.zec.rocks/testnet`. Se esegui tu stesso il web wallet WebZjs, questo è il valore da impostare come `LIGHTWALLETD_PROXY`.
+`https://zjs.zec.rocks` è un server lightwalletd compatibile con WebZjs (gRPC-web), gestito da [zec.rocks](https://zec.rocks) (@emersonian). Per la testnet, usa `https://zjs.zec.rocks/testnet`. Se esegui tu stesso il portafoglio web WebZjs, questo è il valore da impostare come `LIGHTWALLETD_PROXY`.
 
 ---
 
-## **3. Connettiti al Wallet WebZjs di ChainSafe**
+## **3. Connettiti al portafoglio web WebZjs di ChainSafe**
 
 1. Visita [webzjs.chainsafe.dev](https://webzjs.chainsafe.dev).  
 2. Clicca **Connetti MetaMask Snap**.  
@@ -92,19 +92,19 @@ Per **Zcash Mainnet**;
 
 ---
 
-## **4. Finanzia il tuo Wallet**
+## **4. Finanzia il tuo portafoglio**
 
 > **Scambia ETH -> ZEC** - Utilizza servizi come **LeoDex** e invia al tuo indirizzo schermato.  
 > **Prelievo da Exchange** - Preleva ZEC acquistati verso il tuo indirizzo schermato di WebZjs.  
 
-![LEODEX-SWAP](/content-images/HyLQ0G2ugg-8d82ef24f6.webp)
+![LeoDex-SWAP](/content-images/HyLQ0G2ugg-8d82ef24f6.webp)
 
 
 > => Usa indirizzi schermati (z) per la **privacy completa**.
 
 ---
 
-## **5. Invia / Ricevi ZEC**
+## **5. Invia / ricevi ZEC**
 
 1. In **WebZjs**, vai a **Trasferisci Saldo**.  
 2. Inserisci:
@@ -119,7 +119,7 @@ Per **Zcash Mainnet**;
 
 ---
 
-## **6. Verifica / Risoluzione dei problemi**
+## **6. Verifica / risoluzione dei problemi**
 
 > Controlla **WebZjs** per i saldi aggiornati **(MetaMask non ha elencato ZEC direttamente)**.  
 > Se si verificano problemi:
@@ -158,4 +158,4 @@ Per **Zcash Mainnet**;
 > Le prove schermate potrebbero richiedere tempo, WebAssembly gestisce il calcolo nel browser.  
 > Il ripristino è semplice, installa MetaMask e lo Snap, poi importa la tua seed esistente.  
 > Lo Snap predefinito è **ZEC schermati**, gli indirizzi Transparent **non sono il focus**.  
-> Usa [zcashblockexplorer.com](https://zcashblockexplorer.com) per le conferme delle transazioni.
+> Usa [mainnet.zcashexplorer.app](https://mainnet.zcashexplorer.app) per le conferme delle transazioni.

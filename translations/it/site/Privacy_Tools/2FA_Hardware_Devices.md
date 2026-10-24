@@ -1,6 +1,6 @@
 [![Edit Page](https://img.shields.io/badge/Edit-blue)](https://github.com/zechub/zechub/edit/main/site/Privacy_Tools/2FA_Hardware_Devices.md)
 
-# Dispositivi Hardware 2FA
+# Dispositivi hardware 2FA
 
 La sicurezza dei dati e la privacy sono preoccupazioni critiche sia per i singoli individui che per le aziende. Gli attacchi informatici e le violazioni dei dati stanno diventando sempre più comuni, ed è essenziale adottare misure proattive per proteggere i dati sensibili e mantenere la propria privacy. Una di queste misure è l'uso di chiavi di sicurezza hardware, che forniscono un ulteriore livello di protezione per i tuoi dispositivi e i tuoi dati.
 
@@ -36,7 +36,7 @@ Sì, una singola chiave di sicurezza hardware può essere usata per proteggere p
 
 Se perdi la tua chiave di sicurezza hardware, rischi di vedere i tuoi account bloccati. Si consiglia di avere una chiave di backup o un metodo di autenticazione alternativo per evitare questo scenario.
 
-## Esempi di Hardware 2FA
+## Esempi di hardware 2FA
 
 Ecco alcuni esempi di hardware 2FA disponibili sul mercato.
 

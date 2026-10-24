@@ -82,7 +82,7 @@ I seeder DNS espongono un elenco di altri nodi affidabili tramite un server inte
 
 Questi sono gli esempi di piattaforme che consentono l'accesso ai dati del Network di Zcash:
 
-[Zcash Block Explorer](https://zcashblockexplorer.com)
+[Zcash Block Explorer](https://mainnet.zcashexplorer.app)
 
 [Coinmetrics](https://docs.coinmetrics.io/info/assets/zec)
 

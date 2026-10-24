@@ -19,7 +19,7 @@ Topluluk üyeleri, Zcash, gizlilik, kripto para ve ilgili konuları kapsayan bir
 | Naomi Brockwell (NBTV)     | Gizlilik üzerine yüksek profilli röportajlar ve içerikler | [Ziyaret et ->](https://naomibrockwell.com/highprofileinterviews) |
 | Sqribbles                  | Yaratıcı ve topluluk odaklı Zcash içeriği                | [Ziyaret et ->](https://free2z.cash/sqribbles) |
 | Str4d                      | Zcash çekirdek geliştiricisinden teknik yazılar          | [Ziyaret et ->](https://words.str4d.xyz/) |
-| CipherScan Weekly          | Zcash blockchain analitiğini kapsayan haftalık blog yazıları | [Ziyaret et ->](https://cipherscan.app/) |
+| CipherScan Weekly          | Zcash blockchain analitiğini kapsayan haftalık blog yazıları | [Ziyaret et ->](https://zecblock.com/) |
 | Zcash Shielded News        | Haftalık gizlilik ve ekosistem haber özeti               | [Ziyaret et ->](https://zechub.substack.com/) |
 | ZecHub DAO Blog            | ZecHub DAO topluluğundan makaleler ve eğitici içerikler  | [Ziyaret et ->](https://zechub.wiki) |
 

@@ -6,7 +6,7 @@ Oggi, miliardi di persone nel mondo non hanno accesso a una valuta equa e aperta
 
 ## Persone e Team
 
-Electric Coin Company ha quasi 30 dipendenti distribuiti in tutto il mondo. Lavorano su diverse attività come lo sviluppo di protocolli, lo sviluppo di applicazioni, la sicurezza dei protocolli, lo sviluppo del business e le relazioni regolamentari. [Ulteriori informazioni](https://electriccoin.co/team/)
+Electric Coin Company ha quasi 30 dipendenti distribuiti in tutto il mondo. Lavorano su diverse attività come lo sviluppo di protocolli, lo sviluppo di applicazioni, la sicurezza dei protocolli, lo sviluppo del business e le relazioni regolamentari. [Ulteriori informazioni](https://web.archive.org/web/20240311110626/https://electriccoin.co/team/)
 
 ## Struttura Organizzativa
 

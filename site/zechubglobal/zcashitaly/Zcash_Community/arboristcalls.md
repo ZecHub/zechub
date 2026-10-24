@@ -2,7 +2,7 @@
 
 Le Chiamate degli Arborist sono incontri bisettimanali di sviluppo del protocollo incentrati sul monitoraggio della logistica di implementazione del protocollo imminente, dei problemi di implementazione del nodo di consenso e della ricerca di protocollo.
 
-Chiunque voglia contribuire allo sviluppo del protocollo Zcash e condividere notizie sui progetti di nodo Zcash. Registrati qui: [15:00 UTC](https://us06web.zoom.us/webinar/register/WN_Vk7WMz9sRkiIr_hqH_x3LA) / [22:30 UTC](https://us06web.zoom.us/webinar/register/WN_z0k1ipsnRkS4-DGqDhULdA)
+Chiunque voglia contribuire allo sviluppo del protocollo Zcash e condividere notizie sui progetti di nodo Zcash. Registrati qui: [15:00 UTC](https://web.archive.org/web/20230130034337/https://us06web.zoom.us/webinar/register/WN_Vk7WMz9sRkiIr_hqH_x3LA) / [22:30 UTC](https://web.archive.org/web/20230323232320/https://us06web.zoom.us/webinar/register/WN_z0k1ipsnRkS4-DGqDhULdA)
 
 L'elenco completo con note e ordine del giorno completi può essere trovato [qui](https://github.com/ZcashCommunityGrants/arboretum-notes). 
 

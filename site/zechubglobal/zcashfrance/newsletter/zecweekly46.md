@@ -77,9 +77,9 @@ En conclusion, selon le cas d'utilisation spécifique, les technologies Tor et I
 
 [L'Afrique peut améliorer les structures de gouvernance avec la Blockchain](https://guardian.ng/technology/africa-can-enhance-governance-structures-with-blockchain-says-jassy-kabanihiza-ebwanyu/)
 
-[Un chaînon manquant dans le don social: une plateforme SocialFi basée sur l'étalon-or](https://cointelegraph.com/news/a-missing-link-in-social-giving-a-socialfi-platform-based-on-the-gold-standard)
+[Un chaînon manquant dans le don social: une plateforme SocialFi basée sur l'étalon-or](https://web.archive.org/web/20250723210931/https://cointelegraph.com/news/a-missing-link-in-social-giving-a-socialfi-platform-based-on-the-gold-standard)
 
-[World Mobile envisage un déploiement en Afrique après des tests sur le terrain de réseaux sans fil décentralisés](https://cointelegraph.com/news/world-mobile-eyes-african-rollout-after-decentralized-wireless-field-tests)
+[World Mobile envisage un déploiement en Afrique après des tests sur le terrain de réseaux sans fil décentralisés](https://web.archive.org/web/20251210054550/https://cointelegraph.com/news/world-mobile-eyes-african-rollout-after-decentralized-wireless-field-tests)
 
 [Le nouveau projet de loi Crypto que Gary Gensler ne veut pas que vous connaissiez](https://www.coindesk.com/consensus-magazine/2023/06/09/the-new-crypto-bill-gary-gensler-doesnt-want-you-to-know-about/)
 

@@ -22,7 +22,7 @@ Zcash bunun yerine size bir seçim sunar. Bu seçim iki kez yapılır: **bir kez
 
 Aşağıdaki görsel her ikisini de kapsar.
 
-![Dört işlem yolunun her biri için Zcash anahtar türleri ve bir blok gezgininin görebilecekleri](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Start_Here/assets/who-can-see-your-zcash-payment.png)
+![Dört işlem yolunun her biri için Zcash anahtar türleri ve bir blok gezgininin görebilecekleri](/content-images/who-can-see-your-zcash-payment-04d41ac960.webp)
 
 ---
 
@@ -44,9 +44,9 @@ Asla kaldıramayacağınız gizlilik faydalı değildir. Bazen bir muhasebeciye,
 
 **Spending key.** Her şeyi görür ve fonları hareket ettirir. Para budur. Sizde kalır ve hiçbir nedenle hiç kimseyle paylaşılmaz.
 
-**Full viewing key.** Salt okunurdur. Gelen ve giden işlemleri ve bakiyeleri gösterir, ancak tek bir zatoshi bile harcayamaz. Bir denetçiye ya da muhasebeciye verdiğiniz şey budur.
+**Full Viewing Key.** Salt okunurdur. Gelen ve giden işlemleri ve bakiyeleri gösterir, ancak tek bir zatoshi bile harcayamaz. Bir denetçiye ya da muhasebeciye verdiğiniz şey budur.
 
-**Incoming viewing key.** Daha da dardır: yalnızca gelen ödemeleri gösterir. Bir borsa veya satıcı, yatırdığınız tutarın ulaştığını doğrulamak için bunu çalıştırabilir; spending key ise internete hiç bağlanmayan donanım üzerinde kalır.
+**Incoming Viewing Key.** Daha da dardır: yalnızca gelen ödemeleri gösterir. Bir borsa veya satıcı, yatırdığınız tutarın ulaştığını doğrulamak için bunu çalıştırabilir; spending key ise internete hiç bağlanmayan donanım üzerinde kalır.
 
 Sıralama önemlidir. Elinizde olan en geniş anahtarı değil, işi gören en dar anahtarı verin.
 
@@ -64,7 +64,7 @@ Sıralama önemlidir. Elinizde olan en geniş anahtarı değil, işi gören en d
 
 ## Bunu pratiğe dökün
 
-- Varsayılan olarak koruma sağlayan bir cüzdan kullanın; örneğin [Zodl](https://zodl.com) veya [Zingo!](https://www.zingolabs.org/).
+- Varsayılan olarak koruma sağlayan bir cüzdan kullanın; örneğin [ZODL](https://zodl.com) veya [Zingo!](https://www.zingolabs.org/).
 - Bir borsadan gelen fonları, harcamadan önce ulaşır ulaşmaz korumalı hale getirin.
 - Alıcı destekliyorsa, korumalı adreslere ödeme yapın.
 - Bir viewing key paylaşmadan önce, sorulan soruyu yanıtlayan en küçük anahtarın hangisi olduğunu sorun.

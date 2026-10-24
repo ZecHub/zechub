@@ -41,14 +41,19 @@ const ALLOWLIST_PATH = "link-health/allowlist.txt";
 
 const LOWERCASE_WORDS = ["Guides", "Tutorials", "Contribute", "In", "The", "Vs", "And", "Is", "Zk"];
 const UPPERCASE_WORDS = ["Zec", "Dex", "Nft", "Zcap", "Zfav", "Snarks", "Frost", "2fa", "Pgp", "I2p", "Dao"];
+// Same keys, values and ORDER as specialWordsMap in the app's helpers.ts.
 const SPECIAL_WORDS = {
   Non_Custodial: "Non-Custodial",
   Zero_Knowledge: "Zero-Knowledge",
+  "Zero_To_Zero-Knowledge": "Zero_to_Zero_Knowledge",
   Defi: "DeFi",
+  "Glossary And FAQs": "Glossary & FAQ's",
   Z2z: "z2z",
   Faq: "FAQ",
   ZECHub: "ZecHub",
   ZEChub: "ZecHub",
+  Zechub: "ZecHub",
+  Zecweekly: "ZecWeekly",
   Av_Club: "AV_Club",
   guides_For_Creators: "Guides_for_Creators",
   Grapheneos: "GrapheneOS",
@@ -60,20 +65,28 @@ const SPECIAL_WORDS = {
   Help_Build_ZecHub: "Help_build_ZecHub",
   zkool_Multisig: "Zkool_Multisig",
   Zenith_installation: "Zenith_Installation",
+  Raspberry_Pi5_Zebra_Lightwalletd_Zingo: "Raspberry_pi5_Zebra_Lightwalletd_Zingo",
   Btcpayserver_Zcash_Plugin: "BTCPayServer_Zcash_Plugin",
   Uris: "URIs",
   Free2z_Livestreaming: "Free2Z_Livestreaming",
   Avalanche_Redbridge: "Avalanche_RedBridge",
+  Raspberry_Pi_4_Full_Node: "Raspberry_Pi_4_Full_Node",
   Raspberry_Pi_4_Zebra_Node: "Raspberry_pi_4_Zebra_Node",
-  Raspberry_Pi5_Zebra_Lightwalletd_Zingo: "Raspberry_pi5_Zebra_Lightwalletd_Zingo",
   Coinholder_Directed_Retroactive_Grants: "CoinHolder_Directed_Retroactive_Grants",
   zkav: "ZKAV",
 };
 
+// The app applies the word lists to whole path segments only (bounded by start,
+// end, "/" or "_"), so "Zec" does not rewrite inside "Zecmap" or "ZecHub".
+function replaceWholeSegments(input, word, replacement) {
+  const re = new RegExp(`(^|[_/])${word}(?=[_/]|$)`, "g");
+  return input.replace(re, (_m, boundary) => boundary + replacement);
+}
+
 function transformUri(uri) {
   let t = uri.replace(/\b\w/g, (l) => l.toUpperCase()).replace(/-/g, "_");
-  for (const w of LOWERCASE_WORDS) if (t.includes(w)) t = t.replace(w, w.toLowerCase());
-  for (const w of UPPERCASE_WORDS) if (t.includes(w)) t = t.replace(w, w.toUpperCase());
+  for (const w of LOWERCASE_WORDS) t = replaceWholeSegments(t, w, w.toLowerCase());
+  for (const w of UPPERCASE_WORDS) t = replaceWholeSegments(t, w, w.toUpperCase());
   for (const [w, target] of Object.entries(SPECIAL_WORDS)) if (t.includes(w)) t = t.replaceAll(w, target);
   return t;
 }
@@ -152,11 +165,30 @@ function classify(url) {
   if (url.startsWith("#")) return "anchor";
   if (url.startsWith("//")) return "protocol-relative";
   if (url.startsWith("/content-images/") || url.startsWith("/content-banners/")) return "asset";
+  // Other files the app serves from public/ (logos such as /changelly.png).
+  if (/^\/[^?#]*\.(png|jpe?g|gif|svg|webp|avif|ico|pdf|mp4|webm|mp3)($|[?#])/i.test(url)) return "asset";
   // Absolute links ending in .md point at repository files (contributing docs do
   // this deliberately), not at wiki routes, so they are not route failures.
   if (url.startsWith("/") && /\.md($|[?#])/i.test(url)) return "repo-file";
   if (url.startsWith("/")) return "route";
   return "relative";
+}
+
+// Documentation placeholders, never real links: RFC 2606 / RFC 6761 reserved
+// names (example.com/.net/.org, *.example, *.test, *.invalid, *.localhost) and
+// loopback addresses in setup guides (http://localhost:3000).
+function isPlaceholderHost(hostname) {
+  const h = hostname.toLowerCase().replace(/\.$/, "");
+  if (h === "localhost" || h === "0.0.0.0" || h === "[::1]") return true;
+  if (/^127(\.\d{1,3}){3}$/.test(h)) return true; // the whole 127.0.0.0/8 loopback range
+  if (/(^|\.)example\.(com|net|org)$/.test(h)) return true;
+  return /\.(example|test|invalid|localhost)$/.test(h);
+}
+
+// The public/ path an asset link points at: query and fragment dropped
+// ("/doc.pdf#p2" is the file /doc.pdf).
+function assetKey(url) {
+  return url.split(/[?#]/)[0];
 }
 
 /**
@@ -230,6 +262,12 @@ function routeExists(route, mdFiles, appRoutes) {
 // ── external checking ────────────────────────────────────────────────────────
 
 async function checkExternal(url) {
+  // Statuses a host sends when it refuses an automated client rather than
+  // because the page is gone: login or paywall (401, 402), bot protection
+  // (403, LinkedIn's 999), legal block (451), rate limit (429). In the 2026-10
+  // sweep about two thirds of the links reported with these opened normally in
+  // a browser, so they are reported as unverified, not as broken.
+  const BLOCKED = new Set([401, 402, 403, 429, 451, 999]);
   const attempt = async (method) => {
     const ctrl = new AbortController();
     const timer = setTimeout(() => ctrl.abort(), TIMEOUT_MS);
@@ -244,7 +282,15 @@ async function checkExternal(url) {
           accept: "*/*",
         },
       });
-      return { status: res.status, location: res.headers.get("location") };
+      // GET fallbacks (including manual redirects) can have a streaming body.
+      // We only need the headers. Leaving that body unread retains a socket
+      // until the server finishes or GC runs, starving later link checks.
+      if (res.body) await res.body.cancel().catch(() => {});
+      return {
+        status: res.status,
+        location: res.headers.get("location"),
+        retryAfter: res.headers.get("retry-after"),
+      };
     } finally {
       clearTimeout(timer);
     }
@@ -257,6 +303,13 @@ async function checkExternal(url) {
 
     if (r.status >= 200 && r.status < 300) return { state: "ok", status: r.status };
     if (r.status >= 300 && r.status < 400) return { state: "redirect", status: r.status, to: r.location };
+    if (BLOCKED.has(r.status)) {
+      // Retry-After in seconds only; the HTTP-date form is rare and ignored.
+      const wait = /^\d+$/.test(String(r.retryAfter ?? "").trim()) ? Number(r.retryAfter) : null;
+      return wait === null
+        ? { state: "blocked", status: r.status }
+        : { state: "blocked", status: r.status, retryAfter: wait };
+    }
     return { state: "broken", status: r.status };
   } catch (err) {
     const msg = String(err?.cause?.code || err?.name || err?.message || err);
@@ -281,6 +334,61 @@ async function pool(items, limit, worker) {
   return out;
 }
 
+// A rate limit (429), a server error (5xx) or a network failure during the fast
+// sweep often says more about our request rate than about the link. Those are
+// probed once more, slowly: a few hosts in parallel, one request at a time per
+// host, with a pause before each request (longer when the host sent
+// Retry-After). Without the per-host queue the second pass hammers the same
+// forum again and gets the same 429s. Returns how many URLs were re-probed.
+function needsRetry(r) {
+  if (["timeout", "error", "dns", "tls"].includes(r.state)) return true;
+  if (r.state === "blocked" && r.status === 429) return true;
+  return r.state === "broken" && r.status >= 500;
+}
+
+async function retryPass(urls, results, check, opts = {}) {
+  const { hosts = 4, gapMs = 2000, maxWaitMs = 30000, budgetMs = 15 * 60 * 1000 } = opts;
+  const sleep = opts.sleep || ((ms) => new Promise((resolve) => setTimeout(resolve, ms)));
+  const byHost = new Map();
+  results.forEach((r, i) => {
+    if (!needsRetry(r)) return;
+    let host;
+    try {
+      host = new URL(urls[i]).host;
+    } catch {
+      host = urls[i];
+    }
+    if (!byHost.has(host)) byHost.set(host, []);
+    byHost.get(host).push(i);
+  });
+  const deadline = Date.now() + budgetMs;
+  let retried = 0;
+  await pool([...byHost.values()], hosts, async (indexes) => {
+    for (const i of indexes) {
+      const prev = results[i];
+      const wait = prev.retryAfter ? Math.min(maxWaitMs, Math.max(gapMs, prev.retryAfter * 1000)) : gapMs;
+      // Out of time: keep the first result rather than stretch the weekly job.
+      if (Date.now() + wait > deadline) return;
+      await sleep(wait);
+      // A timer can fire late; never start a probe after the deadline.
+      if (Date.now() >= deadline) return;
+      // The budget covers the request too: a probe still running at the
+      // deadline is abandoned (its own 15 s timeout ends it) and the first
+      // result stands.
+      let timer;
+      const late = new Promise((resolve) => {
+        timer = setTimeout(() => resolve(null), Math.max(0, deadline - Date.now()));
+      });
+      const next = await Promise.race([check(urls[i]), late]);
+      clearTimeout(timer);
+      if (next === null) return;
+      results[i] = next;
+      retried++;
+    }
+  });
+  return retried;
+}
+
 // ── archived links ───────────────────────────────────────────────────────────
 // A Wayback link records a judgement made on one day: the original was dead
 // then. Sites come back — zeme.team returned three weeks after a correct fix
@@ -302,6 +410,7 @@ function originalOf(url) {
 
 const ACTIONS = {
   broken: "Confirm the page moved or was removed, then update or drop the link.",
+  blocked: "The host refused an automated check (login, paywall, bot protection or rate limit). Open the link in a browser: if it works, nothing to do. Add hosts that always refuse to the allowlist.",
   dns: "Domain does not resolve. The site is likely gone; replace or remove the link.",
   timeout: "No response in time. Recheck manually; add to the allowlist if the host is simply slow.",
   tls: "Certificate problem. Verify the host before trusting the link.",
@@ -409,7 +518,7 @@ async function main() {
       }
 
       if (kind === "asset") {
-        if (assetSet && !assetSet.has(link.url.split("?")[0])) {
+        if (assetSet && !assetSet.has(assetKey(link.url))) {
           findings.push({ kind: "asset", url: link.url, file: link.file, line: link.line, detail: "not found in zechub-wiki/public" });
         }
         continue;
@@ -424,6 +533,7 @@ async function main() {
           continue;
         }
         if (allowed(parsed.href)) continue;
+        if (isPlaceholderHost(parsed.hostname)) continue;
         if (!externalTargets.has(parsed.href)) externalTargets.set(parsed.href, []);
         externalTargets.get(parsed.href).push(link);
       }
@@ -439,21 +549,10 @@ async function main() {
     checked = urls.length;
 
     // A single connection failure usually means we saturated the local socket
-    // pool, not that the site is down. Anything that failed at the network layer
-    // is retried once, slowly, and only reported if it fails again. Without this
-    // a large sweep reports hundreds of live sites as broken.
-    const transient = new Set(["timeout", "error", "dns", "tls"]);
-    const suspects = [];
-    results.forEach((r, i) => {
-      if (transient.has(r.state)) suspects.push(i);
-    });
-    if (suspects.length) {
-      retried = suspects.length;
-      const second = await pool(suspects.map((i) => urls[i]), 4, (u) => checkExternal(u));
-      suspects.forEach((idx, k) => {
-        results[idx] = second[k];
-      });
-    }
+    // pool, not that the site is down; a 429 or 5xx usually means we asked too
+    // fast. Those are retried once, slowly, and only reported if they fail
+    // again. Without this a large sweep reports hundreds of live sites as broken.
+    retried = await retryPass(urls, results, checkExternal);
 
     results.forEach((r, i) => {
       const url = urls[i];
@@ -496,7 +595,7 @@ async function main() {
     }
   }
 
-  const order = ["dns", "broken", "route", "asset", "tls", "timeout", "error", "invalid", "redirect", "duplicate", "revived"];
+  const order = ["dns", "broken", "route", "asset", "tls", "timeout", "error", "invalid", "blocked", "redirect", "duplicate", "revived"];
   findings.sort((a, b) => order.indexOf(a.kind) - order.indexOf(b.kind) || a.file.localeCompare(b.file));
 
   const totals = Object.fromEntries(order.map((k) => [k, findings.filter((f) => f.kind === k).length]));
@@ -507,6 +606,7 @@ async function main() {
     filesScanned: mdFiles.length,
     linksFound: linkCount,
     uniqueExternalChecked: checked,
+    // Key name kept for artifact readers; it now also counts 429/5xx re-probes.
     retriedAfterNetworkFailure: retried,
     allowlistEntries: allowlist.length,
     totals,
@@ -518,7 +618,7 @@ async function main() {
 
   console.log(
     `Scanned ${mdFiles.length} files, ${linkCount} links, ${checked} unique external ` +
-      `(${retried} retried after a network failure). ` +
+      `(${retried} re-probed slowly after a network error, rate limit or server error). ` +
       `${serious} needing attention, ${totals.redirect} redirects, ${totals.duplicate} duplicates.`,
   );
 }
@@ -534,6 +634,7 @@ const LABELS = {
   timeout: "Timeouts",
   error: "Request errors",
   invalid: "Invalid URLs",
+  blocked: "Could not verify (bot protection or rate limit)",
   redirect: "Redirects",
   duplicate: "Duplicate URLs",
   revived: "Archived links whose original is live again",

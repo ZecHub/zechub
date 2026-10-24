@@ -19,7 +19,7 @@
 | Naomi Brockwell (NBTV)     | निजता पर उच्च-प्रोफ़ाइल साक्षात्कार और सामग्री           | [देखें ->](https://naomibrockwell.com/highprofileinterviews) |
 | Sqribbles                  | रचनात्मक और समुदाय-प्रेरित Zcash सामग्री              | [देखें ->](https://free2z.cash/sqribbles) |
 | Str4d                      | Zcash के मुख्य डेवलपर के तकनीकी लेख             | [देखें ->](https://words.str4d.xyz/) |
-| CipherScan Weekly          | Zcash blockchain analytics को कवर करने वाले साप्ताहिक ब्लॉग पोस्ट    | [देखें ->](https://cipherscan.app/) |
+| CipherScan Weekly          | Zcash blockchain analytics को कवर करने वाले साप्ताहिक ब्लॉग पोस्ट    | [देखें ->](https://zecblock.com/) |
 | Zcash Shielded News        | साप्ताहिक निजता और पारिस्थितिकी तंत्र समाचार सारांश                 | [देखें ->](https://zechub.substack.com/) |
 | ZecHub DAO Blog            | ZecHub DAO समुदाय के लेख और शैक्षिक सामग्री | [देखें ->](https://zechub.wiki) |
 

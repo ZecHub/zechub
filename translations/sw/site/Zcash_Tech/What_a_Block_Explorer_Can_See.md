@@ -26,7 +26,7 @@ Kwa sababu kuna aina mbili, thamani inaweza kuhama kwa njia nne: uwazi hadi uwaz
 
 ## Kile ambacho mchunguzi anaweza kuona
 
-Mchunguzi wa umma kama vile [Blockchair](https://blockchair.com/zcash) inaweza kusoma waziwazi:
+Mchunguzi wa umma kama vile [ZecBlock](https://zecblock.com/) inaweza kusoma waziwazi:
 
 - Malipo yoyote ya uwazi kamili (t hadi t), kuanzia mwanzo hadi mwisho.
 - Pesa zinazoingia kwenye bwawa lenye ngao (upande unaoonekana na kiasi).
@@ -65,7 +65,7 @@ Uliza data ghafi na sehemu za mtumaji na mpokeaji zilizolindwa zinarudi tupu. Mc
 - [Zcash: mapendekezo ya faragha na usalama](https://z.cash/support/security/privacy-security-recommendations/)
 - [A shielded ecosystem (Electric Coin Company)](https://web.archive.org/web/20260903010654/https://electriccoin.co/blog/shielded-ecosystem/)
 - [Jinsi teknolojia ya Zcash inavyofanya kazi](https://z.cash/technology/)
-- [Kichunguzi cha Zcash cha Blockchair](https://blockchair.com/zcash)
+- [ZecBlock](https://zecblock.com/)
 
 ## Kurasa zinazohusiana
 

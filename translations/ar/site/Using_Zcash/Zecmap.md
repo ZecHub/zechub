@@ -137,7 +137,7 @@ ZecMap هو دليل عالمي تقوده المجتمع لاكتشاف الش�
 
 ## صفحات ذات صلة
 
-- [إنفاق ZEC](/using-zcash/spend-zcash) — طرق أخرى لاستخدام ZEC في العالم الحقيقي
+- [إنفاق ZEC](/using-zcash/spend-zcash/top-10-places-to-spend-zec) — طرق أخرى لاستخدام ZEC في العالم الحقيقي
 - [معالجات الدفع](/using-zcash/payment-processors) — أدوات للتجّار لقبول ZEC
 - [استخدام ZEC بخصوصية](/guides/using-zec-privately) — أفضل الممارسات للمدفوعات المحمية
 - [المحافظ](/using-zcash/wallets) — محافظ متوافقة مع مدفوعات التجّار بـ ZEC
