@@ -44,6 +44,37 @@ From the moment Canopy activated, no new value can be added into the Sprout pool
 
 Alongside the funding changes, Canopy carried two smaller technical ZIPs. [ZIP 212](https://zips.z.cash/zip-0212) changed how a recipient derives the Sapling ephemeral secret, deriving it from the note plaintext. [ZIP 215](https://zips.z.cash/zip-0215) wrote down explicit rules for validating Ed25519 signatures, so every node agrees on exactly which signatures count as valid.
 
+## TL;DR
+
+- Canopy (NU4) activated at mainnet block 1,046,400 (November 18, 2020 UTC) — the same block as Zcash's first halving, which cut the block reward from 6.25 to 3.125 ZEC.
+- It retired the founders reward and created the Zcash Development Fund: 20% of each block reward for four years, until the second halving in 2024 (ZIP 1014 policy; ZIP 207/214 machinery).
+- The fund's 20% is split 35% to Bootstrap (Electric Coin Company), 25% to the Zcash Foundation, and 40% to Major Grants — later known as Zcash Community Grants.
+- It closed the Sprout pool to new value (ZIP 211): no new deposits can enter, but withdrawals still work.
+- Two technical ZIPs rode along: ZIP 212 (Sapling ephemeral secret derived from the note plaintext) and ZIP 215 (explicit Ed25519 validation rules).
+
+## Core Explanation
+
+Zcash funds its own development from block rewards because no company stands behind it. The founders reward covered the early years and was scheduled to end at the first halving, so a replacement had to exist before that deadline. Canopy was that replacement: ZIP 207 introduced the general funding-stream mechanism that directs part of the block subsidy to defined recipient addresses, and ZIP 214 set the specific rules and addresses for the Development Fund. Measured against the whole reward rather than the fund alone, the shares are 7% ECC, 5% Zcash Foundation, and 8% Major Grants — the same numbers described two ways.
+
+Canopy also began retiring Sprout, Zcash's oldest shielded pool: from activation, the vpub_old field of every JoinSplit must be zero, so value can leave Sprout but never re-enter.
+
+## Visual analogy
+
+Canopy is the moment a startup's founder-salary phase ends and a constitution takes over: from that block on, 20 cents of every dollar the network mints is earmarked for maintenance and split 35/25/40 among three departments. At the same time the legacy warehouse (Sprout) is sealed for new storage — anyone can still collect their goods, but nothing new goes in.
+
+## Deep Dive
+
+The funding stream is enforced by consensus, not by trust: nodes reject blocks whose coinbase does not pay the defined recipients their defined shares. Canopy deliberately landed on the halving block, so miners saw the reward cut in half at the same moment a new slice of that smaller reward began flowing to development. ZIP 212 changed how the Sapling ephemeral secret is derived (from the note plaintext), and ZIP 215 wrote down explicit Ed25519 acceptance rules so every node validates signatures identically — small changes that removed whole classes of consensus ambiguity.
+
+## Common Mistakes
+
+- **Thinking Canopy is the halving itself.** They shared one activation block, but they are separate changes: ZIP 251 (Canopy) versus the issuance schedule.
+- **Reading the 20% as taken from miners' new share.** Miners kept 80%; the fund takes 20% of the block reward.
+- **Assuming Sprout funds were frozen or destroyed.** Withdrawals remain possible — only new deposits stopped.
+- **Treating "35/25/40 of the fund" and "7/5/8 of the reward" as different splits.** They are the same numbers measured against different bases.
+- **Calling Canopy a cryptography upgrade.** It was mainly governance and monetary policy; the technical ZIPs were minor adjustments.
+
+
 ## Glossary
 
 | Term | Plain-English meaning |
@@ -108,5 +139,13 @@ The original founders reward was scheduled to end at the first halving. Without 
 [Zcash Governance](../zcash-community/zcash-governance)
 
 ---
+
+## Related Pages
+
+- [Sprout](./Sprout.md) — the pool Canopy closed to new deposits
+- [Heartwood](./Heartwood.md) — the previous upgrade in the series
+- [NU5](./NU5.md) — the next upgrade, which launched Orchard
+- [NU6.1](./NU6_1.md) — the most recent refinement of development funding
+
 
 Series: [Network Upgrades index](../start-here/network-upgrades) · Previous: [Heartwood](../zcash-tech/heartwood) · Next: [NU5](../zcash-tech/nu5)
