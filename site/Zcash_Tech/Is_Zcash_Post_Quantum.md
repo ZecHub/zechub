@@ -106,7 +106,7 @@ Last checked 13 September 2026, except the Sprout row, which was updated on 9 Oc
 | Wallets moving funds into Ironwood | Guidance in ZIP 2005, ZIP 318 and ZIP 326 (Draft) | Recommended, depends on your wallet | Since 28 Jul 2026 | [ZIP 318](https://zips.z.cash/zip-0318), [ZIP 326](https://zips.z.cash/zip-0326) |
 | Recovery Protocol | Outlined inside ZIP 2005 only | **Not implemented** | No date | [ZIP 2005](https://zips.z.cash/zip-2005) |
 | Switching off Orchard and Sapling | No ZIP | **Not scheduled** | Sapling discussion from Apr 2026 | [Forum](https://forum.zcashcommunity.com/t/sapling-withdraw-only-discussion-kickoff/55223) |
-| Disabling Sprout spends (ZIP 2003) | Draft, deployed by NU7 per ZIP 259 (Draft) | **Not activated** | Mainnet targeted 5 Nov 2026, final decision 20 Oct 2026 | [ZIP 2003](https://zips.z.cash/zip-2003), [ZIP 259](https://zips.z.cash/zip-0259) |
+| Disabling Sprout spends (ZIP 2003) | Draft, deployed by NU7 per ZIP 259 (Draft) | **Not activated** | Mainnet height 3,543,405, targeted 5 Nov 2026 | [ZIP 2003](https://zips.z.cash/zip-2003), [ZIP 259](https://zips.z.cash/zip-0259) |
 | Transparent recoverability (ZIP 2007) | Reserved | **Proposal** | ZIP reserved 5 Jul 2025, discussion opened 17 Jun 2026 | [zips#1302](https://github.com/zcash/zips/issues/1302) |
 | Post-quantum privacy for known addresses | Open issues, no ZIP | **Research** | #1133 opened 18 Aug 2022, #1307 opened 23 Jun 2026 | [zips#1133](https://github.com/zcash/zips/issues/1133), [zips#1307](https://github.com/zcash/zips/issues/1307) |
 | Project Tachyon | No ZIP | **Proposal**, under development | First published Apr 2025 | [tachyon.z.cash](https://tachyon.z.cash/roadmap/) |
