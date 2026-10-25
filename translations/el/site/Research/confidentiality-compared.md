@@ -1,6 +1,6 @@
 # Σύγκριση εμπιστευτικότητας: τι υπόσχονται τέσσερις αρχιτεκτονικές ιδιωτικότητας
 
-*Αυτό το άρθρο αναδημοσιεύεται από το [Proof Street](https://www.proofstreet.xyz/), μια ανεξάρτητη έκδοση που καλύπτει υπολογισμούς διατήρησης της ιδιωτικότητας: ZK, FHE, MPC, TEEs και αποκεντρωμένη ταυτότητα. Δημοσιεύτηκε αρχικά ως [«Σύγκριση εμπιστευτικότητας: τι υπόσχονται τέσσερις αρχιτεκτονικές ιδιωτικότητας»](https://www.proofstreet.xyz/confidentiality-compared-what-four-privacy-architectures-promise/) στις 12 Αυγούστου 2026. Αναδημοσιεύεται με την άδεια του συγγραφέα στο πλαίσιο της [Zcash Κοινοτικής επιχορήγησης #339](https://forum.zcashcommunity.com/t/grant-application-zcash-in-the-privacy-stack-339/56456). Του Stephen Webber.*
+*Αυτό το άρθρο αναδημοσιεύεται από το [Proof Street](https://www.proofstreet.xyz/), μια ανεξάρτητη έκδοση που καλύπτει υπολογισμούς διατήρησης της ιδιωτικότητας: ZK, FHE, MPC, TEEs και αποκεντρωμένη ταυτότητα. Δημοσιεύτηκε αρχικά ως [«Σύγκριση εμπιστευτικότητας: τι υπόσχονται τέσσερις αρχιτεκτονικές ιδιωτικότητας»](https://www.proofstreet.xyz/confidentiality-compared-what-four-privacy-architectures-promise/) στις 12 Αυγούστου 2026. Αναδημοσιεύεται με την άδεια του συγγραφέα στο πλαίσιο της [επιχορήγησης #339 του Zcash Community Grants](https://forum.zcashcommunity.com/t/grant-application-zcash-in-the-privacy-stack-339/56456). Του Stephen Webber.*
 
 ---
 
@@ -80,7 +80,7 @@
 
 ---
 
-*Αποκάλυψη: αυτό το κείμενο υποστηρίχθηκε από μια [Zcash Κοινοτική επιχορήγηση](https://forum.zcashcommunity.com/t/grant-application-zcash-in-the-privacy-stack-339/56456). Το ZCG δεν εξέτασε ούτε ενέκρινε αυτό το κείμενο πριν από τη δημοσίευση. Οι δεσμεύσεις χρηματοδότησης του Proof Street παρατίθενται στη [σελίδα χρηματοδότησης](https://www.proofstreet.xyz/funding/).*
+*Αποκάλυψη: αυτό το κείμενο υποστηρίχθηκε από μια [Κοινοτική επιχορήγηση Zcash](https://forum.zcashcommunity.com/t/grant-application-zcash-in-the-privacy-stack-339/56456). Το ZCG δεν εξέτασε ούτε ενέκρινε αυτό το κείμενο πριν από τη δημοσίευση. Οι δεσμεύσεις χρηματοδότησης του Proof Street παρατίθενται στη [σελίδα χρηματοδότησης](https://www.proofstreet.xyz/funding/).*
 
 ---
 

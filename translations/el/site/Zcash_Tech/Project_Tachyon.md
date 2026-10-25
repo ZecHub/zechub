@@ -120,7 +120,7 @@
 ## Σχετικές σελίδες
 
 - [Ιδιωτική ανάκτηση πληροφοριών](https://zechub.wiki/zcash-tech/private-information-retrieval) - μια άλλη προσέγγιση στο ίδιο εμπόδιο σάρωσης πορτοφολιού
-- [Zakura Κόμβος](https://zechub.wiki/zcash-tech/zakura-node) - ένας κόμβος που κατασκευάστηκε εν μέρει από τη μηχανική προσπάθεια του Tachyon
+- [Κόμβος Zakura](https://zechub.wiki/zcash-tech/zakura-node) - ένας κόμβος που κατασκευάστηκε εν μέρει από τη μηχανική προσπάθεια του Tachyon
 - [Ironwood](https://zechub.wiki/zcash-tech/ironwood) - η αναβάθμιση που ενεργοποιήθηκε τον Ιούλιο του 2026, συχνά συγχέεται με το Tachyon
 - [Το turnstile](https://zechub.wiki/zcash-tech/the-turnstile) - ο μηχανισμός που θα μπορούσε να χρησιμοποιήσει το Tachyon αν αναπτυσσόταν ως δικό του pool
 - [Ασφάλεια ανθεκτική στους κβαντικούς υπολογιστές](https://zechub.wiki/zcash-tech/post-quantum-security) - πού βρίσκεται το Tachyon δίπλα σε μακροπρόθεσμη εργασία στο πρωτόκολλο

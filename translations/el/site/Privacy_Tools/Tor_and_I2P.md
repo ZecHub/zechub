@@ -70,7 +70,7 @@
 
 *Σημείωση: Από προεπιλογή, το Browser bundle Tor εκθέτει έναν SOCKS listener στο tcp/9150 και το daemon Tor εκθέτει τον SOCKS listener στο tcp/9050.*
 
-* Ανατρέξτε στις οδηγίες εγκατάστασης [instructions](https://support.torproject.org/little-t-tor/getting-started/installing/) που αντιστοιχούν στο λειτουργικό σύστημά σου και παρέχονται από το Project Tor.
+* Ανάτρεξε στις [οδηγίες εγκατάστασης](https://support.torproject.org/little-t-tor/getting-started/installing/) που αντιστοιχούν στο λειτουργικό σύστημά σου και παρέχονται από το Tor Project.
 
 ## Εκτέλεση ενός κόμβου μέσω του Tor
 

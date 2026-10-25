@@ -20,11 +20,11 @@
 
 ## Οργανωτική δομή
 
-Το Zcash Foundation είναι ένα αφορολόγητο, μη κερδοσκοπικό [501(c)(3)](https://projects.propublica.org/nonprofits/organizations/820707962) φιλανθρωπικό ίδρυμα [](https://zfnd.org/#:~:text=Committed%20to%20Transparency). Εκτός από την [Ομάδα](https://zfnd.org/#:~:text=Our%20Team) του, διαθέτει Διοικητικό Συμβούλιο [](https://zfnd.org/#:~:text=Board%20of%20Directors) και διευκολύνει εκλογές κοινοτικής διακυβέρνησης μέσω ψηφοφορίας του Zcash Κοινοτικού Συμβουλευτικού [Πάνελ](https://zfnd.org/zcash-community-advisory-panel/).
+Το Zcash Foundation είναι ένα αφορολόγητο, μη κερδοσκοπικό [501(c)(3)](https://projects.propublica.org/nonprofits/organizations/820707962) [φιλανθρωπικό ίδρυμα](https://zfnd.org/#:~:text=Committed%20to%20Transparency). Εκτός από την [Ομάδα](https://zfnd.org/#:~:text=Our%20Team) του, διαθέτει [Διοικητικό Συμβούλιο](https://zfnd.org/#:~:text=Board%20of%20Directors) και διευκολύνει εκλογές κοινοτικής διακυβέρνησης μέσω ψηφοφορίας του Zcash Κοινοτικού Συμβουλευτικού [Πάνελ](https://zfnd.org/zcash-community-advisory-panel/).
 
 ## Χρηματοδότηση
 
-Το Zcash Foundation δεν λαμβάνει πλέον χρηματοδότηση από το αναπτυξιακό Zcash ταμείο [](https://zips.z.cash/zip-1014) από τον Νοέμβριο του 2024. Η χρηματοδότηση του Ιδρύματος πλέον προέρχεται από παραδοσιακές, φορολογικά εκπεστέες [δωρεές](https://www.jotform.com/form/251874383638065). Η χρήση των οικονομικών του πόρων φαίνεται στις τριμηνιαίες [Αναφορές διαφάνειας](https://zfnd.org/category/transparency-reports/).
+Το Zcash Foundation δεν λαμβάνει πλέον χρηματοδότηση από το [ταμείο ανάπτυξης](https://zips.z.cash/zip-1014) του Zcash από τον Νοέμβριο του 2024. Η χρηματοδότηση του Ιδρύματος πλέον προέρχεται από παραδοσιακές, φορολογικά εκπεστέες [δωρεές](https://www.jotform.com/form/251874383638065). Η χρήση των οικονομικών του πόρων φαίνεται στις τριμηνιαίες [Αναφορές διαφάνειας](https://zfnd.org/category/transparency-reports/).
 
 ## Πρόγραμμα Zcash Community Grants
 

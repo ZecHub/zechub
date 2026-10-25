@@ -253,7 +253,7 @@
 - [Halo](/zcash-tech/halo) - Το σύστημα αποδείξεων του Zcash χωρίς trusted setup
 - [ZKP και zk-SNARKs](/zcash-tech/zk-snarks) - Πώς λειτουργούν οι αποδείξεις μηδενικής γνώσης στο Zcash
 - [Viewing Keys](/zcash-tech/viewing-keys) - Πώς λειτουργεί η επιλεκτική αποκάλυψη για θωρακισμένες συναλλαγές του Zcash
-- [Zcash θωρακισμένα assets](/zcash-tech/zcash-shielded-assets) - Μελλοντικά θωρακισμένα assets και υποστήριξη ιδιωτικών assets
+- [Θωρακισμένα assets Zcash](/zcash-tech/zcash-shielded-assets) - Μελλοντικά θωρακισμένα assets και υποστήριξη ιδιωτικών assets
 
 ## Αναφορές
 

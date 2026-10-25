@@ -84,9 +84,9 @@
 
 ### Δες επίσης
 
-[Zcash Αναβαθμίσεις δικτύου](../start-here/network-upgrades)
+[Αναβαθμίσεις δικτύου Zcash](../start-here/network-upgrades)
 
-[Zcash Νομισματική πολιτική](../start-here/zcash-monetary-policy)
+[Νομισματική πολιτική Zcash](../start-here/zcash-monetary-policy)
 
 [Τι είναι το ZEC και το Zcash](../start-here/what-is-zec-and-zcash)
 

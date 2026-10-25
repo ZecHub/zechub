@@ -388,7 +388,7 @@ export BTCPAYGEN_ADDITIONAL_FRAGMENTS="zcash-fullnode"
 
 Αυτή η ενότητα δείχνει πώς να το κάνεις χρησιμοποιώντας ένα **προσαρμοσμένο τμήμα Docker**.
 
-> Ένα πλήρες παράδειγμα διαμόρφωσης με όλες τις μεταβλητές περιβάλλοντος είναι διαθέσιμο στο αποθετήριο plugin [](https://github.com/btcpay-zcash/btcpayserver-zcash-plugin/blob/master/docs/zcash-lightwalletd.custom.yml).  
+> Ένα πλήρες παράδειγμα διαμόρφωσης με όλες τις μεταβλητές περιβάλλοντος είναι διαθέσιμο στο [αποθετήριο του plugin](https://github.com/btcpay-zcash/btcpayserver-zcash-plugin/blob/master/docs/zcash-lightwalletd.custom.yml).  
 > Τα παρακάτω βήματα δείχνουν μια ελάχιστη λειτουργική ρύθμιση.
 
 ---
@@ -902,11 +902,11 @@ Content-Type: application/json
 * [Συχνές ερωτήσεις BTCPay](https://docs.btcpayserver.org/FAQ/)
 * [BTCPay Server Αποθετήριο GitHub](https://github.com/btcpayserver/btcpayserver)
 * [BTCPay Server Επίδειξη Mainnet](https://mainnet.demo.btcpayserver.org/login?ReturnUrl=%2F)
-* [Zcash Πρόσθετο για το BTCPay (GitHub)](https://github.com/btcpay-zcash/btcpayserver-zcash-plugin)
-* [Zcash Οδηγός εγκατάστασης πρόσθετου](https://github.com/btcpay-zcash/btcpayserver-zcash-plugin/blob/master/docs/installation.md)
+* [Πρόσθετο Zcash για το BTCPay (GitHub)](https://github.com/btcpay-zcash/btcpayserver-zcash-plugin)
+* [Οδηγός εγκατάστασης πρόσθετου Zcash](https://github.com/btcpay-zcash/btcpayserver-zcash-plugin/blob/master/docs/installation.md)
 * [Προσαρμοσμένο παράδειγμα zcash-lightwalletd.custom.yml](https://github.com/btcpay-zcash/btcpayserver-zcash-plugin/blob/master/docs/zcash-lightwalletd.custom.yml)
 * [Αρχείο Compose Lightwalletd Docker (Zebra)](https://github.com/ZcashFoundation/zebra/blob/main/docker/docker-compose.lwd.yml)
 * [Τεκμηρίωση κλειδιού API BTCPay (Greenfield API)](https://docs.btcpayserver.org/API/Greenfield/v1/#tag/API-Keys)
 * [Δημιούργησε ένα Cloudflare Tunnel](https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/get-started/create-remote-tunnel/)
-* [Zcash Λίστα συμβατότητας πορτοφολιών (ZecHub)](https://zechub.wiki/wallets)
+* [Λίστα συμβατότητας πορτοφολιών Zcash (ZecHub)](https://zechub.wiki/wallets)
 * [Zebra + Lightwalletd σε Raspberry Pi 5 (ZecHub)](https://free2z.com/ZecHub/zpage/zcash-101-zebra-lightwalletd-sync-journal-on-raspberry-pi-5)

@@ -95,17 +95,17 @@
 
 ### Δες επίσης
 
-[Zcash Αναβαθμίσεις δικτύου](../start-here/network-upgrades)
+[Αναβαθμίσεις δικτύου Zcash](../start-here/network-upgrades)
 
 [Development Fund](../start-here/development-fund)
 
-[Zcash Νομισματική πολιτική](../start-here/zcash-monetary-policy)
+[Νομισματική πολιτική Zcash](../start-here/zcash-monetary-policy)
 
 [Θωρακισμένα pools](../using-zcash/shielded-pools)
 
 [NU6.1](../zcash-tech/nu6-1)
 
-[Zcash Διακυβέρνηση](../zcash-community/zcash-governance)
+[Διακυβέρνηση Zcash](../zcash-community/zcash-governance)
 
 ---
 

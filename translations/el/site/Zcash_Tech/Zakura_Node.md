@@ -119,7 +119,7 @@
 
 ## Σχετικές σελίδες
 
-- [Zebra Πλήρης κόμβος](Zebra_Full_Node.md) — ο ανάντη πλήρης κόμβος Zcash από τον οποίο έγινε fork το Zakura
+- [Πλήρης κόμβος Zebra](Zebra_Full_Node.md) — ο ανάντη πλήρης κόμβος Zcash από τον οποίο έγινε fork το Zakura
 - [Zaino Indexer](Zaino.md) — ένας indexer βασισμένος στο Rust, συμβατός με τα Zebra και Zakura
 - [Πλήρεις κόμβοι](Full_Nodes.md) — επισκόπηση των επιλογών πλήρους κόμβου Zcash
 - [Κόμβοι Lightwallet](Lightwallet_Nodes.md) — εναλλακτικές ελαφριών πελατών

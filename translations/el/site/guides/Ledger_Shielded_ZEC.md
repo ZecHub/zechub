@@ -79,4 +79,4 @@
 - [Κέντρο βοήθειας Ledger](https://support.ledger.com)
 - [Σελίδα πορτοφολιών ZecHub](/using-zcash/wallets)
 - [Θωρακισμένα pools](/using-zcash/shielded-pools) και [Viewing keys](/zcash-tech/viewing-keys) στο ZecHub
-- Μια ακόμη επιλογή hardware wallet: ο [Keystone οδηγός χρήστη Zashi](/guides/keystone-zashi)
+- Μια ακόμη επιλογή hardware wallet: ο [Οδηγός χρήστη Zashi για το Keystone](/guides/keystone-zashi)

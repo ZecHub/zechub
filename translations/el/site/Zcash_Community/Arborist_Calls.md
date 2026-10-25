@@ -32,8 +32,8 @@
 - Πλήρεις ατζέντες και πρακτικά: [σημειώσεις arboretum](https://github.com/ZcashCommunityGrants/arboretum-notes)
 - Αρχείο με δυνατότητα αναζήτησης σε αυτό το wiki: [Arborist Calls αρχείο](/arborist-calls)
 - Πρόσφατες εγγραφές: [Zcash λίστα αναπαραγωγής Arborist Call](https://www.youtube.com/playlist?list=PL40dyJ0UYTLJqD_3PE9qiJTxse-iHnn1G)
-- Συζήτηση Έρευνας και Ανάπτυξης του Zcash: [Zcash Έρευνα και Ανάπτυξη Discord](https://discord.gg/xpzPR53xtU)
-- Εκτενής συζήτηση: [Zcash Φόρουμ κοινότητας](https://forum.zcashcommunity.com/)
+- Συζήτηση Έρευνας και Ανάπτυξης του Zcash: [Έρευνα και Ανάπτυξη Discord Zcash](https://discord.gg/xpzPR53xtU)
+- Εκτενής συζήτηση: [Φόρουμ κοινότητας Zcash](https://forum.zcashcommunity.com/)
 
 ## Ποιοι πρέπει να συμμετάσχουν
 

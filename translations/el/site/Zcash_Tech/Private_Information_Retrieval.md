@@ -91,7 +91,7 @@
 
 ## Σχετικές σελίδες
 
-- [Zcash Συγχρονισμός πορτοφολιού](https://zechub.wiki/zcash-tech/zcash-wallet-syncing) - γιατί ο συγχρονισμός λειτουργεί όπως λειτουργεί σήμερα
+- [Συγχρονισμός πορτοφολιού Zcash](https://zechub.wiki/zcash-tech/zcash-wallet-syncing) - γιατί ο συγχρονισμός λειτουργεί όπως λειτουργεί σήμερα
 - [Κόμβοι Lightwallet](https://zechub.wiki/zcash-tech/lightwallet-nodes) - το μοντέλο light client που θα βελτίωνε το PIR
 - [zk-SNARKs](https://zechub.wiki/zcash-tech/zk-snarks) - το άλλο βασικό κρυπτογραφικό εργαλείο πίσω από την ιδιωτικότητα του Zcash
 - [Ασφάλεια ανθεκτική στους κβαντικούς υπολογιστές](https://zechub.wiki/zcash-tech/post-quantum-security) - γιατί οι μέθοδοι που βασίζονται σε πλέγματα έχουν σημασία για το μέλλον

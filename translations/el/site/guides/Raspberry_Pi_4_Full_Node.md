@@ -149,8 +149,8 @@ zallet -d /mnt/zcash-data/zallet help
 Τα Zebra και Zallet είναι γενικά ελαφρύτερα για την CPU κατά την εγκατάσταση από ό,τι ήταν η μεταγλώττιση του zcashd, αφού εκτελείς προδημιουργημένα δυαδικά αρχεία/containers. Τα 4 GB RAM είναι ένα λογικό σημείο εκκίνησης· παρακολούθησε με το `htop` και σκέψου την παραλλαγή Pi 4 με 8 GB, αν παρατηρήσεις έντονο swapping.
 
 ## Πρόσθετοι πόροι
-- [Zebra Βιβλίο](https://zebra.zfnd.org) — επίσημη τεκμηρίωση του Zebra
-- [Zallet Βιβλίο](https://zcash.github.io/zallet/) — επίσημη τεκμηρίωση του Zallet
+- [Βιβλίο Zebra](https://zebra.zfnd.org) — επίσημη τεκμηρίωση του Zebra
+- [Βιβλίο Zallet](https://zcash.github.io/zallet/) — επίσημη τεκμηρίωση του Zallet
 - [zcashd Ειδοποίηση Υποστήριξης Τέλους Ζωής](https://z.cash/support/zcashd-deprecation)
 
 ---

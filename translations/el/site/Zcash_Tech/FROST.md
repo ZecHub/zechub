@@ -140,7 +140,7 @@
 - [Halo](/zcash-tech/halo) — το trustless, αναδρομικό σύστημα αποδείξεων που χρησιμοποιείται στο pool Orchard του Zcash.
 - [Viewing Keys](/zcash-tech/viewing-keys) — επιλεκτική αποκάλυψη για θωρακισμένες συναλλαγές.
 - [Zcash Shielded Assets](/zcash-tech/zcash-shielded-assets) — όπου το FROST βοηθά στη διαχείριση της εξουσιοδότησης δαπάνης/έκδοσης.
-- [Zcash Συγχρονισμός πορτοφολιού](/zcash-tech/zcash-wallet-syncing) — ένα ακόμη βασικό κομμάτι της υποδομής ιδιωτικότητας του Zcash.
+- [Συγχρονισμός πορτοφολιού Zcash](/zcash-tech/zcash-wallet-syncing) — ένα ακόμη βασικό κομμάτι της υποδομής ιδιωτικότητας του Zcash.
 
 
 ## Περαιτέρω μάθηση

@@ -156,7 +156,7 @@
 - [Ποιος μπορεί να δει την πληρωμή σου στο Zcash](/start-here/who-can-see-your-zcash-payment) — η εισαγωγική άποψη του ίδιου ερωτήματος.
 - [Τι μπορεί να δει ένα Block Explorer](/zcash-tech/what-a-block-explorer-can-see) — όσα είναι ορατά on-chain, σε αντίθεση με όσα είναι ορατά στον διακομιστή.
 - [Zaino](/zcash-tech/zaino) — διαγράμματα αρχιτεκτονικής και ο ευρύτερος ρόλος του indexer Rust.
-- [Zebra Πλήρης κόμβος](/zcash-tech/zebra-full-node) — ο validator από τον οποίο διαβάζει ένας διακομιστής light wallet.
-- [Zcash Συγχρονισμός πορτοφολιού](/zcash-tech/zcash-wallet-syncing) — πώς επεξεργάζεται το πορτοφόλι σου τα συμπαγή μπλοκ που στέλνει ένας διακομιστής.
+- [Πλήρης κόμβος Zebra](/zcash-tech/zebra-full-node) — ο validator από τον οποίο διαβάζει ένας διακομιστής light wallet.
+- [Συγχρονισμός πορτοφολιού Zcash](/zcash-tech/zcash-wallet-syncing) — πώς επεξεργάζεται το πορτοφόλι σου τα συμπαγή μπλοκ που στέλνει ένας διακομιστής.
 
 **Τελευταία ενημέρωση:** Αύγουστος 2026

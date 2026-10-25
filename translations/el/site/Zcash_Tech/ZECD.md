@@ -301,9 +301,9 @@ zecd --datadir ./data init --restore --birthday 2500000
 
 ## Σχετικές σελίδες
 
-- [Zebra Πλήρης κόμβος](Zebra_Full_Node.md) — ο πλήρης κόμβος με τον οποίο συνδέεται το zecd
+- [Πλήρης κόμβος Zebra](Zebra_Full_Node.md) — ο πλήρης κόμβος με τον οποίο συνδέεται το zecd
 - [Zaino Indexer](Zaino.md) — εναλλακτική προσέγγιση indexer (αντικαθιστά το lightwalletd)
-- [Zakura Κόμβος](Zakura_Node.md) — μια άλλη υλοποίηση πλήρους κόμβου (fork του Zebra)
+- [Κόμβος Zakura](Zakura_Node.md) — μια άλλη υλοποίηση πλήρους κόμβου (fork του Zebra)
 - [Viewing Keys](Viewing_Keys.md) — πώς το zecd σαρώνει την αλυσίδα χρησιμοποιώντας viewing keys λογαριασμού
 - [Πορτοφόλια](/using-zcash/wallets) — επισκόπηση του οικοσυστήματος πορτοφολιών
 

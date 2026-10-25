@@ -144,9 +144,9 @@
 ## Σχετικές σελίδες
 
 - [FROST — Τεχνική εμβάθυνση](FROST.md) — κρυπτογραφικές λεπτομέρειες του πρωτοκόλλου (DKG, γύροι υπογραφής, αποδείξεις ασφάλειας)
-- [Ywallet Οδηγός επίδειξης FROST](/guides/Ywallet_FROST_Demo) — υπόβαθρο, το Ywallet δεν συντηρείται πλέον
+- [Οδηγός επίδειξης FROST στο Ywallet](/guides/Ywallet_FROST_Demo) — υπόβαθρο, το Ywallet δεν συντηρείται πλέον
 - [Viewing Keys](Viewing_Keys.md) — πρόσβαση μόνο για ανάγνωση σε θωρακισμένες διευθύνσεις (συμπληρωματική του custody κατωφλίου)
-- [Zcash Θωρακισμένα assets](Zcash_Shielded_Assets.md) — το FROST είναι επίσης βασική υποδομή για την έκδοση ZSA
+- [Θωρακισμένα assets Zcash](Zcash_Shielded_Assets.md) — το FROST είναι επίσης βασική υποδομή για την έκδοση ZSA
 
 ## Πόροι
 

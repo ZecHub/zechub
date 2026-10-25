@@ -210,11 +210,11 @@ docker compose --env-file .env.mainnet --profile monitoring up -d
 
 ## Σχετικές σελίδες
 
-* [Zebra Πλήρης κόμβος](/zcash-tech/zebra-full-node) — κόμβος συναίνεσης που περιβάλλει το Z3
+* [Πλήρης κόμβος Zebra](/zcash-tech/zebra-full-node) — κόμβος συναίνεσης που περιβάλλει το Z3
 * [Zaino](/zcash-tech/zaino) — προαιρετικό προφίλ indexer
 * [Πλήρεις κόμβοι](/zcash-tech/full-nodes) — Zebra, Zakura και το αποσυρμένο zcashd
 * [Κόμβοι Lightwallet](/zcash-tech/lightwallet-nodes) — με τι επικοινωνούν οι light clients
-* [Zakura Κόμβος](/zcash-tech/zakura-node) — εναλλακτικός πλήρης κόμβος· όχι αυτός που παρέχει σήμερα το Z3
+* [Κόμβος Zakura](/zcash-tech/zakura-node) — εναλλακτικός πλήρης κόμβος· όχι αυτός που παρέχει σήμερα το Z3
 * [Οδηγός μετεγκατάστασης: zcashd προς Zebrad/Zallet](/guides/migration-guide-zcashd-to-zebrad-zallet)
 * [Πόροι προγραμματιστών](/start-here/developer-resources)
 

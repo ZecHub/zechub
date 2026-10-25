@@ -52,7 +52,7 @@
 >
 > Η παρακάτω επίδειξη χρησιμοποιεί το zcashd και το [σενάριο λήψης](https://github.com/ZecHub/zechub/blob/main/site/tutorials/ZcashMagicWormhole/receiveOwlsWormhole.sh) διαβάζει σημειώματα μέσω του `zcash-cli`. Το zcashd έφτασε στην αυτόματη διακοπή Υποστήριξης Τέλους Ζωής στις 18 Ιουλίου 2026, επομένως αυτό το σενάριο δεν μπορεί να συνδεθεί με έναν ενεργό κόμβο και δεν έχει μεταφερθεί.
 >
-> Η ανάγνωση θωρακισμένων σημειωμάτων από τη γραμμή εντολών εξακολουθεί να λειτουργεί στο Zallet: το `zallet rpc z_listunspent` επιστρέφει κάθε ληφθέν θωρακισμένο note με το ίδιο πεδίο `memoStr` που διαβάζει το σενάριο. Δες τον [Zallet Οδηγό γρήγορης αναφοράς](/using-zcash/zallet-quick-reference-guide) για την εντολή και τον [οδηγό μετάβασης στο Zebra και το Zallet](/guides/migration-guide-zcashd-to-zebrad-zallet) για να μεταφέρεις έναν κόμβο από το zcashd. Το Zallet βρίσκεται ακόμη σε beta.
+> Η ανάγνωση θωρακισμένων σημειωμάτων από τη γραμμή εντολών εξακολουθεί να λειτουργεί στο Zallet: το `zallet rpc z_listunspent` επιστρέφει κάθε ληφθέν θωρακισμένο note με το ίδιο πεδίο `memoStr` που διαβάζει το σενάριο. Δες τον [Οδηγό γρήγορης αναφοράς Zallet](/using-zcash/zallet-quick-reference-guide) για την εντολή και τον [οδηγό μετάβασης στο Zebra και το Zallet](/guides/migration-guide-zcashd-to-zebrad-zallet) για να μεταφέρεις έναν κόμβο από το zcashd. Το Zallet βρίσκεται ακόμη σε beta.
 >
 > Αυτή η ενότητα διατηρείται ως ιστορικό αρχείο της επίδειξης Magic-Wormhole.
 
@@ -75,8 +75,8 @@
 - [Συναλλαγές](/using-zcash/transactions): θωρακισμένοι και διαφανείς τύποι συναλλαγών.
 - [Θωρακισμένα pools](/using-zcash/shielded-pools): εκεί βρίσκονται τα θωρακισμένα notes που περιλαμβάνουν σημειώματα.
 - [Πορτοφόλια](/using-zcash/wallets): χρησιμοποίησε το φίλτρο Shielded Memo για να βρεις πορτοφόλια που υποστηρίζουν σημειώματα.
-- [Zallet Οδηγός γρήγορης αναφοράς](/using-zcash/zallet-quick-reference-guide): διάβασε ληφθέντα σημειώματα από τη γραμμή εντολών.
-- [Zcash Εργαλεία για δημιουργούς](/using-zcash/creators-and-tips): εργαλεία φιλοδωρημάτων που στέλνουν ένα μήνυμα μαζί με το φιλοδώρημα.
+- [Οδηγός γρήγορης αναφοράς Zallet](/using-zcash/zallet-quick-reference-guide): διάβασε ληφθέντα σημειώματα από τη γραμμή εντολών.
+- [Εργαλεία για δημιουργούς Zcash](/using-zcash/creators-and-tips): εργαλεία φιλοδωρημάτων που στέλνουν ένα μήνυμα μαζί με το φιλοδώρημα.
 
 ### Πόροι
 

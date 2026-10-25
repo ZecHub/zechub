@@ -11,11 +11,11 @@
 
 Αν είσαι νέος στο Zcash, αυτό είναι ένα εξαιρετικό μέρος για να ενημερωθείς. Το πρώτο πράγμα που πρέπει να κάνεις είναι να δεις αυτές τις σελίδες:
 
-[Zcash Οδηγός νέου χρήστη](https://zechub.wiki/start-here/new-user-guide#content)
+[Οδηγός νέου χρήστη Zcash](https://zechub.wiki/start-here/new-user-guide#content)
 
-[Zcash Πόροι](https://zechub.wiki/start-here/zcash-resources#content)
+[Πόροι Zcash](https://zechub.wiki/start-here/zcash-resources#content)
 
-[Zcash Βασικά στοιχεία](https://zechub.wiki/start-here/what-is-zec-and-zcash#content)
+[Βασικά στοιχεία Zcash](https://zechub.wiki/start-here/what-is-zec-and-zcash#content)
 
 ## Έτοιμος να χρησιμοποιήσεις το Zcash
 
@@ -23,7 +23,7 @@
 
 ## Είμαι μέλος της κοινότητας Zcash
 
-Αν είσαι μέλος της κοινότητας, καταπληκτικά! Το καλύτερο που μπορείς να κάνεις για να ενημερώνεσαι είναι να ακολουθείς το εβδομαδιαίο newsletter [Zcash Σύνοψη οικοσυστήματος](https://zechub.substack.com/s/zcash-ecosystem-digest) και όλους τους λογαριασμούς στη [Λίστα σελίδων της κοινότητας Zcash](https://zechub.wiki/zcash-community/community-links#content).
+Αν είσαι μέλος της κοινότητας, καταπληκτικά! Το καλύτερο που μπορείς να κάνεις για να ενημερώνεσαι είναι να ακολουθείς το εβδομαδιαίο newsletter [Σύνοψη οικοσυστήματος Zcash](https://zechub.substack.com/s/zcash-ecosystem-digest) και όλους τους λογαριασμούς στη [Λίστα σελίδων της κοινότητας Zcash](https://zechub.wiki/zcash-community/community-links#content).
 
 ## Θέλω να συνεισφέρω στο ZecHub
 

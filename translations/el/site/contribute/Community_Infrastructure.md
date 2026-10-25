@@ -12,7 +12,7 @@
 
 ## Χρήσιμοι οδηγοί 
 
-- [ZecHub Οδηγός προγραμματιστή](https://zechub.wiki/developers)
+- [Οδηγός προγραμματιστή ZecHub](https://zechub.wiki/developers)
 
 - [Zcash Readthedocs](https://zcash.readthedocs.io/en/latest/)
 
@@ -22,7 +22,7 @@
 
 - [Ρύθμιση του Zebrad στο Akash Network](https://zechub.wiki/guides/akash-network-zebra#content)
 
-- [Zcash Επεξήγηση αιτημάτων πληρωμής (βίντεο)](https://www.youtube.com/watch?v=l5auYQIzYsQ)
+- [Επεξήγηση αιτημάτων πληρωμής Zcash (βίντεο)](https://www.youtube.com/watch?v=l5auYQIzYsQ)
 
 - [ZIP-321 Προδιαγραφή](https://zips.z.cash/zip-0321)
 

@@ -6,7 +6,7 @@
 
 Το ZecHub έθεσε αυτό το ερώτημα αφού πρόσθεσε θωρακισμένες DASH ως επιλογή δωρεάς στο wiki: θα μπορούσαν τα viewing keys τύπου Zcash ή οι threshold υπογραφές του FROST να μεταφερθούν στο Dash;
 
-Η έρευνα το αναδιατύπωσε. Τα viewing keys δεν είναι ανοιχτό ερώτημα — το Dash ενσωμάτωσε το θωρακισμένο pool [Zcash Orchard](https://www.dash.org/news/shielded-transactions-are-live-on-the-dash-evolution-mainnet/) στην αλυσίδα Evolution του, και η ιεραρχία κλειδιών του Orchard περιλαμβάνει viewing keys εκ κατασκευής. Ο οδικός χάρτης του Dash [](https://www.dash.org/roadmap/) τα τοποθετεί για αποκάλυψη σε ελεγκτές και συμμόρφωση με τον Travel Rule. Αυτό το μισό έχει αναπτυχθεί, δεν είναι υποθετικό.
+Η έρευνα το αναδιατύπωσε. Τα viewing keys δεν είναι ανοιχτό ερώτημα — το Dash ενσωμάτωσε το θωρακισμένο pool [Zcash Orchard](https://www.dash.org/news/shielded-transactions-are-live-on-the-dash-evolution-mainnet/) στην αλυσίδα Evolution του, και η ιεραρχία κλειδιών του Orchard περιλαμβάνει viewing keys εκ κατασκευής. Ο [οδικός χάρτης](https://www.dash.org/roadmap/) του Dash τα τοποθετεί για αποκάλυψη σε ελεγκτές και συμμόρφωση με τον Travel Rule. Αυτό το μισό έχει αναπτυχθεί, δεν είναι υποθετικό.
 
 **Το FROST είναι εκεί όπου βρίσκεται το πραγματικό κενό.** Το Dash εκτελεί ήδη threshold υπογραφές BLS μέσω των [Long-Living Masternode Quorums](https://docs.dash.org/projects/core/en/stable/docs/guide/dash-features-masternode-quorums.html), αλλά αυτές εξυπηρετούν συναίνεση σε επίπεδο δικτύου — ChainLocks και InstantSend. Το [ZIP 312](https://zips.z.cash/zip-0312) στοχεύει σε κάτι διαφορετικό: threshold εξουσιοδότηση δαπάνης για έναν μόνο θωρακισμένο λογαριασμό που διατηρείται από μια μικρή ομάδα μεμονωμένων κατόχων κλειδιών. Τα δύο δεν είναι εναλλάξιμα. Και καθώς το ZIP 312 παραμένει **Προσχέδιο**, δεν υπάρχει υλοποίηση αναφοράς σε καμία από τις δύο αλυσίδες προς μεταφορά, επομένως αυτό θα ήταν νέο έργο ανεξάρτητα από το ποια πλευρά θα το δημιουργούσε.
 
@@ -18,7 +18,7 @@
 
 **Το Zcash απομακρύνθηκε από το Orchard.** Ο ερευνητής Taylor Hornby αποκάλυψε μια ευπάθεια κυκλώματος στο Orchard που θα μπορούσε να αξιοποιηθεί για μη ανιχνεύσιμο πληθωρισμό της προσφοράς. Το Zcash αντέδρασε ενεργοποιώντας το **Ironwood (NU6.3)** στις **28 Ιουλίου 2026**, εισάγοντας ένα νέο θωρακισμένο pool με μηχανισμό μετεγκατάστασης turnstile.
 
-**Το Dash μετακινήθηκε στο Orchard.** Το Dash ανακοίνωσε το σχέδιο στις [19 Φεβρουαρίου 2026](https://www.dash.org/blog/dash-is-adding-shielded-transactions-to-evolution/) — *«Αναμένουμε ότι σύντομα θα μπορούμε να λανσάρουμε θωρακισμένες μεταφορές, υπό την προϋπόθεση φυσικά ελέγχων ασφαλείας και περαιτέρω ανασκόπησης κώδικα.»* Ο οδικός χάρτης του Dash [](https://www.dash.org/roadmap/) καταγράφει τα Shielded Balances ως **ολοκληρωμένα τον Ιούλιο 2026** με το Dash Platform **v4.0**, και το Dash δημοσίευσε το [*«Οι θωρακισμένες συναλλαγές είναι ενεργές στο mainnet του Dash Evolution»*](https://www.dash.org/news/shielded-transactions-are-live-on-the-dash-evolution-mainnet/) στις **4 Αυγούστου 2026**.
+**Το Dash μετακινήθηκε στο Orchard.** Το Dash ανακοίνωσε το σχέδιο στις [19 Φεβρουαρίου 2026](https://www.dash.org/blog/dash-is-adding-shielded-transactions-to-evolution/) — *«Αναμένουμε ότι σύντομα θα μπορούμε να λανσάρουμε θωρακισμένες μεταφορές, υπό την προϋπόθεση φυσικά ελέγχων ασφαλείας και περαιτέρω ανασκόπησης κώδικα.»* Ο [οδικός χάρτης](https://www.dash.org/roadmap/) του Dash καταγράφει τα Shielded Balances ως **ολοκληρωμένα τον Ιούλιο 2026** με το Dash Platform **v4.0**, και το Dash δημοσίευσε το [*«Οι θωρακισμένες συναλλαγές είναι ενεργές στο mainnet του Dash Evolution»*](https://www.dash.org/news/shielded-transactions-are-live-on-the-dash-evolution-mainnet/) στις **4 Αυγούστου 2026**.
 
 > **Σημείωση για τη σειρά.** Ορισμένες αναφορές τοποθέτησαν την ενεργοποίηση του mainnet του Dash στις 17 Ιουλίου 2026, γεγονός που θα την τοποθετούσε πριν από το Ironwood. Αυτή η ημερομηνία φαίνεται να προέρχεται από δημοσιογραφική κάλυψη της ανακοίνωσης και όχι από ενεργοποίηση. Στις ίδιες τις πηγές του Dash, το χαρακτηριστικό ολοκληρώθηκε τον Ιούλιο και ανακοινώθηκε ως ενεργό στις 4 Αυγούστου — μετά το Ironwood. Οι δύο αλυσίδες διασταυρώθηκαν μέσα σε λίγες εβδομάδες· η ακριβής σειρά εξαρτάται από το ποιο ορόσημο μετράται και αυτή η ενημέρωση δεν ισχυρίζεται κάποιο.
 
@@ -177,7 +177,7 @@ m(userA)/9'/5'/15'/0'/(userA's unique id)/(userB's unique id)
 - [Αποθετήριο dashpay/dips](https://github.com/dashpay/dips)
 
 **Σύγχρονη δημοσιογραφική κάλυψη**
-- [Το Dash λανσάρει την τεχνολογία Zcash του Orchard σε αναβάθμιση ιδιωτικότητας](https://www.cryptopolitan.com/dash-launch-zcash-orchard-technology/) — Cryptopolitan
+- [Το Dash λανσάρει την τεχνολογία Orchard του Zcash σε αναβάθμιση ιδιωτικότητας](https://www.cryptopolitan.com/dash-launch-zcash-orchard-technology/) — Cryptopolitan
 - [Το Dash φέρνει την ιδιωτικότητα Zcash Orchard στην αλυσίδα Evolution για θωρακισμένες συναλλαγές](https://hackernoon.com/dash-brings-zcash-orchard-privacy-to-evolution-chain-for-shielded-transactions) — HackerNoon
 
 *Οι πηγές ελέγχθηκαν στις 27 Σεπτεμβρίου 2026. Το Dash Platform και το ZIP 312 εξελίσσονται και τα σχήματα και οι καταστάσεις θα πρέπει να επαληθεύονται ξανά πριν από αναδημοσίευση.*

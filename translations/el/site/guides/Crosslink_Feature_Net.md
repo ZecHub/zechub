@@ -432,7 +432,7 @@ http://127.0.0.1:8232
 - [Crosslink Protocol](/zcash-tech/crosslink-protocol) - ο σχεδιασμός που δοκιμάζει αυτό το δίκτυο
 - [Shielded Labs](/zcash-organizations/shielded-labs) - η ομάδα πίσω από το Crosslink
 - [Επαλήθευση εκδόσεων Zcash](/guides/verifying-zcash-releases) - τι αποδεικνύει και τι δεν αποδεικνύει ένα checksum
-- [Zebra Πλήρης κόμβος](/zcash-tech/zebra-full-node) - ο κόμβος πάνω στον οποίο βασίζεται η εφαρμογή Feature Net
+- [Πλήρης κόμβος Zebra](/zcash-tech/zebra-full-node) - ο κόμβος πάνω στον οποίο βασίζεται η εφαρμογή Feature Net
 - [Zcash Testnet](/using-zcash/testnet) - το συνηθισμένο δοκιμαστικό δίκτυο Zcash, που είναι διαφορετικό δίκτυο
 
 ## Πηγές

@@ -96,7 +96,7 @@
 
 ### Δες επίσης
 
-[Zcash Αναβαθμίσεις δικτύου](../start-here/network-upgrades)
+[Αναβαθμίσεις δικτύου Zcash](../start-here/network-upgrades)
 
 [Θωρακισμένα pools](../using-zcash/shielded-pools)
 

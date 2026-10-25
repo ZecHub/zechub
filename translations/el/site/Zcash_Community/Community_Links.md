@@ -30,9 +30,9 @@
 
 - [ZecHub Matrix](https://matrix.to/#/#zechub:matrix.org)
 
-### Zcash Φόρουμ κοινότητας
+### Φόρουμ κοινότητας Zcash
 
-Το [Zcash Φόρουμ κοινότητας](https://forum.zcashcommunity.com/) είναι το κέντρο για εκτενείς συζητήσεις σχετικά με το Zcash — διακυβέρνηση, προτάσεις επιχορηγήσεων, τεχνικές συζητήσεις και ανακοινώσεις του οικοσυστήματος. Τώρα, η διαχείριση έχει μεταφερθεί στο Zcash Foundation μετά τη μετάβαση του ECC σε ZODL.
+Το [Φόρουμ κοινότητας Zcash](https://forum.zcashcommunity.com/) είναι το κέντρο για εκτενείς συζητήσεις σχετικά με το Zcash — διακυβέρνηση, προτάσεις επιχορηγήσεων, τεχνικές συζητήσεις και ανακοινώσεις του οικοσυστήματος. Τώρα, η διαχείριση έχει μεταφερθεί στο Zcash Foundation μετά τη μετάβαση του ECC σε ZODL.
 
 ### <img src="/content-images/image-2024-02-03-174240928-7a8f751301.webp" alt="Alt Text" width="50"/> <span translate="no" class="notranslate">X / Twitter</span>
 
@@ -73,8 +73,8 @@
 
 ## Πόροι
 
-- [Zcash Ιστότοπος κοινότητας](https://www.zcashcommunity.com/)
+- [Ιστότοπος κοινότητας Zcash](https://www.zcashcommunity.com/)
 - [ZecHub Wiki](https://zechub.wiki)
-- [Zcash Κέντρο επιχορηγήσεων](https://forum.zcashcommunity.com/t/introducing-zcash-grants-hub-browse-zcg-coinholder-grants-apply-via-betther-ui-and-explore-zechub-dao-proposals/55267)
-- [Zcash Παγκόσμιοι πρεσβευτές](https://zechub.wiki/zcash-community/zcash-global-ambassadors) - Επισκόπηση του προγράμματος σε αυτό το wiki (το zcashambassadors.com είναι εκτός λειτουργίας)
+- [Κέντρο επιχορηγήσεων Zcash](https://forum.zcashcommunity.com/t/introducing-zcash-grants-hub-browse-zcg-coinholder-grants-apply-via-betther-ui-and-explore-zechub-dao-proposals/55267)
+- [Παγκόσμιοι πρεσβευτές Zcash](https://zechub.wiki/zcash-community/zcash-global-ambassadors) - Επισκόπηση του προγράμματος σε αυτό το wiki (το zcashambassadors.com είναι εκτός λειτουργίας)
 - [ZEC Bounties](https://bounties.zechub.wiki/)

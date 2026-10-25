@@ -125,6 +125,6 @@
 - [ZIP 208: Συντομότερο διάστημα στόχου μπλοκ](https://zips.z.cash/zip-0208), το προηγούμενο του Blossom
 - [Forum: Πρόταση — Μείωση του στόχου διαστήματος μπλοκ Zcash σε 25 δευτερόλεπτα](https://forum.zcashcommunity.com/t/proposal-lower-zcash-block-target-spacing-to-25s/54577)
 - [Forum: Η μείωση χρόνου μπλοκ Zcash φαίνεται ασφαλής για το NU7 με devnet μόνο Zebra](https://forum.zcashcommunity.com/t/zcash-block-time-reduction-appears-safe-for-nu7-w-zebra-only-devnet/55586)
-- [Zebra ζήτημα #11463](https://github.com/ZcashFoundation/zebra/issues/11463), διάστημα halving και επιχορήγηση μετά το NU7
-- [Zebra ζήτημα #11440](https://github.com/ZcashFoundation/zebra/issues/11440), παρακολούθηση υλοποίησης ZIP 218
+- [Ζήτημα #11463 του Zebra](https://github.com/ZcashFoundation/zebra/issues/11463), διάστημα halving και επιχορήγηση μετά το NU7
+- [Ζήτημα #11440 του Zebra](https://github.com/ZcashFoundation/zebra/issues/11440), παρακολούθηση υλοποίησης ZIP 218
 - NU7 αποτελέσματα δημοσκόπησης και χρονοδιάγραμμα, όπως αναφέρθηκαν από τα Bitcoin.com News, crypto.news και KuCoin (16–19 Σεπτεμβρίου 2026)

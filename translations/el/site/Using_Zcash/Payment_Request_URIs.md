@@ -146,7 +146,7 @@ zcash:ztestsapling10yy2ex5dcqkclhc7z7yrnjq2z6feyjad56ptwlfgmy77dmaqqrl9gyhprdx59
 - [Σημειώματα](/using-zcash/memos): για ποιον σκοπό χρησιμοποιείται το πεδίο σημειώματος σε ένα αίτημα πληρωμής.
 - [Επεξεργαστές πληρωμών](/using-zcash/payment-processors): υπηρεσίες που διαχειρίζονται πληρωμές για καταστήματα.
 - [Πορτοφόλια](/using-zcash/wallets): χρησιμοποίησε το φίλτρο Payment Request για να βρεις πορτοφόλια που διαβάζουν αυτούς τους συνδέσμους.
-- [Zcash Θωρακισμένα assets](/zcash-tech/zcash-shielded-assets): τα Custom Assets στα οποία αναφέρεται το `req-asset`.
+- [Θωρακισμένα assets Zcash](/zcash-tech/zcash-shielded-assets): τα Custom Assets στα οποία αναφέρεται το `req-asset`.
 - [Τι είναι οι διευθύνσεις TEX του Zcash;](/using-zcash/transparent-exchange-addresses): ένας ακόμη κανόνας διευθύνσεων που διαβάζει το πορτοφόλι σου πριν πληρώσει.
 
 **Τελευταία ενημέρωση:** Οκτώβριος 2026

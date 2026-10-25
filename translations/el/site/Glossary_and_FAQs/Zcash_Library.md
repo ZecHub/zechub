@@ -23,7 +23,7 @@
 | Benchmarking | Οι εξορύκτες μπορούν να υποβάλλουν μετρήσεις για την αποδοτικότητα διαφορετικού hardware που χρησιμοποιείται για την εξόρυξη του Zcash. [Δες εδώ](https://zcashbenchmarks.info) |
 | Block | Ένα μπλοκ είναι μια εγγραφή στο blockchain του Zcash που περιέχει ένα σύνολο συναλλαγών οι οποίες στάλθηκαν στο δίκτυο. Κατά μέσο όρο, περίπου κάθε 75 δευτερόλεπτα προστίθεται ένα νέο μπλοκ στο blockchain. |
 | Block Explorer | Ένα online εργαλείο για την προβολή όλων των συναλλαγών, παλαιών και τρεχουσών, στο blockchain. [Zcash Block Explorer](https://zcashexplorer.app/) |
-| Blogs | [ZODL Ιστολόγιο (πρώην Electric Coin Co)](https://zodl.com/blog/) / [Zcash Foundation Ιστολόγιο](https://zfnd.org/blog/) / [ZecHub Newsletter](https://zechub.substack.com/) |
+| Blogs | [Ιστολόγιο ZODL (πρώην Electric Coin Co)](https://zodl.com/blog/) / [Zcash Foundation Ιστολόγιο](https://zfnd.org/blog/) / [ZecHub Newsletter](https://zechub.substack.com/) |
 | Blossom | Η 3η σημαντική αναβάθμιση δικτύου για το Zcash. [Περισσότερες πληροφορίες](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html?highlight=orchard#blossom) |
 
 ## C
@@ -32,7 +32,7 @@
 |------|-----------|
 | Canopy | Η 5η σημαντική αναβάθμιση δικτύου για το Zcash. [Περισσότερες πληροφορίες](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html?highlight=orchard#canopy) |
 | Commitment Scheme | Επιτρέπει σε έναν δεσμευτή να δεσμεύεται σε ένα πολυώνυμο με μια σύντομη συμβολοσειρά, την οποία μπορεί να χρησιμοποιήσει ένας επαληθευτής για να επιβεβαιώσει τις δηλωμένες αξιολογήσεις του δεσμευμένου πολυωνύμου. Είναι χρήσιμο για τη μείωση του κόστους επικοινωνίας στο πρωτόκολλο Zcash. |
-| Community | [Το επίσημο κοινοτικό φόρουμ του Zcash](https://forum.zcashcommunity.com) / [Zcash Κοινότητα Discord](https://discord.com/channels/669694001464737815/669694001921654794) / [Zcash Έρευνα και ανάπτυξη Discord](https://discord.com/invite/6AK7keWFaK) / [Reddit](https://www.reddit.com/r/zec/) / [Telegram](https://t.me/Zcash_Community) / [Twitter](https://x.com/zcash) |
+| Community | [Το επίσημο κοινοτικό φόρουμ του Zcash](https://forum.zcashcommunity.com) / [Κοινότητα Discord Zcash](https://discord.com/channels/669694001464737815/669694001921654794) / [Έρευνα και ανάπτυξη Discord Zcash](https://discord.com/invite/6AK7keWFaK) / [Reddit](https://www.reddit.com/r/zec/) / [Telegram](https://t.me/Zcash_Community) / [Twitter](https://x.com/zcash) |
 | Crosslink | Ένα προτεινόμενο υβριδικό σχέδιο συναίνεσης που θα εκτελούσε proof of stake παράλληλα με το υφιστάμενο proof of work του Zcash. Το Shielded Labs ηγείται της εργασίας και διατηρεί ένα πρωτότυπο στο αποθετήριο `zebra-crosslink`. Το Crosslink δεν αποτελεί μέρος του Zcash σήμερα. [Πρωτόκολλο Crosslink](/zcash-tech/crosslink-protocol) |
 | CrossPay | Μια λειτουργία στο πορτοφόλι ZODL που σου επιτρέπει να δαπανήσεις θωρακισμένα ZEC, ενώ ο παραλήπτης πληρώνεται στο περιουσιακό στοιχείο και την αλυσίδα που προτιμά, με δρομολόγηση μέσω του NEAR Intents αντί για ένα κεντρικοποιημένο ανταλλακτήριο. |
 | Cypherpunk Zero | Ένα Δημιουργικό Σύμπαν και μια συνεργατική προσπάθεια μεταξύ του ECC, του εικονογράφου Stranger Wolf, του Mighty Jaxx και επιλεγμένων συνεργατών του οικοσυστήματος. [Κοινωνικά δίκτυα Cypherpunk Zero](https://x.com/cypherpunkZero) / [Συλλογή OpenSea](https://opensea.io/collection/cypherpunk-zero) |

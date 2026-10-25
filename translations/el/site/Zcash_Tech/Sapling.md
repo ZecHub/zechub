@@ -74,7 +74,7 @@
 
 - [ZIP 205: Ανάπτυξη της αναβάθμισης δικτύου Sapling](https://zips.z.cash/zip-0205)
 - [ZIP 243: Επικύρωση υπογραφής συναλλαγών για το Sapling](https://zips.z.cash/zip-0243)
-- [Zcash Σελίδα αναβάθμισης Sapling](https://z.cash/upgrade/sapling/)
+- [Σελίδα αναβάθμισης Sapling του Zcash](https://z.cash/upgrade/sapling/)
 - [Electric Coin Company: Ανακοίνωση του Sapling](https://electriccoin.co/blog/sapling/)
 - [Electric Coin Company: Ανακοίνωση του MPC Sapling](https://electriccoin.co/blog/sapling-mpc/)
 

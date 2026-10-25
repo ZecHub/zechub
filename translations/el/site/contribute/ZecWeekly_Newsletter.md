@@ -16,7 +16,7 @@
 
 - Έλεγξε το [ZEC Bounties](https://bounties.zechub.wiki/) για την τρέχουσα εργασία newsletter.
 - Περίμενε να σου ανατεθεί η εργασία.
-- Οι εκδόσεις newsletter ανήκουν στην κατηγορία XS της πολιτικής ποσών bounty του [](https://bounties.zechub.wiki/docs/bounty-amounts). Ο αριθμός ZEC στο ενεργό bounty είναι το ποσό, όχι κάποια παλαιότερη επικεφαλίδα στους οδηγούς συνεισφοράς.
+- Οι εκδόσεις newsletter ανήκουν στην κατηγορία XS της [πολιτικής ποσών bounty](https://bounties.zechub.wiki/docs/bounty-amounts). Ο αριθμός ZEC στο ενεργό bounty είναι το ποσό, όχι κάποια παλαιότερη επικεφαλίδα στους οδηγούς συνεισφοράς.
 
 ![ss](/content-images/149a802c-b64f-4969-ad89-e83ffecf568e-d5d8387145.webp)
 
@@ -91,9 +91,9 @@ Summary:
 
 Χρησιμοποίησε αυτά τα συγχωνευμένα pull requests newsletter ως παραδείγματα αποδεκτών υποβολών:
 
-- [Zcash Σύνοψη οικοσυστήματος | 11 Απριλίου](https://github.com/ZecHub/zechub/pull/1551)
-- [Zcash Σύνοψη οικοσυστήματος | 28 Μαρτίου](https://github.com/ZecHub/zechub/pull/1544)
-- [Zcash Σύνοψη οικοσυστήματος | 14 Φεβρουαρίου](https://github.com/ZecHub/zechub/pull/1474)
+- [Σύνοψη οικοσυστήματος Zcash | 11 Απριλίου](https://github.com/ZecHub/zechub/pull/1551)
+- [Σύνοψη οικοσυστήματος Zcash | 28 Μαρτίου](https://github.com/ZecHub/zechub/pull/1544)
+- [Σύνοψη οικοσυστήματος Zcash | 14 Φεβρουαρίου](https://github.com/ZecHub/zechub/pull/1474)
 
 
 ![Merged ZecWeekly newsletter pull request example](/content-images/9230d68d-6406-4c8a-992c-df84e0d318d8-8893d2de55.webp)

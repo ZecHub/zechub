@@ -1,4 +1,4 @@
-# Zcash Οδηγός εξόρυξης: Συμμετοχή σε ένα mining pool με προσωπικό hardware
+# Οδηγός εξόρυξης Zcash: Συμμετοχή σε ένα mining pool με προσωπικό hardware
 
 ## Εισαγωγή
 

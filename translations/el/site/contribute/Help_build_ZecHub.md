@@ -25,7 +25,7 @@
 
 ### Ανταμοιβές
 
-Τα ποσά δεν είναι σταθερά στο ZEC. Χρησιμοποίησε την πολιτική ποσών bounty του [](https://bounties.zechub.wiki/docs/bounty-amounts): διάλεξε ένα εύρος σε USD για την κατηγορία εργασίας, μετέτρεψέ το με την τρέχουσα ισοτιμία και καταχώρισε το ZEC στον πίνακα. Αυτή η πολιτική είναι η πηγή αναφοράς.
+Τα ποσά δεν είναι σταθερά στο ZEC. Χρησιμοποίησε την [πολιτική ποσών bounty](https://bounties.zechub.wiki/docs/bounty-amounts): διάλεξε ένα εύρος σε USD για την κατηγορία εργασίας, μετέτρεψέ το με την τρέχουσα ισοτιμία και καταχώρισε το ZEC στον πίνακα. Αυτή η πολιτική είναι η πηγή αναφοράς.
 
 Ροή εργασίας συνεισφερόντων και είδη εργασίας: [Συνεισφέροντας στο ZecHub](https://zechub.wiki/contribute/contributing-guide).
 
@@ -50,7 +50,7 @@
 
 [ZEC Bounties](https://bounties.zechub.wiki/)
 
-[ZecHub Ζητήματα GitHub](https://github.com/ZecHub/zechub/issues)
+[Ζητήματα GitHub ZecHub](https://github.com/ZecHub/zechub/issues)
 
 [ZecHub-Wiki ζητήματα GitHub](https://github.com/ZecHub/zechub-wiki/issues)
 

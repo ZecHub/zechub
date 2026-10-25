@@ -136,10 +136,10 @@
 ## Σχετικές σελίδες
 
 - [Crosslink Feature Net](/guides/crosslink-feature-net) — εγκατάστησε την εφαρμογή desktop Feature Net, κάνε stake σε έναν finalizer και έλεγξε τη θέση σου.
-- [Zebra Πλήρης κόμβος](/zcash-tech/zebra-full-node) — ο client στον οποίο σχεδιάζεται να ενσωματωθεί το Crosslink 2*.
+- [Πλήρης κόμβος Zebra](/zcash-tech/zebra-full-node) — ο client στον οποίο σχεδιάζεται να ενσωματωθεί το Crosslink 2*.
 - [Πλήρεις κόμβοι](/zcash-tech/full-nodes) — πώς οι κόμβοι επικυρώνουν σήμερα τους κανόνες συναίνεσης, πριν από οποιαδήποτε αλλαγή υβριδικής συναίνεσης.
 - [Αναβαθμίσεις δικτύου](/start-here/network-upgrades) — πώς οι αλλαγές στους κανόνες συναίνεσης φτάνουν στο δίκτυο Zcash.
-- [Zcash Νομισματική πολιτική](/start-here/zcash-monetary-policy) — η δομή ανταμοιβής μπλοκ που το Crosslink θα ανακατένειμε.
+- [Νομισματική πολιτική Zcash](/start-here/zcash-monetary-policy) — η δομή ανταμοιβής μπλοκ που το Crosslink θα ανακατένειμε.
 
 ## Πρόσθετοι πόροι
 

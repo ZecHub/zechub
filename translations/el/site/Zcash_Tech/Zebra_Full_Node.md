@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Zebra πλήρης κόμβος
+# Πλήρης κόμβος Zebra
 
 ## Με λίγα λόγια
 
@@ -93,7 +93,7 @@ target/release/zebrad start
 
 ### Ρύθμιση εξόρυξης
 
-  - Το Zebra μπορεί να ρυθμιστεί για εξόρυξη καθορίζοντας μια *MINER_ADDRESS* και αντιστοίχιση θυρών στο Docker. Περισσότερες λεπτομέρειες μπορείς να βρεις στην τεκμηρίωση υποστήριξης εξόρυξης [](https://zebra.zfnd.org/user/mining-docker.html).
+  - Το Zebra μπορεί να ρυθμιστεί για εξόρυξη καθορίζοντας μια *MINER_ADDRESS* και αντιστοίχιση θυρών στο Docker. Περισσότερες λεπτομέρειες μπορείς να βρεις στην [τεκμηρίωση υποστήριξης εξόρυξης](https://zebra.zfnd.org/user/mining-docker.html).
 
 ### Προσαρμοσμένες δυνατότητες δημιουργίας
 
@@ -101,7 +101,7 @@ target/release/zebrad start
 
   - Συνδύασε πολλαπλές δυνατότητες καταγράφοντάς τες ως παραμέτρους της σημαίας `--features` κατά την εγκατάσταση.
 
-  - Ορισμένες δυνατότητες αποσφαλμάτωσης και παρακολούθησης απενεργοποιούνται στις εκδόσεις release για βελτιστοποίηση της απόδοσης. Για την πλήρη λίστα πειραματικών δυνατοτήτων και δυνατοτήτων προγραμματιστών, συμβουλέψου την τεκμηρίωση API [](https://docs.rs/zebrad/latest/zebrad/index.html#zebra-feature-flags).
+  - Ορισμένες δυνατότητες αποσφαλμάτωσης και παρακολούθησης απενεργοποιούνται στις εκδόσεις release για βελτιστοποίηση της απόδοσης. Για την πλήρη λίστα πειραματικών δυνατοτήτων και δυνατοτήτων προγραμματιστών, συμβουλέψου την [τεκμηρίωση API](https://docs.rs/zebrad/latest/zebrad/index.html#zebra-feature-flags).
 
 ## Απαιτήσεις συστήματος και ρύθμιση δικτύου
 
@@ -151,10 +151,10 @@ target/release/zebrad start
 ## Σχετικές σελίδες
 
 - [Πλήρεις κόμβοι](/zcash-tech/full-nodes) - τι κάνει ένας πλήρης κόμβος και ποιες υλοποιήσεις υπάρχουν
-- [Zakura κόμβος](/zcash-tech/zakura-node) - ένας κόμβος που έχει γίνει fork από το Zebra με ταχύτερο συγχρονισμό και pruning
+- [Κόμβος Zakura](/zcash-tech/zakura-node) - ένας κόμβος που έχει γίνει fork από το Zebra με ταχύτερο συγχρονισμό και pruning
 - [Zaino](/zcash-tech/zaino) - ο indexer του Rust που εξυπηρετεί light wallets
 - [Κόμβοι Lightwallet](/zcash-tech/lightwallet-nodes) - οι διακομιστές που ερωτούν τα light wallets
-- [Zcash οδηγός εξόρυξης](/using-zcash/zcash-mining-guide) - εξόρυξη με τον δικό σου κόμβο
+- [Οδηγός εξόρυξης Zcash](/using-zcash/zcash-mining-guide) - εξόρυξη με τον δικό σου κόμβο
 
 ## Περαιτέρω μάθηση
 

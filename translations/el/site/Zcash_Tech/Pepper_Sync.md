@@ -139,7 +139,7 @@
 
 ## Σχετικές σελίδες
 
-- [Zcash Συγχρονισμός πορτοφολιού](/zcash-tech/zcash-wallet-syncing) — πώς λειτουργεί ο συγχρονισμός πορτοφολιού σε όλο το οικοσύστημα Zcash.
+- [Συγχρονισμός πορτοφολιού Zcash](/zcash-tech/zcash-wallet-syncing) — πώς λειτουργεί ο συγχρονισμός πορτοφολιού σε όλο το οικοσύστημα Zcash.
 - [Ελαφριοί κόμβοι πορτοφολιού](/zcash-tech/lightwallet-nodes) — η υποδομή με την οποία συγχρονίζεται ένα ελαφρύ πορτοφόλι όπως το Zingo.
 - [Zaino](/zcash-tech/zaino) — ο indexer που ανέπτυξε η ομάδα Zingo.
 - [Πορτοφόλια](/wallets) — ο πλήρης κατάλογος των πορτοφολιών Zcash και των χαρακτηριστικών τους.
@@ -147,7 +147,7 @@
 ## Περαιτέρω μάθηση
 
 - [Zingo! Αποθετήριο GitHub](https://github.com/zingolabs/zingolib)
-- [Zcash Φόρουμ κοινότητας](https://forum.zcashcommunity.com/)
+- [Φόρουμ κοινότητας Zcash](https://forum.zcashcommunity.com/)
 - Επίσημες ανακοινώσεις - [Zingo Labs Twitter](https://twitter.com/ZingoLabs)
 
 ___

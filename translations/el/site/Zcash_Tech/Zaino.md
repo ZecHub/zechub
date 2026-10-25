@@ -87,7 +87,7 @@ docker compose --env-file .env.<network> --profile indexer up -d
 * [Zaino Εκδόσεις ](https://github.com/zingolabs/zaino/releases)
 * [Zaino Παραγόμενη τεκμηρίωση ](https://zingolabs.github.io/zaino/)
 * [Αποθετήριο ανάπτυξης Z3](https://github.com/ZcashFoundation/z3)
-* [Zebra Τεκμηρίωση ](https://zebra.zfnd.org/)
+* [Τεκμηρίωση Zebra ](https://zebra.zfnd.org/)
 * [Zaino Επιχορήγηση και συζήτηση έργου](https://forum.zcashcommunity.com/t/zingo-labs-accelerates-zcashd-deprecation-with-zaino/48545)
 
 **Τελευταία ενημέρωση:** Αύγουστος 2026

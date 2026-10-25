@@ -76,7 +76,7 @@
 ## Σχετικές σελίδες
 
 - [Πόροι προγραμματιστών](https://zechub.wiki/developers) - η πρώτη στάση για δημιουργούς του Zcash
-- [Zebra Πλήρης κόμβος](https://zechub.wiki/zcash-tech/zebra-full-node) - ο κόμβος στη βάση της στοίβας
+- [Πλήρης κόμβος Zebra](https://zechub.wiki/zcash-tech/zebra-full-node) - ο κόμβος στη βάση της στοίβας
 - [FROST](https://zechub.wiki/zcash-tech/frost) - υπογραφές κατωφλίου για προχωρημένα έργα
 
 <br/>

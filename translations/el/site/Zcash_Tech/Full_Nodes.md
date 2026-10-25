@@ -34,11 +34,11 @@
 
 [Το βιβλίο Zebra](https://zebra.zfnd.org)
 
-Δες το [Zebra Πλήρης κόμβος](/zcash-tech/zebra-full-node) για βήματα εγκατάστασης, ρυθμίσεις και απαιτήσεις υλικού.
+Δες το [Πλήρης κόμβος Zebra](/zcash-tech/zebra-full-node) για βήματα εγκατάστασης, ρυθμίσεις και απαιτήσεις υλικού.
 
 ### Zakura
 
-Το Zakura είναι ένας δεύτερος πλήρης κόμβος συμβατός με τη συναίνεση, fork του Zebra και αναπτύχθηκε από το Valar Group μαζί με το Project Tachyon. Ακολουθεί τους ίδιους κανόνες πρωτοκόλλου και προσθέτει ταχύτερο συγχρονισμό, pruning μπλοκ και ένα επίπεδο συμβατότητας RPC zcashd. Δες το [Zakura Κόμβος](/zcash-tech/zakura-node).
+Το Zakura είναι ένας δεύτερος πλήρης κόμβος συμβατός με τη συναίνεση, fork του Zebra και αναπτύχθηκε από το Valar Group μαζί με το Project Tachyon. Ακολουθεί τους ίδιους κανόνες πρωτοκόλλου και προσθέτει ταχύτερο συγχρονισμό, pruning μπλοκ και ένα επίπεδο συμβατότητας RPC zcashd. Δες το [Κόμβος Zakura](/zcash-tech/zakura-node).
 
 ### zcashd (αποσυρμένο)
 
@@ -112,7 +112,7 @@
 
 Το zcashd επιτρέπει επίσης την εξόρυξη σε θωρακισμένο coinbase. Οι εξορύκτες και τα pools εξόρυξης έχουν την επιλογή να εξορύσσουν απευθείας, ώστε να συσσωρεύουν θωρακισμένα ZEC σε μια διεύθυνση z από προεπιλογή.
 
-Διάβασε τον [Οδηγό εξόρυξης](https://zcash.readthedocs.io/en/latest/rtd_pages/zcash_mining_guide.html) ή μπες στη σελίδα του Community Forum για [Zcash Εξορύκτες](https://forum.zcashcommunity.com/c/mining/13).
+Διάβασε τον [Οδηγό εξόρυξης](https://zcash.readthedocs.io/en/latest/rtd_pages/zcash_mining_guide.html) ή μπες στη σελίδα του Community Forum για [Εξορύκτες Zcash](https://forum.zcashcommunity.com/c/mining/13).
 
 ### Ιδιωτικότητα
 
@@ -132,11 +132,11 @@
 
 ## Σχετικές σελίδες
 
-- [Zebra Πλήρης κόμβος](/zcash-tech/zebra-full-node) - εγκατάστησε, ρύθμισε και εκτέλεσε τον προτεινόμενο κόμβο
-- [Zakura Κόμβος](/zcash-tech/zakura-node) - η δεύτερη υλοποίηση κόμβου, fork του Zebra
+- [Πλήρης κόμβος Zebra](/zcash-tech/zebra-full-node) - εγκατάστησε, ρύθμισε και εκτέλεσε τον προτεινόμενο κόμβο
+- [Κόμβος Zakura](/zcash-tech/zakura-node) - η δεύτερη υλοποίηση κόμβου, fork του Zebra
 - [Κόμβοι Lightwallet](/zcash-tech/lightwallet-nodes) - οι διακομιστές που ερωτούν τα ελαφριά πορτοφόλια
 - [Zaino](/zcash-tech/zaino) - ο indexer Rust που εξυπηρετεί ελαφριά πορτοφόλια
-- [Zcash Συγχρονισμός πορτοφολιού](/zcash-tech/zcash-wallet-syncing) - γιατί ο συγχρονισμός λειτουργεί με αυτόν τον τρόπο
+- [Συγχρονισμός πορτοφολιού Zcash](/zcash-tech/zcash-wallet-syncing) - γιατί ο συγχρονισμός λειτουργεί με αυτόν τον τρόπο
 
 ## Περαιτέρω μάθηση
 

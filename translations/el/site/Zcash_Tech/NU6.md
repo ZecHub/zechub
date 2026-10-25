@@ -102,11 +102,11 @@
 
 ### Δες επίσης
 
-[Zcash Αναβαθμίσεις δικτύου](../start-here/network-upgrades)
+[Αναβαθμίσεις δικτύου Zcash](../start-here/network-upgrades)
 
 [Ταμείο ανάπτυξης](../start-here/development-fund)
 
-[Zcash Νομισματική πολιτική](../start-here/zcash-monetary-policy)
+[Νομισματική πολιτική Zcash](../start-here/zcash-monetary-policy)
 
 [NU6.1](../zcash-tech/nu6-1)
 
