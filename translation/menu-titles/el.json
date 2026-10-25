@@ -1,12 +1,12 @@
 {
-  "Start_Here/Developer_Resources.md": "Πόροι για προγραμματιστές [Developer Resources]",
+  "Start_Here/Developer_Resources.md": "Πόροι για προγραμματιστές",
   "Start_Here/How_Zcash_Is_Organized.md": "Πώς οργανώνεται το Zcash",
-  "Start_Here/Network_Upgrades.md": "Zcash Αναβαθμίσεις δικτύου [Network Upgrades]",
-  "Start_Here/New_User_Guide.md": "Zcash Οδηγός νέου χρήστη",
+  "Start_Here/Network_Upgrades.md": "Αναβαθμίσεις δικτύου του Zcash",
+  "Start_Here/New_User_Guide.md": "Οδηγός νέου χρήστη Zcash",
   "Start_Here/What_is_ZEC_and_Zcash.md": "Βασικά στοιχεία του Zcash",
   "Start_Here/What_is_ZecHub.md": "Τι είναι το ZecHub;",
-  "Start_Here/Who_Can_See_Your_Zcash_Payment.md": "Ποιος μπορεί να δει την πληρωμή [payment] σου με Zcash;",
-  "Start_Here/ZEC_Use_Cases.md": "Zcash Βασικά",
-  "Start_Here/Zcash_Monetary_Policy.md": "Zcash Βασικά (Basics)",
-  "Start_Here/Zcash_Resources.md": "Zcash Πόροι"
+  "Start_Here/Who_Can_See_Your_Zcash_Payment.md": "Ποιος μπορεί να δει την πληρωμή σου με Zcash;",
+  "Start_Here/ZEC_Use_Cases.md": "Βασικά στοιχεία του Zcash",
+  "Start_Here/Zcash_Monetary_Policy.md": "Βασικά στοιχεία του Zcash",
+  "Start_Here/Zcash_Resources.md": "Πόροι για το Zcash"
 }

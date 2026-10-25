@@ -1,6 +1,6 @@
 {
   "locale": "el",
-  "version": 4,
+  "version": 5,
   "meta": {
     "language_name": "Greek",
     "native_name": "Ελληνικά",
@@ -10,7 +10,7 @@
     "language_lead": [
       "@panoskokmotos"
     ],
-    "last_review": "2026-10-23"
+    "last_review": "2026-10-25"
   },
   "style": {
     "variety": "natural, fluent Greek",
@@ -21,7 +21,7 @@
         "εσύ": "Address the reader informally with «εσύ» (second person singular) everywhere, also in technical pages. Never use the formal «εσείς»."
       }
     },
-    "english_in_brackets": "first-use",
+    "english_in_brackets": "never",
     "loanwords": "keep-english",
     "loanwords_text": "Crypto loanwords (blockchain, token, swap, staking) stay in English; translate only where a common Greek term exists (κόμβος, έξυπνο συμβόλαιο). The terminology list below wins over this rule.",
     "capitalise_kept_english_at_sentence_start": true,
@@ -34,7 +34,15 @@
       "δηλ"
     ],
     "writing_rules": [
-      "Thousands take a full stop and decimals a comma (1.000,5)."
+      "Thousands take a full stop and decimals a comma (1.000,5).",
+      "«Hub» (as in ZecHub, an education hub) is «κέντρο»: «αποκεντρωμένο κέντρο εκπαίδευσης». Never «κόμβος», which is reserved for a network node.",
+      "Greek word order for a name plus a noun: the noun first, then the name («Οδηγός νέου χρήστη Zcash», «Αναβαθμίσεις δικτύου του Zcash», «το αποθετήριο του ZecHub στο GitHub»), never «Zcash Οδηγός…» or «ZecHub αποθετήριο».",
+      "Headings and link text use sentence case, as Greek does: only the first word and names take a capital («Θωρακισμένα pools», «Πλήρεις κόμβοι»).",
+      "Post-quantum: «ανθεκτικός στους κβαντικούς υπολογιστές», never «μετά την κβαντική εποχή».",
+      "Oblivious sync (Tachyon): «τυφλός συγχρονισμός», like «τυφλές υπογραφές» for blind signatures.",
+      "A tutorial is «οδηγός» or, for a video, «βίντεο με οδηγίες»; never «σεμινάριο» (a seminar).",
+      "Calls to action use the imperative: «υπόβαλε ένα pull request», not the past tense «υπέβαλε».",
+      "Keep a space between a name and the next word inside link text («[Τεκμηρίωση του Zcash]»), never glue them."
     ]
   },
   "terms": {
@@ -46,7 +54,7 @@
         "πορτοφολιού",
         "πορτοφολιών"
       ],
-      "context": "A wallet in running text: «πορτοφόλι». Inside the device name \"hardware wallet\" the English stays (see hardware-wallet).",
+      "context": "A wallet in running text: «πορτοφόλι». Inside the device name \"hardware wallet\" the English stays (see hardware-wallet), and so does a product name such as «Brave Wallet».",
       "applies_to": "both",
       "status": "approved",
       "reviewed_by": [
@@ -80,7 +88,10 @@
     "transaction": {
       "target": "συναλλαγή",
       "forms": [
-        "συναλλαγή"
+        "συναλλαγή",
+        "συναλλαγές",
+        "συναλλαγής",
+        "συναλλαγών"
       ],
       "applies_to": "both",
       "status": "approved",
@@ -1138,6 +1149,16 @@
       "reviewed_at": "2026-10-23",
       "source": "menus.md#navigation-60"
     },
+    "Akash Network Zcashd": {
+      "target": "Zcashd στο Δίκτυο Akash",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-25",
+      "source": "menus-review-el-followup.md#menuLabels-6"
+    },
     "Akash Network Zebra": {
       "target": "Zebra στο Δίκτυο Akash",
       "rejected": [
@@ -1153,6 +1174,16 @@
       ],
       "reviewed_at": "2026-10-23",
       "source": "menus.md#menuLabels-2"
+    },
+    "All languages": {
+      "target": "Όλες οι γλώσσες",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-25",
+      "source": "menus-review-el-followup.md#common-6"
     },
     "Avalanche RedBridge": {
       "target": "Avalanche RedBridge",
@@ -1227,6 +1258,16 @@
       ],
       "reviewed_at": "2026-10-23",
       "source": "menus.md#navigation-16"
+    },
+    "Close": {
+      "target": "Κλείσιμο",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-25",
+      "source": "menus-review-el-followup.md#common-3"
     },
     "CoinHolder Directed Retroactive Grants": {
       "target": "Αναδρομικές επιχορηγήσεις με ψήφο κατόχων ZEC",
@@ -1497,6 +1538,16 @@
       "reviewed_at": "2026-10-23",
       "source": "menus.md#navigation-53"
     },
+    "Free2Z Livestreaming": {
+      "target": "Ζωντανές μεταδόσεις Free2Z",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-25",
+      "source": "menus-review-el-followup.md#menuLabels-4"
+    },
     "Freelance Privacy": {
       "target": "Ιδιωτικότητα για ελεύθερους επαγγελματίες",
       "applies_to": "ui",
@@ -1557,6 +1608,16 @@
       "reviewed_at": "2026-10-23",
       "source": "menus.md#navigation-2"
     },
+    "Hardened Zebrad": {
+      "target": "Ενισχυμένο Zebrad",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-25",
+      "source": "menus-review-el-followup.md#menuLabels-5"
+    },
     "How to Participate": {
       "target": "Πώς να συμμετάσχεις",
       "rejected": [
@@ -1593,6 +1654,16 @@
       "reviewed_at": "2026-10-23",
       "source": "menus.md#navigation-35"
     },
+    "Language": {
+      "target": "Γλώσσα",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-25",
+      "source": "menus-review-el-followup.md#common-1"
+    },
     "Memos": {
       "target": "Σημειώματα",
       "applies_to": "ui",
@@ -1602,6 +1673,22 @@
       ],
       "reviewed_at": "2026-10-23",
       "source": "menus.md#navigation-24"
+    },
+    "Migration Guide Zcashd To Zebrad Zallet": {
+      "target": "Οδηγός μετάβασης από Zcashd σε Zebrad και Zallet",
+      "rejected": [
+        {
+          "text": "Οδηγός μετάβασης από Zcashd σε Zebrad Zallet"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "Two separate programs, so «και» is needed.",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-25",
+      "source": "menus-review-el-followup.md#menuLabels-8"
     },
     "Mobile Top Ups": {
       "target": "Ανανεώσεις κινητού",
@@ -1623,6 +1710,22 @@
       "reviewed_at": "2026-10-23",
       "source": "menus.md#navigation-14"
     },
+    "My First Zcash Workbook": {
+      "target": "Το πρώτο μου τετράδιο Zcash",
+      "rejected": [
+        {
+          "text": "Το πρώτο μου βιβλίο εργασίας για το Zcash"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "A school workbook is «τετράδιο» in Greek; «βιβλίο εργασίας» sounds translated.",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-25",
+      "source": "menus-review-el-followup.md#menuLabels-9"
+    },
     "Navigation": {
       "target": "Πλοήγηση",
       "applies_to": "ui",
@@ -1643,6 +1746,16 @@
       ],
       "reviewed_at": "2026-10-23",
       "source": "menus.md#navigation-7"
+    },
+    "No language found": {
+      "target": "Δεν βρέθηκε γλώσσα",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-25",
+      "source": "menus-review-el-followup.md#common-7"
     },
     "Nym Mixnet Wallet Setup": {
       "target": "Ρύθμιση πορτοφολιού Nym Mixnet",
@@ -1714,6 +1827,22 @@
       ],
       "reviewed_at": "2026-10-23",
       "source": "menus.md#navigation-26"
+    },
+    "Places to Spend ZEC": {
+      "target": "Πού να ξοδέψεις ZEC",
+      "rejected": [
+        {
+          "text": "Μέρη για δαπάνη ZEC"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "Natural Greek; «Μέρη για δαπάνη» reads like a translation.",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-25",
+      "source": "menus-review-el-followup.md#menuLabels-3"
     },
     "Podcast": {
       "target": "Podcast",
@@ -1841,6 +1970,26 @@
       "reviewed_at": "2026-10-23",
       "source": "menus.md#menuLabels-39"
     },
+    "Search": {
+      "target": "Αναζήτηση",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-25",
+      "source": "menus-review-el-followup.md#common-2"
+    },
+    "Search languages": {
+      "target": "Αναζήτηση γλωσσών",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-25",
+      "source": "menus-review-el-followup.md#common-4"
+    },
     "Send Money Privately": {
       "target": "Ιδιωτική αποστολή χρημάτων",
       "applies_to": "ui",
@@ -1887,6 +2036,22 @@
       "reviewed_at": "2026-10-23",
       "source": "menus.md#menuLabels-42"
     },
+    "Spend Zcash": {
+      "target": "Ξόδεψε Zcash",
+      "rejected": [
+        {
+          "text": "Δαπάνη Zcash"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "«Δαπάνη» sounds like an accounting expense; informal imperative like the rest of the site.",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-25",
+      "source": "menus-review-el-followup.md#menuLabels-2"
+    },
     "Start Here": {
       "target": "Ξεκίνα εδώ",
       "rejected": [
@@ -1912,6 +2077,16 @@
       ],
       "reviewed_at": "2026-10-23",
       "source": "menus.md#menuLabels-44"
+    },
+    "Suggested": {
+      "target": "Προτεινόμενες",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-25",
+      "source": "menus-review-el-followup.md#common-5"
     },
     "Tools": {
       "target": "Εργαλεία",
@@ -1971,14 +2146,20 @@
       "source": "menus.md#navigation-30"
     },
     "Use Zcash": {
-      "target": "Χρήση του Zcash",
+      "target": "Χρήση Zcash",
+      "rejected": [
+        {
+          "text": "Χρήση του Zcash"
+        }
+      ],
       "applies_to": "ui",
       "status": "approved",
+      "notes": "Header bar: same meaning without the article, as short as «Οικοσύστημα».",
       "reviewed_by": [
         "@panoskokmotos"
       ],
-      "reviewed_at": "2026-10-23",
-      "source": "menus.md#navigation-15"
+      "reviewed_at": "2026-10-25",
+      "source": "menus-review-el-followup.md#navigation-4"
     },
     "Using Zcash": {
       "target": "Χρήση του Zcash",
@@ -2015,6 +2196,16 @@
       ],
       "reviewed_at": "2026-10-23",
       "source": "menus.md#navigation-56"
+    },
+    "Verifying Zcash Releases": {
+      "target": "Επαλήθευση εκδόσεων Zcash",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-25",
+      "source": "menus-review-el-followup.md#menuLabels-10"
     },
     "Visual Identity": {
       "target": "Οπτική ταυτότητα",
@@ -2076,6 +2267,16 @@
       ],
       "reviewed_at": "2026-10-23",
       "source": "menus.md#navigation-63"
+    },
+    "Zallet Quick Reference Guide": {
+      "target": "Σύντομος οδηγός αναφοράς για το Zallet",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-25",
+      "source": "menus-review-el-followup.md#menuLabels-1"
     },
     "Zcash Community": {
       "target": "Κοινότητα Zcash",
@@ -2276,6 +2477,34 @@
       ],
       "reviewed_at": "2026-10-23",
       "source": "menus.md#navigation-62"
+    },
+    "Brave Wallet Guide": {
+      "applies_to": "ui",
+      "target": "Οδηγός Brave Wallet",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-25",
+      "source": "menus-review-el-followup.md#menuLabels-7",
+      "notes": "Brave Wallet is the product's name, so it stays English.",
+      "context": "Brave Wallet is a product name (protected), so «Wallet» stays English here; a wallet in running text is «πορτοφόλι»."
+    },
+    "Viewing Key Transaction Export": {
+      "applies_to": "ui",
+      "target": "Εξαγωγή συναλλαγών με viewing key",
+      "rejected": [
+        {
+          "text": "Εξαγωγή συναλλαγών μέσω Viewing Key"
+        }
+      ],
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-25",
+      "source": "menus-review-el-followup.md#menuLabels-11",
+      "notes": "Glossary: viewing key stays English in lowercase. «συναλλαγών» is συναλλαγή in the plural genitive."
     }
   },
   "changelog": [
@@ -2469,6 +2698,36 @@
         "Block Explorers"
       ],
       "summary": "Greek native review by @panoskokmotos (Translation Quality bounty, stage 1, #2489): the deliberate splits wallet/hardware wallet and chain/on-chain/cross-chain the case ending of Ecosystem and the tool name Block explorers, with contexts; Greek case and plural forms added by the steward so menu phrases match their terms; style answers (εσύ, «» quotes, decimal comma, western digits, English in brackets on first use)."
+    },
+    {
+      "version": 5,
+      "date": "2026-10-25",
+      "terms": [
+        "transaction",
+        "wallet"
+      ],
+      "phrases": [
+        "Akash Network Zcashd",
+        "All languages",
+        "Brave Wallet Guide",
+        "Close",
+        "Free2Z Livestreaming",
+        "Hardened Zebrad",
+        "Language",
+        "Migration Guide Zcashd To Zebrad Zallet",
+        "My First Zcash Workbook",
+        "No language found",
+        "Places to Spend ZEC",
+        "Search",
+        "Search languages",
+        "Spend Zcash",
+        "Suggested",
+        "Use Zcash",
+        "Verifying Zcash Releases",
+        "Viewing Key Transaction Export",
+        "Zallet Quick Reference Guide"
+      ],
+      "summary": "Greek stage 2 review by @panoskokmotos (#2427, follow-up menus #2508): English in brackets set to never; writing rules for hub, word order, sentence case, post-quantum, oblivious sync, tutorial, imperative calls to action and link text; the follow-up menu labels (new website strings, language menu, shorter «Χρήση Zcash» for the header bar); transaction plural forms and the Brave Wallet product-name context added by the steward so the follow-up phrases pass rule 3."
     }
   ]
 }
