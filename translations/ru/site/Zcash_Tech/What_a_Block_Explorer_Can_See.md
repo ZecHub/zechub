@@ -26,7 +26,7 @@
 
 ## Что может видеть обозреватель
 
-Публичный обозреватель, такой как [Blockchair](https://blockchair.com/zcash), может ясно видеть:
+Публичный обозреватель, такой как [ZecBlock](https://zecblock.com/), может ясно видеть:
 
 - Любой полностью прозрачный платёж (t в t), от начала до конца.
 - Средства, входящие в экранированный пул (прозрачную сторону и сумму).
@@ -65,7 +65,7 @@
 - [Zcash: рекомендации по приватности и безопасности](https://z.cash/support/security/privacy-security-recommendations/)
 - [Экранированная экосистема (Electric Coin Company)](https://web.archive.org/web/20260903010654/https://electriccoin.co/blog/shielded-ecosystem/)
 - [Как работает технология Zcash](https://z.cash/technology/)
-- [Обозреватель Zcash на Blockchair](https://blockchair.com/zcash)
+- [ZecBlock](https://zecblock.com/)
 
 ## Связанные страницы
 

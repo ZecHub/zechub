@@ -137,7 +137,7 @@ Mmezi ndị a na-eme atụmatụ gụnyere:
 
 ## Peeji ndị metụtara ya
 
-- [Na-emefu ZEC](/using-zcash/spend-zcash)  Ụzọ ndị ọzọ iji ZEC na ụwa n'ezie.
+- [Na-emefu ZEC](/using-zcash/spend-zcash/top-10-places-to-spend-zec)  Ụzọ ndị ọzọ iji ZEC na ụwa n'ezie.
 - [Ndị na-arụ ọrụ ịkwụ ụgwọ](/using-zcash/payment-processors)  Ngwá ọrụ maka ndị ahịa ịnakwere ZEC
 - [Iji ZEC eme ihe n'onwe ya](/guides/using-zec-privately)  Omume kachasị mma maka ịkwụ ụgwọ echekwara
 - [Akpa ego](/using-zcash/wallets)  Wallets dakọtara na ZEC ahịa ịkwụ ụgwọ

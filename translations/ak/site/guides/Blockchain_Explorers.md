@@ -17,9 +17,9 @@ Wɔ atetesɛm aguadi wiase no mu no, nea ɛka asɛm biara ho ne krataa a wɔde g
 
 - Amansan: [D0587C76E7689A9EFBDDA587DDB450F6C6E972FCEEA37DD8DA9AF95C23CF8170](https://www.mintscan.io/cosmos/txs/D0587C76E7689A9EFBDDA587DDB450F6C6E972FCEEA37DD8DA9AF95C23CF8170)
 
-- Zcash (ɔmanfoɔ): . [8dd212847a97c5eb9cee5e7e58c4d9e739f4156273ae3b2da1a4ff79ad95ff82](https://explorer.zec.rocks/transactions/8dd212847a97c5eb9cee5e7e58c4d9e739f4156273ae3b2da1a4ff79ad95ff82)
+- Zcash (ɔmanfoɔ): . [8dd212847a97c5eb9cee5e7e58c4d9e739f4156273ae3b2da1a4ff79ad95ff82](https://mainnet.zcashexplorer.app/transactions/8dd212847a97c5eb9cee5e7e58c4d9e739f4156273ae3b2da1a4ff79ad95ff82)
 
-- Zcash (ankorankoro): . [19a4be270089490ece2e5fe7a6c9b9804af3c7ed43e1fb1b744b0fb29070fa5d](https://explorer.zec.rocks/transactions/19a4be270089490ece2e5fe7a6c9b9804af3c7ed43e1fb1b744b0fb29070fa5d)
+- Zcash (ankorankoro): . [19a4be270089490ece2e5fe7a6c9b9804af3c7ed43e1fb1b744b0fb29070fa5d](https://mainnet.zcashexplorer.app/transactions/19a4be270089490ece2e5fe7a6c9b9804af3c7ed43e1fb1b744b0fb29070fa5d)
 
 </div>
 
@@ -72,11 +72,9 @@ Nea wɔde kɔ: kokoamsɛm gyina atare a wɔabɔ ho ban no mu a wobɛtra so. Sɛ 
 
 - [Zcash Block Nhwehwɛmufoɔ](https://mainnet.zcashexplorer.app/)
 
-- [Blockchair](https://blockchair.com)
-
 - [3xpl](https://3xpl.com/zcash)
 
-- [Bitquery a ɛyɛ den](https://explorer.bitquery.io/zcash)
+- [ZecBlock](https://zecblock.com/)
 
 
 ### Akwankyerɛ a Wɔde Aniwa Hu

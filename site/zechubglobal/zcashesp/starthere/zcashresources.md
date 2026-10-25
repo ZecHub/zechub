@@ -24,7 +24,7 @@ Z.cash es el sitio web principal de Zcash. Proporciona contenido y documentació
 
 **[Zcash Github](https://github.com/zcash/zcash)**
 
-¿Tienes conocimientos de programación y quieres profundizar en el aspecto técnico de Zcash? Zcash Github Repo es el repositorio de [zcashd](https://electriccoin.co/zcashd/), la primera implementación de nodos Zcash.
+¿Tienes conocimientos de programación y quieres profundizar en el aspecto técnico de Zcash? Zcash Github Repo es el repositorio de [zcashd](https://web.archive.org/web/20240222050745/https://electriccoin.co/zcashd/), la primera implementación de nodos Zcash.
 
 **[Fundación Zcash Github](https://github.com/ZcashFoundation)**
 

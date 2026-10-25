@@ -60,7 +60,7 @@ Namada - Zcash 보유자에게 Shielded Airdrop을 수행, Ledger에서 Shielded
 
 [Free2Z의 TopCrypto - Zcash super-cryptocurrency 아이디어](https://free2z.cash/TopCrypto/zpage/super-idea-for-Zcash-super-cryptocurrency-Zcash-is-money-crypto-and-energy-for-everyone) 
 
-[Lexaleth의 무료 Zcash 디자인 및 테마](https://free2z.cash/PapelesaColor/zpage/y-si-hacemos-un-diseno-hermoso-y-sutil-sin-afan-de-competir-solo-para-divetir)
+[Lexaleth의 무료 Zcash 디자인 및 테마](https://web.archive.org/web/20230921105945/https://free2z.cash/PapelesaColor/zpage/y-si-hacemos-un-diseno-hermoso-y-sutil-sin-afan-de-competir-solo-para-divetir)
 
 
 #### News & 미디어

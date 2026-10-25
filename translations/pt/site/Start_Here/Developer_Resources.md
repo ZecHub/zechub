@@ -100,7 +100,7 @@ Os resultados dos hackathons recentes são uma boa imagem do que as pessoas est�
 
 Mantidos porque artigos mais antigos fazem ligação para eles e porque continuam a ser a referência para o comportamento do nó retirado. Não comece aqui.
 
-[The Zcashd Book](https://zcash.github.io/zcash/) e a [referência RPC de zcashd](https://zcash.github.io/rpc/) documentam software que chegou ao [fim de vida](https://zcash.github.io/zcash/user/end-of-life.html) em julho de 2026. O repositório [zcash/zcash](https://github.com/zcash/zcash) está arquivado.
+[The zcashd Book](https://zcash.github.io/zcash/) e a [referência RPC de zcashd](https://zcash.github.io/rpc/) documentam software que chegou ao [fim de vida](https://zcash.github.io/zcash/user/end-of-life.html) em julho de 2026. O repositório [zcash/zcash](https://github.com/zcash/zcash) está arquivado.
 
 Se tiver um recurso a adicionar, ou detetar algo aqui que tenha ficado desatualizado, abra uma issue ou um pull request. As equipas nem sempre têm capacidade para manter tudo atualizado, e assinalar aquilo que encontrou ajuda a orientar os guias.
 

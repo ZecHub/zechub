@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Configurazione del Livestream
+# Configurazione del livestream
 
 **Cosa ti servirà:**
 

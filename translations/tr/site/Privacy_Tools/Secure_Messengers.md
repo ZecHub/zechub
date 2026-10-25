@@ -33,7 +33,7 @@ Deneyin: https://z.cash/wallets
 
 Signal özel mesajlaşma uygulaması, veri gizliliğini en üst düzeyde sunan güvenli bir mesajlaşma uygulamasıdır. Signal özel mesajlaşma uygulaması ücretsizdir ve kullanımı kolaydır; kullanıcıların önceden herhangi bir deneyime sahip olması gerekmez. Signal uygulaması, iletişiminizin tamamen özel kalmasını sağlayan uçtan uca şifreleme teknolojisine sahiptir. Güvenli biçimde özel mesajlar göndermek isteyen herkes Signal özel mesajlaşma uygulamasını kullanmayı değerlendirmelidir; çünkü bu uygulama hem siber güvenlik açıklarınızı hem de veri izinizi büyük ölçüde azaltacaktır.
 
-Deneyin: [https://signal.org/download](https://signal.org/download)
+Deneyin: [https://signal.org/download/](https://signal.org/download/)
 
 **BisonRelay**
 

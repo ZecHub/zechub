@@ -100,7 +100,7 @@ Matokeo ya hivi karibuni ya hackathon ni picha nzuri ya kile watu wanajenga: [Ze
 
 Ilibaki kwa sababu makala ya zamani wanaunganisha yao, na kwa sababu bado ni rejea jinsi node kustaafu mwenendo. Usianze hapa.
 
-[Kitabu Zcashd](https://zcash.github.io/zcash/) na ya [zcashd RPC rejea](https://zcash.github.io/rpc/) hati programu ambayo kufikiwa [mwisho wa maisha ya mtu](https://zcash.github.io/zcash/user/end-of-life.html) katika Julai 2026. [zcash/zcash](https://github.com/zcash/zcash) hazina ni kumbukumbu.
+[Kitabu zcashd](https://zcash.github.io/zcash/) na ya [zcashd RPC rejea](https://zcash.github.io/rpc/) hati programu ambayo kufikiwa [mwisho wa maisha ya mtu](https://zcash.github.io/zcash/user/end-of-life.html) katika Julai 2026. [zcash/zcash](https://github.com/zcash/zcash) hazina ni kumbukumbu.
 
 Kama una rasilimali kuongeza, au wewe doa kitu hapa kwamba imekuwa stale, kufungua suala au ombi kuvuta. Timu si daima kuwa na uwezo wa kuweka kila kitu sasa, na flagging nini kukimbia katika husaidia mwongozo viongozi.
 

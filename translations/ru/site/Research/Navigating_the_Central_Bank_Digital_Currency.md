@@ -101,7 +101,7 @@ __Европейский союз: CBDC еврозоны__
 
 Для тех, кто отправляется на неизведанную территорию CBDC, ресурсы становятся вашим компасом.
 1. Банк международных расчётов ([BIS](https://www.bis.org/search?keywords=cbdc))
-2. Международный валютный фонд ([IMF](https://www.imf.org/en/About))
+2. Международный валютный фонд ([IMF](https://web.archive.org/web/20260708111341/https://www.imf.org/en/about))
 3. Научные статьи ([paper](https://papers.ssrn.com/searchresults.cfm?term=CBDC))
 4. Академические журналы ([journal](https://www.bis.org/publ/work976.pdf))
 5. Статья C.E.I ([Article](https://cei.org/blog/central-banks-are-watching-lets-watch-them-back/))

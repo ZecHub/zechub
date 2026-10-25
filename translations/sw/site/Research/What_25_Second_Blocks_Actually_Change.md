@@ -16,6 +16,8 @@ Ukurasa huu unaelezea ZIP 218 kutoka kwa maandishi yake: kinachobadilika, kisich
 | Vizuizi vya vitendo vilivyolindwa kwa kila kizuizi | hakuna (kikomo cha ukubwa wa MB 2 pekee) | Jumla ya 330, pamoja na vifuniko vya kila bwawa |
 | Uzalishaji wa Orchard (miamala ya vitendo 2) | kama 2.9 kwa sekunde | kama 6.6 kwa sekunde |
 
+![ZIP 218 cuts block target spacing from 75 seconds to 25, tripling daily blocks from 1,152 to 3,456, while dividing the per-block subsidy by the same factor of three from 1.5625 to 0.52083333 ZEC, so daily issuance stays at 1,800 ZEC and the halving interval stretches from 1,680,000 to 5,040,000 blocks to hold halving dates fixed](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/nu7-block-timing.png)
+
 Mara tatu ya vitalu vingi, kila kimoja kikilipa theluthi moja ya kiasi hicho. Ratiba ya usambazaji inabaki pale ilipokuwa.
 
 ## Kwa nini ubadilishe muda wa kuzuia

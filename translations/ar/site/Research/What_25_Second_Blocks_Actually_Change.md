@@ -16,6 +16,8 @@
 | الحدود على الإجراءات المحمية لكل كتلة | لا توجد (فقط حد الحجم البالغ 2 MB) | 330 إجمالاً، مع حدود لكل مجمع |
 | إنتاجية Orchard (معاملات ذات إجراءين) | نحو 2.9 في الثانية | نحو 6.6 في الثانية |
 
+![ZIP 218 cuts block target spacing from 75 seconds to 25, tripling daily blocks from 1,152 to 3,456, while dividing the per-block subsidy by the same factor of three from 1.5625 to 0.52083333 ZEC, so daily issuance stays at 1,800 ZEC and the halving interval stretches from 1,680,000 to 5,040,000 blocks to hold halving dates fixed](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/nu7-block-timing.png)
+
 ثلاثة أضعاف عدد الكتل، مع دفع ثلث المبلغ لكل منها. ويبقى جدول المعروض كما هو.
 
 ## لماذا تغيير زمن الكتلة

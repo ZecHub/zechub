@@ -52,9 +52,9 @@ ronú nípa àpò ìwé tí ó ti pẹ́ bíi kíkàwé tó gùn gan-an láti oj
 
 ### Àwọn ìwé tó ń fi àwòrán hàn
 
-- Ìsọfúnni tó kún fún ìjìnlẹ̀ - Ó fi gbogbo ìgbésẹ̀ hàn. ![Detailed Flow](https://github.com/user-attachments/assets/119c13ec-76be-42bd-b558-762d09275a1b)
+- Ìsọfúnni tó kún fún ìjìnlẹ̀ - Ó fi gbogbo ìgbésẹ̀ hàn. ![Detailed Flow](/content-images/119c13ec-76be-42bd-b558-762d09275a1b-8ba7a18302.webp)
 
-- Ìṣàn tí a mú rọrùn - Àwòran kíákíá fún àwọn oníṣe ojoojúmọ́. ![Simplified Flow](https://github.com/user-attachments/assets/9b612cbd-f24d-4472-9b87-0f2c908bb368)
+- Ìṣàn tí a mú rọrùn - Àwòran kíákíá fún àwọn oníṣe ojoojúmọ́. ![Simplified Flow](/content-images/9b612cbd-f24d-4472-9b87-0f2c908bb368-eb34a722a2.webp)
 
 ## Wọlé Lọ Jìnnà
 

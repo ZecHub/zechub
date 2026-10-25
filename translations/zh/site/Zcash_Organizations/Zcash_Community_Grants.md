@@ -30,7 +30,7 @@ Zcash Community Grants 是一个独立于 Electric Coin Company 和 Zcash Founda
 
 ## 资金来源
 
-Electric Coin Company 获得[Zcash development fund](https://zips.z.cash/zip-1014) 的 8%。他们使用这笔资金来支持第三方开发团队以及内部运营。
+ZCG（Zcash Community Grants）获得区块补贴的 8%，依据的是 [ZIP 1016](https://zips.z.cash/zip-1016) 在 NU6.1 中确立的资金模式。该资金流在早先的 [ZIP 1015](https://zips.z.cash/zip-1015) 资金流到期后启动，并将持续到 Zcash 的第三次减半，即按当前出块间隔计算的第 4,406,400 个区块。ZCG 利用这些资金支持 Zcash 生态系统中的各个独立团队。
 
 ## 资源
 

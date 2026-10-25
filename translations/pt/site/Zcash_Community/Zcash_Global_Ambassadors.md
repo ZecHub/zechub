@@ -16,12 +16,12 @@ O Programa de Embaixadores Globais identifica membros da comunidade que fazem co
 
 Os embaixadores têm liberdade criativa sobre as atividades que planeiam, permitindo-lhes adaptar a divulgação ao seu contexto local.
 
-## [Website dos Embaixadores Globais](https://zcashambassadors.com)
+## [Website dos Embaixadores Globais](https://web.archive.org/web/20240413194338/https://zcashambassadors.com/)
 
 ## Comunidades Ativas de Embaixadores (2026)
 
 | Região | Comunidade | Atividade Principal |
-|--------|-----------|-------------|
+|--------|-----------|---------------------|
 | América Latina | [Zcash en Español](https://x.com/zcashesp1) | Conteúdo em espanhol, ZK AV Club, podcast Zcast |
 | Brasil | [Zcash Brazil](https://x.com/zcashbrazil) | Workshops, encontros, Shielded Magazine |
 | Turquia | [Zcash Turkey](https://x.com/ZcashTR) | Conteúdo educativo, participação na Istanbul Blockchain Week |
@@ -31,7 +31,7 @@ Os embaixadores têm liberdade criativa sobre as atividades que planeiam, permit
 | África Oriental | [Zcash East Africa](https://x.com/ZcashEastAfrica) | África Oriental, crescimento da comunidade no Uganda |
 | África do Sul | [Zcash South Africa](https://twitter.com/Zcash_SA) | África do Sul |
 | Gana | [Zcash Ghana](https://x.com/ZcashGH) | Gana |
-| México | [zcashqro](https://x.com/zcashqro) | Divulgação universitária e integração de programadores |
+| México | [Zcash Mexico](https://x.com/ZcashMx) | Divulgação universitária e integração de programadores |
 | Rússia | [ruZcash](https://x.com/ruZCASH) | Conteúdo e comunidade em língua russa |
 | Índia | [Zcash India](https://x.com/ZcashIND) | Educação para programadores e crescimento da comunidade |
 | Coreia | [Zcash Korea](https://x.com/zcashkorea) | Conteúdo educativo em coreano |
@@ -39,5 +39,5 @@ Os embaixadores têm liberdade criativa sobre as atividades que planeiam, permit
 ## Candidate-se para se Tornar Embaixador
 
 Também pode envolver-se ao:
-- Contribuir para [ZEC Recompensas](https://bounties.zechub.wiki/)
+- Contribuir para [ZEC Bounties](https://bounties.zechub.wiki/)
 - Juntar-se ao [Discord Global da Zcash](https://discord.gg/zcash)

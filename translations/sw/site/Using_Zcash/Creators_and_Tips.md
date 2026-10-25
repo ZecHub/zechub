@@ -1,25 +1,40 @@
-# Zcash Tools for Creators: Tipping & Profile Platforms (Zana za Kuweka Tovuti na Maelezo ya Wateja)
+<a href="https://github.com/zechub/zechub/edit/main/site/Using_Zcash/Creators_and_Tips.md" target="_blank">
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+</a>
 
-> **Mwongozo kamili wa kuhifadhi faragha ya kuweka na zana za wasifu zilizojengwa kwenye Zcash kwa watengenezaji wa yaliyomo, cypherpunks, na jamii inayojali faragha.**
+# Zana za Zcash kwa Waundaji: Mifumo ya Kutoa Bakshishi na Wasifu
+
+> **Mwongozo kamili wa zana za vidokezo vya kuhifadhi faragha na wasifu zilizojengwa juu ya Zcash kwa waundaji wa maudhui, watu wanaopenda mitandao ya kijamii, na jumuiya inayojali faragha.**
 
 ---
 
-## Habari Zilizo Ndani ya Toleo Hili
+## Orodha ya Yaliyomo
 
 1. [Zcash.me](#zcashme)
-2. [TipZ](#tipz)
-3. [Kwa nini faragha ni muhimu kwa wabunifu](#why-privacy-matters-for-creators)
-4. [Rasilimali za ziada](#additional-resources)
+2. [TIPZ](#tipz)
+   - [Kwa Nini Faragha Ni Muhimu kwa Waumbaji](#why-privacy-matters-for-creators)
+3. [Taswira / Analojia](#visual--analogy)
+4. [Kurasa Zinazohusiana](#related-pages)
 
 ---
 
-## Zcash.me
+## TL;DR
+
+* Zana mbili za Zcash huwasaidia waundaji kulipwa kibinafsi. Zcash.me hukupa ukurasa wa wasifu wenye anwani yako iliyolindwa, na TIPZ huwaruhusu mashabiki kukutumia vidokezo.
+* Ukiwa na Zcash.me, unashiriki kiungo kimoja, `zcash.me/[username]`, ambayo inaonyesha anwani yako iliyounganishwa na akaunti zako za kijamii.
+* Kwa kutumia TIPZ, mashabiki wanaweza kutoa pesa zingine za kidijitali, na kila pesa inakufikia kama ZEC.
+* Zana zote mbili zinaomba anwani yako iliyounganishwa (`u1...`).
+* Vidokezo vya kupata anwani iliyolindwa vizuie mapato na salio lako kutoonekana na umma.
+
+## Maelezo ya Msingi
+
+### Zcash.me
 
 ![Zcash.me Logo](/content-images/_unavailable.svg)
 
-### Maelezo ya jumla
+#### Muhtasari
 
-**Zcash.me** is a profile directory and discovery platform that makes it easy for anyone to find and send ZEC to Zcash users. It serves as the "Linktree for Zcash" - a simple way to share your shielded address and social presence with a single link.
+**Zcash.me** ni saraka ya wasifu na jukwaa la ugunduzi linalomrahisishia mtu yeyote kupata na kutuma ZEC kwa watumiaji wa Zcash. Inatumika kama "Linktree kwa Zcash" - njia rahisi ya kushiriki anwani yako iliyolindwa na uwepo wako wa kijamii kwa kiungo kimoja.
 
 | Bidhaa              | Maelezo |
 |-------------------|---------|
@@ -28,17 +43,17 @@
 | **Muundo wa Wasifu**| `zcash.me/[username]` |
 | **Hali**        | Ipo moja kwa moja (na vipengele vinavyoendelea kutengenezwa) |
 
-### Sifa Muhimu za Mfano wa Yesu
+#### Vipengele Muhimu
 
-#### Inapatikana kwa Sasa
-- ** Custom Profile Kurasa** - ukurasa binafsi na jina la mtumiaji, bio, avatar, na eneo
-- **Shielded Address Display** - Moja-click nakala kifungo kwa ajili ya anwani yako umoja
-- ** Kijamii Link Ushirikiano** - X, LinkedIn, Telegram na tovuti desturi
-- ** Mfumo wa Uthibitishaji** - Alama iliyothibitishwa ya uaminifu kwa jamii
-- **Referral Leaderboard** - Kufuatilia juu ya rufaa na viongozi wa jamii
-- ** Hali ya shughuli** - Inaonyesha muda wa mwisho kazi
+##### Inapatikana Kwa Sasa
+- **Kurasa Maalum za Wasifu** - Ukurasa uliobinafsishwa wenye jina la mtumiaji, wasifu, ishara, na eneo
+- **Onyesho la Anwani Iliyolindwa** - Kitufe cha kunakili kwa kubofya mara moja kwa anwani yako iliyounganishwa
+- **Ujumuishaji wa Viungo vya Kijamii** - X, LinkedIn, Telegram, na tovuti maalum
+- **Mfumo wa Uthibitishaji** - Beji iliyothibitishwa ya uaminifu wa jamii
+- **Ubao wa Wanaoongoza wa Rufaa** - Fuatilia warejeleaji wakuu na viongozi wa jamii
+- **Hali ya Shughuli** - Inaonyesha muda wa mwisho wa shughuli.
 
-#### Karibuni
+##### Inakuja Hivi Karibuni
 | Kipengele            | Maelezo |
 |--------------------|-------------|
 | Ramani ya Eneo       | Tafuta watumiaji wa Zcash walio karibu |
@@ -48,22 +63,22 @@
 | Jukwaa              | Majadiliano ya jamii |
 | Programu ya Simu ya Mkononi         | Uzoefu kamili wa simu |
 
-### Kuanza Kazi
-1. Kutembelea [https://zcash.me/](https://zcash.me/) na bonyeza ** Jiunge**
-2. Chagua jina la kipekee, kuongeza bio na picha profile
-3. Kuweka anwani yako ya umoja wa Zcash (`u1...`)
-4. Unganisha akaunti zako za kijamii
+#### Kuanza
+1. Tembelea [https://zcash.me/](https://zcash.me/) na ubofye **Jiunge**.
+2. Chagua jina la mtumiaji la kipekee, ongeza wasifu na picha ya wasifu.
+3. Bandika anwani yako Zcash iliyounganishwa (`u1...`)
+4. Unganisha akaunti zako za kijamii.
 5. Shiriki kiungo chako: `zcash.me/[yourusername]`
 
 ---
 
-## TipZ
+### TIPZ
 
-![TipZ Logo](/content-images/BbXM8cDV_400x400-e6071ba983.webp)
+![TIPZ Logo](/content-images/BbXM8cDV_400x400-e6071ba983.webp)
 
-### Maelezo ya jumla
+#### Muhtasari
 
-**TipZ** ni **protokol ya kibinafsi inayojenga kusudi la watengenezaji na cypherpunks. Mashabiki wanaweka katika cryptocurrency yoyote kuu; inageuzwa moja kwa moja na kutolewa kama ZEC iliyohifadhiwa.
+**TIPZ** ni itifaki ya **pesa za kibinafsi** iliyojengwa kwa madhumuni ya waundaji na wadukuzi. Mashabiki hutoa pesa taslimu yoyote kuu; hubadilishwa kiotomatiki na kuwasilishwa kama **ZEC**.
 
 | Bidhaa              | Maelezo |
 |-------------------|---------|
@@ -72,22 +87,22 @@
 | **Muundo wa Wasifu**| `tipz.cash/@[username]` |
 | **Hali**        | Moja kwa Moja |
 
-> "tipz.cash ni itifaki ya kibinafsi kwa watengenezaji na waandishi".*
+> *"tipz.cash ni itifaki ya kutoa zawadi ya kibinafsi kwa waundaji na watu wasio na ujuzi."*
 
-### Kwa Nini Waumbaji Wanajali Faragha Yao?
+#### Kwa Nini Faragha Ni Muhimu kwa Waumbaji
 
-#### Uhuru wa Kifedha
-- 0% ya ada za jukwaa
-- Si-matayarisho & binafsi matayarishe
-- Hakuna wafanya-biashara kati.
+##### Uhuru wa Kifedha
+- Ada za jukwaa 0%
+- Kutokuwa chini ya ulinzi na kujilinda
+- Hakuna wapatanishi
 
-#### Kuweka Faragha Kuwa Jambo la Kwanza Katika Ubunifu
-- Kila ncha huja kama ZEC ulinzi
-- Binafsi mkoba salio
-- Ujumbe encrypted na vidokezo
-- Full muumbaji kutojulikana chaguo
+##### Ubunifu wa Faragha Kwanza
+- Kila ncha hufika kama ZEC.
+- Salio la pochi ya kibinafsi
+- Ujumbe uliosimbwa kwa njia fiche na vidokezo
+- Chaguo kamili la kutokujulikana kwa muundaji
 
-#### Malipo ya Msalaba-Mnyororo
+##### Malipo ya Minyororo Mikubwa
 | Sarafu | Mtandao |
 |----------|---------|
 | ETH      | Ethereum |
@@ -95,17 +110,33 @@
 | SOL      | Solana |
 | ZEC      | Zcash ya moja kwa moja |
 
-#### Ulinzi wa Muumba
-- Hakuna hatari ya kuondoa platforming
-- Upinzani wa udhibiti
-- Hakuna KYC required.
+##### Ulinzi wa Waumbaji
+- Hakuna hatari ya kuondoa jukwaa
+- Inakabiliwa na udhibiti
+- Hakuna KYC inayohitajika
 
-### Rasilimali za ziada
+---
+
+## Taswira / Analojia
+
+Mtungi wa ncha kwenye kaunta ya mkahawa ni kioo. Kila mtu chumbani anaona ni nani aliyeangusha sarafu na jinsi mtungi ulivyojaa.
+
+Anwani iliyolindwa inafanya kazi kama sanduku la barua lililofungwa lenye nafasi. Mashabiki huingiza bahasha yenye sarafu na noti, na muundaji pekee ndiye anayefungua sanduku. TIPZ huongeza ubadilishaji wa sarafu mlangoni: feni inaweza kufika na ETH au SOL, na kinachotua kwenye sanduku la barua ni ZEC.
 
 ```
-TipZ Payment Flow
+TIPZ Payment Flow
 
 Fan -> tipz.cash Protocol -> Creator's Wallet (Shielded ZEC)
 
-Fan selects amount + message -> Protocol auto-converts -> Creator receives private shielded ZEC
+Fan selects amount + message -> Protocol auto-converts -> Creator receives private shielded ZEC.
 ```
+
+## Kurasa Zinazohusiana
+
+- [Anwani Zilizounganishwa](/using-zcash/unified-addresses): the `u1...` anwani ambayo zana zote mbili zinaomba.
+- [Pochi](/using-zcash/wallets): chagua pochi ili kupokea vidokezo vilivyofunikwa.
+- [Kumbukumbu](/using-zcash/memos): jinsi noti ya kibinafsi inavyosafirishwa ikiwa na malipo yaliyolindwa.
+- [URI za Ombi la Malipo](/using-zcash/payment-request-uris): a `zcash:` kiungo au msimbo wa QR unaoomba kiasi kilichowekwa.
+- [Wachakataji wa Malipo](/using-zcash/payment-processors): zana za kuuza bidhaa na huduma kwa ZEC.
+
+**Ilisasishwa mara ya mwisho:** Oktoba 2026

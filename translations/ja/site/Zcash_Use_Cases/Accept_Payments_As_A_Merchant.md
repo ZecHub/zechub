@@ -112,7 +112,7 @@ Zcashは以下を可能にする：
 
 
 - [ウォレット](/wallets)
-- [プライバシー - 最適な実践](/privacy/best-practices)
+- [あなたのZcash支払い](/start-here/who-can-see-your-zcash-payment)を閲覧できるのは誰ですか
 
 <br/>
 

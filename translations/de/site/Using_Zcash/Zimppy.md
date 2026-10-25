@@ -413,7 +413,7 @@ Mehrere Agenten können dieselbe Wallet über **ZIP-32-Kontorotation** verwenden
 
 ### Vollständig abgeschirmte Zcash-Transaktionen (Orchard)
 
-Abgeschirmte Zahlungen verwenden das **Orchard-Protokoll** von Zcash – den neuesten und sichersten abgeschirmten Pool. Der Server verifiziert Zahlungen mit einem **Incoming Viewing Key (IVK)**, der empfangene Notes entschlüsseln kann, ohne den Ausgabeschlüssel offenzulegen. Replay-Angriffe werden durch **Memo-Bindung** verhindert – jede Challenge enthält ein eindeutiges `zimppy:{challenge_id}`-Memo, das kryptografisch verifiziert wird.
+Abgeschirmte Zahlungen verwenden das **Orchard-Protokoll** von Zcash, den von NU5 eingeführten abgeschirmten Pool. Der Server verifiziert Zahlungen mit einem **Incoming Viewing Key (IVK)**, der empfangene Notes entschlüsseln kann, ohne den Ausgabeschlüssel offenzulegen. Replay-Angriffe werden durch **Memo-Bindung** verhindert – jede Challenge enthält ein eindeutiges `zimppy:{challenge_id}`-Memo, das kryptografisch verifiziert wird.
 
 ### Sitzungen, keine Latenz pro Anfrage
 

@@ -97,7 +97,7 @@ MetaMask에서 **Add Network**를 선택하고 다음을 입력합니다:
 > **ETH -> ZEC 스왑** - **LeoDex** 같은 서비스를 사용하고, 실드된 주소로 전송하세요.  
 > **거래소 출금** - 구매한 ZEC를 WebZjs 실드된 주소로 출금하세요.  
 
-![LEODEX-SWAP](/content-images/HyLQ0G2ugg-8d82ef24f6.webp)
+![LeoDex-SWAP](/content-images/HyLQ0G2ugg-8d82ef24f6.webp)
 
 
 > => **완전한 프라이버시**를 위해 실드된 (z) 주소를 사용하세요.
@@ -158,4 +158,4 @@ MetaMask에서 **Add Network**를 선택하고 다음을 입력합니다:
 > 실드된 증명 생성에는 시간이 걸릴 수 있으며, WebAssembly가 브라우저 내에서 계산을 처리합니다.  
 > 복구는 간단합니다. MetaMask와 Snap을 설치한 뒤 기존 시드를 가져오면 됩니다.  
 > Snap은 기본적으로 **실드된 ZEC**를 사용하며, Transparent 주소는 **주요 초점이 아닙니다**.  
-> 트랜잭션 확인에는 [zcashblockexplorer.com](https://zcashblockexplorer.com)을 사용하세요.
+> 트랜잭션 확인에는 [mainnet.zcashexplorer.app](https://mainnet.zcashexplorer.app)을 사용하세요.

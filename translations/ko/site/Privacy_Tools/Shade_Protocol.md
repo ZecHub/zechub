@@ -67,10 +67,10 @@ Shade Protocol의 일관성과 가치 포착 원칙은 안정성과 매끄러운
 
 #### 참고 링크
 
-[Shade Protocol 웹사이트](https://shadeprotocol.com)
+[Shade Protocol 웹사이트](https://shadeprotocol.io/)
 
 [Medium (Shade Protocol)](https://medium.com/@shadeprotocoldevs/what-is-shade-protocol-efc1ef7aeabf)
 
-[Altcoin Buzz.io](https://www.altcoinbuzz.io/reviews/what-is-shade-protocol/)
+[Altcoin Buzz.io](https://web.archive.org/web/20250319054025/https://www.altcoinbuzz.io/reviews/what-is-shade-protocol/)
 
 [Messari.io](https://messari.io/project/shade/profile)

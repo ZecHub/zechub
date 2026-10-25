@@ -22,7 +22,7 @@
 
 [ZIP 311: Zcash भुगतान प्रकटीकरण](https://zips.z.cash/zip-0311) एक अधिक सीमित उत्तर प्रस्तावित करता है: एक ट्रांज़ैक्शन से चुनी हुई जानकारी का प्रकटीकरण और प्रमाणीकरण।
 
-![A transaction ID proves that a transaction exists but does not reveal shielded payment details. A ZIP 311 payment disclosure would let a verifier authenticate only the selected recipient, amount, memo, and optional sender details against the mined transaction.](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/payment-disclosure-proof-flow.png)
+![A transaction ID proves that a transaction exists but does not reveal shielded payment details. A ZIP 311 payment disclosure would let a verifier authenticate only the selected recipient, amount, memo, and optional sender details against the mined transaction.](/content-images/payment-disclosure-proof-flow-208c033e06.webp)
 
 ## भुगतान प्रकटीकरण कैसे काम करता है
 
@@ -53,7 +53,7 @@ ZIP का Sapling डिज़ाइन प्रत्येक चुने �
 
 कोई भी विधि खर्च करने की अनुमति नहीं देती। भुगतान के प्रमाण के रूप में कभी भी seed phrase, spending key, private key या wallet backup साझा न करें।
 
-![A transaction record is available today but provides no new third-party proof. A payment disclosure would prove selected details of one payment. A viewing key provides broader, ongoing visibility.](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/payment-disclosure-scope.png)
+![A transaction record is available today but provides no new third-party proof. A payment disclosure would prove selected details of one payment. A viewing key provides broader, ongoing visibility.](/content-images/payment-disclosure-scope-0585cdc075.webp)
 
 ## मैं आज क्या उपयोग कर सकता हूँ?
 

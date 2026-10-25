@@ -1,56 +1,56 @@
-![!Edit Page](https://img.shields.io/badge/Edit-blue)](https://github.com/zechub/zechub/edit/main/site/Privacy_Tools/Secure_Messengers.md)
+[![Edit Page](https://img.shields.io/badge/Edit-blue)](https://github.com/zechub/zechub/edit/main/site/Privacy_Tools/Secure_Messengers.md)
 
-# Ndị Ozi A Tụkwasịrị Obi
+# Ndị Ozi Nchekwa
 
-## Nkọwapụta njedebe-na-ọgwụgwụ
+## Nzochi njedebe ruo na njedebe
 
-In view of the secure messengers, end-to-end encryption exists to be a security method that keeps a conversation secured. As messages travel from one device to another, no one, including the communication application you're sending the message from, and third parties won't be able to read eligible messages. Additionally, many groundbreaking and prominent messaging service providers like Facebook, Whatsapp, and Zoom are already leveraging end-to-end encryption technology. 
+N'ihi ndị ozi echekwara, nzuzo site na njedebe ruo na njedebe dị ka ụzọ nchekwa nke na-eme ka mkparịta ụka dị nchebe. Ka ozi na-aga site n'otu ngwaọrụ gaa na nke ọzọ, ọ dịghị onye, gụnyere ngwa nkwukọrịta ị na-eziga ozi ahụ, na ndị ọzọ agaghị enwe ike ịgụ ozi ndị ruru eru. Na mgbakwunye, ọtụtụ ndị na-enye ọrụ ozi ọhụrụ na ndị a ma ama dịka Facebook, WhatsApp, na Zoom na-eji teknụzụ nzuzo site na njedebe ruo na njedebe eme ihe. 
 
-## Ihe mere E2EE ji dị mkpa?
+## Ihe kpatara E2EE ji dị mkpa?
 
-For greater benefits, end-to-end encryption technology plays a pivotal role in situations where data security is necessary, including but not limited to finance, communication, and healthcare industries. It allows organizations to seamlessly comply with data privacy, security regulations as well as laws.
+Maka uru ka ukwuu, teknụzụ nzuzo site na njedebe ruo na njedebe na-arụ ọrụ dị mkpa n'ọnọdụ ebe nchekwa data dị mkpa, gụnyere mana ejedebeghị na ụlọ ọrụ ego, nkwukọrịta, na nlekọta ahụike. Ọ na-enye òtù dị iche iche ohere ịgbaso iwu nzuzo data, iwu nchekwa yana iwu n'enweghị nsogbu.
 
-**Data Privacy**: With end-to-end encryption, it is said that only the intended recipient of a message or data can access and decrypt it. Meaning that even the messaging service provider, like Facebook and WhatsApp, cannot read the content. This immersive level of data privacy is important for users and organizations that don't want sensitive information to be disclosed, it could be financial transactions, business communications, or private chat sensitive from unauthorized access.
+**Nzuzo Data**: Site na nzuzo site na njedebe ruo na njedebe, a na-ekwu na ọ bụ naanị onye a chọrọ ka o nweta ozi ma ọ bụ data nwere ike ịnweta ma detuo ya. Nke pụtara na ọbụna onye na-enye ọrụ ozi, dịka Facebook na WhatsApp, enweghị ike ịgụ ọdịnaya ahụ. Ọkwa nzuzo data a dị mkpa maka ndị ọrụ na òtù ndị na-achọghị ka ekpughe ozi dị mkpa, ọ nwere ike ịbụ azụmahịa ego, nkwukọrịta azụmaahịa, ma ọ bụ nkata nkeonwe nke nwere ike ịnweta site na ịnweta ikike na-enweghị ikike.
 
-**Data Security**: This strong level of technology allows for the securing of data from potential breaches even while it's still in transit or at rest.
-As data travels over servers or the internet, they are exposed to many factors that make it vulnerable to interception by unauthorized access, such as hackers. With end-to-end encryption technology, the data transmitted can be intercepted but, remains unreadable as long as the sender or recipient does not hold the encryption key. This would potentially reduce the level and data breaches whilst ensuring that individual and organization communications are kept safe.
+**Nchekwa Data**: Ọkwa teknụzụ siri ike a na-enye ohere maka nchekwa data site na mmebi iwu nwere ike ime ọbụlagodi mgbe ọ ka nọ n'ụzọ ma ọ bụ na-ezu ike.
+Ka data na-agafe sava ma ọ bụ ịntanetị, ha na-enweta ọtụtụ ihe ndị na-eme ka ọ ghara ịdị mfe ịnweta ozi na-enweghị ikike, dịka ndị na-agba ọsọ. Site na teknụzụ nzuzo site na njedebe ruo na njedebe, enwere ike ijide data ebufere mana ọ ka na-agaghị agụ ma ọ bụrụhaala na onye zitere ma ọ bụ onye nnata ejideghị igodo nzuzo. Nke a nwere ike ibelata ọkwa na mmebi data ebe ọ na-ahụ na a na-echekwa nkwukọrịta nkeonwe na nke otu.
 
-**Trust and User Control**: With end-to-end encryption, individuals and organizations are empowered to communicate free because they know their messages, files, and other sensitive information are kept safe from unauthorized access. Equally, the technology helps to protect individuals and organizations against government outreach and surveillance.
+**Ntụkwasị Obi na Njikwa Onye Ọrụ**: Site na iji nzuzo site na njedebe ruo na njedebe, a na-enye ndị mmadụ na òtù ikike ịkparịta ụka n'efu n'ihi na ha maara na e chebere ozi ha, faịlụ, na ozi ndị ọzọ dị mkpa ka ha ghara ịnweta ikike. N'otu aka ahụ, teknụzụ ahụ na-enyere aka ichebe ndị mmadụ na òtù dị iche iche pụọ na mgbasa ozi na nlekota gọọmentị.
 
-### Ụfọdụ Ndị A Ma Ama Na-ezipụ Ozi Ndị Na-adịghị Ize Ndụ
+### Ụfọdụ Ndị Ozi Nchekwa A Ma Ama
 
-** Zcash Encrypted Memos **
+**Zcash Encrypted Memos**
 
-Zcash Desktop & Mobile wallets have an in-built feature that allows users to send encrypted messages with private shielded transactions. The memo/message size can be up to 512 bytes long per transactions with transaction fees being less than 1 US cent. Due to the privacy preserving way transactions are detected and the block time of the network, messages may take up to 1 minute or more to be received. 
+Akpa Zcash Desktop & Mobile nwere atụmatụ arụpụtara nke na-enye ndị ọrụ ohere izipu ozi ezoro ezo na azụmahịa nkeonwe echekwara. Nha ozi/nha ozi nwere ike iru 512 baịtị ogologo kwa azụmahịa yana ụgwọ azụmahịa na-erughị 1 senti US. N'ihi ụzọ e si achọpụta azụmahịa na nchekwa nzuzo na oge mkpọchi nke netwọk ahụ, ozi nwere ike were ihe ruru nkeji 1 ma ọ bụ karịa ịnweta. 
 
-Gbalịa ya: https://z.cash/wallets 
+Nwaa ya: https://z.cash/wallets 
 
 ![Zcash Encrypted Memos](/content-images/Zcash-1177103374-7bca37eb4d.webp)
 
-** Ngosipụta ngwa**
+**Ngwa mgbaama**
 
-![Mgbaàmà App](/content-images/signal-app-logo-scaled-454032876-81b24a0421.webp)
+![Signal App](/content-images/signal-app-logo-scaled-454032876-81b24a0421.webp)
 
-The Signal private messenger is a secure messaging app with data privacy at its peak. The Signal private messenger app is free and easy to use, users do not need any prior experience. The Signal app has an end-to-end encryption technology that ensures your communication is completely private. Anyone looking to send private messages securely should consider using the Signal private messenger app because it will exponentially reduce both your cybersecurity vulnerabilities and your data footprint.
+Onye ozi nzuzo nke Signal bụ ngwa ozi echekwara nke nwere nzuzo data n'oge kachasị elu. Ngwa ozi nzuzo nke Signal bụ n'efu ma dị mfe iji, ndị ọrụ achọghị ahụmịhe mbụ. Ngwa Signal nwere teknụzụ nzuzo nke na-eme ka nkwukọrịta gị bụrụ nke nzuzo kpamkpam. Onye ọ bụla chọrọ izipu ozi nzuzo nke ọma kwesịrị ịtụle iji ngwa ozi nzuzo nke Signal n'ihi na ọ ga-ebelata ma adịghị ike nchekwa gị na akara data gị nke ukwuu.
 
-Gbalịa ya: [https://signal.org/download](https://signal.org/download)
+Nwaa ya: [https://signal.org/download/](https://signal.org/download/)
 
-** BisonRelay **
+**BisonRelay**
 
 ![Bison Relay](/content-images/ogimg-v1-1000556235-9390372d1e.webp)
 
-The Bison Relay app made its debut in 2022. Bison Relay is not dependent on users having accounts - Insanely unbelievable! Here, every message that is sent and received is individually paid for over the Decred Lightning Network. The sole purpose of this app is to completely eliminate the need for accounts whilst minimizing metadata. On the other hand, Bison Relay put a stop to the way censorship is typically implemented. 
+Ngwa Bison Relay pụtara na mbụ na 2022. Bison Relay adabereghị na ndị ọrụ nwere akaụntụ - ọ bụ ihe a na-apụghị ikweta ekweta! N'ebe a, a na-akwụ ụgwọ ozi ọ bụla ezitere ma nata n'otu n'otu site na Decred Lightning Network. Ebumnuche nke ngwa a bụ iwepụ mkpa maka akaụntụ kpamkpam ebe ọ na-ebelata metadata. N'aka nke ọzọ, Bison Relay kwụsịrị ụzọ esi eme nnyocha. 
 
-Gbalịa ya: [https://bisonrelay.org/download](https://bisonrelay.org/download)
+Nwaa ya: [https://bisonrelay.org/download](https://bisonrelay.org/download)
 
 **Ngwa Oge**
 
-![Ngwa Oge](/content-images/logo-black-9e799f2b06.webp)
+![Session App](/content-images/logo-black-9e799f2b06.webp)
 
-If you don't already know what Session app is, don't fret! Here is a glimpse, Session is one of the vying end-to-end encrypted messengers. The app was built to minimize sensitive metadata. The session app was designed for individuals who want absolute privacy, and freedom from any form of surveillance. On the Session app, users can create an account without phone numbers or email addresses which means it is completely anonymous. Users can send messages safely via their network without any trace so, there's nothing to leak.
+Ọ bụrụ na ị maghị ihe ngwa Session bụ, echegbula onwe gị! Lee ntakịrị ihe, Session bụ otu n'ime ndị ozi ezoro ezo nke na-asọ mpi site na njedebe ruo na njedebe. E wuru ngwa ahụ iji belata metadata dị nro. Emebere ngwa session ahụ maka ndị chọrọ nzuzo zuru oke, na nnwere onwe pụọ n'ụdị nlekota ọ bụla. Na ngwa Session, ndị ọrụ nwere ike ịmepụta akaụntụ na-enweghị nọmba ekwentị ma ọ bụ adreesị ozi-e nke pụtara na ọ bụ onye a na-amaghị aha ya kpamkpam. Ndị ọrụ nwere ike izipu ozi n'enweghị nsogbu site na netwọk ha na-enweghị ihe ọ bụla, yabụ, ọ dịghị ihe ga-apụta.
 
-Gbalịa ya: [https://getsession.org](https://getsession.org)
+Nwaa ya: [https://getsession.org](https://getsession.org)
 
 ## Nchịkọta
 
-End-to-End encryption is important because it fosters robust privacy protection, reinforces data security to its core, and enables users to hand full control over their own information as they travel over networks and devices, thereby addressing critical concerns in the digital age.
+Nzochi nke njedebe ruo na njedebe dị mkpa n'ihi na ọ na-akwalite nchedo nzuzo siri ike, na-eme ka nchekwa data sie ike na isi ya, ma na-enye ndị ọrụ ohere ijikwa ozi nke ha nke ọma ka ha na-agagharị na netwọk na ngwaọrụ, si otú a na-edozi nsogbu dị mkpa n'oge dijitalụ.

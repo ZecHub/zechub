@@ -22,7 +22,7 @@
 
 아래 그림은 이 두 가지를 모두 보여줍니다.
 
-![Zcash key types and what a block explorer can see for each of the four transaction paths](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Start_Here/assets/who-can-see-your-zcash-payment.png)
+![Zcash key types and what a block explorer can see for each of the four transaction paths](/content-images/who-can-see-your-zcash-payment-04d41ac960.webp)
 
 ---
 
@@ -44,9 +44,9 @@
 
 **Spending key.** 모든 것을 볼 수 있고 자금도 이동시킬 수 있습니다. 이것이 곧 돈입니다. 이 키는 당신만 보관하며, 어떤 이유로도 누구와도 공유하지 않습니다.
 
-**Full viewing key.** 읽기 전용입니다. 입금과 출금 활동, 잔액을 보여주지만 단 한 개의 zatoshi도 쓸 수 없습니다. 감사인이나 회계사에게 전달하는 것은 이것입니다.
+**Full Viewing Key.** 읽기 전용입니다. 입금과 출금 활동, 잔액을 보여주지만 단 한 개의 zatoshi도 쓸 수 없습니다. 감사인이나 회계사에게 전달하는 것은 이것입니다.
 
-**Incoming viewing key.** 이보다 더 제한적이며, 들어오는 결제만 보여줍니다. 거래소나 상점은 이것으로 당신의 입금이 도착했는지 확인할 수 있고, Spending key는 인터넷에 절대 연결되지 않는 하드웨어에 그대로 보관할 수 있습니다.
+**Incoming Viewing Key.** 이보다 더 제한적이며, 들어오는 결제만 보여줍니다. 거래소나 상점은 이것으로 당신의 입금이 도착했는지 확인할 수 있고, Spending key는 인터넷에 절대 연결되지 않는 하드웨어에 그대로 보관할 수 있습니다.
 
 순서가 중요합니다. 가지고 있는 키 중 가장 넓은 권한의 키가 아니라, 필요한 일을 해낼 수 있는 가장 좁은 키를 주세요.
 
@@ -64,7 +64,7 @@
 
 ## 실제로 적용하기
 
-- [Zodl](https://zodl.com)이나 [Zingo!](https://www.zingolabs.org/)처럼 기본적으로 실드 처리를 지원하는 지갑을 사용하세요.
+- [ZODL](https://zodl.com)이나 [Zingo!](https://www.zingolabs.org/)처럼 기본적으로 실드 처리를 지원하는 지갑을 사용하세요.
 - 거래소에서 자금이 도착하면 사용하기 전에 즉시 실드 처리하세요.
 - 수신자가 지원한다면 가능한 한 실드 주소로 결제하세요.
 - Viewing Key를 공유하기 전에, 지금 묻고 있는 질문에 답하기 위해 필요한 가장 작은 키가 무엇인지 먼저 물어보세요.

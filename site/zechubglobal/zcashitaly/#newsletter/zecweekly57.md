@@ -17,7 +17,7 @@ Un'altra settimana entusiasmante per Zcash: la comunità ha raccolto un immenso 
 
 Le differenze tra le pool schermate a conoscenza zero e l'anonimato "Decoy-based" sono descritte nella recente aggiunta al wiki di ZecHub. Un'introduzione a pool schermate, prove a conoscenza zero, Ring Signatures e transazioni confidenziali. Vengono poi tracciati dei confronti che forniscono un chiaro ragionamento sul perché Zcash fornisca garanzie di privacy on-chain preferibili.
 
-[Leggi qui: 🛡️Shielded Pools vs ⭕Decoy-based systems](https://zechub.wiki/zk-shielded-pools-vs-decoy-based-privacy)\
+[Leggi qui: 🛡️Shielded Pools vs ⭕Decoy-based systems](https://zechub.wiki/guides/zero-knowledge-vs-decoys)\
 **Aggiornamenti su Zcash**
 
 
@@ -29,7 +29,7 @@ Le differenze tra le pool schermate a conoscenza zero e l'anonimato "Decoy-based
 
 - [ECC si concentra sulle prestazioni del portafoglio](https://forum.zcashcommunity.com/t/opening-applications-for-the-second-round-of-zf-minor-grants/45463)
 
-- [Il Club ZFAV pubblica le 📚guide per i creatori di contenuti](https://zechub.wiki/zfav/guides)
+- [Il Club ZFAV pubblica le 📚guide per i creatori di contenuti](https://zechub.wiki/zfav-club/guides-for-creators)
 
 ### **Aggiornamenti di Zcash Community Garants**
 
@@ -57,7 +57,7 @@ Le differenze tra le pool schermate a conoscenza zero e l'anonimato "Decoy-based
  #### Notizie e media
 - [Ethereum Staking💹 è in pieno boom - Decrypt](https://decrypt.co/153813/ethereum-staking-is-booming-but-value-of-defi-assets-keeps-falling)
 
-- [Perché la privacy è diventata una parolaccia? - Coindesk](https://www.coindesk.com/consensus-magazine/2023/08/25/when-did-privacy-become-a-bad-word)
+- [Perché la privacy è diventata una parolaccia? - Coindesk](https://web.archive.org/web/20240419061842/https://www.coindesk.com/consensus-magazine/2023/08/25/when-did-privacy-become-a-bad-word/)
 
 - [Gli account OnlyFans si impadroniscono di Friend.tech - Decrypt](https://decrypt.co/153723/onlyfans-accounts-take-over-friend-tech-crypt-app-adds-photo-feature)
 
@@ -67,7 +67,7 @@ Le differenze tra le pool schermate a conoscenza zero e l'anonimato "Decoy-based
 
 - [Visioni di un futuro decentralizzato - Cypherpunk Times](https://www.cypherpunktimes.com/visions-of-a-decentralised-future/)
 
-- [Riassunto settimanale - Sull'orlo del baratro](https://onthebrink-podcast.com/roundup-08-25-23/)
+- [Riassunto settimanale - Sull'orlo del baratro](https://web.archive.org/web/20240424024941/https://onthebrink-podcast.com/roundup-08-25-23/)
 
 
 ## Alcuni tweet su Zcash

@@ -12,6 +12,7 @@
 * 如果已终局账本落后超过 *L* 个区块，就会启动**安全模式**：PoW 继续运行，但经济活动会暂停，直到问题解决。
 * 随着时间推移，PoS 验证者将获得越来越多的奖励份额，从而减少 PoW 矿工的收入；该协议会逐步引入这些变化。
 * 该协议正由 Shielded Labs 开发，并规划将 Crosslink 2* 集成到 Zcash 的 Zebra 客户端中。
+* Crosslink 尚未在 Zcash 主网上启用。它运行在 Shielded Labs 的 Feature Net 上，这是任何人都可以加入的测试网络。请参阅下文“Crosslink 的现状”。
 
 ## 核心解释
 
@@ -81,7 +82,7 @@ Crosslink 引入了**安全模式**，以应对低延迟账本远远领先于已
 
 ### 技术细节与部署
 
-Crosslink 协议目前正由 Shielded Labs 与 Zodl 等关键生态合作伙伴积极开发和部署。该协议的实施包括：
+Crosslink 协议目前正由 Shielded Labs 与 ZODL 等关键生态合作伙伴积极开发和部署。该协议的实施包括：
 
 * 为 PoS 参与者建立安全的质押机制。
 * 修改奖励结构，以平衡矿工与质押者之间的激励。
@@ -90,7 +91,20 @@ Crosslink 协议目前正由 Shielded Labs 与 Zodl 等关键生态合作伙伴�
 * 激活逻辑：引入 Crosslink 需要修改 Zcash 共识规则，包括定义质押分配流程，以及更新网络协议规则以支持混合共识。
 * 分阶段部署：该协议将分阶段推出，以确保网络稳定性和社区适应。初始阶段聚焦于技术实现，随后整合用于选择公证人的治理机制。
 
-你可以通过 [GitHub 上的 zebra-crosslink 仓库](https://github.com/ShieldedLabs/zebra-crosslink) 和 [zebra-crosslink 手册](https://shieldedlabs.github.io/zebra-crosslink/) 查看技术细节并跟踪其进展。
+早期原型及其文档位于 [GitHub 上的 zebra-crosslink 仓库](https://github.com/ShieldedLabs/zebra-crosslink) 和 [zebra-crosslink 手册](https://shieldedlabs.github.io/zebra-crosslink/) 中。当前工作将在下一节中介绍。
+
+### Crosslink 所处的位置
+
+Crosslink 仍然是一项提案。Shielded Labs 的 [Crosslink 常见问题解答](https://shieldedlabs.net/crosslink-faq/) 表示，在能够在主网上激活之前，它“需要经过标准的 Zcash 治理流程”。
+
+如今已有的是 **Feature Net**：一个由 Shielded Labs 运行的测试网络，拥有自己的测试币 cTAZ，任何人都可以挖矿、质押并运行最终确认者。[第 14 版](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v14)于 2026 年 10 月 1 日发布，起初采用纯工作量证明，并分阶段启用 Crosslink：从区块 20,736 开始质押，在区块 34,560 确定首批最终确认者名单，并从区块 36,288 开始实现 BFT 最终性（[来源](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/librustzcash/zcash_primitives/src/bft.rs#L546-L555)）。
+
+本页撰写以来，有两项内容已经发生变化：
+
+* **此处称为 notary 的角色，在 Shielded Labs 的软件和发行说明中称为 finalizer。**质押者将代币委托给 finalizer，而持有最多质押份额的 finalizer 会投票最终确定区块。
+* **代码已迁移。**上述 zebra-crosslink 仓库最后一次更新于 2026 年 4 月。Feature Net 的版本发布来自 [crosslink_monolith](https://github.com/ShieldedLabs/crosslink_monolith/releases)，其设计已写入 [Crosslink一书](https://shieldedlabs.github.io/crosslink_book/)。
+
+如需亲自尝试，请遵循 [Crosslink Feature Net](/guides/crosslink-feature-net) 指南。如需在不运行任何内容的情况下查看网络，请在 [ZecHub Tools](https://zechub.wiki/tools?tool=crosslink) 中打开 Crosslink 选项卡。
 
 ## 实际影响
 
@@ -121,16 +135,17 @@ Crosslink 在为逐步转型做准备的同时，也承认 PoW 矿工在 Zcash �
 
 ## 相关页面
 
-- [Zebra 全节点](/zcash-tech/zebra-full-node) — 计划集成 Crosslink 2* 的客户端。
-- [全节点](/zcash-tech/full-nodes) — 在任何混合共识变更之前，如今各节点如何验证共识规则。
-- [网络升级](/start-here/network-upgrades) — 共识规则变更如何进入 Zcash 网络。
-- [Zcash 货币政策](/start-here/zcash-monetary-policy) — Crosslink 将会重新分配的区块奖励结构。
+- [Crosslink Feature Net](/guides/crosslink-feature-net) — 安装 Feature Net 桌面应用，向 finalizer 质押并查看你的头寸。
+- [Zebra 完整节点](/zcash-tech/zebra-full-node) — 计划集成到客户端 Crosslink 2* 中。
+- [完整节点](/zcash-tech/full-nodes) — 在任何混合共识变更之前，节点如今如何验证共识规则。
+- [网络升级](/start-here/network-upgrades) — 共识规则变更如何传达到 Zcash 网络。
+- [Zcash 货币政策](/start-here/zcash-monetary-policy) — Crosslink 将重新分配的区块奖励结构。
 
 ## 其他资源
 
-- 社区见解：[Zcash Community Forum - Crosslink Discussions](https://forum.zcashcommunity.com)
-- 官方更新：[Electric Coin Company Blog](https://electriccoin.co)
-- 可持续性重点：[Why Hybrid PoS Matters for Zcash](https://forum.zcashcommunity.com)
+- 社区讨论：[Crosslink：在Zcash社区论坛](https://forum.zcashcommunity.com/t/crosslink-incentivized-feature-net/55210)上开展激励性的Feature Net
+- 官方更新：[Crosslink，见Shielded Labs](https://shieldedlabs.net/crosslink/)以及[Feature Net发布](https://github.com/ShieldedLabs/crosslink_monolith/releases)
+- 设计参考：[Crosslink书](https://shieldedlabs.github.io/crosslink_book/)
 
   参考资料：
 

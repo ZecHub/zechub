@@ -2,96 +2,96 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Ihe oru Tachyon
+# Ọrụ Tachyon
 
 ## TL;DR
 
-- Tachyon bụ atụmatụ e mere maka ịhazigharị ụzọ akpa ego Zcash si achọta ma na-emefu ego echekwara, nke a ga-ekwe ka netwọkụ ahụ too ọtụtụ ndị ọrụ.
-- Taa, obere akpa ga-anwa ịdekọ nnukwu akụkụ nke blockchain iji chọpụta ụgwọ ndị bụ nke ya. Nke ahụ bụkwa isi ihe mere na mmekọrịta echedoro ji adị nwayọ
-- Tachyon na-eji dochie ya site n'iji ** synchronization doro anya, nke mere obere akpa ego ga - enweta ihe ọ chọrọ n'ebughị ụzọ nyochaa ihe niile ma gwa onye nkesa akụkụ ndị ọ chọrọ.
-- Ọ na-ebupụkwa nkọwa ịkwụ ụgwọ site na blockchain wee banye n'ime arịrịọ ọkwụkwụụgwọ ahụ, nke mere ka usoro iwu dị mfe mana ibu ọrụ gaa akpa ego.
-- Ọ bụ atụmatụ, nke mbụ e bipụtara na Eprel 2025 ma kpọọ ya dịka onye ga-aga NU7. ** A naghị ebubata**, ọ chọkwara mgbalị injinịa n'ụdị nkwalite Sapling.
+- Tachyon bụ atụmatụ imegharị ụzọ obere akpa Zcash si achọta ma mefuo ego echekwara, nke e mere iji mee ka netwọk ahụ too ruo ọtụtụ ndị ọrụ
+- Taa, obere akpa ga-agbalị ịchọpụta nnukwu akụkụ nke blockchain iji chọpụta ụgwọ ndị bụ nke ya, ọ bụkwa ya bụ isi ihe mere njikọta nchekwa ji adị nwayọ
+- Tachyon ji **njikọ na-amaghị ama** dochie nke ahụ, yabụ obere akpa na-enweta ihe ọ chọrọ na-enyochaghị ihe niile na-agwaghị sava nke ọ chọrọ
+- Ọ na-ebufekwa nkọwa ịkwụ ụgwọ site na blockchain wee banye na arịrịọ ịkwụ ụgwọ n'onwe ya, nke na-eme ka usoro ahụ dị mfe mana ọ na-agbanwe ibu ọrụ na obere akpa ego
+- Ọ bụ atụmatụ e bipụtara na mbụ na Eprel 2025. Ọ bụghị **akụkụ nke NU7** ma ọ bụghịkwa **ezigara ya**, ọ chọkwara mgbalị injinia n'ọkwa nke nkwalite Sapling
 
 <br/>
 
-## Onye ka nke a bụ maka ya?
+## Ònye bụ nke a maka onye
 
-- Onye ọbụla leere akpa ego e chebere anya ma jụọ ihe mere o ji ewe ogologo oge iji mepụta ya.
-- Ndị bịara ọhụrụ na-ahụ Tachyon ka a kpọtụrụ aha n'akụkụ NU7 na Zcash scaling.
-- Ndị na-agụ akwụkwọ chọrọ echiche mbụ ma jiri ihe nzuzo mee nke abụọ.
+- Onye ọ bụla lere njikọ akpa ego echekwara ma na-eche ihe kpatara o ji ewe ogologo oge otú a
+- Ndị bịara ọhụrụ na-ahụ Tachyon mgbe niile ka a kpọtụrụ aha n'akụkụ nhazi NU7 na Zcash
+- Ndị na-agụ akwụkwọ chọrọ echiche ahụ nke mbụ, nke abụọkwa, ndị chọrọ ka e jiri ihe odide nzuzo chọọ ya
 
 <br/>
 
 ## Nsogbu Tachyon na-edozi
 
-Zcash na-ezobe onye a ga-akwụ ụgwọ. Nke ahụ bụ isi okwu, ọ na - ewetakwa nsogbu dị egwu: maọbụrụ na onweghị onye nwere ike ịmata onye ego ahụ si n'aka ya, kedụ ka obere akpa gị ga esi chọta nke gị?
+Zcash na-ezochi onye a ga-akwụ ụgwọ. Nke ahụ bụ isi ihe dị mkpa, ọ na-ewetakwa nsogbu dị egwu: ọ bụrụ na onye ọ bụla enweghị ike ịmata onye a ga-akwụ ụgwọ, kedu ka obere akpa gị si achọta nke gị?
 
-In Bitcoin this is easy. Addresses are public, so a wallet can ask a server "what was sent to this address?" and get an answer. A Zcash wallet cannot ask that question, because asking it would reveal exactly what the shielded pool is designed to hide.
+Na Bitcoin, nke a dị mfe. Adreesị bụ nke ọha, yabụ obere akpa nwere ike ịjụ onye na-eje ozi "gịnị ka e zigara na adreesị a?" wee nweta azịza. Obere akpa Zcash enweghị ike ịjụ ajụjụ ahụ, n'ihi na ịjụ ya ga-ekpughe kpọmkwem ihe e mere ka ọdọ mmiri ahụ zoo.
 
-So Zcash does something different. The sender encrypts the payment details and tucks them inside the transaction itself. Your wallet then works through transactions on the chain and tries to decrypt each one. Almost every attempt fails. The few that succeed are your payments. This is called **trial decryption**, and it is private, correct, and slow.
+Ya mere, Zcash na-eme ihe dị iche. Onye zitere ya na-ezochi nkọwa ịkwụ ụgwọ ma tinye ha n'ime azụmahịa ahụ n'onwe ya. Akpa ego gị na-arụ ọrụ site na azụmahịa dị na yinye ahụ wee gbalịa ịchọpụta nke ọ bụla. Ihe fọrọ nke nta ka ọ bụrụ mgbalị ọ bụla na-ada ada. Mmadụ ole na ole na-aga nke ọma bụ ịkwụ ụgwọ gị. A na-akpọ nke a **nkọwapụta nnwale**, ọ bụkwa nkeonwe, ziri ezi, ma dị nwayọ.
 
 ![Today a Zcash wallet downloads every shielded transaction and tries to decrypt each one, with almost every attempt failing, to find the few payments that belong to it](/content-images/tachyon-scanning-today.svg)
 
-The catch is what the work depends on. The effort your wallet spends is set by how big the chain is, not by how many payments you actually received. Someone who has never received a single payment does nearly as much work as someone who receives them daily. As Zcash grows, that gets worse for everybody. In the words of the proposal, it "simply does not scale."
+Ihe ọrụ ahụ na-adabere na ya bụ ihe a ga-eji jide ya. Mgbalị ego ị na-emefu na-adabere n'otú usoro a si buru ibu, ọ bụghị n'otú ego ole ị natara si dị. Onye na-enwetabeghị otu ụgwọ ọrụ na-arụ ọrụ dịka onye na-enweta ha kwa ụbọchị. Ka Zcash na-eto, nke ahụ na-aka njọ nye onye ọ bụla. N'ikwu ya n'ụzọ dị mfe, ọ "anaghị amụba."
 
 <br/>
 
 ## Ihe Tachyon gbanwere
 
-Tachyon na-awakpo nsogbu ahụ n'isi ya: ọ kwụsịrị iji blockchain dị ka ụzọ nnyefe maka nzuzo ịkwụ ụgwọ.
+Tachyon na-awakpo nsogbu ahụ na isi mmalite ya: ọ kwụsịrị iji blockchain dị ka ọwa nnyefe maka nzuzo ịkwụ ụgwọ.
 
-Instead, the details you need travel with the payment request itself, out of band. A payment request, a URI, or a QR code carries the information that used to be encrypted into the transaction. Sean Bowe describes this as embracing **out-of-band payments** for the first time in a Zcash shielded protocol.
+Kama nke ahụ, nkọwa ịchọrọ ga-aga na arịrịọ ịkwụ ụgwọ ahụ n'onwe ya, n'èzí otu. Arịrịọ ịkwụ ụgwọ, URI, ma ọ bụ koodu QR na-ebu ozi e zoro ezo na azụmahịa ahụ. Sean Bowe kọwara nke a dị ka ịnakwere ịkwụ ụgwọ **na-abụghị otu** maka oge mbụ na usoro Zcash echebe.
 
-Ozugbo agbụ ahụ na-ebughịzi ozi ahụ, obere akpa gị enweghịzị ihe mere ị ga-eji chọọ ya, nsogbu nke ịmebi usoro nnwale a pụkwara.
+Ozugbo agbụ ahụ anaghịzi ebu ozi ahụ, obere akpa gị enweghịzi ihe mere ị ga-eji chọọ ya, nsogbu nke nrụzi nnwale ahụ ga-apụkwa n'anya.
 
-Akpa ego gị ka kwesịrị ịma ọnọdụ nke ugbu a iji nwee ike imefu, ọ bụ ezie na. Nke ahụ bụ akụkụ abụọ nke atụmatụ ahụ, ** synchronization doro anya: ụzọ maka obere akpa iji nweta ihe ndị dị mkpa ọ chọrọ n'emeghị ka onye nkesa mara ihe ndị ọ rịọrọ ya.
+Agbanyeghị, obere akpa gị ka kwesịrị ịma ọnọdụ usoro dị ugbu a iji mefuo ego. Nke ahụ bụ ọkara nke abụọ nke imewe ahụ, **nkwekọrịta na-amaghị ama**: ụzọ maka obere akpa iji nweta ihe ndị ọ chọrọ kpọmkwem n'ekpugheghị onye sava ihe ndị ọ rịọrọ.
 
 ![With Tachyon the sender passes payment details to the recipient out of band, and the wallet uses oblivious synchronization to retrieve only the data it needs instead of scanning the whole chain](/content-images/tachyon-oblivious-sync.svg)
 
 <br/>
 
-## Ihe ọ ga-apụta nye onye ji akpa ego eme ihe.
+## Ihe ọ ga-apụta nye onye na-eji obere akpa ego
 
-- **Mmekọrịta na-akwụsị itolite n'agbụ.** Oge obere akpa gị ji eme ihe ga-esochi ọrụ nke aka gị kama ịdị ukwuu Zcash.
-- ** Ịkwụ ụgwọ na-adịzi ka inye mmadụ akwụkwọ.** Ihe onye ahụ chọrọ bụ ego ọ ga-akwụ ya, n'ihi ya, ihe dị mkpa karịa taa bụ otú ndị si ezipụ ozi ma zite ha.
-- ** Akpa ego na-ebu ibu ọrụ.** Ebe ọ bụ na agbụ ahụ anaghịzi ejide akwụkwọ ezoro ezo nke nkọwa ịkwụ ụgwọ gị, tufuo data akpa ego gị dị mkpa karịa. Ndabere na mgbake si n'ịbụ usoro protocol gaa ihe ngwanrọ obere akpa ga - eme ka o zie ezi.
-- **Some familiar pieces move or disappear.** Tachyon takes key diversification, viewing keys, and payment addresses out of the core protocol, leaving them to the wallet layer. This is one of the more consequential parts of the proposal and is still being worked through.
-
-<br/>
-
-## N'ilebakwu anya maka ndị na-agụ akwụkwọ ọrụaka.
-
-A kọwara Tachyon dị ka mgbanwe na-agbanwe agbanwe maka usoro Orchard. Enwere ike itinye ya ma ọ bụ dịka nkwalite nke ọdọ mmiri Orchid dị ugbu a ma ọ bụkwanụ dị ka ebe nchekwa echekwara iche site n'aka onye ọrụ . [turnicil](https://zechub.wiki/zcash-tech/the-turnstile), otu usoro Zcash ji maka Ironwood Nhọrọ ahụ na-emetụta nkesa, ọ bụghị imewe.
-
-It keeps several things from Orchard: RedPallas key re-randomization, homomorphic value commitments and binding signatures, and the partitioned key structure that lets a device delegate proving without handing over spend authority.
-
-The scaling work leans on **proof-carrying data**, a technique in which data travels alongside a proof of its own correctness, so that combining it with other proof-carrying data produces something that inherits and extends those proofs. This is what allows a large amount of verified work to be compressed into something small and quick to check. Halo, discovered by the team behind Zcash, is what made proof-carrying data practical enough to build on.
-
-Akụkụ nke atọ bụ ** mkpokọta azụmahịa echekwara, * nke na-agbanwe etu esi ekwupụta mgbanwe steeti ezoro ezo ma nwee mmetụta dị n'elu otu ịbịanye aka si arụ ọrụ.
+- **Ịmekọrịta ihe na-akwụsị itolite na yinye ahụ.** Oge obere akpa gị na-eji achọta ihe ga-esochi ihe omume gị kama ibu Zcash.
+- **Ịkwụ ụgwọ na-adị ka inye mmadụ ụgwọ.** Arịrịọ ịkwụ ụgwọ ahụ na-ebu ihe onye nnata chọrọ, ya mere mgbanwe dị n'etiti onye zitere na onye nnata dị mkpa karịa ka ọ dị taa.
+- **Akpa ego nwere ibu ọrụ karịa.** Ebe ọ bụ na agbụ ahụ anaghịzi enwe otu nkọwa ịkwụ ụgwọ gị ezoro ezo, ịfufu data akpa ego gị dị mkpa karịa. Nkwado ndabere na mgbake na-aga site na ịbụ atụmatụ protocol gaa na ihe ngwanrọ akpa ego ga-edozi.
+- **Ụfọdụ ihe ndị a maara nke ọma na-agagharị ma ọ bụ na-apụ n'anya.** Tachyon na-ewepụ isi ihe dị iche iche, igodo nlele, na adreesị ịkwụ ụgwọ na usoro isi, na-ahapụ ha ka ha dịrị na akpa ego. Nke a bụ otu n'ime akụkụ ndị ka mkpa nke atụmatụ ahụ ma a ka na-arụ ọrụ ya.
 
 <br/>
 
-## Ebe ọrụ ahụ kwụ n'ahịrị .
+## Ileba anya nke ọma maka ndị na-agụ akwụkwọ teknụzụ
 
-Tachyon is a **proposal, not a shipped feature**. It was published in April 2025, and a follow-up post in May 2025 worked through the consensus implications. It is named as a candidate for NU7, the next major upgrade after Ironwood, but NU7's contents are decided by a coinholder vote and nothing about Tachyon is settled.
+A kọwara Tachyon dị ka mgbanwe dakọtara na usoro Orchard. Enwere ike itinye ya dị ka nkwalite na ọdọ mmiri Orchard dị ugbu a ma ọ bụ dị ka ọdọ mmiri dị iche nke a na-echebe site na [tornstile](https://zechub.wiki/zcash-tech/the-turnstile), otu usoro Zcash ji eme Ironwood. Nhọrọ ahụ na-emetụta ntinye ya, ọ bụghị imewe ya.
 
-Onye dere akwụkwọ ahụ kwuru na nke a bụ atụmatụ nwere ike ime ihe kama ịbụ nyocha, mana ọ chọrọ mbọ injinịa yiri Sapling. A ga-ahapụ ajụjụ ụfọdụ siri ike maka mgbe e mesịrị.
+Ọ na-egbochi ọtụtụ ihe site na Orchard: nhazi igodo RedPallas, nkwa uru homomorphic na mbinye aka njikọ, yana usoro igodo nkewa nke na-enye ngwaọrụ ohere igosi na-enyeghị ikike mmefu.
 
-A na-ahụ ọrụ ndị metụtara ya. [Zakura](https://zechub.wiki/zcash-tech/zakura-node), bụ ọnụ zuru ezu nke ewepụtara na July 2026, bụ mgbalị jikọtara n'etiti Project Tachyon na Valar Group ma hụ ụfọdụ mgbanwe ndị a dị na ntanetị. [Nweta ozi nkeonwe](https://zechub.wiki/zcash-tech/private-information-retrieval) nchọpụta na-elekwasị anya n'otu nkwụsịtụ nyocha site n'akụkụ dị iche.
+Ọrụ nhazi ahụ dabere na **data na-ebu ihe akaebe**, usoro nke data na-aga n'akụkụ ihe akaebe nke izi ezi ya, nke mere na ijikọta ya na data ndị ọzọ na-ebu ihe akaebe na-emepụta ihe nketa ma na-agbatị ihe akaebe ndị ahụ. Nke a bụ ihe na-eme ka ọtụtụ ọrụ ekwenyesiri ike banye n'ihe dị obere ma dị ngwa ịlele. Halo, nke ndị otu Zcash, bụ ihe mere data na-ebu ihe akaebe ji baa uru iji wulite na ya.
 
-<br/>
-
-## Ihe ndị mmadụ na-ekwukarị nke bụ́ eziokwu.
-
-- **Tachyon adịghị arụ ọrụ.** Ọ dịghị obere akpa ji ya taa, ọ nweghịkwa nkwalite emegharịrị.
-- **Tachyon abụghị otu ihe ahụ dị ka Ironwood.** A na-arụ ọrụ nke ígwè n'ọnwa Julaị 2026 ma jiri ọdọ mmiri Orchard na turnstile. Tachyon bụ atụmatụ ọzọ, mgbe e mesịrị banyere ịba ụba.
-- **Tachyon abụghị ihe nzuzo.** Ebumnuche bụ idobe akwụkwọ ndekọ ahụ na-enweghị ike ịkọwapụta ma wepụ ụgwọ ọnụ ọgụgụ, ọ bụghị ịzụ ahịa maka ọsọ.
-- ** nkwenye nke zk-SNARK abụghị ihe mgbochi.** Nkwupụta ahụ doro anya na akụkụ dị nwayọ bụ etu obere akpa si achọpụta ma hazie steeti, ọ bụghị ụgwọ ịlele akwụkwọ.
-- **"A na-elekwasị anya na NU7" abụghị nkwa.** Ihe a ga-etinye n'ime NU7 bụ mkpebi site na ịtụ vootu.
+Nke atọ bụ **njikọ azụmahịa echekwara**, nke na-agbanwe otu esi eziga mgbanwe ọnọdụ echekwara ma nwee mmetụta dị ukwuu n'otú mbinye aka si arụ ọrụ.
 
 <br/>
 
-## Akwụkwọ ọkọwa okwu
+## Ebe ọrụ ahụ dị
+
+Tachyon bụ **atụmatụ, ọ bụghị atụmatụ ebupụrụ**. E bipụtara ya na Eprel 2025, ozi ọzọ e bipụtara na Mee 2025 rụkwara ọrụ site na ihe ndị mmadụ kwenyere na ya. A kpọrọ ya aha dị ka onye ga-azọ ọkwa maka NU7, mmelite ọzọ mgbe Ironwood, mana usoro NU7 e kwekọrịtara na 17 Septemba 2026 anaghị agụnye ya: [ZIP 259](https://zips.z.cash/zip-0259) na-edepụta ihe NU7 na-etinye, na [ọkwa ogbako](https://forum.zcashcommunity.com/t/nu7-timeline/57655) na-ekwu na ọ dịghị usoro azụmahịa ọhụrụ pụtara na ya. Edobebeghị ụbọchị mmalite ọ bụla maka Tachyon.
+
+Ihe onye dere ya dere n'onwe ya bụ na atụmatụ a ga-eme ihe ọ bụghị nnyocha e chepụtara echepụta, mana nke chọrọ mgbalị injinia dịka Sapling, ya na ajụjụ ndị siri ike a ga-ajụ maka ya ma emechaa.
+
+Ọrụ ndị metụtara ya apụtala ìhè. [Zakura](https://zechub.wiki/zcash-tech/zakura-node), nke bụ otu n'ime ihe niile ewepụtara na Julaị 2026, bụ ọrụ ọnụ n'etiti Project Tachyon na Valar Group ma na-egosi ụfọdụ mgbanwe ndị a na-eme na ọkwa netwọkụ. [Iweghachite ozi nkeonwe](https://zechub.wiki/zcash-tech/private-information-retrieval) nnyocha na-achọ otu ihe mgbochi nyocha site n'akụkụ dị iche.
+
+<br/>
+
+## Echiche na-ezighị ezi a na-ahụkarị
+
+- **Tachyon adịghị ndụ.** Enweghị obere akpa ego ọ bụla na-eji ya taa, ọ dịghịkwa mmelite ọ bụla mere ka ọ rụọ ọrụ.
+- **Tachyon abụghị otu ihe ahụ dị ka Ironwood.** E tinyere Ironwood n'ọrụ na Julaị 2026 ma chịkọta ọdọ mmiri Orchard na turnstile. Tachyon bụ atụmatụ dị iche, nke e mechara mee gbasara nhazi.
+- **Tachyon abụghị mbelata nzuzo.** Ebumnuche ya bụ idobe enweghị ike ịmata ọdịiche dị n'etiti akwụkwọ ndekọ ego ebe a na-ewepụ ọnụ ahịa nhazi, ọ bụghị ịgbanwe nzuzo maka ọsọ.
+- **zk-SNARK abụghị ihe mgbochi.** Aro a doro anya na akụkụ dị nwayọ bụ otu obere akpa si achọpụta ma hazie ọnọdụ, ọ bụghị ọnụ ahịa nke ihe akaebe ịlele.
+- **Tachyon anọghị na NU7.** A kpọburu ya aha dị ka onye ga-azọ ọkwa, mana ebumnuche e kwetara na Septemba 2026 kpuchiri ngọngọ sekọnd 25, imegharị ụgwọ na njedebe nke azụmahịa nke ụdị 4, na-enweghị usoro azụmahịa ọhụrụ ([ZIP 259](https://zips.z.cash/zip-0259)).
+
+<br/>
+
+## Nkọwa Okwu
 
 | Oge okwu | Ihe ọ pụtara |
 |---|---|
@@ -100,37 +100,37 @@ A na-ahụ ọrụ ndị metụtara ya. [Zakura](https://zechub.wiki/zcash-tech/
 | Out-of-band payment | Ịnyefe nkọwa ịkwụ ụgwọ ozugbo n'etiti onye zitere na onye nnata kama site na yinye ahụ |
 | Oblivious synchronization | Ịchọta data yinye nke obere akpa chọrọ n'ekpugheghị data achọrọ |
 | Proof-carrying data (PCD) | Data nke na-agagharị na ihe akaebe nke izi ezi nke ya, ka e wee nwee ike ijikọta ma tinye ihe akaebe |
-| Shielded transaction aggregate | Ụzọ Tachyon si ejikọta mgbanwe steeti echekwara, na-agbanwe otu esi ekwurịta okwu ma bịanye aka na ha |
+| Shielded transaction aggregate | Ụzọ Tachyon's si ejikọta mgbanwe steeti echekwara, na-agbanwe otu esi ekwurịta okwu ma bịanye aka na ha |
 | ledger indistinguishability | Enweghị ike ịkọwa ihe onwunwe nke kpuchiri azụmahịa dị iche na ibe ya |
 
 <br/>
 
-## Ajụjụ ndị a na-ajụkarị
+## Ajụjụ Ndị A Na-ajụkarị
 
-** Nke a ga-eme ka obere akpa m mekọrịta ngwa ngwa?** Ọ bụ ihe mgbaru ọsọ ahụ. Oge syncing ga - agbaso ọrụ nke gị kama ịdị ukwuu nke yinye. Enweghị ihe ọ bụla ebuputara, yabụ enweghị ọnụ ọgụgụ elele iji kwupụta ma.
+**Nke a ọ̀ ga-eme ka obere akpa m dị ngwa ngwa?** Nke ahụ bụ ebumnuche ya. Oge imekọ ihe ọnụ ga-esochi ọrụ nke gị kama nha nke yinye ahụ. Ọ dịghị ihe e zigara, yabụ enweghị ọnụọgụ a tụrụ atụ ị ga-ehota.
 
-Achọrọ m ime ihe ọ bụla ugbu a? Mba. Tachyon bụ atụmatụ, ma ọ bụrụ na e nakweere ya, ọ ga-abata site n'ịkwalite netwọkụ yana ọkwa nkịtị.
+**Ọ dị mkpa ka m mee ihe ọ bụla ugbu a?** Mba. Tachyon bụ atụmatụ. Ọ bụrụ na a nabata ya, ọ ga-abịa site na mmelite netwọk yana ọkwa nkịtị.
 
-** Iwepu igodo nlele pụtara ịhapụ ike ikesa ohere ịgụ?** Nkwupụta ahụ na-ebute ikike ahụ site na isi usoro iwu ma banye na akpa ego. Ihe nke a yiri ka ọ bụ otu ajụjụ ndị mepere emepe.
+**Iwepụ igodo nlele ọ pụtara na ị gaghị enwe ike ịkekọrịta ohere ịgụ akwụkwọ?** Aro a na-eme ka ikike ahụ pụọ na usoro isi wee banye na akpa ego. Ihe ọ dị ka n'omume bụ otu n'ime ajụjụ ndị mepere emepe.
 
-** Ego m nọ n'ihe ize ndụ ma ọ bụrụ na ụgbọ mmiri Tachyon?** Ntinye ga-eji nkwalite Orchard ma ọ bụ turnicle, ha abụọ ka e mere iji mee ka uru ahụ gaa n'okpuru iwu ndekọ ego ọha. Peeji Ironwood kọwara otú otu turnstile si arụ ọrụ.
-
-<br/>
-
-## Peeji ndị metụtara ya
-
-- [Ịchọta Ozi nke Onwe Onye](https://zechub.wiki/zcash-tech/private-information-retrieval) - ụzọ ọzọ maka otu obere akpa nyocha windo.
-- [Zakura Node (Nọmba nke Zaku)](https://zechub.wiki/zcash-tech/zakura-node) - otu ọnụ wuru akụkụ nke Tachyon si engineering mgbalị
-- [Ironwood](https://zechub.wiki/zcash-tech/ironwood) - nkwalite nke arụ ọrụ na July 2026, a na-ejikarị ya eme ihe Tachyon.
-- [Ihe A Na-akpọ Turnstile](https://zechub.wiki/zcash-tech/the-turnstile) - usoro Tachyon nwere ike iji ma ọ bụrụ na etinyere ya dị ka ọdọ mmiri nke aka ya.
-- [Nchebe Mgbe E Mechara Ihe Ndị Dị n'Eluigwe na Ala](https://zechub.wiki/zcash-tech/post-quantum-security) - ebe Tachyon na-anọdụ n'akụkụ ọrụ usoro iheomume ogologo oge.
-- [Otú E Si Hazie Zcash](https://zechub.wiki/start-here/how-zcash-is-organized) - onye na-arụ ọrụ a nakwa otú usoro okike si adaba n'otu.
+**Ego m ọ̀ nọ n'ihe ize ndụ ma Tachyon bufee ya?** Ntinye ga-eji nkwalite Orchard ma ọ bụ turnstile, nke e mere ka uru ya gaa n'okpuru iwu akaụntụ ọha. Peeji Ironwood na-akọwa otu turnstile si arụ ọrụ.
 
 <br/>
 
-## Akụnụba
+## Ibe ndị metụtara ya
 
-- [Tachyon: Ịgbasa Zcash na Oblivious Synchronization](https://seanbowe.com/blog/tachyon-scaling-zcash-oblivious-synchronization/) - Sean Bowe, 2 Eprel 2025, ihe mbụ e kwuru na ya bụ akwụkwọ.
-- [Ịrụ Ọrụ n'Ebe Dị Anya](https://seanbowe.com/blog/tachyaction-at-a-distance/) - Sean Bowe, 15 May 2025, nkwekọrịta na usoro iwu metụtara ya, edere maka ndị mmepe protocol.
-- [Blọọgụ Sean Bowe](https://seanbowe.com/blog/) - ebe a na-ebipụta usoro Tachyon
-- [tachyon.z.cash (ego)](https://tachyon.z.cash/) - ebe a na-arụ ọrụ ahụ.
+- [Iweghachite Ozi nkeonwe](https://zechub.wiki/zcash-tech/private-information-retrieval) - ụzọ ọzọ isi mee otu ihe nyocha obere akpa ahụ
+- [Zakura Node](https://zechub.wiki/zcash-tech/zakura-node) - otu ebe e wuru akụkụ nke mgbalị injinia Tachyon's
+- [Ironwood](https://zechub.wiki/zcash-tech/ironwood) - mmelite ahụ mere ka ọ rụọ ọrụ na Julaị 2026, nke a na-enwekarị mgbagwoju anya na Tachyon
+- [Ogwe Mgbanwe](https://zechub.wiki/zcash-tech/the-turnstile) - usoro Tachyon nwere ike iji ma ọ bụrụ na etinyere ya dị ka ọdọ mmiri nke ya
+- [Nchekwa Mgbe-Quantum](https://zechub.wiki/zcash-tech/post-quantum-security) - ebe Tachyon nọdụrụ n'akụkụ ọrụ usoro ogologo oge
+- [Otu esi ahazi Zcash](https://zechub.wiki/start-here/how-zcash-is-organized) - onye na-arụ ọrụ a na otu usoro gburugburu ebe obibi si adabakọ ọnụ
+
+<br/>
+
+## akụrụngwa
+
+- [Tachyon: Ịtụle Zcash na iji Mmekọrịta Amaghị](https://seanbowe.com/blog/tachyon-scaling-zcash-oblivious-synchronization/) - Sean Bowe, 2 Eprel 2025, atụmatụ mbụ
+- [Tachyaction n'ebe dị anya](https://seanbowe.com/blog/tachyaction-at-a-distance/) - Sean Bowe, 15 Mee 2025, nkwekọrịta na ihe gbasara usoro, edere maka ndị na-emepụta usoro
+- [Blọọgụ Sean Bowe's](https://seanbowe.com/blog/) - ebe ebipụtara usoro Tachyon
+- [tachyon.z.cash](https://tachyon.z.cash/) - saịtị ọrụ

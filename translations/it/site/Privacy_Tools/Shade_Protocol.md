@@ -35,7 +35,7 @@ La DeFi che tutela la privacy sfrutta tecniche crittografiche avanzate come tran
 
 **Token Shade e Silk**
 
-Shade Protocol utilizza le viewing key per i suoi due token principali: Shade ($SHD) e Silk ($SILK). Shade ($SHD) svolge molteplici ruoli, fungendo da token di tesoreria, governance e revenue sharing all'interno dell'ecosistema. Viene usato nello staking, nelle proposte di governance, nella fornitura di liquidità, nelle transazioni e nei bond. Silk ($SILK), d'altra parte, è la stablecoin del protocollo incentrata sulla privacy, ancorata a un paniere diversificato di valute e materie prime globali come oro, Bitcoin, USD, Euro e Yen.
+Shade Protocol utilizza le chiavi di visualizzazione per i suoi due token principali: Shade ($SHD) e Silk ($SILK). Shade ($SHD) svolge molteplici ruoli, fungendo da token di tesoreria, governance e revenue sharing all'interno dell'ecosistema. Viene usato nello staking, nelle proposte di governance, nella fornitura di liquidità, nelle transazioni e nei vincoli. Silk ($SILK), d'altra parte, è la stablecoin del protocollo incentrata sulla privacy, ancorata a un paniere diversificato di valute e materie prime globali come oro, Bitcoin, USD, Euro e Yen.
 
 ![Shade and Silk Tokens - Part 1](/content-images/9wTrxCdx8AoRcCwsGub13QXuY-807ed3b400.webp)
 
@@ -67,10 +67,10 @@ I principi di coesione e cattura del valore di Shade Protocol forniscono una sol
 
 #### Link di riferimento
  
-[Sito web di Shade Protocol](https://shadeprotocol.com)
+[Sito web di Shade Protocol](https://shadeprotocol.io/)
 
 [Medium (Shade Protocol) ](https://medium.com/@shadeprotocoldevs/what-is-shade-protocol-efc1ef7aeabf)
 
-[Altcoin Buzz.io](https://www.altcoinbuzz.io/reviews/what-is-shade-protocol/)
+[Altcoin Buzz.io](https://web.archive.org/web/20250319054025/https://www.altcoinbuzz.io/reviews/what-is-shade-protocol/)
 
 [Messari.io](https://messari.io/project/shade/profile)

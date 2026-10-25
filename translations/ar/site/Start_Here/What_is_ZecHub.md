@@ -21,9 +21,9 @@ ZecHub هو مركز تعليمي لامركزي لـ Zcash. الهدف من [Ze
 
 ---
 
-1. انتقل إلى [مستودع ZecHub على Github](https://github.com/ZecHub/zechub)
+1. انتقل إلى [مستودع ZecHub على GitHub](https://github.com/ZecHub/zechub)
    
-2. أنشئ حساب Github جديدًا أو سجّل الدخول باستخدام حسابك
+2. أنشئ حساب GitHub جديدًا أو سجّل الدخول باستخدام حسابك
    
 3. اتبع هذا الدليل لتتعلم كيفية إنشاء pull request:
 
@@ -51,15 +51,15 @@ ZecHub هو مركز تعليمي لامركزي لـ Zcash. الهدف من [Ze
 3. No inappropriate content.
 ```
 
-التبرعات: [هنا](https://explorer.zec.rocks/ua/u17sawf3pdh7z6tsy83vhjd2z7sztpy9y87wyyqz4vqshn3yhch28q3ud3lr0etadl3flz4c9zdrtn9lwlf23vzmjnll97efxzg9h0rjzn9qvhvqr8p3394ysnfhg560xxxc66yxzh8r548myxn3l2qrc9pfrt8nrzhxvlpuuykv7czjsm)
+التبرعات: [هنا](https://mainnet.zcashexplorer.app/ua/u17sawf3pdh7z6tsy83vhjd2z7sztpy9y87wyyqz4vqshn3yhch28q3ud3lr0etadl3flz4c9zdrtn9lwlf23vzmjnll97efxzg9h0rjzn9qvhvqr8p3394ysnfhg560xxxc66yxzh8r548myxn3l2qrc9pfrt8nrzhxvlpuuykv7czjsm)
 
-<a href="https://explorer.zec.rocks/ua/u17sawf3pdh7z6tsy83vhjd2z7sztpy9y87wyyqz4vqshn3yhch28q3ud3lr0etadl3flz4c9zdrtn9lwlf23vzmjnll97efxzg9h0rjzn9qvhvqr8p3394ysnfhg560xxxc66yxzh8r548myxn3l2qrc9pfrt8nrzhxvlpuuykv7czjsm">
+<a href="https://mainnet.zcashexplorer.app/ua/u17sawf3pdh7z6tsy83vhjd2z7sztpy9y87wyyqz4vqshn3yhch28q3ud3lr0etadl3flz4c9zdrtn9lwlf23vzmjnll97efxzg9h0rjzn9qvhvqr8p3394ysnfhg560xxxc66yxzh8r548myxn3l2qrc9pfrt8nrzhxvlpuuykv7czjsm">
     <img src="/content-images/image-2023-11-18-141228046-644b4c542d.webp" alt="" width="200" height="200"/>
 </a>
 
 
 
-**إخلاء مسؤولية: ZecHub مبادرة مستقلة تمامًا ومفتوحة المصدر أسسها أعضاء من مجتمع Zcash. لا ينبغي اعتبار أي شيء وارد في مستودع Github هذا نصيحة مالية أو استثمارية - فهو مخصص للأغراض المعلوماتية فقط.**
+**إخلاء مسؤولية: ZecHub مبادرة مستقلة تمامًا ومفتوحة المصدر أسسها أعضاء من مجتمع Zcash. لا ينبغي اعتبار أي شيء وارد في مستودع GitHub هذا نصيحة مالية أو استثمارية - فهو مخصص للأغراض المعلوماتية فقط.**
 
 ---
 

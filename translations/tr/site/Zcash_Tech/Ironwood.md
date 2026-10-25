@@ -14,7 +14,7 @@ Bunun neden önemli olduğu. Bitcoin gibi şeffaf paralarda, kamuya açık defte
 
 Zcash'e yeni misiniz? Önce [ZEC ve Zcash nedir](../start-here/what-is-zec-and-zcash) ve [Shielded Pools](../using-zcash/shielded-pools) sayfalarını okuyun, sonra buraya geri dönün.
 
-![Ironwood değer taşıma akışı: değer Orchard havuzundan çıkar, turnike kontrol noktasından geçer ve yeni Ironwood havuzuna girer](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/ironwood-flow.png)
+![Ironwood değer taşıma akışı: değer Orchard havuzundan çıkar, turnike kontrol noktasından geçer ve yeni Ironwood havuzuna girer](/content-images/ironwood-flow-8af7a58b99.webp)
 
 ## Ironwood neden gerekliydi
 
@@ -24,7 +24,7 @@ Mayıs 2026'nın sonlarında, bağımsız güvenlik araştırmacısı Taylor Hor
 2. Teorik olarak bir saldırgan, kusuru kullanarak Orchard havuzu içinde geçersiz değer üretebilir ve gerçekte kendisine ait olmayan fonları harcayabilirdi; normal bir düğümün yakalayacağı hiçbir iz bırakmazdı.
 3. Zcash'in turnikesi yine de Orchard'dan çıkabilecek toplam değere üst sınır koyuyordu, bu nedenle toplam arz şişirilemezdi; ancak havuzun kendi kriptografisi artık içindeki her gizli coin'in gerçek olduğunu garanti etmiyordu.
 
-![Hatanın açıklaması: bir işlem 5 ZEC koyuyor, ancak kusurlu ispat 7 ZEC çıktığında da geçiyor ve yoktan 2 ZEC yaratıyor](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/ironwood-bug.png)
+![Hatanın açıklaması: bir işlem 5 ZEC koyuyor, ancak kusurlu ispat 7 ZEC çıktığında da geçiyor ve yoktan 2 ZEC yaratıyor](/content-images/ironwood-bug-8f689d6f61.webp)
 
 Yukarıdaki sayılar basitleştirilmiş bir tablodur. Gerçek kusur, devrenin matematiğindeki belirli bir parçadaydı; içeri giren ve çıkan coin'lerin birebir sayımı değildi. Buradan çıkarılması gereken tek nokta, bir soundness bug'ının havuz içinde tespit edilmeden değer yaratılmasına izin verebilmesidir.
 
@@ -34,13 +34,13 @@ Yukarıdaki sayılar basitleştirilmiş bir tablodur. Gerçek kusur, devrenin ma
 
 Zcash topluluğu tüm düzeltmeleri tek seferde yapmak yerine aşamalı olarak yayımladı.
 
-![Ironwood yanıt zaman çizelgesi: Orchard hatası Mayıs 2026'da bulunuyor, havuz Haziran 2026'da duraklatılıyor, devre NU6.2'de düzeltiliyor ve Ironwood 28 Temmuz 2026'da 3.428.143. blokta etkinleşti](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/ironwood-timeline.png)
+![Ironwood yanıt zaman çizelgesi: Orchard hatası Mayıs 2026'da bulunuyor, havuz Haziran 2026'da duraklatılıyor, devre NU6.2'de düzeltiliyor ve Ironwood 28 Temmuz 2026'da 3.428.143. blokta etkinleşti](/content-images/ironwood-timeline-36243f0cd7.webp)
 
 1. Haziran 2026'nın başlarında, tam düzeltme hazırlanırken geçici bir önlem olarak Orchard havuzu devre dışı bırakıldı.
 2. NU6.2 yükseltmesi Orchard devresinin kendisini düzelterek alttaki soundness açığını kapattı.
 3. NU6.3 yükseltmesi olan Ironwood, yeni bir shielded pool ve eski Orchard havuzundan değerin tam denetim altında çıkmasını sağlayan kamusal bir kontrol noktası sunar.
 
-![NU6.2'deki düzeltme: düzeltilmiş ispat girdilerin çıktılara eşit olmasını gerektirir; böylece geçerli bir 5 ZEC çıktısı kabul edilirken 7 ZEC çıkarma girişimi reddedilir](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/ironwood-fix.png)
+![NU6.2'deki düzeltme: düzeltilmiş ispat girdilerin çıktılara eşit olmasını gerektirir; böylece geçerli bir 5 ZEC çıktısı kabul edilirken 7 ZEC çıkarma girişimi reddedilir](/content-images/ironwood-fix-bb4f70ddc9.webp)
 
 ## Ironwood havuzu ne yapar
 
@@ -50,7 +50,7 @@ Ironwood havuzu, NU6.3 tarafından 3.428.143. blokta oluşturulan shielded value
 
 1. Etkinleşmeden sonra eski Orchard havuzu yalnızca harcanabilir hâle gelir; dolayısıyla içine yeni değer giremez.
 2. Yeni shielded değer bunun yerine Ironwood'a akar.
-3. Shielded ZEC, göndereni, alıcıyı ve miktarı gizleyen aynı güçlü gizlilik garantilerini korur.
+3. Ironwood içinde shielded ZEC, göndereni, alıcıyı ve miktarı gizleyen gizliliği korur. ZEC'ün Orchard'den Ironwood'ya taşınması, taşınan miktarı gösterir.
 
 ## Turnike
 
@@ -68,7 +68,7 @@ Konsensüs kuralları, Ironwood dâhil her değer havuzunu, ağın azami para s�
 
 ## Kullanıcıların yapması gerekenler
 
-Cüzdanlar ve düğüm yazılımı bunun çoğunu otomatik olarak halleder, ancak pratik değişim basittir: zaman içinde shielded bakiyelerinizi eski Orchard havuzundan turnike üzerinden Ironwood havuzuna taşıyın. Cüzdan sağlayıcınızın yönlendirmelerini izleyin ve etkinleşme bloğundan önce mutlaka desteklenen bir sürüme güncelleyin.
+Cüzdanlar ve düğüm yazılımı bunun çoğunu otomatik olarak halleder, ancak pratik değişim basittir: zaman içinde shielded bakiyelerinizi eski Orchard havuzundan turnike üzerinden Ironwood havuzuna taşıyın. Her taşıma, miktarını blokzincirde gösterir; bu nedenle [ZIP 318](https://zips.z.cash/zip-0318)'i izleyen cüzdanlar bunları standart miktarlara böler ve zaman içinde gönderir. Cüzdan sağlayıcınızın yönlendirmelerini izleyin ve yazılımınızı desteklenen bir sürümde tutun.
 
 ## Sözlük
 
@@ -85,9 +85,9 @@ Cüzdanlar ve düğüm yazılımı bunun çoğunu otomatik olarak halleder, anca
 
 ZEC'im etkilendi mi? Hayır. Hatanın hiç kullanıldığına dair kanıt yok, kullanıcı fonlarına etkisi yok ve toplam arzda bir değişiklik yok.
 
-Bir şey yapmam gerekiyor mu? Etkinleşme bloğundan önce cüzdanınızı ve düğüm yazılımınızı desteklenen bir sürüme güncel tutun. Harcama yaptıkça cüzdanınız fonları zaman içinde Ironwood'a taşır; bu yüzden aceleyle elle yapmanız gereken bir şey yoktur. Cüzdan sağlayıcınızın yönlendirmelerini izleyin.
+Bir şey yapmam gerekiyor mu? Cüzdanınızı ve düğüm yazılımınızı desteklenen bir sürümde tutun. Orchard fonlarını harcamak, onları Ironwood'a taşır ve aktarılan tutar herkese açıktır. Bazı cüzdanlar, bakiyenizin ilişkilendirilmesini zorlaştırmak için zaman içinde standart tutarları gönderen bir geçiş sunar. Cüzdan sağlayıcınızın yönlendirmelerini izleyin.
 
-Zcash hâlâ gizli mi? Evet. Ironwood, göndereni, alıcıyı ve miktarı gizleyen aynı shielded gizliliği korur. Bu yükseltme gizlilikle değil, arz bütünlüğüyle ilgilidir.
+Zcash hâlâ gizli mi? Evet. Ironwood içindeki ödemeler, Orchard ödemelerinin yaptığı gibi göndereni, alıcıyı ve miktarı gizler. Orchard'ten Ironwood'e olanlar gibi havuzlar arasında aktarılan miktar herkese açıktır. Bu yükseltme arz bütünlüğüyle ilgilidir.
 
 Hata hiç istismar edildi mi? Edildiğine dair bir kanıt yok. Güvenlik araştırmasıyla bulundu, sorumlu biçimde açıklandı ve bilinen herhangi bir zarar oluşmadan önce düzeltildi.
 
@@ -111,6 +111,10 @@ Turnike sayesinde. Eski Orchard havuzundan çıkan her coin, Ironwood'a girerken
 
 [ZIP 2005: Ironwood Quantum Recoverability](https://zips.z.cash/zip-2005)
 
+[ZIP 229: Sürüm 6 İşlem Biçimi](https://zips.z.cash/zip-0229)
+
+[ZIP 318: Orchard'den Ironwood'e Geçiş](https://zips.z.cash/zip-0318)
+
 [Ironwood: Zcash için Yeni Bir Shielded Pool](https://zodl.com/ironwood-a-new-shielded-pool-for-zcash/)
 
 ### Ayrıca bakın
@@ -121,7 +125,7 @@ Turnike sayesinde. Eski Orchard havuzundan çıkan her coin, Ironwood'a girerken
 
 [Halo](../zcash-tech/halo)
 
-[zk-SNARKS](../zcash-tech/zk-snarks)
+[zk-SNARKs](../zcash-tech/zk-snarks)
 
 [Kuantum Sonrası Güvenlik](../zcash-tech/post-quantum-security)
 

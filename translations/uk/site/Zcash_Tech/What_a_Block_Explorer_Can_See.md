@@ -26,7 +26,7 @@
 
 ## Що може бачити експлорер
 
-Публічний експлорер, такий як [Blockchair](https://blockchair.com/zcash), може чітко бачити:
+Публічний експлорер, такий як [ZecBlock](https://zecblock.com/), може чітко бачити:
 
 - Будь-який повністю прозорий платіж (t to t) від початку до кінця.
 - Кошти, що входять до shielded pool (прозору сторону та суму).
@@ -65,7 +65,7 @@
 - [Zcash: рекомендації щодо приватності та безпеки](https://z.cash/support/security/privacy-security-recommendations/)
 - [Екосистема shielded (Electric Coin Company)](https://web.archive.org/web/20260903010654/https://electriccoin.co/blog/shielded-ecosystem/)
 - [Як працює технологія Zcash](https://z.cash/technology/)
-- [Експлорер Zcash на Blockchair](https://blockchair.com/zcash)
+- [ZecBlock](https://zecblock.com/)
 
 ## Пов’язані сторінки
 

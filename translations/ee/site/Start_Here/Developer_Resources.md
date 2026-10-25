@@ -100,7 +100,7 @@ Hackathon me tsonu siwo wowɔ nyitsɔ laa nye nusiwo amewo le tutum ƒe nɔnɔme
 
 Wodzrae ɖo elabena nyati xoxowo do ƒome kpli wo, eye elabena wogakpɔtɔ nye nufiame na alesi node si xɔ dzudzɔ le dɔme la wɔ nui. Mègadze egɔme tso afisia o.
 
-[Zcashd ƒe Agbalẽa](https://zcash.github.io/zcash/) kple... [zcashd RPC ƒe nufiame](https://zcash.github.io/rpc/) nuŋlɔɖi kɔmpiutadziɖoɖo si ɖo [agbe ƒe nuwuwu](https://zcash.github.io/zcash/user/end-of-life.html) le July 2026. Eƒe [zcash/zcash ƒe ga](https://github.com/zcash/zcash) nudzraɖoƒea le nudzraɖoƒe.
+[zcashd ƒe Agbalẽa](https://zcash.github.io/zcash/) kple... [zcashd RPC ƒe nufiame](https://zcash.github.io/rpc/) nuŋlɔɖi kɔmpiutadziɖoɖo si ɖo [agbe ƒe nuwuwu](https://zcash.github.io/zcash/user/end-of-life.html) le July 2026. Eƒe [zcash/zcash ƒe ga](https://github.com/zcash/zcash) nudzraɖoƒea le nudzraɖoƒe.
 
 Ne dɔwɔnu aɖe le asiwò nàtsɔ akpe ɖe eŋu, alo nèkpɔ nane le afisia si gblẽ la, ʋu nya aɖe alo hehe ƒe biabiawo. Menye ɣesiaɣie ŋutete nɔa ƒuƒoƒowo si be woana nusianu nanɔ yeye o, eye aflaga tsɔtsɔ de nusi nèdo goe kpena ɖe mɔfialawo ŋu wòfiaa mɔ wo.
 

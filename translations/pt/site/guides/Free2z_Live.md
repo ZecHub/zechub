@@ -1,6 +1,6 @@
 [![Editar página](https://img.shields.io/badge/Edit-blue)](https://github.com/zechub/zechub/edit/main/site/guides/Free2z_Live.md)
 
-# Free2z: Configuração de conta + tutorial de transmissão ao vivo
+# Free2Z: Configuração de conta + tutorial de transmissão ao vivo
 
 ## Introdução
 
@@ -97,7 +97,7 @@ Ou, dentro de uma publicação, procure o botão flutuante de mais. A partir da�
 
 ## Transmissão ao vivo
 
-A plataforma Free2z oferece um recurso incrível chamado Free2z Live. Com esta ferramenta, os criadores podem iniciar transmissões ao vivo para membros inscritos. Alguns dos principais recursos do Free2z Live incluem:  
+A plataforma Free2Z oferece um recurso incrível chamado Free2Z Live. Com esta ferramenta, os criadores podem iniciar transmissões ao vivo para membros inscritos. Alguns dos principais recursos do Free2Z Live incluem:  
 - Áudio e vídeo  
 - Compartilhamento de tela  
 - Edição colaborativa de código  
@@ -105,9 +105,9 @@ A plataforma Free2z oferece um recurso incrível chamado Free2z Live. Com esta f
 - Quadro branco  
 - E muito mais!
 
-### O que você pode fazer com o Free2z Live
+### O que você pode fazer com o Free2Z Live
 
-Free2z Live é uma ferramenta poderosa, permitindo que criadores transmitam qualquer tipo de conteúdo. Aqui estão alguns exemplos do tipo de conteúdo que você pode transmitir com Free2z Live:  
+Free2Z Live é uma ferramenta poderosa, permitindo que criadores transmitam qualquer tipo de conteúdo. Aqui estão alguns exemplos do tipo de conteúdo que você pode transmitir com Free2Z Live:  
 - Tutoriais e demonstrações  
 - Apresentações e eventos  
 - Projetos colaborativos  
@@ -116,7 +116,7 @@ Free2z Live é uma ferramenta poderosa, permitindo que criadores transmitam qual
 
 ### Como entrar ao vivo
 
-É muito fácil iniciar uma transmissão ao vivo com Free2z Live. Mas há alguns requisitos antes de você poder iniciar sua transmissão.  
+É muito fácil iniciar uma transmissão ao vivo com Free2Z Live. Mas há alguns requisitos antes de você poder iniciar sua transmissão.  
 1. O criador **deve** ter um **member price** mínimo de 10 2Zs.  
 2. O criador **deve** ter um saldo de pelo menos 150 2Zs em sua conta.  
 
@@ -124,7 +124,7 @@ Se o criador atender a **ambas** as condições acima, um ícone chamado **Go Li
 
 ![Botão Go Live](/content-images/go-live-4c8ac67505.webp)
 
-Para iniciar uma transmissão ao vivo, basta clicar no botão **Go Live**, e o aplicativo Free2z pedirá permissão para usar seu microfone e webcam (se você tiver uma). Depois de conceder as permissões necessárias, o Free2z pedirá que você insira um apelido que deseja usar durante a transmissão ao vivo. Depois de selecionar um apelido, clique em **Join** para iniciar sua transmissão ao vivo.
+Para iniciar uma transmissão ao vivo, basta clicar no botão **Go Live**, e o aplicativo Free2Z pedirá permissão para usar seu microfone e webcam (se você tiver uma). Depois de conceder as permissões necessárias, o Free2Z pedirá que você insira um apelido que deseja usar durante a transmissão ao vivo. Depois de selecionar um apelido, clique em **Join** para iniciar sua transmissão ao vivo.
 
 ![Selecione um apelido para a transmissão ao vivo](/content-images/select-nickname-414444b992.webp)
 
@@ -134,15 +134,15 @@ E pronto! Quando você inicia uma transmissão ao vivo, seu perfil mostrará um 
 
 Quando as pessoas entram na transmissão ao vivo, elas podem conversar, pedir para subir ao palco, interagir votando em enquetes e muito mais.
 
-![Exemplo de uma sessão Free2z Live](/content-images/free2z-live-example-eecb2ae553.webp)
+![Exemplo de uma sessão Free2Z Live](/content-images/free2z-live-example-eecb2ae553.webp)
 
-_(Exemplo de sessão Free2z Live)_
+_(Exemplo de sessão Free2Z Live)_
 
-Free2z Live é versátil e poderoso. Na próxima seção, fornecerei uma visão geral de suas funcionalidades e ferramentas.
+Free2Z Live é versátil e poderoso. Na próxima seção, fornecerei uma visão geral de suas funcionalidades e ferramentas.
 
-### Explorando o Free2z Live
+### Explorando o Free2Z Live
 
-Este wiki-doc não pretende ser um guia aprofundado sobre o Free2z ou o Free2z Live. Mas aqui está uma visão geral de suas ferramentas.
+Este wiki-doc não pretende ser um guia aprofundado sobre o Free2Z ou o Free2Z Live. Mas aqui está uma visão geral de suas ferramentas.
 
 No canto inferior esquerdo da tela, vemos alguns botões.
 
@@ -177,19 +177,19 @@ Não é o objetivo deste wiki-doc explicar todos os plugins, mas eu realmente en
 
 ## Conclusão
 
-Em conclusão, Free2z é uma plataforma versátil para criadores mostrarem suas habilidades, compartilharem conhecimento e arrecadarem fundos para seus projetos, além de se envolverem com seus apoiadores por meio da poderosa ferramenta Free2z Live.
+Em conclusão, Free2Z é uma plataforma versátil para criadores mostrarem suas habilidades, compartilharem conhecimento e arrecadarem fundos para seus projetos, além de se envolverem com seus apoiadores por meio da poderosa ferramenta Free2Z Live.
 
 ----
 
 ### Recursos
 
-[Free2z](https://free2z.cash/)  
-[Documentação do Free2z](https://free2z.cash/docs/)  
+[Free2Z](https://free2z.cash/)  
+[Documentação do Free2Z](https://free2z.cash/docs/)  
 [Visão geral de 2Z](https://free2z.cash/docs/getting-started/tuzis)  
 [Criar um perfil](https://free2z.cash/docs/for-creators/creating-a-profile)  
-[O que é o Free2z Live?](https://free2z.cash/docs/for-creators/free2z-live)  
-[Free2z para apoiadores](https://free2z.cash/docs/category/for-supporters)
+[O que é o Free2Z Live?](https://free2z.cash/docs/for-creators/free2z-live)  
+[Free2Z para apoiadores](https://web.archive.org/web/20260118172223/https://free2z.cash/docs/category/for-supporters/)
 
 ---
 
-_Escrito por James Katz para Zechub._
+_Escrito por James Katz para ZecHub._

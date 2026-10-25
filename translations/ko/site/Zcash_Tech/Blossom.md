@@ -21,13 +21,13 @@ Blossom의 핵심 변화는 단순합니다. Zcash의 목표 블록 간격, 즉 
 1. 블록이 약 두 배 더 자주 도착하므로, 체인은 시간 단위당 대략 두 배의 거래를 처리할 수 있습니다.
 2. 다음 블록을 기다리는 시간이 줄어들기 때문에, 거래의 첫 번째 확인도 더 빨리 이루어집니다.
 
-![Blossom 이전에는 블록 목표 시간이 150초여서 확인이 더 느리고 처리량이 낮았습니다. Blossom 이후에는 목표 시간이 75초가 되어 확인이 더 빨라지고 처리량은 대략 두 배가 됩니다](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/blossom-block-spacing.png)
+![Blossom 이전에는 블록 목표 시간이 150초여서 확인이 더 느리고 처리량이 낮았습니다. Blossom 이후에는 목표 시간이 75초가 되어 확인이 더 빨라지고 처리량은 대략 두 배가 됩니다](/content-images/blossom-block-spacing-50b6bfbacc.webp)
 
 ## 발행량을 일정하게 유지하기
 
 블록이 더 빨라지면 이런 질문이 생깁니다. 만약 Zcash가 두 배 많은 블록을 만들고 각 블록이 여전히 같은 보상을 지급한다면, 네트워크는 ZEC를 두 배 빠르게 생성하게 됩니다. Blossom는 이를 피합니다. 블록당 지급되는 보상을 절반으로 줄였고, 블록 보상 반감 간격을 840,000블록에서 1,680,000블록으로 두 배 늘렸습니다([ZIP 208](https://zips.z.cash/zip-0208)). 블록 수는 두 배, 각 블록의 보상은 절반이므로 시간 단위당 생성되는 ZEC의 양은 동일하게 됩니다. 총 공급 일정과 실제 시간 기준 미래 반감기의 시점은 바뀌지 않았습니다.
 
-![Blossom가 발행량을 일정하게 유지하는 방식: 75초 블록이 두 배 더 자주 도착하고, 블록당 보상은 절반이 되며, 반감 간격은 두 배가 되어 시간이 지나도 총 발행량은 동일하게 유지됩니다](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/blossom-emission-balance.png)
+![Blossom가 발행량을 일정하게 유지하는 방식: 75초 블록이 두 배 더 자주 도착하고, 블록당 보상은 절반이 되며, 반감 간격은 두 배가 되어 시간이 지나도 총 발행량은 동일하게 유지됩니다](/content-images/blossom-emission-balance-f2443e29ab.webp)
 
 ## 필수 업그레이드
 

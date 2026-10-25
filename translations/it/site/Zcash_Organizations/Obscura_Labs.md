@@ -1,5 +1,5 @@
 # Obscura Labs
-<img width="369" height="434" alt="obscuralabs" src="https://github.com/user-attachments/assets/5fda3e74-750c-487e-92e9-3cacc15f9b4b" />
+<img width="369" height="434" alt="obscuralabs" src="/content-images/5fda3e74-750c-487e-92e9-3cacc15f9b4b-b41e98d3e5.webp" />
 
 [Visita il sito web](https://www.obscuralabs.org/)
 
@@ -42,7 +42,7 @@ Obscura Labs prevede inizialmente di concentrare il proprio lavoro su quattro ar
 
 ### Sviluppo dell'infrastruttura
 
-Un'infrastruttura affidabile è necessaria affinché wallet, applicazioni, sviluppatori, exchange, servizi di pagamento e utenti possano interagire con la rete Zcash.
+Un'infrastruttura affidabile è necessaria affinché portafogli, applicazioni, sviluppatori, exchange, servizi di pagamento e utenti possano interagire con la rete Zcash.
 
 Obscura Labs gestisce e sviluppa infrastrutture Zcash in Africa per migliorare l'accessibilità alla rete, la diversità geografica, l'affidabilità e la resilienza. Questo lavoro ha l'obiettivo di ridurre la dipendenza da un numero ristretto di operatori dell'infrastruttura e di fornire servizi affidabili per utenti e sviluppatori nei mercati africani.
 
@@ -50,15 +50,15 @@ Le iniziative infrastrutturali possono includere:
 
 * Endpoint RPC pubblici della mainnet di Zcash.
 * Endpoint RPC pubblici della testnet di Zcash.
-* Nodi completi Zebra.
-* Servizi Lightwalletd.
+* Zebra full node (nodo completo).
+* Servizi lightwalletd.
 * Seeder DNS.
 * Monitoraggio pubblico dell'infrastruttura.
 * API orientate agli sviluppatori.
 * Strumenti di integrazione e documentazione.
 * Servizi aggiuntivi che riducono le barriere allo sviluppo su Zcash.
 
-Rendendo l'infrastruttura più accessibile, Obscura Labs mira a supportare sviluppatori, wallet, applicazioni, imprese e servizi che si integrano con l'ecosistema Zcash.
+Rendendo l'infrastruttura più accessibile, Obscura Labs mira a supportare sviluppatori, portafogli, applicazioni, imprese e servizi che si integrano con l'ecosistema Zcash.
 
 ### Adozione e accesso finanziario
 
@@ -72,7 +72,7 @@ Obscura Labs sostiene iniziative volte a migliorare:
 * Le integrazioni di pagamento.
 * I pagamenti transfrontalieri.
 * L'onboarding degli utenti.
-* L'accessibilità dei wallet.
+* L'accessibilità dei portafogli.
 * L'uso pratico di ZEC da parte di individui e imprese.
 
 Particolare attenzione è rivolta ai servizi che affrontano sfide comunemente riscontrate nei mercati africani, tra cui l'instabilità valutaria, l'esclusione finanziaria, i costosi trasferimenti transfrontalieri, l'accesso limitato ai sistemi di pagamento globali e la crescente sorveglianza finanziaria.
@@ -116,7 +116,7 @@ Obscura Labs opera in modo indipendente mentre lavora verso obiettivi condivisi 
 
 Sebbene Obscura Labs sia in una fase iniziale di sviluppo, diverse iniziative sono già iniziate.
 
-### Infrastruttura DNS Seeder africana
+### Infrastruttura DNS seeder africana
 
 Obscura Labs gestisce infrastruttura DNS seeder dall'Africa.
 
@@ -128,11 +128,11 @@ L'organizzazione gestisce nodi Zebra in Africa.
 
 Zebra è un'implementazione indipendente del protocollo di consenso di Zcash. Gestire infrastruttura Zebra contribuisce all'accessibilità della rete, alla diversità delle implementazioni e alla distribuzione geografica dei nodi Zcash.
 
-### Servizi Lightwalletd
+### Servizi lightwalletd
 
-Obscura Labs gestisce infrastruttura Lightwalletd per supportare la connettività dei wallet Zcash.
+Obscura Labs gestisce infrastruttura lightwalletd per supportare la connettività dei portafogli Zcash.
 
-Lightwalletd fornisce dati della blockchain ai wallet light-client senza richiedere a ciascun utente del wallet di gestire un nodo Zcash completo. Servizi Lightwalletd affidabili sono quindi importanti per i wallet mobili e per altre applicazioni leggere di Zcash.
+lightwalletd fornisce dati della blockchain ai portafogli light client senza richiedere a ciascun utente del portafoglio di gestire un nodo Zcash completo. Servizi lightwalletd affidabili sono quindi importanti per i portafogli mobili e per altre applicazioni leggere di Zcash.
 
 ### Monitoraggio dell'infrastruttura
 
@@ -188,7 +188,7 @@ Al lancio, si prevede che Obscura Labs sarà finanziata principalmente attravers
 
 * Donazioni.
 * Partnership strategiche.
-* Sovvenzioni.
+* Finanziamenti.
 * Opportunità di finanziamento allineate all'ecosistema.
 * Supporto per iniziative specifiche legate a infrastruttura, prodotto o comunità.
 

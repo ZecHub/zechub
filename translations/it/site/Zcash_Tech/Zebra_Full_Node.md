@@ -2,12 +2,12 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Zebra Nodo completo
+# Zebra full node (nodo completo)
 
 ## In breve
 
-- Zebra (`zebrad`) è il nodo completo di Zcash scritto in Rust e gestito dalla Zcash Foundation.
-- Convalida blocchi e transazioni, conserva lo stato della catena e comunica con altri nodi attraverso la rete peer-to-peer.
+- Zebra (`zebrad`) è il full node di Zcash scritto in Rust e gestito dalla Zcash Foundation.
+- Convalida blocchi e transazioni, conserva lo stato della chain e comunica con altri nodi attraverso la rete peer-to-peer.
 - Zebra e zcashd implementavano lo stesso protocollo e potevano interoperare. Dal ritiro di zcashd, Zebra ricopre il ruolo di consenso.
 - Due modi per eseguirlo: l'immagine Docker di `zfnd/zebra` oppure una compilazione dai sorgenti.
 - L'hardware consigliato è composto da 4 core CPU, 16 GB di RAM e 300 GB di disco. Il minimo è di 2 core e 4 GB di RAM, con gli stessi 300 GB di disco.
@@ -20,7 +20,7 @@ Zebra è il primo nodo Zcash scritto interamente in Rust. Opera sulla rete peer-
 
 Il nodo Zcash originale, zcashd, è stato sviluppato dalla Electric Coin Company a partire dalla codebase di Bitcoin. Zebra è stato scritto da zero in Rust, un linguaggio sicuro per la memoria, con particolare attenzione alla sicurezza e all'efficienza.
 
-Entrambe le implementazioni seguono lo stesso protocollo, quindi potevano comunicare e interoperare. zcashd ha raggiunto l'arresto di fine supporto il 18 luglio 2026 e non si avvia più, lasciando Zebra e Zakura come implementazioni di nodo in uso. Per un quadro più ampio, consulta [Nodi completi](/zcash-tech/full-nodes).
+Entrambe le implementazioni seguono lo stesso protocollo, quindi potevano comunicare e interoperare. zcashd ha raggiunto l'arresto di fine supporto il 18 luglio 2026 e non si avvia più, lasciando Zebra e Zakura come implementazioni di nodi in uso. Per un quadro più ampio, consulta [Full node](/zcash-tech/full-nodes).
 
 ## Eseguire Zebra
 
@@ -28,7 +28,7 @@ Puoi eseguire Zebra utilizzando l'immagine Docker oppure compilarlo manualmente.
 
 ### Utilizzo di Docker
 
-Per eseguire l'ultima versione e sincronizzarla con la punta della catena, esegui il comando seguente:
+Per eseguire l'ultima versione e sincronizzarla con la punta della chain, esegui il comando seguente:
 
 ```
 
@@ -109,7 +109,7 @@ Guida all'installazione: [zebra.zfnd.org/user/install.html](https://zebra.zfnd.o
 
 - CPU: 4 core CPU
 - RAM: 16 GB
-- Spazio su disco: 300 GB di spazio disponibile per compilare i binari e memorizzare lo stato della catena in cache
+- Spazio su disco: 300 GB di spazio disponibile per compilare i binari e memorizzare lo stato della chain in cache
 - Rete: connessione di rete da 100 Mbps con almeno 300 GB di upload e download al mese
 
 ### Requisiti minimi
@@ -138,22 +138,22 @@ La suite di test di Zebra può richiedere oltre un'ora per essere completata, a 
 
 - Sincronizzazione iniziale: per la sincronizzazione iniziale è necessario un download di 300 GB e si prevede che questa cifra cresca.
 - Aggiornamenti continui: upload e download giornalieri compresi tra 10 MB e 10 GB, a seconda delle dimensioni delle transazioni degli utenti e delle richieste dei peer.
-- Zebra avvia una sincronizzazione iniziale a ogni modifica della versione interna del database, il che può significare un download completo della catena durante gli aggiornamenti di versione.
+- Zebra avvia una sincronizzazione iniziale a ogni modifica della versione interna del database, il che può significare un download completo della chain durante gli aggiornamenti di versione.
 - Sono preferiti peer con una latenza di andata e ritorno di 2 secondi o inferiore. Se la latenza supera questa soglia, apri un ticket nel repository Zebra.
 
 ## Errori comuni
 
 - Dimensionare il disco in base alle esigenze di oggi. Lo stato Mainnet in cache è già vicino a 300 GB e continua a crescere.
-- Aspettarsi RPC del wallet da `zebrad`. Chiavi e saldi risiedono in [Zallet](https://github.com/zcash/zallet), un programma separato.
-- Eseguire solo `zebrad` e aspettarsi che i wallet leggeri si connettano. Questo percorso richiede un indicizzatore, lightwalletd oppure [Zaino](/zcash-tech/zaino).
+- Aspettarti RPC del portafoglio da `zebrad`. Chiavi e saldi risiedono in [Zallet](https://github.com/zcash/zallet), un programma separato.
+- Eseguire solo `zebrad` e aspettarsi che i portafogli leggeri si connettano. Questo percorso richiede un indicizzatore, lightwalletd oppure [Zaino](/zcash-tech/zaino).
 - Considerare una risincronizzazione imprevista come un errore. Una modifica della versione del database ne attiva una per progettazione.
 
 ## Pagine correlate
 
-- [Nodi completi](/zcash-tech/full-nodes) - cosa fa un nodo completo e quali implementazioni esistono
+- [Full node](/zcash-tech/full-nodes) - cosa fa un full node e quali implementazioni esistono
 - [Zakura Nodo](/zcash-tech/zakura-node) - un nodo derivato da Zebra con sincronizzazione più rapida e pruning
-- [Zaino](/zcash-tech/zaino) - l'indicizzatore Rust che serve i wallet leggeri
-- [Nodi lightwallet](/zcash-tech/lightwallet-nodes) - i server interrogati dai wallet leggeri
+- [Zaino](/zcash-tech/zaino) - l'indicizzatore Rust che serve i portafogli leggeri
+- [Nodi lightwallet](/zcash-tech/lightwallet-nodes) - i server interrogati dai portafogli leggeri
 - [Zcash Guida al mining](/using-zcash/zcash-mining-guide) - mining tramite il tuo nodo
 
 ## Per approfondire

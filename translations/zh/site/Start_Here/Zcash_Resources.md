@@ -26,11 +26,11 @@ Zcash Community 是一个由社区运营的网站，重点介绍支持 Zcash 生
 
 Z.cash 是 Zcash 的主网站。它为广泛用户提供有关 Zcash 的内容和文档，并让新用户能够深入了解 Zcash 背后的技术说明。
 
-**[Zcash Github](https://github.com/zcash/zcash)**
+**[Zcash GitHub](https://github.com/zcash/zcash)**
 
-具备编程能力，并想深入了解 Zcash 的技术层面吗？Zcash Github Repo 是 zcashd 的代码仓库，zcashd 是第一个 Zcash 节点实现。zcashd 已于 2026 年 7 月 18 日达到自动停止支持的期限，不再维护；本条目此前链接的下载页面也不再提供服务。目前维护的技术栈为：用于节点的 [Zebra](https://github.com/ZcashFoundation/zebra)，以及用于钱包的 [Zallet](https://github.com/zcash/zallet)——请参阅 [从 zcashd 迁移至 Zebra 和 Zallet 的指南](https://zechub.wiki/guides/migration-guide-zcashd-to-zebrad-zallet)。
+具备编程能力，并想深入了解 Zcash 的技术层面吗？Zcash GitHub Repo 是 zcashd 的代码仓库，zcashd 是第一个 Zcash 节点实现。zcashd 已于 2026 年 7 月 18 日达到自动停止支持的期限，不再维护；本条目此前链接的下载页面也不再提供服务。目前维护的技术栈为：用于节点的 [Zebra](https://github.com/ZcashFoundation/zebra)，以及用于钱包的 [Zallet](https://github.com/zcash/zallet)——请参阅 [从 zcashd 迁移至 Zebra 和 Zallet 的指南](https://zechub.wiki/guides/migration-guide-zcashd-to-zebrad-zallet)。
 
-**[Zcash Foundation Github](https://github.com/ZcashFoundation)**
+**[Zcash Foundation GitHub](https://github.com/ZcashFoundation)**
 
 另一个托管 Zcash Foundation 项目的 GitHub 代码库，其中包括以 Rust 编写的 Zcash 节点实现 [zebra](https://github.com/ZcashFoundation/zebra)。
 

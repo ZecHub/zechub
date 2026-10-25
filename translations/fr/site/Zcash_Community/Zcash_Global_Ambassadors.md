@@ -16,7 +16,7 @@ Le programme des ambassadeurs mondiaux identifie les membres de la communauté q
 
 Les ambassadeurs disposent d’une liberté créative quant aux activités qu’ils planifient, ce qui leur permet d’adapter leur rayonnement à leur contexte local.
 
-## [Site web des ambassadeurs mondiaux](https://zcashambassadors.com)
+## [Site web des ambassadeurs mondiaux](https://web.archive.org/web/20240413194338/https://zcashambassadors.com/)
 
 ## Communautés d’ambassadeurs actives (2026)
 
@@ -31,7 +31,7 @@ Les ambassadeurs disposent d’une liberté créative quant aux activités qu’
 | Afrique de l’Est | [Zcash East Africa](https://x.com/ZcashEastAfrica) | Croissance de la communauté en Afrique de l’Est et en Ouganda |
 | Afrique du Sud | [Zcash South Africa](https://twitter.com/Zcash_SA) | Afrique du Sud |
 | Ghana | [Zcash Ghana](https://x.com/ZcashGH) | Ghana |
-| Mexique | [zcashqro](https://x.com/zcashqro) | Rayonnement universitaire et intégration des développeurs |
+| Mexique | [Zcash Mexico](https://x.com/ZcashMx) | Rayonnement universitaire et intégration des développeurs |
 | Russie | [ruZcash](https://x.com/ruZCASH) | Contenu et communauté en langue russe |
 | Inde | [Zcash India](https://x.com/ZcashIND) | Formation des développeurs et croissance de la communauté |
 | Corée | [Zcash Korea](https://x.com/zcashkorea) | Contenu éducatif en coréen |
@@ -39,5 +39,5 @@ Les ambassadeurs disposent d’une liberté créative quant aux activités qu’
 ## Postuler pour devenir ambassadeur
 
 Vous pouvez également vous impliquer en :
-- Contribuant aux [ZEC primes](https://bounties.zechub.wiki/)
+- Contribuant aux [ZEC Bounties](https://bounties.zechub.wiki/)
 - Rejoignant le [Zcash Discord mondial](https://discord.gg/zcash)

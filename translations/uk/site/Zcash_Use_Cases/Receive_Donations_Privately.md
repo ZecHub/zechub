@@ -50,8 +50,8 @@
 
 ## <img src="/content-images/icons8-toolbox-9bebbb1619.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> Що вам потрібно
 
-- Гаманець Zcash, який підтримує екрановані адреси:
-  - ZODL
+- Гаманець Zcash, який підтримує захищені адреси:
+  - Zodl
   - Zingo!
   - Інші підтримувані гаманці
 
@@ -106,7 +106,7 @@
 
 ## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="chain-links icon"/> Пов’язане
 
-- [Приватність — екрановані vs прозорі](/privacy/shielded-vs-transparent)
+- [Що може бачити Block Explorer](/zcash-tech/what-a-block-explorer-can-see)
 - [Гаманці](/wallets)
 
 <br/>

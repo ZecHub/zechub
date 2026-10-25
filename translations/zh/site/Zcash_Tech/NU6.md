@@ -21,7 +21,7 @@ NU6 延续了一个规则：在 2024 年 11 月减半之后，仍将区块补贴
 
 区块补贴的其余部分以及交易手续费则归保护网络安全的矿工所有。NU6 还更新了现有的 funding-stream 和 dev-fund 规则（ZIP 207 和 ZIP 214），以适配这一新结构。
 
-![NU6 development-fund split: 20 percent of the block subsidy goes to development, with 8 percent to Zcash Community Grants and 12 percent into the Deferred Dev Fund Lockbox](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/nu6-dev-fund-split.png)
+![NU6 development-fund split: 20 percent of the block subsidy goes to development, with 8 percent to Zcash Community Grants and 12 percent into the Deferred Dev Fund Lockbox](/content-images/nu6-dev-fund-split-08bc73e317.webp)
 
 ## 延迟锁箱
 
@@ -41,7 +41,7 @@ NU6 还修补了新发行 ZEC 的记账漏洞，该变更定义于 [ZIP 236](htt
 2. 在 NU6 之后，coinbase 交易必须严格平衡：总输出价值必须恰好等于矿工补贴加手续费，不能多也不能少。
 3. 由于矿工不能再少领并意外销毁 ZEC，因此未来 ZEC 的总量如今可以被精确预测。
 
-![Coinbase balancing before and after NU6: before, coinbase could under-claim and burn ZEC so supply was not exactly predictable. After, coinbase must balance exactly so issuance is exactly predictable](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/nu6-coinbase-balance.png)
+![Coinbase balancing before and after NU6: before, coinbase could under-claim and burn ZEC so supply was not exactly predictable. After, coinbase must balance exactly so issuance is exactly predictable](/content-images/nu6-coinbase-balance-0fa2394799.webp)
 
 ## 资金机制如何演变
 
@@ -51,7 +51,7 @@ NU6 是 Zcash 如何为自身运转买单这一更长故事中的一个篇章。
 2. NU6（2024 年 11 月）在第二次减半之后重组了这项资金机制，并设立了 Deferred Dev Fund Lockbox，为未来由社区决定的资助预留了一部分发行量。
 3. NU6.1（2025）回答了 NU6 留下的问题——谁控制这些预留资金——方法是继续将区块补贴中的 8% 分配给 Zcash Community Grants，并将 12% 导向一个由持币者控制、且由锁箱提供初始资金的基金。
 
-![How Zcash funding evolved: Canopy created the development fund, NU6 set up the lockbox, and NU6.1 set the rules for who controls it](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/nu6-funding-timeline.png)
+![How Zcash funding evolved: Canopy created the development fund, NU6 set up the lockbox, and NU6.1 set the rules for who controls it](/content-images/nu6-funding-timeline-2427db58c0.webp)
 
 ## 术语表
 

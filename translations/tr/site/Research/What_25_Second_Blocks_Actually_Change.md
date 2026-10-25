@@ -16,6 +16,8 @@ Bu sayfa, ZIP 218'i kendi metni üzerinden açıklıyor: nelerin değiştiğini,
 | Blok başına korumalı işlem sınırları | yok (yalnızca 2 MB boyut sınırı) | havuz başına sınırlarla birlikte toplam 330 |
 | Orchard işlem hacmi (2 işlemli işlemler) | saniyede yaklaşık 2,9 | saniyede yaklaşık 6,6 |
 
+![ZIP 218 cuts block target spacing from 75 seconds to 25, tripling daily blocks from 1,152 to 3,456, while dividing the per-block subsidy by the same factor of three from 1.5625 to 0.52083333 ZEC, so daily issuance stays at 1,800 ZEC and the halving interval stretches from 1,680,000 to 5,040,000 blocks to hold halving dates fixed](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/nu7-block-timing.png)
+
 Üç kat daha fazla blok, her biri üçte bir kadar ödeme yapıyor. Arz takvimi olduğu yerde kalıyor.
 
 ## Blok süresi neden değişiyor?

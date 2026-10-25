@@ -5,7 +5,7 @@
 - Turnike, her korumalı havuza ne kadar değerin girip çıktığını izleyen halka açık bir muhasebe kuralıdır
 - Havuz içindeki işlemler özel kalsa bile, herkesin bir havuzun içine konulandan daha fazlasını dışarı ödemediğini doğrulamasını sağlar
 - Bu, ZEC arzını gizli bir hataya karşı korur; çünkü sahte coin'ler sayımı bozmadan bir havuzdan çıkamaz
-- Bu, gizliliği zayıflatmadan çalışır; çünkü yalnızca havuz toplamları halka açıktır, tek tek işlemler asla değildir
+- Bir havuz içindeki ödemeler özel kalır. Havuzlar arasında ZEC taşıyan bir işlem, taşıdığı miktarı gösterir
 - Turnike, Orchard'tan Ironwood'a geçişin korumalı arzın sağlam olduğunu kanıtlayabilmesinin nedenidir
 
 <br/>
@@ -41,7 +41,7 @@ Zcash, tarihi boyunca Sprout, Sapling ve Orchard gibi birkaç korumalı havuza s
 1. ZEC bir korumalı havuza girdiğinde, miktar o havuzun halka açık bakiyesine eklenir
 2. ZEC bir havuzdan çıktığında, miktar çıkarılır
 3. Ağ, bir havuzun bakiyesini negatif yapacak, yani şimdiye kadar girenden daha fazlasının çıkmış olduğu her bloğu reddeder
-4. Tek tek korumalı işlemler tamamen özel kalır; halka açık olan yalnızca havuz toplamlarıdır
+4. Her işlem, yalnızca bir havuza giren ya da havuzdan çıkan net akışını, değer bakiyesini gösterir. Tek bir havuz içindeki bir ödeme için bu yalnızca ücrettir
 
 Ağ, Sprout, Sapling, Orchard, yeni Ironwood havuzu ile şeffaf ve lockbox bakiyeleri dahil olmak üzere her değer havuzu için bakiyeyi bu şekilde izler. Bu sayede, bir havuzun tam içeriği gizli olsa bile, dışarı çıkabilecek azami miktar içeri girenle sınırlıdır. Gizli enflasyon dolaşıma kaçamaz.
 
@@ -71,7 +71,7 @@ Birincisi, riski bölümlere ayırır. Bir havuzdaki kriptografik bir hata o hav
 
 İkincisi, topluluğun arzı sonradan doğrulamasına olanak tanır. Eğer daha sonra bir hata keşfedilirse, turnike kaydı bir havuzdan içeri girenden daha fazla değerin çıkıp çıkmadığını gösterir. Temiz bir kayıt, sahteciliğin kullanılmadığına dair güçlü bir kanıttır.
 
-Üçüncüsü, bunların hepsini yaparken gizliliği korur. Halka açık olan yalnızca havuz düzeyindeki toplamlardır. Bireysel işlemleriniz korumalı kalır. Denetlenebilirlik ve gizlilik bir arada bulunur; bu sıra dışıdır ve Zcash'in sessiz güçlü yanlarından biridir.
+Üçüncüsü, bunların hepsini yaparken bir havuz içindeki ödemeleri gizli tutar. Her işlem yalnızca bir havuza giren veya havuzdan çıkan net akışı yayımlar; tek bir havuz içindeki bir ödeme için bu yalnızca ücrettir. Orchard'dan Ironwood'e yapılan gibi havuzlar arası bir transfer, aktarılan miktarı gösterir. Denetlenebilirlik ve gizlilik bir arada bulunur; bu sıra dışıdır ve Zcash'in sessiz güçlü yanlarından biridir.
 
 <br/>
 
@@ -99,10 +99,10 @@ Bu, basit muhasebenin ötesinde, turnikenin neden önemli olduğunun daha derin 
 
 ## Yaygın yanlış anlamalar
 
-- Turnike işlemlerinizi açığa çıkarmaz. Sadece havuz toplamlarını sayar; kimin kime ne gönderdiğini değil
+- Turnike, kimin kime ne gönderdiğini açığa çıkarmaz. Havuzlar arasında ZEC taşıyan herhangi bir işlemin miktarını gösterir
 - Bir sahteciyi adıyla yakalamaz. Bir havuzdan ne kadar çıkabileceğine sınır koyar; arzı koruyan da budur
 - Ironwood için yeni icat edilmiş bir şey değildir. Zcash tarihindeki her büyük korumalı havuz geçişini korumuştur
-- Halka açık bir havuz toplamı gizliliği zayıflatmaz. Gizlilik, havuzun içindeki ve gizli kalan işlemlerdedir
+- Halka açık bir havuz toplamı, havuz içindeki ödemelerin gizliliğini zayıflatmaz. Havuzlar arasında ZEC taşımak, taşınan miktarı gösterir; bu nedenle ZIP 318, cüzdanların zaman içinde standart miktarlarda geçiş yapmasını ister
 
 <br/>
 

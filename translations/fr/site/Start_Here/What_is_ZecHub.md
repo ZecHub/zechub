@@ -21,9 +21,9 @@ Si vous débutez avec Zcash, utilisez [ce guide](/start-here/new-user-guide).***
 
 ---
 
-1. Rendez-vous sur [le dépôt Github de ZecHub](https://github.com/ZecHub/zechub)
+1. Rendez-vous sur [le dépôt GitHub de ZecHub](https://github.com/ZecHub/zechub)
    
-2. Créez un nouveau compte Github ou connectez-vous avec le vôtre
+2. Créez un nouveau compte GitHub ou connectez-vous avec le vôtre
    
 3. Suivez ce guide pour apprendre à faire une pull request :
 
@@ -51,15 +51,15 @@ Dans l'intérêt de conserver une apparence uniforme sur ZecHub, il existe un mo
 3. No inappropriate content.
 ```
 
-Dons : [ici](https://explorer.zec.rocks/ua/u17sawf3pdh7z6tsy83vhjd2z7sztpy9y87wyyqz4vqshn3yhch28q3ud3lr0etadl3flz4c9zdrtn9lwlf23vzmjnll97efxzg9h0rjzn9qvhvqr8p3394ysnfhg560xxxc66yxzh8r548myxn3l2qrc9pfrt8nrzhxvlpuuykv7czjsm)
+Dons : [ici](https://mainnet.zcashexplorer.app/ua/u17sawf3pdh7z6tsy83vhjd2z7sztpy9y87wyyqz4vqshn3yhch28q3ud3lr0etadl3flz4c9zdrtn9lwlf23vzmjnll97efxzg9h0rjzn9qvhvqr8p3394ysnfhg560xxxc66yxzh8r548myxn3l2qrc9pfrt8nrzhxvlpuuykv7czjsm)
 
-<a href="https://explorer.zec.rocks/ua/u17sawf3pdh7z6tsy83vhjd2z7sztpy9y87wyyqz4vqshn3yhch28q3ud3lr0etadl3flz4c9zdrtn9lwlf23vzmjnll97efxzg9h0rjzn9qvhvqr8p3394ysnfhg560xxxc66yxzh8r548myxn3l2qrc9pfrt8nrzhxvlpuuykv7czjsm">
+<a href="https://mainnet.zcashexplorer.app/ua/u17sawf3pdh7z6tsy83vhjd2z7sztpy9y87wyyqz4vqshn3yhch28q3ud3lr0etadl3flz4c9zdrtn9lwlf23vzmjnll97efxzg9h0rjzn9qvhvqr8p3394ysnfhg560xxxc66yxzh8r548myxn3l2qrc9pfrt8nrzhxvlpuuykv7czjsm">
     <img src="/content-images/image-2023-11-18-141228046-644b4c542d.webp" alt="" width="200" height="200"/>
 </a>
 
 
 
-**AVERTISSEMENT : ZecHub est une initiative entièrement indépendante et open source fondée par des membres de la communauté Zcash. Rien de ce qui figure dans ce dépôt Github ne doit être considéré comme un conseil financier ou d'investissement - ce contenu est fourni à titre informatif uniquement.**
+**AVERTISSEMENT : ZecHub est une initiative entièrement indépendante et open source fondée par des membres de la communauté Zcash. Rien de ce qui figure dans ce dépôt GitHub ne doit être considéré comme un conseil financier ou d'investissement - ce contenu est fourni à titre informatif uniquement.**
 
 ---
 

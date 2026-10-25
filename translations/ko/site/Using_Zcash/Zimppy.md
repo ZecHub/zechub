@@ -413,7 +413,7 @@ Zimppy 지갑은 사람이 관리하는 브라우저 확장이 아닌 AI 에이�
 
 ### 완전한 Shielded Zcash 거래 (Orchard)
 
-Shielded 결제는 최신의 가장 안전한 shielded 풀인 Zcash의 **Orchard protocol**을 사용합니다. 서버는 지출 키를 노출하지 않고 수신한 노트를 복호화할 수 있는 **Incoming Viewing Key (IVK)**를 사용하여 결제를 검증합니다. 재생 공격은 **memo binding**으로 방지됩니다. 각 챌린지는 암호학적으로 검증되는 고유한 `zimppy:{challenge_id}` 메모를 포함합니다.
+Shielded 결제는 NU5에서 도입한 shielded 풀인 Zcash의 **Orchard protocol**을 사용합니다. 서버는 지출 키를 노출하지 않고 수신한 노트를 복호화할 수 있는 **Incoming Viewing Key (IVK)**를 사용하여 결제를 검증합니다. 재생 공격은 **memo binding**으로 방지됩니다. 각 챌린지는 암호학적으로 검증되는 고유한 `zimppy:{challenge_id}` 메모를 포함합니다.
 
 ### 세션 , 요청별 지연 시간 0
 

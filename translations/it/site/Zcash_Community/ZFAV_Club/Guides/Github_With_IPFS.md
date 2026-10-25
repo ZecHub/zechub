@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Servire un repository Github con IPFS 
+# Servire un repository GitHub con IPFS 
 
 ## Introduzione
 

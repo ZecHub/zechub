@@ -167,7 +167,7 @@ La integración entre ShapeShift y Zcash representa un avance significativo para
 
 [Wallet ZODL](https://zodl.com)
 
-[Governanza de ShapeShift DAO (token FOX)](https://shapeshift.com/fox-token)
+[Governanza de ShapeShift DAO (token FOX)](https://web.archive.org/web/20210126180411/https://shapeshift.com/fox-token)
 
 [Zcash Community Grants](https://zcashcommunitygrants.org/)
 

@@ -1,21 +1,21 @@
 <a href="https://github.com/Zechub/zechub/edit/main/site/Zcash_Community/Cypherpunk_Zero_NFT.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="تعديل الصفحة"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-![رأس الصفحة](/content-images/205220798-c8e51db6-ddad-46ff-b760-401756-c9ba937b4e.webp)
+![header](/content-images/205220798-c8e51db6-ddad-46ff-b760-401756-c9ba937b4e.webp)
 
 
 # Cypherpunk Zero
 
-Cypherpunk Zero هي سلسلة قصصية تتمحور حول Zero، وهي هاكرة cypherpunk شابة ومقاتلة من أجل الحرية. تعيش Zero حاليًا في كابوس ديستوبي، وتستخدم البرمجة لمقاومة حرّاس البوابات المركزيين الذين يكبّلون المجتمع. استُلهمت القصة من Zcash وتشفير Halo. هذا العمل الإبداعي هو جهد تعاوني بين ECC وStranger World وMight Jaxx ومجموعة مختارة من شركاء المنظومة. وقد ركّز العمل الإبداعي بصورة بارزة على [سلسلة NFT](https://opensea.io/collection/cypherpunk-zero)، كما تم أيضًا إصدار [قصص مصوّرة تمهيدية](https://halo.electriccoin.co/#view-prologue) و[لعبة مقتناة](https://mightyjaxx.com/products/cypherpunk-zero). كما أن مجتمع NFT، النشط في معظمه على Twitter، أنشأ حتى [منظمة لامركزية (DAO)](https://twitter.com/CypherpunkDAO) لتنظيم وإنجاز مشاريع تدعم الحملة، ومجتمع Zcash الأوسع.
+Cypherpunk Zero هي سلسلة قصصية تتمحور حول Zero، وهي هاكرة شابة من cypherpunk ومناضلة من أجل الحرية. تعيش Zero حاليًا في كابوس ديستوبي وتستخدم البرمجة لمحاربة حراس البوابة المركزيين الذين يقيدون المجتمع. استُلهمت القصة من Zcash وتشفير Halo. العمل الإبداعي هو جهد تعاوني بين ECC وStranger World وMight Jaxx وشركاء مختارين من النظام البيئي. ركز العمل الإبداعي بشكل ملحوظ على سلسلة [NFT](https://opensea.io/collection/cypherpunk-zero)، كما أُطلقت أيضًا [لعبة قابلة للاقتناء](https://mightyjaxx.com/products/cypherpunk-zero). حتى إن مجتمع NFT، الناشط في الغالب على Twitter، أنشأ [منظمة لامركزية (DAO)](https://twitter.com/CypherpunkDAO) لتنظيم وإتمام المشاريع الداعمة للحملة ولمجتمع Zcash الأوسع.
 
-## خارطة طريق مضادة لخارطة الطريق
+## خارطة طريق مناهضة لخرائط الطريق
 
-لقد رأينا عددًا كبيرًا جدًا من المشاريع التي تعد بالكثير ولا تفي به في خرائط طريق NFT الخاصة بها. لذلك، لا توجد خارطة طريق رسمية. ثقوا بأن لدينا بعض المزايا المذهلة والحصرية قيد الإعداد لحاملي NFT؛ بعضها متوقّع وبعضها غير متوقّع. استعدوا وانضموا إلينا في هذه الرحلة.
+شهدنا مشاريع كثيرة تفرط في الوعود ولا تفي بما يكفي في خرائط طريق NFT الخاصة بها. لذلك، لا توجد خارطة طريق رسمية. ثقوا بأن لدينا بعض المزايا الرائعة والحصرية قيد الإعداد لحاملي NFT، بعضها متوقع وبعضها غير متوقع. استعدوا وانضموا إلينا في هذه الرحلة.
 
 ## الحوكمة
 
-[Snapshot](https://snapshot.box/#/s:cypherpunkzerodao.eth) — تم إيقاف البوابة المخصصة للـ DAO على vote.cypherpunkzero.com ولم يعد نطاقها يعمل؛ هذه هي مساحة Snapshot المتبقية.
+[Snapshot](https://snapshot.box/#/s:cypherpunkzerodao.eth) — أُوقفت البوابة المخصصة لـ DAO على vote.cypherpunkzero.com ولم يعد نطاقها يُحلّ؛ وهذه هي مساحة Snapshot المتبقية.
 
 [Guild](https://guild.xyz/cypherpunkzerodao)
 
@@ -35,34 +35,32 @@ Cypherpunk Zero هي سلسلة قصصية تتمحور حول Zero، وهي ه�
 </div>
 
 
-## على أي سلسلة توجد الـ NFT؟
+## على أي سلسلة توجد رموز NFT؟
 
 [Ethereum](https://etherscan.io/address/0x3e86d6cf041b719c575f57050697c115f0a53758)
 
-## ما هي مخصصات الرموز؟
+## ما هي تخصيصات الرموز؟
 
-*إجمالي المعروض*: 10,000 من NFT التوليدية الفريدة على Ethereum Mainnet  
-تم إسقاط 4% من المعروض (أول 400 NFT) جوًا إلى الداعمين الأوائل للمشروع الذين اشتروا لعبة Zcash X Mighty Jaxx: Cypherpunk Zero Genesis Edition Toy 59.
+*إجمالي المعروض*: 10,000 من رموز NFT التوليدية الفريدة على Ethereum Mainnet
+تم إسقاط 4% من المعروض (أول 400 من رموز NFT) جوًا إلى الداعمين الأوائل للمشاريع الذين اشتروا Zcash X Mighty Jaxx: Cypherpunk Zero Genesis Edition Toy 59.
 
-سيتم إصدار 72% من المعروض (7,200 NFT) إلى الجمهور باستخدام آلية جديدة للقائمة البيضاء تتطلب استخدام محفظة Zcash تدعم المذكرات المشفّرة (مزيد من التفاصيل أدناه).
+سيُطرح 72% من المعروض (7,200 من رموز NFT) للجمهور باستخدام آلية جديدة للقائمة البيضاء تتطلب استخدام محفظة Zcash تدعم المذكرات المشفرة (مزيد من التفاصيل أدناه).
 
-سيتم الاحتفاظ بنسبة 24% من المعروض (2,400 NFT) لدى ECC ضمن Cypherpunk Reserve، لاستخدامها في المبادرات المستقبلية التي تعزّز Zcash والخصوصية ضمن فضاء Web3.
+سيحتفظ ECC بنسبة 24% من المعروض (2,400 من رموز NFT) في Cypherpunk Reserve، لاستخدامها في مبادرات مستقبلية تعزز Zcash والخصوصية ضمن مجال Web3.
 
 
-# Cypherpunk Zero v2 القائمة البيضاء
+# القائمة البيضاء لـ Cypherpunk Zero v2 
 
-نعم، تم اختراق المجموعة الأصلية، والمستقبل لم يُكتب بعد.
+نعم، تم اختراق المجموعة الأصلية، والمستقبل غير مكتوب.
 
 ## الموارد
 
-[موقع Cypherpunk Zero](https://halo.electriccoin.co/)
+[Cypherpunk Zero Twitter](https://twitter.com/cypherpunkZero)
 
-[حساب Cypherpunk Zero على Twitter](https://twitter.com/cypherpunkZero)
+[مجموعة Cypherpunk Zero OpenSea](https://opensea.io/collection/cypherpunk-zero)
 
-[مجموعة Cypherpunk Zero على Opensea](https://opensea.io/collection/cypherpunk-zero)
+[Cypherpunk Zero DAO Twitter](https://twitter.com/CypherpunkDAO)
 
-[حساب Cypherpunk Zero DAO على Twitter](https://twitter.com/CypherpunkDAO)
+[Cypherpunk Zero DAO Discord](https://discord.com/invite/sjfgXys4Jf)
 
-[Discord الخاص بـ Cypherpunk Zero DAO](https://discord.com/invite/sjfgXys4Jf)
-
-[الخيط الضخم لـ Cypherpunk Zero NFT](https://forum.zcashcommunity.com/t/cypherpunk-zero-nft-megathread/41502?u=dismad)
+[موضوع Cypherpunk Zero NFT الضخم](https://forum.zcashcommunity.com/t/cypherpunk-zero-nft-megathread/41502?u=dismad)

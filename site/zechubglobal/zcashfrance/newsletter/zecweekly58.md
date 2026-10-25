@@ -70,7 +70,7 @@ En savoir plus : [Visualiser les adresses Zcash](https://zechub.wiki/guides/visu
 
 [Vitalik vend tous ses tokens Maker DAO - Trustnodes](https://www.trustnodes.com/2023/09/03/vitalik-buterin-ditches-mkr)
 
-[Le protocole Balancer exploité pour 900 000 dollars alors que les piratages DeFi augmentent - Cointelegraph](https://cointelegraph.com/news/balancer-protocol-exploited-for-900-000-as-defi-hacks-escalate)
+Le protocole Balancer exploité pour 900 000 dollars alors que les piratages DeFi augmentent - Cointelegraph
 
 ### Quelques tweets sur Zcash
 

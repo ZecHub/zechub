@@ -173,13 +173,13 @@ Concluderend, Free2z is een veelzijdig platform voor makers om hun capaciteiten 
 
 [Free2z-documentatie](https://free2z.cash/docs/)
 
-[2Z-overzicht](https://free2z.cash/docs/2Zs/)
+[2Z-overzicht](https://web.archive.org/web/20250328063025/https://free2z.cash/docs/2Zs/)
 
-[Een profiel aanmaken](https://free2z.cash/docs/creators/creating-a-profile)
+[Een profiel aanmaken](https://web.archive.org/web/20250328054344/https://free2z.cash/docs/creators/creating-a-profile)
 
-[Wat is Free2z Live?](https://free2z.cash/docs/creators/free2z-live)
+[Wat is Free2z Live?](https://web.archive.org/web/20250328050025/https://free2z.cash/docs/creators/free2z-live)
 
-[Free2z voor supporters](https://free2z.cash/docs/category/for-supporters)
+[Free2z voor supporters](https://web.archive.org/web/20260118172223/https://free2z.cash/docs/category/for-supporters/)
 
 ---
 _Geschreven door James Katz voor Zechub._

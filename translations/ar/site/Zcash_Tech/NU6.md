@@ -21,7 +21,7 @@ NU6 هو [ترقية للشبكة](../start-here/network-upgrades) في Zcash، 
 
 أما بقية دعم الكتلة، إضافة إلى رسوم المعاملات، فتذهب إلى المعدّنين الذين يؤمّنون الشبكة. كما حدّثت NU6 القواعد الحالية الخاصة بتدفّقات التمويل وصندوق التطوير (ZIP 207 و ZIP 214) لتتلاءم مع هذا الهيكل الجديد.
 
-![تقسيم صندوق التطوير في NU6: 20 بالمئة من دعم الكتلة تذهب إلى التطوير، مع 8 بالمئة إلى Zcash Community Grants و12 بالمئة إلى Deferred Dev Fund Lockbox](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/nu6-dev-fund-split.png)
+![تقسيم صندوق التطوير في NU6: 20 بالمئة من دعم الكتلة تذهب إلى التطوير، مع 8 بالمئة إلى Zcash Community Grants و12 بالمئة إلى Deferred Dev Fund Lockbox](/content-images/nu6-dev-fund-split-08bc73e317.webp)
 
 ## صندوق القفل المؤجل
 
@@ -41,7 +41,7 @@ NU6 هو [ترقية للشبكة](../start-here/network-upgrades) في Zcash، 
 2. بعد NU6، يجب أن تتوازن معاملة Coinbase تمامًا: يجب أن تساوي القيمة الإجمالية للمخرجات دعم المعدّن زائد الرسوم، لا أكثر ولا أقل.
 3. وبما أن المعدّنين لم يعد بإمكانهم المطالبة بأقل من المستحق وحرق ZEC بالخطأ، فقد أصبح بالإمكان الآن التنبؤ بدقة تامة بإجمالي كمية ZEC التي ستوجد على الإطلاق.
 
-![موازنة Coinbase قبل NU6 وبعدها: قبلها، كان بإمكان Coinbase المطالبة بأقل من المستحق وحرق ZEC، لذا لم يكن المعروض قابلًا للتنبؤ بدقة. بعدها، يجب أن تتوازن Coinbase تمامًا، لذا أصبح الإصدار قابلًا للتنبؤ بدقة](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/nu6-coinbase-balance.png)
+![موازنة Coinbase قبل NU6 وبعدها: قبلها، كان بإمكان Coinbase المطالبة بأقل من المستحق وحرق ZEC، لذا لم يكن المعروض قابلًا للتنبؤ بدقة. بعدها، يجب أن تتوازن Coinbase تمامًا، لذا أصبح الإصدار قابلًا للتنبؤ بدقة](/content-images/nu6-coinbase-balance-0fa2394799.webp)
 
 ## كيف تطور التمويل
 
@@ -51,7 +51,7 @@ NU6 هو [ترقية للشبكة](../start-here/network-upgrades) في Zcash، 
 2. أعادت NU6 (نوفمبر 2024) هيكلة هذا التمويل بعد halving الثاني وأنشأت Deferred Dev Fund Lockbox، مخصّصةً جزءًا من الإصدار لمنح مستقبلية يقررها المجتمع.
 3. أجابت NU6.1 (2025) عن السؤال الذي تركته NU6 مفتوحًا، وهو من يتحكم بالأموال المحجوزة، وذلك عبر الاستمرار في تخصيص 8% من دعم الكتلة إلى Zcash Community Grants وتوجيه 12% إلى صندوق يتحكم فيه حاملو العملات ومموّل من صندوق القفل.
 
-![كيف تطور تمويل Zcash: أنشأت Canopy صندوق التطوير، وأنشأت NU6 صندوق القفل، وحددت NU6.1 القواعد الخاصة بمن يتحكم به](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/nu6-funding-timeline.png)
+![كيف تطور تمويل Zcash: أنشأت Canopy صندوق التطوير، وأنشأت NU6 صندوق القفل، وحددت NU6.1 القواعد الخاصة بمن يتحكم به](/content-images/nu6-funding-timeline-2427db58c0.webp)
 
 ## مسرد المصطلحات
 

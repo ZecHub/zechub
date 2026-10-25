@@ -4,7 +4,7 @@
 
 # Zakura عقدة
 
-> 🇧🇷 [النسخة باللغة البرتغالية](/zechubglobal/zcashbrasil/zcashtech/zakura)
+> 🇧🇷 [النسخة باللغة البرتغالية](/pt/zcash-tech/zakura-node)
 
 Zakura هي تنفيذ مجاني ومفتوح المصدر لعقدة كاملة لـ Zcash، ومصممة للتوسع. تفرعت من [Zebra](Zebra_Full_Node.md) وطُوّرت عبر تعاون بين **Valar Group** و**Project Tachyon**، وتوفر Zakura مزامنة أسرع بشكل كبير، وتشذيبًا أصليًا للكتل، وطبقة توافق لأدوات `zcashd` القديمة. صدر الإصدار 1.0.0 في 15 يوليو 2026.
 

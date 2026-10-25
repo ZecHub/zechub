@@ -1,0 +1,57 @@
+# Names scripts/brand-candidates.mjs must not propose for protected-terms.json.
+#
+# One name per line, matched case-insensitively. "#" starts a comment at the
+# start of a line or after a space. Add a name here only after deciding it is
+# NOT a brand that engines must keep verbatim, and say why.
+
+# The community, not an organisation: the wiki writes it in prose ("ask the
+# Zcash Community") and translations rightly localise "Community". Only the
+# grants body, "Zcash Community Grants", is protected. Left unprotected by
+# decision on 2026-09-24.
+Zcash Community
+
+# Ordinary words the detector flags on Research/FROST_and_Viewing_Keys_Zcash_Dash_Interop.md:
+# "Unsigned" is part of a paper title in link text ("256-bit Unsigned
+# Integers"); "Evolution" alone is Dash's chain only after "Dash", and the
+# full name "Dash Evolution" is protected. Decided 2026-10-11.
+Unsigned
+Evolution
+
+# Part of the ZIP 233 title "Network Sustainability Mechanism"; an ordinary
+# word that translations render with the mechanism's description. 2026-10-13.
+Sustainability
+
+# The generic term, lowercase "address" (Glossary heading). Translations use the
+# local term (it: indirizzo unificato); only the capitalised name "Unified Address"
+# is protected. 2026-10-13.
+Unified address
+
+# --- 2026-10-14, clearing the brand holds and the brand-drift findings ---------
+# crates.io link text in Community_Projects (Ztreamer indexer); an ordinary
+# Rust "crate", not a product name.
+Crate
+# The maths word, and part of the product name "Hydrex Integral" (Hydrex is
+# protected). 2026-10-14.
+Integral
+# The generic crypto-press word; the site name "Altcoin Buzz" is protected.
+Altcoin
+# From the quoted "Feature Net" on Crosslink_Protocol; the full name is
+# protected, and a bare capitalised "Net" is not a name.
+Net
+# The historical-adjective half of "Byzantine Fault Tolerance" on
+# Crosslink_Protocol; the concept renders descriptively in translations.
+Byzantine
+
+# Names the detector flags on Privacy_Tools/GrapheneOS.md, Privacy_Tools/Tor_and_I2P.md
+# and Zcash_Tech/Halo.md (standardized 2026-10-21), decided 2026-10-22:
+# "OPSEC" (operational security) and "DVPN" (decentralized VPN) are generic
+# terms, not brands; translations may localise them.
+OPSEC
+DVPN
+# Left unprotected by decision: Japanese, Korean and Chinese pages write it in
+# the usual local script (ビットコイン, 비트코인, 比特币), and each language follows
+# its glossary. Listed 2026-10-23 so the brand hold stops waiting for it.
+Bitcoin
+# Like Bitcoin, left unprotected: Japanese and Korean pages write it in the
+# usual local script (イーサリアム, 이더리움).
+Ethereum

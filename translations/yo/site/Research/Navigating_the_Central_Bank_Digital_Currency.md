@@ -101,7 +101,7 @@ Bi a ṣe n ṣawari awọn ohun elo ti o ni imọran nipa oni-nọmba, itan kan
 
 Fún àwọn tí ó ń lọ sí àgbègbè CBDCs, ohun àmúṣọrọ̀ ni kókó ìlà-oòrùn wọn.
 1. Ilé Ìfowópamọ́ fún Àwọn Àkájọ Owo ([BIS (ìyẹn ilé ìfowópamọ́)](https://www.bis.org/search?keywords=cbdc))
-2. àjọ àgbáyé tó ń rí sí owó (i.e., international monetary fund)[IMF (ìyẹn Àjọ Náà)](https://www.imf.org/en/About))
+2. àjọ àgbáyé tó ń rí sí owó (i.e., international monetary fund)[IMF (ìyẹn Àjọ Náà)](https://web.archive.org/web/20260708111341/https://www.imf.org/en/about))
 3. Àwọn ìwé ìwádìí ([ìwé àfọwọ́kọ](https://papers.ssrn.com/searchresults.cfm?term=CBDC))
 4. Àwọn Ìwé Ìròyìn Ẹ̀kọ́ Òye ([ìwé ìròyìn](https://www.bis.org/publ/work976.pdf))
 5. C.E.I Àpilẹ̀kọ ([Àpilẹ̀kọ náà:](https://cei.org/blog/central-banks-are-watching-lets-watch-them-back/))

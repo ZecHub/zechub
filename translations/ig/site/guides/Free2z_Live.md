@@ -1,6 +1,6 @@
 [![Edit Page](https://img.shields.io/badge/Edit-blue)](https://github.com/zechub/zechub/edit/main/site/guides/Free2z_Live.md)
 
-# Free2z: Ntọala akaụntụ + nkuzi Livestream
+# Free2Z: Ntọala akaụntụ + nkuzi Livestream
 
 ## Okwu Mmalite
 
@@ -97,7 +97,7 @@ Ma ọ bụ, site n'ime post, chọọ bọtịnụ floating plus. Site ebe a, �
 
 ## Ngụgharị dị ndụ
 
-Ikpo okwu Free2z na-enye atụmatụ dị egwu akpọrọ Free2z Live. Site na ngwa a, ndị okike nwere ike ịmalite mgbasa ozi ndụ maka ndị otu debanyere aha. Ụfọdụ atụmatụ dị mkpa nke Free2z Live gụnyere: 
+Ikpo okwu Free2Z na-enye atụmatụ dị egwu akpọrọ Free2Z Live. Site na ngwa a, ndị okike nwere ike ịmalite mgbasa ozi ndụ maka ndị otu debanyere aha. Ụfọdụ atụmatụ dị mkpa nke Free2Z Live gụnyere: 
 - Ọdịyo na vidiyo 
 - Nkesa ihuenyo 
 - Mmezi koodu mmekorita 
@@ -105,9 +105,9 @@ Ikpo okwu Free2z na-enye atụmatụ dị egwu akpọrọ Free2z Live. Site na n
 - Ịcha ọcha 
 - Na ọtụtụ ihe ndị ọzọ!
 
-### Kedu ihe ị ga - eme na Free2z Live
+### Kedu ihe ị ga - eme na Free2Z Live
 
-Free2z Live bụ ngwaọrụ dị ike, na-enye ndị okike ohere ịfesa ụdị ọdịnaya ọ bụla. Lee ihe atụ ole na ole nke ụdị ọdịnaya ị nwere ike ịfesa na Free2z Live: 
+Free2Z Live bụ ngwaọrụ dị ike, na-enye ndị okike ohere ịfesa ụdị ọdịnaya ọ bụla. Lee ihe atụ ole na ole nke ụdị ọdịnaya ị nwere ike ịfesa na Free2Z Live: 
 - Nkuzi na ngosipụta 
 - Ihe ngosi na ihe omume 
 - Ọrụ mmekorita 
@@ -116,7 +116,7 @@ Free2z Live bụ ngwaọrụ dị ike, na-enye ndị okike ohere ịfesa ụdị
 
 ### Otu esi ebi ndụ
 
-Ọ dị mfe ịmalite mgbasa ozi ndụ site na Free2z Live. Mana enwere ihe ole na ole achọrọ tupu ịmalite mgbasa ozi gị. 
+Ọ dị mfe ịmalite mgbasa ozi ndụ site na Free2Z Live. Mana enwere ihe ole na ole achọrọ tupu ịmalite mgbasa ozi gị. 
 1. Onye kere **ga-enwerịrị opekata mpe **ọnụ ahịa onye otu** nke 10 2Z. 
 2. Onye kere **aghaghị inwe nguzozi nke opekata mpe 150 2Z na akaụntụ ya. 
 
@@ -124,7 +124,7 @@ Free2z Live bụ ngwaọrụ dị ike, na-enye ndị okike ohere ịfesa ụdị
 
 ![Go Live button](/content-images/go-live-4c8ac67505.webp)
 
-Iji malite mgbasa ozi dị ndụ, pịa bọtịnụ **Gaa Ndụ**, ngwa Free2z ga-arịọ maka ikike iji igwe okwu na kamera weebụ gị (ọ bụrụ na ị nwere otu). Mgbe ị nyechara ikike dị mkpa, Free2z ga-arịọ gị ka ị tinye aha otutu ịchọrọ iji n'oge mgbasa ozi dị ndụ. Ozugbo ị họrọla aha otutu, pịa **Sonye** iji malite mgbasa ozi dị ndụ gị.
+Iji malite mgbasa ozi dị ndụ, pịa bọtịnụ **Gaa Ndụ**, ngwa Free2Z ga-arịọ maka ikike iji igwe okwu na kamera weebụ gị (ọ bụrụ na ị nwere otu). Mgbe ị nyechara ikike dị mkpa, Free2Z ga-arịọ gị ka ị tinye aha otutu ịchọrọ iji n'oge mgbasa ozi dị ndụ. Ozugbo ị họrọla aha otutu, pịa **Sonye** iji malite mgbasa ozi dị ndụ gị.
 
 ![Select nickname for live stream](/content-images/select-nickname-414444b992.webp)
 
@@ -134,15 +134,15 @@ Emechaala! Mgbe ị malitere mgbasa ozi dị ndụ, profaịlụ gị ga-egosi a
 
 Mgbe ndị mmadụ sonyere na mgbasa ozi ahụ, ha nwere ike ịkparịta ụka, rịọ ka ha sonye na ikpo okwu, soro ndị mmadụ kparịta ụka site na ịtụ vootu na ntuli aka, na ihe ndị ọzọ.
 
-![Example of a Free2z Live session](/content-images/free2z-live-example-eecb2ae553.webp)
+![Example of a Free2Z Live session](/content-images/free2z-live-example-eecb2ae553.webp)
 
-_(Ihe atụ nke nnọkọ Free2z Live)_
+_(Ihe atụ nke nnọkọ Free2Z Live)_
 
-Free2z Live nwere ọtụtụ ọrụ dị iche iche ma dịkwa ike. N'akụkụ na-esote, m ga-enye nkọwa zuru ezu gbasara ọrụ na ngwaọrụ ya.
+Free2Z Live nwere ọtụtụ ọrụ dị iche iche ma dịkwa ike. N'akụkụ na-esote, m ga-enye nkọwa zuru ezu gbasara ọrụ na ngwaọrụ ya.
 
-### Na-enyocha Free2z Live
+### Na-enyocha Free2Z Live
 
-E bughị n'obi ka wiki-doc a bụrụ ntuziaka miri emi maka Free2z ma ọ bụ Free2z Live. Mana lee nkọwa zuru oke nke ngwaọrụ ya.
+E bughị n'obi ka wiki-doc a bụrụ ntuziaka miri emi maka Free2Z ma ọ bụ Free2Z Live. Mana lee nkọwa zuru oke nke ngwaọrụ ya.
 
 N'aka ekpe ala nke ihuenyo ahụ, anyị na-ahụ bọtịnụ ole na ole.
 
@@ -177,19 +177,19 @@ Bọtịnụ aka nri dị n'ala nwere ọrụ ndị metụtara mmekọrịta mgb
 
 ## Mmechi
 
-Na mmechi, Free2z bụ ikpo okwu dị iche iche maka ndị okike iji gosipụta ikike ha, kesaa ihe ọmụma ma chịkọta ego maka ọrụ ha, ma soro ndị na-akwado ha kparịta ụka site na ngwa dị ike nke Free2z Live.
+Na mmechi, Free2Z bụ ikpo okwu dị iche iche maka ndị okike iji gosipụta ikike ha, kesaa ihe ọmụma ma chịkọta ego maka ọrụ ha, ma soro ndị na-akwado ha kparịta ụka site na ngwa dị ike nke Free2Z Live.
 
 ----
 
 ### akụrụngwa
 
-[Free2z](https://free2z.cash/)  
-[Akwụkwọ Free2z](https://free2z.cash/docs/)  
+[Free2Z](https://free2z.cash/)  
+[Akwụkwọ Free2Z](https://free2z.cash/docs/)  
 [Nchịkọta 2Z](https://free2z.cash/docs/getting-started/tuzis)  
 [Ịmepụta profaịlụ](https://free2z.cash/docs/for-creators/creating-a-profile)  
-[Kedu ihe bụ Free2z Live?](https://free2z.cash/docs/for-creators/free2z-live)  
-[Free2z maka ndị na-akwado ya](https://free2z.cash/docs/category/for-supporters)
+[Kedu ihe bụ Free2Z Live?](https://free2z.cash/docs/for-creators/free2z-live)  
+[Free2Z maka ndị na-akwado ya](https://web.archive.org/web/20260118172223/https://free2z.cash/docs/category/for-supporters/)
 
 ---
 
-_E dere ya site n'aka James Katz maka Zechub._
+_E dere ya site n'aka James Katz maka ZecHub._

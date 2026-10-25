@@ -16,6 +16,8 @@
 | Ліміти на захищені дії на блок | немає (лише ліміт розміру 2 МБ) | 330 загалом, з обмеженнями для кожного пулу |
 | Пропускна здатність Orchard (транзакції з 2 діями) | близько 2,9 на секунду | близько 6,6 на секунду |
 
+![ZIP 218 cuts block target spacing from 75 seconds to 25, tripling daily blocks from 1,152 to 3,456, while dividing the per-block subsidy by the same factor of three from 1.5625 to 0.52083333 ZEC, so daily issuance stays at 1,800 ZEC and the halving interval stretches from 1,680,000 to 5,040,000 blocks to hold halving dates fixed](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/nu7-block-timing.png)
+
 Утричі більше блоків, кожен із винагородою втричі меншою. Графік емісії залишається незмінним.
 
 ## Навіщо змінювати час блоку

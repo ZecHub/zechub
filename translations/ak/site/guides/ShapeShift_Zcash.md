@@ -167,7 +167,7 @@ ShapeShift ne Zcash nkabom no gyina hɔ ma anammɔn a nteaseɛ wom a ɛkɔ anim 
 
 [Zodl Sikakorabea](https://zodl.com)
 
-[ShapeShift DAO Aban (FOX Token) .](https://shapeshift.com/fox-token)
+[ShapeShift DAO Aban (FOX Token) .](https://web.archive.org/web/20210126180411/https://shapeshift.com/fox-token)
 
 [Zcash Mpɔtam Hɔ Mmoa a Wɔde Ma](https://zcashcommunitygrants.org/)
 

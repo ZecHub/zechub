@@ -155,7 +155,7 @@ Se sei interessato a contribuire allo sviluppo di **Arti**, puoi esplorare il co
    https://gitlab.torproject.org/_name_/arti/-/merge_requests
    ```
 
-### **Linee guida per le Merge Request**:
+### **Linee guida per le merge request**:
 - **Non fare rebase e squash dei commit durante la review**.
 - Se necessario, usa *fixup!* o *squash!* per l'auto-squash dei commit.
 - Punta ad **aggiungere nuovi commit** invece di fare squash durante il ciclo di review.

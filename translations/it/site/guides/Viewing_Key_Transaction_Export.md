@@ -2,11 +2,11 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Modifica pagina"/>
 </a>
 
-# Esportare la cronologia delle transazioni da un Viewing Key
+# Esportare la cronologia delle transazioni da una Viewing Key
 
-La maggior parte delle esportazioni dei wallet è limitata. L'esportazione fiscale di ZODL, ad esempio, fornisce date, importi e commissioni dell'anno solare precedente, ma nessun ID transazione, memo o indirizzo. Non è sufficiente per la contabilità, per verificare una migrazione del wallet o per capire cosa sia successo a un pagamento.
+La maggior parte delle esportazioni dei portafogli è limitata. L'esportazione fiscale di ZODL, ad esempio, fornisce date, importi e commissioni dell'anno solare precedente, ma nessun ID transazione, memo o indirizzo. Non è sufficiente per la contabilità, per verificare una migrazione del portafoglio o per capire cosa sia successo a un pagamento.
 
-Non hai bisogno della seed phrase per avere il quadro completo. Una unified full viewing key (UFVK, che inizia con `uview1`) può vedere ogni transazione in entrata e in uscita in un account, e due strumenti possono trasformarle in un file da conservare: il server GraphQL di Zkool e zingo-cli. Questa guida raccoglie gli approcci da [questa discussione del forum](https://forum.zcashcommunity.com/t/exporting-transaction-history-to-json-csv-from-ufvk-seed/54662) e li aggiorna alle versioni correnti.
+Non hai bisogno della frase mnemonica per avere il quadro completo. Una chiave di visualizzazione completa unificata (UFVK, che inizia con `uview1`) può vedere ogni transazione in entrata e in uscita in un account, e due strumenti possono trasformare tutto in un file da conservare: il server GraphQL di Zkool e zingo-cli. Questa guida raccoglie gli approcci da [questa discussione del forum](https://forum.zcashcommunity.com/t/exporting-transaction-history-to-json-csv-from-ufvk-seed/54662) e li aggiorna alle versioni correnti.
 
 Testato a settembre 2026 con Zkool 6.30.0 e zingo-cli da zingolib 6.0.0.
 
@@ -14,23 +14,23 @@ Testato a settembre 2026 con Zkool 6.30.0 e zingo-cli da zingolib 6.0.0.
 
 Ti servono due cose:
 
-1. **La UFVK** dell'account. [Viewing Keys](/zcash-tech/viewing-keys) spiega cosa rivela e come esportarne una.
+1. **La UFVK** dell'account. [Chiavi di visualizzazione](/zcash-tech/viewing-keys) spiega cosa rivela e come esportarne una.
 2. **Un'altezza di nascita**, il blocco dal quale iniziare la scansione. Usa un'altezza precedente alla tua prima transazione. Se la imposti troppo alta, la cronologia più vecchia viene omessa senza avviso. Se la imposti troppo bassa, la scansione richiede soltanto più tempo. L'attivazione di Sapling (419200) è sempre sicura, ma la scansione può richiedere ore.
 
 ## Mantienila privata
 
-Una viewing key non può spendere, ma mostra tutta la tua cronologia a chiunque la possieda.
+Una chiave di visualizzazione non può spendere, ma mostra tutta la tua cronologia a chiunque la possieda.
 
 - Non incollarla in un sito web o in un block explorer. Importala in software eseguito da te.
 - Il server dal quale sincronizzi vede il tuo indirizzo IP e quali transazioni scarichi integralmente. Entrambi gli strumenti qui sotto recuperano ciascuna delle tue transazioni tramite ID per leggere memo e commissioni, e [ZIP 307](https://zips.z.cash/zip-0307) osserva che questo comunica al server quali transazioni sono tue. La sincronizzazione dal tuo nodo Zebra con Zaino o lightwalletd lo evita. Il tutorial [Zingolib e Zaino Tutorial](/guides/zingolib-and-zaino-tutorial) illustra una configurazione.
 - zingo-cli 6 invia i pagamenti tramite la mixnet Nym, ma la sua sincronizzazione si connette comunque direttamente al server, quindi anche per esso vale quanto sopra.
-- Fornisci a questi strumenti una viewing key, mai una seed. Il server GraphQL di Zkool non ha login per impostazione predefinita, e la sua API restituisce la seed di qualsiasi account creato da una seed e può inviare fondi.
+- Fornisci a questi strumenti una chiave di visualizzazione, mai una seed. Il server GraphQL di Zkool non ha login per impostazione predefinita, e la sua API restituisce la seed di qualsiasi account creato da una seed e può inviare fondi.
 - Mantieni il server sul tuo computer. Il comando Docker qui sotto è in ascolto soltanto su `127.0.0.1`.
 - Entrambi gli strumenti archiviano la chiave e la tua cronologia senza cifratura. Elimina i dati di lavoro quando hai finito e conserva l'esportazione in un luogo cifrato.
 
 ## Opzione 1: GraphQL di Zkool
 
-`zkool_graphql` è il motore wallet di Zkool come server indipendente. È un programma separato dall'app Zkool. Il modo più semplice per eseguirlo è l'immagine Docker ufficiale (amd64 e arm64). C'è anche un binario Linux x86-64 nella pagina delle [Zkool release](https://github.com/hhanh00/zkool2/releases); richiede glibc 2.38 o una versione più recente, quindi Ubuntu 24.04 funziona, mentre Debian 12 no.
+`zkool_graphql` è il motore di portafoglio di Zkool come server indipendente. È un programma separato dall'app Zkool. Il modo più semplice per eseguirlo è l'immagine Docker ufficiale (amd64 e arm64). C'è anche un binario Linux x86-64 nella pagina delle [versioni di Zkool](https://github.com/hhanh00/zkool2/releases); richiede glibc 2.38 o una versione più recente, quindi Ubuntu 24.04 funziona, mentre Debian 12 no.
 
 ### 1. Avvia il server
 
@@ -141,7 +141,7 @@ L'app Zkool dispone anche di Esporta transazioni, Memo e Note nel menu dell'acco
 
 ## Opzione 2: zingo-cli
 
-zingo-cli è il wallet da riga di comando di Zingo. Non ci sono download precompilati, quindi lo devi compilare con Rust:
+zingo-cli è il portafoglio da riga di comando di Zingo. Non ci sono download precompilati, quindi devi compilarlo con Rust:
 
 ```bash
 git clone --branch zingolib_v6.0.0 https://github.com/zingolabs/zingolib.git
@@ -153,7 +153,7 @@ cp zingo-netutils/target/release/nym-proxy target/release/
 
 Ti serve `nym-proxy` anche solo per sincronizzare. zingo-cli 6 non si connette a nessun server senza di esso.
 
-La prima esecuzione crea un wallet di sola visualizzazione, lo sincronizza e stampa la cronologia:
+La prima esecuzione crea un portafoglio di sola visualizzazione, lo sincronizza e stampa la cronologia:
 
 ```bash
 ./target/release/zingo-cli --data-dir "$HOME/zingo-export" \
@@ -163,7 +163,7 @@ La prima esecuzione crea un wallet di sola visualizzazione, lo sincronizza e sta
 ```
 
 - `--data-dir` deve essere un percorso assoluto.
-- `--viewkey` e `--birthday` si applicano solo quando viene creato il wallet. Omettili in seguito.
+- `--viewkey` e `--birthday` si applicano solo quando viene creato il portafoglio. Omettili in seguito.
 - zingo-cli si avvia offline per impostazione predefinita. `--server` seleziona il server e vale anche come tuo consenso a collegarti online.
 - La chiave finisce nella cronologia della shell, quindi cancellala in seguito.
 
@@ -191,12 +191,12 @@ Alcune cose da sapere sull'output:
 
 Lo [zingoHelper](https://github.com/dismad/zingoHelper) di dismad contiene uno script `exportToJSON.sh` che converte `transactions` in JSON. È stato scritto prima di zingo-cli 6, è configurato per testnet, contrassegna alcuni Sapling in uscita e le voci trasparenti come segnaposto e richiede strumenti GNU, quindi non funziona su macOS standard. Considera il suo output un punto di partenza e verifica i totali.
 
-## Cosa non può dirti una viewing key
+## Cosa non può dirti una chiave di visualizzazione
 
 - **Prezzi.** Nessuno dei due strumenti registra un prezzo ZEC al momento di ciascuna transazione. Aggiungi tu stesso i valori fiat.
 - **Cronologia trasparente, se la chiave non la include.** La parte trasparente di una UFVK è opzionale secondo [ZIP 316](https://zips.z.cash/zip-0316). Con zingo-cli, `$Z --offline parse_viewkey uview1...` mostra quali pool copre una chiave.
 - **Chi ti ha pagato.** I pagamenti schermati non includono l'indirizzo del mittente. A meno che il mittente non ne abbia inserito uno nel memo, non è disponibile da nessuna parte.
-- **Alcuni dettagli in uscita.** Indirizzo di destinazione, importo e memo per gli invii schermati vengono recuperati decifrando con la chiave. Un wallet può costruire una transazione in modo che ciò non sia possibile, anche se la maggior parte non lo fa.
+- **Alcuni dettagli in uscita.** Indirizzo di destinazione, importo e memo per gli invii schermati vengono recuperati decifrando con la chiave. Un portafoglio può costruire una transazione in modo che ciò non sia possibile, anche se la maggior parte non lo fa.
 
 ## Altri strumenti
 
@@ -205,12 +205,12 @@ Lo [zingoHelper](https://github.com/dismad/zingoHelper) di dismad contiene uno s
 | ZODL | CSV fiscale con date, importi, commissioni e un'etichetta. Solo anno solare precedente, ignora le transazioni di schermatura, senza txid, memo o indirizzo. |
 | App Zkool | Esportazioni di tabelle grezze dal menu dell'account |
 | [Zenith](https://code.vergara.tech/Vergara_Tech/zenith) | Importa una UFVK con `importvk`. `listreceived` tramite RPC restituisce le note ricevute con txid e memo, ma non gli invii né le commissioni. |
-| [Zallet](https://github.com/zcash/zallet) | `z_listtransactions` è dettagliato ma contrassegnato come sperimentale, e Zallet importa soltanto viewing key Sapling, non UFVK |
+| [Zallet](https://github.com/zcash/zallet) | `z_listtransactions` è dettagliato ma contrassegnato come sperimentale, e Zallet importa soltanto chiavi di visualizzazione Sapling, non UFVK |
 | [zcash-devtool](https://github.com/zcash/zcash-devtool) | Importa una UFVK con `wallet init-fvk`, poi `wallet list-tx`. La sua modalità CSV non ha txid né indirizzo, e il progetto afferma di non usarla in produzione. |
 
 ## Correlati
 
-- [Viewing Keys](/zcash-tech/viewing-keys)
+- [Chiavi di visualizzazione](/zcash-tech/viewing-keys)
 - [Recuperare fondi](/using-zcash/recovering-funds)
 - [Zingolib e Zaino Tutorial](/guides/zingolib-and-zaino-tutorial)
 - [Forum: Esportare la cronologia delle transazioni in JSON/CSV da UFVK/seed](https://forum.zcashcommunity.com/t/exporting-transaction-history-to-json-csv-from-ufvk-seed/54662)

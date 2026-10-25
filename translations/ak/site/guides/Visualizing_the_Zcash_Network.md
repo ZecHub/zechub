@@ -122,7 +122,7 @@ cargo run --release --features crawler --bin crawler -- --help
 
 Eyi bɛboaboa dwumadi no ano na ahwɛ ahu sɛ biribiara reyɛ adwuma yiye.
 
-Sɛ wobɛtumi ayɛ Crawler no a, ɛhia sɛ wode '--seed-addrs' frankaa ka start ahyɛdeɛ no ho, a anyɛ yie koraa no, Zcash node IP address baako, a ɛfata, na ɛwɔ mu. Ɛsɛ sɛ wɔma crawler no kwan ma otu mmirika bere a ɛfata na ama wɔanya nea efi mu ba no pɛpɛɛpɛ. Wobetumi ahu nhwɛsode node IP address ahorow bi wɔ so [https://zcashblockexplorer.com/nodes](https://zcashblockexplorer.com/nodes).
+Sɛ wobɛtumi ayɛ Crawler no a, ɛhia sɛ wode '--seed-addrs' frankaa ka start ahyɛdeɛ no ho, a anyɛ yie koraa no, Zcash node IP address baako, a ɛfata, na ɛwɔ mu. Ɛsɛ sɛ wɔma crawler no kwan ma otu mmirika bere a ɛfata na ama wɔanya nea efi mu ba no pɛpɛɛpɛ. Wobetumi ahu nhwɛsode node IP address ahorow bi wɔ so [https://mainnet.zcashexplorer.app/nodes](https://mainnet.zcashexplorer.app/nodes).
 
 Sɛ wobɛnya nsɛm afiri Crawler no hɔ berɛ a ɛretu mmirika a, ɛhia sɛ wode '--rpc-addr' frankaa bɛka start ahyɛdeɛ no ho. Eyi nhia sɛ wode krawler no ankasa nkutoo na ɛyɛ adwuma nanso sɛ ɛnte saa a, ɛbɛhwehwɛ sɛ wugyae krawla no (ctrl+c anaa SIGKILL) na ama woada nsɛm biara adi koraa.
 

@@ -1,6 +1,6 @@
 [![Seite bearbeiten](https://img.shields.io/badge/Edit-blue)](https://github.com/zechub/zechub/edit/main/site/guides/Free2z_Live.md)
 
-# Free2z: Kontoeinrichtung + Livestream-Tutorial
+# Free2Z: Kontoeinrichtung + Livestream-Tutorial
 
 ## Einführung
 
@@ -97,7 +97,7 @@ Oder suche innerhalb eines Beitrags nach der schwebenden Plus-Schaltfläche. Von
 
 ## Live-Streaming
 
-Die Plattform Free2z bietet eine großartige Funktion namens Free2z Live. Mit diesem Werkzeug können Kreative Livestreams für abonnierte Mitglieder starten. Einige wichtige Funktionen von Free2z Live sind:  
+Die Plattform Free2Z bietet eine großartige Funktion namens Free2Z Live. Mit diesem Werkzeug können Kreative Livestreams für abonnierte Mitglieder starten. Einige wichtige Funktionen von Free2Z Live sind:  
 - Audio und Video  
 - Bildschirmfreigabe  
 - Kollaboratives Bearbeiten von Code  
@@ -105,9 +105,9 @@ Die Plattform Free2z bietet eine großartige Funktion namens Free2z Live. Mit di
 - Whiteboard  
 - Und vieles mehr!
 
-### Was du mit Free2z Live tun kannst
+### Was du mit Free2Z Live tun kannst
 
-Free2z Live ist ein leistungsstarkes Werkzeug, mit dem Kreative jede Art von Inhalten streamen können. Hier sind einige Beispiele für Inhalte, die du mit Free2z Live streamen kannst:  
+Free2Z Live ist ein leistungsstarkes Werkzeug, mit dem Kreative jede Art von Inhalten streamen können. Hier sind einige Beispiele für Inhalte, die du mit Free2Z Live streamen kannst:  
 - Tutorials und Demonstrationen  
 - Auftritte und Veranstaltungen  
 - Kollaborative Projekte  
@@ -116,7 +116,7 @@ Free2z Live ist ein leistungsstarkes Werkzeug, mit dem Kreative jede Art von Inh
 
 ### So gehst du live
 
-Es ist sehr einfach, mit Free2z Live einen Livestream zu starten. Es gibt jedoch einige Voraussetzungen, bevor du deinen Stream starten kannst.  
+Es ist sehr einfach, mit Free2Z Live einen Livestream zu starten. Es gibt jedoch einige Voraussetzungen, bevor du deinen Stream starten kannst.  
 1. Der Kreative **muss** einen Mindest-**member price** von 10 2Zs haben.  
 2. Der Kreative **muss** ein Guthaben von mindestens 150 2Zs auf seinem Konto haben.  
 
@@ -124,7 +124,7 @@ Wenn der Kreative **beide** der oben genannten Bedingungen erfüllt, steht ihm a
 
 ![Schaltfläche „Go Live“](/content-images/go-live-4c8ac67505.webp)
 
-Um einen Livestream zu starten, klicke einfach auf die Schaltfläche **Go Live**, und die Free2z-App wird um Erlaubnis bitten, dein Mikrofon und deine Webcam (falls vorhanden) zu verwenden. Nachdem du die erforderlichen Berechtigungen erteilt hast, fordert dich Free2z auf, einen Spitznamen einzugeben, den du während des Livestreams verwenden möchtest. Sobald du einen Spitznamen ausgewählt hast, klicke auf **Join**, um deinen Livestream zu starten.
+Um einen Livestream zu starten, klicke einfach auf die Schaltfläche **Go Live**, und die Free2Z-App wird um Erlaubnis bitten, dein Mikrofon und deine Webcam (falls vorhanden) zu verwenden. Nachdem du die erforderlichen Berechtigungen erteilt hast, fordert dich Free2Z auf, einen Spitznamen einzugeben, den du während des Livestreams verwenden möchtest. Sobald du einen Spitznamen ausgewählt hast, klicke auf **Join**, um deinen Livestream zu starten.
 
 ![Spitznamen für den Livestream auswählen](/content-images/select-nickname-414444b992.webp)
 
@@ -134,15 +134,15 @@ Und fertig! Wenn du einen Livestream startest, zeigt dein Profil ein Symbol an, 
 
 Wenn Personen dem Livestream beitreten, können sie chatten, darum bitten, auf die Bühne zu kommen, durch Abstimmungen in Umfragen interagieren und mehr.
 
-![Beispiel einer Free2z-Live-Sitzung](/content-images/free2z-live-example-eecb2ae553.webp)
+![Beispiel einer Free2Z-Live-Sitzung](/content-images/free2z-live-example-eecb2ae553.webp)
 
-_(Beispiel einer Free2z-Live-Sitzung)_
+_(Beispiel einer Free2Z-Live-Sitzung)_
 
-Free2z Live ist vielseitig und leistungsstark. Im nächsten Abschnitt gebe ich einen Überblick über seine Funktionen und Werkzeuge.
+Free2Z Live ist vielseitig und leistungsstark. Im nächsten Abschnitt gebe ich einen Überblick über seine Funktionen und Werkzeuge.
 
-### Free2z Live erkunden
+### Free2Z Live erkunden
 
-Dieses Wiki-Dokument ist nicht als ausführliche Anleitung zu Free2z oder Free2z Live gedacht. Aber hier ist ein allgemeiner Überblick über seine Werkzeuge.
+Dieses Wiki-Dokument ist nicht als ausführliche Anleitung zu Free2Z oder Free2Z Live gedacht. Aber hier ist ein allgemeiner Überblick über seine Werkzeuge.
 
 Unten links auf dem Bildschirm sehen wir einige Schaltflächen.
 
@@ -177,19 +177,19 @@ Es ist nicht der Zweck dieses Wiki-Dokuments, alle Plugins zu erklären, aber ic
 
 ## Fazit
 
-Zusammenfassend ist Free2z eine vielseitige Plattform für Kreative, um ihre Fähigkeiten zu präsentieren, Wissen zu teilen und Geld für ihre Projekte zu sammeln sowie mit ihren Unterstützern durch das leistungsstarke Werkzeug Free2z Live zu interagieren.
+Zusammenfassend ist Free2Z eine vielseitige Plattform für Kreative, um ihre Fähigkeiten zu präsentieren, Wissen zu teilen und Geld für ihre Projekte zu sammeln sowie mit ihren Unterstützern durch das leistungsstarke Werkzeug Free2Z Live zu interagieren.
 
 ----
 
 ### Ressourcen
 
-[Free2z](https://free2z.cash/)  
-[Free2z-Dokumentation](https://free2z.cash/docs/)  
+[Free2Z](https://free2z.cash/)  
+[Free2Z-Dokumentation](https://free2z.cash/docs/)  
 [2Z-Überblick](https://free2z.cash/docs/getting-started/tuzis)  
 [Ein Profil erstellen](https://free2z.cash/docs/for-creators/creating-a-profile)  
-[Was ist Free2z Live?](https://free2z.cash/docs/for-creators/free2z-live)  
-[Free2z für Unterstützer](https://free2z.cash/docs/category/for-supporters)
+[Was ist Free2Z Live?](https://free2z.cash/docs/for-creators/free2z-live)  
+[Free2Z für Unterstützer](https://web.archive.org/web/20260118172223/https://free2z.cash/docs/category/for-supporters/)
 
 ---
 
-_Verfasst von James Katz für Zechub._
+_Verfasst von James Katz für ZecHub._

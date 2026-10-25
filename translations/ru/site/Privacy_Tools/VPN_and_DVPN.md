@@ -58,7 +58,7 @@ Zcash (ZEC) — это криптовалюта, созданная для по�
 
    __Оплата Zcash__: Mullvad принимает Zcash в качестве способа оплаты, позволяя пользователям оплачивать подписку с повышенной конфиденциальностью.Mullvad VPN.
 
-3. [__Nym VPN (dVPN)__](https://nymtech.net/)
+3. [__Nym VPN (dVPN)__](https://nym.com/)
    
    Nym VPN — это децентрализованный VPN (dVPN), ориентированный на повышение конфиденциальности и безопасности пользователей с помощью сети, построенной вокруг приватности. Nym VPN работает иначе, чем традиционные VPN, 
    используя mixnet, где пользовательский трафик маршрутизируется через сеть узлов. Ключевые особенности Nym VPN включают:
@@ -75,9 +75,9 @@ Zcash (ZEC) — это криптовалюта, созданная для по�
 
 ## Другие VPN, поддерживающие оплату zcash:-
 
- 3. [__ExpressVPN__](https://www.expressvpn.com/)
- 4. [__NordVPN__](https://nordvpn.com/)
- 5. [__CyberGhost__](https://www.cyberghostvpn.com/en_US/)
- 6. [__Private Internet Access (PIA)__](https://www.privateinternetaccess.com/)
+3. [__ExpressVPN__](https://www.expressvpn.com/)
+4. [__NordVPN__](https://nordvpn.com/)
+5. [__CyberGhost__](https://www.cyberghostvpn.com/)
+6. [__Private Internet Access (PIA)__](https://www.privateinternetaccess.com/)
 
 Имейте в виду, что доступность вариантов оплаты криптовалютой может меняться, поэтому рекомендуется проверять сайт VPN-провайдера или обращаться в его службу поддержки за самой актуальной информацией о принимаемых способах оплаты, включая Zcash.

@@ -122,7 +122,7 @@ cargo run --release --features crawler --bin crawler -- --help
 
 سيؤدي ذلك إلى ترجمة البرنامج والتأكد من أن كل شيء يعمل بشكل صحيح.
 
-لتشغيل Crawler، يلزم إضافة العلامة '--seed-addrs' إلى أمر البدء، بحيث تحتوي على عنوان IP واحد صالح على الأقل لعقدة Zcash. يجب السماح للـ crawler بالعمل لمدة زمنية معقولة للحصول على نتيجة دقيقة. يمكن العثور على بعض عناوين IP النموذجية للعقد على [https://zcashblockexplorer.com/nodes](https://zcashblockexplorer.com/nodes).
+لتشغيل Crawler، يلزم إضافة العلامة '--seed-addrs' إلى أمر البدء، بحيث تحتوي على عنوان IP واحد صالح على الأقل لعقدة Zcash. يجب السماح للـ crawler بالعمل لمدة زمنية معقولة للحصول على نتيجة دقيقة. يمكن العثور على بعض عناوين IP النموذجية للعقد على [https://mainnet.zcashexplorer.app/nodes](https://mainnet.zcashexplorer.app/nodes).
 
 للحصول على معلومات من Crawler أثناء تشغيله، يلزم إضافة العلامة '--rpc-addr' إلى أمر البدء. هذا ليس مطلوبًا لتشغيل الـ crawler وحده، لكنه بخلاف ذلك سيتطلب إيقاف الـ crawler (`ctrl+c` أو SIGKILL) لعرض أي معلومات على الإطلاق.
 

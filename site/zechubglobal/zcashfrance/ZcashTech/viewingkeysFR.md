@@ -41,9 +41,9 @@ Pourquoi un utilisateur voudrait-il faire cela ? Extrait du blog d'Electric Coin
 ![myViewKey](/content-images/208585568-46065002-6682-4ff4-ae8b-d20620-739ab12b6c.webp)
 
 
-#### zcashblockexplorer.com
+#### mainnet.zcashexplorer.app
 
-* Pointez simplement votre navigateur vers [ici](https://zcashblockexplorer.com/vk) et attendez les résultats ! note : ce résultat est maintenant sur le nœud zcashblockexplorer et donc vous faites confiance à cette information avec les propriétaires de zcashblockexplorer.com
+* Pointez simplement votre navigateur vers [ici](https://mainnet.zcashexplorer.app/vk) et attendez les résultats ! note : ce résultat est maintenant sur le nœud zcashblockexplorer et donc vous faites confiance à cette information avec les propriétaires de mainnet.zcashexplorer.app
 
 ### Ressources
 

@@ -33,7 +33,7 @@ Beslissingen van het ZIP-proces worden geschreven in de Zcash-specificatie, even
 
 ## Waar is mijn transactie?
 
-Lees eerst [ons artikel](https://zechub.notion.site/Zcash-Blockchain-Explorer-4b4d970cb53e474989932c6e1a78b629) over block explorers. Controleer vervolgens met [Zcash block explorer](https://zcashblockexplorer.com) dat alle transacties standaard verlopen na ~25 minuten/20 blokken en dat geld wordt teruggestuurd naar het oorspronkelijke verzendadres.
+Lees eerst [ons artikel](https://zechub.notion.site/Zcash-Blockchain-Explorer-4b4d970cb53e474989932c6e1a78b629) over block explorers. Controleer vervolgens met [Zcash block explorer](https://mainnet.zcashexplorer.app) dat alle transacties standaard verlopen na ~25 minuten/20 blokken en dat geld wordt teruggestuurd naar het oorspronkelijke verzendadres.
 
 Als uw transactie verloopt, kunt u het beste uw transactie opnieuw proberen met enkele mogelijke aanpassingen.
 

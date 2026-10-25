@@ -137,7 +137,7 @@ Maboresho yaliyopangwa ni pamoja na:
 
 ## Kurasa Zinazohusiana
 
-- [Tumia ZEC](/using-zcash/spend-zcash)  Njia nyingine za kutumia ZEC katika ulimwengu halisi
+- [Tumia ZEC](/using-zcash/spend-zcash/top-10-places-to-spend-zec)  Njia nyingine za kutumia ZEC katika ulimwengu halisi
 - [Usindikaji wa Malipo](/using-zcash/payment-processors)  Vifaa kwa wafanyabiashara kukubali ZEC
 - [Kutumia ZEC binafsi](/guides/using-zec-privately)  Mazoea bora kwa ajili ya malipo shielded
 - [Mkoba](/using-zcash/wallets)  Wallets sambamba na ZEC malipo ya mfanyabiashara

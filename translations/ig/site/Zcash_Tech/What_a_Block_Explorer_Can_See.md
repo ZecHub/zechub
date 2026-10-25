@@ -26,7 +26,7 @@ Ebe ọ bụ na e nwere ụdị abụọ, uru nwere ike ịkwaga n'ụzọ anọ
 
 ## Ihe onye na-eme nchọpụta nwere ike ịhụ
 
-Onye na-eme nchọpụta ọha na eze dịka [Blockchair](https://blockchair.com/zcash) nwere ike ịgụ nke ọma:
+Onye na-eme nchọpụta ọha na eze dịka [ZecBlock](https://zecblock.com/) nwere ike ịgụ nke ọma:
 
 - Ụgwọ ọ bụla doro anya (t ruo t), site na njedebe ruo na njedebe.
 - Ego na-abanye n'ọdọ mmiri ahụ a na-echebe (akụkụ doro anya na ego ahụ).
@@ -65,7 +65,7 @@ Jụọ ajụjụ gbasara data ndị e tinyere na ebe onye na-eziga na onye na-a
 - [Zcash: Ndụmọdụ nzuzo na nchekwa](https://z.cash/support/security/privacy-security-recommendations/)
 - [A shielded ecosystem (Electric Coin Company)](https://web.archive.org/web/20260903010654/https://electriccoin.co/blog/shielded-ecosystem/)
 - [Otu teknụzụ Zcash si arụ ọrụ](https://z.cash/technology/)
-- [Onye na-eme nchọpụta Zcash nke Blockchair](https://blockchair.com/zcash)
+- [ZecBlock](https://zecblock.com/)
 
 ## Ibe ndị metụtara ya
 

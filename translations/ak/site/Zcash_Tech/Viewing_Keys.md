@@ -74,7 +74,7 @@ Sɛ wode Sapling address bi fa mu a, ɛma saa akontaabu no Sapling a wɔatrɛw m
 
 ### Walets a ɛde viewing keys fi wɔn ankasa interface so kɔ amannɔne
 
-No [Sika kotoku](/using-zcash/wallets) krataafa no di viewing-key mmoa ne Ironwood ahoboa ma sika kotoku biara akyi. Bere a yɛrekyerɛw eyi no, sika kotoku a wɔakyerɛw viewing-key support ne **Ironwood: Ready** nyinaa bi ne ZODL, Zingo!, Zkool, Cake, Zallet, Zecd ne Nozy. Hwɛ saa kratafa no mmom sen eyi ansa na wode wo ho ato sika kotoku biako biara so, efisɛ ahoboa sesa.
+No [Sika kotoku](/using-zcash/wallets) krataafa no di viewing-key mmoa ne Ironwood ahoboa ma sika kotoku biara akyi. Bere a yɛrekyerɛw eyi no, sika kotoku a wɔakyerɛw viewing-key support ne **Ironwood: Ready** nyinaa bi ne ZODL, Zingo!, Zkool, Cake, Zallet, zecd ne Nozy. Hwɛ saa kratafa no mmom sen eyi ansa na wode wo ho ato sika kotoku biako biara so, efisɛ ahoboa sesa.
 
 ## Viewing key a wode bɛba sɛ watch-only account
 

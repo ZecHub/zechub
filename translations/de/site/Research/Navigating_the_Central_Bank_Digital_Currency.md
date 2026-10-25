@@ -101,7 +101,7 @@ Finanzielle Inklusion, einst ein Leuchtfeuer der Hoffnung, steht nun im Schatten
 
 Für diejenigen, die sich in das unerforschte Gebiet der CBDCs wagen, werden Ressourcen zu ihrem Kompass.
 1. Die Bank für Internationalen Zahlungsausgleich ([BIS](https://www.bis.org/search?keywords=cbdc))
-2. der Internationale Währungsfonds ([IMF](https://www.imf.org/en/About))
+2. der Internationale Währungsfonds ([IMF](https://web.archive.org/web/20260708111341/https://www.imf.org/en/about))
 3. Forschungsarbeiten ([paper](https://papers.ssrn.com/searchresults.cfm?term=CBDC))
 4. Wissenschaftliche Fachzeitschriften ([journal](https://www.bis.org/publ/work976.pdf))
 5. Artikel von C.E.I ([Article](https://cei.org/blog/central-banks-are-watching-lets-watch-them-back/))

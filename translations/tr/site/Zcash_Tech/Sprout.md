@@ -6,6 +6,8 @@
 
 > Zcash, 28 Ekim 2016'da Sprout shielded pool ile başlatıldı.
 
+> **Uyarı:** NU7 etkinleştiğinde Sprout havuzunda hâlâ bulunan ZEC harcanamaz hâle getirir (ana ağ için hedef tarih 5 Kasım 2026, nihai karar 20 Ekim 2026; bkz. [ZIP 259](https://zips.z.cash/zip-0259)). Sprout fonlarınız varsa [Fonların kurtarılması](../using-zcash/recovering-funds) bölümünü okuyun ve önce bunları taşıyın.
+
 Buradan çıkaracağınız ana fikir: Sprout, Zcash'in başladığı yerdir; özel, doğrulanabilir paranın canlı bir blok zincirinde ilk kez çalıştığı andır.
 
 Sprout, Zcash ağının orijinal başlangıcıdır; daha sonraki bir [ağ yükseltmesi](../start-here/network-upgrades) değildir. 28 Ekim 2016'da genesis bloğunda canlıya geçti. Sprout'u tanımlayan numaralı bir ZIP yoktur: ZIP süreci daha sonra Overwinter ile başladı, bu yüzden Sprout, orijinal Zcash Protocol Specification ve üzerine inşa edildiği Zerocash yapısı tarafından tanımlanır. Zooko Wilcox liderliğindeki [Electric Coin Company](../zcash-organizations/electric-coin-company) (o zamanki adıyla Zerocoin Electric Coin Company) bunu geliştirdi ve kullanıma sundu. Sprout, ilk pratik zk-SNARK shielded işlemlerini ve orijinal shielded pool'u tanıttı; böylece insanlar ZEC göndereni, alıcısı ve miktarı gizliyken gönderebilirken ağ da bakiyelerin toplamının tuttuğunu kontrol etmeye devam edebildi. İsim, ekibin büyümesini beklediği genç, filizlenen bir zinciri simgeliyordu.
@@ -16,19 +18,19 @@ Bu neden önemlidir? Sprout'tan önceki her açık blok zinciri ödemelerinizi g
 
 Sprout iki tür adres oluşturdu. Transparent adresler (t-addresses) Bitcoin gibi çalışır; ayrıntılar herkese açık defterde görünür. Shielded adresler (z-addresses) fonları Sprout [shielded pool](../using-zcash/shielded-pools) içine gönderir; burada gönderen, alıcı ve miktar gizli kalır. İşin püf noktası [zk-SNARKs](../zcash-tech/zk-snarks) yani bir işlemin ayrıntıların hiçbirini açıklamadan, çift harcama olmadığını ve bakiyelerin tuttuğunu gösteren sıfır bilgi ispatlarıdır. Sprout, bunun canlı bir kripto para sisteminde üretim ortamında ilk kez çalıştırılmasıydı.
 
-![Transparent işlemler göndereni, alıcıyı ve miktarı açığa çıkarırken, Sprout shielded işlemleri üçünü de gizler ama yine de doğrulanabilir kalır](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/sprout-shielded-vs-transparent.png)
+![Transparent işlemler göndereni, alıcıyı ve miktarı açığa çıkarırken, Sprout shielded işlemleri üçünü de gizler ama yine de doğrulanabilir kalır](/content-images/sprout-shielded-vs-transparent-61d3b1980c.webp)
 
 ## Ceremony
 
 Sprout'taki zk-SNARKs için bir dizi açık parametre gerekiyordu ve bunların güvenli biçimde üretilmesi Ceremony adı verilen tek seferlik bir kurulum gerektiriyordu. Birbirinden uzak, ayrı konumlardaki altı katılımcı, toxic waste denilen gizli birer parça üretti. Eğer biri bu parçaların tamamını yeniden bir araya getirebilseydi, yoktan ZEC üretebilirdi. Tasarım bu riski basit bir kurala dönüştürdü: en az bir katılımcı kendi parçasını yok ettiği sürece tam sır hiçbir zaman yeniden oluşturulamazdı, böylece sahte ZEC üretmek imkânsız kalırdı. Kamuya açık olarak adı bilinen katılımcılar arasında Zooko Wilcox, Andrew Miller, Peter Van Valkenburgh, Peter Todd ve NCC Group'tan Derek Hinch bulunur. Bir katılımcı anonim kalmayı seçti.
 
-![Ceremony: altı katılımcı özel parçalar üretir, ardından toxic waste'i yok eder ve geriye yalnızca herkese açık Sprout parametreleri kalır](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/sprout-ceremony-flow.png)
+![Ceremony: altı katılımcı özel parçalar üretir, ardından toxic waste'i yok eder ve geriye yalnızca herkese açık Sprout parametreleri kalır](/content-images/sprout-ceremony-flow-ae16f6282a.webp)
 
 ## Köken
 
-Sprout, sonraki her değişikliğin üzerine inşa edildiği temel çizgidir. Overwinter ile ağ yükseltme mekanizması geldiğinde, orijinal kuralları consensus branch id 0 olarak etiketledi; bu basitçe henüz hiçbir yükseltmenin uygulanmadığı anlamına gelir. O zamandan beri gelen her şey (Overwinter, Sapling, Blossom, Heartwood, Canopy, NU5, NU6 ve sonrası) Sprout'un başlattığı zincirin üzerine oturur. Başlangıç, Ekim 2016'da bir genesis için Ağustos 2016'da duyuruldu, Ceremony önceki haftalarda gerçekleştirildi ve genesis bloğunun sabit kodlanmış zaman damgası 28 Ekim 2016, 07:56 UTC olarak okunur.
+Sprout, sonraki her değişikliğin üzerine inşa edildiği temel çizgidir. Overwinter ile ağ yükseltme mekanizması geldiğinde, orijinal kuralları consensus branch id 0 olarak etiketledi; bu basitçe henüz hiçbir yükseltmenin uygulanmadığı anlamına gelir. O zamandan beri gelen her şey (Overwinter, Sapling, Blossom, Heartwood, Canopy, NU5, NU6 ve sonrası) Sprout'un başlattığı zincirin üzerine oturur. Başlangıç, 28 Ekim'deki bir genesis için Ağustos 2016'da duyuruldu, Ceremony önceki haftalarda gerçekleştirildi ve genesis bloğunun sabit kodlanmış zaman damgası 28 Ekim 2016, 07:56 UTC olarak okunur.
 
-![Ağustos 2016 duyurusundan parametre Ceremony'sine ve 28 Ekim 2016'daki Sprout başlangıcına uzanan zaman çizelgesi](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/sprout-timeline.png)
+![Ağustos 2016 duyurusundan parametre Ceremony'sine ve 28 Ekim 2016'daki Sprout başlangıcına uzanan zaman çizelgesi](/content-images/sprout-timeline-348766352a.webp)
 
 ## Sözlük
 
@@ -77,7 +79,7 @@ Sprout, daha sonraki bir yükseltme değil, Zcash'in orijinal başlangıcıdır.
 
 [Shielded Pools](../using-zcash/shielded-pools)
 
-[zk-SNARKS](../zcash-tech/zk-snarks)
+[zk-SNARKs](../zcash-tech/zk-snarks)
 
 [Zcash Ağ Yükseltmeleri](../start-here/network-upgrades)
 

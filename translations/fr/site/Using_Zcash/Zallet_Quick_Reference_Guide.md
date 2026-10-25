@@ -10,13 +10,13 @@
 - zcashd a atteint son arrêt de fin de support le 18 juillet 2026 et ne fonctionne plus. Zebra gère désormais la partie nœud ; Zallet gère la partie wallet.
 - Vous pilotez Zallet depuis la ligne de commande avec `zallet rpc <command>`, un peu comme vous utilisiez `zcash-cli` auparavant.
 - Chaque argument après le nom de la commande doit être un JSON valide, ce qui signifie que les valeurs de type chaîne conservent leurs guillemets doubles.
-- Zallet est encore en alpha. Les commandes peuvent changer entre les versions, et tous les RPC de zcashd n’ont pas encore été portés.
+- Zallet est en bêta. Les commandes peuvent changer entre les versions, et tous les RPC de zcashd n’ont pas encore été portés.
 
 ## Explication principale
 
 Zallet expose ses fonctionnalités via JSON-RPC, le même style d’interface que le wallet zcashd utilisait. Tout ce que vous voulez faire faire au wallet — vérifier un solde, créer un compte, envoyer un paiement protégé — est une commande que vous passez à `zallet rpc`.
 
-Deux points diffèrent de l’ancienne habitude avec `zcash-cli` et expliquent la plupart des erreurs au début. Premièrement, les arguments doivent être du JSON valide plutôt que du texte brut, donc un argument de type chaîne doit contenir ses propres guillemets à l’intérieur des guillemets du shell. Deuxièmement, l’ensemble des commandes disponibles dépend de la version alpha que vous exécutez, donc la liste intégrée à votre binaire est plus fiable que n’importe quelle page écrite, y compris celle-ci.
+Deux points diffèrent de l’ancienne habitude avec `zcash-cli` et expliquent la plupart des erreurs au début. Premièrement, les arguments doivent être du JSON valide plutôt que du texte brut, donc un argument de type chaîne doit contenir ses propres guillemets à l’intérieur des guillemets du shell. Deuxièmement, l’ensemble des commandes disponibles dépend de la version bêta que vous exécutez, donc la liste intégrée à votre binaire est plus fiable que n’importe quelle page écrite, y compris celle-ci.
 
 Pour lister tous les RPC disponibles :
 
@@ -36,9 +36,9 @@ zallet rpc help '"<command>"'
 ## Erreurs courantes
 
 - **Oublier les guillemets internes sur les arguments de type chaîne.** `zallet rpc validateaddress u1abc...` échoue, car l’adresse doit être transmise en JSON. Il faut l’écrire `'"u1abc..."'`.
-- **Supposer que chaque RPC de zcashd existe ici.** Le portage est toujours en cours. Certaines méthodes se comportent de manière identique, certaines nécessitent un usage différent, et certaines ne seront pas reprises du tout.
-- **Considérer cette page comme plus autoritaire que votre binaire.** Zallet est en alpha et évolue rapidement. Lorsqu’une commande ici ne fonctionne pas, vérifiez `zallet rpc help` avant de supposer que quelque chose est cassé.
-- **S’attendre à ce que Zallet soit un nœud.** C’est la moitié wallet du duo. Zebra exécute le nœud, et Zallet communique avec lui.
+- **Supposer que chaque RPC existe ici.** Le portage est toujours en cours. Certaines méthodes se comportent de manière identique, certaines nécessitent un usage différent, et certaines ne seront pas reprises du tout.
+- **Considérer cette page comme plus autoritaire que votre binaire.** Zallet est en bêta et évolue rapidement. Lorsqu’une commande ici ne fonctionne pas, vérifiez `zallet rpc help` avant de supposer que quelque chose est cassé.
+- **S’attendre à ce que Zallet soit un nœud.** C’est la moitié portefeuille du duo. Zebra exécute le nœud, et Zallet communique avec lui.
 
 ## Commandes RPC
 
@@ -474,8 +474,8 @@ zallet rpc z_viewtransaction '"<txid>"'
 
 ## Pages liées
 
-- [Guide de migration : Zcashd vers Zebrad et Zallet](/guides/migration-guide-zcashd-to-zebrad-zallet) — passage pas à pas depuis une installation zcashd existante
-- [Nœud complet Zebra](/zcash-tech/zebra-full-node) — l’implémentation de nœud avec laquelle Zallet fonctionne
+- [Guide de migration : zcashd vers Zebrad et Zallet](/guides/migration-guide-zcashd-to-zebrad-zallet) — passage pas à pas depuis une configuration zcashd existante
+- [Zebra Nœud complet](/zcash-tech/zebra-full-node) — l’implémentation de nœud aux côtés de laquelle Zallet fonctionne
 - [Nœuds complets](/zcash-tech/full-nodes) — ce qu’implique l’exécution d’un nœud complet et pourquoi vous pourriez en vouloir un
-- [Wallets](/using-zcash/wallets) — des options de wallets plus légères si un nœud complet dépasse vos besoins
+- [Portefeuilles](/using-zcash/wallets) — des options de portefeuilles plus légères si un nœud complet dépasse vos besoins
 - [Transactions](/using-zcash/transactions) — comment les transactions protégées et transparentes diffèrent

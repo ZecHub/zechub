@@ -21,9 +21,9 @@ ZecHub, Zcash के लिए एक विकेंद्रीकृत श�
 
 ---
 
-1. [ZecHub के Github repo](https://github.com/ZecHub/zechub) पर जाएँ
+1. [ZecHub के GitHub repo](https://github.com/ZecHub/zechub) पर जाएँ
    
-2. एक नया Github खाता बनाएँ या अपने खाते से लॉग इन करें
+2. एक नया GitHub खाता बनाएँ या अपने खाते से लॉग इन करें
    
 3. पुल रिक्वेस्ट करना सीखने के लिए इस मार्गदर्शिका का पालन करें:
 
@@ -51,15 +51,15 @@ ZecHub के एकसमान रूप को बनाए रखने क�
 3. No inappropriate content.
 ```
 
-दान: [यहाँ](https://explorer.zec.rocks/ua/u17sawf3pdh7z6tsy83vhjd2z7sztpy9y87wyyqz4vqshn3yhch28q3ud3lr0etadl3flz4c9zdrtn9lwlf23vzmjnll97efxzg9h0rjzn9qvhvqr8p3394ysnfhg560xxxc66yxzh8r548myxn3l2qrc9pfrt8nrzhxvlpuuykv7czjsm)
+दान: [यहाँ](https://mainnet.zcashexplorer.app/ua/u17sawf3pdh7z6tsy83vhjd2z7sztpy9y87wyyqz4vqshn3yhch28q3ud3lr0etadl3flz4c9zdrtn9lwlf23vzmjnll97efxzg9h0rjzn9qvhvqr8p3394ysnfhg560xxxc66yxzh8r548myxn3l2qrc9pfrt8nrzhxvlpuuykv7czjsm)
 
-<a href="https://explorer.zec.rocks/ua/u17sawf3pdh7z6tsy83vhjd2z7sztpy9y87wyyqz4vqshn3yhch28q3ud3lr0etadl3flz4c9zdrtn9lwlf23vzmjnll97efxzg9h0rjzn9qvhvqr8p3394ysnfhg560xxxc66yxzh8r548myxn3l2qrc9pfrt8nrzhxvlpuuykv7czjsm">
+<a href="https://mainnet.zcashexplorer.app/ua/u17sawf3pdh7z6tsy83vhjd2z7sztpy9y87wyyqz4vqshn3yhch28q3ud3lr0etadl3flz4c9zdrtn9lwlf23vzmjnll97efxzg9h0rjzn9qvhvqr8p3394ysnfhg560xxxc66yxzh8r548myxn3l2qrc9pfrt8nrzhxvlpuuykv7czjsm">
     <img src="/content-images/image-2023-11-18-141228046-644b4c542d.webp" alt="" width="200" height="200"/>
 </a>
 
 
 
-**अस्वीकरण: ZecHub, Zcash समुदाय के सदस्यों द्वारा स्थापित एक पूरी तरह स्वतंत्र और ओपन-सोर्स पहल है। इस Github repository में शामिल किसी भी चीज़ को वित्तीय या निवेश सलाह नहीं माना जाना चाहिए - यह केवल सूचनात्मक उद्देश्यों के लिए है।**
+**अस्वीकरण: ZecHub, Zcash समुदाय के सदस्यों द्वारा स्थापित एक पूरी तरह स्वतंत्र और ओपन-सोर्स पहल है। इस GitHub repository में शामिल किसी भी चीज़ को वित्तीय या निवेश सलाह नहीं माना जाना चाहिए - यह केवल सूचनात्मक उद्देश्यों के लिए है।**
 
 ---
 

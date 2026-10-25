@@ -50,7 +50,7 @@ Zcash 보호된 거래는 다음을 숨깁니다:
 ## <img src="/content-images/icons8-toolbox-9bebbb1619.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> 필요한 사항
 
 - 보호된 주소를 지원하는 Zcash 지갑:
-  - ZODL
+  - Zodl
   - Zingo!
   - 기타 지원되는 지갑
 
@@ -104,7 +104,7 @@ Zcash 보호된 거래는 다음을 숨깁니다:
 
 ## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="chain-links icon"/> 관련 자료
 
-- [프라이버시 - 보호된 vs 투명한](/privacy/shielded-vs-transparent)
+- [블록 탐색기가 볼 수 있는 것](/zcash-tech/what-a-block-explorer-can-see)
 - [지갑](/wallets)
 
 <br/>

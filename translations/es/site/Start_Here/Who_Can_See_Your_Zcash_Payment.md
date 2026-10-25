@@ -22,7 +22,7 @@ Zcash te da una elección en su lugar. Esa elección se hace dos veces: **una cu
 
 La imagen de abajo cubre ambas.
 
-![Tipos de claves de Zcash y lo que un explorador de bloques puede ver para cada una de las cuatro rutas de transacción](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Start_Here/assets/who-can-see-your-zcash-payment.png)
+![Tipos de claves de Zcash y lo que un explorador de bloques puede ver para cada una de las cuatro rutas de transacción](/content-images/who-can-see-your-zcash-payment-04d41ac960.webp)
 
 ---
 
@@ -44,9 +44,9 @@ Una privacidad que nunca puedes levantar no es útil. A veces necesitas demostra
 
 **Spending key.** Ve todo y mueve fondos. Este es el dinero. Se queda contigo y nunca se comparte con nadie, por ninguna razón.
 
-**Full viewing key.** Solo lectura. Muestra actividad entrante y saliente y saldos, pero no puede gastar ni un solo zatoshi. Esto es lo que entregas a un auditor o contador.
+**Full Viewing Key.** Solo lectura. Muestra actividad entrante y saliente y saldos, pero no puede gastar ni un solo zatoshi. Esto es lo que entregas a un auditor o contador.
 
-**Incoming viewing key.** Aún más limitada: muestra solo los pagos que llegan. Un exchange o un comerciante puede usarla para confirmar que tu depósito llegó, mientras la spending key permanece en hardware que nunca toca internet.
+**Incoming Viewing Key.** Aún más limitada: muestra solo los pagos que llegan. Un exchange o un comerciante puede usarla para confirmar que tu depósito llegó, mientras la spending key permanece en hardware que nunca toca internet.
 
 El orden importa. Entrega la clave más limitada que haga el trabajo, no la más amplia que tengas a mano.
 
@@ -64,7 +64,7 @@ El orden importa. Entrega la clave más limitada que haga el trabajo, no la más
 
 ## Ponlo en práctica
 
-- Usa una wallet que blinde por defecto, como [Zodl](https://zodl.com) o [Zingo!](https://www.zingolabs.org/).
+- Usa una wallet que blinde por defecto, como [ZODL](https://zodl.com) o [Zingo!](https://www.zingolabs.org/).
 - Blinda los fondos en cuanto lleguen desde un exchange, antes de gastarlos.
 - Paga a direcciones blindadas siempre que el receptor admita una.
 - Antes de compartir una viewing key, pregunta cuál es la clave más pequeña que responde a la pregunta que se está haciendo.

@@ -16,6 +16,8 @@ This page explains ZIP 218 from its own text: what changes, what does not, and w
 | Limits on shielded actions per block | none (only the 2 MB size limit) | 330 total, with per-pool caps |
 | Orchard throughput (2-action transactions) | about 2.9 per second | about 6.6 per second |
 
+![ZIP 218 cuts block target spacing from 75 seconds to 25, tripling daily blocks from 1,152 to 3,456, while dividing the per-block subsidy by the same factor of three from 1.5625 to 0.52083333 ZEC, so daily issuance stays at 1,800 ZEC and the halving interval stretches from 1,680,000 to 5,040,000 blocks to hold halving dates fixed](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/nu7-block-timing.png)
+
 Three times as many blocks, each paying a third as much. The supply schedule stays where it was.
 
 ## Why change the block time

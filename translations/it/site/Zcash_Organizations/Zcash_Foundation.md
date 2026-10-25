@@ -4,11 +4,11 @@
 
 # <img src="/content-images/image-2024-02-03-165803028-2532c6c3ac.webp" alt="Alt Text" width="50"/>  Zcash Foundation
 
-## Dichiarazione di Missione
+## Dichiarazione di missione
 
 Il nostro obiettivo alla ZF è creare strumenti che aiutino a sostenere le reti aperte, permettendo a chiunque di proteggere la propria privacy alle proprie condizioni. L'essenza stessa della privacy consiste nel poter scegliere cosa condividere o meno con gli altri. La privacy comprende sia l'autonomia sia il consenso; è essenziale per la dignità umana e per la sana continuità della società civile.
 
-## Persone e Team
+## Persone e team
 
 La Zcash Foundation conta circa 12 dipendenti distribuiti in tutto il mondo. Si concentrano sullo sviluppo del protocollo, sulla sicurezza del protocollo, sulla governance del protocollo, sullo sviluppo dell'infrastruttura e sulla gestione degli eventi della community di Zcash. La Zcash Foundation non si limita a lavorare solo su Zcash e quindi si dedica anche allo sviluppo di tecnologie per la tutela della privacy a favore degli [aiuti umanitari](https://zfnd.org/sai/) e del bene pubblico in generale.
 
@@ -18,7 +18,7 @@ La Foundation organizza inoltre [Zcon](https://zfnd.org/zcon/), una conferenza a
 
 La Zcash Foundation fa rispettare la [politica sui marchi Zcash](https://zfnd.org/new-zcash-trademark-policy/) secondo le condizioni aggiornate della donazione da parte di Electric Coin Co., che aiuta a "proteggere la reputazione di Zcash, delle sue entità associate e della community di Zcash" attraverso "l'identificazione delle fonti di informazione ufficiali, riducendo la probabilità di informazioni fraudolente o errate" e "l'identificazione di app e servizi ufficiali, riducendo la probabilità di attività fraudolente". 
 
-## Struttura Organizzativa
+## Struttura organizzativa
 
 La Zcash Foundation è un ente di [beneficenza](https://zfnd.org/#:~:text=Committed%20to%20Transparency) senza scopo di lucro ed esente da imposte ai sensi della normativa [501(c)(3)](https://projects.propublica.org/nonprofits/organizations/820707962). Oltre al loro [Team](https://zfnd.org/#:~:text=Our%20Team), dispongono di un Consiglio di [Amministrazione](https://zfnd.org/#:~:text=Board%20of%20Directors) e facilitano le elezioni per la governance della community sondando lo Zcash Community Advisory [Panel](https://zfnd.org/zcash-community-advisory-panel/).
 
@@ -32,10 +32,10 @@ La Zcash Foundation non riceve più finanziamenti dal [fondo](https://zips.z.cas
   
 [https://zcashcommunitygrants.org/](https://zcashcommunitygrants.org/)
 
-Questo programma finanzia team indipendenti affinché svolgano importanti attività di sviluppo continuativo (o altri lavori) che vanno a beneficio dell'ecosistema Zcash. Le sovvenzioni vengono assegnate da un comitato di cinque persone eletto dallo Zcash Community Advisory Panel. I team e le organizzazioni interessate a far progredire l'usabilità, la sicurezza, la privacy e l'adozione di Zcash sono caldamente incoraggiati a candidarsi per una Zcash Community Grant!
+Questo programma finanzia team indipendenti affinché svolgano importanti attività di sviluppo continuativo (o altri lavori) che vanno a beneficio dell'ecosistema Zcash. I finanziamenti vengono assegnati da un comitato di cinque persone eletto dallo Zcash Community Advisory Panel. I team e le organizzazioni interessate a far progredire l'usabilità, la sicurezza, la privacy e l'adozione di Zcash sono caldamente incoraggiati a candidarsi per una Zcash Community Grant!
 
 
-## Video in Evidenza della Zcash Foundation
+## Video in evidenza della Zcash Foundation
   
 **Zebrad for Linux Tutorials**
 

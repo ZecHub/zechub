@@ -97,7 +97,7 @@ For **Zcash Mainnet**;
 > **Swap ETH -> ZEC** - Use services like **LeoDex** and send to your shielded address.  
 > **Exchange Withdrawal** - Withdraw purchased ZEC to your WebZjs shielded address.  
 
-![LEODEX-SWAP](/content-images/HyLQ0G2ugg-8d82ef24f6.webp)
+![LeoDex-SWAP](/content-images/HyLQ0G2ugg-8d82ef24f6.webp)
 
 
 > => Use shielded (z) addresses for **full privacy**.
@@ -158,7 +158,7 @@ For **Zcash Mainnet**;
 > Shielded proofs may take time, WebAssembly handles computation in-browser.  
 > Recovery is simple,install MetaMask and the Snap, then import your existing seed.  
 > The Snap defaults to **shielded ZEC**, transparent addresses are **not the focus**.  
-> Use [zcashblockexplorer.com](https://zcashblockexplorer.com) for transaction confirmations.
+> Use [mainnet.zcashexplorer.app](https://mainnet.zcashexplorer.app) for transaction confirmations.
 
 
 

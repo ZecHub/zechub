@@ -16,6 +16,8 @@ Esta página explica a ZIP 218 a partir do seu próprio texto: o que muda, o que
 | Limites de ações blindadas por bloco | nenhum (apenas o limite de tamanho de 2 MB) | 330 no total, com limites por pool |
 | Débito de Orchard (transações de 2 ações) | cerca de 2,9 por segundo | cerca de 6,6 por segundo |
 
+![ZIP 218 cuts block target spacing from 75 seconds to 25, tripling daily blocks from 1,152 to 3,456, while dividing the per-block subsidy by the same factor of three from 1.5625 to 0.52083333 ZEC, so daily issuance stays at 1,800 ZEC and the halving interval stretches from 1,680,000 to 5,040,000 blocks to hold halving dates fixed](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/nu7-block-timing.png)
+
 Três vezes mais blocos, cada um pagando um terço. O calendário de emissão mantém-se onde estava.
 
 ## Porquê alterar o tempo de bloco

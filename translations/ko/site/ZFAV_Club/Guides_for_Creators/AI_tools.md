@@ -48,7 +48,7 @@ X, Google, Discord, Telegram으로 로그인 가능
 - 디스코드에 있는 [Midjourney Bot](https://discord.com/invite/midjourney) - 월 $10 이상, [시작 가이드](https://docs.midjourney.com/docs/quick-start)
 다른 사람의 이미지를 평가함으로써 약 100개의 무료 생성 가능 [여기](https://www.midjourney.com/app/rank-pairs/)에서
 (상위 2000명의 평가자로 진입해야 함 - 약 15분 동안 이미지 평가)
-- [DALL-E 2](https://labs.openai.com/) [](https://openai.com/dall-e-2)- $15/115 생성 - (월별 무료 15개 생성)
+- [DALL-E 2](https://web.archive.org/web/20250601174514/https://labs.openai.com/) [](https://openai.com/dall-e-2)- $15/115 생성 - (월별 무료 15개 생성)
 - [DALL-E 3](https://openai.com/dall-e-3/) - ChatGPT-4에 포함됨 - 월 $20
 - [Nightcafe Creator](https://creator.nightcafe.studio/) (4개 생성 무료, 유료는 월 $6부터)
 
@@ -82,7 +82,7 @@ X, Google, Discord, Telegram으로 로그인 가능
 
 ### 음성 생성
 
-- [play.ht](https://play.ht/) - 무료 제공 - (월 $39 구독 요금제)
+- [play.ht](https://web.archive.org/web/20260310162301/https://play.ht/) - 무료 제공 - (월 $39 구독 요금제)
 - [ElevenLabs](https://elevenlabs.io/) - 무료 제공 - (월 $5 구독 요금제)
 - [Murf](https://murf.ai/) - 무료 제공 - (월 $29 구독 요금제)
 - [Resemble](https://www.resemble.ai/) - 무료 체험 가능 (초당 $0.006)

@@ -12,7 +12,7 @@ Overwinter est une [mise à niveau du réseau](../start-here/network-upgrades) Z
 
 Pourquoi c'est important. Modifier les règles d'une blockchain en fonctionnement est dangereux. Si cela est mal fait, deux versions du réseau peuvent être en désaccord, ou une transaction destinée à une chaîne peut être copiée sur une autre. Avant Overwinter, Zcash ne disposait d'aucune méthode standard et sûre contre les replays pour coordonner un changement de règles. Overwinter a corrigé cela. Elle a donné à Zcash un processus formel pour les mises à niveau et, tout aussi important, une protection bidirectionnelle contre les replays, de sorte qu'une transaction valide sous un ensemble de règles ne puisse pas être rejouée sous un autre. C'est cette base qui a permis à Sapling, et à chaque mise à niveau qui a suivi, d'être activés proprement.
 
-![Avant et après Overwinter : avant, pas de voie standard de mise à niveau ni de protection contre les replays. Après, un mécanisme de mise à niveau du réseau avec protection bidirectionnelle contre les replays et futures mises à niveau sûres](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/overwinter-before-after.png)
+![Avant et après Overwinter : avant, pas de voie standard de mise à niveau ni de protection contre les replays. Après, un mécanisme de mise à niveau du réseau avec protection bidirectionnelle contre les replays et futures mises à niveau sûres](/content-images/overwinter-before-after-acf4f5d283.webp)
 
 ## Le mécanisme de mise à niveau
 
@@ -28,7 +28,7 @@ Un replay se produit lorsqu'une personne prend une transaction valide sur une ch
 
 Cela fonctionne main dans la main avec le nouveau format de transaction version 3 de [ZIP 202](https://zips.z.cash/zip-0202), parfois appelé format Overwintered. Il ajoute un drapeau fOverwintered et un identifiant de groupe de version qui indiquent clairement à quel ensemble de règles de consensus appartient une transaction. Comme avantage secondaire, le nouveau schéma de signature a également amélioré la rapidité de validation des transactions transparentes.
 
-![Fonctionnement de la protection contre les replays : un wallet signe une transaction qui s'engage sur l'identifiant de branche de consensus actuel, de sorte que la transaction ne peut être rejouée sur aucune autre branche](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/overwinter-replay-flow.png)
+![Fonctionnement de la protection contre les replays : un wallet signe une transaction qui s'engage sur l'identifiant de branche de consensus actuel, de sorte que la transaction ne peut être rejouée sur aucune autre branche](/content-images/overwinter-replay-flow-754ec8578a.webp)
 
 ## Expiration des transactions
 
@@ -38,7 +38,7 @@ Cela fonctionne main dans la main avec le nouveau format de transaction version 
 
 Overwinter a été la première mise à niveau du réseau Zcash après le lancement du mainnet en octobre 2016, et elle a été déployée délibérément avant Sapling. Son rôle était l'infrastructure, pas les fonctionnalités. En installant d'abord le mécanisme de mise à niveau et l'architecture de protection contre les replays, elle a donné à chaque mise à niveau ultérieure (Sapling, Blossom, Heartwood, Canopy, NU5, et celles d'après) un chemin d'activation sûr.
 
-![Chronologie depuis le lancement de Sprout en octobre 2016, en passant par la période 2016 à 2018 sans cadre de mise à niveau, jusqu'à Overwinter en juin 2018](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/overwinter-timeline.png)
+![Chronologie depuis le lancement de Sprout en octobre 2016, en passant par la période 2016 à 2018 sans cadre de mise à niveau, jusqu'à Overwinter en juin 2018](/content-images/overwinter-timeline-689d9bcf20.webp)
 
 ## Glossaire
 

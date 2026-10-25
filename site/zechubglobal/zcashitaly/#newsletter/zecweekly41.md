@@ -26,7 +26,7 @@ L'articolo ha anche evidenziato esempi di fonti di vitamine dense di nutrienti e
 
 Si è concluso che le vitamine sono essenziali per la salute umana. Inoltre, devono essere consumate nelle giuste quantità. È stato inoltre suggerito di consultare un professionista della salute prima di consumare qualsiasi integratore vitaminico. 
 
-Leggi l'intero [articolo!](https://free2z.cash/ZEC@MEDEDUCAZIONE/pagina/vitamine)
+Leggi l'intero articolo!
 
 
 ## Aggiornamenti su Zcash

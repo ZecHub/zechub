@@ -1,15 +1,15 @@
 # Guida alla migrazione: da zcashd a Zebrad/Zallet
 
-Il nodo completo tradizionale zcashd, gestito da *Electric Coin Company (ECC)* / *Zodl*, è stato sostituito da Zebra e Zallet. zcashd ha raggiunto l'interruzione del supporto il 18 luglio 2026 e non è più in esecuzione.
+Il full node (nodo completo) tradizionale zcashd, gestito da *Electric Coin Company (ECC)* / *Zodl*, è stato sostituito da Zebra e Zallet. zcashd ha raggiunto l'interruzione del supporto il 18 luglio 2026 e non è più in esecuzione.
 
 - Zebra è una moderna implementazione Rust del protocollo Zcash sviluppata dalla Zcash Foundation
-- Zallet è un wallet leggero progettato per interfacciarsi senza problemi con i nodi Zebra sviluppati da Zodl
+- Zallet è un portafoglio leggero progettato per interfacciarsi senza problemi con i nodi Zebra sviluppati da Zodl
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![Diagramma: zcashd si divide in zebrad per le funzioni di nodo e Zallet per le funzioni di wallet](/content-images/SJNBsSYTel-dfd19f34e4.webp)
+![Diagramma: zcashd si divide in zebrad per le funzioni di nodo e Zallet per le funzioni del portafoglio](/content-images/SJNBsSYTel-dfd19f34e4.webp)
 </div>
 
-Questa guida ti accompagna nella migrazione da **Zcashd** a **Zebrad** e **Zallet**, inclusi configurazione, importazione del wallet e risoluzione dei comuni problemi di migrazione.
+Questa guida ti accompagna nella migrazione da **Zcashd** a **Zebrad** e **Zallet**, inclusi configurazione, importazione del portafoglio e risoluzione dei comuni problemi di migrazione.
 
 ---
 
@@ -18,23 +18,23 @@ Questa guida ti accompagna nella migrazione da **Zcashd** a **Zebrad** e **Zalle
 **Cosa significa**
 
 - zcashd ha raggiunto l'interruzione del supporto il 18 luglio 2026. Non si sincronizzerà più con la punta della chain e non può inviare né ricevere fondi. È definitivo, non previsto.
-- I due compiti di zcashd sono ora separati: **zebrad** è il nodo completo e **Zallet** è il wallet.
+- I due compiti di zcashd sono ora separati: **zebrad** è il full node e **Zallet** è il portafoglio.
 - Zallet è in **beta**. Possono verificarsi modifiche incompatibili tra le release e alcuni metodi JSON-RPC di zcashd non sono ancora implementati. Controlla la [matrice dello stato dei metodi](https://zcash.github.io/zallet/) prima di fare affidamento su una chiamata specifica.
-- Se possiedi ancora fondi **Sprout**, leggi prima l'avvertenza nel passaggio 6. Zallet non supporta il pool Sprout e il modo abituale per spostare quei fondi richiedeva un zcashd in esecuzione.
+- Se possiedi ancora fondi **Sprout**, leggi prima l'avvertenza nel passaggio 6. Zallet non supporta la pool Sprout e il modo abituale per spostare quei fondi richiedeva uno zcashd in esecuzione.
 
 **Perché migrare - oltre la deprecazione**
 
 Anche mettendo da parte la deprecazione, ci sono ragioni convincenti per migrare:
 - Sicurezza e robustezza: la sicurezza della memoria di Rust e gli strumenti moderni riducono i rischi di vulnerabilità.
 - Prestazioni ed efficienza: Zebrad è progettato per il parallelismo, un uso più efficiente delle risorse e una sincronizzazione più veloce.
-- Architettura modulare: separare la logica del nodo (Zebrad) dall'interfaccia del wallet (Zallet) offre confini più chiari e migliori percorsi di aggiornamento.
+- Architettura modulare: separare la logica del nodo (Zebrad) dall'interfaccia del portafoglio (Zallet) offre confini più chiari e migliori percorsi di aggiornamento.
 - Compatibilità con l'ecosistema futuro: strumenti, miglioramenti e il resto dell'ecosistema Zcash si rivolgeranno sempre più a Zebrad/Zallet.
 - Tranquillità: evita di ritrovarti a usare un componente deprecato e non supportato.
 
 ### Ora approfondiamo la guida alla migrazione
 
 **1. Esegui il backup di tutto**
-* Esegui il backup del tuo wallet.dat (o di qualsiasi altro file wallet / archivio di chiavi) dal tuo nodo zcashd.
+* Esegui il backup del tuo wallet.dat (o di qualsiasi altro file del portafoglio / archivio di chiavi) dal tuo nodo zcashd.
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
 ![bash (1)](/content-images/SJ_0mUtTxg-1441185a72.svg)
@@ -97,9 +97,9 @@ Modifica **zebrad.toml** in base alle tue preferenze (indirizzo di ascolto, port
 
 Il nodo inizierà a sincronizzarsi dalla genesi: attenditi diverse ore (o più) a seconda dell'hardware e della rete.
 
-**5. Installa / configura Zallet (wallet)**
+**5. Installa / configura Zallet (portafoglio)**
 
-Zallet è progettato per sostituire la parte wallet di zcashd.
+Zallet è progettato per sostituire la parte del portafoglio di zcashd.
 
 Controlla la pagina GitHub / delle release di Zallet per i binari.
 
@@ -112,15 +112,15 @@ Controlla la pagina GitHub / delle release di Zallet per i binari.
 * Avvia la GUI o la CLI (in base a quanto fornito dalla tua installazione).
 * Configuralo per connettersi al tuo nodo Zebrad locale tramite endpoint RPC o API.
 
-**6. Importazione del tuo wallet zcashd in Zallet**
+**6. Importazione del tuo portafoglio zcashd in Zallet**
 
 Non hai bisogno di un zcashd in esecuzione per questo. Zallet legge direttamente il file `wallet.dat`, un aspetto importante perché zcashd non può più essere avviato.
 
-> **Conserva `wallet.dat`.** La migrazione segnala tutto ciò che non riesce a rappresentare in un wallet Zallet invece di importarlo, e quel materiale delle chiavi esiste quindi solo in `wallet.dat`. Non eliminarlo dopo la migrazione.
+> **Conserva `wallet.dat`.** La migrazione segnala tutto ciò che non riesce a rappresentare in un portafoglio Zallet invece di importarlo, e quel materiale delle chiavi esiste quindi solo in `wallet.dat`. Non eliminarlo dopo la migrazione.
 
 Esegui prima `zallet init-wallet-encryption`. Zallet cifra il materiale delle chiavi in un'identità age e tale identità deve esistere prima dell'importazione di qualsiasi chiave.
 
-Quindi converti la tua configurazione e il tuo wallet:
+Quindi converti la tua configurazione e il tuo portafoglio:
 
 ```bash
 # translate zcash.conf into zallet.toml
@@ -130,25 +130,25 @@ zallet migrate-zcash-conf --zcashd-datadir /path/to/zcashd/datadir -o /path/to/z
 zallet migrate-zcashd-wallet --zcashd-datadir /path/to/zcashd/datadir
 ```
 
-`migrate-zcashd-wallet` è presente solo nelle build con la funzionalità `zcashd-import`, e la lettura di `wallet.dat` richiede l'utilità `db_dump` di Berkeley DB 6.2, la versione utilizzata da zcashd. Se hai più di un file wallet, esegui il comando una volta per file e aggiungi `--allow-multiple-wallet-imports` nelle esecuzioni successive; ognuno diventa il proprio insieme di account. Il tuo `rpcuser` e `rpcpassword` non vengono trasferiti, perché il JSON-RPC di Zallet utilizza per impostazione predefinita l'autenticazione tramite cookie; aggiungi le credenziali con `zallet add-rpc-user` se ti servono.
+`migrate-zcashd-wallet` è presente solo nelle build con la funzionalità `zcashd-import`, e la lettura di `wallet.dat` richiede l'utilità `db_dump` di Berkeley DB 6.2, la versione utilizzata da zcashd. Se hai più di un file del portafoglio, esegui il comando una volta per file e aggiungi `--allow-multiple-wallet-imports` nelle esecuzioni successive; ognuno diventa il proprio insieme di account. I tuoi `rpcuser` e `rpcpassword` non vengono trasferiti, perché il JSON-RPC di Zallet utilizza per impostazione predefinita l'autenticazione tramite cookie; aggiungi le credenziali con `zallet add-rpc-user` se ti servono.
 
 **Cosa viene trasferito**
 
-* Seed mnemonici e le chiavi derivate da essi, con gli account ricostruiti per corrispondere al wallet zcashd
+* Seed mnemonici e le chiavi derivate da essi, con gli account ricostruiti per corrispondere al portafoglio zcashd
 * Chiavi di spesa Sapling importate autonomamente e chiavi trasparenti
 * Voci trasparenti di sola visualizzazione che includono la loro chiave pubblica o script di riscatto
 * Date di nascita degli account, affinché la scansione della chain inizi all'altezza corretta
 
 **Cosa non viene trasferito.** Questi elementi vengono segnalati con conteggi anziché importati:
 
-* **Chiavi di spesa e fondi Sprout.** Zallet non supporta il pool Sprout. Il percorso documentato consisteva nello spostare i fondi Sprout tramite zcashd prima di ritirarlo, e ciò non è più possibile. Se questo ti riguarda, chiedi sul [Discord Zcash R&D](https://discord.gg/xpzPR53xtU) o sul [forum della community](https://forum.zcashcommunity.com/) prima di fare qualsiasi altra cosa.
+* **Chiavi di spesa e fondi Sprout.** Zallet non supporta la pool Sprout. Il percorso documentato consisteva nello spostare i fondi Sprout tramite zcashd prima di ritirarlo, e ciò non è più possibile. Se questo ti riguarda, chiedi sul [Discord Zcash R&D](https://discord.gg/xpzPR53xtU) o sul [forum della community](https://forum.zcashcommunity.com/) prima di fare qualsiasi altra cosa.
 * Voci della rubrica indirizzi
 * Voci di sola visualizzazione memorizzate senza una chiave pubblica o script di riscatto, e voci con chiavi pubbliche non compresse
-* Wallet Regtest
+* Portafogli Regtest
 
-**Esecuzione del backup successivamente.** Una mnemonica da sola non è un backup completo, perché le chiavi importate esistono solo nel database del wallet. Conserva copie sicure di `wallet.db`, del file dell'identità di cifratura age indicato dall'opzione `keystore.encryption_identity` e della tua frase mnemonica, e conserva il `wallet.dat` originale. Nota che `wallet.db` non è esso stesso cifrato: conserva in chiaro la cronologia delle transazioni e le chiavi di visualizzazione, quindi archivia il backup in un luogo sicuro.
+**Esecuzione del backup successivamente.** Una mnemonica da sola non è un backup completo, perché le chiavi importate esistono solo nel database del portafoglio. Conserva copie sicure di `wallet.db`, del file dell'identità di crittografia age indicato dall'opzione `keystore.encryption_identity` e della tua frase mnemonica, e conserva il `wallet.dat` originale. Nota che `wallet.db` non è esso stesso cifrato: conserva in chiaro la cronologia delle transazioni e le chiavi di visualizzazione, quindi archivia il backup in un luogo sicuro.
 
-**Riscansione e sincronizzazione del wallet**
+**Riscansione e sincronizzazione del portafoglio**
 
 * Una volta importate le chiavi, Zallet attiverà una riscansione della chain tramite Zebrad.
 * Lascia a Zallet il tempo necessario per ricostruire il tuo saldo e la cronologia delle transazioni.
@@ -193,7 +193,7 @@ Oppure controlla i log.
         <td className="px-6 py-4">Assicurati di avere una connessione Internet stabile, riavvia Zebrad</td>
       </tr>
       <tr className="border-b border-slate-200 dark:border-slate-700 hover:bg-slate-50 dark:hover:bg-slate-900/50">
-        <td className="px-6 py-4">Al wallet mancano transazioni</td>
+        <td className="px-6 py-4">Nel portafoglio mancano transazioni</td>
         <td className="px-6 py-4">Importazione parziale delle chiavi</td>
         <td className="px-6 py-4">Reimporta le chiavi o esegui una riscansione in Zallet</td>
       </tr>
@@ -214,7 +214,7 @@ Oppure controlla i log.
 **9. Conclusione**
 
 La migrazione da zcashd a Zebrad e Zallet ti offre un'esperienza Zcash più veloce, sicura e moderna.
-Con la sicurezza basata su Rust, il design modulare e strumenti migliori, questa configurazione garantisce che il tuo nodo e wallet restino pronti per il futuro mentre l'ecosistema Zcash continua a evolversi.
+Con la sicurezza basata su Rust, il design modulare e strumenti migliori, questa configurazione garantisce che il tuo nodo e portafoglio restino pronti per il futuro mentre l'ecosistema Zcash continua a evolversi.
 
-Suggerimento: conserva le chiavi del tuo wallet offline ed esegui regolarmente il backup dei dati Zallet.
+Suggerimento: conserva le chiavi del tuo portafoglio offline ed esegui regolarmente il backup dei dati Zallet.
 Visita [zebra.zfnd.org](https://zebra.zfnd.org) per Zebra e [The Zallet Book](https://zcash.github.io/zallet/) o il [repository Zallet](https://github.com/zcash/zallet) per Zallet. Il capitolo [Migrazione da zcashd](https://zcash.github.io/zallet/) di The Zallet Book è il riferimento autorevole per il passaggio 6.

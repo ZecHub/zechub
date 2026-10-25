@@ -68,7 +68,7 @@ The Orchard Shielded Pool was activated on May 31, 2022 as part of the NU5 netwo
 
 Orchard significantly improved usability, efficiency, and privacy by reducing transaction metadata leakage and introducing a more flexible transaction model based on Actions rather than traditional shielded inputs and outputs.
 
-Since the Ironwood upgrade activated on 28 July 2026, **Orchard is spend-only**. No new value can enter the pool. Funds already held there can still be spent, and are migrating out into Ironwood through the turnstile. Wallets handle this for you, though most give you some control over the pace.
+Since the Ironwood upgrade activated on 28 July 2026, **Orchard is spend-only**. No new value can enter the pool. Funds already held there can still be spent, and are migrating out into Ironwood through the turnstile. Wallets handle this for you, though most give you some control over the pace. Each move out of Orchard shows its amount on the blockchain, so how a wallet splits and times the migration matters for privacy.
 
 If you hold Orchard funds, see [Ironwood](/zcash-tech/ironwood) for what the migration means in practice.
 

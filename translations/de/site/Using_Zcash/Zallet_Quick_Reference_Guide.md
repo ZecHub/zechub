@@ -10,13 +10,13 @@
 - zcashd erreichte am 18. Juli 2026 seinen End-of-Support-Stopp und läuft nicht mehr. Zebra übernimmt jetzt die Knoten-Seite; Zallet übernimmt die Wallet-Seite.
 - Du steuerst Zallet über die Befehlszeile mit `zallet rpc <command>`, ähnlich wie du zuvor `zcash-cli` verwendet hast.
 - Jedes Argument nach dem Befehlsnamen muss gültiges JSON sein, was bedeutet, dass String-Werte ihre doppelten Anführungszeichen behalten.
-- Zallet befindet sich noch in der Alpha-Phase. Befehle können sich zwischen Releases ändern, und noch nicht jede zcashd-RPC wurde übernommen.
+- Zallet befindet sich in der Beta-Phase. Befehle können sich zwischen Releases ändern, und noch nicht jede zcashd-RPC wurde übernommen.
 
 ## Grundlegende Erklärung
 
 Zallet stellt seine Funktionalität über JSON-RPC bereit, denselben Schnittstellenstil, den die zcashd-Wallet verwendet hat. Alles, was die Wallet tun soll — einen Kontostand prüfen, ein Konto erstellen, eine abgeschirmte Zahlung senden — ist ein Befehl, den du an `zallet rpc` übergibst.
 
-Zwei Dinge unterscheiden sich von der alten `zcash-cli`-Gewohnheit und sind für die meisten frühen Fehler verantwortlich. Erstens müssen Argumente gültiges JSON statt bloßem Text sein, daher trägt ein String-Argument seine eigenen Anführungszeichen innerhalb der Shell-Anführungszeichen. Zweitens hängt die Menge der verfügbaren Befehle davon ab, welche Alpha-Version du verwendest, daher ist die in deinem Binary eingebaute Liste verlässlicher als jede geschriebene Seite, einschließlich dieser hier.
+Zwei Dinge unterscheiden sich von der alten `zcash-cli`-Gewohnheit und sind für die meisten frühen Fehler verantwortlich. Erstens müssen Argumente gültiges JSON statt bloßem Text sein, daher trägt ein String-Argument seine eigenen Anführungszeichen innerhalb der Shell-Anführungszeichen. Zweitens hängt die Menge der verfügbaren Befehle davon ab, welche Beta-Version du verwendest, daher ist die in deinem Binary eingebaute Liste verlässlicher als jede geschriebene Seite, einschließlich dieser hier.
 
 Um alle verfügbaren RPCs aufzulisten:
 
@@ -36,8 +36,8 @@ zallet rpc help '"<command>"'
 ## Häufige Fehler
 
 - **Die inneren Anführungszeichen bei String-Argumenten weglassen.** `zallet rpc validateaddress u1abc...` schlägt fehl, weil die Adresse als JSON ankommen muss. Sie muss als `'"u1abc..."'` geschrieben werden.
-- **Annehmen, dass jede zcashd-RPC hier existiert.** Die Übertragung ist noch im Gange. Einige Methoden verhalten sich identisch, einige erfordern eine andere Verwendung, und einige werden überhaupt nicht übernommen.
-- **Diese Seite als maßgeblicher ansehen als dein Binary.** Zallet ist in der Alpha-Phase und entwickelt sich schnell. Wenn ein Befehl hier nicht funktioniert, prüfe `zallet rpc help`, bevor du annimmst, dass etwas kaputt ist.
+- **Annehmen, dass jede RPC hier existiert.** Die Übertragung ist noch im Gange. Einige Methoden verhalten sich identisch, einige erfordern eine andere Verwendung, und einige werden überhaupt nicht übernommen.
+- **Diese Seite als maßgeblicher ansehen als dein Binary.** Zallet befindet sich in der Beta-Phase und entwickelt sich schnell. Wenn ein Befehl hier nicht funktioniert, prüfe `zallet rpc help`, bevor du annimmst, dass etwas kaputt ist.
 - **Erwarten, dass Zallet ein Knoten ist.** Es ist die Wallet-Hälfte des Paars. Zebra betreibt den Knoten, und Zallet kommuniziert damit.
 
 ## RPC-Befehle
@@ -474,7 +474,7 @@ zallet rpc z_viewtransaction '"<txid>"'
 
 ## Verwandte Seiten
 
-- [Migrationsleitfaden: Zcashd zu Zebrad und Zallet](/guides/migration-guide-zcashd-to-zebrad-zallet) — schrittweiser Umstieg von einer bestehenden zcashd-Einrichtung
+- [Migrationsleitfaden: zcashd zu Zebrad und Zallet](/guides/migration-guide-zcashd-to-zebrad-zallet) — schrittweiser Umstieg von einer bestehenden zcashd-Einrichtung
 - [Zebra Full Node](/zcash-tech/zebra-full-node) — die Knoten-Implementierung, mit der Zallet zusammenarbeitet
 - [Full Nodes](/zcash-tech/full-nodes) — was der Betrieb eines vollständigen Knotens beinhaltet und warum du einen betreiben möchtest
 - [Wallets](/using-zcash/wallets) — leichtere Wallet-Optionen, falls ein vollständiger Knoten mehr ist, als du brauchst

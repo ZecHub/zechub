@@ -14,7 +14,9 @@ Ojú ìwé yìí ṣàlàyé ZIP 218 láti inú ìwé tirẹ̀: ohun tí ó yíp
 | ZEC tuntun fun ọjọ kan | yiyipada | yiyipada |
 | Ààlà ìdajì | Àwọn búlọ́ọ̀kù 1,680,000 | Àwọn búlọ́ọ̀kì 5,040,000 |
 | Àwọn ààlà lórí àwọn ìgbésẹ̀ ààbò fún gbogbo búlọ́ọ̀kì | kò sí (ààlà iwọn 2 MB nìkan) | Lapapọ 330, pẹlu awọn ideri fun adagun-odo kọọkan |
-| Àkójọpọ̀ iṣẹ́ Orchard (àwọn ìṣòwò ìgbésẹ̀ méjì) | nípa 2.9 fún ìṣẹ́jú-àáyá kan | nípa 6.6 fún ìṣẹ́jú-àáyá kan |
+| Àṣeyọrí sí Orchard (àwọn ìṣòwò ìgbésẹ̀ méjì) | nípa 2.9 fún ìṣẹ́jú-àáyá kan | nípa 6.6 fún ìṣẹ́jú-àáyá kan |
+
+![ZIP 218 cuts block target spacing from 75 seconds to 25, tripling daily blocks from 1,152 to 3,456, while dividing the per-block subsidy by the same factor of three from 1.5625 to 0.52083333 ZEC, so daily issuance stays at 1,800 ZEC and the halving interval stretches from 1,680,000 to 5,040,000 blocks to hold halving dates fixed](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/nu7-block-timing.png)
 
 Ìlọ́po mẹ́ta iye àwọn bulọọki, ọ̀kọ̀ọ̀kan sì san ìdá mẹ́ta iye náà. Ètò ìpèsè náà dúró sí ibi tí ó wà tẹ́lẹ̀.
 
@@ -109,7 +111,7 @@ Awọn iye owo kekere meji lo wa pelu. Awọn apamọwọ ina gba nipa 200 KB di
 - **ZIP:** Àkọsílẹ̀. Àwọn onílé Dev Ojha àti Evan Forbes; tí a dá sílẹ̀ ní ọjọ́ kẹtàlá oṣù kẹta ọdún 2026.
 - **Ìdìbò olùní owó:** ti parí ní ọjọ́ kẹrìnlá oṣù kẹsàn-án ọdún 2026, pẹ̀lú ìtìlẹ́yìn 99.9%. Ìdìbò náà fi hàn pé ó wù ú; kò yí àwọn òfin ìfohùnṣọ̀kan padà fúnra rẹ̀.
 - **Àkókò Ìlànà:** Nínú ìkéde Zcash Community Forum ní ọjọ́ kẹtàdínlógún oṣù kẹsàn-án, àwọn àjọ ìdàgbàsókè gbà láti ṣe àkójọ ìlànà kódì tí a parí ní ọjọ́ ọgbọ̀n oṣù kẹsàn-án, NU7 lórí testnet ní ọjọ́ kẹfà oṣù kẹwàá, ìpinnu ìkẹyìn àti gíga ìṣiṣẹ́ mainnet ní ọjọ́ ogún oṣù kẹwàá, àti ìṣiṣẹ́ mainnet tí a fojú sí fún nǹkan bí ọjọ́ karùn-ún oṣù kọkànlá ọdún 2026. Oṣù kọkànlá ọjọ́ karùn-ún jẹ́ àfojúsùn, kì í ṣe ọjọ́ tí a yàn, títí tí a ó fi yan gíga náà.
-- **Imuse:** a tọ́pasẹ̀ rẹ̀ nínú Zebra ([#11440](https://github.com/ZcashFoundation/zebra/issues/11440)) àti ní Zakura ([PR #1066](https://github.com/zakura-core/zakura/pull/1066)).
+- **Imuṣe:** a tọ́pasẹ̀ rẹ̀ nínú Zebra ([#11440](https://github.com/ZcashFoundation/zebra/issues/11440)) àti ní Zakura ([PR #1066](https://github.com/zakura-core/zakura/pull/1066)).
 
 ## Kí ni èyí túmọ̀ sí fún ọ
 

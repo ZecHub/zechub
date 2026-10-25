@@ -68,7 +68,7 @@ Orchard Shielded Havuzu, 31 Mayıs 2022’de NU5 ağ yükseltmesinin bir parças
 
 Orchard, geleneksel shielded girişler ve çıkışlar yerine Action’lara dayalı daha esnek bir işlem modeli sunarak işlem üstverisi sızıntısını azalttı; böylece kullanılabilirliği, verimliliği ve gizliliği önemli ölçüde geliştirdi.
 
-28 Temmuz 2026’da Ironwood yükseltmesi etkinleştirildiğinden beri **Orchard yalnızca harcama** modundadır. Yeni değer bu havuza giremez. Burada tutulan fonlar hâlâ harcanabilir ve turnstile üzerinden Ironwood’a taşınmaktadır. Cüzdanlar bunu sizin için halleder, ancak çoğu size hız konusunda bir miktar kontrol sunar.
+28 Temmuz 2026’da Ironwood yükseltmesi etkinleştirildiğinden beri **Orchard yalnızca harcama** modundadır. Yeni değer bu havuza giremez. Burada tutulan fonlar hâlâ harcanabilir ve turnstile üzerinden Ironwood’a taşınmaktadır. Cüzdanlar bunu sizin için halleder, ancak çoğu size hız konusunda bir miktar kontrol sunar. Orchard’dan yapılan her çıkış, tutarını blokzincirde gösterir; bu nedenle bir cüzdanın geçişi nasıl bölümlendirdiği ve zamanladığı gizlilik açısından önemlidir.
 
 Orchard fonlarınız varsa, geçişin pratikte ne anlama geldiğini görmek için [Ironwood](/zcash-tech/ironwood) sayfasına bakın.
 

@@ -33,7 +33,7 @@ El proceso de solicitud de subvención FPF X FPF incluye varias etapas. Primero,
 
 Se puede ver más información sobre FPF X FPF en el sitio web de Financial Privacy Fun (FPF) [aquí](https://www.financialprivacyfoundation.org/grants) y, si aún tienes curiosidad sobre el programa FPF X FPF, puedes visitar el documento de preguntas frecuentes aquí: [Preguntas frecuentes](https://www.financialprivacyfoundation.org/_files/ugd/9ba471_16b6c85b5eb645c9847536d2fdb72434.pdf).
 
-Si estás interesado en convertirte en Revisor Voluntario para esta ronda del programa FPF X FPF, visita este [enlace](https://www.financialprivacyfoundation.org/_files/ugd/9ba471_679a364148984518be3b728cf1df04d8.pdf). Si tienes más preguntas sobre el Programa de Subvenciones FPF X FPF, puedes consultarlas directamente enviando un correo electrónico a [FPF](info@financialprivacyfoundation.org).
+Si estás interesado en convertirte en Revisor Voluntario para esta ronda del programa FPF X FPF, visita este [enlace](https://www.financialprivacyfoundation.org/_files/ugd/9ba471_679a364148984518be3b728cf1df04d8.pdf). Si tienes más preguntas sobre el Programa de Subvenciones FPF X FPF, puedes consultarlas directamente enviando un correo electrónico a [FPF](mailto:info@financialprivacyfoundation.org).
 
 ## Recursos
 [Financial Privacy Fund](https://www.financialprivacyfoundation.org/_files/ugd/9ba471_679a364148984518be3b728cf1df04d8.pdf)

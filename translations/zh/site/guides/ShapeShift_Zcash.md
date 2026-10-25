@@ -167,7 +167,7 @@ ShapeShift 与 Zcash 的集成代表了去中心化金融隐私向前迈出的�
 
 [Zodl 钱包](https://zodl.com)
 
-[ShapeShift DAO 治理（FOX Token）](https://shapeshift.com/fox-token)
+[ShapeShift DAO 治理（FOX Token）](https://web.archive.org/web/20210126180411/https://shapeshift.com/fox-token)
 
 [Zcash Community Grants](https://zcashcommunitygrants.org/)
 

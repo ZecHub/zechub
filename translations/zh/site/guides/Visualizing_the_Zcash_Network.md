@@ -122,7 +122,7 @@ cargo run --release --features crawler --bin crawler -- --help
 
 这将编译程序并确保一切正常运行。
 
-要运行 Crawler，必须在启动命令中添加 '--seed-addrs' 标志，其中至少包含一个有效的 Zcash 节点 IP 地址。应允许爬虫运行足够长的时间，以获得准确结果。部分示例节点 IP 地址可在 [https://zcashblockexplorer.com/nodes](https://zcashblockexplorer.com/nodes). 找到
+要运行 Crawler，必须在启动命令中添加 '--seed-addrs' 标志，其中至少包含一个有效的 Zcash 节点 IP 地址。应允许爬虫运行足够长的时间，以获得准确结果。部分示例节点 IP 地址可在 [https://mainnet.zcashexplorer.app/nodes](https://mainnet.zcashexplorer.app/nodes). 找到
 
 如需在 Crawler 运行期间获取信息，必须在启动命令中添加 '--rpc-addr' 标志。这不是仅运行爬虫本身所必需的，但否则将需要停止爬虫（ctrl+c 或 SIGKILL）才能显示任何信息。
 

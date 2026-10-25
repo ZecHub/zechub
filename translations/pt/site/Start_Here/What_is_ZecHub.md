@@ -21,9 +21,9 @@ Se é novo no Zcash, use [este guia](/start-here/new-user-guide).****
 
 ---
 
-1. Vá para o [repositório do Github do ZecHub](https://github.com/ZecHub/zechub)
+1. Vá para o [repositório do GitHub do ZecHub](https://github.com/ZecHub/zechub)
    
-2. Crie uma nova conta no Github ou entre com a sua própria
+2. Crie uma nova conta no GitHub ou entre com a sua própria
    
 3. Siga este guia para aprender como fazer um pull request:
 
@@ -51,15 +51,15 @@ No interesse de manter uma aparência uniforme no ZecHub, há um modelo que voc�
 3. No inappropriate content.
 ```
 
-Doações: [aqui](https://explorer.zec.rocks/ua/u17sawf3pdh7z6tsy83vhjd2z7sztpy9y87wyyqz4vqshn3yhch28q3ud3lr0etadl3flz4c9zdrtn9lwlf23vzmjnll97efxzg9h0rjzn9qvhvqr8p3394ysnfhg560xxxc66yxzh8r548myxn3l2qrc9pfrt8nrzhxvlpuuykv7czjsm)
+Doações: [aqui](https://mainnet.zcashexplorer.app/ua/u17sawf3pdh7z6tsy83vhjd2z7sztpy9y87wyyqz4vqshn3yhch28q3ud3lr0etadl3flz4c9zdrtn9lwlf23vzmjnll97efxzg9h0rjzn9qvhvqr8p3394ysnfhg560xxxc66yxzh8r548myxn3l2qrc9pfrt8nrzhxvlpuuykv7czjsm)
 
-<a href="https://explorer.zec.rocks/ua/u17sawf3pdh7z6tsy83vhjd2z7sztpy9y87wyyqz4vqshn3yhch28q3ud3lr0etadl3flz4c9zdrtn9lwlf23vzmjnll97efxzg9h0rjzn9qvhvqr8p3394ysnfhg560xxxc66yxzh8r548myxn3l2qrc9pfrt8nrzhxvlpuuykv7czjsm">
+<a href="https://mainnet.zcashexplorer.app/ua/u17sawf3pdh7z6tsy83vhjd2z7sztpy9y87wyyqz4vqshn3yhch28q3ud3lr0etadl3flz4c9zdrtn9lwlf23vzmjnll97efxzg9h0rjzn9qvhvqr8p3394ysnfhg560xxxc66yxzh8r548myxn3l2qrc9pfrt8nrzhxvlpuuykv7czjsm">
     <img src="/content-images/image-2023-11-18-141228046-644b4c542d.webp" alt="" width="200" height="200"/>
 </a>
 
 
 
-**AVISO LEGAL: O ZecHub é uma iniciativa completamente independente e open source fundada por membros da comunidade Zcash. Nada contido neste repositório do Github deve ser considerado aconselhamento financeiro ou de investimento - é apenas para fins informativos.**
+**AVISO LEGAL: O ZecHub é uma iniciativa completamente independente e open source fundada por membros da comunidade Zcash. Nada contido neste repositório do GitHub deve ser considerado aconselhamento financeiro ou de investimento - é apenas para fins informativos.**
 
 ---
 

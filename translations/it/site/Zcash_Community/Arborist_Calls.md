@@ -4,7 +4,7 @@
 
 # Arborist Calls
 
-Le Arborist Calls di Zcash sono riunioni ricorrenti di sviluppo del protocollo incentrate sulla pianificazione degli aggiornamenti di rete, sul lavoro di implementazione dei nodi di consenso, sulle dipendenze di wallet e infrastruttura e sulla ricerca sul protocollo.
+Le Arborist Calls di Zcash sono riunioni ricorrenti di sviluppo del protocollo incentrate sulla pianificazione degli aggiornamenti di rete, sul lavoro di implementazione dei nodi di consenso, sulle dipendenze dei portafogli e dell'infrastruttura e sulla ricerca sul protocollo.
 
 La pagina ufficiale delle Arborist Calls è mantenuta dalla Zcash Foundation:
 
@@ -42,7 +42,7 @@ La pagina della Foundation è la fonte di riferimento per i link di registrazion
 Le Arborist Calls sono utili per:
 
 - Ingegneri e ricercatori di protocollo
-- Sviluppatori di nodi, wallet, SDK e infrastruttura lightwallet
+- Sviluppatori di nodi, portafogli, SDK e infrastruttura lightwallet
 - Beneficiari di grant il cui lavoro riguarda il consenso, gli aggiornamenti di rete o le dipendenze del protocollo
 - Membri della community che vogliono seguire in pubblico il processo decisionale tecnico
 

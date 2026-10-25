@@ -75,8 +75,7 @@ Easy-to-use, fully-featured multiplatform Zcash wallet with autoshielding suppor
 [Visit](https://play.google.com/store/apps/details?id=com.Nerdbank.eZcash.App)
 
 ### Nozy Wallet
-Orchard-first Zcash wallet built for Zebrad and lightwalletd. Supports fully shielded send/receive, secure local key management, and Ironwood (NU6.3) notes and Orchard-to-Ironwood migration. Transparent addresses are rejected for user-facing payment flows.  
-
+Orchard-first Zcash wallet built for zebrad and lightwalletd. Supports fully shielded send/receive, secure local key management, and Ironwood (NU6.3) notes and Orchard-to-Ironwood migration. Transparent addresses are rejected for user-facing payment flows.  
 [Visit](https://github.com/LEONINE-DAO/Nozy-wallet)
 
 ### Overpay.com
@@ -86,7 +85,6 @@ Payment gateway that lets users spend shielded ZEC on real-world purchases (curr
 ### ZcashToCash
 ZcashToCash (zcashto.cash) — ZEC to Cash App, Chime, Monzo, Revolut, Venmo, or Zelle via Peer. ZEC is converted to USDC (NEAR), then a Peer order on Base releases USDC after the taker proves the fiat payment. Taker sees a payment-app username. Not a CEX, not ZEC-in-escrow.  
 [Visit](https://zcashto.cash/)
-
 
 ### Zafu Wallet
 Open-source privacy wallet for Zcash and Penumbra. Browser extension with client-side proving, verified light-client architecture, cold signing, FROST multisig, and no view key leaving the device.  
@@ -106,7 +104,7 @@ Discord bot providing seamless and secure access to Zcash transactions.
 
 ### ZODL
 Flagship Zcash wallet from ZODL (formerly Zashi). Available on iOS and Android. Supports shielded ZEC and NU7 coinholder voting.  
-[Visit](https://zodl.app/)
+[Visit](https://zodl.com/)
 
 ### Noir Wallet
 Privacy-focused Zcash wallet designed for simple and private ZEC transactions.  
@@ -117,7 +115,7 @@ Goal-based savings wallet built on Zcash shielded transactions.
 [Forum](https://forum.zcashcommunity.com/t/zecvault-a-goal-based-savings-wallet-built-on-zcash-shielded-transactions/55464)
 
 ### Zkool
-Successor to YWallet supporting the latest Zcash protocol features including Orchard.  
+Successor to YWallet. Supports Ironwood, the current shielded pool.  
 [Forum](https://forum.zcashcommunity.com/t/zkool-the-successor-to-ywallet/51139)
 
 ### MonteZecret
@@ -144,13 +142,13 @@ A watch-only desktop wallet designed for individuals and organizations that need
 
 ## Explorers, Data, and Network Dashboards
 
-### CipherScan
-Privacy-first Zcash blockchain explorer. Built with Next.js 15, TypeScript, and Rust/WASM. Lookups do not leak query metadata.  
-[Visit](https://cipherscan.app/)
+### ZecBlock
+Privacy-first Zcash blockchain explorer (formerly CipherScan). Built with Next.js 15, TypeScript, and Rust/WASM. Lookups do not leak query metadata. Rebuilt interface with customizable homepage, chain Q&A (beta), shareable charts, and more.  
+[Visit](https://zecblock.com/)
 
 ### Exblo
 Block explorer designed for testing transactions on the Zcash Testnet.  
-[Visit](https://testnet.exblo.app/)
+[Visit](https://web.archive.org/web/20241206041317/https://testnet.exblo.app/)
 
 ### OpenZcash
 Public transparency dashboard for the Zcash Dev Fund, including ZCG and FPF grant accounting, the Lockbox, governance, and disbursements.  
@@ -176,13 +174,17 @@ Tool to check gRPC response times of Zcash lightwalletd nodes.
 Dashboard for real-time Zcash network statistics and shielding metrics.  
 [Visit](https://zecstats.com)
 
+### ZecZcash
+Independent Zcash data, tools, and research site. Includes an explorer, market and halving tools, wallet guides, and ecosystem news. Not affiliated with ECC or the Zcash Foundation.  
+[Visit](https://zeczcash.com/)
+
 ### zecprice
 Tracking and data metrics tool for Zcash market price performance.  
 [Visit](https://zecprice.com)
 
 ### Zlink
 Directory for finding links, tools, and information about the Zcash ecosystem.  
-[Visit](https://zlink.click)
+[Visit](https://web.archive.org/web/20250309010146/https://zlink.click/)
 
 ### Zecmarket
 The privacy-first marketplace of the Zcash ecosystem. Payments settle directly and the platform never holds your funds.  
@@ -236,6 +238,11 @@ A privacy-focused authentication system that uses shielded Zcash transactions as
 ---
 
 ## Developer, Testing, and Infrastructure
+
+### Ztreamer
+Heavily optimized open-source Zcash indexer and lightwallet-protocol (CompactTxStreamer) implementation backed by an embedded Zakura node. Runs node + indexer + wallet server in one process (ztreamerd); supports gRPC and Zakura v2 P2P. Fast historical indexing and low-latency serving for light wallets.  
+[Visit](https://github.com/distractedm1nd/ztreamer)  
+[Crate](https://crates.io/crates/ztreamer-indexer)
 
 ### Ziggurat
 Network test suite for zcashd and Zebra developers. Includes a Zcash crawler.  

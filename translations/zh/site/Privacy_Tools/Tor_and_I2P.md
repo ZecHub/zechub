@@ -5,13 +5,21 @@
 
 # 为什么隐私很重要
 
+## 简而言之
+
+- **Tor** 通过三个中继转发你的流量，适用于普通网络和 onion 服务——如今，它是匿名化钱包连接和浏览的实用默认选择
+- **I2P** 是专为自身内部服务设计的完全加密点对点覆盖网络；**目前没有任何 Zcash 节点原生支持 I2P**
+- **在移动端：** 使用 Orbot（“Tor 启用的应用”），轻点几下即可让 Zcash 钱包经由 Tor 路由
+- **目前无法通过 Tor 运行 Zcash 节点：** `zcashd` 已于 2026 年 7 月 18 日停止支持，而 Zebra 的 Tor 功能仍在上游处于禁用状态
+- Tor 隐藏*你所在的位置*，而非*你在链上做了什么*——透明交易仍然公开可见
+
 在数字时代，保护你的[隐私](https://www.privacyguides.org/en/)变得愈发重要。虽然有些人可能认为隐私已无可挽回，但事实并非如此。你的隐私正面临风险，因此值得关注。隐私具有重要价值，因为它与权力相关，而确保这种权力被负责任地使用至关重要。
 
 ## Tor 与 I2P 技术
 
 ## Tor
 
-[Tor](https://www.privacyguides.org/en/tor/?h=tor) 是一种代理工具，它利用 Tor 网络为应用程序建立连接。Torbot 通过将这些应用的流量路由到 Tor 网络中来实现这一点，从而增强这些应用的[隐私与匿名性](https://www.torproject.org/)。
+[Tor](https://www.privacyguides.org/en/tor/?h=tor) 是一种代理工具，利用 Tor 网络为应用程序建立连接。Tor 通过将其流量经由 Tor 路由来实现这一点，从而增强这些应用程序的 [隐私和匿名性](https://www.torproject.org/)。
 
 ## I2P 网络
 
@@ -39,30 +47,30 @@ Tor 和 I2P 都是去中心化且匿名的点对点网络，但与 Tor 相比，
 
 Orbot 是一款免费的智能手机虚拟专用网络（VPN），它会将你设备上所有应用程序的流量都通过 Tor 网络进行转发。
 
-请按照以下说明将 Zcash 钱包通过 Tor 路由。请注意，本指南早期版本使用的 Ywallet 已不再维护，并且在 Ironwood 之后将不会继续跟随网络，因此请从[钱包](/using-zcash/wallets)页面选择一个仍在维护的钱包。
+请按照以下说明将 Zcash 钱包通过 Tor 路由。请注意，本指南早期版本使用的 YWallet 已不再维护，并且在 Ironwood 之后将不会继续跟随网络，因此请从[钱包](/using-zcash/wallets)页面选择一个仍在维护的钱包。
 
 1.  从应用商店下载并安装 *Orbot*。
 
-2.  安装完成后，会出现一条欢迎消息。继续进入 *Orbot* 主页并点击 *'Tor Enabled Apps'.*              
+2.  安装完成后，将显示一条欢迎消息。前往 *Orbot* 主页，然后点击 *'Tor 已启用的应用'.*
 
 3. 这时屏幕上会显示一个页面，列出兼容 Tor 的应用程序。在列表中找到你的 Zcash 钱包，并确保已选中它。
 
 4. 随后会出现一个用于设置 VPN 的连接请求，这将允许 *Orbot* 监控网络流量。批准该权限后，*Orbot* 将完成初始化。 
 
-5. 检查任务栏或 Orbot 主页，以确认 Tor 正在运行；当你看到“Connected to the Tor network”时，即表示已连接成功。
+5. 检查任务栏或 Orbot 主页，确认 Tor 正在运行；当您看到“已连接至 Tor 网络”时，即表示已确认。
 
 *注意：如果你的移动网络屏蔽了 Tor，你可以使用 Bridge Server 作为另一种连接方式。*
 
 
 ## 在 PC 或桌面设备上安装 Tor
 
-* 可以从官方网站下载 Tor 浏览器，你可以通过[这里](https://www.torproject.org/download/)访问该链接。
+* 可以从官方网站下载 Tor 浏览器，你可以通过[这里](https://download.torproject.org/)访问该链接。
 
  安装 Tor 最方便的方式是使用 Tor Browser Bundle。如果你更偏好无界面安装，也可以选择单独安装 Tor 守护进程。 
 
 *注意：默认情况下，Tor Browser bundle 会在 tcp/9150 暴露一个 SOCKS 监听器，而 Tor 守护进程会在 tcp/9050 暴露这个 SOCKS 监听器。*
 
-* 请参考 Tor Project 为你的操作系统提供的安装[说明](https://support.torproject.org/apt/)。
+* 请参考 Tor Project 为你的操作系统提供的安装[说明](https://support.torproject.org/little-t-tor/getting-started/installing/)。
 
 ## 通过 Tor 运行节点
 
@@ -85,3 +93,11 @@ Orbot 是一款免费的智能手机虚拟专用网络（VPN），它会将你�
 - **让你的钱包通过 Tor 路由**，移动端可以使用 Orbot，如上所述。这是对大多数人来说最实用的选项，它会向你的钱包所连接的 lightwalletd 服务器隐藏你的 IP
 - **使用 Tor Browser** 访问区块浏览器、论坛，以及任何你不希望因地址而被关联的其他内容
 - **记住 Tor 无法隐藏什么。** 它匿名化的是你的网络位置，而不是你的链上活动。从透明地址发送交易仍然是公开的，而在不同 shielded pools 之间转移价值仍会公开金额。有关哪些内容仍然可见，请参阅[Shielded Pools](/using-zcash/shielded-pools)
+
+## 相关页面
+
+- [VPN 和 DVPN](VPN_and_DVPN.md) — VPN 替代方案及其对比
+- [Web 浏览器](Web_Browsers.md) — 用于日常隐私的浏览器加固
+- [安全即时通讯工具](Secure_Messengers.md) — 私密通信工具
+- [区块浏览器能看到什么](../Zcash_Tech/What_a_Block_Explorer_Can_See.md) — 你的节点级隐私能保护什么以及不能保护什么
+- [屏蔽池](/using-zcash/shielded-pools) — 即使具备网络层匿名性，链上仍然可见的信息

@@ -2,41 +2,41 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Msingi wa Faragha ya Fedha (FPF)
+# Wakfu wa Faragha ya Kifedha (FPF)
 ![FPF](/content-images/FPFgrants-226bdea4bb.webp)
 
 ## Kuhusu FPF
-The Financial Privacy Foundation (FPF) is a non-profit organization incorporated in the Cayman Islands. FPFs primary goal is to educate and empower individuals and communities to take control of their financial privacy and security. FPF is also committed to promoting a fair and equitable financial system that respects personal privacy. FPFs primary activity related to financial privacy is to provide individuals and communities with information, resources and support to protect and optimize their financial privacy. The Financial Privacy Fund (FPF) is currently creating a grant program titled FPF X FPF.
+Wakfu wa Faragha ya Kifedha (FPF) ni shirika lisilo la faida lililoanzishwa katika Visiwa vya Cayman. Lengo kuu la FPF ni kuelimisha na kuwawezesha watu binafsi na jamii kudhibiti faragha na usalama wao wa kifedha. FPF pia imejitolea kukuza mfumo wa kifedha wa haki na usawa unaoheshimu faragha ya kibinafsi. Shughuli kuu ya FPF inayohusiana na faragha ya kifedha ni kuwapa watu binafsi na jamii taarifa, rasilimali na usaidizi ili kulinda na kuboresha faragha yao ya kifedha. Mfuko wa Faragha ya Kifedha (FPF) kwa sasa unaunda mpango wa ruzuku unaoitwa FPF X FPF.
 
 ##  Taarifa kuhusu FPF X FPF
 
- FPF X FPF is about FPFs first experimental grant program, the Financial Privacy Fund (FPF x FPF). The program will fund engineering projects within the Zcash ecosystem that are nearing completion, or projects that will immediately contribute to the ecosystem and can be completed within the specified time and funding limits. FPF X FPF is launching with very limited funds to refine the grant funding process and hopes to launch future rounds. 
+ FPF X FPF inahusu mpango wa kwanza wa ruzuku ya majaribio ya FPF, Mfuko wa Faragha wa Kifedha (FPF x FPF). Programu hiyo itafadhili miradi ya uhandisi ndani ya mfumo ikolojia Zcash ambayo inakaribia kukamilika, au miradi ambayo itachangia mara moja kwenye mfumo ikolojia na inaweza kukamilika ndani ya muda na mipaka maalum ya ufadhili. FPF X FPF inazindua kwa fedha chache sana ili kuboresha mchakato wa ufadhili wa ruzuku na inatarajia kuanzisha raundi zijazo. 
 
 
-## [FPF x Programu ya Zawadi za ZecHub - Blog Post](https://www.financialprivacyfoundation.org/post/partnership-announcement-zechub)
+## [Programu ya Fadhila ya FPF x ZecHub - Chapisho la Blogu](https://www.financialprivacyfoundation.org/post/partnership-announcement-zechub)
 
-## FPF X Maelezo ya Programu ya FPF 
+## Maelezo ya Programu ya FPF X FPF 
 
-FPF X Maelezo ya Programu ya FPF FPF ina maelezo kadhaa katika programu yake ambayo ni:
+Maelezo ya Programu ya FPF X FPF FPF ina maelezo kadhaa katika programu yake ambayo ni:
 
-- Kiasi cha mfuko: Hadi $ 50,000 USD.
-- Kiwango cha juu ya ombi: $ 25,000 USD.
+- Kiasi cha Mfuko: Hadi $50,000 USD
+- Ombi la Juu Zaidi: $25,000 USD
 - Mahitaji ya KYC: Hakuna
-- Aina ya Mradi: Miradi tu ya uhandisi ambayo inaweza moja kwa moja kufaidika mazingira Zcash na unaweza kuwa kikamilifu kukamilika itazingatiwa.
-- Malipo: Baada ya kukamilika kwa mradi mafanikio.
-- Tarehe ya Kuzinduliwa: Machi 18, 2024
+- Aina ya Mradi: Miradi ya uhandisi pekee ambayo inaweza kunufaisha moja kwa moja mfumo ikolojia Zcash na inaweza kukamilika kikamilifu ndiyo itazingatiwa.
+- Malipo: Baada ya kukamilika kwa mradi kwa mafanikio
+- Tarehe ya Uzinduzi: Machi 18, 2024
 
-## Mchakato wa Maombi ya ruzuku 
+## Mchakato wa Maombi ya Ruzuku 
 
-The FPF X FPF grant application process includes several processes. First, applicants must apply for the grant through the secure form provided. Then, FPF will review the application for eligibility, and applicants will be notified of their status within 5 calendar days after the application deadline. Next, an adhoc review committee will review and decide on the grant award within 20 calendar days after the submission deadline. Details of the grants awarded will be published on the FPF website for transparency and accountability.
+Mchakato wa maombi ya ruzuku ya FPF X FPF unajumuisha michakato kadhaa. Kwanza, waombaji lazima waombe ruzuku kupitia fomu salama iliyotolewa. Kisha, FPF itapitia maombi ya ustahiki, na waombaji wataarifiwa kuhusu hali yao ndani ya siku 5 za kalenda baada ya tarehe ya mwisho ya maombi. Kisha, kamati ya ukaguzi wa adhoc itapitia na kuamua kuhusu tuzo ya ruzuku ndani ya siku 20 za kalenda baada ya tarehe ya mwisho ya uwasilishaji. Maelezo ya ruzuku zilizotolewa yatachapishwa kwenye tovuti ya FPF kwa uwazi na uwajibikaji.
 
-## Habari zaidi kuhusu FPF X FPF 
+## Taarifa Zaidi kuhusu FPF X FPF 
 
-Habari zaidi kuhusu FPF X FPF inaweza kuonekana kwenye tovuti ya Financial Privacy Fun (FPF) [hapa](https://www.financialprivacyfoundation.org/grants) na kama bado una udadisi kuhusu mpango wa FPF X FPF, unaweza kutembelea hati ya Maswali Yanayoulizwa Sana hapa: [Maswali ya kawaida](https://www.financialprivacyfoundation.org/_files/ugd/9ba471_16b6c85b5eb645c9847536d2fdb72434.pdf). 
+Taarifa zaidi kuhusu FPF X FPF zinaweza kuonekana kwenye tovuti ya Financial Privacy Fun (FPF) [hapa](https://www.financialprivacyfoundation.org/grants) na kama bado una hamu ya kujua kuhusu programu ya FPF X FPF, unaweza kutembelea hati ya Maswali Yanayoulizwa Mara kwa Mara hapa: [Maswali Yanayoulizwa Mara kwa Mara](https://www.financialprivacyfoundation.org/_files/ugd/9ba471_16b6c85b5eb645c9847536d2fdb72434.pdf). 
 
-Kama una nia ya kuwa Reviewer kujitolea kwa ajili ya duru hii ya mpango FPF X FPF, tafadhali tembelea tovuti hii. [kiungo cha kuunganisha](https://www.financialprivacyfoundation.org/_files/ugd/9ba471_679a364148984518be3b728cf1df04d8.pdf)Kwa maswali zaidi kuhusu FPF X FPF Grant Program, unaweza kuuliza moja kwa moja kwa kutuma barua pepe. [FPF ya juu zaidi](info@financialprivacyfoundation.org).
+Ikiwa una nia ya kuwa Mkaguzi wa Kujitolea kwa raundi hii ya programu ya FPF X FPF, tafadhali tembelea hii [kiungo](https://www.financialprivacyfoundation.org/_files/ugd/9ba471_679a364148984518be3b728cf1df04d8.pdf)Kwa maswali zaidi kuhusu Programu ya Ruzuku ya FPF X FPF, unaweza kuuliza moja kwa moja kwa kutuma barua pepe [FPF](mailto:info@financialprivacyfoundation.org).
 
 ## Rasilimali 
-[Mfuko wa Faragha ya Fedha](https://www.financialprivacyfoundation.org/_files/ugd/9ba471_679a364148984518be3b728cf1df04d8.pdf)
+[Mfuko wa Faragha ya Kifedha](https://www.financialprivacyfoundation.org/_files/ugd/9ba471_679a364148984518be3b728cf1df04d8.pdf)
 
 

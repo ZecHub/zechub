@@ -1,4 +1,4 @@
-# Guida di Stile di ZecHub
+# Guida di stile di ZecHub
 
 Lo stile di ZecHub è semplice e accessibile. Accogliamo tutti e ci concentriamo sulla comunità Zcash.
 

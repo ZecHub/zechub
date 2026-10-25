@@ -413,7 +413,7 @@ Varios agentes pueden operar desde la misma wallet mediante la **rotación de cu
 
 ### Transacciones de Zcash totalmente blindadas (Orchard)
 
-Los pagos blindados usan el **protocolo Orchard** de Zcash, el pool blindado más reciente y seguro. El servidor verifica los pagos utilizando una **Incoming Viewing Key (IVK)**, que puede descifrar las notas recibidas sin exponer la clave de gasto. Los ataques de repetición se evitan mediante la **vinculación de memo**: cada desafío incorpora un memo único `zimppy:{challenge_id}` que se verifica criptográficamente.
+Los pagos blindados usan el **protocolo Orchard** de Zcash, el pool blindado introducido por NU5. El servidor verifica los pagos utilizando una **Incoming Viewing Key (IVK)**, que puede descifrar las notas recibidas sin exponer la clave de gasto. Los ataques de repetición se evitan mediante la **vinculación de memo**: cada desafío incorpora un memo único `zimppy:{challenge_id}` que se verifica criptográficamente.
 
 ### Sesiones, cero latencia por solicitud
 

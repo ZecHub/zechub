@@ -167,7 +167,7 @@ ShapeShift забезпечує обмін ZEC у кількох блокчей�
 
 [Гаманець Zodl](https://zodl.com)
 
-[Управління ShapeShift DAO (FOX Token)](https://shapeshift.com/fox-token)
+[Управління ShapeShift DAO (FOX Token)](https://web.archive.org/web/20210126180411/https://shapeshift.com/fox-token)
 
 [Zcash Community Grants](https://zcashcommunitygrants.org/)
 

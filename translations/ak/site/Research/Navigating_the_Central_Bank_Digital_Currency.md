@@ -101,7 +101,7 @@ Sika mu a w'aka no, bere bi na ɛyɛ anidaso kanea de gyina nsonsonoe hunu ano. 
 
 Wɔ wɔn a wɔrekɔyɛ adwuma wɔ baabi a wonhuu so sɛ wɔde CBDC bɛhyɛ hɔ no fam no, sika na ɛbɛboa wɔn.
 1. Amanaman ntam akatua ho bea ([BIS (Branch of the Bank)](https://www.bis.org/search?keywords=cbdc))
-2. Amanaman Nkabom Kuo ([IMF ne aman a wɔhwɛ wɔn so.](https://www.imf.org/en/About))
+2. Amanaman Nkabom Kuo ([IMF ne aman a wɔhwɛ wɔn so.](https://web.archive.org/web/20260708111341/https://www.imf.org/en/about))
 3. Nhwehwɛmu nkrataa ([krataafa](https://papers.ssrn.com/searchresults.cfm?term=CBDC))
 4. Nhomasua Nhoma (Academic Journals)[nsɛmma nhoma no](https://www.bis.org/publ/work976.pdf))
 5. C.E.I Adesuabea ([Adesuabea](https://cei.org/blog/central-banks-are-watching-lets-watch-them-back/))

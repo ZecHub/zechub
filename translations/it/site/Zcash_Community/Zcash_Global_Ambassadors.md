@@ -2,11 +2,11 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Ambasciatori Globali di Zcash
+# Ambasciatori globali di Zcash
 
 Il Programma degli Ambasciatori Globali identifica i membri della comunità che apportano contributi di alta qualità all'ecosistema Zcash e li mette nelle condizioni di diventare leader. Gli ambasciatori fanno crescere la comunità Zcash, favoriscono l'adozione da parte degli utenti e promuovono la consapevolezza della tecnologia di Zcash per la tutela della privacy.
 
-## Cosa fa un Ambasciatore?
+## Cosa fa un ambasciatore?
 
 - Organizza incontri fisici o virtuali
 - Mantiene una presenza attiva sui social media e crea contenuti originali su Zcash
@@ -16,9 +16,9 @@ Il Programma degli Ambasciatori Globali identifica i membri della comunità che 
 
 Gli ambasciatori hanno libertà creativa sulle attività che pianificano, consentendo loro di adattare le iniziative di sensibilizzazione al proprio contesto locale.
 
-## [Sito web degli Ambasciatori Globali](https://zcashambassadors.com)
+## [Sito web degli ambasciatori globali](https://web.archive.org/web/20240413194338/https://zcashambassadors.com/)
 
-## Comunità di Ambasciatori attive (2026)
+## Comunità di ambasciatori attive (2026)
 
 | Regione | Comunità | Attività principale |
 |--------|-----------|-------------|
@@ -31,13 +31,13 @@ Gli ambasciatori hanno libertà creativa sulle attività che pianificano, consen
 | Africa orientale | [Zcash East Africa](https://x.com/ZcashEastAfrica) | Crescita della comunità in Africa orientale e Uganda |
 | Sudafrica | [Zcash South Africa](https://twitter.com/Zcash_SA) | Sudafrica |
 | Ghana | [Zcash Ghana](https://x.com/ZcashGH) | Ghana |
-| Messico | [zcashqro](https://x.com/zcashqro) | Sensibilizzazione universitaria e accoglienza degli sviluppatori |
+| Messico | [Zcash Mexico](https://x.com/ZcashMx) | Sensibilizzazione universitaria e accoglienza degli sviluppatori |
 | Russia | [ruZcash](https://x.com/ruZCASH) | Contenuti e comunità in lingua russa |
 | India | [Zcash India](https://x.com/ZcashIND) | Formazione per sviluppatori e crescita della comunità |
 | Corea | [Zcash Korea](https://x.com/zcashkorea) | Contenuti educativi in coreano |
 
-## Candidati per diventare Ambasciatore
+## Candidati per diventare ambasciatore
 
 Puoi anche partecipare:
-- Contribuendo alle [ZEC ricompense](https://bounties.zechub.wiki/)
+- Contribuendo alle [ZEC Bounties](https://bounties.zechub.wiki/)
 - Unendoti al [Zcash Discord globale](https://discord.gg/zcash)

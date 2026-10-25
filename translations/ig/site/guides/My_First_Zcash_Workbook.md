@@ -4,17 +4,15 @@
 
 ## Okwu Mmalite
 
-*My First Zcash* is an educational workbook created to help new learners, especially young people and beginners in crypto understand the fundamentals of Zcash, financial privacy, digital money, and the systems behind the technology. It was developed by a diverse and passionate group of contributors from across the global Zcash community, combining software development, design, research, education, and privacy advocacy.
+*My First Zcash* bụ akwụkwọ ọrụ agụmakwụkwọ e kere iji nyere ndị mmụta ọhụrụ aka, ọkachasị ndị ntorobịa na ndị mbido na crypto ịghọta ihe ndị bụ isi nke Zcash, nzuzo ego, ego dijitalụ, na sistemụ dị n'azụ teknụzụ ahụ. Ndị otu dị iche iche na ndị nwere mmasị sitere na obodo Zcash zuru ụwa ọnụ mepụtara ya, na-ejikọta mmepe ngwanrọ, imewe, nyocha, agụmakwụkwọ, na nkwado nzuzo.
 
-This guide provides an overview of the workbook's core learning arc, divided into nine major sections. It is not a replacement for the book itself but rather, it is a companion resource that summarizes the educational flow and highlights important information for instructors, students, and community educators.
+Nduzi a na-enye nkọwa zuru ezu nke isi ihe mmụta dị n'akwụkwọ ọrụ ahụ, nke e kewara n'ime ngalaba itoolu dị mkpa. Ọ bụghị ihe nnọchi anya akwụkwọ ahụ n'onwe ya kama ọ bụ ihe enyemaka nke na-achịkọta usoro agụmakwụkwọ ma na-egosipụta ozi dị mkpa maka ndị nkuzi, ụmụ akwụkwọ, na ndị nkuzi obodo.
 
-Akwụkwọ ọrụ ahụ dị maka nbudata n'efu dị ka PDF ma ọ bụ dị ka akwụkwọ mpịakọta mmekọrịta:
+Enwere ike ibudata akwụkwọ ọrụ ahụ n'efu dịka PDF:
 
-[Ihe e dere n'elu](https://drive.google.com/file/d/1eYWLgvAAHzCpr2b7bZ494FTZAtHqmtRk/view)
+[Nchịkọta](https://drive.google.com/file/d/1eYWLgvAAHzCpr2b7bZ494FTZAtHqmtRk/view)
 
-[Flipbook](https://midd.me/nbp2)
-
-[GitHub Repo](https://github.com/massadoptionorg/My-First-Zcash) 
+[Ebe Nchekwa GitHub](https://github.com/massadoptionorg/My-First-Zcash) 
 
 
 
@@ -22,146 +20,146 @@ Akwụkwọ ọrụ ahụ dị maka nbudata n'efu dị ka PDF ma ọ bụ dị k
 
 ## 1. Gịnị bụ Zcash?
 
-This first section introduces readers to the idea of digital cash and why privacy matters in a modern digital society.  It compares traditional financial systems with transparent blockchains, highlighting how most public ledgers expose user activity.  Zcash is described as a privacy-preserving alternative digital money that allows users to exchange safely without revealing personal financial information.
+Nkebi nke mbụ a na-ewebata ndị na-agụ akwụkwọ echiche nke ego dijitalụ na ihe kpatara nzuzo ji dị mkpa n'obodo dijitalụ nke oge a. Ọ na-atụnyere usoro ego ọdịnala na blockchain doro anya, na-akọwapụta otu ọtụtụ akwụkwọ ndekọ ego ọha si ekpughe ọrụ onye ọrụ. A kọwara Zcash dị ka ego dijitalụ ọzọ nke na-echekwa nzuzo nke na-enye ndị ọrụ ohere ịgbanwere onwe ha n'enweghị ihe ọ bụla na-ekpughe ozi ego nkeonwe.
 
- The workbook emphasises that privacy is not about hiding wrongdoing but protecting regular people from unwarranted exposure, surveillance, and data exploitation.  Learners are taken through straightforward examples that show how Zcash was created to give people genuine control over their financial lives and how regular financial transactions reveal more personal information than we realise.
-
-
----
-
-## 2. Ònye Wuru Zcash na Gịnị Mere O Ji Dị?
-
-This section explains the origins of Zcash through the lens of scientific research and cryptography. It introduces zero-knowledge proofs specifically "zk-SNARKs" as the breakthrough technology that makes shielded private transactions possible.
-
-The workbook also touches on the history of Zcash's launch, its founding principles, and the global community that maintains and supports the ecosystem today. The mission is framed around empowering individuals, providing censorship-resistant access to digital money, and advancing privacy technology for everyone.
+ Akwụkwọ ọrụ ahụ na-emesi ike na nzuzo abụghị maka izochi ihe ọjọọ kama ọ bụ ichebe ndị mmadụ nkịtị site na ikpughe ihe na-enweghị isi, nlekota anya, na mmegbu data. A na-enyocha ndị mmụta site na ihe atụ doro anya nke na-egosi otu esi emepụta Zcash iji nye ndị mmadụ ezigbo njikwa na ndụ ego ha na otu azụmahịa ego mgbe niile si ekpughe ozi nkeonwe karịa ka anyị maara.
 
 
 ---
 
-## 3. Otú Zcash si arụ ọrụ
+## 2. Ònye wuru Zcash na Gịnị mere o ji dịrị?
 
-Akụkụ a na-agbaji ntọala ntọala nke usoro Zcash na asụsụ a pụrụ ịbịaru nso.
+Nkebi a na-akọwa mmalite nke Zcash site na nyocha sayensị na nzuzo. Ọ na-ewebata ihe akaebe efu nke ihe ọmụma kpọmkwem "zk-SNARKs" dị ka teknụzụ ọhụrụ nke na-eme ka azụmahịa nzuzo echekwara kwe omume.
 
-- Adreesị doro anya vs. echekwara 
-- Igodo nlele na ikpughe njikwa 
-- Ọrụ nke ndị na-egwupụta akụ/ndị nyocha 
-- Otu ihe akaebe nke ihe ọmụma efu si akwado azụmahịa 
-- How privacy is preserved even while ensuring the network remains decentralized and secure  
-
-Ihe osise na ihe atụ ndị dị n'akwụkwọ ahụ na-eme ka ihe ndị a dị mfe nghọta nye ndị na-amalite amalite.
+Akwụkwọ ọrụ a na-akọkwa akụkọ ihe mere eme nke mmalite Zcash's, ụkpụrụ ntọala ya, na obodo zuru ụwa ọnụ nke na-akwado ma na-akwado gburugburu ebe obibi taa. Ọrụ a bụ maka inye ndị mmadụ n'otu n'otu ike, inye ohere ịnweta ego dijitalụ na-anaghị egbochi nnyocha, na ịkwalite teknụzụ nzuzo maka onye ọ bụla.
 
 
 ---
 
-## 4. Iji Zcash eme ihe kwa ụbọchị
+## 3. Otu Zcash si arụ ọrụ
 
-Section four focusses on actual use examples. It shows how someone might send and receive Zcash using mobile wallets, how QR codes ease payments, and how users employ shielded transactions for personal protection, business confidentiality, or cross-border transfers.
+Akụkụ a na-ekewa ntọala teknụzụ nke usoro Zcash n'asụsụ a pụrụ ịbịaru nso. Isi echiche gụnyere:
 
-Examples show real world situations including tipping artists, transferring money to relatives overseas, supporting NGOs anonymously, or utilising Zcash as a teen's private digital stipend.
+- Adreesị doro anya na nke echekwara 
+- Igodo ndị a na-elele na mkpughe a na-achịkwa 
+- Ọrụ nke ndị na-egwuputa ihe/ndị na-eme nyocha 
+- Otu esi egosi ihe akaebe efu na-egosi azụmahịa 
+- Otu esi echekwa nzuzo ọbụlagodi na-ahụ na netwọk ahụ ka dị nchebe ma nwee usoro nchekwa 
 
----
-
-## 5. Ịrụ ụlọ na Zcash
-
-This section highlights how developers, designers, researchers, and educators can build on Zcash. It introduces concepts like:
-
-- Akpa ego Zcash 
-- SDK ndị mmepe 
-- Ìgwè Ndị Na-arụ Ọrụ n'Etiti Mba Dị Iche Iche 
-- Ọrụ nke ndị na-enye onyinye na mmepe nke isi mmalite 
-- Olee otu nkwalite netwọk Zcash si eme ka usoro ahụ dịkwuo mma 
-
-Readers gain a sense of how Zcash evolves over time and how global contributors help expand tools, infrastructure, applications, and educational resources.
+Ihe osise na ihe atụ anya dị n'akwụkwọ ọrụ na-enyere aka mee ka echiche ndị a dị mfe maka ndị mbido.
 
 
 ---
 
-## 6. Nchebe, Nchedo, na Omume Ndị Kasị Mma
+## 4. Iji Zcash eme ihe na ndụ kwa ụbọchị
 
-Akụkụ a na-akụzi ụkpụrụ nchekwa nchekwa dijitalụ:
+Nkebi nke anọ na-elekwasị anya na ihe atụ ojiji n'ezie. Ọ na-egosi otu mmadụ nwere ike isi zipu ma nata Zcash site na iji obere akpa ekwentị, otu koodu QR si eme ka ịkwụ ụgwọ dị mfe, na otu ndị ọrụ si eji azụmahịa echekwara maka nchekwa onwe onye, nzuzo azụmaahịa, ma ọ bụ mbufe ókèala.
+
+Ihe atụ na-egosi ọnọdụ ụwa n'ezie gụnyere inye ndị omenkà onyinye ego, ịnyefe ego nye ndị ikwu nọ na mba ofesi, ịkwado ndị otu NGO n'amaghị aha ha, ma ọ bụ iji Zcash mee ihe dị ka ego dijitalụ nke onye ntorobịa.
+
+---
+
+## 5. Iwuli ụlọ na Zcash
+
+Nkebi a na-akọwapụta otu ndị mmepe, ndị na-emepụta ihe, ndị nchọpụta, na ndị nkuzi nwere ike isi wulite Zcash. Ọ na-ewebata echiche dịka:
+
+- Obere akpa Zcash 
+- SDK ndị nrụpụta 
+- Ndị otu ọrụ obodo 
+- Ọrụ nke ndị na-enye aka na mmepe mmalite mepere emepe 
+- Otu esi emelite netwọkụ Zcash ka ọ na-emeziwanye usoro ahụ 
+
+Ndị na-agụ akwụkwọ ga-aghọta otú Zcash si agbanwe ka oge na-aga na otu ndị na-enye aka n'ụwa niile si enyere aka ịgbasa ngwaọrụ, akụrụngwa, ngwa, na akụrụngwa agụmakwụkwọ.
+
+
+---
+
+## 6. Nchekwa, Nchekwa, na Omume Kachasị Mma
+
+Nkebi a na-akụzi àgwà nchekwa dijitalụ dị mkpa:
 
 - Ichekwa igodo na mkpụrụ okwu 
-- Izere aghụghọ 
-- Ịghọta obere akpa ego echekwara na nke na-abụghị echekwa 
-- Ịrụ ọrụ nke ọma na paswọọdụ dị ọcha 
-- Izere ikesa ozi akpa ego n'ihu ọha 
+- Izere wayo 
+- Ịghọta obere akpa nchekwa na nke na-abụghị nke nchekwa 
+- Ime ihe dị ọcha nke paswọọdụ siri ike 
+- Izere ịkekọrịta ozi dị mkpa n'ihu ọha na eze 
 
-Ihe nkuzi ndị a na-enye ndị ọrụ ọhụrụ ihe ndị bụ isi na-agafe karịa Zcash n'ime ndụ dijitalụ n'ozuzu ya.
+Ihe mmụta ndị a na-enye ndị ọrụ ọhụrụ àgwà ndị dị mkpa nke gafere Zcash ruo na ndụ dijitalụ nkịtị.
 
 
 ---
 
 ## 7. Obodo Zcash zuru ụwa ọnụ
 
-The Zcash ecosystem is global, diverse, and community-driven. This section explains how contributors collaborate through open forums, GitHub, Discord, and working groups. It introduces the culture of open-source development, privacy advocacy, and grassroots education.
+Usoro Zcash zuru ụwa ọnụ, dị iche iche, ma na-adabere na obodo. Nkebi a na-akọwa otu ndị na-enye aka si arụkọ ọrụ site na mkparịta ụka mepere emepe, GitHub, Discord, na otu ọrụ. Ọ na-ewebata omenala nke mmepe mepere emepe, nkwado nzuzo, na agụmakwụkwọ ndị mmadụ.
 
-The workbook also describes the organizations involved in the ecosystem, including nonprofits, foundations, and independent builders who support the network and maintain Zcash's decentralization and public-good mission.
+Akwụkwọ ọrụ ahụ na-akọwakwa òtù ndị metụtara gburugburu ebe obibi, gụnyere ndị na-abụghị ndị otu, ntọala, na ndị na-ewu ụlọ nọọrọ onwe ha bụ́ ndị na-akwado netwọk ahụ ma na-akwado ọrụ nkewapụ Zcash's na ọrụ ọha na eze.
 
 
 ---
 
-## 8. Zute Ndị Okike - "Ndị Mere Ya!"
+## 8. Zute Ndị Okike - "Ndị Na-ele Anya Mere Ya!"
 
-Akụkụ a na-eme ka ndị ọrụ nwere onyinye ndị mere ka * My First Zcash * nwee ike. Ha gụnyere:
+Nkebi a na-akọwapụta ndị nyere aka nwere nkà ndị mere ka *My First Zcash* kwe omume. Ha gụnyere:
 
 **Ice (@frostbyte11211)**
 
-Nwa akwụkwọ sekọndrị nwere mmasị n'ihe nzuzo, kọmputa, nkà izo ya ezo, na nkà mmụta uche.
+Nwa akwụkwọ sekọndrị nwere mmasị na nzuzo, kọmputa, nzuzo, na nkà mmụta uche.
 
-**Pacu (@thecodebuffet) ** 
+**Pacu (@thecodebuffet)** 
 
-A longtime Zcash wallet developer, previously at ECC working on SDKs and Light Client technology, now contributing to the ecosystem under a ZCG grant.
+Onye na-emepụta obere akpa Zcash ogologo oge, onye bụbu onye na ECC na-arụ ọrụ na SDKs na teknụzụ Light Client, na-enye aka ugbu a na gburugburu ebe obibi n'okpuru onyinye ZCG.
 
 **Marek** 
 
-Onye injinia na Zcash Foundation. 
+Ọ bụ injinia na Zcash Foundation. 
 
 **Alfredo Garcia** 
 
-Onye injinia sistemụ Rust na-arụ ọrụ na ndị otu Zebra na Zcash Foundation.
+Ọ bụ onye injinia sistemụ Rust na-arụ ọrụ na otu Zebra na Zcash Foundation.
 
-**Pili (@mpguerra) ** 
+**Pili (@mpguerra)** 
 
-Onye njikwa na Zcash Foundation nwere ahụmịhe karịrị afọ 20, gụnyere ọrụ na Tor Project.
+Onye njikwa na Zcash Foundation nwere ahụmịhe afọ 20+, gụnyere ọrụ na Tor Project.
 
-**Zksquirrel** 
+**Zksquirel** 
 
-Zcash Arborist, community note taker, and contributor to ZecHub's education initiatives.
+Zcash Arborist, onye na-ede akwụkwọ obodo, na onye na-enye aka na atụmatụ agụmakwụkwọ ZecHub's.
 
-**Tripleyouww** 
+**Atọ gị** 
 
 Onye nhazi nkwado obodo na Zcash Foundation. 
 
-**Mass Adoption Alliance** (Nkwekọrịta Ịnabata Ụmụaka n'Ụba) 
+**Njikọ Nnabata Ukwu** 
 
-An initiative empowering youth through education on decentralized cryptocurrencies and financial privacy.
-
----
-
-These profiles show readers that Zcash is maintained by a diverse community of engineers, designers, developers, educators, and organizers from across the world.
-
+Atụmatụ inye ndị ntorobịa ike site na agụmakwụkwọ gbasara ego dijitalụ na nzuzo ego.
 
 ---
 
-## 9 Otú Ị Ga-esi Mee Ka Gị na Ndị Ọzọ Na-ekwurịta Okwu
+Ndị a na-egosi ndị na-agụ akwụkwọ na obodo dị iche iche nke ndị injinia, ndị na-emepụta ihe, ndị mmepe, ndị nkuzi, na ndị nhazi sitere n'akụkụ ụwa niile na-elekọta Zcash.
 
-Akụkụ ikpeazụ na-akpọ ndị na-agụ akwụkwọ ka ha bụrụ akụkụ nke gburugburu ebe obibi Zcash. Ohere gụnyere:
 
-- Isonye na Zcash Global Discord 
-- Ikere òkè n'ọkpụkpọ òkù nke obodo na òtù ọrụ 
-- Na-enye aka na nsụgharị akwụkwọ ọrụ n'ọdịnihu 
-- Nkwado maka agụmakwụkwọ mepere emepe 
-- Ịmepụta ọdịnaya, ntinye koodu, ọrụ, ma ọ bụ nzaghachi 
-- Ịchọpụta onyinye ndị obodo Zcash 
+---
 
-The message is clear: anyone can participate, and the community welcomes contributors of all backgrounds and skill levels.
+## 9. Otu esi etinye aka
+
+Nkebi ikpeazụ na-akpọ ndị na-agụ akwụkwọ òkù ka ha bụrụ akụkụ nke usoro Zcash. Ohere ndị a gụnyere:
+
+- Isonyere Zcash Global Discord 
+- Iso na oku obodo na otu ọrụ 
+- Inye aka na ntụgharị akwụkwọ ọrụ n'ọdịnihu 
+- Ịkwado agụmakwụkwọ mepere emepe 
+- Ịmepụta ọdịnaya, onyinye koodu, ihe osise, ma ọ bụ nzaghachi 
+- Ịchọgharị Zcash Community Grants 
+
+Ozi a doro anya: onye ọ bụla nwere ike isonye, obodo ahụ na-anabata ndị sonyere n'ọkwa na ọkwa nkà niile.
 
 [Zcash Global Discord](https://discord.gg/F6DCkCDK)
 
 ---
 
-# Akwụkwọ ikike
+# Ikikere
 
-*My First Zcash* nwere ikikere n'okpuru **Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0).**
+*My First Zcash* nwere ikike n'okpuru **Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0)**
 
-[Iwu ikike](https://creativecommons.org/licenses/by-sa/4.0/)
+[Ikikere](https://creativecommons.org/licenses/by-sa/4.0/)

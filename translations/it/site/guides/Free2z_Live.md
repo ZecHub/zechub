@@ -1,6 +1,6 @@
 [![Edit Page](https://img.shields.io/badge/Edit-blue)](https://github.com/zechub/zechub/edit/main/site/guides/Free2z_Live.md)
 
-# Free2z: configurazione dell'account + tutorial sul Livestream
+# Free2Z: configurazione dell'account + tutorial sul livestream
 
 ## Introduzione
 
@@ -73,7 +73,7 @@ Puoi acquistare altri 2Zs con Zcash cliccando sul tuo saldo di 2Zs. L'importo mi
 
 ## Donazioni e abbonamenti
 
-Una volta trovato un creatore che ti piace, puoi mostrare il tuo apprezzamento donando e abbonandoti a lui. Tutte le donazioni vanno direttamente al wallet del creatore. A titolo di esempio, abboniamoci alla [pagina ufficiale di Free2Z](https://free2z.cash/free2z).
+Una volta trovato un creatore che ti piace, puoi mostrare il tuo apprezzamento donando e abbonandoti a lui. Tutte le donazioni vanno direttamente al portafoglio del creatore. Ad esempio, abboniamoci alla [pagina di Free2Z](https://free2z.cash/free2z).
 
 ![Pagina ufficiale di Free2Z](/content-images/free2z-page-94c5fd5f4f.webp)
 
@@ -95,9 +95,9 @@ Oppure, all'interno di un post, cerca il pulsante più fluttuante. Da qui puoi d
 
 ![Pulsanti di azione fluttuanti all'interno di un post](/content-images/post-floating-buttons-a1e2ef1102.webp)
 
-## Live Streaming
+## Live streaming
 
-La piattaforma Free2z offre una fantastica funzionalità chiamata Free2z Live. Con questo strumento, i creatori possono avviare dirette live per i membri abbonati. Alcune funzionalità chiave di Free2z Live includono:  
+La piattaforma Free2Z offre una fantastica funzionalità chiamata Free2Z Live. Con questo strumento, i creatori possono avviare dirette live per i membri abbonati. Alcune funzionalità chiave di Free2Z Live includono:  
 - Audio e video  
 - Condivisione dello schermo  
 - Editing collaborativo del codice  
@@ -105,9 +105,9 @@ La piattaforma Free2z offre una fantastica funzionalità chiamata Free2z Live. C
 - Lavagna condivisa  
 - E molto altro!
 
-### Cosa puoi fare con Free2z Live
+### Cosa puoi fare con Free2Z Live
 
-Free2z Live è uno strumento potente che permette ai creatori di trasmettere qualsiasi tipo di contenuto. Ecco alcuni esempi del tipo di contenuti che puoi trasmettere con Free2z Live:  
+Free2Z Live è uno strumento potente che permette ai creatori di trasmettere qualsiasi tipo di contenuto. Ecco alcuni esempi del tipo di contenuti che puoi trasmettere con Free2Z Live:  
 - Tutorial e dimostrazioni  
 - Spettacoli ed eventi  
 - Progetti collaborativi  
@@ -116,7 +116,7 @@ Free2z Live è uno strumento potente che permette ai creatori di trasmettere qua
 
 ### Come andare in diretta
 
-È molto facile avviare una diretta con Free2z Live. Ma ci sono alcuni requisiti prima di poter iniziare la tua diretta.  
+È molto facile avviare una diretta con Free2Z Live. Ma ci sono alcuni requisiti prima di poter iniziare la tua diretta.  
 1. Il creatore **deve** avere un **member price** minimo di 10 2Zs.  
 2. Il creatore **deve** avere un saldo di almeno 150 2Zs nel proprio account.  
 
@@ -124,7 +124,7 @@ Se il creatore soddisfa **entrambe** le condizioni di cui sopra, un'icona chiama
 
 ![Pulsante Go Live](/content-images/go-live-4c8ac67505.webp)
 
-Per avviare una diretta, basta cliccare sul pulsante **Go Live** e l'app Free2z chiederà il permesso di usare il microfono e la webcam (se ne hai una). Dopo aver concesso le autorizzazioni necessarie, Free2z ti chiederà di inserire un nickname che vuoi usare durante la diretta. Una volta scelto un nickname, clicca su **Join** per avviare la tua diretta.
+Per avviare una diretta, basta cliccare sul pulsante **Go Live** e l'app Free2Z chiederà il permesso di usare il microfono e la webcam (se ne hai una). Dopo aver concesso le autorizzazioni necessarie, Free2Z ti chiederà di inserire un nickname che vuoi usare durante la diretta. Una volta scelto un nickname, clicca su **Join** per avviare la tua diretta.
 
 ![Scelta del nickname per la diretta](/content-images/select-nickname-414444b992.webp)
 
@@ -134,15 +134,15 @@ E fatto! Quando avvii una diretta, il tuo profilo mostrerà un'icona che indica 
 
 Quando le persone si uniscono alla diretta, possono chattare, chiedere di salire sul palco, interagire votando nei sondaggi e altro ancora.
 
-![Esempio di una sessione di Free2z Live](/content-images/free2z-live-example-eecb2ae553.webp)
+![Esempio di una sessione di Free2Z Live](/content-images/free2z-live-example-eecb2ae553.webp)
 
-_(Esempio di sessione di Free2z Live)_
+_(Esempio di sessione di Free2Z Live)_
 
-Free2z Live è versatile e potente. Nella prossima sezione fornirò una panoramica delle sue funzionalità e dei suoi strumenti.
+Free2Z Live è versatile e potente. Nella prossima sezione fornirò una panoramica delle sue funzionalità e dei suoi strumenti.
 
-### Esplorare Free2z Live
+### Esplorare Free2Z Live
 
-Questo wiki-doc non vuole essere una guida approfondita a Free2z o Free2z Live. Ma ecco una panoramica generale dei suoi strumenti.
+Questo wiki-doc non vuole essere una guida approfondita a Free2Z o Free2Z Live. Ma ecco una panoramica generale dei suoi strumenti.
 
 In basso a sinistra dello schermo vediamo alcuni pulsanti.
 
@@ -177,19 +177,19 @@ Non è scopo di questo wiki-doc spiegare tutti i plugin, ma ti incoraggio davver
 
 ## Conclusione
 
-In conclusione, Free2z è una piattaforma versatile che permette ai creatori di mettere in mostra le proprie capacità, condividere conoscenze, raccogliere fondi per i propri progetti e coinvolgere i propri sostenitori attraverso il potente strumento di Free2z Live.
+In conclusione, Free2Z è una piattaforma versatile che permette ai creatori di mettere in mostra le proprie capacità, condividere conoscenze, raccogliere fondi per i propri progetti e coinvolgere i propri sostenitori attraverso il potente strumento di Free2Z Live.
 
 ----
 
 ### Risorse
 
-[Free2z](https://free2z.cash/)  
-[Documentazione di Free2z](https://free2z.cash/docs/)  
+[Free2Z](https://free2z.cash/)  
+[Documentazione di Free2Z](https://free2z.cash/docs/)  
 [Panoramica sui 2Z](https://free2z.cash/docs/getting-started/tuzis)  
 [Creare un profilo](https://free2z.cash/docs/for-creators/creating-a-profile)  
-[Cos'è Free2z Live?](https://free2z.cash/docs/for-creators/free2z-live)  
-[Free2z per i sostenitori](https://free2z.cash/docs/category/for-supporters)
+[Cos'è Free2Z Live?](https://free2z.cash/docs/for-creators/free2z-live)  
+[Free2Z per i sostenitori](https://web.archive.org/web/20260118172223/https://free2z.cash/docs/category/for-supporters/)
 
 ---
 
-_Scritto da James Katz per Zechub._
+_Scritto da James Katz per ZecHub._

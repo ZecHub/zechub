@@ -10,6 +10,20 @@
 
 ---
 
+## संक्षेप में
+
+- आपके Solana wallet में ZEC एक **Solana token** (mint `A7bd…QXaS`) है, जिसे NEAR OmniBridge द्वारा Zcash chain पर रखे गए वास्तविक ZEC का 1:1 समर्थन प्राप्त है — "paper ZEC", जो Solana के सार्वजनिक ledger पर रहता है और वहाँ shield नहीं किया जा सकता।
+- प्रक्रिया में दो चरण हैं: solswap.org (NEAR Intents) पर token को **deposit** करें, फिर near.com पर अपने wallet के shielded `u1` address पर **withdraw** करें। Phantom के अपने Swap button का उपयोग न करें — वह आपकी मदद नहीं कर सकता।
+- ऐसा wallet इस्तेमाल करें जिसे [ZecHub directory](/wallets) **Ironwood: Ready** के रूप में चिह्नित करती है, और Solana fee के लिए Phantom में थोड़ा SOL रखें।
+- हमारा वास्तविक परीक्षण (27 सितंबर 2026, 0.00266336 ZEC): deposit 9 सेकंड में पहुँचा, withdrawal में लगभग 8 मिनट लगे, कुल लागत ~0.00025 ZEC + 0.0016 SOL रही।
+- सुरक्षा नियम: केवल `near.com`/`solswap.org` पर संदेश में `intents.near` वाले message requests पर हस्ताक्षर करें, कभी भी अपना seed phrase टाइप न करें, और `u1` paste करें, कभी `t1` नहीं।
+
+## दृश्य सादृश्य
+
+Solana पर ZEC एक **casino chip** की तरह काम करता है। इसकी कीमत नकद जैसी होती है, और casino — NEAR OmniBridge — chip लौटाने वाले किसी भी व्यक्ति को असली banknotes (native ZEC) देने का वादा करता है। लेकिन chip केवल casino के ledger में एक पंक्ति है: हर कोई देख सकता है कि इसे कौन रखता है, और इसका मूल्य casino की प्रणालियों के सही बने रहने पर निर्भर करता है। near.com के माध्यम से निकासी करना cage तक जाकर chip को नकद में बदलने जैसा है। banknotes के shielded pool में पहुँच जाने पर, वे आपके अपने अपारदर्शी wallet में होते हैं — फिर कोई भी राशि या धारक को नहीं देख सकता।
+
+---
+
 ## आपके पास वास्तव में क्या है
 
 आपके Solana wallet में मौजूद ZEC, Solana का एक टोकन है, Zcash नेटवर्क के कॉइन नहीं। NEAR OmniBridge इसे जारी करता है और इसे समर्थन देने के लिए Zcash chain पर वास्तविक ZEC रखता है; यह bridge अक्टूबर 2025 से Solana पर लाइव है। इसका Solana भाग Wormhole संदेशों और NEAR Chain Signatures पर चलता है, Zcash light client पर नहीं, इसलिए Solana पक्ष केवल उन दो प्रणालियों जितना ही भरोसेमंद है। लोग इसे "paper ZEC" कहते हैं। यह ZEC की कीमत का अनुसरण करता है, लेकिन हर बैलेंस और हर ट्रांसफर आपके wallet पते के अंतर्गत Solana के सार्वजनिक ledger पर होता है, और वहाँ रहते हुए इसे शील्ड नहीं किया जा सकता।
@@ -20,7 +34,7 @@
 A7bdiYdS5GjqGFtxf17ppRHtDKPkkRqbKtR27dxvQXaS
 ```
 
-![Phantom's About Zcash panel showing the contract address A7bd…QXaS on the Solana network](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Using_Zcash/assets/solana-zec-to-shielded/01-phantom-zec-mint.png)
+![Phantom's About Zcash panel showing the contract address A7bd…QXaS on the Solana network](/content-images/01-phantom-zec-mint-4a718bc213.webp)
 
 Phantom इसे `A7bd…QXaS` तक छोटा दिखाता है, इसलिए पहले और आखिरी अक्षरों की तुलना करें, या पूरा पता [Solscan](https://solscan.io/token/A7bdiYdS5GjqGFtxf17ppRHtDKPkkRqbKtR27dxvQXaS) पर देखें। आपके wallet में कोई भी दूसरा "ZEC" टोकन, उसका नाम या लोगो कुछ भी हो, यह वाला नहीं है। उसे वैसे ही छोड़ दें।
 
@@ -47,7 +61,7 @@ wallet को उसके directory card के लिंक से install क
 
 आपका wallet दो प्रकार के पते दिखाता है:
 
-![A Zcash wallet's Receive screen with a shielded address starting u1 and a transparent address starting t1](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Using_Zcash/assets/solana-zec-to-shielded/02-zodl-receive.png)
+![A Zcash wallet's Receive screen with a shielded address starting u1 and a transparent address starting t1](/content-images/02-zodl-receive-c98cd378fb.webp)
 
 | इससे शुरू होता है | प्रकार | जनता क्या देखती है |
 |---|---|---|
@@ -72,11 +86,11 @@ Solana शुल्क के लिए Phantom में थोड़ा SOL �
 2. **Deposit** पर टैप करें। **Asset** को **Zcash**, **Network** को **Solana** और method को **Wallet** पर सेट करें।
 3. राशि दर्ज करें (या **Max** पर टैप करें) और Phantom में transaction approve करें।
 
-![solswap Deposit screen with Zcash as the asset, Solana as the network and Wallet as the method](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Using_Zcash/assets/solana-zec-to-shielded/03-solswap-deposit.png)
+![solswap Deposit screen with Zcash as the asset, Solana as the network and Wallet as the method](/content-images/03-solswap-deposit-425691e62f.webp)
 
 हमारा deposit 15:09:08 (UTC+1) पर Solana block में पहुँचा और solswap ने नौ सेकंड बाद उसे **Completed** दिखाया।
 
-![solswap deposit history showing Completed, +0.0026 ZEC](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Using_Zcash/assets/solana-zec-to-shielded/04-solswap-deposit-complete.png)
+![solswap deposit history showing Completed, +0.0026 ZEC](/content-images/04-solswap-deposit-complete-be5feaf758.webp)
 
 अब आपका ZEC आपके NEAR Intents balance में है। आपकी Phantom key इससे बाहर होने वाली हर गतिविधि को authorize करती है, NEAR Intents solvers delivery करते हैं, और NEAR Intents compliance review के लिए balance रोक सकता है (नीचे trust notes देखें)।
 
@@ -84,22 +98,22 @@ Solana शुल्क के लिए Phantom में थोड़ा SOL �
 
 solswap में **Withdraw** पेज भी है, लेकिन वह हमारे लिए काम नहीं किया। **Received amount** और **Fee** "–" पर ही रहे और बटन ने कुछ नहीं किया, चाहे हमने नेटवर्क के रूप में Zcash चुना हो या Solana।
 
-![solswap Withdraw form with the received amount and fee stuck at a dash](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Using_Zcash/assets/solana-zec-to-shielded/05-solswap-withdraw-blank.png)
+![solswap Withdraw form with the received amount and fee stuck at a dash](/content-images/05-solswap-withdraw-blank-92c6e64c65.webp)
 
 यदि आपके साथ ऐसा होता है, तो आपका ZEC फँसा नहीं है। balance website से नहीं, आपके wallet की key से जुड़ा है, इसलिए जिस भी NEAR Intents app में आप उस wallet से sign in करते हैं, वह उसे access कर सकता है। हमने near.com पर पूरा किया:
 
 1. `near.com` पर जाएँ और उसी Phantom wallet से sign in करें।
 2. आपका solswap balance **Move legacy assets** के अंतर्गत दिखाई देता है (near.com पुराने NEAR Intents apps के balances को "legacy" कहता है)। ZEC row पर **Withdraw** टैप करें। आपको **Move** की आवश्यकता नहीं है।
 
-![near.com Move legacy assets page listing 0.0026 ZEC with Move and Withdraw buttons](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Using_Zcash/assets/solana-zec-to-shielded/06-nearcom-legacy-assets.png)
+![near.com Move legacy assets page listing 0.0026 ZEC with Move and Withdraw buttons](/content-images/06-nearcom-legacy-assets-7ee16c5ac4.webp)
 
 3. **Network** को **Zcash** पर सेट करें, अपने wallet का `u1` address **Recipient** के रूप में paste करें और अपने wallet से पहले व अंतिम छह characters जाँचें।
 
-![near.com Withdraw legacy asset form with Zcash as the network and a u1 recipient, receive at least 0.00233164 ZEC, about 2 minutes](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Using_Zcash/assets/solana-zec-to-shielded/07-nearcom-withdraw.png)
+![near.com Withdraw legacy asset form with Zcash as the network and a u1 recipient, receive at least 0.00233164 ZEC, about 2 minutes](/content-images/07-nearcom-withdraw-724ef22b38.webp)
 
 4. **Review withdrawal** पर टैप करें, सारांश पढ़ें और **Send** पर टैप करें।
 
-![near.com Review send screen: network Zcash, recipient receives at least 0.00233164 ZEC, fee 0 ZEC, you pay 0.00266336 ZEC](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Using_Zcash/assets/solana-zec-to-shielded/08-nearcom-review.png)
+![near.com Review send screen: network Zcash, recipient receives at least 0.00233164 ZEC, fee 0 ZEC, you pay 0.00266336 ZEC](/content-images/08-nearcom-review-b6053f675b.webp)
 
 5. Phantom आपसे near.com के लिए **Sign Message** करने को कहता है। यही signature NEAR Intents को आपका balance भेजने की अनुमति देता है। इसमें कोई SOL खर्च नहीं होता, लेकिन इसका अर्थ यह नहीं कि यह हानिरहित है: मिलती-जुलती साइट वही request दिखाकर आपका NEAR Intents balance खाली कर सकती है। **Confirm** पर टैप करने से पहले इन सभी बातों की जाँच करें, और एक भी विफल हो तो **Cancel** पर टैप करें:
    - request पर दिखाया गया site नाम `near.com` है। (चरण 1 का deposit `solswap.org` से एक सामान्य Phantom transaction request था; वहाँ भी नाम इसी तरह जाँचें।)
@@ -107,13 +121,13 @@ solswap में **Withdraw** पेज भी है, लेकिन वह �
    - संदेश screenshot जैसा पढ़ा जा सकने वाला text हो। यदि वह पढ़ा न जा सकने वाला blob है, या site आपके address bar वाले site से मेल नहीं खाती, तो उसे अस्वीकार करें।
    - वह कभी आपका seed phrase नहीं माँगता। signing में उसे टाइप करना कभी शामिल नहीं होता।
 
-![Phantom Sign Message request from near.com on the Solana network](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Using_Zcash/assets/solana-zec-to-shielded/09-phantom-sign-message.png)
+![Phantom Sign Message request from near.com on the Solana network](/content-images/09-phantom-sign-message-cb1ce6d20f.webp)
 
 6. near.com **Processing send**, **Sending** और **Complete** दिखाता है। **View on explorer** ट्रांसफर का NEAR Intents record खोलता है।
 
-![near.com status screen: Sending 0.0023 ZEC, all three steps complete](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Using_Zcash/assets/solana-zec-to-shielded/10-nearcom-complete.png)
+![near.com status screen: Sending 0.0023 ZEC, all three steps complete](/content-images/10-nearcom-complete-c641093c46.webp)
 
-![NEAR Intents explorer record: created 3:59:28 PM, withdrawn to the u1 address 4:07:55 PM, with the Zcash withdraw transaction ID](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Using_Zcash/assets/solana-zec-to-shielded/11-intents-explorer.png)
+![NEAR Intents explorer record: created 3:59:28 PM, withdrawn to the u1 address 4:07:55 PM, with the Zcash withdraw transaction ID](/content-images/11-intents-explorer-f93f87814e.webp)
 
 ### हमारे परीक्षण की लागत और लगने वाला समय
 
@@ -145,19 +159,19 @@ Solana से बाहर जाने वाला हर मार्ग Omni
 
 यह शील्डेड रूप में पहुँचा। हमारा ZEC एक `u1` address पर गया और सीधे Ironwood shielded pool में पहुँचा। कोई transparent चरण नहीं था और हाथ से shield करने के लिए कुछ नहीं था। confirmations इकट्ठा करते समय wallet ने 16:07 (UTC+1) पर इसे shield icon के साथ **Receiving…** के रूप में दिखाया।
 
-![Zcash wallet activity showing Receiving 0.00241336 ZEC with a shield icon](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Using_Zcash/assets/solana-zec-to-shielded/12-zodl-receiving.png)
+![Zcash wallet activity showing Receiving 0.00241336 ZEC with a shield icon](/content-images/12-zodl-receiving-cb9f41511d.webp)
 
 स्वयं जाँचने के लिए, अपने wallet में transaction खोलें और transaction ID कॉपी करें।
 
-![Zcash wallet transaction details with the transaction ID and timestamp](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Using_Zcash/assets/solana-zec-to-shielded/13-zodl-tx-details.png)
+![Zcash wallet transaction details with the transaction ID and timestamp](/content-images/13-zodl-tx-details-b08434d680.webp)
 
 इसे [Zcash block explorer](https://mainnet.zcashexplorer.app) में paste करें। सारांश से भ्रमित न हों। हमारा **Shielded Inputs / Outputs 0 / 0** और **Transferred from/to shielded pool 0.0 ZEC** दिखाता है, क्योंकि explorer का सारांश अभी Ironwood को नहीं गिनता। जो `t1` addresses आप देखते हैं, वे भेजने वाले पक्ष पर हैं (उसका खर्च किया गया ZEC और उसका रखा हुआ change), आपके नहीं।
 
-![Explorer summary for the transaction: two transparent inputs, one transparent output, 0/0 shielded](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Using_Zcash/assets/solana-zec-to-shielded/14-explorer-summary.png)
+![Explorer summary for the transaction: two transparent inputs, one transparent output, 0/0 shielded](/content-images/14-explorer-summary-6153afb265.webp)
 
 **Raw TX: JSON** पर क्लिक करें और `ironwood` खोजें। वहाँ negative `valueBalance` का अर्थ है कि ZEC, Ironwood pool में प्रवेश कर रहा है। हमारा `-0.00241336` था, ठीक उतना ही जितना पहुँचा, और transaction में यह नहीं दिखता कि इसे किसने प्राप्त किया।
 
-![Raw transaction JSON with the ironwood section highlighted: valueBalance -0.00241336 (highlight added)](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Using_Zcash/assets/solana-zec-to-shielded/15-explorer-raw-ironwood.png)
+![Raw transaction JSON with the ironwood section highlighted: valueBalance -0.00241336 (highlight added)](/content-images/15-explorer-raw-ironwood-8ff8ae0892.webp)
 
 [Block explorer क्या देख सकता है](/zcash-tech/what-a-block-explorer-can-see) बाकी fields समझाता है।
 
@@ -181,9 +195,28 @@ Solana से बाहर जाने वाला हर मार्ग Omni
 
 ---
 
+## सामान्य गलतियाँ
+
+- **डिपॉज़िट फ्लो के बजाय Phantom के Swap बटन का उपयोग करना।** आपके पास पहले से टोकन है — स्वैप करने से केवल एक पेपर ZEC दूसरे टोकन से बदलता है और आप नेटिव ZEC के ज़रा भी करीब नहीं पहुँचते।
+- **`t1` पता**, या ऐसा `u1` चिपकाना जो पारदर्शी रिसीवर को छिपाता हो, जबकि आपका वॉलेट केवल शील्डेड `u1` प्रदान करता है। डिपॉज़िट सार्वजनिक रूप से पहुँचता है और उसे आपके वॉलेट से हमेशा के लिए जोड़ देता है।
+- **यह मान लेना कि धन अटक गया है** जब solswap का Withdraw पेज "–" दिखाता है। बैलेंस वेबसाइट के बजाय आपकी Phantom कुंजी का अनुसरण करता है — near.com पर निकासी पूरी करें।
+- **बिना जाँचे किसी संदेश पर हस्ताक्षर करना।** दिखने में समान साइट एक हस्ताक्षर से आपका NEAR Intents बैलेंस खाली कर सकती है। साइट `near.com` होनी चाहिए और संदेश में `"verifying_contract": "intents.near"` होना चाहिए।
+- **दो "ZEC" टिकरों को भ्रमित करना।** Solana टोकन और नेटिव Zcash ZEC का नाम एक जैसा है, लेकिन नेटवर्क अलग हैं — किसी एक को दूसरी चेन पर भेजने से वह खो जाता है।
+
 ## शील्डेड ZEC के साथ क्या करें
 
 - खर्च करते समय इसे निजी रखें: [ZEC को निजी रूप से इस्तेमाल करना](/guides/using-zec-privately)
 - इसे स्वीकार करने वाली जगहें खोजें: [ZEC खर्च करने की जगहें](/using-zcash/spend-zcash/top-10-places-to-spend-zec)
 - निजी संदेश संलग्न करके भेजें: [Memos](/using-zcash/memos)
 - अपनी पहचान लिंक किए बिना किसी को भुगतान करें: [पहचान लिंक किए बिना पैसे भेजें](/zcash-use-cases/send-money-without-linking-identity)
+
+---
+
+## संबंधित पृष्ठ
+
+- [ZEC के लिए Phantom Wallet में स्वैप कैसे करें](/using-zcash/solswap) — solswap स्क्रीन के बारे में अधिक विस्तार से
+- [Shielded pools](/using-zcash/shielded-pools) — Ironwood/Orchard pools क्या हैं और रिसीवर कैसे काम करते हैं
+- [आपका Zcash भुगतान कौन देख सकता है?](/start-here/who-can-see-your-zcash-payment) — shielding वास्तव में क्या छिपाती है
+- [Wallets](/wallets) — डायरेक्टरी; **Ironwood: Ready** लेबल देखें
+- [कस्टोडियल एक्सचेंज](/using-zcash/custodial-exchanges) — यह मार्ग जिस समझौते से बचाता है
+- [फंड्स पुनर्प्राप्त करना](/using-zcash/recovering-funds) — क्या सुरक्षित रखें ताकि आप कभी एक्सेस न खोएँ

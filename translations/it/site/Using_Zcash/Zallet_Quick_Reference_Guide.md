@@ -6,17 +6,17 @@
 
 ## In breve
 
-- Zallet è un wallet full-node di Zcash scritto in Rust. Sostituisce il wallet che prima si trovava all'interno di zcashd.
-- zcashd ha raggiunto il suo arresto di Fine Supporto il 18 luglio 2026 e non è più in esecuzione. Zebra ora gestisce il lato nodo; Zallet gestisce il lato wallet.
-- Si usa Zallet dalla riga di comando con `zallet rpc <command>`, in modo simile a come prima si usava `zcash-cli`.
+- Zallet è un portafoglio full node (nodo completo) di Zcash scritto in Rust. Sostituisce il portafoglio che prima si trovava all'interno di zcashd.
+- zcashd ha raggiunto il suo arresto per fine del supporto il 18 luglio 2026 e non è più in esecuzione. Zebra ora gestisce il lato nodo; Zallet gestisce il lato portafoglio.
+- Usa Zallet dalla riga di comando con `zallet rpc <command>`, in modo simile a come usavi `zcash-cli` prima.
 - Ogni argomento dopo il nome del comando deve essere JSON valido, il che significa che i valori stringa mantengono le doppie virgolette.
-- Zallet è ancora in alpha. I comandi possono cambiare tra una release e l'altra, e non tutte le RPC di zcashd sono già state portate.
+- Zallet è in beta. I comandi possono cambiare tra una release e l'altra, e non tutte le RPC di zcashd sono già state portate.
 
 ## Spiegazione principale
 
-Zallet espone le sue funzionalità tramite JSON-RPC, lo stesso stile di interfaccia usato dal wallet di zcashd. Qualsiasi cosa tu voglia far fare al wallet — controllare un saldo, creare un account, inviare un pagamento shielded — è un comando che passi a `zallet rpc`.
+Zallet espone le sue funzionalità tramite JSON-RPC, lo stesso stile di interfaccia usato dal portafoglio di zcashd. Qualsiasi cosa tu voglia far fare al portafoglio — controllare un saldo, creare un account, inviare un pagamento schermato — è un comando che passi a `zallet rpc`.
 
-Due aspetti differiscono dalla vecchia abitudine con `zcash-cli` e spiegano la maggior parte degli errori iniziali. Primo, gli argomenti devono essere JSON valido anziché testo semplice, quindi un argomento stringa porta con sé le proprie virgolette all'interno delle virgolette della shell. Secondo, l'insieme dei comandi disponibili dipende dalla release alpha che stai usando, quindi l'elenco incorporato nel tuo binario è più affidabile di qualsiasi pagina scritta, compresa questa.
+Due aspetti differiscono dalla vecchia abitudine con `zcash-cli` e spiegano la maggior parte degli errori iniziali. Primo, gli argomenti devono essere JSON valido anziché testo semplice, quindi un argomento stringa porta con sé le proprie virgolette all'interno delle virgolette della shell. Secondo, l'insieme dei comandi disponibili dipende dalla release beta che stai usando, quindi l'elenco incorporato nel tuo binario è più affidabile di qualsiasi pagina scritta, compresa questa.
 
 Per elencare tutte le RPC disponibili:
 
@@ -36,9 +36,9 @@ zallet rpc help '"<command>"'
 ## Errori comuni
 
 - **Omettere le virgolette interne negli argomenti stringa.** `zallet rpc validateaddress u1abc...` fallisce, perché l'indirizzo deve arrivare come JSON. Deve essere scritto `'"u1abc..."'`.
-- **Dare per scontato che ogni RPC di zcashd esista anche qui.** Il porting è ancora in corso. Alcuni metodi si comportano in modo identico, alcuni richiedono un uso diverso e alcuni non verranno trasferiti affatto.
-- **Trattare questa pagina come più autorevole del proprio binario.** Zallet è in alpha e si evolve rapidamente. Quando un comando qui non funziona, controlla `zallet rpc help` prima di presumere che qualcosa sia rotto.
-- **Aspettarsi che Zallet sia un nodo.** È la metà wallet della coppia. Zebra esegue il nodo, e Zallet comunica con esso.
+- **Dare per scontato che ogni RPC esista anche qui.** Il porting è ancora in corso. Alcuni metodi si comportano in modo identico, alcuni richiedono un uso diverso e alcuni non verranno trasferiti affatto.
+- **Trattare questa pagina come più autorevole del tuo binario.** Zallet è in beta e si evolve rapidamente. Quando un comando qui non funziona, controlla `zallet rpc help` prima di presumere che qualcosa sia rotto.
+- **Aspettarsi che Zallet sia un nodo.** È la metà portafoglio della coppia. Zebra esegue il nodo, e Zallet comunica con esso.
 
 ## Comandi RPC
 
@@ -174,8 +174,8 @@ zallet rpc walletpassphrase '"<passphrase>"' <timeout>
 
 | Parametro  | Tipo   | Obbligatorio | Descrizione                              |
 |------------|--------|--------------|------------------------------------------|
-| passphrase | string | sì           | Passphrase del wallet                    |
-| timeout    | number | sì           | Secondi per mantenere il wallet sbloccato|
+| passphrase | string | sì           | Passphrase del portafoglio                    |
+| timeout    | number | sì           | Secondi per mantenere il portafoglio sbloccato|
 
 ---
 
@@ -199,9 +199,9 @@ zallet rpc z_exportkey '"<sapling_address>"'
 
 | Parametro | Tipo   | Obbligatorio | Descrizione                                   |
 |-----------|--------|--------------|-----------------------------------------------|
-| address   | string | sì           | Indirizzo Sapling di cui esportare la spending key |
+| address   | string | sì           | Indirizzo Sapling di cui esportare la chiave di spesa |
 
-> Il wallet deve essere sbloccato. Esporta solo la Sapling spending key.
+> Il portafoglio deve essere sbloccato. Esporta solo la chiave di spesa Sapling.
 
 ---
 
@@ -265,7 +265,7 @@ zallet rpc z_getnewaccount '"<account_name>"' ['"<seedfp>"']
 | Parametro    | Tipo   | Obbligatorio | Descrizione                              |
 |--------------|--------|--------------|------------------------------------------|
 | account_name | string | sì           | Nome leggibile da umani                  |
-| seedfp       | string | no           | Obbligatorio se il wallet ha più seed    |
+| seedfp       | string | no           | Obbligatorio se il portafoglio ha più seed    |
 
 ---
 
@@ -341,7 +341,7 @@ zallet rpc z_importkey '"<key>"' ['"<rescan>"'] [<start_height>]
 
 | Parametro    | Tipo   | Obbligatorio | Predefinito     | Descrizione                              |
 |--------------|--------|--------------|-----------------|------------------------------------------|
-| key          | string | sì           |                 | Sapling extended spending key            |
+| key          | string | sì           |                 | Chiave di spesa estesa Sapling            |
 | rescan       | string | no           | `"whenkeyisnew"` | `"yes"`, `"no"`, o `"whenkeyisnew"`    |
 | start_height | number | no           | 0               | Altezza iniziale della scansione         |
 
@@ -452,7 +452,7 @@ zallet rpc z_shieldcoinbase '"<fromaddress_or_account_uuid>"' '"<toaddress>"' [n
 | Parametro      | Tipo   | Obbligatorio | Descrizione                                      |
 |----------------|--------|--------------|--------------------------------------------------|
 | fromaddress    | string | sì           | Indirizzo trasparente o UUID account             |
-| toaddress      | string | sì           | Destinazione shielded                            |
+| toaddress      | string | sì           | Destinazione schermata                            |
 | fee            | null   | no           | Deve essere `null`                               |
 | limit          | number | no           | Numero massimo di UTXO coinbase da schermare     |
 | memo           | string | no           | Memo codificato in hex                           |
@@ -474,8 +474,8 @@ zallet rpc z_viewtransaction '"<txid>"'
 
 ## Pagine correlate
 
-- [Guida alla migrazione: da Zcashd a Zebrad e Zallet](/guides/migration-guide-zcashd-to-zebrad-zallet) — passaggio passo dopo passo da una configurazione zcashd esistente
-- [Nodo completo Zebra](/zcash-tech/zebra-full-node) — l'implementazione del nodo con cui Zallet lavora insieme
-- [Nodi completi](/zcash-tech/full-nodes) — cosa comporta eseguire un nodo completo e perché potresti volerne uno
-- [Wallet](/using-zcash/wallets) — opzioni di wallet più leggere se un nodo completo è più di quanto ti serva
-- [Transazioni](/using-zcash/transactions) — come differiscono le transazioni shielded e trasparenti
+- [Guida alla migrazione: da zcashd a Zebrad e Zallet](/guides/migration-guide-zcashd-to-zebrad-zallet) — passaggio passo dopo passo da una configurazione zcashd esistente
+- [Zebra Full node (nodo completo)](/zcash-tech/zebra-full-node) — l'implementazione del nodo con cui Zallet lavora insieme
+- [Full node](/zcash-tech/full-nodes) — cosa comporta eseguire un full node e perché potresti volerne uno
+- [Portafogli](/using-zcash/wallets) — opzioni di portafoglio più leggere se un full node è più di quanto ti serva
+- [Transazioni](/using-zcash/transactions) — come differiscono le transazioni schermate e trasparenti

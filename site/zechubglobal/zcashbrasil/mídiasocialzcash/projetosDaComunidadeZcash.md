@@ -12,7 +12,7 @@ Pesquisadores da Zcash Foundation estão colaborando em um rascunho informativo 
 
 Free2z é uma plataforma para conteúdo anônimo e doações privadas.
 
-- [Zashi Wallet](https://electriccoin.co/zashi/)
+- [Zashi Wallet](https://web.archive.org/web/20260217121832/https://electriccoin.co/zashi/)
 
 Carteira desenvolvida pela Electric Coin Company para transações e interações de forma privada.
 
@@ -48,7 +48,7 @@ O Zeme Team permite que criadores recebam facilmente gorjetas de qualquer pessoa
 
 ZGo é um Registrador Zcash, permitindo que vendedores e comerciantes aceitem Zcash. Atualmente testando o aplicativo para obter feedback de alta qualidade sobre a usabilidade e recursos do ZGo.
 
-[Zlink](https://zlink.click)
+[Zlink](https://web.archive.org/web/20250309010146/https://zlink.click/)
 
 Zlink é a maneira mais simples de encontrar qualquer link, ferramenta, informação que você precisa sobre o ecossistema do Zcash.
 

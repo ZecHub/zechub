@@ -95,7 +95,7 @@ Zcash **पूरी तरह से गोपनीय ट्रांसफ�
 <br/>
 
 ## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="chain-links icon"/> संबंधित
-- [गोपनीयता - छिपे vs प्रतिबंधित](/privacy/shielded-vs-transparent)
+- [ब्लॉक एक्सप्लोरर क्या देख सकता है](/zcash-tech/what-a-block-explorer-can-see)
 
 <br/>
 

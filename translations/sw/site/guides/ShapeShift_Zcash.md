@@ -167,7 +167,7 @@ ShapeShift na Zcash ushirikiano inawakilisha hatua ya maana mbele kwa faragha ka
 
 [Zodl Wallet](https://zodl.com)
 
-[ShapeShift DAO Utawala (FOX Token)](https://shapeshift.com/fox-token)
+[ShapeShift DAO Utawala (FOX Token)](https://web.archive.org/web/20210126180411/https://shapeshift.com/fox-token)
 
 [Zcash Misaada ya Jumuiya](https://zcashcommunitygrants.org/)
 
