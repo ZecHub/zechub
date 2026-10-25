@@ -100,7 +100,7 @@ Les résultats des hackathons récents donnent une bonne idée de ce que les gen
 
 Conservées parce que d'anciens articles y renvoient et parce qu'elles restent la référence sur le comportement de l'ancien nœud. Ne commencez pas ici.
 
-[Le livre de Zcashd](https://zcash.github.io/zcash/) et la [référence RPC zcashd](https://zcash.github.io/rpc/) documentent un logiciel qui a atteint sa [fin de vie](https://zcash.github.io/zcash/user/end-of-life.html) en juillet 2026. Le dépôt [zcash/zcash](https://github.com/zcash/zcash) est archivé.
+[Le livre de zcashd](https://zcash.github.io/zcash/) et la [référence RPC zcashd](https://zcash.github.io/rpc/) documentent un logiciel qui a atteint sa [fin de vie](https://zcash.github.io/zcash/user/end-of-life.html) en juillet 2026. Le dépôt [zcash/zcash](https://github.com/zcash/zcash) est archivé.
 
 Si vous avez une ressource à ajouter, ou si vous repérez ici un élément devenu obsolète, ouvrez une issue ou une pull request. Les équipes n'ont pas toujours la capacité de tout maintenir à jour, et signaler ce que vous avez rencontré aide à orienter les guides.
 

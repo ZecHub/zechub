@@ -4,7 +4,14 @@
 
 # Graphene OS
 
-GrapheneOS ist ein gemeinnütziges Open-Source-Projekt, das sich der Verbesserung von Privatsphäre und Sicherheit auf mobilen Geräten widmet und dabei die Kompatibilität mit Android-Apps beibehält. Dieses Betriebssystem legt einen starken Schwerpunkt auf die Weiterentwicklung von Datenschutz- und Sicherheitstechnologien, mit besonderem Fokus auf die Stärkung von Sandboxing, Exploit-Abwehrmaßnahmen und die Verfeinerung des Berechtigungsmodells. Entstanden im Jahr 2014 unter dem Namen **CopperheadOS**. hat es sich seitdem zu einem beeindruckenden Hüter Ihrer digitalen Privatsphäre und Sicherheit entwickelt.
+## Kurz gesagt
+
+- **GrapheneOS** ist ein gemeinnütziges, quelloffenes mobiles Betriebssystem mit Fokus auf Datenschutz und Sicherheit, das vollständig mit alltäglichen Android-Apps kompatibel ist
+- Kernstärken: gehärtete App-Sandbox, speichersicherer Code und Exploit-Abwehrmaßnahmen, hardwaregestützter verifizierter Startvorgang, fein abgestufte Berechtigungen und USB-C-Port-Schutz, wenn das Gerät gesperrt ist
+- Die Installation erfolgt über das offizielle **WebUSB-Installationsprogramm** (für die meisten Nutzer empfohlen) oder über den **Kommandozeilen-Ablauf** für technisch versierte Nutzer
+- Für einen Zcash-Nutzer ist es eine starke Grundlage für mobile Selbstverwahrung: Kombiniere es mit einer gepflegten abgeschirmten Wallet und üblichen OPSEC-Maßnahmen
+
+GrapheneOS ist ein gemeinnütziges Open-Source-Projekt, das sich der Verbesserung von Datenschutz und Sicherheit auf mobilen Geräten widmet und dabei die Kompatibilität mit Android-Apps wahrt. Dieses Betriebssystem legt großen Wert auf die Weiterentwicklung von Datenschutz- und Sicherheitstechnologien, insbesondere auf die Stärkung der Sandbox-Isolation, Exploit-Schutzmaßnahmen und die Verfeinerung des Berechtigungsmodells. 2014 unter dem Namen **CopperheadOS** entstanden, hat es sich seitdem zum starken Schutzschild für Ihre digitale Privatsphäre und Sicherheit entwickelt.
 
 Das Hauptziel von GrapheneOS ist es, die Sicherheitsgrenzen wie die App-Sandbox zu verstärken, ohne die Benutzererfahrung negativ zu beeinträchtigen.
 
@@ -107,3 +114,10 @@ Sehen Sie sich den Installationsleitfaden über den untenstehenden Link an und f
 ## **Fazit**
 
 Im Wesentlichen geht es bei GrapheneOS darum, ein alternatives mobiles Betriebssystem bereitzustellen, das die Privatsphäre und Sicherheit seiner Benutzer in den Vordergrund stellt und ihnen mehr Kontrolle über ihr digitales Leben gibt, während es gleichzeitig Kompatibilität mit den Apps bietet, auf die sie angewiesen sind. Es ist ein Projekt, das darauf abzielt, einen hohen Standard für Sicherheit und Privatsphäre auf mobilen Geräten in einer Zeit zu setzen, in der diese Anliegen von zentraler Bedeutung sind.
+
+## Verwandte Seiten
+
+- [Sichere Messenger](Secure_Messengers.md) — private Kommunikation auf einem gehärteten Gerät
+- [PGP-Verschlüsselung](PGP_Encryption.md) — verschlüsselte E-Mails und Dateiaustausch
+- [VPN und DVPN](VPN_and_DVPN.md) — Privatsphäre auf Netzwerkebene auf Mobilgeräten
+- [Webbrowser](Web_Browsers.md) — Auswahl und Absicherung eines mobilen Browsers

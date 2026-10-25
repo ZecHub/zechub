@@ -10,6 +10,20 @@
 
 ---
 
+## 요약
+
+- Solana 지갑의 ZEC는 NEAR OmniBridge가 Zcash 체인에 보유한 실제 ZEC로 1:1 뒷받침되는 **Solana 토큰**(민트 `A7bd…QXaS`)입니다. Solana의 공개 원장에 존재하며 그곳에서는 실드할 수 없는 “종이 ZEC”입니다.
+- 경로는 두 단계입니다. solswap.org(NEAR Intents)에서 토큰을 **입금**한 뒤, near.com에서 지갑의 실드된 `u1` 주소로 **출금**하세요. Phantom 자체의 Swap 버튼은 도움이 되지 않으니 사용하지 마세요.
+- [ZecHub 디렉터리](/wallets)에서 **Ironwood: 준비됨**으로 표시된 지갑을 사용하고, Phantom에 Solana 수수료용 SOL을 조금 보관하세요.
+- 실제 테스트(2026년 9월 27일, 0.00266336 ZEC): 입금은 9초 만에 완료되었고, 출금에는 약 8분이 걸렸으며, 총비용은 약 0.00025 ZEC + 0.0016 SOL이었습니다.
+- 안전 수칙: `near.com`/`solswap.org`에서 메시지에 `intents.near`가 포함된 서명 요청만 승인하고, 시드 문구는 절대 입력하지 마세요. `u1`를 붙여넣고 `t1`는 붙여넣지 마세요.
+
+## 시각적 비유
+
+Solana의 ZEC는 **카지노 칩**과 같습니다. 현금처럼 가격이 책정되고, 카지노, 즉 NEAR OmniBridge는 칩을 반납하는 누구에게나 실제 지폐(네이티브 ZEC)를 제공하겠다고 약속합니다. 하지만 이 칩은 카지노 장부의 한 행일 뿐입니다. 누가 이를 보유하는지 모두가 볼 수 있으며, 그 가치는 카지노 시스템이 건전하게 유지되는 데 달려 있습니다. near.com을 통해 인출하는 것은 창구로 가서 칩을 현금으로 교환하는 것과 같습니다. 지폐가 shielded pool에 들어가면, 그것은 불투명한 개인 지갑에 있게 됩니다. 이제 누구도 금액이나 보유자를 볼 수 없습니다.
+
+---
+
 ## 실제로 보유한 것
 
 Solana 지갑의 ZEC는 Zcash 네트워크의 코인이 아니라 Solana상의 토큰입니다. NEAR OmniBridge가 이를 발행하며, 이를 뒷받침하기 위해 Zcash 체인에 실제 ZEC를 보유합니다. 이 브리지는 2025년 10월부터 Solana에서 운영되고 있습니다. Solana 측은 Zcash 라이트 클라이언트가 아닌 Wormhole 메시지와 NEAR Chain Signatures로 작동하므로, Solana 측의 안전성은 이 두 시스템에 달려 있습니다. 사람들은 이를 “종이 ZEC”라고 부릅니다. 가격은 ZEC를 추종하지만, 모든 잔액과 전송은 지갑 주소 아래 Solana의 공개 원장에 기록되며, այնտեղ에 머무는 동안 실드할 수 없습니다.
@@ -181,9 +195,28 @@ Solana에서 나가는 모든 경로는 브리지가 토큰을 뒷받침하는 Z
 
 ---
 
+## 흔한 실수
+
+- **입금 흐름 대신 Phantom의 Swap 버튼 사용하기.** 이미 토큰을 보유하고 있습니다. 스왑은 종이 ZEC 한 장을 다른 토큰으로 교환할 뿐, 네이티브 ZEC에 가까워지지 않습니다.
+- **`t1` 주소 또는 투명 수신자를 숨긴 `u1`를 붙여넣기.** 지갑에서 실드 전용 `u1`를 제공하는 경우입니다. 입금은 공개적으로 이루어지며 지갑과 영구적으로 연결됩니다.
+- solswap의 Withdraw 페이지에 "–"가 표시될 때 **자금이 묶였다고 가정하기.** 잔액은 웹사이트가 아니라 Phantom 키를 따릅니다. near.com에서 출금을 완료하세요.
+- **확인하지 않고 메시지에 서명하기.** 유사 사이트는 서명 한 번으로 NEAR Intents 잔액을 비울 수 있습니다. 사이트는 반드시 `near.com`여야 하며, 메시지에는 `"verifying_contract": "intents.near"`가 포함되어야 합니다.
+- **"ZEC"라는 두 티커를 혼동하기.** Solana 토큰과 네이티브 Zcash ZEC는 이름은 같지만 네트워크가 다릅니다. 어느 쪽이든 다른 체인으로 보내면 잃게 됩니다.
+
 ## 실드된 ZEC로 할 수 있는 일
 
 - 사용할 때 프라이버시를 유지하세요: [ZEC를 비공개로 사용하기](/guides/using-zec-privately)
 - 이를 받는 곳을 찾으세요: [ZEC를 사용할 수 있는 곳](/using-zcash/spend-zcash/top-10-places-to-spend-zec)
 - 비공개 메시지를 첨부해 보내세요: [메모](/using-zcash/memos)
 - 신원을 연결하지 않고 누군가에게 송금하세요: [신원을 연결하지 않고 송금하기](/zcash-use-cases/send-money-without-linking-identity)
+
+---
+
+## 관련 페이지
+
+- [Phantom Wallet에서 ZEC로 스왑하는 방법](/using-zcash/solswap) — solswap 화면 자세히 보기
+- [실드 풀](/using-zcash/shielded-pools) — Ironwood/Orchard 풀이 무엇이며 수신자가 작동하는 방식
+- [누가 내 Zcash 결제를 볼 수 있나요?](/start-here/who-can-see-your-zcash-payment) — 실딩이 실제로 숨기는 것
+- [지갑](/wallets) — 디렉터리; **Ironwood: Ready** 라벨을 확인하세요
+- [수탁형 거래소](/using-zcash/custodial-exchanges) — 이 경로가 피하는 절충점
+- [자금 복구](/using-zcash/recovering-funds) — 접근 권한을 잃지 않도록 안전하게 보관해야 할 것

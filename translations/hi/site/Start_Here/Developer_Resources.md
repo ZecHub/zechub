@@ -100,7 +100,7 @@ TAZ पाना कठिन हिस्सा है, क्योंकि �
 
 इन्हें इसलिए रखा गया है क्योंकि पुराने लेख इनसे लिंक करते हैं, और क्योंकि ये इस बात के लिए अभी भी संदर्भ हैं कि सेवानिवृत्त नोड कैसे व्यवहार करता था। यहां से शुरुआत न करें।
 
-[The Zcashd Book](https://zcash.github.io/zcash/) और [zcashd RPC संदर्भ](https://zcash.github.io/rpc/) ऐसे software का दस्तावेज़ीकरण करते हैं जो जुलाई 2026 में [जीवन-अंत](https://zcash.github.io/zcash/user/end-of-life.html) तक पहुंच गया। [zcash/zcash](https://github.com/zcash/zcash) repository archived है।
+[The zcashd Book](https://zcash.github.io/zcash/) और [zcashd RPC संदर्भ](https://zcash.github.io/rpc/) ऐसे software का दस्तावेज़ीकरण करते हैं जो जुलाई 2026 में [जीवन-अंत](https://zcash.github.io/zcash/user/end-of-life.html) तक पहुंच गया। [zcash/zcash](https://github.com/zcash/zcash) repository archived है।
 
 यदि आपके पास जोड़ने के लिए कोई संसाधन है, या यहां कुछ पुराना दिखे, तो एक issue या pull request खोलें। टीमों के पास हमेशा सब कुछ अद्यतन रखने की क्षमता नहीं होती, और जो आप देखते हैं उसे चिह्नित करने से गाइड्स को दिशा देने में मदद मिलती है।
 

@@ -4,7 +4,14 @@
 
 # Graphene OS
 
-GrapheneOS adalah proyek sumber terbuka nirlaba yang didedikasikan untuk meningkatkan privasi dan keamanan pada perangkat seluler sambil tetap menjaga kompatibilitas dengan aplikasi Android. Sistem operasi ini memberikan penekanan kuat pada kemajuan teknologi privasi dan keamanan, dengan fokus khusus pada penguatan sandboxing, mitigasi eksploitasi, dan penyempurnaan model izin. Lahir pada tahun 2014 dengan nama **CopperheadOS**, proyek ini telah berkembang menjadi penjaga tangguh bagi privasi dan keamanan digital kamu.
+## Singkatnya
+
+- **GrapheneOS** adalah sistem operasi seluler nirlaba dan open-source yang berfokus pada privasi dan keamanan, dengan kompatibilitas penuh terhadap aplikasi Android sehari-hari
+- Keunggulan utama: sandbox aplikasi yang diperkeras, kode aman memori dan mitigasi eksploit, boot terverifikasi yang didukung hardware, izin terperinci, serta perlindungan port USB-C saat perangkat terkunci
+- Pemasangan dilakukan melalui **installer resmi WebUSB** (direkomendasikan untuk sebagian besar pengguna) atau **alur command-line** untuk pengguna teknis
+- Bagi pengguna Zcash, ini merupakan fondasi kuat untuk self-custody seluler: padankan dengan dompet terlindungi yang terus dipelihara dan kebiasaan OPSEC standar
+
+GrapheneOS adalah proyek nirlaba dan sumber terbuka yang didedikasikan untuk meningkatkan privasi dan keamanan pada perangkat seluler sambil mempertahankan kompatibilitas dengan aplikasi Android. Sistem operasi ini sangat menekankan pengembangan teknologi privasi dan keamanan, dengan fokus khusus pada penguatan sandboxing, mitigasi eksploit, dan penyempurnaan model perizinan. Lahir pada tahun 2014 dengan julukan **CopperheadOS**, proyek ini sejak saat itu telah berkembang menjadi pelindung tangguh bagi privasi dan keamanan digital kamu.
 
 Tujuan utama GrapheneOS adalah untuk memperkuat batasan keamanan, seperti sandbox aplikasi, tanpa berdampak buruk pada pengalaman pengguna.
 
@@ -107,3 +114,10 @@ Lihat Panduan instalasi melalui tautan di bawah ini dan ikuti proses instalasiny
 ## **Kesimpulan**
 
 Pada intinya, GrapheneOS adalah tentang menyediakan sistem operasi seluler alternatif yang memprioritaskan privasi dan keamanan penggunanya, memberikan mereka kendali yang lebih besar atas kehidupan digital mereka sambil menawarkan kompatibilitas dengan aplikasi yang mereka andalkan. Ini adalah sebuah proyek yang bertujuan untuk menetapkan standar tinggi bagi keamanan dan privasi perangkat seluler di era di mana kekhawatiran ini sangatlah penting.
+
+## Halaman terkait
+
+- [Messenger Aman](Secure_Messengers.md) — komunikasi privat pada perangkat yang diperkuat
+- [Enkripsi PGP](PGP_Encryption.md) — email terenkripsi dan pertukaran file
+- [VPN dan DVPN](VPN_and_DVPN.md) — privasi lapisan jaringan di perangkat seluler
+- [Browser Web](Web_Browsers.md) — memilih dan memperkuat browser seluler

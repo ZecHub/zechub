@@ -140,11 +140,11 @@ cbZEC привносит ликвидность Zcash в экосистему Ba
 
 <div class="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   
-<iframe width="560" height="315" src="https://www.youtube.com/embed/NcOQH5OeV7I?si=IPB1OElBsYj1AUt9" title="Анализ токена Coinbase Wrapped (ZEC CBZEC)" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NcOQH5OeV7I?si=IPB1OElBsYj1AUt9" title="Анализ токена Coinbase Wrapped (ZEC cbZEC)" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 </div>
 
-Ниже перечислены DeFi-платформы на Base, поддерживающие cbZec 
+Ниже перечислены DeFi-платформы на Base, поддерживающие cbZEC 
 
 ---
 

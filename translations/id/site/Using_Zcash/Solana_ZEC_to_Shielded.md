@@ -10,6 +10,20 @@ Kami menjalankan setiap langkah di bawah ini dengan transfer nyata pada 27 Septe
 
 ---
 
+## Ringkasan
+
+- ZEC di dompet Solana kamu adalah **token Solana** (mint `A7bd…QXaS`) yang dijamin 1:1 oleh ZEC asli yang disimpan NEAR OmniBridge di chain Zcash — "paper ZEC" yang berada di ledger publik Solana dan tidak dapat dibuat terlindungi di sana.
+- Rutenya terdiri dari dua langkah: **setor** token di solswap.org (NEAR Intents), lalu **tarik** di near.com ke alamat `u1` terlindungi dompet kamu. Jangan gunakan tombol Swap milik Phantom — tombol itu tidak dapat membantu kamu.
+- Gunakan dompet yang direktori [ZecHub](/wallets) tandai sebagai **Ironwood: Siap**, dan simpan sedikit SOL di Phantom untuk biaya Solana.
+- Uji nyata kami (27 September 2026, 0.00266336 ZEC): setoran tiba dalam 9 detik, penarikan memakan waktu sekitar 8 menit, total biaya ~0.00025 ZEC + 0.0016 SOL.
+- Baris keamanan: hanya tanda tangani permintaan pesan di `near.com`/`solswap.org` dengan `intents.near` dalam pesan, jangan pernah mengetik frasa pemulihan kamu, dan tempelkan `u1`, bukan `t1`.
+
+## Analogi visual
+
+ZEC di Solana berfungsi seperti **chip kasino**. Harganya seperti uang tunai, dan kasino — NEAR OmniBridge — menjanjikan uang kertas sungguhan (ZEC native) kepada siapa pun yang mengembalikan chip tersebut. Namun, chip itu hanyalah satu baris dalam buku besar kasino: semua orang dapat melihat siapa yang memegangnya, dan nilainya bergantung pada sistem kasino yang tetap sehat. Menarik melalui near.com seperti berjalan ke loket dan mencairkan chip tersebut. Setelah uang kertas itu berada dalam pool terlindungi, uang itu berada di dompet opak milikmu sendiri — tidak ada lagi yang dapat melihat jumlah atau pemegangnya.
+
+---
+
 ## Apa yang sebenarnya kamu miliki
 
 ZEC di dalam dompet Solana kamu adalah sebuah token di Solana, bukan koin di jaringan Zcash. NEAR OmniBridge menerbitkannya dan menyimpan ZEC asli pada chain Zcash untuk menjaminnya; bridge ini telah aktif di Solana sejak Oktober 2025. Sisi Solananya berjalan menggunakan pesan Wormhole dan NEAR Chain Signatures, bukan pada Zcash light client, sehingga sisi Solana hanya seaman kedua sistem tersebut. Orang-orang menyebutnya sebagai "paper ZEC". Ini melacak harga ZEC, tetapi setiap saldo dan setiap transfer berada di ledger publik Solana di bawah alamat dompet kamu, dan tidak dapat dibuat terlindungi selama aset tersebut berada di sana.
@@ -151,7 +165,7 @@ Untuk mengeceknya sendiri, buka transaksi tersebut di dompet kamu dan salin ID t
 
 ![Zcash wallet transaction details with the transaction ID and timestamp](/content-images/13-zodl-tx-details-b08434d680.webp)
 
-Tempelkan ke dalam [block explorer Zcashdari ](https://mainnet.zcashexplorer.app). Jangan bingung dengan ringkasannya. Milik kami menunjukkan **Shielded Inputs / Outputs 0 / 0** dan **Transferred from/to shielded pool 0.0 ZEC**, karena ringkasan explorer belum menghitung Ironwood. Alamat `t1` yang kamu lihat berada di sisi pengirim (ZEC yang telah dibelanjakan dan kembalian yang disimpan), bukan milikmu.
+Tempelkan di [penjelajah blok Zcash](https://mainnet.zcashexplorer.app). Jangan terkecoh oleh ringkasannya. Milik kami menunjukkan **Input / Output Terlindungi 0 / 0** dan **Ditransfer dari/ke pool terlindungi 0.0 ZEC**, karena ringkasan penjelajah belum menghitung Ironwood. Alamat `t1` yang kamu lihat berada di sisi pengiriman (ZEC yang dibelanjakannya dan kembalian yang disimpannya), bukan milikmu.
 
 ![Explorer summary for the transaction: two transparent inputs, one transparent output, 0/0 shielded](/content-images/14-explorer-summary-6153afb265.webp)
 
@@ -181,9 +195,28 @@ Pemegang baru menjadi target. Hampir setiap penipuan yang akan kamu lihat adalah
 
 ---
 
+## Kesalahan Umum
+
+- **Menggunakan tombol Swap Phantom** alih-alih alur deposit. Kamu sudah memiliki token tersebut — swap hanya menukar ZEC paper dengan token lain dan tidak membuatmu lebih dekat ke ZEC native.
+- **Menempelkan alamat `t1`**, atau `u1` yang menyembunyikan penerima transparan, saat dompetmu menawarkan `u1` khusus terlindungi. Deposit tersebut masuk secara publik dan menghubungkannya ke dompetmu secara permanen.
+- **Menganggap dana tersangkut** saat halaman Withdraw solswap menampilkan "–". Saldo mengikuti kunci Phantom kamu, bukan situs webnya — selesaikan penarikan di near.com.
+- **Menandatangani pesan tanpa memeriksanya.** Situs tiruan dapat mengosongkan saldo NEAR Intents kamu dengan satu tanda tangan. Situs tersebut harus `near.com` dan pesannya harus memuat `"verifying_contract": "intents.near"`.
+- **Menyamakan dua ticker "ZEC".** Token Solana dan Zcash ZEC native memiliki nama yang sama tetapi bukan jaringan yang sama — mengirim salah satunya ke chain lainnya akan membuatnya hilang.
+
 ## Apa yang harus dilakukan dengan ZEC terlindungi
 
 - Jaga privasi saat kamu membelanjakannya: [Menggunakan ZEC secara privat](/guides/using-zec-privately)
 - Temukan tempat yang menerimanya: [Tempat untuk membelanjakan ZEC](/using-zcash/spend-zcash/top-10-places-to-spend-zec)
 - Kirim dengan pesan pribadi terlampir: [Memo](/using-zcash/memos)
 - Bayar seseorang tanpa menghubungkan identitasmu: [Kirim uang tanpa menghubungkan identitas](/zcash-use-cases/send-money-without-linking-identity)
+
+---
+
+## Halaman Terkait
+
+- [Cara melakukan swap untuk ZEC di Phantom Wallet](/using-zcash/solswap) — layar solswap secara lebih mendetail
+- [Pool terlindungi](/using-zcash/shielded-pools) — apa itu pool Ironwood/Orchard dan cara kerja penerima
+- [Siapa yang dapat melihat pembayaran Zcash kamu?](/start-here/who-can-see-your-zcash-payment) — hal yang sebenarnya disembunyikan oleh shielding
+- [Dompet](/wallets) — direktori; periksa label **Ironwood: Siap**
+- [Exchange kustodial](/using-zcash/custodial-exchanges) — kompromi yang dihindari oleh rute ini
+- [Memulihkan dana](/using-zcash/recovering-funds) — hal yang perlu kamu jaga agar tidak pernah kehilangan akses

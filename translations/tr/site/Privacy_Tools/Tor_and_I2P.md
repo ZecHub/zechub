@@ -5,13 +5,21 @@
 
 # Gizlilik Neden Önemlidir
 
+## Kısaca
+
+- **Tor** trafiğinizi üç aktarıcı üzerinden yönlendirir ve hem normal web hem de onion hizmetleri için çalışır — bugün cüzdan bağlantılarını ve gezinmeyi anonimleştirmek için pratik varsayılandır
+- **I2P**, kendi dahili hizmetleri için tasarlanmış, tamamen şifrelenmiş eşler arası bir örtü ağdır; **mevcut hiçbir Zcash düğüm I2P'yi yerel olarak desteklemez**
+- **Mobilde:** Bir Zcash cüzdanı, Orbot ("Tor Etkin Uygulamalar") ile birkaç dokunuşta Tor üzerinden yönlendirin
+- **Şu anda bir Zcash düğümünü Tor üzerinden çalıştırmak mümkün değildir:** `zcashd` 18 Temmuz 2026'da destek sonuna ulaştı ve Zebra'ın Tor özelliği hâlâ ana kaynakta devre dışı
+- Tor *nerede olduğunuzu* gizler, *zincir üzerinde ne yaptığınızı* değil — şeffaf işlemler herkese açık kalır
+
 Dijital çağda, [gizliliğinizi](https://www.privacyguides.org/en/) korumak giderek daha hayati hale geldi. Bazıları gizliliği kaybedilmiş bir dava olarak görebilir, ancak öyle değildir. Gizliliğiniz risk altındadır ve endişe konusu olmalıdır. Gizlilik, güç ile ilişkili olduğu için önemli bir değere sahiptir ve bu gücün sorumlu bir şekilde kullanılmasını sağlamak kritik önemdedir.
 
 ## Tor ve I2P Teknolojileri
 
 ## Tor
 
-[Tor](https://www.privacyguides.org/en/tor/?h=tor), uygulamalar için bağlantılar kurmak üzere Tor ağını kullanan bir proxy aracıdır. Torbot bunu, trafiğini Tor üzerinden yönlendirerek gerçekleştirir; böylece bu uygulamalar için [gizliliği ve anonimliğe](https://www.torproject.org/) katkıyı artırır.
+[Tor](https://www.privacyguides.org/en/tor/?h=tor), uygulamalar için bağlantılar kurmak üzere Tor ağını kullanan bir proxy aracıdır. Tor, trafiği Tor üzerinden yönlendirerek bunu gerçekleştirir ve böylece bu uygulamalar için [gizliliği ve anonimliğini](https://www.torproject.org/) artırır.
 
 ## I2P Ağı
 
@@ -43,13 +51,13 @@ Bir Zcash cüzdanını Tor üzerinden yönlendirmek için şu talimatları izley
 
 1.  Uygulama mağazasından *Orbot*'u indirin ve kurun.
 
-2.  Kurulumdan sonra bir karşılama mesajı görünecektir. *Orbot* ana sayfasına devam edin ve *'Tor Enabled Apps'* seçeneğine tıklayın.              
+2.  Kurulumdan sonra bir karşılama mesajı görünecektir. *Orbot* ana sayfasına gidin ve *'Tor Enabled Apps'.* seçeneğine tıklayın.
 
 3. Ekranda Tor ile uyumlu uygulamaları gösteren bir sayfa açılacaktır. Listede Zcash cüzdanınızı bulun ve seçili olduğundan emin olun.
 
 4. Bir VPN kurmak için bir bağlantı isteği görünecektir; bu, *Orbot*'un ağ trafiğini izlemesine olanak tanıyacaktır. Bu izin onaylandıktan sonra *Orbot* başlatılacaktır. 
 
-5. Tor'un çalıştığını doğrulamak için görev çubuğunu veya Orbot ana sayfasını kontrol edin; bunu, 'Connected to the Tor network' ifadesini gördüğünüzde doğrulamış olursunuz.
+5. Tor uygulamasının çalıştığını doğrulamak için görev çubuğunu veya Orbot ana sayfasını kontrol edin; 'Tor ağına bağlandı' ifadesini gördüğünüzde bu doğrulanır.
 
 *Not: Tor mobil ağınız tarafından engelleniyorsa, bağlanmak için alternatif bir yol olarak bir Bridge Server kullanabilirsiniz.*
 
@@ -85,3 +93,11 @@ Crate dokümantasyonu da aynı şeyi açıkça söylüyor: *"`arti-client` bağ�
 - **Mobilde cüzdanınızı Tor üzerinden yönlendirin**; yukarıda açıklandığı gibi Orbot ile. Bu, çoğu insan için pratik seçenektir ve cüzdanınızın konuştuğu lightwalletd sunucusundan IP adresinizi gizler
 - **Tor Browser kullanın**; block explorer'lar, forumlar ve adresinizle ilişkilendirilmek istemeyeceğiniz diğer her şey için
 - **Tor'un neyi gizlemediğini unutmayın.** Ağ konumunuzu anonimleştirir, zincir üstü etkinliğinizi değil. Şeffaf bir adresten gönderim yapmak hâlâ herkese açıktır ve korumalı havuzlar arasında geçen değer hâlâ miktarı yayımlar. Görünür kalanlar için [Shielded Pools](/using-zcash/shielded-pools) sayfasına bakın
+
+## İlgili sayfalar
+
+- [VPN ve DVPN](VPN_and_DVPN.md) — VPN alternatifleri ve karşılaştırmaları
+- [Web Tarayıcıları](Web_Browsers.md) — günlük gizlilik için tarayıcı güçlendirmesi
+- [Güvenli Mesajlaşma Uygulamaları](Secure_Messengers.md) — özel iletişim araçları
+- [Bir Blok Gezgini Neleri Görebilir](../Zcash_Tech/What_a_Block_Explorer_Can_See.md) — düğüm düzeyindeki gizliliğinizin koruduğu ve korumadığı şeyler
+- [Korumalı Havuzlar](/using-zcash/shielded-pools) — ağ katmanı anonimliğiyle bile zincir üzerinde görünür kalanlar

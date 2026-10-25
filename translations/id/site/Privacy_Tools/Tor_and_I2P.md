@@ -5,13 +5,21 @@
 
 # Mengapa Privasi Itu Penting
 
+## Singkatnya
+
+- **Tor** merutekan traffic kamu melalui tiga relay dan berfungsi untuk web biasa maupun layanan onion — saat ini, ini adalah pilihan praktis untuk menganonimkan koneksi dompet dan penjelajahan
+- **I2P** adalah jaringan overlay peer-to-peer terenkripsi sepenuhnya yang dirancang untuk layanan internalnya sendiri; **tidak ada node Zcash saat ini yang berbicara I2P secara native**
+- **Di perangkat seluler:** rutekan dompet Zcash melalui Tor dalam beberapa ketukan dengan Orbot ("Tor Enabled Apps")
+- **Menjalankan node Zcash melalui Tor tidak dapat dilakukan saat ini:** `zcashd` mencapai akhir dukungan pada 18 Juli 2026, dan fitur Tor milik Zebra masih dinonaktifkan di upstream
+- Tor menyembunyikan *di mana kamu berada*, bukan *apa yang kamu lakukan on-chain* — transaksi transparan tetap bersifat publik
+
 Di era digital, menjaga [privasi](https://www.privacyguides.org/en/) kamu menjadi semakin vital. Meskipun beberapa orang mungkin menganggap privasi sebagai hal yang sia-sia, kenyataannya tidak demikian. Privasi kamu sedang dipertaruhkan dan harus menjadi perhatian. Privasi memiliki nilai yang signifikan karena berkaitan dengan kekuasaan, dan memastikan bahwa kekuasaan tersebut digunakan secara bertanggung jawab adalah hal yang krusial.
 
 ## Teknologi Tor & I2P
 
 ## Tor
 
-[Tor](https://www.privacyguides.org/en/tor/?h=tor) adalah alat proxy yang memanfaatkan jaringan Tor untuk membangun koneksi bagi aplikasi. Torbot mencapai hal ini dengan mengarahkan lalu lintas mereka melalui Tor, sehingga meningkatkan [privasi dan anonimitas](https://www.torproject.org/) bagi aplikasi-aplikasi tersebut.
+[Tor](https://www.privacyguides.org/en/tor/?h=tor) adalah alat proxy yang memanfaatkan jaringan Tor untuk membangun koneksi bagi aplikasi. Tor melakukannya dengan merutekan lalu lintas aplikasi tersebut melalui Tor, sehingga meningkatkan [privasi dan anonimitas](https://www.torproject.org/) bagi aplikasi-aplikasi ini.
 
 ## Jaringan I2P
 
@@ -43,13 +51,13 @@ Ikuti instruksi ini untuk mengarahkan dompet Zcash melalui Tor. Perlu diperhatik
 
 1. Unduh dan instal *Orbot* dari toko aplikasi.
 
-2. Setelah instalasi, pesan salam akan muncul. Lanjutkan ke halaman beranda *Orbot* dan klik pada *'Tor Enabled Apps'.*
+2. Setelah instalasi, pesan sambutan akan muncul. Lanjutkan ke halaman beranda *Orbot* dan klik *'Tor Enabled Apps'.*
 
 3. Ini akan memunculkan halaman di layar yang menampilkan aplikasi-aplikasi yang kompatibel dengan Tor. Temukan dompet Zcash kamu dalam daftar dan pastikan sudah terpilih.
 
 4. Permintaan koneksi untuk menyiapkan VPN akan muncul, yang akan memungkinkan *Orbot* untuk memantau lalu lintas jaringan. *Orbot* akan melakukan inisialisasi setelah izin ini disetujui.
 
-5. Periksa taskbar atau beranda Orbot untuk memverifikasi bahwa Tor sedang berjalan, hal ini dikonfirmasi saat kamu melihat 'Connected to the Tor network'.
+5. Periksa taskbar atau beranda Orbot untuk memverifikasi bahwa Tor sedang berjalan, hal ini dikonfirmasi saat kamu melihat 'Terhubung ke jaringan Tor'.
 
 *Catatan: Jika Tor diblokir oleh jaringan seluler kamu, kamu dapat menggunakan Bridge Server sebagai cara alternatif untuk terhubung.*
 
@@ -85,3 +93,11 @@ Jika kamu membutuhkan anonimitas di tingkat node sekarang, pendekatan yang dapat
 - **Routekan dompet kamu melalui Tor** dengan Orbot di perangkat seluler, seperti yang dijelaskan di atas. Ini adalah opsi praktis bagi kebanyakan orang, dan dapat menyembunyikan IP kamu dari server lightwalletd tempat dompet kamu terhubung
 - **Gunakan Tor Browser** untuk block explorer, forum, dan hal lainnya di mana kamu tidak ingin terhubung melalui alamat
 - **Ingat apa yang tidak disembunyikan oleh Tor.** Tor menganonimkan lokasi jaringan kamu, bukan aktivitas on-chain kamu. Mengirim dari alamat transparan tetap bersifat publik, dan nilai yang berpindah antar pool terlindungi tetap memublikasikan jumlahnya. Lihat [Pool Terlindungi](/using-zcash/shielded-pools) untuk mengetahui apa yang tetap terlihat
+
+## Halaman terkait
+
+- [VPN dan DVPN](VPN_and_DVPN.md) — alternatif VPN dan perbandingannya
+- [Peramban Web](Web_Browsers.md) — penguatan browser untuk privasi sehari-hari
+- [Aplikasi Pesan Aman](Secure_Messengers.md) — alat komunikasi privat
+- [Hal yang Dapat Dilihat oleh Penjelajah Blok](../Zcash_Tech/What_a_Block_Explorer_Can_See.md) — hal yang dilindungi dan tidak dilindungi oleh privasi tingkat node kamu
+- [Pool Terlindungi](/using-zcash/shielded-pools) — hal yang tetap terlihat on-chain bahkan dengan anonimitas tingkat jaringan

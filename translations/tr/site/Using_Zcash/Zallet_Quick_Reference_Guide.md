@@ -6,17 +6,17 @@
 
 ## Kısaca
 
-- Zallet, Rust ile yazılmış bir tam düğüm Zcash cüzdanıdır. Eskiden `zcashd` içinde bulunan cüzdanın yerini alır.
-- `zcashd`, 18 Temmuz 2026'da Destek Sonu duruşuna ulaştı ve artık çalışmıyor. Artık düğüm tarafını Zebra, cüzdan tarafını ise Zallet yönetiyor.
+- Zallet, Rust ile yazılmış bir tam düğüm Zcash cüzdanıdır. Eskiden zcashd içinde bulunan cüzdanın yerini alır.
+- zcashd, 18 Temmuz 2026'da Destek Sonu duruşuna ulaştı ve artık çalışmıyor. Artık düğüm tarafını Zebra, cüzdan tarafını ise Zallet yönetiyor.
 - Zallet'i, daha önce `zcash-cli` kullandığınız gibi, komut satırından `zallet rpc <command>` ile kullanırsınız.
 - Komut adından sonraki her argüman geçerli JSON olmalıdır; bu da string değerlerin çift tırnaklarını koruduğu anlamına gelir.
-- Zallet hâlâ alfa aşamasındadır. Komutlar sürümler arasında değişebilir ve her `zcashd` RPC'si henüz aktarılmış değildir.
+- Zallet beta aşamasındadır. Komutlar sürümler arasında değişebilir ve her zcashd RPC'si henüz aktarılmış değildir.
 
 ## Temel Açıklama
 
 Zallet, işlevlerini `zcashd` cüzdanının kullandığı arayüz tarzı olan JSON-RPC üzerinden sunar. Cüzdanın yapmasını istediğiniz her şey — bakiye kontrol etmek, bir hesap oluşturmak, shielded ödeme göndermek — `zallet rpc` komutuna verdiğiniz bir komuttur.
 
-Eski `zcash-cli` alışkanlığından farklı olan ve ilk hataların çoğunu açıklayan iki nokta vardır. Birincisi, argümanlar düz metin yerine geçerli JSON olmalıdır; bu yüzden bir string argüman, kabuk tırnaklarının içinde kendi tırnak işaretlerini de taşımalıdır. İkincisi, kullanılabilir komut kümesi çalıştırdığınız alfa sürümüne bağlıdır; bu nedenle ikili dosyanızın içine yerleşik olan liste, bu sayfa da dahil olmak üzere herhangi bir yazılı sayfadan daha güvenilirdir.
+Eski `zcash-cli` alışkanlığından farklı olan ve ilk hataların çoğunu açıklayan iki nokta vardır. Birincisi, argümanlar düz metin yerine geçerli JSON olmalıdır; bu yüzden bir string argüman, kabuk tırnaklarının içinde kendi tırnak işaretlerini de taşımalıdır. İkincisi, kullanılabilir komut kümesi çalıştırdığınız beta sürümüne bağlıdır; bu nedenle ikili dosyanızın içine yerleşik olan liste, bu sayfa da dahil olmak üzere herhangi bir yazılı sayfadan daha güvenilirdir.
 
 Kullanılabilir tüm RPC'leri listelemek için:
 
@@ -36,8 +36,8 @@ zallet rpc help '"<command>"'
 ## Yaygın Hatalar
 
 - **String argümanlardaki iç tırnakları atlamak.** `zallet rpc validateaddress u1abc...` başarısız olur, çünkü adresin JSON olarak gelmesi gerekir. `'"u1abc..."'` şeklinde yazılması gerekir.
-- **Burada her `zcashd` RPC'sinin bulunduğunu varsaymak.** Aktarma süreci hâlâ devam ediyor. Bazı metotlar birebir aynı davranır, bazıları farklı kullanım gerektirir ve bazıları hiç taşınmayacaktır.
-- **Bu sayfayı, ikili dosyanızdan daha yetkili kabul etmek.** Zallet alfa aşamasındadır ve hızla değişmektedir. Buradaki bir komut çalışmıyorsa, bir şeyin bozuk olduğunu varsaymadan önce `zallet rpc help` ile kontrol edin.
+- **Burada her RPC'nin bulunduğunu varsaymak.** Aktarma süreci hâlâ devam ediyor. Bazı metotlar birebir aynı davranır, bazıları farklı kullanım gerektirir ve bazıları hiç taşınmayacaktır.
+- **Bu sayfayı, ikili dosyanızdan daha yetkili kabul etmek.** Zallet beta aşamasındadır ve hızla değişmektedir. Buradaki bir komut çalışmıyorsa, bir şeyin bozuk olduğunu varsaymadan önce `zallet rpc help` ile kontrol edin.
 - **Zallet'in bir düğüm olmasını beklemek.** O, ikilinin cüzdan yarısıdır. Düğümü Zebra çalıştırır ve Zallet onunla iletişim kurar.
 
 ## RPC Komutları
@@ -474,7 +474,7 @@ zallet rpc z_viewtransaction '"<txid>"'
 
 ## İlgili Sayfalar
 
-- [Geçiş Rehberi: Zcashd'den Zebrad ve Zallet'e](/guides/migration-guide-zcashd-to-zebrad-zallet) — mevcut bir zcashd kurulumundan adım adım geçiş
+- [Geçiş Rehberi: zcashd'den Zebrad ve Zallet'e](/guides/migration-guide-zcashd-to-zebrad-zallet) — mevcut bir zcashd kurulumundan adım adım geçiş
 - [Zebra Tam Düğüm](/zcash-tech/zebra-full-node) — Zallet'in birlikte çalıştığı düğüm uygulaması
 - [Tam Düğümler](/zcash-tech/full-nodes) — tam düğüm çalıştırmanın ne gerektirdiği ve neden isteyebileceğiniz
 - [Cüzdanlar](/using-zcash/wallets) — tam düğüm ihtiyacınızdan fazlaysa daha hafif cüzdan seçenekleri

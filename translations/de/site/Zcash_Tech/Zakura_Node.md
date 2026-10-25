@@ -90,7 +90,7 @@ Laut den eigenen Benchmarks von Zakura:
 
 Für Nutzer ist die sichtbarste Veränderung die Wartezeit. Das Erstellen einer privaten Transaktion dauerte für ein wallet früher mehr als drei Sekunden. Mit Zakura Common kann es in vielen Fällen weniger als 200 ms dauern. Das ist die Zeit, die dein Gerät für die Vorbereitung der Transaktion benötigt, nicht die Zeit, die das Netzwerk für ihre Bestätigung braucht.
 
-Bitte sende den neuen englischen Block.
+---
 
 ## Wie Zakura mit anderen Zcash-Knoten zusammenhängt
 
