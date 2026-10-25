@@ -7298,82 +7298,82 @@
   "el": {
     "Start_Here/Developer_Resources.md": {
       "src": "sha256:8437414a5ac90c4459e01cece2516040e1f35c4aca7dad31c1b780c3da46a2cd",
-      "src_commit": "85ab96fbce89df0e90c803776ad2e0e7597d3045",
+      "src_commit": "9e825f08df8ded3661489ebbb22ec3d9b7c23cd1",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+handfix",
       "edited": false
     },
     "Start_Here/How_Zcash_Is_Organized.md": {
       "src": "sha256:672ff5fe61f10bf013e0c234c3bc7d2ae6cb615d33fa8a2c09d194ee5c1c54f3",
-      "src_commit": "85ab96fbce89df0e90c803776ad2e0e7597d3045",
+      "src_commit": "9e825f08df8ded3661489ebbb22ec3d9b7c23cd1",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+handfix",
       "edited": false
     },
     "Start_Here/Network_Upgrades.md": {
       "src": "sha256:8074cf9e324c84d7dd4fb1c809b39a19a9542fedd008f9255f3e1b596cab5f27",
-      "src_commit": "85ab96fbce89df0e90c803776ad2e0e7597d3045",
+      "src_commit": "9e825f08df8ded3661489ebbb22ec3d9b7c23cd1",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+handfix",
       "edited": false
     },
     "Start_Here/New_User_Guide.md": {
       "src": "sha256:2ea8cbfd2e388528f9f593018505287c831c42de482b65c47f5f86501a8d5d23",
-      "src_commit": "85ab96fbce89df0e90c803776ad2e0e7597d3045",
+      "src_commit": "9e825f08df8ded3661489ebbb22ec3d9b7c23cd1",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+handfix",
       "edited": false
     },
     "Start_Here/What_is_ZEC_and_Zcash.md": {
       "src": "sha256:1e47a4cb6c6674b0b408d41507ea8dc28968de7aded43c88d19d68ac36f05e7b",
-      "src_commit": "85ab96fbce89df0e90c803776ad2e0e7597d3045",
+      "src_commit": "9e825f08df8ded3661489ebbb22ec3d9b7c23cd1",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+handfix",
       "edited": false
     },
     "Start_Here/What_is_ZecHub.md": {
       "src": "sha256:b9a9be1273cc5aeab7326d97834f96e7be19865e7a81e89d759b12fc5c6e68ca",
-      "src_commit": "85ab96fbce89df0e90c803776ad2e0e7597d3045",
+      "src_commit": "9e825f08df8ded3661489ebbb22ec3d9b7c23cd1",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+handfix",
       "edited": false
     },
     "Start_Here/Who_Can_See_Your_Zcash_Payment.md": {
       "src": "sha256:4dc9563e9001c3074e72196cddee90f81238c5a566b2ba95e793d8d23532605c",
-      "src_commit": "85ab96fbce89df0e90c803776ad2e0e7597d3045",
+      "src_commit": "9e825f08df8ded3661489ebbb22ec3d9b7c23cd1",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
-      "edited": false
-    },
-    "Start_Here/Zcash_Resources.md": {
-      "src": "sha256:5c7a81c3b60d3b8525c4008132d4329e807f8015315c53da1ab4c14c31223c53",
-      "src_commit": "85ab96fbce89df0e90c803776ad2e0e7597d3045",
-      "engine": "llm",
-      "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
-      "edited": false
-    },
-    "Start_Here/ZEC_Use_Cases.md": {
-      "src": "sha256:7e7737bdba999ac0cbcaae880be1370f6d7d6d319a5212d90f591a12e60e386c",
-      "src_commit": "85ab96fbce89df0e90c803776ad2e0e7597d3045",
-      "engine": "llm",
-      "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+handfix",
       "edited": false
     },
     "Start_Here/Zcash_Monetary_Policy.md": {
       "src": "sha256:92b8053f5d6ab9e0a31a9b565b647adbafb3b1fdba3f3f69b2b1399dc84274e6",
-      "src_commit": "801c87eae5554c633a845aa1b656aec96d911426",
+      "src_commit": "9e825f08df8ded3661489ebbb22ec3d9b7c23cd1",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+handfix",
+      "edited": false
+    },
+    "Start_Here/Zcash_Resources.md": {
+      "src": "sha256:5c7a81c3b60d3b8525c4008132d4329e807f8015315c53da1ab4c14c31223c53",
+      "src_commit": "9e825f08df8ded3661489ebbb22ec3d9b7c23cd1",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra+handfix",
+      "edited": false
+    },
+    "Start_Here/ZEC_Use_Cases.md": {
+      "src": "sha256:7e7737bdba999ac0cbcaae880be1370f6d7d6d319a5212d90f591a12e60e386c",
+      "src_commit": "9e825f08df8ded3661489ebbb22ec3d9b7c23cd1",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra+glossary-stage2",
       "edited": false
     }
   },
