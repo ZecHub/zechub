@@ -8165,7 +8165,7 @@
       "src_commit": "861d6584cc8095af8af59e1f11508992e35f7c40",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+handfix",
       "edited": false
     },
     "guides/Maya_Protocol.md": {
@@ -8797,7 +8797,7 @@
       "src_commit": "861d6584cc8095af8af59e1f11508992e35f7c40",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+handfix",
       "edited": false
     },
     "Zcash_Tech/NU5.md": {
