@@ -26,11 +26,11 @@ Zcash Community समुदाय द्वारा संचालित ए�
 
 Z.cash, Zcash की मुख्य वेबसाइट है। यह विभिन्न प्रकार के उपयोगकर्ताओं के लिए Zcash की सामग्री और दस्तावेज़ प्रदान करती है तथा नए उपयोगकर्ताओं को Zcash से संबंधित तकनीकी व्याख्याओं में गहराई से जाने की सुविधा देती है।
 
-**[Zcash Github](https://github.com/zcash/zcash)**
+**[Zcash GitHub](https://github.com/zcash/zcash)**
 
-कोडिंग में माहिर हैं और Zcash के तकनीकी पक्ष में गहराई से जाना चाहते हैं? Zcash Github Repo, zcashd के लिए रिपॉज़िटरी है, जो Zcash नोड का पहला कार्यान्वयन है। zcashd का स्वचालित समर्थन-समापन 18 जुलाई 2026 को हो गया और अब इसका रखरखाव नहीं किया जाता, तथा जिस डाउनलोड पेज से यह प्रविष्टि पहले लिंक करती थी वह अब उपलब्ध नहीं है। अनुरक्षित स्टैक नोड के लिए [Zebra](https://github.com/ZcashFoundation/zebra) और wallet के लिए [Zallet](https://github.com/zcash/zallet) है — [zcashd से Zebra और Zallet माइग्रेशन गाइड](https://zechub.wiki/guides/migration-guide-zcashd-to-zebrad-zallet) देखें।
+कोडिंग में माहिर हैं और Zcash के तकनीकी पक्ष में गहराई से जाना चाहते हैं? Zcash GitHub Repo, zcashd के लिए रिपॉज़िटरी है, जो Zcash नोड का पहला कार्यान्वयन है। zcashd का स्वचालित समर्थन-समापन 18 जुलाई 2026 को हो गया और अब इसका रखरखाव नहीं किया जाता, तथा जिस डाउनलोड पेज से यह प्रविष्टि पहले लिंक करती थी वह अब उपलब्ध नहीं है। अनुरक्षित स्टैक नोड के लिए [Zebra](https://github.com/ZcashFoundation/zebra) और wallet के लिए [Zallet](https://github.com/zcash/zallet) है — [zcashd से Zebra और Zallet माइग्रेशन गाइड](https://zechub.wiki/guides/migration-guide-zcashd-to-zebrad-zallet) देखें।
 
-**[Zcash Foundation Github](https://github.com/ZcashFoundation)**
+**[Zcash Foundation GitHub](https://github.com/ZcashFoundation)**
 
 Zcash Foundation की परियोजनाओं को होस्ट करने वाला एक अन्य GitHub रिपॉज़िटरी, जिसमें Rust में बनाया गया Zcash नोड कार्यान्वयन [zebra](https://github.com/ZcashFoundation/zebra) भी शामिल है।
 

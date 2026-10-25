@@ -4,7 +4,7 @@
 //   node translation/glossary/review-kit.mjs export <loc> --kit pages|ui|all
 //        [--terms id1,id2] [--out kit.md] [--no-evidence]
 //        [--dict <website>/dictionaries/<loc>.json] [--en-dict <website>/dictionaries/en.json]
-//        [--brands names.txt | <website>/scripts/lib/menu-source.mjs]
+//        [--brands names.txt | <website>/scripts/lib/menu-source.mjs] [--only-missing]
 //
 //   node translation/glossary/review-kit.mjs import <loc> filled.md --reviewer <name>
 //        [--date YYYY-MM-DD] [--write] [--report needs-maintainer.md] [--brands ...]
@@ -48,7 +48,7 @@ const positional = [];
 for (let i = 0; i < argv.length; i++) {
   const a = argv[i];
   if (a.startsWith("--")) {
-    const boolean = ["--write", "--no-evidence"].includes(a);
+    const boolean = ["--write", "--no-evidence", "--only-missing"].includes(a);
     if (boolean) flags.set(a, true);
     else {
       const v = argv[i + 1];
@@ -148,7 +148,7 @@ if (command === "export") {
   }
   const instrPath = join(dir, "review-instructions.json");
   const instructions = existsSync(instrPath) ? readJson(instrPath).languages?.[loc] ?? null : null;
-  const md = exportKit({ glossary, termsEn, kit, termIds, evidence: kit === "ui" ? null : evidence(), dict, enDict, preserveVerbatim, brands, instructions });
+  const md = exportKit({ glossary, termsEn, kit, termIds, evidence: kit === "ui" ? null : evidence(), dict, enDict, preserveVerbatim, brands, instructions, onlyMissing: Boolean(flags.get("--only-missing")) });
   const out = flags.get("--out");
   if (out) {
     writeFileSync(out, md);

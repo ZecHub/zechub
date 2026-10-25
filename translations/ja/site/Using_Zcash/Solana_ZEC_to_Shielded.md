@@ -10,6 +10,20 @@
 
 ---
 
+## 要約
+
+- Solanaウォレット内のZECは、NEARのOmniBridgeがZcashチェーン上で保有する実際のZECによって1:1で裏付けられた**Solanaトークン**（mint `A7bd…QXaS`）です。これはSolanaの公開台帳上に存在し、そこでシールドできない「紙のZEC」です。
+- 手順は2段階です。solswap.orgでトークンを**deposit**し（NEAR Intents）、次にnear.comでウォレットのシールドされた`u1`アドレスへ**withdraw**します。Phantom独自のSwapボタンは役に立たないため、使用しないでください。
+- [ZecHubディレクトリ](/wallets)で**Ironwood: Ready**と表示されているウォレットを使用し、Solana手数料用にPhantomに少量のSOLを入れておいてください。
+- 実際のテスト（2026年9月27日、0.00266336 ZEC）では、depositは9秒で完了し、withdrawには約8分かかり、総費用は約0.00025 ZEC + 0.0016 SOLでした。
+- 安全上の注意：メッセージ内に`intents.near`がある場合にのみ`near.com`/`solswap.org`でメッセージ要求に署名し、シードフレーズは絶対に入力せず、`t1`ではなく`u1`を貼り付けてください。
+
+## 視覚的な類比
+
+Solana 上の ZEC は、**カジノチップ**のように機能します。現金同様の価格で取引され、カジノ、すなわち NEAR OmniBridge は、チップを返却する人には本物の銀行券（ネイティブ ZEC）を渡すと約束します。しかし、そのチップはカジノの台帳上の一行にすぎません。誰が保有しているかは誰にでも見え、その価値はカジノのシステムが健全に稼働し続けることに依存します。near.com を通じた引き出しは、窓口まで歩いてチップを現金に換えるようなものです。銀行券がシールドプールに入れば、それはあなた自身の不透明なウォレットに入ったことになり、金額も保有者も誰にも見えなくなります。
+
+---
+
 ## 実際に保有しているもの
 
 Solanaウォレット内のZECは、Zcashネットワーク上のコインではなく、Solana上のトークンです。NEARのOmniBridgeがこれを発行し、裏付けとしてZcashチェーン上で実際のZECを保有しています。このブリッジは2025年10月からSolana上で稼働しています。そのSolana側は、ZcashライトクライアントではなくWormholeメッセージとNEAR Chain Signaturesで動作しているため、Solana側の安全性はその2つのシステムに依存します。人々はこれを「紙のZEC」と呼びます。ZECの価格に追随しますが、すべての残高と送金はあなたのウォレットアドレスのもとSolanaの公開台帳に記録され、そこにある限りシールドできません。
@@ -181,9 +195,28 @@ Solanaから出るすべての経路は、ブリッジがあなたのトーク�
 
 ---
 
+## よくある間違い
+
+- **入金フローではなく、PhantomのSwapボタンを使うこと。** すでにトークンを保有しているため、スワップではペーパーZECを別のトークンに交換するだけで、ネイティブZECに近づくことはありません。
+- **`t1`アドレス、または透過型受取人を隠した`u1`を貼り付けること。** ウォレットがシールド専用の`u1`を提供している場合、入金は公開された状態で着金し、ウォレットに永久に紐づきます。
+- solswapのWithdrawページに「–」と表示されたときに、**資金が動かせなくなったと考えること。** 残高はウェブサイトではなくPhantomキーに従います。near.comで出金を完了してください。
+- **確認せずにメッセージへ署名すること。** 偽装サイトは1回の署名でNEAR Intents残高を空にできます。サイトは`near.com`でなければならず、メッセージには`"verifying_contract": "intents.near"`が含まれている必要があります。
+- **2つの「ZEC」ティッカーを混同すること。** SolanaトークンとネイティブZcash ZECは同じ名前を共有していますが、ネットワークは異なります。どちらかをもう一方のチェーンに送ると失われます。
+
 ## シールドされたZECでできること
 
 - 使うときにもプライバシーを保つ：[ZECをプライベートに使う](/guides/using-zec-privately)
 - 使える場所を探す：[ZECを使える場所](/using-zcash/spend-zcash/top-10-places-to-spend-zec)
 - プライベートなメッセージを添えて送る：[メモ](/using-zcash/memos)
 - 身元を紐付けずに誰かへ支払う：[身元を紐付けずに送金する](/zcash-use-cases/send-money-without-linking-identity)
+
+---
+
+## 関連ページ
+
+- [ZECをPhantom Walletでスワップする方法](/using-zcash/solswap) — solswapの画面をより詳しく解説
+- [シールドプール](/using-zcash/shielded-pools) — Ironwood/Orchardプールとは何か、受取人がどのように機能するか
+- [あなたのZcash支払いを閲覧できるのは誰？](/start-here/who-can-see-your-zcash-payment) — シールディングが実際に隠すもの
+- [ウォレット](/wallets) — ディレクトリ。「**Ironwood: Ready**」ラベルを確認
+- [カストディアル取引所](/using-zcash/custodial-exchanges) — この方法が回避するトレードオフ
+- [資金の復旧](/using-zcash/recovering-funds) — アクセスを決して失わないために安全に保管すべきもの

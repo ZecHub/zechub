@@ -100,7 +100,7 @@ Hasil hackathon baru-baru ini memberikan gambaran yang baik tentang apa yang sed
 
 Tetap dipertahankan karena artikel lama menautkan ke sana, dan karena ini masih menjadi referensi tentang bagaimana node yang sudah pensiun berperilaku. Jangan mulai dari sini.
 
-[The Zcashd Book](https://zcash.github.io/zcash/) dan dokumen referensi [zcashd RPC](https://zcash.github.io/rpc/) adalah perangkat lunak yang telah mencapai [end of life](https://zcash.github.io/zcash/user/end-of-life.html) pada Juli 2026. Repositori [zcash/zcash](https://github.com/zcash/zcash) telah diarsipkan.
+[The zcashd Book](https://zcash.github.io/zcash/) dan dokumen referensi [zcashd RPC](https://zcash.github.io/rpc/) adalah perangkat lunak yang telah mencapai [end of life](https://zcash.github.io/zcash/user/end-of-life.html) pada Juli 2026. Repositori [zcash/zcash](https://github.com/zcash/zcash) telah diarsipkan.
 
 Jika kamu memiliki sumber daya untuk ditambahkan, atau kamu menemukan sesuatu di sini yang sudah tidak mutakhir, buka sebuah issue atau pull request. Tim tidak selalu memiliki kapasitas untuk menjaga semuanya tetap terbaru, dan menandai apa yang kamu temukan akan membantu mengarahkan panduan ini.
 

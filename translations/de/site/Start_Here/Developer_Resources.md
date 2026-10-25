@@ -100,7 +100,7 @@ Aktuelle Hackathon-Ergebnisse geben ein gutes Bild davon, was Menschen entwickel
 
 Sie werden beibehalten, weil ältere Artikel auf sie verlinken und weil sie weiterhin die Referenz dafür sind, wie sich der eingestellte Knoten verhielt. Beginne nicht hier.
 
-[Das Zcashd Book](https://zcash.github.io/zcash/) und die [zcashd-RPC-Referenz](https://zcash.github.io/rpc/) dokumentieren Software, die im Juli 2026 ihr [End-of-Life](https://zcash.github.io/zcash/user/end-of-life.html) erreichte. Das Repository [zcash/zcash](https://github.com/zcash/zcash) ist archiviert.
+[Das zcashd Book](https://zcash.github.io/zcash/) und die [zcashd-RPC-Referenz](https://zcash.github.io/rpc/) dokumentieren Software, die im Juli 2026 ihr [End-of-Life](https://zcash.github.io/zcash/user/end-of-life.html) erreichte. Das Repository [zcash/zcash](https://github.com/zcash/zcash) ist archiviert.
 
 Wenn du eine Ressource hinzufügen möchtest oder hier etwas Veraltetes entdeckst, eröffne ein Issue oder einen Pull Request. Teams haben nicht immer die Kapazität, alles aktuell zu halten, und Hinweise darauf, worauf du gestoßen bist, helfen dabei, die Anleitungen gezielt zu verbessern.
 

@@ -100,7 +100,7 @@ zcashd 将钱包与节点捆绑在一起。该钱包已不复存在，而 [Zalle
 
 之所以保留，是因为旧文章链接到了它们，也因为它们仍是了解已弃用节点行为方式的参考资料。请不要从这里开始。
 
-[The Zcashd Book](https://zcash.github.io/zcash/) 和 [zcashd RPC 参考](https://zcash.github.io/rpc/) 记录的软件已于 2026 年 7 月[结束生命周期](https://zcash.github.io/zcash/user/end-of-life.html)。[zcash/zcash](https://github.com/zcash/zcash) 代码仓库已归档。
+[The zcashd Book](https://zcash.github.io/zcash/) 和 [zcashd RPC 参考](https://zcash.github.io/rpc/) 记录的软件已于 2026 年 7 月[结束生命周期](https://zcash.github.io/zcash/user/end-of-life.html)。[zcash/zcash](https://github.com/zcash/zcash) 代码仓库已归档。
 
 如果你有想补充的资源，或发现这里有内容已经过时，请提交 issue 或 pull request。团队未必总有能力让所有内容保持最新，而标记出你遇到的问题有助于引导指南的完善。
 

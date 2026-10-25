@@ -26,11 +26,11 @@ As mentioned in the new user guide, the Zcash forum is a great place to have lon
 
 Z.cash is Zcash's main website. It provides content and documentation of Zcash for a wide range of users and allows new users to dive deeper into the technical explanations around Zcash.
 
-**[Zcash Github](https://github.com/zcash/zcash)**
+**[Zcash GitHub](https://github.com/zcash/zcash)**
 
-Got coding chops and want to dive deeper into the technical side of Zcash? The Zcash Github Repo is the repository for zcashd, the first Zcash node implementation. zcashd reached its automatic end-of-support halt on 18 July 2026 and is no longer maintained, and the download page this entry used to link to is no longer served. The maintained stack is [Zebra](https://github.com/ZcashFoundation/zebra) for the node and [Zallet](https://github.com/zcash/zallet) for the wallet — see the [zcashd to Zebra and Zallet migration guide](https://zechub.wiki/guides/migration-guide-zcashd-to-zebrad-zallet).
+Got coding chops and want to dive deeper into the technical side of Zcash? The Zcash GitHub Repo is the repository for zcashd, the first Zcash node implementation. zcashd reached its automatic end-of-support halt on 18 July 2026 and is no longer maintained, and the download page this entry used to link to is no longer served. The maintained stack is [Zebra](https://github.com/ZcashFoundation/zebra) for the node and [Zallet](https://github.com/zcash/zallet) for the wallet — see the [zcashd to Zebra and Zallet migration guide](https://zechub.wiki/guides/migration-guide-zcashd-to-zebrad-zallet).
 
-**[Zcash Foundation Github](https://github.com/ZcashFoundation)**
+**[Zcash Foundation GitHub](https://github.com/ZcashFoundation)**
 
 Another GitHub repository hosting projects of the Zcash Foundation, including [zebra](https://github.com/ZcashFoundation/zebra), a Zcash node implementation in Rust.
 

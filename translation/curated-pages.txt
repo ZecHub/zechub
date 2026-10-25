@@ -172,6 +172,7 @@ Zcash_Tech/Zebra_Full_Node.md
 Zcash_Tech/zk_SNARKS.md
 Zcash_Use_Cases/About.md
 Zcash_Use_Cases/Accept_Payments_As_A_Merchant.md
+Zcash_Use_Cases/Accept_Private_Donations_As_A_US_Nonprofit.md
 Zcash_Use_Cases/Freelance_Privacy_Setup.md
 Zcash_Use_Cases/Journalist_Privacy_Setup.md
 Zcash_Use_Cases/Keeping_Records_With_Shielded_ZEC.md

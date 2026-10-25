@@ -8,6 +8,18 @@
 
 Viewing key 是选择性披露的工具：你选择谁能看到什么，而无需为此交出消费权限。
 
+## 简而言之
+
+查看密钥授予对隐蔽 Zcash 地址或账户活动的**只读**访问权限：持有者可以查看传入交易（对于完整查看密钥，也可查看传出交易），但绝不能花费资金。
+
+- **它是什么：** 屏蔽池的选择性披露工具。于 [ZIP 310](https://zips.z.cash/zip-0310)中引入，并在 Sapling网络升级中加入协议。
+- **它授予什么：** 充值检测能力（`uivk…`传入密钥），或账户完整的收/付可见性（`uview…`统一完整查看密钥），以及旧版 Sapling `zxviews…`密钥。
+- **它不授予什么：** 支出权限。查看密钥持有者的任何操作都无法转移资金。
+- **它目前可在何处使用：** 可在 [Zallet](https://github.com/zcash/zallet) 中导出/导入（v0.1.0-beta.2+、`z_exportviewingkey` / `z_importviewingkey`），并可在诸如 Zkool 等钱包中使用仅监控账户；当前支持矩阵请参阅 [钱包](/using-zcash/wallets)页面。
+- **经验法则：** 优先使用能够回答所问问题的最受限密钥，并记住，交付出去的密钥无法收回——只能通过转移资金使其失效。
+
+---
+
 ## 为什么使用 viewing key？
 
 Electric Coin Company 关于这一主题的文章列出了最常见的几种情形，而它们如今仍然很常见：
@@ -104,17 +116,75 @@ zallet rpc z_importviewingkey '"<zxviews… key>"' '"whenkeyisnew"' 0
 - **Ywallet 教程。** Wallets 页面将 Ywallet 标记为 **Ironwood: Not Ready**，因此它不适合被推荐用于 Ironwood 时代的 viewing key。来自同一开发者的 Zkool 接受相同范围的密钥，并被标记为 Ready。
 - **zcashblockexplorer.com/vk。** 该服务返回带有无效证书的 HTTP 503，已被弃用而未被替代。将 viewing key 粘贴到网站会把你的完整交易历史交给运营该网站的人；这始终是旧页面中三种选项里最薄弱的一种。请改为将密钥导入由你自己运行的 wallet。
 
+## 视觉 / 类比
+
+### 审计员的窗口
+
+把屏蔽账户想象成银行里的保险库：
+
+- **支出密钥**是房间钥匙。持有它的人可以打开盒子并取出里面的内容。
+- **查看密钥**是审计员通往该房间的窗口。审计员可以查看每个盒子的进出、阅读标签并记录账本——但这扇窗没有把手。透过它查看的人无法移动房间内的任何东西。
+
+### 窗口无法显示的内容
+
+这扇窗口面向房间，而非房间外的世界。它展示的是被查看账户的屏蔽活动；它不会让查看者成为观察整个区块链的人，也不会让查看者将该账户的活动与其他任何人的非屏蔽历史关联起来。而且，由于这扇窗口是在账户层级安装的，即使只给某人一个存款箱（单个地址）的窥视孔，他们仍能看到整个房间的入账视图——这正是最小权限密钥规则存在的原因。
+
+### 为什么你无法收回该时间窗口
+
+Viewing Key 是一条信息，而不是权限条目。一旦被复制，它就会一直存在，直到资金离开它所观察的账户。实际的补救措施是轮换：将余额转移到对方从未获得其密钥的新账户，旧窗口面对的便是一间空房。
+
+## 深入探讨
+
+### 试探性解密：查看究竟如何运作
+
+每笔屏蔽交易都会将其 note 明文加密给预期接收者。持有查看密钥的钱包会执行 **试探解密**：对于它在链上发现的每笔交易，都会尝试使用该密钥解密 note 密文。命中后会揭示 note 的价值、接收者多样化器和备注；未命中则不产生任何代价。这就是为什么同一个传入查看密钥能在 Orchard 和 Ironwood 池中持续有效——[ZIP 326](https://zips.z.cash/zip-0326) 将 receiver 限定在 Orchard *协议*中，因此 Ironwood note 密文呈 Orchard 形态，并会在 Ironwood note 加密域下使用账户的 Orchard 查看密钥进行试探解密。
+
+### 完整与传入：由什么派生决定
+
+一个**完整**查看密钥可以派生出出站查看能力，使审计人员能够在交易解密后重建转账的*发送方*一侧。一个**入站**查看密钥则有意止步于此：它能检测并解密传入的 notes，但无法重建出站关联。这些能力之间的派生是单向的——入站密钥由完整密钥派生*而来*，绝不会反向派生——这正是“仅入站”成为真正降级而非承诺的原因。[ZIP 2005](https://zips.z.cash/zip-2005) 中的 `use_qsk` 标志改变了派生本身，因此可由量子计算恢复的密钥完全属于不同的密钥家族，而非旧密钥的一种变体。
+
+### 查看者眼中的迁移是什么样的
+
+由于[ZIP 318](https://zips.z.cash/zip-0318)迁移是一系列随机化的小额、统一的Orchard-到-Ironwood交易，持有该密钥的查看者会看到一个阶梯：许多标准面额的价值阶梯，而非一次跃升。单个阶梯不会揭示正在迁移的总余额，但其*模式*是可识别的——这正是可审计旋转门所预期的权衡。
+
+## 实际影响
+
+- **适用于交易所和支付处理商：**将账户的入站查看密钥（或用于完整覆盖的 UFVK）加载到检测节点上，并像处理透明地址一样自动核对客户存款——但客户的支出密钥永远不会离开冷存储。
+- **适用于审计人员和储备证明：**完整查看密钥将“相信我们”变为“验证这一点”：可查看受监控账户的余额和完整交易历史，但完全无法动用这些账户。将其与[付款披露](/zcash-tech/payment-disclosures)结合使用，可为单笔付款提供一次性证明。
+- **适用于尽职调查：**向交易对手提供与该业务相关账户的密钥，而非整个钱包的密钥。如果关系终止，请轮换该账户。
+- **适用于工具选择：**Zallet导出 UFVK，并导入Sapling扩展完整查看密钥；Zkool接受统一密钥和旧版密钥作为仅查看账户。在选定钱包作为标准前，请查看[钱包](/using-zcash/wallets)页面，了解当前Ironwood就绪度矩阵。
+- **披露成本是永久性的：**每多一个密钥持有者，都会形成一条无法关闭的永久隐私信用额度。应按关系签发密钥，将其范围限定为单个账户，并记录谁持有哪些密钥。
+
+## 常见错误
+
+| 常见看法 | 实际情况 |
+| --- | --- |
+| “查看密钥泄露后可以花费资金。” | 不可以。查看密钥不具备花费权限；泄露最严重的后果只是暴露交易历史。 |
+| “我之后可以撤销查看密钥。” | 不可以。交出去的密钥会一直有效，直到资金转移到对方不持有其密钥的账户中。 |
+| “导出某个地址的 UIVK 只会显示该地址。” | 查看密钥以账户为范围。UIVK 会显示该账户中每个资金池的入账活动。 |
+| “`zcash-cli z_exportviewingkey` 仍然可用。” | 不可用。zcashd 已于 2026 年 7 月 18 日结束支持并停止运行；请改用 Zallet 的 `z_exportviewingkey` / `z_importviewingkey`。 |
+| “将查看密钥粘贴到网页工具中是安全的，因为它是只读的。” | 只读仍意味着该账户的完整交易历史会交给运行该网站的人。请将密钥导入由你自己运行的钱包。 |
+| “Zallet 可以导入 Zallet 能导出的任何查看密钥。” | 不可以。Zallet 只能导入 Sapling 扩展完整查看密钥；统一 `uview…` 密钥必须导入接受统一密钥的钱包，例如 Zkool。 |
+
+## 相关页面
+
+- [支付披露](/zcash-tech/payment-disclosures) — 在不授予对账户持续访问权限的情况下证明一笔支付的选定细节
+- [统一地址](/zcash-tech/unified-addresses) — 承载 viewing-key 接收方的地址层
+- [Ironwood](/zcash-tech/ironwood) — NU6.3 屏蔽池，Orchard 将迁移至其中
+- [The Turnstile](/zcash-tech/the-turnstile) — 观看者可见的从 Orchard 到 Ironwood 的迁移机制
+- [钱包](/using-zcash/wallets) — 钱包、viewing-key 支持及 Ironwood 就绪状态的完整目录
+- [从 Viewing Key](/guides/viewing-key-transaction-export) 导出交易历史 — 将导入的密钥转换为包含完整 txid/手续费/备注历史的文件
+
 ## 资源
 
 请按需使用 viewing key，并优先选择能够回答所问问题的范围最窄的密钥。
 
-- [支付披露](/zcash-tech/payment-disclosures) - 在不授予对账户持续访问权限的情况下，证明一笔付款的选定详情
-- [ZIP 326：NU6.3 对钱包的影响](https://zips.z.cash/zip-0326) — viewing key 如何跨 Orchard 和 Ironwood 资金池运作
+- [付款披露](/zcash-tech/payment-disclosures) - 在不授予对账户持续访问权限的情况下证明一笔付款的选定详情
+- [ZIP 326：NU6.3 对钱包的影响](https://zips.z.cash/zip-0326) — 查看密钥如何在 Orchard 和 Ironwood 资金池之间运作
 - [ZIP 229：版本 6 交易格式](https://zips.z.cash/zip-0229) — 定义 Orchard 和 Ironwood 资金池
-- [Zallet 更新日志](https://github.com/zcash/zallet/blob/main/CHANGELOG.md) — 哪个版本添加了哪个 RPC 方法
+- [ZIP 310](https://zips.z.cash/zip-0310) — 查看密钥规范
+- [Zallet 变更日志](https://github.com/zcash/zallet/blob/main/CHANGELOG.md) — 哪个版本添加了哪个 RPC 方法
 - [Zkool README](https://github.com/hhanh00/zkool2/blob/main/README.md) — 支持的账户和密钥类型
-- [ECC，说明 Viewing Key](https://electriccoin.co/blog/explaining-viewing-keys/)
-- [ECC，选择性披露与 Viewing Key](https://electriccoin.co/blog/viewing-keys-selective-disclosure/)
-- [ECC，Zcash Viewing Key视频演示](https://www.youtube.com/watch?v=NXjK_Ms7D5U&t=199s)
-
-另请参阅：[Unified Address](./Unified_Addresses.md)
+- [ECC，解释查看密钥](https://electriccoin.co/blog/explaining-viewing-keys/)
+- [ECC，选择性披露和查看密钥](https://electriccoin.co/blog/viewing-keys-selective-disclosure/)
+- [ECC，Zcash Viewing Key 视频演示](https://www.youtube.com/watch?v=NXjK_Ms7D5U&t=199s)

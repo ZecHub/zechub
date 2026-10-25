@@ -140,11 +140,11 @@ cbZEC는 ZEC 사용자가 Zcash 생태계에 대한 익스포저를 포기하지
 
 <div class="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   
-<iframe width="560" height="315" src="https://www.youtube.com/embed/NcOQH5OeV7I?si=IPB1OElBsYj1AUt9" title="Coinbase Wrapped(ZEC CBZEC) 토큰 분석" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NcOQH5OeV7I?si=IPB1OElBsYj1AUt9" title="Coinbase Wrapped(ZEC cbZEC) 토큰 분석" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 </div>
 
-아래는 cbZec를 지원하는 Base의 DeFi 플랫폼입니다. 
+아래는 cbZEC를 지원하는 Base의 DeFi 플랫폼입니다. 
 
 ---
 

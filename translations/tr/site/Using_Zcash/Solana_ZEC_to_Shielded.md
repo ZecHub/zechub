@@ -10,6 +10,20 @@ Aşağıdaki her adımı 27 Eylül 2026'da, Phantom içinde 0.00266336 ZEC ile b
 
 ---
 
+## Kısaca
+
+- Solana cüzdanınızdaki ZEC, NEAR OmniBridge'nın Zcash zincirinde tuttuğu gerçek ZEC tarafından 1:1 oranında desteklenen bir **Solana tokenidir** (mint `A7bd…QXaS`) — Solana'ın herkese açık defterinde bulunan ve orada korumalı hâle getirilemeyen "kâğıt ZEC".
+- İşlem iki adımdan oluşur: tokeni solswap.org üzerinde **yatırın** (NEAR Intents), ardından near.com üzerinde cüzdanınızın korumalı `u1` adresine **çekin**. Phantom'nin kendi Swap düğmesini kullanmayın — size yardımcı olamaz.
+- [ZecHub dizininin](/wallets) **Ironwood: Hazır** olarak işaretlediği bir cüzdan kullanın ve Solana ücreti için Phantom içinde biraz SOL bulundurun.
+- Gerçek testimizde (27 Eylül 2026, 0.00266336 ZEC): yatırma 9 saniyede tamamlandı, çekme yaklaşık 8 dakika sürdü, toplam maliyet ~0.00025 ZEC + 0.0016 SOL oldu.
+- Güvenlik notu: yalnızca `near.com`/`solswap.org` üzerinde, mesajda `intents.near` bulunan mesaj isteklerini imzalayın; seed phrase'inizi asla yazmayın ve bir `u1` yapıştırın, asla `t1` yapıştırmayın.
+
+## Görsel benzetme
+
+Solana üzerindeki ZEC, bir **kumarhane fişi** gibi çalışır. Nakit gibi fiyatlanır ve kumarhane — NEAR OmniBridge — fişi geri getiren herkese gerçek banknotları (yerel ZEC) vermeyi vaat eder. Ancak fiş, kumarhanenin defterindeki yalnızca bir satırdır: herkes kimin elinde olduğunu görebilir ve değeri, kumarhanenin sistemlerinin sağlam kalmasına bağlıdır. near.com üzerinden çekim yapmak, vezneye gidip fişi bozdurmak gibidir. Banknotlar bir shielded pool'a girdikten sonra kendi opak cüzdanınızdadır — artık hiç kimse tutarı veya sahibini göremez.
+
+---
+
 ## Aslında ne tutuyorsunuz?
 
 Solana cüzdanınızdaki ZEC, Zcash ağındaki coinler değil, Solana üzerindeki bir tokendir. NEAR OmniBridge onu çıkarır ve karşılığını sağlamak için Zcash zincirinde gerçek ZEC tutar; köprü Ekim 2025'ten beri Solana'da aktiftir. Solana ayağı, Zcash hafif istemcisi yerine Wormhole mesajları ve NEAR Chain Signatures üzerinde çalışır; dolayısıyla Solana tarafı yalnızca bu iki sistem kadar sağlamdır. İnsanlar buna "kâğıt ZEC" der. ZEC fiyatını takip eder, ancak her bakiye ve her transfer Solana'nın herkese açık defterinde cüzdan adresiniz altında yer alır ve orada kaldığı sürece korunamaz.
@@ -181,9 +195,28 @@ Yeni sahipler hedef alınır. Göreceğiniz neredeyse her dolandırıcılık şu
 
 ---
 
+## Yaygın Hatalar
+
+- **Para yatırma akışı yerine Phantom'nin Swap düğmesini kullanmak.** Token zaten elinizde — swap işlemi yalnızca bir kâğıt ZEC'i başka bir tokenla değiştirir ve sizi yerel ZEC'ye yaklaştırmaz.
+- **Bir `t1` adresini** veya cüzdanınız korumalı-yalnızca `u1` sunarken şeffaf bir alıcıyı gizleyen bir `u1`'ü yapıştırmak. Para yatırma işlemi herkese açık olarak gerçekleşir ve onu cüzdanınıza kalıcı olarak bağlar.
+- solswap'ın Withdraw sayfasında "–" göründüğünde **fonların sıkıştığını varsaymak.** Bakiye web sitesini değil, Phantom anahtarınızı takip eder — para çekme işlemini near.com'da tamamlayın.
+- **Kontrol etmeden bir mesaj imzalamak.** Benzer görünümlü bir site, tek bir imzayla NEAR Intents bakiyenizi boşaltabilir. Site `near.com` olmalı ve mesaj `"verifying_contract": "intents.near"` içermelidir.
+- **İki "ZEC" ticker'ını karıştırmak.** Solana tokenı ile yerel Zcash ZEC aynı adı paylaşır, ancak aynı ağı paylaşmaz — herhangi birini diğer zincire göndermek onu kaybetmenize yol açar.
+
 ## Korumalı ZEC ile ne yapabilirsiniz?
 
 - Harcadığınızda gizli tutun: [ZEC'i gizli kullanma](/guides/using-zec-privately)
 - Kabul eden yerleri bulun: [ZEC harcanabilecek yerler](/using-zcash/spend-zcash/top-10-places-to-spend-zec)
 - Ekli özel bir mesajla gönderin: [Notlar](/using-zcash/memos)
 - Kimliğinizi bağlamadan birine ödeme yapın: [Kimliği bağlamadan para gönderme](/zcash-use-cases/send-money-without-linking-identity)
+
+---
+
+## İlgili Sayfalar
+
+- [Phantom Wallet'ta ZEC için nasıl takas yapılır](/using-zcash/solswap) — solswap ekranlarına daha ayrıntılı bakış
+- [Korumalı havuzlar](/using-zcash/shielded-pools) — Ironwood/Orchard havuzlarının ne olduğu ve alıcıların nasıl çalıştığı
+- [Zcash ödemenizi kim görebilir?](/start-here/who-can-see-your-zcash-payment) — korumanın gerçekte neyi gizlediği
+- [Cüzdanlar](/wallets) — dizin; **Ironwood: Hazır** etiketini kontrol edin
+- [Saklamalı borsalar](/using-zcash/custodial-exchanges) — bu yolun kaçındığı ödünleşim
+- [Fonları kurtarma](/using-zcash/recovering-funds) — erişimi asla kaybetmemek için neleri güvenle saklamanız gerektiği
