@@ -44,6 +44,9 @@ Accept payments using a shielded address and avoid exposing customer transaction
 ###  [Run a Private Community Treasury](/zcash-use-cases/private-community-treasury)
 Use shielded addresses to hold shared funds and limit visibility of balances and transactions
 
+###  [Accept Private Donations as a US Nonprofit](/zcash-use-cases/accept-private-donations-as-a-us-nonprofit)
+Accept shielded ZEC as a 501(c)(3) and still give donors the receipts and IRS forms they need
+
 ###  [Journalist Privacy Setup](/zcash-use-cases/journalist-privacy-setup)   
 Use shielded addresses for all transactions and protect sources by avoiding traceable payments. Use memos carefully for secure communication
 
