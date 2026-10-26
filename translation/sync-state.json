@@ -9103,6 +9103,14 @@
       "mode": "full",
       "tool": "codex/gpt-5.6-terra",
       "edited": false
+    },
+    "tutorials/shieldedNewsletter/daoAddresses.md": {
+      "src": "sha256:7dd23135e01ab8b26409db85e188fa87013600aa42cf5faae08885bcd18d2289",
+      "src_commit": "84c643ae065980d12d54166be7a2ed4371b1105a",
+      "engine": "llm",
+      "mode": "seed",
+      "tool": "copy (address only, no prose)",
+      "edited": false
     }
   },
   "es": {
