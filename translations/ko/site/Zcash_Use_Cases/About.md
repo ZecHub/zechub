@@ -39,6 +39,9 @@ Zcash로 결제받으면서 고객과 수입을 비공개로 유지하세요.
 ###  [비공개 커뮤니티 재정 운영하기](/zcash-use-cases/private-community-treasury)
 보호된 주소를 사용해 공동 자금을 보관하고 잔액과 거래의 공개 범위를 제한하세요
 
+###  [미국 비영리단체로서 비공개 기부 받기](/zcash-use-cases/accept-private-donations-as-a-us-nonprofit)
+501(c)(3) 자격으로 보호된 ZEC를 받고도 기부자에게 필요한 영수증과 IRS 양식을 제공하세요
+
 ###  [기자 프라이버시 설정](/zcash-use-cases/journalist-privacy-setup)   
 모든 거래에 보호된 주소를 사용하고 추적 가능한 결제를 피하여 소스를 보호하세요. 안전한 커뮤니케이션을 위해 메모를 신중하게 사용하세요.
 

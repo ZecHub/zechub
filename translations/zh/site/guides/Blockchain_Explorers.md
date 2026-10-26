@@ -78,6 +78,8 @@ Zcash 不止一种地址类型，而浏览器对待它们的方式截然不同�
 
 - [ZecBlock](https://zecblock.com/)
 
+- [SoChain](https://sochain.com/zec) ([测试网](https://sochain.com/zectest))
+
 ### 图示指南
 
 以下是四个不同区块链浏览器的优秀示例：

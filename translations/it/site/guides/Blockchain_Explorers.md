@@ -79,6 +79,8 @@ Il punto principale: la privacy dipende dal rimanere nelle pool schermate. Una v
 
 - [ZecBlock](https://zecblock.com/)
 
+- [SoChain](https://sochain.com/zec) ([testnet](https://sochain.com/zectest))
+
 ### Guida visiva
 
 Ecco quattro buoni esempi di diversi esploratori blockchain:
