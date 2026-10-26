@@ -17,13 +17,13 @@ For the visual story of how Zcash's privacy has evolved across these upgrades, s
 | [NU6.1](../zcash-tech/nu6-1) | November 24, 2025 | 3,146,400 | 4dec4df0 | Community and coin-holder governance of that funding |
 | [NU6.2](../zcash-tech/nu6-2) | June 3, 2026 | 3,364,600 | 5437f330 | An emergency fix that corrected the Orchard circuit |
 | [Ironwood (NU6.3)](../zcash-tech/ironwood) | July 28, 2026 | 3,428,143 | 37a5165b | The Ironwood pool and a public turnstile that lets anyone audit the supply |
-| **NU7** (upcoming) | Testnet: 4 Oct 2026; Mainnet: targeted 5 Nov 2026 | Testnet: 4,465,026; Mainnet: TBD (set 20 Oct) | 77190ad9 | 25-second blocks (ZIP 218), NSM fee recycling (ZIP 235+237), Sprout retirement (ZIP 2003) |
+| **NU7** (upcoming) | Testnet: 4 Oct 2026; Mainnet: targeted 5 Nov 2026 | Testnet: 4,465,026; Mainnet: 3,543,405 | 77190ad9 | 25-second blocks (ZIP 218), NSM fee recycling (ZIP 235+237), Sprout retirement (ZIP 2003) |
 
 Dates are shown in UTC. Some dashboards show them in local time, which is the same block and the same moment. The fixed trigger for every upgrade is its activation block height, not the calendar date.
 
 ### NU7 status
 
-NU7 is live on public Testnet at height **4,465,026** (activated 4 October 2026). Mainnet activation height will be chosen on **20 October 2026**; the current target is **5 November 2026**.
+NU7 is live on public Testnet at height **4,465,026** (activated 4 October 2026). The Mainnet activation height is **3,543,405** ([ZIP 259](https://zips.z.cash/zip-0259)), targeted for **5 November 2026**.
 
 Scope (ZIP 259):
 
