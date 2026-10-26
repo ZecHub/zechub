@@ -125,9 +125,9 @@ Houston Morgan, ShapeShift의 성장 및 커뮤니티 워크스트림 리더는 
 
 2025년 12월에 발표된 **ShapeShift v4.0**에서 Zcash는 플랫폼의 **주요 프라이버시 보호 지불 및 라우팅 자산**(primary privacy-preserving payment and routing asset)이 되었습니다. 이제 프라이버시는 선택사항이 아닌 기본 기능으로 자리 잡았으며, ZEC가 ShapeShift의 지갑 및 라우팅 스택에 직접 통합되었습니다.
 
-### Zcash 커뮤니티 보조금 지원
+### Zcash Community Grants 지원
 
-[Zcash 커뮤니티 보조금](https://zcashcommunitygrants.org/) 프로그램은 **5만 달러**를 ShapeShift의 기술 인프라 및 Zcash 통합 마케팅을 위한 지원에 할당했습니다. 이 자금은 ShapeShift 팀이 **Liquify**(90개 이상의 블록체인 RPC 지원을 제공하는 Web3 인프라 공급업체)와 협력하여 원격 프로시저 호출(RPC) 엔드포인트를 처리하고, 실행 속도 향상 및 네트워크 신뢰성 개선에 기여하도록 도왔습니다.
+[Zcash Community Grants](https://zcashcommunitygrants.org/) 프로그램은 **5만 달러**를 ShapeShift의 기술 인프라 및 Zcash 통합 마케팅을 위한 지원에 할당했습니다. 이 자금은 ShapeShift 팀이 **Liquify**(90개 이상의 블록체인 RPC 지원을 제공하는 Web3 인프라 공급업체)와 협력하여 원격 프로시저 호출(RPC) 엔드포인트를 처리하고, 실행 속도 향상 및 네트워크 신뢰성 개선에 기여하도록 도왔습니다.
 
 ### 분산형 금융 발전
 
@@ -153,7 +153,7 @@ Houston Morgan, ShapeShift의 성장 및 커뮤니티 워크스트림 리더는 
 | **보관 방식** | 비유지보관형 (사용자가 자신의 키를 보유) |
 | **크로스체인 교환** | BTC, ETH, Arbitrum, Cosmos 등 포함 |
 | **인프라** | Liquify(90개 이상의 블록체인 RPC 지원)에 의해 제공됨 |
-| **Zcash 커뮤니티 보조금 자금** | 기술 및 마케팅 지원을 위한 5만 달러 |
+| **Zcash Community Grants 자금** | 기술 및 마케팅 지원을 위한 5만 달러 |
 
 ShapeShift와 Zcash 통합은 분산형 금융에서 프라이버시를 위한 중요한 발전입니다. ShapeShift의 비유지보관, 다중 체인 거래 인프라와 Zcash의 영지식 증명 기술을 결합함으로써 사용자는 진정한 프라이버시와 허가 없는 암호화폐 거래에 접근할 수 있습니다. 금융 프라이버시와 자주권을 중시하는 누구에게나, 이 통합은 ZEC를 사용하기 위한 실용적이고 접근 가능한 경로를 제공합니다.
 
@@ -169,7 +169,7 @@ ShapeShift와 Zcash 통합은 분산형 금융에서 프라이버시를 위한 �
 
 [ShapeShift DAO 거버넌스 (FOX 토큰)](https://web.archive.org/web/20210126180411/https://shapeshift.com/fox-token)
 
-[Zcash 커뮤니티 보조금](https://zcashcommunitygrants.org/)
+[Zcash Community Grants](https://zcashcommunitygrants.org/)
 
 [ShapeShift, Zcash 통합으로 체인 상 프라이버시 강화 (crypto.news)](https://crypto.news/shapeshift-integrates-zcash-to-enable-true-onchain-privacy/)
 

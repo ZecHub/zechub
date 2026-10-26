@@ -22,9 +22,9 @@ Zero to Zero Knowledge이 새로운 주제로 돌아왔습니다!
 
 ## Secret Network: TEE 기반의 프라이버시
 
-**Secret Network**은 TEE 기술(구체적으로 인텔 SGX)을 활용하여 암호화된 입력, 출력 및 상태에 대한 계산을 수행합니다.
+**Secret Network**은 TEE 기술(구체적으로 Intel SGX)을 활용하여 암호화된 입력, 출력 및 상태에 대한 계산을 수행합니다.
 
-모든 검증자 노드는 인텔 SGX 칩을 실행합니다. 합의와 계산 레이어는 다음과 같이 결합됩니다:
+모든 검증자 노드는 Intel SGX 칩을 실행합니다. 합의와 계산 레이어는 다음과 같이 결합됩니다:
 
 - 트랜잭션은 보안 엔클로저 내에서 처리됩니다.  
 - 데이터는 **TEE 내부**에서만 복호화됩니다.
@@ -53,7 +53,7 @@ https://carter-woetzel.medium.com/secret-network-tees-lets-talk-fud-vulnerabilit
 이 과정을 통해 원격 당사자는 다음 사항을 확인할 수 있습니다:
 - 올바른 애플리케이션이 실행 중인지  
 - 애플리케이션이 손상되지 않았는지  
-- 인텔 SGX 엔클로저 내부에서 안전하게 실행되고 있는지
+- Intel SGX 엔클로저 내부에서 안전하게 실행되고 있는지
 
 ![원격 인증 설명](/content-images/FqumRjoWwAAeT-M-6eff73af4d.webp)
 

@@ -33,7 +33,7 @@
 
 + Епізод 6 — Остання заявка на грант від Zcash Brasil із Самарою [YouTube](https://www.youtube.com/watch?v=F5_DXXFSEsQ) | [Odysee](https://odysee.com/@ZecHub:4/zcash-brazil-podcast:e) | [Spotify](https://open.spotify.com/episode/5t3lz27CrWFvIWN2K3hKSN)
 
-+ Епізод 7 — FUD щодо Zcash із Джошем Свіхартом [YouTube](https://www.youtube.com/watch?v=a6TQt6rmwXU) | [Odysee](https://odysee.com/@ZecHub:4/podcast-Josh:9) | [Spotify](https://open.spotify.com/episode/5GGUGjYQWgxwe5y1PGzMLJ)
++ Епізод 7 — FUD щодо Zcash із Josh Swihart [YouTube](https://www.youtube.com/watch?v=a6TQt6rmwXU) | [Odysee](https://odysee.com/@ZecHub:4/podcast-Josh:9) | [Spotify](https://open.spotify.com/episode/5GGUGjYQWgxwe5y1PGzMLJ)
 
 + Епізод 8 — Безпека Zcash та lightwalletd із Тейлором Горнбі [YouTube](https://www.youtube.com/watch?v=18-xowScNpw) | [Odysee](https://odysee.com/@ZecHub:4/Taylor-Podcast:e) | [Spotify](https://open.spotify.com/episode/2KMp034ipnkdLOXmGVTXfu)
 

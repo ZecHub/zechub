@@ -20,7 +20,7 @@ Il programma di ricompense di ZecHub è il percorso retribuito per questo lavoro
 
 - [Documentazione di Akash Network](https://akash.network/docs/)
 
-- [Configurare zebrad su Akash Network](https://zechub.wiki/guides/akash-network-zebra#content)
+- [Configurare Zebrad su Akash Network](https://zechub.wiki/guides/akash-network-zebra#content)
 
 - [Spiegazione delle richieste di pagamento Zcash (video)](https://www.youtube.com/watch?v=l5auYQIzYsQ)
 

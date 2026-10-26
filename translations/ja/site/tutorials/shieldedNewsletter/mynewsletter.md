@@ -1,6 +1,6 @@
 ZCASH ECOSYSTEM DIGEST | 2024年7月6日
 
-Zebra 1.8.0 リリース、FROSTの公開、Zookoによる新しいZcashプロジェクトの開始およびMayaプロトコルでのShielded Swapテスト
+Zebra 1.8.0 リリース、FROSTの公開、Zookoによる新しいZcashプロジェクトの開始およびMaya ProtocolでのShielded Swapテスト
 
 ### ECC & ZF 更新情報:
 
@@ -20,17 +20,17 @@ Zebra 1.8.0 リリース、FROSTの公開、Zookoによる新しいZcashプロ�
 
 
 
-### Zcash コミュニティグランツ:
+### Zcash Community Grants:
 
 [Zcash Avalanche Elastic Subnet Bridge 更新情報](https://forum.zcashcommunity.com/t/zcash-elastic-subnet-bridge-on-avalanche/44220/63)
 
-[MayaプロトコルによるShielded ZECスワップ](https://x.com/GiMa9550/status/1808960168681476288)
+[Maya ProtocolによるShielded ZECスワップ](https://x.com/GiMa9550/status/1808960168681476288)
 
 [Ledger Hw-walletにおけるZcashの公式Shieldedサポート](https://forum.zcashcommunity.com/t/official-shielded-support-for-zcash-in-ledger-hw-wallet/45965/90)
 
 [Zcashエコシステムセキュリティリード更新情報](https://forum.zcashcommunity.com/t/grant-update-zcash-ecosystem-security-lead/47541/4)
 
-[Zcash コミュニティグランツミーティング議事録 6月25日](https://forum.zcashcommunity.com/t/zcash-community-grants-meeting-minutes-6-25-2024/48199)
+[Zcash Community Grantsミーティング議事録 6月25日](https://forum.zcashcommunity.com/t/zcash-community-grants-meeting-minutes-6-25-2024/48199)
 
 [Ledger Hw-walletにおけるZcashの公式Shieldedサポート更新情報](https://forum.zcashcommunity.com/t/official-shielded-support-for-zcash-in-ledger-hw-wallet/45965/90)
 
