@@ -6,7 +6,7 @@ Guida passo passo per il deploy di un full node (nodo completo) Zebra Zcash usan
 
 Un nodo Zebra completo che:
 
--> Sincronizzerà l'intera blockchain Zcash (oltre 100GB per la mainnet, ~40GB per la testnet)
+-> Sincronizzerà l'intera blockchain di Zcash (oltre 100GB per la mainnet, ~40GB per la testnet)
 
 -> Costerà all'incirca $15 al mese a seconda del prezzo del token AKT
 
@@ -27,7 +27,7 @@ Questo è voluto: i provider eseguono più deployment e avrebbero conflitti se t
 
 -> Akash ti fornisce un URI come *provider.com:31234*
 
--> Gli altri nodi Zcash si connettono a te su *provider.com:31234*
+-> Gli altri nodi di Zcash si connettono a te su *provider.com:31234*
 
 -> All'interno del tuo container, Zebra continua ad ascoltare sulla 8233
 
@@ -162,7 +162,7 @@ Vedrai qualcosa come:
 zebra-8233: provider-hostname.com:31234
 ```
 
-Questo è l'**endpoint P2P pubblico** del tuo nodo. Gli altri nodi Zcash si connetteranno a te a questo indirizzo.
+Questo è l'**endpoint P2P pubblico** del tuo nodo. Gli altri nodi di Zcash si connetteranno a te a questo indirizzo.
 
 **Nota la mappatura delle porte:** hai configurato la porta 8233 nell'SDL, ma Akash l'ha assegnata a una porta pubblica diversa (31234 in questo esempio). È normale - vedi la sezione "Mappatura delle porte su Akash" all'inizio se questo ti confonde. Il tuo nodo è accessibile sulla porta che Akash mostra qui, non necessariamente la 8233.
 

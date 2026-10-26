@@ -62,7 +62,7 @@ Vai alla sezione **Wrap**. Scegli **SOL** o **USDC**, inserisci l'importo e conf
 ---
 
 ###  Passaggio 3: prepara il tuo portafoglio ZODL  
-Scarica [**ZODL**](https://zodl.com), il portafoglio Zcash gestito da ZODL. Nella schermata di ricezione, copia il tuo **indirizzo trasparente Zcash** (inizia con t1). Al momento encrypt.trade non accetta indirizzi schermati o unificati per ZEC. Conserva in modo sicuro la tua frase mnemonica prima di procedere.  
+Scarica [**ZODL**](https://zodl.com), il portafoglio di Zcash gestito da ZODL. Nella schermata di ricezione, copia il tuo **indirizzo trasparente di Zcash** (inizia con t1). Al momento encrypt.trade non accetta indirizzi schermati o unificati per ZEC. Conserva in modo sicuro la tua frase mnemonica prima di procedere.  
 
 
 ![img7](/content-images/SykjhpgRll-60d19f6979.webp)

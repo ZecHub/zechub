@@ -15,7 +15,7 @@ La maggior parte dei software è considerata affidabile perché è stata *testat
 
 Ecco una storia vera, ed è il motivo per cui questa serie esiste.
 
-Nel 2022, la criptovaluta incentrata sulla privacy Zcash ha lanciato una nuova pool schermata chiamata Orchard, permettendo alle persone di effettuare transazioni con gli importi nascosti. Per quattro anni ha funzionato senza difetti e ha superato ripetuti audit professionali. Poi, nel maggio 2026, un ricercatore di sicurezza, ragionando attentamente sulla matematica sottostante (con l'aiuto di strumenti di IA), ha individuato un singolo punto **sottovincolato** nella matematica del sistema. Quella sola lacuna avrebbe potuto permettere a un attaccante di creare una quantità *illimitata* di denaro contraffatto e, poiché gli importi erano nascosti, nessuno avrebbe visto che stava accadendo. Il difetto era stato presente per tutto il tempo.
+Nel 2022, la criptovaluta incentrata sulla privacy di Zcash ha lanciato una nuova pool schermata chiamata Orchard, permettendo alle persone di effettuare transazioni con gli importi nascosti. Per quattro anni ha funzionato senza difetti e ha superato ripetuti audit professionali. Poi, nel maggio 2026, un ricercatore di sicurezza, ragionando attentamente sulla matematica sottostante (con l'aiuto di strumenti di IA), ha individuato un singolo punto **sottovincolato** nella matematica del sistema. Quella sola lacuna avrebbe potuto permettere a un attaccante di creare una quantità *illimitata* di denaro contraffatto e, poiché gli importi erano nascosti, nessuno avrebbe visto che stava accadendo. Il difetto era stato presente per tutto il tempo.
 
 Non è stato scoperto dai test. Ogni test aveva avuto esito positivo per quattro anni. È stato scoperto da qualcuno che *ragionava sulla matematica*. E quando il team lo ha corretto, non si è limitato a rilasciare una patch e andare avanti. Ha scritto una **dimostrazione matematica verificata da una macchina**, composta da oltre 2.700 teoremi individuali, che il sostituto non poteva contenere affatto quella classe di difetto.
 
@@ -58,7 +58,7 @@ E un quarto ingrediente, più discreto, rende affidabile l'intera cosa:
 
 ![alt text](image-3.png)
 
-Tra gli assistenti di dimostrazione di cui potreste sentire parlare ci sono **Lean**, **Rocq** (in precedenza Coq) e **Isabelle**. Sono, in effetti, motori straordinariamente rigorosi per il controllo della logica. La dimostrazione Zcash della nostra storia iniziale è stata scritta in **Lean**. In particolare, i moderni modelli di IA vengono sempre più utilizzati per aiutare a *scrivere* queste dimostrazioni, guidati dagli esseri umani, riducendo lavori che un tempo richiedevano anni a settimane. La macchina controlla comunque ogni passaggio, quindi l'accelerazione non sacrifica alcuna certezza.
+Tra gli assistenti di dimostrazione di cui potreste sentire parlare ci sono **Lean**, **Rocq** (in precedenza Coq) e **Isabelle**. Sono, in effetti, motori straordinariamente rigorosi per il controllo della logica. La dimostrazione di Zcash della nostra storia iniziale è stata scritta in **Lean**. In particolare, i moderni modelli di IA vengono sempre più utilizzati per aiutare a *scrivere* queste dimostrazioni, guidati dagli esseri umani, riducendo lavori che un tempo richiedevano anni a settimane. La macchina controlla comunque ogni passaggio, quindi l'accelerazione non sacrifica alcuna certezza.
 
 ---
 
@@ -110,7 +110,7 @@ Ne seguono quattro conseguenze, e ciascuna conta:
 - **Se le assunzioni falliscono, la garanzia viene meno.** Le dimostrazioni poggiano su assunzioni («l'hardware della serratura non è fisicamente rotto»). Se un'assunzione è falsa nella realtà, la conclusione non deve necessariamente valere.
 - **Non significa «mai più bug».** Significa «nessun bug del tipo escluso da questa specifica, date queste assunzioni». Un'affermazione più circoscritta, più onesta e molto più utile.
 
-Lungi dall'indebolire la verifica formale, questa precisione è la sua forza. Vi dice *esattamente* cosa state ottenendo. Come vedremo nella Parte 3, il team Zcash che dichiara chiaramente il proprio ambito e le proprie assunzioni («abbiamo dimostrato la correttezza dell'offerta, sotto queste assunzioni nominate, e non la privacy») è un modello di questa onestà.
+Lungi dall'indebolire la verifica formale, questa precisione è la sua forza. Vi dice *esattamente* cosa state ottenendo. Come vedremo nella Parte 3, il team di Zcash che dichiara chiaramente il proprio ambito e le proprie assunzioni («abbiamo dimostrato la correttezza dell'offerta, sotto queste assunzioni nominate, e non la privacy») è un modello di questa onestà.
 
 ![alt text](image-5.png)
 

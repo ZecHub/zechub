@@ -1,6 +1,6 @@
 DIGEST DELL'ECOSISTEMA ZCASH | 6 LUGLIO
 
-Zebra 1.8.0 ultima release, FROST è pubblicato, Zooko avvia un nuovo progetto Zcash e test degli swap schermati su Maya Protocol 
+Zebra 1.8.0 ultima release, FROST è pubblicato, Zooko avvia un nuovo progetto di Zcash e test degli swap schermati su Maya Protocol 
 
 ### Aggiornamenti ECC e ZF:
 

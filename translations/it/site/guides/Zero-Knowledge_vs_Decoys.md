@@ -18,7 +18,7 @@ Alcuni progetti cripto hanno ottenuto riconoscimento per i loro approcci incentr
 
 Le Zero Knowledge Proof sono sistemi crittografici che consentono a una parte (il prover) di dimostrare a un'altra parte (il verifier) la validità di un'affermazione senza rivelare *alcuna informazione sottostante sull'affermazione stessa*. Nel contesto di Zcash, le ZK proof vengono impiegate per verificare la validità di una transazione senza divulgare i dettagli della transazione, come il MITTENTE, il DESTINATARIO o l'IMPORTO della transazione. 
 
-**Questo garantisce che la privacy dell'utente sia preservata, poiché la transazione rimane confidenziale pur essendo comunque validata. Questa tecnologia è progettata per garantire la confidenzialità delle transazioni finanziarie sulla rete Zcash.**
+**Questo garantisce che la privacy dell'utente sia preservata, poiché la transazione rimane confidenziale pur essendo comunque validata. Questa tecnologia è progettata per garantire la confidenzialità delle transazioni finanziarie sulla rete di Zcash.**
 
 Nei sistemi basati su decoy come [RingCT](https://twitter.com/ZecHub/status/1636473585781948416), più transazioni vengono combinate, rendendo arduo o difficile tracciare l'effettiva origine e destinazione dei fondi. L'algoritmo introduce input e output decoy nelle transazioni, impiegando anche la cifratura degli indirizzi usati come input e usando le Range proof per validare che l'importo trasferito sia spendibile. 
 

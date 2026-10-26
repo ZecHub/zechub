@@ -4,7 +4,7 @@
 
 ![img1](/content-images/SJOlnt-ceg-34468cfecd.webp)
 
-Hai già ZEC su Solana (ad esempio da un token che remunera i titolari in ZEC)? Non scambiarlo. Sposta quel token in un portafoglio Zcash schermato con [Hai ZEC su Solana? Spostalo in Zcash schermato](/using-zcash/solana-zec-to-shielded).
+Hai già ZEC su Solana (ad esempio da un token che remunera i titolari in ZEC)? Non scambiarlo. Sposta quel token in un portafoglio di Zcash schermato con [Hai ZEC su Solana? Spostalo in Zcash schermato](/using-zcash/solana-zec-to-shielded).
 
 ---
 
@@ -12,8 +12,8 @@ Hai già ZEC su Solana (ad esempio da un token che remunera i titolari in ZEC)? 
 
 "ZEC" in Phantom può indicare due asset diversi, quindi assicurati di sapere per quale stai pagando.
 
-- **Il pulsante Swap integrato di Phantom** ti fornisce una rappresentazione token di ZEC su Solana (o su un'altra rete supportata da Phantom). Non è ZEC nativo. Si trova al tuo indirizzo Phantom, non ha funzionalità schermate di Zcash e un portafoglio Zcash non può vederlo né schermarlo.
-- ZEC **nativo** esiste solo sulla blockchain Zcash e viene inviato a un indirizzo Zcash. Per ottenerlo, hai bisogno di un servizio che richieda il tuo indirizzo Zcash, come uno scambio all'interno di [ZODL](https://zodl.com), una delle opzioni sulla pagina [DEX](/dex), oppure solswap.org seguito da un prelievo verso il tuo portafoglio Zcash (Passaggio 8).
+- **Il pulsante Swap integrato di Phantom** ti fornisce una rappresentazione token di ZEC su Solana (o su un'altra rete supportata da Phantom). Non è ZEC nativo. Si trova al tuo indirizzo Phantom, non ha funzionalità schermate di Zcash e un portafoglio di Zcash non può vederlo né schermarlo.
+- ZEC **nativo** esiste solo sulla blockchain di Zcash e viene inviato a un indirizzo Zcash. Per ottenerlo, hai bisogno di un servizio che richieda il tuo indirizzo Zcash, come uno scambio all'interno di [ZODL](https://zodl.com), una delle opzioni sulla pagina [DEX](/dex), oppure solswap.org seguito da un prelievo verso il tuo portafoglio di Zcash (Passaggio 8).
 
 ### Controlla prima di pagare
 
@@ -86,16 +86,16 @@ Se invece stai visualizzando la schermata **Swap** di Phantom, ti trovi nel perc
 
 ---
 
-## **Passaggio 8: preleva ZEC nativo nel tuo portafoglio Zcash**
-Dopo lo scambio, il tuo ZEC compare nel saldo dell'**Account** di solswap.org. Non è ancora sulla rete Zcash, né si trova in Phantom.
+## **Passaggio 8: preleva ZEC nativo nel tuo portafoglio di Zcash**
+Dopo lo scambio, il tuo ZEC compare nel saldo dell'**Account** di solswap.org. Non è ancora sulla rete di Zcash, né si trova in Phantom.
 
-1. Apri un portafoglio Zcash che la [directory](/wallets) contrassegna come **Ironwood: Ready**. Copia un `u1` che il tuo portafoglio etichetta come schermato. Anche un `t1` funziona, ma quel deposito è pubblico finché non lo scherma.
+1. Apri un portafoglio di Zcash che la [directory](/wallets) contrassegna come **Ironwood: Ready**. Copia un `u1` che il tuo portafoglio etichetta come schermato. Anche un `t1` funziona, ma quel deposito è pubblico finché non lo scherma.
 2. Su solswap.org, vai su **Account** e tocca **Withdraw**. Seleziona **ZEC**, imposta la rete su **Zcash**, incolla l'indirizzo e controlla il primo e l'ultimo carattere prima di confermare.
 3. Se **Received amount** e **Fee** rimangono su "–" e il pulsante non fa nulla, il saldo non è perso. Si trova in NEAR Intents sotto la tua chiave Phantom. Completa l'operazione su [near.com](https://near.com): accedi con lo stesso portafoglio Phantom, apri **Move legacy assets**, tocca **Withdraw** nella riga ZEC (non **Move**), imposta la rete su **Zcash** e incolla lo stesso `u1`. Phantom ti chiederà di **Sign Message**. Conferma solo se la richiesta proviene da `near.com` e il messaggio menziona `"verifying_contract": "intents.near"`. Le schermate complete per questa soluzione alternativa sono in [Hai ZEC su Solana? Spostalo in Zcash schermato](/using-zcash/solana-zec-to-shielded).
 
 ---
 
 ## **Passaggi successivi**
-Una volta che ZEC nativo è nel tuo portafoglio Zcash, mantienilo schermato usando [Usare ZEC privatamente](/guides/using-zec-privately).
+Una volta che ZEC nativo è nel tuo portafoglio di Zcash, mantienilo schermato usando [Usare ZEC privatamente](/guides/using-zec-privately).
 
 Un token ZEC acquistato con il pulsante Swap di Phantom non può essere schermato da Phantom. Quel token è l'asset OmniBridge su Solana. Spostalo con [Hai ZEC su Solana? Spostalo in Zcash schermato](/using-zcash/solana-zec-to-shielded).

@@ -29,7 +29,7 @@ Resta aggiornato sui prossimi episodi:
 
 + Episodio 4 - Narrazioni su Zcash con David di Zcash Media [YouTube](https://www.youtube.com/watch?v=gl5qxA4Q6yk) | [Odysee](https://odysee.com/@ZecHub:4/z2z-podcast_untitled-recording_david-law50vmad_cfr_2022-sep-15-2320pm-utc-riverside_1:e) | [Spotify](https://open.spotify.com/episode/1tgtIAGiOLnb1toGj2cmDQ)
 
-+ Episodio 5 - Il nuovo podcast Zcash con Joël Valenzuela [YouTube](https://www.youtube.com/watch?v=TE1ILZankdM) | [Odysee](https://odysee.com/@ZecHub:4/podcast-with-joe%CC%88l:6) | [Spotify](https://open.spotify.com/episode/1GHzC6aNA8DIxA84yDtQ8W)
++ Episodio 5 - Il nuovo podcast di Zcash con Joël Valenzuela [YouTube](https://www.youtube.com/watch?v=TE1ILZankdM) | [Odysee](https://odysee.com/@ZecHub:4/podcast-with-joe%CC%88l:6) | [Spotify](https://open.spotify.com/episode/1GHzC6aNA8DIxA84yDtQ8W)
 
 + Episodio 6 - L'ultima proposta di finanziamento di Zcash Brasil con Samara [YouTube](https://www.youtube.com/watch?v=F5_DXXFSEsQ) | [Odysee](https://odysee.com/@ZecHub:4/zcash-brazil-podcast:e) | [Spotify](https://open.spotify.com/episode/5t3lz27CrWFvIWN2K3hKSN)
 

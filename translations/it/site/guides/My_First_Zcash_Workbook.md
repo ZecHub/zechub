@@ -67,7 +67,7 @@ Questa sezione mette in evidenza come sviluppatori, designer, ricercatori ed edu
 - SDK per sviluppatori  
 - Gruppi di lavoro della comunità  
 - Il ruolo dei contributori nello sviluppo open-source  
-- Come gli aggiornamenti della rete Zcash migliorano il protocollo  
+- Come gli aggiornamenti della rete di Zcash migliorano il protocollo  
 
 I lettori acquisiscono una percezione di come Zcash si evolva nel tempo e di come i contributori globali aiutino ad ampliare strumenti, infrastrutture, applicazioni e risorse didattiche.
 
@@ -108,7 +108,7 @@ Uno studente di scuola superiore interessato a privacy, computer, crittografia e
 
 **Pacu (@thecodebuffet)** 
 
-Un veterano sviluppatore di portafogli Zcash, in precedenza presso ECC dove lavorava su SDK e tecnologia light client, ora contributore dell'ecosistema con un finanziamento ZCG.
+Un veterano sviluppatore di portafogli di Zcash, in precedenza presso ECC dove lavorava su SDK e tecnologia light client, ora contributore dell'ecosistema con un finanziamento ZCG.
 
 **Marek** 
 
@@ -143,7 +143,7 @@ Questi profili mostrano ai lettori che Zcash è mantenuto da una comunità etero
 
 ## 9. Come partecipare
 
-La sezione finale invita i lettori a diventare parte dell'ecosistema Zcash. Le opportunità includono:
+La sezione finale invita i lettori a diventare parte dell'ecosistema di Zcash. Le opportunità includono:
 
 - Unirsi al programma globale Zcash Discord  
 - Partecipare alle chiamate della comunità e ai gruppi di lavoro  

@@ -24,7 +24,7 @@ Questa guida si concentra sul mining di Zcash usando hardware personale, ad esem
 - **Software di mining:**
   - Per le GPU: lolMiner (supporta AMD/NVIDIA), GMiner o miniZ (incentrato su NVIDIA). Scarica dai repository ufficiali di GitHub, ad esempio github.com/Lolliedieb/lolMiner-releases.
   - Per gli ASIC: Usa il firmware/dashboard integrato del produttore, ad esempio l'interfaccia web di Bitmain.
-- **Portafoglio:** Un portafoglio Zcash per ricevere i pagamenti. Consigliati:
+- **Portafoglio:** Un portafoglio di Zcash per ricevere i pagamenti. Consigliati:
   - Schermato (privato): Portafoglio ZODL, Zingo (mobile/desktop), Zkool (mobile/desktop).
   - Trasparente (più semplice ma meno privato): Edge Wallet, Zecwallet Lite.
   - Scarica da [wallets](https://zechub.wiki/wallets). Genera un indirizzo schermato, che inizia con 'zs', per la privacy se la pool lo supporta.
@@ -35,7 +35,7 @@ Questa guida si concentra sul mining di Zcash usando hardware personale, ad esem
 
 ## Guida passo passo per unirsi a una pool di mining
 
-### Passaggio 1: Configura il tuo portafoglio Zcash
+### Passaggio 1: Configura il tuo portafoglio di Zcash
 1. Scarica e installa un portafoglio dal sito web ufficiale di Zcash [wallets](https://zechub.wiki/wallets).
 2. Crea un nuovo portafoglio ed esegui il backup sicuro della tua frase mnemonica.
 3. Genera un indirizzo di ricezione, preferibilmente schermato per la privacy. Annotalo, ad esempio `zs1exampleaddress...`.
@@ -65,7 +65,7 @@ Le pool di mining distribuiscono il lavoro e condividono le ricompense in base a
 - Altre: Kryptex Pool, Luxor (controlla poolwatch.io/coin/zcash per statistiche in tempo reale).
 
 1. Visita il sito web della pool e crea un account (email o nessuna registrazione per alcune pool come 2Miners).
-2. Aggiungi il tuo indirizzo del portafoglio Zcash nelle impostazioni per i pagamenti.
+2. Aggiungi il tuo indirizzo del portafoglio di Zcash nelle impostazioni per i pagamenti.
 3. Annota il server stratum della pool, ad esempio zec.2miners.com:1010, e la porta.
 
 ### Passaggio 4: Installa e configura il software di mining

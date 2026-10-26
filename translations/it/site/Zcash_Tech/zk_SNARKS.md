@@ -222,9 +222,9 @@ Per approfondire:
 
 ## Pagine correlate
 
-- [Pool schermate](/using-zcash/shielded-pools) — Come gli zk-SNARK vengono utilizzati nelle pool di valore Zcash
-- [Halo](/zcash-tech/halo) — Il sistema Zcash di zk-SNARK che elimina le configurazioni fidate
-- [Sicurezza post-quantistica in Zcash](/zcash-tech/post-quantum-security) - Come i futuri rischi quantistici si relazionano alla crittografia Zcash
+- [Pool schermate](/using-zcash/shielded-pools) — Come gli zk-SNARK vengono utilizzati nelle pool di valore di Zcash
+- [Halo](/zcash-tech/halo) — Il sistema zk-SNARK di Zcash che elimina le configurazioni fidate
+- [Sicurezza post-quantistica in Zcash](/zcash-tech/post-quantum-security) - Come i futuri rischi quantistici si relazionano alla crittografia di Zcash
 - [Zcash Asset schermati](/zcash-tech/zcash-shielded-assets) — ZSA costruiti sulla tecnologia zk-SNARK
 - [Cos'è ZEC e Zcash](/start-here/what-is-zec-and-zcash) — Introduzione a Zcash e al suo modello di privacy
 - [Chi può vedere il tuo pagamento Zcash?](/start-here/who-can-see-your-zcash-payment) — Cosa rimane pubblico e cosa nasconde la schermatura

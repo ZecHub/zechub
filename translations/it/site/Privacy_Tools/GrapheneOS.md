@@ -9,7 +9,7 @@
 - **GrapheneOS** è un sistema operativo mobile open source senza scopo di lucro, incentrato su privacy e sicurezza, con piena compatibilità con le app Android di uso quotidiano
 - Punti di forza principali: sandbox delle app rinforzata, codice memory-safe e mitigazioni degli exploit, verified boot supportato dall'hardware, autorizzazioni granulari e protezione della porta USB-C quando il dispositivo è bloccato
 - L'installazione avviene tramite il programma di installazione ufficiale di **WebUSB** (consigliato per la maggior parte degli utenti) o tramite il **flusso da riga di comando** per gli utenti tecnici
-- Per un utente Zcash, rappresenta una solida base per l'autocustodia mobile: abbinalo a un portafoglio schermato mantenuto e a una corretta igiene OPSEC
+- Per un utente di Zcash, rappresenta una solida base per l'autocustodia mobile: abbinalo a un portafoglio schermato mantenuto e a una corretta igiene OPSEC
 
 GrapheneOS è un progetto non profit e open source dedicato a migliorare la privacy e la sicurezza sui dispositivi mobili, mantenendo al contempo la compatibilità con le app Android. Questo sistema operativo pone una forte enfasi sul progresso delle tecnologie per la privacy e la sicurezza, concentrandosi in particolare sul rafforzamento del sandboxing, sulle mitigazioni degli exploit e sul perfezionamento del modello dei permessi. Nato nel 2014 con il nome di **CopperheadOS**, si è da allora evoluto in un formidabile guardiano della tua privacy e sicurezza digitale.
 

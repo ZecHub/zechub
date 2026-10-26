@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Modifica pagina"/>
 </a>
 
-# Cosa sono gli indirizzi TEX Zcash?
+# Cosa sono gli indirizzi TEX di Zcash?
 
 ## In breve
 
@@ -15,7 +15,7 @@
 
 ## Spiegazione principale
 
-Un indirizzo TEX Zcash è un tipo speciale di indirizzo di ricezione. TEX sta per "Transparent Exchange". È una ricodifica Bech32m di un singolo indirizzo trasparente p2pkh. Gli indirizzi TEX iniziano con `tex1` e sono un tipo distinto dagli Unified Address.
+Un indirizzo TEX di Zcash è un tipo speciale di indirizzo di ricezione. TEX sta per "Transparent Exchange". È una ricodifica Bech32m di un singolo indirizzo trasparente p2pkh. Gli indirizzi TEX iniziano con `tex1` e sono un tipo distinto dagli Unified Address.
 
 Un indirizzo TEX comunica a un portafoglio compatibile di effettuare una transazione solo trasparente (T -> T). 
 

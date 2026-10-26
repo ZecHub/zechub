@@ -10,7 +10,7 @@ Le chiavi di visualizzazione sono lo strumento per la divulgazione selettiva: sc
 
 ## In breve
 
-Una chiave di visualizzazione concede accesso **in sola lettura** all'attività di un indirizzo o account schermato Zcash: chi la possiede può vedere le transazioni in entrata (e, per le Full Viewing Key, quelle in uscita), ma non può mai spendere.
+Una chiave di visualizzazione concede accesso **in sola lettura** all'attività di un indirizzo o account schermato di Zcash: chi la possiede può vedere le transazioni in entrata (e, per le Full Viewing Key, quelle in uscita), ma non può mai spendere.
 
 - **Cos'è:** lo strumento di divulgazione selettiva delle pool schermate. Introdotto in [ZIP 310](https://zips.z.cash/zip-0310), aggiunto al protocollo con l'aggiornamento di rete Sapling.
 - **Cosa consente:** il rilevamento dei depositi (chiavi in entrata `uivk…`) o la visibilità completa in entrata e in uscita di un account (chiavi di visualizzazione complete unificate `uview…`), oltre alle chiavi legacy Sapling `zxviews…`.

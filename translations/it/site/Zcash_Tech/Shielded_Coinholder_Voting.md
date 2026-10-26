@@ -103,7 +103,7 @@ Ciò che protegge, in modo forte e verificabile, sono le due cose più important
 
 | Termine | Significato in parole semplici |
 |---|---|
-| Voting chain | Una blockchain separata, realizzata da Valar Group, che esegue il voto; le tue note Zcash non vi vengono mai spostate |
+| Voting chain | Una blockchain separata, realizzata da Valar Group, che esegue il voto; le tue note di Zcash non vi vengono mai spostate |
 | Snapshot height | Il blocco mainnet i cui saldi determinano il peso del voto (blocco 3.459.350 per il sondaggio NU7) |
 | Nullifier | Il marcatore univoco di spesa di una nota; rivelarlo collegherebbe una scheda a una nota, quindi il voto dimostra invece la non appartenenza |
 | Private Information Retrieval (PIR) | Recuperare dati da un server nascondendo quali dati sono stati richiesti |
@@ -115,7 +115,7 @@ Ciò che protegge, in modo forte e verificabile, sono le due cose più important
 
 ## FAQ
 
-Le mie monete si spostano o vengono bloccate quando voto? No. L'idoneità viene misurata al blocco di snapshot, quindi i tuoi ZEC restano dove sono e spendibili. Il voto produce prove su una chain separata, non una transazione Zcash.
+Le mie monete si spostano o vengono bloccate quando voto? No. L'idoneità viene misurata al blocco di snapshot, quindi i tuoi ZEC restano dove sono e spendibili. Il voto produce prove su una chain separata, non una transazione di Zcash.
 
 Qualcuno può sapere come ho votato o quanto possiedo? No. Le schede sono crittografate e vengono decrittati soltanto i totali aggregati. Il tuo voto non può essere collegato alla tua identità e il tuo saldo è diviso in 16 quote temporizzate per proteggerlo persino da un comitato colluso.
 

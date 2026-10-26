@@ -1,9 +1,9 @@
 # Sovright
 ![Sovright](/content-images/sovright-16a27c0d24.webp)
 
-**Sovright** è un'organizzazione non profit statunitense 501(c3) dedicata al supporto dell'autonomia umana. Partendo da un focus sull'infrastruttura di Zcash, sul mining, sullo sviluppo del protocollo e sul supporto dell'ecosistema, il progetto costruisce strumenti e servizi pensati per rafforzare l'infrastruttura delle valute digitali private e sostenere la resilienza a lungo termine della rete Zcash.
+**Sovright** è un'organizzazione non profit statunitense 501(c3) dedicata al supporto dell'autonomia umana. Partendo da un focus sull'infrastruttura di Zcash, sul mining, sullo sviluppo del protocollo e sul supporto dell'ecosistema, il progetto costruisce strumenti e servizi pensati per rafforzare l'infrastruttura delle valute digitali private e sostenere la resilienza a lungo termine della rete di Zcash.
 
-Sovright era precedentemente nota come **Bootstrap**. Il nome originale rifletteva l'obiettivo iniziale dell'organizzazione di creare da zero un'azienda di infrastruttura Zcash.
+Sovright era precedentemente nota come **Bootstrap**. Il nome originale rifletteva l'obiettivo iniziale dell'organizzazione di creare da zero un'azienda di infrastruttura di Zcash.
 
 [Visita il sito](https://sovright.com/)
 
@@ -15,13 +15,13 @@ Il lavoro di Sovright è iniziato con Zcash, una criptovaluta orientata alla tut
 
 ## Mining pool
 
-Sovright gestisce una mining pool Zcash su:
+Sovright gestisce una mining pool di Zcash su:
 
 [mining.sovright.com](https://mining.sovright.com/)
 
 La Mining Pool di Sovright è progettata per supportare la sovranità dei miner e ridurre la concentrazione delle mining pool. La concentrazione delle mining pool è una preoccupazione ricorrente nelle reti proof-of-work perché un numero ridotto di pool può finire per controllare una grande quota dell'hashrate della rete. Questo può indebolire la decentralizzazione e aumentare la dipendenza dal comportamento dei principali operatori di pool.
 
-La Mining Pool di Sovright è pensata per miner solitari, piccoli operatori e altri partecipanti che vogliono sostenere un ecosistema di mining Zcash più decentralizzato. La pool mette l'accento su una logica di pagamento trasparente, auditabilità e commissioni operative minime.
+La Mining Pool di Sovright è pensata per miner solitari, piccoli operatori e altri partecipanti che vogliono sostenere un ecosistema di mining di Zcash più decentralizzato. La pool mette l'accento su una logica di pagamento trasparente, auditabilità e commissioni operative minime.
 
 L'attuale versione testnet non prevede pagamenti ed è destinata esclusivamente ai test.
 
@@ -29,7 +29,7 @@ L'attuale versione testnet non prevede pagamenti ed è destinata esclusivamente 
 
 ### Resilienza della rete
 
-La resilienza della rete si riferisce all'affidabilità e alla robustezza dell'infrastruttura che trasporta le transazioni Zcash. Le transazioni private dipendono non solo dalla crittografia, ma anche dalla disponibilità e affidabilità dell'infrastruttura di rete sottostante.
+La resilienza della rete si riferisce all'affidabilità e alla robustezza dell'infrastruttura che trasporta le transazioni di Zcash. Le transazioni private dipendono non solo dalla crittografia, ma anche dalla disponibilità e affidabilità dell'infrastruttura di rete sottostante.
 
 Sovright identifica la resilienza della rete come un'area di lavoro fondamentale per mantenere la sicurezza pratica e l'usabilità di Zcash.
 

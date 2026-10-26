@@ -91,7 +91,7 @@ ZecMap ricompensa i collaboratori che aiutano a far crescere e mantenere la dire
 - **Manutenzione** — aggiornare informazioni obsolete o segnalare attività chiuse.
 - **Espansione della copertura** — aggiungere commercianti in città, regioni o categorie online sottorappresentate.
 
-Per le regole attuali delle ricompense e come richiederle, visita [zecmap.com](https://zecmap.com/) o controlla gli annunci di ZecMap nei canali della comunità Zcash.
+Per le regole attuali delle ricompense e come richiederle, visita [zecmap.com](https://zecmap.com/) o controlla gli annunci di ZecMap nei canali della comunità di Zcash.
 
 ---
 

@@ -18,7 +18,7 @@ Questo è l'articolo verso cui l'intera serie ha puntato. Dall'[Articolo 0](arti
 Ricorda la contraddizione al cuore di Zcash:
 
 - Una blockchain è affidabile perché è **verificabile pubblicamente**.
-- I pagamenti Zcash sono **completamente privati**: importi, mittente, destinatario, tutto nascosto.
+- I pagamenti in Zcash sono **completamente privati**: importi, mittente, destinatario, tutto nascosto.
 
 Sembrano mutuamente esclusivi. La verifica sembra *richiedere* di guardare. La privacy *vieta* di guardare. Se non puoi conciliarli, non puoi avere denaro privato di cui chiunque si fidi.
 
@@ -173,6 +173,6 @@ Se il verificatore annunciasse prima il lato, un bluffatore che non conosce la p
 
 ### Cosa viene dopo
 
-**Articolo 6 . Il protocollo schermato, dall'inizio alla fine:** il finale. Prendiamo ogni pezzo, note, commitment, l'albero dei commitment delle note, i nullifier, il bilancio di valore e la prova a conoscenza zero, e assembliamo una transazione schermata Zcash completa, chiudendo ogni singolo loop aperto fin dall'Articolo 0.
+**Articolo 6 . Il protocollo schermato, dall'inizio alla fine:** il finale. Prendiamo ogni pezzo, note, commitment, l'albero dei commitment delle note, i nullifier, il bilancio di valore e la prova a conoscenza zero, e assembliamo una transazione schermata di Zcash completa, chiudendo ogni singolo loop aperto fin dall'Articolo 0.
 
 *Parte della serie* Zcash dai primi principi *per [ZecHub](https://zechub.org). Concesso in licenza CC BY-SA 4.0.*

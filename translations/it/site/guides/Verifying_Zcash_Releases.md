@@ -417,7 +417,7 @@ Un byte aggiunto a un file di 66,992,676 byte. I due hash non hanno nulla in com
 2. **Riprova dalla pagina di release ufficiale.** La maggior parte dei fallimenti sono download troncati.
 3. **Se fallisce una seconda volta, cambia percorso di rete.** Una connessione diversa, o una VPN. Un fallimento che ti segue su reti diverse è diverso da uno che non lo fa.
 4. **Conferma di avere il file checksum giusto per la versione giusta.** Confrontare le somme di v6.3.0 con quelle di v6.2.3 fallirà correttamente.
-5. **Se continua a fallire, segnalalo.** Apri una issue nel repository del progetto, oppure usa il contatto di sicurezza in `SECURITY.md` per qualsiasi cosa sospetti sia intenzionale. Consulta la pagina [Sicurezza dell'ecosistema Zcash](/zcash-community/zcash-ecosystem-security) per i canali di divulgazione.
+5. **Se continua a fallire, segnalalo.** Apri una issue nel repository del progetto, oppure usa il contatto di sicurezza in `SECURITY.md` per qualsiasi cosa sospetti sia intenzionale. Consulta la pagina [Sicurezza dell'ecosistema di Zcash](/zcash-community/zcash-ecosystem-security) per i canali di divulgazione.
 6. **Conserva l'artefatto.** Un binario manomesso è una prova. Non cancellarlo prima di averlo segnalato.
 
 Un fallimento della firma è più grave di un fallimento del checksum. Una discrepanza del checksum di solito è corruzione; un file valido ma con firma errata non è qualcosa che accade per caso.
@@ -451,7 +451,7 @@ La verifica funziona in modo diverso quando si esce dai download diretti.
 
 ## Ulteriori letture
 
-- [Sicurezza dell'ecosistema Zcash](/zcash-community/zcash-ecosystem-security) — policy di divulgazione e contatti di sicurezza
+- [Sicurezza dell'ecosistema di Zcash](/zcash-community/zcash-ecosystem-security) — policy di divulgazione e contatti di sicurezza
 - [Full node Zebra](/zcash-tech/zebra-full-node) — installare Zebra dopo averlo verificato
 - [Guida rapida di riferimento a Zallet](/using-zcash/zallet-quick-reference-guide) — usare Zallet
 - [Documentazione Sigstore](https://docs.sigstore.dev/)

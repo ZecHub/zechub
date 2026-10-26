@@ -6,7 +6,7 @@ La schermatura in Zcash comporta lo spostamento di fondi da un indirizzo pubblic
 
 ### Cosa cambia quando schermate ZEC?
 
-Con una transazione Zcash trasparente, informazioni quali:
+Con una transazione di Zcash trasparente, informazioni quali:
 
 - indirizzo del mittente
 - indirizzo del destinatario
@@ -110,7 +110,7 @@ Questi sono i processi coinvolti nella creazione e nell'autorizzazione della tra
 
 ### Costruzione della transazione (assemblaggio della transazione schermata)
 
-La costruzione della transazione è il processo di assemblaggio delle informazioni richieste per creare una transazione Zcash valida a partire dal pagamento previsto dall'utente.
+La costruzione della transazione è il processo di assemblaggio delle informazioni richieste per creare una transazione di Zcash valida a partire dal pagamento previsto dall'utente.
 
 Il processo combina le note selezionate, i destinatari, gli importi, le commissioni, i nullifier e gli altri dati richiesti in una struttura di transazione. Per le transazioni schermate prepara anche le informazioni richieste per generare le necessarie prove a conoscenza zero e firme.
 
@@ -148,7 +148,7 @@ La firma richiede una potenza di calcolo minima, rendendola ideale per un portaf
 
 ### Cos'è la firma a freddo schermata?
 
-La firma a freddo schermata è un metodo per autorizzare una transazione schermata Zcash mantenendo le chiavi private di spesa isolate dal portafoglio companion connesso a Internet. La transazione può essere costruita e preparata su un computer online, mentre un portafoglio hardware separato, mantenuto offline o altrimenti isolato, usa le proprie chiavi protette per autorizzare la transazione.
+La firma a freddo schermata è un metodo per autorizzare una transazione schermata di Zcash mantenendo le chiavi private di spesa isolate dal portafoglio companion connesso a Internet. La transazione può essere costruita e preparata su un computer online, mentre un portafoglio hardware separato, mantenuto offline o altrimenti isolato, usa le proprie chiavi protette per autorizzare la transazione.
 
 Il processo può essere semplificato come segue:
 
@@ -225,13 +225,13 @@ Per questo è più accurato descrivere l'applicazione companion come dotata di *
 
 Il modo più semplice per esprimere l'intera idea è che il portafoglio companion riceve sufficiente materiale di chiave per sapere cosa accade al portafoglio, ma non sufficiente materiale di chiave per autorizzare ciò che accade ai fondi del portafoglio. Il portafoglio hardware, invece, mantiene isolata l'autorità di spesa e la usa solo quando l'utente approva una transazione.
 
-Questo è il modello fondamentale di isolamento delle chiavi alla base di questi progetti di portafogli hardware schermati Zcash ed è lo stesso modello che ricorre, implementazione dopo implementazione, in Ledger, Keystone e Hito, che saranno trattati a breve.
+Questo è il modello fondamentale di isolamento delle chiavi alla base di questi progetti di portafogli hardware schermati di Zcash ed è lo stesso modello che ricorre, implementazione dopo implementazione, in Ledger, Keystone e Hito, che saranno trattati a breve.
 
 ## PCZT
 
-PCZT significa Partially Created Zcash Transaction. È il pacchetto che trasporta una transazione Zcash e le informazioni necessarie per completarla da una fase all'altra.
+PCZT significa Partially Created Zcash Transaction. È il pacchetto che trasporta una transazione di Zcash e le informazioni necessarie per completarla da una fase all'altra.
 
-È un formato standardizzato per una transazione Zcash mentre è ancora in costruzione. Permette a diversi partecipanti o dispositivi di svolgere parti differenti del processo di creazione della transazione e di passarsi tra loro la transazione parzialmente completata.
+È un formato standardizzato per una transazione di Zcash mentre è ancora in costruzione. Permette a diversi partecipanti o dispositivi di svolgere parti differenti del processo di creazione della transazione e di passarsi tra loro la transazione parzialmente completata.
 
 Costruire una transazione è significativamente più complesso che firmare un semplice trasferimento pubblico nei protocolli di criptovaluta a conoscenza zero come Zcash. Le transazioni schermate richiedono prove a conoscenza zero computazionalmente intensive, come quelle generate usando Halo 2 o Groth16. Di conseguenza, dispositivi a bassa potenza come i portafogli hardware possono non disporre della memoria e della capacità di elaborazione necessarie per gestire l'intero flusso della transazione.
 
@@ -251,7 +251,7 @@ La gestione di Ledger Orchard PCZT è un esempio di questa sfida: suggerisce che
 
 Due sforzi in corso illustrano risposte differenti a questo stesso vincolo.
 
-Una proposta di ricerca su una pipeline di produzione delle prove completamente a tempo costante, adatta ad architetture di portafogli hardware open source e computer comuni, è stata avanzata nel Grant #423. L'obiettivo era indagare un'infrastruttura crittografica implementabile in sicurezza in ambienti quali C o Rust, riducendo al contempo la complessità e l'onere di manutenzione del supporto Zcash schermato.
+Una proposta di ricerca su una pipeline di produzione delle prove completamente a tempo costante, adatta ad architetture di portafogli hardware open source e computer comuni, è stata avanzata nel Grant #423. L'obiettivo era indagare un'infrastruttura crittografica implementabile in sicurezza in ambienti quali C o Rust, riducendo al contempo la complessità e l'onere di manutenzione del supporto per Zcash schermato.
 
 Un approccio alternativo è rappresentato dalla proposta **Zcash SeedSigner**, un firmatario open source air-gapped costruito con componenti economici e facilmente reperibili. Il flusso proposto mantiene il computer companion separato dal dispositivo di firma, passando un PCZT attraverso un air gap per la verifica e la firma sul dispositivo.
 
@@ -301,7 +301,7 @@ https://forum.zcashcommunity.com/t/pczt-interoperability-test-suite-feedback-bef
 | 4 | Updater | Allega i dati di contesto necessari per i partecipanti successivi, quali Full Viewing Key, anchor e testimoni Merkle. |
 | 5 | Prover e Signer | Esegue la generazione delle prove a conoscenza zero e la firma crittografica. Nelle moderne versioni di PCZT, questi due compiti sono completamente indipendenti e possono avvenire in sequenza o in parallelo. |
 | 6 | Combiner | Unisce deterministicamente più istanze PCZT se dispositivi diversi lavorano simultaneamente su aspetti della stessa transazione. Le regole di unione richiedono una rigorosa risoluzione dei conflitti per evitare perdite accidentali di dati. |
-| 7 | Spend Finalizer & Extractor | Convalida tutti gli elementi crittografici richiesti, rimuove i metadati di contesto intermedi e produce la transazione Zcash finalizzata pronta per la trasmissione in rete. |
+| 7 | Spend Finalizer & Extractor | Convalida tutti gli elementi crittografici richiesti, rimuove i metadati di contesto intermedi e produce la transazione di Zcash finalizzata pronta per la trasmissione in rete. |
 
 ## Implementazioni reali di portafogli hardware
 
@@ -313,7 +313,7 @@ https://forum.zcashcommunity.com/t/pczt-interoperability-test-suite-feedback-bef
 | Keystone | UFVK + Unified Address                   | Seed / chiavi di spesa              | QR (air-gapped)|
 | Hito     | UFVK, Unified Address, impronta del seed  | Seed e chiavi private di spesa    | QR / locale     |
 
-Diverse implementazioni di portafogli hardware sono state sviluppate per esplorare come supportare transazioni schermate Zcash mantenendo isolate dal portafoglio companion le chiavi di spesa sensibili. Ledger, Keystone e Hito rappresentano approcci differenti all'integrazione della protezione delle chiavi basata su hardware con il flusso di transazione Zcash.
+Diverse implementazioni di portafogli hardware sono state sviluppate per esplorare come supportare transazioni schermate di Zcash mantenendo isolate dal portafoglio companion le chiavi di spesa sensibili. Ledger, Keystone e Hito rappresentano approcci differenti all'integrazione della protezione delle chiavi basata su hardware con il flusso di transazione di Zcash.
 
 ![Real world hardware wallet implementations](/content-images/hardware-wallet-implementations.webp)
 
@@ -390,9 +390,9 @@ Lo scopo della firma di autorizzazione alla spesa separata è permettere a dispo
 
 #### Cos'è Zondax?
 
-Zondax è una società di sviluppo terza che ha realizzato l'app Ledger Zcash. È l'applicazione firmware effettiva eseguita sull'hardware Ledger e conferisce al dispositivo la capacità di comprendere ed elaborare fin dall'inizio le transazioni Zcash.
+Zondax è una società di sviluppo terza che ha realizzato l'app Ledger Zcash. È l'applicazione firmware effettiva eseguita sull'hardware Ledger e conferisce al dispositivo la capacità di comprendere ed elaborare fin dall'inizio le transazioni di Zcash.
 
-Zondax è uno sviluppatore esterno. L'hardware Ledger non ha una capacità innata di elaborare transazioni Zcash, e tale capacità proviene interamente dal software di Zondax.
+Zondax è uno sviluppatore esterno. L'hardware Ledger non ha una capacità innata di elaborare transazioni di Zcash, e tale capacità proviene interamente dal software di Zondax.
 
 ### Implementazione originale Zcash Ledger
 
@@ -400,7 +400,7 @@ Il repository dell'app Ledger Zcash di Zondax è il software eseguito su un disp
 
 La sua architettura illustra la separazione: il lato host/companion prepara le informazioni della transazione, mentre Ledger gestisce le operazioni sensibili sulle chiavi e la firma.
 
-Anche in questa primissima versione del supporto ai portafogli hardware Zcash, i principi fondamentali, ovvero costruzione e produzione delle prove sull'host e firma isolata sul dispositivo, erano già alla base del progetto.
+Anche in questa primissima versione del supporto ai portafogli hardware di Zcash, i principi fondamentali, ovvero costruzione e produzione delle prove sull'host e firma isolata sul dispositivo, erano già alla base del progetto.
 
 ### Evoluzione verso Orchard
 
@@ -423,7 +423,7 @@ L'app eseguita all'interno di Ledger non vede né produce altro oltre alla firma
 
 L'ultima integrazione Zcash di Ledger fornisce un esempio concreto di come la costruzione delle transazioni schermate e la firma critica per la sicurezza possano essere separate tra software companion e portafoglio hardware.
 
-Con Ledger Wallet Desktop 4.21+ e l'app del dispositivo Zcash 3.9.4+, gli utenti possono inviare e ricevere Ironwood schermato ZEC direttamente tramite Ledger Wallet Desktop. L'integrazione supporta trasferimenti da privato a privato, schermatura dalla pool trasparente, deschermatura verso la pool trasparente, indirizzi di ricezione privati e memo. Le transazioni vengono verificate e firmate sul dispositivo Ledger anziché basarsi esclusivamente sulle informazioni presentate dal computer.
+Con Ledger Wallet Desktop 4.21+ e l'app Zcash del dispositivo 3.9.4+, gli utenti possono inviare e ricevere Ironwood schermato ZEC direttamente tramite Ledger Wallet Desktop. L'integrazione supporta trasferimenti da privato a privato, schermatura dalla pool trasparente, deschermatura verso la pool trasparente, indirizzi di ricezione privati e memo. Le transazioni vengono verificate e firmate sul dispositivo Ledger anziché basarsi esclusivamente sulle informazioni presentate dal computer.
 
 Una parte fondamentale di questa architettura è la separazione tra capacità di visualizzazione e di spesa. Durante la sincronizzazione del saldo privato, Ledger esporta una Unified Full Viewing Key (UFVK), conservata localmente sul computer. La UFVK permette a Ledger Wallet Desktop di rilevare le transazioni schermate pertinenti e determinare il saldo del portafoglio, ma non conferisce l'autorità di spendere i fondi. L'autorità di spesa critica per la sicurezza resta sul dispositivo Ledger, che esegue l'operazione di firma finale. Ciò crea un confine chiaro tra il computer, che gestisce lo stato del portafoglio e costruisce le transazioni, e il dispositivo hardware, che protegge la capacità richiesta per autorizzare le spese.
 
@@ -459,7 +459,7 @@ La situazione si è successivamente evoluta con il rilascio dell'app dedicata Zc
 
 La fase successiva è stata lo sviluppo della nuova applicazione Rust basata su Ledger di Zcash. Entro giugno 2026, Ledger riferiva che la condivisione UFVK e la generazione Orchard Unified Address erano state implementate, mentre la firma delle transazioni Orchard e ClearSign erano ancora in sviluppo. Ledger ha inoltre affermato che il lavoro sarebbe proseguito nel percorso Ironwood con il cambiamento del protocollo.
 
-Ironwood ha successivamente richiesto aggiornamenti nell'intero ecosistema di portafogli Zcash. Zkool ha rilasciato il supporto per la migrazione da Orchard a Ironwood a partire dalla versione 6.24.0 e ha continuato a perfezionare la migrazione e la pipeline delle transazioni nelle versioni successive. Ledger, separatamente, ha unito la firma PCZT v2 nella propria nuova applicazione il 27 luglio, sebbene l'implementazione non avesse ancora completato la revisione di Ledger e il rilascio Ledger Live entro il 20 agosto; una tappa da allora consegnata, con Ledger Wallet Desktop 4.21+ che ora offre direttamente supporto nativo Ironwood.
+Ironwood ha successivamente richiesto aggiornamenti nell'intero ecosistema di portafogli di Zcash. Zkool ha rilasciato il supporto per la migrazione da Orchard a Ironwood a partire dalla versione 6.24.0 e ha continuato a perfezionare la migrazione e la pipeline delle transazioni nelle versioni successive. Ledger, separatamente, ha unito la firma PCZT v2 nella propria nuova applicazione il 27 luglio, sebbene l'implementazione non avesse ancora completato la revisione di Ledger e il rilascio Ledger Live entro il 20 agosto; una tappa da allora consegnata, con Ledger Wallet Desktop 4.21+ che ora offre direttamente supporto nativo Ironwood.
 
 https://forum.zcashcommunity.com/t/a-path-forward-for-ledger-and-zcash/50951/177
 
@@ -467,7 +467,7 @@ L'evoluzione è quindi meglio intesa non come un singolo aggiornamento da Zondax
 
 ### Supporto attuale dei dispositivi e delle piattaforme Ledger per Zcash
 
-Il supporto Zcash su Ledger dipende da:
+Il supporto per Zcash su Ledger dipende da:
 
 - Il modello del dispositivo
 - L'applicazione installata
@@ -476,7 +476,7 @@ Il supporto Zcash su Ledger dipende da:
 
 Al 21 luglio 2026, ultimo aggiornamento di Ledger, l'app Zcash Shielded è supportata su Nano S Plus, Stax e Flex, ma non ancora su Nano X o Nano Gen5.
 
-Nano X e gli altri modelli, eccetto Nano S originale, possono ancora usare l'app classica Zcash, che supporta le transazioni trasparenti e la spesa di fondi schermati verso indirizzi trasparenti, deschermatura, ma non la firma da schermato a schermato. Nano S originale non supporta nessuna delle due app, perché Ledger sta dismettendo il supporto per il dispositivo e la sua app Zcash più recente non è disponibile su di esso. I dispositivi si collegano a Ledger Wallet, precedentemente Ledger Live, l'applicazione companion di Ledger, disponibile su desktop per Windows, macOS e Linux e su mobile per iOS e Android.
+Nano X e gli altri modelli, eccetto Nano S originale, possono ancora usare la versione classica dell'app Zcash, che supporta le transazioni trasparenti e la spesa di fondi schermati verso indirizzi trasparenti, deschermatura, ma non la firma da schermato a schermato. Nano S originale non supporta nessuna delle due app, perché Ledger sta dismettendo il supporto per il dispositivo e la sua app Zcash più recente non è disponibile su di esso. I dispositivi si collegano a Ledger Wallet, precedentemente Ledger Live, l'applicazione companion di Ledger, disponibile su desktop per Windows, macOS e Linux e su mobile per iOS e Android.
 
 Ledger ha aggiunto Zcash schermato nativo a Ledger Wallet Desktop, basato sulla pool Ironwood, eliminando la necessità di un portafoglio companion separato. ZEC schermato non è ancora supportato sull'app mobile di Ledger per iOS e Android, sebbene il supporto mobile sia pianificato per una futura versione.
 
@@ -502,7 +502,7 @@ Avere la crittografia e il codice di firma non è sufficiente. L'integrazione di
 - Compatibilità con il portafoglio — se i formati dei dati e il flusso dell'app di firma corrispondono a quanto il portafoglio companion si aspetta
 - Pool schermate supportate — per quali tra Sapling, Orchard e ora Ironwood l'app possa effettivamente firmare
 
-L'app proprietaria Ledger di Ywallet soddisfaceva i requisiti crittografici e architetturali: poteva firmare transazioni schermate Zcash, ma non era stata accettata nell'app store ufficiale di Ledger.
+L'app proprietaria Ledger di Ywallet soddisfaceva i requisiti crittografici e architetturali: poteva firmare transazioni schermate di Zcash, ma non era stata accettata nell'app store ufficiale di Ledger.
 
 ### Transizione lontano dall'app proprietaria Ledger
 
@@ -629,7 +629,7 @@ Ironwood dispone del proprio albero di commitment delle note, insieme di nullifi
 ### La cronologia pubblica
 
 - 29 maggio: viene divulgata la vulnerabilità Orchard.
-- Giugno: le transazioni Orchard vengono temporaneamente limitate mentre una correzione iniziale viene distribuita tramite NU6.2. Il 12 giugno, uno sviluppatore core indica il 21 luglio come obiettivo per l'aggiornamento completo; successivamente slitta di una settimana. Viene sollevata una preoccupazione della comunità secondo cui i proprietari di Keystone sarebbero stati gli ultimi a migrare; uno sviluppatore core risponde poi che Keystone avrebbe supportato Ironwood dal primo giorno, con firmware previsto per il 3 luglio, in attesa delle costanti di firma finalizzate e delle modifiche API Orchard dal core Zcash.
+- Giugno: le transazioni Orchard vengono temporaneamente limitate mentre una correzione iniziale viene distribuita tramite NU6.2. Il 12 giugno, uno sviluppatore core indica il 21 luglio come obiettivo per l'aggiornamento completo; successivamente slitta di una settimana. Viene sollevata una preoccupazione della comunità secondo cui i proprietari di Keystone sarebbero stati gli ultimi a migrare; uno sviluppatore core risponde poi che Keystone avrebbe supportato Ironwood dal primo giorno, con firmware previsto per il 3 luglio, in attesa delle costanti di firma finalizzate e delle modifiche API Orchard dal core di Zcash.
 - Inizio luglio: NU6.3 raggiunge la testnet; Zebra 6.0.0 viene pubblicato il 10 luglio.
 - 27–28 luglio: il lavoro di firma Ironwood PCZT v2 di Ledger viene unito in un ramo di integrazione. Ironwood (NU6.3) si attiva il 28 luglio al blocco 3.428.143, sigillando la pool Orchard originale dietro un turnstile (tornello) che limita la quantità di ZEC che può uscire da Orchard all'importo legittimamente depositato e introduce un nuovo formato di transazione.
 

@@ -57,14 +57,14 @@ Questa proposta mira a passare dalla governance controllata dalle organizzazioni
 - Organizzazione non profit indipendente 501(c)(3) focalizzata su infrastruttura, software per nodi, ricerca e salute dell'ecosistema.  
 - Storicamente ha ricevuto il 5% del fondo di sviluppo.  
 - Non riceve più finanziamenti diretti dal protocollo dopo NU6. Si basa su donazioni e finanziamenti.  
-- Detiene il marchio Zcash (donato da ECC nel 2019) e gioca un ruolo centrale nella governance.  
+- Detiene il marchio di Zcash (donato da ECC nel 2019) e gioca un ruolo centrale nella governance.  
 - Gestisce lo Zcash Community Advisory Panel (ZCAP) e aiuta a facilitare i sondaggi comunitari.  
 - Agisce come Key-Holder Organization nell'ambito della proposta ZIP 1016.  
 -> Vedi profilo completo: [Zcash Foundation](https://zechub.wiki/zcash-organizations/zcash-foundation)  
 -> Sito ufficiale: [zfnd.org](https://zfnd.org/)
 
 **Zcash Community Grants (ZCG)**  
-- Il programma Zcash Community Grants finanzia team e progetti indipendenti per svolgere importanti attività di sviluppo in corso e altri lavori per il bene pubblico dell'ecosistema Zcash.  
+- Il programma Zcash Community Grants finanzia team e progetti indipendenti per svolgere importanti attività di sviluppo in corso e altri lavori per il bene pubblico dell'ecosistema di Zcash.  
 - I finanziamenti sono decisi da un comitato eletto dalla comunità.  
 - Continua a ricevere l'intero 8% dei block reward (post-NU6), amministrato attraverso la Financial Privacy Foundation.  
 - I finanziamenti vengono assegnati attraverso un processo trasparente di candidatura e votazione aperto alla comunità.  
@@ -81,7 +81,7 @@ Questa proposta mira a passare dalla governance controllata dalle organizzazioni
 
 **Shielded Labs**  
 - Organizzazione indipendente di supporto a Zcash, finanziata da donazioni, con sede in Svizzera.  
-- La prima organizzazione nell'ecosistema Zcash che non ha mai ricevuto finanziamenti diretti o indiretti dal Development Fund o dai block reward.  
+- La prima organizzazione nell'ecosistema di Zcash che non ha mai ricevuto finanziamenti diretti o indiretti dal Development Fund o dai block reward.  
 - Si concentra su iniziative che beneficiano i possessori di ZEC e dà priorità alla voce dei possessori nel plasmare la direzione di Zcash.  
 - Agisce come Key-Holder Organization nell'ambito della proposta ZIP 1016 per l'amministrazione del Coinholder-Controlled Fund.  
 - Contribuisce allo sviluppo del protocollo, al processo ZIP e alla governance (rappresentanza come ZIP editor).  
@@ -99,10 +99,10 @@ La governance di Zcash è un mix di "regole del protocollo on-chain" e "consenso
    - Le ZIP accettate sono incluse nel prossimo aggiornamento di rete.
 
 2. **Accordo sul Marchio (2019-2024)**  
-   - ECC ha donato il marchio Zcash a ZF nel 2019.  
+   - ECC ha donato il marchio di Zcash a ZF nel 2019.  
    - L'accordo originariamente richiedeva il consenso reciproco sia di ECC che di ZF per qualsiasi aggiornamento di rete che creasse un nuovo protocollo di consenso.  
    - Nell'aprile 2024 ECC ha annunciato l'intenzione di terminarlo; la notifica formale di terminazione è stata emessa ad agosto 2024.  
-   - A partire dal 2025, ZF è l'unico custode del marchio Zcash e ha adottato una nuova politica permissiva sui marchi che riflette la decentralizzazione dell'ecosistema. Il marchio non funge più da meccanismo di veto sulla governance.
+   - A partire dal 2025, ZF è l'unico custode del marchio di Zcash e ha adottato una nuova politica permissiva sui marchi che riflette la decentralizzazione dell'ecosistema. Il marchio non funge più da meccanismo di veto sulla governance.
 
 3. **Zcash Community Advisory Panel (ZCAP)**  
    - Gruppo di volontari esperti dell'ecosistema.  

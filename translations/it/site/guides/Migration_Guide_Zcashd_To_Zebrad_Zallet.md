@@ -28,7 +28,7 @@ Anche mettendo da parte la deprecazione, ci sono ragioni convincenti per migrare
 - Sicurezza e robustezza: la sicurezza della memoria di Rust e gli strumenti moderni riducono i rischi di vulnerabilità.
 - Prestazioni ed efficienza: Zebrad è progettato per il parallelismo, un uso più efficiente delle risorse e una sincronizzazione più veloce.
 - Architettura modulare: separare la logica del nodo (Zebrad) dall'interfaccia del portafoglio (Zallet) offre confini più chiari e migliori percorsi di aggiornamento.
-- Compatibilità con l'ecosistema futuro: strumenti, miglioramenti e il resto dell'ecosistema Zcash si rivolgeranno sempre più a Zebrad/Zallet.
+- Compatibilità con l'ecosistema futuro: strumenti, miglioramenti e il resto dell'ecosistema di Zcash si rivolgeranno sempre più a Zebrad/Zallet.
 - Tranquillità: evita di ritrovarti a usare un componente deprecato e non supportato.
 
 ### Ora approfondiamo la guida alla migrazione
@@ -44,11 +44,11 @@ Anche mettendo da parte la deprecazione, ci sono ragioni convincenti per migrare
 * Esporta una copia di qualsiasi script RPC o automazione che utilizzi.
 * Verifica che i tuoi backup siano validi (ad esempio, in un altro ambiente, prova ad aprirli o ispezionarli).
 * Esamina i metodi JSON-RPC su cui fai attualmente affidamento.
-* Confrontali con la tabella di compatibilità pianificata gestita sul [sito di supporto Zcash](https://z.cash/support/zcashd-deprecation/) 
+* Confrontali con la tabella di compatibilità pianificata gestita sul [sito di supporto di Zcash](https://z.cash/support/zcashd-deprecation/) 
 * Preparati a modifiche o metodi mancanti (alcuni potrebbero richiedere soluzioni alternative o adattamenti).
 
 **2. Requisiti di sistema e spazio su disco**
-* Lo spazio su disco è il requisito che le persone sottovalutano. La chain Zcash ha superato i **270 GB** nell'agosto 2026, quindi prevedi almeno **300 GB** di spazio libero, su un SSD se possibile.
+* Lo spazio su disco è il requisito che le persone sottovalutano. La chain di Zcash ha superato i **270 GB** nell'agosto 2026, quindi prevedi almeno **300 GB** di spazio libero, su un SSD se possibile.
 * Assicurati che la tua macchina disponga di rete, CPU e RAM stabili.
 * Una connessione Internet 
 * Se prevedi di compilare dal sorgente, installa Rust e Cargo.
@@ -213,8 +213,8 @@ Oppure controlla i log.
 
 **9. Conclusione**
 
-La migrazione da zcashd a Zebrad e Zallet ti offre un'esperienza Zcash più veloce, sicura e moderna.
-Con la sicurezza basata su Rust, il design modulare e strumenti migliori, questa configurazione garantisce che il tuo nodo e portafoglio restino pronti per il futuro mentre l'ecosistema Zcash continua a evolversi.
+La migrazione da zcashd a Zebrad e Zallet ti offre un'esperienza di Zcash più veloce, sicura e moderna.
+Con la sicurezza basata su Rust, il design modulare e strumenti migliori, questa configurazione garantisce che il tuo nodo e portafoglio restino pronti per il futuro mentre l'ecosistema di Zcash continua a evolversi.
 
 Suggerimento: conserva le chiavi del tuo portafoglio offline ed esegui regolarmente il backup dei dati Zallet.
 Visita [zebra.zfnd.org](https://zebra.zfnd.org) per Zebra e [The Zallet Book](https://zcash.github.io/zallet/) o il [repository Zallet](https://github.com/zcash/zallet) per Zallet. Il capitolo [Migrazione da zcashd](https://zcash.github.io/zallet/) di The Zallet Book è il riferimento autorevole per il passaggio 6.

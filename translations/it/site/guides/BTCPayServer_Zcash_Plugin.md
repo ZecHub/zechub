@@ -1,4 +1,4 @@
-# BTCPay Server con supporto Zcash: guida completa all'installazione e all'integrazione
+# BTCPay Server con supporto per Zcash: guida completa all'installazione e all'integrazione
 
 BTCPay Server consente alle attività online di accettare pagamenti in criptovaluta direttamente, senza intermediari o custodi. Questa guida ti accompagna attraverso l'intero processo di configurazione di BTCPay Server con supporto nativo per i pagamenti schermati in Zcash.
 
@@ -13,11 +13,11 @@ BTCPay Server consente alle attività online di accettare pagamenti in criptoval
 - [Come funziona BTCPay Server](#How-BTCPay-Server-Works)
 - [Dove sono conservati i fondi? Chi controlla le chiavi private?](#Where-Are-Funds-Stored-Who-Controls-the-Private-Keys)
 - [Come configurare BTCPay Server per accettare Zcash](#How-to-Set-Up-BTCPay-Server-for-Accepting-Zcash)
-  - [Distribuire BTCPay Server con supporto Zcash](#Deploying-BTCPay-Server-with-Zcash-Support)
-  - [Eseguire il tuo full node Zcash (Zebra + lightwalletd)](#Running-Your-Own-Zcash-Full-Node)
+  - [Distribuire BTCPay Server con supporto per Zcash](#Deploying-BTCPay-Server-with-Zcash-Support)
+  - [Eseguire il tuo full node di Zcash (Zebra + lightwalletd)](#Running-Your-Own-Zcash-Full-Node)
   - [Connettersi a un nodo lightwalletd esterno (configurazione personalizzata)](#Connecting-to-an-External-Lightwalletd-Node)
   - [Ospitare BTCPay Server a casa con Cloudflare Tunnel](#Hosting-BTCPay-Server-at-Home-with-Cloudflare-Tunnel)
-- [Configurare il plugin Zcash nell'interfaccia web di BTCPay Server](#Configuring-the-Zcash-Plugin-in-the-BTCPay-Server-Web-Interface)
+- [Configurare il plugin di Zcash nell'interfaccia web di BTCPay Server](#Configuring-the-Zcash-Plugin-in-the-BTCPay-Server-Web-Interface)
 - [Integrare BTCPay Server con il tuo sito web](#Integrating-BTCPay-Server-with-Your-Website)
   - [Integrazione tramite API](#API-Integration)
     - [Generare una chiave API](#Generating-an-API-Key)
@@ -124,7 +124,7 @@ Tutti i fondi vanno **direttamente** al portafoglio del commerciante. La sicurez
 ### Come funziona
 
 - **Il portafoglio viene creato in anticipo.**  
-  Il commerciante utilizza un portafoglio Zcash che supporta le chiavi di visualizzazione - come [Zkool](https://github.com/hhanh00/zkool2/) o [Zingo! Wallet](https://zingolabs.org/).  
+  Il commerciante utilizza un portafoglio di Zcash che supporta le chiavi di visualizzazione - come [Zkool](https://github.com/hhanh00/zkool2/) o [Zingo! Wallet](https://zingolabs.org/).  
   Un elenco completo è disponibile su [ZecHub.wiki](https://zechub.wiki/wallets).
 
 - **BTCPay Server si connette tramite le chiavi di visualizzazione.**  
@@ -135,7 +135,7 @@ Tutti i fondi vanno **direttamente** al portafoglio del commerciante. La sicurez
   Puoi usare un nodo pubblico come `https://zec.rocks`, oppure eseguire il tuo stack `Zebra + lightwalletd` per la piena sovranità.
 
 - **Ogni ordine riceve un indirizzo univoco.**  
-  Le chiavi di visualizzazione consentono al server di derivare nuovi indirizzi schermati Zcash per ogni fattura,  
+  Le chiavi di visualizzazione consentono al server di derivare nuovi indirizzi schermati di Zcash per ogni fattura,  
   permettendo un tracciamento sicuro dei pagamenti e prevenendo il riutilizzo degli indirizzi.
 
 - **Mantieni il pieno controllo sui fondi.**  
@@ -160,13 +160,13 @@ Vedremo i seguenti aspetti:
 
 - Come distribuire tutto da zero su un VPS, incluso il full node (Zebra)
 - Come eseguire BTCPay Server a casa mantenendo nascosto il tuo IP usando **Cloudflare Tunnel**
-- Come abilitare e configurare il supporto Zcash all'interno dell'interfaccia web di BTCPay Server
+- Come abilitare e configurare il supporto per Zcash all'interno dell'interfaccia web di BTCPay Server
 - Come integrare BTCPay con il tuo sito web o negozio online
 
 
-## Distribuire BTCPay Server con supporto Zcash
+## Distribuire BTCPay Server con supporto per Zcash
 
-Passiamo alla configurazione vera e propria. In questa sezione installeremo BTCPay Server con supporto Zcash - sia su un VPS nuovo sia aggiungendo il supporto ZEC a un'istanza esistente.
+Passiamo alla configurazione vera e propria. In questa sezione installeremo BTCPay Server con supporto per Zcash - sia su un VPS nuovo sia aggiungendo il supporto ZEC a un'istanza esistente.
 
 Se hai già BTCPay Server in esecuzione (ad esempio per BTC o Lightning), non è necessario reinstallare tutto - basta abilitare il plugin ZEC.
 
@@ -177,8 +177,8 @@ L'opzione migliore dipende dalla posizione del tuo server e da quanta indipenden
 > [https://github.com/btcpay-zcash/btcpayserver-zcash-plugin](https://github.com/btcpay-zcash/btcpayserver-zcash-plugin)
 >
 > **Attenzione - un solo portafoglio per istanza:**  
-> Il plugin Zcash utilizza **un unico portafoglio condiviso** tra **tutti i negozi** dell'istanza BTCPay.  
-> Se ospiti più negozi indipendenti su un'unica istanza, condivideranno lo stesso portafoglio Zcash.  
+> Il plugin di Zcash utilizza **un unico portafoglio condiviso** tra **tutti i negozi** dell'istanza BTCPay.  
+> Se ospiti più negozi indipendenti su un'unica istanza, condivideranno lo stesso portafoglio di Zcash.  
 > Usa istanze separate se hai bisogno di un isolamento rigoroso dei portafogli.
 
 ---
@@ -199,7 +199,7 @@ Prima di installare, assicurati di avere:
 <details>
   <summary>Clicca per espandere</summary>
 
-Per distribuire BTCPay Server con supporto Zcash, avrai bisogno di quanto segue:
+Per distribuire BTCPay Server con supporto per Zcash, avrai bisogno di quanto segue:
 
 ### 1. VPS con Ubuntu 22.04 o più recente
 
@@ -212,7 +212,7 @@ Qualsiasi provider VPS che offra un indirizzo IP dedicato andrà bene.
 - 40 GB di spazio su disco  
 
 Questa configurazione è sufficiente se usi lightwalletd per Zcash.  
-Se prevedi di eseguire un **full node Zcash**, avrai bisogno di **almeno 300 GB** di spazio libero su disco.
+Se prevedi di eseguire un **full node di Zcash**, avrai bisogno di **almeno 300 GB** di spazio libero su disco.
 
 ---
 
@@ -323,16 +323,16 @@ Poi prosegui alla sezione successiva per configurare Zcash nell'interfaccia web 
 
 
 
-## Eseguire il tuo full node Zcash
+## Eseguire il tuo full node di Zcash
 
-Se preferisci **non** affidarti a nodi `lightwalletd` pubblici, puoi distribuire il tuo full node Zcash insieme a lightwalletd sullo stesso server.  
+Se preferisci **non** affidarti a nodi `lightwalletd` pubblici, puoi distribuire il tuo full node di Zcash insieme a lightwalletd sullo stesso server.  
 Questo ti garantisce la **piena autonomia** - nessuna dipendenza esterna, nessuna fiducia richiesta.
 
 ---
 
 ### Passo 1: assicurati di avere spazio su disco sufficiente
 
-Un full node Zcash (Zebra + lightwalletd) richiede attualmente **300+ GB** di spazio su disco, e continua a crescere.
+Un full node di Zcash (Zebra + lightwalletd) richiede attualmente **300+ GB** di spazio su disco, e continua a crescere.
 
 Suddivisione:
 
@@ -341,7 +341,7 @@ Suddivisione:
 
 #### Spazio di archiviazione consigliato:
 
-- **400 GB+** se il server è usato **solo** per i pagamenti Zcash
+- **400 GB+** se il server è usato **solo** per i pagamenti in Zcash
 - **800 GB+** se il server esegue anche BTCPay Server, PostgreSQL, Nginx, ecc.
 
 > Idealmente usa un disco SSD/NVMe con **capacità di 1 TB**, soprattutto se non prevedi di effettuare il pruning dei dati con regolarità.
@@ -369,7 +369,7 @@ Lo script:
 
 * Scaricherà le immagini Docker per Zebra e lightwalletd
 * Configurerà i servizi all'interno dello stack BTCPay
-* Collegherà il plugin Zcash all'istanza **locale** di `lightwalletd`
+* Collegherà il plugin di Zcash all'istanza **locale** di `lightwalletd`
 
 > **La sincronizzazione completa della blockchain può richiedere diversi giorni**, specialmente su server VPS con poche risorse.
 > Finché la sincronizzazione non è completa, i pagamenti schermati non saranno disponibili.
@@ -377,7 +377,7 @@ Lo script:
 
 ## Connettersi a un nodo lightwalletd esterno
 
-Nella maggior parte dei casi, la piena autonomia non è necessaria - e i commercianti potrebbero non voler dedicare tempo e spazio su disco all'esecuzione di un full node Zcash.  
+Nella maggior parte dei casi, la piena autonomia non è necessaria - e i commercianti potrebbero non voler dedicare tempo e spazio su disco all'esecuzione di un full node di Zcash.  
 Per impostazione predefinita, BTCPay Server si connette a un nodo `lightwalletd` pubblico per gestire i pagamenti schermati senza scaricare l'intera blockchain.
 
 L'endpoint predefinito è:
@@ -459,12 +459,12 @@ Puoi usare:
 
 BTCPay Server applicherà la tua configurazione personalizzata e si connetterà al nodo `lightwalletd` specificato.
 
-D'ora in poi, il plugin Zcash utilizzerà quell'endpoint esterno per gestire le transazioni schermate.
+D'ora in poi, il plugin di Zcash utilizzerà quell'endpoint esterno per gestire le transazioni schermate.
 
 
 ## Ospitare BTCPay Server a casa con Cloudflare Tunnel
 
-Vuoi accettare pagamenti Zcash ospitando BTCPay Server su un dispositivo domestico - come un Raspberry Pi 5 o qualsiasi server locale **senza un IP statico**?  
+Vuoi accettare pagamenti in Zcash ospitando BTCPay Server su un dispositivo domestico - come un Raspberry Pi 5 o qualsiasi server locale **senza un IP statico**?  
 Puoi esporre in modo sicuro la tua istanza a Internet usando **Cloudflare Tunnel**.
 
 Questo metodo evita il port forwarding e nasconde il tuo vero indirizzo IP al pubblico - mantenendo al contempo il server accessibile via HTTPS.
@@ -616,13 +616,13 @@ Dovresti ora essere in grado di accedere al tuo server all'indirizzo:
 > Tutto ciò che conta è che BTCPay Server sia in ascolto localmente su `127.0.0.1:80`.
 
 
-## Configurare il plugin Zcash nell'interfaccia web di BTCPay Server
+## Configurare il plugin di Zcash nell'interfaccia web di BTCPay Server
 
 > **Importante per le configurazioni multi-negozio:**  
-> Il portafoglio Zcash configurato qui è **globale** per l'istanza. Tutti i negozi useranno questo portafoglio a meno che tu non esegua istanze BTCPay separate.
+> Il portafoglio di Zcash configurato qui è **globale** per l'istanza. Tutti i negozi useranno questo portafoglio a meno che tu non esegua istanze BTCPay separate.
 
 Dopo aver distribuito con successo la tua istanza di BTCPay Server, dovrai eseguire alcune configurazioni di base tramite l'interfaccia web di amministrazione.  
-La documentazione ufficiale fornisce istruzioni complete in inglese - qui vedremo i passaggi essenziali e ci concentreremo specificamente sulla configurazione del plugin Zcash.
+La documentazione ufficiale fornisce istruzioni complete in inglese - qui vedremo i passaggi essenziali e ci concentreremo specificamente sulla configurazione del plugin di Zcash.
 
 ---
 
@@ -638,7 +638,7 @@ Visita la tua istanza all'indirizzo:
 
 ---
 
-### Passo 2: installa il plugin Zcash
+### Passo 2: installa il plugin di Zcash
 
 1. Nel menu principale, vai a:
 
@@ -693,7 +693,7 @@ Una volta compilati tutti i campi, clicca **Save**.
 
 ### Testa il tuo flusso di pagamento ZEC
 
-Congratulazioni - il tuo portafoglio Zcash è ora collegato a BTCPay Server.
+Congratulazioni - il tuo portafoglio di Zcash è ora collegato a BTCPay Server.
 
 Eseguiamo un test:
 
@@ -712,7 +712,7 @@ Se tutto funziona - sei pronto a integrare i pagamenti ZEC nel tuo sito web usan
 
 ## Integrare BTCPay Server con il tuo sito web
 
-Una volta collegato il tuo portafoglio Zcash a BTCPay Server, puoi integrare il sistema di pagamento nel tuo sito web.  
+Una volta collegato il tuo portafoglio di Zcash a BTCPay Server, puoi integrare il sistema di pagamento nel tuo sito web.  
 Ci sono diversi modi per farlo - dall'accesso diretto all'API ai plugin pronti all'uso per le piattaforme CMS più popolari.
 
 ---
@@ -882,7 +882,7 @@ Per visualizzare la fattura direttamente sul tuo sito, usa un iframe:
 
 ## Conclusione
 
-Questa guida è stata lunga - ma copre solo gli aspetti fondamentali dell'integrazione dei pagamenti Zcash con BTCPay Server.
+Questa guida è stata lunga - ma copre solo gli aspetti fondamentali dell'integrazione dei pagamenti in Zcash con BTCPay Server.
 
 L'interfaccia di BTCPay Server offre molte più funzionalità di quelle mostrate qui. Fortunatamente, l'interfaccia è disponibile in più lingue (incluso il russo), il che rende facile esplorare e sperimentare ulteriormente.
 
@@ -905,10 +905,10 @@ Ti auguriamo buona fortuna nell'esplorare l'ecosistema BTCPay e nel rendere i tu
 * [Repository GitHub di BTCPay Server](https://github.com/btcpayserver/btcpayserver)
 * [Demo Mainnet di BTCPay Server](https://mainnet.demo.btcpayserver.org/login?ReturnUrl=%2F)
 * [Plugin Zcash per BTCPay (GitHub)](https://github.com/btcpay-zcash/btcpayserver-zcash-plugin)
-* [Guida all'installazione del plugin Zcash](https://github.com/btcpay-zcash/btcpayserver-zcash-plugin/blob/master/docs/installation.md)
+* [Guida all'installazione del plugin di Zcash](https://github.com/btcpay-zcash/btcpayserver-zcash-plugin/blob/master/docs/installation.md)
 * [Esempio di zcash-lightwalletd.custom.yml personalizzato](https://github.com/btcpay-zcash/btcpayserver-zcash-plugin/blob/master/docs/zcash-lightwalletd.custom.yml)
 * [File Docker Compose di lightwalletd (Zebra)](https://github.com/ZcashFoundation/zebra/blob/main/docker/docker-compose.lwd.yml)
 * [Documentazione delle chiavi API di BTCPay (Greenfield API)](https://docs.btcpayserver.org/API/Greenfield/v1/#tag/API-Keys)
 * [Creare un Cloudflare Tunnel](https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/get-started/create-remote-tunnel/)
-* [Elenco di compatibilità dei portafogli Zcash (ZecHub)](https://zechub.wiki/wallets)
+* [Elenco di compatibilità dei portafogli di Zcash (ZecHub)](https://zechub.wiki/wallets)
 * [Zebra + lightwalletd su Raspberry Pi 5 (ZecHub)](https://free2z.com/ZecHub/zpage/zcash-101-zebra-lightwalletd-sync-journal-on-raspberry-pi-5)

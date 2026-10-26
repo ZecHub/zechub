@@ -84,9 +84,9 @@ Solo schermato, con supporto per Sapling, Orchard e indirizzi unificati. Non c'�
 
 Per installarlo ti serve il fork Docker btcpay-zcash sul branch feat/zec, più una chiave di visualizzazione esportata da un portafoglio come Zkool o Zingo. Per impostazione predefinita comunica con un lightwalletd remoto, oppure puoi eseguire tu stesso Zebra e lightwalletd.
 
-Una limitazione da conoscere: il plugin usa un singolo portafoglio Zcash per tutti i negozi su un'istanza, quindi non eseguirlo su un server condiviso. Si sta lavorando a portafogli separati per ogni negozio.
+Una limitazione da conoscere: il plugin usa un singolo portafoglio di Zcash per tutti i negozi su un'istanza, quindi non eseguirlo su un server condiviso. Si sta lavorando a portafogli separati per ogni negozio.
 
-Non ci sono commissioni per il software in sé. Paghi le commissioni di rete Zcash e i costi del tuo hosting.
+Non ci sono commissioni per il software in sé. Paghi le commissioni di rete di Zcash e i costi del tuo hosting.
 
 **Ultima verifica:** 2026-07-29
 
@@ -104,7 +104,7 @@ I fondi vanno direttamente dal cliente al tuo portafoglio, senza nessuno in mezz
 
 Schermato, con supporto per Sapling e Orchard tramite indirizzi unificati, e segue ZIP 321. Nessuna fonte attuale dice che gestisca indirizzi trasparenti, quindi questa pagina non afferma più che lo faccia.
 
-Non puoi davvero ospitarlo da solo. ZGo gestisce per te l'infrastruttura Zcash e non pubblica alcuna guida di deployment. Il codice sorgente è pubblico sul server Git del maintainer, anche se la copia GitLab che di solito le persone trovano è un mirror obsoleto del 2022.
+Non puoi davvero ospitarlo da solo. ZGo gestisce per te l'infrastruttura di Zcash e non pubblica alcuna guida di deployment. Il codice sorgente è pubblico sul server Git del maintainer, anche se la copia GitLab che di solito le persone trovano è un mirror obsoleto del 2022.
 
 Non è neppure gratuito. ZGo vende sessioni prepagate e richiede una sessione Pro per WooCommerce, ma la pagina dei prezzi al momento è irraggiungibile, quindi qui non viene riportata alcuna cifra.
 

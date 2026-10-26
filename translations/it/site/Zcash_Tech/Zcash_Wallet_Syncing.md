@@ -2,11 +2,11 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Modifica pagina"/>
 </a>
 
-# Sincronizzazione dei portafogli Zcash
+# Sincronizzazione dei portafogli di Zcash
 
 ## TL;DR
 
-* Poiché le transazioni schermate Zcash nascondono i loro dettagli, un server non può semplicemente cercare il saldo di un portafoglio come può fare per monete trasparenti come Bitcoin o Ethereum.
+* Poiché le transazioni schermate di Zcash nascondono i loro dettagli, un server non può semplicemente cercare il saldo di un portafoglio come può fare per monete trasparenti come Bitcoin o Ethereum.
 * I portafogli light scaricano piccoli "blocchi compatti" da un server specializzato (lightwalletd) e decrittano autonomamente i dati rilevanti con le proprie chiavi private.
 * Decrittare ed elaborare questi blocchi richiede tempo, quindi i portafogli usano metodi di sincronizzazione più rapidi per consentirti di utilizzare prima i tuoi fondi.
 * Approcci notevoli: Warp Sync (YWallet), Spend-before-sync (Zcash Mobile Wallet SDK V2), Blaze Sync (Zecwallet) e il DAGSync proposto.
@@ -62,9 +62,9 @@ Inoltre, utilizza Out-of-Order Sync separando tra loro i componenti della sincro
 
 ### DAGSync
 
-DAGSync è un algoritmo di sincronizzazione proposto che mira a migliorare l'esperienza utente dei portafogli schermati Zcash accelerando la sincronizzazione.
+DAGSync è un algoritmo di sincronizzazione proposto che mira a migliorare l'esperienza utente dei portafogli schermati di Zcash accelerando la sincronizzazione.
 
-Utilizza un [Grafo aciclico diretto (DAG)](https://words.str4d.xyz/dagsync-graph-aware-zcash-wallets/) per rappresentare le dipendenze tra note, testimoni e nullifier in un portafoglio Zcash.
+Utilizza un [Grafo aciclico diretto (DAG)](https://words.str4d.xyz/dagsync-graph-aware-zcash-wallets/) per rappresentare le dipendenze tra note, testimoni e nullifier in un portafoglio di Zcash.
 
 Un DAG è una struttura dati composta da nodi e archi, in cui ogni arco ha una direzione che indica una relazione tra due nodi. Un DAG non ha cicli, il che significa che non esiste alcun modo per partire da un nodo e seguire gli archi fino a tornare allo stesso nodo.
 
@@ -76,7 +76,7 @@ Un DAG è una struttura dati composta da nodi e archi, in cui ogni arco ha una d
 
 È interessante notare che tutti questi meccanismi mirano ad affrontare le questioni sollevate da Zcash Security nel suo post su [Scalable Private Messaging](https://zecsec.com/posts/scalable-private-money-needs-scalable-private-messaging/) e sulla sua relazione con i sistemi di pagamento privati. Alcuni si spingono persino oltre, scaricando dai server tutti i dati dei memo, eccetto i dati esclusivi di un indirizzo, aumentando la privacy al costo di alcune risorse aggiuntive.
 
-Inoltre, la Zcash Foundation sta esaminando altre alternative per migliorare le prestazioni dei portafogli light. È il caso di [Oblivious Message Retrieval (OMR)](https://zfnd.org/oblivious-message-retrieval/), una costruzione che la fondazione ha studiato "per determinare se offra una potenziale soluzione ai recenti problemi di prestazioni che hanno interessato gli utenti dei portafogli Zcash."
+Inoltre, la Zcash Foundation sta esaminando altre alternative per migliorare le prestazioni dei portafogli light. È il caso di [Oblivious Message Retrieval (OMR)](https://zfnd.org/oblivious-message-retrieval/), una costruzione che la fondazione ha studiato "per determinare se offra una potenziale soluzione ai recenti problemi di prestazioni che hanno interessato gli utenti dei portafogli di Zcash."
 
 ## Errori comuni
 
@@ -91,5 +91,5 @@ Inoltre, la Zcash Foundation sta esaminando altre alternative per migliorare le 
 
 - [Nodi lightwallet](/zcash-tech/lightwallet-nodes) — l'infrastruttura lightwalletd su cui si basano i portafogli light.
 - [Chiavi di visualizzazione](/zcash-tech/viewing-keys) — le chiavi che i portafogli usano per rilevare e decrittare le proprie note.
-- [Pepper Sync](/zcash-tech/pepper-sync) — un altro approccio alla sincronizzazione dei portafogli Zcash.
+- [Pepper Sync](/zcash-tech/pepper-sync) — un altro approccio alla sincronizzazione dei portafogli di Zcash.
 - [FROST](/zcash-tech/frost) — autorità di firma distribuita per ZEC schermati.

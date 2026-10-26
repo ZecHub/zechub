@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edihttps://github.com/ZecHub/zechub/pull/2238t Page"/>
 </a>
 
-# Instrada il traffico del portafoglio Zcash attraverso la mixnet di Nym
+# Instrada il traffico del portafoglio di Zcash attraverso la mixnet di Nym
 
 > Ultima verifica: 29 settembre 2026
 
@@ -58,7 +58,7 @@ Fonti:
 
 Nym segnala che **Zkool** ora supporta la connessione all'infrastruttura RPC di Zcash tramite la mixnet di Nym usando un'opzione nativa.
 
-Zkool è il successore gestito attivamente di YWallet. Il suo progetto supporta anche il proxy di Tor e i servizi onion per le connessioni al server Zcash.
+Zkool è il successore gestito attivamente di YWallet. Il suo progetto supporta anche il proxy di Tor e i servizi onion per le connessioni al server di Zcash.
 
 Preferisci l'opzione nativa di Zkool Nym invece di tentare di forzare una vecchia build di YWallet attraverso un percorso proxy non documentato.
 
@@ -155,7 +155,7 @@ Non pubblicare screenshot contenenti indirizzi del portafoglio, saldi, ID delle 
 
 NymVPN offre anche una modalità proxy per app e portafogli che utilizza l'instradamento SOCKS5 / RPC attraverso la mixnet.
 
-La documentazione pubblica di configurazione di Nym illustra questo principalmente con una configurazione RPC in stile Ethereum. È utile per software che supporta esplicitamente un percorso proxy/RPC generico compatibile, ma **non** si deve presumere che funzioni con ogni portafoglio Zcash.
+La documentazione pubblica di configurazione di Nym illustra questo principalmente con una configurazione RPC in stile Ethereum. È utile per software che supporta esplicitamente un percorso proxy/RPC generico compatibile, ma **non** si deve presumere che funzioni con ogni portafoglio di Zcash.
 
 Usa questo percorso solo quando la documentazione del portafoglio stesso conferma il supporto proxy o RPC compatibile.
 
@@ -206,7 +206,7 @@ Prima di fare affidamento sulla configurazione, chiediti:
 
 ## Fonti
 
-- Nym: la mixnet di Nym è ora attiva nei portafogli Zcash, 24 settembre 2026: https://nym.com/blog/nym-mixnet-zcash-wallets
+- Nym: la mixnet di Nym è ora attiva nei portafogli di Zcash, 24 settembre 2026: https://nym.com/blog/nym-mixnet-zcash-wallets
 - Comportamento di Zingo PC Nym: https://github.com/zingolabs/zingo-pc#the-nym-mixnet
 - Trasporto Nym di Zingo Mobile: https://github.com/zingolabs/zingo-mobile
 - Repository di Zkool: https://github.com/hhanh00/zkool2
