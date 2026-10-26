@@ -175,4 +175,4 @@ ShapeShift 与 Zcash 的集成代表了去中心化金融隐私向前迈出的�
 
 [ShapeShift 发布 v4.0，重新将隐私与自托管置于 DeFi 核心（Invezz）](https://invezz.com/news/2025/12/18/shapeshift-unveils-version-4-0-re-centering-privacy-and-self-custody-in-defi/)
 
-[ShapeShift 推出对屏蔽 Zcash 交易的支持，实现真正隐私（CoinTelegraph）](https://cointelegraph.com/news/shapeshift-rolls-out-support-for-shielded-zcash-transactions-for-true-privacy)
+[ShapeShift 推出对屏蔽 Zcash 交易的支持，实现真正隐私（Cointelegraph）](https://cointelegraph.com/news/shapeshift-rolls-out-support-for-shielded-zcash-transactions-for-true-privacy)

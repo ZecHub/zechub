@@ -102,7 +102,7 @@ Estas são plataformas de exemplo que permitem o acesso a dados da Rede Zcash:
 
 [Zcash Explorador de Blocos](https://mainnet.zcashexplorer.app)
 
-[Coinmetrics](https://docs.coinmetrics.io/info/assets/zec)
+[Coin Metrics](https://docs.coinmetrics.io/info/assets/zec)
 
 Também pode contribuir para o desenvolvimento da rede executando testes ou propondo novas melhorias e fornecendo métricas.
 

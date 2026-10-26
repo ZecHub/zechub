@@ -15,17 +15,17 @@ Vengono inoltre monitorate le tendenze passate di ZEC e confrontate con altre pr
 La tecnologia blockchain funziona in modo innovativo e le operazioni nelle criptovalute portano a un'esperienza piuttosto significativa. Da come avvengono le transazioni a come causano cambiamenti significativi nel comportamento e nel sentiment del mercato, le interessanti dinamiche del mercato possono essere studiate; con guadagni e perdite vissuti in prima persona. 
 
 Le prime metriche on-chain di attività rappresentano una delle attività più precoci e potenti che rivela la direzione e il movimento del mercato, nonché l'attività degli investitori e i possibili cambiamenti che si verificheranno nel prossimo futuro nel mondo cripto. Inoltre, se rilevati per tempo, questi segnali possono aiutare gli investitori ad accedere al profitto, in particolare se combinati con fattori off-chain come l'analisi del sentiment sui social media. 
-Secondo la Messari ZEC Dashboard, CoinMetrics e Blockchair, l'analisi dell'attività di rete di ZEC fornisce informazioni concrete su se i grandi movimenti delle whale corrispondano a picchi di attività social come il volume di tweet e un più ampio interesse online. In particolare, i grafici di Messari rivelano un netto aumento del volume giornaliero delle transazioni on-chain e degli afflussi verso gli exchange durante il periodo dal 1 al 22 luglio 2025, con un picco intorno al 22 luglio; coincidente con un elevato chiacchiericcio social e movimento del prezzo .
+Secondo la Messari ZEC Dashboard, Coin Metrics e Blockchair, l'analisi dell'attività di rete di ZEC fornisce informazioni concrete su se i grandi movimenti delle whale corrispondano a picchi di attività social come il volume di tweet e un più ampio interesse online. In particolare, i grafici di Messari rivelano un netto aumento del volume giornaliero delle transazioni on-chain e degli afflussi verso gli exchange durante il periodo dal 1 al 22 luglio 2025, con un picco intorno al 22 luglio; coincidente con un elevato chiacchiericcio social e movimento del prezzo .
 I dati di Blockchair mostrano che la quota di ZEC detenuta in indirizzi schermati è salita da circa il 18% al 20% durante la stessa finestra, indicando un crescente utilizzo di transazioni che tutelano la privacy.  (Vedi Figura 1)
 
 # Figura 1. Quota di ZEC detenuta in indirizzi schermati - luglio 2025
 (Fonte: Blockchair (2025). Percentuale di ZEC nelle pool schermate per il 1-22 luglio 2025.)
 
-Inoltre, le serie pubbliche di rete di CoinMetrics confermano che sia gli indirizzi attivi giornalieri sia le metriche della quantità di ZEC nelle pool schermate hanno avuto un trend al rialzo a metà luglio, permettendo confronti quantitativi tra il comportamento on-chain e gli indicatori social.  (Vedi Figura 2)
+Inoltre, le serie pubbliche di rete di Coin Metrics confermano che sia gli indirizzi attivi giornalieri sia le metriche della quantità di ZEC nelle pool schermate hanno avuto un trend al rialzo a metà luglio, permettendo confronti quantitativi tra il comportamento on-chain e gli indicatori social.  (Vedi Figura 2)
 
 
 # Figura 2. Indirizzi attivi giornalieri e quantità di ZEC nelle pool schermate - metà luglio 2025
-(Fonte: CoinMetrics (2025). Indirizzi attivi giornalieri per il 1-22 luglio 2025.)
+(Fonte: Coin Metrics (2025). Indirizzi attivi giornalieri per il 1-22 luglio 2025.)
 
 Tutti questi dati mostrano il movimento delle monete, l'adozione della privacy e il coinvolgimento degli utenti; il picco nei grandi volumi on-chain e negli afflussi verso gli exchange suggerisce che le whale erano attive, forse spostando fondi o preparandosi a un impatto sul mercato; l'aumento della quantità di ZEC nelle pool schermate dimostra una continua preferenza per le transazioni che migliorano la privacy, anche durante periodi di maggiore attenzione, e il crescente numero di indirizzi attivi indica che l'utilizzo della rete si stava espandendo insieme a questi movimenti delle whale e alla domanda di privacy.  (Vedi Figura 3)
 
@@ -37,11 +37,11 @@ Tutti questi dati mostrano il movimento delle monete, l'adozione della privacy e
 
 Zcash è una delle criptovalute sviluppate pensando alla privacy degli utenti, che usa prove a conoscenza zero (zk-SNARKs) ed è derivata dal codice di Bitcoin come fork; gli utenti possono ora effettuare sia transazioni trasparenti che schermate. Sebbene l'obiettivo sia aiutare a proteggere la privacy degli utenti, averne troppa rende più difficile monitorare i segnali che possono rendere il trading e gli investimenti molto più facili. Non è tuttavia impossibile.  
 
-A differenza di Monero e DASH, che vengono spesso raggruppate come “privacy coin”, DASH si è ufficialmente allontanata dalla classificazione di privacy coin a seguito di cambiamenti nelle funzionalità e dell'evoluzione delle definizioni normative (CoinTelegraph, 2024) . ZEC affronta ancora concorrenza e scrutinio, ma il suo momentum può essere misurato attraverso l'attività on-chain, la correlazione con i movimenti delle whale, il volume di tweet e il coinvolgimento della rete senza affidarsi unicamente alla speculazione sul prezzo.
+A differenza di Monero e DASH, che vengono spesso raggruppate come “privacy coin”, DASH si è ufficialmente allontanata dalla classificazione di privacy coin a seguito di cambiamenti nelle funzionalità e dell'evoluzione delle definizioni normative (Cointelegraph, 2024) . ZEC affronta ancora concorrenza e scrutinio, ma il suo momentum può essere misurato attraverso l'attività on-chain, la correlazione con i movimenti delle whale, il volume di tweet e il coinvolgimento della rete senza affidarsi unicamente alla speculazione sul prezzo.
 
 L'attività on-chain si riferisce a tutte le interazioni che avvengono direttamente su una blockchain, come i trasferimenti da portafoglio a portafoglio, gli scambi di token, le interazioni con gli smart contract, i depositi e i prelievi dagli exchange, il minting o i trasferimenti di NFT e gli eventi di staking/sblocco. I pattern di comportamento dei principali attori, in particolare whale, cluster retail, sviluppatori o portafogli istituzionali, possono essere dedotti quando questi dati vengono analizzati e consentono di comprendere appieno come interagiscano nel determinare il mercato.
 
-Secondo la Messari ZEC Dashboard (Messari), tra il 1 e il 22 luglio 2025, ci sono state 12 transazioni superiori a 1.000 ZEC, la più grande pari a 5.200 ZEC (CoinMetrics, 2025). Questi volumi di ZEC limitati sono stati accompagnati da una notevole attività di afflusso verso gli exchange, suggerendo una potenziale attività di sell-off o di riorganizzazione del portafoglio.
+Secondo la Messari ZEC Dashboard (Messari), tra il 1 e il 22 luglio 2025, ci sono state 12 transazioni superiori a 1.000 ZEC, la più grande pari a 5.200 ZEC (Coin Metrics, 2025). Questi volumi di ZEC limitati sono stati accompagnati da una notevole attività di afflusso verso gli exchange, suggerendo una potenziale attività di sell-off o di riorganizzazione del portafoglio.
 
 Allo stesso tempo, le transazioni schermate, una parte essenziale del framework di privacy di Zcash, vedevano ancora un'adozione significativa. Entro luglio, circa il 20% dell'offerta totale di ZEC era in indirizzi schermati. (Blockchair 2025) (vedi Figura 4) 
 
@@ -95,8 +95,8 @@ Zcash potrebbe non vantare una comunità grande come quella di Monero o un'ampia
 
 # Riferimenti
 - Blockchair. (2025). Zcash shielded transactions data. https://blockchair.com/zcash/charts/shielded-supply
-- CoinMetrics. (2025). Zcash network data metrics. https://coinmetrics.io/
-- CoinTelegraph. (2024). Dash is no longer a privacy coin under evolving regulations. https://cointelegraph.com/news/dash-no-longer-privacy-coin
+- Coin Metrics. (2025). Zcash network data metrics. https://coinmetrics.io/
+- Cointelegraph. (2024). Dash is no longer a privacy coin under evolving regulations. https://cointelegraph.com/news/dash-no-longer-privacy-coin
 - Electric Coin Company. (2025). Zcash 6.2.0 release notes. https://electriccoin.co/blog/
 - Messari. (2025). Messari ZEC dashboard. https://messari.io/asset/zcash
 - Shawn; Lead moderator Zcash Community Forum. (2025). 

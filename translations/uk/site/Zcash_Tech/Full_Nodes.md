@@ -102,7 +102,7 @@ DNS-сідери надають список інших надійних вуз�
 
 [Zcash Оглядач блоків](https://mainnet.zcashexplorer.app)
 
-[Coinmetrics](https://docs.coinmetrics.io/info/assets/zec)
+[Coin Metrics](https://docs.coinmetrics.io/info/assets/zec)
 
 Ви також можете сприяти розвитку мережі, запускаючи тести, пропонуючи нові покращення та надаючи метрики.
 

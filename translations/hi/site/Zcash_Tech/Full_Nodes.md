@@ -102,7 +102,7 @@ DNS seeders एक built-in server के माध्यम से अन्य
 
 [Zcash ब्लॉक एक्सप्लोरर](https://mainnet.zcashexplorer.app)
 
-[Coinmetrics](https://docs.coinmetrics.io/info/assets/zec)
+[Coin Metrics](https://docs.coinmetrics.io/info/assets/zec)
 
 आप tests चलाकर या नए सुधार प्रस्तावित करके एवं metrics उपलब्ध कराकर भी network के विकास में योगदान दे सकते हैं।
 

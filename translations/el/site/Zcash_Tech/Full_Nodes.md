@@ -102,7 +102,7 @@
 
 [Zcash Block Explorer](https://mainnet.zcashexplorer.app)
 
-[Coinmetrics](https://docs.coinmetrics.io/info/assets/zec)
+[Coin Metrics](https://docs.coinmetrics.io/info/assets/zec)
 
 Μπορείς επίσης να συμβάλεις στην ανάπτυξη του δικτύου εκτελώντας δοκιμές ή προτείνοντας νέες βελτιώσεις και παρέχοντας μετρήσεις.
 

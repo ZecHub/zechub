@@ -175,4 +175,4 @@
 
 [Το ShapeShift παρουσιάζει την έκδοση v4.0, επαναφέροντας την ιδιωτικότητα και την αυτοδιαχείριση κεφαλαίων στο επίκεντρο του DeFi (Invezz)](https://invezz.com/news/2025/12/18/shapeshift-unveils-version-4-0-re-centering-privacy-and-self-custody-in-defi/)
 
-[Το ShapeShift κυκλοφορεί υποστήριξη για θωρακισμένες συναλλαγές Zcash (CoinTelegraph)](https://cointelegraph.com/news/shapeshift-rolls-out-support-for-shielded-zcash-transactions-for-true-privacy)
+[Το ShapeShift κυκλοφορεί υποστήριξη για θωρακισμένες συναλλαγές Zcash (Cointelegraph)](https://cointelegraph.com/news/shapeshift-rolls-out-support-for-shielded-zcash-transactions-for-true-privacy)
