@@ -31,7 +31,7 @@ All these data show coin movement, privacy adoption and user engagement; the spi
 
 
 # Mchoro 3. sehemu ya ZEC uliofanyika katika anwani Shielded - Julai 2025
-(Chanzo: Zechub (2025).
+(Chanzo: ZecHub (2025).
 
 ### Zcash kama sarafu ya faragha
 
@@ -73,7 +73,7 @@ Looking at Community, Adoption, and Development, the Zcash Community Hub highlig
 (Chanzo: Shawn; Kiongozi wa Mkutano wa Jumuiya ya Zcash (2025). Chati inayofunika Aprili 9 hadi Mei 9, 2025.)
 
 Community, Adoption, and Development in which the Zcash Community Hub showcased growing grassroots enthusiasm. On the adoption front, merchant integration remains limited but notable. Although usage among global merchants is low, estimated at 120, the integration of ZEC into the Brave Wallet and the zk-proof experiment in Google Wallet in April and May 2025 respectively, boosted exposure. 
-The Electric Coin Company and Zcash Foundation's work showcased in the second quarter of 2025 demonstrated sustained activity. Over 350 Github commits revealed significant collaboration on important infrastructure projects like the Zedrab codebase and Zallet wallet, showcasing the Zcash ecosystem's active technical community and charts of contributors as well.
+The Electric Coin Company and Zcash Foundation's work showcased in the second quarter of 2025 demonstrated sustained activity. Over 350 GitHub commits revealed significant collaboration on important infrastructure projects like the Zedrab codebase and Zallet wallet, showcasing the Zcash ecosystem's active technical community and charts of contributors as well.
 
 
 To really analyze Zcash's current dynamics, it is best to examine the user's viewpoint over time and compare Zcash's historical context with other privacy coins. This analysis will declare ZEC's historical price movements, like the market high from 2017 and the block halving event of 2020, and comparison of on-chain and social indicators with Monero (XMR) and DASH (DASH) (ex., transaction volume, market cap rank, and social activity). 
@@ -103,5 +103,5 @@ Zcash may not boast of a community as large as Monero or an extensive merchant b
 - X Uchambuzi wa Mtazamo wa Jukwaa. (2025, Julai). seti ya data ya ndani. 
 - Zcash Jumuiya Hub. (2025). Jumuiya updates na ushiriki takwimu. https://z.cash
 - Zcash Foundation. (2025). Zashi 2.0 mfuko wa fedha kutolewa. https://zcashfoundation.org/blog/
-- Zechub. (2025). Chati ya dashibodi ya Zechubu.
+- ZecHub. (2025). Chati ya dashibodi ya ZecHub.
 

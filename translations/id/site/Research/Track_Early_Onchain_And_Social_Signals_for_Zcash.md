@@ -31,7 +31,7 @@ Semua data ini menunjukkan pergerakan koin, adopsi privasi, dan keterlibatan pen
 
 
 # Gambar 3. Pangsa ZEC yang disimpan dalam Alamat Terlindungi - Juli 2025
-(Sumber: Zechub (2025). Grafik dashboard Zechub untuk 2016- 2025)
+(Sumber: ZecHub (2025). Grafik dashboard ZecHub untuk 2016- 2025)
 
 ### Zcash sebagai koin privasi
 
@@ -73,7 +73,7 @@ Melihat dari sisi Komunitas, Adopsi, dan Pengembangan, Zcash Community Hub menyo
 (Sumber : Shawn; Moderator utama Forum Komunitas Zcash (2025). Grafik mencakup 9 April hingga 9 Mei 2025. )
 
 Komunitas, Adopsi, dan Pengembangan di mana Zcash Community Hub menunjukkan antusiasme akar rumput yang terus berkembang. Dari sisi adopsi, integrasi merchant tetap terbatas namun patut dicatat. Meskipun penggunaan di antara merchant global rendah, diperkirakan sebesar 120, integrasi ZEC ke dalam Brave Wallet dan eksperimen zk-proof di Google Wallet masing-masing pada bulan April dan Mei 2025 telah meningkatkan eksposur.
-Pekerjaan dari Electric Coin Company dan Zcash Foundation yang ditampilkan pada kuartal kedua tahun 2025 menunjukkan aktivitas yang berkelanjutan. Lebih dari 350 commit Github mengungkapkan kolaborasi signifikan pada proyek infrastruktur penting seperti codebase Zedrab dan dompet Zallet, yang juga menampilkan komunitas teknis aktif dari ekosistem Zcash serta grafik kontributor.
+Pekerjaan dari Electric Coin Company dan Zcash Foundation yang ditampilkan pada kuartal kedua tahun 2025 menunjukkan aktivitas yang berkelanjutan. Lebih dari 350 commit GitHub mengungkapkan kolaborasi signifikan pada proyek infrastruktur penting seperti codebase Zedrab dan dompet Zallet, yang juga menampilkan komunitas teknis aktif dari ekosistem Zcash serta grafik kontributor.
 
 
 Untuk benar-benar menganalisis dinamika terkini dari Zcash, cara terbaik adalah dengan memeriksa sudut pandang pengguna dari waktu ke waktu dan membandingkan konteks historis Zcash dengan koin privasi lainnya. Analisis ini akan memaparkan pergerakan harga historis ZEC, seperti titik tertinggi pasar dari tahun 2017 dan peristiwa block halving tahun 2020, serta perbandingan indikator on-chain dan sosial dengan Monero (XMR) dan DASH (DASH) (misalnya, volume transaksi, peringkat market cap, dan aktivitas sosial). 
@@ -103,5 +103,5 @@ Zcash mungkin belum dapat membanggakan komunitas sebesar Monero atau basis merch
 - Analisis Sentimen Platform X. (2025, Juli). Dataset internal. 
 - Hub Komunitas Zcash. (2025). Pembaruan komunitas dan statistik keterlibatan. https://z.cash
 - Zcash Foundation. (2025). Rilis dompet Zashi 2.0. https://zcashfoundation.org/blog/
-- Zechub. (2025). Bagan dashboard Zechub.
+- ZecHub. (2025). Bagan dashboard ZecHub.
 

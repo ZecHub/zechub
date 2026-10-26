@@ -31,7 +31,7 @@ All these data show coin movement, privacy adoption and user engagement; the spi
 
 
 # Ihe osise 3. òkè nke ZEC ejidere na Shielded Address - July 2025
-(Isi mmalite: Zechub (2025).
+(Isi mmalite: ZecHub (2025).
 
 ### Zcash dị ka mkpụrụ ego nzuzo
 
@@ -73,7 +73,7 @@ Looking at Community, Adoption, and Development, the Zcash Community Hub highlig
 (Isi mmalite: Shawn; Onye na-eduzi Zcash Community Forum (2025). Ihe osise nke 9 Eprel ruo May 9, 2025.)
 
 Community, Adoption, and Development in which the Zcash Community Hub showcased growing grassroots enthusiasm. On the adoption front, merchant integration remains limited but notable. Although usage among global merchants is low, estimated at 120, the integration of ZEC into the Brave Wallet and the zk-proof experiment in Google Wallet in April and May 2025 respectively, boosted exposure. 
-The Electric Coin Company and Zcash Foundation's work showcased in the second quarter of 2025 demonstrated sustained activity. Over 350 Github commits revealed significant collaboration on important infrastructure projects like the Zedrab codebase and Zallet wallet, showcasing the Zcash ecosystem's active technical community and charts of contributors as well.
+The Electric Coin Company and Zcash Foundation's work showcased in the second quarter of 2025 demonstrated sustained activity. Over 350 GitHub commits revealed significant collaboration on important infrastructure projects like the Zedrab codebase and Zallet wallet, showcasing the Zcash ecosystem's active technical community and charts of contributors as well.
 
 
 To really analyze Zcash's current dynamics, it is best to examine the user's viewpoint over time and compare Zcash's historical context with other privacy coins. This analysis will declare ZEC's historical price movements, like the market high from 2017 and the block halving event of 2020, and comparison of on-chain and social indicators with Monero (XMR) and DASH (DASH) (ex., transaction volume, market cap rank, and social activity). 
@@ -103,5 +103,5 @@ Zcash may not boast of a community as large as Monero or an extensive merchant b
 - X Nchịkọta Mmetụta nke Platform. (2025, July). 
 - Zcash Community Hub. (2025). Mmelite obodo na ọnụ ọgụgụ njikọ aka. https://z.cash
 - Zcash Foundation. (2025). Mwepụta obere akpa Zashi 2.0. https://zcashfoundation.org/blog/
-- Zechub. (2025).
+- ZecHub. (2025).
 

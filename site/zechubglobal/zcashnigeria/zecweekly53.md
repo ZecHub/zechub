@@ -6,7 +6,7 @@ Zcon4 bẹrẹ, Siṣan ifiwe Oro Itara ati diẹ ninu awọn oro Agbegbe lakoko
 Abojuto lati Odo Papeles a Color"(@lexaleth) ati Itumọ si ede Yoruba nipasẹ "Hardaeborla" ([Hardaeborla](https://twitter.com/ayanlajaadebola))
 
 ### EKaabo si ZecWeekly
-O jẹ igbadun lati pin iwe iroyin miiran ti o kun fun awọn iroyin to dara ati awọn ilọsiwaju ti ilolupo Zcash ati agbara iyalẹnu ti agbegbe. Lara awọn aaye lati ṣe afihan ni ijira lati Zechub si Cosmos ati ayẹyẹ ti Zcon4!
+O jẹ igbadun lati pin iwe iroyin miiran ti o kun fun awọn iroyin to dara ati awọn ilọsiwaju ti ilolupo Zcash ati agbara iyalẹnu ti agbegbe. Lara awọn aaye lati ṣe afihan ni ijira lati ZecHub si Cosmos ati ayẹyẹ ti Zcon4!
 
 
 
@@ -45,7 +45,7 @@ Pẹlu ijira ti ZecHub si ilolupo  ⚛️cosmos ati ifihan ti awọn igbero ṣi
 [Akopọ ti ZFAVClub on Zcon4](https://twitter.com/ZcashFoundation/status/1683884286863110148) 
 
 
-[Zechub NFT lati wọle si 📰Magazine tuntun!](https://twitter.com/ZecHub/status/1684632760172851201) 
+[ZecHub NFT lati wọle si 📰Magazine tuntun!](https://twitter.com/ZecHub/status/1684632760172851201) 
 
 [Imọ Nipa Manta Network - ZcashEsp](https://twitter.com/zcashesp/status/1683541497940000768) 
 

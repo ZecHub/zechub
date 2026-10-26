@@ -31,7 +31,7 @@ Todos esses dados mostram movimentação de moedas, adoção de privacidade e en
 
 
 # Figura 3. Parcela de ZEC mantida em Endereço Blindado - Julho de 2025
-(Fonte: Zechub (2025). Gráfico do dashboard Zechub para 2016- 2025)
+(Fonte: ZecHub (2025). Gráfico do dashboard ZecHub para 2016- 2025)
 
 ### Zcash como moeda de privacidade
 
@@ -73,7 +73,7 @@ Ao observar Comunidade, Adoção e Desenvolvimento, o Zcash Community Hub destac
 (Fonte : Shawn; moderador principal do Fórum da Comunidade Zcash (2025). Gráfico cobrindo 9 de abril a 9 de maio de 2025.)
 
 Comunidade, Adoção e Desenvolvimento, nos quais o Zcash Community Hub apresentou crescente entusiasmo de base. Na frente de adoção, a integração com comerciantes continua limitada, mas digna de nota. Embora o uso entre comerciantes globais seja baixo, estimado em 120, a integração do ZEC ao Brave Wallet e o experimento de prova zk no Google Wallet em abril e maio de 2025, respectivamente, ampliaram a exposição. 
-O trabalho da Electric Coin Company e da Zcash Foundation apresentado no segundo trimestre de 2025 demonstrou atividade sustentada. Mais de 350 commits no Github revelaram colaboração significativa em importantes projetos de infraestrutura, como a base de código do Zedrab e a carteira Zallet, demonstrando a comunidade técnica ativa do ecossistema Zcash e também gráficos de contribuidores.
+O trabalho da Electric Coin Company e da Zcash Foundation apresentado no segundo trimestre de 2025 demonstrou atividade sustentada. Mais de 350 commits no GitHub revelaram colaboração significativa em importantes projetos de infraestrutura, como a base de código do Zedrab e a carteira Zallet, demonstrando a comunidade técnica ativa do ecossistema Zcash e também gráficos de contribuidores.
 
 
 Para realmente analisar a dinâmica atual do Zcash, é melhor examinar o ponto de vista do usuário ao longo do tempo e comparar o contexto histórico do Zcash com outras moedas de privacidade. Essa análise apresentará os movimentos históricos de preço do ZEC, como o pico de mercado de 2017 e o evento de halving de bloco de 2020, além da comparação de indicadores on-chain e sociais com Monero (XMR) e DASH (DASH) (por exemplo, volume de transações, posição por capitalização de mercado e atividade social). 
@@ -103,4 +103,4 @@ Zcash talvez ainda não conte com uma comunidade tão grande quanto a do Monero 
 - Análise de Sentimento da Plataforma X. (2025, julho). Conjunto de dados interno. 
 - Zcash Community Hub. (2025). Atualizações da comunidade e estatísticas de engajamento. https://z.cash
 - Zcash Foundation. (2025). Lançamento da carteira Zashi 2.0. https://zcashfoundation.org/blog/
-- Zechub. (2025).  Gráfico do dashboard Zechub.
+- ZecHub. (2025).  Gráfico do dashboard ZecHub.

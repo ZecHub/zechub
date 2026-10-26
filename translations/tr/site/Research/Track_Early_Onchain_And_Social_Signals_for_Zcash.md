@@ -31,7 +31,7 @@ Tüm bu veriler coin hareketini, gizlilik benimsenmesini ve kullanıcı etkileş
 
 
 # Şekil 3. Korumalı Adreslerde Tutulan ZEC Payı - Temmuz 2025
-(Kaynak: Zechub (2025). Zechub dashboard chart for 2016- 2025)
+(Kaynak: ZecHub (2025). ZecHub dashboard chart for 2016- 2025)
 
 ### Bir gizlilik coin’i olarak Zcash
 
@@ -73,7 +73,7 @@ Topluluk, Benimsenme ve Geliştirme tarafına bakıldığında, Zcash Community 
 (Kaynak : Shawn; Lead moderator Zcash Community Forum (2025). 9 Nisan - 9 Mayıs 2025 dönemini kapsayan grafik. )
 
 Zcash Community Hub’ın büyüyen taban desteğini sergilediği Topluluk, Benimsenme ve Geliştirme alanlarında gelişmeler görüldü. Benimsenme cephesinde, tüccar entegrasyonu hâlâ sınırlı ancak dikkate değerdir. Küresel tüccarlar arasındaki kullanımın düşük olduğu, yaklaşık 120 olarak tahmin edildiği görülse de, ZEC’in Brave Wallet’a entegrasyonu ve sırasıyla Nisan ve Mayıs 2025’te Google Wallet’taki zk-proof deneyi görünürlüğü artırdı. 
-Electric Coin Company ve Zcash Foundation’ın 2025’in ikinci çeyreğinde sergilenen çalışmaları, sürdürülen faaliyeti ortaya koydu. 350’den fazla Github commit’i, Zedrab kod tabanı ve Zallet cüzdanı gibi önemli altyapı projelerinde kayda değer iş birliğini gösterdi; ayrıca Zcash ekosisteminin aktif teknik topluluğunu ve katkı sağlayanların grafiklerini de ortaya koydu.
+Electric Coin Company ve Zcash Foundation’ın 2025’in ikinci çeyreğinde sergilenen çalışmaları, sürdürülen faaliyeti ortaya koydu. 350’den fazla GitHub commit’i, Zedrab kod tabanı ve Zallet cüzdanı gibi önemli altyapı projelerinde kayda değer iş birliğini gösterdi; ayrıca Zcash ekosisteminin aktif teknik topluluğunu ve katkı sağlayanların grafiklerini de ortaya koydu.
 
 
 Zcash’in mevcut dinamiklerini gerçekten analiz etmek için, zaman içinde kullanıcının bakış açısını incelemek ve Zcash’in tarihsel bağlamını diğer gizlilik coin’leri ile karşılaştırmak en iyisidir. Bu analiz, 2017’deki piyasa zirvesi ve 2020 blok halving olayı gibi ZEC’in tarihsel fiyat hareketlerini ve Monero (XMR) ile DASH (DASH) ile on-chain ve sosyal göstergelerin karşılaştırmasını (ör. işlem hacmi, piyasa değeri sıralaması ve sosyal faaliyet) ortaya koyacaktır. 
@@ -103,4 +103,4 @@ Zcash henüz Monero kadar büyük bir topluluğa ya da geniş bir tüccar taban�
 - X Platform Duyarlılık Analizi. (2025, Temmuz). İç veri kümesi. 
 - Zcash Community Hub. (2025). Topluluk güncellemeleri ve etkileşim istatistikleri. https://z.cash
 - Zcash Foundation. (2025). Zashi 2.0 cüzdan sürümü. https://zcashfoundation.org/blog/
-- Zechub. (2025).  Zechub dashboard grafiği.
+- ZecHub. (2025).  ZecHub dashboard grafiği.

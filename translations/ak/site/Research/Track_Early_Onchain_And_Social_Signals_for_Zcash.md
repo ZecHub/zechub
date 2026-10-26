@@ -31,7 +31,7 @@ Saa data yi nyinaa kyerɛ sika a wɔde tu kwan, kokoamsɛm a wɔfa ne wɔn a wɔ
 
 
 # Mfonini 3. ZEC kyɛfa a ɛwɔ Shielded Address - July 2025
-(Fibea: Zechub (2025). Zechub dashboard nhyehyeɛ a ɛfa afe 2016- 2025 ho)
+(Fibea: ZecHub (2025). ZecHub dashboard nhyehyeɛ a ɛfa afe 2016- 2025 ho)
 
 ### Zcash sɛ kokoam sika a wɔde sie
 
@@ -73,7 +73,7 @@ Sɛ yɛhwɛ Community, Adoption, ne Development a, Zcash Community Hub sii anigy
 (Fibea : Shawn; Ɔhwɛfoɔ panyin Zcash Community Forum (2025). Nhyehyɛeɛ a ɛfa April 9 kɔsi May 9, 2025. )
 
 Community, Adoption, and Development a Zcash Community Hub no daa anigyeɛ a ɛrenya nkɔsoɔ adi wɔ famfoɔ mu. Wɔ mmofra a wɔfa wɔn sɛ wɔn mma no fam no, aguadifo a wɔde wɔn bɛka abom no da so ara yɛ kakraa bi nanso ɛda nsow. Ɛwom sɛ dwumadie a ɛwɔ wiase nyinaa aguadifoɔ mu no sua, wɔbu akontaa sɛ ɛyɛ 120 deɛ, nanso ZEC a wɔde kaa Brave Wallet no ho ne zk-proof sɔhwɛ a wɔyɛeɛ wɔ Google Wallet mu wɔ April ne May 2025 mu no maa wɔn a wɔda wɔn ho adi no yɛɛ kɛseɛ. 
-Electric Coin Company ne Zcash Foundation adwuma a wɔdaa no adi wɔ afe 2025 bosome mmiɛnsa a ɛtɔ so mmienu no daa dwumadie a ɛkɔ so daa adi. Over 350 Github commits revealed significant collaboration on important infrastructure projects like the Zedrab codebase and Zallet wallet, showcasing the Zcash ecosystem's active technical community and charts of contributors as well.
+Electric Coin Company ne Zcash Foundation adwuma a wɔdaa no adi wɔ afe 2025 bosome mmiɛnsa a ɛtɔ so mmienu no daa dwumadie a ɛkɔ so daa adi. Over 350 GitHub commits revealed significant collaboration on important infrastructure projects like the Zedrab codebase and Zallet wallet, showcasing the Zcash ecosystem's active technical community and charts of contributors as well.
 
 
 Sɛ wobɛhwehwɛ Zcash mprempren nkɔso mu ankasa a, ɛyɛ papa sɛ wobɛhwehwɛ nea ɔde di dwuma no adwene mu wɔ bere mu na wode Zcash abakɔsɛm mu nsɛm a ɛfa ho no atoto kokoam sika afoforo ho. Saa nhwehwɛmu yi bɛpae mu ka ZEC abakɔsɛm mu boɔ a ɛkɔ soro, te sɛ gua so sorokɔ firi afe 2017 ne block halving event a ɛbaa afe 2020, ne ntotoho a ɛfa on-chain ne social indicators ne Monero (XMR) ne DASH (DASH) (ex., transaction volume, market cap rank, ne social activity). 
@@ -103,5 +103,5 @@ Ebia Zcash renhoahoa ne ho wɔ mpɔtam kɛse te sɛ Monero anaasɛ aguadifo a ɛ
 - X Platform Nkate mu Nhwehwɛmu. (2025, Ɔpɛpɔn). Dataset a ɛwɔ mu. 
 - Zcash Mpɔtam Hɔ. (2025) na ɔkyerɛwee. Mpɔtam hɔfoɔ nsɛm foforɔ ne akontabuo a ɛfa wɔn a wɔde wɔn ho hyɛ mu ho. https://z.cash
 - Zcash Foundation. (2025). Zashi 2.0 wallet release. https://zcashfoundation.org/blog/
-- Sakub. (2025) na ɔkyerɛwee.  Zechub dashboard nhyehyɛe.
+- Sakub. (2025) na ɔkyerɛwee.  ZecHub dashboard nhyehyɛe.
 
