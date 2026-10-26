@@ -102,7 +102,7 @@ DNS 시더는 내장 서버를 통해 신뢰할 수 있는 다른 노드 목록�
 
 [Zcash 블록 탐색기](https://mainnet.zcashexplorer.app)
 
-[Coinmetrics](https://docs.coinmetrics.io/info/assets/zec)
+[Coin Metrics](https://docs.coinmetrics.io/info/assets/zec)
 
 테스트를 실행하거나 새로운 개선안을 제안하고 지표를 제공하여 네트워크 개발에 기여할 수도 있습니다.
 

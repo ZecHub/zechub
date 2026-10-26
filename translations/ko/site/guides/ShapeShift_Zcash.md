@@ -175,4 +175,4 @@ ShapeShift와 Zcash 통합은 분산형 금융에서 프라이버시를 위한 �
 
 [ShapeShift, v4.0 출시로 분산형 금융에서 프라이버시와 자가 보관 중심으로 재정렬 (Invezz)](https://invezz.com/news/2025/12/18/shapeshift-unveils-version-4-0-re-centering-privacy-and-self-custody-in-defi/)
 
-[ShapeShift, 보호된 Zcash 거래 지원 출시 (CoinTelegraph)](https://cointelegraph.com/news/shapeshift-rolls-out-support-for-shielded-zcash-transactions-for-true-privacy)
+[ShapeShift, 보호된 Zcash 거래 지원 출시 (Cointelegraph)](https://cointelegraph.com/news/shapeshift-rolls-out-support-for-shielded-zcash-transactions-for-true-privacy)

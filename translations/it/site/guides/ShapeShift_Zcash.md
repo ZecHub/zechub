@@ -175,4 +175,4 @@ L'integrazione di ShapeShift e Zcash rappresenta un significativo passo avanti p
 
 [ShapeShift unveils v4.0, re-centering privacy and self-custody in DeFi (Invezz)](https://invezz.com/news/2025/12/18/shapeshift-unveils-version-4-0-re-centering-privacy-and-self-custody-in-defi/)
 
-[ShapeShift introduce il supporto per le transazioni di Zcash schermate (CoinTelegraph)](https://cointelegraph.com/news/shapeshift-rolls-out-support-for-shielded-zcash-transactions-for-true-privacy)
+[ShapeShift introduce il supporto per le transazioni di Zcash schermate (Cointelegraph)](https://cointelegraph.com/news/shapeshift-rolls-out-support-for-shielded-zcash-transactions-for-true-privacy)

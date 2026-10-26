@@ -102,7 +102,7 @@ Nípa ṣíṣiṣẹ́ gbogbo nọ́mbà kan, o ń ran lọ́wọ́ láti mú k
 
 [Olùṣàwárí Àkọsílẹ̀ Zcash](https://mainnet.zcashexplorer.app)
 
-[Àwọn Coinmetrics](https://docs.coinmetrics.io/info/assets/zec)
+[Àwọn Coin Metrics](https://docs.coinmetrics.io/info/assets/zec)
 
 O tun le ṣe alabapin si idagbasoke nẹtiwọọki naa nipa ṣiṣe awọn idanwo tabi daba awọn ilọsiwaju tuntun ati pese awọn wiwọn.
 

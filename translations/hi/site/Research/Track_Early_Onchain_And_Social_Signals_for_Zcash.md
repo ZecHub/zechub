@@ -15,17 +15,17 @@ ZEC के पिछले trends की भी निगरानी की ज
 Blockchain technology एक नवोन्मेषी तरीके से काम करती है और cryptocurrency में operations एक विशिष्ट अनुभव प्रदान करते हैं। transactions कैसे होते हैं से लेकर वे market behavior और sentiment में महत्वपूर्ण बदलाव कैसे लाते हैं, बाज़ार की इन रोचक dynamics का अध्ययन किया जा सकता है; gains और losses का अनुभव प्रत्यक्ष रूप से होता है। 
 
 activity में शुरुआती on-chain metrics उन सबसे शुरुआती गतिविधियों और शक्तिशाली metrics में से हैं जो बाज़ार की दिशा और चाल के साथ-साथ investors की गतिविधियों और crypto world में निकट भविष्य में होने वाले संभावित परिवर्तनों को उजागर करते हैं। इसके अलावा, यदि समय रहते इन signals का पता लगा लिया जाए, तो ये investors को लाभ तक पहुँचने में मदद कर सकते हैं, खासकर जब इन्हें social media sentiment analysis जैसे off-chain factors के साथ जोड़ा जाए। 
-Messari ZEC Dashboard, CoinMetrics और Blockchair के अनुसार, ZEC की network activity का विश्लेषण यह बताने योग्य insight देता है कि क्या बड़े whale movements social activity में spikes, जैसे tweet volume, और ऑनलाइन व्यापक रुचि से मेल खाते हैं। विशेष रूप से, Messari charts जुलाई 1 से 22, 2025 की अवधि के दौरान daily on-chain transaction volume और exchange inflows में स्पष्ट उछाल दिखाते हैं, जो लगभग 22 जुलाई के आसपास peak पर पहुँचा; और elevated social chatter तथा price movement के साथ मेल खाता है।
+Messari ZEC Dashboard, Coin Metrics और Blockchair के अनुसार, ZEC की network activity का विश्लेषण यह बताने योग्य insight देता है कि क्या बड़े whale movements social activity में spikes, जैसे tweet volume, और ऑनलाइन व्यापक रुचि से मेल खाते हैं। विशेष रूप से, Messari charts जुलाई 1 से 22, 2025 की अवधि के दौरान daily on-chain transaction volume और exchange inflows में स्पष्ट उछाल दिखाते हैं, जो लगभग 22 जुलाई के आसपास peak पर पहुँचा; और elevated social chatter तथा price movement के साथ मेल खाता है।
 Blockchair data दिखाता है कि shielded addresses में रखे गए ZEC का हिस्सा उसी अवधि में लगभग 18 % से बढ़कर 20 % हो गया, जो privacy-preserving transactions के बढ़ते उपयोग को दर्शाता है।  (चित्र 1 देखें)
 
 # Figure 1. Shielded Address में रखे गए ZEC का हिस्सा - जुलाई 2025
 (Source: Blockchair (2025). 1-22 जुलाई, 2025 के लिए shielded supply percentage.)
 
-इसके अतिरिक्त, CoinMetrics की public network series पुष्टि करती हैं कि daily active addresses और shielded-supply metrics दोनों ने जुलाई के मध्य में ऊपर की दिशा पकड़ी, जिससे on-chain behavior और social indicators के बीच quantitative comparisons संभव हुए।  (चित्र 2 देखें)
+इसके अतिरिक्त, Coin Metrics की public network series पुष्टि करती हैं कि daily active addresses और shielded-supply metrics दोनों ने जुलाई के मध्य में ऊपर की दिशा पकड़ी, जिससे on-chain behavior और social indicators के बीच quantitative comparisons संभव हुए।  (चित्र 2 देखें)
 
 
 # Figure 2. Zcash Daily Active Addresses और Shielded Supply - मध्य जुलाई 2025
-(Source: CoinMetrics (2025). 1-22 जुलाई, 2025 के लिए daily active addresses.)
+(Source: Coin Metrics (2025). 1-22 जुलाई, 2025 के लिए daily active addresses.)
 
 ये सभी data coin movement, privacy adoption और user engagement को दिखाते हैं; बड़े on-chain volumes और exchange inflows में spike यह संकेत देता है कि whales सक्रिय थे, संभवतः funds को स्थानांतरित कर रहे थे या market impact की तैयारी कर रहे थे; shielded-supply में वृद्धि privacy-enhanced transactions के लिए निरंतर preference को दर्शाती है, यहाँ तक कि heightened attention की अवधि में भी, और active address counts में वृद्धि यह दिखाती है कि इन whale movements और privacy demand के साथ network usage भी बढ़ रहा था।  (चित्र 3 देखें)
 
@@ -37,11 +37,11 @@ Blockchair data दिखाता है कि shielded addresses में �
 
 Zcash उन cryptocurrencies में से एक है जिन्हें user privacy को ध्यान में रखकर विकसित किया गया है, जो zero knowledge proofs (zk-SNARKs) का उपयोग करती है और Bitcoin code के fork के रूप में उससे निकली है; अब users transparent और shielded दोनों प्रकार के transactions कर सकते हैं। जबकि उद्देश्य user privacy की रक्षा करना है, इसकी अधिकता उन signals की निगरानी को कठिन बना देती है जो trading और investing को कहीं अधिक आसान बना सकते हैं। हालांकि, यह असंभव नहीं है।  
 
-Monero और DASH के विपरीत, जिन्हें अक्सर “privacy coins” के रूप में एक साथ रखा जाता है, DASH feature changes और बदलती regulatory definitions के बाद आधिकारिक रूप से privacy coin classification से दूर हो चुका है (CoinTelegraph, 2024) । ZEC अब भी competition और scrutiny का सामना करता है, लेकिन इसकी momentum को on-chain activity, whale movement correlation, tweet volume और network engagement के माध्यम से मापा जा सकता है, बिना केवल price speculation पर निर्भर हुए।
+Monero और DASH के विपरीत, जिन्हें अक्सर “privacy coins” के रूप में एक साथ रखा जाता है, DASH feature changes और बदलती regulatory definitions के बाद आधिकारिक रूप से privacy coin classification से दूर हो चुका है (Cointelegraph, 2024) । ZEC अब भी competition और scrutiny का सामना करता है, लेकिन इसकी momentum को on-chain activity, whale movement correlation, tweet volume और network engagement के माध्यम से मापा जा सकता है, बिना केवल price speculation पर निर्भर हुए।
 
 On-chain activity उन सभी interactions को संदर्भित करती है जो सीधे blockchain पर होती हैं, जैसे wallet-to-wallet transfers, token swaps, smart contract interactions, exchanges में deposits और withdrawals, NFT minting या transfers और staking/unlocking events। जब इस data का विश्लेषण किया जाता है, तो key players, विशेष रूप से whales, retail clusters, developers या institutional wallets के behavior patterns का अनुमान लगाया जा सकता है और यह पूरी तरह समझना संभव होगा कि वे बाज़ार को निर्धारित करने में कैसे संबंधित हैं।
 
-Messari ZEC Dashboard (Messari) के अनुसार, 1 जुलाई से 22 जुलाई, 2025 के बीच, 1,000 ZEC से अधिक की 12 transactions हुईं, जिनमें सबसे बड़ी 5,200 ZEC के बराबर थी (CoinMetrics, 2025)। ये capped ZEC volumes उल्लेखनीय exchange inflow activity के साथ आईं, जो संभावित sell-off या portfolio reshuffle activity का संकेत देती हैं।
+Messari ZEC Dashboard (Messari) के अनुसार, 1 जुलाई से 22 जुलाई, 2025 के बीच, 1,000 ZEC से अधिक की 12 transactions हुईं, जिनमें सबसे बड़ी 5,200 ZEC के बराबर थी (Coin Metrics, 2025)। ये capped ZEC volumes उल्लेखनीय exchange inflow activity के साथ आईं, जो संभावित sell-off या portfolio reshuffle activity का संकेत देती हैं।
 
 उसी समय, shielded transactions, जो Zcash के privacy framework का एक  essential हिस्सा हैं, अब भी सार्थक uptake देख रही थीं। जुलाई तक, कुल ZEC supply का लगभग 20% shielded addresses में था। (Blockchair 2025) (चित्र 4 देखें) 
 
@@ -95,8 +95,8 @@ Zcash भले ही अभी Monero जितनी बड़ी community �
 
 # References
 - Blockchair. (2025). Zcash shielded transactions data. https://blockchair.com/zcash/charts/shielded-supply
-- CoinMetrics. (2025). Zcash network data metrics. https://coinmetrics.io/
-- CoinTelegraph. (2024). Dash is no longer a privacy coin under evolving regulations. https://cointelegraph.com/news/dash-no-longer-privacy-coin
+- Coin Metrics. (2025). Zcash network data metrics. https://coinmetrics.io/
+- Cointelegraph. (2024). Dash is no longer a privacy coin under evolving regulations. https://cointelegraph.com/news/dash-no-longer-privacy-coin
 - Electric Coin Company. (2025). Zcash 6.2.0 release notes. https://electriccoin.co/blog/
 - Messari. (2025). Messari ZEC dashboard. https://messari.io/asset/zcash
 - Shawn; Lead moderator Zcash Community Forum. (2025). 

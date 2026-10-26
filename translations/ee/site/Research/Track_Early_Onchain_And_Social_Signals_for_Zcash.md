@@ -15,17 +15,17 @@ Woléa ŋku ɖe ZEC ƒe nɔnɔme siwo va yi hã ŋu eye wotsɔa wo sɔna kple am
 Blockchain mɔ̃ɖaŋununya wɔa dɔ le mɔ yeye nu eye dɔwɔwɔ le cryptocurrency me hea nuteƒekpɔkpɔ geɖe vɛ. Tso alesi asitsatsa dzɔnae dzi va ɖo alesi wòhea tɔtrɔ gãwo vaa asitsalawo ƒe nuwɔna kple seselelãme me dzi la, woate ŋu asrɔ̃ nu tso asitsatsa ƒe ŋusẽkpɔɖeamedzi dodzidzɔnamewo ŋu; viɖe kple nusiwo bu la nye nuteƒekpɔkpɔ gbãtɔwo. 
 
 Kɔsɔkɔsɔ ƒe xexlẽdzesi gbãtɔwo le dɔwɔna me tsi tre abe dɔwɔna gbãtɔwo dometɔ ɖeka kple xexlẽdzesi sesẽ siwo ɖea asi ƒe mɔfiame kple ʋuʋu kpakple gadelawo ƒe dɔwɔnawo kple tɔtrɔ siwo ate ŋu ava le etsɔ si gbɔna kpuie me le crypto xexeame fiana. Gawu la, ne wokpɔ dzesi siawo ɖe game dzi la, ate ŋu akpe ɖe gadelawo ŋu woakpɔ viɖe, vevietɔ ne wotsɔ wo kpe ɖe nusiwo mele kɔsɔkɔsɔ me o abe hadomenyatakakadzraɖoƒewo ƒe seselelãmewo me dzodzro ene ŋu. 
-Le Messari ZEC Dashboard, CoinMetrics kple Blockchair ƒe nya nu la, numekuku le ZEC ƒe network dɔwɔnawo ŋu naa gɔmesese si woate ŋu awɔ le nenye be tɔmelã gãwo ƒe ʋuʋu sɔ kple hadomenuwɔnawo ƒe dzidziɖedzi abe tweet ƒe agbɔsɔsɔ kple ɖetsɔleme si keke ta wu le Internet dzi ene. Etɔxɛe la, Messari ƒe nɔnɔmetatawo ɖe dzidziɖedzi si dze ƒã fia le gbesiagbe kɔsɔkɔsɔ dzi asitsatsa ƒe agbɔsɔsɔ kple asitɔtrɔ ƒe ga si va le ɣeyiɣi si tso July 1 va ɖo 22, 2025 me, eye wòɖo eƒe kɔkɔƒe le July 22 lɔƒo; si sɔ kple hadomenuƒoƒo kple asixɔxɔ ƒe ʋuʋu si dzi ɖe edzi .
+Le Messari ZEC Dashboard, Coin Metrics kple Blockchair ƒe nya nu la, numekuku le ZEC ƒe network dɔwɔnawo ŋu naa gɔmesese si woate ŋu awɔ le nenye be tɔmelã gãwo ƒe ʋuʋu sɔ kple hadomenuwɔnawo ƒe dzidziɖedzi abe tweet ƒe agbɔsɔsɔ kple ɖetsɔleme si keke ta wu le Internet dzi ene. Etɔxɛe la, Messari ƒe nɔnɔmetatawo ɖe dzidziɖedzi si dze ƒã fia le gbesiagbe kɔsɔkɔsɔ dzi asitsatsa ƒe agbɔsɔsɔ kple asitɔtrɔ ƒe ga si va le ɣeyiɣi si tso July 1 va ɖo 22, 2025 me, eye wòɖo eƒe kɔkɔƒe le July 22 lɔƒo; si sɔ kple hadomenuƒoƒo kple asixɔxɔ ƒe ʋuʋu si dzi ɖe edzi .
 Blockchair nyatakakawo ɖee fia be ZEC ƒe akpa si le adrɛs siwo wokpɔ ta na me dzi ɖe edzi tso abe 18 % va ɖo 20 % le fesre ma ke me, si fia be ame ŋutɔ ƒe nyatakakawo takpɔkpɔ ƒe asitsatsa le dzidzim ɖe edzi.  (Kpɔ Nɔnɔmetata 1 lia)
 
 # Figure 1. ZEC ƒe akpa si le Shielded Address - July 2025 me
 (Dzɔtsoƒe: Blockchair (2025). Akpoxɔnu nana ƒe alafa memamã na July 1-22, 2025.)
 
-Tsɔ kpe ɖe eŋu la, CoinMetrics dutoƒo network series ɖo kpe edzi be gbesiagbe adrɛs siwo le dɔ wɔm kple shielded-supply metrics siaa yi dzi le July ƒe domedome, si na be woate ŋu atsɔ agbɔsɔsɔme asɔ kple wo nɔewo le kɔsɔkɔsɔ me nuwɔna kple hadome dzesiwo dome.  (Kpɔ Nɔnɔmetata 2 lia)
+Tsɔ kpe ɖe eŋu la, Coin Metrics dutoƒo network series ɖo kpe edzi be gbesiagbe adrɛs siwo le dɔ wɔm kple shielded-supply metrics siaa yi dzi le July ƒe domedome, si na be woate ŋu atsɔ agbɔsɔsɔme asɔ kple wo nɔewo le kɔsɔkɔsɔ me nuwɔna kple hadome dzesiwo dome.  (Kpɔ Nɔnɔmetata 2 lia)
 
 
 # Figure 2. Zcash Gbesiagbe Adrɛs siwo le dɔ wɔm kple Shielded Supply - Mid July 2025
-(Dzɔtsoƒe: CoinMetrics (2025). Gbesiagbe adrɛs siwo le dɔ wɔm na July 1-22, 2025.)
+(Dzɔtsoƒe: Coin Metrics (2025). Gbesiagbe adrɛs siwo le dɔ wɔm na July 1-22, 2025.)
 
 Nyatakaka siawo katã ɖea gaku ƒe ʋuʋu, ame ŋutɔ ƒe nyatakakawo xɔxɔ kple ezãlawo ƒe gomekpɔkpɔ le eme fiana; agbɔsɔsɔ gã siwo le kɔsɔkɔsɔwo me ƒe dzidziɖedzi kple ga si wotsɔ ɖɔa li gae ɖee fia be tɔmelã siwo woyɔna be whale nɔ dɔ dzi, ɖewohĩ wonɔ ga ʋum alo nɔ dzadzram ɖo ɖe ŋusẽ si wòakpɔ ɖe asitsatsa dzi ŋu; shielded-supply ƒe dzidziɖedzi ɖee fia be woyi edzi lɔ̃a asitsatsa siwo ŋu ame ŋutɔ ƒe nyatakakawo nyona ɖe edzi, le ɣeyiɣi siwo me amewo ƒe susu le nu ŋu geɖe wu eye adrɛs siwo le dɔ wɔm ƒe xexlẽme si le dzidzim ɖe edzi gɔ̃ hã ɖee fia be network zazã nɔ ta kekem ɖe edzi kpe ɖe whale siawo ƒe ʋuʋu kple ame ŋutɔ ƒe nyatakakawo didi ŋu.  (Kpɔ Nɔnɔmetata 3 lia)
 
@@ -37,11 +37,11 @@ Nyatakaka siawo katã ɖea gaku ƒe ʋuʋu, ame ŋutɔ ƒe nyatakakawo xɔxɔ kp
 
 Zcash nye cryptocurrencies siwo wowɔ kple zãla ƒe adzamenyawo le susu me dometɔ ɖeka si zãa zero sidzedze kpeɖodziwo (zk-SNARKs) eye woɖee tso Bitcoin code me abe fork ene; ezãlawo ate ŋu awɔ asitsatsa siwo me kɔ kple esiwo ŋu wokpɔ ta na siaa fifia. Togbɔ be taɖodzinuae nye be woakpe asi ɖe ezãlawo ƒe nyatakakawo ta kpɔkpɔ ŋu hã la, eƒe agbɔsɔsɔ fũ nana wòsesẽna be woalé ŋku ɖe dzesi siwo ate ŋu ana asitsatsa kple gadede asi nanɔ bɔbɔe wu la ŋu. Gake menye nusi mate ŋu adzɔ o ye wònye o. 
 
-To vovo na Monero kple DASH, siwo woƒoa ƒu zi geɖe be “adzamegakuwo,” DASH ʋu le se nu tso adzame gaku ƒe hatsotsowo me le nɔnɔme ƒe tɔtrɔwo kple sedede ƒe gɔmesese siwo le tɔtrɔm megbe (CoinTelegraph, 2024) . ZEC gakpɔtɔ dze ŋgɔ hoʋiʋli kple ŋkuléle ɖe eŋu, gake woate ŋu adzidze eƒe ŋusẽ to kɔsɔkɔsɔwo ƒe dɔwɔnawo, tɔmelãwo ƒe ʋuʋu ƒe kadodo, tweet ƒe agbɔsɔsɔ, kple kadodo kple Internet dzi kadodo me evɔ womaɖo ŋu ɖe asixɔxɔ ŋuti nususugblɔ ɖeɖeko ŋu o.
+To vovo na Monero kple DASH, siwo woƒoa ƒu zi geɖe be “adzamegakuwo,” DASH ʋu le se nu tso adzame gaku ƒe hatsotsowo me le nɔnɔme ƒe tɔtrɔwo kple sedede ƒe gɔmesese siwo le tɔtrɔm megbe (Cointelegraph, 2024) . ZEC gakpɔtɔ dze ŋgɔ hoʋiʋli kple ŋkuléle ɖe eŋu, gake woate ŋu adzidze eƒe ŋusẽ to kɔsɔkɔsɔwo ƒe dɔwɔnawo, tɔmelãwo ƒe ʋuʋu ƒe kadodo, tweet ƒe agbɔsɔsɔ, kple kadodo kple Internet dzi kadodo me evɔ womaɖo ŋu ɖe asixɔxɔ ŋuti nususugblɔ ɖeɖeko ŋu o.
 
 On-chain activity fia kadodo siwo katã dzɔna tẽ le blockchain dzi, abe gakotoku ƒe asitɔtrɔ yi gakotoku me, dzesiwo ƒe asitɔtrɔ, smart contract ƒe kadodowo, gadede asi kple gaɖeɖe le asitɔtrɔwo me, NFT minting alo transfers kple staking/unlocking events. Woate ŋu aƒo nya ta le nuwɔna ƒe nɔnɔme siwo le akpa veviwo, vevietɔ tɔmelã siwo woyɔna be whale, asitsahabɔbɔwo, dɔwɔƒewo, alo dɔwɔƒewo ƒe gakotokuwo ŋu ne wole nyatakaka siawo me dzrom eye woate ŋu ase alesi wodo ƒome le asitsatsa ƒe nyametsotso me gɔme bliboe.
 
-Le Messari ZEC Dashboard (Messari) ƒe nya nu la, le July 1 kple July 22, 2025 dome la, asitsatsa 12 nɔ anyi siwo wu ZEC 1,000, gãtɔ kekeake sɔ kple ZEC 5,200 (CoinMetrics, 2025). ZEC ƒe agbɔsɔsɔ siawo siwo woɖo seɖoƒe na la kpe ɖe asitɔtrɔ ƒe gadede ƒe dɔwɔna ɖedzesi aɖe ŋu, si fia be woate ŋu adzra nu alo asitɔtrɔ le gaxɔmenu ŋu ƒe dɔwɔna.
+Le Messari ZEC Dashboard (Messari) ƒe nya nu la, le July 1 kple July 22, 2025 dome la, asitsatsa 12 nɔ anyi siwo wu ZEC 1,000, gãtɔ kekeake sɔ kple ZEC 5,200 (Coin Metrics, 2025). ZEC ƒe agbɔsɔsɔ siawo siwo woɖo seɖoƒe na la kpe ɖe asitɔtrɔ ƒe gadede ƒe dɔwɔna ɖedzesi aɖe ŋu, si fia be woate ŋu adzra nu alo asitɔtrɔ le gaxɔmenu ŋu ƒe dɔwɔna.
 
 Le ɣeyiɣi ma ke me la, asitsatsa siwo wokpɔ ta na, siwo nye Zcash ƒe ameŋunyatakakawo takpɔkpɔ ƒe ɖoɖoa ƒe akpa vevi aɖe, gakpɔtɔ nɔ ekpɔm be gɔmesese le wo ŋu. Kaka July naɖo la, ZEC ƒe nuzazãwo katã ƒe 20% lɔƒo nɔ adrɛs siwo wokpɔ ta na me. (Blockchair 2025) (kpɔ Nɔnɔmetata 4 lia) 
 
@@ -96,7 +96,7 @@ Seɖoƒe li na wo; ŋkɔmaɖemaɖe si ƒo xlã tɔmelãwo ƒe gakotoku siwo na w
 # Nusiwo ŋu woke ɖo
 - Blockchair ƒe zikpui. (ƒe 2025). Zcash kpɔ asitsatsa ŋuti nyatakakawo ta. https://blockchair.com/zcash/charts/shielded-supply
 - Gaku ƒe Metrics. (ƒe 2025). Zcash network data ƒe xexlẽdzesiwo. https://coinmetrics.io/
-- CoinTelegraph ƒe agbalẽ. (ƒe 2024). Dash meganye ameŋunyatakakawo ŋuti gaku le se siwo le tɔtrɔm nu o. https://cointelegraph.com/news/dash-no-longer-privacy-coin
+- Cointelegraph ƒe agbalẽ. (ƒe 2024). Dash meganye ameŋunyatakakawo ŋuti gaku le se siwo le tɔtrɔm nu o. https://cointelegraph.com/news/dash-no-longer-privacy-coin
 - Electric Coin Company. (2025). Zcash 6.2.0 release notes. https://electriccoin.co/blog/
 - Messari ƒe agbalẽ. (ƒe 2025). Messari ZEC ƒe ʋuƒo. https://messari.io/asset/zcash
 - Shawn, kple srɔ̃a; Zcash Community Forum ƒe ŋgɔdola. (ƒe 2025). 

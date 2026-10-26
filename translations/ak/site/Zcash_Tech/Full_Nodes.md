@@ -102,7 +102,7 @@ Eyinom yɛ nhwɛso platform ahorow a ɛma kwan ma wotumi kɔ Zcash Network data 
 
 [Zcash Block Nhwehwɛmufoɔ](https://mainnet.zcashexplorer.app)
 
-[Coinmetrics a wɔde yɛ nneɛma](https://docs.coinmetrics.io/info/assets/zec)
+[Coin Metrics a wɔde yɛ nneɛma](https://docs.coinmetrics.io/info/assets/zec)
 
 Wo nso wobɛtumi aboa ama ntwamutam no anya nkɔsoɔ denam sɔhwɛ a wobɛtu mmirika anaasɛ wobɛhyɛ nkɔsoɔ foforɔ ho nyansa & metrics a wode bɛma.
 

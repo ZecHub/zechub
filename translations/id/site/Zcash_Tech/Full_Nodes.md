@@ -102,7 +102,7 @@ Berikut adalah contoh platform yang memungkinkan akses ke data Jaringan Zcash:
 
 [Zcash Penjelajah Blok](https://mainnet.zcashexplorer.app)
 
-[Coinmetrics](https://docs.coinmetrics.io/info/assets/zec)
+[Coin Metrics](https://docs.coinmetrics.io/info/assets/zec)
 
 Anda juga dapat berkontribusi pada pengembangan jaringan dengan menjalankan pengujian atau mengusulkan peningkatan baru & menyediakan metrik.
 

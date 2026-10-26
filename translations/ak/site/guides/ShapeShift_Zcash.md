@@ -175,4 +175,4 @@ ShapeShift ne Zcash nkabom no gyina hɔ ma anammɔn a nteaseɛ wom a ɛkɔ anim 
 
 [ShapeShift da v4.0 adi, san de kokoamsɛm ne ankasa hwɛbea a ɛwɔ DeFi (Invezz) mu.](https://invezz.com/news/2025/12/18/shapeshift-unveils-version-4-0-re-centering-privacy-and-self-custody-in-defi/)
 
-[ShapeShift rolls out mmoa ma shielded Zcash nkitahodi (CoinTelegraph) .](https://cointelegraph.com/news/shapeshift-rolls-out-support-for-shielded-zcash-transactions-for-true-privacy)
+[ShapeShift rolls out mmoa ma shielded Zcash nkitahodi (Cointelegraph) .](https://cointelegraph.com/news/shapeshift-rolls-out-support-for-shielded-zcash-transactions-for-true-privacy)
