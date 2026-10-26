@@ -31,7 +31,7 @@ Nyatakaka siawo katã ɖea gaku ƒe ʋuʋu, ame ŋutɔ ƒe nyatakakawo xɔxɔ kp
 
 
 # Figure 3. ZEC ƒe akpa si le Shielded Address - July 2025 me
-(Dzɔtsoƒe: Zechub (2025). Zechub ƒe dashboard ƒe nɔnɔmetata na ƒe 2016- 2025)
+(Dzɔtsoƒe: ZecHub (2025). ZecHub ƒe dashboard ƒe nɔnɔmetata na ƒe 2016- 2025)
 
 ### Zcash abe ame ŋutɔ ƒe gaku ene
 
@@ -73,7 +73,7 @@ Ne míelé ŋku ɖe Nutoa, Vixɔxɔnyi, kple Ŋgɔyiyi ŋu la, Zcash Nutome Dɔw
 (Dzɔtsoƒe : Shawn; Zcash Community Forum (ƒe 2025) ƒe ŋgɔdola. Tabla si ƒo nu tso April 9 vaseɖe May 9, 2025. )
 
 Nutoa, Vixɔxɔnyi, kple Ŋgɔyiyi si me Zcash Nutome Dɔwɔƒea ɖe dzonɔameme si le dzidzim ɖe edzi le gbemelãwo dome fia le. Le vixɔxɔnyi gome la, asitsalawo ƒe ɖekawɔwɔ gakpɔtɔ le sue gake eɖe dzesi ŋutɔ. Togbɔ be zazã le xexeame katã ƒe asitsalawo dome le sue, wobu akɔnta be enye 120 hã la, ZEC ƒe tsɔtsɔ de Brave Wallet me kple zk-proof dodokpɔ le Google Wallet me le April kple May 2025 me, na amewo ƒe nukpɔkpɔ dzi ɖe edzi. 
-Electric Coin Company kple Zcash Foundation ƒe dɔwɔwɔ siwo woɖe fia le ƒe 2025 ƒe ɣleti ene evelia me ɖe dɔwɔwɔ si nɔa anyi ɖaa fia. Github ƒe adzɔgbeɖeɖe siwo wu 350 ɖe nuwɔwɔ aduadu vevi aɖe fia le xɔtuɖoɖo veviwo abe Zedrab codebase kple Zallet wallet ene me, si ɖe Zcash ecosystem ƒe mɔ̃ɖaŋuha si le dɔ dzi kple amesiwo kpe asi ɖe eŋu ƒe nɔnɔmetatawo hã fia.
+Electric Coin Company kple Zcash Foundation ƒe dɔwɔwɔ siwo woɖe fia le ƒe 2025 ƒe ɣleti ene evelia me ɖe dɔwɔwɔ si nɔa anyi ɖaa fia. GitHub ƒe adzɔgbeɖeɖe siwo wu 350 ɖe nuwɔwɔ aduadu vevi aɖe fia le xɔtuɖoɖo veviwo abe Zedrab codebase kple Zallet wallet ene me, si ɖe Zcash ecosystem ƒe mɔ̃ɖaŋuha si le dɔ dzi kple amesiwo kpe asi ɖe eŋu ƒe nɔnɔmetatawo hã fia.
 
 
 Be woaku Zcash ƒe fifia ƒe ŋusẽkpɔɖeamedziwo me ŋutɔŋutɔ la, anyo wu be nàlé ŋku ɖe ezãla ƒe nukpɔsusu ŋu le ɣeyiɣi aɖe megbe eye nàtsɔ Zcash ƒe ŋutinya me nyawo asɔ kple ameŋunyatakakawo ƒe gaku bubuwo. Kukuɖenuŋu sia aɖe gbeƒã ZEC ƒe ŋutinya me asixɔxɔ ƒe ʋuʋu, abe asi ƒe kɔkɔƒe tso ƒe 2017 kple block afã ƒe nudzɔdzɔ si dzɔ le ƒe 2020 me ene, kple kɔsɔkɔsɔ kple hadome dzesiwo tsɔtsɔ sɔ kple Monero (XMR) kple DASH (DASH) (ex., asitsatsa ƒe agbɔsɔsɔ, asi ƒe ɖoƒe, kple hadome dɔwɔna). 
@@ -103,5 +103,5 @@ Seɖoƒe li na wo; ŋkɔmaɖemaɖe si ƒo xlã tɔmelãwo ƒe gakotoku siwo na w
 - X Nuƒolanɔƒe ƒe Seselelãmewo Ŋuti Numekuku. (ƒe 2025, July). Nyatakakadzraɖoƒe si le ememe. 
 - Zcash Nutome Dɔwɔƒe. (ƒe 2025). Nutoa me nyatakaka yeyewo kple nuwɔwɔ aduadu ƒe akɔntabubuwo. https://z.cash
 - Zcash Foundation. (2025). Zashi 2.0 wallet release. https://zcashfoundation.org/blog/
-- Zechub. (ƒe 2025).  Zechub ƒe dashboard ƒe nɔnɔmetata.
+- ZecHub. (ƒe 2025).  ZecHub ƒe dashboard ƒe nɔnɔmetata.
 

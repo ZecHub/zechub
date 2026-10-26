@@ -31,7 +31,7 @@ Blockchair 数据显示，在同一时间窗口内，存放于屏蔽地址中的
 
 
 # 图 3. 存放于屏蔽地址中的 ZEC 占比 - 2025 年 7 月
-（来源：Zechub（2025）。Zechub 仪表板 2016-2025 年图表）
+（来源：ZecHub（2025）。ZecHub 仪表板 2016-2025 年图表）
 
 ### 作为隐私币的 Zcash
 
@@ -73,7 +73,7 @@ Zcash 是一种以用户隐私为核心设计的加密货币之一，采用零�
 （来源：Shawn；Zcash Community Forum 首席版主（2025）。图表覆盖 2025 年 4 月 9 日至 5 月 9 日。）
 
 在社区、采用与开发方面，Zcash Community Hub 展现出不断增长的草根热情。在采用层面，商家集成依然有限，但值得关注。尽管全球商户中的使用量较低，估计约为 120 家，但 2025 年 4 月和 5 月分别实现的 ZEC 接入 Brave Wallet，以及 Google Wallet 中的 zk-proof 实验，提高了其曝光度。  
-Electric Coin Company 和 Zcash Foundation 在 2025 年第二季度展示的工作体现出持续活跃。超过 350 次 Github 提交表明，在 Zedrab 代码库和 Zallet 钱包等重要基础设施项目上存在显著协作，也展现出 Zcash 生态技术社区的活跃度及贡献者图表。
+Electric Coin Company 和 Zcash Foundation 在 2025 年第二季度展示的工作体现出持续活跃。超过 350 次 GitHub 提交表明，在 Zedrab 代码库和 Zallet 钱包等重要基础设施项目上存在显著协作，也展现出 Zcash 生态技术社区的活跃度及贡献者图表。
 
 
 要真正分析 Zcash 当前的动态，最佳方式是从用户视角进行长期考察，并将 Zcash 的历史背景与其他隐私币进行比较。这项分析将涵盖 ZEC 的历史价格波动，例如 2017 年的市场高点和 2020 年的区块减半事件，以及与 Monero（XMR）和 DASH（DASH）在链上与社交指标上的比较（例如交易量、市值排名和社交活跃度）。 
@@ -103,4 +103,4 @@ Zcash 目前或许还没有像 Monero 那样庞大的社区，也尚未拥有广
 - X 平台情绪分析。（2025 年 7 月）。内部数据集。 
 - Zcash Community Hub.（2025）。社区更新与参与统计。https://z.cash
 - Zcash Foundation.（2025）。Zashi 2.0 钱包发布。https://zcashfoundation.org/blog/
-- Zechub.（2025）。 Zechub 仪表板图表。
+- ZecHub.（2025）。 ZecHub 仪表板图表。

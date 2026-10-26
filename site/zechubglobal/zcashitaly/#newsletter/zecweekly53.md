@@ -12,7 +12,7 @@ A cura di "Hardaeborla" ([Papeles a Color](https://twitter.com/lexaleth)), trado
 
 ### Benvenuti su ZecWeekly
 
-È emozionante condividere un'altra newsletter ricca di buone notizie e di progressi dell'ecosistema Zcash e dell'incredibile forza della comunità. Tra gli aspetti da sottolineare ci sono la migrazione da Zechub a Cosmos e la celebrazione di Zcon4!
+È emozionante condividere un'altra newsletter ricca di buone notizie e di progressi dell'ecosistema Zcash e dell'incredibile forza della comunità. Tra gli aspetti da sottolineare ci sono la migrazione da ZecHub a Cosmos e la celebrazione di Zcon4!
 
 Potete anche contribuire a ZecHub aiutandoci a creare la nostra Newsletter settimanale e ricevere una ricompensa per il vostro contributo. Per saperne di più, cliccate sul link qui sotto 👇
 
@@ -55,7 +55,7 @@ I vostri fondi saranno sempre al sicuro nel portafoglio Keplr, a patto che non d
 
 [Sintesi di ZFAVClub su Zcon4](https://twitter.com/ZcashFoundation/status/1683884286863110148)
 
-[Zechub NFT per accedere alla nuova 📰 Magazine!](https://twitter.com/ZecHub/status/1684632760172851201)
+[ZecHub NFT per accedere alla nuova 📰 Magazine!](https://twitter.com/ZecHub/status/1684632760172851201)
 
 [Conoscere la rete Manta - ZcashEsp](https://twitter.com/zcashesp/status/1683541497940000768)
 

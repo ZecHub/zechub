@@ -9,7 +9,7 @@ A cura di "Technopapi" ([Tecnopapapi](https://twitter.com/tecnopapapi)), tradott
 ---
 
 ### Benvenuti su ZecWeekly
-Questa settimana abbiamo notizie entusiasmanti sull'aggiornamento del Mobile SDK v2.0 per gli sviluppatori iOS e Android, un elenco di proposte di Zcash Minor Grants e impareremo tutto su Zcash con Zechub.
+Questa settimana abbiamo notizie entusiasmanti sull'aggiornamento del Mobile SDK v2.0 per gli sviluppatori iOS e Android, un elenco di proposte di Zcash Minor Grants e impareremo tutto su Zcash con ZecHub.
 
 ---
 
@@ -39,7 +39,7 @@ Questa settimana ZecHub rilascia una nuova serie didattica: Zcash 101. Si tratta
 
 - [Nighthawk Wallet lancia la versione 🚀 V2 Beta](https://forum.zcashcommunity.com/t/nighthawk-apps-announces-the-revamped-nighthawk-wallet/45731)
 
-- [Gitopia, un esperimento di Zechub🧪](https://free2z.cash/ZecHub/zpage/gitopia-a-zechub-experiment)
+- [Gitopia, un esperimento di ZecHub🧪](https://free2z.cash/ZecHub/zpage/gitopia-a-zechub-experiment)
 
 - [Il mese dell'anniversario di Zcash a cura di Zcash Esp](https://free2z.cash/zcashesp/zpage/mes-aniversario-de-zcash)
 

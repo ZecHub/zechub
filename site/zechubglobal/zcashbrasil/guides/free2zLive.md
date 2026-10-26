@@ -190,4 +190,4 @@ Vimos que a Free2z é uma plataforma vestátil e poderosa para criadores publica
 [Free2z for Supporters](https://web.archive.org/web/20260118172223/https://free2z.cash/docs/category/for-supporters/)
 
 ---
-_Written by James Katz for Zechub._
+_Written by James Katz for ZecHub._

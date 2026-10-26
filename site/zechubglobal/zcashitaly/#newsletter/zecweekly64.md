@@ -59,7 +59,7 @@ Il pezzo didattico di questa settimana ci guiderà attraverso il processo di ins
 
 - [I legami di Hamas con le criptovalute possono aggiungere slancio alla legge anti-cripto della senatrice Warren - CryptoNews](https://cryptonews.com/news/hamas-cryptocurrency-ties-may-add-momentum-to-senator-warrens-anti-crypto-bill.htm)
 
-- [Come spendere i tuoi ZEC in ogetti di uso quotidiano 💳 - Zechub Youtube](https://www.youtube.com/watch?v=pMNk2A3NcKw)
+- [Come spendere i tuoi ZEC in ogetti di uso quotidiano 💳 - ZecHub Youtube](https://www.youtube.com/watch?v=pMNk2A3NcKw)
 
 - [Il capo tecnico di Tether diventerà il nuovo CEO della società di Stablecoin - Bloomberg Crypto](https://www.bloomberg.com/news/articles/2023-10-13/tether-s-cto-paolo-ardoino-appointed-as-stablecoin-firm-s-new-ceo?srnd=cryptocurrencies-v2#xj4y7vzkg)
 
@@ -107,7 +107,7 @@ Il pezzo didattico di questa settimana ci guiderà attraverso il processo di ins
 
 #### Lavori nell'ecosistema
 
-- [Compiti di Zechubs ogni lunedì](https://dework.zechub.org/)
+- [Compiti di ZecHub ogni lunedì](https://dework.zechub.org/)
 
 ---
 

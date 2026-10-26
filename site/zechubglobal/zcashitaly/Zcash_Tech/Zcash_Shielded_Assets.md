@@ -9,7 +9,7 @@ Zcash Shielded Assets consentirebbe la creazione di token sulla blockchain di Zc
 
 Un importante uso potenziale delle ZSA sarebbe l'emissione di stablecoin sul protocollo Zcash. Le stablecoin sono criptovalute che ancorano il loro valore a una valuta fiat, come il dollaro USA o l'euro. Attualmente, alcune delle stablecoin più diffuse sono token ERC-20 come[ USDC](https://www.circle.com/en/usdc) e[ Dai](https://docs.makerdao.com/).
 
-Un altro potenziale utilizzo delle ZSA sarebbe per l'emissione di token di governance. Ad esempio, Zechub (l'editore di questa wiki) è un'organizzazione autonoma decentralizzata (DAO) e potrebbe creare e rilasciare ai suoi membri un token ZSA allo scopo di votare proposte e decisioni di governance.
+Un altro potenziale utilizzo delle ZSA sarebbe per l'emissione di token di governance. Ad esempio, ZecHub (l'editore di questa wiki) è un'organizzazione autonoma decentralizzata (DAO) e potrebbe creare e rilasciare ai suoi membri un token ZSA allo scopo di votare proposte e decisioni di governance.
 
 Gli ZSA sono sviluppati da[ QEDIT,](https://qed-it.com/) nell'ambito di un'importante sovvenzione della[ Zcash Foundation](https://zechub.wiki/zcash-organizations/zcash-foundation) in collaborazione con la[ Electric Coin Company](https://zechub.wiki/zcash-organizations/electric-coin-company).
 

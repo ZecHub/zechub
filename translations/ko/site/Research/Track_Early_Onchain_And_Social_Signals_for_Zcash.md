@@ -102,4 +102,4 @@ Zcash는 Monero만큼 커뮤니티가 크거나 상점 기반도 넓지 않지�
 - X Platform Sentiment Analysis. (2025, July). Internal dataset. 
 - Zcash Community Hub. (2025). Community updates and engagement statistics. https://z.cash
 - Zcash Foundation. (2025). Zashi 2.0 wallet release. https://zcashfoundation.org/blog/
-- Zechub. (2025).  Zechub dashboard chart.
+- ZecHub. (2025).  ZecHub dashboard chart.
