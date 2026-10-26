@@ -70,7 +70,7 @@ No conflicts.
 | 44 | finalizer | finalizer | A participant in Zcash's proof-of-stake layer that votes to make blocks final; stakers delegate to a finalizer. Not: anything to do with a final match or contest. Suggestion: keep English. | 58 | finalizador ×56 | finalizador |  |  |
 | 45 | newsletter | newsletter | A regular email or post that collects ZecHub and Zcash news. | 50 | newsletter ×28, boletim ×19 | newsletter |  |  |
 | 46 | trusted-setup | trusted setup | A one-time ceremony that generates public parameters for a proof system; its secret must be destroyed. | 50 | trusted setup ×22, configuração confiável ×12 | trusted setup |  |  |
-| 47 | bond | bond | Stake locked and delegated to a finalizer for a period; unbonding releases it. Not: a financial bond (debt security) or a personal bond. | 46 | vínculo ×14, bond ×8 | vínculo |  |  |
+| 47 | bond | bond | Stake locked and delegated to a finalizer for a period; unbonding releases it. Not: a financial bond (debt security) or a personal bond. | 46 | vínculo ×14, bond ×8 | bond |  |  |
 | 48 | scaling | scaling | Increasing how many transactions a network can handle. Not: shrinking or resizing. | 46 | escalabilidade ×39, scaling ×3 | escalabilidade |  |  |
 | 49 | faucet | faucet | A website that gives away tiny amounts of (often test) coins for free. Suggestion: keep English. | 43 | faucet ×30 | faucet |  |  |
 | 50 | seed-phrase | seed phrase | A list of 12 to 24 words that backs up and restores a wallet. | 41 | frase-semente ×30, seed phrase ×5 | frase-semente |  |  |

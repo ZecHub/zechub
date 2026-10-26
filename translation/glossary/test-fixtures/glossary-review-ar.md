@@ -53,7 +53,7 @@ No conflicts.
 | 27 | swap | swap | Exchanging one cryptocurrency directly for another. Suggestion: keep English. | 178 | مبادلة ×51, swap ×20 | مبادلة |  |  |
 | 28 | token | token | A digital asset created on a blockchain, other than the chain's own coin. Suggestion: keep English. | 173 | رمز ×109, الرموز ×29 | رمز |  |  |
 | 29 | consensus | consensus | The rules and process by which nodes agree on the state of the blockchain. | 159 | consensus (English) ×14 | الإجماع |  |  |
-| 30 | staking | staking | Locking coins to help secure a proof-of-stake network and earn rewards; 'stake' is the amount locked. Not: a wooden stake, or a stake in a bet; never translate as a tree, post or field. | 139 | التخزين ×69, staking ×7 | التخزين |  |  |
+| 30 | staking | staking | Locking coins to help secure a proof-of-stake network and earn rewards; 'stake' is the amount locked. Not: a wooden stake, or a stake in a bet; never translate as a tree, post or field. | 139 | التخزين ×69, staking ×7 | staking |  |  |
 | 31 | decentralized | decentralized | Run by many independent participants rather than one company or server. | 136 | اللامركزية ×44, لامركزي ×13 | لامركزي |  |  |
 | 32 | network-upgrade | network upgrade | A scheduled change to Zcash's rules that all nodes adopt at a set block height (NU5, NU6 and so on). | 128 | ترقية الشبكة ×32, network upgrade ×9 | ترقية الشبكة |  |  |
 | 33 | developer | developer | A person who writes software, here usually for Zcash or a Zcash wallet. Not: development (the activity), which is usually translated. | 126 | المطورين ×27, مطور ×6 | مطور |  |  |
@@ -70,9 +70,9 @@ No conflicts.
 | 44 | finalizer | finalizer | A participant in Zcash's proof-of-stake layer that votes to make blocks final; stakers delegate to a finalizer. Not: anything to do with a final match or contest. Suggestion: keep English. | 58 | المُنهي ×18, finalizer ×2 | المُنهي |  |  |
 | 45 | newsletter | newsletter | A regular email or post that collects ZecHub and Zcash news. | 50 | النشرة الإخبارية ×13, newsletter ×9 | النشرة الإخبارية |  |  |
 | 46 | trusted-setup | trusted setup | A one-time ceremony that generates public parameters for a proof system; its secret must be destroyed. | 50 | trusted setup ×18, الإعداد الموثوق ×15 | trusted setup |  |  |
-| 47 | bond | bond | Stake locked and delegated to a finalizer for a period; unbonding releases it. Not: a financial bond (debt security) or a personal bond. | 46 | سند ×13, bond ×3 | سند |  |  |
+| 47 | bond | bond | Stake locked and delegated to a finalizer for a period; unbonding releases it. Not: a financial bond (debt security) or a personal bond. | 46 | سند ×13, bond ×3 | bond |  |  |
 | 48 | scaling | scaling | Increasing how many transactions a network can handle. Not: shrinking or resizing. | 46 | التوسع ×23, scaling ×1 | التوسع |  |  |
-| 49 | faucet | faucet | A website that gives away tiny amounts of (often test) coins for free. Suggestion: keep English. | 43 | صنبور ×6, faucet ×6 | صنبور |  |  |
+| 49 | faucet | faucet | A website that gives away tiny amounts of (often test) coins for free. Suggestion: keep English. | 43 | صنبور ×6, faucet ×6 | faucet |  |  |
 | 50 | seed-phrase | seed phrase | A list of 12 to 24 words that backs up and restores a wallet. | 41 | عبارة البذور ×6, seed phrase ×2 | عبارة البذور |  |  |
 | 51 | dashboard | dashboard | A page that shows live figures and charts at a glance. | 41 | dashboard ×5, لوحة التحكم ×4 | dashboard |  |  |
 | 52 | cross-chain | cross-chain | Working across two or more different blockchains. Suggestion: keep English. | 39 | عبر السلاسل ×26 | عبر السلاسل |  |  |

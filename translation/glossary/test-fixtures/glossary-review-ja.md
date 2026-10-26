@@ -80,7 +80,7 @@ No conflicts.
 | 54 | smart-contract | smart contract | A program stored on a blockchain that runs automatically when its conditions are met. Suggestion: keep English. | 25 | スマートコントラクト ×9 | スマートコントラクト |  |  |
 | 55 | light-client | light client | Wallet software that does not download the full blockchain but asks a server for the data it needs. Suggestion: keep English. | 24 | ライトクライアント ×12 | ライトクライアント |  |  |
 | 56 | selective-disclosure | selective disclosure | Showing chosen transaction details to a chosen party (e.g. with a viewing key) while keeping the rest private. | 19 | 選択的開示 ×17 | 選択的開示 |  |  |
-| 57 | treasury | treasury | Money held by a community or organisation to fund shared work. | 18 | 財務 ×5, 資金 ×4, トレジャリー ×2 | 財務 |  |  |
+| 57 | treasury | treasury | Money held by a community or organisation to fund shared work. | 18 | 財務 ×5, トレジャリー ×2 | トレジャリー |  |  |
 | 58 | top-up | top up | Adding credit to a prepaid phone or account, paid with ZEC. | 14 | チャージ ×1, 追加入金 ×1, 補充 ×1 | チャージ |  |  |
 | 59 | permissionless | permissionless | Open to anyone without asking for approval. | 13 | パーミッションレス ×9, 権限なし ×1 | パーミッションレス |  |  |
 | 60 | unlinkable | unlinkable | Impossible to connect to each other: an observer cannot tell that two items belong to the same person. Not: 'disconnected' or 'detachable'; the meaning is 'cannot be linked'. | 12 | リンク不可能 ×7 | リンク不可能 |  |  |

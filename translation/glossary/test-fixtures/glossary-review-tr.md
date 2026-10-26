@@ -82,7 +82,7 @@ No conflicts.
 | 56 | selective-disclosure | selective disclosure | Showing chosen transaction details to a chosen party (e.g. with a viewing key) while keeping the rest private. | 19 | seçici açıklama ×15, selective disclosure ×1 | seçici açıklama |  |  |
 | 57 | treasury | treasury | Money held by a community or organisation to fund shared work. | 18 | hazine ×18, treasury ×4 | hazine |  |  |
 | 58 | top-up | top up | Adding credit to a prepaid phone or account, paid with ZEC. | 14 | yükleme ×53, top up ×2 | yükleme |  |  |
-| 59 | permissionless | permissionless | Open to anyone without asking for approval. | 13 | izinsiz ×12 | izinsiz |  |  |
+| 59 | permissionless | permissionless | Open to anyone without asking for approval. | 13 | izinsiz ×12 | izin gerektirmeyen |  |  |
 | 60 | unlinkable | unlinkable | Impossible to connect to each other: an observer cannot tell that two items belong to the same person. Not: 'disconnected' or 'detachable'; the meaning is 'cannot be linked'. | 12 | bağlantılandırılamaz ×13 | bağlantılandırılamaz |  |  |
 | 61 | brand | brand | ZecHub or Zcash brand material: logos, colours, visual identity. Not: trademark (a legal term). | 4 | marka ×26 | marka |  |  |
 | 62 | visualizer | visualizer | A tool that draws Zcash network or address data as pictures. Not: visualizing / visualization (the activity), which is usually translated. | 1 | visualizer ×1, görselleştirici ×5 | visualizer |  |  |

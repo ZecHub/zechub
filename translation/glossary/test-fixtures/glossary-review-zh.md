@@ -70,7 +70,7 @@ No conflicts.
 | 44 | finalizer | finalizer | A participant in Zcash's proof-of-stake layer that votes to make blocks final; stakers delegate to a finalizer. Not: anything to do with a final match or contest. Suggestion: keep English. | 58 | 终局化器 ×35, finalizer ×23 | 终局化器 |  |  |
 | 45 | newsletter | newsletter | A regular email or post that collects ZecHub and Zcash news. | 50 | newsletter ×21, 新闻简报 ×19 | 新闻简报 |  |  |
 | 46 | trusted-setup | trusted setup | A one-time ceremony that generates public parameters for a proof system; its secret must be destroyed. | 50 | 可信设置 ×46, trusted setup ×19 | 可信设置 |  |  |
-| 47 | bond | bond | Stake locked and delegated to a finalizer for a period; unbonding releases it. Not: a financial bond (debt security) or a personal bond. | 46 | 债券 ×23, bond ×5 | 债券 |  |  |
+| 47 | bond | bond | Stake locked and delegated to a finalizer for a period; unbonding releases it. Not: a financial bond (debt security) or a personal bond. | 46 | 债券 ×23, bond ×5 | bond |  |  |
 | 48 | scaling | scaling | Increasing how many transactions a network can handle. Not: shrinking or resizing. | 46 | 可扩展性 ×19, 扩容 ×12 | 扩容 |  |  |
 | 49 | faucet | faucet | A website that gives away tiny amounts of (often test) coins for free. Suggestion: keep English. | 43 | 水龙头 ×36, faucet ×19 | 水龙头 |  |  |
 | 50 | seed-phrase | seed phrase | A list of 12 to 24 words that backs up and restores a wallet. | 41 | 助记词 ×125, seed phrase ×1 | 助记词 |  |  |

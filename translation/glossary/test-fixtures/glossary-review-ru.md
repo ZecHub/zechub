@@ -57,7 +57,7 @@ No conflicts.
 | 31 | decentralized | decentralized | Run by many independent participants rather than one company or server. | 136 | децентрализ ×137, decentralized ×1 | децентрализованный |  |  |
 | 32 | network-upgrade | network upgrade | A scheduled change to Zcash's rules that all nodes adopt at a set block height (NU5, NU6 and so on). | 128 | network upgrade (English) ×15, network upgrades (English) ×1 | обновление сети |  |  |
 | 33 | developer | developer | A person who writes software, here usually for Zcash or a Zcash wallet. Not: development (the activity), which is usually translated. | 126 | developers (English) ×8, developer (English) ×4 | застройщик |  |  |
-| 34 | full-node | full node | A node that downloads and verifies the entire blockchain. Suggestion: keep English. | 120 | узел ×192, full node ×6 | узел |  |  |
+| 34 | full-node | full node | A node that downloads and verifies the entire blockchain. Suggestion: keep English. | 120 | полный узел ×129, узел ×192 | полный узел |  |  |
 | 35 | on-chain | on-chain | Recorded on the blockchain itself; off-chain means outside it. Suggestion: keep English. | 119 | ончейн ×27, on-chain ×12 | ончейн |  |  |
 | 36 | governance | governance | How decisions about Zcash (funding, upgrades) are made and by whom. | 103 | управлен ×159, governance ×16 | управление |  |  |
 | 37 | turnstile | turnstile | Zcash mechanism that checks the total coins leaving a pool never exceed what entered it. Suggestion: keep English. | 97 | турникет ×122, turnstile ×31 | турникет |  |  |
@@ -65,14 +65,14 @@ No conflicts.
 | 39 | miner | miner | A person or machine that does mining. | 92 | miner (English) ×3 | майнер |  |  |
 | 40 | nullifier | nullifier | A unique value published when a shielded note is spent, so the same note cannot be spent twice, without revealing which note it was. Suggestion: keep English. | 88 | nullifier ×61 | nullifier |  |  |
 | 41 | hardware-wallet | hardware wallet | A small device that stores keys offline and signs transactions (e.g. Ledger, Keystone). Suggestion: keep English. | 76 | аппаратн ×141, hardware wallet ×3 | аппаратный кошелёк |  |  |
-| 42 | bridge | bridge | A service that moves assets between two different blockchains. Not: a physical bridge. | 68 | мост ×557, bridge ×15 | мост |  |  |
+| 42 | bridge | bridge | A service that moves assets between two different blockchains. Not: a physical bridge. | 68 | мост ×45, bridge ×15 | мост |  |  |
 | 43 | halving | halving | The scheduled event that cuts the block reward in half, about every four years. | 61 | халвинг ×51, halving ×5 | халвинг |  |  |
 | 44 | finalizer | finalizer | A participant in Zcash's proof-of-stake layer that votes to make blocks final; stakers delegate to a finalizer. Not: anything to do with a final match or contest. Suggestion: keep English. | 58 | финализатор ×55 | финализатор |  |  |
 | 45 | newsletter | newsletter | A regular email or post that collects ZecHub and Zcash news. | 50 | дайджест ×9, newsletter ×9 | дайджест |  |  |
 | 46 | trusted-setup | trusted setup | A one-time ceremony that generates public parameters for a proof system; its secret must be destroyed. | 50 | trusted setup ×25, доверенн ×67 | trusted setup |  |  |
 | 47 | bond | bond | Stake locked and delegated to a finalizer for a period; unbonding releases it. Not: a financial bond (debt security) or a personal bond. | 46 | bond ×4 | bond |  |  |
 | 48 | scaling | scaling | Increasing how many transactions a network can handle. Not: shrinking or resizing. | 46 | масштабир ×59, scaling ×3 | масштабирование |  |  |
-| 49 | faucet | faucet | A website that gives away tiny amounts of (often test) coins for free. Suggestion: keep English. | 43 | faucet ×6, кран ×784 | faucet |  |  |
+| 49 | faucet | faucet | A website that gives away tiny amounts of (often test) coins for free. Suggestion: keep English. | 43 | faucet ×6, кран ×39 (mostly not this sense) | faucet |  |  |
 | 50 | seed-phrase | seed phrase | A list of 12 to 24 words that backs up and restores a wallet. | 41 | сид-фраз ×22, seed phrase ×3 | сид-фраза |  |  |
 | 51 | dashboard | dashboard | A page that shows live figures and charts at a glance. | 41 | панель ×31, dashboard ×6 | панель |  |  |
 | 52 | cross-chain | cross-chain | Working across two or more different blockchains. Suggestion: keep English. | 39 | межсетев ×30, cross-chain ×1 | межсетевой |  |  |
