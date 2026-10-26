@@ -20376,10 +20376,10 @@
     },
     "Research/Track_Early_Onchain_And_Social_Signals_for_Zcash.md": {
       "src": "sha256:4ccdb0f583f9b10343e546e7e614423c04359ee6eb96ca6a9aa2700b0d675f65",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
+      "src_commit": "3ecd8874be9f37f67279ce6b6d67b5c228151a6f",
       "engine": "llm",
-      "mode": "seed",
-      "tool": "qwen3-14b+handfix+namefix",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "Research/What_25_Second_Blocks_Actually_Change.md": {
