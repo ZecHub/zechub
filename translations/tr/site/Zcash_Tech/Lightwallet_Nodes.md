@@ -79,7 +79,7 @@ Zaino geliştiricileri, doğrudan tehdit modeline atıf yaparak aynı savı öne
 
 ### Zaino, Rust indeksleyicisi
 
-[Zaino](/zcash-tech/zaino), zcashd kullanım dışı bırakma çalışmasının parçası olarak lightwalletd'nin yerini almak üzere Zingo ekibi tarafından Rust ile yazılmış bir indeksleyicidir. Hafif istemcilere, tam istemcilere ve blok gezginlerine hizmet verir; zincir verilerini "Zebra veya Zcashd tam doğrulayıcısından" okur.
+[Zaino](/zcash-tech/zaino), zcashd kullanım dışı bırakma çalışmasının parçası olarak lightwalletd'nin yerini almak üzere Zingo ekibi tarafından Rust ile yazılmış bir indeksleyicidir. Hafif istemcilere, tam istemcilere ve blok gezginlerine hizmet verir; zincir verilerini "Zebra veya zcashd tam doğrulayıcısından" okur.
 
 Ağustos 2026'da yayımlanan 0.8.0 sürümüyle aktif geliştirme altındadır. Mümkün olan yerlerde lightwalletd ile geriye dönük uyumlu kalmayı hedefler; böylece cüzdanlar yeniden yazılmadan ona yönlendirilebilir.
 

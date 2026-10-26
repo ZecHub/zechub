@@ -2,11 +2,11 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Subɔ Github Repo kple IPFS 
+# Subɔ GitHub Repo kple IPFS 
 
 ## Kpɔkplɔyiɖeme
 
-Le mɔfiame sia me la míesrɔ̃ alesi woawɔ git cloneable URL na wò Github nudzraɖoƒe si wosubɔ to IPFS CID zazã me. Esia ɖea vi be woakpɔ egbɔ be nyatakakawo li eɖanye anyigba ƒe nuto ka mee wole o, tsitretsitsi ɖe mɔxexeɖedɔléle nu ŋu eye abe nyatakaka veviwo ƒe dzraɖoƒe si nɔa anyi ɖaa ene!
+Le mɔfiame sia me la míesrɔ̃ alesi woawɔ git cloneable URL na wò GitHub nudzraɖoƒe si wosubɔ to IPFS CID zazã me. Esia ɖea vi be woakpɔ egbɔ be nyatakakawo li eɖanye anyigba ƒe nuto ka mee wole o, tsitretsitsi ɖe mɔxexeɖedɔléle nu ŋu eye abe nyatakaka veviwo ƒe dzraɖoƒe si nɔa anyi ɖaa ene!
 
 De dzesii: Nyatakaka siwo woda ɖe IPFS dzi la li na *katã* network zãlawo. Àdi be yeatsɔ ame ŋutɔ ƒe nyatakaka/nya veviwo aɣla le mia gbɔ.
 

@@ -43,22 +43,22 @@ Zcash adzamenyawo tsoa adrɛs siwo ŋu wokpɔ ta na gbɔ. Ne ZEC ʋu le adrɛs s
 Akpa aɖewo le swap si Zcash mate ŋu aɣla o:
 
 - **The source network.** Ga siwo nèɖona ɖa tso Solana, Ethereum alo dutoƒo kɔsɔkɔsɔ bubu gbɔ la dzena le kɔsɔkɔsɔ ma dzi, eye wò adrɛs kple ga home hã le eme.
-- **Adrɛs si xɔa.** Swap mɔ aɖewo tsɔa ZEC yia adrɛs si me kɔ. Le kpɔɖeŋu me, Near Intents ŋlɔ ZEC be wodo alɔe [adrɛs siwo me kɔ ɖeɖeko](https://docs.near-intents.org/resources/chain-support). ZEC si woɖo ɖe adrɛs si me kɔ (t1 alo t3) dzi nye dutoƒo, abe Bitcoin ene. Etakpɔnu emegbe kpɔa nusi nèwɔna emegbe ta, gake ga si nètsɔna yina kple ametakpɔnu ƒe asitsatsa la nɔa dzedzem.
+- **Adrɛs si xɔa.** Swap mɔ aɖewo tsɔa ZEC yia adrɛs si me kɔ. Le kpɔɖeŋu me, NEAR Intents ŋlɔ ZEC be wodo alɔe [adrɛs siwo me kɔ ɖeɖeko](https://docs.near-intents.org/resources/chain-support). ZEC si woɖo ɖe adrɛs si me kɔ (t1 alo t3) dzi nye dutoƒo, abe Bitcoin ene. Etakpɔnu emegbe kpɔa nusi nèwɔna emegbe ta, gake ga si nètsɔna yina kple ametakpɔnu ƒe asitsatsa la nɔa dzedzem.
 - **Dɔwɔƒea.** Dɔdamɔnua kple mɔfiame dɔwɔƒe ɖesiaɖe kpɔa adrɛs kple ga home siwo nèna wo, kpakple kadodo ŋuti nyatakakawo abe wò IP adrɛs ene.
 
 Ðo ZEC la ɖe gakotoku si dzi nèkpɔ ŋusẽ ɖo me eye nàkpɔ eta hafi nàzãe. [ZEC Zazã le Adzame](/guides/using-zec-privately) ƒo nu tso afɔɖeɖe siwo kplɔe ɖo ŋu.
 
 ### **Amekae Kpɔa Gome le Swap Me**
 
-Tsɔ swap si woɖo to Near Intents 1Click subɔsubɔdɔa dzi abe kpɔɖeŋu ene. Enye [API ƒe nyawo](https://docs.near-intents.org/security-compliance/terms-of-service) bu esiawo abe akpa vovovowo ene:
+Tsɔ swap si woɖo to NEAR Intents 1Click subɔsubɔdɔa dzi abe kpɔɖeŋu ene. Enye [API ƒe nyawo](https://docs.near-intents.org/security-compliance/terms-of-service) bu esiawo abe akpa vovovowo ene:
 
 - **Ame ƒe ŋgɔdonya**: nyatakakadzraɖoƒe alo gakotoku si nèzãna. Intents Technology alo ame bubu aɖe si si eya ŋutɔ ƒe ɖoɖowo le ate ŋu akpɔ edzi.
 - **1Click**: mɔfiame kple nyawo gbɔ kpɔkpɔ ƒe dɔwɔƒe si Intents Technology Limited wɔna. Èɖoa ga ɖe gadzraɖoƒe ƒe adrɛs si wowɔ na wò ga si nàxe. Docs gblɔ be 1Click mexɔa dzikpɔkpɔ o, gake seawo de dzesii be woate ŋu alé nunɔamesiwo alo axe wo ɖe tɔdzisasrãwo ƒe xɔtuɖoɖowo me esime wole asitɔtrɔ aɖe wɔm.
-- **Nuɖoɖoa**: Near Intents smart contracts la.
+- **Nuɖoɖoa**: NEAR Intents smart contracts la.
 - **Solvers**: ame etɔ̃lia siwo le wo ɖokui si siwo yɔa nyayɔyɔa me.
 - **Bridges**: native ZEC ʋuna to PoA Bridge, si Intents Technology wɔa dɔ le.
 
-Near Intents hã [screens integrated nyayɔyɔ ƒe sisiwo](https://docs.near-intents.org/security-compliance/risk-and-compliance) ɖe AML nyatakakadzraɖoƒe geɖe ŋu, eye wògblɔ be alesi woakpɔe to vovo le sisi kple ƒoƒo ɖekae nu. Le eƒe sewo nu la, woate ŋu ahe asitɔtrɔ si wotsɔ aflaga ɖo la ɖe megbe, axe mɔ ɖe enu, atɔ te alo agbee.
+NEAR Intents hã [screens integrated nyayɔyɔ ƒe sisiwo](https://docs.near-intents.org/security-compliance/risk-and-compliance) ɖe AML nyatakakadzraɖoƒe geɖe ŋu, eye wògblɔ be alesi woakpɔe to vovo le sisi kple ƒoƒo ɖekae nu. Le eƒe sewo nu la, woate ŋu ahe asitɔtrɔ si wotsɔ aflaga ɖo la ɖe megbe, axe mɔ ɖe enu, atɔ te alo agbee.
 
 ### **Nusi Nàma Le Swap Me**
 
@@ -72,7 +72,7 @@ Near Intents hã [screens integrated nyayɔyɔ ƒe sisiwo](https://docs.near-int
 Nyawo trɔna, eyata xlẽ tata siwo li fifia hafi nàtrɔ asi le nu geɖe ŋu.
 
 - **Dze egɔme kple dɔwɔnu si nèzãna.** Enye wò kadodo vevitɔ. 1Click API ƒe nyawo gblɔ be ƒomedodo aɖeke mele Intents Technology kple dɔwɔnu siwo wotu ɖe edzi zãlawo dome tẽ o.
-- **Near Intents:** ɖoɖowo kple ameŋunyatakakawo ŋuti ɖoɖowo le near.com/terms kple near.com/privacy, kpakple.. [1Zi API ƒe nyawo dzi](https://docs.near-intents.org/security-compliance/terms-of-service) kple [afɔku kple sedziwɔwɔ](https://docs.near-intents.org/security-compliance/risk-and-compliance).
+- **NEAR Intents:** ɖoɖowo kple ameŋunyatakakawo ŋuti ɖoɖowo le near.com/terms kple near.com/privacy, kpakple.. [1Zi API ƒe nyawo dzi](https://docs.near-intents.org/security-compliance/terms-of-service) kple [afɔku kple sedziwɔwɔ](https://docs.near-intents.org/security-compliance/risk-and-compliance).
 - **Tracking kple kpekpeɖeŋu:** di swap le [Near Tameɖoɖowo Ŋuti Numekula](https://explorer.near-intents.org) alo bia le [Near Tameɖoɖowo Telegram](https://t.me/near_intents).
 - **Gbugbɔgadzɔ:** woate ŋu aɖo asitɔtrɔ si do kpo nu ɖe adrɛs si nèna la dzi, gake near.com ƒe sewo gblɔ be womeɖo kpe gagbugbɔɖoɖo dzi o. 1Click ƒe sewo hã gblɔ be womebua gbugbɔgabiabia siwo ku ɖe zãla ƒe vodada siwo mede USD 300 o ŋu o.
 

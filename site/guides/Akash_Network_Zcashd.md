@@ -475,7 +475,7 @@ The provider might have network issues or slow bandwidth. This usually resolves 
 
 ### RPC authentication failures
 
--> Check that *ZCASHD_RPCUSER* and *ZCASHD_RPCPASSWORD* are set correctly
+-> Check that `ZCASHD_RPCUSER` and `ZCASHD_RPCPASSWORD` are set correctly
 
 -> Verify you're using the correct port (8232 for mainnet, 18232 for testnet)
 

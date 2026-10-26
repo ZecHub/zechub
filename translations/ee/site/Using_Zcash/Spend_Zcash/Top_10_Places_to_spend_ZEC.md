@@ -52,7 +52,7 @@ Eyata ne ènye biskɔt-nuvɔ̃la la, ekema...
 
 azɔ ènya afisi nàzã wò ZEC le!
 
-Woɖe sheemprende.com ɖa le Internet dzi eye megale dɔ wɔm o. Dze agbagba nàkpɔe to eƒe telefon la dzi [Free2z](https://free2z.cash/SheEmprende) | [X-Taflatsɛdeƒe](https://twitter.com/SheEmprende_)
+Woɖe sheemprende.com ɖa le Internet dzi eye megale dɔ wɔm o. Dze agbagba nàkpɔe to eƒe telefon la dzi [Free2Z](https://free2z.cash/SheEmprende) | [X-Taflatsɛdeƒe](https://twitter.com/SheEmprende_)
 
 **Zcash Unified Address:** 
 
@@ -74,7 +74,7 @@ Rosa ko alɔgbɔnu kple dada tsɔ ɖee fia be yeaxɔ Zcash. *
 
 **Website**: somosdulceros.com megale dɔ wɔm o eye megate ŋu le nu ƒom azɔ hã o. Zã social link siwo dze le ete la nàtsɔ akpɔ egbɔe.
 
-** Hadomegbenɔnɔ ŋuti nyatakakadzraɖoƒewo:** [Instagram](https://www.instagram.com/somos_dulceros) | [X-Taflatsɛdeƒe](https://twitter.com/RosaMRangel) | [Free2z](https://free2z.cash/Criptodulceros/zpage/criptodulceros-01)
+** Hadomegbenɔnɔ ŋuti nyatakakadzraɖoƒewo:** [Instagram](https://www.instagram.com/somos_dulceros) | [X-Taflatsɛdeƒe](https://twitter.com/RosaMRangel) | [Free2Z](https://free2z.cash/Criptodulceros/zpage/criptodulceros-01)
 
 **Zcash Unified Address:** 
 
@@ -106,7 +106,7 @@ Nu nyui bubu siwo Papeles a Color wɔ kple asi.
 
 ** Hadomegbenɔnɔ ŋuti nyatakakadzraɖoƒewo** 
 
-[Instagram](https://instagram.com/papelesacolor) | [Free2z](https://free2z.cash/PapelesaColor) 
+[Instagram](https://instagram.com/papelesacolor) | [Free2Z](https://free2z.cash/PapelesaColor) 
 
 [Linktree](https://linktr.ee/Papelesacolor)
 
@@ -193,7 +193,7 @@ Eƒe dɔwo nya nu le Zcash ƒe nutoa me nyuie to eƒe kpekpeɖeŋu si wòna na Z
 
 ** Hadomegbenɔnɔ ŋuti nyatakakadzraɖoƒewo:**
 
-[Telegram](https://t.me/Robmarn) | [X-Taflatsɛdeƒe](https://twitter.com/robmarn) | [Free2z](https://free2z.cash/robmarn)
+[Telegram](https://t.me/Robmarn) | [X-Taflatsɛdeƒe](https://twitter.com/robmarn) | [Free2Z](https://free2z.cash/robmarn)
 
  Barquisimeto - Venezuela 
 
@@ -261,7 +261,7 @@ Tecnopapapi ye nye amesi wòle be nàƒo ka kplii!
 
 ** Hadomegbenɔnɔ ŋuti nyatakakadzraɖoƒewo** 
 
-Free2z. [Telegram](https://t.me/Lexihel) | [YouTube](https://youtube.com/@tecnopapapi) | [X-Taflatsɛdeƒe](https://twitter.com/tecnopapapi) | [TikTok](https://www.tiktok.com/@lexihel) | [Instagram](https://www.instagram.com/tecnopapapi/) |  [Facebook dzi nyatakakawo](https://www.facebook.com/tecnopapapi) 
+Free2Z. [Telegram](https://t.me/Lexihel) | [YouTube](https://youtube.com/@tecnopapapi) | [X-Taflatsɛdeƒe](https://twitter.com/tecnopapapi) | [TikTok](https://www.tiktok.com/@lexihel) | [Instagram](https://www.instagram.com/tecnopapapi/) |  [Facebook dzi nyatakakawo](https://www.facebook.com/tecnopapapi) 
 
 Tecnopapapi lɔ̃na ɖe ga siwo wotsɔ wɔa adzɔnu le Internet dzi (siwo dometɔ aɖewoe nye 3ZEC) kple nuxexlẽ ƒe mɔnuwo bubuwo hã ŋu. 
 

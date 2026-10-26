@@ -205,7 +205,7 @@
   "guides/Nym_Mixnet_Wallet_Setup.md": "Nym Mixnet के माध्यम से Zcash Wallet ट्रैफ़िक रूट करें",
   "guides/Nym_VPN.md": "Nym VPN",
   "guides/Raspberry_Pi_4_Full_Node.md": "Raspberry Pi 4 पर एक फुल नोड चलाएँ (Zebra + Zallet)",
-  "guides/Raspberry_pi5_Zebra_Lightwalletd_Zingo.md": "Zingo के साथ RPi5 Zebra Lightwalletd",
+  "guides/Raspberry_pi5_Zebra_Lightwalletd_Zingo.md": "Zingo के साथ RPi5 Zebra lightwalletd",
   "guides/Raspberry_pi_4_Zebra_Node.md": "Zebra चलाने के लिए Raspberry Pi 4 गाइड",
   "guides/ShapeShift_Zcash.md": "ShapeShift और Zcash: गोपनीयता-प्रथम विकेंद्रीकृत ट्रेडिंग",
   "guides/Using_ZEC_Privately.md": "ZEC का निजी रूप से उपयोग",

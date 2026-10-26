@@ -9,7 +9,7 @@
 ![다이어그램: 노드 역할의 zebrad와 지갑 역할의 Zallet으로 분리되는 zcashd](/content-images/SJNBsSYTel-dfd19f34e4.webp)
 </div>
 
-이 가이드에서는 설정, 지갑 가져오기, 일반적인 마이그레이션 문제 해결을 포함하여 **Zcashd**에서 **Zebrad** 및 **Zallet**으로 마이그레이션하는 방법을 안내합니다.
+이 가이드에서는 설정, 지갑 가져오기, 일반적인 마이그레이션 문제 해결을 포함하여 **zcashd**에서 **Zebrad** 및 **Zallet**으로 마이그레이션하는 방법을 안내합니다.
 
 ---
 

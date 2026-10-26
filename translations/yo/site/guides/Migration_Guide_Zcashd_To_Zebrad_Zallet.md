@@ -1,6 +1,6 @@
 # Atọ́nà Ìlọsípò: Láti zcashd sí Zebrad/Zallet
 
-A ti rọpo gbogbo awọn nodes zcashd, eyiti o jẹ *Electric Coin Company (ECC) * / *Zodl*, nipasẹ Zebra ati Zallet. Zcashd de opin atilẹyin rẹ ni 18 Keje 2026 ko si ṣiṣẹ mọ.
+A ti rọpo gbogbo awọn nodes zcashd, eyiti o jẹ *Electric Coin Company (ECC) * / *Zodl*, nipasẹ Zebra ati Zallet. zcashd de opin atilẹyin rẹ ni 18 Keje 2026 ko si ṣiṣẹ mọ.
 
 - Zebra is a modern Rust implementation of the Zcash protocol developed by the Zcash Foundation
 - Zallet jẹ apo apamọwọ ti o ni irọrun kan ti a ṣe lati sopọ laisiyonu pẹlu awọn akopọ Zebra ti Zodl dagbasoke
@@ -9,7 +9,7 @@ A ti rọpo gbogbo awọn nodes zcashd, eyiti o jẹ *Electric Coin Company (ECC
 ![Diagram: zcashd splitting into zebrad for node duties and Zallet for wallet duties](/content-images/SJNBsSYTel-dfd19f34e4.webp)
 </div>
 
-Atọ́nà yìí yóò tọ̀ ọ lọ nípasẹ̀ ìyípadà láti **Zcashd** sí **Zebrad** àti **Zallet**, títí kan ètò ìṣètò, àtúntò owó pópó, àti dídájú àwọn ìṣòro tí ó wọpọ nínú ṣíṣípò.
+Atọ́nà yìí yóò tọ̀ ọ lọ nípasẹ̀ ìyípadà láti **zcashd** sí **Zebrad** àti **Zallet**, títí kan ètò ìṣètò, àtúntò owó pópó, àti dídájú àwọn ìṣòro tí ó wọpọ nínú ṣíṣípò.
 
 ---
 

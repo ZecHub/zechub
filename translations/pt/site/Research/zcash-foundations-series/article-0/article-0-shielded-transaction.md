@@ -221,7 +221,7 @@ Agora você tem o mapa. O restante da série o preenche.
 | **Nullifier** | Um marcador único de "gasto" publicado quando uma note é usada, impedindo gastos duplos |
 | **Zero-knowledge proof** | Uma prova de que uma afirmação é verdadeira sem revelar nada além de sua veracidade |
 | **Shielding / deshielding** | Mover fundos para dentro / para fora do mundo privado shielded |
-| **Viewing key** | A chave que permite ao dono detectar e ler notes endereçadas a ele |
+| **Viewing Key** | A chave que permite ao dono detectar e ler notes endereçadas a ele |
 
 ---
 

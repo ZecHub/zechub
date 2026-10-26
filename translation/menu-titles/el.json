@@ -205,7 +205,7 @@
   "guides/Nym_Mixnet_Wallet_Setup.md": "Δρομολόγησε την κίνηση του πορτοφολιού Zcash μέσω του Mixnet Nym",
   "guides/Nym_VPN.md": "Nym VPN",
   "guides/Raspberry_Pi_4_Full_Node.md": "Εκτέλεσε έναν πλήρη κόμβο σε Raspberry Pi 4 (Zebra + Zallet)",
-  "guides/Raspberry_pi5_Zebra_Lightwalletd_Zingo.md": "RPi5 Zebra Lightwalletd με Zingo",
+  "guides/Raspberry_pi5_Zebra_Lightwalletd_Zingo.md": "RPi5 Zebra lightwalletd με Zingo",
   "guides/Raspberry_pi_4_Zebra_Node.md": "Οδηγός Raspberry Pi 4 για την εκτέλεση του Zebra",
   "guides/ShapeShift_Zcash.md": "ShapeShift και Zcash: Αποκεντρωμένες συναλλαγές με προτεραιότητα στην ιδιωτικότητα",
   "guides/Using_ZEC_Privately.md": "Χρήση του ZEC με ιδιωτικότητα",

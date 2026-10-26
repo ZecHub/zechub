@@ -14,7 +14,7 @@ BTCPay Server 允许在线商家直接接受加密货币付款，无需中介或
 - [资金存储在哪里？谁控制私钥？](#Where-Are-Funds-Stored-Who-Controls-the-Private-Keys)
 - [如何设置 BTCPay Server 以接收 Zcash](#How-to-Set-Up-BTCPay-Server-for-Accepting-Zcash)
   - [部署支持 Zcash 的 BTCPay Server](#Deploying-BTCPay-Server-with-Zcash-Support)
-  - [运行你自己的 Zcash 全节点（Zebra + Lightwalletd）](#Running-Your-Own-Zcash-Full-Node)
+  - [运行你自己的 Zcash 全节点（Zebra + lightwalletd）](#Running-Your-Own-Zcash-Full-Node)
   - [连接到外部 lightwalletd 节点（自定义配置）](#Connecting-to-an-External-Lightwalletd-Node)
   - [使用 Cloudflare Tunnel 在家中托管 BTCPay Server](#Hosting-BTCPay-Server-at-Home-with-Cloudflare-Tunnel)
 - [在 BTCPay Server Web 界面中配置 Zcash 插件](#Configuring-the-Zcash-Plugin-in-the-BTCPay-Server-Web-Interface)
@@ -326,19 +326,19 @@ btcpay-down.sh
 
 ## 运行你自己的 Zcash 全节点
 
-如果你希望**不依赖**公共 `lightwalletd` 节点，可以在同一台服务器上部署你自己的完整 Zcash 节点以及 Lightwalletd。  
+如果你希望**不依赖**公共 `lightwalletd` 节点，可以在同一台服务器上部署你自己的完整 Zcash 节点以及 lightwalletd。  
 这样你将获得**完全自主权**——没有外部依赖，也无需信任第三方。
 
 ---
 
 ### 第 1 步：确保有足够的磁盘空间
 
-一个完整的 Zcash 节点（Zebra + Lightwalletd）目前需要 **300+ GB** 的磁盘空间，而且还会持续增长。
+一个完整的 Zcash 节点（Zebra + lightwalletd）目前需要 **300+ GB** 的磁盘空间，而且还会持续增长。
 
 空间构成如下：
 
 - Zebra 区块链数据库：约 260-270 GB
-- Lightwalletd 索引：约 15-20 GB
+- lightwalletd 索引：约 15-20 GB
 
 #### 推荐存储配置：
 
@@ -368,7 +368,7 @@ export BTCPAYGEN_ADDITIONAL_FRAGMENTS="zcash-fullnode"
 
 该脚本将会：
 
-* 下载 Zebra 和 Lightwalletd 的 Docker 镜像
+* 下载 Zebra 和 lightwalletd 的 Docker 镜像
 * 在 BTCPay 堆栈中设置相关服务
 * 将 Zcash 插件连接到**本地** `lightwalletd` 实例
 
@@ -376,7 +376,7 @@ export BTCPAYGEN_ADDITIONAL_FRAGMENTS="zcash-fullnode"
 > 在同步完成之前，屏蔽支付将不可用。
 
 
-## 连接到外部 Lightwalletd 节点
+## 连接到外部 lightwalletd 节点
 
 在大多数情况下，并不需要完全自主——而且商家可能也不想为运行完整 Zcash 节点投入时间和磁盘空间。  
 默认情况下，BTCPay Server 会连接到公共 `lightwalletd` 节点，以便在不下载完整区块链的情况下处理屏蔽支付。
@@ -908,8 +908,8 @@ BTCPay 被打造为中心化支付服务商的开源替代方案。如果你希�
 * [BTCPay 的 Zcash 插件（GitHub）](https://github.com/btcpay-zcash/btcpayserver-zcash-plugin)
 * [Zcash 插件安装指南](https://github.com/btcpay-zcash/btcpayserver-zcash-plugin/blob/master/docs/installation.md)
 * [自定义 zcash-lightwalletd.custom.yml 示例](https://github.com/btcpay-zcash/btcpayserver-zcash-plugin/blob/master/docs/zcash-lightwalletd.custom.yml)
-* [Lightwalletd Docker Compose 文件（Zebra）](https://github.com/ZcashFoundation/zebra/blob/main/docker/docker-compose.lwd.yml)
+* [lightwalletd Docker Compose 文件（Zebra）](https://github.com/ZcashFoundation/zebra/blob/main/docker/docker-compose.lwd.yml)
 * [BTCPay API 密钥文档（Greenfield API）](https://docs.btcpayserver.org/API/Greenfield/v1/#tag/API-Keys)
 * [创建 Cloudflare Tunnel](https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/get-started/create-remote-tunnel/)
 * [Zcash 钱包兼容性列表（ZecHub）](https://zechub.wiki/wallets)
-* [Raspberry Pi 5 上的 Zebra + Lightwalletd（ZecHub）](https://free2z.com/ZecHub/zpage/zcash-101-zebra-lightwalletd-sync-journal-on-raspberry-pi-5)
+* [Raspberry Pi 5 上的 Zebra + lightwalletd（ZecHub）](https://free2z.com/ZecHub/zpage/zcash-101-zebra-lightwalletd-sync-journal-on-raspberry-pi-5)

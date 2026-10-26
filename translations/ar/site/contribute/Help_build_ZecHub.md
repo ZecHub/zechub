@@ -8,7 +8,7 @@
 
 قيّم الروابط الخاصة بالنشرة الإخبارية وأضفها إلى صفحة GitHub الخاصة بالنشرة: -> [انقر هنا للحصول على التعليمات](https://github.com/ZecHub/zechub/blob/main/site/contribute/ZecWeekly_Newsletter.md)
 
-تحقق من صحة معلومات وثائق الويكي، واقترح تعديلات، وقدّم صفحات جديدة على Github
+تحقق من صحة معلومات وثائق الويكي، واقترح تعديلات، وقدّم صفحات جديدة على GitHub
 
 أنشئ محتوى فيديو ضمن الفئات التالية:
 ```
@@ -50,9 +50,9 @@
 
 [ZEC Bounties](https://bounties.zechub.wiki/)
 
-[مشكلات ZecHub على Github](https://github.com/ZecHub/zechub/issues)
+[مشكلات ZecHub على GitHub](https://github.com/ZecHub/zechub/issues)
 
-[مشكلات ZecHub-Wiki على Github](https://github.com/ZecHub/zechub-wiki/issues)
+[مشكلات ZecHub-Wiki على GitHub](https://github.com/ZecHub/zechub-wiki/issues)
 
 إذا كانت هناك طرق أخرى تود المساهمة من خلالها، يُرجى مراسلة ZecHub ([@ZecHub](https://twitter.com/zechub)) على Twitter أو الانضمام إلى [Discord](https://discord.gg/zcash) الخاص بنا.
 

@@ -28,7 +28,7 @@ Beschreibung: Stellt sicher, dass die Datenschutzfunktionen von Zcash während d
 **Zcash Elastic Subnet Bridge auf Avalanche**: [Förderantrag](https://zcashgrants.org/gallery/25215916-53ea-4041-a3b2-6d00c487917d/36243580/)
 Nachfolgend sind die wichtigsten abgeschlossenen Ergebnisse und technischen Ressourcen für das Projekt Zcash Avalanche RedBridge aufgeführt:
 
-Ergebnis 1.1: Vorläufiger PoC, der das Abfragen von Zcash-Testnet-Transaktionen aus einem Avalanche-Testnet-Subnetz mit einer CLI unterstützt, auf Github veröffentlicht und mit einem Ein-Node-Subnetz im Avalanche-Testnet. https://github.com/red-dev-inc/zavax-oracle
+Ergebnis 1.1: Vorläufiger PoC, der das Abfragen von Zcash-Testnet-Transaktionen aus einem Avalanche-Testnet-Subnetz mit einer CLI unterstützt, auf GitHub veröffentlicht und mit einem Ein-Node-Subnetz im Avalanche-Testnet. https://github.com/red-dev-inc/zavax-oracle
 
 Ergebnis 2.1: [Architektur](https://github.com/red-dev-inc/zavax-bridge/tree/main/Architecture)
 
@@ -49,9 +49,9 @@ Ergebnis 5.1 GUI: Bridge-Integration in Core oder Webapp
 
 Meilenstein 6, 30. Juni 2024
 Ergebnis 6.1 Erfolgreiches Bestehen des Software-Audits
-Ergebnis 6.2 Veröffentlichung des auditierten Quellcodes in einem öffentlichen Github-Repo
+Ergebnis 6.2 Veröffentlichung des auditierten Quellcodes in einem öffentlichen GitHub-Repo
 
-Werfen Sie einen Blick auf das [Github-Repo](https://github.com/red-dev-inc/zavax-bridge/tree/main/Architecture)
+Werfen Sie einen Blick auf das [GitHub-Repo](https://github.com/red-dev-inc/zavax-bridge/tree/main/Architecture)
   
 Für weitere technische Details werden Nutzer dazu ermutigt, das Repository und die Dokumentation des RedBridge-Projekts zu prüfen, um die Integrationsspezifika, Test-Frameworks und Sicherheitsprotokolle zu [erkunden](https://zcashgrants.org/gallery/25215916-53ea-4041-a3b2-6d00c487917d/36243580/).
 
@@ -62,7 +62,7 @@ Für weitere technische Details werden Nutzer dazu ermutigt, das Repository und 
 * Ergebnisse: 
 Im 1. Quartal 2025 kündigte das Team den Start der [red·bridge-Demo-Website](https://redbridge-demo.red.dev/index.html) an, auf der jeder die Nutzererfahrung ausprobieren, Feedback geben und Verbesserungen vorschlagen kann. Sie dient auch als einfacher Weg, nicht-technischen Menschen das Projekt näherzubringen.
 
-* Das Team nutzte Zebra für die endgültige Version von red·bridge. Um es zu testen, rüsteten sie zwei der drei Knoten in ihrer Test-Blockchain, ZavaX Oracle, auf, die im Fuji-Testnet von Avalanche läuft. Der letzte Knoten wurde erfolgreich aktualisiert, und nun läuft [Zavax Oracle](https://web.archive.org/web/20260823181644/https://zavax-oracle.red.dev/) auf Zebra!
+* Das Team nutzte Zebra für die endgültige Version von red·bridge. Um es zu testen, rüsteten sie zwei der drei Knoten in ihrer Test-Blockchain, ZavaX Oracle, auf, die im Fuji-Testnet von Avalanche läuft. Der letzte Knoten wurde erfolgreich aktualisiert, und nun läuft [ZavaX Oracle](https://web.archive.org/web/20260823181644/https://zavax-oracle.red.dev/) auf Zebra!
 
 * Im 1. Quartal 2025 wurde die red.bridge-Website so programmiert, dass sie vier Ansichten bietet: red, Dark, Light und Zebra, im Gegensatz zur ursprünglichen Version, die red war.
 

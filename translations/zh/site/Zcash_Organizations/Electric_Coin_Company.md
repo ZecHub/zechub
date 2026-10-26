@@ -3,7 +3,7 @@
 </a>
 
 # <img src="/content-images/image-2024-02-03-164918723-f59419848a.webp" alt="Alt Text" width="50"/>    Electric Coin Company（已日落）
-[网站](https://electriccoin.co) - [Github](https://github.com/zodl-inc) - [X/Twitter](https://x.com/ElectricCoinCo)
+[网站](https://electriccoin.co) - [GitHub](https://github.com/zodl-inc) - [X/Twitter](https://x.com/ElectricCoinCo)
 
 > **关于这个 GitHub 链接。** ECC 的代码仓库位于 `zodl-inc`。这是同一个组织，在团队迁移到 [ZODL](/zcash-organizations/zodl) 时更名而来。旧的 `github.com/Electric-Coin-Company` 名称于 2026 年 5 月被无关第三方注册，与 ECC 或 ZODL 没有任何关系，因此不要信任那里发布的代码。
 

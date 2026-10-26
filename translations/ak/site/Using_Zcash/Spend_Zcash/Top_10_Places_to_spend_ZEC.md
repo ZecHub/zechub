@@ -52,7 +52,7 @@ Enti, sɛ woyɛ obi a w'ani gye keki ho paa a,..
 
 Afei woahu nea wode wo ZEC no bɛyɛ!
 
-Ɔweɛbsaet: sheemprende.com agyae adwuma na ɛnhwɛ ne ho bio. Fa no di dwuma wɔ so [Free2z (free)](https://free2z.cash/SheEmprende) | [X Dwumadie no so](https://twitter.com/SheEmprende_)
+Ɔweɛbsaet: sheemprende.com agyae adwuma na ɛnhwɛ ne ho bio. Fa no di dwuma wɔ so [Free2Z (free)](https://free2z.cash/SheEmprende) | [X Dwumadie no so](https://twitter.com/SheEmprende_)
 
 **Zcash Unified Address:** Zcash Uniform Address (Ɛwɔ sɛ wode wo din di dwuma wɔ kasa biara mu) 
 
@@ -74,7 +74,7 @@ Rosa de ahantan serew kyerɛ sɛ ogye Zcash.
 
 **Website**: somosdulceros.com no ayi ne ho adi na ɛntumi nyɛ adwuma bio. Fa social links a ɛwɔ ase ha yi di dwuma.
 
-**Nneɛma a w'abɔ wɔ intanɛt so:** [Instagram](https://www.instagram.com/somos_dulceros) | [X Dwumadie no so](https://twitter.com/RosaMRangel) | [Free2z (free)](https://free2z.cash/Criptodulceros/zpage/criptodulceros-01)
+**Nneɛma a w'abɔ wɔ intanɛt so:** [Instagram](https://www.instagram.com/somos_dulceros) | [X Dwumadie no so](https://twitter.com/RosaMRangel) | [Free2Z (free)](https://free2z.cash/Criptodulceros/zpage/criptodulceros-01)
 
 **Zcash Unified Address:** Zcash Uniform Address (Ɛwɔ sɛ wode wo din di dwuma wɔ kasa biara mu) 
 
@@ -106,7 +106,7 @@ Nneɛma foforo a Papeles a Color ayɛ no bi wɔ hɔ.
 
 **Nneɛma a wͻde di dwuma wɔ aman afoforɔ so** 
 
-[Instagram](https://instagram.com/papelesacolor) | [Free2z (free)](https://free2z.cash/PapelesaColor) 
+[Instagram](https://instagram.com/papelesacolor) | [Free2Z (free)](https://free2z.cash/PapelesaColor) 
 
 [Nkyehyԑebea dua](https://linktr.ee/Papelesacolor)
 
@@ -193,7 +193,7 @@ Ne nnwuma no agye din wɔ Zcash mu, na n'aboa a ɔde ama club ZFAV nti.
 
 **Nneɛma a wͻde di dwuma wɔ aman afoforɔ so:**
 
-[Telegram](https://t.me/Robmarn) | [X Dwumadie no so](https://twitter.com/robmarn) | [Free2z (free)](https://free2z.cash/robmarn)
+[Telegram](https://t.me/Robmarn) | [X Dwumadie no so](https://twitter.com/robmarn) | [Free2Z (free)](https://free2z.cash/robmarn)
 
 Barquisimeto - Venezuela 
 
@@ -261,7 +261,7 @@ Tecnopapapi ne onipa a ɛsɛ sɛ wofa no!
 
 **Nneɛma a wͻde di dwuma wɔ aman afoforɔ so** 
 
-Free2z. (Nneɛma a ɛwɔ hɔ) [Telegram](https://t.me/Lexihel) | [YouTube](https://youtube.com/@tecnopapapi) | [X Dwumadie no so](https://twitter.com/tecnopapapi) | [TikTok](https://www.tiktok.com/@lexihel) | [Instagram](https://www.instagram.com/tecnopapapi/) |  [Facebook so nkratafa](https://www.facebook.com/tecnopapapi) 
+Free2Z. (Nneɛma a ɛwɔ hɔ) [Telegram](https://t.me/Lexihel) | [YouTube](https://youtube.com/@tecnopapapi) | [X Dwumadie no so](https://twitter.com/tecnopapapi) | [TikTok](https://www.tiktok.com/@lexihel) | [Instagram](https://www.instagram.com/tecnopapapi/) |  [Facebook so nkratafa](https://www.facebook.com/tecnopapapi) 
 
 Tecnopapapi gye cryptocurrencies (a 3ZEC ka ho) ne akwan afoforɔ a wɔfa so tua sika. 
 

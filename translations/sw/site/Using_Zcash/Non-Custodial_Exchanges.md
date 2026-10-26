@@ -43,14 +43,14 @@ Faragha ya Zcash hutokana na anwani zilizolindwa. ZEC inaposogea kati ya anwani 
 Kubadilishana kuna sehemu ambazo Zcash haiwezi kuficha:
 
 - **Mtandao chanzo.** Fedha unazotuma kutoka Solana, Ethereum au mnyororo mwingine wa umma zinaonekana kwenye mnyororo huo, ikiwa ni pamoja na anwani yako na kiasi.
-- **Anwani ya kupokea.** Baadhi ya njia za kubadilishana hupeleka ZEC kwenye anwani inayoonekana wazi. Kwa mfano, Near Intents huorodhesha ZEC kama inayoungwa mkono kwa [anwani zinazoonekana wazi pekee](https://docs.near-intents.org/resources/chain-support)ZEC inayotumwa kwa anwani inayoeleweka (t1 au t3) ni ya umma, kama Bitcoin. Kuilinda baadaye hulinda unachofanya baadaye, lakini uhamisho unaoingia na muamala wa kuilinda hubaki ukionekana.
+- **Anwani ya kupokea.** Baadhi ya njia za kubadilishana hupeleka ZEC kwenye anwani inayoonekana wazi. Kwa mfano, NEAR Intents huorodhesha ZEC kama inayoungwa mkono kwa [anwani zinazoonekana wazi pekee](https://docs.near-intents.org/resources/chain-support)ZEC inayotumwa kwa anwani inayoeleweka (t1 au t3) ni ya umma, kama Bitcoin. Kuilinda baadaye hulinda unachofanya baadaye, lakini uhamisho unaoingia na muamala wa kuilinda hubaki ukionekana.
 - **Huduma.** Programu na huduma yoyote ya uelekezaji hutazama anwani na kiasi unachowapa, pamoja na data ya muunganisho kama vile anwani yako ya IP.
 
 Tuma ZEC kwenye pochi unayoidhibiti na uilinde kabla ya kutumia. [Kutumia ZEC kwa Binafsi](/guides/using-zec-privately) inashughulikia hatua zinazofuata.
 
 ### **Nani Anahusika Katika Mabadiliko**
 
-Chukua ubadilishaji unaopitia huduma ya Near Intents 1Click kama mfano [Masharti ya API](https://docs.near-intents.org/security-compliance/terms-of-service) Zichukulie hizi kama sehemu tofauti:
+Chukua ubadilishaji unaopitia huduma ya NEAR Intents 1Click kama mfano [Masharti ya API](https://docs.near-intents.org/security-compliance/terms-of-service) Zichukulie hizi kama sehemu tofauti:
 
 - **Kiolesura**: tovuti au pochi unayotumia. Inaweza kuendeshwa na Intents Technology au na mtu wa tatu mwenye masharti yake.
 - **1Click**: huduma ya uelekezaji na ulipaji inayoendeshwa na Intents Technology Limited. Unatuma pesa kwa anwani ya amana iliyoundwa kwa ajili ya nukuu yako. Hati zinasema 1Click haichukui dhamana, lakini masharti yanabainisha kuwa mali zinaweza kushikiliwa au kufungwa kwenye miundombinu ya daraja wakati uhamisho unaendelea.

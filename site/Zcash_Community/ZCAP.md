@@ -9,7 +9,7 @@
 
 # Zcash Community Advisory Panel 
 
-The Zcash Community Advisory Panel, or ZCAP, is a panel conformed by members of the Zcash Community, established as a means to involve the community and soliciting their advisory input whenever the Zcash Foundation needs to make a decision involving or afecting said community. Since it's creation in 2018, the panel has helped define the way to go for the Zcash foundation in many important decisions, some of which include:
+The Zcash Community Advisory Panel, or ZCAP, is a panel conformed by members of the Zcash Community, established as a means to involve the community and soliciting their advisory input whenever the Zcash Foundation needs to make a decision involving or afecting said community. Since it's creation in 2018, the panel has helped define the way to go for the Zcash Foundation in many important decisions, some of which include:
 
 [The Zcash Trademark](https://github.com/ZcashFoundation/Elections/blob/master/2018-Q2/General-Measures/monetary-policy.md): This vote was about whether the Zcash Foundation should pursue a legal agreement with the Electric Coin Company (ECC) to share the ownership and control of the Zcash trademark
 

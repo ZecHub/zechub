@@ -41,7 +41,7 @@ Zebra 1.8.0 नवीनतम रिलीज़, FROST प्रकाशि�
 
 [Zcash Brazil साप्ताहिक कॉल 22](https://x.com/zcashbrazil/status/1808206303107731746)
 
-[MacOS Signal app का उपयोग न करें - Free2z पर alberdioni8406](https://x.com/free2zcash/status/1809716224940781965)
+[MacOS Signal app का उपयोग न करें - Free2Z पर alberdioni8406](https://x.com/free2zcash/status/1809716224940781965)
 
 [Web 2.0 की छिपी हुई लागतें - Zcash Media ](https://x.com/zcashmedia/status/1809580807616397557)
 

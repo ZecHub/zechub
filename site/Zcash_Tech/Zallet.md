@@ -202,7 +202,7 @@ There is a separate consumer product at [zallet.io](https://www.zallet.io/) that
 - [Zebra Full Node](Zebra_Full_Node.md) — the node Zallet’s default backend reads
 - [Zakura Node](Zakura_Node.md) — alternative validating node
 - [Zaino](Zaino.md) — indexer backend and light-client server
-- [ZECD](ZECD.md) — another wallet-server design on librustzcash
+- [zecd](ZECD.md) — another wallet-server design on librustzcash
 - [Zcash Wallet Syncing](Zcash_Wallet_Syncing.md) — how shielded wallets scan the chain
 - [Viewing Keys](Viewing_Keys.md)
 

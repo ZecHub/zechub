@@ -221,7 +221,7 @@ Anda kini memegang petanya. Sisa dari seri ini akan melengkapinya.
 | **Nullifier** | Penanda "telah digunakan" yang unik dan dipublikasikan saat sebuah note digunakan, untuk mencegah double-spend |
 | **Zero-knowledge proof** | Sebuah proof bahwa suatu pernyataan adalah benar tanpa mengungkap apa pun selain kebenarannya |
 | **Shielding / deshielding** | Memindahkan dana ke dalam / keluar dari dunia shielded yang privat |
-| **Viewing key** | Kunci yang memungkinkan pemilik untuk mendeteksi dan membaca note yang ditujukan kepada mereka |
+| **Viewing Key** | Kunci yang memungkinkan pemilik untuk mendeteksi dan membaca note yang ditujukan kepada mereka |
 
 ---
 

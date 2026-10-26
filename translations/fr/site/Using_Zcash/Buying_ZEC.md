@@ -7,7 +7,7 @@
 
 ## TL;DR
 
-- Achetez du ZEC sur un échange qui prend en charge les **retraits protégés** (Gemini, BitcoinVN, Flyp.me) lorsque c'est possible
+- Achetez du ZEC sur un échange qui prend en charge les **retraits protégés** (Gemini, BitcoinVN, flyp.me) lorsque c'est possible
 - La plupart des grandes plateformes d'échange centralisées (Coinbase, Kraken, Binance) ne prennent en charge que les **retraits transparents** — protégez vos ZEC après les avoir reçus
 - Les échanges décentralisés permettent des swaps non dépositaires mais retirent généralement vers des adresses transparentes
 - Vous n'avez **pas** besoin d'acheter un ZEC entier — les fractions fonctionnent très bien
@@ -28,9 +28,9 @@ Gemini est une plateforme d'échange de cryptomonnaies réglementée, un portefe
 
 BitcoinVN est un échange instantané non dépositaire qui prend en charge les dépôts et retraits protégés (z-address) pour le ZEC — l'une des très rares plateformes d'échange au monde à offrir une prise en charge complète des z-address. En activité depuis 2014, il permet d'échanger du BTC, de l'ETH, de l'USDT et d'autres cryptomonnaies contre du ZEC directement vers votre portefeuille protégé.
 
-**[Flyp.me](https://flyp.me)**
+**[flyp.me](https://flyp.me)**
 
-Flyp.me est une plateforme d'échange crypto sans inscription. C'était l'un des moyens les plus sûrs et les plus privés d'échanger plus de 30 cryptomonnaies directement vers votre portefeuille. Vous pouvez acheter du ZEC avec d'autres cryptomonnaies.
+flyp.me est une plateforme d'échange crypto sans inscription. C'était l'un des moyens les plus sûrs et les plus privés d'échanger plus de 30 cryptomonnaies directement vers votre portefeuille. Vous pouvez acheter du ZEC avec d'autres cryptomonnaies.
 
 ## Plateformes d'échange qui prennent en charge les retraits transparents
 

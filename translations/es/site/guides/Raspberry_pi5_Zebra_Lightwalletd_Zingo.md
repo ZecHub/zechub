@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Editar página"/>
 </a>
 
-# RPi5 Zebra Lightwalletd con Zingo
+# RPi5 Zebra lightwalletd con Zingo
 
 ## Tutorial en video
 
@@ -10,7 +10,7 @@
   <iframe
     className="w-full h-full"
     src="https://www.youtube.com/embed/FfH5jiX8pT0"
-    title="Uso de un nodo Zcash Zebra con Lightwalletd: TUTORIAL"
+    title="Uso de un nodo Zcash Zebra con lightwalletd: TUTORIAL"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowFullScreen
     loading="lazy"
@@ -27,7 +27,7 @@ sudo apt install libclang-dev clang pkg-config openssl protobuf-compiler npm
 
 ## Compilar Zebra
 
-[Github de Zebra](https://github.com/ZcashFoundation/zebra)
+[GitHub de Zebra](https://github.com/ZcashFoundation/zebra)
 
 * `time cargo install --git https://github.com/ZcashFoundation/zebra --tag v3.1.0 zebrad`
 

@@ -2,11 +2,11 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Serve Github Repo with IPFS 
+# Serve GitHub Repo with IPFS 
 
 ## Introduction
 
-In this guide we learn how to create a git cloneable URL for your Github repository served using an IPFS CID. This is  useful to ensure content availabily regardless of geographic region, censorship resistance and as a perisistent backup of valuable information!
+In this guide we learn how to create a git cloneable URL for your GitHub repository served using an IPFS CID. This is  useful to ensure content availabily regardless of geographic region, censorship resistance and as a perisistent backup of valuable information!
 
 Note: Data uploaded to IPFS is available to *all* network users. You may wish to locally encrypt personal/sensitive data.
 

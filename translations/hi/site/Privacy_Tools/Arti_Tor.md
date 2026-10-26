@@ -38,7 +38,7 @@ Arti को source से build करने से पहले, आपके �
 यह पुष्टि करेगा कि आपके system पर Rust का नवीनतम stable version install है।
 
 #### **Windows Users के लिए नोट**:
-- Rust को Windows पर [**Rustup**](https://rustup.rs/) के माध्यम से install किया जा सकता है, जो एक toolchain installer है। यह भी सुनिश्चित करें कि आपने compatible build environment सेट किया है (Windows पर आपको **Visual Studio Build Tools** की आवश्यकता पड़ सकती है)।
+- Rust को Windows पर [**rustup**](https://rustup.rs/) के माध्यम से install किया जा सकता है, जो एक toolchain installer है। यह भी सुनिश्चित करें कि आपने compatible build environment सेट किया है (Windows पर आपको **Visual Studio Build Tools** की आवश्यकता पड़ सकती है)।
   
 ---
 

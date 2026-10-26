@@ -4,7 +4,7 @@
 ## Einrichtung
 
  * zebrad-Node läuft und ist vollständig synchronisiert, mit aktivierten RPCs und so konfiguriert, dass Cookies verwendet werden
- * Zainod vollständig synchronisiert
+ * zainod vollständig synchronisiert
  * Zallet so eingerichtet, dass RPCs ausgeführt werden
 
 

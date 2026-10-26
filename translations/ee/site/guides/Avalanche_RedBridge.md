@@ -14,7 +14,7 @@ Kpekpeɖeŋu na DeFi kple DApps: Zcash xɔlawo ateŋu akpɔ gome le DeFi ƒe mɔ
 ### Mɔ̃ɖaŋununya ƒe Akpawo
 
 **ZavaX Oracle si woɖe ɖe vovo**
-Numeɖeɖe: ZavaX oracle le vevie ŋutɔ na tɔdzisasrãa, enaa crosschain ƒe asi nuɖuɖuwo eye wònaa ZEC yi AVAX ƒe tɔtrɔ siwo dzi womate ŋu aka ɖo o te ŋu wɔa dɔ.
+Numeɖeɖe: ZavaX Oracle le vevie ŋutɔ na tɔdzisasrãa, enaa crosschain ƒe asi nuɖuɖuwo eye wònaa ZEC yi AVAX ƒe tɔtrɔ siwo dzi womate ŋu aka ɖo o te ŋu wɔa dɔ.
 [Kadodo kple Oracle](https://zavax-oracle.red.dev)
 
 **Cross Chain Tɔdzisasrã ƒe Nubabla**
@@ -28,7 +28,7 @@ Numeɖeɖe: Ekpɔa egbɔ be wokpɔ Zcash ƒe adzamenyawo ta le tɔdzisasrã ƒe 
 **Zcash Elastic Subnet Tɔdzisasrã le Avalanche **: [Gakpekpeɖeŋunana ƒe Aɖaŋuɖoɖo](https://zcashgrants.org/gallery/25215916-53ea-4041-a3b2-6d00c487917d/36243580/)
 Nu vevi siwo woatsɔ awɔ dɔe kple mɔ̃ɖaŋununya ƒe dɔwɔnu siwo wowu enu na Zcash Avalanche RedBridge dɔa le ete:
 
-Deliverable 1.1: PoC gbãtɔ si doa alɔ testnet Zcash ƒe asitsatsa biabia tso testnet Avalanche subnet si me CLI le, si wota ɖe Github dzi eye kple node ɖeka subnet le Avalanche testnet dzi. https://github.com/red-dev-inc/zavax-oracle
+Deliverable 1.1: PoC gbãtɔ si doa alɔ testnet Zcash ƒe asitsatsa biabia tso testnet Avalanche subnet si me CLI le, si wota ɖe GitHub dzi eye kple node ɖeka subnet le Avalanche testnet dzi. https://github.com/red-dev-inc/zavax-oracle
 
 Woate ŋu atsɔe ana 2.1: [Xɔtata](https://github.com/red-dev-inc/zavax-bridge/tree/main/Architecture)
 
@@ -49,9 +49,9 @@ Deliverable 5.1 GUI: tɔdzisasrã ƒe ƒoƒo ɖekae ɖe Core alo Webapp me
 
 Nu vevi 6 June 30, 2024
 Deliverable 6.1 Dzidzedzekpɔkpɔ to kɔmpiutadziɖoɖowo ƒe agbalẽdzikpɔkpɔ me
-Deliverable 6.2 Dzɔtsoƒe ƒe kɔpi si wodzro la tata ɖe dutoƒo Github repo
+Deliverable 6.2 Dzɔtsoƒe ƒe kɔpi si wodzro la tata ɖe dutoƒo GitHub repo
 
-Lé ŋku ɖe... [Github ƒe nuŋlɔɖi](https://github.com/red-dev-inc/zavax-bridge/tree/main/Architecture)
+Lé ŋku ɖe... [GitHub ƒe nuŋlɔɖi](https://github.com/red-dev-inc/zavax-bridge/tree/main/Architecture)
   
 Ne èdi mɔ̃ɖaŋu ŋuti nyatakaka bubuwo la, míele dzi dem ƒo na ezãlawo be woalé ŋku ɖe nudzraɖoƒe kple nuŋlɔɖiwo ŋu na RedBridge dɔa be... [tsa le eme](https://zcashgrants.org/gallery/25215916-53ea-4041-a3b2-6d00c487917d/36243580/) ƒoƒo ɖekae ƒe nyatakakawo, dodokpɔ ƒe ɖoɖowo, kple dedienɔnɔ ƒe ɖoɖowo.
 

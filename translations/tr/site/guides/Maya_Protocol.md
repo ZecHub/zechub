@@ -31,7 +31,7 @@ Bu şekilde kullanıcılar, bir blokzincirde bir tür token gönderip başka bir
 
 Proof of Bond (PoB), node operatörlerinin ağa katılabilmek için bir bond (genellikle ağın yerel token’ı biçiminde) taahhüt etmek zorunda olduğu bir mutabakat mekanizmasıdır. Bu bond, ekonomik bir güvenlik biçimi olarak işlev görür ve node’ların dürüst davranmasını, ayrıca ağın bütünlüğünü korumasını sağlar2. Bir node kötü niyetli davranmaya çalışırsa ya da görevlerini yerine getiremezse, bond’u slashing’e uğrayabilir; yani ceza olarak bir kısmı elinden alınabilir.
 
-Maya Protocol’te bu mekanizma, node operatörlerinin stake ettiği kaynaklardan ekonomik değer üretilmesine yardımcı olarak sermaye verimliliğini artırır. Benzer şekilde Thorchain’de node operatörleri, ağı güvence altına almak ve katılımcılar arasındaki iş birliğini sağlamak için RUNE (yerel token) bond eder.
+Maya Protocol’te bu mekanizma, node operatörlerinin stake ettiği kaynaklardan ekonomik değer üretilmesine yardımcı olarak sermaye verimliliğini artırır. Benzer şekilde THORChain’de node operatörleri, ağı güvence altına almak ve katılımcılar arasındaki iş birliğini sağlamak için RUNE (yerel token) bond eder.
 
 ## Maya ve THORChain arasındaki farklar
 
@@ -60,12 +60,12 @@ Yine de farklılıklarına rağmen Maya, THORChain için tamamlayıcı bir çöz
 
 Ayrıca Maya'nın amacı, başka hizmetlerin üzerine inşa edebileceği bir *backend* haline gelmektir; böylece Maya altyapısı üzerine kurulu çok sayıda yeni *frontend* veya DEX hizmeti ortaya çıkması hedeflenmektedir.
 
-## Maya protocol cüzdan entegrasyonu
+## Maya Protocol cüzdan entegrasyonu
 
 Bir *backend* olarak çalışan Maya'nın kullanılabilmesi için farklı kullanıcı arayüzleri ve cüzdanlar tarafından desteklenmesi gerekir. 
 İşte Maya'yı hâlihazırda destekleyen bazı hizmetlerin listesi:
 
-[Thorwallet DEX](https://www.thorwallet.org/): Ledger, XDEFI, Metamask, Keystore
+[Thorwallet DEX](https://www.thorwallet.org/): Ledger, XDEFI, MetaMask, Keystore
 
 [El Dorado](https://www.eldorado.market/): XDEFI, Keystore
 

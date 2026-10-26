@@ -161,7 +161,7 @@ Transparentes Setup (Kein Trusted Setup) – Der Vorverarbeitungsalgorithmus ver
 
 [Groth16](https://eprint.iacr.org/2016/260): Erfordert ein Trusted Setup, hat aber sehr kurze Beweise, die schnell verifiziert werden können.
 
-[Sonic](https://www.youtube.com/watch?v=oTRAg6Km1os)/[Marlin](https://www.youtube.com/watch?v=bJDLf8KLdL0)/[Plonk](https://eprint.iacr.org/2019/953): Universelles Trusted Setup.
+[Sonic](https://www.youtube.com/watch?v=oTRAg6Km1os)/[Marlin](https://www.youtube.com/watch?v=bJDLf8KLdL0)/[PLONK](https://eprint.iacr.org/2019/953): Universelles Trusted Setup.
 
 [DARK](https://eprint.iacr.org/2019/1229)/[Halo](https://eprint.iacr.org/archive/2019/1021/20200218:011907)/[STARK](https://www.youtube.com/watch?v=wFZ_YIetK1o): Kein Trusted Setup, erzeugen aber etwas längere Beweise oder der Prover benötigt möglicherweise mehr Zeit für die Ausführung.
 

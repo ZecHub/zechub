@@ -3,7 +3,7 @@
 </a>
 
 # <img src="/content-images/image-2024-02-03-170636194-b507a57ff1.webp" alt="Alt Text" width="50"/>    Klub ZKAV
-[Situs Web](https://zkav.club) - [Github](https://github.com/copernicus-mogley/zkav.club) - [X/Twitter](https://x.com/ZkAv_Club) - [Youtube](https://www.youtube.com/@ZkAv_Club)
+[Situs Web](https://zkav.club) - [GitHub](https://github.com/copernicus-mogley/zkav.club) - [X/Twitter](https://x.com/ZkAv_Club) - [YouTube](https://www.youtube.com/@ZkAv_Club)
 
 *Didukung oleh Zcash Foundation, proyek akar rumput yang ambisius ini bertujuan untuk memberikan dampak global melalui aksi lokal dan regional. Mengundang komunitas kreator untuk belajar dan bekerja bersama guna mengangkat serta menyebarluaskan berita dan cerita yang menginspirasi, mendidik, dan berbagi janji dari Zcash dan privasi finansial*.
 

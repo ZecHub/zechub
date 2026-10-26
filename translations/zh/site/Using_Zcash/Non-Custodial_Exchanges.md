@@ -43,22 +43,22 @@ Zcash 的隐私来自屏蔽地址。当 ZEC 在屏蔽地址之间转移时，发
 一笔兑换包含 Zcash 无法隐藏的部分：
 
 - **源网络。** 你从 Solana、Ethereum 或其他公开链发送的资金在该链上可见，包括你的地址和金额。
-- **接收地址。** 某些兑换路径会将 ZEC 发送至透明地址。例如，Near Intents 将 ZEC 列为仅支持 [透明地址](https://docs.near-intents.org/resources/chain-support)。发送到透明（t1 或 t3）地址的 ZEC 是公开的，与 Bitcoin 类似。之后将其屏蔽可保护你接下来进行的操作，但入账转账和屏蔽交易仍然可见。
+- **接收地址。** 某些兑换路径会将 ZEC 发送至透明地址。例如，NEAR Intents 将 ZEC 列为仅支持 [透明地址](https://docs.near-intents.org/resources/chain-support)。发送到透明（t1 或 t3）地址的 ZEC 是公开的，与 Bitcoin 类似。之后将其屏蔽可保护你接下来进行的操作，但入账转账和屏蔽交易仍然可见。
 - **服务。** 应用及任何路由服务都能看到你提供的地址和金额，以及 IP 地址等连接数据。
 
 将 ZEC 发送到由你控制的钱包，并在使用前将其屏蔽。[私密地使用 ZEC](/guides/using-zec-privately) 介绍了后续步骤。
 
 ### **一笔兑换涉及哪些角色**
 
-以通过 Near Intents 1Click 服务路由的一笔兑换为例。其 [API 条款](https://docs.near-intents.org/security-compliance/terms-of-service) 将以下内容视为彼此独立的组成部分：
+以通过 NEAR Intents 1Click 服务路由的一笔兑换为例。其 [API 条款](https://docs.near-intents.org/security-compliance/terms-of-service) 将以下内容视为彼此独立的组成部分：
 
 - **界面**：你使用的网站或钱包。它可由 Intents Technology 运营，也可由拥有自身条款的第三方运营。
 - **1Click**：由 Intents Technology Limited 运营的路由和结算服务。你会将资金发送至为你的报价创建的充值地址。文档称 1Click 不会托管资金，但条款指出，转账进行期间，资产可能会被持有或锁定在桥基础设施中。
-- **协议**：Near Intents 智能合约。
+- **协议**：NEAR Intents 智能合约。
 - **求解器**：完成报价的独立第三方。
 - **桥**：原生 ZEC 通过由 Intents Technology 运营的 PoA Bridge 转移。
 
-Near Intents 还会针对多个 AML 数据库 [筛查集成报价流程](https://docs.near-intents.org/security-compliance/risk-and-compliance)，并表示覆盖范围因流程和集成而异。根据其条款，被标记的兑换可能被延迟、阻止、冻结或拒绝。
+NEAR Intents 还会针对多个 AML 数据库 [筛查集成报价流程](https://docs.near-intents.org/security-compliance/risk-and-compliance)，并表示覆盖范围因流程和集成而异。根据其条款，被标记的兑换可能被延迟、阻止、冻结或拒绝。
 
 ### **兑换期间你会共享什么**
 
@@ -72,8 +72,8 @@ Near Intents 还会针对多个 AML 数据库 [筛查集成报价流程](https:/
 条款会发生变化，因此在进行大额兑换前请阅读最新版本。
 
 - **从你使用的应用开始。** 它是你的主要联系点。1Click API 条款称，Intents Technology 与基于其构建的应用用户不存在直接关系。
-- **Near Intents：** near.com/terms 和 near.com/privacy 上的条款及隐私政策，以及 [1Click API 条款](https://docs.near-intents.org/security-compliance/terms-of-service)和 [风险与合规](https://docs.near-intents.org/security-compliance/risk-and-compliance)。
-- **追踪和支持：** 可在 [Near Intents Explorer](https://explorer.near-intents.org) 查询一笔兑换，或在 [Near Intents Telegram](https://t.me/near_intents) 中提问。
+- **NEAR Intents：** near.com/terms 和 near.com/privacy 上的条款及隐私政策，以及 [1Click API 条款](https://docs.near-intents.org/security-compliance/terms-of-service)和 [风险与合规](https://docs.near-intents.org/security-compliance/risk-and-compliance)。
+- **追踪和支持：** 可在 [NEAR Intents Explorer](https://explorer.near-intents.org) 查询一笔兑换，或在 [NEAR Intents Telegram](https://t.me/near_intents) 中提问。
 - **退款：** 失败的兑换可能会退回到你提供的退款地址，但 near.com 的条款称不保证退款。1Click 条款还称，不会考虑处理低于 300 美元的用户错误恢复请求。
 
 现在，让我们探索几个可便捷使用、可促进 Zcash 交易的非托管交易所。使用这些平台可为你提供获取更多 Zcash 币的便利方式。

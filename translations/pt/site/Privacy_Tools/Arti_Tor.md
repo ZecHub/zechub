@@ -38,7 +38,7 @@ Antes de compilar o Arti a partir do código-fonte, você precisa ter instalada 
 Isso confirmará que você tem a versão estável mais recente do Rust instalada no seu sistema.
 
 #### **Nota para Usuários do Windows**:
-- O Rust pode ser instalado no Windows via [**Rustup**](https://rustup.rs/), um instalador de toolchains. Certifique-se de também configurar um ambiente de compilação compatível (você pode precisar do **Visual Studio Build Tools** no Windows).
+- O Rust pode ser instalado no Windows via [**rustup**](https://rustup.rs/), um instalador de toolchains. Certifique-se de também configurar um ambiente de compilação compatível (você pode precisar do **Visual Studio Build Tools** no Windows).
   
 ---
 

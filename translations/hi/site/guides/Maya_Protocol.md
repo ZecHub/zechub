@@ -31,7 +31,7 @@ Maya Protocol को Cosmos Software Development Kit (Cosmos SDK) का उप�
 
 Proof of Bond (PoB) एक consensus mechanism है जिसमें node operators को network में भाग लेने के लिए एक bond (आमतौर पर network के native token के रूप में) commit करना होता है। यह bond आर्थिक सुरक्षा के एक रूप की तरह काम करता है, जिससे यह सुनिश्चित होता है कि nodes ईमानदारी से काम करें और network की integrity बनाए रखें2। यदि कोई node दुर्भावनापूर्ण ढंग से काम करने की कोशिश करता है या अपने कर्तव्यों का पालन करने में विफल रहता है, तो उसका bond slashed किया जा सकता है, यानी दंड के रूप में उसका एक हिस्सा ले लिया जाता है।
 
-Maya Protocol में, यह mechanism node operators के staked resources से आर्थिक मूल्य उत्पन्न करने में मदद करता है, जिससे capital efficiency बढ़ती है। इसी तरह, Thorchain में node operators network को secure करने और participants के बीच सहयोग सुनिश्चित करने के लिए RUNE (native token) bond करते हैं।
+Maya Protocol में, यह mechanism node operators के staked resources से आर्थिक मूल्य उत्पन्न करने में मदद करता है, जिससे capital efficiency बढ़ती है। इसी तरह, THORChain में node operators network को secure करने और participants के बीच सहयोग सुनिश्चित करने के लिए RUNE (native token) bond करते हैं।
 
 ## Maya और THORChain के बीच अंतर
 
@@ -60,12 +60,12 @@ Maya Protocol की genesis के समय, उपलब्ध CACAO reserves
 
 इसके अलावा, Maya का लक्ष्य अन्य services के लिए एक *backend* बनना है, ताकि उसके ऊपर बहुत सारे नए *frontends* या Maya की infraestructure पर बने DEX services विकसित हो सकें।
 
-## Maya protocol wallet integration
+## Maya Protocol wallet integration
 
 एक *backend* के रूप में काम करते हुए, Maya को उपयोग में लाने के लिए अलग-अलग UI's और wallets द्वारा support किया जाना आवश्यक है। 
 यहाँ कुछ ऐसी services की सूची है जो पहले से Maya को support करती हैं:
 
-[Thorwallet DEX](https://www.thorwallet.org/): Ledger, XDEFI, Metamask, Keystore
+[Thorwallet DEX](https://www.thorwallet.org/): Ledger, XDEFI, MetaMask, Keystore
 
 [El Dorado](https://www.eldorado.market/): XDEFI, Keystore
 

@@ -4,7 +4,7 @@
 ## Persiapan
 
 * Node Zebrad sedang berjalan dan telah tersinkronisasi penuh dengan RPC yang aktif dan dikonfigurasi untuk menggunakan cookie
- * Zainod telah tersinkronisasi penuh
+ * zainod telah tersinkronisasi penuh
  * Zallet diatur untuk menjalankan RPC
 
 

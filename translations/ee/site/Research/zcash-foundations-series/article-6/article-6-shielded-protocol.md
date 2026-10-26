@@ -153,7 +153,7 @@ Esiae nye nɔnɔmetata si de blibo wu le nusiwo kplɔ wo nɔewo ɖo me, gake ega
 | Nyagbe | Plain-Eŋlisigbe me gɔmesese |
 |---|---|
 | **Spending key** | Ke ɖeka ƒe nya ɣaɣla si me zãla ƒe safuiwo katã tso |
-| **Viewing key** | Eɖea wò asitsatsa fiana na amesi le asiwò evɔ mèɖea mɔ na wo be woazã |
+| **Viewing Key** | Eɖea wò asitsatsa fiana na amesi le asiwò evɔ mèɖea mɔ na wo be woazã |
 | **Spend description** | Tx ƒe akpa si ɖua nuŋlɔɖi (nullifier, anchor, proof) |
 | **Output description** | Tx ƒe akpa si wɔa nuŋlɔɖi (ɖokuitsɔtsɔna, nya ɣaɣla, kpeɖodzi) |
 | **Action (Orchard)** | Dɔwɔha ɖeka si wɔa gazazã ɖeka kple nu ɖeka wɔwɔ ɖekae |

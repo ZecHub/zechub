@@ -52,7 +52,7 @@ Yani, eğer bir kurabiye canavarıysanız..,
 
 artık ZEC'inizi nerede harcayacağınızı biliyorsunuz!
 
-**Web sitesi**: sheemprende.com kapatıldı ve artık erişilemiyor. Ona [Free2z](https://free2z.cash/SheEmprende) | [X Platformu](https://twitter.com/SheEmprende_) üzerinden ulaşın.
+**Web sitesi**: sheemprende.com kapatıldı ve artık erişilemiyor. Ona [Free2Z](https://free2z.cash/SheEmprende) | [X Platformu](https://twitter.com/SheEmprende_) üzerinden ulaşın.
 
 **Zcash Unified Address:** 
 
@@ -74,7 +74,7 @@ Rosa, **Zcash** kabul ettiğini gururla gülümseyerek gösteriyor.
 
 **Web sitesi**: somosdulceros.com kapatıldı ve artık erişilemiyor. Aşağıdaki sosyal medya bağlantılarını kullanın.
 
-**Sosyal medya:** [Instagram](https://www.instagram.com/somos_dulceros) | [X Platformu](https://twitter.com/RosaMRangel) | [Free2z](https://free2z.cash/Criptodulceros/zpage/criptodulceros-01)
+**Sosyal medya:** [Instagram](https://www.instagram.com/somos_dulceros) | [X Platformu](https://twitter.com/RosaMRangel) | [Free2Z](https://free2z.cash/Criptodulceros/zpage/criptodulceros-01)
 
 **Zcash Unified Address:** 
 
@@ -106,7 +106,7 @@ Papeles a Color'un el yapımı diğer güzel ürünlerinden bazıları.
 
 **Sosyal medya** 
 
-[Instagram](https://instagram.com/papelesacolor) | [Free2z](https://free2z.cash/PapelesaColor) 
+[Instagram](https://instagram.com/papelesacolor) | [Free2Z](https://free2z.cash/PapelesaColor) 
 
 [Linktree](https://linktr.ee/Papelesacolor)
 
@@ -193,7 +193,7 @@ ZFAV kulübüne yaptığı katkı sayesinde çalışmaları Zcash ekosisteminde 
 
 **Sosyal medya:**
 
-[Telegram](https://t.me/Robmarn) | [X Platformu](https://twitter.com/robmarn) | [Free2z](https://free2z.cash/robmarn)
+[Telegram](https://t.me/Robmarn) | [X Platformu](https://twitter.com/robmarn) | [Free2Z](https://free2z.cash/robmarn)
 
 📍Barquisimeto - Venezuela 
 
@@ -261,7 +261,7 @@ Tecnopapapi iletişime geçmeniz gereken doğru kişi!
 
 **Sosyal medya** 
 
-Free2z | [Telegram](https://t.me/Lexihel) | [YouTube](https://youtube.com/@tecnopapapi) | [X Platformu](https://twitter.com/tecnopapapi) | [TikTok](https://www.tiktok.com/@lexihel) | [Instagram](https://www.instagram.com/tecnopapapi/) |  [Facebook](https://www.facebook.com/tecnopapapi) 
+Free2Z | [Telegram](https://t.me/Lexihel) | [YouTube](https://youtube.com/@tecnopapapi) | [X Platformu](https://twitter.com/tecnopapapi) | [TikTok](https://www.tiktok.com/@lexihel) | [Instagram](https://www.instagram.com/tecnopapapi/) |  [Facebook](https://www.facebook.com/tecnopapapi) 
 
 Tecnopapapi, kripto paraları (3ZEC dahil) ve diğer ödeme yöntemlerini kabul eder. 
 

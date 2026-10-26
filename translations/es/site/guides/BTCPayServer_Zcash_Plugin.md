@@ -14,7 +14,7 @@ BTCPay Server permite a los negocios en línea aceptar pagos con criptomonedas d
 - [¿Dónde se almacenan los fondos? ¿Quién controla las claves privadas?](#Where-Are-Funds-Stored-Who-Controls-the-Private-Keys)
 - [Cómo configurar BTCPay Server para aceptar Zcash](#How-to-Set-Up-BTCPay-Server-for-Accepting-Zcash)
   - [Desplegar BTCPay Server con soporte para Zcash](#Deploying-BTCPay-Server-with-Zcash-Support)
-  - [Ejecutar tu propio nodo completo de Zcash (Zebra + Lightwalletd)](#Running-Your-Own-Zcash-Full-Node)
+  - [Ejecutar tu propio nodo completo de Zcash (Zebra + lightwalletd)](#Running-Your-Own-Zcash-Full-Node)
   - [Conectarse a un nodo externo de lightwalletd (configuración personalizada)](#Connecting-to-an-External-Lightwalletd-Node)
   - [Alojar BTCPay Server en casa con Cloudflare Tunnel](#Hosting-BTCPay-Server-at-Home-with-Cloudflare-Tunnel)
 - [Configurar el plugin de Zcash en la interfaz web de BTCPay Server](#Configuring-the-Zcash-Plugin-in-the-BTCPay-Server-Web-Interface)
@@ -325,19 +325,19 @@ Luego continúa con la siguiente sección para configurar Zcash en la interfaz w
 
 ## Ejecutar tu propio nodo completo de Zcash
 
-Si prefieres **no** depender de nodos públicos `lightwalletd`, puedes desplegar tu propio nodo completo de Zcash junto con Lightwalletd en el mismo servidor.  
+Si prefieres **no** depender de nodos públicos `lightwalletd`, puedes desplegar tu propio nodo completo de Zcash junto con lightwalletd en el mismo servidor.  
 Esto te da **autonomía total**: sin dependencias externas y sin necesidad de confiar en terceros.
 
 ---
 
 ### Paso 1: asegurarse de tener suficiente espacio en disco
 
-Un nodo completo de Zcash (Zebra + Lightwalletd) requiere actualmente **más de 300 GB** de espacio en disco, y sigue creciendo.
+Un nodo completo de Zcash (Zebra + lightwalletd) requiere actualmente **más de 300 GB** de espacio en disco, y sigue creciendo.
 
 Desglose:
 
 - La base de datos de la blockchain de Zebra: ~260-270 GB
-- La indexación de Lightwalletd: ~15-20 GB
+- La indexación de lightwalletd: ~15-20 GB
 
 #### Almacenamiento recomendado:
 
@@ -367,7 +367,7 @@ Esto incluirá el fragmento `zcash-fullnode`, que inicia tanto `zebrad` como `li
 
 El script:
 
-* Descargará las imágenes Docker para Zebra y Lightwalletd
+* Descargará las imágenes Docker para Zebra y lightwalletd
 * Configurará los servicios dentro de la pila de BTCPay
 * Vinculará el plugin de Zcash con la instancia **local** de `lightwalletd`
 
@@ -375,7 +375,7 @@ El script:
 > Hasta que la sincronización se complete, los pagos blindados no estarán disponibles.
 
 
-## Conectarse a un nodo externo de Lightwalletd
+## Conectarse a un nodo externo de lightwalletd
 
 En la mayoría de los casos, no se requiere autonomía total, y puede que los comerciantes no quieran dedicar tiempo y espacio en disco a ejecutar un nodo completo de Zcash.  
 Por defecto, BTCPay Server se conecta a un nodo público `lightwalletd` para gestionar pagos blindados sin descargar toda la blockchain.
@@ -907,8 +907,8 @@ Te deseamos mucho éxito explorando el ecosistema de BTCPay y haciendo que tus p
 * [Plugin de Zcash para BTCPay (GitHub)](https://github.com/btcpay-zcash/btcpayserver-zcash-plugin)
 * [Guía de instalación del plugin de Zcash](https://github.com/btcpay-zcash/btcpayserver-zcash-plugin/blob/master/docs/installation.md)
 * [Ejemplo personalizado de zcash-lightwalletd.custom.yml](https://github.com/btcpay-zcash/btcpayserver-zcash-plugin/blob/master/docs/zcash-lightwalletd.custom.yml)
-* [Archivo Docker Compose de Lightwalletd (Zebra)](https://github.com/ZcashFoundation/zebra/blob/main/docker/docker-compose.lwd.yml)
+* [Archivo Docker Compose de lightwalletd (Zebra)](https://github.com/ZcashFoundation/zebra/blob/main/docker/docker-compose.lwd.yml)
 * [Documentación de claves API de BTCPay (Greenfield API)](https://docs.btcpayserver.org/API/Greenfield/v1/#tag/API-Keys)
 * [Crear un Cloudflare Tunnel](https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/get-started/create-remote-tunnel/)
 * [Lista de compatibilidad de wallets de Zcash (ZecHub)](https://zechub.wiki/wallets)
-* [Zebra + Lightwalletd en Raspberry Pi 5 (ZecHub)](https://free2z.com/ZecHub/zpage/zcash-101-zebra-lightwalletd-sync-journal-on-raspberry-pi-5)
+* [Zebra + lightwalletd en Raspberry Pi 5 (ZecHub)](https://free2z.com/ZecHub/zpage/zcash-101-zebra-lightwalletd-sync-journal-on-raspberry-pi-5)

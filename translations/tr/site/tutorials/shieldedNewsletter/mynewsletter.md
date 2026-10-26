@@ -41,7 +41,7 @@ Zebra 1.8.0 En Son Sürüm, FROST Yayınlandı, Zooko Yeni bir Zcash Projesi Ba�
 
 [Zcash Brazil Haftalık Görüşme 22](https://x.com/zcashbrazil/status/1808206303107731746)
 
-[MacOS Signal uygulamasını kullanmayın - alberdioni8406 Free2z'de](https://x.com/free2zcash/status/1809716224940781965)
+[MacOS Signal uygulamasını kullanmayın - alberdioni8406 Free2Z'de](https://x.com/free2zcash/status/1809716224940781965)
 
 [Web 2.0'ın Gizli Maliyetleri - Zcash Media ](https://x.com/zcashmedia/status/1809580807616397557)
 

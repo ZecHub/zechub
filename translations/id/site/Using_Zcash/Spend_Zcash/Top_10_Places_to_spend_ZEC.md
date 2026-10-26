@@ -52,7 +52,7 @@ Jadi, jika kamu adalah monster kue..,
 
 sekarang kamu tahu ke mana harus membelanjakan ZEC milikmu!
 
-**Situs Web**: sheemprende.com telah dipensiunkan dan tidak lagi dapat diakses. Hubungi dia di [Free2z](https://free2z.cash/SheEmprende) | [Platform X](https://twitter.com/SheEmprende_)
+**Situs Web**: sheemprende.com telah dipensiunkan dan tidak lagi dapat diakses. Hubungi dia di [Free2Z](https://free2z.cash/SheEmprende) | [Platform X](https://twitter.com/SheEmprende_)
 
 **Zcash Unified Address:**
 
@@ -74,7 +74,7 @@ Rosa tersenyum bangga menunjukkan bahwa ia menerima **Zcash.**
 
 **Situs Web**: somosdulceros.com telah dipensiunkan dan tidak lagi dapat diakses. Gunakan tautan media sosial di bawah ini.
 
-**Media sosial:** [Instagram](https://www.instagram.com/somos_dulceros) | [X Platform](https://twitter.com/RosaMRangel) | [Free2z](https://free2z.cash/Criptodulceros/zpage/criptodulceros-01)
+**Media sosial:** [Instagram](https://www.instagram.com/somos_dulceros) | [X Platform](https://twitter.com/RosaMRangel) | [Free2Z](https://free2z.cash/Criptodulceros/zpage/criptodulceros-01)
 
 **Zcash Unified Address:**
 
@@ -106,7 +106,7 @@ Beberapa hal indah lainnya yang dibuat secara kerajinan tangan oleh Papeles a Co
 
 **Media sosial**
 
-[Instagram](https://instagram.com/papelesacolor) | [Free2z](https://free2z.cash/PapelesaColor)
+[Instagram](https://instagram.com/papelesacolor) | [Free2Z](https://free2z.cash/PapelesaColor)
 
 [Linktree](https://linktr.ee/Papelesacolor)
 
@@ -261,7 +261,7 @@ Tecnopapapi adalah orang yang tepat untuk dihubungi!
 
 **Media sosial**
 
-Free2z | [Telegram](https://t.me/Lexihel) | [YouTube](https://youtube.com/@tecnopapapi) | [X Platform](https://twitter.com/tecnopapapi) | [TikTok](https://www.tiktok.com/@lexihel) | [Instagram](https://www.instagram.com/tecnopapapi/) |  [Facebook](https://www.facebook.com/tecnopapapi)
+Free2Z | [Telegram](https://t.me/Lexihel) | [YouTube](https://youtube.com/@tecnopapapi) | [X Platform](https://twitter.com/tecnopapapi) | [TikTok](https://www.tiktok.com/@lexihel) | [Instagram](https://www.instagram.com/tecnopapapi/) |  [Facebook](https://www.facebook.com/tecnopapapi)
 
 Tecnopapapi menerima mata uang kripto (termasuk 3ZEC) dan metode pembayaran lainnya.
 

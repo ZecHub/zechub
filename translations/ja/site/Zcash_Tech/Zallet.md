@@ -202,7 +202,7 @@ Zalletと**zecd**は、どちらもZebraの前段に配置できます。`z_*`�
 - [Zebra Full Node](Zebra_Full_Node.md) — ノードZalletのデフォルトバックエンドが読み取るもの
 - [Zakura Node](Zakura_Node.md) — 代替の検証ノード
 - [Zaino](Zaino.md) — インデクサーバックエンドおよびライトクライアントサーバー
-- [ZECD](ZECD.md) — librustzcash上の別のウォレットサーバー設計
+- [zecd](ZECD.md) — librustzcash上の別のウォレットサーバー設計
 - [Zcash Wallet Syncing](Zcash_Wallet_Syncing.md) — シールドウォレットがチェーンをスキャンする仕組み
 - [Viewing Keys](Viewing_Keys.md)
 

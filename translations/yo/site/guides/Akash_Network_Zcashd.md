@@ -475,7 +475,7 @@ Olùpèsè náà lè ní àwọn ìṣòro nẹ́túwèrìkì tàbí ìsókè-à
 
 ### Àìdáa nínú ìfọwọ́sí RPC
 
--> Ṣayẹwo pe *ZCASHD_RPCUSER* ati *Z CASHD_ RPCPASSWORD* ti wa ni ṣeto daradara.
+-> Ṣayẹwo pe `ZCASHD_RPCUSER` ati *Z CASHD_ RPCPASSWORD* ti wa ni ṣeto daradara.
 
 -> Ṣayẹwo pe o nlo ibudo ti o tọ (8232 fun mainnet, 18232 fún testnet)
 

@@ -475,7 +475,7 @@ Il provider potrebbe avere problemi di rete o banda lenta. Di solito si risolve 
 
 ### Errori di autenticazione RPC
 
--> Controlla che *ZCASHD_RPCUSER* e *ZCASHD_RPCPASSWORD* siano impostati correttamente
+-> Controlla che `ZCASHD_RPCUSER` e `ZCASHD_RPCPASSWORD` siano impostati correttamente
 
 -> Verifica di usare la porta corretta (8232 per mainnet, 18232 per testnet)
 

@@ -161,7 +161,7 @@ Setup transparente (sans trusted setup)- L’algorithme de prétraitement n’ut
 
 [Groth16](https://eprint.iacr.org/2016/260): Nécessite une configuration de confiance, mais possède des preuves très courtes qui peuvent être vérifiées rapidement.
 
-[Sonic](https://www.youtube.com/watch?v=oTRAg6Km1os)/[Marlin](https://www.youtube.com/watch?v=bJDLf8KLdL0)/[Plonk](https://eprint.iacr.org/2019/953): Trusted Setup universelle.
+[Sonic](https://www.youtube.com/watch?v=oTRAg6Km1os)/[Marlin](https://www.youtube.com/watch?v=bJDLf8KLdL0)/[PLONK](https://eprint.iacr.org/2019/953): Trusted Setup universelle.
 
 [DARK](https://eprint.iacr.org/2019/1229)/[Halo](https://eprint.iacr.org/archive/2019/1021/20200218:011907)/[STARK](https://www.youtube.com/watch?v=wFZ_YIetK1o): Pas de configuration de confiance, mais produisent des preuves légèrement plus longues ou peuvent demander plus de temps d’exécution au prouveur.
 

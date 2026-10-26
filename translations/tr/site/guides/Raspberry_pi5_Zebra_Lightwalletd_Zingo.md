@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Sayfayı Düzenle"/>
 </a>
 
-# Zingo ile RPi5 Zebra Lightwalletd
+# Zingo ile RPi5 Zebra lightwalletd
 
 ## Video Eğitimi
 
@@ -10,7 +10,7 @@
   <iframe
     className="w-full h-full"
     src="https://www.youtube.com/embed/FfH5jiX8pT0"
-    title="Lightwalletd ile Zcash Zebra Node Kullanımı: EĞİTİM"
+    title="lightwalletd ile Zcash Zebra Node Kullanımı: EĞİTİM"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowFullScreen
     loading="lazy"
@@ -27,7 +27,7 @@ sudo apt install libclang-dev clang pkg-config openssl protobuf-compiler npm
 
 ## Zebra'yı Derleme
 
-[Zebra Github](https://github.com/ZcashFoundation/zebra)
+[Zebra GitHub](https://github.com/ZcashFoundation/zebra)
 
 * `time cargo install --git https://github.com/ZcashFoundation/zebra --tag v3.1.0 zebrad`
 

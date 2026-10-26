@@ -9,7 +9,7 @@ Le nœud complet traditionnel zcashd, maintenu par *Electric Coin Company (ECC)*
 ![Diagramme : zcashd se divise en zebrad pour les fonctions de nœud et Zallet pour les fonctions de wallet](/content-images/SJNBsSYTel-dfd19f34e4.webp)
 </div>
 
-Ce guide vous accompagne dans la migration de **Zcashd** vers **Zebrad** et **Zallet**, y compris l'installation, l'importation du wallet et la résolution des problèmes courants de migration.
+Ce guide vous accompagne dans la migration de **zcashd** vers **Zebrad** et **Zallet**, y compris l'installation, l'importation du wallet et la résolution des problèmes courants de migration.
 
 ---
 

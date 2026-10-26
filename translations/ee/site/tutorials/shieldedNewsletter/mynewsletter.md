@@ -41,7 +41,7 @@ Zebra 1.8.0 Nu yeyetɔ si woɖe ɖe go, FROST wota, Zooko Dze Zcash Dɔwɔɖoɖo
 
 [Zcash Brazil Kwasiɖa sia Kwasiɖa Kaƒoƒo 22](https://x.com/zcashbrazil/status/1808206303107731746)
 
-[Mègazã MacOS Signal dɔwɔnua o - alberdioni8406 le Free2z dzi](https://x.com/free2zcash/status/1809716224940781965)
+[Mègazã MacOS Signal dɔwɔnua o - alberdioni8406 le Free2Z dzi](https://x.com/free2zcash/status/1809716224940781965)
 
 [Nyatakakadzraɖoƒe 2.0 ƒe Gazazã Ɣaɣlawo - Zcash Media ](https://x.com/zcashmedia/status/1809580807616397557)
 

@@ -8,7 +8,7 @@
 
 न्यूज़लेटर के लिए लिंक क्यूरेट करें और उन्हें न्यूज़लेटर के GitHub पेज में जोड़ें: -> [निर्देशों के लिए यहाँ क्लिक करें](https://github.com/ZecHub/zechub/blob/main/site/contribute/ZecWeekly_Newsletter.md)
 
-विकी दस्तावेज़ों की तथ्य-जांच करें, संपादन सुझाएँ, और Github में नए पृष्ठ प्रस्तावित करें
+विकी दस्तावेज़ों की तथ्य-जांच करें, संपादन सुझाएँ, और GitHub में नए पृष्ठ प्रस्तावित करें
 
 निम्नलिखित श्रेणियों में वीडियो सामग्री बनाएँ:
 ```
@@ -50,9 +50,9 @@ Zcash और Privacy ecosystem के लिए पोस्टर/ग्रा�
 
 [ZEC Bounties](https://bounties.zechub.wiki/)
 
-[ZecHub Github Issues](https://github.com/ZecHub/zechub/issues)
+[ZecHub GitHub Issues](https://github.com/ZecHub/zechub/issues)
 
-[ZecHub-Wiki Github Issues](https://github.com/ZecHub/zechub-wiki/issues)
+[ZecHub-Wiki GitHub Issues](https://github.com/ZecHub/zechub-wiki/issues)
 
 यदि योगदान देने के अन्य तरीके हैं जिनमें आपकी रुचि है, तो कृपया Twitter पर ZecHub ([@ZecHub](https://twitter.com/zechub)) को संदेश भेजें या हमारे [Discord](https://discord.gg/zcash) से जुड़ें।
 

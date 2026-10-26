@@ -3,7 +3,7 @@
 </a>
 
 # <img src="/content-images/image-2024-02-03-164918723-f59419848a.webp" alt="Alt Text" width="50"/>    Electric Coin Company (Sunset)
-[Tovuti ya Intaneti](https://electriccoin.co) - [Github](https://github.com/zodl-inc) - [X/Twitter](https://x.com/ElectricCoinCo)
+[Tovuti ya Intaneti](https://electriccoin.co) - [GitHub](https://github.com/zodl-inc) - [X/Twitter](https://x.com/ElectricCoinCo)
 
 > ** Kuhusu kwamba kiungo GitHub.** ECC ya hazina ni katika `zodl-inc`Hiyo ni shirika moja, jina lake lilibadilishwa wakati timu ilihamia [ZODL](/zcash-organizations/zodl). Mzee huyo `github.com/Electric-Coin-Company` jina hilo liliandikishwa na mtu asiyehusika mnamo Mei 2026 na halina uhusiano wowote na ECC au ZODL, kwa hivyo usitegemee nambari iliyochapishwa hapo.
 

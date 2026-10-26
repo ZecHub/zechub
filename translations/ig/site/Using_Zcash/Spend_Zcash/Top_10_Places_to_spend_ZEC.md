@@ -52,7 +52,7 @@ Ya mere, ọ bụrụ na ị bụ onye kuki anụ ọhịa ..!
 
 Ugbu a ị marala ebe i ga-eji ZEC gị emefu!
 
-**Website**: sheemprende.com ewepụla ya ma gharazie idozi ya. Kpọtụrụ ya na [Free2z (n'asụsụ Bekee)](https://free2z.cash/SheEmprende) | [X Ikpo okwu](https://twitter.com/SheEmprende_)
+**Website**: sheemprende.com ewepụla ya ma gharazie idozi ya. Kpọtụrụ ya na [Free2Z (n'asụsụ Bekee)](https://free2z.cash/SheEmprende) | [X Ikpo okwu](https://twitter.com/SheEmprende_)
 
 **Zcash Unified Address:** Ọ bụrụ na ị chọrọ ka a zụọ gị, biko kpọtụrụ anyị. 
 
@@ -74,7 +74,7 @@ Rosa ji mpako mụmụọ ọnụ ọchị na-egosi na ọ nabatara **Zcash.**
 
 **Website**: somosdulceros.com a lara ezumike nká ma gharazi idozi ya, jiri njikọ ndị dị n'okpuru ebe a na-elekọta mmadụ.
 
-**Mgbasa mgbasa ozi:** [Instagram](https://www.instagram.com/somos_dulceros) | [X Ikpo okwu](https://twitter.com/RosaMRangel) | [Free2z (n'asụsụ Bekee)](https://free2z.cash/Criptodulceros/zpage/criptodulceros-01)
+**Mgbasa mgbasa ozi:** [Instagram](https://www.instagram.com/somos_dulceros) | [X Ikpo okwu](https://twitter.com/RosaMRangel) | [Free2Z (n'asụsụ Bekee)](https://free2z.cash/Criptodulceros/zpage/criptodulceros-01)
 
 **Zcash Unified Address:** Ọ bụrụ na ị chọrọ ka a zụọ gị, biko kpọtụrụ anyị. 
 
@@ -106,7 +106,7 @@ Ihe dị iche na nke pụrụ iche? ** Zcash** ntọala chaja ekwentị mkpanaak
 
 **Mgbasa mgbasa ozi** 
 
-[Instagram](https://instagram.com/papelesacolor) | [Free2z (n'asụsụ Bekee)](https://free2z.cash/PapelesaColor) 
+[Instagram](https://instagram.com/papelesacolor) | [Free2Z (n'asụsụ Bekee)](https://free2z.cash/PapelesaColor) 
 
 [Osisi njikọ](https://linktr.ee/Papelesacolor)
 
@@ -193,7 +193,7 @@ A maara ọrụ ya nke ọma na gburugburu ebe obibi Zcash n'ihi onyinye ya maka
 
 **Mgbasa mgbasa ozi:**
 
-[Telegram](https://t.me/Robmarn) | [X Ikpo okwu](https://twitter.com/robmarn) | [Free2z (n'asụsụ Bekee)](https://free2z.cash/robmarn)
+[Telegram](https://t.me/Robmarn) | [X Ikpo okwu](https://twitter.com/robmarn) | [Free2Z (n'asụsụ Bekee)](https://free2z.cash/robmarn)
 
 Barquisimeto - Venezuela 
 
@@ -261,7 +261,7 @@ Tecnopapapi bụ onye kwesịrị ekwesị ịkpọtụrụ!
 
 **Mgbasa mgbasa ozi** 
 
-Free2z. (ụda olu) [Telegram](https://t.me/Lexihel) | [YouTube](https://youtube.com/@tecnopapapi) | [X Ikpo okwu](https://twitter.com/tecnopapapi) | [TikTok](https://www.tiktok.com/@lexihel) | [Instagram](https://www.instagram.com/tecnopapapi/) |  [Facebook (ụda)](https://www.facebook.com/tecnopapapi) 
+Free2Z. (ụda olu) [Telegram](https://t.me/Lexihel) | [YouTube](https://youtube.com/@tecnopapapi) | [X Ikpo okwu](https://twitter.com/tecnopapapi) | [TikTok](https://www.tiktok.com/@lexihel) | [Instagram](https://www.instagram.com/tecnopapapi/) |  [Facebook (ụda)](https://www.facebook.com/tecnopapapi) 
 
 Tecnopapapi na-anabata cryptocurrencies (gụnyere 3ZEC) yana usoro ịkwụ ụgwọ ndị ọzọ. 
 

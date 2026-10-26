@@ -31,7 +31,7 @@ Ni ọna yii, awọn olumulo le firanṣẹ iru ami kan lori blockchain kan ki o
 
 Proof of Bond (PoB) jẹ́ ètò ìfọwọ̀kan tí àwọn oníṣẹ́-òpó ní láti ṣe àdéhùn ìdánilójú kan (ní ọ̀nà ti àdàkọ ẹbí nẹtiwọọki náà) kí wọ́n lè kópa nínú àjọṣepọ̀. Idaduro yìí ń ṣiṣẹ́ bí ọ̀nà ìṣúnná owó, ó sì mú un dáni lójú pé àwọn nodes máa hùwà láìlábòsí àti tọpinpin àìlálèébù àwùjọ.2 Bí nódù bá gbìyànjú láti hu ìwà burúkú tàbí kìíṣe iṣẹ́ rẹ̀ dáadáa, a le gé idaduro rè é kúrò, èyí túmọ̀ sí wípé apá ibì kan lára è ni yóò di ohun ìyàtọ̀ fún wọn.3
 
-In Maya Protocol, this mechanism helps to produce economic value from the staked resources of node operators, increasing capital efficiency. Similarly, in Thorchain, node operators bond RUNE (the native token) to secure the network and ensure cooperation among participants.
+In Maya Protocol, this mechanism helps to produce economic value from the staked resources of node operators, increasing capital efficiency. Similarly, in THORChain, node operators bond RUNE (the native token) to secure the network and ensure cooperation among participants.
 
 ## Ìyàtọ̀ láàrin Maya àti THORChain
 
@@ -65,7 +65,7 @@ Pẹlupẹlu, ibi-afẹde Maya ni lati di * backend * fun awọn iṣẹ miiran 
 Ṣiṣẹ bi * backend, Maya nilo lati ni atilẹyin nipasẹ awọn UI oriṣiriṣi ati awọn apamọwọ ti yoo lo. 
 Àtòjọ àwọn iṣẹ́ tó ti ń ṣe àtìlẹyìn fún Maya rèé:
 
-[Thorwallet DEX (ìyẹn ìwé ìléwọ́)](https://www.thorwallet.org/): Ledger, XDEFI, Metamask, Keystore: Àwọn ìkànnì tí ó ní àwọn àlàfo tó ṣe pàtàkì jùlọ.
+[Thorwallet DEX (ìyẹn ìwé ìléwọ́)](https://www.thorwallet.org/): Ledger, XDEFI, MetaMask, Keystore: Àwọn ìkànnì tí ó ní àwọn àlàfo tó ṣe pàtàkì jùlọ.
 
 [El Dorado (ìlú tó wà ní ìlà oòrùn)](https://www.eldorado.market/): XDEFI, Ilé-ìtajà Ìkóhunsókè
 

@@ -79,7 +79,7 @@ Awọn ifitonileti meji. Tor fi IP rẹ pamọ lati ọdọ olupin, ṣugbọn k
 
 ### Zaino, olùṣàmúlò Ìdàrọ́jẹ̀
 
-[Zaino](/zcash-tech/zaino) jẹ́ àtòjọ tí a kọ ní Rust láti ọwọ̀ ẹgbẹ Zingo, ti a ṣe lati rọpo lightwalletd gẹ́gẹ́ bí apá kan iṣẹ́ ìmúdi zcashd. Ó ń ṣiṣẹ́ fún àwọn oníṣe-òwò kékeré, àti olùwádìí àwárí ìdínà (block explorer), kíkà data ẹ̀ka tó wà lábẹ́ "yálà Zebra tàbí aláyẹsẹ Zcashd".
+[Zaino](/zcash-tech/zaino) jẹ́ àtòjọ tí a kọ ní Rust láti ọwọ̀ ẹgbẹ Zingo, ti a ṣe lati rọpo lightwalletd gẹ́gẹ́ bí apá kan iṣẹ́ ìmúdi zcashd. Ó ń ṣiṣẹ́ fún àwọn oníṣe-òwò kékeré, àti olùwádìí àwárí ìdínà (block explorer), kíkà data ẹ̀ka tó wà lábẹ́ "yálà Zebra tàbí aláyẹsẹ zcashd".
 
 O ti wa ni labẹ idagbasoke lọwọlọwọ, pẹlu ẹya 0.8.0 tu silẹ ni Oṣu Kẹjọ ọdun 2026. o n ṣe ifọkansi lati duro pada ibaramu pẹlu lightwalletd nibiti o ba ṣeeṣe, nitorinaa awọn apamọwọ le tọka si rẹ laisi kikọ lẹẹkansii.
 

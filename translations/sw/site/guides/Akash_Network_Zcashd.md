@@ -475,7 +475,7 @@ Mtoa huduma anaweza kuwa na matatizo ya mtandao au bandwidth polepole. Hii kawai
 
 ### Kushindwa kwa uthibitishaji wa RPC
 
--> Angalia kwamba * ZCASHD_RPCUSER* na * Z CASHD_ RPCPASSWORD * ni kuweka kwa usahihi
+-> Angalia kwamba `ZCASHD_RPCUSER` na * Z CASHD_ RPCPASSWORD * ni kuweka kwa usahihi
 
 -> Angalia wewe ni kutumia bandari sahihi (8232 kwa mainnet, 18232 testnet)
 

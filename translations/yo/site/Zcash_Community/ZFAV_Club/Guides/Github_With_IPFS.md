@@ -2,11 +2,11 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Ṣiṣẹ Repo Github pẹlu IPFS 
+# Ṣiṣẹ Repo GitHub pẹlu IPFS 
 
 ## Ìfilọ́lẹ̀
 
-Ninu itọnisọna yii a kọ bi a ṣe le ṣẹda git cloneable URL fun ibi ipamọ Github rẹ ti a sin nipa lilo IPFS CID. Eyi wulo lati rii daju wiwa akoonu laibikita agbegbe agbegbe, resistance censorship ati bi afẹyinti perisistent ti alaye ti o niyelori!
+Ninu itọnisọna yii a kọ bi a ṣe le ṣẹda git cloneable URL fun ibi ipamọ GitHub rẹ ti a sin nipa lilo IPFS CID. Eyi wulo lati rii daju wiwa akoonu laibikita agbegbe agbegbe, resistance censorship ati bi afẹyinti perisistent ti alaye ti o niyelori!
 
 Àkíyèsí: Àwọn ìwífún tí a gbé sí IPFS wà fún *gbogbo* àwọn oníṣe nẹtiwọọki. O lè fẹ́ láti ṣe àdàkọ àwọn ìsọfúnni àdáni/ìmọ̀ràn ní àdúgbò.
 

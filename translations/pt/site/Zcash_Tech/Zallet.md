@@ -202,7 +202,7 @@ Existe um produto de consumo separado em [zallet.io](https://www.zallet.io/) que
 - [Zebra Nó Completo](Zebra_Full_Node.md) — o nó que o backend predefinido de Zallet lê
 - [Zakura Nó](Zakura_Node.md) — nó de validação alternativo
 - [Zaino](Zaino.md) — backend de indexador e servidor de cliente leve
-- [ZECD](ZECD.md) — outro design de servidor de wallet em librustzcash
+- [zecd](ZECD.md) — outro design de servidor de wallet em librustzcash
 - [Zcash Sincronização de Wallets](Zcash_Wallet_Syncing.md) — como as wallets shielded analisam a cadeia
 - [Chaves de Visualização](Viewing_Keys.md)
 

@@ -52,7 +52,7 @@ Nítorí náà, bí o bá jẹ́ ẹ̀dá búrẹ́dì..,
 
 ní báyìí o mọ ibi tó yẹ kóo ná ZEC rẹ sí!
 
-Ojú-ìkànnì sheemprende.com ti di èyí tí kò lè ṣe àtúnṣe sí, ẹ kàn án lórí ìkànnì rẹ̀: [Free2z (ì ì í ë ¤)](https://free2z.cash/SheEmprende) | [Àtẹ X](https://twitter.com/SheEmprende_)
+Ojú-ìkànnì sheemprende.com ti di èyí tí kò lè ṣe àtúnṣe sí, ẹ kàn án lórí ìkànnì rẹ̀: [Free2Z (ì ì í ë ¤)](https://free2z.cash/SheEmprende) | [Àtẹ X](https://twitter.com/SheEmprende_)
 
 **Zcash Unified Address:** 
 
@@ -74,7 +74,7 @@ Rosa rẹ́rìn-ín músẹ́, ó sì fi hàn pé òun gbà láti gba owó Zcash. 
 
 **Ojú-ìkànnì**: somosdulceros.com ti fẹ̀yìn tì, kò sì tún ní ìtumọ̀ mọ́. Lo àwọn ìjápọ̀ àjọlò tó wà lókè yìí.
 
-Àwọn ìkànnì àjọlò orí ayélujára:** [Instagram](https://www.instagram.com/somos_dulceros) | [Àtẹ X](https://twitter.com/RosaMRangel) | [Free2z (ì ì í ë ¤)](https://free2z.cash/Criptodulceros/zpage/criptodulceros-01)
+Àwọn ìkànnì àjọlò orí ayélujára:** [Instagram](https://www.instagram.com/somos_dulceros) | [Àtẹ X](https://twitter.com/RosaMRangel) | [Free2Z (ì ì í ë ¤)](https://free2z.cash/Criptodulceros/zpage/criptodulceros-01)
 
 **Zcash Unified Address:** 
 
@@ -106,7 +106,7 @@ Ohun kan tó yàtọ̀, tí kò sì láfiwé? Àpótí ìléwọ́ tẹlifóònù
 
 Àwọn ìkànnì àjọlò orí ayélujára (Social media) 
 
-[Instagram](https://instagram.com/papelesacolor) | [Free2z (ì ì í ë ¤)](https://free2z.cash/PapelesaColor) 
+[Instagram](https://instagram.com/papelesacolor) | [Free2Z (ì ì í ë ¤)](https://free2z.cash/PapelesaColor) 
 
 [Igi ìsopọ̀ (linktree)](https://linktr.ee/Papelesacolor)
 
@@ -193,7 +193,7 @@ Iṣẹ rẹ jẹ olokiki ni agbegbe Zcash ọpẹ si ilowosi rẹ fun ẹgbẹ-
 
 Àwọn ìkànnì àjọlò orí ayélujára:**
 
-[Telegram](https://t.me/Robmarn) | [Àtẹ X](https://twitter.com/robmarn) | [Free2z (ì ì í ë ¤)](https://free2z.cash/robmarn)
+[Telegram](https://t.me/Robmarn) | [Àtẹ X](https://twitter.com/robmarn) | [Free2Z (ì ì í ë ¤)](https://free2z.cash/robmarn)
 
 Barquisimeto - Venezuela (ìlú yìí wà ní ìlà oòrùn) 
 
@@ -261,7 +261,7 @@ Tecnopapapi ni ẹni tó yẹ kó o kàn sí!
 
 Àwọn ìkànnì àjọlò orí ayélujára (Social media) 
 
-Free2z ì í ë ¤. [Telegram](https://t.me/Lexihel) | [YouTube](https://youtube.com/@tecnopapapi) | [Àtẹ X](https://twitter.com/tecnopapapi) | [TikTok](https://www.tiktok.com/@lexihel) | [Instagram](https://www.instagram.com/tecnopapapi/) |  [Facebook (ìkànnì)](https://www.facebook.com/tecnopapapi) 
+Free2Z ì í ë ¤. [Telegram](https://t.me/Lexihel) | [YouTube](https://youtube.com/@tecnopapapi) | [Àtẹ X](https://twitter.com/tecnopapapi) | [TikTok](https://www.tiktok.com/@lexihel) | [Instagram](https://www.instagram.com/tecnopapapi/) |  [Facebook (ìkànnì)](https://www.facebook.com/tecnopapapi) 
 
 Tecnopapapi gba awọn owo-iworo (pẹlu 3ZEC) ati awọn ọna isanwo miiran. 
 

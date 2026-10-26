@@ -9,7 +9,7 @@ Il full node (nodo completo) tradizionale zcashd, gestito da *Electric Coin Comp
 ![Diagramma: zcashd si divide in zebrad per le funzioni di nodo e Zallet per le funzioni del portafoglio](/content-images/SJNBsSYTel-dfd19f34e4.webp)
 </div>
 
-Questa guida ti accompagna nella migrazione da **Zcashd** a **Zebrad** e **Zallet**, inclusi configurazione, importazione del portafoglio e risoluzione dei comuni problemi di migrazione.
+Questa guida ti accompagna nella migrazione da **zcashd** a **Zebrad** e **Zallet**, inclusi configurazione, importazione del portafoglio e risoluzione dei comuni problemi di migrazione.
 
 ---
 

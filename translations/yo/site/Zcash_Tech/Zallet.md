@@ -202,7 +202,7 @@ O wa ọja onibara ti o ya sọtọ ni awọn ile itaja. [zallet.io ì í ë ¤�
 - [Zebra Ìkànnì Pípéye](Zebra_Full_Node.md) — the node Zallet’s default backend reads
 - [Ìkànnì Zakura](Zakura_Node.md)  àtúnṣe ìmúṣẹ àwọn kókó mìíràn
 - [Zaino](Zaino.md)  Àwòrán-ìmọ̀ràn àti ààrò oníṣe alágbèéká ìmọ́lẹ̀ (light client server)
-- [ZECD (ìpínlẹ̀)](ZECD.md)  àdàkọ mìíràn-ìpèsè apamọwọ lórí librustzcash
+- [zecd (ìpínlẹ̀)](ZECD.md)  àdàkọ mìíràn-ìpèsè apamọwọ lórí librustzcash
 - [Ìṣètò Ọ̀rọ̀-ìpamọ́ Zcash Wallet](Zcash_Wallet_Syncing.md)  bí àwọn àpò-ìpamọ́ ṣe ń ṣàyẹ̀wò ẹrù ìnájà náà
 - [Àwọn Kókó Ìwòran](Viewing_Keys.md)
 

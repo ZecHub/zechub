@@ -4,7 +4,7 @@
 ## Ntọala
 
  * Zebrad node na-agba ọsọ ma na-ejikọta ya na RPCs ma hazie iji kuki
- * Zainod zuru oke
+ * zainod zuru oke
  * Zallet setup iji na-agba ọsọ RPC si
 
 

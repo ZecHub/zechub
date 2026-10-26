@@ -52,7 +52,7 @@
 
 τώρα ξέρεις πού να ξοδέψεις το ZEC σου!
 
-**Ιστότοπος**: το sheemprende.com έχει αποσυρθεί και δεν είναι πλέον προσβάσιμο. Βρες τη στο [Free2z](https://free2z.cash/SheEmprende) | [Πλατφόρμα X](https://twitter.com/SheEmprende_)
+**Ιστότοπος**: το sheemprende.com έχει αποσυρθεί και δεν είναι πλέον προσβάσιμο. Βρες τη στο [Free2Z](https://free2z.cash/SheEmprende) | [Πλατφόρμα X](https://twitter.com/SheEmprende_)
 
 **Zcash Unified Address:** 
 
@@ -74,7 +74,7 @@ u1pu63k8tfcf0v06qr6f9qn3qpfh2hj8wjnc3wchguaqy2jc9xxmf4f424jns282qfwzvs6qq3tcd9er
 
 **Ιστότοπος**: το somosdulceros.com έχει αποσυρθεί και δεν είναι πλέον προσβάσιμο. Χρησιμοποίησε τους παρακάτω συνδέσμους social media.
 
-**Social media:** [Instagram](https://www.instagram.com/somos_dulceros) | [Πλατφόρμα X](https://twitter.com/RosaMRangel) | [Free2z](https://free2z.cash/Criptodulceros/zpage/criptodulceros-01)
+**Social media:** [Instagram](https://www.instagram.com/somos_dulceros) | [Πλατφόρμα X](https://twitter.com/RosaMRangel) | [Free2Z](https://free2z.cash/Criptodulceros/zpage/criptodulceros-01)
 
 **Zcash Unified Address:** 
 
@@ -106,7 +106,7 @@ u12vp85edmrkqy9uvall4wqqn2s9fx8nm5phsxu2nyme5yh8hn5xh8mv3qgunynskjy3t0w89234a83r
 
 **Social media** 
 
-[Instagram](https://instagram.com/papelesacolor) | [Free2z](https://free2z.cash/PapelesaColor) 
+[Instagram](https://instagram.com/papelesacolor) | [Free2Z](https://free2z.cash/PapelesaColor) 
 
 [Linktree](https://linktr.ee/Papelesacolor)
 
@@ -193,7 +193,7 @@ u1l2lxdx2en962h3utm24fthm0r9q5cxc4705jeatq4lckm92k06htdk8jear9tsay7w8xz4najnv0mp
 
 **Social media:**
 
-[Telegram](https://t.me/Robmarn) | [Πλατφόρμα X](https://twitter.com/robmarn) | [Free2z](https://free2z.cash/robmarn)
+[Telegram](https://t.me/Robmarn) | [Πλατφόρμα X](https://twitter.com/robmarn) | [Free2Z](https://free2z.cash/robmarn)
 
 📍Barquisimeto - Βενεζουέλα 
 
@@ -261,7 +261,7 @@ u154h5wxyqf5lr4hdraqzc2n8x8398x6u95km2z7ryx8k5tdpjym59xqvlz54kq6pd96q5xrsxrmtcpl
 
 **Social media** 
 
-Free2z | [Telegram](https://t.me/Lexihel) | [YouTube](https://youtube.com/@tecnopapapi) | [Πλατφόρμα X](https://twitter.com/tecnopapapi) | [TikTok](https://www.tiktok.com/@lexihel) | [Instagram](https://www.instagram.com/tecnopapapi/) |  [Facebook](https://www.facebook.com/tecnopapapi) 
+Free2Z | [Telegram](https://t.me/Lexihel) | [YouTube](https://youtube.com/@tecnopapapi) | [Πλατφόρμα X](https://twitter.com/tecnopapapi) | [TikTok](https://www.tiktok.com/@lexihel) | [Instagram](https://www.instagram.com/tecnopapapi/) |  [Facebook](https://www.facebook.com/tecnopapapi) 
 
 Το Tecnopapapi δέχεται κρυπτονομίσματα (συμπεριλαμβανομένου του 3ZEC) και άλλες μεθόδους πληρωμής. 
 

@@ -41,7 +41,7 @@ Zebra 1.8.0 최신 릴리스, FROST 발표, Zooko가 새로운 Zcash 프로젝�
 
 [Zcash 브라질 주간 콜 22](https://x.com/zcashbrazil/status/1808206303107731746)
 
-[MacOS Signal 앱 사용하지 마세요 - alberdioni8406 on Free2z](https://x.com/free2zcash/status/1809716224940781965)
+[MacOS Signal 앱 사용하지 마세요 - alberdioni8406 on Free2Z](https://x.com/free2zcash/status/1809716224940781965)
 
 [Web 2.0의 숨은 비용 - Zcash Media ](https://x.com/zcashmedia/status/1809580807616397557)
 

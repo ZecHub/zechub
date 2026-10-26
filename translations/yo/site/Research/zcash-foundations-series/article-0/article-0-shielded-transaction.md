@@ -221,7 +221,7 @@ Gbogbo "a ó padà wá sí èyí" lókè yìí jẹ́ ìjápọ̀ kan.
 | **Nullifier** | Àmì "ìnáwó" àrà ọ̀tọ̀ tí a tẹ̀ jáde nígbà tí a bá lo àkọsílẹ̀ kan, èyí tí ó ń dènà ìnáwó méjì |
 | **Zero-knowledge proof** | Ẹ̀rí pé gbólóhùn kan jẹ́ òótọ́ nígbà tí kò fi ohunkóhun tí ó ju òótọ́ rẹ̀ lọ hàn |
 | **Shielding / deshielding** | Gbigbe owo sinu / jade kuro ninu agbaye aabo ikọkọ |
-| **Viewing key** | Kọ́kọ́rọ́ tí ó jẹ́ kí ẹni tó ni ilé náà rí àti ka àwọn àkọsílẹ̀ tí a kọ sí wọn |
+| **Viewing Key** | Kọ́kọ́rọ́ tí ó jẹ́ kí ẹni tó ni ilé náà rí àti ka àwọn àkọsílẹ̀ tí a kọ sí wọn |
 
 ---
 

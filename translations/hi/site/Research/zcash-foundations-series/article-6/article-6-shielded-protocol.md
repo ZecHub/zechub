@@ -153,7 +153,7 @@ Privacy का रास्ता देखें: network ने anchor जा�
 | Term | सरल अर्थ |
 |---|---|
 | **Spending key** | वह एकल root secret जिससे उपयोगकर्ता की सभी keys निकलती हैं |
-| **Viewing key** | धारक को आपकी transactions देखने देती है, बिना उन्हें spend करने दिए |
+| **Viewing Key** | धारक को आपकी transactions देखने देती है, बिना उन्हें spend करने दिए |
 | **Spend description** | tx का वह हिस्सा जो एक note को consume करता है (nullifier, anchor, proof) |
 | **Output description** | tx का वह हिस्सा जो एक note बनाता है (commitment, ciphertext, proof) |
 | **Action (Orchard)** | एकीकृत unit जो एक spend और एक output साथ में करता है |
