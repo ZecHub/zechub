@@ -108,9 +108,9 @@ Daha hızlı bloklar ücretsiz değildir. Bayat blok, başka bir blok ağa önce
 
 ## Durum ve zaman çizelgesi
 
-- **ZIP durumu:** Taslak. Sahipleri Dev Ojha ve Evan Forbes; 13 Mart 2026'da oluşturuldu.
+- **ZIP durumu:** Önerildi. Sahipleri Dev Ojha ve Evan Forbes; 13 Mart 2026'da oluşturuldu.
 - **Coinholder anketi:** %99,9 destekle 14 Eylül 2026'da kapandı. Anket tercihi gösterir; tek başına fikir birliği kurallarını değiştirmez.
-- **Zaman çizelgesi:** 17 Eylül'deki bir Zcash Community Forum duyurusunda, geliştirme kuruluşları 30 Eylül'e kadar kodun tamamlanması, 6 Ekim'de testnette NU7, 20 Ekim'de nihai karar ve ana ağ etkinleştirme yüksekliği ile ana ağ etkinleştirmesinin yaklaşık 5 Kasım 2026'da hedeflenmesi takviminde anlaştı. Yükseklik belirlenene kadar 5 Kasım sabit bir tarih değil, hedeftir.
+- **Zaman çizelgesi:** 17 Eylül'deki bir Zcash Community Forum duyurusunda, geliştirme kuruluşları 30 Eylül'e kadar kodun tamamlanması, 6 Ekim'de testnette NU7 ve 20 Ekim'de nihai karar alınması takviminde anlaştı. Ana ağ etkinleştirme yüksekliği artık 3.543.405 olarak belirlendi ([ZIP 259](https://zips.z.cash/zip-0259)) ve yaklaşık 5 Kasım 2026 için hedefleniyor.
 - **Uygulama:** Zebra ([#11440](https://github.com/ZcashFoundation/zebra/issues/11440)) ve Zakura ([PR #1066](https://github.com/zakura-core/zakura/pull/1066)) içinde takip ediliyor.
 
 ## Bunun sizin için anlamı

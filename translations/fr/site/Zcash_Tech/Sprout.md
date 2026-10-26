@@ -6,7 +6,7 @@
 
 > Zcash a été lancé le 28 octobre 2016 avec le pool protégé Sprout.
 
-> **Avertissement :** NU7 rendra les ZEC encore dans le pool Sprout impossibles à dépenser dès son activation (réseau principal prévu pour le 5 novembre 2026, décision finale le 20 octobre 2026 ; voir [ZIP 259](https://zips.z.cash/zip-0259)). Si vous détenez des fonds Sprout, consultez [Récupération des fonds](../using-zcash/recovering-funds) et migrez-les d’abord.
+> **Avertissement :** NU7 rendra les ZEC encore dans le pool Sprout impossibles à dépenser dès son activation (hauteur d’activation du réseau principal : 3 543 405, prévue pour le 5 novembre 2026 ; voir [ZIP 259](https://zips.z.cash/zip-0259)). Si vous détenez des fonds Sprout, consultez [Récupération des fonds](../using-zcash/recovering-funds) et migrez-les d’abord.
 
 Ce que vous retiendrez : Sprout est le point de départ de Zcash, la première fois qu’une monnaie privée et vérifiable a fonctionné sur une blockchain en production.
 

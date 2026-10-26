@@ -108,9 +108,9 @@ Há também dois custos menores. As wallets leves descarregam cerca de 200 KB ad
 
 ## Estado e cronologia
 
-- **Estado da ZIP:** Rascunho. Responsáveis Dev Ojha e Evan Forbes; criada em 13 de março de 2026.
+- **Estado da ZIP:** Proposta. Responsáveis Dev Ojha e Evan Forbes; criada em 13 de março de 2026.
 - **Votação de detentores de moedas:** encerrada em 14 de setembro de 2026, com 99,9% de apoio. A votação sinaliza preferência; não altera por si só as regras de consenso.
-- **Cronologia:** num anúncio do Community Forum Zcash em 17 de setembro, as organizações de desenvolvimento acordaram um calendário de código concluído até 30 de setembro, NU7 na testnet em 6 de outubro, uma decisão final e altura de ativação na mainnet em 20 de outubro, e ativação na mainnet prevista para cerca de 5 de novembro de 2026. 5 de novembro é um objetivo, não uma data fixa, até a altura ser definida.
+- **Cronologia:** num anúncio do Community Forum Zcash em 17 de setembro, as organizações de desenvolvimento acordaram um calendário de código concluído até 30 de setembro, NU7 na testnet em 6 de outubro e uma decisão final em 20 de outubro. A altura de ativação na mainnet está agora definida em 3,543,405 ([ZIP 259](https://zips.z.cash/zip-0259)), prevista para cerca de 5 de novembro de 2026.
 - **Implementação:** acompanhada em Zebra ([#11440](https://github.com/ZcashFoundation/zebra/issues/11440)) e em Zakura ([PR #1066](https://github.com/zakura-core/zakura/pull/1066)).
 
 ## O que isto significa para si
