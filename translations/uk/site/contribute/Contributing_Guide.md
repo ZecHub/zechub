@@ -92,7 +92,7 @@ zec_to_enter = usd_target / zec_usd_spot
   <iframe
     className="w-full h-full"
     src="https://www.youtube.com/embed/qz4KzDjkqu8"
-    title="Посібник зі встановлення WSL + компіляції Zcashd/транзакцій"
+    title="Посібник зі встановлення WSL + компіляції zcashd/транзакцій"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowFullScreen
     loading="lazy"

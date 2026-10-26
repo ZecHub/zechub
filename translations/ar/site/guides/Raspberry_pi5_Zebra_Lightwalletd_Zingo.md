@@ -10,7 +10,7 @@
   <iframe
     className="w-full h-full"
     src="https://www.youtube.com/embed/FfH5jiX8pT0"
-    title="استخدام عقدة Zcash Zebra مع Lightwalletd: شرح"
+    title="استخدام عقدة Zcash Zebra مع lightwalletd: شرح"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowFullScreen
     loading="lazy"

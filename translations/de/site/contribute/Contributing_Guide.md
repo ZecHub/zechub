@@ -92,7 +92,7 @@ Hier ist ein Beispiel-Tutorial:
   <iframe
     className="w-full h-full"
     src="https://www.youtube.com/embed/qz4KzDjkqu8"
-    title="WSL-Installation + Zcashd-Kompilierungs-/Transaktions-Tutorial"
+    title="WSL-Installation + zcashd-Kompilierungs-/Transaktions-Tutorial"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowFullScreen
     loading="lazy"

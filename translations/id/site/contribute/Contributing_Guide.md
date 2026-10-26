@@ -92,7 +92,7 @@ Berikut adalah contoh tutorial di bawah ini:
   <iframe
     className="w-full h-full"
     src="https://www.youtube.com/embed/qz4KzDjkqu8"
-    title="Tutorial Instalasi WSL + Kompilasi Zcashd/Transaksi"
+    title="Tutorial Instalasi WSL + Kompilasi zcashd/Transaksi"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowFullScreen
     loading="lazy"

@@ -10,7 +10,7 @@
   <iframe
     className="w-full h-full"
     src="https://www.youtube.com/embed/FfH5jiX8pT0"
-    title="Verwendung eines Zcash Zebra-Node mit Lightwalletd: TUTORIAL"
+    title="Verwendung eines Zcash Zebra-Node mit lightwalletd: TUTORIAL"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowFullScreen
     loading="lazy"

@@ -10,7 +10,7 @@
   <iframe
     className="w-full h-full"
     src="https://www.youtube.com/embed/FfH5jiX8pT0"
-    title="Использование узла Zcash Zebra с Lightwalletd: РУКОВОДСТВО"
+    title="Использование узла Zcash Zebra с lightwalletd: РУКОВОДСТВО"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowFullScreen
     loading="lazy"

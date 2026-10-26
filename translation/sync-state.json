@@ -1441,7 +1441,7 @@
       "edited": false
     },
     "contribute/Contributing_Guide.md": {
-      "src": "sha256:0bc989079bc15a326a16df4049d1ecd2691549b36945900212ef8830e03dbeb9",
+      "src": "sha256:505e09ee91fa06780ac39513bf493ea7917cb4f1f66b41050837a99436ff6440",
       "src_commit": "1016455f585ca46eda1781a8114b34dcd0028942",
       "engine": "gt",
       "mode": "full",
@@ -1633,7 +1633,7 @@
       "edited": false
     },
     "guides/Raspberry_pi5_Zebra_Lightwalletd_Zingo.md": {
-      "src": "sha256:f89734fb57eac5330df09ae8b296571f3ee268a51b8ed1161104824bfc0c1564",
+      "src": "sha256:53f77ab4f79ee80ce2328775dcf06979842889e69594bb598a662a9a12d0e3b8",
       "src_commit": "1016455f585ca46eda1781a8114b34dcd0028942",
       "engine": "gt",
       "mode": "full",
@@ -3267,7 +3267,7 @@
       "edited": false
     },
     "contribute/Contributing_Guide.md": {
-      "src": "sha256:0bc989079bc15a326a16df4049d1ecd2691549b36945900212ef8830e03dbeb9",
+      "src": "sha256:505e09ee91fa06780ac39513bf493ea7917cb4f1f66b41050837a99436ff6440",
       "src_commit": "8a2839e166263d5316bd6216c0c9fa4a1c7e3a16",
       "engine": "llm",
       "mode": "full",
@@ -3467,7 +3467,7 @@
       "edited": false
     },
     "guides/Raspberry_pi5_Zebra_Lightwalletd_Zingo.md": {
-      "src": "sha256:f89734fb57eac5330df09ae8b296571f3ee268a51b8ed1161104824bfc0c1564",
+      "src": "sha256:53f77ab4f79ee80ce2328775dcf06979842889e69594bb598a662a9a12d0e3b8",
       "src_commit": "1016455f585ca46eda1781a8114b34dcd0028942",
       "engine": "llm",
       "mode": "diff",
@@ -5109,7 +5109,7 @@
       "edited": false
     },
     "contribute/Contributing_Guide.md": {
-      "src": "sha256:0bc989079bc15a326a16df4049d1ecd2691549b36945900212ef8830e03dbeb9",
+      "src": "sha256:505e09ee91fa06780ac39513bf493ea7917cb4f1f66b41050837a99436ff6440",
       "src_commit": "8a2839e166263d5316bd6216c0c9fa4a1c7e3a16",
       "engine": "llm",
       "mode": "full",
@@ -5309,7 +5309,7 @@
       "edited": false
     },
     "guides/Raspberry_pi5_Zebra_Lightwalletd_Zingo.md": {
-      "src": "sha256:f89734fb57eac5330df09ae8b296571f3ee268a51b8ed1161104824bfc0c1564",
+      "src": "sha256:53f77ab4f79ee80ce2328775dcf06979842889e69594bb598a662a9a12d0e3b8",
       "src_commit": "1016455f585ca46eda1781a8114b34dcd0028942",
       "engine": "llm",
       "mode": "diff",
@@ -6943,7 +6943,7 @@
       "edited": false
     },
     "contribute/Contributing_Guide.md": {
-      "src": "sha256:0bc989079bc15a326a16df4049d1ecd2691549b36945900212ef8830e03dbeb9",
+      "src": "sha256:505e09ee91fa06780ac39513bf493ea7917cb4f1f66b41050837a99436ff6440",
       "src_commit": "1016455f585ca46eda1781a8114b34dcd0028942",
       "engine": "gt",
       "mode": "full",
@@ -7135,7 +7135,7 @@
       "edited": false
     },
     "guides/Raspberry_pi5_Zebra_Lightwalletd_Zingo.md": {
-      "src": "sha256:f89734fb57eac5330df09ae8b296571f3ee268a51b8ed1161104824bfc0c1564",
+      "src": "sha256:53f77ab4f79ee80ce2328775dcf06979842889e69594bb598a662a9a12d0e3b8",
       "src_commit": "1016455f585ca46eda1781a8114b34dcd0028942",
       "engine": "gt",
       "mode": "full",
@@ -8225,7 +8225,7 @@
       "edited": false
     },
     "guides/Raspberry_pi5_Zebra_Lightwalletd_Zingo.md": {
-      "src": "sha256:f89734fb57eac5330df09ae8b296571f3ee268a51b8ed1161104824bfc0c1564",
+      "src": "sha256:53f77ab4f79ee80ce2328775dcf06979842889e69594bb598a662a9a12d0e3b8",
       "src_commit": "861d6584cc8095af8af59e1f11508992e35f7c40",
       "engine": "llm",
       "mode": "full",
@@ -9129,7 +9129,7 @@
       "edited": false
     },
     "contribute/Contributing_Guide.md": {
-      "src": "sha256:0bc989079bc15a326a16df4049d1ecd2691549b36945900212ef8830e03dbeb9",
+      "src": "sha256:505e09ee91fa06780ac39513bf493ea7917cb4f1f66b41050837a99436ff6440",
       "src_commit": "599423788092c75c5b21cf8a2be19b900743de0a",
       "engine": "llm",
       "mode": "full",
@@ -10611,7 +10611,7 @@
       "edited": false
     },
     "contribute/Contributing_Guide.md": {
-      "src": "sha256:0bc989079bc15a326a16df4049d1ecd2691549b36945900212ef8830e03dbeb9",
+      "src": "sha256:505e09ee91fa06780ac39513bf493ea7917cb4f1f66b41050837a99436ff6440",
       "src_commit": "1016455f585ca46eda1781a8114b34dcd0028942",
       "engine": "llm",
       "mode": "full",
@@ -10811,7 +10811,7 @@
       "edited": false
     },
     "guides/Raspberry_pi5_Zebra_Lightwalletd_Zingo.md": {
-      "src": "sha256:f89734fb57eac5330df09ae8b296571f3ee268a51b8ed1161104824bfc0c1564",
+      "src": "sha256:53f77ab4f79ee80ce2328775dcf06979842889e69594bb598a662a9a12d0e3b8",
       "src_commit": "1016455f585ca46eda1781a8114b34dcd0028942",
       "engine": "llm",
       "mode": "diff",
@@ -12453,7 +12453,7 @@
       "edited": false
     },
     "contribute/Contributing_Guide.md": {
-      "src": "sha256:0bc989079bc15a326a16df4049d1ecd2691549b36945900212ef8830e03dbeb9",
+      "src": "sha256:505e09ee91fa06780ac39513bf493ea7917cb4f1f66b41050837a99436ff6440",
       "src_commit": "8a2839e166263d5316bd6216c0c9fa4a1c7e3a16",
       "engine": "llm",
       "mode": "full",
@@ -12653,7 +12653,7 @@
       "edited": false
     },
     "guides/Raspberry_pi5_Zebra_Lightwalletd_Zingo.md": {
-      "src": "sha256:f89734fb57eac5330df09ae8b296571f3ee268a51b8ed1161104824bfc0c1564",
+      "src": "sha256:53f77ab4f79ee80ce2328775dcf06979842889e69594bb598a662a9a12d0e3b8",
       "src_commit": "1016455f585ca46eda1781a8114b34dcd0028942",
       "engine": "llm",
       "mode": "diff",
@@ -14295,7 +14295,7 @@
       "edited": false
     },
     "contribute/Contributing_Guide.md": {
-      "src": "sha256:0bc989079bc15a326a16df4049d1ecd2691549b36945900212ef8830e03dbeb9",
+      "src": "sha256:505e09ee91fa06780ac39513bf493ea7917cb4f1f66b41050837a99436ff6440",
       "src_commit": "1016455f585ca46eda1781a8114b34dcd0028942",
       "engine": "llm",
       "mode": "full",
@@ -14495,7 +14495,7 @@
       "edited": false
     },
     "guides/Raspberry_pi5_Zebra_Lightwalletd_Zingo.md": {
-      "src": "sha256:f89734fb57eac5330df09ae8b296571f3ee268a51b8ed1161104824bfc0c1564",
+      "src": "sha256:53f77ab4f79ee80ce2328775dcf06979842889e69594bb598a662a9a12d0e3b8",
       "src_commit": "1016455f585ca46eda1781a8114b34dcd0028942",
       "engine": "llm",
       "mode": "diff",
@@ -16137,7 +16137,7 @@
       "edited": false
     },
     "contribute/Contributing_Guide.md": {
-      "src": "sha256:0bc989079bc15a326a16df4049d1ecd2691549b36945900212ef8830e03dbeb9",
+      "src": "sha256:505e09ee91fa06780ac39513bf493ea7917cb4f1f66b41050837a99436ff6440",
       "src_commit": "3336a9152b64b4e8894a412cd8de9a2263b90a77",
       "engine": "llm",
       "mode": "full",
@@ -16337,7 +16337,7 @@
       "edited": false
     },
     "guides/Raspberry_pi5_Zebra_Lightwalletd_Zingo.md": {
-      "src": "sha256:f89734fb57eac5330df09ae8b296571f3ee268a51b8ed1161104824bfc0c1564",
+      "src": "sha256:53f77ab4f79ee80ce2328775dcf06979842889e69594bb598a662a9a12d0e3b8",
       "src_commit": "3336a9152b64b4e8894a412cd8de9a2263b90a77",
       "engine": "llm",
       "mode": "full",
@@ -17979,7 +17979,7 @@
       "edited": false
     },
     "contribute/Contributing_Guide.md": {
-      "src": "sha256:0bc989079bc15a326a16df4049d1ecd2691549b36945900212ef8830e03dbeb9",
+      "src": "sha256:505e09ee91fa06780ac39513bf493ea7917cb4f1f66b41050837a99436ff6440",
       "src_commit": "1016455f585ca46eda1781a8114b34dcd0028942",
       "engine": "gt",
       "mode": "full",
@@ -18171,7 +18171,7 @@
       "edited": false
     },
     "guides/Raspberry_pi5_Zebra_Lightwalletd_Zingo.md": {
-      "src": "sha256:f89734fb57eac5330df09ae8b296571f3ee268a51b8ed1161104824bfc0c1564",
+      "src": "sha256:53f77ab4f79ee80ce2328775dcf06979842889e69594bb598a662a9a12d0e3b8",
       "src_commit": "1016455f585ca46eda1781a8114b34dcd0028942",
       "engine": "gt",
       "mode": "full",
@@ -19805,11 +19805,11 @@
       "edited": false
     },
     "contribute/Contributing_Guide.md": {
-      "src": "sha256:0bc989079bc15a326a16df4049d1ecd2691549b36945900212ef8830e03dbeb9",
+      "src": "sha256:505e09ee91fa06780ac39513bf493ea7917cb4f1f66b41050837a99436ff6440",
       "src_commit": "1016455f585ca46eda1781a8114b34dcd0028942",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra+itglossary",
+      "tool": "codex/gpt-5.6-terra+itglossary+handfix",
       "edited": false
     },
     "contribute/Help_build_ZecHub.md": {
@@ -20005,7 +20005,7 @@
       "edited": false
     },
     "guides/Raspberry_pi5_Zebra_Lightwalletd_Zingo.md": {
-      "src": "sha256:f89734fb57eac5330df09ae8b296571f3ee268a51b8ed1161104824bfc0c1564",
+      "src": "sha256:53f77ab4f79ee80ce2328775dcf06979842889e69594bb598a662a9a12d0e3b8",
       "src_commit": "1016455f585ca46eda1781a8114b34dcd0028942",
       "engine": "llm",
       "mode": "diff",
@@ -21647,11 +21647,11 @@
       "edited": false
     },
     "contribute/Contributing_Guide.md": {
-      "src": "sha256:0bc989079bc15a326a16df4049d1ecd2691549b36945900212ef8830e03dbeb9",
+      "src": "sha256:505e09ee91fa06780ac39513bf493ea7917cb4f1f66b41050837a99436ff6440",
       "src_commit": "1016455f585ca46eda1781a8114b34dcd0028942",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+handfix",
       "edited": false
     },
     "contribute/Help_build_ZecHub.md": {
@@ -21847,7 +21847,7 @@
       "edited": false
     },
     "guides/Raspberry_pi5_Zebra_Lightwalletd_Zingo.md": {
-      "src": "sha256:f89734fb57eac5330df09ae8b296571f3ee268a51b8ed1161104824bfc0c1564",
+      "src": "sha256:53f77ab4f79ee80ce2328775dcf06979842889e69594bb598a662a9a12d0e3b8",
       "src_commit": "1016455f585ca46eda1781a8114b34dcd0028942",
       "engine": "llm",
       "mode": "diff",
@@ -23489,11 +23489,11 @@
       "edited": false
     },
     "contribute/Contributing_Guide.md": {
-      "src": "sha256:0bc989079bc15a326a16df4049d1ecd2691549b36945900212ef8830e03dbeb9",
+      "src": "sha256:505e09ee91fa06780ac39513bf493ea7917cb4f1f66b41050837a99436ff6440",
       "src_commit": "1016455f585ca46eda1781a8114b34dcd0028942",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+handfix",
       "edited": false
     },
     "contribute/Help_build_ZecHub.md": {
@@ -23689,7 +23689,7 @@
       "edited": false
     },
     "guides/Raspberry_pi5_Zebra_Lightwalletd_Zingo.md": {
-      "src": "sha256:f89734fb57eac5330df09ae8b296571f3ee268a51b8ed1161104824bfc0c1564",
+      "src": "sha256:53f77ab4f79ee80ce2328775dcf06979842889e69594bb598a662a9a12d0e3b8",
       "src_commit": "1016455f585ca46eda1781a8114b34dcd0028942",
       "engine": "llm",
       "mode": "diff",
@@ -25331,11 +25331,11 @@
       "edited": false
     },
     "contribute/Contributing_Guide.md": {
-      "src": "sha256:0bc989079bc15a326a16df4049d1ecd2691549b36945900212ef8830e03dbeb9",
+      "src": "sha256:505e09ee91fa06780ac39513bf493ea7917cb4f1f66b41050837a99436ff6440",
       "src_commit": "8a2839e166263d5316bd6216c0c9fa4a1c7e3a16",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+handfix",
       "edited": false
     },
     "contribute/Help_build_ZecHub.md": {
@@ -25531,7 +25531,7 @@
       "edited": false
     },
     "guides/Raspberry_pi5_Zebra_Lightwalletd_Zingo.md": {
-      "src": "sha256:f89734fb57eac5330df09ae8b296571f3ee268a51b8ed1161104824bfc0c1564",
+      "src": "sha256:53f77ab4f79ee80ce2328775dcf06979842889e69594bb598a662a9a12d0e3b8",
       "src_commit": "1016455f585ca46eda1781a8114b34dcd0028942",
       "engine": "llm",
       "mode": "diff",
@@ -27173,7 +27173,7 @@
       "edited": false
     },
     "contribute/Contributing_Guide.md": {
-      "src": "sha256:0bc989079bc15a326a16df4049d1ecd2691549b36945900212ef8830e03dbeb9",
+      "src": "sha256:505e09ee91fa06780ac39513bf493ea7917cb4f1f66b41050837a99436ff6440",
       "src_commit": "1016455f585ca46eda1781a8114b34dcd0028942",
       "engine": "llm",
       "mode": "full",
@@ -27373,7 +27373,7 @@
       "edited": false
     },
     "guides/Raspberry_pi5_Zebra_Lightwalletd_Zingo.md": {
-      "src": "sha256:f89734fb57eac5330df09ae8b296571f3ee268a51b8ed1161104824bfc0c1564",
+      "src": "sha256:53f77ab4f79ee80ce2328775dcf06979842889e69594bb598a662a9a12d0e3b8",
       "src_commit": "1016455f585ca46eda1781a8114b34dcd0028942",
       "engine": "llm",
       "mode": "diff",
@@ -29007,7 +29007,7 @@
       "edited": false
     },
     "contribute/Contributing_Guide.md": {
-      "src": "sha256:0bc989079bc15a326a16df4049d1ecd2691549b36945900212ef8830e03dbeb9",
+      "src": "sha256:505e09ee91fa06780ac39513bf493ea7917cb4f1f66b41050837a99436ff6440",
       "src_commit": "1016455f585ca46eda1781a8114b34dcd0028942",
       "engine": "gt",
       "mode": "full",
@@ -29199,7 +29199,7 @@
       "edited": false
     },
     "guides/Raspberry_pi5_Zebra_Lightwalletd_Zingo.md": {
-      "src": "sha256:f89734fb57eac5330df09ae8b296571f3ee268a51b8ed1161104824bfc0c1564",
+      "src": "sha256:53f77ab4f79ee80ce2328775dcf06979842889e69594bb598a662a9a12d0e3b8",
       "src_commit": "1016455f585ca46eda1781a8114b34dcd0028942",
       "engine": "gt",
       "mode": "full",
@@ -30833,11 +30833,11 @@
       "edited": false
     },
     "contribute/Contributing_Guide.md": {
-      "src": "sha256:0bc989079bc15a326a16df4049d1ecd2691549b36945900212ef8830e03dbeb9",
+      "src": "sha256:505e09ee91fa06780ac39513bf493ea7917cb4f1f66b41050837a99436ff6440",
       "src_commit": "1016455f585ca46eda1781a8114b34dcd0028942",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+handfix",
       "edited": false
     },
     "contribute/Help_build_ZecHub.md": {
@@ -31033,7 +31033,7 @@
       "edited": false
     },
     "guides/Raspberry_pi5_Zebra_Lightwalletd_Zingo.md": {
-      "src": "sha256:f89734fb57eac5330df09ae8b296571f3ee268a51b8ed1161104824bfc0c1564",
+      "src": "sha256:53f77ab4f79ee80ce2328775dcf06979842889e69594bb598a662a9a12d0e3b8",
       "src_commit": "1016455f585ca46eda1781a8114b34dcd0028942",
       "engine": "llm",
       "mode": "diff",
@@ -32675,7 +32675,7 @@
       "edited": false
     },
     "contribute/Contributing_Guide.md": {
-      "src": "sha256:0bc989079bc15a326a16df4049d1ecd2691549b36945900212ef8830e03dbeb9",
+      "src": "sha256:505e09ee91fa06780ac39513bf493ea7917cb4f1f66b41050837a99436ff6440",
       "src_commit": "1016455f585ca46eda1781a8114b34dcd0028942",
       "engine": "llm",
       "mode": "full",
@@ -32875,7 +32875,7 @@
       "edited": false
     },
     "guides/Raspberry_pi5_Zebra_Lightwalletd_Zingo.md": {
-      "src": "sha256:f89734fb57eac5330df09ae8b296571f3ee268a51b8ed1161104824bfc0c1564",
+      "src": "sha256:53f77ab4f79ee80ce2328775dcf06979842889e69594bb598a662a9a12d0e3b8",
       "src_commit": "1016455f585ca46eda1781a8114b34dcd0028942",
       "engine": "llm",
       "mode": "diff",
@@ -34493,7 +34493,7 @@
       "edited": false
     },
     "contribute/Contributing_Guide.md": {
-      "src": "sha256:0bc989079bc15a326a16df4049d1ecd2691549b36945900212ef8830e03dbeb9",
+      "src": "sha256:505e09ee91fa06780ac39513bf493ea7917cb4f1f66b41050837a99436ff6440",
       "src_commit": "1016455f585ca46eda1781a8114b34dcd0028942",
       "engine": "gt",
       "mode": "full",
@@ -34677,7 +34677,7 @@
       "edited": false
     },
     "guides/Raspberry_pi5_Zebra_Lightwalletd_Zingo.md": {
-      "src": "sha256:f89734fb57eac5330df09ae8b296571f3ee268a51b8ed1161104824bfc0c1564",
+      "src": "sha256:53f77ab4f79ee80ce2328775dcf06979842889e69594bb598a662a9a12d0e3b8",
       "src_commit": "1016455f585ca46eda1781a8114b34dcd0028942",
       "engine": "gt",
       "mode": "full",
@@ -36303,7 +36303,7 @@
       "edited": false
     },
     "contribute/Contributing_Guide.md": {
-      "src": "sha256:0bc989079bc15a326a16df4049d1ecd2691549b36945900212ef8830e03dbeb9",
+      "src": "sha256:505e09ee91fa06780ac39513bf493ea7917cb4f1f66b41050837a99436ff6440",
       "src_commit": "1016455f585ca46eda1781a8114b34dcd0028942",
       "engine": "llm",
       "mode": "full",
@@ -36503,7 +36503,7 @@
       "edited": false
     },
     "guides/Raspberry_pi5_Zebra_Lightwalletd_Zingo.md": {
-      "src": "sha256:f89734fb57eac5330df09ae8b296571f3ee268a51b8ed1161104824bfc0c1564",
+      "src": "sha256:53f77ab4f79ee80ce2328775dcf06979842889e69594bb598a662a9a12d0e3b8",
       "src_commit": "1016455f585ca46eda1781a8114b34dcd0028942",
       "engine": "llm",
       "mode": "diff",

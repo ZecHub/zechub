@@ -92,7 +92,7 @@ Voici un exemple de tutoriel ci-dessous :
   <iframe
     className="w-full h-full"
     src="https://www.youtube.com/embed/qz4KzDjkqu8"
-    title="Tutoriel d’installation de WSL + compilation/transaction Zcashd"
+    title="Tutoriel d’installation de WSL + compilation/transaction zcashd"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowFullScreen
     loading="lazy"

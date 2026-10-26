@@ -10,7 +10,7 @@
   <iframe
     className="w-full h-full"
     src="https://www.youtube.com/embed/FfH5jiX8pT0"
-    title="使用 Zcash Zebra 节点搭配 Lightwalletd：教程"
+    title="使用 Zcash Zebra 节点搭配 lightwalletd：教程"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowFullScreen
     loading="lazy"

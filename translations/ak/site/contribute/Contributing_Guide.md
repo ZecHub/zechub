@@ -92,7 +92,7 @@ Nhwɛsoɔ nkyerɛkyerɛ bi a ɛwɔ aseɛ ha ni:
   <iframe
     className="w-full h-full"
     src="https://www.youtube.com/embed/qz4KzDjkqu8"
-    title="WSL Install + Zcashd Compile/Transaction Tutorial"
+    title="WSL Install + zcashd Compile/Transaction Tutorial"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowFullScreen
     loading="lazy"
