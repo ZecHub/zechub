@@ -475,7 +475,7 @@ RAM을 너무 아꼈습니다. 배포를 닫고 최소 12Gi 메모리(권장 16G
 
 ### RPC 인증 실패
 
--> *ZCASHD_RPCUSER*와 *ZCASHD_RPCPASSWORD*가 올바르게 설정되었는지 확인하세요
+-> `ZCASHD_RPCUSER`와 `ZCASHD_RPCPASSWORD`가 올바르게 설정되었는지 확인하세요
 
 -> 올바른 포트를 사용하고 있는지 확인하세요(mainnet은 8232, testnet은 18232)
 

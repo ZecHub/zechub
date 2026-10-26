@@ -475,7 +475,7 @@ Sağlayıcının ağ sorunları veya düşük bant genişliği olabilir. Bu gene
 
 ### RPC kimlik doğrulama hataları
 
--> *ZCASHD_RPCUSER* ve *ZCASHD_RPCPASSWORD* değerlerinin doğru ayarlandığını kontrol edin
+-> `ZCASHD_RPCUSER` ve `ZCASHD_RPCPASSWORD` değerlerinin doğru ayarlandığını kontrol edin
 
 -> Doğru portu kullandığınızı doğrulayın (mainnet için 8232, testnet için 18232)
 

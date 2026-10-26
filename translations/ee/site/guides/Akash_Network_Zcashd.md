@@ -475,7 +475,7 @@ Tso esime wotɔ te Kpekpeɖeŋunana ƒe Nuwuwu le July 18, 2026 dzi la, esiae ny
 
 ### RPC ƒe ɖaseɖiɖi ƒe kpododonuwo
 
--> Kpɔe ɖa be woɖo *ZCASHD_RPCUSER* kple *ZCASHD_RPCPASSWORD* nyuie hã
+-> Kpɔe ɖa be woɖo `ZCASHD_RPCUSER` kple `ZCASHD_RPCPASSWORD` nyuie hã
 
 -> Kpɔ egbɔ be yele ʋɔtru nyuitɔ zãm (8232 na mainnet, 18232 na testnet)
 

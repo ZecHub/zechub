@@ -475,7 +475,7 @@ zcash-cli getinfo
 
 ### Αποτυχίες ελέγχου ταυτότητας RPC
 
--> Έλεγξε ότι τα *ZCASHD_RPCUSER* και *ZCASHD_RPCPASSWORD* έχουν οριστεί σωστά
+-> Έλεγξε ότι τα `ZCASHD_RPCUSER` και `ZCASHD_RPCPASSWORD` έχουν οριστεί σωστά
 
 -> Επιβεβαίωσε ότι χρησιμοποιείς τη σωστή θύρα (8232 για mainnet, 18232 για testnet)
 

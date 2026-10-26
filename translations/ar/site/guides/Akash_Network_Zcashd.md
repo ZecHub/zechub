@@ -475,7 +475,7 @@ zcash-cli getinfo
 
 ### فشل مصادقة RPC
 
--> تحقّق من أن *ZCASHD_RPCUSER* و *ZCASHD_RPCPASSWORD* تم تعيينهما بشكل صحيح
+-> تحقّق من أن `ZCASHD_RPCUSER` و `ZCASHD_RPCPASSWORD` تم تعيينهما بشكل صحيح
 
 -> تأكّد من أنك تستخدم المنفذ الصحيح (8232 للشبكة الرئيسية، 18232 للشبكة التجريبية)
 

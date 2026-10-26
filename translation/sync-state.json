@@ -1493,7 +1493,7 @@
       "src_commit": "4278910bf8dd3f4ccc522204674bebe2839d960b",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static+brand-restore+jsx-restore+prose-retranslate",
+      "tool": "gt-static+brand-restore+jsx-restore+prose-retranslate+handfix",
       "edited": false
     },
     "guides/Akash_Network_Zebra.md": {
@@ -3319,7 +3319,7 @@
       "src_commit": "9dcac0e4acbfdd3c1c63aaf40c8cd062d2f30d86",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.4+dedupe-linkrepair",
+      "tool": "codex/gpt-5.4+dedupe-linkrepair+handfix",
       "edited": false
     },
     "guides/Akash_Network_Zebra.md": {
@@ -5161,7 +5161,7 @@
       "src_commit": "9dcac0e4acbfdd3c1c63aaf40c8cd062d2f30d86",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.4+dedupe-linkrepair",
+      "tool": "codex/gpt-5.4+dedupe-linkrepair+handfix",
       "edited": false
     },
     "guides/Akash_Network_Zebra.md": {
@@ -6995,7 +6995,7 @@
       "src_commit": "4278910bf8dd3f4ccc522204674bebe2839d960b",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static+brand-restore+jsx-restore+prose-retranslate",
+      "tool": "gt-static+brand-restore+jsx-restore+prose-retranslate+handfix",
       "edited": false
     },
     "guides/Akash_Network_Zebra.md": {
@@ -8133,7 +8133,7 @@
       "src_commit": "861d6584cc8095af8af59e1f11508992e35f7c40",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+handfix",
       "edited": false
     },
     "guides/Akash_Network_Zebra.md": {
@@ -10663,7 +10663,7 @@
       "src_commit": "9dcac0e4acbfdd3c1c63aaf40c8cd062d2f30d86",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.4+dedupe-linkrepair",
+      "tool": "codex/gpt-5.4+dedupe-linkrepair+handfix",
       "edited": false
     },
     "guides/Akash_Network_Zebra.md": {
@@ -12505,7 +12505,7 @@
       "src_commit": "9dcac0e4acbfdd3c1c63aaf40c8cd062d2f30d86",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.4+dedupe-linkrepair",
+      "tool": "codex/gpt-5.4+dedupe-linkrepair+handfix",
       "edited": false
     },
     "guides/Akash_Network_Zebra.md": {
@@ -14347,7 +14347,7 @@
       "src_commit": "f13f2f4008d3e9a5dfa913316f83066698456d6e",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+handfix",
       "edited": false
     },
     "guides/Akash_Network_Zebra.md": {
@@ -16189,7 +16189,7 @@
       "src_commit": "3336a9152b64b4e8894a412cd8de9a2263b90a77",
       "engine": "llm",
       "mode": "full",
-      "tool": "google/gemma-4-26b-a4b+replyfix",
+      "tool": "google/gemma-4-26b-a4b+replyfix+handfix",
       "edited": false
     },
     "guides/Akash_Network_Zebra.md": {
@@ -18031,7 +18031,7 @@
       "src_commit": "05d68d9e540dcdab848870aed8ab4a28f4aa3ac2",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B+jsx-restore",
+      "tool": "nllb-200-3.3B+jsx-restore+handfix",
       "edited": false
     },
     "guides/Akash_Network_Zebra.md": {
@@ -19857,7 +19857,7 @@
       "src_commit": "9dcac0e4acbfdd3c1c63aaf40c8cd062d2f30d86",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.4+dedupe-linkrepair+itglossary+itreview",
+      "tool": "codex/gpt-5.4+dedupe-linkrepair+itglossary+itreview+handfix",
       "edited": false
     },
     "guides/Akash_Network_Zebra.md": {
@@ -21699,7 +21699,7 @@
       "src_commit": "f13f2f4008d3e9a5dfa913316f83066698456d6e",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+handfix",
       "edited": false
     },
     "guides/Akash_Network_Zebra.md": {
@@ -23541,7 +23541,7 @@
       "src_commit": "9dcac0e4acbfdd3c1c63aaf40c8cd062d2f30d86",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.4+dedupe-linkrepair",
+      "tool": "codex/gpt-5.4+dedupe-linkrepair+handfix",
       "edited": false
     },
     "guides/Akash_Network_Zebra.md": {
@@ -25383,7 +25383,7 @@
       "src_commit": "9dcac0e4acbfdd3c1c63aaf40c8cd062d2f30d86",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.4+dedupe-linkrepair",
+      "tool": "codex/gpt-5.4+dedupe-linkrepair+handfix",
       "edited": false
     },
     "guides/Akash_Network_Zebra.md": {
@@ -27225,7 +27225,7 @@
       "src_commit": "9dcac0e4acbfdd3c1c63aaf40c8cd062d2f30d86",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.4+dedupe-linkrepair",
+      "tool": "codex/gpt-5.4+dedupe-linkrepair+handfix",
       "edited": false
     },
     "guides/Akash_Network_Zebra.md": {
@@ -29059,7 +29059,7 @@
       "src_commit": "05d68d9e540dcdab848870aed8ab4a28f4aa3ac2",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B+jsx-restore+prose-retranslate",
+      "tool": "nllb-200-3.3B+jsx-restore+prose-retranslate+handfix",
       "edited": false
     },
     "guides/Akash_Network_Zebra.md": {
@@ -30885,7 +30885,7 @@
       "src_commit": "9dcac0e4acbfdd3c1c63aaf40c8cd062d2f30d86",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.4+dedupe-linkrepair",
+      "tool": "codex/gpt-5.4+dedupe-linkrepair+handfix",
       "edited": false
     },
     "guides/Akash_Network_Zebra.md": {
@@ -32727,7 +32727,7 @@
       "src_commit": "9dcac0e4acbfdd3c1c63aaf40c8cd062d2f30d86",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.4+dedupe-linkrepair",
+      "tool": "codex/gpt-5.4+dedupe-linkrepair+handfix",
       "edited": false
     },
     "guides/Akash_Network_Zebra.md": {
@@ -34545,7 +34545,7 @@
       "src_commit": "05d68d9e540dcdab848870aed8ab4a28f4aa3ac2",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B+jsx-restore",
+      "tool": "nllb-200-3.3B+jsx-restore+handfix",
       "edited": false
     },
     "guides/Akash_Network_Zebra.md": {
@@ -36355,7 +36355,7 @@
       "src_commit": "e0299c1a434bf007274433ee81ce3034d4dbf6d4",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+handfix",
       "edited": false
     },
     "guides/Akash_Network_Zebra.md": {
