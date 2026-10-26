@@ -112,9 +112,9 @@ H("Pay Bob 6 ZEC") = 76abc346d8d3053f76a9ae18b617af71f02729a73ec6a51732d2d94934e
 
 | Σχέδιο | Hashes που χρησιμοποιούνται | Πού |
 |---|---|---|
-| **Sprout** (το παλαιότερο) | **SHA-256** | Commitments note και το δέντρο |
-| **Sapling** | **Hashes Pedersen**, μαζί με **BLAKE2** | Pedersen για commitments note και το δέντρο Merkle· BLAKE2 για παραγωγή κλειδιών και nullifiers |
-| **Orchard** (το τρέχον) | **Sinsemilla**, μαζί με **Poseidon** | Sinsemilla για commitments note και το δέντρο Merkle· Poseidon για το nullifier, όλα σχεδιασμένα για αριθμητικά κυκλώματα |
+| **Sprout** (το παλαιότερο) | **SHA-256** | Commitments των notes και το δέντρο |
+| **Sapling** | **Hashes Pedersen**, μαζί με **BLAKE2** | Pedersen για commitments των notes και το δέντρο Merkle· BLAKE2 για παραγωγή κλειδιών και nullifiers |
+| **Orchard** (το τρέχον) | **Sinsemilla**, μαζί με **Poseidon** | Sinsemilla για commitments των notes και το δέντρο Merkle· Poseidon για το nullifier, όλα σχεδιασμένα για αριθμητικά κυκλώματα |
 
 Τα ονόματα που πρέπει να αναγνωρίζεις είναι τα **Pedersen** και **Sinsemilla** (hashes τύπου commitment που δημιουργούνται από σημεία καμπύλης, άρα κληρονομούν την υπερδύναμη «προστίθενται» και αποδεικνύονται οικονομικά) και το **Poseidon** (ένα hash αριθμητικής πεδίων, κατασκευασμένο ειδικά για κυκλώματα μηδενικής γνώσης). Όταν το Άρθρο 0 είπε ότι το περιεχόμενο ενός note σφραγίζεται σε ένα commitment, *αυτός* είναι ο μηχανισμός που κάνει τη σφράγιση.
 

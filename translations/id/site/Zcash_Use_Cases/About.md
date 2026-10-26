@@ -33,7 +33,7 @@ Pelajari cara menerima dana tanpa mengungkap identitas atau riwayat keuangan kam
 Hindari mengekspos dompet, identitas, atau grafik transaksi kamu saat mengirim dana.
 
 
-### Pengaturan Privasi Freelancer [](/zcash-use-cases/freelance-privacy-setup)
+### [Pengaturan Privasi Freelancer](/zcash-use-cases/freelance-privacy-setup)
 Dapatkan pembayaran dalam Zcash sambil menjaga privasi klien dan pendapatan kamu.
 
 

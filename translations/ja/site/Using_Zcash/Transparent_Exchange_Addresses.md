@@ -90,7 +90,7 @@ TEXアドレスはUnified Address形式からBech32mエンコーディングを�
 * 別々の支払いを互いに関連付けられないよう、毎回新しい一時的アドレスを使用する必要があります。
 * 2番目のトランザクションでは透明な入力のみを使用する必要があります。これにより取引所には、明確な透明から透明への入金として表示されます。
 
-変換と2段階のフローは、[ZIP 320のリファレンス実装](https://zips.z.cash/zip-0320#reference-implementation)で示されています。これは現実に起きた最近の問題です。2026年10月、XChainJSの`zcash-js`ライブラリは、有効な`tex1`受信者を「Invalid 'to' address」エラーで拒否しました。これはバリデーターがBase58Checkの`t1`形式しか受け付けなかったためで、ZECアドレスを公開するサービスへの`tex1`入金が妨げられました（[issue #1782](https://github.com/xchainjs/xchainjs-lib/issues/1782)）。この問題は、バリデーターがZIP 320のエンコーディングを受け入れるようにすることで修正されました（[PR #1783](https://github.com/xchainjs/xchainjs-lib/pull/1783)）。
+変換と2段階のフローは、[ZIP 320のリファレンス実装](https://zips.z.cash/zip-0320#reference-implementation)で示されています。これは現実に起きた最近の問題です。2026年10月、XChainJSの`zcash-js`ライブラリは、有効な`tex1`受信者を「Invalid 'to' address」エラーで拒否しました。これはバリデーターがBase58Checkの`t1`形式しか受け付けなかったためで、`tex1`アドレスを公開するサービスへのZEC入金が妨げられました（[issue #1782](https://github.com/xchainjs/xchainjs-lib/issues/1782)）。この問題は、バリデーターがZIP 320のエンコーディングを受け入れるようにすることで修正されました（[PR #1783](https://github.com/xchainjs/xchainjs-lib/pull/1783)）。
 
 ### TEX送金で明らかになること
 

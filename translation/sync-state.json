@@ -2383,7 +2383,7 @@
       "src_commit": "599423788092c75c5b21cf8a2be19b900743de0a",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+handfix",
       "edited": false
     },
     "Using_Zcash/Unified_Addresses.md": {
@@ -5489,7 +5489,7 @@
       "src_commit": "599423788092c75c5b21cf8a2be19b900743de0a",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+handfix",
       "edited": false
     }
   },
@@ -9133,7 +9133,7 @@
       "src_commit": "599423788092c75c5b21cf8a2be19b900743de0a",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+handfix",
       "edited": false
     },
     "Research/zcash-foundations-series/article-3/article-3-hashing-commitments.md": {
@@ -9141,7 +9141,7 @@
       "src_commit": "599423788092c75c5b21cf8a2be19b900743de0a",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+handfix",
       "edited": false
     },
     "Zcash_Organizations/ZODL.md": {
@@ -9149,7 +9149,7 @@
       "src_commit": "599423788092c75c5b21cf8a2be19b900743de0a",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+handfix",
       "edited": false
     }
   },
@@ -9727,7 +9727,7 @@
       "src_commit": "599423788092c75c5b21cf8a2be19b900743de0a",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+handfix",
       "edited": false
     },
     "Using_Zcash/Unified_Addresses.md": {
@@ -11569,7 +11569,7 @@
       "src_commit": "599423788092c75c5b21cf8a2be19b900743de0a",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+handfix",
       "edited": false
     },
     "Using_Zcash/Unified_Addresses.md": {
@@ -15253,7 +15253,7 @@
       "src_commit": "599423788092c75c5b21cf8a2be19b900743de0a",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+handfix",
       "edited": false
     },
     "Using_Zcash/Unified_Addresses.md": {
@@ -15941,7 +15941,7 @@
       "src_commit": "599423788092c75c5b21cf8a2be19b900743de0a",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+handfix",
       "edited": false
     },
     "Zcash_Use_Cases/Accept_Payments_As_A_Merchant.md": {
@@ -18921,7 +18921,7 @@
       "src_commit": "599423788092c75c5b21cf8a2be19b900743de0a",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+handfix",
       "edited": false
     },
     "Using_Zcash/Unified_Addresses.md": {
@@ -20763,7 +20763,7 @@
       "src_commit": "599423788092c75c5b21cf8a2be19b900743de0a",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+handfix",
       "edited": false
     },
     "Using_Zcash/Unified_Addresses.md": {
@@ -22027,7 +22027,7 @@
       "src_commit": "599423788092c75c5b21cf8a2be19b900743de0a",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+handfix",
       "edited": false
     }
   },
@@ -24447,7 +24447,7 @@
       "src_commit": "599423788092c75c5b21cf8a2be19b900743de0a",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+handfix",
       "edited": false
     },
     "Using_Zcash/Unified_Addresses.md": {
@@ -26289,7 +26289,7 @@
       "src_commit": "599423788092c75c5b21cf8a2be19b900743de0a",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+handfix",
       "edited": false
     },
     "Using_Zcash/Unified_Addresses.md": {
@@ -31791,7 +31791,7 @@
       "src_commit": "599423788092c75c5b21cf8a2be19b900743de0a",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+handfix",
       "edited": false
     },
     "Using_Zcash/Unified_Addresses.md": {

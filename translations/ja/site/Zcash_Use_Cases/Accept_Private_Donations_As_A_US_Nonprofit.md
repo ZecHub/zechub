@@ -85,7 +85,7 @@
 - その時点の米ドル価値と、使用した価格情報源
 - トランザクションIDとメモ
 
-IRSは ZEC を財産として扱います（[Notice 2014-21](https://www.irs.gov/pub/irs-drop/n-14-21.pdf)）。そのため、帳簿上では非現金寄付となります。会計士に読み取り専用アクセスを提供する方法については、[シールドされた ZEC](/zcash-use-cases/keeping-records-with-shielded-zec) で記録を保持するをご覧ください。
+IRSは ZEC を財産として扱います（[Notice 2014-21](https://www.irs.gov/pub/irs-drop/n-14-21.pdf)）。そのため、帳簿上では非現金寄付となります。会計士に読み取り専用アクセスを提供する方法については、[シールドされた ZEC で記録を保持する](/zcash-use-cases/keeping-records-with-shielded-zec)をご覧ください。
 
 ### ステップ5: 250ドル以上の贈与を確認する
 
@@ -158,7 +158,7 @@ ZEC の贈与を、Form 990シリーズの申告書で非現金寄付として�
 ## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="chain-links icon"/> 関連項目
 
 - [寄付をプライベートに受け取る](/zcash-use-cases/receive-donations-privately) - 個人向けの同じ考え方
-- [シールドされた ZEC](/zcash-use-cases/keeping-records-with-shielded-zec) で記録を保持する - 帳簿のためのメモと閲覧キー
+- [シールドされた ZEC で記録を保持する](/zcash-use-cases/keeping-records-with-shielded-zec) - 帳簿のためのメモと閲覧キー
 - [閲覧キー](/zcash-tech/viewing-keys) - 会計士または監査人のための読み取り専用アクセス
 - [ターンスタイル](/zcash-tech/the-turnstile) - ZEC がシールドプールを離れる際に公開されるもの
 

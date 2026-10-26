@@ -5,7 +5,7 @@
   Mittelstufe – 10 Min.
 </span>
 
-> Diese Seite dient der allgemeinen Information und stellt keine Rechts- oder Steuerberatung dar. Die US-Steuervorschriften ändern sich; prüfen Sie daher jeden Schritt mit Ihrem Steuerberater oder Steuerberaterin. Jede untenstehende Regel verweist auf ihre IRS-Quelle, geprüft im Oktober 2026 anhand der Publication 526 (für Steuererklärungen 2025) und des Form 8283 (Revision Dezember 2025). Die IRS-FAQ zu virtuellen Währungen wurde für Transaktionen vor 2025 verfasst; vergleichen Sie sie daher mit den aktuellen Richtlinien.
+> Diese Seite dient der allgemeinen Information und stellt keine Rechts- oder Steuerberatung dar. Die US-Steuervorschriften ändern sich; prüfen Sie daher jeden Schritt mit Ihrer Buchhaltung oder Ihrer Steuerberatung. Jede untenstehende Regel verweist auf ihre IRS-Quelle, geprüft im Oktober 2026 anhand der Publication 526 (für Steuererklärungen 2025) und des Form 8283 (Revision Dezember 2025). Die IRS-FAQ zu virtuellen Währungen wurde für Transaktionen vor 2025 verfasst; vergleichen Sie sie daher mit den aktuellen Richtlinien.
 
 ## Kurzfassung
 
@@ -99,7 +99,7 @@ Der Spender muss die Bestätigung erhalten, bevor er seine Steuererklärung einr
 
 ### Schritt 6: Form 8283 für Spenden über 5.000 $ unterschreiben
 
-Wenn ein Spender mehr als 5.000 $ geltend macht, benötigt er ein qualifiziertes Gutachten. Krypto gilt nicht als öffentlich gehandelte Wertschrift, daher ist das Gutachten dafür erforderlich ([Publication 526](https://www.irs.gov/pub/irs-pdf/p526.pdf), [CCA 202302012](https://www.irs.gov/pub/irs-wd/202302012.pdf)). Der Spender bringt Ihnen [Form 8283](https://www.irs.gov/pub/irs-pdf/f8283.pdf), und Sie unterschreiben den Teil für den Empfänger in Abschnitt B. Ihre Unterschrift bestätigt, dass Sie ZEC an diesem Datum erhalten haben; sie bestätigt nicht den vom Spender angegebenen Wert ([IRS FAQ, Q36](https://www.irs.gov/individuals/international-taxpayers/frequently-asked-questions-on-virtual-currency-transactions)).
+Wenn ein Spender mehr als 5.000 $ geltend macht, benötigt er ein qualifiziertes Gutachten. Krypto gilt nicht als öffentlich gehandeltes Wertpapier, daher ist das Gutachten dafür erforderlich ([Publication 526](https://www.irs.gov/pub/irs-pdf/p526.pdf), [CCA 202302012](https://www.irs.gov/pub/irs-wd/202302012.pdf)). Der Spender bringt Ihnen [Form 8283](https://www.irs.gov/pub/irs-pdf/f8283.pdf), und Sie unterschreiben den Teil für den Empfänger in Abschnitt B. Ihre Unterschrift bestätigt, dass Sie ZEC an diesem Datum erhalten haben; sie bestätigt nicht den vom Spender angegebenen Wert ([IRS FAQ, Q36](https://www.irs.gov/individuals/international-taxpayers/frequently-asked-questions-on-virtual-currency-transactions)).
 
 ### Schritt 7: Bei Bedarf in Dollar umtauschen
 
