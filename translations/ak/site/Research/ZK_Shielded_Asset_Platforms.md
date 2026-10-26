@@ -85,7 +85,7 @@ Sɛ nhwɛso no, susuw NFT a wɔakyerɛw wɔ Solana so ho hwɛ; ne ɔmanfo tebea 
 
 
 
-**[Dark.fi](https://dark.fi/)**: DarkFi yɛ L1 a wɔmmɔ din a egyina zero-nimdeɛ, multi-party computation, ne homomorphic encryption so. Anonymous proof-of-stake hwɛ hu sɛ wɔde validators asie. DarkFi de tebea a ɛko tia fragile ma a wɔde bɛbɔ na wɔde ayɛ apps a wɔmmɔ din - **Asset Swap**: Yiw - . [Krataa fitaa](https://darkfi.org/whitepaper) - ![Darkfi.png](/content-images/0-auQOzkLMfYdoXlRy-b10ed91da5.webp)
+**[Dark.fi](https://dark.fi/)**: DarkFi yɛ L1 a wɔmmɔ din a egyina zero-nimdeɛ, multi-party computation, ne homomorphic encryption so. Anonymous proof-of-stake hwɛ hu sɛ wɔde validators asie. DarkFi de tebea a ɛko tia fragile ma a wɔde bɛbɔ na wɔde ayɛ apps a wɔmmɔ din - **Asset Swap**: Yiw - . [Krataa fitaa](https://darkfi.org/whitepaper) - ![DarkFi.png](/content-images/0-auQOzkLMfYdoXlRy-b10ed91da5.webp)
 ***
 
 

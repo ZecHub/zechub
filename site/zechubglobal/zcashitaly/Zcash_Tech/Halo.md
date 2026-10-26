@@ -96,7 +96,7 @@ Il [Privacy and Scaling Exploration group](https://appliedzkp.org/) sta anche ce
 
 + [Oribis, un L2 zkRollup su Cardano](https://docs.orbisprotocol.com/orbis/technology/halo-2)
 
-+ [Darkfi, una blockchain privata L1 zkEVM](https://dark.fi/book/arch/arch.html)
++ [DarkFi, una blockchain privata L1 zkEVM](https://dark.fi/book/arch/arch.html)
 
 + [Scroll, un L2 zkRollup su Ethereum](https://scroll.mirror.xyz/nDAbJbSIJdQIWqp9kn8J0MVS4s6pYBwHmK7keidQs-k)
 

@@ -96,7 +96,7 @@ Além disso, Halo 2 está sob as licenças open source [MIT e Apache 2.0](https:
 
 - [Anoma](https://anoma.net/blog/hash-functions-in-plonkup) — um protocolo de swaps atómicos multichain que preserva a privacidade
 - [Orbis](https://docs.orbisprotocol.com/orbis/technology/halo-2) — um zkRollup L2 em Cardano
-- [Darkfi](https://dark.fi/book/arch/arch.html) — uma blockchain zkEVM L1 privada
+- [DarkFi](https://dark.fi/book/arch/arch.html) — uma blockchain zkEVM L1 privada
 - [Scroll](https://scroll.mirror.xyz/nDAbJbSIJdQIWqp9kn8J0MVS4s6pYBwHmK7keidQs-k) — um zkRollup L2 em Ethereum
 
 ---

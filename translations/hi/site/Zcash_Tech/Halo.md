@@ -96,7 +96,7 @@ Electric Coin Company ने Protocol Labs, Filecoin Foundation और Ethereum 
 
 - [Anoma](https://anoma.net/blog/hash-functions-in-plonkup) — गोपनीयता-संरक्षित मल्टीचेन एटॉमिक स्वैप प्रोटोकॉल
 - [Orbis](https://docs.orbisprotocol.com/orbis/technology/halo-2) — Cardano पर एक L2 zkRollup
-- [Darkfi](https://dark.fi/book/arch/arch.html) — एक निजी L1 zkEVM blockchain
+- [DarkFi](https://dark.fi/book/arch/arch.html) — एक निजी L1 zkEVM blockchain
 - [Scroll](https://scroll.mirror.xyz/nDAbJbSIJdQIWqp9kn8J0MVS4s6pYBwHmK7keidQs-k) — Ethereum पर एक L2 zkRollup
 
 ---

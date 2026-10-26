@@ -96,7 +96,7 @@ Electric Coin Company 与 Protocol Labs、Filecoin Foundation 及 Ethereum Found
 
 - [Anoma](https://anoma.net/blog/hash-functions-in-plonkup) ——注重隐私的多链原子交换协议
 - [Orbis](https://docs.orbisprotocol.com/orbis/technology/halo-2) ——Cardano 上的 L2 zkRollup
-- [Darkfi](https://dark.fi/book/arch/arch.html) ——私有 L1 zkEVM blockchain
+- [DarkFi](https://dark.fi/book/arch/arch.html) ——私有 L1 zkEVM blockchain
 - [Scroll](https://scroll.mirror.xyz/nDAbJbSIJdQIWqp9kn8J0MVS4s6pYBwHmK7keidQs-k) ——Ethereum 上的 L2 zkRollup
 
 ---

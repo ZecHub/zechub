@@ -96,7 +96,7 @@ Halo 2 هو تطبيق zk-SNARK عالي الأداء مكتوب بلغة Rust،
 
 - [Anoma](https://anoma.net/blog/hash-functions-in-plonkup) — بروتوكول مبادلة ذرية متعدد السلاسل يحافظ على الخصوصية
 - [Orbis](https://docs.orbisprotocol.com/orbis/technology/halo-2) — ‏L2 zkRollup على Cardano
-- [Darkfi](https://dark.fi/book/arch/arch.html) — ‏blockchain خاصة من L1 zkEVM
+- [DarkFi](https://dark.fi/book/arch/arch.html) — ‏blockchain خاصة من L1 zkEVM
 - [Scroll](https://scroll.mirror.xyz/nDAbJbSIJdQIWqp9kn8J0MVS4s6pYBwHmK7keidQs-k) — ‏L2 zkRollup على Ethereum
 
 ---
