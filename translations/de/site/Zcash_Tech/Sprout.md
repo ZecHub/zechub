@@ -6,7 +6,7 @@
 
 > Zcash wurde am 28. Oktober 2016 mit dem abgeschirmten Sprout-Pool gestartet.
 
-> **Warnung:** NU7 macht ZEC, die sich noch im Sprout-Pool befinden, nach der Aktivierung nicht mehr ausgebbar (Mainnet-Zieltermin: 5. November 2026, endgültige Entscheidung: 20. Oktober 2026; siehe [ZIP 259](https://zips.z.cash/zip-0259)). Wenn du über Sprout-Guthaben verfügst, lies [Wiederherstellung von Guthaben](../using-zcash/recovering-funds) und migriere sie zuerst.
+> **Warnung:** NU7 macht ZEC, die sich noch im Sprout-Pool befinden, nach der Aktivierung nicht mehr ausgebbar (Mainnet-Aktivierungshöhe 3.543.405, Zieltermin: 5. November 2026; siehe [ZIP 259](https://zips.z.cash/zip-0259)). Wenn du über Sprout-Guthaben verfügst, lies [Wiederherstellung von Guthaben](../using-zcash/recovering-funds) und migriere sie zuerst.
 
 Das Wichtigste vorweg: Sprout ist der Ursprung von Zcash, das erste Mal, dass privates, verifizierbares Geld auf einer live laufenden blockchain funktionierte.
 

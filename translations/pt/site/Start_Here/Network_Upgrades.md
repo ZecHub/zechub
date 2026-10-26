@@ -17,13 +17,13 @@ Para a história visual de como a privacidade de Zcash evoluiu ao longo destas a
 | [NU6.1](../zcash-tech/nu6-1) | 24 de novembro de 2025 | 3,146,400 | 4dec4df0 | Governação comunitária e dos detentores de moedas desse financiamento |
 | [NU6.2](../zcash-tech/nu6-2) | 3 de junho de 2026 | 3,364,600 | 5437f330 | Uma correção de emergência que corrigiu o circuito Orchard |
 | [Ironwood (NU6.3)](../zcash-tech/ironwood) | 28 de julho de 2026 | 3,428,143 | 37a5165b | O pool Ironwood e uma catraca pública que permite a qualquer pessoa auditar a oferta |
-| **NU7** (em breve) | Testnet: 4 de outubro de 2026; Mainnet: prevista para 5 de novembro de 2026 | Testnet: 4,465,026; Mainnet: por definir (definido a 20 de outubro) | 77190ad9 | Blocos de 25 segundos (ZIP 218), reciclagem de taxas NSM (ZIP 235+237), descontinuação de Sprout (ZIP 2003) |
+| **NU7** (em breve) | Testnet: 4 de outubro de 2026; Mainnet: prevista para 5 de novembro de 2026 | Testnet: 4,465,026; Mainnet: 3,543,405 | 77190ad9 | Blocos de 25 segundos (ZIP 218), reciclagem de taxas NSM (ZIP 235+237), descontinuação de Sprout (ZIP 2003) |
 
 As datas são apresentadas em UTC. Alguns painéis mostram-nas na hora local, mas correspondem ao mesmo bloco e ao mesmo momento. O gatilho fixo para cada atualização é a altura do respetivo bloco de ativação, não a data de calendário.
 
 ### Estado de NU7
 
-NU7 está ativo na Testnet pública à altura **4,465,026** (ativado em 4 de outubro de 2026). A altura de ativação da Mainnet será escolhida em **20 de outubro de 2026**; a meta atual é **5 de novembro de 2026**.
+NU7 está ativo na Testnet pública à altura **4,465,026** (ativado em 4 de outubro de 2026). A altura de ativação da Mainnet é **3,543,405** ([ZIP 259](https://zips.z.cash/zip-0259)), prevista para **5 de novembro de 2026**.
 
 Âmbito (ZIP 259):
 

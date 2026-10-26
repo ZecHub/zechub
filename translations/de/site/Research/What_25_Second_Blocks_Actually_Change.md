@@ -108,9 +108,9 @@ Daneben gibt es zwei kleinere Kosten. Light Wallets laden pro Tag etwa 200 KB me
 
 ## Status und Zeitplan
 
-- **Status von ZIP:** Entwurf. Verantwortliche: Dev Ojha und Evan Forbes; erstellt am 13. März 2026.
+- **Status von ZIP:** Vorgeschlagen. Verantwortliche: Dev Ojha und Evan Forbes; erstellt am 13. März 2026.
 - **Coinholder-Umfrage:** am 14. September 2026 mit 99,9 % Zustimmung abgeschlossen. Die Umfrage signalisiert eine Präferenz; sie ändert nicht selbstständig Konsensregeln.
-- **Zeitplan:** In einer Ankündigung im Community Forum von Zcash am 17. September vereinbarten die Entwicklungsorganisationen einen Zeitplan mit Code Complete bis zum 30. September, NU7 im Testnet am 6. Oktober, einer endgültigen Entscheidung und Mainnet-Aktivierungshöhe am 20. Oktober sowie einer für etwa den 5. November 2026 geplanten Mainnet-Aktivierung. Der 5. November ist ein Zieltermin und kein festes Datum, solange die Höhe nicht festgelegt ist.
+- **Zeitplan:** In einer Ankündigung im Community Forum von Zcash am 17. September vereinbarten die Entwicklungsorganisationen einen Zeitplan mit Code Complete bis zum 30. September, NU7 im Testnet am 6. Oktober und einer endgültigen Entscheidung am 20. Oktober. Die Mainnet-Aktivierungshöhe ist nun auf 3.543.405 festgelegt ([ZIP 259](https://zips.z.cash/zip-0259)), mit einer Zielsetzung für etwa den 5. November 2026.
 - **Implementierung:** nachverfolgt in Zebra ([#11440](https://github.com/ZcashFoundation/zebra/issues/11440)) und in Zakura ([PR #1066](https://github.com/zakura-core/zakura/pull/1066)).
 
 ## Was dies für dich bedeutet

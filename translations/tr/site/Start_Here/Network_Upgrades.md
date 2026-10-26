@@ -17,13 +17,13 @@ Bu yükseltmeler boyunca Zcash gizliliğinin görsel gelişim öyküsü için [G
 | [NU6.1](../zcash-tech/nu6-1) | 24 Kasım 2025 | 3,146,400 | 4dec4df0 | Bu finansmanın topluluk ve coin sahibi yönetişimi |
 | [NU6.2](../zcash-tech/nu6-2) | 3 Haziran 2026 | 3,364,600 | 5437f330 | Orchard devresini düzelten acil bir düzeltme |
 | [Ironwood (NU6.3)](../zcash-tech/ironwood) | 28 Temmuz 2026 | 3,428,143 | 37a5165b | Ironwood havuzu ve herkesin arzı denetlemesini sağlayan herkese açık bir turnike |
-| **NU7** (yaklaşan) | Testnet: 4 Eki 2026; Mainnet: hedeflenen 5 Kas 2026 | Testnet: 4,465,026; Mainnet: TBD (20 Eki'de belirlenecek) | 77190ad9 | 25 saniyelik bloklar (ZIP 218), NSM ücret geri dönüşümü (ZIP 235+237), Sprout'in kullanımdan kaldırılması (ZIP 2003) |
+| **NU7** (yaklaşan) | Testnet: 4 Eki 2026; Mainnet: hedeflenen 5 Kas 2026 | Testnet: 4,465,026; Mainnet: 3,543,405 | 77190ad9 | 25 saniyelik bloklar (ZIP 218), NSM ücret geri dönüşümü (ZIP 235+237), Sprout'in kullanımdan kaldırılması (ZIP 2003) |
 
 Tarihler UTC olarak gösterilir. Bazı panolar bunları yerel saatle gösterir; bu, aynı blok ve aynı andır. Her yükseltme için sabit tetikleyici takvim tarihi değil, etkinleştirme blok yüksekliğidir.
 
 ### NU7 durumu
 
-NU7, **4,465,026** yüksekliğinde herkese açık Testnet'te yayındadır (4 Ekim 2026'da etkinleştirildi). Mainnet etkinleştirme yüksekliği **20 Ekim 2026** tarihinde seçilecektir; mevcut hedef **5 Kasım 2026**'dır.
+NU7, **4,465,026** yüksekliğinde herkese açık Testnet'te yayındadır (4 Ekim 2026'da etkinleştirildi). Mainnet etkinleştirme yüksekliği **3,543,405**'tir ([ZIP 259](https://zips.z.cash/zip-0259)) ve hedef tarih **5 Kasım 2026**'dır.
 
 Kapsam (ZIP 259):
 

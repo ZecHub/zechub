@@ -108,9 +108,9 @@ También hay dos costes menores. Las wallets ligeras descargan unos 200 KB más 
 
 ## Estado y cronología
 
-- **Estado de ZIP:** Borrador. Propietarios Dev Ojha y Evan Forbes; creado el 13 de marzo de 2026.
+- **Estado de ZIP:** Propuesto. Propietarios Dev Ojha y Evan Forbes; creado el 13 de marzo de 2026.
 - **Encuesta a poseedores de monedas:** cerró el 14 de septiembre de 2026, con un 99,9 % de apoyo. La encuesta señala una preferencia; no modifica por sí misma las reglas de consenso.
-- **Cronología:** en un anuncio del Community Forum de Zcash el 17 de septiembre, las organizaciones de desarrollo acordaron un calendario con código completo para el 30 de septiembre, NU7 en testnet el 6 de octubre, una decisión final y la altura de activación en mainnet el 20 de octubre, y una activación en mainnet prevista aproximadamente para el 5 de noviembre de 2026. El 5 de noviembre es un objetivo, no una fecha fija, hasta que se establezca la altura.
+- **Cronología:** en un anuncio del Community Forum de Zcash el 17 de septiembre, las organizaciones de desarrollo acordaron un calendario con código completo para el 30 de septiembre, NU7 en testnet el 6 de octubre y una decisión final el 20 de octubre. La altura de activación en mainnet se ha fijado ahora en 3.543.405 ([ZIP 259](https://zips.z.cash/zip-0259)), prevista aproximadamente para el 5 de noviembre de 2026.
 - **Implementación:** seguida en Zebra ([#11440](https://github.com/ZcashFoundation/zebra/issues/11440)) y en Zakura ([PR #1066](https://github.com/zakura-core/zakura/pull/1066)).
 
 ## Qué significa esto para usted

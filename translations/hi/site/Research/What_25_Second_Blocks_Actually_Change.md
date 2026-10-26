@@ -108,9 +108,9 @@ Sapling और Sprout की सीमाएँ जानबूझकर कड�
 
 ## स्थिति और समय-रेखा
 
-- **ZIP स्थिति:** Draft। स्वामी Dev Ojha और Evan Forbes; 13 मार्च 2026 को बनाया गया।
+- **ZIP स्थिति:** Proposed। स्वामी Dev Ojha और Evan Forbes; 13 मार्च 2026 को बनाया गया।
 - **कॉइनहोल्डर मतदान:** 99.9% समर्थन के साथ 14 सितंबर 2026 को बंद हुआ। मतदान प्राथमिकता का संकेत देता है; यह स्वयं consensus नियम नहीं बदलता।
-- **समय-रेखा:** 17 सितंबर के Zcash Community Forum घोषणा में, विकास संगठनों ने 30 सितंबर तक code complete, 6 अक्टूबर को testnet पर NU7, 20 अक्टूबर को अंतिम निर्णय और mainnet activation height, तथा लगभग 5 नवंबर 2026 को लक्षित mainnet activation की समय-सारणी पर सहमति की। जब तक height तय नहीं होती, 5 नवंबर एक लक्ष्य है, निश्चित तारीख नहीं।
+- **समय-रेखा:** 17 सितंबर के Zcash Community Forum घोषणा में, विकास संगठनों ने 30 सितंबर तक code complete, 6 अक्टूबर को testnet पर NU7, और 20 अक्टूबर को अंतिम निर्णय की समय-सारणी पर सहमति की। mainnet activation height अब 3,543,405 ([ZIP 259](https://zips.z.cash/zip-0259)) तय की गई है, जिसका लक्ष्य लगभग 5 नवंबर 2026 है।
 - **Implementation:** Zebra ([#11440](https://github.com/ZcashFoundation/zebra/issues/11440)) और Zakura ([PR #1066](https://github.com/zakura-core/zakura/pull/1066)) में ट्रैक किया गया है।
 
 ## इसका आपके लिए क्या अर्थ है
