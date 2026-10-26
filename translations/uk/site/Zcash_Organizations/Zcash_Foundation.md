@@ -12,7 +12,7 @@
 
 У Zcash Foundation працює близько 12 співробітників, розподілених по всьому світу. Вони зосереджені на розробці протоколу, безпеці протоколу, управлінні протоколом, розробці інфраструктури та організації подій спільноти Zcash. Zcash Foundation не обмежується роботою лише над Zcash, а також займається розробкою технологій збереження приватності для [гуманітарної допомоги](https://zfnd.org/sai/) і для загального суспільного блага.
 
-Гранти Zcash Foundation надають екосистемі можливість фінансувати проєкти, що роблять внесок в екосистему приватності, такі як [Zebra](https://zebra.zfnd.org/) (незалежна реалізація вузла для Zcash) і [FROST](https://frost.zfnd.org/), а також [різноманітні](https://www.coindesk.com/tech/2021/06/08/tor-project-receives-670k-from-zcash-open-major-grants-for-coding-language-upgrade/) інші проєкти через [Комітет грантів спільноти Zcash](https://zcashcommunitygrants.org/). 
+Гранти Zcash Foundation надають екосистемі можливість фінансувати проєкти, що роблять внесок в екосистему приватності, такі як [Zebra](https://zebra.zfnd.org/) (незалежна реалізація вузла для Zcash) і [FROST](https://frost.zfnd.org/), а також [різноманітні](https://www.coindesk.com/tech/2021/06/08/tor-project-receives-670k-from-zcash-open-major-grants-for-coding-language-upgrade/) інші проєкти через [Zcash Community Grants Committee](https://zcashcommunitygrants.org/). 
 
 Фонд також проводить [Zcon](https://zfnd.org/zcon/) — щорічну офлайн-конференцію, присвячену екосистемі Zcash, — і підтримує низові ініціативи спільноти, такі як [Zcon Vozes](https://zfnd.org/zcon-voices/), регіональні [конференції](https://zfnd.org/zcash-dev-summits/), A/V [клуб](https://forum.zcashcommunity.com/t/the-zero-knowledge-audiovisual-club/43733) Zcash Foundation, нині Zero Knowledge Audio Visual [Club](https://www.zkav.club/), а також різні інші відкриті [дзвінки](https://zfnd.org/arborist-calls/) спільноти, [події](https://zfnd.org/zf-events/#:~:text=Zcomm) спільноти та [AMA-сесії](https://forum.zcashcommunity.com/t/community-call-with-the-zcg-candidates-december-2024/49707).
 
@@ -26,7 +26,7 @@ Zcash Foundation — це звільнена від оподаткування �
 
 Станом на листопад 2024 року Zcash Foundation більше не отримує фінансування з [фонду](https://zips.z.cash/zip-1014) розвитку Zcash. Тепер фінансування Фонду забезпечується через традиційні, такі, що підлягають податковому вирахуванню, [пожертви](https://www.jotform.com/form/251874383638065). Використання коштів можна побачити в їхніх щоквартальних [звітах про прозорість](https://zfnd.org/category/transparency-reports/).
 
-## Програма грантів спільноти Zcash
+## Zcash Community Grants Program
 
 <image src="https://zcashcommunitygrants.org/images/logos/yellow/ZCG%20Circle%20Logo-10.png" height="100" width="100" />
   

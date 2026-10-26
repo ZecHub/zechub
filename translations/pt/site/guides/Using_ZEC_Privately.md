@@ -10,7 +10,7 @@ Atualmente, existem dois tipos de endereços e transações no Zcash: blindados 
 
 Quando as pessoas começam a usar ZEC pela primeira vez, talvez não percebam qual tipo de endereço estão usando. Isso acontece porque nem todas as exchanges oferecem suporte a ZEC blindado e/ou saques de ZEC blindado.
 
-Então, por exemplo, se alguém usa a Coinbase e compra ZEC, estará comprando ZEC transparente e só poderá sacar esse ZEC para um endereço transparente em uma carteira. Carteiras como [ZODL](https://zodl.com/) podem blindar fundos enviados para um endereço transparente para resolver isso, mas nem todo mundo sabe disso. Em termos simples, muitas pessoas usam ZEC da forma que sua exchange ou carteira principal lhes permite.
+Então, por exemplo, se alguém usa a Coinbase e compra ZEC, estará comprando ZEC transparente e só poderá sacar esse ZEC para um endereço transparente em uma carteira. Carteiras como [Zodl](https://zodl.com/) podem blindar fundos enviados para um endereço transparente para resolver isso, mas nem todo mundo sabe disso. Em termos simples, muitas pessoas usam ZEC da forma que sua exchange ou carteira principal lhes permite.
 
 #### Garantindo que seu ZEC esteja blindado
 
@@ -64,7 +64,7 @@ Aqui está um tutorial sobre como blindar seu ZEC de um endereço transparente p
 </div>
 
 
-Aqui está um tutorial sobre como comprar ZEC na Coinbase e enviar para a ZODL.
+Aqui está um tutorial sobre como comprar ZEC na Coinbase e enviar para a Zodl.
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe

@@ -118,7 +118,7 @@ Non è neppure gratuito. ZGo vende sessioni prepagate e richiede una sessione Pr
 - **URL**: [Flexa](https://flexa.co/)
 <img src="/content-images/flexa-mark.png" alt="Flexa logo" width="200" hidden />
 
-Flexa non è un gateway di checkout, quindi non sostituisce gli altri presenti qui. Il cliente apre un portafoglio compatibile con Flexa come ZODL, mostra un codice monouso e il negozio lo scansiona. Non c'è una fattura in ZEC né un plugin e-commerce.
+Flexa non è un gateway di checkout, quindi non sostituisce gli altri presenti qui. Il cliente apre un portafoglio compatibile con Flexa come Zodl, mostra un codice monouso e il negozio lo scansiona. Non c'è una fattura in ZEC né un plugin e-commerce.
 
 Il cliente mantiene il controllo delle proprie coin fino al momento del pagamento. Tu, come commerciante, non ricevi mai ZEC. Flexa regola il pagamento nella valuta che scegli, quindi la parte crypto è gestita da loro.
 

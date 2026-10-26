@@ -25,5 +25,5 @@ Zcash पॉडकास्ट में अपडेट, विशिष्ट 
   * Zcash पॉडकास्ट 4 सेथ के साथ: एक बाहरी दृष्टिकोण Zcash और गोपनीयता पर | [YouTube](https://www.youtube.com/watch?v=C8ItmDFjczQ&list=PLBFOSRGoT80W5EAebpT9zwXu6OTS1mq8w&index=4) | [Odysee](https://odysee.com/@DigitalCashNetwork:c/Zcash-Podcast-4:3) |
 
   * Zcash पॉडकास्ट 5 नोमी ब्रॉकवेल के साथ: आधुनिक गोपनीयता-सचेत जीवनशैली कैसे अपनाएं | [YouTube](https://www.youtube.com/watch?v=GpZAY5O2nJQ&list=PLBFOSRGoT80W5EAebpT9zwXu6OTS1mq8w&index=6) | [Odysee](https://odysee.com/@DigitalCashNetwork:c?view=content) |
-  * Zcash पॉडकास्ट 6 जूको विल्कॉक्स के साथ: शासन और Zcash का आगे का मार्ग | [YouTube](https://www.youtube.com/watch?v=VZeM7bvWWPg&list=PLBFOSRGoT80W5EAebpT9zwXu6OTS1mq8w&index=6&pp=iAQB) | [Odysee](https://t.co/MDW7FoXgxm)|
-  * Zcash पॉडकास्ट 7 जेक के साथ: आज के डिजिटल कैश के रूप में Zcash का उपयोग | [YouTube](https://www.youtube.com/live/yZ1Y1qMu3UE) | [Odysee](https://odysee.com/@DigitalCashNetwork:c/Zcash-Podcast-7:0)|
+  * Zcash पॉडकास्ट 6 Zooko Wilcox के साथ: शासन और Zcash का आगे का मार्ग | [YouTube](https://www.youtube.com/watch?v=VZeM7bvWWPg&list=PLBFOSRGoT80W5EAebpT9zwXu6OTS1mq8w&index=6&pp=iAQB) | [Odysee](https://t.co/MDW7FoXgxm)|
+  * Zcash पॉडकास्ट 7 ZecSpends के Jake के साथ: आज के डिजिटल कैश के रूप में Zcash का उपयोग | [YouTube](https://www.youtube.com/live/yZ1Y1qMu3UE) | [Odysee](https://odysee.com/@DigitalCashNetwork:c/Zcash-Podcast-7:0)|
