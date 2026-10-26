@@ -13858,8 +13858,8 @@
       "src": "sha256:4269799107f9a84b696ff41e4be9cd6867f637e3042d3d6eaaddb625db9d6326",
       "src_commit": "5e8284548d8e4028e4418312553fa654f12d1523",
       "engine": "llm",
-      "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "mode": "diff",
+      "tool": "codex/gpt-5.6-terra+handfix",
       "edited": false
     },
     "Zcash_Tech/Lightwallet_Nodes.md": {
