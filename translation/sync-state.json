@@ -3889,7 +3889,7 @@
       "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra+verbatim-columns",
+      "tool": "codex/gpt-5.6-terra+verbatim-columns+numfix",
       "edited": false
     },
     "Research/zcash-formal-verification-series/article-2/article-2-ironwood-proving-money-cannot-be-faked.md": {
@@ -9391,7 +9391,7 @@
       "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra+verbatim-columns",
+      "tool": "codex/gpt-5.6-terra+verbatim-columns+numfix",
       "edited": false
     },
     "Research/zcash-formal-verification-series/article-2/article-2-ironwood-proving-money-cannot-be-faked.md": {
@@ -11233,7 +11233,7 @@
       "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra+verbatim-columns",
+      "tool": "codex/gpt-5.6-terra+verbatim-columns+numfix",
       "edited": false
     },
     "Research/zcash-formal-verification-series/article-2/article-2-ironwood-proving-money-cannot-be-faked.md": {
@@ -11321,7 +11321,7 @@
       "src_commit": "db0af74c5294ef0fb3ebf3b47d308a4426eace68",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.4",
+      "tool": "codex/gpt-5.4+numfix",
       "edited": false
     },
     "Start_Here/Network_Upgrades.md": {
@@ -15005,7 +15005,7 @@
       "src_commit": "ec5192d0ea0dfc1e066a5c537abe3ebdbd260b13",
       "engine": "llm",
       "mode": "full",
-      "tool": "google/gemma-4-26b-a4b",
+      "tool": "google/gemma-4-26b-a4b+numfix",
       "edited": false
     },
     "Start_Here/Network_Upgrades.md": {
@@ -15229,7 +15229,7 @@
       "src_commit": "3336a9152b64b4e8894a412cd8de9a2263b90a77",
       "engine": "llm",
       "mode": "full",
-      "tool": "google/gemma-4-26b-a4b+replyfix+handfix",
+      "tool": "google/gemma-4-26b-a4b+replyfix+handfix+numfix",
       "edited": false
     },
     "Using_Zcash/Testnet.md": {
@@ -15861,7 +15861,7 @@
       "src_commit": "df227acb3a9bf8b633cb3fa07c70cc97d2ae52d9",
       "engine": "llm",
       "mode": "full",
-      "tool": "google/gemma-4-26b-a4b",
+      "tool": "google/gemma-4-26b-a4b+numfix",
       "edited": false
     },
     "Zcash_Tech/ZAP1_Attestation_Protocol.md": {
@@ -18585,7 +18585,7 @@
       "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra+verbatim-columns+itglossary+itreview",
+      "tool": "codex/gpt-5.6-terra+verbatim-columns+itglossary+itreview+numfix",
       "edited": false
     },
     "Research/zcash-formal-verification-series/article-2/article-2-ironwood-proving-money-cannot-be-faked.md": {
@@ -20459,7 +20459,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "qwen3-14b+linkrepair+verbatim-columns",
+      "tool": "qwen3-14b+linkrepair+verbatim-columns+numfix",
       "edited": false
     },
     "Research/zcash-foundations-series/article-3/article-3-hashing-commitments.md": {
@@ -21027,7 +21027,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
       "mode": "seed",
-      "tool": "qwen3-14b+namefix",
+      "tool": "qwen3-14b+namefix+numfix",
       "edited": false
     },
     "Zcash_Organizations/Electric_Coin_Company.md": {
@@ -21283,7 +21283,7 @@
       "src_commit": "6bf61545802a69166d802910b29e73604c2d0ef5",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra+handfix+namefix",
+      "tool": "codex/gpt-5.6-terra+handfix+namefix+numfix",
       "edited": false
     },
     "Zcash_Tech/Private_Information_Retrieval.md": {
@@ -22933,7 +22933,7 @@
       "src_commit": "c738340f55d25822452be48ff87e6b14489ff497",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+numfix",
       "edited": false
     },
     "Zcash_Organizations/Zcash_Community_Grants.md": {
@@ -26377,7 +26377,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+numfix",
       "edited": false
     },
     "ZFAV_Club/Guides_for_Creators/IPFS_File_Sharing.md": {

@@ -193,7 +193,7 @@ Karyanya terkenal di ekosistem Zcash berkat kontribusinya pada klub ZFAV.
 
 **Media sosial:**
 
-[Telegram](https://t.me/Robmarn) | [Platform X](https://twitter.com/robmarn) | [Gratis di 2z](https://free2z.cash/robmarn)
+[Telegram](https://t.me/Robmarn) | [Platform X](https://twitter.com/robmarn) | [Free2Z](https://free2z.cash/robmarn)
 
 📍Barquisimeto - Venezuela
 

@@ -5,7 +5,7 @@
 
 > **Reihe:** *Reihe zur formalen Verifikation* · **Teil 2 von 3**
 > **Zielgruppe:** Einsteiger. Teil 1 führte die formale Verifikation ein; hier begegnen wir dem tatsächlichen Bug, der sie dringend machte. Alles Notwendige wird von Grund auf erklärt.
-> **Was Sie mitnehmen werden:** ein intuitives, aber präzises Bild davon, wie ein kryptografisches Beweissystem eine Soundness-Lücke enthalten kann, was genau der „Orchard“-Bug von Zcash war, warum sich diese Klasse von Bugs jahrelang verbergen kann und warum sie schon zuvor aufgetreten ist.
+> **Was Sie mitnehmen werden:** ein intuitives, aber präzises Bild davon, wie ein kryptografisches Beweissystem eine Soundness-Lücke enthalten kann, was genau der „Orchard“-Bug von Zcash aus dem Jahr 2026 war, warum sich diese Klasse von Bugs jahrelang verbergen kann und warum sie schon zuvor aufgetreten ist.
 
 In Teil 1 haben wir gesagt, dass Tests das Vorhandensein von Bugs zeigen können, niemals aber ihre Abwesenheit, und dass die gefährlichsten Bugs in der *Spezifikation* eines Systems liegen, also in seiner zugrunde liegenden Mathematik. Dieser Artikel ist die Fallstudie dazu. 2026 wurde ein Fehler im abgeschirmten Pool von Zcash, Orchard, gefunden, der einem Angreifer hätte ermöglichen können, unbegrenzt gefälschtes Geld unsichtbar zu erzeugen. Er hatte vier Jahre und wiederholte Audits überstanden. Ihn und seine Vorgänger zu verstehen, ist die denkbar deutlichste Motivation dafür, Systeme als korrekt zu beweisen.
 
