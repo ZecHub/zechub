@@ -96,7 +96,7 @@ Electric Coin Companyは、各ネットワークでこの技術をどのよう�
 
 - [Anoma](https://anoma.net/blog/hash-functions-in-plonkup) — プライバシーを保護するマルチチェーン原子的スワッププロトコル
 - [Orbis](https://docs.orbisprotocol.com/orbis/technology/halo-2) — Cardano上のL2 zkRollup
-- [Darkfi](https://dark.fi/book/arch/arch.html) — プライベートなL1 zkEVMブロックチェーン
+- [DarkFi](https://dark.fi/book/arch/arch.html) — プライベートなL1 zkEVMブロックチェーン
 - [Scroll](https://scroll.mirror.xyz/nDAbJbSIJdQIWqp9kn8J0MVS4s6pYBwHmK7keidQs-k) — Ethereum上のL2 zkRollup
 
 ---

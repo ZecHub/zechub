@@ -96,7 +96,7 @@
 
 - [Anoma](https://anoma.net/blog/hash-functions-in-plonkup) — ένα πρωτόκολλο atomic swap πολλαπλών αλυσίδων που διατηρεί την ιδιωτικότητα
 - [Orbis](https://docs.orbisprotocol.com/orbis/technology/halo-2) — ένα L2 zkRollup στο Cardano
-- [Darkfi](https://dark.fi/book/arch/arch.html) — ένα ιδιωτικό L1 zkEVM blockchain
+- [DarkFi](https://dark.fi/book/arch/arch.html) — ένα ιδιωτικό L1 zkEVM blockchain
 - [Scroll](https://scroll.mirror.xyz/nDAbJbSIJdQIWqp9kn8J0MVS4s6pYBwHmK7keidQs-k) — ένα L2 zkRollup στο Ethereum
 
 ---

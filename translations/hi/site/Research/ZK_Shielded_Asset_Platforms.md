@@ -85,7 +85,7 @@ Firn का उपयोग करने के लिए, protocol में ET
 
 
 
-**[Dark.fi](https://dark.fi/)**: DarkFi zero-knowledge, multi-party computation और homomorphic encryption पर आधारित एक गुमनाम L1 है। गुमनाम proof-of-stake सुनिश्चित करता है कि सत्यापनकर्ता छिपे रहें। DarkFi गुमनाम apps बनाने और चलाने के लिए एक anti-fragile environment प्रदान करता है - **एसेट स्वैप**: हाँ - [श्वेतपत्र](https://darkfi.org/whitepaper) - ![Darkfi.png](/content-images/0-auQOzkLMfYdoXlRy-b10ed91da5.webp)
+**[Dark.fi](https://dark.fi/)**: DarkFi zero-knowledge, multi-party computation और homomorphic encryption पर आधारित एक गुमनाम L1 है। गुमनाम proof-of-stake सुनिश्चित करता है कि सत्यापनकर्ता छिपे रहें। DarkFi गुमनाम apps बनाने और चलाने के लिए एक anti-fragile environment प्रदान करता है - **एसेट स्वैप**: हाँ - [श्वेतपत्र](https://darkfi.org/whitepaper) - ![DarkFi.png](/content-images/0-auQOzkLMfYdoXlRy-b10ed91da5.webp)
 ***
 
 

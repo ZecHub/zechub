@@ -85,7 +85,7 @@ Le kpɔɖeŋu me, bu NFT ƒe ŋkɔ si woŋlɔ ɖe Solana dzi ŋu kpɔ; eƒe duto
 
 
 
-**[Dark.fi](https://dark.fi/)**: DarkFi nye L1 si ŋkɔ mele o si wotu ɖe zero-sidzedze, akpa geɖe ƒe akɔntabubu, kple homomorphic encryption dzi. Kpeɖodzi si womeyɔ o si ɖee fia be woɣla amesiwo ɖo kpe edzi. DarkFi na nɔnɔme si tsi tre ɖe nusiwo me gblẽna ŋu be woawɔ dɔwɔɖoɖo siwo me ŋkɔ mele o eye woawɔ wo - **Nuwo ƒe Tɔtrɔ**: Ẽ - . [Agbalẽ ɣi](https://darkfi.org/whitepaper) - ![Darkfi.png](/content-images/0-auQOzkLMfYdoXlRy-b10ed91da5.webp)
+**[Dark.fi](https://dark.fi/)**: DarkFi nye L1 si ŋkɔ mele o si wotu ɖe zero-sidzedze, akpa geɖe ƒe akɔntabubu, kple homomorphic encryption dzi. Kpeɖodzi si womeyɔ o si ɖee fia be woɣla amesiwo ɖo kpe edzi. DarkFi na nɔnɔme si tsi tre ɖe nusiwo me gblẽna ŋu be woawɔ dɔwɔɖoɖo siwo me ŋkɔ mele o eye woawɔ wo - **Nuwo ƒe Tɔtrɔ**: Ẽ - . [Agbalẽ ɣi](https://darkfi.org/whitepaper) - ![DarkFi.png](/content-images/0-auQOzkLMfYdoXlRy-b10ed91da5.webp)
 ***
 
 

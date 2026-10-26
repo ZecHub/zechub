@@ -106,7 +106,7 @@ The [Ame ŋutɔ ƒe nyawo kple Scaling Exploration ƒuƒoƒo](https://appliedzkp
 
 + [Oribis, si nye L2 zkRollup si le Cardano dzi](https://docs.orbisprotocol.com/orbis/technology/halo-2)
 
-+ [Darkfi, si nye ame ŋutɔ ƒe L1 zkEVM blockchain](https://dark.fi/book/arch/arch.html)
++ [DarkFi, si nye ame ŋutɔ ƒe L1 zkEVM blockchain](https://dark.fi/book/arch/arch.html)
 
 + [Scroll, si nye L2 zkRollup le Ethereum dzi](https://scroll.mirror.xyz/nDAbJbSIJdQIWqp9kn8J0MVS4s6pYBwHmK7keidQs-k)
 
