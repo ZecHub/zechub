@@ -44,6 +44,9 @@ Accetta pagamenti usando un indirizzo schermato ed evita di esporre i dati delle
 ###  [Gestisci una tesoreria comunitaria privata](/zcash-use-cases/private-community-treasury)
 Usa indirizzi schermati per detenere fondi condivisi e limitare la visibilità dei saldi e delle transazioni
 
+###  [Accetta donazioni private come organizzazione non profit statunitense](/zcash-use-cases/accept-private-donations-as-a-us-nonprofit)
+Accetta ZEC schermati come ente 501(c)(3) e continua a fornire ai donatori le ricevute e i moduli IRS di cui hanno bisogno
+
 ###  [Configurazione privacy per giornalisti](/zcash-use-cases/journalist-privacy-setup)   
 Usa indirizzi schermati per tutte le transazioni e proteggi le fonti evitando pagamenti tracciabili. Usa i memo con attenzione per una comunicazione sicura
 

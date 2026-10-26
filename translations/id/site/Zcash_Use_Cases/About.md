@@ -44,6 +44,9 @@ Terima pembayaran menggunakan alamat terlindungi dan hindari mengekspos data tra
 ### [Menjalankan Perbendaharaan Komunitas yang Privat](/zcash-use-cases/private-community-treasury)
 Gunakan alamat terlindungi untuk menyimpan dana bersama dan membatasi visibilitas saldo serta transaksi
 
+###  [Terima Donasi Privat sebagai Organisasi Nirlaba AS](/zcash-use-cases/accept-private-donations-as-a-us-nonprofit)
+Terima ZEC terlindungi sebagai organisasi 501(c)(3) dan tetap berikan donor tanda terima dan formulir IRS yang mereka butuhkan
+
 ### [Pengaturan Privasi Jurnalis](/zcash-use-cases/journalist-privacy-setup)   
 Gunakan alamat terlindungi untuk semua transaksi dan lindungi sumber berita dengan menghindari pembayaran yang dapat dilacak. Gunakan memo dengan hati-hati untuk komunikasi yang aman
 

@@ -79,6 +79,8 @@ Zcash має більше одного типу адрес, і експлоре�
 
 - [ZecBlock](https://zecblock.com/)
 
+- [SoChain](https://sochain.com/zec) ([тестова мережа](https://sochain.com/zectest))
+
 ### Візуальний посібник
 
 Ось чотири хороші приклади різних блокчейн-експлорерів:
