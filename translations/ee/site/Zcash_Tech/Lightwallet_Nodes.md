@@ -79,7 +79,7 @@ Nuxlɔ̃ame eve. Tor ɣlaa wò IP ɖe server la, gake metrɔa nusi server la sr�
 
 ### Zaino, si nye Rust ƒe xexlẽdzesifiala
 
-[Zaino](/zcash-tech/zaino) nye indexer si Zingo ƒe ƒuƒoƒoa ŋlɔ ɖe Rust me, si wotu be wòaxɔ ɖe lightwalletd teƒe abe zcashd deprecation dɔa ƒe akpa aɖe ene. Esubɔa kekeli ƒe asisiwo, asisi blibowo, kple block explorers, xlẽa kɔsɔkɔsɔ nyatakaka siwo le "Zebra alo Zcashd blibo validator" si.
+[Zaino](/zcash-tech/zaino) nye indexer si Zingo ƒe ƒuƒoƒoa ŋlɔ ɖe Rust me, si wotu be wòaxɔ ɖe lightwalletd teƒe abe zcashd deprecation dɔa ƒe akpa aɖe ene. Esubɔa kekeli ƒe asisiwo, asisi blibowo, kple block explorers, xlẽa kɔsɔkɔsɔ nyatakaka siwo le "Zebra alo zcashd blibo validator" si.
 
 Ele ŋgɔyiyi wɔm vevie, kple eƒe tɔtrɔ 0.8.0 si woɖe ɖe go le August 2026. Eƒe taɖodzinue nye be yeanɔ megbe awɔ ɖeka kple lightwalletd le afisi wòanya wɔ le, ale be gakotokuwo ateŋu afia asi edzi evɔ womagbugbɔe aŋlɔe o.
 

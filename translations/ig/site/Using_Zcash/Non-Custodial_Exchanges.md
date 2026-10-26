@@ -43,7 +43,7 @@ Nzuzo Zcash sitere na adreesị echekwara. Mgbe ZEC na-agagharị n'etiti adrees
 Mgbanwe nwere akụkụ ndị Zcash enweghị ike izochi:
 
 - **Netwọk isi mmalite.** Ego ị zitere site na Solana, Ethereum ma ọ bụ ụlọ ọrụ ọha ọzọ dị na usoro ahụ, gụnyere adreesị gị na ego ole ị ga-enweta.
-- **Adreesị nnata.** Ụfọdụ ụzọ mgbanwe na-ebuga ZEC na adreesị doro anya. Dịka ọmụmaatụ, Near Intents depụtara ZEC dị ka akwadoro maka [naanị adreesị doro anya](https://docs.near-intents.org/resources/chain-support)ZEC ezigara na adreesị doro anya (t1 ma ọ bụ t3) bụ nke ọha, dịka Bitcoin. Ịchekwa ya ma emechaa na-echebe ihe ị ga-eme na-esote, mana mbufe na-abata na azụmahịa nchekwa ahụ ka a na-ahụ anya.
+- **Adreesị nnata.** Ụfọdụ ụzọ mgbanwe na-ebuga ZEC na adreesị doro anya. Dịka ọmụmaatụ, NEAR Intents depụtara ZEC dị ka akwadoro maka [naanị adreesị doro anya](https://docs.near-intents.org/resources/chain-support)ZEC ezigara na adreesị doro anya (t1 ma ọ bụ t3) bụ nke ọha, dịka Bitcoin. Ịchekwa ya ma emechaa na-echebe ihe ị ga-eme na-esote, mana mbufe na-abata na azụmahịa nchekwa ahụ ka a na-ahụ anya.
 - **Ọrụ ahụ.** Ngwa ahụ na ọrụ nhazi ọ bụla na-ahụ adreesị na ego ị nyere ha, tinyere data njikọ dị ka adreesị IP gị.
 
 Zipu ZEC n'ime obere akpa ị na-achịkwa ma chebe ya tupu ị na-emefu ego. [Iji ZEC n'onwe gị](/guides/using-zec-privately) na-ekpuchi usoro ndị ọzọ.
@@ -54,7 +54,7 @@ Were mgbanwe e zigara site na ọrụ 1Click dị nso dịka ọmụmaatụ [Uso
 
 - **Njikọ**: weebụsaịtị ma ọ bụ obere akpa ị na-eji. Intents Technology ma ọ bụ nke ndị ọzọ nwere usoro nke ya nwere ike ijikwa ya.
 - **1Click**: ọrụ nhazi na nhazi nke Intents Technology Limited na-arụ. Ị na-eziga ego na adreesị nkwụnye ego e kere maka ọnụahịa gị. Akwụkwọ ndị ahụ kwuru na 1Click anaghị ejide ihe onwunwe, mana usoro ndị a na-ekwu na enwere ike ijide ma ọ bụ kpọchie ihe onwunwe n'ime akụrụngwa akwa mmiri mgbe nnyefe na-aga n'ihu.
-- **Usoro iwu**: nkwekọrịta amamihe dị na Near Intents.
+- **Usoro iwu**: nkwekọrịta amamihe dị na NEAR Intents.
 - **Ndị na-edozi**: ndị ọzọ nọọrọ onwe ha nke na-ejupụta nhota ahụ.
 - **Àkwà mmiri**: ZEC nke obodo ahụ na-agafe Àkwà mmiri PoA, nke Intents Technology na-arụ ọrụ.
 

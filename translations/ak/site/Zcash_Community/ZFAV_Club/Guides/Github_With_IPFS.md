@@ -2,11 +2,11 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Som Github Repo ne IPFS 
+# Som GitHub Repo ne IPFS 
 
 ## Nnianimu
 
-Wɔ saa akwankyerɛ yi mu no yɛsua sɛdeɛ yɛbɛbɔ git cloneable URL ama wo Github akoraeɛ a wɔde IPFS CID som. Eyi ho wɔ mfaso sɛ wobɛhwɛ ahu sɛ nneɛma a ɛwɔ mu no wɔ hɔ a asasesin a ɛwɔ ɔmantam, censorship resistance ne sɛ perisistent backup of valuable information mfa ho!
+Wɔ saa akwankyerɛ yi mu no yɛsua sɛdeɛ yɛbɛbɔ git cloneable URL ama wo GitHub akoraeɛ a wɔde IPFS CID som. Eyi ho wɔ mfaso sɛ wobɛhwɛ ahu sɛ nneɛma a ɛwɔ mu no wɔ hɔ a asasesin a ɛwɔ ɔmantam, censorship resistance ne sɛ perisistent backup of valuable information mfa ho!
 
 Hyɛ no nsow: Data a wɔde akɔ IPFS no wɔ hɔ ma *wɔn nyinaa* network dwumadiefoɔ. Ebia wobɛpɛ sɛ wode w’ankasa/nsɛm a ɛho hia sie wɔ wo mpɔtam hɔ.
 

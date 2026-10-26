@@ -3,7 +3,7 @@
 </a>
 
 # <img src="/content-images/image-2024-02-03-170636194-b507a57ff1.webp" alt="Alt Text" width="50"/>    ZKAV Club
-[Вебсайт](https://zkav.club) - [Github](https://github.com/copernicus-mogley/zkav.club) - [X/Twitter](https://x.com/ZkAv_Club) - [Youtube](https://www.youtube.com/@ZkAv_Club)
+[Вебсайт](https://zkav.club) - [GitHub](https://github.com/copernicus-mogley/zkav.club) - [X/Twitter](https://x.com/ZkAv_Club) - [YouTube](https://www.youtube.com/@ZkAv_Club)
 
 *За підтримки Zcash Foundation цей амбітний низовий проєкт прагне мати глобальний вплив через місцеві та регіональні дії. Він запрошує спільноту творців вчитися й працювати разом, щоб підносити та поширювати новини й історії, які надихають, навчають і діляться обіцянкою Zcash та фінансової приватності*.
 

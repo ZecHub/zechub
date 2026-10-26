@@ -161,7 +161,7 @@ Trusted Setup ανά κύκλωμα - Εκτελείται μία φορά γι�
 
 [Groth16](https://eprint.iacr.org/2016/260): Απαιτεί Trusted Setup, αλλά έχει πολύ σύντομες αποδείξεις που μπορούν να επαληθευτούν γρήγορα.
 
-[Sonic](https://www.youtube.com/watch?v=oTRAg6Km1os)/[Marlin](https://www.youtube.com/watch?v=bJDLf8KLdL0)/[Plonk](https://eprint.iacr.org/2019/953): Καθολικό έμπιστο Setup.
+[Sonic](https://www.youtube.com/watch?v=oTRAg6Km1os)/[Marlin](https://www.youtube.com/watch?v=bJDLf8KLdL0)/[PLONK](https://eprint.iacr.org/2019/953): Καθολικό έμπιστο Setup.
 
 [DARK](https://eprint.iacr.org/2019/1229)/[Halo](https://eprint.iacr.org/archive/2019/1021/20200218:011907)/[STARK](https://www.youtube.com/watch?v=wFZ_YIetK1o): Χωρίς Trusted Setup, αλλά παράγουν ελαφρώς μεγαλύτερες αποδείξεις ή μπορεί να χρειάζονται περισσότερο χρόνο για να εκτελεστούν από τον αποδεικνύοντα. 
 

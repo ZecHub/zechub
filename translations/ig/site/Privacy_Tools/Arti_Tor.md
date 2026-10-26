@@ -38,7 +38,7 @@ Tupu ị nwee ike iwulite Arti site na isi mmalite, ịkwesịrị ịnwe ụd�
 Nke a ga-egosi na ị nwere ụdị kachasị ọhụrụ nke Rust arụnyere na sistemụ gị.
 
 #### **Mara maka ndị ọrụ Windows**:
-- Rust nwere ike arụnyere na Windows site [**Rustup**](https://rustup.rs/), onye na-arụ ọrụ ngwá ọrụ. Jide n'aka na ị melitela gburugburu ebe obibi dakọtara (ị nwere ike ịchọ ** Visual Studio Build Tools ** na Windows).
+- Rust nwere ike arụnyere na Windows site [**rustup**](https://rustup.rs/), onye na-arụ ọrụ ngwá ọrụ. Jide n'aka na ị melitela gburugburu ebe obibi dakọtara (ị nwere ike ịchọ ** Visual Studio Build Tools ** na Windows).
   
 ---
 

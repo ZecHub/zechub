@@ -153,7 +153,7 @@ Il s'agit de l'image la plus complète de la série, mais cela reste un modèle.
 | Terme | Signification en langage courant |
 |---|---|
 | **Spending key** | Le secret racine unique dont dérivent toutes les clés d'un utilisateur |
-| **Viewing key** | Révèle vos transactions à un détenteur sans lui permettre de dépenser |
+| **Viewing Key** | Révèle vos transactions à un détenteur sans lui permettre de dépenser |
 | **Spend description** | La partie d'une tx qui consomme une note (nullifier, anchor, preuve) |
 | **Output description** | La partie d'une tx qui crée une note (commitment, texte chiffré, preuve) |
 | **Action (Orchard)** | Une unité unifiée effectuant ensemble une dépense et une sortie |

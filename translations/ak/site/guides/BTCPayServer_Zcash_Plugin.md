@@ -14,7 +14,7 @@ BTCPay Server ma intanɛt so nnwuma kwan ma wogye cryptocurrency sikatua tẽẽ
 - [Ɛhe na Wɔde Sika Sie? Hena na Ɔdi Kokoam Safe no So?](#Where-Are-Funds-Stored-Who-Controls-the-Private-Keys)
 - [Sɛnea Wobɛhyehyɛ BTCPay Server ama Zcash agye atom](#How-to-Set-Up-BTCPay-Server-for-Accepting-Zcash)
   - [BTCPay Server a wɔde Zcash Mmoa di dwuma](#Deploying-BTCPay-Server-with-Zcash-Support)
-  - [Wo Ankasa Zcash Full Node (Zebra + Lightwalletd) a Woretu mmirika](#Running-Your-Own-Zcash-Full-Node)
+  - [Wo Ankasa Zcash Full Node (Zebra + lightwalletd) a Woretu mmirika](#Running-Your-Own-Zcash-Full-Node)
   - [Nkitahodi a ɛkɔ External lightwalletd Node (Nhyehyɛe a Wɔahyɛ da ayɛ) so](#Connecting-to-an-External-Lightwalletd-Node)
   - [BTCPay Server a wobɛgye wɔ Fie ne Cloudflare Tunnel](#Hosting-BTCPay-Server-at-Home-with-Cloudflare-Tunnel)
 - [Zcash Plugin a wɔrehyehyɛ wɔ BTCPay Server Wɛb Nkitahodi no mu](#Configuring-the-Zcash-Plugin-in-the-BTCPay-Server-Web-Interface)
@@ -325,19 +325,19 @@ Afei kɔ ɔfa a edi hɔ no so na hyehyɛ Zcash wɔ BTCPay Server wɛb interface 
 
 ## Wo Ankasa Zcash Full Node a Woretu mmirika
 
-Sɛ wopɛ sɛ **ɛnyɛ** sɛ wode wo ho to ɔmanfo so a `lightwalletd` nodes, wobɛtumi de w’ankasa Zcash node a edi mũ aka Lightwalletd ho wɔ server koro no ara so. 
+Sɛ wopɛ sɛ **ɛnyɛ** sɛ wode wo ho to ɔmanfo so a `lightwalletd` nodes, wobɛtumi de w’ankasa Zcash node a edi mũ aka lightwalletd ho wɔ server koro no ara so. 
 Wei ma wo **full autonomy** - abɔnten so dependencies biara nni hɔ, ahotosoɔ biara nni hɔ a ɛho nhia.
 
 ---
 
 ### Anamɔn 1: Hwɛ sɛ Disk Space a Ɛdɔɔso
 
-Zcash node a edi mũ (Zebra + Lightwalletd) mprempren hwehwɛ **300+ GB** disk space, na ɛkɔ so nyin.
+Zcash node a edi mũ (Zebra + lightwalletd) mprempren hwehwɛ **300+ GB** disk space, na ɛkɔ so nyin.
 
 Nkyekyɛmu:
 
 - Zebra blockchain database no: ~ 260-270 GB
-- Lightwalletd nkyerɛkyerɛmu: ~ 15-20 GB
+- lightwalletd nkyerɛkyerɛmu: ~ 15-20 GB
 
 #### Nneɛma a wɔkamfo kyerɛ sɛ wɔmfa nsie:
 
@@ -367,7 +367,7 @@ Eyi bɛka asɛm no ho `zcash-fullnode` asinasin, a ɛde abien no nyinaa tow `zeb
 
 Nkyerɛwee no bɛyɛ:
 
-* Twe Docker mfonini ahorow no ma Zebra ne Lightwalletd
+* Twe Docker mfonini ahorow no ma Zebra ne lightwalletd
 * Hyehyɛ nnwuma no wɔ BTCPay stack no mu
 * Fa Zcash plugin no bata **mpɔtam hɔ** no ho `lightwalletd` nhwɛsoɔ
 
@@ -375,7 +375,7 @@ Nkyerɛwee no bɛyɛ:
 > Enkosi sɛ synchronization bɛwie no, shielded payments rentumi mma.
 
 
-## Nkitahodi a ɛkɔ Abɔnten Lightwalletd Node bi so
+## Nkitahodi a ɛkɔ Abɔnten lightwalletd Node bi so
 
 Mpɛn pii no, ɛho nhia sɛ wɔde ahofadi a edi mũ di dwuma - na ebia aguadifo mpɛ sɛ wɔde bere ne disk atenae bedi dwuma de ayɛ Zcash node a edi mũ. 
 Sɛnea wɔahyɛ no, BTCPay Server ne ɔmanfo bi di nkitaho `lightwalletd` node a wɔde bedi sikatua a wɔabɔ ho ban ho dwuma a wontwe blockchain no nyinaa.
@@ -907,8 +907,8 @@ Yɛpɛ sɛ wodi nkonim wɔ BTCPay abɔdeɛ a nkwa wom nhyehyɛeɛ no mu nhwehwɛ
 * [Zcash Plugin a wɔde yɛ BTCPay (GitHub)](https://github.com/btcpay-zcash/btcpayserver-zcash-plugin)
 * [Zcash Plugin Installation Akwankyerɛ](https://github.com/btcpay-zcash/btcpayserver-zcash-plugin/blob/master/docs/installation.md)
 * [Amanneɛbɔ zcash-lightwalletd.custom.yml Nhwɛso](https://github.com/btcpay-zcash/btcpayserver-zcash-plugin/blob/master/docs/zcash-lightwalletd.custom.yml)
-* [Lightwalletd Docker Hyehyɛ Fael (Zebra)](https://github.com/ZcashFoundation/zebra/blob/main/docker/docker-compose.lwd.yml)
+* [lightwalletd Docker Hyehyɛ Fael (Zebra)](https://github.com/ZcashFoundation/zebra/blob/main/docker/docker-compose.lwd.yml)
 * [BTCPay API Nsɛmfua Titiriw (Greenfield API)](https://docs.btcpayserver.org/API/Greenfield/v1/#tag/API-Keys)
 * [Yɛ Cloudflare Tunnel a wɔde yɛ adwuma](https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/get-started/create-remote-tunnel/)
 * [Zcash Wallet Nkitahodi Nkyerɛwde (ZecHub)](https://zechub.wiki/wallets)
-* [Zebra + Lightwalletd wɔ Raspberry Pi 5 (ZecHub)](https://free2z.com/ZecHub/zpage/zcash-101-zebra-lightwalletd-sync-journal-on-raspberry-pi-5)
+* [Zebra + lightwalletd wɔ Raspberry Pi 5 (ZecHub)](https://free2z.com/ZecHub/zpage/zcash-101-zebra-lightwalletd-sync-journal-on-raspberry-pi-5)

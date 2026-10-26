@@ -41,7 +41,7 @@ Zebra 1.8.0 リリース、FROSTの公開、Zookoによる新しいZcashプロ�
 
 [Zcashブラジル週次会議22](https://x.com/zcashbrazil/status/1808206303107731746)
 
-[MacOS Signalアプリを使用しないでください - alberdioni8406 on Free2z](https://x.com/free2zcash/status/1809716224940781965)
+[MacOS Signalアプリを使用しないでください - alberdioni8406 on Free2Z](https://x.com/free2zcash/status/1809716224940781965)
 
 [Web 2.0の隠れたコスト - Zcash Media](https://x.com/zcashmedia/status/1809580807616397557)
 

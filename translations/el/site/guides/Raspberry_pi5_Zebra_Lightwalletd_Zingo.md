@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# RPi5 Zebra Lightwalletd με Zingo
+# RPi5 Zebra lightwalletd με Zingo
 
 ## Βίντεο με οδηγίες
 

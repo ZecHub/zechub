@@ -125,7 +125,7 @@ Halaman lokal yang dikurasi di bawah `translations/<locale>/site/` dilacak terha
 
 #### Wiki ZecHub - edit ke dokumen yang sudah ada
 
-Terkadang informasi kami dalam dokumentasi tidak sepenuhnya akurat. Tidak apa-apa. Itulah alasan mengapa kami menjadikannya open-source! Jika kamu menemukan sesuatu yang perlu diubah dalam dokumen wiki, silakan buka bagian footer dokumen tersebut (yang terhubung ke halaman Github-nya) dan sarankan perubahan melalui PR.
+Terkadang informasi kami dalam dokumentasi tidak sepenuhnya akurat. Tidak apa-apa. Itulah alasan mengapa kami menjadikannya open-source! Jika kamu menemukan sesuatu yang perlu diubah dalam dokumen wiki, silakan buka bagian footer dokumen tersebut (yang terhubung ke halaman GitHub-nya) dan sarankan perubahan melalui PR.
 
 #### ZecHub Wiki - tautan rusak telah diperbaiki
 

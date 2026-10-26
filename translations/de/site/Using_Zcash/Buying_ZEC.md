@@ -7,7 +7,7 @@
 
 ## Kurzfassung
 
-- Kaufe ZEC nach Möglichkeit auf einer Börse, die **shielded Auszahlungen** unterstützt (Gemini, BitcoinVN, Flyp.me)
+- Kaufe ZEC nach Möglichkeit auf einer Börse, die **shielded Auszahlungen** unterstützt (Gemini, BitcoinVN, flyp.me)
 - Die meisten großen zentralisierten Börsen (Coinbase, Kraken, Binance) unterstützen nur **transparente Auszahlungen** — schirme deine ZEC nach dem Empfang ab
 - Dezentrale Börsen ermöglichen nicht-verwahrte Swaps, zahlen aber in der Regel an transparente Adressen aus
 - Du musst keine ganze ZEC kaufen — Bruchteile funktionieren problemlos
@@ -28,9 +28,9 @@ Gemini ist eine regulierte Kryptowährungsbörse, Wallet und Verwahrstelle, mit 
 
 BitcoinVN ist eine nicht-verwahrte Sofortwechselbörse, die shielded Ein- und Auszahlungen (z-address) für ZEC unterstützt — eine von weltweit nur sehr wenigen Börsen mit vollständiger z-address-Unterstützung. Seit 2014 in Betrieb, kannst du BTC, ETH, USDT und andere Kryptowährungen direkt in deine shielded Wallet gegen ZEC tauschen.
 
-**[Flyp.me](https://flyp.me)**
+**[flyp.me](https://flyp.me)**
 
-Flyp.me ist eine Krypto-Börse ohne Registrierung. Sie war eine der sichersten und privatesten Möglichkeiten, 30+ Kryptowährungen direkt in deine Wallet zu tauschen. Du kannst ZEC mit anderen Kryptowährungen kaufen.
+flyp.me ist eine Krypto-Börse ohne Registrierung. Sie war eine der sichersten und privatesten Möglichkeiten, 30+ Kryptowährungen direkt in deine Wallet zu tauschen. Du kannst ZEC mit anderen Kryptowährungen kaufen.
 
 ## Börsen, die transparente Auszahlungen unterstützen
 

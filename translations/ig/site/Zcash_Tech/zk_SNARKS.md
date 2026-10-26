@@ -161,7 +161,7 @@ Ntọala Transparent (Enweghị Ntọala A Tụkwasara Obi) - Algọridim nhazi 
 
 [Groth16](https://eprint.iacr.org/2016/260): Achọrọ Ntọala A tụkwasịrị Obi mana o nwere obere ihe akaebe nke enwere ike ịchọpụta ngwa ngwa.
 
-[Sonic](https://www.youtube.com/watch?v=oTRAg6Km1os)/[Marlin](https://www.youtube.com/watch?v=bJDLf8KLdL0)/[Plonk](https://eprint.iacr.org/2019/953): Ntọala a tụkwasịrị obi n'ụwa niile.
+[Sonic](https://www.youtube.com/watch?v=oTRAg6Km1os)/[Marlin](https://www.youtube.com/watch?v=bJDLf8KLdL0)/[PLONK](https://eprint.iacr.org/2019/953): Ntọala a tụkwasịrị obi n'ụwa niile.
 
 [Ọchịchịrị](https://eprint.iacr.org/2019/1229)/[Halo](https://eprint.iacr.org/archive/2019/1021/20200218:011907)/[STARK](https://www.youtube.com/watch?v=wFZ_YIetK1o): Enweghị Ntọala A Tụkwasara Obi mana ọ na-emepụta ihe akaebe dị ogologo karịa ma ọ bụ nwee ike were ogologo oge ka ihe ngosi ahụ rụọ ọrụ. 
 

@@ -14,7 +14,7 @@ Mmoa a wɔde ma DeFi ne DApps: Mprempren Zcash wuranom betumi de wɔn ho ahyɛ D
 ### Mfiridwuma mu Nneɛma a Wɔde Yɛ Adwuma
 
 **ZavaX Oracle a wɔde ahyɛ aman nsa**
-Nkyerɛkyerɛmu: ZavaX oracle no ho hia kɛse ma bridge no, ɛma crosschain bo feeds na ɛma ZEC kɔ AVAX nsakrae a wonni ahotoso tumi.
+Nkyerɛkyerɛmu: ZavaX Oracle no ho hia kɛse ma bridge no, ɛma crosschain bo feeds na ɛma ZEC kɔ AVAX nsakrae a wonni ahotoso tumi.
 [Link a ɛkɔ Oracle so](https://zavax-oracle.red.dev)
 
 **Cross Chain Bridge Apam**
@@ -28,7 +28,7 @@ Nkyerɛkyerɛmu: Ɛhwɛ sɛ wɔakora Zcash kokoam nsɛm so wɔ bridging nhyehyɛ
 **Zcash Elastic Subnet Bridge a ɛwɔ Avalanche so**: [Mmoa Ho Nsusuwii a Wɔde Ma](https://zcashgrants.org/gallery/25215916-53ea-4041-a3b2-6d00c487917d/36243580/)
 Ase hɔ no yɛ nneɛma titire a wɔde bɛma ne mfiridwuma ho nneɛma a wɔawie ama Zcash Avalanche RedBridge adwuma no:
 
-Deliverable 1.1: PoC a ɛdi kan a ɛboa sɛ wɔbisa testnet Zcash nkitahodiɛ firi testnet Avalanche subnet a ɛwɔ CLI, a wɔatintim wɔ Github na ɛwɔ node subnet baako wɔ Avalanche testnet so. https://github.com/red-dev-inc/zavax-oracle
+Deliverable 1.1: PoC a ɛdi kan a ɛboa sɛ wɔbisa testnet Zcash nkitahodiɛ firi testnet Avalanche subnet a ɛwɔ CLI, a wɔatintim wɔ GitHub na ɛwɔ node subnet baako wɔ Avalanche testnet so. https://github.com/red-dev-inc/zavax-oracle
 
 Nea wobetumi de ama 2.1: [Dan nhyehyɛeɛ](https://github.com/red-dev-inc/zavax-bridge/tree/main/Architecture)
 
@@ -49,9 +49,9 @@ Deliverable 5.1 GUI: bridge nkabom a ɛkɔ Core anaa Webapp mu
 
 Ade titiriw a ɛto so 6 June 30, 2024
 Deliverable 6.1 Software akontabuo a ɛtumi twam
-Deliverable 6.2 Fibea koodu a wɔahwɛ so no a wɔbɛtintim akɔ ɔmanfoɔ Github repo mu
+Deliverable 6.2 Fibea koodu a wɔahwɛ so no a wɔbɛtintim akɔ ɔmanfoɔ GitHub repo mu
 
-Hwɛ sɛnea... [Github repo a wɔde kyerɛw nsɛm](https://github.com/red-dev-inc/zavax-bridge/tree/main/Architecture)
+Hwɛ sɛnea... [GitHub repo a wɔde kyerɛw nsɛm](https://github.com/red-dev-inc/zavax-bridge/tree/main/Architecture)
   
 Sɛ wopɛ mfiridwuma ho nsɛm pii a, wɔhyɛ wɔn a wɔde di dwuma no nkuran sɛ wɔnhwɛ adekorabea ne nkrataa a wɔde bɛyɛ RedBridge adwuma no akɔ [hwehwɛ mu](https://zcashgrants.org/gallery/25215916-53ea-4041-a3b2-6d00c487917d/36243580/) nkabom pɔtee, sɔhwɛ nhyehyɛe, ne ahobammɔ nhyehyɛe.
 

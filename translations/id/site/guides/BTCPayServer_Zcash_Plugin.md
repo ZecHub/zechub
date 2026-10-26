@@ -14,7 +14,7 @@ BTCPay Server memungkinkan bisnis online untuk menerima pembayaran cryptocurrenc
 - [Di Mana Dana Disimpan? Siapa yang Mengontrol Private Key?](#Where-Are-Funds-Stored-Who-Controls-the-Private-Keys)
 - [Cara Menyiapkan BTCPay Server untuk Menerima Zcash](#How-to-Set-Up-BTCPay-Server-for-Accepting-Zcash)
   - [Menerapkan BTCPay Server dengan Dukungan Zcash](#Deploying-BTCPay-Server-with-Zcash-Support)
-  - [Menjalankan Zcash Full Node Milikmu Sendiri (Zebra + Lightwalletd)](#Running-Your-Own-Zcash-Full-Node)
+  - [Menjalankan Zcash Full Node Milikmu Sendiri (Zebra + lightwalletd)](#Running-Your-Own-Zcash-Full-Node)
   - [Menghubungkan ke lightwalletd Node Eksternal (Konfigurasi Kustom)](#Connecting-to-an-External-Lightwalletd-Node)
   - [Menghosting BTCPay Server di Rumah dengan Cloudflare Tunnel](#Hosting-BTCPay-Server-at-Home-with-Cloudflare-Tunnel)
 - [Mengonfigurasi Plugin Zcash di Antarmuka Web BTCPay Server](#Configuring-the-Zcash-Plugin-in-the-BTCPay-Server-Web-Interface)
@@ -324,14 +324,14 @@ Kemudian lanjutkan ke bagian berikutnya untuk mengonfigurasi Zcash di antarmuka 
 
 ## Menjalankan Zcash Full Node Milikmu Sendiri
 
-Jika kamu lebih memilih untuk **tidak** bergantung pada node `lightwalletd` publik, kamu dapat menjalankan full Zcash node milikmu sendiri bersama dengan Lightwalletd di server yang sama.  
+Jika kamu lebih memilih untuk **tidak** bergantung pada node `lightwalletd` publik, kamu dapat menjalankan full Zcash node milikmu sendiri bersama dengan lightwalletd di server yang sama.  
 Ini memberimu **otonomi penuh** - tanpa ketergantungan eksternal, tidak memerlukan kepercayaan.
 
 ---
 
 ### Langkah 1: Pastikan Ruang Disk Mencukupi
 
-Sebuah full node Zcash lengkap (Zebra + Lightwalletd) saat ini membutuhkan **300+ GB** ruang disk, dan ukurannya terus bertambah.
+Sebuah full node Zcash lengkap (Zebra + lightwalletd) saat ini membutuhkan **300+ GB** ruang disk, dan ukurannya terus bertambah.
 
 Rincian:
 
@@ -366,7 +366,7 @@ Ini akan mencakup fragmen `zcash-fullnode`, yang menjalankan `zebrad` dan `light
 
 Skrip ini akan:
 
-* Unduh image Docker untuk Zebra dan Lightwalletd
+* Unduh image Docker untuk Zebra dan lightwalletd
 * Siapkan layanan di dalam stack BTCPay
 * Hubungkan plugin Zcash ke instance `lightwalletd` **lokal**
 
@@ -906,8 +906,8 @@ Kami mendoakan kesuksesanmu dalam menjelajahi ekosistem BTCPay dan membuat pemba
 * [Zcash Plugin untuk BTCPay (GitHub)](https://github.com/btcpay-zcash/btcpayserver-zcash-plugin)
 * [Zcash Panduan Instalasi Plugin](https://github.com/btcpay-zcash/btcpayserver-zcash-plugin/blob/master/docs/installation.md)
 * [Contoh zcash-lightwalletd.custom.yml Kustom](https://github.com/btcpay-zcash/btcpayserver-zcash-plugin/blob/master/docs/zcash-lightwalletd.custom.yml)
-* [File Docker Compose Lightwalletd (Zebra)](https://github.com/ZcashFoundation/zebra/blob/main/docker/docker-compose.lwd.yml)
+* [File Docker Compose lightwalletd (Zebra)](https://github.com/ZcashFoundation/zebra/blob/main/docker/docker-compose.lwd.yml)
 * [Dokumentasi API Key BTCPay (Greenfield API)](https://docs.btcpayserver.org/API/Greenfield/v1/#tag/API-Keys)
 * [Membuat Cloudflare Tunnel](https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/get-started/create-remote-tunnel/)
 * [Zcash Daftar Kompatibilitas Dompet (ZecHub)](https://zechub.wiki/wallets)
-* [Zebra + Lightwalletd pada Raspberry Pi 5 (ZecHub)](https://free2z.com/ZecHub/zpage/zcash-101-zebra-lightwalletd-sync-journal-on-raspberry-pi-5)
+* [Zebra + lightwalletd pada Raspberry Pi 5 (ZecHub)](https://free2z.com/ZecHub/zpage/zcash-101-zebra-lightwalletd-sync-journal-on-raspberry-pi-5)

@@ -125,11 +125,11 @@ Kurasa za eneo zilizoratibiwa chini ya `translations/<locale>/site/` hufuatiliwa
 
 #### Wiki ZecHub - hariri kwenye hati iliyopo
 
-Wakati mwingine taarifa zetu katika hati si sahihi. Hiyo ni sawa. Ndiyo maana tunazitumia kwa njia huria! Ukipata kitu kinachohitaji mabadiliko katika hati ya wiki, tafadhali nenda kwenye sehemu ya chini ya hati (ambayo inaunganisha kwenye ukurasa wake wa Github) na upendekeze mabadiliko kupitia PR.
+Wakati mwingine taarifa zetu katika hati si sahihi. Hiyo ni sawa. Ndiyo maana tunazitumia kwa njia huria! Ukipata kitu kinachohitaji mabadiliko katika hati ya wiki, tafadhali nenda kwenye sehemu ya chini ya hati (ambayo inaunganisha kwenye ukurasa wake wa GitHub) na upendekeze mabadiliko kupitia PR.
 
 #### Wiki ZecHub - kiungo kilichovunjika kimerekebishwa
 
-Ukigundua kuwa kiungo kimeharibika, au kitu muhimu kimeandikwa vibaya, tafadhali nenda kwenye sehemu ya chini ya hati (ambayo inaunganisha kwenye ukurasa wake wa Github) na upendekeze mabadiliko kupitia PR.
+Ukigundua kuwa kiungo kimeharibika, au kitu muhimu kimeandikwa vibaya, tafadhali nenda kwenye sehemu ya chini ya hati (ambayo inaunganisha kwenye ukurasa wake wa GitHub) na upendekeze mabadiliko kupitia PR.
 
 #### Jarida - toleo jipya
 

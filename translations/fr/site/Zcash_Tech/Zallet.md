@@ -202,7 +202,7 @@ Il existe un produit grand public distinct sur [zallet.io](https://www.zallet.io
 - [Zebra Nœud complet](Zebra_Full_Node.md) — le nœud dont le backend par défaut de Zallet lit les données
 - [Zakura Nœud](Zakura_Node.md) — nœud de validation alternatif
 - [Zaino](Zaino.md) — backend d'indexeur et serveur de client léger
-- [ZECD](ZECD.md) — autre conception de serveur de wallet sur librustzcash
+- [zecd](ZECD.md) — autre conception de serveur de wallet sur librustzcash
 - [Zcash Synchronisation de wallet](Zcash_Wallet_Syncing.md) — comment les wallets shielded analysent la chaîne
 - [Clés de visualisation](Viewing_Keys.md)
 

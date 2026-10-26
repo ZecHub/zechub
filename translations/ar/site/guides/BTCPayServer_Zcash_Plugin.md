@@ -14,7 +14,7 @@
 - [أين يتم تخزين الأموال؟ ومن يتحكم في المفاتيح الخاصة؟](#Where-Are-Funds-Stored-Who-Controls-the-Private-Keys)
 - [كيفية إعداد BTCPay Server لقبول Zcash](#How-to-Set-Up-BTCPay-Server-for-Accepting-Zcash)
   - [نشر BTCPay Server مع دعم Zcash](#Deploying-BTCPay-Server-with-Zcash-Support)
-  - [تشغيل عقدة Zcash كاملة خاصة بك (Zebra + Lightwalletd)](#Running-Your-Own-Zcash-Full-Node)
+  - [تشغيل عقدة Zcash كاملة خاصة بك (Zebra + lightwalletd)](#Running-Your-Own-Zcash-Full-Node)
   - [الاتصال بعقدة lightwalletd خارجية (إعداد مخصص)](#Connecting-to-an-External-Lightwalletd-Node)
   - [استضافة BTCPay Server في المنزل باستخدام Cloudflare Tunnel](#Hosting-BTCPay-Server-at-Home-with-Cloudflare-Tunnel)
 - [إعداد إضافة Zcash في واجهة الويب الخاصة بـ BTCPay Server](#Configuring-the-Zcash-Plugin-in-the-BTCPay-Server-Web-Interface)
@@ -325,19 +325,19 @@ btcpay-down.sh
 
 ## تشغيل عقدة Zcash كاملة خاصة بك
 
-إذا كنت تفضّل **عدم** الاعتماد على عقد `lightwalletd` العامة، فيمكنك نشر عقدة Zcash كاملة خاصة بك مع Lightwalletd على الخادم نفسه.  
+إذا كنت تفضّل **عدم** الاعتماد على عقد `lightwalletd` العامة، فيمكنك نشر عقدة Zcash كاملة خاصة بك مع lightwalletd على الخادم نفسه.  
 ويمنحك هذا **استقلالية كاملة** - من دون تبعيات خارجية ومن دون حاجة إلى الثقة بأي طرف.
 
 ---
 
 ### الخطوة 1: التأكد من توفر مساحة قرص كافية
 
-تتطلب عقدة Zcash الكاملة (Zebra + Lightwalletd) حالياً **أكثر من 300 GB** من مساحة القرص، وهي تواصل النمو.
+تتطلب عقدة Zcash الكاملة (Zebra + lightwalletd) حالياً **أكثر من 300 GB** من مساحة القرص، وهي تواصل النمو.
 
 التفصيل:
 
 - قاعدة بيانات بلوكشين Zebra: نحو 260-270 GB
-- فهرسة Lightwalletd: نحو 15-20 GB
+- فهرسة lightwalletd: نحو 15-20 GB
 
 #### التخزين الموصى به:
 
@@ -367,7 +367,7 @@ export BTCPAYGEN_ADDITIONAL_FRAGMENTS="zcash-fullnode"
 
 سيقوم السكربت بما يلي:
 
-* تنزيل صور Docker الخاصة بـ Zebra وLightwalletd
+* تنزيل صور Docker الخاصة بـ Zebra وlightwalletd
 * إعداد الخدمات داخل حزمة BTCPay
 * ربط إضافة Zcash بمثيل `lightwalletd` **المحلي**
 
@@ -375,7 +375,7 @@ export BTCPAYGEN_ADDITIONAL_FRAGMENTS="zcash-fullnode"
 > وحتى تكتمل المزامنة، لن تكون المدفوعات المحمية متاحة.
 
 
-## الاتصال بعقدة Lightwalletd خارجية
+## الاتصال بعقدة lightwalletd خارجية
 
 في معظم الحالات، لا تكون الاستقلالية الكاملة مطلوبة - وقد لا يرغب التجار في إنفاق الوقت ومساحة القرص لتشغيل عقدة Zcash كاملة.  
 وبشكل افتراضي، يتصل BTCPay Server بعقدة `lightwalletd` عامة للتعامل مع المدفوعات المحمية من دون تنزيل البلوكشين بالكامل.
@@ -907,8 +907,8 @@ BTCPay أداة مرنة للغاية. يمكنك:
 * [إضافة Zcash لـ BTCPay (GitHub)](https://github.com/btcpay-zcash/btcpayserver-zcash-plugin)
 * [دليل تثبيت إضافة Zcash](https://github.com/btcpay-zcash/btcpayserver-zcash-plugin/blob/master/docs/installation.md)
 * [مثال مخصص لـ zcash-lightwalletd.custom.yml](https://github.com/btcpay-zcash/btcpayserver-zcash-plugin/blob/master/docs/zcash-lightwalletd.custom.yml)
-* [ملف Docker Compose الخاص بـ Lightwalletd (Zebra)](https://github.com/ZcashFoundation/zebra/blob/main/docker/docker-compose.lwd.yml)
+* [ملف Docker Compose الخاص بـ lightwalletd (Zebra)](https://github.com/ZcashFoundation/zebra/blob/main/docker/docker-compose.lwd.yml)
 * [وثائق مفتاح API الخاصة بـ BTCPay (Greenfield API)](https://docs.btcpayserver.org/API/Greenfield/v1/#tag/API-Keys)
 * [إنشاء Cloudflare Tunnel](https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/get-started/create-remote-tunnel/)
 * [قائمة توافق محافظ Zcash (ZecHub)](https://zechub.wiki/wallets)
-* [Zebra + Lightwalletd على Raspberry Pi 5 (ZecHub)](https://free2z.com/ZecHub/zpage/zcash-101-zebra-lightwalletd-sync-journal-on-raspberry-pi-5)
+* [Zebra + lightwalletd على Raspberry Pi 5 (ZecHub)](https://free2z.com/ZecHub/zpage/zcash-101-zebra-lightwalletd-sync-journal-on-raspberry-pi-5)

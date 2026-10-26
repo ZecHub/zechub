@@ -8,7 +8,7 @@ Tí o bá jẹ́ ọmọ ẹgbẹ́ àwùjọ Zcash, tí o sì fẹ́ ṣe àfik
 
 Ṣe àkójọ àwọn ìjápọ̀ fún ìwé ìròyìn náà kí o sì fi wọ́n kún ojú ìwé GitHub ti ìwé ìròyìn náà: -> [Tẹ ibi fun awọn itọnisọna](https://github.com/ZecHub/zechub/blob/main/site/contribute/ZecWeekly_Newsletter.md)
 
-Ṣàyẹ̀wò àwọn ìwé wiki, dábàá àwọn àtúnṣe, kí o sì dábàá àwọn ojú ìwé tuntun ní Github
+Ṣàyẹ̀wò àwọn ìwé wiki, dábàá àwọn àtúnṣe, kí o sì dábàá àwọn ojú ìwé tuntun ní GitHub
 
 Ṣẹ̀dá akoonu fidio ninu awọn ẹka wọnyi:
 ```
@@ -50,9 +50,9 @@ A n fi awọn iṣẹ-ṣiṣe ṣiṣi silẹ sori [ZEC Bounties](https://bount
 
 [Àwọn ẹ̀bùn ZEC](https://bounties.zechub.wiki/)
 
-[Àwọn Ìṣòro ZecHub Github](https://github.com/ZecHub/zechub/issues)
+[Àwọn Ìṣòro ZecHub GitHub](https://github.com/ZecHub/zechub/issues)
 
-[Àwọn Ìṣòro ZecHub-Wiki Github](https://github.com/ZecHub/zechub-wiki/issues)
+[Àwọn Ìṣòro ZecHub-Wiki GitHub](https://github.com/ZecHub/zechub-wiki/issues)
 
 
 

@@ -31,7 +31,7 @@ N'ụzọ dị otú a, ndị ọrụ nwere ike izipu otu ụdị akara ngosi na 
 
 Proof of Bond (PoB) is a consensus mechanism where node operators must commit a bond (usually in the form of the network's native token) to participate in the network. This bond acts as a form of economic security, ensuring that nodes act honestly and maintain the network's integrity2. If a node tries to act maliciously or fails to perform its duties, its bond can be slashed, meaning a portion of it is taken away as a penalty.
 
-In Maya Protocol, this mechanism helps to produce economic value from the staked resources of node operators, increasing capital efficiency. Similarly, in Thorchain, node operators bond RUNE (the native token) to secure the network and ensure cooperation among participants.
+In Maya Protocol, this mechanism helps to produce economic value from the staked resources of node operators, increasing capital efficiency. Similarly, in THORChain, node operators bond RUNE (the native token) to secure the network and ensure cooperation among participants.
 
 ## Ọdịiche dị n'etiti Maya na THORChain
 
@@ -60,12 +60,12 @@ Still, despite its differences, Maya also serves as a complementary solution to 
 
 Ọzọkwa, ihe mgbaru ọsọ nke Maya bụ ịghọ * azụ-azụ maka ọrụ ndị ọzọ iji wuo ya, na olileanya ịhụ ọtụtụ ọhụụ ọhụrụ ma ọ bụ DEX arụpụtara n'elu akụrụngwa Maya.
 
-## Njikọ nke obere akpa Maya protocol
+## Njikọ nke obere akpa Maya Protocol
 
 Na-eme dị ka * ndabere, Maya kwesịrị ịkwado site na UI dị iche iche na obere akpa iji mee ihe. 
 Nke a bụ ndepụta nke ụfọdụ ọrụ ndị na-akwado Maya:
 
-[Thorwallet DEX](https://www.thorwallet.org/): Ledger, XDEFI, Metamask, Keystore
+[Thorwallet DEX](https://www.thorwallet.org/): Ledger, XDEFI, MetaMask, Keystore
 
 [El Dorado (Ụlọ Akụ)](https://www.eldorado.market/): XDEFI, Ụlọ Ahịa Keystore
 

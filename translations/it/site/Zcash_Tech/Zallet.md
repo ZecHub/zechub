@@ -202,7 +202,7 @@ Esiste un prodotto consumer separato su [zallet.io](https://www.zallet.io/) che 
 - [Full node Zebra](Zebra_Full_Node.md) — il nodo che il backend predefinito di Zallet legge
 - [Nodo Zakura](Zakura_Node.md) — nodo validante alternativo
 - [Zaino](Zaino.md) — backend indicizzatore e server light client
-- [ZECD](ZECD.md) — un altro progetto di server di portafoglio su librustzcash
+- [zecd](ZECD.md) — un altro progetto di server di portafoglio su librustzcash
 - [Sincronizzazione dei portafogli Zcash](Zcash_Wallet_Syncing.md) — come i portafogli schermati scansionano la chain
 - [Chiavi di visualizzazione](Viewing_Keys.md)
 

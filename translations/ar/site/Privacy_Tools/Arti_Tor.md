@@ -38,7 +38,7 @@
 سيؤكد ذلك أن أحدث نسخة مستقرة من Rust مثبتة على نظامك.
 
 #### **ملاحظة لمستخدمي Windows**:
-- يمكن تثبيت Rust على Windows عبر [**Rustup**](https://rustup.rs/)، وهي أداة لتثبيت toolchain. تأكد أيضًا من إعداد بيئة بناء متوافقة (قد تحتاج إلى **Visual Studio Build Tools** على Windows).
+- يمكن تثبيت Rust على Windows عبر [**rustup**](https://rustup.rs/)، وهي أداة لتثبيت toolchain. تأكد أيضًا من إعداد بيئة بناء متوافقة (قد تحتاج إلى **Visual Studio Build Tools** على Windows).
   
 ---
 

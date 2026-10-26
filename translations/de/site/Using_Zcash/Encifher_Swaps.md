@@ -4,12 +4,12 @@
 ![img1](/content-images/Bkbg5alCll-7a02545c00.webp)
 
 
-*Tausche von Solana in Zcash, wobei der Cross-Chain-Schritt über Near Intents abgewickelt wird.*  
+*Tausche von Solana in Zcash, wobei der Cross-Chain-Schritt über NEAR Intents abgewickelt wird.*  
 
 ---
 
 ###  Einführung  
-[**encrypt.trade**](https://encrypt.trade/zec) ist eine von JMD Labs Inc. betriebene Solana-App. Sie ermöglicht dir, **SOL oder USDC** auf Solana in **Zcash (ZEC)** zu tauschen. Deine Token werden zunächst in verschlüsselte Versionen umgewandelt, sodass die Beträge auf Solana verborgen bleiben, und anschließend über Near Intents in ZEC getauscht.
+[**encrypt.trade**](https://encrypt.trade/zec) ist eine von JMD Labs Inc. betriebene Solana-App. Sie ermöglicht dir, **SOL oder USDC** auf Solana in **Zcash (ZEC)** zu tauschen. Deine Token werden zunächst in verschlüsselte Versionen umgewandelt, sodass die Beträge auf Solana verborgen bleiben, und anschließend über NEAR Intents in ZEC getauscht.
 
 Der Swap ist in mancher Hinsicht privat, aber nicht vollständig. Die eigenen [Docs](https://docs.encifher.io/docs) der App sagen, dass deine Interaktion mit der Chain nicht anonym ist: Andere können sehen, dass deine Wallet die App genutzt hat, jedoch nicht, wie viel du bewegt hast. Das ZEC kommt außerdem an einer transparenten Adresse an und bleibt daher auf der Zcash-Chain sichtbar, bis du es shieldest.
 
@@ -21,9 +21,9 @@ Der Swap ist in mancher Hinsicht privat, aber nicht vollständig. Die eigenen [D
 ###  Was du vor dem Swap wissen solltest  
 - **Solana-Seite.** Wrapping verbirgt Beträge, aber deine Wallet-Adresse und ihre Nutzung der App sind öffentlich. Die [Best Practices](https://docs.encifher.io/docs/best-practices) warnen davor, dass ein einfaches Wrappen, Swappen und Unwrappen deine Transaktion verknüpfbar macht.
 - **Verschlüsselung.** Verschlüsselte Guthaben werden off-chain innerhalb einer Hardware-Enklave (TEE) verarbeitet. Das [Paper](https://eprint.iacr.org/2026/1504) der Entwickler besagt, dass dies auf der Integrität des TEE, ehrlichem Threshold-Key-Management und der Cloud-Attestation-Root beruht, nicht allein auf Kryptographie.
-- **Cross-Chain-Schritt.** Der Swap zu ZEC wird über Near Intents abgewickelt, wo unabhängige Solver die Order ausführen.
-- **Zcash-Seite.** Near Intents führt ZEC als unterstützt für [nur transparente Adressen](https://docs.near-intents.org/resources/chain-support) auf, und das Feld ZEC auf encrypt.trade akzeptierte, als dieser Leitfaden im September 2026 geprüft wurde, nur transparente Adressen (t1 oder t3). Eine transparente Adresse zeigt ihr Guthaben und eingehende Transfers öffentlich an, bis du shieldest.
-- **Screening.** Die App prüft verbindende Wallets anhand von Datenbanken wie TRM und Chainalysis; auf ihrer [Compliance-Seite](https://docs.encifher.io/docs/compliance) heißt es, dass verschlüsselte Aufzeichnungen bei berechtigtem rechtlichem Grund überprüft werden können. Near Intents führt ebenfalls ein eigenes [Screening](https://docs.near-intents.org/security-compliance/risk-and-compliance) durch.
+- **Cross-Chain-Schritt.** Der Swap zu ZEC wird über NEAR Intents abgewickelt, wo unabhängige Solver die Order ausführen.
+- **Zcash-Seite.** NEAR Intents führt ZEC als unterstützt für [nur transparente Adressen](https://docs.near-intents.org/resources/chain-support) auf, und das Feld ZEC auf encrypt.trade akzeptierte, als dieser Leitfaden im September 2026 geprüft wurde, nur transparente Adressen (t1 oder t3). Eine transparente Adresse zeigt ihr Guthaben und eingehende Transfers öffentlich an, bis du shieldest.
+- **Screening.** Die App prüft verbindende Wallets anhand von Datenbanken wie TRM und Chainalysis; auf ihrer [Compliance-Seite](https://docs.encifher.io/docs/compliance) heißt es, dass verschlüsselte Aufzeichnungen bei berechtigtem rechtlichem Grund überprüft werden können. NEAR Intents führt ebenfalls ein eigenes [Screening](https://docs.near-intents.org/security-compliance/risk-and-compliance) durch.
 
 ---
 
@@ -83,7 +83,7 @@ Gehe zurück zu **encrypt.trade** und öffne **Swap**. Wähle **eSOL/eUSDC -> ZE
 ![img9](/content-images/S1yoapgRle-6d2031a62c.webp)
 
 
-**Near Intents** übernimmt das Cross-Chain-Routing und sendet das **ZEC** an deine ZODL-Wallet. Dies kann einige Minuten dauern. Near Intents empfiehlt, für Cross-Chain-Swaps bis zu 15 Minuten einzuplanen.  
+**NEAR Intents** übernimmt das Cross-Chain-Routing und sendet das **ZEC** an deine ZODL-Wallet. Dies kann einige Minuten dauern. NEAR Intents empfiehlt, für Cross-Chain-Swaps bis zu 15 Minuten einzuplanen.  
 
 
 
@@ -98,10 +98,10 @@ Sobald das ZEC angekommen ist, nutze die Option **Shield** von ZODL, um es in de
 
 ###  Wer beteiligt ist und wo du Hilfe erhältst  
 - **encrypt.trade** ist die von JMD Labs Inc. betriebene App. Laut ihrer [Datenschutzerklärung](https://encrypt.trade/privacy) sammelt sie technische Daten wie IP-Adresse, Browser- und Gerätedetails, übermittelt deine Wallet-Adresse, den jüngsten Verlauf und Guthaben vor einem Swap an Compliance-Anbieter und kann Logs sowie AML-Screening-Ergebnisse bis zu fünf Jahre lang aufbewahren. Ihre [Nutzungsbedingungen](https://encrypt.trade/terms) verbieten die Nutzung eines VPN oder Proxys, um deinen Standort zu verbergen. Support: help@encifher.io oder die aus der App verlinkte [Telegram-Gruppe](https://t.me/+ZWHGMW4ZHXQwYTZl).
-- **Near Intents** wickelt den Cross-Chain-Schritt ab und liefert das ZEC. Siehe die [Bedingungen der 1Click API](https://docs.near-intents.org/security-compliance/terms-of-service) sowie die Datenschutzrichtlinie unter near.com/privacy, verfolge Swaps im [Near Intents Explorer](https://explorer.near-intents.org) und bitte im [Near Intents Telegram](https://t.me/near_intents) um Hilfe.
+- **NEAR Intents** wickelt den Cross-Chain-Schritt ab und liefert das ZEC. Siehe die [Bedingungen der 1Click API](https://docs.near-intents.org/security-compliance/terms-of-service) sowie die Datenschutzrichtlinie unter near.com/privacy, verfolge Swaps im [NEAR Intents Explorer](https://explorer.near-intents.org) und bitte im [NEAR Intents Telegram](https://t.me/near_intents) um Hilfe.
 
 Bedingungen und unterstützte Adressen können sich ändern; überprüfe daher vor einem größeren Swap die aktuellen Versionen. Mehr zum Gesamtbild findest du unter [Non-Custodial Exchanges](/using-zcash/non-custodial-exchanges).
 
 ---
 
-Durch die Kombination von **Solana**, **Zcash** und **Near Intents** bietet dir **encrypt.trade** einen schnellen Weg von SOL oder USDC zu ZEC. Es verbirgt Beträge auf Solana, ist jedoch nicht durchgängig privat – shielde dein ZEC daher, sobald es angekommen ist.
+Durch die Kombination von **Solana**, **Zcash** und **NEAR Intents** bietet dir **encrypt.trade** einen schnellen Weg von SOL oder USDC zu ZEC. Es verbirgt Beträge auf Solana, ist jedoch nicht durchgängig privat – shielde dein ZEC daher, sobald es angekommen ist.

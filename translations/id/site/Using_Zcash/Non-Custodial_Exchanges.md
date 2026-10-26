@@ -43,22 +43,22 @@ Privasi Zcash berasal dari alamat terlindungi. Saat ZEC berpindah di antara alam
 Sebuah swap memiliki bagian-bagian yang tidak dapat disembunyikan oleh Zcash:
 
 - **Jaringan sumber.** Dana yang kamu kirim dari Solana, Ethereum, atau chain publik lainnya dapat terlihat di chain tersebut, termasuk alamat dan jumlahnya.
-- **Alamat penerima.** Beberapa rute swap mengirimkan ZEC ke alamat transparan. Sebagai contoh, Near Intents mencantumkan ZEC hanya didukung untuk [alamat transparan](https://docs.near-intents.org/resources/chain-support). ZEC yang dikirim ke alamat transparan (t1 atau t3) bersifat publik, sangat mirip dengan Bitcoin. Melindunginya setelah itu akan melindungi apa yang kamu lakukan selanjutnya, tetapi transfer masuk dan transaksi shielding tetap terlihat.
+- **Alamat penerima.** Beberapa rute swap mengirimkan ZEC ke alamat transparan. Sebagai contoh, NEAR Intents mencantumkan ZEC hanya didukung untuk [alamat transparan](https://docs.near-intents.org/resources/chain-support). ZEC yang dikirim ke alamat transparan (t1 atau t3) bersifat publik, sangat mirip dengan Bitcoin. Melindunginya setelah itu akan melindungi apa yang kamu lakukan selanjutnya, tetapi transfer masuk dan transaksi shielding tetap terlihat.
 - **Layanan.** Aplikasi dan layanan routing apa pun dapat melihat alamat dan jumlah yang kamu berikan kepada mereka, ditambah data koneksi seperti alamat IP kamu.
 
 Kirim ZEC ke dompet yang kamu kendalikan dan buat menjadi terlindungi sebelum digunakan. [Menggunakan ZEC Secara Pribadi](/guides/using-zec-privately) mencakup langkah-langkah selanjutnya.
 
 ### **Siapa Saja yang Terlibat dalam sebuah Swap**
 
-Ambil contoh sebuah swap yang dirutekan melalui layanan Near Intents 1Click. Ketentuan [API](https://docs.near-intents.org/security-compliance/terms-of-service) miliknya memperlakukan hal ini sebagai bagian yang terpisah:
+Ambil contoh sebuah swap yang dirutekan melalui layanan NEAR Intents 1Click. Ketentuan [API](https://docs.near-intents.org/security-compliance/terms-of-service) miliknya memperlakukan hal ini sebagai bagian yang terpisah:
 
 - **Antarmuka**: situs web atau dompet yang kamu gunakan. Ini dapat dijalankan oleh Intents Technology atau oleh pihak ketiga dengan ketentuan tersendiri.
 - **1Click**: layanan routing dan penyelesaian yang dijalankan oleh Intents Technology Limited. Kamu mengirim dana ke alamat deposit yang dibuat untuk penawaranmu. Dokumentasi menyatakan bahwa 1Click tidak melakukan kustodial, namun ketentuannya mencatat bahwa aset dapat ditahan atau dikunci dalam infrastruktur bridge saat transfer sedang berlangsung.
-- **Protokol**: smart contract Near Intents.
+- **Protokol**: smart contract NEAR Intents.
 - **Solvers**: pihak ketiga independen yang memenuhi penawaran.
 - **Bridges**: perpindahan ZEC asli melalui PoA Bridge, yang dioperasikan oleh Intents Technology.
 
-Near Intents juga [memeriksa alur kutipan yang terintegrasi](https://docs.near-intents.org/security-compliance/risk-and-compliance) terhadap beberapa database AML, dan menyatakan bahwa cakupannya bervariasi tergantung pada alur dan integrasi. Berdasarkan ketentuannya, sebuah swap yang ditandai dapat ditunda, diblokir, dibekukan, atau ditolak.
+NEAR Intents juga [memeriksa alur kutipan yang terintegrasi](https://docs.near-intents.org/security-compliance/risk-and-compliance) terhadap beberapa database AML, dan menyatakan bahwa cakupannya bervariasi tergantung pada alur dan integrasi. Berdasarkan ketentuannya, sebuah swap yang ditandai dapat ditunda, diblokir, dibekukan, atau ditolak.
 
 ### **Apa yang Kamu Bagikan Selama Swap**
 
@@ -73,7 +73,7 @@ Ketentuan dapat berubah, jadi bacalah versi terbaru sebelum melakukan swap besar
 
 - **Mulailah dengan aplikasi yang kamu gunakan.** Ini adalah titik kontak utamamu. Ketentuan 1Click API menyatakan bahwa Intents Technology tidak memiliki hubungan langsung dengan pengguna aplikasi yang dibangun di atasnya.
 - **Terkait Intents:** ketentuan dan kebijakan privasi di near.com/terms dan near.com/privacy, ditambah dengan [ketentuan 1Click API](https://docs.near-intents.org/security-compliance/terms-of-service) serta [risiko dan kepatuhan](https://docs.near-intents.org/security-compliance/risk-and-compliance).
-- **Pelacakan dan dukungan:** cari swap pada [Near Intents Explorer](https://explorer.near-intents.org) atau tanyakan di [Near Intents Telegram](https://t.me/near_intents).
+- **Pelacakan dan dukungan:** cari swap pada [NEAR Intents Explorer](https://explorer.near-intents.org) atau tanyakan di [NEAR Intents Telegram](https://t.me/near_intents).
 - **Pengembalian dana (Refund):** swap yang gagal mungkin akan dikirim kembali ke alamat pengembalian dana yang kamu berikan, tetapi ketentuan near.com menyatakan bahwa pengembalian dana tidak dijamin. Ketentuan 1Click juga menyatakan bahwa permintaan pemulihan untuk kesalahan pengguna di bawah USD 300 tidak akan dipertimbangkan.
 
 Sekarang, mari kita jelajahi beberapa exchange non-kustodial yang dapat diakses yang memfasilitasi perdagangan Zcash. Menggunakan platform ini akan memberimu cara yang nyaman untuk mendapatkan lebih banyak koin Zcash.

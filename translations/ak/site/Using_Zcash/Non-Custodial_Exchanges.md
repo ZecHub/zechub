@@ -43,22 +43,22 @@ Zcash kokoamsɛm fi address ahorow a wɔabɔ ho ban mu. Sɛ ZEC kɔ address ahor
 Swap wɔ afã horow a Zcash ntumi nsie:
 
 - **The source network.** Sika a wode firi Solana, Ethereum anaa ɔmanfoɔ nkɔnsɔnkɔnsɔn foforɔ so mena no, wɔda adi wɔ saa nkɔnsɔnkɔnsɔn no so, a wo address ne sika dodoɔ ka ho.
-- **Address a ɛgye.** Swap akwan bi de ZEC kɔ address a ɛda adi pefee so. Sɛ nhwɛso no, Near Intents kyerɛw ZEC sɛnea wɔboa [address ahorow a ɛda adi pefee nkutoo](https://docs.near-intents.org/resources/chain-support). ZEC a wɔde kɔ address a ɛda adi pefee (t1 anaa t3) so no yɛ ɔmanfo de, te sɛ Bitcoin ara pɛ. Sɛ wobɔ ho ban wɔ ɛno akyi a, ɛbɔ nea wobɛyɛ akyi no ho ban, nanso transfer a ɛba ne shielding asɛm no kɔ so da adi.
+- **Address a ɛgye.** Swap akwan bi de ZEC kɔ address a ɛda adi pefee so. Sɛ nhwɛso no, NEAR Intents kyerɛw ZEC sɛnea wɔboa [address ahorow a ɛda adi pefee nkutoo](https://docs.near-intents.org/resources/chain-support). ZEC a wɔde kɔ address a ɛda adi pefee (t1 anaa t3) so no yɛ ɔmanfo de, te sɛ Bitcoin ara pɛ. Sɛ wobɔ ho ban wɔ ɛno akyi a, ɛbɔ nea wobɛyɛ akyi no ho ban, nanso transfer a ɛba ne shielding asɛm no kɔ so da adi.
 - **Ɔsom no.** App no ne routing service biara hunu address ne sika dodoɔ a wode ma wɔn, ne connection data te sɛ wo IP address.
 
 Fa ZEC kɔ sika kotoku a wohwɛ so na bɔ ho ban ansa na woasɛe sika. [ZEC a Wɔde Di Dwuma wɔ Kokoam](/guides/using-zec-privately) ka anammɔn a edi hɔ no ho asɛm.
 
 ### **Hena na Ɔde Ne Ho Hyehyɛ Swap Mu**
 
-Fa swap a wɔde fa Near Intents 1Click dwumadie no so sɛ nhwɛsoɔ. Ɛyɛ [API nsɛmfua](https://docs.near-intents.org/security-compliance/terms-of-service) fa eyinom di dwuma sɛ afã horow a ɛsono emu biara:
+Fa swap a wɔde fa NEAR Intents 1Click dwumadie no so sɛ nhwɛsoɔ. Ɛyɛ [API nsɛmfua](https://docs.near-intents.org/security-compliance/terms-of-service) fa eyinom di dwuma sɛ afã horow a ɛsono emu biara:
 
 - **Interface**: wɛbsaet anaa sika kotoku a wode di dwuma. Intents Technology anaasɛ obi foforo a ɔwɔ n’ankasa nsɛm betumi adi so.
 - **1Klik**: ɔkwan a wɔfa so ne nneɛma a wɔde siesie adwuma a Intents Technology Limited na ɛhwɛ so. Wode sika kɔ address a wɔde sie a wɔayɛ ama wo quote no so. Docs no se 1Click nnye custody, nanso nsɛm no hyɛ no nsow sɛ wobetumi de agyapade asie anaasɛ wɔatoto mu wɔ bridge infrastructure mu bere a wɔreyɛ transfer.
-- **Protocol no**: Near Intents nyansa apam ahorow no.
+- **Protocol no**: NEAR Intents nyansa apam ahorow no.
 - **Solvers**: nnipa a wɔto so abiɛsa a wɔde wɔn ho a wɔhyɛ quote no ma.
 - **Bridges**: native ZEC tu fa PoA Bridge, a Intents Technology na ɛyɛ adwuma.
 
-Near Intents nso [screens a wɔaka abom quote flows](https://docs.near-intents.org/security-compliance/risk-and-compliance) atia AML database ahorow pii, na ɔka sɛ coverage gu ahorow sɛnea flow ne integration te. Wɔ ne nsɛm ase no, wobetumi atwentwɛn flagged swap ase, asiw ano, ahyɛ no nwini anaasɛ wɔapow.
+NEAR Intents nso [screens a wɔaka abom quote flows](https://docs.near-intents.org/security-compliance/risk-and-compliance) atia AML database ahorow pii, na ɔka sɛ coverage gu ahorow sɛnea flow ne integration te. Wɔ ne nsɛm ase no, wobetumi atwentwɛn flagged swap ase, asiw ano, ahyɛ no nwini anaasɛ wɔapow.
 
 ### **Nea Wokyɛ Wɔ Swap Bere Mu**
 
@@ -72,7 +72,7 @@ Near Intents nso [screens a wɔaka abom quote flows](https://docs.near-intents.o
 Nsɛmfua sesa, enti kenkan mprempren nkyerɛase ahorow no ansa na woasesa kɛse.
 
 - **Fi ase fa app a wode di dwuma no so.** Ɛyɛ wo beae titiriw a wo ne no di nkitaho. 1Click API nsɛmfua no ka sɛ Intents Technology nni abusuabɔ biara tẽẽ ne wɔn a wɔde app ahorow a wɔasi wɔ so di dwuma no ntam.
-- **Near Intents:** nsɛm ne kokoam nsɛm ho nhyehyɛe a ɛwɔ near.com/terms ne near.com/privacy, ne.. [1Klik API nsɛmfua so](https://docs.near-intents.org/security-compliance/terms-of-service) ne [asiane ne nea wodi so](https://docs.near-intents.org/security-compliance/risk-and-compliance).
+- **NEAR Intents:** nsɛm ne kokoam nsɛm ho nhyehyɛe a ɛwɔ near.com/terms ne near.com/privacy, ne.. [1Klik API nsɛmfua so](https://docs.near-intents.org/security-compliance/terms-of-service) ne [asiane ne nea wodi so](https://docs.near-intents.org/security-compliance/risk-and-compliance).
 - **Tracking ne mmoa:** hwehwɛ swap bi wɔ [Nea Ɛbɛn Intents Explorer](https://explorer.near-intents.org) anaa bisa wɔ [Nea Ɛbɛn Adwene Telegram](https://t.me/near_intents).
 - **Refunds:** wobetumi de swap a entumi ayɛ adwuma asan akɔ refund address a wode mae no so, nanso near.com nsɛm ka sɛ wɔmfa sika a wɔde bɛsan ama no nni guaranteed. 1Click nsɛm no nso ka sɛ wɔmfa recovery requests a ɛfa user mfomsoɔ a ɛwɔ USD 300 ase no ho.
 

@@ -38,7 +38,7 @@
 이렇게 하면 시스템에 최신 안정 버전의 Rust가 설치되었는지 확인할 수 있습니다.
 
 #### **Windows 사용자 참고**:
-- Rust는 툴체인 설치 도구인 [**Rustup**](https://rustup.rs/)을 통해 Windows에 설치할 수 있습니다. 호환되는 빌드 환경도 함께 설정되어 있는지 확인하세요(Windows에서는 **Visual Studio Build Tools**가 필요할 수 있습니다).
+- Rust는 툴체인 설치 도구인 [**rustup**](https://rustup.rs/)을 통해 Windows에 설치할 수 있습니다. 호환되는 빌드 환경도 함께 설정되어 있는지 확인하세요(Windows에서는 **Visual Studio Build Tools**가 필요할 수 있습니다).
   
 ---
 

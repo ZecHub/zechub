@@ -43,18 +43,18 @@ Nígbà tí ó bá kan Ìpàṣípààrọ̀ Ààbò, ìpele Ìpínsípòpọ̀ 
 Pípààrọ̀ kan ní àwọn apá tí Zcash kò lè fi pamọ́:
 
 - **Nẹ́tíwọ́ọ̀kì orísun.** Owó tí o fi ránṣẹ́ láti Solana, Ethereum tàbí ẹ̀wọ̀n gbogbogbò mìíràn hàn lórí ẹ̀wọ̀n náà, pẹ̀lú àdírẹ́sì rẹ àti iye owó náà.
-- **Àdírẹ́sì gbígbà.** Àwọn ipa ọ̀nà ìyípadà kan ń fi ZEC sí àdírẹ́sì tí ó ṣe kedere. Fún àpẹẹrẹ, Near Intents ṣe àkójọ ZEC gẹ́gẹ́ bí a ti ṣe àtìlẹ́yìn fún [awọn adirẹsi ti o han gbangba nikan](https://docs.near-intents.org/resources/chain-support). ZEC tí a bá fi ránṣẹ́ sí àdírẹ́sì tí ó ṣe kedere (t1 tàbí t3) jẹ́ ti gbogbo ènìyàn, gẹ́gẹ́ bí Bitcoin. Dídáàbòbò rẹ̀ lẹ́yìn náà ń dáàbòbò ohun tí o bá ṣe lẹ́yìn náà, ṣùgbọ́n ìgbésẹ̀ tí ń bọ̀ àti ìṣòwò ààbò náà yóò hàn gbangba.
+- **Àdírẹ́sì gbígbà.** Àwọn ipa ọ̀nà ìyípadà kan ń fi ZEC sí àdírẹ́sì tí ó ṣe kedere. Fún àpẹẹrẹ, NEAR Intents ṣe àkójọ ZEC gẹ́gẹ́ bí a ti ṣe àtìlẹ́yìn fún [awọn adirẹsi ti o han gbangba nikan](https://docs.near-intents.org/resources/chain-support). ZEC tí a bá fi ránṣẹ́ sí àdírẹ́sì tí ó ṣe kedere (t1 tàbí t3) jẹ́ ti gbogbo ènìyàn, gẹ́gẹ́ bí Bitcoin. Dídáàbòbò rẹ̀ lẹ́yìn náà ń dáàbòbò ohun tí o bá ṣe lẹ́yìn náà, ṣùgbọ́n ìgbésẹ̀ tí ń bọ̀ àti ìṣòwò ààbò náà yóò hàn gbangba.
 - **Iṣẹ́ náà.** Àpù náà àti iṣẹ́ ìtọ́sọ́nà èyíkéyìí wo àwọn àdírẹ́sì àti iye tí o fún wọn, pẹ̀lú dátà ìsopọ̀ bíi àdírẹ́sì IP rẹ.
 
 Fi ZEC ranṣẹ si apamọwọ ti o ṣakoso ki o daabobo rẹ ṣaaju ki o to nawo. [Lilo ZEC ni ikọkọ](/guides/using-zec-privately) bo awọn igbesẹ ti o tẹle.
 
 ### **Ta Ni O Kopa ninu Pada Awopo**
 
-Fún àpẹẹrẹ, ẹ wo ìyípadà tí a ṣe nípasẹ̀ iṣẹ́ Near Intents 1Click [Àwọn òfin API](https://docs.near-intents.org/security-compliance/terms-of-service) ṣe àfiyèsí àwọn wọ̀nyí gẹ́gẹ́ bí àwọn ẹ̀yà ọ̀tọ̀ọ̀tọ̀:
+Fún àpẹẹrẹ, ẹ wo ìyípadà tí a ṣe nípasẹ̀ iṣẹ́ NEAR Intents 1Click [Àwọn òfin API](https://docs.near-intents.org/security-compliance/terms-of-service) ṣe àfiyèsí àwọn wọ̀nyí gẹ́gẹ́ bí àwọn ẹ̀yà ọ̀tọ̀ọ̀tọ̀:
 
 - **Àwòrán ojú-òpó wẹ́ẹ̀bù tàbí àpò owó tí o ń lò. Intents Technology tàbí ẹni-kẹta tí ó ní àwọn òfin tirẹ̀ lè ṣiṣẹ́ rẹ̀.
 - **1Click**: iṣẹ́ ìtọ́sọ́nà àti ìforúkọsílẹ̀ tí Intents Technology Limited ń ṣe. O máa ń fi owó ránṣẹ́ sí àdírẹ́sì ìdókòwò tí a ṣe fún ìsanwó rẹ. Àwọn ìwé náà sọ pé 1Click kò gba ìtọ́jú, ṣùgbọ́n àwọn òfin náà sọ pé àwọn dúkìá lè wà ní ìpamọ́ tàbí kí wọ́n ti mọ́ inú àwọn ètò afárá nígbà tí ìfiránṣẹ́ bá ń lọ lọ́wọ́.
-- **Ìlànà náà**: àwọn àdéhùn ọlọ́gbọ́n tí ó wà ní Near Intents.
+- **Ìlànà náà**: àwọn àdéhùn ọlọ́gbọ́n tí ó wà ní NEAR Intents.
 - **Àwọn Olùdásílẹ̀**: àwọn ẹgbẹ́ kẹta tí wọ́n ń kún ìforúkọsílẹ̀ náà.
 - **Àwọn Afárá**: ZEC ìbílẹ̀ ń gbé lórí Afárá PoA, èyí tí Intents Technology ń ṣiṣẹ́.
 

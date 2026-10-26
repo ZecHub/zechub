@@ -202,7 +202,7 @@ zallet migrate-zcashd-wallet --zcashd-datadir /path/to/zcashd/datadir
 - [Πλήρης κόμβος Zebra](Zebra_Full_Node.md) — ο κόμβος που διαβάζει το προεπιλεγμένο backend του Zallet
 - [Κόμβος Zakura](Zakura_Node.md) — εναλλακτικός κόμβος επικύρωσης
 - [Zaino](Zaino.md) — backend indexer και server light-client
-- [ZECD](ZECD.md) — άλλη σχεδίαση wallet-server πάνω στο librustzcash
+- [zecd](ZECD.md) — άλλη σχεδίαση wallet-server πάνω στο librustzcash
 - [Συγχρονισμός πορτοφολιού Zcash](Zcash_Wallet_Syncing.md) — πώς τα θωρακισμένα πορτοφόλια σαρώνουν την αλυσίδα
 - [Viewing Keys](Viewing_Keys.md)
 

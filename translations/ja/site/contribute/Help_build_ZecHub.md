@@ -8,7 +8,7 @@
 
 ニュースレター向けのリンクをキュレーションし、ニュースレターの GitHub ページに追加する: -> [手順はこちらをクリック](https://github.com/ZecHub/zechub/blob/main/site/contribute/ZecWeekly_Newsletter.md)
 
-Wiki ドキュメントの事実確認を行い、編集を提案し、Github で新しいページを提案する
+Wiki ドキュメントの事実確認を行い、編集を提案し、GitHub で新しいページを提案する
 
 以下のカテゴリの動画コンテンツを作成する:
 ```
@@ -50,9 +50,9 @@ ZECの金額は固定されていません。[報奨金額ポリシー](https://
 
 [ZEC Bounties](https://bounties.zechub.wiki/)
 
-[ZecHub Github Issues](https://github.com/ZecHub/zechub/issues)
+[ZecHub GitHub Issues](https://github.com/ZecHub/zechub/issues)
 
-[ZecHub-Wiki Github Issues](https://github.com/ZecHub/zechub-wiki/issues)
+[ZecHub-Wiki GitHub Issues](https://github.com/ZecHub/zechub-wiki/issues)
 
 ほかにも貢献したい方法があれば、Twitter で ZecHub ([@ZecHub](https://twitter.com/zechub)) にメッセージを送るか、[Discord](https://discord.gg/zcash) に参加してください。
 

@@ -26,7 +26,7 @@
 
 
 - Zcash User Installs/Compiles Zingolib Which gives access to zingo-cli. Wanaweza kutuma/kupokea ZEC kama inahitajika.
-- Zingo-cli inaunganisha na zaino ama ndani ya nchi au kupitia njia salama mtandaoni (mtumiaji wa Zcash hajali jinsi hii inavyofanya kazi!)
+- zingo-cli inaunganisha na zaino ama ndani ya nchi au kupitia njia salama mtandaoni (mtumiaji wa Zcash hajali jinsi hii inavyofanya kazi!)
 - Zaino inaruhusu upatikanaji wa ama zebrad au zcashd 
 - Fully synced zebrad is source of truth (no more wallets here!)
 

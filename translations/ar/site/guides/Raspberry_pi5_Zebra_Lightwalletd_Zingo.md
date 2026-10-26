@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="تعديل الصفحة"/>
 </a>
 
-# RPi5 Zebra Lightwalletd مع Zingo
+# RPi5 Zebra lightwalletd مع Zingo
 
 ## شرح فيديو
 
@@ -27,7 +27,7 @@ sudo apt install libclang-dev clang pkg-config openssl protobuf-compiler npm
 
 ## تجميع Zebra
 
-[مستودع Zebra على Github](https://github.com/ZcashFoundation/zebra)
+[مستودع Zebra على GitHub](https://github.com/ZcashFoundation/zebra)
 
 * `time cargo install --git https://github.com/ZcashFoundation/zebra --tag v3.1.0 zebrad`
 

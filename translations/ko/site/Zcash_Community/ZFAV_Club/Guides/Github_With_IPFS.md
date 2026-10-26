@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# IPFS를 사용하여 Github 저장소 제공
+# IPFS를 사용하여 GitHub 저장소 제공
 
 ## 소개
 

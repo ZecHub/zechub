@@ -4,12 +4,12 @@
 ![img1](/content-images/Bkbg5alCll-7a02545c00.webp)
 
 
-*Solana'dan Zcash'a takas yapın; zincirler arası adım Near Intents üzerinden yönlendirilir.*  
+*Solana'dan Zcash'a takas yapın; zincirler arası adım NEAR Intents üzerinden yönlendirilir.*  
 
 ---
 
 ###  Giriş  
-[**encrypt.trade**](https://encrypt.trade/zec), JMD Labs Inc. tarafından işletilen bir Solana uygulamasıdır. Solana üzerindeki **SOL veya USDC** varlıklarınızı **Zcash (ZEC)** varlığına takas etmenizi sağlar. Tokenleriniz önce, tutarlar Solana üzerinde gizli kalacak şekilde şifrelenmiş sürümlere sarılır; ardından Near Intents aracılığıyla ZEC'a takas edilir.
+[**encrypt.trade**](https://encrypt.trade/zec), JMD Labs Inc. tarafından işletilen bir Solana uygulamasıdır. Solana üzerindeki **SOL veya USDC** varlıklarınızı **Zcash (ZEC)** varlığına takas etmenizi sağlar. Tokenleriniz önce, tutarlar Solana üzerinde gizli kalacak şekilde şifrelenmiş sürümlere sarılır; ardından NEAR Intents aracılığıyla ZEC'a takas edilir.
 
 Takas bazı açılardan özeldir, ancak tümüyle değildir. Uygulamanın kendi [dokümantasyonu](https://docs.encifher.io/docs), zincirle etkileşiminizin anonim olmadığını belirtir: insanlar cüzdanınızın uygulamayı kullandığını görebilir, ancak ne kadar taşıdığınızı göremez. ZEC ayrıca şeffaf bir adrese ulaşır; dolayısıyla onu korumalı hale getirene kadar Zcash zincirinde görünür kalır.
 
@@ -21,9 +21,9 @@ Takas bazı açılardan özeldir, ancak tümüyle değildir. Uygulamanın kendi 
 ###  Takas Yapmadan Önce Bilmeniz Gerekenler  
 - **Solana tarafı.** Sarmalama tutarları gizler, ancak cüzdan adresiniz ve uygulamayı kullanmanız herkese açıktır. [en iyi uygulamalar](https://docs.encifher.io/docs/best-practices) sayfası, basit bir sarma, takas ve sarmayı açma işleminin işleminizi ilişkilendirilebilir kıldığı konusunda uyarır.
 - **Şifreleme.** Şifrelenmiş bakiyeler, bir donanım korumalı alanı (TEE) içinde zincir dışında işlenir. Geliştiricilerin [makalesi](https://eprint.iacr.org/2026/1504), bunun yalnızca kriptografiye değil; TEE bütünlüğüne, dürüst eşikli anahtar yönetimine ve bulut tasdik köküne dayandığını söyler.
-- **Zincirler arası adım.** ZEC'a takas, bağımsız çözücülerin emri gerçekleştirdiği Near Intents üzerinden yönlendirilir.
-- **Zcash tarafı.** Near Intents, ZEC varlığını yalnızca [şeffaf adresler için](https://docs.near-intents.org/resources/chain-support) desteklenen olarak listeler ve encrypt.trade üzerindeki ZEC alanı, bu rehber Eylül 2026'da kontrol edildiğinde yalnızca şeffaf (t1 veya t3) adresleri kabul ediyordu. Şeffaf bir adres, siz korumalı hale getirene kadar bakiyesini ve gelen transferlerini herkese açık biçimde gösterir.
-- **Tarama.** Uygulama, bağlanan cüzdanları TRM ve Chainalysis gibi veritabanlarına karşı kontrol eder; [uyumluluk sayfası](https://docs.encifher.io/docs/compliance), meşru bir hukuki gerekçe varsa şifrelenmiş kayıtların incelenebileceğini belirtir. Near Intents da kendi [tarama işlemini](https://docs.near-intents.org/security-compliance/risk-and-compliance) yürütür.
+- **Zincirler arası adım.** ZEC'a takas, bağımsız çözücülerin emri gerçekleştirdiği NEAR Intents üzerinden yönlendirilir.
+- **Zcash tarafı.** NEAR Intents, ZEC varlığını yalnızca [şeffaf adresler için](https://docs.near-intents.org/resources/chain-support) desteklenen olarak listeler ve encrypt.trade üzerindeki ZEC alanı, bu rehber Eylül 2026'da kontrol edildiğinde yalnızca şeffaf (t1 veya t3) adresleri kabul ediyordu. Şeffaf bir adres, siz korumalı hale getirene kadar bakiyesini ve gelen transferlerini herkese açık biçimde gösterir.
+- **Tarama.** Uygulama, bağlanan cüzdanları TRM ve Chainalysis gibi veritabanlarına karşı kontrol eder; [uyumluluk sayfası](https://docs.encifher.io/docs/compliance), meşru bir hukuki gerekçe varsa şifrelenmiş kayıtların incelenebileceğini belirtir. NEAR Intents da kendi [tarama işlemini](https://docs.near-intents.org/security-compliance/risk-and-compliance) yürütür.
 
 ---
 
@@ -83,7 +83,7 @@ Takas bazı açılardan özeldir, ancak tümüyle değildir. Uygulamanın kendi 
 ![img9](/content-images/S1yoapgRle-6d2031a62c.webp)
 
 
-**Near Intents**, zincirler arası yönlendirmeyi yönetir ve **ZEC** varlığını ZODL cüzdanınıza gönderir. Bu işlem birkaç dakika sürebilir. Near Intents, zincirler arası takaslar için 15 dakikaya kadar süre tanınmasını önerir.  
+**NEAR Intents**, zincirler arası yönlendirmeyi yönetir ve **ZEC** varlığını ZODL cüzdanınıza gönderir. Bu işlem birkaç dakika sürebilir. NEAR Intents, zincirler arası takaslar için 15 dakikaya kadar süre tanınmasını önerir.  
 
 
 
@@ -98,10 +98,10 @@ ZEC ulaştığında, onu [korumalı havuza](/using-zcash/shielded-pools) taşım
 
 ###  Kimler Dahil ve Nereden Yardım Alınır  
 - **encrypt.trade**, JMD Labs Inc. tarafından işletilen uygulamadır. [gizlilik politikası](https://encrypt.trade/privacy); IP, tarayıcı ve cihaz ayrıntıları gibi teknik verileri topladığını, bir takastan önce cüzdan adresinizi, yakın geçmişinizi ve bakiyelerinizi uyumluluk sağlayıcılarına gönderdiğini ve günlükleri ile AML tarama sonuçlarını beş yıla kadar saklayabileceğini belirtir. [koşulları](https://encrypt.trade/terms), konumunuzu gizlemek için VPN veya proxy kullanılmasını yasaklar. Destek: help@encifher.io veya uygulamadan bağlantı verilen [Telegram grubu](https://t.me/+ZWHGMW4ZHXQwYTZl).
-- **Near Intents**, zincirler arası adımı yönlendirir ve ZEC varlığını teslim eder. [1Click API koşullarına](https://docs.near-intents.org/security-compliance/terms-of-service) ve near.com/privacy adresindeki gizlilik politikasına bakın, takasları [Near Intents Explorer](https://explorer.near-intents.org) üzerinde takip edin ve [Near Intents Telegram](https://t.me/near_intents) içinde yardım isteyin.
+- **NEAR Intents**, zincirler arası adımı yönlendirir ve ZEC varlığını teslim eder. [1Click API koşullarına](https://docs.near-intents.org/security-compliance/terms-of-service) ve near.com/privacy adresindeki gizlilik politikasına bakın, takasları [NEAR Intents Explorer](https://explorer.near-intents.org) üzerinde takip edin ve [NEAR Intents Telegram](https://t.me/near_intents) içinde yardım isteyin.
 
 Koşullar ve desteklenen adresler değişebilir; bu nedenle büyük bir takastan önce güncel sürümleri kontrol edin. Daha geniş çerçeve hakkında bilgi için [Gözetimsiz Borsalar](/using-zcash/non-custodial-exchanges) sayfasına bakın.
 
 ---
 
-**Solana**, **Zcash** ve **Near Intents**'i birleştiren **encrypt.trade**, SOL veya USDC'den ZEC'a hızlı bir yol sunar. Solana'da tutarları gizler, ancak uçtan uca özel değildir; bu nedenle ZEC varlığınız ulaştığında onu korumalı hale getirin.
+**Solana**, **Zcash** ve **NEAR Intents**'i birleştiren **encrypt.trade**, SOL veya USDC'den ZEC'a hızlı bir yol sunar. Solana'da tutarları gizler, ancak uçtan uca özel değildir; bu nedenle ZEC varlığınız ulaştığında onu korumalı hale getirin.

@@ -38,7 +38,7 @@ Bevor du Arti aus dem Quellcode erstellen kannst, musst du die neueste stabile V
 Damit wird bestätigt, dass die neueste stabile Version von Rust auf deinem System installiert ist.
 
 #### **Hinweis für Windows-Nutzer**:
-- Rust kann unter Windows über [**Rustup**](https://rustup.rs/) installiert werden, ein Toolchain-Installer. Stelle sicher, dass du außerdem eine kompatible Build-Umgebung eingerichtet hast (unter Windows benötigst du möglicherweise **Visual Studio Build Tools**).
+- Rust kann unter Windows über [**rustup**](https://rustup.rs/) installiert werden, ein Toolchain-Installer. Stelle sicher, dass du außerdem eine kompatible Build-Umgebung eingerichtet hast (unter Windows benötigst du möglicherweise **Visual Studio Build Tools**).
   
 ---
 

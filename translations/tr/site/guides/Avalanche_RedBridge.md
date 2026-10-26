@@ -14,7 +14,7 @@ DeFi ve DApps Desteği: Zcash sahipleri artık gizlilikten ödün vermeden Avala
 ### Teknik Bileşenler
 
 **Merkeziyetsiz ZavaX Oracle**
-Açıklama: ZavaX oracle, köprü için kritik öneme sahiptir; zincirler arası fiyat akışları sağlar ve güven gerektirmeyen ZEC’ten AVAX’a dönüşümleri mümkün kılar.
+Açıklama: ZavaX Oracle, köprü için kritik öneme sahiptir; zincirler arası fiyat akışları sağlar ve güven gerektirmeyen ZEC’ten AVAX’a dönüşümleri mümkün kılar.
 [Oracle bağlantısı](https://zavax-oracle.red.dev)
 
 **Zincirler Arası Köprü Sözleşmesi**
@@ -28,7 +28,7 @@ Açıklama: Zcash gizlilik özelliklerinin köprüleme süreci boyunca korunmas�
 **Avalanche Üzerindeki Zcash Elastic Subnet Bridge**: [Hibe Teklifi](https://zcashgrants.org/gallery/25215916-53ea-4041-a3b2-6d00c487917d/36243580/)
 Aşağıda Zcash Avalanche RedBridge projesi için tamamlanan temel teslimatlar ve teknik kaynaklar yer almaktadır:
 
-Teslimat 1.1: Github’da yayımlanan ve Avalanche testnet üzerinde tek düğümlü bir subnet ile, bir CLI aracılığıyla testnet Avalanche subnet’inden testnet Zcash işlemlerinin sorgulanmasını destekleyen ön PoC. https://github.com/red-dev-inc/zavax-oracle
+Teslimat 1.1: GitHub’da yayımlanan ve Avalanche testnet üzerinde tek düğümlü bir subnet ile, bir CLI aracılığıyla testnet Avalanche subnet’inden testnet Zcash işlemlerinin sorgulanmasını destekleyen ön PoC. https://github.com/red-dev-inc/zavax-oracle
 
 Teslimat 2.1: [Mimari](https://github.com/red-dev-inc/zavax-bridge/tree/main/Architecture)
 
@@ -49,9 +49,9 @@ Teslimat 5.1 GUI: köprünün Core veya Webapp’e entegrasyonu
 
 Kilometre Taşı 6 30 Haziran 2024
 Teslimat 6.1 Yazılım denetiminin başarıyla geçilmesi
-Teslimat 6.2 Denetlenmiş kaynak kodunun herkese açık bir Github reposunda yayımlanması
+Teslimat 6.2 Denetlenmiş kaynak kodunun herkese açık bir GitHub reposunda yayımlanması
 
-[Github reposuna](https://github.com/red-dev-inc/zavax-bridge/tree/main/Architecture) göz atın
+[GitHub reposuna](https://github.com/red-dev-inc/zavax-bridge/tree/main/Architecture) göz atın
   
 Daha fazla teknik ayrıntı için kullanıcıların, entegrasyonun ayrıntılarını, test çerçevelerini ve güvenlik protokollerini [incelemek](https://zcashgrants.org/gallery/25215916-53ea-4041-a3b2-6d00c487917d/36243580/) üzere RedBridge projesinin reposunu ve dokümantasyonunu gözden geçirmeleri tavsiye edilir.
 
@@ -62,7 +62,7 @@ Daha fazla teknik ayrıntı için kullanıcıların, entegrasyonun ayrıntılar�
 * Teslimatlar: 
 2025’in 1. çeyreğinde ekip, herkesin kullanıcı deneyimini deneyebileceği, geri bildirim verebileceği ve iyileştirme önerilerinde bulunabileceği [red·bridge demo web sitesinin](https://redbridge-demo.red.dev/index.html) lansmanını duyurdu. Bu site aynı zamanda teknik olmayan kişileri projeyle tanıştırmanın kolay bir yolu olarak da hizmet veriyor.
 
-* Ekip, red·bridge’in nihai sürümü için Zebra kullandı. Bunu test etmek için Avalanche’ın Fuji testnet’i üzerinde çalışan test blokzincirleri ZavaX Oracle’daki üç düğümün ikisini yükselttiler. Son düğüm de başarıyla yükseltildi; artık [Zavax Oracle](https://web.archive.org/web/20260823181644/https://zavax-oracle.red.dev/) Zebra üzerinde çalışıyor!
+* Ekip, red·bridge’in nihai sürümü için Zebra kullandı. Bunu test etmek için Avalanche’ın Fuji testnet’i üzerinde çalışan test blokzincirleri ZavaX Oracle’daki üç düğümün ikisini yükselttiler. Son düğüm de başarıyla yükseltildi; artık [ZavaX Oracle](https://web.archive.org/web/20260823181644/https://zavax-oracle.red.dev/) Zebra üzerinde çalışıyor!
 
 * 2025’in 1. çeyreğinde, red.bridge web sitesi başlangıçta kırmızı olan ilk sürümün aksine red, Dark, Light ve Zebra olmak üzere dört görünüm sunacak şekilde kodlandı.
 

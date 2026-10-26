@@ -35,7 +35,7 @@ NU5 nso yɛɛ ZIP dodoɔ bi a ɛwɔ hɔ dada no foforɔ (32, 203, 209, 212, 213,
 
 ## Address ahorow a Wɔaka abom
 
-Ansa na NU5, na pool biara wɔ n’ankasa address type, na na ɛsɛ sɛ obi a ɔde nneɛma mena no hu nea wopɛ. Address ahorow a Wɔaka abom, a wɔakyerɛkyerɛ mu wɔ [ZIP 316 na ɛwɔ hɔ](https://zips.z.cash/zip-0316), sesa saa. Unified address biako betumi aboaboa receivers ano ama bɛboro pool biako, enti nea ɔde kɔma no sika kotoku no paw nea eye sen biara a ɛboa no ara kwa.
+Ansa na NU5, na pool biara wɔ n’ankasa address type, na na ɛsɛ sɛ obi a ɔde nneɛma mena no hu nea wopɛ. Address ahorow a Wɔaka abom, a wɔakyerɛkyerɛ mu wɔ [ZIP 316 na ɛwɔ hɔ](https://zips.z.cash/zip-0316), sesa saa. Unified Address biako betumi aboaboa receivers ano ama bɛboro pool biako, enti nea ɔde kɔma no sika kotoku no paw nea eye sen biara a ɛboa no ara kwa.
 
 ![A unified address bundles receivers for several pools: a transparent receiver, a Sapling receiver, and a new Orchard receiver](/content-images/nu5-unified-address-6e2c84f66e.webp)
 

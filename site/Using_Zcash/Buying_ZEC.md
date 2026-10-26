@@ -7,7 +7,7 @@
 
 ## TL;DR
 
-- Buy ZEC on an exchange that supports **shielded withdrawals** (Gemini, BitcoinVN, Flyp.me) when possible
+- Buy ZEC on an exchange that supports **shielded withdrawals** (Gemini, BitcoinVN, flyp.me) when possible
 - Most major centralized exchanges (Coinbase, Kraken, Binance) support **transparent withdrawals** only — shield your ZEC after receiving it
 - Decentralized exchanges allow non-custodial swaps but typically withdraw to transparent addresses
 - You do **not** need to buy a full ZEC — fractions work fine
@@ -28,9 +28,9 @@ Gemini is a regulated cryptocurrency exchange, wallet, and custodian that makes 
 
 BitcoinVN is a non-custodial instant exchange that supports shielded (z-address) deposits and withdrawals for ZEC — one of very few exchanges globally with full z-address support. Operating since 2014, you can swap BTC, ETH, USDT, and other cryptocurrencies for ZEC directly to your shielded wallet.
 
-**[Flyp.me](https://flyp.me)**
+**[flyp.me](https://flyp.me)**
 
-Flyp.me is a no sign-up crypto exchange. It was one of the safest and most private ways to exchange 30+ cryptocurrencies straight to your wallet. You can buy ZEC with other cryptocurrencies.
+flyp.me is a no sign-up crypto exchange. It was one of the safest and most private ways to exchange 30+ cryptocurrencies straight to your wallet. You can buy ZEC with other cryptocurrencies.
 
 ## Exchanges that support transparent withdrawals
 

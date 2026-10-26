@@ -28,7 +28,7 @@ Maelezo: Huhakikisha kwamba vipengele vya faragha vya Zcash vinahifadhiwa katika
 **Daraja la Zcash Elastic Subnet kwenye Banguko**: [Pendekezo la Ruzuku](https://zcashgrants.org/gallery/25215916-53ea-4041-a3b2-6d00c487917d/36243580/)
 Hapa chini kuna matokeo muhimu na rasilimali za kiufundi zilizokamilishwa kwa ajili ya mradi wa Zcash Avalanche RedBridge:
 
-Inayoweza Kutolewa 1.1: PoC ya Awali inayounga mkono kuuliza miamala ya testnet Zcash kutoka kwa mtandao mdogo wa Avalanche wa testnet na CLI, iliyochapishwa kwenye Github na kwa mtandao mdogo wa nodi moja kwenye mtandao wa Avalanche. https://github.com/red-dev-inc/zavax-oracle
+Inayoweza Kutolewa 1.1: PoC ya Awali inayounga mkono kuuliza miamala ya testnet Zcash kutoka kwa mtandao mdogo wa Avalanche wa testnet na CLI, iliyochapishwa kwenye GitHub na kwa mtandao mdogo wa nodi moja kwenye mtandao wa Avalanche. https://github.com/red-dev-inc/zavax-oracle
 
 Inayoweza Kutolewa 2.1: [Usanifu wa majengo](https://github.com/red-dev-inc/zavax-bridge/tree/main/Architecture)
 
@@ -49,9 +49,9 @@ Kielelezo cha 5.1 kinachoweza kutolewa: ujumuishaji wa daraja kwenye Core au Web
 
 Hatua Muhimu 6 Juni 30, 2024
 Inayoweza Kutolewa 6.1 Kufaulu kwa ukaguzi wa programu
-Inayoweza kutolewa 6.2 Kuchapisha msimbo chanzo uliokaguliwa kwa hifadhi ya umma ya Github
+Inayoweza kutolewa 6.2 Kuchapisha msimbo chanzo uliokaguliwa kwa hifadhi ya umma ya GitHub
 
-Angalia [Jalada la Github](https://github.com/red-dev-inc/zavax-bridge/tree/main/Architecture)
+Angalia [Jalada la GitHub](https://github.com/red-dev-inc/zavax-bridge/tree/main/Architecture)
   
 Kwa maelezo zaidi ya kiufundi, watumiaji wanahimizwa kupitia hazina na nyaraka za mradi wa RedBridge ili [chunguza](https://zcashgrants.org/gallery/25215916-53ea-4041-a3b2-6d00c487917d/36243580/) maelezo mahususi ya ujumuishaji, mifumo ya majaribio, na itifaki za usalama.
 
@@ -62,7 +62,7 @@ Kwa maelezo zaidi ya kiufundi, watumiaji wanahimizwa kupitia hazina na nyaraka z
 * Matoleo: 
 Katika robo ya kwanza ya mwaka 2025, timu ilitangaza uzinduzi wa [tovuti ya onyesho la red·bridge](https://redbridge-demo.red.dev/index.html), ambapo mtu yeyote anaweza kujaribu uzoefu wa mtumiaji, kutoa maoni, na kupendekeza maboresho. Pia hutumika kama njia rahisi ya kuwatambulisha watu wasio wa kiufundi kwenye mradi huo.
 
-* Timu ilitumia Zebra kwa toleo la mwisho la red·bridge. Ili kuijaribu, waliboresha nodi mbili kati ya tatu katika blockchain yao ya majaribio, ZavaX Oracle, ambayo inaendesha kwenye mtandao wa majaribio wa Fuji wa Avalanche. Nodi ya mwisho iliboreshwa kwa mafanikio, sasa [Zavax Oracle](https://web.archive.org/web/20260823181644/https://zavax-oracle.red.dev/) sasa inaendesha Zebra!
+* Timu ilitumia Zebra kwa toleo la mwisho la red·bridge. Ili kuijaribu, waliboresha nodi mbili kati ya tatu katika blockchain yao ya majaribio, ZavaX Oracle, ambayo inaendesha kwenye mtandao wa majaribio wa Fuji wa Avalanche. Nodi ya mwisho iliboreshwa kwa mafanikio, sasa [ZavaX Oracle](https://web.archive.org/web/20260823181644/https://zavax-oracle.red.dev/) sasa inaendesha Zebra!
 
 * Katika robo ya kwanza ya 2025, tovuti ya red.bridge iliwekwa msimbo ili kutoa mitazamo minne kutoka nyekundu, Giza, Mwanga, na Zebra tofauti na toleo la awali, ambalo lilikuwa nyekundu.
 

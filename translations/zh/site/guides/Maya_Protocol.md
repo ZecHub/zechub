@@ -60,12 +60,12 @@ ILP 的保障期限取决于 ASSET 和 $CACAO 的表现。如果 ASSET 表现更
 
 此外，Maya 的目标是成为供其他服务构建其上的 *backend*，希望未来能出现大量新的 *frontends*，或基于 Maya 基础设施构建的 DEX 服务。
 
-## Maya protocol 钱包集成
+## Maya Protocol 钱包集成
 
 作为一个 *backend*，Maya 需要得到不同 UI 和钱包的支持才能被使用。
 以下是一些已经支持 Maya 的服务：
 
-[Thorwallet DEX](https://www.thorwallet.org/)：Ledger、XDEFI、Metamask、Keystore
+[Thorwallet DEX](https://www.thorwallet.org/)：Ledger、XDEFI、MetaMask、Keystore
 
 [El Dorado](https://www.eldorado.market/)：XDEFI、Keystore
 

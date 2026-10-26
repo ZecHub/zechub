@@ -202,7 +202,7 @@ Terdapat produk konsumen terpisah di [zallet.io](https://www.zallet.io/) yang me
 - [Zebra Full Node](Zebra_Full_Node.md) — pembacaan backend default dari node Zallet
 - [Zakura Node](Zakura_Node.md) — node validasi alternatif
 - [Zaino](Zaino.md) — backend indexer dan server light-client
-- [ZECD](ZECD.md) — desain wallet-server lain pada librustzcash
+- [zecd](ZECD.md) — desain wallet-server lain pada librustzcash
 - [Zcash Sinkronisasi Wallet](Zcash_Wallet_Syncing.md) — cara wallet terlindungi memindai chain
 - [Viewing Keys](Viewing_Keys.md)
 

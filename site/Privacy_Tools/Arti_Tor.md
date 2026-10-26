@@ -38,7 +38,7 @@ Before you can build Arti from source, you need to have the latest stable versio
 This will confirm that you have the latest stable version of Rust installed on your system.
 
 #### **Note for Windows Users**:
-- Rust can be installed on Windows via [**Rustup**](https://rustup.rs/), a toolchain installer. Ensure that you've also set up a compatible build environment (you may need **Visual Studio Build Tools** on Windows).
+- Rust can be installed on Windows via [**rustup**](https://rustup.rs/), a toolchain installer. Ensure that you've also set up a compatible build environment (you may need **Visual Studio Build Tools** on Windows).
   
 ---
 

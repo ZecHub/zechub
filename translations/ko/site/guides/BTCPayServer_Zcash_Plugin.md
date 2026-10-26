@@ -14,7 +14,7 @@ BTCPay Server를 사용하면 온라인 비즈니스가 중개자나 수탁자 �
 - [자금은 어디에 저장되나요? 개인 키는 누가 제어하나요?](#Where-Are-Funds-Stored-Who-Controls-the-Private-Keys)
 - [Zcash 결제를 받기 위한 BTCPay Server 설정 방법](#How-to-Set-Up-BTCPay-Server-for-Accepting-Zcash)
   - [Zcash 지원으로 BTCPay Server 배포하기](#Deploying-BTCPay-Server-with-Zcash-Support)
-  - [자체 Zcash 풀 노드 실행하기 (Zebra + Lightwalletd)](#Running-Your-Own-Zcash-Full-Node)
+  - [자체 Zcash 풀 노드 실행하기 (Zebra + lightwalletd)](#Running-Your-Own-Zcash-Full-Node)
   - [외부 lightwalletd 노드에 연결하기 (사용자 정의 구성)](#Connecting-to-an-External-Lightwalletd-Node)
   - [Cloudflare Tunnel을 사용해 집에서 BTCPay Server 호스팅하기](#Hosting-BTCPay-Server-at-Home-with-Cloudflare-Tunnel)
 - [BTCPay Server 웹 인터페이스에서 Zcash 플러그인 구성하기](#Configuring-the-Zcash-Plugin-in-the-BTCPay-Server-Web-Interface)
@@ -325,19 +325,19 @@ btcpay-down.sh
 
 ## 자체 Zcash 풀 노드 실행하기
 
-공개 `lightwalletd` 노드에 의존하고 싶지 않다면, 동일한 서버에서 자체 Zcash 풀 노드와 Lightwalletd를 함께 배포할 수 있습니다.  
+공개 `lightwalletd` 노드에 의존하고 싶지 않다면, 동일한 서버에서 자체 Zcash 풀 노드와 lightwalletd를 함께 배포할 수 있습니다.  
 이렇게 하면 **완전한 자율성**을 얻을 수 있습니다 - 외부 의존성도, 신뢰도 필요 없습니다.
 
 ---
 
 ### 1단계: 충분한 디스크 공간 확보하기
 
-풀 Zcash 노드 (Zebra + Lightwalletd)는 현재 **300+ GB**의 디스크 공간이 필요하며, 계속 증가하고 있습니다.
+풀 Zcash 노드 (Zebra + lightwalletd)는 현재 **300+ GB**의 디스크 공간이 필요하며, 계속 증가하고 있습니다.
 
 구성은 다음과 같습니다:
 
 - Zebra 블록체인 데이터베이스: 약 260-270 GB
-- Lightwalletd 인덱싱: 약 15-20 GB
+- lightwalletd 인덱싱: 약 15-20 GB
 
 #### 권장 저장소:
 
@@ -367,7 +367,7 @@ export BTCPAYGEN_ADDITIONAL_FRAGMENTS="zcash-fullnode"
 
 스크립트는 다음을 수행합니다:
 
-* Zebra와 Lightwalletd의 Docker 이미지를 다운로드
+* Zebra와 lightwalletd의 Docker 이미지를 다운로드
 * BTCPay 스택 내부에 서비스를 설정
 * Zcash 플러그인을 **로컬** `lightwalletd` 인스턴스에 연결
 
@@ -375,7 +375,7 @@ export BTCPAYGEN_ADDITIONAL_FRAGMENTS="zcash-fullnode"
 > 동기화가 완료되기 전까지 차폐 결제는 사용할 수 없습니다.
 
 
-## 외부 Lightwalletd 노드에 연결하기
+## 외부 lightwalletd 노드에 연결하기
 
 대부분의 경우 완전한 자율성은 필요하지 않으며, 판매자는 풀 Zcash 노드를 실행하는 데 시간과 디스크 공간을 쓰고 싶지 않을 수도 있습니다.  
 기본적으로 BTCPay Server는 공개 `lightwalletd` 노드에 연결해 전체 블록체인을 다운로드하지 않고도 차폐 결제를 처리합니다.
@@ -907,8 +907,8 @@ BTCPay 생태계를 탐색하고 결제를 진정으로 자신의 것으로 만�
 * [BTCPay용 Zcash 플러그인 (GitHub)](https://github.com/btcpay-zcash/btcpayserver-zcash-plugin)
 * [Zcash 플러그인 설치 가이드](https://github.com/btcpay-zcash/btcpayserver-zcash-plugin/blob/master/docs/installation.md)
 * [사용자 정의 zcash-lightwalletd.custom.yml 예시](https://github.com/btcpay-zcash/btcpayserver-zcash-plugin/blob/master/docs/zcash-lightwalletd.custom.yml)
-* [Lightwalletd Docker Compose 파일 (Zebra)](https://github.com/ZcashFoundation/zebra/blob/main/docker/docker-compose.lwd.yml)
+* [lightwalletd Docker Compose 파일 (Zebra)](https://github.com/ZcashFoundation/zebra/blob/main/docker/docker-compose.lwd.yml)
 * [BTCPay API 키 문서 (Greenfield API)](https://docs.btcpayserver.org/API/Greenfield/v1/#tag/API-Keys)
 * [Cloudflare Tunnel 만들기](https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/get-started/create-remote-tunnel/)
 * [Zcash 지갑 호환성 목록 (ZecHub)](https://zechub.wiki/wallets)
-* [Raspberry Pi 5에서 Zebra + Lightwalletd 실행하기 (ZecHub)](https://free2z.com/ZecHub/zpage/zcash-101-zebra-lightwalletd-sync-journal-on-raspberry-pi-5)
+* [Raspberry Pi 5에서 Zebra + lightwalletd 실행하기 (ZecHub)](https://free2z.com/ZecHub/zpage/zcash-101-zebra-lightwalletd-sync-journal-on-raspberry-pi-5)

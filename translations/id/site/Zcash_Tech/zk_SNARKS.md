@@ -161,7 +161,7 @@ Setup Transparan (Tanpa Trusted Setup) - Algoritma preprocessing tidak menggunak
 
 [Groth16](https://eprint.iacr.org/2016/260): Memerlukan Trusted Setup tetapi memiliki proof yang sangat singkat yang dapat diverifikasi dengan cepat.
 
-[Sonic](https://www.youtube.com/watch?v=oTRAg6Km1os)/[Marlin](https://www.youtube.com/watch?v=bJDLf8KLdL0)/[Plonk](https://eprint.iacr.org/2019/953): Setup Terpercaya Secara Universal.
+[Sonic](https://www.youtube.com/watch?v=oTRAg6Km1os)/[Marlin](https://www.youtube.com/watch?v=bJDLf8KLdL0)/[PLONK](https://eprint.iacr.org/2019/953): Setup Terpercaya Secara Universal.
 
 [DARK](https://eprint.iacr.org/2019/1229)/[Halo](https://eprint.iacr.org/archive/2019/1021/20200218:011907)/[STARK](https://www.youtube.com/watch?v=wFZ_YIetK1o): Tanpa Trusted Setup tetapi menghasilkan proof yang sedikit lebih panjang atau mungkin membutuhkan waktu lebih lama bagi prover untuk berjalan.
 

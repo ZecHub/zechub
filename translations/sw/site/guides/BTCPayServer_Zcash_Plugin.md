@@ -14,7 +14,7 @@ BTCPay Server inaruhusu biashara za mtandaoni kukubali malipo ya sarafu za kidij
 - [Fedha Huhifadhiwa Wapi? Nani Anayedhibiti Funguo za Kibinafsi?](#Where-Are-Funds-Stored-Who-Controls-the-Private-Keys)
 - [Jinsi ya Kuweka BTCPay Server kwa ajili ya Kukubali Zcash](#How-to-Set-Up-BTCPay-Server-for-Accepting-Zcash)
   - [Kutuma BTCPay Server kwa kutumia Usaidizi wa Zcash](#Deploying-BTCPay-Server-with-Zcash-Support)
-  - [Kuendesha Nodi Yako Kamili Zcash (Zebra + Lightwalletd)](#Running-Your-Own-Zcash-Full-Node)
+  - [Kuendesha Nodi Yako Kamili Zcash (Zebra + lightwalletd)](#Running-Your-Own-Zcash-Full-Node)
   - [Kuunganisha kwenye Nodi ya Nje lightwalletd (Usanidi Maalum)](#Connecting-to-an-External-Lightwalletd-Node)
   - [Kuhifadhi BTCPay Server Nyumbani kwa kutumia Cloudflare Handle](#Hosting-BTCPay-Server-at-Home-with-Cloudflare-Tunnel)
 - [Kusanidi Programu-jalizi Zcash katika Kiolesura cha Wavuti BTCPay Server](#Configuring-the-Zcash-Plugin-in-the-BTCPay-Server-Web-Interface)
@@ -325,19 +325,19 @@ Kisha endelea hadi sehemu inayofuata ili kusanidi Zcash katika kiolesura cha wav
 
 ## Kuendesha Nodi Yako Kamili Zcash
 
-Ukipendelea **si** kutegemea umma `lightwalletd` nodi, unaweza kusambaza nodi yako kamili Zcash pamoja na Lightwalletd kwenye seva hiyo hiyo. 
+Ukipendelea **si** kutegemea umma `lightwalletd` nodi, unaweza kusambaza nodi yako kamili Zcash pamoja na lightwalletd kwenye seva hiyo hiyo. 
 Hii inakupa **uhuru kamili** - hakuna utegemezi wa nje, hakuna uaminifu unaohitajika.
 
 ---
 
 ### Hatua ya 1: Hakikisha Nafasi ya Kutosha ya Diski
 
-Nodi kamili Zcash (Zebra + Lightwalletd) kwa sasa inahitaji nafasi ya diski ya **300+ GB**, na inaendelea kukua.
+Nodi kamili Zcash (Zebra + lightwalletd) kwa sasa inahitaji nafasi ya diski ya **300+ GB**, na inaendelea kukua.
 
 Uchanganuzi:
 
 - Hifadhidata ya blockchain Zebra: ~260-270 GB
-- Uorodheshaji wa Lightwalletd: ~15-20 GB
+- Uorodheshaji wa lightwalletd: ~15-20 GB
 
 #### Hifadhi iliyopendekezwa:
 
@@ -367,7 +367,7 @@ Hii itajumuisha `zcash-fullnode` kipande, ambacho huzindua zote mbili `zebrad` n
 
 Hati hiyo ita:
 
-* Pakua picha za Docker za Zebra na Lightwalletd
+* Pakua picha za Docker za Zebra na lightwalletd
 * Sanidi huduma ndani ya rafu ya BTCPay
 * Unganisha programu-jalizi ya Zcash kwenye **local** `lightwalletd` mfano
 
@@ -375,7 +375,7 @@ Hati hiyo ita:
 > Hadi ulandanishi utakapokamilika, malipo yaliyolindwa hayatapatikana.
 
 
-## Kuunganisha kwenye Nodi ya Nje ya Lightwalletd
+## Kuunganisha kwenye Nodi ya Nje ya lightwalletd
 
 Mara nyingi, uhuru kamili hauhitajiki - na wafanyabiashara huenda wasingependa kutumia muda na nafasi ya diski kuendesha nodi kamili Zcash. 
 Kwa chaguo-msingi, BTCPay Server huunganisha kwenye huduma ya umma `lightwalletd` nodi ya kushughulikia malipo yaliyolindwa bila kupakua blockchain nzima.
@@ -907,8 +907,8 @@ Tunakutakia mafanikio katika kuchunguza mfumo wa BTCPay na kufanya malipo yako y
 * [Programu-jalizi Zcash kwa BTCPay (GitHub)](https://github.com/btcpay-zcash/btcpayserver-zcash-plugin)
 * [Mwongozo wa Usakinishaji wa Programu-jalizi Zcash](https://github.com/btcpay-zcash/btcpayserver-zcash-plugin/blob/master/docs/installation.md)
 * [Mfano maalum wa zcash-lightwalletd.custom.yml](https://github.com/btcpay-zcash/btcpayserver-zcash-plugin/blob/master/docs/zcash-lightwalletd.custom.yml)
-* [Faili ya Kutunga ya Lightwalletd Docker (Zebra)](https://github.com/ZcashFoundation/zebra/blob/main/docker/docker-compose.lwd.yml)
+* [Faili ya Kutunga ya lightwalletd Docker (Zebra)](https://github.com/ZcashFoundation/zebra/blob/main/docker/docker-compose.lwd.yml)
 * [Hati Muhimu za API ya BTCPay (API ya Greenfield)](https://docs.btcpayserver.org/API/Greenfield/v1/#tag/API-Keys)
 * [Unda Handaki la Cloudflare](https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/get-started/create-remote-tunnel/)
 * [Orodha ya Utangamano wa Pochi Zcash (ZecHub)](https://zechub.wiki/wallets)
-* [Zebra + Lightwalletd kwenye Raspberry Pi 5 (ZecHub)](https://free2z.com/ZecHub/zpage/zcash-101-zebra-lightwalletd-sync-journal-on-raspberry-pi-5)
+* [Zebra + lightwalletd kwenye Raspberry Pi 5 (ZecHub)](https://free2z.com/ZecHub/zpage/zcash-101-zebra-lightwalletd-sync-journal-on-raspberry-pi-5)

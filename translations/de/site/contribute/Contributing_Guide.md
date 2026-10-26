@@ -125,11 +125,11 @@ Kuratierte Sprachseiten unter `translations/<locale>/site/` werden anhand eines 
 
 #### ZecHub Wiki - Bearbeitung eines bestehenden Dokuments
 
-Manchmal sind unsere Informationen in der Dokumentation nicht ganz korrekt. Das ist in Ordnung. Deshalb stellen wir sie als Open Source bereit! Wenn du etwas findest, das in einem Wiki-Dokument geändert werden muss, gehe bitte zur Fußzeile des Dokuments (die auf die entsprechende Github-Seite verlinkt) und schlage über einen PR eine Änderung vor.
+Manchmal sind unsere Informationen in der Dokumentation nicht ganz korrekt. Das ist in Ordnung. Deshalb stellen wir sie als Open Source bereit! Wenn du etwas findest, das in einem Wiki-Dokument geändert werden muss, gehe bitte zur Fußzeile des Dokuments (die auf die entsprechende GitHub-Seite verlinkt) und schlage über einen PR eine Änderung vor.
 
 #### ZecHub Wiki - defekter Link behoben
 
-Wenn du feststellst, dass ein Link defekt ist oder etwas Wichtiges falsch geschrieben wurde, gehe bitte zur Fußzeile des Dokuments (die auf die entsprechende Github-Seite verlinkt) und schlage die Änderung über einen PR vor.
+Wenn du feststellst, dass ein Link defekt ist oder etwas Wichtiges falsch geschrieben wurde, gehe bitte zur Fußzeile des Dokuments (die auf die entsprechende GitHub-Seite verlinkt) und schlage die Änderung über einen PR vor.
 
 #### Newsletter - neue Ausgabe
 

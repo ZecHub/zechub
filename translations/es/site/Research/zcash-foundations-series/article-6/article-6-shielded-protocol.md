@@ -153,7 +153,7 @@ Esta es la imagen más completa de la serie, pero sigue siendo un modelo. Compri
 | Término | Significado en lenguaje claro |
 |---|---|
 | **Spending key** | El único secreto raíz del que derivan todas las claves de un usuario |
-| **Viewing key** | Revela tus transacciones a quien la posee sin permitirle gastar |
+| **Viewing Key** | Revela tus transacciones a quien la posee sin permitirle gastar |
 | **Spend description** | La parte de una tx que consume una note (nullifier, anchor, prueba) |
 | **Output description** | La parte de una tx que crea una note (compromiso, ciphertext, prueba) |
 | **Action (Orchard)** | Una unidad unificada que realiza un gasto y una salida juntos |

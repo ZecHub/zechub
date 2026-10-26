@@ -4,12 +4,12 @@
 ![img1](/content-images/Bkbg5alCll-7a02545c00.webp)
 
 
-*Solana से Zcash में स्वैप करें, जिसमें क्रॉस-चेन चरण Near Intents के माध्यम से रूट किया जाता है।*  
+*Solana से Zcash में स्वैप करें, जिसमें क्रॉस-चेन चरण NEAR Intents के माध्यम से रूट किया जाता है।*  
 
 ---
 
 ###  परिचय  
-[**encrypt.trade**](https://encrypt.trade/zec), JMD Labs Inc. द्वारा संचालित एक Solana ऐप है। यह आपको Solana पर **SOL या USDC** को **Zcash (ZEC)** में स्वैप करने देता है। आपके टोकन को पहले एन्क्रिप्टेड संस्करणों में रैप किया जाता है ताकि Solana पर राशियाँ छिपी रहें, फिर Near Intents के माध्यम से उन्हें ZEC में स्वैप किया जाता है।
+[**encrypt.trade**](https://encrypt.trade/zec), JMD Labs Inc. द्वारा संचालित एक Solana ऐप है। यह आपको Solana पर **SOL या USDC** को **Zcash (ZEC)** में स्वैप करने देता है। आपके टोकन को पहले एन्क्रिप्टेड संस्करणों में रैप किया जाता है ताकि Solana पर राशियाँ छिपी रहें, फिर NEAR Intents के माध्यम से उन्हें ZEC में स्वैप किया जाता है।
 
 यह स्वैप कुछ मायनों में निजी है, लेकिन पूरी तरह नहीं। ऐप के अपने [docs](https://docs.encifher.io/docs) में कहा गया है कि चेन के साथ आपकी इंटरैक्शन गुमनाम नहीं होती: लोग देख सकते हैं कि आपके वॉलेट ने ऐप का उपयोग किया, लेकिन यह नहीं कि आपने कितनी राशि स्थानांतरित की। ZEC भी एक पारदर्शी पते पर आता है, इसलिए जब तक आप उसे शील्ड नहीं करते, वह Zcash चेन पर दिखाई देता रहता है।
 
@@ -21,9 +21,9 @@
 ###  स्वैप करने से पहले जानने योग्य बातें  
 - **Solana पक्ष।** रैपिंग राशियाँ छिपाती है, लेकिन आपके वॉलेट का पता और ऐप का उसका उपयोग सार्वजनिक होते हैं। इसके [best practices](https://docs.encifher.io/docs/best-practices) चेतावनी देते हैं कि साधारण रैप, स्वैप और अनरैप से आपका लेनदेन लिंक किया जा सकता है।
 - **एन्क्रिप्शन।** एन्क्रिप्टेड बैलेंस को हार्डवेयर एन्क्लेव (TEE) के भीतर ऑफ-चेन प्रोसेस किया जाता है। डेवलपर्स के [paper](https://eprint.iacr.org/2026/1504) में कहा गया है कि यह केवल क्रिप्टोग्राफी पर नहीं, बल्कि TEE की अखंडता, ईमानदार थ्रेशोल्ड कुंजी प्रबंधन और क्लाउड अटेस्टेशन रूट पर निर्भर करता है।
-- **क्रॉस-चेन चरण।** ZEC का स्वैप Near Intents के माध्यम से रूट किया जाता है, जहाँ स्वतंत्र सॉल्वर ऑर्डर पूरा करते हैं।
-- **Zcash पक्ष।** Near Intents, ZEC को केवल [पारदर्शी पतों](https://docs.near-intents.org/resources/chain-support) के लिए समर्थित बताता है, और encrypt.trade पर ZEC फ़ील्ड ने सितंबर 2026 में इस गाइड की जाँच के समय केवल पारदर्शी (t1 या t3) पते स्वीकार किए थे। पारदर्शी पता अपना बैलेंस और आने वाले ट्रांसफर सार्वजनिक रूप से दिखाता है, जब तक आप उसे शील्ड नहीं करते।
-- **स्क्रीनिंग।** ऐप कनेक्ट होने वाले वॉलेट को TRM और Chainalysis जैसे डेटाबेस के विरुद्ध जाँचता है, और इसके [compliance page](https://docs.encifher.io/docs/compliance) में कहा गया है कि वैध कानूनी कारण होने पर एन्क्रिप्टेड रिकॉर्ड की समीक्षा की जा सकती है। Near Intents भी अपनी [screening](https://docs.near-intents.org/security-compliance/risk-and-compliance) चलाता है।
+- **क्रॉस-चेन चरण।** ZEC का स्वैप NEAR Intents के माध्यम से रूट किया जाता है, जहाँ स्वतंत्र सॉल्वर ऑर्डर पूरा करते हैं।
+- **Zcash पक्ष।** NEAR Intents, ZEC को केवल [पारदर्शी पतों](https://docs.near-intents.org/resources/chain-support) के लिए समर्थित बताता है, और encrypt.trade पर ZEC फ़ील्ड ने सितंबर 2026 में इस गाइड की जाँच के समय केवल पारदर्शी (t1 या t3) पते स्वीकार किए थे। पारदर्शी पता अपना बैलेंस और आने वाले ट्रांसफर सार्वजनिक रूप से दिखाता है, जब तक आप उसे शील्ड नहीं करते।
+- **स्क्रीनिंग।** ऐप कनेक्ट होने वाले वॉलेट को TRM और Chainalysis जैसे डेटाबेस के विरुद्ध जाँचता है, और इसके [compliance page](https://docs.encifher.io/docs/compliance) में कहा गया है कि वैध कानूनी कारण होने पर एन्क्रिप्टेड रिकॉर्ड की समीक्षा की जा सकती है। NEAR Intents भी अपनी [screening](https://docs.near-intents.org/security-compliance/risk-and-compliance) चलाता है।
 
 ---
 
@@ -83,7 +83,7 @@
 ![img9](/content-images/S1yoapgRle-6d2031a62c.webp)
 
 
-**Near Intents** क्रॉस-चेन रूटिंग संभालता है और **ZEC** को आपके ZODL वॉलेट में भेजता है। इसमें कुछ मिनट लग सकते हैं। Near Intents क्रॉस-चेन स्वैप के लिए 15 मिनट तक का समय देने का सुझाव देता है।  
+**NEAR Intents** क्रॉस-चेन रूटिंग संभालता है और **ZEC** को आपके ZODL वॉलेट में भेजता है। इसमें कुछ मिनट लग सकते हैं। NEAR Intents क्रॉस-चेन स्वैप के लिए 15 मिनट तक का समय देने का सुझाव देता है।  
 
 
 
@@ -98,10 +98,10 @@ ZEC के पहुँचने पर, उसे ZODL के **Shield** वि
 
 ###  कौन शामिल है और सहायता कहाँ प्राप्त करें  
 - **encrypt.trade** JMD Labs Inc. द्वारा संचालित ऐप है। इसकी [privacy policy](https://encrypt.trade/privacy) में कहा गया है कि यह IP, ब्राउज़र और डिवाइस विवरण जैसे तकनीकी डेटा एकत्र करता है, स्वैप से पहले आपके वॉलेट का पता, हाल का इतिहास और बैलेंस अनुपालन प्रदाताओं को भेजता है, और पाँच वर्ष तक लॉग तथा AML स्क्रीनिंग परिणाम रख सकता है। इसके [terms](https://encrypt.trade/terms) आपके स्थान को छिपाने के लिए VPN या प्रॉक्सी के उपयोग को प्रतिबंधित करते हैं। सहायता: help@encifher.io या ऐप से लिंक किया गया [Telegram समूह](https://t.me/+ZWHGMW4ZHXQwYTZl)।
-- **Near Intents** क्रॉस-चेन चरण को रूट करता है और ZEC पहुँचाता है। इसके [1Click API terms](https://docs.near-intents.org/security-compliance/terms-of-service) और near.com/privacy पर गोपनीयता नीति देखें, [Near Intents Explorer](https://explorer.near-intents.org) पर स्वैप ट्रैक करें, और [Near Intents Telegram](https://t.me/near_intents) में सहायता माँगें।
+- **NEAR Intents** क्रॉस-चेन चरण को रूट करता है और ZEC पहुँचाता है। इसके [1Click API terms](https://docs.near-intents.org/security-compliance/terms-of-service) और near.com/privacy पर गोपनीयता नीति देखें, [NEAR Intents Explorer](https://explorer.near-intents.org) पर स्वैप ट्रैक करें, और [NEAR Intents Telegram](https://t.me/near_intents) में सहायता माँगें।
 
 नियम और समर्थित पते बदल सकते हैं, इसलिए बड़े स्वैप से पहले वर्तमान संस्करण जाँचें। व्यापक संदर्भ के लिए, [नॉन-कस्टोडियल एक्सचेंज](/using-zcash/non-custodial-exchanges) देखें।
 
 ---
 
-**Solana**, **Zcash** और **Near Intents** को मिलाकर, **encrypt.trade** आपको SOL या USDC से ZEC तक का तेज़ मार्ग देता है। यह Solana पर राशियाँ छिपाता है, लेकिन शुरू से अंत तक निजी नहीं है, इसलिए पहुँचने के बाद अपने ZEC को शील्ड करें।
+**Solana**, **Zcash** और **NEAR Intents** को मिलाकर, **encrypt.trade** आपको SOL या USDC से ZEC तक का तेज़ मार्ग देता है। यह Solana पर राशियाँ छिपाता है, लेकिन शुरू से अंत तक निजी नहीं है, इसलिए पहुँचने के बाद अपने ZEC को शील्ड करें।

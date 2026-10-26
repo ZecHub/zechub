@@ -41,7 +41,7 @@ Dukungan Resmi Transaksi Terlindungi untuk Zcash dalam pembaruan Ledger dari [](
 
 [Zcash Panggilan Mingguan Brasil 22](https://x.com/zcashbrazil/status/1808206303107731746)
 
-[Jangan gunakan aplikasi Signal di MacOS - alberdioni8406 di Free2z](https://x.com/free2zcash/status/1809716224940781965)
+[Jangan gunakan aplikasi Signal di MacOS - alberdioni8406 di Free2Z](https://x.com/free2zcash/status/1809716224940781965)
 
 [Biaya Tersembunyi dari Web 2.0 - Zcash Media ](https://x.com/zcashmedia/status/1809580807616397557)
 

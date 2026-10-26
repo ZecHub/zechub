@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Sayfayı Düzenle"/>
 </a>
 
-# Zingo ile RPi5 Zebra Lightwalletd
+# Zingo ile RPi5 Zebra lightwalletd
 
 ## Video Eğitimi
 
@@ -27,7 +27,7 @@ sudo apt install libclang-dev clang pkg-config openssl protobuf-compiler npm
 
 ## Zebra'yı Derleme
 
-[Zebra Github](https://github.com/ZcashFoundation/zebra)
+[Zebra GitHub](https://github.com/ZcashFoundation/zebra)
 
 * `time cargo install --git https://github.com/ZcashFoundation/zebra --tag v3.1.0 zebrad`
 

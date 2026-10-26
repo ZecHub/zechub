@@ -16,7 +16,7 @@
 
 ## Chịkọta ihe nchekwa FROST
 
-[Njikọ Github](https://github.com/ZcashFoundation/frost-zcash-demo)
+[Njikọ GitHub](https://github.com/ZcashFoundation/frost-zcash-demo)
 
 Jiri repo dị n'elu wee soro ntuziaka maka nchịkọta: 
 

@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Halaman"/>
 </a>
 
-# Melayani Repositori Github dengan IPFS
+# Melayani Repositori GitHub dengan IPFS
 
 ## Pendahuluan
 

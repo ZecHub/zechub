@@ -161,7 +161,7 @@ Setup trasparente (nessun trusted setup)- L'algoritmo di pre-elaborazione non ut
 
 [Groth16](https://eprint.iacr.org/2016/260): Richiede un trusted setup ma ha prove molto brevi che possono essere verificate rapidamente.
 
-[Sonic](https://www.youtube.com/watch?v=oTRAg6Km1os)/[Marlin](https://www.youtube.com/watch?v=bJDLf8KLdL0)/[Plonk](https://eprint.iacr.org/2019/953): Trusted setup universale.
+[Sonic](https://www.youtube.com/watch?v=oTRAg6Km1os)/[Marlin](https://www.youtube.com/watch?v=bJDLf8KLdL0)/[PLONK](https://eprint.iacr.org/2019/953): Trusted setup universale.
 
 [DARK](https://eprint.iacr.org/2019/1229)/[Halo](https://eprint.iacr.org/archive/2019/1021/20200218:011907)/[STARK](https://www.youtube.com/watch?v=wFZ_YIetK1o): Non richiedono trusted setup, ma producono prove leggermente più lunghe o potrebbero richiedere più tempo al dimostratore per l'esecuzione. 
 

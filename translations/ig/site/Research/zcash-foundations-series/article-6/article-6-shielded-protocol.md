@@ -153,7 +153,7 @@ This is the most complete picture in the series, but still a model. We compresse
 | Oge okwu | Nkọwa Bekee dị mfe |
 |---|---|
 | **Spending key** | Ihe nzuzo otu mgbọrọgwụ nke igodo niile onye ọrụ si enweta |
-| **Viewing key** | Na-ekpughe azụmahịa gị nye onye nwere ya n'ekweghị ka ha mefuo ego |
+| **Viewing Key** | Na-ekpughe azụmahịa gị nye onye nwere ya n'ekweghị ka ha mefuo ego |
 | **Spend description** | Akụkụ nke tx nke na-eri ihe ndetu (ihe na-emebi ihe, arịlịka, ihe akaebe) |
 | **Output description** | Akụkụ nke tx nke na-emepụta ndetu (nkwa, ederede nzuzo, ihe akaebe) |
 | **Action (Orchard)** | Otu n'otu na-emefu otu mmefu na otu mmepụta ọnụ |

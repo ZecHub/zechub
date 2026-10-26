@@ -16,7 +16,7 @@
 
 ## Kusanya mapipa ya FROST
 
-[Kiungo cha Github](https://github.com/ZcashFoundation/frost-zcash-demo)
+[Kiungo cha GitHub](https://github.com/ZcashFoundation/frost-zcash-demo)
 
 Tumia repo hapo juu na ufuate maelekezo ya kukusanya: 
 

@@ -125,11 +125,11 @@ Curated locale pages under `translations/<locale>/site/` are tracked against the
 
 #### ZecHub Wiki - edit to an existing doc
 
-Sometimes our information in the docs is not spot on. Thats okay. That is why we open-source them! If you find something that needs a change in a wiki-doc, please go to the footer of the doc (which links to its Github page) and suggest a change via a PR.
+Sometimes our information in the docs is not spot on. Thats okay. That is why we open-source them! If you find something that needs a change in a wiki-doc, please go to the footer of the doc (which links to its GitHub page) and suggest a change via a PR.
 
 #### ZecHub Wiki - broken link fixed
 
-If you find that a link is broken, or something important is mispelled, please go to the footer of the doc (which links to its Github page) and suggest the change via a PR.
+If you find that a link is broken, or something important is mispelled, please go to the footer of the doc (which links to its GitHub page) and suggest the change via a PR.
 
 #### Newsletter - new edition
 

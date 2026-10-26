@@ -221,7 +221,7 @@ Sasa unashikilia ramani hiyo. Mfululizo unaobaki hujaza ramani.
 | **Nullifier** | Alama ya kipekee ya "kutumika" iliyochapishwa wakati noti inatumiwa, kuzuia matumizi mara mbili |
 | **Zero-knowledge proof** | Uthibitisho kwamba kauli ni kweli bila kufichua chochote zaidi ya ukweli wake |
 | **Shielding / deshielding** | Kuhamisha fedha kuingia/kutoka katika ulimwengu wa kibinafsi uliolindwa |
-| **Viewing key** | Ufunguo unaomruhusu mmiliki kugundua na kusoma maelezo yaliyoelekezwa kwake |
+| **Viewing Key** | Ufunguo unaomruhusu mmiliki kugundua na kusoma maelezo yaliyoelekezwa kwake |
 
 ---
 

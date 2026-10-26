@@ -31,7 +31,7 @@ Le mɔ sia nu la, amesiwo zãa mɔnu siawo ate ŋu aɖo tokenyati aɖe ɖe block
 
 Proof of Bond (PoB) nye ɖoɖo si dzi wotona wɔa nu le ɖekawɔwɔ me, afisi wòle be nugbɔdɔwɔlawo nawɔ dɔ atsɔ awɔ adzɔgbeɖeɖe aɖe (siwo zi geɖe anye nyatakakadzraɖoƒea ƒe dzesi ŋutɔŋutɔ) bene woate ŋu akpɔ gome le kadodoa me. Dzesi sia zua ganyawo ta kpɔkpɔ mɔ̃ na nudɔdɔwo eye wònana wokpɔa egbɔ be wodɔa anukwareɖiɖi kple adede blibo ɖe edzi.2 Ne nubla dze agbagba wɔ nusi menyo o alo mewɔ eƒe agbanɔamedziwo nyuie o la, woagblẽe ɖi, si fia be woaxɔ akpa sue aɖe le esi abe tohehe ene.
 
-Le Maya Protocol me la, mɔnu sia kpena ɖe ga ŋu le nu siwo dzi nodɔ dɔwɔlawo ɖo be woazã na yewo ta. Nenema ke le Thorchain hã me la , nudɔ wɔlawo tsɔa RUNE (dzigbe ƒe dzesi) dea kadodo kple amewo tsɔ kpɔa woƒe nutoa me tɔwo tae.
+Le Maya Protocol me la, mɔnu sia kpena ɖe ga ŋu le nu siwo dzi nodɔ dɔwɔlawo ɖo be woazã na yewo ta. Nenema ke le THORChain hã me la , nudɔ wɔlawo tsɔa RUNE (dzigbe ƒe dzesi) dea kadodo kple amewo tsɔ kpɔa woƒe nutoa me tɔwo tae.
 
 ## Vovototo si le Mayawo kple THORChain dome
 
@@ -65,7 +65,7 @@ Azɔ hã, Maya ƒe taɖodzinu enye be yeava zu *backend* na dɔ bubuwo siwo dzi 
 Esi wònye be Maya nye *backend* la, ele be UI kple gaɖaba vovovo nanɔ eŋu hafi woate ŋu azãe. 
 Esia nye ŋkɔ siwo le Maya dzi xoxo la dometɔ aɖewo ƒe kɔpi:
 
-[Thorwallet DEX ƒe akpa aɖe](https://www.thorwallet.org/): Ledger, XDEFI, Metamask, Keystore
+[Thorwallet DEX ƒe akpa aɖe](https://www.thorwallet.org/): Ledger, XDEFI, MetaMask, Keystore
 
 [El Dorado (Dɔ̃evi)](https://www.eldorado.market/): XDEFI, Keystore
 

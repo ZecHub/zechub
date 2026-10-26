@@ -3,7 +3,7 @@
 </a>
 
 # <img src="/content-images/image-2024-02-03-164918723-f59419848a.webp" alt="Alt Text" width="50"/>    Electric Coin Company (الغروب)
-[الموقع الإلكتروني](https://electriccoin.co) - [Github](https://github.com/zodl-inc) - [X/Twitter](https://x.com/ElectricCoinCo)
+[الموقع الإلكتروني](https://electriccoin.co) - [GitHub](https://github.com/zodl-inc) - [X/Twitter](https://x.com/ElectricCoinCo)
 
 > **حول رابط GitHub هذا.** مستودعات ECC موجودة على `zodl-inc`. هذه هي المنظمة نفسها، وقد أُعيدت تسميتها عندما انتقل الفريق إلى [ZODL](/zcash-organizations/zodl). أمّا الاسم القديم `github.com/Electric-Coin-Company` فقد سجّله طرف غير ذي صلة في مايو 2026 ولا علاقة له بـ ECC أو ZODL، لذلك لا تثق بأي شيفرة منشورة هناك.
 

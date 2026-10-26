@@ -3,7 +3,7 @@
 </a>
 
 # <img src="/content-images/image-2024-02-03-170636194-b507a57ff1.webp" alt="Alt Text" width="50"/>    ZKAV Club
-[Ìkànnì](https://zkav.club) - [Github](https://github.com/copernicus-mogley/zkav.club) - [X/Twitter] - Àìmọ̀lé](https://x.com/ZkAv_Club) - [Youtube] ì í ë ¤ì](https://www.youtube.com/@ZkAv_Club)
+[Ìkànnì](https://zkav.club) - [GitHub](https://github.com/copernicus-mogley/zkav.club) - [X/Twitter] - Àìmọ̀lé](https://x.com/ZkAv_Club) - [YouTube] ì í ë ¤ì](https://www.youtube.com/@ZkAv_Club)
 
 *Supported by The Zcash Foundation this ambitious grassroots project aims to have global impact through local and regional actions. Inviting a community of creators to learn and work together to elevate and disseminate news and stories that inspire, educate, and share the promise of Zcash and financial privacy*.
 

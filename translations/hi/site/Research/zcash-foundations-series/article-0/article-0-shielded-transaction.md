@@ -221,7 +221,7 @@ Bitcoin में chain-analysis firms जिस चीज़ पर निर�
 | **Nullifier** | एक अनूठा "spent" संकेतक जो note के उपयोग पर प्रकाशित होता है और double-spend रोकता है |
 | **Zero-knowledge proof** | ऐसा proof कि कोई कथन सत्य है, जबकि उसकी सत्यता के अलावा कुछ भी प्रकट न हो |
 | **Shielding / deshielding** | फंड्स को निजी Shielded दुनिया में ले जाना / उससे बाहर लाना |
-| **Viewing key** | वह key जो मालिक को उसके लिए भेजे गए notes को पहचानने और पढ़ने देती है |
+| **Viewing Key** | वह key जो मालिक को उसके लिए भेजे गए notes को पहचानने और पढ़ने देती है |
 
 ---
 

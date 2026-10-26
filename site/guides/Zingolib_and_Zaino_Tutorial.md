@@ -26,7 +26,7 @@
 
 
 - Zcash User Installs/Compiles Zingolib Which gives access to zingo-cli. They can send/recieve ZEC as needed.
-- Zingo-cli connects to zaino either locally or via a secure channel online (Zcash user doesnt care how this works!)
+- zingo-cli connects to zaino either locally or via a secure channel online (Zcash user doesnt care how this works!)
 - Zaino allows access to either zebrad or zcashd            
 - Fully synced zebrad is source of truth (no more wallets here!)
 

@@ -38,7 +38,7 @@ Sebelum kamu dapat membangun Arti dari sumbernya, kamu perlu menginstal versi st
 Ini akan mengonfirmasi bahwa kamu telah menginstal versi stabil terbaru dari Rust di sistem kamu.
 
 #### **Catatan untuk Pengguna Windows**:
-- Rust dapat diinstal di Windows melalui [**Rustup**](https://rustup.rs/), sebuah installer toolchain. Pastikan kamu juga telah menyiapkan lingkungan build yang kompatibel (kamu mungkin memerlukan **Visual Studio Build Tools** di Windows).
+- Rust dapat diinstal di Windows melalui [**rustup**](https://rustup.rs/), sebuah installer toolchain. Pastikan kamu juga telah menyiapkan lingkungan build yang kompatibel (kamu mungkin memerlukan **Visual Studio Build Tools** di Windows).
   
 ---
 

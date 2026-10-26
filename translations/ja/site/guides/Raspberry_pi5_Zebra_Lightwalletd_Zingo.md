@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="ページを編集"/>
 </a>
 
-# RPi5 Zebra Lightwalletd with Zingo
+# RPi5 Zebra lightwalletd with Zingo
 
 ## ビデオチュートリアル
 
@@ -26,7 +26,7 @@ sudo apt install libclang-dev clang pkg-config openssl protobuf-compiler npm
 
 ## Zebraのコンパイル
 
-[Zebra Github](https://github.com/ZcashFoundation/zebra)
+[Zebra GitHub](https://github.com/ZcashFoundation/zebra)
 
 * `time cargo install --git https://github.com/ZcashFoundation/zebra --tag v3.1.0 zebrad`
 

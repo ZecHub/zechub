@@ -52,7 +52,7 @@ So, if you are a cookie monster..,
 
 now you know where to spend your ZEC!
 
-**Website**: sheemprende.com has been retired and no longer resolves. Reach her on [Free2z](https://free2z.cash/SheEmprende) | [X Platform](https://twitter.com/SheEmprende_)
+**Website**: sheemprende.com has been retired and no longer resolves. Reach her on [Free2Z](https://free2z.cash/SheEmprende) | [X Platform](https://twitter.com/SheEmprende_)
 
 **Zcash Unified Address:** 
 
@@ -74,7 +74,7 @@ Rosa smiles proudly showing that she accepts **Zcash.**
 
 **Website**: somosdulceros.com has been retired and no longer resolves. Use the social links below.
 
-**Social media:** [Instagram](https://www.instagram.com/somos_dulceros) | [X Platform](https://twitter.com/RosaMRangel) | [Free2z](https://free2z.cash/Criptodulceros/zpage/criptodulceros-01)
+**Social media:** [Instagram](https://www.instagram.com/somos_dulceros) | [X Platform](https://twitter.com/RosaMRangel) | [Free2Z](https://free2z.cash/Criptodulceros/zpage/criptodulceros-01)
 
 **Zcash Unified Address:** 
 
@@ -106,7 +106,7 @@ Some of other beautiful things Papeles a Color handcrafts.
 
 **Social media** 
 
-[Instagram](https://instagram.com/papelesacolor) | [Free2z](https://free2z.cash/PapelesaColor) 
+[Instagram](https://instagram.com/papelesacolor) | [Free2Z](https://free2z.cash/PapelesaColor) 
 
 [Linktree](https://linktr.ee/Papelesacolor)
 
@@ -167,7 +167,7 @@ This place ruled by **Roosevelt Gordones and Aura Brito** offers services relate
 
 GorBrit accepts different payment methods, including Cryptocurrecies, among which, it is **Zcash.**
 
-**Unified address** 
+**Unified Address** 
 
 ```
 u1l2lxdx2en962h3utm24fthm0r9q5cxc4705jeatq4lckm92k06htdk8jear9tsay7w8xz4najnv0mpnngalctdtqnh9dv3d4fsr3lqxk0jhgfukujzca752eqj4pyeklgymk0j72lfs85r3vnpx48jkgk5v0zk5zl7nx4mlyaxq7xm0k7wfjnt9h86d4wxvrm45w358qkd60cdckp4h
@@ -193,7 +193,7 @@ His work is well-known in Zcash ecosystem thanks to his contribution to the ZFAV
 
 **Social media:**
 
-[Telegram](https://t.me/Robmarn) | [X Platform](https://twitter.com/robmarn) | [Free2z](https://free2z.cash/robmarn)
+[Telegram](https://t.me/Robmarn) | [X Platform](https://twitter.com/robmarn) | [Free2Z](https://free2z.cash/robmarn)
 
 📍Barquisimeto - Venezuela 
 
@@ -261,7 +261,7 @@ Tecnopapapi is the right person to get in touch with!
 
 **Social media** 
 
-Free2z | [Telegram](https://t.me/Lexihel) | [YouTube](https://youtube.com/@tecnopapapi) | [X Platform](https://twitter.com/tecnopapapi) | [TikTok](https://www.tiktok.com/@lexihel) | [Instagram](https://www.instagram.com/tecnopapapi/) |  [Facebook](https://www.facebook.com/tecnopapapi) 
+Free2Z | [Telegram](https://t.me/Lexihel) | [YouTube](https://youtube.com/@tecnopapapi) | [X Platform](https://twitter.com/tecnopapapi) | [TikTok](https://www.tiktok.com/@lexihel) | [Instagram](https://www.instagram.com/tecnopapapi/) |  [Facebook](https://www.facebook.com/tecnopapapi) 
 
 Tecnopapapi accepts cryptocurrecies (including 3ZEC) and other payments methods. 
 

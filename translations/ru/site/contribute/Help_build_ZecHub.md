@@ -8,7 +8,7 @@
 
 Отбирайте ссылки для новостной рассылки и добавляйте их на GitHub-страницу рассылки: -> [Нажмите здесь, чтобы увидеть инструкции](https://github.com/ZecHub/zechub/blob/main/site/contribute/ZecWeekly_Newsletter.md)
 
-Проверяйте факты в документации wiki, предлагайте правки и новые страницы в Github
+Проверяйте факты в документации wiki, предлагайте правки и новые страницы в GitHub
 
 Создавайте видеоконтент в следующих категориях:
 ```
@@ -50,9 +50,9 @@
 
 [ZEC Bounties](https://bounties.zechub.wiki/)
 
-[Github Issues ZecHub](https://github.com/ZecHub/zechub/issues)
+[GitHub Issues ZecHub](https://github.com/ZecHub/zechub/issues)
 
-[Github Issues ZecHub-Wiki](https://github.com/ZecHub/zechub-wiki/issues)
+[GitHub Issues ZecHub-Wiki](https://github.com/ZecHub/zechub-wiki/issues)
 
 Если вы хотите помочь другими способами, напишите ZecHub ([@ZecHub](https://twitter.com/zechub)) в Twitter или присоединяйтесь к нашему [Discord](https://discord.gg/zcash).
 

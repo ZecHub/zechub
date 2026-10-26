@@ -43,22 +43,22 @@ Zcashのプライバシーは、シールドアドレスによって実現され
 スワップには、Zcashでは隠せない部分があります。
 
 - **送信元ネットワーク。** Solana、Ethereum、または他のパブリックチェーンから送る資金は、そのチェーン上で公開されます。これにはあなたのアドレスと金額が含まれます。
-- **受取アドレス。** 一部のスワップ経路では、ZECがトランスペアレントアドレスに送られます。たとえば、Near Intentsは、ZECが[トランスペアレントアドレスのみ](https://docs.near-intents.org/resources/chain-support)でサポートされていると記載しています。トランスペアレント（t1またはt3）アドレスに送られたZECは、Bitcoinと同様に公開されます。その後にシールド化すれば次に行うことは保護されますが、入金とシールド化トランザクションは表示されたままです。
+- **受取アドレス。** 一部のスワップ経路では、ZECがトランスペアレントアドレスに送られます。たとえば、NEAR Intentsは、ZECが[トランスペアレントアドレスのみ](https://docs.near-intents.org/resources/chain-support)でサポートされていると記載しています。トランスペアレント（t1またはt3）アドレスに送られたZECは、Bitcoinと同様に公開されます。その後にシールド化すれば次に行うことは保護されますが、入金とシールド化トランザクションは表示されたままです。
 - **サービス。** アプリおよびルーティングサービスは、あなたが提供するアドレスと金額に加え、IPアドレスなどの接続データを確認します。
 
 ZECを自分で管理するウォレットに送り、使用する前にシールド化してください。[ZECをプライベートに使用する](/guides/using-zec-privately)では、次の手順を説明しています。
 
 ### **スワップに関与する主体**
 
-例として、Near Intentsの1Clickサービスを経由するスワップを考えてみましょう。その[API利用規約](https://docs.near-intents.org/security-compliance/terms-of-service)では、以下を別個の構成要素として扱っています。
+例として、NEAR Intentsの1Clickサービスを経由するスワップを考えてみましょう。その[API利用規約](https://docs.near-intents.org/security-compliance/terms-of-service)では、以下を別個の構成要素として扱っています。
 
 - **インターフェース**: 使用するウェブサイトまたはウォレットです。Intents Technologyが運営する場合も、独自の利用規約を持つ第三者が運営する場合もあります。
 - **1Click**: Intents Technology Limitedが運営するルーティングおよび決済サービスです。提示された見積もり用に作成された入金アドレスへ資金を送ります。ドキュメントでは1Clickはカストディを行わないとされていますが、利用規約では、送金の進行中に資産がブリッジインフラ内で保有またはロックされる可能性があると記載されています。
-- **プロトコル**: Near Intentsのスマートコントラクトです。
+- **プロトコル**: NEAR Intentsのスマートコントラクトです。
 - **ソルバー**: 見積もりを履行する独立した第三者です。
 - **ブリッジ**: ネイティブZECは、Intents Technologyが運営するPoA Bridgeを介して移動します。
 
-Near Intentsはまた、統合された見積もりフローを複数のAMLデータベースと照合して[スクリーニング](https://docs.near-intents.org/security-compliance/risk-and-compliance)しており、対象範囲はフローや統合によって異なると述べています。利用規約に基づき、フラグが立ったスワップは遅延、ブロック、凍結、拒否される場合があります。
+NEAR Intentsはまた、統合された見積もりフローを複数のAMLデータベースと照合して[スクリーニング](https://docs.near-intents.org/security-compliance/risk-and-compliance)しており、対象範囲はフローや統合によって異なると述べています。利用規約に基づき、フラグが立ったスワップは遅延、ブロック、凍結、拒否される場合があります。
 
 ### **スワップ中に共有する情報**
 
@@ -72,8 +72,8 @@ Near Intentsはまた、統合された見積もりフローを複数のAMLデ�
 利用規約は変わるため、大きなスワップの前に最新バージョンを確認してください。
 
 - **まず利用するアプリを確認してください。** それが主な問い合わせ先です。1Click API利用規約では、Intents Technologyは、それを利用して構築されたアプリのユーザーと直接の関係を持たないと記載されています。
-- **Near Intents:** near.com/termsおよびnear.com/privacyの利用規約とプライバシーポリシー、ならびに[1Click API利用規約](https://docs.near-intents.org/security-compliance/terms-of-service)と[リスクおよびコンプライアンス](https://docs.near-intents.org/security-compliance/risk-and-compliance)。
-- **追跡とサポート:** [Near Intents Explorer](https://explorer.near-intents.org)でスワップを確認するか、[Near Intents Telegram](https://t.me/near_intents)で問い合わせてください。
+- **NEAR Intents:** near.com/termsおよびnear.com/privacyの利用規約とプライバシーポリシー、ならびに[1Click API利用規約](https://docs.near-intents.org/security-compliance/terms-of-service)と[リスクおよびコンプライアンス](https://docs.near-intents.org/security-compliance/risk-and-compliance)。
+- **追跡とサポート:** [NEAR Intents Explorer](https://explorer.near-intents.org)でスワップを確認するか、[NEAR Intents Telegram](https://t.me/near_intents)で問い合わせてください。
 - **返金:** 失敗したスワップは、指定した返金アドレスに返送される場合がありますが、near.comの利用規約では返金は保証されないとされています。1Clickの利用規約では、300米ドル未満のユーザーエラーに対する回復依頼は検討されないとも記載されています。
 
 ここから、Zcash取引を可能にする、利用しやすい非カストディアル取引所をいくつか見ていきましょう。これらのプラットフォームを利用すれば、より多くのZcashコインを便利に取得できます。

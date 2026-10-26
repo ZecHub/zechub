@@ -52,7 +52,7 @@ Alors, si vous êtes un monstre à cookies...,
 
 vous savez maintenant où dépenser vos ZEC !
 
-**Site web** : sheemprende.com a été retiré et ne répond plus. Contactez-la sur [Free2z](https://free2z.cash/SheEmprende) | [Plateforme X](https://twitter.com/SheEmprende_)
+**Site web** : sheemprende.com a été retiré et ne répond plus. Contactez-la sur [Free2Z](https://free2z.cash/SheEmprende) | [Plateforme X](https://twitter.com/SheEmprende_)
 
 **Zcash Unified Address :** 
 
@@ -74,7 +74,7 @@ Rosa sourit fièrement en montrant qu'elle accepte les **Zcash.**
 
 **Site web** : somosdulceros.com a été retiré et ne répond plus. Utilisez les liens sociaux ci-dessous.
 
-**Réseaux sociaux :** [Instagram](https://www.instagram.com/somos_dulceros) | [Plateforme X](https://twitter.com/RosaMRangel) | [Free2z](https://free2z.cash/Criptodulceros/zpage/criptodulceros-01)
+**Réseaux sociaux :** [Instagram](https://www.instagram.com/somos_dulceros) | [Plateforme X](https://twitter.com/RosaMRangel) | [Free2Z](https://free2z.cash/Criptodulceros/zpage/criptodulceros-01)
 
 **Zcash Unified Address :** 
 
@@ -106,7 +106,7 @@ Quelques-unes des autres belles choses fabriquées à la main par Papeles a Colo
 
 **Réseaux sociaux** 
 
-[Instagram](https://instagram.com/papelesacolor) | [Free2z](https://free2z.cash/PapelesaColor) 
+[Instagram](https://instagram.com/papelesacolor) | [Free2Z](https://free2z.cash/PapelesaColor) 
 
 [Linktree](https://linktr.ee/Papelesacolor)
 
@@ -193,7 +193,7 @@ Son travail est bien connu dans l'écosystème Zcash grâce à sa contribution a
 
 **Réseaux sociaux :**
 
-[Telegram](https://t.me/Robmarn) | [Plateforme X](https://twitter.com/robmarn) | [Free2z](https://free2z.cash/robmarn)
+[Telegram](https://t.me/Robmarn) | [Plateforme X](https://twitter.com/robmarn) | [Free2Z](https://free2z.cash/robmarn)
 
 📍Barquisimeto - Venezuela 
 
@@ -261,7 +261,7 @@ Tecnopapapi est la bonne personne à contacter !
 
 **Réseaux sociaux** 
 
-Free2z | [Telegram](https://t.me/Lexihel) | [YouTube](https://youtube.com/@tecnopapapi) | [Plateforme X](https://twitter.com/tecnopapapi) | [TikTok](https://www.tiktok.com/@lexihel) | [Instagram](https://www.instagram.com/tecnopapapi/) |  [Facebook](https://www.facebook.com/tecnopapapi) 
+Free2Z | [Telegram](https://t.me/Lexihel) | [YouTube](https://youtube.com/@tecnopapapi) | [Plateforme X](https://twitter.com/tecnopapapi) | [TikTok](https://www.tiktok.com/@lexihel) | [Instagram](https://www.instagram.com/tecnopapapi/) |  [Facebook](https://www.facebook.com/tecnopapapi) 
 
 Tecnopapapi accepte les cryptomonnaies (dont 3ZEC) et d'autres moyens de paiement. 
 

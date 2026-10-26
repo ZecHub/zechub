@@ -28,7 +28,7 @@ Deskripsi: Memastikan bahwa fitur privasi Zcash tetap terjaga selama proses brid
 **Jembatan Elastic Subnet Zcash pada Avalanche**: [Proposal Hibah](https://zcashgrants.org/gallery/25215916-53ea-4041-a3b2-6d00c487917d/36243580/)
 Berikut adalah hasil utama dan sumber daya teknis yang telah diselesaikan untuk proyek Zcash Avalanche RedBridge:
 
-Deliverable 1.1: PoC Awal yang mendukung kueri transaksi Zcash testnet dari subnet Avalanche testnet menggunakan CLI, dipublikasikan di Github dan dengan satu subnet node pada Avalanche testnet. https://github.com/red-dev-inc/zavax-oracle
+Deliverable 1.1: PoC Awal yang mendukung kueri transaksi Zcash testnet dari subnet Avalanche testnet menggunakan CLI, dipublikasikan di GitHub dan dengan satu subnet node pada Avalanche testnet. https://github.com/red-dev-inc/zavax-oracle
 
 Deliverable 2.1: Arsitektur [](https://github.com/red-dev-inc/zavax-bridge/tree/main/Architecture)
 
@@ -49,7 +49,7 @@ Hasil Kerja 5.1 GUI: integrasi bridge ke dalam Core atau Webapp
 
 Milestone 6 30 Juni 2024
 Deliverable 6.1 Berhasil melewati audit perangkat lunak
-Deliverable 6.2 Publikasi kode sumber yang telah diaudit ke repo Github publik
+Deliverable 6.2 Publikasi kode sumber yang telah diaudit ke repo GitHub publik
 
 Lihat repositori GitHub [](https://github.com/red-dev-inc/zavax-bridge/tree/main/Architecture)
   
@@ -62,7 +62,7 @@ Untuk detail teknis lebih lanjut, pengguna disarankan untuk meninjau repositori 
 * Hasil: 
 Pada Q1 2025, tim mengumumkan peluncuran situs web demo [red·bridge](https://redbridge-demo.red.dev/index.html), di mana siapa pun dapat mencoba pengalaman pengguna, memberikan umpan balik, dan menyarankan peningkatan. Situs ini juga berfungsi sebagai cara mudah untuk memperkenalkan proyek ini kepada orang-orang non-teknis.
 
-* Tim menggunakan Zebra untuk versi final dari red·bridge. Untuk mengujinya, mereka meningkatkan dua dari tiga node di blockchain pengujian mereka, ZavaX Oracle, yang berjalan di testnet Fuji milik Avalanche. Node terakhir berhasil ditingkatkan, sekarang [Zavax Oracle](https://web.archive.org/web/20260823181644/https://zavax-oracle.red.dev/) kini berjalan di Zebra!
+* Tim menggunakan Zebra untuk versi final dari red·bridge. Untuk mengujinya, mereka meningkatkan dua dari tiga node di blockchain pengujian mereka, ZavaX Oracle, yang berjalan di testnet Fuji milik Avalanche. Node terakhir berhasil ditingkatkan, sekarang [ZavaX Oracle](https://web.archive.org/web/20260823181644/https://zavax-oracle.red.dev/) kini berjalan di Zebra!
 
 * Pada Q1 tahun 2025, situs web red.bridge dikodekan untuk menawarkan empat tampilan yaitu merah, Dark, Light, dan Zebra sebagai lawan dari versi awal, yang hanya berwarna merah.
 

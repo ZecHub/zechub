@@ -202,7 +202,7 @@ zallet migrate-zcashd-wallet --zcashd-datadir /path/to/zcashd/datadir
 - [عقدة Zebra الكاملة](Zebra_Full_Node.md) — الواجهة الخلفية الافتراضية للعقدة التي تقرأها Zallet
 - [عقدة Zakura](Zakura_Node.md) — عقدة تحقق بديلة
 - [Zaino](Zaino.md) — واجهة خلفية للمفهرس وخادم للعميل الخفيف
-- [ZECD](ZECD.md) — تصميم آخر لخادم محفظة على librustzcash
+- [zecd](ZECD.md) — تصميم آخر لخادم محفظة على librustzcash
 - [مزامنة محفظة Zcash](Zcash_Wallet_Syncing.md) — كيف تمسح المحافظ المحمية السلسلة
 - [مفاتيح العرض](Viewing_Keys.md)
 

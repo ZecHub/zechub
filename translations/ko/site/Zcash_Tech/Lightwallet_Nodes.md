@@ -79,7 +79,7 @@ Zaino 개발자들은 위협 모델을 직접 인용하며 같은 주장을 합�
 
 ### Rust 인덱서 Zaino
 
-[Zaino](/zcash-tech/zaino)는 zcashd 사용 중단 작업의 일부로 lightwalletd를 대체하기 위해 Zingo 팀이 Rust로 작성한 인덱서입니다. 라이트 클라이언트, 풀 클라이언트, 블록 탐색기를 지원하며, "Zebra 또는 Zcashd 풀 검증자"가 보유한 체인 데이터를 읽습니다.
+[Zaino](/zcash-tech/zaino)는 zcashd 사용 중단 작업의 일부로 lightwalletd를 대체하기 위해 Zingo 팀이 Rust로 작성한 인덱서입니다. 라이트 클라이언트, 풀 클라이언트, 블록 탐색기를 지원하며, "Zebra 또는 zcashd 풀 검증자"가 보유한 체인 데이터를 읽습니다.
 
 활발하게 개발 중이며, 버전 0.8.0은 2026년 8월에 출시되었습니다. 가능한 경우 lightwalletd와의 하위 호환성을 유지하는 것이 목표이므로, 월렛은 다시 작성하지 않고도 이를 사용할 수 있습니다.
 

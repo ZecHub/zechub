@@ -52,7 +52,7 @@ Zcash, ZEC के साथ, बेहतर गोपनीयता और स
 
 अब आप जानते हैं कि अपना ZEC कहाँ खर्च करना है!
 
-**वेबसाइट**: sheemprende.com को बंद कर दिया गया है और अब यह उपलब्ध नहीं है। उनसे [Free2z](https://free2z.cash/SheEmprende) | [X Platform](https://twitter.com/SheEmprende_) पर संपर्क करें
+**वेबसाइट**: sheemprende.com को बंद कर दिया गया है और अब यह उपलब्ध नहीं है। उनसे [Free2Z](https://free2z.cash/SheEmprende) | [X Platform](https://twitter.com/SheEmprende_) पर संपर्क करें
 
 **Zcash Unified Address:**
 
@@ -74,7 +74,7 @@ Rosa गर्व से मुस्कुराते हुए दिखा�
 
 **वेबसाइट**: somosdulceros.com को बंद कर दिया गया है और अब यह उपलब्ध नहीं है। नीचे दिए गए सोशल लिंक का उपयोग करें।
 
-**सोशल मीडिया:** [Instagram](https://www.instagram.com/somos_dulceros) | [X Platform](https://twitter.com/RosaMRangel) | [Free2z](https://free2z.cash/Criptodulceros/zpage/criptodulceros-01)
+**सोशल मीडिया:** [Instagram](https://www.instagram.com/somos_dulceros) | [X Platform](https://twitter.com/RosaMRangel) | [Free2Z](https://free2z.cash/Criptodulceros/zpage/criptodulceros-01)
 
 **Zcash Unified Address:**
 
@@ -106,7 +106,7 @@ Papeles a Color द्वारा हाथ से बनाई गई कु�
 
 **सोशल मीडिया**
 
-[Instagram](https://instagram.com/papelesacolor) | [Free2z](https://free2z.cash/PapelesaColor)
+[Instagram](https://instagram.com/papelesacolor) | [Free2Z](https://free2z.cash/PapelesaColor)
 
 [Linktree](https://linktr.ee/Papelesacolor)
 
@@ -193,7 +193,7 @@ ZFAV क्लब में अपने योगदान के कारण 
 
 **सोशल मीडिया:**
 
-[Telegram](https://t.me/Robmarn) | [X Platform](https://twitter.com/robmarn) | [Free2z](https://free2z.cash/robmarn)
+[Telegram](https://t.me/Robmarn) | [X Platform](https://twitter.com/robmarn) | [Free2Z](https://free2z.cash/robmarn)
 
 📍 बार्किसिमेटो - वेनेज़ुएला
 
@@ -261,7 +261,7 @@ Tecnopapapi संपर्क करने के लिए सही व्य
 
 **सोशल मीडिया**
 
-Free2z | [Telegram](https://t.me/Lexihel) | [YouTube](https://youtube.com/@tecnopapapi) | [X Platform](https://twitter.com/tecnopapapi) | [TikTok](https://www.tiktok.com/@lexihel) | [Instagram](https://www.instagram.com/tecnopapapi/) | [Facebook](https://www.facebook.com/tecnopapapi)
+Free2Z | [Telegram](https://t.me/Lexihel) | [YouTube](https://youtube.com/@tecnopapapi) | [X Platform](https://twitter.com/tecnopapapi) | [TikTok](https://www.tiktok.com/@lexihel) | [Instagram](https://www.instagram.com/tecnopapapi/) | [Facebook](https://www.facebook.com/tecnopapapi)
 
 Tecnopapapi cryptocurrecies (जिसमें 3ZEC शामिल है) और अन्य भुगतान विधियाँ स्वीकार करता है।
 
