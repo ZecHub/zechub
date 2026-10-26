@@ -85,7 +85,7 @@ Kwa mfano, fikiria tangazo la NFT kwenye Solana; hali yake ya umma (k.m., bei) i
 
 
 
-**[Dark.fi](https://dark.fi/)**: DarkFi ni L1 isiyojulikana inayotegemea ujuzi sifuri, hesabu ya vyama vingi, na usimbaji fiche wa homomorphic. Uthibitisho usiojulikana wa hisa huhakikisha vithibitishaji vimefichwa. DarkFi inatoa mazingira yasiyo na udhaifu wa kuunda na kuendesha programu zisizojulikana - **Ubadilishaji wa Mali**: Ndiyo - [Karatasi Nyeupe](https://darkfi.org/whitepaper) - ![Darkfi.png](/content-images/0-auQOzkLMfYdoXlRy-b10ed91da5.webp)
+**[Dark.fi](https://dark.fi/)**: DarkFi ni L1 isiyojulikana inayotegemea ujuzi sifuri, hesabu ya vyama vingi, na usimbaji fiche wa homomorphic. Uthibitisho usiojulikana wa hisa huhakikisha vithibitishaji vimefichwa. DarkFi inatoa mazingira yasiyo na udhaifu wa kuunda na kuendesha programu zisizojulikana - **Ubadilishaji wa Mali**: Ndiyo - [Karatasi Nyeupe](https://darkfi.org/whitepaper) - ![DarkFi.png](/content-images/0-auQOzkLMfYdoXlRy-b10ed91da5.webp)
 ***
 
 

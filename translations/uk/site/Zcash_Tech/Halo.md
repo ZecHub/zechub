@@ -96,7 +96,7 @@ Electric Coin Company уклала угоду з Protocol Labs, Filecoin Foundat
 
 - [Anoma](https://anoma.net/blog/hash-functions-in-plonkup) — протокол атомарних обмінів між кількома ланцюгами зі збереженням конфіденційності
 - [Orbis](https://docs.orbisprotocol.com/orbis/technology/halo-2) — L2 zkRollup на Cardano
-- [Darkfi](https://dark.fi/book/arch/arch.html) — приватний блокчейн L1 zkEVM
+- [DarkFi](https://dark.fi/book/arch/arch.html) — приватний блокчейн L1 zkEVM
 - [Scroll](https://scroll.mirror.xyz/nDAbJbSIJdQIWqp9kn8J0MVS4s6pYBwHmK7keidQs-k) — L2 zkRollup на Ethereum
 
 ---

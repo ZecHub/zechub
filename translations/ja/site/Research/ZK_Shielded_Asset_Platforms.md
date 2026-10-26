@@ -85,7 +85,7 @@ Firn を利用するには、プロトコルに ETH を入金します。Firn �
 
 
 
-**[Dark.fi](https://dark.fi/)**: DarkFi は、ゼロ知識、マルチパーティ計算、準同型暗号に基づく匿名 L1 です。匿名 Proof-of-Stake により、バリデーターは隠されます。DarkFi は匿名アプリを作成・実行するための反脆弱な環境を提供します - **資産スワップ**: はい - [ホワイトペーパー](https://darkfi.org/whitepaper) - ![Darkfi.png](/content-images/0-auQOzkLMfYdoXlRy-b10ed91da5.webp)
+**[Dark.fi](https://dark.fi/)**: DarkFi は、ゼロ知識、マルチパーティ計算、準同型暗号に基づく匿名 L1 です。匿名 Proof-of-Stake により、バリデーターは隠されます。DarkFi は匿名アプリを作成・実行するための反脆弱な環境を提供します - **資産スワップ**: はい - [ホワイトペーパー](https://darkfi.org/whitepaper) - ![DarkFi.png](/content-images/0-auQOzkLMfYdoXlRy-b10ed91da5.webp)
 ***
 
 

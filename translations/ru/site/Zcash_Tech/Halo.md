@@ -96,7 +96,7 @@ Electric Coin Company заключила соглашение с Protocol Labs, 
 
 - [Anoma](https://anoma.net/blog/hash-functions-in-plonkup) — протокол атомарных свопов между несколькими цепочками с сохранением конфиденциальности
 - [Orbis](https://docs.orbisprotocol.com/orbis/technology/halo-2) — L2 zkRollup в Cardano
-- [Darkfi](https://dark.fi/book/arch/arch.html) — приватный блокчейн L1 zkEVM
+- [DarkFi](https://dark.fi/book/arch/arch.html) — приватный блокчейн L1 zkEVM
 - [Scroll](https://scroll.mirror.xyz/nDAbJbSIJdQIWqp9kn8J0MVS4s6pYBwHmK7keidQs-k) — L2 zkRollup в Ethereum
 
 ---

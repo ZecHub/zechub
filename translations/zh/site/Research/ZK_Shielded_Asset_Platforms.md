@@ -85,7 +85,7 @@ published: 2024-01-12
 
 
 
-**[Dark.fi](https://dark.fi/)**：DarkFi 是一个基于零知识、多方计算和同态加密的匿名 L1。匿名权益证明确保验证者被隐藏。DarkFi 提供了一个反脆弱环境，用于创建和运行匿名应用 - **资产交换**：是 - [白皮书](https://darkfi.org/whitepaper) - ![Darkfi.png](/content-images/0-auQOzkLMfYdoXlRy-b10ed91da5.webp)
+**[Dark.fi](https://dark.fi/)**：DarkFi 是一个基于零知识、多方计算和同态加密的匿名 L1。匿名权益证明确保验证者被隐藏。DarkFi 提供了一个反脆弱环境，用于创建和运行匿名应用 - **资产交换**：是 - [白皮书](https://darkfi.org/whitepaper) - ![DarkFi.png](/content-images/0-auQOzkLMfYdoXlRy-b10ed91da5.webp)
 ***
 
 

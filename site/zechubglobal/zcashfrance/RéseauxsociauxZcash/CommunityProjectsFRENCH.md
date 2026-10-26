@@ -105,7 +105,7 @@ ___
 
 Le SDK Aztec Connect permet d'intégrer n'importe quel protocole Ethereum dans le rollup privé d'Aztec avec une simple interface Solidity et un SDK frontal. Aztec Connect permet aux utilisateurs d'accéder en toute confidentialité à des services DeFi de classe mondiale sur Ethereum avec jusqu'à 100 fois plus d'économies, tout en renforçant les garanties de confidentialité existantes d'Aztec.
 
-[Darkfi](https://dark.fi)
+[DarkFi](https://dark.fi)
 
 DarkFi est un environnement avec un langage pour écrire des contrats intelligents sans connaissance. Un réseau économique mondial décentralisé fonctionnant de manière totalement anonyme.
 
