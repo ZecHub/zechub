@@ -38,7 +38,7 @@ In Namada, l'insieme schermato è considerato un bene pubblico non esclusivo e n
 
 ## Transazione di asset schermati
 
-Per quanto riguarda i trasferimenti schermati, che coinvolgano un token non fungibile (NFT) Ethereum, ATOM o NAM, sono indistinguibili tra loro. Ciò significa che le funzionalità di tutela della privacy offerte dal MASP (protocollo Modified Accumulator Sapling), una versione migliorata del circuito Zcash Sapling, si applicano uniformemente a tutti i tipi di asset. Il circuito MASP consente a tutti gli asset nell'ecosistema di Namada di condividere lo stesso insieme schermato. Questo approccio garantisce che le garanzie di privacy non siano frammentate tra i singoli asset. Indipendentemente dal volume di transazioni associato a un particolare asset, la protezione della privacy rimane coerente e indipendente.
+Per quanto riguarda i trasferimenti schermati, che coinvolgano un token non fungibile (NFT) Ethereum, ATOM o NAM, sono indistinguibili tra loro. Ciò significa che le funzionalità di tutela della privacy offerte dal MASP (protocollo Modified Accumulator Sapling), una versione migliorata del circuito Sapling di Zcash, si applicano uniformemente a tutti i tipi di asset. Il circuito MASP consente a tutti gli asset nell'ecosistema di Namada di condividere lo stesso insieme schermato. Questo approccio garantisce che le garanzie di privacy non siano frammentate tra i singoli asset. Indipendentemente dal volume di transazioni associato a un particolare asset, la protezione della privacy rimane coerente e indipendente.
 
 ![Shielded Assets Transaction Diagram](/content-images/image-1-512c639d56.webp)
 

@@ -28,7 +28,7 @@ Considerando tutti gli elementi sopra, ci sono molti luoghi dove puoi spendere Z
 
 In particolare, in Venezuela ci sono molti luoghi (fisici e online) dove puoi acquistare prodotti o servizi e pagare con Zcash… Cominciamo!
 
-> Elencati senza un ordine particolare. Ti serve un portafoglio Zcash e una connessione di rete.
+> Elencati senza un ordine particolare. Ti serve un portafoglio di Zcash e una connessione di rete.
 
 [**Gastronomia - Panetteria & Cioccolateria**] 
 
@@ -183,7 +183,7 @@ Servizi di persona e online.
 
 Oltre a essere un designer digitale, Robmar è un fotografo che dedica anche del tempo a insegnare **workshop** di **fotografia e strumenti correlati**, e nel frattempo diffonde anche la voce su Zcash.
 
-Il suo lavoro è ben noto nell'ecosistema Zcash grazie al suo contributo al club ZFAV.
+Il suo lavoro è ben noto nell'ecosistema di Zcash grazie al suo contributo al club ZFAV.
 
 • Realizzazione / montaggio video
 

@@ -17,7 +17,7 @@ Crea contenuti video nelle seguenti categorie:
 * Third-party application demos
 ```
 
-Realizza design come poster/grafiche/animazioni per l'ecosistema Zcash & Privacy
+Realizza design come poster/grafiche/animazioni per l'ecosistema di Zcash & Privacy
 
 Traduci una qualsiasi delle pagine wiki esistenti.
 

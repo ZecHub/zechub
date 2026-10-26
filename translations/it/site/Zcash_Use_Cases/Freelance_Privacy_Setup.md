@@ -49,7 +49,7 @@ Zcash ti permette di:
 
 ## <img src="/content-images/icons8-toolbox-9bebbb1619.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> Cosa ti serve
 
-- Un portafoglio Zcash con supporto ai memo
+- Un portafoglio di Zcash con supporto ai memo
 - Una conoscenza di base degli indirizzi schermati
 
 

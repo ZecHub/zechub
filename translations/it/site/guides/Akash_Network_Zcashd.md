@@ -14,7 +14,7 @@ Guida per distribuire un full node (nodo completo) zcashd di Zcash (implementazi
   <iframe
     className="w-full h-full"
     src="https://www.youtube.com/embed/SVekeNU6_-g"
-    title="Configurazione di un nodo completo Zcash su Akash Network"
+    title="Configurazione di un nodo completo di Zcash su Akash Network"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowFullScreen
     loading="lazy"
@@ -61,7 +61,7 @@ Questo è voluto: i provider eseguono più distribuzioni e ci sarebbero conflitt
 
 -> Akash ti fornisce un URI come *provider.com:31234*
 
--> Gli altri nodi Zcash si connettono a te su *provider.com:31234*
+-> Gli altri nodi di Zcash si connettono a te su *provider.com:31234*
 
 -> All'interno del tuo container, zcashd continua ad ascoltare sulla 8233
 
@@ -203,7 +203,7 @@ Vedrai qualcosa del genere:
 zcashd-8233: provider-hostname.com:31234
 ```
 
-Questo è il tuo **endpoint P2P pubblico** del nodo. Gli altri nodi Zcash si connetteranno a te a questo indirizzo.
+Questo è il tuo **endpoint P2P pubblico** del nodo. Gli altri nodi di Zcash si connetteranno a te a questo indirizzo.
 
 **Nota la mappatura delle porte:** hai configurato la porta 8233 nell'SDL, ma Akash l'ha assegnata a una porta pubblica diversa (31234 in questo esempio). È normale: vedi la sezione "Mappatura delle Porte su Akash" in alto se questo ti crea confusione. Il tuo nodo è accessibile sulla porta mostrata qui da Akash, non necessariamente sulla 8233.
 

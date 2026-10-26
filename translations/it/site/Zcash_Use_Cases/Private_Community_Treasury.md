@@ -49,7 +49,7 @@ Zcash permette alle comunità di:
 
 ## <img src="/content-images/icons8-toolbox-9bebbb1619.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> Cosa ti serve
 
-- Un portafoglio Zcash (o più portafogli per la separazione dei ruoli)
+- Un portafoglio di Zcash (o più portafogli per la separazione dei ruoli)
 - Processi interni chiari per la gestione dei fondi
 - Opzionale: documentazione condivisa per il tracciamento
 

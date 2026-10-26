@@ -18353,7 +18353,7 @@
       "src_commit": "7f2ae6404e4de308386122dcfd0ef3c1d490735a",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra+handfix",
+      "tool": "codex/gpt-5.6-terra+handfix+itdizcash",
       "edited": false
     },
     "Glossary_and_FAQs/Gallery.md": {
@@ -18361,7 +18361,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4+itreview",
+      "tool": "gpt-5.4+itreview+handfix+itdizcash",
       "edited": false
     },
     "Glossary_and_FAQs/Gallery/Infographics.md": {
@@ -18377,7 +18377,7 @@
       "src_commit": "e68ba1cf2061bd94544968bc9d0b6ce1d080a4ea",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+handfix+itdizcash",
       "edited": false
     },
     "Glossary_and_FAQs/ZecHub_Hackathon_Builders_Guide.md": {
@@ -18409,7 +18409,7 @@
       "src_commit": "8d6d24544d0055052786350db1502580e0bd02dd",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+handfix+itdizcash",
       "edited": false
     },
     "Privacy_Tools/Namada_Protocol.md": {
@@ -18417,7 +18417,7 @@
       "src_commit": "33f1c0fde7f53a8c2cb9259f6c9af3d1acc1162d",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+handfix+itdizcash",
       "edited": false
     },
     "Privacy_Tools/Nym_Zcash_Anonymity.md": {
@@ -18425,7 +18425,7 @@
       "src_commit": "b17ac4673559794b4f8ee0c9d6fb26a076a5a95f",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra+handfix",
+      "tool": "codex/gpt-5.6-terra+handfix+itdizcash",
       "edited": false
     },
     "Privacy_Tools/PGP_Encryption.md": {
@@ -18465,7 +18465,7 @@
       "src_commit": "8d6d24544d0055052786350db1502580e0bd02dd",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+handfix+itdizcash",
       "edited": false
     },
     "Privacy_Tools/VPN_and_DVPN.md": {
@@ -18473,7 +18473,7 @@
       "src_commit": "8a2839e166263d5316bd6216c0c9fa4a1c7e3a16",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+handfix+itdizcash",
       "edited": false
     },
     "Privacy_Tools/Web_Browsers.md": {
@@ -18481,7 +18481,7 @@
       "src_commit": "8a2839e166263d5316bd6216c0c9fa4a1c7e3a16",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+handfix+itdizcash",
       "edited": false
     },
     "Research/Dash_Zcash_Orchard_Integration.md": {
@@ -18489,7 +18489,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4+itglossary+itreview",
+      "tool": "gpt-5.4+itglossary+itreview+handfix+itdizcash",
       "edited": false
     },
     "Research/FROST_and_Viewing_Keys_Zcash_Dash_Interop.md": {
@@ -18497,7 +18497,7 @@
       "src_commit": "70bbafb301df561d82123a60f31f964d766e79e9",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra+itglossary+itreview",
+      "tool": "codex/gpt-5.6-terra+itglossary+itreview+handfix+itdizcash",
       "edited": false
     },
     "Research/Grayscale_Zcash_ETF_ZCSH.md": {
@@ -18505,7 +18505,7 @@
       "src_commit": "df844dbf94545324db108e41c36f0887aa2e3b08",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra+handfix",
+      "tool": "codex/gpt-5.6-terra+handfix+itdizcash",
       "edited": false
     },
     "Research/Namada_Privacy_and_Best_Practices.md": {
@@ -18537,7 +18537,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4+itreview+itglossary+handfix",
+      "tool": "gpt-5.4+itreview+itglossary+handfix+itdizcash",
       "edited": false
     },
     "Research/What_25_Second_Blocks_Actually_Change.md": {
@@ -18577,7 +18577,7 @@
       "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra+verbatim-columns+itglossary+itreview",
+      "tool": "codex/gpt-5.6-terra+verbatim-columns+itglossary+itreview+handfix+itdizcash",
       "edited": false
     },
     "Research/zcash-formal-verification-series/article-1/article-1-the-orchard-bug.md": {
@@ -18641,7 +18641,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4+verbatim-columns",
+      "tool": "gpt-5.4+verbatim-columns+handfix+itdizcash",
       "edited": false
     },
     "Research/zcash-foundations-series/article-6/article-6-shielded-protocol.md": {
@@ -18649,7 +18649,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4+verbatim-columns+itglossary+handfix",
+      "tool": "gpt-5.4+verbatim-columns+itglossary+handfix+itdizcash",
       "edited": false
     },
     "Start_Here/Developer_Resources.md": {
@@ -18657,7 +18657,7 @@
       "src_commit": "2a0efe929f35ee6935ca4cc78b9d14a996d854c6",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra+itglossary+handfix",
+      "tool": "codex/gpt-5.6-terra+itglossary+handfix+itdizcash",
       "edited": false
     },
     "Start_Here/Development_Fund.md": {
@@ -18673,7 +18673,7 @@
       "src_commit": "db0af74c5294ef0fb3ebf3b47d308a4426eace68",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.4+itglossary+itreview",
+      "tool": "codex/gpt-5.4+itglossary+itreview+handfix+itdizcash",
       "edited": false
     },
     "Start_Here/Network_Upgrades.md": {
@@ -18689,7 +18689,7 @@
       "src_commit": "2dd8fb0fd1edbf4aa597fa8e2b283e6ee09127f6",
       "engine": "llm",
       "mode": "diff",
-      "tool": "gpt-5.4+itglossary",
+      "tool": "gpt-5.4+itglossary+handfix+itdizcash",
       "edited": false
     },
     "Start_Here/Using_This_Wiki.md": {
@@ -18697,7 +18697,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4+itreview",
+      "tool": "gpt-5.4+itreview+handfix+itdizcash",
       "edited": false
     },
     "Start_Here/What_is_ZEC_and_Zcash.md": {
@@ -18713,7 +18713,7 @@
       "src_commit": "7f2ae6404e4de308386122dcfd0ef3c1d490735a",
       "engine": "llm",
       "mode": "diff",
-      "tool": "gpt-5.4+handfix",
+      "tool": "gpt-5.4+handfix+itdizcash",
       "edited": false
     },
     "Start_Here/Who_Can_See_Your_Zcash_Payment.md": {
@@ -18721,7 +18721,7 @@
       "src_commit": "1ef9aa451a8a23f05d0aedceb75c91b4d2fdc527",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra+termrepair+itglossary+itreview",
+      "tool": "codex/gpt-5.6-terra+termrepair+itglossary+itreview+handfix+itdizcash",
       "edited": false
     },
     "Start_Here/ZEC_Use_Cases.md": {
@@ -18745,7 +18745,7 @@
       "src_commit": "2a0efe929f35ee6935ca4cc78b9d14a996d854c6",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra+itglossary+handfix",
+      "tool": "codex/gpt-5.6-terra+itglossary+handfix+itdizcash",
       "edited": false
     },
     "Using_Zcash/Buying_ZEC.md": {
@@ -18769,7 +18769,7 @@
       "src_commit": "b17ac4673559794b4f8ee0c9d6fb26a076a5a95f",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+handfix+itdizcash",
       "edited": false
     },
     "Using_Zcash/Custodial_Exchanges.md": {
@@ -18793,7 +18793,7 @@
       "src_commit": "606dbb8c7c444df801342cbe0a6898d21b143fd9",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra+itglossary+itreview+handfix",
+      "tool": "codex/gpt-5.6-terra+itglossary+itreview+handfix+itdizcash",
       "edited": false
     },
     "Using_Zcash/Faucets.md": {
@@ -18809,7 +18809,7 @@
       "src_commit": "b17ac4673559794b4f8ee0c9d6fb26a076a5a95f",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra+handfix",
+      "tool": "codex/gpt-5.6-terra+handfix+itdizcash",
       "edited": false
     },
     "Using_Zcash/Metamask_Snap.md": {
@@ -18817,7 +18817,7 @@
       "src_commit": "7f2ae6404e4de308386122dcfd0ef3c1d490735a",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra+itglossary+itreview+handfix",
+      "tool": "codex/gpt-5.6-terra+itglossary+itreview+handfix+itdizcash",
       "edited": false
     },
     "Using_Zcash/Mobile_Top_Ups.md": {
@@ -18833,7 +18833,7 @@
       "src_commit": "606dbb8c7c444df801342cbe0a6898d21b143fd9",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra+itglossary+itreview+handfix",
+      "tool": "codex/gpt-5.6-terra+itglossary+itreview+handfix+itdizcash",
       "edited": false
     },
     "Using_Zcash/Payment_Processors.md": {
@@ -18841,7 +18841,7 @@
       "src_commit": "1ef9aa451a8a23f05d0aedceb75c91b4d2fdc527",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra+itglossary+itreview",
+      "tool": "codex/gpt-5.6-terra+itglossary+itreview+handfix+itdizcash",
       "edited": false
     },
     "Using_Zcash/Payment_Request_URIs.md": {
@@ -18849,7 +18849,7 @@
       "src_commit": "8a2839e166263d5316bd6216c0c9fa4a1c7e3a16",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+handfix+itdizcash",
       "edited": false
     },
     "Using_Zcash/Recovering_Funds.md": {
@@ -18857,7 +18857,7 @@
       "src_commit": "7f2ae6404e4de308386122dcfd0ef3c1d490735a",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra+itglossary+itreview+handfix",
+      "tool": "codex/gpt-5.6-terra+itglossary+itreview+handfix+itdizcash",
       "edited": false
     },
     "Using_Zcash/Shielded_Newsletter.md": {
@@ -18865,7 +18865,7 @@
       "src_commit": "6bf61545802a69166d802910b29e73604c2d0ef5",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra+handfix+itglossary",
+      "tool": "codex/gpt-5.6-terra+handfix+itglossary+itdizcash",
       "edited": false
     },
     "Using_Zcash/Shielded_Pools.md": {
@@ -18873,7 +18873,7 @@
       "src_commit": "e68ba1cf2061bd94544968bc9d0b6ce1d080a4ea",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+handfix+itdizcash",
       "edited": false
     },
     "Using_Zcash/Solana_ZEC_to_Shielded.md": {
@@ -18881,7 +18881,7 @@
       "src_commit": "8d6d24544d0055052786350db1502580e0bd02dd",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+handfix+itdizcash",
       "edited": false
     },
     "Using_Zcash/Solswap.md": {
@@ -18889,7 +18889,7 @@
       "src_commit": "bfde3c118bb3e7e29564d239fe73b41f7bece08a",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra+itglossary+itreview",
+      "tool": "codex/gpt-5.6-terra+itglossary+itreview+handfix+itdizcash",
       "edited": false
     },
     "Using_Zcash/Spend_Zcash/Top_10_Places_to_spend_ZEC.md": {
@@ -18897,7 +18897,7 @@
       "src_commit": "908304c900d3767bb6b240fde919c0667ba75ef8",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra+itglossary+itreview+handfix",
+      "tool": "codex/gpt-5.6-terra+itglossary+itreview+handfix+itdizcash",
       "edited": false
     },
     "Using_Zcash/Testnet.md": {
@@ -18905,7 +18905,7 @@
       "src_commit": "fbcda60b242cdc9fe526f315ddb855adc47011b8",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra+itglossary+itreview",
+      "tool": "codex/gpt-5.6-terra+itglossary+itreview+handfix+itdizcash",
       "edited": false
     },
     "Using_Zcash/Transactions.md": {
@@ -18913,7 +18913,7 @@
       "src_commit": "8ffb9410c5dd3a7a41fc5b12ddad379f515b2a4f",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra+itglossary",
+      "tool": "codex/gpt-5.6-terra+itglossary+handfix+itdizcash",
       "edited": false
     },
     "Using_Zcash/Transparent_Exchange_Addresses.md": {
@@ -18921,7 +18921,7 @@
       "src_commit": "599423788092c75c5b21cf8a2be19b900743de0a",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra+handfix",
+      "tool": "codex/gpt-5.6-terra+handfix+itdizcash",
       "edited": false
     },
     "Using_Zcash/Unified_Addresses.md": {
@@ -18945,7 +18945,7 @@
       "src_commit": "8a2839e166263d5316bd6216c0c9fa4a1c7e3a16",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+handfix+itdizcash",
       "edited": false
     },
     "Using_Zcash/Zcash_Mining_Pools.md": {
@@ -18961,7 +18961,7 @@
       "src_commit": "6bf61545802a69166d802910b29e73604c2d0ef5",
       "engine": "llm",
       "mode": "full",
-      "tool": "gpt-5.4+strip-stray-frontmatter+verbatim-columns+itglossary+itreview+handfix",
+      "tool": "gpt-5.4+strip-stray-frontmatter+verbatim-columns+itglossary+itreview+handfix+itdizcash",
       "edited": false
     },
     "Using_Zcash/Zimppy.md": {
@@ -18969,7 +18969,7 @@
       "src_commit": "1e1f347c9da81e5eaa75536b7cbf86de53a6fd46",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra+itglossary+itreview",
+      "tool": "codex/gpt-5.6-terra+itglossary+itreview+handfix+itdizcash",
       "edited": false
     },
     "ZFAV_Club/Guides_for_Creators.md": {
@@ -19081,7 +19081,7 @@
       "src_commit": "7f2ae6404e4de308386122dcfd0ef3c1d490735a",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra+handfix",
+      "tool": "codex/gpt-5.6-terra+handfix+itdizcash",
       "edited": false
     },
     "Zcash_Community/Cypherpunk_Zero_NFT.md": {
@@ -19089,7 +19089,7 @@
       "src_commit": "8a2839e166263d5316bd6216c0c9fa4a1c7e3a16",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+handfix+itdizcash",
       "edited": false
     },
     "Zcash_Community/ZCAP.md": {
@@ -19097,7 +19097,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4+itglossary+itreview",
+      "tool": "gpt-5.4+itglossary+itreview+handfix+itdizcash",
       "edited": false
     },
     "Zcash_Community/ZFAV_Club/Guides/Github_With_IPFS.md": {
@@ -19121,7 +19121,7 @@
       "src_commit": "2ccb48ae5d1bb19f4e56bf965347a4f3e9a19a2f",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra+itglossary+itreview",
+      "tool": "codex/gpt-5.6-terra+itglossary+itreview+handfix+itdizcash",
       "edited": false
     },
     "Zcash_Community/Zcash_Engineering_Office_Hours.md": {
@@ -19137,7 +19137,7 @@
       "src_commit": "7f2ae6404e4de308386122dcfd0ef3c1d490735a",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra+itglossary+itreview+handfix",
+      "tool": "codex/gpt-5.6-terra+itglossary+itreview+handfix+itdizcash",
       "edited": false
     },
     "Zcash_Community/Zcash_Governance.md": {
@@ -19145,7 +19145,7 @@
       "src_commit": "f13f2f4008d3e9a5dfa913316f83066698456d6e",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra+itglossary+itreview",
+      "tool": "codex/gpt-5.6-terra+itglossary+itreview+handfix+itdizcash",
       "edited": false
     },
     "Zcash_Community/Zcash_Media.md": {
@@ -19153,7 +19153,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+handfix+itdizcash",
       "edited": false
     },
     "Zcash_Community/Zcash_Podcasts.md": {
@@ -19161,7 +19161,7 @@
       "src_commit": "704dfd4e3f730a5f70bb94815536fc7bacefe353",
       "engine": "llm",
       "mode": "full",
-      "tool": "gpt-5.4+frontmatter-strip+itglossary",
+      "tool": "gpt-5.4+frontmatter-strip+itglossary+handfix+itdizcash",
       "edited": false
     },
     "Zcash_Community/Zcon_Archive.md": {
@@ -19177,7 +19177,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+handfix+itdizcash",
       "edited": false
     },
     "Zcash_Organizations/CoinHolder_Directed_Retroactive_Grants.md": {
@@ -19185,7 +19185,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4+itglossary+itreview+handfix",
+      "tool": "gpt-5.4+itglossary+itreview+handfix+itdizcash",
       "edited": false
     },
     "Zcash_Organizations/Electric_Coin_Company.md": {
@@ -19193,7 +19193,7 @@
       "src_commit": "704dfd4e3f730a5f70bb94815536fc7bacefe353",
       "engine": "llm",
       "mode": "full",
-      "tool": "gpt-5.4+frontmatter-strip+itglossary+handfix",
+      "tool": "gpt-5.4+frontmatter-strip+itglossary+handfix+itdizcash",
       "edited": false
     },
     "Zcash_Organizations/Financial_Privacy_Foundation.md": {
@@ -19201,7 +19201,7 @@
       "src_commit": "8a2839e166263d5316bd6216c0c9fa4a1c7e3a16",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+handfix+itdizcash",
       "edited": false
     },
     "Zcash_Organizations/Obscura_Labs.md": {
@@ -19209,7 +19209,7 @@
       "src_commit": "b117773198de9576bf719481de0091455a37c791",
       "engine": "llm",
       "mode": "full",
-      "tool": "gpt-5.4+termrepair+itglossary+itreview",
+      "tool": "gpt-5.4+termrepair+itglossary+itreview+handfix+itdizcash",
       "edited": false
     },
     "Zcash_Organizations/Shielded_Labs.md": {
@@ -19217,7 +19217,7 @@
       "src_commit": "7bc8456db3aebdb094c86b56b987f878bb4088b7",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+handfix+itdizcash",
       "edited": false
     },
     "Zcash_Organizations/Sovright.md": {
@@ -19225,7 +19225,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4+itreview",
+      "tool": "gpt-5.4+itreview+handfix+itdizcash",
       "edited": false
     },
     "Zcash_Organizations/Valar_Group.md": {
@@ -19233,7 +19233,7 @@
       "src_commit": "908304c900d3767bb6b240fde919c0667ba75ef8",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra+termrepair+itreview+itglossary",
+      "tool": "codex/gpt-5.6-terra+termrepair+itreview+itglossary+handfix+itdizcash",
       "edited": false
     },
     "Zcash_Organizations/ZKAV.md": {
@@ -19249,7 +19249,7 @@
       "src_commit": "c738340f55d25822452be48ff87e6b14489ff497",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra+itglossary+itreview",
+      "tool": "codex/gpt-5.6-terra+itglossary+itreview+handfix+itdizcash",
       "edited": false
     },
     "Zcash_Organizations/Zcash_Community_Grants.md": {
@@ -19257,7 +19257,7 @@
       "src_commit": "8a2839e166263d5316bd6216c0c9fa4a1c7e3a16",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+handfix+itdizcash",
       "edited": false
     },
     "Zcash_Organizations/Zcash_Foundation.md": {
@@ -19265,7 +19265,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4+itglossary+itreview",
+      "tool": "gpt-5.4+itglossary+itreview+handfix+itdizcash",
       "edited": false
     },
     "Zcash_Organizations/Zcash_Labs.md": {
@@ -19273,7 +19273,7 @@
       "src_commit": "908304c900d3767bb6b240fde919c0667ba75ef8",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra+termrepair+itglossary+itreview",
+      "tool": "codex/gpt-5.6-terra+termrepair+itglossary+itreview+handfix+itdizcash",
       "edited": false
     },
     "Zcash_Organizations/Zingo_Labs.md": {
@@ -19281,7 +19281,7 @@
       "src_commit": "3369ffddd3d3f82e3c46168de1d56de7aee3feb7",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+handfix+itdizcash",
       "edited": false
     },
     "Zcash_Tech/Blossom.md": {
@@ -19305,7 +19305,7 @@
       "src_commit": "33f1c0fde7f53a8c2cb9259f6c9af3d1acc1162d",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+handfix+itdizcash",
       "edited": false
     },
     "Zcash_Tech/FROST.md": {
@@ -19313,7 +19313,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4+itreview+itglossary",
+      "tool": "gpt-5.4+itreview+itglossary+handfix+itdizcash",
       "edited": false
     },
     "Zcash_Tech/FROST_Threshold_Custody.md": {
@@ -19321,7 +19321,7 @@
       "src_commit": "1ef9aa451a8a23f05d0aedceb75c91b4d2fdc527",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra+itglossary+itreview",
+      "tool": "codex/gpt-5.6-terra+itglossary+itreview+handfix+itdizcash",
       "edited": false
     },
     "Zcash_Tech/Full_Nodes.md": {
@@ -19329,7 +19329,7 @@
       "src_commit": "7f2ae6404e4de308386122dcfd0ef3c1d490735a",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra+handfix",
+      "tool": "codex/gpt-5.6-terra+handfix+itdizcash",
       "edited": false
     },
     "Zcash_Tech/Halo.md": {
@@ -19353,7 +19353,7 @@
       "src_commit": "df844dbf94545324db108e41c36f0887aa2e3b08",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra+handfix",
+      "tool": "codex/gpt-5.6-terra+handfix+itdizcash",
       "edited": false
     },
     "Zcash_Tech/Ironwood.md": {
@@ -19361,7 +19361,7 @@
       "src_commit": "e68ba1cf2061bd94544968bc9d0b6ce1d080a4ea",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+handfix+itdizcash",
       "edited": false
     },
     "Zcash_Tech/Is_Zcash_Post_Quantum.md": {
@@ -19377,7 +19377,7 @@
       "src_commit": "a7088bd66279fea1abde028ad0771c7f833074e7",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra+itglossary+itreview+handfix",
+      "tool": "codex/gpt-5.6-terra+itglossary+itreview+handfix+itdizcash",
       "edited": false
     },
     "Zcash_Tech/NU5.md": {
@@ -19393,7 +19393,7 @@
       "src_commit": "54589f386caf9c657b85a0541e5503dfd25be1fb",
       "engine": "llm",
       "mode": "full",
-      "tool": "gpt-5.4+strip-stray-frontmatter+verbatim-columns+itglossary",
+      "tool": "gpt-5.4+strip-stray-frontmatter+verbatim-columns+itglossary+handfix+itdizcash",
       "edited": false
     },
     "Zcash_Tech/NU6_1.md": {
@@ -19417,7 +19417,7 @@
       "src_commit": "54589f386caf9c657b85a0541e5503dfd25be1fb",
       "engine": "llm",
       "mode": "full",
-      "tool": "gpt-5.4+strip-stray-frontmatter+verbatim-columns+itglossary",
+      "tool": "gpt-5.4+strip-stray-frontmatter+verbatim-columns+itglossary+handfix+itdizcash",
       "edited": false
     },
     "Zcash_Tech/Payment_Disclosures.md": {
@@ -19425,7 +19425,7 @@
       "src_commit": "2ccb48ae5d1bb19f4e56bf965347a4f3e9a19a2f",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra+verbatim-columns+itglossary+itreview",
+      "tool": "codex/gpt-5.6-terra+verbatim-columns+itglossary+itreview+handfix+itdizcash",
       "edited": false
     },
     "Zcash_Tech/Pepper_Sync.md": {
@@ -19433,7 +19433,7 @@
       "src_commit": "7a2bd73fd47df7de2c47ccd6d105c3da6a9762b7",
       "engine": "llm",
       "mode": "full",
-      "tool": "gpt-5.4+frontmatter-strip+itglossary+itreview",
+      "tool": "gpt-5.4+frontmatter-strip+itglossary+itreview+handfix+itdizcash",
       "edited": false
     },
     "Zcash_Tech/Post_Quantum_Security.md": {
@@ -19449,7 +19449,7 @@
       "src_commit": "db0af74c5294ef0fb3ebf3b47d308a4426eace68",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.4+itglossary",
+      "tool": "codex/gpt-5.4+itglossary+handfix+itdizcash",
       "edited": false
     },
     "Zcash_Tech/Project_Tachyon.md": {
@@ -19457,7 +19457,7 @@
       "src_commit": "6085ff91d2e96cc6a40f0b8cb1015bf782213c08",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+handfix+itdizcash",
       "edited": false
     },
     "Zcash_Tech/Sapling.md": {
@@ -19473,7 +19473,7 @@
       "src_commit": "89387b2b4c4113f9256032c49cde63fdbdb2c285",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra+itglossary+itreview",
+      "tool": "codex/gpt-5.6-terra+itglossary+itreview+handfix+itdizcash",
       "edited": false
     },
     "Zcash_Tech/Shielded_Cold_Signing.md": {
@@ -19481,7 +19481,7 @@
       "src_commit": "64dc9a818b352161f272a018ef9d8d79ca978a66",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+handfix+itdizcash",
       "edited": false
     },
     "Zcash_Tech/Sprout.md": {
@@ -19489,7 +19489,7 @@
       "src_commit": "5e8284548d8e4028e4418312553fa654f12d1523",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+handfix+itdizcash",
       "edited": false
     },
     "Zcash_Tech/The_Turnstile.md": {
@@ -19505,7 +19505,7 @@
       "src_commit": "bad307b6c3f84f2544be0be318d43e984c9c69b0",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra+itglossary+itreview",
+      "tool": "codex/gpt-5.6-terra+itglossary+itreview+handfix+itdizcash",
       "edited": false
     },
     "Zcash_Tech/Viewing_Keys.md": {
@@ -19513,7 +19513,7 @@
       "src_commit": "8d6d24544d0055052786350db1502580e0bd02dd",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+handfix+itdizcash",
       "edited": false
     },
     "Zcash_Tech/What_a_Block_Explorer_Can_See.md": {
@@ -19537,7 +19537,7 @@
       "src_commit": "b2e32d37200ec07f1cb7e9e843d045b0f76d67cf",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4+deadlink-5pages+itglossary",
+      "tool": "gpt-5.4+deadlink-5pages+itglossary+handfix+itdizcash",
       "edited": false
     },
     "Zcash_Tech/ZECD.md": {
@@ -19553,7 +19553,7 @@
       "src_commit": "80d7cc56bef87f1402c37cdc19d06447667cc48c",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra+itglossary",
+      "tool": "codex/gpt-5.6-terra+itglossary+handfix+itdizcash",
       "edited": false
     },
     "Zcash_Tech/Zakura_Node.md": {
@@ -19561,7 +19561,7 @@
       "src_commit": "6bf61545802a69166d802910b29e73604c2d0ef5",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra+itglossary+handfix",
+      "tool": "codex/gpt-5.6-terra+itglossary+handfix+itdizcash",
       "edited": false
     },
     "Zcash_Tech/Zallet.md": {
@@ -19569,7 +19569,7 @@
       "src_commit": "a4652e8d6bf769f66f5eba1819a2a0f0ab6eb956",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra+itglossary+handfix",
+      "tool": "codex/gpt-5.6-terra+itglossary+handfix+itdizcash",
       "edited": false
     },
     "Zcash_Tech/Zcash_Shielded_Assets.md": {
@@ -19577,7 +19577,7 @@
       "src_commit": "6085ff91d2e96cc6a40f0b8cb1015bf782213c08",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+handfix+itdizcash",
       "edited": false
     },
     "Zcash_Tech/Zcash_Wallet_Syncing.md": {
@@ -19585,7 +19585,7 @@
       "src_commit": "1ef9aa451a8a23f05d0aedceb75c91b4d2fdc527",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra+itglossary+itreview",
+      "tool": "codex/gpt-5.6-terra+itglossary+itreview+handfix+itdizcash",
       "edited": false
     },
     "Zcash_Tech/Zebra_Full_Node.md": {
@@ -19593,7 +19593,7 @@
       "src_commit": "606dbb8c7c444df801342cbe0a6898d21b143fd9",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra+itglossary",
+      "tool": "codex/gpt-5.6-terra+itglossary+handfix+itdizcash",
       "edited": false
     },
     "Zcash_Tech/zk_SNARKS.md": {
@@ -19601,7 +19601,7 @@
       "src_commit": "1f791114665142319c047d7049e77731669e5cd7",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra+itglossary+handfix",
+      "tool": "codex/gpt-5.6-terra+itglossary+handfix+itdizcash",
       "edited": false
     },
     "Zcash_Use_Cases/About.md": {
@@ -19617,7 +19617,7 @@
       "src_commit": "97d0ef9deba83e904da79c847128052779103f16",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+handfix+itdizcash",
       "edited": false
     },
     "Zcash_Use_Cases/Freelance_Privacy_Setup.md": {
@@ -19625,7 +19625,7 @@
       "src_commit": "4d2e47c10f42986def166ded6cb70a48568330f6",
       "engine": "llm",
       "mode": "diff",
-      "tool": "gpt-5.4+itglossary",
+      "tool": "gpt-5.4+itglossary+handfix+itdizcash",
       "edited": false
     },
     "Zcash_Use_Cases/Journalist_Privacy_Setup.md": {
@@ -19633,7 +19633,7 @@
       "src_commit": "97d0ef9deba83e904da79c847128052779103f16",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+handfix+itdizcash",
       "edited": false
     },
     "Zcash_Use_Cases/Keeping_Records_With_Shielded_ZEC.md": {
@@ -19649,7 +19649,7 @@
       "src_commit": "db0af74c5294ef0fb3ebf3b47d308a4426eace68",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.4+itglossary+itreview",
+      "tool": "codex/gpt-5.4+itglossary+itreview+handfix+itdizcash",
       "edited": false
     },
     "Zcash_Use_Cases/Private_Community_Treasury.md": {
@@ -19657,7 +19657,7 @@
       "src_commit": "97d0ef9deba83e904da79c847128052779103f16",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+handfix+itdizcash",
       "edited": false
     },
     "Zcash_Use_Cases/Receive_Donations_Privately.md": {
@@ -19665,7 +19665,7 @@
       "src_commit": "97d0ef9deba83e904da79c847128052779103f16",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+handfix+itdizcash",
       "edited": false
     },
     "Zcash_Use_Cases/Send_Money_Without_Linking_Identity.md": {
@@ -19705,7 +19705,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4+itreview",
+      "tool": "gpt-5.4+itreview+handfix+itdizcash",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Mnemonic_Seed_Phrases.md": {
@@ -19721,7 +19721,7 @@
       "src_commit": "55f3487fc63ba85d58ea798ee763013ac8b0068f",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+handfix+itdizcash",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Podcasts/Shielded_Transaction_Podcast.md": {
@@ -19745,7 +19745,7 @@
       "src_commit": "dccc0f2d174c56a432e4d0938856a9c7aaedca9d",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4+handfix",
+      "tool": "gpt-5.4+handfix+itdizcash",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Podcasts/The_z2z_Podcast.md": {
@@ -19753,7 +19753,7 @@
       "src_commit": "dccc0f2d174c56a432e4d0938856a9c7aaedca9d",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra+handfix",
+      "tool": "codex/gpt-5.6-terra+handfix+itdizcash",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Podcasts/Zcast_Podcast.md": {
@@ -19809,7 +19809,7 @@
       "src_commit": "1016455f585ca46eda1781a8114b34dcd0028942",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra+itglossary+handfix",
+      "tool": "codex/gpt-5.6-terra+itglossary+handfix+itdizcash",
       "edited": false
     },
     "contribute/Help_build_ZecHub.md": {
@@ -19817,7 +19817,7 @@
       "src_commit": "24143b85c49e3a533470d21cd1df106b6dae0e02",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra+itglossary+handfix",
+      "tool": "codex/gpt-5.6-terra+itglossary+handfix+itdizcash",
       "edited": false
     },
     "contribute/Style_Guide.md": {
@@ -19825,7 +19825,7 @@
       "src_commit": "1ef9aa451a8a23f05d0aedceb75c91b4d2fdc527",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra+itreview",
+      "tool": "codex/gpt-5.6-terra+itreview+handfix+itdizcash",
       "edited": false
     },
     "contribute/ZecHub_DAO.md": {
@@ -19841,7 +19841,7 @@
       "src_commit": "1016455f585ca46eda1781a8114b34dcd0028942",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+handfix+itdizcash",
       "edited": false
     },
     "footer.md": {
@@ -19857,7 +19857,7 @@
       "src_commit": "9dcac0e4acbfdd3c1c63aaf40c8cd062d2f30d86",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.4+dedupe-linkrepair+itglossary+itreview+handfix",
+      "tool": "codex/gpt-5.4+dedupe-linkrepair+itglossary+itreview+handfix+itdizcash",
       "edited": false
     },
     "guides/Akash_Network_Zebra.md": {
@@ -19865,7 +19865,7 @@
       "src_commit": "9dcac0e4acbfdd3c1c63aaf40c8cd062d2f30d86",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4+dedupe-linkrepair+itglossary+itreview",
+      "tool": "gpt-5.4+dedupe-linkrepair+itglossary+itreview+handfix+itdizcash",
       "edited": false
     },
     "guides/Avalanche_RedBridge.md": {
@@ -19873,7 +19873,7 @@
       "src_commit": "57046345b0ca2fc74136f961a97ca0168970052b",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra+itglossary+handfix",
+      "tool": "codex/gpt-5.6-terra+itglossary+handfix+itdizcash",
       "edited": false
     },
     "guides/BTCPayServer_Zcash_Plugin.md": {
@@ -19881,7 +19881,7 @@
       "src_commit": "1016455f585ca46eda1781a8114b34dcd0028942",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra+itglossary+handfix",
+      "tool": "codex/gpt-5.6-terra+itglossary+handfix+itdizcash",
       "edited": false
     },
     "guides/Blockchain_Explorers.md": {
@@ -19889,7 +19889,7 @@
       "src_commit": "5a04330a8b0118db2e87e64660c381d432aec9f0",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra+handfix",
+      "tool": "codex/gpt-5.6-terra+handfix+itdizcash",
       "edited": false
     },
     "guides/Brave_Wallet_Guide.md": {
@@ -19921,7 +19921,7 @@
       "src_commit": "7f2ae6404e4de308386122dcfd0ef3c1d490735a",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra+itglossary+itreview+handfix",
+      "tool": "codex/gpt-5.6-terra+itglossary+itreview+handfix+itdizcash",
       "edited": false
     },
     "guides/Hardened_Zebrad.md": {
@@ -19937,7 +19937,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4+itglossary",
+      "tool": "gpt-5.4+itglossary+handfix+itdizcash",
       "edited": false
     },
     "guides/Ledger_Shielded_ZEC.md": {
@@ -19945,7 +19945,7 @@
       "src_commit": "b17ac4673559794b4f8ee0c9d6fb26a076a5a95f",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra+handfix",
+      "tool": "codex/gpt-5.6-terra+handfix+itdizcash",
       "edited": false
     },
     "guides/Maya_Protocol.md": {
@@ -19961,7 +19961,7 @@
       "src_commit": "756e751c8836f8fe459f9d4831cb04cfb956c43a",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra+itglossary+itreview+handfix",
+      "tool": "codex/gpt-5.6-terra+itglossary+itreview+handfix+itdizcash",
       "edited": false
     },
     "guides/Mining_and_Staking_Privacy.md": {
@@ -19977,7 +19977,7 @@
       "src_commit": "1e1f347c9da81e5eaa75536b7cbf86de53a6fd46",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra+itglossary+itreview",
+      "tool": "codex/gpt-5.6-terra+itglossary+itreview+handfix+itdizcash",
       "edited": false
     },
     "guides/Nym_Mixnet_Wallet_Setup.md": {
@@ -19985,7 +19985,7 @@
       "src_commit": "b17ac4673559794b4f8ee0c9d6fb26a076a5a95f",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+handfix+itdizcash",
       "edited": false
     },
     "guides/Nym_VPN.md": {
@@ -20017,7 +20017,7 @@
       "src_commit": "1ef9aa451a8a23f05d0aedceb75c91b4d2fdc527",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+handfix+itdizcash",
       "edited": false
     },
     "guides/ShapeShift_Zcash.md": {
@@ -20025,7 +20025,7 @@
       "src_commit": "7f2ae6404e4de308386122dcfd0ef3c1d490735a",
       "engine": "llm",
       "mode": "diff",
-      "tool": "gpt-5.4+itglossary+itreview+handfix",
+      "tool": "gpt-5.4+itglossary+itreview+handfix+itdizcash",
       "edited": false
     },
     "guides/Using_ZEC_Privately.md": {
@@ -20041,7 +20041,7 @@
       "src_commit": "29f23e4038b2325e28039c352c5ce5d674b40be5",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra+handfix",
+      "tool": "codex/gpt-5.6-terra+handfix+itdizcash",
       "edited": false
     },
     "guides/Verifying_Zcash_Releases.md": {
@@ -20049,7 +20049,7 @@
       "src_commit": "7c0360fbbb5048f981e37eefd96f543b26bc6b2c",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra+verbatim-columns+tamper-checksum-baseline+itglossary+itreview",
+      "tool": "codex/gpt-5.6-terra+verbatim-columns+tamper-checksum-baseline+itglossary+itreview+handfix+itdizcash",
       "edited": false
     },
     "guides/Viewing_Key_Transaction_Export.md": {
@@ -20065,7 +20065,7 @@
       "src_commit": "57046345b0ca2fc74136f961a97ca0168970052b",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra+itreview",
+      "tool": "codex/gpt-5.6-terra+itreview+handfix+itdizcash",
       "edited": false
     },
     "guides/Visualizing_the_Zcash_Network.md": {
@@ -20073,7 +20073,7 @@
       "src_commit": "7f2ae6404e4de308386122dcfd0ef3c1d490735a",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra+handfix",
+      "tool": "codex/gpt-5.6-terra+handfix+itdizcash",
       "edited": false
     },
     "guides/Ywallet_FROST_Demo.md": {
@@ -20089,7 +20089,7 @@
       "src_commit": "8a2839e166263d5316bd6216c0c9fa4a1c7e3a16",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+handfix+itdizcash",
       "edited": false
     },
     "guides/Zcash_Improvement_Proposals.md": {
@@ -20105,7 +20105,7 @@
       "src_commit": "df844dbf94545324db108e41c36f0887aa2e3b08",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+handfix+itdizcash",
       "edited": false
     },
     "guides/Zenith_Installation.md": {
@@ -20121,7 +20121,7 @@
       "src_commit": "7f2ae6404e4de308386122dcfd0ef3c1d490735a",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra+handfix",
+      "tool": "codex/gpt-5.6-terra+handfix+itdizcash",
       "edited": false
     },
     "guides/Zgo_Payment_Processor.md": {
@@ -20129,7 +20129,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4+itglossary",
+      "tool": "gpt-5.4+itglossary+handfix+itdizcash",
       "edited": false
     },
     "guides/Zingolib_and_Zaino_Tutorial.md": {
@@ -20137,7 +20137,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4+itglossary+handfix",
+      "tool": "gpt-5.4+itglossary+handfix+itdizcash",
       "edited": false
     },
     "guides/Zkool_Multisig.md": {
@@ -20161,7 +20161,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4+itglossary+handfix",
+      "tool": "gpt-5.4+itglossary+handfix+itdizcash",
       "edited": false
     },
     "tutorials/shieldedNewsletter/readme.md": {

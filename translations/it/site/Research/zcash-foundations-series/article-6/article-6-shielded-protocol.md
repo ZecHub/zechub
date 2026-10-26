@@ -3,11 +3,11 @@
 
 ![alt text](/content-images/image-27-4094293ec0.webp)
 
-### Assemblare ogni pezzo in un'unica transazione Zcash privata
+### Assemblare ogni pezzo in un'unica transazione di Zcash privata
 
 > **Serie:** *Zcash from First Principles* . **Articolo 6 . Il protocollo schermato** (finale)
 > **Pubblico:** i nuovi arrivati che hanno letto gli Articoli da 0 a 5. È qui che tutto si collega.
-> **Cosa porterai con te:** un modello mentale completo e corretto di una transazione Zcash schermata, con ogni concetto della serie al suo posto, e ogni filo aperto nell'Articolo 0 finalmente chiuso.
+> **Cosa porterai con te:** un modello mentale completo e corretto di una transazione di Zcash schermata, con ogni concetto della serie al suo posto, e ogni filo aperto nell'Articolo 0 finalmente chiuso.
 
 Abbiamo iniziato, nell'[Articolo 0](article-0-shielded-transaction.md), con un paradosso e una storia di buste sigillate su una bacheca pubblica. Poi abbiamo trascorso cinque articoli a costruire le parti: campi finiti, curve ellittiche, impegni (commitment), alberi di Merkle e prove a conoscenza zero. Ora le mettiamo insieme e osserviamo un vero pagamento privato funzionare, dall'inizio alla fine.
 

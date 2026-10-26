@@ -157,7 +157,7 @@ ZL;DR è uno spettacolo che mette in evidenza tutto ciò che riguarda Zcash in f
 ### Il nuovo podcast di Zcash con Joel Valenzuela
 - **Data:** 21 dicembre 2022
 - **Link:** [https://youtu.be/TE1ILZankdM?si=KQYhA0tmqyEqfYMP](https://youtu.be/TE1ILZankdM?si=KQYhA0tmqyEqfYMP)
-- **Riepilogo:** Joël Valenzuela è un creatore di contenuti, scrittore e conduttore del podcast Zcash su Digital Cash Network.
+- **Riepilogo:** Joël Valenzuela è un creatore di contenuti, scrittore e conduttore del podcast di Zcash su Digital Cash Network.
   - **Indicatori temporali:**
     - 0:00​ – Introduzione
     - 7:33​ – Quando è cambiata la narrativa su Bitcoin
@@ -244,7 +244,7 @@ ZL;DR è uno spettacolo che mette in evidenza tutto ciò che riguarda Zcash in f
     - 1:01:40​ – Come lo ZFAV Club abilita collaboratori globali
     - 1:08:00​ – Conclusione
 
-### Zcash # Riepiloghi del podcast Zcash
+### Zcash # Riepiloghi del podcast di Zcash
 
 ## Sicurezza di Zcash e Light-walletd con Taylor Hornby
 - **Data:** 18 gennaio 2023
@@ -298,7 +298,7 @@ ZL;DR è uno spettacolo che mette in evidenza tutto ciò che riguarda Zcash in f
 ## Il nuovo podcast di Zcash con Joel Valenzuela
 - **Data:** 21 dicembre 2022
 - **Link:** [Guarda su YouTube](https://youtu.be/TE1ILZankdM?si=KQYhA0tmqyEqfYMP)
-- **Riepilogo:** Joël Valenzuela è un creatore di contenuti, scrittore e conduttore del podcast Zcash su Digital Cash Network.
+- **Riepilogo:** Joël Valenzuela è un creatore di contenuti, scrittore e conduttore del podcast di Zcash su Digital Cash Network.
   - **Indicatori temporali:**
     - 0:00 – Introduzione
     - 7:33 – Quando è cambiata la narrativa su Bitcoin
@@ -376,7 +376,7 @@ ZL;DR è uno spettacolo che mette in evidenza tutto ciò che riguarda Zcash in f
 - **Riepilogo:** J.W. Verret è professore alla George Mason University. È esperto di diritto societario, dei titoli e bancario. È anche consulente legale e di contabilità forense, nonché fondatore del Crypto Freedom Lab.
   - **Indicatori temporali:**
     - 0:00 – Incontrare uno dei tuoi idoli
-    - 0:40 – Il primo podcast Zcash
+    - 0:40 – Il primo podcast di Zcash
     - 1:45 – L'editoriale di J.W. sul WSJ
     - 5:35 – Il momento migliore per scrivere
     - 8:35 – Privacy crypto e il nuovo libro di J.W.

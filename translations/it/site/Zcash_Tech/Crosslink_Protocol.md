@@ -72,7 +72,7 @@ La Modalità di Sicurezza è ciò che fa il deposito quando le ricevute firmate 
 
 Il protocollo Crosslink mira a fornire due tipi di registri per Zcash: un **registro finalizzato (LOG_fin)** e un **registro a latenza inferiore (LOG_ba)**. Il registro finalizzato garantisce sicurezza contro i rollback in base ad assunzioni ragionevoli sul protocollo Byzantine Fault Tolerance (BFT) o blockchain (BC). È progettato per rimanere live e sicuro anche in caso di partizioni di rete, con una latenza leggermente superiore al doppio di quella dell'attuale blockchain di Zcash per un numero equivalente di conferme di blocco.
 
-Il registro a latenza inferiore estende il registro finalizzato di non più di *L* blocchi. Garantisce sicurezza contro i rollback facendo affidamento sul solo protocollo blockchain e mantiene latenza e sicurezza non peggiori del modello Zcash esistente. Nel design semplificato Crosslink 2*, il registro a latenza inferiore semplifica sviluppo e adozione funzionando come una chain PoW.
+Il registro a latenza inferiore estende il registro finalizzato di non più di *L* blocchi. Garantisce sicurezza contro i rollback facendo affidamento sul solo protocollo blockchain e mantiene latenza e sicurezza non peggiori del modello di Zcash esistente. Nel design semplificato Crosslink 2*, il registro a latenza inferiore semplifica sviluppo e adozione funzionando come una chain PoW.
 
 ![image](/content-images/fd039664-4852-4fb0-8c88-0615f1ed116e-41459b81dc.webp)
 
@@ -95,7 +95,7 @@ Il prototipo precedente e la relativa documentazione si trovano nel [repository 
 
 ### Dove si trova Crosslink
 
-Crosslink è ancora una proposta. Le FAQ di Shielded Labs [Crosslink](https://shieldedlabs.net/crosslink-faq/) affermano che "dovrebbe passare attraverso il normale processo di governance Zcash" prima di poter essere attivata sulla mainnet.
+Crosslink è ancora una proposta. Le FAQ di Shielded Labs [Crosslink](https://shieldedlabs.net/crosslink-faq/) affermano che "dovrebbe passare attraverso il normale processo di governance di Zcash" prima di poter essere attivata sulla mainnet.
 
 Ciò che esiste oggi è la **Feature Net**: una rete di test gestita da Shielded Labs, con la propria moneta di test, cTAZ, su cui chiunque può fare mining, staking e gestire un finalizer. [Version 14](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v14), pubblicata il 1 ottobre 2026, inizia come semplice prova di lavoro e attiva Crosslink gradualmente: staking dal blocco 20.736, il primo elenco di finalizer selezionato al blocco 34.560 e la finalità BFT dal blocco 36.288 ([fonte](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/librustzcash/zcash_primitives/src/bft.rs#L546-L555)).
 
@@ -115,7 +115,7 @@ Crosslink riconosce il ruolo fondamentale dei miner PoW nelle prime fasi di svil
 * **Riduzione delle ricompense per blocco**:
   * Nel tempo, i validatori PoS riceveranno una quota crescente delle ricompense, riducendo i guadagni dei miner PoW. Questa redistribuzione riflette il ruolo decrescente del PoW nel modello ibrido.
 * **Transizione equa**:
-  * Il protocollo introduce i cambiamenti gradualmente, garantendo ai miner tempo sufficiente per adattarsi o esplorare nuovi ruoli nell'ecosistema Zcash, come il passaggio allo staking o il contributo ad altri servizi di rete.
+  * Il protocollo introduce i cambiamenti gradualmente, garantendo ai miner tempo sufficiente per adattarsi o esplorare nuovi ruoli nell'ecosistema di Zcash, come il passaggio allo staking o il contributo ad altri servizi di rete.
 * **Mitigazione dei rischi di centralizzazione**:
   * Le pool di staking PoS sono progettate per prevenire la concentrazione del potere, offrendo ai partecipanti più piccoli la possibilità di partecipare ad armi pari. Questo approccio inclusivo contrasta l'attuale concentrazione osservata nel mining basato su ASIC.
 * I miner PoW vedranno ridursi i ricavi poiché una parte della ricompensa del blocco viene riallocata ai validatori PoS. Questa riallocazione garantisce un sistema di incentivi equilibrato, premiando sia i miner sia gli staker per la sicurezza della rete.

@@ -68,9 +68,9 @@ L'esploratore può anche vedere quando i fondi passano tra il lato trasparente e
 Il punto principale: la privacy dipende dal rimanere nelle pool schermate. Una volta che i fondi toccano un indirizzo `t`, quella parte della loro cronologia è pubblica quanto Bitcoin. Per dimostrare a una persona da te scelta la tua attività schermata, ad esempio a un commercialista, condividi le chiavi di visualizzazione invece di renderle pubbliche. Consulta la pagina sulle [Viewing Keys](https://zechub.wiki/zcash-tech/viewing-keys#content).
 
 
-### Elenco degli esploratori di blocchi Zcash
+### Elenco degli esploratori di blocchi di Zcash
 
-- [Esploratore di blocchi Zcash](https://mainnet.zcashexplorer.app/)
+- [Esploratore di blocchi di Zcash](https://mainnet.zcashexplorer.app/)
 
 - [3xpl](https://3xpl.com/zcash)
 
@@ -87,7 +87,7 @@ Ecco quattro buoni esempi di diversi esploratori blockchain:
 
 * [Mempool.space](https://mempool.space)
 * [Ethscan](https://etherscan.io/)
-* [Esploratore di blocchi Zcash](https://mainnet.zcashexplorer.app)
+* [Esploratore di blocchi di Zcash](https://mainnet.zcashexplorer.app)
 * [Mintscan](https://hub.mintscan.io/chains/ibc-network)
 
 

@@ -32,7 +32,7 @@ Il flusso di base è:
 2. Il mittente seleziona la transazione e l'output o gli output schermati da divulgare.
 3. Un portafoglio compatibile crea una comunicazione di pagamento collegata a quella transazione e, facoltativamente, alla sfida.
 4. Il mittente consegna la comunicazione al verificatore.
-5. Il verificatore ottiene la transazione reale da un nodo Zcash affidabile, controlla che sia stata minata e verifica la comunicazione rispetto a essa.
+5. Il verificatore ottiene la transazione reale da un nodo di Zcash affidabile, controlla che sia stata minata e verifica la comunicazione rispetto a essa.
 6. Un risultato valido conferma solo le dichiarazioni contenute in quella comunicazione.
 
 Il design di ZIP Sapling utilizza una chiave di cifratura in uscita per recuperare ogni output selezionato. Ciò può rivelare il destinatario dell'output, l'importo e il memo. Richiede inoltre la prova dell'autorità di spesa per almeno un input della transazione, così una persona che si limita a vedere la transazione non può creare una comunicazione valida come se l'avesse inviata.

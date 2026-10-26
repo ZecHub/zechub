@@ -1,6 +1,6 @@
 # Zaino Indexer
 
-Zaino è un indexer Rust per la blockchain Zcash. Legge i dati della chain da un full node (nodo completo) Zebra e fornisce i dati necessari a portafogli, explorer, faucet e altri servizi, senza rendere Zebra stesso responsabile di ogni indice rivolto ai client.
+Zaino è un indexer Rust per la blockchain di Zcash. Legge i dati della chain da un full node (nodo completo) Zebra e fornisce i dati necessari a portafogli, explorer, faucet e altri servizi, senza rendere Zebra stesso responsabile di ogni indice rivolto ai client.
 
 ## In breve
 
@@ -12,7 +12,7 @@ Zaino è un indexer Rust per la blockchain Zcash. Legge i dati della chain da un
 
 ## Cosa fa Zaino
 
-Zaino si colloca tra Zebra e il software client. Zebra è il nodo di consenso: scarica, verifica e segue la blockchain Zcash. Zaino usa Zebra come fonte dei dati della chain, quindi prepara viste indicizzate che le applicazioni client possono interrogare in modo efficiente.
+Zaino si colloca tra Zebra e il software client. Zebra è il nodo di consenso: scarica, verifica e segue la blockchain di Zcash. Zaino usa Zebra come fonte dei dati della chain, quindi prepara viste indicizzate che le applicazioni client possono interrogare in modo efficiente.
 
 Questa separazione mantiene chiari i ruoli:
 
@@ -25,7 +25,7 @@ Questa separazione mantiene chiari i ruoli:
 
 Zaino fornisce funzionalità per light client, client completi o portafogli e block explorer. Offre accesso alla chain finalizzata, alla migliore chain non finalizzata e ai dati del mempool detenuti da Zebra.
 
-## Come si integra nell'attuale stack Zcash
+## Come si integra nell'attuale stack di Zcash
 
 L'attuale stack Z3 è costruito attorno a Zebra, Zallet e all'opzionale Zaino.
 

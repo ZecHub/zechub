@@ -31,7 +31,7 @@ Un importante utilizzo potenziale degli ZSA sarebbe l’emissione di stablecoin 
 
 Un altro potenziale utilizzo degli ZSA sarebbe l'emissione di token di governance. Per esempio, ZecHub (l'editore di questo wiki) è una Decentralized Autonomous Organization (DAO) e potrebbe creare ed emettere ai suoi membri uno ZSA per votare sulle proposte e sulle decisioni di governance.
 
-Gli ZSA sono sviluppati da [QEDIT](https://qed-it.com/), grazie a una importante grant della [Zcash Foundation](/zcash-organizations/zcash-foundation) in collaborazione con la [Electric Coin Company](/zcash-organizations/electric-coin-company). Poiché questo progetto è ancora in fase di sviluppo attivo, gli aggiornamenti vengono pubblicati in [questa discussione](https://forum.zcashcommunity.com/t/grant-update-zcash-shielded-assets-monthly-updates/41153) del forum Zcash. La [domanda di grant per ZSA](https://zcashgrants.org/gallery/25215916-53ea-4041-a3b2-6d00c487917d/33106640/) di QEDIT è disponibile sul sito delle grant della Zcash Foundation.
+Gli ZSA sono sviluppati da [QEDIT](https://qed-it.com/), grazie a una importante grant della [Zcash Foundation](/zcash-organizations/zcash-foundation) in collaborazione con la [Electric Coin Company](/zcash-organizations/electric-coin-company). Poiché questo progetto è ancora in fase di sviluppo attivo, gli aggiornamenti vengono pubblicati in [questa discussione](https://forum.zcashcommunity.com/t/grant-update-zcash-shielded-assets-monthly-updates/41153) del forum di Zcash. La [domanda di grant per ZSA](https://zcashgrants.org/gallery/25215916-53ea-4041-a3b2-6d00c487917d/33106640/) di QEDIT è disponibile sul sito delle grant della Zcash Foundation.
 
 ---
 
@@ -41,7 +41,7 @@ Gli ZSA sono sviluppati da [QEDIT](https://qed-it.com/), grazie a una importante
 
 Immagina una transazione schermata di Zcash come una semplice busta sigillata imbucata in una cassetta postale pubblica. Chiunque può vedere che una busta è stata spedita. Nessuno può vedere chi l’ha inviata, chi la ritira o cosa contiene — e ogni busta appare identica a tutte le altre.
 
-Oggi, una busta sulla rete Zcash può contenere una sola cosa: ZEC.
+Oggi, una busta sulla rete di Zcash può contenere una sola cosa: ZEC.
 
 ZSA non cambia la busta. Cambia **ciò che è consentito al suo interno**. Dopo ZSA, la stessa busta sigillata potrebbe contenere una stablecoin, un governance token di una DAO o un punto fedeltà aziendale — e dall’esterno continuerebbe comunque ad apparire esattamente come ogni altra busta sulla rete.
 
@@ -96,7 +96,7 @@ ZIP 226 definisce il protocollo OrchardZSA — un’estensione del protocollo Or
 
 La proposta ZSA per gli Shielded Assets (ZSA/UDA) è stata presentata dal team di [QEDIT](https://qed-it.com/) per costruire asset schermati generici sulla blockchain di Zcash. Questi vengono generalmente indicati come User Defined Assets (UDA) o come Zcash Shielded Assets (ZSA).
 
-Con questa proposta, il team di [QEDIT](https://qed-it.com/) intende portare la DeFi nell’ecosistema Zcash e, allo stesso tempo, abilitare l’uso della migliore tecnologia per la privacy all’interno dell’ecosistema DeFi esistente. In un sondaggio, il team ha chiesto, e la comunità ha risposto, che [gli asset schermati generici (ZSA/UDA) sono al momento la funzionalità più richiesta](https://twitter.com/BenarrochDaniel/status/1428327864034791429).
+Con questa proposta, il team di [QEDIT](https://qed-it.com/) intende portare la DeFi nell’ecosistema di Zcash e, allo stesso tempo, abilitare l’uso della migliore tecnologia per la privacy all’interno dell’ecosistema DeFi esistente. In un sondaggio, il team ha chiesto, e la comunità ha risposto, che [gli asset schermati generici (ZSA/UDA) sono al momento la funzionalità più richiesta](https://twitter.com/BenarrochDaniel/status/1428327864034791429).
 
 Queste proposte sono tecnicamente aderenti alla specifica [Zcash Improvement Proposal (ZIP)](https://zips.z.cash/zip-0000) e sono definite in ZIP 226 e ZIP 227.
 
@@ -142,5 +142,5 @@ Queste proposte sono tecnicamente aderenti alla specifica [Zcash Improvement Pro
 - [Halo](/zcash-tech/halo) — il sistema di prova alla base di Orchard, il protocollo che ZSA estende
 - [zk-SNARKs](/zcash-tech/zk-snarks) — le prove a conoscenza zero che permettono di verificare un trasferimento schermato senza rivelarlo
 - [Pool schermate](/using-zcash/shielded-pools) — dove gli ZSA coesisterebbero con ZEC
-- [Transactions](/using-zcash/transactions) — come è costruita una transazione Zcash
+- [Transactions](/using-zcash/transactions) — come è costruita una transazione di Zcash
 - [Zebra Full Node](/zcash-tech/zebra-full-node) — l'implementazione del nodo usata nella demo ZSA qui sopra

@@ -4,14 +4,14 @@
 
 # Ambasciatori globali di Zcash
 
-Il Programma degli Ambasciatori Globali identifica i membri della comunità che apportano contributi di alta qualità all'ecosistema Zcash e li mette nelle condizioni di diventare leader. Gli ambasciatori fanno crescere la comunità Zcash, favoriscono l'adozione da parte degli utenti e promuovono la consapevolezza della tecnologia di Zcash per la tutela della privacy.
+Il Programma degli Ambasciatori Globali identifica i membri della comunità che apportano contributi di alta qualità all'ecosistema di Zcash e li mette nelle condizioni di diventare leader. Gli ambasciatori fanno crescere la comunità di Zcash, favoriscono l'adozione da parte degli utenti e promuovono la consapevolezza della tecnologia di Zcash per la tutela della privacy.
 
 ## Cosa fa un ambasciatore?
 
 - Organizza incontri fisici o virtuali
 - Mantiene una presenza attiva sui social media e crea contenuti originali su Zcash
 - Traduce i materiali educativi di Zcash nelle lingue locali
-- Accoglie nuovi utenti e sviluppatori nell'ecosistema Zcash
+- Accoglie nuovi utenti e sviluppatori nell'ecosistema di Zcash
 - Rappresenta Zcash a conferenze crypto ed eventi della comunità
 
 Gli ambasciatori hanno libertà creativa sulle attività che pianificano, consentendo loro di adattare le iniziative di sensibilizzazione al proprio contesto locale.

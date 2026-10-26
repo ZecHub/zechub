@@ -7,7 +7,7 @@ ZEC sul mercato aperto come chiunque altro.
 
 Questa distinzione è l'aspetto più frainteso di ZCSH, ed è da qui che
 inizia questa pagina. Il 25 agosto 2026 il fondo ha iniziato a essere negoziato su NYSE Arca come
-*l'ETF Zcash*, il primo prodotto exchange-traded spot statunitense su Zcash, ed è
+*l'ETF di Zcash*, il primo prodotto exchange-traded spot statunitense su Zcash, ed è
 ora uno dei maggiori singoli detentori di ZEC esistenti.
 
 ![Come funziona il Grayscale Zcash ETF: gli investitori comprano azioni ZCSH tramite un broker e ottengono solo l'esposizione al prezzo, mentre il trust detiene gli ZEC presso Coinbase Custody in portafogli trasparenti; i Partecipanti autorizzati creano e riscattano le azioni in blocchi da 10.000 in contanti, e la commissione dello Sponsor è pagata con gli ZEC del trust, quindi gli ZEC per azione diminuiscono nel tempo](https://raw.githubusercontent.com/ZecHub/zechub/main/assets/ZCSH_ETP_Structure.png)
@@ -78,7 +78,7 @@ il semplice detenere ZEC deve considerarlo nel confronto.
 
 Per contesto, il 2,5% è circa dieci volte la commissione di un tipico ETF spot su bitcoin.
 Grayscale ha affermato che i primi ricavi derivanti dalla commissione dello sponsor saranno destinati nuovamente
-allo sviluppo dell'ecosistema Zcash.
+allo sviluppo dell'ecosistema di Zcash.
 
 ## Cosa possiede effettivamente un azionista
 

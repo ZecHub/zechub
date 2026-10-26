@@ -43,7 +43,7 @@ Nel 2021, ShapeShift ha subito una trasformazione radicale. L'azienda ha sciolto
 
 L'innovazione centrale di Zcash è il suo uso di **prove a conoscenza zero** (nello specifico, una forma chiamata **zk-SNARKs**). Queste prove crittografiche permettono a una parte di dimostrare a un'altra che un'affermazione è vera senza rivelare alcuna informazione oltre alla validità dell'affermazione stessa.
 
-In pratica, questo significa che le transazioni Zcash possono essere completamente **schermate**: l'indirizzo del mittente, l'indirizzo del destinatario e l'importo della transazione sono tutti cifrati sulla blockchain. La rete può comunque verificare che la transazione sia valida (nessuna doppia spesa, saldi corretti) senza mai vedere quei dettagli.
+In pratica, questo significa che le transazioni di Zcash possono essere completamente **schermate**: l'indirizzo del mittente, l'indirizzo del destinatario e l'importo della transazione sono tutti cifrati sulla blockchain. La rete può comunque verificare che la transazione sia valida (nessuna doppia spesa, saldi corretti) senza mai vedere quei dettagli.
 
 ### Tipi di transazione
 
@@ -56,7 +56,7 @@ Gli utenti possono inviare ZEC tra indirizzi trasparenti e schermati. Per la mas
 
 ### Unified Address
 
-I moderni portafogli Zcash come [Zodl](https://zodl.com) usano gli **Unified Addresses**, che combinano sia i ricevitori trasparenti sia quelli schermati in un unico indirizzo. Questo semplifica l'esperienza utente, impostando per impostazione predefinita il più alto livello di privacy disponibile.
+I moderni portafogli di Zcash come [Zodl](https://zodl.com) usano gli **Unified Addresses**, che combinano sia i ricevitori trasparenti sia quelli schermati in un unico indirizzo. Questo semplifica l'esperienza utente, impostando per impostazione predefinita il più alto livello di privacy disponibile.
 
 ### Perché la privacy è importante
 
@@ -98,7 +98,7 @@ Rivedi i dettagli della transazione e conferma. Lo scambio viene eseguito on-cha
 
 ### Passo 6: scherma i tuoi ZEC
 
-Una volta arrivati i tuoi ZEC, usa la funzione **shield** del tuo portafoglio Zcash (disponibile in portafogli come Zodl) per spostare i fondi nella pool schermata. Questo garantisce che il tuo saldo e le tue future transazioni rimangano completamente privati.
+Una volta arrivati i tuoi ZEC, usa la funzione **shield** del tuo portafoglio di Zcash (disponibile in portafogli come Zodl) per spostare i fondi nella pool schermata. Questo garantisce che il tuo saldo e le tue future transazioni rimangano completamente privati.
 
 ### Coppie cross-chain supportate
 
@@ -175,4 +175,4 @@ L'integrazione di ShapeShift e Zcash rappresenta un significativo passo avanti p
 
 [ShapeShift unveils v4.0, re-centering privacy and self-custody in DeFi (Invezz)](https://invezz.com/news/2025/12/18/shapeshift-unveils-version-4-0-re-centering-privacy-and-self-custody-in-defi/)
 
-[ShapeShift introduce il supporto per le transazioni Zcash schermate (CoinTelegraph)](https://cointelegraph.com/news/shapeshift-rolls-out-support-for-shielded-zcash-transactions-for-true-privacy)
+[ShapeShift introduce il supporto per le transazioni di Zcash schermate (CoinTelegraph)](https://cointelegraph.com/news/shapeshift-rolls-out-support-for-shielded-zcash-transactions-for-true-privacy)

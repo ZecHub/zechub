@@ -4,7 +4,7 @@
 
 # Newsletter ZecWeekly
 
-ZecWeekly è una newsletter che viene pubblicata ogni domenica mattina. Include tutte le notizie avvenute durante la settimana nell'ecosistema Zcash. Le notizie sono curate settimanalmente dai membri della community e tutti i link pertinenti vengono aggiunti alla newsletter. Iscriviti alla newsletter [qui](https://zechub.substack.com/).
+ZecWeekly è una newsletter che viene pubblicata ogni domenica mattina. Include tutte le notizie avvenute durante la settimana nell'ecosistema di Zcash. Le notizie sono curate settimanalmente dai membri della community e tutti i link pertinenti vengono aggiunti alla newsletter. Iscriviti alla newsletter [qui](https://zechub.substack.com/).
 
 ## Contribuire
 
@@ -56,7 +56,7 @@ Quando crei il file:
 
 ### 4. Raccogli i link al momento giusto
 
-ZecWeekly normalmente copre l'attività dell'ecosistema Zcash della settimana corrente e viene pubblicata verso la fine della settimana. La tempistica più sicura è:
+ZecWeekly normalmente copre l'attività dell'ecosistema di Zcash della settimana corrente e viene pubblicata verso la fine della settimana. La tempistica più sicura è:
 
 - Inizia a raccogliere i link dopo la pubblicazione dell'attuale numero o attività della newsletter.
 - Mantieni una bozza mentre la settimana è ancora in corso.

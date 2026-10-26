@@ -19,7 +19,7 @@ Questo articolo spiega cos'è il protocollo Orchard, come Dash lo sta implementa
 
 ## Cos'è il protocollo Zcash Orchard?
 
-Orchard è la pool schermata più avanzata di Zcash, attivata con l'aggiornamento di rete 5 (NU5) a metà del 2022. Rappresenta il culmine di anni di ricerca crittografica presso Electric Coin Company (ECC) e la comunità Zcash.
+Orchard è la pool schermata più avanzata di Zcash, attivata con l'aggiornamento di rete 5 (NU5) a metà del 2022. Rappresenta il culmine di anni di ricerca crittografica presso Electric Coin Company (ECC) e la comunità di Zcash.
 
 ### Tecnologia di base: Halo 2
 
@@ -118,9 +118,9 @@ L'integrazione non sostituisce CoinJoin su Dash Core. Orchard fornisce invece un
 
 ## Cosa significa per Zcash
 
-L'integrazione di Dash comporta implicazioni significative per l'ecosistema Zcash.
+L'integrazione di Dash comporta implicazioni significative per l'ecosistema di Zcash.
 
-### Validazione della tecnologia Zcash
+### Validazione della tecnologia di Zcash
 
 Quando un altro importante progetto di criptovaluta adotta lo stack crittografico di Zcash, ciò serve da validazione esterna della maturità, della sicurezza e della qualità progettuale della tecnologia. Samuel Westrich, CTO di Dash Core Group, ha osservato:
 

@@ -57,7 +57,7 @@ Successivamente, un qualsiasi insieme di t partecipanti su n può eseguire un pr
 
 ## Visuale / analogia
 
-Pensa a FROST come a una cassetta di sicurezza che si apre solo quando più detentori autorizzati girano insieme le loro chiavi — ma non è necessario che siano presenti tutti i detentori delle chiavi; ne basta solo un numero prestabilito (per esempio, 3 su 5). Una volta aperta la cassetta, un osservatore esterno non può capire quali detentori delle chiavi si siano presentati, né se fosse coinvolta più di una persona. Allo stesso modo, un gruppo può autorizzare congiuntamente una transazione Zcash mentre la rete vede solo una firma dall'aspetto ordinario.
+Pensa a FROST come a una cassetta di sicurezza che si apre solo quando più detentori autorizzati girano insieme le loro chiavi — ma non è necessario che siano presenti tutti i detentori delle chiavi; ne basta solo un numero prestabilito (per esempio, 3 su 5). Una volta aperta la cassetta, un osservatore esterno non può capire quali detentori delle chiavi si siano presentati, né se fosse coinvolta più di una persona. Allo stesso modo, un gruppo può autorizzare congiuntamente una transazione di Zcash mentre la rete vede solo una firma dall'aspetto ordinario.
 
 ## Approfondimento
 
@@ -139,7 +139,7 @@ FROST diventerà anche un componente essenziale nell'emissione e nella gestione 
 - [Halo](/zcash-tech/halo) — il sistema di prove trustless e ricorsivo usato nella pool Orchard di Zcash.
 - [Viewing Keys](/zcash-tech/viewing-keys) — divulgazione selettiva per le transazioni schermate.
 - [Zcash Shielded Assets](/zcash-tech/zcash-shielded-assets) — dove FROST aiuta a gestire l'autorità di spesa/emissione.
-- [Sincronizzazione dei portafogli Zcash](/zcash-tech/zcash-wallet-syncing) — un altro elemento fondamentale dell'infrastruttura per la privacy di Zcash.
+- [Sincronizzazione dei portafogli di Zcash](/zcash-tech/zcash-wallet-syncing) — un altro elemento fondamentale dell'infrastruttura per la privacy di Zcash.
 
 
 ## Per approfondire

@@ -44,9 +44,9 @@ Ah, molto meglio! Se hai qualche dote artistica, puoi rendere la pagina del tuo 
 
 ![Modifica del campo descrizione](/content-images/edit-description-b52afabec1.webp)
 
-Non dimenticare di fornire il tuo indirizzo schermato Zcash, così i sostenitori possono donarti direttamente!
+Non dimenticare di fornire il tuo indirizzo schermato di Zcash, così i sostenitori possono donarti direttamente!
 
-![Campo dell'indirizzo schermato Zcash](/content-images/p2p-address-b89f035bd9.webp)
+![Campo dell'indirizzo schermato di Zcash](/content-images/p2p-address-b89f035bd9.webp)
 
 L'ultimo passaggio per completare la configurazione della tua pagina è impostare un 'Member Price'. Si tratta del prezzo in 2Zs (Tuzies) che gli altri utenti pagheranno per abbonarsi alla tua pagina! (Maggiori dettagli sui 2Zs più avanti).
 
