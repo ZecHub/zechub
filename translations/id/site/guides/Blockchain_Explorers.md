@@ -78,6 +78,8 @@ Kesimpulannya: privasi bergantung pada tetap berada di dalam pool terlindungi. B
 
 - [ZecBlock](https://zecblock.com/)
 
+- [SoChain](https://sochain.com/zec) ([jaringan uji](https://sochain.com/zectest))
+
 ### Panduan Visual
 
 Berikut adalah empat contoh bagus dari berbagai blockchain explorer:

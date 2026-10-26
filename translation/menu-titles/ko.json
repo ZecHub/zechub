@@ -157,6 +157,7 @@
   "Zcash_Tech/zk_SNARKS.md": "ZKP & zk-SNARKs",
   "Zcash_Use_Cases/About.md": "현실 세계에서 Zcash 사용하기",
   "Zcash_Use_Cases/Accept_Payments_As_A_Merchant.md": "상인으로서 Zcash를 사용해 결제 수락하기",
+  "Zcash_Use_Cases/Accept_Private_Donations_As_A_US_Nonprofit.md": "미국 비영리단체로서 비공개 ZEC 기부 받기",
   "Zcash_Use_Cases/Freelance_Privacy_Setup.md": "프리랜서의 개인정보 보호 설정 방법 (Zcash 사용)",
   "Zcash_Use_Cases/Journalist_Privacy_Setup.md": "기자의 프라이버시 설정 방법: Zcash 사용",
   "Zcash_Use_Cases/Keeping_Records_With_Shielded_ZEC.md": "shielded ZEC을 사용한 기록 보관",

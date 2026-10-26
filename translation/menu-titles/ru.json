@@ -157,6 +157,7 @@
   "Zcash_Tech/zk_SNARKS.md": "ZKP и zk-SNARKs",
   "Zcash_Use_Cases/About.md": "Использование Zcash в реальном мире",
   "Zcash_Use_Cases/Accept_Payments_As_A_Merchant.md": "Принимайте платежи в качестве продавца с использованием Zcash",
+  "Zcash_Use_Cases/Accept_Private_Donations_As_A_US_Nonprofit.md": "Принимайте частные пожертвования в ZEC как некоммерческая организация в США",
   "Zcash_Use_Cases/Freelance_Privacy_Setup.md": "Настройка приватности для фрилансера с использованием Zcash",
   "Zcash_Use_Cases/Journalist_Privacy_Setup.md": "Настройка приватности для журналистов с использованием Zcash",
   "Zcash_Use_Cases/Keeping_Records_With_Shielded_ZEC.md": "Ведение записей с использованием защищенных ZEC",

@@ -79,6 +79,8 @@
 
 - [ZecBlock](https://zecblock.com/)
 
+- [SoChain](https://sochain.com/zec) ([شبكة الاختبار](https://sochain.com/zectest))
+
 ### دليل مرئي
 
 إليك أربعة أمثلة جيدة لمستكشفات بلوكشين مختلفة:

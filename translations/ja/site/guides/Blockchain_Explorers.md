@@ -78,6 +78,8 @@ Zcashには複数の種類のアドレスがあり、エクスプローラーは
 
 - [ZecBlock](https://zecblock.com/)
 
+- [SoChain](https://sochain.com/zec) ([テストネット](https://sochain.com/zectest))
+
 ### ビジュアルガイド
 
 以下は、異なるブロックチェーンエクスプローラーの4つの良い例です。

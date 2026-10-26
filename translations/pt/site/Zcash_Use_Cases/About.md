@@ -44,6 +44,9 @@ Aceite pagamentos usando um endereço blindado e evite expor os dados de transa�
 ###  [Administre um Tesouro Comunitário Privado](/zcash-use-cases/private-community-treasury)
 Use endereços blindados para manter fundos partilhados e limitar a visibilidade de saldos e transações
 
+###  [Aceite Donativos Privados como uma Organização Sem Fins Lucrativos dos EUA](/zcash-use-cases/accept-private-donations-as-a-us-nonprofit)
+Aceite ZEC blindados como uma 501(c)(3) e continue a fornecer aos doadores os recibos e formulários do IRS de que precisam
+
 ###  [Configuração de Privacidade para Jornalistas](/zcash-use-cases/journalist-privacy-setup)   
 Use endereços blindados para todas as transações e proteja as fontes evitando pagamentos rastreáveis. Use memos com cuidado para uma comunicação segura
 
