@@ -1,4 +1,4 @@
-# Newsletters Blindadas
+# Newsletters blindadas
 
 
 ## Configuração
@@ -14,7 +14,7 @@
 
 com um arquivo zallet.toml configurado
 
-exemplo de toml:
+Exemplo de toml:
 
 ```markdown
 [builder]
@@ -72,7 +72,7 @@ bind = ["127.0.0.1:8237"]
 
 `chmod +x toCurl.sh`
 
-modifique a porta correta do RPC do zebrad (8232) e inclua o nome de usuário e a senha do cookie do zebrad
+Modifique a porta correta do RPC do zebrad (8232) e inclua o nome de usuário e a senha do cookie do zebrad
 
 
 `__cookie__:yourpasswordhere`
@@ -115,7 +115,7 @@ Observação: certifique-se de ter uma cópia do executável do zallet na pasta 
 
 Atualize daoAddress.md com os UAs que você deseja usar
 
-Abra txBuilderFromFile.sh e atualize a variável "from" para o UA com fundos que está na sua carteira zallet
+Abra txBuilderFromFile.sh e atualize a variável "from" para o UA com fundos que estão na sua carteira zallet
 
 Depois,
 

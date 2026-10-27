@@ -1,4 +1,4 @@
-# Guia de Integração do MetaMask Zcash Snap
+# Guia de integração do MetaMask Zcash Snap
 
 Para um passo a passo completo e uma explicação visual, assista a este [**guia no YouTube**](https://www.youtube.com/watch?v=UJh9Ilkohdw): 
 
@@ -14,7 +14,7 @@ Para um passo a passo completo e uma explicação visual, assista a este [**guia
 </div>
      
 
-O MetaMask agora oferece suporte a **Zcash (ZEC) shielded** por meio do **Zcash Snap desenvolvido pela ChainSafe**, permitindo que você envie, receba e gerencie ZEC privada diretamente na sua carteira do navegador. Auditado pela **Hacken** e listado no **diretório oficial de MetaMask Snaps**, ele **não exige nenhum software Zcash separado** - apenas MetaMask e o Snap.
+O MetaMask agora oferece suporte a **Zcash (ZEC) blindado** por meio do **Zcash Snap desenvolvido pela ChainSafe**, permitindo que você envie, receba e gerencie ZEC privado diretamente na sua carteira do navegador. Auditado pela **Hacken** e listado no **diretório oficial de MetaMask Snaps**, ele **não exige nenhum software Zcash separado** - apenas MetaMask e o Snap.
 
 ---
 
@@ -22,9 +22,9 @@ O MetaMask agora oferece suporte a **Zcash (ZEC) shielded** por meio do **Zcash 
 
 
 > [**Extensão MetaMask**](https://snaps.metamask.io/snap/npm/chainsafe/webzjs-zcash-snap/) (somente desktop) - Chrome, Edge ou Firefox.
-> Conta MetaMask - Frase-semente protegida; o Snap deriva dela as chaves Zcash.  
-> Conexão de Internet Estável - Para sincronizar com a rede Zcash.  
-> Fundos - ETH para trocar por ZEC ou ZEC de uma exchange.
+> Conta MetaMask - Frase semente protegida; o Snap deriva dela as chaves Zcash.  
+> Conexão de internet estável - Para sincronizar com a rede Zcash.  
+> Fundos - ETH para converter em ZEC ou ZEC de uma corretora.
 
 > **Dica:** Proteja sua frase de recuperação do MetaMask - ela controla tanto ETH quanto ZEC.
 
@@ -50,7 +50,7 @@ O MetaMask agora oferece suporte a **Zcash (ZEC) shielded** por meio do **Zcash 
 
 No MetaMask, escolha **Add Network** e insira:
 
-Para a **BNB SmartChain**;
+Para a **BNB Smart Chain**;
 ```markdown
 -  Name: BNB Smart Chain
 -  RPC URL: https://bsc-dataseed.binance.org
@@ -59,7 +59,7 @@ Para a **BNB SmartChain**;
 -  Block Explorer URL: https://bscscan.com
 ```
 Isso habilita informações da rede e links do explorador.
-![Adicionar-uma-rede-personalizada....](/content-images/S1hq7f2Oel-e1ca8b9044.webp)
+![Adicionar uma rede personalizada....](/content-images/S1hq7f2Oel-e1ca8b9044.webp)
 
 Para a **Zcash Mainnet**;
 ```markdown
@@ -67,7 +67,7 @@ Para a **Zcash Mainnet**;
 - RPC URL: https://zjs.zec.rocks 
 - Symbol: ZEC
 ```
-`https://zjs.zec.rocks` é um servidor lightwalletd compatível com WebZjs (gRPC-web), operado por [zec.rocks](https://zec.rocks) (@emersonian). Para a testnet, use `https://zjs.zec.rocks/testnet`. Se executar você mesmo a carteira web WebZjs, este é o valor a definir como `LIGHTWALLETD_PROXY`.
+`https://zjs.zec.rocks` é um servidor lightwalletd compatível com WebZjs (gRPC-web), operado por [zec.rocks](https://zec.rocks) (@emersonian). Para a testnet, use `https://zjs.zec.rocks/testnet`. Se você mesmo executar a carteira web WebZjs, este será o valor a ser definido como `LIGHTWALLETD_PROXY`.
 
 ---
 
@@ -80,7 +80,7 @@ Para a **Zcash Mainnet**;
 
 3. Aprove a conexão.  
 4. Veja o resumo da sua conta Zcash, incluindo:
-   - Unified addresses e Transparent address
+   - Endereços unificados e endereço transparente
 
 ![resumo-da-conta-unif....](/content-images/r17c_Mhdel-f4963826d5.webp)
 
@@ -94,17 +94,17 @@ Para a **Zcash Mainnet**;
 
 ## **4. Adicione fundos à sua carteira**
 
-> **Trocar ETH -> ZEC** - Use serviços como **LeoDex** e envie para seu endereço shielded.  
-> **Saque de exchange** - Saque o ZEC comprado para seu endereço shielded do WebZjs.  
+> **Conversão de ETH -> ZEC** - Use serviços como **LeoDex** e envie para seu endereço blindado.  
+> **Saque de corretora** - Saque o ZEC comprado para seu endereço blindado do WebZjs.  
 
 ![TROCA-LeoDex](/content-images/HyLQ0G2ugg-8d82ef24f6.webp)
 
 
-> => Use endereços shielded (z) para **privacidade total**.
+> => Use endereços blindados (z) para **privacidade total**.
 
 ---
 
-## **5. Enviar / Receber ZEC**
+## **5. Enviar / receber ZEC**
 
 1. No **WebZjs**, vá para **Transfer Balance**.  
 2. Insira:
@@ -112,16 +112,16 @@ Para a **Zcash Mainnet**;
    - Shielded recipient address  
    - Amount
 ```
-   ![Transferir-Saldo](/content-images/rkvcFfhdex-bd55d079eb.webp)
+   ![Transferir saldo](/content-images/rkvcFfhdex-bd55d079eb.webp)
 
 4. Confirme a transação no MetaMask (assine a transação).  
 5. Os fundos recebidos aparecerão no WebZjs após a confirmação.
 
 ---
 
-## **6. Verificar / Solução de problemas**
+## **6. Verificação / solução de problemas**
 
-> Verifique o **WebZjs** para saldos atualizados **(o MetaMask ainda não listou ZEC diretamente)** .  
+> Verifique o **WebZjs** para saldos atualizados **(o MetaMask ainda não lista ZEC diretamente)**.  
 > Se ocorrerem problemas:
   ```
   - Confirm you have the official ChainSafe Snap.  
@@ -137,7 +137,7 @@ Para a **Zcash Mainnet**;
 ## **7. Verifique os componentes do endereço**
 
 1. Vá até a seção **Receive** - seu Unified Address será exibido por padrão.  
-2. Copie o Unified Address e acesse o [Explorador de Blocos Zcash](https://mainnet.zcashexplorer.app/).  
+2. Copie o Unified Address e acesse o [Explorador de blocos Zcash](https://mainnet.zcashexplorer.app/).  
 3. Cole seu Unified Address na barra de pesquisa.  
 4. Agora você verá todos os componentes do Unified Address, que incluem:
 ``` 
@@ -155,7 +155,7 @@ Para a **Zcash Mainnet**;
 ## **Notas adicionais**
 
 > Use a [**versão mais recente do MetaMask**](https://chromewebstore.google.com/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn?hl=en) - a versão pública oferece suporte a Snaps.  
-> As provas shielded podem levar tempo; o WebAssembly faz o processamento no navegador.  
-> A recuperação é simples: instale o MetaMask e o Snap e depois importe sua seed existente.  
-> O Snap usa por padrão **ZEC shielded**; endereços transparentes **não são o foco**.  
+> As provas blindadas podem levar tempo; o WebAssembly faz o processamento no navegador.  
+> A recuperação é simples: instale o MetaMask e o Snap e depois importe sua frase semente existente.  
+> O Snap usa por padrão **ZEC blindado**; endereços transparentes **não são o foco**.  
 > Use [mainnet.zcashexplorer.app](https://mainnet.zcashexplorer.app) para confirmações de transações.

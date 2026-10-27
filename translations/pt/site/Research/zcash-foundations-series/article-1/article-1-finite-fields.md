@@ -1,15 +1,15 @@
-# Corpos Finitos: O Sistema Numérico em que a Criptografia Vive
-##### Pesquisa Original de [Annkkitaaa](https://github.com/Annkkitaaa)
+# Corpos finitos: o sistema numérico em que a criptografia vive
+##### Pesquisa original de [Annkkitaaa](https://github.com/Annkkitaaa)
 
-![texto alternativo](/content-images/image-5-6e8a8950f8.webp)
+![Texto alternativo](/content-images/image-5-6e8a8950f8.webp)
 
-### Por que o "dar a volta" é o fundamento secreto do Zcash
+### Por que "dar a volta" é o fundamento secreto do Zcash
 
-> **Série:** *Zcash from First Principles* . **Artigo 1 . Corpos Finitos**
+> **Série:** *Zcash from First Principles* . **Artigo 1 . Corpos finitos**
 > **Público:** iniciantes. Pressupomos apenas a aritmética escolar comum (somar, multiplicar, dividir). Nenhum conhecimento prévio de criptografia ou matemática avançada.
-> **O que você levará deste artigo:** uma compreensão intuitiva e correta de corpos finitos, por que criptógrafos os usam e onde eles aparecem dentro do Zcash.
+> **O que você levará deste artigo:** uma compreensão intuitiva e correta de corpos finitos, por que criptógrafos os usam e onde eles aparecem no Zcash.
 
-No [Artigo 0](article-0-shielded-transaction.md) conhecemos cinco personagens: a nota, o commitment, a árvore de commitment de notas, o nullifier e a prova de conhecimento zero. Deixamos uma ponta solta: *de onde vêm, de fato, todas as chaves e receitas secretas?* Elas vêm de números. Mas não dos números comuns com os quais você cresceu. Elas vêm de um sistema numérico especial e autocontido chamado **corpo finito**, e quase toda parte da criptografia no Zcash é construída sobre ele.
+No [Artigo 0](article-0-shielded-transaction.md) conhecemos cinco personagens: a note, o compromisso, a árvore de compromissos de notes, o nulificador e a prova de conhecimento zero. Deixamos uma ponta solta: *de onde vêm, de fato, todas as chaves e receitas secretas?* Elas vêm de números. Mas não dos números comuns com os quais você cresceu. Elas vêm de um sistema numérico especial e autocontido chamado **corpo finito**, e quase toda parte da criptografia no Zcash é construída sobre ele.
 
 Este artigo desenvolve essa ideia aos poucos. Como prometido, primeiro a intuição. Sem fórmulas até que elas se justifiquem.
 
@@ -38,7 +38,7 @@ Você já usa um corpo finito todos os dias. É o relógio na sua parede.
 
 Em um relógio de 12 horas, os números *dão a volta*. Comece às 10 horas, some 5 horas, e você não cai em "15 horas", você cai em **3 horas**. O relógio tem apenas doze posições, e contar além do topo simplesmente volta ao início.
 
-![texto alternativo](/content-images/image-9-30b39f4cc5.webp)
+![Texto alternativo](/content-images/image-9-30b39f4cc5.webp)
 
 Três coisas acabaram de acontecer, e elas são o ponto central deste artigo inteiro:
 
@@ -107,7 +107,7 @@ Essa segunda frase é uma catástrofe para a aritmética. Duas coisas não nulas
 
 Um primo, por definição, não tem esses fatores. Então mod um primo, divisores de zero não podem aparecer, todo elemento não nulo ganha um recíproco limpo, e a estrutura é um corpo adequado.
 
-![texto alternativo](/content-images/image-8-573914db92.webp)
+![Texto alternativo](/content-images/image-8-573914db92.webp)
 
 > **Frase reutilizável para seus artigos:** *entra módulo primo, sai divisão limpa.*
 
@@ -139,13 +139,13 @@ Você não precisa memorizar isso. Precisa saber que **divisão em um corpo fini
 
 Juntando a intuição, aqui está o caso completo em uma página.
 
-| Propriedade de `F_p` | Por que um sistema de privacidade a quer |
+| Property of `F_p` | Por que um sistema de privacidade a quer |
 |---|---|
-| **Finito** | Um computador armazena qualquer elemento exatamente; sem arredondamento, sem overflow, sem imprecisão de ponto flutuante |
-| **Dar a volta** | Apaga o "tamanho", então um valor não revela nada sobre como foi produzido |
-| **As quatro operações funcionam** | Receitas criptográficas (chaves, commitments, provas) precisam de álgebra genuína, não apenas contagem |
-| **Tamanho escolhível** | Escolha um primo de 255 bits ou 381 bits e o corpo terá mais elementos do que há átomos no universo observável; adivinhar é inútil |
-| **Exato e determinístico** | Duas partes honestas calculando a mesma coisa sempre obtêm resultados idênticos, do que as provas dependem |
+| **Finite** | Um computador armazena qualquer elemento exatamente; sem arredondamento, sem overflow, sem imprecisão de ponto flutuante |
+| **Wrap-around** | Apaga o "tamanho", então um valor não revela nada sobre como foi produzido |
+| **All four operations work** | Receitas criptográficas (chaves, compromissos, provas) precisam de álgebra genuína, não apenas contagem |
+| **Choosable size** | Escolha um primo de 255 bits ou 381 bits e o corpo terá mais elementos do que há átomos no universo observável; adivinhar é inútil |
+| **Exact and deterministic** | Duas partes honestas calculando a mesma coisa sempre obtêm resultados idênticos, dos quais as provas dependem |
 
 Um corpo finito é, em uma frase, **um playground perfeitamente fechado, perfeitamente exato e perfeitamente enorme para a aritmética.** Todo o resto no Zcash é construído brincando dentro dele.
 
@@ -155,13 +155,13 @@ Um corpo finito é, em uma frase, **um playground perfeitamente fechado, perfeit
 
 Você não precisa aceitar "Zcash usa corpos finitos" por fé. Aqui está o mapa concreto (a maquinaria mais profunda fica para artigos posteriores; isto é apenas para mostrar que as impressões digitais são reais).
 
-- **Sapling** (um design shielded mais antigo) constrói suas provas sobre uma curva chamada **BLS12-381**, cujo corpo base usa um primo de **381 bits**. Toda coordenada, chave e elemento de prova é um elemento de um corpo finito construído sobre esse primo.
-- **Orchard** (o design shielded atual) usa um par de curvas chamadas **Pallas and Vesta** (as curvas "Pasta"), cujos corpos usam primos de aproximadamente **255 bits**.
-- O **note commitment**, o **nullifier** e os números dentro de uma **prova de conhecimento zero** do Artigo 0 são todos, no fundo, elementos de um desses corpos finitos. Quando o protocolo diz "compute este commitment", ele quer dizer "faça esta aritmética mod aquele primo".
+- **Sapling** (um design blindado mais antigo) constrói suas provas sobre uma curva chamada **BLS12-381**, cujo corpo base usa um primo de **381 bits**. Toda coordenada, chave e elemento de prova é um elemento de um corpo finito construído sobre esse primo.
+- **Orchard** (o design blindado atual) usa um par de curvas chamadas **Pallas and Vesta** (as curvas "Pasta"), cujos corpos usam primos de aproximadamente **255 bits**.
+- O **compromisso de note**, o **nulificador** e os números dentro de uma **prova de conhecimento zero** do Artigo 0 são todos, no fundo, elementos de um desses corpos finitos. Quando o protocolo diz "compute este compromisso", ele quer dizer "faça esta aritmética mod aquele primo".
 
-![texto alternativo](/content-images/image-7-c81fe982f0.webp)
+![Texto alternativo](/content-images/image-7-c81fe982f0.webp)
 
-Então a resposta para a pergunta em aberto do Artigo 0, *"de onde vêm as receitas secretas?"*, começa aqui: **tudo começa como aritmética em um corpo finito.** No próximo artigo, vamos pegar esse corpo e construir os objetos reais, pontos em uma curva elíptica, que se tornam chaves e commitments.
+Então a resposta para a pergunta em aberto do Artigo 0, *"de onde vêm as receitas secretas?"*, começa aqui: **tudo começa como aritmética em um corpo finito.** No próximo artigo, vamos pegar esse corpo e construir os objetos reais, pontos em uma curva elíptica, que se tornam chaves e compromissos.
 
 ---
 
@@ -178,13 +178,13 @@ Para manter o texto amigável para iniciantes, simplificamos algumas coisas verd
 - Fazer aritmética com os números `0..p-1` mod um **primo** `p` produz um corpo real `F_p`, em que você também pode **dividir** porque todo elemento não nulo tem um inverso.
 - O módulo **precisa ser primo**: um módulo composto cria divisores de zero (como `2 x 3 = 0 mod 6`) e quebra a divisão.
 - Computadores encontram inversos rapidamente via **O Pequeno Teorema de Fermat** (`a^(-1) = a^(p-2)`).
-- Em **Zcash**, toda chave, commitment, nullifier e elemento de prova é, em última análise, um elemento de um grande corpo finito (corpos Pasta de 255 bits para Orchard, um corpo de 381 bits para a BLS12-381 do Sapling).
+- No **Zcash**, toda chave, compromisso, nulificador e elemento de prova é, em última análise, um elemento de um grande corpo finito (corpos Pasta de 255 bits para Orchard, um corpo de 381 bits para a BLS12-381 do Sapling).
 
 ---
 
 ## Glossário
 
-| Termo | Significado em linguagem simples |
+| Term | Significado em linguagem simples |
 |---|---|
 | **Modular arithmetic** | Aritmética que dá a volta ao atingir um valor fixo, como um relógio |
 | **mod p** | "Divida por `p` e mantenha o resto" |
@@ -199,7 +199,7 @@ Para manter o texto amigável para iniciantes, simplificamos algumas coisas verd
 ## FAQ
 
 **Por que não usar apenas inteiros comuns ou decimais?**
-Decimais arredondam e derivam; inteiros crescem sem limite e revelam tamanho. Corpos finitos são exatos, limitados e cegos ao tamanho, o que a criptografia exige.
+Decimais arredondam e se desviam; inteiros crescem sem limite e revelam tamanho. Corpos finitos são exatos, limitados e cegos ao tamanho, o que a criptografia exige.
 
 **"Dar a volta" perde informação?**
 De propósito, sim. Apagar o tamanho de valores intermediários é uma funcionalidade, não um bug, para a privacidade.
@@ -218,13 +218,13 @@ Em `F_7`, quanto é `5 - 6`? (Lembre-se: permaneça dentro de `{0,...,6}` dando 
 
 <details><summary>Resposta</summary>
 
-`5 - 6 = -1`, e `-1` envolvido em `F_7` é `6` (porque `6 + 1 = 7 = 0`). Então `5 - 6 = 6 (mod 7)`. A subtração nunca sai do corpo; ela apenas dá a volta no outro sentido.
+`5 - 6 = -1`, e `-1`, ao dar a volta em `F_7`, é `6` (porque `6 + 1 = 7 = 0`). Então `5 - 6 = 6 (mod 7)`. A subtração nunca sai do corpo; ela apenas dá a volta no outro sentido.
 </details>
 
 ---
 
 ### O que vem a seguir
 
-**Artigo 2 . Curvas elípticas:** pegamos o corpo finito que acabamos de construir e o usamos para desenhar um tipo estranho de curva cujos pontos podem ser "somados" entre si. Esses pontos se tornam as chaves e commitments do Zcash, e escondem uma trapdoor de mão única que torna possível todo o sistema de privacidade. Intuição primeiro, como sempre.
+**Artigo 2 . Curvas elípticas:** pegamos o corpo finito que acabamos de construir e o usamos para desenhar um tipo estranho de curva cujos pontos podem ser "somados" entre si. Esses pontos se tornam as chaves e compromissos do Zcash, e escondem uma trapdoor de mão única que torna possível todo o sistema de privacidade. Intuição primeiro, como sempre.
 
 *Parte da série* Zcash from First Principles *para [ZecHub](https://zechub.org). Licenciado sob CC BY-SA 4.0.*

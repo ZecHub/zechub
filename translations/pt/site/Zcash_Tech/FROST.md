@@ -9,7 +9,7 @@
 * FROST (Flexible Round-Optimised Schnorr Threshold Signatures) é um protocolo de assinatura de limiar e geração distribuída de chaves: vários signatários detêm, cada um, uma parte de uma chave privada comum, e um número mínimo deles deve cooperar para produzir uma assinatura.
 * Como o resultado é uma única assinatura Schnorr, uma transação feita dessa forma parece uma transação comum na rede.
 * Exige um número mínimo de rodadas de comunicação, pode ser executado em paralelo e pode identificar e excluir um participante com comportamento inadequado.
-* Para a Zcash, isso significa que FROST permite que múltiplas partes, geograficamente separadas, controlem a autoridade de gasto de ZEC blindado — útil para custódia, escrow, serviços sem custódia e Zcash Shielded Assets (ZSA).
+* Para o Zcash, isso significa que FROST permite que múltiplas partes, geograficamente separadas, controlem a autoridade de gasto de ZEC blindado — útil para custódia, escrow, serviços sem custódia e Zcash Shielded Assets (ZSA).
 * Foi criado por Chelsea Komlo (University of Waterloo, Zcash Foundation) e Ian Goldberg (University of Waterloo).
 
 ## Explicação central
@@ -18,7 +18,7 @@
 
 Uma assinatura digital Schnorr é um conjunto de algoritmos: (KeyGen, Sign, Verify).
 
-As assinaturas Schnorr têm várias vantagens. Uma vantagem importante é que, quando múltiplas chaves são usadas para assinar a mesma mensagem, as assinaturas resultantes podem ser combinadas em uma única assinatura. Isso pode reduzir significativamente o tamanho de pagamentos multisig e de outras transações relacionadas a multisig.
+As assinaturas Schnorr têm várias vantagens. Uma vantagem importante é que, quando múltiplas chaves são usadas para assinar a mesma mensagem, as assinaturas resultantes podem ser combinadas em uma única assinatura. Isso pode reduzir significativamente o tamanho dos pagamentos multisig e de outras transações relacionadas a multisig.
 
 ### O que é FROST?
 
@@ -31,7 +31,7 @@ Ao contrário das assinaturas em um contexto de parte única, as assinaturas de 
 
 [O que são Threshold Signatures? Chelsea Komlo - Zcon3](https://youtu.be/cAfTTfblzoU?t=110)
 
-Consequentemente, gerar assinaturas em um contexto de limiar gera sobrecarga devido às rodadas de rede entre os signatários, tornando isso custoso quando as partes secretas são armazenadas em dispositivos com limitações de rede ou quando a coordenação ocorre em redes não confiáveis.
+Consequentemente, gerar assinaturas em um contexto de limiar gera sobrecarga devido às rodadas de rede entre os signatários, tornando-o custoso quando as partes secretas são armazenadas em dispositivos com limitações de rede ou quando a coordenação ocorre em redes não confiáveis.
 
 A sobrecarga de rede durante as operações de assinatura é reduzida por meio do uso de uma nova técnica que protege contra ataques de falsificação e que também é aplicável a outros esquemas.
 
@@ -47,7 +47,7 @@ Provas de segurança demonstrando que FROST é seguro contra ataques de mensagem
 
 O protocolo FROST contém dois componentes importantes:
 
-Primeiro, n participantes executam um protocolo de geração distribuída de chaves (DKG) para gerar uma chave comum de verificação. Ao final, cada participante obtém uma parte de chave secreta privada e uma parte de chave pública de verificação.
+Primeiro, n participantes executam um protocolo de geração distribuída de chaves (DKG) para gerar uma chave comum de verificação. Ao final, cada participante obtém uma parte da chave secreta privada e uma parte da chave pública de verificação.
 
 Depois disso, quaisquer t de n participantes podem executar um protocolo de assinatura de limiar para gerar colaborativamente uma assinatura Schnorr válida.
 
@@ -55,7 +55,7 @@ Depois disso, quaisquer t de n participantes podem executar um protocolo de assi
     <img src="/content-images/1634081807-frost-flexible-round-optimize-3697a713d9.webp" alt="" width="400" height="300"/>
 </a>
 
-## Visual / Analogia
+## Visual / analogia
 
 Pense no FROST como um cofre que só abre quando vários detentores autorizados de chaves giram suas chaves juntos — mas nem todos os detentores são necessários; apenas uma quantidade definida (por exemplo, quaisquer 3 de 5). Quando o cofre é aberto, um observador externo não consegue dizer quais detentores de chave compareceram, nem sequer que mais de um esteve envolvido. Da mesma forma, um grupo pode autorizar conjuntamente uma transação Zcash enquanto a rede vê apenas uma assinatura comum.
 
@@ -73,7 +73,7 @@ Ao final do protocolo DKG, é gerada uma chave conjunta de verificação vk. Cad
 
 Esta fase se baseia em técnicas conhecidas que empregam compartilhamento aditivo de segredo e conversão de partes para gerar de forma não interativa o nonce de cada assinatura. Ela também aproveita técnicas de vinculação para evitar ataques de falsificação conhecidos sem limitar a concorrência.
 
-Na etapa de pré-processamento, cada participante prepara um número fixo de pares de pontos de Curva Elíptica (EC) para uso posterior. Esta etapa é executada uma vez para múltiplas fases de assinatura de limiar.
+Na etapa de pré-processamento, cada participante prepara um número fixo de pares de pontos de Elliptic Curve (EC) para uso posterior. Esta etapa é executada uma vez para múltiplas fases de assinatura de limiar.
 
 <a href="">
     <img src="/content-images/preprocess-5cbb14f892.webp" alt="" width="400" height="300"/>
@@ -93,12 +93,12 @@ Tendo calculado o desafio c, cada participante pode calcular a resposta zᵢ usa
 
 [Leia o artigo completo](https://eprint.iacr.org/2020/852.pdf)
 ### Uso de FROST no ecossistema mais amplo
-
+### Uso de FROST no ecossistema mais amplo
 **FROST na [Coinbase](https://github.com/coinbase/kryptology/tree/master/pkg/dkg/frost)**
 
 Para melhorar a eficiência dos sistemas de assinatura por limiar da Coinbase, eles desenvolveram uma versão de FROST. Esta implementação da Coinbase faz pequenas alterações em relação ao rascunho original de FROST.
-
-Eles optaram por não usar o papel de agregador de assinaturas. Em vez disso, cada participante é um agregador de assinaturas. Esse design é mais seguro: todos os participantes do protocolo verificam os cálculos dos outros, alcançando assim um nível mais alto de segurança e reduzindo o risco. A etapa única de pré-processamento também foi removida para acelerar a implementação, usando-se uma terceira rodada de assinatura em seu lugar.
+Para melhorar a eficiência dos sistemas de assinatura de limiar da Coinbase, eles desenvolveram uma versão de FROST. Esta implementação da Coinbase faz pequenas alterações em relação ao rascunho original de FROST.
+Eles optaram por não usar o papel de agregador de assinaturas. Em vez disso, cada participante é um agregador de assinaturas. Esse design é mais seguro: todos os participantes do protocolo verificam os cálculos dos outros, alcançando assim um nível mais alto de segurança e reduzindo o risco. A etapa única de pré-processamento também foi removida para acelerar a implementação, usando uma terceira rodada de assinatura em seu lugar.
 
 ---
 
@@ -106,49 +106,49 @@ Eles optaram por não usar o papel de agregador de assinaturas. Em vez disso, ca
 
 Uma melhoria específica de aplicação sobre FROST é proposta para uso na [Sidechain Liquid da Blockstream](https://blog.blockstream.com/roast-robust-asynchronous-schnorr-threshold-signatures/) para Bitcoin.
 
-“ROAST é um wrapper simples em torno de esquemas de assinatura por limiar como FROST. Ele garante que um quórum de signatários honestos, por exemplo, os functionaries da Liquid, possa sempre obter uma assinatura válida mesmo na presença de signatários disruptivos quando as conexões de rede têm latência arbitrariamente alta.”
-
+"ROAST é um wrapper simples em torno de esquemas de assinatura por limiar como FROST. Ele garante que um quórum de signatários honestos, por exemplo, os operadores da Liquid, possa sempre obter uma assinatura válida mesmo na presença de signatários disruptivos quando as conexões de rede têm latência arbitrariamente alta."
+“ROAST é um wrapper simples em torno de esquemas de assinatura de limiar como FROST. Ele garante que um quórum de signatários honestos, por exemplo, os funcionários da Liquid, possa sempre obter uma assinatura válida mesmo na presença de signatários disruptivos quando as conexões de rede têm latência arbitrariamente alta.”
 ---
 
 **FROST no IETF**
-
+**FROST no IETF**
 A Internet Engineering Task Force, fundada em 1986, é a principal organização de desenvolvimento de padrões para a Internet. O IETF desenvolve padrões voluntários que frequentemente são adotados por usuários da Internet, operadores de rede e fornecedores de equipamentos, ajudando a moldar a trajetória da Internet.
 
 A versão 11 de FROST (variante de duas rodadas) foi [submetida ao IRTF](https://datatracker.ietf.org/doc/draft-irtf-cfrg-frost/11/). Este é um passo importante rumo à avaliação completa de FROST como um novo padrão de esquema de assinatura por limiar para uso em toda a internet, em dispositivos de hardware e em outros serviços nos próximos anos.
 
 
-## Implicações Práticas
+## Implicações práticas
 
 Com certeza, sim. A introdução de FROST no Zcash permitirá que múltiplas partes, separadas geograficamente, controlem a autoridade de gasto de ZEC blindado. As transações transmitidas usando esse esquema de assinatura serão indistinguíveis de outras transações na rede, mantendo forte resistência ao rastreamento de pagamentos e limitando a quantidade de dados da blockchain disponível para análise.
-
+Com certeza. A introdução de FROST ao Zcash permitirá que várias partes, separadas geograficamente, controlem a autoridade de gasto de ZEC blindado. As transações transmitidas usando este esquema de assinatura serão indistinguíveis de outras transações na rede, mantendo forte resistência ao rastreamento de pagamentos e limitando a quantidade de dados da blockchain disponíveis para análise.
 Na prática, isso permite que uma ampla gama de novas aplicações seja construída na rede, desde provedores de custódia em garantia até outros serviços sem custódia.
 
-FROST também se tornará um componente essencial na emissão e gestão seguras de Zcash Shielded Assets (ZSA), permitindo um gerenciamento mais seguro da autoridade de gasto dentro de organizações de desenvolvimento e custodians de ZEC, como exchanges, ao mesmo tempo em que também fornece essa capacidade aos usuários de Zcash.
-
-## Erros Comuns
+FROST também se tornará um componente essencial na emissão e gestão seguras de Zcash Shielded Assets (ZSA), permitindo um gerenciamento mais seguro da autoridade de gasto dentro de organizações de desenvolvimento e custodiantes de ZEC, como corretoras, ao mesmo tempo em que também fornece essa capacidade aos usuários de Zcash.
+FROST também se tornará um componente essencial na emissão e gestão seguras de Zcash Shielded Assets (ZSA), permitindo uma gestão mais segura da autoridade de gasto dentro de organizações de desenvolvimento e custodiantes de ZEC, como exchanges, além de fornecer essa capacidade aos usuários de Zcash.
+## Erros comuns
 
 **Confundir FROST com multisig tradicional on-chain**. O multisig tradicional pode revelar múltiplos signatários ou múltiplas assinaturas on-chain. FROST produz uma única assinatura Schnorr agregada, então uma transação é indistinguível de uma transação com assinatura única.
-
+**Confundir FROST com multisig tradicional on-chain**. Multisig tradicional pode revelar vários signatários ou várias assinaturas on-chain. FROST produz uma única assinatura Schnorr agregada, portanto uma transação é indistinguível de uma transação com uma única assinatura.
 **Presumir que menos do que o limiar pode assinar**. Apenas um número limiar (t-de-n) de participantes atuando em conjunto pode produzir uma assinatura válida; qualquer grupo menor não pode.
 
 **Presumir que FROST esconde tudo off-chain**. FROST protege a assinatura on-chain, mas a coordenação entre os signatários ainda ocorre off-chain e exige seus próprios controles de privacidade e segurança.
+**Supor que FROST oculta tudo off-chain**. FROST protege a assinatura on-chain, mas a coordenação entre os signatários ainda ocorre off-chain e requer seus próprios controles de privacidade e segurança.
 
-
-## Páginas Relacionadas
+## Páginas relacionadas
 
 - [Halo](/zcash-tech/halo) — o sistema de provas recursivo e sem confiança usado na pool Orchard do Zcash.
-- [Viewing Keys](/zcash-tech/viewing-keys) — divulgação seletiva para transações blindadas.
+- [Chaves de visualização](/zcash-tech/viewing-keys) — divulgação seletiva para transações blindadas.
 - [Zcash Shielded Assets](/zcash-tech/zcash-shielded-assets) — onde FROST ajuda a gerenciar a autoridade de gasto/emissão.
 - [Zcash Wallet Syncing](/zcash-tech/zcash-wallet-syncing) — outra peça central da infraestrutura de privacidade do Zcash.
 
 
-## Aprendizado Adicional
+## Aprendizado adicional
 
-[Artigo da Coinbase - Assinaturas por Limiar](https://www.coinbase.com/blog/threshold-digital-signatures)
+[Artigo da Coinbase - Assinaturas por limiar](https://www.coinbase.com/blog/threshold-digital-signatures)
 
-[Shamir Secret Sharing - Explicação e Exemplo](https://www.geeksforgeeks.org/shamirs-secret-sharing-algorithm-cryptography/)
+[Shamir Secret Sharing - Explicação e exemplo](https://www.geeksforgeeks.org/shamirs-secret-sharing-algorithm-cryptography/)
 
-[Vídeo Curto sobre Assinaturas Digitais Schnorr](https://youtu.be/r9hJiDrtukI?t=19)
+[Vídeo curto sobre assinaturas digitais Schnorr](https://youtu.be/r9hJiDrtukI?t=19)
 
 ___
 ___

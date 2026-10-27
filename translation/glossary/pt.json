@@ -217,6 +217,7 @@
         "chave de visualização",
         "chaves de visualização"
       ],
+      "context": "Lowercase generic viewing key = chave de visualização. The capitalised protocol names Viewing Key, Full Viewing Key and Incoming Viewing Key stay in English (a Full Viewing Key), as do Unified Address and other protected names.",
       "applies_to": "both",
       "status": "approved",
       "reviewed_by": [

@@ -1,4 +1,4 @@
-# Guia de Multisig do Zkool
+# Guia de multisig do Zkool
 
 Este guia fornece um passo a passo de como realizar transações multisig usando Zkool. Inclui a criação de contas, o envio ou recebimento de fundos e a configuração da geração distribuída de chaves (DKG) para multisig. Capturas de tela estão incluídas para cada etapa principal.
 
@@ -16,15 +16,15 @@ Este guia fornece um passo a passo de como realizar transações multisig usando
 </div>
 
 
-## 1. Criando uma Conta
+## 1. Criando uma conta
 
 
-1. Abra o **app Zkool** e vá para **Nova Conta**.
+1. Abra o **app Zkool** e vá para **Nova conta**.
 
 
 ![img1](/content-images/ee906e49-361a-49b6-9484-904897fe2e3f-074e400a9c.webp)
 
-3. Insira um **Nome da Conta** (ex.: Anabelle).  
+3. Insira um **Nome da conta** (ex.: Anabelle).  
    
 
 ![img2](/content-images/e9c325d3-8507-433a-a0c6-6e8c1ea2a254-a637810ed5.webp)
@@ -33,15 +33,15 @@ Este guia fornece um passo a passo de como realizar transações multisig usando
 4. Opcionalmente, ative **Use Internal Change** ou **Restore Account**, se necessário.
 
 
-5. Após a criação, a conta aparecerá na sua **Lista de Contas**.  
+5. Após a criação, a conta aparecerá na sua **Lista de contas**.  
 
 
 ![img3](/content-images/c446cbca-fb3e-49b9-b1d4-fd727cd1b0fb-971cf76b33.webp)
 
 
-## 2. Recebendo Fundos
+## 2. Recebendo fundos
 
-Cada conta gera vários tipos de endereço:
+Cada conta gera vários tipos de endereços:
 
 **Unified Address**
 
@@ -49,7 +49,7 @@ Cada conta gera vários tipos de endereço:
 
 **Endereço Sapling**
   
-**Endereço Transparente**
+**Endereço transparente**
 
 
 Selecione o tipo que deseja usar e compartilhe-o para receber fundos.  
@@ -61,9 +61,9 @@ Selecione o tipo que deseja usar e compartilhe-o para receber fundos.
 
 
 
-## 3. Enviando Fundos
+## 3. Enviando fundos
 
-1. Vá para a seção **Recipient**.  
+1. Vá para a seção **Destinatário**.  
 
 
 ![img5](/content-images/9f3a03b9-dd56-450c-a8dc-4370f9289138-3217d846b7.webp)
@@ -71,18 +71,18 @@ Selecione o tipo que deseja usar e compartilhe-o para receber fundos.
 
 3. Insira o **endereço do destinatário**.  
 
-4. Especifique o **valor** e o **memo** opcional.  
+4. Especifique o **valor** e o **memorando** opcional.  
 
 5. Revise os detalhes da transação e **confirme**.  
 
 
-Quando concluído, o saldo será atualizado na sua lista de contas.  
+Quando a transação for concluída, o saldo será atualizado na sua lista de contas.  
 
 
 ![img6](/content-images/6e6da76b-cd18-4567-a5c0-74f07ddefc64-78dc3362dc.webp)
 
 
-## 4. Realizando Transações Multisig: Configurando a Geração Distribuída de Chaves (Multisig)
+## 4. Realizando transações multisig: configurando a geração distribuída de chaves (DKG)
 
 O multisig no Zkool usa **Distributed Key Generation (DKG)** para garantir que vários participantes controlem uma conta compartilhada.
 
@@ -91,37 +91,37 @@ O multisig no Zkool usa **Distributed Key Generation (DKG)** para garantir que v
 ### Etapa 1: Iniciar o DKG
 Escolha um **Nome** para a carteira compartilhada (ex.: Anabelle).
 
-Defina o **Número de Participantes**.
+Defina o **Número de participantes**.
   
-Escolha seu **ID de Participante**.
+Escolha seu **ID de participante**.
   
-Defina o **Número de Signatários Necessários (Limite)**.
+Defina o **Número de signatários necessários (limite)**.
     
-Selecione a **Conta de Financiamento**.
+Selecione a **Conta de financiamento**.
   
 
 ![img7](/content-images/8a90ca85-5439-4937-b16d-a570e69d55f0-1477202a57.webp)
 
 
 
-### Etapa 2: Adicionar Endereços dos Participantes
+### Etapa 2: Adicionar endereços dos participantes
 - Insira o **Unified Address** de cada participante (recomendado).
 
 
 **Observação:** Se você usar um endereço somente Orchard ou somente Sapling, o multisig ficará limitado apenas àquele pool (Orchard ou Sapling).  
 Isso significa que a carteira compartilhada não poderá receber fundos de outros pools.  
-Para máxima compatibilidade e flexibilidade, use sempre **Unified Addresses**.  
+Para máxima compatibilidade e flexibilidade, use sempre **Endereços unificados**.  
 
 
-### Etapa 3: Executar as Rodadas de DKG
-Aguarde que todos os participantes troquem os pacotes da **rodada 1** e da **rodada 2**.  
+### Etapa 3: Executar as rodadas de DKG
+Aguarde até que todos os participantes troquem os pacotes da **rodada 1** e da **rodada 2**.  
 
 
 ![img8](/content-images/cdaf6e00-3cb0-4774-8a96-5ded19bf31c4-b6bb50bbab.webp)
 
 
 
-### Etapa 4: Finalizar o Endereço Compartilhado
+### Etapa 4: Finalizar o endereço compartilhado
 Quando concluído, um **endereço compartilhado** é gerado.  
 
 

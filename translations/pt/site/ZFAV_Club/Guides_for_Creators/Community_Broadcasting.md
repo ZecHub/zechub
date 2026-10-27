@@ -2,9 +2,9 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Editar Página"/>
 </a>
 
-# Transmissão Comunitária usando VDO.Ninja e OBS Studio
+# Transmissão comunitária usando VDO.Ninja e OBS Studio
 
-Este breve tutorial foi criado durante o [DWeb Camp 2023](https://dwebcamp.org/) por um grupo de fellows e voluntários. O objetivo deste exercício é aproveitar o uso de dispositivos smartphone conectados a uma rede MESH offline para gravação e transmissão de vídeo colaborativas.
+Este breve tutorial foi criado durante o [DWeb Camp 2023](https://dwebcamp.org/) por um grupo de fellows e voluntários. O objetivo deste exercício é aproveitar o uso de smartphones conectados a uma rede MESH offline para gravação e transmissão colaborativas de vídeo.
 
 Usamos dois softwares de código aberto, [OBS Studio (software Open Broadcaster)](https://obsproject.com/) e [VDO.Ninja](https://vdo.ninja/). Esses softwares podem ser baixados e executados localmente no seu computador.
 
@@ -14,7 +14,7 @@ OBS Studio é um software livre e de código aberto para gravação e transmiss�
 
 As interfaces de usuário do OBS Studio podem parecer bastante intimidadoras para usuários de primeira viagem. O OBS Studio é dividido em duas janelas, "Preview" e "Broadcast". A janela de preview mostra os vídeos disponíveis (várias câmeras, como webcam, Iriun Webcam, OBS Virtual Camera, fontes de vídeo e navegador), chamados de "Scenes", e "Broadcast" mostra a transmissão ao vivo.
 
-Para transmitir uma câmera remota do VDO.ninja para o OBS Studio, você começa adicionando uma nova "Browser Source" em "Sources > Add > Browser". Na nova janela, você pode fornecer a URL da fonte do VDO.Ninja e selecionar "Make source visible".
+Para transmitir a transmissão de uma câmera remota do VDO.ninja para o OBS Studio, comece adicionando uma nova "Browser Source" em "Sources > Add > Browser". Na nova janela, você pode fornecer a URL da fonte do VDO.Ninja e selecionar "Make source visible".
 
 Agora você já pode começar a transmitir os streams remotos.
 
@@ -22,7 +22,7 @@ Agora você já pode começar a transmitir os streams remotos.
 
 [VDO.Ninja](https://vdo.ninja/) é uma aplicação web gratuita e de código aberto que permite transformar seus dispositivos móveis em câmeras para transmissão ao vivo. O software pode ser baixado e implantado no seu computador local, ou você pode usar diretamente a [versão online em https://vdo.ninja](https://vdo.ninja/).
 
-A interface do VOD.Ninja é simples: basta abrir o VDO.Ninja no navegador web do seu dispositivo móvel e selecionar "Add your camera to OBS". Em seguida, você selecionará sua câmera e dispositivo de áudio na lista de dispositivos e clicará em "Start". Depois disso, você receberá um link de "view" que poderá adicionar ao OBS Studio.
+A interface do VOD.Ninja é simples: basta abrir o VDO.Ninja no navegador web do seu dispositivo móvel e selecionar "Add your camera to OBS". Em seguida, selecione sua câmera e dispositivo de áudio na lista de dispositivos e clique em "Start". Depois disso, você receberá um link de "view" que poderá adicionar ao OBS Studio.
 
 ## Dirigindo uma chamada comunitária com VDO.Ninja
 
@@ -66,7 +66,7 @@ Existem alguns plugins contribuídos pela comunidade que parecem fornecer esse r
 
 - Você poderia desenvolver seus próprios plugins para o OBS Studio?
 
-Sim, o OBS oferece suporte a scripts em lua e python. Também a JavaScript para overlays e webviews.
+Sim, o OBS oferece suporte a scripts em Lua e Python. Também oferece suporte a JavaScript para overlays e webviews.
 
 - Usamos fade to black ao vivo ou transições?
 
@@ -78,7 +78,7 @@ Isso depende principalmente do destino para onde você está transmitindo. Por e
 
 - O áudio falha ao usar o OBS em uma máquina lenta e ao fazer chroma key
 
-Use encoder de hardware ou use o StreamYard
+Use um encoder de hardware ou o StreamYard
 [https://support.streamyard.com/hc/en-us/articles/360056350852-How-to-Use-OBS-Virtual-Camera-with-StreamYard](https://support.streamyard.com/hc/en-us/articles/360056350852-How-to-Use-OBS-Virtual-Camera-with-StreamYard) ou [RiverSide.FM](http://riverside.fm/)
 
 ## Créditos
@@ -93,5 +93,5 @@ Use encoder de hardware ou use o StreamYard
 
 [https://docs.vdo.ninja/](https://docs.vdo.ninja/)
 
-Office Hours: A comunidade de mídia e eventos digitais
+Office Hours: The media and digital event community
 [https://alex4d.com/notes/item/media-and-digital-event-community](https://alex4d.com/notes/item/media-and-digital-event-community)

@@ -1,137 +1,137 @@
-# O ETF de Grayscale Zcash (ZCSH)
+# O ETF de Zcash da Grayscale (ZCSH)
 
-**Zcash não lançou um ETF. Grayscale lançou**, ao converter um fundo que
-gere desde 2017. Zcash é um protocolo — não tem empresa, tesouraria ou conselho
-que pudesse emitir um fundo. Grayscale é um gestor de ativos independente que compra
+**O Zcash não lançou um ETF. A Grayscale lançou**, ao converter um fundo que
+administra desde 2017. O Zcash é um protocolo — não tem empresa, tesouro ou conselho დირექტivo
+que pudesse emitir um fundo. A Grayscale é uma gestora independente de ativos que compra
 ZEC no mercado aberto como qualquer outra pessoa.
 
-Essa distinção é o aspeto mais frequentemente mal interpretado sobre ZCSH, e é aqui
-que esta página começa. Em 25 de agosto de 2026, o fundo começou a ser negociado na NYSE Arca como
-*O ETF de Zcash*, o primeiro produto negociado em bolsa à vista de Zcash nos EUA, e é
+Essa distinção é o aspecto mais frequentemente mal interpretado sobre o ZCSH, e é por onde
+esta página começa. Em 25 de agosto de 2026, o fundo começou a ser negociado na NYSE Arca como
+*O ETF de Zcash*, o primeiro produto de Zcash negociado em bolsa à vista nos EUA, e é
 agora um dos maiores detentores individuais de ZEC existentes.
 
-![How the Grayscale Zcash ETF works: investors buy ZCSH shares through a brokerage and receive price exposure only, while the trust holds the ZEC at Coinbase Custody in transparent wallets; Authorized Participants create and redeem shares in baskets of 10,000 for cash, and the Sponsor's Fee is paid out of the trust's ZEC, so ZEC per share declines over time](https://raw.githubusercontent.com/ZecHub/zechub/main/assets/ZCSH_ETP_Structure.png)
+![Como funciona o ETF Grayscale Zcash: os investidores compram ações ZCSH por meio de uma corretora e recebem apenas exposição ao preço, enquanto o trust mantém os ZEC na Coinbase Custody em carteiras transparentes; Authorized Participants criam e resgatam ações em lotes de 10.000 por dinheiro, e a Sponsor's Fee é paga com os ZEC do trust, de modo que o ZEC por ação diminui ao longo do tempo](https://raw.githubusercontent.com/ZecHub/zechub/main/assets/ZCSH_ETP_Structure.png)
 
 ## O mesmo fundo, três fases
 
-| Quando | O que mudou |
+| When | O que mudou |
 | --- | --- |
-| Outubro de 2017 | Lançado como colocação privada, apenas para investidores acreditados |
-| Outubro de 2021 | Ações cotadas na OTCQX sob o ticker ZCSH, negociadas com desconto face ao NAV |
-| 25 de agosto de 2026 | Torna-se um ETP resgatável na NYSE Arca e elimina “Trust” do nome |
+| October 2017 | Lançado como uma colocação privada, somente para investidores credenciados |
+| October 2021 | Ações cotadas na OTCQX sob o ticker ZCSH, negociadas com desconto em relação ao NAV |
+| 25 August 2026 | Torna-se um ETP resgatável na NYSE Arca e remove "Trust" do nome |
 
 A etapa de 2026 não é meramente cosmética. Um trust cotado em OTC não tem mecanismo
-de resgate, pelo que as suas ações podem afastar-se, com prémio ou desconto, do valor
-dos ativos subjacentes, por vezes de forma acentuada — precisamente o que
-aconteceu entre 2021 e 2026. Um produto negociado em bolsa com criação e resgate
-funcionais tem uma via de arbitragem que mantém o preço da ação
-ligado ao valor líquido dos ativos. Mudar de um para o outro muda a forma como o
-instrumento se comporta enquanto valor mobiliário.
+de resgate, portanto suas ações podem se distanciar, com prêmio ou desconto, do valor
+dos ativos subjacentes, às vezes de forma acentuada — exatamente o que
+aconteceu entre 2021 e 2026. Um produto negociado em bolsa com mecanismos de
+criação e resgate funcionais tem uma via de arbitragem que mantém o preço da ação
+atrelado ao valor patrimonial líquido. Mudar de um para o outro muda a forma como o
+instrumento se comporta como um título mobiliário.
 
 ## Quem faz o quê
 
-| Função | Parte |
+| Role | Parte |
 | --- | --- |
-| Patrocinador | Grayscale Investments Sponsors, LLC |
-| Fiduciário | CSC Delaware Trust Company |
-| Administrador e agente de transferência | O Bank of New York Mellon |
-| Corretor principal | Coinbase, Inc. — obtém ZEC para o trust |
-| Participantes autorizados | Jane Street, Virtu — criam e resgatam ações |
-| Agente de marketing | Foreside Fund Services |
-| **Custodiante** | **Coinbase Custody Trust Company, LLC** — o único local onde existe ZEC real |
+| Sponsor | Grayscale Investments Sponsors, LLC |
+| Trustee | CSC Delaware Trust Company |
+| Administrator and transfer agent | Bank of New York Mellon |
+| Prime broker | Coinbase, Inc. — obtém ZEC para o trust |
+| Authorised participants | Jane Street, Virtu — criam e resgatam ações |
+| Marketing agent | Foreside Fund Services |
+| **Custodian** | **Coinbase Custody Trust Company, LLC** — o único local onde o ZEC real existe |
 
-Nenhuma destas partes, por si só, é o fundo. A estrutura é o acordo
-entre elas, que é o que o diagrama acima apresenta. Várias destas funções
-estavam ausentes ou mal apresentadas na cobertura jornalística na altura da cotação; a lista aqui
-segue a declaração de registo Form S-3 da Grayscale na EDGAR.
+Nenhuma dessas partes, isoladamente, é o fundo. A estrutura é o acordo
+entre elas, que é o que o diagrama acima apresenta. Várias dessas funções
+estavam ausentes ou mal apresentadas na cobertura da imprensa no momento da listagem; a lista aqui
+segue a declaração de registro Form S-3 da Grayscale na EDGAR.
 
 ## Como as ações são criadas e resgatadas
 
-Apenas os Participantes Autorizados — corretoras registadas ao abrigo de acordo com
-o Patrocinador — podem criar ou resgatar ações, e apenas em blocos de 10 000,
-denominados Baskets. Um investidor comum nunca interage com este mecanismo; compra
-e vende ações existentes na bolsa, como qualquer outro valor cotado.
+Apenas os Participantes Autorizados — corretoras registradas sob contrato com
+o Patrocinador — podem criar ou resgatar ações, e apenas em blocos de 10.000,
+chamados Baskets. Um investidor comum nunca lida com esse mecanismo; compra
+e vende ações existentes na bolsa, como qualquer outro título listado.
 
-O mecanismo é atualmente **em numerário**, não em espécie. Um Participante Autorizado
-deposita numerário numa conta de numerário, ou recebe numerário dela, e um fornecedor de
-liquidez terceiro é quem efetivamente adquire ou aliena os ZEC. A
-declaração de registo também descreve um processo em espécie, no qual um
-Participante Autorizado depositaria ZEC diretamente junto do Trust ou receberia
-ZEC deste — mas declara claramente que “a Aprovação Regulamentar em Espécie não
-foi obtida” e poderá nunca ser.
+O mecanismo é atualmente **em dinheiro**, não em espécie. Um Participante Autorizado
+deposita dinheiro em uma conta em dinheiro ou recebe dinheiro dela, e um provedor de
+liquidez terceirizado é quem efetivamente adquire ou se desfaz dos ZEC. A
+declaração de registro também descreve um processo em espécie, no qual um
+Participante Autorizado depositaria ZEC diretamente junto ao Trust ou receberia
+ZEC dele — mas declara claramente que "a aprovação regulatória em espécie não
+foi obtida" e poderá nunca ser.
 
-Assim, no processo em numerário, ZEC muda de mãos entre o fornecedor de liquidez
-e o mercado, nunca entre o investidor e o Trust. Ninguém no percurso de retalho
+Assim, no processo em dinheiro, o ZEC muda de mãos entre o provedor de liquidez
+e o mercado, nunca entre o investidor e o Trust. Ninguém no percurso do investidor de varejo
 interage com um endereço de Zcash.
 
-## A comissão é paga em ZEC
+## A taxa é paga em ZEC
 
-A comissão do patrocinador é de **2,5% ao ano**, à data da cotação. É acumulada diariamente como
-percentagem do valor líquido dos ativos e é, nas palavras do registo, “pagável em ZEC
-ao Patrocinador diariamente em atraso”.
+A taxa do patrocinador é de **2,5% ao ano**, na data da listagem. É acumulada diariamente como uma
+porcentagem do valor patrimonial líquido e é, nas palavras do registro, "pagável em ZEC
+ao Patrocinador diariamente em atraso".
 
-A consequência é estrutural, e não incidental. A comissão sai dos
-ZEC do fundo, pelo que a quantidade de ZEC que suporta cada ação diminui um pouco todos os
+A consequência é estrutural, e não incidental. A taxa sai dos
+ZEC do fundo, portanto a quantidade de ZEC que sustenta cada ação diminui um pouco todos os
 dias. Uma ação não é uma quantidade fixa de ZEC mantida indefinidamente; é um direito
-sobre uma quantidade que diminui lentamente. Quem comparar uma exposição de longo prazo a ZCSH com
-simplesmente deter ZEC precisa de incluir isso na comparação.
+sobre uma quantidade que diminui lentamente. Quem compara uma exposição de longo prazo ao ZCSH com
+simplesmente manter ZEC precisa levar isso em conta na comparação.
 
-Como contexto, 2,5% é aproximadamente dez vezes a comissão de um ETF à vista de bitcoin típico.
-Grayscale afirmou que as receitas iniciais da comissão do patrocinador serão direcionadas de volta
-para o desenvolvimento do ecossistema de Zcash.
+Para contextualizar, 2,5% é aproximadamente dez vezes a taxa de um ETF à vista de bitcoin típico.
+A Grayscale afirmou que as receitas iniciais da taxa do patrocinador serão direcionadas novamente
+para o desenvolvimento do ecossistema do Zcash.
 
 ## O que um acionista realmente possui
 
-Uma ação representa exposição ao preço de ZEC. Não é ZEC.
+Uma ação representa exposição ao preço do ZEC. Não é ZEC.
 
-Um acionista não pode enviar uma transação blindada, não pode anexar uma nota, não pode
-deter um endereço unificado e não pode fazer autocustódia. Nenhuma das propriedades que
-distinguem Zcash de outros ativos está disponível através do invólucro — o
+Um acionista não pode enviar uma transação blindada, não pode anexar um memorando, não pode
+manter um endereço unificado e não pode fazer autocustódia. Nenhuma das propriedades que
+distinguem o Zcash de outros ativos está disponível por meio do invólucro — o
 invólucro transmite preço e nada mais. Para um investidor cujo objetivo é obter exposição
-numa conta de corretagem ou de reforma, esse é precisamente o objetivo. Para
-quem se interessa por Zcash pela privacidade, o ETF não substitui uma
-wallet, e os dois não são realmente alternativas entre si.
+em uma conta de corretagem ou aposentadoria, esse é exatamente o objetivo. Para
+quem se interessa pelo Zcash por sua privacidade, o ETF não substitui uma
+carteira, e os dois não são realmente alternativas entre si.
 
-## O ZEC é detido abertamente
+## O ZEC é mantido abertamente
 
 Há uma ironia adicional na estrutura, e é o ponto mais marcante desta
-página. Coinbase Custody detém os ZEC do Trust em endereços **transparentes**,
+página. A Coinbase Custody mantém os ZEC do Trust em endereços **transparentes**,
 e não blindados. As participações do fundo são visíveis na chain,
-rastreáveis até ao custodiante e observáveis em tempo real por qualquer pessoa que queira
-consultar. Nada neste fundo utiliza um endereço blindado.
+rastreáveis até o custodiante e observáveis em tempo real por qualquer pessoa que queira
+observar. Nada neste fundo usa um endereço blindado.
 
-Isto não é uma omissão. A infraestrutura de fundos regulados é construída em torno de auditoria
+Isso não é um descuido. A infraestrutura de fundos regulados é construída em torno de auditoria
 e atestação, e um saldo blindado é precisamente aquilo que um auditor não consegue
-verificar de forma independente. O próprio suporte da Coinbase reflete a mesma assimetria: pode
-receber ZEC enviados de um endereço blindado, mas não envia ZEC para
+verificar de forma independente. O próprio suporte da Coinbase reflete a mesma assimetria: ele
+pode receber ZEC enviado de um endereço blindado, mas não envia ZEC para
 um.
 
-Assim, o maior detentor institucional de um ativo de privacidade mantém-no na única
-forma que não oferece privacidade. Este ponto baseia-se em reportagem, e não nos
-registos — o S-3 descreve a custódia das chaves privadas do Trust, mas não
-caracteriza os tipos de endereço — e é aqui apresentado com essa ressalva.
+Assim, o maior detentor institucional de um ativo de privacidade o mantém na única
+forma que não oferece privacidade. Este ponto baseia-se em reportagens, e não nos
+documentos protocolados — o S-3 descreve a custódia das chaves privadas do Trust, mas não
+caracteriza os tipos de endereço — e é apresentado aqui com essa ressalva.
 
 ## Quanto ZEC está envolvido
 
-Na cotação, em 25 de agosto de 2026, o fundo detinha aproximadamente **387 000 ZEC**, com
+Na listagem, em 25 de agosto de 2026, o fundo detinha aproximadamente **387.000 ZEC**, com
 cerca de **313 milhões de dólares** sob gestão.
 
-Numa perspetiva mais longa: em 30 de setembro de 2025, o registo declara que o Trust detinha
+Em uma perspectiva de longo prazo: em 30 de setembro de 2025, o registro declara que o Trust detinha
 cerca de **2,4% do ZEC em circulação**. Ambos os números variam — o primeiro com o
-preço de ZEC e com criações e resgates, o segundo à medida que a comissão é paga
-a partir das participações — por isso, obtenha um valor atual a partir do registo mais recente ou
-da divulgação diária do próprio fundo, e não desta página.
+preço do ZEC e com criações e resgates, o segundo à medida que a taxa é paga
+das participações — portanto, obtenha um valor atual no registro mais recente ou
+na divulgação diária do próprio fundo, e não nesta página.
 
 ## Fontes
 
-Todas primárias, todas na EDGAR sob o CIK 1720265, salvo indicação em contrário.
+Todas as fontes são primárias e estão na EDGAR sob o CIK 1720265, salvo indicação em contrário.
 
-- [Grayscale Zcash Trust (ZEC) — índice de registos da EDGAR](https://www.sec.gov/edgar/browse/?CIK=1720265&owner=exclude)
-- [Declaração de registo Form S-3, novembro de 2025](https://www.sec.gov/Archives/edgar/data/1720265/000119312525298561/zcsh-20251126.htm) — as funções das entidades, mecanismos de criação e resgate, comissão do Patrocinador e percentagem de ZEC em circulação
-- [Form 10-K para o ano terminado em 31 de dezembro de 2024](https://www.sec.gov/Archives/edgar/data/1720265/000095017025035469/zcsh-20241231.htm)
+- [Grayscale Zcash Trust (ZEC) — índice de registros da EDGAR](https://www.sec.gov/edgar/browse/?CIK=1720265&owner=exclude)
+- [Declaração de registro do Form S-3, novembro de 2025](https://www.sec.gov/Archives/edgar/data/1720265/000119312525298561/zcsh-20251126.htm) — as funções das entidades, os mecanismos de criação e resgate, a taxa do Patrocinador e a porcentagem de ZEC em circulação
+- [Form 10-K para o ano encerrado em 31 de dezembro de 2024](https://www.sec.gov/Archives/edgar/data/1720265/000095017025035469/zcsh-20241231.htm)
 - [O ETF de Zcash começa a ser negociado na NYSE Arca, 25 de agosto de 2026](https://www.globenewswire.com/news-release/2026/8/25/3350404/0/en/the-zcash-etf-ticker-zcsh-built-by-grayscale-begins-trading-on-nyse-arca-expanding-investor-access-to-the-leading-privacy-focused-digital-currency.html)
-- [Grayscale página do fundo Zcash Trust](https://www.grayscale.com/funds/grayscale-zcash-trust) — datas de início e divulgação atual
-- [A primeira ETF de moeda de privacidade: análise do registo de Grayscale da Zcash](https://crypto.news/the-first-privacy-coin-etf-inside-grayscales-zcash-filing/) — fonte secundária; a única encontrada que afirma que os ZEC do Trust são detidos em endereços transparentes
+- [Página do fundo Grayscale Zcash Trust](https://www.grayscale.com/funds/grayscale-zcash-trust) — datas de início e divulgação atual
+- [O primeiro ETF de moeda de privacidade: análise do registro de Zcash da Grayscale](https://crypto.news/the-first-privacy-coin-etf-inside-grayscales-zcash-filing/) — fonte secundária; a única encontrada que afirma que os ZEC do Trust são mantidos em endereços transparentes
 
-Os valores são os das datas indicadas e irão variar. Verificado em 30 de setembro de 2026.
-Apenas para fins educativos, não constitui aconselhamento de investimento.
+Os valores correspondem às datas indicadas e variam. Verificado em 30 de setembro de 2026.
+Apenas para fins educativos, não constitui recomendação de investimento.

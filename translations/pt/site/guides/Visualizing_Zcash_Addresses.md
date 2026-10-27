@@ -3,16 +3,16 @@
 </a>
 
 
-# Visualizando Endereços Zcash
+# Visualizando endereços do Zcash
 
-Se está a aprender sobre Zcash pela primeira vez, perceberá imediatamente que há dois tipos de [transações](https://zechub.wiki/using-zcash/transactions) que podem ocorrer: *transparentes* e *blindadas*.
-Além disso, se tem acompanhado os desenvolvimentos mais recentes no ecossistema Zcash, poderá ter aprendido sobre [Endereços Unificados](https://web.archive.org/web/20260823012524/https://electriccoin.co/blog/unified-addresses-in-zcash-explained/), ou UA's.
-Quando as pessoas da indústria Zcash falam sobre transações *blindadas*, referem-se a transações que envolvem endereços codificados para os protocolos sapling ou orchard. 
-As UA's foram concebidas para unificar *qualquer* tipo de transação blindada ou transparente num único endereço. Esta generalização é a chave para simplificar a UX no futuro. O objetivo deste guia é complementar a compreensão das UA's com exemplos visuais concretos.
+Se você está aprendendo sobre o Zcash pela primeira vez, perceberá imediatamente que há dois tipos de [transações](https://zechub.wiki/using-zcash/transactions) que podem ocorrer: *transparentes* e *blindadas*.
+Além disso, se você tem acompanhado os desenvolvimentos mais recentes no ecossistema do Zcash, poderá ter aprendido sobre [Endereços unificados](https://web.archive.org/web/20260823012524/https://electriccoin.co/blog/unified-addresses-in-zcash-explained/), ou UA's.
+Quando as pessoas da indústria do Zcash falam sobre transações *blindadas*, referem-se a transações que envolvem endereços codificados para os protocolos sapling ou orchard. 
+As UA's foram projetadas para unificar *qualquer* tipo de transação blindada ou transparente em um único endereço. Essa generalização é a chave para simplificar a UX no futuro. O objetivo deste guia é complementar a compreensão das UA's com exemplos visuais concretos.
 
-## Tipos de endereços Zcash
+## Tipos de endereços do Zcash
 
-Atualmente, há três tipos principais de endereços em uso até o momento. Eles incluem
+Atualmente, há três principais tipos de endereços em uso. Eles incluem
 
 * transparentes
 
@@ -37,12 +37,12 @@ A segunda coisa a notar é o prefixo de cada string de endereço -- transparente
 
 É importante observar:
 
-#### "Os endereços de pagamento Orchard não têm uma codificação de string independente. Em vez disso, definimos "unified addresses" que podem agrupar endereços de diferentes tipos, incluindo Orchard. Unified addresses têm uma Parte Legível por Humanos de "u" na Mainnet, ou seja, terão o prefixo "u1". "
+#### "Os endereços de pagamento Orchard não têm uma codificação de string independente. Em vez disso, definimos "endereços unificados" que podem agrupar endereços de diferentes tipos, incluindo Orchard. Endereços unificados têm uma parte legível por humanos de "u" na Mainnet, ou seja, terão o prefixo "u1". "
 
 ## Receptores de Unified Address
 
-Como discutido [aqui](https://medium.com/@hanh425/transaction-privacy-78f80f9f175e), é possível construir UA's com diferentes receptores -- alguma combinação dos tipos de endereço transparente, sapling e orchard.
-Além de uma UA completa, aqui estão os mais comuns que você encontrará em uso:
+Como discutido [aqui](https://medium.com/@hanh425/transaction-privacy-78f80f9f175e), é possível construir UA's com diferentes receptores -- uma combinação dos tipos de endereço transparente, sapling e orchard.
+Além de uma UA completa, estas são as mais comuns que você encontrará por aí:
 
 * transparente + sapling
 
@@ -69,7 +69,7 @@ A primeira coisa a notar é que cada uma dessas UA's vem da mesma chave privada!
 * s+o `u1dq8kg78fgpjsc7dn2ynpdzc8xu99wra0jec4jy30rjqk5frsj62qtgqcu9nn0j8g352phlwprshancgxcuhdcclx0wxtvqylhmuegas7ul8hwnwggy727l05pyujuywtnn4nkfznctaelpkcrqcm9cxhkgv3t9jtrvgym7la5varrmzc` 178 caracteres
 * o   `u1cysntkxwt0h4sahp7rhj7u27pgc2ga7685ekf65g0d5ht5glkfm4zkumhvkd2zg2pdrgv3mrwq2x3vw2yl5u7zef3cr2nqwrzu7v2dsa` 106 caracteres
 
-A terceira coisa a notar é como, visualmente, cada UA é ligeiramente diferente! O poder das UA's é a *escolha* que elas permitem aos usuários finais. Se no futuro um novo protocolo for necessário, as UA's estarão prontas para entrar em ação.
+A terceira coisa a notar é como, visualmente, cada UA é ligeiramente diferente! O poder das UA's é a *escolha* que elas proporcionam aos usuários finais. Se no futuro um novo protocolo for necessário, as UA's estarão prontas para entrar em ação.
 
 ## Fontes
 

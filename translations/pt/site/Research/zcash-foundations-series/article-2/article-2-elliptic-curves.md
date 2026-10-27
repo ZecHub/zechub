@@ -1,15 +1,15 @@
-# Curvas Elípticas: Onde Nascem as Chaves e os Compromissos da Zcash
+# Curvas elípticas: onde nascem as chaves e os compromissos do Zcash
 ##### Pesquisa original de [Annkkitaaa](https://github.com/Annkkitaaa)
 
-![texto alternativo](/content-images/image-10-c1097b22d7.webp)
+![Texto alternativo](/content-images/image-10-c1097b22d7.webp)
 
 ### Uma rua de mão única construída a partir de pontos em uma curva
 
-> **Série:** *Zcash from First Principles* . **Artigo 2 . Curvas Elípticas**
+> **Série:** *Zcash from First Principles* . **Artigo 2 . Curvas elípticas**
 > **Público:** iniciantes. Assumimos apenas o [Artigo 1 (campos finitos)](article-1-finite-fields.md): aritmética que dá a volta em mod um primo. Nenhum outro conhecimento prévio é necessário.
-> **O que você vai levar daqui:** uma imagem intuitiva e correta das curvas elípticas, a "porta de alçapão" que as torna úteis, e exatamente como a Zcash as transforma em chaves e compromissos.
+> **O que você vai levar daqui:** uma imagem intuitiva e correta das curvas elípticas, a "porta de alçapão" que as torna úteis e exatamente como o Zcash as transforma em chaves e compromissos.
 
-O [Artigo 1](article-1-finite-fields.md) nos deu um playground perfeito para a aritmética: o campo finito. Mas um campo, por si só, é apenas números. Para construir chaves e os "envelopes lacrados" do [Artigo 0](article-0-shielded-transaction.md), a Zcash precisa de um objeto com um tipo especial de dificuldade unidirecional: fácil de calcular para frente, praticamente impossível de reverter. Esse objeto é uma **curva elíptica**. Este artigo a constrói do zero, intuição antes da álgebra.
+O [Artigo 1](article-1-finite-fields.md) nos deu um playground perfeito para a aritmética: o campo finito. Mas um campo, por si só, é apenas números. Para construir chaves e os "envelopes lacrados" do [Artigo 0](article-0-shielded-transaction.md), o Zcash precisa de um objeto com um tipo especial de dificuldade unidirecional: fácil de calcular para frente, praticamente impossível de reverter. Esse objeto é uma **curva elíptica**. Este artigo a constrói do zero, intuição antes da álgebra.
 
 ---
 
@@ -38,7 +38,7 @@ y^2 = x^3 + ax + b
 
 Sobre os números comuns, ela se parece com uma curva suave e ondulada, muitas vezes com um laço arredondado e duas caudas:
 
-![texto alternativo](/content-images/image-14-1d2e8c25d2.webp)
+![Texto alternativo](/content-images/image-14-1d2e8c25d2.webp)
 
 A parte realmente surpreendente: **você pode "somar" dois pontos nessa curva para obter um terceiro ponto na mesma curva.** Isso não é a soma comum das coordenadas. É uma regra geométrica, e é mais fácil de *ver* do que de descrever.
 
@@ -50,11 +50,11 @@ Para somar `P + Q`:
 2. Essa linha atinge a curva em exatamente mais um ponto. Chame-o de `R*`.
 3. **Reflita `R*` em relação ao eixo horizontal.** Esse reflexo é a resposta, `P + Q`.
 
-![texto alternativo](/content-images/image-11-61f3df1989.webp)
+![Texto alternativo](/content-images/image-11-61f3df1989.webp)
 
 ### A regra da tangente (somando um ponto consigo mesmo)
 
-Para calcular `P + P` (escrito `2P`), não há um segundo ponto para traçar uma linha, então você usa a linha **tangente** em `P`, e depois segue a mesma receita de "terceira interseção, depois refletir".
+Para calcular `P + P` (escrito `2P`), não há um segundo ponto para traçar uma linha, então você usa a linha **tangente** em `P` e depois segue a mesma receita de "terceira interseção, depois refletir".
 
 Essa é a operação inteira. Duas regras geométricas. Com elas, os pontos de uma curva elíptica formam o que os matemáticos chamam de **grupo**: um conjunto com uma "adição" bem-comportada. Ele até tem um "zero".
 
@@ -66,7 +66,7 @@ Todo sistema numérico precisa de um `0`, a coisa que não muda nada quando voc�
 
 ## 3. Das figuras para um campo finito
 
-A curva suave acima é a *intuição*. Mas a Zcash não usa números reais (eles arredondam e vazam tamanho, como vimos no Artigo 1). Ela usa uma curva elíptica **sobre um campo finito**: a mesma equação `y^2 = x^3 + ax + b`, mas com toda a aritmética feita mod um primo.
+A curva suave acima é a *intuição*. Mas o Zcash não usa números reais (eles arredondam e vazam tamanho, como vimos no Artigo 1). Ele usa uma curva elíptica **sobre um campo finito**: a mesma equação `y^2 = x^3 + ax + b`, mas com toda a aritmética feita mod um primo.
 
 Quando você faz isso, a curva bonita se estilhaça em uma **dispersão de pontos desconectados**, um ponto para cada par `(x, y)` que satisfaz a equação mod `p`. Ela deixa até de parecer uma curva. Mas aqui está o ponto crucial:
 
@@ -84,7 +84,7 @@ Tome `y^2 = x^3 + 2x + 2` sobre o campo finito `F_17`. Calcular todos os pontos 
 
 Agora escolha o ponto `G = (5, 1)` e continue somando-o a si mesmo. Veja o que acontece (cada linha abaixo foi calculada, não adivinhada):
 
-| Passo | Ponto | Passo | Ponto |
+| Step | Ponto | Passo | Ponto |
 |---|---|---|---|
 | `1G` | (5, 1) | `11G` | (13, 10) |
 | `2G` | (6, 3) | `12G` | (0, 11) |
@@ -110,14 +110,14 @@ Essa tabela de `1G, 2G, 3G, ...` é o coração de tudo. Somar repetidamente um 
 
 Agora vem a mágica. Considere as duas direções:
 
-| Direção | Pergunta | Dificuldade |
+| Direction | Pergunta | Dificuldade |
 |---|---|---|
-| **Para frente** | Dado `k` e `G`, calcular `kG` | **Fácil.** Mesmo para `k` astronomicamente grandes, um truque chamado *double-and-add* chega lá em algumas centenas de passos |
-| **Para trás** | Dado `G` e `kG`, recuperar `k` | **Efetivamente impossível** em uma curva criptográfica real |
+| **Forwards** | Dado `k` e `G`, calcular `kG` | **Fácil.** Mesmo para `k` astronomicamente grandes, um truque chamado *double-and-add* chega lá em algumas centenas de passos |
+| **Backwards** | Dado `G` e `kG`, recuperar `k` | **Efetivamente impossível** em uma curva criptográfica real |
 
-Essa assimetria é a **rua de mão única** de que precisávamos na Seção 1. O problema inverso ("qual `k` produziu este ponto?") é chamado de **Elliptic Curve Discrete Logarithm Problem (ECDLP)** e, nas curvas que a Zcash usa, nenhum método conhecido o resolve antes da morte térmica do universo.
+Essa assimetria é a **rua de mão única** de que precisávamos na Seção 1. O problema inverso ("qual `k` produziu este ponto?") é chamado de **Elliptic Curve Discrete Logarithm Problem (ECDLP)** e, nas curvas que o Zcash usa, nenhum método conhecido o resolve antes da morte térmica do universo.
 
-![texto alternativo](/content-images/image-12-86b9ace6cb.webp)
+![Texto alternativo](/content-images/image-12-86b9ace6cb.webp)
 
 > Em nossa curva de brinquedo `F_17` você *poderia* simplesmente ler `k` na tabela, porque ela só tem 19 pontos. Curvas reais têm algo em torno de `2^(255)` pontos. A tabela teria mais linhas do que há átomos no universo, então "ler na tabela" não é uma opção. O tamanho pequeno é o que torna a curva de brinquedo didática e também o motivo de ela não ser segura.
 
@@ -130,7 +130,7 @@ Agora temos tudo o que é necessário para explicar uma chave criptográfica rea
 > **Escolha um número secreto `k`. Publique o ponto `kG`. Só isso.**
 > `k` é sua **chave privada**. `kG` é sua **chave pública**. A rua de mão única (ECDLP) garante que ninguém pode voltar de `kG` para `k`.
 
-Essa ideia única, *uma chave pública é um escalar secreto vezes um gerador fixo*, é a semente das spending keys, viewing keys e endereços da Zcash. A árvore completa de chaves adiciona mais estrutura por cima, mas cada ramo cresce a partir desta raiz.
+Essa ideia única, *uma chave pública é um escalar secreto vezes um gerador fixo*, é a semente das chaves de gastos, chaves de visualização e endereços do Zcash. A árvore completa de chaves adiciona mais estrutura por cima, mas cada ramo cresce a partir desta raiz.
 
 ### Bônus: por que pontos de curva formam compromissos perfeitos
 
@@ -145,28 +145,28 @@ Isso é um **compromisso de Pedersen**, e ele tem as duas propriedades que quer�
 - **Ocultação:** o `r` aleatório espalha o resultado por toda a curva, então o ponto não revela nada sobre `v`.
 - **Vinculação:** o ECDLP torna inviável encontrar um `(v, r)` *diferente* que produza o mesmo ponto, então você não pode mudar de ideia sobre aquilo com que se comprometeu.
 
-Uma propriedade extra acaba sendo valiosíssima depois: esses compromissos **se somam**. O compromisso com `v_1` mais o compromisso com `v_2` é um compromisso válido com `v_1 + v_2`. Esse comportamento "homomórfico" é como a Zcash provará mais tarde que o dinheiro entrando *em* uma transação é igual ao dinheiro saindo *dela*, sem revelar nenhum valor. Vamos aproveitar isso por volta do Artigo 6.
+Uma propriedade extra acaba sendo valiosíssima depois: esses compromissos **se somam**. O compromisso com `v_1` mais o compromisso com `v_2` é um compromisso válido com `v_1 + v_2`. Esse comportamento "homomórfico" é como o Zcash provará mais tarde que o dinheiro entrando *em* uma transação é igual ao dinheiro saindo *dela*, sem revelar nenhum valor. Vamos aproveitar isso por volta do Artigo 6.
 
 ---
 
-## 6. Onde isso vive na Zcash
+## 6. Onde isso vive no Zcash
 
 As marcas disso são concretas e verificáveis.
 
-| Design da Zcash | Curvas que usa | Papel |
+| Zcash design | Curvas que usa | Papel |
 |---|---|---|
 | **Sapling** (mais antiga) | **BLS12-381** mais uma curva embutida chamada **Jubjub** | BLS12-381 carrega o sistema de provas; Jubjub é construída sobre o campo escalar de BLS12-381 para que as operações de chave e compromisso sejam baratas de executar *dentro* de uma prova de conhecimento zero |
 | **Orchard** (atual) | **Pallas** e **Vesta** (o ciclo "Pasta") | Pallas carrega as chaves e compromissos de Orchard; o pareamento Pallas/Vesta é organizado especialmente para tornar provas avançadas eficientes |
 
-As razões pelas quais uma curva é "embutida" dentro do campo de outra, e por que um *ciclo* de duas curvas é útil, são reais e importantes, mas pertencem aos artigos sobre o sistema de provas. Por enquanto, a conclusão é sólida: **toda chave da Zcash é um escalar vezes um gerador, e todo compromisso da Zcash é uma soma de pontos de curva**, vivendo em uma dessas curvas nomeadas.
+As razões pelas quais uma curva é "embutida" dentro do campo de outra, e por que um *ciclo* de duas curvas é útil, são reais e importantes, mas pertencem aos artigos sobre o sistema de provas. Por enquanto, a conclusão é sólida: **toda chave do Zcash é um escalar vezes um gerador, e todo compromisso do Zcash é uma soma de pontos de curva**, vivendo em uma dessas curvas nomeadas.
 
-![texto alternativo](/content-images/image-13-ffdd703c60.webp)
+![Texto alternativo](/content-images/image-13-ffdd703c60.webp)
 
 ---
 
 ## 7. Um aviso honesto
 
-Algumas simplificações mantiveram isto legível. Usamos a forma **short Weierstrass** (`y^2 = x^3 + ax + b`); as curvas da Zcash muitas vezes são escritas em outras formas equivalentes (Jubjub é uma curva *twisted Edwards*) escolhidas por eficiência e segurança, mas a ideia de grupo é idêntica. Não definimos as fórmulas exatas de soma de pontos (elas são a versão algébrica de "terceira interseção, depois refletir"), e deixamos de lado sutilezas como ordem da curva, cofatores e "pairings", que se tornam importantes nos artigos sobre o sistema de provas. Nada disso muda a intuição; apenas a refina.
+Algumas simplificações mantiveram isto legível. Usamos a forma **short Weierstrass** (`y^2 = x^3 + ax + b`); as curvas do Zcash muitas vezes são escritas em outras formas equivalentes (Jubjub é uma curva *twisted Edwards*) escolhidas por eficiência e segurança, mas a ideia de grupo é idêntica. Não definimos as fórmulas exatas de soma de pontos (elas são a versão algébrica de "terceira interseção, depois refletir"), e deixamos de lado sutilezas como ordem da curva, cofatores e "pairings", que se tornam importantes nos artigos sobre o sistema de provas. Nada disso muda a intuição; apenas a refina.
 
 ---
 
@@ -177,13 +177,13 @@ Algumas simplificações mantiveram isto legível. Usamos a forma **short Weiers
 - Sobre um **campo finito**, a curva se torna uma dispersão de pontos, mas a mesma soma ainda funciona e os pontos formam um **grupo**. (Exemplo verificado: `y^2 = x^3 + 2x + 2` sobre `F_17` tem 19 pontos, e `G = (5,1)` gera todos eles.)
 - A **multiplicação escalar** `kG` é fácil de calcular, mas inviável de reverter: o **ECDLP**. Essa é a porta de alçapão.
 - **Chaves:** chave privada `k`, chave pública `kG`. **Compromissos:** forma de Pedersen `v.G + r.H`, que oculta, vincula e convenientemente **se soma**.
-- Na **Zcash**, Sapling usa **BLS12-381 + Jubjub** e Orchard usa as curvas **Pallas/Vesta (Pasta)**; toda chave e compromisso vive nelas.
+- No **Zcash**, Sapling usa **BLS12-381 + Jubjub** e Orchard usa as curvas **Pallas/Vesta (Pasta)**; toda chave e compromisso vive nelas.
 
 ---
 
 ## Glossário
 
-| Termo | Significado em linguagem simples |
+| Term | Significado em linguagem simples |
 |---|---|
 | **Elliptic curve** | Pontos que satisfazem `y^2 = x^3 + ax + b`, com uma "soma" especial de pontos |
 | **Point addition** | A regra da corda e tangente: linha através de dois pontos, pega a terceira interseção, reflete |
@@ -206,7 +206,7 @@ Não está *provado* que seja impossível, mas décadas de esforço intenso não
 **Um computador quântico poderia quebrar isso?**
 Um computador quântico suficientemente grande poderia quebrar o ECDLP. Essa é uma preocupação conhecida de longo prazo em toda a indústria e uma área ativa de pesquisa; as curvas atuais permanecem seguras contra computadores clássicos.
 
-**Por que a Zcash usa mais de uma curva?**
+**Por que o Zcash usa mais de uma curva?**
 Trabalhos diferentes. Uma curva carrega o sistema de provas de conhecimento zero; outra (embutida no campo da primeira) torna eficientes as operações de chave e compromisso dentro da prova. Os próximos artigos explicam por que esse pareamento importa.
 
 ---
@@ -224,6 +224,6 @@ Usando a tabela verificada da Seção 3, quanto vale `9G + 10G` em nossa curva d
 
 ### O que vem a seguir
 
-**Artigo 3 . Hashing e compromissos:** vamos abrir de vez o "envelope lacrado mágico". Você já viu uma maneira de construir um compromisso a partir de pontos de curva; em seguida vamos perguntar o que ocultação e vinculação realmente significam, conhecer funções hash e conectar ambos aos compromissos de notas que ancoram cada pagamento da Zcash.
+**Artigo 3 . Hashing e compromissos:** vamos abrir de vez o "envelope lacrado mágico". Você já viu uma maneira de construir um compromisso a partir de pontos de curva; em seguida vamos perguntar o que ocultação e vinculação realmente significam, conhecer funções hash e conectar ambos aos compromissos de notes que ancoram cada pagamento do Zcash.
 
-*Parte da série* Zcash from First Principles *para [ZecHub](https://zechub.org). Licenciado sob CC BY-SA 4.0.*
+*Parte da série* Zcash from First Principles *para [ZecHub](https://zechub.org). Licenciada sob CC BY-SA 4.0.*

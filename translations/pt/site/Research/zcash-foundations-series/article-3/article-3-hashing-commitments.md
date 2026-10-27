@@ -1,15 +1,15 @@
-# Hashing e Commitments: O Envelope Selado Mágico
+# Hashing e compromissos: o envelope selado mágico
 ##### Pesquisa original de [Annkkitaaa](https://github.com/Annkkitaaa)
 
-![texto alternativo](/content-images/image-15-0c16784b27.webp)
+![Texto alternativo](/content-images/image-15-0c16784b27.webp)
 
-### Como trancar um segredo em público e nunca mais poder mentir sobre ele
+### Como guardar um segredo em público e nunca poder mentir sobre ele
 
-> **Série:** *Zcash from First Principles* . **Artigo 3 . Hashing e Commitments**
+> **Série:** *Zcash from First Principles* . **Artigo 3 . Hashing e compromissos**
 > **Público:** iniciantes. Partimos do [Artigo 1 (campos finitos)](article-1-finite-fields.md) e do [Artigo 2 (curvas elípticas)](article-2-elliptic-curves.md), mas a intuição se sustenta por si só.
-> **O que você vai levar daqui:** uma compreensão clara de funções hash, do que "hiding" e "binding" realmente significam, e de como o Zcash constrói os note commitments que ancoram cada pagamento privado.
+> **O que você vai levar daqui:** uma compreensão clara de funções hash, do que "hiding" e "binding" realmente significam e de como o Zcash constrói os compromissos de notes que ancoram cada pagamento privado.
 
-No [Artigo 0](article-0-shielded-transaction.md) descrevemos um "envelope selado mágico": algo que você pode prender em um quadro público para provar que um envelope existe enquanto esconde o que há dentro, e que você nunca mais poderá trocar depois. Prometemos explicar como algo assim é possível. Este é esse artigo. Precisamos de dois ingredientes: **funções hash** e **commitments**.
+No [Artigo 0](article-0-shielded-transaction.md), descrevemos um "envelope selado mágico": algo que você pode prender em um quadro público para provar que um envelope existe enquanto esconde o que há dentro e que você nunca poderá trocar depois. Prometemos explicar como algo assim é possível. Este é esse artigo. Precisamos de dois ingredientes: **funções hash** e **compromissos**.
 
 ---
 
@@ -19,10 +19,10 @@ Imagine que você prevê o resultado de uma eleição e quer provar, *depois*, q
 
 O que você quer é uma forma de **fixar um valor agora, em público, de tal maneira que:**
 
-- ninguém consiga dizer o que você fixou (ele permanece secreto por enquanto), e
+- ninguém consiga dizer o que você fixou (isso permanece secreto por enquanto), e
 - mais tarde, quando você o revelar, você **não possa mentir** sobre o que era.
 
-Esse mecanismo de "fixar agora, revelar depois, sem mentir" é chamado de **commitment**, e ele está por toda parte no Zcash. O valor e o proprietário de uma note ficam presos em um commitment no momento em que a note é criada. Para construir commitments, primeiro precisamos do seu cavalo de batalha: a função hash.
+Esse mecanismo de "fixar agora, revelar depois, sem mentir" é chamado de **compromisso**, e ele está por toda parte no Zcash. O valor e o proprietário de uma note ficam fixados em um compromisso no momento em que a note é criada. Para construir compromissos, primeiro precisamos do seu cavalo de batalha: a função hash.
 
 ---
 
@@ -30,16 +30,16 @@ Esse mecanismo de "fixar agora, revelar depois, sem mentir" é chamado de **comm
 
 Uma **função hash** pega quaisquer dados, desde uma única letra até uma biblioteca inteira, e os comprime em uma string curta de tamanho fixo chamada **digest** ou **hash**. Pense nela como uma **impressão digital para dados**.
 
-![texto alternativo](/content-images/image-16-52fdf62c87.webp)
+![Texto alternativo](/content-images/image-16-52fdf62c87.webp)
 
 Uma boa impressão digital criptográfica tem quatro propriedades. Guarde-as como intuições, não como equações:
 
-| Propriedade | Significado simples | Por que isso importa |
+| Property | Significado simples | Por que isso importa |
 |---|---|---|
-| **Determinística** | A mesma entrada sempre gera a mesma impressão digital | Você pode verificar novamente uma impressão digital a qualquer momento |
-| **Rápida no sentido direto** | Calcular a impressão digital é rápido | É prático usá-la em toda parte |
-| **Unidirecional (resistente à pré-imagem)** | Dada uma impressão digital, você não consegue encontrar a entrada que a produziu | Esconde os dados originais |
-| **Resistente a colisões** | Você não consegue encontrar duas entradas diferentes com a mesma impressão digital | Ninguém pode forjar uma correspondência |
+| **Deterministic** | A mesma entrada sempre gera a mesma impressão digital | Você pode verificar novamente uma impressão digital a qualquer momento |
+| **Fast forwards** | Calcular a impressão digital é rápido | É prático usá-la em toda parte |
+| **One-way (preimage resistant)** | Dada uma impressão digital, você não consegue encontrar a entrada que a produziu | Esconde os dados originais |
+| **Collision resistant** | Você não consegue encontrar duas entradas diferentes com a mesma impressão digital | Ninguém pode forjar uma correspondência |
 
 E mais um comportamento que faz essas impressões digitais parecerem quase mágicas:
 
@@ -52,26 +52,26 @@ H("Pay Bob 5 ZEC") = 6e2dc1a954c70cc865f18ea8cb70b7b56eeaf6ca42b380824a55d65dc34
 H("Pay Bob 6 ZEC") = 76abc346d8d3053f76a9ae18b617af71f02729a73ec6a51732d2d94934e4217f
 ```
 
-De 64 dígitos hexadecimais, **59 são diferentes.** Um caractere entra, uma impressão digital totalmente não relacionada sai. É por isso que você não pode ajustar uma entrada gradualmente em direção a uma impressão digital-alvo: não existe nenhum sinal de "mais quente / mais frio" para seguir.
+De 64 dígitos hexadecimais, **59 são diferentes.** Um caractere entra, uma impressão digital totalmente diferente sai. É por isso que você não pode ajustar uma entrada gradualmente em direção a uma impressão digital-alvo: não existe nenhum sinal de "mais quente / mais frio" para seguir.
 
 ---
 
-## 3. Da impressão digital ao commitment
+## 3. Da impressão digital ao compromisso
 
-Aqui vai uma ideia tentadora, mas falha: para fazer commitment de um valor secreto `v`, basta publicar sua impressão digital `H(v)`.
+Aqui vai uma ideia tentadora, mas falha: para se comprometer com um valor secreto `v`, basta publicar sua impressão digital `H(v)`.
 
-Isso faz um bom **binding** (você não pode depois alegar um `v` diferente, porque isso exigiria uma colisão). Mas **falha em esconder.** Se o conjunto de valores possíveis for pequeno, um atacante simplesmente calcula a impressão digital de cada candidato e compara. Fazendo commitment de "sim" ou "não"? Ele aplica hash aos dois e descobre instantaneamente qual você escolheu. A determinismo, nossa amiga há um momento, agora está vazando o segredo.
+Isso faz um bom **binding** (você não pode depois alegar um `v` diferente, porque isso exigiria uma colisão). Mas **falha em esconder.** Se o conjunto de valores possíveis for pequeno, um atacante simplesmente calcula a impressão digital de cada candidato e compara. Comprometendo-se com "sim" ou "não"? Ele aplica hash aos dois e descobre instantaneamente qual você escolheu. O determinismo, nosso amigo há um momento, agora está vazando o segredo.
 
 A correção é uma palavra: **aleatoriedade.**
 
-> **Um commitment é a impressão digital do seu valor misturada com um número aleatório novo:**
+> **Um compromisso é a impressão digital do seu valor misturada com um número aleatório novo:**
 > `commitment = H(v, r)` onde `r` é um valor aleatório secreto de "blinding".
 
-Agora o mesmo `v` produz um commitment com aparência diferente toda vez, porque `r` é diferente. As duas propriedades que queríamos finalmente passam a valer ao mesmo tempo:
+Agora o mesmo `v` produz um compromisso com aparência diferente toda vez, porque `r` é diferente. As duas propriedades que queríamos finalmente passam a valer ao mesmo tempo:
 
-![texto alternativo](/content-images/image-17-3ec4617665.webp)
+![Texto alternativo](/content-images/image-17-3ec4617665.webp)
 
-Para **abrir** (revelar) o commitment mais tarde, você publica `v` e `r`; qualquer pessoa recalcula `H(v, r)` e verifica se coincide. Você ficou preso àquele valor. Esse é o envelope selado mágico do Artigo 0, tornado real.
+Para **abrir** (revelar) o compromisso mais tarde, você publica `v` e `r`; qualquer pessoa recalcula `H(v, r)` e verifica se coincide. Você ficou preso àquele valor. Esse é o envelope selado mágico do Artigo 0, tornado real.
 
 > **Duas conclusões para levar para sempre:** *binding* vem do fato de o hash ser resistente a colisões; *hiding* vem do fator de blinding aleatório `r`.
 
@@ -81,14 +81,14 @@ Para **abrir** (revelar) o commitment mais tarde, você publica `v` e `r`; qualq
 
 Existem duas receitas comuns, e o Zcash usa ambas.
 
-| | **Commitment baseado em hash** | **Pedersen commitment** (do Artigo 2) |
+| | **Compromisso baseado em hash** | **Compromisso de Pedersen** (do Artigo 2) |
 |---|---|---|
-| Receita | `H(v, r)` | `v.G + r.H` (pontos em uma curva) |
-| Hiding vem de | o `r` aleatório | o `r` aleatório |
-| Binding vem de | resistência a colisões | o alçapão da curva elíptica (ECDLP) |
-| Poder especial | simples e rápido | os commitments **se somam** (homomórfico) |
+| Recipe | `H(v, r)` | `v.G + r.H` (pontos em uma curva) |
+| Hiding from | o `r` aleatório | o `r` aleatório |
+| Binding from | resistência a colisões | o problema difícil da curva elíptica (ECDLP) |
+| Special power | simples e rápido | os compromissos **se somam** (homomórfico) |
 
-Essa última linha é o motivo de os Pedersen commitments importarem tanto no Zcash. Como `commit(v_1) + commit(v_2)` é um `commit(v_1 + v_2)` válido, o protocolo pode depois provar que **o dinheiro que entra é igual ao dinheiro que sai** somando commitments, tudo isso sem revelar um único valor. Vamos guardar esse fato para o Artigo 6.
+Essa última linha é o motivo de os compromissos de Pedersen importarem tanto no Zcash. Como `commit(v_1) + commit(v_2)` é um `commit(v_1 + v_2)` válido, o protocolo pode depois provar que **o dinheiro que entra é igual ao dinheiro que sai** somando compromissos, tudo isso sem revelar um único valor. Vamos guardar esse fato para o Artigo 6.
 
 ---
 
@@ -100,47 +100,47 @@ SHA-256 é uma impressão digital excelente para a computação do dia a dia. Ma
 
 Por isso, os criptógrafos do Zcash projetaram funções hash cujos mecanismos internos *já são* aritmética de campo, tornando-as baratas de provar:
 
-![texto alternativo](/content-images/image-18-89ade807ad.webp)
+![Texto alternativo](/content-images/image-18-89ade807ad.webp)
 
 Essa única pressão de engenharia, *"tem que ser barato de provar,"* é o motivo pelo qual o Zcash inventou e adotou funções hash especiais em vez de recorrer ao SHA-256 em toda parte.
 
 ---
 
-## 6. Onde isso vive no Zcash
+## 6. Onde isso está no Zcash
 
 O Zcash usou hashes diferentes ao longo de seus designs, cada um escolhido para a tarefa:
 
 | Design | Hashes usados | Onde |
 |---|---|---|
-| **Sprout** (o mais antigo) | **SHA-256** | Note commitments e a árvore |
-| **Sapling** | **Pedersen hashes**, mais **BLAKE2** | Pedersen para note commitments e a árvore de Merkle; BLAKE2 para derivação de chaves e nullifiers |
-| **Orchard** (atual) | **Sinsemilla**, mais **Poseidon** | Sinsemilla para note commitments e a árvore de Merkle; Poseidon para o nullifier, todos projetados para circuitos aritméticos |
+| **Sprout** (o mais antigo) | **SHA-256** | Compromissos de notes e a árvore |
+| **Sapling** | **Pedersen hashes**, mais **BLAKE2** | Pedersen para compromissos de notes e a árvore de Merkle; BLAKE2 para derivação de chaves e nulificadores |
+| **Orchard** (atual) | **Sinsemilla**, mais **Poseidon** | Sinsemilla para compromissos de notes e a árvore de Merkle; Poseidon para o nulificador, todos projetados para circuitos aritméticos |
 
-Os nomes a reconhecer são **Pedersen** e **Sinsemilla** (hashes no estilo de commitments construídos a partir de pontos de curva, então herdam o superpoder de "se somar" e são baratos de provar) e **Poseidon** (um hash de aritmética de campo criado especificamente para circuitos de conhecimento zero). Quando o Artigo 0 disse que o conteúdo de uma note é selado em um commitment, *é esta* a maquinaria que faz a selagem.
+Os nomes a reconhecer são **Pedersen** e **Sinsemilla** (hashes no estilo de compromissos construídos a partir de pontos de curva, então herdam o superpoder de "se somar" e são baratos de provar) e **Poseidon** (um hash de aritmética de campo criado especificamente para circuitos de conhecimento zero). Quando o Artigo 0 disse que o conteúdo de uma note é selado em um compromisso, *é esta* a maquinaria que faz a selagem.
 
-Assim, o ciclo aberto no Artigo 0, *"como um envelope selado pode esconder seu conteúdo e ainda assim ser impossível de falsificar?"*, agora está fechado: **hiding vem de um fator de blinding aleatório, binding vem da resistência a colisões ou do alçapão da curva.**
+Assim, o ciclo aberto no Artigo 0, *"como um envelope selado pode esconder seu conteúdo e ainda assim ser impossível de falsificar?"*, agora está fechado: **hiding vem de um fator de blinding aleatório, binding vem da resistência a colisões ou do problema difícil da curva.**
 
 ---
 
 ## 7. Um aviso honesto
 
-Simplificamos para manter a clareza. Esquemas reais de commitment especificam exatamente como `v` e `r` são codificados e quais geradores são usados; "hiding" e "binding" vêm em variantes (perfeito vs. computacional) com definições de segurança precisas; e não mostramos os mecanismos internos de Pedersen, Sinsemilla ou Poseidon. Nada disso muda a intuição: um commitment é uma impressão digital mais aleatoriedade que esconde agora e vincula para sempre. Os detalhes voltarão, sinalizados, quando o artigo sobre o protocolo precisar deles.
+Simplificamos para manter a clareza. Esquemas reais de compromisso especificam exatamente como `v` e `r` são codificados e quais geradores são usados; "hiding" e "binding" vêm em variantes (perfeito vs. computacional) com definições de segurança precisas; e não mostramos os mecanismos internos de Pedersen, Sinsemilla ou Poseidon. Nada disso muda a intuição: um compromisso é uma impressão digital mais aleatoriedade que esconde agora e vincula para sempre. Os detalhes voltarão, sinalizados, quando o artigo sobre o protocolo precisar deles.
 
 ---
 
 ## 8. Resumo
 
 - Uma **função hash** é uma **impressão digital para dados**: determinística, rápida no sentido direto, unidirecional, resistente a colisões, com **efeito avalanche** (um bit entra, uma impressão digital totalmente diferente sai).
-- Um **commitment** permite que você **fixe um valor em público agora e o revele depois sem poder mentir.**
+- Um **compromisso** permite que você **fixe um valor em público agora e o revele depois sem poder mentir.**
 - Publicar uma impressão digital pura `H(v)` faz binding, mas **não** esconde. Adicionar um fator de blinding aleatório, `H(v, r)`, resolve isso: **hiding vem de `r`, binding vem da resistência a colisões.**
-- O Zcash usa tanto commitments **baseados em hash** quanto **Pedersen**; os Pedersen commitments, além disso, **se somam**, algo que o Artigo 6 vai explorar para provar o balanceamento de valor em privado.
+- O Zcash usa tanto compromissos **baseados em hash** quanto **Pedersen**; os compromissos de Pedersen, além disso, **se somam**, algo que o Artigo 6 vai explorar para provar o balanceamento de valor em privado.
 - Como hashes precisam ser **provados** dentro de provas de conhecimento zero, o Zcash usa hashes **amigáveis para ZK** construídos a partir de aritmética de campo (**Pedersen**, **Sinsemilla**, **Poseidon**) em vez de SHA-256 em toda parte.
 
 ---
 
 ## Glossário
 
-| Termo | Significado em linguagem simples |
+| Term | Significado em linguagem simples |
 |---|---|
 | **Hash function** | Comprime quaisquer dados em uma impressão digital curta de tamanho fixo (digest) |
 | **Digest** | A impressão digital de saída de uma função hash |
@@ -148,30 +148,30 @@ Simplificamos para manter a clareza. Esquemas reais de commitment especificam ex
 | **Collision resistance** | Não dá para encontrar duas entradas com o mesmo digest |
 | **Avalanche effect** | Uma pequena mudança na entrada altera completamente o digest |
 | **Commitment** | Fixar um valor agora, revelar depois, sem poder mentir sobre ele |
-| **Blinding factor (`r`)** | O número aleatório novo que faz um commitment esconder |
+| **Blinding factor (`r`)** | O número aleatório novo que faz um compromisso esconder |
 | **ZK-friendly hash** | Um hash construído com aritmética de campo para ser barato de provar |
 
 ---
 
 ## FAQ
 
-**Por que não simplesmente criptografar o valor em vez de fazer commitment dele?**
-Criptografia trata de *sigilo que você pode descriptografar depois*. Um commitment trata de *binding*: a garantia de que você não pode mudar sua resposta depois. São trabalhos diferentes.
+**Por que não simplesmente criptografar o valor em vez de se comprometer com ele?**
+Criptografia trata de *sigilo que você pode descriptografar depois*. Um compromisso trata de *binding*: a garantia de que você não pode mudar sua resposta depois. São trabalhos diferentes.
 
-**Se commitments escondem o valor, como alguém verifica as regras?**
+**Se compromissos escondem o valor, como alguém verifica as regras?**
 Esse é o papel das provas de conhecimento zero (Artigo 5): elas provam que o valor oculto obedece às regras sem revelá-lo.
 
 **O SHA-256 está quebrado, já que o Zcash o evita em alguns lugares?**
 Não. SHA-256 está ótimo e o Zcash ainda o usa. Só que é caro de *provar dentro de um circuito*, e é por isso que existem hashes amigáveis para ZK para esse trabalho específico.
 
-**De onde vem o `r` aleatório, e quem o guarda?**
+**De onde vem o `r` aleatório e quem o guarda?**
 Ele é gerado do zero quando a note é criada e é conhecido pelo proprietário da note. É parte do que torna cada note única e privada.
 
 ---
 
 ### Teste sua intuição
 
-Você faz commitment da sua previsão eleitoral como `H(v, r)` e a publica. Um amigo insiste que você deveria publicar só `H(v)` para simplificar. Em uma frase, por que isso é uma má ideia se houver apenas dois resultados possíveis? *(Resposta abaixo.)*
+Você se compromete com sua previsão eleitoral como `H(v, r)` e a publica. Um amigo insiste que você deveria publicar só `H(v)` para simplificar. Em uma frase, por que isso é uma má ideia se houver apenas dois resultados possíveis? *(Resposta abaixo.)*
 
 <details><summary>Resposta</summary>
 
@@ -182,6 +182,6 @@ Com apenas dois resultados, seu amigo pode simplesmente calcular `H("win")` e `H
 
 ### O que vem a seguir
 
-**Artigo 4 . Árvores de Merkle:** agora temos milhões de commitments se acumulando. O Artigo 4 mostra como o Zcash os organiza em uma única árvore cuja pequena impressão digital raiz representa todo o histórico, e como você pode provar que sua note está nessa árvore sem revelar qual é. Essa é a forma real do "quadro público" do Artigo 0.
+**Artigo 4 . Árvores de Merkle:** agora temos milhões de compromissos se acumulando. O Artigo 4 mostra como o Zcash os organiza em uma única árvore cuja pequena impressão digital raiz representa todo o histórico e como você pode provar que sua note está nessa árvore sem revelar qual é. Essa é a forma real do "quadro público" do Artigo 0.
 
 *Parte da série* Zcash from First Principles *para [ZecHub](https://zechub.org). Licenciado sob CC BY-SA 4.0.*
