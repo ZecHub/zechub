@@ -251,7 +251,7 @@ function routeExists(route, mdFiles, appRoutes) {
   const wanted = normalize(basename(clean));
   const folder = dirname(target);
   const sibling = mdFiles.find(
-    (f) => dirname(f) === folder && (normalize(basename(f)) === wanted || normalize(basename(f)).includes(wanted)),
+    (f) => dirname(f) === folder && normalize(basename(f)) === wanted,
   );
   if (sibling) return { ok: true, how: `fuzzy → ${sibling}` };
 
