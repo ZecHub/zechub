@@ -68,7 +68,7 @@ Z3 fixa as versões das imagens em `docker-compose.yml`. Substitua-as com `Z3_ZE
 | Linguagem | C++ (fork de Bitcoin) | Serviços Rust, orquestrados com Docker Compose |
 | Modelo de processo | Um binário: nó + carteira | Contêineres de nó e carteira separados |
 | Consenso | Descontinuado (fim de vida em 18 de julho de 2026) | Zebra (ou outro nó compatível) |
-| Wallet | `wallet.dat` integrada | Zallet, diretório de dados criptografado com age |
+| Carteira | `wallet.dat` integrada | Zallet, diretório de dados criptografado com age |
 | Clientes leves | Normalmente um lightwalletd separado | Perfil Zaino opcional |
 | Configuração | `zcash.conf` | Arquivos por rede em `config/<network>/`, além de arquivos de ambiente Compose |
 | Redes num único host | Conflitos de portas problemáticos | Suporte nativo: `z3-mainnet`, `z3-testnet`, `z3-regtest` |

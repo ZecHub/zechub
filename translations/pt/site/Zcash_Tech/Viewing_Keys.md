@@ -15,7 +15,7 @@ Uma chave de visualização concede acesso **somente de leitura** à atividade d
 - **O que é:** a ferramenta de divulgação seletiva dos pools blindados. Introduzida na [ZIP 310](https://zips.z.cash/zip-0310), adicionada ao protocolo na atualização da rede Sapling.
 - **O que concede:** detecção de depósitos (chaves de entrada `uivk…`) ou visibilidade total de entradas/saídas para uma conta (chaves de visualização completas unificadas `uview…`), e chaves Sapling `zxviews…` legadas.
 - **O que não concede:** autoridade de gasto. Nada que um detentor de chave de visualização faça pode mover fundos.
-- **Onde funciona hoje:** exportação/importação no [Zallet](https://github.com/zcash/zallet) (v0.1.0-beta.2+, `z_exportviewingkey` / `z_importviewingkey`) e contas somente para consulta em carteiras como Zkool; consulte a página [Wallets](/using-zcash/wallets) para a matriz de suporte atual.
+- **Onde funciona hoje:** exportação/importação no [Zallet](https://github.com/zcash/zallet) (v0.1.0-beta.2+, `z_exportviewingkey` / `z_importviewingkey`) e contas somente para consulta em carteiras como Zkool; consulte a página [Carteiras](/using-zcash/wallets) para a matriz de suporte atual.
 - **A regra prática:** prefira a chave mais restrita que responda à pergunta feita e lembre-se de que uma chave fornecida não pode ser revogada — apenas superada movendo os fundos.
 
 ---
@@ -86,7 +86,7 @@ Passar um endereço Sapling retorna a chave de visualização completa estendida
 
 ### Carteiras que exportam chaves de visualização pela própria interface
 
-A página [Wallets](/using-zcash/wallets) acompanha o suporte para chaves de visualização e a preparação para Ironwood de cada carteira. Na data da redação, as carteiras que indicam suporte para chaves de visualização e **Ironwood: Pronto** incluem ZODL, Zingo!, Zkool, Cake, Zallet, zecd e Nozy. Consulte essa página, em vez desta, antes de confiar em qualquer carteira específica, porque a preparação muda.
+A página [Carteiras](/using-zcash/wallets) acompanha o suporte para chaves de visualização e a preparação para Ironwood de cada carteira. Na data da redação, as carteiras que indicam suporte para chaves de visualização e **Ironwood: Pronto** incluem ZODL, Zingo!, Zkool, Cake, Zallet, zecd e Nozy. Consulte essa página, em vez desta, antes de confiar em qualquer carteira específica, porque a preparação muda.
 
 ## Importar uma chave de visualização como conta somente para consulta
 
@@ -152,7 +152,7 @@ Como a migração [ZIP 318](https://zips.z.cash/zip-0318) é uma série aleatori
 - **Para corretoras e processadores de pagamentos:** carregue a chave de visualização de entrada da conta (ou uma UFVK para cobertura completa) em um nó de detecção e reconcilie automaticamente os depósitos dos clientes, exatamente como faria com um endereço transparente — mas a chave de gastos do cliente nunca sai do armazenamento frio.
 - **Para auditores e prova de reservas:** uma chave de visualização completa transforma “confie em nós” em “verifique isto”: saldos e histórico completo de transações das contas observadas, sem qualquer capacidade de tocá-las. Combine-a com [Divulgações de pagamentos](/zcash-tech/payment-disclosures) para provas pontuais sobre um único pagamento.
 - **Para diligência prévia:** forneça a uma contraparte a chave da conta relevante para a relação, e não sua carteira inteira. Se a relação terminar, faça a rotação da conta.
-- **Para escolhas de ferramentas:** Zallet exporta UFVKs e importa chaves de visualização completas estendidas Sapling; Zkool aceita chaves unificadas e legadas como contas somente para consulta. Consulte a página [Wallets](/using-zcash/wallets) para a matriz atual de preparação para Ironwood antes de padronizar uma carteira.
+- **Para escolhas de ferramentas:** Zallet exporta UFVKs e importa chaves de visualização completas estendidas Sapling; Zkool aceita chaves unificadas e legadas como contas somente para consulta. Consulte a página [Carteiras](/using-zcash/wallets) para a matriz atual de preparação para Ironwood antes de padronizar uma carteira.
 - **O custo da divulgação é permanente:** cada detentor adicional de uma chave é uma linha de crédito de privacidade permanente que você não pode encerrar. Emita chaves por relação, limite-as a uma conta e documente quem detém o quê.
 
 ## Erros comuns
@@ -172,7 +172,7 @@ Como a migração [ZIP 318](https://zips.z.cash/zip-0318) é uma série aleatori
 - [Endereços unificados](/zcash-tech/unified-addresses) — a camada de endereços que contém receptores de chaves de visualização
 - [Ironwood](/zcash-tech/ironwood) — o pool blindado NU6.3 para o qual Orchard migra
 - [A catraca](/zcash-tech/the-turnstile) — o mecanismo de migração de Orchard para Ironwood que os observadores podem acompanhar
-- [Wallets](/using-zcash/wallets) — o diretório completo de carteiras, suporte para chaves de visualização e preparação para Ironwood
+- [Carteiras](/using-zcash/wallets) — o diretório completo de carteiras, suporte para chaves de visualização e preparação para Ironwood
 - [Exportar histórico de transações de uma chave de visualização](/guides/viewing-key-transaction-export) — transformar uma chave importada em um arquivo completo de histórico de txid/taxa/memorando
 
 ## Recursos

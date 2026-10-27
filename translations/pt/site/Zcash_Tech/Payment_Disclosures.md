@@ -44,8 +44,8 @@ Uma divulgação de pagamento Sapling não precisa revelar um endereço do remet
 | Método | Melhor uso | O que revela | Acesso contínuo? | Vinculado criptograficamente ao pagamento? |
 | --- | --- | --- | --- | --- |
 | Transaction ID | Verificar se uma transação foi minerada | Dados públicos da transação e confirmações | Não | Sim, mas os detalhes do pagamento blindado permanecem ocultos |
-| Screenshot or receipt | Manutenção informal de registros | O que o remetente escolher exibir | Não | Não; a imagem pode ser editada |
-| Payment disclosure | Provar detalhes selecionados de um pagamento | Saídas selecionadas da transação e qualquer prova incluída do remetente ou desafio | Não, mas a prova compartilhada pode ser copiada | Sim |
+| Captura de tela ou recibo | Manutenção informal de registros | O que o remetente escolher exibir | Não | Não; a imagem pode ser editada |
+| Divulgação de pagamento | Provar detalhes selecionados de um pagamento | Saídas selecionadas da transação e qualquer prova incluída do remetente ou desafio | Não, mas a prova compartilhada pode ser copiada | Sim |
 | Incoming Viewing Key | Monitorar pagamentos recebidos por uma conta | Atividade recebida abrangida pela chave | Sim | Descriptografa pagamentos recebidos correspondentes |
 | Full Viewing Key | Contabilidade ou auditoria de uma conta | Atividade recebida e enviada, valores, memorandos e saldos abrangidos pela chave | Sim | Descriptografa a atividade correspondente da conta |
 

@@ -110,7 +110,7 @@ Essa única pressão de engenharia, *"tem que ser barato de provar,"* é o motiv
 
 O Zcash usou hashes diferentes ao longo de seus designs, cada um escolhido para a tarefa:
 
-| Design | Hashes usados | Onde |
+| Projeto | Hashes usados | Onde |
 |---|---|---|
 | **Sprout** (o mais antigo) | **SHA-256** | Compromissos de notes e a árvore |
 | **Sapling** | **Pedersen hashes**, mais **BLAKE2** | Pedersen para compromissos de notes e a árvore de Merkle; BLAKE2 para derivação de chaves e nulificadores |

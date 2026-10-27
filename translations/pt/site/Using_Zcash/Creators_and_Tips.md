@@ -38,7 +38,7 @@
 
 | Item              | Detalhes |
 |-------------------|---------|
-| **Website**       | [https://zcash.me/](https://zcash.me/) |
+| **Site**          | [https://zcash.me/](https://zcash.me/) |
 | **Twitter**       | [@zcashme](https://x.com/zcashme) |
 | **Formato do perfil**| `zcash.me/[username]` |
 | **Estado**        | Ativo (com funcionalidades em desenvolvimento) |
@@ -82,7 +82,7 @@
 
 | Item              | Detalhes |
 |-------------------|---------|
-| **Website**       | [https://tipz.cash/](https://tipz.cash/) |
+| **Site**          | [https://tipz.cash/](https://tipz.cash/) |
 | **Twitter**       | [@tipz_cash](https://x.com/tipz_cash) |
 | **Formato do perfil**| `tipz.cash/@[username]` |
 | **Estado**        | Ativo |

@@ -57,12 +57,12 @@ Se um negócio aceita ZEC e ainda não está no ZecMap, qualquer membro da comun
 
 | Campo | O que fornecer |
 |-------|----------------|
-| Business name | Nome oficial como aparece publicamente |
-| Website or contact | URL ou perfil social |
-| Location | Endereço para negócios físicos; região para negócios online |
-| Category | Café, restaurante, loja, serviço, loja online etc. |
-| Evidence | Página pública de pagamentos, anúncio do comerciante ou confirmação direta |
-| Payment notes | Presencial, online ou ambos; ZEC transparente ou blindado |
+| Nome do negócio | Nome oficial como aparece publicamente |
+| Site ou contato | URL ou perfil social |
+| Localização | Endereço para negócios físicos; região para negócios online |
+| Categoria | Café, restaurante, loja, serviço, loja online etc. |
+| Evidência | Página pública de pagamentos, anúncio do comerciante ou confirmação direta |
+| Observações sobre pagamento | Presencial, online ou ambos; ZEC transparente ou blindado |
 
 Os envios devem evitar dados privados de clientes. Se usar uma prova de transação, remova detalhes pessoais, números de pedido e endereços residenciais antes de compartilhar.
 

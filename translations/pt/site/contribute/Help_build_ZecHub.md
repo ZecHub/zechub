@@ -13,7 +13,7 @@ Verifique os fatos da documentação da wiki, sugira edições e proponha novas 
 Crie conteúdo em vídeo nas seguintes categorias:
 ```
 * Zcash explainer videos
-* Zcash wallet guide/tutorials
+* Guias e tutoriais de carteiras Zcash
 * Third-party application demos
 ```
 

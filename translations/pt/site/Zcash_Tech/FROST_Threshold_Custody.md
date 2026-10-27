@@ -129,7 +129,7 @@ Se algum signatário enviar uma assinatura parcial inválida, o protocolo o iden
 
 ## Escolhendo seus parâmetros de threshold
 
-| Setup | Resiliência | Risco |
+| Configuração | Resiliência | Risco |
 |-------|-----------|------|
 | 1-of-1 | Sem resiliência — ponto único de falha | Perda da chave = perda permanente |
 | 2-of-2 | É necessário ter ambos os signatários — sem tolerância a falhas | Um indisponível = fundos congelados |

@@ -98,7 +98,7 @@ Sistemas mais novos eliminam completamente essa exigência, e essa é uma das ma
 
 ## 7. Onde isso vive no Zcash
 
-| Design | Sistema de prova | Configuração confiável? | Baseado em |
+| Projeto | Sistema de prova | Configuração confiável? | Baseado em |
 |---|---|---|---|
 | **Sprout** (o mais antigo) | zk-SNARK inicial | Sim | cerimônia original |
 | **Sapling** | **Groth16** | Sim (a cerimônia multipartes "Powers of Tau" + cerimônia Sapling) | **BLS12-381** (Artigo 2) |
