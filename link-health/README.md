@@ -40,6 +40,12 @@ app falls back on, so a link that works in production is not reported as broken.
 If the rules in the app's `src/lib/helpers.ts` change, update `transformUri` here
 to match.
 
+Locale prefixes such as `/pt/` are separated from the content path, matching
+the supported locales in the app's `src/i18n/routing.ts`. Keep that list in sync
+too. Localized pages can fall back to their English source; translations whose
+English source is known to be missing do not make a route valid. Unknown
+prefixes remain ordinary path segments rather than being guessed as languages.
+
 Three things are deliberately not treated as broken routes:
 
 - Pages served by the app rather than by markdown, such as `/wallets` and
@@ -74,6 +80,7 @@ medium.com
 node link-health/check-links.mjs                    # full scan
 node link-health/check-links.mjs --offline          # routes and assets only, no network
 node link-health/check-links.mjs --concurrency 20   # more parallel requests
+node --test link-health/locale-routes.test.mjs      # offline locale regressions
 ```
 
 Outputs `link-health.json` for machines and `link-health.md` for the issue body.

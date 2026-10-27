@@ -41,6 +41,8 @@ const ALLOWLIST_PATH = "link-health/allowlist.txt";
 
 const LOWERCASE_WORDS = ["Guides", "Tutorials", "Contribute", "In", "The", "Vs", "And", "Is", "Zk"];
 const UPPERCASE_WORDS = ["Zec", "Dex", "Nft", "Zcap", "Zfav", "Snarks", "Frost", "2fa", "Pgp", "I2p", "Dao"];
+// Mirror zechub-wiki/src/i18n/routing.ts, not arbitrary two-letter prefixes.
+const SUPPORTED_LOCALES = new Set(["en", "it", "fr", "es", "de", "pt", "ar", "zh", "hi", "ru", "ja", "ko", "tr", "uk", "sw", "yo", "ig", "ak", "ee", "id", "el"]);
 // Same keys, values and ORDER as specialWordsMap in the app's helpers.ts.
 const SPECIAL_WORDS = {
   Non_Custodial: "Non-Custodial",
@@ -234,7 +236,17 @@ async function loadAppRoutes(offline) {
 // ── internal route resolution ────────────────────────────────────────────────
 
 function routeExists(route, mdFiles, appRoutes) {
-  const clean = route.split("#")[0].split("?")[0].replace(/\/+$/, "");
+  let clean = route.split("#")[0].split("?")[0].replace(/\/+$/, "");
+  const segments = clean.split("/");
+  if (SUPPORTED_LOCALES.has(segments[1])) {
+    const contentSegments = segments.slice(2);
+    // Removing a prefix must not turn a path into a filesystem traversal.
+    if (contentSegments.some((s) => s === "." || s === ".." || s.includes("\\"))) {
+      return { ok: false, how: "invalid localized route path" };
+    }
+    // The app falls back to English and rejects known orphan translations.
+    clean = "/" + contentSegments.join("/");
+  }
   if (!clean || clean === "/") return { ok: true, how: "site root" };
 
   // Pages rendered by the app itself have no markdown behind them.
