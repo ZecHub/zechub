@@ -39,14 +39,14 @@ As propriedades principais:
 
 A custódia por threshold faz sentido quando **perder uma chave ou uma pessoa não deve significar perder os fundos**.
 
-| Situation | Por que a custódia por threshold ajuda |
+| Situação | Por que a custódia por threshold ajuda |
 |-----------|----------------------------|
-| **DAO or team treasury** | Nenhum administrador sozinho pode drenar fundos unilateralmente; exige consenso |
-| **Exchange or custodian** | Distribui o risco da chave entre várias zonas de segurança ou funcionários |
-| **Personal cold storage (with trusted family)** | 2-of-3 entre você + dois familiares — se você morrer ou perder o acesso, os fundos não serão perdidos |
+| **Tesouraria de DAO ou equipe** | Nenhum administrador sozinho pode drenar fundos unilateralmente; exige consenso |
+| **Corretora ou custodiante** | Distribui o risco da chave entre várias zonas de segurança ou funcionários |
+| **Cold storage pessoal (com família de confiança)** | 2-of-3 entre você + dois familiares — se você morrer ou perder o acesso, os fundos não serão perdidos |
 | **Escrow** | Comprador, vendedor e árbitro detêm cada um uma parte; os fundos são liberados quando dois concordam |
-| **High-value grant disbursement** | No estilo da ZCG: exige vários signatários independentes antes do pagamento |
-| **Developer key management** | Evita ameaças internas — nenhum desenvolvedor sozinho pode drenar um fundo de protocolo |
+| **Desembolso de subsídios de alto valor** | No estilo da ZCG: exige vários signatários independentes antes do pagamento |
+| **Gestão de chaves de desenvolvedores** | Evita ameaças internas — nenhum desenvolvedor sozinho pode drenar um fundo de protocolo |
 
 Provavelmente você **não** precisa de custódia por threshold para uma carteira pessoal que controla sozinho, valores pequenos ou situações em que a sobrecarga adicional de coordenação supera a redução de risco.
 
@@ -61,10 +61,10 @@ FROST resolve isso ao operar dentro do pool blindado:
 | | Multisig transparente | Threshold FROST (blindado) |
 |--|---------------------|--------------------------|
 | Pool | Transparente (público) | Orchard (blindado) |
-| Signers visible on-chain | Sim — todas as chaves públicas expostas | Não — indistinguível de um gasto com um único signatário |
-| Amounts visible | Sim | Não |
-| Coordination required | Script on-chain | Rodada de comunicação off-chain |
-| Privacy | Nenhuma | Privacidade blindada total |
+| Signatários visíveis on-chain | Sim — todas as chaves públicas expostas | Não — indistinguível de um gasto com um único signatário |
+| Montantes visíveis | Sim | Não |
+| Coordenação necessária | Script on-chain | Rodada de comunicação off-chain |
+| Privacidade | Nenhuma | Privacidade blindada total |
 
 ---
 

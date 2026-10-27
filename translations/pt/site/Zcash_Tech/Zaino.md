@@ -16,7 +16,7 @@ Zaino fica entre Zebra e o software cliente. Zebra é o nó de consenso: baixa, 
 
 Esta separação mantém as funções claras:
 
-| Component | Função |
+| Componente | Função |
 |:--|:--|
 | Zebra | Nó integral e validador |
 | Zaino | Indexador e serviço de API voltado para clientes |

@@ -157,7 +157,7 @@ zecd init --datadir ./data --encrypt
 Inicializada com uma Unified Full Viewing Key (UFVK) exportada de outra carteira. Pode receber, fazer varredura e informar saldos — mas não pode assinar transações. Ideal para monitoramento, faturamento ou nós de auditoria separados da carteira de assinatura.
 
 ```sh
-# No anfitrião da wallet de assinatura:
+# No host da carteira de assinatura:
 zecd export-ufvk
 
 # No anfitrião apenas de observação:
@@ -170,12 +170,12 @@ zecd init --datadir ./data-watch --ufvk "uview1..." --birthday <height>
 
 Os fundos são recuperáveis **somente a partir da frase mnemônica**. Todo o resto é cache.
 
-| Artifact | Localização | O que protege | Fazer backup? |
+| Artefato | Localização | O que protege | Fazer backup? |
 |----------|----------|-----------------|----------|
-| **24-word mnemonic** | Mostrada uma vez em `zecd init` | Os fundos — perda = perda permanente | **Sim — offline (papel/HSM)** |
+| **Mnemônico de 24 palavras** | Mostrada uma vez em `zecd init` | Os fundos — perda = perda permanente | **Sim — offline (papel/HSM)** |
 | `keys.toml` | `<wallet dir>/keys.toml` | Frase semente criptografada + birthday + rede | **Sim — como um Secret** |
 | `identity.txt` | `[keys] age_identity` | Descriptografa `keys.toml` (autoridade de gasto) | **Sim — separadamente de `keys.toml`** |
-| Birthday height | Dentro de `keys.toml` | Torna a restauração rápida (qualquer altura antes da primeira tx) | Registre com a frase mnemônica |
+| Altura birthday | Dentro de `keys.toml` | Torna a restauração rápida (qualquer altura antes da primeira tx) | Registre com a frase mnemônica |
 | `data.sqlite` | `<wallet dir>/data.sqlite` | Cache da carteira — reconstruído a partir da frase semente na restauração | Não — descartável |
 | `blocks/` | `<wallet dir>/blocks/` | Cache de blocos compactos | Não — nunca envie; pode ficar grande |
 | `.cookie` | `<datadir>/.cookie` | Cookie RPC efêmero | Não — regenerado na inicialização |
@@ -201,9 +201,9 @@ Qualquer método que não esteja na lista retorna `-32601` (HTTP 404) — indist
 
 Os desenvolvedores que migram de ferramentas do Bitcoin ou zcashd devem estar cientes destas divergências intencionais:
 
-| Behavior | Bitcoin Core | zecd |
+| Comportamento | Bitcoin Core | zecd |
 |----------|-------------|------|
-| Address format | `1...` / `bc1...` | `u1...` (Orchard Unified Address) — não interpretável como endereço Bitcoin por clientes que fazem parsing de strings |
+| Formato de endereço | `1...` / `bc1...` | `u1...` (Orchard Unified Address) — não interpretável como endereço Bitcoin por clientes que fazem parsing de strings |
 | Labels | Armazenamento completo de rótulos | Não implementado — `setlabel`, `listlabels`, etc. retornam `-32601` |
 | Taxas | Definidas pelo usuário; mercado de taxas | Apenas ZIP-317 determinística; `settxfee`, `fee_rate`, `subtractfeefromamount` rejeitados com `-8` |
 | Memos | Não suportados | `sendtoaddress` aceita memorando hexadecimal; o histórico tem campos `memo` + `memoStr` |
@@ -233,7 +233,7 @@ cargo build --release
 ```
 
 ```sh
-# 1. Inicializar uma wallet testnet (gera uma mnemonic de 24 palavras e uma conta)
+# 1. Inicializar uma carteira testnet (gera uma mnemonic de 24 palavras e uma conta)
 zecd --datadir ./data --testnet init --wallet default --account-name primary
 
 # 2. Iniciar o daemon (sincroniza em segundo plano, serve JSON-RPC na porta 18232)

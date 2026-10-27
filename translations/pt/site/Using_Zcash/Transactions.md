@@ -47,7 +47,7 @@ Os endereços transparentes ainda são úteis em algumas situações, especialme
   <iframe
     className="w-full h-full"
     src="https://www.youtube.com/embed/R-krX1UpsIg"
-    title="Aprenda sobre wallets blindadas Zcash!"
+    title="Aprenda sobre carteiras blindadas Zcash!"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowFullScreen
     loading="lazy"

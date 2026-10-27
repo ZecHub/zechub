@@ -35,12 +35,12 @@ O Pepper Sync introduz várias melhorias:
 
 As versões mais antigas do Zingo frequentemente frustravam os usuários com longos tempos de sincronização, tratamento de erros pouco claro e alto uso de recursos. O Pepper Sync resolve esses problemas comuns:
 
-| Feature            | Versões anteriores do Zingo            | Zingo 2.0 com Pepper Sync                   |
+| Funcionalidade    | Versões anteriores do Zingo            | Zingo 2.0 com Pepper Sync                   |
 | ----------------- | -------------------------------------- | ------------------------------------------- |
-| Sync Speed         | Mais lenta, especialmente na configuração inicial | Sincronização inicial e contínua muito mais rápida |
-| Error Handling     | Travamentos ocasionais e falhas pouco claras | Maior estabilidade com recuperação automática |
-| User Experience    | A sincronização parecia "opaca" para os novos usuários | Transparente, com status e atualizações mais claros |
-| Device Performance | Alto uso de CPU/memória                 | Otimizado para uso fluido de recursos       |
+| Velocidade de sincronização| Mais lenta, especialmente na configuração inicial | Sincronização inicial e contínua muito mais rápida |
+| Tratamento de erros | Travamentos ocasionais e falhas pouco claras | Maior estabilidade com recuperação automática |
+| Experiência do usuário | A sincronização parecia "opaca" para os novos usuários | Transparente, com status e atualizações mais claros |
+| Desempenho do dispositivo | Alto uso de CPU/memória                 | Otimizado para uso fluido de recursos       |
 
 Em resumo: a sincronização agora é mais rápida, mais confiável e mais fácil de entender.
 

@@ -38,7 +38,7 @@ Sapling veio depois de Overwinter, a atualização de junho de 2018 que preparou
 
 ## Glossário
 
-| Term | Significado em linguagem simples |
+| Termo | Significado em linguagem simples |
 |---|---|
 | Shielded transaction | Uma transação privada do Zcash que oculta o remetente, o destinatário e o valor. |
 | Sprout | O protocolo blindado original com o qual o Zcash foi lançado, mais lento e pesado que Sapling. |

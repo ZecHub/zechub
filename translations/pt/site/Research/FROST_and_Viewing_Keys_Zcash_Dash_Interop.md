@@ -61,7 +61,7 @@ m_Sapling / purpose' / coin_type' / account'
 
 Dentro de uma conta Orchard, a hierarquia é estritamente unidirecional — cada nível pode derivar tudo que está abaixo dele e nada que está acima:
 
-| Key | Pode fazer | Deriva |
+| Chave | Pode fazer | Deriva |
 |---|---|---|
 | Spending key | Gastar notes | `ask`, `nk`, `rivk` |
 | Spend authorizing key (`ask`) | Autorizar gastos | — |
@@ -118,12 +118,12 @@ A distinção que importa, e a razão pela qual elas não são substitutas:
 
 | | Dash BLS / LLMQ | Zcash FROST (ZIP 312) |
 |---|---|---|
-| Signature scheme | BLS | Schnorr — RedJubjub / RedPallas |
-| Who signs | Um quorum de masternodes | Um pequeno grupo de detentores individuais de chaves |
-| What is authorized | Um fato de rede: um block lock, um transaction lock | Um gasto de uma conta blindada |
-| Layer | Consenso | Wallet |
-| Key space | Domínio BLS separado | A chave de autorização de gasto do Orchard/Sapling |
-| Status | Implementado | Draft, sem implementação de referência |
+| Esquema de assinatura | BLS | Schnorr — RedJubjub / RedPallas |
+| Quem assina | Um quorum de masternodes | Um pequeno grupo de detentores individuais de chaves |
+| O que é autorizado | Um fato de rede: um block lock, um transaction lock | Um gasto de uma conta blindada |
+| Camada | Consenso | Wallet |
+| Espaço de chaves | Domínio BLS separado | A chave de autorização de gasto do Orchard/Sapling |
+| Estado | Implementado | Draft, sem implementação de referência |
 
 O fato de o Dash ter assinaturas de limiar BLS **não** significa que ele tenha, ou precise de, FROST. Mas significa que os engenheiros do Dash têm experiência interna com assinaturas de limiar, geração distribuída de chaves e coordenação de quorums — experiência genuinamente transferível se decidirem desenvolver isso.
 

@@ -120,14 +120,14 @@ Seu ZEC sai blindado. O serviço vê um pagamento comum em USDC chegando e nunca
 
 Esta é a parte que a maioria dos guias ignora.
 
-| What happens | O que o serviço descobre | O que fica on-chain |
+| O que acontece | O que o serviço descobre | O que fica on-chain |
 |---|---|---|
-| Browsing and prompting | Nada. Sem conta, sem email | Nada |
-| A deposit address is issued | Nada | Nada |
-| You pay **from Sapling** | O endereço de depósito que você usou | Nada. Blindado para blindado |
-| You pay **from Ironwood** | O mesmo | **O valor e a altura do bloco** |
-| You pay **from a transparent address** | O mesmo | O valor e seu t-address |
-| Any of the above | Seu IP, a menos que você use Tor ou uma VPN | Não se aplica |
+| Navegação e prompts | Nada. Sem conta, sem email | Nada |
+| É emitido um endereço de depósito | Nada | Nada |
+| Paga **a partir de Sapling** | O endereço de depósito que você usou | Nada. Blindado para blindado |
+| Paga **a partir de Ironwood** | O mesmo | **O valor e a altura do bloco** |
+| Paga **a partir de um endereço transparente** | O mesmo | O valor e seu t-address |
+| Qualquer uma das opções acima | Seu IP, a menos que você use Tor ou uma VPN | Não se aplica |
 
 ### Por que o pool importa
 

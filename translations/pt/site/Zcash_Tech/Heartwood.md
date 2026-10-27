@@ -38,7 +38,7 @@ Heartwood é um passo em uma sequência de atualizações do Zcash, cada uma acr
 
 ## Glossário
 
-| Term | Significado em linguagem simples |
+| Termo | Significado em linguagem simples |
 |---|---|
 | Network upgrade (NU) | Uma alteração coordenada nas regras de consenso do Zcash, ativada em uma determinada altura de bloco |
 | Coinbase transaction | A transação especial em cada bloco que paga a recompensa do bloco |

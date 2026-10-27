@@ -73,10 +73,10 @@ Vale a pena entender isso antes de criar algo com base nele ou depender dele.
 
 | | Desafio assinado | Pagamento blindado |
 |---|---|---|
-| Cost | Gratuito | Taxa de rede por login |
-| Speed | Instantâneo | Aguarda confirmação |
-| Wallet support | Limitado, ZIP 304 é um rascunho | Amplo, só precisa de memorandos |
-| Leaves a chain record | Não | Sim, existe uma transação |
+| Custo | Gratuito | Taxa de rede por login |
+| Velocidade | Instantâneo | Aguarda confirmação |
+| Suporte das carteiras | Limitado, ZIP 304 é um rascunho | Amplo, só precisa de memorandos |
+| Deixa registro na chain | Não | Sim, existe uma transação |
 
 Limitações compartilhadas:
 

@@ -43,12 +43,12 @@ A ameaça por trás de tudo isso é um atacante que consegue calcular logaritmos
 
 Esta tabela descreve o protocolo como ele funciona agora, contra um atacante capaz de quebrar logaritmos discretos. Ela se aplica a todos os pools blindados, incluindo o Ironwood, porque o Ironwood usa o mesmo circuito Orchard, provas Halo 2 e assinaturas RedPallas que o Orchard.
 
-| Property | Contra um atacante quântico hoje | O que o Ironwood mudou |
+| Propriedade | Contra um atacante quântico hoje | O que o Ironwood mudou |
 |---|---|---|
-| Privacy | Mantém-se se o atacante não conhecer seu endereço blindado. As provas e as assinaturas rerandomizadas não revelam nada adicional. Se o atacante conhecer o endereço, ele pode descriptografar as notes enviadas para ele, incluindo notes antigas salvas da chain. | Nada. ZIP 2005: "A situação em relação à Privacidade permanece inalterada para qualquer pool." |
-| Spending | Não protegido. Um atacante poderia falsificar provas ou assinaturas de gastos e roubar de qualquer pool blindado, até mesmo de endereços que nunca tenha visto. | Ainda nada. A proteção só chega após uma futura mudança para o Protocolo de Recuperação. |
-| Inflation | Não protegida. Um atacante poderia falsificar uma prova com aparência válida e criar ZEC dentro de qualquer pool blindado, possivelmente sem que ninguém percebesse. O único limite é a [catraca](/zcash-tech/the-turnstile): nenhum pool pode pagar mais do que seu saldo registrado. | Ainda nada. As notes Ironwood agora se comprometem com todos os seus conteúdos de uma forma que um atacante quântico não deve conseguir falsificar, que é o que um futuro Protocolo de Recuperação precisa para manter a oferta íntegra. |
-| Recovery | As notes Sprout, Sapling e Orchard não têm caminho de recuperação. Depois que seus protocolos forem desativados, tudo o que restar nelas ficará inacessível. | Todas as notes Ironwood são recuperáveis em princípio. Nenhuma note Sapling ou Orchard é. |
+| Privacidade | Mantém-se se o atacante não conhecer seu endereço blindado. As provas e as assinaturas rerandomizadas não revelam nada adicional. Se o atacante conhecer o endereço, ele pode descriptografar as notes enviadas para ele, incluindo notes antigas salvas da chain. | Nada. ZIP 2005: "A situação em relação à Privacidade permanece inalterada para qualquer pool." |
+| Gasto | Não protegido. Um atacante poderia falsificar provas ou assinaturas de gastos e roubar de qualquer pool blindado, até mesmo de endereços que nunca tenha visto. | Ainda nada. A proteção só chega após uma futura mudança para o Protocolo de Recuperação. |
+| Inflação | Não protegida. Um atacante poderia falsificar uma prova com aparência válida e criar ZEC dentro de qualquer pool blindado, possivelmente sem que ninguém percebesse. O único limite é a [catraca](/zcash-tech/the-turnstile): nenhum pool pode pagar mais do que seu saldo registrado. | Ainda nada. As notes Ironwood agora se comprometem com todos os seus conteúdos de uma forma que um atacante quântico não deve conseguir falsificar, que é o que um futuro Protocolo de Recuperação precisa para manter a oferta íntegra. |
+| Recuperação | As notes Sprout, Sapling e Orchard não têm caminho de recuperação. Depois que seus protocolos forem desativados, tudo o que restar nelas ficará inacessível. | Todas as notes Ironwood são recuperáveis em princípio. Nenhuma note Sapling ou Orchard é. |
 
 O ZEC transparente é um caso separado. Suas assinaturas ECDSA podem ser falsificadas depois que a chave pública se torna conhecida. Em um endereço transparente normal, isso acontece na primeira vez que você gasta a partir dele, e também existe uma curta janela enquanto uma transação permanece não confirmada no mempool. O ZIP 2005 não altera nada disso.
 
@@ -101,16 +101,16 @@ Verificado pela última vez em 13 de setembro de 2026, exceto a linha Sprout, qu
 
 | Item | Status do ZIP | Status da rede | Data | Fonte |
 |---|---|---|---|---|
-| Ironwood pool with quantum-recoverable notes (NU6.3) | ZIP 2005 Proposta, ZIP 229 e ZIP 258 Rascunho | **Ativado** na Mainnet | 28 jul 2026, bloco 3,428,143 | [ZIP 2005](https://zips.z.cash/zip-2005), [ZIP 258](https://zips.z.cash/zip-0258) |
-| Orchard closed to new value | ZIP 2006 Reservado, regras no ZIP 258 | **Ativado** na Mainnet | 28 jul 2026 | [ZIP 258](https://zips.z.cash/zip-0258) |
-| Wallets moving funds into Ironwood | Orientação no ZIP 2005, ZIP 318 e ZIP 326 (Rascunho) | Recomendado, depende da sua carteira | Desde 28 jul 2026 | [ZIP 318](https://zips.z.cash/zip-0318), [ZIP 326](https://zips.z.cash/zip-0326) |
-| Recovery Protocol | Descrito em linhas gerais apenas no ZIP 2005 | **Não implementado** | Sem data | [ZIP 2005](https://zips.z.cash/zip-2005) |
-| Switching off Orchard and Sapling | Sem ZIP | **Não agendado** | Discussão sobre Sapling desde abr 2026 | [Fórum](https://forum.zcashcommunity.com/t/sapling-withdraw-only-discussion-kickoff/55223) |
-| Disabling Sprout spends (ZIP 2003) | Proposta, implementado por NU7 de acordo com o ZIP 259 (Proposta) | **Não ativado** | Altura da Mainnet 3,543,405, prevista para 5 nov 2026 | [ZIP 2003](https://zips.z.cash/zip-2003), [ZIP 259](https://zips.z.cash/zip-0259) |
-| Transparent recoverability (ZIP 2007) | Reservado | **Proposta** | ZIP reservado em 5 jul 2025, discussão aberta em 17 jun 2026 | [zips#1302](https://github.com/zcash/zips/issues/1302) |
-| Post-quantum privacy for known addresses | Questões abertas, sem ZIP | **Pesquisa** | #1133 aberto em 18 ago 2022, #1307 aberto em 23 jun 2026 | [zips#1133](https://github.com/zcash/zips/issues/1133), [zips#1307](https://github.com/zcash/zips/issues/1307) |
-| Project Tachyon | Sem ZIP | **Proposta**, em desenvolvimento | Publicado pela primeira vez em abr 2025 | [tachyon.z.cash](https://tachyon.z.cash/roadmap/) |
-| Fully post-quantum protocol | Questão aberta, sem ZIP | **Trabalho futuro** | #1134 aberto em 28 mar 2016 | [zips#1134](https://github.com/zcash/zips/issues/1134) |
+| Pool Ironwood com notes recuperáveis por meios quânticos (NU6.3) | ZIP 2005 Proposta, ZIP 229 e ZIP 258 Rascunho | **Ativado** na Mainnet | 28 jul 2026, bloco 3,428,143 | [ZIP 2005](https://zips.z.cash/zip-2005), [ZIP 258](https://zips.z.cash/zip-0258) |
+| Orchard fechado para novo valor | ZIP 2006 Reservado, regras no ZIP 258 | **Ativado** na Mainnet | 28 jul 2026 | [ZIP 258](https://zips.z.cash/zip-0258) |
+| Carteiras movendo fundos para Ironwood | Orientação no ZIP 2005, ZIP 318 e ZIP 326 (Rascunho) | Recomendado, depende da sua carteira | Desde 28 jul 2026 | [ZIP 318](https://zips.z.cash/zip-0318), [ZIP 326](https://zips.z.cash/zip-0326) |
+| Protocolo de recuperação | Descrito em linhas gerais apenas no ZIP 2005 | **Não implementado** | Sem data | [ZIP 2005](https://zips.z.cash/zip-2005) |
+| Desativação de Orchard e Sapling | Sem ZIP | **Não agendado** | Discussão sobre Sapling desde abr 2026 | [Fórum](https://forum.zcashcommunity.com/t/sapling-withdraw-only-discussion-kickoff/55223) |
+| Desativação de gastos Sprout (ZIP 2003) | Proposta, implementado por NU7 de acordo com o ZIP 259 (Proposta) | **Não ativado** | Altura da Mainnet 3,543,405, prevista para 5 nov 2026 | [ZIP 2003](https://zips.z.cash/zip-2003), [ZIP 259](https://zips.z.cash/zip-0259) |
+| Recuperabilidade transparente (ZIP 2007) | Reservado | **Proposta** | ZIP reservado em 5 jul 2025, discussão aberta em 17 jun 2026 | [zips#1302](https://github.com/zcash/zips/issues/1302) |
+| Privacidade pós-quântica para endereços conhecidos | Questões abertas, sem ZIP | **Pesquisa** | #1133 aberto em 18 ago 2022, #1307 aberto em 23 jun 2026 | [zips#1133](https://github.com/zcash/zips/issues/1133), [zips#1307](https://github.com/zcash/zips/issues/1307) |
+| Projeto Tachyon | Sem ZIP | **Proposta**, em desenvolvimento | Publicado pela primeira vez em abr 2025 | [tachyon.z.cash](https://tachyon.z.cash/roadmap/) |
+| Protocolo totalmente pós-quântico | Questão aberta, sem ZIP | **Trabalho futuro** | #1134 aberto em 28 mar 2016 | [zips#1134](https://github.com/zcash/zips/issues/1134) |
 
 Na pesquisa de opinião da Zcash Foundation sobre NU7 (fevereiro de 2026), a recuperabilidade quântica teve 90,5% de apoio do ZCAP e 94,6% dos detentores de moedas, e o Tachyon teve apoio quase universal. Foram pesquisas de opinião, não decisões sobre o que entra no NU7.
 

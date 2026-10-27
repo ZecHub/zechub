@@ -34,10 +34,10 @@ O estilo do ZecHub é simples e acessível. Damos as boas-vindas a todos e focam
 
 - **Evite palavras que não sejam em inglês** como de facto ou ad hoc. Evite abreviações latinas de expressões comuns em inglês.
 
-    | Use this    | Em vez disto |
+    | Use isto    | Em vez disto |
     |-------------|-----------------|
-    | for example | e.g.            |
-    | that is     | i.e.            |
+    | Por exemplo | e.g.            |
+    | Isto é      | i.e.            |
 
 ## Tweets
 

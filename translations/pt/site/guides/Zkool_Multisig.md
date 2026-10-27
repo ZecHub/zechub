@@ -110,7 +110,7 @@ Selecione a **Conta de financiamento**.
 
 **Observação:** Se você usar um endereço somente Orchard ou somente Sapling, o multisig ficará limitado apenas àquele pool (Orchard ou Sapling).  
 Isso significa que a carteira compartilhada não poderá receber fundos de outros pools.  
-Para máxima compatibilidade e flexibilidade, use sempre **Endereços unificados**.  
+Para máxima compatibilidade e flexibilidade, use sempre **Unified Addresses**.  
 
 
 ### Etapa 3: Executar as rodadas de DKG

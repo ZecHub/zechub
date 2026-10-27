@@ -62,7 +62,7 @@ Veja como usar Memorandos Blindados do Zcash com a CLI Magic-Wormhole e zcashd p
   <iframe
     className="w-full h-full"
     src="https://www.youtube.com/embed/8iqPCza9o6A"
-    title="DEMO: Transferência de Ficheiros Encriptada com Zcash 📁"
+    title="DEMO: Transferência de arquivos criptografada com Zcash 📁"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowFullScreen
     loading="lazy"

@@ -55,7 +55,7 @@ A NU6 é um capítulo em uma história mais longa sobre como o Zcash se financia
 
 ## Glossário
 
-| Term | Significado em linguagem simples |
+| Termo | Significado em linguagem simples |
 |---|---|
 | Block subsidy | O novo ZEC criado com cada bloco minerado |
 | Coinbase transaction | A transação especial que paga o subsídio e as taxas de um bloco |

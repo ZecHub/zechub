@@ -39,13 +39,13 @@ O pagamento do seu minerador e o seu finalizador não são a mesma coisa. A chai
 
 ## O que é público
 
-| Thing | Público? | Por quê |
+| Elemento | Público? | Por quê |
 |---|---|---|
-| Miner t-address and coinbase history | Sim | Outputs transparentes normais |
-| Finalizer key and zfinv1 | Sim, quando aparece na lista | Precisa ser assim para verificar votos |
-| Voting power and reward bank | Sim | Publicados em relação à chave do finalizador para que a distribuição de staking possa ser auditada |
-| Which transparent address funded a bond | Não, após uma blindagem | A garantia gasta notes blindadas |
-| Link from your miner to your finalizer | Não está on-chain | Nada no protocolo registra isso |
+| t-address do minerador e histórico de coinbase | Sim | Outputs transparentes normais |
+| Chave do finalizador e zfinv1 | Sim, quando aparece na lista | Precisa ser assim para verificar votos |
+| Poder de voto e banco de recompensas | Sim | Publicados em relação à chave do finalizador para que a distribuição de staking possa ser auditada |
+| Que endereço transparente financiou um vínculo | Não, após uma blindagem | A garantia gasta notes blindadas |
+| Ligação do seu minerador ao seu finalizador | Não está on-chain | Nada no protocolo registra isso |
 
 Os montantes em staking são revelados deliberadamente. O design exige que o total em staking e a distribuição entre finalizadores possam ser verificados publicamente. A quantização (potências de 10) e as janelas fixas de staking limitam quanto informações individuais sobre momento ou padrões vazam, permitindo ainda assim essa auditoria. Os saldos de Orchard sem staking permanecem privados; o staking é a divulgação intencional.
 

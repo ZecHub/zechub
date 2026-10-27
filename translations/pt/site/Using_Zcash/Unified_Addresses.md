@@ -40,11 +40,11 @@ As carteiras podem gerar muitos endereços unificados diversificados para uma co
 
 | | |
 |---|---|
-| Prefix | `u1` (mainnet) |
-| Encoding | bech32m |
-| Defined in | [ZIP 316](https://zips.z.cash/zip-0316) |
-| Introduced | NU5, 31 de maio de 2022 |
-| Contains | Receptores Ironwood, Sapling e transparentes |
-| Spending key | Uma por conta, compartilhada por todos os seus UAs |
+| Prefixo | `u1` (mainnet) |
+| Codificação | bech32m |
+| Definido em | [ZIP 316](https://zips.z.cash/zip-0316) |
+| Introduzido | NU5, 31 de maio de 2022 |
+| Contém | Receptores Ironwood, Sapling e transparentes |
+| Chave de gastos | Uma por conta, compartilhada por todos os seus UAs |
 
 Veja quais carteiras são compatíveis com endereços unificados na página de [carteiras](/wallets).

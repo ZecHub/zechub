@@ -14,11 +14,11 @@ agora um dos maiores detentores individuais de ZEC existentes.
 
 ## O mesmo fundo, três fases
 
-| When | O que mudou |
+| Quando | O que mudou |
 | --- | --- |
-| October 2017 | Lançado como uma colocação privada, somente para investidores credenciados |
-| October 2021 | Ações cotadas na OTCQX sob o ticker ZCSH, negociadas com desconto em relação ao NAV |
-| 25 August 2026 | Torna-se um ETP resgatável na NYSE Arca e remove "Trust" do nome |
+| Outubro de 2017 | Lançado como uma colocação privada, somente para investidores credenciados |
+| Outubro de 2021 | Ações cotadas na OTCQX sob o ticker ZCSH, negociadas com desconto em relação ao NAV |
+| 25 de agosto de 2026 | Torna-se um ETP resgatável na NYSE Arca e remove "Trust" do nome |
 
 A etapa de 2026 não é meramente cosmética. Um trust cotado em OTC não tem mecanismo
 de resgate, portanto suas ações podem se distanciar, com prêmio ou desconto, do valor
@@ -30,15 +30,15 @@ instrumento se comporta como um título mobiliário.
 
 ## Quem faz o quê
 
-| Role | Parte |
+| Função | Parte |
 | --- | --- |
-| Sponsor | Grayscale Investments Sponsors, LLC |
-| Trustee | CSC Delaware Trust Company |
-| Administrator and transfer agent | Bank of New York Mellon |
-| Prime broker | Coinbase, Inc. — obtém ZEC para o trust |
-| Authorised participants | Jane Street, Virtu — criam e resgatam ações |
-| Marketing agent | Foreside Fund Services |
-| **Custodian** | **Coinbase Custody Trust Company, LLC** — o único local onde o ZEC real existe |
+| Patrocinador | Grayscale Investments Sponsors, LLC |
+| Fiduciário | CSC Delaware Trust Company |
+| Administrador e agente de transferência | Bank of New York Mellon |
+| Corretor principal | Coinbase, Inc. — obtém ZEC para o trust |
+| Participantes autorizados | Jane Street, Virtu — criam e resgatam ações |
+| Agente de marketing | Foreside Fund Services |
+| **Custodiante** | **Coinbase Custody Trust Company, LLC** — o único local onde o ZEC real existe |
 
 Nenhuma dessas partes, isoladamente, é o fundo. A estrutura é o acordo
 entre elas, que é o que o diagrama acima apresenta. Várias dessas funções

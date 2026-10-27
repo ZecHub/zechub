@@ -75,7 +75,7 @@ Em termos simples, faltavam na lista de verificação do circuito as caixas que 
 
 Os paralelos com nossa história da lista de verificação são exatos:
 
-| Checklist story | O bug do Orchard |
+| Histórico da lista de verificação | O bug do Orchard |
 |---|---|
 | Falta a caixa "passaporte não vencido" | Falta uma restrição em uma multiplicação de curva elíptica |
 | Um viajante com passaporte vencido passa mesmo assim | Entradas falsas arbitrárias passam na verificação da multiplicação |
@@ -111,7 +111,7 @@ O bug do Orchard pertence a uma família recorrente, e ver essa família é o qu
 
 A própria história do Zcash ilustra o padrão:
 
-| Bug (year) | Origem | Detectável? |
+| Bug (ano) | Origem | Detectável? |
 |---|---|---|
 | Falha de compromisso do Zerocash (2016, pré-lançamento) | Especificação (um hash truncado quebrou uma propriedade de vinculação) | Indetectável |
 | Falha de solidez da configuração confiável (2018) | Especificação (um erro no artigo subjacente sobre zk-SNARK) | Indetectável |
@@ -157,7 +157,7 @@ Simplificamos deliberadamente. O circuito real envolve centenas de regiões e mu
 
 ## Glossário
 
-| Term | Significado em linguagem simples |
+| Termo | Significado em linguagem simples |
 |---|---|
 | **Shielded pool** | O modo privado do Zcash em que os valores e as partes estão ocultos |
 | **Zero-knowledge proof** | Uma prova de que uma afirmação oculta é válida, sem revelar mais nada |

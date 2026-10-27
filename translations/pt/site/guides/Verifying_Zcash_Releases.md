@@ -45,7 +45,7 @@ Esse último ponto é o que a maioria dos guias ignora. **De onde você obtém a
 
 Zebra publica estes recursos para cada lançamento:
 
-| Asset | Finalidade |
+| Recurso | Finalidade |
 |---|---|
 | `zebrad-<version>-<arch>.tar.gz` | o arquivo binário |
 | `zebrad-<version>-<arch>.tar.gz.sha256` | checksum por arquivo |
@@ -174,7 +174,7 @@ X509v3 Subject Alternative Name: critical
 
 O Subject Alternative Name é a identidade. Ele nomeia o repositório, o arquivo exato do workflow e a tag. O Sigstore incorpora mais metadados de build em extensões personalizadas:
 
-| Field | Valor para v6.3.0 |
+| Campo | Valor para v6.3.0 |
 |---|---|
 | OIDC issuer | `https://token.actions.githubusercontent.com` |
 | Source repository | `https://github.com/ZcashFoundation/zebra` |
@@ -217,7 +217,7 @@ local  digest : 3eb5de0634f637e793d0411b6c7108802a36e1219f9151803ecc6108fd0f59f6
 
 O bundle contém uma entrada Rekor que prova que a assinatura foi publicada em um log público append-only:
 
-| Field | Valor |
+| Campo | Valor |
 |---|---|
 | Rekor log index | `2412071838` |
 | Entry type | `hashedrekord v0.0.1` |
@@ -233,7 +233,7 @@ O bundle contém uma entrada Rekor que prova que a assinatura foi publicada em u
 
 Zallet publica um conjunto diferente de recursos:
 
-| Asset | Finalidade |
+| Recurso | Finalidade |
 |---|---|
 | `zallet-<version>-<platform>.tar.gz` | o arquivo binário |
 | `.tar.gz.asc` | assinatura GPG destacada |
@@ -334,8 +334,8 @@ A assinatura de lançamentos do Zcash passou da Electric Coin Company para a Zca
 |---|---|---|
 | Fingerprint | `B1C9 095E AA18 48DB B54D 9DDA 1D05 FDC6 6B37 2CFE` | `0338 34DD 49DE CF9D BB99 34BC 6C93 CA8E 58E2 6AB1` |
 | UID | Zcash Master Signing Key (ECC) `<sysadmin@z.cash>` | Zcash Open Development Lab (ZODL) `<sysadmin@zodl.com>` |
-| Type | RSA 3072-bit, criada em 2023-06-19 | RSA 4096-bit, criada em 2026-03-23, expira em 2028-03-22 |
-| Published at | `https://apt.z.cash/zcash.asc` | `https://apt.z.cash/zodl.asc` |
+| Tipo | RSA 3072-bit, criada em 2023-06-19 | RSA 4096-bit, criada em 2026-03-23, expira em 2028-03-22 |
+| Publicada em | `https://apt.z.cash/zcash.asc` | `https://apt.z.cash/zodl.asc` |
 
 Cronologia publicada: nova chave gerada em 2026-03-23, anunciada em 2026-03-27, assinatura exclusiva a partir de 2026-04-23, revogação da antiga chave ECC planejada para 2026-06-23.
 
@@ -426,7 +426,7 @@ Uma falha de assinatura é mais séria do que uma falha de checksum. Uma incompa
 
 ## Parte 4 — Tabela de referência
 
-| Project | Lançamentos publicados em | Método | De onde vem a chave |
+| Projeto | Lançamentos publicados em | Método | De onde vem a chave |
 |---|---|---|---|
 | **Zebra** | `github.com/ZcashFoundation/zebra/releases` | `SHA256SUMS` + Sigstore bundle | Sem chave — identidade de CI via GitHub OIDC |
 | **Zallet** | `github.com/zcash/zallet/releases` | Detached GPG `.asc`, SLSA provenance, SBOM | `apt.z.cash/zodl.asc` — primária `0338 34DD…58E2 6AB1`, subchave de assinatura `1FE9 9324…23F0 617F` |

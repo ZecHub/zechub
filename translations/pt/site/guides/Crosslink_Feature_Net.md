@@ -21,11 +21,11 @@ A Crosslink é uma proposta, não faz parte do Zcash atualmente. As FAQ da Shiel
 
 Para experimentar o design com usuários reais, a Shielded Labs opera o que chama de [redes de funcionalidades incentivadas](https://shieldedlabs.net/crosslink-incentivized-feature-nets/): "uma série de testnets incentivadas". Existem três funções na rede, e o aplicativo de desktop pode desempenhar todas:
 
-| Role | O que faz |
+| Papel | O que faz |
 |---|---|
-| Miner | Produz blocos de prova de trabalho, como no Zcash atualmente |
+| Minerador | Produz blocos de prova de trabalho, como no Zcash atualmente |
 | Staker | Bloqueia cTAZ em uma garantia de delegação e a aponta para um finalizador |
-| Finalizer | Vota para finalizar blocos. Seu poder de voto é o stake delegado a ele |
+| Finalizador | Vota para finalizar blocos. Seu poder de voto é o stake delegado a ele |
 
 O repositório por trás dela começa com um aviso que vale a pena ler antes de você instalar qualquer coisa: "existe para provar ideias, não para demonstrar engenharia de produção" e é "código não pronto para produção" ([README](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/README.md)). Execute-o em uma máquina onde isso seja aceitável.
 
@@ -33,7 +33,7 @@ O repositório por trás dela começa com um aviso que vale a pena ler antes de 
 
 A [Version 14](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v14) foi lançada em 1 de outubro de 2026. Sua rede começa como simples prova de trabalho e ativa a Crosslink em três etapas ([source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/librustzcash/zcash_primitives/src/bft.rs#L546-L555), também mostrado em [ctaz.cash](https://ctaz.cash/v14)):
 
-| Block | O que acontece |
+| Bloco | O que acontece |
 |---|---|
 | 20,736 | O staking é aberto |
 | 34,560 | A primeira lista de finalizadores é obtida a partir dos stakes na chain |

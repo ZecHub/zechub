@@ -21,7 +21,7 @@ A página oficial das Arborist Calls é mantida pela Zcash Foundation:
 </p>
 
 ## Como participar
-As chamadas alternam entre dois horários recorrentes para que colaboradores de diferentes regiões possam participar. Use a página oficial da Zcash Foundation para os arquivos de calendário e links do Zoom atuais:
+
 As chamadas alternam entre dois horários recorrentes para que colaboradores de diferentes regiões possam participar. Use a página oficial da Zcash Foundation para obter os arquivos de calendário atuais e os links do Zoom:
 
 - **15:00 UTC** horário
@@ -32,14 +32,14 @@ A página da Foundation é a fonte de referência para links de registro, arquiv
 ## Notas, agendas e gravações
 
 - Agendas completas e atas: [arboretum-notes](https://github.com/ZcashCommunityGrants/arboretum-notes)
-- Arquivo pesquisável nesta wiki: [Arquivo de Chamadas do Arborist](/arborist-calls)
-- Gravações recentes: [Lista de reprodução de Chamadas do Arborist do Zcash](https://www.youtube.com/playlist?list=PL40dyJ0UYTLJqD_3PE9qiJTxse-iHnn1G)
+- Arquivo pesquisável nesta wiki: [Arquivo das Arborist Calls](/arborist-calls)
+- Gravações recentes: [Lista de reprodução das Arborist Calls do Zcash](https://www.youtube.com/playlist?list=PL40dyJ0UYTLJqD_3PE9qiJTxse-iHnn1G)
 - Discussão de P&D: [Discord de P&D do Zcash](https://discord.gg/xpzPR53xtU)
 - Discussão aprofundada: [Fórum da Comunidade Zcash](https://forum.zcashcommunity.com/)
 
-Arborist Calls são úteis para:
+## Quem deve participar
 
-As Chamadas do Arborist são úteis para:
+As Arborist Calls são úteis para:
 
 - Engenheiros e pesquisadores de protocolo
 - Desenvolvedores de nós, carteiras, SDKs e infraestrutura lightwallet
@@ -50,7 +50,7 @@ As Chamadas do Arborist são úteis para:
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
-    title="Playlist de Zcash Arborist Call"
+    className="w-full h-full"
     src="https://www.youtube.com/embed/videoseries?si=lFFtNRmUsdmSQ1qM&list=PL40dyJ0UYTLJqD_3PE9qiJTxse-iHnn1G"
     title="Zcash Arborist Call Playlist"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"

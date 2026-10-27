@@ -35,7 +35,7 @@ Há várias carteiras disponíveis para pagamentos instantâneos, móveis, segur
 
 <div className="rounded-2xl border border-border bg-card p-5 my-4">
 
-Você pode comprar ZEC em [corretoras custodiante](/using-zcash/custodial-exchanges), [DEXs](/using-zcash/dex) ou [plataformas centralizadas de conversão](/using-zcash/centralized-swaps).
+Você pode comprar ZEC em [corretoras custodiantes](/using-zcash/custodial-exchanges), [DEXs](/using-zcash/dex) ou [plataformas centralizadas de conversão](/using-zcash/centralized-swaps).
 
 Você também pode comprar Zcash diretamente de outras pessoas ou adquiri-lo por meio da mineração.
 
@@ -138,7 +138,7 @@ A referência rápida do [Zallet](/using-zcash/zallet-quick-reference-guide) abo
 
 <div className="rounded-2xl border border-border bg-card p-5 my-4">
 
-Ironwood é a atualização da rede NU6.3, ativa na mainnet desde o bloco 3,428,143 em 28 de julho de 2026. Ela adiciona um pool blindado construído sobre um circuito corrigido e fecha o pool mais antigo [Orchard](/using-zcash/shielded-pools), para que qualquer pessoa possa verificar que nenhum ZEC foi forjado.
+Ironwood é a atualização da rede NU6.3, ativa na mainnet desde o bloco 3.428.143 em 28 de julho de 2026. Ela adiciona um pool blindado construído sobre um circuito corrigido e fecha o pool mais antigo [Orchard](/using-zcash/shielded-pools), para que qualquer pessoa possa verificar que nenhum ZEC foi forjado.
 
 **Se você possui fundos blindados, talvez seja necessário movê-los.** O valor sai de Orchard apenas pela [catraca](/zcash-tech/the-turnstile), e as carteiras realizam a migração em momentos e de formas diferentes. Pergunte ao provedor da sua carteira antes de mover qualquer coisa manualmente.
 

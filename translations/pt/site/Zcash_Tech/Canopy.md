@@ -46,7 +46,7 @@ Além das mudanças no financiamento, a Canopy trouxe duas ZIPs técnicas menore
 
 ## Glossário
 
-| Term | Significado em linguagem simples |
+| Termo | Significado em linguagem simples |
 |---|---|
 | Founders reward | O modelo de financiamento original que pagou pelo desenvolvimento inicial do Zcash, programado para terminar no primeiro halving |
 | Development Fund | A parcela de 20 por cento de cada recompensa por bloco que a Canopy direcionou para o desenvolvimento, até o segundo halving |

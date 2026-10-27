@@ -9,11 +9,11 @@ O Zcash é uma criptomoeda Proof-of-Work. Cada bloco minerado distribui seu **su
 - **Modelo atual (pós-NU6 / a partir de novembro de 2024)**  
   Em abril de 2026, a distribuição é:
 
-| Recipient                      | Percentual | O que financia / status                                      |
+| Destinatário                   | Percentual | O que financia / status                                      |
 |--------------------------------|------------|--------------------------------------------------------------|
-| Miners                         | 80%        | Recompensa direta de bloco para os mineradores               |
+| Mineradores                    | 80%        | Recompensa direta de bloco para os mineradores               |
 | Zcash Community Grants (ZCG)   | 8%         | Subsídios comunitários (continua até ~2028)                  |
-| Lockbox (protocol-controlled)  | 12%        | Os fundos se acumulam; ainda não há mecanismo de gasto; será necessária uma futura votação da comunidade |
+| Lockbox (controlado pelo protocolo) | 12%        | Os fundos se acumulam; ainda não há mecanismo de gasto; será necessária uma futura votação da comunidade |
 
 - **Fundo histórico de desenvolvimento pré-NU6 (2020-nov 2024)**  
   20% de cada subsídio de bloco iam diretamente para organizações de desenvolvimento:
@@ -117,11 +117,11 @@ A governança do Zcash é uma combinação de "regras de protocolo on-chain" e "
 
 ## 4. Tabela de referência rápida - evolução do financiamento
 
-| Period           | Mineradores | ECC/Bootstrap | ZF   | ZCG  | Lockbox | Observações                                |
+| Período          | Mineradores | ECC/Bootstrap | ZF   | ZCG  | Lockbox | Observações                                |
 |------------------|-------------|---------------|------|------|---------|--------------------------------------------|
-| 2020 - Nov 2024  | 80%         | 7%            | 5%   | 8%   | -       | Fundo clássico para desenvolvedores        |
-| Nov 2024 - now   | 80%         | 0%            | 0%   | 8%   | 12%     | Modelo NU6 + extensão da ZCG               |
-| Proposed (ZIP 1016) | 80% | 0%         | 0%   | 8%   | 12% (Coinholder-Controlled) | Até o 3º halving; votação dos detentores de moedas |
+| 2020 - nov 2024  | 80%         | 7%            | 5%   | 8%   | -       | Fundo clássico para desenvolvedores        |
+| nov 2024 - agora | 80%         | 0%            | 0%   | 8%   | 12%     | Modelo NU6 + extensão da ZCG               |
+| Proposto (ZIP 1016) | 80% | 0%         | 0%   | 8%   | 12% (Coinholder-Controlled) | Até o 3º halving; votação dos detentores de moedas |
 
 ## 5. Recursos relacionados
 

@@ -184,11 +184,11 @@ Notas passo a passo para operadores: [Guia de migração: zcashd para Zebrad/Zal
 
 | | Zallet | zecd | Zashi / ZODL / YWallet | Zebra / Zakura | Zaino |
 |--|--------|------|------------------------|----------------|-------|
-| What it is | Carteira RPC de nó integral | Servidor de carteira com foco em blindado | Carteiras para usuários finais | Nó de consenso | Indexador / substituto do lightwalletd |
-| Replaces | Carteira do `zcashd` | Não é um clone direto do `zcashd` | Apps móveis/para desktop | Nó do `zcashd` | `lightwalletd` |
-| Needs a local node | Sim | Sim (Zebra por padrão) | Não (light client) | É o próprio nó | Sim |
-| zcashd RPC compat | Projetado como caminho de compatibilidade | Apenas um pequeno subconjunto escolhido | N/A | Modo de compatibilidade parcial / Zakura | API diferente |
-| Custody model | O operador guarda as chaves em `wallet.db` | Servidor recuperável por seed | Chaves no dispositivo do usuário | Sem carteira | Sem chaves |
+| O que é | Carteira RPC de nó integral | Servidor de carteira com foco em blindado | Carteiras para usuários finais | Nó de consenso | Indexador / substituto do lightwalletd |
+| Substitui | Carteira do `zcashd` | Não é um clone direto do `zcashd` | Apps móveis/para desktop | Nó do `zcashd` | `lightwalletd` |
+| Requer um nó local | Sim | Sim (Zebra por padrão) | Não (light client) | É o próprio nó | Sim |
+| Compatibilidade RPC com zcashd | Projetado como caminho de compatibilidade | Apenas um pequeno subconjunto escolhido | N/A | Modo de compatibilidade parcial / Zakura | API diferente |
+| Modelo de custódia | O operador guarda as chaves em `wallet.db` | Servidor recuperável por seed | Chaves no dispositivo do usuário | Sem carteira | Sem chaves |
 
 Zallet e **zecd** podem ambos ficar à frente do Zebra. Escolha Zallet quando precisar da interface de carteira `z_*` e de um caminho de migração a partir de `wallet.dat`. Escolha zecd quando quiser um servidor com foco em blindado que explicitamente *não* seja um clone do `zcashd`.
 

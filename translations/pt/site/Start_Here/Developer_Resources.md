@@ -11,14 +11,14 @@ A stack mudou muito em 2026. zcashd, que operou a rede durante a maior parte de 
 
 ## A stack em resumo
 
-| Layer | O que usar | Comece com |
+| Camada | O que usar | Comece com |
 |:--|:--|:--|
-| Full node | Zebra ou Zakura | [The Zebra Book](https://zebra.zfnd.org/), [zakura.com](https://zakura.com/) |
-| Full node wallet | Zallet, em beta | [The Zallet Book](https://zcash.github.io/zallet/) |
-| Light wallet server | Zaino ou lightwalletd | [Zaino](https://github.com/zingolabs/zaino), [lightwalletd](https://github.com/zcash/lightwalletd) |
-| Wallet libraries | As crates do librustzcash | [librustzcash](https://github.com/zcash/librustzcash) |
-| Mobile | SDKs para Android e iOS | [Android](https://github.com/zcash/zcash-android-wallet-sdk), [iOS](https://github.com/zcash/zcash-swift-wallet-sdk) |
-| Specification | Especificação do protocolo e ZIPs | [zips.z.cash](https://zips.z.cash) |
+| Nó integral | Zebra ou Zakura | [The Zebra Book](https://zebra.zfnd.org/), [zakura.com](https://zakura.com/) |
+| Carteira de nó integral | Zallet, em beta | [The Zallet Book](https://zcash.github.io/zallet/) |
+| Servidor de carteira leve | Zaino ou lightwalletd | [Zaino](https://github.com/zingolabs/zaino), [lightwalletd](https://github.com/zcash/lightwalletd) |
+| Bibliotecas de carteira | As crates do librustzcash | [librustzcash](https://github.com/zcash/librustzcash) |
+| Dispositivos móveis | SDKs para Android e iOS | [Android](https://github.com/zcash/zcash-android-wallet-sdk), [iOS](https://github.com/zcash/zcash-swift-wallet-sdk) |
+| Especificação | Especificação do protocolo e ZIPs | [zips.z.cash](https://zips.z.cash) |
 
 ## Nós
 

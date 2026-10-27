@@ -54,7 +54,7 @@ A integração com o Kamino abre oportunidades para o Zcash entrar no ecossistem
 Saiba mais: [Kamino Learn](https://kamino.com/docs/learn/guides)
 
 
-> Acesse crédito garantido por ZEC na Solana. O mercado do Zcash no Kamino cresceu para mais de $2M, dando aos detentores de ZEC acesso à liquidez de USDC em troca de $ZEC em um mercado totalmente isolado, selecionado pela @AllezLabs.
+> Acesse crédito garantido por ZEC na Solana. O mercado do Zcash no Kamino cresceu para mais de $2M, dando aos detentores de ZEC acesso à liquidez de USDC com $ZEC como garantia em um mercado totalmente isolado, selecionado pela @AllezLabs.
 >
 > — [Kamino no X](https://x.com/kamino/status/2098485250816946322)
 

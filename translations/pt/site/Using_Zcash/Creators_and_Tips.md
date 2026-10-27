@@ -40,8 +40,8 @@
 |-------------------|---------|
 | **Website**       | [https://zcash.me/](https://zcash.me/) |
 | **Twitter**       | [@zcashme](https://x.com/zcashme) |
-| **Profile Format**| `zcash.me/[username]` |
-| **Status**        | Ativo (com funcionalidades em desenvolvimento) |
+| **Formato do perfil**| `zcash.me/[username]` |
+| **Estado**        | Ativo (com funcionalidades em desenvolvimento) |
 
 #### Funcionalidades principais
 
@@ -54,14 +54,14 @@
 - **Status de atividade** - Mostra a última vez que esteve ativo.
 
 ##### Em breve
-| Feature            | Descrição |
+| Funcionalidade            | Descrição |
 |--------------------|-------------|
-| Location Map       | Encontre usuários do Zcash nas proximidades |
-| Platform Statistics| Veja métricas de crescimento |
-| Community Polls    | Vote em temas do ecossistema |
-| News & Announcements | Atualizações oficiais |
-| Forum              | Discussão da comunidade |
-| Mobile App         | Experiência móvel completa |
+| Mapa de localização       | Encontre usuários do Zcash nas proximidades |
+| Estatísticas da plataforma| Veja métricas de crescimento |
+| Enquetes da comunidade    | Vote em temas do ecossistema |
+| Notícias e anúncios | Atualizações oficiais |
+| Fórum              | Discussão da comunidade |
+| Aplicativo móvel         | Experiência móvel completa |
 
 #### Como começar
 1. Visite [https://zcash.me/](https://zcash.me/) e clique em **Join**.
@@ -84,8 +84,8 @@
 |-------------------|---------|
 | **Website**       | [https://tipz.cash/](https://tipz.cash/) |
 | **Twitter**       | [@tipz_cash](https://x.com/tipz_cash) |
-| **Profile Format**| `tipz.cash/@[username]` |
-| **Status**        | Ativo |
+| **Formato do perfil**| `tipz.cash/@[username]` |
+| **Estado**        | Ativo |
 
 > *"tipz.cash é um protocolo privado de gorjetas para criadores e cypherpunks."*
 
@@ -103,7 +103,7 @@
 - Opção de anonimato completo para o criador
 
 ##### Pagamentos cross-chain
-| Currency | Rede |
+| Moeda | Rede |
 |----------|---------|
 | ETH      | Ethereum |
 | USDC     | Múltiplas chains |

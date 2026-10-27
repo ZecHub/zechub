@@ -66,14 +66,14 @@ Para agentes de IA que lidam com fluxos de trabalho sensíveis, pesquisas juríd
 
 ### Tabela de comparação de privacidade
 
-| Property | Chains públicas (USDC, ETH) | Zimppy blindado | Zimppy transparente |
+| Propriedade | Chains públicas (USDC, ETH) | Zimppy blindado | Zimppy transparente |
 |---|---|---|---|
-| **Sender** | Visível | Criptografado | Visível |
-| **Receiver** | Visível | Criptografado | Por desafio (não vinculável) |
-| **Amount** | Visível | Criptografado | Visível |
+| **Remetente** | Visível | Criptografado | Visível |
+| **Destinatário** | Visível | Criptografado | Por desafio (não vinculável) |
+| **Valor** | Visível | Criptografado | Visível |
 | **Memo** | Visível | Criptografado | N/D |
-| **Replay Protection** | Nenhuma | Vinculação de memorando | Endereço T por desafio |
-| **Service Usage Pattern** | Vinculável | Privado | Não vinculável (endereço novo) |
+| **Proteção contra repetição** | Nenhuma | Vinculação de memorando | Endereço T por desafio |
+| **Padrão de uso do serviço** | Vinculável | Privado | Não vinculável (endereço novo) |
 
 ### O problema da latência, resolvido por sessões
 
@@ -388,7 +388,7 @@ let resp = client
 
 ## Referência da CLI
 
-| Command | Descrição |
+| Comando | Descrição |
 |---|---|
 | `npx zimppy wallet create` | Gerar chaves e exibir frase semente |
 | `npx zimppy wallet whoami` | Exibir endereço (UA + endereço T), saldo, rede |
@@ -463,7 +463,7 @@ packages/
 
 ## Exemplos e demonstrações
 
-| Example | Descrição |
+| Exemplo | Descrição |
 |---|---|
 | `examples/fortune-teller/` | Demonstrações de cobrança, sessão e streaming - servidor e cliente Rust |
 | `examples/llm-summarizer/` | Demonstração de streaming LLM pago por token |
@@ -474,16 +474,16 @@ packages/
 
 ## O que está incluído - Resumo de recursos
 
-| Feature | Descrição |
+| Funcionalidade | Descrição |
 |---|---|
-| **Sessions** | Depositar uma vez, solicitações instantâneas com token de portador, reembolso no encerramento |
+| **Sessões** | Depositar uma vez, solicitações instantâneas com token de portador, reembolso no encerramento |
 | **Streaming** | Conteúdo medido por token via SSE |
-| **Charge** | Pagamento blindado ou transparente por solicitação HTTP (fluxo 402) |
-| **Transparent Payments** | Endereços T com prevenção de repetição por desafio + comando shield |
-| **Multi-Account** | Rotação de contas ZIP-32, transferências entre contas, saldos por conta |
-| **CLI Wallet** | Enviar, blindar, transferir, balance --all, whoami, pagamento automático |
-| **Dual SDK** | TypeScript e Rust |
-| **Spec-Compliant** | Desafios HMAC-SHA256, erros RFC 9457, descoberta `/.well-known/payment` |
+| **Cobrança** | Pagamento blindado ou transparente por solicitação HTTP (fluxo 402) |
+| **Pagamentos transparentes** | Endereços T com prevenção de repetição por desafio + comando shield |
+| **Multiconta** | Rotação de contas ZIP-32, transferências entre contas, saldos por conta |
+| **Wallet CLI** | Enviar, blindar, transferir, balance --all, whoami, pagamento automático |
+| **SDK duplo** | TypeScript e Rust |
+| **Em conformidade com a especificação** | Desafios HMAC-SHA256, erros RFC 9457, descoberta `/.well-known/payment` |
 
 ---
 

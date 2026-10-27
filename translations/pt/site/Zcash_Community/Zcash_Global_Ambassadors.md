@@ -20,21 +20,21 @@ Os embaixadores têm liberdade criativa sobre as atividades que planejam, o que 
 
 ## Comunidades ativas de embaixadores (2026)
 
-| Region | Comunidade | Atividade principal |
+| Região | Comunidade | Atividade principal |
 |--------|-----------|---------------------|
-| Latin America | [Zcash en Español](https://x.com/zcashesp1) | Conteúdo em espanhol, ZK AV Club, podcast Zcast |
-| Brazil | [Zcash Brazil](https://x.com/zcashbrazil) | Workshops, encontros, Shielded Magazine |
-| Turkey | [Zcash Turkey](https://x.com/ZcashTR) | Conteúdo educativo, participação na Istanbul Blockchain Week |
-| Arabia | [Zcash Arabia](https://x.com/ZcashArabia) | Conteúdo educativo em árabe, AMAs |
-| Ukraine| [Zcask Ukraine](https://x.com/Zcash_ua) | Ucrânia |
-| Nigeria | [Zcash Nigeria](https://x.com/ZcashNigeria) | Educação para desenvolvedores, integração da comunidade |
-| East Africa | [Zcash East Africa](https://x.com/ZcashEastAfrica) | África Oriental, crescimento da comunidade em Uganda |
-| South Africa | [Zcash South Africa](https://twitter.com/Zcash_SA) | África do Sul |
-| Ghana | [Zcash Ghana](https://x.com/ZcashGH) | Gana |
-| Mexico | [Zcash Mexico](https://x.com/ZcashMx) | Divulgação universitária e integração de desenvolvedores |
-| Russia | [ruZcash](https://x.com/ruZCASH) | Conteúdo e comunidade em russo |
-| India | [Zcash India](https://x.com/ZcashIND) | Educação para desenvolvedores e crescimento da comunidade |
-| Korea | [Zcash Korea](https://x.com/zcashkorea) | Conteúdo educativo em coreano |
+| América Latina | [Zcash en Español](https://x.com/zcashesp1) | Conteúdo em espanhol, ZK AV Club, podcast Zcast |
+| Brasil | [Zcash Brazil](https://x.com/zcashbrazil) | Workshops, encontros, Shielded Magazine |
+| Turquia | [Zcash Turkey](https://x.com/ZcashTR) | Conteúdo educativo, participação na Istanbul Blockchain Week |
+| Arábia | [Zcash Arabia](https://x.com/ZcashArabia) | Conteúdo educativo em árabe, AMAs |
+| Ucrânia| [Zcask Ukraine](https://x.com/Zcash_ua) | Ucrânia |
+| Nigéria | [Zcash Nigeria](https://x.com/ZcashNigeria) | Educação para desenvolvedores, integração da comunidade |
+| África Oriental | [Zcash East Africa](https://x.com/ZcashEastAfrica) | África Oriental, crescimento da comunidade em Uganda |
+| África do Sul | [Zcash South Africa](https://twitter.com/Zcash_SA) | África do Sul |
+| Gana | [Zcash Ghana](https://x.com/ZcashGH) | Gana |
+| México | [Zcash Mexico](https://x.com/ZcashMx) | Divulgação universitária e integração de desenvolvedores |
+| Rússia | [ruZcash](https://x.com/ruZCASH) | Conteúdo e comunidade em russo |
+| Índia | [Zcash India](https://x.com/ZcashIND) | Educação para desenvolvedores e crescimento da comunidade |
+| Coreia | [Zcash Korea](https://x.com/zcashkorea) | Conteúdo educativo em coreano |
 
 ## Candidate-se para se tornar embaixador
 

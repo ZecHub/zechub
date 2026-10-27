@@ -37,10 +37,10 @@ Antes de qualquer coisa, vamos esclarecer um equívoco comum: **O Zcash não é 
 
 | | **Mundo transparente** | **Mundo blindado** |
 |---|---|---|
-| Privacy | Público, como o Bitcoin | Privado |
-| Addresses start with | `t...` | `z...` ou `u...` |
-| Sender / receiver / amount | **Visível** para todos | **Oculto** para todos |
-| Underlying tech | Registro público no estilo do Bitcoin | Compromissos criptográficos + provas de conhecimento zero |
+| Privacidade | Público, como o Bitcoin | Privado |
+| Os endereços começam com | `t...` | `z...` ou `u...` |
+| Remetente / destinatário / valor | **Visível** para todos | **Oculto** para todos |
+| Tecnologia subjacente | Registro público no estilo do Bitcoin | Compromissos criptográficos + provas de conhecimento zero |
 
 O dinheiro pode até atravessar a fronteira entre eles: mover fundos *para dentro* do mundo blindado é chamado de *shielding*, e movê-los de volta para fora é chamado de *deshielding*.
 
@@ -72,13 +72,13 @@ Agora vamos dar a esses elementos seus nomes reais.
 
 Estes cinco termos são todo o vocabulário do Zcash blindado. Aprenda-os como uma *história*, não como um glossário, e eles vão fixar.
 
-| In the story | Termo real do Zcash | O que realmente é |
+| Na história | Termo real do Zcash | O que realmente é |
 |---|---|---|
-| The envelope's contents (amount + owner + a secret) | **Note** | A "moeda" privada: uma porção de valor pertencente a alguém |
-| The sealed, opaque envelope on the board | **Note commitment** | Um selo criptográfico que prova que um envelope existe enquanto oculta o que há dentro |
-| The bulletin board itself | **Note commitment tree** | Um registro ao qual só se acrescenta no final de *cada note já criada* |
-| The void token in the "spent" bin | **Nullifier** | Um marcador único que significa "esta note já foi gasta" |
-| The "behind the curtain" magic | **Zero-knowledge proof** | Uma prova de que todo o gasto é válido, sem revelar nada dele |
+| O conteúdo do envelope (valor + dono + um segredo) | **Note** | A "moeda" privada: uma porção de valor pertencente a alguém |
+| O envelope lacrado e opaco no quadro | **Note commitment** | Um selo criptográfico que prova que um envelope existe enquanto oculta o que há dentro |
+| O próprio quadro de avisos | **Note commitment tree** | Um registro ao qual só se acrescenta no final de *cada note já criada* |
+| O token de anulação na caixa de "gastos" | **Nullifier** | Um marcador único que significa "esta note já foi gasta" |
+| A mágica "por trás da cortina" | **Zero-knowledge proof** | Uma prova de que todo o gasto é válido, sem revelar nada dele |
 
 Se você não se lembrar de mais nada deste artigo, lembre-se desta tabela. Tudo o que vem a seguir é apenas o *porquê* de cada peça precisar ter o formato que tem.
 
@@ -146,14 +146,14 @@ Observe a assimetria que faz a privacidade funcionar:
 
 ## 8. O que o mundo vê vs. o que permanece oculto
 
-| Fact about the payment | Visível ao público? |
+| Fato sobre o pagamento | Visível ao público? |
 |---|---|
-| That *a* shielded transaction occurred |  Sim |
-| That it obeyed all the rules (no forgery, no double-spend) |  Sim (por meio da prova) |
-| **Who** sent the money |  Oculto |
-| **Who** received it |  Oculto |
-| **How much** was sent |  Oculto |
-| **Which** earlier note was spent |  Oculto |
+| Que ocorreu *uma* transação blindada |  Sim |
+| Que ela obedeceu a todas as regras (sem falsificação, sem gasto duplo) |  Sim (por meio da prova) |
+| **Quem** enviou o dinheiro |  Oculto |
+| **Quem** o recebeu |  Oculto |
+| **Quanto** foi enviado |  Oculto |
+| **Qual** note anterior foi gasta |  Oculto |
 
 Esta é a resolução do paradoxo da Seção 1. O público verifica as *regras*, não o *conteúdo*. Verificação e privacidade deixam de brigar, porque a prova de conhecimento zero permite verificar a primeira sem tocar no segundo.
 

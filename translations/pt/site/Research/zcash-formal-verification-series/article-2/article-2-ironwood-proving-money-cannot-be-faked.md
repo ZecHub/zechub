@@ -145,7 +145,7 @@ Simplificamos para maior clareza. O desenvolvimento real em Lean é muito mais d
 
 ## Glossário
 
-| Term | Significado em linguagem simples |
+| Termo | Significado em linguagem simples |
 |---|---|
 | **Ironwood** | O novo pool blindado do Zcash (2026), substituindo o pool Orchard defeituoso |
 | **Balance integrity** | O pool nunca paga mais valor do que aquele que entrou publicamente nele |

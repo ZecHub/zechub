@@ -38,7 +38,7 @@ O [Fórum da comunidade Zcash](https://forum.zcashcommunity.com/) é o centro pa
 
 O Zcash tem uma presença global ativa no X. Principais contas para acompanhar:
 
-| Account | Descrição |
+| Conta | Descrição |
 |---------|-------------|
 | [@Zcash](https://x.com/zcash) | Conta oficial do Zcash |
 | [@ZecHub](https://x.com/zechub) | ZecHub DAO - educação comunitária e recompensas |

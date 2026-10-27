@@ -84,7 +84,7 @@ Tome `y^2 = x^3 + 2x + 2` sobre o campo finito `F_17`. Calcular todos os pontos 
 
 Agora escolha o ponto `G = (5, 1)` e continue somando-o a si mesmo. Veja o que acontece (cada linha abaixo foi calculada, não adivinhada):
 
-| Step | Ponto | Passo | Ponto |
+| Etapa | Ponto | Passo | Ponto |
 |---|---|---|---|
 | `1G` | (5, 1) | `11G` | (13, 10) |
 | `2G` | (6, 3) | `12G` | (0, 11) |
@@ -110,10 +110,10 @@ Essa tabela de `1G, 2G, 3G, ...` é o coração de tudo. Somar repetidamente um 
 
 Agora vem a mágica. Considere as duas direções:
 
-| Direction | Pergunta | Dificuldade |
+| Direção | Pergunta | Dificuldade |
 |---|---|---|
-| **Forwards** | Dado `k` e `G`, calcular `kG` | **Fácil.** Mesmo para `k` astronomicamente grandes, um truque chamado *double-and-add* chega lá em algumas centenas de passos |
-| **Backwards** | Dado `G` e `kG`, recuperar `k` | **Efetivamente impossível** em uma curva criptográfica real |
+| **Para frente** | Dado `k` e `G`, calcular `kG` | **Fácil.** Mesmo para `k` astronomicamente grandes, um truque chamado *double-and-add* chega lá em algumas centenas de passos |
+| **Para trás** | Dado `G` e `kG`, recuperar `k` | **Efetivamente impossível** em uma curva criptográfica real |
 
 Essa assimetria é a **rua de mão única** de que precisávamos na Seção 1. O problema inverso ("qual `k` produziu este ponto?") é chamado de **Elliptic Curve Discrete Logarithm Problem (ECDLP)** e, nas curvas que o Zcash usa, nenhum método conhecido o resolve antes da morte térmica do universo.
 
@@ -153,7 +153,7 @@ Uma propriedade extra acaba sendo valiosíssima depois: esses compromissos **se 
 
 As marcas disso são concretas e verificáveis.
 
-| Zcash design | Curvas que usa | Papel |
+| Design do Zcash | Curvas que usa | Papel |
 |---|---|---|
 | **Sapling** (mais antiga) | **BLS12-381** mais uma curva embutida chamada **Jubjub** | BLS12-381 carrega o sistema de provas; Jubjub é construída sobre o campo escalar de BLS12-381 para que as operações de chave e compromisso sejam baratas de executar *dentro* de uma prova de conhecimento zero |
 | **Orchard** (atual) | **Pallas** e **Vesta** (o ciclo "Pasta") | Pallas carrega as chaves e compromissos de Orchard; o pareamento Pallas/Vesta é organizado especialmente para tornar provas avançadas eficientes |
@@ -183,7 +183,7 @@ Algumas simplificações mantiveram isto legível. Usamos a forma **short Weiers
 
 ## Glossário
 
-| Term | Significado em linguagem simples |
+| Termo | Significado em linguagem simples |
 |---|---|
 | **Elliptic curve** | Pontos que satisfazem `y^2 = x^3 + ax + b`, com uma "soma" especial de pontos |
 | **Point addition** | A regra da corda e tangente: linha através de dois pontos, pega a terceira interseção, reflete |

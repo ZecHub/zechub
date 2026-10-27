@@ -39,7 +39,7 @@ Blossom foi a terceira atualização da rede do Zcash. Veio depois de Overwinter
 
 ## Glossário
 
-| Term | Significado em linguagem simples |
+| Termo | Significado em linguagem simples |
 |---|---|
 | Block target spacing | O tempo que a rede procura manter entre um bloco e o seguinte |
 | Block reward | O novo ZEC criado e distribuído à medida que cada bloco é minerado |

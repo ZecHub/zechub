@@ -42,7 +42,7 @@ Overwinter foi a primeira atualização da rede do Zcash após o lançamento da 
 
 ## Glossário
 
-| Term | Significado em linguagem simples |
+| Termo | Significado em linguagem simples |
 |---|---|
 | Network upgrade (NU) | Uma alteração coordenada nas regras de consenso do Zcash, ativada em uma altura de bloco definida |
 | Consensus branch id | Um identificador curto que nomeia o conjunto atual de regras de consenso |

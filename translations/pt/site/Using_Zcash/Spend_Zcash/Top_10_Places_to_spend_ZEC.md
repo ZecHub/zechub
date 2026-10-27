@@ -52,7 +52,7 @@ Então, se você é um monstro dos biscoitos..,
 
 agora você sabe onde gastar seus ZEC!
 
-**Site**: sheemprende.com foi descontinuado e já não está acessível. Entre em contato com ela no [Free2Z](https://free2z.cash/SheEmprende) | [Plataforma X](https://twitter.com/SheEmprende_)
+**Site**: sheemprende.com foi descontinuado e não está mais acessível. Entre em contato com ela no [Free2Z](https://free2z.cash/SheEmprende) | [Plataforma X](https://twitter.com/SheEmprende_)
 
 **Zcash Unified Address:**
 
@@ -72,7 +72,7 @@ Chocolate com frutas desidratadas e morango
 
 Rosa sorri orgulhosamente ao mostrar que aceita **Zcash.**
 
-**Site**: somosdulceros.com foi descontinuado e já não está acessível. Use os links das redes sociais abaixo.
+**Site**: somosdulceros.com foi descontinuado e não está mais acessível. Use os links das redes sociais abaixo.
 
 **Redes sociais:** [Instagram](https://www.instagram.com/somos_dulceros) | [Plataforma X](https://twitter.com/RosaMRangel) | [Free2Z](https://free2z.cash/Criptodulceros/zpage/criptodulceros-01)
 

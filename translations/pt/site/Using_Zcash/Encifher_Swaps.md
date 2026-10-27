@@ -28,7 +28,7 @@ A conversão é privada em alguns aspectos, mas não em todos. A própria [docum
 ---
 
 ###  Passo 1: Conecte sua carteira Solana  
-Visite [encrypt.trade](https://encrypt.trade/zec) com o **Chrome ou Firefox** e ligue a sua wallet **Phantom**, **Solflare** ou **Slope**. Certifique-se de que a sua wallet contém SOL suficiente para as taxas de gas e os tokens que pretende negociar. Depois de ligada, está pronto para envolver os seus ativos.  
+Visite [encrypt.trade](https://encrypt.trade/zec) com o **Chrome ou Firefox** e conecte sua carteira **Phantom**, **Solflare** ou **Slope**. Certifique-se de que sua carteira contém SOL suficiente para as taxas de gas e os tokens que você quer negociar. Depois de conectada, você está pronto para encapsular seus ativos.  
 
 
 ![img3](/content-images/SyVOs6lRxx-cbd8193e84.webp)

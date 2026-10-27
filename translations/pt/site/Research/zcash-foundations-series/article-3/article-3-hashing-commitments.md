@@ -34,12 +34,12 @@ Uma **função hash** pega quaisquer dados, desde uma única letra até uma bibl
 
 Uma boa impressão digital criptográfica tem quatro propriedades. Guarde-as como intuições, não como equações:
 
-| Property | Significado simples | Por que isso importa |
+| Propriedade | Significado simples | Por que isso importa |
 |---|---|---|
-| **Deterministic** | A mesma entrada sempre gera a mesma impressão digital | Você pode verificar novamente uma impressão digital a qualquer momento |
-| **Fast forwards** | Calcular a impressão digital é rápido | É prático usá-la em toda parte |
-| **One-way (preimage resistant)** | Dada uma impressão digital, você não consegue encontrar a entrada que a produziu | Esconde os dados originais |
-| **Collision resistant** | Você não consegue encontrar duas entradas diferentes com a mesma impressão digital | Ninguém pode forjar uma correspondência |
+| **Determinística** | A mesma entrada sempre gera a mesma impressão digital | Você pode verificar novamente uma impressão digital a qualquer momento |
+| **Rápida no sentido direto** | Calcular a impressão digital é rápido | É prático usá-la em toda parte |
+| **Unidirecional (resistente a pré-imagem)** | Dada uma impressão digital, você não consegue encontrar a entrada que a produziu | Esconde os dados originais |
+| **Resistente a colisões** | Você não consegue encontrar duas entradas diferentes com a mesma impressão digital | Ninguém pode forjar uma correspondência |
 
 E mais um comportamento que faz essas impressões digitais parecerem quase mágicas:
 
@@ -83,10 +83,10 @@ Existem duas receitas comuns, e o Zcash usa ambas.
 
 | | **Compromisso baseado em hash** | **Compromisso de Pedersen** (do Artigo 2) |
 |---|---|---|
-| Recipe | `H(v, r)` | `v.G + r.H` (pontos em uma curva) |
-| Hiding from | o `r` aleatório | o `r` aleatório |
-| Binding from | resistência a colisões | o problema difícil da curva elíptica (ECDLP) |
-| Special power | simples e rápido | os compromissos **se somam** (homomórfico) |
+| Receita | `H(v, r)` | `v.G + r.H` (pontos em uma curva) |
+| Hiding vem de | o `r` aleatório | o `r` aleatório |
+| Binding vem de | resistência a colisões | o problema difícil da curva elíptica (ECDLP) |
+| Poder especial | simples e rápido | os compromissos **se somam** (homomórfico) |
 
 Essa última linha é o motivo de os compromissos de Pedersen importarem tanto no Zcash. Como `commit(v_1) + commit(v_2)` é um `commit(v_1 + v_2)` válido, o protocolo pode depois provar que **o dinheiro que entra é igual ao dinheiro que sai** somando compromissos, tudo isso sem revelar um único valor. Vamos guardar esse fato para o Artigo 6.
 
@@ -140,7 +140,7 @@ Simplificamos para manter a clareza. Esquemas reais de compromisso especificam e
 
 ## Glossário
 
-| Term | Significado em linguagem simples |
+| Termo | Significado em linguagem simples |
 |---|---|
 | **Hash function** | Comprime quaisquer dados em uma impressão digital curta de tamanho fixo (digest) |
 | **Digest** | A impressão digital de saída de uma função hash |

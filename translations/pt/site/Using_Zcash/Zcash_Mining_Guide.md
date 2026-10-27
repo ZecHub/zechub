@@ -187,7 +187,7 @@ O Zebra aceita um endereço P2PKH ou P2SH transparente, um endereço Sapling ou 
 
 Duas chaves opcionais ficam na mesma seção `[mining]`:
 
-| Key | O que faz | Limite |
+| Chave | O que faz | Limite |
 |---|---|---|
 | `extra_coinbase_data` | Adiciona uma etiqueta pública, como o nome de um pool, à entrada coinbase de cada bloco que você minera, após o próprio marcador do Zebra ([Livro](https://zebra.zfnd.org/user/mining.html#extra-coinbase-data)) | 86 bytes. Acima disso, "O Zebra se recusa a iniciar" |
 | `miner_memo` | Anexa um memorando blindado à saída da recompensa. Ao contrário de `extra_coinbase_data`, ele não é público: apenas alguém com uma chave de visualização do endereço receptor pode lê-lo ([Livro](https://zebra.zfnd.org/user/mining.html#miner-memo)) | 512 bytes. Ele só funciona quando a recompensa vai para um receptor blindado. Com um endereço transparente, "não tem efeito silenciosamente" |

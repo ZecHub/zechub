@@ -41,11 +41,11 @@ Zakura alcança uma sincronização da blockchain aproximadamente 5× mais rápi
 
 Zakura publica snapshots pré-criados da chain que reduzem drasticamente o tempo de sincronização inicial:
 
-| Bootstrap Method | Tempo |
+| Método de inicialização | Tempo |
 |-----------------|------|
-| Archive snapshot | ~37 minutos |
-| Pruned snapshot | **Menos de 2 minutos** |
-| Zebra (full sync) | ~20 horas |
+| Snapshot de arquivo | ~37 minutos |
+| Snapshot podado | **Menos de 2 minutos** |
+| Zebra (sincronização completa) | ~20 horas |
 
 Snapshots podados têm aproximadamente **11 GB**, permitindo uma inicialização do nó **680× mais rápida** em comparação com a sincronização desde a gênese.
 
@@ -81,12 +81,12 @@ Em agosto de 2026, a equipe da Zakura lançou Zakura Common, um conjunto de fork
 
 Segundo os próprios benchmarks da Zakura:
 
-| Operation | Aceleração |
+| Operação | Aceleração |
 |--|--|
-| Proof generation on mobile | mais de 14× (desktop: mais de 5×) |
-| Sinsemilla hashing | mais de 21× |
-| zk-SNARK verification | 4–8× |
-| Trial decryption | mais de 1,5× |
+| Geração de provas em dispositivos móveis | mais de 14× (desktop: mais de 5×) |
+| Hashing Sinsemilla | mais de 21× |
+| Verificação de zk-SNARK | 4–8× |
+| Descriptografia de tentativa | mais de 1,5× |
 
 Para os usuários, a mudança mais visível é o tempo de espera. Criar uma transação privada costumava levar mais de três segundos em uma carteira. Com Zakura Common, isso pode levar menos de 200 ms em muitos casos. Esse é o tempo que seu dispositivo leva preparando a transação, não o tempo de que a rede precisa para confirmá-la.
 
@@ -97,13 +97,13 @@ Para os usuários, a mudança mais visível é o tempo de espera. Criar uma tran
 
 | | zcashd | Zebra | Zakura |
 |--|--------|-------|--------|
-| Language | C++ (derivado do Bitcoin) | Rust | Rust (derivado do Zebra) |
-| Status | Descontinuado | Ativo | Ativo (v1.0.0, jul 2026) |
-| Sync speed | Referência | ~1× | ~5× mais rápido |
-| Block pruning | Não | Não | Sim |
-| zcashd RPC compat | Nativa | Parcial | Sim (modo de compatibilidade) |
-| Snapshot bootstrap | Não | Não | Sim (menos de 2 min) |
-| Experimental P2P | Não | Não | Sim (opt-in) |
+| Linguagem | C++ (derivado do Bitcoin) | Rust | Rust (derivado do Zebra) |
+| Estado | Descontinuado | Ativo | Ativo (v1.0.0, jul 2026) |
+| Velocidade de sincronização | Referência | ~1× | ~5× mais rápido |
+| Poda de blocos | Não | Não | Sim |
+| Compatibilidade RPC com zcashd | Nativa | Parcial | Sim (modo de compatibilidade) |
+| Inicialização por snapshot | Não | Não | Sim (menos de 2 min) |
+| P2P experimental | Não | Não | Sim (opt-in) |
 
 ---
 

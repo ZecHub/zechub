@@ -91,13 +91,13 @@ Usuários avançados também podem executar **Testnets personalizadas ou ambient
 
 ## Principais diferenças entre Mainnet e Testnet
 
-| Feature               | Mainnet          | Testnet                  |
+| Recurso               | Mainnet          | Testnet                  |
 |-----------------------|------------------|--------------------------|
-| Value of coins        | ZEC real         | TAZ (sem valor monetário)|
-| Risk                  | Risco financeiro | Segura para testes       |
-| Protocol upgrades     | Produção      | Ativação antecipada      |
-| Mining rewards        | Emissão real   | Apenas recompensa de teste |
-| Network utility       | Transações ao vivo| Testes e desenvolvimento |
+| Valor das moedas      | ZEC real         | TAZ (sem valor monetário)|
+| Risco                 | Risco financeiro | Segura para testes       |
+| Atualizações de protocolo | Produção      | Ativação antecipada      |
+| Recompensas de mineração | Emissão real   | Apenas recompensa de teste |
+| Utilidade da rede     | Transações ao vivo| Testes e desenvolvimento |
 
 ## Equívocos comuns
 

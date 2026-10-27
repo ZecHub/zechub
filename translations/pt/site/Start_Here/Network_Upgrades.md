@@ -4,7 +4,7 @@ O Zcash melhora por meio de atualizações da rede: alterações coordenadas nas
 
 Para a história visual de como a privacidade do Zcash evoluiu ao longo dessas atualizações, consulte [A evolução da privacidade](https://zechub.wiki/zcash-evolution). Esta página é o índice. A outra é a linha do tempo.
 
-| Upgrade | Ativação (UTC) | Bloco | ID da ramificação | O que mudou |
+| Atualização | Ativação (UTC) | Bloco | ID da ramificação | O que mudou |
 |---|---|---|---|---|
 | [Sprout](../zcash-tech/sprout) | 28 de outubro de 2016 | gênese | 00000000 | O lançamento: o primeiro pool blindado e transações privadas zk-SNARK |
 | [Overwinter](../zcash-tech/overwinter) | 26 de junho de 2018 | 347,500 | 5ba81b19 | Proteção contra repetição, versionamento e expiração de transações, tornando possíveis atualizações seguras |

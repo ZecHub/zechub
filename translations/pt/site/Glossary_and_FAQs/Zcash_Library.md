@@ -9,7 +9,7 @@ Um glossário abrangente de termos-chave, conceitos e recursos relacionados ao Z
 
 ## A
 
-| Term | Definição |
+| Termo | Definição |
 |------|-----------|
 | Actions | Em vez de criar várias provas individuais para cada Spend e Output, o protocolo Orchard as une em uma única Action. |
 | Addresses | O Zcash tem endereços Shielded (zaddr) e Transparent (taddr). Os endereços Unified (UA) agrupam vários tipos de receiver para que uma carteira remetente possa escolher o melhor que ambas as partes suportam. Especificados em [ZIP 316](https://zips.z.cash/zip-0316). [Endereços Unified](/zcash-tech/unified-addresses) |
@@ -18,7 +18,7 @@ Um glossário abrangente de termos-chave, conceitos e recursos relacionados ao Z
 
 ## B
 
-| Term | Definição |
+| Termo | Definição |
 |------|-----------|
 | Benchmarking | Os mineradores podem enviar métricas sobre a eficiência de vários equipamentos usados para minerar Zcash. [Veja aqui](https://zcashbenchmarks.info) |
 | Block | Um Block é um registro na blockchain do Zcash que contém um conjunto de transações enviadas na rede. Aproximadamente a cada 75 segundos, em média, um novo bloco é acrescentado à blockchain. |
@@ -28,7 +28,7 @@ Um glossário abrangente de termos-chave, conceitos e recursos relacionados ao Z
 
 ## C
 
-| Term | Definição |
+| Termo | Definição |
 |------|-----------|
 | Canopy | A 5ª grande atualização da rede do Zcash. [Mais informações](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html?highlight=orchard#canopy) |
 | Commitment Scheme | Permite que alguém assuma um compromisso com um polinômio por meio de uma sequência curta que pode ser usada por um verificador para confirmar avaliações reivindicadas do polinômio comprometido. Útil para reduzir os custos de comunicação no protocolo do Zcash. |
@@ -39,7 +39,7 @@ Um glossário abrangente de termos-chave, conceitos e recursos relacionados ao Z
 
 ## D
 
-| Term | Definição |
+| Termo | Definição |
 |------|-----------|
 | DeFi | Projetos que integram ZEC com DeFi: [Maya Protocol](https://www.mayaprotocol.com/ecosystem#user-interfaces/) / [NEAR Intents](https://near-intents.org/) / [ZenRock](https://app.zenrocklabs.io/) / [ShapeShift](https://app.shapeshift.com/) / [LeoDex](https://leodex.io/) / [THORSwap](https://app.thorswap.finance/) |
 | Deshielding | Refere-se a uma transação enviada de um zaddr (endereço blindado) para um taddr (endereço transparente). A origem da transação não é visível, mas os fundos entram em um pool de valor publicamente visível. |
@@ -48,7 +48,7 @@ Um glossário abrangente de termos-chave, conceitos e recursos relacionados ao Z
 
 ## E
 
-| Term | Definição |
+| Termo | Definição |
 |------|-----------|
 | ECC | A Electric Coin Company, a equipe que lançou o protocolo do Zcash, anteriormente conhecida como Zcash Company. Toda a sua equipe de engenharia se demitiu em janeiro de 2026 após uma disputa de governança com o conselho da Bootstrap e passou a formar a ZODL. |
 | ECDSA | Elliptic Curve Digital Signature Algorithm é um esquema de assinatura digital criptograficamente seguro. O algoritmo de assinatura/verificação ECDSA baseia-se na multiplicação de pontos em curvas elípticas. |
@@ -60,7 +60,7 @@ Um glossário abrangente de termos-chave, conceitos e recursos relacionados ao Z
 
 ## F
 
-| Term | Definição |
+| Termo | Definição |
 |------|-----------|
 | Fiat-Shamir | Uma técnica para pegar uma prova interativa de conhecimento e criar uma assinatura digital com base nela. Dessa forma, algum fato, por exemplo o conhecimento de um segredo, pode ser provado publicamente sem revelar as informações subjacentes. |
 | Formal Verification | Provar matematicamente que um sistema se comporta exatamente como especificado, em vez de depender apenas de testes. O circuito Ironwood Action foi verificado dessa forma por colaboradores da zkSecurity e da ZODL usando o provador de teoremas Lean, para demonstrar a ausência de falhas de solidez. |
@@ -70,13 +70,13 @@ Um glossário abrangente de termos-chave, conceitos e recursos relacionados ao Z
 
 ## G
 
-| Term | Definição |
+| Termo | Definição |
 |------|-----------|
 | Governance | As decisões do processo ZIP são registradas na especificação do Zcash, assim como no software que executa a rede. As alterações são ratificadas on-chain quando a maioria da rede adota a atualização e não quebra o consenso. [Histórico completo do protocolo](https://zfnd.org/protocol-agreements-and-major-decisions/) |
 
 ## H
 
-| Term | Definição |
+| Termo | Definição |
 |------|-----------|
 | Halo | Permite atualizações de circuitos sem a necessidade de configurações confiáveis, tornando o protocolo blindado do Zcash mais ágil para futuras melhorias e extensões. [Explicação técnica](https://z.cash/learn/what-is-halo-for-zcash/) |
 | HD Wallet | As carteiras hierárquicas determinísticas geram uma série de pares de chaves a partir de uma seed, proporcionando conveniência e facilidade de gerenciamento, bem como alto nível de segurança. |
@@ -84,7 +84,7 @@ Um glossário abrangente de termos-chave, conceitos e recursos relacionados ao Z
 
 ## I
 
-| Term | Definição |
+| Termo | Definição |
 |------|-----------|
 | Index | O Índice ZCX da CoinDesk representa uma taxa spot em tempo real, equivalente em USD, para o Zcash. [Índice de preço](https://www.coindesk.com/indices/zcx/) |
 | Integrations | Você pode aceitar pagamentos em Zcash por meio de vários provedores terceirizados. [Processadores de pagamento](https://z.cash/zcash-for-business/) |
@@ -94,19 +94,19 @@ Um glossário abrangente de termos-chave, conceitos e recursos relacionados ao Z
 
 ## J
 
-| Term | Definição |
+| Termo | Definição |
 |------|-----------|
 | JubJub | Uma curva elíptica concebida para ser implementada de forma eficiente em circuitos zk-SNARK. |
 
 ## K
 
-| Term | Definição |
+| Termo | Definição |
 |------|-----------|
 | Keystone Wallet | Uma carteira de hardware air-gapped com suporte nativo ao Zcash (Orchard blindado), compatível com ZODL para assinatura a frio. [Keystone](https://keyst.one) |
 
 ## L
 
-| Term | Definição |
+| Termo | Definição |
 |------|-----------|
 | Layer-1 | Refere-se a uma rede de base e à sua infraestrutura subjacente. As blockchains Layer-1 podem validar e finalizar transações sem a necessidade de outra rede. O Zcash é uma blockchain L1. |
 | librustzcash | Um workspace em Rust que contém todos os crates e dependências para trabalhar com o Zcash. [repo](https://github.com/zcash/librustzcash) |
@@ -114,7 +114,7 @@ Um glossário abrangente de termos-chave, conceitos e recursos relacionados ao Z
 
 ## M
 
-| Term | Definição |
+| Termo | Definição |
 |------|-----------|
 | Metrics | As métricas da rede estão disponíveis [aqui](https://tokenterminal.com/explorer/projects/zcash/metrics/all) |
 | Metadata | Dados gerados junto com a transação de Zcash de um usuário. Isso pode incluir altura do bloco, versão da transação ou altura de expiração etc. |
@@ -124,7 +124,7 @@ Um glossário abrangente de termos-chave, conceitos e recursos relacionados ao Z
 
 ## N
 
-| Term | Definição |
+| Termo | Definição |
 |------|-----------|
 | Network Sustainability Mechanism (NSM) | Uma proposta da Shielded Labs para queimar uma parte das taxas de transação, de modo que o orçamento de segurança de longo prazo do protocolo não dependa inteiramente da emissão. Especificada na ZIP 234, em revisão em 2026. |
 | Nighthawk | Uma carteira móvel para o Zcash. [Website](https://nighthawkwallet.com) |
@@ -135,7 +135,7 @@ Um glossário abrangente de termos-chave, conceitos e recursos relacionados ao Z
 
 ## O
 
-| Term | Definição |
+| Termo | Definição |
 |------|-----------|
 | Oblivious Synchronization | Um método em desenvolvimento no Project Tachyon que permite que uma carteira solicite os dados de que precisa a um servidor não confiável sem revelar sobre quais notes está pedindo informações. O servidor nunca aprende seus nulificadores, porque o protocolo faz com que evoluam de forma não vinculável. [Descrição](https://seanbowe.com/blog/tachyon-scaling-zcash-oblivious-synchronization/) |
 | Orchard | O pool blindado introduzido na NU5. Ironwood o selou após a descoberta de uma falha de solidez, portanto você não pode mais enviar nem receber dentro do Orchard. Os fundos saem apenas pela catraca. [Pools blindados](/using-zcash/shielded-pools) |
@@ -143,7 +143,7 @@ Um glossário abrangente de termos-chave, conceitos e recursos relacionados ao Z
 
 ## P
 
-| Term | Definição |
+| Termo | Definição |
 |------|-----------|
 | Payments | É possível usar o Zcash para compras do dia a dia por meio de vários provedores de pagamento diferentes. [Apps de pagamento](https://z.cash/pay-with-zcash/) |
 | PCD (Proof-Carrying Data) | Um primitivo em que os dados viajam junto com uma prova de sua própria correção, de modo que combinar dados também combina as provas. O Projeto Tachyon reconstrói o protocolo blindado em torno de PCD, permitindo que cada carteira transporte uma prova recursiva de que seu próprio saldo está correto, em vez de reexaminar a chain. A implementação do Zcash é [Ragu](https://github.com/tachyon-zcash/ragu), que segue Halo e não necessita de configuração confiável. |
@@ -153,20 +153,20 @@ Um glossário abrangente de termos-chave, conceitos e recursos relacionados ao Z
 
 ## Q
 
-| Term | Definição |
+| Termo | Definição |
 |------|-----------|
 | QR Code | Um código legível por máquina usado para codificar endereços do Zcash para leitura fácil. Os Unified Addresses (UAs) são normalmente compartilhados por códigos QR nas carteiras modernas do Zcash. |
 | Quantum Recoverability | Uma propriedade das notes Ironwood, especificada em [ZIP 2005](https://zips.z.cash/zip-2005), que mantém o registro on-chain de uma moeda recuperável se um futuro computador quântico quebrar a criptografia que a protege hoje. É um caminho de recuperação, e não resistência quântica, e aplica-se às notes Ironwood, não aos fundos existentes de Sprout, Sapling ou Orchard. |
 
 ## R
 
-| Term | Definição |
+| Termo | Definição |
 |------|-----------|
 | Recovery Phrase | Uma sequência de 12 ou 24 letras e números usada para fazer backup e restaurar uma carteira. No Zcash, essa frase regenera chaves de gastos e chaves de visualização, tornando-a essencial para a recuperação de fundos e a segurança. |
 
 ## S
 
-| Term | Definição |
+| Termo | Definição |
 |------|-----------|
 | Sapling | Uma grande atualização da rede que introduziu melhorias significativas de eficiência para transações blindadas e abriu caminho para a adoção móvel. Ativada no bloco 419200. |
 | Selective Disclosure | Permite ao proprietário de um endereço blindado compartilhar seletivamente chaves de visualização ou divulgações de pagamento com terceiros, mantendo os dados privados de todos os outros. |
@@ -179,7 +179,7 @@ Um glossário abrangente de termos-chave, conceitos e recursos relacionados ao Z
 
 ## T
 
-| Term | Definição |
+| Termo | Definição |
 |------|-----------|
 | Tachyon | O programa de escalabilidade do Zcash. Não faz parte da NU7 ([ZIP 259](https://zips.z.cash/zip-0259)) e não tem data de ativação. Afasta as carteiras da análise de cada bloco, em direção a um estado de carteira com provas, sincronização oblivious e estado de nó que pode ser removido, com o objetivo de alcançar milhares de transações blindadas por segundo. [Site do projeto](https://tachyon.z.cash/overview/) |
 | TAZ | Testnet do Zcash (moeda de teste sem valor). |
@@ -194,39 +194,39 @@ Um glossário abrangente de termos-chave, conceitos e recursos relacionados ao Z
 
 ## U
 
-| Term | Definição |
+| Termo | Definição |
 |------|-----------|
 | Unified Address | Formato de endereço moderno (introduzido na NU5) que funciona tanto para pagamentos transparentes quanto blindados em uma única string. |
 | Upgrade Activation | A altura de bloco específica em que uma atualização da rede (por exemplo, NU5, NU6) é ativada automaticamente. |
 
 ## V
 
-| Term | Definição |
+| Termo | Definição |
 |------|-----------|
 | Viewing Key | Uma chave privada que permite ver o saldo e o histórico de transações de um endereço blindado sem poder gastar os fundos. |
 
 ## W
 
-| Term | Definição |
+| Termo | Definição |
 |------|-----------|
 | Wallet | Software ou hardware que armazena chaves privadas e permite enviar/receber ZEC. As carteiras ativas incluem ZODL (iOS/Android), Zingo! (mobile/desktop), Nighthawk (Android), Zkool (mobile/desktop), Zallet (em breve) e Keystone (hardware). Para uma lista completa, veja [Carteiras do ecossistema Zcash](https://z.cash/ecosystem/?wallets=#tag-wallets) |
 | WebZjs | O primeiro SDK JavaScript para Zcash, desenvolvido pela ChainSafe para ambientes de navegador. Está na base do snap Zcash Shielded Wallet que levou ZEC blindado ao MetaMask. |
 
 ## X
 
-| Term | Definição |
+| Termo | Definição |
 |------|-----------|
 | XZC | Um símbolo de ticker antigo para o Zcash usado em algumas corretoras legadas. O ticker oficial é ZEC. |
 
 ## Y
 
-| Term | Definição |
+| Termo | Definição |
 |------|-----------|
 | YWallet | Uma carteira do Zcash focada em privacidade, com suporte para Orchard, Sapling e endereços transparentes, conhecida pela sincronização rápida. Não é mais mantida: seu desenvolvedor confirmou que não será atualizada para Ironwood, então não consegue mais acompanhar a rede. Zkool, do mesmo desenvolvedor, é a sucessora mantida. |
 
 ## Z
 
-| Term | Definição |
+| Termo | Definição |
 |------|-----------|
 | Zcash | Criptomoeda focada em privacidade que usa zk-SNARKs. Faz a ponte entre pagamentos transparentes (estilo Bitcoin) e pagamentos totalmente blindados. |
 | Zcash Foundation | Organização sem fins lucrativos independente que apoia o ecossistema do Zcash, financia o desenvolvimento e promove a privacidade. |

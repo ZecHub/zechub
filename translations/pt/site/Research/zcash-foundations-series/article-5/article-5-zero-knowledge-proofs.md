@@ -42,11 +42,11 @@ Essa história da caverna demonstra discretamente as **três garantias** que tod
 
 ![Texto alternativo](/content-images/image-24-b559d31849.webp)
 
-| Guarantee | Na história da caverna | No Zcash |
+| Garantia | Na história da caverna | No Zcash |
 |---|---|---|
-| **Completeness** | Se você conhece a palavra, sempre sai pelo lado certo | Uma transação válida sempre produz uma prova aceita |
-| **Soundness** | Um blefador é pego com probabilidade esmagadora | Uma transação fraudulenta (dinheiro forjado, gasto duplo) não pode produzir uma prova aceita |
-| **Zero-knowledge** | O verificador nunca ouve a palavra secreta | A rede nunca aprende valores, endereços ou qual note é |
+| **Completude** | Se você conhece a palavra, sempre sai pelo lado certo | Uma transação válida sempre produz uma prova aceita |
+| **Solidez** | Um blefador é pego com probabilidade esmagadora | Uma transação fraudulenta (dinheiro forjado, gasto duplo) não pode produzir uma prova aceita |
+| **Conhecimento zero** | O verificador nunca ouve a palavra secreta | A rede nunca aprende valores, endereços ou qual note é |
 
 Se qualquer uma delas falhar, o sistema quebra: sem completude, usuários honestos são rejeitados; sem solidez, falsificadores imprimem dinheiro; sem conhecimento zero, a privacidade evapora.
 
@@ -129,7 +129,7 @@ Provas de conhecimento zero são um campo profundo, e ficamos no nível da intui
 
 ## Glossário
 
-| Term | Significado em linguagem simples |
+| Termo | Significado em linguagem simples |
 |---|---|
 | **Zero-knowledge proof** | Convencer alguém de que uma afirmação é verdadeira sem revelar mais nada |
 | **Prover / Verifier** | Quem produz a prova / quem a verifica |

@@ -112,13 +112,13 @@ sudo systemctl daemon-reload
 
 ## Uso diário - Fluxo de trabalho com um único comando
 
-| Action                    | Comando                                      | Notas |
+| Ação                    | Comando                                      | Notas |
 |-------------------------|----------------------------------------------|-------|
-| **Start**               | `sudo systemctl start zebrad`                | Um comando |
-| **Stop**                | `sudo systemctl stop zebrad`                 | Um comando |
-| **Status**              | `sudo systemctl status zebrad`               | Mostra se está em execução |
-| **Live logs**           | `journalctl -u zebrad -f -o short-precise`  | Substitui `screen -r` |
-| **Get RPC cookie**      | `sudo cat /var/lib/zebrad/.cookie`           | Apenas enquanto estiver em execução |
+| **Iniciar**             | `sudo systemctl start zebrad`                | Um comando |
+| **Parar**               | `sudo systemctl stop zebrad`                 | Um comando |
+| **Estado**              | `sudo systemctl status zebrad`               | Mostra se está em execução |
+| **Logs em tempo real**  | `journalctl -u zebrad -f -o short-precise`  | Substitui `screen -r` |
+| **Obter o cookie RPC**    | `sudo cat /var/lib/zebrad/.cookie`           | Apenas enquanto estiver em execução |
 
 **Aliases de conveniência** (adicione ao `~/.bashrc` ou `~/.zshrc`):
 ```

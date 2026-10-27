@@ -144,16 +144,16 @@ Essa integração demonstra que privacidade e descentralização podem trabalhar
 
 ## Resumo
 
-| Feature | Detalhes |
+| Recurso | Detalhes |
 |---|---|
-| **Platform** | ShapeShift DAO (descentralizada, open-source) |
-| **Governance** | Detentores do token FOX |
-| **Zcash Support** | Negociação completa de ZEC com suporte a transações blindadas |
-| **KYC Required** | Não |
-| **Custody** | Sem custódia (os usuários mantêm suas próprias chaves) |
-| **Cross-Chain Swaps** | BTC, ETH, Arbitrum, Cosmos e mais |
-| **Infrastructure** | Alimentada pela Liquify (suporte RPC para mais de 90 blockchains) |
-| **Zcash Community Grants Funding** | $50,000 para suporte técnico e de marketing |
+| **Plataforma** | ShapeShift DAO (descentralizada, open-source) |
+| **Governança** | Detentores do token FOX |
+| **Suporte a Zcash** | Negociação completa de ZEC com suporte a transações blindadas |
+| **KYC obrigatório** | Não |
+| **Custódia** | Sem custódia (os usuários mantêm suas próprias chaves) |
+| **Conversões cross-chain** | BTC, ETH, Arbitrum, Cosmos e mais |
+| **Infraestrutura** | Alimentada pela Liquify (suporte RPC para mais de 90 blockchains) |
+| **Financiamento da Zcash Community Grants** | $50,000 para suporte técnico e de marketing |
 
 A integração entre ShapeShift e Zcash representa um avanço significativo para a privacidade nas finanças descentralizadas. Ao combinar a infraestrutura de negociação multichain e sem custódia da ShapeShift com a tecnologia de prova de conhecimento zero do Zcash, os usuários ganham acesso a negociações de criptomoedas verdadeiramente privadas e sem permissão. Para qualquer pessoa que valorize privacidade financeira e autossoberania, essa integração oferece um caminho prático e acessível para usar ZEC sem concessões.
 

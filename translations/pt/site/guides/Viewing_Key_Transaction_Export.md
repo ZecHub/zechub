@@ -126,7 +126,7 @@ jq -r '["txid","height","time_utc","net_zec","fee_zec","memos"],
 
 ### Lendo o resultado
 
-| Field | Significado |
+| Campo | Significado |
 |---|---|
 | `value` | Alteração líquida da conta em ZEC, incluindo a taxa. Negativa para envios. |
 | `fee` | Taxa em ZEC. Nos pagamentos que você recebeu, o remetente a pagou e ela não está em `value`. |
@@ -200,10 +200,10 @@ O [zingoHelper](https://github.com/dismad/zingoHelper) de dismad tem um script `
 
 ## Outras ferramentas
 
-| Tool | O que você obtém |
+| Ferramenta | O que você obtém |
 |---|---|
 | ZODL | CSV fiscal com datas, valores, taxas e uma etiqueta. Apenas o ano-calendário anterior, ignora transações de blindagem, sem txid, memorando ou endereço. |
-| Zkool app | Exportações de tabelas brutas do menu da conta |
+| Aplicativo Zkool | Exportações de tabelas brutas do menu da conta |
 | [Zenith](https://code.vergara.tech/Vergara_Tech/zenith) | Importa uma UFVK com `importvk`. `listreceived` via RPC retorna notes recebidas com txid e memorando, mas sem envios nem taxas. |
 | [Zallet](https://github.com/zcash/zallet) | `z_listtransactions` é detalhado, mas está marcado como experimental, e o Zallet importa apenas chaves de visualização Sapling, não UFVKs |
 | [zcash-devtool](https://github.com/zcash/zcash-devtool) | Importa uma UFVK com `wallet init-fvk`, depois `wallet list-tx`. Seu modo CSV não tem txid nem endereço, e o projeto diz para não usá-lo em produção. |

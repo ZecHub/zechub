@@ -59,7 +59,7 @@ Para a **BNB Smart Chain**;
 -  Block Explorer URL: https://bscscan.com
 ```
 Isso habilita informações da rede e links do explorador.
-![Adicionar uma rede personalizada....](/content-images/S1hq7f2Oel-e1ca8b9044.webp)
+![Adicionar-uma-rede-personalizada....](/content-images/S1hq7f2Oel-e1ca8b9044.webp)
 
 Para a **Zcash Mainnet**;
 ```markdown
@@ -80,7 +80,7 @@ Para a **Zcash Mainnet**;
 
 3. Aprove a conexão.  
 4. Veja o resumo da sua conta Zcash, incluindo:
-   - Endereços unificados e endereço transparente
+   - Unified Addresses e endereço transparente
 
 ![resumo-da-conta-unif....](/content-images/r17c_Mhdel-f4963826d5.webp)
 
@@ -112,7 +112,7 @@ Para a **Zcash Mainnet**;
    - Shielded recipient address  
    - Amount
 ```
-   ![Transferir saldo](/content-images/rkvcFfhdex-bd55d079eb.webp)
+   ![Transferir-Saldo](/content-images/rkvcFfhdex-bd55d079eb.webp)
 
 4. Confirme a transação no MetaMask (assine a transação).  
 5. Os fundos recebidos aparecerão no WebZjs após a confirmação.

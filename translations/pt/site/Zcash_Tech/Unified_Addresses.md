@@ -102,7 +102,7 @@ Para tipos de receptores conhecidos, verifique se o comprimento codificado corre
 
 ## Glossário
 
-| Term | Significado |
+| Termo | Significado |
 | :----------------------- | :-------------------------------------------------------------------- |
 | **Unified Address (UA)** | String de endereço única que agrupa vários pools de receptores. |
 | **Receiver** | Tipo específico de destino de pagamento (transparente, Sapling ou Orchard). |

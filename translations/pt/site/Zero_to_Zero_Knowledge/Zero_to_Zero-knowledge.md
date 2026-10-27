@@ -6,7 +6,7 @@ Uma breve série sobre as ideias por trás do dinheiro digital privado. Comece p
 |---|-------|---------------------|
 | 1 | [Funções hash](/zero-to-zero-knowledge/hash-functions) | Qualquer entrada se torna uma saída fixa. As três propriedades que um hash deve ter. |
 | 2 | [Frases semente](/zero-to-zero-knowledge/mnemonic-seed-phrases) | Como uma lista de palavras se transforma nas chaves que protegem seus fundos. |
-| 3 | [Endereços Zcash](/zero-to-zero-knowledge/zcash-addresses) | Transações transparentes e blindadas, e endereços unificados. |
+| 3 | [Endereços Zcash](/zero-to-zero-knowledge/zcash-addresses) | Transações transparentes e blindadas, e Unified Addresses. |
 | 4 | [Ambientes de execução confiáveis](/zero-to-zero-knowledge/tees) | Hardware que mantém a computação privada e onde ele falha. |
 | 5 | [Cryptonote](/zero-to-zero-knowledge/cryptonote) | O design de privacidade por trás do Monero e como ele difere do Zcash. |
 | 6 | [Lelantus](/zero-to-zero-knowledge/lelantus) | O protocolo por trás do Firo e como ele se compara ao Zcash. |

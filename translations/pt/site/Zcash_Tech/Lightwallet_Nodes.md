@@ -44,12 +44,12 @@ Depois, há o que não está protegido. O modelo de ameaças lista estes como po
 
 | Ponto fraco | Como |
 |:--|:--|
-| Telling who you are | "O adversário conhece o endereço IP do usuário, o que pode levá-lo à identidade real do usuário" |
-| Telling roughly where you are | Procurar seu IP "em um banco de dados de geolocalização para aproximar sua localização" |
-| Telling that and when you sent or received a shielded transaction | O envio "usa mais largura de banda, o que é visível mesmo que a conexão esteja criptografada". O modelo observa que o próprio ato de enviar e receber é visível para o servidor |
-| Counting how many transactions you have made over time | Os mesmos padrões de largura de banda, observados durante um período mais longo |
-| Spotting recurring payment patterns | Observar quando ocorre atividade |
-| Working out whether an address is yours | Um adversário que já conhece um endereço "poderia enviar fundos para esse endereço e observar se há picos de largura de banda" da sua carteira ao buscá-lo |
+| Determinar quem você é | "O adversário conhece o endereço IP do usuário, o que pode levá-lo à identidade real do usuário" |
+| Determinar aproximadamente onde você está | Procurar seu IP "em um banco de dados de geolocalização para aproximar sua localização" |
+| Determinar se e quando você enviou ou recebeu uma transação blindada | O envio "usa mais largura de banda, o que é visível mesmo que a conexão esteja criptografada". O modelo observa que o próprio ato de enviar e receber é visível para o servidor |
+| Contar quantas transações você fez ao longo do tempo | Os mesmos padrões de largura de banda, observados durante um período mais longo |
+| Detectar padrões de pagamento recorrentes | Observar quando ocorre atividade |
+| Determinar se um endereço pertence a você | Um adversário que já conhece um endereço "poderia enviar fundos para esse endereço e observar se há picos de largura de banda" da sua carteira ao buscá-lo |
 
 O modelo também observa que o caso normal pressupõe "uma relação de confiança entre o usuário e o operador do servidor lightwalletd".
 
@@ -97,7 +97,7 @@ O painel [hosh.zec.rocks](https://hosh.zec.rocks/zec) acompanha os servidores p�
 
 Servidores indicados nesse painel no momento da redação:
 
-| Server | Notas |
+| Servidor | Notas |
 |:--|:--|
 | zec.rocks:443 | Os endpoints regionais são apresentados ao lado, em na.zec.rocks, eu.zec.rocks, ap.zec.rocks e sa.zec.rocks |
 | zec-node.cakewallet.com:443 | No domínio da Cake Wallet |

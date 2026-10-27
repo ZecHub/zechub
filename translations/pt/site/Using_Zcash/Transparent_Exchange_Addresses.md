@@ -70,10 +70,10 @@ Os endereços TEX usam a codificação Bech32m do formato de endereço unificado
 
 | | Unified Address (ZIP 316) | Endereço TEX (ZIP 320) |
 |---|---|---|
-| What it holds | vários receptores agrupados | um único receptor transparente P2PKH |
-| Human-readable prefix (HRP) | `u` (mainnet) | `tex` (`textest` na testnet) |
-| F4Jumble obfuscation | sim | não |
-| Typecodes for each receiver | sim | não |
+| O que contém | vários receptores agrupados | um único receptor transparente P2PKH |
+| Prefixo legível por humanos (HRP) | `u` (mainnet) | `tex` (`textest` na testnet) |
+| Ofuscação F4Jumble | sim | não |
+| Códigos de tipo para cada destinatário | sim | não |
 
 Em resumo, um endereço TEX é o invólucro Bech32m mais simples possível: um hash de chave transparente, um prefixo `tex` e nada mais.
 

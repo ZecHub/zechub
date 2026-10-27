@@ -46,11 +46,11 @@ A diferença está entre **amostrar a realidade** e **provar uma propriedade do 
 
 Toda verificação formal, por mais avançada que seja, é construída com exatamente três ingredientes. Tenha-os claramente em mente, e o resto serão detalhes.
 
-| Pillar | Significado simples | Analogia do edifício |
+| Pilar | Significado simples | Analogia do edifício |
 |---|---|---|
-| **Specification** | Uma afirmação precisa do que *significa* estar "correto" | "Todas as portas devem estar trancadas à noite" |
-| **System** | O que está sendo efetivamente verificado (um programa, um circuito, um protocolo) | O edifício e seu mecanismo de travamento |
-| **Proof** | Um argumento rigoroso de que o sistema sempre atende à especificação | A demonstração lógica de que pressionar "trancar" trava todas as portas |
+| **Especificação** | Uma afirmação precisa do que *significa* estar "correto" | "Todas as portas devem estar trancadas à noite" |
+| **Sistema** | O que está sendo efetivamente verificado (um programa, um circuito, um protocolo) | O edifício e seu mecanismo de travamento |
+| **Prova** | Um argumento rigoroso de que o sistema sempre atende à especificação | A demonstração lógica de que pressionar "trancar" trava todas as portas |
 
 E um quarto ingrediente, mais discreto, torna tudo confiável:
 
@@ -85,11 +85,11 @@ Como ela vale no início (0) e cada passo a leva ao próximo número, ela vale p
 
 A verificação formal é poderosa, em parte, por causa de uma ideia esclarecedora sobre *onde* os erros surgem. Qualquer falha em um sistema de verificação de regras pode ser atribuída a um de três lugares:
 
-| Source of a bug | O que significa | Podemos eliminá-lo por prova? |
+| Origem de um erro | O que significa | Podemos eliminá-lo por prova? |
 |---|---|---|
-| **The specification** | A própria matemática ou as regras estão erradas (uma condição ausente, uma definição ruim) | **Sim**, diretamente; este é o terreno da verificação formal |
-| **The implementation** | O código não executa fielmente uma especificação correta | Parcialmente; muitas vezes, essas falhas deixam evidências detectáveis |
-| **A broken assumption** | Algo do qual todo o sistema depende acaba sendo falso | Não; as suposições são a base irredutível |
+| **A especificação** | A própria matemática ou as regras estão erradas (uma condição ausente, uma definição ruim) | **Sim**, diretamente; este é o terreno da verificação formal |
+| **A implementação** | O código não executa fielmente uma especificação correta | Parcialmente; muitas vezes, essas falhas deixam evidências detectáveis |
+| **Uma suposição que falhou** | Algo do qual todo o sistema depende acaba sendo falso | Não; as suposições são a base irredutível |
 
 Essa taxonomia importa mais do que parece, e as Partes 2 e 3 dependem dela. Os erros mais profundos e perigosos, aqueles que podem permanecer ocultos para sempre, tendem a estar na **especificação**: a descrição matemática do que o sistema deve fazer. E a especificação é exatamente o que uma prova verificada por máquina pode examinar diretamente, todos os casos de uma só vez. É por isso que os esforços sérios de verificação formal começam por aí.
 
@@ -135,7 +135,7 @@ Para manter isto legível, simplificamos. As especificações reais são escrita
 
 ## Glossário
 
-| Term | Significado em linguagem simples |
+| Termo | Significado em linguagem simples |
 |---|---|
 | **Formal verification** | Provar, matematicamente, que um sistema atende a uma especificação em todos os casos |
 | **Specification** | Uma afirmação precisa do que significa "comportamento correto" |

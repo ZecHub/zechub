@@ -39,7 +39,7 @@ A demonstração do widget é um modal ZIP-321 ao vivo: QR, copiar endereço/URI
 zcash:<address>?amount=<zec>&memo=<base64url>&label=<text>
 ```
 
-| Field | Obrigatório | Observações |
+| Campo | Obrigatório | Observações |
 | --- | --- | --- |
 | address | sim | Prefira um Unified Address (`u1` / `utest1`) |
 | amount | não | ZEC decimal com `.` como separador e, no máximo, 8 casas decimais (`0.5`, não `0,5`) |
@@ -85,7 +85,7 @@ Como criar solicitações de pagamento com Zcash:
   <iframe
     className="w-full h-full"
     src="https://www.youtube.com/embed/l5auYQIzYsQ"
-    title="Como criar pedidos de pagamento com Zcash"
+    title="Como criar solicitações de pagamento com Zcash"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowFullScreen
     loading="lazy"
@@ -98,7 +98,7 @@ Adicionar um widget de doações com Zcash ao seu site:
   <iframe
     className="w-full h-full"
     src="https://www.youtube.com/embed/NbP4BcHC0uM"
-    title="Adicionar um widget de donativos Zcash ao seu website"
+    title="Adicionar um widget de doações com Zcash ao seu site"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowFullScreen
     loading="lazy"
@@ -107,7 +107,7 @@ Adicionar um widget de doações com Zcash ao seu site:
 
 ## Visual / Analogia
 
-Pense em um formulário de transferência bancária com campos para o número da conta, o valor e uma note indicando a finalidade do pagamento. Preenchê-lo manualmente é lento, e um dígito errado envia o dinheiro para o lugar errado.
+Pense em um formulário de transferência bancária com campos para o número da conta, o valor e uma observação indicando a finalidade do pagamento. Preenchê-lo manualmente é lento, e um dígito errado envia o dinheiro para o lugar errado.
 
 Um URI de solicitação de pagamento é esse formulário, preenchido pela loja. O código QR é uma foto do formulário. A câmera do seu celular lê a foto, a carteira copia todos os campos para o lugar certo, e você verifica os números e assina.
 

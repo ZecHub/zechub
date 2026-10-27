@@ -34,7 +34,7 @@ Sprout é a base sobre a qual todas as alterações posteriores se apoiam. Quand
 
 ## Glossário
 
-| Term | Significado em linguagem simples |
+| Termo | Significado em linguagem simples |
 |---|---|
 | zk-SNARK | Uma prova de conhecimento zero que mostra que uma transação é válida sem revelar o remetente, o destinatário ou o valor |
 | Shielded pool | O lado privado do Zcash, onde os valores e as partes ficam ocultos. O pool Sprout foi o primeiro |

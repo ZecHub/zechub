@@ -24,13 +24,13 @@ Para saber como iniciar a stack pós-`zcashd` (Zebra + Zallet, Zaino opcional, p
 
 ## Qual processo responde a cada chamada
 
-| You want | Fale com | Porta do host Z3 mainnet | Observações |
+| Pretende | Fale com | Porta do host Z3 mainnet | Observações |
 | --- | --- | --- | --- |
-| Chain tip, peers, `getblockchaininfo` | JSON-RPC do Zebra | 8232 | Autenticação por cookie |
-| Wallet balance, addresses, send | RPC do Zallet | 28232 | Processo separado; software beta |
-| Compact blocks for light wallets | gRPC do Zaino | 8137 | Apenas com `--profile indexer`; h2c em texto simples |
-| Explorer / faucet JSON-RPC proxy | Proxy JSON-RPC do Zaino | 8237 | Apenas rede confiável |
-| Practice all of the above without sync | rpc-router regtest do Z3 | 8181 | Nome de usuário `zebra` / senha `zebra` |
+| Ponta da chain, pares, `getblockchaininfo` | JSON-RPC do Zebra | 8232 | Autenticação por cookie |
+| Saldo da carteira, endereços, envio | RPC do Zallet | 28232 | Processo separado; software beta |
+| Blocos compactos para light clients | gRPC do Zaino | 8137 | Apenas com `--profile indexer`; h2c em texto simples |
+| Proxy JSON-RPC para explorador / faucet | Proxy JSON-RPC do Zaino | 8237 | Apenas rede confiável |
+| Praticar tudo o que foi dito acima sem sincronização | rpc-router regtest do Z3 | 8181 | Nome de usuário `zebra` / senha `zebra` |
 
 Matriz de portas e nomes de projetos Compose: [Stack Z3](/zcash-tech/z3-stack) e [`z3-contract.yaml`](https://github.com/ZcashFoundation/z3/blob/main/z3-contract.yaml).
 
@@ -52,7 +52,7 @@ curl -s -X POST -H "Content-Type: application/json" \
   http://127.0.0.1:8181
 ```
 
-Um resultado saudável de `getblockchaininfo` inclui `"blocks"` e um mapa `"upgrades"`. Se curl bloquear, o router não está ativo; se receber `401`, está a contactar Zebra diretamente em vez do router (o Zebra direto em regtest é `29232` e continua a esperar as credenciais do router, a menos que as tenha alterado).
+Um resultado saudável de `getblockchaininfo` inclui `"blocks"` e um mapa `"upgrades"`. Se curl bloquear, o router não está ativo; se receber `401`, você está consultando o Zebra diretamente em vez do router (o Zebra direto em regtest é `29232` e continua esperando as credenciais do router, a menos que você as tenha alterado).
 
 Fluxo de trabalho completo do regtest, incluindo a mineração dos blocos de ativação: [Z3 `docs/regtest.md`](https://github.com/ZcashFoundation/z3/blob/main/docs/regtest.md).
 

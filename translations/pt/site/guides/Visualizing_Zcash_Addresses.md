@@ -6,7 +6,7 @@
 # Visualizando endereços do Zcash
 
 Se você está aprendendo sobre o Zcash pela primeira vez, perceberá imediatamente que há dois tipos de [transações](https://zechub.wiki/using-zcash/transactions) que podem ocorrer: *transparentes* e *blindadas*.
-Além disso, se você tem acompanhado os desenvolvimentos mais recentes no ecossistema do Zcash, poderá ter aprendido sobre [Endereços unificados](https://web.archive.org/web/20260823012524/https://electriccoin.co/blog/unified-addresses-in-zcash-explained/), ou UA's.
+Além disso, se você tem acompanhado os desenvolvimentos mais recentes no ecossistema do Zcash, poderá ter aprendido sobre [Unified Addresses](https://web.archive.org/web/20260823012524/https://electriccoin.co/blog/unified-addresses-in-zcash-explained/), ou UA's.
 Quando as pessoas da indústria do Zcash falam sobre transações *blindadas*, referem-se a transações que envolvem endereços codificados para os protocolos sapling ou orchard. 
 As UA's foram projetadas para unificar *qualquer* tipo de transação blindada ou transparente em um único endereço. Essa generalização é a chave para simplificar a UX no futuro. O objetivo deste guia é complementar a compreensão das UA's com exemplos visuais concretos.
 
@@ -37,7 +37,7 @@ A segunda coisa a notar é o prefixo de cada string de endereço -- transparente
 
 É importante observar:
 
-#### "Os endereços de pagamento Orchard não têm uma codificação de string independente. Em vez disso, definimos "endereços unificados" que podem agrupar endereços de diferentes tipos, incluindo Orchard. Endereços unificados têm uma parte legível por humanos de "u" na Mainnet, ou seja, terão o prefixo "u1". "
+#### "Os endereços de pagamento Orchard não têm uma codificação de string independente. Em vez disso, definimos "Unified Addresses" que podem agrupar endereços de diferentes tipos, incluindo Orchard. Endereços unificados têm uma parte legível por humanos de "u" na Mainnet, ou seja, terão o prefixo "u1". "
 
 ## Receptores de Unified Address
 

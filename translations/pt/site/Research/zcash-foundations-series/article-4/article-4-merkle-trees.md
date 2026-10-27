@@ -109,8 +109,8 @@ Assim, as duas estruturas públicas desempenham papéis complementares, e mantê
 
 | Estrutura | Pergunta que responde | Atualizada quando |
 |---|---|---|
-| **Note commitment tree** | "Esta note existe?" | Uma note é **criada** (compromisso anexado) |
-| **Nullifier set** | "Esta note já foi gasta?" | Uma note é **gasta** (nulificador publicado) |
+| **Árvore de compromissos de notes** | "Esta note existe?" | Uma note é **criada** (compromisso anexado) |
+| **Conjunto de nullifiers** | "Esta note já foi gasta?" | Uma note é **gasta** (nulificador publicado) |
 
 ---
 

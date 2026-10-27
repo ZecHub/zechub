@@ -51,12 +51,12 @@ O Zaino pode ser usado quase imediatamente porque encaminha solicitações para 
 
 Medianas de três execuções, em blocos por segundo, salvo indicação em contrário:
 
-| Scenario | Zaino 0.10.1 | Ztreamer v0.1.0 |
+| Cenário | Zaino 0.10.1 | Ztreamer v0.1.0 |
 |:--|--:|--:|
-| Block range of 1,000 blocks | 11.414 | 179.486 |
-| Full wallet download (280,000 → tip) | 11.124 | 189.041 |
-| Block range of 1,000 blocks, 128 clients | 110.093 | 229.527 |
-| Single block, 128 clients (requests/s) | 6.843 | 11.044 |
+| Intervalo de 1.000 blocos | 11.414 | 179.486 |
+| Download completo da carteira (280.000 → ponta) | 11.124 | 189.041 |
+| Intervalo de 1.000 blocos, 128 clientes | 110.093 | 229.527 |
+| Bloco único, 128 clientes (pedidos/s) | 6.843 | 11.044 |
 
 Com 128 clientes, a diferença diminui para cerca de 2×, porque ambos os servidores estavam limitados a dois núcleos de CPU.
 

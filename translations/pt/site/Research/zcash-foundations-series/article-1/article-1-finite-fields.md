@@ -139,13 +139,13 @@ Você não precisa memorizar isso. Precisa saber que **divisão em um corpo fini
 
 Juntando a intuição, aqui está o caso completo em uma página.
 
-| Property of `F_p` | Por que um sistema de privacidade a quer |
+| Propriedade de `F_p` | Por que um sistema de privacidade a quer |
 |---|---|
-| **Finite** | Um computador armazena qualquer elemento exatamente; sem arredondamento, sem overflow, sem imprecisão de ponto flutuante |
-| **Wrap-around** | Apaga o "tamanho", então um valor não revela nada sobre como foi produzido |
-| **All four operations work** | Receitas criptográficas (chaves, compromissos, provas) precisam de álgebra genuína, não apenas contagem |
-| **Choosable size** | Escolha um primo de 255 bits ou 381 bits e o corpo terá mais elementos do que há átomos no universo observável; adivinhar é inútil |
-| **Exact and deterministic** | Duas partes honestas calculando a mesma coisa sempre obtêm resultados idênticos, dos quais as provas dependem |
+| **Finito** | Um computador armazena qualquer elemento exatamente; sem arredondamento, sem overflow, sem imprecisão de ponto flutuante |
+| **Dar a volta** | Apaga o "tamanho", então um valor não revela nada sobre como foi produzido |
+| **As quatro operações funcionam** | Receitas criptográficas (chaves, compromissos, provas) precisam de álgebra genuína, não apenas contagem |
+| **Tamanho selecionável** | Escolha um primo de 255 bits ou 381 bits e o corpo terá mais elementos do que há átomos no universo observável; adivinhar é inútil |
+| **Exato e determinístico** | Duas partes honestas calculando a mesma coisa sempre obtêm resultados idênticos, dos quais as provas dependem |
 
 Um corpo finito é, em uma frase, **um playground perfeitamente fechado, perfeitamente exato e perfeitamente enorme para a aritmética.** Todo o resto no Zcash é construído brincando dentro dele.
 
@@ -184,7 +184,7 @@ Para manter o texto amigável para iniciantes, simplificamos algumas coisas verd
 
 ## Glossário
 
-| Term | Significado em linguagem simples |
+| Termo | Significado em linguagem simples |
 |---|---|
 | **Modular arithmetic** | Aritmética que dá a volta ao atingir um valor fixo, como um relógio |
 | **mod p** | "Divida por `p` e mantenha o resto" |
