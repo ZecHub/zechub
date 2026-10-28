@@ -236,7 +236,7 @@ Um glossário abrangente de termos-chave, conceitos e recursos relacionados ao Z
 | Zerocash | O protocolo acadêmico (2014) no qual o Zcash se baseia. |
 | Zaino | Um indexador que fornece dados de carteira a partir de um nó Zebra, escrito em Rust pela Zingo Labs. Assume o trabalho de indexação que o zcashd realizava para carteiras light. [Zaino](/zcash-tech/zaino) |
 | Zakura | Um nó integral separado do Zcash, desenvolvido para escalabilidade, liderado por Sean Bowe e Dev Ojha. Sincroniza mais rápido, remove blocos nativamente e pode executar o zcashd sobre si mesmo para softwares que ainda dependem dele. [Nó Zakura](/zcash-tech/zakura-node) |
-| Zallet | A carteira que substitui a carteira zcashd. Mova uma `wallet.dat` existente em vez de começar do zero. [Zallet](/zcash-tech/zallet) e a [referência rápida do Zallet](/using-zcash/zallet-quick-reference-guide) |
+| Zallet | A carteira que substitui a carteira zcashd. Mova uma `wallet.dat` existente em vez de começar do zero. [Zallet](/zcash-tech/zallet) e a [referência rápida da Zallet](/using-zcash/zallet-quick-reference-guide) |
 | Zebra | O nó integral que substitui o zcashd, mantido pela Zcash Foundation. Execute-o se precisar de um nó de validação. [Nó integral Zebra](/zcash-tech/zebra-full-node) |
 | zcashd | O nó integral e a carteira originais do Zcash, agora descontinuados. A versão 6.20.0 foi encerrada no bloco 3417100 em 18 de julho de 2026 e nunca teve suporte para NU6.3. Em vez disso, execute a Z3 stack ou o Zakura. [Guia de migração](/guides/migration-guide-zcashd-to-zebrad-zallet) |
 | ZIP | Zcash Improvement Proposal - o processo de governança da comunidade usado para propor e ratificar alterações ao protocolo. [Repositório ZIP](https://github.com/zcash/zips) |

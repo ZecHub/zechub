@@ -144,7 +144,7 @@ A suíte de testes do Zebra pode levar mais de uma hora para ser concluída, dep
 ## Erros comuns
 
 - Dimensionar o disco para as necessidades atuais. O estado da Mainnet em cache já se aproxima dos 300 GB e continua a crescer.
-- Esperar RPCs de carteira do `zebrad`. As chaves e os saldos estão no [Zallet](https://github.com/zcash/zallet), um programa separado.
+- Esperar RPCs de carteira do `zebrad`. As chaves e os saldos estão na [Zallet](https://github.com/zcash/zallet), um programa separado.
 - Executar apenas o `zebrad` e esperar que as carteiras leves se conectem. Esse caminho precisa de um indexador, seja lightwalletd ou [Zaino](/zcash-tech/zaino).
 - Tratar uma resincronização inesperada como uma falha. Uma alteração da versão do banco de dados a desencadeia por definição.
 

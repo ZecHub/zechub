@@ -15,7 +15,7 @@ Uma chave de visualização concede acesso **somente de leitura** à atividade d
 - **O que é:** a ferramenta de divulgação seletiva dos pools blindados. Introduzida na [ZIP 310](https://zips.z.cash/zip-0310), adicionada ao protocolo na atualização da rede Sapling.
 - **O que concede:** detecção de depósitos (chaves de entrada `uivk…`) ou visibilidade total de entradas/saídas para uma conta (chaves de visualização completas unificadas `uview…`), e chaves Sapling `zxviews…` legadas.
 - **O que não concede:** autoridade de gasto. Nada que um detentor de chave de visualização faça pode mover fundos.
-- **Onde funciona hoje:** exportação/importação no [Zallet](https://github.com/zcash/zallet) (v0.1.0-beta.2+, `z_exportviewingkey` / `z_importviewingkey`) e contas somente para consulta em carteiras como Zkool; consulte a página [Carteiras](/using-zcash/wallets) para a matriz de suporte atual.
+- **Onde funciona hoje:** exportação/importação na [Zallet](https://github.com/zcash/zallet) (v0.1.0-beta.2+, `z_exportviewingkey` / `z_importviewingkey`) e contas somente para consulta em carteiras como Zkool; consulte a página [Carteiras](/using-zcash/wallets) para a matriz de suporte atual.
 - **A regra prática:** prefira a chave mais restrita que responda à pergunta feita e lembre-se de que uma chave fornecida não pode ser revogada — apenas superada movendo os fundos.
 
 ---
@@ -104,7 +104,7 @@ zallet rpc z_importviewingkey '"<zxviews… key>"' '"whenkeyisnew"' 0
 
 O segundo argumento é a política de nova análise: `"whenkeyisnew"` (o padrão), `"yes"` ou `"no"`. O terceiro é a altura do bloco a partir da qual fazer uma nova análise. Zallet importa a chave como conta somente para consulta e acompanha transações recebidas e enviadas para seus endereços sem autoridade de gasto.
 
-**Zallet importa apenas chaves de visualização completas estendidas Sapling.** Não importa uma chave de visualização completa unificada `uview…`, apesar de poder exportar uma. Para conceder acesso de leitura a uma conta unificada inteira, exporte a UFVK do Zallet e importe-a para uma carteira que aceite chaves unificadas, como Zkool.
+**Zallet importa apenas chaves de visualização completas estendidas Sapling.** Não importa uma chave de visualização completa unificada `uview…`, apesar de poder exportar uma. Para conceder acesso de leitura a uma conta unificada inteira, exporte a UFVK da Zallet e importe-a para uma carteira que aceite chaves unificadas, como Zkool.
 
 Para transformar uma chave importada em um arquivo completo de histórico de transações, com txids, taxas e memorandos, consulte [Exportar histórico de transações de uma Viewing Key](/guides/viewing-key-transaction-export).
 
@@ -112,7 +112,7 @@ Para transformar uma chave importada em um arquivo completo de histórico de tra
 
 Se você seguiu uma versão mais antiga desta página, ou uma tradução dela, três caminhos já não funcionam.
 
-- **`zcash-cli z_exportviewingkey` e `z_importviewingkey`.** zcashd chegou ao fim do suporte em 18 de julho de 2026 e deixou de funcionar. Os métodos com o mesmo nome do Zallet são a substituição; consulte o guia de migração [](/guides/migration-guide-zcashd-to-zebrad-zallet).
+- **`zcash-cli z_exportviewingkey` e `z_importviewingkey`.** zcashd chegou ao fim do suporte em 18 de julho de 2026 e deixou de funcionar. Os métodos com o mesmo nome da Zallet são a substituição; consulte o guia de migração [](/guides/migration-guide-zcashd-to-zebrad-zallet).
 - **O guia passo a passo Ywallet.** A página Wallets marca Ywallet como **Ironwood: Não pronto**, portanto não é a carteira para a qual você deve encaminhar as pessoas quanto a chaves de visualização da era Ironwood. Zkool, do mesmo desenvolvedor, aceita a mesma variedade de chaves e está marcada como Pronto.
 - **zcashblockexplorer.com/vk.** O serviço retorna HTTP 503 com um certificado inválido e foi removido em vez de substituído. Colar uma chave de visualização em um website entrega todo o seu histórico de transações a quem opera esse website, o que sempre foi a mais fraca das três opções da página antiga. Em vez disso, importe a chave para uma carteira que você controla.
 

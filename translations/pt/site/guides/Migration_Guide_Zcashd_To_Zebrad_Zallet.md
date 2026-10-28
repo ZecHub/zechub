@@ -102,7 +102,7 @@ O nó começará a sincronizar a partir da gênese — espere várias horas (ou 
 
 Zallet foi projetada para substituir o componente de carteira do zcashd.
 
-Consulte a página do GitHub / de versões do Zallet para obter binários.
+Consulte a página do GitHub / de versões da Zallet para obter binários.
 
 **Ou compile a partir do código-fonte:**
 
@@ -113,7 +113,7 @@ Consulte a página do GitHub / de versões do Zallet para obter binários.
 * Inicie a GUI ou CLI (conforme sua instalação disponibilizar).
 * Configure-a para se conectar ao seu nó Zebrad local por meio do endpoint RPC ou da API.
 
-**6. Importar sua carteira zcashd para o Zallet**
+**6. Importar sua carteira zcashd para a Zallet**
 
 Você não precisa de um zcashd em execução para isso. Zallet lê diretamente o arquivo `wallet.dat`, o que é importante porque o zcashd não pode mais ser iniciado.
 
@@ -131,7 +131,7 @@ zallet migrate-zcash-conf --zcashd-datadir /path/to/zcashd/datadir -o /path/to/z
 zallet migrate-zcashd-wallet --zcashd-datadir /path/to/zcashd/datadir
 ```
 
-`migrate-zcashd-wallet` está presente apenas em compilações com o recurso `zcashd-import`, e a leitura de `wallet.dat` exige o utilitário `db_dump` do Berkeley DB 6.2, a versão usada pelo zcashd. Se você tiver mais de um arquivo de carteira, execute o comando uma vez por arquivo e adicione `--allow-multiple-wallet-imports` nas execuções posteriores; cada um se torna seu próprio conjunto de contas. Seu `rpcuser` e `rpcpassword` não são transferidos, porque o JSON-RPC do Zallet usa autenticação por cookie por padrão; adicione credenciais com `zallet add-rpc-user` se precisar delas.
+`migrate-zcashd-wallet` está presente apenas em compilações com o recurso `zcashd-import`, e a leitura de `wallet.dat` exige o utilitário `db_dump` do Berkeley DB 6.2, a versão usada pelo zcashd. Se você tiver mais de um arquivo de carteira, execute o comando uma vez por arquivo e adicione `--allow-multiple-wallet-imports` nas execuções posteriores; cada um se torna seu próprio conjunto de contas. Seu `rpcuser` e `rpcpassword` não são transferidos, porque o JSON-RPC da Zallet usa autenticação por cookie por padrão; adicione credenciais com `zallet add-rpc-user` se precisar delas.
 
 **O que é transferido**
 
@@ -152,7 +152,7 @@ zallet migrate-zcashd-wallet --zcashd-datadir /path/to/zcashd/datadir
 **Nova análise e sincronização da carteira**
 
 * Depois que as chaves forem importadas, Zallet acionará uma nova análise da chain por meio do Zebrad.
-* Dê algum tempo ao Zallet para reconstruir seu saldo e histórico de transações.
+* Dê algum tempo à Zallet para reconstruir seu saldo e histórico de transações.
 
 **7. Verificar saldos e sincronização**
 
@@ -196,7 +196,7 @@ Ou consulte os registros.
       <tr className="border-b border-slate-200 dark:border-slate-700 hover:bg-slate-50 dark:hover:bg-slate-900/50">
         <td className="px-6 py-4">Faltam transações na carteira</td>
         <td className="px-6 py-4">Importação parcial de chaves</td>
-        <td className="px-6 py-4">Importe novamente as chaves ou faça uma nova análise no Zallet</td>
+        <td className="px-6 py-4">Importe novamente as chaves ou faça uma nova análise na Zallet</td>
       </tr>
       <tr className="border-b border-slate-200 dark:border-slate-700 hover:bg-slate-50 dark:hover:bg-slate-900/50">
         <td className="px-6 py-4">Zallet não consegue se conectar ao nó</td>
@@ -217,5 +217,5 @@ Ou consulte os registros.
 Migrar de zcashd para Zebrad e Zallet proporciona a você uma experiência com o Zcash mais rápida, segura e moderna.
 Com segurança baseada em Rust, design modular e melhores ferramentas, esta configuração garante que seu nó e carteira permaneçam preparados para o futuro à medida que o ecossistema do Zcash continua evoluindo.
 
-Dica: mantenha as chaves da sua carteira offline e faça backup regularmente dos seus dados do Zallet.
-Visite [zebra.zfnd.org](https://zebra.zfnd.org) para Zebra e [O Livro do Zallet](https://zcash.github.io/zallet/) ou o [repositório do Zallet](https://github.com/zcash/zallet) para Zallet. O capítulo [Migrar de zcashd](https://zcash.github.io/zallet/) de O Livro do Zallet é a referência oficial para o passo 6.
+Dica: mantenha as chaves da sua carteira offline e faça backup regularmente dos seus dados da Zallet.
+Visite [zebra.zfnd.org](https://zebra.zfnd.org) para Zebra e [O Livro da Zallet](https://zcash.github.io/zallet/) ou o [repositório da Zallet](https://github.com/zcash/zallet) para Zallet. O capítulo [Migrar de zcashd](https://zcash.github.io/zallet/) de O Livro da Zallet é a referência oficial para o passo 6.

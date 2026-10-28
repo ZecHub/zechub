@@ -28,7 +28,7 @@ Z.cash é o principal site do Zcash. Fornece conteúdo e documentação sobre o 
 
 **[GitHub do Zcash](https://github.com/zcash/zcash)**
 
-Você tem habilidades de programação e quer se aprofundar no lado técnico do Zcash? O repositório GitHub do Zcash é o repositório do zcashd, a primeira implementação de nó do Zcash. O zcashd atingiu sua interrupção automática de fim de suporte em 18 de julho de 2026 e não recebe mais manutenção, e a página de download para a qual esta entrada apontava anteriormente não está mais disponível. A stack mantida é o [Zebra](https://github.com/ZcashFoundation/zebra) para o nó e o [Zallet](https://github.com/zcash/zallet) para a carteira — consulte o [guia de migração de zcashd para Zebra e Zallet](https://zechub.wiki/guides/migration-guide-zcashd-to-zebrad-zallet).
+Você tem habilidades de programação e quer se aprofundar no lado técnico do Zcash? O repositório GitHub do Zcash é o repositório do zcashd, a primeira implementação de nó do Zcash. O zcashd atingiu sua interrupção automática de fim de suporte em 18 de julho de 2026 e não recebe mais manutenção, e a página de download para a qual esta entrada apontava anteriormente não está mais disponível. A stack mantida é o [Zebra](https://github.com/ZcashFoundation/zebra) para o nó e a [Zallet](https://github.com/zcash/zallet) para a carteira — consulte o [guia de migração de zcashd para Zebra e Zallet](https://zechub.wiki/guides/migration-guide-zcashd-to-zebrad-zallet).
 
 **[GitHub da Zcash Foundation](https://github.com/ZcashFoundation)**
 
@@ -40,6 +40,6 @@ Os conceitos por trás dos sistemas de provas de conhecimento zero.
 
 **[Documentação RPC do Zcash](https://zcash.github.io/rpc/)**
 
-Lista dos comandos RPC que o zcashd disponibilizava. Para a interface RPC da carteira com manutenção, consulte o [Livro do Zallet](https://zcash.github.io/zallet/).
+Lista dos comandos RPC que o zcashd disponibilizava. Para a interface RPC da carteira com manutenção, consulte o [Livro da Zallet](https://zcash.github.io/zallet/).
 
 _Este é um documento inacabado_

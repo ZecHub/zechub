@@ -128,9 +128,9 @@ Comece pelo [guia de migração](/guides/migration-guide-zcashd-to-zebrad-zallet
 
 Zallet migra um `wallet.dat` existente, para que você mantenha seus fundos e endereços.
 
-Faça primeiro um backup de `wallet.dat` e, em seguida, siga o [guia de migração](/guides/migration-guide-zcashd-to-zebrad-zallet). Mantenha esse backup até confirmar seu saldo no Zallet.
+Faça primeiro um backup de `wallet.dat` e, em seguida, siga o [guia de migração](/guides/migration-guide-zcashd-to-zebrad-zallet). Mantenha esse backup até confirmar seu saldo na Zallet.
 
-A referência rápida do [Zallet](/using-zcash/zallet-quick-reference-guide) aborda os comandos do dia a dia depois que você concluir a migração.
+A referência rápida da [Zallet](/using-zcash/zallet-quick-reference-guide) aborda os comandos do dia a dia depois que você concluir a migração.
 
 </div>
 

@@ -46,7 +46,8 @@
       "Zcash is masculine, because it is a protocol: \"o Zcash\", \"do Zcash\", \"no Zcash\", \"ao Zcash\", never \"a Zcash\" / \"da Zcash\". Names of organisations keep the gender of their own noun (a Zcash Foundation, a Zcash Community Grants).",
       "Use sentence case in headings, titles and menu labels, not English Title Case (\"Chave de visualização\", not \"Chave de Visualização\").",
       "When an English term is kept, do not add a Portuguese gloss or the English in brackets; at its first use it may be written in quotes or in italics.",
-      "Abbreviated months (jan, fev, mar, abr, mai, jun, jul, ago, set, out, nov, dez) take no full stop."
+      "Abbreviated months (jan, fev, mar, abr, mai, jun, jul, ago, set, out, nov, dez) take no full stop.",
+      "Zallet is feminine, because it is a carteira: a Zallet, da Zallet, na Zallet, à Zallet (Andy's answer). Zcash and Zebra stay masculine."
     ]
   },
   "terms": {
@@ -2507,7 +2508,7 @@
         "Zingolib and Zaino Tutorial",
         "Zkool Multisig"
       ],
-      "summary": "Native Brazilian Portuguese review by Andy (@andybarlac, Zcash Brazil): 62 terms, 193 menu labels and the style questions, plus his follow-up answers (newsletter, note and light-client kept in English, bond = garantia, criptografia, \"do Zcash\"). Portuguese now targets pt-BR. Steward edits: plural forms, menu rows aligned where two rows of the kit disagreed, contexts for deliberate splits."
+      "summary": "Native Brazilian Portuguese review by Andy (@andybarlac, Zcash Brazil): 62 terms, 193 menu labels and the style questions, plus his follow-up answers (newsletter, note and light-client kept in English, bond = garantia, criptografia, \"do Zcash\", \"a Zallet\"). Portuguese now targets pt-BR. Steward edits: plural forms, menu rows aligned where two rows of the kit disagreed, contexts for deliberate splits."
     }
   ]
 }

@@ -52,7 +52,7 @@ Cada saída blindada em uma transação contém seu próprio memorando, portanto
 >
 > A demonstração abaixo usa zcashd, e seu [script de recebimento](https://github.com/ZecHub/zechub/blob/main/site/tutorials/ZcashMagicWormhole/receiveOwlsWormhole.sh) lê memorandos por meio de `zcash-cli`. zcashd atingiu sua interrupção automática de fim de suporte em 18 de julho de 2026, portanto esse script não consegue alcançar um nó em execução e não foi portado.
 >
-> A leitura de memorandos blindados pela linha de comando continua funcionando no Zallet: `zallet rpc z_listunspent` retorna cada note blindada recebida com o mesmo campo `memoStr` que o script lê. Consulte o [Guia de referência rápida do Zallet](/using-zcash/zallet-quick-reference-guide) para ver o comando e o [guia de migração para Zebra e Zallet](/guides/migration-guide-zcashd-to-zebrad-zallet) para migrar um nó do zcashd. O Zallet continua em beta.
+> A leitura de memorandos blindados pela linha de comando continua funcionando na Zallet: `zallet rpc z_listunspent` retorna cada note blindada recebida com o mesmo campo `memoStr` que o script lê. Consulte o [Guia de referência rápida da Zallet](/using-zcash/zallet-quick-reference-guide) para ver o comando e o [guia de migração para Zebra e Zallet](/guides/migration-guide-zcashd-to-zebrad-zallet) para migrar um nó do zcashd. A Zallet continua em beta.
 >
 > Esta seção é mantida como registro histórico da demonstração Magic-Wormhole.
 
@@ -75,7 +75,7 @@ Veja como usar Memorandos Blindados do Zcash com a CLI Magic-Wormhole e zcashd p
 - [Transações](/using-zcash/transactions): tipos de transações blindadas e transparentes.
 - [Pools blindados](/using-zcash/shielded-pools): onde ficam as notes blindadas que carregam memorandos.
 - [Carteiras](/using-zcash/wallets): use o filtro de memorandos blindados para encontrar carteiras que oferecem suporte a memorandos.
-- [Guia de referência rápida do Zallet](/using-zcash/zallet-quick-reference-guide): leia memorandos recebidos pela linha de comando.
+- [Guia de referência rápida da Zallet](/using-zcash/zallet-quick-reference-guide): leia memorandos recebidos pela linha de comando.
 - [Ferramentas do Zcash para criadores](/using-zcash/creators-and-tips): ferramentas de gorjetas que enviam uma mensagem junto com a gorjeta.
 
 ### Recursos

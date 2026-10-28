@@ -8,21 +8,21 @@
 
 Uma newsletter blindada é uma série de transações blindadas. Cada saída paga um valor mínimo a um Unified Address do destinatário e contém a próxima parte da note no campo de memorando. Zallet cria e envia essas transações. Zebra e Zaino fornecem apenas dados da chain.
 
-Os scripts estão em [`site/tutorials/shieldedNewsletter`](https://github.com/ZecHub/zechub/tree/main/site/tutorials/shieldedNewsletter). Eles foram escritos para uma versão inicial do Zallet e não é seguro executá-los como estão na versão atual. Esta página apresenta o procedimento atualizado. Verificado com Zallet `v0.1.0-beta.3` e o livro do Zallet em 7 de outubro de 2026.
+Os scripts estão em [`site/tutorials/shieldedNewsletter`](https://github.com/ZecHub/zechub/tree/main/site/tutorials/shieldedNewsletter). Eles foram escritos para uma versão inicial da Zallet e não é seguro executá-los como estão na versão atual. Esta página apresenta o procedimento atualizado. Verificado com Zallet `v0.1.0-beta.3` e o livro da Zallet em 7 de outubro de 2026.
 
 ## O que você precisa
 
 - Zebra totalmente sincronizado, com RPC vinculado a localhost.
 - Zaino sincronizado com esse nó Zebra.
-- Zallet `v0.1.0-beta.3` ou mais recente, compilação de carteira, com seu RPC vinculado a localhost. O livro lista `z_sendmany` como implementado. Uma taxa numérica é rejeitada: se você passar `fee`, ela deverá ser `null`, pois o Zallet sempre usa a taxa ZIP 317.
+- Zallet `v0.1.0-beta.3` ou mais recente, compilação de carteira, com seu RPC vinculado a localhost. O livro lista `z_sendmany` como implementado. Uma taxa numérica é rejeitada: se você passar `fee`, ela deverá ser `null`, pois a Zallet sempre usa a taxa ZIP 317.
 - Uma conta com fundos cujo Unified Address possa gastar fundos blindados.
 - Endereços Unified dos destinatários. Um memorando em um endereço transparente é um erro.
 
 Não coloque um endereço com fundos nem um cookie na wiki ou em um script enviado ao repositório. O `txBuilderFromFile.sh` atual tem um Unified Address codificado. Substitua-o localmente e não faça commit dele.
 
-## Configurar o Zallet
+## Configurar a Zallet
 
-Gere uma configuração com o Zallet que você está executando e, em seguida, aponte-o para Zebra e Zaino. O exemplo no tutorial antigo usa `as_of_version = "0.0.0"` e um caminho pessoal de diretório inicial. Trate esse arquivo como um retrato, não como um modelo.
+Gere uma configuração com a Zallet que você está executando e, em seguida, aponte-o para Zebra e Zaino. O exemplo no tutorial antigo usa `as_of_version = "0.0.0"` e um caminho pessoal de diretório inicial. Trate esse arquivo como um retrato, não como um modelo.
 
 ```bash
 zallet init
@@ -45,7 +45,7 @@ u1...
 
 `z_sendmany` é assíncrono. Retorna um ID de operação. Consulte `z_getoperationstatus` até que o status seja `success` ou ocorra um erro. Uma pausa fixa de 5 segundos, que é o que o script faz, perde o resultado quando a compilação leva mais tempo. `z_getoperationresult` consome a operação, portanto não o chame até que o status seja terminal.
 
-A taxa é omitida. O Zallet calcula ZIP 317. Não passe um número.
+A taxa é omitida. A Zallet calcula ZIP 317. Não passe um número.
 
 ```bash
 MEMO_HEX=$(printf '%s' "$NOTE" | xxd -p -c 9999)
@@ -65,7 +65,7 @@ Eles estão na árvore em 8 de outubro de 2026. Não execute `shieldNewsletter.s
 - Em `[[ bytesInFile -lt 512 ]]` falta `$`. O ramo de memorando único nunca é executado.
 - O ciclo de fragmentos armazena hexadecimal, depois `hex2ascii` o decodifica e `txBuilderFromFile.sh` o codifica novamente. O último fragmento não é enviado, a menos que uma linha posterior ultrapasse 512. Uma linha longa não é dividida. Ela é enviada inteira e pode exceder o memorando de 512 bytes.
 - `txBuilderFromFile.sh` chama `./zallet rpc` sem caminho de configuração e espera o binário no diretório atual. Use `zallet -c <config> rpc`.
-- `toCurl.sh` se comunica com Zebra na porta 8232 com um cookie e chama `getinfo` e `sendmany`. O Zallet não fornece `sendmany`. O ciclo de espera pela mineração também usa `[[ chainHeight -gt temp ]]` sem `$`, portanto não espera.
+- `toCurl.sh` se comunica com Zebra na porta 8232 com um cookie e chama `getinfo` e `sendmany`. A Zallet não fornece `sendmany`. O ciclo de espera pela mineração também usa `[[ chainHeight -gt temp ]]` sem `$`, portanto não espera.
 - `z_gettotalbalance 0 true` é passado como argumentos posicionais extras. Verifique `rpc help z_gettotalbalance` no binário que você executa antes de usar essa chamada.
 - Cada fragmento envia `0.0001` ZEC para cada destinatário. A taxa ZIP 317 é cobrada além desse valor. Uma note longa para muitos endereços gasta mais do que os valores mínimos.
 

@@ -36,7 +36,7 @@ zcashd incluía uma carteira com o nó. Essa carteira desapareceu, e [Zallet](ht
 
 Leia o aviso de segurança antes de depender dela. Zallet está em beta, "não foi totalmente revisada", alterações incompatíveis "podem ocorrer a qualquer momento, obrigando você a excluir e recriar sua carteira Zallet", e nem todos os métodos RPC de zcashd foram portados ainda.
 
-Se você estiver migrando uma configuração existente, o ZecHub tem um [guia de migração de zcashd para Zebra e Zallet](/guides/migration-guide-zcashd-to-zebrad-zallet) e uma [referência rápida do Zallet](/using-zcash/zallet-quick-reference-guide).
+Se você estiver migrando uma configuração existente, o ZecHub tem um [guia de migração de zcashd para Zebra e Zallet](/guides/migration-guide-zcashd-to-zebrad-zallet) e uma [referência rápida da Zallet](/using-zcash/zallet-quick-reference-guide).
 
 ## Servidores de carteira leve
 

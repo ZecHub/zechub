@@ -205,7 +205,7 @@ O [zingoHelper](https://github.com/dismad/zingoHelper) de dismad tem um script `
 | ZODL | CSV fiscal com datas, valores, taxas e uma etiqueta. Apenas o ano-calendário anterior, ignora transações de blindagem, sem txid, memorando ou endereço. |
 | Aplicativo Zkool | Exportações de tabelas brutas do menu da conta |
 | [Zenith](https://code.vergara.tech/Vergara_Tech/zenith) | Importa uma UFVK com `importvk`. `listreceived` via RPC retorna notes recebidas com txid e memorando, mas sem envios nem taxas. |
-| [Zallet](https://github.com/zcash/zallet) | `z_listtransactions` é detalhado, mas está marcado como experimental, e o Zallet importa apenas chaves de visualização Sapling, não UFVKs |
+| [Zallet](https://github.com/zcash/zallet) | `z_listtransactions` é detalhado, mas está marcado como experimental, e a Zallet importa apenas chaves de visualização Sapling, não UFVKs |
 | [zcash-devtool](https://github.com/zcash/zcash-devtool) | Importa uma UFVK com `wallet init-fvk`, depois `wallet list-tx`. Seu modo CSV não tem txid nem endereço, e o projeto diz para não usá-lo em produção. |
 
 ## Relacionados

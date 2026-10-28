@@ -2,19 +2,19 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Editar Página"/>
 </a>
 
-# Guia de referência rápida do Zallet
+# Guia de referência rápida da Zallet
 
 ## TL;DR
 
-- O Zallet é uma carteira Zcash de nó integral escrita em Rust. Ele substitui a carteira que antes fazia parte do zcashd.
-- O zcashd chegou à sua interrupção de fim de suporte em 18 de julho de 2026 e não é mais executado. O Zebra agora gerencia o lado do nó; o Zallet gerencia o lado da carteira.
-- Você opera o Zallet pela linha de comando com `zallet rpc <command>`, de forma semelhante a como usava `zcash-cli` antes.
+- A Zallet é uma carteira Zcash de nó integral escrita em Rust. Ela substitui a carteira que antes fazia parte do zcashd.
+- O zcashd chegou à sua interrupção de fim de suporte em 18 de julho de 2026 e não é mais executado. O Zebra agora gerencia o lado do nó; a Zallet gerencia o lado da carteira.
+- Você opera a Zallet pela linha de comando com `zallet rpc <command>`, de forma semelhante a como usava `zcash-cli` antes.
 - Todos os argumentos após o nome do comando precisam ser JSON válido, o que significa que os valores de texto mantêm suas aspas duplas.
-- O Zallet está em beta. Os comandos podem mudar entre versões, e nem todos os RPCs do zcashd foram migrados ainda.
+- A Zallet está em beta. Os comandos podem mudar entre versões, e nem todos os RPCs do zcashd foram migrados ainda.
 
 ## Explicação principal
 
-O Zallet expõe suas funcionalidades por meio de JSON-RPC, o mesmo estilo de interface que a carteira do zcashd usava. Tudo o que você quiser que a carteira faça — verificar um saldo, criar uma conta, enviar um pagamento blindado — é um comando que você passa para `zallet rpc`.
+A Zallet expõe suas funcionalidades por meio de JSON-RPC, o mesmo estilo de interface que a carteira do zcashd usava. Tudo o que você quiser que a carteira faça — verificar um saldo, criar uma conta, enviar um pagamento blindado — é um comando que você passa para `zallet rpc`.
 
 Duas coisas diferem do antigo hábito com `zcash-cli` e explicam a maioria dos erros iniciais. Primeiro, os argumentos precisam ser JSON válido em vez de texto simples, por isso um argumento de texto traz suas próprias aspas dentro das aspas do shell. Segundo, o conjunto de comandos disponíveis depende da versão beta que você está executando, por isso a lista incorporada ao seu binário é mais confiável do que qualquer página escrita, incluindo esta.
 
@@ -37,8 +37,8 @@ zallet rpc help '"<command>"'
 
 - **Omitir as aspas internas em argumentos de texto.** `zallet rpc validateaddress u1abc...` falha, porque o endereço tem de chegar como JSON. Tem de ser escrito como `'"u1abc..."'`.
 - **Supor que todos os RPCs existem aqui.** A migração ainda está em andamento. Alguns métodos se comportam de forma idêntica, alguns precisam de uso diferente e alguns não serão migrados.
-- **Tratar esta página como mais confiável do que seu binário.** O Zallet está em beta e evolui rapidamente. Quando um comando desta página não funcionar, verifique `zallet rpc help` antes de supor que algo está quebrado.
-- **Esperar que o Zallet seja um nó.** Ele é a metade da carteira do par. O Zebra executa o nó, e o Zallet se comunica com ele.
+- **Tratar esta página como mais confiável do que seu binário.** A Zallet está em beta e evolui rapidamente. Quando um comando desta página não funcionar, verifique `zallet rpc help` antes de supor que algo está quebrado.
+- **Esperar que a Zallet seja um nó.** Ela é a metade da carteira do par. O Zebra executa o nó, e a Zallet se comunica com ele.
 
 ## Comandos RPC
 
@@ -475,7 +475,7 @@ zallet rpc z_viewtransaction '"<txid>"'
 ## Páginas relacionadas
 
 - [Guia de migração: zcashd para Zebrad e Zallet](/guides/migration-guide-zcashd-to-zebrad-zallet) — migração passo a passo a partir de uma configuração existente de zcashd
-- [Nó integral Zebra](/zcash-tech/zebra-full-node) — a implementação de nó com a qual o Zallet funciona
+- [Nó integral Zebra](/zcash-tech/zebra-full-node) — a implementação de nó com a qual a Zallet funciona
 - [Nós integrais](/zcash-tech/full-nodes) — o que envolve executar um nó integral e por que você pode querer um
 - [Carteiras](/using-zcash/wallets) — opções de carteiras mais leves se um nó integral for mais do que você precisa
 - [Transações](/using-zcash/transactions) — como as transações blindadas e transparentes diferem

@@ -8,7 +8,7 @@
  * Zallet configurado para executar RPCs
 
 
-### Iniciar o Zallet
+### Iniciar a Zallet
 
 `./target/release/zallet -c /home/zktails/.zallet/zallet.toml start`
 

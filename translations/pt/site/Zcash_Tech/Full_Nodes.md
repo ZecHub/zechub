@@ -128,7 +128,7 @@ Isso tem a vantagem adicional de permitir que outros usuários se conectem de fo
 - Compilar zcashd a partir das instruções acima e esperar um nó funcional. Esses binários são interrompidos na altura da descontinuação.
 - Executar um nó e supor que sua carteira móvel agora o utiliza. Uma carteira leve continua se comunicando com qualquer servidor configurado até que você a aponte para o seu próprio. Consulte [Nós Lightwallet](/zcash-tech/lightwallet-nodes).
 - Executar apenas `zebrad` e esperar que carteiras leves se conectem. O nó precisa de um indexador ao seu lado, seja lightwalletd ou [Zaino](/zcash-tech/zaino).
-- Procurar RPCs de carteira no nó. As chaves e os saldos foram movidos para o Zallet.
+- Procurar RPCs de carteira no nó. As chaves e os saldos foram movidos para a Zallet.
 
 ## Páginas relacionadas
 

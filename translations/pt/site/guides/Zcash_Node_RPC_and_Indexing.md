@@ -14,8 +14,8 @@ Para saber como iniciar a stack pós-`zcashd` (Zebra + Zallet, Zaino opcional, p
 
 ## Resumo
 
-* **JSON-RPC** é como operadores e carteiras perguntam a um nó sobre a ponta da chain, pares e (em um processo de carteira) saldos. No Z3, o Zebra fornece RPC de nó; o Zallet fornece RPC de carteira.
-* **Regtest** é o lugar certo para aprender as chamadas. O rpc-router do Z3 em `http://127.0.0.1:8181` aceita `zebra` / `zebra` e encaminha métodos de nó para o Zebra e métodos de carteira para o Zallet.
+* **JSON-RPC** é como operadores e carteiras perguntam a um nó sobre a ponta da chain, pares e (em um processo de carteira) saldos. No Z3, o Zebra fornece RPC de nó; a Zallet fornece RPC de carteira.
+* **Regtest** é o lugar certo para aprender as chamadas. O rpc-router do Z3 em `http://127.0.0.1:8181` aceita `zebra` / `zebra` e encaminha métodos de nó para o Zebra e métodos de carteira para a Zallet.
 * **Mainnet e testnet** usam autenticação por cookie no Zebra. Não copie o nome de usuário/senha do regtest para um nó público.
 * **Indexação** é uma tarefa separada da validação. O Zebra valida. O [Zaino](/zcash-tech/zaino) (Z3 `--profile indexer`) fornece gRPC compatível com lightwalletd. O [Ztreamer](https://github.com/distractedm1nd/ztreamer) é um indexador baseado em Zakura; não é o que o Z3 disponibiliza.
 * O JSON-RPC do Zaino e o gRPC opcional do indexador do Zebra destinam-se a loopback ou a uma rede confiável. Não os exponha sem autenticação na internet pública.
@@ -27,7 +27,7 @@ Para saber como iniciar a stack pós-`zcashd` (Zebra + Zallet, Zaino opcional, p
 | Pretende | Fale com | Porta do host Z3 mainnet | Observações |
 | --- | --- | --- | --- |
 | Ponta da chain, pares, `getblockchaininfo` | JSON-RPC do Zebra | 8232 | Autenticação por cookie |
-| Saldo da carteira, endereços, envio | RPC do Zallet | 28232 | Processo separado; software beta |
+| Saldo da carteira, endereços, envio | RPC da Zallet | 28232 | Processo separado; software beta |
 | Blocos compactos para light clients | gRPC do Zaino | 8137 | Apenas com `--profile indexer`; h2c em texto simples |
 | Proxy JSON-RPC para explorador / faucet | Proxy JSON-RPC do Zaino | 8237 | Apenas rede confiável |
 | Praticar tudo o que foi dito acima sem sincronização | rpc-router regtest do Z3 | 8181 | Nome de usuário `zebra` / senha `zebra` |
@@ -60,7 +60,7 @@ Fluxo de trabalho completo do regtest, incluindo a mineração dos blocos de ati
 
 ## JSON-RPC de mainnet / testnet (autenticação por cookie)
 
-Na mainnet e na testnet, o Zallet e o serviço opcional Zaino leem um **volume de cookie compartilhado**. Esse cookie é regenerado na inicialização; ele não é um destino de backup.
+Na mainnet e na testnet, a Zallet e o serviço opcional Zaino leem um **volume de cookie compartilhado**. Esse cookie é regenerado na inicialização; ele não é um destino de backup.
 
 **Não** publique o JSON-RPC do Zebra na internet pública. Chame-o a partir da rede Compose (`zebra:8232`) ou do host apenas se você o vinculou ao loopback.
 
@@ -124,9 +124,9 @@ O gRPC do Zaino é h2c em texto simples em todas as redes. Termine o TLS em um p
 
 ## Erros comuns
 
-**Chamar métodos de carteira no Zebra.** `getwalletinfo` e os RPCs de envio pertencem ao Zallet (ou a outra carteira), não ao nó de consenso.
+**Chamar métodos de carteira no Zebra.** `getwalletinfo` e os RPCs de envio pertencem à Zallet (ou a outra carteira), não ao nó de consenso.
 
-**Iniciar o Zallet antes de o Zebra estar `/ready`.** O Zallet entrará em um ciclo de reinicializações. Use `scripts/check-zebra-readiness.sh` na mainnet/testnet.
+**Iniciar a Zallet antes de o Zebra estar `/ready`.** A Zallet entrará em um ciclo de reinicializações. Use `scripts/check-zebra-readiness.sh` na mainnet/testnet.
 
 **Copiar `zebra`/`zebra` do regtest para a mainnet.** A autenticação por cookie é o padrão da mainnet/testnet por um motivo.
 
@@ -155,7 +155,7 @@ O gRPC do Zaino é h2c em texto simples em todas as redes. Termine o TLS em um p
 * [Perguntas frequentes do Z3](https://github.com/ZcashFoundation/z3/blob/main/docs/faq.md)
 * [Zebra](https://zebra.zfnd.org/)
 * [Zaino](https://github.com/zingolabs/zaino)
-* [Livro do Zallet](https://zcash.github.io/zallet/)
+* [Livro da Zallet](https://zcash.github.io/zallet/)
 * [Ztreamer](https://github.com/distractedm1nd/ztreamer)
 
 **Última atualização:** setembro de 2026

@@ -1,15 +1,15 @@
 # Execute um nó integral em um Raspberry Pi 4 (Zebra + Zallet)
 
-*Migrado do guia original baseado em zcashd. O zcashd atingiu sua interrupção automática de fim de suporte em 18 de julho de 2026, por isso este guia agora usa o **Zebra** (o nó integral atual, mantido pela Zcash Foundation) e o **Zallet** (a carteira criada para substituir a carteira integrada do zcashd).*
+*Migrado do guia original baseado em zcashd. O zcashd atingiu sua interrupção automática de fim de suporte em 18 de julho de 2026, por isso este guia agora usa o **Zebra** (o nó integral atual, mantido pela Zcash Foundation) e a **Zallet** (a carteira criada para substituir a carteira integrada do zcashd).*
 
 ## O que você aprenderá
 - Como gravar e configurar o Ubuntu Server 22.04+ (64-bit) em um Raspberry Pi 4 para uso headless
 - Como instalar e executar o Zebra, seja via Docker ou por meio de um binário pré-compilado
-- Como instalar, configurar e inicializar o Zallet, incluindo a configuração da criptografia da carteira
-- Como migrar opcionalmente uma configuração/carteira existente do zcashd para o Zallet
+- Como instalar, configurar e inicializar a Zallet, incluindo a configuração da criptografia da carteira
+- Como migrar opcionalmente uma configuração/carteira existente do zcashd para a Zallet
 
 ## O que mudou em relação ao guia antigo
-A versão anterior deste guia explicava como compilar o **zcashd** nativamente em um Pi 4 — uma compilação single-threaded que demorava 3–4 horas porque o Pi 4 não tem memória suficiente para uma compilação paralela (`-j$(nproc)`). Tanto o Zebra quanto o Zallet agora disponibilizam **binários oficiais ARM64 pré-compilados e imagens Docker**, por isso, na maioria dos casos, você não precisa mais compilar nada a partir do código-fonte no próprio Pi.
+A versão anterior deste guia explicava como compilar o **zcashd** nativamente em um Pi 4 — uma compilação single-threaded que demorava 3–4 horas porque o Pi 4 não tem memória suficiente para uma compilação paralela (`-j$(nproc)`). Tanto o Zebra quanto a Zallet agora disponibilizam **binários oficiais ARM64 pré-compilados e imagens Docker**, por isso, na maioria dos casos, você não precisa mais compilar nada a partir do código-fonte no próprio Pi.
 
 ## Pré-requisitos
 - Um Raspberry Pi 4 (recomendado 4 GB de RAM ou mais)
@@ -20,7 +20,7 @@ A versão anterior deste guia explicava como compilar o **zcashd** nativamente e
 - Conhecimentos básicos de linha de comando via SSH
 
 ## Passo 1: Grave o Ubuntu Server 22.04+ (64-bit)
-Os binários pré-compilados e as imagens Docker do Zebra e do Zallet exigem **glibc 2.34+**, o que significa **Ubuntu Server 22.04 ou mais recente (64-bit/aarch64)**.
+Os binários pré-compilados e as imagens Docker do Zebra e da Zallet exigem **glibc 2.34+**, o que significa **Ubuntu Server 22.04 ou mais recente (64-bit/aarch64)**.
 
 1. Instale o Raspberry Pi Imager no seu computador principal.
 2. Insira seu cartão microSD.
@@ -65,8 +65,8 @@ Isso instala um binário `aarch64` pré-compilado — não é necessário compil
 
 **Sobre o tempo de sincronização:** espere que isso leve algum tempo — os valores frequentemente citados para a primeira sincronização (cerca de 2 horas) vêm de hardware de referência mais potente do que a CPU de um Pi 4, por isso seu tempo real de sincronização em um Pi 4 provavelmente será maior.
 
-## Passo 5: Instale o Zallet
-O Zallet está atualmente em **alpha** — espere mudanças incompatíveis e ainda não o trate como uma solução de custódia pronta para produção para fundos significativos.
+## Passo 5: Instale a Zallet
+A Zallet está atualmente em **alpha** — espere mudanças incompatíveis e ainda não a trate como uma solução de custódia pronta para produção para fundos significativos.
 
 ### Opção A — Docker (recomendado)
 ```bash
@@ -80,9 +80,9 @@ Esta imagem oferece suporte a ARM64 (por meio de uma build baseada em Nix) e é 
 sudo apt install -y clang libclang-dev protobuf-compiler
 cargo install --locked --git https://github.com/zcash/wallet.git
 ```
-Os crates do Zallet ainda não estão publicados no crates.io durante a fase alpha, por isso a instalação diretamente a partir do repositório git é o método sem Docker compatível.
+Os crates da Zallet ainda não estão publicados no crates.io durante a fase alpha, por isso a instalação diretamente a partir do repositório git é o método sem Docker compatível.
 
-## Passo 6: Configure o Zallet
+## Passo 6: Configure a Zallet
 Crie `zallet.toml` no diretório de dados escolhido (por exemplo, `/mnt/zcash-data/zallet`):
 ```toml
 [builder.limits]
@@ -109,7 +109,7 @@ zallet migrate-zcash-conf --datadir /path/to/old/zcashd/datadir -o /mnt/zcash-da
 ```
 
 ## Passo 7: Configure a criptografia da carteira
-O Zallet criptografa todo o material de chaves usando `age`/`rage`:
+A Zallet criptografa todo o material de chaves usando `age`/`rage`:
 ```bash
 cargo install rage
 rage -p -o /mnt/zcash-data/zallet/encryption-identity.txt <(rage-keygen)
@@ -131,7 +131,7 @@ zallet -d /mnt/zcash-data/zallet start
 ```bash
 zallet -d /mnt/zcash-data/zallet migrate-zcashd-wallet --zcashd-datadir /path/to/old/zcashd/datadir
 ```
-Isso exige o utilitário `db_dump` (compilado com Berkeley DB 6.2.23) — de uma instalação do sistema ou de uma compilação local do código-fonte do zcashd. Se você não tiver mais o zcashd instalado, este é o único passo da migração que ainda não é totalmente autônomo no Zallet.
+Isso exige o utilitário `db_dump` (compilado com Berkeley DB 6.2.23) — de uma instalação do sistema ou de uma compilação local do código-fonte do zcashd. Se você não tiver mais o zcashd instalado, este é o único passo da migração que ainda não é totalmente autônomo na Zallet.
 
 ## Passo 10: Verifique se tudo funciona
 ```bash
@@ -143,14 +143,14 @@ Confirme que a carteira responde e, assim que o Zebra terminar a sincronização
 - **Problemas de build/runtime do Zebra em ARM:** se estiver compilando a partir do código-fonte, instale a toolchain ARM do Rust — executar ferramentas de build x86_64 em hardware ARM será visivelmente mais lento, conforme a própria documentação do Zebra.
 - **Armazenamento enchendo:** a ocupação de ~300 GB do Zebra continua crescendo — planeje espaço adicional.
 - **Erros de permissões do Docker:** encerre a sessão e entre novamente depois de adicionar seu usuário ao grupo `docker`, ou use `sudo` enquanto isso.
-- **O contêiner do Zallet não tem shell:** a imagem oficial `zodlinc/zallet` é from-scratch por definição — sempre passe `--datadir` explicitamente e monte seu diretório de dados como volume.
+- **O contêiner da Zallet não tem shell:** a imagem oficial `zodlinc/zallet` é from-scratch por definição — sempre passe `--datadir` explicitamente e monte seu diretório de dados como volume.
 
 ## Notas sobre o hardware em relação ao antigo guia do zcashd
-O Zebra e o Zallet geralmente exigem menos CPU durante a configuração do que compilar o zcashd exigia, pois você está executando binários/contêineres pré-compilados. 4 GB de RAM é um ponto de partida razoável; monitore com `htop` e considere a variante Pi 4 de 8 GB se perceber uso intenso de swap.
+O Zebra e a Zallet geralmente exigem menos CPU durante a configuração do que compilar o zcashd exigia, pois você está executando binários/contêineres pré-compilados. 4 GB de RAM é um ponto de partida razoável; monitore com `htop` e considere a variante Pi 4 de 8 GB se perceber uso intenso de swap.
 
 ## Recursos adicionais
 - [Livro do Zebra](https://zebra.zfnd.org) — documentação oficial do Zebra
-- [Livro do Zallet](https://zcash.github.io/zallet/) — documentação oficial do Zallet
+- [Livro da Zallet](https://zcash.github.io/zallet/) — documentação oficial da Zallet
 - [Aviso de fim de suporte do zcashd](https://z.cash/support/zcashd-deprecation)
 
 ---

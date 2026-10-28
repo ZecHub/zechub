@@ -226,6 +226,6 @@ Lista de verificação semelhante à produção e FAQ: [docs/faq.md](https://git
 * [Contrato Z3 (portas, volumes, nomes de projetos)](https://github.com/ZcashFoundation/z3/blob/main/z3-contract.yaml)
 * [Zebra](https://github.com/ZcashFoundation/zebra) · [O livro do Zebra](https://zebra.zfnd.org/)
 * [Zaino](https://github.com/zingolabs/zaino)
-* [Zallet](https://github.com/zcash/zallet) · [O livro do Zallet](https://zcash.github.io/zallet/)
+* [Zallet](https://github.com/zcash/zallet) · [O livro da Zallet](https://zcash.github.io/zallet/)
 * [Fórum da comunidade Zcash — atualizações do Z3](https://forum.zcashcommunity.com/t/zcash-z3-updates-formerly-zcashd-deprecation/48965)
 * [Iniciador Z3](https://github.com/Jubrilabdulazeez/z3-launcher) — plano de controle comunitário sobre a stack Compose oficial (Hackathon ZecHub)

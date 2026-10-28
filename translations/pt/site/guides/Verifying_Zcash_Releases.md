@@ -453,7 +453,7 @@ A verificação funciona de forma diferente quando você deixa os downloads dire
 
 - [Segurança do ecossistema Zcash](/zcash-community/zcash-ecosystem-security) — política de divulgação e contatos de segurança
 - [Nó integral Zebra](/zcash-tech/zebra-full-node) — instale o Zebra depois de verificá-lo
-- [Guia de referência rápida do Zallet](/using-zcash/zallet-quick-reference-guide) — usando o Zallet
+- [Guia de referência rápida da Zallet](/using-zcash/zallet-quick-reference-guide) — usando a Zallet
 - [Documentação do Sigstore](https://docs.sigstore.dev/)
 - [Níveis de proveniência do SLSA](https://slsa.dev/)
 

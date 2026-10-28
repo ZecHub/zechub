@@ -54,11 +54,11 @@ Na prática, isso significa:
 - Nem todos os RPCs de carteira do `zcashd` foram migrados.
 - A semântica de alguns métodos migrados difere da do `zcashd`. As integrações devem ler a página [de semântica alterada](https://zcash.github.io/zallet/zcashd/json_rpc.html).
 - Os crates estão em desenvolvimento e não foram totalmente auditados.
-- Zallet **não** é uma biblioteca Rust. Não há garantias se você depender dele como uma.
+- Zallet **não** é uma biblioteca Rust. Não há garantias se você depender dela como uma.
 
 O feedback deve ser enviado para as [issues do GitHub](https://github.com/zcash/zallet/issues/new) ou para o canal `#wallet-dev` no [Discord de P&D do Zcash](https://discord.gg/xpzPR53xtU).
 
-Está prevista uma fase estável posterior, quando existir a superfície RPC pretendida. Espera-se então que os chamadores migrem para os métodos do Zallet, incluindo as diferenças semânticas documentadas.
+Está prevista uma fase estável posterior, quando existir a superfície RPC pretendida. Espera-se então que os chamadores migrem para os métodos da Zallet, incluindo as diferenças semânticas documentadas.
 
 ---
 
@@ -99,7 +99,7 @@ A pilha compose [Z3](https://github.com/ZcashFoundation/z3) da Zcash Foundation 
 Zallet é construído em torno de contas ZIP 32, e não da conta única implícita do `zcashd`.
 
 - Uma carteira pode guardar **múltiplos mnemônicos BIP 39**. Cada mnemônico é uma raiz de gastos independente, identificada por uma **impressão digital da seed** (`zip32seedfp1…`).
-- As **contas** são derivadas de uma seed com um índice de conta ZIP 32. Dentro de uma instância do Zallet, também têm um **UUID** local. A identidade portátil de uma conta é `(seedfp, account index)`.
+- As **contas** são derivadas de uma seed com um índice de conta ZIP 32. Dentro de uma instância da Zallet, também têm um **UUID** local. A identidade portátil de uma conta é `(seedfp, account index)`.
 - Os endereços são **Unified Addresses ZIP 316**, produzidos com `z_getaddressforaccount`. Uma conta pode ter muitos endereços diversificados; os receptores blindados não podem ser associados on-chain.
 - As chaves de gastos importadas (`z_importkey`) e os endereços somente para visualização (`z_importaddress`) tornam-se contas UUID não abrangidas por nenhum mnemônico.
 - As chaves de visualização podem ser exportadas e importadas (`z_exportviewingkey`, `z_importviewingkey`), incluindo chaves de visualização completas unificadas e chaves de visualização de entrada.
@@ -199,7 +199,7 @@ Existe um produto de consumo separado em [zallet.io](https://www.zallet.io/) que
 ## Páginas relacionadas
 
 - [Nós integrais](Full_Nodes.md) — Zebra, Zakura e o nó `zcashd` descontinuado
-- [Nó integral Zebra](Zebra_Full_Node.md) — o nó que o backend padrão do Zallet lê
+- [Nó integral Zebra](Zebra_Full_Node.md) — o nó que o backend padrão da Zallet lê
 - [Nó Zakura](Zakura_Node.md) — nó de validação alternativo
 - [Zaino](Zaino.md) — backend de indexador e servidor de light client
 - [zecd](ZECD.md) — outro design de servidor de carteira em librustzcash
