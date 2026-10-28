@@ -75,6 +75,6 @@
 
 Το DefiSpot: δεν είναι πλέον online, καθώς ο τομέας του δεν επιλύεται.
 
-[XDEFI](https://www.xdefi.io/): ένα πορτοφόλι αυτοεπιμέλειας πολλαπλών οικοσυστημάτων με υποστήριξη για 30+ εγγενή blockchain, καθώς και όλες τις αλυσίδες EVM και Cosmos, συμπεριλαμβανομένων των Bitcoin, Ethereum, Solana, THORChain, Maya Protocol, TRON και άλλων.
+[Ctrl Wallet (XDEFI)](https://ctrl.xyz/): ένα πορτοφόλι αυτοεπιμέλειας πολλαπλών οικοσυστημάτων με υποστήριξη για 30+ εγγενή blockchain, καθώς και όλες τις αλυσίδες EVM και Cosmos, συμπεριλαμβανομένων των Bitcoin, Ethereum, Solana, THORChain, Maya Protocol, TRON και άλλων.
 
 [KeepKey ](https://keepkey.com/): Ένα hardware wallet για την ασφαλή αποθήκευση ψηφιακών περιουσιακών στοιχείων.

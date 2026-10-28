@@ -75,6 +75,6 @@ Liquidity Auction була 21-денною подією, створеною дл
 
 DefiSpot: більше не працює онлайн, його домен не розпізнається.
 
-[XDEFI](https://www.xdefi.io/): мультиекосистемний некастодіальний гаманець із підтримкою понад 30 нативних блокчейнів, а також усіх EVM- і Cosmos-мереж, включно з Bitcoin, Ethereum, Solana, THORChain, Maya Protocol, TRON та іншими.
+[Ctrl Wallet (XDEFI)](https://ctrl.xyz/): мультиекосистемний некастодіальний гаманець із підтримкою понад 30 нативних блокчейнів, а також усіх EVM- і Cosmos-мереж, включно з Bitcoin, Ethereum, Solana, THORChain, Maya Protocol, TRON та іншими.
 
 [KeepKey ](https://keepkey.com/): апаратний гаманець для безпечного зберігання цифрових активів.

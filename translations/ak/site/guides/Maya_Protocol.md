@@ -75,6 +75,6 @@ Sεnea y'atwe nsem a wͻwᴐ no adi kan na woahyehyɛ nsesaeԑ ahodoɔ yi:
 
 DefiSpot: ɛnni intanɛt so bio, ne domen no ntumi nsiesie.
 
-[XDEFI](https://www.xdefi.io/): sika kotoku a w'ankasa hwɛ so wɔ mu, na ɛboa ma wɔde blockchain ahorow bɛboro 30 ne EVM nyinaa di dwuma. Saa nkɔnsɔnkɔnsɔn no bi nso yɛ Bitcoin, Ethereum, Solana, THORChain, Maya Protocol, TRON, ɛne afoforo pii.
+[Ctrl Wallet (XDEFI)](https://ctrl.xyz/): sika kotoku a w'ankasa hwɛ so wɔ mu, na ɛboa ma wɔde blockchain ahorow bɛboro 30 ne EVM nyinaa di dwuma. Saa nkɔnsɔnkɔnsɔn no bi nso yɛ Bitcoin, Ethereum, Solana, THORChain, Maya Protocol, TRON, ɛne afoforo pii.
 
 [KeepKey ](https://keepkey.com/): Dwumadie a wɔde sie sika wɔ abɛɛfo mfiri so.

@@ -114,8 +114,10 @@ async function walk(dir, out = []) {
 // ── link extraction ──────────────────────────────────────────────────────────
 
 const PATTERNS = [
-  // ![alt](target) and [text](target) — target stops at whitespace or ")"
-  { re: /!?\[[^\]]*\]\(\s*<?([^)\s>]+)>?[^)]*\)/g, group: 1 },
+  // ![alt](target) and [text](target) — target stops at whitespace or at the ")"
+  // closing the link; one level of balanced parentheses stays in the target, as
+  // in CommonMark (https://en.wikipedia.org/wiki/501(c)(3)).
+  { re: /!?\[[^\]]*\]\(\s*<?((?:[^()\s>]|\([^()\s>]*\))+)>?[^)]*\)/g, group: 1 },
   // HTML attributes used by the icon markup in these pages
   { re: /\bsrc\s*=\s*["']([^"']+)["']/gi, group: 1 },
   { re: /\bhref\s*=\s*["']([^"']+)["']/gi, group: 1 },
@@ -205,7 +207,7 @@ async function loadAppRoutes(offline) {
     "protocol-parameters", "zcash-evolution", "visual-identity", "governance-howto",
     "zcash-global-ambassadors", "zcash-payment-uri", "zcash-pool-visualizer",
     "zksnark-proof-visualizer", "zcash-infrastructure-visualizer", "omniflix",
-    "aborist-calls", "zechub-tutorial", "zechub-tutorials", "using-zcash",
+    "arborist-calls", "research/zec-pool-migration/view", "zechub-tutorial", "zechub-tutorials", "using-zcash",
   ];
   if (offline) return new Set(fallback);
   try {
@@ -234,7 +236,13 @@ async function loadAppRoutes(offline) {
 // ── internal route resolution ────────────────────────────────────────────────
 
 function routeExists(route, mdFiles, appRoutes) {
-  const clean = route.split("#")[0].split("?")[0].replace(/\/+$/, "");
+  // Locale prefixes the wiki app routes (src/i18n/routing.ts). /pt/x renders the
+  // translation of /x, or the English page when there is none, so a localized
+  // route resolves exactly when its English route does.
+  const LOCALES = ["en", "it", "fr", "es", "de", "pt", "ar", "zh", "hi", "ru", "ja", "ko", "tr", "uk", "sw", "yo", "ig", "ak", "ee", "id", "el"];
+  let clean = route.split("#")[0].split("?")[0].replace(/\/+$/, "");
+  const locale = clean.match(/^\/([a-z]{2})(?=\/|$)/);
+  if (locale && LOCALES.includes(locale[1])) clean = clean.slice(3);
   if (!clean || clean === "/") return { ok: true, how: "site root" };
 
   // Pages rendered by the app itself have no markdown behind them.

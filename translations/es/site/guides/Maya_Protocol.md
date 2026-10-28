@@ -75,6 +75,6 @@ Aquí tienes una lista de algunos de los servicios que ya son compatibles con Ma
 
 DefiSpot: ya no está en línea; su dominio no se resuelve.
 
-[XDEFI](https://www.xdefi.io/): una billetera de autocustodia multiecosistema con soporte para más de 30 blockchains nativas, y todas las cadenas EVM y Cosmos, incluyendo Bitcoin, Ethereum, Solana, THORChain, Maya Protocol, TRON y más.
+[Ctrl Wallet (XDEFI)](https://ctrl.xyz/): una billetera de autocustodia multiecosistema con soporte para más de 30 blockchains nativas, y todas las cadenas EVM y Cosmos, incluyendo Bitcoin, Ethereum, Solana, THORChain, Maya Protocol, TRON y más.
 
 [KeepKey ](https://keepkey.com/): Una billetera de hardware para almacenar activos digitales de forma segura.

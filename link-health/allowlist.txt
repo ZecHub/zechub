@@ -14,3 +14,7 @@ medium.com
 
 # Rate-limits hard enough to produce false timeouts on a weekly sweep
 reddit.com
+
+# Answers 403/404 to automated page requests even for crates that exist
+# (checked against the crates.io API)
+crates.io/crates/

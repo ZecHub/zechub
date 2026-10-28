@@ -4,8 +4,6 @@
 
 # Zakura Node
 
-> 🇧🇷 [Dị na Pọtugal](/pt/zcash-tech/zakura-node)
-
 Zakura bụ mmemme n'efu, nke mepere emepe maka Zcash, nke e wuru maka nha. [Zebra](Zebra_Full_Node.md) ma mepụta ya site na mmekorita dị n'etiti **Valar Group** na **Project Tachyon**, Zakura na-enye mmekorita ngwa ngwa, ịkpụcha blọk ala, na oyi akwa ndakọrịta maka ihe nketa. `zcashd` ngwaọrụ. E wepụtara ụdị 1.0.0 na Julaị 15, 2026.
 
 ---

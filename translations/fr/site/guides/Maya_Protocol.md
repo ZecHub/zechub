@@ -75,6 +75,6 @@ Voici une liste de certains services qui prennent déjà en charge Maya :
 
 DefiSpot : n’est plus en ligne, son domaine ne se résout pas.
 
-[XDEFI](https://www.xdefi.io/) : un wallet en auto-garde multi-écosystème prenant en charge plus de 30 blockchains natives, ainsi que toutes les chaînes EVM et Cosmos, y compris Bitcoin, Ethereum, Solana, THORChain, Maya Protocol, TRON, et bien d'autres.
+[Ctrl Wallet (XDEFI)](https://ctrl.xyz/) : un wallet en auto-garde multi-écosystème prenant en charge plus de 30 blockchains natives, ainsi que toutes les chaînes EVM et Cosmos, y compris Bitcoin, Ethereum, Solana, THORChain, Maya Protocol, TRON, et bien d'autres.
 
 [KeepKey ](https://keepkey.com/) : Un hardware wallet pour stocker des actifs numériques en toute sécurité.

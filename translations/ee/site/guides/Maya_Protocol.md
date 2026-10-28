@@ -75,6 +75,6 @@ Esia nye ŋkɔ siwo le Maya dzi xoxo la dometɔ aɖewo ƒe kɔpi:
 
 DefiSpot: meganɔ Internet dzi o, eƒe domen la megale dɔ wɔm nyuie o.
 
-[XDEFI](https://www.xdefi.io/): enye ga si woɖuna le eɖokui dzi kple nu gbagbe vovovo siwo me wotrɔ asi le, eye wòkpena ɖe gadzraɖoƒe 30+ ŋu kpakple EVM-wo katã kple Cosmos ƒe mɔ̃ɖaŋunu vovovowo abe Bitcoin, Ethereum, Solana, THORChain, Maya Protocol, TRON, kple bubuwo.
+[Ctrl Wallet (XDEFI)](https://ctrl.xyz/): enye ga si woɖuna le eɖokui dzi kple nu gbagbe vovovo siwo me wotrɔ asi le, eye wòkpena ɖe gadzraɖoƒe 30+ ŋu kpakple EVM-wo katã kple Cosmos ƒe mɔ̃ɖaŋunu vovovowo abe Bitcoin, Ethereum, Solana, THORChain, Maya Protocol, TRON, kple bubuwo.
 
 [KeepKey ](https://keepkey.com/): Ga si wotsɔna dzraa gawoe be woatsɔ adzra kɔmpiuta dzi nuwo ɖo.
