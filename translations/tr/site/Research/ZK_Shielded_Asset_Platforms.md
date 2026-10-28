@@ -85,7 +85,7 @@ Vesayetsiz RAILGUN Wallet'ınızı kurun, istediğiniz bir 0zk adresine herhangi
 
 
 
-**[Dark.fi](https://dark.fi/)**: DarkFi, sıfır bilgi, çok taraflı hesaplama ve homomorfik şifrelemeye dayalı anonim bir L1’dir. Anonim proof-of-stake, doğrulayıcıların gizli kalmasını sağlar. DarkFi, anonim uygulamalar oluşturmak ve çalıştırmak için anti-fragile bir ortam sunar - **Varlık Takası**: Evet - [Beyaz Kitap](https://darkfi.org/whitepaper) - ![Darkfi.png](/content-images/0-auQOzkLMfYdoXlRy-b10ed91da5.webp)
+**[Dark.fi](https://dark.fi/)**: DarkFi, sıfır bilgi, çok taraflı hesaplama ve homomorfik şifrelemeye dayalı anonim bir L1’dir. Anonim proof-of-stake, doğrulayıcıların gizli kalmasını sağlar. DarkFi, anonim uygulamalar oluşturmak ve çalıştırmak için anti-fragile bir ortam sunar - **Varlık Takası**: Evet - [Beyaz Kitap](https://darkfi.org/whitepaper) - ![DarkFi.png](/content-images/0-auQOzkLMfYdoXlRy-b10ed91da5.webp)
 ***
 
 

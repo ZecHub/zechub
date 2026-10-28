@@ -26,7 +26,7 @@
 
 
 - Olumulo Zcash Fi sori ẹrọ / Kọ Zingolib Eyi ti o funni ni iraye si zingo-cli. Wọn le firanṣẹ / gba ZEC bi o ti nilo.
-- Zingo-cli máa ń so mọ́ zaino yálà ní àdúgbò tàbí nípasẹ̀ ọ̀nà ààbò orí ayélujára (olùṣàmúlò Zcash kò bìkítà nípa bí èyí ṣe ń ṣiṣẹ́!)
+- zingo-cli máa ń so mọ́ zaino yálà ní àdúgbò tàbí nípasẹ̀ ọ̀nà ààbò orí ayélujára (olùṣàmúlò Zcash kò bìkítà nípa bí èyí ṣe ń ṣiṣẹ́!)
 - Zaino gba ọ laaye lati wọle si zebrad tabi zcashd 
 - Fully synced zebrad is source of truth (no more wallets here!)
 

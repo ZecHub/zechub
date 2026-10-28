@@ -6,7 +6,7 @@
 
 ## TL;DR
 
-- Tachyon è una riprogettazione proposta del modo in cui i portafogli Zcash trovano e spendono fondi schermati, pensata per consentire alla rete di crescere fino a un numero molto elevato di utenti
+- Tachyon è una riprogettazione proposta del modo in cui i portafogli di Zcash trovano e spendono fondi schermati, pensata per consentire alla rete di crescere fino a un numero molto elevato di utenti
 - Oggi un portafoglio deve tentare di decrittare un'enorme porzione della blockchain per scoprire quali pagamenti gli appartengono, ed è il motivo principale per cui la sincronizzazione schermata risulta lenta
 - Tachyon sostituisce questo sistema con la **sincronizzazione cieca** (Oblivious Synchronization), affinché un portafoglio recuperi ciò di cui ha bisogno senza scansionare tutto e senza comunicare a un server quali parti ha richiesto
 - Sposta inoltre i dettagli del pagamento fuori dalla blockchain e nella richiesta di pagamento stessa, rendendo il protocollo più semplice ma trasferendo la responsabilità ai portafogli
@@ -26,11 +26,11 @@
 
 Zcash nasconde a chi è destinato un pagamento. È proprio questo il punto, e crea un problema scomodo: se nessuno può sapere a chi appartiene un pagamento, come fa il tuo portafoglio a trovare i tuoi?
 
-In Bitcoin è semplice. Gli indirizzi sono pubblici, quindi un portafoglio può chiedere a un server "cosa è stato inviato a questo indirizzo?" e ricevere una risposta. Un portafoglio Zcash non può fare questa domanda, perché farla rivelerebbe esattamente ciò che la pool schermata è progettata per nascondere.
+In Bitcoin è semplice. Gli indirizzi sono pubblici, quindi un portafoglio può chiedere a un server "cosa è stato inviato a questo indirizzo?" e ricevere una risposta. Un portafoglio di Zcash non può fare questa domanda, perché farla rivelerebbe esattamente ciò che la pool schermata è progettata per nascondere.
 
 Perciò Zcash fa qualcosa di diverso. Il mittente cifra i dettagli del pagamento e li inserisce nella transazione stessa. Il tuo portafoglio elabora quindi le transazioni sulla chain e cerca di decrittarne ciascuna. Quasi ogni tentativo fallisce. I pochi che riescono sono i tuoi pagamenti. Questo è chiamato **decrittazione di prova**, ed è privato, corretto e lento.
 
-![Oggi un portafoglio Zcash scarica ogni transazione schermata e prova a decrittarla, con quasi ogni tentativo che fallisce, per trovare i pochi pagamenti che gli appartengono](/content-images/tachyon-scanning-today.svg)
+![Oggi un portafoglio di Zcash scarica ogni transazione schermata e prova a decrittarla, con quasi ogni tentativo che fallisce, per trovare i pochi pagamenti che gli appartengono](/content-images/tachyon-scanning-today.svg)
 
 Il problema è da cosa dipende il lavoro. Lo sforzo del tuo portafoglio è determinato dalle dimensioni della chain, non dal numero di pagamenti che hai effettivamente ricevuto. Chi non ha mai ricevuto un solo pagamento svolge quasi lo stesso lavoro di chi ne riceve ogni giorno. Man mano che Zcash cresce, la situazione peggiora per tutti. Nelle parole della proposta, "semplicemente non scala."
 
@@ -40,7 +40,7 @@ Il problema è da cosa dipende il lavoro. Lo sforzo del tuo portafoglio è deter
 
 Tachyon affronta il problema alla radice: smette di usare la blockchain come canale di consegna per i segreti di pagamento.
 
-Invece, i dettagli di cui hai bisogno viaggiano con la richiesta di pagamento stessa, fuori banda. Una richiesta di pagamento, un URI o un codice QR contiene le informazioni che prima venivano cifrate nella transazione. Sean Bowe descrive questo come l'adozione per la prima volta dei **pagamenti fuori banda** in un protocollo schermato Zcash.
+Invece, i dettagli di cui hai bisogno viaggiano con la richiesta di pagamento stessa, fuori banda. Una richiesta di pagamento, un URI o un codice QR contiene le informazioni che prima venivano cifrate nella transazione. Sean Bowe descrive questo come l'adozione per la prima volta dei **pagamenti fuori banda** in un protocollo schermato di Zcash.
 
 Una volta che la chain non trasporta più queste informazioni, il tuo portafoglio non ha più motivo di cercarle e il problema della decrittazione di prova scompare.
 

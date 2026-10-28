@@ -8,7 +8,7 @@ Sɛ woyɛ Zcash mpɔtam hɔni, na wopɛ sɛ woboa ma wɔkyekye ZecHub a, nneɛma
 
 Curate links ma nsɛmma nhoma no na fa ka nsɛmma nhoma no GitHub krataafa no ho: -> [Klik ha na woanya akwankyerɛ](https://github.com/ZecHub/zechub/blob/main/site/contribute/ZecWeekly_Newsletter.md)
 
-Nokwasɛm hwɛ wiki docs, hyɛ nyansa sɛ wɔnyɛ nsakrae, na hyɛ nkratafa foforo ho nyansa wɔ Github mu
+Nokwasɛm hwɛ wiki docs, hyɛ nyansa sɛ wɔnyɛ nsakrae, na hyɛ nkratafa foforo ho nyansa wɔ GitHub mu
 
 Yɛ video mu nsɛm wɔ akuw a edidi so yi mu:
 ```
@@ -50,9 +50,9 @@ Yɛde nnwuma a wɔabue gu so [ZEC Bounties](https://bounties.zechub.wiki/). Wube
 
 [ZEC Bounties na ɛyɛ adwuma](https://bounties.zechub.wiki/)
 
-[ZecHub Github Nsɛmpɔw](https://github.com/ZecHub/zechub/issues)
+[ZecHub GitHub Nsɛmpɔw](https://github.com/ZecHub/zechub/issues)
 
-[ZecHub-Wiki Github Nsɛmpɔw](https://github.com/ZecHub/zechub-wiki/issues)
+[ZecHub-Wiki GitHub Nsɛmpɔw](https://github.com/ZecHub/zechub-wiki/issues)
 
 
 

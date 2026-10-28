@@ -92,7 +92,7 @@ Kpɔɖeŋu nufiame aɖe si le ete enye si:
   <iframe
     className="w-full h-full"
     src="https://www.youtube.com/embed/qz4KzDjkqu8"
-    title="WSL Install + Zcashd Compile/Transaction Tutorial"
+    title="WSL Install + zcashd Compile/Transaction Tutorial"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowFullScreen
     loading="lazy"
@@ -125,11 +125,11 @@ Curated locale axawo le ete `translations/<locale>/site/` wokplɔa wo ɖo ɖe wo
 
 #### ZecHub Wiki - trɔ asi le doc si li ŋu
 
-Ɣeaɖewoɣi la, míaƒe nyatakaka siwo le docs la me menɔa spot on o. Thats okay. Esia tae míeʋua woƒe dzɔtsoƒe nu! Ne èkpɔ nane si hiã tɔtrɔ le wiki-doc me la, taflatse yi doc la ƒe afɔti (si do ƒome kple eƒe Github axa) eye nàdo susu ɖa be nàwɔ tɔtrɔ to PR dzi.
+Ɣeaɖewoɣi la, míaƒe nyatakaka siwo le docs la me menɔa spot on o. Thats okay. Esia tae míeʋua woƒe dzɔtsoƒe nu! Ne èkpɔ nane si hiã tɔtrɔ le wiki-doc me la, taflatse yi doc la ƒe afɔti (si do ƒome kple eƒe GitHub axa) eye nàdo susu ɖa be nàwɔ tɔtrɔ to PR dzi.
 
 #### ZecHub Wiki - woɖɔ kadodo si gblẽ ɖo
 
-Ne èkpɔ be kadodo aɖe gblẽ, alo woŋlɔ nu vevi aɖe vodadatɔe la, taflatse yi doc la ƒe afɔti (si do ƒome kple eƒe Github axa) eye nàdo susu ɖa le tɔtrɔa ŋu to PR dzi.
+Ne èkpɔ be kadodo aɖe gblẽ, alo woŋlɔ nu vevi aɖe vodadatɔe la, taflatse yi doc la ƒe afɔti (si do ƒome kple eƒe GitHub axa) eye nàdo susu ɖa le tɔtrɔa ŋu to PR dzi.
 
 #### Nyadzɔdzɔgbalẽ - tata yeye
 

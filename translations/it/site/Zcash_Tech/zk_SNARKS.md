@@ -161,7 +161,7 @@ Setup trasparente (nessun trusted setup)- L'algoritmo di pre-elaborazione non ut
 
 [Groth16](https://eprint.iacr.org/2016/260): Richiede un trusted setup ma ha prove molto brevi che possono essere verificate rapidamente.
 
-[Sonic](https://www.youtube.com/watch?v=oTRAg6Km1os)/[Marlin](https://www.youtube.com/watch?v=bJDLf8KLdL0)/[Plonk](https://eprint.iacr.org/2019/953): Trusted setup universale.
+[Sonic](https://www.youtube.com/watch?v=oTRAg6Km1os)/[Marlin](https://www.youtube.com/watch?v=bJDLf8KLdL0)/[PLONK](https://eprint.iacr.org/2019/953): Trusted setup universale.
 
 [DARK](https://eprint.iacr.org/2019/1229)/[Halo](https://eprint.iacr.org/archive/2019/1021/20200218:011907)/[STARK](https://www.youtube.com/watch?v=wFZ_YIetK1o): Non richiedono trusted setup, ma producono prove leggermente più lunghe o potrebbero richiedere più tempo al dimostratore per l'esecuzione. 
 
@@ -222,9 +222,9 @@ Per approfondire:
 
 ## Pagine correlate
 
-- [Pool schermate](/using-zcash/shielded-pools) — Come gli zk-SNARK vengono utilizzati nelle pool di valore Zcash
-- [Halo](/zcash-tech/halo) — Il sistema Zcash di zk-SNARK che elimina le configurazioni fidate
-- [Sicurezza post-quantistica in Zcash](/zcash-tech/post-quantum-security) - Come i futuri rischi quantistici si relazionano alla crittografia Zcash
+- [Pool schermate](/using-zcash/shielded-pools) — Come gli zk-SNARK vengono utilizzati nelle pool di valore di Zcash
+- [Halo](/zcash-tech/halo) — Il sistema zk-SNARK di Zcash che elimina le configurazioni fidate
+- [Sicurezza post-quantistica in Zcash](/zcash-tech/post-quantum-security) - Come i futuri rischi quantistici si relazionano alla crittografia di Zcash
 - [Zcash Asset schermati](/zcash-tech/zcash-shielded-assets) — ZSA costruiti sulla tecnologia zk-SNARK
 - [Cos'è ZEC e Zcash](/start-here/what-is-zec-and-zcash) — Introduzione a Zcash e al suo modello di privacy
 - [Chi può vedere il tuo pagamento Zcash?](/start-here/who-can-see-your-zcash-payment) — Cosa rimane pubblico e cosa nasconde la schermatura

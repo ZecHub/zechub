@@ -475,7 +475,7 @@ RAM をケチりすぎています。デプロイを閉じ、少なくとも 12G
 
 ### RPC 認証エラー
 
--> *ZCASHD_RPCUSER* と *ZCASHD_RPCPASSWORD* が正しく設定されているか確認してください
+-> `ZCASHD_RPCUSER` と `ZCASHD_RPCPASSWORD` が正しく設定されているか確認してください
 
 -> 正しいポートを使っているか確認してください（mainnet は 8232、testnet は 18232）
 

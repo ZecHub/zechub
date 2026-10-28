@@ -3,7 +3,7 @@
 </a>
 
 # <img src="/content-images/image-2024-02-03-164918723-f59419848a.webp" alt="Alt Text" width="50"/>    Electric Coin Company (Sunset)
-[Website](https://electriccoin.co) - [Github](https://github.com/zodl-inc) - [X/Twitter](https://x.com/ElectricCoinCo)
+[Website](https://electriccoin.co) - [GitHub](https://github.com/zodl-inc) - [X/Twitter](https://x.com/ElectricCoinCo)
 
 > **About that GitHub link.** ECC's repositories are at `zodl-inc`. That is the same organization, renamed when the team moved to [ZODL](/zcash-organizations/zodl). The old `github.com/Electric-Coin-Company` name was registered by an unrelated party in May 2026 and has nothing to do with ECC or ZODL, so do not trust code published there.
 

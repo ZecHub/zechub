@@ -78,6 +78,8 @@ Gezgin ayrıca fonların şeffaf ve korumalı taraflar arasında ne zaman geçti
 
 - [ZecBlock](https://zecblock.com/)
 
+- [SoChain](https://sochain.com/zec) ([test ağı](https://sochain.com/zectest))
+
 ### Görsel Rehber
 
 İşte farklı blokzincir gezginlerine dair dört iyi örnek:

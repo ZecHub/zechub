@@ -121,7 +121,7 @@ Coinbase ha realizzato un'implementazione FROST in produzione per i suoi sistemi
 
 5. **Aggregazione:** Il coordinatore combina le t firme parziali in un'unica firma Schnorr finale — indistinguibile on-chain da una firma di una singola parte.
 
-6. **Trasmissione:** La transazione viene trasmessa alla rete Zcash come di consueto.
+6. **Trasmissione:** La transazione viene trasmessa alla rete di Zcash come di consueto.
 
 Se un firmatario invia una firma parziale non valida, il protocollo lo identifica e si interrompe (viene escluso dalle sessioni future). Il coordinamento avviene off-chain — la blockchain vede solo la transazione finale.
 

@@ -55,3 +55,5 @@ Bitcoin
 # Like Bitcoin, left unprotected: Japanese and Korean pages write it in the
 # usual local script (イーサリアム, 이더리움).
 Ethereum
+# Ordinary English word, capitalised only in a document title (IRS Publication 1771).
+Charitable

@@ -221,7 +221,7 @@ Seesei wokura asase mfonini no. Nsɛm a ɛtoatoa so no nkae no hyɛ mu ma.
 | **Nullifier** | "Sent" agyiraehyɛde soronko a wotintim bere a wɔde nkyerɛwde bi di dwuma, a esiw sika a wɔsɛe no mmɔho abien |
 | **Zero-knowledge proof** | Adanse a ɛkyerɛ sɛ asɛm bi yɛ nokware bere a ɛnna biribiara adi nsen ne nokware |
 | **Shielding / deshielding** | Sika a wɔde kɔ / fi ankorankoro wiase a wɔabɔ ho ban no mu |
-| **Viewing key** | Safoa a ɛma owura no hu na ɔkenkan nsɛm a wɔakyerɛw a wɔde akɔma wɔn |
+| **Viewing Key** | Safoa a ɛma owura no hu na ɔkenkan nsɛm a wɔakyerɛw a wɔde akɔma wɔn |
 
 ---
 

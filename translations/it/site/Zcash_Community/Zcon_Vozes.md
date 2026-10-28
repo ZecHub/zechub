@@ -9,8 +9,8 @@ Zcon Vozes è una conferenza annuale organizzata da [Zcash Brazil](https://zcash
 
 ## Zcon  Vozes Brasil
 
-Il primo evento Zcash al di fuori degli Stati Uniti, sponsorizzato dalla Zcash Foundation, si è tenuto il 18 marzo 2023.
-Si è svolto nell'iconico Museo del Domani, segnando il continente come sede della seconda comunità Zcash più grande al mondo. 💛
+Il primo evento di Zcash al di fuori degli Stati Uniti, sponsorizzato dalla Zcash Foundation, si è tenuto il 18 marzo 2023.
+Si è svolto nell'iconico Museo del Domani, segnando il continente come sede della seconda comunità di Zcash più grande al mondo. 💛
 
 [Playlist di Zcon Vozes 1](https://www.youtube.com/playlist?list=PLez2pAhViAI2KiXyPtcXIfmC5FQ-ozrPf)
 

@@ -3,7 +3,7 @@
 </a>
 
 # Podcast
-Vuoi saperne di più sull'ecosistema Zcash? Ecco una lista di podcast che puoi seguire:
+Vuoi saperne di più sull'ecosistema di Zcash? Ecco una lista di podcast che puoi seguire:
 
 <ul class="podcast-list grid grid-cols-1 imd:grid-cols-2 md:grid-cols-3 gap-6">
 <li>

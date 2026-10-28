@@ -52,7 +52,7 @@ Así que, si eres un monstruo de las galletas..,
 
 ¡ahora sabes dónde gastar tus ZEC!
 
-**Sitio web**: sheemprende.com ha sido retirado y ya no está disponible. Puedes contactarla en [Free2z](https://free2z.cash/SheEmprende) | [plataforma X](https://twitter.com/SheEmprende_)
+**Sitio web**: sheemprende.com ha sido retirado y ya no está disponible. Puedes contactarla en [Free2Z](https://free2z.cash/SheEmprende) | [plataforma X](https://twitter.com/SheEmprende_)
 
 **Zcash Unified Address:** 
 
@@ -74,7 +74,7 @@ Rosa sonríe orgullosamente mostrando que acepta **Zcash.**
 
 **Sitio web**: somosdulceros.com ha sido retirado y ya no está disponible. Utiliza los enlaces de redes sociales a continuación.
 
-**Redes sociales:** [Instagram](https://www.instagram.com/somos_dulceros) | [plataforma X](https://twitter.com/RosaMRangel) | [Free2z](https://free2z.cash/Criptodulceros/zpage/criptodulceros-01)
+**Redes sociales:** [Instagram](https://www.instagram.com/somos_dulceros) | [plataforma X](https://twitter.com/RosaMRangel) | [Free2Z](https://free2z.cash/Criptodulceros/zpage/criptodulceros-01)
 
 **Zcash Unified Address:** 
 
@@ -106,7 +106,7 @@ Algunas de las otras hermosas cosas que Papeles a Color elabora a mano.
 
 **Redes sociales** 
 
-[Instagram](https://instagram.com/papelesacolor) | [Free2z](https://free2z.cash/PapelesaColor) 
+[Instagram](https://instagram.com/papelesacolor) | [Free2Z](https://free2z.cash/PapelesaColor) 
 
 [Linktree](https://linktr.ee/Papelesacolor)
 
@@ -193,7 +193,7 @@ Su trabajo es reconocido en el ecosistema de Zcash gracias a su contribución al
 
 **Redes sociales:**
 
-[Telegram](https://t.me/Robmarn) | [plataforma X](https://twitter.com/robmarn) | [Free2z](https://free2z.cash/robmarn)
+[Telegram](https://t.me/Robmarn) | [plataforma X](https://twitter.com/robmarn) | [Free2Z](https://free2z.cash/robmarn)
 
 📍Barquisimeto - Venezuela 
 
@@ -261,7 +261,7 @@ Ese es @Lexihel - Alexis López Abreu.
 
 **Redes sociales** 
 
-Free2z | [Telegram](https://t.me/Lexihel) | [YouTube](https://youtube.com/@tecnopapapi) | [plataforma X](https://twitter.com/tecnopapapi) | [TikTok](https://www.tiktok.com/@lexihel) | [Instagram](https://www.instagram.com/tecnopapapi/) |  [Facebook](https://www.facebook.com/tecnopapapi) 
+Free2Z | [Telegram](https://t.me/Lexihel) | [YouTube](https://youtube.com/@tecnopapapi) | [plataforma X](https://twitter.com/tecnopapapi) | [TikTok](https://www.tiktok.com/@lexihel) | [Instagram](https://www.instagram.com/tecnopapapi/) |  [Facebook](https://www.facebook.com/tecnopapapi) 
 
 Tecnopapapi acepta criptomonedas (incluidos 3ZEC) y otros métodos de pago. 
 

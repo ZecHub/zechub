@@ -41,7 +41,7 @@ ZCASH ECOSYSTEM DIGEST | JULY 6
 
 [Zcash Brazil Ìpè Ọsẹ 22](https://x.com/zcashbrazil/status/1808206303107731746)
 
-[Maṣe lo ohun elo Ifihan MacOS - alberdioni8406 lori Free2z](https://x.com/free2zcash/status/1809716224940781965)
+[Maṣe lo ohun elo Ifihan MacOS - alberdioni8406 lori Free2Z](https://x.com/free2zcash/status/1809716224940781965)
 
 [Àwọn Owó Ìpamọ́ ti Wẹ́b 2.0 - Zcash Media ](https://x.com/zcashmedia/status/1809580807616397557)
 

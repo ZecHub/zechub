@@ -34,7 +34,7 @@ La ressource recommandée cette semaine est les sessions Zcon ! Lors de Zcon4, I
 
 [Présentation des sessions Zcon : 11 podcasts célébrant la communauté Zcash](https://twitter.com/zcash/status/1691670784542966020)
 
-[Zechub DAO vote pour ajouter le nouveau membre Jason McGee](https://vote.zechub.xyz)
+[ZecHub DAO vote pour ajouter le nouveau membre Jason McGee](https://vote.zechub.xyz)
 
 [ZFAV et ZcashBrazil collaborent à #dWebCamp pour la technologie et les connexions !](https://twitter.com/ZFAVClub/status/1692289261263868271)
 

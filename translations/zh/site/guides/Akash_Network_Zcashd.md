@@ -475,7 +475,7 @@ zcash-cli getinfo
 
 ### RPC 认证失败
 
--> 检查 *ZCASHD_RPCUSER* 和 *ZCASHD_RPCPASSWORD* 是否设置正确
+-> 检查 `ZCASHD_RPCUSER` 和 `ZCASHD_RPCPASSWORD` 是否设置正确
 
 -> 确认你使用的是正确端口（主网 8232，测试网 18232）
 

@@ -26,7 +26,7 @@
 
 
 - Zcash Onye ọrụ wụnye / Compiles Zingolib Nke na-enye ohere maka zingo-cli. Ha nwere ike izipu / nata ZEC dị ka mkpa.
-- Zingo-cli connects to zaino either locally or via a secure channel online (Zcash user doesnt care how this works!)
+- zingo-cli connects to zaino either locally or via a secure channel online (Zcash user doesnt care how this works!)
 - Zaino na-enye ohere ịbanye ma zebrad ma ọ bụ zcashd 
 - Fully synced zebrad is source of truth (no more wallets here!)
 

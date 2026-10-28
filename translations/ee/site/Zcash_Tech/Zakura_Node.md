@@ -4,8 +4,6 @@
 
 # Zakura Node ƒe ŋkɔ
 
-> 🇧🇷 [Versão em Portugaltɔwo ƒe agbalẽwo](/pt/zcash-tech/zakura-node)
-
 Zakura nye femaxee, ʋuʋu-dzɔtso blibo node dɔwɔwɔ na Zcash, wotu na dzidzenu. Forked tso [Zebra](Zebra_Full_Node.md) eye wowɔe to nuwɔwɔ aduadu le **Valar Group** kple **Project Tachyon** dome, Zakura naa nuwɔwɔ ɖekae kabakaba ŋutɔ, native block pruning, kple compatibility layer na domenyinu `zcashd` dɔwɔnuwo zazã. Woɖe eƒe tɔtrɔ 1.0.0 ɖe go le July 15, 2026 dzi.
 
 ---

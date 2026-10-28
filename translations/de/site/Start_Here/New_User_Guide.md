@@ -7,7 +7,7 @@
 ## TL;DR
 
 - **Kaufe ZEC** auf einer unterstützten Börse (Gemini, BitcoinVN usw.)
-- **Richte eine Shielded Wallet ein** (empfohlen: ZODL, Zingo oder Zkool)
+- **Richte eine Shielded Wallet ein** (empfohlen: Zodl, Zingo oder Zkool)
 - **Hebe** deine ZEC von der Börse auf deine Shielded Wallet ab
 - **Sende eine Shielded-Transaktion** — deine erste private Zahlung auf Zcash
 - **Tritt der Community bei** im Forum oder auf Discord

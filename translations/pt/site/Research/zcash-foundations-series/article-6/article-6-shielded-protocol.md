@@ -153,7 +153,7 @@ Esta é a imagem mais completa da série, mas ainda é um modelo. Nós comprimim
 | Termo | Significado em linguagem simples |
 |---|---|
 | **Spending key** | O único segredo-raiz do qual derivam todas as chaves de um usuário |
-| **Viewing key** | Revela suas transações a um portador sem permitir que ele gaste |
+| **Viewing Key** | Revela suas transações a um portador sem permitir que ele gaste |
 | **Spend description** | A parte de uma tx que consome uma note (nullifier, anchor, prova) |
 | **Output description** | A parte de uma tx que cria uma note (commitment, ciphertext, prova) |
 | **Action (Orchard)** | Uma unidade unificada que faz um gasto e uma saída juntos |

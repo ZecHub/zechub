@@ -52,7 +52,7 @@ Zcash は、ZECとともに、強化されたプライバシーとセキュリ�
 
 ZECをどこで使えるか、もう分かりましたね！
 
-**ウェブサイト**: sheemprende.com は閉鎖され、現在はアクセスできません。[Free2z](https://free2z.cash/SheEmprende) | [X Platform](https://twitter.com/SheEmprende_)で彼女に連絡してください。
+**ウェブサイト**: sheemprende.com は閉鎖され、現在はアクセスできません。[Free2Z](https://free2z.cash/SheEmprende) | [X Platform](https://twitter.com/SheEmprende_)で彼女に連絡してください。
 
 **Zcash Unified Address:** 
 
@@ -74,7 +74,7 @@ Rosaは**Zcashを受け入れていることを誇らしげに笑顔で示して
 
 **ウェブサイト**: somosdulceros.com は閉鎖され、現在はアクセスできません。下記のソーシャルリンクをご利用ください。
 
-**ソーシャルメディア:** [Instagram](https://www.instagram.com/somos_dulceros) | [X Platform](https://twitter.com/RosaMRangel) | [Free2z](https://free2z.cash/Criptodulceros/zpage/criptodulceros-01)
+**ソーシャルメディア:** [Instagram](https://www.instagram.com/somos_dulceros) | [X Platform](https://twitter.com/RosaMRangel) | [Free2Z](https://free2z.cash/Criptodulceros/zpage/criptodulceros-01)
 
 **Zcash Unified Address:** 
 
@@ -106,7 +106,7 @@ Papeles a Colorが手作りする、ほかにも美しい品々。
 
 **ソーシャルメディア** 
 
-[Instagram](https://instagram.com/papelesacolor) | [Free2z](https://free2z.cash/PapelesaColor) 
+[Instagram](https://instagram.com/papelesacolor) | [Free2Z](https://free2z.cash/PapelesaColor) 
 
 [Linktree](https://linktr.ee/Papelesacolor)
 
@@ -167,7 +167,7 @@ u14g5wzyan35s5fq4glf7hsf0wteuskr3dgfs25wkr2tk5dq6sqrfpq8pqmme5yp7c3eq42tlssgv5hw
 
 GorBritは、暗号通貨を含むさまざまな支払い方法を受け入れており、その一つが**Zcashです。**
 
-**Unified address** 
+**Unified Address** 
 
 ```
 u1l2lxdx2en962h3utm24fthm0r9q5cxc4705jeatq4lckm92k06htdk8jear9tsay7w8xz4najnv0mpnngalctdtqnh9dv3d4fsr3lqxk0jhgfukujzca752eqj4pyeklgymk0j72lfs85r3vnpx48jkgk5v0zk5zl7nx4mlyaxq7xm0k7wfjnt9h86d4wxvrm45w358qkd60cdckp4h
@@ -193,7 +193,7 @@ u1l2lxdx2en962h3utm24fthm0r9q5cxc4705jeatq4lckm92k06htdk8jear9tsay7w8xz4najnv0mp
 
 **ソーシャルメディア:**
 
-[Telegram](https://t.me/Robmarn) | [X Platform](https://twitter.com/robmarn) | [Free2z](https://free2z.cash/robmarn)
+[Telegram](https://t.me/Robmarn) | [X Platform](https://twitter.com/robmarn) | [Free2Z](https://free2z.cash/robmarn)
 
 📍バルキシメト - ベネズエラ 
 
@@ -261,7 +261,7 @@ Tecnopapapiは相談すべき適切な人です！
 
 **ソーシャルメディア** 
 
-Free2z | [Telegram](https://t.me/Lexihel) | [YouTube](https://youtube.com/@tecnopapapi) | [X Platform](https://twitter.com/tecnopapapi) | [TikTok](https://www.tiktok.com/@lexihel) | [Instagram](https://www.instagram.com/tecnopapapi/) |  [Facebook](https://www.facebook.com/tecnopapapi) 
+Free2Z | [Telegram](https://t.me/Lexihel) | [YouTube](https://youtube.com/@tecnopapapi) | [X Platform](https://twitter.com/tecnopapapi) | [TikTok](https://www.tiktok.com/@lexihel) | [Instagram](https://www.instagram.com/tecnopapapi/) |  [Facebook](https://www.facebook.com/tecnopapapi) 
 
 Tecnopapapiは暗号通貨（3ZECを含む）およびその他の支払い方法を受け入れています。 
 

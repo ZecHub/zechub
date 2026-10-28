@@ -1,6 +1,6 @@
 ZCASH ECOSYSTEM DIGEST | 2024년 7월 6일
 
-Zebra 1.8.0 최신 릴리스, FROST 발표, Zooko가 새로운 Zcash 프로젝트 시작 및 Maya 프로토콜에서 Shielded Swaps 테스트 진행 중 
+Zebra 1.8.0 최신 릴리스, FROST 발표, Zooko가 새로운 Zcash 프로젝트 시작 및 Maya Protocol에서 Shielded Swaps 테스트 진행 중 
 
 ### ECC & ZF 업데이트:
 
@@ -20,17 +20,17 @@ Zebra 1.8.0 최신 릴리스, FROST 발표, Zooko가 새로운 Zcash 프로젝�
 
 
 
-### Zcash 커뮤니티 그랜트:
+### Zcash Community Grants:
 
 [Zcash Avalanche Elastic Subnet Bridge 업데이트](https://forum.zcashcommunity.com/t/zcash-elastic-subnet-bridge-on-avalanche/44220/63)
 
-[Maya 프로토콜과 Shielded ZEC 스왑](https://x.com/GiMa9550/status/1808960168681476288)
+[Maya Protocol과 Shielded ZEC 스왑](https://x.com/GiMa9550/status/1808960168681476288)
 
 [Ledger Hw-Wallet에서 공식적으로 Zcash에 대한 Shielded 지원](https://forum.zcashcommunity.com/t/official-shielded-support-for-zcash-in-ledger-hw-wallet/45965/90)
 
 [Zcash Ecosystem 보안 리더 업데이트](https://forum.zcashcommunity.com/t/grant-update-zcash-ecosystem-security-lead/47541/4)
 
-[2024년 6월 25일 Zcash 커뮤니티 그랜트 회의록](https://forum.zcashcommunity.com/t/zcash-community-grants-meeting-minutes-6-25-2024/48199)
+[2024년 6월 25일 Zcash Community Grants 회의록](https://forum.zcashcommunity.com/t/zcash-community-grants-meeting-minutes-6-25-2024/48199)
 
 [Ledger에서 공식적으로 Zcash에 대한 Shielded 지원 업데이트](https://forum.zcashcommunity.com/t/official-shielded-support-for-zcash-in-ledger-hw-wallet/45965/90)
 
@@ -41,7 +41,7 @@ Zebra 1.8.0 최신 릴리스, FROST 발표, Zooko가 새로운 Zcash 프로젝�
 
 [Zcash 브라질 주간 콜 22](https://x.com/zcashbrazil/status/1808206303107731746)
 
-[MacOS Signal 앱 사용하지 마세요 - alberdioni8406 on Free2z](https://x.com/free2zcash/status/1809716224940781965)
+[MacOS Signal 앱 사용하지 마세요 - alberdioni8406 on Free2Z](https://x.com/free2zcash/status/1809716224940781965)
 
 [Web 2.0의 숨은 비용 - Zcash Media ](https://x.com/zcashmedia/status/1809580807616397557)
 

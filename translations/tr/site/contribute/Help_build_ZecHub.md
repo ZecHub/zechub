@@ -8,7 +8,7 @@ Eğer Zcash topluluğunun bir üyesiyseniz ve ZecHub’ın oluşturulmasına kat
 
 Bülten için bağlantıları derleyin ve bültenin GitHub sayfasına ekleyin: -> [Talimatlar için buraya tıklayın](https://github.com/ZecHub/zechub/blob/main/site/contribute/ZecWeekly_Newsletter.md)
 
-Wiki belgelerindeki bilgileri doğrulayın, düzenleme önerilerinde bulunun ve Github üzerinde yeni sayfalar önerin
+Wiki belgelerindeki bilgileri doğrulayın, düzenleme önerilerinde bulunun ve GitHub üzerinde yeni sayfalar önerin
 
 Aşağıdaki kategorilerde video içerikleri oluşturun:
 ```
@@ -50,9 +50,9 @@ Açık görevleri [ZEC Bounties](https://bounties.zechub.wiki/) üzerinde yayın
 
 [ZEC Bounties](https://bounties.zechub.wiki/)
 
-[ZecHub Github Issue’ları](https://github.com/ZecHub/zechub/issues)
+[ZecHub GitHub Issue’ları](https://github.com/ZecHub/zechub/issues)
 
-[ZecHub-Wiki Github Issue’ları](https://github.com/ZecHub/zechub-wiki/issues)
+[ZecHub-Wiki GitHub Issue’ları](https://github.com/ZecHub/zechub-wiki/issues)
 
 Katkıda bulunmak istediğiniz başka yollar varsa, lütfen Twitter’da ZecHub’a ([@ZecHub](https://twitter.com/zechub)) mesaj gönderin veya [Discord](https://discord.gg/zcash) sunucumuza katılın.
 

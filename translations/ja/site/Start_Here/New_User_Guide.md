@@ -7,7 +7,7 @@
 ## TL;DR
 
 - サポートされている取引所（Gemini、BitcoinVN など）で**ZECを購入**
-- **shieldedウォレットを設定**（ZODL、Zingo、または Zkool を推奨）
+- **shieldedウォレットを設定**（Zodl、Zingo、または Zkool を推奨）
 - 取引所から shieldedウォレットに ZEC を**出金**
 - **shieldedトランザクションを送信** — Zcash での最初のプライベートな支払い
 - フォーラムや Discord で**コミュニティに参加**

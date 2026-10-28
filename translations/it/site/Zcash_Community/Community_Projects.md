@@ -43,7 +43,7 @@ Contenuti educativi strutturati per nuovi utenti e sviluppatori di Zcash.
 [Forum](https://forum.zcashcommunity.com/t/zcash-network-school/55269)
 
 ### Zectastic
-Sito interattivo con giochi a tema Zcash ed eventi live della community.  
+Sito interattivo con giochi a tema di Zcash ed eventi live della community.  
 [Visita](https://zectastic.com/)
 
 ### App ZEC
@@ -131,7 +131,7 @@ Piattaforma di mance live non-custodial in cui ogni mancia arriva come ZEC scher
 [Visita](https://tipz.cash/)
 
 ### CYZE
-Portafoglio collaborativo e piattaforma di coordinamento che consente a più membri del team di gestire insieme fondi Zcash schermati. Utilizza firme a soglia FROST, permettendo ai gruppi di autorizzare collettivamente transazioni Orchard senza assegnare a un singolo partecipante il controllo completo del portafoglio.  
+Portafoglio collaborativo e piattaforma di coordinamento che consente a più membri del team di gestire insieme fondi di Zcash schermati. Utilizza firme a soglia FROST, permettendo ai gruppi di autorizzare collettivamente transazioni Orchard senza assegnare a un singolo partecipante il controllo completo del portafoglio.  
 [Visita](https://github.com/USCMig/Cyze)
 
 ### Pendrake Watch
@@ -154,7 +154,7 @@ Block explorer progettato per testare transazioni sulla Testnet di Zcash.
 Dashboard pubblica di trasparenza per il Dev Fund di Zcash, inclusa la contabilità dei finanziamenti ZCG e FPF, il Lockbox, la governance e le erogazioni.  
 [Visita](https://openzcash.org/)
 
-### Block explorer Zcash
+### Block explorer di Zcash
 Block explorer completo di Zcash di Nighthawk Apps.  
 [Visita](https://mainnet.zcashexplorer.app/)
 
@@ -167,7 +167,7 @@ Mappa globale di attività e luoghi che accettano Zcash.
 [Visita](https://zecmap.com/)
 
 ### ZECping
-Strumento per verificare i tempi di risposta gRPC dei nodi Zcash lightwalletd.  
+Strumento per verificare i tempi di risposta gRPC dei nodi di Zcash lightwalletd.  
 [Visita](https://github.com/emersonian/zecping)
 
 ### ZecStats
@@ -232,7 +232,7 @@ Strumento di monitoraggio finanziario e contabilità che preserva la privacy per
 [Visita](https://zecledger-web.vercel.app/)
 
 ### Autenticazione con ZcashMe
-Sistema di autenticazione incentrato sulla privacy che utilizza transazioni Zcash schermate come meccanismo di accesso. Gli utenti scansionano un codice QR e inviano una piccola transazione di autenticazione.  
+Sistema di autenticazione incentrato sulla privacy che utilizza transazioni di Zcash schermate come meccanismo di accesso. Gli utenti scansionano un codice QR e inviano una piccola transazione di autenticazione.  
 [Visita](https://github.com/zcashme/zns-login)
 
 ---
@@ -240,12 +240,12 @@ Sistema di autenticazione incentrato sulla privacy che utilizza transazioni Zcas
 ## Sviluppo, test e infrastruttura
 
 ### Ztreamer
-Implementazione open-source altamente ottimizzata di un indicizzatore Zcash e del protocollo lightwallet (CompactTxStreamer), supportata da un nodo Zakura integrato. Esegue nodo + indicizzatore + server di portafoglio in un unico processo (ztreamerd); supporta gRPC e Zakura v2 P2P. Indicizzazione storica rapida e servizio a bassa latenza per portafogli leggeri.  
+Implementazione open-source altamente ottimizzata di un indicizzatore di Zcash e del protocollo lightwallet (CompactTxStreamer), supportata da un nodo Zakura integrato. Esegue nodo + indicizzatore + server di portafoglio in un unico processo (ztreamerd); supporta gRPC e Zakura v2 P2P. Indicizzazione storica rapida e servizio a bassa latenza per portafogli leggeri.  
 [Visita](https://github.com/distractedm1nd/ztreamer)  
 [Crate](https://crates.io/crates/ztreamer-indexer)
 
 ### Ziggurat
-Suite di test della rete per sviluppatori di zcashd e Zebra. Include un crawler Zcash.  
+Suite di test della rete per sviluppatori di zcashd e Zebra. Include un crawler di Zcash.  
 [Visita](https://github.com/runziggurat/zcash)
 
 ### ZecDev

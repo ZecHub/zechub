@@ -202,7 +202,7 @@ Zallet ve **zecd**, ikisi de Zebra'ın önünde bulunabilir. `z_*` cüzdan yüze
 - [Zebra Tam Düğüm](Zebra_Full_Node.md) — düğümün, Zallet'nın varsayılan arka ucunu okuduğu
 - [Zakura Düğümü](Zakura_Node.md) — alternatif doğrulama yapan düğüm
 - [Zaino](Zaino.md) — dizinleyici arka ucu ve hafif istemci sunucusu
-- [ZECD](ZECD.md) — librustzcash üzerinde başka bir cüzdan-sunucu tasarımı
+- [zecd](ZECD.md) — librustzcash üzerinde başka bir cüzdan-sunucu tasarımı
 - [Zcash Cüzdan Senkronizasyonu](Zcash_Wallet_Syncing.md) — korumalı cüzdanların zinciri nasıl taradığı
 - [Görüntüleme Anahtarları](Viewing_Keys.md)
 

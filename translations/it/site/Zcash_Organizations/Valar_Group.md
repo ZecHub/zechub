@@ -21,7 +21,7 @@ L'organizzazione mira a offrire ai possessori di ZEC un modo per esprimere priva
 
 Valar Group è guidato da Dev Ojha (ValarDragon), cofondatore di Osmosis e membro del team che ha lanciato Cosmos. Nell'ultimo decennio ha lavorato su zk-SNARKs, consenso BFT e sistemi DeFi in produzione.
 
-Il lavoro pubblico del gruppo in Zcash è diventato rilevante quando l'ecosistema si è orientato verso team di protocollo indipendenti dopo la riorganizzazione dello sviluppo core del 2026. Valar Group è emerso come una delle organizzazioni che costruiscono la prossima generazione di infrastruttura Zcash insieme a Project Tachyon, Shielded Labs, ZODL e Zcash Foundation.
+Il lavoro pubblico del gruppo in Zcash è diventato rilevante quando l'ecosistema si è orientato verso team di protocollo indipendenti dopo la riorganizzazione dello sviluppo core del 2026. Valar Group è emerso come una delle organizzazioni che costruiscono la prossima generazione di infrastruttura di Zcash insieme a Project Tachyon, Shielded Labs, ZODL e Zcash Foundation.
 
 Un tema ricorrente nel suo lavoro è che le proprietà di privacy di Zcash dovrebbero estendersi oltre i pagamenti. Se ai possessori viene chiesto di votare su emissione, tempi dei blocchi o ambito degli aggiornamenti di rete, dovrebbero poterlo fare da saldi schermati senza rivelare identità, saldi o voti individuali. Questo requisito ha portato Valar Group a progettare e distribuire una chain dedicata al voto dei possessori di monete.
 
@@ -29,7 +29,7 @@ Lo stesso background in scalabilità e crittografia ha inoltre plasmato il suo l
 
 ## Visione
 
-I materiali pubblici e il lavoro sui progetti di Valar Group indicano una rete Zcash in grado di:
+I materiali pubblici e il lavoro sui progetti di Valar Group indicano una rete di Zcash in grado di:
 
 - Supportare il voto privato e verificabile dei possessori di monete come processo di governance ripetibile.
 - Scalare i pagamenti proof-of-work senza sacrificare la privacy schermata.
@@ -59,7 +59,7 @@ L'obiettivo è sostituire i precedenti processi di voto dei possessori di token 
 
 ### Software per nodi e scaling della rete
 
-Valar Group collabora con Project Tachyon su Zakura, un full node Zcash costruito a partire dalla codebase Zebra. Zakura è posizionato come nodo ad alte prestazioni per operatori che necessitano di sincronizzazione iniziale più rapida, pruning, avvio tramite snapshot e un percorso di compatibilità per gli ex utenti di `zcashd`.
+Valar Group collabora con Project Tachyon su Zakura, un full node di Zcash costruito a partire dalla codebase Zebra. Zakura è posizionato come nodo ad alte prestazioni per operatori che necessitano di sincronizzazione iniziale più rapida, pruning, avvio tramite snapshot e un percorso di compatibilità per gli ex utenti di `zcashd`.
 
 Il lavoro di scaling correlato include:
 
@@ -108,7 +108,7 @@ Le interfacce pubbliche per operatori e revisori includono:
 
 ### Zakura
 
-Zakura è un full node Zcash sviluppato in collaborazione tra Valar Group e Project Tachyon. Deriva da Zebra e aggiunge sincronizzazione più rapida, pruning nativo, avvio tramite snapshot, percorsi di compatibilità con `zcashd` e lavoro sperimentale P2P ad alte prestazioni.
+Zakura è un full node di Zcash sviluppato in collaborazione tra Valar Group e Project Tachyon. Deriva da Zebra e aggiunge sincronizzazione più rapida, pruning nativo, avvio tramite snapshot, percorsi di compatibilità con `zcashd` e lavoro sperimentale P2P ad alte prestazioni.
 
 Zcash Foundation ha accolto pubblicamente il progetto, osservando che Zebra è stato rilasciato con licenze permissive affinché team indipendenti potessero farne fork e migliorarlo, e che diversi contributori di Zakura avevano già contribuito upstream a Zebra.
 
@@ -153,7 +153,7 @@ Valar Group opera come organizzazione ingegneristica indipendente. Non fa parte 
 
 Nel design della chain di voto, Valar Group è una delle cinque organizzazioni coordinatrici. Tale ruolo è un parametro del sistema di voto, non una pretesa di controllo esclusivo sulla governance di Zcash. Altri team possono gestire validatori, creare chain di voto alternative o verificare gli scrutini pubblicati tramite gli strumenti pubblici.
 
-Ulteriori informazioni sul tipo di entità legale, sulla composizione del consiglio e sulla governance interna non sono state pubblicate con lo stesso livello di dettaglio delle organizzazioni Zcash più datate.
+Ulteriori informazioni sul tipo di entità legale, sulla composizione del consiglio e sulla governance interna non sono state pubblicate con lo stesso livello di dettaglio delle organizzazioni di Zcash più datate.
 
 ## Finanziamento
 
@@ -161,7 +161,7 @@ Dichiarazioni pubbliche sul forum della metà del 2026 descrivono Valar Group e 
 
 Questo modello di finanziamento mantiene il team indipendente dallo storico percorso Development Fund / ricompense dei blocchi, ma comporta anche minore visibilità pubblica sulle dimensioni del budget e sulle fonti di finanziamento.
 
-## Ruolo nell'ecosistema Zcash
+## Ruolo nell'ecosistema di Zcash
 
 Valar Group è una delle organizzazioni di protocollo indipendenti formatesi attorno al panorama di sviluppo di Zcash del 2026. In tale panorama:
 

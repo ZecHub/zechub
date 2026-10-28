@@ -81,7 +81,7 @@ Un contributo sottoposto a merge non approva di per sé una ricompensa. Una rico
 
 #### Lavoro di sviluppo
 
-Qualsiasi lavoro di sviluppo approvato che contribuisca a costruire l'ecosistema Zcash. Può includere la nostra wiki, nuovi portafogli o qualsiasi applicazione ti venga in mente.
+Qualsiasi lavoro di sviluppo approvato che contribuisca a costruire l'ecosistema di Zcash. Può includere la nostra wiki, nuovi portafogli o qualsiasi applicazione ti venga in mente.
 
 #### Tutorial su Zcash (video)
 
@@ -92,14 +92,14 @@ Ecco un tutorial di esempio qui sotto:
   <iframe
     className="w-full h-full"
     src="https://www.youtube.com/embed/qz4KzDjkqu8"
-    title="Tutorial sull'installazione di WSL + compilazione/transazione Zcashd"
+    title="Tutorial sull'installazione di WSL + compilazione/transazione zcashd"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowFullScreen
     loading="lazy"
   />
 </div>
 
-Crea e condividi tutorial sulle app Zcash e ottieni ricompense. Invia una PR a zechub/tutorials oppure manda il video al canale #video-content in Discord. Se il video soddisfa i nostri criteri, lo pubblicheremo e ti daremo una mancia.
+Crea e condividi tutorial sulle app di Zcash e ottieni ricompense. Invia una PR a zechub/tutorials oppure manda il video al canale #video-content in Discord. Se il video soddisfa i nostri criteri, lo pubblicheremo e ti daremo una mancia.
 
 #### Wiki ZecHub - nuova pagina wiki pubblicata
 

@@ -22,7 +22,7 @@ Oggi due software servono i portafogli leggeri. **lightwalletd** è il servizio 
 
 ### Cosa fa un server per portafoglio leggero
 
-Un server per portafoglio leggero si trova tra il tuo portafoglio e la blockchain Zcash e gli offre una visualizzazione della chain efficiente in termini di banda. Fa tre cose per te.
+Un server per portafoglio leggero si trova tra il tuo portafoglio e la blockchain di Zcash e gli offre una visualizzazione della chain efficiente in termini di banda. Fa tre cose per te.
 
 Fornisce blocchi compatti. Anziché blocchi interi, invia una forma compatta che contiene solo ciò di cui un portafoglio ha bisogno per rilevare un pagamento al proprio indirizzo schermato, rilevare una spesa delle proprie note e aggiornare i propri testimoni.
 
@@ -36,7 +36,7 @@ Il tuo portafoglio continua a svolgere localmente il lavoro privato. Conserva le
 
 Questa è la parte in cui è facile sbagliarsi. Le tue chiavi non lasciano mai il tuo dispositivo, ma ciò non significa che il server non apprenda nulla su di te.
 
-Il riferimento è il [modello di minaccia dell'app portafoglio Zcash](https://zcash.readthedocs.io/en/latest/rtd_pages/wallet_threat_model.html), che vale la pena leggere integralmente se questo tema ti interessa. Descrive diversi tipi di avversario. Quello rilevante per questa pagina è un avversario che può osservare il traffico tra il tuo portafoglio e internet, e tra il server e internet. Chiunque gestisca il server si trova intrinsecamente in parte in quella posizione, perché il tuo portafoglio si connette direttamente a lui.
+Il riferimento è il [modello di minaccia dell'app portafoglio di Zcash](https://zcash.readthedocs.io/en/latest/rtd_pages/wallet_threat_model.html), che vale la pena leggere integralmente se questo tema ti interessa. Descrive diversi tipi di avversario. Quello rilevante per questa pagina è un avversario che può osservare il traffico tra il tuo portafoglio e internet, e tra il server e internet. Chiunque gestisca il server si trova intrinsecamente in parte in quella posizione, perché il tuo portafoglio si connette direttamente a lui.
 
 Partiamo da ciò che è protetto. Contro ogni avversario nel modello, incluso uno che abbia compromesso il server, non può "apprendere alcun materiale crittografico dell'utente (chiavi di spesa, chiavi di visualizzazione, frase seed, ecc.)", non può rubare i tuoi fondi e non può farti inviare fondi che non intendevi inviare. Gli importi e i memo all'interno delle transazioni completamente schermate restano crittografati.
 
@@ -69,7 +69,7 @@ Ma il bibliotecario vede comunque quale lettore è entrato, a che ora e quanto s
 
 Tor interrompe il collegamento tra il tuo indirizzo IP e il traffico del tuo portafoglio, rimuovendo l'identificatore più forte nella tabella sopra.
 
-Il supporto esiste nelle librerie Rust su cui si basano molti portafogli Zcash. zcash_client_backend include un modulo Tor basato su [Arti](https://tpo.pages.torproject.net/core/arti/), l'implementazione Rust di Tor, quindi un portafoglio può instradare tramite Tor la sincronizzazione, la trasmissione delle transazioni e le ricerche dei prezzi senza distribuire un client Tor separato.
+Il supporto esiste nelle librerie Rust su cui si basano molti portafogli di Zcash. zcash_client_backend include un modulo Tor basato su [Arti](https://tpo.pages.torproject.net/core/arti/), l'implementazione Rust di Tor, quindi un portafoglio può instradare tramite Tor la sincronizzazione, la trasmissione delle transazioni e le ricerche dei prezzi senza distribuire un client Tor separato.
 
 Gli sviluppatori di Zaino sostengono la stessa tesi, citando direttamente il modello di minaccia: esiste "la necessità di utilizzare protocolli di trasporto anonimi (come Nym o Tor) per offuscare le identità dei client dai server di indicizzazione di Zcash".
 
@@ -79,7 +79,7 @@ Due avvertenze. Tor nasconde il tuo IP al server, ma non cambia ciò che il serv
 
 ### Zaino, l'indicizzatore Rust
 
-[Zaino](/zcash-tech/zaino) è un indicizzatore scritto in Rust dal team Zingo, realizzato per sostituire lightwalletd nell'ambito del lavoro di deprecazione di zcashd. Serve light client, client completi ed esploratori di blocchi, leggendo dati della chain detenuti da "un validatore completo Zebra o Zcashd".
+[Zaino](/zcash-tech/zaino) è un indicizzatore scritto in Rust dal team Zingo, realizzato per sostituire lightwalletd nell'ambito del lavoro di deprecazione di zcashd. Serve light client, client completi ed esploratori di blocchi, leggendo dati della chain detenuti da "un validatore completo Zebra o zcashd".
 
 È in sviluppo attivo, con la versione 0.8.0 rilasciata nell'agosto 2026. Mira a rimanere retrocompatibile con lightwalletd ove possibile, così i portafogli possono puntarvi senza dover essere riscritti.
 
@@ -119,7 +119,7 @@ In precedenza Zashi. L'icona a ingranaggio nell'angolo in alto a destra, poi Imp
 
 #### Ywallet
 
-L'icona a ingranaggio nell'angolo in alto a destra, poi la scheda Zcash.
+L'icona a ingranaggio nell'angolo in alto a destra, poi la scheda di Zcash.
 
 ![Impostazioni server Ywallet](/content-images/b0a2910b-dbdf-4292-8e69-af5a386aa183-f51f098d19.webp)
 
@@ -157,6 +157,6 @@ I portafogli leggeri ti danno accesso alla pool schermata senza richiedere spazi
 - [Cosa può vedere un esploratore di blocchi](/zcash-tech/what-a-block-explorer-can-see) — ciò che è visibile on-chain, anziché sul server.
 - [Zaino](/zcash-tech/zaino) — diagrammi dell'architettura e il ruolo più ampio dell'indicizzatore Rust.
 - [Zebra Full Node](/zcash-tech/zebra-full-node) — il validatore da cui legge un server per portafoglio leggero.
-- [Sincronizzazione del portafoglio Zcash](/zcash-tech/zcash-wallet-syncing) — come il tuo portafoglio elabora i blocchi compatti inviati da un server.
+- [Sincronizzazione del portafoglio di Zcash](/zcash-tech/zcash-wallet-syncing) — come il tuo portafoglio elabora i blocchi compatti inviati da un server.
 
 **Ultimo aggiornamento:** agosto 2026

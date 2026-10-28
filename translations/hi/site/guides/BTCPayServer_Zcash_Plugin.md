@@ -14,7 +14,7 @@ BTCPay Server ऑनलाइन व्यवसायों को बिना
 - [फंड कहाँ स्टोर होते हैं? Private Keys किसके नियंत्रण में होती हैं?](#Where-Are-Funds-Stored-Who-Controls-the-Private-Keys)
 - [Zcash स्वीकार करने के लिए BTCPay Server कैसे सेट करें](#How-to-Set-Up-BTCPay-Server-for-Accepting-Zcash)
   - [Zcash सपोर्ट के साथ BTCPay Server डिप्लॉय करना](#Deploying-BTCPay-Server-with-Zcash-Support)
-  - [अपना स्वयं का Zcash Full Node चलाना (Zebra + Lightwalletd)](#Running-Your-Own-Zcash-Full-Node)
+  - [अपना स्वयं का Zcash Full Node चलाना (Zebra + lightwalletd)](#Running-Your-Own-Zcash-Full-Node)
   - [किसी बाहरी lightwalletd Node से कनेक्ट करना (Custom Configuration)](#Connecting-to-an-External-Lightwalletd-Node)
   - [Cloudflare Tunnel के साथ घर पर BTCPay Server होस्ट करना](#Hosting-BTCPay-Server-at-Home-with-Cloudflare-Tunnel)
 - [BTCPay Server Web Interface में Zcash Plugin कॉन्फ़िगर करना](#Configuring-the-Zcash-Plugin-in-the-BTCPay-Server-Web-Interface)
@@ -326,19 +326,19 @@ btcpay-down.sh
 
 ## अपना स्वयं का Zcash Full Node चलाना
 
-यदि आप public `lightwalletd` nodes पर **निर्भर नहीं** रहना चाहते, तो आप उसी server पर अपना full Zcash node और Lightwalletd deploy कर सकते हैं।  
+यदि आप public `lightwalletd` nodes पर **निर्भर नहीं** रहना चाहते, तो आप उसी server पर अपना full Zcash node और lightwalletd deploy कर सकते हैं।  
 इससे आपको **पूर्ण स्वायत्तता** मिलती है - कोई external dependency नहीं, किसी trust की आवश्यकता नहीं।
 
 ---
 
 ### चरण 1: पर्याप्त Disk Space सुनिश्चित करें
 
-एक full Zcash node (Zebra + Lightwalletd) के लिए वर्तमान में **300+ GB** disk space चाहिए, और यह निरंतर बढ़ती रहती है।
+एक full Zcash node (Zebra + lightwalletd) के लिए वर्तमान में **300+ GB** disk space चाहिए, और यह निरंतर बढ़ती रहती है।
 
 विभाजन इस प्रकार है:
 
 - Zebra blockchain database: ~260-270 GB
-- Lightwalletd indexing: ~15-20 GB
+- lightwalletd indexing: ~15-20 GB
 
 #### अनुशंसित storage:
 
@@ -368,7 +368,7 @@ export BTCPAYGEN_ADDITIONAL_FRAGMENTS="zcash-fullnode"
 
 यह script:
 
-* Zebra और Lightwalletd के लिए Docker images डाउनलोड करेगी
+* Zebra और lightwalletd के लिए Docker images डाउनलोड करेगी
 * BTCPay stack के भीतर services सेट करेगी
 * Zcash plugin को **local** `lightwalletd` instance से link करेगी
 
@@ -376,7 +376,7 @@ export BTCPAYGEN_ADDITIONAL_FRAGMENTS="zcash-fullnode"
 > जब तक synchronization पूरी नहीं होती, shielded payments उपलब्ध नहीं होंगी।
 
 
-## किसी बाहरी Lightwalletd Node से कनेक्ट करना
+## किसी बाहरी lightwalletd Node से कनेक्ट करना
 
 अधिकांश मामलों में पूर्ण स्वायत्तता आवश्यक नहीं होती - और merchants अपना full Zcash node चलाने में समय और disk space नहीं लगाना चाहते।  
 Default रूप से BTCPay Server पूरे blockchain को डाउनलोड किए बिना shielded payments संभालने के लिए एक public `lightwalletd` node से connect करता है।
@@ -908,8 +908,8 @@ BTCPay को centralized payment providers के open-source alternative क�
 * [BTCPay के लिए Zcash Plugin (GitHub)](https://github.com/btcpay-zcash/btcpayserver-zcash-plugin)
 * [Zcash Plugin Installation Guide](https://github.com/btcpay-zcash/btcpayserver-zcash-plugin/blob/master/docs/installation.md)
 * [Custom zcash-lightwalletd.custom.yml उदाहरण](https://github.com/btcpay-zcash/btcpayserver-zcash-plugin/blob/master/docs/zcash-lightwalletd.custom.yml)
-* [Lightwalletd Docker Compose File (Zebra)](https://github.com/ZcashFoundation/zebra/blob/main/docker/docker-compose.lwd.yml)
+* [lightwalletd Docker Compose File (Zebra)](https://github.com/ZcashFoundation/zebra/blob/main/docker/docker-compose.lwd.yml)
 * [BTCPay API Key Docs (Greenfield API)](https://docs.btcpayserver.org/API/Greenfield/v1/#tag/API-Keys)
 * [Cloudflare Tunnel बनाएँ](https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/get-started/create-remote-tunnel/)
 * [Zcash Wallet Compatibility List (ZecHub)](https://zechub.wiki/wallets)
-* [Raspberry Pi 5 पर Zebra + Lightwalletd (ZecHub)](https://free2z.com/ZecHub/zpage/zcash-101-zebra-lightwalletd-sync-journal-on-raspberry-pi-5)
+* [Raspberry Pi 5 पर Zebra + lightwalletd (ZecHub)](https://free2z.com/ZecHub/zpage/zcash-101-zebra-lightwalletd-sync-journal-on-raspberry-pi-5)

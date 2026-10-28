@@ -7,7 +7,7 @@
 
 ## Ringkasan Singkat
 
-- Beli ZEC di exchange yang mendukung **penarikan terlindungi** (Gemini, BitcoinVN, Flyp.me) jika memungkinkan
+- Beli ZEC di exchange yang mendukung **penarikan terlindungi** (Gemini, BitcoinVN, flyp.me) jika memungkinkan
 - Sebagian besar exchange terpusat utama (Coinbase, Kraken, Binance) hanya mendukung **penarikan transparan** — lindungi ZEC kamu setelah menerimanya
 - Decentralized exchange memungkinkan swap non-kustodial tetapi biasanya menarik ke alamat transparan
 - Kamu **tidak** perlu membeli ZEC secara utuh — pecahan kecil pun tetap bisa digunakan
@@ -28,9 +28,9 @@ Gemini adalah exchange, dompet, dan kustodian mata uang kripto teregulasi yang m
 
 BitcoinVN adalah exchange instan non-kustodial yang mendukung deposit dan penarikan terlindungi (z-address) untuk ZEC — salah satu dari sangat sedikit exchange secara global dengan dukungan z-address penuh. Beroperasi sejak 2014, kamu dapat melakukan swap BTC, ETH, USDT, dan cryptocurrency lainnya ke ZEC langsung ke dompet terlindungi milikmu.
 
-**[Flyp.me](https://flyp.me)**
+**[flyp.me](https://flyp.me)**
 
-Flyp.me adalah exchange crypto tanpa perlu mendaftar. Ini adalah salah satu cara paling aman dan privat untuk menukar 30+ cryptocurrency langsung ke dompet kamu. Kamu dapat membeli ZEC dengan cryptocurrency lainnya.
+flyp.me adalah exchange crypto tanpa perlu mendaftar. Ini adalah salah satu cara paling aman dan privat untuk menukar 30+ cryptocurrency langsung ke dompet kamu. Kamu dapat membeli ZEC dengan cryptocurrency lainnya.
 
 ## Exchange yang mendukung penarikan transparan
 

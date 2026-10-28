@@ -79,7 +79,7 @@ Duas ressalvas. O Tor oculta o seu IP do servidor, mas não altera o que o servi
 
 ### Zaino, o indexador Rust
 
-[Zaino](/zcash-tech/zaino) é um indexador escrito em Rust pela equipa Zingo, criado para substituir o lightwalletd como parte do trabalho de descontinuação do zcashd. Serve clientes leves, clientes completos e exploradores de blocos, lendo dados da cadeia mantidos por "um validador completo Zebra ou Zcashd".
+[Zaino](/zcash-tech/zaino) é um indexador escrito em Rust pela equipa Zingo, criado para substituir o lightwalletd como parte do trabalho de descontinuação do zcashd. Serve clientes leves, clientes completos e exploradores de blocos, lendo dados da cadeia mantidos por "um validador completo Zebra ou zcashd".
 
 Está em desenvolvimento ativo, com a versão 0.8.0 lançada em agosto de 2026. O seu objetivo é manter-se compatível retroativamente com o lightwalletd sempre que possível, para que as carteiras possam apontar para ele sem serem reescritas.
 

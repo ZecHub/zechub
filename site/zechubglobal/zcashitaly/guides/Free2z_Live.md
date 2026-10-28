@@ -182,4 +182,4 @@ In conclusione, Free2z è una piattaforma versatile per i creatori che desideran
 [Free2z per i sostenitori](https://web.archive.org/web/20260118172223/https://free2z.cash/docs/category/for-supporters/)
 
 ---
-_Scritto da James Katz per Zechub._
+_Scritto da James Katz per ZecHub._

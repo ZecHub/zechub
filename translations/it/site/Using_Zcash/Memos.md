@@ -28,7 +28,7 @@ Un altro caso d'uso del memo crittografato è inviare un messaggio a qualcuno co
 
 ### Lettere d'amore sulla blockchain
 
-Una persona inviò al proprio partner una lettera d'amore in uno dei primi blocchi della blockchain Zcash. Qualcuno scoprì che il proprio partner gli aveva inviato un file tramite un memo Zcash. Questo file era un biglietto per un evento speciale all'estero, al quale lei e il suo amante lontano parlavano di partecipare insieme. Il memo era una lettera d'amore.
+Una persona inviò al proprio partner una lettera d'amore in uno dei primi blocchi della blockchain di Zcash. Qualcuno scoprì che il proprio partner gli aveva inviato un file tramite un memo di Zcash. Questo file era un biglietto per un evento speciale all'estero, al quale lei e il suo amante lontano parlavano di partecipare insieme. Il memo era una lettera d'amore.
 
 ## Visualizzazione / analogia
 

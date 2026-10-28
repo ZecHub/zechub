@@ -36,7 +36,7 @@ Curated by 'TonyAkins'([@TonyAkins01](https://twitter.com/TonyAkins01))
 
 [Zcon 세션 소개: Zcash Community를 축하하는 11명의 팟캐스트](https://twitter.com/zcash/status/1691670784542966020)
 
-[Zechub DAO 투표로 새 멤버 Jason McGee 추가](https://vote.zechub.xyz)
+[ZecHub DAO 투표로 새 멤버 Jason McGee 추가](https://vote.zechub.xyz)
 
 [#dWebCamp에서 협력하는 ZFAV와 Zcash 브라질!](https://twitter.com/ZFAVClub/status/1692289261263868271)
  ( #dWebCamp address : https://dwebcamp.org/ )

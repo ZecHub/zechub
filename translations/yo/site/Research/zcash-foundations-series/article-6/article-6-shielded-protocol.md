@@ -153,7 +153,7 @@ This is the most complete picture in the series, but still a model. We compresse
 | Àkókò ìgba | Ìtumọ̀ Gẹ̀ẹ́sì lásán |
 |---|---|
 | **Spending key** | Àṣírí gbòǹgbò kan ṣoṣo tí gbogbo àwọn kọ́kọ́rọ́ olùlò ti wá |
-| **Viewing key** | Ṣí àwọn ìṣòwò rẹ hàn fún ẹni tó ni ín láìjẹ́ kí wọ́n náwó |
+| **Viewing Key** | Ṣí àwọn ìṣòwò rẹ hàn fún ẹni tó ni ín láìjẹ́ kí wọ́n náwó |
 | **Spend description** | Apá tx kan tí ó ń gba àkọsílẹ̀ kan (ohun tí kò ní ìtumọ̀, ìdámọ̀, ẹ̀rí) |
 | **Output description** | Apá tx kan tí ó ṣẹ̀dá àkọsílẹ̀ kan (ìdúróṣinṣin, ìkọ̀wé ìkọ̀kọ̀, ẹ̀rí) |
 | **Action (Orchard)** | Ẹyọ kan ṣoṣo tí ó ń lo owó kan àti ìyọrísí kan papọ̀ |

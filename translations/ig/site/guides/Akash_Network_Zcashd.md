@@ -475,7 +475,7 @@ Onye na enye ya nwere ike inwe nsogbu netwọk ma ọ bụ nwayọ bandwidth. Nk
 
 ### Nsogbu nkwenye RPC
 
--> Lelee na *ZCASHD_RPCUSER* na * ZCASHD _ RPCPASSWORD* ka edoziri nke ọma.
+-> Lelee na `ZCASHD_RPCUSER` na * ZCASHD _ RPCPASSWORD* ka edoziri nke ọma.
 
 -> Nyochaa na ị na-eji ọdụ ụgbọ mmiri ziri ezi (8232 maka mainnet, 18232 n'ihi testnet)
 

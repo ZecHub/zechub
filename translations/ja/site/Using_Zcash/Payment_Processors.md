@@ -118,7 +118,7 @@ shielded 対応で、Unified Addresses を通じて Sapling と Orchard をカ�
 - **URL**: [Flexa](https://flexa.co/)
 <img src="/content-images/flexa-mark.png" alt="Flexa logo" width="200" hidden />
 
-Flexa はチェックアウトゲートウェイではないため、ここにある他のものの代替にはなりません。顧客は ZODL などの Flexa 対応ウォレットを開き、ワンタイムコードを表示し、店舗がそれをスキャンします。ZEC 請求書も e コマース用プラグインもありません。
+Flexa はチェックアウトゲートウェイではないため、ここにある他のものの代替にはなりません。顧客は Zodl などの Flexa 対応ウォレットを開き、ワンタイムコードを表示し、店舗がそれをスキャンします。ZEC 請求書も e コマース用プラグインもありません。
 
 顧客は支払う瞬間まで自分のコインを管理し続けます。加盟店であるあなたが ZEC を受け取ることはありません。Flexa はあなたに選んだ通貨で精算するので、暗号資産側は Flexa が処理します。
 

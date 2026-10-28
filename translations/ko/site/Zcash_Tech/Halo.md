@@ -96,7 +96,7 @@ Electric Coin Company는 Protocol Labs, Filecoin Foundation 및 Ethereum Foundat
 
 - [Anoma](https://anoma.net/blog/hash-functions-in-plonkup) — 프라이버시를 보존하는 멀티체인 원자적 스왑 프로토콜
 - [Orbis](https://docs.orbisprotocol.com/orbis/technology/halo-2) — Cardano 기반 L2 zkRollup
-- [Darkfi](https://dark.fi/book/arch/arch.html) — 프라이빗 L1 zkEVM 블록체인
+- [DarkFi](https://dark.fi/book/arch/arch.html) — 프라이빗 L1 zkEVM 블록체인
 - [Scroll](https://scroll.mirror.xyz/nDAbJbSIJdQIWqp9kn8J0MVS4s6pYBwHmK7keidQs-k) — Ethereum 기반 L2 zkRollup
 
 ---

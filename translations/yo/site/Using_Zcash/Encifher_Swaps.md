@@ -4,12 +4,12 @@
 ![img1](/content-images/Bkbg5alCll-7a02545c00.webp)
 
 
-*Paarẹ lati Solana si Zcash, pẹlu igbesẹ onigun-ẹwọn ti a gbe nipasẹ Near Intents.* 
+*Paarẹ lati Solana si Zcash, pẹlu igbesẹ onigun-ẹwọn ti a gbe nipasẹ NEAR Intents.* 
 
 ---
 
 ###  Ifihan 
-[**ṣe ìpamọ́.ìṣòwò**](https://encrypt.trade/zec) jẹ́ àpù Solana tí JMD Labs Inc ń ṣiṣẹ́. Ó jẹ́ kí o pààrọ̀ **SOL tàbí USDC** lórí Solana sí **Zcash (ZEC)**. A kọ́kọ́ fi àwọn àmì rẹ wé àwọn ẹ̀yà ìkọ̀kọ̀ kí a lè fi iye owó náà pamọ́ lórí Solana, lẹ́yìn náà a ó yípadà sí ZEC nípasẹ̀ Near Intents.
+[**ṣe ìpamọ́.ìṣòwò**](https://encrypt.trade/zec) jẹ́ àpù Solana tí JMD Labs Inc ń ṣiṣẹ́. Ó jẹ́ kí o pààrọ̀ **SOL tàbí USDC** lórí Solana sí **Zcash (ZEC)**. A kọ́kọ́ fi àwọn àmì rẹ wé àwọn ẹ̀yà ìkọ̀kọ̀ kí a lè fi iye owó náà pamọ́ lórí Solana, lẹ́yìn náà a ó yípadà sí ZEC nípasẹ̀ NEAR Intents.
 
 Pípàṣípààrọ̀ náà jẹ́ àdáni ní ọ̀nà kan ṣùgbọ́n kìí ṣe gbogbo rẹ̀. Ohun èlò náà ti ara rẹ̀ [àwọn ìwé](https://docs.encifher.io/docs) Sọ pé ìbáṣepọ̀ rẹ pẹ̀lú ẹ̀wọ̀n náà kì í ṣe orúkọ ẹni tí a kò mọ̀: àwọn ènìyàn lè rí i pé àpò owó rẹ lo àpù náà, ṣùgbọ́n kì í ṣe iye tí o kó lọ. ZEC náà tún dé ibi tí ó ṣe kedere, nítorí náà ó máa hàn lórí ẹ̀wọ̀n Zcash títí tí o fi dáàbò bò ó.
 
@@ -21,9 +21,9 @@ Pípàṣípààrọ̀ náà jẹ́ àdáni ní ọ̀nà kan ṣùgbọ́n kìí
 ###  Ohun ti o yẹ ki o mọ ṣaaju ki o to yi pada 
 - **Ẹgbẹ́ Solana.** Wíwọlé máa ń fi iye owó pamọ́, ṣùgbọ́n àdírẹ́sì àpò owó rẹ àti lílo àpù náà jẹ́ ti gbogbo ènìyàn. Ó jẹ́ [àwọn ìṣe tó dára jùlọ](https://docs.encifher.io/docs/best-practices) kilo pe ìdìpọ̀, pàṣípààrọ̀ àti ṣíṣí sílẹ̀ tí ó rọrùn mú kí ìṣòwò rẹ lè sopọ̀ mọ́ra.
 - **Ìfipamọ́.** A máa ń ṣe àtúnṣe àwọn ìwọ̀n ìpamọ́ láìsí ẹ̀wọ̀n nínú ẹ̀rọ ìpamọ́ ohun èlò (TEE) [iwe](https://eprint.iacr.org/2026/1504) sọ pé èyí sinmi lórí ìwà rere TEE, ìṣàkóso kókó ìpele òtítọ́ àti gbòǹgbò ẹ̀rí ìkùukùu, kìí ṣe lórí ìkọ̀kọ̀ nìkan.
-- **Ìgbésẹ̀ onípele-àjọ.** A máa ń yí ìyípadà sí ZEC padà nípasẹ̀ Near Intents, níbi tí àwọn olùdásílẹ̀ aláìdádúró ti kún àṣẹ náà.
-- **Zcash.** Near Intents ṣe àkójọ ZEC gẹ́gẹ́ bí a ti ṣe àtìlẹ́yìn fún [awọn adirẹsi ti o han gbangba nikan](https://docs.near-intents.org/resources/chain-support), àti pápá ZEC lórí encrypt.trade gba àwọn àdírẹ́sì tí ó hàn gbangba (t1 tàbí t3) nìkan nígbà tí a ṣàyẹ̀wò ìtọ́sọ́nà yìí ní oṣù kẹsàn-án ọdún 2026. Àdírẹ́sì tí ó hàn gbangba fi ìwọ̀n rẹ̀ àti àwọn ìgbesẹ̀ tí ń bọ̀ hàn ní gbangba títí tí o fi dáàbò bò ó.
-- **Ṣíṣàyẹ̀wò.** Àpù náà ń ṣàyẹ̀wò bí àwọn àpò ìpamọ́ ṣe so pọ̀ mọ́ àwọn ibi ìpamọ́ dátà bíi TRM àti Chainalysis, àti àwọn rẹ̀ [ojú ìwé ìbámu](https://docs.encifher.io/docs/compliance) sọ pé a lè ṣe àtúnyẹ̀wò àwọn àkọsílẹ̀ tí a fi àmì sí tí ó bá jẹ́ pé ìdí òfin ló tọ́. Near Intents ń ṣiṣẹ́ tirẹ̀ [ibojuwo](https://docs.near-intents.org/security-compliance/risk-and-compliance) pẹ̀lú.
+- **Ìgbésẹ̀ onípele-àjọ.** A máa ń yí ìyípadà sí ZEC padà nípasẹ̀ NEAR Intents, níbi tí àwọn olùdásílẹ̀ aláìdádúró ti kún àṣẹ náà.
+- **Zcash.** NEAR Intents ṣe àkójọ ZEC gẹ́gẹ́ bí a ti ṣe àtìlẹ́yìn fún [awọn adirẹsi ti o han gbangba nikan](https://docs.near-intents.org/resources/chain-support), àti pápá ZEC lórí encrypt.trade gba àwọn àdírẹ́sì tí ó hàn gbangba (t1 tàbí t3) nìkan nígbà tí a ṣàyẹ̀wò ìtọ́sọ́nà yìí ní oṣù kẹsàn-án ọdún 2026. Àdírẹ́sì tí ó hàn gbangba fi ìwọ̀n rẹ̀ àti àwọn ìgbesẹ̀ tí ń bọ̀ hàn ní gbangba títí tí o fi dáàbò bò ó.
+- **Ṣíṣàyẹ̀wò.** Àpù náà ń ṣàyẹ̀wò bí àwọn àpò ìpamọ́ ṣe so pọ̀ mọ́ àwọn ibi ìpamọ́ dátà bíi TRM àti Chainalysis, àti àwọn rẹ̀ [ojú ìwé ìbámu](https://docs.encifher.io/docs/compliance) sọ pé a lè ṣe àtúnyẹ̀wò àwọn àkọsílẹ̀ tí a fi àmì sí tí ó bá jẹ́ pé ìdí òfin ló tọ́. NEAR Intents ń ṣiṣẹ́ tirẹ̀ [ibojuwo](https://docs.near-intents.org/security-compliance/risk-and-compliance) pẹ̀lú.
 
 ---
 
@@ -83,7 +83,7 @@ Pada lori **encrypt.trade**, lọ si **Swap**. Yan **eSOL/eUSDC -> ZEC**, lẹ�
 ![img9](/content-images/S1yoapgRle-6d2031a62c.webp)
 
 
-**Near Intents** n ṣakoso ipa ọna asopọ̀ onípele-ẹ̀wọ̀n ó sì n fi **ZEC** ranṣẹ si apamọwọ ZODL rẹ. O le gba iṣẹju diẹ. Near Intents daba pe ki o gba to iṣẹju 15 fun awọn iyipada onipele-ẹ̀wọ̀n. 
+**NEAR Intents** n ṣakoso ipa ọna asopọ̀ onípele-ẹ̀wọ̀n ó sì n fi **ZEC** ranṣẹ si apamọwọ ZODL rẹ. O le gba iṣẹju diẹ. NEAR Intents daba pe ki o gba to iṣẹju 15 fun awọn iyipada onipele-ẹ̀wọ̀n. 
 
 
 
@@ -104,4 +104,4 @@ Nígbà tí ZEC bá dé, lo àṣàyàn **Shield** ZODL's láti gbé e sínú [a
 
 ---
 
-Nípa sísopọ̀ **Solana**, **Zcash** àti **Near Intents** pọ̀, **encrypt.trade** fún ọ ní ọ̀nà kíákíá láti SOL tàbí USDC sí ZEC. Ó ń fi owó pamọ́ lórí Solana ṣùgbọ́n kì í ṣe ìkọ̀kọ̀, nítorí náà dáàbò bo ZEC rẹ nígbà tí ó bá dé.
+Nípa sísopọ̀ **Solana**, **Zcash** àti **NEAR Intents** pọ̀, **encrypt.trade** fún ọ ní ọ̀nà kíákíá láti SOL tàbí USDC sí ZEC. Ó ń fi owó pamọ́ lórí Solana ṣùgbọ́n kì í ṣe ìkọ̀kọ̀, nítorí náà dáàbò bo ZEC rẹ nígbà tí ó bá dé.

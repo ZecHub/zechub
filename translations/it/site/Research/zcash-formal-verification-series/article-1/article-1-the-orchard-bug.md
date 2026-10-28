@@ -5,7 +5,7 @@
 
 > **Serie:** *Serie sulla verifica formale* · **Parte 2 di 3**
 > **Pubblico:** principianti. La Parte 1 ha introdotto la verifica formale; qui incontriamo il vero bug che l'ha resa urgente. Tutto il necessario viene spiegato da zero.
-> **Cosa vi rimarrà:** un quadro intuitivo ma accurato di come un sistema crittografico di prove possa contenere una falla di soundness, di cosa fosse esattamente il bug "Orchard" di Zcash, perché questa classe di bug possa restare nascosta per anni e perché sia già accaduto in passato.
+> **Cosa vi rimarrà:** un quadro intuitivo ma accurato di come un sistema crittografico di prove possa contenere una falla di soundness, di cosa fosse esattamente il bug "Orchard" di Zcash del 2026, perché questa classe di bug possa restare nascosta per anni e perché sia già accaduto in passato.
 
 Nella Parte 1 abbiamo detto che i test possono mostrare la presenza di bug, ma mai la loro assenza, e che i bug più pericolosi risiedono nella *specifica* di un sistema, nella sua matematica sottostante. Questo articolo è uno studio di caso. Nel 2026 è stata trovata una falla nella pool schermata Orchard di Zcash che avrebbe potuto consentire a un attaccante di creare una quantità illimitata di denaro contraffatto in modo invisibile. Era sopravvissuta per quattro anni e ad audit ripetuti. Comprenderla, insieme ai suoi predecessori, è la motivazione più chiara possibile per dimostrare la correttezza dei sistemi.
 

@@ -202,7 +202,7 @@ Zallet과 **zecd**는 모두 Zebra 앞단에서 동작할 수 있습니다. `z_*
 - [Zebra Full Node](Zebra_Full_Node.md) — Zallet의 기본 백엔드가 읽는 노드
 - [Zakura Node](Zakura_Node.md) — 대체 검증 노드
 - [Zaino](Zaino.md) — 인덱서 백엔드 및 라이트 클라이언트 서버
-- [ZECD](ZECD.md) — librustzcash의 또 다른 지갑 서버 디자인
+- [zecd](ZECD.md) — librustzcash의 또 다른 지갑 서버 디자인
 - [Zcash Wallet Syncing](Zcash_Wallet_Syncing.md) — shielded 지갑이 체인을 스캔하는 방법
 - [Viewing Keys](Viewing_Keys.md)
 

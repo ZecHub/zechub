@@ -153,7 +153,7 @@ Bu, serideki en eksiksiz resimdir, ama yine de bir modeldir. Bir note'un tam ala
 | Terim | Düz anlamı |
 |---|---|
 | **Spending key** | Bir kullanıcının tüm anahtarlarının türediği tek kök sır |
-| **Viewing key** | Birine harcama yetkisi vermeden işlemlerinizi gösterir |
+| **Viewing Key** | Birine harcama yetkisi vermeden işlemlerinizi gösterir |
 | **Spend description** | Bir `tx` içinde bir note'u tüketen bölüm (nullifier, anchor, ispat) |
 | **Output description** | Bir `tx` içinde bir note oluşturan bölüm (commitment, ciphertext, ispat) |
 | **Action (Orchard)** | Bir harcama ve bir çıkışı birlikte yapan birleşik birim |

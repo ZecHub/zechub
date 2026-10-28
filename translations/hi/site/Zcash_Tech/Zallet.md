@@ -202,7 +202,7 @@ Zallet और **zecd**, दोनों Zebra के सामने बैठ �
 - [Zebra Full Node](Zebra_Full_Node.md) — वह नोड जिसे Zallet का default backend पढ़ता है
 - [Zakura Node](Zakura_Node.md) — वैकल्पिक सत्यापित करने वाला नोड
 - [Zaino](Zaino.md) — indexer backend और light-client server
-- [ZECD](ZECD.md) — librustzcash पर आधारित एक अन्य wallet-server डिज़ाइन
+- [zecd](ZECD.md) — librustzcash पर आधारित एक अन्य wallet-server डिज़ाइन
 - [Zcash Wallet Syncing](Zcash_Wallet_Syncing.md) — shielded wallets chain को कैसे स्कैन करते हैं
 - [Viewing Keys](Viewing_Keys.md)
 

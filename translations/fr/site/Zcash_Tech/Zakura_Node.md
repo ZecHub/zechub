@@ -4,8 +4,6 @@
 
 # Nœud Zakura
 
-> 🇧🇷 [Version en portugais](/pt/zcash-tech/zakura-node)
-
 Zakura est une implémentation de nœud complet gratuite et open source pour Zcash, conçue pour passer à l’échelle. Forkée depuis [Zebra](Zebra_Full_Node.md) et développée grâce à une collaboration entre **Valar Group** et **Project Tachyon**, Zakura offre une synchronisation considérablement plus rapide, un élagage natif des blocs et une couche de compatibilité pour les outils historiques de `zcashd`. La version 1.0.0 est sortie le 15 juillet 2026.
 
 ---

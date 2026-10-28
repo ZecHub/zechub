@@ -4,8 +4,6 @@
 
 # Zakura Düğümü
 
-> 🇧🇷 [Portekizce Sürüm](/pt/zcash-tech/zakura-node)
-
 Zakura, ölçeklenebilirlik için geliştirilmiş, Zcash için ücretsiz ve açık kaynaklı bir tam düğüm uygulamasıdır. [Zebra](Zebra_Full_Node.md)'dan çatallanmış ve **Valar Group** ile **Project Tachyon** iş birliğiyle geliştirilmiş olan Zakura, önemli ölçüde daha hızlı senkronizasyon, yerel blok budama ve eski `zcashd` araçları için bir uyumluluk katmanı sunar. 1.0.0 sürümü 15 Temmuz 2026'da yayınlandı.
 
 ---

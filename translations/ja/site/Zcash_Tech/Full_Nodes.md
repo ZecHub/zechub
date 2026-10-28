@@ -102,7 +102,7 @@ DNSシーダーは、組み込みサーバーを通じて、信頼できる他�
 
 [Zcash ブロックエクスプローラー](https://mainnet.zcashexplorer.app)
 
-[Coinmetrics](https://docs.coinmetrics.io/info/assets/zec)
+[Coin Metrics](https://docs.coinmetrics.io/info/assets/zec)
 
 テストの実行、新しい改善提案、メトリクスの提供を通じて、ネットワークの開発に貢献することもできます。
 

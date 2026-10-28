@@ -28,7 +28,7 @@ DeFiおよびDAppsのサポート：Zcash保有者は、プライバシーを損
 **Zcash Avalanche上のElastic Subnet Bridge**：[助成金提案](https://zcashgrants.org/gallery/25215916-53ea-4041-a3b2-6d00c487917d/36243580/)
 以下は、Zcash Avalanche RedBridgeプロジェクトで完了した主な成果物と技術リソースです。
 
-成果物1.1：CLIを使用して、テストネットAvalancheサブネットからテストネットZcashトランザクションを照会できる予備PoC。Githubで公開され、Avalancheテストネット上に1ノードのサブネットを備えています。https://github.com/red-dev-inc/zavax-oracle
+成果物1.1：CLIを使用して、テストネットAvalancheサブネットからテストネットZcashトランザクションを照会できる予備PoC。GitHubで公開され、Avalancheテストネット上に1ノードのサブネットを備えています。https://github.com/red-dev-inc/zavax-oracle
 
 成果物2.1：[アーキテクチャ](https://github.com/red-dev-inc/zavax-bridge/tree/main/Architecture)
 
@@ -49,9 +49,9 @@ DeFiおよびDAppsのサポート：Zcash保有者は、プライバシーを損
 
 マイルストーン6：2024年6月30日
 成果物6.1：ソフトウェア監査の合格
-成果物6.2：監査済みソースコードを公開Githubリポジトリへ公開
+成果物6.2：監査済みソースコードを公開GitHubリポジトリへ公開
 
-[Githubリポジトリ](https://github.com/red-dev-inc/zavax-bridge/tree/main/Architecture)をご覧ください。
+[GitHubリポジトリ](https://github.com/red-dev-inc/zavax-bridge/tree/main/Architecture)をご覧ください。
   
 より技術的な詳細については、RedBridgeプロジェクトのリポジトリおよびドキュメントを確認し、統合の詳細、テストフレームワーク、セキュリティプロトコルを[確認](https://zcashgrants.org/gallery/25215916-53ea-4041-a3b2-6d00c487917d/36243580/)することをお勧めします。
 
@@ -62,7 +62,7 @@ DeFiおよびDAppsのサポート：Zcash保有者は、プライバシーを損
 * 成果物： 
 2025年第1四半期に、チームは[red·bridgeデモウェブサイト](https://redbridge-demo.red.dev/index.html)の公開を発表しました。誰でもユーザー体験を試し、フィードバックを提供し、改善案を提案できます。また、技術者ではない人々にプロジェクトを紹介する簡単な方法としても機能します。
 
-* チームはred·bridgeの最終バージョンにZebraを使用しました。テストのため、AvalancheのFujiテストネット上で稼働するテストブロックチェーン、ZavaX Oracleの3つのノードのうち2つをアップグレードしました。最後のノードも正常にアップグレードされ、現在[Zavax Oracle](https://web.archive.org/web/20260823181644/https://zavax-oracle.red.dev/)はZebra上で稼働しています！
+* チームはred·bridgeの最終バージョンにZebraを使用しました。テストのため、AvalancheのFujiテストネット上で稼働するテストブロックチェーン、ZavaX Oracleの3つのノードのうち2つをアップグレードしました。最後のノードも正常にアップグレードされ、現在[ZavaX Oracle](https://web.archive.org/web/20260823181644/https://zavax-oracle.red.dev/)はZebra上で稼働しています！
 
 * 2025年第1四半期に、red.bridgeウェブサイトは、当初の赤のみのバージョンとは対照的に、赤、ダーク、ライト、Zebraの4つのビューを提供するようコーディングされました。
 

@@ -3,7 +3,7 @@
 </a>
 
 # <img src="/content-images/image-2024-02-03-164918723-f59419848a.webp" alt="Alt Text" width="50"/>    Electric Coin Company (Sunset)
-[Ebe nrụọrụ weebụ](https://electriccoin.co) - [Github] Ọ bụ ihe na-atọ ụtọ.](https://github.com/zodl-inc) - [X/Twitter] (Na-ekwu okwu)](https://x.com/ElectricCoinCo)
+[Ebe nrụọrụ weebụ](https://electriccoin.co) - [GitHub] Ọ bụ ihe na-atọ ụtọ.](https://github.com/zodl-inc) - [X/Twitter] (Na-ekwu okwu)](https://x.com/ElectricCoinCo)
 
 > **Banyere njikọ GitHub ahụ.** Ebe nchekwa ECC dị na `zodl-inc`Nke ahụ bụ otu nzukọ, a gbanwere aha ya mgbe ndị otu kwagara [ZODL](/zcash-organizations/zodl). Ihe ochie ahụ `github.com/Electric-Coin-Company` aha onye na-enweghị njikọ debara ya n'ọnwa Mee 2026 ma enweghị ihe jikọrọ ya na ECC ma ọ bụ ZODL, yabụ atụkwala obi koodu e bipụtara ebe ahụ.
 

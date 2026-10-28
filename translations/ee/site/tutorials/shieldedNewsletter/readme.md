@@ -4,7 +4,7 @@
 ## Ɖo anyi
 
  * Zebrad node si le dɔ wɔm eye wòwɔ ɖeka kple RPC ƒe dɔwɔwɔ bliboe eye woɖoe be wòazã cookies
- * Zainod wɔ ɖeka bliboe
+ * zainod wɔ ɖeka bliboe
  * Zallet ɖoɖo be woawɔ RPC ƒe
 
 

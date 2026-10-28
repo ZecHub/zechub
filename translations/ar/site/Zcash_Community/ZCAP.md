@@ -17,7 +17,7 @@
 
 [مقاومة ASIC](https://github.com/ZcashFoundation/Elections/blob/master/2018-Q2/General-Measures/asicresistance_ballot.md): كان هذا التصويت يدور حول ما إذا كان ينبغي لـ Zcash Foundation إعطاء الأولوية لمقاومة ASIC باعتبارها قيمة وهدفًا لشبكة Zcash
 
-[انتخاب لجنة منح مجتمع Zcash](https://zfnd.org/zcg-election-june-2023/): كان هذا التصويت يدور حول اختيار عضوين في لجنة منح مجتمع Zcash (ZCG)، وهي اللجنة المسؤولة عن مراجعة مقترحات المنح وتمويلها للمشاريع المرتبطة بـ Zcash
+[انتخاب لجنة Zcash Community Grants](https://zfnd.org/zcg-election-june-2023/): كان هذا التصويت يدور حول اختيار عضوين في لجنة Zcash Community Grants (ZCG)، وهي اللجنة المسؤولة عن مراجعة مقترحات المنح وتمويلها للمشاريع المرتبطة بـ Zcash
 
 [برنامج المنح الصغيرة لـ Zcash](https://zfnd.org/launching-the-zcash-minor-grants-program/): كان هذا التصويت يدور حول الموافقة على طلبات المنح أو رفضها للمشاريع الصغيرة المتعلقة بـ Zcash التي تقدمت بطلب تمويل من Zcash Foundation
 

@@ -2,11 +2,11 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Kutumikia Github Repo na IPFS 
+# Kutumikia GitHub Repo na IPFS 
 
 ## Utangulizi
 
-Katika mwongozo huu sisi kujifunza jinsi ya kujenga git cloneable URL kwa Github yako hazina kutumika kwa kutumia IPFS CID. Hii ni muhimu ili kuhakikisha maudhui upatikanaji bila kujali mkoa wa kijiografia, upinzani udhibiti na kama chelezo perisistent ya habari yenye thamani!
+Katika mwongozo huu sisi kujifunza jinsi ya kujenga git cloneable URL kwa GitHub yako hazina kutumika kwa kutumia IPFS CID. Hii ni muhimu ili kuhakikisha maudhui upatikanaji bila kujali mkoa wa kijiografia, upinzani udhibiti na kama chelezo perisistent ya habari yenye thamani!
 
 Kumbuka: Data uploaded kwa IPFS inapatikana kwa * wote * watumiaji wa mtandao. Unaweza kutaka kienyeji encrypt data binafsi / nyeti.
 

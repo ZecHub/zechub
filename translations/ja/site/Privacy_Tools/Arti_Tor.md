@@ -38,7 +38,7 @@
 これにより、システム上に最新の安定版Rustがインストールされていることが確認できます。
 
 #### **Windowsユーザー向けの注意事項**:
-- Windowsでは[**Rustup**](https://rustup.rs/)を使用してRustをインストールできます。これはツールチェーンインストーラーです。また、互換性のあるビルド環境（Windowsでは**Visual Studio Build Tools**が必要）も設定してください。
+- Windowsでは[**rustup**](https://rustup.rs/)を使用してRustをインストールできます。これはツールチェーンインストーラーです。また、互換性のあるビルド環境（Windowsでは**Visual Studio Build Tools**が必要）も設定してください。
 
 ---
 

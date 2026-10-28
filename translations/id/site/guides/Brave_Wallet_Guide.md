@@ -1,6 +1,6 @@
-# Cara Mengirim dan Menerima Zcash Terlindungi (ZEC) dengan Dompet Brave: Panduan Privasi Langkah demi Langkah
+# Cara Mengirim dan Menerima Zcash Terlindungi (ZEC) dengan Brave Wallet: Panduan Privasi Langkah demi Langkah
 
-Dompet Brave adalah dompet kripto asli yang aman dan dibangun langsung ke dalam browser Brave - tidak memerlukan ekstensi.
+Brave Wallet adalah dompet kripto asli yang aman dan dibangun langsung ke dalam browser Brave - tidak memerlukan ekstensi.
 
 
 ## Mengapa Dukungan ZEC Terlindungi Itu Penting
@@ -8,7 +8,7 @@ Dompet Brave adalah dompet kripto asli yang aman dan dibangun langsung ke dalam 
 
 Zcash adalah salah satu dari sedikit cryptocurrency yang menawarkan privasi secara default dengan transaksi terlindungi.
 
-Dompet Brave kini mendukung ZEC terlindungi Orchard, memungkinkan transaksi pribadi tanpa perangkat lunak pihak ketiga.
+Brave Wallet kini mendukung ZEC terlindungi Orchard, memungkinkan transaksi pribadi tanpa perangkat lunak pihak ketiga.
 
 Pengguna kini dapat mengirim/menerima ZEC tanpa mengungkap saldo atau metadata - semua dilakukan di dalam browser Brave.
 
@@ -27,7 +27,7 @@ Pengguna kini dapat mengirim/menerima ZEC tanpa mengungkap saldo atau metadata -
 </div >
 
 
-## Bagian 1: Menyiapkan Dompet Brave
+## Bagian 1: Menyiapkan Brave Wallet
 
 **Langkah-langkah yang dibahas:**
 
@@ -43,7 +43,7 @@ Pengguna kini dapat mengirim/menerima ZEC tanpa mengungkap saldo atau metadata -
 ![img1](/content-images/f54cd1a1-8569-4925-ba1c-7597d030593e-8d83734cd5.webp)
 
 
-## Bagian 2: Menambahkan Zcash (ZEC) ke Dompet Brave
+## Bagian 2: Menambahkan Zcash (ZEC) ke Brave Wallet
 
 **Langkah-langkah yang dibahas:**
 
@@ -115,7 +115,7 @@ Berikut adalah penjelasan untuk setiap tipe alamat Zcash:
   <iframe
     className="w-full h-full"
     src="https://www.youtube.com/embed/AmTMa5HXa2w"
-    title="Tutorial Dompet Brave: Defi dengan Near Intents dan Zcash Terlindungi"
+    title="Tutorial Brave Wallet: Defi dengan Near Intents dan Zcash Terlindungi"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowFullScreen
     loading="lazy"
@@ -125,11 +125,11 @@ Berikut adalah penjelasan untuk setiap tipe alamat Zcash:
 
 ## Kesimpulan: Privasi yang Dibuat Praktis
 
-Dengan Dompet Brave dan ZEC terlindungi, privasi kini dapat diakses oleh siapa saja - tidak perlu perangkat lunak khusus atau pengetahuan tingkat lanjut.
+Dengan Brave Wallet dan ZEC terlindungi, privasi kini dapat diakses oleh siapa saja - tidak perlu perangkat lunak khusus atau pengetahuan tingkat lanjut.
 
 Ideal untuk jurnalis, aktivis, atau individu yang peduli dengan privasi.
 
 Coba transaksi terlindungi pertamamu hari ini di dalam Brave!
 
 
-**Tetaplah privat. Tetaplah bebas. Kirim ZEC secara privat dengan Dompet Brave.**
+**Tetaplah privat. Tetaplah bebas. Kirim ZEC secara privat dengan Brave Wallet.**

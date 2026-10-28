@@ -78,6 +78,8 @@ Explorer यह भी देख सकता है कि funds पारद�
 
 - [ZecBlock](https://zecblock.com/)
 
+- [SoChain](https://sochain.com/zec) ([टेस्टनेट](https://sochain.com/zectest))
+
 ### दृश्य मार्गदर्शिका
 
 यहाँ अलग-अलग blockchain explorer के चार अच्छे उदाहरण हैं:

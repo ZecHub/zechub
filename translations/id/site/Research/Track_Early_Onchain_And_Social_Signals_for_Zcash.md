@@ -15,33 +15,33 @@ Tren masa lalu dari ZEC juga dipantau dan dibandingkan dengan koin privasi lainn
 Teknologi blockchain bekerja dengan cara yang inovatif dan operasi dalam mata uang kripto memberikan pengalaman yang cukup berkesan. Mulai dari bagaimana transaksi terjadi hingga bagaimana hal tersebut menyebabkan perubahan signifikan dalam perilaku dan sentimen pasar, dinamika pasar yang menarik dapat dipelajari; keuntungan dan kerugian menjadi pengalaman langsung bagi penggunanya. 
 
 Metrik aktivitas on-chain awal merupakan salah satu aktivitas paling awal dan metrik kuat yang mengungkapkan arah dan pergerakan pasar serta aktivitas investor dan kemungkinan perubahan yang akan terjadi dalam waktu dekat di dunia crypto. Terlebih lagi, jika terdeteksi tepat waktu, sinyal-sinyal ini dapat membantu investor meraih keuntungan, terutama ketika dikombinasikan dengan faktor off-chain seperti analisis sentimen media sosial. 
-Berdasarkan Messari ZEC Dashboard, CoinMetrics, dan Blockchair, analisis aktivitas jaringan ZEC memberikan wawasan yang dapat ditindaklanjuti mengenai apakah pergerakan whale besar sesuai dengan lonjakan aktivitas sosial seperti volume tweet dan minat online yang lebih luas. Secara khusus, grafik Messari mengungkapkan lonjakan yang jelas dalam volume transaksi on-chain harian dan inflow exchange selama periode 1 hingga 22 Juli 2025, yang mencapai puncaknya sekitar 22 Juli; bertepatan dengan meningkatnya percakapan sosial dan pergerakan harga.
+Berdasarkan Messari ZEC Dashboard, Coin Metrics, dan Blockchair, analisis aktivitas jaringan ZEC memberikan wawasan yang dapat ditindaklanjuti mengenai apakah pergerakan whale besar sesuai dengan lonjakan aktivitas sosial seperti volume tweet dan minat online yang lebih luas. Secara khusus, grafik Messari mengungkapkan lonjakan yang jelas dalam volume transaksi on-chain harian dan inflow exchange selama periode 1 hingga 22 Juli 2025, yang mencapai puncaknya sekitar 22 Juli; bertepatan dengan meningkatnya percakapan sosial dan pergerakan harga.
 Data Blockchair menunjukkan bahwa pangsa ZEC yang disimpan dalam alamat terlindungi meningkat dari sekitar 18 % menjadi 20 % selama periode yang sama, yang mengindikasikan semakin meningkatnya penggunaan transaksi yang menjaga privasi. (Lihat Gambar 1)
 
 # Gambar 1. Pangsa ZEC yang disimpan dalam Alamat Terlindungi - Juli 2025
 (Sumber: Blockchair (2025). Persentase suplai terlindungi untuk 1-22 Juli 2025.)
 
-Selain itu, seri jaringan publik CoinMetrics mengonfirmasi bahwa metrik alamat aktif harian dan suplai terlindungi keduanya menunjukkan tren meningkat pada pertengahan Juli, yang memungkinkan perbandingan kuantitatif antara perilaku on-chain dan indikator sosial. (Lihat Gambar 2)
+Selain itu, seri jaringan publik Coin Metrics mengonfirmasi bahwa metrik alamat aktif harian dan suplai terlindungi keduanya menunjukkan tren meningkat pada pertengahan Juli, yang memungkinkan perbandingan kuantitatif antara perilaku on-chain dan indikator sosial. (Lihat Gambar 2)
 
 
 # Gambar 2. Zcash Alamat Aktif Harian dan Pasokan Terlindungi - Pertengahan Juli 2025
-(Sumber: CoinMetrics (2025). Alamat aktif harian untuk 1-22 Juli 2025.)
+(Sumber: Coin Metrics (2025). Alamat aktif harian untuk 1-22 Juli 2025.)
 
 Semua data ini menunjukkan pergerakan koin, adopsi privasi, dan keterlibatan pengguna; lonjakan volume on-chain yang besar dan aliran masuk ke exchange menunjukkan bahwa whale sedang aktif, kemungkinan memindahkan dana atau bersiap untuk dampak pasar; peningkatan supply terlindungi menunjukkan preferensi berkelanjutan terhadap transaksi yang ditingkatkan privasinya, bahkan selama periode perhatian yang meningkat, dan kenaikan jumlah alamat aktif menunjukkan bahwa penggunaan jaringan sedang berkembang seiring dengan pergerakan whale dan permintaan privasi ini. (Lihat Gambar 3)
 
 
 # Gambar 3. Pangsa ZEC yang disimpan dalam Alamat Terlindungi - Juli 2025
-(Sumber: Zechub (2025). Grafik dashboard Zechub untuk 2016- 2025)
+(Sumber: ZecHub (2025). Grafik dashboard ZecHub untuk 2016- 2025)
 
 ### Zcash sebagai koin privasi
 
 Zcash adalah salah satu cryptocurrency yang dikembangkan dengan mengutamakan privasi pengguna yang menggunakan zero-knowledge proofs (zk-SNARKs) dan diturunkan dari kode Bitcoin sebagai sebuah fork; pengguna kini dapat melakukan transaksi transparan maupun transaksi terlindungi. Meskipun tujuannya adalah untuk membantu melindungi privasi pengguna, memiliki privasi yang terlalu tinggi membuatnya lebih sulit untuk memantau sinyal yang dapat membuat perdagangan dan investasi menjadi jauh lebih mudah. Namun, hal tersebut bukan tidak mungkin.  
 
-Berbeda dengan Monero dan DASH, yang sering dikelompokkan sebagai “privacy coins,” DASH telah secara resmi menjauh dari klasifikasi privacy coin menyusul perubahan fitur dan evolusi definisi regulasi (CoinTelegraph, 2024). ZEC masih menghadapi persaingan dan pengawasan, tetapi momentumnya dapat diukur melalui aktivitas on-chain, korelasi pergerakan whale, volume tweet, dan keterlibatan jaringan tanpa hanya bergantung pada spekulasi harga.
+Berbeda dengan Monero dan DASH, yang sering dikelompokkan sebagai “privacy coins,” DASH telah secara resmi menjauh dari klasifikasi privacy coin menyusul perubahan fitur dan evolusi definisi regulasi (Cointelegraph, 2024). ZEC masih menghadapi persaingan dan pengawasan, tetapi momentumnya dapat diukur melalui aktivitas on-chain, korelasi pergerakan whale, volume tweet, dan keterlibatan jaringan tanpa hanya bergantung pada spekulasi harga.
 
 Aktivitas on-chain mengacu pada semua interaksi yang terjadi secara langsung di dalam blockchain, seperti transfer antar dompet, swap token, interaksi smart contract, deposit dan penarikan dari exchange, minting atau transfer NFT, serta peristiwa staking/unlocking. Pola perilaku dari pemain kunci, terutama whale, klaster ritel, developer, atau dompet institusional dapat disimpulkan ketika data ini dianalisis, sehingga memungkinkan untuk memahami sepenuhnya bagaimana mereka saling berhubungan dalam menentukan pasar.
 
-Berdasarkan ZEC Dashboard Messari (Messari), antara tanggal 1 Juli dan 22 Juli 2025, terdapat 12 transaksi yang melebihi 1.000 ZEC, dengan yang terbesar mencapai 5.200 ZEC (CoinMetrics, 2025). Volume ZEC yang dibatasi ini disertai dengan aktivitas inflow exchange yang signifikan, yang menunjukkan potensi aktivitas sell-off atau penyusunan ulang portofolio.
+Berdasarkan ZEC Dashboard Messari (Messari), antara tanggal 1 Juli dan 22 Juli 2025, terdapat 12 transaksi yang melebihi 1.000 ZEC, dengan yang terbesar mencapai 5.200 ZEC (Coin Metrics, 2025). Volume ZEC yang dibatasi ini disertai dengan aktivitas inflow exchange yang signifikan, yang menunjukkan potensi aktivitas sell-off atau penyusunan ulang portofolio.
 
 Pada saat yang sama, transaksi terlindungi, bagian esensial dari kerangka kerja privasi Zcash, masih mengalami peningkatan penggunaan yang signifikan. Menjelang bulan Juli, sekitar 20% dari total pasokan ZEC berada dalam alamat terlindungi. (Blockchair 2025) (lihat Gambar 4) 
 
@@ -73,7 +73,7 @@ Melihat dari sisi Komunitas, Adopsi, dan Pengembangan, Zcash Community Hub menyo
 (Sumber : Shawn; Moderator utama Forum Komunitas Zcash (2025). Grafik mencakup 9 April hingga 9 Mei 2025. )
 
 Komunitas, Adopsi, dan Pengembangan di mana Zcash Community Hub menunjukkan antusiasme akar rumput yang terus berkembang. Dari sisi adopsi, integrasi merchant tetap terbatas namun patut dicatat. Meskipun penggunaan di antara merchant global rendah, diperkirakan sebesar 120, integrasi ZEC ke dalam Brave Wallet dan eksperimen zk-proof di Google Wallet masing-masing pada bulan April dan Mei 2025 telah meningkatkan eksposur.
-Pekerjaan dari Electric Coin Company dan Zcash Foundation yang ditampilkan pada kuartal kedua tahun 2025 menunjukkan aktivitas yang berkelanjutan. Lebih dari 350 commit Github mengungkapkan kolaborasi signifikan pada proyek infrastruktur penting seperti codebase Zedrab dan dompet Zallet, yang juga menampilkan komunitas teknis aktif dari ekosistem Zcash serta grafik kontributor.
+Pekerjaan dari Electric Coin Company dan Zcash Foundation yang ditampilkan pada kuartal kedua tahun 2025 menunjukkan aktivitas yang berkelanjutan. Lebih dari 350 commit GitHub mengungkapkan kolaborasi signifikan pada proyek infrastruktur penting seperti codebase Zedrab dan dompet Zallet, yang juga menampilkan komunitas teknis aktif dari ekosistem Zcash serta grafik kontributor.
 
 
 Untuk benar-benar menganalisis dinamika terkini dari Zcash, cara terbaik adalah dengan memeriksa sudut pandang pengguna dari waktu ke waktu dan membandingkan konteks historis Zcash dengan koin privasi lainnya. Analisis ini akan memaparkan pergerakan harga historis ZEC, seperti titik tertinggi pasar dari tahun 2017 dan peristiwa block halving tahun 2020, serta perbandingan indikator on-chain dan sosial dengan Monero (XMR) dan DASH (DASH) (misalnya, volume transaksi, peringkat market cap, dan aktivitas sosial). 
@@ -95,13 +95,13 @@ Zcash mungkin belum dapat membanggakan komunitas sebesar Monero atau basis merch
 
 # Referensi
 - Blockchair. (2025). Data transaksi terlindungi Zcash. https://blockchair.com/zcash/charts/shielded-supply
-- CoinMetrics. (2025). Metrik data jaringan Zcash. https://coinmetrics.io/
-- CoinTelegraph. (2024). Dash bukan lagi koin privasi di bawah regulasi yang terus berkembang. https://cointelegraph.com/news/dash-no-longer-privacy-coin
+- Coin Metrics. (2025). Metrik data jaringan Zcash. https://coinmetrics.io/
+- Cointelegraph. (2024). Dash bukan lagi koin privasi di bawah regulasi yang terus berkembang. https://cointelegraph.com/news/dash-no-longer-privacy-coin
 - Electric Coin Company. (2025). Catatan rilis Zcash 6.2.0. https://electriccoin.co/blog/
 - Messari. (2025). Dashboard Messari ZEC. https://messari.io/asset/zcash
 - Shawn; Moderator Utama Zcash Forum Komunitas. (2025). 
 - Analisis Sentimen Platform X. (2025, Juli). Dataset internal. 
 - Hub Komunitas Zcash. (2025). Pembaruan komunitas dan statistik keterlibatan. https://z.cash
 - Zcash Foundation. (2025). Rilis dompet Zashi 2.0. https://zcashfoundation.org/blog/
-- Zechub. (2025). Bagan dashboard Zechub.
+- ZecHub. (2025). Bagan dashboard ZecHub.
 

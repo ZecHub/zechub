@@ -4,7 +4,7 @@
 ## सेटअप
 
  * Zebrad node चल रहा हो और पूरी तरह synced हो, RPC's चालू हों और cookies इस्तेमाल करने के लिए configured हों
- * Zainod पूरी तरह synced हो
+ * zainod पूरी तरह synced हो
  * Zallet RPC's चलाने के लिए setup हो
 
 

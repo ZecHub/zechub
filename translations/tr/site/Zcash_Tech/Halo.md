@@ -96,7 +96,7 @@ Ek olarak, Halo 2, [MIT ve Apache 2.0 açık kaynak lisansları](https://github.
 
 - [Anoma](https://anoma.net/blog/hash-functions-in-plonkup) — gizliliği koruyan çok zincirli bir atomik takas protokolü
 - [Orbis](https://docs.orbisprotocol.com/orbis/technology/halo-2) — Cardano üzerinde bir L2 zkRollup
-- [Darkfi](https://dark.fi/book/arch/arch.html) — özel bir L1 zkEVM blok zinciri
+- [DarkFi](https://dark.fi/book/arch/arch.html) — özel bir L1 zkEVM blok zinciri
 - [Scroll](https://scroll.mirror.xyz/nDAbJbSIJdQIWqp9kn8J0MVS4s6pYBwHmK7keidQs-k) — Ethereum üzerinde bir L2 zkRollup
 
 ---

@@ -8,7 +8,7 @@ If you're a member of the Zcash community, and want to contribute to building Ze
 
 Curate links for the newsletter and add them to the newsletter's GitHub page: -> [Click here for instructions](https://github.com/ZecHub/zechub/blob/main/site/contribute/ZecWeekly_Newsletter.md)
 
-Fact check the wiki docs, suggest edits, and propose new pages in Github
+Fact check the wiki docs, suggest edits, and propose new pages in GitHub
 
 Create video content in the following categories:
 ```
@@ -50,9 +50,9 @@ We post open tasks on [ZEC Bounties](https://bounties.zechub.wiki/). You can sug
 
 [ZEC Bounties](https://bounties.zechub.wiki/)
 
-[ZecHub Github Issues](https://github.com/ZecHub/zechub/issues)
+[ZecHub GitHub Issues](https://github.com/ZecHub/zechub/issues)
 
-[ZecHub-Wiki Github Issues](https://github.com/ZecHub/zechub-wiki/issues)
+[ZecHub-Wiki GitHub Issues](https://github.com/ZecHub/zechub-wiki/issues)
 
 
 

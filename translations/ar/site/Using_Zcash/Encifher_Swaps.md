@@ -4,12 +4,12 @@
 ![img1](/content-images/Bkbg5alCll-7a02545c00.webp)
 
 
-*بادِل من Solana إلى Zcash، مع توجيه خطوة العبور بين السلاسل عبر Near Intents.*  
+*بادِل من Solana إلى Zcash، مع توجيه خطوة العبور بين السلاسل عبر NEAR Intents.*  
 
 ---
 
 ###  المقدمة  
-[**encrypt.trade**](https://encrypt.trade/zec) هو تطبيق على Solana تديره JMD Labs Inc. يتيح لك مبادلة **SOL أو USDC** على Solana إلى **Zcash (ZEC)**. تُغلَّف رموزك أولًا في إصدارات مشفّرة بحيث تُخفى الكميات على Solana، ثم تُبادَل إلى ZEC عبر Near Intents.
+[**encrypt.trade**](https://encrypt.trade/zec) هو تطبيق على Solana تديره JMD Labs Inc. يتيح لك مبادلة **SOL أو USDC** على Solana إلى **Zcash (ZEC)**. تُغلَّف رموزك أولًا في إصدارات مشفّرة بحيث تُخفى الكميات على Solana، ثم تُبادَل إلى ZEC عبر NEAR Intents.
 
 تكون المبادلة خاصة من بعض النواحي، لكن ليس كلها. تنص [الوثائق](https://docs.encifher.io/docs) الخاصة بالتطبيق على أن تفاعلك مع السلسلة ليس مجهول الهوية: يمكن للناس رؤية أن محفظتك استخدمت التطبيق، ولكن لا يمكنهم معرفة مقدار ما نقلته. يصل ZEC أيضًا إلى عنوان شفاف، ولذلك يظل مرئيًا على سلسلة Zcash إلى أن تقوم بحجبه.
 
@@ -21,9 +21,9 @@
 ###  ما يجب معرفته قبل المبادلة  
 - **جانب Solana.** يُخفي التغليف الكميات، لكن عنوان محفظتك واستخدامها للتطبيق علنيان. تحذّر [أفضل الممارسات](https://docs.encifher.io/docs/best-practices) الخاصة به من أن التغليف البسيط، ثم المبادلة، ثم فك التغليف يجعل معاملتك قابلة للربط.
 - **التشفير.** تُعالَج الأرصدة المشفّرة خارج السلسلة داخل بيئة عتاد معزولة (TEE). تشير [الورقة البحثية](https://eprint.iacr.org/2026/1504) للمطورين إلى أن ذلك يعتمد على سلامة TEE، وإدارة مفاتيح العتبة الصادقة، وجذر مصادقة السحابة، وليس على التشفير وحده.
-- **خطوة العبور بين السلاسل.** تُوجَّه المبادلة إلى ZEC عبر Near Intents، حيث ينفذ محلّلون مستقلون الطلب.
-- **جانب Zcash.** تسرد Near Intents ZEC بوصفها مدعومة لـ [العناوين الشفافة فقط](https://docs.near-intents.org/resources/chain-support)، وكان حقل ZEC في encrypt.trade يقبل العناوين الشفافة فقط (t1 أو t3) عند التحقق من هذا الدليل في سبتمبر 2026. يُظهر العنوان الشفاف رصيده والتحويلات الواردة إليه علنًا إلى أن تقوم بحجبه.
-- **الفحص.** يتحقق التطبيق من المحافظ المتصلة بمقارنة قواعد بيانات مثل TRM وChainalysis، وتنص [صفحة الامتثال](https://docs.encifher.io/docs/compliance) الخاصة به على أنه يمكن مراجعة السجلات المشفّرة عند وجود سبب قانوني مشروع. تُجري Near Intents [فحصًا](https://docs.near-intents.org/security-compliance/risk-and-compliance) خاصًا بها أيضًا.
+- **خطوة العبور بين السلاسل.** تُوجَّه المبادلة إلى ZEC عبر NEAR Intents، حيث ينفذ محلّلون مستقلون الطلب.
+- **جانب Zcash.** تسرد NEAR Intents ZEC بوصفها مدعومة لـ [العناوين الشفافة فقط](https://docs.near-intents.org/resources/chain-support)، وكان حقل ZEC في encrypt.trade يقبل العناوين الشفافة فقط (t1 أو t3) عند التحقق من هذا الدليل في سبتمبر 2026. يُظهر العنوان الشفاف رصيده والتحويلات الواردة إليه علنًا إلى أن تقوم بحجبه.
+- **الفحص.** يتحقق التطبيق من المحافظ المتصلة بمقارنة قواعد بيانات مثل TRM وChainalysis، وتنص [صفحة الامتثال](https://docs.encifher.io/docs/compliance) الخاصة به على أنه يمكن مراجعة السجلات المشفّرة عند وجود سبب قانوني مشروع. تُجري NEAR Intents [فحصًا](https://docs.near-intents.org/security-compliance/risk-and-compliance) خاصًا بها أيضًا.
 
 ---
 
@@ -83,7 +83,7 @@
 ![img9](/content-images/S1yoapgRle-6d2031a62c.webp)
 
 
-يتولى **Near Intents** التوجيه عبر السلاسل ويرسل **ZEC** إلى محفظة ZODL الخاصة بك. قد يستغرق ذلك بضع دقائق. تقترح Near Intents إتاحة ما يصل إلى 15 دقيقة للمبادلات عبر السلاسل.  
+يتولى **NEAR Intents** التوجيه عبر السلاسل ويرسل **ZEC** إلى محفظة ZODL الخاصة بك. قد يستغرق ذلك بضع دقائق. تقترح NEAR Intents إتاحة ما يصل إلى 15 دقيقة للمبادلات عبر السلاسل.  
 
 
 
@@ -98,10 +98,10 @@
 
 ###  الجهات المعنية ومكان الحصول على المساعدة  
 - **encrypt.trade** هو التطبيق، وتديره JMD Labs Inc. تنص [سياسة الخصوصية](https://encrypt.trade/privacy) الخاصة به على أنه يجمع بيانات تقنية مثل عنوان IP وتفاصيل المتصفح والجهاز، ويرسل عنوان محفظتك وسجلها الحديث وأرصدتها إلى مزودي الامتثال قبل المبادلة، وقد يحتفظ بالسجلات ونتائج فحص AML لمدة تصل إلى خمس سنوات. تحظر [شروطه](https://encrypt.trade/terms) استخدام VPN أو وكيل لإخفاء موقعك. الدعم: help@encifher.io أو مجموعة [Telegram](https://t.me/+ZWHGMW4ZHXQwYTZl) المرتبطة من التطبيق.
-- تتولى **Near Intents** توجيه خطوة العبور بين السلاسل وتسليم ZEC. راجع [شروط واجهة 1Click API](https://docs.near-intents.org/security-compliance/terms-of-service) وسياسة الخصوصية على near.com/privacy، وتتبع المبادلات على [مستكشف Near Intents](https://explorer.near-intents.org)، واطلب المساعدة في [Near Intents Telegram](https://t.me/near_intents).
+- تتولى **NEAR Intents** توجيه خطوة العبور بين السلاسل وتسليم ZEC. راجع [شروط واجهة 1Click API](https://docs.near-intents.org/security-compliance/terms-of-service) وسياسة الخصوصية على near.com/privacy، وتتبع المبادلات على [مستكشف NEAR Intents](https://explorer.near-intents.org)، واطلب المساعدة في [NEAR Intents Telegram](https://t.me/near_intents).
 
 يمكن أن تتغير الشروط والعناوين المدعومة، لذا تحقق من الإصدارات الحالية قبل إجراء مبادلة كبيرة. ولمعرفة المزيد عن الصورة الأوسع، راجع [البورصات غير الاحتجازية](/using-zcash/non-custodial-exchanges).
 
 ---
 
-من خلال الجمع بين **Solana** و**Zcash** و**Near Intents**، يمنحك **encrypt.trade** مسارًا سريعًا من SOL أو USDC إلى ZEC. يخفي الكميات على Solana، لكنه ليس خاصًا من البداية إلى النهاية، لذا احجب ZEC الخاص بك بمجرد وصوله.
+من خلال الجمع بين **Solana** و**Zcash** و**NEAR Intents**، يمنحك **encrypt.trade** مسارًا سريعًا من SOL أو USDC إلى ZEC. يخفي الكميات على Solana، لكنه ليس خاصًا من البداية إلى النهاية، لذا احجب ZEC الخاص بك بمجرد وصوله.

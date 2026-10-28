@@ -3,7 +3,7 @@
 </a>
 
 # <img src="/content-images/image-2024-02-03-164918723-f59419848a.webp" alt="Alt Text" width="50"/>    Electric Coin Company (Sunset)
-[Ìkànnì àjọ ayélujára](https://electriccoin.co) - [Github] Ìlànà ìjìnlẹ̀:](https://github.com/zodl-inc) - [X/Twitter] Ìròyìn nípa ìṣẹ̀lẹ̀ náà.](https://x.com/ElectricCoinCo)
+[Ìkànnì àjọ ayélujára](https://electriccoin.co) - [GitHub] Ìlànà ìjìnlẹ̀:](https://github.com/zodl-inc) - [X/Twitter] Ìròyìn nípa ìṣẹ̀lẹ̀ náà.](https://x.com/ElectricCoinCo)
 
 > ** Nipa ọna asopọ GitHub yẹn.** Awọn ibi ipamọ ECC wa ni: `zodl-inc`Àjọ kan náà yìí ni, tí wọ́n yí orúkọ padà nígbà tí ẹgbẹ́ wọn ṣí lọ sí [ZODL](/zcash-organizations/zodl). Àwọn àgbàlagbà náà `github.com/Electric-Coin-Company` orúkọ náà ni ẹni tí kò ní ìbátan kọ sílẹ̀ nínú oṣù karùn-ún ọdún 2026 àti pé kò sí nǹkan kan tó ṣe pẹ̀lú ECC tàbí ZODL, nítorí náà má fọkàn tán kókó tí wọ́n tẹ jáde níbẹ̀.
 

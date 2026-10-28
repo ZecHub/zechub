@@ -28,7 +28,7 @@ DeFi 및 DApp 지원: Zcash 보유자는 이제 프라이버시를 훼손하지 
 **Zcash Avalanche의 Elastic Subnet Bridge**: [보조금 제안서](https://zcashgrants.org/gallery/25215916-53ea-4041-a3b2-6d00c487917d/36243580/)
 아래는 Zcash Avalanche RedBridge 프로젝트를 위해 완료된 주요 산출물과 기술 리소스입니다.
 
-산출물 1.1: CLI를 통해 테스트넷 Avalanche 서브넷에서 테스트넷 Zcash 거래를 조회할 수 있도록 지원하는 예비 PoC로, Github에 게시되었으며 Avalanche 테스트넷에 하나의 노드 서브넷을 갖추고 있습니다. https://github.com/red-dev-inc/zavax-oracle
+산출물 1.1: CLI를 통해 테스트넷 Avalanche 서브넷에서 테스트넷 Zcash 거래를 조회할 수 있도록 지원하는 예비 PoC로, GitHub에 게시되었으며 Avalanche 테스트넷에 하나의 노드 서브넷을 갖추고 있습니다. https://github.com/red-dev-inc/zavax-oracle
 
 산출물 2.1: [아키텍처](https://github.com/red-dev-inc/zavax-bridge/tree/main/Architecture)
 
@@ -49,9 +49,9 @@ DeFi 및 DApp 지원: Zcash 보유자는 이제 프라이버시를 훼손하지 
 
 마일스톤 6: 2024년 6월 30일
 산출물 6.1 소프트웨어 감사 성공적 통과
-산출물 6.2 감사된 소스 코드를 공개 Github 저장소에 게시
+산출물 6.2 감사된 소스 코드를 공개 GitHub 저장소에 게시
 
-[Github 저장소](https://github.com/red-dev-inc/zavax-bridge/tree/main/Architecture)를 살펴보세요.
+[GitHub 저장소](https://github.com/red-dev-inc/zavax-bridge/tree/main/Architecture)를 살펴보세요.
   
 더 자세한 기술 정보는 사용자가 RedBridge 프로젝트의 저장소 및 문서를 검토하여 통합 세부 사항, 테스트 프레임워크 및 보안 프로토콜을 [살펴볼](https://zcashgrants.org/gallery/25215916-53ea-4041-a3b2-6d00c487917d/36243580/) 것을 권장합니다.
 
@@ -62,7 +62,7 @@ DeFi 및 DApp 지원: Zcash 보유자는 이제 프라이버시를 훼손하지 
 * 산출물: 
 2025년 1분기에 팀은 누구나 사용자 경험을 시험하고, 피드백을 제공하며, 개선 사항을 제안할 수 있는 [red·bridge 데모 웹사이트](https://redbridge-demo.red.dev/index.html)의 출시를 발표했습니다. 또한 비기술적인 사람들에게 프로젝트를 소개하는 쉬운 방법이기도 합니다.
 
-* 팀은 red·bridge의 최종 버전에 Zebra을 사용했습니다. 이를 테스트하기 위해 Avalanche의 Fuji 테스트넷에서 실행되는 테스트 블록체인인 ZavaX Oracle의 세 노드 중 두 노드를 업그레이드했습니다. 마지막 노드도 성공적으로 업그레이드되어, 이제 [Zavax Oracle](https://web.archive.org/web/20260823181644/https://zavax-oracle.red.dev/)은 Zebra에서 실행됩니다!
+* 팀은 red·bridge의 최종 버전에 Zebra을 사용했습니다. 이를 테스트하기 위해 Avalanche의 Fuji 테스트넷에서 실행되는 테스트 블록체인인 ZavaX Oracle의 세 노드 중 두 노드를 업그레이드했습니다. 마지막 노드도 성공적으로 업그레이드되어, 이제 [ZavaX Oracle](https://web.archive.org/web/20260823181644/https://zavax-oracle.red.dev/)은 Zebra에서 실행됩니다!
 
 * 2025년 1분기에 red.bridge 웹사이트는 처음의 빨간색 버전과 달리 red, Dark, Light 및 Zebra의 네 가지 화면을 제공하도록 코딩되었습니다.
 

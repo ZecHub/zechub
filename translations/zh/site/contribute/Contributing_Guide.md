@@ -92,7 +92,7 @@ zec_to_enter = usd_target / zec_usd_spot
   <iframe
     className="w-full h-full"
     src="https://www.youtube.com/embed/qz4KzDjkqu8"
-    title="WSL 安装 + Zcashd 编译/交易教程"
+    title="WSL 安装 + zcashd 编译/交易教程"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowFullScreen
     loading="lazy"
@@ -125,11 +125,11 @@ ZecHub 的目标是提供一个开源教育中心，让 Zcash 社区中的任何
 
 #### ZecHub Wiki - 编辑现有文档
 
-有时我们文档中的信息并不完全准确。这没关系。这正是我们将它们开源的原因！如果你发现 wiki 文档中有需要修改的内容，请前往文档页脚（其中链接至其 Github 页面），并通过 PR 提出修改建议。
+有时我们文档中的信息并不完全准确。这没关系。这正是我们将它们开源的原因！如果你发现 wiki 文档中有需要修改的内容，请前往文档页脚（其中链接至其 GitHub 页面），并通过 PR 提出修改建议。
 
 #### ZecHub Wiki - 修复失效链接
 
-如果你发现链接失效，或某个重要内容拼写错误，请前往文档页脚（其中链接至其 Github 页面），并通过 PR 提出修改建议。
+如果你发现链接失效，或某个重要内容拼写错误，请前往文档页脚（其中链接至其 GitHub 页面），并通过 PR 提出修改建议。
 
 #### 新闻通讯 - 新一期
 

@@ -43,22 +43,22 @@ Zcash gizliliği korumalı adreslerden gelir. ZEC korumalı adresler arasında h
 Bir takasın Zcash tarafından gizlenemeyen bölümleri vardır:
 
 - **Kaynak ağ.** Solana, Ethereum veya başka bir herkese açık zincirden gönderdiğiniz fonlar, adresiniz ve tutar dâhil olmak üzere o zincirde görünür.
-- **Alıcı adresi.** Bazı takas yolları ZEC varlığını şeffaf bir adrese teslim eder. Örneğin Near Intents, ZEC varlığını yalnızca [şeffaf adresler için](https://docs.near-intents.org/resources/chain-support) desteklenen olarak listeler. Şeffaf bir (t1 veya t3) adrese gönderilen ZEC, Bitcoin'e benzer şekilde herkese açıktır. Sonrasında korumaya almak, bundan sonra yaptıklarınızı korur; ancak gelen transfer ve korumaya alma işlemi görünür kalır.
+- **Alıcı adresi.** Bazı takas yolları ZEC varlığını şeffaf bir adrese teslim eder. Örneğin NEAR Intents, ZEC varlığını yalnızca [şeffaf adresler için](https://docs.near-intents.org/resources/chain-support) desteklenen olarak listeler. Şeffaf bir (t1 veya t3) adrese gönderilen ZEC, Bitcoin'e benzer şekilde herkese açıktır. Sonrasında korumaya almak, bundan sonra yaptıklarınızı korur; ancak gelen transfer ve korumaya alma işlemi görünür kalır.
 - **Hizmet.** Uygulama ve tüm yönlendirme hizmetleri, IP adresiniz gibi bağlantı verilerinin yanı sıra kendilerine verdiğiniz adresleri ve tutarları görür.
 
 ZEC varlığını kontrol ettiğiniz bir cüzdana gönderin ve harcamadan önce korumaya alın. [ZEC Varlığını Gizli Kullanmak](/guides/using-zec-privately) sonraki adımları kapsar.
 
 ### **Bir Takasta Kimler Yer Alır**
 
-Örnek olarak Near Intents 1Click hizmeti üzerinden yönlendirilen bir takası ele alalım. [API koşulları](https://docs.near-intents.org/security-compliance/terms-of-service) bunları ayrı bölümler olarak ele alır:
+Örnek olarak NEAR Intents 1Click hizmeti üzerinden yönlendirilen bir takası ele alalım. [API koşulları](https://docs.near-intents.org/security-compliance/terms-of-service) bunları ayrı bölümler olarak ele alır:
 
 - **Arayüz**: kullandığınız web sitesi veya cüzdan. Intents Technology tarafından ya da kendi koşulları olan üçüncü bir tarafça işletilebilir.
 - **1Click**: Intents Technology Limited tarafından işletilen bir yönlendirme ve mutabakat hizmeti. Fonları, teklifiniz için oluşturulan bir yatırma adresine gönderirsiniz. Belgeler 1Click'in saklama hizmeti sunmadığını söyler; ancak koşullar, bir transfer devam ederken varlıkların köprü altyapısında tutulabileceğini veya kilitlenebileceğini belirtir.
-- **Protokol**: Near Intents akıllı sözleşmeleri.
+- **Protokol**: NEAR Intents akıllı sözleşmeleri.
 - **Çözücüler**: teklifi karşılayan bağımsız üçüncü taraflar.
 - **Köprüler**: yerel ZEC, Intents Technology'nin işlettiği PoA Bridge üzerinden hareket eder.
 
-Near Intents ayrıca entegre teklif akışlarını çeşitli AML veritabanlarına karşı [tarar](https://docs.near-intents.org/security-compliance/risk-and-compliance) ve kapsamın akışa ve entegrasyona göre değiştiğini belirtir. Koşulları uyarınca işaretlenen bir takas gecikebilir, engellenebilir, dondurulabilir veya reddedilebilir.
+NEAR Intents ayrıca entegre teklif akışlarını çeşitli AML veritabanlarına karşı [tarar](https://docs.near-intents.org/security-compliance/risk-and-compliance) ve kapsamın akışa ve entegrasyona göre değiştiğini belirtir. Koşulları uyarınca işaretlenen bir takas gecikebilir, engellenebilir, dondurulabilir veya reddedilebilir.
 
 ### **Takas Sırasında Paylaştıklarınız**
 
@@ -72,8 +72,8 @@ Near Intents ayrıca entegre teklif akışlarını çeşitli AML veritabanların
 Koşullar değişir; bu nedenle büyük bir takastan önce güncel sürümleri okuyun.
 
 - **Kullandığınız uygulamayla başlayın.** Başlıca iletişim noktanız odur. 1Click API koşulları, Intents Technology'nin bunun üzerine kurulu uygulamaların kullanıcılarıyla doğrudan ilişkisi olmadığını söyler.
-- **Near Intents:** near.com/terms ve near.com/privacy adreslerindeki koşullar ve gizlilik politikası ile [1Click API koşulları](https://docs.near-intents.org/security-compliance/terms-of-service) ve [risk ve uyumluluk](https://docs.near-intents.org/security-compliance/risk-and-compliance).
-- **Takip ve destek:** bir takası [Near Intents Explorer](https://explorer.near-intents.org) üzerinde arayın veya [Near Intents Telegram](https://t.me/near_intents) içinde sorun.
+- **NEAR Intents:** near.com/terms ve near.com/privacy adreslerindeki koşullar ve gizlilik politikası ile [1Click API koşulları](https://docs.near-intents.org/security-compliance/terms-of-service) ve [risk ve uyumluluk](https://docs.near-intents.org/security-compliance/risk-and-compliance).
+- **Takip ve destek:** bir takası [NEAR Intents Explorer](https://explorer.near-intents.org) üzerinde arayın veya [NEAR Intents Telegram](https://t.me/near_intents) içinde sorun.
 - **İadeler:** başarısız bir takas, verdiğiniz iade adresine geri gönderilebilir; ancak near.com koşulları iadenin garanti edilmediğini söyler. 1Click koşulları ayrıca USD 300 altındaki kullanıcı hatalarına ilişkin kurtarma taleplerinin değerlendirilmediğini belirtir.
 
 Şimdi, Zcash alım satımını kolaylaştıran erişilebilir saklama hizmeti sunmayan borsalardan birkaçını inceleyelim. Bu platformları kullanmak, daha fazla Zcash coin edinmeniz için size uygun bir yol sağlayacaktır.

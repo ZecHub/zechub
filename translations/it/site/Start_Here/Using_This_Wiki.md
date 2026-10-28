@@ -21,9 +21,9 @@ Se sei nuovo a Zcash, questo è un ottimo posto per aggiornarti. La prima cosa c
 
 Dopo aver letto i documenti introduttivi e le risorse ad essi associate, dai un'occhiata alla guida [Usare ZEC](https://zechub.wiki/guides/using-zec-privately#content) e ai video [Tutorial](https://youtube.com/playlist?list=PL6_epn0lASLFF28ePj7P5TvtMG_WE7p3O&si=4vleWUbCGbNJu1-M) per familiarizzare con l'uso di ZEC.
 
-## Sono un membro della comunità Zcash
+## Sono un membro della comunità di Zcash
 
-Se sei un membro della comunità, fantastico! La cosa migliore che puoi fare per rimanere aggiornato è seguire la newsletter settimanale [Zcash Ecosystem Digest](https://zechub.substack.com/s/zcash-ecosystem-digest) e tutti gli account elencati nella [Lista delle pagine della comunità Zcash](https://zechub.wiki/zcash-community/community-links#content).
+Se sei un membro della comunità, fantastico! La cosa migliore che puoi fare per rimanere aggiornato è seguire la newsletter settimanale [Zcash Ecosystem Digest](https://zechub.substack.com/s/zcash-ecosystem-digest) e tutti gli account elencati nella [Lista delle pagine della comunità di Zcash](https://zechub.wiki/zcash-community/community-links#content).
 
 ## Voglio contribuire a ZecHub
 

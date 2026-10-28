@@ -475,7 +475,7 @@ O fornecedor pode ter problemas de rede ou largura de banda lenta. Normalmente i
 
 ### Falhas de autenticação RPC
 
--> Verifique se *ZCASHD_RPCUSER* e *ZCASHD_RPCPASSWORD* estão definidos corretamente
+-> Verifique se `ZCASHD_RPCUSER` e `ZCASHD_RPCPASSWORD` estão definidos corretamente
 
 -> Verifique se está a usar a porta correta (8232 para mainnet, 18232 para testnet)
 

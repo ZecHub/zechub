@@ -7,7 +7,7 @@
 
 ## TL;DR
 
-- Compra ZEC en un exchange que admita **retiros blindados** (Gemini, BitcoinVN, Flyp.me) cuando sea posible
+- Compra ZEC en un exchange que admita **retiros blindados** (Gemini, BitcoinVN, flyp.me) cuando sea posible
 - La mayoría de los principales exchanges centralizados (Coinbase, Kraken, Binance) admiten solo **retiros transparentes** — blinda tu ZEC después de recibirlo
 - Los exchanges descentralizados permiten intercambios sin custodia, pero normalmente retiran a direcciones transparentes
 - NO necesitas comprar un ZEC completo — las fracciones funcionan perfectamente
@@ -28,9 +28,9 @@ Gemini es un exchange de criptomonedas regulado, wallet y custodio que hace que 
 
 BitcoinVN es un exchange instantáneo sin custodia que admite depósitos y retiros blindados (z-address) para ZEC — uno de los muy pocos exchanges a nivel mundial con soporte completo para z-address. Operando desde 2014, puedes intercambiar BTC, ETH, USDT y otras criptomonedas por ZEC directamente a tu wallet blindada.
 
-**[Flyp.me](https://flyp.me)**
+**[flyp.me](https://flyp.me)**
 
-Flyp.me es un exchange de criptomonedas sin registro. Fue una de las formas más seguras y privadas de intercambiar más de 30 criptomonedas directamente a tu wallet. Puedes comprar ZEC con otras criptomonedas.
+flyp.me es un exchange de criptomonedas sin registro. Fue una de las formas más seguras y privadas de intercambiar más de 30 criptomonedas directamente a tu wallet. Puedes comprar ZEC con otras criptomonedas.
 
 ## Exchanges que admiten retiros transparentes
 

@@ -14,7 +14,7 @@ Per una guida completa e una spiegazione visiva, guarda questa [**guida YouTube*
 </div>
      
 
-MetaMask ora supporta **Zcash (ZEC) schermati** tramite lo **Zcash Snap sviluppato da ChainSafe**, che ti permette di inviare, ricevere e gestire ZEC privati direttamente nel tuo portafoglio del browser. Controllato da **Hacken** e inserito nella **directory ufficiale degli Snap di MetaMask**, non richiede **alcun software Zcash separato** - solo MetaMask e lo Snap.
+MetaMask ora supporta **Zcash (ZEC) schermati** tramite lo **Zcash Snap sviluppato da ChainSafe**, che ti permette di inviare, ricevere e gestire ZEC privati direttamente nel tuo portafoglio del browser. Controllato da **Hacken** e inserito nella **directory ufficiale degli Snap di MetaMask**, non richiede **alcun software di Zcash separato** - solo MetaMask e lo Snap.
 
 ---
 
@@ -22,8 +22,8 @@ MetaMask ora supporta **Zcash (ZEC) schermati** tramite lo **Zcash Snap sviluppa
 
 
 > [**MetaMask Extension**](https://snaps.metamask.io/snap/npm/chainsafe/webzjs-zcash-snap/) (solo desktop) - Chrome, Edge o Firefox.
-> Account MetaMask - Frase seed protetta; lo Snap deriva le chiavi Zcash da essa.  
-> Connessione Internet stabile - Per la sincronizzazione con la rete Zcash.  
+> Account MetaMask - Frase seed protetta; lo Snap deriva le chiavi di Zcash da essa.  
+> Connessione Internet stabile - Per la sincronizzazione con la rete di Zcash.  
 > Fondi - ETH da scambiare per ZEC o ZEC da un exchange.
 
 > **Suggerimento:** Proteggi la tua frase di recupero di MetaMask - controlla sia ETH che ZEC.
@@ -46,7 +46,7 @@ MetaMask ora supporta **Zcash (ZEC) schermati** tramite lo **Zcash Snap sviluppa
 
 ---
 
-## **2. (Opzionale) aggiungi la rete Zcash**
+## **2. (Opzionale) aggiungi la rete di Zcash**
 
 In MetaMask, scegli **Aggiungi Rete** e inserisci:
 
@@ -79,7 +79,7 @@ Per **Zcash Mainnet**;
 ![Zcash-web-wallet](/content-images/Sk8nSz3dgl-98ce36cc67.webp)
 
 3. Approva la connessione.  
-4. Visualizza il riepilogo del tuo account Zcash, inclusi:
+4. Visualizza il riepilogo del tuo account di Zcash, inclusi:
    - Unified Address e Transparent address
 
 ![Account-summary-unif....](/content-images/r17c_Mhdel-f4963826d5.webp)

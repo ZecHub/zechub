@@ -8,7 +8,7 @@ Ne ènye Zcash habɔbɔa me tɔ, eye nèdi be yeawɔ akpa aɖe le ZecHub tutu me
 
 Dzra kadodowo ɖo na nyadzɔdzɔgbalẽa eye nàtsɔ wo akpe ɖe nyadzɔdzɔgbalẽa ƒe GitHub axa ŋu: -> [Zi afisia dzi be nàkpɔ mɔfiamewo](https://github.com/ZecHub/zechub/blob/main/site/contribute/ZecWeekly_Newsletter.md)
 
-Nyateƒenyawo lé ŋku ɖe wiki docs ŋu, do susu ɖa be woatrɔ asi le wo ŋu, eye nàdo axa yeyewo ɖe ŋgɔ le Github me
+Nyateƒenyawo lé ŋku ɖe wiki docs ŋu, do susu ɖa be woatrɔ asi le wo ŋu, eye nàdo axa yeyewo ɖe ŋgɔ le GitHub me
 
 Wɔ video me nyawo le hatsotso siwo gbɔna me:
 ```
@@ -50,9 +50,9 @@ Míeɖoa dɔ siwo woʋu ɖi la ɖe [ZEC Bounties](https://bounties.zechub.wiki/)
 
 [ZEC ƒe Bounties](https://bounties.zechub.wiki/)
 
-[ZecHub Github Nyawo](https://github.com/ZecHub/zechub/issues)
+[ZecHub GitHub Nyawo](https://github.com/ZecHub/zechub/issues)
 
-[ZecHub-Wiki Github Nyawo](https://github.com/ZecHub/zechub-wiki/issues)
+[ZecHub-Wiki GitHub Nyawo](https://github.com/ZecHub/zechub-wiki/issues)
 
 
 

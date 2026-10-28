@@ -199,5 +199,5 @@ Em conclusão, o Free2z é uma plataforma versátil para criadores mostrarem sua
 [Free2z para apoiadores](https://web.archive.org/web/20260118172223/https://free2z.cash/docs/category/for-supporters/)
 
 ---
-_Escrito por James Katz para Zechub._
+_Escrito por James Katz para ZecHub._
 

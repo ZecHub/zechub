@@ -16,7 +16,7 @@ Perché è importante. Cambiare le regole di una blockchain attiva è pericoloso
 
 ## Il meccanismo di aggiornamento
 
-Overwinter ha introdotto il Network Upgrade Mechanism, definito in [ZIP 200](https://zips.z.cash/zip-0200). Ogni aggiornamento ora definisce due elementi: un consensus branch id che identifica l’insieme corrente di regole, e un’altezza di attivazione, cioè il blocco in cui le nuove regole entrano in vigore. Questo offre a tutti coloro che eseguono software Zcash una finestra chiara per aggiornarsi prima del passaggio.
+Overwinter ha introdotto il Network Upgrade Mechanism, definito in [ZIP 200](https://zips.z.cash/zip-0200). Ogni aggiornamento ora definisce due elementi: un consensus branch id che identifica l’insieme corrente di regole, e un’altezza di attivazione, cioè il blocco in cui le nuove regole entrano in vigore. Questo offre a tutti coloro che eseguono software di Zcash una finestra chiara per aggiornarsi prima del passaggio.
 
 Overwinter stesso si è attivato sulla mainnet al blocco 347,500.
 
@@ -63,7 +63,7 @@ Perché alcune fonti indicano il 25 giugno e altre il 26 giugno? Overwinter si �
 
 A cosa serve la scadenza delle transazioni? Significa che una transazione che non viene mai inclusa in un blocco non rimarrà in sospeso per sempre. Dopo la sua altezza di scadenza, i nodi la rimuovono, così non resti nell’incertezza per un pagamento bloccato.
 
-Devo fare qualcosa? No. Overwinter si è attivato nel 2018. Qualsiasi portafoglio o nodo Zcash attuale segue già queste regole.
+Devo fare qualcosa? No. Overwinter si è attivato nel 2018. Qualsiasi portafoglio o nodo di Zcash attuale segue già queste regole.
 
 ## Metti alla prova la tua comprensione
 

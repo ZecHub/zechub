@@ -153,7 +153,7 @@ Eyi ne mfonini a edi mũ sen biara wɔ nsɛm a ɛtoatoa so no mu, nanso ɛda so 
 | Asɛmfua | Plain-English asekyerɛ |
 |---|---|
 | **Spending key** | Ntini biako ahintasɛm a ɔdefo safe nyinaa fi mu |
-| **Viewing key** | Da wo nnwuma adi kyerɛ obi a ɔwɔ bi a ɔmma wɔmfa |
+| **Viewing Key** | Da wo nnwuma adi kyerɛ obi a ɔwɔ bi a ɔmma wɔmfa |
 | **Spend description** | Tx fã a ɛdi nkyerɛwde bi (nullifier, anchor, proof) |
 | **Output description** | Tx fã a ɛma nkyerɛwde (commitment, ciphertext, proof) |
 | **Action (Orchard)** | A unified unit a ɛyɛ biako spend ne biako output bom |

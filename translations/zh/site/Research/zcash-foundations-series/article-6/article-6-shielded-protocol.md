@@ -153,7 +153,7 @@ proof **不会**泄露任何底层事实（是哪一个 note、是谁的密钥�
 | 术语 | 通俗含义 |
 |---|---|
 | **Spending key** | 用户所有密钥派生出的唯一根秘密 |
-| **Viewing key** | 允许持有人查看你的交易，但不能让其花费 |
+| **Viewing Key** | 允许持有人查看你的交易，但不能让其花费 |
 | **Spend description** | 交易中消费一个 note 的部分（nullifier、anchor、proof） |
 | **Output description** | 交易中创建一个 note 的部分（commitment、ciphertext、proof） |
 | **Action (Orchard)** | 将一次 spend 和一次 output 统一在一起的单元 |

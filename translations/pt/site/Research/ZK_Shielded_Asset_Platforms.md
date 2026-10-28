@@ -85,7 +85,7 @@ Por exemplo, considere uma listagem de NFT na Solana; o seu estado público (por
 
 
 
-**[Dark.fi](https://dark.fi/)**: DarkFi é uma L1 anónima baseada em zero-knowledge, computação multipartidária e encriptação homomórfica. O proof-of-stake anónimo garante que os validadores permanecem ocultos. DarkFi oferece um ambiente antifrágil para criar e executar aplicações anónimas - **Troca de Ativos**: Sim - [Livro branco](https://darkfi.org/whitepaper) - ![Darkfi.png](/content-images/0-auQOzkLMfYdoXlRy-b10ed91da5.webp)
+**[Dark.fi](https://dark.fi/)**: DarkFi é uma L1 anónima baseada em zero-knowledge, computação multipartidária e encriptação homomórfica. O proof-of-stake anónimo garante que os validadores permanecem ocultos. DarkFi oferece um ambiente antifrágil para criar e executar aplicações anónimas - **Troca de Ativos**: Sim - [Livro branco](https://darkfi.org/whitepaper) - ![DarkFi.png](/content-images/0-auQOzkLMfYdoXlRy-b10ed91da5.webp)
 ***
 
 

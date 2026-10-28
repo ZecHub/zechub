@@ -44,6 +44,9 @@ Acceptez des paiements à l’aide d’une adresse protégée et évitez d’exp
 ###  [Gérer une trésorerie communautaire privée](/zcash-use-cases/private-community-treasury)
 Utilisez des adresses protégées pour détenir des fonds partagés et limiter la visibilité des soldes et des transactions
 
+###  [Accepter des dons privés en tant qu'organisation à but non lucratif américaine](/zcash-use-cases/accept-private-donations-as-a-us-nonprofit)
+Acceptez des ZEC protégés en tant qu'organisation 501(c)(3), tout en fournissant aux donateurs les reçus et formulaires de l'IRS dont ils ont besoin
+
 ###  [Configuration de confidentialité pour les journalistes](/zcash-use-cases/journalist-privacy-setup)   
 Utilisez des adresses protégées pour toutes les transactions et protégez vos sources en évitant les paiements traçables. Utilisez les mémos avec précaution pour une communication sécurisée
 

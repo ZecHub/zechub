@@ -38,7 +38,7 @@ Arti'yi kaynak koddan derleyebilmeniz için önce **Rust**'ın en güncel kararl
 Bu, sisteminizde Rust'ın en güncel kararlı sürümünün kurulu olduğunu doğrulayacaktır.
 
 #### **Windows Kullanıcıları İçin Not**:
-- Rust, Windows'ta bir araç zinciri yükleyicisi olan [**Rustup**](https://rustup.rs/) aracılığıyla kurulabilir. Uyumlu bir derleme ortamı da kurduğunuzdan emin olun (Windows'ta **Visual Studio Build Tools** gerekebilir).
+- Rust, Windows'ta bir araç zinciri yükleyicisi olan [**rustup**](https://rustup.rs/) aracılığıyla kurulabilir. Uyumlu bir derleme ortamı da kurduğunuzdan emin olun (Windows'ta **Visual Studio Build Tools** gerekebilir).
   
 ---
 

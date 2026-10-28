@@ -9,7 +9,7 @@ El nodo completo tradicional zcashd, mantenido por *Electric Coin Company (ECC)*
 ![Diagrama: zcashd se divide en zebrad para las funciones de nodo y Zallet para las funciones de wallet](/content-images/SJNBsSYTel-dfd19f34e4.webp)
 </div>
 
-Esta guía te acompaña en la migración de **Zcashd** a **Zebrad** y **Zallet**, incluida la configuración, la importación de la wallet y la resolución de problemas comunes de migración.
+Esta guía te acompaña en la migración de **zcashd** a **Zebrad** y **Zallet**, incluida la configuración, la importación de la wallet y la resolución de problemas comunes de migración.
 
 ---
 

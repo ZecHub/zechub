@@ -35,7 +35,7 @@ NU5 also updated a number of existing ZIPs (32, 203, 209, 212, 213, 221, and 401
 
 ## Unified Addresses
 
-Before NU5, each pool had its own address type, and a sender had to know which kind you wanted. Unified Addresses, defined in [ZIP 316](https://zips.z.cash/zip-0316), change that. A single Unified address can bundle receivers for more than one pool, so the sender's wallet just picks the best one it supports.
+Before NU5, each pool had its own address type, and a sender had to know which kind you wanted. Unified Addresses, defined in [ZIP 316](https://zips.z.cash/zip-0316), change that. A single Unified Address can bundle receivers for more than one pool, so the sender's wallet just picks the best one it supports.
 
 ![A unified address bundles receivers for several pools: a transparent receiver, a Sapling receiver, and a new Orchard receiver](/content-images/nu5-unified-address-6e2c84f66e.webp)
 
@@ -64,7 +64,7 @@ What is Orchard? Orchard is Zcash's shielded protocol introduced by NU5. It runs
 
 Do I have to do anything? No. A supported wallet handles NU5 for you. You can keep using older addresses, and you can start using unified Addresses when your wallet offers them.
 
-What is a unified Address? A single address that can hold receivers for more than one pool. The sender's wallet picks the pool it supports, so you do not have to hand out a different address for each type.
+What is a Unified Address? A single address that can hold receivers for more than one pool. The sender's wallet picks the pool it supports, so you do not have to hand out a different address for each type.
 
 Does NU5 remove the trusted setup from my older funds? Not retroactively. Orchard needs no trusted setup, but the Sapling pool's earlier parameters still exist after NU5. The no-setup guarantee applies to funds held in the Orchard pool.
 

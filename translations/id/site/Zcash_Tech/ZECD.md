@@ -4,8 +4,6 @@
 
 # zecd — Server Dompet Terlebih Dahulu Terlindungi
 
-> 🇧🇷 [Versi dalam Bahasa Portugis](/pt/zcash-tech/zecd)
-
 zecd adalah server dompet yang mengutamakan fitur terlindungi untuk Zcash, dibangun di atas [librustzcash](https://github.com/zcash/librustzcash) dan diekspos melalui dialek JSON-RPC Bitcoin Core. zecd memberikan API yang familiar dan kompatibel dengan Bitcoin bagi developer dan integrator pembayaran untuk berinteraksi dengan Zcash — sekaligus menjadikan Orchard (pool paling privat) sebagai default. Dikembangkan oleh [zec.rocks](https://zec.rocks), zecd dirancang untuk menggantikan fungsionalitas dompet `zcashd` dalam deployment cloud-native modern.
 
 **Versi saat ini:** 0.5.0-rc3 (13 Juli 2026) — dengan dukungan Ironwood (NU6.3). Instal melalui `cargo install zecd` atau gunakan Docker image resmi.

@@ -14,13 +14,13 @@
 
 ---
 
-Sei nuovo su Zcash? Questa guida ti accompagnerà nell'onboarding come utente Zcash e detentore di *ZEC*.
+Sei nuovo su Zcash? Questa guida ti accompagnerà nell'onboarding come utente di Zcash e detentore di *ZEC*.
 
 ---
 
 **Acquista ZEC**
 
-Per utilizzare la rete Zcash, devi acquistare la sua valuta, *ZEC*.
+Per utilizzare la rete di Zcash, devi acquistare la sua valuta, *ZEC*.
 
 Il modo più semplice per ottenere ZEC è [acquistarlo su Gemini](https://www.gemini.com/prices/zcash) o su [uno di questi exchange](https://zechub.wiki/using-zcash/custodial-exchanges).
 
@@ -32,7 +32,7 @@ Una nota importante: non è necessario acquistare 1 *ZEC* intero.
 
 **Configura un portafoglio**
 
-Dopo aver acquistato del *ZEC*, potresti volerlo trasferire su un portafoglio Zcash.
+Dopo aver acquistato del *ZEC*, potresti volerlo trasferire su un portafoglio di Zcash.
 
 Questo [articolo spiega](https://www.ledger.com/academy/not-your-keys-not-your-coins-why-it-matters) perché è importante custodire il proprio *ZEC* in un portafoglio.
 
@@ -110,6 +110,6 @@ La comunità è appassionata e molto accogliente con i nuovi arrivati. A volte l
 
 - [Cos'è ZEC e Zcash](/start-here/what-is-zec-and-zcash) — Comprendi le basi prima di iniziare
 - [Acquistare ZEC](/using-zcash/buying-zec) — Elenco completo degli exchange che supportano i prelievi schermati
-- [Portafogli](/using-zcash/wallets) — Confronta tutti i portafogli Zcash per funzionalità e piattaforma
+- [Portafogli](/using-zcash/wallets) — Confronta tutti i portafogli di Zcash per funzionalità e piattaforma
 - [Pool schermate](/using-zcash/shielded-pools) — Scopri perché le transazioni schermate sono importanti
 - [Transazioni](/using-zcash/transactions) — Come inviare e ricevere ZEC in modo privato

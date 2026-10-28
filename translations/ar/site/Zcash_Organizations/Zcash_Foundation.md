@@ -12,9 +12,9 @@
 
 لدى Zcash Foundation نحو 12 موظفًا موزعين في أنحاء العالم. ويركزون على تطوير البروتوكول، وأمن البروتوكول، وحوكمة البروتوكول، وتطوير البنية التحتية، وإدارة فعاليات مجتمع Zcash. ولا يقتصر عمل Zcash Foundation على Zcash فقط، بل يشارك أيضًا في تطوير تقنيات تحافظ على الخصوصية من أجل [المساعدات الإنسانية](https://zfnd.org/sai/) ومن أجل المنفعة العامة على نطاق أوسع.
 
-توفر منح Zcash Foundation للنظام البيئي وسيلة لتمويل المشاريع التي تسهم في منظومة الخصوصية، مثل [Zebra](https://zebra.zfnd.org/) (تنفيذ مستقل للعُقدة لـ Zcash) و[FROST](https://frost.zfnd.org/)، بالإضافة إلى [مشاريع](https://www.coindesk.com/tech/2021/06/08/tor-project-receives-670k-from-zcash-open-major-grants-for-coding-language-upgrade/) أخرى متنوعة من خلال [لجنة منح مجتمع Zcash](https://zcashcommunitygrants.org/). 
+توفر منح Zcash Foundation للنظام البيئي وسيلة لتمويل المشاريع التي تسهم في منظومة الخصوصية، مثل [Zebra](https://zebra.zfnd.org/) (تنفيذ مستقل للعُقدة لـ Zcash) و[FROST](https://frost.zfnd.org/)، بالإضافة إلى [مشاريع](https://www.coindesk.com/tech/2021/06/08/tor-project-receives-670k-from-zcash-open-major-grants-for-coding-language-upgrade/) أخرى متنوعة من خلال [لجنة Zcash Community Grants](https://zcashcommunitygrants.org/). 
 
-كما تستضيف المؤسسة [Zcon](https://zfnd.org/zcon/)، وهو مؤتمر حضوري سنوي يتمحور حول منظومة Zcash، وتدعم مبادرات مجتمعية شعبية مثل [Zcon Vozes](https://zfnd.org/zcon-voices/)، و[مؤتمرات](https://zfnd.org/zcash-dev-summits/) إقليمية متخصصة، و[نادي](https://forum.zcashcommunity.com/t/the-zero-knowledge-audiovisual-club/43733) Zcash Foundation للمواد السمعية/البصرية، والذي أصبح الآن [نادي](https://www.zkav.club/) المعرفة الصفرية السمعي البصري، إضافة إلى [مكالمات](https://zfnd.org/arborist-calls/) مجتمعية مفتوحة متنوعة أخرى، و[فعاليات](https://zfnd.org/zf-events/#:~:text=Zcomm) مجتمعية، و[جلسات AMA](https://forum.zcashcommunity.com/t/community-call-with-the-zcg-candidates-december-2024/49707).
+كما تستضيف المؤسسة [Zcon](https://zfnd.org/zcon/)، وهو مؤتمر حضوري سنوي يتمحور حول منظومة Zcash، وتدعم مبادرات مجتمعية شعبية مثل [Zcon Vozes](https://zfnd.org/zcon-voices/)، و[مؤتمرات](https://zfnd.org/zcash-dev-summits/) إقليمية متخصصة، و[نادي](https://forum.zcashcommunity.com/t/the-zero-knowledge-audiovisual-club/43733) Zcash Foundation للمواد السمعية/البصرية، والذي أصبح الآن [نادي](https://zkav.club/) المعرفة الصفرية السمعي البصري، إضافة إلى [مكالمات](https://zfnd.org/arborist-calls/) مجتمعية مفتوحة متنوعة أخرى، و[فعاليات](https://zfnd.org/zf-events/#:~:text=Zcomm) مجتمعية، و[جلسات AMA](https://forum.zcashcommunity.com/t/community-call-with-the-zcg-candidates-december-2024/49707).
 
 تُطبق Zcash Foundation [سياسة العلامة التجارية لـ Zcash](https://zfnd.org/new-zcash-trademark-policy/) وفقًا للشروط المحدّثة للتبرع بها من Electric Coin Co.، مما يساعد على "حماية سمعة Zcash والكيانات المرتبطة بها ومجتمع Zcash" من خلال "تحديد المصادر الرسمية للمعلومات، وتقليل احتمال المعلومات الاحتيالية أو غير الصحيحة" و"تحديد التطبيقات والخدمات الرسمية، وتقليل احتمال الأنشطة الاحتيالية." 
 
@@ -26,7 +26,7 @@
 
 لم تعد Zcash Foundation تتلقى تمويلًا من [صندوق](https://zips.z.cash/zip-1014) تطوير Zcash اعتبارًا من نوفمبر 2024. ويُخصص تمويل المؤسسة الآن من خلال [تبرعات](https://www.jotform.com/form/251874383638065) تقليدية قابلة للخصم الضريبي. ويمكن الاطلاع على استخدامهم للموارد المالية في [تقارير الشفافية](https://zfnd.org/category/transparency-reports/) الفصلية الخاصة بهم.
 
-## برنامج منح مجتمع Zcash
+## برنامج Zcash Community Grants
 
 <image src="https://zcashcommunitygrants.org/images/logos/yellow/ZCG%20Circle%20Logo-10.png" height="100" width="100" />
   

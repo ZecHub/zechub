@@ -7,7 +7,7 @@
 
 ## In breve
 
-- Acquista ZEC su un exchange che supporti i **prelievi schermati** (Gemini, BitcoinVN, Flyp.me) quando possibile
+- Acquista ZEC su un exchange che supporti i **prelievi schermati** (Gemini, BitcoinVN, flyp.me) quando possibile
 - La maggior parte dei principali exchange centralizzati (Coinbase, Kraken, Binance) supporta **solo i prelievi Transparent** — proteggi il tuo ZEC con lo shielding dopo averlo ricevuto
 - Gli exchange decentralizzati consentono swap non-custodial, ma in genere effettuano i prelievi verso indirizzi Transparent
 - Non è necessario acquistare un intero ZEC — le frazioni vanno benissimo
@@ -28,9 +28,9 @@ Gemini è un exchange di criptovalute regolamentato, con portafoglio e servizio 
 
 BitcoinVN è un exchange istantaneo non-custodial (senza custodia di terzi) che supporta depositi e prelievi schermati (z-indirizzo) per ZEC — uno dei pochissimi exchange a livello globale con pieno supporto per gli indirizzi z. Attivo dal 2014, ti permette di scambiare BTC, ETH, USDT e altre criptovalute in ZEC direttamente verso il tuo portafoglio schermato.
 
-**[Flyp.me](https://flyp.me)**
+**[flyp.me](https://flyp.me)**
 
-Flyp.me è un exchange di criptovalute senza registrazione. È uno dei modi più sicuri e privati per scambiare oltre 30 criptovalute direttamente nel tuo portafoglio. Puoi acquistare ZEC con altre criptovalute.
+flyp.me è un exchange di criptovalute senza registrazione. È uno dei modi più sicuri e privati per scambiare oltre 30 criptovalute direttamente nel tuo portafoglio. Puoi acquistare ZEC con altre criptovalute.
 
 ## Exchange che supportano i prelievi Transparent
 

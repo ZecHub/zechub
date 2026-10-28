@@ -16,7 +16,7 @@
 
 ## Ṣe àkójọ àwọn àpótí FROST
 
-[Ìjápọ̀ Github](https://github.com/ZcashFoundation/frost-zcash-demo)
+[Ìjápọ̀ GitHub](https://github.com/ZcashFoundation/frost-zcash-demo)
 
 Lo ibi ipamọ ti o wa loke ki o tẹle awọn itọnisọna lori kikọ: 
 

@@ -79,7 +79,7 @@ Zaino 开发者也提出了相同观点，并直接引用威胁模型：有“�
 
 ### Zaino，Rust 索引器
 
-[Zaino](/zcash-tech/zaino) 是由 Zingo 团队以 Rust 编写的索引器，旨在作为 zcashd 弃用工作的一部分取代 lightwalletd。它为轻客户端、全客户端和区块浏览器提供服务，读取“Zebra 或 Zcashd 全验证器”持有的链上数据。
+[Zaino](/zcash-tech/zaino) 是由 Zingo 团队以 Rust 编写的索引器，旨在作为 zcashd 弃用工作的一部分取代 lightwalletd。它为轻客户端、全客户端和区块浏览器提供服务，读取“Zebra 或 zcashd 全验证器”持有的链上数据。
 
 它正在积极开发中，0.8.0 版本于 2026 年 8 月发布。它旨在尽可能保持与 lightwalletd 的向后兼容性，因此钱包无需重写即可指向它。
 

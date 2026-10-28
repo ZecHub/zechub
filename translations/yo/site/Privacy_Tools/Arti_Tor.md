@@ -38,7 +38,7 @@ Tẹle awọn igbesẹ wọnyi lati fi sori ẹrọ ati ṣiṣe **Arti** bi a�
 Èyí yóò jẹ́ ìdánilójú wípé o ní àtúnṣe tuntun ti Rust tí ó wà lórí ẹ̀rọ rẹ.
 
 #### **Àkíyèsí fún Àwọn Olùṣàmúlò Windows**:
-- Rust le fi sori ẹrọ lori Windows nipasẹ [**Rustup**](https://rustup.rs/), ohun toolchain installer. Rii daju wipe o ti tun ṣeto soke a ibaramu kọ ayika (o le nilo ** Visual Studio Kọ irinṣẹ** on Windows).
+- Rust le fi sori ẹrọ lori Windows nipasẹ [**rustup**](https://rustup.rs/), ohun toolchain installer. Rii daju wipe o ti tun ṣeto soke a ibaramu kọ ayika (o le nilo ** Visual Studio Kọ irinṣẹ** on Windows).
   
 ---
 

@@ -85,7 +85,7 @@ Fún àpẹẹrẹ, ronú nípa àkójọ NFT lórí Solana; gbogbo ènìyàn l�
 
 
 
-**[Dark.fi](https://dark.fi/)**: DarkFi jẹ́ L1 aláìlórúkọ tí a gbé kalẹ̀ lórí ìmọ̀ òdo, ìṣirò àwọn ẹgbẹ́ púpọ̀, àti ìfọwọ́sowọ́pọ̀ oníṣe. Ẹ̀rí àìlórúkọ máa ń jẹ́ kí àwọn olùṣàyẹ̀wò pamọ́. DarkFi ní àyíká tí ó lòdì sí àìlera láti ṣẹ̀dá àti láti ṣiṣẹ́ àwọn àpù aláìlórúkọ - **Ìyípadà Ohun Èlò**: Bẹ́ẹ̀ni - [Ìwé funfun](https://darkfi.org/whitepaper) - ![Darkfi.png](/content-images/0-auQOzkLMfYdoXlRy-b10ed91da5.webp)
+**[Dark.fi](https://dark.fi/)**: DarkFi jẹ́ L1 aláìlórúkọ tí a gbé kalẹ̀ lórí ìmọ̀ òdo, ìṣirò àwọn ẹgbẹ́ púpọ̀, àti ìfọwọ́sowọ́pọ̀ oníṣe. Ẹ̀rí àìlórúkọ máa ń jẹ́ kí àwọn olùṣàyẹ̀wò pamọ́. DarkFi ní àyíká tí ó lòdì sí àìlera láti ṣẹ̀dá àti láti ṣiṣẹ́ àwọn àpù aláìlórúkọ - **Ìyípadà Ohun Èlò**: Bẹ́ẹ̀ni - [Ìwé funfun](https://darkfi.org/whitepaper) - ![DarkFi.png](/content-images/0-auQOzkLMfYdoXlRy-b10ed91da5.webp)
 ***
 
 

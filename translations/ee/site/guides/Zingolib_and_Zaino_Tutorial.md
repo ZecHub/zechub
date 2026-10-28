@@ -26,7 +26,7 @@
 
 
 - Zcash Zãla Dea/Ƒo Zingolib Si naa mɔɖeɖe ɖe zingo-cli ŋu. Woateŋu aɖo/xɔ ZEC abe alesi wòhiã ene.
-- Zingo-cli doa ka kple zaino le nutoa me alo to mɔnu si le dedie dzi le internet dzi (Zcash zãla metsɔ ɖeke le alesi esia wɔa dɔe me o!)
+- zingo-cli doa ka kple zaino le nutoa me alo to mɔnu si le dedie dzi le internet dzi (Zcash zãla metsɔ ɖeke le alesi esia wɔa dɔe me o!)
 - Zaino ɖe mɔ be woakpɔ zebrad alo zcashd 
 - Fully synced zebrad is source of truth (no more wallets here!)
 

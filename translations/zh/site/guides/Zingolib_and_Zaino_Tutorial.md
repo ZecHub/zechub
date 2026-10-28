@@ -26,7 +26,7 @@
 
 
 - Zcash 用户安装/编译 Zingolib，从而获得对 zingo-cli 的访问权限。他们可以按需发送/接收 ZEC。
-- Zingo-cli 通过本地连接或在线安全通道连接到 zaino（Zcash 用户并不关心这具体是如何实现的！）
+- zingo-cli 通过本地连接或在线安全通道连接到 zaino（Zcash 用户并不关心这具体是如何实现的！）
 - Zaino 允许访问 zebrad 或 zcashd            
 - 完全同步的 zebrad 是可信真相来源（这里不再有钱包！）
 

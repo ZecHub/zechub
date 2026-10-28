@@ -32,7 +32,7 @@ I numeri sopra sono una rappresentazione semplificata. Il vero difetto si trovav
 
 ## La risposta
 
-La comunità Zcash ha distribuito le correzioni in più fasi invece che tutte in una volta.
+La comunità di Zcash ha distribuito le correzioni in più fasi invece che tutte in una volta.
 
 ![Cronologia della risposta di Ironwood: il bug di Orchard viene trovato a maggio 2026, la pool viene messa in pausa a giugno 2026, il circuito viene corretto in NU6.2 e Ironwood si è attivato al blocco 3.428.143 il 28 luglio 2026](/content-images/ironwood-timeline-36243f0cd7.webp)
 

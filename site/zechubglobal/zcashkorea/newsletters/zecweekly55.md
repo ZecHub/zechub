@@ -41,7 +41,7 @@ Free2Z James Katz의 새로운 Zcash 사용자 가이드가 등장했습니다.
 
 #### 커뮤니티 프로젝트
 
-[Zechub과 Zfav Club이 팀을 이루었습니다](https://twitter.com/ZecHub/status/1690001353379135488)
+[ZecHub과 Zfav Club이 팀을 이루었습니다](https://twitter.com/ZecHub/status/1690001353379135488)
 
 [Free2Z Update: 여러 개선사항](https://twitter.com/Edicksonjga/status/1688996155705659392) 🗂️
 
@@ -80,7 +80,7 @@ private 코인에 관심 있는 캐나다인👛
 
 [Zcash에 흥분하지 않을 수 없는 이유](https://twitter.com/ZforZcash/status/1689903350995664896)
 
-[Zcashesp에서 설명하는 Zechub](https://twitter.com/zcashesp/status/1690079675039567872) 📚
+[Zcashesp에서 설명하는 ZecHub](https://twitter.com/zcashesp/status/1690079675039567872) 📚
 
 [Web3 온보딩은 다른 부문만큼이나 중요합니다 - Michae2xl](https://twitter.com/michae2xl/status/1689667573908905984)
 

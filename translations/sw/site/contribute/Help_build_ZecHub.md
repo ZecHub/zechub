@@ -8,7 +8,7 @@ Kama wewe ni mwanachama wa jumuiya ya Zcash, na unataka kuchangia katika kujenga
 
 Tengeneza viungo vya jarida na uviongeze kwenye ukurasa wa GitHub wa jarida: -> [Bonyeza hapa kwa maelekezo](https://github.com/ZecHub/zechub/blob/main/site/contribute/ZecWeekly_Newsletter.md)
 
-Angalia hati za wiki, pendekeza marekebisho, na upendekeze kurasa mpya katika Github
+Angalia hati za wiki, pendekeza marekebisho, na upendekeze kurasa mpya katika GitHub
 
 Unda maudhui ya video katika kategoria zifuatazo:
 ```
@@ -50,9 +50,9 @@ Tunachapisha kazi zilizo wazi kwenye [ZEC Bounties](https://bounties.zechub.wiki
 
 [Zawadi za ZEC](https://bounties.zechub.wiki/)
 
-[Masuala ya Github ya ZecHub](https://github.com/ZecHub/zechub/issues)
+[Masuala ya GitHub ya ZecHub](https://github.com/ZecHub/zechub/issues)
 
-[Masuala ya Github ya ZecHub-Wiki](https://github.com/ZecHub/zechub-wiki/issues)
+[Masuala ya GitHub ya ZecHub-Wiki](https://github.com/ZecHub/zechub-wiki/issues)
 
 
 
