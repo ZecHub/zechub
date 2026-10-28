@@ -75,6 +75,6 @@ Maya Protocolの創世時におけるCACAO準備金は、THORChainの44％に比
 
 DefiSpot：現在はオンラインではなく、ドメインも解決されません。
 
-[XDEFI](https://www.xdefi.io/)：30以上のネイティブブロックチェーン、すべてのEVMおよびCosmosチェーン（ビットコイン、イーサリアム、Solana、THORChain、Maya Protocol、TRONなど）をサポートするマルチエコシステムのセルフカスタディウォレット。
+[Ctrl Wallet (XDEFI)](https://ctrl.xyz/)：30以上のネイティブブロックチェーン、すべてのEVMおよびCosmosチェーン（ビットコイン、イーサリアム、Solana、THORChain、Maya Protocol、TRONなど）をサポートするマルチエコシステムのセルフカスタディウォレット。
 
 [KeepKey](https://keepkey.com/)：デジタル資産を安全に保管するためのハードウェアウォレット。

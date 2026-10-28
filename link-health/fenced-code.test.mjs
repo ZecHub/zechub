@@ -116,6 +116,20 @@ const cases = [
     links: 3,
   },
   {
+    name: "balanced parentheses stay in the link target",
+    lines: [
+      "[trezor](//visible.invalid/Zcash_(ZEC)) and [irs](//visible.invalid/501(c)(3)).",
+      "[titled](//visible.invalid/plain \"Title (x)\") [bare](//visible.invalid/x)",
+    ],
+    visible: [
+      [1, "//visible.invalid/Zcash_(ZEC)"],
+      [1, "//visible.invalid/501(c)(3)"],
+      [2, "//visible.invalid/plain"],
+      [2, "//visible.invalid/x"],
+    ],
+    links: 4,
+  },
+  {
     name: "a closer with a link suffix is still code",
     lines: ["```", "``` [not a closer](//hidden.invalid/suffix)", hidden, "```", after],
     visible: [[5, "//visible.invalid/after"]],

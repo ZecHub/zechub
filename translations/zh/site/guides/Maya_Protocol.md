@@ -75,6 +75,6 @@ ILP 的保障期限取决于 ASSET 和 $CACAO 的表现。如果 ASSET 表现更
 
 DefiSpot：已不再在线，其域名无法解析。
 
-[XDEFI](https://www.xdefi.io/)：一款多生态自托管钱包，支持 30+ 原生区块链，以及所有 EVM 和 Cosmos 链，包括 Bitcoin、Ethereum、Solana、THORChain、Maya Protocol、TRON 等。
+[Ctrl Wallet (XDEFI)](https://ctrl.xyz/)：一款多生态自托管钱包，支持 30+ 原生区块链，以及所有 EVM 和 Cosmos 链，包括 Bitcoin、Ethereum、Solana、THORChain、Maya Protocol、TRON 等。
 
 [KeepKey ](https://keepkey.com/)：一款用于安全存储数字资产的硬件钱包。

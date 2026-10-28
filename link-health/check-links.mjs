@@ -114,8 +114,10 @@ async function walk(dir, out = []) {
 // ── link extraction ──────────────────────────────────────────────────────────
 
 const PATTERNS = [
-  // ![alt](target) and [text](target) — target stops at whitespace or ")"
-  { re: /!?\[[^\]]*\]\(\s*<?([^)\s>]+)>?[^)]*\)/g, group: 1 },
+  // ![alt](target) and [text](target) — target stops at whitespace or at the ")"
+  // closing the link; one level of balanced parentheses stays in the target, as
+  // in CommonMark (https://en.wikipedia.org/wiki/501(c)(3)).
+  { re: /!?\[[^\]]*\]\(\s*<?((?:[^()\s>]|\([^()\s>]*\))+)>?[^)]*\)/g, group: 1 },
   // HTML attributes used by the icon markup in these pages
   { re: /\bsrc\s*=\s*["']([^"']+)["']/gi, group: 1 },
   { re: /\bhref\s*=\s*["']([^"']+)["']/gi, group: 1 },
@@ -205,7 +207,7 @@ async function loadAppRoutes(offline) {
     "protocol-parameters", "zcash-evolution", "visual-identity", "governance-howto",
     "zcash-global-ambassadors", "zcash-payment-uri", "zcash-pool-visualizer",
     "zksnark-proof-visualizer", "zcash-infrastructure-visualizer", "omniflix",
-    "aborist-calls", "zechub-tutorial", "zechub-tutorials", "using-zcash",
+    "arborist-calls", "research/zec-pool-migration/view", "zechub-tutorial", "zechub-tutorials", "using-zcash",
   ];
   if (offline) return new Set(fallback);
   try {

@@ -75,6 +75,6 @@ Pẹlupẹlu, ibi-afẹde Maya ni lati di * backend * fun awọn iṣẹ miiran 
 
 DefiSpot: kò sí lórí ẹ̀rọ mọ́, àdúgbò rẹ ò yanjú.
 
-[XDEFI (ì í ì)](https://www.xdefi.io/): àpò owó tí ó ní ètò-ayé ìbílẹ̀ tó ń dáàbò bo ara rẹ pẹlú atilẹyin fún àwọn ẹyọ ọ̀pá ìdánilẹ́kọ̀ọ́ 30+ àti gbogbo EVM ati Cosmos, títí kan Bitcoin, Ethereum, Solana, THORChain, Maya Protocol, TRON, àti púpọ̀lọpúpọ̀.
+[Ctrl Wallet (XDEFI)](https://ctrl.xyz/): àpò owó tí ó ní ètò-ayé ìbílẹ̀ tó ń dáàbò bo ara rẹ pẹlú atilẹyin fún àwọn ẹyọ ọ̀pá ìdánilẹ́kọ̀ọ́ 30+ àti gbogbo EVM ati Cosmos, títí kan Bitcoin, Ethereum, Solana, THORChain, Maya Protocol, TRON, àti púpọ̀lọpúpọ̀.
 
 [KeepKey ](https://keepkey.com/): Àpò owó ẹ̀rọ fún ìpamọ́ àwọn ohun-ìní díjítálí ní ààbò.
