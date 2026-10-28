@@ -15149,7 +15149,7 @@
       "src_commit": "7f2ae6404e4de308386122dcfd0ef3c1d490735a",
       "engine": "llm",
       "mode": "full",
-      "tool": "google/gemma-4-26b-a4b+handfix",
+      "tool": "google/gemma-4-26b-a4b+handfix+mdxfix",
       "edited": false
     },
     "Using_Zcash/Mobile_Top_Ups.md": {
@@ -15325,7 +15325,7 @@
       "src_commit": "3336a9152b64b4e8894a412cd8de9a2263b90a77",
       "engine": "llm",
       "mode": "full",
-      "tool": "google/gemma-4-26b-a4b+replyfix",
+      "tool": "google/gemma-4-26b-a4b+replyfix+mdxfix",
       "edited": false
     },
     "ZFAV_Club/Guides_for_Creators/Community_Broadcasting.md": {
@@ -16141,7 +16141,7 @@
       "src_commit": "3336a9152b64b4e8894a412cd8de9a2263b90a77",
       "engine": "llm",
       "mode": "full",
-      "tool": "google/gemma-4-26b-a4b+termfix+handfix",
+      "tool": "google/gemma-4-26b-a4b+termfix+handfix+mdxfix",
       "edited": false
     },
     "contribute/Help_build_ZecHub.md": {
@@ -16285,7 +16285,7 @@
       "src_commit": "9a6cb503067585c78f8d1145f895237fbd3d1a5a",
       "engine": "llm",
       "mode": "full",
-      "tool": "google/gemma-4-26b-a4b+handfix",
+      "tool": "google/gemma-4-26b-a4b+handfix+mdxfix",
       "edited": false
     },
     "guides/Migration_Guide_Zcashd_To_Zebrad_Zallet.md": {
@@ -16325,7 +16325,7 @@
       "src_commit": "3336a9152b64b4e8894a412cd8de9a2263b90a77",
       "engine": "llm",
       "mode": "full",
-      "tool": "google/gemma-4-26b-a4b",
+      "tool": "google/gemma-4-26b-a4b+mdxfix",
       "edited": false
     },
     "guides/Raspberry_Pi_4_Full_Node.md": {
@@ -16469,7 +16469,7 @@
       "src_commit": "3336a9152b64b4e8894a412cd8de9a2263b90a77",
       "engine": "llm",
       "mode": "full",
-      "tool": "google/gemma-4-26b-a4b+handfix",
+      "tool": "google/gemma-4-26b-a4b+handfix+mdxfix",
       "edited": false
     },
     "guides/Zkool_Multisig.md": {
