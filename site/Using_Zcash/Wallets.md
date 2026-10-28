@@ -22,7 +22,7 @@
 
 ---
 
-## [Dizzy](https://youtu.be/IVkuo1CGPBU)
+## [Dizzy](https://forum.zcashcommunity.com/t/dizzy-wallet-a-dedicated-zcash-wallet-for-discord/43988)
 ![logo](/content-images/wallets/dizzy.webp "Dizzy")
 - Devices: Mobile | Desktop
 - Operating System: Android | iOS | Windows | Linux | macOS
