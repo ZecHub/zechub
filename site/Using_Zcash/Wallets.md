@@ -11,7 +11,7 @@
 
 ---
 
-## [YWallet](https://ywallet.app/installation/)
+## [YWallet](https://ywallet.app/)
 ![logo](/content-images/wallets/ywallet.webp "YWallet")
 - Status: Deprecated | Dropped Zcash support after the NU6.3 Ironwood upgrade (2026). The author's successor wallet is Zkool.
 - Devices: Mobile | Desktop
@@ -77,7 +77,7 @@
 
 ---
 
-## [Zkool](https://github.com/hhanh00/zkool2/)
+## [Zkool](https://hhanh00.github.io/zkool2/)
 ![logo](/content-images/wallets/zkool.webp "Zkool")
 - Devices: Mobile | Desktop
 - Operating System: Android | iOS | Windows | Linux | macOS
@@ -88,7 +88,7 @@
 
 ---
 
-## [Cake](https://cakewallet.com/install/)
+## [Cake](https://cakewallet.com/)
 ![logo](/content-images/wallets/cake.webp "Cake")
 - Devices: Mobile | Desktop
 - Operating System: Android | iOS | Linux | macOS
@@ -99,7 +99,7 @@
 
 ---
 
-## [Zenith](https://code.vergara.tech/Vergara_Tech/zenith)
+## [Zenith](https://vergara.tech/products/zenith.html)
 ![logo](/content-images/wallets/zenith.webp "Zenith")
 - Devices: Desktop
 - Operating System: Linux | macOS
@@ -199,7 +199,7 @@
 
 ---
 
-## [Trust Wallet](https://trustwallet.com/download)
+## [Trust Wallet](https://trustwallet.com/)
 ![logo](/content-images/wallets/trust-wallet.webp "Trust Wallet")
 - Devices: Mobile | Web
 - Operating System: Android | iOS | Browser
@@ -221,7 +221,7 @@
 
 ---
 
-## [Coinomi](https://www.coinomi.com/en/downloads)
+## [Coinomi](https://www.coinomi.com/)
 ![logo](/content-images/wallets/coinomi.webp "Coinomi")
 - Devices: Mobile
 - Operating System: Android | iOS
@@ -307,7 +307,7 @@
 
 ---
 
-## [LeoDex](https://leodex.io/download)
+## [LeoDex](https://leodex.io/)
 ![logo](/content-images/wallets/leodex.webp "LeoDex")
 - Devices: Desktop | Web
 - Operating System: Windows | Linux | macOS | Browser
@@ -319,7 +319,7 @@
 
 ---
 
-## [Zapp](https://www.justzappit.xyz/app)
+## [Zapp](https://www.justzappit.xyz/)
 ![logo](/content-images/wallets/zapp.webp "Zapp")
 - Devices: Mobile
 - Operating System: Android | iOS
@@ -330,7 +330,7 @@
 
 ---
 
-## [zecd](https://zecd.org/quickstart.html)
+## [zecd](https://zecd.org/)
 ![logo](/content-images/wallets/zecd.webp "zecd")
 - Devices: Desktop
 - Operating System: Linux
