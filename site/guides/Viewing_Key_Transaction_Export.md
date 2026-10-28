@@ -210,6 +210,7 @@ dismad's [zingoHelper](https://github.com/dismad/zingoHelper) has an `exportToJS
 
 ## Related
 
+- [Shielded Transaction Bookkeeping Template](/guides/shielded-bookkeeping-template)
 - [Viewing Keys](/zcash-tech/viewing-keys)
 - [Recovering Funds](/using-zcash/recovering-funds)
 - [Zingolib and Zaino Tutorial](/guides/zingolib-and-zaino-tutorial)
