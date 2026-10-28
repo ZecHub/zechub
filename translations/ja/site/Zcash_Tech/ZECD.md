@@ -4,8 +4,6 @@
 
 # zecd — Shielded-First ウォレットサーバー
 
-> 🇧🇷 [ポルトガル語版](/pt/zcash-tech/zecd)
-
 zecd は Zcash 向けの shielded-first ウォレットサーバーで、[librustzcash](https://github.com/zcash/librustzcash) 上に構築され、Bitcoin Core の JSON-RPC 方言を通じて利用できます。開発者や決済インテグレーターに、Zcash とやり取りするための使い慣れた Bitcoin 互換 API を提供しつつ、Orchard（最もプライベートなプール）をデフォルトにしています。[zec.rocks](https://zec.rocks) によって開発された zecd は、モダンでクラウドネイティブなデプロイメントにおいて `zcashd` のウォレット機能を置き換えるよう設計されています。
 
 **現在のバージョン:** 0.5.0-rc3（2026年7月13日）— Ironwood（NU6.3）をサポート。`cargo install zecd` でインストールするか、公式 Docker イメージを利用できます。

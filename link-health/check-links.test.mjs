@@ -76,6 +76,24 @@ eq("legitimate nested app route",
    routeExists("/developers/quick-start", [], appRoutes),
    { ok: true, how: "app route" });
 
+// Locale-prefixed routes resolve like their English route (the app renders the
+// translation or falls back to English); an unknown prefix is not stripped.
+const zakura = ["site/Zcash_Tech/Zakura_Node.md"];
+eq("localized page",
+   routeExists("/pt/zcash-tech/zakura-node", zakura, appRoutes),
+   { ok: true, how: "fuzzy → site/Zcash_Tech/Zakura_Node.md" });
+eq("localized page with query and fragment",
+   routeExists("/pt/zcash-tech/zakura-node?x=1#setup", zakura, appRoutes),
+   { ok: true, how: "fuzzy → site/Zcash_Tech/Zakura_Node.md" });
+eq("localized app route", routeExists("/ko/wallets", [], appRoutes), { ok: true, how: "app route" });
+eq("locale home", routeExists("/pt", [], appRoutes), { ok: true, how: "site root" });
+eq("missing localized page",
+   routeExists("/pt/zcash-tech/no-such-page", zakura, appRoutes),
+   { ok: false, how: "no file at site/Zcash_Tech/No_Such_Page.md" });
+eq("unknown prefix is not a locale",
+   routeExists("/xx/zcash-tech/zakura-node", zakura, appRoutes),
+   { ok: false, how: "no file at site/Xx/Zcash_Tech/Zakura_Node.md" });
+
 // must NOT match: these are ordinary links and re-probing them is meaningless
 eq("not an archive host", originalOf("https://example.org/web/20250611203406/https://x.test/"), null);
 eq("archive without a target", originalOf(`${A}/20250611203406/`), null);
@@ -84,5 +102,5 @@ eq("the archive home page", originalOf("https://web.archive.org/"), null);
 eq("target without a host", originalOf(`${A}/2022/https://?`), null);
 eq("non-string input", originalOf(Symbol("x")), null);
 
-console.log(failed ? `${failed} failing` : "all 17 cases correct");
+console.log(failed ? `${failed} failing` : "all 23 cases correct");
 process.exit(failed ? 1 : 0);

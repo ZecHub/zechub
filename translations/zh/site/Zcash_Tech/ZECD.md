@@ -4,8 +4,6 @@
 
 # zecd — 以屏蔽为先的钱包服务器
 
-> 🇧🇷 [葡萄牙语版本](/pt/zcash-tech/zecd)
-
 zecd 是一个面向 Zcash、以屏蔽交易为优先的钱包服务器，基于 [librustzcash](https://github.com/zcash/librustzcash) 构建，并通过 Bitcoin Core 的 JSON-RPC 方言对外提供接口。它为开发者和支付集成人员提供了一个熟悉的、兼容 Bitcoin 的 API，用于与 Zcash 交互——同时将 Orchard（隐私性最强的资金池）设为默认选项。zecd 由 [zec.rocks](https://zec.rocks) 开发，旨在在现代云原生部署中替代 `zcashd` 的钱包功能。
 
 **当前版本：** 0.5.0-rc3（2026 年 7 月 13 日）——支持 Ironwood（NU6.3）。可通过 `cargo install zecd` 安装，或使用官方 Docker 镜像。

@@ -4,8 +4,6 @@
 
 # zecd — خادم محفظة يبدأ بالمعاملات المحمية
 
-> 🇧🇷 [النسخة البرتغالية](/pt/zcash-tech/zecd)
-
 zecd هو خادم محفظة يبدأ بالمعاملات المحمية لـ Zcash، مبني على [librustzcash](https://github.com/zcash/librustzcash) ومكشوف عبر لهجة JSON-RPC الخاصة بـ Bitcoin Core. يوفّر للمطورين ومتكاملي المدفوعات واجهة API مألوفة ومتوافقة مع Bitcoin للتفاعل مع Zcash — مع جعل Orchard (أكثر مجمّعات الخصوصية) الخيار الافتراضي. طوّرته [zec.rocks](https://zec.rocks)، وصُمّم zecd ليحل محل وظائف المحفظة في `zcashd` ضمن البيئات الحديثة الأصلية للسحابة.
 
 **الإصدار الحالي:** 0.5.0-rc3 (13 يوليو 2026) — مع دعم Ironwood ‏(NU6.3). ثبّته عبر `cargo install zecd` أو استخدم صورة Docker الرسمية.
