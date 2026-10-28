@@ -177,6 +177,17 @@
 
 ---
 
+## [Zillions](https://zillions.money/)
+![logo](/content-images/zillions.webp "Zillions")
+- Devices: Web
+- Operating System: Browser
+- Wallet Support: Seed Phrase | Unified Address | Hardware
+- Pools: Transparent | Sapling | Ironwood
+- Features: Multi Account | Payment Links | Pool Transfer | Shielded Memo
+- Ironwood: Ready
+
+---
+
 ## [SSP Wallet](https://sspwallet.io)
 ![logo](/content-images/ssp-1-7d96e66117.webp "SSP Wallet")
 - Devices: Mobile | Web
