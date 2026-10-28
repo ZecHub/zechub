@@ -179,6 +179,7 @@ Zcash_Use_Cases/Keeping_Records_With_Shielded_ZEC.md
 Zcash_Use_Cases/Pay_For_Ai_With_Shielded_ZEC.md
 Zcash_Use_Cases/Private_Community_Treasury.md
 Zcash_Use_Cases/Receive_Donations_Privately.md
+Zcash_Use_Cases/Run_A_ZEC_Fundraising_Campaign.md
 Zcash_Use_Cases/Send_Money_Without_Linking_Identity.md
 Zcash_Use_Cases/Sign_in_With_Zcash.md
 Zcash_Use_Cases/Where_To_Donate_ZEC.md
