@@ -4,8 +4,6 @@
 
 # zecd — Shielded-First Wallet सर्वर
 
-> 🇧🇷 [पुर्तगाली संस्करण](/pt/zcash-tech/zecd)
-
 zecd, Zcash के लिए एक shielded-first wallet सर्वर है, जो [librustzcash](https://github.com/zcash/librustzcash) पर बनाया गया है और Bitcoin Core की JSON-RPC dialect के माध्यम से उपलब्ध कराया गया है। यह डेवलपर्स और payment integrators को Zcash के साथ इंटरैक्ट करने के लिए एक परिचित, Bitcoin-compatible API देता है — जबकि Orchard (सबसे निजी pool) को डिफ़ॉल्ट बनाता है। [zec.rocks](https://zec.rocks) द्वारा विकसित, zecd को आधुनिक, cloud-native deployments में `zcashd` की wallet functionality को प्रतिस्थापित करने के लिए डिज़ाइन किया गया है।
 
 **वर्तमान संस्करण:** 0.5.0-rc3 (13 जुलाई, 2026) — Ironwood (NU6.3) समर्थन के साथ। `cargo install zecd` के माध्यम से इंस्टॉल करें या आधिकारिक Docker image का उपयोग करें।

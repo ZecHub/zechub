@@ -75,6 +75,6 @@ Maya هو تفرع من THORChain لكنه مزود ببعض الميزات وا
 
 DefiSpot: لم يعد متاحًا عبر الإنترنت، إذ إن نطاقه لم يعد يُحلّ.
 
-[XDEFI](https://www.xdefi.io/): محفظة حفظ ذاتي متعددة المنظومات البيئية تدعم أكثر من 30 سلسلة كتل أصلية، وجميع سلاسل EVM و Cosmos، بما في ذلك Bitcoin و Ethereum و Solana و THORChain و Maya Protocol و TRON وغيرها.
+[Ctrl Wallet (XDEFI)](https://ctrl.xyz/): محفظة حفظ ذاتي متعددة المنظومات البيئية تدعم أكثر من 30 سلسلة كتل أصلية، وجميع سلاسل EVM و Cosmos، بما في ذلك Bitcoin و Ethereum و Solana و THORChain و Maya Protocol و TRON وغيرها.
 
 [KeepKey ](https://keepkey.com/): محفظة عتادية لتخزين الأصول الرقمية بأمان.

@@ -75,6 +75,6 @@ Hapa ni orodha ya baadhi ya huduma ambazo tayari kusaidia Maya:
 
 DefiSpot: tena online, uwanja wake haina kutatua.
 
-[XDEFI](https://www.xdefi.io/): a multi-ecosystem self-custody wallet with support for 30+ native blockchains, and all EVM and Cosmos chains, including Bitcoin, Ethereum, Solana, THORChain, Maya Protocol, TRON, and more.
+[Ctrl Wallet (XDEFI)](https://ctrl.xyz/): a multi-ecosystem self-custody wallet with support for 30+ native blockchains, and all EVM and Cosmos chains, including Bitcoin, Ethereum, Solana, THORChain, Maya Protocol, TRON, and more.
 
 [KeepKey ](https://keepkey.com/): mkoba vifaa kwa ajili ya kuhifadhi salama mali digital.

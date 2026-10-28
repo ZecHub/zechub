@@ -75,6 +75,6 @@ Nke a bụ ndepụta nke ụfọdụ ọrụ ndị na-akwado Maya:
 
 DefiSpot: ọ bụghịzi n'ịntanetị, ngalaba ya anaghị edozi.
 
-[XDEFI](https://www.xdefi.io/): obere akpa nchekwa onwe-nchekwa ọtụtụ usoro ihe omume nwere nkwado maka 30+ blockchains, na EVM niile na Cosmos chains, gụnyere Bitcoin, Ethereum, Solana, THORChain, Maya Protocol, TRON, na ndị ọzọ.
+[Ctrl Wallet (XDEFI)](https://ctrl.xyz/): obere akpa nchekwa onwe-nchekwa ọtụtụ usoro ihe omume nwere nkwado maka 30+ blockchains, na EVM niile na Cosmos chains, gụnyere Bitcoin, Ethereum, Solana, THORChain, Maya Protocol, TRON, na ndị ọzọ.
 
 [KeepKey ](https://keepkey.com/): Akpa ego ngwaike maka nchekwa echekwara dijitalụ.

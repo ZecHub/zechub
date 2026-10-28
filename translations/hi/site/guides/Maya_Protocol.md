@@ -75,6 +75,6 @@ Maya Protocol की genesis के समय, उपलब्ध CACAO reserves
 
 DefiSpot: अब ऑनलाइन नहीं है, इसका डोमेन रेज़ॉल्व नहीं होता।
 
-[XDEFI](https://www.xdefi.io/): 30+ native blockchains, और सभी EVM तथा Cosmos chains के support वाला एक multi-ecosystem self-custody wallet, जिसमें Bitcoin, Ethereum, Solana, THORChain, Maya Protocol, TRON, और अन्य शामिल हैं।
+[Ctrl Wallet (XDEFI)](https://ctrl.xyz/): 30+ native blockchains, और सभी EVM तथा Cosmos chains के support वाला एक multi-ecosystem self-custody wallet, जिसमें Bitcoin, Ethereum, Solana, THORChain, Maya Protocol, TRON, और अन्य शामिल हैं।
 
 [KeepKey ](https://keepkey.com/): digital assets को सुरक्षित रूप से store करने के लिए एक hardware wallet।

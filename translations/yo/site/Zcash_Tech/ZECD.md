@@ -4,8 +4,6 @@
 
 # zecd  Olùpèsè Wọ́léètì Ààbò-Kàkọ̀
 
-> 🇧🇷 [Ìtumọ̀ èdè Potogí](/pt/zcash-tech/zecd)
-
 zecd jẹ olupin apamọwọ akọkọ-alabo fun Zcash, ti a kọ lori [librustzcash](https://github.com/zcash/librustzcash) ati ki o farahan nipasẹ Bitcoin Core ká JSON-RPC ede. O fun awọn Difelopa ati owo integrators a mọ, Bitcoin-ibamu API fun ibaraẹnisọrọ pẹlu Zcash  nigba ti ṣiṣe Orchard (awọn julọ ikọkọ adagun) aiyipada. Ṣiṣẹda nipa [zec.rocks](https://zec.rocks), A ṣe zecd lati rọpo awọn ohun elo ti o ni agbara. `zcashd`'s wallet functionality ni igbalode, awọsanma-abinibi deployments.
 
 ** Ẹya lọwọlọwọ:** 0.5.0-rc3 (Oṣù Keje 13, 2026)  pẹlu atilẹyin Ironwood (NU6.3). Fi sori ẹrọ nipasẹ `cargo install zecd` tàbí lo àwòrán Docker tí wọ́n ṣe lábẹ́ òfin.

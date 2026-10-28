@@ -4,8 +4,6 @@
 
 # Nó Zakura
 
-> 🇧🇷 [Versão em Português](/pt/zcash-tech/zakura-node)
-
 Zakura é uma implementação gratuita e open-source de nó integral para o Zcash, criada para escalar. Derivada de [Zebra](Zebra_Full_Node.md) e desenvolvida por meio de uma colaboração entre o **Valar Group** e o **Project Tachyon**, Zakura oferece sincronização drasticamente mais rápida, poda nativa de blocos e uma camada de compatibilidade para ferramentas legadas de `zcashd`. A versão 1.0.0 foi lançada em 15 de julho de 2026.
 
 ---

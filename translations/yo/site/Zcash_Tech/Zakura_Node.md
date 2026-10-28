@@ -4,8 +4,6 @@
 
 # Zakura Node
 
-> 🇧🇷 [Versão em Portuguese](/pt/zcash-tech/zakura-node)
-
 Zakura jẹ́ ìṣiṣẹ́ nódù ọ̀fẹ́, orísun gbogbo nódù tí ó ṣí sílẹ̀ fún Zcash, tí a ṣe fún ìwọ̀n. [Zebra](Zebra_Full_Node.md) àti nípasẹ̀ ìfọwọ́sowọ́pọ̀ láàrín **Valar Group** àti **Project Tachyon**, Zakura ń ṣe ìmúṣẹpọ̀ kíákíá, ìgé igi ìbílẹ̀, àti ipele ìbáramu fún ohun ìní. `zcashd` irinṣẹ́. Ẹ̀yà 1.0.0 ni a tú síta ní ọjọ́ kẹẹ̀ẹ́dógún oṣù Keje, ọdún 2026.
 
 ---

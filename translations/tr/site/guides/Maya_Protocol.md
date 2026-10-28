@@ -75,6 +75,6 @@ Bir *backend* olarak çalışan Maya'nın kullanılabilmesi için farklı kullan
 
 DefiSpot: artık çevrimiçi değil, alan adı çözümlenmiyor.
 
-[XDEFI](https://www.xdefi.io/): Bitcoin, Ethereum, Solana, THORChain, Maya Protocol, TRON ve daha fazlası dahil olmak üzere 30’dan fazla yerel blokzinciri ile tüm EVM ve Cosmos zincirlerini destekleyen, çok ekosistemli bir self-custody cüzdan.
+[Ctrl Wallet (XDEFI)](https://ctrl.xyz/): Bitcoin, Ethereum, Solana, THORChain, Maya Protocol, TRON ve daha fazlası dahil olmak üzere 30’dan fazla yerel blokzinciri ile tüm EVM ve Cosmos zincirlerini destekleyen, çok ekosistemli bir self-custody cüzdan.
 
 [KeepKey ](https://keepkey.com/): Dijital varlıkları güvenli bir şekilde saklamak için kullanılan bir donanım cüzdanı.

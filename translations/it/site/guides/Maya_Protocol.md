@@ -75,6 +75,6 @@ Ecco un elenco con alcuni dei servizi che già supportano Maya:
 
 DefiSpot: non è più online, il suo dominio non viene risolto.
 
-[XDEFI](https://www.xdefi.io/): un portafoglio in autocustodia multi-ecosistema con supporto per oltre 30 blockchain native e tutte le chain EVM e Cosmos, tra cui Bitcoin, Ethereum, Solana, THORChain, Maya Protocol, TRON e altre.
+[Ctrl Wallet (XDEFI)](https://ctrl.xyz/): un portafoglio in autocustodia multi-ecosistema con supporto per oltre 30 blockchain native e tutte le chain EVM e Cosmos, tra cui Bitcoin, Ethereum, Solana, THORChain, Maya Protocol, TRON e altre.
 
 [KeepKey ](https://keepkey.com/): un portafoglio hardware per conservare in modo sicuro gli asset digitali.
