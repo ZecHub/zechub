@@ -9,7 +9,7 @@ Postingan Blog [](https://nym.com/blog/nymvpn-with-zcash) | [Unduh Nym VPN](http
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
     className="w-full h-full"
-    src="https://www.youtube.com/embed/gSeECj4ddYA""
+    src="https://www.youtube.com/embed/gSeECj4ddYA"
     title="Cara Membeli NymVPN dengan Zcash (ZEC)"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowFullScreen

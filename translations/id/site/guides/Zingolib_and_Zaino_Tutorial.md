@@ -11,7 +11,7 @@
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
     className="w-full h-full"
-    src="https://www.youtube.com/embed/b5dIuGstMvI""
+    src="https://www.youtube.com/embed/b5dIuGstMvI"
     title="Pengenalan tentang Zingolib + Zaino"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowFullScreen
