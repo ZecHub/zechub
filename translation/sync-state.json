@@ -905,7 +905,7 @@
       "edited": false
     },
     "Zcash_Organizations/Zcash_Foundation.md": {
-      "src": "sha256:efe0c38c882d9e58f5bea002056202cadc8dc611d6d038a665e304ef3465f200",
+      "src": "sha256:886c0243ac914d11ed3ba97befe598134a7a6471bbfd2b597b8e31bf6711cec4",
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "gt",
       "mode": "seed",
@@ -1177,7 +1177,7 @@
       "edited": false
     },
     "Zcash_Tech/ZECD.md": {
-      "src": "sha256:20c2011645d6819c274796521f8a2c3a562a18098363776d383d3b3a48994159",
+      "src": "sha256:8daf3d865a3f63775b0744c0e6e7a837217477543ba0d96278b01b91111f38ce",
       "src_commit": "6bf61545802a69166d802910b29e73604c2d0ef5",
       "engine": "gt",
       "mode": "full",
@@ -1193,7 +1193,7 @@
       "edited": false
     },
     "Zcash_Tech/Zakura_Node.md": {
-      "src": "sha256:d54b8bf72317307c7920e0e00017d8bebae0d55ad777025c160a52499c884c44",
+      "src": "sha256:31d143a574828f6822578f76bdd6cb0b2baffed3fcd1ddbfcfbd1e2f2b1ac33b",
       "src_commit": "6bf61545802a69166d802910b29e73604c2d0ef5",
       "engine": "gt",
       "mode": "full",
@@ -1577,7 +1577,7 @@
       "edited": false
     },
     "guides/Maya_Protocol.md": {
-      "src": "sha256:019c08f7e76837ec0b3ba145472b6c415fe751c383f2c1cd4fa71a0370e14d1f",
+      "src": "sha256:c816fbddb48288f5f9f337191bc0881643f4477f7701579150af6388fef62b27",
       "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
       "engine": "nllb",
       "mode": "full",
@@ -2723,7 +2723,7 @@
       "edited": false
     },
     "Zcash_Organizations/Zcash_Foundation.md": {
-      "src": "sha256:efe0c38c882d9e58f5bea002056202cadc8dc611d6d038a665e304ef3465f200",
+      "src": "sha256:886c0243ac914d11ed3ba97befe598134a7a6471bbfd2b597b8e31bf6711cec4",
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
@@ -3003,7 +3003,7 @@
       "edited": false
     },
     "Zcash_Tech/ZECD.md": {
-      "src": "sha256:20c2011645d6819c274796521f8a2c3a562a18098363776d383d3b3a48994159",
+      "src": "sha256:8daf3d865a3f63775b0744c0e6e7a837217477543ba0d96278b01b91111f38ce",
       "src_commit": "6bf61545802a69166d802910b29e73604c2d0ef5",
       "engine": "llm",
       "mode": "diff",
@@ -3019,7 +3019,7 @@
       "edited": false
     },
     "Zcash_Tech/Zakura_Node.md": {
-      "src": "sha256:d54b8bf72317307c7920e0e00017d8bebae0d55ad777025c160a52499c884c44",
+      "src": "sha256:31d143a574828f6822578f76bdd6cb0b2baffed3fcd1ddbfcfbd1e2f2b1ac33b",
       "src_commit": "6bf61545802a69166d802910b29e73604c2d0ef5",
       "engine": "llm",
       "mode": "full",
@@ -3411,7 +3411,7 @@
       "edited": false
     },
     "guides/Maya_Protocol.md": {
-      "src": "sha256:019c08f7e76837ec0b3ba145472b6c415fe751c383f2c1cd4fa71a0370e14d1f",
+      "src": "sha256:c816fbddb48288f5f9f337191bc0881643f4477f7701579150af6388fef62b27",
       "src_commit": "05d3dc55ebb691431f622043b1ad963c40f63d32",
       "engine": "llm",
       "mode": "diff",
@@ -4565,7 +4565,7 @@
       "edited": false
     },
     "Zcash_Organizations/Zcash_Foundation.md": {
-      "src": "sha256:efe0c38c882d9e58f5bea002056202cadc8dc611d6d038a665e304ef3465f200",
+      "src": "sha256:886c0243ac914d11ed3ba97befe598134a7a6471bbfd2b597b8e31bf6711cec4",
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
@@ -4845,7 +4845,7 @@
       "edited": false
     },
     "Zcash_Tech/ZECD.md": {
-      "src": "sha256:20c2011645d6819c274796521f8a2c3a562a18098363776d383d3b3a48994159",
+      "src": "sha256:8daf3d865a3f63775b0744c0e6e7a837217477543ba0d96278b01b91111f38ce",
       "src_commit": "6bf61545802a69166d802910b29e73604c2d0ef5",
       "engine": "llm",
       "mode": "diff",
@@ -4861,7 +4861,7 @@
       "edited": false
     },
     "Zcash_Tech/Zakura_Node.md": {
-      "src": "sha256:d54b8bf72317307c7920e0e00017d8bebae0d55ad777025c160a52499c884c44",
+      "src": "sha256:31d143a574828f6822578f76bdd6cb0b2baffed3fcd1ddbfcfbd1e2f2b1ac33b",
       "src_commit": "6bf61545802a69166d802910b29e73604c2d0ef5",
       "engine": "llm",
       "mode": "diff",
@@ -5253,7 +5253,7 @@
       "edited": false
     },
     "guides/Maya_Protocol.md": {
-      "src": "sha256:019c08f7e76837ec0b3ba145472b6c415fe751c383f2c1cd4fa71a0370e14d1f",
+      "src": "sha256:c816fbddb48288f5f9f337191bc0881643f4477f7701579150af6388fef62b27",
       "src_commit": "05d3dc55ebb691431f622043b1ad963c40f63d32",
       "engine": "llm",
       "mode": "full",
@@ -6407,7 +6407,7 @@
       "edited": false
     },
     "Zcash_Organizations/Zcash_Foundation.md": {
-      "src": "sha256:efe0c38c882d9e58f5bea002056202cadc8dc611d6d038a665e304ef3465f200",
+      "src": "sha256:886c0243ac914d11ed3ba97befe598134a7a6471bbfd2b597b8e31bf6711cec4",
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "gt",
       "mode": "seed",
@@ -6679,7 +6679,7 @@
       "edited": false
     },
     "Zcash_Tech/ZECD.md": {
-      "src": "sha256:20c2011645d6819c274796521f8a2c3a562a18098363776d383d3b3a48994159",
+      "src": "sha256:8daf3d865a3f63775b0744c0e6e7a837217477543ba0d96278b01b91111f38ce",
       "src_commit": "6bf61545802a69166d802910b29e73604c2d0ef5",
       "engine": "gt",
       "mode": "full",
@@ -6695,7 +6695,7 @@
       "edited": false
     },
     "Zcash_Tech/Zakura_Node.md": {
-      "src": "sha256:d54b8bf72317307c7920e0e00017d8bebae0d55ad777025c160a52499c884c44",
+      "src": "sha256:31d143a574828f6822578f76bdd6cb0b2baffed3fcd1ddbfcfbd1e2f2b1ac33b",
       "src_commit": "6bf61545802a69166d802910b29e73604c2d0ef5",
       "engine": "gt",
       "mode": "full",
@@ -7079,7 +7079,7 @@
       "edited": false
     },
     "guides/Maya_Protocol.md": {
-      "src": "sha256:019c08f7e76837ec0b3ba145472b6c415fe751c383f2c1cd4fa71a0370e14d1f",
+      "src": "sha256:c816fbddb48288f5f9f337191bc0881643f4477f7701579150af6388fef62b27",
       "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
       "engine": "nllb",
       "mode": "full",
@@ -8185,7 +8185,7 @@
       "edited": false
     },
     "guides/Maya_Protocol.md": {
-      "src": "sha256:019c08f7e76837ec0b3ba145472b6c415fe751c383f2c1cd4fa71a0370e14d1f",
+      "src": "sha256:c816fbddb48288f5f9f337191bc0881643f4477f7701579150af6388fef62b27",
       "src_commit": "861d6584cc8095af8af59e1f11508992e35f7c40",
       "engine": "llm",
       "mode": "full",
@@ -8745,7 +8745,7 @@
       "edited": false
     },
     "Zcash_Organizations/Zcash_Foundation.md": {
-      "src": "sha256:efe0c38c882d9e58f5bea002056202cadc8dc611d6d038a665e304ef3465f200",
+      "src": "sha256:886c0243ac914d11ed3ba97befe598134a7a6471bbfd2b597b8e31bf6711cec4",
       "src_commit": "861d6584cc8095af8af59e1f11508992e35f7c40",
       "engine": "llm",
       "mode": "full",
@@ -8897,7 +8897,7 @@
       "edited": false
     },
     "Zcash_Tech/Zakura_Node.md": {
-      "src": "sha256:d54b8bf72317307c7920e0e00017d8bebae0d55ad777025c160a52499c884c44",
+      "src": "sha256:31d143a574828f6822578f76bdd6cb0b2baffed3fcd1ddbfcfbd1e2f2b1ac33b",
       "src_commit": "861d6584cc8095af8af59e1f11508992e35f7c40",
       "engine": "llm",
       "mode": "full",
@@ -8945,7 +8945,7 @@
       "edited": false
     },
     "Zcash_Tech/ZECD.md": {
-      "src": "sha256:20c2011645d6819c274796521f8a2c3a562a18098363776d383d3b3a48994159",
+      "src": "sha256:8daf3d865a3f63775b0744c0e6e7a837217477543ba0d96278b01b91111f38ce",
       "src_commit": "861d6584cc8095af8af59e1f11508992e35f7c40",
       "engine": "llm",
       "mode": "full",
@@ -10067,7 +10067,7 @@
       "edited": false
     },
     "Zcash_Organizations/Zcash_Foundation.md": {
-      "src": "sha256:efe0c38c882d9e58f5bea002056202cadc8dc611d6d038a665e304ef3465f200",
+      "src": "sha256:886c0243ac914d11ed3ba97befe598134a7a6471bbfd2b597b8e31bf6711cec4",
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
@@ -10347,7 +10347,7 @@
       "edited": false
     },
     "Zcash_Tech/ZECD.md": {
-      "src": "sha256:20c2011645d6819c274796521f8a2c3a562a18098363776d383d3b3a48994159",
+      "src": "sha256:8daf3d865a3f63775b0744c0e6e7a837217477543ba0d96278b01b91111f38ce",
       "src_commit": "6bf61545802a69166d802910b29e73604c2d0ef5",
       "engine": "llm",
       "mode": "diff",
@@ -10363,7 +10363,7 @@
       "edited": false
     },
     "Zcash_Tech/Zakura_Node.md": {
-      "src": "sha256:d54b8bf72317307c7920e0e00017d8bebae0d55ad777025c160a52499c884c44",
+      "src": "sha256:31d143a574828f6822578f76bdd6cb0b2baffed3fcd1ddbfcfbd1e2f2b1ac33b",
       "src_commit": "6bf61545802a69166d802910b29e73604c2d0ef5",
       "engine": "llm",
       "mode": "full",
@@ -10755,7 +10755,7 @@
       "edited": false
     },
     "guides/Maya_Protocol.md": {
-      "src": "sha256:019c08f7e76837ec0b3ba145472b6c415fe751c383f2c1cd4fa71a0370e14d1f",
+      "src": "sha256:c816fbddb48288f5f9f337191bc0881643f4477f7701579150af6388fef62b27",
       "src_commit": "05d3dc55ebb691431f622043b1ad963c40f63d32",
       "engine": "llm",
       "mode": "diff",
@@ -11909,7 +11909,7 @@
       "edited": false
     },
     "Zcash_Organizations/Zcash_Foundation.md": {
-      "src": "sha256:efe0c38c882d9e58f5bea002056202cadc8dc611d6d038a665e304ef3465f200",
+      "src": "sha256:886c0243ac914d11ed3ba97befe598134a7a6471bbfd2b597b8e31bf6711cec4",
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
@@ -12189,7 +12189,7 @@
       "edited": false
     },
     "Zcash_Tech/ZECD.md": {
-      "src": "sha256:20c2011645d6819c274796521f8a2c3a562a18098363776d383d3b3a48994159",
+      "src": "sha256:8daf3d865a3f63775b0744c0e6e7a837217477543ba0d96278b01b91111f38ce",
       "src_commit": "6bf61545802a69166d802910b29e73604c2d0ef5",
       "engine": "llm",
       "mode": "diff",
@@ -12205,7 +12205,7 @@
       "edited": false
     },
     "Zcash_Tech/Zakura_Node.md": {
-      "src": "sha256:d54b8bf72317307c7920e0e00017d8bebae0d55ad777025c160a52499c884c44",
+      "src": "sha256:31d143a574828f6822578f76bdd6cb0b2baffed3fcd1ddbfcfbd1e2f2b1ac33b",
       "src_commit": "6bf61545802a69166d802910b29e73604c2d0ef5",
       "engine": "llm",
       "mode": "full",
@@ -12597,7 +12597,7 @@
       "edited": false
     },
     "guides/Maya_Protocol.md": {
-      "src": "sha256:019c08f7e76837ec0b3ba145472b6c415fe751c383f2c1cd4fa71a0370e14d1f",
+      "src": "sha256:c816fbddb48288f5f9f337191bc0881643f4477f7701579150af6388fef62b27",
       "src_commit": "05d3dc55ebb691431f622043b1ad963c40f63d32",
       "engine": "llm",
       "mode": "diff",
@@ -13751,7 +13751,7 @@
       "edited": false
     },
     "Zcash_Organizations/Zcash_Foundation.md": {
-      "src": "sha256:efe0c38c882d9e58f5bea002056202cadc8dc611d6d038a665e304ef3465f200",
+      "src": "sha256:886c0243ac914d11ed3ba97befe598134a7a6471bbfd2b597b8e31bf6711cec4",
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
@@ -14031,7 +14031,7 @@
       "edited": false
     },
     "Zcash_Tech/ZECD.md": {
-      "src": "sha256:20c2011645d6819c274796521f8a2c3a562a18098363776d383d3b3a48994159",
+      "src": "sha256:8daf3d865a3f63775b0744c0e6e7a837217477543ba0d96278b01b91111f38ce",
       "src_commit": "6bf61545802a69166d802910b29e73604c2d0ef5",
       "engine": "llm",
       "mode": "diff",
@@ -14047,7 +14047,7 @@
       "edited": false
     },
     "Zcash_Tech/Zakura_Node.md": {
-      "src": "sha256:d54b8bf72317307c7920e0e00017d8bebae0d55ad777025c160a52499c884c44",
+      "src": "sha256:31d143a574828f6822578f76bdd6cb0b2baffed3fcd1ddbfcfbd1e2f2b1ac33b",
       "src_commit": "6bf61545802a69166d802910b29e73604c2d0ef5",
       "engine": "llm",
       "mode": "full",
@@ -14439,7 +14439,7 @@
       "edited": false
     },
     "guides/Maya_Protocol.md": {
-      "src": "sha256:019c08f7e76837ec0b3ba145472b6c415fe751c383f2c1cd4fa71a0370e14d1f",
+      "src": "sha256:c816fbddb48288f5f9f337191bc0881643f4477f7701579150af6388fef62b27",
       "src_commit": "05d3dc55ebb691431f622043b1ad963c40f63d32",
       "engine": "llm",
       "mode": "diff",
@@ -15593,7 +15593,7 @@
       "edited": false
     },
     "Zcash_Organizations/Zcash_Foundation.md": {
-      "src": "sha256:efe0c38c882d9e58f5bea002056202cadc8dc611d6d038a665e304ef3465f200",
+      "src": "sha256:886c0243ac914d11ed3ba97befe598134a7a6471bbfd2b597b8e31bf6711cec4",
       "src_commit": "49adb4bc5f4d2ac1bfcaad0ee49d2d29328afd2d",
       "engine": "llm",
       "mode": "full",
@@ -15873,7 +15873,7 @@
       "edited": false
     },
     "Zcash_Tech/ZECD.md": {
-      "src": "sha256:20c2011645d6819c274796521f8a2c3a562a18098363776d383d3b3a48994159",
+      "src": "sha256:8daf3d865a3f63775b0744c0e6e7a837217477543ba0d96278b01b91111f38ce",
       "src_commit": "6bf61545802a69166d802910b29e73604c2d0ef5",
       "engine": "llm",
       "mode": "full",
@@ -15889,7 +15889,7 @@
       "edited": false
     },
     "Zcash_Tech/Zakura_Node.md": {
-      "src": "sha256:d54b8bf72317307c7920e0e00017d8bebae0d55ad777025c160a52499c884c44",
+      "src": "sha256:31d143a574828f6822578f76bdd6cb0b2baffed3fcd1ddbfcfbd1e2f2b1ac33b",
       "src_commit": "6bf61545802a69166d802910b29e73604c2d0ef5",
       "engine": "llm",
       "mode": "full",
@@ -16281,7 +16281,7 @@
       "edited": false
     },
     "guides/Maya_Protocol.md": {
-      "src": "sha256:019c08f7e76837ec0b3ba145472b6c415fe751c383f2c1cd4fa71a0370e14d1f",
+      "src": "sha256:c816fbddb48288f5f9f337191bc0881643f4477f7701579150af6388fef62b27",
       "src_commit": "9a6cb503067585c78f8d1145f895237fbd3d1a5a",
       "engine": "llm",
       "mode": "full",
@@ -17435,7 +17435,7 @@
       "edited": false
     },
     "Zcash_Organizations/Zcash_Foundation.md": {
-      "src": "sha256:efe0c38c882d9e58f5bea002056202cadc8dc611d6d038a665e304ef3465f200",
+      "src": "sha256:886c0243ac914d11ed3ba97befe598134a7a6471bbfd2b597b8e31bf6711cec4",
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "nllb",
       "mode": "seed",
@@ -17715,7 +17715,7 @@
       "edited": false
     },
     "Zcash_Tech/ZECD.md": {
-      "src": "sha256:20c2011645d6819c274796521f8a2c3a562a18098363776d383d3b3a48994159",
+      "src": "sha256:8daf3d865a3f63775b0744c0e6e7a837217477543ba0d96278b01b91111f38ce",
       "src_commit": "6bf61545802a69166d802910b29e73604c2d0ef5",
       "engine": "nllb",
       "mode": "full",
@@ -17731,7 +17731,7 @@
       "edited": false
     },
     "Zcash_Tech/Zakura_Node.md": {
-      "src": "sha256:d54b8bf72317307c7920e0e00017d8bebae0d55ad777025c160a52499c884c44",
+      "src": "sha256:31d143a574828f6822578f76bdd6cb0b2baffed3fcd1ddbfcfbd1e2f2b1ac33b",
       "src_commit": "6bf61545802a69166d802910b29e73604c2d0ef5",
       "engine": "gt",
       "mode": "full",
@@ -18115,7 +18115,7 @@
       "edited": false
     },
     "guides/Maya_Protocol.md": {
-      "src": "sha256:019c08f7e76837ec0b3ba145472b6c415fe751c383f2c1cd4fa71a0370e14d1f",
+      "src": "sha256:c816fbddb48288f5f9f337191bc0881643f4477f7701579150af6388fef62b27",
       "src_commit": "b5633eaaccace3fd3ee0ca93a503e6860c8dd120",
       "engine": "nllb",
       "mode": "full",
@@ -19261,7 +19261,7 @@
       "edited": false
     },
     "Zcash_Organizations/Zcash_Foundation.md": {
-      "src": "sha256:efe0c38c882d9e58f5bea002056202cadc8dc611d6d038a665e304ef3465f200",
+      "src": "sha256:886c0243ac914d11ed3ba97befe598134a7a6471bbfd2b597b8e31bf6711cec4",
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
@@ -19541,7 +19541,7 @@
       "edited": false
     },
     "Zcash_Tech/ZECD.md": {
-      "src": "sha256:20c2011645d6819c274796521f8a2c3a562a18098363776d383d3b3a48994159",
+      "src": "sha256:8daf3d865a3f63775b0744c0e6e7a837217477543ba0d96278b01b91111f38ce",
       "src_commit": "6bf61545802a69166d802910b29e73604c2d0ef5",
       "engine": "llm",
       "mode": "diff",
@@ -19557,7 +19557,7 @@
       "edited": false
     },
     "Zcash_Tech/Zakura_Node.md": {
-      "src": "sha256:d54b8bf72317307c7920e0e00017d8bebae0d55ad777025c160a52499c884c44",
+      "src": "sha256:31d143a574828f6822578f76bdd6cb0b2baffed3fcd1ddbfcfbd1e2f2b1ac33b",
       "src_commit": "6bf61545802a69166d802910b29e73604c2d0ef5",
       "engine": "llm",
       "mode": "full",
@@ -19949,7 +19949,7 @@
       "edited": false
     },
     "guides/Maya_Protocol.md": {
-      "src": "sha256:019c08f7e76837ec0b3ba145472b6c415fe751c383f2c1cd4fa71a0370e14d1f",
+      "src": "sha256:c816fbddb48288f5f9f337191bc0881643f4477f7701579150af6388fef62b27",
       "src_commit": "05d3dc55ebb691431f622043b1ad963c40f63d32",
       "engine": "llm",
       "mode": "diff",
@@ -21103,7 +21103,7 @@
       "edited": false
     },
     "Zcash_Organizations/Zcash_Foundation.md": {
-      "src": "sha256:efe0c38c882d9e58f5bea002056202cadc8dc611d6d038a665e304ef3465f200",
+      "src": "sha256:886c0243ac914d11ed3ba97befe598134a7a6471bbfd2b597b8e31bf6711cec4",
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
@@ -21383,7 +21383,7 @@
       "edited": false
     },
     "Zcash_Tech/ZECD.md": {
-      "src": "sha256:20c2011645d6819c274796521f8a2c3a562a18098363776d383d3b3a48994159",
+      "src": "sha256:8daf3d865a3f63775b0744c0e6e7a837217477543ba0d96278b01b91111f38ce",
       "src_commit": "6bf61545802a69166d802910b29e73604c2d0ef5",
       "engine": "llm",
       "mode": "diff",
@@ -21399,7 +21399,7 @@
       "edited": false
     },
     "Zcash_Tech/Zakura_Node.md": {
-      "src": "sha256:d54b8bf72317307c7920e0e00017d8bebae0d55ad777025c160a52499c884c44",
+      "src": "sha256:31d143a574828f6822578f76bdd6cb0b2baffed3fcd1ddbfcfbd1e2f2b1ac33b",
       "src_commit": "6bf61545802a69166d802910b29e73604c2d0ef5",
       "engine": "llm",
       "mode": "full",
@@ -21791,7 +21791,7 @@
       "edited": false
     },
     "guides/Maya_Protocol.md": {
-      "src": "sha256:019c08f7e76837ec0b3ba145472b6c415fe751c383f2c1cd4fa71a0370e14d1f",
+      "src": "sha256:c816fbddb48288f5f9f337191bc0881643f4477f7701579150af6388fef62b27",
       "src_commit": "05d3dc55ebb691431f622043b1ad963c40f63d32",
       "engine": "llm",
       "mode": "diff",
@@ -22945,7 +22945,7 @@
       "edited": false
     },
     "Zcash_Organizations/Zcash_Foundation.md": {
-      "src": "sha256:efe0c38c882d9e58f5bea002056202cadc8dc611d6d038a665e304ef3465f200",
+      "src": "sha256:886c0243ac914d11ed3ba97befe598134a7a6471bbfd2b597b8e31bf6711cec4",
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
@@ -23225,7 +23225,7 @@
       "edited": false
     },
     "Zcash_Tech/ZECD.md": {
-      "src": "sha256:20c2011645d6819c274796521f8a2c3a562a18098363776d383d3b3a48994159",
+      "src": "sha256:8daf3d865a3f63775b0744c0e6e7a837217477543ba0d96278b01b91111f38ce",
       "src_commit": "6bf61545802a69166d802910b29e73604c2d0ef5",
       "engine": "llm",
       "mode": "diff",
@@ -23241,7 +23241,7 @@
       "edited": false
     },
     "Zcash_Tech/Zakura_Node.md": {
-      "src": "sha256:d54b8bf72317307c7920e0e00017d8bebae0d55ad777025c160a52499c884c44",
+      "src": "sha256:31d143a574828f6822578f76bdd6cb0b2baffed3fcd1ddbfcfbd1e2f2b1ac33b",
       "src_commit": "6bf61545802a69166d802910b29e73604c2d0ef5",
       "engine": "llm",
       "mode": "full",
@@ -23633,7 +23633,7 @@
       "edited": false
     },
     "guides/Maya_Protocol.md": {
-      "src": "sha256:019c08f7e76837ec0b3ba145472b6c415fe751c383f2c1cd4fa71a0370e14d1f",
+      "src": "sha256:c816fbddb48288f5f9f337191bc0881643f4477f7701579150af6388fef62b27",
       "src_commit": "05d3dc55ebb691431f622043b1ad963c40f63d32",
       "engine": "llm",
       "mode": "diff",
@@ -24787,7 +24787,7 @@
       "edited": false
     },
     "Zcash_Organizations/Zcash_Foundation.md": {
-      "src": "sha256:efe0c38c882d9e58f5bea002056202cadc8dc611d6d038a665e304ef3465f200",
+      "src": "sha256:886c0243ac914d11ed3ba97befe598134a7a6471bbfd2b597b8e31bf6711cec4",
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
@@ -25067,7 +25067,7 @@
       "edited": false
     },
     "Zcash_Tech/ZECD.md": {
-      "src": "sha256:20c2011645d6819c274796521f8a2c3a562a18098363776d383d3b3a48994159",
+      "src": "sha256:8daf3d865a3f63775b0744c0e6e7a837217477543ba0d96278b01b91111f38ce",
       "src_commit": "6bf61545802a69166d802910b29e73604c2d0ef5",
       "engine": "llm",
       "mode": "diff",
@@ -25083,7 +25083,7 @@
       "edited": false
     },
     "Zcash_Tech/Zakura_Node.md": {
-      "src": "sha256:d54b8bf72317307c7920e0e00017d8bebae0d55ad777025c160a52499c884c44",
+      "src": "sha256:31d143a574828f6822578f76bdd6cb0b2baffed3fcd1ddbfcfbd1e2f2b1ac33b",
       "src_commit": "6bf61545802a69166d802910b29e73604c2d0ef5",
       "engine": "llm",
       "mode": "full",
@@ -25475,7 +25475,7 @@
       "edited": false
     },
     "guides/Maya_Protocol.md": {
-      "src": "sha256:019c08f7e76837ec0b3ba145472b6c415fe751c383f2c1cd4fa71a0370e14d1f",
+      "src": "sha256:c816fbddb48288f5f9f337191bc0881643f4477f7701579150af6388fef62b27",
       "src_commit": "05d3dc55ebb691431f622043b1ad963c40f63d32",
       "engine": "llm",
       "mode": "diff",
@@ -26629,7 +26629,7 @@
       "edited": false
     },
     "Zcash_Organizations/Zcash_Foundation.md": {
-      "src": "sha256:efe0c38c882d9e58f5bea002056202cadc8dc611d6d038a665e304ef3465f200",
+      "src": "sha256:886c0243ac914d11ed3ba97befe598134a7a6471bbfd2b597b8e31bf6711cec4",
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
@@ -26909,7 +26909,7 @@
       "edited": false
     },
     "Zcash_Tech/ZECD.md": {
-      "src": "sha256:20c2011645d6819c274796521f8a2c3a562a18098363776d383d3b3a48994159",
+      "src": "sha256:8daf3d865a3f63775b0744c0e6e7a837217477543ba0d96278b01b91111f38ce",
       "src_commit": "6bf61545802a69166d802910b29e73604c2d0ef5",
       "engine": "llm",
       "mode": "diff",
@@ -26925,7 +26925,7 @@
       "edited": false
     },
     "Zcash_Tech/Zakura_Node.md": {
-      "src": "sha256:d54b8bf72317307c7920e0e00017d8bebae0d55ad777025c160a52499c884c44",
+      "src": "sha256:31d143a574828f6822578f76bdd6cb0b2baffed3fcd1ddbfcfbd1e2f2b1ac33b",
       "src_commit": "6bf61545802a69166d802910b29e73604c2d0ef5",
       "engine": "llm",
       "mode": "full",
@@ -27317,7 +27317,7 @@
       "edited": false
     },
     "guides/Maya_Protocol.md": {
-      "src": "sha256:019c08f7e76837ec0b3ba145472b6c415fe751c383f2c1cd4fa71a0370e14d1f",
+      "src": "sha256:c816fbddb48288f5f9f337191bc0881643f4477f7701579150af6388fef62b27",
       "src_commit": "05d3dc55ebb691431f622043b1ad963c40f63d32",
       "engine": "llm",
       "mode": "diff",
@@ -28463,7 +28463,7 @@
       "edited": false
     },
     "Zcash_Organizations/Zcash_Foundation.md": {
-      "src": "sha256:efe0c38c882d9e58f5bea002056202cadc8dc611d6d038a665e304ef3465f200",
+      "src": "sha256:886c0243ac914d11ed3ba97befe598134a7a6471bbfd2b597b8e31bf6711cec4",
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "nllb",
       "mode": "seed",
@@ -28743,7 +28743,7 @@
       "edited": false
     },
     "Zcash_Tech/ZECD.md": {
-      "src": "sha256:20c2011645d6819c274796521f8a2c3a562a18098363776d383d3b3a48994159",
+      "src": "sha256:8daf3d865a3f63775b0744c0e6e7a837217477543ba0d96278b01b91111f38ce",
       "src_commit": "6bf61545802a69166d802910b29e73604c2d0ef5",
       "engine": "nllb",
       "mode": "full",
@@ -28759,7 +28759,7 @@
       "edited": false
     },
     "Zcash_Tech/Zakura_Node.md": {
-      "src": "sha256:d54b8bf72317307c7920e0e00017d8bebae0d55ad777025c160a52499c884c44",
+      "src": "sha256:31d143a574828f6822578f76bdd6cb0b2baffed3fcd1ddbfcfbd1e2f2b1ac33b",
       "src_commit": "6bf61545802a69166d802910b29e73604c2d0ef5",
       "engine": "gt",
       "mode": "full",
@@ -29143,7 +29143,7 @@
       "edited": false
     },
     "guides/Maya_Protocol.md": {
-      "src": "sha256:019c08f7e76837ec0b3ba145472b6c415fe751c383f2c1cd4fa71a0370e14d1f",
+      "src": "sha256:c816fbddb48288f5f9f337191bc0881643f4477f7701579150af6388fef62b27",
       "src_commit": "b5633eaaccace3fd3ee0ca93a503e6860c8dd120",
       "engine": "nllb",
       "mode": "full",
@@ -30289,7 +30289,7 @@
       "edited": false
     },
     "Zcash_Organizations/Zcash_Foundation.md": {
-      "src": "sha256:efe0c38c882d9e58f5bea002056202cadc8dc611d6d038a665e304ef3465f200",
+      "src": "sha256:886c0243ac914d11ed3ba97befe598134a7a6471bbfd2b597b8e31bf6711cec4",
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
@@ -30569,7 +30569,7 @@
       "edited": false
     },
     "Zcash_Tech/ZECD.md": {
-      "src": "sha256:20c2011645d6819c274796521f8a2c3a562a18098363776d383d3b3a48994159",
+      "src": "sha256:8daf3d865a3f63775b0744c0e6e7a837217477543ba0d96278b01b91111f38ce",
       "src_commit": "6bf61545802a69166d802910b29e73604c2d0ef5",
       "engine": "llm",
       "mode": "diff",
@@ -30585,7 +30585,7 @@
       "edited": false
     },
     "Zcash_Tech/Zakura_Node.md": {
-      "src": "sha256:d54b8bf72317307c7920e0e00017d8bebae0d55ad777025c160a52499c884c44",
+      "src": "sha256:31d143a574828f6822578f76bdd6cb0b2baffed3fcd1ddbfcfbd1e2f2b1ac33b",
       "src_commit": "6bf61545802a69166d802910b29e73604c2d0ef5",
       "engine": "llm",
       "mode": "full",
@@ -30977,7 +30977,7 @@
       "edited": false
     },
     "guides/Maya_Protocol.md": {
-      "src": "sha256:019c08f7e76837ec0b3ba145472b6c415fe751c383f2c1cd4fa71a0370e14d1f",
+      "src": "sha256:c816fbddb48288f5f9f337191bc0881643f4477f7701579150af6388fef62b27",
       "src_commit": "05d3dc55ebb691431f622043b1ad963c40f63d32",
       "engine": "llm",
       "mode": "diff",
@@ -32131,7 +32131,7 @@
       "edited": false
     },
     "Zcash_Organizations/Zcash_Foundation.md": {
-      "src": "sha256:efe0c38c882d9e58f5bea002056202cadc8dc611d6d038a665e304ef3465f200",
+      "src": "sha256:886c0243ac914d11ed3ba97befe598134a7a6471bbfd2b597b8e31bf6711cec4",
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
@@ -32411,7 +32411,7 @@
       "edited": false
     },
     "Zcash_Tech/ZECD.md": {
-      "src": "sha256:20c2011645d6819c274796521f8a2c3a562a18098363776d383d3b3a48994159",
+      "src": "sha256:8daf3d865a3f63775b0744c0e6e7a837217477543ba0d96278b01b91111f38ce",
       "src_commit": "6bf61545802a69166d802910b29e73604c2d0ef5",
       "engine": "llm",
       "mode": "diff",
@@ -32427,7 +32427,7 @@
       "edited": false
     },
     "Zcash_Tech/Zakura_Node.md": {
-      "src": "sha256:d54b8bf72317307c7920e0e00017d8bebae0d55ad777025c160a52499c884c44",
+      "src": "sha256:31d143a574828f6822578f76bdd6cb0b2baffed3fcd1ddbfcfbd1e2f2b1ac33b",
       "src_commit": "6bf61545802a69166d802910b29e73604c2d0ef5",
       "engine": "llm",
       "mode": "diff",
@@ -32819,7 +32819,7 @@
       "edited": false
     },
     "guides/Maya_Protocol.md": {
-      "src": "sha256:019c08f7e76837ec0b3ba145472b6c415fe751c383f2c1cd4fa71a0370e14d1f",
+      "src": "sha256:c816fbddb48288f5f9f337191bc0881643f4477f7701579150af6388fef62b27",
       "src_commit": "05d3dc55ebb691431f622043b1ad963c40f63d32",
       "engine": "llm",
       "mode": "diff",
@@ -33957,7 +33957,7 @@
       "edited": false
     },
     "Zcash_Organizations/Zcash_Foundation.md": {
-      "src": "sha256:efe0c38c882d9e58f5bea002056202cadc8dc611d6d038a665e304ef3465f200",
+      "src": "sha256:886c0243ac914d11ed3ba97befe598134a7a6471bbfd2b597b8e31bf6711cec4",
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "nllb",
       "mode": "seed",
@@ -34229,7 +34229,7 @@
       "edited": false
     },
     "Zcash_Tech/ZECD.md": {
-      "src": "sha256:20c2011645d6819c274796521f8a2c3a562a18098363776d383d3b3a48994159",
+      "src": "sha256:8daf3d865a3f63775b0744c0e6e7a837217477543ba0d96278b01b91111f38ce",
       "src_commit": "6bf61545802a69166d802910b29e73604c2d0ef5",
       "engine": "nllb",
       "mode": "full",
@@ -34245,7 +34245,7 @@
       "edited": false
     },
     "Zcash_Tech/Zakura_Node.md": {
-      "src": "sha256:d54b8bf72317307c7920e0e00017d8bebae0d55ad777025c160a52499c884c44",
+      "src": "sha256:31d143a574828f6822578f76bdd6cb0b2baffed3fcd1ddbfcfbd1e2f2b1ac33b",
       "src_commit": "6bf61545802a69166d802910b29e73604c2d0ef5",
       "engine": "gt",
       "mode": "full",
@@ -34621,7 +34621,7 @@
       "edited": false
     },
     "guides/Maya_Protocol.md": {
-      "src": "sha256:019c08f7e76837ec0b3ba145472b6c415fe751c383f2c1cd4fa71a0370e14d1f",
+      "src": "sha256:c816fbddb48288f5f9f337191bc0881643f4477f7701579150af6388fef62b27",
       "src_commit": "b5633eaaccace3fd3ee0ca93a503e6860c8dd120",
       "engine": "nllb",
       "mode": "full",
@@ -35759,7 +35759,7 @@
       "edited": false
     },
     "Zcash_Organizations/Zcash_Foundation.md": {
-      "src": "sha256:efe0c38c882d9e58f5bea002056202cadc8dc611d6d038a665e304ef3465f200",
+      "src": "sha256:886c0243ac914d11ed3ba97befe598134a7a6471bbfd2b597b8e31bf6711cec4",
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
@@ -36039,7 +36039,7 @@
       "edited": false
     },
     "Zcash_Tech/ZECD.md": {
-      "src": "sha256:20c2011645d6819c274796521f8a2c3a562a18098363776d383d3b3a48994159",
+      "src": "sha256:8daf3d865a3f63775b0744c0e6e7a837217477543ba0d96278b01b91111f38ce",
       "src_commit": "6bf61545802a69166d802910b29e73604c2d0ef5",
       "engine": "llm",
       "mode": "diff",
@@ -36055,7 +36055,7 @@
       "edited": false
     },
     "Zcash_Tech/Zakura_Node.md": {
-      "src": "sha256:d54b8bf72317307c7920e0e00017d8bebae0d55ad777025c160a52499c884c44",
+      "src": "sha256:31d143a574828f6822578f76bdd6cb0b2baffed3fcd1ddbfcfbd1e2f2b1ac33b",
       "src_commit": "6bf61545802a69166d802910b29e73604c2d0ef5",
       "engine": "llm",
       "mode": "full",
@@ -36447,7 +36447,7 @@
       "edited": false
     },
     "guides/Maya_Protocol.md": {
-      "src": "sha256:019c08f7e76837ec0b3ba145472b6c415fe751c383f2c1cd4fa71a0370e14d1f",
+      "src": "sha256:c816fbddb48288f5f9f337191bc0881643f4477f7701579150af6388fef62b27",
       "src_commit": "05d3dc55ebb691431f622043b1ad963c40f63d32",
       "engine": "llm",
       "mode": "diff",

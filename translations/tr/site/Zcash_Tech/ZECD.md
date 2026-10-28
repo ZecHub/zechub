@@ -4,8 +4,6 @@
 
 # zecd — Shielded-First Cüzdan Sunucusu
 
-> 🇧🇷 [Portekizce Sürüm](/pt/zcash-tech/zecd)
-
 zecd, [librustzcash](https://github.com/zcash/librustzcash) üzerine inşa edilmiş ve Bitcoin Core'un JSON-RPC lehçesi üzerinden sunulan, Zcash için shielded-first bir cüzdan sunucusudur. Geliştiricilere ve ödeme entegratörlerine, Zcash ile etkileşim kurmak için tanıdık, Bitcoin uyumlu bir API sunar — bunu yaparken de Orchard'ı (en özel havuz) varsayılan hale getirir. [zec.rocks](https://zec.rocks) tarafından geliştirilen zecd, modern, bulut tabanlı dağıtımlarda `zcashd`'nin cüzdan işlevselliğinin yerini almak üzere tasarlanmıştır.
 
 **Güncel sürüm:** 0.5.0-rc3 (13 Temmuz 2026) — Ironwood (NU6.3) desteğiyle. `cargo install zecd` ile kurun veya resmî Docker imajını kullanın.

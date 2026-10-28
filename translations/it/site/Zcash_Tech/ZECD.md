@@ -4,8 +4,6 @@
 
 # zecd — Server di portafogli con priorità alle transazioni schermate
 
-> 🇧🇷 [Versione in portoghese](/pt/zcash-tech/zecd)
-
 zecd è un server di portafogli con priorità alle transazioni schermate per Zcash, costruito su [librustzcash](https://github.com/zcash/librustzcash) ed esposto tramite il dialetto JSON-RPC di Bitcoin Core. Offre a sviluppatori e integratori di pagamenti un'API familiare e compatibile con Bitcoin per interagire con Zcash, rendendo al tempo stesso Orchard (la pool più privata) l'opzione predefinita. Sviluppato da [zec.rocks](https://zec.rocks), zecd è progettato per sostituire la funzionalità di portafoglio di `zcashd` nelle moderne distribuzioni cloud-native.
 
 **Versione attuale:** 0.5.0-rc3 (13 luglio 2026) — con supporto per Ironwood (NU6.3). Installa tramite `cargo install zecd` oppure usa l'immagine Docker ufficiale.

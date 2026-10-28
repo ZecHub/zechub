@@ -75,6 +75,6 @@ Liquidity Auction представлял собой 21-дневное событ
 
 DefiSpot: больше не работает, его домен не разрешается.
 
-[XDEFI](https://www.xdefi.io/): мультиэкосистемный некастодиальный кошелёк с поддержкой более 30 нативных блокчейнов, а также всех EVM- и Cosmos-сетей, включая Bitcoin, Ethereum, Solana, THORChain, Maya Protocol, TRON и другие.
+[Ctrl Wallet (XDEFI)](https://ctrl.xyz/): мультиэкосистемный некастодиальный кошелёк с поддержкой более 30 нативных блокчейнов, а также всех EVM- и Cosmos-сетей, включая Bitcoin, Ethereum, Solana, THORChain, Maya Protocol, TRON и другие.
 
 [KeepKey ](https://keepkey.com/): аппаратный кошелёк для безопасного хранения цифровых активов.

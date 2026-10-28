@@ -75,6 +75,6 @@ Berikut adalah daftar beberapa layanan yang sudah mendukung Maya:
 
 DefiSpot: tidak lagi online, domainnya tidak dapat diakses.
 
-[XDEFI](https://www.xdefi.io/): sebuah dompet self-custody multi-ekosistem dengan dukungan untuk 30+ blockchain asli, serta semua chain EVM dan Cosmos, termasuk Bitcoin, Ethereum, Solana, THORChain, Maya Protocol, TRON, dan banyak lagi.
+[Ctrl Wallet (XDEFI)](https://ctrl.xyz/): sebuah dompet self-custody multi-ekosistem dengan dukungan untuk 30+ blockchain asli, serta semua chain EVM dan Cosmos, termasuk Bitcoin, Ethereum, Solana, THORChain, Maya Protocol, TRON, dan banyak lagi.
 
 [KeepKey ](https://keepkey.com/): Sebuah dompet hardware untuk menyimpan aset digital secara aman.
