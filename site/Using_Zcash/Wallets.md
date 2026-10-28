@@ -410,7 +410,7 @@
 ---
 
 ## [Zafu Wallet](https://zafu.pro/)
-![logo](/content-images/zafu.webp)
+![logo](/content-images/zafu.webp "Zafu Wallet")
 - Devices: Desktop Browser (Browser Extension)
 - Operating System: Windows | macOS | Linux (via compatible Chromium-based browsers)
 - Wallet Support: Seed Phrase | Wallet Import | Viewing Keys | Cold Signing
