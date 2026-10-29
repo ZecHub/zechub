@@ -2,7 +2,7 @@
 
 Você precisará de um `zebrad` em execução com RPCs habilitados
 
-# Instalar NIX
+# Instalar Nix
 
 ```bash
 sh <(curl --proto '=https' --tlsv1.2 -L https://nixos.org/nix/install) --no-daemon

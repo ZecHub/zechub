@@ -16,11 +16,11 @@ No [**HuggingFace**](https://huggingface.co/models?pipeline_tag=text-to-image&so
 
 ## Windows - baixar modelos personalizados
 
-Normalmente, é necessária no mínimo uma GPU com 4GB de memória de vídeo para qualquer ferramenta de IA.
+Normalmente, é necessária uma GPU com pelo menos 4 GB de memória de vídeo para usar qualquer ferramenta de IA.
 
 As GPUs da Nvida funcionam melhor.
 
-- [InvokeAI](https://invoke-ai.github.io/InvokeAI/) (requer 4GB de memória GPU)
+- [InvokeAI](https://invoke-ai.github.io/InvokeAI/) (requer 4 GB de memória de GPU)
 - [NMKD Stable Diffusion GUI](https://nmkd.itch.io/t2i-gui)
 - [EasyDiffusion 3.0](https://github.com/easydiffusion/easydiffusion)
 
@@ -30,17 +30,17 @@ As GPUs da Nvida funcionam melhor.
 (Pode usar muitos modelos diferentes de StableDiffusion)
 - [DiffusionBee](https://diffusionbee.com/) - grátis
 (Pode usar muitos modelos diferentes de StableDiffusion)
-- [InvokeAI](https://invoke-ai.github.io/InvokeAI/) (requer 4GB de memória GPU)
+- [InvokeAI](https://invoke-ai.github.io/InvokeAI/) (requer 4 GB de memória de GPU)
 
 ### Linux - baixar modelos personalizados
 
-- [InvokeAI](https://invoke-ai.github.io/InvokeAI/) (requer 4GB de memória GPU)
+- [InvokeAI](https://invoke-ai.github.io/InvokeAI/) (requer 4 GB de memória de GPU)
 
 ## Geração de texto
 
 ### Windows - baixar modelos personalizados
 
-- [GPT4All](https://gpt4all.io/index.html) (mínimo de 8gb de RAM necessário)
+- [GPT4All](https://gpt4all.io/index.html) (requer no mínimo 8 GB de RAM)
 
 ### Mac OS - baixar modelos personalizados
 
@@ -48,4 +48,4 @@ As GPUs da Nvida funcionam melhor.
 
 ## Linux - baixar modelos personalizados
 
-- [GPT4All](https://gpt4all.io/index.html) (mínimo de 8gb de RAM necessário)
+- [GPT4All](https://gpt4all.io/index.html) (requer no mínimo 8 GB de RAM)

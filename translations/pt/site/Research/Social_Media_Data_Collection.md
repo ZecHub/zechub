@@ -7,7 +7,7 @@ published: 2023-10-23
 </a>
 
 
-# Coleta de Dados nas Redes Sociais
+# Coleta de dados nas redes sociais
 
 Atualmente, é difícil encontrar uma pessoa que não esteja exposta ao alcance das redes sociais. Elas se tornaram populares pela facilidade de uso e pela rapidez e eficácia na disseminação de uma mensagem.
 
@@ -20,19 +20,19 @@ Discord
 
 Precisamos começar pelo Discord porque é o aplicativo de comunicação que usamos "em casa".
 
-O Discord é muito útil para gerenciar uma grande comunidade sobre uma ampla variedade de temas, mas é tão culpado quanto muitos outros de se beneficiar das nossas informações pessoais.
+O Discord é muito útil para gerenciar uma grande comunidade sobre uma ampla variedade de temas, mas é tão culpado quanto muitos outros por se beneficiar das nossas informações pessoais.
 
-### Dados que o Discord Armazena
+### Dados que o Discord armazena
 
 De acordo com sua política de privacidade, o Discord coleta as seguintes informações sobre nós:
 
--   Mensagens de texto (incluindo rascunhos), mensagens de voz, imagens de capa para transmissões ao vivo, amigos que você adiciona ou usuários com quem interage, jogos que você joga, os servidores ou comunidades em que está registrado, compras ou vendas que faz pelo aplicativo e as decisões que toma ao moderar conteúdo.
+-   Mensagens de texto (incluindo rascunhos), mensagens de voz, imagens de capa para transmissões ao vivo, amigos que você adiciona ou usuários com quem interage, jogos que você joga, os servidores ou comunidades dos quais participa, compras ou vendas que faz pelo aplicativo e as decisões que toma ao moderar conteúdo.
 
 Eles não armazenam seus vídeos nem o vídeo das suas transmissões ao vivo, embora deixem em aberto a possibilidade de mudar essa decisão no futuro.
 
 Eles também coletam automaticamente determinadas informações, como o endereço IP a partir do qual você se conecta, o navegador que usa e o seu sistema operacional.
 
-### Como Eles Usam Isso
+### Como eles usam isso
 
 A maior parte do que fazem com os nossos dados poderia ser considerada justificável, como melhorar a experiência do usuário, oferecer uma experiência mais personalizada e manter os padrões da comunidade. No entanto, eles também podem usar seus dados para promover seus serviços e podem até compartilhar parte deles com terceiros para promover seus serviços ou analisar o crescimento da empresa.
 
@@ -48,9 +48,9 @@ Meta
 
 O grupo de aplicativos da Meta, incluindo Facebook, Instagram e agora Threads, vai ainda mais longe, com uma lista tão extensa, apenas das informações que você fornece, que seria longa demais para detalhar. Ela inclui todas as suas publicações, incluindo notas de voz, fotos tiradas usando o recurso de "câmera" do seu dispositivo ou sua galeria, os anúncios que você vê, o tempo que passa visualizando-os e até mesmo aqueles que escolhe ignorar. Inclui metadados das suas mensagens, como localização, data, hora e dispositivo. Também inclui o tempo que você passa em cada uma das diferentes funções do aplicativo e, se a lei não o proteger, suas crenças religiosas, crenças filosóficas, orientação sexual e até filiação sindical.
 
-Mas eles vão além: por meio do seu famoso Pixel, a Meta consegue saber o que você faz **fora do Facebook**: os sites que visita, quanto tempo passa neles, que jogos joga, o que compra e até dados como seu nível de escolaridade. Também, é claro, as informações técnicas sobre o seu dispositivo, como endereço IP, sistema operacional, navegador, entre outras, independentemente de você ter feito login no Facebook ou não.
+Mas ela vai além: por meio do seu famoso Pixel, a Meta consegue saber o que você faz **fora do Facebook**: os sites que visita, quanto tempo passa neles, que jogos joga, o que compra e até dados como seu nível de escolaridade. Também, é claro, as informações técnicas sobre o seu dispositivo, como endereço IP, sistema operacional, navegador, entre outras, independentemente de você ter feito login no Facebook ou não.
 
-Por Que Eu Deveria Me Importar?
+Por que eu deveria me importar?
 -------------------------------
 
 "Não tenho nada a esconder" é o argumento mais comum para minimizar a importância de todos os dados que essas plataformas coletam sobre nós. No entanto, mesmo quando o que você está fazendo não é ilegal, há bons motivos para se preocupar com o que essas empresas sabem sobre você.
@@ -61,7 +61,7 @@ Também há exemplos claros em que suas informações pessoais podem acabar nas 
 
 Da mesma forma, você pode perder o controle dos seus dados. Você pode não saber como seus dados são armazenados, processados ou compartilhados com terceiros, ou pode não conseguir excluí-los ou modificá-los se mudar de ideia. Isso também pode colocá-lo em risco se o provedor de serviços em que você confiou [não proteger seus dados adequadamente](https://www.iotworldtoday.com/security/duolingo-data-breach-exposes-3-million-user-emails) [corretamente](https://edition.cnn.com/2023/01/05/tech/twitter-data-email-addresses/index.html).
 
-Existem Alternativas?
+Existem alternativas?
 ---------------------
 
 Embora não sejam tão populares, existem alternativas para pelo menos a maioria das redes sociais mais populares. Vamos dar uma olhada em algumas:

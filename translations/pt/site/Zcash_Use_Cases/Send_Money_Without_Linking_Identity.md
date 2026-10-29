@@ -50,26 +50,26 @@ Isso quebra:
 
 ## <img src="/content-images/ladder-svgrepo-com-7232bf46ed.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="ícone de etapa"/> Guia Passo a Passo
 
-### Etapa 1: Garanta que os Fundos Estejam Blindados
+### Etapa 1: Garanta que os fundos estejam blindados
 
 Se os seus fundos estiverem em um endereço transparente:
 - Mova-os primeiro para um endereço blindado
 
 
-### Etapa 2: Envie de Blindado para Blindado
-Sempre prefira transação `z to z`
+### Etapa 2: Envie de blindado para blindado
+Sempre prefira uma transação `z to z`
 
 Isso garante privacidade máxima.
 
 
-### Etapa 3: Evite Vinculação de Identidade
+### Etapa 3: Evite a vinculação de identidade
 
 NÃO:
 - Anuncie transações publicamente
 - Reutilize o mesmo endereço em contextos diferentes
 - Vincule endereços a identidades conhecidas
 
-### Etapa 4: Considere Padrões de Tempo
+### Etapa 4: Considere padrões de tempo
 
 Dica avançada:
 - Evite enviar imediatamente após receber grandes quantias
@@ -108,6 +108,6 @@ Agora você pode enviar fundos de forma privada sem expor sua identidade.
 
 <br/>
 
-## Próxima Etapa
+## Próxima etapa
 
-- [Configuração de Privacidade para Freelancer](/zcash-use-cases/freelance-privacy-setup)
+- [Configuração de privacidade para freelancer](/zcash-use-cases/freelance-privacy-setup)

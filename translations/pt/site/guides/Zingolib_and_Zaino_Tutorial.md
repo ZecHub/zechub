@@ -1,10 +1,10 @@
 # Z3: (zebrad)(zaino)(zingo-cli)
 
-**zebrad**    : nó completo da zcash
+**zebrad**    : nó integral do Zcash
 
-**zaino**     : indexador da blockchain zcash
+**zaino**     : indexador da blockchain do Zcash
 
-**zingo-cli** : cliente zaino-proxy de linha de comando da zcash (subconjunto de Zingolib)
+**zingo-cli** : cliente zaino-proxy de linha de comando do Zcash (subconjunto do Zingolib)
 
 ## Vídeo
 

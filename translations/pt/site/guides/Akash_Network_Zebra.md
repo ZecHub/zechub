@@ -1,12 +1,12 @@
 # Como executar o Zebra na Akash Network
 
-Guia passo a passo para implantar um nó completo Zebra de Zcash usando o [Akash Console](https://console.akash.network).
+Guia passo a passo para implantar um nó integral Zebra do Zcash usando o [Akash Console](https://console.akash.network).
 
 ### O que você vai implantar
 
-Um nó completo Zebra que irá:
+Um nó integral Zebra que irá:
 
--> Sincronizar toda a blockchain da Zcash (100GB+ para mainnet, ~40GB para testnet)
+-> Sincronizar toda a blockchain do Zcash (100GB+ para mainnet, ~40GB para testnet)
 
 -> Custar aproximadamente $15/mês, dependendo dos preços do token AKT
 
@@ -15,7 +15,7 @@ Um nó completo Zebra que irá:
 -> Usar 4 vCPUs, 16GB de RAM, 350GB de armazenamento (mainnet) ou 2 vCPUs, 8GB de RAM, 50GB (testnet)
 
 
-### Importante: Mapeamento de portas na Akash
+### Importante: mapeamento de portas na Akash
 
 Quando você expõe uma porta na Akash (por exemplo, a porta 8233 para o P2P do Zebra), ela **NÃO é vinculada a essa porta exata** no IP público do provedor. Em vez disso, o provedor atribui uma porta alta aleatória (como 31234 ou 42567) e faz um proxy reverso para a porta 8233 do seu contêiner.
 
@@ -27,7 +27,7 @@ Isso é intencional — os provedores executam várias implantações, e haveria
 
 -> A Akash fornece uma URI como *provider.com:31234*
 
--> Outros nós Zcash se conectam a você em *provider.com:31234*
+-> Outros nós do Zcash se conectam a você em *provider.com:31234*
 
 -> Dentro do seu contêiner, o Zebra continua escutando na 8233
 
@@ -37,10 +37,10 @@ Isso é tratado automaticamente. Basta usar a URI que a Akash fornecer.
 ### Pré-requisitos
 
 1. Extensão de navegador **Keplr Wallet** instalada (Chrome/Brave/Firefox)
-2. Tokens **AKT** — obtenha 50-100 AKT em uma exchange (Coinbase, Kraken, Osmosis)
+2. Tokens **AKT** — obtenha 50-100 AKT em uma corretora (Coinbase, Kraken, Osmosis)
 3. **5 minutos** para clicar pela interface do Console
 
-#### Etapa 1: Conecte sua carteira
+#### Etapa 1: conecte sua carteira
 
 -> Vá para [https://console.akash.network](https://console.akash.network)
 
@@ -53,18 +53,18 @@ Isso é tratado automaticamente. Basta usar a URI que a Akash fornecer.
 
 Seu saldo de AKT deve aparecer no canto superior direito. Se estiver zerado, primeiro deposite fundos na sua carteira.
 
-#### Etapa 2: Criar implantação
+#### Etapa 2: criar implantação
 
 -> Clique no botão **"Deploy"** (grande botão azul, no centro da página)
 
 -> Escolha **"Build your template"** (ou pule diretamente para o upload do SDL)
 
 
-##### Opção A: Fazer upload do arquivo SDL (Recomendado)
+##### Opção A: fazer upload do arquivo SDL (recomendado)
 
 [![Implantar na Akash](/content-images/deploy-with-akash-btn-74abb88d44.svg)](https://console.akash.network/new-deployment?step=edit-deployment&templateId=akash-network-awesome-akash-zcash-zebra)
 
-##### Opção B: Usar o editor SDL
+##### Opção B: usar o editor SDL
 
 Se você quiser colar manualmente [o SDL](https://github.com/akash-network/awesome-akash/blob/master/zcash-zebra/deploy.yaml):
 
@@ -77,7 +77,7 @@ Se você quiser colar manualmente [o SDL](https://github.com/akash-network/aweso
 -> Clique em **"Create Deployment"**
 
 
-#### Etapa 3: Revisar e aprovar o depósito
+#### Etapa 3: revisar e aprovar o depósito
 
 O Console mostrará para você:
 
@@ -87,7 +87,7 @@ O Console mostrará para você:
 
 Clique em **"Approve"** e assine a transação no Keplr.
 
-#### Etapa 4: Escolher um provedor
+#### Etapa 4: escolher um provedor
 
 Após ~ 30 segundos, você verá lances dos provedores. Cada lance mostra:
 
@@ -109,7 +109,7 @@ Após ~ 30 segundos, você verá lances dos provedores. Cada lance mostra:
 
 Clique em **"Accept Bid"** no provedor escolhido e assine no Keplr.
 
-#### Etapa 5: Aguardar a implantação
+#### Etapa 5: aguardar a implantação
 
 O Console irá:
 
@@ -121,7 +121,7 @@ O Console irá:
 
 Isso leva de 1 a 2 minutos. Você verá atualizações de status na interface.
 
-#### Etapa 6: Verificar se está em execução
+#### Etapa 6: verificar se está em execução
 
 Depois de implantado, você verá:
 
@@ -152,7 +152,7 @@ A sincronização levará **de horas a dias**, dependendo da rede. Observe:
 -> Nenhum erro repetido
 
 
-#### Etapa 7: Obtenha o endereço do seu nó
+#### Etapa 7: obtenha o endereço do seu nó
 
 Clique na aba **Leases** e depois em **URIs**.
 
@@ -162,7 +162,7 @@ Você verá algo como:
 zebra-8233: provider-hostname.com:31234
 ```
 
-Esse é o **endpoint P2P público** do seu nó. Outros nós Zcash se conectarão a você nesse endereço.
+Esse é o **endpoint P2P público** do seu nó. Outros nós do Zcash se conectarão a você nesse endereço.
 
 **Observe o mapeamento de portas:** você configurou a porta 8233 no SDL, mas a Akash a atribuiu a uma porta pública diferente (31234 neste exemplo). Isso é normal — veja a seção "Mapeamento de portas na Akash" no topo se isso causar confusão. Seu nó fica acessível na porta que a Akash mostrar aqui, não necessariamente na 8233.
 
@@ -170,18 +170,18 @@ Se você habilitou RPC (comentado por padrão no SDL), também verá aqui o endp
 
 ### Opções de configuração
 
-#### Mudando para Testnet
+#### Mudando para testnet
 
-O SDL usa Mainnet por padrão. Para usar Testnet:
+O SDL usa mainnet por padrão. Para usar testnet:
 
--> **Comente a configuração de Mainnet** na seção *env*:
+-> **Comente a configuração de mainnet** na seção *env*:
 
    ```yaml
    # - "ZEBRA_NETWORK__NETWORK=Mainnet"
    # - "ZEBRA_NETWORK__LISTEN_ADDR=[::]:8233"
    ```
 
--> **Descomente a configuração de Testnet**:
+-> **Descomente a configuração de testnet**:
 
    ```yaml
    - "ZEBRA_NETWORK__NETWORK=Testnet"
@@ -206,7 +206,7 @@ O SDL usa Mainnet por padrão. Para usar Testnet:
      proto: tcp
    ```
 
--> **Opcional: reduza os recursos** para Testnet em *profiles.compute.zebra.resources*:
+-> **Opcional: reduza os recursos** para testnet em *profiles.compute.zebra.resources*:
 
    ```yaml
    cpu:
@@ -227,7 +227,7 @@ O SDL usa Mainnet por padrão. Para usar Testnet:
 
 O RPC vem desabilitado por padrão por segurança. Para habilitá-lo:
 
-**Para Mainnet:**
+**Para mainnet:**
 
 -> Descomente na seção *env*:
 
@@ -236,7 +236,7 @@ O RPC vem desabilitado por padrão por segurança. Para habilitá-lo:
    - "ZEBRA_RPC__COOKIE_DIR=/home/zebra/.cache/zebra"
    ```
 
--> Descomente a porta RPC de Mainnet em *expose*:
+-> Descomente a porta RPC de mainnet em *expose*:
 
    ```yaml
    - port: 8232
@@ -246,7 +246,7 @@ O RPC vem desabilitado por padrão por segurança. Para habilitá-lo:
      proto: tcp
    ```
 
-**Para Testnet:**
+**Para testnet:**
 
 -> Descomente na seção *env*:
 
@@ -255,7 +255,7 @@ O RPC vem desabilitado por padrão por segurança. Para habilitá-lo:
    - "ZEBRA_RPC__COOKIE_DIR=/home/zebra/.cache/zebra"
    ```
 
--> Descomente a porta RPC de Testnet em *expose*:
+-> Descomente a porta RPC da Testnet em *expose*:
 
    ```yaml
    - port: 18232
@@ -267,7 +267,7 @@ O RPC vem desabilitado por padrão por segurança. Para habilitá-lo:
 
 **Aviso**: se você definir *global: true* para RPC, estará expondo-o à internet. O Zebra usa autenticação por cookie por padrão, mas mesmo assim — não faça isso a menos que saiba o que está fazendo.
 
-**Lembrete sobre mapeamento de portas**: mesmo que você exponha o RPC globalmente, a Akash o mapeará para uma porta alta aleatória (não 8232/18232). Verifique as URIs na sua implantação para ver o endpoint público real. Para *global: false* (recomendado), o endpoint RPC só é acessível dentro da rede de implantação da Akash, não pela internet pública.
+**Lembrete sobre mapeamento de portas**: mesmo que você exponha o RPC globalmente, a Akash o mapeará para uma porta alta aleatória (não 8232/18232). Verifique as URIs da sua implantação para ver o endpoint público real. Para *global: false* (recomendado), o endpoint RPC só é acessível dentro da rede de implantação da Akash, não pela internet pública.
 
 #### Habilitar métricas (Prometheus)
 
@@ -299,7 +299,7 @@ Se você não estiver recebendo lances ou quiser otimizar o custo:
 
 -> Memória: *size: 12Gi* (mínimo para estabilidade)
 
--> Armazenamento: *size: 120Gi* (mínimo para mainnet)
+-> Armazenamento: *size: 120Gi* (mínimo para a mainnet)
 
 **Para atrair mais lances**, aumente em *profiles.placement.akash.pricing*:
 
@@ -325,7 +325,7 @@ Precisa alterar a configuração após implantar?
 
 ### Monitoramento
 
-#### Via Console
+#### Via console
 
 -> Aba **Logs**: logs do contêiner em tempo real
 
@@ -336,7 +336,7 @@ Precisa alterar a configuração após implantar?
 
 #### Via RPC (se habilitado)
 
-Se você habilitou RPC, pode consultar seu nó como um nó completo zebrad normal (porque ele é!)
+Se você habilitou RPC, pode consultar seu nó como um nó integral zebrad normal (porque ele é!)
 
 ### Encerrando sua implantação
 
@@ -375,7 +375,7 @@ O provedor pode estar com problemas. Feche a implantação e tente outro provedo
 
 #### Os logs do Zebra mostram "No peers connected"
 
-Isso é normal nos primeiros minutos. O Zebra descobrirá peers automaticamente. Se continuar após mais de 10 minutos, você pode ter um problema de rede (improvável na Akash).
+Isso é normal nos primeiros minutos. O Zebra descobrirá peers automaticamente. Se isso continuar por mais de 10 minutos, você pode ter um problema de rede (improvável na Akash).
 
 #### Erros de "Out of memory" nos logs
 
@@ -387,7 +387,7 @@ Defina "uma eternidade":
 
 -> **Horas**: normal
 
--> **Dias**: também normal para mainnet do zero
+-> **Dias**: também normal para a mainnet do zero
 
 -> **Semanas**: algo está errado, verifique os logs em busca de erros
 

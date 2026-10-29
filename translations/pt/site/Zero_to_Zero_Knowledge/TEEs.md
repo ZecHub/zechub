@@ -1,35 +1,35 @@
-# Zero to Zero Knowledge: Trusted Execution Environments (TEEs)
+# Do zero ao conhecimento zero: ambientes de execução confiáveis (TEEs)
 
 **Série:** Zero to Zero Knowledge
 
 Zero to Zero Knowledge está de volta com um novo tema!  
-Esta semana exploramos **Trusted Execution Environments (TEEs)** - como são usados em moedas de privacidade e outras aplicações de blockchain.
+Esta semana, exploramos **Trusted Execution Environments (TEEs)** - como são usados em moedas de privacidade e outras aplicações de blockchain.
 
 ![Introdução aos Trusted Execution Environments](/content-images/Fquj-h2WcAIgSnL-b80c8614cd.webp)
 
 ---
 
-## TEEs e Blockchains: Propriedades Complementares
+## TEEs e blockchains: propriedades complementares
 
-Blockchains e TEEs têm forças muito complementares:
+Blockchains e TEEs têm pontos fortes muito complementares:
 
-- **Blockchains** garantem disponibilidade, persistência de estado e permitem verificação pública de todo o estado - mas têm poder computacional limitado.  
+- **Blockchains** garantem disponibilidade, persistência de estado e permitem a verificação pública de todo o estado - mas têm poder computacional limitado.  
 - **TEEs** podem executar tarefas computacionais intensivas de forma privada - mas não têm persistência de estado nativa.
 
-Juntos, podem criar sistemas poderosos de preservação da privacidade.
+Juntos, podem criar sistemas poderosos que preservam a privacidade.
 
 ---
 
-## Secret Network: Privacidade Impulsionada por TEE
+## Secret Network: privacidade impulsionada por TEE
 
-**Secret Network** aproveita a tecnologia TEE (especificamente Intel SGX) para executar computação sobre entradas, saídas e estado encriptados.
+**Secret Network** utiliza a tecnologia TEE (especificamente Intel SGX) para executar computação sobre entradas, saídas e estado criptografados.
 
-Cada nó validador executa chips Intel SGX. As camadas de consenso e computação são combinadas:
+Cada nó validador usa chips Intel SGX. As camadas de consenso e computação são combinadas:
 
 - As transações são processadas dentro de enclaves seguros.  
-- Os dados só são desencriptados **dentro da TEE**.
+- Os dados são descriptografados apenas **dentro da TEE**.
 
-Isto é diferente de Zcash, que usa **provas de conhecimento zero** para privacidade. No Zcash, as transações shielded são transmitidas e validadas publicamente sem quaisquer dados adicionais revelados à rede. Os Zcash Shielded Assets seguem o mesmo princípio.
+Isso é diferente do Zcash, que usa **provas de conhecimento zero** para privacidade. No Zcash, as transações blindadas são transmitidas e validadas publicamente sem dados adicionais revelados à rede. Os Zcash Shielded Assets seguem o mesmo princípio.
 
 ![Diagrama TEE da Secret Network](/content-images/FqulPjNX0AEfjRp-c7085732a2.webp)
 
@@ -38,72 +38,72 @@ https://carter-woetzel.medium.com/secret-network-tees-lets-talk-fud-vulnerabilit
 
 ---
 
-## Como a Secret Network Protege Chaves e Estado
+## Como a Secret Network protege chaves e estado
 
-- A **seed de encriptação do consenso** da rede é armazenada dentro da TEE de cada validador.  
-- Os contratos usam chaves de encriptação únicas e impossíveis de falsificar.  
-- Os contratos secretos correm no módulo de computação do Cosmos SDK, mas suportam entradas/saídas e estado encriptados.
+- A **seed de criptografia do consenso** da rede é armazenada dentro da TEE de cada validador.  
+- Os contratos usam chaves de criptografia únicas e impossíveis de falsificar.  
+- Os contratos secretos são executados no módulo de computação do Cosmos SDK, mas suportam entradas/saídas e estado criptografados.
 
 ---
 
-## Atestação Remota
+## Atestação remota
 
-**Atestação Remota** é o processo de provar que um enclave está a correr num ambiente de hardware seguro genuíno.
+**Atestação remota** é o processo de provar que um enclave está sendo executado em um ambiente de hardware seguro genuíno.
 
-Permite que uma parte remota verifique:
-- A aplicação correta está em execução  
-- A aplicação não foi adulterada  
-- Está a executar-se com segurança dentro de um enclave Intel SGX
+Ela permite que uma parte remota verifique:
+- O aplicativo correto está em execução  
+- O aplicativo não foi adulterado  
+- Ele está sendo executado com segurança dentro de um enclave Intel SGX
 
-![Explicação da Atestação Remota](/content-images/FqumRjoWwAAeT-M-6eff73af4d.webp)
+![Explicação da atestação remota](/content-images/FqumRjoWwAAeT-M-6eff73af4d.webp)
 
-Os enclaves também contêm chaves privadas de assinatura e atestação que não podem ser acedidas a partir do exterior.
+Os enclaves também contêm chaves privadas de assinatura e atestação que não podem ser acessadas externamente.
 
 ![Proteção de chaves do enclave](/content-images/Fqumv83XoAQq-MO-47c3ab77e0.webp)
 
 ---
 
-## Selagem de Dados
+## Selagem de dados
 
-Como os enclaves não têm estado, por vezes os dados têm de ser armazenados externamente em memória não confiável.  
+Como os enclaves não têm estado, às vezes os dados precisam ser armazenados externamente em memória não confiável.  
 
-**Selagem de Dados** encripta dados dentro do enclave usando uma chave derivada da CPU. O bloco encriptado só pode ser desselado no **mesmo sistema**.
+**Selagem de dados** criptografa dados dentro do enclave usando uma chave derivada da CPU. O bloco criptografado só pode ser desselado no **mesmo sistema**.
 
-![Diagrama de Selagem de Dados](/content-images/FqunBwyWYAA-TR3-933c2b0e6f.webp)
+![Diagrama de selagem de dados](/content-images/FqunBwyWYAA-TR3-933c2b0e6f.webp)
 
 ---
 
 ## Oasis Network
 
-**Oasis Network** também usa TEEs através do seu ParaTime confidencial (por exemplo, Sapphire e Cipher).
+**Oasis Network** também usa TEEs por meio de seu ParaTime confidencial (por exemplo, Sapphire e Cipher).
 
-Os dados encriptados entram na TEE juntamente com o smart contract. São desencriptados, processados e reencriptados antes de saírem do enclave.
+Os dados criptografados entram na TEE junto com o contrato inteligente. Eles são descriptografados, processados e criptografados novamente antes de sair do enclave.
 
 ![Fluxo TEE da Oasis Network](/content-images/FqunJRDXwAMt4Ob-0e7969c7a8.webp)
 
 ---
 
-## TEEs em Redes Proof-of-Stake
+## TEEs em redes Proof-of-Stake
 
-Muitas blockchains Proof-of-Stake (incluindo Secret e Oasis) usam **Tendermint** como o seu framework de consenso.
+Muitas blockchains Proof-of-Stake (incluindo Secret e Oasis) usam **Tendermint** como framework de consenso.
 
 Para validadores PoS:
-- As chaves devem ser geridas com segurança e nunca expostas em texto simples.  
-- Os validadores devem permanecer online (aplicam-se penalizações por inatividade).  
-- Assinar mensagens em conflito pode levar a slashing.
+- As chaves devem ser gerenciadas com segurança e nunca expostas em texto simples.  
+- Os validadores devem permanecer online (penalidades por inatividade se aplicam).  
+- Assinar mensagens conflitantes pode levar a slashing.
 
 As **TEEs** são ideais para gerar e usar chaves de validador com segurança.
 
-![Segurança do Tendermint & PoS](/content-images/Fqun0HEX0AAooxW-7f6163ae1e.webp)
+![Segurança do Tendermint e PoS](/content-images/Fqun0HEX0AAooxW-7f6163ae1e.webp)
 
 ---
 
-## Zcash e a Pesquisa sobre Proof-of-Stake
+## Zcash e a pesquisa sobre Proof-of-Stake
 
-Zcash está a pesquisar ativamente uma migração para Proof-of-Stake.
+O Zcash está pesquisando ativamente uma migração para Proof-of-Stake.
 
 - Leia a pesquisa: https://electriccoin.co/blog/zcash-proof-of-stake-research/  
-- Veja este segmento de uma Community Call da Zcash Foundation que explica diferentes modelos de PoS e as suas implicações para a privacidade:
+- Assista a este trecho de uma Community Call da Zcash Foundation que explica diferentes modelos de PoS e suas implicações para a privacidade:
   
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -118,7 +118,7 @@ Zcash está a pesquisar ativamente uma migração para Proof-of-Stake.
 
 ---
 
-**Thread Original por ZecHub (@ZecHub)**  
+**Thread original por ZecHub (@ZecHub)**  
 https://x.com/ZecHub/status/1633579659282587651
 
 ---

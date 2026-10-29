@@ -1,4 +1,4 @@
-# Zero to Zero Knowledge: Protocolo Lelantus
+# Zero to Zero Knowledge: protocolo Lelantus
 
 **Série:** Zero to Zero Knowledge
 
@@ -10,7 +10,7 @@ Lançado em 2019, este protocolo se baseia no Zerocoin. Ele é usado na moeda **
 
 ---
 
-## Fundamentos dos Protocolos Zcash vs Firo
+## Fundamentos dos protocolos Zcash vs Firo
 
 - **Zcash** - Baseia-se no protocolo **Zerocash**  
 - **Firo (Zcoin)** - Baseia-se no protocolo **Zerocoin**
@@ -19,7 +19,7 @@ Lançado em 2019, este protocolo se baseia no Zerocoin. Ele é usado na moeda **
 
 ---
 
-## Evolução dos Protocolos de Privacidade do Firo
+## Evolução dos protocolos de privacidade do Firo
 
 Semelhante ao Zcash, o Firo usa endereços blindados para alcançar pagamentos anônimos.
 
@@ -32,7 +32,7 @@ Semelhante ao Zcash, o Firo usa endereços blindados para alcançar pagamentos a
 
 ---
 
-## Limitações do Protocolo Sigma
+## Limitações do protocolo Sigma
 
 O protocolo Σ (Sigma) usado nas versões anteriores do Zcoin/Firo tinha uma grande limitação: os usuários só podiam cunhar denominações fixas.
 
@@ -42,7 +42,7 @@ Isso criava conjuntos de anonimato menores e abria espaço para ataques de tempo
 
 ---
 
-## Como o Lelantus Melhora a Privacidade
+## Como o Lelantus melhora a privacidade
 
 **Lelantus** resolve o problema das denominações fixas ao permitir mints a partir de um único conjunto maior.
 
@@ -57,11 +57,11 @@ Principais benefícios:
 
 ---
 
-## Compromissos de Moeda
+## Compromissos de moedas
 
 Um **compromisso de moeda** é um compromisso com dupla ocultação que codifica o número de série da moeda e o valor da moeda.
 
-Eles funcionam de forma semelhante às **Notes** no Zcash.
+Eles funcionam de forma semelhante às **notes** no Zcash.
 
 O compromisso de moeda é publicado e armazenado no ledger quando a moeda é criada (por meio de transações Mint ou Spend).
 
@@ -83,7 +83,7 @@ Assim como no Zcash, as transações transparentes devem ser explicitamente sele
 
 ## Provas One-of-Many
 
-O Lelantus utiliza **Provas One-of-Many** para extrair os valores de entrada necessários para provar o saldo sem revelar as origens das entradas — e sem exigir uma trusted setup.
+O Lelantus utiliza **Provas One-of-Many** para extrair os valores de entrada necessários para provar o saldo sem revelar as origens das entradas — e sem exigir uma configuração confiável.
 
 Essas provas também são usadas no **Triptych** (mencionado em nosso tópico sobre CryptoNote).
 
@@ -91,7 +91,7 @@ Essas provas também são usadas no **Triptych** (mencionado em nosso tópico so
 
 ---
 
-## Privacidade na Camada de Rede: Dandelion++
+## Privacidade na camada de rede: Dandelion++
 
 Os nós do Firo usam o mesmo Network Magic que o Magicbean do Zcash.
 
@@ -113,7 +113,7 @@ Isso torna muito mais difícil rastrear a origem de uma transação por meio de 
 
 Também adicionará suporte para:
 - Multisig
-- Ativos Confidenciais Definidos pelo Usuário
+- Ativos confidenciais definidos pelo usuário
 
 Esses recursos são paralelos aos Zcash Shielded Assets.
 
