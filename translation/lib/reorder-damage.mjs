@@ -316,6 +316,26 @@ export function splitInherited(head, base) {
   return { fresh, inherited };
 }
 
+// The damage a committed page had, as the sync runner sees it. The runner
+// puts the space back after a glued name before it writes a page, so a line
+// that carried a glued name AND an older broken link changes text and would
+// otherwise count its old link damage as new. The baseline is therefore the
+// findings of the committed text and of its repaired form, each identity
+// counted as often as the larger of the two has it.
+export function baselineDamage(text, loc, enText = "", terms = []) {
+  const id = (f) => `${f.rule}\0${f.key}\0${(f.text ?? "").trim()}`;
+  const raw = findReorderDamage(text, loc, enText, terms);
+  const fixed = findReorderDamage(repairGluedNames(text, loc, terms).text, loc, enText, terms);
+  const count = (list) => list.reduce((m, f) => m.set(id(f), (m.get(id(f)) ?? 0) + 1), new Map());
+  const a = count(raw), out = [...raw];
+  const b = new Map();
+  for (const f of fixed) {
+    const k = id(f); b.set(k, (b.get(k) ?? 0) + 1);
+    if (b.get(k) > (a.get(k) ?? 0)) out.push(f);
+  }
+  return out;
+}
+
 export const RULE_HELP = {
   "glued-name": "a Latin word is glued to a word of this language with no space between them. The model moved a placeholder (a protected name such as Zcash) when it reordered the sentence and the space was lost. Put the space back, and the name where the language puts it",
   "orphan-link-close": "this link has no opening \"[\" before its \"](\", so the reader sees a raw bracket and the URL. The model moved the \"[\" when it reordered the sentence. Put \"[\" back at the start of the link text",

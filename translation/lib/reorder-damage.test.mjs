@@ -214,3 +214,16 @@ test("a multi-line HTML comment is not prose", () => {
 test("Arabic contracted lil- (للZcash) is a proclitic", () => {
   assert.deepEqual(rules("هذا للZcash وللZebra", "ar"), []);
 });
+
+test("baselineDamage also counts the repaired form of a committed line, never twice", async () => {
+  const { baselineDamage } = await import("./reorder-damage.mjs");
+  const terms = ["ZecHub", "ZEC", "Phantom"];
+  const both = "Ο οδηγός ZecHubΠώς να κάνεις swap για ZEC στο Phantom](/using-zcash/solswap) του [ καλύπτει.\n";
+  const head = findReorderDamage(both.replace("ZecHubΠώς", "ZecHub Πώς"), "el", "", terms);
+  assert.ok(head.length >= 1);
+  assert.equal(splitInherited(head, findReorderDamage(both, "el", "", terms)).fresh.length > 0, true);
+  assert.equal(splitInherited(head, baselineDamage(both, "el", "", terms)).fresh.length, 0);
+  // A line without glue is not counted twice.
+  const plain = "Δες Zcash Πορτοφόλια](/w) [ εδώ.\n";
+  assert.equal(baselineDamage(plain, "el", "", terms).length, findReorderDamage(plain, "el", "", terms).length);
+});
