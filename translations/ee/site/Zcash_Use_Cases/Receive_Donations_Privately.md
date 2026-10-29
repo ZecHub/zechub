@@ -8,7 +8,7 @@
 
 ## TL;DR
 
-- Zã **adrɛs si wokpɔ ta na (z)**.
+- Zã **adrɛs si wokpɔ ta na (z)**
 - Mègagblɔ adrɛs si me kɔ (t) si me kɔ la le dutoƒo gbeɖe o
 - De dzi ƒo na nunalaawo be woaɖo wo ɖa tso gakotoku siwo ŋu wokpɔ ta na me
 - Ƒo asa na wò dzesideŋkɔa tsɔtsɔ do ƒome kple asitsatsa
@@ -19,13 +19,13 @@
 - Nuwɔlawo le nudzɔdzɔwo xɔm
 - Nudzɔla siwo le ʋuʋu ɖi
 - Nutoa me tɔwo ƒe gadodo
-- Ame sia ame si di be woana gakpekpeɖeŋu ye ŋutɔ
+- Ame sia ame si di be ye ŋutɔ yeƒe gakpekpeɖeŋu
 
 <br/>
 
 ## <img src="/content-images/warning-error-svgrepo-com-b7ea8a50da.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="warning icon"/> The Problem
 
-Cryptocurrencies akpa gãtɔ ɖea nusianu ɖe ​​go:
+Cryptocurrencies akpa gãtɔ ɖea nusianu ɖe go:
 - Wò gakotoku ƒe ga si susɔ
 - Ame si ɖo ga ɖe wò
 - Wò asitsatsa ŋutinya bliboa
@@ -41,7 +41,7 @@ Esia hea afɔku gãwo vɛ:
 
 Zcash shielded ƒe asitsatsa ɣla:
 - Adrɛs si woɖo ɖa
-- Adrɛs si xɔe
+- Adrɛs si woxɔna
 - Asitsatsa ƒe ga home
 
 Esia na be nàte ŋu axɔ ga **evɔ màɖe wò ganyawo ƒe nɔnɔmetata ɖe go o**.
@@ -73,11 +73,11 @@ Zi geɖe la, esia dzea egɔme tso: `zs...`
 
 **MÈGAMA adrɛs si me kɔ (t) si me kɔ o.**
 
-### Afɔɖeɖe 3: Mɔfiame Nunalawo (Woate ŋu atiae gake wokafui) .
+### Afɔɖeɖe 3: Mɔfiame Nunalawo (Woate ŋu atiae gake wokafui)
 
 De dzi ƒo na nunala be:
 - Zã gakotoku siwo doa alɔ asitsatsa siwo ŋu wokpɔ ta na
-- Ðoe ɖa tso ta siwo ŋu wokpɔ akpoxɔnuwo le (menye esiwo me kɔ o) .
+- Ðoe ɖa tso ta siwo ŋu wokpɔ ta na (menye esiwo me kɔ o)
 
 ### Afɔɖeɖe 4: Lé Adzamenyawo Ŋuti Dzadzɛnyenye Veviwo Me Ðe Asi
 
@@ -106,7 +106,7 @@ Ate ŋu:
 
 ## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="chain-links icon"/> Related
 
-- [Ame ŋutɔ ƒe nyawo - Shielded vs Transparent](/zcash-tech/what-a-block-explorer-can-see)
+- [Nusi Block Explorer Ate Ŋu Akpɔ](/zcash-tech/what-a-block-explorer-can-see)
 - [Gakotokuwo](/wallets)
 
 <br/>

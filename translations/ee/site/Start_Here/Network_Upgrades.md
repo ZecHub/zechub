@@ -1,6 +1,6 @@
 # Zcash Network ƒe Ðɔɖɔɖowo
 
-Zcash nyona ɖe edzi to network ƒe ɖɔɖɔɖowo me: tɔtrɔ siwo wowɔ ɖekae le se siwo dzi node ɖesiaɖe lɔ̃ ɖo ŋu, wo dometɔ ɖesiaɖe wɔa dɔ le block ƒe kɔkɔme si woɖo ɖi nu. Dodoɖeŋgɔ ɖesiaɖe si le ete la kple eƒe axa si ɖea nusi wòtrɔ kple nusitae me, le gbegbɔgblɔ si me kɔ me. Nu yeyee le Zcash? Xlẽ wo ɖe ɖoɖo nu, tso Sprout va ɖo Ironwood.
+Zcash nyona ɖe edzi to network ƒe ɖɔɖɔɖowo me: tɔtrɔ siwo wowɔ ɖekae le se siwo dzi node ɖesiaɖe lɔ̃ ɖo ŋu, wo dometɔ ɖesiaɖe wɔa dɔ le block ƒe kɔkɔme si woɖo me. Dodoɖeŋgɔ ɖesiaɖe si le ete la kple eƒe axa si ɖea nusi wòtrɔ kple nusitae me, le gbegbɔgblɔ si me kɔ me. Nu yeyee le Zcash? Xlẽ wo ɖe ɖoɖo nu, tso Sprout va ɖo Ironwood.
 
 Ne èdi ŋutinya si wokpɔna le alesi Zcash's adzamenyawo trɔ le ŋgɔyiyi siawo me ŋu la, kpɔ [Ameŋunyatakakawo ƒe Nɔnɔmetɔtrɔ](https://zechub.wiki/zcash-evolution). Axa siae nye index la. Emae nye ɣeyiɣi si woɖo ɖi.
 
@@ -16,19 +16,19 @@ Ne èdi ŋutinya si wokpɔna le alesi Zcash's adzamenyawo trɔ le ŋgɔyiyi siaw
 | [NU6](../zcash-tech/nu6) | Dzove 23, 2024. Eƒe dukɔ nye … | 2,726,400 | c8e71055 | Deferred Dev Fund Lockbox kple ŋgɔyiyi ƒe gazazã yeye ƒe mama |
 | [NU6.1](../zcash-tech/nu6-1) | Dzove 24, 2025. Eƒe dukɔ nye … | 3,146,400 | 4dec4df0 ƒe ɣleti | Nutoa me kple gaku-xɔlawo ƒe dziɖuɖu le gadodo ma me |
 | [NU6.2](../zcash-tech/nu6-2) | June 3, 2026, ƒe 2026 | 3,364,600 | 5437f330 | Dzadzraɖo kpata aɖe si ɖɔ Orchard nutome suea ɖo |
-| [Ironwood (NU6.3)](../zcash-tech/ironwood) | Dzove 28, 2026. Eƒe dukɔ nye … | 3,428,143 | 37a5165b | Ironwood ta la kple dutoƒo ʋuƒo si dzi woate ŋu atrɔ asi le si na amesiame ate ŋu alé ŋku ɖe nusiwo wotsɔ vɛ ŋu |
-| **NU7** (si gbɔna) | Dodokpɔ ƒe mɔ̃: 4 Oct 2026; Mainnet: woɖoe le 5 Nov 2026 dzi | Dodokpɔ ƒe ɖɔ: 4,465,026; Mainnet: TBD (woɖoe le 20 Oct) | 77190ad9 | 25-sɛkɛnd blocks (ZIP 218), NSM fetu gbugbɔgawɔ (ZIP 235+237), Sprout dzudzɔxɔxɔledɔme (ZIP 2003) |
+| [Ironwood (NU6.3)](../zcash-tech/ironwood) | Dzove 28, 2026. Eƒe dukɔ nye … | 3,428,143 | 37a5165b | Ironwood ta la kple dutoƒo ʋuƒo si dzi woate ŋu atrɔ asi le si na amesiame ate ŋu alé ŋku ɖe nusiwo woatsɔ anae ŋu |
+| **NU7** (si gbɔna) | Dodokpɔ ƒe mɔ̃: 4 Oct 2026; Mainnet: woɖoe le 5 Nov 2026 dzi | Dodokpɔ ƒe ɖɔ: 4,465,026; Mainnet: Ame 3,543,405 | 77190ad9 | 25-sɛkɛnd blocks (ZIP 218), NSM fetu gbugbɔgawɔ (ZIP 235+237), Sprout dzudzɔxɔxɔledɔme (ZIP 2003) |
 
 Woɖe ŋkekeawo fia le UTC me. Dashboard aɖewo ɖea wo fiana le nutoa me ƒe ɣeyiɣi dzi, si nye block ɖeka kple ɣeyiɣi ɖeka. Nusi woɖo ɖi na ŋgɔyiyi ɖesiaɖe enye eƒe dɔwɔwɔ ƒe mɔxenu ƒe kɔkɔme, ke menye ɣletigbalẽ ƒe ŋkeke o.
 
 ### NU7 nɔnɔme
 
-NU7 le agbe le dutoƒo Testnet dzi le kɔkɔme **4,465,026** (wowɔ dɔ le 4 October 2026). Woatia mainnet ƒe dɔwɔwɔ ƒe kɔkɔme le **20 October 2026**; taɖodzinu si woɖo fifia enye **5 November 2026**.
+NU7 le agbe le dutoƒo Testnet dzi le kɔkɔme **4,465,026** (wowɔ dɔ le 4 October 2026). Mainnet ƒe dɔwɔwɔ ƒe kɔkɔme nye **3,543,405** ([ZIP 259 ƒe xexlẽdzesi](https://zips.z.cash/zip-0259)), woɖoe be woawɔ **5 November 2026**.
 
 Afisi wòakeke ɖo (ZIP 259):
 
 - **25-sɛkɛnd blocks** (ZIP 218) — gbãtɔ ƒe kpeɖodzi ~3× kabakaba wu; gbesiagbe ZEC nana metrɔ o.
-- **Network Sustainability Mechanism** (ZIP 235 + ZIP 237) — Woɖe asitsatsa ƒe fewo ƒe 60% ɖa le asitsatsa me yi ɖe nudzraɖoƒe, wogbugbɔ na tomenukulawo le ɖoɖo si wowɔ be woatsɔ akpɔ wo ta ƒe afã dzi tso ~February 2031 me.
+- **Network Sustainability Mechanism** (ZIP 235 + ZIP 237) — Woɖe asitsatsa ƒe fewo ƒe 60% ɖa le asitsatsa me yi ɖe nudzraɖoƒe, wogbugbɔ na tomenukulawo le ɖoɖo si wowɔ be woatsɔ akpɔ wo tae ƒe afã dzi tso ~February 2031.
 - **Sprout dzudzɔxɔxɔledɔme** (ZIP 2003) — version 4 ƒe asitsatsa va zua nusi mewɔa dɔ o; Sprout ƒe ga susɔeawo va zua esiwo womate ŋu azã o.
 - Afɔɖeɖe ƒe seɖoƒe siwo wokpɔ ta na kple fesre si keke ta wu le mamã dedie nu (17 → 102 blocks).
 

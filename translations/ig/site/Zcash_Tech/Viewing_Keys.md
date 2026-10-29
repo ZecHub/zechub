@@ -8,9 +8,21 @@ Adreesị e ji kpuchie ekpuchi na-enye gị ohere ịzụ ahịa ma na-ekpughe o
 
 Igodo nlele bụ ngwaọrụ maka ikpughe ihe dị iche iche: ị na-ahọrọ onye na-ahụ ihe, ị naghịkwa enye ikike imefu ihe iji mee ya.
 
+## TL;DR
+
+Igodo nlele na-enye ohere ịnweta ọrụ nke adreesị ma ọ bụ akaụntụ Zcash echekwara: onye ọ bụla nwere ya nwere ike ịhụ azụmahịa na-abata (na, maka igodo nlele zuru oke, na azụmahịa na-apụ apụ), mana enweghị ike imefu ego.
+
+- **Ihe ọ bụ:** ngwaọrụ nhọrọ nke ikpughe nke ọdọ mmiri ndị a kpuchiri ekpuchi. Ewebatara na [ZIP 310](https://zips.z.cash/zip-0310), agbakwunyere na protocol na nkwalite netwọkụ Sapling.
+- **Ihe ọ na-enye:** nchọpụta nke nkwụnye ego (`uivk…` igodo na-abata) ma ọ bụ visibiliti zuru oke maka akaụntụ (`uview…` igodo ikiri zuru oke), na ihe nketa Sapling `zxviews…` igodo.
+- **Ihe ọ naghị enye:** mefuo ikike. Ọ dịghị ihe onye ji igodo nlele na-eme nke nwere ike ibugharị ego.
+- **Ebe ọ na-arụ ọrụ taa:** mbupụ/bubata na [Zallet](https://github.com/zcash/zallet) (v0.1.0-beta.2+, `z_exportviewingkey` / `z_importviewingkey`) na akaụntụ elekere naanị na obere akpa dịka Zkool; lee [Obere akpa](/using-zcash/wallets) peeji maka matriks nkwado dị ugbu a.
+- **Iwu isi mkpịsị aka:** na-ahọrọ igodo kacha dị warara nke na-aza ajụjụ a na-ajụ, chetakwa na enweghị ike icheta igodo enyere - naanị mgbe ọ gafere site na ibufe ego ahụ.
+
+---
+
 ## Gịnị mere e ji eji igodo nlele?
 
-Electric Coin Company's writing on the subject sets out the situations that come up most often, and they are still the common ones today:
+Electric Coin Company's dere gbasara okwu a na-akọwa ọnọdụ ndị na-apụtakarị, ha ka bụkwa ihe a na-ahụkarị taa:
 
 - **Ịgbanwe ego na-ele anya maka ego e tinyere.** Mgbanwe ahụ na-ebunye igodo nlele na-abata na ebe nchọpụta ịntanetị ka o wee nwee ike ịhụ ego ndị ahịa na-etinye na adreesị echekwara, ebe igodo mmefu na-anọgide na ngwaike nke na-emetụghị netwọk ahụ aka.
 - **Onye nlekọta na-egosi na o nwere ihe ọ bụla.** Onye nlekọta na-enye onye nyocha igodo nlele zuru oke maka adreesị ọ bụla e chebere. Onye nyocha nwere ike ịlele nguzozi ndị ahụ ma nyochaa ihe ndị mere n'oge gara aga gaa na site na adreesị ndị ahụ, ọ nweghịkwa ike ime ihe ọ bụla ọzọ.
@@ -20,9 +32,9 @@ Electric Coin Company's writing on the subject sets out the situations that come
 
 E nwere ihe karịrị otu ụdị isi, ọdịiche dị na ya na-ekpebi ego ole ị na-enye.
 
-| Igodo | Ndozi Okwu | Onyinye |
+| Igodo | Ndozi mmalite | Onyinye ego |
 |---|---|---|
-| Unified full viewing key (UFVK) | `uview…` | Na-ahụ azụmahịa **na** na-abata maka ọdọ mmiri ọ bụla dị na akaụntụ ahụ |
+| Unified full viewing key (UFVK) | `uview…` | Na-ahụ azụmahịa na-abata na ** na-apụ apụ maka ọdọ mmiri ọ bụla dị na akaụntụ ahụ |
 | Unified incoming viewing key (UIVK) | `uivk…` | Na-ahụ naanị azụmahịa na-abata, maka ọdọ mmiri ọ bụla dị na akaụntụ ahụ |
 | Sapling extended full viewing key | `zxviews…` | Na-ahụ ọrụ Sapling na-abata na nke na-apụ apụ maka adreesị igodo ahụ |
 
@@ -30,27 +42,27 @@ E nwere ihe karịrị otu ụdị isi, ọdịiche dị na ya na-ekpebi ego ole
 
 Ọ dị mkpa ka ị mara ihe abụọ gbasara mkpughe tupu ị gwa ha ihe ọ bụla.
 
-**Ịbata apụtaghị obere.** A na-eji igodo nlele abata eme ihe n'otu aka na akaụntụ ahụ dum, ọ bụghị n'otu adreesị a jụrụ gị. Ịbupụ UIVK maka otu adreesị Sapling ka na-enye ohere ịhụ ihe na-abata n'ime ọdọ mmiri ọ bụla dị na akaụntụ ahụ, yabụ ọ na-ekpughe ihe karịrị adreesị ọ kpọrọ aha. [Akwụkwọ Zallet](https://zcash.github.io/zallet/zcashd/json_rpc.html) na-ekwu nke a nke ọma.
+**Ịbata apụtaghị obere.** A na-eji igodo nlele abata eme ihe n'otu aka na akaụntụ ahụ dum, ọ bụghị n'otu adreesị a jụrụ gị. Ịbupụ UIVK maka otu adreesị Sapling ka na-enye ohere ịhụ ihe na-abata n'ime ọdọ mmiri ọ bụla dị na akaụntụ ahụ, yabụ ọ na-ekpughe ihe karịrị adreesị ọ kpọrọ aha [Akwụkwọ Zallet](https://zcash.github.io/zallet/zcashd/json_rpc.html) na-ekwu nke a nke ọma.
 
 **Adreesị ebipụtara ekpugheela ụzọ ikiri ya na-abata nye onye iro ga-abịa n'ọdịnihu.** [ZIP 326](https://zips.z.cash/zip-0326) na-ekwu na onye iro nwere kọmputa quantum nwere ike nweta igodo nlele na-abata site na adreesị dị iche iche ebipụtara, nke a ga-ekwe omume n'ụzọ nke na-eme ka ị nweta igodo nullifier ghara ịdị. Ibipụta adreesị abụghị otu ihe ahụ dị ka ibipụta igodo nlele taa, mana ha abụọ nọdụrụ nso n'elu mbara igwe dị ogologo.
 
 ## Ịlele igodo mgbe Ironwood gasịrị
 
-NU6.3 webatara ọdọ mmiri Ironwood nke e ji ihe nchebe kpuchie ma mee ka ọdọ mmiri Orchard bụrụ naanị ihe a na-emefu, ka ego wee si n'otu gaa na nke ọzọ na-agafe ka oge na-aga. [Ironwood](/zcash-tech/ironwood) na [Ogwe aka ahụ](/zcash-tech/the-turnstile) maka mmelite ahụ n'onwe ya.
+NU6.3 webatara ọdọ mmiri Ironwood nke e ji ihe nchebe kpuchie ma mee ka ọdọ mmiri Orchard bụrụ naanị ihe a na-emefu, ka ego wee si n'otu gaa na nke ọzọ na-agafe ka oge na-aga [Ironwood](/zcash-tech/ironwood) na [Ogwe aka ahụ](/zcash-tech/the-turnstile) maka mmelite ahụ n'onwe ya.
 
-**E nyere igodo nlele tupu Ironwood agaa n'ihu na-arụ ọrụ mgbe njem ahụ gasịrị.** ZIP 326 na-akọwapụta na a na-eji usoro *protocol* nke onye nnata na-anabata ihe, na igodo nlele ya na-abata, enyocha ya na Orchard kama ịbanye n'ọdọ mmiri: otu igodo nlele ahụ na-abata na-akọwapụta ma ederede ederede Orchard-pool na nke Ironwood-pool. Zallet na-eme ya n'ụzọ ahụ, na-akọwa ndetu Ironwood dị ka nke Orchard ma jiri igodo nlele Orchard nke akaụntụ ahụ decryption n'okpuru ngalaba nzuzo note-encryption nke Ironwood.
+**E nyere igodo nlele tupu Ironwood agaa n'ihu na-arụ ọrụ mgbe njem ahụ gasịrị.** ZIP 326 na-akọwapụta na a na-eji usoro *protocol* nke onye nnata na-anabata ihe, na igodo nlele ya na-abata, enyocha ya na Orchard kama ịbanye n'ọdọ mmiri: otu igodo nlele ahụ na-abata na-akọwapụta ma ederede ederede Orchard-pool na nke Ironwood-pool. Zallet na-eme ya n'ụzọ ahụ, na-akọwa ndetu Ironwood dị ka Orchard-shaped ma jiri igodo nlele Orchard nke akaụntụ ahụ decryption n'okpuru ngalaba nzuzo note-encryption Ironwood.
 
 Ihe atọ ga-esi na ya pụta nye onye ọ bụla ji ma ọ bụ nye igodo:
 
 1. **Nhazi na-agagharị n'etiti ọdọ mmiri, onye na-ekiri ya na-ahụkwa ka ọ na-eme.** [ZIP 318](https://zips.z.cash/zip-0318) na-akọwapụta mbugharị dị ka usoro obere azụmahịa Orchard-to-Ironwood nke e mere n'oge a na-anaghị ahazi, nke ọ bụla na-emefu otu akwụkwọ Orchard ma na-emepụta otu mmepụta Ironwood nke otu akwụkwọ iwu. Onye nyocha na-ekiri ihe na-ekiri na-ahụ na ihe ndị e ji ejide ihe na-agbanwe site n'otu ọdọ mmiri gaa na nke ọzọ n'ime izu ole na ole, ọ bụghị n'otu mmegharị. Akpa ego nwere ike imegharị ọganihu mbugharị nke ya site na data yinye site na iji igodo nlele ya.
-2. **Nzọụkwụ mbugharị ọ bụla na-egosi uru ọ na-eme.** Nke ahụ bụ ihe dị n'ime ịgafe ebe a na-atụgharị ihe, ọ bụkwa ya mere a ga-eji nyochaa mbugharị ahụ. Ikewa nguzozi ahụ n'ime otu okpukpe pụtara na ọ dịghị otu azụmahịa na-egosi nguzozi niile nke ọdọ mmiri Orchard.
+2. **Nzọụkwụ mbugharị ọ bụla na-egosi uru ọ na-eme.** Nke ahụ bụ ihe dị n'ime ịgafe ebe a na-atụgharị ihe, ọ bụkwa ya mere a ga-eji nyochaa mbugharị ahụ. Ikewa nguzozi ahụ n'ime otu okpukpe pụtara na ọ dịghị otu azụmahịa na-egosi nguzozi niile Orchard-pool.
 3. **Akaụntụ e mepụtara mgbe Ironwood gasịrị nwere ike ịchọta igodo ha n'ụzọ dị iche iche.** [ZIP 2005](https://zips.z.cash/zip-2005) na-agbakwụnye `use_qsk` ọkọlọtọ maka igodo ndị a na-agbanwe agbanwe nke quantum, ọ na-agbanwekwa otu esi enweta igodo ndị na-abata, ndị na-apụ apụ na ndị na-agbanwe ihe, yabụ `use_qsk = true` igodo bụ igodo dị iche n'ezie. ZIP 326 chọrọ ka ọkọlọtọ ahụ dịrị otu n'ofe akaụntụ ma gbochie imepụta `use_qsk = true` igodo tupu NU6.3 arụ ọrụ na Mainnet. Ya mere, e si na akaụntụ dịbu adị tupu Ironwood ebupụ igodo `use_qsk = false` igodo, ma na-anọgide na-adị mma maka akaụntụ ahụ. Echela na igodo e si n'otu akaụntụ wepụta na-akọwa nke ọzọ.
 
 ## Mbupụ igodo nlele
 
 ### Zallet
 
-[Zallet](https://github.com/zcash/zallet) bụ obere akpa zuru oke nke dochie obere akpa dị n'ime zcashd. Mbupụ na mbubata nke Viewing-key rutere na **v0.1.0-beta.2 (28 Julaị 2026)**, yabụ lelee ụdị gị mbụ; ihe owuwu mbụ enweghị usoro ndị a. Arụmụka ọ bụla mgbe aha usoro ahụ gasịrị ga-abụrịrị JSON ziri ezi, nke pụtara na uru eriri na-edebe nhota abụọ nke ha. [Nduzi Ntụaka Ngwa Ngwa Zallet](/using-zcash/zallet-quick-reference-guide) kpuchiri ụdị iwu izugbe.
+[Zallet](https://github.com/zcash/zallet) bụ obere akpa zuru oke nke dochie obere akpa dị n'ime zcashd. Mbupụ na mbubata nke Viewing-key rutere na **v0.1.0-beta.2 (28 Julaị 2026)**, yabụ lelee ụdị gị mbụ; ihe owuwu mbụ enweghị usoro ndị a. Arụmụka ọ bụla mgbe aha usoro ahụ gasịrị ga-abụrịrị JSON ziri ezi, nke pụtara na uru eriri na-edebe nhota abụọ nke ha [Nduzi Ntụaka Ngwa Ngwa Zallet](/using-zcash/zallet-quick-reference-guide) kpuchiri ụdị iwu izugbe.
 
 Depụta ihe akpa ego ahụ nwere:
 
@@ -70,17 +82,17 @@ Bupụ igodo nlele nke akaụntụ ahụ, site na iji nhọrọ `ivk` arụmụk
 zallet rpc z_exportviewingkey '"<unified address>"' true
 ```
 
-Inyefe adreesị Sapling na-eweghachi igodo nlele zuru oke nke akaụntụ ahụ (`zxviews…`), kwekọrọ na omume zcashd ochie. Oke abụọ edere ede: A jụrụ adreesị Sprout, enweghịkwa ike ibupụ igodo nlele zuru oke nke Sapling site na akaụntụ nke e bubatara n'onwe ya dị ka echiche-naanị, n'ihi na obere akpa ahụ enweghị ike iwughachi ya. `ivk` ụdị ahụ na-arụ ọrụ maka akaụntụ nlele-naanị ebubata.
+Inyefe adreesị Sapling na-eweghachi igodo nlele zuru oke nke Sapling ahụ (`zxviews…`), kwekọrọ na omume zcashd ochie. Oke abụọ edere ede: A jụrụ adreesị Sprout, enweghịkwa ike ibupụ igodo nlele zuru oke nke Sapling site na akaụntụ nke e bubatara n'onwe ya dị ka echiche-naanị, n'ihi na obere akpa ahụ enweghị ike iwughachi ya `ivk` ụdị ahụ na-arụ ọrụ maka akaụntụ nlele-naanị ebubata.
 
 ### Obere akpa ego ndị na-ebupụ igodo nlele site na interface nke ha
 
-Ihe [Obere akpa](/using-zcash/wallets) Ibe akwụkwọ ahụ na-egosi nkwado igodo nlele na njikere Ironwood maka obere akpa ọ bụla. N'oge a na-ede ihe a, obere akpa nwere ihe nkwado igodo nlele na **Ironwood: Njikere** gụnyere ZODL, Zingo!, Zkool, Achịcha, Zallet, zecd na Nozy. Lelee ibe ahụ kama nke a tupu ị dabere na obere akpa ọ bụla, n'ihi na njikere na-agbanwe.
+Ihe [Obere akpa](/using-zcash/wallets) Peeji ahụ na-esochi nkwado igodo nlele na njikere Ironwood maka obere akpa ọ bụla. N'oge a na-ede ihe a, obere akpa na-edepụta ma nkwado igodo nlele na **Ironwood: Dị njikere** gụnyere ZODL, Zingo!, Zkool, Cake, Zallet, zecd na Nozy. Lelee peeji ahụ kama nke a tupu ị dabere na obere akpa ọ bụla, n'ihi na njikere na-agbanwe.
 
 ## Ibubata igodo nlele dị ka akaụntụ elekere naanị
 
 ### Zkool
 
-[Zkool](https://github.com/hhanh00/zkool2) bụ nhọrọ kachasị mfe ebe a, n'ihi na ọ na-anabata igodo ndị ejikọtara ọnụ yana ndị ochie. README ya na-edekọ akaụntụ ndị na-elele naanị nke e mepụtara site na **igodo nlele jikọtara ọnụ** ma ọ bụ igodo nlele ogologo Sapling**, yana igodo ndị echekwara ochie nke e si na zcashd zipụ. Tinye akaụntụ ọhụrụ, họrọ ụzọ nlele naanị, ma mado ya. `uview…` or `zxviews…` igodo; akaụntụ ahụ na-emekọrịta ma na-akọ akụkọ ihe mere eme na-enweghị ikike mmefu ego.
+[Zkool](https://github.com/hhanh00/zkool2) bụ nhọrọ kachasị mfe ebe a, n'ihi na ọ na-anabata igodo ndị ejikọtara ọnụ yana ndị ochie. README ya na-edekọ akaụntụ ndị na-elele naanị nke e mepụtara site na **igodo nlele jikọtara ọnụ** ma ọ bụ igodo nlele ogologo **Sapling**, yana igodo ndị echekwara ochie nke e si na zcashd. Tinye akaụntụ ọhụrụ, họrọ ụzọ nlele naanị, ma mado ya `uview…` or `zxviews…` igodo; akaụntụ ahụ na-emekọrịta ma na-akọ akụkọ ihe mere eme na-enweghị ikike mmefu ego.
 
 Nkwado usoro Ironwood na njem Orchard-to-Ironwood rutere na Zkool 6.24.0 (20 Julaị 2026), yana 6.26.1 (2 Ọgọst 2026) edoziri nchọpụta azụmahịa Ironwood na mempool. Gbaa 6.26.1 ma ọ bụ karịa.
 
@@ -94,15 +106,74 @@ Arụmụka nke abụọ bụ amụma nyochagharị: `"whenkeyisnew"` (ndabara),
 
 **Zallet na-ebubata Sapling naanị igodo nlele zuru oke.** Ọ gaghị ebubata `uview…` igodo nlele zuru oke, ọbụlagodi na ọ nwere ike ibupụ otu. Iji nye ohere ịgụ akwụkwọ na akaụntụ ejikọtara ọnụ, bupụ UFVK site na Zallet wee bubata ya n'ime obere akpa nke na-anabata igodo ejikọtara ọnụ, dịka Zkool.
 
-Iji gbanwee igodo ebubatara ka ọ bụrụ faịlụ akụkọ ihe mere eme azụmahịa zuru oke, yana txids, ụgwọ na memos, lee [Exporting Transaction History from a Viewing Key](/guides/viewing-key-transaction-export).
+Iji gbanwee igodo ebubatara ka ọ bụrụ faịlụ akụkọ ihe mere eme azụmahịa zuru oke, yana txids, ụgwọ na memos, lee [Mbupụ Akụkọ Azụmahịa site na Viewing Key](/guides/viewing-key-transaction-export).
 
 ## Ihe gbanwere, na ihe ị ga-akwụsị ịchọ
 
 Ọ bụrụ na ị soro ụdị ochie nke ibe a, ma ọ bụ nsụgharị ya, ụzọ atọ agaghị arụ ọrụ ọzọ.
 
-- **`zcash-cli z_exportviewingkey` na `z_importviewingkey`.** zcashd ruru nkwụsị nkwado ya na 18 Julaị 2026 ma ọ naghịzi arụ ọrụ. Ụzọ Zallet kpọrọ aha otu ihe ahụ bụ nnọchi; lee [ntuziaka mbugharị](/guides/migration-guide-zcashd-to-zebrad-zallet).
-- **Nlele Ywallet.** Peeji Wallets na-egosi Ywallet **Ironwood: Adịghị njikere**, yabụ ọ bụghị obere akpa ahụ ka e ji atụ ndị mmadụ aka maka igodo nlele nke oge Ironwood. Zkool, sitere n'aka otu onye nrụpụta ahụ, na-anabata otu ụdị igodo ahụ ma tinye akara ya na Ready.
+- **`zcash-cli z_exportviewingkey` na `z_importviewingkey`.** zcashd ruru nkwụsị nkwado ya na 18 Julaị 2026 ma ọ naghịzi arụ ọrụ. Ụzọ Zallet's kpọrọ aha otu ihe ahụ bụ nnọchi; lee [ntuziaka mbugharị](/guides/migration-guide-zcashd-to-zebrad-zallet).
+- **Nlele Ywallet.** Peeji Wallets na-egosi Ywallet **Ironwood: Adịghị njikere**, yabụ ọ bụghị obere akpa ahụ ka e ji atụ ndị mmadụ aka maka igodo nlele Ironwood-era. Zkool, sitere n'aka otu onye nrụpụta ahụ, na-anabata otu ụdị igodo ahụ ma tinye akara ya na Ready.
 - **zcashblockexplorer.com/vk.** Ọrụ ahụ na-eweghachi HTTP 503 na asambodo na-adịghị mma, a tụfukwara ya kama ịgbanwe ya. Ịmanye igodo nlele na weebụsaịtị na-enye akụkọ azụmahịa gị niile nye onye ọ bụla na-agba weebụsaịtị ahụ, nke bụ mgbe niile nhọrọ atọ kachasị adịghị ike na ibe ochie. Bubata igodo ahụ na obere akpa ị na-agba.
+
+## Anya / Ihe atụ
+
+### Windo onye nyocha ahụ
+
+Chee echiche banyere akaụntụ echekwara dị ka ebe nchekwa ego n'ụlọ akụ:
+
+- **Igodo mmefu** bụ igodo ụlọ. Onye ọ bụla jidere ya nwere ike imepe igbe wee wepụta ihe dị n'ime ya.
+- Ihe dị mkpa bụ windo onye na-enyocha ụlọ ahụ nke na-abanye n'ime ụlọ ahụ. Onye na-enyocha ụlọ ahụ nwere ike ikiri igbe ọ bụla na-abanye ma na-apụ, gụọ akara ndị e ji mee ya, ma debe akwụkwọ ndekọ ego - mana windo ahụ enweghị aka. Ọ dịghị ihe ọ bụla dị n'ime ụlọ ahụ nke onye na-ele anya na ya nwere ike ibugharị.
+
+### Ihe windo ahụ enweghị ike igosi
+
+Windo ahụ na-eche ihu n'ime ụlọ ahụ, ọ bụghị ụwa dị n'èzí ya. Ọ na-egosi ọrụ nchekwa nke akaụntụ elebara anya; ọ naghị eme ka onye na-ele anya ghọọ onye na-ele anya n'ofe blockchain, ọ naghịkwa ekwe ka onye na-ele anya jikọta ọrụ akaụntụ ahụ na akụkọ ihe mere eme nke onye ọzọ na-enweghị ihe nchebe. Ebe ọ bụ na etinyere windo ahụ n'ọkwa akaụntụ, inye mmadụ oghere maka otu igbe nkwụnye ego (otu adreesị) ka na-enye ha echiche nke ụlọ ahụ dum - nke bụ kpọmkwem ihe mere iwu igodo kacha dị warara ji dị.
+
+### Ihe kpatara na ị gaghị eweghachi windo ahụ azụ
+
+Igodo nlele bụ ozi, ọ bụghị ntinye ikike. Ozugbo e depụtaghachiri ya, ọ ga-adị ruo mgbe ego ahụ ga-apụ na akaụntụ ọ na-ele anya. Ngwọta bara uru bụ ntụgharị: bugharịa nguzozi gaa na akaụntụ ọhụrụ nke mkpịsị ugodi onye nke ọzọ na-enwetaghị, windo ochie ahụ na-eche ihu ụlọ tọgbọ chakoo.
+
+## Mmiri miri emi
+
+### Ndekọ nnwale: otu ikiri si arụ ọrụ n'ezie
+
+Azụmahịa ọ bụla e ji echebe na-ezochi ederede ndetu ya nye onye a chọrọ ka o nweta. Akpa ego nke nwere igodo nlele na-eme **nkọwapụta nnwale**: maka azụmahịa ọ bụla ọ hụrụ na yinye, ọ na-agbalị iwepụ ederede ndetu na igodo. Hits na-ekpughe uru ndetu ahụ, ihe na-agbanwe ihe nnata na memo; efufu efughị ihe ọ bụla. Nke a bụ ya mere otu igodo nlele na-abata ji na-arụ ọrụ n'ofe ọdọ mmiri Orchard na Ironwood — [ZIP 326](https://zips.z.cash/zip-0326) na-enyocha onye nnata na usoro * Orchard *, yabụ ederede ederede Ironwood dị Orchard-shaped ma ejiri igodo nlele Orchard nke akaụntụ ahụ depụta ya site na nnwale n'okpuru ngalaba nzuzo note-encryption Ironwood.
+
+### Full vs abata: ihe a ga-ekpebi
+
+Igodo ikiri ihe **zuru oke** nwere ike inweta ikike ikiri ihe na-apụ apụ, nke bụ ihe na-eme ka onye na-enyocha ihe nwee ike ịhazi akụkụ *onye zitere* nke mbufe ozugbo emechara nchọpụta azụmahịa ahụ. Igodo ikiri ihe **na-abata** na-akwụsị n'ụzọ na-adịghị mma: ọ na-achọpụta ma na-ewepụ ihe ndị na-abata mana ọ nweghị ike ịmepụta njikọ na-apụ apụ. Mmalite dị n'etiti ikike ndị a bụ otu ụzọ - igodo na-abata sitere *site* igodo zuru oke, ọ bụghị ihe ọzọ - nke bụ ihe na-eme ka "naanị nnabata" bụrụ ezigbo mbelata kama nkwa `use_qsk` ọkọlọtọ si [ZIP 2005](https://zips.z.cash/zip-2005) na-agbanwe ihe e si na ya nweta n'onwe ya, yabụ igodo ndị a na-enweta na quantum bụ ezinụlọ isi dị iche kpamkpam, ọ bụghị ụdị nke ochie ahụ.
+
+### Kedu ka njem si dị nye onye na-ekiri ya
+
+N'ihi na [ZIP 318](https://zips.z.cash/zip-0318) Mbugharị bụ usoro azụmahịa obere, nke otu ụdị Orchard-to-Ironwood, onye na-ekiri ya jidere igodo ahụ na-ahụ steepụ: ọtụtụ nzọụkwụ nke uru nke mkpụrụokwu dị iche iche kama ịwụli otu. Ọ dịghị otu nzọụkwụ na-egosi nguzozi zuru oke a na-akwaga, mana a na-amata *ụkpụrụ* ahụ - nke bụ mgbanwe nke turnstile a na-enyocha.
+
+## Mmetụta Bara Uru
+
+- **Maka mgbanwe na nhazi ịkwụ ụgwọ:** tinye igodo nlele akaụntụ ahụ na-abata (ma ọ bụ UFVK maka mkpuchi zuru oke) n'ime oghere nchọpụta wee dozie ego ndị ahịa na-etinye na akpaghị aka, dịka ị ga-eme na adreesị doro anya - mana igodo mmefu onye ahịa anaghị ahapụ ebe nchekwa oyi.
+- **Maka ndị na-enyocha ihe na ihe akaebe nke nchekwa:** igodo nlele zuru oke na-agbanwe "tụkwasị anyị obi" ka ọ bụrụ "nyochaa nke a": nhazi na akụkọ azụmahịa zuru oke maka akaụntụ ndị a na-elele, na-enweghị ikike imetụ ha aka. Jikọta ya na [Mkpughe ịkwụ ụgwọ](/zcash-tech/payment-disclosures) maka ihe akaebe nke otu ugboro gbasara otu ịkwụ ụgwọ.
+- **Maka nlezianya kwesịrị ekwesị:** nye aka na mkpịsị ugodi maka akaụntụ metụtara nkwakọrịta ahụ, ọ bụghị obere akpa gị dum. Ọ bụrụ na mmekọrịta ahụ agwụ, tụgharịa akaụntị ahụ.
+- **Maka nhọrọ ngwaọrụ:** Zallet na-ebupụ UFVKs na mbubata Sapling na-agbatị igodo nlele zuru oke; Zkool na-anabata igodo ejikọtara ọnụ na nke ochie dị ka akaụntụ elekere naanị. Lelee [Obere akpa](/using-zcash/wallets) peeji maka matriks njikere Ironwood dị ugbu a tupu ịhazi ihe na obere akpa.
+- **Ọnụ ego ikpughe bụ nke na-adịgide adịgide:** onye ọ bụla nwere igodo ọzọ bụ akara kredit nzuzo na-adịgide adịgide nke ị na-enweghị ike imechi. Nye igodo maka mmekọrịta ọ bụla, kewaa ha na otu akaụntụ, ma dee onye nwere ihe.
+
+## Mmejọ Ndị A Na-emekarị
+
+| Nkwenye a na-ekwenyekarị | Gịnị bụ eziokwu? |
+| --- | --- |
+| "Igodo nlele nwere ike imefu ego ahụ ma ọ bụrụ na ọ gbapụta." | Ọ gaghị ekwe omume. Ikiri igodo enweghị ikike imefu ego; ihe kacha njọ na-eme bụ ikpughe akụkọ ihe mere eme. |
+| "Enwere m ike ịkagbu igodo ikiri ihe ma emechaa." | I nweghị ike. Igodo enyere aka ga-arụ ọrụ ruo mgbe ego ahụ ga-agafe na akaụntụ nke igodo nke onye nke ọzọ na-ejideghị. |
+| "Ịbupụ UIVK maka otu adreesị na-egosi naanị adreesị ahụ." | A na-enyocha igodo nlele na akaụntụ. UIVK na-egosi ihe omume na-abata maka ọdọ mmiri ọ bụla dị na akaụntụ ahụ. |
+| "`zcash-cli z_exportviewingkey` ka na-arụ ọrụ." | Mba zcashd ruru nkwụsị nkwado ya na 18 Julaị 2026; jiri Zallet's `z_exportviewingkey` / `z_importviewingkey` kama. |
+| "Ịtinye igodo nlele n'ime ngwa weebụ dị mma n'ihi na ọ bụ naanị ọgụgụ ka a na-agụ." | Ọgụgụ-naanị ka pụtara na a ga-enye onye ọ bụla na-agba saịtị ahụ akụkọ azụmahịa gị niile. Bubata igodo ahụ n'ime obere akpa ị na-agba. |
+| "Zallet nwere ike ibubata igodo nlele ọ bụla Zallet nwere ike ibupụ." | Mba. Zallet na-ebubata Sapling gbatịpụrụ igodo nlele zuru oke naanị; `uview…` igodo ga-abanye n'ime obere akpa ego ndị na-anabata igodo ndị e jikọtara ọnụ, dịka Zkool. |
+
+## Peeji ndị metụtara ya
+
+- [Nkwupụta Ịkwụ Ụgwọ](/zcash-tech/payment-disclosures) - igosi nkọwa ahọpụtara nke otu ịkwụ ụgwọ na-enyeghị ohere ịnweta akaụntụ na-aga n'ihu
+- [Adreesị Ndị Ejikọtara Ọnụ](/zcash-tech/unified-addresses) - oyi akwa adreesị nke na-ebu ndị nnata nlele
+- [Ironwood](/zcash-tech/ironwood) — ọdọ mmiri NU6.3 nke Orchard na-akwaga n'ime ya
+- [Ogwe Mgbanwe](/zcash-tech/the-turnstile) - usoro njem Orchard-to-Ironwood ndị na-ekiri nwere ike ikiri
+- [Obere akpa](/using-zcash/wallets) - ndekọ zuru oke nke obere akpa, nkwado igodo nlele na njikere Ironwood
+- [Mbupụ Akụkọ Azụmahịa site na Viewing Key](/guides/viewing-key-transaction-export) - ịtụgharị igodo ebubatara ka ọ bụrụ faịlụ akụkọ ihe mere eme txid/fee/memo zuru oke
 
 ## akụrụngwa
 
@@ -111,10 +182,11 @@ Jiri igodo nlele dịka ọ dị mkpa, họrọkwa igodo kacha dị warara nke n
 - [Mkpughe ịkwụ ụgwọ](/zcash-tech/payment-disclosures) - igosi nkọwa ahọpụtara nke otu ịkwụ ụgwọ na-enweghị inye ohere na-aga n'ihu na akaụntụ
 - [ZIP 326: NU6.3 Ihe ga-esi na obere akpa pụta](https://zips.z.cash/zip-0326) - otu igodo nlele si eme omume n'ofe ọdọ mmiri Orchard na Ironwood
 - [ZIP 229: Ụdị nke 6 Usoro Azụmahịa](https://zips.z.cash/zip-0229) - na-akọwa ọdọ mmiri Orchard na Ironwood
+- [ZIP 310](https://zips.z.cash/zip-0310) - ịlele nkọwapụta isi
 - [Ndekọ mgbanwe Zallet](https://github.com/zcash/zallet/blob/main/CHANGELOG.md) - nke ewepụtara gbakwunyere usoro RPC nke
 - [Zkool README](https://github.com/hhanh00/zkool2/blob/main/README.md) - akaụntụ akwadoro na ụdị isi okwu
 - [ECC, Nkọwa Igodo Ilele](https://electriccoin.co/blog/explaining-viewing-keys/)
 - [ECC, Mkpughe na Igodo Nlele Nhọrọ](https://electriccoin.co/blog/viewing-keys-selective-disclosure/)
-- [ECC, Zcash Viewing Key Video Presentation](https://www.youtube.com/watch?v=NXjK_Ms7D5U&t=199s)
+- [Ngosipụta vidiyo Viewing Key ECC, Zcash](https://www.youtube.com/watch?v=NXjK_Ms7D5U&t=199s)
 
-Lee kwa: [Adreesị Ndị Ejikọtara Ọnụ](./Unified_Addresses.md)
+

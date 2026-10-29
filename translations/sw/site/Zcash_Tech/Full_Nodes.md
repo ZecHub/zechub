@@ -54,7 +54,7 @@ zcashd hufichua seti ya API kupitia kiolesura chake cha RPC. API hizi hutoa vite
 
 [Kitabu zcashd](https://zcash.github.io/zcash/)
 
-#### Anzisha Node (Linux)
+#### Anzisha Nodi (Linux)
 
 - Utegemezi wa Usakinishaji
 
@@ -102,7 +102,7 @@ Hizi ni mifano ya mifumo inayoruhusu ufikiaji wa data ya Mtandao Zcash:
 
 [Kichunguzi cha Kizuizi Zcash](https://mainnet.zcashexplorer.app)
 
-[Sarafu za kielektroniki](https://docs.coinmetrics.io/info/assets/zec)
+[Coin Metrics](https://docs.coinmetrics.io/info/assets/zec)
 
 Unaweza pia kuchangia katika maendeleo ya mtandao kwa kufanya majaribio au kupendekeza maboresho mapya na kutoa vipimo.
 

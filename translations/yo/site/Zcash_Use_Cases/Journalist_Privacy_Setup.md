@@ -2,15 +2,15 @@
 
 <span className="inline-flex items-center gap-[6px]">
   <span className="inline-block w-[12px] h-[12px] bg-green-500 rounded-full"></span>
-  Àkóbá fún àwọn tó ń ṣe eré ìdárayá - Ìṣẹ́jú 7
+  Olùbẹ̀rẹ̀ - ìṣẹ́jú 7
 </span>
 
 ## TL;DR
 
-- Lo àwọn àdírẹ́sì tí a fi ààbò bo fún gbogbo ìsòwò
-- Má ṣe fi orúkọ àpò ìnáwó hàn fún gbogbo ènìyàn rí.
-- Dáàbò bo àwọn orísun nípa yíyẹra fún ìsanwó tí a lè tọpinpin rẹ̀.
-- Lo àwọn àlàyé ìparí pẹ̀lú ìṣọ́ra fún ìbánisọ̀rọ̀ tí ó ní ìdènà.
+- Lo awọn adirẹsi ti a daabobo fun gbogbo awọn iṣowo
+- Má ṣe fi ìdánimọ̀ àpò owó hàn ní gbangba láéláé
+- Dáàbò bo àwọn orísun nípa yíyẹra fún àwọn ìsanwó tí a lè tọ́pasẹ̀
+- Lo àwọn àkọsílẹ̀ pẹ̀lú ìṣọ́ra fún ìbánisọ̀rọ̀ tó ní ààbò
 
 <br/>
 
@@ -18,123 +18,123 @@
 
 - Àwọn oníròyìn
 - Àwọn olùwádìí
-- Àwọn Òsìsẹ́-Ìjàpá
-- Àwọn ẹni-kọọkan tí ó ní ewu gíga tó ń ṣètò àwọn owó ìdókòwò dídákẹ́lẹ̀.
+- Àwọn ajìjàǹgbara
+- Àwọn ènìyàn tó ní ewu tó ga jù tí wọ́n ń san owó ìsanwó tó ṣe pàtàkì
 
 
 <br/>
 
 ## <img src="/content-images/warning-error-svgrepo-com-b7ea8a50da.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="warning icon"/> The Problem
 
-Àwọn oníròyìn ń kojú:
-- Ìṣọ́
-- Àwọn ewu tí ó jẹ́ ti ìmúmu sí ibi ààbò
-- Ìtọjú owó àwọn alátakò
+Àwọn oníròyìn dojúkọ:
+- Ààbò
+- Àwọn ewu ìfarahàn orísun
+- Ìtẹ̀lé owó láti ọwọ́ àwọn ọ̀tá
 
-Lílò àwọn ẹ̀rọ-ìpamọ́ tí ó ṣe kedere lè fi hàn:
-- Ta ló sanwó fún ọ?
-- Àwọn tí o sanwó fún.
-- Ìgbà wo ni wọ́n máa ṣe é àti iye tó máa gbà?
+Lilo crypto gbangba le ṣafihan:
+- Ta ló san owó fún ọ
+- Ẹni tí o sanwó fún
+- Ìgbà wo àti iye tí ó pọ̀ tó
 
 <br/>
 
 ## <img src="/content-images/icons8-lock-2f8e221321.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> Why Zcash?
 
 
-Zcash n pese:
-- Ìpamọ́ra tó lágbára nípa ìṣúnná owó
-- Ààbò fún àwọn ìnáwó tó ní òye
-- Ìdẹwò dídíjú láti so àwọn oníròyìn pọ̀ mọ́ orísun ìsọfúnni wọn.
+Zcash pese:
+- Ìpamọ́ owó tó lágbára
+- Idaabobo fun awọn iṣowo ti o ni imọlara
+- Ewu ti o dinku lati so awọn oniroyin pọ mọ awọn orisun
 
 <br/>
 
 ## <img src="/content-images/icons8-toolbox-9bebbb1619.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> What You Need
 
-- Àpò Zcash tí ó ní ìtìlẹyìn ààbò.
-- Ọna ìjùmọ̀sọfúnni tí ó ní ààbò (níta blockchain)
-- Ìwà ìrẹ́nijẹ nínú iṣẹ́ náà
+- Àpò owó Zcash kan pẹ̀lú àtìlẹ́yìn ààbò
+- Ikanni ibaraẹnisọrọ to ni aabo (ni ita blockchain)
+- Ẹ̀ka iṣẹ́
 
 <br/>
 
 ## <img src="/content-images/ladder-svgrepo-com-7232bf46ed.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="step icon"/> Step-by-Step Guide
 
 
-### Ìgbésẹ̀ 1: Ṣídá Àpamọ́ kan Tí a Ya Ara Rẹ Sítọ̀ fún Iṣẹ́-ìṣúná rẹ.
+### Igbesẹ 1: Ṣẹda Apamọwọ Pataki kan
 
-- Lo àpò owó fún iṣẹ́ tó ṣe pàtàkì nìkan.
-- Má ṣe fi nǹkan tí kò ní í jẹ́ ti ara ẹni kún un.
+- Lo àpò owó fún iṣẹ́ tó ṣe pàtàkì nìkan
+- Má ṣe dapọ̀ mọ́ àwọn ìṣòwò ara ẹni
 
-### Igbesẹ 2: Lo Àwọn Adirẹsi Ààbò Nìkan
+### Igbesẹ 2: Lo Awọn Adirẹsi Ti a Daabo Bo Nikan
 
-- Nigbagbogbo ṣe iṣowo nipa lilo awọn adirẹsi z-adiresi.
-- Yẹra fún àwọn ìnáwó tí ó ṣe kedere pátápátá.
-
-
-### Ìgbésẹ̀ 3: Dáàbò Bo Àwọn Owó Tí Wọ́n Ń San Láti Orílé-Èdè Náà
-
-Bí àwọn orísun tó ń sanwó bá:
-- Lo àwọn ìnáwó tí a fi ààbò bo (z → z)
-- Má ṣe máa fi àkókò tó o ti mọ̀ tẹ́lẹ̀ ṣètò rẹ.
-- Má ṣe lo àdírẹ́sì náà padà.
+- Ṣe iṣowo nigbagbogbo nipa lilo awọn adirẹsi z
+- Yẹra fun awọn iṣowo gbangba patapata
 
 
-### Ìgbésẹ̀ Kẹrin: Ṣọ́ra fún Àwọn Àlàyé Tó O Máa Ń Fi Sílẹ̀ Lára Ìwé Ètò Iṣẹ́ Òjíṣẹ́ Rẹ
+### Igbesẹ 3: Dabobo Awọn Isanwo Orisun
 
-- Má ṣe fi ìsọfúnni tó ní í ṣe pẹ̀lú ọ̀ràn pàtàkì kún àwọn ìwé ìránnilétí.
-- Lo àwọn àlàyé tí kò ní í ṣe pẹ̀lú ọ̀rọ̀ tàbí èyí tó wà nínú kóòtù bí ó bá pọn dandan.
+Tí o bá ń san owó orísun:
+- Lo awọn iṣowo ti a daabobo (z → z)
+- Yẹra fun awọn ilana akoko ti a le sọ tẹlẹ
+- Má ṣe tún àwọn àdírẹ́sì lò
 
 
-### Ìgbésẹ̀ 5: Ṣíṣètò bí ètò náà á ṣe máa lọ déédéé.
+### Igbesẹ 4: Ṣọ́ra pẹlu Awọn Akọsilẹ
 
-- Má ṣe fi àpamọ́ owó rẹ mọ ẹni tó o jẹ́
-- Má ṣe jẹ́ kí àwọn ìnáwó náà di mímọ̀ fún gbogbo ènìyàn.
-- Máa lo ọ̀nà tó yàtọ̀ síra láti fi bá àwọn èèyàn sọ̀rọ̀.
+- MÁ ṢE fi àwọn ìwífún tó ṣe pàtàkì kún àwọn àkọsílẹ̀
+- Lo awọn itọkasi didoju tabi ti a fi koodu ṣe ti o ba nilo
+
+
+### Igbesẹ 5: Ṣetọju Aabo Iṣiṣẹ
+
+- Yẹra fún sísopọ̀ àpò owó mọ́ ìdánimọ̀ rẹ
+- Má ṣe jẹ́rìí sí àwọn ìṣòwò ní gbangba
+- Lo awọn ikanni lọtọ fun ibaraẹnisọrọ
 
 
 <br/>
 
 ## <img src="/content-images/icons8-cancel-7f786be3c1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="cancel icon"/> Common Mistakes to Avoid
 
-- Lílò àwọn àdírẹ́sì tí ó ṣe kedere 
-- Lílò àwọn àdírẹ́sì padà ní oríṣiríṣi orísun 
-- A fi mọ data to ṣe pataki ninu awọn akọsilẹ. 
-- Lílo apamọwọ sí ìdánimọ gbogbo ènìyàn 
+- Lilo awọn adirẹsi ti o han gbangba 
+- Lílo àdírẹ́sì káàkiri àwọn orísun 
+- Tí a fi àwọn dátà pàtàkì kún àwọn àkọsílẹ̀ 
+- So apamọwọ pọ mọ idanimọ gbogbo eniyan 
 
 <br/>
 
 ## <img src="/content-images/checked-checkbox-svgrepo-com-7ea19022da.svg" width="28" height="28" className="inline-block align-middle mr-1 p-[2px]" alt="done icon"/> Result
 
-O lè:
-- Máa dáàbò bo àwọn ibi tó o ti ń wá ìsọfúnni.
-- Dín ewu ìfọ̀rọ̀wániléwò kù
-- Má ṣe jẹ́ kí àwọn èèyàn mọ̀ nípa owó tó o bá ń bójú tó ọ̀ràn pàtàkì kan.
+O le:
+- Dabobo awọn orisun rẹ
+- Din awọn ewu abojuto ku
+- Ṣetọju ikọkọ inawo ni iṣẹ ti o ni imọlara
 
 <br/>
 
 ## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="chain-links icon"/> Related
 
-- [Ìpamọ́ - Àwọn Àṣà Rere Jù Lọ](/start-here/who-can-see-your-zcash-payment)
-- [Fi owó ránṣẹ́ láìfi ìdánimọ̀ rẹ mọ̀.](/zcash-use-cases/send-money-without-linking-identity)
+- [Ta ló lè rí ìsanwó Zcash rẹ](/start-here/who-can-see-your-zcash-payment)
+- [Fi owo ranṣẹ laisi asopọ idanimọ](/zcash-use-cases/send-money-without-linking-identity)
 
  <br/>
 
 ## <img src="/content-images/celebration-spark-svgrepo-com-bc98dec7c1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="celebration icon"/> Completion
 
-**Igbesẹ 6 nínú 6  Ti parí**
+**Igbese 6 ninu 6 — Ti pari**
 
-O ti dé ipele to gaju julọ ninu lilo Zcash.
+O ti dé ipele ti o ga julọ ti lilo Zcash.
 
-O ti wá lóye báyìí:
-- Àwọn ìnáwó tí kò ní ti ara ẹni lọ́wọ́
-- Ààbò ìdánimọ̀
-- Ààbò iṣẹ́-ṣiṣe
+O ti ni oye bayi:
+- Awọn iṣowo ikọkọ
+- Idaabobo idanimọ
+- Ààbò ìṣiṣẹ́
 
 <br/> 
 
-## Kí Ló Máa Ṣẹlẹ̀ Lẹ́yìn Náà?
+## Kí ni ó tẹ̀lé e?
 
-- [Lọ sí ojúewé àkọ́kọ́.](/)
-- [Ṣawari awọn ọna ti o ni idagbasoke](/developers)
-- [Ṣíṣe àfikún sí ZecHub](/contribute/help-build-zechub)
+- [Lọ sí ojú ìwé àkọ́kọ́](/)
+- [Ṣawari awọn ipa ọna awọn olupilẹṣẹ](/developers)
+- [Ṣe àfikún sí ZecHub](/contribute/help-build-zechub)
 
 <br/> 

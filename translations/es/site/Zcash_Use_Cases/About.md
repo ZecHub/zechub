@@ -47,6 +47,9 @@ Usa direcciones blindadas para mantener fondos compartidos y limitar la visibili
 ###  [Acepta donaciones privadas como organización sin fines de lucro de EE. UU.](/zcash-use-cases/accept-private-donations-as-a-us-nonprofit)
 Acepta ZEC blindados como una organización 501(c)(3) y aun así entrega a los donantes los recibos y formularios del IRS que necesitan
 
+###  [Dónde donar ZEC](/zcash-use-cases/where-to-donate-zec)
+Encuentra organizaciones sin fines de lucro que aceptan ZEC y cuáles de ellas aceptan donaciones blindadas
+
 ###  [Configuración de privacidad para periodistas](/zcash-use-cases/journalist-privacy-setup)   
 Usa direcciones blindadas para todas las transacciones y protege a tus fuentes evitando pagos rastreables. Usa los memos con cuidado para una comunicación segura
 

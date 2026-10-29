@@ -52,7 +52,7 @@ Dịka adreesị dị n'elu, azụmahịa ọ bụla na blockchain ọha nwere e
 - Transparent (`t`) adreesị na-apụta ìhè nke ọma na ihe nchọgharị, dịka Bitcoin
 - Azụmahịa echekwara nke ọma (z ruo z) na-ezochi ego ahụ, adreesị, na ihe ndetu ahụ
 - A ka na-ahụ ụgwọ ahụ, ọbụlagodi na azụmahịa echekwara nke ọma
-- Ịkpuchi (na-agagharị) `t` iji kpuchie) na iji ihe mkpuchi (echekwara azụ na `t`) na-apụta ìhè nke ọma, n'ihi na otu akụkụ na-apụta ìhè
+- Ịkpuchi (na-akpụ akpụ) `t` iji kpuchie) na iji ihe mkpuchi (echekwara azụ na `t`) na-apụta ìhè nke ọma, n'ihi na otu akụkụ na-apụta ìhè
 - Nzuzo na-ejide naanị mgbe ego ahụ dị n'ime ọdọ mmiri ndị a na-echebe
 
 Zcash nwere ọtụtụ ụdị adreesị, onye na-eme nchọpụta na-emeso ha nke ọma n'ụzọ dị iche iche.
@@ -77,6 +77,8 @@ Ihe ị ga-eburu n'uche: nzuzo dabere na ịnọ n'ime ọdọ mmiri ndị a na-
 - [ShieldedScan](https://shieldedscan.xyz)
 
 - [ZecBlock](https://zecblock.com/)
+
+- [SoChain](https://sochain.com/zec) ([netwọk nnwale](https://sochain.com/zectest))
 
 
 

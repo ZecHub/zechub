@@ -22,12 +22,12 @@ Block siwo sɔ gbɔ wu zi gbɔ zi etɔ̃, eye wo dometɔ ɖesiaɖe xea ga home s
 
 ## Nukatae nàtrɔ block ƒe ɣeyiɣia
 
-Taɖodzinu vevitɔe nye **ɣeyiɣi si woatsɔ alalae**. Egbea la, fexexe aɖe lalana sɛkɛnd 75 le mamã dedie nu hafi woaɖo kpe edzi zi gbãtɔ, eɖanye agba ka kee le network dzi o. Le sɛkɛnd 25 me la, ema ɖiɖina va ɖoa sɛkɛnd 25 le mamã dedie nu. ZIP la yɔ fexexe le teƒe si wodzraa nu le, ga si wodzrana ɖo kple tɔdzisasrã siwo wotsɔa kɔsɔkɔsɔwo toa mɔ dzi be wonye zazã siwo sea esia le wo ɖokui me wu.
+Taɖodzinu vevitɔe nye **ɣeyiɣi si woatsɔ alalae**. Egbea fexexe aɖe lalana sɛkɛnd 75 le mamã dedie nu hafi woaɖo kpe edzi zi gbãtɔ, eɖanye agba ka kee le network dzi o. Le sɛkɛnd 25 me la, ema ɖiɖina va ɖoa sɛkɛnd 25 le mamã dedie nu. ZIP la yɔ fexexe le teƒe si wodzraa nu le, ga si wodzrana ɖo kple tɔdzisasrã siwo wotsɔa kɔsɔkɔsɔwo toa mɔ dzi be wonye zazã siwo sea esia le wo ɖokui me wu.
 
 Nya eve siwo tso ZIP la me nyo be woanɔ susu me na mí:
 
 - **Megblɔna na ame aɖeke be wòazã kpeɖodzinya ʋɛ aɖewo o.** Le ezãla siwo léa mɔɖeɖe ɖe afɔku si nye rollback ŋu abe egbea ene gome la, ZIP le mɔ kpɔm be kpeɖodziɣia anyo ɖe edzi vie wu zi gbɔ zi etɔ̃.
-- **Menye nusi woatsɔ aɖo dɔ mamlɛtɔ teƒe o.** ZIP la ɖɔ eɖokui be enye kpeɖeŋutɔ na nuwuwu ƒe mɔnuwo abe Crosslink. Base-layer block siwo le kabakaba wu kpena ɖe ame ŋu ne wotsɔ finality layer kpee emegbe alo wometsɔe kpe ɖe eŋu o.
+- **Menye nusi woatsɔ aɖo dɔ mamlɛtɔ teƒe o.** ZIP la ɖɔ eɖokui be enye kpeɖeŋutɔ na nuwuwu ƒe mɔnuwo abe Crosslink. Base-layer blocks siwo le kabakaba wu kpena ɖe ame ŋu ne wotsɔ finality layer kpee emegbe alo wometsɔe kpe ɖe eŋu o.
 
 ZIP la de dzesii hã be woate ŋu akpɔ throughput si lolo wu ɖeɖeko ne block ƒe lolome lolo wu. Latency ye nye susu si ta wotia block kpuiwo ɖe eteƒe.
 
@@ -39,7 +39,7 @@ Block ƒe xexlẽme dzi ɖeɖe kpɔtɔ zi gbɔ zi etɔ̃ ana gbesiagbe ƒe tata 
 
 Le afã dzi ɖeɖe kpɔtɔ ƒe ɣeyiɣi si li fifia me la, ema tsɔa block subsidy tso **1.5625 ZEC va ɖo 0.52083333 ZEC** (52,083,333 zatoshi). Esi wònye be zatoshi 156,250,000 mema etɔ̃ sɔsɔe o ta la, xɔtunu ɖesiaɖe ƒoa xlãe zitoshi ɖeka ƒe akpa etɔ̃lia. Le 5,040,000-block afã ƒe dometsotso blibo si ade 0.0168 ZEC le wo katã me la me.
 
-Kpekpeɖeŋua nye ZEC yeye siwo katã wowɔ le block ɖeka me. Wogaxɔa ga si wozãna ɖe ŋgɔyiyidɔwo ŋu ƒe akpa si li fifia le esi kokoko, eyata tomenukulawo xɔa ga si mede xexlẽme bliboa nu o, abe alesi wòle egbea ene.
+Kpekpeɖeŋua nye ZEC yeye siwo katã wowɔ le block ɖeka me. Wogaxɔa ga si wozãna ɖe ŋgɔyiyidɔwo ŋu ƒe akpa si li fifia le esi kokoko, eyata tomenukulawo xɔa ga si mede xexlẽme bliboa nu o, abe alesi wòle egbea ene pɛpɛpɛ.
 
 > **Nuŋlɔɖi aɖe le 0.26041666 ZEC xexlẽme ŋu.** ZIP's numeɖeɖe ƒe nuŋlɔɖi si wowɔ la ta gakpekpeɖeŋu si post-NU7 la be anyigba(156250000 / 6) = 0.26041666 ZEC, eye nyadzɔdzɔ aɖewo gbugbɔ gblɔe ake. Nuŋlɔɖi ma mesɔ o to xexlẽme eve me: zatoshi 156,250,000 nye gakpekpeɖeŋu si post-Blossom xoxo, eyata ne womae ɖe ade me la, wozãa Blossom ƒe xexlẽme si nye eve zi evelia ɖe NU7 ƒe xexlẽme si nye etɔ̃ dzi. Normative formula la naa floor(1,250,000,000 / (2 · 3 · 4)) = 52,083,333 zatoshi le fifi afã ƒe dzesi me. Zebra's dɔwɔwɔ ƒe nya na tɔtrɔ sia ([#11463](https://github.com/ZcashFoundation/zebra/issues/11463)) ŋlɔa nuŋlɔɖia be exlẽ Blossom factor la zi gbɔ zi eve, egblɔna na edzikpɔlawo be "woawɔ mɔfiame la ŋudɔ, ke menye nuŋlɔɖia o," eye wògblɔ be wotsɔ ɖɔɖɔɖo aɖe de ZIP. Xexlẽme nyuitɔ le dɔwɔwɔ me enye **0.52083333 ZEC**.
 
@@ -51,7 +51,7 @@ Esia to vovo na gadodo ŋuti nyabiase bubu si le NU7 numekukua me, afisi gakuxɔ
 
 ### Seɖoƒe yeyewo na nuwɔna siwo wokpɔ ta na le block ɖesiaɖe me
 
-ZIP 218 tsɔa nutrenu kpena ɖe dɔwɔwɔ si wokpɔ ta na si block ɖeka ate ŋu alé ŋu:
+ZIP 218 tsɔa nutrenuwo kpena ɖe dɔwɔwɔ si wokpɔ ta na si block ɖeka ate ŋu alé ŋu:
 
 | Seɖoƒe li na | Maximum le block ɖeka me |
 |---|---|
@@ -108,9 +108,9 @@ Gazazã sue eve hã li. Gakotoku siwo me kɔ la wɔa compact block headers siwo 
 
 ## Nɔnɔme kple ɣeyiɣi ƒe ɖoɖo
 
-- **ZIP nɔnɔme:** Draft. Aƒetɔ Dev Ojha kple Evan Forbes; wowɔe le 13 March 2026 dzi.
+- **ZIP nɔnɔme:** Wodoe ɖa. Aƒetɔ Dev Ojha kple Evan Forbes; wowɔe le 13 March 2026 dzi.
 - **Coinholder poll:** wu enu le 14 September 2026, kple 99.9% ƒe kpekpeɖeŋu. Numekukua ɖee fia be amewo lɔ̃e; metrɔa se siwo dzi woda asi ɖo le eɖokui si o.
-- **Ɣeyiɣi ƒe ɖoɖo:** le Zcash Community Forum ƒe gbeƒãɖeɖe aɖe me le September 17 lia dzi la, ŋgɔyiyihabɔbɔwo da asi ɖe ɖoɖowɔɖi si dzi woawu kɔda nu hafi September 30, NU7 le testnet dzi le October 6 lia dzi, nyametsotso mamlɛtɔ kple mainnet ƒe dɔwɔwɔ ƒe kɔkɔme le October 20 lia dzi, kple mainnet ƒe dɔwɔwɔ si woɖo taɖodzinu na abe November 5, 2026. November 5 nye taɖodzinu, menye ŋkeke si woɖo ɖi o, vaseɖe esime woaɖo kɔkɔme.
+- **Ɣeyiɣi ƒe ɖoɖo:** le Zcash Community Forum ƒe gbeƒãɖeɖe aɖe me le September 17 lia dzi la, ŋgɔyiyihabɔbɔwo lɔ̃ ɖe ɖoɖowɔɖi si dzi woawu kɔda nu le hafi September 30 naɖo, NU7 le testnet dzi le October 6 lia dzi, kple nyametsotso mamlɛtɔ le October 20 lia dzi. Fifia woɖo mainnet ƒe dɔwɔwɔ ƒe kɔkɔme ɖe 3,543,405 ([ZIP 259 ƒe xexlẽdzesi](https://zips.z.cash/zip-0259)), si woɖo be woawɔ le November 5, 2026 lɔƒo.
 - **Dɔwɔwɔ:** wokplɔe ɖo le Zebra ([#11440](https://github.com/ZcashFoundation/zebra/issues/11440)) kple le Zakura ([PR #1066](https://github.com/zakura-core/zakura/pull/1066)).
 
 ## Nusi esia fia na wò

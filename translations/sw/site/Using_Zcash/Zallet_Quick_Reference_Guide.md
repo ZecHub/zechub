@@ -2,85 +2,85 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Mwongozo wa Marejeo ya Haraka wa Zallet
+# Mwongozo wa Marejeleo ya Haraka Zallet
 
 ## TL;DR
 
-- Zallet ni full-node Zcash mkoba imeandikwa katika kutu. Inachukua nafasi ya mfuko wa fedha ambayo kutumika kwa kuishi ndani zcashd.
-- zcashd reached its End-of-Support halt on 18 July 2026 and no longer runs. Zebra now handles the node side; Zallet handles the wallet side.
-- Wewe kuendesha Zallet kutoka mstari wa amri na `zallet rpc <command>`, kama vile ulivyotumia `zcash-cli` kabla.
-- Kila hoja baada ya jina amri lazima halali JSON, ambayo ina maana maadili string kuweka quotes yao mara mbili.
-- Zallet bado ni katika alpha amri inaweza kubadilisha kati ya releases, na si kila RPC zcashd imekuwa ported hela bado.
+- Zallet ni pochi Zcash yenye nodi kamili iliyoandikwa kwa Rust. Inachukua nafasi ya pochi iliyokuwa ikiishi ndani ya zcashd.
+- zcashd ilifikia kikomo chake cha Mwisho wa Usaidizi mnamo 18 Julai 2026 na haitumiki tena. Zebra sasa inashughulikia upande wa nodi; Zallet inashughulikia upande wa pochi.
+- Unaendesha Zallet kutoka kwa mstari wa amri na `zallet rpc <command>`, kama vile ulivyotumia `zcash-cli` kabla.
+- Kila hoja baada ya jina la amri lazima iwe halali JSON, ambayo ina maana kwamba thamani za mfuatano huhifadhi nukuu zao mbili.
+- Zallet iko katika beta. Amri zinaweza kubadilika kati ya matoleo, na si kila zcashd RPC imehamishwa hadi sasa.
 
-## Maelezo ya msingi
+## Maelezo ya Msingi
 
-Zallet inaonyesha utendaji wake kupitia JSON-RPC, interface sawa style mkoba zcashd kutumika. kitu chochote unataka mfuko wa fedha kufanya  kuangalia salio, kuunda akaunti, kutuma malipo ulinzi  ni amri wewe kupita kwa `zallet rpc`.
+Zallet hufichua utendakazi wake kupitia JSON-RPC, mtindo uleule wa kiolesura ambao pochi zcashd ilitumia. Chochote unachotaka pochi ifanye — angalia salio, fungua akaunti, tuma malipo yaliyolindwa — ni amri unayotuma `zallet rpc`.
 
-Mambo mawili tofauti na zamani `zcash-cli` kwanza, hoja lazima halali JSON badala ya maandishi tupu, hivyo argument string hubeba quotation yake mwenyewe alama ndani ya shell quotes. pili, seti ya amri inapatikana inategemea ambayo alpha kutolewa wewe ni mbio, hivyo orodha kujengwa katika binary yako ni kuaminika zaidi kuliko ukurasa wowote imeandikwa, ikiwa ni pamoja na hii moja.
+Mambo mawili tofauti na ya zamani `zcash-cli` tabia na hesabu ya makosa mengi ya mapema. Kwanza, hoja lazima ziwe halali JSON badala ya maandishi matupu, kwa hivyo hoja ya mfuatano hubeba alama zake za nukuu ndani ya nukuu za ganda. Pili, seti ya amri zinazopatikana inategemea ni toleo gani la beta unaloendesha, kwa hivyo orodha iliyojengwa ndani ya jozi yako inaaminika zaidi kuliko ukurasa wowote ulioandikwa, ikiwa ni pamoja na huu.
 
-Ili kuorodhesha RPCs zote zilizopo:
+Kuorodhesha RPC zote zinazopatikana:
 
 ```bash
 zallet rpc help
 ```
 
-Ili kupata msaada wa kina kwa RPC maalum:
+Ili kupata usaidizi wa kina kwa RPC maalum:
 
 ```bash
 zallet rpc help '"<command>"'
 ```
 
-> ** Muhimu:** Kila hoja baada ya jina la njia ** lazima kuwa halali JSON. ** 
-> String maadili lazima yameandikwa kama: `"value"` (ikiwa ni pamoja na quotes mara mbili).
+> **Muhimu:** Kila hoja baada ya jina la mbinu **lazima iwe halali JSON**. 
+> Thamani za kamba lazima ziandikwe kama `"value"` (ikiwa ni pamoja na nukuu mbili).
 
 ## Makosa ya Kawaida
 
-- ** Kupoteza quotes ndani ya hoja string.** `zallet rpc validateaddress u1abc...` inashindwa, kwa sababu anwani ina kuwasili kama JSON. Ni mahitaji ya kuandikwa `'"u1abc..."'`.
-- ** Kufikiria kila zcashd RPC ipo hapa.** Porting bado ni katika maendeleo. Baadhi ya mbinu tabia sawa, baadhi wanahitaji matumizi tofauti, na wengine si kuchukuliwa juu wakati wote.
-- ** Kutunza ukurasa huu kama mamlaka juu ya binary yako.** Zallet ni katika alpha na hatua kwa haraka. Wakati amri hapa haifanyi kazi, angalia `zallet rpc help` kabla ya kudhani kitu ni kuvunjwa.
-- ** Kutarajia Zallet kuwa node.** Ni mkoba nusu ya jozi. Zebra anaendesha Node, na zallet mazungumzo yake.
+- **Kuacha nukuu za ndani kwenye hoja za mfuatano.** `zallet rpc validateaddress u1abc...` inashindwa, kwa sababu anwani lazima ifike kama JSON. Inahitaji kuandikwa `'"u1abc..."'`.
+- **Tukichukulia kila RPC ipo hapa.** Uhamisho bado unaendelea. Baadhi ya mbinu hufanya kazi sawa, baadhi zinahitaji matumizi tofauti, na baadhi hazitaendelezwa hata kidogo.
+- **Kuchukulia ukurasa huu kama wenye mamlaka juu ya mfumo wako wa jozi.** Zallet iko katika beta na husogea haraka. Wakati amri hapa haifanyi kazi, angalia `zallet rpc help` kabla ya kudhani kitu kimeharibika.
+- **Kutarajia Zallet kuwa nodi.** Ni nusu ya jozi ya pochi. Zebra anaendesha nodi, na Zallet anazungumza nayo.
 
-## RPC amri
+## Amri za RPC
 
-### decoderawtransaction (kubadilisha nambari ya mchanganyiko)
+### muamala wa kusimbua mbichi
 
 ```bash
 zallet rpc decoderawtransaction '"<hexstring>"'
 ```
 
-| Parameter   | Aina   | Inahitajika | Maelezo              |
+| Kigezo   | Aina   | Inahitajika | Maelezo              |
 |-------------|--------|----------|--------------------------|
-| hexstring   | string | ndiyo      | Mfuatano wa heksaidi ya muamala   |
+| hexstring   | kamba | ndiyo      | Mfuatano wa heksaidi ya muamala   |
 
 ---
 
-### decodecript (kuweka maandishi)
+### hati ya kusimbua
 
 ```bash
 zallet rpc decodescript '"<hexstring>"'
 ```
 
-| Parameter   | Aina   | Inahitajika | Maelezo     |
+| Kigezo   | Aina   | Inahitajika | Maelezo     |
 |-------------|--------|----------|-----------------|
-| hexstring   | string | ndiyo      | Heksadi ya hati      |
+| hexstring   | kamba | ndiyo      | Heksadi ya hati      |
 
 ---
 
-### kupata traction
+### pata muamala mpya
 
 ```bash
 zallet rpc getrawtransaction '"<txid>"' [verbose] ['"<blockhash>"']
 ```
 
-| Parameter  | Aina   | Inahitajika | Chaguo-msingi | Maelezo                          |
+| Kigezo  | Aina   | Inahitajika | Chaguo-msingi | Maelezo                          |
 |------------|--------|----------|---------|--------------------------------------|
-| txid       | string | ndiyo      |         | Kitambulisho cha muamala                       |
-| verbose    | number | no       | 0       | `0` = heksaidi, isiyo sifuri = kitu cha JSON    |
-| blockhash  | string | no       |         | Zuia utafutaji kwenye kizuizi hiki        |
+| txid       | kamba | ndiyo      |         | Kitambulisho cha muamala                       |
+| verbose    | nambari | no       | 0       | `0` = heksaidi, isiyo sifuri = kitu cha JSON    |
+| blockhash  | kamba | no       |         | Zuia utafutaji kwenye kizuizi hiki        |
 
 ---
 
-### kupatawalletinfo
+### maelezo ya kupata karatasi ya wavuti
 
 ```bash
 zallet rpc getwalletinfo
@@ -90,7 +90,7 @@ Hakuna vigezo.
 
 ---
 
-### kupata hali ya mkoba
+### getwalletstatus
 
 ```bash
 zallet rpc getwalletstatus
@@ -100,7 +100,7 @@ Hakuna vigezo.
 
 ---
 
-### orodha ya anwani za nyumba
+### anwani za orodha
 
 ```bash
 zallet rpc listaddresses
@@ -116,29 +116,29 @@ Hakuna vigezo.
 zallet rpc rpc.discover
 ```
 
-Hakuna vigezo. Inarudi OpenRPC schema.
+Hakuna vigezo. Hurejesha mpango wa OpenRPC.
 
 ---
 
-### acha
+### simama
 
 ```bash
 zallet rpc stop
 ```
 
-Hakuna vigezo. (Regtest tu)
+Hakuna vigezo. (Jaribio la Kujiandikisha pekee)
 
 ---
 
-### kuthibitisha anwani
+### anwani ya kuthibitisha
 
 ```bash
 zallet rpc validateaddress '"<address>"'
 ```
 
-| Parameter | Aina   | Inahitajika | Maelezo             |
+| Kigezo | Aina   | Inahitajika | Maelezo             |
 |-----------|--------|----------|-------------------------|
-| address   | string | ndiyo      | Anwani ya uwazi     |
+| address   | kamba | ndiyo      | Anwani ya uwazi     |
 
 ---
 
@@ -148,15 +148,15 @@ zallet rpc validateaddress '"<address>"'
 zallet rpc verifymessage '"<address>"' '"<signature>"' '"<message>"'
 ```
 
-| Parameter  | Aina   | Inahitajika | Maelezo             |
+| Kigezo  | Aina   | Inahitajika | Maelezo             |
 |------------|--------|----------|-------------------------|
-| address    | string | ndiyo      | Anwani ya uwazi     |
-| signature  | string | ndiyo      | Saini Base64        |
-| message    | string | ndiyo      | Ujumbe asili        |
+| address    | kamba | ndiyo      | Anwani ya uwazi     |
+| signature  | kamba | ndiyo      | Saini ya Base64        |
+| message    | kamba | ndiyo      | Ujumbe asili        |
 
 ---
 
-### mfuko wa fedha lock
+### kifunga pochi
 
 ```bash
 zallet rpc walletlock
@@ -166,16 +166,16 @@ Hakuna vigezo.
 
 ---
 
-### mkobapassphrase
+### nenosiri la pochi
 
 ```bash
 zallet rpc walletpassphrase '"<passphrase>"' <timeout>
 ```
 
-| Parameter   | Aina   | Inahitajika | Maelezo                          |
+| Kigezo   | Aina   | Inahitajika | Maelezo                          |
 |-------------|--------|----------|--------------------------------------|
-| passphrase  | string | ndiyo      | Nenosiri la pochi                    |
-| timeout     | number | ndiyo      | Sekunde ambazo pochi itabaki imefunguliwa  |
+| passphrase  | kamba | ndiyo      | Nenosiri la pochi                    |
+| timeout     | nambari | ndiyo      | Sekunde chache za kuweka pochi ikiwa imefunguliwa  |
 
 ---
 
@@ -185,151 +185,151 @@ zallet rpc walletpassphrase '"<passphrase>"' <timeout>
 zallet rpc z_converttex '"<transparent_address>"'
 ```
 
-| Parameter             | Aina   | Inahitajika | Maelezo                |
+| Kigezo             | Aina   | Inahitajika | Maelezo                |
 |-----------------------|--------|----------|----------------------------|
-| transparent_address   | string | ndiyo      | Anwani ya P2PKH ili kubadilisha   |
+| transparent_address   | kamba | ndiyo      | Anwani ya P2PKH ili kubadilisha   |
 
 ---
 
-### z_exportkey (kifungu cha kuuza nje)
+### z_exportkey
 
 ```bash
 zallet rpc z_exportkey '"<sapling_address>"'
 ```
 
-| Parameter | Aina   | Inahitajika | Maelezo                                      |
+| Kigezo | Aina   | Inahitajika | Maelezo                                      |
 |-----------|--------|----------|--------------------------------------------------|
-| address   | string | ndiyo      | Anwani Sapling ambayo matumizi yake ni muhimu kwa usafirishaji nje     |
+| address   | kamba | ndiyo      | Anwani Sapling ambayo matumizi yake ni muhimu kwa usafirishaji nje     |
 
-> Wallet lazima kufunguliwa. mauzo ya nje tu Sapling matumizi muhimu.
+> Pochi lazima ifunguliwe. Huhamisha ufunguo wa matumizi wa Sapling pekee.
 
 ---
 
-### z_getaccount (akaunti ya jumla)
+### akaunti_ya_kupata
 
 ```bash
 zallet rpc z_getaccount '"<account_uuid>"'
 ```
 
-| Parameter     | Aina   | Inahitajika | Maelezo     |
+| Kigezo     | Aina   | Inahitajika | Maelezo     |
 |---------------|--------|----------|-----------------|
-| account_uuid  | string | ndiyo      | Akaunti ya UUID    |
+| account_uuid  | kamba | ndiyo      | Akaunti ya UUID    |
 
 ---
 
-### z_getaddressforaccount (Anwani ya akaunti)
+### akaunti ya z_getaddressforaccount
 
 ```bash
 zallet rpc z_getaddressforaccount <account> ['["p2pkh","sapling","orchard"]'] [<diversifier_index>]
 ```
 
-| Parameter          | Aina            | Inahitajika | Maelezo                              |
+| Kigezo          | Aina            | Inahitajika | Maelezo                              |
 |--------------------|-----------------|----------|------------------------------------------|
-| account            | string / number | ndiyo      | Akaunti ya UUID au faharasa ya akaunti ZIP-32     |
+| account            | kamba / nambari | ndiyo      | Akaunti ya UUID au faharasa ya akaunti ZIP-32     |
 | receiver_types     | safu ya kamba | no       | Aina za wapokeaji za kujumuisha                |
-| diversifier_index  | number          | no       | Kielezo maalum cha mseto               |
+| diversifier_index  | nambari          | no       | Kielezo maalum cha mseto               |
 
 ---
 
-### z_get usawa kwa ajili ya akaunti
+### akaunti ya z_getbalanceforaccount
 
 ```bash
 zallet rpc z_getbalanceforaccount <account> [<minconf>]
 ```
 
-| Parameter | Aina            | Inahitajika | Chaguo-msingi | Maelezo                      |
+| Kigezo | Aina            | Inahitajika | Chaguo-msingi | Maelezo                      |
 |-----------|-----------------|----------|---------|----------------------------------|
-| account   | string / number | ndiyo      |         | Akaunti ya UUID au faharasa ZIP-32     |
-| minconf   | number          | no       | 1       | Uthibitisho wa chini kabisa            |
+| account   | kamba / nambari | ndiyo      |         | Akaunti ya UUID au faharasa ZIP-32     |
+| minconf   | nambari          | no       | 1       | Uthibitisho wa chini kabisa            |
 
 ---
 
-### z_getmizani
+### z_getbalances
 
 ```bash
 zallet rpc z_getbalances [<minconf>]
 ```
 
-| Parameter | Aina   | Inahitajika | Chaguo-msingi | Maelezo               |
+| Kigezo | Aina   | Inahitajika | Chaguo-msingi | Maelezo               |
 |-----------|--------|----------|---------|---------------------------|
-| minconf   | number | no       | 1       | Uthibitisho wa chini kabisa     |
+| minconf   | nambari | no       | 1       | Uthibitisho wa chini kabisa     |
 
 ---
 
-### z_getnewaccount
+### akaunti mpya ya z_getnewa
 
 ```bash
 zallet rpc z_getnewaccount '"<account_name>"' ['"<seedfp>"']
 ```
 
-| Parameter     | Aina   | Inahitajika | Maelezo                              |
+| Kigezo     | Aina   | Inahitajika | Maelezo                              |
 |---------------|--------|----------|------------------------------------------|
-| account_name  | string | ndiyo      | Jina linaloweza kusomwa na binadamu                      |
-| seedfp        | string | no       | Inahitajika ikiwa pochi ina mbegu nyingi    |
+| account_name  | kamba | ndiyo      | Jina linaloweza kusomwa na binadamu                      |
+| seedfp        | kamba | no       | Inahitajika ikiwa pochi ina mbegu nyingi    |
 
 ---
 
-### z_getnotescount (kumbuka)
+### hesabu ya z_getnotes
 
 ```bash
 zallet rpc z_getnotescount [<minconf>] [<as_of_height>]
 ```
 
-| Parameter     | Aina   | Inahitajika | Chaguo-msingi | Maelezo                          |
+| Kigezo     | Aina   | Inahitajika | Chaguo-msingi | Maelezo                          |
 |---------------|--------|----------|---------|--------------------------------------|
-| minconf       | number | no       | 1       | Uthibitisho wa chini kabisa                |
-| as_of_height  | number | no       |         | Swali la urefu huu (`-1` = ncha) |
+| minconf       | nambari | no       | 1       | Uthibitisho wa chini kabisa                |
+| as_of_height  | nambari | no       |         | Swali la urefu huu (`-1` = ncha) |
 
 ---
 
-### z_getoperationresult matokeo ya operesheni
+### matokeo ya z_getoperation
 
 ```bash
 zallet rpc z_getoperationresult ['["opid1","opid2"]']
 ```
 
-| Parameter    | Aina            | Inahitajika | Maelezo                              |
+| Kigezo    | Aina            | Inahitajika | Maelezo                              |
 |--------------|-----------------|----------|------------------------------------------|
 | operationid  | safu ya kamba | no       | Vitambulisho vya Uendeshaji (ondoa kwa vyote vilivyokamilika)    |
 
 ---
 
-### z_getoperationstatus Hali ya uendeshaji
+### z_getoperationstatus
 
 ```bash
 zallet rpc z_getoperationstatus ['["opid1","opid2"]']
 ```
 
-| Parameter    | Aina            | Inahitajika | Maelezo                    |
+| Kigezo    | Aina            | Inahitajika | Maelezo                    |
 |--------------|-----------------|----------|--------------------------------|
 | operationid  | safu ya kamba | no       | Vitambulisho vya Uendeshaji (ondoa vyote)   |
 
 ---
 
-### z_gettotal usawa
+### z_gettotalbalance
 
 ```bash
 zallet rpc z_gettotalbalance [<minconf>] [<include_watchonly>]
 ```
 
-| Parameter          | Aina    | Inahitajika | Chaguo-msingi | Maelezo                     |
+| Kigezo          | Aina    | Inahitajika | Chaguo-msingi | Maelezo                     |
 |--------------------|---------|----------|---------|---------------------------------|
-| minconf            | number  | no       | 1       | Uthibitisho wa chini kabisa           |
-| include_watchonly  | boolean | no       | false   | Jumuisha salio la saa pekee     |
+| minconf            | nambari  | no       | 1       | Uthibitisho wa chini kabisa           |
+| include_watchonly  | boolean | no       | uongo   | Jumuisha salio la saa pekee     |
 
 ---
 
-### z_importaddress (Anwani ya kuagiza)
+### anwani_ya_kuagiza
 
 ```bash
 zallet rpc z_importaddress '"<account_uuid>"' '"<hex_data>"' [<rescan>]
 ```
 
-| Parameter  | Aina    | Inahitajika | Chaguo-msingi | Maelezo                          |
+| Kigezo  | Aina    | Inahitajika | Chaguo-msingi | Maelezo                          |
 |------------|---------|----------|---------|--------------------------------------|
-| account    | string  | ndiyo      |         | Akaunti ya UUID                         |
-| hex_data   | string  | ndiyo      |         | Ufunguo wa umma wa Hex au komboa hati      |
-| rescan     | boolean | no       | true    | Changanua upya baada ya kuingiza                  |
+| account    | kamba  | ndiyo      |         | Akaunti ya UUID                         |
+| hex_data   | kamba  | ndiyo      |         | Ufunguo wa umma wa Hex au komboa hati      |
+| rescan     | boolean | no       | kweli    | Changanua upya baada ya kuingiza                  |
 
 ---
 
@@ -339,91 +339,91 @@ zallet rpc z_importaddress '"<account_uuid>"' '"<hex_data>"' [<rescan>]
 zallet rpc z_importkey '"<key>"' ['"<rescan>"'] [<start_height>]
 ```
 
-| Parameter     | Aina   | Inahitajika | Chaguo-msingi        | Maelezo                              |
+| Kigezo     | Aina   | Inahitajika | Chaguo-msingi        | Maelezo                              |
 |---------------|--------|----------|----------------|------------------------------------------|
-| key           | string | ndiyo      |                | Ufunguo wa matumizi ya muda mrefu Sapling            |
-| rescan        | string | no       | `"whenkeyisnew"` | `"yes"`, `"no"`, or `"whenkeyisnew"`   |
-| start_height  | number | no       | 0              | Changanua upya urefu wa kuanza                      |
+| key           | kamba | ndiyo      |                | Ufunguo wa matumizi ya muda mrefu Sapling            |
+| rescan        | kamba | no       | `"whenkeyisnew"` | `"yes"`, `"no"`, or `"whenkeyisnew"`   |
+| start_height  | nambari | no       | 0              | Changanua upya urefu wa kuanza                      |
 
 ---
 
-### z_lista akaunti
+### akaunti_za_orodha
 
 ```bash
 zallet rpc z_listaccounts [<include_addresses>]
 ```
 
-| Parameter          | Aina    | Inahitajika | Chaguo-msingi | Maelezo                              |
+| Kigezo          | Aina    | Inahitajika | Chaguo-msingi | Maelezo                              |
 |--------------------|---------|----------|---------|------------------------------------------|
-| include_addresses  | boolean | no       | true    | Pia rudisha anwani kwa kila akaunti   |
+| include_addresses  | boolean | no       | kweli    | Pia rudisha anwani kwa kila akaunti   |
 
 ---
 
-### z_listoperationids
+### z_listoperationsids
 
 ```bash
 zallet rpc z_listoperationids ['"<status>"']
 ```
 
-| Parameter | Aina   | Inahitajika | Maelezo                          |
+| Kigezo | Aina   | Inahitajika | Maelezo                          |
 |-----------|--------|----------|--------------------------------------|
-| status    | string | no       | Chuja kwa hali (km. `"success"`)  |
+| status    | kamba | no       | Chuja kwa hali (km. `"success"`)  |
 
 ---
 
-### z_listtransactions (Usajili wa shughuli)
+### miamala ya orodha_z
 
 ```bash
 zallet rpc z_listtransactions ['"<account_uuid>"'] [<start_height>] [<end_height>] [<offset>] [<limit>]
 ```
 
-| Parameter      | Aina   | Inahitajika | Maelezo                  |
+| Kigezo      | Aina   | Inahitajika | Maelezo                  |
 |----------------|--------|----------|------------------------------|
-| account_uuid   | string | no       | Kikomo cha akaunti moja         |
-| start_height   | number | no       | Mpaka wa chini unaojumuisha        |
-| end_height     | number | no       | Mpaka wa juu wa kipekee        |
-| offset         | number | no       | Ruka matokeo haya mengi       |
-| limit          | number | no       | Matokeo ya juu zaidi ya kurudi    |
+| account_uuid   | kamba | no       | Kikomo cha akaunti moja         |
+| start_height   | nambari | no       | Mpaka wa chini unaojumuisha        |
+| end_height     | nambari | no       | Mpaka wa juu wa kipekee        |
+| offset         | nambari | no       | Ruka matokeo haya mengi       |
+| limit          | nambari | no       | Matokeo ya juu zaidi ya kurudi    |
 
 ---
 
-### z_list unifiedreceivers (orodha ya wapokeaji wa umoja)
+### vipokezi vya z_listunified
 
 ```bash
 zallet rpc z_listunifiedreceivers '"<unified_address>"'
 ```
 
-| Parameter         | Aina   | Inahitajika | Maelezo                  |
+| Kigezo         | Aina   | Inahitajika | Maelezo                  |
 |-------------------|--------|----------|------------------------------|
-| unified_address   | string | ndiyo      | Unified Address ya kukagua   |
+| unified_address   | kamba | ndiyo      | Anwani ya Umoja ya kukagua   |
 
 ---
 
-### z_listunspent (orodha ya matumizi yasiyolipwa)
+### orodha_ya_z_isiyotumika
 
 ```bash
 zallet rpc z_listunspent [<minconf>] [<maxconf>] [<include_watchonly>] ['["addr1","addr2"]'] [<as_of_height>]
 ```
 
-| Parameter          | Aina            | Inahitajika | Chaguo-msingi | Maelezo                          |
+| Kigezo          | Aina            | Inahitajika | Chaguo-msingi | Maelezo                          |
 |--------------------|-----------------|----------|---------|--------------------------------------|
-| minconf            | number          | no       | 1       | Uthibitisho wa chini kabisa                |
-| maxconf            | number          | no       | ∞       | Uthibitisho wa kiwango cha juu zaidi                |
-| include_watchonly  | boolean         | no       | false   | Jumuisha saa pekee                   |
+| minconf            | nambari          | no       | 1       | Uthibitisho wa chini kabisa                |
+| maxconf            | nambari          | no       | ∞       | Uthibitisho wa kiwango cha juu zaidi                |
+| include_watchonly  | boolean         | no       | uongo   | Jumuisha saa pekee                   |
 | addresses          | safu ya kamba | no       |         | Chuja hadi kwenye anwani hizi            |
-| as_of_height       | number          | no       |         | Hoja ya urefu huu              |
+| as_of_height       | nambari          | no       |         | Hoja ya urefu huu              |
 
 ---
 
-### z_rekodi za kurejesha fedha
+### akaunti_za_kurejesha
 
 ```bash
 zallet rpc z_recoveraccounts '[{"name":"...","seedfp":"...","zip32_account_index":0,"birthday_height":123456}]'
 ```
 
-| Parameter | Aina  | Inahitajika | Maelezo                                                                 |
+| Kigezo | Aina  | Inahitajika | Maelezo                                                                 |
 |-----------|-------|----------|-----------------------------------------------------------------------------|
-| accounts  | array | ndiyo      | Safu ya vitu: `name`, `seedfp`, `zip32_account_index`, `birthday_height` |
+| accounts  | safu | ndiyo      | Safu ya vitu: `name`, `seedfp`, `zip32_account_index`, `birthday_height` |
 
 ---
 
@@ -433,13 +433,13 @@ zallet rpc z_recoveraccounts '[{"name":"...","seedfp":"...","zip32_account_index
 zallet rpc z_sendmany '"<fromaddress>"' '[{"address":"...","amount":1.23,"memo":"..."}]' [<minconf>] [null] ['"<privacy_policy>"']
 ```
 
-| Parameter        | Aina            | Inahitajika | Chaguo-msingi         | Maelezo                                      |
+| Kigezo        | Aina            | Inahitajika | Chaguo-msingi         | Maelezo                                      |
 |------------------|-----------------|----------|-----------------|--------------------------------------------------|
-| fromaddress      | string          | ndiyo      |                 | Anwani ya chanzo au `"ANY_TADDR"`                  |
+| fromaddress      | kamba          | ndiyo      |                 | Anwani ya chanzo au `"ANY_TADDR"`                  |
 | amounts          | safu ya kitu | ndiyo      |                 | Wapokeaji (`address`, `amount`, hiari `memo`)|
-| minconf          | number          | no       |                 | Uthibitisho wa chini kabisa                            |
+| minconf          | nambari          | no       |                 | Uthibitisho wa chini kabisa                            |
 | fee              | null            | no       |                 | Lazima iwe `null` (ZIP-317 pekee)                    |
-| privacy_policy   | string          | no       | `"FullPrivacy"` | Mfuatano wa sera ya faragha                            |
+| privacy_policy   | kamba          | no       | `"FullPrivacy"` | Mfuatano wa sera ya faragha                            |
 
 ---
 
@@ -449,33 +449,33 @@ zallet rpc z_sendmany '"<fromaddress>"' '[{"address":"...","amount":1.23,"memo":
 zallet rpc z_shieldcoinbase '"<fromaddress_or_account_uuid>"' '"<toaddress>"' [null] [<limit>] ['"<memo_hex>"'] ['"<privacy_policy>"']
 ```
 
-| Parameter        | Aina   | Inahitajika | Maelezo                                      |
+| Kigezo        | Aina   | Inahitajika | Maelezo                                      |
 |------------------|--------|----------|--------------------------------------------------|
-| fromaddress      | string | ndiyo      | Anwani au akaunti ya UUID inayoeleweka              |
-| toaddress        | string | ndiyo      | Sehemu ya mwisho iliyolindwa                             |
+| fromaddress      | kamba | ndiyo      | Anwani au akaunti ya UUID inayoeleweka              |
+| toaddress        | kamba | ndiyo      | Sehemu ya mwisho iliyolindwa                             |
 | fee              | null   | no       | Lazima iwe `null`                                   |
-| limit            | number | no       | Idadi ya juu zaidi ya UTXO coinbase za kulinda           |
-| memo             | string | no       | Memo iliyosimbwa kwa heksaidi                                 |
-| privacy_policy   | string | no       | `AllowRevealedSenders` or `AllowLinkingAccountAddresses` |
+| limit            | nambari | no       | Idadi ya juu zaidi ya UTXO za coinbase za kulinda           |
+| memo             | kamba | no       | Memo iliyosimbwa kwa heksaidi                                 |
+| privacy_policy   | kamba | no       | `AllowRevealedSenders` or `AllowLinkingAccountAddresses` |
 
 ---
 
-### z_viewtransaction (Tafakari shughuli)
+### muamala_wa_mtazamo
 
 ```bash
 zallet rpc z_viewtransaction '"<txid>"'
 ```
 
-| Parameter | Aina   | Inahitajika | Maelezo     |
+| Kigezo | Aina   | Inahitajika | Maelezo     |
 |-----------|--------|----------|-----------------|
-| txid      | string | ndiyo      | Kitambulisho cha muamala  |
+| txid      | kamba | ndiyo      | Kitambulisho cha muamala  |
 
 ---
 
 ## Kurasa Zinazohusiana
 
-- [Mwongozo wa Uhamiaji: Zcashd kwa Zebrad na Zallet](/guides/migration-guide-zcashd-to-zebrad-zallet)  hatua kwa hatua hoja kutoka zcashd sasa kuanzisha
-- [Zebra Full Node (Njia ya Kuunganisha)](/zcash-tech/zebra-full-node)  Node utekelezaji Zallet kazi kando na
-- [Nodes kamili](/zcash-tech/full-nodes)  nini kuendesha node kamili inahusisha na kwa nini unaweza kutaka moja
-- [Mkoba](/using-zcash/wallets)  rahisi mkoba chaguzi kama node kamili ni zaidi ya unahitaji
-- [Shughuli za biashara](/using-zcash/transactions)  jinsi shughuli za ulinzi na uwazi zinatofautiana
+- [Mwongozo wa Uhamiaji: zcashd hadi Zebrad na Zallet](/guides/migration-guide-zcashd-to-zebrad-zallet) — hatua kwa hatua kutoka kwa usanidi uliopo zcashd
+- [Kifundo Kamili cha Zebra](/zcash-tech/zebra-full-node) — utekelezaji wa nodi Zallet hufanya kazi pamoja
+- [Nodi Kamili](/zcash-tech/full-nodes) — kuendesha nodi kamili kunahusisha nini na kwa nini unaweza kutaka moja
+- [Pochi](/using-zcash/wallets) — chaguzi nyepesi za pochi ikiwa nodi kamili ni zaidi ya unavyohitaji
+- [Miamala](/using-zcash/transactions) — jinsi miamala iliyolindwa na iliyo wazi inavyotofautiana

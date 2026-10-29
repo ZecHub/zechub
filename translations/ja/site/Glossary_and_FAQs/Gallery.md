@@ -1,9 +1,11 @@
-# Zcash ワールドペーパー ギャラリー
+# Zcash 壁紙ギャラリー
 
 <div class="my-12 flex flex-col items-center gap-6 bg-card border border-border rounded-3xl p-10 text-center">
   <div class="text-6xl"></div>
   <h2 class="text-3xl font-bold">フルインタラクティブギャラリーを開く</h2>
-  <p class="text-xl text-muted-foreground max-w-md">画像をクリックして、フルスクリーンのライティングボックスとワンクリックダウンロードを使用できます。</p>
-  
-  **[ギャラリーを開く](https://zechub.wiki/gallery)**
+  <p class="text-xl text-muted-foreground max-w-md">画像をクリックすると、フルスクリーンのライトボックスとワンクリックダウンロードが利用できます</p>
 </div>
+
+<Gallery />
+
+---

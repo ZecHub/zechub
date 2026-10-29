@@ -6,13 +6,13 @@
 
 > Zcash fii ase wɔ October 28, 2016, a Sprout shielded pool no ka ho.
 
-> **Kɔkɔbɔ:** NU7 ma ZEC da so ara wɔ Sprout pool no mu no ntumi nsɛe no bere a ayɛ adwuma pɛn (mainnet a wɔde asi wɔn ani so sɛ wɔbɛyɛ 5 November 2026, gyinaesi a etwa to 20 October 2026; hwɛ [ZIP 259 na ɛwɔ hɔ](https://zips.z.cash/zip-0259)). Sɛ wokura Sprout sika a, kenkan [Sika a wɔresan agye](../using-zcash/recovering-funds) na di kan tu wɔn kɔ mmeae foforo.
+> **Kɔkɔbɔ:** NU7 ma ZEC da so ara wɔ Sprout pool no mu no ntumi nsɛe no bere a ayɛ adwuma pɛn (mainnet dwumadie sorokɔ 3,543,405, wɔde asi wɔn ani so sɛ 5 November 2026; hwɛ [ZIP 259 na ɛwɔ hɔ](https://zips.z.cash/zip-0259)). Sɛ wokura Sprout sika a, kenkan [Sika a wɔresan agye](../using-zcash/recovering-funds) na di kan tu wɔn kɔ mmeae foforo.
 
 Nea wobɛfa akɔ: Sprout ne baabi a Zcash fii ase, bere a edi kan a kokoam, sika a wotumi di ho adanse tuu mmirika wɔ live blockchain so.
 
-Sprout yɛ Zcash network no mfitiaseɛ a wɔde sii hɔ, ɛnyɛ akyiri yi [network upgrade a wɔde yɛ adwuma](../start-here/network-upgrades). Ɛkɔɔ so traa ase wɔ genesis block no mu wɔ Ɔkɔtɔberɛ 28, 2016. ZIP biara nni hɔ a wɔde nɔma ahyɛ mu a ɛkyerɛkyerɛ Sprout: ZIP dwumadie no hyɛɛ aseɛ akyiri yi wɔ Overwinter, enti wɔde mfitiaseɛ Zcash Protocol Specification ne Zerocash adansiɛ a wɔsii wɔ so na ɛkyerɛkyerɛ Sprout mu. No [Electric Coin Company](../zcash-organizations/electric-coin-company) (saa bere no na Zerocoin Electric Coin Company), a Zooko Wilcox di wɔn anim no na ɛyɛɛ na wɔde menae. Sprout de zk-SNARK shielded transactions a edi kan a mfaso wɔ so ne mfitiase shielded pool no bae, sɛnea ɛbɛyɛ a nkurɔfo betumi de ZEC a nea ɔde kɔmaa, nea ogye, ne sika dodow a wɔde asie bere a netɛw no da so ara hwɛ sɛ sika a aka no aka ho no bae. Edin no kyerɛɛ nkɔnsɔnkɔnsɔn a ɛyɛ mmerante ne mmabaa a ɛrefifi a na kuw no hwɛ kwan sɛ ebenyin.
+Sprout yɛ Zcash network no mfitiaseɛ a wɔde sii hɔ, ɛnyɛ akyiri yi [network upgrade a wɔde yɛ adwuma](../start-here/network-upgrades). Ɛkɔɔ so traa ase wɔ genesis block no mu wɔ Ɔkɔtɔberɛ 28, 2016. ZIP biara nni hɔ a wɔde nɔma ahyɛ mu a ɛkyerɛkyerɛ Sprout: ZIP dwumadie no hyɛɛ aseɛ akyiri yi wɔ Overwinter, enti wɔde mfitiaseɛ Zcash Protocol Specification ne Zerocash adansiɛ a wɔsii wɔ so na ɛkyerɛkyerɛ Sprout mu. No [Electric Coin Company](../zcash-organizations/electric-coin-company) (saa bere no na Zerocoin Electric Coin Company), a Zooko Wilcox, di wɔn anim no na ɛyɛɛ na wɔde menae. Sprout de zk-SNARK shielded transactions a edi kan a mfaso wɔ so ne mfitiase shielded pool no bae, sɛnea ɛbɛyɛ a nkurɔfo betumi de ZEC a nea ɔde kɔmaa, nea ogye, ne sika dodow a wɔde asie bere a netɛw no da so ara hwɛ sɛ sika a aka no aka ho no bae. Edin no kyerɛɛ nkɔnsɔnkɔnsɔn a ɛyɛ mmerante ne mmabaa a ɛrefifi a na kuw no hwɛ kwan sɛ ebenyin.
 
-Nea enti a eyi ho hia. Ɔmanfoɔ blockchain biara a ɛwɔ hɔ ansa na Sprout reba no de wo sikatua bɛto gua: obiara bɛtumi ahunu deɛ ɔtuaa hena ne dodoɔ. Sprout ne network a edi kan a ɛte ase, a enni kwan a ɛde saa nsɛm no siee na ɛda so ara kyerɛe sɛ obiara nsisi. Ɛno ho hia ma sikasɛm mu kokoamsɛm a ɛyɛ mpapahwekwa, nea wohwɛ kwan fi sika anaa sikakorabea krataa a obiara ntumi nkenkan mu. Ɛsan nso daa no adi sɛ kokoamsɛm a emu yɛ den a ɛwɔ nkɔnsɔnkɔnsɔn mu betumi ayɛ adwuma wɔ nneyɛe mu, asen krataa so nhyehyɛe. Afahyɛ a wɔde wɔn ho to so a wɔde sii hɔ a ɛmaa ɛyɛɛ yiye no bɛyɛɛ nea wɔde gyina so maa akyiri yi cryptography adwuma, na nhyehyɛe a ɛyɛ brɛoo, a ɛyɛ den sɛ wɔbɛkae adanse a Sprout de kɔmaa no no ne nea ɛhyɛɛ kuw no ma wɔkyekyee Sapling mfe abien akyi no pɛpɛɛpɛ.
+Nea enti a eyi ho hia. Ɔmanfoɔ blockchain biara a ɛwɔ hɔ ansa na Sprout no de wo sikatua reto gua: obiara bɛtumi ahunu deɛ ɔtuaa hena ne dodoɔ. Sprout ne network a edi kan a ɛte ase, a enni kwan a ɛde saa nsɛm no siee na ɛda so ara kyerɛe sɛ obiara nsisi. Ɛno ho hia ma sikasɛm mu kokoamsɛm a ɛyɛ mmerɛw, nea wohwɛ kwan fi sika anaa sikakorabea krataa a obi foforo ntumi nkenkan mu. Ɛsan nso daa no adi sɛ kokoamsɛm a emu yɛ den a ɛwɔ nkɔnsɔnkɔnsɔn mu betumi ayɛ adwuma wɔ nneyɛe mu, asen krataa so nhyehyɛe. Afahyɛ a wɔde wɔn ho to so a wɔde sii hɔ a ɛmaa ɛyɛɛ yiye no bɛyɛɛ nea wɔde gyina so maa akyiri yi cryptography adwuma, na nhyehyɛe a ɛyɛ brɛoo, a ɛyɛ den sɛ wɔbɛkae adanse a Sprout de kɔmaa no no ne nea ɛhyɛɛ kuw no ma wɔkyekyee Sapling mfe abien akyi no pɛpɛɛpɛ.
 
 ## Ɔtare a edi kan a wɔabɔ ho ban
 
@@ -22,7 +22,7 @@ Sprout yɛɛ address ahorow abien. Address a ɛda adi pefee (t-addresses) yɛ ad
 
 ## Afahyɛ no
 
-Na zk-SNARKs a ɛwɔ Sprout hia ɔmanfoɔ parameters ahodoɔ bi, na sɛ wɔbɛhyehyɛ no dwoodwoo a, na ɛhia sɛ wɔyɛ nhyehyɛeɛ pɛnkoro a wɔfrɛ no Ceremony. Nnipa baanum a wɔde wɔn ho hyɛɛ mu wɔ mmeae ahorow a ɛwɔ akyirikyiri no mu biara yɛɛ kokoam ade bi, a wɔfrɛ no nwura a awuduru wom. Sɛ obi san boaboa asinasin no nyinaa ano da bi a, obetumi ayɛ ZEC afi hwee mu. Nsusuwii no danee saa asiane no yɛɛ no mmara tiawa: bere tenten a anyɛ yiye koraa no, obiako a ɔde ne ho hyɛɛ mu sɛee wɔn afã no, na wontumi nsan nsi ahintasɛm mũ no nyinaa da, enti atoro a wɔyɛ no kɔɔ so yɛɛ nea entumi nyɛ yiye. Wɔn a wɔde wɔn ho hyɛɛ mu a wɔabobɔ wɔn din wɔ baguam no bi ne Zooko Wilcox, Andrew Miller, Peter Van Valkenburgh, Peter Todd, ne Derek Hinch a wɔwɔ NCC Kuw no mu. Obi a ɔde ne ho hyɛɛ mu no paw sɛ ɔremmɔ ne din.
+Na zk-SNARKs a ɛwɔ Sprout hia ɔmanfoɔ parameters ahodoɔ bi, na sɛ wɔbɛhyehyɛ no dwoodwoo a, na ɛhia sɛ wɔyɛ nhyehyɛeɛ pɛnkoro a wɔfrɛ no Ceremony. Nnipa baanum a wɔde wɔn ho hyɛɛ mu wɔ mmeae ahorow a ɛsono emu biara a ɛwɔ akyirikyiri no mu biara yɛɛ kokoam ade bi, a wɔfrɛ no nwura a awuduru wom. Sɛ obi san boaboa asinasin no nyinaa ano da bi a, obetumi ayɛ ZEC afi hwee mu. Nsusuwii no danee saa asiane no yɛɛ no mmara tiawa: bere tenten a anyɛ yiye koraa no, obiako a ɔde ne ho hyɛɛ mu sɛee wɔn afã no, na wontumi nsan nsi ahintasɛm mũ no nyinaa da, enti atoro a wɔyɛ no kɔɔ so yɛɛ nea entumi nyɛ yiye. Wɔn a wɔde wɔn ho hyɛɛ mu a wɔabobɔ wɔn din wɔ baguam no bi ne Zooko Wilcox, Andrew Miller, Peter Van Valkenburgh, Peter Todd, ne Derek Hinch a wɔwɔ NCC Kuw no mu. Obi a ɔde ne ho hyɛɛ mu no paw sɛ ɔremmɔ ne din.
 
 ![The Ceremony: six participants generate private shards, then destroy the toxic waste, leaving only the public Sprout parameters](/content-images/sprout-ceremony-flow-ae16f6282a.webp)
 
@@ -36,7 +36,7 @@ Sprout ne nnyinaso a nsakrae biara a ɛbɛba akyiri yi de si so. Bere a network-
 
 | Asɛmfua | Plain-English asekyerɛ |
 |---|---|
-| zk-SNARK | Adanse a nimdeɛ nnim a ɛkyerɛ sɛ asɛm bi ayɛ no yɛ nokware a ɛnkyerɛ nea ɔde kɔmaa, nea ogyee, anaa sika dodow a wɔde kɔe |
+| zk-SNARK | Adanse a nimdeɛ nnim a ɛkyerɛ sɛ asɛm bi ayɛ no yɛ nokware a ɛnkyerɛ nea ɔde kɔmaa, nea ogyee, anaa sika dodow |
 | Shielded pool | Zcash kokoam fã a wɔde sika ne apontow ahorow asie. Sprout ɔtare no ne nea edi kan |
 | z-address and t-address | Wɔabɔ z-address ho ban na ɛma nsɛm no yɛ kokoam. T-address yɛ nea ɛda adi pefee na ɛkyerɛ nsɛm a ɛkɔ akyiri wɔ ɔmanfo ledger no so |
 | The Ceremony | 2016 multi-party setup a ɛmaa Sprout's ɔmanfoɔ parameters na afei wɔtow awuduru nwura no gui |
@@ -47,7 +47,7 @@ Sprout ne nnyinaso a nsakrae biara a ɛbɛba akyiri yi de si so. Bere a network-
 
 So Sprout sesa me ZEC anaa me kokoam nsɛm nnɛ? Dabi Sprout yɛ abakɔsɛm, launch a efii nkɔnsɔnkɔnsɔn a wo ZEC te ase no ase. Wo sika ne wo kokoamsɛm nnɛ gyina sika kotoku ne shielded pool a wode di dwuma mprempren no so, ɛnyɛ biribiara a ɛsɛ sɛ woyɛ wɔ Sprout.
 
-Dɛn nti na ZIP nɔma biara nni hɔ ma Sprout? ZIP nhyehyɛe no fii ase akyiri yi, denam Overwinter upgrade no so. Sprout yɛ mfitiaseɛ a wɔde sii hɔ, a Zcash Protocol Specification ne Zerocash adansiɛ a egyina so kyerɛkyerɛɛ mu. ZIP 200 ka Sprout ho asɛm wɔ akyi hwɛ mu nko ara, sɛ consensus branch id 0, mfitiaseɛ ansa na wɔayɛ nkɔsoɔ biara.
+Dɛn nti na ZIP nɔma biara nni hɔ ma Sprout? ZIP nhyehyɛe no fii ase akyiri yi, denam Overwinter upgrade no so. Sprout yɛ mfitiaseɛ a wɔde sii hɔ, a Zcash Protocol Specification ne Zerocash adansiɛ a ɛgyina so kyerɛkyerɛɛ mu. ZIP 200 ka Sprout ho asɛm wɔ akyi hwɛ mu nko ara, sɛ consensus branch id 0, mfitiaseɛ ansa na wɔayɛ nsakraeɛ biara.
 
 So na ɛsɛ sɛ mede me ho to nnipa baanum a wɔwɔ Afahyɛ no mu no so? Wɔkyekyeree nhyehyɛe no enti na wuhia wɔn mu biako pɛ sɛ wobɛka nokware. Ná wɔn mu biara kura kokoam asɛm bi, na bere tenten a obiako a ɔde ne ho hyɛɛ mu no sɛee wɔn de no, na wontumi nsan nkyekye ahintasɛm mũ no nyinaa da na obiara ntumi nnyɛ ZEC. Wɔabobɔ nnipa baanum a wɔde wɔn ho hyɛɛ mu no din wɔ baguam na obiako ammɔ ne din.
 

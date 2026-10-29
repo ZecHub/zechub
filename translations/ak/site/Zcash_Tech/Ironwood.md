@@ -8,21 +8,21 @@
 
 Nea wobɛfa: nea Ironwood sesa, nea enti a bɔne bi a ɛwɔ sika a ahintaw mu yɛ aniberesɛm, ne sɛnea turnstile no ma obiara si so dua sɛ wɔanhyɛ ZEC biara.
 
-Ironwood is a Zcash [network upgrade a wɔde yɛ adwuma](../start-here/network-upgrades), a wɔfrɛ no NU6.3, a ɛde ɔtare foforo a wɔabɔ ho ban a ɛwɔ din koro no ara ba. BI [ɔtare a wɔabɔ ho ban](../using-zcash/shielded-pools) yɛ sikakorabea ahorow a ne sika ne ne wuranom tra so sie [zero-nimdeɛ a wɔde sie](../zcash-tech/zk-snarks). Ironwood wɔ hɔ sɛ ɛbɛsiw na wɔabu soundness bug a wɔhunu wɔ Orchard shielded pool a ɛwɔ hɔ dada no mu, na ama mpɔtam hɔfoɔ anya ɔkwan a ɛyɛ den a wɔbɛfa so ahwɛ sɛ ZEC a wɔde ma nyinaa yɛ nokware. Wɔakyerɛ ne mmara a wɔpene so no mu [ZIP 258 na ɛwɔ hɔ](https://zips.z.cash/zip-0258).
+Ironwood yɛ Zcash [network upgrade a wɔde yɛ adwuma](../start-here/network-upgrades), a wɔfrɛ no NU6.3, a ɛde ɔtare foforo a wɔabɔ ho ban a ɛwɔ din koro no ara ba. BI [ɔtare a wɔabɔ ho ban](../using-zcash/shielded-pools) yɛ sikakorabea ahorow a ne sika ne ne wuranom tra hɔ ahintaw [zero-nimdeɛ a wɔde kyerɛw nsɛm a wɔde sie](../zcash-tech/zk-snarks). Ironwood wɔ hɔ sɛ ɛbɛsiw na wɔabu soundness bug a wɔhunu wɔ Orchard shielded pool a ɛwɔ hɔ dada no mu, na ama mpɔtam hɔfoɔ anya ɔkwan a ɛyɛ den a wɔbɛfa so ahwɛ sɛ ZEC a wɔde ma nyinaa yɛ nokware. Wɔakyerɛ ne mmara a wɔpene so no mu [ZIP 258 na ɛwɔ hɔ](https://zips.z.cash/zip-0258).
 
 Nea enti a eyi ho hia. Sɛ wowɔ sika a ɛda adi te sɛ Bitcoin a, obiara betumi ahwɛ sɛ wɔanyɛ sika biara denam ɔmanfo nhoma a ɔkenkan so. Sika a wɔabɔ ho ban de sika dodow no sie, enti wuntumi nhwɛ kɛkɛ. Mmom no, ɛsɛ sɛ cryptography no ankasa ma awerɛhyem sɛ obiara ntumi mmɔ sika wɔ kokoam. Ironwood ho hia efisɛ wohuu mmoawa bi wɔ saa guarantee no mu maa Orchard ɔtare no. Upgrade no to gap no mu na ɛma obiara nya ɔkwan a ɔbɛfa so asi so dua sɛ ZEC a wɔde ma nyinaa da so ara yɛ nokware.
 
-Ɛyɛ foforo wɔ Zcash mu? Fi ase fi ase [Dɛn ne ZEC ne Zcash](../start-here/what-is-zec-and-zcash) ne [Atare a Wɔabɔ ho Ban](../using-zcash/shielded-pools), afei san bra ha.
+Ɛyɛ foforo wɔ Zcash? Fi ase fi ase [Dɛn ne ZEC ne Zcash](../start-here/what-is-zec-and-zcash) ne [Atare a Wɔabɔ Ho Ban](../using-zcash/shielded-pools), afei san bra ha.
 
 ![Ironwood value migration flow: value leaves the Orchard pool, passes through the turnstile checkpoint, and enters the new Ironwood pool](/content-images/ironwood-flow-8af7a58b99.webp)
 
-## Nea enti a na Ironwood ho hia
+## Nea enti a Ironwood ho hia
 
-Wɔ May 2026 awiei no, ahobammɔ ho nhwehwɛmufo a ɔde ne ho Taylor Hornby, bere a na ɔreyɛ protocol audit ma... [Labs a Wɔabɔ ho Ban](../zcash-organizations/shielded-labs), de asɛyɛde daa soundness bug bi adi wɔ Orchard shielded pool no mu. Na Orchard yɛ Zcash ɔtare foforo a wɔabɔ ho ban saa bere no, na sintɔ no traa ne zero-knowledge circuit no fã bi a ɛyɛ elliptic-curve, a ɛde... [Halo](../zcash-tech/halo) 2 nhyehyɛe a ɛkyerɛ sɛ ɛyɛ nokware.
+Wɔ May 2026 awiei no, ahobammɔ ho nhwehwɛmufo a ɔde ne ho Taylor Hornby, bere a na ɔreyɛ protocol audit ma.. [Shielded Labs](../zcash-organizations/shielded-labs), de asɛyɛde daa soundness bug bi adi wɔ Orchard shielded pool no mu. Na Orchard yɛ Zcash's ɔtare foforo a wɔabɔ ho ban saa bere no, na sintɔ no traa ne zero-knowledge circuit no fã bi a ɛyɛ elliptic-curve, a ɛde.. [Halo](../zcash-tech/halo) 2 nhyehyɛe a ɛkyerɛ sɛ ɛyɛ nokware.
 
 1. Soundness bug kyerɛ sɛ akontaabu a ɛkyerɛ sɛ asɛm bi yɛ nokware no nkyerɛ sɛ ɛyɛ nokware koraa.
 2. Wɔ nsusuwii mu no, anka ɔtowhyɛfo betumi de sintɔ no adi dwuma de ayɛ bo a enni mu wɔ Orchard ɔtare no mu na wasɛe sika a ɛnyɛ wɔn de ankasa, na onnyaw biribiara a node a ɛyɛ daa bɛkyere.
-3. Zcash turnstile no da so ara kata sɛnea bo a ɛsom betumi afi Orchard da bi so, enti na wontumi nhyɛ nneɛma a wɔde ma nyinaa mu den, nanso ɔtare no ankasa cryptography no ankyerɛ bio sɛ ​​sika biara a ahintaw a ɛwɔ mu no yɛ nokware.
+3. Zcash's da so ara kata sɛnea bo a ɛsom betumi afi Orchard, enti na wontumi nhyɛ nneɛma a wɔde ma nyinaa mu den, nanso ɔtare no ankasa cryptography no ankyerɛ bio sɛ sika biara a ahintaw a ɛwɔ mu no yɛ nokware.
 
 ![The bug explained: a transaction puts in 5 ZEC, but the flawed proof still passes when 7 ZEC come out, creating 2 ZEC from nothing](/content-images/ironwood-bug-8f689d6f61.webp)
 
@@ -32,7 +32,7 @@ Nea ɛho hia no, adanse biara nni hɔ a ɛkyerɛ sɛ wɔde bɔne no dii dwuma da
 
 ## Mmuae a wɔde mae
 
-Zcash mpɔtam hɔfo de fixes kɔmaa wɔ akwan horow so sen sɛ wɔde ne nyinaa bɛkɔ prɛko pɛ.
+Zcash mpɔtam hɔfo de nneɛma a wɔasiesie no kɔmaa wɔn wɔ akwan horow so sen sɛ wɔde bɛkɔ prɛko pɛ.
 
 ![Ironwood response timeline: the Orchard bug is found in May 2026, the pool is paused in June 2026, the circuit is fixed in NU6.2, and Ironwood activated at block 3,428,143 on July 28, 2026](/content-images/ironwood-timeline-36243f0cd7.webp)
 
@@ -46,70 +46,74 @@ Zcash mpɔtam hɔfo de fixes kɔmaa wɔ akwan horow so sen sɛ wɔde ne nyinaa b
 
 NU6.2 bɔɔ Orchard amansin no ho ban maa nnwuma foforɔ nyinaa, nanso boɔ a wɔabɔ wɔ mmara dedaw no ase no da so ara te Orchard pool no mu. Ironwood ma saa botae no nya baabi a ɛho tew a wɔbɛkɔ ne ɔkwan a wɔbɛfa so ahwɛ so bere a ɛretu no.
 
-Ironwood pool no yɛ shielded value pool a NU6.3 ayɛ wɔ block 3,428,143. Wɔde asi ɔmansin a wɔateɛteɛ no so na wɔde quantum-recoverable note format (nsusuwii a ɛma wotumi nya sika sɛ... [quantum kɔmputa ahorow](../zcash-tech/post-quantum-security) da biara bu nnɛyi cryptography), a wɔakyerɛkyerɛ mu wɔ [ZIP 2005 na ɔkyerɛwee](https://zips.z.cash/zip-2005).
+Ironwood pool no yɛ shielded value pool a NU6.3 ayɛ wɔ block 3,428,143. Wɔde asi ɔmansin a wɔateɛteɛ no so na wɔde quantum-recoverable note format (nsusuwii a ɛma wotumi nya sika sɛ.. [quantum kɔmputa ahorow](../zcash-tech/post-quantum-security) da biara bu nnɛyi cryptography), a wɔakyerɛkyerɛ mu wɔ [ZIP 2005 na ɔkyerɛwee](https://zips.z.cash/zip-2005).
 
 1. Sɛ wɔyɛ adwuma wie a, Orchard pool dedaw no bɛyɛ nea wɔsɛe no nkutoo, enti ebia bo foforo biara bɛhyɛn mu.
 2. Botae a wɔabɔ ho ban foforo no sen kɔ Ironwood mmom.
-3. Shielded ZEC kura kokoamsɛm ho bɔhyɛ a emu yɛ den koro no ara a ɛde nea ɔde kɔmaa, nea ogye, ne sika dodow no sie.
+3. Wɔ Ironwood, ZEC a wɔabɔ ho ban no sie kokoamsɛm a ɛde nea ɔde kɔmaa, nea ogye, ne sika dodow no sie. Sɛ wotu ZEC fi Orchard kɔ Ironwood a, ɛkyerɛ sika dodow a wɔde tu.
 
 ## Nneɛma a wɔde dannan nneɛma
 
-Adwene titiriw a ɛwɔ Ironwood ne turnstile, akontaabu nhwehwɛmubea a ɛsɛ sɛ sika biara fa mu bere a efi Orchard ɔtare dedaw no mu kɔ Ironwood no.
+Adwene titiriw a ɛwɔ Ironwood ne turnstile, akontaabu nhwehwɛmubea a ɛsɛ sɛ sika biara fa mu bere a efi Orchard ɔtare dedaw no mu kɔ Ironwood.
 
 > Turstile yɛ ma sika a ahintaw nea ahwehwɛ pon yɛ ma sikakorabea sikakorabea no. Woda so ara ntumi nhu emu, nanso wubetumi akan nea ɛkɔ mu ne nea efi mu ba no pɛpɛɛpɛ.
 
-1. Wɔkan sika a efi Orchard no wɔ baabi a ɔmanfo hwɛ sɛ ɛyɛ nokware ansa na wɔakɔ Ironwood.
+1. Wɔkan sika a efi Orchard wɔ baabi a ɔmanfo hwɛ sɛ ɛyɛ nokware ansa na wɔakɔ Ironwood.
 2. Eyi ma obiara bu akontaa sɛnea ZEC tu kɔtra baabi foforo no, na ɛhyɛ ahotoso a ɔwɔ wɔ nneɛma a ɛkyinkyini ankasa no mu den.
-3. Sɛ wɔfaa mfomsoɔ a ɛdi kan no so na ɛyɛɛ ZEC atoro biara a, saa atutena akontabuo yi ne baabi a anka ɛbɛda adi.
+3. Sɛ wɔfaa mfomsoɔ a atwam no so na ɛyɛɛ ZEC atoro biara a, saa atutena akontabuo yi ne baabi a anka ɛbɛda adi.
 
 Turnstiles nyɛ ade foforo mma Zcash. Netwɛk no de adi dwuma pɛn, wɔ ahye a ɛda Sprout, Sapling, ne Orchard atare no ntam, sɛnea ɛbɛyɛ a botae a ɛkɔ atare ntam no bɛkɔ so ayɛ auditable na pool biara ntumi nyi nea ɛboro nea wɔahyɛ mu wɔ mmara kwan so no adi.
 
-Mmara a wɔpene so no ma boɔ a ɛsom boɔ biara, a Ironwood ka ho, kɔ ntwamutam no sika anohyetoɔ a ɛkyɛn so mu, enti pool a ɛkari pɛ no ntumi nkɔ bɔne da.
+Mmara a wɔpene so no ma botaeɛ a ɛsom boɔ biara, a Ironwood, kɔ ntwamutam no sika anohyetoɔ a ɛkyɛn so mu, enti pool a ɛkari pɛ no ntumi nkɔ bɔne da.
 
 ## Nea ɛsɛ sɛ wɔn a wɔde di dwuma no yɛ
 
-Wallet ne node software di eyi mu dodow no ara ho dwuma ara kwa, nanso nsakrae a mfaso wɔ so no yɛ mmerɛw: bere kɔ so no, fa nneɛma a wɔabɔ ho ban fi Orchard ɔtare dedaw no mu fa turnstile no mu kɔ Ironwood ɔtare no mu. Di akwankyerɛ a efi wo wallet provider hɔ akyi, na bere nyinaa update kɔ release a wɔboa ansa na activation block no aba.
+Wallet ne node software di eyi mu dodow no ara ho dwuma ara kwa, nanso nsakrae a mfaso wɔ so no yɛ mmerɛw: bere kɔ so no, fa nneɛma a wɔabɔ ho ban fi Orchard ɔtare dedaw no mu fa turnstile no mu kɔ Ironwood ɔtare no mu. Tu biara kyerɛ ne dodow wɔ blockchain no so, enti sika kotoku a edi akyi [ZIP 318 na ɛwɔ hɔ](https://zips.z.cash/zip-0318) kyekyɛ mu yɛ no dodow a wɔahyɛ da ayɛ na fa mena bere a bere kɔ so no. Di akwankyerɛ a efi wo wallet provider hɔ akyi, na fa wo software no sie wɔ release a wɔboa so.
 
 ## Nsɛmfua Nkyerɛase
 
 | Asɛmfua | Plain-English asekyerɛ |
 |---|---|
-| Shielded pool | Sika a wɔahyehyɛ a wɔde zero-knowledge cryptography de ne sika ne ne wuranom asie |
-| Soundness bug | Mfomsoɔ a ɛma asɛm a ɛnni mu twa adanseɛ nhwehwɛmu no te sɛ nea ɛyɛ nokware |
-| Turnstile | Ɔmanfoɔ checkpoint a ɛkan boɔ a ɛkɔ pools ntam ma enti supply no kɔ so yɛ auditable |
-| Spend-only | Pool a wobɛtumi asɛe sika afiri mu, nanso wuntumi mfa boɔ foforɔ nka |
-| Network upgrade (NU) | Nsakraeɛ a wɔayɛ no pɛpɛɛpɛ wɔ Zcash mmara a wɔpene so, a wɔayɛ adwuma wɔ block height a wɔahyɛ |
-| Quantum-recoverable note | A note format a wɔayɛ sɛnea ɛbɛyɛ a wobetumi asan anya sika sɛ quantum kɔmputa ahorow bu nnɛyi cryptography |
+| Shielded pool | Sika ahorow a wɔde zero-knowledge cryptography de ne sika ne ne wuranom sie |
+| Soundness bug | Mfomso a ɛma asɛm a ɛnteɛ twa adansedi nhwehwɛmu no mu te sɛ nea ɛyɛ nokware |
+| Turnstile | Ɔmanfoɔ nhwehwɛmubea a ɛkan boɔ a ɛkɔ atare ntam ma enti nneɛma a wɔde ma no kɔ so yɛ auditable |
+| Spend-only | Ɔtare a wubetumi asɛe sika afi mu, nanso wuntumi mfa mfaso foforo nka ho |
+| Network upgrade (NU) | Nsakrae a wɔayɛ no biako wɔ Zcash's mmara a wɔpene so no mu, a wɔayɛ adwuma wɔ block sorokɔ a wɔahyɛ mu |
+| Quantum-recoverable note | Nkyerɛwde kwan a wɔayɛ sɛnea ɛbɛyɛ a wobetumi asan anya sika sɛ quantum kɔmputa ahorow bu nnɛyi cryptography no so da bi a |
 
 ## FAQ
 
 So ɛkaa me ZEC no? Dabi, adanse biara nni hɔ a ɛkyerɛ sɛ wɔde bɔne no dii dwuma da, nkɛntɛnso biara nni sika a wɔde di dwuma no so, na nsakrae biara nni nneɛma a wɔde ma nyinaa mu.
 
-So ɛsɛ sɛ meyɛ biribi? Ma wo sika kotoku ne node softwea no nyɛ foforo nkɔ nea wɔboa ansa na woasiw no kwan. Wo sika kotoku no de sika kɔ Ironwood bere a wosɛe sika no, enti biribiara nni hɔ a wɔde nsa yɛ a wode ahopere bɛyɛ. Di wo sika kotoku a ɔde ma no akwankyerɛ akyi.
+So ɛsɛ sɛ meyɛ biribi? Fa wo sika kotoku ne node software no sie wɔ release a wɔboa so. Orchard sika a wɔsɛe no no de wɔn kɔ Ironwood, na sika a ɛtwam no yɛ ɔmanfo de. Wallet binom de migration a ɛde standard amounts mena bere kɔ so ma, enti ɛyɛ den sɛ wobɛka wo balance no ho. Di wo sika kotoku a ɔde ma no akwankyerɛ akyi.
 
-So Zcash da so ara yɛ kokoam de? Aane. Ironwood kura kokoamsɛm a wɔabɔ ho ban koro no ara a ɛde nea ɔde kɔma, nea ogye, ne sika dodow sie no so. Saa nkɔsoɔ yi fa nneɛma a wɔde ma no mudi mu kura ho, ɛnyɛ kokoamsɛm.
+So Zcash da so ara yɛ kokoam de? Aane. Katua a ɛwɔ Ironwood mu no de nea ɔde kɔmaa, nea ogye, ne sika dodow sie, sɛnea Orchard sikatua yɛe no. Dodow a ɛkɔ atare ntam, te sɛ nea efi Orchard kɔ Ironwood, yɛ ɔmanfo de. Saa nkɔsoɔ yi fa nneɛma a wɔde ma no mudi mu kura ho.
 
-So wɔde mmoawa no dii dwuma pɛn? Adanse biara nni hɔ a ɛkyerɛ sɛ na ɛte saa. Wɔnam ahobammɔ ho nhwehwɛmu so huu no, wɔde asɛyɛde daa no adi, na wosiesiee ansa na ɔhaw biara a wonim no reba.
+So wɔde mmoawa no dii dwuma pɛn? Adanse biara nni hɔ a ɛkyerɛ sɛ na ɛte saa. Wɔnam ahobammɔ ho nhwehwɛmu so huu no, wɔdaa no adi wɔ asɛyɛde mu, na wosiesiee ansa na ɔhaw biara a wonim no reba.
 
 Dɛn na ɛba Orchard ɔtare dedaw no so? Ɛbɛyɛ nea wɔsɛe no nkutoo. Botae foforo biara ntumi nkɔ mu, na bo a ɛwɔ hɔ dedaw no fa turnstile no so kɔ Ironwood, baabi a wɔyɛ atutra no ho akontaabu wɔ baguam.
 
 ## Sɔ wo ntease hwɛ
 
-Sɛ wɔde ZEC a ɛwɔ atare a wɔabɔ ho ban mu no asie a, ɛbɛyɛ dɛn na obi atumi asi so dua sɛ Orchard mmoawa no anhyɛ nneɛma a wɔde ma nyinaa mu wɔ kokoam?
+Sɛ wɔde ZEC a ɛwɔ atare a wɔabɔ ho ban mu no asie a, ɛbɛyɛ dɛn na obi atumi asi so dua sɛ Orchard mmoawa no anhyɛ nneɛma a wɔde ma nyinaa mu ma wɔ kokoam?
 
 <details>
 <summary>Answer</summary>
 
-Ɛdenam turnstile no so. Wɔkan sika biara a efi Orchard ɔtare dedaw no mu wɔ ɔmanfo beae bi a wɔhwɛ nneɛma so bere a ɛhyɛn Ironwood no. Sɛ bo a ɛsom pii bɔ mmɔden sɛ ebefi mu asen nea wɔde ahyɛ mu wɔ mmara kwan so a, na akontaabu no renkari pɛ, enti na atoro biara a anka bɔne no betumi de aba no bɛda adi wɔ saa pon no so.
+Ɛdenam turnstile no so. Wɔkan sika biara a efi Orchard ɔtare dedaw no mu wɔ ɔmanfo beae bi a wɔhwɛ nneɛma so bere a ɛhyɛn Ironwood. Sɛ bo a ɛsom pii bɔ mmɔden sɛ ebefi mu sen nea wɔahyɛ mu wɔ mmara kwan so a, na akontaabu no renkari pɛ, enti na atoro biara a anka bɔne no betumi de aba no bɛda adi wɔ saa pon no so.
 </details>
 
 ### Akadeɛ
 
 [ZIP 258: NU6.3 Network Upgrade no a wɔde bedi dwuma](https://zips.z.cash/zip-0258)
 
-[ZIP 257: Orchard Bere Tiaa mu Nneɛma a Ɛyɛ Den a Wɔbrɛ ase ne NU6.2 Network Upgrade no a wɔde bedi dwuma](https://zips.z.cash/zip-0257)
+[ZIP 257: Orchard Bere Tiaa mu Nneɛma a Ɛyɛ Den a Wɔbɛbrɛ ase ne NU6.2 Network Upgrade a wɔde bedi dwuma](https://zips.z.cash/zip-0257)
 
 [ZIP 2005: Ironwood Quantum Recoverability](https://zips.z.cash/zip-2005)
+
+[ZIP 229: Nkyerɛase 6 Nkitahodi Nhyehyɛe](https://zips.z.cash/zip-0229)
+
+[ZIP 318: Orchard ɛkɔ Ironwood Tukɔ](https://zips.z.cash/zip-0318)
 
 [Ironwood: Ɔtare Foforo a Wɔabɔ ho ban ma Zcash](https://zodl.com/ironwood-a-new-shielded-pool-for-zcash/)
 
@@ -117,15 +121,15 @@ Sɛ wɔde ZEC a ɛwɔ atare a wɔabɔ ho ban mu no asie a, ɛbɛyɛ dɛn na obi 
 
 [Zcash Network Nkɔsoɔ a Wɔayɛ](../start-here/network-upgrades)
 
-[Atare a Wɔabɔ ho Ban](../using-zcash/shielded-pools)
+[Atare a Wɔabɔ Ho Ban](../using-zcash/shielded-pools)
 
 [Halo](../zcash-tech/halo)
 
-[zk-SNARKs NKYERƐKYERƐMU](../zcash-tech/zk-snarks)
+[zk-SNARKs](../zcash-tech/zk-snarks)
 
 [Post Quantum Ahobammɔ](../zcash-tech/post-quantum-security)
 
-[Labs a Wɔabɔ ho Ban](../zcash-organizations/shielded-labs)
+[Shielded Labs](../zcash-organizations/shielded-labs)
 
 [Dɛn ne ZEC ne Zcash](../start-here/what-is-zec-and-zcash)
 

@@ -18,7 +18,7 @@ Ukurasa huu unaelezea ZIP 218 kutoka kwa maandishi yake: kinachobadilika, kisich
 
 ![ZIP 218 cuts block target spacing from 75 seconds to 25, tripling daily blocks from 1,152 to 3,456, while dividing the per-block subsidy by the same factor of three from 1.5625 to 0.52083333 ZEC, so daily issuance stays at 1,800 ZEC and the halving interval stretches from 1,680,000 to 5,040,000 blocks to hold halving dates fixed](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/nu7-block-timing.png)
 
-Mara tatu ya vitalu vingi, kila kimoja kikilipa theluthi moja ya kiasi hicho. Ratiba ya usambazaji inabaki pale ilipokuwa.
+Vitalu mara tatu zaidi, kila kimoja kikilipa theluthi moja ya kiasi hicho. Ratiba ya usambazaji inabaki pale ilipokuwa.
 
 ## Kwa nini ubadilishe muda wa kuzuia
 
@@ -39,7 +39,7 @@ Kuongeza mara tatu idadi ya vitalu kungeongeza mara tatu utoaji wa kila siku iki
 
 Katika enzi ya sasa ya ugawaji nusu, hiyo inachukua ruzuku ya vitalu kutoka **1.5625 ZEC hadi 0.52083333 ZEC** (52,083,333 zatoshi). Kwa sababu zatoshi 156,250,000 hazigawanyiki sawasawa kwa tatu, kila vitalu huzungushwa chini kwa theluthi moja ya zatoshi. Katika kipindi chote cha ugawaji nusu wa vitalu 5,040,000 ambacho ni takriban 0.0168 ZEC kwa jumla.
 
-Ruzuku hiyo ni jumla ya ZEC mpya iliyoundwa kwa kila kitalu. Sehemu iliyopo ya ufadhili wa maendeleo bado inachukuliwa kutoka humo, kwa hivyo wachimbaji hupokea chini ya takwimu kamili, kama ilivyo leo.
+Ruzuku hiyo ni jumla ya ZEC mpya iliyoundwa kwa kila kitalu. Sehemu iliyopo ya ufadhili wa maendeleo bado inachukuliwa kutoka kwayo, kwa hivyo wachimbaji hupokea chini ya takwimu kamili, kama ilivyo leo.
 
 > **Dokezo kwenye takwimu ya ZEC ya 0.26041666.** Dokezo la maelezo la rasimu ZIP's linachapisha ruzuku post-NU7 kama ghorofa (156250000 / 6) = 0.26041666 ZEC, na baadhi ya habari zimerudia. Dokezo hilo si sahihi kwa sababu ya mbili: 156,250,000 zatoshi tayari ni ruzuku post-Blossom, kwa hivyo kuigawanya kwa sita hutumia kipengele cha Blossom cha mbili kwa mara ya pili juu ya kipengele cha NU7 cha tatu. Fomula ya kawaida inatoa ghorofa (1,250,000,000 / (2 · 3 · 4)) = 52,083,333 zatoshi katika faharisi ya sasa ya nusu. Suala la utekelezaji wa Zebra's kwa mabadiliko haya ([#11463](https://github.com/ZcashFoundation/zebra/issues/11463)) hurekodi noti kama inayohesabu mara mbili kipengele cha Blossom, huwaambia watekelezaji "kutekeleza fomula, si noti," na husema marekebisho yamewasilishwa dhidi ya ZIP. Takwimu sahihi wakati wa uanzishaji ni **0.52083333 ZEC**.
 
@@ -108,16 +108,16 @@ Pia kuna gharama mbili ndogo. Pochi nyepesi hupakua takriban KB 200 zaidi kwa si
 
 ## Hali na ratiba
 
-- **ZIP:** Rasimu. Wamiliki Dev Ojha na Evan Forbes; iliundwa Machi 13, 2026.
+- **ZIP:** Imependekezwa. Wamiliki Dev Ojha na Evan Forbes; iliundwa Machi 13, 2026.
 - **Kura ya maoni ya wamiliki wa sarafu:** ilifungwa tarehe 14 Septemba 2026, ikiwa na uungwaji mkono wa 99.9%. Kura ya maoni inaonyesha upendeleo; haibadilishi sheria za makubaliano yenyewe.
-- **Muda wa Matumizi:** katika tangazo la Jukwaa la Jumuiya Zcash mnamo Septemba 17, mashirika ya maendeleo yalikubaliana ratiba ya msimbo kukamilika ifikapo Septemba 30, NU7 kwenye testnet mnamo Oktoba 6, uamuzi wa mwisho na urefu wa uanzishaji wa mainnet mnamo Oktoba 20, na uanzishaji wa mainnet unaolengwa kwa takriban Novemba 5, 2026. Novemba 5 ni lengo, si tarehe maalum, hadi urefu utakapowekwa.
+- **Muda wa Matumizi:** katika tangazo la Jukwaa la Jumuiya la Zcash mnamo Septemba 17, mashirika ya maendeleo yalikubaliana ratiba ya msimbo kukamilika ifikapo Septemba 30, NU7 kwenye testnet mnamo Oktoba 6, na uamuzi wa mwisho mnamo Oktoba 20. Urefu wa uanzishaji wa mtandao mkuu sasa umewekwa kuwa 3,543,405 ([ZIP 259](https://zips.z.cash/zip-0259)), inayolengwa kwa takriban tarehe 5 Novemba 2026.
 - **Utekelezaji:** unafuatiliwa katika Zebra ([#11440](https://github.com/ZcashFoundation/zebra/issues/11440)) na katika Zakura ([PR #1066](https://github.com/zakura-core/zakura/pull/1066)).
 
 ## Hii ina maana gani kwako
 
 - **Kushikilia ZEC:** hakuna cha kufanya. Salio lako na ratiba ya usambazaji havijaathiriwa.
 - **Kutumia pochi:** sasisha pochi yako inapotuma usaidizi wa NU7. Uthibitisho wa kwanza utafika karibu mara tatu mapema zaidi.
-- **Kuendesha nodi, ubadilishaji au huduma:** panga kusasisha kabla ya kuamilishwa, na kukagua mipangilio yoyote iliyopimwa katika vizuizi, kwani hesabu ya vizuizi vilivyowekwa sasa inashughulikia theluthi moja ya muda ilivyokuwa hapo awali.
+- **Kuendesha nodi, ubadilishaji au huduma:** kupanga kusasisha kabla ya kuamilishwa, na kukagua mipangilio yoyote iliyopimwa katika vizuizi, kwa kuwa hesabu ya vizuizi vilivyowekwa sasa inashughulikia theluthi moja ya muda ilivyokuwa hapo awali.
 
 ## Vyanzo
 

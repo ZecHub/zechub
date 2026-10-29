@@ -2,143 +2,143 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Akwụkwọ Ntuziaka Ọsọ Zallet
+# Nduzi Ntụaka Ngwa Ngwa Zallet
 
 ## TL;DR
 
-- Zallet bụ obere akpa ego Zcash zuru oke nke edere na Rust. Ọ dochie anya obere akpa ahụ nke bi n'ime zcashd.
-- zcashd ruru njedebe nke nkwado ya na 18 July 2026 ma ọ naghịzi agba ọsọ. Zebra ugbu a na-ejikwa akụkụ node; Zallet na-eji aka akpa ego.
-- Ị na-akwọ Zallet site n'ahịrị iwu ahụ. `zallet rpc <command>`, dị ka i ji mee ihe . `zcash-cli` tupu mgbe ahụ.
-- Arụmụka ọ bụla mgbe aha iwu ahụ ga-abụrịrị JSON ziri ezi, nke pụtara na ụkpụrụ eriri nwere akara abụọ ha.
-- Zallet ka nọ na Alfa. Iwu nwere ike ịgbanwe n'etiti ntọhapụ, ọ bụghịkwa ihe niile zcashd RPC gafere ma.
+- Zallet bụ obere akpa Zcash zuru oke nke e dere na Rust. Ọ na-anọchi obere akpa ahụ nke dịbu n'ime zcashd.
+- zcashd rutere nkwụsịtụ nke End-of-Support ya na 18 Julaị 2026 ma ọ naghịzi agba ọsọ. Zebra na-ejikwa akụkụ node ugbu a; Zallet na-ejikwa akụkụ obere akpa ahụ.
+- Ị na-anya Zallet site na akara iwu na `zallet rpc <command>`, dịka ị jiri mee ihe `zcash-cli` tupu.
+- Arụmụka ọ bụla mgbe aha iwu gasịrị ga-abụrịrị JSON ziri ezi, nke pụtara na uru eriri na-edobe nhota abụọ ha.
+- Zallet dị na beta. Iwu nwere ike ịgbanwe n'etiti mwepụta, ọ bụghịkwa zcashd RPC ọ bụla ka ebuferela.
 
-## Nkọwa nke isi ihe dị na ya.
+## Nkọwa Isi
 
-Zallet na-ekpughe ọrụ ya site na JSON-RPC, otu ụdị interface nke obere akpa zcashd ji. Ihe ọ bụla ịchọrọ ka obere akpa ahụ mee  lelee nguzozi, mepụta akaụntụ, zipu ụgwọ echekwara  bụ iwu ị gafere n'aka onye isi ego gị ma nyefee ha ndị ọzọ iji nweta ozi dị mkpa maka azụmahịa gị. `zallet rpc`.
+Zallet na-ekpughe ọrụ ya site na JSON-RPC, otu ụdị interface ahụ nke obere akpa zcashd ji. Ihe ọ bụla ịchọrọ ka obere akpa ahụ mee - lelee nguzozi, mepụta akaụntụ, ziga ụgwọ echekwara - bụ iwu ị na-enyefe na ya `zallet rpc`.
 
-Ihe abụọ dị iche na nke ochie ahụ bụ: `zcash-cli` habit and account for most early mistakes. First, arguments must be valid JSON rather than bare text, so a string argument carries its own quotation marks inside the shell quotes. Second, the set of available commands depends on which alpha release you are running, so the list built into your binary is more reliable than any written page, including this one.
+Ihe abụọ dị iche na nke ochie `zcash-cli` omume ma kọwaa ọtụtụ mmejọ mbụ. Nke mbụ, arụmụka ga-abụrịrị JSON ziri ezi kama ederede efu, yabụ arụmụka eriri nwere akara nhota nke ya n'ime nhota shei. Nke abụọ, usoro iwu dịnụ dabere na ntọhapụ beta ị na-agba, yabụ ndepụta etinyere n'ime binary gị dị mma karịa ibe ederede ọ bụla, gụnyere nke a.
 
-Iji depụta RPC niile dịnụ:
+Iji depụta RPC niile dị:
 
 ```bash
 zallet rpc help
 ```
 
-Iji nweta enyemaka zuru ezu maka otu RPC:
+Iji nweta enyemaka zuru ezu maka otu RPC akọwapụtara:
 
 ```bash
 zallet rpc help '"<command>"'
 ```
 
-> ** Ihe dị mkpa:** Ọ bụla arụmụka mgbe usoro aha ** ga-abụrịrị JSON ziri ezi. 
-> A ghaghị ide ụkpụrụ eriri dị ka: `"value"` (gụnyere ihe odide abụọ ahụ e dere ede).
+> **Dị mkpa:** Arụmụka ọ bụla e tinyere aha usoro ahụ n'ime ya **ga-abụrịrị JSON**. 
+> A ga-ederịrị uru eriri dị ka `"value"` (gụnyere okwu abụọ ahụ).
 
-## Ihe Ndị A Na-emekarịhie Emeghị
+## Mmejọ Ndị A Na-emekarị
 
-- ** Ịhapụ ntinye aka n'ime ihe arụmụka. ** `zallet rpc validateaddress u1abc...` ada, n'ihi na adreesị ga-abata dị ka JSON. Ọ chọrọ ide ya `'"u1abc..."'`.
-- **Assuming every zcashd RPC exists here.** Porting is still in progress. Some methods behave identically, some need different usage, and some will not be carried over at all.
-- ** Na-emeso ibe a dị ka ikike karịa ọnụọgụ abụọ gị.** Zallet nọ na alpha ma na -agagharị ngwa ngwa. Mgbe iwu ebe a anaghị arụ ọrụ, lelee `zallet rpc help` tupu i chee na o nwere ihe mebiri emebi.
-- ** Na-atụ anya Zallet ka ọ bụrụ ọnụ.** Ọ bụ obere akpa ego nke ụzọ abụọ ahụ. Zebra na - agbazi node, ma Zallet na - agwa ya okwu.
+- **Ịtụnye okwu ndị dị n'ime n'arụmụka eriri.** `zallet rpc validateaddress u1abc...` ada ada, n'ihi na adreesị ahụ ga-erute dị ka JSON. Ọ dị mkpa ka e dee ya ede `'"u1abc..."'`.
+- **Echere na RPC niile dị ebe a.** A ka na-ebufe ihe. Ụfọdụ ụzọ na-akpa otu ụzọ, ụfọdụ chọrọ ojiji dị iche, ụfọdụ agaghịkwa ebufe ya ma ọlị.
+- **Na-emeso ibe a dị ka ihe a pụrụ ịtụkwasị obi n'elu ihe abụọ gị.** Zallet dị na beta ma na-aga ngwa ngwa. Mgbe iwu ebe a anaghị arụ ọrụ, lelee `zallet rpc help` tupu e chee na ihe emebiela.
+- **Ana m atụ anya na Zallet ga-abụ otu.** Ọ bụ ọkara obere akpa nke abụọ ahụ. Zebra na-agba ọsọ otu ahụ, Zallet na-agwakwa ya okwu.
 
 ## Iwu RPC
 
-### decoderawtransaction (n'asụsụ Bekee)
+### decoderawtransaction
 
 ```bash
 zallet rpc decoderawtransaction '"<hexstring>"'
 ```
 
-| Parameter   | Ụdị   | A chọrọ | Nkọwa              |
+| Paramita   | Ụdị   | A chọrọ | Nkọwa              |
 |-------------|--------|----------|--------------------------|
-| hexstring   | string | ee      | Eriri hex azụmahịa   |
+| hexstring   | eriri | ee      | Eriri hex azụmahịa   |
 
 ---
 
-### decodecript (n'asụsụ Bekee)
+### dekodee edemede
 
 ```bash
 zallet rpc decodescript '"<hexstring>"'
 ```
 
-| Parameter   | Ụdị   | A chọrọ | Nkọwa     |
+| Paramita   | Ụdị   | A chọrọ | Nkọwa     |
 |-------------|--------|----------|-----------------|
-| hexstring   | string | ee      | Hex edemede      |
+| hexstring   | eriri | ee      | Hex edemede      |
 
 ---
 
-### nweta azụmahịa
+### azụmahịa dị mfe
 
 ```bash
 zallet rpc getrawtransaction '"<txid>"' [verbose] ['"<blockhash>"']
 ```
 
-| Parameter  | Ụdị   | A chọrọ | Ntọala ndabara | Nkọwa                          |
+| Paramita  | Ụdị   | A chọrọ | Ntọala ndabara | Nkọwa                          |
 |------------|--------|----------|---------|--------------------------------------|
-| txid       | string | ee      |         | NJ Azụmahịa                       |
-| verbose    | number | no       | 0       | `0` = hex, na-abụghị efu = ihe JSON    |
-| blockhash  | string | no       |         | Machibido ọchụchọ na ngọngọ a        |
+| txid       | eriri | ee      |         | NJ Azụmahịa                       |
+| verbose    | nọmba | no       | 0       | `0` = hex, na-abụghị efu = ihe JSON    |
+| blockhash  | eriri | no       |         | Machibido ọchụchọ na ngọngọ a        |
 
 ---
 
-### nweta ozi wallet
+### ozi getwalletinfo
 
 ```bash
 zallet rpc getwalletinfo
 ```
 
-Enweghị ihe ọ bụla.
+Enweghị paramita.
 
 ---
 
-### nweta ọnọdụ wallet
+### ọnọdụ getwallet
 
 ```bash
 zallet rpc getwalletstatus
 ```
 
-Enweghị ihe ọ bụla.
+Enweghị paramita.
 
 ---
 
-### ndepụta adreesị
+### adreesị ndepụta
 
 ```bash
 zallet rpc listaddresses
 ```
 
-Enweghị ihe ọ bụla.
+Enweghị paramita.
 
 ---
 
-### rpc.chọpụta ihe
+### rpc.chọpụta
 
 ```bash
 zallet rpc rpc.discover
 ```
 
-Enweghị ihe ọ bụla. Na-eweghachi atụmatụ OpenRPC .
+Enweghị paramita. Ọ na-eweghachi atụmatụ OpenRPC.
 
 ---
 
-### Kwụsị .
+### Kwụsị
 
 ```bash
 zallet rpc stop
 ```
 
-Enweghị ihe ọ bụla. (Regtest naanị)
+Enweghị paramita. (Nnwale ndebanye aha naanị)
 
 ---
 
-### nyochaaadreesị
+### adreesị nkwenye
 
 ```bash
 zallet rpc validateaddress '"<address>"'
 ```
 
-| Parameter | Ụdị   | A chọrọ | Nkọwa             |
+| Paramita | Ụdị   | A chọrọ | Nkọwa             |
 |-----------|--------|----------|-------------------------|
-| address   | string | ee      | Adreesị doro anya     |
+| address   | eriri | ee      | Adreesị doro anya     |
 
 ---
 
@@ -148,334 +148,334 @@ zallet rpc validateaddress '"<address>"'
 zallet rpc verifymessage '"<address>"' '"<signature>"' '"<message>"'
 ```
 
-| Parameter  | Ụdị   | A chọrọ | Nkọwa             |
+| Paramita  | Ụdị   | A chọrọ | Nkọwa             |
 |------------|--------|----------|-------------------------|
-| address    | string | ee      | Adreesị doro anya     |
-| signature  | string | ee      | Mbinye aka nke Base64        |
-| message    | string | ee      | Ozi izizi        |
+| address    | eriri | ee      | Adreesị doro anya     |
+| signature  | eriri | ee      | Mbinye aka nke Base64        |
+| message    | eriri | ee      | Ozi izizi        |
 
 ---
 
-### mkpọchi akpa ego (walletlock)
+### obere akpa ego
 
 ```bash
 zallet rpc walletlock
 ```
 
-Enweghị ihe ọ bụla.
+Enweghị paramita.
 
 ---
 
-### okwu paswọọdụ wallet
+### okwuntughe obere akpa
 
 ```bash
 zallet rpc walletpassphrase '"<passphrase>"' <timeout>
 ```
 
-| Parameter   | Ụdị   | A chọrọ | Nkọwa                          |
+| Paramita   | Ụdị   | A chọrọ | Nkọwa                          |
 |-------------|--------|----------|--------------------------------------|
-| passphrase  | string | ee      | Okwuntughe obere akpa                    |
-| timeout     | number | ee      | Sekọnd iji mee ka obere akpa ahụ mechie  |
+| passphrase  | eriri | ee      | Okwuntughe obere akpa                    |
+| timeout     | nọmba | ee      | Sekọnd iji mee ka obere akpa ahụ ghara imechi  |
 
 ---
 
-### z_converttex (n'asụsụ Bekee)
+### z_converttex
 
 ```bash
 zallet rpc z_converttex '"<transparent_address>"'
 ```
 
-| Parameter             | Ụdị   | A chọrọ | Nkọwa                |
+| Paramita             | Ụdị   | A chọrọ | Nkọwa                |
 |-----------------------|--------|----------|----------------------------|
-| transparent_address   | string | ee      | Adreesị P2PKH iji gbanwee   |
+| transparent_address   | eriri | ee      | Adreesị P2PKH iji gbanwee   |
 
 ---
 
-### z_exportkey (igodo mbupụ)
+### igodo z_export
 
 ```bash
 zallet rpc z_exportkey '"<sapling_address>"'
 ```
 
-| Parameter | Ụdị   | A chọrọ | Nkọwa                                      |
+| Paramita | Ụdị   | A chọrọ | Nkọwa                                      |
 |-----------|--------|----------|--------------------------------------------------|
-| address   | string | ee      | Adreesị Sapling nke ego ya dị mkpa maka mbupụ     |
+| address   | eriri | ee      | Adreesị Sapling nke ego ya dị mkpa maka mbupụ     |
 
-> A ghaghị ịmeghe obere akpa ahụ. Ọ na-ebupụ naanị Sapling mmefu ego isi ihe.
+> A ga-emepe obere akpa ego. Naanị ihe dị mkpa bụ ibupu ego Sapling.
 
 ---
 
-### z_getaccount (n'asụsụ Bekee)
+### akaụntụ z_get
 
 ```bash
 zallet rpc z_getaccount '"<account_uuid>"'
 ```
 
-| Parameter     | Ụdị   | A chọrọ | Nkọwa     |
+| Paramita     | Ụdị   | A chọrọ | Nkọwa     |
 |---------------|--------|----------|-----------------|
-| account_uuid  | string | ee      | UUID Akaụntụ    |
+| account_uuid  | eriri | ee      | UUID Akaụntụ    |
 
 ---
 
-### z_getaddressforaccount (Nweta adreesị maka akaụntụ)
+### akaụntụ z_getaddressforakaụntụ
 
 ```bash
 zallet rpc z_getaddressforaccount <account> ['["p2pkh","sapling","orchard"]'] [<diversifier_index>]
 ```
 
-| Parameter          | Ụdị            | A chọrọ | Nkọwa                              |
+| Paramita          | Ụdị            | A chọrọ | Nkọwa                              |
 |--------------------|-----------------|----------|------------------------------------------|
-| account            | string / number | ee      | Ndepụta akaụntụ UUID ma ọ bụ ZIP-32 UUID akaụntụ     |
+| account            | eriri / nọmba | ee      | Ndepụta akaụntụ UUID ma ọ bụ ZIP-32 UUID akaụntụ     |
 | receiver_types     | usoro nke eriri | no       | Ụdị nnata ga-agụnye                |
-| diversifier_index  | number          | no       | Ndepụta ihe dị iche iche kpọmkwem               |
+| diversifier_index  | nọmba          | no       | Ndepụta ihe dị iche iche kpọmkwem               |
 
 ---
 
-### z_get balanceforaccount (nweta nguzozi maka akaụntụ)
+### akaụntụ z_getbalancefor
 
 ```bash
 zallet rpc z_getbalanceforaccount <account> [<minconf>]
 ```
 
-| Parameter | Ụdị            | A chọrọ | Ntọala ndabara | Nkọwa                      |
+| Paramita | Ụdị            | A chọrọ | Ntọala ndabara | Nkọwa                      |
 |-----------|-----------------|----------|---------|----------------------------------|
-| account   | string / number | ee      |         | UUID ma ọ bụ ndeksi ZIP-32 nke akaụntụ     |
-| minconf   | number          | no       | 1       | Nkwenye kacha nta            |
+| account   | eriri / nọmba | ee      |         | UUID ma ọ bụ ndeksi ZIP-32 nke akaụntụ     |
+| minconf   | nọmba          | no       | 1       | Nkwenye kacha nta            |
 
 ---
 
-### z_getbalances (n'asụsụ Bekee)
+### nhazi z_get
 
 ```bash
 zallet rpc z_getbalances [<minconf>]
 ```
 
-| Parameter | Ụdị   | A chọrọ | Ntọala ndabara | Nkọwa               |
+| Paramita | Ụdị   | A chọrọ | Ntọala ndabara | Nkọwa               |
 |-----------|--------|----------|---------|---------------------------|
-| minconf   | number | no       | 1       | Nkwenye kacha nta     |
+| minconf   | nọmba | no       | 1       | Nkwenye kacha nta     |
 
 ---
 
-### z_getnewaccount (Nke ọhụrụ)
+### akaụntụ z_getnewa
 
 ```bash
 zallet rpc z_getnewaccount '"<account_name>"' ['"<seedfp>"']
 ```
 
-| Parameter     | Ụdị   | A chọrọ | Nkọwa                              |
+| Paramita     | Ụdị   | A chọrọ | Nkọwa                              |
 |---------------|--------|----------|------------------------------------------|
-| account_name  | string | ee      | Aha mmadụ nwere ike ịgụ                      |
-| seedfp        | string | no       | A chọrọ ma ọ bụrụ na obere akpa nwere ọtụtụ mkpụrụ    |
+| account_name  | eriri | ee      | Aha mmadụ nwere ike ịgụ                      |
+| seedfp        | eriri | no       | A chọrọ ma ọ bụrụ na obere akpa nwere ọtụtụ mkpụrụ    |
 
 ---
 
-### z_getnotescount (Nkọwapụta)
+### ọnụ ahịa z_getnotes
 
 ```bash
 zallet rpc z_getnotescount [<minconf>] [<as_of_height>]
 ```
 
-| Parameter     | Ụdị   | A chọrọ | Ntọala ndabara | Nkọwa                          |
+| Paramita     | Ụdị   | A chọrọ | Ntọala ndabara | Nkọwa                          |
 |---------------|--------|----------|---------|--------------------------------------|
-| minconf       | number | no       | 1       | Nkwenye kacha nta                |
-| as_of_height  | number | no       |         | Ajụjụ gbasara ịdị elu a (`-1` = isi) |
+| minconf       | nọmba | no       | 1       | Nkwenye kacha nta                |
+| as_of_height  | nọmba | no       |         | Ajụjụ gbasara ịdị elu a (`-1` = isi) |
 
 ---
 
-### z_getoperationresult (ihe ga-esi n'ọrụ pụta)
+### nsonaazụ z_getoperation
 
 ```bash
 zallet rpc z_getoperationresult ['["opid1","opid2"]']
 ```
 
-| Parameter    | Ụdị            | A chọrọ | Nkọwa                              |
+| Paramita    | Ụdị            | A chọrọ | Nkọwa                              |
 |--------------|-----------------|----------|------------------------------------------|
 | operationid  | usoro nke eriri | no       | NJ ọrụ (ewepụla maka ihe niile emechara)    |
 
 ---
 
-### z_getoperationstatus (Ọnọdụ ọrụ)
+### ọnọdụ z_getoperation
 
 ```bash
 zallet rpc z_getoperationstatus ['["opid1","opid2"]']
 ```
 
-| Parameter    | Ụdị            | A chọrọ | Nkọwa                    |
+| Paramita    | Ụdị            | A chọrọ | Nkọwa                    |
 |--------------|-----------------|----------|--------------------------------|
 | operationid  | usoro nke eriri | no       | NJ ọrụ (ewepụla maka mmadụ niile)   |
 
 ---
 
-### z_gettotal nguzozi
+### nhazi z_gettotal
 
 ```bash
 zallet rpc z_gettotalbalance [<minconf>] [<include_watchonly>]
 ```
 
-| Parameter          | Ụdị    | A chọrọ | Ntọala ndabara | Nkọwa                     |
+| Paramita          | Ụdị    | A chọrọ | Ntọala ndabara | Nkọwa                     |
 |--------------------|---------|----------|---------|---------------------------------|
-| minconf            | number  | no       | 1       | Nkwenye kacha nta           |
-| include_watchonly  | boolean | no       | false   | Gụnye nhazi elekere naanị     |
+| minconf            | nọmba  | no       | 1       | Nkwenye kacha nta           |
+| include_watchonly  | Boolean | no       | ụgha   | Gụnye nhazi elekere naanị     |
 
 ---
 
-### z_importaddress (Nke a bụ ihe dị mkpa)
+### adreesị mbubata z
 
 ```bash
 zallet rpc z_importaddress '"<account_uuid>"' '"<hex_data>"' [<rescan>]
 ```
 
-| Parameter  | Ụdị    | A chọrọ | Ntọala ndabara | Nkọwa                          |
+| Paramita  | Ụdị    | A chọrọ | Ntọala ndabara | Nkọwa                          |
 |------------|---------|----------|---------|--------------------------------------|
-| account    | string  | ee      |         | UUID Akaụntụ                         |
-| hex_data   | string  | ee      |         | Igodo ọha Hex ma ọ bụ edemede mgbapụta      |
-| rescan     | boolean | no       | true    | Nyochagharịa mgbe ebubatara ya                  |
+| account    | eriri  | ee      |         | UUID Akaụntụ                         |
+| hex_data   | eriri  | ee      |         | Igodo ọha Hex ma ọ bụ edemede mgbapụta      |
+| rescan     | Boolean | no       | eziokwu    | Nyochagharịa mgbe ebubatara ya                  |
 
 ---
 
-### z_importkey (igodo mbubata)
+### igodo z_import
 
 ```bash
 zallet rpc z_importkey '"<key>"' ['"<rescan>"'] [<start_height>]
 ```
 
-| Parameter     | Ụdị   | A chọrọ | Ntọala ndabara        | Nkọwa                              |
+| Paramita     | Ụdị   | A chọrọ | Ntọala ndabara        | Nkọwa                              |
 |---------------|--------|----------|----------------|------------------------------------------|
-| key           | string | ee      |                | Igodo mmefu agbatịkwuru Sapling            |
-| rescan        | string | no       | `"whenkeyisnew"` | `"yes"`, `"no"`, or `"whenkeyisnew"`   |
-| start_height  | number | no       | 0              | Nyochagharịa ogologo mmalite                      |
+| key           | eriri | ee      |                | Igodo mmefu agbatịkwuru Sapling            |
+| rescan        | eriri | no       | `"whenkeyisnew"` | `"yes"`, `"no"`, or `"whenkeyisnew"`   |
+| start_height  | nọmba | no       | 0              | Nyochagharịa ogologo mmalite                      |
 
 ---
 
-### z_listaakaụntụ
+### akaụntụ z_list
 
 ```bash
 zallet rpc z_listaccounts [<include_addresses>]
 ```
 
-| Parameter          | Ụdị    | A chọrọ | Ntọala ndabara | Nkọwa                              |
+| Paramita          | Ụdị    | A chọrọ | Ntọala ndabara | Nkọwa                              |
 |--------------------|---------|----------|---------|------------------------------------------|
-| include_addresses  | boolean | no       | true    | Weghachitekwa adreesị maka akaụntụ ọ bụla   |
+| include_addresses  | Boolean | no       | eziokwu    | Weghachitekwa adreesị maka akaụntụ ọ bụla   |
 
 ---
 
-### z_listoperationids ihe na-eme ka mmadụ ghara ịrụ ọrụ nke ọma.
+### z_listoperativeids
 
 ```bash
 zallet rpc z_listoperationids ['"<status>"']
 ```
 
-| Parameter | Ụdị   | A chọrọ | Nkọwa                          |
+| Paramita | Ụdị   | A chọrọ | Nkọwa                          |
 |-----------|--------|----------|--------------------------------------|
-| status    | string | no       | Nyocha site na ọnọdụ (dịka ọmụmaatụ) `"success"`)  |
+| status    | eriri | no       | Nyocha site na ọnọdụ (dịka ọmụmaatụ) `"success"`)  |
 
 ---
 
-### z_listtransactions (n'asụsụ Bekee)
+### z_listazụmahịa
 
 ```bash
 zallet rpc z_listtransactions ['"<account_uuid>"'] [<start_height>] [<end_height>] [<offset>] [<limit>]
 ```
 
-| Parameter      | Ụdị   | A chọrọ | Nkọwa                  |
+| Paramita      | Ụdị   | A chọrọ | Nkọwa                  |
 |----------------|--------|----------|------------------------------|
-| account_uuid   | string | no       | Oke na otu akaụntụ         |
-| start_height   | number | no       | Oke ala gụnyere        |
-| end_height     | number | no       | Oke elu pụrụ iche        |
-| offset         | number | no       | Wụpụ ọtụtụ nsonaazụ a       |
-| limit          | number | no       | Nsonaazụ kachasị elu ị ga-eweghachi    |
+| account_uuid   | eriri | no       | Oke na otu akaụntụ         |
+| start_height   | nọmba | no       | Oke ala gụnyere        |
+| end_height     | nọmba | no       | Oke elu pụrụ iche        |
+| offset         | nọmba | no       | Wụpụ ọtụtụ nsonaazụ a       |
+| limit          | nọmba | no       | Nsonaazụ kachasị elu ị ga-eweghachi    |
 
 ---
 
-### z_list ndị na-anata ozi n'otu oge.
+### ndị nnata z_listunified
 
 ```bash
 zallet rpc z_listunifiedreceivers '"<unified_address>"'
 ```
 
-| Parameter         | Ụdị   | A chọrọ | Nkọwa                  |
+| Paramita         | Ụdị   | A chọrọ | Nkọwa                  |
 |-------------------|--------|----------|------------------------------|
-| unified_address   | string | ee      | Unified Address iji lelee anya   |
+| unified_address   | eriri | ee      | Adreesị e jikọtara ọnụ iji lelee anya   |
 
 ---
 
-### z_listunspent (ndekọ aha ndị a na-ejighị mee ihe)
+### z_listunspent
 
 ```bash
 zallet rpc z_listunspent [<minconf>] [<maxconf>] [<include_watchonly>] ['["addr1","addr2"]'] [<as_of_height>]
 ```
 
-| Parameter          | Ụdị            | A chọrọ | Ntọala ndabara | Nkọwa                          |
+| Paramita          | Ụdị            | A chọrọ | Ntọala ndabara | Nkọwa                          |
 |--------------------|-----------------|----------|---------|--------------------------------------|
-| minconf            | number          | no       | 1       | Nkwenye kacha nta                |
-| maxconf            | number          | no       | ∞       | Nkwenye kachasị elu                |
-| include_watchonly  | boolean         | no       | false   | Gụnye naanị elekere-naanị                   |
+| minconf            | nọmba          | no       | 1       | Nkwenye kacha nta                |
+| maxconf            | nọmba          | no       | ∞       | Nkwenye kachasị elu                |
+| include_watchonly  | Boolean         | no       | ụgha   | Gụnye naanị elekere-naanị                   |
 | addresses          | usoro nke eriri | no       |         | Nyocha na adreesị ndị a            |
-| as_of_height       | number          | no       |         | Ajụjụ gbasara ịdị elu a              |
+| as_of_height       | nọmba          | no       |         | Ajụjụ gbasara ịdị elu a              |
 
 ---
 
-### z_akaụntụ mgbake
+### akaụntụ z_recover
 
 ```bash
 zallet rpc z_recoveraccounts '[{"name":"...","seedfp":"...","zip32_account_index":0,"birthday_height":123456}]'
 ```
 
-| Parameter | Ụdị  | A chọrọ | Nkọwa                                                                 |
+| Paramita | Ụdị  | A chọrọ | Nkọwa                                                                 |
 |-----------|-------|----------|-----------------------------------------------------------------------------|
-| accounts  | array | ee      | Usoro ihe dị iche iche: `name`, `seedfp`, `zip32_account_index`, `birthday_height` |
+| accounts  | usoro | ee      | Usoro ihe dị iche iche: `name`, `seedfp`, `zip32_account_index`, `birthday_height` |
 
 ---
 
-### z_sendmany (Nke a bụ ihe m chọrọ)
+### z_sendmany
 
 ```bash
 zallet rpc z_sendmany '"<fromaddress>"' '[{"address":"...","amount":1.23,"memo":"..."}]' [<minconf>] [null] ['"<privacy_policy>"']
 ```
 
-| Parameter        | Ụdị            | A chọrọ | Ntọala ndabara         | Nkọwa                                      |
+| Paramita        | Ụdị            | A chọrọ | Ntọala ndabara         | Nkọwa                                      |
 |------------------|-----------------|----------|-----------------|--------------------------------------------------|
-| fromaddress      | string          | ee      |                 | Adreesị ebe ma ọ bụ `"ANY_TADDR"`                  |
+| fromaddress      | eriri          | ee      |                 | Adreesị ebe ma ọ bụ `"ANY_TADDR"`                  |
 | amounts          | usoro ihe | ee      |                 | Ndị nnata (`address`, `amount`, nhọrọ `memo`)|
-| minconf          | number          | no       |                 | Nkwenye kacha nta                            |
-| fee              | null            | no       |                 | Ga-abụrịrị `null` (ZIP-317 only)                    |
-| privacy_policy   | string          | no       | `"FullPrivacy"` | Usoro amụma nzuzo                            |
+| minconf          | nọmba          | no       |                 | Nkwenye kacha nta                            |
+| fee              | efu            | no       |                 | Ga-abụrịrị `null` (ZIP-317 only)                    |
+| privacy_policy   | eriri          | no       | `"FullPrivacy"` | Usoro amụma nzuzo                            |
 
 ---
 
-### z_shieldcoinbase (n'asụsụ Bekee)
+### ntọala z_shieldcoin
 
 ```bash
 zallet rpc z_shieldcoinbase '"<fromaddress_or_account_uuid>"' '"<toaddress>"' [null] [<limit>] ['"<memo_hex>"'] ['"<privacy_policy>"']
 ```
 
-| Parameter        | Ụdị   | A chọrọ | Nkọwa                                      |
+| Paramita        | Ụdị   | A chọrọ | Nkọwa                                      |
 |------------------|--------|----------|--------------------------------------------------|
-| fromaddress      | string | ee      | Adreesị ma ọ bụ akaụntụ doro anya UUID              |
-| toaddress        | string | ee      | Ebe a na-eche nche                             |
-| fee              | null   | no       | Ga-abụrịrị `null`                                   |
-| limit            | number | no       | Ọnụọgụ kachasị elu nke UTXO coinbase iji chebe           |
-| memo             | string | no       | Ndepụta ederede nke e tinyere koodu hex                                 |
-| privacy_policy   | string | no       | `AllowRevealedSenders` or `AllowLinkingAccountAddresses` |
+| fromaddress      | eriri | ee      | Adreesị ma ọ bụ akaụntụ doro anya UUID              |
+| toaddress        | eriri | ee      | Ebe a na-eche nche                             |
+| fee              | efu   | no       | Ga-abụrịrị `null`                                   |
+| limit            | nọmba | no       | Ọnụọgụ kachasị elu nke UTXO coinbase iji chebe           |
+| memo             | eriri | no       | Ndepụta ederede nke e tinyere koodu hex                                 |
+| privacy_policy   | eriri | no       | `AllowRevealedSenders` or `AllowLinkingAccountAddresses` |
 
 ---
 
-### z_viewtransaction (n'asụsụ Igbo)
+### azụmahịa z_view
 
 ```bash
 zallet rpc z_viewtransaction '"<txid>"'
 ```
 
-| Parameter | Ụdị   | A chọrọ | Nkọwa     |
+| Paramita | Ụdị   | A chọrọ | Nkọwa     |
 |-----------|--------|----------|-----------------|
-| txid      | string | ee      | NJ Azụmahịa  |
+| txid      | eriri | ee      | NJ Azụmahịa  |
 
 ---
 
 ## Peeji ndị metụtara ya
 
-- [Ntuziaka Mbugharị: Zcashd na Zebrad na Zallet](/guides/migration-guide-zcashd-to-zebrad-zallet)  nzọụkwụ site na-nzọụkwụ aga si ẹdude zcashd ntọlite
-- [Zebra Full Node (Nọmba zuru ezu)](/zcash-tech/zebra-full-node)  mmejuputa iwu nke Zallet na-arụ ọrụ n'akụkụ ya.
-- [Nọmba zuru ezu](/zcash-tech/full-nodes)  ihe na-agba ọsọ a zuru ọnụ gụnyere na ihe mere ị ga-achọ otu
-- [Akpa ego](/using-zcash/wallets)  nhọrọ obere akpa dị mfe ma ọ bụrụ na ọnụ ọgụgụ zuru ezu karịrị ihe ị chọrọ
-- [Ihe ndị e mere eme](/using-zcash/transactions)  otú azụmahịa ndị e chebere na nke a na-ahụ anya si dị iche
+- [Nduzi Mbugharị: zcashd gaa Zebrad na Zallet](/guides/migration-guide-zcashd-to-zebrad-zallet) - nzọụkwụ site na nhazi zcashd dị adị
+- [Zebra zuru oke](/zcash-tech/zebra-full-node) — Mmejuputa node Zallet na-arụ ọrụ n'akụkụ
+- [Ọnụ zuru ezu](/zcash-tech/full-nodes) — ihe ịgba ọsọ n'otu n'otu gụnyere na ihe kpatara ị ga-eji chọọ otu
+- [Obere akpa](/using-zcash/wallets) - nhọrọ obere akpa ma ọ bụrụ na node zuru oke karịrị ihe ịchọrọ
+- [Azụmahịa](/using-zcash/transactions) - otu azụmahịa echekwara na nke doro anya si dị iche

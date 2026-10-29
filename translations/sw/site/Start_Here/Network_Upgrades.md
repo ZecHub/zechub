@@ -17,13 +17,13 @@ Kwa hadithi inayoonekana ya jinsi faragha Zcash's imebadilika katika maboresho h
 | [NU6.1](../zcash-tech/nu6-1) | Novemba 24, 2025 | 3,146,400 | 4dec4df0 | Utawala wa jamii na wenye sarafu wa ufadhili huo |
 | [NU6.2](../zcash-tech/nu6-2) | Juni 3, 2026 | 3,364,600 | 5437f330 | Marekebisho ya dharura yaliyorekebisha mzunguko wa Orchard |
 | [Ironwood (NU6.3)](../zcash-tech/ironwood) | Julai 28, 2026 | 3,428,143 | 37a5165b | Bwawa la kuogelea Ironwood na sehemu ya kugeuza ya umma inayomruhusu mtu yeyote kukagua usambazaji |
-| **NU7** (inayokuja) | Testnet: 4 Okt 2026; Mainnet: inayolengwa 5 Nov 2026 | Mtandao wa Majaribio: 4,465,026; Mtandao Mkuu: TBD (seti 20 Okt) | 77190ad9 | Vitalu vya sekunde 25 (ZIP 218), kuchakata ada ya NSM (ZIP 235+237), Sprout retirement (ZIP 2003) |
+| **NU7** (inayokuja) | Testnet: 4 Okt 2026; Mainnet: walengwa 5 Nov 2026 | Mtandao wa Majaribio: 4,465,026; Mtandao Mkuu: 3,543,405 | 77190ad9 | Vitalu vya sekunde 25 (ZIP 218), kuchakata ada ya NSM (ZIP 235+237), Sprout retirement (ZIP 2003) |
 
 Tarehe zinaonyeshwa katika UTC. Baadhi ya dashibodi huzionyesha katika saa za ndani, ambazo ni kizuizi sawa na wakati mmoja. Kichocheo kisichobadilika kwa kila sasisho ni urefu wake wa kizuizi cha uanzishaji, sio tarehe ya kalenda.
 
 ### Hali ya NU7
 
-NU7 inapatikana moja kwa moja kwenye Testnet ya umma kwa urefu wa **4,465,026** (imeamilishwa tarehe 4 Oktoba 2026). Urefu wa uanzishaji wa Mainnet utachaguliwa tarehe **20 Oktoba 2026**; lengo la sasa ni **5 Novemba 2026**.
+NU7 inapatikana moja kwa moja kwenye Testnet ya umma kwa urefu wa **4,465,026** (imeamilishwa tarehe 4 Oktoba 2026). Urefu wa uanzishaji wa Mainnet ni **3,543,405** ([ZIP 259](https://zips.z.cash/zip-0259)), inayolengwa kwa **5 Novemba 2026**.
 
 Upeo (ZIP 259):
 

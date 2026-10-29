@@ -6,17 +6,17 @@
 
 ## TL;DR
 
-- Zallet yɛ Zcash sika kotoku a ɛwɔ node nyinaa a wɔakyerɛw wɔ Rust mu. Ɛsesa sika kotoku a kan no na ɛte zcashd mu no.
+- Zallet yɛ Zcash sika kotoku a ɛwɔ node nyinaa a wɔakyerɛw wɔ Rust. Ɛsesa sika kotoku a kan no na ɛte zcashd.
 - zcashd duu ne End-of-Support gyinabea wɔ 18 July 2026 na ɛnkɔ so bio. Seesei Zebra di node afã no ho dwuma; Zallet di sika kotoku no fã ho dwuma.
 - Wode Zallet fi ahyɛde kwan no so `zallet rpc <command>`, sɛnea wode dii dwuma no ara pɛ `zcash-cli` ansa na.
 - Ɛsɛ sɛ akyinnyegye biara a ɛwɔ ahyɛde din no akyi no yɛ JSON a ɛfata, a ɛkyerɛ sɛ ahama botae ahorow no sie wɔn nsɛm a wɔafa aka abien no so.
-- Zallet da so ara wɔ alpha mu. Ahyɛdeɛ tumi sesa wɔ releases ntam, na ɛnyɛ zcashd RPC biara na wɔde akɔfa so de besi nnɛ.
+- Zallet wɔ beta mu. Ahyɛdeɛ tumi sesa wɔ releases ntam, na ɛnyɛ zcashd RPC biara na wɔde akɔfa so de besi nnɛ.
 
 ## Nkyerɛkyerɛmu Titiriw
 
-Zallet nam JSON-RPC so da ne dwumadie adi, interface style korɔ no ara a zcashd sika kotokuo de dii dwuma. Biribiara a wopɛ sɛ sika kotoku no yɛ — hwɛ sika a aka, yɛ akontaabu, de sikatua a wɔabɔ ho ban mena — yɛ ahyɛde a wobɛfa so `zallet rpc`.
+Zallet nam JSON-RPC so da ne dwumadie adi, interface style korɔ no ara a zcashd kotokuo de dii dwuma. Biribiara a wopɛ sɛ sika kotoku no yɛ — hwɛ sika a aka, yɛ akontaabu, de sikatua a wɔabɔ ho ban mena — yɛ ahyɛde a wobɛfa so `zallet rpc`.
 
-Nneɛma abien na ɛsono nea ɛwɔ hɔ dedaw no `zcash-cli` su na ɛde mfomso dodow no ara a wodi ntɛm no ho akontaa. Nea edi kan no, ɛsɛ sɛ akyinnyegye ahorow yɛ JSON a ɛfata sen sɛ ɛbɛyɛ nkyerɛwee a ɛda hɔ kwa, enti ahama akyinnyegye de n’ankasa nsɛm a wɔafa aka agyiraehyɛde kɔ shell nsɛm a wɔafa aka no mu. Nea ɛto so abien, ahyɛde ahorow a ɛwɔ hɔ no gyina alpha release a woreyɛ so, enti list a wɔde ahyɛ wo binary no mu no yɛ nea wotumi de ho to so sen kratafa biara a wɔakyerɛw, a eyi ka ho.
+Nneɛma abien na ɛsono nea ɛwɔ hɔ dedaw no `zcash-cli` su na ɛde mfomso dodow no ara a wodi ntɛm no ho akontaa. Nea edi kan no, ɛsɛ sɛ akyinnyegye yɛ JSON a ɛfata sen sɛ ɛbɛyɛ nkyerɛwee a ɛda hɔ kwa, enti ahama akyinnyegye de n’ankasa nsɛm a wɔafa aka agyiraehyɛde kɔ shell nsɛm a wɔafa aka no mu. Nea ɛto so abien, ahyɛde ahorow a ɛwɔ hɔ no gyina beta release a woreyɛ so, enti list a wɔde ahyɛ wo binary no mu no yɛ nea wotumi de ho to so sen kratafa biara a wɔakyerɛw, a eyi ka ho.
 
 Sɛ wopɛ sɛ wokyerɛw RPC ahorow a ɛwɔ hɔ nyinaa din a:
 
@@ -31,13 +31,13 @@ zallet rpc help '"<command>"'
 ```
 
 > **Ɛho hia:** Akyinnyegye biara a ɛwɔ ɔkwan din no akyi **ɛsɛ sɛ ɛyɛ JSON a ɛfata**. 
-> Ɛsɛ sɛ wɔkyerɛw string values ​​sɛ `"value"` (a nsɛm a wɔafa aka abien no ka ho).
+> Ɛsɛ sɛ wɔkyerɛw string values sɛ `"value"` (a nsɛm a wɔafa aka abien no ka ho).
 
 ## Mfomso a Ɛtaa Tu
 
-- **Wɔtow emu nsɛm a wɔafa aka no gu string arguments so.** `zallet rpc validateaddress u1abc...` di nkogu, efisɛ ɛsɛ sɛ address no du hɔ sɛ JSON. Ɛsɛ sɛ wɔkyerɛw `'"u1abc..."'`.
-- **Sɛ yɛfa no sɛ zcashd RPC biara wɔ ha.** Porting da so ara rekɔ so. Akwan bi yɛ wɔn ade pɛpɛɛpɛ, ebinom hia sɛ wɔde di dwuma wɔ ɔkwan soronko so, na ebinom nso renkɔ so koraa.
-- **Fa krataafa yi di dwuma sɛ ɛwɔ tumi wɔ wo binary so.** Zallet wɔ alpha mu na ɛkɔ ntɛmntɛm. Sɛ ahyɛde bi a ɛwɔ ha no ntumi nyɛ adwuma a, hwɛ `zallet rpc help` ansa na woafa no sɛ biribi abubu.
+- **Wɔretow emu nsɛm a wɔafa aka wɔ string arguments so.** `zallet rpc validateaddress u1abc...` di nkogu, efisɛ ɛsɛ sɛ address no du hɔ sɛ JSON. Ɛsɛ sɛ wɔkyerɛw `'"u1abc..."'`.
+- **Sɛ yɛfa no sɛ RPC biara wɔ ha.** Porting da so ara rekɔ so. Akwan bi yɛ wɔn ade pɛpɛɛpɛ, ebinom hia sɛ wɔde di dwuma wɔ ɔkwan soronko so, na ebinom nso renkɔ so koraa.
+- **Fa krataafa yi di dwuma sɛ ɛwɔ tumi wɔ wo binary so.** Zallet wɔ beta mu na ɛkɔ ntɛmntɛm. Sɛ ahyɛde bi a ɛwɔ ha no ntumi nyɛ adwuma a, hwɛ `zallet rpc help` ansa na woafa no sɛ biribi abubu.
 - **Wɔhwɛ kwan sɛ Zallet bɛyɛ node.** Ɛyɛ sika kotoku no fã a ɛwɔ baanu no mu. Zebra na ɔde node no tu mmirika, na Zallet ne no kasa.
 
 ## RPC Ahyɛdeɛ
@@ -48,9 +48,9 @@ zallet rpc help '"<command>"'
 zallet rpc decoderawtransaction '"<hexstring>"'
 ```
 
-| Parameter | Type | Wɔhwehwɛ sɛ | Nkyerɛkyerɛmu |
+| Parameter a wɔde kyerɛ   | Korɔ   | Ɛhia | Nkyerɛmu              |
 |-------------|--------|----------|--------------------------|
-| hexstring   | ahama | yiw | Nkitahodi hex ahama |
+| hexstring   | ahoma | Aane      | Nkitahodi hex ahama   |
 
 ---
 
@@ -60,9 +60,9 @@ zallet rpc decoderawtransaction '"<hexstring>"'
 zallet rpc decodescript '"<hexstring>"'
 ```
 
-| Parameter | Type | Wɔhwehwɛ sɛ | Nkyerɛkyerɛmu |
+| Parameter a wɔde kyerɛ   | Korɔ   | Ɛhia | Nkyerɛmu     |
 |-------------|--------|----------|-----------------|
-| hexstring   | ahama | yiw | Nkyerɛwee hex |
+| hexstring   | ahoma | Aane      | Nkyerɛwee hex      |
 
 ---
 
@@ -72,11 +72,11 @@ zallet rpc decodescript '"<hexstring>"'
 zallet rpc getrawtransaction '"<txid>"' [verbose] ['"<blockhash>"']
 ```
 
-| Parameter | Type | Wɔhwehwɛ sɛ | Default a ɛwɔ hɔ | Nkyerɛkyerɛmu |
+| Parameter a wɔde kyerɛ  | Korɔ   | Ɛhia | Mfiaseɛ | Nkyerɛmu                          |
 |------------|--------|----------|---------|--------------------------------------|
-| txid | ahama | yiw |         | Nkitahodi ID |
-| verbose | nɔma | dabi | 0 | `0` = hex, nea ɛnyɛ zero = JSON ade |
-| blockhash  | ahama | dabi |         | To hwehwɛ ano hye wɔ saa block yi so |
+| txid       | ahoma | Aane      |         | Nkitahodi ID                       |
+| verbose    | nɔma | no       | 0       | `0` = hex, ɛnyɛ zero = JSON ade    |
+| blockhash  | ahoma | no       |         | To hwehwɛ ano hye wɔ saa block yi so        |
 
 ---
 
@@ -136,9 +136,9 @@ Parameters biara nni hɔ. (Kyerɛw wo din nkutoo)
 zallet rpc validateaddress '"<address>"'
 ```
 
-| Parameter | Type | Wɔhwehwɛ sɛ | Nkyerɛkyerɛmu |
+| Parameter a wɔde kyerɛ | Korɔ   | Ɛhia | Nkyerɛmu             |
 |-----------|--------|----------|-------------------------|
-| address | ahama | yiw | Address a ɛda adi pefee |
+| address   | ahoma | Aane      | Address a ɛda adi pefee     |
 
 ---
 
@@ -148,11 +148,11 @@ zallet rpc validateaddress '"<address>"'
 zallet rpc verifymessage '"<address>"' '"<signature>"' '"<message>"'
 ```
 
-| Parameter | Type | Wɔhwehwɛ sɛ | Nkyerɛkyerɛmu |
+| Parameter a wɔde kyerɛ  | Korɔ   | Ɛhia | Nkyerɛmu             |
 |------------|--------|----------|-------------------------|
-| address | ahama | yiw | Address a ɛda adi pefee |
-| signature  | ahama | yiw | Base64 nsaano nkyerɛwee |
-| message    | ahama | yiw | Nkrasɛm a edi kan |
+| address    | ahoma | Aane      | Address a ɛda adi pefee     |
+| signature  | ahoma | Aane      | Base64 nsaano nkyerɛwee        |
+| message    | ahoma | Aane      | Mfitiase nkrasɛm        |
 
 ---
 
@@ -172,10 +172,10 @@ Parameters biara nni hɔ.
 zallet rpc walletpassphrase '"<passphrase>"' <timeout>
 ```
 
-| Parameter | Type | Wɔhwehwɛ sɛ | Nkyerɛkyerɛmu |
+| Parameter a wɔde kyerɛ   | Korɔ   | Ɛhia | Nkyerɛmu                          |
 |-------------|--------|----------|--------------------------------------|
-| passphrase  | ahama | yiw | Wallet passphrase a wɔde kyerɛw nsɛm |
-| timeout     | nɔma | yiw | Sekan a wode bɛma sika kotoku no akɔ so ayɛ nea wɔabue |
+| passphrase  | ahoma | Aane      | Wallet passphrase a wɔde kyerɛw nsɛm                    |
+| timeout     | nɔma | Aane      | Sekan a ɛbɛma sika kotoku no akɔ so ayɛ nea wɔabue  |
 
 ---
 
@@ -185,9 +185,9 @@ zallet rpc walletpassphrase '"<passphrase>"' <timeout>
 zallet rpc z_converttex '"<transparent_address>"'
 ```
 
-| Parameter | Type | Wɔhwehwɛ sɛ | Nkyerɛkyerɛmu |
+| Parameter a wɔde kyerɛ             | Korɔ   | Ɛhia | Nkyerɛmu                |
 |-----------------------|--------|----------|----------------------------|
-| transparent_address   | ahama | yiw | P2PKH address a wɔde bɛdan |
+| transparent_address   | ahoma | Aane      | P2PKH address a wɔde bɛdannan   |
 
 ---
 
@@ -197,11 +197,11 @@ zallet rpc z_converttex '"<transparent_address>"'
 zallet rpc z_exportkey '"<sapling_address>"'
 ```
 
-| Parameter | Type | Wɔhwehwɛ sɛ | Nkyerɛkyerɛmu |
+| Parameter a wɔde kyerɛ | Korɔ   | Ɛhia | Nkyerɛmu                                      |
 |-----------|--------|----------|--------------------------------------------------|
-| address | ahama | yiw | Sapling address a ne sikasɛm safoa a ɔde bɛkɔ amannɔne |
+| address   | ahoma | Aane      | Sapling address a ne sikasɛm safoa a ɔde bɛkɔ amannɔne     |
 
-> Ɛsɛ sɛ wobue sika kotoku no. Only exports the Sapling spending key.
+> Ɛsɛ sɛ wobue sika kotoku no. Sapling sikasɛm safoa no nkutoo na ɛde kɔ amannɔne.
 
 ---
 
@@ -211,9 +211,9 @@ zallet rpc z_exportkey '"<sapling_address>"'
 zallet rpc z_getaccount '"<account_uuid>"'
 ```
 
-| Parameter | Type | Wɔhwehwɛ sɛ | Nkyerɛkyerɛmu |
+| Parameter a wɔde kyerɛ     | Korɔ   | Ɛhia | Nkyerɛmu     |
 |---------------|--------|----------|-----------------|
-| account_uuid  | ahama | yiw | Akontaabu UUID |
+| account_uuid  | ahoma | Aane      | Akontaabu UUID    |
 
 ---
 
@@ -223,11 +223,11 @@ zallet rpc z_getaccount '"<account_uuid>"'
 zallet rpc z_getaddressforaccount <account> ['["p2pkh","sapling","orchard"]'] [<diversifier_index>]
 ```
 
-| Parameter | Type | Wɔhwehwɛ sɛ | Nkyerɛkyerɛmu |
+| Parameter a wɔde kyerɛ          | Korɔ            | Ɛhia | Nkyerɛmu                              |
 |--------------------|-----------------|----------|------------------------------------------|
-| account            | ahama / nɔma | yiw | Akontaabu UUID anaa ZIP-32 akontaabu index |
-| receiver_types     | array a ɛwɔ ahama | dabi | Receiver ahorow a wɔde bɛka ho |
-| diversifier_index  | nɔma | dabi | Diversifier index pɔtee bi |
+| account            | ahama / nɔma | Aane      | Akontaabu UUID anaa ZIP-32 akontaabu index     |
+| receiver_types     | array a wɔde ahama ayɛ | no       | Receiver ahorow a wɔde ka ho                |
+| diversifier_index  | nɔma          | no       | Diversifier index pɔtee bi               |
 
 ---
 
@@ -237,10 +237,10 @@ zallet rpc z_getaddressforaccount <account> ['["p2pkh","sapling","orchard"]'] [<
 zallet rpc z_getbalanceforaccount <account> [<minconf>]
 ```
 
-| Parameter | Type | Wɔhwehwɛ sɛ | Default a ɛwɔ hɔ | Nkyerɛkyerɛmu |
+| Parameter a wɔde kyerɛ | Korɔ            | Ɛhia | Mfiaseɛ | Nkyerɛmu                      |
 |-----------|-----------------|----------|---------|----------------------------------|
-| account   | ahama / nɔma | yiw |         | Akontaabu UUID anaa ZIP-32 index |
-| minconf | nɔma | dabi | 1 | Nsɛm a wɔde si so dua a ɛba fam koraa |
+| account   | ahama / nɔma | Aane      |         | Akontaabu UUID anaa ZIP-32 index     |
+| minconf   | nɔma          | no       | 1       | Nneɛma a wɔde si so dua a ɛba fam koraa            |
 
 ---
 
@@ -250,9 +250,9 @@ zallet rpc z_getbalanceforaccount <account> [<minconf>]
 zallet rpc z_getbalances [<minconf>]
 ```
 
-| Parameter | Type | Wɔhwehwɛ sɛ | Default a ɛwɔ hɔ | Nkyerɛkyerɛmu |
+| Parameter a wɔde kyerɛ | Korɔ   | Ɛhia | Mfiaseɛ | Nkyerɛmu               |
 |-----------|--------|----------|---------|---------------------------|
-| minconf | nɔma | dabi | 1 | Nsɛm a wɔde si so dua a ɛba fam koraa |
+| minconf   | nɔma | no       | 1       | Nneɛma a wɔde si so dua a ɛba fam koraa     |
 
 ---
 
@@ -262,10 +262,10 @@ zallet rpc z_getbalances [<minconf>]
 zallet rpc z_getnewaccount '"<account_name>"' ['"<seedfp>"']
 ```
 
-| Parameter | Type | Wɔhwehwɛ sɛ | Nkyerɛkyerɛmu |
+| Parameter a wɔde kyerɛ     | Korɔ   | Ɛhia | Nkyerɛmu                              |
 |---------------|--------|----------|------------------------------------------|
-| account_name  | ahama | yiw | Edin a onipa betumi akenkan |
-| seedfp        | ahama | dabi | Ɛho hia sɛ sika kotoku wɔ aba pii a |
+| account_name  | ahoma | Aane      | Edin a onipa betumi akenkan                      |
+| seedfp        | ahoma | no       | Ɛho hia sɛ sika kotoku no wɔ aba pii a    |
 
 ---
 
@@ -275,10 +275,10 @@ zallet rpc z_getnewaccount '"<account_name>"' ['"<seedfp>"']
 zallet rpc z_getnotescount [<minconf>] [<as_of_height>]
 ```
 
-| Parameter | Type | Wɔhwehwɛ sɛ | Default a ɛwɔ hɔ | Nkyerɛkyerɛmu |
+| Parameter a wɔde kyerɛ     | Korɔ   | Ɛhia | Mfiaseɛ | Nkyerɛmu                          |
 |---------------|--------|----------|---------|--------------------------------------|
-| minconf | nɔma | dabi | 1 | Nsɛm a wɔde si so dua a ɛba fam koraa |
-| as_of_height  | nɔma | dabi |         | Asɛmmisa sɛnea ɛkɔ soro yi (`-1` = afotu) |
+| minconf       | nɔma | no       | 1       | Nneɛma a wɔde si so dua a ɛba fam koraa                |
+| as_of_height  | nɔma | no       |         | Asɛmmisa sɛnea ɛkɔ soro yi (`-1` = tip) |
 
 ---
 
@@ -288,9 +288,9 @@ zallet rpc z_getnotescount [<minconf>] [<as_of_height>]
 zallet rpc z_getoperationresult ['["opid1","opid2"]']
 ```
 
-| Parameter | Type | Wɔhwehwɛ sɛ | Nkyerɛkyerɛmu |
+| Parameter a wɔde kyerɛ    | Korɔ            | Ɛhia | Nkyerɛmu                              |
 |--------------|-----------------|----------|------------------------------------------|
-| operationid | array a ɛwɔ ahama | dabi | Operation IDs (yi fi mu ma ne nyinaa a wɔawie) |
+| operationid  | array a wɔde ahama ayɛ | no       | Operation IDs (yi fi hɔ ma nea wɔawie nyinaa)    |
 
 ---
 
@@ -300,9 +300,9 @@ zallet rpc z_getoperationresult ['["opid1","opid2"]']
 zallet rpc z_getoperationstatus ['["opid1","opid2"]']
 ```
 
-| Parameter | Type | Wɔhwehwɛ sɛ | Nkyerɛkyerɛmu |
+| Parameter a wɔde kyerɛ    | Korɔ            | Ɛhia | Nkyerɛmu                    |
 |--------------|-----------------|----------|--------------------------------|
-| operationid | array a ɛwɔ ahama | dabi | Operation IDs (yi fi mu ma obiara) |
+| operationid  | array a wɔde ahama ayɛ | no       | Operation IDs (yi fi mu ma obiara)   |
 
 ---
 
@@ -312,10 +312,10 @@ zallet rpc z_getoperationstatus ['["opid1","opid2"]']
 zallet rpc z_gettotalbalance [<minconf>] [<include_watchonly>]
 ```
 
-| Parameter | Type | Wɔhwehwɛ sɛ | Default a ɛwɔ hɔ | Nkyerɛkyerɛmu |
+| Parameter a wɔde kyerɛ          | Korɔ    | Ɛhia | Mfiaseɛ | Nkyerɛmu                     |
 |--------------------|---------|----------|---------|---------------------------------|
-| minconf | nɔma | dabi | 1 | Nsɛm a wɔde si so dua a ɛba fam koraa |
-| include_watchonly  | boolean kasa | dabi | atoro | Fa watch-only balances ka ho |
+| minconf            | nɔma  | no       | 1       | Nneɛma a wɔde si so dua a ɛba fam koraa           |
+| include_watchonly  | boolean kasa | no       | ɛnyɛ ampa   | Fa watch-only balances ka ho     |
 
 ---
 
@@ -325,11 +325,11 @@ zallet rpc z_gettotalbalance [<minconf>] [<include_watchonly>]
 zallet rpc z_importaddress '"<account_uuid>"' '"<hex_data>"' [<rescan>]
 ```
 
-| Parameter | Type | Wɔhwehwɛ sɛ | Default a ɛwɔ hɔ | Nkyerɛkyerɛmu |
+| Parameter a wɔde kyerɛ  | Korɔ    | Ɛhia | Mfiaseɛ | Nkyerɛmu                          |
 |------------|---------|----------|---------|--------------------------------------|
-| account    | ahama | yiw |         | Akontaabu UUID |
-| hex_data   | ahama | yiw |         | Hex public key anaa gye script |
-| rescan | boolean kasa | dabi | nokware | Rescan akyi import |
+| account    | ahoma  | Aane      |         | Akontaabu UUID                         |
+| hex_data   | ahoma  | Aane      |         | Hex public key anaa gye script      |
+| rescan     | boolean kasa | no       | nokorɛ    | Rescan bere a wode aba awie no                  |
 
 ---
 
@@ -339,11 +339,11 @@ zallet rpc z_importaddress '"<account_uuid>"' '"<hex_data>"' [<rescan>]
 zallet rpc z_importkey '"<key>"' ['"<rescan>"'] [<start_height>]
 ```
 
-| Parameter | Type | Wɔhwehwɛ sɛ | Default a ɛwɔ hɔ | Nkyerɛkyerɛmu |
+| Parameter a wɔde kyerɛ     | Korɔ   | Ɛhia | Mfiaseɛ        | Nkyerɛmu                              |
 |---------------|--------|----------|----------------|------------------------------------------|
-| key           | ahama | yiw |                | Sapling ntrɛwmu sika a wɔsɛe no key |
-| rescan | ahama | dabi | `"whenkeyisnew"` | `"yes"`, `"no"`, or `"whenkeyisnew"`   |
-| start_height  | nɔma | dabi | 0 | Rescan mfiase sorokɔ |
+| key           | ahoma | Aane      |                | Sapling trɛw sika a wɔsɛe no mu titiriw            |
+| rescan        | ahoma | no       | `"whenkeyisnew"` | `"yes"`, `"no"`, or `"whenkeyisnew"`   |
+| start_height  | nɔma | no       | 0              | Rescan mfiase sorokɔ                      |
 
 ---
 
@@ -353,9 +353,9 @@ zallet rpc z_importkey '"<key>"' ['"<rescan>"'] [<start_height>]
 zallet rpc z_listaccounts [<include_addresses>]
 ```
 
-| Parameter | Type | Wɔhwehwɛ sɛ | Default a ɛwɔ hɔ | Nkyerɛkyerɛmu |
+| Parameter a wɔde kyerɛ          | Korɔ    | Ɛhia | Mfiaseɛ | Nkyerɛmu                              |
 |--------------------|---------|----------|---------|------------------------------------------|
-| include_addresses  | boolean kasa | dabi | nokware | Afei nso san fa address ahorow a ɛwɔ akontaabu biara mu |
+| include_addresses  | boolean kasa | no       | nokorɛ    | Afei nso san fa address ahorow a ɛwɔ akontaabu biara mu san ba   |
 
 ---
 
@@ -365,9 +365,9 @@ zallet rpc z_listaccounts [<include_addresses>]
 zallet rpc z_listoperationids ['"<status>"']
 ```
 
-| Parameter | Type | Wɔhwehwɛ sɛ | Nkyerɛkyerɛmu |
+| Parameter a wɔde kyerɛ | Korɔ   | Ɛhia | Nkyerɛmu                          |
 |-----------|--------|----------|--------------------------------------|
-| status    | ahama | dabi | Filter sɛnea tebea te (e.g. `"success"`)  |
+| status    | ahoma | no       | Filter sɛnea tebea te (sɛ nhwɛso no `"success"`)  |
 
 ---
 
@@ -377,13 +377,13 @@ zallet rpc z_listoperationids ['"<status>"']
 zallet rpc z_listtransactions ['"<account_uuid>"'] [<start_height>] [<end_height>] [<offset>] [<limit>]
 ```
 
-| Parameter | Type | Wɔhwehwɛ sɛ | Nkyerɛkyerɛmu |
+| Parameter a wɔde kyerɛ      | Korɔ   | Ɛhia | Nkyerɛmu                  |
 |----------------|--------|----------|------------------------------|
-| account_uuid   | ahama | dabi | Anohyeto to akontaabu biako so |
-| start_height   | nɔma | dabi | Nea ɛka ho ne ase hye |
-| end_height     | nɔma | dabi | Exclusive soro anohyeto |
-| offset | nɔma | dabi | Skip eyi pii aba |
-| limit          | nɔma | dabi | Maximum aba a ɛbɛsan aba |
+| account_uuid   | ahoma | no       | Fa anohyeto to akontaabu biako so         |
+| start_height   | nɔma | no       | Nea ɛka ho ne anohyeto a ɛwɔ fam        |
+| end_height     | nɔma | no       | Ɔsoro anohyeto a ɛyɛ soronko        |
+| offset         | nɔma | no       | Twa saa nneɛma pii a efi mu ba yi so       |
+| limit          | nɔma | no       | Nea ebefi mu aba a ɛsen biara a ɛsɛ sɛ wɔsan de ba    |
 
 ---
 
@@ -393,9 +393,9 @@ zallet rpc z_listtransactions ['"<account_uuid>"'] [<start_height>] [<end_height
 zallet rpc z_listunifiedreceivers '"<unified_address>"'
 ```
 
-| Parameter | Type | Wɔhwehwɛ sɛ | Nkyerɛkyerɛmu |
+| Parameter a wɔde kyerɛ         | Korɔ   | Ɛhia | Nkyerɛmu                  |
 |-------------------|--------|----------|------------------------------|
-| unified_address   | string | Aane      | Unified Address a wɔde bɛhwɛ mu   |
+| unified_address   | ahoma | Aane      | Address a Wɔaka abom a wɔde bɛhwɛ mu   |
 
 ---
 
@@ -405,13 +405,13 @@ zallet rpc z_listunifiedreceivers '"<unified_address>"'
 zallet rpc z_listunspent [<minconf>] [<maxconf>] [<include_watchonly>] ['["addr1","addr2"]'] [<as_of_height>]
 ```
 
-| Parameter | Type | Wɔhwehwɛ sɛ | Default a ɛwɔ hɔ | Nkyerɛkyerɛmu |
+| Parameter a wɔde kyerɛ          | Korɔ            | Ɛhia | Mfiaseɛ | Nkyerɛmu                          |
 |--------------------|-----------------|----------|---------|--------------------------------------|
-| minconf | nɔma | dabi | 1 | Nsɛm a wɔde si so dua a ɛba fam koraa |
-| maxconf            | nɔma | dabi | ∞ ∞ | Nneɛma a wɔde si so dua kɛse |
-| include_watchonly  | boolean kasa | dabi | atoro | Fa watch-only |., ka ho
-| addresses          | array a ɛwɔ ahama | dabi |         | Filter kɔ saa address ahorow yi so |
-| as_of_height       | nɔma | dabi |         | Query sɛnea ɛte wɔ saa sorokɔ yi |
+| minconf            | nɔma          | no       | 1       | Nneɛma a wɔde si so dua a ɛba fam koraa                |
+| maxconf            | nɔma          | no       | ∞       | Nneɛma a wɔde si so dua a ɛsen biara                |
+| include_watchonly  | boolean kasa         | no       | ɛnyɛ ampa   | Fa watch-only ka ho                   |
+| addresses          | array a wɔde ahama ayɛ | no       |         | Filter kɔ address ahorow yi so            |
+| as_of_height       | nɔma          | no       |         | Query sɛnea ɛte wɔ saa sorokɔ yi so              |
 
 ---
 
@@ -421,9 +421,9 @@ zallet rpc z_listunspent [<minconf>] [<maxconf>] [<include_watchonly>] ['["addr1
 zallet rpc z_recoveraccounts '[{"name":"...","seedfp":"...","zip32_account_index":0,"birthday_height":123456}]'
 ```
 
-| Parameter | Type | Wɔhwehwɛ sɛ | Nkyerɛkyerɛmu |
+| Parameter a wɔde kyerɛ | Korɔ  | Ɛhia | Nkyerɛmu                                                                 |
 |-----------|-------|----------|-----------------------------------------------------------------------------|
-| accounts  | nhyehyeɛ | yiw | Nneɛma a wɔahyehyɛ: `name`, `seedfp`, `zip32_account_index`, `birthday_height` |
+| accounts  | nhyehyɛe | Aane      | Nneɛma a wɔahyehyɛ: `name`, `seedfp`, `zip32_account_index`, `birthday_height` |
 
 ---
 
@@ -433,30 +433,30 @@ zallet rpc z_recoveraccounts '[{"name":"...","seedfp":"...","zip32_account_index
 zallet rpc z_sendmany '"<fromaddress>"' '[{"address":"...","amount":1.23,"memo":"..."}]' [<minconf>] [null] ['"<privacy_policy>"']
 ```
 
-| Parameter | Type | Wɔhwehwɛ sɛ | Default a ɛwɔ hɔ | Nkyerɛkyerɛmu |
+| Parameter a wɔde kyerɛ        | Korɔ            | Ɛhia | Mfiaseɛ         | Nkyerɛmu                                      |
 |------------------|-----------------|----------|-----------------|--------------------------------------------------|
-| fromaddress      | ahama | yiw |                 | Source address anaa `"ANY_TADDR"`                  |
-| amounts          | nhyehyɛe a wɔde yɛ ade | yiw |                 | Wɔn a wogye no (`address`, `amount`, ɛnyɛ ɔhyɛ `memo`)|
-| minconf | nɔma | dabi |                 | Nsɛm a wɔde si so dua a ɛba fam koraa |
-| fee              | null | dabi |                 | Ɛsɛ sɛ ɛyɛ saa `null` (ZIP-317 nkutoo) |
-| privacy_policy   | ahama | dabi | `"FullPrivacy"` | Kokoam nsɛm ho nhyehyɛe ahama |
+| fromaddress      | ahoma          | Aane      |                 | Source address anaa `"ANY_TADDR"`                  |
+| amounts          | adeɛ a wɔahyehyɛ | Aane      |                 | Wɔn a wogye no (`address`, `amount`, ɛnyɛ ɔhyɛ `memo`)|
+| minconf          | nɔma          | no       |                 | Nneɛma a wɔde si so dua a ɛba fam koraa                            |
+| fee              | ohunu            | no       |                 | Ɛsɛ sɛ ɛyɛ saa `null` (ZIP-317 nkutoo)                    |
+| privacy_policy   | ahoma          | no       | `"FullPrivacy"` | Kokoam nsɛm ho nhyehyɛe ahama                            |
 
 ---
 
-### z_shieldcoinbase a ɛwɔ hɔ no
+### z_shieldcoinbase a ɛwɔ hɔ
 
 ```bash
 zallet rpc z_shieldcoinbase '"<fromaddress_or_account_uuid>"' '"<toaddress>"' [null] [<limit>] ['"<memo_hex>"'] ['"<privacy_policy>"']
 ```
 
-| Parameter | Type | Wɔhwehwɛ sɛ | Nkyerɛkyerɛmu |
+| Parameter a wɔde kyerɛ        | Korɔ   | Ɛhia | Nkyerɛmu                                      |
 |------------------|--------|----------|--------------------------------------------------|
-| fromaddress      | ahama | yiw | Address anaa akontaabu a ɛda adi pefee UUID |
-| toaddress        | ahama | yiw | Shielded beae a wɔde kɔ |
-| fee              | null | dabi | Ɛsɛ sɛ ɛyɛ saa `null`                                   |
-| limit            | nɔma | dabi | Max dodow a coinbase UTXOs a ɛbɛbɔ ho ban |
-| memo | ahama | dabi | Hex-encoded memo a wɔde ahyɛ mu |
-| privacy_policy   | ahama | dabi | `AllowRevealedSenders` or `AllowLinkingAccountAddresses` |
+| fromaddress      | ahoma | Aane      | Address anaa akontaabu UUID a ɛda adi pefee              |
+| toaddress        | ahoma | Aane      | Destination a wɔabɔ ho ban                             |
+| fee              | ohunu   | no       | Ɛsɛ sɛ ɛyɛ saa `null`                                   |
+| limit            | nɔma | no       | Max dodow a coinbase UTXOs to kyɛm           |
+| memo             | ahoma | no       | Memo a wɔde hex ahyɛ mu                                 |
+| privacy_policy   | ahoma | no       | `AllowRevealedSenders` or `AllowLinkingAccountAddresses` |
 
 ---
 
@@ -466,16 +466,16 @@ zallet rpc z_shieldcoinbase '"<fromaddress_or_account_uuid>"' '"<toaddress>"' [n
 zallet rpc z_viewtransaction '"<txid>"'
 ```
 
-| Parameter | Type | Wɔhwehwɛ sɛ | Nkyerɛkyerɛmu |
+| Parameter a wɔde kyerɛ | Korɔ   | Ɛhia | Nkyerɛmu     |
 |-----------|--------|----------|-----------------|
-| txid | ahama | yiw | Nkitahodi ID |
+| txid      | ahoma | Aane      | Nkitahodi ID  |
 
 ---
 
 ## Nkratafa a Ɛfa Ho
 
-- [Akwankyerɛ a ɛfa atutra ho: Zcashd kɔ Zebrad ne Zallet](/guides/migration-guide-zcashd-to-zebrad-zallet) — anammɔn anammɔn tu fi zcashd nhyehyɛe a ɛwɔ hɔ dedaw mu
+- [Akwankyerɛ a ɛfa atutra ho: zcashd kɔ Zebrad ne Zallet](/guides/migration-guide-zcashd-to-zebrad-zallet) — anammɔn anammɔn tu fi zcashd nhyehyɛe a ɛwɔ hɔ dedaw mu
 - [Zebra Full Node a Ɛyɛ Fɛ](/zcash-tech/zebra-full-node) — node implementation Zallet yɛ adwuma ka ho
-- [Nodes a Ɛyɛ Pɛ](/zcash-tech/full-nodes) — nea node a ɛyɛ ma a wobɛtu mmirika no hwehwɛ ne nea enti a ebia wobɛpɛ bi
+- [Nodes a Ɛyɛ Pɛ](/zcash-tech/full-nodes) — nea node a edi mũ a wotu mmirika hwehwɛ ne nea enti a ebia wobɛpɛ bi
 - [Sika kotoku](/using-zcash/wallets) — lighter wallet options sɛ node a ɛyɛ ma no boro nea wuhia so a
 - [Nkitahodi ahorow](/using-zcash/transactions) — sɛnea shielded ne transparent transactions yɛ soronko

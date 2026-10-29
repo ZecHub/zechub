@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Woanya ZEC wɔ Solana so? Fa kɔ Zcash a wɔabɔ ho ban no so
+# Woanya ZEC wɔ Solana? Fa kɔ Zcash a wɔabɔ ho ban no so
 
 Saa krataafa yi yɛ ma wo sɛ ZEC yii ne ho adi wɔ wo Solana sika kotoku mu ɛfiri sɛ wokura ZCAT, anaa Solana token foforɔ a ɛtua wɔn a wɔwɔ ZEC. Ɛho nhia sɛ wotɔn biribiara na woadi akyi. Wobɛtu ZEC a wowɔ dedaw no afiri Solana akɔ Zcash sika kotokuo mu na woawie a wɔabɔ ho ban.
 
@@ -10,9 +10,23 @@ Yɛtuu mmirika anammɔn biara a ɛwɔ aseɛ ha no a yɛde transfer ankasa wɔ 27
 
 ---
 
+## TL;DR
+
+- ZEC a ɛwɔ wo Solana sika kotoku mu no yɛ **Solana token** (mint `A7bd…QXaS`) gyinaa akyi 1:1 denam ZEC ankasa a NEAR OmniBridge kura wɔ Zcash nkɔnsɔnkɔnsɔn no so — "krataa ZEC" a ɛte Solana's ɔmanfo ledger so na wontumi mmɔ ho ban wɔ hɔ.
+- Ɔkwan no yɛ anammɔn mmienu: **deposit** token no wɔ solswap.org (NEAR Intents), afei **withdraw** wɔ near.com kɔ wo sika kotokuo no shielded `u1` adrɛse. Mfa Phantom's ankasa Swap button nni dwuma — entumi mmoa wo.
+- Fa sika kotoku di dwuma [ZecHub kyerɛwtohɔ no](/wallets) marks **Ironwood: Ready**, na fa SOL kakra sie Phantom ma Solana sika no.
+- Yɛn sɔhwɛ ankasa (27 September 2026, 0.00266336 ZEC): deposit sii fam wɔ sikani 9 mu, yii gyee bɛyɛ simma 8, ne nyinaa bo yɛ ~0.00025 ZEC + 0.0016 SOL.
+- Safety line: nko ara de wo nsa hyɛ nkrasɛm abisade ase wɔ `near.com`/`solswap.org` ne `intents.near` wɔ nkrasɛm no mu no, nkyerɛw wo aba kasasin no da, na fa a `u1`, da biara a `t1`.
+
+## Nsɛdi a wɔde aniwa hu
+
+ZEC a ɛwɔ Solana so no yɛ adwuma te sɛ **casino chip**. Ɛyɛ bo te sɛ sika, na casino — NEAR OmniBridge — hyɛ bɔ sɛ sika kɔkɔɔ ankasa (native ZEC) ma obiara a ɔsan de chip no. Nanso chip no yɛ row bi kɛkɛ wɔ casino no ledger mu: obiara betumi ahu onii a okura, na ne bo gyina casino no nhyehyɛe ahorow a ɛbɛkɔ so ayɛ adwuma no so. Wedrawing through near.com yɛ nantew a wobɛkɔ cage no mu na woabɔ chip no sika. Sɛ sika nkrataa no wɔ ɔtare a wɔabɔ ho ban mu pɛ a, ɛwɔ w’ankasa sika kotoku a ɛnyɛ hann mu — obiara ntumi nhu sika dodow anaa nea okura no bio.
+
+---
+
 ## Nea wokura mu ankasa
 
-ZEC a ɛwɔ wo Solana sika kotoku mu no yɛ token wɔ Solana so, ɛnyɛ sika a ɛwɔ Zcash network no so. NEAR OmniBridge no de ma na ɛkura ZEC ankasa wɔ Zcash nkɔnsɔnkɔnsɔn no so de gyina akyi; the bridge has been live on Solana since October 2025. Ne Solana nan no tu mmirika wɔ Wormhole nkrasɛm ne NEAR Chain Signatures so, ɛnyɛ Zcash kanea client so, enti Solana fã no yɛ nnyigyei te sɛ saa nhyehyɛe abien no nkutoo. Nkurɔfo frɛ no "krataa ZEC". Ɛdi ZEC, nanso sika biara a aka ne transfer biara te Solana public ledger so wɔ wo wallet address ase, na wɔrentumi mmɔ ho ban berɛ a ɛte hɔ.
+ZEC a ɛwɔ wo Solana sika kotoku mu no yɛ token wɔ Solana, ɛnyɛ sika a ɛwɔ Zcash network no so. NEAR OmniBridge no de ma na ɛkura ZEC ankasa wɔ Zcash nkɔnsɔnkɔnsɔn no so de gyina akyi; the bridge has been live on Solana since October 2025. Ne Solana nan no tu mmirika wɔ Wormhole nkrasɛm ne NEAR Chain Signatures so, ɛnyɛ Zcash kanea client so, enti Solana fã no yɛ nnyigyei te sɛ saa nhyehyɛe abien no nkutoo. Nkurɔfo frɛ no "krataa ZEC". Ɛdi ZEC, nanso sika biara a aka ne transfer biara te Solana's public ledger so wɔ wo wallet address ase, na wɔrentumi mmɔ ho ban berɛ a ɛte hɔ.
 
 Hwɛ sɛ wo de no ne token ankasa. Wɔ Phantom, pia **ZEC** na twe kɔ **About Zcash**. Ɛsɛ sɛ apam no address yɛ:
 
@@ -28,7 +42,7 @@ Phantom yɛ no tiaa ma ɛyɛ `A7bd…QXaS`, enti fa nkyerɛwde a edi kan ne nea 
 
 ## Dɛn nti na ɛsɛ sɛ wotu kɔ baabi foforo
 
-Shielded ZEC ne Zcash. Sɛ wo ZEC te ɔtare a wɔabɔ ho ban mu a, wɔde nea ɔde kɔmaa, nea ogye ne sika biara a wotua no, wɔde encrypt wɔ Zcash nkɔnsɔnkɔnsɔn no so. Obiara nni hɔ a ɔrehwehwɛ explorer mu a obetumi ahu wo balance.
+Shielded ZEC ne Zcash. Sɛ wo ZEC te ɔtare a wɔabɔ ho ban mu a, wɔde nea ɔde kɔma, nea ogye ne sika biara a wotua no, wɔde encrypt wɔ Zcash nkɔnsɔnkɔnsɔn no so. Obiara nni hɔ a ɔrehwehwɛ explorer mu a obetumi ahu wo balance.
 
 Wokura ZEC. Sɛ wode kɔ Zcash sika kotoku mu a, ɛma wunya ɔfã a ɛma ɛyɛ Zcash, na ɛyi bridge no fi mfonini no mu: native ZEC a ɛwɔ w’ankasa sika kotoku mu no nnyina obiara a ɔbɛhyɛ ogye bi anuonyam so.
 
@@ -51,7 +65,7 @@ Wo sika kotoku no kyerɛ address ahorow abien:
 
 | Fi ase wɔ | Korɔ | Nea ɔmanfo hu |
 |---|---|---|
-| `u1` | Unified Address | Biribiara nni hɔ a ɛfa wo ho, na mmom bere a sika a wotua no si fam wɔ ɔtare a wɔabɔ ho ban mu nkutoo |
+| `u1` | Address a Wɔaka abom | Biribiara nni hɔ a ɛfa wo ho, na mmom bere a sika a wotua no si fam wɔ ɔtare a wɔabɔ ho ban mu nkutoo |
 | `t1` | Address a ɛda adi pefee | Wo address ne sika dodow no, daa, te sɛ Solana so |
 
 Fa di dwuma a `u1` sɛ wo sika kotoku no kyerɛw sɛ wɔabɔ ho ban. BI `u1` yɛ mfiri a wɔde gye nsɛm a wɔaboaboa ano, na sika kotoku binom de afiri a wɔde gye nsɛm a ɛda adi pefee gu mu wɔ nea wɔabɔ ho ban no nkyɛn. Ɔsomafoɔ a ɔbɛtumi atua address a ɛda adi pefee nko ara no de saa deɛ no bedi dwuma, na wo sikatua no bɛkɔ baguam ɛwom mpo sɛ wode a `u1`. Yɛn sɔhwɛ sika kotoku no address a wɔabɔ ho ban no nni receiver a ɛda adi pefee, enti ɛno antumi ansi. [Atare a wɔabɔ ho ban](/using-zcash/shielded-pools) kata receivers so kɔ akyiri. Sika kotoku binom kyerɛ foforo `u1` bere biara a wobɛbue Gye; ɛno yɛ ade a ɛfata, na wɔn nyinaa yɛ wo dea. Recee screenshot ne near.com recipient field a ɛwɔ krataafa yi so no de di dwuma soronko `u1` prefixes esiane saa nti.
@@ -62,7 +76,7 @@ Yɛde ZODL dii dwuma maa yɛn sɔhwɛ no efisɛ na ɛyɛ sika kotoku a yɛde asi
 
 ## Tu kɔ baabi foforo
 
-Ɔkwan no wɔ afã abien: fa wo ZEC hyɛ NEAR Intents mu fi Phantom, afei fa kɔ wo Zcash address no so. Yɛde dii dwuma [solswap.org so na ɛwɔ hɔ](https://solswap.org), beae a wɔasisi NEAR ama wɔn a wɔde Solana di dwuma, ma ɔfã a edi kan ne [bɛn.com](https://near.com), NEAR ankasa app, ma nea ɛto so abien no. ZecHub's [Sɛnea wobɛsesa ZEC wɔ Phantom Wallet mu](/using-zcash/solswap) akwankyerɛ no kata solswap screens so kɔ akyiri. Mfa Phantom's ankasa **Swap** button nni dwuma mma eyi: wokura token no dedaw, na sesa no mma wunnya baabiara.
+Ɔkwan no wɔ afã abien: fa wo ZEC hyɛ NEAR Intents mu fi Phantom, afei fa kɔ wo Zcash address no so. Yɛde dii dwuma [solswap.org so na ɛwɔ hɔ](https://solswap.org), beae NEAR-built ama wɔn a wɔde Solana di dwuma, ma ɔfã a edi kan ne [bɛn.com](https://near.com), NEAR's ankasa app, ma nea ɛto so abien no. ZecHub's [Sɛnea wobɛsesa ZEC wɔ Phantom Wallet mu](/using-zcash/solswap) akwankyerɛ no kata solswap screens so kɔ akyiri. Mfa Phantom's ankasa **Swap** button no nni dwuma mma eyi: wokura token no dedaw, na sesa no mma wunnya baabiara.
 
 Fa SOL kakra sie Phantom mu ma Solana sika no.
 
@@ -122,21 +136,21 @@ Sɛ ɛba wo so saa a, wo ZEC ntumi nkɔ. Wɔde sika a aka no akyekyere wo sika k
 | ZEC de sika fii Phantom hɔ | 0.00266336 ZEC |
 | ZEC nyaa wɔ Zcash sika kotoku no mu | 0.00241336 ZEC, wɔabɔ ho ban |
 | Ɛka a wɔbɔ wɔ ZEC fã no | 0.00025 ZEC (near.com kyerɛɛ "Fee 0 ZEC"; wɔabɔ ɛka no bo akɔ quote no mu) |
-| SOL a wɔsɛee no wɔ sika a wɔde asie no ho | 0.00156844 SOL, a emu 0.00008 SOL na ɛyɛ network ho ka |
+| SOL a wɔsɛee no wɔ sika a wɔde asie no ho | 0.00156844 SOL, a emu 0.00008 SOL na ɛyɛ netɛw ho ka |
 | Nea ɛba fam koraa | Obiara anbɔ. solswap kyerɛw sika a wɔde asie a ɛba fam koraa a ɛyɛ 0.00000001 ZEC, na near.com gyee 0.0026 ZEC toom |
 | Deposit, Phantom na ɛyɛ solswap | 9 sikɔne |
 | Wɔtwe sika, de wo nsa hyɛ near.com ase kɔ ZEC wɔ Zcash sika kotoku no mu | Bɛyɛ simma 8 (near.com bu akontaa sɛ bɛyɛ simma 2) |
 
 Kyerɛwtohɔ: Solana sika a wɔde asie [5ijsgRrh...AjLkx na ɛwɔ hɔ](https://solscan.io/tx/5ijsgRrhViNTtFMmnsfJDSo3HhRmt3Ri7WB513oBoQLxfGNswDxvHnakwW1yyqXznTTCSxnUkooAHDKowz9AjLkx), NEAR Intents [79c23cfd...a405a9 na ɛwɔ hɔ](https://explorer.near-intents.org/transactions/79c23cfd43928de5522c182e26f8f052dc9c43d53430ca497b40e016a6a405a9), Zcash [28d6da27…481034](https://mainnet.zcashexplorer.app/transactions/28d6da27d74dc91e45175a7aff6023bc85578603dd77f1b49782a28f8f481034) wɔ block 3,498,141 mu. Fees ne mmere sesa bere a network load, enti review screen no ne asɛmfua a etwa to bere a woreyɛ no.
 
-NEAR bridge no tintim 0.01 ZEC a ɛba fam koraa ne 0.00047 ZEC ka wɔ ne gyinapɛn Zcash a wɔayi afi mu no ho. near.com no nso amfa yɛn 0.0026 ZEC. Sɛ app bi pow sika ketewaa bi a, sɔ near.com hwɛ ansa na wode ahyɛ mu.
+NEAR's tintim 0.01 ZEC a ɛba fam koraa ne 0.00047 ZEC ka wɔ ne gyinapɛn Zcash a wɔayi afi mu no ho. near.com no nso amfa yɛn 0.0026 ZEC. Sɛ app bi pow sika ketewaa bi a, sɔ near.com hwɛ ansa na wode ahyɛ mu.
 
 ### Akwan afoforo ne nea obiara de ne ho to so
 
-Ɔkwan biara a ɛfiri Solana no gye OmniBridge, ɛfiri sɛ bridge no kura ZEC a ɛgyina wo token no akyi. Nea ɛka ho no:
+Ɔkwan biara a wobɛfa so afi Solana wɔ OmniBridge, efisɛ bridge no kura ZEC a ɛhyɛ wo token no akyi. Nea ɛka ho no:
 
-- **Ɔkwan a ɛwɔ atifi hɔ no** gye NEAR Intents. Wo nsaano nkyerɛwee ma kwan ma wɔde kɔ baabi foforo, solvers de ZEC no kɔ Zcash afã, na NEAR Intents betumi akura sika de ahwɛ sɛnea wɔadi mmara so; wɔ afe 2026 mu no, ɔyɛ Zcash wura [bɔɔ amanneɛ sɛ wɔyɛɛ nsakrae kɛse bi a wɔyɛe adapɛn pii](https://www.cryptotimes.io/2026/09/11/zcash-holder-says-589k-usdt-stuck-on-near-intents-50-days-after-zodl-swap/). Wo nso wode wo sika kotoku no bata wɛbsaet abien ho, enti hwɛ address bar no mu bere biara.
-- **Wallets a NEAR Intents ahyɛ mu** (hwehwɛ NEAR Intents afã no wɔ.. [directory a wɔde kyerɛw nsɛm](/wallets)) de nhyehyɛe koro no ara di dwuma fi Zcash sika kotoku no mu. Ahotoso koro no ara, wɛbsaet kakraa bi. Yɛansɔ eyi anhwɛ wɔ ZEC so wɔ Solana so.
+- **Ɔkwan a ɛwɔ atifi hɔ no** gye NEAR Intents. Wo nsaano nkyerɛwee ma kwan ma wɔde kɔ baabi foforo, solvers de ZEC no kɔ Zcash afã, na NEAR Intents betumi akura sika de ahwɛ sɛnea wɔadi mmara so; wɔ afe 2026 mu no, ɔyɛ Zcash wura [bɔɔ amanneɛ sɛ wɔyɛɛ nsakrae kɛse bi a wɔyɛe adapɛn pii](https://www.cryptotimes.io/2026/09/11/zcash-holder-says-589k-usdt-stuck-on-near-intents-50-days-after-zodl-swap/). Wosan nso de wo sika kotoku no bata wɛbsaet abien ho, enti hwɛ address bar no mu bere biara.
+- **Wallets a NEAR Intents ahyɛ mu** (hwehwɛ NEAR Intents afã no wɔ.. [directory a wɔde kyerɛw nsɛm](/wallets)) de nhyehyɛe koro no ara di dwuma fi Zcash sika kotoku no mu. Ahotoso koro no ara, wɛbsaet kakraa bi. Yɛansɔ eyi anhwɛ wɔ ZEC so wɔ Solana.
 - **An exchange**, sɛ ɛgye token yi deposits wɔ Solana network so nkutoo a, a dodow no ara nnye. Wode custody ne mpɛn pii no wo identity ma, na exchange pii de ZEC kɔ nkutoo `t1` address ahorow. Hwɛ [nneɛma a wɔde sesa wɔn a wɔhwɛ mmofra so](/using-zcash/custodial-exchanges).
 
 ---
@@ -175,11 +189,19 @@ Wɔn a wokurakura foforo no nya wɔn ani si wɔn so. Ɛkame ayɛ sɛ nsisi biara
 - **Transparent-only services.** Bridges, swap sites ne exchanges binom tumi de kɔ nkutoo `t1` address ahorow. Ɛno yɛ adwuma sɛ wobɔ ZEC no ho ban bere a ɛba ara pɛ a. Nnyaw no wɔ hɔ kɛkɛ.
 - **Fake wallets.** Install nkutoo fi link a ɛwɔ.. [sika kotoku ho kyerɛwtohɔ](/wallets) card anaa official app store a ɛkyerɛ sɛ ɛtwe adwene si so no. Fake crypto wallet apps no twetwe kɔ app stores mu ampa, na ɛte sɛ ade ankasa no pɛpɛɛpɛ.
 - **Aba kasasin phishing.** Sika kotoku, bridge, swap site, mmoa agent, moderator anaa airdrop biara nhia wo aba kasasin da. Sɛ wode wo nsa hyɛ nkra bi ase a, ɛnsɛ sɛ wokyerɛw da. Obiara a obebisa no rebɔ mmɔden sɛ obewia wo. [Sika a wɔresan agye](/using-zcash/recovering-funds) kata "yɛbɛsan anya wo sika kotoku" nkyerɛase a ɛfa saa nsisi yi ho.
-- **Scam tokens ne "claim" sites.** Tokens a wɔfrɛ no ZEC, Zcash anaa biribi a ɛbɛn no pue wɔ Solana sika kotoku mu a wɔammisa, mpɛn pii no ɛwɔ link a ɛkɔ "claim" pii. Sɛ wode wo sika kotoku no bata saa link no ho a, ebetumi ama ayɛ nsu. Hwɛ apam address no fi kratafa yi atifi na bu w’ani gu biribiara a aka so.
+- **Scam tokens ne "claim" sites.** Tokens a wɔfrɛ no ZEC, Zcash anaa biribi a ɛbɛn no pue wɔ Solana sika kotoku mu a wɔammisa, mpɛn pii no ɛwɔ link a ɛkɔ "claim" pii. Sɛ wode wo sika kotoku no bata saa link no ho a, ebetumi ama ayɛ yiye. Hwɛ apam address no fi kratafa yi atifi na bu w’ani gu biribiara a aka so.
 - **Malicious signature requests.** "Sign Message" abisadeɛ betumi atu wo NEAR Intents balance a wontua SOL ka biara. Fa wo nsa hyɛ ase nkutoo `near.com` or `solswap.org`, na bere a nkrasɛm no din nkutoo `intents.near` (anamɔn 5 a ɛwɔ atifi hɔ no kyerɛ nea ɛsɛ sɛ wohwɛ).
 - **Sites a ɛte sɛ nea ɛte.** Type `solswap.org` ne `near.com` w’ankasa anaasɛ fa nhoma agyiraehyɛde ahorow di dwuma. Mfa link ahorow a efi DM ahorow, mmuae anaa dawurubɔ ahorow hɔ akyi.
 
 ---
+
+## Mfomso a Ɛtaa Tu
+
+- **Sɛ wode Phantom's Swap button** bedi dwuma sen sɛ wode sika a wɔde asie no bɛkɔ. Wokura token no dedaw — swapping kɛkɛ sesa krataa ZEC biako ma token foforo na ɛmma wo nbɛn native ZEC.
+- **Pasting a `t1` address**, anaase a `u1` a ɛde receiver a ɛda adi pefee sie, bere a wo sika kotoku de shielded-only ma no `u1`. Sika a wode asie no si fam baguam na ɛde bata wo sika kotoku ho daa.
+- **Sɛ yɛfa no sɛ sika akɔ so atɔ** bere a solswap no Withdraw krataafa no kyerɛ "–". Kari pɛ no di wo Phantom safoa no akyi, ɛnyɛ wɛbsaet no — wie sika a wɔtwe no wɔ near.com.
+- **Nkra a wode wo nsa hyɛ ase a worenhwɛ mu.** Sait a ɛte sɛ nea ɛwɔ wo NEAR Intents balance no betumi de nsaano nkyerɛwee biako ayɛ hunu. Ɛsɛ sɛ beae no yɛ `near.com` na ɛsɛ sɛ nkrasɛm no kura `"verifying_contract": "intents.near"`.
+- **Confusing the two "ZEC" tickers.** Solana token ne native Zcash ZEC kyɛ din nanso ɛnyɛ network — sɛ wode emu biara kɔ nkɔnsɔnkɔnsɔn foforo no so a, ɛhwere.
 
 ## Nea ɛsɛ sɛ wɔyɛ wɔ shielded ZEC ho
 
@@ -187,3 +209,14 @@ Wɔn a wokurakura foforo no nya wɔn ani si wɔn so. Ɛkame ayɛ sɛ nsisi biara
 - Hwehwɛ mmeae a ɛde kɔ: [Mmeae a wobetumi asɛe ZEC](/using-zcash/spend-zcash/top-10-places-to-spend-zec)
 - Fa kokoam nkrasɛm bi abata ho mena: [Memos a wɔde kyerɛw nsɛm](/using-zcash/memos)
 - Tua obi ka a womfa wo nipasu nhyɛ mu: [Fa sika mena a womfa wo ho nhyɛ wo ho](/zcash-use-cases/send-money-without-linking-identity)
+
+---
+
+## Nkratafa a Ɛfa Ho
+
+- [Sɛnea wobɛsesa ZEC wɔ Phantom Wallet mu](/using-zcash/solswap) — solswap screens no mu nsɛm a ɛkɔ akyiri
+- [Atare a wɔabɔ ho ban](/using-zcash/shielded-pools) — nea Ironwood/Orchard pools yɛ ne sɛnea receivers yɛ adwuma
+- [Hena na obetumi ahu wo Zcash sikatua?](/start-here/who-can-see-your-zcash-payment) — nea shielding de sie ankasa
+- [Sika kotoku](/wallets) — nkyerɛwde a wɔde kyerɛw nsɛm; hwɛ **Ironwood: Ready** a wɔakyerɛw so no
+- [Nneɛma a wɔde sesa wɔn a wɔhwɛ mmofra so](/using-zcash/custodial-exchanges) — trade-off a saa kwan yi kwati
+- [Sika a wɔresan agye](/using-zcash/recovering-funds) — nea ɛsɛ sɛ wode sie dwoodwoo sɛnea ɛbɛyɛ a worenhwere kwan a wobɛfa so akɔ hɔ no da

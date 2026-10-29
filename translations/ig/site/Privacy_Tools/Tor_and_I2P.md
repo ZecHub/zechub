@@ -5,13 +5,21 @@
 
 # Ihe Mere Nzuzo Ji Dị Mkpa
 
+## TL;DR
+
+- **Tor** na-eduzi okporo ụzọ gị site na relays atọ ma na-arụ ọrụ maka ma ọrụ weebụ nkịtị na yabasị - taa ọ bụ ndabara bara uru maka ịkatọ njikọ obere akpa na ịchọgharị
+- **I2P** bụ netwọk mkpuchi peer-to-peer nke e mere maka ọrụ ime nke ya; **enweghị node Zcash dị ugbu a na-asụ I2P n'asụsụ ala**
+- **Na ekwentị mkpanaaka:** Jiri Orbot mee obere akpa Zcash site na Tor ("Tor obere oge
+- **Ịgba ọsọ Zcash n'elu Tor agaghị ekwe omume ugbu a:** `zcashd` erutela njedebe nke nkwado ahụ na 18 Julaị 2026, a ka nwere nkwarụ na atụmatụ Zebra's Tor n'elu iyi
+- Tor na-ezo *ebe ị nọ*, ọ bụghị *ihe ị na-eme n'usoro* — azụmahịa doro anya ka na-aga n'ihu ọha
+
 N'oge dijitalụ, ị na-echekwa echiche gị [nzuzo](https://www.privacyguides.org/en/) adịla mkpa nke ukwuu. Ọ bụ ezie na ụfọdụ nwere ike ile nzuzo anya dị ka ihe efu, ọ bụghị ya. Nzuzo gị dị n'ihe ize ndụ ma kwesị ịbụ ihe na-echegbu onwe gị. Nzuzo nwere uru dị ukwuu n'ihe gbasara ike, na ijide n'aka na ejiri ike mee ihe n'ụzọ kwesịrị ekwesị dị oke mkpa.
 
 ## Teknụzụ Tor na I2P
 
 ## Tor
 
-[Tor](https://www.privacyguides.org/en/tor/?h=tor) bụ ngwa ọrụ proxy nke na-akwado netwọk Tor iji guzobe njikọ maka ngwa. Torbot na-eme nke a site na ịhazi okporo ụzọ ha site na Tor, si otú a na-eme ka ọ dịkwuo mma [nzuzo na aha onye a na-amaghị](https://www.torproject.org/) maka ngwa ndị a.
+[Tor](https://www.privacyguides.org/en/tor/?h=tor) bụ ngwa ọrụ proxy nke na-eji netwọk Tor eme njikọ maka ngwa. Tor na-eme nke a site na ịhazi okporo ụzọ ha site na Tor, si otú a na-eme ka ọ dịkwuo mma [nzuzo na aha onye a na-amaghị](https://www.torproject.org/) maka ngwa ndị a.
 
 ## Netwọk I2P
 
@@ -37,19 +45,19 @@ Ma Tor na I2P bụ netwọk ndị ọgbọ na ibe ha na-enweghị aha, mana I2P 
 
 ## Iji Orbot mee njem obere akpa mkpanaka site na Tor
 
-Orbot bụ netwọọkụ nkeonwe mebere emebere nke na-anaghị efu ọnụ (VPN) nke e mere maka ekwentị mkpanaaka nke na-eduzi okporo ụzọ site na ngwa niile dị na ngwaọrụ gị site na netwọkụ Tor.
+Orbot bụ netwọọkụ nkeonwe mebere emebere nke na-anaghị akwụ ụgwọ (VPN) nke e mere maka ekwentị mkpanaaka nke na-eduzi okporo ụzọ site na ngwa niile dị na ngwaọrụ gị site na netwọkụ Tor.
 
 Soro ntuziaka ndị a iji bufee obere akpa Zcash site na Tor. Mara na YWallet, nke ụdị ntuziaka a jiri na mbụ, anaghịzi elekọta ma agaghị eso netwọk ahụ mgbe Ironwood, yabụ họrọ obere akpa echekwara site na [Obere akpa](/using-zcash/wallets) peeji.
 
 1.  Budata ma wụnye *Orbot* na ụlọ ahịa ngwa.
 
-2.  Mgbe echichara ya, ozi ekele ga-apụta. Gaa n'ihu na ibe mbụ *Orbot* wee pịa *'Tor nyeere aka'.* 
+2.  Mgbe etinyere ya, ozi ekele ga-apụta. Gaa n'ihu na ibe mbụ *Orbot* wee pịa *'Tor nyeere aka'.* 
 
 3. Nke a ga-eme ka peeji dị na ihuenyo na-egosi ngwa ndị Tor-compatible. Chọta obere akpa Zcash gị na ndepụta ahụ wee hụ na ahọpụtara ya.
 
 4. Arịrịọ njikọ iji hazie VPN ga-apụta, nke ga-enye *Orbot* ohere inyocha okporo ụzọ netwọk ahụ. *Orbot* ga-amalite ozugbo enyere ikike a. 
 
-5. Lelee taskbar ma ọ bụ ibe mbụ nke Orbot iji hụ na Tor na-agba ọsọ, a na-akwado nke a mgbe ị hụrụ 'Jikọrọ na netwọk Tor '.
+5. Lelee taskbar ma ọ bụ ibe mbụ nke Orbot iji hụ na Tor na-arụ ọrụ, a na-akwado nke a mgbe ị hụrụ 'Jikọrọ na netwọk Tor '.
 
 *Rịba ama: Ọ bụrụ na netwọk ekwentị gị egbochi Tor, ị nwere ike iji Bridge Server dị ka ụzọ ọzọ iji jikọọ.*
 
@@ -60,7 +68,7 @@ Soro ntuziaka ndị a iji bufee obere akpa Zcash site na Tor. Mara na YWallet, n
 
  Ụzọ kachasị mma isi wụnye Tor bụ site na Tor Browser Bundle. Ọ bụrụ na ịchọrọ itinye Tor na-enweghị isi, ị nwere ike ịhọrọ itinye Tor daemon iche. 
 
-*Rịba ama: Dịka ọ dị na mbụ, ngwugwu Tor Browser na-ekpughe onye na-ege SOCKS na tcp/9150 ebe Tor daemon na-ekpughe onye na-ege SOCKS na tcp/9050.*
+*Rịba ama: Site na ndabara, ngwugwu Tor Browser na-ekpughe onye na-ege SOCKS na tcp/9150 ebe Tor daemon na-ekpughe onye na-ege SOCKS na tcp/9050.*
 
 * Lee anya na ntinye ahụ [ntuziaka](https://support.torproject.org/little-t-tor/getting-started/installing/) kpọmkwem na sistemụ arụmọrụ gị dịka Tor Project si nye.
 
@@ -78,10 +86,18 @@ Nke a bụ akụkụ nke gbanwere ọtụtụ ihe, azịza eziokwu bụ na ọ s
 
 Akwụkwọ ndekọ igbe ahụ kwuru otu ihe ahụ nke ọma: *"Tor ruo mgbe `arti-client`ndabere nke `x25519-dalek v1.2.0` emelitere."* `connect_isolated_tor` A na-akọwa ọrụ ahụ yana ya. Ya mere, enweghị ụzọ a na-akwado iji mee ka node Zcash rụọ ọrụ karịa Tor taa.
 
-Ọ bụrụ na ịchọrọ ka aha njirimara nke ọkwa node dị ugbu a, ụzọ dị irè bụ itinye igwe ahụ dum n'azụ Tor ma ọ bụ VPN n'ọkwa sistemụ arụmọrụ kama ịhazi node ahụ n'onwe ya. Nke ahụ na-echebe ebe netwọk gị na-adabereghị na atụmatụ node nke na-abụghị nke e wuru.
+Ọ bụrụ na ịchọrọ ka aha njirimara nke ọkwa node dị ugbu a, ụzọ dị irè bụ itinye igwe ahụ dum n'azụ Tor ma ọ bụ VPN n'ọkwa sistemụ arụmọrụ kama ịhazi node ahụ n'onwe ya. Nke ahụ na-echebe ebe netwọk gị dị na-adabereghị na atụmatụ node nke na-abụghị nke e wuru.
 
 ### Ihe ị ka nwere ike ime taa
 
 - **Jiri Orbot mee obere akpa gị site na Tor** na ekwentị mkpanaaka, dịka akọwara n'elu. Nke a bụ nhọrọ bara uru maka ọtụtụ mmadụ, ọ na-ezochikwa IP gị na sava lightwalletd obere akpa gị na-agwa okwu
 - **Jiri Tor Browser** maka ndị na-eme nchọgharị na ngọngọ, ebe mkparịta ụka na ihe ọ bụla ọzọ ebe ị na-achọghị ka e jikọọ gị site na adreesị
 - **Cheta ihe Tor anaghị ezo ezo.** Ọ na-eme ka aha ebe netwọk gị dị, ọ bụghị ihe omume gị n'usoro. Izipu ozi site na adreesị doro anya ka bụ ihe ọha na eze, ebe uru gafere n'etiti ọdọ mmiri ndị a na-echebe ka na-ebipụta ego ahụ. Lee [Ọdọ Mmiri E Kpuchiri Ekpuchi](/using-zcash/shielded-pools) maka ihe na-anọgide na-ahụ anya
+
+## Ibe ndị metụtara ya
+
+- [VPN na DVPN](VPN_and_DVPN.md) - Nhọrọ VPN na otu ha si atụnyere
+- [Ihe Nchọgharị Weebụ](Web_Browsers.md) - ihe nchọgharị siri ike maka nzuzo kwa ụbọchị
+- [Ndị Ozi Nchekwa](Secure_Messengers.md) — ngwaọrụ nkwukọrịta nkeonwe
+- [Ihe Onye Nchọgharị Block Nwere Ike Ịhụ](../Zcash_Tech/What_a_Block_Explorer_Can_See.md) - ihe nzuzo gị na-eme na ihe ọ naghị echebe
+- [Ọdọ Mmiri E Kpuchiri Ekpuchi](/using-zcash/shielded-pools) - ihe na-anọgide na-apụta ìhè n'usoro ọbụlagodi na enweghị aha netwọk

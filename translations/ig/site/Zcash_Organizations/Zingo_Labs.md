@@ -1,37 +1,39 @@
 #  <img src="/content-images/e38b13a9-d410-426a-a1e6-2dde105d56c4-6b8154e5ae.webp" alt="Alt Text" width="50"/> ZingoLabs
 
-[Ebe nrụọrụ weebụ gọọmentị](https://zingolabs.org/) - [GitHub](https://github.com/zingolabs) - [X/Twitter](https://x.com/ZingoLabs) - [Instagram](https://www.instagram.com/zingolabesp/)
+[Weebụsaịtị gọọmentị](https://zingolabs.org/) - [GitHub](https://github.com/zingolabs) - [X/Twitter](https://x.com/ZingoLabs) - [Instagram](https://www.instagram.com/zingolabesp/)
 
-ZingoLabs is a team of visionaries dedicated to enhancing the human experience. We believe that technology should benefit humanity and that we thrive through consensual interactions. We are identifying the patterns that make this possible.
+ZingoLabs bụ otu ndị ọkachamara n'ihe gbasara ọhụụ raara onwe ha nye ime ka ahụmịhe mmadụ ka mma. Anyị kwenyere na teknụzụ kwesịrị ịbara ụmụ mmadụ uru nakwa na anyị na-eme nke ọma site na mmekọrịta ndị mmadụ na ibe ha. Anyị na-achọpụta ụkpụrụ ndị na-eme ka nke a kwe omume.
 
-Zingo Lab Cyan operates as a Shielded DAO. We store our funds in a treasury where every member has a view key. Funds are spent from the treasury when members vote in favor of a proposal.
+Zingo Lab Cyan na-arụ ọrụ dị ka onye nchekwa DAO. Anyị na-echekwa ego anyị n'ụlọ akụ ebe onye ọ bụla nwere igodo nlele. A na-emefu ego site na ụlọ akụ mgbe ndị otu votu kwadoro atụmatụ.
 
-## Ihe oru ngo
+## Ọrụ
 
-### Zingo! obere akpa ([GitHub](https://github.com/zingolabs/zingo-mobile))
-Zingo Wallet is a fully featured Zcash wallet designed for user friendliness, although it includes some advanced features for more advanced users. It supports transparent, Sapling and Orchard pools, has an address book for recurrent payments and is available in various languages. It was the first wallet to support Orchard and to implement NU5 formats.
+### Akpa Zingo! ([GitHub](https://github.com/zingolabs/zingo-mobile))
+Zingo Wallet bụ obere akpa Zcash zuru oke nke e mere maka ịdị mma na ndị ọrụ, ọ bụ ezie na ọ gụnyere ụfọdụ atụmatụ dị elu maka ndị ọrụ ka elu. Ọ na-akwado ọdọ mmiri Sapling na Ironwood doro anya, nwere akwụkwọ adreesị maka ịkwụ ụgwọ ugboro ugboro ma dị na asụsụ dị iche iche. Ọ bụ obere akpa mbụ kwadoro Orchard ma tinye usoro NU5 n'ọrụ.
 
-Otu n'ime ihe ndị bụ isi nke Zingo! bụ ikike ya iji mpaghara Memo iji nye nghọta bara uru banyere azụmahịa gị.
+Otu n'ime ihe ndị bụ isi nke Zingo! bụ ikike ya iji ubi Memo nye nghọta bara uru gbasara azụmahịa gị.
 
-Zingo! dị maka ngwaọrụ mkpanaka na PC. Ị ga-ahụ ihe niile nbudata [ebe a](https://zingolabs.org/)
+Zingo! dị maka ngwaọrụ mkpanaka na PC. Ị ga-ahụ nbudata niile [Ebe a](https://zingolabs.org/)
 
 ### Zingolib ([GitHub](https://github.com/zingolabs/zingolib))
-An API and test-app that exposes zcash functionality for app consumption. Zingolib provides both a library for zingo-mobile, as well as an included cli application to interact with zcashd via lightwalletd called zingo-cli, a command line lightwalletd-proxy client.
+API na ngwa nnwale nke na-ekpughe ọrụ zcash maka oriri ngwa. Zingolib na-enye ma ọbá akwụkwọ maka zingo-mobile, yana ngwa cli dị na ya nke a na-akpọ zingo-cli, obere akpa iwu nke na-agwa onye na-enyocha yinye okwu dịka [Zaino](/zcash-tech/zaino).
 
-### Zaino Indexer ([GitHub](https://github.com/zingolabs/zaino))
-Zaino is an Indexer developed in Rust by the Zingo team, that aims to replace lightwalletd and to push forward the zcashd deprecation project.
+### Ihe ngosi Zaino ([GitHub](https://github.com/zingolabs/zaino))
+Zaino bụ ihe na-egosi Rust maka blockchain Zcash, nke ndị otu Zingo mepụtara. Ọ bụ ihe na-egosi na blockchain dị na Zcash [Ọnụọgụ Z3](/zcash-tech/z3-stack): ọ na-edepụta data agbụ site na [Zebra](/zcash-tech/zebra-full-node) onye na-akwado ma na-ejere obere akpa ego, ndị na-eme nchọpụta, na ndị ahịa ndị ọzọ ozi. Ọ bụ ụzọ ga-anọchi lightwalletd.
 
-Zaino offers essential features for both light clients, such as wallets and applications that do not require the full blockchain history, and full clients or wallets. It also supports block explorers, granting access to both the finalized blockchain and the non-finalized best chain and mempool managed by a Zebra or zcashd full validator.
+Zaino na-enye atụmatụ dị mkpa maka ma ndị ahịa dị mfe, dịka obere akpa na ngwa ndị na-anaghị achọ akụkọ ihe mere eme nke blockchain zuru oke, yana ndị ahịa zuru oke ma ọ bụ obere akpa. Ọ na-akwadokwa ndị na-eme nchọpụta ngọngọ, na-enye ohere ịnweta ma blockchain emechara ... nke onye na-enyocha ihe zuru oke nke Zebra na-achịkwa.
 
-###  ZLN (zcash-local-net) ([GitHub](https://github.com/zingolabs/infrastructure/tree/dev/zcash_local_net))
-Otu setịpụrụ nke ọrụ ndị na-ebute ma jikwaa usoro Zcash. A na-eji nke a maka ule ntinye na mmepe nke:
+`zcashd` ruo nkwụsịtụ ya na njedebe nke nkwado na 18 Julaị 2026 na ngọngọ 3,417,100 ma anaghị akwado Ironwood (NU6.3). Zaino gụrụ akwụkwọ ikike Zebra.
+
+###  ZLN (zcash-local-net)[GitHub](https://github.com/zingolabs/infrastructure/tree/dev/zcash_local_net))
+
+Otu ihe eji arụ ọrụ nke na-amalite ma na-ejikwa usoro Zcash. A na-eji nke a eme ihe maka nnwale njikọta na mmepe nke:
 - ndị ahịa ọkụ
-- ndị na-edepụta aha
-- ndị na-akwado
+- ndị na-egosi ihe ndeksi
+- ndị na-eme nyocha
 
-Its goal is to offer a highly adaptable and sturdy testing environment for core nodes (validators) such as zcash and zebra, indexers like lightwallet and zaino, minimally, zingo-cli as a light client wallet.
+Ebumnobi ya bụ inye ebe nnwale siri ike ma dịkwa mfe maka isi nodes (ndị na-akwado ya) dịka Zebra, ihe ndeksi dịka Zaino, na obere akpa ndị ahịa dị mfe dịka zingo-cli.
 
-This repository is designed to compare the functionality of various validators (like zcashd and Zebrad) and indexers (such as lightwalletd and Zaino) to facilitate the migration during the zcashd deprecation process.
+Ihe ndekọ ọ na-ewepụta bụ Zebrad, zainod, na zcash-devtool `zcashd` na usoro lightwalletd nọ n'azụ enweghị nkwado `legacy-stack` atụmatụ ma a na-ahazi ya maka iwepụ.
 
-In addition to providing tools to start, cache, and load Zcash chain data (for mainnet, testnet, and regtest), zcash-zocal-net includes a series of tests to compare the capabilities of lightwalletd and Zaino across all Lightwallet RPC services. These tests can be executed directly from Zaino (see [https://github.com/zingolabs/zaino/blob/dev/docs/testing.md](https://github.com/zingolabs/zaino/blob/dev/docs/testing.md)]) iji nyochaa ọrụ Lightwallet RPC ndị a na-akwado na Zaino.
-
+Na mgbakwunye na inye ngwaọrụ iji malite, chekwaa, na ibu data usoro Zcash (maka mainnet, testnet, na regtest), a na-eji zcash-local-net site na nnwale Zaino's iji nyochaa ọrụ Lightwallet RPC nke akwadoro na Zaino (lee [Akwụkwọ nnwale Zaino](https://github.com/zingolabs/zaino/blob/dev/docs/testing.md)).

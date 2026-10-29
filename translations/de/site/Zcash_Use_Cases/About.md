@@ -47,6 +47,9 @@ Nutze shielded addresses, um gemeinsame Mittel zu verwahren und die Sichtbarkeit
 ###  [Private Spenden als US-Nonprofit annehmen](/zcash-use-cases/accept-private-donations-as-a-us-nonprofit)
 Akzeptiere shielded ZEC als 501(c)(3) und stelle Spendern dennoch die benötigten Quittungen und IRS-Formulare aus
 
+###  [Wo du spenden kannst ZEC](/zcash-use-cases/where-to-donate-zec)
+Finde gemeinnützige Organisationen, die ZEC akzeptieren, und erfahre, welche von ihnen shielded Spenden annehmen
+
 ###  [Datenschutz-Setup für Journalisten](/zcash-use-cases/journalist-privacy-setup)   
 Nutze für alle Transaktionen shielded addresses und schütze Quellen, indem du nachverfolgbare Zahlungen vermeidest. Verwende Memos sorgfältig für eine sichere Kommunikation
 

@@ -49,7 +49,7 @@ Zcash ɖe mɔ na nutoawo be:
 
 ## <img src="/content-images/icons8-toolbox-9bebbb1619.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> What You Need
 
-- Zcash gakotoku (alo gakotoku geɖe hena akpa ƒe mama) .
+- Zcash gakotoku (alo gakotoku geɖe hena akpa ƒe mama)
 - Ememe ɖoɖo siwo me kɔ hena gazazãwo dzi kpɔkpɔ
 - Tiatia: nuŋlɔɖi siwo woama hena kplɔkplɔ ɖo
 
@@ -66,9 +66,9 @@ Zcash ɖe mɔ na nutoawo be:
 ### Afɔɖeɖe 2: Ðe Akpa Siwo Wowɔna Me
 
 Agbanɔamedzi vovovowo:
-- Gadzikpɔla (ekpɔa ga dzi) .
-- Nudzɔlawo (bia gazazã) .
-- Totoɖemelawo (da asi ɖe edzi le ememe) .
+- Gadzikpɔla (ekpɔa ga dzi)
+- Nudzɔlawo (bia gazazã)
+- Totoɖemelawo (da asi ɖe edzi le ememe)
 
 Ƒo asa na akpa siawo tsɔtsɔ do ƒome kple dutoƒo dzesideŋkɔwo.
 
@@ -85,7 +85,7 @@ Agbanɔamedzi vovovowo:
 
 Zã:
 - Gakotoku me nuŋlɔɖiwo
-- Nuŋlɔɖi siwo mele kɔsɔkɔsɔ me o (e.g., nuŋlɔɖi siwo woama) .
+- Nuŋlɔɖi siwo mele kɔsɔkɔsɔ o (le kpɔɖeŋu me, nuŋlɔɖi siwo woama)
 
 Kpɔɖeŋu memo: 
  - Gakpekpeɖeŋu #12 - Developer Fexexe
@@ -94,7 +94,7 @@ Kpɔɖeŋu memo:
 
 ### Afɔɖeɖe 5: Wɔ Fexexewo Le Adzame
 
-- Ðo ga ɖa to asitsatsa siwo wokpɔ ta na (z → z) dzi .
+- Ðo ga ɖa to asitsatsa siwo wokpɔ ta na (z → z) dzi
 - Ƒo asa na amesiwo xɔe ƒe ŋkɔwo ɖeɖe ɖe go le dutoƒo
 
 <br/>
@@ -121,7 +121,7 @@ Miaƒe nutoa me tɔwo ate ŋu:
 
 ## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="chain-links icon"/> Related
 
-- [Adzamenyawo - Nuwɔna nyuitɔwo kekeake](/start-here/who-can-see-your-zcash-payment)
+- [Amekae ate ŋu akpɔ wò Zcash fexexe](/start-here/who-can-see-your-zcash-payment)
 - [Ðo ga ɖa evɔ màtsɔ amenyenye aɖo kadodo me o](/zcash-use-cases/send-money-without-linking-identity)
  
 

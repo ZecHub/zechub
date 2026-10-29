@@ -57,9 +57,9 @@ Gẹ́gẹ́ bí àwọn àdírẹ́sì tó wà lókè yìí, gbogbo ìṣòwò 
 
 Zcash ní oríṣi àdírẹ́sì tó ju ẹyọ kan lọ, olùṣàwárí kan sì ń tọ́jú wọn lọ́nà tó yàtọ̀ síra.
 
-Àwọn àdírẹ́sì tí ó ṣe kedere, bẹ̀rẹ̀ pẹ̀lú `t`, ṣiṣẹ́ bí Bitcoin. Olùṣàwárí kan fi olùránṣẹ́, olùgbà, iye owó náà, àti ipa ọ̀nà tí ó gbà padà sí ibi tí owó náà ti wá hàn.
+Àwọn àdírẹ́sì tí ó hàn gbangba, bẹ̀rẹ̀ pẹ̀lú `t`, ṣiṣẹ́ bí Bitcoin. Olùṣàwárí kan fi olùránṣẹ́, olùgbà, iye owó náà, àti ipa ọ̀nà tí ó gbà padà sí ibi tí owó náà ti wá hàn.
 
-Àwọn àdírẹ́sì tí a fi ààbò pamọ́ ni apá ìkọ̀kọ̀. Owó nínú Sapling tàbí Orchard [àwọn adágún tí a dáàbò bò](https://zechub.wiki/using-zcash/shielded-pools#content) a fi ẹ̀rí ìmọ̀ kankan dáàbò bò wọ́n. Wá ìṣòwò tí a dáàbò bò pátápátá, olùṣàwárí náà kò sì le fi iye owó náà, àdírẹ́sì, tàbí àkọsílẹ̀ hàn. Ó lè jẹ́rìí sí i pé ìṣòwò tó wúlò ṣẹlẹ̀, a sì kọ ọ́ sínú bulọ́ọ̀kì kan. Àpẹẹrẹ àdáni tí a fi pamọ́ nìyí tí a fihàn ní òkè ojú ìwé yìí.
+Àwọn àdírẹ́sì tí a fi ààbò pamọ́ ni apá ìkọ̀kọ̀. Owó nínú Sapling tàbí Orchard [awọn adagun-odo ti a daabobo](https://zechub.wiki/using-zcash/shielded-pools#content) a fi ẹ̀rí ìmọ̀ kankan dáàbò bò wọ́n. Wá ìṣòwò tí a dáàbò bò pátápátá, olùṣàwárí náà kò sì le fi iye owó náà, àdírẹ́sì, tàbí àkọsílẹ̀ hàn. Ó lè jẹ́rìí sí i pé ìṣòwò tó wúlò ṣẹlẹ̀, a sì kọ ọ́ sínú bulọ́ọ̀kì kan. Àpẹẹrẹ àdáni tí a fi pamọ́ nìyí tí a fihàn ní òkè ojú ìwé yìí.
 
 Àkótán kan wà tí a lè rí kódà fún àwọn ìṣòwò tí a dáàbò bò pátápátá: owó náà. Àwọn òfin ìfọwọ́sowọ́pọ̀ Zcash nílò kí a sọ owó tí ó ṣe kedere ní kedere, nítorí náà olùwádìí lè fi hàn nígbà gbogbo, kódà nígbà tí a bá fi àwọn iye owó náà bò mọ́lẹ̀. Nítorí náà, ó dára láti lo owó àpò ìpamọ́ déédéé, kí ìṣòwò rẹ má baà yàtọ̀ sí ti sísan owó tí kò wọ́pọ̀.
 
@@ -77,6 +77,8 @@ Ohun tí a lè ṣe: ìpamọ́ da lórí dídúró sínú àwọn adágún tí 
 - [ShieldedScan](https://shieldedscan.xyz)
 
 - [ZecBlock](https://zecblock.com/)
+
+- [SoChain](https://sochain.com/zec) ([nẹ́ẹ̀tìwọ́ọ̀kì ìdánwò](https://sochain.com/zectest))
 
 
 

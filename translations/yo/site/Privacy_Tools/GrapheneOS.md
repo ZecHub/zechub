@@ -2,108 +2,122 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Graphene OS (Àdàkọ:Àwọn ojúewé)
+# Graphene OS
 
-GrapheneOS jẹ́ ètò tí kì í ṣe èrè, iṣẹ́ àdáni tí a ṣe láti mú kí ìpamọ́ àti ààbò pọ̀ sí i lórí àwọn ẹ̀rọ alágbèéká nígbà tí ó sì ń pa ìbámu pẹ̀lú àwọn ohun èlò Android mọ́. Ẹ̀rọ ìṣiṣẹ́ yìí ń tẹnu mọ́ ìtẹ̀síwájú nínú ìmọ̀-ẹ̀rọ fún ìpamọ́ àti àbò, pẹ̀lu àkànṣe àfojúsùn lórí gbígbé sandboxing ró, ìmúkúrò àwọn ìfipábánilòpọ̀, àti mímú àwòkọ́ṣe ìfọwọ́sí lọ. A bí i ní ọdún 2014 lábẹ́ orúkọ oyè **CopperheadOS**.
+## TL;DR
 
-Àfojúsùn àkọ́kọ́ ti GrapheneOS ni láti mú àwọn ààlà ààbò lágbára sí i, bíi app sandbox, láìṣe ipa tí kò dára lórí ìrírí olùṣàmúlò. 
+- **GrapheneOS** jẹ́ ètò ìṣiṣẹ́ fóònù alágbéka tí kìí ṣe èrè, tí ó ṣí sílẹ̀ tí ó dojúkọ ìpamọ́ àti ààbò, pẹ̀lú ìbáramu pípé pẹ̀lú àwọn ohun èlò Android ojoojúmọ́
+- Àwọn agbára pàtàkì: àpótí àpò ìfọ̀rọ̀wérọ̀ tó le koko, kódì tó ní ààbò ìrántí àti àwọn ìdínkù tó ń lo agbára, bata tó ní àtìlẹ́yìn ẹ̀rọ, àwọn àṣẹ tó ní ìpele tó dára, àti ààbò ibudo USB-C nígbà tí ẹ̀rọ náà bá ti pa
+- Fifi sori ẹrọ wa nipasẹ olufisi ẹrọ **WebUSB** osise (a ṣeduro fun ọpọlọpọ awọn olumulo) tabi **ila aṣẹ-ila** fun awọn olumulo imọ-ẹrọ
+- Fún olùlò Zcash, ó jẹ́ ìpìlẹ̀ tó lágbára fún ìtọ́jú ara ẹni lórí fóònù: so ó pọ̀ mọ́ àpò ìpamọ́ tí a tọ́jú àti ìmọ́tótó OPSEC déédéé
 
-GrapheneOS may introduce various toggles for specific features, such as Network permissions, Sensors permissions, or restrictions when the device is locked (covering aspects like USB peripherals, camera access, and quick tiles). Additionally, more intricate user-facing privacy and security features are thoughtfully designed to maintain a user-friendly experience, each with its own user interface enhancements.
+GrapheneOS jẹ́ iṣẹ́ àkànṣe tí kìí ṣe ti èrè, tí ó ṣí sílẹ̀ tí a yà sọ́tọ̀ láti mú kí ìpamọ́ àti ààbò pọ̀ sí i lórí àwọn ẹ̀rọ alágbèéká nígbàtí a ń pa ìbáramu mọ́ pẹ̀lú àwọn ohun èlò Android. Ètò ìṣiṣẹ́ yìí gbé àfiyèsí gíga sí ìlọsíwájú nínú ìmọ̀ ẹ̀rọ ìpamọ́ àti ààbò, pẹ̀lú àfiyèsí pàtàkì lórí fífún àpótí sandboxing lágbára, lílo àwọn ìdènà, àti àtúnṣe àwòṣe àṣẹ. A bí i ní ọdún 2014 lábẹ́ orúkọ náà **CopperheadOS**, láti ìgbà náà ni ó ti di olùtọ́jú ìpamọ́ àti ààbò oní-nọ́ńbà rẹ tí ó lágbára.
 
-## Àwọn Ànímọ̀ GrapheneOS
+Ète pàtàkì GrapheneOS ni láti mú kí àwọn ààlà ààbò, bíi àpótí ìṣàfilọ́lẹ̀ náà lágbára sí i, láìsí ìpalára búburú lórí ìrírí olùlò. 
 
-**Security Hardening** GrapheneOS includes extensive security enhancements, such as memory-safe programming languages and compiler-based security features to reduce common vulnerabilities.
+GrapheneOS le ṣe agbekalẹ awọn toggles oriṣiriṣi fun awọn ẹya kan pato, gẹgẹbi awọn igbanilaaye Nẹtiwọọki, awọn igbanilaaye Sensọ, tabi awọn ihamọ nigbati ẹrọ naa ba wa ni titiipa (bo awọn apakan bii awọn ẹya ara ẹrọ USB, iwọle kamẹra, ati awọn tiles iyara). Ni afikun, awọn ẹya ikọkọ ati aabo ti o nira julọ ti olumulo koju ni a ṣe apẹrẹ pẹlu ironu lati ṣetọju iriri ti o rọrun lati lo, ọkọọkan pẹlu awọn imudara wiwo olumulo tirẹ.
 
-**Sandboxing** Ó ń mú kí app sandboxing lágbára láti dá àwọn app sílẹ̀ kúrò lára ara wọn, tí ó sì ń dín àwọn ìkọlù tó ṣeé ṣe kó wáyé kù.
+## **Awọn ẹya ara ẹrọ ti GrapheneOS**
 
-**Verified Boot** GrapheneOS nlo awọn bọtini ti o ni atilẹyin ẹrọ ati ilana igbesoke ti o le ṣayẹwo lati rii daju iduroṣinṣin ti ẹrọ ṣiṣe.
+**Ìmúdàgba Ààbò** GrapheneOS ní àwọn àfikún ààbò tó pọ̀, bíi àwọn èdè ètò ìṣiṣẹ́ tó ní ààbò ìrántí àti àwọn ẹ̀yà ààbò tó dá lórí àkójọpọ̀ láti dín àwọn àìlera tó wọ́pọ̀ kù.
 
-**Enhanced Permissions** It provides improved control over app permissions, allowing users to fine-tune and manage what data apps can access.
+**Ṣíṣe Sandboxing** Ó ń mú kí iṣẹ́ sandboxing app lágbára láti ya àwọn app sọ́tọ̀ kúrò lọ́dọ̀ ara wọn, ó sì ń dín àwọn ohun tó lè fa ìkọlù kù.
 
-**Privacy Dashboard** Awọn olumulo le ṣe atẹle ati ṣakoso ihuwasi ohun elo nipasẹ dasibodu aṣiri kan, ti n pese ṣiṣanwọle si lilo data.
+**Bọ́ọ̀tì tí a ti fìdí rẹ̀ múlẹ̀** GrapheneOS ń lo àwọn kọ́kọ́rọ́ tí a fi ẹ̀rọ ṣe àti ìlànà ìbọ́ọ̀tì tí a lè fìdí rẹ̀ múlẹ̀ láti rí i dájú pé ètò ìṣiṣẹ́ náà jẹ́ èyí tí ó péye.
 
-**Built-in Security Updates** GrapheneOS offers timely security updates, ensuring users have the latest protection against vulnerabilities.
+**Àwọn Ìyọ̀nda Tí A Mú Dára Jù** Ó ń pèsè ìṣàkóso tí ó dára jù lórí àwọn ìyọ̀nda àpù, èyí tí ó ń jẹ́ kí àwọn olùlò ṣàtúnṣe àti ṣàkóso ohun tí àwọn àpù dátà lè wọlé sí.
 
-** Ifilọlẹ ti o lagbara** O nlo ifilọle gbogbo-diski nipasẹ aiyipada, fifipamọ data ti o fipamọ lori ẹrọ naa.
+**Páásítì Ìpamọ́** Àwọn olùlò lè ṣe àbójútó àti ṣàkóso ìwà àpù nípasẹ̀ páásítì ìpamọ́, èyí tí yóò mú kí wọ́n mọ̀ nípa lílo dátà.
 
-** Improvement Browser Security** A ṣe àtúnṣe aṣàwákiri ìpilẹ̀ṣẹ̀ fún ààbò tí ó pọ̀ sí i, títí kan ààbò kúrò nínú wíwá.
+**Àwọn Ìmúdàgbàsókè Ààbò Tí A Gbé Kalẹ̀** GrapheneOS ń fúnni ní àwọn àmúdàgbàsókè ààbò ní àkókò tó yẹ, ó sì ń rí i dájú pé àwọn olùlò ní ààbò tuntun lòdì sí àwọn àìlera.
 
-**Minimal Pre-installed Apps** GrapheneOS comes with minimal pre-installed apps, reducing potential security and privacy risks.
+**Ìfipamọ́ tó lágbára** Ó ń lo ìfipamọ́ díìsìkì gbogbo-nínú nípa àìyípadà, ó sì ń dáàbò bo dátà tó wà lórí ẹ̀rọ náà.
 
-** USB Hostile Port Protection** Ó ń pèsè ààbò lòdì sí ààyè gba àwọn ènìyàn láti wọlé sí ẹ̀rọ náà nípasẹ̀ àwọn èbúté USB nígbà tí ẹ̀yà náà bá ti dí.
+**Ààbò Ẹ̀rọ Aṣàwárí Tí Ó Dára Jù** A ṣètò ẹ̀rọ aṣàwárí àìyípadà fún ààbò tí ó pọ̀ sí i, pẹ̀lú ààbò lòdì sí títẹ̀lé.
 
-** Ààbò Anti-Malware** GrapheneOS ní àwọn ohun èlò láti mọ àti dènà malware tí a mọ̀.
+**Àwọn Ohun Èlò Tí A Ti Fi Sílẹ̀ Kéré Jùlọ** GrapheneOS wá pẹ̀lú àwọn ohun èlò tí a ti fi sílẹ̀ díẹ̀, èyí tí ó ń dín ewu ààbò àti ìpamọ́ kù.
 
-**Fókusí lórí Ìpamọ́** A ṣe ètò ìṣiṣẹ́ náà pẹ̀lú ìfojúsọ́nà tó lágbára lórí ìpamọ́ àwọn olùṣàmúlò, tí ó ń dín àkójọpọ̀ data àti ìdálẹ́wò kù.
+**Ààbò Ibudo Ibudo Odi USB** Ó ń pèsè ààbò lòdì sí wíwọlé láìgbàṣẹ sí ẹ̀rọ náà nípasẹ̀ àwọn ibudo USB nígbà tí ẹ̀rọ náà bá wà ní títìpa.
 
-** Open Source** O jẹ iṣẹ akanṣe orisun ṣiṣi, ti o fun laaye fun ṣiṣafihan ati awọn ilowosi agbegbe lati mu aabo dara si.
+**Ààbò Àwọn Ààbò Àwọn Àìlera** GrapheneOS ní àwọn ẹ̀yà ara láti ṣàwárí àti láti dènà àwọn àṣìlò tí a mọ̀.
 
-**Customizable Security Policies** Users have the ability to customize various security policies to suit their preferences.
+**A dojukọ ìpamọ́** A ṣe apẹrẹ OS naa pẹlu ifojusi pataki lori aṣiri olumulo, ni idinku gbigba data ati ifihan.
 
-**Compatibility** GrapheneOS strives to maintain compatibility with Android apps, so users can continue using their favorite applications while benefiting from enhanced security and privacy features.
+**Orísun Ṣíṣí** Iṣẹ́ àgbékalẹ̀ orísun ṣíṣí ni, èyí tó ń jẹ́ kí àṣírí àti àfikún àwùjọ sunwọ̀n síi láti mú ààbò sunwọ̀n síi.
 
-## **Gbigba GrapheneOS sori ẹrọ**
+**Àwọn Ìlànà Ààbò Tó Ṣeé Ṣe Àtúnṣe** Àwọn olùlò ní agbára láti ṣe àtúnṣe onírúurú ìlànà ààbò láti bá àwọn ohun tí wọ́n fẹ́ mu.
 
-As stated in the best practice section it is recommended to make use of the recommended official installation guide. There are two methods of installing GrapheneOS which is either by making use of the [WebUSB-based installer](https://grapheneos.org/install/web) tàbí lo [ìmọ̀ràn ìmúrasílẹ̀ láti inú ìlà àṣẹ](https://grapheneos.org/install/cli)
+**Ìbáramu** GrapheneOS ń gbìyànjú láti pa ìbáramu mọ́ àwọn ohun èlò Android, kí àwọn olùlò lè máa lo àwọn ohun èlò ayanfẹ wọn nígbà tí wọ́n ń jàǹfààní láti inú àwọn ààbò àti àwọn ẹ̀yà ara ìpamọ́ tí a ti mú sunwọ̀n síi.
 
-**Ifi sori ẹrọ ti o da lori Wẹẹbu USB** Lati fi sori ẹrọ GrapheneOS nipa lilo ọna fifi sori ẹrọ Wẹẹbu, iwọ yoo nilo awọn ohun elo ati awọn orisun wọnyi:
+## **Fifi sori ẹrọ GrapheneOS**
 
-- 2GB ti iranti ọfẹ & 32GB ti aaye ibi ipamọ ọfẹ.
-- USB Cable (A tabi C)
-- Awọn ọna ṣiṣe ti a ṣe atilẹyin: Windows 10, Windows 11, macOS Big Sur (11 - 13), Arch Linux, Debian (10 - 12), Ubuntu (22.04, 22.10 ati 23.04), ChromeOS, GrapheneOS, Google Android (ọja Pixel OS)
-- Awọn aṣàwákiri ti a ṣe atilẹyin: Chromium (ko ṣe atilẹyin pẹlu Ubuntu), Vanadium (GrapheneOS), Google Chrome, Microsoft Edge, Brave Browser.
+Gẹ́gẹ́ bí a ti sọ ní apá ìṣe tó dára jùlọ, a gbani nímọ̀ràn láti lo ìwé ìtọ́nisọ́nà ìfisẹ́lé tí a dámọ̀ràn. Ọ̀nà méjì ló wà láti fi GrapheneOS sílẹ̀, èyí tí a lè lò láti fi [Olùfi sori ẹrọ WebUSB-based](https://grapheneos.org/install/web) tabi lo awọn [itọsọna fifi sori ẹrọ laini aṣẹ](https://grapheneos.org/install/cli)
 
-Ṣayẹwo awọn fifi sori Guide nipasẹ awọn ọna asopọ ni isalẹ ati ki o tẹle awọn fifi ilana
+**Fifi sori ẹrọ ti o da lori USB lori ayelujara** Lati fi GrapheneOS sori ẹrọ nipa lilo ọna fifi sori ẹrọ lori ayelujara, iwọ yoo nilo awọn ohun elo ati awọn orisun wọnyi nigbagbogbo:
 
-[GrapheneOS Web Installer Guide] [Ìtójútó fún Àtúnṣe](https://grapheneos.org/install/web#prerequisites)
+- 2GB ti iranti ọfẹ ati 32GB ti aaye ibi ipamọ ọfẹ.
+- Okùn USB (A tabi C)
+- Ẹ̀rọ Ìṣiṣẹ́ Tí A Ṣe Àtìlẹ́yìn: Windows 10, Windows 11, macOS Big Sur (11-13), Arch Linux, Debian (10-12), Ubuntu (22.04, 22.10 àti 23.04), ChromeOS, GrapheneOS, Google Android (ilé ìpamọ́ Pixel OS)
+- Àwọn ẹ̀rọ alágbékalẹ̀ tí a ṣe àtìlẹ́yìn: Chromium (kò sí lábẹ́ àtìlẹ́yìn Ubuntu), Vanadium (GrapheneOS), Google Chrome, Microsoft Edge, Brave Browser.
 
-**Ifi sori ẹrọ Laini Iṣẹ** A ko ṣe iṣeduro fifi sori ẹrọ laini aṣẹ fun awọn olumulo ti ko ni itọsọna imọ-ẹrọ ati awọn irinṣẹ ati awọn orisun ti o wa ni isalẹ nilo fun Fifi sori Laini Itọsọna;
+Ṣayẹwo Itọsọna fifi sori ẹrọ nipasẹ ọna asopọ ni isalẹ ki o tẹle ilana fifi sori ẹrọ
 
-- O yẹ ki o ni o kere 2GB ti free iranti wa ati 32GB ti awọn free ibi ipamọ
-- USB Cable (A tabi C)
-- Àwọn ètò ìṣiṣẹ tí ó wà fún Windows 10 Windows 11 macOS Big Sur (11) macOS Monterey (12) macOS Ventura (13) Arch Linux Debian 10 (buster) Debian 11 (bullseye) Debian 12 (bookworm) Ubuntu 20.04 LTS Ubuntu 22.04 Lts Ubuntu 22.10 Ubuntu 23.04
-- Olùgbéejáde Ìkànnì láti Android, ChromeOS tàbí GrapheneOS
+[Ìtọ́sọ́nà fún Olùfisẹ́lé Wẹ́ẹ̀bù GrapheneOS](https://grapheneos.org/install/web#prerequisites)
 
-Ṣayẹwo awọn fifi sori Guide nipasẹ awọn ọna asopọ ni isalẹ ati ki o tẹle awọn fifi ilana 
+**Fifi sori ẹrọ laini aṣẹ** A ko ṣeduro fifi sori ẹrọ laini aṣẹ fun awọn olumulo ti ko ni itọsọna imọ-ẹrọ ati pe awọn irinṣẹ ati awọn orisun isalẹ nilo fun Fifi sori ẹrọ laini aṣẹ;
 
-[Ìtòlẹ́sẹẹsẹ Ìsọfúnni Ìpínlẹ̀](https://grapheneos.org/install/cli#prerequisites)
+- O yẹ ki o ni o kere ju 2GB ti iranti ọfẹ ati 32GB ti aaye ibi ipamọ ọfẹ
+- Okùn USB (A tabi C)
+- Ẹ̀rọ Ìṣiṣẹ́ Tí A Tẹ́wọ́gbà Windows 10 Windows 11 macOS Big Sur (11) macOS Monterey (12) macOS Ventura (13) Arch Linux Debian 10 (buster) Debian 11 (bullseye) Debian 12 (bookworm) Ubuntu 20.04 LTS Ubuntu 22.04 LTS Ubuntu 22.10 Ubuntu 23.04
+- Olùfi sori ẹrọ wẹẹbu lati Android, ChromeOS tabi GrapheneOS
 
-## Àwọn Ìṣe Tó Dára Jù Lọ
+Ṣayẹwo Itọsọna fifi sori ẹrọ nipasẹ ọna asopọ ni isalẹ ki o tẹle ilana fifi sori ẹrọ 
 
-**Mú kí OS wà ní àtúnyẹ̀wò** Máa mú GrapheneOS tuntun déédéé láti rí i dájú pé o ní àwọn àtúnṣe ààbò àti àwọn àfikún tó ṣẹ̀ṣẹ̀ jáde.
+[Fifi sori ẹrọ laini aṣẹ](https://grapheneos.org/install/cli#prerequisites)
 
-**Lọ̀rọ̀ Àkọsílẹ̀ Tó lágbára** Ṣeto àwọn àkànṣe ọ̀rò̀ ààbò tó lágbára fún ìdìbò ẹrọ àti ìwífún ìwúlò láti dènà àyèwò tí kò bá òfin mu.
+## **Àwọn Ìlànà Tó Dáa Jùlọ**
 
-**Àwọn Àṣẹ App** Ṣàgbéyẹ̀wò àti ṣakoso àwọn àṣẹ app pẹ̀lú ìtọ́jú, fífún ohun tó pọn dandan fún app kọ̀ọ̀kan láti ṣiṣẹ́.
+**Jẹ́ kí OS náà máa wà ní ìgbà tuntun** Máa ṣe àtúnṣe GrapheneOS déédéé láti rí i dájú pé o ní àwọn àtúnṣe ààbò tuntun àti àwọn àtúnṣe.
 
-**Awọn Afowoyi Igbagbogbo** Ṣiṣe awọn afẹyinti igbagbogbo ti data rẹ ni ọran ti pipadanu ẹrọ tabi ibajẹ data.
+**Lo Awọn Ọrọigbaniwọle to lagbara** Ṣeto awọn ọrọ igbaniwọle to lagbara, alailẹgbẹ fun fifi ẹnọ kọ nkan ẹrọ ati iwọle app lati dena iwọle laigba aṣẹ.
 
-** Encrypt Storage** Ti ko ba jẹ ki o ṣiṣẹ nipasẹ aiyipada, ṣe encrypt ibi ipamọ ẹrọ rẹ lati daabobo data rẹ ti ẹrọ ba sọnu tabi ji.
+**Ìyọ̀nda Ohun èlò** Ṣe àtúnyẹ̀wò àti ṣàkóso àwọn àṣẹ ohun èlò pẹ̀lú ìṣọ́ra, kí o sì fún wọn ní ohun tí ó yẹ kí ohun èlò kọ̀ọ̀kan ṣiṣẹ́ nìkan.
 
-**Awọn iboju titiipa Aabo** Lo iboji titiipa ti o ni aabo, gẹgẹbi PIN, ọrọigbaniwọle, tabi idanimọ biometric, lati ṣe idiwọ iraye si alaṣẹ.
+**Awọn afẹyinti deede** Ṣe afẹyinti deede ti data rẹ ti o ba sọnu ẹrọ tabi ibajẹ data.
 
-**Ẹ yẹra fún Gbígbin Ẹrọ Android Rẹ**Ẹ yàgò fún gbígbin tàbí ṣíṣí àlàfo bootloader, nítorí èyí lè sọ ààbò ẹrọ di aláìlágbára.
+**Àkójọ ìpamọ́** Tí a kò bá ṣiṣẹ́ nípa àìyípadà, fi àkójọ ìpamọ́ ẹ̀rọ rẹ pamọ́ láti dáàbò bo dátà rẹ tí ẹ̀rọ náà bá sọnù tàbí tí a jí i.
 
-**Ṣayẹwo Awọn Orisun Ohun elo** Ṣayẹwo otitọ ti awọn ohun elo ati awọn orisun wọn lati yago fun fifi sori ẹrọ sọfitiwia irira.
+**Ibojú Títìpa Ààbò** Lo ibojú títìpa ààbò, bíi PIN, ọ̀rọ̀ìpamọ́, tàbí ìfọwọ́sowọ́pọ̀ bíẹ́kítírìkì, láti dènà wíwọlé láìgbàṣẹ.
 
-**Fi aṣàwákiri tó dá lórí ìpamọ́ sori ẹrọ** Rò ó wò láti lo aṣáwákí tó dá sórí ìpamọ́ra bíi aṣàwo Brave, Firefox tàbí Bromite fún wíwá kiri tí ó ní ààbò.
+**Yẹra fún lílo ẹ̀rọ Android rẹ** Yẹra fún lílo bootloader tàbí ṣíṣí bootloader náà, nítorí èyí lè dín ààbò ẹ̀rọ náà kù.
 
-**Ríṣayẹwo Àwọn Ohun Èlò Lákòókò-kíkún** Máa ṣàyẹ̀wò àti yọ àwọn ohun èlò tí o kò lò mọ́ tàbí tí o ò fọkàn tán láti dín àyè ìkọlù kù.
+**Ṣàyẹ̀wò Àwọn Orísun Ohun Èlò** Ṣàyẹ̀wò òótọ́ àwọn ohun èlò àti àwọn orísun wọn láti yẹra fún fífi software búburú sílẹ̀.
 
-**Fún ìfọwọ́rí-àṣeyọrí-méjì (2FA)** Fún 2FA fún àwọn àkọọ́lẹ̀ orí ayélujára rẹ láti fi àfikún àyè ààbò kún un.
+**Fi ẹ̀rọ lilọ kiri ayelujara ti o dojukọ asiri sori ẹrọ** Ronu nipa lilo ẹ̀rọ lilọ kiri ayelujara ti o dojukọ asiri gẹgẹbi Brave browser, Firefox tabi Bromite fun lilọ kiri ayelujara ti o ni aabo.
 
-** Yẹra fun Wi-Fi ti gbogbo eniyan** Ṣọra nigbati o ba n sopọ si awọn nẹtiwọọki Wi-fi ti gbogbo ènìyàn, bi wọn ṣe le jẹ ailewu diẹ. Lo VPN nigbati o jẹ dandan.
+**Ṣe àyẹ̀wò àwọn ohun èlò déédéé** Ṣe àtúnyẹ̀wò àti yọ àwọn ohun èlò tí o kò lò tàbí gbẹ́kẹ̀lé mọ́ kúrò láti dín ojú ìkọlù kù.
 
-**Ṣójútó pẹ̀lú Àkọsílẹ̀ Ibi-ipò** Ṣàdéhùn ìtọpinpinpin ibi fún àwọn ohun èlò àti ronú nípa lílo ọ̀rọ̀-ìmọ̀-ibi tí ó jẹ́ àdàkàdekè bí o bá mọyì ìpamọ́ra.
+**Mu Ijẹrisi-Okunfa Meji (2FA) ṣiṣẹ** Mu 2FA ṣiṣẹ fun awọn akọọlẹ ori ayelujara rẹ lati ṣafikun ipele aabo afikun.
 
-**Ẹ yẹra fún àwọn ìjápọ̀ àti àwọn àfikún tí a kò mọ̀**Ẹ ṣọ́ra fún ìjábọ̀ tí a ò fẹ́ àti àfipamọ́ e-mail, nítorí wọ́n lè jẹ́ ìdánwò phishing tàbí malware.
+**Yẹra fún Wi-Fi Gbogbogbò** Ṣọ́ra nígbà tí o bá ń sopọ̀ mọ́ àwọn nẹ́tíwọ́ọ̀kì Wi-Fi gbogbogbò, nítorí pé wọ́n lè má ní ààbò tó pọ̀. Lo VPN nígbà tí ó bá yẹ.
 
-** Ṣayẹwo Awọn Aṣayan Aifọwọyi** Fi pẹlẹpẹlẹ ṣayẹwo ati ṣatunṣe awọn eto aiyipada lati ṣe deede pẹlu awọn ayanfẹ aṣiri rẹ.
+**Ṣọ́ra pẹ̀lú Dátà Ibùdó** Dín ìtọ́pinpin ibi tí àwọn àpù ń lò kù kí o sì ronú nípa lílo ohun èlò ìtanràn ibi tí o bá mọyì ìpamọ́.
 
-** Ìrànlọ́wọ́ láti ọ̀dọ̀ àwùjọ** Ṣiṣẹ́pọ̀ pẹ̀lú àwùjọ GrapheneOS àti àwọn àpérò fún ìmọ̀ràn, àtúnṣe, àti ìtọ́sọ́nà ààbò. O lè kàn sí ẹgbẹ́ náà kí o sì máa wà ní mímọ̀ nípa wíwá [níbí](https://grapheneos.org/contact) láti wá àwọn èèyàn míì kàn.
+**Yẹra fún Àwọn Ìsopọ̀ àti Àwọn Àfikún Àìmọ̀** Ṣọ́ra fún àwọn ìjápọ̀ tí a kò béèrè fún àti àwọn àfikún ìmeeli, nítorí wọ́n lè jẹ́ ìgbìyànjú ìfiranṣẹ́ tàbí malware.
 
-**Use Official Installation Method** GrapheneOS offers two officially supported installation methods. Users can opt for the WebUSB-based installer, which is recommended for most individuals, or they can follow the command-line installation guide, tailored to more technically inclined users.
+**Ṣe àtúnyẹ̀wò Àwọn Ètò Àìyípadà** Ṣàtúnyẹ̀wò kí o sì ṣàtúnṣe àwọn Ètò Àìyípadà láti bá àwọn ìfẹ́ ọkàn ìpamọ́ rẹ mu.
 
-## **Ìparí ìwádìí**
+**Àtìlẹ́yìn Àwùjọ** Ṣe àjọṣepọ̀ pẹ̀lú àwùjọ GrapheneOS àti àwọn ibi ìpàdé fún àwọn ìmọ̀ràn, àwọn ìròyìn tuntun, àti ìmọ̀ràn ààbò. O lè kàn sí ẹgbẹ́ náà kí o sì máa tẹ̀síwájú láti ní ìròyìn tuntun [Nibi](https://grapheneos.org/contact) láti ṣe àwárí àwọn ìbáṣepọ̀ míràn.
 
-In essence, GrapheneOS is all about providing an alternative mobile operating system that prioritizes the privacy and security of its users, giving them greater control over their digital lives while offering compatibility with the apps they rely on. It is a project that aims to set a high standard for mobile device security and privacy in an age where these concerns are paramount.
+**Lo Ọ̀nà Ìfisílẹ̀ Olóṣèlú** GrapheneOS ní ọ̀nà ìfisílẹ̀ méjì tí ìjọba fọwọ́ sí. Àwọn olùlò lè yan olùfisílẹ̀ WebUSB-based, èyí tí a gbà nímọ̀ràn fún ọ̀pọ̀lọpọ̀ ènìyàn, tàbí wọ́n lè tẹ̀lé ìtọ́nisọ́nà ìfisílẹ̀ àṣẹ, tí a ṣe fún àwọn olùlò tí ó ní ìfẹ́ sí ìmọ̀ ẹ̀rọ.
+
+## **Ìparí**
+
+Ní ṣókí, GrapheneOS fẹ́ láti pèsè ètò ìṣiṣẹ́ alágbéka mìíràn tí ó ṣe pàtàkì sí ìpamọ́ àti ààbò àwọn olùlò rẹ̀, tí ó fún wọn ní ìṣàkóso tó ga jù lórí ìgbésí ayé oní-nọ́ńbà wọn nígbà tí ó ń fún wọn ní ìbáramu pẹ̀lú àwọn àpù tí wọ́n gbẹ́kẹ̀lé. Ó jẹ́ iṣẹ́ àgbékalẹ̀ kan tí ó ń gbìyànjú láti gbé ìlànà gíga kalẹ̀ fún ààbò àti ìpamọ́ ẹ̀rọ alágbéka ní àkókò tí àwọn àníyàn wọ̀nyí jẹ́ pàtàkì jùlọ.
+
+## Àwọn ojú ìwé tó jọra
+
+- [Àwọn Ońṣẹ́ Ààbò](Secure_Messengers.md) — ibaraẹnisọrọ ikọkọ lori ẹrọ ti o nira
+- [Ìfipamọ́ PGP](PGP_Encryption.md) — mail ti paroko ati paṣipaarọ faili
+- [VPN ati DVPN](VPN_and_DVPN.md) — ìpamọ́ ìpele nẹtiwọọki lórí alagbeka
+- [Àwọn ẹ̀rọ aṣàwákiri wẹ́ẹ̀bù](Web_Browsers.md) — yiyan ati lile ẹrọ lilọ kiri ayelujara alagbeka kan

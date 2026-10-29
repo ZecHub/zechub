@@ -50,7 +50,7 @@ Zcash ma wotumi:
 ## <img src="/content-images/icons8-toolbox-9bebbb1619.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> What You Need
 
 - Zcash sika kotoku a ɛboa nnwuma a wɔabɔ ho ban
-- Katua a ɛnyɛ den (wɔde nsa anaa nea wɔaka abom) .
+- Katua a ɛnyɛ den (wɔde nsa anaa nea wɔaka abom)
 - Optional: nhyehyɛe a wɔde di nneɛma akyi
 
 
@@ -60,7 +60,7 @@ Zcash ma wotumi:
 
 ### Anamɔn 1: Fa Address a Wɔde Tua Ka Si hɔ
 
-- Yɛ address a wɔabɔ ho ban (z).
+- Yɛ address a wɔabɔ ho ban (z)
 - Fa eyi di dwuma de gye sika a wotua
 
 
@@ -74,8 +74,8 @@ Wɔ asɛm biara a wɔde di dwuma ho no:
 ### Anamɔn 3: Track Orders
 
 Fa di dwuma:
-- Memos (sɛ nhwɛso no, Order ID) .
-- Anaasɛ off-chain tracking (database, spreadsheet) .
+- Memos (sɛ nhwɛso no, Order ID)
+- Anaasɛ off-chain tracking (database, spreadsheet)
 
 
 Nhwɛsoɔ:
@@ -88,7 +88,7 @@ Nhwɛsoɔ:
 - Fa memo anaa sika dodow a wobɛkra no hyia
 
 
-### Anamɔn 5: Kura Kokoam Ahotew Mu
+### Anamɔn 5: Kura Kokoam Ahotew mu
 
 - Kwati sɛ wobɛsan de address ahorow adi dwuma wɔ baguam sɛ ɛbɛyɛ yiye a
 - Mma n’adwuma ho abakɔsɛm nkyerɛ
@@ -121,7 +121,7 @@ Wobɛtumi:
 
 
 - [Sika kotoku](/wallets)
-- [Privacy - Nneyɛe a Ɛyɛ Paara](/start-here/who-can-see-your-zcash-payment)
+- [Hena na obetumi ahu wo Zcash sikatua](/start-here/who-can-see-your-zcash-payment)
 
 <br/>
 

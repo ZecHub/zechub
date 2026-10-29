@@ -108,10 +108,10 @@ Awọn iye owo kekere meji lo wa pelu. Awọn apamọwọ ina gba nipa 200 KB di
 
 ## Ipo ati Ago
 
-- **ZIP:** Àkọsílẹ̀. Àwọn onílé Dev Ojha àti Evan Forbes; tí a dá sílẹ̀ ní ọjọ́ kẹtàlá oṣù kẹta ọdún 2026.
+- **ZIP:** A gbero. Awọn oniwun Dev Ojha ati Evan Forbes; a ṣẹda ni ọjọ 13 Oṣu Kẹta ọdun 2026.
 - **Ìdìbò olùní owó:** ti parí ní ọjọ́ kẹrìnlá oṣù kẹsàn-án ọdún 2026, pẹ̀lú ìtìlẹ́yìn 99.9%. Ìdìbò náà fi hàn pé ó wù ú; kò yí àwọn òfin ìfohùnṣọ̀kan padà fúnra rẹ̀.
-- **Àkókò Ìlànà:** Nínú ìkéde Zcash Community Forum ní ọjọ́ kẹtàdínlógún oṣù kẹsàn-án, àwọn àjọ ìdàgbàsókè gbà láti ṣe àkójọ ìlànà kódì tí a parí ní ọjọ́ ọgbọ̀n oṣù kẹsàn-án, NU7 lórí testnet ní ọjọ́ kẹfà oṣù kẹwàá, ìpinnu ìkẹyìn àti gíga ìṣiṣẹ́ mainnet ní ọjọ́ ogún oṣù kẹwàá, àti ìṣiṣẹ́ mainnet tí a fojú sí fún nǹkan bí ọjọ́ karùn-ún oṣù kọkànlá ọdún 2026. Oṣù kọkànlá ọjọ́ karùn-ún jẹ́ àfojúsùn, kì í ṣe ọjọ́ tí a yàn, títí tí a ó fi yan gíga náà.
-- **Imuṣe:** a tọ́pasẹ̀ rẹ̀ nínú Zebra ([#11440](https://github.com/ZcashFoundation/zebra/issues/11440)) àti ní Zakura ([PR #1066](https://github.com/zakura-core/zakura/pull/1066)).
+- **Àkókò Ìlànà:** Nínú ìkéde Zcash Community Forum ní ọjọ́ kẹtàdínlógún oṣù kẹsàn-án, àwọn àjọ ìdàgbàsókè gbà láti parí ìtòlẹ́sẹẹsẹ kódì náà ní ọjọ́ ọgbọ̀n oṣù kẹsàn-án, NU7 lórí testnet ní ọjọ́ kẹfà oṣù kẹwàá, àti ìpinnu ìkẹyìn ní ọjọ́ ogún oṣù kẹwàá. Gíga ìṣiṣẹ́ mainnet ti wà ní 3,543,405 báyìí ([ZIP 259](https://zips.z.cash/zip-0259)), ti a pinnu fun nnkan bi 5 Oṣù Kọkànlá 2026.
+- **Imuse:** a tọ́pasẹ̀ rẹ̀ nínú Zebra ([#11440](https://github.com/ZcashFoundation/zebra/issues/11440)) àti ní Zakura ([PR #1066](https://github.com/zakura-core/zakura/pull/1066)).
 
 ## Kí ni èyí túmọ̀ sí fún ọ
 

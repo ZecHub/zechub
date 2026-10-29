@@ -6,7 +6,7 @@
 
 > Zcash ilizinduliwa mnamo Oktoba 28, 2016, ikiwa na bwawa la kuogelea lenye ulinzi la Sprout.
 
-> **Onyo:** NU7 yaifanya ZEC bado ipo kwenye bwawa Sprout isiweze kutumika mara tu itakapoanza kutumika (mainnet inalenga tarehe 5 Novemba 2026, uamuzi wa mwisho tarehe 20 Oktoba 2026; tazama [ZIP 259](https://zips.z.cash/zip-0259)). Kama una fedha za Sprout, soma [Kurejesha fedha](../using-zcash/recovering-funds) na kuwahamisha kwanza.
+> **Onyo:** NU7 yafanya ZEC bado ipo kwenye bwawa la Sprout isiweze kutumika mara tu itakapowashwa (urefu wa uanzishaji wa mtandao mkuu ni 3,543,405, unaolengwa tarehe 5 Novemba 2026; tazama [ZIP 259](https://zips.z.cash/zip-0259)Kama una fedha za Sprout, soma [Kurejesha fedha](../using-zcash/recovering-funds) na kuwahamisha kwanza.
 
 Utakachochukua: Sprout ndipo Zcash ilipoanzia, pesa za kibinafsi na zinazoweza kuthibitishwa zilipoanza kutumika kwenye blockchain ya moja kwa moja.
 

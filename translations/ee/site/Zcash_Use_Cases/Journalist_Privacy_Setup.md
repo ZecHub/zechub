@@ -51,7 +51,7 @@ Zcash na:
 ## <img src="/content-images/icons8-toolbox-9bebbb1619.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> What You Need
 
 - Zcash gakotoku si ŋu wotsɔ akpoxɔnu kpe ɖo
-- Kadodomɔnu si le dedie (le blockchain godo) .
+- Kadodomɔnu si le dedie (le blockchain godo)
 - Dɔwɔwɔ ƒe amehehe
 
 <br/>
@@ -73,7 +73,7 @@ Zcash na:
 ### Afɔɖeɖe 3: Ta Dzɔtsoƒe Fexexewo Ta
 
 Ne fexexetsoƒewo:
-- Zã asitsatsa siwo ŋu wokpɔ ta na (z → z) .
+- Zã asitsatsa siwo ŋu wokpɔ ta na (z → z)
 - Ƒo asa na ɣeyiɣi ƒe ɖoɖo siwo woate ŋu agblɔ ɖi
 - Mègazã adrɛswo ake o
 
@@ -113,7 +113,7 @@ Ate ŋu:
 
 ## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="chain-links icon"/> Related
 
-- [Adzamenyawo - Nuwɔna nyuitɔwo kekeake](/start-here/who-can-see-your-zcash-payment)
+- [Amekae ate ŋu akpɔ wò Zcash fexexe](/start-here/who-can-see-your-zcash-payment)
 - [Ðo ga ɖa evɔ màtsɔ amenyenye aɖo kadodo me o](/zcash-use-cases/send-money-without-linking-identity)
 
  <br/>

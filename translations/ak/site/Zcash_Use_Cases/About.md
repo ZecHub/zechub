@@ -10,10 +10,10 @@ Saa ɔfa yi kyerɛ wo **sɛnea wode Zcash bedi dwuma pɛpɛɛpɛ wɔ asetra mu t
 - Sɛnea wobɛkwati mfomso a ɛtaa ba a ɛma wo data da adi
 - Sɛnea wɔde Zcash bedi dwuma wɔ wiase tebea horow ankasa mu
 
-## Sɛnea Wɔde Akwankyerɛ Nhoma Yi Di Dwuma
+## Sɛnea Wɔde Akwankyerɛ Yi Di Dwuma
 
 Agorudi nhoma biara ne:
-- Tiatiaa (simma 5-7) .
+- Tiatiaa (simma 5-7)
 - Anamɔn biara
 - Wɔde wɔn adwene asi wiase ankasa so 
 
@@ -43,6 +43,12 @@ Gye sikatua denam address a wɔabɔ ho ban so na kwati sɛ wobɛda adetɔfo nkit
 
 ###  [Di Private Community Sikakorabea bi so](/zcash-use-cases/private-community-treasury)
 Fa address ahorow a wɔabɔ ho ban di dwuma de kura sika a wɔkyɛ mu na siw sika a aka ne nnwuma a wotumi hu no ano hye
+
+###  [Gye Ankorankoro Ntoboa sɛ U.S. Adwumakuw a Ɛnyɛ Mfaso](/zcash-use-cases/accept-private-donations-as-a-us-nonprofit)
+Gye ZEC a wɔabɔ ho ban sɛ 501(c)(3) na woda so ara ma wɔn a wɔde mmoa ma no nkrataa a wɔde gye sika ne IRS nkrataa a wohia
+
+###  [Baabi a Wɔde Bɛma ZEC](/zcash-use-cases/where-to-donate-zec)
+Hwehwɛ adwumakuw a wɔnyɛ adwuma a mfaso wɔ so a wogye ZEC, na wɔn mu nea ɛwɔ he na ɔfa akyɛde a wɔabɔ ho ban
 
 ###  [Nsɛm ho amanneɛbɔfo Kokoam Nsɛm Ho Nhyehyɛe](/zcash-use-cases/journalist-privacy-setup)   
 Fa address a wɔabɔ ho ban di dwuma ma nnwuma nyinaa na bɔ fibea ahorow ho ban denam kwati a wobɛkwati sɛ wubetua sika a wotumi hwehwɛ mu no so. Fa memos di dwuma yiye ma nkitahodi a ahobammɔ wom
