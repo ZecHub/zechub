@@ -21,7 +21,7 @@ const git = (...a) => execFileSync("git", ["-C", repo, ...a], { encoding: "utf8"
 const w = (p, body) => { mkdirSync(dirname(join(repo, p)), { recursive: true }); writeFileSync(join(repo, p), body); };
 const commit = (msg) => { git("add", "-A"); git("-c", "user.name=t", "-c", "user.email=t@t", "commit", "-qm", msg); };
 const run = (...args) => {
-  const r = spawnSync(process.execPath, [GATE, ...args], { cwd: repo, encoding: "utf8", env: { ...CLEAN_ENV, GITHUB_ACTIONS: "" } });
+  const r = spawnSync(process.execPath, [GATE, ...args], { cwd: repo, encoding: "utf8", maxBuffer: 64 * 1024 * 1024, env: { ...CLEAN_ENV, GITHUB_ACTIONS: "" } });
   return { status: r.status, out: r.stdout + r.stderr, stdout: r.stdout };
 };
 
@@ -38,9 +38,25 @@ before(() => {
   w("site/swap.md", EN_SWAP);
   w("translations/el/site/swap.md", EL_SWAP);
   w("translations/ja/site/swap.md", "# スワップ\n\nZecHubの[Phantomウォレットで ZEC にスワップする方法](/using-zcash/solswap)ガイドはsolswapを説明します。\n");
+  w("translation/protected-terms.json", JSON.stringify({ preserveVerbatim: ["NU5", "Zcash", "ZecHub"] }));
   commit("base");
 });
 after(() => rmSync(repo, { recursive: true, force: true }));
+
+test("protected names ending in a digit come from translation/protected-terms.json", () => {
+  git("checkout", "-qb", "nu5");
+  w("translations/el/site/swap.md", `${EL_SWAP}\nΗ NU5αναβάθμιση ενεργοποιήθηκε.\n`);
+  commit("nu5");
+  const r = run("--base", "main");
+  assert.equal(r.status, 1, r.out);
+  assert.match(r.out, /swap\.md:5:\d+: error: glued-name/);
+  w("translation/protected-terms.json", "{ not json");
+  const bad = run("--base", "main");
+  assert.equal(bad.status, 1);
+  assert.match(bad.out, /could not run: translation\/protected-terms\.json/);
+  git("checkout", "-q", "--", ".");
+  git("checkout", "-q", "main");
+});
 
 test("an unscoped run fails on the damage already in the tree", () => {
   const r = run();
@@ -135,6 +151,39 @@ test("uncommitted edits are checked too", () => {
   const r = run("--base", "main");
   assert.equal(r.status, 1, r.out);
   git("checkout", "-q", "--", ".");
+  git("checkout", "-q", "main");
+});
+
+test("an uncommitted rename compares with its old name too", () => {
+  git("checkout", "-qb", "dirty-rename");
+  git("mv", "translations/el/site/lib.md", "translations/el/site/library.md");
+  const r = run("--base", "main");
+  assert.equal(r.status, 0, r.out);
+  assert.match(r.out, /already there at the base/);
+  git("reset", "-q", "--hard");
+  git("checkout", "-q", "main");
+});
+
+test("an existing broken link removed and re-added on another line fails", () => {
+  git("checkout", "-qb", "moved");
+  w("translations/el/site/lib.md", EL_LIB_BROKEN.replace("[ZcashΠορτοφόλια του οικοσυστήματος](/using-zcash/wallets)", "[Πορτοφόλια του οικοσυστήματος Zcash](/using-zcash/wallets)")
+    + "\nΚαι ξανά: [ZcashΠορτοφόλια του οικοσυστήματος](/using-zcash/wallets).\n");
+  commit("moved");
+  const r = run("--base", "main");
+  assert.equal(r.status, 1, r.out);
+  assert.match(r.out, /lib\.md:7:\d+: error: glued-name/);
+  git("checkout", "-q", "main");
+});
+
+test("--json survives a pipe with a large report", () => {
+  git("checkout", "-qb", "big");
+  const many = Array.from({ length: 4000 }, (_, i) => `Γραμμή ${i}: δες [ZcashΠορτοφόλια](/w${i}).`).join("\n\n");
+  w("translations/el/site/lib.md", `# Βιβλιοθήκη\n\n${many}\n`);
+  commit("big");
+  const r = run("--json");
+  assert.equal(r.status, 1);
+  const j = JSON.parse(r.stdout);                         // throws on a truncated document
+  assert.equal(j.counts.el["glued-name"], 4000);
   git("checkout", "-q", "main");
 });
 

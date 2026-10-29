@@ -31,6 +31,18 @@ function die(msg) {
   process.exit(1);
 }
 
+// Protected names ending or starting in a digit or punctuation ("NU5",
+// "Zingo!") are matched as whole names; the letter rule cannot see them. An
+// absent file only loses that extra coverage; a malformed one is an error
+// (check-terms-file.mjs reports why).
+let terms = [];
+const termsPath = join(root, "translation/protected-terms.json");
+if (existsSync(termsPath)) {
+  try { terms = JSON.parse(readFileSync(termsPath, "utf8")).preserveVerbatim ?? []; }
+  catch (e) { die(`translation/protected-terms.json: ${e.message}`); }
+  if (!Array.isArray(terms)) die("translation/protected-terms.json: preserveVerbatim is not a list");
+}
+
 // translations/<loc>/site/<page>.md -> { loc, en: site/<page>.md }
 function parse(path) {
   const p = path.split("/");
@@ -69,8 +81,11 @@ if (base) {
   if (!sha) die(`base ref "${base}" could not be resolved (shallow clone? run CI with fetch-depth: 0)`);
   mergeBase = sha;
   try { mergeBase = git(["merge-base", sha, "HEAD"]).trim() || sha; } catch { /* unrelated history: compare with the ref itself */ }
+  // Base against the WORKING TREE (not ..HEAD), so an uncommitted or staged
+  // rename is seen as a rename too, and a local run before committing sees
+  // what CI will see. Untracked pages are added below.
   let out;
-  try { out = git(["diff", "--name-status", "-M", "-z", "--diff-filter=ACMRT", `${mergeBase}..HEAD`, "--", "translations/"]); }
+  try { out = git(["diff", "--name-status", "-M", "-z", "--diff-filter=ACMRT", mergeBase, "--", "translations/"]); }
   catch (e) { die(`git diff against ${mergeBase.slice(0, 12)} failed: ${e.message.split("\n")[0]}`); }
   const f = out.split("\0");
   const set = new Set();
@@ -79,12 +94,8 @@ if (base) {
     if (/^[RC]/.test(f[i])) { renamedFrom.set(f[i + 2], f[i + 1]); set.add(f[i + 2]); i += 2; }
     else { set.add(f[i + 1]); i += 1; }
   }
-  // Uncommitted and untracked pages too, so a local run before committing
-  // sees what CI will see.
-  for (const args of [["diff", "--name-only", "-z", "HEAD", "--", "translations/"],
-                      ["ls-files", "--others", "--exclude-standard", "-z", "--", "translations/"]]) {
-    try { for (const p of git(args).split("\0")) if (p) set.add(p); } catch { /* range-only */ }
-  }
+  try { for (const p of git(["ls-files", "--others", "--exclude-standard", "-z", "--", "translations/"]).split("\0")) if (p) set.add(p); }
+  catch { /* nothing untracked */ }
   pages = [...set].filter((p) => parse(p) && existsSync(join(root, p)) && statSync(join(root, p)).isFile());
 } else {
   pages = walk("translations").filter((p) => parse(p));
@@ -93,14 +104,14 @@ if (base) {
 const errors = [], inherited = [];
 for (const tr of pages.sort()) {
   const { loc, en } = parse(tr);
-  const found = findReorderDamage(readFileSync(join(root, tr), "utf8"), loc, readFile(en)).map((h) => ({ tr, loc, ...h }));
+  const found = findReorderDamage(readFileSync(join(root, tr), "utf8"), loc, readFile(en), terms).map((h) => ({ tr, loc, ...h }));
   if (!found.length) continue;
   let before = [];
   if (mergeBase) {
     const oldTr = renamedFrom.get(tr) ?? tr;
     const old = parse(oldTr);
     const bTr = showAt(mergeBase, oldTr);
-    if (bTr !== null && old) before = findReorderDamage(bTr, old.loc, showAt(mergeBase, old.en) ?? "");
+    if (bTr !== null && old) before = findReorderDamage(bTr, old.loc, showAt(mergeBase, old.en) ?? "", terms);
   }
   const s = splitInherited(found, before);
   errors.push(...s.fresh);
@@ -131,9 +142,12 @@ if (json) {
   }
 }
 
+// process.exitCode, never process.exit(): exit() does not wait for a piped
+// stdout to drain, so `--json | jq` received a truncated document.
 const scope = mergeBase ? `${pages.length} changed translated page(s)` : `${pages.length} translated page(s)`;
 if (errors.length) {
   console.error(`\nReorder-damage check failed: ${errors.length} finding(s) in ${new Set(errors.map((e) => e.tr)).size} page(s), across ${scope}.`);
-  process.exit(1);
+  process.exitCode = 1;
+} else {
+  (json ? console.error : console.log)(`Reorder-damage check passed: ${scope}${inherited.length ? `, ${inherited.length} inherited finding(s)` : ""}.`);
 }
-(json ? console.error : console.log)(`Reorder-damage check passed: ${scope}${inherited.length ? `, ${inherited.length} inherited finding(s)` : ""}.`);

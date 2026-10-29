@@ -15,8 +15,8 @@
 //     one thing the model is free to drop.
 //   * a link opener "[" moved away from its closer "](url)":
 //       - orphan-link-close: «Ο οδηγός ZecHubΠώς να ... Phantom](/using-zcash/solswap)
-//         του [ καλύπτει» — the "]( " has no "[" before it on the line, so the
-//         reader sees the raw bracket and URL;
+//         του [ καλύπτει» — the "](" has no "[" before it, so the reader sees
+//         the raw bracket and URL;
 //       - label-leading-space: «διαδικασία διακυβέρνησης[ του ](…)» — the
 //         brackets still pair up, so every count-based check passes, but the
 //         opener landed in front of the space before a function word.
@@ -32,37 +32,46 @@
 // Latin. A Latin letter directly against a letter of that script is never
 // correct there. CJK (ja, ko, zh) and Thai are deliberately absent: their
 // text runs into Latin names without a space as a matter of course ("Zcashを",
-// "Zcash 지갑" and "Zcash钱包" are all normal), so the rule would be noise.
-// A Latin-script locale is absent too: Akan writes Greek-looking ε/ͻ inside
-// Latin words, which is its orthography, not damage.
-// Add a new locale here when it is written in one of these scripts.
+// "Zcash钱包"), so the rule would be noise. A Latin-script locale is absent
+// too: Akan writes Greek-looking ε/ͻ inside Latin words, which is its
+// orthography, not damage.
+// To add a locale, check its clitics first: Arabic attaches some to a Latin
+// word (PROCLITIC/SUFFIX below), Persian writes a ZWNJ plural ("Zcash‌ها"),
+// Hebrew prefixes ו/ב/ל. Each needs its own allowance and a sweep of the
+// locale's pages before it goes in.
 export const SPACED_SCRIPT = Object.freeze({
   el: "Greek",
   ru: "Cyrillic", uk: "Cyrillic", bg: "Cyrillic", be: "Cyrillic", mk: "Cyrillic", sr: "Cyrillic", kk: "Cyrillic",
-  ar: "Arabic", fa: "Arabic", ur: "Arabic",
-  hi: "Devanagari", mr: "Devanagari", ne: "Devanagari",
+  ar: "Arabic",
+  hi: "Devanagari",
 });
 
 // Arabic attaches proclitics to the next word, a Latin one included:
 // "وZcash" (and Zcash), "بـZebra" (with Zebra), "لـFROST", "الـfinalizers",
-// "بالartifact" — conjunction و/ف, preposition ب/ل/ك, article ال, optionally
-// with a tatweel. It also writes a plural ending onto a Latin loanword
-// ("proxyات", "digestين"). Those are the language's own orthography, so they
-// are allowed. A whole Arabic WORD glued to a name ("Zebraعقدة",
-// "القيمZcash") is still damage.
-const PROCLITIC = { Arabic: /^(?:[وف]?[بلك]?(?:ال)?)ـ?$/u };
+// "بالartifact", "للZcash" — conjunction و/ف, preposition ب/ل/ك, article ال
+// (ل + ال contracts to لل), optionally with a tatweel. It also writes a plural
+// ending onto a Latin loanword ("proxyات", "digestين"). Those are the
+// language's own orthography, so they are allowed. A whole Arabic WORD glued
+// to a name ("Zebraعقدة", "القيمZcash") is still damage.
+const PROCLITIC = { Arabic: /^[وف]?(?:لل|[بلك]?(?:ال)?)ـ?$/u };
 const SUFFIX = { Arabic: /^(?:ات|ين|ون)$/u };
 
 const LATIN = /\p{Script=Latin}/u;
-const scriptRe = (s) => new RegExp(`\\p{Script=${s}}`, "u");
+const scriptLetter = (s) => new RegExp(`(?=\\p{L})\\p{Script=${s}}`, "u");
 
 // Same-length blanking, so a column found on the masked line is the column in
-// the page. Fenced blocks and inline code are SHOWN, not prose; link targets
-// and bare URLs are addresses (a Cyrillic Wikipedia URL is not a glued word).
-const blank = (s) => " ".repeat(s.length);
+// the page. Fenced blocks, inline code and HTML comments are shown verbatim or
+// hidden, never prose.
+const blank = (s) => s.replace(/[^\n]/g, " ");
 export function maskCode(lines) {
-  let fence = null;
+  let fence = null, comment = false;
   return lines.map((l) => {
+    if (comment) {
+      const e = l.indexOf("-->");
+      if (e < 0) return blank(l);
+      comment = false;
+      l = blank(l.slice(0, e + 3)) + l.slice(e + 3);
+    }
     const f = l.match(/^\s*(?:>\s*)*(?:[-*+]\s+|\d+[.)]\s+)?(`{3,}|~{3,})/);
     if (f) {
       if (fence === null) fence = f[1];
@@ -70,7 +79,10 @@ export function maskCode(lines) {
       return blank(l);
     }
     if (fence !== null) return blank(l);
-    return l.replace(/(`+)[^`]*?\1/g, blank).replace(/<!--.*?-->/g, blank);
+    l = l.replace(/(`+)[^`]*?\1/g, blank).replace(/<!--.*?-->/g, blank);
+    const open = l.indexOf("<!--");
+    if (open >= 0) { comment = true; l = l.slice(0, open) + blank(l.slice(open)); }
+    return l;
   });
 }
 
@@ -85,35 +97,56 @@ function targetEnd(line, open) {
   return -1;
 }
 
-// Walk one (code-masked) line the way a reader's eye pairs brackets: every
-// "[" opens (an image "![" included), a "]" closes the nearest open one, and a
+// A line that starts a new Markdown block: a link label cannot continue into
+// it, so an opener left unclosed above it is dropped there.
+const BLOCK_START = /^\s{0,3}(?:#{1,6}\s|[-*+]\s|\d+[.)]\s|>|\|)/;
+
+// Walk (code-masked) lines the way a reader's eye pairs brackets: every "["
+// opens (an image "![" included), a "]" closes the nearest open one, and a
 // "](" with nothing open is a closer whose opener went missing. Link targets
-// are skipped whole, so a bracket inside a URL never counts.
-export function scanLinks(line) {
-  const stack = [], links = [], orphans = [];
-  for (let i = 0; i < line.length; i++) {
-    const c = line[i];
-    if (c === "\\") { i++; continue; }
-    if (c === "[") { stack.push(i); continue; }
-    if (c !== "]") continue;
-    const opener = stack.length ? stack.pop() : null;
-    if (line[i + 1] !== "(") continue;
-    const end = targetEnd(line, i + 1);
-    const target = end < 0 ? line.slice(i + 2) : line.slice(i + 2, end);
-    if (opener === null) orphans.push({ col: i, target });
-    else links.push({ open: opener, close: i, label: line.slice(opener + 1, i), image: line[opener - 1] === "!", target });
-    if (end >= 0) i = end;
-  }
+// are skipped whole, so a bracket inside a URL never counts. An opener carries
+// to the next line of the same paragraph, because a label may wrap
+// ("[A long label\nthat wraps](url)"); a blank line or a new block ends it.
+export function scanLinksIn(lines) {
+  const links = [], orphans = [];
+  let stack = [];
+  lines.forEach((line, ln) => {
+    if (!line.trim() || BLOCK_START.test(line)) stack = [];
+    for (let i = 0; i < line.length; i++) {
+      const c = line[i];
+      if (c === "\\") { i++; continue; }
+      if (c === "[") { stack.push({ ln, col: i }); continue; }
+      if (c !== "]") continue;
+      const opener = stack.length ? stack.pop() : null;
+      if (line[i + 1] !== "(") continue;
+      const end = targetEnd(line, i + 1);
+      const target = end < 0 ? line.slice(i + 2) : line.slice(i + 2, end);
+      if (opener === null) orphans.push({ ln, col: i, target });
+      else {
+        const ol = lines[opener.ln];
+        const label = opener.ln === ln ? line.slice(opener.col + 1, i) : ol.slice(opener.col + 1);
+        links.push({ ln, openLn: opener.ln, open: opener.col, close: i, label, image: ol[opener.col - 1] === "!", target });
+      }
+      if (end >= 0) i = end;
+    }
+  });
   return { links, orphans };
 }
 
-// Blank link targets and bare URLs for the glue rule.
-function maskAddresses(line) {
-  let out = line;
-  const { links, orphans } = scanLinks(line);
-  for (const { close, target } of links) out = out.slice(0, close + 2) + blank(target) + out.slice(close + 2 + target.length);
-  for (const { col, target } of orphans) out = out.slice(0, col + 2) + blank(target) + out.slice(col + 2 + target.length);
-  return out.replace(/<?https?:\/\/[^\s)>\]]+>?/g, blank).replace(/<[a-z][^>]*>/gi, blank);
+// One line on its own (kept for callers and tests).
+export function scanLinks(line) {
+  return scanLinksIn([line]);
+}
+
+// Blank link targets, bare URLs and HTML tags for the glue rule.
+function maskAddresses(lines) {
+  const out = [...lines];
+  const { links, orphans } = scanLinksIn(lines);
+  for (const { ln, close, col, target } of [...links, ...orphans]) {
+    const at = (close ?? col) + 2;
+    out[ln] = out[ln].slice(0, at) + blank(target) + out[ln].slice(at + target.length);
+  }
+  return out.map((l) => l.replace(/<?https?:\/\/[^\s)>\]]+>?/g, blank).replace(/<[a-z][^>]*>/gi, blank));
 }
 
 // A letter (or a combining mark riding on one) of a word.
@@ -123,30 +156,45 @@ const WORD = /[\p{L}\p{M}\u200c\u200d]+/gu;
 // Marks and Common/Inherited characters (tatweel, ZWNJ) are neutral: they
 // neither start nor break a junction.
 function junctions(word, script) {
-  const S = scriptRe(script);
+  const S = scriptLetter(script);
   const out = [];
-  let prev = null, prevIdx = -1;
-  const chars = [...word];
-  let off = 0;
-  for (const ch of chars) {
-    const kind = LATIN.test(ch) ? "L" : S.test(ch) && /\p{L}/u.test(ch) ? "S" : null;
+  let prev = null, off = 0;
+  for (const ch of word) {
+    const kind = LATIN.test(ch) ? "L" : S.test(ch) ? "S" : null;
     if (kind) {
-      if (prev && prev !== kind) out.push({ at: off, from: prev, to: kind, prevIdx });
+      if (prev && prev !== kind) out.push({ at: off, from: prev });
       prev = kind;
-      prevIdx = off;
     }
     off += ch.length;
   }
   return out;
 }
 
+const escapeRe = (s) => s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+
+// Protected names whose first or last character is not a Latin letter
+// ("NU5", "Zingo!", "Web3", "1inch") never form a junction inside one WORD —
+// the digit or "!" splits it — so the letter rule cannot see «NU5αναβάθμιση».
+// They are matched as whole names instead, with the same boundaries the
+// masker uses (not preceded/followed by an ASCII letter or digit).
+function edgeNamePattern(terms, script) {
+  const tail = terms.filter((t) => /[^A-Za-z]$/.test(t)), head = terms.filter((t) => /^[^A-Za-z]/.test(t));
+  const alt = (ts) => [...new Set(ts)].sort((a, b) => b.length - a.length).map(escapeRe).join("|");
+  const parts = [];
+  if (tail.length) parts.push(`(?<![A-Za-z0-9])(?<tail>${alt(tail)})(?=(?=\\p{L})\\p{Script=${script}})`);
+  if (head.length) parts.push(`(?<=(?=\\p{L})\\p{Script=${script}})(?<head>${alt(head)})(?![A-Za-z0-9])`);
+  return parts.length ? new RegExp(parts.join("|"), "gu") : null;
+}
+
 // Findings for one translated page. `enText` is the English page; a finding
-// whose key the English has as well (multiset) is dropped.
-export function findReorderDamage(text, loc, enText = "") {
-  const found = scan(text, loc);
+// whose (rule, key) the English has as well is dropped, as a multiset. `terms`
+// is translation/protected-terms.json's preserveVerbatim list (optional: it
+// only adds names that end or start in a digit or punctuation).
+export function findReorderDamage(text, loc, enText = "", terms = []) {
+  const found = scan(text, loc, terms);
   if (!enText) return found;
   const allow = new Map();
-  for (const f of scan(enText, loc)) allow.set(`${f.rule}\0${f.key}`, (allow.get(`${f.rule}\0${f.key}`) ?? 0) + 1);
+  for (const f of scan(enText, loc, terms)) allow.set(`${f.rule}\0${f.key}`, (allow.get(`${f.rule}\0${f.key}`) ?? 0) + 1);
   return found.filter((f) => {
     const k = `${f.rule}\0${f.key}`;
     const n = allow.get(k) ?? 0;
@@ -155,59 +203,74 @@ export function findReorderDamage(text, loc, enText = "") {
   });
 }
 
-function scan(text, loc) {
+function scan(text, loc, terms = []) {
   const script = SPACED_SCRIPT[loc] ?? null;
   const raw = text.split("\n");
   const lines = maskCode(raw);
   const out = [];
-  lines.forEach((line, i) => {
-    const { links, orphans } = scanLinks(line);
-    for (const o of orphans)
-      out.push({ rule: "orphan-link-close", line: i + 1, col: o.col + 1, key: o.target, text: raw[i] });
-    for (const l of links) {
-      if (l.image) continue;
-      if (/^[ \t]+\S/.test(l.label))
-        // Keyed by target alone: the English may pad a label itself
-        // ("[ 😎 #ZookoEnZcast ... ](url)"), and its translation is a
-        // different string pointing at the same URL.
-        out.push({ rule: "label-leading-space", line: i + 1, col: l.open + 1, key: l.target, text: raw[i] });
-    }
-    if (!script) return;
-    const prose = maskAddresses(line);
-    for (const m of prose.matchAll(WORD)) {
-      // One finding per word, carrying every junction in it: "Межсетeвая"
-      // (a Latin "e" inside a Cyrillic word) is one defect, not two.
-      const ats = [];
-      for (const j of junctions(m[0], script)) {
-        if (j.from === "S" && PROCLITIC[script]) {
-          const head = m[0].slice(0, j.at);
-          if (head && PROCLITIC[script].test(head)) continue;
+  const { links, orphans } = scanLinksIn(lines);
+  for (const o of orphans)
+    out.push({ rule: "orphan-link-close", line: o.ln + 1, col: o.col + 1, key: o.target, text: raw[o.ln] });
+  for (const l of links) {
+    if (l.image) continue;
+    // Keyed by target alone: the English may pad a label itself
+    // ("[ 😎 #ZookoEnZcast ... ](url)"), and its translation is a different
+    // string pointing at the same URL. The allowance is a multiset, so it
+    // covers as many padded links to that URL as the English has, no more.
+    if (/^[ \t]+\S/.test(l.label))
+      out.push({ rule: "label-leading-space", line: l.openLn + 1, col: l.open + 1, key: l.target, text: raw[l.openLn] });
+  }
+  if (script) {
+    const prose = maskAddresses(lines);
+    const edge = edgeNamePattern(terms, script);
+    prose.forEach((line, i) => {
+      const glued = [];
+      for (const m of line.matchAll(WORD)) {
+        // One finding per word, carrying every junction in it: "Межсетeвая"
+        // (a Latin "e" inside a Cyrillic word) is one defect, not two.
+        const ats = [];
+        for (const j of junctions(m[0], script)) {
+          if (j.from === "S" && PROCLITIC[script] && PROCLITIC[script].test(m[0].slice(0, j.at))) continue;
+          if (j.from === "L" && SUFFIX[script] && SUFFIX[script].test(m[0].slice(j.at))) continue;
+          ats.push(m.index + j.at);
         }
-        if (j.from === "L" && SUFFIX[script]) {
-          const tail = m[0].slice(j.at);
-          if (SUFFIX[script].test(tail)) continue;
-        }
-        ats.push(m.index + j.at);
+        if (ats.length) glued.push({ start: m.index, end: m.index + m[0].length, ats });
       }
-      if (ats.length) out.push({ rule: "glued-name", line: i + 1, col: ats[0] + 1, key: m[0], text: raw[i], ats });
-    }
-  });
-  return out;
+      for (const m of edge ? line.matchAll(edge) : []) {
+        const name = m.groups.tail ?? m.groups.head;
+        const at = m.groups.tail ? m.index + name.length : m.index;
+        // The word on the far side of the junction, for the key and the
+        // Arabic clitic tests.
+        const left = line.slice(0, at).match(/[\p{L}\p{M}\u200c\u200d]*$/u)[0];
+        const right = line.slice(at).match(/^[\p{L}\p{M}\u200c\u200d]*/u)[0];
+        if (m.groups.head && PROCLITIC[script]?.test(left)) continue;
+        if (m.groups.tail && SUFFIX[script]?.test(right)) continue;
+        const start = m.groups.tail ? m.index : at - left.length;
+        const end = m.groups.tail ? at + right.length : m.index + name.length;
+        if (!glued.some((g) => g.ats.includes(at))) glued.push({ start, end, ats: [at] });
+      }
+      for (const g of glued.sort((a, b) => a.start - b.start))
+        out.push({ rule: "glued-name", line: i + 1, col: g.ats[0] + 1, key: raw[i].slice(g.start, g.end), text: raw[i], ats: g.ats });
+    });
+  }
+  return out.sort((a, b) => a.line - b.line || a.col - b.col);
 }
 
 // Insert the missing space where a glued word is a PROTECTED NAME touching a
-// word of the locale's script: "[ZcashΠορτοφόλια" -> "[Zcash Πορτοφόλια".
-// Only names are repaired. Any other mixed-script word ("Межсетeвая" with a
-// Latin "e" inside a Cyrillic word) is a different defect and a space would
-// make it worse, so it is left for the gate to report.
+// word of the locale's script: "[ZcashΠορτοφόλια" -> "[Zcash Πορτοφόλια",
+// "NU5αναβάθμιση" -> "NU5 αναβάθμιση". Only names are repaired. Any other
+// mixed-script word ("Межсетeвая" with a Latin "e" inside a Cyrillic word) is
+// a different defect and a space would make it worse, so it is left for the
+// gate to report.
 // Returns { text, repaired } where repaired lists { line, word } per fix.
 export function repairGluedNames(text, loc, terms) {
-  if (!SPACED_SCRIPT[loc]) return { text, repaired: [] };
-  const names = [...new Set(terms)].filter((t) => /^[\x21-\x7e](?:.*[\x21-\x7e])?$/.test(t)).sort((a, b) => b.length - a.length);
+  const script = SPACED_SCRIPT[loc];
+  if (!script) return { text, repaired: [] };
+  const S = scriptLetter(script);
+  const names = [...new Set(terms)].filter((t) => t && t === t.trim()).sort((a, b) => b.length - a.length);
   const raw = text.split("\n");
-  const hits = scan(text, loc).filter((f) => f.rule === "glued-name");
   const byLine = new Map();
-  for (const h of hits) {
+  for (const h of scan(text, loc, terms).filter((f) => f.rule === "glued-name")) {
     if (!byLine.has(h.line)) byLine.set(h.line, []);
     byLine.get(h.line).push(...h.ats);
   }
@@ -215,12 +278,13 @@ export function repairGluedNames(text, loc, terms) {
   for (const [ln, ats] of [...byLine].sort((a, b) => a[0] - b[0])) {
     let s = raw[ln - 1];
     const fixed = [];
-    for (const at of ats.sort((a, b) => b - a)) {           // right to left: offsets stay valid
+    for (const at of [...new Set(ats)].sort((a, b) => b - a)) {   // right to left: offsets stay valid
       const before = s.slice(0, at), after = s.slice(at);
-      const endsWithName = names.find((t) => before.endsWith(t) && !/[A-Za-z0-9]/.test(before[before.length - t.length - 1] ?? ""));
-      const startsWithName = names.find((t) => after.startsWith(t) && !/[A-Za-z0-9]/.test(after[t.length] ?? ""));
-      if (endsWithName && LATIN.test(before[before.length - 1])) { s = `${before} ${after}`; fixed.push({ line: ln, word: endsWithName }); }
-      else if (startsWithName && LATIN.test(after[0])) { s = `${before} ${after}`; fixed.push({ line: ln, word: startsWithName }); }
+      const prev = [...before].pop() ?? "", next = [...after][0] ?? "";
+      const endsWithName = S.test(next) && names.find((t) => before.endsWith(t) && !/[A-Za-z0-9]/.test(before[before.length - t.length - 1] ?? ""));
+      const startsWithName = S.test(prev) && names.find((t) => after.startsWith(t) && !/[A-Za-z0-9]/.test(after[t.length] ?? ""));
+      const word = endsWithName || startsWithName;
+      if (word) { s = `${before} ${after}`; fixed.push({ line: ln, word }); }
     }
     raw[ln - 1] = s;
     repaired.push(...fixed.reverse());                      // reading order within the line
@@ -228,22 +292,24 @@ export function repairGluedNames(text, loc, terms) {
   return { text: raw.join("\n"), repaired };
 }
 
-// Findings in `head` that `base` did not have, by (rule, key) multiset.
-// Damage that was already there is returned separately as `inherited`.
+// Findings in `head` that `base` did not have. Identity is the rule, the key
+// AND the line's text: removing a broken link on one line and adding the same
+// broken link on another is new damage, not the old one. A line that was
+// rewritten is judged again, so damage a regenerated block reproduces is new.
 export function splitInherited(head, base) {
+  const id = (f) => `${f.rule}\0${f.key}\0${(f.text ?? "").trim()}`;
   const before = new Map();
-  for (const f of base) before.set(`${f.rule}\0${f.key}`, (before.get(`${f.rule}\0${f.key}`) ?? 0) + 1);
+  for (const f of base) before.set(id(f), (before.get(id(f)) ?? 0) + 1);
   const fresh = [], inherited = [];
   for (const f of head) {
-    const k = `${f.rule}\0${f.key}`;
-    const n = before.get(k) ?? 0;
-    if (n > 0) { before.set(k, n - 1); inherited.push(f); } else fresh.push(f);
+    const n = before.get(id(f)) ?? 0;
+    if (n > 0) { before.set(id(f), n - 1); inherited.push(f); } else fresh.push(f);
   }
   return { fresh, inherited };
 }
 
 export const RULE_HELP = {
   "glued-name": "a Latin word is glued to a word of this language with no space between them. The model moved a placeholder (a protected name such as Zcash) when it reordered the sentence and the space was lost. Put the space back, and the name where the language puts it",
-  "orphan-link-close": "this link has no opening \"[\" before its \"](\" on the line, so the reader sees a raw bracket and the URL. The model moved the \"[\" when it reordered the sentence. Put \"[\" back at the start of the link text",
+  "orphan-link-close": "this link has no opening \"[\" before its \"](\", so the reader sees a raw bracket and the URL. The model moved the \"[\" when it reordered the sentence. Put \"[\" back at the start of the link text",
   "label-leading-space": "this link text starts with a space, a sign that its \"[\" moved in front of the wrong words when the sentence was reordered. Wrap the words that translate the English link text",
 };

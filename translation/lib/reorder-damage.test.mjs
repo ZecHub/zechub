@@ -154,3 +154,45 @@ test("splitInherited separates damage that was already there, as a multiset", ()
   assert.equal(inherited.length, 1);
   assert.deepEqual(fresh, [a, b]);
 });
+
+test("the same damage moved to another line is new, not inherited", () => {
+  const base = findReorderDamage("Α\n\nΟ οδηγός Phantom](/u) του [ εδώ.\n\nΒ\n", "el");
+  const head = findReorderDamage("Α\n\nΟ οδηγός Phantom καλύπτει.\n\nΒ, δες Phantom](/u) [ εδώ.\n", "el");
+  const { fresh, inherited } = splitInherited(head, base);
+  assert.equal(inherited.length, 0);
+  assert.equal(fresh.length, 1);
+  // Unchanged line, shifted down by an insertion above: still inherited.
+  const shifted = findReorderDamage("Νέα γραμμή.\n\nΑ\n\nΟ οδηγός Phantom](/u) του [ εδώ.\n\nΒ\n", "el");
+  assert.equal(splitInherited(shifted, base).fresh.length, 0);
+});
+
+test("names ending or starting in a digit or punctuation are caught and repaired", () => {
+  const terms = ["NU5", "Zingo!", "1inch", "Zcash"];
+  const keysOf = (t, loc = "el") => findReorderDamage(t, loc, "", terms).map((f) => `${f.rule}:${f.key}`);
+  assert.deepEqual(keysOf("η NU5αναβάθμιση ήρθε"), ["glued-name:NU5αναβάθμιση"]);
+  assert.deepEqual(keysOf("[Zingo!Πορτοφόλι](/x)"), ["glued-name:Zingo!Πορτοφόλι"]);
+  assert.deepEqual(keysOf("μέσωZcash και μέσω1inch"), ["glued-name:μέσωZcash", "glued-name:μέσω1inch"]);
+  assert.deepEqual(keysOf("η NU5 αναβάθμιση, το Zingo! πορτοφόλι, NU5-αναβάθμιση"), []);
+  assert.deepEqual(keysOf("NU5αναβάθμιση", "ja"), []);
+  const r = repairGluedNames("η NU5αναβάθμιση και [Zingo!Πορτοφόλι](/x) μέσω1inch", "el", terms);
+  assert.equal(r.text, "η NU5 αναβάθμιση και [Zingo! Πορτοφόλι](/x) μέσω 1inch");
+  assert.deepEqual(r.repaired.map((x) => x.word), ["NU5", "Zingo!", "1inch"]);
+  // Arabic proclitics still attach to such names.
+  assert.deepEqual(keysOf("وNU5 ولNU5", "ar"), []);
+});
+
+test("a link label the translation wraps over two lines is not an orphan", () => {
+  assert.deepEqual(rules("Δες τον [οδηγό μετάβασης από zcashd\nσε Zebra](/x) για λεπτομέρειες.\n", "el", "See the [migration guide](/x).\n"), []);
+  // A blank line or a new list item ends the label: the closer below is an orphan.
+  assert.deepEqual(rules("Δες τον [οδηγό\n\nσε Zebra](/x).\n", "el"), ["orphan-link-close"]);
+  assert.deepEqual(rules("- πρώτο [στοιχείο\n- δεύτερο](/x)\n", "el"), ["orphan-link-close"]);
+});
+
+test("a multi-line HTML comment is not prose", () => {
+  assert.deepEqual(rules("<!--\nZcashΠορτοφόλια\nPhantom](/u)\n-->\nΚείμενο.\n", "el"), []);
+  assert.deepEqual(rules("Κείμενο <!-- σχόλιο\nZcashΠ -->ZebraΠλήρης\n", "el"), ["glued-name"]);
+});
+
+test("Arabic contracted lil- (للZcash) is a proclitic", () => {
+  assert.deepEqual(rules("هذا للZcash وللZebra", "ar"), []);
+});
