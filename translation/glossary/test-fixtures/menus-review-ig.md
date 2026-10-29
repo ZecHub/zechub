@@ -21,7 +21,7 @@ No conflicts.
 | 1 | navigation.wallets | Wallets | Akpa ego | Ok |  Best Translates the word wallet to an ordinary igbo user|
 | 2 | navigation.guides | Guides | Akwụkwọ ntuziaka |Ok  |The translation should be very easy for an ordinary user to understand|
 | 3 | navigation.tutorials | Tutorials | Nkuzi |Ok  |  The translation gives the suitable contextual meaning of the word |
-| 4 | navigation.governance | Governance | Ọchịchị |Ok  | very suitable  translation to the contextual meaning of the English word|
+| 4 | navigation.governance | Governance | Ọchichi |Ok  | very suitable  translation to the contextual meaning of the English word|
 | 5 | navigation.visualizer | Visualizer | Onye na-ahụ anya |  No |As regards the contextual meaning this might not be the most suitable translation|
 | 6 | navigation.dao | DAO | DAO | Ok |Best kept English |
 | 7 | navigation.newsletter | Newsletter | Akwụkwọ akụkọ | Ok | This is also an appropriate translation of the English word|
@@ -40,7 +40,7 @@ No conflicts.
 | 20 | navigation.usingZcash.blockExplorers | Block Explorers | Ndị na-enyocha Block | Ok |Appropriate  translation for the word in context|
 | 21 | navigation.usingZcash.shieldedPools | Shielded Pools | Ọdọ Mmiri Ndị E Chebere |  No| This translation doesn't give the contextual meaning to the word in context|
 | 22 | navigation.usingZcash.transparentExchangeAddresses | Transparent Exchange Addresses | Adreesị Mgbanwerịta Ọcha |No  | The translation doesn't give an appropriate meaning to the word in context|
-| 23 | navigation.usingZcash.transactions | Transactions | Mmekọrịta |No  | The translation "Azụmahia" gives a better contextual translation|
+| 23 | navigation.usingZcash.transactions | Transactions | Mmekọrịta |No  | Keep English|
 | 24 | navigation.usingZcash.memos | Memos | Ihe ncheta |Ok  |The translation is very appropriate for the word in context|
 | 25 | navigation.usingZcash.mobileTopUps | Mobile Top Ups | Ngwaọrụ Mobile Top Ups |No  |  The translationis not an appropriate igbo word, it is best kept English|
 | 26 | navigation.usingZcash.paymentRequestUris | Payment Request URIs | Ịkwụ Ụgwọ Arịrịọ URI |  No | The translation doesn't give an appropriate contextual translation to the word |
@@ -113,12 +113,12 @@ No conflicts.
 | 14 | menuLabels.DAO | DAO | DAO | Keep English| The  word is best kept English |
 | 15 | menuLabels.Developers | Developers | Ndị mmepe |  No | The  word best translates as "Ndị Mmepụta" |
 | 16 | menuLabels.Donations | Donations | Onyinye E Nyere |  Ok| The  translation is easy for an ordinary user to understand|
-| 17 | menuLabels.Exchanges | Exchanges | Mmekọrịta | No |  The proposed translation doesn't give the contextual meaning of the English word|
+| 17 | menuLabels.Exchanges | Exchanges | Mmekọrịta | No |  The proposed translation doesn't give the contextual meaning of the English word henceKeep English|
 | 18 | menuLabels.Extras | Extras | Ihe ndị ọzọ |Ok  | The  translation is easy for an ordinary user to understand|
 | 19 | menuLabels.Faucets | Faucets | Faucets | Keep English| Best  kept English|
 | 20 | menuLabels.Free2z Live | Free2z Live | Free2z Live |Keep  English|  The word is best kept English|
 | 21 | menuLabels.Freelance Privacy | Freelance Privacy | Nzuzo nke onwe onye |  No| This is  a wrong  translation to the word in context|
-| 22 | menuLabels.Governance | Governance | Ọchịchị | Ok | The translation is suitable for the word in context|
+| 22 | menuLabels.Governance | Governance | Ọchichi | Ok | The translation is suitable for the word in context|
 | 23 | menuLabels.Guides | Guides | Akwụkwọ ntuziaka |Ok  | The translation  is easy for an ordinary user to understand|
 | 24 | menuLabels.How to Participate | How to Participate | Ụzọ Isi Kere Òkè |  Ok| The  translation is suitable for the word in context|
 | 25 | menuLabels.Journalist Privacy | Journalist Privacy | Nzuzo nke Onye nta akụkọ |Ok  | The  translation  is easy for an ordinary user to understand|
@@ -158,7 +158,7 @@ No conflicts.
 | 59 | menuLabels.ZIPs & Grants | ZIPs & Grants | ZIPs & Enyemaka |  Ok|  The translation is easy for an ordinary user to understand|
 | 60 | menuLabels.Zcash Community | Zcash Community | Obodo Zcash | No |  The translation doesn't give the contextual meaning to the English word|
 | 61 | menuLabels.Zcash Ecosystem Security | Zcash Ecosystem Security | Nchebe nke Zcash Ecosystem |Ok  | The  translation is suitable for  the word in context|
-| 62 | menuLabels.Zcash Governance | Zcash Governance | Ọchịchị Zcash |Ok  |  The translation is suitable for the word in context|
+| 62 | menuLabels.Zcash Governance | Zcash Governance | Ọchichi Zcash |Ok  |  The translation is suitable for the word in context|
 | 63 | menuLabels.Zcash Improvement Proposals | Zcash Improvement Proposals | Nkwupụta Mmezi Zcash |Ok  |The  translation is easy for an ordinary user to understand|
 | 64 | menuLabels.Zcash Media | Zcash Media | Zcash Mgbasa Ozi |Ok   |  The translation is suitable for the word in context|
 | 65 | menuLabels.Zcash Organizations | Zcash Organizations | Nzukọ Zcash |Ok  | The  translation is easy for an ordinary user to understand|
