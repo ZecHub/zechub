@@ -201,6 +201,9 @@ test("brackets inside raw HTML tags are markup, not links", () => {
   assert.deepEqual(rules("<span title='> [' data-x=\"]( >\">κείμενο</span> [a](/b)\n", "el"), []);
   // Not a tag: a comparison in prose keeps its brackets.
   assert.deepEqual(rules("αν a <b τότε c] (x) και d](/u)\n", "el"), ["orphan-link-close"]);
+  // JSX/MDX expression props are part of the tag, ">" and brackets included.
+  assert.deepEqual(rules("<Widget value={n > 0 ? \"](/inside)\" : \"\"} style={{a: \"[\"}} /> κείμενο [a](/b)\n", "el"), []);
+  assert.deepEqual(rules("<Widget value={n > 0}>Greek label](https://x)\n", "el"), ["orphan-link-close"]);
 });
 
 test("a multi-line HTML comment is not prose", () => {
