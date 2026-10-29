@@ -1,5 +1,5 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/guides/Using_ZEC_in_DeFi.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Επεξεργασία σελίδας"/>
 </a>
 
 # Χρήση του Zcash στο DeFi
@@ -54,7 +54,7 @@
 Μάθε περισσότερα: [Kamino Μάθε](https://kamino.com/docs/learn/guides)
 
 
-> Αποκτήστε πρόσβαση σε πίστωση με εγγύηση ZEC στο Solana. Η αγορά Zcash στο Kamino έχει αυξηθεί σε πάνω από $2M, προσφέροντας στους κατόχους ZEC πρόσβαση σε ρευστότητα USDC έναντι $ZEC σε μια πλήρως απομονωμένη αγορά που επιμελείται η @AllezLabs.
+> Απόκτησε πρόσβαση σε πίστωση με εγγύηση ZEC στο Solana. Η αγορά Zcash στο Kamino έχει αυξηθεί σε πάνω από $2M, προσφέροντας στους κατόχους ZEC πρόσβαση σε ρευστότητα USDC έναντι $ZEC σε μια πλήρως απομονωμένη αγορά που επιμελείται η @AllezLabs.
 >
 > — [Kamino στο X](https://x.com/kamino/status/2098485250816946322)
 

@@ -1,5 +1,5 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Privacy_Tools/PGP_Encryption.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Επεξεργασία σελίδας"/>
 </a>
 
 # Pretty Good Privacy (PGP)
@@ -14,7 +14,7 @@
 * **[PGPMail](https://www.openpgp.org/software/)**: Το PGPMail είναι ένας εμπορικός πελάτης email PGP που είναι διαθέσιμος για Windows και macOS.
 * **[Mailvelope](https://www.comparitech.com/blog/information-security/pgp-encryption-gmail/)**: Το Mailvelope είναι μια δωρεάν και ανοικτού κώδικα επέκταση PGP για Gmail και Thunderbird.
 
-![PGP Tools](/content-images/44984a75-800a-4f7a-94a5-88827e39b431-c66ef53a2b.webp)
+![Εργαλεία PGP](/content-images/44984a75-800a-4f7a-94a5-88827e39b431-c66ef53a2b.webp)
 
 ## Πώς να δημιουργήσεις κλειδιά
 
@@ -28,7 +28,7 @@
 
 Το ζεύγος κλειδιών PGP σου θα δημιουργηθεί.
 
-![Generate Keys](/content-images/15721ce1-0a77-4ebe-87f4-33e1455f2a40-7699b1771d.webp)
+![Δημιουργία κλειδιών](/content-images/15721ce1-0a77-4ebe-87f4-33e1455f2a40-7699b1771d.webp)
 
 ## Πώς να χρησιμοποιήσεις PGP για email
 
@@ -36,7 +36,7 @@
 
 Το κρυπτογραφημένο email δεν θα μπορεί να διαβαστεί από κανέναν που δεν έχει το ιδιωτικό κλειδί του παραλήπτη. Για να αποκρυπτογραφήσει το email, ο παραλήπτης μπορεί να χρησιμοποιήσει το ιδιωτικό κλειδί του.
 
-![PGP Email](/content-images/dafb761d-f399-40c9-9323-526ba3bd0bc4-98503ad98b.webp)
+![Ηλεκτρονικό μήνυμα PGP](/content-images/dafb761d-f399-40c9-9323-526ba3bd0bc4-98503ad98b.webp)
 
 ## Βέλτιστες πρακτικές
 
@@ -44,9 +44,9 @@
 
 * Διατήρησε το ιδιωτικό κλειδί σου ασφαλές. Το ιδιωτικό κλειδί είναι το σημαντικότερο μέρος του ζεύγους κλειδιών PGP σου. Αν κάποιος αποκτήσει το ιδιωτικό κλειδί σου, μπορεί να αποκρυπτογραφήσει οποιαδήποτε μηνύματα έχουν κρυπτογραφηθεί με το δημόσιο κλειδί σου.
 
-![Best Practices 1](/content-images/39a6fae4-a9a1-4061-a97c-4a9b975f6383-eced005c8b.webp)
+![Βέλτιστες πρακτικές 1](/content-images/39a6fae4-a9a1-4061-a97c-4a9b975f6383-eced005c8b.webp)
 
-![Best Practices 2](/content-images/6c15d6bb-556b-4ff5-b647-3363c8cbb8fd-50ca49a070.webp)
+![Βέλτιστες πρακτικές 2](/content-images/6c15d6bb-556b-4ff5-b647-3363c8cbb8fd-50ca49a070.webp)
 
 * Μοιράσου το δημόσιο κλειδί σου με άτομα που εμπιστεύεσαι. Μπορείς να μοιραστείς το δημόσιο κλειδί σου στέλνοντάς το απευθείας σε αυτά ή ανεβάζοντάς το σε έναν διακομιστή κλειδιών PGP.
 * Χρησιμοποίησε ισχυρούς κωδικούς πρόσβασης για την κλειδοθήκη PGP σου. Η κλειδοθήκη PGP σου είναι ένα αρχείο που αποθηκεύει τα κλειδιά PGP σου. Είναι σημαντικό να χρησιμοποιείς έναν ισχυρό κωδικό πρόσβασης για να προστατεύσεις αυτό το αρχείο.
@@ -61,11 +61,11 @@
 * Κάνε κλικ στο κουμπί «Encrypt».
 * Το email θα κρυπτογραφηθεί.
 
-![Encrypt Email](/content-images/a06cd9da-8bc8-45e0-ae2b-83e45aa8163e-6edd4a03ea.webp)
+![Κρυπτογράφηση ηλεκτρονικού μηνύματος](/content-images/a06cd9da-8bc8-45e0-ae2b-83e45aa8163e-6edd4a03ea.webp)
 
 ---
 
-![Encryption Flow](/content-images/da1499e9-fc87-46b2-93ed-28d43cf1fd86-86fdc87d10.webp)
+![Ροή κρυπτογράφησης](/content-images/da1499e9-fc87-46b2-93ed-28d43cf1fd86-86fdc87d10.webp)
 
 ## Πώς να αποκρυπτογραφήσεις ένα email με PGP
 
@@ -76,4 +76,4 @@
 * Κάνε κλικ στο κουμπί «Decrypt».
 * Το email θα αποκρυπτογραφηθεί.
 
-![Decrypt Email](/content-images/beae714c-020f-4c1e-aa4f-3dd9430670cc-1e9d38f1ef.webp)
+![Αποκρυπτογράφηση ηλεκτρονικού μηνύματος](/content-images/beae714c-020f-4c1e-aa4f-3dd9430670cc-1e9d38f1ef.webp)

@@ -1,10 +1,10 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Zcash_Tech/What_a_Block_Explorer_Can_See.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Επεξεργασία σελίδας"/>
 </a>
 
 # Τι μπορεί να δει ένα block explorer στο Zcash
 
-## TL;DR
+## Με λίγα λόγια
 
 - Στο Bitcoin, ένα block explorer δείχνει τα πάντα: αποστολέα, παραλήπτη και ποσό.
 - Στο Zcash, αυτό ισχύει μόνο για διαφανή δραστηριότητα (t-address).

@@ -1,5 +1,5 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Start_Here/Using_This_Wiki.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Επεξεργασία σελίδας"/>
 </a>
 
 

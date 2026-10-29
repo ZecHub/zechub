@@ -1,5 +1,5 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/guides/Viewing_Key_Transaction_Export.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Επεξεργασία σελίδας"/>
 </a>
 
 # Εξαγωγή ιστορικού συναλλαγών από ένα Viewing Key
@@ -132,7 +132,7 @@ jq -r '["txid","height","time_utc","net_zec","fee_zec","memos"],
 | `fee` | Τέλη σε ZEC. Στις πληρωμές που έλαβες, τα πλήρωσε ο αποστολέας και δεν περιλαμβάνονται στο `value`. |
 | `time` | Χρόνος μπλοκ σε UTC, χωρίς δείκτη ζώνης ώρας |
 | `notes` | Ό,τι έλαβε ο λογαριασμός σε αυτή τη συναλλαγή, συμπεριλαμβανομένων των ρέστων. Τα σημειώματα που σου στάλθηκαν βρίσκονται εδώ. Οι διαφανείς εγγραφές δεν έχουν διεύθυνση. |
-| `spends` | Τα δικά note του λογαριασμού που χρησιμοποίησε αυτή η συναλλαγή |
+| `spends` | Τα δικά notes του λογαριασμού που χρησιμοποίησε αυτή η συναλλαγή |
 | `outputs` | Ό,τι έστειλε η συναλλαγή: κάθε διαφανές output, συν θωρακισμένες πληρωμές σε άλλες διευθύνσεις με τα σημειώματά τους |
 | `pool` | 0 διαφανές, 1 Sapling, 2 Orchard, 3 Ironwood |
 | `scope` | 0 εξωτερικό (εισερχόμενη πληρωμή), 1 εσωτερικό (ρέστα) |
@@ -204,7 +204,7 @@ $Z --offline messages > memos.json
 |---|---|
 | ZODL | Φορολογικό CSV με ημερομηνίες, ποσά, τέλη και μια ετικέτα. Μόνο για το προηγούμενο ημερολογιακό έτος, παραλείπει συναλλαγές θωράκισης, χωρίς txid, σημείωμα ή διεύθυνση. |
 | Εφαρμογή Zkool | Ακατέργαστες εξαγωγές πινάκων από το μενού λογαριασμού |
-| [Zenith](https://code.vergara.tech/Vergara_Tech/zenith) | Εισάγει ένα UFVK με το `importvk`. Το `listreceived` μέσω RPC επιστρέφει ληφθέντα note με txid και σημείωμα, αλλά όχι αποστολές και όχι τέλη. |
+| [Zenith](https://code.vergara.tech/Vergara_Tech/zenith) | Εισάγει ένα UFVK με το `importvk`. Το `listreceived` μέσω RPC επιστρέφει ληφθέντα notes με txid και σημείωμα, αλλά όχι αποστολές και όχι τέλη. |
 | [Zallet](https://github.com/zcash/zallet) | Το `z_listtransactions` είναι λεπτομερές αλλά επισημασμένο ως πειραματικό, και το Zallet εισάγει μόνο Sapling viewing keys, όχι UFVKs |
 | [zcash-devtool](https://github.com/zcash/zcash-devtool) | Εισάγει ένα UFVK με το `wallet init-fvk` και έπειτα το `wallet list-tx`. Η λειτουργία CSV του δεν έχει txid ή διεύθυνση, και το έργο λέει να μην το χρησιμοποιείς στην παραγωγή. |
 

@@ -1,5 +1,5 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Zcash_Organizations/ZODL.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Επεξεργασία σελίδας"/>
 </a>
 
 # <img src="/content-images/198608b2-9059-4cb7-aeb8-9354971376fd-d67c2d46f5.webp" alt="ZODL Logo" width="50"/> ZODL (Zcash Open Development Lab)
@@ -60,7 +60,7 @@
 - **Πληρωμές Flexa:** Ξόδεψε ZEC σε μεγάλους λιανοπωλητές, συμπεριλαμβανομένων των GameStop, Chipotle, Sheetz και Barnes & Noble
 - **Ενσωμάτωση Coinbase:** Αγόρασε ZEC απευθείας μέσα από το πορτοφόλι χωρίς ξεχωριστή εγγραφή σε ανταλλακτήριο
 - **Κρυπτογραφημένα μηνύματα:** Ιδιωτικότητα επιπέδου Zcash για θωρακισμένα σημειώματα παράλληλα με ή ανεξάρτητα από συναλλαγές
-- **Ενοποιημένες διευθύνσεις:** Απλοποιημένη διαχείριση διευθύνσεων στα pools Transparent, Sapling και Orchard
+- **Ενοποιημένες διευθύνσεις:** Απλοποιημένη διαχείριση διευθύνσεων στα διαφανή pool, Sapling και Orchard
 - **Υποστήριξη Tor:** Βελτιωμένη ιδιωτικότητα σε επίπεδο δικτύου για τη μετάδοση συναλλαγών
 
 **Δεσμεύσεις ιδιωτικότητας:**
@@ -94,7 +94,7 @@
 - [X/Twitter](https://x.com/zodl_app)
 - [Josh Swihart στο X](https://x.com/jswihart)
 
-## Δείτε επίσης
+## Δες επίσης
 
 - [Electric Coin Company](Electric_Coin_Company.md)
 - [Zcash Foundation](Zcash_Foundation.md)

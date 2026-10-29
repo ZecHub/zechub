@@ -77,7 +77,7 @@
 
 Αυτός ο λειτουργικός διαχωρισμός αποτελεί τη βάση των ροών εργασίας υπογραφής εκτός σύνδεσης. Όλη η συνεχής σάρωση της αλυσίδας, η παρακολούθηση ιστορικού και η διαχείριση διευθύνσεων μεταφέρονται στο λογισμικό υποδοχής, ενώ η εξουσιοδότηση δαπάνης παραμένει απομονωμένη στη συσκευή hardware.
 
-![Key derivation diagrams](/content-images/key-derivation-diagrams.webp)
+![Διαγράμματα παραγωγής κλειδιών](/content-images/key-derivation-diagrams.webp)
 
 ### Η κρίσιμη διάκριση: UFVK έναντι spending key
 
@@ -152,7 +152,7 @@
 
 Η διαδικασία μπορεί να απλοποιηθεί ως εξής:
 
-![Shielded cold signing process](/content-images/cold-signing-process.webp)
+![Διαδικασία θωρακισμένης cold signing](/content-images/cold-signing-process.webp)
 
 Το συνοδευτικό πορτοφόλι στέλνει τις δομημένες παραμέτρους συναλλαγής στη συσκευή hardware, η οποία υπογράφει το ωφέλιμο φορτίο εσωτερικά χωρίς να απελευθερώνει ποτέ το ιδιωτικό spending key στον υπολογιστή υποδοχής.
 
@@ -211,7 +211,7 @@
 
 Αυτός ο διαχωρισμός επιτρέπει στο συνοδευτικό πορτοφόλι να εκτελεί την κατασκευή συναλλαγών και υπολογιστικές εργασίες χωρίς να του δίνει άμεση πρόσβαση στο υλικό κλειδιών που απαιτείται για την εξουσιοδότηση της συναλλαγής.
 
-![Key isolation](/content-images/key-isolation.webp)
+![Απομόνωση κλειδιών](/content-images/key-isolation.webp)
 
 Η βασική διάκριση είναι ότι το «viewing key» δεν σημαίνει πως η εφαρμογή λαμβάνει μια ασθενέστερη έκδοση του seed.
 
@@ -310,20 +310,20 @@ https://forum.zcashcommunity.com/t/pczt-interoperability-test-suite-feedback-bef
 | Συσκευή   | Τι λαμβάνει η συνοδευτική εφαρμογή              | Τι παραμένει στη συσκευή          | Μεταφορά      |
 |----------|------------------------------------------|-----------------------------------|----------------|
 | Ledger   | UFVK / Orchard FVK, διευθύνσεις            | Εξουσία δαπάνης                | USB / BLE      |
-| Keystone | UFVK + Unified Address                   | Seed / spending keys              | QR (air-gapped)|
-| Hito     | UFVK, Unified Address, αποτύπωμα seed  | Seed και ιδιωτικά spending keys    | QR / τοπική     |
+| Keystone | UFVK + ενοποιημένη διεύθυνση                   | Seed / spending keys              | QR (air-gapped)|
+| Hito     | UFVK, ενοποιημένη διεύθυνση, αποτύπωμα seed  | Seed και ιδιωτικά spending keys    | QR / τοπική     |
 
 Αρκετές υλοποιήσεις hardware wallet έχουν αναπτυχθεί για να διερευνήσουν πώς μπορούν να υποστηριχθούν θωρακισμένες συναλλαγές Zcash, διατηρώντας τα ευαίσθητα spending keys απομονωμένα από το συνοδευτικό πορτοφόλι. Τα Ledger, Keystone και Hito αντιπροσωπεύουν διαφορετικές προσεγγίσεις για την ενσωμάτωση προστασίας κλειδιών βασισμένης σε hardware με τη ροή εργασίας συναλλαγής Zcash.
 
-![Real world hardware wallet implementations](/content-images/hardware-wallet-implementations.webp)
+![Υλοποιήσεις hardware wallet στον πραγματικό κόσμο](/content-images/hardware-wallet-implementations.webp)
 
 Για να κατανοήσεις πώς προστατεύουν θωρακισμένα κεφάλαια, είναι σημαντικό να διακρίνεις μεταξύ spending keys και viewing keys. Και στα τρία, ο διαχωρισμός ακολουθεί την ίδια μορφή:
 
 | Συσκευή | Τι μπορεί να λάβει η συνοδευτική εφαρμογή | Τι παραμένει προστατευμένο στη συσκευή |
 |---|---|---|
 | Ledger | UFVK / Orchard FVK, διευθύνσεις και δημόσιες πληροφορίες | Εξουσία δαπάνης / ιδιωτικό υλικό κλειδιών |
-| Keystone | UFVK + Unified Address | Seed / spending keys |
-| Hito | UFVK, Unified Address, αποτύπωμα seed και πληροφορίες δικτύου | Seed και ιδιωτικά spending keys |
+| Keystone | UFVK + ενοποιημένη διεύθυνση | Seed / spending keys |
+| Hito | UFVK, ενοποιημένη διεύθυνση, αποτύπωμα seed και πληροφορίες δικτύου | Seed και ιδιωτικά spending keys |
 
 ### Το Ledger ως περιβάλλον hardware υπογραφής
 
@@ -362,7 +362,7 @@ https://forum.zcashcommunity.com/t/pczt-interoperability-test-suite-feedback-bef
 
 Το FVK μπορεί έπειτα να παράγει περαιτέρω δυνατότητες σχετικές με viewing, αλλά σε κανένα σημείο αυτή η διαδρομή παραγωγής δεν οδηγεί πίσω στην εξουσία δαπάνης. Μόλις ένα κλειδί διακλαδωθεί προς την πλευρά viewing της ιεραρχίας, παραμένει εκεί και δεν μπορεί να χρησιμοποιηθεί για την ανακατασκευή του κλειδιού εξουσίας δαπάνης από το οποίο προήλθε.
 
-Το Ironwood ακολουθεί το ίδιο μοτίβο, επειδή επαναχρησιμοποιεί την υποκείμενη κατασκευή κλειδιών και note του Orchard. Ωστόσο, είναι ξεχωριστό pool στο επίπεδο συναίνεσης, με το δικό του δέντρο commitment και σύνολο nullifier. Αυτό σημαίνει ότι ένα UFVK είναι στην πραγματικότητα ένα πακέτο viewing keys ανά pool (διαφανές, Sapling, Orchard και τώρα Ironwood), όχι ένα μοναδικό επίπεδο κλειδί.
+Το Ironwood ακολουθεί το ίδιο μοτίβο, επειδή επαναχρησιμοποιεί την υποκείμενη κατασκευή κλειδιών και note του Orchard. Ωστόσο, είναι ξεχωριστό pool στο επίπεδο συναίνεσης, με το δικό του δέντρο commitment και σύνολο nullifier. Αυτό σημαίνει ότι ένα UFVK είναι στην πραγματικότητα ένα πακέτο viewing keys ανά pool (διαφανές, Sapling, Orchard και τώρα Ironwood), όχι ένα μοναδικό κλειδί.
 
 Ένα UFVK που εξήχθη πριν ενεργοποιηθεί το Ironwood δεν θα περιλαμβάνει viewing key Ironwood, επειδή εκείνο το pool δεν υπήρχε ακόμη. Αυτός είναι ακριβώς ο λόγος που τα πορτοφόλια χρειάστηκε να ενημερωθούν ώστε να αναγνωρίζουν και να παράγουν UFVK με δυνατότητα Ironwood μετά την αναβάθμιση NU6.3.
 
@@ -453,11 +453,11 @@ https://youtu.be/eagkCIv3BlQ?si=7w5YfLlRER77bASw
 
 Σύμφωνα με τον προγραμματιστή του Ywallet, η ενσωμάτωση Ledger του Zkool χρησιμοποιούσε την επίσημη εφαρμογή Ledger που αναπτύχθηκε από το Zondax και υποστήριζε τόσο διαφανή όσο και θωρακισμένα Zcash. Ωστόσο, η θωρακισμένη υποστήριξή του περιοριζόταν στο Sapling και δεν υποστήριζε το Orchard, παράλληλα με άλλους περιορισμούς ενσωμάτωσης, όπως μέγιστο πέντε εισόδους και εξόδους κάθε τύπου και απουσία συμβατότητας με το Ledger Live.
 
-Αυτός ο περιορισμός αντανακλούσε το εύρος της υποκείμενης υλοποίησης Zondax Ledger εκείνη την εποχή. Η προηγούμενη εργασία του Zondax για το Ledger παρείχε υποστήριξη για το Sapling και η επακόλουθη κυκλοφορία του το 2024 της εφαρμογής Zcash Shielded Ledger αρχικά απέκλειε τα Orchard και τις Unified Addresses. Επομένως, μια ενσωμάτωση που βασιζόταν σε αυτή την εφαρμογή κληρονομούσε τις δυνατότητες και τους περιορισμούς της υλοποίησης του hardware wallet από την οποία εξαρτιόταν.
+Αυτός ο περιορισμός αντανακλούσε το εύρος της υποκείμενης υλοποίησης Zondax Ledger εκείνη την εποχή. Η προηγούμενη εργασία του Zondax για το Ledger παρείχε υποστήριξη για το Sapling και η επακόλουθη κυκλοφορία του το 2024 της εφαρμογής Zcash Shielded Ledger αρχικά απέκλειε τα Orchard και τις ενοποιημένες διευθύνσεις. Επομένως, μια ενσωμάτωση που βασιζόταν σε αυτή την εφαρμογή κληρονομούσε τις δυνατότητες και τους περιορισμούς της υλοποίησης του hardware wallet από την οποία εξαρτιόταν.
 
 Η κατάσταση στη συνέχεια εξελίχθηκε με την κυκλοφορία της ειδικής εφαρμογής Zcash Shielded Ledger τον Νοέμβριο του 2024. Το Zondax δήλωσε ότι η εφαρμογή είχε κυκλοφορήσει επίσημα μέσω του Ledger Live και αργότερα δημοσίευσε οδηγίες ενσωμάτωσης, καθώς και τα πακέτα Rust και JavaScript, ώστε να επιτρέψει σε άλλα πορτοφόλια να ενσωματωθούν με αυτήν. Κατά την κυκλοφορία, ωστόσο, η εφαρμογή επικοινωνούσε αποκλειστικά με το Zecwallet Lite Desktop, ενώ οι ευρύτερες ενσωματώσεις πορτοφολιών βρίσκονταν ακόμη υπό ανάπτυξη.
 
-Το επόμενο στάδιο ήταν η ανάπτυξη της νεότερης εφαρμογής Zcash της Ledger, γραμμένης σε Rust. Έως τον Ιούνιο του 2026, το Ledger ανέφερε ότι είχαν υλοποιηθεί η κοινοποίηση UFVK και η δημιουργία Orchard Unified Address, ενώ η υπογραφή συναλλαγών Orchard και το ClearSign βρίσκονταν ακόμη υπό ανάπτυξη. Το Ledger δήλωσε επίσης ότι η εργασία θα συνεχιζόταν στη διαδρομή Ironwood καθώς το πρωτόκολλο άλλαζε.
+Το επόμενο στάδιο ήταν η ανάπτυξη της νεότερης εφαρμογής Zcash της Ledger, γραμμένης σε Rust. Έως τον Ιούνιο του 2026, το Ledger ανέφερε ότι είχαν υλοποιηθεί η κοινοποίηση UFVK και η δημιουργία ενοποιημένης διεύθυνσης Orchard, ενώ η υπογραφή συναλλαγών Orchard και το ClearSign βρίσκονταν ακόμη υπό ανάπτυξη. Το Ledger δήλωσε επίσης ότι η εργασία θα συνεχιζόταν στη διαδρομή Ironwood καθώς το πρωτόκολλο άλλαζε.
 
 Το Ironwood στη συνέχεια απαίτησε ενημερώσεις σε όλο το οικοσύστημα πορτοφολιών Zcash. Το Zkool κυκλοφόρησε υποστήριξη για μετεγκατάσταση από το Orchard στο Ironwood ξεκινώντας από την έκδοση 6.24.0 και συνέχισε να βελτιώνει τη διαδικασία μετεγκατάστασης και συναλλαγών στις επόμενες εκδόσεις. Το Ledger, ξεχωριστά, συγχώνευσε την υπογραφή PCZT v2 στη νέα εφαρμογή του στις 27 Ιουλίου, παρόλο που η υλοποίηση δεν είχε ακόμη ολοκληρώσει τον έλεγχο του Ledger και τη διάθεση μέσω Ledger Live έως τις 20 Αυγούστου, ένα ορόσημο που έκτοτε έχει κυκλοφορήσει, με το Ledger Wallet Desktop 4.21+ να προσφέρει πλέον εγγενή υποστήριξη Ironwood απευθείας.
 
@@ -542,7 +542,7 @@ https://youtube.com/shorts/eAOMRVYJFTA?si=xytBs-wZKn8hmu8D
 
 Άρα, η ροή είναι:
 
-![Keystone and Zashi viewing flow](/content-images/keystone-zashi-viewing-flow.webp)
+![Ροή προβολής Keystone και Zashi](/content-images/keystone-zashi-viewing-flow.webp)
 
 **Τι μπορεί να κάνει το Zashi με το UFVK;**
 
@@ -566,7 +566,7 @@ https://youtube.com/shorts/eAOMRVYJFTA?si=xytBs-wZKn8hmu8D
 
 Όταν θέλεις να δαπανήσεις:
 
-![Keystone and Zashi spending flow](/content-images/keystone-spend-flow.webp)
+![Ροή δαπάνης Keystone και Zashi](/content-images/keystone-spend-flow.webp)
 
 ## 3. Hito
 
@@ -577,7 +577,7 @@ https://youtube.com/shorts/eAOMRVYJFTA?si=xytBs-wZKn8hmu8D
 Το πορτοφόλι Android χρησιμοποιεί:
 
 - Το Unified Full Viewing Key (UFVK)
-- Το Unified Address
+- Η ενοποιημένη διεύθυνση
 - Το αποτύπωμα seed ZIP-32
 - Πληροφορίες δικτύου
 
@@ -585,14 +585,14 @@ https://youtube.com/shorts/eAOMRVYJFTA?si=xytBs-wZKn8hmu8D
 
 Σημείωσε ότι η εφαρμογή Android δεν λαμβάνει ποτέ το seed του hardware wallet ή τα ιδιωτικά spending keys.
 
-![Hito onboarding](/content-images/hito-onboarding.webp)
+![Αρχική ρύθμιση Hito](/content-images/hito-onboarding.webp)
 
 **Τι λαμβάνει η εφαρμογή Hito;**
 
 Οι τεκμηριωμένες πληροφορίες ενσωμάτωσης περιλαμβάνουν:
 
 - UFVK
-- Unified Address
+- Ενοποιημένη διεύθυνση
 - Αποτύπωμα seed ZIP-32
 - Δίκτυο
 
@@ -608,7 +608,7 @@ https://youtube.com/shorts/eAOMRVYJFTA?si=xytBs-wZKn8hmu8D
 
 Σε κανένα σημείο το seed ή το spending key δεν διασχίζει αυτό το όριο προς οποιαδήποτε κατεύθυνση.
 
-![Hito signing flow](/content-images/hito-signing-flow.webp)
+![Ροή υπογραφής Hito](/content-images/hito-signing-flow.webp)
 
 ## Orchard προς Ironwood: Η εξέλιξη της υποστήριξης hardware wallet
 
@@ -670,4 +670,4 @@ https://forum.zcashcommunity.com/t/ironwood-is-here-updated-wallets-libraries-au
 
 ### Η εξέλιξη σε μία εικόνα
 
-![The evolution in one picture](/content-images/orchard-to-ironwood-evolution.webp)
+![Η εξέλιξη σε μία εικόνα](/content-images/orchard-to-ironwood-evolution.webp)

@@ -1,6 +1,6 @@
 {
   "locale": "el",
-  "version": 5,
+  "version": 6,
   "meta": {
     "language_name": "Greek",
     "native_name": "Ελληνικά",
@@ -10,7 +10,7 @@
     "language_lead": [
       "@panoskokmotos"
     ],
-    "last_review": "2026-10-25"
+    "last_review": "2026-10-29"
   },
   "style": {
     "variety": "natural, fluent Greek",
@@ -36,13 +36,18 @@
     "writing_rules": [
       "Thousands take a full stop and decimals a comma (1.000,5).",
       "«Hub» (as in ZecHub, an education hub) is «κέντρο»: «αποκεντρωμένο κέντρο εκπαίδευσης». Never «κόμβος», which is reserved for a network node.",
-      "Greek word order for a name plus a noun: the noun first, then the name («Οδηγός νέου χρήστη Zcash», «Αναβαθμίσεις δικτύου του Zcash», «το αποθετήριο του ZecHub στο GitHub»), never «Zcash Οδηγός…» or «ZecHub αποθετήριο».",
-      "Headings and link text use sentence case, as Greek does: only the first word and names take a capital («Θωρακισμένα pools», «Πλήρεις κόμβοι»).",
+      "Greek word order for a name plus a noun: the noun first, then the name («Οδηγός νέου χρήστη Zcash», «Αναβαθμίσεις δικτύου του Zcash», «το αποθετήριο του ZecHub στο GitHub»), never «Zcash Οδηγός…» or «ZecHub αποθετήριο». This applies everywhere: headings, link text, image alt text and menu titles («Οδηγός Multisig για το Zkool», «[συναλλαγές Zcash]», «[Βιβλίο του Orchard]»).",
+      "Headings and link text use sentence case, as Greek does: only the first word and names take a capital («Θωρακισμένα pools», «Πλήρεις κόμβοι»). The same in running text and job titles: «αποκεντρωμένα ανταλλακτήρια», «ανώτερος αντιπρόεδρος ανάπτυξης».",
       "Post-quantum: «ανθεκτικός στους κβαντικούς υπολογιστές», never «μετά την κβαντική εποχή».",
       "Oblivious sync (Tachyon): «τυφλός συγχρονισμός», like «τυφλές υπογραφές» for blind signatures.",
       "A tutorial is «οδηγός» or, for a video, «βίντεο με οδηγίες»; never «σεμινάριο» (a seminar).",
       "Calls to action use the imperative: «υπόβαλε ένα pull request», not the past tense «υπέβαλε».",
-      "Keep a space between a name and the next word inside link text («[Τεκμηρίωση του Zcash]»), never glue them."
+      "Keep a space between a name and the next word inside link text («[Τεκμηρίωση του Zcash]»), never glue them.",
+      "Organisations take the neuter article: «το Zcash Labs», «το Valar Group», «το Electric Coin Company». Keep one gender per name on a page.",
+      "«π.χ.» takes no comma after it: «(π.χ. αναγνωριστικό παραγγελίας)».",
+      "A standalone «key» is «κλειδί»; only the named keys stay English («viewing key», «spending key»).",
+      "On-screen labels of apps keep the exact English the app shows, in bold («**My Ledger**»): the apps have no Greek interface.",
+      "Translate descriptive image alt text (screen readers read it); keep names and on-screen labels as written."
     ]
   },
   "terms": {
@@ -54,7 +59,7 @@
         "πορτοφολιού",
         "πορτοφολιών"
       ],
-      "context": "A wallet in running text: «πορτοφόλι». Inside the device name \"hardware wallet\" the English stays (see hardware-wallet), and so does a product name such as «Brave Wallet».",
+      "context": "A wallet in running text: «πορτοφόλι». Inside the device name \"hardware wallet\" the English stays (see hardware-wallet), and so does a product name such as «Brave Wallet». In «light wallet» the whole phrase stays English, like light client.",
       "applies_to": "both",
       "status": "approved",
       "reviewed_by": [
@@ -299,6 +304,9 @@
       "rejected": [
         {
           "text": "θεματοφυλακτικό"
+        },
+        {
+          "text": "μη custodial"
         }
       ],
       "applies_to": "both",
@@ -622,7 +630,8 @@
         "@panoskokmotos"
       ],
       "reviewed_at": "2026-10-23",
-      "source": "glossary.md#terms-61"
+      "source": "glossary.md#terms-61",
+      "context": "«brand» stays English only for a visual identity (logos, brand assets). Gift-card or shop brands are «μάρκες»."
     },
     "treasury": {
       "target": "ταμείο",
@@ -816,7 +825,8 @@
         "@panoskokmotos"
       ],
       "reviewed_at": "2026-10-23",
-      "source": "glossary.md#terms-13"
+      "source": "glossary.md#terms-13",
+      "context": "Only the shielded note (a unit of value held by a shielded address) stays «note». Everyday notes are «σημείωση», and the verb «note that» is «σημείωσε ότι»."
     },
     "trusted-setup": {
       "target": "trusted setup",
@@ -2505,6 +2515,243 @@
       "reviewed_at": "2026-10-25",
       "source": "menus-review-el-followup.md#menuLabels-11",
       "notes": "Glossary: viewing key stays English in lowercase. «συναλλαγών» is συναλλαγή in the plural genitive."
+    },
+    "trustless": {
+      "target": "χωρίς ανάγκη εμπιστοσύνης",
+      "forms": [
+        "χωρίς ανάγκη εμπιστοσύνης"
+      ],
+      "rejected": [
+        {
+          "text": "αξιόπιστο"
+        },
+        {
+          "text": "αξιόπιστος"
+        },
+        {
+          "text": "αξιόπιστης"
+        }
+      ],
+      "notes": "«αξιόπιστο» means reliable, almost the opposite. Built like permissionless = «χωρίς ανάγκη άδειας».",
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-29",
+      "source": "#2427 batch 3"
+    },
+    "unified address": {
+      "target": "ενοποιημένη διεύθυνση",
+      "forms": [
+        "ενοποιημένη διεύθυνση",
+        "ενοποιημένες διευθύνσεις",
+        "ενοποιημένης διεύθυνσης",
+        "ενοποιημένων διευθύνσεων"
+      ],
+      "rejected": [
+        {
+          "text": "Unified διευθύνσεις"
+        }
+      ],
+      "notes": "Translated in running text; the abbreviation UA stays.",
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-29",
+      "source": "#2427 batch 3"
+    },
+    "receiver": {
+      "target": "δέκτης",
+      "forms": [
+        "δέκτης",
+        "δέκτες",
+        "δέκτη",
+        "δεκτών"
+      ],
+      "context": "A receiver inside a unified address (Orchard, Sapling, transparent receiver).",
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-29",
+      "source": "#2427 batch 3"
+    },
+    "light wallet": {
+      "target": "light wallet",
+      "keep_english": true,
+      "forms": [
+        "light wallet",
+        "light wallets"
+      ],
+      "rejected": [
+        {
+          "text": "ελαφρύ πορτοφόλι"
+        },
+        {
+          "text": "ελαφριά πορτοφόλια"
+        }
+      ],
+      "notes": "Kept in English like light client.",
+      "context": "The wallet type (light wallet), kept in English like light client; a wallet on its own is «πορτοφόλι».",
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-29",
+      "source": "#2427 batch 3"
+    },
+    "TL;DR": {
+      "target": "Με λίγα λόγια",
+      "applies_to": "pages",
+      "rejected": [
+        {
+          "text": "Συνοπτικά"
+        },
+        {
+          "text": "Σύνοψη"
+        }
+      ],
+      "context": "The summary heading at the top of a page.",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-29",
+      "source": "#2427 batch 3"
+    },
+    "Deep Dive": {
+      "target": "Εμβάθυνση",
+      "applies_to": "pages",
+      "rejected": [
+        {
+          "text": "Αναλυτική εξέταση"
+        },
+        {
+          "text": "Αναλυτική παρουσίαση"
+        }
+      ],
+      "context": "Section heading.",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-29",
+      "source": "#2427 batch 3"
+    },
+    "Common mistakes": {
+      "target": "Συνηθισμένα λάθη",
+      "applies_to": "pages",
+      "rejected": [
+        {
+          "text": "Συνήθη λάθη"
+        }
+      ],
+      "context": "Section heading.",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-29",
+      "source": "#2427 batch 3"
+    },
+    "lockbox": {
+      "target": "lockbox",
+      "keep_english": true,
+      "forms": [
+        "lockbox",
+        "lockboxes"
+      ],
+      "rejected": [
+        {
+          "text": "Κλειδοθήκη"
+        }
+      ],
+      "context": "The Zcash dev-fund lockbox.",
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-29",
+      "source": "#2427 batch 3"
+    },
+    "migration guide": {
+      "target": "οδηγός μετάβασης",
+      "forms": [
+        "οδηγός μετάβασης",
+        "οδηγού μετάβασης",
+        "οδηγοί μετάβασης"
+      ],
+      "rejected": [
+        {
+          "text": "οδηγός μετεγκατάστασης"
+        }
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-29",
+      "source": "#2427 batch 3"
+    },
+    "validator": {
+      "target": "επικυρωτής",
+      "forms": [
+        "επικυρωτής",
+        "επικυρωτές",
+        "επικυρωτή",
+        "επικυρωτών"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-29",
+      "source": "#2427 batch 3"
+    },
+    "Dev Fund": {
+      "target": "ταμείο ανάπτυξης (Dev Fund)",
+      "forms": [
+        "ταμείο ανάπτυξης (Dev Fund)",
+        "ταμείο ανάπτυξης",
+        "ταμείου ανάπτυξης"
+      ],
+      "context": "The Zcash Development Fund; give «(Dev Fund)» once, then «ταμείο ανάπτυξης».",
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-29",
+      "source": "#2427 batch 3"
+    },
+    "balance": {
+      "target": "υπόλοιπο",
+      "forms": [
+        "υπόλοιπο",
+        "υπόλοιπα",
+        "υπολοίπου"
+      ],
+      "rejected": [
+        {
+          "text": "ισορροπία"
+        }
+      ],
+      "context": "A wallet or account balance. «ισορροπία» means equilibrium.",
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@panoskokmotos"
+      ],
+      "reviewed_at": "2026-10-29",
+      "source": "#2427 batch 3"
     }
   },
   "changelog": [
@@ -2728,6 +2975,31 @@
         "Zallet Quick Reference Guide"
       ],
       "summary": "Greek stage 2 review by @panoskokmotos (#2427, follow-up menus #2508): English in brackets set to never; writing rules for hub, word order, sentence case, post-quantum, oblivious sync, tutorial, imperative calls to action and link text; the follow-up menu labels (new website strings, language menu, shorter «Χρήση Zcash» for the header bar); transaction plural forms and the Brave Wallet product-name context added by the steward so the follow-up phrases pass rule 3."
+    },
+    {
+      "version": 6,
+      "date": "2026-10-29",
+      "terms": [
+        "brand",
+        "custodial",
+        "note",
+        "wallet"
+      ],
+      "phrases": [
+        "Common mistakes",
+        "Deep Dive",
+        "Dev Fund",
+        "TL;DR",
+        "balance",
+        "light wallet",
+        "lockbox",
+        "migration guide",
+        "receiver",
+        "trustless",
+        "unified address",
+        "validator"
+      ],
+      "summary": "Greek review of the 216-page batch by @panoskokmotos (#2427): trustless, unified address, receiver, validator, balance, Dev Fund, migration guide, light wallet, lockbox and three section headings; note, brand and non-custodial clarified; writing rules for organisations' gender, «π.χ.», standalone key, app labels, alt text, and word order and sentence case extended to link text, alt text, menu titles, running text and job titles."
     }
   ]
 }

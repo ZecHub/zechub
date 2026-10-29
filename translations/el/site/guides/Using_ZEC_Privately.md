@@ -1,5 +1,5 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/guides/Using_ZEC_Privately.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Επεξεργασία σελίδας"/>
 </a>
 
 # Χρήση του ZEC με ιδιωτικότητα
@@ -93,4 +93,4 @@
 
 #### Πόροι
 
-[Zcash συναλλαγές](https://zechub.wiki/using-zcash/transactions)
+[συναλλαγές Zcash](https://zechub.wiki/using-zcash/transactions)

@@ -1,5 +1,5 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Zero_to_Zero_Knowledge/Podcasts/pgp_for_crypto_podcast.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Επεξεργασία σελίδας"/>
 </a>
 
 
@@ -24,6 +24,6 @@
 * [PGP για το Crypto Podcast #9 - Ron Hammond](https://youtu.be/wdODEjbi41o)
 * [PGP για το Crypto Podcast #10 - Seth Hertlein και Ian Rogers](https://www.youtube.com/watch?v=1tgNKdiKUHQ)
 * [PGP για το Crypto Podcast #11 - Miller Whitehouse-Levine και Amanda Tuminelli](https://youtu.be/VwRJ1Ia3h6A)
-* [PGP για το Crypto Podcast #12 - Bart Stephens, Ιδρυτής και Διευθύνων Εταίρος, Blockchain Capital](https://youtu.be/Ce58qD5SXzw)
-* [PGP για το Crypto Podcast #13 - Marisa Coppel, Ανώτερη Νομική Σύμβουλος, Blockchain Association](https://youtu.be/etqA9xwuCOg)
+* [PGP για το Crypto Podcast #12 - Bart Stephens, ιδρυτής και διευθύνων εταίρος, Blockchain Capital](https://youtu.be/Ce58qD5SXzw)
+* [PGP για το Crypto Podcast #13 - Marisa Coppel, ανώτερη νομική σύμβουλος, Blockchain Association](https://youtu.be/etqA9xwuCOg)
 * [PGP για το Crypto Podcast #14 - Ειδική έκδοση Zcon4 με τους Jay Stanley (ACLU), Kurt Opsahl (Filecoin) και Jake Wiener](https://www.youtube.com/watch?v=Ior4r0YtBUE)

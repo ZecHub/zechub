@@ -6,7 +6,7 @@
 |---|-------|---------------------|
 | 1 | [Συναρτήσεις κατακερματισμού](/zero-to-zero-knowledge/hash-functions) | Κάθε είσοδος γίνεται μια σταθερή έξοδος. Οι τρεις ιδιότητες που πρέπει να έχει ένας κατακερματισμός. |
 | 2 | [Φράσεις ανάκτησης](/zero-to-zero-knowledge/mnemonic-seed-phrases) | Πώς μια λίστα λέξεων γίνεται τα κλειδιά που κρατούν τα κεφάλαιά σου. |
-| 3 | [Διευθύνσεις Zcash](/zero-to-zero-knowledge/zcash-addresses) | Διαφανείς και θωρακισμένες συναλλαγές, και Unified Addresses. |
+| 3 | [Διευθύνσεις Zcash](/zero-to-zero-knowledge/zcash-addresses) | Διαφανείς και θωρακισμένες συναλλαγές, και ενοποιημένες διευθύνσεις. |
 | 4 | [Αξιόπιστα περιβάλλοντα εκτέλεσης](/zero-to-zero-knowledge/tees) | Υλικό που διατηρεί τον υπολογισμό ιδιωτικό και τα σημεία όπου υστερεί. |
 | 5 | [Cryptonote](/zero-to-zero-knowledge/cryptonote) | Ο σχεδιασμός ιδιωτικότητας πίσω από το Monero και πώς διαφέρει από το Zcash. |
 | 6 | [Lelantus](/zero-to-zero-knowledge/lelantus) | Το πρωτόκολλο πίσω από το Firo και πώς συγκρίνεται με το Zcash. |
