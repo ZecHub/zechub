@@ -181,11 +181,18 @@ test("names ending or starting in a digit or punctuation are caught and repaired
   assert.deepEqual(keysOf("وNU5 ولNU5", "ar"), []);
 });
 
-test("a link label the translation wraps over two lines is not an orphan", () => {
-  assert.deepEqual(rules("Δες τον [οδηγό μετάβασης από zcashd\nσε Zebra](/x) για λεπτομέρειες.\n", "el", "See the [migration guide](/x).\n"), []);
-  // A blank line or a new list item ends the label: the closer below is an orphan.
-  assert.deepEqual(rules("Δες τον [οδηγό\n\nσε Zebra](/x).\n", "el"), ["orphan-link-close"]);
-  assert.deepEqual(rules("- πρώτο [στοιχείο\n- δεύτερο](/x)\n", "el"), ["orphan-link-close"]);
+test("a link label wrapped over two lines is reported unless the English wraps it too", () => {
+  // A relocated "[" must not absorb the closer on the next line.
+  assert.deepEqual(rules("plain [bracket\ntranslated label](https://x)\n", "el"), ["orphan-link-close"]);
+  assert.deepEqual(rules("Δες τον [οδηγό μετάβασης\nσε Zebra](/x).\n", "el", "See the [migration guide](/x).\n"), ["orphan-link-close"]);
+  // The English wraps the same link: allowed, per target.
+  assert.deepEqual(rules("Δες τον [οδηγό μετάβασης\nσε Zebra](/x).\n", "el", "See the [migration\nguide](/x).\n"), []);
+});
+
+test("brackets inside raw HTML tags are markup, not links", () => {
+  assert.deepEqual(rules("<span title=\"[\">Greek label](https://x)\n", "el"), ["orphan-link-close"]);
+  assert.deepEqual(rules("<a href=\"](/x)\">ασφαλές HTML</a>\n", "el"), []);
+  assert.deepEqual(rules("<img alt=\"[ x\" src=\"y\"> [ετικέτα](/u)\n", "el"), []);
 });
 
 test("a multi-line HTML comment is not prose", () => {

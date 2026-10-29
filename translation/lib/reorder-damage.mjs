@@ -97,36 +97,34 @@ function targetEnd(line, open) {
   return -1;
 }
 
-// A line that starts a new Markdown block: a link label cannot continue into
-// it, so an opener left unclosed above it is dropped there.
-const BLOCK_START = /^\s{0,3}(?:#{1,6}\s|[-*+]\s|\d+[.)]\s|>|\|)/;
-
 // Walk (code-masked) lines the way a reader's eye pairs brackets: every "["
 // opens (an image "![" included), a "]" closes the nearest open one, and a
 // "](" with nothing open is a closer whose opener went missing. Link targets
-// are skipped whole, so a bracket inside a URL never counts. An opener carries
-// to the next line of the same paragraph, because a label may wrap
-// ("[A long label\nthat wraps](url)"); a blank line or a new block ends it.
+// are skipped whole, so a bracket inside a URL never counts.
+//
+// Line by line, on purpose. CommonMark lets a label wrap inside a paragraph,
+// but no English page and no translation on main does it (0 of 4,581
+// translated pages on 2026-10-29), while carrying an opener to the next line
+// let a relocated "[" absorb the closer below it and hide the damage
+// ("plain [bracket\ntranslated label](url)"). A label wrapped in the English
+// still passes: its closer is an orphan in the English too, and the English
+// allowance (per target URL) covers it. A translation that wraps a label the
+// English keeps on one line is reported; keep the label on one line.
 export function scanLinksIn(lines) {
   const links = [], orphans = [];
-  let stack = [];
   lines.forEach((line, ln) => {
-    if (!line.trim() || BLOCK_START.test(line)) stack = [];
+    const stack = [];
     for (let i = 0; i < line.length; i++) {
       const c = line[i];
       if (c === "\\") { i++; continue; }
-      if (c === "[") { stack.push({ ln, col: i }); continue; }
+      if (c === "[") { stack.push(i); continue; }
       if (c !== "]") continue;
       const opener = stack.length ? stack.pop() : null;
       if (line[i + 1] !== "(") continue;
       const end = targetEnd(line, i + 1);
       const target = end < 0 ? line.slice(i + 2) : line.slice(i + 2, end);
       if (opener === null) orphans.push({ ln, col: i, target });
-      else {
-        const ol = lines[opener.ln];
-        const label = opener.ln === ln ? line.slice(opener.col + 1, i) : ol.slice(opener.col + 1);
-        links.push({ ln, openLn: opener.ln, open: opener.col, close: i, label, image: ol[opener.col - 1] === "!", target });
-      }
+      else links.push({ ln, openLn: ln, open: opener, close: i, label: line.slice(opener + 1, i), image: line[opener - 1] === "!", target });
       if (end >= 0) i = end;
     }
   });
@@ -203,10 +201,14 @@ export function findReorderDamage(text, loc, enText = "", terms = []) {
   });
 }
 
+// Raw HTML tags are markup, not text: a "[" or "](" inside an attribute
+// (<span title="[">, <a href="](/x)">) must neither open nor close a link.
+const maskHtml = (l) => l.replace(/<\/?[A-Za-z][^<>]*>/g, blank);
+
 function scan(text, loc, terms = []) {
   const script = SPACED_SCRIPT[loc] ?? null;
   const raw = text.split("\n");
-  const lines = maskCode(raw);
+  const lines = maskCode(raw).map(maskHtml);
   const out = [];
   const { links, orphans } = scanLinksIn(lines);
   for (const o of orphans)
