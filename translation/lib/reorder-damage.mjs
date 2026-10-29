@@ -221,7 +221,10 @@ function scan(text, loc, terms = []) {
     // ("[ 😎 #ZookoEnZcast ... ](url)"), and its translation is a different
     // string pointing at the same URL. The allowance is a multiset, so it
     // covers as many padded links to that URL as the English has, no more.
-    if (/^[ \t]+\S/.test(l.label))
+    // The label is read from the RAW line: a label that starts with inline
+    // code or an HTML tag ("[`zcashd` κόμβος](/u)") is blank in the masked
+    // line, and that blank is not a leading space.
+    if (/^[ \t]+\S/.test(raw[l.ln].slice(l.open + 1, l.close)))
       out.push({ rule: "label-leading-space", line: l.openLn + 1, col: l.open + 1, key: l.target, text: raw[l.openLn] });
   }
   if (script) {

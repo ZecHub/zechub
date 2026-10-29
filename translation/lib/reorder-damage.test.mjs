@@ -93,6 +93,9 @@ test("a label padded on the left is caught; an image or an all-blank label is no
   assert.deepEqual(rules("![ alt](/img.png)", "de"), []);
   assert.deepEqual(rules("[                   ](https://x)", "de"), []);
   assert.deepEqual(rules("[Labs ](https://x)", "de"), []);  // trailing space: cosmetic, not reordering
+  // A label that starts with inline code or an HTML tag has no leading space.
+  assert.deepEqual(rules("[`zcashd` κόμβος](/u) και [<b>έντονο</b> κείμενο](/v)", "el"), []);
+  assert.deepEqual(rules("[ `zcashd` κόμβος](/u)", "el"), ["label-leading-space"]);
 });
 
 test("a shape the English page has itself is allowed, per target", () => {
