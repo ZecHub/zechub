@@ -151,7 +151,7 @@ zallet -d /mnt/zcash-data/zallet help
 ## Πρόσθετοι πόροι
 - [Βιβλίο Zebra](https://zebra.zfnd.org) — επίσημη τεκμηρίωση του Zebra
 - [Βιβλίο Zallet](https://zcash.github.io/zallet/) — επίσημη τεκμηρίωση του Zallet
-- [zcashd Ειδοποίηση Υποστήριξης Τέλους Ζωής](https://z.cash/support/zcashd-deprecation)
+- [Ειδοποίηση υποστήριξης τέλους ζωής του zcashd](https://z.cash/support/zcashd-deprecation)
 
 ---
 

@@ -4,7 +4,7 @@ Zebra Κυκλοφόρησε η νεότερη έκδοση 1.8.0, δημοσι�
 
 ### Ενημερώσεις από ECC και ZF:
 
-[Zebra Νεότερη έκδοση 1.8.0](https://github.com/ZcashFoundation/zebra/releases/tag/v1.8.0)
+[Νεότερη έκδοση 1.8.0 του Zebra](https://github.com/ZcashFoundation/zebra/releases/tag/v1.8.0)
 
 [ECC Ενημέρωση: Μια κληρονομιά σε κίνηση](https://x.com/jswihart/status/1809385692512022710)
 

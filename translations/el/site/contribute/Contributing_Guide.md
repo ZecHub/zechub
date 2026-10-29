@@ -1,5 +1,5 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/contribute/Contributing_Guide.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Επεξεργασία σελίδας"/>
 </a>
 
 # Συνεισφορά στο ZecHub
@@ -75,7 +75,7 @@ zec_to_enter = usd_target / zec_usd_spot
 
 1. **Συγχωνευμένο** — το PR γίνεται αποδεκτό στο αποθετήριο.
 2. **Εγκεκριμένη ανταμοιβή** — ένας χορηγός ή το DAO συμφωνεί ότι οφείλεται ανταμοιβή και το ύψος της.
-3. **Πληρωμένο** — το ZEC φτάνει στο θωρακισμένο Unified Address σου.
+3. **Πληρωμένο** — το ZEC φτάνει στη θωρακισμένη ενοποιημένη διεύθυνση σου.
 
 Μια συγχωνευμένη συνεισφορά δεν εγκρίνει από μόνη της μια ανταμοιβή. Μια εγκεκριμένη ανταμοιβή δεν αποτελεί ολοκληρωμένη πληρωμή.
 

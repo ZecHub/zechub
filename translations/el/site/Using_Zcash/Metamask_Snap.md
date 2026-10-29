@@ -41,7 +41,7 @@
       Store data on your device
    ```
 
-![Zcash-snap-install](/content-images/Hy5MSG2Oex-42d0c5b346.webp)
+![εγκατάσταση-Zcash-snap](/content-images/Hy5MSG2Oex-42d0c5b346.webp)
 
 
 ---
@@ -59,7 +59,7 @@
 -  Block Explorer URL: https://bscscan.com
 ```
 Αυτό ενεργοποιεί πληροφορίες δικτύου και συνδέσμους εξερευνητή.
-![Add-a-custom-Net....](/content-images/S1hq7f2Oel-e1ca8b9044.webp)
+![Προσθήκη-ενός-προσαρμοσμένου-δικτύου....](/content-images/S1hq7f2Oel-e1ca8b9044.webp)
 
 Για το **Mainnet Zcash**:
 ```markdown
@@ -76,13 +76,13 @@
 1. Επισκέψου το [webzjs.chainsafe.dev](https://webzjs.chainsafe.dev).  
 2. Κάνε κλικ στο **Σύνδεση MetaMask Snap**.  
 
-![Zcash-web-wallet](/content-images/Sk8nSz3dgl-98ce36cc67.webp)
+![web-πορτοφόλι-Zcash](/content-images/Sk8nSz3dgl-98ce36cc67.webp)
 
 3. Ενέκρινε τη σύνδεση.  
 4. Δες τη σύνοψη του λογαριασμού Zcash σου, συμπεριλαμβανομένων:
    - Ενοποιημένων διευθύνσεων και διαφανούς διεύθυνσης
 
-![Account-summary-unif....](/content-images/r17c_Mhdel-f4963826d5.webp)
+![Σύνοψη-λογαριασμού-ενοπ....](/content-images/r17c_Mhdel-f4963826d5.webp)
 
 
 5. Περίμενε να ολοκληρωθεί ο συγχρονισμός.
@@ -112,7 +112,7 @@
    - Shielded recipient address  
    - Amount
 ```
-   ![Transfer-Balance](/content-images/rkvcFfhdex-bd55d079eb.webp)
+   ![Μεταφορά-υπολοίπου](/content-images/rkvcFfhdex-bd55d079eb.webp)
 
 4. Επιβεβαίωσε τη συναλλαγή στο MetaMask (υπόγραψε τη συναλλαγή).  
 5. Τα κεφάλαια που έλαβες θα εμφανιστούν στο WebZjs μετά την επιβεβαίωση.
@@ -136,17 +136,17 @@
 
 ## **7. Έλεγχος στοιχείων διεύθυνσης**
 
-1. Μετάβαση στην ενότητα **Λήψη** - το Unified Address σου θα εμφανίζεται από προεπιλογή.  
-2. Αντέγραψε το Unified Address και επισκέψου τον [Zcash Block Explorer](https://mainnet.zcashexplorer.app/).  
-3. Επικόλλησε το Unified Address σου στη γραμμή αναζήτησης.  
-4. Τώρα θα δεις όλα τα στοιχεία του Unified Address, τα οποία περιλαμβάνουν:
+1. Μετάβαση στην ενότητα **Receive** - η ενοποιημένη διεύθυνσή σου θα εμφανίζεται από προεπιλογή.  
+2. Αντέγραψε την ενοποιημένη διεύθυνση και επισκέψου τον [Zcash Block Explorer](https://mainnet.zcashexplorer.app/).  
+3. Επικόλλησε την ενοποιημένη διεύθυνσή σου στη γραμμή αναζήτησης.  
+4. Τώρα θα δεις όλα τα στοιχεία της ενοποιημένης διεύθυνσης, τα οποία περιλαμβάνουν:
 ``` 
    Orchard Address  
    Sapling Address  
    Transparent Address
 ``` 
 
-![Address-components](/content-images/SyPR2f2_gg-3907c5bf58.webp)
+![Στοιχεία-διεύθυνσης](/content-images/SyPR2f2_gg-3907c5bf58.webp)
 
 
 

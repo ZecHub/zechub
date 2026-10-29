@@ -3,10 +3,10 @@ published: 2025-08-02
 ---
 
 <a href="https://github.com/Zechub/zechub/edit/main/site/Research/Namada_Privacy_and_Best_Practices.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Επεξεργασία σελίδας"/>
 </a>
 
-![Namada Logo](/content-images/nam-078c7b6883.webp)
+![Λογότυπο Namada](/content-images/nam-078c7b6883.webp)
 
 # Βέλτιστες πρακτικές ιδιωτικότητας του Namada
 

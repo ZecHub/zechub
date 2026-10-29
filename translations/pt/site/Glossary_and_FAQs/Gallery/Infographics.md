@@ -4,12 +4,12 @@
    <!-- Imagens individuais com legendas -->
    <div>
       <img src="/content-images/Encrypted-Memos-Infographic-b3c464eaf1.webp" alt="Imagem 1">
-      <p>Memorandos Encriptados do Zcash</p>
+      <p>Memorandos com criptografia do Zcash</p>
    </div>
 
    <div>
       <img src="/content-images/Shielded-by-default-60f41919f5.webp" alt="Imagem 2">
-      <p>Protegido por padrão</p>
+      <p>Blindado por padrão</p>
    </div>
 
    <div>
@@ -39,7 +39,7 @@
 
   <div>
       <img src="/content-images/Zcash-Value-Pools-b79351c9b4.webp" alt="Imagem 8">
-      <p>Pools de Valor do Zcash</p>
+      <p>Pools de valor do Zcash</p>
    </div>
 
   <div>

@@ -1,5 +1,5 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Zcash_Organizations/Zcash_Foundation.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Επεξεργασία σελίδας"/>
 </a>
 
 # <img src="/content-images/image-2024-02-03-165803028-2532c6c3ac.webp" alt="Alt Text" width="50"/>  Zcash Foundation
@@ -20,7 +20,7 @@
 
 ## Οργανωτική δομή
 
-Το Zcash Foundation είναι ένα αφορολόγητο, μη κερδοσκοπικό [501(c)(3)](https://projects.propublica.org/nonprofits/organizations/820707962) [φιλανθρωπικό ίδρυμα](https://zfnd.org/#:~:text=Committed%20to%20Transparency). Εκτός από την [Ομάδα](https://zfnd.org/#:~:text=Our%20Team) του, διαθέτει [Διοικητικό Συμβούλιο](https://zfnd.org/#:~:text=Board%20of%20Directors) και διευκολύνει εκλογές κοινοτικής διακυβέρνησης μέσω ψηφοφορίας του Zcash Κοινοτικού Συμβουλευτικού [Πάνελ](https://zfnd.org/zcash-community-advisory-panel/).
+Το Zcash Foundation είναι ένα αφορολόγητο, μη κερδοσκοπικό [501(c)(3)](https://projects.propublica.org/nonprofits/organizations/820707962) [φιλανθρωπικό ίδρυμα](https://zfnd.org/#:~:text=Committed%20to%20Transparency). Εκτός από την [Ομάδα](https://zfnd.org/#:~:text=Our%20Team) του, διαθέτει [Διοικητικό Συμβούλιο](https://zfnd.org/#:~:text=Board%20of%20Directors) και διευκολύνει εκλογές κοινοτικής διακυβέρνησης μέσω ψηφοφορίας του Κοινοτικού Συμβουλευτικού [Πάνελ](https://zfnd.org/zcash-community-advisory-panel/) του Zcash.
 
 ## Χρηματοδότηση
 
@@ -32,7 +32,7 @@
   
 [https://zcashcommunitygrants.org/](https://zcashcommunitygrants.org/)
 
-Αυτό το πρόγραμμα χρηματοδοτεί ανεξάρτητες ομάδες για την εκτέλεση σημαντικής συνεχούς ανάπτυξης (ή άλλης εργασίας) που ωφελεί το οικοσύστημα Zcash. Οι επιχορηγήσεις επιλέγονται από μια πενταμελή επιτροπή που εκλέγεται από το Κοινοτικό Συμβουλευτικό Πάνελ Zcash. Οι ομάδες και οι οργανισμοί που ενδιαφέρονται να προωθήσουν τη χρηστικότητα, την ασφάλεια, την ιδιωτικότητα και την υιοθέτηση του Zcash ενθαρρύνονται θερμά να υποβάλουν αίτηση για μια Κοινοτική Επιχορήγηση Zcash!
+Αυτό το πρόγραμμα χρηματοδοτεί ανεξάρτητες ομάδες για την εκτέλεση σημαντικής συνεχούς ανάπτυξης (ή άλλης εργασίας) που ωφελεί το οικοσύστημα Zcash. Οι επιχορηγήσεις επιλέγονται από μια πενταμελή επιτροπή που εκλέγεται από το Κοινοτικό Συμβουλευτικό Πάνελ του Zcash. Οι ομάδες και οι οργανισμοί που ενδιαφέρονται να προωθήσουν τη χρηστικότητα, την ασφάλεια, την ιδιωτικότητα και την υιοθέτηση του Zcash ενθαρρύνονται θερμά να υποβάλουν αίτηση για μια Κοινοτική Επιχορήγηση του Zcash!
 
 
 ## Επιλεγμένα βίντεο Zcash Foundation
@@ -78,7 +78,7 @@
 </div>
 
 
-**Μέλη του Διοικητικού Συμβουλίου Zcash Foundation: Marta Belcher & J.W. Verret**
+**Μέλη του Διοικητικού Συμβουλίου του Zcash Foundation: Marta Belcher & J.W. Verret**
 
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
@@ -136,4 +136,4 @@
 
 ## Πόροι
 
-[Zcash ανάπτυξη και διακυβέρνηση](https://z.cash/zcash-development-and-governance/)
+[ανάπτυξη και διακυβέρνηση του Zcash](https://z.cash/zcash-development-and-governance/)

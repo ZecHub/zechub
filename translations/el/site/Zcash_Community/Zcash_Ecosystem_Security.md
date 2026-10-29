@@ -1,5 +1,5 @@
 <a href="https://github.com/Zechub/zechub/edit/main/site/Zcash_Community/Zcash_Ecosystem_Security.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Επεξεργασία σελίδας"/>
 </a>
 
 # Ασφάλεια οικοσυστήματος Zcash
@@ -20,7 +20,7 @@
 
 - **Zebra 4.4.1 (Μάιος 2026):** Κυκλοφόρησε η [κρίσιμη διόρθωση ασφάλειας](https://forum.zcashcommunity.com/t/zebra-4-4-1-critical-security-fix/55588). Όλοι οι διαχειριστές κόμβων ενθαρρύνονται να αναβαθμίσουν αμέσως.
 - **Zebra 4.3.1 (Απρίλιος 2026):** Κυκλοφόρησαν οι [κρίσιμες διορθώσεις ασφάλειας, η εξόρυξη σε Docker και η σκλήρυνση CI](https://forum.zcashcommunity.com/t/zebra-4-3-1-critical-security-fixes-dockerized-mining-and-ci-hardening/55389).
-- **Διορθώθηκαν πολλαπλές ευπάθειες (Απρίλιος 2026):** Πολλές ευπάθειες του [Zcash διορθώθηκαν επιτυχώς](https://forum.zcashcommunity.com/t/several-zcash-vulnerabilities-successfully-remediated/55388) χωρίς να επηρεαστούν τα κεφάλαια ή η ιδιωτικότητα των χρηστών.
+- **Διορθώθηκαν πολλαπλές ευπάθειες (Απρίλιος 2026):** [Πολλές ευπάθειες του Zcash διορθώθηκαν επιτυχώς](https://forum.zcashcommunity.com/t/several-zcash-vulnerabilities-successfully-remediated/55388) χωρίς να επηρεαστούν τα κεφάλαια ή η ιδιωτικότητα των χρηστών.
 - **Συμβουλευτική οδηγία zcashd (Απρίλιος 2026):** [Συμβουλευτική οδηγία για τη μείωση της επιφάνειας επίθεσης του zcashd](https://forum.zcashcommunity.com/t/advisory-reduce-your-zcashd-attack-surface-by-shielding-it-behind-zebra/55390) μέσω της δρομολόγησης της κίνησης μέσω του Zebra.
 
 ## Υπεύθυνη γνωστοποίηση

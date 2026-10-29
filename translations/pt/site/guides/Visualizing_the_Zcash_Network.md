@@ -3,9 +3,9 @@
 </a>
 
 
-#  Visualizando a Rede Zcash
+#  Visualizando a rede do Zcash
 
-A seguir está um guia sobre como executar o Crawler Ziggurat 3.0 para Zcash, bem como os programas associados Crunchy e P2P-Viz no Ubuntu 22.04 para coletar e visualizar informações da rede Zcash.  
+A seguir está um guia sobre como executar o Crawler Ziggurat 3.0 para o Zcash, bem como os programas associados Crunchy e P2P-Viz no Ubuntu 22.04 para coletar e visualizar informações da rede do Zcash.  
 O vídeo vinculado abaixo segue o mesmo processo.
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
@@ -20,7 +20,7 @@ O vídeo vinculado abaixo segue o mesmo processo.
 </div>
     
 ----------------
-## Instalar Requisitos: 
+## Instale os requisitos: 
 
 Rust -> [https://rustup.rs/](https://rustup.rs/)
 
@@ -58,9 +58,9 @@ sudo apt upgrade
 
 ----------------
 
-## Crawler da Rede Zcash
+## Crawler da rede do Zcash
 
-O Crawler de Zcash fica dentro de uma pasta chamada 'zcash', então pode ser aconselhável criar um novo diretório antes de clonar o crawler (repositório runziggurat/zcash).
+O Crawler do Zcash fica dentro de uma pasta chamada 'zcash', então pode ser aconselhável criar um novo diretório antes de clonar o crawler (repositório runziggurat/zcash).
 
 
 >  A partir do diretório /Home, execute os seguintes comandos:
@@ -71,7 +71,7 @@ git clone https://github.com/runziggurat/zcash.git
 cd zcash
 ```
 
-Navegue no navegador até 
+Navegue até 
 [https://github.com/runziggurat/zcash/blob/main/src/tools/crawler/README.md](https://github.com/runziggurat/zcash/blob/main/src/tools/crawler/README.md)
 
 Ou abra o readme em 
@@ -105,7 +105,7 @@ OPTIONS:
             Print version information
 ```
 
-`--seed-addrs` \ `--dns-seed` é o único argumento obrigatório e precisa de pelo menos um endereço especificado para funcionar.
+`--seed-addrs` \ `--dns-seed` são os únicos argumentos obrigatórios e exigem pelo menos um endereço especificado para funcionar.
 
 
 
@@ -122,9 +122,9 @@ cargo run --release --features crawler --bin crawler -- --help
 
 Isso irá compilar o programa e garantir que tudo esteja funcionando corretamente.
 
-Para executar o Crawler, é necessário adicionar uma flag '--seed-addrs' ao comando de inicialização, contendo pelo menos um endereço IP válido de nó Zcash. O crawler deve poder rodar por um período razoável de tempo para obter um resultado preciso. Alguns exemplos de endereços IP de nós podem ser encontrados em [https://mainnet.zcashexplorer.app/nodes](https://mainnet.zcashexplorer.app/nodes).
+Para executar o Crawler, é necessário adicionar uma flag '--seed-addrs' ao comando de inicialização, contendo pelo menos um endereço IP válido de nó do Zcash. O crawler deve poder rodar por um período razoável de tempo para obter um resultado preciso. Alguns exemplos de endereços IP de nós podem ser encontrados em [https://mainnet.zcashexplorer.app/nodes](https://mainnet.zcashexplorer.app/nodes).
 
-Para obter informações do Crawler enquanto ele estiver em execução, é necessário adicionar a flag '--rpc-addr' ao comando de inicialização. Isso não é necessário apenas para executar o crawler em si, mas caso contrário será preciso parar o crawler (ctrl+c ou SIGKILL) para exibir qualquer informação.
+Para obter informações do Crawler enquanto ele estiver sendo executado, é necessário adicionar a flag '--rpc-addr' ao comando de inicialização. Isso não é necessário apenas para executar o crawler em si, mas caso contrário será preciso parar o crawler (ctrl+c ou SIGKILL) para exibir qualquer informação.
 
 
 >  Execute o comando
@@ -182,7 +182,7 @@ Copie e cole o arquivo 'latest.json' na pasta 'crunchy/testdata/'.
 cargo run --release -- -i testdata/latest.json -o testdata/state.json -g testdata/geoip-cache.json -f Zcash
 ```
 
-Isso criará um arquivo 'state.json' filtrado para nós Zcash na pasta 'crunchy/testdata/' para ser usado com o P2P-Viz.
+Isso criará um arquivo 'state.json' filtrado de nós do Zcash na pasta 'crunchy/testdata/' para ser usado com o P2P-Viz.
 
 ----------------
 
@@ -204,7 +204,7 @@ Feche e reinicie o terminal.
 nvm install --lts
 ```
 
-navegue até sua pasta '/runziggurat'
+Navegue até sua pasta '/runziggurat'
 
 
 >  Para clonar o repositório do P2P-Viz e iniciá-lo, execute os seguintes comandos
@@ -246,4 +246,4 @@ O 'latest.json' pode ser chamado e gravado em '/testdata' para que você não pr
 ----------------
 DICAS! 
 
-As informações de endereço IP podem ser coletadas da saída e depois usadas para reabastecer o Crawler na inicialização (--seed-addrs). Isso reduzirá o tempo necessário para realizar uma varredura completa!
+As informações de endereço IP podem ser coletadas da saída e depois usadas como seeds do Crawler na inicialização (--seed-addrs). Isso reduzirá o tempo necessário para realizar uma varredura completa!

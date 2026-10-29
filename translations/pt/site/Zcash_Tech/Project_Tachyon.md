@@ -6,88 +6,88 @@
 
 ## TL;DR
 
-- Tachyon é uma reformulação proposta da forma como as wallets Zcash encontram e gastam fundos blindados, concebida para permitir que a rede cresça para números muito elevados de utilizadores
-- Atualmente, uma wallet tem de tentar desencriptar uma enorme parte da blockchain para descobrir quais os pagamentos que lhe pertencem, e essa é a principal razão pela qual a sincronização blindada parece lenta
-- Tachyon substitui isso por **sincronização oblivious**, para que uma wallet obtenha o que precisa sem analisar tudo e sem indicar a um servidor quais as partes que pretendia
-- Também move os detalhes de pagamento da blockchain para o próprio pedido de pagamento, o que torna o protocolo mais simples, mas transfere a responsabilidade para as wallets
-- É uma proposta, publicada pela primeira vez em abril de 2025. **Não faz parte de NU7** e **não foi lançada**, e requer um esforço de engenharia à escala da atualização Sapling
+- Tachyon é uma reformulação proposta da forma como as carteiras do Zcash encontram e gastam fundos blindados, concebida para permitir que a rede cresça para um número muito elevado de usuários
+- Atualmente, uma carteira precisa tentar descriptografar uma enorme parte da blockchain para descobrir quais pagamentos são seus, e essa é a principal razão pela qual a sincronização blindada parece lenta
+- Tachyon substitui isso por **sincronização oblivious**, para que uma carteira obtenha o que precisa sem analisar tudo e sem indicar a um servidor quais partes queria
+- Também move os detalhes de pagamento da blockchain para o próprio pedido de pagamento, o que torna o protocolo mais simples, mas transfere a responsabilidade para as carteiras
+- É uma proposta, publicada pela primeira vez em abril de 2025. **Não faz parte de NU7** e **não foi lançada**, e requer um esforço de engenharia na escala da atualização Sapling
 
 <br/>
 
-## A quem se destina
+## Para quem é
 
-- Qualquer pessoa que tenha visto uma wallet blindada sincronizar e se tenha perguntado porque demora tanto tempo
-- Recém-chegados que veem constantemente Tachyon mencionado juntamente com NU7 e a escalabilidade de Zcash
+- Qualquer pessoa que tenha visto uma carteira blindada sincronizar e se perguntado por que demora tanto
+- Pessoas recém-chegadas que veem constantemente Tachyon mencionado junto com NU7 e a escalabilidade do Zcash
 - Leitores que querem primeiro a ideia e depois a criptografia
 
 <br/>
 
 ## O problema que Tachyon resolve
 
-Zcash oculta a quem se destina um pagamento. Esse é o objetivo, e cria um problema incómodo: se ninguém consegue saber a quem pertence um pagamento, como encontra a sua wallet os seus pagamentos?
+O Zcash oculta para quem é um pagamento. Esse é o objetivo, e isso cria um problema incômodo: se ninguém consegue saber a quem pertence um pagamento, como a sua carteira encontra os seus pagamentos?
 
-Em Bitcoin isto é fácil. Os endereços são públicos, pelo que uma wallet pode perguntar a um servidor "o que foi enviado para este endereço?" e obter uma resposta. Uma wallet Zcash não pode fazer essa pergunta, porque fazê-la revelaria exatamente aquilo que o conjunto blindado foi concebido para ocultar.
+No Bitcoin isso é fácil. Os endereços são públicos, então uma carteira pode perguntar a um servidor "o que foi enviado para este endereço?" e obter uma resposta. Uma carteira do Zcash não pode fazer essa pergunta, porque fazê-la revelaria exatamente o que o pool blindado foi projetado para ocultar.
 
-Por isso, Zcash faz algo diferente. O remetente encripta os detalhes do pagamento e coloca-os dentro da própria transação. A sua wallet percorre então as transações na cadeia e tenta desencriptar cada uma. Quase todas as tentativas falham. As poucas que têm sucesso são os seus pagamentos. Isto chama-se **desencriptação por tentativa**, e é privado, correto e lento.
+Por isso, o Zcash faz algo diferente. O remetente criptografa os detalhes do pagamento e os coloca dentro da própria transação. Sua carteira então percorre as transações na chain e tenta descriptografar cada uma. Quase todas as tentativas falham. As poucas que têm sucesso são os seus pagamentos. Isso é chamado de **descriptografia por tentativa**, e é privado, correto e lento.
 
-![Atualmente, uma wallet Zcash transfere cada transação blindada e tenta desencriptar cada uma, falhando quase todas as tentativas, para encontrar os poucos pagamentos que lhe pertencem](/content-images/tachyon-scanning-today.svg)
+![Atualmente, uma carteira Zcash transfere cada transação blindada e tenta descriptografar cada uma, falhando em quase todas as tentativas, para encontrar os poucos pagamentos que pertencem a ela](/content-images/tachyon-scanning-today.svg)
 
-O problema é de que depende o trabalho. O esforço que a sua wallet despende é determinado pela dimensão da cadeia, não pelo número de pagamentos que efetivamente recebeu. Alguém que nunca recebeu um único pagamento faz quase tanto trabalho quanto alguém que os recebe diariamente. À medida que Zcash cresce, isto piora para todos. Nas palavras da proposta, "simplesmente não escala."
-
-<br/>
-
-## O que Tachyon altera
-
-Tachyon ataca o problema na sua raiz: deixa de usar a blockchain como canal de entrega de segredos de pagamento.
-
-Em vez disso, os detalhes de que precisa acompanham o próprio pedido de pagamento, fora de banda. Um pedido de pagamento, um URI ou um código QR transporta a informação que antes era encriptada na transação. Sean Bowe descreve isto como adotar **pagamentos fora de banda** pela primeira vez num protocolo blindado Zcash.
-
-Quando a cadeia deixa de transportar essa informação, a sua wallet deixa de ter motivos para a procurar, e o problema da desencriptação por tentativa desaparece.
-
-No entanto, a sua wallet continua a precisar de conhecer o estado atual da cadeia para poder gastar. Essa é a segunda metade do desenho, a **sincronização oblivious**: uma forma de uma wallet obter as coisas específicas de que precisa sem revelar ao servidor quais as coisas que pediu.
-
-![Com Tachyon, o remetente transmite os detalhes do pagamento ao destinatário fora de banda, e a wallet usa sincronização oblivious para obter apenas os dados de que precisa, em vez de analisar toda a cadeia](/content-images/tachyon-oblivious-sync.svg)
+O problema é do que o trabalho depende. O esforço que sua carteira emprega é determinado pelo tamanho da chain, não pelo número de pagamentos que você realmente recebeu. Alguém que nunca recebeu um único pagamento faz quase tanto trabalho quanto alguém que os recebe diariamente. À medida que o Zcash cresce, isso piora para todos. Nas palavras da proposta, "simplesmente não escala."
 
 <br/>
 
-## O que significaria para alguém que usa uma wallet
+## O que Tachyon muda
 
-- **A sincronização deixa de crescer com a cadeia.** O tempo que a sua wallet demora a atualizar-se dependeria da sua própria atividade, e não da dimensão de Zcash.
-- **Os pagamentos tornam-se mais parecidos com entregar uma fatura a alguém.** O pedido de pagamento contém o que o destinatário precisa, pelo que a troca entre remetente e destinatário importa mais do que importa hoje.
-- **As wallets assumem mais responsabilidade.** Como a cadeia deixa de guardar uma cópia encriptada dos detalhes do seu pagamento, perder os dados da sua wallet torna-se mais importante. A cópia de segurança e a recuperação deixam de ser uma funcionalidade do protocolo e passam a ser algo que o software da wallet tem de fazer corretamente.
-- **Alguns elementos familiares mudam ou desaparecem.** Tachyon retira a diversificação de chaves, as chaves de visualização e os endereços de pagamento do protocolo central, deixando-os para a camada da wallet. Esta é uma das partes mais consequentes da proposta e ainda está a ser trabalhada.
+Tachyon ataca o problema em sua raiz: deixa de usar a blockchain como canal de entrega de segredos de pagamento.
+
+Em vez disso, os detalhes de que você precisa acompanham o próprio pedido de pagamento, fora de banda. Um pedido de pagamento, um URI ou um código QR transporta as informações que antes eram criptografadas na transação. Sean Bowe descreve isso como adotar **pagamentos fora de banda** pela primeira vez em um protocolo blindado do Zcash.
+
+Quando a chain deixa de transportar essas informações, sua carteira deixa de ter motivos para procurá-las, e o problema da descriptografia por tentativa desaparece.
+
+No entanto, sua carteira ainda precisa conhecer o estado atual da chain para poder gastar. Essa é a segunda metade do projeto, a **sincronização oblivious**: uma forma de uma carteira obter as coisas específicas de que precisa sem revelar ao servidor quais coisas solicitou.
+
+![Com Tachyon, o remetente transmite os detalhes do pagamento ao destinatário fora de banda, e a carteira usa sincronização oblivious para obter apenas os dados de que precisa, em vez de analisar toda a chain](/content-images/tachyon-oblivious-sync.svg)
+
+<br/>
+
+## O que isso significaria para alguém que usa uma carteira
+
+- **A sincronização deixa de crescer com a chain.** O tempo que sua carteira levaria para se atualizar dependeria da sua própria atividade, e não do tamanho do Zcash.
+- **Os pagamentos se tornam mais parecidos com entregar uma fatura a alguém.** O pedido de pagamento contém o que o destinatário precisa, então a troca entre remetente e destinatário importa mais do que hoje.
+- **As carteiras assumem mais responsabilidade.** Como a chain deixa de guardar uma cópia criptografada dos detalhes do seu pagamento, perder os dados da sua carteira se torna mais importante. O backup e a recuperação deixam de ser um recurso do protocolo e passam a ser algo que o software da carteira precisa fazer corretamente.
+- **Alguns elementos familiares mudam ou desaparecem.** Tachyon retira a diversificação de chaves, as chaves de visualização e os endereços de pagamento do protocolo central, deixando-os para a camada da carteira. Esta é uma das partes mais consequentes da proposta e ainda está sendo trabalhada.
 
 <br/>
 
 ## Uma análise mais detalhada para leitores técnicos
 
-Tachyon é descrito como uma alteração reversamente compatível do protocolo Orchard. Poderia ser implementado como uma atualização ao conjunto Orchard existente ou como um conjunto blindado separado, alcançado através de uma [catraca](https://zechub.wiki/zcash-tech/the-turnstile), o mesmo mecanismo que Zcash utilizou para Ironwood. A escolha afeta a implementação, não o desenho.
+Tachyon é descrito como uma alteração com compatibilidade reversa do protocolo Orchard. Poderia ser implementado como uma atualização do pool Orchard existente ou como um pool blindado separado, alcançado por meio de uma [catraca](https://zechub.wiki/zcash-tech/the-turnstile), o mesmo mecanismo que o Zcash utilizou para Ironwood. A escolha afeta a implementação, não o projeto.
 
-Mantém vários elementos de Orchard: a re-aleatorização de chaves RedPallas, os compromissos de valor homomórficos e assinaturas vinculativas, e a estrutura de chaves particionada que permite a um dispositivo delegar a geração de provas sem ceder autoridade de gasto.
+Mantém vários elementos de Orchard: a re-aleatorização de chaves RedPallas, os compromissos de valor homomórficos e as assinaturas de vinculação, e a estrutura de chaves particionada que permite a um dispositivo delegar a geração de provas sem ceder autoridade de gasto.
 
-O trabalho de escalabilidade baseia-se em **dados acompanhados de provas**, uma técnica na qual os dados viajam juntamente com uma prova da sua própria correção, de modo que combiná-los com outros dados acompanhados de provas produz algo que herda e amplia essas provas. É isto que permite comprimir uma grande quantidade de trabalho verificado em algo pequeno e rápido de verificar. Halo, descoberto pela equipa por detrás de Zcash, foi o que tornou os dados acompanhados de provas suficientemente práticos para desenvolver sobre eles.
+O trabalho de escalabilidade baseia-se em **dados acompanhados de provas**, uma técnica na qual os dados viajam juntamente com uma prova de sua própria correção, de modo que combiná-los com outros dados acompanhados de provas produz algo que herda e amplia essas provas. É isso que permite comprimir uma grande quantidade de trabalho verificado em algo pequeno e rápido de verificar. Halo, descoberto pela equipe por trás do Zcash, foi o que tornou os dados acompanhados de provas suficientemente práticos para desenvolver com base neles.
 
-A terceira vertente são os **agregados de transações blindadas**, que altera a forma como as alterações de estado blindado são comunicadas e tem efeitos indiretos na forma como as assinaturas funcionam.
+A terceira vertente são os **agregados de transações blindadas**, que alteram a forma como as alterações de estado blindado são comunicadas e têm efeitos indiretos na forma como as assinaturas funcionam.
 
 <br/>
 
 ## Estado do trabalho
 
-Tachyon é uma **proposta, não uma funcionalidade lançada**. Foi publicada em abril de 2025, e uma publicação de seguimento em maio de 2025 analisou as implicações para o consenso. Foi nomeada como candidata para NU7, a próxima atualização após Ironwood, mas o âmbito de NU7 acordado em 17 de setembro de 2026 não a inclui: [ZIP 259](https://zips.z.cash/zip-0259) enumera o que NU7 implementa, e o [anúncio no fórum](https://forum.zcashcommunity.com/t/nu7-timeline/57655) afirma que não surge nele nenhum novo formato de transação. Ainda não foi definida uma data de ativação para Tachyon.
+Tachyon é uma **proposta, não uma funcionalidade lançada**. Foi publicada em abril de 2025, e uma publicação posterior em maio de 2025 analisou as implicações para o consenso. Foi nomeada como candidata para NU7, a próxima atualização após Ironwood, mas o escopo de NU7 acordado em 17 de setembro de 2026 não a inclui: [ZIP 259](https://zips.z.cash/zip-0259) lista o que NU7 implementa, e o [anúncio no fórum](https://forum.zcashcommunity.com/t/nu7-timeline/57655) afirma que nenhum novo formato de transação aparece nele. Ainda não foi definida uma data de ativação para Tachyon.
 
-O enquadramento do próprio autor é que se trata de um plano executável, e não de investigação especulativa, mas que requer um esforço de engenharia comparável a Sapling, deixando deliberadamente algumas questões mais difíceis para mais tarde.
+A própria visão do autor é que se trata de um plano acionável, e não de pesquisa especulativa, mas que requer um esforço de engenharia comparável ao Sapling, deixando deliberadamente algumas questões mais difíceis para mais tarde.
 
-O trabalho relacionado já é visível. [Zakura](https://zechub.wiki/zcash-tech/zakura-node), um nó completo lançado em julho de 2026, é um esforço conjunto entre Project Tachyon e o Valar Group e antecipa algumas destas alterações ao nível da rede. A investigação sobre [recuperação privada de informação](https://zechub.wiki/zcash-tech/private-information-retrieval) visa o mesmo estrangulamento da análise de wallets a partir de uma perspetiva diferente.
+O trabalho relacionado já é visível. [Zakura](https://zechub.wiki/zcash-tech/zakura-node), um nó integral lançado em julho de 2026, é um esforço conjunto entre Project Tachyon e o Valar Group e antecipa algumas dessas alterações no nível da rede. A pesquisa sobre [recuperação privada de informações](https://zechub.wiki/zcash-tech/private-information-retrieval) visa o mesmo gargalo da varredura de carteiras sob uma perspectiva diferente.
 
 <br/>
 
 ## Equívocos comuns
 
-- **Tachyon não está ativo.** Nenhuma wallet o utiliza hoje, e nenhuma atualização o ativou.
-- **Tachyon não é o mesmo que Ironwood.** Ironwood foi ativado em julho de 2026 e tratou do conjunto Orchard e da catraca. Tachyon é uma proposta distinta e posterior sobre escalabilidade.
-- **Tachyon não reduz a privacidade.** O objetivo é manter a indistinguibilidade do livro-razão enquanto elimina o custo de escalabilidade, não trocar privacidade por velocidade.
-- **A verificação de zk-SNARK nunca foi o estrangulamento.** A proposta deixa claro que a parte lenta é a forma como as wallets descobrem e coordenam o estado, e não o custo de verificar provas.
-- **Tachyon não está em NU7.** Foi outrora indicado como candidato, mas o âmbito acordado em setembro de 2026 abrange blocos de 25 segundos, reciclagem de taxas e o fim das transações da versão 4, sem um novo formato de transação ([ZIP 259](https://zips.z.cash/zip-0259)).
+- **Tachyon não está ativo.** Nenhuma carteira o utiliza hoje, e nenhuma atualização o ativou.
+- **Tachyon não é o mesmo que Ironwood.** Ironwood foi ativado em julho de 2026 e tratou do pool Orchard e da catraca. Tachyon é uma proposta distinta e posterior sobre escalabilidade.
+- **Tachyon não reduz a privacidade.** O objetivo é manter a indistinguibilidade do ledger enquanto elimina o custo de escalabilidade, não trocar privacidade por velocidade.
+- **A verificação de zk-SNARK nunca foi o gargalo.** A proposta deixa claro que a parte lenta é a forma como as carteiras descobrem e coordenam o estado, e não o custo de verificar provas.
+- **Tachyon não está em NU7.** Foi indicado anteriormente como candidato, mas o escopo acordado em setembro de 2026 abrange blocos de 25 segundos, reciclagem de taxas e o fim das transações da versão 4, sem um novo formato de transação ([ZIP 259](https://zips.z.cash/zip-0259)).
 
 <br/>
 
@@ -95,11 +95,11 @@ O trabalho relacionado já é visível. [Zakura](https://zechub.wiki/zcash-tech/
 
 | Termo | Significado |
 |---|---|
-| Trial decryption | Tentar desencriptar transações uma a uma para encontrar aquelas que lhe são endereçadas |
-| In-band secret distribution | Colocar o segredo de pagamento dentro da transação na blockchain, como Zcash faz atualmente |
-| Out-of-band payment | Transmitir os detalhes do pagamento diretamente entre remetente e destinatário, em vez de através da cadeia |
-| Oblivious synchronization | Obter os dados da cadeia de que uma wallet precisa sem revelar quais os dados solicitados |
-| Proof-carrying data (PCD) | Dados que viajam com uma prova da sua própria correção, para que as provas possam ser combinadas e comprimidas |
+| Trial decryption | Tentar descriptografar transações uma a uma para encontrar aquelas endereçadas a você |
+| In-band secret distribution | Colocar o segredo de pagamento dentro da transação na blockchain, como o Zcash faz atualmente |
+| Out-of-band payment | Transmitir os detalhes do pagamento diretamente entre remetente e destinatário, em vez de pela chain |
+| Oblivious synchronization | Obter os dados da chain de que uma carteira precisa sem revelar quais dados foram solicitados |
+| Proof-carrying data (PCD) | Dados que viajam com uma prova de sua própria correção, para que as provas possam ser combinadas e comprimidas |
 | Shielded transaction aggregate | A forma de Tachyon agrupar alterações de estado blindado, alterando como são comunicadas e assinadas |
 | ledger indistinguishability | A propriedade de as transações blindadas não poderem ser distinguidas umas das outras |
 
@@ -107,30 +107,30 @@ O trabalho relacionado já é visível. [Zakura](https://zechub.wiki/zcash-tech/
 
 ## FAQ
 
-**Isto tornará a sincronização da minha wallet mais rápida?** Esse é o objetivo. O tempo de sincronização dependeria da sua própria atividade em vez da dimensão da cadeia. Ainda nada foi lançado, pelo que ainda não existe uma medição a citar.
+**Isso tornará a sincronização da minha carteira mais rápida?** Esse é o objetivo. O tempo de sincronização dependeria da sua própria atividade em vez do tamanho da chain. Ainda nada foi lançado, então ainda não há uma medição para citar.
 
-**Tenho de fazer alguma coisa agora?** Não. Tachyon é uma proposta. Se for adotado, chegaria através de uma atualização da rede com o aviso habitual.
+**Preciso fazer algo agora?** Não. Tachyon é uma proposta. Se for adotado, chegaria por meio de uma atualização da rede com o aviso habitual.
 
-**Remover as chaves de visualização significa perder a possibilidade de partilhar acesso de leitura?** A proposta move essa capacidade do protocolo central para a camada da wallet. A forma como isto funcionará na prática é uma das questões em aberto.
+**Remover as chaves de visualização significa perder a possibilidade de compartilhar acesso de leitura?** A proposta move essa capacidade do protocolo central para a camada da carteira. A forma como isso funcionará na prática é uma das questões em aberto.
 
-**O meu dinheiro está em risco se Tachyon for lançado?** A implementação usaria uma atualização Orchard ou uma catraca, ambas concebidas para que o valor se mova sob regras de contabilidade pública. A página Ironwood explica como funciona uma catraca.
+**Meu dinheiro está em risco se Tachyon for lançado?** A implementação usaria uma atualização do Orchard ou uma catraca, ambas projetadas para que o valor se mova sob regras de contabilidade pública. A página Ironwood explica como uma catraca funciona.
 
 <br/>
 
 ## Páginas relacionadas
 
-- [Recuperação Privada de Informação](https://zechub.wiki/zcash-tech/private-information-retrieval) - outra abordagem ao mesmo estrangulamento da análise de wallets
+- [Recuperação privada de informações](https://zechub.wiki/zcash-tech/private-information-retrieval) - outra abordagem para o mesmo gargalo da varredura de carteiras
 - [Nó Zakura](https://zechub.wiki/zcash-tech/zakura-node) - um nó construído em parte a partir do esforço de engenharia de Tachyon
 - [Ironwood](https://zechub.wiki/zcash-tech/ironwood) - a atualização ativada em julho de 2026, frequentemente confundida com Tachyon
-- [A Catraca](https://zechub.wiki/zcash-tech/the-turnstile) - o mecanismo que Tachyon poderia utilizar se fosse implementado como o seu próprio conjunto
-- [Segurança Pós-Quântica](https://zechub.wiki/zcash-tech/post-quantum-security) - onde Tachyon se posiciona juntamente com o trabalho de protocolo a longo prazo
-- [Como Zcash Está Organizado](https://zechub.wiki/start-here/how-zcash-is-organized) - quem está a realizar este trabalho e como o ecossistema se articula
+- [A catraca](https://zechub.wiki/zcash-tech/the-turnstile) - o mecanismo que Tachyon poderia usar se fosse implementado como seu próprio pool
+- [Segurança pós-quântica](https://zechub.wiki/zcash-tech/post-quantum-security) - onde Tachyon se posiciona junto ao trabalho de protocolo de longo prazo
+- [Como o Zcash é organizado](https://zechub.wiki/start-here/how-zcash-is-organized) - quem está realizando este trabalho e como o ecossistema se articula
 
 <br/>
 
 ## Recursos
 
-- [Tachyon: Escalar Zcash com Sincronização Oblivious](https://seanbowe.com/blog/tachyon-scaling-zcash-oblivious-synchronization/) - Sean Bowe, 2 de abril de 2025, a proposta original
-- [Tachyaction à Distância](https://seanbowe.com/blog/tachyaction-at-a-distance/) - Sean Bowe, 15 de maio de 2025, implicações para consenso e protocolo, escrito para programadores de protocolos
+- [Tachyon: Scaling Zcash with Oblivious Synchronization](https://seanbowe.com/blog/tachyon-scaling-zcash-oblivious-synchronization/) - Sean Bowe, 2 de abril de 2025, a proposta original
+- [Tachyaction at a Distance](https://seanbowe.com/blog/tachyaction-at-a-distance/) - Sean Bowe, 15 de maio de 2025, implicações para consenso e protocolo, escrito para desenvolvedores de protocolos
 - [Blog de Sean Bowe](https://seanbowe.com/blog/) - onde a série Tachyon é publicada
 - [tachyon.z.cash](https://tachyon.z.cash/) - site do projeto

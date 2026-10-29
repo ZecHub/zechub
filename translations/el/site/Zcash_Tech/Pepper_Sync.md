@@ -1,10 +1,10 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Zcash_Tech/Pepper_Sync.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Επεξεργασία σελίδας"/>
 </a>
 
 # Zingo 2.0 - Pepper Sync
 
-## Συνοπτικά
+## Με λίγα λόγια
 
 * Το Pepper Sync είναι η μηχανή συγχρονισμού που εισήχθη στο Zingo! 2.0, το open-source πορτοφόλι Zcash που δημιούργησε η Zingo Labs.
 * Χρησιμοποιεί μη γραμμικό συγχρονισμό αντί να σαρώνει την αλυσίδα σε μεγάλα διαδοχικά τμήματα, ώστε το υπόλοιπο και οι συναλλαγές σου να εμφανίζονται πολύ νωρίτερα.
@@ -52,11 +52,11 @@
 
 ### Οπτικοί οδηγοί
 
-- Λεπτομερής ροή - Εμφανίζει ολόκληρη τη διαδικασία. ![Detailed Flow](/content-images/119c13ec-76be-42bd-b558-762d09275a1b-8ba7a18302.webp)
+- Λεπτομερής ροή - Εμφανίζει ολόκληρη τη διαδικασία. ![Λεπτομερής ροή](/content-images/119c13ec-76be-42bd-b558-762d09275a1b-8ba7a18302.webp)
 
-- Απλοποιημένη ροή - Γρήγορη προβολή για καθημερινούς χρήστες. ![Simplified Flow](/content-images/9b612cbd-f24d-4472-9b87-0f2c908bb368-eb34a722a2.webp)
+- Απλοποιημένη ροή - Γρήγορη προβολή για καθημερινούς χρήστες. ![Απλοποιημένη ροή](/content-images/9b612cbd-f24d-4472-9b87-0f2c908bb368-eb34a722a2.webp)
 
-## Αναλυτική εξέταση
+## Εμβάθυνση
 
 ### Πώς λειτουργεί το Pepper Sync (απλή προβολή)
 
@@ -140,7 +140,7 @@
 ## Σχετικές σελίδες
 
 - [Συγχρονισμός πορτοφολιού Zcash](/zcash-tech/zcash-wallet-syncing) — πώς λειτουργεί ο συγχρονισμός πορτοφολιού σε όλο το οικοσύστημα Zcash.
-- [Ελαφριοί κόμβοι πορτοφολιού](/zcash-tech/lightwallet-nodes) — η υποδομή με την οποία συγχρονίζεται ένα ελαφρύ πορτοφόλι όπως το Zingo.
+- [Κόμβοι light wallet](/zcash-tech/lightwallet-nodes) — η υποδομή με την οποία συγχρονίζεται ένα light wallet όπως το Zingo.
 - [Zaino](/zcash-tech/zaino) — ο indexer που ανέπτυξε η ομάδα Zingo.
 - [Πορτοφόλια](/wallets) — ο πλήρης κατάλογος των πορτοφολιών Zcash και των χαρακτηριστικών τους.
 

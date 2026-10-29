@@ -2,14 +2,14 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Editar página"/>
 </a>
 
-# Fundamentos da Zcash
+# Fundamentos do Zcash
 
 ## Resumo
 
-- **ZEC** é uma moeda digital com foco em privacidade, construída na blockchain Zcash
+- **ZEC** é uma moeda digital com foco em privacidade, construída na blockchain do Zcash
 - Ao contrário do Bitcoin, o ZEC oferece suporte a **transações blindadas (privadas) completas** usando provas de conhecimento zero
 - Você controla sua privacidade financeira: escolhe o que revelar e para quem
-- Zcash é de código aberto, sem permissão e descentralizada
+- Zcash é de código aberto, sem permissão e descentralizado
 
 ---
 
@@ -20,7 +20,7 @@
 
 ---
 
-ZEC é uma moeda digital baseada na blockchain Zcash. É a aproximação mais próxima do dinheiro em espécie na web. Embora compartilhe muitas características semelhantes ao Bitcoin, resolve a maior falha do Bitcoin ao permitir que os usuários realizem transações monetárias totalmente privadas.
+ZEC é uma moeda digital baseada na blockchain do Zcash. É a aproximação mais próxima do dinheiro em espécie na web. Embora compartilhe muitas características semelhantes ao Bitcoin, resolve a maior falha do Bitcoin ao permitir que os usuários realizem transações monetárias totalmente privadas.
 
 #### Por que uma moeda privada é importante?
 
@@ -28,15 +28,15 @@ ZEC dá às pessoas a possibilidade de transferir dados sem permissão. Ter um s
 
 #### Recursos
 
-[O caso da Zcash e da privacidade](https://www.zcashzeal.org/blog/the-case-for-zcash-amp-privacy)
+[O caso do Zcash e da privacidade](https://www.zcashzeal.org/blog/the-case-for-zcash-amp-privacy)
 
 [Um ecossistema blindado](https://web.archive.org/web/20260903010654/https://electriccoin.co/blog/shielded-ecosystem/)
 
-[Recomendações de privacidade da Zcash](https://z.cash/support/security/privacy-security-recommendations/)
+[Recomendações de privacidade do Zcash](https://z.cash/support/security/privacy-security-recommendations/)
 
 ## O que é Zcash?
 
-Zcash é uma implementação do protocolo "Zerocash". É um registro de código aberto baseado em blockchain que conta com um sofisticado sistema de provas de conhecimento zero. Baseada no código do Bitcoin, ela se especializa em oferecer um padrão mais elevado de privacidade por meio de seu sistema de provas, preservando a confidencialidade dos [metadados de transação](https://nym.com/blog/what-is-metadata). Em sua essência, Zcash é propriedade privada de dados transferida sem permissão quando as transações são realizadas. 
+Zcash é uma implementação do protocolo "Zerocash". É um registro de código aberto baseado em blockchain que conta com um sofisticado sistema de provas de conhecimento zero. Baseado no código do Bitcoin, ele se especializa em oferecer um padrão mais elevado de privacidade por meio de seu sistema de provas, preservando a confidencialidade dos [metadados de transação](https://nym.com/blog/what-is-metadata). Em sua essência, o Zcash representa a propriedade privada de dados transferida sem permissão quando as transações são realizadas. 
 
 #### Por que isso importa?
 
@@ -56,8 +56,8 @@ Zcash resolve a maior falha do Bitcoin: a propriedade privada e a transferência
 
 ## Páginas relacionadas
 
-- [Guia para novos utilizadores](/start-here/new-user-guide) — Integração passo a passo para novos detentores de ZEC
-- [Carteiras](/using-zcash/wallets) — Escolha uma carteira blindada para guardar os seus ZEC
+- [Guia para novos usuários](/start-here/new-user-guide) — Introdução passo a passo para novos detentores de ZEC
+- [Carteiras](/using-zcash/wallets) — Escolha uma carteira blindada para guardar seus ZEC
 - [Comprar ZEC](/using-zcash/buying-zec) — Onde e como adquirir ZEC
-- [Pools blindadas](/using-zcash/shielded-pools) — Como as pools de Zcash mantêm as transações privadas
-- [zk-SNARKs](/zcash-tech/zk-snarks) — A criptografia por detrás da privacidade de Zcash
+- [Pools blindados](/using-zcash/shielded-pools) — Como os pools do Zcash mantêm as transações privadas
+- [zk-SNARKs](/zcash-tech/zk-snarks) — A criptografia por trás da privacidade do Zcash
