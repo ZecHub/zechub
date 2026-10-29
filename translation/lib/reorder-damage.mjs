@@ -203,7 +203,9 @@ export function findReorderDamage(text, loc, enText = "", terms = []) {
 
 // Raw HTML tags are markup, not text: a "[" or "](" inside an attribute
 // (<span title="[">, <a href="](/x)">) must neither open nor close a link.
-const maskHtml = (l) => l.replace(/<\/?[A-Za-z][^<>]*>/g, blank);
+// Quoted attribute values are consumed whole, so a ">" inside one does not
+// end the tag early (<span title="> [">).
+const maskHtml = (l) => l.replace(/<\/?[A-Za-z](?:[^<>"']|"[^"]*"|'[^']*')*>/g, blank);
 
 function scan(text, loc, terms = []) {
   const script = SPACED_SCRIPT[loc] ?? null;

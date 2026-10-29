@@ -193,6 +193,11 @@ test("brackets inside raw HTML tags are markup, not links", () => {
   assert.deepEqual(rules("<span title=\"[\">Greek label](https://x)\n", "el"), ["orphan-link-close"]);
   assert.deepEqual(rules("<a href=\"](/x)\">ασφαλές HTML</a>\n", "el"), []);
   assert.deepEqual(rules("<img alt=\"[ x\" src=\"y\"> [ετικέτα](/u)\n", "el"), []);
+  // A ">" inside a quoted attribute does not end the tag.
+  assert.deepEqual(rules("<span title=\"> [\">Greek label](https://x)\n", "el"), ["orphan-link-close"]);
+  assert.deepEqual(rules("<span title='> [' data-x=\"]( >\">κείμενο</span> [a](/b)\n", "el"), []);
+  // Not a tag: a comparison in prose keeps its brackets.
+  assert.deepEqual(rules("αν a <b τότε c] (x) και d](/u)\n", "el"), ["orphan-link-close"]);
 });
 
 test("a multi-line HTML comment is not prose", () => {
