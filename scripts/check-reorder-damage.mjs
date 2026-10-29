@@ -19,7 +19,7 @@ import { execFileSync } from "node:child_process";
 import { existsSync, readdirSync, readFileSync, statSync } from "node:fs";
 import { join } from "node:path";
 
-import { findReorderDamage, splitInherited, RULE_HELP } from "../translation/lib/reorder-damage.mjs";
+import { baselineDamage, findReorderDamage, splitInherited, RULE_HELP } from "../translation/lib/reorder-damage.mjs";
 
 const root = process.cwd();
 const git = (args) => execFileSync("git", args, { cwd: root, encoding: "utf8", maxBuffer: 64 * 1024 * 1024, stdio: ["ignore", "pipe", "pipe"] });
@@ -111,7 +111,7 @@ for (const tr of pages.sort()) {
     const oldTr = renamedFrom.get(tr) ?? tr;
     const old = parse(oldTr);
     const bTr = showAt(mergeBase, oldTr);
-    if (bTr !== null && old) before = findReorderDamage(bTr, old.loc, showAt(mergeBase, old.en) ?? "", terms);
+    if (bTr !== null && old) before = baselineDamage(bTr, old.loc, showAt(mergeBase, old.en) ?? "", terms);
   }
   const s = splitInherited(found, before);
   errors.push(...s.fresh);

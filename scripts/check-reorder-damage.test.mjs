@@ -198,3 +198,23 @@ test("an unresolvable base is an error", () => {
   assert.equal(r.status, 1);
   assert.match(r.out, /could not be resolved/);
 });
+
+test("a glued name repaired on a line that keeps older link damage stays inherited", () => {
+  const both = "# Swap\n\nΟ οδηγός ZecHubΠώς να κάνεις swap για ZEC στο Phantom](/using-zcash/solswap) του [ καλύπτει το solswap.\n";
+  git("checkout", "-qb", "both-base");
+  w("translations/el/site/swap.md", both);
+  commit("both base");
+  git("checkout", "-qb", "both-head");
+  w("translations/el/site/swap.md", both.replace("ZecHubΠώς", "ZecHub Πώς"));
+  commit("repair the space only");
+  const r = run("--base", "both-base");
+  assert.equal(r.status, 0, r.out);
+  assert.match(r.out, /already there at the base/);
+  // Genuinely new damage on that page still fails.
+  w("translations/el/site/swap.md", both.replace("ZecHubΠώς", "ZecHub Πώς") + "\nΔες Zcash Πορτοφόλια](/using-zcash/wallets) [ εδώ.\n");
+  commit("new orphan");
+  const n = run("--base", "both-base");
+  assert.equal(n.status, 1, n.out);
+  assert.match(n.out, /swap\.md:5:\d+: error: orphan-link-close/);
+  git("checkout", "-q", "main");
+});
