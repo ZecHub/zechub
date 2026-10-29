@@ -2,117 +2,117 @@
 
 <span className="inline-flex items-center gap-[6px]">
   <span className="inline-block w-[12px] h-[12px] bg-green-500 rounded-full"></span>
-  Olùbẹ̀rẹ̀ - ìṣẹ́jú 5
+  Olùbẹ̀rẹ̀ - Ìṣẹ́jú márùn-ún.
 </span>
 
 ## TL;DR
 
-- Gba awọn sisanwo nipa lilo adirẹsi ti a daabobo
-- Yẹra fún fífi ìṣípayá ìtajà oníbàárà hàn
-- Lo àwọn àkọsílẹ̀ tàbí àwọn ètò ìpamọ́ fún títẹ̀lé àṣẹ
-- Jẹ́ kí owó tí ń wọlé fún iṣẹ́ ní ìkọ̀kọ̀
+- Gba owo sisan nipa lilo adirẹsi ti a fi boju pamọ
+- Yẹra fun fifihan data iṣowo alabara.
+- Lo awọn memo tabi awọn ọna ṣiṣe ti o wa ni ita fun titele aṣẹ.
+- Má ṣe jẹ́ káwọn èèyàn mọ owó tó ń wọlé fún ọjà rẹ.
 
 <br/>
 
 ## <img src="/content-images/user-svgrepo-com-21adf62b7c.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="user icon"/> Who is this for?
 
-- Awọn oniṣowo ori ayelujara
-- Àwọn olùpèsè iṣẹ́
-- Àwọn ilé-iṣẹ́ kékeré
-- Awọn ile itaja ti o ni ore-crypto
+- Àwọn oníṣòwò orí ayélujára
+- Àwọn olùpèsè iṣẹ́ ìsìn
+- Àwọn iléeṣẹ́ kékeré
+- Àwọn ilé ìtajà tó ń ṣe ojúlówó owó orí.
 
 <br/>
 
 ## <img src="/content-images/warning-error-svgrepo-com-b7ea8a50da.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="warning icon"/> The Problem
 
-Awọn isanwo crypto ibile fihan:
-- Ìwà ríra àwọn oníbàárà
-- Owó tí oníṣòwò ń gbà
-- Ìtàn ìṣòwò náà
+Àwọn ìsanwó tí a fi owó kọ́ra ṣe ní àṣà máa ń tú:
+- Ìwà ìrajà àwọn oníbàárà
+- Owó tó ń wọlé látọ̀dọ̀ àwọn oníṣòwò
+- Ìtàn ìsòwò
 
-Èyí yóò mú kí:
-- Pípàdánù ìpamọ́ oníbàárà
-- Àwọn ìjáde ọgbọ́n ìdíje tí wọ́n ń jò
-- Ìmọ́lẹ̀ ìṣúná owó tí o lè má fẹ́
+Èyí ń yọrí sí:
+- Ìpalára fún ìpamọ́ àwọn oníbàárà rẹ̀.
+- Ìṣàn ìmọ̀ ìjìnlẹ̀ tó jẹ mọ́ òwò ìdíje
+- Ìfòyebánilò lórí ọ̀ràn ìnáwó tó lè máà wù ọ́
 
 <br/>
 
 ## <img src="/content-images/icons8-lock-2f8e221321.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> Why Zcash?
 
-Zcash n ṣiṣẹ:
-- Awọn isanwo alabara ikọkọ
-- Ìtẹ̀lé owó ìpamọ́
-- Idaabobo iṣẹ iṣowo
+Zcash jẹ ki:
+- Àwọn ìsanwó tí àwọn oníbàárà ń san
+- Ìtọ́jú ààbò owó wọlé
+- Ààbò ìgbòkègbodò okòwò
 
 
 <br/>
 
 ## <img src="/content-images/icons8-toolbox-9bebbb1619.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> What You Need
 
-- Àpò owó Zcash kan tí ó ń ṣe àtìlẹ́yìn fún àwọn ìṣòwò tí a dáàbò bò
-- Ṣíṣàn ìsanwó tí ó rọrùn (àfọwọ́ṣe tàbí ìṣọkan)
-- Àṣàyàn: ètò ìtọ́pinpin àṣẹ
+- Àpò Zcash tí ó ń ṣe àtìlẹ́yìn fún àwọn ìnáwó tó ní ìdènà-ìjàǹbá.
+- Ìṣàn ìsanwó tí ó rọrùn (ìwé-ọwọ́ tàbí ti a ṣepọ̀)
+- Aṣayan: eto titele aṣẹ
 
 
 <br/>
 
 ## <img src="/content-images/ladder-svgrepo-com-7232bf46ed.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="step icon"/> Step-by-Step Guide
 
-### Igbesẹ 1: Ṣeto Adirẹsi Isanwo kan
+### Ìgbésè 1: Ṣeto Adirẹsi Owó-ìṣúná kan
 
-- Ṣẹ̀dá àdírẹ́sì tí a fi ààbò (z) ṣe
-- Lo eyi lati gba awọn isanwo
+- Ṣẹda adirẹsi tí a fi ààbò (z) sí
+- Lo èyí fún gbígba owó-ìṣúnáwọ̀n.
 
 
-### Igbesẹ 2: Fi Awọn Ilana Isanwo han
+### Ìgbésẹ̀ 2: Fi Àlàkalẹ̀ Owó síta.
 
-Fun iṣowo kọọkan:
-- Fi àdírẹ́sì z rẹ hàn
-- Pese iye owo isanwo
-- O le fi itọkasi akọsilẹ kun un
+Fun gbogbo ìsòwò:
+- Fi adirẹsi z rẹ hàn.
+- Sọ iye tí a san fún ẹ.
+- A ó fi àlàyé ìparí kún un bí a bá fẹ́.
 
-### Igbesẹ 3: Tọpinpin Awọn aṣẹ
+### Igbesẹ 3: Àwọn Àṣẹ Ìtọjú
 
 Lò:
-- Àwọn Àkọsílẹ̀ (fún àpẹẹrẹ, ID Àṣẹ)
-- Tabi ipasẹ ti ko ni ẹwọn (database, spreadsheet)
+- Àwọn àlàyé (bí àpẹẹrẹ, Àmì Ìpèsè)
+- Tabi titele ti o wa ni ita (ipamọ data, iwe kaadi)
 
 
 Àpẹẹrẹ:
 - Àṣẹ #4821
 
 
-### Igbesẹ 4: Jẹrisi Isanwo
+### Ìgbésè 4: Fọwọ́ sí ìsanwó náà.
 
-- Ṣe atẹle awọn iṣowo ti nwọle ti a daabobo
-- Ṣe àfikún àkọsílẹ̀ tàbí iye tí a pàṣẹ
+- Ṣíṣayẹwo àwọn ìnáwó tí ó ń wọlé tó ní ààbò.
+- Ìpín ìsọfúnni tàbí iye tí ó bá pàṣẹ mu.
 
 
-### Igbesẹ 5: Ṣetọju Ipamọ mimọ
+### Ìgbésẹ̀ 5: Má Ṣe Jẹ́ Kí Ọkàn Rẹ Pínyà Lójú Àwọn Èèyàn Mìíràn
 
-- Yẹra fún àtúnlo àdírẹ́sì ní gbangba tí ó bá ṣeé ṣe
-- Má ṣe fi ìtàn ìṣòwò hàn
-- Ya awọn apamọwọ fun awọn ẹya iṣowo oriṣiriṣi ti o ba jẹ dandan
+- Yẹra fun lilo adirẹsi ni gbangba ti o ba ṣeeṣe.
+- Má ṣe fi ìtàn ìsòwò hàn án.
+- Àwọn àpò owó tó yàtọ̀ fún àwọn ẹyọ-iṣẹ́ tí ó yàtọ̀ síra bí a bá nílò wọn.
 
 
 <br/>
 
 ## <img src="/content-images/icons8-cancel-7f786be3c1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="cancel icon"/> Common Mistakes to Avoid
 
-- Lilo awọn adirẹsi ti o han gbangba fun awọn sisanwo 
-- Tẹ̀ àwọn ẹ̀rí ìṣòwò jáde ní gbangba 
-- So idanimọ alabara pọ mọ data blockchain 
-- Àìtọ́pinpin ìsanwó dáadáa 
+- Lílo àwọn àdírẹ́sì tí ó ṣe kedere fún ìsanwó 
+- Ṣíṣí àwọn ẹ̀rí ìsòwò fún gbogbo ènìyàn 
+- Lílo ìwífún oníbàárà sí àwọn àlàyé blockchain 
+- Kò tọpinpin owó tí wọ́n san dáadáa. 
 
 
 <br/>
 
 ## <img src="/content-images/checked-checkbox-svgrepo-com-7ea19022da.svg" width="28" height="28" className="inline-block align-middle mr-1 p-[2px]" alt="done icon"/> Result
 
-O le:
-- Gba awọn sisanwo ni ikọkọ
-- Dáàbò bo àwọn oníbàárà rẹ
-- Jẹ́ kí ìkọ̀kọ̀ àwọn ìwífún ìṣòwò rẹ wà ní ìkọ̀kọ̀
+O lè:
+- Gba owó ní ìdákọ̀rọ́
+- Máa dáàbò bo àwọn oníbàárà rẹ.
+- Má ṣe jẹ́ káwọn èèyàn mọ gbogbo nǹkan tó o bá ń ṣòwò náà.
 
 
 <br/>
@@ -120,20 +120,20 @@ O le:
 ## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="chain-links icon"/> Related
 
 
-- [Àwọn Àpò Ìpamọ́](/wallets)
-- [Ta ló lè rí ìsanwó Zcash rẹ](/start-here/who-can-see-your-zcash-payment)
+- [Àwọn àpamọ́ owó](/wallets)
+- [Ìpamọ́ra - Àwọn Ohun Tó Yẹ Kó O Máa Ṣe](/start-here/who-can-see-your-zcash-payment)
 
 <br/>
 
 ## <img src="/content-images/progress-arrows-svgrepo-com-aad76739e5.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="progress icon"/> Progress
 
-**Igbese 4 ninu 6**
+**Igbesẹ kẹrin nínú mẹ́fà**
 
-O le ṣiṣẹ awọn sisanwo ikọkọ fun iṣowo bayi.
+O le ṣe sisanwó ìnájà fún òwò.
 
 <br/>
 
-## Igbese to nbo
+## Ìgbésẹ̀ Tó Ń Bọ̀
 
-- [Ṣíṣe Ìṣúra Àwùjọ Àdáni kan](/zcash-use-cases/private-community-treasury)
+- [Ṣíṣètò Ìpamọ́ Owó Àkànṣe fún Àwọn Èèyàn](/zcash-use-cases/private-community-treasury)
 <br/>

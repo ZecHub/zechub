@@ -29,13 +29,13 @@ Isi ihe abụọ sitere na ZIP kwesịrị iburu n'uche:
 - **Ọ naghị agwa onye ọ bụla ka o jiri obere nkwenye.** Maka ndị ọrụ na-enwe otu ndidi maka ihe egwu ịlaghachi azụ dịka taa, ZIP na-atụ anya oge nkwenye ga-aka mma site na obere ihe na-erughị ugboro atọ.
 - **Ọ bụghị ihe nnọchi anya ọrụ ikpeazụ.** ZIP ahụ na-akọwa onwe ya dị ka ihe mgbakwunye na usoro ikpeazụ dịka Crosslink. Blọk ndị dị ngwa ngwa na-enyere aka ma etinyere oyi akwa ikpeazụ ma ọ bụ na ọ bụghị.
 
-ZIP ahụ kwukwara na a gaara enweta throughput dị elu naanị site na ibu blọk buru ibu. Latency bụ ihe kpatara ịhọrọ blọk ndị dị mkpụmkpụ kama.
+ZIP ahụ kwukwara na naanị ya ka a ga-enweta throughput dị elu ma e jiri nnukwu nha blọk. Latency bụ ihe kpatara ịhọrọ blọk ndị dị mkpụmkpụ kama.
 
 ## Ihe na-agbanwe
 
 ### Mbipụta: otu ZEC ahụ kwa ụbọchị
 
-Ịmepụta ọnụọgụgụ blọk atọ ga-eme ka mwepụta kwa ụbọchị dị okpukpu atọ ma ọ bụrụ na ọ dịghị ihe ọzọ gbanwere. ZIP 218 na-egbochi nke ahụ site n'ikewa ego enyemaka kwa blọk site na ihe atọ ọzọ ozugbo NU7 malitere ọrụ.
+Ịmepụta ọnụọgụgụ blọk atọ ga-eme ka mwepụta kwa ụbọchị dị okpukpu atọ ma ọ bụrụ na ọ dịghị ihe ọzọ gbanwere. ZIP 218 na-egbochi nke ahụ site n'ikewa ego enyemaka kwa blọk site na ihe atọ ọzọ ozugbo NU7 malitere ịrụ ọrụ.
 
 N'oge a na-eme ka ọkara nke abụọ dị ugbu a, nke ahụ na-ewe ego enyemaka nke ngọngọ site na **1.5625 ZEC ruo 0.52083333 ZEC** (52,083,333 zatoshi). N'ihi na 156,250,000 zatoshi anaghị ekewaa nke ọma site na atọ, ngọngọ ọ bụla na-agbakọ site na otu ụzọ n'ụzọ atọ nke zatoshi. N'ofe oge ọkara nke ngọngọ 5,040,000 zuru oke nke dị ihe dị ka 0.0168 ZEC n'ozuzu ya.
 
@@ -108,9 +108,9 @@ E nwekwara obere ọnụ ahịa abụọ. Obere akpa ego na-ebudata ihe dị ka 
 
 ## Ọnọdụ na usoro iheomume
 
-- **ZIP:** A tụrụ aro. Ndị nwe ya bụ Dev Ojha na Evan Forbes; e kere ya na 13 Maachị 2026.
+- **ZIP:** Draft. Ndị nwe ya bụ Dev Ojha na Evan Forbes; e kere ya na 13 Maachị 2026.
 - **Ntuli aka onye ji ego:** mechiri na Septemba 14, 2026, yana nkwado 99.9%. Ntuli aka ahụ na-egosi mmasị; ọ naghị agbanwe iwu nkwenye n'onwe ya.
-- **Usoro oge:** na ọkwa Zcash Community Forum na Septemba 17, ndị otu mmepe ahụ kwekọrịtara na usoro koodu ga-agwụcha na Septemba 30, NU7 na testnet na Ọktoba 6, na mkpebi ikpeazụ na Ọktoba 20. Ogologo ọrụ nke mainnet ugbu a bụ 3,543,405 ([ZIP 259](https://zips.z.cash/zip-0259)), ezubere maka ihe dị ka 5 Nọvemba 2026.
+- **Usoro oge:** na ọkwa Zcash Community Forum na Septemba 17, ndị otu mmepe ahụ kwekọrịtara na usoro koodu ga-agwụcha na Septemba 30, NU7 na testnet na Ọktoba 6, mkpebi ikpeazụ na ịdị elu nke ọrụ mainnet na Ọktoba 20, na ọrụ mainnet ezubere maka ihe dị ka 5 Nọvemba 2026. Nọvemba 5 bụ ihe mgbaru ọsọ, ọ bụghị ụbọchị a kapịrị ọnụ, ruo mgbe a ga-edobe ịdị elu ahụ.
 - **Mmejuputa:** esoro na Zebra ([#11440](https://github.com/ZcashFoundation/zebra/issues/11440)) na na Zakura ([PR #1066](https://github.com/zakura-core/zakura/pull/1066)).
 
 ## Ihe nke a pụtara nye gị
@@ -124,7 +124,7 @@ E nwekwara obere ọnụ ahịa abụọ. Obere akpa ego na-ebudata ihe dị ka 
 - [ZIP 218: Oghere Nzube nke sekọnd 25](https://zips.z.cash/zip-0218)
 - [ZIP 208: Oghere dị mkpụmkpụ nke ihe mgbaru ọsọ](https://zips.z.cash/zip-0208), ihe atụ nke Blossom
 - [Mkparịta ụka: Atụmatụ — Belata oghere ebumnuche nke mkpọchi Zcash ruo 25s](https://forum.zcashcommunity.com/t/proposal-lower-zcash-block-target-spacing-to-25s/54577)
-- [Mkparịta ụka: Mbelata oge mkpọchi Zcash dị mma maka NU7 na Devnet Zebra-only](https://forum.zcashcommunity.com/t/zcash-block-time-reduction-appears-safe-for-nu7-w-zebra-only-devnet/55586)
+- [Mkparịta ụka: Mbelata Oge Ngọngọ Zcash Dị Nchekwa Maka NU7 na Devnet nke Zebra-only](https://forum.zcashcommunity.com/t/zcash-block-time-reduction-appears-safe-for-nu7-w-zebra-only-devnet/55586)
 - [Mbipụta Zebra #11463](https://github.com/ZcashFoundation/zebra/issues/11463), oge ọkara nkewa na enyemaka post-NU7
 - [Mbipụta Zebra #11440](https://github.com/ZcashFoundation/zebra/issues/11440), Nsochi mmejuputa ZIP 218
 - Nsonaazụ na usoro iheomume nke ntuli aka NU7, dịka akụkọ Bitcoin.com News, crypto.news na KuCoin si kwuo (16–19 Septemba 2026)

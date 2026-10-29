@@ -50,7 +50,7 @@ Zcash na be:
 ## <img src="/content-images/icons8-toolbox-9bebbb1619.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> What You Need
 
 - Zcash gakotoku si doa alɔ asitsatsa siwo wokpɔ ta na
-- Fexexe ƒe ɖoɖo bɔbɔe aɖe (si wotsɔ asi alo esi wotsɔ ƒo ƒui)
+- Fexexe ƒe ɖoɖo bɔbɔe aɖe (si wotsɔ asi alo esi wotsɔ ƒo ƒui) .
 - Tiatia: nudɔdɔwo yometiti ƒe ɖoɖo
 
 
@@ -60,7 +60,7 @@ Zcash na be:
 
 ### Afɔɖeɖe 1: Ðo Fexexe ƒe Adrɛs
 
-- Wɔ adrɛs si wokpɔ ta na (z)
+- Wɔ adrɛs si wokpɔ ta na (z).
 - Zã esia hena fexexe
 
 
@@ -74,8 +74,8 @@ Le asitsatsa ɖesiaɖe gome la:
 ### Afɔɖeɖe 3: Kpɔ Nudɔdɔwo Dzi
 
 Zã:
-- Memos (le kpɔɖeŋu me, Nudɔdɔ ƒe ID)
-- Alo off-chain tracking (nyatakakadzraɖoƒe, agbalẽvi)
+- Nuŋlɔɖiwo (e.g., Nudɔdɔ ƒe ID) .
+- Alo off-chain tracking (nyatakakadzraɖoƒe, agbalẽvi) .
 
 
 Kpɔɖeŋu:
@@ -121,7 +121,7 @@ Ate ŋu:
 
 
 - [Gakotokuwo](/wallets)
-- [Amekae ate ŋu akpɔ wò Zcash fexexe](/start-here/who-can-see-your-zcash-payment)
+- [Ameŋunyatakakawo - Nuwɔna Nyuitɔwo](/start-here/who-can-see-your-zcash-payment)
 
 <br/>
 

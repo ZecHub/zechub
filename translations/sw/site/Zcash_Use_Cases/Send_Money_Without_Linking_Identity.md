@@ -4,110 +4,110 @@
 
 ## TL;DR
 
-- Tuma kila wakati kutoka kwa anwani ya **iliyofunikwa**
-- Epuka miamala ya moja kwa moja kutoka t hadi t
-- Kuvunja uhusiano kati ya utambulisho
-- Kuwa mwangalifu kuhusu muda na mifumo
+- Daima kutuma kutoka ** anwani ya ulinzi**
+- Epuka moja kwa moja t na shughuli za t
+- Break linkkability kati ya vitambulisho
+- Uwe mwangalifu kuhusu wakati na utaratibu wa kufanya mambo hayo
 
 <br/>
 
 ## <img src="/content-images/user-svgrepo-com-21adf62b7c.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="user icon"/> Who is this for?
 
-- Mtu yeyote anayetuma malipo nyeti
+- Mtu yeyote kutuma malipo nyeti
 - Watumiaji wanaojali faragha
-- Watu wanaofanya kazi chini ya uangalizi hatari
+- Watu wanaofanya kazi chini ya hatari za ufuatiliaji
 
 <br/>
 
 ## <img src="/content-images/warning-error-svgrepo-com-b7ea8a50da.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="warning icon"/> The Problem
 
-Kutuma crypto mara nyingi huonyesha:
-- Utambulisho wako wa pochi
-- Historia yako ya muamala
-- Unayeingiliana naye
+Kutuma crypto mara nyingi hufunua:
+- Kitambulisho chako cha mkoba
+- Historia yako ya shughuli
+- Unawasiliana na nani?
 
-Hii inaunda **grafu ya kifedha inayoweza kufuatiliwa**.
+Hii inajenga ** traceable grafu ya kifedha**.
 
 <br/>
 
 ## <img src="/content-images/icons8-lock-2f8e221321.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> Why Zcash?
 
 
-Zcash huwezesha **uhamishaji wa faragha kabisa** kwa kutumia miamala iliyolindwa.
+Zcash inawezesha **uhamishaji wa kibinafsi kabisa** kwa kutumia shughuli zilizohifadhiwa.
 
-Hii inavunja:
-- Uwezo wa kuunganisha anwani
-- Ufuatiliaji wa miamala ya umma
+Hii mapumziko:
+- Anwani ya kuunganisha
+- Ufuatiliaji wa shughuli za umma
 
 <br/>
 
 ## <img src="/content-images/icons8-toolbox-9bebbb1619.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> What You Need
 
-- Pochi inayounga mkono miamala iliyolindwa
-- Uelewa wa msingi wa anwani za z
+- Mkoba ambayo inasaidia shughuli ulinzi
+- Uelewa wa msingi wa anwani za z-anwani
 
 <br/>
 
 ## <img src="/content-images/ladder-svgrepo-com-7232bf46ed.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="step icon"/> Step-by-Step Guide
 
-### Hatua ya 1: Hakikisha Fedha Zimelindwa
+### Hatua ya 1: Hakikisha Pesa Zimehifadhiwa Vizuri
 
-Ikiwa fedha zako ziko katika anwani ya uwazi:
-- Zihamishe kwenye anwani iliyolindwa kwanza
-
-
-### Hatua ya 2: Tuma kutoka Shielded hadi Shielded
-Pendelea kila wakati `z to z` muamala
-
-Hii inahakikisha faragha ya kiwango cha juu.
+Kama fedha yako ni katika anwani ya uwazi:
+- Kuhamisha yao katika anwani ulinzi kwanza
 
 
-### Hatua ya 3: Epuka Muunganisho wa Utambulisho
+### Hatua ya 2: Tuma kutoka Shielded kwa Shielded
+Daima hupendelea `z to z` shughuli
 
-USIPITE:
-- Tangaza miamala hadharani
-- Tumia tena anwani ile ile katika miktadha yote
-- Unganisha anwani na vitambulisho vinavyojulikana
+Hilo huhakikisha kwamba kuna faragha ya kadiri.
 
-### Hatua ya 4: Fikiria Mifumo ya Wakati
 
-Ushauri wa kina:
-- Epuka kutuma mara tu baada ya kupokea kiasi kikubwa
-- Vunja mifumo inayoweza kutabirika inapowezekana
+### Hatua ya 3: Epuka Kujifananisha na Mtu Fulani wa Aina Hii
+
+Usifanye:
+- Tangaza shughuli hadharani
+- Tumia tena anwani ileile katika muktadha mbalimbali
+- Link anwani kwa utambulisho inayojulikana
+
+### Hatua ya 4: Fikiria Matumizi Yako ya Wakati
+
+Kidokezo cha juu:
+- Epuka kutuma mara moja baada ya kupokea kiasi kikubwa cha pesa.
+- Kuvunja mifumo ya kutabiri ambapo inawezekana
 
 <br/>
 
 ## <img src="/content-images/icons8-cancel-7f786be3c1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="cancel icon"/> Common Mistakes to Avoid
 
-- Kutuma moja kwa moja kutoka kwa anwani zinazoonekana wazi 
-- Kutumia anwani tena kwa watu wengi 
-- Kuthibitisha miamala hadharani 
-- Kupuuza metadata (muda, masafa)
+- Kutuma moja kwa moja kutoka anwani uwazi 
+- Kutumia tena anwani katika watu wengi 
+- Kuonyesha waziwazi shughuli za biashara 
+- Kupuuza metadata (wakati, frequency)
 
 <br/>
 
 ## <img src="/content-images/checked-checkbox-svgrepo-com-7ea19022da.svg" width="28" height="28" className="inline-block align-middle mr-1 p-[2px]" alt="done icon"/> Result
 
 Unaweza:
-- Tuma pesa kwa faragha
-- Epuka kuunganisha utambulisho wako
-- Punguza ufuatiliaji
+- Tuma fedha binafsi
+- Epuka kuunganisha utambulisho wako na mtu mwingine.
+- Kupunguza traceability
 
 <br/>
 
 ## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="chain-links icon"/> Related
-- [Kile Kivinjari cha Block Anaweza Kuona](/zcash-tech/what-a-block-explorer-can-see)
+- [Faragha - Kulindwa dhidi ya Uwazi](/zcash-tech/what-a-block-explorer-can-see)
 
 <br/>
 
 ## <img src="/content-images/progress-arrows-svgrepo-com-aad76739e5.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="progress icon"/> Progress
 
-**Hatua ya 2 kati ya 6**
+** Hatua ya 2 kati ya 6**
 
-Sasa unaweza kutuma pesa faraghani bila kufichua utambulisho.
+Sasa unaweza kutuma fedha kwa siri bila kufichua utambulisho wako.
 
 <br/>
 
 ## Hatua Inayofuata
 
-- [Usanidi wa Faragha wa Wafanyakazi Huru](/zcash-use-cases/freelance-privacy-setup)
+- [Freelancer Faragha Setup](/zcash-use-cases/freelance-privacy-setup)

@@ -13,7 +13,7 @@ Akpa sia fia wò **alesi tututu nàzã Zcash le agbeme nɔnɔme ŋutɔŋutɔwo m
 ## Ale Si Nàzã Mɔfiame Siawo
 
 Fefegbalẽ ɖesiaɖee nye:
-- Kpuie (aɖabaƒoƒo 5-7)
+- Kpuie (aɖabaƒoƒo 5-7) .
 - Afɔɖeɖe ɖesiaɖe
 - Woƒe susu nɔ xexeame ŋutɔŋutɔ ŋu 
 
@@ -43,12 +43,6 @@ Xɔ fexexe to adrɛs si wokpɔ ta na zazã me eye nàƒo asa na asisiwo ƒe asit
 
 ###  [Dzra Nutoa me Gaxɔdzikpɔƒe si nye Ame ŋutɔ tɔ dzi](/zcash-use-cases/private-community-treasury)
 Zã adrɛs siwo ŋu wokpɔ ta na nàtsɔ alé ga siwo woama la ɖe asi eye nàɖo seɖoƒe na ga si susɔ kple asitsatsa ƒe dzedzeme
-
-###  [Xɔ Ame ŋutɔ ƒe Nudzɔdzɔwo Abe United States ƒe Habɔbɔ si Mekpɔa Viɖe aɖeke O ene](/zcash-use-cases/accept-private-donations-as-a-us-nonprofit)
-Lɔ̃ ɖe ZEC si wokpɔ ta na la dzi abe 501(c)(3) ene eye nàgatsɔ gaxɔgbalẽviwo kple IRS agbalẽvi siwo wohiã la na nunalaawo kokoko
-
-###  [Afisi Nàdzɔ Nu ZEC](/zcash-use-cases/where-to-donate-zec)
-Di habɔbɔ siwo mekpɔa viɖe aɖeke tso eme o siwo xɔa ZEC, eye wo dometɔ kae xɔa nunana siwo ŋu wokpɔ akpoxɔnu le
 
 ###  [Nyadzɔdzɔŋlɔlawo ƒe Nyatakakawo Ŋuti Ðoɖowɔwɔ](/zcash-use-cases/journalist-privacy-setup)   
 Zã adrɛs siwo ŋu wokpɔ ta na le asitsatsa katã me eye nàkpɔ dzɔtsoƒewo ta to asaƒoƒo na fexexe si ŋu woate ŋu ake ɖo me. Zã nuŋlɔɖiwo nyuie hena kadodo dedie

@@ -1,124 +1,124 @@
-# Ogwe aka ahụ
+# Ihe na-eme ka ọ dị mma.
 
 ## TL;DR
 
-- Turnstile bụ iwu akaụntụ ọha na eze nke na-egosi ego ole ọ bara ma na-apụ n'ọdọ mmiri ọ bụla a na-echebe
-- Ọ na-enye onye ọ bụla ohere ịchọpụta na ọdọ mmiri anaghị akwụ ụgwọ karịa ka e tinyere na ya, ọ bụ ezie na azụmahịa dị n'ime ya bụ nkeonwe
-- Nke a na-echebe ọkọnọ ZEC site na ahụhụ zoro ezo, n'ihi na mkpụrụ ego adịgboroja enweghị ike ịhapụ ọdọ mmiri n'emebighị ọnụọgụgụ ahụ
-- Ịkwụ ụgwọ n'ime ọdọ mmiri na-abụ nkeonwe. Azụmahịa nke na-ebuga ZEC n'etiti ọdọ mmiri na-egosi ego ọ na-ebuga
-- Ihe na-atụgharị ya bụ ihe mere njem Orchard gaa Ironwood ji egosi na mmanụ ahụ dị mma
+- The turnstile bụ a ọha aza ajụjụ iwu na tracks otú ihe bara uru abatakwa ma doo ọ bụla echebe ọdọ mmiri
+- Ọ na-eme ka onye ọ bụla hụ na ego a ga-akwụ agaghị akarị ihe e tinyere n'ime ya, ọbụna ma a sị na azụmahịa ndị dị n'etiti ha bụ nke onwe.
+- Nke a na-echebe ZEC ọkọnọ site zoro ezo ahụhụ, n'ihi adịgboroja mkpụrụ ego nwere ike ghara ịhapụ ọdọ mmiri enweghị agbaji ọnụ ọgụgụ
+- Ọ na-arụ ọrụ n'enweghị ike imebi nzuzo, ebe ọ bụ naanị ngụkọta nchịkọta ọha mmadụ, ọ dịghị mgbe azụmahịa ndị ọzọ.
+- The turnstile is the reason the Orchard to Ironwood migration can prove the shielded supply is sound
 
 <br/>
 
-## Ònye bụ nke a maka onye
+## Onye ka nke a bụ maka ya?
 
-- Onye ọ bụla chọrọ ịghọta otú Zcash si echekwaba ihe onwunwe ya nkeonwe ya ka a pụrụ ịtụkwasị obi
-- Ndị ọrụ na-eso njem Orchard gaa Ironwood ma na-eche etu o si egosi na ọkọnọ ahụ dị adị
-- Ndị bịara ọhụrụ na-achọ ịmata etu esi enyocha sistemụ ego nkeonwe
-
-<br/>
-
-## Ihe ịma aka ahụ
-
-Zcash e ji nchekwa kpuchie na-ezochi ego, ndị na-eziga, na ndị nnata. Isi ihe dị na ya bụ nzuzo ahụ. Mana ọ na-ewelite ajụjụ siri ike: ọ bụrụ na onye ọ bụla enweghị ike ịhụ n'ime ọdọ mmiri e ji nchekwa kpuchie, kedu ka onye ọ bụla ga-esi mara na ego ZEC zuru oke ziri ezi? Kedu ka ị si enyocha ego ị na-apụghị ịhụ?
-
-Ọ bụrụ na ahụhụ ekwe ka mmadụ mepụta mkpụrụ ego n'ime ọdọ mmiri e ji ihe kpuchie, otu nzuzo ahụ nke na-echebe ndị ọrụ na-eme ihe n'eziokwu ga-ezobe ihe adịgboroja ahụ. Ọ bụrụ na ọ nweghị ihe nchebe, enweghị obi ike ahụ ga-emebi ntụkwasị obi na ọkọnọ niile. Turnstile bụ ihe nchebe nke na-edozi nke a.
+- Onye ọ bụla chọrọ ịghọta etu Zcash si eme ka ndị mmadụ tụkwasị ya obi.
+- Ndị ọrụ na-eso Orchard ka Ironwood Mbugharị ma na-eche otú ọ na-egosi ọkọnọ bụ ezigbo
+- Newcomers ọchịchọ ịmata otú a onwe ego usoro ka nwere ike audited
 
 <br/>
 
-## Ihe ntụgharị ahụ bụ
+## Ihe Ịma Aka Ahụ
 
-Chee echiche banyere ọdọ mmiri ọ bụla e ji ihe kpuchie dị ka ọnụ ụlọ nwere ọnụ ụzọ a na-agụta ọnụ. Oge ọ bụla uru batara n'ọdọ mmiri ahụ site n'èzí, ma ọ bụ hapụ ya ka ọ gaa ebe ọzọ, ọ na-agafe n'ọnụ ụzọ ahụ ma na-agụta ya n'ihu ọha. Azụmahịa dị n'ime ụlọ ahụ na-anọgide na nzuzo, mana ọnụọgụgụ ndị na-agba ọsọ n'ọnụ ụzọ ahụ na-apụta ìhè nye onye ọ bụla.
+Shielded Zcash hides amounts, senders, and receivers. That privacy is the point. But it raises a hard question: if nobody can see inside the shielded pool, how does anyone know the total amount of ZEC is correct? How do you audit money you cannot see?
 
-Iwu dị mfe: ọdọ mmiri agaghị ekwe ka uru ya karịrị nke e tinyere n'ime ya. Ọnụọgụ ndị na-ajụ ihe ọ bụla ga-eme ka nguzozi ọdọ mmiri ghara ịdị ala. A maara ego a na-eche na ọ dị n'ime ọdọ mmiri oge niile, n'ihi na ọ bụ naanị mkpokọta e tinyere na ya ma e wezụga mkpokọta fọdụrụ. Ọnụọgụ ọha a bụ turnstile.
-
-<br/>
-
-## Otu o si arụ ọrụ
-
-Zcash nwere ọtụtụ ọdọ mmiri e ji ihe nchebe kpuchie kemgbe ọ malitere, dịka Sprout, Sapling, na Orchard. Uru na-agagharị n'etiti agbụ ígwè doro anya na ọdọ mmiri ndị a, na mgbe ụfọdụ n'etiti ọdọ mmiri ndị ahụ n'onwe ha. Turnstile na-elele mmegharị ndị ahụ:
-
-1. Mgbe ZEC banyere n'ime ọdọ mmiri a na-echebe, a na-agbakwụnye ego ahụ na nguzozi ọha na eze nke ọdọ mmiri ahụ
-2. Mgbe ZEC si n'ọdọ mmiri pụọ, a na-ewepụ ego ahụ
-3. Netwọk ahụ jụrụ ihe ọ bụla ga-eme ka nguzozi ọdọ mmiri ghara ịdị mma, nke pụtara na ihe karịrị nke a na-etinye na mbụ
-4. Azụmahịa ọ bụla na-egosi naanị mmiri ọ na-abanye ma ọ bụ na-apụ n'ọdọ mmiri, nke bụ nha nhata ya. Maka ịkwụ ụgwọ n'ime otu ọdọ mmiri, nke ahụ bụ naanị ụgwọ ahụ
-
-Netwọk a na-achọpụta nguzozi maka ọwa uru ọ bụla n'ụzọ dị otu a, gụnyere Sprout, Sapling, Orchard, ọdọ mmiri Ironwood ọhụrụ, na nguzozi doro anya na nke mkpọchi. N'ihi nke a, ọbụlagodi na ezochiri ihe dị n'ime ọdọ mmiri ahụ kpọmkwem, ihe kachasị nke nwere ike ịpụta bụ ihe banyere. Enweghị onu oriri zoro ezo nke nwere ike ịgbasa.
+If a bug ever let someone forge coins inside a shielded pool, the forgery would be hidden by the same privacy that protects honest users. Without a safeguard, that uncertainty would undermine confidence in the whole supply. The turnstile is the safeguard that solves this.
 
 <br/>
 
-## Otu esi elele nguzozi uru
+## Ihe a na-akpọ turnicle bụ.
 
-A pụrụ ịtụkwasị ọnụọgụgụ dị n'ọnụ ụzọ obi naanị n'ihi na a na-amanye azụmahịa ọ bụla igosi na ọ kwagara ego ziri ezi, ọbụlagodi na ego ahụ ka zoro ezo. Azụmahịa ọ bụla e chebere echebe na-ebipụta otu nọmba eziokwu: uru net ọ na-abanye ma ọ bụ na-apụ na ọdọ mmiri ahụ, nke a na-akpọ nguzozi uru ya. Nguzozi uru dị mma pụtara ego a hapụrụ ọdọ mmiri ahụ gaa n'akụkụ doro anya, nke na-adịghị mma pụtara ego etinyere. Nkọwa nkeonwe ka a na-emechi emechi, mana ọnụọgụ net a bụ nke ọha, ọ bụkwa ihe turnstile na-agbakwụnye.
+Think of each shielded pool as a room with a single counted doorway. Every time value enters the pool from outside, or leaves it to go elsewhere, it passes through the doorway and is tallied in public. The transactions inside the room stay private, but the running total at the door is visible to everyone.
 
-Akụkụ amamihe dị na ya bụ otu azụmahịa si egosi na ọnụọgụgụ ọha bụ eziokwu n'ekpugheghị ego nkeonwe dị n'azụ ya. Usoro ahụ dị iche site na otu ihe gaa na nke ọzọ, nke a bụkwa ezigbo igwe nke igwe na-agbanwe agbanwe.
+The rule is simple: a pool can never let more value out than has gone in. Nodes reject any block that would push a pool's balance below zero. The amount believed to be inside a pool is known at all times, because it is just the total that entered minus the total that left. This public tally is the turnstile.
 
-N'ime ọdọ mmiri Sprout mbụ, azụmahịa ọ bụla na-eji JoinSplit. JoinSplit na-etinye ndetu zoro ezo abụọ ma mepụta nke ọhụrụ abụọ, ọ na-ebukwa ubi ọha abụọ: vpub_old, uru ịbanye n'ọdọ mmiri ahụ a na-echebe site n'akụkụ doro anya, na vpub_new, uru na-ahapụ ọdọ mmiri ahụ laghachi n'akụkụ doro anya. JoinSplit ọ bụla ga-edozi onwe ya, ihe akaebe ihe ọmụma efu ya na-ekwe nkwa ntinye zoro ezo na mmepụta zoro ezo na-agbakọta nke ọma. Nguzozi ọdọ mmiri Sprout's bụ naanị ngụkọta nke vpub_old niile na-ewepu vpub_new niile n'ofe yinye ahụ. Nke a bụ ihe mere Sprout ji bụrụ ihe atụ bara uru ma emechaa: n'ihi na vpub_old bụ naanị ụzọ uru nwere ike isi banye n'ọdọ mmiri ahụ, otu iwu ịgbanyụ ya nwere ike mechie ọdọ mmiri ahụ ruo mgbe ebighị ebi.
+<br/>
 
-Na Sapling, Orchard, na Ironwood, a na-egosi na nguzozi dị mma, site na iji mbinye aka njikọ. Kama ịhazi mbufe ọ bụla naanị, azụmahịa ahụ dum na-emefu ego ọ bụla zoro ezo site na iji nkwa uru. Nkwa uru bụ envelopu emechiri emechi maka ọnụọgụgụ, nke e wuru na nkwa Pedersen nke nwere otu ụdị, nke nwere ihe pụrụ iche: enwere ike ịgbakwunye ma wepụ envelopu ndị ahụ na-emepeghị ha. Netwọk ahụ na-agbakwụnye nkwa ntinye niile, na-ewepụ nkwa mmepụta niile, ma na-atụnyere nsonaazụ ya na ọnụọgụgụ net nke azụmahịa ahụ kwupụtara, ubi Balance uru ya. Naanị azụmahịa nke ego zoro ezo ya dabara na uru ọha ahụ nke ọma nwere ike imepụta mbinye aka njikọ dị irè karịa nkwa ejikọtara ọnụ. Ọ bụrụ na mmadụ anwaa ịkwaga uru karịa ka ha kwupụtara, nkwa ndị ahụ agaghị agbakọta, mbinye aka njikọ agaghị akwado, a ga-ajụkwa azụmahịa ahụ. Ironwood na-eji otu usoro Orchard ahụ, yabụ ọ na-arụ ọrụ n'otu ụzọ ahụ.
+## Otú o si arụ ọrụ .
 
-Nke a bụkwa ihe na-eme ka nnyefe nke ọdọ mmiri dị nchebe ịlele. Mgbe ego si n'otu ọdọ mmiri echekwara gaa na nke ọzọ, dịka ọmụmaatụ site na Orchard gaa na Ironwood, azụmahịa ahụ enweghị ike izochi ego ahụ na akaụntụ ahụ. Ọdọ mmiri ọ bụla nwere nguzozi uru nke ya nke a ga-emezu site na ihe akaebe nke ya: akụkụ Orchard ga-egosi ọpụpụ kwekọrọ site na mbinye aka ya, akụkụ Ironwood ga-egosikwa ntinye kwekọrọ na ya site na nke ya. Uru nke na-ahapụ otu ọdọ mmiri na uru na-abanye na nke ọzọ ka a na-egosi n'onwe ya, yabụ mmegharị nke ọdọ mmiri bụ n'ezie ngafe abụọ na-eme n'otu azụmahịa, otu pụọ, otu n'ime, a na-agụtakwa ha abụọ n'ihu ọha ọbụlagodi na ego ndị dị n'okpuru na-anọ na nzuzo.
+Zcash has several shielded pools over its history, such as Sprout, Sapling, and Orchard. Value moves between the transparent chain and these pools, and sometimes between the pools themselves. The turnstile watches those movements:
 
-Ya mere, ntụgharị abụghị ntụkwasị obi. Azụmahịa ọ bụla na-egosi mmetụta netwọk nke ya, netwọk ahụ na-achịkọta mmetụta net ndị ahụ a nwalechara maka otu ọdọ mmiri, iwu nkwekọrịta (ZIP 209) na-ajụ ngọngọ ọ bụla nke ga-eme ka nguzozi ọdọ mmiri ghara ịdị mma. Ihe akaebe na ọkwa azụmahịa, mmanye na ọkwa agbụ.
+1. Mgbe ZEC na-aga n'ime ọdọ mmiri kpuchiri, a ga-agbakwunye ego ahụ na nguzobe ọha nke ụlọ ọrụ ahụ.
+2. Mgbe ZEC na-apụ n'otu ọdọ mmiri, a ga-ewepụ ego ahụ.
+3. Netwọk ahụ na-ajụ mgbochi ọ bụla nke ga - eme ka nguzozi ọdọ mmiri dị njọ, pụtara karịa hapụrụ karịa mgbe abanyechara.
+4. Mmekọrịta ọ bụla a na-echebe ga-anọgide bụrụ nke onwe, naanị ngụkọta ego niile bụ ọha.
+
+The network tracks a balance for every value pool this way, including Sprout, Sapling, Orchard, the new Ironwood pool, and the transparent and lockbox balances. Because of this, even if the exact contents of a pool are hidden, the maximum that can ever come out is capped by what went in. No hidden inflation can escape into circulation.
+
+<br/>
+
+## Olee otú e si enyocha nguzozi uru?
+
+The tally at the door is only trustworthy because every transaction is forced to prove it moved a truthful amount, even though the amount itself stays hidden. Each shielded transaction publishes one honest number: the net value it moves into or out of the pool, called its value balance. A positive value balance means funds left the pool to the transparent side, a negative one means funds entered. The private details stay sealed, but this single net figure is public, and it is what the turnstile adds up.
+
+Akụkụ dị nkọ bụ otu azụmahịa si egosi na ọnụ ọgụgụ ọha mmadụ ziri ezi n'ekpugheghị ego nzuzo ndị nọ ya. Usoro ahụ dị iche site na ọdọ mmiri, nke a bụkwa ezigbo igwe ọrụ nke turnstile.
+
+In the original Sprout pool, each transaction uses a JoinSplit. A JoinSplit spends two hidden notes and creates two new ones, and it carries two public fields: vpub_old, the value entering the shielded pool from the transparent side, and vpub_new, the value leaving the pool back to the transparent side. Every JoinSplit must balance on its own, and its zero knowledge proof guarantees the hidden inputs and hidden outputs add up correctly. Sprout's pool balance is simply the running total of all vpub_old minus all vpub_new across the chain. This is why Sprout is a useful example later: because vpub_old is the only way value can enter the pool, a single rule turning it off can seal the pool for good.
+
+In Sapling, Orchard, and Ironwood, balance is proven a smarter way, using a binding signature. Instead of each transfer balancing alone, the whole transaction commits to each hidden amount using a value commitment. A value commitment is a sealed envelope for a number, built with a homomorphic Pedersen commitment, which has a special property: the envelopes can be added and subtracted without opening them. The network adds up all the input commitments, subtracts all the output commitments, and compares the result against the transaction's single declared net figure, its valueBalance field. Only a transaction whose hidden amounts genuinely match that public valueBalance can produce a valid binding signature over the combined commitments. If someone tried to move more value than they declared, the commitments would not add up, the binding signature would not verify, and the transaction would be rejected. Ironwood uses the same Orchard protocol, so it works the same way.
+
+This is also what makes a cross-pool transfer safe to check. When funds move from one shielded pool to another, for example from Orchard into Ironwood, the transaction cannot hide the amounts from the accounting. Each pool has its own value balance that must be satisfied by its own proofs: the Orchard side must show a matching outflow through its binding signature, and the Ironwood side must show the corresponding inflow through its own. The value leaving one pool and the value entering the other are each proven independently, so a cross-pool move is really two turnstile crossings happening in one transaction, one out, one in, and both are tallied in public even though the underlying amounts stay private.
+
+So the turnstile is not trust. Every transaction mathematically proves its own net effect, the network sums those proven net effects per pool, and a consensus rule (ZIP 209) rejects any block that would drive a pool's balance negative. Proof at the transaction level, enforcement at the chain level.
 
 <br/>
 
 ## Ihe mere o ji dị mkpa
 
-Akụkụ ahụ na-enye Zcash ihe atọ n'otu oge.
+Turnicle na-enye Zcash ihe atọ n'otu oge.
 
-Nke mbụ, ọ na-ekewa ihe egwu. Nsogbu nzuzo dị n'otu ọdọ mmiri dị n'ime ọdọ mmiri ahụ, n'ihi na tile ahụ na-egbochi uru emepụtara ịbanye n'ime mmiri sara mbara.
+Nke mbụ, ọ na-ekewa ihe ize ndụ. A cryptographic ahụhụ n'otu ọdọ mmiri a gụnyere ka ọdọ mmiri ahụ, n'ihi na turnstile akwụsị adịgboroja uru si agafe n'ime wider ọkọnọ.
 
-Nke abụọ, ọ na-eme ka obodo nyochaa ihe ndị ahụ ma leba anya n'ihe ha na-enye. Ọ bụrụ na achọpụta njehie ma emechaa, ihe ndekọ turnstile na-egosi ma uru ha bara karịrị nke e tinyere na ya. Ihe ndekọ dị ọcha bụ ihe akaebe siri ike na e meghị ihe ọ bụla e ji aghụghọ mee.
+Nke abụọ, ọ na-eme ka ndị obodo ahụ nyochaa ihe ha nwetara ma e mechaa. Ọ bụrụkwa na a chọpụta ebe mmadụ mere mmehie n'oge gara aga, akwụkwọ ndekọ nke dị ná mpempe ígwè ahụ ga-egosi ma ò nweela uru si n'ebe onye ahụ nọ pụọ karịa ego o tinyere ya. Akwụkwọ ndekọ doro anya bụ ezigbo ihe àmà gosiri na e meghị ahịa aghụghọ iji nweta ego ọzọ.
 
-Nke atọ, ọ na-edebe ụgwọ n'ime ọdọ mmiri n'onwe ya mgbe ọ na-eme ihe a niile. Azụmahịa ọ bụla na-ebipụta naanị mmiri ya na-abanye ma ọ bụ na-apụ n'ọdọ mmiri, nke maka ịkwụ ụgwọ n'ime otu ọdọ mmiri bụ naanị ụgwọ ahụ. Mbufe n'etiti ọdọ mmiri, dịka site na Orchard gaa na Ironwood, na-egosi ego ahụ gafere. Nnyocha na nzuzo na-adị n'otu, nke bụ ihe a na-adịghị ahụkebe ma bụrụkwa otu n'ime ike dị jụụ Zcash's.
-
-<br/>
-
-## Turnstile ahụ nọ n'ọrụ
-
-Turnstile ahụ abụghị ihe ọhụrụ, a na-ejikwa ya eme ihe n'oge dị mkpa n'akụkọ ihe mere eme Zcash.
-
-Mgbe Zcash si n'ọdọ mmiri Sprout mbụ kwaga ọdọ mmiri Sapling ọhụrụ, turnstile ahụ chebere mgbanwe ahụ. E mechara gbochie ọdọ mmiri Sprout ka ọ ghara ịnweta mmiri ọhụrụ, nke mere ka ndị ọrụ gbaa ha ume ịkwaga ebe turnstile ahụ mere ka akaụntụ ahụ bụrụ eziokwu. Ọtụtụ afọ ka e mesịrị, eziokwu ahụ bụ na ọ dịghị uru ọ bụla Sprout hapụrụ nke ọma bụ ihe akaebe na e jighị usoro nchekwa mbụ ya mee ihe nke ọma.
-
-Otu ihe ahụ na-echekwa mbugharị site na Orchard gaa Ironwood. Na 2026, a hụrụ ahụhụ ahụike ma tinye ya na sistemụ nnwale Orchard. Enweghị ihe akaebe ọ bụla e jiri ya mee ihe, mana n'ihi na ọrụ nchekwa bụ nkeonwe, obi ike agaghị ekwe omume. Azịza ya bụ imechi ọdọ mmiri Orchard ochie ma mee ka onye ọ bụla kwaga ego ya site na turnstile gaa Ironwood, ọdọ mmiri ọhụrụ site na iji usoro edoziri. Ịmanye ego site na turnstile pụtara na mkpụrụ ego adịgboroja ọ bụla a hapụrụ agaghị eso, ozugbo mbugharị ahụ mechara, onye ọ bụla nwere ike ikwenye na ọkọnọ ahụ dị mma.
+Nke atọ, ọ na-echekwa nzuzo mgbe ị na-eme ihe a niile. Naanị ngụkọta ọkwa ọdọ mmiri bụ ọha mmadụ. Azịza gị n'otu n'ime azụmahịa ahụ ka echekwara ya. Nnyocha nyocha na nzuzo dị ọnụ, nke a abụghịkarị ma bụrụ otu n'etiti ike Zcash zoro ezo. Ọ nwere ọtụtụ atụmatụ ndị ọzọ maka ego mkpuchi:
 
 <br/>
 
-## Mbelata ọdọ mmiri otu ụzọ
+## Ebe a na-agbagharị agbagharị nke dị n'ime ya.
 
-Ihe e ji agbanwe ya na-eme ka o kwe omume ịla ezumike n'ọdọ mmiri ochie n'enweghị nsogbu, n'otu ụzọ, n'emebighị nkwa ọkọnọ. Ihe dị mkpa bụ imechi ọnụ ụzọ ahụ ma hapụ ụzọ ahụ ka o meghee.
+Turnicle abụghị ihe ọhụrụ, e jikwa ya mee ihe n'oge dị mkpa na akụkọ Zcash.
 
-Sprout bụ ihe atụ kacha doo anya. Iji belata ya, ZIP 211 tinyere otu iwu nkwekọrịta: site na elu mmalite ya, ubi vpub_old nke JoinSplit ọ bụla ga-abụrịrị efu. Ebe ọ bụ na vpub_old bụ naanị ụzọ uru nwere ike isi banye Sprout, ịmanye ya ka ọ bụrụ efu pụtara na uru ọhụrụ agaghị abanye ọzọ, ebe uru ka nwere ike ịgbapụ gaa n'akụkụ doro anya ma ọ bụ gaa n'ihu na Sapling. Ọdọ mmiri ahụ ghọrọ otu ụzọ. Ọ nwere ike ịgbapụ naanị, ọ dịghị ejupụta. Turnstile ahụ na-agụta oge niile, yabụ nguzozi nwere ike ịda ka ego na-apụ mana ọ gaghị ebili, ọ nweghịkwa ike ịga n'ihu na-adịghị mma.
+When Zcash moved from the original Sprout pool toward the newer Sapling pool, the turnstile guarded the transition. The Sprout pool was later restricted so it could not receive new inflows, which encouraged users to migrate while the turnstile kept the accounting honest. Years later, the fact that no value ever improperly left Sprout stands as evidence that its early cryptography was never successfully exploited.
 
-Njem Orchard gaa Ironwood na-eji otu echiche ahụ. Na mmelite NU6.3, a na-emechi ọdọ mmiri Orchard ka ọ ghara ịbanye n'ime mmiri ọhụrụ, a na-atụkwa aro ka e ziga ego Orchard gafee turnstile ahụ gaa n'ọdọ mmiri Ironwood ọhụrụ ahụ. Orchard ghọrọ ọdọ mmiri otu ụzọ nke nwere ike ịpụ naanị. N'ihi na ọpụpụ ọ bụla bụ ihe a ga-egosi na ọ bụ turnstile, uru adịgboroja ọ bụla a na-eche n'echiche na Orchard enweghị ike iji nwayọ soro ego ahụ. Ọ dị n'ime ọdọ mmiri nke na-agbapụta mmiri naanị ma na-ele ya anya n'ọnụ ụzọ. Ka oge na-aga, nke a na-eme ka ọdọ mmiri ochie ahụ ghara ịdị efu ma na-eme ka onye ọ bụla kwenye na uru ahụ pụtara erughị uru nke batara n'eziokwu.
-
-Nke a bụ ihe mere turnstile ji dị mkpa karịa akaụntụ nkịtị. Ọ bụ usoro na-ekwe ka Zcash ghara inwe ọdọ mmiri a na-echebe, ma ọ bụ iji belata mgbagwoju anya dịka ọ dị na Sprout, ma ọ bụ iji gbakee site na ahụhụ achọpụtara dịka ọ dị na Orchard, ebe ọ na-ejide nkwa ọha na eze na-aga n'ihu, nke a pụrụ ịtụkwasị obi gbasara ọkọnọ ahụ.
+The same design now guards the move from Orchard to Ironwood. In 2026 a soundness bug was found and patched in the Orchard proving system. There is no evidence it was ever exploited, but because shielded activity is private, certainty was impossible. The response is to seal the old Orchard pool and have everyone migrate their funds through the turnstile into Ironwood, a fresh pool using the corrected protocol. Forcing funds through the turnstile means any hypothetical counterfeit coins left behind cannot follow, and once migration completes, anyone can confirm the shielded supply is sound.
 
 <br/>
 
-## Echiche na-ezighị ezi a na-ahụkarị
+## Otu ụzọ ọdọ mmiri deprecation
 
-- Akụkụ a anaghị ekpughe onye zigara ihe nye onye. Ọ na-egosi ego ole azụmahịa ọ bụla na-ebuga ZEC n'etiti ọdọ mmiri dị iche iche
-- Ọ naghị ejide onye na-emepụta ihe adịgboroja site n'aha ya. Ọ na-ebelata ego ole ọ ga-efu n'ọdọ mmiri, nke bụ ihe na-echebe ọkọnọ ahụ
-- Ọ bụghị ihe ọhụrụ maka Ironwood. O chebela mgbanwe ọdọ mmiri niile dị mkpa n'akụkọ ihe mere eme Zcash
-- Ngụkọta ọdọ mmiri ọha anaghị emebi nzuzo maka ịkwụ ụgwọ n'ime ọdọ mmiri ahụ. Ịgafe ZEC n'etiti ọdọ mmiri na-egosi ego ebufere, ọ bụ ya mere ZIP 318 ji arịọ obere akpa ka ha kwaga n'ọnụ ego nkịtị ka oge na-aga
+Ọ bụrụ na e jiri ihe ndị a rụọ ụlọ ahụ, ọ ga-eme ka o kwe omume ịla ebe ochie n'enweghị nsogbu ma ghara imebi ikike ya. Ihe dị mkpa bụ ijichi ụzọ mmiri si abanye n'ime ya mgbe i mepere ụzọ isi pụọ.
 
-<br/>
+Sprout is the clearest example. To deprecate it, ZIP 211 added a single consensus rule: from its activation height, the vpub_old field of every JoinSplit must be zero. Since vpub_old is the only way value can enter Sprout, forcing it to zero means no new value can ever go in again, while value can still flow out to the transparent side or onward to Sapling. The pool became one-way. It can only drain, never fill. The turnstile keeps counting the whole time, so the balance can fall as funds leave but can never rise, and it can never go negative.
 
-## akụrụngwa
+The Orchard to Ironwood migration uses the same idea. At the NU6.3 upgrade, the Orchard pool is closed to new inflows, and wallets are directed to send Orchard funds across the turnstile into the new Ironwood pool. Orchard becomes a one-way pool that can only empty. Because every exit is a turnstile crossing that must be proven, any hypothetical counterfeit value left behind in Orchard cannot quietly follow the honest funds out. It is stuck in a pool that only drains and is watched at the door. Over time this drives the old pool toward empty and lets anyone confirm that the value which came out was never more than the value that honestly went in.
 
-1. [ZIP 209: Machibido Nhazi Uru Agbụ Azụ nke Na-abụghị nke Oke](https://zips.z.cash/zip-0209) - iwu nkwekọrịta dị n'azụ turnstile
-2. [ZIP 211: Ịgbanyụ Mgbakwunye Uru Ọhụrụ na Ọdọ Mmiri Uru Sprout Chain](https://zips.z.cash/zip-0211) - otu esi mechie ọdọ mmiri Sprout ka e wee tinye ego ọhụrụ
-3. [ZIP 258: NU6.3](https://zips.z.cash/zip-0258) - mmelite nke na-ewebata ọdọ mmiri Ironwood ma na-eduzi uru n'ofe ntụgharị ahụ
-4. [Mmanye Iwu Megide Mmegbu](https://electriccoin.co/blog/turnstile-enforcement-against-counterfeiting/) - nkọwa mbụ sitere na Electric Coin Company
-5. [Nkọwapụta Usoro Zcash](https://zips.z.cash/protocol/protocol.pdf) - lee ngalaba gbasara nguzozi na mbinye aka njikọ maka nkọwa zuru ezu
-6. [Ọdọ Mmiri Bara Uru, Akwụkwọ Zebra](https://zebra.zfnd.org/dev/rfcs/0012-value-pools.html) - otu nodu si enyocha nguzozi uru nke ọdọ mmiri ọ bụla
+This is the deeper reason the turnstile matters beyond simple accounting. It is the mechanism that lets Zcash deprecate a shielded pool, whether to reduce complexity as with Sprout, or to recover from a discovered bug as with Orchard, while keeping a continuous, public, provable guarantee about the supply.
 
 <br/>
 
-## Ibe ndị metụtara ya
+## Ihe ndị mmadụ na-ekwukarị nke bụ́ eziokwu.
 
-- [Ọdọ Mmiri E Kpuchiri Ekpuchi](https://zechub.wiki/using-zcash/shielded-pools) - otu azụmahịa Zcash si echekwa ihe nzuzo
-- [Halo](https://zechub.wiki/zcash-tech/halo) - usoro ihe akaebe dị n'azụ ọdọ mmiri Orchard
-- [Nkwalite netwọkụ](https://zechub.wiki/start-here/network-upgrades) - otu Zcash si eme ka mgbanwe dị ka ọdọ mmiri ndị e ji ihe nchebe ọhụrụ rụọ ọrụ
+- Ọ na-egosi naanị ego ole i nwetara, ọ naghị egosi onye ziteere mmadụ ihe.
+- Ọ naghị ejide onye na-eme ka ndị mmadụ ghara ịdị ọcha site n'aha. O nwere oke ego ole a ga-ahapụ, nke bụ ihe na-echebe ọkọnọ ahụ
+- Ọ bụghị ihe ọhụrụ maka Ironwood. O chebere ọ bụla isi echekwara ọdọ mmiri mgbanwe na Zcash akụkọ ntolite
+- Ọnụ ọgụgụ ọha na eze adịghị emebi nzuzo. Nzuzo dị n'ime azụmahịa ndị dị n 'ọdọ mmiri ahụ, nke a na-ezo ezo
+
+<br/>
+
+## Akụnụba
+
+1. [ZIP 209: machibido Out-of-nso Chain Uru Pool Balances](https://zips.z.cash/zip-0209) - iwu nkwekọrịta n'azụ turnstile ahụ.
+2. [ZIP 211: Gbanyụọ Mgbakwunye nke Uru Ọhụrụ na Sprout Chain Value Pool](https://zips.z.cash/zip-0211) - etu esi mechie ọdọ mmiri Sprout maka nkwụnye ego ọhụrụ.
+3. [ZIP 258: NU6.3](https://zips.z.cash/zip-0258) - nkwalite nke na-ewebata ọdọ mmiri Ironwood ma na-eduzi uru gafee turnstile ahụ.
+4. [Njide nke Nkwado megide counterfeiting](https://electriccoin.co/blog/turnstile-enforcement-against-counterfeiting/) - nkọwa mbụ sitere na Electric Coin Company .
+5. [Zcash Protocol Nkọwapụta](https://zips.z.cash/protocol/protocol.pdf) - lee ngalaba na nguzozi na mbinye aka maka nkọwa zuru ezu.
+6. [Otu Akụ̀ Dị Oké Ọnụ Ahịa, Akwụkwọ Zebra](https://zebra.zfnd.org/dev/rfcs/0012-value-pools.html) - otú a ọnụ nsuso ọ bụla ọdọ mmiri si uru itule
+
+<br/>
+
+## Peeji ndị metụtara ya
+
+- [Nchekwa ọdọ mmiri ndị e chebere echebe](https://zechub.wiki/using-zcash/shielded-pools) - etu azụmahịa Zcash si echekwa ihe niile gbasara ya n'onwe ha.
+- [Halo](https://zechub.wiki/zcash-tech/halo) - usoro ihe akaebe n'azụ ọdọ mmiri Orchard .
+- [Nwelite Ntanetị](https://zechub.wiki/start-here/network-upgrades) - otu Zcash si eme mgbanwe dịka ọdọ mmiri ọhụrụ echedoro.

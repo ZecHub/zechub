@@ -4,73 +4,73 @@
 
 # Ironwood
 
-> Ironwood iliwashwa kwenye mtandao mkuu wa Zcash katika kitalu namba 3,428,143 mnamo Julai 28, 2026 UTC, na imekuwa ikitumika moja kwa moja tangu wakati huo.
+> Ironwood ilianzishwa kwenye Zcash mainnet katika block 3,428,143 mnamo Julai 28, 2026 UTC, na imekuwa hai tangu wakati huo.
 
-Utakachochukua: mabadiliko Ironwood, kwa nini hitilafu katika pesa zilizofichwa ni kubwa, na jinsi turnstile inavyomruhusu mtu yeyote kuthibitisha kwamba hakuna ZEC iliyoghushiwa.
+Nini utachukua mbali: nini Ironwood mabadiliko, kwa nini mdudu katika fedha siri ni kubwa, na jinsi turnstile lets mtu yeyote kuthibitisha kwamba hakuna ZEC ilikuwa bandia.
 
-Ironwood ni Zcash [uboreshaji wa mtandao](../start-here/network-upgrades), rasmi NU6.3, ambayo inaleta bwawa jipya lenye ngao lenye jina moja [bwawa la kuogelea lenye ngao](../using-zcash/shielded-pools) ni seti ya fedha ambazo kiasi na wamiliki wake hufichwa na [usimbaji fiche usio na maarifa](../zcash-tech/zk-snarks)Ironwood ipo ili kudhibiti na kukagua mdudu wa uthabiti aliyepatikana katika bwawa lililopo la bustani Orchard, na kuipa jamii njia bora ya kuangalia kama jumla ya usambazaji wa ZEC ni wa kweli. Sheria zake za makubaliano zimeainishwa katika [ZIP 258](https://zips.z.cash/zip-0258).
+Ironwood ni Zcash [kuboresha mtandao](../start-here/network-upgrades), rasmi NU6.3, ambayo inaanzisha mpya kulindwa pool ya jina moja. A [dimbwi lenye ulinzi](../using-zcash/shielded-pools) ni seti ya fedha ambao kiasi na wamiliki kubaki siri kwa njia ya [sifuri-maarifa cryptography](../zcash-tech/zk-snarks)Ironwood ipo ili kuzuia na kukagua mdudu wa uadilifu uliopatikana katika bwawa lililolindwa la Orchard, na kutoa jamii njia kali ya kuangalia kuwa usambazaji wote wa ZEC ni waaminifu. Sheria zake za makubaliano zinaelezewa kwa undani zaidi kwenye kifungu cha 2 (a) - (b). [ZIP 258 - Ujumbe wa posta.](https://zips.z.cash/zip-0258).
 
-Kwa nini hii ni muhimu? Kwa pesa zenye uwazi kama Bitcoin, mtu yeyote anaweza kuhakikisha kuwa hakuna sarafu zilizoghushiwa kwa kusoma leja ya umma. Pesa zilizolindwa huficha kiasi, kwa hivyo huwezi kuangalia tu. Badala yake, usimbaji fiche wenyewe lazima uhakikishe kuwa hakuna mtu anayeweza kuunda pesa kwa siri. Ironwood ni muhimu kwa sababu hitilafu ilipatikana katika dhamana hiyo ya bwawa Orchard. Uboreshaji huo unafunga pengo na kumpa mtu yeyote njia ya kuthibitisha kwamba jumla ya usambazaji wa ZEC bado ni wa kweli.
+Why this matters. With transparent money like Bitcoin, anyone can check that no coins were forged by reading the public ledger. Shielded money hides the amounts, so you cannot just look. Instead the cryptography itself has to guarantee that no one can create money in secret. Ironwood matters because a bug was found in that guarantee for the Orchard pool. The upgrade closes the gap and gives anyone a way to confirm that the total supply of ZEC is still honest.
 
-Je, ni mgeni katika Zcash? Anza na [ZEC na Zcash ni nini?](../start-here/what-is-zec-and-zcash) na [Mabwawa ya Kuogelea Yenye Ngao](../using-zcash/shielded-pools), kisha rudi hapa.
+Mpya kwa Zcash? Kuanza na [ZEC na Zcash ni nini?](../start-here/what-is-zec-and-zcash) na [Vidimbwi Vilivyohifadhiwa kwa Kifaa cha Kuzuia Mlipuko](../using-zcash/shielded-pools), kisha kurudi hapa.
 
 ![Ironwood value migration flow: value leaves the Orchard pool, passes through the turnstile checkpoint, and enters the new Ironwood pool](/content-images/ironwood-flow-8af7a58b99.webp)
 
-## Kwa nini Ironwood ilihitajika
+## Kwa nini mti wa Ironwood ulihitajika?
 
-Mwishoni mwa Mei 2026, mtafiti huru wa usalama Taylor Hornby, wakati wa ukaguzi wa itifaki kwa [Shielded Labs](../zcash-organizations/shielded-labs), ilifichua kwa uwajibikaji hitilafu ya utimamu katika bwawa Orchard lililolindwa. Orchard ilikuwa bwawa jipya zaidi Zcash's lililolindwa wakati huo, na dosari hiyo ilikuwa katika sehemu ya mviringo ya mzunguko wake wa maarifa yasiyo na msingi, ambayo hutumia [Halo](../zcash-tech/halo) 2 mfumo wa kuthibitisha.
+Mwishoni mwa Mei 2026, mtafiti wa usalama huru Taylor Hornby, wakati wa ukaguzi wa itifaki kwa ajili ya [Maabara ya Kuhifadhiwa](../zcash-organizations/shielded-labs), kwa uwajibikaji wazi soundness bug katika Orchard kulindwa pool. orchard ilikuwa Zcash ya karibuni ulinzi bwawa wakati huo, na kosa alikaa katika sehemu elliptic-curve wa wake zero maarifa mzunguko, ambayo inatumia [Halo](../zcash-tech/halo) 2 mfumo wa kuthibitisha.
 
-1. Hitilafu ya uthabiti inamaanisha kuwa hesabu inayothibitisha muamala ni halali haitoi dhamana kamili.
-2. Kinadharia, mshambuliaji angeweza kutumia dosari hiyo kughushi thamani batili ndani ya bwawa Orchard na kutumia pesa ambazo hazikuwa zake, bila kuacha alama yoyote ambayo nodi ya kawaida ingekamata.
-3. Kipande Zcash's bado kiliweka kikomo cha thamani ambayo ingeondoka Orchard, kwa hivyo jumla ya usambazaji haikuweza kuongezwa, lakini usimbaji fiche wa bwawa hilo haukuhakikisha tena kwamba kila sarafu iliyofichwa ndani yake ilikuwa halisi.
+1. mdudu soundness ina maana ya hisabati kwamba inathibitisha shughuli ni halali haina kikamilifu kuhakikisha yake.
+2. Kwa nadharia, mshambuliaji angeweza kutumia kasoro hiyo kuunda thamani isiyo halali ndani ya bwawa la Orchard na kutumia pesa ambazo hazikuwa zao kweli, bila kuacha alama ambayo node kawaida ingeambukizwa.
+3. Zcash's turnstile bado capped kiasi gani thamani inaweza milele kuondoka Orchard, hivyo jumla ya ugavi hakuweza inflated, lakini pool mwenyewe cryptography tena uhakika kwamba kila sarafu siri ndani yake ilikuwa halisi.
 
 ![The bug explained: a transaction puts in 5 ZEC, but the flawed proof still passes when 7 ZEC come out, creating 2 ZEC from nothing](/content-images/ironwood-bug-8f689d6f61.webp)
 
-Nambari zilizo hapo juu ni picha iliyorahisishwa. Dosari halisi ilikuwa katika kipande maalum cha hesabu ya saketi, si hesabu halisi ya sarafu zinazoingia na kutoka. Jambo la kuzingatia ni kwamba tu kidudu cha uthabiti kinaweza kuruhusu thamani iundwe ndani ya bwawa bila kugunduliwa.
+Nambari hapo juu ni picha rahisi. kasoro halisi ilikuwa katika kipande maalum ya hisabati mzunguko wa, si hesabu halisi ya sarafu kwenda ndani na nje. hatua kuchukua mbali tu kwamba soundness mdudu unaweza basi thamani kuundwa ndani ya bwawa bila kugundua.
 
-Muhimu zaidi, hakuna ushahidi kwamba hitilafu hiyo iliwahi kutumiwa vibaya, hakuna ushahidi wa athari kwa fedha za watumiaji, na hakuna ushahidi kwamba jumla ya usambazaji wa ZEC ilibadilika. Ilipatikana kupitia utafiti wa usalama na kurekebishwa kabla ya madhara yoyote yanayojulikana.
+Muhimu, hakuna ushahidi mdudu alikuwa milele kutumika, hakuna uthibitisho wa athari kwa watumiaji fedha, na hakuna ushahidi kwamba jumla ya ugavi wa ZEC iliyopita. Iligunduliwa kupitia utafiti usalama na fasta kabla yoyote madhara inayojulikana.
 
 ## Jibu
 
-Jumuiya ya Zcash ilisafirisha marekebisho kwa hatua badala ya yote kwa wakati mmoja.
+Jumuiya ya Zcash ilitoa marekebisho kwa hatua badala ya yote mara moja.
 
 ![Ironwood response timeline: the Orchard bug is found in May 2026, the pool is paused in June 2026, the circuit is fixed in NU6.2, and Ironwood activated at block 3,428,143 on July 28, 2026](/content-images/ironwood-timeline-36243f0cd7.webp)
 
-1. Mwanzoni mwa Juni 2026, hatua ya muda ilizima bwawa Orchard huku marekebisho kamili yakiandaliwa.
-2. Uboreshaji wa NU6.2 ulirekebisha saketi ya Orchard yenyewe, na kufunga udhaifu wa msingi wa utimamu.
-3. Uboreshaji wa NU6.3, Ironwood, unaleta bwawa jipya lenye ulinzi na kituo cha ukaguzi cha umma ili thamani iweze kuhama kutoka bwawa la zamani Orchard chini ya ukaguzi kamili.
+1. Mapema Juni 2026, hatua ya muda ililemaza bwawa la Orchard wakati marekebisho kamili yalikuwa yakiandaliwa.
+2. Upgrading ya NU6.2 ilirekebisha mzunguko wa Orchard yenyewe, ikifunga udhaifu uliokuwa msingi.
+3. kuboresha NU6.3, Ironwood, kuanzisha mpya kulindwa pool na checkpoint umma hivyo thamani inaweza hoja nje ya zamani Orchard bwawa chini ukaguzi kamili.
 
 ![The fix in NU6.2: the corrected proof requires inputs to equal outputs, so a valid 5 ZEC output passes while an attempt to output 7 ZEC is rejected](/content-images/ironwood-fix-bb4f70ddc9.webp)
 
-## Kinachofanya bwawa la Ironwood
+## Kile ambacho dimbwi la Ironwood hufanya
 
-NU6.2 ililinda saketi Orchard kwa miamala yote mipya, lakini thamani iliyoundwa chini ya sheria za zamani bado iko kwenye bwawa Orchard. Ironwood huipa thamani hiyo mahali safi na njia ya kuiangalia inaposonga.
+NU6.2 kupata mzunguko Orchard kwa ajili ya shughuli zote mpya, lakini thamani kuundwa chini ya sheria za zamani bado anakaa katika bwawa orchard. Ironwood inatoa kwamba thamani marudio safi na njia ya kukagua kama ni kusonga.
 
-Bwawa la Ironwood ni bwawa la thamani lililolindwa lililoundwa na NU6.3 kwenye kitalu namba 3,428,143. Limejengwa kwenye saketi iliyosahihishwa na hutumia umbizo la noti linaloweza kurejeshwa kwa kiasi (muundo unaoruhusu fedha kurejeshwa ikiwa [kompyuta za kwanta](../zcash-tech/post-quantum-security) ever break cryptography ya leo), iliyofafanuliwa katika [ZIP 2005](https://zips.z.cash/zip-2005).
+Ironwood pool ni kulindwa thamani ya kuhifadhi iliyoundwa na NU6.3 katika block 3,428,143. Ni kujengwa juu mzunguko kusahihishwa na inatumia quantum-recoverable noti format (muundo kwamba inaruhusu fedha kuwa kulipwa kama si kuokoa) [kompyuta quantum](../zcash-tech/post-quantum-security) milele kuvunja cryptography leo), inaelezwa katika [ZIP 2005 - Ujenzi wa Jengo la Makao Makuu ya Ulaya](https://zips.z.cash/zip-2005).
 
-1. Baada ya kuamilishwa, bwawa la zamani Orchard linakuwa la matumizi pekee, kwa hivyo hakuna thamani mpya inayoweza kuingia ndani yake.
-2. Thamani iliyolindwa hivi karibuni hutiririka hadi Ironwood badala yake.
-3. Ndani ya Ironwood, ZEC iliyolindwa huhifadhi faragha inayoficha mtumaji, mpokeaji, na kiasi. Kuhamisha ZEC kutoka Orchard hadi Ironwood kunaonyesha kiasi kilichohamishwa.
+1. Baada ya uanzishaji, zamani Orchard bwawa inakuwa matumizi tu, hivyo hakuna thamani mpya inaweza kuingia ndani yake.
+2. Thamani mpya iliyohifadhiwa inapita kwenye Ironwood badala yake.
+3. ZEC iliyohifadhiwa inaweka dhamana sawa za faragha ambazo huficha mtumaji, mpokeaji na kiasi.
 
-## Kijiti cha kugeuza
+## Mzunguko wa mviringo
 
-Wazo kuu katika Ironwood ni turnstile, kituo cha ukaguzi wa uhasibu ambacho kila sarafu lazima ipitie wakati wa kuhama kutoka bwawa la zamani Orchard hadi Ironwood.
+Wazo muhimu katika Ironwood ni turnstile, ukaguzi wa uhasibu kwamba kila sarafu lazima kupita kwa wakati kusonga kutoka bwawa zamani Orchard ndani ya Ironwood.
 
-> Kifaa cha kugeuza dari hufanya kazi kwa pesa zilizofichwa kama vile mlango wa kioo hufanya kazi kwa ghala la benki. Bado huwezi kuona ndani, lakini unaweza kuhesabu hasa kinachoingia na kinachotoka.
+> Mlango wa kioo hufanya kwa pesa zilizofichwa kile mlango wa glasi unafanya kwa ghala la benki. Bado huwezi kuona ndani, lakini unaweza kuhesabu kabisa kinachoingia na kinachotoka nje.
 
-1. Fedha zinazotoka Orchard huhesabiwa katika sehemu ya uthibitishaji wa umma kabla ya kuingia Ironwood.
-2. Hii inamruhusu mtu yeyote kukagua ni kiasi gani ZEC kinachohamishwa, na kuimarisha imani katika usambazaji halisi unaozunguka.
-3. Kama ZEC yoyote bandia ingeundwa kupitia hitilafu ya awali, hesabu hii ya uhamiaji ndipo itakapoonekana.
+1. Fedha zinazoondoka Orchard zinahesabiwa katika kituo cha uthibitisho wa umma kabla ya kuingia Ironwood.
+2. Hii inaruhusu mtu yeyote kukagua kiasi gani ZEC huhama, kuimarisha imani katika usambazaji halisi wa mzunguko.
+3. Kama yoyote bandia ZEC alikuwa kuundwa kwa njia ya mdudu mapema, uhasibu huu uhamiaji ni ambapo itakuwa kuonyesha.
 
-Turnstiles si mpya kwa Zcash. Mtandao umewahi kuzitumia hapo awali, kwenye mipaka kati ya mabwawa ya Sprout, Sapling, na Orchard, ili thamani inayohamishwa kati ya mabwawa iendelee kukaguliwa na hakuna bwawa linaloweza kutoa zaidi ya iliyoingia kihalali.
+Turnstiles si mpya kwa Zcash. mtandao ina kutumika yao kabla, katika mipaka kati ya Sprout, Sapling na Orchard mabwawa, hivyo thamani kusonga kati ya maziwa anakaa auditable na hakuna bwawa wanaweza kutolewa zaidi kuliko kisheria aliingia yake.
 
-Sheria za makubaliano huweka kila kundi la thamani, ikiwa ni pamoja na Ironwood, ndani ya kikomo cha juu cha pesa cha mtandao, kwa hivyo salio la kundi haliwezi kuwa hasi kamwe.
+Sheria za makubaliano kuweka kila thamani pool, ikiwa ni pamoja na Ironwood, ndani ya mtandao wa upeo fedha kikomo, hivyo mizani pool kamwe kwenda hasi.
 
-## Kile ambacho watumiaji wanahitaji kufanya
+## Nini watumiaji haja ya kufanya nini
 
-Pochi na programu za nodi hushughulikia mengi ya haya kiotomatiki, lakini mabadiliko ya vitendo ni rahisi: baada ya muda, songa sehemu zilizolindwa kutoka bwawa la zamani Orchard kupitia turnstile hadi bwawa la Ironwood. Kila hatua inaonyesha kiasi chake kwenye blockchain, hivyo pochi zinazofuata [ZIP 318](https://zips.z.cash/zip-0318) Gawanya katika viwango vya kawaida na uvitume baada ya muda. Fuata mwongozo kutoka kwa mtoa huduma wako wa pochi, na uweke programu yako kwenye toleo linaloungwa mkono.
+Wallets na node programu kushughulikia zaidi ya hii moja kwa moja, lakini mabadiliko vitendo ni rahisi: baada ya muda, hoja ulinzi mali kutoka zamani Orchard bwawa kupitia turnstile katika Ironwood pool. Kufuata mwongozo wa mtoa yako mfuko wa fedha, na daima update to a mkono kutolewa kabla ya uanzishaji kuzuia.
 
-## Faharasa
+## Orodha ya maneno
 
 | Muhula | Maana ya Kiingereza cha kawaida |
 |---|---|
@@ -78,61 +78,57 @@ Pochi na programu za nodi hushughulikia mengi ya haya kiotomatiki, lakini mabadi
 | Soundness bug | Dosari inayoruhusu muamala batili kupitisha ukaguzi wa uthibitisho kana kwamba ni halali |
 | Turnstile | Kituo cha ukaguzi cha umma kinachohesabu thamani inayohamishwa kati ya mabwawa ili usambazaji uendelee kukaguliwa |
 | Spend-only | Bwawa la kuogelea unaloweza kutumia, lakini huwezi kuongeza thamani mpya |
-| Network upgrade (NU) | Mabadiliko yaliyoratibiwa kwa sheria za makubaliano Zcash's, yaliyoamilishwa kwa urefu wa vitalu vilivyowekwa |
+| Network upgrade (NU) | Mabadiliko yaliyoratibiwa kwa sheria za makubaliano Zcash's, yaliyoamilishwa kwa urefu wa block uliowekwa |
 | Quantum-recoverable note | Muundo wa noti ulioundwa ili fedha ziweze kupatikana ikiwa kompyuta za kwantum zitavunja usimbaji fiche wa leo |
 
-## Maswali Yanayoulizwa Mara kwa Mara
+## FAQs
 
-Je ZEC yangu iliathiriwa? Hapana. Hakuna ushahidi kwamba hitilafu iliwahi kutumika, hakuna athari kwa fedha za watumiaji, na hakuna mabadiliko kwa jumla ya usambazaji.
+Je, ZEC yangu walioathirika? Hapana. Hakuna ushahidi mdudu alikuwa milele kutumika, hakuna athari kwa fedha ya mtumiaji, na hakuna mabadiliko katika jumla ugavi.
 
-Je, ninahitaji kufanya chochote? Weka pochi yako na programu ya nodi kwenye toleo linaloungwa mkono. Fedha za matumizi Orchard huzihamisha hadi Ironwood, na kiasi kinachovuka ni cha umma. Baadhi ya pochi hutoa uhamishaji unaotuma kiasi cha kawaida baada ya muda, kwa hivyo salio lako ni gumu kuunganisha. Fuata mwongozo wa mtoa huduma wako wa pochi.
+Je, ninahitaji kufanya kitu chochote? Weka mkoba wako na node programu updated kwa kutolewa mkono kabla ya kuzuia uanzishaji. mfuko wa fedha yako hatua katika Ironwood baada ya muda kama wewe kutumia, hivyo hakuna mwongozo kukimbilia. Kufuata watoa huduma yako mfuko ushauri.
 
-Je, Zcash bado ni ya faragha? Ndiyo. Malipo ndani ya Ironwood huficha mtumaji, mpokeaji, na kiasi, kama malipo ya Orchard yalivyofanya. Kiasi kinachohama kati ya mabwawa, kama vile kutoka Orchard hadi Ironwood, ni cha umma. Uboreshaji huu unahusu uadilifu wa usambazaji.
+Je, Zcash bado binafsi? Ndiyo. Ironwood anaendelea faragha sawa ulinzi kwamba unaficha mtumaji, mpokeaji na kiasi. kuboresha hii ni kuhusu uadilifu usambazaji, si siri.
 
-Je, mdudu huyo aliwahi kudhulumiwa? Hakuna ushahidi kwamba alidhulumiwa. Alipatikana kupitia utafiti wa usalama, akafichuliwa kwa uwajibikaji, na akarekebishwa kabla ya madhara yoyote yanayojulikana.
+Je mdudu huyo aliwahi kutumiwa vibaya? Hakuna ushahidi kwamba ilikuwa hivyo. Iligunduliwa kupitia utafiti wa usalama, ilifunuliwa kwa uwajibikaji na kurekebishwa kabla ya madhara yoyote yanayojulikana.
 
-Nini kitatokea kwa bwawa la zamani Orchard? Linakuwa la matumizi pekee. Hakuna thamani mpya inayoweza kuingia, na thamani iliyopo huhamia Ironwood kupitia turnstile, ambapo uhamiaji hukaguliwa hadharani.
+What happens to the old Orchard pool? It becomes spend-only. No new value can enter it, and existing value moves into Ironwood through the turnstile, where the migration is publicly audited.
 
-## Jaribu uelewa wako
+## Jaribu uelewevu wako
 
-Ikiwa ZEC ndani ya mabwawa yaliyolindwa imefichwa, mtu anawezaje kuthibitisha kwamba mdudu Orchard hakuongeza usambazaji kwa siri?
+Ikiwa ZEC imefichwa ndani ya mabwawa yaliyofunikwa, mtu yeyote anaweza kuthibitishaje kwamba mdudu wa Orchard hakuongeza kwa siri jumla yake?
 
 <details>
 <summary>Answer</summary>
 
-Kupitia kwenye turnstile. Kila sarafu inayotoka kwenye bwawa la zamani Orchard huhesabiwa katika kituo cha ukaguzi cha umma inapoingia Ironwood. Ikiwa thamani zaidi ingejaribiwa kuondoka kuliko ilivyoingizwa kihalali, hesabu haingesawazishwa, kwa hivyo bandia yoyote ambayo mdudu angeweza kuunda ingeonekana kwenye lango hilo.
+Kila sarafu kuondoka zamani Orchard pool ni kuhesabiwa katika checkpoint umma kama inaingia Ironwood. Kama thamani zaidi alijaribu kuondoka kuliko kisheria kuingia, uhasibu bila usawa, hivyo bandia yoyote mdudu inaweza kuwa na umba itakuwa uso kwenye lango kwamba.
 </details>
 
 ### Rasilimali
 
-[ZIP 258: Utekelezaji wa Uboreshaji wa Mtandao NU6.3](https://zips.z.cash/zip-0258)
+[ZIP 258: Utekelezaji wa NU6.3 Network Upgrade](https://zips.z.cash/zip-0258)
 
-[ZIP 257: Utekelezaji wa Upunguzaji wa Muda wa Udhaifu Orchard na Uboreshaji wa Mtandao wa NU6.2](https://zips.z.cash/zip-0257)
+[ZIP 257: Utekelezaji wa Orchard Muda Udhaifu Kupunguza na NU6.2 Network Upgrade](https://zips.z.cash/zip-0257)
 
-[ZIP 2005: Urejeshaji wa Quantum Ironwood](https://zips.z.cash/zip-2005)
+[ZIP 2005: Ironwood Quantum Recoverability (Uwezo wa Kupata tena kwa kiwango cha juu)](https://zips.z.cash/zip-2005)
 
-[ZIP 229: Umbizo la Muamala la Toleo la 6](https://zips.z.cash/zip-0229)
+[Ironwood: New Shielded Pool kwa Zcash](https://zodl.com/ironwood-a-new-shielded-pool-for-zcash/)
 
-[ZIP 318: Uhamiaji wa Orchard hadi Ironwood](https://zips.z.cash/zip-0318)
+### Angalia pia:
 
-[Ironwood: Bwawa Jipya la Kuogelea kwa Zcash](https://zodl.com/ironwood-a-new-shielded-pool-for-zcash/)
+[Zcash Network Upgrades (Ubadilishaji wa Mtandao)](../start-here/network-upgrades)
 
-### Tazama pia
-
-[Maboresho ya Mtandao wa Zcash](../start-here/network-upgrades)
-
-[Mabwawa ya Kuogelea Yenye Ngao](../using-zcash/shielded-pools)
+[Vidimbwi Vilivyohifadhiwa kwa Kifaa cha Kuzuia Mlipuko](../using-zcash/shielded-pools)
 
 [Halo](../zcash-tech/halo)
 
 [zk-SNARKs](../zcash-tech/zk-snarks)
 
-[Usalama wa Baada ya Quantum](../zcash-tech/post-quantum-security)
+[Usalama Baada ya Quantum](../zcash-tech/post-quantum-security)
 
-[Shielded Labs](../zcash-organizations/shielded-labs)
+[Maabara ya Kuhifadhiwa](../zcash-organizations/shielded-labs)
 
 [ZEC na Zcash ni nini?](../start-here/what-is-zec-and-zcash)
 
 ---
 
-Mfululizo: [Faharasa ya Uboreshaji wa Mtandao](../start-here/network-upgrades) · Iliyotangulia: [NU6.2](../zcash-tech/nu6-2)
+Mfululizo: [Kiwango cha Upgrades Network](../start-here/network-upgrades) · Zamani: [NU6.2](../zcash-tech/nu6-2)

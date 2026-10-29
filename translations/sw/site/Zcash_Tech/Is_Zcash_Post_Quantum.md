@@ -71,7 +71,7 @@ Kile ambacho Ironwood haikubadilisha: usimbaji fiche unaotumika kwa matumizi na 
 
 **Kuna dirisha la kufichua.** Kuanzia uanzishaji Ironwood's hadi itifaki za zamani zitakapozimwa, mshambuliaji wa quantum bado anaweza kuiba, kuingiza au kuzuia fedha katika kila bwawa lililolindwa. ZIP 2005 inaita hii "kipindi muhimu cha kufichua" na inaonya kwamba shambulio wakati huo bado linaweza kuathiri uwezo wa mmiliki wa kurejesha nguvu baadaye. Ndiyo maana inasema Zcash lazima izime Orchard, Sapling na Sprout **kabla** mashambulizi ya quantum hayajawezekana.
 
-**Kuzima hakuna tarehe, isipokuwa Sprout.** Hakuna ratiba ya ZIP ya kuzima Orchard au Sapling. Sprout ni tofauti: [ZIP 259](https://zips.z.cash/zip-0259) Inaorodhesha ZIP 2003 miongoni mwa mabadiliko ambayo NU7 inayatumia, kwa hivyo miamala ya toleo la 4 inakuwa batili mara tu NU7 inapowashwa na ZEC yoyote iliyobaki kwenye bwawa la Sprout inakuwa isiyoweza kutumika. Uanzishaji wa Mainnet umewekwa kwa ajili ya kizuizi 3,543,405, kinacholengwa tarehe 5 Novemba 2026 ([ZIP 259](https://zips.z.cash/zip-0259), [tangazo la jukwaa](https://forum.zcashcommunity.com/t/nu7-timeline/57655)). Majadiliano ya kujiondoa kwa Sapling pekee yalianza kwenye jukwaa mnamo Aprili 2026.
+**Kuzima hakuna tarehe.** Hakuna ratiba za ZIP za kuzima Orchard au Sapling. ZIP 2003, Draft na mgombea wa NU7, ingezima matumizi ya Sprout kwa kukataa miamala ya toleo la 4. Majadiliano ya kutoa pesa Sapling pekee yalianza kwenye jukwaa mnamo Aprili 2026.
 
 **Itifaki ya Urejeshaji haijakamilika.** ZIP 2005 inaielezea tu, na inasema maelezo "yanaweza kubadilika". Hakuna kitu kinachotumika kuihusu.
 
@@ -97,7 +97,7 @@ Hakuna hata moja kati ya hizi iliyoonyeshwa moja kwa moja.
 
 ## Jedwali la hali
 
-Ilikaguliwa mara ya mwisho tarehe 13 Septemba 2026, isipokuwa safu ya Sprout, ambayo ilisasishwa tarehe 9 Oktoba 2026. Hali ya kichwa ZIP's na hali ya mtandao wake ni vitu tofauti: ZIP 2005 bado inasema "Imependekezwa" kwenye kichwa chake cha habari ingawa sheria zake zimetekelezwa kwenye Mainnet tangu Julai 2026.
+Ilikaguliwa mara ya mwisho tarehe 13 Septemba 2026. Hali ya kichwa ZIP's na hali ya mtandao wake ni vitu tofauti: ZIP 2005 bado inasema "Imependekezwa" kwenye kichwa chake ingawa sheria zake zimetekelezwa kwenye Mainnet tangu Julai 2026.
 
 | Bidhaa | Hali ya ZIP | Hali ya mtandao | Tarehe | Chanzo |
 |---|---|---|---|---|
@@ -106,7 +106,7 @@ Ilikaguliwa mara ya mwisho tarehe 13 Septemba 2026, isipokuwa safu ya Sprout, am
 | Pochi zinazohamisha fedha kwenda Ironwood | Mwongozo katika ZIP 2005, ZIP 318 na ZIP 326 (Rasimu) | Imependekezwa, inategemea pochi yako | Tangu 28 Julai 2026 | [ZIP 318](https://zips.z.cash/zip-0318), [ZIP 326](https://zips.z.cash/zip-0326) |
 | Itifaki ya Urejeshaji | Imeorodheshwa ndani ya ZIP 2005 pekee | **Haijatekelezwa** | Hakuna tarehe | [ZIP 2005](https://zips.z.cash/zip-2005) |
 | Kuzima Orchard na Sapling | Hakuna ZIP | **Haijapangwa** | Majadiliano Sapling kuanzia Aprili 2026 | [Jukwaa](https://forum.zcashcommunity.com/t/sapling-withdraw-only-discussion-kickoff/55223) |
-| Kuzima matumizi ya Sprout (ZIP 2003) | Imependekezwa, imetumika na NU7 kwa kila ZIP 259 (Imependekezwa) | **Haijawashwa** | Urefu wa Mainnet 3,543,405, uliolengwa 5 Novemba 2026 | [ZIP 2003](https://zips.z.cash/zip-2003), [ZIP 259](https://zips.z.cash/zip-0259) |
+| Kuzima matumizi ya Sprout (ZIP 2003) | Mgombea wa rasimu, mgombea NU7 | **Haijawashwa** | Hakuna tarehe | [ZIP 2003](https://zips.z.cash/zip-2003) |
 | Uwezekano wa kurejesha data kwa uwazi (ZIP 2007) | Imehifadhiwa | **Pendekezo** | ZIP imehifadhiwa 5 Julai 2025, majadiliano yalifunguliwa 17 Juni 2026 | [zipu#1302](https://github.com/zcash/zips/issues/1302) |
 | Faragha ya baada ya kiasi kwa anwani zinazojulikana | Matatizo yamefunguliwa, hakuna ZIP | **Utafiti** | #1133 ilifunguliwa 18 Agosti 2022, #1307 ilifunguliwa 23 Juni 2026 | [zipu#1133](https://github.com/zcash/zips/issues/1133), [zipu#1307](https://github.com/zcash/zips/issues/1307) |
 | Mradi Tachyon | Hakuna ZIP | **Pendekezo**, linaendelea kutengenezwa | Ilichapishwa kwa mara ya kwanza Aprili 2025 | [tachyon.z.cash](https://tachyon.z.cash/roadmap/) |

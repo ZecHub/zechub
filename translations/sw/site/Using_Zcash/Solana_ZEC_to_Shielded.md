@@ -4,29 +4,15 @@
 
 # Una ZEC kwenye Solana? Ihamishe kwenye Zcash iliyolindwa
 
-Ukurasa huu ni kwa ajili yako ikiwa ZEC ilionekana kwenye pochi yako Solana kwa sababu una ZCAT, au tokeni nyingine Solana inayowalipa wamiliki wake katika ZEC. Huna haja ya kuuza chochote ili kuifuata. Utahamisha ZEC uliyonayo tayari kutoka Solana hadi pochi ya Zcash na kuishia ikiwa imefunikwa.
+Ukurasa huu ni kwa ajili yako ikiwa ZEC ilionekana kwenye pochi yako ya Solana kwa sababu una ZCAT, au tokeni nyingine ya Solana inayowalipa wamiliki wake katika ZEC. Huna haja ya kuuza chochote ili kuifuata. Utahamisha ZEC uliyonayo tayari kutoka Solana hadi pochi ya Zcash na kuishia ikiwa imefunikwa.
 
 Tulikimbia kila hatua hapa chini kwa uhamisho halisi mnamo tarehe 27 Septemba 2026, tukianzia na 0.00266336 ZEC katika Phantom. Ada, nyakati na skrini kwenye ukurasa huu ndizo tulizoziona.
 
 ---
 
-## TL;DR
-
-- ZEC katika pochi yako Solana ni tokeni ya **Solana** (mint) `A7bd…QXaS`) inaungwa mkono na ZEC halisi ambayo NEAR OmniBridge inashikilia kwenye mnyororo wa Zcash — "karatasi ya ZEC" ambayo inaishi kwenye leja ya umma Solana's na haiwezi kulindwa hapo.
-- Njia ni hatua mbili: **weka** tokeni kwenye solswap.org (NEAR Intents), kisha **toa** kwenye near.com hadi kwenye pochi yako ikiwa imefunikwa na kingo `u1` anwani. Usitumie kitufe cha Phantom's cha Kubadilishana — hakiwezi kukusaidia.
-- Tumia pochi [Saraka ZecHub](/wallets) alama **Ironwood: Tayari**, na weka SOL kidogo katika Phantom kwa ada ya Solana.
-- Jaribio letu halisi (27 Septemba 2026, 0.00266336 ZEC): amana ilipatikana kwa sekunde 9, uondoaji ulichukua kama dakika 8, jumla ya gharama ~0.00025 ZEC + 0.0016 SOL.
-- Laini ya usalama: saini maombi ya ujumbe pekee kwenye `near.com`/`solswap.org` na `intents.near` katika ujumbe, usiandike kamwe kifungu cha maneno cha mbegu, na ubandike `u1`kamwe `t1`.
-
-## Mfano wa kuona
-
-ZEC kwenye Solana inafanya kazi kama **chipu ya kasino**. Bei yake ni kama pesa taslimu, na kasino — NEAR OmniBridge — inaahidi noti halisi (ZEC) kwa mtu yeyote anayerudisha chipu. Lakini chipu ni safu tu katika kitabu cha kumbukumbu cha kasino: kila mtu anaweza kuona ni nani anayeishikilia, na thamani yake inategemea mifumo ya kasino inayoendelea kuwa thabiti. Kutoa pesa kupitia near.com ni kutembea hadi kwenye ngome na kutoa pesa kwenye chipu. Mara tu noti zinapokuwa kwenye bwawa lililofunikwa, ziko kwenye pochi yako isiyoonekana — hakuna mtu anayeweza kuona kiasi au mmiliki tena.
-
----
-
 ## Unachoshikilia hasa
 
-ZEC katika pochi yako ya Solana ni tokeni kwenye Solana, si sarafu kwenye mtandao wa Zcash. NEAR OmniBridge huitoa na inashikilia ZEC halisi kwenye mnyororo wa Zcash ili kuiunga mkono; daraja limekuwa likitumika kwenye Solana tangu Oktoba 2025. Mguu wake Solana unaendeshwa na ujumbe wa Wormhole na Saini za Mnyororo NEAR, si kwenye mteja wa taa Zcash, kwa hivyo upande wa Solana ni sawa tu na mifumo hiyo miwili. Watu huiita " ZEC". Inafuatilia bei ya ZEC, lakini kila salio na kila uhamisho upo kwenye leja ya umma Solana's chini ya anwani yako ya pochi, na haiwezi kulindwa inapobaki hapo.
+ZEC katika pochi yako ya Solana ni tokeni kwenye Solana, si sarafu kwenye mtandao wa Zcash. NEAR OmniBridge huitoa na inashikilia ZEC halisi kwenye mnyororo wa Zcash ili kuiunga mkono; daraja limekuwa likitumika kwenye Solana tangu Oktoba 2025. Mguu wake wa Solana unaendeshwa na ujumbe wa Wormhole na Saini za Mnyororo wa NEAR, si kwenye mteja wa taa Zcash, kwa hivyo upande wa Solana ni sawa tu na mifumo hiyo miwili. Watu huiita " ZEC". Inafuatilia bei ya ZEC, lakini kila salio na kila uhamisho upo kwenye leja ya umma ya Solana chini ya anwani yako ya pochi, na haiwezi kulindwa inapobaki hapo.
 
 Hakikisha kwamba yako ndiyo tokeni halisi. Katika Phantom, gusa **ZEC** na usogeze hadi **Kuhusu Zcash**. Anwani ya mkataba lazima iwe:
 
@@ -65,18 +51,18 @@ Pochi yako inaonyesha aina mbili za anwani:
 
 | Huanza na | Aina | Kile ambacho umma unaona |
 |---|---|---|
-| `u1` | Anwani Iliyounganishwa | Hakuna chochote kukuhusu, lakini tu wakati malipo yanapotua kwenye bwawa lililofunikwa na ngao |
+| `u1` | Unified Address | Hakuna chochote kukuhusu, lakini tu wakati malipo yanapotua kwenye bwawa lililofunikwa na ngao |
 | `t1` | Anwani ya uwazi | Anwani yako na kiasi, milele, kama ilivyo kwa Solana |
 
 Tumia `u1` kwamba pochi yako ina lebo kama imefunikwa `u1` ni kifurushi cha wapokeaji, na baadhi ya pochi huweka kipokezi chenye uwazi ndani yake karibu na kile kilichofunikwa. Mtumaji ambaye anaweza kulipa anwani zenye uwazi pekee atatumia hicho, na malipo yako yataonekana hadharani hata kama umebandika `u1`Anwani iliyolindwa ya pochi yetu ya majaribio haina kipokezi chenye uwazi, kwa hivyo hilo halingeweza kutokea. [Mabwawa ya kuogelea yaliyolindwa](/using-zcash/shielded-pools) hufunika wapokeaji kwa undani zaidi. Baadhi ya pochi zinaonyesha mpya `u1` kila wakati unapofungua Pokea; hiyo ni kawaida, na zote ni zako. Picha ya skrini ya kupokea na sehemu ya mpokeaji wa near.com kwenye ukurasa huu hutumia tofauti `u1` viambishi awali kwa sababu hiyo.
 
-Tulitumia ZODL kwa jaribio letu kwa sababu ilikuwa pochi tuliyokuwa tumeisanidi. Pochi pekee ambazo saraka inaashiria **Ironwood: Tayari** ndizo zinazoweza kupokea thamani mpya iliyolindwa.
+Tulitumia ZODL kwa jaribio letu kwa sababu ilikuwa pochi tuliyoisanidi. Pochi pekee ambazo saraka inaashiria **Ironwood: Tayari** ndizo zinazoweza kupokea thamani mpya iliyolindwa.
 
 ---
 
 ## Ihamishe
 
-Njia ina sehemu mbili: weka ZEC yako katika NEAR Intents kutoka Phantom, kisha uitume kwa anwani yako Zcash. Tulitumia [solswap.org](https://solswap.org), tovuti NEAR-built kwa watumiaji wa Solana, kwa sehemu ya kwanza na [karibu.com](https://near.com), programu NEAR's mwenyewe, kwa pili. ZecHub's [Jinsi ya kubadilisha ZEC katika Phantom Pocket](/using-zcash/solswap) Mwongozo unashughulikia skrini za solswap kwa undani zaidi. Usitumie kitufe cha **Swap** Phantom's kwa hili: tayari unashikilia tokeni, na kuibadilisha haikufikishi popote.
+Njia ina sehemu mbili: weka ZEC yako katika NEAR Intents kutoka Phantom, kisha uitume kwa anwani yako Zcash. Tulitumia [solswap.org](https://solswap.org), tovuti iliyojengwa KARIBU kwa watumiaji wa Solana, kwa sehemu ya kwanza na [karibu.com](https://near.com), programu ya NEAR mwenyewe, kwa pili. ZecHub's [Jinsi ya kubadilisha ZEC katika Phantom Pocket](/using-zcash/solswap) Mwongozo unashughulikia skrini za solswap kwa undani zaidi. Usitumie kitufe cha **Swap** Phantom's kwa hili: tayari unashikilia tokeni, na kuibadilisha haikufikishi popote.
 
 Weka SOL kidogo huko Phantom kwa ada ya Solana.
 
@@ -141,9 +127,9 @@ Ikiwa hilo litatokea kwako, ZEC yako haitakwama. Salio limeunganishwa na ufunguo
 | Amana, Phantom kwa kubadilishana | Sekunde 9 |
 | Kutoa pesa, kusaini kwenye near.com kwa ZEC kwenye pochi ya Zcash | Takriban dakika 8 (inakadiriwa kuwa karibu dakika 2) |
 
-Rekodi: Amana Solana [5ijsgRrh…AjLkx](https://solscan.io/tx/5ijsgRrhViNTtFMmnsfJDSo3HhRmt3Ri7WB513oBoQLxfGNswDxvHnakwW1yyqXznTTCSxnUkooAHDKowz9AjLkx), NEAR Intents [79c23cfd…a405a9](https://explorer.near-intents.org/transactions/79c23cfd43928de5522c182e26f8f052dc9c43d53430ca497b40e016a6a405a9), Zcash [28d6da27…481034](https://mainnet.zcashexplorer.app/transactions/28d6da27d74dc91e45175a7aff6023bc85578603dd77f1b49782a28f8f481034) katika kizuizi 3,498,141. Ada na nyakati hubadilika kadri mtandao unavyopakia, kwa hivyo skrini ya ukaguzi ndiyo neno la mwisho unapofanya hivyo.
+Rekodi: Amana ya Solana [5ijsgRrh…AjLkx](https://solscan.io/tx/5ijsgRrhViNTtFMmnsfJDSo3HhRmt3Ri7WB513oBoQLxfGNswDxvHnakwW1yyqXznTTCSxnUkooAHDKowz9AjLkx), NEAR Intents [79c23cfd…a405a9](https://explorer.near-intents.org/transactions/79c23cfd43928de5522c182e26f8f052dc9c43d53430ca497b40e016a6a405a9), Zcash [28d6da27…481034](https://mainnet.zcashexplorer.app/transactions/28d6da27d74dc91e45175a7aff6023bc85578603dd77f1b49782a28f8f481034) katika kizuizi 3,498,141. Ada na nyakati hubadilika kadri mtandao unavyopakia, kwa hivyo skrini ya ukaguzi ndiyo neno la mwisho unapofanya hivyo.
 
-Daraja NEAR's linachapisha kiwango cha chini ZEC cha 0.01 na ada ya ZEC ya 0.00047 kwa uondoaji wake wa kawaida Zcash. near.com haikutumika pia kwa ZEC. Ikiwa programu inakataa kiasi kidogo, jaribu near.com kabla ya kujaza.
+Daraja la NEAR linachapisha kiwango cha chini ZEC cha 0.01 na ada ya ZEC ya 0.00047 kwa uondoaji wake wa kawaida Zcash. near.com haikutumika pia kwa ZEC. Ikiwa programu inakataa kiasi kidogo, jaribu near.com kabla ya kujaza.
 
 ### Njia zingine na kile ambacho kila moja inakiamini
 
@@ -151,7 +137,7 @@ Kila njia inayotoka Solana inaamini OmniBridge, kwa sababu daraja linashikilia Z
 
 - **Njia iliyo hapo juu** inaamini NEAR Intents. Saini yako inaidhinisha uhamisho, wasuluhishi hutoa ZEC upande wa Zcash, na NEAR Intents inaweza kuhifadhi fedha kwa ajili ya ukaguzi wa uzingatiaji; mnamo 2026 mmiliki wa Zcash [iliripoti ubadilishaji mkubwa uliofanyika kwa wiki kadhaa](https://www.cryptotimes.io/2026/09/11/zcash-holder-says-589k-usdt-stuck-on-near-intents-50-days-after-zodl-swap/)Pia unaunganisha pochi yako kwenye tovuti mbili, kwa hivyo angalia upau wa anwani kila wakati.
 - **Pochi zenye NEAR Intents zilizojengewa ndani** (tafuta kipengele cha NEAR Intents katika [saraka](/wallets)) hutumia mfumo ule ule kutoka ndani ya pochi ya Zcash. Uaminifu ule ule, tovuti chache. Hatukujaribu hili na ZEC kwenye Solana.
-- **Soko la kubadilishana**, ikiwa tu linakubali amana za tokeni hii kwenye mtandao Solana, ambazo wengi hawakubali. Unakabidhi ulinzi na kwa kawaida utambulisho wako, na soko nyingi hutuma ZEC pekee kwa `t1` anwani. Tazama [kubadilishana kwa dhamana](/using-zcash/custodial-exchanges).
+- **Soko la kubadilishana**, ikiwa tu linakubali amana za tokeni hii kwenye mtandao wa Solana, ambazo wengi hawakubali. Unakabidhi ulinzi na kwa kawaida utambulisho wako, na soko nyingi hutuma ZEC pekee kwa `t1` anwani. Tazama [kubadilishana kwa dhamana](/using-zcash/custodial-exchanges).
 
 ---
 
@@ -185,7 +171,7 @@ Hatukutuma kwa moja, lakini matokeo yake yanatabirika. ZEC inafika kwenye salio 
 
 Wamiliki wapya hulengwa. Karibu kila ulaghai utakaouona ni mojawapo ya haya:
 
-- **Aina ya anwani si sahihi.** Anwani Zcash huanza na `u1`, `t1`, `zs` or `tex1`Anwani Solana haina viambishi awali hivyo. Kamwe usitume ZEC asilia kwa anwani ya Solana, na kamwe usitume tokeni ya Solana kwa anwani Zcash.
+- **Aina ya anwani si sahihi.** Anwani Zcash huanza na `u1`, `t1`, `zs` or `tex1`Anwani ya Solana haina viambishi awali hivyo. Kamwe usitume ZEC asilia kwa anwani ya Solana, na kamwe usitume tokeni ya Solana kwa anwani Zcash.
 - **Huduma za uwazi pekee.** Baadhi ya madaraja, tovuti za kubadilishana na kubadilishana zinaweza kutumwa tu kwa `t1` anwani. Hilo linawezekana ikiwa utailinda ZEC mara tu itakapofika. Usiache tu hapo.
 - **Pochi bandia.** Sakinisha kutoka kwa kiungo kilicho kwenye [saraka ya pochi](/wallets) kadi au orodha rasmi ya duka la programu inayoonyesha. Programu bandia za pochi za crypto huingia kwenye maduka ya programu, na zinafanana kabisa na kitu halisi.
 - **Ulaghai wa maneno ya mbegu.** Hakuna pochi, daraja, tovuti ya kubadilishana, wakala wa usaidizi, msimamizi au kielelezo cha hewa kinachohitaji kifungu chako cha mbegu. Kusaini ujumbe hakuhusishi kuuandika. Mtu yeyote anayeomba anajaribu kukuibia. [Kurejesha fedha](/using-zcash/recovering-funds) inashughulikia toleo la "tutarejesha pochi yako" la ulaghai huu.
@@ -195,28 +181,9 @@ Wamiliki wapya hulengwa. Karibu kila ulaghai utakaouona ni mojawapo ya haya:
 
 ---
 
-## Makosa ya Kawaida
-
-- **Kutumia kitufe cha Kubadilishana Phantom's** badala ya mtiririko wa amana. Tayari unashikilia tokeni — kubadilishana hubadilisha tu ZEC ya karatasi moja na tokeni nyingine na hukufikishi karibu na ZEC.
-- **Kubandika `t1` anwani**, au `u1` inayoficha kipokezi chenye uwazi, wakati pochi yako inatoa kipokezi kilicholindwa pekee `u1`Amana hiyo itawekwa hadharani na kuiunganisha na pochi yako milele.
-- **Tukidhani pesa zimekwama** wakati ukurasa wa Kutoa wa solswap unapoonyesha "–". Salio linafuata ufunguo wako Phantom, si tovuti — maliza kutoa pesa kwenye near.com.
-- **Kusaini ujumbe bila kuuangalia.** Tovuti inayofanana inaweza kuondoa salio la NEAR Intents zako kwa sahihi moja. Tovuti lazima iwe `near.com` na ujumbe lazima uwe na `"verifying_contract": "intents.near"`.
-- **Kuchanganya alama mbili za "ZEC".** Tokeni ya Solana na Zcash asilia ZEC zina jina lakini si mtandao — kutuma mojawapo kwa mnyororo mwingine huipoteza.
-
 ## Nini cha kufanya na ZEC iliyolindwa
 
 - Ifanye iwe ya faragha unapoitumia: [Kutumia ZEC kibinafsi](/guides/using-zec-privately)
 - Tafuta maeneo yanayoweza kuchukua: [Maeneo ya kutumia ZEC](/using-zcash/spend-zcash/top-10-places-to-spend-zec)
 - Itume ikiwa na ujumbe wa faragha ulioambatanishwa: [Kumbukumbu](/using-zcash/memos)
 - Mlipe mtu bila kuunganisha utambulisho wako: [Tuma pesa bila kuunganisha utambulisho](/zcash-use-cases/send-money-without-linking-identity)
-
----
-
-## Kurasa Zinazohusiana
-
-- [Jinsi ya kubadilisha ZEC katika Phantom Pocket](/using-zcash/solswap) — skrini za solswap kwa undani zaidi
-- [Mabwawa ya kuogelea yaliyolindwa](/using-zcash/shielded-pools) — mabwawa ya kuogelea Ironwood/Orchard ni nini na jinsi wapokeaji wanavyofanya kazi
-- [Nani anaweza kuona malipo yako Zcash?](/start-here/who-can-see-your-zcash-payment) — ni nini hasa kinga huficha
-- [Pochi](/wallets) — saraka; angalia lebo ya **Ironwood: Tayari**
-- [Mabadilishano ya uhifadhi](/using-zcash/custodial-exchanges) — njia hii inaepuka mabadilishano
-- [Kurejesha fedha](/using-zcash/recovering-funds) — nini cha kuweka salama ili usipoteze ufikiaji

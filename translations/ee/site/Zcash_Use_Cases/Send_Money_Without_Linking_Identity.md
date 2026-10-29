@@ -4,7 +4,7 @@
 
 ## TL;DR
 
-- Ðoe ɖa ɣesiaɣi tso **adrɛs si wokpɔ ta na**
+- Ðoe ɖa ɣesiaɣi tso **adrɛs si wokpɔ ta na** .
 - Ƒo asa na asitsatsa t to t tẽ
 - Gblẽ kadodo si le amenyenyewo dome la me
 - Lé ŋku ɖe ɣeyiɣi kple nɔnɔme siwo woawɔ ŋu
@@ -72,7 +72,7 @@ MÈGAWƆ:
 ### Afɔɖeɖe 4: Bu Ɣeyiɣi ƒe Ðoɖowo Ŋu
 
 Aɖaŋuɖoɖo deŋgɔ:
-- Ƒo asa na eɖoɖo enumake ne èxɔ ga gbogbo aɖewo vɔ
+- Ƒo asa na dɔdɔ enumake ne èxɔ ga gbogbo aɖewo
 - Gblẽ nɔnɔme siwo woate ŋu agblɔ ɖi le afisi wòanya wɔ le
 
 <br/>
@@ -82,7 +82,7 @@ Aɖaŋuɖoɖo deŋgɔ:
 - Woɖoe ɖa tẽ tso adrɛs siwo me kɔ dzi 
 - Adrɛswo gbugbɔgazã le ame geɖe dome 
 - Asitsatsa ƒe kpeɖodzi le dutoƒo 
-- Aɖabaŋeŋe ƒu metadata dzi (ɣeyiɣi, zi gbɔ zi geɖe)
+- Aɖabaŋeŋe ƒu metadata dzi (ɣeyiɣi, zi gbɔ zi geɖe) .
 
 <br/>
 
@@ -96,7 +96,7 @@ Ate ŋu:
 <br/>
 
 ## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="chain-links icon"/> Related
-- [Nusi Block Explorer Ate Ŋu Akpɔ](/zcash-tech/what-a-block-explorer-can-see)
+- [Ame ŋutɔ ƒe nyawo - Shielded vs Transparent](/zcash-tech/what-a-block-explorer-can-see)
 
 <br/>
 

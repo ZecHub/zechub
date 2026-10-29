@@ -51,7 +51,7 @@ Faharasa kamili ya maneno muhimu, dhana, na rasilimali zinazohusiana na Zcash. H
 | Muhula | Ufafanuzi |
 |------|-----------|
 | ECC | Electric Coin Company, timu iliyozindua itifaki Zcash, ambayo hapo awali ilijulikana kama Kampuni ya Zcash. Timu yake yote ya uhandisi ilijiuzulu Januari 2026 kufuatia mzozo wa utawala na bodi ya Bootstrap, na kuendelea kuunda ZODL. |
-| ECDSA | Algorithm ya Saini ya Dijitali ya Mkunjo wa Elliptic ni mpango salama wa saini ya dijitali wa usimbaji fiche. Algorithm ya ishara/uthibitishaji ya ECDSA inategemea kuzidisha nukta za mkunjo wa mviringo. |
+| ECDSA | Algorithm ya Saini ya Dijitali ya Curve Elliptic ni mpango salama wa saini ya dijitali wa usimbaji fiche. Algorithm ya ishara/uthibitishaji ya ECDSA inategemea kuzidisha nukta za mkunjo wa mviringo. |
 | Education | Video zenye mwelekeo wa kujifunza zinazoelezea Zcash [hapa](https://www.zcashcommunity.com/zcash-education/) |
 | Encrypted Memos | Sehemu ya ziada ya miamala inayotumwa kwa anwani zilizolindwa ambayo inaonekana kwa mpokeaji wa malipo. Hati iliyosimbwa kwa njia fiche inaonekana kwa mtumaji na mpokeaji pekee. |
 | Equihash | Algoritimu ya uchimbaji wa uthibitisho wa kazi inayozingatia kumbukumbu inayotumika kwenye Zcash. |
@@ -130,8 +130,8 @@ Faharasa kamili ya maneno muhimu, dhana, na rasilimali zinazohusiana na Zcash. H
 | Nighthawk | Pochi ya mkononi kwa ajili ya Zcash. [Tovuti](https://nighthawkwallet.com) |
 | Noir Wallet | Pochi ya kiendelezi cha kivinjari Zcash inayoungwa mkono na Zcash Community Grants, iliyojengwa ili kuunganisha ZEC iliyolindwa moja kwa moja kwenye programu za kivinjari badala ya kutegemea misimbo ya QR na uhamishaji wa mikono. [zknoir.com](https://www.zknoir.com/) |
 | NU5 | Uboreshaji wa Mtandao Mkuu wa 6 wa Zcash, ukianzisha bwawa la kuogelea lililolindwa na Orchard na Anwani za Unified. [Maelezo Zaidi](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#nu5) |
-| NU6 | Uboreshaji Mkuu wa 7 wa Mtandao wa Zcash, kurekebisha ruzuku ya block ili kufadhili mpango wa Zcash Community Grants na Kisanduku cha Kufungia cha Mfuko wa Maendeleo Ulioahirishwa. Kiliamilishwa mwishoni mwa 2024. [Maelezo Zaidi](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#nu6) |
-| NU7 | Uboreshaji wa mtandao baada ya Ironwood, uliolengwa kwa mainnet mnamo 5 Novemba 2026. Kwa [ZIP 259](https://zips.z.cash/zip-0259) Inaleta vitalu vya sekunde 25 (ZIP 218), Mfumo wa Uendelevu wa Mtandao wenye kuchakata ada (ZIP 235 na 237), na mwisho wa miamala ya toleo la 4, ambayo huacha fedha za Sprout zisiweze kutumika (ZIP 2003). Haiongezi muundo mpya wa miamala; Tachyon na Zcash Shielded Assets si sehemu yake. |
+| NU6 | Uboreshaji Mkuu wa 7 wa Mtandao wa Zcash, kurekebisha ruzuku ya block ili kufadhili mpango wa Zcash Community Grants na Kisanduku cha Kufungia cha Mfuko wa Maendeleo Kilichoahirishwa. Kiliamilishwa mwishoni mwa 2024. [Maelezo Zaidi](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#nu6) |
+| NU7 | Uboreshaji mkuu unaofuata wa mtandao baada ya Ironwood. Vipengele vinavyotarajiwa ni pamoja na kazi ya kuongeza ukubwa Tachyon's, Zcash Shielded Assets, na Mfumo wa Uendelevu wa Mtandao. |
 
 ## O
 

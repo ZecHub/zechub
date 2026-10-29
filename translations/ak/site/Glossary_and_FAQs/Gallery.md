@@ -4,8 +4,8 @@
   <div class="text-6xl"></div>
   <h2 class="text-3xl font-bold">Open Full Interactive Gallery</h2>
   <p class="text-xl text-muted-foreground max-w-md">Click any image for full-screen lightbox + one-click download</p>
+  
+  **[Wɔhyɛ Gallery ase](https://zechub.wiki/gallery)**
 </div>
-
-<Gallery />
 
 ---

@@ -11,7 +11,7 @@ Nsɛmfua nkyerɛaseɛ a ɛkɔ akyiri a ɛfa nsɛmfua titire, nsusuiɛ, ne nneɛm
 
 | Asɛmfua | Nkyerɛaseɛ |
 |------|-----------|
-| Actions | Sɛ anka wɔbɛbɔ ankorankoro adanseɛ dodoɔ bi ama Spend ne Output biara no, Orchard protocol ka bom yɛ Adeyɛ baako. |
+| Actions | Sɛ anka wɔbɛbɔ ankorankoro adanseɛ dodoɔ bi ama Spend ne Output biara no, Orchard protocol ka bom yɛ Action baako. |
 | Addresses | Zcash wɔ Shielded (zaddr) ne Transparent (taddr) address ahorow. Unified addresses (UA) bundle receiver types pii enti sending wallet betumi apaw nea eye sen biara a afã abien no nyinaa boa. Wɔakyerɛ wɔ [ZIP 316 na ɛwɔ hɔ](https://zips.z.cash/zip-0316). [Address ahorow a wɔaka abom](/zcash-tech/unified-addresses) |
 | Arborist Call | Nnawɔtwe mmienu frɛ a ɛfa Zcash protocol ne nhwehwɛmu nkɔsoɔ foforɔ ho. Wɔyɛɛ no wɔ Zcash Community Forum ne Discord. [Nhyiam Ho Nsɛm a Wɔakyerɛw](https://github.com/ZcashCommunityGrants/arboretum-notes) / [Forum Nsɛm a Wɔde To gua](https://forum.zcashcommunity.com) |
 | Auto-shielding | Ɛma wɔn a wɔde di dwuma (titiriw wɔn sika kotoku) tumi de sika fi address a ɛda adi pefee so kɔ ZEC pool a wɔabɔ ho ban a aba foforo no so. |
@@ -32,7 +32,7 @@ Nsɛmfua nkyerɛaseɛ a ɛkɔ akyiri a ɛfa nsɛmfua titire, nsusuiɛ, ne nneɛm
 |------|-----------|
 | Canopy | 5th Major Network Upgrade a ɛwɔ hɔ ma Zcash. [Nsɛm pii](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html?highlight=orchard#canopy) |
 | Commitment Scheme | Ma kwan ma committer bi de ne ho to polynomial a ɛwɔ ahama tiawa bi a verifier betumi de adi dwuma de asi so dua sɛ wɔakyerɛ sɛ wɔayɛ nhwehwɛmu wɔ committed polynomial no ho. Mfaso wɔ so ma nkitahodi ho ka a wɔtew so wɔ Zcash protocol no mu. |
-| Community | [Ɔmanfoɔ Zcash Mpɔtam Nhyiamu](https://forum.zcashcommunity.com) / [Zcash Mpɔtam Hɔ Discord](https://discord.com/channels/669694001464737815/669694001921654794) / [Zcash R&D Discord](https://discord.com/invite/6AK7keWFaK) / [Reddit](https://www.reddit.com/r/zec/) / [Telegram](https://t.me/Zcash_Community) / [Twitter](https://x.com/zcash) |
+| Community | [Ɔmanfoɔ Zcash Mpɔtam Nhyiamu](https://forum.zcashcommunity.com) / [Zcash Mpɔtam Hɔ Discord](https://discord.com/channels/669694001464737815/669694001921654794) / [Zcash R&D Discord](https://discord.com/invite/6AK7keWFaK) / [Reddit a wɔde di dwuma](https://www.reddit.com/r/zec/) / [Telegram](https://t.me/Zcash_Community) / [Twitter](https://x.com/zcash) |
 | Crosslink | Hybrid consensus design a wɔahyɛ ho nyansa a ɛbɛma adanseɛ a ɛkyerɛ sɛ ɛwɔ kyɛfa bɛka Zcash's adanseɛ a ɛwɔ hɔ dada a ɛkyerɛ sɛ ɛyɛ adwuma no ho. Shielded Labs di adwuma no anim na ɛkora nhwɛsode bi so wɔ.. `zebra-crosslink` adekorabea. Crosslink nyɛ Zcash fã nnɛ. [Crosslink protocol a wɔde di dwuma](/zcash-tech/crosslink-protocol) |
 | CrossPay | Ade bi a ɛwɔ ZODL sika kotoku no mu a ɛma wosɛe ZEC a wɔabɔ ho ban bere a wotua nea ogye no wɔ agyapade ne nkɔnsɔnkɔnsɔn a wɔpɛ mu, a wɔde fa NEAR Intents so sen sɛ wɔde bɛsesa wɔ mfinimfini. |
 | Cypherpunk Zero | Adebɔ Amansan ne mmɔdenbɔ a wɔbom yɛ wɔ ECC, mfoniniyɛfo Stranger Wolf, Mighty Jaxx ne abɔde a nkwa wom ho ahokafo a wɔapaw wɔn ntam. [Cypherpunk Zero Asetra mu Nsɛm](https://x.com/cypherpunkZero) / [OpenSea Nneɛma a Wɔaboaboa Ano](https://opensea.io/collection/cypherpunk-zero) |
@@ -42,7 +42,7 @@ Nsɛmfua nkyerɛaseɛ a ɛkɔ akyiri a ɛfa nsɛmfua titire, nsusuiɛ, ne nneɛm
 | Asɛmfua | Nkyerɛaseɛ |
 |------|-----------|
 | DeFi | Nnwuma a ɛde ZEC ne DeFi bɛka abom: [Maya Protocol](https://www.mayaprotocol.com/ecosystem#user-interfaces/) / [NEAR Intents](https://near-intents.org/) / [ZenRock](https://app.zenrocklabs.io/) / [ShapeShift](https://app.shapeshift.com/) / [LeoDex](https://leodex.io/) / [THORSwap](https://app.thorswap.finance/) |
-| Deshielding | Ɛkyerɛ asɛm bi a wɔde fi zaddr (address a wɔabɔ ho ban) so kɔ taddr (address a ɛda adi pefee) so. Mfiase a asɛm no fi ase no nyɛ nea wotumi hu nanso sika no hyɛn bo a ɛsom a ɔmanfo hu mu. |
+| Deshielding | Ɛkyerɛ asɛm bi a wɔde fi zaddr (address a wɔabɔ ho ban) so kɔ taddr (address a ɛda adi pefee) so. Mfiase a asɛm no fi ase no ntumi nhu nanso sika no hyɛn bo a ɛsom a ɔmanfo hu mu. |
 | Developer Resources | [Nneɛma a Wɔde Yɛ Nneɛma](https://www.zcashcommunity.com/developers/) |
 | Documentation | [Ɔmanfoɔ Nwoma](https://zcash.readthedocs.io/en/latest/) |
 
@@ -131,7 +131,7 @@ Nsɛmfua nkyerɛaseɛ a ɛkɔ akyiri a ɛfa nsɛmfua titire, nsusuiɛ, ne nneɛm
 | Noir Wallet | Zcash browser ntrɛwmu sika kotoku a Zcash Community Grants, a wɔasi sɛ ɛde ZEC a wɔabɔ ho ban no bɛka browser application ahorow ho tẽẽ sen sɛ wɔde wɔn ho bɛto QR koodu ne nsaanodwuma so. [zknoir.com na ɛwɔ hɔ](https://www.zknoir.com/) |
 | NU5 | 6th Major Network Upgrade ma Zcash, a ɛde Orchard shielded pool ne Unified Addresses ba. [Nsɛm pii](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#nu5) |
 | NU6 | 7th Major Network Upgrade for Zcash, a ɛyɛ nsakraeɛ wɔ block subsidy no mu de tua Zcash Community Grants nhyehyɛeɛ ne Deferred Dev Fund Lockbox no ho ka. Wɔde yɛɛ adwuma wɔ afe 2024 awiei. [Nsɛm pii](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#nu6) |
-| NU7 | Network upgrade no wɔ Ironwood, wɔde sii wɔn ani so sɛ wɔbɛyɛ mainnet wɔ 5 November 2026. Per [ZIP 259 na ɛwɔ hɔ](https://zips.z.cash/zip-0259) ɛde 25-second blocks (ZIP 218), Network Sustainability Mechanism a ɛwɔ fee recycling (ZIPs 235 ne 237), ne version 4 nkitahodiɛ no awieeɛ ba, a ɛma Sprout sika no ntumi nsɛe (ZIP 2003). Ɛmfa nkitahodi nhyehyɛe foforo biara nka ho; Tachyon ne Zcash Shielded Assets nyɛ ne fã. |
+| NU7 | Network upgrade titiriw a edi hɔ wɔ Ironwood. Nneɛma a ɛfa ɔkannifoɔ no ho ne Project Tachyon's scaling adwuma, Zcash Shielded Assets, ne Network Sustainability Mechanism. |
 
 ## O
 
@@ -203,7 +203,7 @@ Nsɛmfua nkyerɛaseɛ a ɛkɔ akyiri a ɛfa nsɛmfua titire, nsusuiɛ, ne nneɛm
 
 | Asɛmfua | Nkyerɛaseɛ |
 |------|-----------|
-| Viewing Key | Kokoam safe a ɛma wutumi hwɛ address a wɔabɔ ho ban no sika a aka ne nea wɔde di dwuma ho abakɔsɛm a wuntumi mfa sika no nni dwuma. |
+| Viewing Key | Kokoam safoa a ɛma wutumi hwɛ address a wɔabɔ ho ban no sika a aka ne nea wɔde di dwuma ho abakɔsɛm a wuntumi mfa sika no nni dwuma. |
 
 ## W
 
@@ -240,7 +240,7 @@ Nsɛmfua nkyerɛaseɛ a ɛkɔ akyiri a ɛfa nsɛmfua titire, nsusuiɛ, ne nneɛm
 | Zebra | Node a edi mũ a ɛhyɛ zcashd, a Zcash Foundation. Run no sɛ wuhia validating node a. [Zebra a ɛyɛ node a ɛyɛ ma](/zcash-tech/zebra-full-node) |
 | zcashd | Mfitiaseɛ Zcash full node ne wallet, seesei wɔakɔ pɛnhyen. Version 6.20.0 too ne ho mu wɔ block 3417100 wɔ 18 July 2026 na ɛnboa NU6.3. Tu mmirika Z3 stack anaa Zakura mmom. [Akwankyerɛ a ɛfa atutra ho](/guides/migration-guide-zcashd-to-zebrad-zallet) |
 | ZIP | Zcash Nkɔsoɔ Ho Nsusuiɛ - mpɔtam nnisoɔ nhyehyɛeɛ a wɔde di dwuma de hyɛ nyansa na wɔgye tom sɛ wɔbɛyɛ nsakraeɛ wɔ protocol mu. [ZIP Adekorabea](https://github.com/zcash/zips) |
-| ZODL | Zcash Open Nkɔso Lab. Ahyehyɛde a ɛde ne ho a Josh Swihart ne kan Electric Coin Company mfiridwuma kuw no de sii hɔ wɔ afe 2026 mfiase bere a wogyaee adwuma esiane nniso ho akasakasa bi a wɔne Bootstrap. Ɛboaboaa bɛboro dɔla ɔpepem 25 ano wɔ aba ho sika mu wɔ Oforisuo 2026 mu na ɛhwɛ ZODL sika kotokuo a wɔsesaa ne din fii Zashi wɔ Ɔpɛpɔn 2026 mu no so. [zodl.com na ɛwɔ hɔ](https://zodl.com) |
+| ZODL | Zcash Open Nkɔso Lab. Ahyehyɛde a ɛde ne ho a Josh Swihart ne kan Electric Coin Company mfiridwuma kuw no de sii hɔ wɔ afe 2026 mfiase bere a wogyaee adwuma esiane nniso ho akasakasa bi a wɔne Bootstrap wɔ nti. Ɛboaboaa bɛboro dɔla ɔpepem 25 ano wɔ aba ho sika mu wɔ Oforisuo 2026 mu na ɛhwɛ ZODL sika kotokuo a wɔsesaa ne din fii Zashi wɔ Ɔpɛpɔn 2026 mu no so. [zodl.com na ɛwɔ hɔ](https://zodl.com) |
 | zk-SNARKs | Zero-Knowledge Succinct Non-Interactive Arguments of Knowledge — cryptography a ɛma Zcash ahoɔden a ɛbɔ ho ban. Ɛma kwan ma wodi asɛm bi ho adanse (sɛ nhwɛso no, sika a wɔsɛe no a ɛfata) a ɛnna kokoam nsɛm biara adi. |
 | ZSA (Zcash Shielded Assets) | Tokens a ɔdefoɔ de ama a ɛdi Zcash's kokoamsɛm a wɔabɔ ho ban no agyapadeɛ, a ɛma agyapadeɛ a ɛnyɛ ZEC kɔ kokoam wɔ ntwamutam no so. Wɔakyerɛ wɔ [ZIP 226 na ɛwɔ hɔ](https://zips.z.cash/zip-0226). Ɛnyɛ NU7 ([ZIP 259 na ɛwɔ hɔ](https://zips.z.cash/zip-0259)) na enni da a wɔde bɛyɛ adwuma. |
 

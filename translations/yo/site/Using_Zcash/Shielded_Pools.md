@@ -2,57 +2,57 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Àwọn Àpò Ìye Zcash 
+# Àwọn Ìpín iye Zcash 
 
 ## TL;DR
 
-- Zcash ní **àwọn adágún iye 5** lọ́wọ́lọ́wọ́: Sprout (àtijọ́), Sapling, Orchard (ìnáwó nìkan), Ironwood, àti Transparent.
-- **Ironwood** ni adágún ààbò àkọ́kọ́ lọ́wọ́lọ́wọ́, tí a ti gbé kalẹ̀ láti ìgbà tí a ti ṣe àtúnṣe NU6.3 ní ọjọ́ kejìdínlọ́gbọ̀n oṣù Keje ọdún 2026.
-- **Orchard** ti di **inawo-nikan** bayi: ko si iye tuntun ti o le wọle si i, ati pe awọn owo ti o wa tẹlẹ n lọ si Ironwood.
-- **Sapling** (àwọn àdírẹ́sì z tí ó bẹ̀rẹ̀ pẹ̀lú `zs`) ṣì ń tẹ̀síwájú láti gba àtìlẹ́yìn fún gbogbo ènìyàn, ó sì ń tẹ̀síwájú láti rí iye ZEC.
-- **Àdírẹ́sì tí ó ṣe kedere** (t...) kò fúnni ní ìpamọ́ ìṣòwò kankan, wọ́n sì ń ṣiṣẹ́ gẹ́gẹ́ bí Bitcoin.
-- **Sprout** jẹ́ adágún tí a fi ààbò pamọ́ fún ìgbà pípẹ́ tí a ti yọ kúrò nínú lílo rẹ̀.
-- Ìṣíkiri Orchard sí Ironwood ti ń lọ lọ́wọ́**, wọ́n sì ń ṣe àyẹ̀wò rẹ̀ ní gbangba nípasẹ̀ turnstile.
-- Fún ìdánilójú ìpamọ́ tó lágbára jùlọ, àwọn olùlò gbọ́dọ̀ máa tẹ̀síwájú láti fẹ́ràn àwọn ìṣòwò **àbò-sí-àbò-sí (z → z)** nígbàkúgbà tó bá ṣeé ṣe.
+- Zcash ní báyìí ni àwọn ìsọ̀rí iye tí ó tó márùn-ún: Sprout (àjogúnbá), Sapling, Orchard (ìṣòro owó nìkan), Ironwood àti Transparent.
+- **Ironwood** ni adágún tí ó wà ní ìpamọ́, tó ti ń ṣiṣẹ láti ìgbà àtúnṣe NU6.3 lọ́jọ́ 28 July 2026.
+- Orchard ti di ohun tí a ń náwó sí báyìí: kò si iye tuntun tó lè wọlé, àti owó to wà nísinsin yìí yóò ṣí lọ sínú Ironwood.
+- **Sapling** (àwọn adirẹsi z tí ó bẹ̀rẹ̀ pẹlú: `zs`) ṣì ní ìtìlẹyìn tó gbòòrò, ó sì ń bá a lọ láti rí i pé àwọn ZEC tí wọ́n fi ààbò bo wà nínú iye kan.
+- Àwọn àdírẹ́sì tí ó ṣe kedere (t...) kì í pèsè ìpamọ̀ fún àwọn ìdánwò, wọ́n sì ń ṣiṣẹ́ bíi ti Bitcoin.
+- **Sprout** jẹ adágún omi tí a fi ààbò ṣe, èyí ti wọn kò lò mọ́.
+- Ìlọsípò láti Orchard sí Ironwood ti ń lọ lọ́wọ́ báyìí, a sì ṣe àgbéyẹ̀wò rẹ ní gbangba nípa lílo ilé ìyípadà.
+- Fun awọn iṣeduro aṣiri ti o lagbara julọ, awọn olumulo yẹ ki o tẹsiwaju lati fẹ ** shielded-to-shielded (z → z)** iṣowo nigbakugba ti o ba ṣeeṣe.
 
 
 <br/>
 
-## Lílóye Àwọn Adagun Iye Zcash
+## Mọ Awọn Apapo Iye Zcash
 
-Zcash pín owó sí àwọn ètò ìṣirò pàtó tí a mọ̀ sí àwọn adágún iye. Adágún kọ̀ọ̀kan ní àwọn òfin ìkọ̀kọ̀ àti àwọn ohun ìní ìpamọ́ tirẹ̀, nígbà tí ìlànà náà ń tọ́pasẹ̀ iye gbogbo tí ń lọ láàárín wọn.
+Zcash pín owó sí àwọn ètò ìsòwò tí ó yàtọ̀, èyí tí a mọ bí àpò iye. Àpótí kọ̀ọ̀kan ní ìlànà ìdánimọ́ àti ohun-ìní àṣírí tirẹ̀, nígbà ti àdéhùn náà ń tọpinpin gbogbo iye tó nlọ láàrin wọn.
 
-Loni, nẹtiwọọki naa ni awọn adagun iye akọkọ marun:
+Loni, nẹtiwọọki naa ni awọn adagun iye pataki marun:
 
-- Sísọ̀rọ̀ — Gbangba ati pe o han gbangba lori ẹ̀wọ̀n.
-- Sapling — Adagun adágún ìgbàlódé tí a kọ́kọ́ gbà ní gbogbogbòò, tí ó ṣì ń ṣiṣẹ́.
-- Orchard — Adagun adágún ààbò àkọ́kọ́ tẹ́lẹ̀, tí a ń náwó nìkan báyìí.
-- Ironwood — Adagun adágún ààbò àkọ́kọ́ lọ́wọ́lọ́wọ́, tí NU6.3.
-- Sprout — Adágún adágún ààbò àtilẹ̀wá náà bẹ̀rẹ̀ pẹ̀lú Zcash ní ọdún 2016.
+- Transparent  Public ati ki o ni kikun han lori-ṣaja.
+- Sapling  Ìsun omi tí a fi ọ̀pá ààbò ṣe, èyí tó kọ́kọ́ gbajúmọ̀ lóde òní. Ó ṣì wà títí dòní olónìí.
+- Orchard  Èbúté tí a fi ààbò bo ni àkọ́kọ́, ní báyìí ìnáwó nìkan ló wà.
+- Ironwood  Omi-omi akọkọ ti o ni aabo lọwọlọwọ, eyiti a ṣe nipasẹ NU6.3.
+- Sprout  Ìkójọ ìpamọ́ tí ó jẹ́ ti àkọkọ ni a ṣe pẹ̀lú Zcash ní 2016.
   
 
 
-Bí Zcash ṣe ń yípadà, a lè ṣe àgbékalẹ̀ àwọn adágún tuntun tí a dáàbò bò láti mú ààbò, ìpamọ́, lílò, àti ṣíṣe àyẹ̀wò sunwọ̀n síi nígbàtí a bá ń mú ìbáramu pẹ̀lú owó tí ó wà tẹ́lẹ̀.
+Bi Zcash ṣe n dagbasoke, awọn adagun-odo tuntun ti o ni aabo le ṣee ṣafihan lati mu ilọsiwaju ailewu, asiri, lilo ati iṣayẹwo pọ si lakoko mimu ibaramu pẹlu awọn owo to wa tẹlẹ.
 
 <br/>
 
 ![img1](/content-images/4ba8cca2-cea5-42d2-8ec2-2122b26f5144-9db37e245e.webp)
-Àwòrán 1: Àtẹ àwòrán tó fi àwọn adágún mẹ́ta tó ní ààbò hàn (Sprout, Sapling àti Orchard) títí di ọjọ́ 29 oṣù kẹwàá ọdún 2025, kí Ironwood tó ṣiṣẹ́
+Àwòrán 1: Ìtòlẹ́sẹẹsẹ tó fi àwọn adágún ìpamọ́ mẹ́ta (Sprout, Sapling àti Orchard) hàn títí di 29 October, 2025, kí Ironwood tó bẹ̀rẹ̀ sí í ṣiṣẹ́
 
 <br/>
 
-## Àwọn Adágún Tí A Dáàbò Bo 
+## Àwọn Ibi Ìwẹ̀ Tí Wọ́n Fi Ń Dáàbò Bo Ara Wọn 
 
 
 1. <h3 id="ironwood" class="text-3xl font-bold my-4">Ironwood Pool</h3>
 
-Ironwood ni adágún ààbò àkọ́kọ́ lọ́wọ́lọ́wọ́. Ó ṣiṣẹ́ ní ọjọ́ kejìdínlọ́gbọ̀n oṣù Keje ọdún 2026 ní block 3,428,143 gẹ́gẹ́ bí apá kan nínú àtúnṣe nẹ́tíwọ́ọ̀kì NU6.3, ó sì wà níbi tí ìníyelórí ààbò tuntun wà báyìí.
+Ironwood ni adágún tí ó wà ní ìpamọ́ lákòókò yìí. Ó ti ṣiṣẹ̀ lọ́jọ́ 28 July 2026 ní block 3,428,143 gẹ́gẹ́ bí apá kan nínú àtúnṣe sí ẹ̀ka-ìpínlẹ̀ NU6.3, ibí sì ni iye tuntun tó ń gbé báyìí.
 
-Ó wà nítorí pé wọ́n rí àìlera kan nínú ètò ìdánilójú Orchard's ní oṣù karùn-ún ọdún 2026. Kò sí ẹ̀rí pé wọ́n ti lò ó rí, ṣùgbọ́n àbùkù náà túmọ̀ sí pé a kò le fi ẹ̀rí ìdánilójú náà hàn pé ó dára. Dípò kí wọ́n fi àtúnṣe sí ipò wọn, nẹ́tíwọ́ọ̀kì náà ṣẹ̀dá adágún tuntun kan pẹ̀lú àyíká tí a ti ṣàtúnṣe, ó sì gbé iye rẹ̀ kọjá ibi tí a ti ń yí i padà tí ó ka gbogbo owó ní gbangba. Ìṣirò yẹn ni ó ń mú ìdánilójú padà pé a ti fi àtìlẹ́yìn gbogbo rẹ̀ sílẹ̀.
+It exists because a vulnerability was found in Orchard's proving system in May 2026. There is no evidence it was ever exploited, but the flaw meant the shielded supply could not be proven sound by the proofs alone. Rather than patch in place, the network created a fresh pool with a corrected circuit and moved value across a turnstile that counts every coin in public. That accounting is what restores the guarantee that the shielded supply is fully backed.
 
-Ironwood tún lo àwòṣe Ìṣe Orchard's àti àwọn ẹ̀rí Halo 2, nítorí náà ó ń hùwà lọ́nà kan náà lójoojúmọ́. Àwọn nǹkan méjì jẹ́ tuntun: àwọn ìṣòwò ń lo ìrísí v6, àti àwọn àkọsílẹ̀ Ironwood jẹ́ **quantum-recovered** lábẹ́ [ZIP 2005](https://zips.z.cash/zip-2005), èyí tí ó túmọ̀ sí wípé àkọsílẹ̀ owó kan wà lórí ẹ̀wọ̀n tí ó lè padà sípò tí kọ̀ǹpútà quantum kan bá bàjẹ́ ìkọ̀kọ̀ òde òní. Ọ̀nà ìgbàpadà ni ìyẹn, kìí ṣe ìdènà quantum, kò sì kan àwọn adágún àtijọ́.
+Ironwood reuses Orchard ká Action awoṣe ati Halo 2 proofs, ki o si ma ṣe awọn kanna ona lati ọjọ. meji ohun ni titun: owo lo v6 kika, ati ironwood akọsilẹ ti wa ni ** quantum-recoverable** labẹ [ZIP 2005 Ìpínlẹ̀ Ọsirélíà](https://zips.z.cash/zip-2005), èyí túmọ̀ sí pé àkọsílẹ̀ owó orí ẹyọ kan yóò wà ní títún rí i padà bí kọ́ǹpútà kọnúmátì ọjọ́ iwájú bá fọ ìlànà ìkọwéránṣẹ́ òde òní. Ìyẹn ni ọ̀nà àtúnṣe, kì í ṣe resistance quantum, kò sì lè lò fún àwọn pólù tó ti pẹ́ jùlọ lọ.
 
-O ko nilo adiresi tuntun. Awọn adirẹsi ti a ti ṣọkan papọ awọn olugba pupọ, ati awọn apamọwọ yan adagun ti o tọ fun ọ.
+O kò nílò adirẹsi tuntun. Adirẹsii ti o ni iṣọkan ṣepọ awọn olugba pupọ, ati pe awọn apamọwọ yan apapo to tọ fun ọ.
 
 ____
 
@@ -60,17 +60,17 @@ ____
 
 
 ![img2](/content-images/a672e001-6dbc-4e76-ab31-0ed7d7d2ff72-93b5a23e5d.webp)
-Àwòrán 2: Àtẹ àwòrán tó fi adágún Orchard hàn títí di ọjọ́ kọkàndínlọ́gbọ̀n oṣù kẹwàá ọdún 2025, kí Ironwood tó ṣiṣẹ́
+Àwòrán 2: Ìtòlẹ́sẹẹsẹ tó fi adágún Orchard hàn títí di 29 October, 2025, kí Ironwood tó bẹ̀rẹ̀ sí í ṣiṣẹ́
 
 <br/>
 
-Wọ́n ṣiṣẹ́ Orchard Shielded Pool ní ọjọ́ kọkànlélọ́gbọ̀n oṣù karùn-ún ọdún 2022 gẹ́gẹ́ bí apá kan nínú àtúnṣe nẹ́tíwọ́ọ̀kì NU5. Orchard ṣe àgbékalẹ̀ ìlànà tuntun kan tí ó mú àìní fún ètò tí a gbẹ́kẹ̀lé kúrò, ó sì di adágún ààbò àkọ́kọ́ tí àwọn Unified Addresses (UAs) ń lò.
+A ṣe ifilọlẹ Orchard Shielded Pool ni Oṣu Karun ọjọ 31, Ọdun 2022 gẹgẹbi apakan ti igbesoke nẹtiwọki NU5. Orchid ṣafihan ilana aabo tuntun kan eyiti o yọkuro iwulo fun iṣeto igbẹkẹle ati di adagun idaabobo akọkọ ti a lo nipasẹ Awọn adirẹsi Iṣọkan (UA).
 
-Orchard mu ilo lilo, ṣiṣe, ati ikọkọ dara si ni pataki nipa idinku jijo metadata iṣowo ati iṣafihan awoṣe iṣowo ti o rọrun diẹ sii ti o da lori Awọn iṣe dipo awọn igbewọle ati awọn abajade ti a daabobo ibile.
+Orchard ṣe ilọsiwaju lilo, ṣiṣe ati asiri ni pataki nipa idinku idasilẹ metadata iṣowo ati ṣafihan awoṣe iṣiro ti o rọ diẹ sii da lori Awọn iṣe dipo awọn titẹsi ihamọra aṣa ati awọn abajade.
 
-Láti ìgbà tí ìgbéga Ironwood ti ṣiṣẹ́ ní ọjọ́ kejìdínlọ́gbọ̀n oṣù Keje ọdún 2026, **Orchard jẹ́ ìnáwó nìkan**. Kò sí iye tuntun tó lè wọ inú adágún náà. Owó tí wọ́n ti kó síbẹ̀ ṣì lè ná, wọ́n sì ń kó lọ sí Ironwood nípasẹ̀ ìyípo. Àwọn àpò owó ló ń bójú tó èyí fún ọ, bó tilẹ̀ jẹ́ pé ọ̀pọ̀lọ́pọ̀ ènìyàn ló ń fún ọ ní agbára láti ṣàkóso iyàrá náà. Ìgbésẹ̀ kọ̀ọ̀kan láti Orchard fi iye owó rẹ̀ hàn lórí blockchain, nítorí náà bí àpò owó ṣe ń pín sí méjì àti bí ìṣípò náà ṣe ń ṣe pàtàkì fún ìpamọ́.
+Lati igba ti igbesoke Ironwood ṣiṣẹ ni 28 Keje 2026, ** Orchard jẹ lilo-nikan. Ko si iye tuntun le wọ inu adagun naa. Awọn owo ti o wa tẹlẹ nibẹ tun le lo, ati pe wọn nlọ kiri sinu Ironwood nipasẹ awọn ọna iyipada. Wallets ṣe itọju eyi fun ọ, botilẹjẹpe ọpọlọpọ fi diẹ ninu iṣakoso lori iyara.
 
-Tí o bá ní owó Orchard, wo [Ironwood](/zcash-tech/ironwood) fún ohun tí ìṣíkiri túmọ̀ sí ní ìṣe.
+Bí o bá ní owó Orchard, wo: [Ironwood](/zcash-tech/ironwood) nítorí ohun tí ṣíṣí lọ síbòmíràn túmọ̀ sí nínú ìwà hù.
 
 ____
 
@@ -78,19 +78,19 @@ ____
 
 
 ![img3](/content-images/b1c6bb71-9356-45eb-8e4a-19d7cf1790ae-5e3051b082.webp)
-Àwòrán 3: Àtẹ àwòrán tó fi adágún Sapling hàn títí di ọjọ́ kọkàndínlọ́gbọ̀n oṣù kẹwàá ọdún 2025, kí Ironwood tó ṣiṣẹ́
+Àwòrán 3: Ìtòlẹ́sẹẹsẹ tó fi adágún Sapling hàn títí di 29 October, 2025, kí Ironwood tó bẹ̀rẹ̀ sí í ṣiṣẹ́
 
 <br/>
 
-[Zcash Sapling](https://z.cash/upgrade/sapling) jẹ́ àtúnṣe sí ìlànà Zcash tí a gbé kalẹ̀ ní ọjọ́ kejìdínlọ́gbọ̀n oṣù kẹwàá, ọdún 2018. Ó jẹ́ àtúnṣe pàtàkì ju ti ìṣáájú ti a mọ̀ sí Sprout lọ tí ó ní àwọn ààlà díẹ̀ ní ti ìpamọ́, ìṣeéṣe àti lílo. 
+[Zcash Sapling (ìyẹn ìka tí wọ́n ń pè ní)](https://z.cash/upgrade/sapling) jẹ́ àtúnṣe sí ìlànà Zcash tí a ṣe ní ọjọ́ 28 oṣù kẹwàá, ọdún 2018. Ó jé ìyípadà ńlá lórí ẹ̀dà ti tẹlẹ èyí tí ó mọ̀ bí Sprout tó ni àwọn ìdíwọ́ kan nínú ọ̀rọ̀ àṣírí ẹni, òye àti lílò. 
 
-Àwọn àtúnṣe díẹ̀ lára wọn ni iṣẹ́ tó dára jù fún àwọn àdírẹ́sì tó ní ààbò, àwọn kọ́kọ́rọ́ ìwòran tó dára jù láti jẹ́ kí àwọn olùlò wo àwọn ìṣòwò tó ń wọlé àti èyí tó ń jáde láìsí pé wọ́n ń fi àwọn kọ́kọ́rọ́ ìkọ̀kọ̀ olùlò hàn àti àwọn kọ́kọ́rọ́ Independent Zero Knowledge fún àpò ìpamọ́ ohun èlò nígbà tí wọ́n bá ń fìmọ̀ sí ìṣòwò náà. 
+Some of the upgrades include improved performance for shielded addresses, Improved viewing keys to enable users view incoming and outgoing transactions without exposing user private keys and Independent Zero Knowledge keys for hardware wallet during transaction signature. 
 
-Zcash Sapling n fun awọn olumulo laaye lati ṣe awọn iṣowo ikọkọ ni awọn iṣẹju-aaya diẹ nigbati a ba fiwera pẹlu akoko pipẹ ti o gba ni Sprout Series. 
+Zcash Sapling gba awọn olumulo laaye lati ṣe iṣowo ti ara ẹni ni iṣẹju diẹ nigbati a ba fiwe si iye akoko to gun julọ ninu Sprout Series. 
 
-Idaabobo iṣowo mu ki ikọkọ pọ si, ti o jẹ ki o ko ṣeeṣe fun awọn ẹgbẹ kẹta lati so awọn iṣowo pọ mọ ki o si pinnu iye ZEC ti a n gbe. Sapling tun mu lilo dara si nipa idinku awọn ibeere iṣiro fun ṣiṣẹda awọn iṣowo ikọkọ nipa ṣiṣe o rọrun si awọn olumulo.
+Ààbò ìsòwò ń mú kí àṣírí túbọ̀ jẹ́ àdáni, tí ó sì sọ ọ di aláìṣeé ṣe fún àwọn ẹgbẹ́ kẹta láti so ìṣàdálẹ̀ pọ̀ àti dípinnu iye ZEC ti a n gbe. Sapling tún mu ki ìlúlò sunwọ̀n sí i nípa yíyẹnu ohun àmúṣọrọ̀ kọnputa fun gbígbéṣẹ́ ìdánilẹ́kọ̀ọ́ onípamọ́ nípa sísọ rẹ̀ di èyí tó ṣeé wọlé dé lójú olùlohun-ìwífún.
 
-Àdírẹ́sì àpò ìpamọ́ Sapling bẹ̀rẹ̀ pẹ̀lú "zs" àti pé a lè rí èyí nínú gbogbo Zcash Shielded Wallet tí a ṣe àtìlẹ́yìn rẹ̀ (Zkool, Zingo Wallet, Nighthawk àti bẹ́ẹ̀ bẹ́ẹ̀ lọ) tí ó ní àdírẹ́sì Sapling tí a kọ́ sínú rẹ̀. Zcash Sapling dúró fún ìdàgbàsókè pàtàkì nínú ìmọ̀ ẹ̀rọ nígbà tí ó bá kan ìpamọ́ àti ìṣedéédé àwọn ìṣòwò tí ó mú kí Zcash jẹ́ owó ìpamọ́ tí ó wúlò tí ó sì gbéṣẹ́ fún àwọn olùlò tí wọ́n mọrírì ìpamọ́ àti ààbò.
+Sapling wallet addresses begin with "zs" and this can be observed in all supported Zcash Shielded Wallet (Zkool, Zingo Wallet, Nighthawk etc.) which has built-in Sapling addresses. Zcash Sapling represents a significant development in technology when it comes to privacy and efficiency of transactions which makes Zcash a practical and effective cryptocurrency for users who value privacy and security.
 
 ____
 
@@ -98,91 +98,91 @@ ____
 
 
 ![img4](/content-images/956eceed-f4d6-4087-99d0-32a770449dda-a3cc45305e.webp)
-Àwòrán 4: Àtẹ àwòrán tó fi adágún Sprout hàn títí di ọjọ́ kọkàndínlọ́gbọ̀n oṣù kẹwàá ọdún 2025, kí Ironwood tó ṣiṣẹ́
+Àwòrán 4: Ìtòlẹ́sẹẹsẹ tó fi adágún Sprout hàn títí di 29 October, 2025, kí Ironwood tó bẹ̀rẹ̀ sí í ṣiṣẹ́
 
-Sprout ni ilana ikọkọ Zero Knowledge akọkọ ti a ṣe ifilọlẹ laisi aṣẹ. A ṣe ifilọlẹ rẹ ni ọjọ 28 Oṣu Kẹwa, ọdun 2016.
+Sprout ni àkọ́kọ́ nínú àwọn ìlànà ìpamọ̀ tí kò ní àṣẹ, Zero Knowledge. Ó ti bẹ̀rẹ̀ láti 28 October 2016.
 
-A máa ń fi àwọn lẹ́tà méjì àkọ́kọ́ wọn dá àwọn àdírẹ́sì Sprout, èyí tí ó máa ń jẹ́ “zc”. Wọ́n pe orúkọ rẹ̀ ní "Sprout" fún ète pàtàkì láti fi hàn pé software náà ṣẹ̀ṣẹ̀ bẹ̀rẹ̀, blockchain tó ń gbilẹ̀ pẹ̀lú agbára ńlá láti dàgbàsókè àti láti ṣí sílẹ̀ fún ìdàgbàsókè. 
+Awọn adirẹsi Sprout ni a mọ nipasẹ awọn lẹta meji akọkọ wọn eyiti o jẹ "zc" nigbagbogbo. O ti pe orukọ rẹ ni "Sprout" fun idi pataki lati tẹnumọ pe sọfitiwia naa jẹ ọdọ, blockchain budding pẹlu agbara nla lati dagba ati ṣiṣi silẹ fun idagbasoke. 
 
-A lo Sprout gẹ́gẹ́ bí ohun èlò ìṣáájú fún [Ibere iwakusa lọra Zcash](https://electriccoin.co/blog/slow-start-and-mining-ecosystem/) èyí tí ó mú kí àwọn olùgbé-ìṣẹ́-orí ilẹ̀ ayé pínpín àwọn ẹ̀bùn ZEC àti Block fún àwọn olùgbé-ìṣẹ́-orí ilẹ̀ ayé. 
+A lo Sprout gẹ́gẹ́ bí ohun èlò ìṣáájú fún [Zcash ìbẹ̀rẹ̀ díẹ̀ Mining](https://electriccoin.co/blog/slow-start-and-mining-ecosystem/) èyí tí ó mú kí ìfúnni ZEC àti èrè Block fún àwọn Miners. 
 
-Bí ètò ìṣẹ̀dá Zcash ṣe ń tẹ̀síwájú láti gbòòrò sí i pẹ̀lú iye àwọn ìṣòwò tí a dáàbò bò, a ṣàkíyèsí pé Zcash Sprout Series di díẹ̀ àti pé kò ṣiṣẹ́ dáadáa mọ́ nígbà tí ó bá kan ìpamọ́ olùlò, ìtóbi ìṣòwò àti ìṣiṣẹ́. Èyí yọrí sí àtúnṣe sí nẹ́tíwọ́ọ̀kì àti Sapling Upgrade. 
+Bi eto ilolupo Zcash ti n tẹsiwaju lati faagun pẹlu nọmba awọn iṣowo ideri, o ṣe akiyesi pe jara Sprout Series di opin ati ṣiṣe to kere si nigbati o ba de asiri olumulo, iṣiro owo-owo ati sisẹ. Eyi yori si atunṣe ti nẹtiwọọki ati Sapling Upgrade . 
 
 ---
 5. <h3 id="transparent" class="text-3xl font-bold my-4">Transparent Pool</h3>
 <br/>
 
 ![img5](/content-images/01de2907-b62d-4421-83d7-ea4908faa828-6f74b724ed.webp)
-Àwòrán 5: Àtẹ àwòrán tó fi adágún tó ń tànmọ́lẹ̀ hàn títí di ọjọ́ kọkàndínlọ́gbọ̀n oṣù kẹwàá ọdún 2025, kí Ironwood tó ṣiṣẹ́
+Àwòrán 5: Ìtòlẹ́sẹẹsẹ tó fi adágún Transparent hàn títí di 29 October, 2025, kí Ironwood tó bẹ̀rẹ̀ sí í ṣiṣẹ́
 
 <br/>
 
-Adágún Zcash Transparent kò ní ààbò kankan, kì í sì í ṣe ti ara ẹni. Àdírẹ́sì àpò owó tó hàn gbangba lórí Zcash bẹ̀rẹ̀ pẹ̀lú lẹ́tà "t", ìpamọ́ kò pọ̀ rárá ní lílo irú àdírẹ́sì yìí fún ìṣòwò.
+Àdírẹ́sì àpò owó tí ó ní ìmójútó lórí Zcash bẹ̀rẹ̀ pẹ̀lú lẹta "t", ìdánimọ̀ jẹ díẹ̀ nínú lílo irú àdíréìsì yìí fún àwọn ìṣàmúlò.
 
-Àwọn ìṣòwò tí ó hàn gbangba ní Zcash jọra sí àwọn ìṣòwò Bitcoin tí ó ń ṣe àtìlẹ́yìn fún àwọn ìṣòwò oní-ọ̀pọ̀lọpọ̀ àti láti lo àwọn àdírẹ́sì gbogbogbòò déédéé.
+Transparent transactions in Zcash are similar to Bitcoin transactions which supports multi-signature transactions and make use of standard public addresses.
 
-Àwọn pàṣípààrọ̀ àárín gbùngbùn ló sábà máa ń lo Zcash Transparent láti rí i dájú pé àwọn ènìyàn mọ̀ dáadáa àti pé wọ́n ń fi ZEC ránṣẹ́ sí àwọn olùlò.
+Awọn Zcash Transparent ni o wa julọ lo nipa centralized paṣipaarọ lati rii daju nibẹ ti jẹ ga transparency ati nẹtiwọki ijẹrisi nigba fifiranṣẹ ki o si gbigba ZEC laarin awọn olumulo.
 
-Ó tún ṣe pàtàkì láti kíyèsí pé bó tilẹ̀ jẹ́ pé àwọn àdírẹ́sì Zcash Shielded pèsè ìpamọ́ gíga nígbà tí wọ́n bá ń ṣe àwọn iṣẹ́, wọ́n tún nílò àwọn ohun èlò ìṣirò púpọ̀ sí i láti ṣe àwọn iṣẹ́ náà. Nítorí náà, àwọn olùlò kan lè lo àdírẹ́sì tí kò nílò ìpele ìpamọ́ kan náà.
-
-<br/>
-
-## Ìdánilẹ́kọ̀ọ́ Ìgbésẹ̀ Adágún tí a ṣeduro
-
-Nígbà tí ó bá kan gbígbé ìpamọ́ gíga yẹ̀wò nígbà tí a bá ń ṣe ìṣòwò lórí Zcash Network, a gbà ọ́ nímọ̀ràn láti tẹ̀lé àwọn ìlànà wọ̀nyí;
-
-Iṣowo ti o waye laarin awọn apamọwọ "z si z" lori blockchain Zcash ni a maa n daabobo pupọ julọ ati pe a ma n pe ni Iṣowo Aladani nitori ipele giga ti Aṣiri ti a ṣẹda. Eyi nigbagbogbo jẹ ọna ti o dara julọ ati ti a ṣeduro julọ lati firanṣẹ ati gba $ZEC nigbati a ba nilo aṣiri. 
-
----
-
-Nígbà tí o bá fi ZEC ránṣẹ́ láti "àdírẹ́sì Z" sí "àdírẹ́sì T", ó kàn túmọ̀ sí irú ìṣòwò Deshielding kan. Nínú irú ìṣòwò yìí, ìpele ìpamọ́ kì í sábà ga nítorí pé àwọn ìwífún kan yóò hàn lórí blockchain nítorí ipa tí fífi ZEC ránṣẹ́ sí Àdírẹ́sì Tí Ó Ṣe kedere. A kò gbani nímọ̀ràn ìṣòwò Deshielding nígbà gbogbo tí a bá nílò ìpamọ́ gíga. 
-
----
-
-Gbígbé ZEC láti Àdírẹ́sì T (Àdírẹ́sì T) sí Àdírẹ́sì Z ni a mọ̀ sí Shielding. Nínú irú ìṣòwò yìí, ìpele ìpamọ́ kì í sábà ga ní ìfiwéra pẹ̀lú ìṣòwò zz ṣùgbọ́n a tún gbà á nímọ̀ràn nígbà tí a bá nílò ìpamọ́. 
-
----
-
-Fífi ZEC ranṣẹ́ láti Àdírẹ́sì Àṣírí (Àdírẹ́sì T) sí Àdírẹ́sì Àṣírí mìíràn (Àdírẹ́sì T) lórí Zcash Network (Ìṣòwò TT) jọ ti ìṣòwò Bitcoin gan-an, ìdí nìyí tí wọ́n fi máa ń pe ìṣòwò TT lórí Zcash ní ìṣòwò gbogbogbòò nítorí pé àwọn àlàyé ìṣòwò olùránṣẹ́ àti olùgbà á hàn gbangba fún gbogbo ènìyàn, èyí sì mú kí ìpele Ìpamọ́ kéré gan-an nínú ìṣòwò bẹ́ẹ̀. 
-
-Ọ̀pọ̀lọpọ̀ àwọn pàṣípààrọ̀ owó aládàáni máa ń lo Àdírẹ́sì Àtúnṣe (“Àdírẹ́sì T”) nígbà tí ó bá kan ṣíṣe àdéhùn lórí ẹ̀rọ Zcash blockchain ṣùgbọ́n irú ìṣòwò yìí (TT) kò ní ní àwọn ohun ìní ìkọ̀kọ̀ kankan.
+It's also important to note that while Zcash Shielded addresses provides high privacy during transactions, they also require more computational resources to process transactions. Therefore, some users may adopt Transparent addresses for transactions which doesn't require the same level of privacy.
 
 <br/>
 
-## Ìṣíkiri Orchard sí Ironwood
+## Ìlànà tí a dámọ̀ràn fún ìmúpòsíwájú nínú àwọn ẹgbẹ́-ìpínwó.
 
-Ìṣípò náà ń lọ lọ́wọ́lọ́wọ́ báyìí. Orchard ti di àwọn ibi ìdókòwò tuntun mú, iye tí ó sì wà níbẹ̀ sì ń lọ sí Ironwood ní àkókò kan. O lè wo iye owó náà ní [irin igi.laaye](https://ironwood.live/).
+Nígbà tí ó bá di wíwo ìpamọ́ gíga nígbà ìṣòwò lórí Àjọ Zcash, a dábàá pé kí o tẹ̀lé àwọn ìlànà tó wà nísàlẹ;
 
-Ohun ti eyi tumọ si da lori ibi ti awọn owo rẹ wa:
-
-1. **Iṣẹ́ tuntun tí a dáàbò bo** máa ń wọ inú Ironwood láìfọwọ́ṣe. Kò sí ohun tí a lè ṣe.
-2. **Owó Orchard tó wà** gbọ́dọ̀ ṣí lọ síbòmíràn. Àwọn àpò tí a ti tọ́jú máa ń ṣe èyí fún ọ, nígbà gbogbo ní ìpele-ìpele dípò gbogbo rẹ̀ lẹ́ẹ̀kan náà.
-3. **Sapling kò ní ipa kankan lórí** ó sì ń gba owó lọ́wọ́ wọn. Orchard nìkan ni wọ́n fi èdìdì dì.
-4. **Ìdìpọ̀ náà ka gbogbo nǹkan** tí ó kọjá láàárín àwọn adágún omi, èyí tí ó fi hàn pé kò sí owó kankan tí a ṣe ní ọ̀nà.
-
-> **Ìkìlọ̀ ìpamọ́ kan tó yẹ kí a mọ̀.** Ìdìpọ̀ ìyípadà náà ń tẹ iye *tí ó kọjá láàrín àwọn adágún, pẹ̀lú gíga bulọ́ọ̀kì náà jáde. Olùránṣẹ́ àti olùgbà náà máa ń fara pamọ́ gẹ́gẹ́ bí ó ti máa ń rí, ṣùgbọ́n iye pàtó kan lè so mọ́ ọ. Ìdí nìyí tí àwọn àpò owó fi ń ṣí lọ ní ìpele-ìpele nípa lílo àwọn owó tí ó wà ní ìpele dípò gbígbé ìwọ̀n rẹ sí ìpele kan tí a lè mọ̀. Jẹ́ kí àpò owó rẹ yára, kí o sì ronú nípa lílo Tor tàbí VPN kí IP rẹ má baà so mọ́ iye tí o ń kó.
-
-Wo [Ironwood](/zcash-tech/ironwood) fun igbesoke funrararẹ, ati [Ìyípadà náà](/zcash-tech/the-turnstile) fún bí ìṣirò owó ṣe ń ṣiṣẹ́.
-
-<br/>
-
-## Àṣìṣe Tó Wà Lára Láti Yẹra Fún
-
-- **Fifiranṣẹ lati adirẹsi t si adirẹsi t** — gbogbo eniyan ni gbangba patapata, ko si ikọkọ. Maa daabobo owo ni akọkọ.
-- **Mo gbà pé Orchard ṣì ń gba owó** — ó ti jẹ́ ìnáwó-láti ọjọ́ kejìdínlọ́gbọ̀n oṣù keje ọdún 2026. Iye owó lè lọ, ṣùgbọ́n kò sí ohun tuntun tó ń wọlé
-- **Sapling àti Àdírẹ́sì Ìṣọ̀kan** — Àdírẹ́sì Sapling bẹ̀rẹ̀ pẹ̀lú `zs`Àwọn àdírẹ́sì ìṣọ̀kan bẹ̀rẹ̀ pẹ̀lú `u1` kí o sì kó àwọn olugba púpọ̀ jọ, kí adágún ìsanwó rẹ lè dé orí àwọn olugba tí ó ní àdírẹ́sì náà
-- **Fi owó sílẹ̀ nínú adágún Sprout** — Wọ́n ti pa Sprout run fún ọ̀pọ̀ ọdún; gbé àwọn owó wọ̀nyẹn jáde
-- **Mo n reti pe iṣipopada yoo ma han patapata** — iye ti o kọja tile naa jẹ ti gbogbo eniyan, botilẹjẹpe oluranṣẹ ati olugba ko ṣe bẹẹ
-- **Bí a bá gbà pé t → z (àbò) jẹ́ àdáni pátápátá** — ìṣe ààbò fúnra rẹ̀ hàn lórí ẹ̀wọ̀n; àwọn ohun tí ó wà nínú rẹ̀ kò hàn gbangba
+Awọn iṣowo ti o waye laarin awọn apamọwọ "z si z" lori blockchain Zcash ni a ṣe aabo pupọ ati pe nigbakan wọn npe ni Iṣowo Ikọkọ nitori ipele giga ti Asiri. Eyi jẹ igbagbogbo ọna ti o dara julọ ati ọna iṣeduro lati firanṣẹ ati gbigba $ZEC nigbati aṣiri ba nilo. 
 
 ---
 
-## Àwọn ojú ìwé tó jọra
+Nigba ti o ba firanṣẹ ZEC lati "Z-adiresi" si "T-address", o kan nfihan iru iṣowo Deshielding. Ni iru idunadura yii, ipele aṣiri ko ga nigbagbogbo bi diẹ ninu alaye yoo han lori blockchain nitori ipa fifiranṣẹ ZCE ni Adirẹsi Transparent . A ko ṣe iṣeduro adehun deshielded nigbati a nilo asiri giga. 
 
-- [Ironwood](/zcash-tech/ironwood) — Ìmúdàgbàsókè tó ṣẹ̀dá adágún tó wà lọ́wọ́lọ́wọ́
-- [Ìyípadà náà](/zcash-tech/the-turnstile) — Báwo ni a ṣe ń ṣe àyẹ̀wò iye tí a ń gbé láàárín àwọn adágún
-- [Àwọn Àpò Ìpamọ́](/using-zcash/wallets) — Àwọn àpò wo ni a ń tọ́jú àti àwọn tí a ti ṣetán láti fi ṣe Ironwood
-- [Awọn iṣowo](/using-zcash/transactions) — Bii a ṣe le firanṣẹ awọn iṣowo aabo
-- [Rira ZEC](/using-zcash/buying-zec) — Rírà ZEC kí o tó lò ó nínú àwọn adágún omi
-- [zk-SNARKs](/zcash-tech/zk-snarks) — Ìpìlẹ̀ ìṣàfihàn àwọn adágún tí a dáàbò bò
-- [Kí ni ZEC àti Zcash](/start-here/what-is-zec-and-zcash) — Ipilẹ lori ikọkọ Zcash
+---
+
+Gbigbe ZEC lati Adirẹsi Transparent (T-address) si adirẹti Z ni a mọ nikan bi Shielding. Ni iru iṣowo yii ipele ti asiri ko ga nigbagbogbo nigbati o ba ṣe afiwe pẹlu eyi ti idunadura z-z ṣugbọn o tun ṣeduro nigba ti aṣiri nilo. 
+
+---
+
+Fifiranṣẹ ZEC lati Adirẹsi Transparent (T-address) si Adirẹẹsi Transparant miiran (T -Address) lori Nẹtiwọọki Zcash (iṣowo T-T) jẹ iru pupọ si ti iṣowo Bitcoin ati pe eyi ni idi ti awọn iṣiro T-t lori Zcash nigbagbogbo npe ni Awọn idunadura gbangba nitori mejeeji oluranlowo ati alaye gbigbe olugba di han fun gbogbo eniyan eyiti o mu ki ipele Asiri kekere ninu iru iṣowo bẹẹ. 
+
+Pupọ julọ Awọn paṣipaarọ Cryptocurrency ti a ṣepọ lo Adirẹsi Transparent ("T-address) nigbati o ba de si iṣowo lori blockchain Zcash ṣugbọn iru idunadura yii (T-T) kii yoo ni awọn ohun ini ikọkọ eyikeyi.
+
+<br/>
+
+## The Orchard to Ironwood Migration
+
+The migration is happening now. Orchard is sealed to new deposits, and the value still sitting there is moving into Ironwood a transaction at a time. You can watch the totals at [igi irin. gbé e yè é](https://ironwood.live/).
+
+Ohun tí èyí túmọ̀ sí sinmi lórí ibi ti owó rẹ wà:
+
+1. "Ìṣẹ̀lẹ̀ tuntun tí a fi ààbò bo" wọlé sí Ironwood lóòtọ́. Kò sóhun tó yẹ kí n ṣe.
+2. **Existing Orchard funds** need to migrate. Maintained wallets do this for you, usually in stages rather than all at once.
+3. Ìlú Sapling kò ní ìṣòro kankan, ó sì ṣì ń gba owó. Orchard nìkan ni wọ́n ti pa mọ́.
+4. **Ohun gbogbo ni ààlà ń kà** tí ó kọjá láàárín àwọn ìkùdu, èyí sì jẹ́ ẹ̀rí pé kò sí owó kankan tó ṣe é dá lójú ọ̀nà.
+
+> **One privacy caveat worth knowing.** The turnstile publishes the *amount* that crosses between pools, along with the block height. Sender and receiver stay hidden as always, but a distinctive amount can be linked back to you. This is why wallets migrate in stages using standard denominations instead of moving your balance in one recognisable lump. Let your wallet pace itself, and consider using Tor or a VPN so your IP is not tied to the amounts you move.
+
+Wo àwọn ojúewé yìí: [Ironwood](/zcash-tech/ironwood) fún ìmúbọ̀sípò náà fúnra rẹ̀, àti [Òpó Ìrísí Iṣẹ́ Ọwọ́ Náà](/zcash-tech/the-turnstile) bí ìwé ìwádìí ṣe ń ṣiṣẹ́.
+
+<br/>
+
+## Àwọn Àṣìṣe Tó Yẹ Kó O Sá fún
+
+- **Fífi ránṣẹ́ láti t-adiresi sí t-address**  gbangba pátápátá, kò ní ìpamọ́. Ẹ máa kókó fi owó pamọ́ nígbà gbogbo.
+- ** Ifá pé Orchard ṣì ń gba owó**  ó ti jẹ́ ìnáwó-kì láti 28 July 2026. Iye lè kúrò, ṣùgbọ́n kò sí nǹkan tuntun tí yóò wọlé.
+- **Ṣíṣe àdàkàdekè àwọn adirẹsi Sapling àti Unified**  Àwọn adirése Sapling máa ń bẹ̀rẹ̀ pẹlú: `zs`. Àwọn àdírẹ́sì tí ó wà ní ọ̀kan-ò-jọ̀kan bẹ̀rẹ̀ pẹlú: `u1` ati ki o apapo orisirisi olugba, ki awọn pool rẹ owo ilẹ ni pin lori eyi ti onigbọwọ wipe adirẹsi gbe
+- ** Fi owó sílẹ̀ nínú pápá ìṣeré Sprout**  A ti sọ Sprout di ohun tí kò wúlò fún ọ̀pọ̀lọpò ọdún; kó àwọn ìnáwó wọnyìí jáde.
+- **Rí pé ìyípadà kò ní hàn gbangba**  iye tó ń kọjá lórí àlàfo ni gbogbo èèyàn mọ̀, bó tilẹ̀ jẹ́ pé ẹni tí ó rán an àti ẹni tó gbà á kì í ṣe bẹ́ẹ̀.
+- **Gbigba t → z (igbohunsafẹfẹ) jẹ aṣiri patapata**  iṣe ti igbohunsifa funrararẹ ni o han lori-ṣaja; awọn akoonu ko wa
+
+---
+
+## Àwọn ojúewé tó ní í ṣe pẹ̀lú rẹ̀
+
+- [Ironwood](/zcash-tech/ironwood)  Àtúnṣe tí ó dá àgbájọ ti òde òní sílẹ̀
+- [Òpó Ìrísí Iṣẹ́ Ọwọ́ Náà](/zcash-tech/the-turnstile)  Bí a ṣe ń ṣàyẹ̀wò iye tí ó máa ń ṣí kiri láàárín àwọn àgbájọ owó náà.
+- [Àwọn àpamọ́ owó](/using-zcash/wallets)  Àwọn àpamọ́ owó wo ni a tọjú tí Ironwood sì ṣetán?
+- [Àwọn Àdéhùn Ìṣirò](/using-zcash/transactions)  Bí a ṣe ń fi àwọn ìnáwó tí ó ní ààbò ránṣẹ́
+- [Rírà ZEC](/using-zcash/buying-zec)  Gbígba ZEC kí o tó lò ó nínú àwọn àgbájọ.
+- [zk-SNARKs](/zcash-tech/zk-snarks)  Ìpilẹ̀kọ́ ìdìbò àwọn àgbá tí a fi ọṣọ bojú
+- [Kí ni ZEC àti Zcash?](/start-here/what-is-zec-and-zcash)  Ìtàn nípa ìpamọ́ Zcash

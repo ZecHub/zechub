@@ -46,7 +46,7 @@ Saa pon yi kyerɛkyerɛ protocol no mu sɛnea ɛretu mmirika mprempren, tia ɔto
 | Agyapadeɛ | Tia quantum ntuafo nnɛ | Nea Ironwood sesae |
 |---|---|---|
 | Kokoamusɛm | Kura sɛ ɔtowhyɛfo no nnim wo address a wɔabɔ ho ban no a. Adanse ne nsaano nkyerɛwee a wɔasan ayɛ no foforo biara ntumi nkɔ. Sɛ ɔtowhyɛfo no nim address no ampa a, wobetumi decrypt nsɛm a wɔde amena no, a dedaw a wɔakora so afi nkɔnsɔnkɔnsɔn no mu ka ho. | Hwee. ZIP 2005: "Tebea a ɛfa Privacy ho no nsakrae mma pool biara." |
-| Sika a wɔsɛe no | Ɛnyɛ nea wɔabɔ ho ban. Obi a ɔtow hyɛ nkurɔfo so betumi ayɛ adanse atoro anaasɛ wasɛe nsaano nkyerɛwee na wawia ade afi ɔtare biara a wɔabɔ ho ban mu, wɔ address ahorow a wonhuu bi da mpo ho. | Biribiara nni hɔ de besi nnɛ. Ahobanbɔ no ba bere a woadan daakye akɔ Recovery Protocol no so akyi nkutoo. |
+| Sika a wɔsɛe no | Ɛnyɛ nea wɔabɔ ho ban. Obi a ɔtow hyɛ nkurɔfo so betumi ayɛ adanse atoro anaasɛ wasɛe nsaano nkyerɛwee na wawia ade afi ɔtare biara a wɔabɔ ho ban mu, wɔ address ahorow a wonhuu bi da mpo ho. | Biribiara nni hɔ de besi nnɛ. Ahobanbɔ no ba bere a woadan daakye akɔ Recovery Protocol no so nkutoo. |
 | Nneɛma boɔ sorokɔ | Ɛnyɛ nea wɔabɔ ho ban. Obi a ɔtow hyɛ nkurɔfo so betumi ayɛ adanse a ɛte sɛ nea ɛfata na wayɛ ZEC wɔ ɔtare biara a wɔabɔ ho ban mu, ebia obiara renhu. Anohyeto biako pɛ ne.. [turnstile a wɔde dannan nneɛma](/zcash-tech/the-turnstile): ɔtare biara ntumi ntua sika a ɛboro ne sika a wɔakyerɛw ato hɔ no so. | Biribiara nni hɔ de besi nnɛ. Ironwood nsɛm a wɔakyerɛw mprempren de wɔn ho ahyɛ wɔn mu nsɛm nyinaa mu wɔ ɔkwan bi so a ɛnsɛ sɛ quantum ntuafo tumi yɛ atoro, a ɛno ne nea daakye Recovery Protocol hia na ama nneɛma a wɔde ma no akɔ so ayɛ nea ɛfata. |
 | Pɛ deɛ ayera | Sprout, Sapling ne Orchard nsɛm a wɔakyerɛw no nni ɔkwan biara a wɔfa so san nya ahoɔden. Sɛ wodum wɔn protocol ahorow no wie a, biribiara a aka wɔ wɔn mu no bɛyɛ nea wontumi nkɔ hɔ. | Ironwood krataa biara yɛ nea wobetumi asan anya wɔ nnyinasosɛm mu. Sapling anaa Orchard nkyerɛwde biara nni hɔ a ɛte saa. |
 
@@ -58,12 +58,12 @@ Transparent ZEC yɛ asɛm a ɛyɛ soronko. Wobetumi ayɛ ne ECDSA nsaano nkyerɛ
 
 Ironwood yɛ NU6.3 ntwamutam a wɔayɛ no foforo. Ɛyɛɛ adwuma wɔ Mainnet so wɔ block 3,428,143 wɔ 28 July 2026. N’atirimpɔw titiriw ne supply integrity wɔ Orchard soundness bug no akyi (hwɛ [Ironwood](/zcash-tech/ironwood) kratafa), ne quantum recoverability a efi ZIP 2005 a wɔde menae sɛ ne fã.
 
-- **Nkyerɛwde foforo.** Ironwood output note biara de quantum-recoverable format (hyɛ no nsow plaintext lead byte `0x03`). Mprempren wonya nkyerɛwde no randomness fi ne fields nyinaa mu, enti wɔde hash kyekyere note no wɔ emu nsɛm no ho sen sɛ wɔde elliptic-curve math nkutoo bɛkyekyere no.
-- **Ɔkwan a wɔfa so san nya Ironwood nkyerɛwde nkutoo.** ZIP 326 da no adi pefee sɛ Ironwood nkyerɛwde biara yɛ nea wobetumi asan anya na Orchard nkyerɛwde biara nni hɔ. Wallet nhyehyɛe bi nsakra saa.
+- **Note format foforo.** Ironwood output note biara de quantum-recoverable format di dwuma (hyɛ no nsow plaintext lead byte `0x03`). Mprempren wonya nkyerɛwde no randomness fi ne fields nyinaa mu, enti wɔde hash kyekyere note no wɔ emu nsɛm no ho sen sɛ wɔde elliptic-curve math nkutoo bɛkyekyere no.
+- **Ɔkwan a wɔfa so san nya Ironwood nkyerɛwde nkutoo.** ZIP 326 da no adi pefee sɛ Ironwood nkyerɛwde biara yɛ nea wotumi san nya na Orchard nkyerɛwde biara nni hɔ. Wallet nhyehyɛe bi nsakra saa.
 - **Orchard gyaee boɔ foforɔ a wɔbɛgye.** Coinbase akatua ntumi nkɔ Orchard, na Orchard ntumi mfa nkɔ Orchard address foforɔ so bio, enti boɔ foforɔ a wɔabɔ ho ban no si fam wɔ Ironwood.
 - **Wɔka kyerɛ sika kotokuo sɛ wɔmfa biribiara nkɔ baabi foforɔ.** ZIP 2005 se ɛsɛ sɛ sika kotokuo de sika a wɔdi so nyinaa, a transparent, Sprout ne Sapling sika ka ho, kɔ Ironwood nkrataa mu ntɛm ara sɛdeɛ ɛbɛyɛ yie, na kɔ so yɛ saa berɛ a sika foforɔ aba.
 
-Nea Ironwood ansesa: cryptography a wɔde di dwuma de sɛe sika na wɔde di adanse nnɛ, note encryption, ne biribiara a ɛfa ZEC.
+Nea Ironwood ansakra: cryptography a wɔde di dwuma de sɛe sika na wɔde di adanse nnɛ, note encryption, ne biribiara a ɛfa ZEC.
 
 <br/>
 
@@ -71,7 +71,7 @@ Nea Ironwood ansesa: cryptography a wɔde di dwuma de sɛe sika na wɔde di adan
 
 **Ɛwɔ exposure window.** Efi Ironwood's activation kosi sɛ wobedum protocols dedaw no, quantum attacker da so ara betumi awia, inflate anaa siw sika wɔ shielded pool biara mu. ZIP 2005 frɛ eyi "bere a ɛho hia a wɔde bɛda wɔn ho adi" na ɛbɔ kɔkɔ sɛ ntua a ɛba bere a ɛrekɔ so no da so ara betumi apira obi a okura no tumi a ɔde bɛsan anya ahoɔden akyiri yi. Ɛno nti na ɛka sɛ ɛsɛ sɛ Zcash dum Orchard, Sapling ne Sprout **ansa na** quantum ntua abɛyɛ nea ebetumi aba.
 
-**Switch-off no nni date, gye Sprout.** ZIP nhyehyeɛ biara nni hɔ a ɛbɛdum Orchard anaa Sapling. Sprout yɛ soronko: [ZIP 259 na ɛwɔ hɔ](https://zips.z.cash/zip-0259) kyerɛw ZIP 2003 ka nsakrae a NU7 de di dwuma no ho, enti version 4 nkitahodi no bɛyɛ nea enni mu bere a NU7 ayɛ adwuma na ZEC biara a aka wɔ Sprout pool no mu no bɛyɛ nea wontumi nsɛe no. Wɔahyɛ mainnet dwumadie ama block 3,543,405, a wɔde asi wɔn ani so sɛ wɔbɛyɛ no 5 November 2026 ([ZIP 259 na ɛwɔ hɔ](https://zips.z.cash/zip-0259), [forum dawurubɔ](https://forum.zcashcommunity.com/t/nu7-timeline/57655)). Nkɔmmɔbɔ a ɛfa Sapling a wɔbɛtwe wɔn ho nkutoo ho fii ase wɔ forum no so wɔ April 2026 mu.
+**Switch-off no nni date.** ZIP nhyehyɛe biara nni hɔ a ɛbɛdum Orchard anaa Sapling. ZIP 2003, a ɛyɛ Draft ne NU7 kandifoɔ, bɛma Sprout sika a wɔsɛe no ayɛ adwuma denam version 4 nkitahodiɛ a ɛremma ho kwan no so. Nkɔmmɔbɔ a ɛfa Sapling a wɔbɛtwe wɔn ho nkutoo ho fii ase wɔ forum no so wɔ April 2026 mu.
 
 **Recovery Protocol no nwiei.** ZIP 2005 no kyerɛkyerɛ mu nko ara, na ɛka sɛ nsɛm no "ɛbɛtumi asesa". Wɔmfa ho biribiara nni dwuma.
 
@@ -97,7 +97,7 @@ Eyinom mu biara nni hɔ a ɛte ase.
 
 ## Gyinabea pon
 
-Last checked 13 September 2026, except the Sprout row, which was updated on 9 October 2026. ZIP's ti tebea ne ne ntwamutam tebea yɛ nneɛma soronko: ZIP 2005 da so ara ka sɛ "Wɔahyɛ ho nyansa" wɔ ne ti mu ɛwom mpo sɛ wɔde ne mmara adi dwuma wɔ Mainnet so fi July 2026.
+Last checked 13 September 2026. ZIP's ti tebea ne ne ntwamutam tebea yɛ nneɛma soronko: ZIP 2005 da so ara ka sɛ "Wɔahyɛ ho nyansa" wɔ ne ti mu ɛwom mpo sɛ wɔde ne mmara adi dwuma wɔ Mainnet so fi July 2026.
 
 | Adeɛ | ZIP tebea | Network tebea | Da | Farebae |
 |---|---|---|---|---|
@@ -106,7 +106,7 @@ Last checked 13 September 2026, except the Sprout row, which was updated on 9 Oc
 | Walets a wɔde sika kɔ Ironwood | Akwankyerɛ a ɛwɔ ZIP 2005, ZIP 318 ne ZIP 326 (Draft) mu | Wɔkamfo kyerɛ, egyina wo sika kotoku so | Efi 28 Jul 2026. Ɔberɛfɛw da | [ZIP 318 na ɛwɔ hɔ](https://zips.z.cash/zip-0318), [ZIP 326 na ɛwɔ hɔ](https://zips.z.cash/zip-0326) |
 | Nneɛma a Wɔde Yɛ Nneɛma a Wɔde Yɛ Adwuma | Wɔakyerɛkyerɛ mu wɔ ZIP 2005 mu nkutoo | **Wɔnmfa nni dwuma** | Date biara nni hɔ | [ZIP 2005 na ɔkyerɛwee](https://zips.z.cash/zip-2005) |
 | Woredum Orchard ne Sapling | ZIP biara nni hɔ | **Wɔnnyɛ nhyehyɛe** | Sapling ho nkɔmmɔbɔ fi Apr 2026 | [Nhyiamu](https://forum.zcashcommunity.com/t/sapling-withdraw-only-discussion-kickoff/55223) |
-| Sprout a wɔsɛe no a wɔma ɛyɛ adwuma (ZIP 2003) | Wɔahyɛ ho nyansa, NU7 de adi dwuma wɔ ZIP 259 biara mu (Wɔhyɛ ho nyansa) | **Wɔnnyɛ adwuma** | Mainnet sorokɔ 3,543,405, wɔde sii wɔn ani so sɛ 5 Nov 2026 | [ZIP 2003 na ɔkyerɛwee](https://zips.z.cash/zip-2003), [ZIP 259 na ɛwɔ hɔ](https://zips.z.cash/zip-0259) |
+| Sprout a wɔsɛe no a wɔma ɛyɛ adwuma (ZIP 2003) | Draft, NU7 kandifo | **Wɔnnyɛ adwuma** | Date biara nni hɔ | [ZIP 2003 na ɔkyerɛwee](https://zips.z.cash/zip-2003) |
 | Nneɛma a ɛda adi pefee a wɔsan nya (ZIP 2007) | Wɔakora so | **Deɛ yɛde ato anim** | ZIP reserved 5 Jul 2025, nkɔmmɔbɔ no buee 17 Jun 2026 | [zips#1302 na ɛwɔ hɔ](https://github.com/zcash/zips/issues/1302) |
 | Post-quantum kokoamsɛm ma address ahorow a wonim | Nsɛm a wɔabue, ZIP biara nni hɔ | **Hwehwɛ mu** | #1133 buee 18 Aug 2022, #1307 buee 23 Jun 2026 | [zips#1133 na ɛwɔ hɔ](https://github.com/zcash/zips/issues/1133), [zips#1307 na ɛwɔ hɔ](https://github.com/zcash/zips/issues/1307) |
 | Dwumadie Tachyon | ZIP biara nni hɔ | **Nsusuiɛ**, wɔreyɛ | Wodii kan tintimii wɔ Apr 2025 | [tachyon.z.sika a wɔde yɛ adwuma](https://tachyon.z.cash/roadmap/) |

@@ -10,7 +10,6 @@
 * Inakuambia jambo moja kuhusu pochi yako: lipa anwani hii kwa pesa za uwazi pekee.
 * Ikiwa salio lako limehifadhiwa, pochi inayolingana inakufanyia hatua mbili. Inahamisha kiasi hicho hadi anwani ya muda inayoonekana, kisha hukituma kwa anwani ya TEX.
 * Mnamo 2023, Binance aliiomba jumuiya ya Zcash njia ya kukataa amana zilizolindwa na kuzirudisha. Anwani za TEX ndizo jibu, na Binance ndiyo soko la hisa kwenye ZecHub [Mabadilishano ya Uhifadhi](/using-zcash/custodial-exchanges) orodha inayochukua amana za TEX.
-* Usaidizi umeongezeka pia upande wa utumaji: Coinbase inaruhusu watumiaji wake kutuma ZEC kwa anwani za TEX, na vifaa vya pochi vimekuwa vikiongeza usaidizi wa ZIP 320.
 * Malipo kwa anwani ya TEX ni ya umma kwenye blockchain, kama malipo yoyote ya uwazi. Salio lako lililobaki linabaki kuwa la faragha.
 
 ## Maelezo ya Msingi
@@ -25,14 +24,7 @@ Pendekezo la kiufundi la anwani za TEX limeainishwa katika Zcash [ZIP 320](https
 
 ![TEX](/content-images/ZashiTex-b1cbec5f07.webp)
 
-### Anwani za TEX hutumika kwa kiasi gani?
-
-Kuasili bado ni kwa sehemu, lakini sio tu kwa kubadilishana mara moja. Majukumu mawili tofauti yanafaa kutenganishwa:
-
-* **Kutoa anwani za amana za TEX.** Binance ni soko la hisa kwenye tovuti yetu [Mabadilishano ya Uhifadhi](/using-zcash/custodial-exchanges) orodha inayotoa anwani ya TEX kwa amana, ili fedha zifike kutoka chanzo cha uwazi ([ZIP 320, Mandharinyuma](https://zips.z.cash/zip-0320#background)ZIP 320 haitarajii kampuni zingine za kubadilishana kutoa anwani za TEX isipokuwa zinahitaji kujua ni anwani gani malipo yalitoka.
-* **Kutuma kwa anwani za TEX.** Huu ndio upande ambao umekua. Mnamo Oktoba 2024, Coinbase ilitangaza kwamba watumiaji wa Coinbase.com wanaweza kutuma Zcash kwa anwani za TEX ([Tangazo la Mali Coinbase](https://x.com/CoinbaseAssets/status/1844428577921507416)). Vifaa vya pochi vimekuwa vikiongeza usaidizi wa ZIP 320 pia: KeepKey iliongeza utiaji saini kwa miamala ya TEX kwenye programu dhibiti 7.15 ([keepkey/hdwallet #75](https://github.com/keepkey/hdwallet/pull/75)), na XChainJS `zcash-js` maktaba ilirekebishwa baada ya kukataliwa kuwa halali `tex1` wapokeaji (zaidi kuhusu hilo hapa chini).
-
-Kwa hivyo anwani za TEX si za ulimwengu wote, lakini msomaji hapaswi tena kudhani Binance ndio mahali pekee zinapoonekana.
+Anwani za TEX bado hazijatumika kwa upana. Watumiaji wa Zcash wanaweza kuhitajika kuzitumia hatimaye.
 
 ### Ninahitaji Anwani ya TEX Lini?
 
@@ -66,49 +58,11 @@ Anwani ya kawaida inayoanzia na uwazi `t1` inashikilia hash ya ufunguo wa baiti 
 
 Muundo rahisi ulikuwa sharti kutoka Binance: ubadilishaji ulipaswa kuendeshwa na maktaba za Base58Check na Bech32m pekee katika msimbo wa mbele wa soko la kubadilishana. Rasimu ya awali ya ZIP 320 ilijenga wazo hilo katika Anwani Zilizounganishwa, na toleo hilo liliondolewa kwa sababu hii.
 
-Anwani za TEX hukopa usimbaji wa Bech32m kutoka kwa umbizo la Anwani Iliyounganishwa lakini hazihifadhi muundo wowote wake. Ikiwa wewe ni mgeni kwa Bech32m na jinsi anwani za Zcash zinavyothibitishwa, [Anwani Zilizounganishwa](/using-zcash/unified-addresses) ukurasa unashughulikia misingi iliyo chini ya [ZIP 316](https://zips.z.cash/zip-0316)Anwani ya TEX hutofautiana na Anwani Iliyounganishwa kwa njia nne dhahiri:
+### Kulipa anwani ya TEX kutoka kwa salio lililolindwa
 
-| | Anwani Iliyounganishwa (ZIP 316) | Anwani ya TEX (ZIP 320) |
-|---|---|---|
-| Ina nini | wapokeaji kadhaa wameunganishwa pamoja | kipokezi kimoja chenye uwazi cha P2PKH |
-| Kiambishi awali kinachoweza kusomwa na binadamu (HRP) | `u` (mtandao mkuu) | `tex` (`textest` kwenye mtandao wa majaribio) |
-| F4 Msongamano wa fumbo | ndiyo | no |
-| Misimbo ya aina kwa kila mpokeaji | ndiyo | no |
+ZIP 320 inahitaji pochi inayolingana ili kujenga miamala miwili hapa. Ya kwanza huhamisha pesa kutoka kwa salio lako lililolindwa hadi anwani mpya ya muda mfupi inayoonekana. Ya pili huzituma kutoka kwa anwani hiyo hadi anwani ya TEX.
 
-Kwa kifupi, anwani ya TEX ndiyo kifungashio cha Bech32m kilicho wazi zaidi: hash moja ya ufunguo unaoonekana wazi, a `tex` kiambishi awali, na hakuna kingine.
-
-### Sheria za utunzaji wa pochi na viunganishi
-
-Hii ndiyo sehemu ambayo utekelezaji umekuwa ukikosea, kwa hivyo inafaa kutaja wazi. Unapogundua anwani ya TEX, pochi au kiunganishi **haipaswi kutumia pesa kutoka kwenye bwawa lililolindwa moja kwa moja hadi kwenye eneo la TEX.** ZIP 320 inahitaji kila ingizo kwenye malipo ya TEX liwe wazi, kwa hivyo malipo yanajengwa kama hatua mbili:
-
-1. **Deshield.** Hamisha kiasi kutoka kwenye bwawa lililolindwa hadi anwani mpya, inayoonekana ya muda mfupi, inayodhibitiwa na mtumiaji ambayo pochi inamiliki (Z -> T).
-2. **Tuma uwazi hadi uwazi.** Tumia matokeo hayo ya muda mfupi kwa kipokezi cha P2PKH kilichosimbwa ndani ya anwani ya TEX (T -> T).
-
-Sheria chache hufanya hili kuwa salama, zote kutoka ZIP 320:
-
-* Anwani ya muda mfupi inapaswa kutolewa kutoka kwa kifungu chako cha mbegu, ili ikiwa ubadilishaji utarudisha pesa, pochi yako bado inaweza kuzipata na kuzitumia.
-* Anwani mpya ya muda mfupi inapaswa kutumika kila wakati, kwa hivyo malipo tofauti hayawezi kuunganishwa.
-* Muamala wa pili unapaswa kutumia pembejeo zenye uwazi pekee, kwa hivyo ubadilishaji huo utaona amana safi ya uwazi hadi uwazi.
-
-Ubadilishaji na mtiririko wa hatua mbili vinaonyeshwa katika [Utekelezaji wa marejeleo ya ZIP 320](https://zips.z.cash/zip-0320#reference-implementation)Kukosea hili ni tatizo halisi, la hivi karibuni: mnamo Oktoba 2026 XChainJS `zcash-js` maktaba iliyokataliwa ni halali `tex1` wapokeaji wenye hitilafu ya "Anwani 'ya' batili", kwa sababu kithibitishaji chake kilikubali Base58Check pekee `t1` fomu, ambayo ilivunja amana za ZEC kwa huduma zinazochapisha `tex1` anwani ([toleo #1782](https://github.com/xchainjs/xchainjs-lib/issues/1782)Ilirekebishwa kwa kumfundisha kithibitishaji kukubali usimbaji wa ZIP 320 ([PR #1783](https://github.com/xchainjs/xchainjs-lib/pull/1783)).
-
-### Kile ambacho ujumbe wa TEX unafunua
-
-Malipo ya TEX ni malipo ya uwazi, kwa hivyo ni ya umma, lakini inafaa kuwa sahihi kuhusu kile ambacho mwangalizi anaweza kuona na kile ambacho hawezi kuona.
-
-Ni nini kinachoonekana** kwenye mnyororo:
-
-* Anwani ya uwazi ya muda mfupi, kwa kuwa inaonekana kama matokeo ya hatua ya deshield na ingizo la kutuma mwisho.
-* Kiasi vyote viwili: thamani iliyotoka kwenye bwawa lililolindwa katika hatua ya Z -> T, na thamani iliyotolewa katika hatua ya T -> T.
-* Kipokezi chenye uwazi cha ubadilishaji, ambacho ni anwani ya P2PKH iliyosimbwa katika anwani ya TEX.
-
-Kinachobaki **kimefichwa**:
-
-* Salio lako lililobaki lililolindwa, na ni noti gani maalum zilizolindwa zilifadhili malipo. Hatua ya mwisho inaonyesha kwamba thamani *baadhi* iliacha bwawa hadi kwenye anwani ya muda, sio mahali ambapo ndani ya bwawa lilitoka.
-
-Kwa hivyo mtazamaji anaweza kuunganisha anwani ya muda mfupi na malipo ya ubadilishaji (fedha zile zile, zinazoonekana wazi kwa uwazi) na anaweza kuona kwamba iliongezwa kutokana na uondoaji uliolindwa. Hawawezi kuiunganisha na fedha zako zingine zilizolindwa au shughuli. Hakuna kitu kwenye mnyororo kinachoashiria malipo kama "TEX" iliyotumwa: kama ZIP 320 inavyosema, malipo kwa anwani ya TEX hayawezi kutofautishwa na malipo hadi ulinganifu `t1` anwani, kwa sababu sheria za makubaliano hazijabadilika na sheria nzima inaishi kwenye pochi.
-
-![On-chain footprint of a TEX send: funds leave the shielded pool to an ephemeral transparent address, then go transparent-to-transparent to the exchange; the ephemeral address, both amounts and the exchange address are visible, while the rest of the shielded balance stays hidden](/content-images/tex-onchain-footprint.webp)
+Ikiwa soko la hisa litakataa amana, hurejesha pesa hizo kwenye anwani ya muda mfupi. Pochi yako lazima iweze kuzipata na kuzitumia, kwa hivyo ZIP 320 huziomba pochi kutoa anwani za muda mfupi kutoka kwa kifungu chako cha mbegu. Pia huziomba pochi kutumia anwani mpya ya muda mfupi kila wakati, ili malipo tofauti yasiweze kuunganishwa.
 
 ### Kinachoonyeshwa na blockchain
 
@@ -116,7 +70,6 @@ Sheria ya TEX inaishi kwenye pochi. Nodi haziichunguzi, kwa hivyo sheria za maku
 
 ## Kurasa Zinazohusiana
 
-- [Anwani Zilizounganishwa](/using-zcash/unified-addresses): the `u1` umbizo la anwani chini ya ZIP 316, na misingi ya Bech32m ambayo anwani ya TEX hutumia tena.
 - [Mabadilishano ya Uhifadhi](/using-zcash/custodial-exchanges): ni mabadilishano gani yanayokubali aina za anwani, ikiwa ni pamoja na amana za TEX Binance's.
 - [Pochi](/using-zcash/wallets): tumia kichujio cha Anwani ya TEX ili kupata pochi zinazoweza kulipa anwani ya TEX.
 - [Mabwawa ya Kuogelea Yenye Ngao](/using-zcash/shielded-pools): ambapo salio lako la kibinafsi liko kabla ya malipo ya TEX kuhamisha sehemu yake.

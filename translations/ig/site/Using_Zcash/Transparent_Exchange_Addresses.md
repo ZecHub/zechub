@@ -10,7 +10,6 @@
 * Ọ na-agwa obere akpa gị otu ihe: kwụọ adreesị a naanị site na ego doro anya.
 * Ọ bụrụ na ego gị dị n'ime akpa gị, obere akpa dakọtara ga-emere gị nzọụkwụ abụọ. Ọ ga-ebuga ego ahụ gaa na adreesị nwa oge doro anya, wee ziga ya na adreesị TEX.
 * Na 2023, Binance rịọrọ ndị obodo Zcash ka ha jụ itinye ego echekwara ma weghachite ha. Adreesị TEX bụ azịza ya, Binance bụkwa mgbanwe na ZecHub [Mgbanwe Ụlọ Nlereanya](/using-zcash/custodial-exchanges) ndepụta nke na-ewe ego TEX.
-* Nkwado amụbaala n'akụkụ izipu ozi: Coinbase na-ekwe ka ndị ọrụ ya ziga ZEC na adreesị TEX, ngwaọrụ akpa ego agbakwunyela nkwado ZIP 320.
 * Ịkwụ ụgwọ na adreesị TEX bụ ihe ọha na eze na blockchain, dịka ịkwụ ụgwọ ọ bụla doro anya. Ihe fọdụrụ n'ime ego nchekwa gị na-anọgide na nzuzo.
 
 ## Nkọwa Isi
@@ -25,14 +24,7 @@ A kọwara atụmatụ teknụzụ maka adreesị TEX na Zcash [ZIP 320](https:/
 
 ![TEX](/content-images/ZashiTex-b1cbec5f07.webp)
 
-### Kedu ka esi eji adreesị TEX eme ihe?
-
-Nnabata nwa ka bụ akụkụ nke obere ihe, mana ọ bụghịzi naanị otu mgbanwe. Ọrụ abụọ dị iche iche kwesịrị ikewapụ:
-
-* **Ịnye adreesị nkwụnye ego TEX.** Binance bụ mgbanwe na anyị [Mgbanwe Ụlọ Nlereanya](/using-zcash/custodial-exchanges) depụta adreesị TEX maka nkwụnye ego, ka ego wee si n'ebe doro anya bịa ([ZIP 320, Ndabere](https://zips.z.cash/zip-0320#background)ZIP 320 anaghị atụ anya na mgbanwe ndị ọzọ ga-enye adreesị TEX ọ gwụla ma ha chọrọ ịma adreesị nke ịkwụ ụgwọ si.
-* **Izipu ozi na adreesị TEX.** Nke a bụ akụkụ nke torola eto. Na Ọktoba 2024, Coinbase kwupụtara na ndị ọrụ Coinbase.com nwere ike izipu Zcash na adreesị TEX ([Nkwupụta Coinbase Akụ](https://x.com/CoinbaseAssets/status/1844428577921507416)). Ngwa nchekwa akpa ego agbakwunyela nkwado ZIP 320: KeepKey tinyere ntinye aka maka azụmahịa TEX na firmware 7.15 ([keepkey/hdwallet #75](https://github.com/keepkey/hdwallet/pull/75)), na XChainJS `zcash-js` e mechachara ọbá akwụkwọ ahụ mgbe ọ jụrụ ịdị irè `tex1` ndị nnata (ihe ndị ọzọ gbasara nke ahụ n'okpuru).
-
-Ya mere, adreesị TEX abụghị ihe zuru ụwa ọnụ, mana onye na-agụ akwụkwọ ekwesịghị iche na Binance bụ naanị ebe ha pụtara.
+A kabeghị anabata adreesị TEX nke ọma. Enwere ike ịchọ ka ndị na-eji Zcash jiri ha mee ihe n'ikpeazụ.
 
 ### Kedu mgbe m chọrọ adreesị TEX
 
@@ -66,57 +58,18 @@ Adreesị doro anya nkịtị na-amalite na `t1` nwere hash igodo 20-byte, nke e
 
 Nhazi dị mfe ahụ bụ ihe Binance: mgbanwe ahụ ga-eji naanị ọbá akwụkwọ Base58Check na Bech32m dị na koodu mmalite nke mgbanwe ahụ. Mpempe akwụkwọ ZIP 320 nke mbụ wuru echiche ahụ n'ime Adreesị Unified, a tụfukwara ụdị ahụ n'ihi nke a.
 
-Adreesị TEX gbaziri koodu Bech32m site na usoro Unified Adreesị mana ọ fọrọ nke nta ka ọ ghara inwe nhazi ọ bụla. Ọ bụrụ na ị bụ onye ọhụrụ na Bech32m na otu esi akwado adreesị Zcash, [Adreesị Ndị Ejikọtara Ọnụ](/using-zcash/unified-addresses) peeji na-ekpuchi ihe ndị bụ isi dị n'okpuru [ZIP 316](https://zips.z.cash/zip-0316)Adreesị TEX dị iche na Adreesị Njikota n'ụzọ anọ doro anya:
+### Ịkwụ ụgwọ adreesị TEX site na nguzozi echekwara
 
-| | Adreesị Ejikọtara Ọnụ (ZIP 316) | Adreesị TEX (ZIP 320) |
-|---|---|---|
-| Ihe ọ na-ejide | ọtụtụ ndị nnata ejikọtara ọnụ | otu onye nnata P2PKH doro anya |
-| Mmalite nke mmadụ nwere ike ịgụ (HRP) | `u` (isi netwọk) | `tex` (`textest` na testnet) |
-| F4 Jumble obfuscation | ee | no |
-| Koodu ụdị maka onye nnata ọ bụla | ee | no |
+ZIP 320 chọrọ obere akpa ego dakọtara iji wuo azụmahịa abụọ ebe a. Nke mbụ na-ebuga ego ahụ site na nguzozi gị echekwara gaa na adreesị ọhụrụ na-edoghị anya. Nke abụọ na-eziga ha site na adreesị ahụ gaa na adreesị TEX.
 
-Na nkenke, adreesị TEX bụ ihe mkpuchi Bech32m kachasị mfe: otu hash igodo doro anya, a `tex` prefix, na ihe ọ bụla ọzọ.
-
-### Iwu njikwa maka obere akpa ego na ndị na-ejikọta ọnụ
-
-Nke a bụ akụkụ nke mmejuputa iwu na-ezighi ezi, yabụ ọ bara uru ikwu nke ọma. Mgbe achọpụtara adreesị TEX, obere akpa ego ma ọ bụ ihe njikọta **agaghị emefu ego site na ọdọ mmiri echekwara ozugbo gaa ebe TEX na-aga.** ZIP 320 chọrọ ka ntinye ọ bụla na ụgwọ TEX doo anya, yabụ a na-ewu ụgwọ ahụ dị ka usoro abụọ:
-
-1. **Deshield.** Bufee ego ahụ site na ọdọ mmiri e ji kpuchie gaa na adreesị ọhụrụ, nke onye ọrụ na-achịkwa nke ọma nke obere akpa ahụ nwere (Z -> T).
-2. **Zipu ihe na-egosighi ihe ọ bụla ka ọ bụrụ ihe na-egosighi ihe ọ bụla.** Tinye ihe ahụ e wepụtara n'oge na-adịghị anya na ihe nnata P2PKH nke e dekọrọ n'ime adreesị TEX (T -> T).
-
-Iwu ole na ole na-eme ka nke a dị nchebe, ihe niile sitere na ZIP 320:
-
-* A ga-esi n'okwu mkpụrụ gị nweta adreesị ephemeral ahụ, ka ọ bụrụ na mgbanwe ahụ eweghachi ego ahụ, obere akpa gị ka nwere ike ịchọta ma mefuo ha.
-* A ga-eji adreesị ọhụrụ eme ihe oge ọ bụla, yabụ na a gaghị ejikọta ụgwọ dị iche iche na ibe ha.
-* Azụmahịa nke abụọ kwesịrị imefu naanị ntinye doro anya, yabụ mgbanwe ahụ na-ahụ nkwụnye ego doro anya site na nke doro anya.
-
-A na-egosi mgbanwe na usoro nzọụkwụ abụọ na [Mmejuputa ntụaka ZIP 320](https://zips.z.cash/zip-0320#reference-implementation)Ihiehie nke a bụ nsogbu dị adị n'oge na-adịbeghị anya: na Ọktoba 2026 XChainJS `zcash-js` ọbá akwụkwọ a jụrụ dị irè `tex1` ndị nnata nwere njehie "Adreesị 'na-ezighi ezi', n'ihi na ihe nkwado ya nabatara naanị Base58Check `t1` ụdị, nke mebiri ego ZEC na ọrụ ndị na-ebipụta `tex1` adreesị ([mbipụta #1782](https://github.com/xchainjs/xchainjs-lib/issues/1782)E doziri ya site n'ịkụziri onye na-akwado ya ka ọ nabata koodu ZIP 320 ([PR #1783](https://github.com/xchainjs/xchainjs-lib/pull/1783)).
-
-### Ihe ozi TEX na-ekpughe
-
-Ụgwọ TEX bụ ịkwụ ụgwọ doro anya, yabụ ọ bụ maka ọha, mana ọ bara uru ịkọwa kpọmkwem ihe onye na-ekiri nwere ike ịhụ na ihe ọ na-apụghị ịhụ.
-
-Ihe a na-ahụ anya** n'usoro:
-
-* Adreesị ahụ na-apụta ìhè nke na-adịghị agbanwe agbanwe, ebe ọ bụ na ọ na-apụta dị ka mmepụta nke nzọụkwụ deshield na ntinye nke izipu ikpeazụ.
-* Ego abụọ a: uru nke hapụrụ ọdọ mmiri a na-echebe na nzọụkwụ Z -> T, na uru e nyere na nzọụkwụ T -> T.
-* Onye nnata doro anya nke mgbanwe ahụ, nke bụ adreesị P2PKH nke e tinyere na adreesị TEX.
-
-Ihe na-anọ **ezo ezo**:
-
-* Ihe fọdụrụ n'ime ego nchekwa gị, na akwụkwọ ndetu ndị a kapịrị ọnụ nke e ji kpuchie ụgwọ ahụ. Nzọụkwụ deshield ahụ na-egosi na *ụfọdụ* uru hapụrụ ọdọ mmiri ahụ gaa na adreesị ephemeral, ọ bụghị ebe ọ si n'ime ọdọ mmiri ahụ pụta.
-
-Ya mere, onye na-ekiri ihe nwere ike ijikọ adreesị ephemeral na ụgwọ mgbanwe (otu ego ahụ, nke doro anya na nke doro anya) ma hụ na e tinyere ya n'elu site na mwepụ echekwara. Ha enweghị ike ijikọ ya na ego ma ọ bụ ihe omume gị ndị ọzọ echekwara. Ọ dịghị ihe dị n'usoro na-egosi ịkwụ ụgwọ ahụ dị ka izipu "TEX": dị ka ndetu ZIP 320, ịkwụ ụgwọ na adreesị TEX enweghị ike ịmata ọdịiche dị n'etiti ịkwụ ụgwọ na nke dakọtara `t1` adreesị, n'ihi na iwu nkwekọrịta anaghị agbanwe agbanwe, iwu ahụ dum dịkwa n'ime obere akpa ego.
-
-![On-chain footprint of a TEX send: funds leave the shielded pool to an ephemeral transparent address, then go transparent-to-transparent to the exchange; the ephemeral address, both amounts and the exchange address are visible, while the rest of the shielded balance stays hidden](/content-images/tex-onchain-footprint.webp)
+Ọ bụrụ na mgbanwe ego ahụ ajụ itinye ego ahụ, ọ ga-eweghachi ego ahụ na adreesị ephemeral. Akpa ego gị ga-enwerịrị ike ịchọta ma mefuo ha, yabụ ZIP 320 na-arịọ obere akpa ego ka ha nweta adreesị ephemeral site na mkpụrụ okwu gị. Ọ na-arịọkwa obere akpa ego ka ha jiri adreesị ephemeral ọhụrụ oge ọ bụla, ka e wee ghara ijikọ ụgwọ dị iche iche na ibe ha.
 
 ### Ihe blockchain na-egosi
 
-Iwu TEX dị na obere akpa ego. Nodes anaghị enyocha ya, yabụ iwu nkwekọrịta na-anọgide otu. N'usoro agbụ, ịkwụ ụgwọ na adreesị TEX yiri otu ịkwụ ụgwọ maka ndakọrịta `t1` Adreesị. Ego ahụ, adreesị e mere ka ọ dị obere, na adreesị mgbanwe ahụ bụ ihe ọha na eze, dịka ọ dị na azụmahịa ọ bụla doro anya.
+Iwu TEX dị na obere akpa ego. Nodes anaghị enyocha ya, yabụ iwu nkwekọrịta na-anọgide otu. N'elu agbụ, ịkwụ ụgwọ na adreesị TEX yiri otu ịkwụ ụgwọ maka ndakọrịta `t1` Adreesị. Ego ahụ, adreesị e mere ka ọ dị obere, na adreesị mgbanwe ahụ bụ ihe ọha na eze, dịka ọ dị na azụmahịa ọ bụla doro anya.
 
 ## Peeji ndị metụtara ya
 
-- [Adreesị Ndị Ejikọtara Ọnụ](/using-zcash/unified-addresses): nke `u1` Usoro adreesị n'okpuru ZIP 316, yana isi ihe Bech32m na-eji adreesị TEX eme ihe ọzọ.
 - [Mgbanwe Ụlọ Nlereanya](/using-zcash/custodial-exchanges): mgbanwe ndị a na-anabata ụdị adreesị ndị a, gụnyere ego Binance's TEX.
 - [Obere akpa](/using-zcash/wallets): jiri nzacha adreesị TEX chọta obere akpa ndị nwere ike ịkwụ ụgwọ adreesị TEX.
 - [Ọdọ Mmiri E Kpuchiri Ekpuchi](/using-zcash/shielded-pools): ebe ego nkeonwe gị dị tupu ịkwụ ụgwọ TEX ewepụ akụkụ ya.

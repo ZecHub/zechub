@@ -4,70 +4,55 @@
 
 # <img src="/content-images/Shielded-labs-shield-white-2-27aef199ae.webp" alt="Shielded Labs logo" width="50"/> Shielded Labs
 
-[Shielded Labs](https://shieldedlabs.net/) jẹ́ àjọ ìrànlọ́wọ́ Zcash tí ó wà ní Switzerland tí ó ní owó ìrànlọ́wọ́, tí ó sì ń ṣe ìrànlọ́wọ́ fún. Iṣẹ́ rẹ̀ ni láti kọ́ owó àdáni tí kò ṣeé dídúró tí ó ń fún òmìnira ènìyàn àti ìjọba ara-ẹni lágbára, pẹ̀lú àfiyèsí lórí iṣẹ́ tí ó ń mú ìdúróṣinṣin, ààbò, àti ìtóbi ti nẹ́tíwọ́ọ̀kì Zcash sunwọ̀n síi.
+[Àwọn Ilé Iṣẹ́ Ààbò](https://shieldedlabs.net/) is an independent, donation-funded Zcash support organization based in Switzerland. Its mission is to build unstoppable private money that empowers human freedom and self-sovereignty, with a focus on work that advances the sustainability, security, and scalability of the Zcash network.
 
-Shielded Labs fi agbara imọ-ẹrọ ominira kun eto-ẹkọ Zcash. Kii ṣe apakan Electric Coin Company, Zcash Foundation, tabi Zcash Community Grants, o si ṣe apejuwe ara rẹ gẹgẹbi agbari eto-ẹkọ Zcash akọkọ ti ko ti gba owo-owo taara tabi aiṣe-taara lati ọdọ Ajo Idagbasoke tabi awọn ẹbun bulọọki.
+Shielded Labs adds independent engineering capacity to the Zcash ecosystem. It is not part of the Electric Coin Company, the Zcash Foundation, or Zcash Community Grants, and it describes itself as the first Zcash ecosystem organization that has not received direct or indirect funding from the Development Fund or block rewards.
 
-## Iṣẹ́ Àkànṣe àti Ipa
+## Iṣẹ́ Àṣojú àti Ipa Rẹ̀
 
-Shielded Labs fojusi lori ilana ati iṣẹ amayederun ti o le jẹ ki Zcash lagbara diẹ sii fun igba pipẹ. Awọn ohun elo gbangba rẹ tẹnumọ:
+Shielded Labs fojusi lori ilana ati iṣẹ amayederun ti o le jẹ ki Zcash ni agbara diẹ sii fun igba pipẹ. Awọn ohun elo gbangba rẹ tẹnumọ:
 
-- Ominira eniyan ati aṣiri eto inawo
-- Ipese owo ominira ni ita Ajo Idagbasoke
-- Ọwọ fun awọn oniwun ZEC ati awọn titẹ sii oniwun owo
-- Ìdádúró òǹlò àti ìṣàkóso ara ẹni
-- Ìmúdàgba ìmọ̀-ẹ̀rọ fún ìdúróṣinṣin, ààbò, àti ìtóbi
-- Ijọṣepọ pẹlu awọn oluranlọwọ Zcash miiran
+- Òmìnira ènìyàn àti ìpamọ́ owó
+- Ìdánilójú tí kò ní ìsopọ̀ pẹ̀lú Àjọ fún Ètò Iṣèlú.
+- Ìbọ̀wọ̀ fún àwọn olùkópa ZEC àti ìsọfúnni láti ọwọ́ ẹni tó ni owó ẹyọ náà
+- Àṣẹ-ìdarí àti agbára láti ṣe ohun tó wù ú láìsí pé ẹnì kan ń darí rẹ̀.
+- Ìmúdàgba nínú ìmọ̀ ẹ̀rọ fún ìmúgbòòrò, ààbò àti agbára láti ṣe ohun tí ó pọ sí i.
+- Ijọṣepọ pẹlu awọn onipindoje Zcash miiran
 
-Àjọ náà ń ṣe ìrànlọ́wọ́ nípasẹ̀ ìmọ̀ ẹ̀rọ taara, ìwádìí gbogbogbò, àtìlẹ́yìn ètò àgbékalẹ̀, àti ìṣọ̀kan ètò àyíká. Ó tún ń tọ́jú àwọn ohun èlò ìjọba fún ìwádìí ìjọba àti owó tí àwọn oníṣòwò èrè ń ṣàkóso, èyí tí ó ń ran àwọn ọmọ ẹgbẹ́ àwùjọ Zcash lọ́wọ́ láti mọ ìgbà àti bí wọ́n ṣe lè kópa nínú àwọn àmì ìṣàkóso.
+The organization contributes through direct engineering, public research, infrastructure support, and ecosystem coordination. It also maintains public resources for governance polling and coinholder-directed funding, helping Zcash community members understand when and how they can participate in governance signals.
 
-## Àwọn Iṣẹ́ Àkànṣe Lọ́wọ́lọ́wọ́
+## Àwọn Iṣẹ́ Tí À Ń Ṣe Lóde Òní
 
-Shielded Labs ṣe àkójọ àwọn agbègbè iṣẹ́ tó ń ṣiṣẹ́ ní gbangba:
+Shielded Labs ṣe àkọsílẹ̀ àwọn iṣẹ́ tí ó wà nídìí:
 
-- [Ọ̀nà Ìdúróṣinṣin Nẹ́tíwọ́ọ̀kì](https://shieldedlabs.net/nsm/) - Àkójọ àwọn àtúnṣe tí a gbèrò láti ṣe àtìlẹ́yìn fún ìnáwó ààbò ìgbà pípẹ́ Zcash's nígbàtí ó ń pa ààlà ìpèsè ZEC mílíọ̀nù 21 mọ́. Iṣẹ́ NSM náà ní nínú àwọn ìdáná ZEC àtinúdá, ìtújáde dídán, àti àwọn ìdámọ̀ràn sísun owó tí a ṣàlàyé nínú àwọn ZIP 233, 234, àti 235.
-- [Crosslink](https://shieldedlabs.net/crosslink-faq/) - Agbekalẹ adehun apapọ ti a dabaa ti yoo so iṣelọpọ bulọọki ẹri-iṣẹ Zcash's pọ mọ opin idaniloju-owo, ki awọn oniwun ZEC le ṣe iranlọwọ lati daabobo nẹtiwọọki naa lakoko ti awọn awakusa n tẹsiwaju lati ṣe awọn bulọọki.
-- [Awọn idiyele Oniyipada](https://shieldedlabs.net/fees/) - Ṣe ìwádìí àti ṣíṣe irinṣẹ́ fún àwọn owó ìṣòwò Zcash tí a lè sọtẹ́lẹ̀, tí ó rọrùn láti lò, àti tí ó le koko bí nẹ́tíwọ́ọ̀kì náà ṣe ń yípadà.
-- [Òdo](https://shieldedlabs.net/zero/) - Àkójọpọ̀ sọ́fítíwètì ètò Zcash tí ó ṣí sílẹ̀ tí a lè ṣètìlẹ́yìn fún àwọn pàṣípààrọ̀, àwọn adágún ìwakùsà, àwọn olùpèsè àpò owó, àti àwọn àjọ mìíràn tí ó gbẹ́kẹ̀lé ètò Zcash.
-- [Ironwood](https://shieldedlabs.net/ironwood/) - Ìmúdàgbàsókè nẹ́tíwọ́ọ̀kì Zcash àti adágún ààbò tí a ṣẹ̀dá ní ìdáhùn sí àìlera ìfàṣẹsí Orchard, tí a ṣe láti mú ìlera ìṣànká Zcash's padà sípò láìsí ìwádìí.
-- [Epoch](https://shieldedlabs.net/epoch-future-proof-cryptography-for-zcash/) - Iṣẹ́ ìwádìí àti ìmọ̀ ẹ̀rọ kan tí a kéde ní oṣù kẹwàá ọdún 2026 láti ṣe àgbékalẹ̀ ìkọ̀kọ̀ ìṣiṣẹ́ tí ó ti múra tán fún iṣẹ́-ṣíṣe, ìdánilójú gíga fún Zcash àti láti fẹ̀ sí ìjẹ́rìísí tó péye ti àwọn ẹ̀yà ìkọ̀kọ̀ ìṣiṣẹ́ pàtàkì. Iṣẹ́ náà fojúsùn ìmúṣẹ tí ó ti múra tán fún iṣẹ́-ṣíṣe ní ìparí ọdún 2027 tí ó lè jẹ́ ìpìlẹ̀ fún àtúnṣe nẹ́tíwọ́ọ̀kì ọjọ́ iwájú. Ó ń ṣe àfikún sí iṣẹ́ Project Tachyon àti àwọn ìsapá post-quantum mìíràn káàkiri àyíká.
-
-## Ẹgbẹ́ Epoch àti cryptography
-
-Ní oṣù kẹwàá ọdún 2026, Shielded Labs ṣe ìfilọ́lẹ̀ Epoch, ìsapá pàtàkì láti fi hàn pé Zcash kò ní jẹ́ kí ó ṣẹlẹ̀ sí ìṣiṣẹ́ ìṣiṣẹ́ quantum, àwọn ìkọlù tí wọ́n ń ran lọ́wọ́ láti ọwọ́ AI, àti àwọn ewu mìíràn tó ti wà ní ìpele tó ga jù. Iṣẹ́ náà fẹ́ rọ́pò àwọn ohun èlò ìkọ̀kọ̀ tí kò ní jẹ́ kí ó ṣeé ṣe àti láti lo ìjẹ́rìísí tó péye sí àwọn apá pàtàkì nínú ìlànà náà.
-
-Ẹgbẹ́ ìkọ̀kọ̀ ènìyàn mẹ́ta ló ń darí Epoch:
-
-- **Ulrich Haböck** – Olórí Onímọ̀-ẹ̀rọ-ìtàn-àròsọ (tí ó ti wà ní StarkWare; tẹ́lẹ̀ ní Polygon Zero). Ògbóǹtarìgì nínú ẹ̀rí ìmọ̀-òdodo àti ìkọ̀kọ̀-ìtàn-àròsọ-lẹ́yìn-ìwọ̀n ...
-- **Luke Edwards** – Onímọ̀ Ẹ̀rọ Ìkọsílẹ̀ (tí ó ti jẹ́ olórí ìmọ̀ ẹ̀rọ ti ẹgbẹ́ ìmọ̀ ẹ̀rọ ìkọsílẹ̀ ní Aztec). Ó ní PhD nínú Applied Mathematics láti Yunifásítì ti Arizona.
-- **Suyash Bagad** – Onímọ̀-ẹ̀rọ ìkọ̀wé-ìpamọ́ (tí ó wà ní Aztec, tí ó ń ṣiṣẹ́ ní ilé ìkàwé Barretenberg àti ìdílé PLONK ti àwọn ètò ẹ̀rí). Ó ní àwọn oyè BTech àti MTech láti IIT Bombay; ìwádìí àwọn akẹ́kọ̀ọ́ gboyè tó dojúkọ àwọn ẹ̀rí ìpamọ́ tó ń dáàbò bo ìpamọ́.
-
-Ipele 1 dojukọ lori ṣiṣe ayẹwo awọn iwadii ti o wa tẹlẹ, ṣiṣe ayẹwo awọn ikole awọn oludije lodi si aabo Zcash ati awọn ibeere iṣẹ, ati ṣiṣe agbekalẹ imọran to ṣe pataki lẹhin-quantum. A fojusi imuse ti o ṣetan fun iṣelọpọ fun opin ọdun 2027.
+- [Ètò Ìdánilójú Nẹtiwọọki](https://shieldedlabs.net/nsm/) - A ṣeto ti a dabaa ayipada pinnu lati se atileyin Zcash ká gun-igba aabo isuna nigba mimu awọn 21 million ZEC ipese to. Awọn NSM ise pẹlu ikọkọ ZEC burns, idasilẹ smoothing, ati owo-ẹru sisun igbero apejuwe ni 233, 234, ati 235 zips.
+- [Crosslink](https://shieldedlabs.net/crosslink-faq/) - Àtúnṣe ìfọwọ́sowọ́pọ̀ tí a dábàá èyí tó máa pa iṣelọpọ ẹri-iṣẹ Zcash pọ̀ pẹlú èrí ìdínà, kí àwọn olùkópa nínú ZEC lè ṣèrànlọ́wọ́ láti ṣe ààbò nẹtiwù náà nígbàtí àwọn awakùsà ń bá iṣẹ́ ṣíṣe lọ.
+- [Àwọn Owó-ìṣúná tí ó wà ní ìmúṣẹ](https://shieldedlabs.net/fees/) - Iwadii ati irinṣẹ fun awọn idiyele iṣowo Zcash ti o ni asọtẹlẹ diẹ sii, ore-olumulo, ati resilient bi nẹtiwọọki ṣe dagbasoke.
+- [Kò sí nǹkan kan.](https://shieldedlabs.net/zero/) - A supported suite of open-source Zcash infrastructure software for exchanges, mining pools, wallet providers, and other organizations that rely on Zcash infrastructure.
+- [Ironwood](https://shieldedlabs.net/ironwood/) - Àtúnṣe sí ẹ̀rọ Zcash àti ìsọ̀rí tí a dá ní ìdáhùn si àléébù òdì-dídi ti Orchard, èyí tí wọ́n ṣe láti mú kí àwọn ohun èlò tó ń tà káàkiri nínú Zcash padà wà bó ṣe yẹ.
 
 ## Àfikún Igi Ironwood
 
-Ní ọdún 2026, Shielded Labs kó ipa pàtàkì nínú ìdáhùn sí ìṣòro ìbàjẹ́ Orchard. Taylor Hornby, olùwádìí ààbò Shielded Labs ló ṣàwárí ìṣòro náà, wọ́n sì sọ fún Zcash Open Development Lab (ZODL), èyí tó ṣètò àtúnṣe pajawiri pẹ̀lú àwọn olùrànlọ́wọ́ Zcash mìíràn.
+Ni 2026, Shielded Labs ṣe ipa pataki ninu idahun ilolupo si ailagbara ti o jẹ aṣiṣe Orchard. Aṣayan naa ni a rii nipasẹ oluwadi aabo Awọn Labọ Iboju, Taylor Hornby ati ṣafihan fun Zcash Open Development Lab (ZODL), eyiti o ṣe atunṣe pajawiri pẹlu awọn alabapin miiran Zcash .
 
-Lẹ́yìn àtúnṣe pajawiri náà, àwùjọ náà ṣì nílò ọ̀nà láti mú ìgbẹ́kẹ̀lé ara ẹni padà sí i nínú ìpèsè Zcash's tí ń lọ káàkiri. Ironwood yanjú èyí nípa ṣíṣẹ̀dá adágún tuntun tí a dáàbò bò nípa lílo ẹ̀rọ Orchard tí a túnṣe àti nípa dídi adágún Orchard àtilẹ̀wá náà kí owó lè jáde láti inú ẹ̀rọ turnstile nìkan. Shielded Labs ṣiṣẹ́ pẹ̀lú Project Tachyon, Valar Group, ZODL, àti Zcash Foundation lórí ṣíṣe àwòrán, àtúnyẹ̀wò, àti ìmúrasílẹ̀ àyíká fún Ironwood.
+After the emergency fix, the community still needed a way to restore independent confidence in Zcash's circulating supply. Ironwood addressed that by creating a new shielded pool using the corrected Orchard circuit and by sealing the original Orchard pool so funds could leave only through the turnstile. Shielded Labs worked alongside Project Tachyon, Valar Group, ZODL, and the Zcash Foundation on the design, review, and ecosystem preparation for Ironwood.
 
-Iṣẹ́ yìí fi ọ̀kan lára àwọn ipa pàtàkì Shielded Labs' nínú Zcash: fífi agbára ìdàgbàsókè ìlànà àti ààbò tí ó wà níta àwọn àjọ ìdàgbàsókè Zcash àtilẹ̀wá kún un.
+Iṣẹ yii ṣe afihan ọkan ninu awọn ipa pataki Shielded Labs ni Zcash: fifi idagbasoke ilana ominira ati agbara aabo ti ita awọn ajo idagbasoke akọkọ Zcash.
 
-## Iṣẹ́ Ìṣàkóso
+## Iṣẹ́ Ìdarí Ìjọba
 
-Shielded Labs tun n tẹ alaye nipa ijọba jade fun awọn ọmọ ẹgbẹ agbegbe Zcash. Oju-iwe iṣakoso rẹ n tọpa awọn idibo iṣakoso ilana, ikopa ZCAP, inawo ti awọn oniwun owo darí, ati awọn apo ibo ti o ni atilẹyin. Eyi ṣe iranlọwọ lati jẹ ki ṣiṣe ipinnu Zcash rọrun lati tẹle fun awọn oniwun owo, awọn ọmọ ẹgbẹ ZCAP, ati awọn olukopa agbegbe gbooro.
+Shielded Labs also publishes governance information for Zcash community members. Its governance page tracks protocol governance polls, ZCAP participation, coinholder-directed funding, and supported voting wallets. This helps make Zcash decision-making easier to follow for coinholders, ZCAP members, and broader community participants.
 
-Zcash kò lo ìṣàkóso aládàáṣe lórí ẹ̀rọ ìbánisọ̀rọ̀ fún àwọn àyípadà ìlànà. Àwọn ìdìbò àti àbáwọlé àwùjọ jẹ́ àwọn àmì ìmọ̀ràn tí ó ń fúnni ní ìṣọ̀kan tó gbòòrò. Iṣẹ́ ìṣàkóso Shielded Labs' ń ran lọ́wọ́ láti jẹ́ kí àwọn àmì wọ̀nyẹn rọrùn láti rí gbà àti láti jẹ́rìí sí i.
+Zcash kò lo ìdarí on-chain tí ó wà ní alákòókò fún àwọn àtúnṣe ìlànà. Ìwádìí àti èrò àwùjọ jẹ àmì ìmọ̀ràn tó ń pèsè oúnjẹ sínú ètò àdéhùn gbogbogbo ti o gbooro jùlọ. Iṣẹ́ ìṣàkóso Shielded Labs ṣe iranlọwọ láti mú kí àwọn àmì wọ̀nyìí rọrùn láti rí gbà, kó sì tún rọrùn láti ṣàyẹ̀wò wọn.
 
-## Àwọn ohun àlùmọ́nì
+## Àwọn Owó-ìṣúnná owó
 
-- [Oju opo wẹẹbu Shielded Labs](https://shieldedlabs.net/)
-- [Àwọn iṣẹ́ àgbékalẹ̀ Shielded Labs](https://shieldedlabs.net/projects/)
-- [Ọ̀nà Ìdúróṣinṣin Nẹ́tíwọ́ọ̀kì](https://shieldedlabs.net/nsm/)
-- [Awọn Ibeere Nigbagbogbo Crosslink](https://shieldedlabs.net/crosslink-faq/)
-- [Awọn idiyele Oniyipada](https://shieldedlabs.net/fees/)
-- [Òdo](https://shieldedlabs.net/zero/)
+- [Ìkànnì Shielded Labs](https://shieldedlabs.net/)
+- [Àwọn iṣẹ́ tí wọ́n ń ṣe ní àwọn ilé-ìwádìí Shielded Labs](https://shieldedlabs.net/projects/)
+- [Ètò Ìdánilójú Nẹtiwọọki](https://shieldedlabs.net/nsm/)
+- [Crosslink FAQ](https://shieldedlabs.net/crosslink-faq/)
+- [Àwọn Owó-ìṣúná tí ó wà ní ìmúṣẹ](https://shieldedlabs.net/fees/)
+- [Kò sí nǹkan kan.](https://shieldedlabs.net/zero/)
 - [Ironwood](https://shieldedlabs.net/ironwood/)
-- [Epoch: Ìkọ̀kọ̀ Ìdánilójú Ọjọ́ iwájú fún Zcash](https://shieldedlabs.net/epoch-future-proof-cryptography-for-zcash/)
-- [Ẹgbẹ́](https://shieldedlabs.net/team/)
-- [Ìṣàkóso àti ìdìbò](https://shieldedlabs.net/governance/)
-- [Shielded Labs GitHub](https://github.com/ShieldedLabs)
+- [Ìdarí àti ìdìbò](https://shieldedlabs.net/governance/)
+- [Àwọn Ilé-ìwádìí Ààbò GitHub](https://github.com/ShieldedLabs)

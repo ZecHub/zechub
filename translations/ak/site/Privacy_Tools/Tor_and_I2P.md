@@ -5,21 +5,13 @@
 
 # Nea Enti a Kokoam Nsɛm Ho Hia
 
-## TL;DR
-
-- **Tor** fa wo traffic kwan fa relays abiɛsa so na ɛyɛ adwuma ma wɛb ne onion dwumadie a ɛyɛ daa no nyinaa — ɛnnɛ ɛyɛ default a ɛyɛ adwuma ma anonymising wallet connections ne browsing
-- **I2P** yɛ peer-to-peer overlay network a wɔabɔ no kokoam koraa a wɔayɛ ama n’ankasa emu nnwuma; **mprempren Zcash node biara nni hɔ a ɛka I2P ankasa**
-- **Wɔ mobile so:** fa Zcash sika kotoku bi fa Tor so wɔ tap kakraa bi mu ne Orbot ("Tor Enabled Apps")
-- **Zcash node a wobɛtu mmirika wɔ Tor so no ntumi nyɛ yie mprempren:** `zcashd` duu mmoa awiei wɔ 18 July 2026, na Zebra's Tor feature no da so ara yɛ adwuma wɔ soro
-- Tor de *baabi a wowɔ* sie, ɛnyɛ *nea woyɛ wɔ nkɔnsɔnkɔnsɔn so* — nnwuma a ɛda adi pefee da so ara wɔ baguam
-
 Wɔ dijitaal bere yi mu no, ahobammɔ a wobɛbɔ wo [kokoamusɛm](https://www.privacyguides.org/en/) abɛyɛ nea ɛho hia kɛse. Bere a ebia ebinom bebu kokoam nsɛm sɛ ade a ayera de, nanso ɛnte saa. Wo kokoam nsɛm da asiane mu na ɛsɛ sɛ ɛyɛ ade a ɛhaw wo. Kokoam nsɛm som bo kɛse efisɛ ɛfa tumi ho, na hwɛ a wɔbɛhwɛ sɛ wɔde tumi bedi dwuma wɔ asɛyɛde mu no ho hia yiye.
 
 ## Tor & I2P Mfiridwuma Ho Nneɛma
 
 ## Tor
 
-[Tor](https://www.privacyguides.org/en/tor/?h=tor) yɛ proxy adwinnade a ɛde Tor network no di dwuma de hyehyɛ nkitahodi ma application ahorow. Tor nya eyi denam wɔn kar akwan a wɔfa Tor, na ɛnam so ma ɛyɛ kɛse [kokoam nsɛm ne din a wɔmmɔ](https://www.torproject.org/) ma saa akwammisa ahorow yi.
+[Tor](https://www.privacyguides.org/en/tor/?h=tor) yɛ proxy adwinnade a ɛde Tor network no di dwuma de hyehyɛ nkitahodi ma application ahorow. Torbot nya eyi denam wɔn kar a wɔde fa Tor, na ɛnam so ma ɛyɛ kɛse [kokoam nsɛm ne din a wɔmmɔ](https://www.torproject.org/) ma saa akwammisa ahorow yi.
 
 ## I2P Ntrɛwmu
 
@@ -51,13 +43,13 @@ Di akwankyerɛ yi akyi na fa Zcash sika kotoku bi fa Tor. Hyɛ no nsow sɛ YWall
 
 1.  Twe na fa *Orbot* fi app store no so.
 
-2.  Sɛ wo instɔl wie a, nkyia nkrasɛm bɛda adi. Kɔ so kɔ *Orbot* home page no so na klik *'Tor Enabled Apps' so.* 
+2.  Sɛ insatllation wie a, nkyia nkrasɛm bɛda adi. Kɔ so kɔ *Orbot* home page no so na klik *'Tor Enabled Apps' so.* 
 
-3. Wei bɛma woanya kratafa bi wɔ screen no so a ɛkyerɛ application ahorow Tor-compatible. Hwehwɛ wo Zcash sika kotoku no wɔ list no mu na hwɛ hu sɛ woapaw.
+3. Wei bɛma woanya kratafa bi wɔ screen no so a ɛkyerɛ application ahorow Tor-compatible. Hwehwɛ wo Zcash sika kotoku no wɔ list no mu na hwɛ hu sɛ wɔapaw.
 
 4. Nkitahodi abisade a wɔde besiesie VPN bɛda adi, a ɛbɛma *Orbot* atumi ahwɛ ntwamutam akwantuo no so. *Orbot* bɛ Initialise bere a wɔapene saa kwan yi so pɛn. 
 
-5. Hwɛ taskbar anaa Orbot homepage no mu na hwɛ sɛ Tor reyɛ adwuma, eyi yɛ nea wɔasi so dua bere a wuhu sɛ ‘Wɔabɔ Tor ntwamutam’.
+5. Hwɛ taskbar anaa Orbot homepage no mu na hwɛ sɛ Tor reyɛ adwuma, eyi yɛ nea wɔasi so dua bere a wuhu 'Connected to the Tor network'.
 
 *Hyɛ no nsow: Sɛ wo mobile network no siw Tor kwan a, wubetumi de Bridge Server adi dwuma sɛ ɔkwan foforo a wobɛfa so abɔ.*
 
@@ -93,11 +85,3 @@ Sɛ wo hia node-level anonymity seesei a, ɔkwan a ɛyɛ adwuma ne sɛ wode afir
 - **Fa wo sika kotoku no fa Tor** a Orbot wɔ mobile so, sɛnea yɛaka ho asɛm wɔ atifi hɔ no. Eyi ne ɔkwan a mfaso wɔ so ma nnipa dodow no ara, na ɛde wo IP sie fi lightwalletd server a wo sika kotoku ne no kasa no
 - **Fa Tor Browser** di dwuma ma block explorers, forums ne biribi foforo biara a wobɛpɛ sɛ womfa address nhyɛ wo nkyɛn
 - **Kae nea Tor mfa nsie.** Ɛma wo network beae a wowɔ no yɛ anonymizes, ɛnyɛ wo on-chain dwumadi. Sɛ wode fi address a ɛda adi pefee so mena a, ɛda so ara yɛ baguam, na bo a ɛsom a ɛda atare a wɔabɔ ho ban ntam no da so ara tintim sika dodow no. Hwɛ [Atare a Wɔabɔ Ho Ban](/using-zcash/shielded-pools) esiane nea ɛda so ara yɛ nea wotumi hu nti
-
-## Nkratafa a ɛfa ho
-
-- [VPN ne DVPN](VPN_and_DVPN.md) — VPN alternatives ne sɛnea wɔde toto ho
-- [Wɛbsaet Browser ahorow](Web_Browsers.md) — browser hardening ma da biara da kokoamsɛm
-- [Abɔfoɔ a Wɔwɔ Ahobammɔ](Secure_Messengers.md) — kokoam nkitahodi nnwinnade
-- [Nea Block Explorer Betumi Ahu](../Zcash_Tech/What_a_Block_Explorer_Can_See.md) — nea wo node-level kokoamsɛm yɛ ne nea ɛnbɔ ho ban
-- [Atare a Wɔabɔ Ho Ban](/using-zcash/shielded-pools) — nea ɛkɔ so da adi wɔ nkɔnsɔnkɔnsɔn so mpo a network-layer anonymity

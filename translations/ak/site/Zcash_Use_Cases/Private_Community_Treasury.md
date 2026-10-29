@@ -16,7 +16,7 @@
 
 ## <img src="/content-images/user-svgrepo-com-21adf62b7c.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="user icon"/> Who is this for?
 
-- DAOs ne mpɔtam hɔfoɔ
+- DAO ahorow ne mpɔtam hɔfo
 - Ntoboa nhyehyɛe ahorow
 - Akuw a wɔde nneɛma a wɔabue ano
 - Crypto akuw a wɔaboaboa ano
@@ -49,7 +49,7 @@ Zcash ma mpɔtam hɔfoɔ kwan ma:
 
 ## <img src="/content-images/icons8-toolbox-9bebbb1619.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> What You Need
 
-- Zcash sika kotoku (anaasɛ sika kotoku pii a wɔde yɛ dwumadi mu mpaapaemu)
+- Zcash sika kotoku (anaasɛ sika kotoku pii a wɔde yɛ dwumadi mu mpaapaemu) .
 - Nneɛma a ɛwɔ mu a emu da hɔ a wɔde hwɛ sika so
 - Optional: nkrataa a wɔakyekyɛ ama akyi
 
@@ -66,9 +66,9 @@ Zcash ma mpɔtam hɔfoɔ kwan ma:
 ### Anamɔn 2: Kyerɛkyerɛ Dwumadi ahorow mu
 
 Asɛyɛde ahorow a ɛsono emu biara:
-- Sikakorabea sohwɛfo (ɔhwɛ sika so)
-- Wɔn a wɔde mmoa ma (bisa sɛ wɔmfa sika nni dwuma)
-- Nhwehwɛmufo (wɔpene so wɔ wɔn mu)
+- Sikakorabea sohwɛfo (ɔhwɛ sika so) .
+- Wɔn a wɔde mmoa ma (bisa sɛ wɔmfa sika nni dwuma) .
+- Nhwehwɛmufo (wɔpene so wɔ wɔn mu) .
 
 Kwati sɛ wode dwumadi ahorow yi bɛbata ɔmanfo nipasu ho.
 
@@ -85,7 +85,7 @@ Kwati sɛ wode dwumadi ahorow yi bɛbata ɔmanfo nipasu ho.
 
 Fa di dwuma:
 - Wallet ho nkrataa a wɔde kyerɛw nsɛm
-- Off-chain logs (sɛ nhwɛso no, nkrataa a wɔakyekyɛ)
+- Off-chain logs (e.g., nkrataa a wɔakyekyɛ) .
 
 Nhwɛso memo: 
  - Grant #12 - Developer Katua
@@ -94,7 +94,7 @@ Nhwɛso memo:
 
 ### Anamɔn 5: Yɛ Katua Ho Ka wɔ Kokoam
 
-- Fa sika mena denam nnwuma a wɔabɔ ho ban so (z → z)
+- Fa sika mena denam nnwuma a wɔabɔ ho ban so (z → z) .
 - Kwati sɛ wobɛpa wɔn a wogye no no din wɔ baguam
 
 <br/>
@@ -121,7 +121,7 @@ Wo mpɔtam hɔfo betumi:
 
 ## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="chain-links icon"/> Related
 
-- [Hena na obetumi ahu wo Zcash sikatua](/start-here/who-can-see-your-zcash-payment)
+- [Privacy - Nneyɛe a eye sen biara](/start-here/who-can-see-your-zcash-payment)
 - [Fa sika mena a womfa wo ho nhyɛ wo ho](/zcash-use-cases/send-money-without-linking-identity)
  
 

@@ -5,21 +5,13 @@
 
 # Kwa Nini Faragha Ni Muhimu
 
-## TL;DR
-
-- **Tor** huelekeza trafiki yako kupitia rela tatu na inafanya kazi kwa huduma za kawaida za wavuti na onion — leo ni chaguo-msingi linalofaa kwa kuficha utambulisho wa miunganisho ya pochi na kuvinjari
-- **I2P** ni mtandao wa kufunika wa rika-kwa-rika uliosimbwa kwa njia fiche kikamilifu ulioundwa kwa ajili ya huduma zake za ndani; **hakuna nodi ya sasa Zcash inayozungumza I2P ya asili**
-- **Kwenye simu:** tumia pochi ya Zcash kupitia Tor kwa mibofyo michache ukitumia Orbot ("Tor ")
-- **Kuendesha nodi Zcash juu ya Tor haiwezekani kwa sasa:** `zcashd` ilifikia mwisho wa usaidizi mnamo 18 Julai 2026, na kipengele cha Tor Zebra's bado kimezimwa juu ya mkondo
-- Tor huficha *ulipo*, si *unachofanya kwenye mnyororo* — miamala ya uwazi hubaki hadharani
-
 Katika enzi ya kidijitali, kulinda [faragha](https://www.privacyguides.org/en/) imekuwa muhimu zaidi. Ingawa wengine wanaweza kuona faragha kama sababu iliyopotea, sivyo ilivyo. Faragha yako iko hatarini na inapaswa kuwa jambo la kuhoji. Faragha ina thamani kubwa inapohusiana na mamlaka, na kuhakikisha kwamba mamlaka yanatumiwa kwa uwajibikaji ni muhimu.
 
 ## Teknolojia Tor na I2P
 
 ## Tor
 
-[Tor](https://www.privacyguides.org/en/tor/?h=tor) ni zana ya proksi inayotumia mtandao Tor kuanzisha miunganisho ya programu. Tor inafanikisha hili kwa kuelekeza trafiki yao kupitia Tor, hivyo kuboresha [faragha na kutokujulikana](https://www.torproject.org/) kwa ajili ya matumizi haya.
+[Tor](https://www.privacyguides.org/en/tor/?h=tor) ni zana ya proksi inayotumia mtandao Tor kuanzisha miunganisho ya programu. Torbot hufanikisha hili kwa kuelekeza trafiki yao kupitia Tor, hivyo kuboresha [faragha na kutokujulikana](https://www.torproject.org/) kwa ajili ya matumizi haya.
 
 ## Mtandao wa I2P
 
@@ -51,13 +43,13 @@ Fuata maagizo haya ili kuelekeza pochi Zcash kupitia Tor. Kumbuka kwamba YWallet
 
 1.  Pakua na usakinishe *Orbot* kutoka duka la programu.
 
-2.  Baada ya usakinishaji, ujumbe wa salamu utaonekana. Endelea hadi ukurasa wa nyumbani *Orbot* na ubofye *'Tor '.* 
+2.  Baada ya kuingizwa, ujumbe wa salamu utaonekana. Endelea hadi ukurasa wa nyumbani wa *Orbot* na ubofye *'Tor '.* 
 
 3. Hii itaonyesha ukurasa kwenye skrini unaoonyesha programu Tor-compatible. Tafuta pochi yako ya Zcash kwenye orodha na uhakikishe kuwa imechaguliwa.
 
 4. Ombi la muunganisho la kuanzisha VPN litaonekana, ambalo litaruhusu *Orbot* kufuatilia trafiki ya mtandao. *Orbot* itaanzisha mara tu ruhusa hii itakapoidhinishwa. 
 
-5. Angalia upau wa kazi au ukurasa wa nyumbani Orbot ili kuthibitisha kwamba Tor inafanya kazi, hii inathibitishwa unapoona 'Imeunganishwa kwenye mtandao Tor '.
+5. Angalia upau wa kazi au ukurasa wa nyumbani wa Orbot ili kuthibitisha kwamba Tor imeendeshwa, hii inathibitishwa unapoona 'Imeunganishwa kwenye mtandao Tor '.
 
 *Kumbuka: Ikiwa Tor imezuiwa na mtandao wako wa simu, unaweza kutumia Seva ya Bridge kama njia mbadala ya kuunganisha.*
 
@@ -93,11 +85,3 @@ Ikiwa unahitaji kutokujulikana kwa kiwango cha nodi sasa, mbinu inayofaa ni kuwe
 - **Tumia pochi yako kupitia Tor** ukitumia Orbot kwenye simu, kama ilivyoelezwa hapo juu. Hii ndiyo chaguo linalofaa kwa watu wengi, na huficha IP yako kutoka kwa seva ya lightwalletd ambayo pochi yako inazungumza nayo
 - **Tumia Tor Browser** kwa wachunguzi wa block, majukwaa na kitu kingine chochote ambapo hungependa kuunganishwa kwa anwani
 - **Kumbuka kile ambacho Tor haifichi.** Huficha eneo la mtandao wako, si shughuli zako kwenye mnyororo. Kutuma kutoka kwa anwani iliyo wazi bado ni kwa umma, na uvukaji wa thamani kati ya mabwawa yaliyolindwa bado huchapisha kiasi hicho. Tazama [Mabwawa ya Kuogelea Yenye Ngao](/using-zcash/shielded-pools) kwa kile kinachobaki kuonekana
-
-## Kurasa zinazohusiana
-
-- [VPN na DVPN](VPN_and_DVPN.md) — Njia mbadala za VPN na jinsi zinavyolinganishwa
-- [Vivinjari vya Wavuti](Web_Browsers.md) — ugumu wa kivinjari kwa faragha ya kila siku
-- [Wajumbe Salama](Secure_Messengers.md) — zana za mawasiliano ya kibinafsi
-- [Kile Kivinjari cha Block Anaweza Kuona](../Zcash_Tech/What_a_Block_Explorer_Can_See.md) — faragha yako ya kiwango cha nodi hufanya nini na hailindi nini
-- [Mabwawa ya Kuogelea Yenye Ngao](/using-zcash/shielded-pools) — kinachoendelea kuonekana kwenye mnyororo hata kwa kutokujulikana kwa safu ya mtandao

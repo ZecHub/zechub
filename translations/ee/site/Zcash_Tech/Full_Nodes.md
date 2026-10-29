@@ -44,7 +44,7 @@ Zakura nye evelia si sɔ ɖe nukpɔsusu ɖeka nu blibo node, forked tso Zebra ey
 
 > **De dzesii:** zcashd xɔ dzudzɔ le dɔme. Electric Coin Company [ɖe gbeƒãe be woɖe asi le eŋu](https://z.cash/support/zcashd-deprecation/)zcashd NU6.3. Zã Zebra. Ne èlé zcashd ɖe asi `wallet.dat`, dze eyome [Ʋuʋu ƒe Mɔfiame: zcashd yi zebrad/Zallet](https://zechub.wiki/guides/migration-guide-zcashd-to-zebrad-zallet).
 
-zcashd nye Full Node ƒe dɔwɔwɔ gbãtɔ na Zcash, si Electric Coin Company. Wodzra xɔtutu ƒe mɔfiame siwo le ete ɖo hena numekuku kple na dɔwɔla siwo le ʋuʋum le zcashd.
+zcashd nye Full Node ƒe dɔwɔwɔ gbãtɔ na Zcash, si Electric Coin Company. Wodzra xɔtutu ƒe mɔfiame siwo le ete ɖo hena numekuku kple na dɔwɔla siwo le ʋuʋum tso zcashd.
 
 zcashd ɖea API ƒe hatsotso aɖe ɖe go to eƒe RPC ŋgɔdonya dzi. API siawo naa dɔwɔwɔ siwo ɖea mɔ na gotagome dɔwɔɖoɖowo be woawɔ nu kple node la.
 
@@ -98,11 +98,11 @@ DNS seeders ɖea node bubu siwo ŋu kakaɖedzi le ƒe xexlẽdzesi ɖe go to ser
 
 ### Network ƒe Akɔntabubuwo
 
-Esiawo nye kpɔɖeŋu mɔ̃ siwo ɖea mɔ be woakpɔ Zcash Network ƒe nyatakakawo:
+Esiawo nye kpɔɖeŋu mɔnu siwo ɖea mɔ be woakpɔ Zcash Network ƒe nyatakakawo:
 
 [Zcash Block ƒe Ʋuʋudedi](https://mainnet.zcashexplorer.app)
 
-[Coin Metrics](https://docs.coinmetrics.io/info/assets/zec)
+[Gakuwo ƒe xexlẽdzesiwo](https://docs.coinmetrics.io/info/assets/zec)
 
 Àte ŋu akpe asi ɖe network la ƒe ŋgɔyiyi hã ŋu to dodokpɔwo wɔwɔ alo ŋgɔyiyi yeyewo dodo ɖe ŋgɔ & metrics nana me.
 

@@ -31,9 +31,9 @@ Nya veviwo, nukpɔsusuwo, kple nunɔamesi siwo ku ɖe Zcash. Esia nye agbalẽdz
 | Nya | Gɔmeɖeɖe |
 |------|-----------|
 | Canopy | 5th Major Network Upgrade na Zcash. [Nyatakaka Bubuwo](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html?highlight=orchard#canopy) |
-| Commitment Scheme | Enaa mɔ na committer be wòatsɔ eɖokui ana ɖe polynomial si me ka kpui aɖe le si verifier ateŋu azã atsɔ aɖo kpe committed ƒe dodokpɔ siwo wogblɔ dzi. Viɖe le eŋu na kadodo ƒe gazazãwo dzi ɖeɖe kpɔtɔ le Zcash ɖoɖowɔɖi me. |
-| Community | [Zcash Nutome Takpekpe si Dziɖuɖua le](https://forum.zcashcommunity.com) / [Zcash Nutome Discord](https://discord.com/channels/669694001464737815/669694001921654794) / [Zcash Numekuku Kple Dɔwɔnawo Discord](https://discord.com/invite/6AK7keWFaK) / [Reddit](https://www.reddit.com/r/zec/) / [Telegram](https://t.me/Zcash_Community) / [Twitter](https://x.com/zcash) |
-| Crosslink | Aɖaŋuɖoɖo si wodo ɖa be woawɔ ɖeka kple wo nɔewo si awɔ dɔ ƒe kpeɖodzi si akpe ɖe Zcash's dɔwɔwɔ ƒe kpeɖodzi si li fifia ŋu. Shielded Labs xɔa ŋgɔ na dɔa eye wòléa kpɔɖeŋu aɖe ɖe asi le.. `zebra-crosslink` nudzraɖoƒe. Crosslink menye Zcash ƒe akpa aɖeke egbea o. [Crosslink ɖoɖowɔɖi](/zcash-tech/crosslink-protocol) |
+| Commitment Scheme | Enaa mɔ na committer be wòatsɔ eɖokui ana ɖe polynomial si me ka kpui aɖe le si verifier ateŋu azã atsɔ aɖo kpe committed ƒe dodokpɔ siwo wogblɔ dzi. Viɖe le eŋu na kadodo ƒe gazazãwo dzi ɖeɖe kpɔtɔ le Zcash ɖoɖowɔɖia me. |
+| Community | [Zcash Nutome Takpekpe si Dziɖuɖua le](https://forum.zcashcommunity.com) / [Zcash Nutome Discord](https://discord.com/channels/669694001464737815/669694001921654794) / [Zcash Numekuku Kple Dɔwɔnawo Discord](https://discord.com/invite/6AK7keWFaK) / [Reddit dzi](https://www.reddit.com/r/zec/) / [Telegram](https://t.me/Zcash_Community) / [Twitter](https://x.com/zcash) |
+| Crosslink | Aɖaŋuɖoɖo si wodo ɖa be woawɔ ɖeka kple wo nɔewo si awɔ dɔ ƒe kpeɖodzi si akpe ɖe Zcash's dɔwɔwɔ ƒe kpeɖodzi si li fifia ŋu. Shielded Labs kplɔa dɔa eye wòléa kpɔɖeŋu aɖe ɖe asi le.. `zebra-crosslink` nudzraɖoƒe. Crosslink menye Zcash ƒe akpa aɖeke egbea o. [Crosslink ɖoɖowɔɖi](/zcash-tech/crosslink-protocol) |
 | CrossPay | Nɔnɔme aɖe si le ZODL gakotokua me si na nèzãa ZEC si wokpɔ ta na esime woxea fe na amesi xɔe le nunɔamesi kple kɔsɔkɔsɔ si wodi me, si woɖona to NEAR Intents tsɔ wu be woato asitɔtrɔ le teƒe ɖeka dzi. |
 | Cypherpunk Zero | Nuwɔwɔ ƒe Xexeame katã kple nuwɔwɔ aduadu ƒe agbagbadzedze le ECC, nɔnɔmetatawɔla Stranger Wolf, Mighty Jaxx kple lãwo ƒe agbenɔnɔ ƒe hadɔwɔla tiatia aɖewo dome. [Cypherpunk Zero Hadomegbenɔnɔ](https://x.com/cypherpunkZero) / [OpenSea ƒe Nuƒoƒoƒu](https://opensea.io/collection/cypherpunk-zero) |
 
@@ -56,7 +56,7 @@ Nya veviwo, nukpɔsusuwo, kple nunɔamesi siwo ku ɖe Zcash. Esia nye agbalẽdz
 | Encrypted Memos | Akpa bubu si woatsɔ awɔ asitsatsa siwo woɖo ɖe adrɛs siwo ŋu wokpɔ ta na si woate ŋu akpɔ na amesi xɔ fetu. Memo si wotsɔ nya ɣaɣlawo ŋlɔ la dzena na ame si ɖoe ɖa kple amesi xɔe ko. |
 | Equihash | Memory-oriented proof-of-work mining algorithm si wozãna le Zcash. |
 | Events | Woateŋu akpɔ nudzɔdzɔ Zcash-related ƒe ɣletigbalẽ dzi [Luma](https://luma.com/zcash) kple [Zcash Foundation](https://zfnd.org/zf-events/) |
-| Exchanges | [Exchange siwo doa alɔ Zcash ƒe xexlẽdzesi](https://z.cash/exchanges/) |
+| Exchanges | [Exchange siwo doa alɔ Zcash ƒe xexlẽdzesiwo](https://z.cash/exchanges/) |
 
 ## F
 
@@ -89,7 +89,7 @@ Nya veviwo, nukpɔsusuwo, kple nunɔamesi siwo ku ɖe Zcash. Esia nye agbalẽdz
 | Index | CoinDesk's ZCX Index tsi tre ɖi na ɣeyiɣi ŋutɔŋutɔ, USD-si sɔ kple spot rate na Zcash. [Asixɔxɔ ƒe Nɔnɔmetata](https://www.coindesk.com/indices/zcx/) |
 | Integrations | Àte ŋu axɔ Zcash ƒe fexexe to ame 3 lia ƒe dɔwɔƒe geɖewo dzi. [Fexexe Ŋuti Dɔwɔlawo](https://z.cash/zcash-for-business/) |
 | Interactive Proof System | Mɔ̃ si me susu mele o si wɔa akɔntabubu ƒe kpɔɖeŋu abe gbedasiwo ƒe asitɔtrɔ le ame eve dome ene: Dodokpɔla kple Kpeɖodzila. |
-| Investment | Ganyawo ƒe tiatia geɖewo li na dɔwɔƒewo ƒe gadelawo alo ƒomea ƒe dɔwɔƒe siwo di be yewoakpɔ gome le Zcash. [Ŋkɔwo ƒe xexlẽdzesi bliboa](https://z.cash/investors/) |
+| Investment | Ganyawo ƒe tiatia geɖewo li na dɔwɔƒewo ƒe gadelawo alo ƒomea ƒe dɔwɔƒe siwo di be yewoakpɔ Zcash. [Ŋkɔwo ƒe xexlẽdzesi bliboa](https://z.cash/investors/) |
 | Ironwood | Network upgrade NU6.3, live on mainnet since block 3,428,143 on 28 July 2026. Ironwood tsɔ shielded pool yeye si wotu ɖe Orchard circuit si woɖɔ ɖo la kpee eye wòtre Orchard pool gbãtɔa nu, ale be amesiame ateŋu akpɔe ɖa be nusi le tsatsam la nye anukwareɖila. Wogblɔ eƒe se siwo dzi woda asi ɖo le [ZIP 258 ƒe xexlẽdzesi](https://zips.z.cash/zip-0258). [Ironwood](/zcash-tech/ironwood) |
 
 ## J
@@ -131,7 +131,7 @@ Nya veviwo, nukpɔsusuwo, kple nunɔamesi siwo ku ɖe Zcash. Esia nye agbalẽdz
 | Noir Wallet | Zcash browser kekeɖenudzraɖoƒe si Zcash Community Grants, si wotu be wòatsɔ ZEC si wokpɔ ta na la aƒo ƒu ɖe browser ƒe dɔwɔɖoɖowo ŋu tẽ tsɔ wu be woaɖo ŋu ɖe QR codewo kple asiɖoɖoɖa ŋu. [zknoir.com dzi](https://www.zknoir.com/) |
 | NU5 | 6th Major Network Upgrade na Zcash, si to Orchard shielded pool kple Unified Addresses vɛ. [Nyatakaka Bubuwo](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#nu5) |
 | NU6 | 7th Major Network Upgrade for Zcash, asitɔtrɔ le block subsidy ŋu be woatsɔ akpɔ ga na Zcash Community Grants ɖoɖoa kple Deferred Dev Fund Lockbox. Wowɔ dɔ le ƒe 2024 ƒe nuwuwu lɔƒo. [Nyatakaka Bubuwo](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#nu6) |
-| NU7 | Netwɔƒea ƒe ɖɔɖɔɖo le Ironwood, woɖoe be woawɔ mainnet le 5 November 2026. Per [ZIP 259 ƒe xexlẽdzesi](https://zips.z.cash/zip-0259) ehea sɛkɛnd 25 ƒe mɔxexe (ZIP 218), Network Sustainability Mechanism kple fetu gbugbɔgazã (ZIP 235 kple 237), kple version 4 ƒe asitsatsa ƒe nuwuwu vɛ, si na Sprout ƒe gawo megazãna o (ZIP 2003). Metsɔa asitsatsa ƒe ɖoɖo yeye aɖeke kpenɛ o; Tachyon kple Zcash Shielded Assets menye eƒe akpa aɖeke o. |
+| NU7 | Network ƒe tɔtrɔ gã si kplɔe ɖo le Ironwood. Nusiwo le ame siwo di be yewoaxɔ ɖoƒea dometɔ aɖewoe nye Project Tachyon's dzidziɖedzidɔ, Zcash Shielded Assets, kple Network Sustainability Mechanism. |
 
 ## O
 
@@ -240,7 +240,7 @@ Nya veviwo, nukpɔsusuwo, kple nunɔamesi siwo ku ɖe Zcash. Esia nye agbalẽdz
 | Zebra | Node blibo si xɔ ɖe zcashd, si Zcash Foundation. Ƒu du ne èhiã na node si ɖo kpe edzi. [Zebra blibo ƒe node](/zcash-tech/zebra-full-node) |
 | zcashd | Zcash full node kple gakotoku gbãtɔ, si xɔ dzudzɔ le dɔme fifia. Version 6.20.0 tu eɖokui le block 3417100 le 18 July 2026 dzi eye medo alɔ NU6.3. Du Z3 stack alo Zakura boŋ. [Ʋuʋu ƒe mɔfiame](/guides/migration-guide-zcashd-to-zebrad-zallet) |
 | ZIP | Zcash Improvement Proposal - nutoa me dziɖuɖu ƒe ɖoɖo si wozãna tsɔ doa susu ɖa heda asi ɖe ɖoɖowɔɖi ƒe tɔtrɔwo dzi. [ZIP Nudzraɖoƒe](https://github.com/zcash/zips) |
-| ZODL | Zcash Ʋuʋu ƒe Ŋgɔyiyi Dɔwɔƒe. Habɔbɔ si le eɖokui si si Josh Swihart kple Electric Coin Company mɔ̃ɖaŋudɔwɔlawo ƒe ƒuƒoƒo tsãtɔ ɖo le ƒe 2026 ƒe gɔmedzedze esi woɖe asi le dɔ ŋu le dziɖuɖu ŋuti nyaʋiʋli aɖe si nɔ wo kple Bootstrap. Efɔ ga si wu dɔlar miliɔn 25 le nukuwo ƒe ga me le March 2026 me eye wòléa be na ZODL gakotoku si wotrɔ ŋkɔ tso Zashi le February 2026 me. [zodl.com dzi](https://zodl.com) |
+| ZODL | Zcash Ʋuʋu ƒe Ŋgɔyiyi Dɔwɔƒe. Habɔbɔ si le eɖokui si si Josh Swihart kple Electric Coin Company mɔ̃ɖaŋudɔwɔlawo ƒe ƒuƒoƒo tsãtɔ ɖo le ƒe 2026 ƒe gɔmedzedze esi woɖe asi le dɔ ŋu le dziɖuɖu ŋuti nyaʋiʋli aɖe si nɔ wo kple Bootstrap dome ta. Efɔ ga si wu dɔlar miliɔn 25 le nukuwo ƒe ga me le March 2026 me eye wòléa be na ZODL gakotoku si wotrɔ ŋkɔ tso Zashi le February 2026 me. [zodl.com dzi](https://zodl.com) |
 | zk-SNARKs | Zero-Sidzedze Succinct Non-Interactive Arguments of Knowledge — nya ɣaɣlawo ƒe nuŋɔŋlɔ si naa ŋusẽ Zcash si kpɔa asitsatsa ta. Ðe mɔ be woaɖo kpe nya aɖe dzi (le kpɔɖeŋu me, gazazã si sɔ) evɔ womaɖe nyatakaka ɣaɣla aɖeke afia o. |
 | ZSA (Zcash Shielded Assets) | Dzesi siwo zãla na siwo nyi Zcash's adzamenyawo si wokpɔ ta na la dome, si naa nunɔamesi bubu siwo menye ZEC o la ʋuna le wo ɖokui si le network la dzi. Wogblɔe le [ZIP 226 ƒe xexlẽdzesi](https://zips.z.cash/zip-0226). Menye NU7 ([ZIP 259 ƒe xexlẽdzesi](https://zips.z.cash/zip-0259)) eye ŋkeke si dzi woawɔ dɔ aɖeke mele esi o. |
 

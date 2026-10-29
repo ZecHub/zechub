@@ -10,23 +10,9 @@ Anyị gbara ọsọ niile dị n'okpuru site na mbufe n'ezie na 27 Septemba 202
 
 ---
 
-## TL;DR
-
-- ZEC dị na obere akpa Solana gị bụ ihe nnọchianya **Solana** (mint `A7bd…QXaS`) kwadoro 1:1 site n'aka ezigbo ZEC nke NEAR OmniBridge ji n'usoro Zcash — "akwụkwọ ZEC" nke dị na akwụkwọ ndekọ ọha Solana's ma enweghị ike ichebe ya ebe ahụ.
-- Ụzọ ahụ dị nzọụkwụ abụọ: **tinye** ihe nrịbama ahụ na solswap.org (NEAR Intents), wee **wepụ** na near.com gaa na obere akpa gị nke e ji ihe nchekwa kpuchie `u1` Adreesị. Ejila bọtịnụ Swap Phantom's - ọ gaghị enyere gị aka.
-- Jiri obere akpa ego [Ndekọ ndekọ ZecHub](/wallets) akara **Ironwood: Dị njikere**, ma debe obere SOL na Phantom maka ụgwọ Solana.
-- Nnwale anyị n'ezie (27 Septemba 2026, 0.00266336 ZEC): nkwụnye ego ahụ rutere n'ime sekọnd 9, mwepụ ahụ were ihe dị ka nkeji 8, mkpokọta ọnụ ahịa ~0.00025 ZEC + 0.0016 SOL.
-- Ahịrị nchekwa: bịanye aka naanị na arịrịọ ozi na `near.com`/`solswap.org` na `intents.near` n'ime ozi ahụ, pịnyela mkpụrụ okwu gị, ma tinye `u1`, ọ dịghị mgbe ọ bụla `t1`.
-
-## Ihe atụ anya
-
-ZEC na Solana na-arụ ọrụ dị ka **chip kasino**. Ọ na-efu dị ka ego, na ụlọ ahịa kasino — NEAR OmniBridge — na-ekwe nkwa ezigbo akwụkwọ ego (ZEC) nye onye ọ bụla weghachitere chip ahụ. Mana chip ahụ bụ naanị otu ahịrị dị na akwụkwọ ndekọ ego ụlọ ahịa kasino: onye ọ bụla nwere ike ịhụ onye jidere ya, uru ya dabere na sistemụ ụlọ ahịa kasino ahụ ka dị mma. Ịpụpụ na near.com bụ ịga ije na ụlọ ahịa ahụ ma na-akwụ ụgwọ chip ahụ. Ozugbo akwụkwọ ego ahụ dị n'ọdọ mmiri echekwara, ha nọ n'ime obere akpa gị nke na-adịghị ahụkebe - ọ dịghị onye nwere ike ịhụ ego ahụ ma ọ bụ onye nwere ya ọzọ.
-
----
-
 ## Ihe ị ji n'ezie jide
 
-ZEC dị na obere akpa Solana gị bụ ihe nnọchianya na Solana, ọ bụghị mkpụrụ ego dị na netwọk Zcash. NEAR OmniBridge na-ewepụta ya ma jide ezigbo ZEC na yinye Zcash iji kwado ya; àkwà mmiri ahụ anọwo na Solana kemgbe Ọktoba 2025. Ụkwụ Solana ya na-agba ọsọ na ozi Wormhole na NEAR Chain Signatures, ọ bụghị na Zcash light client, yabụ akụkụ Solana dị mma dịka sistemụ abụọ ahụ. Ndị mmadụ na-akpọ ya "akwụkwọ ZEC". Ọ na-esochi ọnụahịa nke ZEC, mana nguzozi ọ bụla na nnyefe ọ bụla dị na akwụkwọ ndekọ ọha Solana's n'okpuru adreesị obere akpa gị, a pụghịkwa ichebe ya mgbe ọ na-anọ ebe ahụ.
+ZEC dị na obere akpa Solana gị bụ ihe nnọchianya na Solana, ọ bụghị mkpụrụ ego dị na netwọk Zcash. NEAR OmniBridge na-enye ya ma jide ezigbo ZEC na yinye Zcash iji kwado ya; àkwà mmiri ahụ anọwo na Solana kemgbe Ọktoba 2025. Ụkwụ Solana ya na-agba ọsọ na ozi Wormhole na NEAR Chain Signatures, ọ bụghị na Zcash light client, yabụ akụkụ Solana dị mma dịka sistemụ abụọ ahụ. Ndị mmadụ na-akpọ ya "akwụkwọ ZEC". Ọ na-esochi ọnụahịa nke ZEC, mana nguzozi ọ bụla na nnyefe ọ bụla dị na akwụkwọ ndekọ ọha nke Solana n'okpuru adreesị obere akpa gị, a pụghịkwa ichebe ya mgbe ọ na-anọ ebe ahụ.
 
 Lelee ma nke gị bụ ezigbo ihe ngosi. Na Phantom, pịa **ZEC** wee pịgharịa gaa na **Banyere Zcash**. Adreesị nkwekọrịta ahụ ga-abụrịrị:
 
@@ -59,13 +45,13 @@ ZecHub anaghị ahọrọ otu maka gị. Họrọ otu n'ime [Ndepụta akpa ZecH
 
 Wụnye obere akpa ego ahụ site na njikọ dị na kaadị ndekọ ya, ọ bụghị site na nsonaazụ ọchụchọ ma ọ bụ mgbasa ozi. Dee mkpụrụ okwu ahụ n'akwụkwọ ma debe ya na ebe na-anọghị n'ịntanetị.
 
-Akpa gị na-egosi ụdị adreesị abụọ:
+Akpa ego gị na-egosi ụdị adreesị abụọ:
 
 ![A Zcash wallet's Receive screen with a shielded address starting u1 and a transparent address starting t1](/content-images/02-zodl-receive-c98cd378fb.webp)
 
 | Malite na | Ụdị | Ihe ọha na eze na-ahụ |
 |---|---|---|
-| `u1` | Adreesị Ejikọtara Ọnụ | Ọ dịghị ihe gbasara gị, mana naanị mgbe ụgwọ ahụ dara n'ọdọ mmiri a na-echebe echebe |
+| `u1` | Unified Address | Ọ dịghị ihe gbasara gị, mana naanị mgbe ụgwọ ahụ dara n'ọdọ mmiri a na-echebe echebe |
 | `t1` | Adreesị doro anya | Adreesị gị na ego gị, ruo mgbe ebighị ebi, dịka ọ dị na Solana |
 
 Jiri `u1` na akara akpa gị dị ka ihe e ji kpuchie `u1` bụ otu ìgwè ndị nnata, ụfọdụ obere akpa na-etinye onye nnata doro anya n'ime ya n'akụkụ nke e ji ihe nchebe kpuchie. Onye na-eziga ozi nke nwere ike ịkwụ naanị adreesị doro anya ga-eji nke ahụ, ụgwọ gị ga-adakwa n'ihu ọha ọbụlagodi na ị tinyere ya `u1`Adreesị akpa ule anyị nke e ji ihe nchekwa kpuchie enweghị ihe nnata doro anya, yabụ nke ahụ agaghị eme. [Ọdọ mmiri e ji kpuchie echebe](/using-zcash/shielded-pools) na-ekpuchi ndị nnata n'ụzọ zuru ezu. Ụfọdụ obere akpa ego na-egosi ihe ọhụrụ `u1` oge ọ bụla ị meghere Nnata; nke ahụ bụ ihe nkịtị, ha niile bụkwa nke gị. Ihe ngosi nnata na mpaghara nnata near.com dị na peeji a na-eji ihe dị iche iche `u1` ihe ndị e ji mee ihe maka nke ahụ.
@@ -76,7 +62,7 @@ Anyị jiri ZODL mee ule anyị n'ihi na ọ bụ obere akpa anyị setịpụr�
 
 ## Bugharịa ya
 
-Ụzọ ahụ nwere akụkụ abụọ: tinye ZEC gị na NEAR Intents site na Phantom, wee ziga ya na adreesị Zcash gị. Anyị jiri ya [solswap.org](https://solswap.org), ebe nrụọrụ weebụ NEAR-built maka ndị ọrụ Solana, maka akụkụ mbụ na [near.com](https://near.com), ngwa NEAR's n'onwe ya, maka nke abụọ. ZecHub's [Otu esi agbanwe ZEC na Phantom Wallet](/using-zcash/solswap) Ntuziaka na-ekpuchi ihuenyo solswap n'ụzọ zuru ezu. Ejila bọtịnụ **Swap** Phantom's maka nke a: ị jidelarị akara ngosi ahụ, mgbanwe ya agaghịkwa eme ka ị ghara inwe ebe ọ bụla.
+Ụzọ ahụ nwere akụkụ abụọ: tinye ZEC gị na NEAR Intents site na Phantom, wee ziga ya na adreesị Zcash gị. Anyị jiri ya [solswap.org](https://solswap.org), ebe nrụọrụ weebụ e wuru nke dị nso maka ndị ọrụ Solana, maka akụkụ mbụ na [near.com](https://near.com), ngwa NEAR n'onwe ya, maka nke abụọ. ZecHub's [Otu esi agbanwe ZEC na Phantom Wallet](/using-zcash/solswap) Ntuziaka na-ekpuchi ihuenyo solswap n'ụzọ zuru ezu. Ejila bọtịnụ **Swap** Phantom's maka nke a: ị jidelarị akara ngosi ahụ, mgbanwe ya agaghịkwa eme ka ị ghara inwe ebe ọ bụla.
 
 Debe obere SOL na Phantom maka ụgwọ Solana.
 
@@ -195,28 +181,9 @@ A na-achọ ndị ọhụrụ ka ha bịa. Ihe fọrọ nke nta ka ọ bụrụ 
 
 ---
 
-## Mmejọ Ndị A Na-emekarị
-
-- **Iji bọtịnụ mgbanwe Phantom's** kama itinye ego. I jidelarị akara ngosi ahụ — ịgbanwe naanị otu akwụkwọ ZEC maka akara ngosi ọzọ ma ghara ime ka ị bịaruo ZEC.
-- **Na-etinye ihe `t1` adreesị**, ma ọ bụ a `u1` nke na-ezochi onye nnata doro anya, mgbe obere akpa gị na-enye naanị ihe nchekwa `u1`Ego a na-etinye na-adaba n'ihu ọha ma jikọta ya na obere akpa gị ruo mgbe ebighị ebi.
-- **Echere na ego ahụ anọghị n'ọnọdụ dị mma** mgbe ibe iwepụ ego nke solswap gosiri "–". Nha ego ahụ na-esochi igodo Phantom gị, ọ bụghị weebụsaịtị ahụ — mechaa mwepụ ego ahụ na near.com.
-- **Ịbịanye aka n'ozi n'eleghị ya anya.** Ebe nrụọrụ weebụ yiri ibe ya nwere ike itinye otu mbinye aka n'ime NEAR Intents gị. Ebe nrụọrụ weebụ ahụ aghaghị ịdị `near.com` ozi ahụ ga-enwerịrị `"verifying_contract": "intents.near"`.
-- **Ịgbagwoju anya na akara ngosi "ZEC" abụọ ahụ.** Akara ngosi Solana na Zcash ZEC nke obodo nwere aha mana ọ bụghị netwọk — izipu nke ọ bụla n'usoro nke ọzọ na-efunahụ ya.
-
 ## Ihe a ga-eme na ZEC echekwara
 
 - Debe ya n'onwe gị mgbe ị na-emefu ya: [Iji ZEC n'onwe ya](/guides/using-zec-privately)
 - Chọta ebe ndị na-ewe ya: [Ebe ị ga-emefu ZEC](/using-zcash/spend-zcash/top-10-places-to-spend-zec)
 - Ziga ya na ozi nkeonwe agbakwunyere: [Ihe ncheta](/using-zcash/memos)
 - Kwụọ onye ọ bụla ụgwọ n'ejighị njirimara gị: [Zipu ego na-ejikọghị njirimara](/zcash-use-cases/send-money-without-linking-identity)
-
----
-
-## Peeji ndị metụtara ya
-
-- [Otu esi agbanwe ZEC na Phantom Wallet](/using-zcash/solswap) - ihuenyo solswap n'ụzọ zuru ezu
-- [Ọdọ mmiri e ji kpuchie echebe](/using-zcash/shielded-pools) — ihe ọdọ mmiri Ironwood/Orchard bụ na otu ndị nnata si arụ ọrụ
-- [Ònye nwere ike ịhụ ụgwọ Zcash gị?](/start-here/who-can-see-your-zcash-payment) - ihe mkpuchi na-ezo n'ezie
-- [Obere akpa](/wallets) — ndekọ ahụ; lelee akara **Ironwood: Dị njikere**
-- [Mgbanwe ndị e ji aka rụọ](/using-zcash/custodial-exchanges) - mgbanwe ụzọ a na-ezere
-- [Ịnata ego](/using-zcash/recovering-funds) — ihe ị ga-echekwa ka ị ghara ịtụfu ohere ịnweta

@@ -2,24 +2,24 @@
 
 <span className="inline-flex items-center gap-[6px]">
   <span className="inline-block w-[12px] h-[12px] bg-green-500 rounded-full"></span>
-  Mwanafunzi - dakika 7
+  Mwanzoni - dakika 7
 </span>
 
 ## TL;DR
 
-- Tumia anwani zilizolindwa kwa miamala yote
-- Kamwe usifichue utambulisho wa pochi hadharani
-- Linda vyanzo kwa kuepuka malipo yanayoweza kufuatiliwa
-- Tumia memo kwa uangalifu kwa mawasiliano salama
+- Matumizi ya anwani za ulinzi kwa shughuli zote
+- Kamwe kufichua kitambulisho cha mkoba hadharani.
+- Kulinda vyanzo kwa kuepuka malipo traceable
+- Tumia memos kwa uangalifu kwa mawasiliano salama
 
 <br/>
 
 ## <img src="/content-images/user-svgrepo-com-21adf62b7c.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="user icon"/> Who is this for?
 
-- Waandishi wa Habari
-- Wachunguzi
-- Wanaharakati
-- Watu walio katika hatari kubwa ya kushughulikia malipo nyeti
+- Waandishi wa habari
+- Wachunguzi wa Uchunguzi
+- Wanaharakati wa haki za binadamu
+- High hatari ya watu binafsi kushughulikia malipo nyeti
 
 
 <br/>
@@ -28,13 +28,13 @@
 
 Waandishi wa habari wanakabiliwa na:
 - Ufuatiliaji
-- Hatari za kuambukizwa kutoka kwa chanzo
+- Chanzo cha hatari ya mfiduo
 - Ufuatiliaji wa kifedha na wapinzani
 
-Kutumia crypto inayoonekana wazi kunaweza kufichua:
-- Nani alikulipa
-- Ulimlipa nani
-- Lini na kiasi gani
+Kutumia crypto uwazi inaweza kufunua:
+- Ni nani aliyekupa pesa?
+- Ulimlipa nani?
+- Wakati na kiasi cha pesa kinachohitajika
 
 <br/>
 
@@ -42,99 +42,99 @@ Kutumia crypto inayoonekana wazi kunaweza kufichua:
 
 
 Zcash hutoa:
-- Faragha imara ya kifedha
-- Ulinzi kwa miamala nyeti
-- Kupunguza hatari ya kuwaunganisha waandishi wa habari na vyanzo vya habari
+- Usiri mkubwa wa kifedha
+- Ulinzi kwa ajili ya shughuli nyeti
+- Kupunguza hatari ya kuunganisha waandishi kwa vyanzo.
 
 <br/>
 
 ## <img src="/content-images/icons8-toolbox-9bebbb1619.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> What You Need
 
-- Pochi Zcash yenye usaidizi uliolindwa
-- Njia salama ya mawasiliano (nje ya blockchain)
-- Nidhamu ya uendeshaji
+- Zcash mkoba na msaada shielded
+- Salama mawasiliano channel (nje blockchain)
+- Utaratibu wa uendeshaji
 
 <br/>
 
 ## <img src="/content-images/ladder-svgrepo-com-7232bf46ed.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="step icon"/> Step-by-Step Guide
 
 
-### Hatua ya 1: Unda Pochi Maalum
+### Hatua ya 1: Kujenga Wallet Dedicated
 
-- Tumia pochi kwa kazi nyeti pekee
-- Usichanganye na miamala ya kibinafsi
+- Tumia pochi tu kwa ajili ya kazi nyeti.
+- Usichanganyike na shughuli za kibinafsi.
 
-### Hatua ya 2: Tumia Anwani Zilizolindwa Pekee
+### Hatua ya 2: Tumia anwani Shielded tu
 
-- Daima fanya miamala kwa kutumia anwani za z
-- Epuka miamala ya uwazi kabisa
+- Daima transact kutumia z-maelekezo
+- Epuka shughuli uwazi kabisa
 
 
-### Hatua ya 3: Linda Malipo ya Chanzo
+### Hatua ya 3: Kulinda Malipo Chanzo
 
-Kama vyanzo vya malipo:
-- Tumia miamala iliyolindwa (z → z)
-- Epuka mifumo ya muda inayoweza kutabirika
+Kama kulipa vyanzo:
+- Matumizi ya shughuli shielded (z → z)
+- Epuka ratiba za muda zinazotarajiwa.
 - Usitumie tena anwani
 
 
-### Hatua ya 4: Kuwa Makini na Memo
+### Hatua ya 4: Uwe Mwangalifu Kuhusu Maandishi Yako
 
-- USIJUMUISHE taarifa nyeti kwenye memo
-- Tumia marejeleo yasiyoegemea upande wowote au yaliyosimbwa ikiwa inahitajika
+- Usiweke habari nyeti katika kumbukumbu za kazi.
+- Tumia marejeo ya upande wowote au yaliyofichwa ikiwa ni lazima.
 
 
-### Hatua ya 5: Dumisha Usalama wa Uendeshaji
+### Hatua ya 5: Kudumisha Usalama wa Uendeshaji
 
 - Epuka kuunganisha pochi na utambulisho wako
-- Usithibitishe miamala hadharani
-- Tumia njia tofauti kwa mawasiliano
+- Je, si kuthibitisha shughuli hadharani
+- Tumia njia tofauti za mawasiliano
 
 
 <br/>
 
 ## <img src="/content-images/icons8-cancel-7f786be3c1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="cancel icon"/> Common Mistakes to Avoid
 
-- Kutumia anwani zinazoonekana wazi 
+- Kutumia anwani uwazi 
 - Kutumia tena anwani katika vyanzo mbalimbali 
-- Ikiwa ni pamoja na data nyeti katika memo 
-- Kuunganisha pochi na utambulisho wa umma 
+- Ikiwa ni pamoja na data nyeti katika memos 
+- Kuunganisha mkoba kwa utambulisho wa umma 
 
 <br/>
 
 ## <img src="/content-images/checked-checkbox-svgrepo-com-7ea19022da.svg" width="28" height="28" className="inline-block align-middle mr-1 p-[2px]" alt="done icon"/> Result
 
 Unaweza:
-- Linda vyanzo vyako
-- Punguza hatari za ufuatiliaji
-- Dumisha faragha ya kifedha katika kazi nyeti
+- Linda vyanzo vyako vya habari
+- Kupunguza hatari za ufuatiliaji
+- Kudumisha faragha ya kifedha katika kazi nyeti
 
 <br/>
 
 ## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="chain-links icon"/> Related
 
-- [Nani anaweza kuona malipo yako Zcash](/start-here/who-can-see-your-zcash-payment)
-- [Tuma pesa bila kuunganisha utambulisho](/zcash-use-cases/send-money-without-linking-identity)
+- [Faragha - Mazoea Bora](/start-here/who-can-see-your-zcash-payment)
+- [Tuma fedha bila kuunganisha utambulisho](/zcash-use-cases/send-money-without-linking-identity)
 
  <br/>
 
 ## <img src="/content-images/celebration-spark-svgrepo-com-bc98dec7c1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="celebration icon"/> Completion
 
-**Hatua ya 6 kati ya 6 — Imekamilika**
+** Hatua ya 6 kati ya 6  Imekamilika**
 
-Umefikia kiwango cha juu zaidi cha matumizi ya Zcash.
+Umefikia kiwango cha juu zaidi ya matumizi Zcash.
 
 Sasa unaelewa:
-- Miamala ya kibinafsi
-- Ulinzi wa utambulisho
+- Shughuli za kibinafsi
+- Usalama wa utambulisho
 - Usalama wa uendeshaji
 
 <br/> 
 
-## Nini Kinachofuata?
+## Ni Nini Kinachofuata?
 
 - [Nenda kwenye ukurasa wa nyumbani](/)
-- [Gundua njia za wasanidi programu](/developers)
-- [Changia kwa ZecHub](/contribute/help-build-zechub)
+- [Kuchunguza njia ya developer](/developers)
+- [Kuchangia ZecHub](/contribute/help-build-zechub)
 
 <br/> 
