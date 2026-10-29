@@ -1,5 +1,5 @@
 <a href="https://github.com/Zechub/zechub/edit/main/site/Zcash_Community/Community_Links.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Επεξεργασία σελίδας"/>
 </a>
 
 # <img src="/content-images/image-2024-02-03-174147713-63a42e536c.webp" alt="Alt Text" width="400"/> Σύνδεσμοι κοινότητας Zcash

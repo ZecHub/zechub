@@ -4,7 +4,7 @@
 
 # Γίνε μέλος του Crosslink Feature Net
 
-## Συνοπτικά
+## Με λίγα λόγια
 
 - Το Feature Net είναι το δημόσιο δοκιμαστικό δίκτυο του Shielded Labs για το [Crosslink](/zcash-tech/crosslink-protocol), το προτεινόμενο επίπεδο οριστικοποίησης που προσθέτει staking δίπλα στην απόδειξη εργασίας του Zcash.
 - Εκτελείται με ένα δοκιμαστικό νόμισμα, το cTAZ. Τίποτα που κάνεις σε αυτό δεν μετακινεί ούτε θέτει σε κίνδυνο ZEC του mainnet ZEC.
@@ -17,7 +17,7 @@
 
 ## Τι είναι το Feature Net
 
-Το Crosslink είναι μια πρόταση και δεν αποτελεί σήμερα μέρος του Zcash. Οι Συχνές ερωτήσεις του Shielded Labs για το [Crosslink FAQ](https://shieldedlabs.net/crosslink-faq/) αναφέρουν ότι «θα χρειαζόταν να περάσει από την τυπική διαδικασία διακυβέρνησης του Zcash» πριν μπορέσει να φτάσει στο mainnet. Η σελίδα [Crosslink Protocol](/zcash-tech/crosslink-protocol) εξηγεί τον σχεδιασμό.
+Το Crosslink είναι μια πρόταση και δεν αποτελεί σήμερα μέρος του Zcash. Οι [συχνές ερωτήσεις Crosslink](https://shieldedlabs.net/crosslink-faq/) του Shielded Labs αναφέρουν ότι «θα χρειαζόταν να περάσει από την τυπική διαδικασία διακυβέρνησης του Zcash» πριν μπορέσει να φτάσει στο mainnet. Η σελίδα [Crosslink Protocol](/zcash-tech/crosslink-protocol) εξηγεί τον σχεδιασμό.
 
 Για να δοκιμάσει τον σχεδιασμό με πραγματικούς χρήστες, το Shielded Labs εκτελεί αυτά που αποκαλεί [incentivized feature nets](https://shieldedlabs.net/crosslink-incentivized-feature-nets/): «μια σειρά από incentivized testnets». Στο δίκτυο υπάρχουν τρεις ρόλοι και η εφαρμογή υπολογιστή μπορεί να αναλάβει και τους τρεις:
 
@@ -47,7 +47,7 @@
 
 Το cTAZ («Crosslink TAZ») είναι το δοκιμαστικό νόμισμα του Feature Net. Κάνεις staking cTAZ, ποτέ ZEC.
 
-Το πραγματικό ZEC εμφανίζεται μόνο στο τέλος. Το Shielded Labs έχει [αποθέσει 500 ZEC](https://shieldedlabs.net/crosslink-incentivized-feature-nets/) για τα feature nets και οι σημειώσεις [release notes](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v14) λένε ότι καταβάλλεται «αναλογικά, βασιζόμενο μόνο στο ποσό cTAZ που κέρδισε κάθε συμμετέχων μέσω εξόρυξης ή staking». Δύο συνέπειες:
+Το πραγματικό ZEC εμφανίζεται μόνο στο τέλος. Το Shielded Labs έχει [αποθέσει 500 ZEC](https://shieldedlabs.net/crosslink-incentivized-feature-nets/) για τα feature nets και οι [σημειώσεις κυκλοφορίας](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v14) λένε ότι καταβάλλεται «αναλογικά, βασιζόμενο μόνο στο ποσό cTAZ που κέρδισε κάθε συμμετέχων μέσω εξόρυξης ή staking». Δύο συνέπειες:
 
 - **Τα νομίσματα faucet δεν μετρούν.** Τα cTAZ που σου δόθηκαν, από το faucet ή από οποιονδήποτε άλλο, δεν κερδίζουν τίποτα απλώς επειδή βρίσκονται στο πορτοφόλι σου. Μετρούν μόνο οι ανταμοιβές μπλοκ από εξόρυξη και staking.
 - **Οι πληρωμές διεκδικούνται, δεν είναι αυτόματες.** Το Shielded Labs ανακοινώνει κάθε γύρο στο νήμα του [forum thread](https://forum.zcashcommunity.com/t/crosslink-incentivized-feature-net/55210). Για τον Γύρο 2 ζήτησε από τους συμμετέχοντες να στείλουν το viewing key του πορτοφολιού τους και μια διεύθυνση mainnet έως τις 4 Οκτωβρίου 2026 ([post 94](https://forum.zcashcommunity.com/t/crosslink-incentivized-feature-net/55210/94)). Το δίκτυο στο οποίο εκτελείται η έκδοση 14, εκείνο στο οποίο συμμετέχει αυτός ο οδηγός, ανακοινώθηκε ως Γύρος 3 ([post 101](https://forum.zcashcommunity.com/t/crosslink-incentivized-feature-net/55210/101)).
@@ -55,7 +55,7 @@
 ## Πριν ξεκινήσεις
 
 - **Έναν υπολογιστή που μπορείς να αφήσεις να λειτουργεί.** Η έκδοση διαθέτει builds για Windows, macOS, Ubuntu και Arch Linux. Αυτός ο οδηγός εκτελέστηκε σε Windows, σε υπολογιστή με επεξεργαστή Intel Core i5-8350U.
-- **Μια Ημέρα staking.** Έλεγξε πότε ανοίγει η επόμενη προτού σχεδιάσεις οτιδήποτε. Ο πίνακας ελέγχου του [Staker Space's dashboard](https://crosslink.staker.space/) μετρά αντίστροφα μέχρι αυτήν.
+- **Μια ημέρα staking.** Έλεγξε πότε ανοίγει η επόμενη προτού σχεδιάσεις οτιδήποτε. Ο [πίνακας ελέγχου του Staker Space](https://crosslink.staker.space/) μετρά αντίστροφα μέχρι αυτήν.
 - **Τίποτα άλλο.** Δεν χρειάζεται ZEC, λογαριασμός ή εγγραφή.
 
 ## Βήμα 1: Κατέβασε την εφαρμογή και έλεγξε το αρχείο
@@ -185,7 +185,7 @@ Invoke-RestMethod -Uri http://127.0.0.1:8232 -Method Post -ContentType 'applicat
 
 ### Ή ζήτησε από άλλον συμμετέχοντα
 
-Οποιοσδήποτε στο δίκτυο μπορεί να σου στείλει cTAZ με το κουμπί **Αποστολή** της εφαρμογής. Σε αυτή την εκτέλεση, άλλος συμμετέχων έστειλε 31 cTAZ. Έφτασαν ως «Λήφθηκαν» με το note «αποστολή από πορτοφόλι χρήστη», που είναι το note που επισυνάπτει η ίδια η λειτουργία Αποστολή της εφαρμογής ([source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/wallet/src/lib.rs#L5036)). Ζήτησε στο νήμα του [forum thread](https://forum.zcashcommunity.com/t/crosslink-incentivized-feature-net/55210) και δώσε μόνο τη διεύθυνσή σου.
+Οποιοσδήποτε στο δίκτυο μπορεί να σου στείλει cTAZ με το κουμπί **Send** της εφαρμογής. Σε αυτή την εκτέλεση, άλλος συμμετέχων έστειλε 31 cTAZ. Έφτασαν ως «Received» με τη σημείωση «send from user wallet», που είναι η σημείωση που επισυνάπτει η ίδια η λειτουργία Send της εφαρμογής ([source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/wallet/src/lib.rs#L5036)). Ζήτησε στο [νήμα του forum](https://forum.zcashcommunity.com/t/crosslink-incentivized-feature-net/55210) και δώσε μόνο τη διεύθυνσή σου.
 
 Τα νομίσματα faucet και τα δώρα αρκούν για να μάθεις το staking. Δεν υπολογίζονται στις ανταμοιβές του ZEC.
 
@@ -411,7 +411,7 @@ http://127.0.0.1:8232
 - Φιλοξενούμενα, χωρίς να χρειάζεται κόμβος: το [Staker Space](https://crosslink.staker.space/), ένας «ζωντανός πίνακας ελέγχου για το τρέχον cTAZ testnet» με το ύψος, τους εξορύκτες, τον ρυθμό λύσεων, την αντίστροφη μέτρηση της Ημέρας Staking και το finality, και το [ctaz.cash](https://ctaz.cash/), με την παραγωγή εξόρυξης, τον κατάλογο finalizers, τους peers και τις διεκδικήσεις ονομάτων διευθύνσεων staking.
 - Στον δικό σου υπολογιστή: το `zcash-explorer`, του οποίου η σελίδα `/live/crosslink` εμφανίζει την ενεργοποίηση, την καθυστέρηση finality, τον κατάλογο και τις θέσεις staking, και το `crosslink_indexer`, ένα ευρετήριο SQLite ενός κόμβου Crosslink.
 
-## Συνήθη λάθη
+## Συνηθισμένα λάθη
 
 **Σχεδιασμός με βάση το ρολόι αντί για το ύψος μπλοκ.** Οι Ημέρες Staking μετρώνται σε μπλοκ. Παρακολούθησε την αντίστροφη μέτρηση ενός πίνακα ελέγχου, όχι το ημερολόγιο.
 

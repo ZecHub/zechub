@@ -13,7 +13,7 @@
 ### [Slush Pool (Braiins Pool)](https://braiins.com/pool)
 
 <a href="https://braiins.com/pool">
-    <img src="/content-images/braiins_logo-dce5130f46.webp" alt="Slush Pool (Braiins Pool) Logo" width="200" height="100"/>
+    <img src="/content-images/braiins_logo-dce5130f46.webp" alt="Λογότυπο Slush Pool (Braiins Pool)" width="200" height="100"/>
 </a>
 
 - Ιστότοπος: [Slush Pool (Braiins Pool)](https://braiins.com/pool)
@@ -117,7 +117,7 @@
 ### [Foundry Zcash pool εξόρυξης](https://foundrydigital.com/foundry-zcash-pool/)
 
 <a href="https://foundrydigital.com/foundry-zcash-pool/">
-    <img src="/content-images/Foundry-3f33346374.webp" alt="Foundry Zcash Mining Pool Logo" width="200" height="100"/>
+    <img src="/content-images/Foundry-3f33346374.webp" alt="Λογότυπο του Foundry Zcash Mining Pool" width="200" height="100"/>
 </a>
 
 - Ιστότοπος: [Foundry Zcash pool εξόρυξης](https://foundrydigital.com/foundry-zcash-pool/)

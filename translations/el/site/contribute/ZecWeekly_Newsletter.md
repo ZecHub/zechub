@@ -1,5 +1,5 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/contribute/ZecWeekly_Newsletter.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Επεξεργασία σελίδας"/>
 </a>
 
 # ZecWeekly newsletter
@@ -96,11 +96,11 @@ Summary:
 - [Σύνοψη οικοσυστήματος Zcash | 14 Φεβρουαρίου](https://github.com/ZecHub/zechub/pull/1474)
 
 
-![Merged ZecWeekly newsletter pull request example](/content-images/9230d68d-6406-4c8a-992c-df84e0d318d8-8893d2de55.webp)
+![Παράδειγμα συγχωνευμένου pull request για το ενημερωτικό δελτίο ZecWeekly](/content-images/9230d68d-6406-4c8a-992c-df84e0d318d8-8893d2de55.webp)
 
 Όταν συγκρίνεις την εργασία σου με ένα παράδειγμα, εστίασε στη θέση του αρχείου, στη μορφή τίτλου, στη σειρά ενοτήτων, στις περιγραφές συνδέσμων και στο αν το pull request συνδέεται με τη σωστή εργασία.
 
-### Συνήθη λάθη που πρέπει να αποφεύγεις
+### Συνηθισμένα λάθη που πρέπει να αποφεύγεις
 
 - Άνοιγμα pull request προτού επιβεβαιωθεί η ημερομηνία ή η εργασία της έκδοσης.
 - Εργασία σε issue που έχει ήδη συνδεδεμένο pull request.

@@ -1,5 +1,5 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Zcash_Tech/Payment_Disclosures.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Επεξεργασία σελίδας"/>
 </a>
 
 # Θωρακισμένη απόδειξη πληρωμής και γνωστοποιήσεις πληρωμών
@@ -22,7 +22,7 @@
 
 Το [ZIP 311: Zcash Γνωστοποιήσεις πληρωμών](https://zips.z.cash/zip-0311) προτείνει μια πιο περιορισμένη απάντηση: τη γνωστοποίηση και πιστοποίηση επιλεγμένων πληροφοριών από μία συναλλαγή.
 
-![A transaction ID proves that a transaction exists but does not reveal shielded payment details. A ZIP 311 payment disclosure would let a verifier authenticate only the selected recipient, amount, memo, and optional sender details against the mined transaction.](/content-images/payment-disclosure-proof-flow-208c033e06.webp)
+![Ένα αναγνωριστικό συναλλαγής αποδεικνύει ότι υπάρχει μια συναλλαγή, αλλά δεν αποκαλύπτει λεπτομέρειες θωρακισμένης πληρωμής. Μια γνωστοποίηση πληρωμής ZIP 311 θα επέτρεπε σε έναν επαληθευτή να πιστοποιήσει μόνο τον επιλεγμένο παραλήπτη, το ποσό, το memo και προαιρετικές λεπτομέρειες αποστολέα έναντι της εξορυχθείσας συναλλαγής.](/content-images/payment-disclosure-proof-flow-208c033e06.webp)
 
 ## Πώς λειτουργεί μια γνωστοποίηση πληρωμής
 
@@ -53,7 +53,7 @@
 
 Καμία από τις δύο μεθόδους δεν παρέχει άδεια δαπάνης. Μην κοινοποιείς ποτέ μια φράση ανάκτησης, spending key, ιδιωτικό κλειδί ή αντίγραφο ασφαλείας πορτοφολιού ως απόδειξη πληρωμής.
 
-![A transaction record is available today but provides no new third-party proof. A payment disclosure would prove selected details of one payment. A viewing key provides broader, ongoing visibility.](/content-images/payment-disclosure-scope-0585cdc075.webp)
+![Ένα αρχείο συναλλαγής είναι διαθέσιμο σήμερα, αλλά δεν παρέχει νέα απόδειξη για τρίτους. Μια γνωστοποίηση πληρωμής θα αποδείκνυε επιλεγμένες λεπτομέρειες μίας πληρωμής. Ένα viewing key παρέχει ευρύτερη, συνεχή ορατότητα.](/content-images/payment-disclosure-scope-0585cdc075.webp)
 
 ## Τι μπορώ να χρησιμοποιήσω σήμερα;
 
@@ -160,7 +160,7 @@
 - [ZIP 311: Zcash Γνωστοποιήσεις πληρωμών](https://zips.z.cash/zip-0311) - ο σχεδιασμός του προσχεδίου, οι απαιτήσεις, η διαδικασία επαλήθευσης και οι παράμετροι ιδιωτικότητας
 - [ZIP 310: Ιδιότητες ασφάλειας των Sapling Viewing Keys](https://zips.z.cash/zip-0310) - τι αποκαλύπτουν τα viewing keys και ποιες εγγυήσεις παρέχουν
 - [ZIP 304: Sapling Υπογραφές διευθύνσεων](https://zips.z.cash/zip-0304) - ο προαιρετικός μηχανισμός απόδειξης διεύθυνσης που αναφέρεται στο ZIP 311
-- [Zcash προδιαγραφή πρωτοκόλλου](https://zips.z.cash/protocol/protocol.pdf) - κρυπτογράφηση note του Sapling, εξερχόμενα viewing keys και εξουσιοδότηση δαπάνης
+- [προδιαγραφή πρωτοκόλλου Zcash](https://zips.z.cash/protocol/protocol.pdf) - κρυπτογράφηση note του Sapling, εξερχόμενα viewing keys και εξουσιοδότηση δαπάνης
 - [Αρχειοθετημένο έγγραφο γνωστοποίησης πληρωμών του zcashd](https://github.com/zcash/zcash/blob/master/doc/payment-disclosure.md) - ιστορική υλοποίηση μόνο για Sprout, όχι τρέχων οδηγός
 - [zcashd καταργημένες δυνατότητες](https://zcash.github.io/zcash/user/deprecation.html) - κατάσταση των παλαιών πειραματικών εντολών γνωστοποίησης
 

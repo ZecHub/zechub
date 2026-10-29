@@ -1,5 +1,5 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Zcash_Tech/Z3_Stack.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Επεξεργασία σελίδας"/>
 </a>
 
 # Στοίβα Z3
@@ -10,7 +10,7 @@
 
 ---
 
-## Συνοπτικά
+## Με λίγα λόγια
 
 * Το Z3 **δεν είναι νέος client συναίνεσης**. Είναι ο τρόπος με τον οποίο εκτελείς μαζί τη στοίβα μετά το `zcashd`: το Zebra επαληθεύει την αλυσίδα, το Zallet διατηρεί τα κλειδιά και παρέχει wallet RPC, ενώ το Zaino (προαιρετικό) χρησιμοποιεί το πρωτόκολλο gRPC του lightwalletd.
 * Το `zcashd` συνδύαζε κόμβο + πορτοφόλι. Το Z3 **διαχωρίζει αυτούς τους ρόλους**. Ανταλλακτήρια, pools εξόρυξης και άλλοι διαχειριστές πορτοφολιών πλήρους κόμβου μεταβαίνουν σε αυτόν τον συνδυασμό αντί μόνο στο Zebra.
@@ -73,7 +73,7 @@
 | Ρυθμίσεις | `zcash.conf` | Αρχεία ανά δίκτυο κάτω από το `config/<network>/` συν αρχεία env του Compose |
 | Δίκτυα σε έναν host | Δύσκολες συγκρούσεις θυρών | Πλήρης υποστήριξη: `z3-mainnet`, `z3-testnet`, `z3-regtest` |
 
-Αν εξακολουθείς να έχεις πορτοφόλι `zcashd`, χρησιμοποίησε τον οδηγό μετεγκατάστασης του ZecHub στο [migration guide](/guides/migration-guide-zcashd-to-zebrad-zallet) και την εντολή `migrate-zcashd-wallet` του Zallet αντί να αντιγράψεις το `wallet.dat` στο volume του Z3.
+Αν εξακολουθείς να έχεις πορτοφόλι `zcashd`, χρησιμοποίησε τον [οδηγό μετάβασης](/guides/migration-guide-zcashd-to-zebrad-zallet) του ZecHub και την εντολή `migrate-zcashd-wallet` του Zallet αντί να αντιγράψεις το `wallet.dat` στο volume του Z3.
 
 ---
 
@@ -215,7 +215,7 @@ docker compose --env-file .env.mainnet --profile monitoring up -d
 * [Πλήρεις κόμβοι](/zcash-tech/full-nodes) — Zebra, Zakura και το αποσυρμένο zcashd
 * [Κόμβοι Lightwallet](/zcash-tech/lightwallet-nodes) — με τι επικοινωνούν οι light clients
 * [Κόμβος Zakura](/zcash-tech/zakura-node) — εναλλακτικός πλήρης κόμβος· όχι αυτός που παρέχει σήμερα το Z3
-* [Οδηγός μετεγκατάστασης: zcashd προς Zebrad/Zallet](/guides/migration-guide-zcashd-to-zebrad-zallet)
+* [Οδηγός μετάβασης: zcashd προς Zebrad/Zallet](/guides/migration-guide-zcashd-to-zebrad-zallet)
 * [Πόροι προγραμματιστών](/start-here/developer-resources)
 
 ---

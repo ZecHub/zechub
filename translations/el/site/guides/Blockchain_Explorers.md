@@ -1,5 +1,5 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/guides/Blockchain_Explorers.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Επεξεργασία σελίδας"/>
 </a>
 
 # Εξερευνητές blockchain
@@ -48,7 +48,7 @@
 
 ### Τι μπορεί και τι δεν μπορεί να δει ένας εξερευνητής στο Zcash
 
-#### TL;DR
+#### Με λίγα λόγια
 - Οι διαφανείς (`t`) διευθύνσεις είναι πλήρως ορατές σε έναν εξερευνητή, όπως ακριβώς στο Bitcoin
 - Οι πλήρως θωρακισμένες (z προς z) συναλλαγές κρύβουν το ποσό, τις διευθύνσεις και το σημείωμα
 - Τα τέλη παραμένουν ορατά, ακόμη και σε μια πλήρως θωρακισμένη συναλλαγή

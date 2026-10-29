@@ -1,5 +1,5 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Using_Zcash/Zecmap.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Επεξεργασία σελίδας"/>
 </a>
 
 # ZecMap
@@ -141,7 +141,7 @@
 - [Επεξεργαστές πληρωμών](/using-zcash/payment-processors) — Εργαλεία για εμπόρους ώστε να δέχονται ZEC
 - [Χρήση του ZEC ιδιωτικά](/guides/using-zec-privately) — Βέλτιστες πρακτικές για θωρακισμένες πληρωμές
 - [Πορτοφόλια](/using-zcash/wallets) — Πορτοφόλια συμβατά με πληρωμές εμπόρων ZEC
-- [Μη custodial ανταλλακτήρια](/using-zcash/non-custodial-exchanges) — Απόκτησε ZEC για να το ξοδέψεις
+- [Non-custodial ανταλλακτήρια](/using-zcash/non-custodial-exchanges) — Απόκτησε ZEC για να το ξοδέψεις
 
 ## Πόροι
 

@@ -5,7 +5,7 @@
 ### Επεισόδιο 334 – Ενημέρωση για την έρευνα ZK με τον Joe Bonneau
 - **Ημερομηνία:** 31 Ιουλίου 2024
 - **Σύνδεσμος:** [https://zeroknowledge.fm/334-2](https://zeroknowledge.fm/334-2)
-- **Περίληψη:** Η Anna και ο Guille συνομιλούν ξανά με τον Joe Bonneau, Επίκουρο Καθηγητή στο NYU και Ερευνητικό Συνεργάτη στην a16z crypto research. Συζητούν για την πρόσφατη εργασία του σχετικά με αποδείξεις Naysayer, Middleboxes μηδενικής γνώσης, δημοπρασίες με σφραγισμένες προσφορές και άλλα ερευνητικά έργα σχετικά με ZK.
+- **Περίληψη:** Η Anna και ο Guille συνομιλούν ξανά με τον Joe Bonneau, επίκουρο καθηγητή στο NYU και ερευνητικό συνεργάτη στην a16z crypto research. Συζητούν για την πρόσφατη εργασία του σχετικά με αποδείξεις Naysayer, Middleboxes μηδενικής γνώσης, δημοπρασίες με σφραγισμένες προσφορές και άλλα ερευνητικά έργα σχετικά με ZK.
 - **Καλεσμένοι:**
   - Joe Bonneau ([/josephbonneau](https://eprint.iacr.org/2023/1472.pdf))
 - **Παρουσιαστές:**
@@ -15,7 +15,7 @@
 ### Επεισόδιο 333 – Επαληθεύσιμη SQL, Reckle Trees και συνεπεξεργασία ZK με το Lagrange Labs
 - **Ημερομηνία:** 24 Ιουλίου 2024
 - **Σύνδεσμος:** [https://zeroknowledge.fm/333-2](https://zeroknowledge.fm/333-2)
-- **Περίληψη:** Η Anna συνομιλεί με τον Ismael Hishon-Rezaizadeh, Ιδρυτή και CEO του Lagrange Labs, και τον Charalampos (Babis) Papamanthou, Επικεφαλής Έρευνας στη Lagrange. Επανεξετάζουν coprocessors με ισχύ zk, την επαληθεύσιμη SQL, τα Reckle Trees και συζητούν για τη νέα αγορά provers τους.
+- **Περίληψη:** Η Anna συνομιλεί με τον Ismael Hishon-Rezaizadeh, ιδρυτή και CEO του Lagrange Labs, και τον Charalampos (Babis) Papamanthou, επικεφαλής έρευνας στη Lagrange. Επανεξετάζουν coprocessors με ισχύ zk, την επαληθεύσιμη SQL, τα Reckle Trees και συζητούν για τη νέα αγορά provers τους.
 - **Καλεσμένοι:**
   - Ismael Hishon-Rezaizadeh ([ismael_h_r](https://x.com/ismael_h_r))
   - Charalampos (Babis) Papamanthou ([chbpap](https://x.com/chbpap))
@@ -56,7 +56,7 @@
 ### Επεισόδιο 329 – Δημιουργία κρυπτογραφικών αποδείξεων με hash functions από τους Alessandro Chiesa και Eylon Yogev
 - **Ημερομηνία:** 26 Ιουνίου 2024
 - **Σύνδεσμος:** [https://zeroknowledge.fm/329-2](https://zeroknowledge.fm/329-2)
-- **Περίληψη:** Η Anna και ο Nico συνομιλούν με τον Alessandro Chiesa, Αναπληρωτή Καθηγητή στο EPFL, και τον Eylon Yogev, Καθηγητή στο Πανεπιστήμιο Bar-Ilan, για τη δημοσίευσή τους σχετικά με τη δημιουργία κρυπτογραφικών αποδείξεων από hash functions.
+- **Περίληψη:** Η Anna και ο Nico συνομιλούν με τον Alessandro Chiesa, αναπληρωτή καθηγητή στο EPFL, και τον Eylon Yogev, καθηγητή στο Πανεπιστήμιο Bar-Ilan, για τη δημοσίευσή τους σχετικά με τη δημιουργία κρυπτογραφικών αποδείξεων από hash functions.
 - **Καλεσμένοι:**
   - Alessandro Chiesa ([profile](https://ic-people.epfl.ch/~achiesa/))
   - Eylon Yogev ([profile](https://eylonyogev.com/))
@@ -108,7 +108,7 @@
 - **Σύνδεσμος:** [https://youtu.be/BYnhTNkQ-3M?si=Uck8wegKCae2bSuX](https://youtu.be/BYnhTNkQ-3M?si=Uck8wegKCae2bSuX)
 - **Περίληψη:**
 - - **Σύνδεσμος:** [https://youtu.be/18-xowScNpw?si=3qRPR59wcuPlYQaw](https://youtu.be/18-xowScNpw?si=3qRPR59wcuPlYQaw)
-- **Περίληψη:** Ο Taylor Hornby είναι ο Επικεφαλής Ασφάλειας Οικοσυστήματος του Zcash.
+- **Περίληψη:** Ο Taylor Hornby είναι ο επικεφαλής ασφάλειας του οικοσυστήματος Zcash.
   - **Χρονικές σημάνσεις:**
     - 0:00​ – Εισαγωγή
     - 6:11​ – Η ευπάθεια σύγκρουσης InternalH
@@ -124,10 +124,10 @@
 ### FUD για το Zcash με το Josh Swihart
 - **Ημερομηνία:** 12 Ιανουαρίου 2023
 - **Σύνδεσμος:** [https://youtu.be/a6TQt6rmwXU?si=ONa7aR50GR6b6pKO](https://youtu.be/a6TQt6rmwXU?si=ONa7aR50GR6b6pKO)
-- **Περίληψη:** Ο Josh Swihart είναι Ανώτερος Αντιπρόεδρος Ανάπτυξης, Στρατηγικής Προϊόντος και Ρυθμιστικών Σχέσεων στο Electric Coin Company.
+- **Περίληψη:** Ο Josh Swihart είναι ανώτερος αντιπρόεδρος ανάπτυξης, στρατηγικής προϊόντος και ρυθμιστικών σχέσεων στο Electric Coin Company.
   - **Χρονικές σημάνσεις:**
     - 0:00​ – Εισαγωγή
-    - 6:00​ – Το Dev Fund
+    - 6:00​ – το ταμείο ανάπτυξης (Dev Fund)
     - 15:22​ – Ρυθμιστικές και πολιτικές σχέσεις
     - 28:24​ – Η ιδιωτικότητα του Zcash έναντι άλλων μεθόδων
     - 42:38​ – Η δυνατότητα ελέγχου της προσφοράς του Zcash
@@ -249,7 +249,7 @@
 ## Ασφάλεια Zcash και Light-walletd με τον Taylor Hornby
 - **Ημερομηνία:** 18 Ιανουαρίου 2023
 - **Σύνδεσμος:** [Παρακολούθησε στο YouTube](https://youtu.be/18-xowScNpw?si=3qRPR59wcuPlYQaw)
-- **Περίληψη:** Ο Taylor Hornby είναι ο Επικεφαλής Ασφάλειας Οικοσυστήματος του Zcash.
+- **Περίληψη:** Ο Taylor Hornby είναι ο επικεφαλής ασφάλειας του οικοσυστήματος Zcash.
   - **Χρονικές σημάνσεις:**
     - 0:00 – Εισαγωγή
     - 6:11 – Η ευπάθεια σύγκρουσης InternalH
@@ -265,10 +265,10 @@
 ## FUD για το Zcash με το Josh Swihart
 - **Ημερομηνία:** 12 Ιανουαρίου 2023
 - **Σύνδεσμος:** [Παρακολούθησε στο YouTube](https://youtu.be/a6TQt6rmwXU?si=ONa7aR50GR6b6pKO)
-- **Περίληψη:** Ο Josh Swihart είναι Ανώτερος Αντιπρόεδρος Ανάπτυξης, Στρατηγικής Προϊόντος και Ρυθμιστικών Σχέσεων στο Electric Coin Company.
+- **Περίληψη:** Ο Josh Swihart είναι ανώτερος αντιπρόεδρος ανάπτυξης, στρατηγικής προϊόντος και ρυθμιστικών σχέσεων στο Electric Coin Company.
   - **Χρονικές σημάνσεις:**
     - 0:00 – Εισαγωγή
-    - 6:00 – Το Dev Fund
+    - 6:00 – το ταμείο ανάπτυξης
     - 15:22 – Ρυθμιστικές και πολιτικές σχέσεις
     - 28:24 – Η ιδιωτικότητα του Zcash έναντι άλλων μεθόδων
     - 42:38 – Η δυνατότητα ελέγχου της προσφοράς του Zcash

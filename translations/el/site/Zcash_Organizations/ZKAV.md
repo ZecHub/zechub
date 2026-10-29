@@ -1,5 +1,5 @@
 <a href="https://github.com/ZecHub/zechub/edit/main/site/Zcash_Organizations/ZKAV.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Επεξεργασία σελίδας"/>
 </a>
 
 # <img src="/content-images/image-2024-02-03-170636194-b507a57ff1.webp" alt="Alt Text" width="50"/>    ZKAV Club

@@ -10,32 +10,32 @@
 ### 2. Επίλεξε τη χώρα και το δίκτυό σου
 Κάνε κύλιση στην επάνω αριστερή γωνία και επίλεξε τη χώρα σου· έπειτα επίλεξε πίστωση κινητού τηλεφώνου και διάλεξε το δίκτυο στο οποίο θέλεις να κάνεις ανανέωση (παράδειγμα: MTN).
 
-![Step 2 - Selecting country and network](/content-images/0-qvB7ZCWaVWa-C2d8-db0d4ea372.webp)
+![Βήμα 2 - Επιλογή χώρας και δικτύου](/content-images/0-qvB7ZCWaVWa-C2d8-db0d4ea372.webp)
 
 ### 3. Συμπλήρωσε τα στοιχεία και αγόρασε
 Συμπλήρωσε τα σωστά στοιχεία και πάτησε το κουμπί “Αγόρασε τώρα”. Άνοιξε το καλάθι για να δεις την παραγγελία σου, πάτησε συνέχεια και επιβεβαίωσε την αγορά με $ZEC.
 
-![Step 3 - Purchase screen](/content-images/0-ikF-ooBc9W7olfNt-7a4584edda.webp)
+![Βήμα 3 - Οθόνη αγοράς](/content-images/0-ikF-ooBc9W7olfNt-7a4584edda.webp)
 
 ### 4. Στοιχεία πληρωμής
 Θα παρέχεται το ισοδύναμο ποσό σε $ZEC, μαζί με μια διαφανή διεύθυνση στην οποία πρέπει να σταλούν τα κεφάλαια.
 
-![Step 4 - ZEC payment details](/content-images/0-6_YhAhQnsLbrMvHN-c9646f3604.webp)
+![Βήμα 4 - Στοιχεία πληρωμής ZEC](/content-images/0-6_YhAhQnsLbrMvHN-c9646f3604.webp)
 
 ### 5. Στείλε την πληρωμή
 Αντέγραψε και επικόλλησε προσεκτικά το ποσό και τη διεύθυνση. Στο πεδίο σημειώματος, πρόσθεσε τη δική σου θωρακισμένη διεύθυνση σε περίπτωση επιστροφής χρημάτων.
 
-![Step 5 - Sending ZEC](/content-images/0-DNnpyemsKcW-k-u-bcaaa51d3a.webp)
+![Βήμα 5 - Αποστολή ZEC](/content-images/0-DNnpyemsKcW-k-u-bcaaa51d3a.webp)
 
 ### 6. Επεξεργασία
 Μόλις σταλούν τα κεφάλαια, το αίτημά σου θα υποβληθεί σε επεξεργασία μέσα σε λίγα λεπτά.
 
-![Step 6 - Processing screen](/content-images/0-LgXuUVLVecqrUW5G-a894c7b2dd.webp)
+![Βήμα 6 - Οθόνη επεξεργασίας](/content-images/0-LgXuUVLVecqrUW5G-a894c7b2dd.webp)
 
 ### 7. Επιβεβαίωση
 Ωπ… Η σύνδεσή μου έχει ανανεωθεί! Μπορείς επίσης να επιβεβαιώσεις το email σου κατά τη διαδικασία πληρωμής, ώστε να ειδοποιηθείς μέσω email μόλις ολοκληρωθεί η συναλλαγή.
 
-![Step 7 - Successful top-up](/content-images/0-TJKIcqznQ4Y8_jgo-e725aed571.webp)
+![Βήμα 7 - Επιτυχής ανανέωση](/content-images/0-TJKIcqznQ4Y8_jgo-e725aed571.webp)
 
 ## Αγορά ανανέωσης χωρίς λογαριασμό
 
@@ -56,11 +56,11 @@
 ### 5. Επιβεβαίωση
 Η ανανέωση υποβάλλεται σε επεξεργασία και η επιβεβαίωση φτάνει μέσω email, συνήθως μέσα σε δευτερόλεπτα.
 
-Το CardsRelay πουλά επίσης δωροκάρτες για περίπου 2.500 brands και δέχεται Monero και Zano μαζί με Zcash. Λειτουργεί από την Payzy ME FZ Ltd.
+Το CardsRelay πουλά επίσης δωροκάρτες για περίπου 2.500 μάρκες και δέχεται Monero και Zano μαζί με Zcash. Λειτουργεί από την Payzy ME FZ Ltd.
 
 ---
 
-![Additional screenshot](/content-images/0-Jn7tD9lb2xtMBpIw-ea9fbfb630.webp)
+![Πρόσθετο στιγμιότυπο οθόνης](/content-images/0-Jn7tD9lb2xtMBpIw-ea9fbfb630.webp)
 
 ### Άλλα μέρη για να ξοδέψεις ZEC
 

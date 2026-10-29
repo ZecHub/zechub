@@ -1,5 +1,5 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/guides/Visualizing_Zcash_Addresses.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Επεξεργασία σελίδας"/>
 </a>
 
 
@@ -22,7 +22,7 @@
 
 ![img2](/content-images/219261784-1a617e70-f588-4eed-96bf-f0789d-e10ebfc543.webp)
 
-* Unified Address (Πλήρης)
+* Ενοποιημένη διεύθυνση (Πλήρης)
 
 ![img3](/content-images/219261794-bcc79db6-4dc6-4c6a-867b-3717b8-a3650f8968.webp)
 
@@ -39,7 +39,7 @@
 
 #### «Οι Orchard διευθύνσεις πληρωμών δεν έχουν αυτόνομη κωδικοποίηση συμβολοσειράς. Αντίθετα, ορίζουμε “ενιαίες διευθύνσεις” που μπορούν να ομαδοποιούν διευθύνσεις διαφορετικών τύπων, συμπεριλαμβανομένων των Orchard. Οι ενιαίες διευθύνσεις έχουν Αναγνώσιμο από άνθρωπο τμήμα “u” στο Mainnet, δηλαδή θα έχουν το πρόθεμα “u1”.»
 
-## Δέκτες Unified Address
+## Δέκτες ενοποιημένης διεύθυνσης
 
 Όπως συζητήθηκε [εδώ](https://medium.com/@hanh425/transaction-privacy-78f80f9f175e), μπορείς να δημιουργήσεις UA με διαφορετικούς δέκτες -- κάποιον συνδυασμό διαφανών, sapling και orchard τύπων διευθύνσεων.
 Πέρα από μια πλήρη UA, παρακάτω είναι οι συνηθέστερες που θα βρεις στην πράξη:

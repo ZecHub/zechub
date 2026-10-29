@@ -5,7 +5,7 @@
 Το Zero to Zero Knowledge επιστρέφει με ένα νέο θέμα!  
 Αυτή την εβδομάδα εξερευνούμε τα **Έμπιστα περιβάλλοντα εκτέλεσης (TEEs)** - πώς χρησιμοποιούνται σε νομίσματα ιδιωτικότητας και άλλες εφαρμογές blockchain.
 
-![Trusted Execution Environments intro](/content-images/Fquj-h2WcAIgSnL-b80c8614cd.webp)
+![Εισαγωγή στα έμπιστα περιβάλλοντα εκτέλεσης](/content-images/Fquj-h2WcAIgSnL-b80c8614cd.webp)
 
 ---
 
@@ -31,7 +31,7 @@
 
 Αυτό διαφέρει από το Zcash, το οποίο χρησιμοποιεί **αποδείξεις μηδενικής γνώσης** για την ιδιωτικότητα. Στο Zcash, οι θωρακισμένες συναλλαγές μεταδίδονται και επικυρώνονται δημόσια χωρίς να αποκαλύπτονται πρόσθετα δεδομένα στο δίκτυο. Τα Zcash Shielded Assets ακολουθούν την ίδια αρχή.
 
-![Secret Network TEE diagram](/content-images/FqulPjNX0AEfjRp-c7085732a2.webp)
+![Διάγραμμα TEE του Secret Network](/content-images/FqulPjNX0AEfjRp-c7085732a2.webp)
 
 Για μια λεπτομερή εξήγηση του τρόπου με τον οποίο υλοποιούνται τα TEEs στο Secret Network, διάβασε αυτό το εξαιρετικό άρθρο του @l_woetzel:  
 https://carter-woetzel.medium.com/secret-network-tees-lets-talk-fud-vulnerability-33ca94b6df38
@@ -55,11 +55,11 @@ https://carter-woetzel.medium.com/secret-network-tees-lets-talk-fud-vulnerabilit
 - Ότι η εφαρμογή δεν έχει παραποιηθεί  
 - Ότι εκτελείται με ασφάλεια μέσα σε ένα enclave Intel SGX
 
-![Remote Attestation explanation](/content-images/FqumRjoWwAAeT-M-6eff73af4d.webp)
+![Επεξήγηση απομακρυσμένης βεβαίωσης](/content-images/FqumRjoWwAAeT-M-6eff73af4d.webp)
 
 Τα enclaves περιέχουν επίσης ιδιωτικά κλειδιά υπογραφής και βεβαίωσης, στα οποία δεν μπορεί να υπάρξει πρόσβαση από έξω.
 
-![Enclave key protection](/content-images/Fqumv83XoAQq-MO-47c3ab77e0.webp)
+![Προστασία κλειδιού enclave](/content-images/Fqumv83XoAQq-MO-47c3ab77e0.webp)
 
 ---
 
@@ -69,7 +69,7 @@ https://carter-woetzel.medium.com/secret-network-tees-lets-talk-fud-vulnerabilit
 
 Η **Σφράγιση δεδομένων** κρυπτογραφεί δεδομένα μέσα στο enclave χρησιμοποιώντας ένα κλειδί που παράγεται από την CPU. Το κρυπτογραφημένο μπλοκ μπορεί να αποσφραγιστεί μόνο στο **ίδιο σύστημα**.
 
-![Data Sealing diagram](/content-images/FqunBwyWYAA-TR3-933c2b0e6f.webp)
+![Διάγραμμα σφράγισης δεδομένων](/content-images/FqunBwyWYAA-TR3-933c2b0e6f.webp)
 
 ---
 
@@ -79,7 +79,7 @@ https://carter-woetzel.medium.com/secret-network-tees-lets-talk-fud-vulnerabilit
 
 Κρυπτογραφημένα δεδομένα εισέρχονται στο TEE μαζί με το έξυπνο συμβόλαιο. Αποκρυπτογραφούνται, υποβάλλονται σε επεξεργασία και κρυπτογραφούνται ξανά πριν εξέλθουν από το enclave.
 
-![Oasis Network TEE flow](/content-images/FqunJRDXwAMt4Ob-0e7969c7a8.webp)
+![Ροή TEE του Oasis Network](/content-images/FqunJRDXwAMt4Ob-0e7969c7a8.webp)
 
 ---
 
@@ -94,7 +94,7 @@ https://carter-woetzel.medium.com/secret-network-tees-lets-talk-fud-vulnerabilit
 
 Τα **TEEs** είναι ιδανικά για την ασφαλή δημιουργία και χρήση κλειδιών επικυρωτών.
 
-![Tendermint & PoS security](/content-images/Fqun0HEX0AAooxW-7f6163ae1e.webp)
+![Ασφάλεια Tendermint και PoS](/content-images/Fqun0HEX0AAooxW-7f6163ae1e.webp)
 
 ---
 

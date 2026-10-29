@@ -4,6 +4,6 @@
 
 # ZecHub DAO
 
-![Governance](/content-images/https-3A-2F-2Fsubstack-post-media.s3.ama-710a149234.webp)
+![Διακυβέρνηση](/content-images/https-3A-2F-2Fsubstack-post-media.s3.ama-710a149234.webp)
 
 => [Διακυβέρνηση DAO ZecHub](https://zechub.wiki/governance-howto)
