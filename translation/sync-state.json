@@ -1819,11 +1819,11 @@
       "edited": false
     },
     "Glossary_and_FAQs/Gallery.md": {
-      "src": "sha256:02f475134c69ed7f75dd1b23ff1ff1bb001b63541c7b9c639948020625c820c9",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
+      "src": "sha256:2ad2b9fab191c1e5bcb4da3750430e413f956d452b6aad2e695ae26d8379d910",
+      "src_commit": "a838aa063bd26f2f850a41f850ce05902ee209cd",
       "engine": "llm",
-      "mode": "seed",
-      "tool": "gpt-5.4",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "Glossary_and_FAQs/Gallery/Infographics.md": {
@@ -3067,8 +3067,8 @@
       "edited": false
     },
     "Zcash_Use_Cases/About.md": {
-      "src": "sha256:a56baac313758256e3930b10db418aa46e04b6d034fae0262500d52206bad3fc",
-      "src_commit": "599423788092c75c5b21cf8a2be19b900743de0a",
+      "src": "sha256:644ff41004673d85fa73a11ebfacac95a1e2ec8f86ba1b9dcd7f4f40ad53b6e2",
+      "src_commit": "a838aa063bd26f2f850a41f850ce05902ee209cd",
       "engine": "llm",
       "mode": "diff",
       "tool": "codex/gpt-5.6-terra",
@@ -3649,6 +3649,14 @@
       "mode": "full",
       "tool": "codex/gpt-5.6-terra",
       "edited": false
+    },
+    "Zcash_Use_Cases/Where_To_Donate_ZEC.md": {
+      "src": "sha256:45d7f6a6946f7d534acadcea2b9e1e006ea5e6c038d51d3f02538064cb22b6a3",
+      "src_commit": "a838aa063bd26f2f850a41f850ce05902ee209cd",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
     }
   },
   "de": {
@@ -3661,11 +3669,11 @@
       "edited": false
     },
     "Glossary_and_FAQs/Gallery.md": {
-      "src": "sha256:02f475134c69ed7f75dd1b23ff1ff1bb001b63541c7b9c639948020625c820c9",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
+      "src": "sha256:2ad2b9fab191c1e5bcb4da3750430e413f956d452b6aad2e695ae26d8379d910",
+      "src_commit": "a838aa063bd26f2f850a41f850ce05902ee209cd",
       "engine": "llm",
-      "mode": "seed",
-      "tool": "gpt-5.4",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "Glossary_and_FAQs/Gallery/Infographics.md": {
@@ -4909,8 +4917,8 @@
       "edited": false
     },
     "Zcash_Use_Cases/About.md": {
-      "src": "sha256:a56baac313758256e3930b10db418aa46e04b6d034fae0262500d52206bad3fc",
-      "src_commit": "599423788092c75c5b21cf8a2be19b900743de0a",
+      "src": "sha256:644ff41004673d85fa73a11ebfacac95a1e2ec8f86ba1b9dcd7f4f40ad53b6e2",
+      "src_commit": "a838aa063bd26f2f850a41f850ce05902ee209cd",
       "engine": "llm",
       "mode": "diff",
       "tool": "codex/gpt-5.6-terra",
@@ -5490,6 +5498,14 @@
       "engine": "llm",
       "mode": "full",
       "tool": "codex/gpt-5.6-terra+handfix",
+      "edited": false
+    },
+    "Zcash_Use_Cases/Where_To_Donate_ZEC.md": {
+      "src": "sha256:45d7f6a6946f7d534acadcea2b9e1e006ea5e6c038d51d3f02538064cb22b6a3",
+      "src_commit": "a838aa063bd26f2f850a41f850ce05902ee209cd",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     }
   },
@@ -7433,8 +7449,8 @@
       "edited": false
     },
     "Glossary_and_FAQs/Gallery.md": {
-      "src": "sha256:02f475134c69ed7f75dd1b23ff1ff1bb001b63541c7b9c639948020625c820c9",
-      "src_commit": "eaa2c902ebfcd9c6b965430907983c8fae0a0f45",
+      "src": "sha256:2ad2b9fab191c1e5bcb4da3750430e413f956d452b6aad2e695ae26d8379d910",
+      "src_commit": "a838aa063bd26f2f850a41f850ce05902ee209cd",
       "engine": "llm",
       "mode": "full",
       "tool": "codex/gpt-5.6-terra",
@@ -7985,10 +8001,10 @@
       "edited": false
     },
     "Zcash_Use_Cases/About.md": {
-      "src": "sha256:a56baac313758256e3930b10db418aa46e04b6d034fae0262500d52206bad3fc",
-      "src_commit": "eaa2c902ebfcd9c6b965430907983c8fae0a0f45",
+      "src": "sha256:644ff41004673d85fa73a11ebfacac95a1e2ec8f86ba1b9dcd7f4f40ad53b6e2",
+      "src_commit": "a838aa063bd26f2f850a41f850ce05902ee209cd",
       "engine": "llm",
-      "mode": "full",
+      "mode": "diff",
       "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
@@ -9151,6 +9167,14 @@
       "mode": "full",
       "tool": "codex/gpt-5.6-terra+handfix+panos-b3",
       "edited": false
+    },
+    "Zcash_Use_Cases/Where_To_Donate_ZEC.md": {
+      "src": "sha256:45d7f6a6946f7d534acadcea2b9e1e006ea5e6c038d51d3f02538064cb22b6a3",
+      "src_commit": "a838aa063bd26f2f850a41f850ce05902ee209cd",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
     }
   },
   "es": {
@@ -9163,11 +9187,11 @@
       "edited": false
     },
     "Glossary_and_FAQs/Gallery.md": {
-      "src": "sha256:02f475134c69ed7f75dd1b23ff1ff1bb001b63541c7b9c639948020625c820c9",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
+      "src": "sha256:2ad2b9fab191c1e5bcb4da3750430e413f956d452b6aad2e695ae26d8379d910",
+      "src_commit": "a838aa063bd26f2f850a41f850ce05902ee209cd",
       "engine": "llm",
-      "mode": "seed",
-      "tool": "gpt-5.4",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "Glossary_and_FAQs/Gallery/Infographics.md": {
@@ -10411,8 +10435,8 @@
       "edited": false
     },
     "Zcash_Use_Cases/About.md": {
-      "src": "sha256:a56baac313758256e3930b10db418aa46e04b6d034fae0262500d52206bad3fc",
-      "src_commit": "599423788092c75c5b21cf8a2be19b900743de0a",
+      "src": "sha256:644ff41004673d85fa73a11ebfacac95a1e2ec8f86ba1b9dcd7f4f40ad53b6e2",
+      "src_commit": "a838aa063bd26f2f850a41f850ce05902ee209cd",
       "engine": "llm",
       "mode": "diff",
       "tool": "codex/gpt-5.6-terra",
@@ -10993,6 +11017,14 @@
       "mode": "full",
       "tool": "codex/gpt-5.6-terra",
       "edited": false
+    },
+    "Zcash_Use_Cases/Where_To_Donate_ZEC.md": {
+      "src": "sha256:45d7f6a6946f7d534acadcea2b9e1e006ea5e6c038d51d3f02538064cb22b6a3",
+      "src_commit": "a838aa063bd26f2f850a41f850ce05902ee209cd",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
     }
   },
   "fr": {
@@ -11005,11 +11037,11 @@
       "edited": false
     },
     "Glossary_and_FAQs/Gallery.md": {
-      "src": "sha256:02f475134c69ed7f75dd1b23ff1ff1bb001b63541c7b9c639948020625c820c9",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
+      "src": "sha256:2ad2b9fab191c1e5bcb4da3750430e413f956d452b6aad2e695ae26d8379d910",
+      "src_commit": "a838aa063bd26f2f850a41f850ce05902ee209cd",
       "engine": "llm",
-      "mode": "seed",
-      "tool": "gpt-5.4",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "Glossary_and_FAQs/Gallery/Infographics.md": {
@@ -12253,8 +12285,8 @@
       "edited": false
     },
     "Zcash_Use_Cases/About.md": {
-      "src": "sha256:a56baac313758256e3930b10db418aa46e04b6d034fae0262500d52206bad3fc",
-      "src_commit": "599423788092c75c5b21cf8a2be19b900743de0a",
+      "src": "sha256:644ff41004673d85fa73a11ebfacac95a1e2ec8f86ba1b9dcd7f4f40ad53b6e2",
+      "src_commit": "a838aa063bd26f2f850a41f850ce05902ee209cd",
       "engine": "llm",
       "mode": "diff",
       "tool": "codex/gpt-5.6-terra",
@@ -12835,6 +12867,14 @@
       "mode": "full",
       "tool": "codex/gpt-5.6-terra",
       "edited": false
+    },
+    "Zcash_Use_Cases/Where_To_Donate_ZEC.md": {
+      "src": "sha256:45d7f6a6946f7d534acadcea2b9e1e006ea5e6c038d51d3f02538064cb22b6a3",
+      "src_commit": "a838aa063bd26f2f850a41f850ce05902ee209cd",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
     }
   },
   "hi": {
@@ -12847,11 +12887,11 @@
       "edited": false
     },
     "Glossary_and_FAQs/Gallery.md": {
-      "src": "sha256:02f475134c69ed7f75dd1b23ff1ff1bb001b63541c7b9c639948020625c820c9",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
+      "src": "sha256:2ad2b9fab191c1e5bcb4da3750430e413f956d452b6aad2e695ae26d8379d910",
+      "src_commit": "a838aa063bd26f2f850a41f850ce05902ee209cd",
       "engine": "llm",
-      "mode": "seed",
-      "tool": "gpt-5.4",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "Glossary_and_FAQs/Gallery/Infographics.md": {
@@ -14095,8 +14135,8 @@
       "edited": false
     },
     "Zcash_Use_Cases/About.md": {
-      "src": "sha256:a56baac313758256e3930b10db418aa46e04b6d034fae0262500d52206bad3fc",
-      "src_commit": "599423788092c75c5b21cf8a2be19b900743de0a",
+      "src": "sha256:644ff41004673d85fa73a11ebfacac95a1e2ec8f86ba1b9dcd7f4f40ad53b6e2",
+      "src_commit": "a838aa063bd26f2f850a41f850ce05902ee209cd",
       "engine": "llm",
       "mode": "diff",
       "tool": "codex/gpt-5.6-terra",
@@ -14677,6 +14717,14 @@
       "mode": "full",
       "tool": "codex/gpt-5.6-terra",
       "edited": false
+    },
+    "Zcash_Use_Cases/Where_To_Donate_ZEC.md": {
+      "src": "sha256:45d7f6a6946f7d534acadcea2b9e1e006ea5e6c038d51d3f02538064cb22b6a3",
+      "src_commit": "a838aa063bd26f2f850a41f850ce05902ee209cd",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
     }
   },
   "id": {
@@ -14689,11 +14737,11 @@
       "edited": false
     },
     "Glossary_and_FAQs/Gallery.md": {
-      "src": "sha256:02f475134c69ed7f75dd1b23ff1ff1bb001b63541c7b9c639948020625c820c9",
-      "src_commit": "3336a9152b64b4e8894a412cd8de9a2263b90a77",
+      "src": "sha256:2ad2b9fab191c1e5bcb4da3750430e413f956d452b6aad2e695ae26d8379d910",
+      "src_commit": "a838aa063bd26f2f850a41f850ce05902ee209cd",
       "engine": "llm",
       "mode": "full",
-      "tool": "google/gemma-4-26b-a4b",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "Glossary_and_FAQs/Gallery/Infographics.md": {
@@ -15937,11 +15985,11 @@
       "edited": false
     },
     "Zcash_Use_Cases/About.md": {
-      "src": "sha256:a56baac313758256e3930b10db418aa46e04b6d034fae0262500d52206bad3fc",
-      "src_commit": "599423788092c75c5b21cf8a2be19b900743de0a",
+      "src": "sha256:644ff41004673d85fa73a11ebfacac95a1e2ec8f86ba1b9dcd7f4f40ad53b6e2",
+      "src_commit": "a838aa063bd26f2f850a41f850ce05902ee209cd",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra+handfix",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "Zcash_Use_Cases/Accept_Payments_As_A_Merchant.md": {
@@ -16515,6 +16563,14 @@
     "Zcash_Use_Cases/Accept_Private_Donations_As_A_US_Nonprofit.md": {
       "src": "sha256:5b7e4d0f6d395177aad7d30a86169d9580860924cc9f0f9f453dfe37066f79b2",
       "src_commit": "599423788092c75c5b21cf8a2be19b900743de0a",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
+    },
+    "Zcash_Use_Cases/Where_To_Donate_ZEC.md": {
+      "src": "sha256:45d7f6a6946f7d534acadcea2b9e1e006ea5e6c038d51d3f02538064cb22b6a3",
+      "src_commit": "a838aa063bd26f2f850a41f850ce05902ee209cd",
       "engine": "llm",
       "mode": "full",
       "tool": "codex/gpt-5.6-terra",
@@ -18357,11 +18413,11 @@
       "edited": false
     },
     "Glossary_and_FAQs/Gallery.md": {
-      "src": "sha256:02f475134c69ed7f75dd1b23ff1ff1bb001b63541c7b9c639948020625c820c9",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
+      "src": "sha256:2ad2b9fab191c1e5bcb4da3750430e413f956d452b6aad2e695ae26d8379d910",
+      "src_commit": "a838aa063bd26f2f850a41f850ce05902ee209cd",
       "engine": "llm",
-      "mode": "seed",
-      "tool": "gpt-5.4+itreview+handfix+itdizcash",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "Glossary_and_FAQs/Gallery/Infographics.md": {
@@ -19605,8 +19661,8 @@
       "edited": false
     },
     "Zcash_Use_Cases/About.md": {
-      "src": "sha256:a56baac313758256e3930b10db418aa46e04b6d034fae0262500d52206bad3fc",
-      "src_commit": "599423788092c75c5b21cf8a2be19b900743de0a",
+      "src": "sha256:644ff41004673d85fa73a11ebfacac95a1e2ec8f86ba1b9dcd7f4f40ad53b6e2",
+      "src_commit": "a838aa063bd26f2f850a41f850ce05902ee209cd",
       "engine": "llm",
       "mode": "diff",
       "tool": "codex/gpt-5.6-terra",
@@ -20187,6 +20243,14 @@
       "mode": "full",
       "tool": "codex/gpt-5.6-terra",
       "edited": false
+    },
+    "Zcash_Use_Cases/Where_To_Donate_ZEC.md": {
+      "src": "sha256:45d7f6a6946f7d534acadcea2b9e1e006ea5e6c038d51d3f02538064cb22b6a3",
+      "src_commit": "a838aa063bd26f2f850a41f850ce05902ee209cd",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
     }
   },
   "ja": {
@@ -20199,11 +20263,11 @@
       "edited": false
     },
     "Glossary_and_FAQs/Gallery.md": {
-      "src": "sha256:02f475134c69ed7f75dd1b23ff1ff1bb001b63541c7b9c639948020625c820c9",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
+      "src": "sha256:2ad2b9fab191c1e5bcb4da3750430e413f956d452b6aad2e695ae26d8379d910",
+      "src_commit": "a838aa063bd26f2f850a41f850ce05902ee209cd",
       "engine": "llm",
-      "mode": "seed",
-      "tool": "qwen3-14b",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "Glossary_and_FAQs/Gallery/Infographics.md": {
@@ -21447,8 +21511,8 @@
       "edited": false
     },
     "Zcash_Use_Cases/About.md": {
-      "src": "sha256:a56baac313758256e3930b10db418aa46e04b6d034fae0262500d52206bad3fc",
-      "src_commit": "599423788092c75c5b21cf8a2be19b900743de0a",
+      "src": "sha256:644ff41004673d85fa73a11ebfacac95a1e2ec8f86ba1b9dcd7f4f40ad53b6e2",
+      "src_commit": "a838aa063bd26f2f850a41f850ce05902ee209cd",
       "engine": "llm",
       "mode": "diff",
       "tool": "codex/gpt-5.6-terra",
@@ -22029,6 +22093,14 @@
       "mode": "full",
       "tool": "codex/gpt-5.6-terra+handfix",
       "edited": false
+    },
+    "Zcash_Use_Cases/Where_To_Donate_ZEC.md": {
+      "src": "sha256:45d7f6a6946f7d534acadcea2b9e1e006ea5e6c038d51d3f02538064cb22b6a3",
+      "src_commit": "a838aa063bd26f2f850a41f850ce05902ee209cd",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
     }
   },
   "ko": {
@@ -22041,11 +22113,11 @@
       "edited": false
     },
     "Glossary_and_FAQs/Gallery.md": {
-      "src": "sha256:02f475134c69ed7f75dd1b23ff1ff1bb001b63541c7b9c639948020625c820c9",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
+      "src": "sha256:2ad2b9fab191c1e5bcb4da3750430e413f956d452b6aad2e695ae26d8379d910",
+      "src_commit": "a838aa063bd26f2f850a41f850ce05902ee209cd",
       "engine": "llm",
-      "mode": "seed",
-      "tool": "qwen3-14b",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "Glossary_and_FAQs/Gallery/Infographics.md": {
@@ -23289,8 +23361,8 @@
       "edited": false
     },
     "Zcash_Use_Cases/About.md": {
-      "src": "sha256:a56baac313758256e3930b10db418aa46e04b6d034fae0262500d52206bad3fc",
-      "src_commit": "599423788092c75c5b21cf8a2be19b900743de0a",
+      "src": "sha256:644ff41004673d85fa73a11ebfacac95a1e2ec8f86ba1b9dcd7f4f40ad53b6e2",
+      "src_commit": "a838aa063bd26f2f850a41f850ce05902ee209cd",
       "engine": "llm",
       "mode": "diff",
       "tool": "codex/gpt-5.6-terra",
@@ -23871,6 +23943,14 @@
       "mode": "full",
       "tool": "codex/gpt-5.6-terra",
       "edited": false
+    },
+    "Zcash_Use_Cases/Where_To_Donate_ZEC.md": {
+      "src": "sha256:45d7f6a6946f7d534acadcea2b9e1e006ea5e6c038d51d3f02538064cb22b6a3",
+      "src_commit": "a838aa063bd26f2f850a41f850ce05902ee209cd",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
     }
   },
   "pt": {
@@ -23883,11 +23963,11 @@
       "edited": false
     },
     "Glossary_and_FAQs/Gallery.md": {
-      "src": "sha256:02f475134c69ed7f75dd1b23ff1ff1bb001b63541c7b9c639948020625c820c9",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
+      "src": "sha256:2ad2b9fab191c1e5bcb4da3750430e413f956d452b6aad2e695ae26d8379d910",
+      "src_commit": "a838aa063bd26f2f850a41f850ce05902ee209cd",
       "engine": "llm",
-      "mode": "seed",
-      "tool": "gpt-5.4+ptbr",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "Glossary_and_FAQs/Gallery/Infographics.md": {
@@ -25131,11 +25211,11 @@
       "edited": false
     },
     "Zcash_Use_Cases/About.md": {
-      "src": "sha256:a56baac313758256e3930b10db418aa46e04b6d034fae0262500d52206bad3fc",
-      "src_commit": "599423788092c75c5b21cf8a2be19b900743de0a",
+      "src": "sha256:644ff41004673d85fa73a11ebfacac95a1e2ec8f86ba1b9dcd7f4f40ad53b6e2",
+      "src_commit": "a838aa063bd26f2f850a41f850ce05902ee209cd",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra+ptbr",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "Zcash_Use_Cases/Accept_Payments_As_A_Merchant.md": {
@@ -25713,6 +25793,14 @@
       "mode": "full",
       "tool": "codex/gpt-5.6-terra+ptbr",
       "edited": false
+    },
+    "Zcash_Use_Cases/Where_To_Donate_ZEC.md": {
+      "src": "sha256:45d7f6a6946f7d534acadcea2b9e1e006ea5e6c038d51d3f02538064cb22b6a3",
+      "src_commit": "a838aa063bd26f2f850a41f850ce05902ee209cd",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
     }
   },
   "ru": {
@@ -25725,11 +25813,11 @@
       "edited": false
     },
     "Glossary_and_FAQs/Gallery.md": {
-      "src": "sha256:02f475134c69ed7f75dd1b23ff1ff1bb001b63541c7b9c639948020625c820c9",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
+      "src": "sha256:2ad2b9fab191c1e5bcb4da3750430e413f956d452b6aad2e695ae26d8379d910",
+      "src_commit": "a838aa063bd26f2f850a41f850ce05902ee209cd",
       "engine": "llm",
-      "mode": "seed",
-      "tool": "gpt-5.4",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "Glossary_and_FAQs/Gallery/Infographics.md": {
@@ -26973,8 +27061,8 @@
       "edited": false
     },
     "Zcash_Use_Cases/About.md": {
-      "src": "sha256:a56baac313758256e3930b10db418aa46e04b6d034fae0262500d52206bad3fc",
-      "src_commit": "599423788092c75c5b21cf8a2be19b900743de0a",
+      "src": "sha256:644ff41004673d85fa73a11ebfacac95a1e2ec8f86ba1b9dcd7f4f40ad53b6e2",
+      "src_commit": "a838aa063bd26f2f850a41f850ce05902ee209cd",
       "engine": "llm",
       "mode": "diff",
       "tool": "codex/gpt-5.6-terra",
@@ -27551,6 +27639,14 @@
     "Zcash_Use_Cases/Accept_Private_Donations_As_A_US_Nonprofit.md": {
       "src": "sha256:5b7e4d0f6d395177aad7d30a86169d9580860924cc9f0f9f453dfe37066f79b2",
       "src_commit": "599423788092c75c5b21cf8a2be19b900743de0a",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
+    },
+    "Zcash_Use_Cases/Where_To_Donate_ZEC.md": {
+      "src": "sha256:45d7f6a6946f7d534acadcea2b9e1e006ea5e6c038d51d3f02538064cb22b6a3",
+      "src_commit": "a838aa063bd26f2f850a41f850ce05902ee209cd",
       "engine": "llm",
       "mode": "full",
       "tool": "codex/gpt-5.6-terra",
@@ -29385,11 +29481,11 @@
       "edited": false
     },
     "Glossary_and_FAQs/Gallery.md": {
-      "src": "sha256:02f475134c69ed7f75dd1b23ff1ff1bb001b63541c7b9c639948020625c820c9",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
+      "src": "sha256:2ad2b9fab191c1e5bcb4da3750430e413f956d452b6aad2e695ae26d8379d910",
+      "src_commit": "a838aa063bd26f2f850a41f850ce05902ee209cd",
       "engine": "llm",
-      "mode": "seed",
-      "tool": "gpt-5.4",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "Glossary_and_FAQs/Gallery/Infographics.md": {
@@ -30633,8 +30729,8 @@
       "edited": false
     },
     "Zcash_Use_Cases/About.md": {
-      "src": "sha256:a56baac313758256e3930b10db418aa46e04b6d034fae0262500d52206bad3fc",
-      "src_commit": "599423788092c75c5b21cf8a2be19b900743de0a",
+      "src": "sha256:644ff41004673d85fa73a11ebfacac95a1e2ec8f86ba1b9dcd7f4f40ad53b6e2",
+      "src_commit": "a838aa063bd26f2f850a41f850ce05902ee209cd",
       "engine": "llm",
       "mode": "diff",
       "tool": "codex/gpt-5.6-terra",
@@ -31215,6 +31311,14 @@
       "mode": "full",
       "tool": "codex/gpt-5.6-terra",
       "edited": false
+    },
+    "Zcash_Use_Cases/Where_To_Donate_ZEC.md": {
+      "src": "sha256:45d7f6a6946f7d534acadcea2b9e1e006ea5e6c038d51d3f02538064cb22b6a3",
+      "src_commit": "a838aa063bd26f2f850a41f850ce05902ee209cd",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
     }
   },
   "uk": {
@@ -31227,11 +31331,11 @@
       "edited": false
     },
     "Glossary_and_FAQs/Gallery.md": {
-      "src": "sha256:02f475134c69ed7f75dd1b23ff1ff1bb001b63541c7b9c639948020625c820c9",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
+      "src": "sha256:2ad2b9fab191c1e5bcb4da3750430e413f956d452b6aad2e695ae26d8379d910",
+      "src_commit": "a838aa063bd26f2f850a41f850ce05902ee209cd",
       "engine": "llm",
-      "mode": "seed",
-      "tool": "gpt-5.4",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "Glossary_and_FAQs/Gallery/Infographics.md": {
@@ -32475,8 +32579,8 @@
       "edited": false
     },
     "Zcash_Use_Cases/About.md": {
-      "src": "sha256:a56baac313758256e3930b10db418aa46e04b6d034fae0262500d52206bad3fc",
-      "src_commit": "599423788092c75c5b21cf8a2be19b900743de0a",
+      "src": "sha256:644ff41004673d85fa73a11ebfacac95a1e2ec8f86ba1b9dcd7f4f40ad53b6e2",
+      "src_commit": "a838aa063bd26f2f850a41f850ce05902ee209cd",
       "engine": "llm",
       "mode": "diff",
       "tool": "codex/gpt-5.6-terra",
@@ -33053,6 +33157,14 @@
     "Zcash_Use_Cases/Accept_Private_Donations_As_A_US_Nonprofit.md": {
       "src": "sha256:5b7e4d0f6d395177aad7d30a86169d9580860924cc9f0f9f453dfe37066f79b2",
       "src_commit": "599423788092c75c5b21cf8a2be19b900743de0a",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
+    },
+    "Zcash_Use_Cases/Where_To_Donate_ZEC.md": {
+      "src": "sha256:45d7f6a6946f7d534acadcea2b9e1e006ea5e6c038d51d3f02538064cb22b6a3",
+      "src_commit": "a838aa063bd26f2f850a41f850ce05902ee209cd",
       "engine": "llm",
       "mode": "full",
       "tool": "codex/gpt-5.6-terra",
@@ -34855,11 +34967,11 @@
       "edited": false
     },
     "Glossary_and_FAQs/Gallery.md": {
-      "src": "sha256:02f475134c69ed7f75dd1b23ff1ff1bb001b63541c7b9c639948020625c820c9",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
+      "src": "sha256:2ad2b9fab191c1e5bcb4da3750430e413f956d452b6aad2e695ae26d8379d910",
+      "src_commit": "a838aa063bd26f2f850a41f850ce05902ee209cd",
       "engine": "llm",
-      "mode": "seed",
-      "tool": "gpt-5.4",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "Glossary_and_FAQs/Gallery/Infographics.md": {
@@ -36103,8 +36215,8 @@
       "edited": false
     },
     "Zcash_Use_Cases/About.md": {
-      "src": "sha256:a56baac313758256e3930b10db418aa46e04b6d034fae0262500d52206bad3fc",
-      "src_commit": "599423788092c75c5b21cf8a2be19b900743de0a",
+      "src": "sha256:644ff41004673d85fa73a11ebfacac95a1e2ec8f86ba1b9dcd7f4f40ad53b6e2",
+      "src_commit": "a838aa063bd26f2f850a41f850ce05902ee209cd",
       "engine": "llm",
       "mode": "diff",
       "tool": "codex/gpt-5.6-terra",
@@ -36681,6 +36793,14 @@
     "Zcash_Use_Cases/Accept_Private_Donations_As_A_US_Nonprofit.md": {
       "src": "sha256:5b7e4d0f6d395177aad7d30a86169d9580860924cc9f0f9f453dfe37066f79b2",
       "src_commit": "599423788092c75c5b21cf8a2be19b900743de0a",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
+    },
+    "Zcash_Use_Cases/Where_To_Donate_ZEC.md": {
+      "src": "sha256:45d7f6a6946f7d534acadcea2b9e1e006ea5e6c038d51d3f02538064cb22b6a3",
+      "src_commit": "a838aa063bd26f2f850a41f850ce05902ee209cd",
       "engine": "llm",
       "mode": "full",
       "tool": "codex/gpt-5.6-terra",

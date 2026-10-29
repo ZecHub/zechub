@@ -1,6 +1,6 @@
 {
   "Glossary_and_FAQs/FAQ.md": "Συχνές ερωτήσεις",
-  "Glossary_and_FAQs/Gallery.md": "Συλλογή ταπετσαριών του Zcash",
+  "Glossary_and_FAQs/Gallery.md": "Συλλογή ταπετσαριών Zcash",
   "Glossary_and_FAQs/Zcash_Library.md": "Βιβλιοθήκη Zcash",
   "Glossary_and_FAQs/ZecHub_Hackathon_Builders_Guide.md": "Οδηγός δημιουργού για το hackathon ZecHub",
   "Privacy_Tools/2FA_Hardware_Devices.md": "Συσκευές hardware για 2FA",
@@ -166,6 +166,7 @@
   "Zcash_Use_Cases/Receive_Donations_Privately.md": "Λάβε δωρεές ιδιωτικά με Zcash",
   "Zcash_Use_Cases/Send_Money_Without_Linking_Identity.md": "Στείλε χρήματα χωρίς να συνδέεις την ταυτότητά σου",
   "Zcash_Use_Cases/Sign_in_With_Zcash.md": "Σύνδεση με Zcash",
+  "Zcash_Use_Cases/Where_To_Donate_ZEC.md": "Πού να κάνεις δωρεά ZEC",
   "Zero_to_Zero_Knowledge/Cryptonote.md": "Zero to Zero Knowledge: Πρωτόκολλο CryptoNote",
   "Zero_to_Zero_Knowledge/Hash_Functions.md": "Zero to Zero Knowledge: Συναρτήσεις κατακερματισμού",
   "Zero_to_Zero_Knowledge/Lelantus.md": "Zero to Zero Knowledge: Πρωτόκολλο Lelantus",

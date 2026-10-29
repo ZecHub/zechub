@@ -47,6 +47,9 @@ Usa indirizzi schermati per detenere fondi condivisi e limitare la visibilità d
 ###  [Accetta donazioni private come organizzazione non profit statunitense](/zcash-use-cases/accept-private-donations-as-a-us-nonprofit)
 Accetta ZEC schermati come ente 501(c)(3) e continua a fornire ai donatori le ricevute e i moduli IRS di cui hanno bisogno
 
+###  [Dove donare ZEC](/zcash-use-cases/where-to-donate-zec)
+Trova organizzazioni non profit che accettano ZEC e scopri quali accettano donazioni schermate
+
 ###  [Configurazione privacy per giornalisti](/zcash-use-cases/journalist-privacy-setup)   
 Usa indirizzi schermati per tutte le transazioni e proteggi le fonti evitando pagamenti tracciabili. Usa i memo con attenzione per una comunicazione sicura
 

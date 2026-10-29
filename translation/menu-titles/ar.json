@@ -1,6 +1,6 @@
 {
   "Glossary_and_FAQs/FAQ.md": "الأسئلة الشائعة",
-  "Glossary_and_FAQs/Gallery.md": "معرض خلفيات Zcash",
+  "Glossary_and_FAQs/Gallery.md": "Zcash معرض الخلفيات",
   "Glossary_and_FAQs/Zcash_Library.md": "مكتبة Zcash",
   "Glossary_and_FAQs/ZecHub_Hackathon_Builders_Guide.md": "دليل باني الهاكاثون الخاص بـ ZecHub",
   "Privacy_Tools/2FA_Hardware_Devices.md": "أجهزة 2FA المادية",
@@ -166,6 +166,7 @@
   "Zcash_Use_Cases/Receive_Donations_Privately.md": "استقبل التبرعات بشكل خاص باستخدام Zcash",
   "Zcash_Use_Cases/Send_Money_Without_Linking_Identity.md": "أرسل الأموال دون ربط هويتك",
   "Zcash_Use_Cases/Sign_in_With_Zcash.md": "سجّل الدخول باستخدام Zcash",
+  "Zcash_Use_Cases/Where_To_Donate_ZEC.md": "أين تتبرع بـ ZEC",
   "Zero_to_Zero_Knowledge/Cryptonote.md": "Zero to Zero Knowledge: بروتوكول CryptoNote",
   "Zero_to_Zero_Knowledge/Hash_Functions.md": "Zero to Zero Knowledge: دوال Hash",
   "Zero_to_Zero_Knowledge/Lelantus.md": "Zero to Zero Knowledge: بروتوكول Lelantus",

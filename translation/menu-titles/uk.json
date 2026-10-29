@@ -1,6 +1,6 @@
 {
   "Glossary_and_FAQs/FAQ.md": "Часті запитання",
-  "Glossary_and_FAQs/Gallery.md": "Галерея шпалер Zcash",
+  "Glossary_and_FAQs/Gallery.md": "Zcash Галерея шпалер",
   "Glossary_and_FAQs/Zcash_Library.md": "Бібліотека Zcash",
   "Glossary_and_FAQs/ZecHub_Hackathon_Builders_Guide.md": "Посібник для учасників хакатону ZecHub",
   "Privacy_Tools/2FA_Hardware_Devices.md": "Апаратні пристрої 2FA",
@@ -166,6 +166,7 @@
   "Zcash_Use_Cases/Receive_Donations_Privately.md": "Отримуйте пожертви приватно за допомогою Zcash",
   "Zcash_Use_Cases/Send_Money_Without_Linking_Identity.md": "Надсилайте гроші, не пов’язуючи їх зі своєю особою",
   "Zcash_Use_Cases/Sign_in_With_Zcash.md": "Увійти за допомогою Zcash",
+  "Zcash_Use_Cases/Where_To_Donate_ZEC.md": "Куди жертвувати ZEC",
   "Zero_to_Zero_Knowledge/Cryptonote.md": "Zero to Zero Knowledge: протокол CryptoNote",
   "Zero_to_Zero_Knowledge/Hash_Functions.md": "Zero to Zero Knowledge: Хеш-функції",
   "Zero_to_Zero_Knowledge/Lelantus.md": "Zero to Zero Knowledge: протокол Lelantus",
