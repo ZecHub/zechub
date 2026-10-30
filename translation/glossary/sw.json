@@ -1,0 +1,2546 @@
+{
+  "locale": "sw",
+  "version": 1,
+  "meta": {
+    "language_name": "Swahili",
+    "native_name": "Kiswahili",
+    "engine": "gt",
+    "script": "Latn",
+    "dir": "ltr",
+    "language_lead": [
+      "@Sonnie1"
+    ],
+    "last_review": "2026-10-30"
+  },
+  "style": {
+    "variety": "natural, clear standard Swahili (Kiswahili sanifu)",
+    "register": {
+      "default": "rasmi",
+      "ui": "rasmi",
+      "text": {
+        "rasmi": "Use a formal, respectful register of standard Swahili when addressing the reader, in tutorials and technical pages alike; no slang or Sheng."
+      }
+    },
+    "english_in_brackets": "first-use",
+    "loanwords": "translate",
+    "loanwords_text": "Translate crypto terms into clear Swahili where a natural equivalent is understood; keep English only where the terminology list below keeps it. The terminology list wins over this rule.",
+    "capitalise_kept_english_at_sentence_start": true,
+    "numerals": "western",
+    "decimal_separator": ".",
+    "quotes": "double quotation marks “…”",
+    "abbreviations_with_full_stop": []
+  },
+  "terms": {
+    "wallet": {
+      "target": "pochi",
+      "forms": [
+        "pochi"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Reviewer's answer, written in the Notes column.",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "glossary-filled.md#terms-1"
+    },
+    "shielded": {
+      "target": "ya faragha",
+      "forms": [
+        "ya faragha",
+        "za faragha",
+        "wa faragha",
+        "la faragha",
+        "cha faragha",
+        "vya faragha"
+      ],
+      "rejected": [
+        {
+          "text": "iliyosimbwa"
+        }
+      ],
+      "context": "The adjective after a noun, agreeing with its class: \"anwani ya faragha\", \"miamala ya faragha\", \"Mabwawa ya Faragha\".",
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Reviewer chose faragha for shielded (comment 23/10) instead of iliyosimbwa.",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "ZecHub/zechub#2494 and #2503 comments"
+    },
+    "transaction": {
+      "target": "muamala",
+      "forms": [
+        "muamala",
+        "miamala"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Reviewer's answer, written in the Notes column.",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "glossary-filled.md#terms-3"
+    },
+    "privacy": {
+      "target": "faragha",
+      "forms": [
+        "faragha"
+      ],
+      "context": "The noun: privacy as a value (\"faragha ya kifedha\").",
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "ZecHub/zechub#2494 and #2503 comments"
+    },
+    "pool": {
+      "target": "bwawa",
+      "forms": [
+        "bwawa",
+        "mabwawa"
+      ],
+      "rejected": [
+        {
+          "text": "pool"
+        }
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Reviewer's answer, written in the Notes column.",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "glossary-filled.md#terms-6"
+    },
+    "proof": {
+      "target": "thibitisho",
+      "forms": [
+        "thibitisho",
+        "mathibitisho"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Reviewer's answer, written in the Notes column.",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "glossary-filled.md#terms-10"
+    },
+    "node": {
+      "target": "node",
+      "keep_english": true,
+      "forms": [
+        "node",
+        "nodes",
+        "Node",
+        "Nodes"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Comment 25/10: keep the empty crypto terms in English.",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "glossary-filled.md#terms-9"
+    },
+    "transparent": {
+      "target": "uwazi",
+      "forms": [
+        "uwazi",
+        "ya uwazi",
+        "za uwazi",
+        "wa uwazi",
+        "la uwazi",
+        "cha uwazi",
+        "vya uwazi"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Reviewer's answer, written in the Notes column.",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "glossary-filled.md#terms-12"
+    },
+    "exchange": {
+      "target": "soko la kubadilishana sarafu",
+      "forms": [
+        "soko la kubadilishana sarafu",
+        "masoko ya kubadilishana sarafu"
+      ],
+      "context": "A crypto exchange (the business): \"soko la kubadilishana sarafu\", menu \"Masoko ya kubadilishana sarafu\". Swap (to exchange one coin for another) is \"kubadilisha\".",
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Reviewer's answer, written in the Notes column.",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "glossary-filled.md#terms-16"
+    },
+    "memo": {
+      "target": "ujumbe",
+      "forms": [
+        "ujumbe",
+        "jumbe"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Reviewer's answer, written in the Notes column.",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "glossary-filled.md#terms-19"
+    },
+    "viewing-key": {
+      "target": "ufunguo wa kutazama",
+      "forms": [
+        "ufunguo wa kutazama",
+        "funguo za kutazama"
+      ],
+      "context": "The generic term is translated; the capitalised protected names (Viewing Key, Full Viewing Key, Incoming Viewing Key) stay as written.",
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Reviewer's answer, written in the Notes column.",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "glossary-filled.md#terms-26"
+    },
+    "fee": {
+      "target": "ada",
+      "forms": [
+        "ada"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Reviewer's answer, written in the Notes column.",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "glossary-filled.md#terms-22"
+    },
+    "swap": {
+      "target": "kubadilisha",
+      "forms": [
+        "kubadilisha"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Reviewer's answer, written in the Notes column.",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "glossary-filled.md#terms-27"
+    },
+    "custodial": {
+      "target": "inayohifadhiwa na mtu mwingine",
+      "forms": [
+        "inayohifadhiwa na mtu mwingine"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Reviewer's answer, written in the Notes column.",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "glossary-filled.md#terms-18"
+    },
+    "zero-knowledge": {
+      "target": "maarifa sifuri",
+      "forms": [
+        "maarifa sifuri"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Reviewer's answer, written in the Notes column.",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "glossary-filled.md#terms-23"
+    },
+    "network-upgrade": {
+      "target": "uboreshaji wa mtandao",
+      "forms": [
+        "uboreshaji wa mtandao",
+        "maboresho ya mtandao"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Reviewer's answer, written in the Notes column.",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "glossary-filled.md#terms-32"
+    },
+    "mining": {
+      "target": "uchimbaji",
+      "forms": [
+        "uchimbaji"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Reviewer's answer, written in the Notes column.",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "glossary-filled.md#terms-20"
+    },
+    "miner": {
+      "target": "mchimbaji",
+      "forms": [
+        "mchimbaji",
+        "wachimbaji"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Reviewer's answer, written in the Notes column.",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "glossary-filled.md#terms-39"
+    },
+    "full-node": {
+      "target": "full node",
+      "keep_english": true,
+      "forms": [
+        "full node",
+        "full nodes",
+        "Full node",
+        "Full Node",
+        "Full Nodes"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Comment 25/10: keep in English.",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "glossary-filled.md#terms-34"
+    },
+    "turnstile": {
+      "target": "turnstile",
+      "keep_english": true,
+      "forms": [
+        "turnstile",
+        "turnstiles",
+        "Turnstile",
+        "Turnstiles"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Comment 25/10: keep in English.",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "glossary-filled.md#terms-37"
+    },
+    "spending-key": {
+      "target": "ufunguo wa kutumia pesa",
+      "forms": [
+        "ufunguo wa kutumia pesa",
+        "funguo za kutumia pesa"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Reviewer's answer, written in the Notes column.",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "glossary-filled.md#terms-38"
+    },
+    "seed-phrase": {
+      "target": "maneno ya kurejesha pochi",
+      "forms": [
+        "maneno ya kurejesha pochi"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Reviewer's answer, written in the Notes column.",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "glossary-filled.md#terms-50"
+    },
+    "light-client": {
+      "target": "light client",
+      "keep_english": true,
+      "forms": [
+        "light client",
+        "light clients",
+        "Light client",
+        "Light Client"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Notes: English.",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "glossary-filled.md#terms-55"
+    },
+    "token": {
+      "target": "tokeni",
+      "forms": [
+        "tokeni"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Reviewer's answer, written in the Notes column.",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "glossary-filled.md#terms-28"
+    },
+    "chain": {
+      "target": "mnyororo",
+      "forms": [
+        "mnyororo",
+        "minyororo"
+      ],
+      "context": "A blockchain or chain on its own; inside on-chain and cross-chain the English stays.",
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "ZecHub/zechub#2494 and #2503 comments"
+    },
+    "cross-chain": {
+      "target": "cross-chain",
+      "keep_english": true,
+      "forms": [
+        "cross-chain",
+        "Cross-chain"
+      ],
+      "context": "Kept in English (reviewer, 25/10); chain on its own is \"mnyororo\".",
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "ZecHub/zechub#2494 and #2503 comments"
+    },
+    "faucet": {
+      "target": "chanzo cha sarafu za bure",
+      "forms": [
+        "chanzo cha sarafu za bure",
+        "vyanzo vya sarafu za bure"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Reviewer's answer, written in the Notes column.",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "glossary-filled.md#terms-49"
+    },
+    "developer": {
+      "target": "msanidi programu",
+      "forms": [
+        "msanidi programu",
+        "wasanidi programu",
+        "wasanidi wa programu"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Her glossary answer was \"Mtengenezaji\"; her later menu choice \"Wasanidi wa programu\" (comment 23/10, \"more technical\") is used for both.",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "glossary-filled.md#terms-33"
+    },
+    "dashboard": {
+      "target": "dashibodi",
+      "forms": [
+        "dashibodi"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Reviewer's answer, written in the Notes column.",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "glossary-filled.md#terms-51"
+    },
+    "visualizer": {
+      "target": "kionyeshi",
+      "forms": [
+        "kionyeshi",
+        "vionyeshi"
+      ],
+      "rejected": [
+        {
+          "text": "taswira"
+        }
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Reviewer's answer, written in the Notes column.",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "glossary-filled.md#terms-62"
+    },
+    "use-case": {
+      "target": "matumizi",
+      "forms": [
+        "matumizi"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Reviewer's answer, written in the Notes column.",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "glossary-filled.md#terms-53"
+    },
+    "brand": {
+      "target": "brand",
+      "keep_english": true,
+      "forms": [
+        "brand",
+        "brands",
+        "Brand",
+        "Brands"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "✅: English.",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "glossary-filled.md#terms-61"
+    },
+    "treasury": {
+      "target": "hazina",
+      "forms": [
+        "hazina"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Reviewer's answer, written in the Notes column.",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "glossary-filled.md#terms-57"
+    },
+    "top-up": {
+      "target": "kuongeza salio",
+      "forms": [
+        "kuongeza salio",
+        "kuweka salio"
+      ],
+      "context": "Adding credit; the menu \"Mobile Top Ups\" reads \"Kuweka salio kwenye simu\" (reviewer).",
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Reviewer's answer, written in the Notes column.",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "glossary-filled.md#terms-58"
+    },
+    "tools": {
+      "target": "kifaa",
+      "forms": [
+        "kifaa",
+        "vifaa"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Reviewer: kifaa singular, vifaa plural.",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "glossary-filled.md#terms-25"
+    },
+    "newsletter": {
+      "target": "jarida la habari",
+      "forms": [
+        "jarida la habari",
+        "majarida ya habari"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Reviewer's answer, written in the Notes column.",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "glossary-filled.md#terms-45"
+    },
+    "address": {
+      "target": "anwani",
+      "forms": [
+        "anwani"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Reviewer's answer, written in the Notes column.",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "glossary-filled.md#terms-4"
+    },
+    "block": {
+      "target": "kizuizi",
+      "forms": [
+        "kizuizi",
+        "vizuizi"
+      ],
+      "context": "A block of transactions in the blockchain, not an obstacle.",
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Reviewer's answer, written in the Notes column.",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "glossary-filled.md#terms-7"
+    },
+    "blockchain": {
+      "target": "mnyororo wa vizuizi",
+      "forms": [
+        "mnyororo wa vizuizi",
+        "minyororo ya vizuizi"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Reviewer's answer, written in the Notes column.",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "glossary-filled.md#terms-15"
+    },
+    "signature": {
+      "target": "sahihi",
+      "forms": [
+        "sahihi"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Reviewer's answer, written in the Notes column.",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "glossary-filled.md#terms-17"
+    },
+    "commitment": {
+      "target": "ahadi",
+      "forms": [
+        "ahadi"
+      ],
+      "context": "A cryptographic commitment (a value that binds hidden data without revealing it), not an everyday promise.",
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Reviewer's answer, written in the Notes column.",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "glossary-filled.md#terms-21"
+    },
+    "nullifier": {
+      "target": "nullifier",
+      "keep_english": true,
+      "forms": [
+        "nullifier",
+        "Nullifier",
+        "nullifiers",
+        "Nullifiers"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Comment 25/10: keep in English.",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "glossary-filled.md#terms-40"
+    },
+    "note": {
+      "target": "dokezo",
+      "forms": [
+        "dokezo",
+        "madokezo"
+      ],
+      "context": "A Zcash note: a unit of value held by a shielded address, not a remark or hint.",
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Reviewer's answer, written in the Notes column.",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "glossary-filled.md#terms-13"
+    },
+    "trusted-setup": {
+      "target": "usanidi unaoaminika",
+      "forms": [
+        "usanidi unaoaminika"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Reviewer's answer, written in the Notes column.",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "glossary-filled.md#terms-46"
+    },
+    "consensus": {
+      "target": "makubaliano",
+      "forms": [
+        "makubaliano"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "✅ ok",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "glossary-filled.md#terms-29"
+    },
+    "governance": {
+      "target": "utawala",
+      "forms": [
+        "utawala"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Reviewer's answer, written in the Notes column.",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "glossary-filled.md#terms-36"
+    },
+    "grant": {
+      "target": "ruzuku",
+      "forms": [
+        "ruzuku"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Reviewer's answer, written in the Notes column.",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "glossary-filled.md#terms-24"
+    },
+    "halving": {
+      "target": "kupunguzwa kwa nusu",
+      "forms": [
+        "kupunguzwa kwa nusu"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Reviewer's answer, written in the Notes column.",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "glossary-filled.md#terms-43"
+    },
+    "staking": {
+      "target": "kuweka sarafu",
+      "forms": [
+        "kuweka sarafu"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Reviewer's answer, written in the Notes column.",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "glossary-filled.md#terms-30"
+    },
+    "finalizer": {
+      "target": "kithibitishaji cha mwisho",
+      "forms": [
+        "kithibitishaji cha mwisho",
+        "vithibitishaji vya mwisho"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Reviewer's answer, written in the Notes column.",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "glossary-filled.md#terms-44"
+    },
+    "bond": {
+      "target": "dhamana",
+      "forms": [
+        "dhamana"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Reviewer's answer, written in the Notes column.",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "glossary-filled.md#terms-47"
+    },
+    "encryption": {
+      "target": "usimbaji fiche",
+      "forms": [
+        "usimbaji fiche"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Reviewer's answer, written in the Notes column.",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "glossary-filled.md#terms-14"
+    },
+    "decentralized": {
+      "target": "isiyodhibitiwa",
+      "forms": [
+        "isiyodhibitiwa",
+        "usiodhibitiwa",
+        "zisizodhibitiwa",
+        "yasiyodhibitiwa",
+        "lisilodhibitiwa",
+        "kisichodhibitiwa"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Reviewer's answer, written in the Notes column.",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "glossary-filled.md#terms-31"
+    },
+    "on-chain": {
+      "target": "on-chain",
+      "keep_english": true,
+      "forms": [
+        "on-chain",
+        "On-chain",
+        "onchain"
+      ],
+      "context": "Kept in English (reviewer, 25/10); chain on its own is \"mnyororo\".",
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "ZecHub/zechub#2494 and #2503 comments"
+    },
+    "bridge": {
+      "target": "daraja",
+      "forms": [
+        "daraja",
+        "madaraja"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Reviewer's answer, written in the Notes column.",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "glossary-filled.md#terms-42"
+    },
+    "payment": {
+      "target": "malipo",
+      "forms": [
+        "malipo"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Reviewer's answer, written in the Notes column.",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "glossary-filled.md#terms-8"
+    },
+    "smart-contract": {
+      "target": "mkataba mahiri",
+      "forms": [
+        "mkataba mahiri",
+        "mikataba mahiri"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Reviewer wrote the plural \"Mikataba mahiri\".",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "glossary-filled.md#terms-54"
+    },
+    "unlinkable": {
+      "target": "isiyoweza kuhusishwa",
+      "forms": [
+        "isiyoweza kuhusishwa",
+        "zisizoweza kuhusishwa",
+        "usioweza kuhusishwa"
+      ],
+      "rejected": [
+        {
+          "text": "inayoweza kutenganishwa"
+        }
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Reviewer's answer, written in the Notes column.",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "glossary-filled.md#terms-60"
+    },
+    "permissionless": {
+      "target": "bila ruhusa",
+      "forms": [
+        "bila ruhusa"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Reviewer's answer, written in the Notes column.",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "glossary-filled.md#terms-59"
+    },
+    "scaling": {
+      "target": "kupanua uwezo",
+      "forms": [
+        "kupanua uwezo"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Reviewer's answer, written in the Notes column.",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "glossary-filled.md#terms-48"
+    },
+    "selective-disclosure": {
+      "target": "selective disclosure",
+      "keep_english": true,
+      "forms": [
+        "selective disclosure",
+        "Selective disclosure"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Notes: English.",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "glossary-filled.md#terms-56"
+    },
+    "hardware-wallet": {
+      "target": "pochi ya vifaa",
+      "forms": [
+        "pochi ya vifaa",
+        "pochi za vifaa"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Reviewer's answer, written in the Notes column.",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "glossary-filled.md#terms-41"
+    }
+  },
+  "phrases": {
+    "Accept Payments": {
+      "target": "Kubali Malipo",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "menus-filled.md#navigation-32"
+    },
+    "Akash Network": {
+      "target": "Akash Network",
+      "keep_english": true,
+      "rejected": [
+        {
+          "text": "Mtandao wa Akash"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "Steward: product name kept in English.",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "menus-filled.md#navigation-60"
+    },
+    "Akash Network Zebra": {
+      "target": "Akash Network Zebra",
+      "keep_english": true,
+      "rejected": [
+        {
+          "text": "Akash Mtandao Zebra"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "Steward: product name kept in English.",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "menus-filled.md#menuLabels-2"
+    },
+    "Avalanche RedBridge": {
+      "target": "Avalanche RedBridge",
+      "keep_english": true,
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "Name kept in English.",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "menus-filled.md#navigation-61"
+    },
+    "Block Explorers": {
+      "target": "Vichunguzi vya mnyororo wa vizuizi",
+      "rejected": [
+        {
+          "text": "Block Explorers"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "Steward suggestion she approved on #2494 (29/10).",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "menus-filled.md#navigation-20"
+    },
+    "Blockchain Explorers": {
+      "target": "Vichunguzi vya mnyororo wa vizuizi",
+      "rejected": [
+        {
+          "text": "Wachunguzi wa blockchain"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "Steward suggestion she approved on #2494 (29/10).",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "menus-filled.md#navigation-64"
+    },
+    "Brand": {
+      "target": "Brand",
+      "keep_english": true,
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "Name kept in English.",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "menus-filled.md#navigation-50"
+    },
+    "BTCPayServer Plugin": {
+      "target": "BTCPayServer Plugin",
+      "keep_english": true,
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "Name kept in English.",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "menus-filled.md#navigation-65"
+    },
+    "BTCPayServer Zcash Plugin": {
+      "target": "BTCPayServer Zcash Plugin",
+      "keep_english": true,
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "menus-filled.md#menuLabels-4"
+    },
+    "Buying ZEC": {
+      "target": "Kununua ZEC",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "menus-filled.md#navigation-16"
+    },
+    "CoinHolder Directed Retroactive Grants": {
+      "target": "Ruzuku za CoinHolder Zinazoelekezwa na Kutolewa Kwa Nyuma",
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "ok",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "menus-filled.md#navigation-51"
+    },
+    "Community": {
+      "target": "Jumuiya",
+      "rejected": [
+        {
+          "text": "Jumuiya ya"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "Steward suggestion she approved on #2494 (29/10).",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "menus-filled.md#navigation-11"
+    },
+    "Community Blogs": {
+      "target": "Blogu za Jumuiya",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "menus-filled.md#navigation-40"
+    },
+    "Community Building": {
+      "target": "Kujenga jumuiya",
+      "rejected": [
+        {
+          "text": "Community Building"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "Steward suggestion she approved on #2494 (29/10).",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "menus-filled.md#menuLabels-80"
+    },
+    "Community Forum": {
+      "target": "Jukwaa la jumuiya",
+      "rejected": [
+        {
+          "text": "Mkutano wa Jumuiya"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "Jukwaa la Jamii Jukwaa la Jumuiya",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "menus-filled.md#navigation-42"
+    },
+    "Community Links": {
+      "target": "Viungo vya Jumuiya",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "menus-filled.md#navigation-41"
+    },
+    "Community Projects": {
+      "target": "Miradi ya Jumuiya",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "menus-filled.md#navigation-43"
+    },
+    "Contribute": {
+      "target": "Kuchangia",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "menus-filled.md#navigation-12"
+    },
+    "Cypherpunk Zero NFT": {
+      "target": "Cypherpunk Zero NFT",
+      "keep_english": true,
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "Name kept in English.",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "menus-filled.md#navigation-47"
+    },
+    "DAO": {
+      "target": "DAO",
+      "keep_english": true,
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "Name kept in English.",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "menus-filled.md#navigation-6"
+    },
+    "Dashboard": {
+      "target": "Dashibodi",
+      "rejected": [
+        {
+          "text": "Dashboard"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "Steward suggestion she approved on #2494 (29/10).",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "menus-filled.md#navigation-13"
+    },
+    "Developers": {
+      "target": "Wasanidi wa programu",
+      "rejected": [
+        {
+          "text": "Watengenezaji"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "wasanidi programu could be used as it is more technical, as for watengenezaji is broader could be any developer Her answer (Notes / comments on #2494).",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "menus-filled.md#navigation-10"
+    },
+    "Donate": {
+      "target": "Changia",
+      "rejected": [
+        {
+          "text": "Toa Msaada"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "changia,is the right word, as for toa msaada its more of giving help or providing assistance",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "menus-filled.md#navigation-8"
+    },
+    "Donations": {
+      "target": "Michango",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "menus-filled.md#navigation-37"
+    },
+    "Ecosystem": {
+      "target": "Mfumo wa Ikolojia",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "menus-filled.md#navigation-39"
+    },
+    "Exchanges": {
+      "target": "Masoko ya kubadilishana sarafu",
+      "rejected": [
+        {
+          "text": "Mabadilishano"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "Her answer (Notes / comments on #2494). Masoko ya kubadilisjana sarafu",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "menus-filled.md#navigation-19"
+    },
+    "Explore": {
+      "target": "Gundua",
+      "rejected": [
+        {
+          "text": "Kuchunguza"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "gundua, is more adventurous whereas kuchunguza is more of investigating Gundua",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "menus-filled.md#navigation-9"
+    },
+    "Extras": {
+      "target": "Viongezeo",
+      "rejected": [
+        {
+          "text": "Nyongeza"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "viongezeo",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "menus-filled.md#menuLabels-18"
+    },
+    "Faucets": {
+      "target": "Vyanzo vya sarafu za bure",
+      "rejected": [
+        {
+          "text": "Mabomba"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "chanzo cha sarafu za bure, in crypto context, as for mabomba its literal meaning is pipes or taps and could be confusing to a user Vyanzo vya sarufi za bure",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "menus-filled.md#navigation-17"
+    },
+    "For Forks & Maintainers": {
+      "target": "Kwa forks na watunzaji",
+      "rejected": [
+        {
+          "text": "Kwa Forks & Maintenance"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "Steward suggestion she approved on #2494 (29/10).",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "menus-filled.md#exploreMenu-13"
+    },
+    "Fork zechub": {
+      "target": "Fork zechub",
+      "keep_english": true,
+      "rejected": [
+        {
+          "text": "Zechub ya uma"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "Steward kept the GitHub action and repo name in English (her suggestion: \"Nakili na uendeleze ZecHub\").",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "menus-filled.md#exploreMenu-15"
+    },
+    "Fork zechub-wiki": {
+      "target": "Fork zechub-wiki",
+      "keep_english": true,
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "Name kept in English.",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "menus-filled.md#exploreMenu-14"
+    },
+    "Free2z Live": {
+      "target": "Free2z mubashara",
+      "rejected": [
+        {
+          "text": "Free2z Kuishi"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "Free2z mubashara Free2Z Mubashara",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "menus-filled.md#navigation-53"
+    },
+    "Freelance Privacy": {
+      "target": "Faragha katika kazi za kujitegemea",
+      "rejected": [
+        {
+          "text": "Faragha ya Freelance"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "Faragha katika kazi za kujitegemea, Faragha katika kazi za kujitegemea",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "menus-filled.md#navigation-33"
+    },
+    "Full Explore": {
+      "target": "Gundua yote",
+      "rejected": [
+        {
+          "text": "Kuchunguza Kamili"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "Gundua yote",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "menus-filled.md#exploreMenu-1"
+    },
+    "Glossary & FAQ's": {
+      "target": "Faharasa na maswali ya kawaida",
+      "rejected": [
+        {
+          "text": "Glossary & FAQ ya"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "Steward suggestion she approved on #2494 (29/10).",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "menus-filled.md#menuLabels-78"
+    },
+    "Glossary & FAQs": {
+      "target": "Faharasa na maswali ya kawaida",
+      "rejected": [
+        {
+          "text": "Glossary & FAQs"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "Steward suggestion she approved on #2494 (29/10).",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "menus-filled.md#exploreMenu-11"
+    },
+    "Governance": {
+      "target": "Utawala",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "menus-filled.md#navigation-4"
+    },
+    "Guides": {
+      "target": "Miongozo",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "menus-filled.md#navigation-2"
+    },
+    "How to Participate": {
+      "target": "Jinsi ya Kushiriki",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "menus-filled.md#menuLabels-24"
+    },
+    "Journalist Privacy": {
+      "target": "Faragha ya Mwandishi wa Habari",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "menus-filled.md#navigation-34"
+    },
+    "Keeping Records": {
+      "target": "Kuweka Rekodi",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "menus-filled.md#navigation-35"
+    },
+    "Memos": {
+      "target": "Ujumbe",
+      "rejected": [
+        {
+          "text": "Memo"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "Her answer (Notes / comments on #2494).",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "menus-filled.md#navigation-24"
+    },
+    "Mobile Top Ups": {
+      "target": "Kuweka salio kwenye simu",
+      "rejected": [
+        {
+          "text": "Vifaa vya Kuongezea Vitu Vinavyoweza Kutumiwa"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "right answer should be, kuweka salio kwenye simu Kuweka salio kwenye simu",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "menus-filled.md#navigation-25"
+    },
+    "More": {
+      "target": "Zaidi",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "menus-filled.md#navigation-14"
+    },
+    "Navigation": {
+      "target": "Urambazaji",
+      "rejected": [
+        {
+          "text": "Usafiri"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "Urambazaji",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "menus-filled.md#sideMenu-1"
+    },
+    "Newsletter": {
+      "target": "Jarida la Habari",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "menus-filled.md#navigation-7"
+    },
+    "Nym VPN": {
+      "target": "Nym VPN",
+      "keep_english": true,
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "Name kept in English.",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "menus-filled.md#navigation-54"
+    },
+    "Organizations": {
+      "target": "Mashirika",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "menus-filled.md#navigation-49"
+    },
+    "Overview": {
+      "target": "Maelezo ya jumla",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "menus-filled.md#navigation-72"
+    },
+    "Pay for AI": {
+      "target": "Malipo ya AI",
+      "rejected": [
+        {
+          "text": "Lipia AI"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "Malipo ya AI",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "menus-filled.md#menuLabels-79"
+    },
+    "Payment Processors": {
+      "target": "Vichakataji vya malipo",
+      "rejected": [
+        {
+          "text": "Processors Malipo"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "kichakakataji cha malipo Kichakataji cha malipo",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "menus-filled.md#navigation-27"
+    },
+    "Payment Request URIs": {
+      "target": "Viungo vya maombi ya malipo",
+      "rejected": [
+        {
+          "text": "Maombi ya malipo URI"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "viuongo vya maombi ya malipo Viuongo vya maombi ya malipo",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "menus-filled.md#navigation-26"
+    },
+    "Podcast": {
+      "target": "Podikasti",
+      "rejected": [
+        {
+          "text": "Podcast"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "Steward suggestion she approved on #2494 (29/10).",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "menus-filled.md#menuLabels-33"
+    },
+    "Privacy Tools": {
+      "target": "Vifaa vya Faragha",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "menus-filled.md#menuLabels-77"
+    },
+    "Private Community Treasury": {
+      "target": "Hazina ya jumuiya ya faragha",
+      "rejected": [
+        {
+          "text": "Private Jumuiya ya Hazina"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "Her \"Hazina ya jamii ya faragha\"; steward aligned jamii -> jumuiya (her Community label).",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "menus-filled.md#navigation-36"
+    },
+    "Raspberry Pi 4 Full Node": {
+      "target": "Raspberry Pi 4 Full Node",
+      "keep_english": true,
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "Name kept in English.",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "menus-filled.md#menuLabels-35"
+    },
+    "Raspberry pi 4 Zebra Node": {
+      "target": "Raspberry pi 4 Zebra Node",
+      "keep_english": true,
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "Name kept in English.",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "menus-filled.md#menuLabels-36"
+    },
+    "Raspberry Pi Zcashd Node": {
+      "target": "Raspberry Pi Zcashd Node",
+      "keep_english": true,
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "Name kept in English.",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "menus-filled.md#navigation-57"
+    },
+    "Raspberry Pi Zebra Node": {
+      "target": "Raspberry Pi Zebra Node",
+      "keep_english": true,
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "Name kept in English.",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "menus-filled.md#navigation-59"
+    },
+    "Raspberry pi5 Zebra Lightwalletd Zingo": {
+      "target": "Raspberry pi5 Zebra Lightwalletd Zingo",
+      "keep_english": true,
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "Name kept in English.",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "menus-filled.md#navigation-58"
+    },
+    "Recovering Funds": {
+      "target": "Kurejesha fedha",
+      "rejected": [
+        {
+          "text": "Kurudisha Fedha"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "kurejesha fedha Kurejesha fedha",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "menus-filled.md#navigation-28"
+    },
+    "Research": {
+      "target": "Utafiti",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "menus-filled.md#menuLabels-39"
+    },
+    "Send Money Privately": {
+      "target": "Tuma pesa kwa faragha",
+      "rejected": [
+        {
+          "text": "Tuma Fedha Kibinafsi"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "Tuma pesa kwa Faragha Tuma pesa kwa faragha",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "menus-filled.md#navigation-38"
+    },
+    "Shielded Pools": {
+      "target": "Mabwawa ya faragha",
+      "rejected": [
+        {
+          "text": "Vidimbwi Vilivyolindwa"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "Mabwawa ya faragha, this is more technical, explanation can be in. swahili kama sehemu ya mtandao wa zcash inayowezesha miamala kufanyika kwa faragha, ili maelezo kama mtumiaji, mpokeaji na kiasi cha muamala yasichafuliwe hadharani Mabwawa ya Faragha",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "menus-filled.md#navigation-21"
+    },
+    "Shop": {
+      "target": "Duka",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "menus-filled.md#navigation-73"
+    },
+    "Sitemap": {
+      "target": "Ramani ya Tovuti",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "menus-filled.md#menuLabels-42"
+    },
+    "Start Here": {
+      "target": "Anza Hapa",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "menus-filled.md#navigation-31"
+    },
+    "Store": {
+      "target": "Duka",
+      "rejected": [
+        {
+          "text": "Hifadhi"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "Steward: the ZecHub merch store, same word as her Shop = Duka (\"Hifadhi\" means storage/archive). To confirm with her.",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "menus-filled.md#menuLabels-44"
+    },
+    "Tools": {
+      "target": "Vifaa",
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "ok",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "menus-filled.md#navigation-29"
+    },
+    "Transactions": {
+      "target": "Miamala",
+      "rejected": [
+        {
+          "text": "Shughuli"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "Steward suggestion she approved on #2494 (29/10).",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "menus-filled.md#navigation-23"
+    },
+    "Tutorials": {
+      "target": "Mafunzo",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "menus-filled.md#navigation-3"
+    },
+    "Use Cases": {
+      "target": "Matumizi",
+      "rejected": [
+        {
+          "text": "Matumizi ya kesi"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "Matumizi, Matumizi",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "menus-filled.md#navigation-30"
+    },
+    "Use Zcash": {
+      "target": "Tumia Zcash",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "menus-filled.md#navigation-15"
+    },
+    "Using Zcash": {
+      "target": "Kutumia Zcash",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "menus-filled.md#menuLabels-52"
+    },
+    "Using ZEC in DeFi": {
+      "target": "Kutumia ZEC katika DeFi",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "menus-filled.md#navigation-55"
+    },
+    "Using ZEC Privately": {
+      "target": "Kutumia ZEC kwa faragha",
+      "rejected": [
+        {
+          "text": "Kutumia ZEC binafsi"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "Kutumia ZEC Faragha Kutumia ZEC kwa Faragha",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "menus-filled.md#navigation-56"
+    },
+    "Visual Identity": {
+      "target": "Utambulisho wa kimuonekano",
+      "rejected": [
+        {
+          "text": "Kitambulisho cha Visual"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "Utambulisho wa Kimuonekano",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "menus-filled.md#menuLabels-53"
+    },
+    "Visualizer": {
+      "target": "Kionyeshi",
+      "rejected": [
+        {
+          "text": "Mwonekano"
+        },
+        {
+          "text": "Maonyesho"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "Kionyeshi, is the right word,as for mwonekano its more of view or appearance Kionyeshu",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "menus-filled.md#navigation-5"
+    },
+    "Visualizing the Zcash Network": {
+      "target": "Kuona mtandao wa Zcash",
+      "rejected": [
+        {
+          "text": "Kuona Network Zcash"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "Kuona Mtandao wa Zcash Kuona mtandao wa Zcash",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "menus-filled.md#navigation-66"
+    },
+    "Visualizing Zcash Addresses": {
+      "target": "Kuona Anwani za Zcash",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "menus-filled.md#navigation-67"
+    },
+    "Wallets": {
+      "target": "Pochi",
+      "rejected": [
+        {
+          "text": "Mkoba"
+        },
+        {
+          "text": "Mfuko"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "Pochi ya kidigitali, widely used in swahili especially in finance walles for rexample mpesa has a wallet for bussiness owners and its called pochi la biashara Pochi pochi",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "menus-filled.md#navigation-1"
+    },
+    "Ywallet FROST Demo": {
+      "target": "Ywallet FROST Demo",
+      "keep_english": true,
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "Name kept in English.",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "menus-filled.md#navigation-63"
+    },
+    "Zcash Community": {
+      "target": "Jumuiya ya Zcash",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "menus-filled.md#menuLabels-60"
+    },
+    "Zcash Ecosystem Security": {
+      "target": "Usalama wa mfumo wa ikolojia wa Zcash",
+      "rejected": [
+        {
+          "text": "Zcash Ecosystem Usalama"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "Usalama wa mfumo wa ikolojia wa zcash, Ecosystem are Mfumo wa ikolojia Usalama wa mtandao wa zcash",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "menus-filled.md#navigation-46"
+    },
+    "Zcash Governance": {
+      "target": "Utawala wa Zcash",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "menus-filled.md#menuLabels-62"
+    },
+    "Zcash Improvement Proposals": {
+      "target": "Mapendekezo ya uboreshaji wa Zcash",
+      "rejected": [
+        {
+          "text": "Mapendekezo ya Ubadilishaji wa Zcash"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "Her comment 30/10 (uboreshaji); plural as in her menuLabels answer.",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "menus-filled.md#navigation-68"
+    },
+    "Zcash Media": {
+      "target": "Zcash Media",
+      "keep_english": true,
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "Name kept in English.",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "menus-filled.md#navigation-44"
+    },
+    "Zcash Organizations": {
+      "target": "Mashirika ya Zcash",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "menus-filled.md#menuLabels-65"
+    },
+    "Zcash Podcasts": {
+      "target": "Podikasti za Zcash",
+      "rejected": [
+        {
+          "text": "Zcash Podcasts"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "Steward: follows her Podikasti.",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "menus-filled.md#navigation-45"
+    },
+    "Zcash Tech": {
+      "target": "Teknolojia ya Zcash",
+      "rejected": [
+        {
+          "text": "Zcash Tech"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "Steward suggestion she approved on #2494 (29/10).",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "menus-filled.md#menuLabels-76"
+    },
+    "Zcash Use Cases": {
+      "target": "Matumizi ya Zcash",
+      "rejected": [
+        {
+          "text": "Zcash Matumizi ya kesi"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "Matumizi ya Zcash",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "menus-filled.md#menuLabels-75"
+    },
+    "Zcon Archive": {
+      "target": "Hifadhi ya Zcon",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "menus-filled.md#navigation-48"
+    },
+    "Zcon Vozes Archive": {
+      "target": "Zcon Vozes Archive",
+      "keep_english": true,
+      "rejected": [
+        {
+          "text": "Zcon sauti Archive"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "Name kept in English.",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "menus-filled.md#menuLabels-68"
+    },
+    "Zenith Installation": {
+      "target": "Usakinishaji wa Zenith",
+      "rejected": [
+        {
+          "text": "Zenith Ufungaji"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "Usakinishaji wa Zenith",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "menus-filled.md#navigation-70"
+    },
+    "Zero Knowledge vs Decoy Systems": {
+      "target": "Maarifa sifuri dhidi ya mifumo ya udanganyifu",
+      "rejected": [
+        {
+          "text": "Zero Ujuzi dhidi ya Decoy Systems"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "Uthibitisho wa maarifa sifuri dhidi ya mifumo ya udanganyifu, ZK is maarifa sifuri,",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "menus-filled.md#navigation-71"
+    },
+    "Zero-Knowledge vs Decoys": {
+      "target": "Maarifa sifuri dhidi ya mifumo ya udanganyifu",
+      "rejected": [
+        {
+          "text": "Maarifa-Zero dhidi ya Decoys"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "Maarifa sifuri dhidi ya mifumo ya udanganyifu",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "menus-filled.md#menuLabels-70"
+    },
+    "Zgo Payment Processor": {
+      "target": "Kichakataji cha malipo cha Zgo",
+      "rejected": [
+        {
+          "text": "Zgo Malipo Processor"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "kichakataji cha malipo cha Zgo Kichakataji cha malipo cha ZGO",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "menus-filled.md#navigation-52"
+    },
+    "Zingolib and Zaino Tutorial": {
+      "target": "Zingolib and Zaino Tutorial",
+      "keep_english": true,
+      "rejected": [
+        {
+          "text": "Zingolib na Zaino Tutorial"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "Name kept in English.",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "menus-filled.md#navigation-69"
+    },
+    "ZIPs & Grants": {
+      "target": "ZIPs na ruzuku",
+      "rejected": [
+        {
+          "text": "ZIPs na misaada"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "Steward: aligned with her glossary grant = ruzuku (she had OK'd \"ZIPs na misaada\").",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "menus-filled.md#menuLabels-59"
+    },
+    "Zkool Multisig": {
+      "target": "Zkool Multisig",
+      "keep_english": true,
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "Name kept in English.",
+      "reviewed_by": [
+        "@Sonnie1"
+      ],
+      "reviewed_at": "2026-10-30",
+      "source": "menus-filled.md#navigation-62"
+    }
+  },
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-10-30",
+      "terms": [
+        "address",
+        "block",
+        "blockchain",
+        "bond",
+        "brand",
+        "bridge",
+        "chain",
+        "commitment",
+        "consensus",
+        "cross-chain",
+        "custodial",
+        "dashboard",
+        "decentralized",
+        "developer",
+        "encryption",
+        "exchange",
+        "faucet",
+        "fee",
+        "finalizer",
+        "full-node",
+        "governance",
+        "grant",
+        "halving",
+        "hardware-wallet",
+        "light-client",
+        "memo",
+        "miner",
+        "mining",
+        "network-upgrade",
+        "newsletter",
+        "node",
+        "note",
+        "nullifier",
+        "on-chain",
+        "payment",
+        "permissionless",
+        "pool",
+        "privacy",
+        "proof",
+        "scaling",
+        "seed-phrase",
+        "selective-disclosure",
+        "shielded",
+        "signature",
+        "smart-contract",
+        "spending-key",
+        "staking",
+        "swap",
+        "token",
+        "tools",
+        "top-up",
+        "transaction",
+        "transparent",
+        "treasury",
+        "trusted-setup",
+        "turnstile",
+        "unlinkable",
+        "use-case",
+        "viewing-key",
+        "visualizer",
+        "wallet",
+        "zero-knowledge"
+      ],
+      "phrases": [
+        "Accept Payments",
+        "Akash Network",
+        "Akash Network Zebra",
+        "Avalanche RedBridge",
+        "BTCPayServer Plugin",
+        "BTCPayServer Zcash Plugin",
+        "Block Explorers",
+        "Blockchain Explorers",
+        "Brand",
+        "Buying ZEC",
+        "CoinHolder Directed Retroactive Grants",
+        "Community",
+        "Community Blogs",
+        "Community Building",
+        "Community Forum",
+        "Community Links",
+        "Community Projects",
+        "Contribute",
+        "Cypherpunk Zero NFT",
+        "DAO",
+        "Dashboard",
+        "Developers",
+        "Donate",
+        "Donations",
+        "Ecosystem",
+        "Exchanges",
+        "Explore",
+        "Extras",
+        "Faucets",
+        "For Forks & Maintainers",
+        "Fork zechub",
+        "Fork zechub-wiki",
+        "Free2z Live",
+        "Freelance Privacy",
+        "Full Explore",
+        "Glossary & FAQ's",
+        "Glossary & FAQs",
+        "Governance",
+        "Guides",
+        "How to Participate",
+        "Journalist Privacy",
+        "Keeping Records",
+        "Memos",
+        "Mobile Top Ups",
+        "More",
+        "Navigation",
+        "Newsletter",
+        "Nym VPN",
+        "Organizations",
+        "Overview",
+        "Pay for AI",
+        "Payment Processors",
+        "Payment Request URIs",
+        "Podcast",
+        "Privacy Tools",
+        "Private Community Treasury",
+        "Raspberry Pi 4 Full Node",
+        "Raspberry Pi Zcashd Node",
+        "Raspberry Pi Zebra Node",
+        "Raspberry pi 4 Zebra Node",
+        "Raspberry pi5 Zebra Lightwalletd Zingo",
+        "Recovering Funds",
+        "Research",
+        "Send Money Privately",
+        "Shielded Pools",
+        "Shop",
+        "Sitemap",
+        "Start Here",
+        "Store",
+        "Tools",
+        "Transactions",
+        "Tutorials",
+        "Use Cases",
+        "Use Zcash",
+        "Using ZEC Privately",
+        "Using ZEC in DeFi",
+        "Using Zcash",
+        "Visual Identity",
+        "Visualizer",
+        "Visualizing Zcash Addresses",
+        "Visualizing the Zcash Network",
+        "Wallets",
+        "Ywallet FROST Demo",
+        "ZIPs & Grants",
+        "Zcash Community",
+        "Zcash Ecosystem Security",
+        "Zcash Governance",
+        "Zcash Improvement Proposals",
+        "Zcash Media",
+        "Zcash Organizations",
+        "Zcash Podcasts",
+        "Zcash Tech",
+        "Zcash Use Cases",
+        "Zcon Archive",
+        "Zcon Vozes Archive",
+        "Zenith Installation",
+        "Zero Knowledge vs Decoy Systems",
+        "Zero-Knowledge vs Decoys",
+        "Zgo Payment Processor",
+        "Zingolib and Zaino Tutorial",
+        "Zkool Multisig"
+      ],
+      "summary": "Glossary and menu labels reviewed by @Sonnie1 (Sarah Wahinya, Zcash East Africa) in ZecHub/zechub#2503 and #2494: 62 terms, the menu labels and the style answers; noun-class plurals, contexts and a few menu alignments by the steward (marked in notes)."
+    }
+  ]
+}
