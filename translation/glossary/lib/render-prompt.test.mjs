@@ -378,7 +378,7 @@ test("CLI prints the head for a page and for a block", () => {
 });
 
 test("CLI fails loudly, with nothing on stdout, for a locale without a glossary or a missing page", () => {
-  for (const args of [["sw", "guides/Raspberry_Pi_4_Full_Node.md"], ["id", "guides/No_Such_Page.md"], ["id"]]) {
+  for (const args of [["yo", "guides/Raspberry_Pi_4_Full_Node.md"], ["id", "guides/No_Such_Page.md"], ["id"]]) {
     const r = spawnSync("node", [CLI, ...args], { encoding: "utf8" });
     assert.equal(r.status, 1, args.join(" "));
     assert.equal(r.stdout, "");
