@@ -1827,11 +1827,11 @@
       "edited": false
     },
     "Glossary_and_FAQs/Gallery/Infographics.md": {
-      "src": "sha256:5d93d975e06e14084f6525bc3af6c3f94ebf4e35a54dcaead8dc7c1a82a1110b",
-      "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
+      "src": "sha256:e47aabb054cb77dccf9e85a29cfddaf0794226045723c71b7e0191a6d1349d22",
+      "src_commit": "8e061adab19d5cba5e48d4d28a215f61887f8be7",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "verbatim (no translatable text)",
       "edited": false
     },
     "Glossary_and_FAQs/Zcash_Library.md": {
@@ -3677,11 +3677,11 @@
       "edited": false
     },
     "Glossary_and_FAQs/Gallery/Infographics.md": {
-      "src": "sha256:5d93d975e06e14084f6525bc3af6c3f94ebf4e35a54dcaead8dc7c1a82a1110b",
-      "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
+      "src": "sha256:e47aabb054cb77dccf9e85a29cfddaf0794226045723c71b7e0191a6d1349d22",
+      "src_commit": "8e061adab19d5cba5e48d4d28a215f61887f8be7",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "verbatim (no translatable text)",
       "edited": false
     },
     "Glossary_and_FAQs/Zcash_Library.md": {
@@ -7457,11 +7457,11 @@
       "edited": false
     },
     "Glossary_and_FAQs/Gallery/Infographics.md": {
-      "src": "sha256:5d93d975e06e14084f6525bc3af6c3f94ebf4e35a54dcaead8dc7c1a82a1110b",
-      "src_commit": "eaa2c902ebfcd9c6b965430907983c8fae0a0f45",
+      "src": "sha256:e47aabb054cb77dccf9e85a29cfddaf0794226045723c71b7e0191a6d1349d22",
+      "src_commit": "8e061adab19d5cba5e48d4d28a215f61887f8be7",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "verbatim (no translatable text)",
       "edited": false
     },
     "Glossary_and_FAQs/ZecHub_Hackathon_Builders_Guide.md": {
@@ -9195,11 +9195,11 @@
       "edited": false
     },
     "Glossary_and_FAQs/Gallery/Infographics.md": {
-      "src": "sha256:5d93d975e06e14084f6525bc3af6c3f94ebf4e35a54dcaead8dc7c1a82a1110b",
-      "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
+      "src": "sha256:e47aabb054cb77dccf9e85a29cfddaf0794226045723c71b7e0191a6d1349d22",
+      "src_commit": "8e061adab19d5cba5e48d4d28a215f61887f8be7",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "verbatim (no translatable text)",
       "edited": false
     },
     "Glossary_and_FAQs/Zcash_Library.md": {
@@ -11045,11 +11045,11 @@
       "edited": false
     },
     "Glossary_and_FAQs/Gallery/Infographics.md": {
-      "src": "sha256:5d93d975e06e14084f6525bc3af6c3f94ebf4e35a54dcaead8dc7c1a82a1110b",
-      "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
+      "src": "sha256:e47aabb054cb77dccf9e85a29cfddaf0794226045723c71b7e0191a6d1349d22",
+      "src_commit": "8e061adab19d5cba5e48d4d28a215f61887f8be7",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "verbatim (no translatable text)",
       "edited": false
     },
     "Glossary_and_FAQs/Zcash_Library.md": {
@@ -12895,11 +12895,11 @@
       "edited": false
     },
     "Glossary_and_FAQs/Gallery/Infographics.md": {
-      "src": "sha256:5d93d975e06e14084f6525bc3af6c3f94ebf4e35a54dcaead8dc7c1a82a1110b",
-      "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
+      "src": "sha256:e47aabb054cb77dccf9e85a29cfddaf0794226045723c71b7e0191a6d1349d22",
+      "src_commit": "8e061adab19d5cba5e48d4d28a215f61887f8be7",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "verbatim (no translatable text)",
       "edited": false
     },
     "Glossary_and_FAQs/Zcash_Library.md": {
@@ -14749,7 +14749,7 @@
       "src_commit": "8e061adab19d5cba5e48d4d28a215f61887f8be7",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "verbatim (no translatable text)",
       "edited": false
     },
     "Glossary_and_FAQs/Zcash_Library.md": {
@@ -18421,11 +18421,11 @@
       "edited": false
     },
     "Glossary_and_FAQs/Gallery/Infographics.md": {
-      "src": "sha256:5d93d975e06e14084f6525bc3af6c3f94ebf4e35a54dcaead8dc7c1a82a1110b",
-      "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
+      "src": "sha256:e47aabb054cb77dccf9e85a29cfddaf0794226045723c71b7e0191a6d1349d22",
+      "src_commit": "8e061adab19d5cba5e48d4d28a215f61887f8be7",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "verbatim (no translatable text)",
       "edited": false
     },
     "Glossary_and_FAQs/Zcash_Library.md": {
@@ -20271,11 +20271,11 @@
       "edited": false
     },
     "Glossary_and_FAQs/Gallery/Infographics.md": {
-      "src": "sha256:5d93d975e06e14084f6525bc3af6c3f94ebf4e35a54dcaead8dc7c1a82a1110b",
-      "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
+      "src": "sha256:e47aabb054cb77dccf9e85a29cfddaf0794226045723c71b7e0191a6d1349d22",
+      "src_commit": "8e061adab19d5cba5e48d4d28a215f61887f8be7",
       "engine": "llm",
       "mode": "seed",
-      "tool": "qwen3-14b",
+      "tool": "verbatim (no translatable text)",
       "edited": false
     },
     "Glossary_and_FAQs/Zcash_Library.md": {
@@ -22121,11 +22121,11 @@
       "edited": false
     },
     "Glossary_and_FAQs/Gallery/Infographics.md": {
-      "src": "sha256:5d93d975e06e14084f6525bc3af6c3f94ebf4e35a54dcaead8dc7c1a82a1110b",
-      "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
+      "src": "sha256:e47aabb054cb77dccf9e85a29cfddaf0794226045723c71b7e0191a6d1349d22",
+      "src_commit": "8e061adab19d5cba5e48d4d28a215f61887f8be7",
       "engine": "llm",
       "mode": "seed",
-      "tool": "qwen3-14b",
+      "tool": "verbatim (no translatable text)",
       "edited": false
     },
     "Glossary_and_FAQs/Zcash_Library.md": {
@@ -23971,11 +23971,11 @@
       "edited": false
     },
     "Glossary_and_FAQs/Gallery/Infographics.md": {
-      "src": "sha256:5d93d975e06e14084f6525bc3af6c3f94ebf4e35a54dcaead8dc7c1a82a1110b",
-      "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
+      "src": "sha256:e47aabb054cb77dccf9e85a29cfddaf0794226045723c71b7e0191a6d1349d22",
+      "src_commit": "8e061adab19d5cba5e48d4d28a215f61887f8be7",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4+ptbr",
+      "tool": "verbatim (no translatable text)",
       "edited": false
     },
     "Glossary_and_FAQs/Zcash_Library.md": {
@@ -25821,11 +25821,11 @@
       "edited": false
     },
     "Glossary_and_FAQs/Gallery/Infographics.md": {
-      "src": "sha256:5d93d975e06e14084f6525bc3af6c3f94ebf4e35a54dcaead8dc7c1a82a1110b",
-      "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
+      "src": "sha256:e47aabb054cb77dccf9e85a29cfddaf0794226045723c71b7e0191a6d1349d22",
+      "src_commit": "8e061adab19d5cba5e48d4d28a215f61887f8be7",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "verbatim (no translatable text)",
       "edited": false
     },
     "Glossary_and_FAQs/Zcash_Library.md": {
@@ -29489,11 +29489,11 @@
       "edited": false
     },
     "Glossary_and_FAQs/Gallery/Infographics.md": {
-      "src": "sha256:5d93d975e06e14084f6525bc3af6c3f94ebf4e35a54dcaead8dc7c1a82a1110b",
-      "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
+      "src": "sha256:e47aabb054cb77dccf9e85a29cfddaf0794226045723c71b7e0191a6d1349d22",
+      "src_commit": "8e061adab19d5cba5e48d4d28a215f61887f8be7",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "verbatim (no translatable text)",
       "edited": false
     },
     "Glossary_and_FAQs/Zcash_Library.md": {
@@ -31339,11 +31339,11 @@
       "edited": false
     },
     "Glossary_and_FAQs/Gallery/Infographics.md": {
-      "src": "sha256:5d93d975e06e14084f6525bc3af6c3f94ebf4e35a54dcaead8dc7c1a82a1110b",
-      "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
+      "src": "sha256:e47aabb054cb77dccf9e85a29cfddaf0794226045723c71b7e0191a6d1349d22",
+      "src_commit": "8e061adab19d5cba5e48d4d28a215f61887f8be7",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "verbatim (no translatable text)",
       "edited": false
     },
     "Glossary_and_FAQs/Zcash_Library.md": {
@@ -34975,11 +34975,11 @@
       "edited": false
     },
     "Glossary_and_FAQs/Gallery/Infographics.md": {
-      "src": "sha256:5d93d975e06e14084f6525bc3af6c3f94ebf4e35a54dcaead8dc7c1a82a1110b",
-      "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
+      "src": "sha256:e47aabb054cb77dccf9e85a29cfddaf0794226045723c71b7e0191a6d1349d22",
+      "src_commit": "8e061adab19d5cba5e48d4d28a215f61887f8be7",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "verbatim (no translatable text)",
       "edited": false
     },
     "Glossary_and_FAQs/Zcash_Library.md": {
