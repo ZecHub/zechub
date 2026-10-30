@@ -1075,7 +1075,7 @@
           "start": {"type": "string", "description": "The date and time the operation started"},
           "end": {"type": ["string", "null"], "description": "The date and time the operation ended. If the operation is still running, this field is null"},
           "status": {"type": "string", "enum": ["Processing", "Failed", "Successful"], "description": "If the operation has started it will show Processing, once it completes it will show Failed or Successful depending on the outcome"},
-          "result": {"type": ["string", "null"], "description": "For a succesful transaction operation, the transaction ID. For failed operations, the error message. For pending operations, this field is null."}
+          "result": {"type": ["string", "null"], "description": "For a successful transaction operation, the transaction ID. For failed operations, the error message. For pending operations, this field is null."}
         }
       },
       "TxRequest": {
