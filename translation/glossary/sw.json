@@ -1,6 +1,6 @@
 {
   "locale": "sw",
-  "version": 1,
+  "version": 2,
   "meta": {
     "language_name": "Swahili",
     "native_name": "Kiswahili",
@@ -10,7 +10,7 @@
     "language_lead": [
       "@Sonnie1"
     ],
-    "last_review": "2026-10-30"
+    "last_review": "2026-10-31"
   },
   "style": {
     "variety": "natural, clear standard Swahili (Kiswahili sanifu)",
@@ -36,6 +36,7 @@
       "forms": [
         "pochi"
       ],
+      "context": "A wallet app or account (\"pochi\"); the device \"hardware wallet\" keeps the English.",
       "applies_to": "both",
       "status": "approved",
       "notes": "Reviewer's answer, written in the Notes column.",
@@ -423,7 +424,7 @@
         "mnyororo",
         "minyororo"
       ],
-      "context": "A blockchain or chain on its own; inside on-chain and cross-chain the English stays.",
+      "context": "A chain on its own; blockchain, on-chain and cross-chain keep the English.",
       "applies_to": "both",
       "status": "approved",
       "reviewed_by": [
@@ -583,7 +584,7 @@
       ],
       "applies_to": "both",
       "status": "approved",
-      "notes": "Reviewer: kifaa singular, vifaa plural.",
+      "notes": "Reviewer: kifaa singular, vifaa plural; confirmed «vifaa» in the quality check (30/10).",
       "reviewed_by": [
         "@Sonnie1"
       ],
@@ -620,35 +621,50 @@
       "source": "glossary-filled.md#terms-4"
     },
     "block": {
-      "target": "kizuizi",
+      "target": "block",
+      "keep_english": true,
       "forms": [
-        "kizuizi",
-        "vizuizi"
+        "block",
+        "blocks",
+        "Block"
       ],
-      "context": "A block of transactions in the blockchain, not an obstacle.",
+      "rejected": [
+        {
+          "text": "kizuizi"
+        }
+      ],
+      "context": "A block of transactions; kept in English (reviewer: «kizuizi» reads as an obstacle).",
       "applies_to": "both",
       "status": "approved",
-      "notes": "Reviewer's answer, written in the Notes column.",
+      "notes": "Reviewer, quality check: keep English.",
       "reviewed_by": [
         "@Sonnie1"
       ],
-      "reviewed_at": "2026-10-30",
-      "source": "glossary-filled.md#terms-7"
+      "reviewed_at": "2026-10-31",
+      "source": "ZecHub/zechub#2494 comments 30-31/10 (quality check)"
     },
     "blockchain": {
-      "target": "mnyororo wa vizuizi",
+      "target": "blockchain",
+      "keep_english": true,
       "forms": [
-        "mnyororo wa vizuizi",
-        "minyororo ya vizuizi"
+        "blockchain",
+        "blockchains",
+        "Blockchain"
       ],
+      "rejected": [
+        {
+          "text": "mnyororo wa vizuizi"
+        }
+      ],
+      "context": "Kept in English, like block (reviewer).",
       "applies_to": "both",
       "status": "approved",
-      "notes": "Reviewer's answer, written in the Notes column.",
+      "notes": "Reviewer, quality check: keep English.",
       "reviewed_by": [
         "@Sonnie1"
       ],
-      "reviewed_at": "2026-10-30",
-      "source": "glossary-filled.md#terms-15"
+      "reviewed_at": "2026-10-31",
+      "source": "ZecHub/zechub#2494 comments 30-31/10 (quality check)"
     },
     "signature": {
       "target": "sahihi",
@@ -665,19 +681,27 @@
       "source": "glossary-filled.md#terms-17"
     },
     "commitment": {
-      "target": "ahadi",
+      "target": "commitment",
+      "keep_english": true,
       "forms": [
-        "ahadi"
+        "commitment",
+        "commitments",
+        "Commitment"
       ],
-      "context": "A cryptographic commitment (a value that binds hidden data without revealing it), not an everyday promise.",
+      "rejected": [
+        {
+          "text": "ahadi"
+        }
+      ],
+      "context": "A cryptographic commitment; kept in English (reviewer: «ahadi» means a promise).",
       "applies_to": "both",
       "status": "approved",
-      "notes": "Reviewer's answer, written in the Notes column.",
+      "notes": "Reviewer, quality check: keep English.",
       "reviewed_by": [
         "@Sonnie1"
       ],
-      "reviewed_at": "2026-10-30",
-      "source": "glossary-filled.md#terms-21"
+      "reviewed_at": "2026-10-31",
+      "source": "ZecHub/zechub#2494 comments 30-31/10 (quality check)"
     },
     "nullifier": {
       "target": "nullifier",
@@ -706,7 +730,7 @@
       "context": "A Zcash note: a unit of value held by a shielded address, not a remark or hint.",
       "applies_to": "both",
       "status": "approved",
-      "notes": "Reviewer's answer, written in the Notes column.",
+      "notes": "Reviewer confirmed «dokezo» (31/10); «ujumbe» stays for memo.",
       "reviewed_by": [
         "@Sonnie1"
       ],
@@ -841,23 +865,34 @@
       "source": "glossary-filled.md#terms-14"
     },
     "decentralized": {
-      "target": "isiyodhibitiwa",
+      "target": "iliyogatuliwa",
       "forms": [
-        "isiyodhibitiwa",
-        "usiodhibitiwa",
-        "zisizodhibitiwa",
-        "yasiyodhibitiwa",
-        "lisilodhibitiwa",
-        "kisichodhibitiwa"
+        "iliyogatuliwa",
+        "zilizogatuliwa",
+        "uliogatuliwa",
+        "yaliyogatuliwa",
+        "lililogatuliwa",
+        "kilichogatuliwa",
+        "vilivyogatuliwa",
+        "waliogatuliwa"
       ],
+      "rejected": [
+        {
+          "text": "isiyodhibitiwa"
+        },
+        {
+          "text": "isiyothibitishwa"
+        }
+      ],
+      "context": "Decentralised, from ugatuzi (devolution); agrees with the noun class: \"mtandao uliogatuliwa\", \"fedha zilizogatuliwa\".",
       "applies_to": "both",
       "status": "approved",
-      "notes": "Reviewer's answer, written in the Notes column.",
+      "notes": "Reviewer accepted the suggested «iliyogatuliwa» (31/10).",
       "reviewed_by": [
         "@Sonnie1"
       ],
-      "reviewed_at": "2026-10-30",
-      "source": "glossary-filled.md#terms-31"
+      "reviewed_at": "2026-10-31",
+      "source": "ZecHub/zechub#2494 comments 30-31/10 (quality check)"
     },
     "on-chain": {
       "target": "on-chain",
@@ -986,19 +1021,27 @@
       "source": "glossary-filled.md#terms-56"
     },
     "hardware-wallet": {
-      "target": "pochi ya vifaa",
+      "target": "hardware wallet",
+      "keep_english": true,
       "forms": [
-        "pochi ya vifaa",
-        "pochi za vifaa"
+        "hardware wallet",
+        "hardware wallets",
+        "Hardware wallet"
       ],
+      "rejected": [
+        {
+          "text": "pochi ya vifaa"
+        }
+      ],
+      "context": "Kept in English (reviewer: «pochi ya vifaa» gives a different meaning).",
       "applies_to": "both",
       "status": "approved",
-      "notes": "Reviewer's answer, written in the Notes column.",
+      "notes": "Reviewer, quality check: keep English.",
       "reviewed_by": [
         "@Sonnie1"
       ],
-      "reviewed_at": "2026-10-30",
-      "source": "glossary-filled.md#terms-41"
+      "reviewed_at": "2026-10-31",
+      "source": "ZecHub/zechub#2494 comments 30-31/10 (quality check)"
     }
   },
   "phrases": {
@@ -1059,15 +1102,15 @@
       "source": "menus-filled.md#navigation-61"
     },
     "Block Explorers": {
-      "target": "Vichunguzi vya mnyororo wa vizuizi",
+      "target": "Vichunguzi vya blockchain",
       "rejected": [
         {
-          "text": "Block Explorers"
+          "text": "Vichunguzi vya mnyororo wa vizuizi"
         }
       ],
       "applies_to": "ui",
       "status": "approved",
-      "notes": "Steward suggestion she approved on #2494 (29/10).",
+      "notes": "Her original answer; blockchain stays English (quality check 30/10).",
       "reviewed_by": [
         "@Sonnie1"
       ],
@@ -1075,15 +1118,15 @@
       "source": "menus-filled.md#navigation-20"
     },
     "Blockchain Explorers": {
-      "target": "Vichunguzi vya mnyororo wa vizuizi",
+      "target": "Vichunguzi vya blockchain",
       "rejected": [
         {
-          "text": "Wachunguzi wa blockchain"
+          "text": "Vichunguzi vya mnyororo wa vizuizi"
         }
       ],
       "applies_to": "ui",
       "status": "approved",
-      "notes": "Steward suggestion she approved on #2494 (29/10).",
+      "notes": "Her original answer; blockchain stays English (quality check 30/10).",
       "reviewed_by": [
         "@Sonnie1"
       ],
@@ -1912,11 +1955,11 @@
       ],
       "applies_to": "ui",
       "status": "approved",
-      "notes": "Steward: the ZecHub merch store, same word as her Shop = Duka (\"Hifadhi\" means storage/archive). To confirm with her.",
+      "notes": "Reviewer confirmed «Duka» (quality check 30/10).",
       "reviewed_by": [
         "@Sonnie1"
       ],
-      "reviewed_at": "2026-10-30",
+      "reviewed_at": "2026-10-31",
       "source": "menus-filled.md#menuLabels-44"
     },
     "Tools": {
@@ -2541,6 +2584,27 @@
         "Zkool Multisig"
       ],
       "summary": "Glossary and menu labels reviewed by @Sonnie1 (Sarah Wahinya, Zcash East Africa) in ZecHub/zechub#2503 and #2494: 62 terms, the menu labels and the style answers; noun-class plurals, contexts and a few menu alignments by the steward (marked in notes)."
+    },
+    {
+      "version": 2,
+      "date": "2026-10-31",
+      "terms": [
+        "block",
+        "blockchain",
+        "chain",
+        "commitment",
+        "decentralized",
+        "hardware-wallet",
+        "note",
+        "tools",
+        "wallet"
+      ],
+      "phrases": [
+        "Block Explorers",
+        "Blockchain Explorers",
+        "Store"
+      ],
+      "summary": "Quality check by @Sonnie1 (#2494, #2568): block, blockchain, commitment and hardware wallet kept in English; decentralized = iliyogatuliwa; note dokezo, tools vifaa and Store Duka confirmed."
     }
   ]
 }
