@@ -1,50 +1,50 @@
-# Miti ya Merkle: Jinsi blockchain inakumbuka kila noti
-##### Utafiti wa awali kutoka [Annkkitaaa](https://github.com/Annkkitaaa)
+# Miti ya Merkle [Merkle Trees]: Jinsi Blockchain Hukumbuka Kila Dokezo
+##### Utafiti Asili kutoka [Annkkitaaa](https://github.com/Annkkitaaa)
 
-! ![ alt maandishi](/content-images/image-19-cfbdcf8f78.webp)
+![alt text](/content-images/image-19-cfbdcf8f78.webp)
 
-### Kujumlisha mamilioni ya ahadi katika alama moja ndogo ya kidole
+### Kufupisha commitment milioni nyingi katika alama moja ndogo ya kipekee
 
-> **Series:** *Zcash kutoka Kanuni za Kwanza* . **Kifungu cha 4 .
-> Sisi kujenga juu ya [Kifungu cha 3 (hashing na ahadi)](article-3-hashing-commitments.md)Kama unajua nini alama za vidole na ahadi ni, uko tayari.
-> ** Nini wewe kuondoka na: ** intuitive, sahihi picha ya Merkle miti, jinsi ya kuthibitisha uanachama bila kufunua ambayo kipengee maana, na hasa jinsi hii inakuwa Zcash ya kumbuka ahadi mti.
+> **Mfululizo:** *Zcash kutoka Kanuni za Msingi* . **Makala ya 4 . Miti ya Merkle**
+> **Hadhira:** wanaoanza. Tunaendeleza kutoka [Makala ya 3 (kuweka hash na commitment)](article-3-hashing-commitments.md). Ikiwa unajua alama ya kipekee na commitment ni nini, uko tayari.
+> **Utachojifunza:** picha sahihi na inayoeleweka ya miti ya Merkle, jinsi ya kuthibitisha uanachama bila kufichua ni kipengee gani unachomaanisha, na hasa jinsi hii inavyokuwa mti wa note commitment wa Zcash.
 
-[Kifungu cha 0](article-0-shielded-transaction.md) lakini kwa kweli, kuna mambo mengi sana ambayo huwezi kuyatambua, kama vile jinsi unavyoweza kupata maelezo ya kina juu ya kila kitu ambacho umefanya, au jinsi unavyopata taarifa kuhusu kila kitu unachofanya.
-
----
-
-## 1. Kwa nini unapaswa kuhangaikia jambo hilo?
-
-Matatizo mawili hutokea wakati ambapo una orodha kubwa ya ahadi za umma.
-
-**Tatizo la kwanza: uadilifu kwa kiwango.** Ikiwa orodha ina viingilio milioni 300, ni jinsi gani mtu yeyote kuthibitisha kwamba * hakuna moja * imebadilishwa kwa siri? Kuangalia tena vitu milioni 300 kila wakati hakuna matumaini.
-
-**Tatizo la pili: ushirika wa kibinafsi.** Kutumia noti (Kifungu cha 0), lazima uthibitishe kujitolea kwako ni kweli kwenye bodi. Lakini ikiwa unaonyesha ("ni nambari ya kuingia 4,201,337!"), umejiondoa tu. Unahitaji kuthibitisha *" bahasha yangu iko mahali fulani kwenye bodi hii "* bila kufunua ** ambayo ** moja.
-
-Mti wa Merkle hutatua yote mawili kwa wakati mmoja, hufupisha orodha nzima kuwa alama moja ya vidole, na hukuruhusu kuthibitisha uanachama kwa uthibitisho mdogo wa kuficha nafasi.
+[Makala ya 0](article-0-shielded-transaction.md) ilieleza “ubao wa umma” unaoshikilia kila dokezo lililowahi kuundwa na unaoendelea kukua pekee. Kufikia sasa unaweza kukisia kinachobandikwa humo: **commitment** (Makala ya 3), bahasha zilizofungwa. Lakini ubao halisi ungeshikilia *mamia ya mamilioni* yake. Mtandao unahifadhije hayo, kuyathibitishaje, na kukuruhusu kuthibitisha bahasha yako iko ubaoni bila kuielekeza? Jibu ni mojawapo ya miundo maridadi zaidi katika sayansi ya kompyuta: **mti wa Merkle [Merkle tree].**
 
 ---
 
-## 2. Intuition: mashindano ya alama za vidole
+## 1. Kwa nini unapaswa kujali?
 
-Fikiria mzunguko wa mashindano ya knockout, lakini badala ya wachezaji kusonga mbele, alama za vidole huunganishwa.
+Matatizo mawili hujitokeza mara tu unapokuwa na orodha kubwa ya umma ya commitment.
 
-- Chini, kila kipande cha data anapata fingerprint yake mwenyewe (hash yake kutoka Ibara ya 3).
-- Jozi yao. alama mbili za kila jozi ni hashed * pamoja * katika moja ya mzazi alama ya kidole.
-- Waunganishe wazazi wawili wawili, weka kila jozi pamoja, na kadhalika.
-- Endelea mpaka alama moja ya vidole ikae juu.
+**Tatizo la kwanza: uadilifu kwa kiwango kikubwa.** Ikiwa orodha ina ingizo milioni 300, mtu yeyote anathibitishaje kuwa *hakuna hata moja* lililobadilishwa kwa siri? Kukagua upya vipengee milioni 300 kila unapoitazama haiwezekani.
 
-! ![ alt maandishi](/content-images/image-20-f5d57e425a.webp)
+**Tatizo la pili: uanachama wa faragha.** Ili kutumia dokezo (Makala ya 0), lazima uthibitishe commitment yako iko ubaoni kweli. Lakini ukiielekeza (“ni ingizo namba 4,201,337!”), umeondoa utambulisho wako usiojulikana. Unahitaji kuthibitisha *“bahasha yangu iko mahali fulani kwenye ubao huu”* bila kufichua **ipi**.
 
-Mali moja muhimu zaidi inafuata moja kwa moja kutoka athari ya mvua ya mawe (Kifungu cha 3):
-
-> **The root is a fingerprint of *everything* below it.** Change any leaf, even by one bit, and its fingerprint changes, which changes its parent, which changes *that* parent, all the way up. **The root changes.** So one small root value certifies the integrity of the entire list. That solves Problem one.
+Mti wa Merkle hutatua yote mawili kwa wakati mmoja. Unafinyaza orodha nzima kuwa alama moja ya kipekee, na hukuruhusu kuthibitisha uanachama kwa thibitisho dogo linaloficha nafasi.
 
 ---
 
-## 3. Mti halisi, uliopimwa kwa usahihi
+## 2. Intuisheni: mashindano ya alama za kipekee
 
-Hebu kujenga mti nne-leaf juu na halisi SHA-256 alama za vidole juu ya majani `A, B, C, D` (digests inaonyeshwa truncated kwa uwazi):
+Fikiria jedwali la mashindano ya mtoano, lakini badala ya wachezaji kusonga mbele, **alama za kipekee huunganishwa.**
+
+- Chini kabisa, kila sehemu ya data hupata alama yake ya kipekee (hash yake kutoka Makala ya 3). Hizi ndizo **majani [leaves].**
+- Ziunganishe kwa jozi. Alama mbili za kipekee za kila jozi huwekwa hash *pamoja* kuwa alama moja ya kipekee ya mzazi.
+- Unganisha wazazi kwa jozi, weka hash kila jozi pamoja, na kuendelea.
+- Endelea hadi **alama moja ya kipekee** ibaki juu. Bingwa huyo ni **mzizi wa Merkle [Merkle root].**
+
+![alt text](/content-images/image-20-f5d57e425a.webp)
+
+Sifa moja muhimu zaidi hutokana moja kwa moja na athari ya maporomoko (Makala ya 3):
+
+> **Mzizi ni alama ya kipekee ya *kila kitu* kilicho chini yake.** Badilisha jani lolote, hata kwa biti moja, na alama yake ya kipekee hubadilika, jambo linalobadilisha mzazi wake, ambalo hubadilisha mzazi *huyo*, hadi juu kabisa. **Mzizi hubadilika.** Hivyo thamani moja ndogo ya mzizi huthibitisha uadilifu wa orodha nzima. Hilo hutatua Tatizo la kwanza.
+
+---
+
+## 3. Mti halisi, uliokokotolewa kwa usahihi
+
+Hebu tujenge mti wa majani manne hapo juu kwa kutumia alama halisi za kipekee za SHA-256 juu ya majani `A, B, C, D` (digesti zimeonyeshwa kwa ufupi ili kurahisisha usomaji):
 
 ```
 hA = 559aead08264...     hB = df7e70e50215...
@@ -56,124 +56,124 @@ hCD = H(hC , hD) = 98a2fbfddbc7...
 ROOT = H(hAB , hCD) = 1b3faa3fcc5e...
 ```
 
-Kila kitu ni tu "hash kitu, kisha hash jozi ya hashes. " Hakuna kitu zaidi ya kigeni kuliko Ibara ya 3, kupangwa katika mti.
+Kila kitu ni “weka hash kitu, kisha weka hash jozi za hash.” Hakuna kitu cha ajabu zaidi ya Makala ya 3, kilichopangwa katika mti.
 
 ---
 
-## 4. Sehemu ya busara: kuthibitisha uanachama bila kufunua nafasi
+## 4. Sehemu ya werevu: kuthibitisha uanachama bila kufichua nafasi
 
-Sasa tatizo la pili. Sema unataka kuthibitisha kwamba jani `C` Ni katika mti, kwa mtu ambaye anajua tu ** mzizi **. Wewe * si * kutoa yao mti mzima. Wewe kutoa yao tu alama za vidole zinahitajika kupanda kutoka `C` kwa mizizi, aitwaye **authentication njia** (au **Merkle uthibitisho**):
+Sasa Tatizo la pili. Sema unataka kuthibitisha kwamba jani `C` limo kwenye mti, kwa mtu anayejua **mzizi** pekee. Humpi mti mzima. Unampa tu alama za kipekee zinazohitajika kupanda kutoka `C` hadi mzizini, zinazoitwa **njia ya uthibitishaji [authentication path]** (au **thibitisho la Merkle [Merkle proof]**):
 
-> Ili kuthibitisha `C` ni katika mti, kutoa:
+> Ili kuthibitisha `C` limo kwenye mti, toa:
 > - ndugu yake `hD`, na
-> - mjomba wake `hAB`.
+> - ami yake `hAB`.
 
-Verifier, kujua tu mizizi, recalculates kupanda:
+Mthibitishaji, akijua mzizi pekee, hukokotoa upya upandaji:
 
 ```
 step 1:  H(hC , hD)        = hCD       (combine C with its sibling)
 step 2:  H(hAB , hCD)      = ROOT?     (combine with the uncle)
 ```
 
-Imehesabiwa kwa kweli: hii inazalisha `1b3faa3fcc5e...`, ambayo ** mechi mizizi. * * jani ni kuthibitika kuwa katika mti.
+Imekokotolewa kwa uhalisia: hii hutoa `1b3faa3fcc5e...`, ambayo **inalingana na mzizi.** Jani limethibitishwa kuwa kwenye mti.
 
-! ![ alt maandishi](/content-images/image-21-d9e5d6eaf6.webp)
+![alt text](/content-images/image-21-d9e5d6eaf6.webp)
 
-Vitu viwili vinafanya hii iwe na nguvu:
+Vitu viwili hufanya hili liwe lenye nguvu:
 
-- **Ni ndogo.** Kwa majani 4 wewe zinazotolewa 2 hashes. `n` majani wewe kutoa tu kuhusu **log_2(n) ** hashes. Kwa bilioni majani, hiyo ni takribani **30 hashes, si bilioni. ushahidi ni vigumu kukua kama mti kulipuka katika ukubwa.
-- **It's the seed of privacy.** The proof shows your leaf is *somewhere* in the tree. When this same check is performed *inside a zero-knowledge proof* (Article 5), even the path itself is hidden, so you prove "my note is in the tree" while revealing neither the note nor its position. That fully solves Problem two.
+- **Ni dogo.** Kwa majani 4 ulitoa hash 2. Kwa mti wa majani `n` unatoa hash takriban **log_2(n)** pekee. Kwa majani bilioni moja, hiyo ni takriban **hash 30**, si bilioni moja. Thibitisho hukua kwa kiwango kidogo sana kadiri mti unavyopanuka kwa ukubwa.
+- **Ni mbegu ya faragha.** Thibitisho linaonyesha jani lako lipo *mahali fulani* kwenye mti. Ukaguzi huu huu unapofanywa *ndani ya thibitisho la maarifa sifuri [zero-knowledge proof]* (Makala ya 5), hata njia yenyewe hufichwa, hivyo unathibitisha “dokezo langu limo kwenye mti” huku ukifichua dokezo wala nafasi yake. Hilo hutatua Tatizo la pili kikamilifu.
 
 ---
 
-## 5. Kutoka mti wa Merkle hadi mti wa ahadi ya noti ya Zcash
+## 5. Kutoka mti wa Merkle hadi mti wa note commitment wa Zcash
 
-Sasa tunaweza kusema kwa usahihi kile "baraza la umma" la Kifungu cha 0 ni kweli:
+Sasa tunaweza kueleza kwa usahihi “ubao wa umma” wa Makala ya 0 ni nini hasa:
 
-> Mti wa kujitolea ** ni mti wa Merkle ambao ** majani yake ni ahadi za noti. * Kila wakati maelezo yanapoundwa mahali popote ulimwenguni, ahadi yake imeongezwa kama jani linalofuata, na mzizi unasasishwa.
+> **Mti wa note commitment** ni mti wa Merkle ambao **majani yake ni note commitment.** Kila mara dokezo linapoundwa popote duniani, commitment yake huongezwa kama jani linalofuata, na mzizi husasishwa.
 
 Maelezo machache halisi:
 
-- Mti huu unaitwa mti wa Merkle unaoongezeka.** (Inalingana na Kifungu cha 0 "bodi haibomoi chochote kamwe".)
-- ** mzizi inaitwa * nanga * * Wakati matumizi, shughuli yako marejeo nanga hivi karibuni na inathibitisha, katika ujuzi sifuri, kwamba dhamira yako kumbuka ya anakaa katika mti na mzizi kwamba.
-- **Fixed kina.** miti Zcash ya ulinzi na kina **32**, maana wao wanaweza kushikilia hadi `2^(32)` (zaidi ya bilioni nne) noti.
-- **ZK-kirafiki hashing.** Mti si kujengwa na SHA-256. Sapling hashes mti na **Pedersen hashes** na Orchard anatumia **Sinsemilla** (wote kutoka Ibara ya 3), hasa hivyo uanachama kupanda ni nafuu kuthibitisha ndani ya mzunguko.
+- **Hukua pekee.** Majani huongezwa, hayatoiwi kamwe. Hii huitwa **mti wa Merkle wa nyongeza [incremental Merkle tree].** (Inalingana na kauli ya Makala ya 0 kwamba “ubao hauondoi chochote kamwe.”)
+- **Mzizi huitwa *anchor*.** Unapotumia, muamala wako hurejelea anchor ya hivi karibuni na kuthibitisha, kwa maarifa sifuri, kwamba commitment ya dokezo lako iko kwenye mti wenye mzizi huo.
+- **Kina kisichobadilika.** Miti ya faragha ya Zcash ina kina cha **32**, kumaanisha inaweza kushikilia hadi `2^(32)` (zaidi ya madokezo bilioni nne).
+- **Kuweka hash kunakofaa ZK.** Mti haujengwi kwa SHA-256. Sapling huweka hash mti kwa **Pedersen hashes** na Orchard hutumia **Sinsemilla** (zote kutoka Makala ya 3), hasa ili upandaji wa uanachama uwe wa gharama nafuu kuthibitisha ndani ya circuit.
 
-! ![ alt maandishi](/content-images/image-22-518354b8d5.webp)
+![alt text](/content-images/image-22-518354b8d5.webp)
 
-### Jambo moja mti *hatutumii*: hutumia mara mbili
+### Jambo moja ambalo mti *haushughulikii*: matumizi maradufu
 
-The tree proves a note **exists**. It does not, by itself, stop you from spending the same note twice. That job belongs to the **nullifier set** from Article 0: a separate collection of "void tokens." When you spend, you publish the note's nullifier, and the network rejects any nullifier it has seen before.
+Mti huthibitisha dokezo **lipo**. Haukuzuii, wenyewe, kutumia dokezo lilelile mara mbili. Jukumu hilo ni la **seti ya nullifier [nullifier set]** kutoka Makala ya 0: mkusanyiko tofauti wa “tokeni batili.” Unapotumia, unachapisha nullifier ya dokezo, na mtandao hukataa nullifier yoyote ambayo umeiona awali.
 
-Kwa hiyo miundo miwili ya umma ina jukumu la ziada, na kuwaweka kando ni nini hasa hukata uhusiano kati ya kuzaliwa kwa noti na kifo chake:
+Hivyo miundo miwili ya umma ina majukumu yanayokamilishana, na kuiweka tofauti ndiyo hasa hukata kiungo kati ya kuzaliwa na kufa kwa dokezo:
 
-| Muundo | Swali linajibu | Ilisasishwa wakati |
+| Muundo | Swali linalojibiwa | Husasishwa lini |
 |---|---|---|
-| **Mti wa ahadi ya kumbuka** | "Je, noti hii ipo?" | Dokezo **limeundwa** (ahadi imeambatishwa) |
-| **Seti ya vifutaji** | "Je, noti hii tayari imetumika?" | Ujumbe **umetumika** (kifutaji kimechapishwa) |
+| **Mti wa note commitment** | “Je, dokezo hili lipo?” | Dokezo **linaundwa** (commitment huongezwa) |
+| **Seti ya nullifier** | “Je, dokezo hili tayari limetumika?” | Dokezo **linatumika** (nullifier huchapishwa) |
 
 ---
 
-## 6. Kujitenga kwa unyoofu
+## 6. Ufafanuzi wa wazi
 
-Simplifications, as usual. Real incremental Merkle trees track "frontier" nodes so the root can update without rebuilding everything; the network keeps a window of recent anchors, not just the latest, so wallets aren't broken by every new block; and empty leaves use a defined padding value. We also drew binary trees with neat powers of two. None of this changes the intuition: leaves of commitments, hashed in pairs up to one root, with short membership proofs. The exact bookkeeping returns in the protocol article.
+Kurahisisha, kama kawaida. Miti halisi ya Merkle ya nyongeza hufuatilia nodi za “frontier” ili mzizi uweze kusasishwa bila kujenga upya kila kitu; mtandao huhifadhi dirisha la anchor za hivi karibuni, si ya mwisho pekee, ili pochi zisiharibiwe na kila block mpya; na majani matupu hutumia thamani iliyobainishwa ya padding. Pia tulichora miti ya jozi yenye nguvu nadhifu za mbili. Hakuna kati ya haya kinachobadilisha intuisheni: majani ya commitment, yaliyopewa hash kwa jozi hadi mzizi mmoja, pamoja na uthibitisho mfupi wa uanachama. Uhasibu sahihi unarudi katika makala ya itifaki.
 
 ---
 
 ## 7. Muhtasari
 
-- **Merkle mti** hashes data katika ** majani, kisha hashes ** jozi juu hadi ** moja mizizi bado.
-- Thanks to the avalanche effect, the **root is a fingerprint of the entire list**: change one leaf and the root changes. One small value certifies a huge dataset.
-- A ** uthibitisho wa uanachama (njia ya uthibitishaji) ** ni tu ndugu pamoja na kupanda kwa mizizi, kuhusu ** log_2 ((n) ** hashes, hivyo ushahidi kubaki ndogo hata kwa mabilioni ya majani.
-- Alifanya ** ndani ya zero-ujuzi uthibitisho **, kwamba uanachama kuangalia anaficha * ambayo * jani unamaanisha, kuthibitisha "kumbuka yangu ni katika mti" bila kuonyesha maelezo au nafasi yake.
-- Zcash ya ** note ahadi mti ** ni ** incremental ** Merkle mti wa maelezo ahadi, kina ** 32 **, ambao mzizi ni ** nanga **; Sapling hashes ni na ** Pedersen ** na Orchard na ** Sinsemilla **.
-- Mti inathibitisha ** kuwepo **; tofauti ** nullifier kuweka ** inazuia ** mara mbili-inatumia **. Kuweka yao mbali ni nini unlinks kuzaliwa noti ya kutoka kifo chake.
+- **Mti wa Merkle** huweka hash data kuwa **majani**, kisha huweka hash **jozi kuelekea juu** hadi **mzizi** mmoja ubaki.
+- Shukrani kwa athari ya maporomoko, **mzizi ni alama ya kipekee ya orodha nzima**: badilisha jani moja na mzizi hubadilika. Thamani moja ndogo huthibitisha seti kubwa ya data.
+- **Thibitisho la uanachama (njia ya uthibitishaji)** ni ndugu tu waliopo kwenye upandaji hadi mzizini, takriban hash **log_2(n)**, hivyo uthibitisho hubaki mdogo hata kwa mabilioni ya majani.
+- Likifanywa **ndani ya thibitisho la maarifa sifuri**, ukaguzi huo wa uanachama huficha ni jani *gani* unalomaanisha, ukithibitisha “dokezo langu limo kwenye mti” bila kufichua dokezo wala nafasi yake.
+- Mti wa **note commitment** wa Zcash ni mti wa Merkle wa **nyongeza**, wenye kina cha **32**, ambao mzizi wake ni **anchor**; Sapling huuweka hash kwa **Pedersen** na Orchard kwa **Sinsemilla**.
+- Mti huthibitisha **uwepo**; **seti ya nullifier** tofauti huzuia **matumizi maradufu**. Kuziweka kando ndiko kunakotenganisha kuzaliwa kwa dokezo na kufa kwake.
 
 ---
 
-## Orodha ya maneno
+## Faharasa
 
-| Muhula | Maana ya Kiingereza cha kawaida |
+| Neno | Maana kwa lugha rahisi ya Kiingereza |
 |---|---|
-| **Merkle tree** | Mti wa hashes; majani ni alama za vidole, wazazi hupiga watoto wao hashes |
-| **Leaf** | Nodi ya chini; katika Zcash, ahadi ya noti moja |
-| **Merkle root** | Kidole kimoja cha juu kinachofupisha mti mzima |
-| **Authentication path / Merkle proof** | Hashes za ndugu zinahitajika kuthibitisha jani liko kwenye mti |
-| **Incremental Merkle tree** | Mti wa Merkle unaotumika tu (majani huongezwa tu) |
-| **Anchor** | Mzizi wa Merkle ambao spend anautaja kama "hali ya mti ninayoipinga" |
-| **Nullifier set** | Mkusanyiko tofauti wa alama za matumizi zinazozuia matumizi maradufu |
+| **Merkle tree** | Mti wa hash; majani ni alama za kipekee za data, wazazi huweka hash watoto wao |
+| **Leaf** | Nodi ya chini; katika Zcash, note commitment moja |
+| **Merkle root** | Alama moja ya kipekee ya juu inayofupisha mti mzima |
+| **Authentication path / Merkle proof** | Hash za ndugu zinazohitajika kuthibitisha jani limo kwenye mti |
+| **Incremental Merkle tree** | Mti wa Merkle wa kuongeza pekee (majani huongezwa tu) |
+| **Anchor** | Mzizi wa Merkle ambao matumizi hurejelea kama “hali ya mti ninayothibitisha dhidi yake” |
+| **Nullifier set** | Mkusanyiko tofauti wa alama za matumizi unaozuia matumizi maradufu |
 
 ---
 
-## FAQ
+## Maswali Yanayoulizwa Mara kwa Mara
 
-** Kwa nini mti na si tu orodha ndefu ya hashes? **
-orodha gorofa ingekuwa kuwalazimisha kufichua au mchakato kila kuingia kuthibitisha uanachama. mti inakupa ushahidi logarithmic-ukubwa na mzizi moja kwa uadilifu.
+**Kwa nini mti na si orodha ndefu tu ya hash?**
+Orodha tambarare ingekulazimisha kufichua au kuchakata kila ingizo ili kuthibitisha uanachama. Mti hukupa uthibitisho wa ukubwa wa logarithmu na mzizi mmoja wa uadilifu.
 
-** Je, verifier haja mti mzima? **
-La. kuthibitishwa tu mahitaji ya ** mizizi ** pamoja na njia yako short uthibitishaji. Hiyo ni hatua nzima.
+**Je, mthibitishaji anahitaji mti mzima?**
+Hapana. Mthibitishaji anahitaji **mzizi** pekee pamoja na njia yako fupi ya uthibitishaji. Hilo ndilo kusudi lote.
 
-** Kwa nini kina cha 32 hasa? **
-Inazuia mti kwa takriban bilioni nne za noti, ambayo ni nafasi kubwa ya kichwa, wakati wa kuweka uthibitisho wa uanachama (na gharama yake ya ndani ya mzunguko) saizi iliyowekwa, inayoweza kudhibitiwa.
+**Kwa nini kina cha 32 hasa?**
+Huweka kikomo cha mti kuwa karibu madokezo bilioni nne, ambayo ni nafasi kubwa ya kutosha, huku ikidumisha thibitisho la uanachama (na gharama yake ndani ya circuit) katika ukubwa maalumu unaoweza kusimamiwa.
 
-** Ikiwa mzizi hubadilika na kila noti mpya, uthibitisho wa zamani unabakije halali?**
-The network remembers a window of recent roots (anchors), so a proof made against a slightly older anchor still verifies. The protocol article makes this precise.
+**Ikiwa mzizi hubadilika kwa kila dokezo jipya, uthibitisho wa zamani hubakije halali?**
+Mtandao hukumbuka dirisha la mizizi ya hivi karibuni (anchor), hivyo thibitisho lililotengenezwa dhidi ya anchor ya zamani kidogo bado huthibitishwa. Makala ya itifaki hufafanua hili kwa usahihi.
 
 ---
 
-### Jaribu ufahamu wako wa ndani
+### Jaribu intuisheni yako
 
-Katika mti wetu wenye majani manne, tuseme mshambuliaji anabadili majani kisiri `C` kwa thamani tofauti lakini huacha mzizi kuchapishwa unchanged. Nini huenda vibaya kwa ajili yao, na kwa nini hawawezi kurekebisha kimya kimya? * ((Jibu chini.) *
+Katika mti wetu wa majani 4, tuseme mshambuliaji anabadilisha kwa siri jani `C` kwa thamani tofauti lakini anaacha mzizi uliochapishwa bila kubadilika. Nini kinawaendea vibaya, na kwa nini hawawezi kulirekebisha kimya kimya? *(Jibu hapa chini.)*
 
-<details><summary>Answer</summary>
+<details><summary>Jibu</summary>
 
-Kubadilika `C` mabadiliko `hC` (athari barafu), ambayo mabadiliko `hCD = H(hC, hD)`, ambayo mabadiliko `ROOT = H(hAB, hCD)`. Hivyo recalculated mizizi tena mechi ya kuchapishwa mizizi, na tampering ni aligundua. "Kufanya kurekebisha kimya kimya" wao ingekuwa haja ya kupata tofauti `C` ambayo inazalisha *same* `hC`, ambayo ni mgongano wa hash, haiwezekani kwa Makala 3. uadilifu ana.
+Kubadilisha `C` hubadilisha `hC` (athari ya maporomoko), ambayo hubadilisha `hCD = H(hC, hD)`, ambayo hubadilisha `ROOT = H(hAB, hCD)`. Hivyo mzizi uliokokotolewa upya haulingani tena na mzizi uliochapishwa, na uchakachuaji hugunduliwa. Ili “kulirekebisha kimya kimya” wangepaswa kupata `C` tofauti inayozalisha `hC` *ileile*, ambayo ni mgongano wa hash, usiowezekana kwa Makala ya 3. Uadilifu unadumu.
 </details>
 
 ---
 
-### Ni nini kinachofuata
+### Kinachofuata
 
-Makala ya 5 . Zero-ujuzi uthibitisho: crescendo. Sisi sasa kujengwa maelezo, ahadi, na mti, na sisi kuendelea kusema "uthibitisho katika zero maarifa". Makala 5 hatimaye anaelezea jinsi gani unaweza kuthibitisha taarifa ni kweli, kwamba kumbuka yako ni katika mti, kwamba nullifier yako ni sahihi, kwamba fedha mizani, wakati akifunua hakuna wa hayo.
+**Makala ya 5 . Thibitisho za maarifa sifuri:** kilele. Sasa tumejenga madokezo, commitment, na mti, na tunaendelea kusema “imethibitishwa kwa maarifa sifuri.” Makala ya 5 hatimaye inaeleza jinsi unavyoweza kuthibitisha kauli ni kweli, kwamba dokezo lako limo kwenye mti, kwamba nullifier yako ni sahihi, kwamba fedha zinasawazika, huku usifichue chochote kati ya hayo.
 
-* Sehemu ya * Zcash kutoka Kanuni za Kwanza * mfululizo kwa [ZecHub](https://zechub.org). Leseni CC BY-SA 4.0.*
+*Sehemu ya mfululizo wa* Zcash kutoka Kanuni za Msingi *kwa [ZecHub](https://zechub.org). Imepewa leseni ya CC BY-SA 4.0.*

@@ -1,8 +1,8 @@
-# Maya Decentralized Exchange (Maya Madaraka Kubadilishana)
+# Soko la kubadilishana sarafu lililogatuliwa la Maya
 
 ---
 
-## Mafunzo ya mafunzo
+## Mafunzo
 
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
@@ -19,62 +19,62 @@
 
 ## Maya Protocol ni nini?
 
-Maya ni a [kubadilishana madaraka ya chini](https://nym.com/blog/what-is-dex) (DEX) mfumo ambao unawezesha biashara ya cryptocurrencies katika blockchains tofauti. Unaweza, kwa mfano, kubadilishana Bitcoin (BTC) kwenye blockchain Bitcoin na Ethereum (ETH) juu ya blockchain Ethereum kwa njia rahisi, bila kushikilia mali au kuhusisha mamlaka yoyote kuu au Ujue taratibu za Wateja wako (KYC).
+Maya ni mfumo wa [soko la kubadilishana sarafu lililogatuliwa](https://nym.com/blog/what-is-dex) [decentralized exchange] (DEX) unaowezesha biashara ya sarafu za kidijitali katika blockchain tofauti. Kwa mfano, unaweza kubadilisha [swap] Bitcoin (BTC) kwenye blockchain ya Bitcoin na Ethereum (ETH) kwenye blockchain ya Ethereum kwa urahisi, bila kumiliki mali hizo au kuhusisha mamlaka yoyote ya kati au taratibu za Know Your Customer (KYC).
 
-Maya Protocol was developed using the Cosmos Software Development Kit (Cosmos SDK) and operates on a Proof of Bond (PoB) consensus mechanism. The protocol is upheld by "Node Operators," who stake capital into the system and earn returns as a reward for their contribution and efforts. Essentially, nodes are computers running software that validates user swaps and oversees assets in designated addresses across different blockchains.
+Maya Protocol ilitengenezwa kwa kutumia Software Development Kit (Cosmos SDK) ya Cosmos na hutumia utaratibu wa makubaliano [consensus] wa Thibitisho la Dhamana (PoB). Itifaki hii inadumishwa na “Waendeshaji wa node,” ambao huweka mtaji katika mfumo na kupata mapato kama zawadi kwa mchango na juhudi zao. Kimsingi, node ni kompyuta zinazoendesha programu inayothibitisha kubadilisha kwa watumiaji na kusimamia mali katika anwani [address] zilizobainishwa kwenye blockchain tofauti.
 
-Ili kukamilisha kubadilishana, cryptocurrency mkono lazima kupokelewa katika moja ya anwani Maya wa, kutumwa na mtumiaji, na kisha kiasi sawa ni kupelekwa kutoka mwingine wa anwani maya juu blockchain tofauti. mchakato huu inasimamiwa na kupitishwa kwa angalau theluthi mbili ya nodes, hasa kuhakikisha kwamba fedha zinapokewa vizuri.
+Ili kukamilisha kubadilisha, sarafu ya kidijitali inayotumika lazima ipokelewe katika mojawapo ya anwani za Maya, itumwe na mtumiaji, kisha kiasi sawa hutumwa kutoka anwani nyingine ya Maya kwenye blockchain tofauti. Mchakato huu unasimamiwa na kuidhinishwa na angalau theluthi mbili ya node, hasa kwa kuhakikisha kuwa fedha zimepokelewa ipasavyo.
 
-Kwa njia hii, watumiaji wanaweza kutuma aina moja ya ishara kwenye blockchain na kupokea aina tofauti juu ya mwingine blockchain, wote natively na bila kutumia vifungo wrapped.
+Kwa namna hii, watumiaji wanaweza kutuma aina moja ya tokeni [token] kwenye blockchain moja na kupokea aina tofauti kwenye blockchain nyingine, yote kwa njia asilia na bila kutumia tokeni zilizofungwa.
 
-## Uthibitisho wa Kifungo Ni Nini?
+## Thibitisho la Dhamana ni nini?
 
-Uthibitisho wa Bond (PoB) ni utaratibu umoja ambapo node watendaji lazima kufanya dhamana (kawaida katika mfumo wa ishara ya asili mtandao) kushiriki katika mtandao. dhamana hii vitendo kama aina ya usalama kiuchumi, kuhakikisha kwamba nodes kutenda kwa uaminifu na kudumisha usahihi wa mtandao2. ikiwa Node anajaribu kutenda vibaya au kushindwa kutekeleza majukumu yake, dhamana yake inaweza kuwa slashed, maana sehemu yake inachukuliwa mbali kama adhabu.
+Thibitisho la Dhamana [Proof of Bond] (PoB) ni utaratibu wa makubaliano ambapo waendeshaji wa node lazima waweke dhamana [bond] (kwa kawaida katika mfumo wa tokeni asilia ya mtandao) ili kushiriki katika mtandao. Dhamana hii hufanya kazi kama aina ya usalama wa kiuchumi, ikihakikisha kuwa node zinatenda kwa uaminifu na kudumisha uadilifu wa mtandao2. Ikiwa node itajaribu kutenda kwa nia mbaya au itashindwa kutekeleza majukumu yake, dhamana yake inaweza kupunguzwa, kumaanisha kuwa sehemu yake huchukuliwa kama adhabu.
 
-Katika Maya Protocol, utaratibu huu husaidia kuzalisha thamani ya kiuchumi kutoka kwa rasilimali zilizowekwa za waendeshaji node, kuongeza ufanisi wa mtaji. Vivyo hivyo, katika THORChain, waendeshaje node wanafunga RUNE (alama asili) kupata mtandao na kuhakikisha ushirikiano kati ya washiriki.
+Katika Maya Protocol, utaratibu huu husaidia kuzalisha thamani ya kiuchumi kutoka rasilimali zilizowekwa na waendeshaji wa node, hivyo kuongeza ufanisi wa mtaji. Vivyo hivyo, katika THORChain, waendeshaji wa node huweka dhamana ya RUNE (tokeni asilia) ili kuulinda mtandao na kuhakikisha ushirikiano kati ya washiriki.
 
 ## Tofauti kati ya Maya na THORChain
 
-Maya ni uma wa THORChain lakini kubeba na baadhi ya vipengele mpya na utendaji ambayo hutumika kama mbadala kubwa. Wale muhimu zaidi ni:
+Maya ni fork ya THORChain lakini ina vipengele na utendakazi mpya kadhaa vinavyoifanya kuwa mbadala bora. Muhimu zaidi ni
 
-### Nodes Liquidity (Ndoa za Kioevu)
+### Node za Ukwasi
 
-Badala ya kufuata Pure Bond Model, Maya ni kuzingatia mabadiliko kwa Liquidity Nodes mfano. Katika mfumo huu, nodes zinawezeshwa kuchangia moja kwa moja ukwasi, bonding yake na mtandao. Mbinu hii ina maana node waendeshaji wanakabiliwa hatari kubwa: kama wao kutumia vibaya fedha, wanapata hasara, akifanya kazi kama nguvu deterrent. Matokeo yake, Node watendaji kutumia Units Uwekezaji kutoka Pools uwekezaji, ambayo wakati huo huo kutoa upatikanaji wa fedha na kuimarisha usalama wa mtandao.
+Badala ya kufuata Muundo wa Dhamana Pekee, Maya inazingatia kubadilika kwenda kwenye muundo wa Node za Ukwasi. Katika mfumo huu, node zinawezeshwa kuchangia ukwasi moja kwa moja, kwa kuuweka dhamana kwenye mtandao. Mbinu hii inamaanisha waendeshaji wa node wanakabiliwa na hatari kubwa: wakitumia fedha vibaya, hupata hasara, jambo linalofanya kazi kama kizuizi chenye nguvu. Kwa hiyo, waendeshaji wa node hutumia Vitengo vya Ukwasi kutoka Mabwawa ya Ukwasi [Liquidity Pools], ambayo kwa wakati mmoja hutoa ukwasi na kuimarisha usalama wa mtandao.
 
-### Ulinzi Dhidi ya Hasara za Muda Tu
+### Ulinzi dhidi ya Hasara ya Muda
 
-Mfumo ambao hulinda watoaji wa ukwasi kutokana na hasara ya muda (LPs) wanaweza uzoefu wakati kutoa fedha, kwa sababu ya kushuka mara kwa mara katika bei za mali crypto.
-ILP holds 10% of the $CACAO supply (10 million $CACAO) and is continuously replenished by 10% of the protocol fees. ILP becomes active 50 days after a liquidity deposit, with coverage capped at 100%.
+Mfumo unaowalinda watoa ukwasi dhidi ya hasara ya muda (LPs) wanayoweza kupata wanapotoa ukwasi, kutokana na mabadiliko ya mara kwa mara ya bei za mali za kidijitali.
+ILP inashikilia 10% ya ugavi wa $CACAO (milioni 10 za $CACAO) na hujazwa upya mara kwa mara kwa 10% ya ada [fees] za itifaki. ILP huanza kutumika siku 50 baada ya amana ya ukwasi, huku ulinzi ukiwa na kikomo cha 100%.
 
-The duration of ILP coverage depends on the performance of the ASSET and $CACAO. Full coverage is achieved after 150 days if ASSET performs better, and after 450 days if $CACAO performs better. ILP is both paid out and reset upon complete withdrawal but is not affected by partial withdrawals. For top-ups, ILP is reset but not paid out.
+Muda wa ulinzi wa ILP hutegemea utendaji wa ASSET na $CACAO. Ulinzi kamili hufikiwa baada ya siku 150 ikiwa ASSET inafanya vizuri zaidi, na baada ya siku 450 ikiwa $CACAO inafanya vizuri zaidi. ILP hulipwa na kuwekwa upya wakati wa utoaji kamili wa fedha, lakini haiathiriwi na utoaji wa sehemu. Kwa kuongeza salio [top-ups], ILP huwekwa upya lakini hailipwi.
 
-### Mfano tofauti wa ugawaji
+### Muundo tofauti wa ugawaji
 
-The Liquidity Auction was a 21-day event designed to distribute $CACAO tokens among participants. During the event, users deposited supported assets to a specific address. At the conclusion of the auction, 90% of the $CACAO tokens were allocated to participants in proportion to their liquidity contributions, while the remaining 10% was allocated to the ILP reserve. The participants became liquidity providers, with their deposited assets and $CACAO tokens placed into Maya's pools, enabling them to earn a share of the generated fees.
+Mnada wa Ukwasi ulikuwa tukio la siku 21 lililobuniwa kusambaza tokeni za $CACAO miongoni mwa washiriki. Wakati wa tukio hilo, watumiaji waliweka mali zinazotumika kwenye anwani maalum. Mwishoni mwa mnada, 90% ya tokeni za $CACAO ziligawiwa washiriki kulingana na mchango wao wa ukwasi, huku 10% iliyobaki ikigawiwa akiba ya ILP. Washiriki wakawa watoa ukwasi, huku mali zao zilizowekwa na tokeni za $CACAO zikiwekwa katika mabwawa ya Maya, na kuwawezesha kupata sehemu ya ada zilizozalishwa.
 
 ### Njia tofauti ya kushughulikia akiba
 
-At the genesis of Maya Protocol, the available CACAO reserves were only 10% of the total supply, compared to 44% for THORChain, and were primarily intended for Impermanent Loss Protection (ILP). Maya does not have block emissions; and if Protocol Owned Liquidity and Lending are implemented, they will feature a different design, as in THORChain, these aspects are closely integrated with the Reserves.
+Wakati wa uzinduzi wa Maya Protocol, akiba za CACAO zilizopatikana zilikuwa 10% pekee ya ugavi wote, ikilinganishwa na 44% kwa THORChain, na zilinuia hasa Ulinzi dhidi ya Hasara ya Muda (ILP). Maya haina utoaji wa block; na ikiwa Ukwasi Unaomilikiwa na Itifaki na Ukopeshaji vitatekelezwa, vitakuwa na muundo tofauti, kwani katika THORChain, vipengele hivi vinaunganishwa kwa karibu na Akiba.
 
-Bado, licha ya tofauti zake, Maya pia hutumika kama suluhisho la ziada kwa THORChain, kutoa upungufu wa kazi, upanuzi na uthibitishaji, na kuunganisha mitandao mpya ambayo haipo katika utekelezaji wa sasa wa THORCHINE.
+Hata hivyo, licha ya tofauti zake, Maya pia hufanya kazi kama suluhisho linalokamilisha THORChain, likitoa urudufu, upanuzi na uthibitishaji, na kuunganisha mitandao mipya isiyopo katika utekelezaji wa sasa wa THORChain.
 
-Also, Maya's goal is to become a *backend* for other services to build upon, in hopes of seeing plenty of new *frontends*, or DEX services built upon Maya's infraestructure.
+Pia, lengo la Maya ni kuwa *backend* kwa huduma nyingine kujenga juu yake, kwa matumaini ya kuona *frontends* nyingi mpya, au huduma za DEX zilizojengwa juu ya miundombinu ya Maya.
 
-## Maya itifaki mkoba ushirikiano
+## Ujumuishaji wa pochi wa Maya Protocol
 
-Kutenda kama * backend, Maya inahitaji kuwa na mkono kwa UI tofauti ya na pochi kutumika. 
-Hapa ni orodha ya baadhi ya huduma ambazo tayari kusaidia Maya:
+Kwa kufanya kazi kama *backend*, Maya inahitaji kuungwa mkono na UI na pochi tofauti ili itumike. 
+Hii hapa ni orodha ya baadhi ya huduma zinazounga mkono Maya tayari:
 
 [Thorwallet DEX](https://www.thorwallet.org/): Ledger, XDEFI, MetaMask, Keystore
 
-[El Dorado (Mto wa Dhoruba)](https://www.eldorado.market/): XDEFI, Kiwanda cha Keystore
+[El Dorado](https://www.eldorado.market/): XDEFI, Keystore
 
 [CacaoSwap](https://cacaoswap.app/): Keystore, MetaMask, XDEFI, Keplr, Leap
 
 [Asgardex](https://www.asgardex.com/): Keystore, Ledger
 
-DefiSpot: tena online, uwanja wake haina kutatua.
+DefiSpot: Haipo tena mtandaoni, kikoa chake hakitatui.
 
-[Ctrl Wallet (XDEFI)](https://ctrl.xyz/): a multi-ecosystem self-custody wallet with support for 30+ native blockchains, and all EVM and Cosmos chains, including Bitcoin, Ethereum, Solana, THORChain, Maya Protocol, TRON, and more.
+[Ctrl Wallet (XDEFI)](https://ctrl.xyz/): Pochi ya kujihifadhi yenye mifumo mingi inayounga mkono blockchain asilia zaidi ya 30, pamoja na minyororo yote ya EVM na Cosmos, ikijumuisha Bitcoin, Ethereum, Solana, THORChain, Maya Protocol, TRON, na nyinginezo.
 
-[KeepKey ](https://keepkey.com/): mkoba vifaa kwa ajili ya kuhifadhi salama mali digital.
+[KeepKey ](https://keepkey.com/): Hardware wallet ya kuhifadhi mali za kidijitali kwa usalama.

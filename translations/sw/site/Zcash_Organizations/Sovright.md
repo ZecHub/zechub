@@ -1,40 +1,40 @@
 # Sovright
 ![Sovright](/content-images/sovright-16a27c0d24.webp)
 
-**Sovright** is a US 501(c3) non-profit dedicated to supporting human autonomy. Starting with a focus on Zcash infrastructure, mining, protocol development, and ecosystem support the project builds tools and services intended to strengthen private digital currency infrastructure and support the long-term resilience of the Zcash network.
+**Sovright** ni shirika lisilo la faida la Marekani la 501(c3) lililojitolea kuunga mkono uhuru wa binadamu. Ikianzia kwa kuzingatia miundombinu ya Zcash, uchimbaji [mining], maendeleo ya itifaki, na usaidizi wa mfumo ikolojia, mradi huu hujenga vifaa [tools] na huduma zinazolenga kuimarisha miundombinu ya sarafu ya kidijitali ya faragha [privacy] na kuunga mkono uimara wa muda mrefu wa mtandao wa Zcash.
 
-Sovright was previously known as **Bootstrap**. The original name reflected the organizations early goal of bootstrapping a Zcash infrastructure company from the ground up.
+Sovright hapo awali ilijulikana kama **Bootstrap**. Jina la awali lilionyesha lengo la kwanza la shirika la kuanzisha kampuni ya miundombinu ya Zcash kutoka mwanzo.
 
 [Tembelea tovuti](https://sovright.com/)
 
 ## Jina
 
-Jina **Sovright** ni mchanganyiko wa maneno **sovereign** na **right**. Inaonyesha mashirika yanazingatia uhuru wa mtu binafsi, faragha, na haki ya kuchagua jinsi data ya kibinafsi, pesa, mawasiliano, kompyuta, na shughuli za mkondoni zinadhibitiwa.
+Jina **Sovright** ni muunganiko wa **sovereign** na **right**. Linaonyesha mkazo wa shirika katika uhuru wa mtu binafsi, faragha, na haki ya kuchagua jinsi data binafsi, fedha, mawasiliano, uwezo wa kompyuta, na shughuli za mtandaoni zinavyodhibitiwa.
 
-Sovrights work began with Zcash, a privacy-preserving cryptocurrency that uses zero-knowledge cryptography to support shielded transactions. Over time, the organizations focus expanded beyond private money to include broader infrastructure concerns, including secure communications, resilient networks, private compute, and secure AI interactions.
+Kazi ya Sovright ilianza na Zcash, sarafu ya kidijitali inayohifadhi faragha ambayo hutumia kriptografia ya maarifa sifuri [zero-knowledge] kuunga mkono miamala ya faragha [shielded transactions]. Baada ya muda, mkazo wa shirika ulipanuka zaidi ya fedha binafsi ili kujumuisha masuala mapana ya miundombinu, yakiwemo mawasiliano salama, mitandao imara, uwezo wa kompyuta wa faragha, na maingiliano salama ya AI.
 
-## Madini Pool
+## Bwawa la Uchimbaji [Mining Pool]
 
-Sovright inafanya kazi pool ya madini ya Zcash katika:
+Sovright huendesha bwawa la uchimbaji la Zcash katika:
 
 [mining.sovright.com](https://mining.sovright.com/)
 
-The Sovright Mining Pool is designed to support miner sovereignty and reduce mining pool concentration. Mining pool concentration is a recurring concern in proof-of-work networks because a small number of pools can end up controlling a large share of network hashrate. This can weaken decentralization and increase reliance on the behavior of major pool operators.
+Bwawa la Uchimbaji la Sovright limeundwa kuunga mkono uhuru wa mchimbaji na kupunguza mkusanyiko wa mabwawa ya uchimbaji. Mkusanyiko wa mabwawa ya uchimbaji ni suala linalojirudia katika mitandao ya uthibitisho wa kazi kwa sababu idadi ndogo ya mabwawa inaweza kuishia kudhibiti sehemu kubwa ya hashrate ya mtandao. Hii inaweza kudhoofisha ugatuzi na kuongeza utegemezi kwa tabia ya waendeshaji wakuu wa mabwawa.
 
-Sovright Mining Pool ni lengo kwa ajili ya madini solo, waendeshaji wadogo, na washiriki wengine ambao wanataka kusaidia zaidi madini Zcash ikolojia. pool inasisitiza uwazi payout mantiki, auditability, na ada ndogo ya uendeshaji.
+Bwawa la Uchimbaji la Sovright linakusudiwa kwa wachimbaji binafsi, waendeshaji wadogo, na washiriki wengine wanaotaka kuunga mkono mfumo ikolojia wa uchimbaji wa Zcash uliogatuliwa zaidi. Bwawa hili husisitiza mantiki ya malipo iliyo wazi, uwezekano wa ukaguzi, na ada za uendeshaji za kiwango cha chini.
 
-Toleo la sasa testnet haina kutoa payouts na ni lengo kwa ajili ya kupima tu.
+Toleo la sasa la testnet halitoi malipo na limekusudiwa kwa majaribio pekee.
 
 ## (Inakuja Hivi Karibuni)
 
 ### Uimara wa Mtandao
 
-Network resilience refers to the reliability and robustness of the infrastructure that carries Zcash transactions. Private transactions depend not only on cryptography, but also on the availability and reliability of the network infrastructure beneath them.
+Uimara wa mtandao unarejelea kutegemewa na uimara wa miundombinu inayobeba miamala ya Zcash. Miamala ya faragha haitegemei kriptografia pekee, bali pia upatikanaji na kutegemewa kwa miundombinu ya mtandao iliyo chini yake.
 
-Sovright hutambua ujasiri wa mtandao kama eneo la msingi la kazi ya kudumisha usalama wa vitendo na matumizi ya Zcash.
+Sovright hutambua uimara wa mtandao kama eneo la msingi la kazi kwa kudumisha usalama wa kiutendaji na urahisi wa matumizi wa Zcash.
 
-### Enzi Kuu ya Kifedha
+### Uhuru wa Kifedha
 
-Financial sovereignty refers to the ability of individuals to control and access their own funds without relying on permission from intermediaries. In the context of Zcash, this includes private payments, self-custody, and infrastructure that allows users to transact on their own terms.
+Uhuru wa kifedha unarejelea uwezo wa watu binafsi kudhibiti na kufikia fedha zao wenyewe bila kutegemea idhini kutoka kwa wapatanishi. Katika muktadha wa Zcash, hii inajumuisha malipo ya faragha, uhifadhi binafsi, na miundombinu inayowaruhusu watumiaji kufanya miamala kwa masharti yao wenyewe.
 
-Sovright inachukua upatikanaji wa kifedha na watumiaji kudhibitiwa fedha kama sehemu ya msingi ya uhuru wa mtu binafsi.
+Sovright huchukulia ufikiaji wa kifedha na fedha zinazodhibitiwa na mtumiaji kama vipengele vya msingi vya uhuru wa mtu binafsi.

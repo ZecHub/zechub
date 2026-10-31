@@ -1,84 +1,84 @@
-# ZecHub hackathon mwjenzi wa mwongozo
+# Mwongozo wa mjenzi wa hackathon wa ZecHub
 
-## TL;DR
+## Kwa ufupi
 
-- Kujua kwa nini wewe ni kujenga kabla ya kuandika code, umuhimu beats utata
-- Weka rahisi, wazo ndogo kufanyika vizuri beats wazo kubwa kushoto unfinished
-- Kujifunza Zcash miundombinu stack mapema, ni sehemu steepest ya kupanda
-- Kama programu yako moves fedha, ni lazima kazi juu ya mainnet, kujenga kwenye testnet, kisha kuthibitisha yake juu ya mainnet
-- Nyaraka na onyesho la wazi linaweza kuwa muhimu zaidi kuliko bidhaa yenyewe.
-- Kushinda ni mwanzo, hujenga sifa yako na kufungua milango katika jamii.
-
-<br/>
-
-## Hii ni kwa ajili ya nani?
-
-- Wajenzi wa kwanza kuingia katika ZecHub au Zcash hackathon
-- Watengenezaji kutoka mazingira mengine ambao ni mpya kwa Zcash
-- Mtu yeyote ambaye anataka kugeuka mradi hackathon katika kitu kudumu
+- Jua kwa nini unajenga kabla ya kuandika msimbo; manufaa yanazidi utata
+- Weka mambo rahisi; wazo dogo lililotekelezwa vizuri linazidi wazo kubwa lililoachwa bila kukamilika
+- Jifunze mapema mfumo wa miundombinu wa Zcash; hii ndiyo sehemu ngumu zaidi ya safari
+- Ikiwa programu yako inahamisha fedha, lazima ifanye kazi kwenye mainnet; jenga kwenye testnet, kisha ithibitishe kwenye mainnet
+- Hati na onyesho lililo wazi vinaweza kuwa muhimu zaidi kuliko bidhaa yenyewe
+- Kushinda ni mstari wa kuanzia; kunajenga sifa yako na kufungua milango katika jumuiya
 
 <br/>
 
-## Anza kwa sababu gani?
+## Mwongozo huu ni kwa ajili ya nani
 
-Kabla ya kufungua mhariri wako, kujua nini tatizo wewe ni kutatua na kwa nini mtu yeyote bila kujali. mtihani mzuri ni rahisi: kama kitu unachojenga hakuwepo, ingekuwa mtu yoyote miss it? kujenga kitu gani unaweza kutumia mwenyewe. faragha ni sababu Zcash ipo, hivyo kuelewa kwa nini faragha mambo watu unajenga kwa ajili yake, kisha basi kwamba sura nzima mradi.
-
-<br/>
-
-## Jifunze stack kwanza
-
-Mshangao wa kawaida kwa wajenzi kutoka minyororo mingine ni curve kujifunza kwa ajili ya miundombinu Zcash, si coding. Kutoa mwenyewe muda kuelewa jinsi vipande fit kabla ya kubuni programu yako. Kuanza na msingi stack, mara nyingi aitwaye Z hadi tatu: zebrad, mwanga server, na mkoba. Kisha kupata ukoo na zana developer:
-
-1. Soma ukurasa developer juu ya wiki katika [zechub.wiki/developers (Kiingereza)](https://zechub.wiki/developers), ni mapendekezo ya kwanza kuacha
-2. Kuchunguza zingolib na zingo-cli, ambao wito kufunika zaidi ya kile mradi mahitaji katika njia za
-3. Angalia librustzcash na ZODL rejea mkoba kwa ajili ya chini ngazi vitalu jengo
-4. Kwa mradi wa FROST, tumia frostd ya Zcash Foundation na fro-core kutoka crates.io, na utegemee AI kusaidia kwa uainishaji, ingawa kutumia FROST salama bado inachukua juhudi halisi na wakati
+- Wajenzi wa mara ya kwanza wanaoingia kwenye hackathon ya ZecHub au Zcash
+- Wasanidi programu [developers] kutoka mifumo mingine ya ikolojia ambao ni wapya kwa Zcash
+- Mtu yeyote anayetaka kugeuza mradi wa hackathon kuwa kitu cha kudumu
 
 <br/>
 
-## Kuelewa nini maana ya mainnet
+## Anza kwa sababu
 
-Nyimbo kadhaa zinahitaji programu yako kuingiliana na Zcash mainnet. Katika mazoezi hii inamaanisha mradi wako, au mtu anayetumia, pamoja na wakala wa AI, hutuma au kupokea pesa halisi kwenye mainnets, au huunda na kuboresha zana ambazo hufanya iwezekanavyo. Ikiwa programu yako inafanya shughuli, lazima uionyeshe kwenye mainna katika uwasilishaji wako.
-
-Jenga kwenye testnet wakati unakua. Shughuli ya mainnet inagharimu ZEC halisi na itazidi kuwa ghali kwa muda, hivyo majaribio ni mahali pa kupendekezwa kurudia tena. Badilisha kwenda kwa mainnett kwa uthibitisho wa mwisho. Kumbuka maelezo moja unapobuni mtiririko wako: pesa zinapowasili anwani iliyohifadhiwa, pochi yako inapaswa kuchanganua na kuzipata kabla hazijatumika, na uchanganuzi huo unachukua muda kidogo. Kujenga kusubiri hiyo fupi katika programu yako badala ya kudhani fedha zinazoingia ziko tayari kutumika mara moja.
+Kabla ya kufungua kihariri chako, jua tatizo unalotatua na kwa nini mtu yeyote angelijali. Kipimo kizuri ni rahisi: kama kitu unachojenga kisingekuwapo, je, mtu yeyote angekikosa? Jenga kitu ambacho ungetumia mwenyewe. Faragha [privacy] ndiyo sababu Zcash ipo, hivyo elewa kwa nini faragha ni muhimu kwa watu unaowajengea, kisha ruhusu hilo liunde mradi mzima.
 
 <br/>
 
-## Fanya mambo yawe rahisi.
+## Jifunze mfumo kwanza
 
-Waamuzi wameona dhana ya msingi kushinda mradi wa kiufundi kabambe katika tukio moja, kwa sababu kutatuliwa tatizo halisi na ilikuwa rahisi kuelewa. Kuchukua chini kuliko unafikiri unaweza kumaliza. Kupuuza maelezo, scoping kubwa mno, na kuruka utafiti ni makosa ambayo gharama wajenzi zawadi. Kufanya mradi wako rahisi kuelewa na rahisi kuendesha, kutoka wazo la msingi amri ya kwanza.
+Jambo linalowashangaza wajenzi kutoka minyororo [chains] mingine mara nyingi ni mwinuko wa kujifunza miundombinu ya Zcash, si uandishi wa msimbo. Jipe muda wa kuelewa jinsi vipande vinavyolingana kabla ya kubuni programu yako. Anza na mfumo msingi, unaoitwa mara nyingi Z kwa nguvu ya tatu: zebrad, seva nyepesi, na pochi [wallet]. Kisha zifahamu vifaa vya msanidi programu:
+
+1. Soma ukurasa wa wasanidi programu kwenye wiki katika [zechub.wiki/developers](https://zechub.wiki/developers); hapa ndiko kituo cha kwanza kinachopendekezwa
+2. Chunguza zingolib na zingo-cli, ambazo miito yake inashughulikia mengi ya mahitaji ya mradi katika nyanja mbalimbali
+3. Angalia librustzcash na pochi ya marejeleo ya ZODL kwa vipengele vya ujenzi vya kiwango cha chini
+4. Kwa mradi wa FROST, tumia Zcash Foundation ya frostd na frost-core kutoka crates.io, na tegemea AI kusaidia kwa ufafanuzi, ingawa kutumia FROST kwa usalama bado kunahitaji juhudi na muda halisi
 
 <br/>
 
-## Shinda sekunde 30 za kwanza.
+## Elewa maana ya mainnet
 
-Reviewers form a strong impression quickly, so presentation, topic, and visuals carry real weight, alongside how novel your solution is. Documentation and a clear demo are not afterthoughts. Communicating your idea is sometimes more important than the idea itself, because if no one understands what you built, it cannot succeed. Judging tends to balance technical depth, user experience, originality, and practical utility, and strong documentation lifts all of them.
+Nyanja kadhaa zinahitaji programu yako iingiliane na mainnet ya Zcash. Kwa vitendo, hii inamaanisha mradi wako, au mtu anayeutumia, akiwemo wakala wa AI, anatuma au kupokea fedha halisi kwenye mainnet, au unajenga na kuboresha vifaa vinavyowezesha hili. Ikiwa programu yako inafanya miamala [transactions], lazima uionyeshe kwenye mainnet katika wasilisho lako.
+
+Jenga kwenye testnet wakati wa uundaji. Shughuli za mainnet zinagharimu ZEC halisi na zitazidi kuwa ghali kadiri muda unavyopita, hivyo testnet ndiyo mahali panapopendekezwa pa kurudia majaribio. Hamia kwenye mainnet kwa thibitisho [proof] la mwisho. Kumbuka jambo moja unapobuni mtiririko wako: fedha zinapowasili kwenye anwani ya faragha [shielded address], pochi yako lazima ichunguze na kuzipata kabla hazijatumika, na uchunguzi huo huchukua muda mfupi. Jumuisha kusubiri huku kwa muda mfupi katika programu yako badala ya kudhani kuwa fedha zinazoingia ziko tayari kutumika mara moja.
 
 <br/>
 
-## Angalia mistari migumu na nyembamba zaidi.
+## Weka mambo rahisi
 
-If you want less crowded competition, the harder tracks often have fewer entries simply because fewer people attempt them. The Accounting track is a good option for beginners who want to avoid on-chain transaction work. FROST is powerful and underused, and it makes a strong foundation for a project. The community does not prescribe what to build, so building on a capable tool the ecosystem already has, rather than starting from zero, is a smart move.
+Wazo rahisi, lililotekelezwa vizuri, limeshinda wazo tata mara nyingi. Waamuzi wameona dhana ya msingi ikishinda mradi wenye matarajio makubwa zaidi ya kiufundi katika tukio lilelile, kwa sababu ilitatua tatizo halisi na ilikuwa rahisi kuelewa. Chukua kazi ndogo kuliko unavyodhani unaweza kumaliza. Kupuuza maelezo, kupanga wigo mkubwa sana, na kuruka utafiti ni makosa yanayowagharimu wajenzi tuzo. Fanya mradi wako uwe rahisi kuelewa na rahisi kuendesha, kuanzia dhana msingi hadi amri ya kwanza.
+
+<br/>
+
+## Shinda sekunde 30 za kwanza
+
+Wakaguzi huunda mtazamo thabiti haraka, hivyo uwasilishaji, mada, na vielelezo vina uzito wa kweli, pamoja na kiwango cha upya wa suluhisho lako. Hati na onyesho lililo wazi si mawazo ya baadaye. Kuwasilisha wazo lako wakati mwingine ni muhimu zaidi kuliko wazo lenyewe, kwa sababu ikiwa hakuna anayeelewa ulichotengeneza, haliwezi kufanikiwa. Uamuzi huwa unasawazisha kina cha kiufundi, uzoefu wa mtumiaji, uhalisia, na manufaa ya vitendo, na hati bora huinua yote hayo.
+
+<br/>
+
+## Angalia nyanja ngumu zaidi na zenye washiriki wachache
+
+Ikiwa unataka ushindani usiojaa sana, nyanja ngumu zaidi mara nyingi huwa na maingizo machache kwa sababu watu wachache huzijaribu. Nyanja ya Uhasibu ni chaguo zuri kwa wanaoanza wanaotaka kuepuka kazi ya miamala ya on-chain. FROST ina uwezo mkubwa na haitumiki vya kutosha, na hutoa msingi imara wa mradi. Jumuiya haiagizi nini cha kujenga, hivyo kujenga juu ya kifaa chenye uwezo ambacho mfumo wa ikolojia tayari unacho, badala ya kuanza kutoka sifuri, ni hatua ya busara.
 
 <br/>
 
 ## Baada ya hackathon
 
-Kushinda sio mwisho wa barabara. kushinda hujenga kwingineko yako na sifa, kufungua milango katika jamii, na inaweza kusababisha ufadhili kupitia mapendekezo.
+Kushinda si mwisho wa safari. Kushinda hujenga jalada lako la kazi na sifa yako, hufungua milango katika jumuiya, na kunaweza kuongoza kwenye ufadhili kupitia mapendekezo.
 
-1. Kuchukua mradi nguvu zaidi kama pendekezo kwa ZecHub DAO au Zcash Community Grants, na ramani ya barabara, hatua muhimu, na sababu za bajeti.
-2. Kukaa hai katika jamii kwenye jukwaa, Discord na X
-3. Kujiunga Arborist R na D mikutano, post mawazo, na kuuliza kwa maoni
-4. Endelea kujenga hata kama huwezi kushinda, na kuangalia kwa hackathon ijayo
-
-<br/>
-
-## Kurasa zinazohusiana na makala hii
-
-- [Vifaa vya Watengenezaji wa Programu](https://zechub.wiki/developers) - kituo cha kwanza kwa ajili ya wajenzi Zcash
-- [Zebra Full Node (Njia ya Kuunganisha)](https://zechub.wiki/zcash-tech/zebra-full-node) - node katika msingi wa stack ya
-- [FROST](https://zechub.wiki/zcash-tech/frost) - saini ya kizingiti kwa miradi iliyoendelea
+1. Endeleza mradi imara kuwa pendekezo kwa DAO ya ZecHub au Zcash Community Grants, likiwa na ramani ya utekelezaji, hatua muhimu, na maelezo ya sababu za bajeti
+2. Endelea kushiriki katika jumuiya kwenye jukwaa, Discord, na X
+3. Jiunge na mikutano ya Arborist R and D, chapisha mawazo, na uombe maoni
+4. Endelea kujenga hata usiposhinda, na ufuatilie hackathon inayofuata
 
 <br/>
 
-<small>This guide was shaped by insights from ZecHub core contributors squirrel, Dismad, and Tron.</small>
+## Kurasa zinazohusiana
+
+- [Rasilimali za Wasanidi Programu](https://zechub.wiki/developers) - kituo cha kwanza kwa wajenzi wa Zcash
+- [Zebra Full Node](https://zechub.wiki/zcash-tech/zebra-full-node) - node iliyo kwenye msingi wa mfumo
+- [FROST](https://zechub.wiki/zcash-tech/frost) - sahihi za kizingiti kwa miradi ya hali ya juu
+
+<br/>
+
+<small>Mwongozo huu uliundwa kwa maarifa kutoka kwa wachangiaji wakuu wa ZecHub: squirrel, Dismad, na Tron.</small>

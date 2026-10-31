@@ -1,119 +1,119 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Zcash_Tech/NU6.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Hariri Ukurasa"/>
 </a>
 
 # NU6
 
-> NU6 ilianza kutumika kwenye mtandao wa Zcash katika block 2,726,400 (Novemba 23, 2024 UTC).
+> NU6 ilianza kutumika kwenye mainnet ya Zcash katika block 2,726,400 (Novemba 23, 2024 UTC).
 
-Nini utachukua mbali: jinsi Zcash anaendelea fedha maendeleo yake mwenyewe baada ya kupunguza kwa nusu, ni kwa nini kuweka kando hifadhi bado hakujua kutumia, na jinsi alifanya jumla za usambazaji wa ZEC hasa zinazotarajiwa.
+Utakachojifunza: Jinsi Zcash inavyoendelea kufadhili maendeleo yake yenyewe baada ya kupunguzwa kwa nusu [halving], kwa nini iliweka akiba ambayo haikujua bado jinsi ya kuitumia, na jinsi ilivyofanya jumla ya ugavi wa ZEC uweze kutabirika kwa usahihi kabisa.
 
-NU6 ni Zcash [kuboresha mtandao](../start-here/network-upgrades), kupelekwa na [ZIP 253 (Kifungo cha posta)](https://zips.z.cash/zip-0253), ambayo ilianzishwa kwenye mtandao mkuu mnamo Novemba 2024 katika block 2,726,400. Ni fedha na [maendeleo-kufadhiliwa](../start-here/development-fund) upgrade: it kept a share of the block subsidy going to development past the November 2024 halving, set up an in-protocol reserve for future community-decided use, and tightened how new ZEC is counted. NU6 was endorsed by both the Electric Coin Company and the Zcash Foundation.
+NU6 ni Zcash [uboreshaji wa mtandao](../start-here/network-upgrades), uliotekelezwa na [ZIP 253](https://zips.z.cash/zip-0253), ambao ulianzishwa kwenye mainnet mnamo Novemba 2024 katika block 2,726,400. Ni uboreshaji wa kifedha na wa [ufadhili wa maendeleo](../start-here/development-fund): uliendeleza sehemu ya ruzuku ya block kuelekezwa kwenye maendeleo baada ya kupunguzwa kwa nusu kwa Novemba 2024, ukaanzisha akiba ya ndani ya itifaki kwa matumizi ya baadaye yatakayoamuliwa na jumuiya, na ukaimarisha namna ZEC mpya inavyohesabiwa. NU6 uliidhinishwa na Electric Coin Company na Zcash Foundation.
 
-Kwa nini hii ni muhimu. Zcash ya [Mfuko wa Maendeleo](../zcash-tech/canopy) Ilikuwa imepangwa kumalizika karibu na Novemba 2024 nusu, ya pili katika historia yake. NU6 iliendelea kuwa fedha kwenda, lakini badala ya kutoa kila sarafu kwa wapokeaji fasta, ni akiba sehemu ndani ya itifaki hivyo jamii inaweza kuamua baadaye nini cha kufanya nayo. Pia kufungwa kimya uhasibu pengo, hivyo jumla kiasi cha ZEC kwamba milele kuwepo sasa unaweza kutabiriwa hasa.
+Kwa nini hili ni muhimu. Mfuko wa Zcash wa [Maendeleo](../zcash-tech/canopy) ulipangwa kukoma karibu na kupunguzwa kwa nusu kwa Novemba 2024, kupunguzwa kwa pili katika historia yake. NU6 uliendeleza ufadhili huo, lakini badala ya kukabidhi kila sarafu kwa wapokeaji waliowekwa, ulihifadhi sehemu ndani ya itifaki ili jumuiya iamue baadaye itakachofanya nayo. Pia ulifunga pengo la kimya la uhasibu, hivyo kiasi cha jumla cha ZEC kitakachowahi kuwepo sasa kinaweza kutabirika kwa usahihi kabisa.
 
-## Nini NU6 iliyopita
+## Mabadiliko ambayo NU6 ilifanya
 
-NU6 iliendelea kutuma 20% ya ruzuku kwa ufadhili wa maendeleo baada ya Novemba 2024 kupunguza nusu, sheria iliyofafanuliwa katika [ZIP 1015](https://zips.z.cash/zip-1015). Ni kugawanywa kwamba 20% njia mbili.
+NU6 uliendelea kutuma 20% ya ruzuku ya block kwenye ufadhili wa maendeleo baada ya kupunguzwa kwa nusu kwa Novemba 2024, kanuni iliyofafanuliwa katika [ZIP 1015](https://zips.z.cash/zip-1015). Uligawa hiyo 20% kwa njia mbili.
 
-1. 8% ya ruzuku kwa jumla huenda Zcash Community Grants (ZCG), ambayo fedha kazi na kwa ajili ya jamii.
-2. 12% huenda katika lockbox mpya ya ndani-mchakato, uliofanyika kwa matumizi ya baadaye yaliyoamuliwa na jamii.
+1. 8% ya ruzuku ya block huenda kwa Zcash Community Grants (ZCG), inayofadhili kazi inayofanywa na kwa ajili ya jumuiya.
+2. 12% huenda katika sanduku jipya la kufuli la ndani ya itifaki, lililohifadhiwa kwa matumizi ya baadaye yatakayoamuliwa na jumuiya.
 
-Sehemu iliyobaki ya ruzuku, pamoja na ada za shughuli, huenda kwa wachimbaji ambao huhifadhi mtandao. NU6 pia ilibadilisha kanuni zilizopo za mkondo wa ufadhili na mfuko wa fedha (ZIP 207 na ZIP 214) kutoshea muundo huu mpya.
+Sehemu iliyobaki ya ruzuku ya block, pamoja na ada za miamala, huenda kwa wachimbaji wanaolinda mtandao. NU6 pia ulisasisha kanuni zilizopo za mtiririko wa ufadhili na mfuko wa maendeleo (ZIP 207 na ZIP 214) ili ziendane na muundo huu mpya.
 
 ![NU6 development-fund split: 20 percent of the block subsidy goes to development, with 8 percent to Zcash Community Grants and 12 percent into the Deferred Dev Fund Lockbox](/content-images/nu6-dev-fund-split-08bc73e317.webp)
 
-## lockbox kuahirishwa
+## Sanduku la kufuli lililoahirishwa
 
-Sehemu ya 12% ni wazo jipya katika NU6. Badala ya kulipwa kwa anwani mpokeaji, thamani hiyo imewekwa moja kwa moja kwenye hifadhi ndani ya itifaki inayoitwa Deferred Dev Fund Lockbox, iliyofafanuliwa katika [ZIP 2001 - Utoaji wa Habari za Biblia](https://zips.z.cash/zip-2001).
+Sehemu ya 12% ndiyo wazo jipya katika NU6. Badala ya kulipwa kwa anwani ya mpokeaji, thamani hiyo huwekwa moja kwa moja katika bwawa la ndani ya itifaki linaloitwa Deferred Dev Fund Lockbox, lililofafanuliwa katika [ZIP 2001](https://zips.z.cash/zip-2001).
 
-1. lockbox ni aina mpya ya fedha-mtiririko (DEFERRED_POOL), ambapo kuzuia tuzo thamani huenda katika itifaki yenyewe, si kwa mtu au shirika.
-2. Mtandao hufuatilia kama yake mwenyewe thamani ya mnyororo pool mizani, njia sawa ni kufuatilia salio la mifereji shielded.
-3. NU6 aliunda lockbox kwa makusudi lakini akaacha swali gumu wazi: nani anayedhibiti fedha hizo, na zinatolewaje?
+1. Sanduku la kufuli ni aina mpya ya mtiririko wa ufadhili (DEFERRED_POOL), ambapo thamani ya zawadi ya block huenda ndani ya itifaki yenyewe, si kwa mtu au shirika.
+2. Mtandao hulifuatilia kama salio lake lenyewe la bwawa la thamani la mnyororo, kwa namna ileile unavyofuatilia salio za mabwawa ya faragha [shielded pools].
+3. NU6 iliunda sanduku la kufuli kwa makusudi lakini ikaacha swali gumu wazi: Ni nani anayedhibiti fedha hizo, na zinaachiliwaje?
 
-Swali hilo lilijibiwa baadaye na: [NU6.1](../zcash-tech/nu6-1), ambayo kuweka utawala: iliendelea 8% block-msaada mkondo kwa Zcash Community Grants na kuelekezwa 12% ya mtiririko katika mfuko sarafu mmiliki kudhibitiwa alipanda lockbox.
+Swali hilo lilijibiwa baadaye na [NU6.1](../zcash-tech/nu6-1), ambayo iliweka utawala: iliendeleza mtiririko wa 8% wa ruzuku ya block kwa Zcash Community Grants na kuelekeza mtiririko wa 12% kwenye mfuko unaodhibitiwa na wamiliki wa sarafu uliopandikizwa na sanduku la kufuli.
 
-## Kusawazisha vitabu vya hesabu
+## Kusawazisha hesabu
 
-NU6 pia kufungwa upungufu uhasibu katika jinsi ZEC mpya ni kuundwa, kama ilivyoelezwa katika Sura ya 6, ambayo inaonyesha kwamba kuna uwezekano wa kuwa na uwekezaji mkubwa. [ZIP 236 - Ujumbe wa posta:](https://zips.z.cash/zip-0236). Coinbase shughuli ni ya kipekee ambayo kulipa nje kila block mpya ZEC na ada.
+NU6 pia ulifunga pengo la uhasibu katika namna ZEC mpya inavyoundwa, lililofafanuliwa katika [ZIP 236](https://zips.z.cash/zip-0236). Miamala ya Coinbase ni miamala maalumu inayolipa ZEC mpya ya kila block na ada.
 
-1. Kabla ya NU6, shughuli za sarafu tu hazikupaswa kudai zaidi kuliko ilivyostahili. mchimbaji angeweza kuomba chini ya ruzuku kamili, ambayo kwa utulivu iliteketeza ZEC hiyo.
-2. Baada ya NU6, shughuli coinbase lazima usawa hasa: jumla pato thamani lazima sawa na mchimbaji ruzuku pamoja ada, si zaidi wala chini.
-3. Kwa sababu wachimbaji hawawezi tena kudai chini na kwa bahati mbaya kuchoma ZEC, jumla ya kiasi cha ZEC ambacho kitakuwepo sasa kinaweza kutabirika haswa.
+1. Kabla ya NU6, muamala wa coinbase ulihitajika tu usidai zaidi ya uliostahili. Mchimbaji angeweza kudai chini ya ruzuku kamili, jambo ambalo kwa kimya lingechoma ZEC hiyo.
+2. Baada ya NU6, muamala wa coinbase lazima usawazike kikamilifu: Thamani ya jumla ya matokeo lazima ilingane na ruzuku ya mchimbaji pamoja na ada, isizidi wala isipungue.
+3. Kwa sababu wachimbaji hawawezi tena kudai chini ya stahiki zao na kuchoma ZEC kwa bahati mbaya, kiasi cha jumla cha ZEC kitakachowahi kuwepo sasa kinaweza kutabirika kwa usahihi kabisa.
 
 ![Coinbase balancing before and after NU6: before, coinbase could under-claim and burn ZEC so supply was not exactly predictable. After, coinbase must balance exactly so issuance is exactly predictable](/content-images/nu6-coinbase-balance-0fa2394799.webp)
 
-## Jinsi fedha zilivyobadilika
+## Jinsi ufadhili ulivyobadilika
 
-NU6 ni sura moja katika hadithi ndefu kuhusu jinsi Zcash inavyolipia yenyewe.
+NU6 ni sura moja katika historia ndefu ya jinsi Zcash inavyojilipia.
 
-1. Canopy (2020) ilimaliza tuzo ya mwanzilishi wa awali na kuunda shirika la ujenzi. [mfuko wa maendeleo](../start-here/development-fund).
-2. NU6 (Novemba 2024) ilibadilisha uwekezaji huo baada ya nusu ya pili na kuanzisha Mfuko wa Deferred Dev Lockbox, ikihifadhi sehemu ya uchapishaji kwa misaada inayoamuliwa baadaye.
-3. NU6.1 (2025) answered the question NU6 left open, who controls the reserved funds, by continuing 8% of the block subsidy to Zcash Community Grants and directing 12% into a coin-holder-controlled fund seeded by the lockbox.
+1. Canopy (2020) ilimaliza zawadi ya waanzilishi ya awali na kuunda [mfuko wa maendeleo](../start-here/development-fund).
+2. NU6 (Novemba 2024) ilirekebisha muundo wa ufadhili huo baada ya kupunguzwa kwa nusu kwa pili na kuanzisha Deferred Dev Fund Lockbox, ikihifadhi sehemu ya utoaji kwa ruzuku za baadaye zitakazoamuliwa na jumuiya.
+3. NU6.1 (2025) ilijibu swali ambalo NU6 iliacha wazi, ni nani anayedhibiti fedha zilizohifadhiwa, kwa kuendeleza 8% ya ruzuku ya block kwa Zcash Community Grants na kuelekeza 12% kwenye mfuko unaodhibitiwa na wamiliki wa sarafu uliopandikizwa na sanduku la kufuli.
 
 ![How Zcash funding evolved: Canopy created the development fund, NU6 set up the lockbox, and NU6.1 set the rules for who controls it](/content-images/nu6-funding-timeline-2427db58c0.webp)
 
-## Orodha ya maneno
+## Fahirisi ya istilahi
 
-| Muhula | Maana ya Kiingereza cha kawaida |
+| Istilahi | Maana kwa lugha rahisi |
 |---|---|
-| Block subsidy | ZEC mpya iliyoundwa na kila kitalu kinachochimbwa |
-| Coinbase transaction | Muamala maalum unaolipa ruzuku na ada za block |
-| Deferred Dev Fund Lockbox | Akiba ya ndani ya itifaki ambayo inashikilia sehemu ya kutolewa kwa matumizi ya baadaye yaliyoamuliwa na jamii |
-| Zcash Community Grants (ZCG) | Kamati inayofadhili kazi na na kwa ajili ya jumuiya Zcash |
-| Consensus branch id | Nodi za kitambulisho hutumia kubaini ni sheria gani za uboreshaji ambazo kizuizi hufuata |
-| Network upgrade (NU) | Mabadiliko yaliyoratibiwa kwa sheria za makubaliano Zcash's, yaliyoamilishwa kwa urefu wa block uliowekwa |
+| Block subsidy | ZEC mpya inayoundwa kwa kila block inayochimbwa |
+| Coinbase transaction | Muamala maalumu unaolipa ruzuku na ada za block |
+| Deferred Dev Fund Lockbox | Akiba ya ndani ya itifaki inayoshikilia sehemu ya utoaji kwa matumizi ya baadaye yatakayoamuliwa na jumuiya |
+| Zcash Community Grants (ZCG) | Kamati inayofadhili kazi inayofanywa na kwa ajili ya jumuiya ya Zcash |
+| Consensus branch id | Kitambulisho ambacho node hutumia kubaini block inafuata kanuni za uboreshaji upi |
+| Network upgrade (NU) | Mabadiliko yaliyoratibiwa kwa kanuni za makubaliano za Zcash, yanayoanzishwa katika urefu mahususi wa block |
 
-## FAQs
+## Maswali yanayoulizwa mara kwa mara
 
-Je, NU6 kubadilisha ZEC yangu au faragha? No. NU6 ni kuhusu jinsi ya maendeleo inafanikiwa na jinsi utoaji inahesabiwa, si juu ya shughuli yako au faradhi. fedha zako na mikataba ulinzi haathiriwi.
+Je, NU6 inabadilisha ZEC yangu au faragha yangu? Hapana. NU6 inahusu jinsi maendeleo yanavyofadhiliwa na jinsi utoaji unavyohesabiwa, si miamala yako au faragha yako. Fedha zako na miamala ya faragha [shielded transactions] haiathiriki.
 
-Fedha zinatoka wapi? Kutokana na ruzuku ya block, ZEC mpya hutolewa wakati blocks zinachimbwa. Sehemu 20% inaelekezwa kwa maendeleo badala ya yote kwenda kwa wachimbaji wa madini.
+Ufadhili unatoka wapi? Unatoka kwenye ruzuku ya block, ZEC mpya inayotolewa kadiri block zinavyochimbwa. Sehemu ya 20% huelekezwa kwenye maendeleo badala ya yote kwenda kwa wachimbaji.
 
-What is the lockbox for? It reserves a share of issuance inside the protocol so the community can decide later how to use it. NU6 set the reserve aside, and NU6.1 set the rules for who controls it.
+Sanduku la kufuli ni la nini? Linahifadhi sehemu ya utoaji ndani ya itifaki ili jumuiya iamue baadaye jinsi ya kuitumia. NU6 iliweka akiba kando, na NU6.1 iliweka kanuni za nani anayeidhibiti.
 
-Je, usawa sahihi sheria mabadiliko sarafu yangu? Hapana. Ni tu inahitaji kila block ya shughuli coinbase kulipa nje hasa kile ni deni. Huathiri mpya utoaji uhasibu, si salio zilizopo.
+Je, kanuni ya salio kamili inabadilisha sarafu zangu? Hapana. Inahitaji tu muamala wa coinbase wa kila block ulipwe kwa usahihi kile unachostahili. Inaathiri uhasibu wa utoaji mpya, si salio zilizopo.
 
-What technically defines NU6? NU6 is deployed by ZIP 253, which sets its mainnet activation at block 2,726,400 and its consensus branch id. The consensus changes themselves come from ZIP 236, ZIP 1015, and ZIP 2001, with ZIP 207 and ZIP 214 updated to fit.
+Ni nini kinachofafanua NU6 kiufundi? NU6 unatekelezwa na ZIP 253, ambayo huweka uanzishaji wake kwenye mainnet katika block 2,726,400 na kitambulisho chake cha tawi la makubaliano. Mabadiliko ya makubaliano yenyewe yanatokana na ZIP 236, ZIP 1015, na ZIP 2001, huku ZIP 207 na ZIP 214 yakisasishwa ili yaendane.
 
-NU6 ulipangwa upya fedha na kuunda lockbox. NU6.1 aliamua nani udhibiti wa mfuko wa kifungo cha pesa na jinsi sehemu iliyohifadhiwa imegawanywa.
+Je, NU6 inatofautianaje na NU6.1? NU6 ilirekebisha muundo wa ufadhili na kuunda sanduku la kufuli. NU6.1 iliamua ni nani anayedhibiti fedha za sanduku la kufuli na jinsi sehemu iliyohifadhiwa inavyogawanywa.
 
-## Jaribu uelewevu wako
+## Jaribu uelewa wako
 
-NU6 ilianzisha Mfuko wa Maendeleo ya Muda Uliopangwa lakini haikusema ni nani anayeudhibiti. Kwa nini uboreshaji utaunda akiba na kuacha utawala wake kwa makusudi baadaye?
+NU6 ilianzisha Deferred Dev Fund Lockbox lakini haikusema ni nani anayeidhibiti. Kwa nini uboreshaji uunde akiba na kuacha kwa makusudi utawala wake uamuliwe baadaye?
 
 <details>
-<summary>Answer</summary>
+<summary>Jibu</summary>
 
-Creating the reserve locked in that a share of issuance would be set aside inside the protocol instead of paid to fixed recipients. Deciding who controls those funds and how they are released is a harder governance question. NU6 deliberately left that open, and NU6.1 answered it: 8% of the block subsidy continues to Zcash Community Grants, and 12% goes to a coin-holder-controlled fund seeded by the lockbox.
+Kuunda akiba kulihakikisha kwamba sehemu ya utoaji ingewekwa kando ndani ya itifaki badala ya kulipwa kwa wapokeaji waliowekwa. Kuamua ni nani anayedhibiti fedha hizo na jinsi zinavyoachiliwa ni swali gumu zaidi la utawala. NU6 iliacha jambo hilo wazi kwa makusudi, na NU6.1 ililijibu: 8% ya ruzuku ya block inaendelea kwa Zcash Community Grants, na 12% huenda kwenye mfuko unaodhibitiwa na wamiliki wa sarafu uliopandikizwa na sanduku la kufuli.
 </details>
 
 ### Rasilimali
 
-[ZIP 253: Utekelezaji wa NU6 Network Upgrade](https://zips.z.cash/zip-0253)
+[ZIP 253: Utekelezaji wa Uboreshaji wa Mtandao wa NU6](https://zips.z.cash/zip-0253)
 
-[ZIP 236: Vitalu lazima usawa kabisa](https://zips.z.cash/zip-0236)
+[ZIP 236: Block zinapaswa kusawazika kikamilifu](https://zips.z.cash/zip-0236)
 
-[ZIP 1015: Block ruzuku ya ugawaji kwa ajili isiyo moja kwa moja maendeleo fedha](https://zips.z.cash/zip-1015)
+[ZIP 1015: Ugawaji wa Ruzuku ya Block kwa Ufadhili wa Maendeleo Usio wa Moja kwa Moja](https://zips.z.cash/zip-1015)
 
-[ZIP 2001: Lockbox Fedha Streams](https://zips.z.cash/zip-2001)
+[ZIP 2001: Mitiririko ya Ufadhili ya Sanduku la Kufuli](https://zips.z.cash/zip-2001)
 
-[Upgrading Mtandao 6 (NU6)](https://z.cash/upgrade/nu6/)
+[Uboreshaji wa Mtandao 6 (NU6)](https://z.cash/upgrade/nu6/)
 
-### Angalia pia:
+### Tazama pia
 
-[Zcash Network Upgrades (Ubadilishaji wa Mtandao)](../start-here/network-upgrades)
+[Maboresho ya Mtandao wa Zcash](../start-here/network-upgrades)
 
 [Mfuko wa Maendeleo](../start-here/development-fund)
 
-[Zcash Sera ya Fedha](../start-here/zcash-monetary-policy)
+[Sera ya Fedha ya Zcash](../start-here/zcash-monetary-policy)
 
 [NU6.1](../zcash-tech/nu6-1)
 
 [NU6.2](../zcash-tech/nu6-2)
 
-[ZEC na Zcash ni nini?](../start-here/what-is-zec-and-zcash)
+[Je, ZEC ni nini na Zcash](../start-here/what-is-zec-and-zcash)
 
 ---
 
-Mfululizo: [Kiwango cha Upgrades Network](../start-here/network-upgrades) · Zamani: [NU5](../zcash-tech/nu5) · Kisha: [NU6.1](../zcash-tech/nu6-1)
+Mfululizo: [Faharasa ya Maboresho ya Mtandao](../start-here/network-upgrades) · Iliyotangulia: [NU5](../zcash-tech/nu5) · Inayofuata: [NU6.1](../zcash-tech/nu6-1)

@@ -1,92 +1,92 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Zcash_Tech/Sprout.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Hariri Ukurasa"/>
 </a>
 
 # Sprout
 
-> Zcash ilizinduliwa mnamo Oktoba 28, 2016, ikiwa na bwawa la kuogelea lenye ulinzi la Sprout.
+> Zcash ilizinduliwa tarehe 28 Oktoba 2016, pamoja na bwawa la faragha [shielded pool] la Sprout.
 
-> **Onyo:** NU7 yaifanya ZEC bado ipo kwenye bwawa Sprout isiweze kutumika mara tu itakapoanza kutumika (mainnet inalenga tarehe 5 Novemba 2026, uamuzi wa mwisho tarehe 20 Oktoba 2026; tazama [ZIP 259](https://zips.z.cash/zip-0259)). Kama una fedha za Sprout, soma [Kurejesha fedha](../using-zcash/recovering-funds) na kuwahamisha kwanza.
+> **Onyo:** NU7 hufanya ZEC ambazo bado ziko katika bwawa la Sprout zisiweze kutumika mara tu itakapowashwa (urefu wa uanzishaji wa mainnet 3,543,405, unaolengwa kwa tarehe 5 Novemba 2026; tazama [ZIP 259](https://zips.z.cash/zip-0259)). Ikiwa una fedha za Sprout, soma [Kurejesha fedha](../using-zcash/recovering-funds) na uzihamishe kwanza.
 
-Utakachochukua: Sprout ndipo Zcash ilipoanzia, pesa za kibinafsi na zinazoweza kuthibitishwa zilipoanza kutumika kwenye blockchain ya moja kwa moja.
+Utajifunza kwamba: Sprout ndipo Zcash ilipoanza, mara ya kwanza pesa za faragha, zinazoweza kuthibitishwa ziliendeshwa kwenye blockchain hai.
 
-Sprout ni uzinduzi wa awali wa mtandao Zcash, si wa baadaye [uboreshaji wa mtandao](../start-here/network-upgrades)Ilianza kutumika katika eneo la mwanzo mnamo Oktoba 28, 2016. Hakuna nambari ya ZIP inayofafanua Sprout: mchakato wa ZIP ulianza baadaye na Overwinter, kwa hivyo Sprout inaelezewa na Vipimo vya Itifaki ya Zcash ya awali na muundo wa Zerocash ambao ilijengwa juu yake [Electric Coin Company](../zcash-organizations/electric-coin-company) (wakati huo Electric Coin Company), ikiongozwa na Zooko Wilcox, iliijenga na kuisafirisha. Sprout ilianzisha miamala ya kwanza ya vitendo zk-SNARK iliyolindwa na bwawa la awali lililolindwa, ili watu waweze kutuma ZEC na mtumaji, mpokeaji, na kiasi kilichofichwa huku mtandao ukiendelea kuangalia kama salio limeongezeka. Jina hilo liliashiria mnyororo mchanga, unaochipuka ambao timu ilitarajia kukua.
+Sprout ni uzinduzi wa awali wa mtandao wa Zcash, wala si [uboreshaji wa mtandao](../start-here/network-upgrades) wa baadaye. Ilianza kutumika kwenye block ya mwanzo [genesis block] tarehe 28 Oktoba 2016. Hakuna ZIP yenye nambari inayofafanua Sprout: mchakato wa ZIP ulianza baadaye na Overwinter, hivyo Sprout inaelezewa na Uainishaji wa Itifaki [Protocol Specification] wa awali wa Zcash na muundo wa Zerocash ambao ilijengwa juu yake. [Electric Coin Company](../zcash-organizations/electric-coin-company) (wakati huo Electric Coin Company ya Zerocoin), ikiongozwa na Zooko Wilcox, iliijenga na kuizindua. Sprout ilianzisha miamala ya kwanza ya faragha [shielded transactions] ya zk-SNARK iliyotekelezeka kwa vitendo na bwawa la awali la faragha, hivyo watu wangeweza kutuma ZEC huku mtumaji, mpokeaji, na kiasi vikiwa vimefichwa, wakati mtandao bado ulikagua kuwa salio lilijumlisha ipasavyo. Jina hilo liliashiria mnyororo mchanga unaochipua ambao timu ilitarajia ungeendelea kukua.
 
-Kwa nini hii ni muhimu? Kila blockchain ya umma kabla ya Sprout iliweka malipo yako wazi: mtu yeyote angeweza kuona ni nani aliyelipa nani na kiasi gani. Sprout ilikuwa mtandao wa kwanza wa moja kwa moja, usio na ruhusa kuficha maelezo hayo na bado ikathibitisha kuwa hakuna mtu aliyekuwa akidanganya. Hilo ni muhimu kwa faragha ya kawaida ya kifedha, aina unayotarajia kutoka kwa pesa taslimu au taarifa ya benki ambayo hakuna mtu mwingine anayeweza kusoma. Pia ilithibitisha kuwa faragha imara ya mnyororo inaweza kufanya kazi kwa vitendo, zaidi ya muundo wa karatasi. Sherehe ya usanidi wa kuaminika ambayo iliwezesha ikawa sehemu ya marejeleo ya kazi ya baadaye ya usimbaji fiche, na mfumo wa polepole na mzito wa kuthibitisha Sprout uliosafirishwa nao ndio hasa uliosukuma timu kujenga Sapling miaka miwili baadaye.
+Kwa nini hili ni muhimu. Kila blockchain ya umma kabla ya Sprout iliweka malipo yako wazi: mtu yeyote angeweza kuona nani alilipa nani na kiasi gani. Sprout ulikuwa mtandao hai wa kwanza usiohitaji ruhusa [permissionless] kuficha maelezo hayo na bado kuthibitisha kwamba hakuna mtu aliyedanganya. Hili ni muhimu kwa faragha ya kawaida ya kifedha, aina ya faragha unayotarajia kutoka kwa pesa taslimu au taarifa ya benki ambayo hakuna mwingine anaweza kusoma. Pia ilithibitisha kwamba faragha thabiti ya on-chain inaweza kufanya kazi kwa vitendo, zaidi ya muundo wa karatasi. Sherehe ya usanidi unaoaminika [trusted setup] iliyowezesha hili ikawa rejeleo kwa kazi za baadaye za kriptografia, na mfumo wa uthibitishaji uliokuwa wa polepole na uliotumia kumbukumbu nyingi ambao Sprout ilizindua nao ndiyo uliosukuma timu kuunda Sapling miaka miwili baadaye.
 
-## Bwawa la kwanza lenye ngao
+## Bwawa la kwanza la faragha
 
-Sprout iliunda aina mbili za anwani. Anwani zenye uwazi (anwani za t) hufanya kazi kama Bitcoin, huku maelezo yakionekana kwenye leja ya umma. Anwani zilizolindwa (anwani za z) hutuma pesa kwenye Sprout [bwawa la kuogelea lenye ngao](../using-zcash/shielded-pools), ambapo mtumaji, mpokeaji, na kiasi hubaki kimefichwa. Ujanja ni [zk-SNARKs](../zcash-tech/zk-snarks), ushahidi usio na ujuzi unaoonyesha kuwa muamala ni halali, bila matumizi maradufu na salio linaloongezeka, bila kufichua maelezo yoyote. Sprout ilikuwa mara ya kwanza hii kuanza katika uzalishaji kwenye sarafu ya kidijitali moja kwa moja.
+Sprout iliunda aina mbili za anwani. Anwani za uwazi [transparent addresses] (t-addresses) hufanya kazi kama Bitcoin, huku maelezo yakionekana kwenye daftari la umma. Anwani za faragha [shielded addresses] hutuma fedha kwenye Sprout [bwawa la faragha](../using-zcash/shielded-pools), ambako mtumaji, mpokeaji na kiasi hubaki vimefichwa. Mbinu ni [zk-SNARKs](../zcash-tech/zk-snarks), mathibitisho ya maarifa sifuri [zero-knowledge proofs] yanayoruhusu muamala kuonyesha kuwa ni halali, bila matumizi mara mbili na salio linalojumlishwa ipasavyo, bila kufichua maelezo yoyote. Sprout ilikuwa mara ya kwanza hili kuendeshwa katika uzalishaji kwenye sarafu-fiche hai.
 
 ![Transparent transactions expose sender, receiver, and amount, while Sprout shielded transactions hide all three yet stay verifiable](/content-images/sprout-shielded-vs-transparent-61d3b1980c.webp)
 
 ## Sherehe
 
-zk-SNARKs huko Sprout zilihitaji seti ya vigezo vya umma, na kuzizalisha kwa usalama kulihitaji mpangilio wa mara moja unaoitwa Sherehe. Washiriki sita katika maeneo tofauti, ya mbali kila mmoja alizalisha kipande cha siri, kinachoitwa taka zenye sumu. Ikiwa mtu yeyote angekusanya vipande vyote tena, angeweza kughushi ZEC kutoka kwa kitu chochote. Ubunifu huo uligeuza hatari hiyo kuwa sheria rahisi: mradi tu angalau mshiriki mmoja angeharibu kipande chake, siri kamili haikuweza kujengwa upya, kwa hivyo ughushi ulibaki kuwa hauwezekani. Washiriki ambao wametajwa hadharani ni pamoja na Zooko Wilcox, Andrew Miller, Peter Van Valkenburgh, Peter Todd, na Derek Hinch wa NCC Group. Mshiriki mmoja alichagua kutokujulikana.
+zk-SNARKs katika Sprout ilihitaji seti ya vigezo vya umma, na kuvizalisha kwa usalama kulihitaji usanidi wa mara moja ulioitwa Sherehe. Washiriki sita waliokuwa katika maeneo tofauti na ya mbali kila mmoja alizalisha kipande cha siri, kilichoitwa taka sumu. Ikiwa mtu yeyote angewahi kukusanya tena vipande vyote, angeweza kughushi ZEC kutoka pasipo chochote. Muundo huo uligeuza hatari hiyo kuwa kanuni rahisi: mradi angalau mshiriki mmoja aliharibu kipande chake, siri kamili isingeweza kujengwa tena, hivyo kughushi kungebaki kusiwezekane. Washiriki waliotajwa hadharani ni pamoja na Zooko Wilcox, Andrew Miller, Peter Van Valkenburgh, Peter Todd, na Derek Hinch wa NCC Group. Mshiriki mmoja alichagua kubaki asiyejulikana.
 
 ![The Ceremony: six participants generate private shards, then destroy the toxic waste, leaving only the public Sprout parameters](/content-images/sprout-ceremony-flow-ae16f6282a.webp)
 
 ## Asili
 
-Sprout ndio msingi ambao kila mabadiliko ya baadaye yanajengwa. Wakati utaratibu wa uboreshaji wa mtandao ulipofika na Overwinter, uliziita sheria za asili kama tawi la makubaliano kitambulisho 0, ambayo ina maana tu kwamba hakuna uboreshaji ambao umetumika bado. Kila kitu tangu wakati huo (Overwinter, Sapling, Blossom, Heartwood, Canopy, NU5, NU6, na kuendelea) kiko kwenye mnyororo Sprout. Uzinduzi ulitangazwa mnamo Agosti 2016 kwa ajili ya mwanzo wa Oktoba 28, Sherehe ilifanyika wiki zilizopita, na muhuri wa muda wa kizuizi cha genesis unasomeka Oktoba 28, 2016, saa 07:56 UTC.
+Sprout ndio msingi ambao kila mabadiliko ya baadaye hujengwa juu yake. Mbinu ya uboreshaji wa mtandao ilipowasili pamoja na Overwinter, iliita kanuni za awali kitambulisho cha tawi la makubaliano [consensus branch id] 0, ambacho humaanisha tu kwamba hakuna uboreshaji uliotumika bado. Kila kitu tangu wakati huo (Overwinter, Sapling, Blossom, Heartwood, Canopy, NU5, NU6, na kuendelea) kinakaa kwenye mnyororo ambao Sprout ilianzisha. Uzinduzi ulitangazwa Agosti 2016 kwa block ya mwanzo ya tarehe 28 Oktoba, Sherehe ilifanyika katika wiki zilizotangulia, na muhuri wa muda uliowekwa moja kwa moja wa block ya mwanzo unasoma tarehe 28 Oktoba 2016, saa 07:56 UTC.
 
 ![Timeline from the August 2016 announcement through the parameter Ceremony to the October 28, 2016 Sprout launch](/content-images/sprout-timeline-348766352a.webp)
 
-## Faharasa
+## Fahirisi ya istilahi
 
-| Muhula | Maana ya Kiingereza cha kawaida |
+| Istilahi | Maana kwa lugha rahisi |
 |---|---|
-| zk-SNARK | Uthibitisho usio na ufahamu unaoonyesha kuwa muamala ni halali bila kufichua mtumaji, mpokeaji, au kiasi |
-| Shielded pool | Upande wa faragha wa Zcash ambapo kiasi na sherehe zimefichwa. Bwawa la Sprout lilikuwa la kwanza |
-| z-address and t-address | Anwani ya z inalindwa na huweka maelezo kuwa ya faragha. Anwani ya t ni wazi na inaonyesha maelezo kwenye leja ya umma |
-| The Ceremony | Muundo wa vyama vingi wa 2016 uliozalisha vigezo vya umma Sprout's na kisha kutupa taka zenye sumu |
-| Toxic waste | Sehemu muhimu za siri kutoka kwa Sherehe ambazo zilibidi ziharibiwe ili ZEC isiweze kughushiwa |
-| Consensus branch id 0 | Lebo ya sheria Sprout's, ikimaanisha msingi kabla ya uboreshaji wowote wa mtandao |
+| zk-SNARK | Thibitisho la maarifa sifuri linaloonyesha kuwa muamala ni halali bila kufichua mtumaji, mpokeaji, au kiasi |
+| Shielded pool | Upande wa faragha wa Zcash ambako kiasi na wahusika hufichwa. Bwawa la Sprout lilikuwa la kwanza |
+| z-address and t-address | z-address ni ya faragha na huweka maelezo siri. t-address ni ya uwazi na huonyesha maelezo kwenye daftari la umma |
+| The Ceremony | Usanidi wa washiriki wengi wa mwaka 2016 uliotengeneza vigezo vya umma vya Sprout na kisha kutupa taka sumu |
+| Toxic waste | Vipande vya ufunguo wa siri kutoka Sherehe ambavyo vilipaswa kuharibiwa ili ZEC isighushiwe |
+| Consensus branch id 0 | Lebo ya kanuni za Sprout, ikimaanisha msingi kabla ya uboreshaji wowote wa mtandao |
 
-## Maswali Yanayoulizwa Mara kwa Mara
+## Maswali yanayoulizwa mara kwa mara
 
-Je, Sprout hubadilisha ZEC yangu au faragha yangu leo? Hapana. Sprout ni historia, uzinduzi ulioanzisha mnyororo ambao ZEC yako inaishi. Sarafu zako na faragha yako leo inategemea pochi na bwawa la kuogelea linalolindwa unalotumia sasa, si chochote unachohitaji kufanya kuhusu Sprout.
+Je, Sprout hubadilisha ZEC yangu au faragha yangu leo? Hapana. Sprout ni historia, uzinduzi ulioanzisha mnyororo ambao ZEC yako iko juu yake. Sarafu zako na faragha yako leo hutegemea pochi na bwawa la faragha unalotumia sasa, si chochote unachohitaji kufanya kuhusu Sprout.
 
-Kwa nini hakuna nambari ZIP kwa Sprout? Mchakato ZIP ulianza baadaye, pamoja na uboreshaji wa Overwinter. Sprout ni uzinduzi wa awali, ulioelezewa na Vipimo vya Itifaki ya Zcash na muundo wa Zerocash uliotegemea. ZIP 200 inataja Sprout tu kwa mtazamo wa nyuma, kama tawi la makubaliano kitambulisho 0, msingi kabla ya uboreshaji wowote.
+Kwa nini hakuna nambari ya ZIP kwa Sprout? Mchakato wa ZIP ulianza baadaye, pamoja na uboreshaji wa Overwinter. Sprout ni uzinduzi wa awali, unaoelezewa na Maelezo ya Itifaki ya Zcash na uundaji wa Zerocash uliotegemezwa nao. ZIP 200 hutaja tu Sprout kwa mtazamo wa baadaye, kama kitambulisho cha tawi la makubaliano 0, msingi kabla ya uboreshaji wowote.
 
-Je, nilihitaji kuwaamini watu sita katika Sherehe? Mpangilio ulijengwa kwa hivyo ulihitaji mmoja tu kati yao ili kuwa mkweli. Kila mmoja alikuwa na kipande cha siri, na mradi tu mshiriki mmoja aliharibu chao, siri kamili isingeweza kujengwa upya na hakuna mtu anayeweza kuiga ZEC. Washiriki watano wametajwa hadharani na mmoja hakutajwa jina.
+Je, nilihitaji kuwaamini watu sita wa Sherehe? Usanidi ulijengwa ili uhitaji mmoja wao tu awe mwaminifu. Kila mmoja alishikilia kipande cha siri, na mradi mshiriki mmoja angeharibu chake, siri kamili isingeweza kujengwa tena na hakuna mtu angeweza kughushi ZEC. Washiriki watano wametajwa hadharani na mmoja alibaki asiyejulikana.
 
-Je, bwawa la Sprout ndilo ninalotumia sasa? Labda sivyo. Sprout ilikuwa bwawa la kwanza lililolindwa, lakini maboresho ya baadaye kama vile Sapling yalileta muundo wa haraka zaidi uliolindwa, na pochi nyingi hutumia mabwawa mapya leo. Sprout bado ni muhimu kwani kazi iliyothibitika kuwa miamala ya faragha na inayoweza kuthibitishwa inaweza kuendeshwa kwenye mtandao wa moja kwa moja.
+Je, bwawa la Sprout ndilo linalotumiwa na pochi yangu sasa? Huenda sivyo. Sprout lilikuwa bwawa la kwanza la faragha, lakini maboresho ya baadaye kama Sapling yalianzisha muundo wa faragha wa kasi zaidi, na pochi nyingi hutumia mabwawa mapya zaidi leo. Sprout bado ni muhimu kama kazi iliyothibitisha kwamba miamala ya faragha, inayoweza kuthibitishwa inaweza kuendeshwa kwenye mtandao hai.
 
-Ni nini kilichofanya Sprout kuwa tofauti na Bitcoin? Bitcoin huweka kila malipo kwenye leja ya umma ambapo kiasi na anwani zinaonekana. Sprout iliongeza miamala iliyolindwa ambayo huficha mtumaji, mpokeaji, na kiasi huku ikiruhusu mtandao kuthibitisha kuwa muamala ni halali. Iliweka anwani zenye uwazi pia, kwa hivyo mitindo yote miwili inaishi kwenye mnyororo mmoja.
+Ni nini kilichofanya Sprout iwe tofauti na Bitcoin? Bitcoin huweka kila malipo kwenye daftari la umma ambako kiasi na anwani zinaonekana. Sprout iliongeza miamala ya faragha inayoficha mtumaji, mpokeaji na kiasi, huku bado ikiruhusu mtandao kuthibitisha muamala ni halali. Pia ilihifadhi anwani za uwazi, hivyo mitindo yote miwili ipo kwenye mnyororo mmoja.
 
 ## Jaribu uelewa wako
 
-Sprout mara nyingi huitwa uboreshaji wa mtandao wenye urefu wa uanzishaji. Kwa nini hiyo si sahihi kabisa?
+Sprout mara nyingi huitwa uboreshaji wa mtandao wenye urefu wa uanzishaji. Kwa nini hilo si sahihi kabisa?
 
 <details>
-<summary>Answer</summary>
+<summary>Jibu</summary>
 
-Sprout ni uzinduzi wa awali wa Zcash, si uboreshaji wa baadaye. Imekuwa ikifanya kazi tangu kizuizi cha mwanzo (kizuizi 0) mnamo Oktoba 28, 2016, kwa hivyo hakuna urefu wa uanzishaji wa kuashiria. Utaratibu wa uboreshaji wa mtandao ulikuja baadaye na kuziita sheria Sprout's kama tawi la makubaliano kitambulisho 0, msingi kabla ya uboreshaji wowote.
+Sprout ni uzinduzi wa awali wa Zcash, wala si uboreshaji wa baadaye. Imekuwa hai tangu block ya mwanzo (block 0) tarehe 28 Oktoba 2016, kwa hivyo hakuna urefu wa uanzishaji wa kuonyesha. Mbinu ya uboreshaji wa mtandao ilikuja baadaye na kuita kanuni za Sprout kitambulisho cha tawi la makubaliano 0, msingi kabla ya uboreshaji wowote.
 </details>
 
 ### Rasilimali
 
-[ZIP 200: Utaratibu wa Kuboresha Mtandao](https://zips.z.cash/zip-0200)
+[ZIP 200: Mbinu ya Uboreshaji wa Mtandao](https://zips.z.cash/zip-0200)
 
-[Maboresho ya mtandao Zcash](https://z.cash/upgrade/)
+[Zcash maboresho ya mtandao](https://z.cash/upgrade/)
 
 [Electric Coin Company: Uzinduzi wa Zcash Sprout](https://electriccoin.co/blog/zcash-sprout-launch/)
 
-[Electric Coin Company: Ubunifu wa Sherehe](https://electriccoin.co/blog/the-design-of-the-ceremony/)
+[Electric Coin Company: Muundo wa Sherehe](https://electriccoin.co/blog/the-design-of-the-ceremony/)
 
 ### Tazama pia
 
-[Mabwawa ya Kuogelea Yenye Ngao](../using-zcash/shielded-pools)
+[Mabwawa ya Faragha](../using-zcash/shielded-pools)
 
 [zk-SNARKs](../zcash-tech/zk-snarks)
 
 [Maboresho ya Mtandao wa Zcash](../start-here/network-upgrades)
 
-[ZEC na Zcash ni nini?](../start-here/what-is-zec-and-zcash)
+[ZEC ni nini na Zcash ni nini](../start-here/what-is-zec-and-zcash)
 
 [Electric Coin Company](../zcash-organizations/electric-coin-company)
 
 ---
 
-Mfululizo: [Faharasa ya Uboreshaji wa Mtandao](../start-here/network-upgrades) · Inayofuata: [Overwinter](../zcash-tech/overwinter)
+Mfululizo: [Faharasa ya Maboresho ya Mtandao](../start-here/network-upgrades) · Inayofuata: [Overwinter](../zcash-tech/overwinter)

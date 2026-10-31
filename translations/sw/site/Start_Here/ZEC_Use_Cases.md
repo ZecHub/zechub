@@ -1,27 +1,27 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Start_Here/ZEC_Use_Cases.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Hariri Ukurasa"/>
 </a>
 
-# Zcash Msingi
+# Misingi ya Zcash
 
-## ZEC Matumizi ya kesi
+## Matumizi ya ZEC
 
-#### Malipo
+#### Malipo [Payments]
 
-Watu hutumia ZEC kufanya shughuli kwa ufanisi na salama na ada ya chini. Shielded Zcash inahakikisha shughuli zinabaki kuwa za siri, wakati pia inawapa fursa ya kushiriki anwani na habari ya shughuli ikiwa watachagua. 
+Watu hutumia ZEC kufanya miamala [transactions] kwa ufanisi na usalama kwa ada [fees] ndogo. Mfumo wa faragha [Shielded] wa Zcash huhakikisha miamala inabaki kuwa ya siri, huku ukiwapa pia chaguo la kushiriki maelezo ya anwani [address] na muamala iwapo watachagua kufanya hivyo. Miamala ya faragha, ya “Z-Z”, huonekana kwenye blockchain ya umma ili ijulikane kwamba ilifanyika na kwamba ada zililipwa. Hata hivyo, anwani, kiasi cha muamala na sehemu ya ujumbe [memo] yote yamesimbwa fiche [encrypted] na hayaonekani hadharani. 
 
 #### Hifadhi ya Thamani
 
-Watu wanaweza pia kutumia ZEC kuhifadhi utajiri katika ngumu, faragha-kulinda, mali. Kutakuwa na tu milele milioni 21 ZEC vitengo, maana yake ni kwamba mali ina ugavi wa kudumu.](https://z.cash/mining-zcash/), mali itakuwa kupambana na mfumuko wa bei. Mali ya kupambana na inflation ni kulinda nzuri dhidi ya mfumko wa bei katika tukio hilo kwamba gatekeepers centralized inflate fedha za kitaifa.
+Watu wanaweza pia kutumia ZEC kuhifadhi utajiri katika mali imara inayolinda faragha [privacy]. Kutakuwa na vitengo milioni 21 vya ZEC pekee, ikimaanisha kwamba mali hii ina ugavi usiobadilika. Baada ya kitengo cha 21 milioni cha ZEC kuingia kwenye mzunguko kupitia uchimbaji [mining] [mined into circulation](https://z.cash/mining-zcash/), mali hiyo itakuwa kinga dhidi ya mfumuko wa bei. Mali zinazokinga dhidi ya mfumuko wa bei ni kinga nzuri dhidi ya mfumuko wa bei iwapo walinda milango wa kati wataongeza ugavi wa fedha za kitaifa.
 
 #### Ujumbe
 
-Watu wanaweza kutumia memo uwanja katika ulinzi Z-Z manunuzi ya kutuma ujumbe encrypted kikamilifu. Kutuma memo, watumiaji lazima kukimbia shughuli na kulipa ada ya manunudi, ambayo ni chini ya $ 0.01.
+Watu wanaweza kutumia sehemu ya ujumbe katika muamala wa faragha wa Z-Z kutuma jumbe zilizosimbwa fiche kikamilifu. Ili kutuma ujumbe, watumiaji lazima wafanye muamala na walipe ada ya muamala, ambayo ni chini ya $0.01.
 
 #### Rasilimali
 
-[Encrypted Memo Shamba](https://electriccoin.co/blog/encrypted-memo-field/)
+[Sehemu ya Ujumbe Iliyosimbwa Fiche](https://electriccoin.co/blog/encrypted-memo-field/)
 
-[Kulipa Kwa Zcash](https://z.cash/pay-with-zcash/)
+[Lipa Kwa Kutumia Zcash](https://z.cash/pay-with-zcash/)
 
-[Wapi Kulipa Kwa Zcash](https://paywithz.cash/)
+[Mahali pa Kulipa Kwa Kutumia Zcash](https://paywithz.cash/)

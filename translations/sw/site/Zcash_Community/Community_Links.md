@@ -2,71 +2,71 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# <img src="/content-images/image-2024-02-03-174147713-63a42e536c.webp" alt="Alt Text" width="400"/> Zcash Community Links
+# <img src="/content-images/image-2024-02-03-174147713-63a42e536c.webp" alt="Alt Text" width="400"/> Viungo vya Jumuiya ya Zcash
 
-Jumuiya Zcash ni kundi lenye nguvu la watu wanaofanya kazi ili kuifanya ZEC kuwa mojawapo ya sarafu za kidijitali zinazohifadhi faragha zinazotumiwa sana duniani. Jumuiya hiyo imeundwa na watu mbalimbali kutoka kote ulimwenguni - watengenezaji, waelimishaji, watetezi, na wajenzi - waliounganishwa na imani ya pamoja katika faragha ya kifedha.
+Jumuiya ya Zcash ni kundi hai la watu wanaofanya kazi ili kuifanya ZEC kuwa mojawapo ya sarafu za kidijitali zinazolinda faragha zinazotumiwa zaidi duniani. Jumuiya hii inajumuisha watu mbalimbali kutoka kote duniani - wasanidi programu, waelimishaji, watetezi, na wajenzi - waliounganishwa na imani ya pamoja katika faragha ya kifedha [financial privacy].
 
 ----
 
-## Mahali ambapo unaweza kupata wanajamii
+## Mahali pa kupata wanajumuiya
 
 ### <img src="/content-images/image-2024-02-03-173937048-148e401d5e.webp" alt="Alt Text" width="50"/> <span translate="no" class="notranslate">Telegram</span>
 
-The Zcash community is very active in its community <span translate="no" class="notranslate">Telegram</span>. Join to talk about the day-to-day, discuss news and updates, and meet fellow community members: [t.me/Zcash_Community](https://t.me/Zcash_Community)
+Jumuiya ya Zcash inashiriki sana katika <span translate="no" class="notranslate">Telegram</span> yake ya jumuiya. Jiunge ili kuzungumzia mambo ya kila siku, kujadili habari na masasisho, na kukutana na wanajumuiya wenzako: [t.me/Zcash_Community](https://t.me/Zcash_Community)
 
 ### <img src="/content-images/image-2024-02-03-174056252-8a6a76eabf.webp" alt="Alt Text" width="50"/> <span translate="no" class="notranslate">Discord</span>
 
 - [Zcash Global](https://discord.gg/zcash) - Seva kuu ya jumuiya
-- [Utafiti na Maendeleo Zcash](https://discord.gg/xpzPR53xtU) - Majadiliano ya itifaki na msanidi programu
-- [Zcash Foundation](https://discord.gg/na6QZNd) - Sasisho na utawala wa Foundation
-- [ZecHub DAO](https://discord.gg/zcash) - Wachangiaji wa DAO wa Jumuiya
+- [Zcash R&D](https://discord.gg/xpzPR53xtU) - Majadiliano ya itifaki na wasanidi programu [developers]
+- [Zcash Foundation](https://discord.gg/na6QZNd) - Masasisho ya Foundation na utawala [governance]
+- [ZecHub DAO](https://discord.gg/zcash) - Wachangiaji wa DAO ya jumuiya
 
-### <span translate="no" class="notranslate">Mastodon / Decentralized Social</span>
+### <span translate="no" class="notranslate">Mastodon / Mitandao ya Kijamii Iliyogatuliwa [Decentralized Social]</span>
 
-- [ZecHub.Social](https://zechub.social/public/local) - Mfano wa Mastodon kwa jumuiya Zcash
-- [Bluesky @zcashesp.bsky.kijamii](https://bsky.app/profile/zcashesp.bsky.social) - Zcash en Espanol kwenye Bluesky (imehamishwa kutoka X baada ya kusimamishwa kwa akaunti)
+- [ZecHub.Social](https://zechub.social/public/local) - Toleo la Mastodon kwa jumuiya ya Zcash
+- [Bluesky @zcashesp.bsky.social](https://bsky.app/profile/zcashesp.bsky.social) - Zcash kwa Kihispania kwenye Bluesky (ilihama kutoka X baada ya akaunti kusimamishwa)
 
 ### <span translate="no" class="notranslate">Matrix</span>
 
 - [ZecHub Matrix](https://matrix.to/#/#zechub:matrix.org)
 
-### Jukwaa la Jumuiya ya Zcash
+### Zcash Jukwaa la Jumuiya
 
-Ya [Jukwaa la Jumuiya ya Zcash](https://forum.zcashcommunity.com/) ndio kitovu cha majadiliano ya muda mrefu kuhusu Zcash - utawala, mapendekezo ya ruzuku, mjadala wa kiufundi, na matangazo ya mfumo ikolojia. Sasa usimamizi umehamishiwa kwa Zcash Foundation kufuatia mpito ECC's hadi ZODL.
+[Jukwaa la Jumuiya la Zcash](https://forum.zcashcommunity.com/) ni kitovu cha majadiliano marefu kuhusu Zcash - utawala, mapendekezo ya ruzuku [grant], mjadala wa kiufundi, na matangazo ya mfumo wa ikolojia. Sasa usimamizi umehamishiwa kwa Zcash Foundation kufuatia mpito wa ECC kwenda ZODL.
 
 ### <img src="/content-images/image-2024-02-03-174240928-7a8f751301.webp" alt="Alt Text" width="50"/> <span translate="no" class="notranslate">X / Twitter</span>
 
-Zcash ina uwepo hai wa kimataifa kwenye X. Akaunti muhimu za kufuata:
+Zcash ina uwepo hai wa kimataifa kwenye X. Akaunti muhimu za kufuatilia:
 
 | Akaunti | Maelezo |
 |---------|-------------|
-| [@Zcash](https://x.com/zcash) | Akaunti rasmi Zcash |
-| [@ZecHub](https://x.com/zechub) | ZecHub DAO - elimu ya jamii na zawadi |
-| [@zodl_app](https://x.com/zodl_app) | Pochi ya ZODL (zamani Zashi) |
-| [@ZcashFoundation](https://x.com/zcashfoundation) | Masasisho Zcash Foundation |
-| [@zcashbrazil](https://x.com/zcashbrazil) | Jumuiya Zcash Brazil |
+| [@Zcash](https://x.com/zcash) | Akaunti rasmi ya Zcash |
+| [@ZecHub](https://x.com/zechub) | DAO ya ZecHub - Elimu ya jumuiya na zawadi |
+| [@zodl_app](https://x.com/zodl_app) | Pochi [wallet] ya ZODL (zamani Zashi) |
+| [@ZcashFoundation](https://x.com/zcashfoundation) | Masasisho ya Zcash Foundation |
+| [@zcashbrazil](https://x.com/zcashbrazil) | Jumuiya ya Zcash nchini Brazil |
 | [@ZcashMx](https://x.com/ZcashMx) | Zcash Mexico |
-| [@ZcashTR](https://x.com/ZcashTR) | Uturuki Zcash |
+| [@ZcashTR](https://x.com/ZcashTR) | Zcash Uturuki |
 | [@ZcashArabia](https://x.com/ZcashArabia) | Zcash Arabia |
 | [@ZcashNigeria](https://x.com/ZcashNigeria) | Zcash Nigeria |
-| [@ZcastEsp](https://x.com/ZcastEsp) | Zcast - Kihispania, podikasti Zcash |
-| [@ZkAv_Club](https://x.com/ZkAv_Club) | Klabu ya ZK ya Sauti na Picha |
-| [@cipherscan_app](https://x.com/cipherscan_app) | Kichunguzi cha blockchain CipherScan |
-| [@zerodartz](https://x.com/Zerodartz) | Meme na maoni ya jamii |
+| [@ZcastEsp](https://x.com/ZcastEsp) | Zcast - Podikasti ya Zcash kwa lugha ya Kihispania |
+| [@ZkAv_Club](https://x.com/ZkAv_Club) | Klabu ya Sauti na Taswira ya ZK |
+| [@cipherscan_app](https://x.com/cipherscan_app) | Kivinjari cha blockchain cha CipherScan |
+| [@zerodartz](https://x.com/Zerodartz) | Meme na maoni ya jumuiya |
 
 ----
 
-## Vituo vya Jumuiya vya Mikoa
+## Vituo vya Jumuiya vya Kikanda
 
-- [Zcash katika Kihispania](https://zcashesp.com) - Jumuiya inayozungumza Kihispania (pia iko Bluesky baada ya kusimamishwa kwa X)
-- [Zcash Brazil](https://x.com/zcashbrazil) - Jumuiya ya Brazil
-- [Zcash Mexico](https://x.com/ZcashMx) - Jumuiya ya Mexico
-- [Uturuki Zcash](https://x.com/ZcashTR) - Jumuiya ya Kituruki
+- [Zcash en Espanol](https://zcashesp.com) - Jumuiya inayozungumza Kihispania (pia kwenye Bluesky baada ya kusimamishwa kwa X)
+- [Zcash Brazil](https://x.com/zcashbrazil) - Jumuiya ya Brazili
+- [Zcash Mexico](https://x.com/ZcashMx) - Jumuiya ya Meksiko
+- [Zcash Turkey](https://x.com/ZcashTR) - Jumuiya ya Kituruki
 - [Zcash Arabia](https://x.com/ZcashArabia) - Jumuiya inayozungumza Kiarabu
 - [Zcash Nigeria](https://x.com/ZcashNigeria) - Jumuiya ya Nigeria
 - [ruZcash](https://x.com/ruZCASH) - Jumuiya ya Zcash inayozungumza Kirusi
-- [Zcash Korea](https://x.com/zcash_korea) - Jumuiya ya Kikorea
-- [Zcash Afrika Mashariki](https://forum.zcashcommunity.com/t/privacy-has-landed-in-south-africa-join-in/55706) - Afrika Kusini na Afrika Mashariki
+- [Zcash Korea](https://x.com/zcash_korea) - Jumuiya ya Korea
+- [Zcash East Africa](https://forum.zcashcommunity.com/t/privacy-has-landed-in-south-africa-join-in/55706) - Afrika Kusini na Afrika Mashariki
 - [genzcash](https://x.com/genzcash) - Jumuiya ya Zcash inayolenga vijana
 
 ----
@@ -74,7 +74,7 @@ Zcash ina uwepo hai wa kimataifa kwenye X. Akaunti muhimu za kufuata:
 ## Rasilimali
 
 - [Tovuti ya Jumuiya ya Zcash](https://www.zcashcommunity.com/)
-- [Wiki ZecHub](https://zechub.wiki)
-- [Kitovu cha Ruzuku Zcash](https://forum.zcashcommunity.com/t/introducing-zcash-grants-hub-browse-zcg-coinholder-grants-apply-via-betther-ui-and-explore-zechub-dao-proposals/55267)
-- [Mabalozi wa Zcash Global](https://zechub.wiki/zcash-community/zcash-global-ambassadors) - muhtasari wa programu kwenye wiki hii (zcashambassadors.com haipo mtandaoni)
+- [ZecHub Wiki](https://zechub.wiki)
+- [Kitovu cha Ruzuku cha Zcash](https://forum.zcashcommunity.com/t/introducing-zcash-grants-hub-browse-zcg-coinholder-grants-apply-via-betther-ui-and-explore-zechub-dao-proposals/55267)
+- [Mabalozi wa Kimataifa wa Zcash](https://zechub.wiki/zcash-community/zcash-global-ambassadors) - Muhtasari wa programu kwenye wiki hii (zcashambassadors.com haipo mtandaoni)
 - [ZEC Bounties](https://bounties.zechub.wiki/)

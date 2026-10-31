@@ -1,6 +1,6 @@
 # Zenith 0.10 Beta
 
-Utahitaji mbio zebrad na RPC ya kuwezeshwa
+Utahitaji zebrad inayoendeshwa huku RPC zikiwa zimewezeshwa
 
 # Sakinisha NIX
 
@@ -11,7 +11,7 @@ sudo chown -R <username> /nix'
 ```
 
 
-Ongeza yafuatayo kwa ~/.config/nix/niX.conf au /etc/nixx/niXX.conF:
+Ongeza yafuatayo kwenye ~/.config/nix/nix.conf au /etc/nix/nix.conf:
 
 `experimental-features = nix-command flakes`
 
@@ -25,12 +25,11 @@ nix profile install git+https://code.vergara.tech/Vergara_Tech/zenith?ref=master
 
 
 
-# Run Zenith
+# Endesha Zenith
 
 
 `zenithgui`
 
-or
+au
 
 `zenithserver`
-

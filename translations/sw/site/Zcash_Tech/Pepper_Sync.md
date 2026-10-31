@@ -1,154 +1,154 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Zcash_Tech/Pepper_Sync.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Hariri Ukurasa"/>
 </a>
 
-# Zingo 2.0 - Pepper Sync
+# Zingo 2.0 - Usawazishaji wa Pepper
 
-## TL;DR
+## Kwa ufupi sana
 
-* Pepper Sync ni injini ya ulandanishi iliyoanzishwa katika Zingo! 2.0, pochi huria Zcash iliyojengwa na Zingo Labs.
-* Inatumia usawazishaji usio wa mstari badala ya kuchunguza mlolongo katika vipande vikubwa vya mfululizo, hivyo mizani yako na shughuli zinaonekana mapema zaidi.
-* Maendeleo ni kuokolewa kuendelea. Kama uhusiano drops au programu ya kufunga, syncing itaanza tena kutoka ambapo kusimamishwa badala ya kuanza upya.
-* Unaweza kutumia kabla ya usawazishaji kumalizika.
-* Shughuli za kulindwa hubaki kuwa siri katika mchakato mzima.
+* Usawazishaji wa Pepper ni injini ya usawazishaji iliyoanzishwa katika Zingo! 2.0, pochi ya Zcash yenye msimbo wazi iliyoundwa na Zingo Labs.
+* Inatumia usawazishaji usio wa mstari badala ya kuchanganua mnyororo katika sehemu kubwa zinazofuatana, hivyo salio na miamala yako huonekana mapema zaidi.
+* Maendeleo huhifadhiwa daima. Muunganisho ukikatika au programu ikifungwa, usawazishaji huendelea ilipoishia badala ya kuanza upya.
+* Unaweza kutumia fedha kabla ya usawazishaji kukamilika.
+* Miamala ya faragha [shielded transactions] hubaki ya siri katika mchakato mzima.
 
-## Maelezo ya msingi
+## Maelezo ya Msingi
 
-Zingo 2.0 ni toleo la karibuni wa mkoba Zingo!, lightweight, wazi chanzo mfuko kujengwa kwa ajili ya jamii Zcash. nyota ya kutolewa hii ni Pepper Sync, upgrades kubwa kwamba kabisa rethinks jinsi pochi kuungana na blockchain.
+Zingo 2.0 ni toleo jipya zaidi la pochi ya Zingo!, pochi nyepesi yenye msimbo wazi iliyoundwa kwa ajili ya jumuiya ya Zcash. Nyota ya toleo hili ni Usawazishaji wa Pepper, uboreshaji mkubwa unaofikiria upya kabisa jinsi pochi zinavyounganishwa na blockchain.
 
-Katika siku za nyuma, usawazishaji inaweza kujisikia uchungu polepole, makosa-kutokana na rasilimali nzito, wakati mwingine kulazimisha watumiaji kuanza upya kutoka mwanzo. Pepper Sync mabadiliko yote hayo. Inafanya kusawazisha kwa kasi zaidi, laini, kuaminika zaidi, na chini ya mahitaji juu ya kifaa yako, huku kikamilifu kuhifadhi faragha ya shughuli ulinzi.
+Hapo zamani, usawazishaji ungeweza kuhisiwa kuwa wa polepole sana, wenye hitilafu, na unaotumia rasilimali nyingi, wakati mwingine ukiwalazimisha watumiaji kuanza upya kabisa. Usawazishaji wa Pepper hubadilisha yote hayo. Hufanya usawazishaji kuwa wa haraka, laini, wa kuaminika zaidi, na usiohitaji sana kifaa chako, huku ukihifadhi kikamilifu faragha ya miamala ya faragha.
 
-Kama wewe ni mtumiaji mpya kabisa kujaribu Zcash kwa mara ya kwanza, au muda mrefu jamii mwanachama kusimamia mikoba mbalimbali ulinzi, Pepper Sync hufanya uzoefu zaidi vitendo na kufurahisha.
+Iwe wewe ni mtumiaji mpya kabisa unayejaribu Zcash kwa mara ya kwanza, au mwanajumuiya wa muda mrefu anayesimamia pochi nyingi za faragha, Usawazishaji wa Pepper hufanya matumizi kuwa ya vitendo na kufurahisha zaidi.
 
-### Kipengele cha msingi wa Pepper Sync
+### Vipengele vya msingi vya Usawazishaji wa Pepper
 
-Pepper Sync huanzisha maboresho kadhaa:
+Usawazishaji wa Pepper huleta maboresho kadhaa:
 
-- Haraka sana Syncing - mkoba wako ni tayari katika dakika, si masaa.
-- Smart Updates - Data ni kusindika katika chunks ndogo, kuepuka rescans kamili.
-- Kujizuia kwa Vikwazo - Kama uhusiano wako inashuka, syncing itaanza tena ambapo ni kushoto.
-- Ni nyepesi na yenye ufanisi - Imeboreshwa kwa ajili ya simu, kompyuta ndogo za mkononi, na vifaa vingine vyenye nguvu kidogo.
-- Maoni ya wazi - Updates maendeleo Real-time kupunguza machafuko.
-- Faragha-Kuhifadhi - shughuli Shielded kubaki binafsi katika mchakato wote.
+- Usawazishaji wa Haraka Zaidi - Pochi yako huwa tayari kwa dakika, si saa.
+- Masasisho Mahiri - Data huchakatwa katika sehemu ndogo, ikiepuka uchanganuzi kamili upya.
+- Ustahimilivu kwa Kukatizwa - Muunganisho wako ukikatika, usawazishaji huendelea ilipoishia.
+- Nyepesi na Bora - Imeboreshwa kwa simu, kompyuta mpakato, na vifaa vingine vyenye uwezo mdogo.
+- Maoni Wazi Zaidi - Masasisho ya maendeleo ya wakati halisi hupunguza mkanganyiko.
+- Inayohifadhi Faragha - Miamala ya faragha hubaki ya siri katika mchakato mzima.
 
-### Ni bora kuliko hapo awali.
+### Kilicho bora kuliko hapo awali
 
-Toleo la zamani ya Zingo mara nyingi frustrated watumiaji na muda mrefu syncing, makosa wazi utunzaji, na matumizi makubwa rasilimali. Pepper Sync fixes masuala haya ya kawaida:
+Matoleo ya zamani ya Zingo mara nyingi yaliwakatisha tamaa watumiaji kwa nyakati ndefu za usawazishaji, ushughulikiaji usio wazi wa hitilafu, na matumizi makubwa ya rasilimali. Usawazishaji wa Pepper hutatua matatizo haya ya kawaida:
 
-| Kipengele            | Matoleo ya Zingo ya Awali                | Zingo 2.0 yenye Usawazishaji wa Pepper                   |
+| Kipengele            | Matoleo ya Awali ya Zingo                | Zingo 2.0 yenye Usawazishaji wa Pepper                   |
 | ------------------ | -------------------------------------- | -------------------------------------------- |
-| Kasi ya Usawazishaji         | Polepole zaidi, hasa kwenye usanidi wa kwanza      | Usawazishaji wa awali na unaoendelea kwa kasi zaidi         |
-| Kushughulikia Hitilafu     | Kukwama mara kwa mara na kushindwa kusikoeleweka | Utulivu ulioboreshwa kwa kutumia urejeshaji otomatiki   |
-| Uzoefu wa Mtumiaji    | Usawazishaji ulihisi "hauonekani" kwa wageni        | Uwazi, pamoja na hali na masasisho yaliyo wazi zaidi |
-| Utendaji wa Kifaa | Matumizi ya juu ya CPU/kumbukumbu                  | Imeboreshwa kwa matumizi rahisi ya rasilimali            |
+| Kasi ya Usawazishaji         | Polepole zaidi, hasa wakati wa usanidi wa kwanza      | Usawazishaji wa kwanza na endelevu wa haraka zaidi         |
+| Ushughulikiaji wa Hitilafu     | Kukwama mara kwa mara na hitilafu zisizo wazi | Uthabiti ulioboreshwa wenye urejeshaji wa kiotomatiki   |
+| Uzoefu wa Mtumiaji    | Usawazishaji ulihisiwa kuwa “usioeleweka” kwa watumiaji wapya        | Wazi, wenye hali na masasisho yanayoeleweka zaidi |
+| Utendaji wa Kifaa | Matumizi makubwa ya CPU/kumbukumbu                  | Umeboreshwa kwa matumizi laini ya rasilimali            |
 
-Kwa kifupi: kusawazisha sasa ni kasi, zaidi ya kuaminika, na rahisi kuelewa.
+Kwa ufupi: usawazishaji sasa ni wa haraka zaidi, wa kuaminika zaidi, na rahisi kuelewa.
 
-## Visual / Ulinganisho
+## Taswira / Mfano
 
-Fikiria zamani mkoba usawazishaji kama kusoma kitabu kirefu sana kutoka ukurasa wa kwanza, kwa sauti kubwa, kabla ya kuruhusiwa kusema chochote kuhusu hilo. Stop nusu njia, na wewe kuanza tena kutoka ukurasa mmoja. Pepper Sync anasoma kitabu hicho kile, lakini anaendelea bookmark, inasoma sura ambayo ni muhimu kwako kwanza, na inakuwezesha kuzungumza juu ya hadithi kabla umemaliza ukurasa mwisho.
+Fikiria usawazishaji wa pochi ya zamani kama kusoma kitabu kirefu sana kuanzia ukurasa wa kwanza, kwa sauti, kabla hujaruhusiwa kusema chochote kukihusu. Ukisimama katikati, unaanza tena kutoka ukurasa wa kwanza. Usawazishaji wa Pepper husoma kitabu hichohicho, lakini huweka alama ya ukurasa, husoma sura zinazokuhusu kwanza, na hukuruhusu kuzungumzia hadithi kabla hujamaliza ukurasa wa mwisho.
 
-Bookmark ni sehemu muhimu. Kila toleo la awali kutibiwa sync kuingiliwa kama kazi taka; Pepper Sync inachukua hiyo kama pause.
+Alama ya ukurasa ndiyo sehemu muhimu. Kila toleo la awali lilichukulia usawazishaji uliokatizwa kuwa kazi iliyopotea; Usawazishaji wa Pepper huuchukulia kama kusitisha.
 
-### Miongozo ya kuona
+### Miongozo ya taswira
 
-- Kina Mtiririko - Inaonyesha mchakato kamili. ![Detailed Flow](/content-images/119c13ec-76be-42bd-b558-762d09275a1b-8ba7a18302.webp)
+- Mtiririko wa Kina - Huonyesha mchakato kamili. ![Detailed Flow](/content-images/119c13ec-76be-42bd-b558-762d09275a1b-8ba7a18302.webp)
 
-- Rahisi Flow - Quick mtazamo kwa watumiaji wa kila siku. ![Simplified Flow](/content-images/9b612cbd-f24d-4472-9b87-0f2c908bb368-eb34a722a2.webp)
+- Mtiririko Rahisi - Mwonekano wa haraka kwa watumiaji wa kila siku. ![Simplified Flow](/content-images/9b612cbd-f24d-4472-9b87-0f2c908bb368-eb34a722a2.webp)
 
-## Kuzama kwa Kina Chini ya Maji
+## Uchambuzi wa Kina
 
-### Jinsi Pepper Sync kazi (kuona rahisi)
+### Jinsi Usawazishaji wa Pepper unavyofanya kazi (mwonekano rahisi)
 
-Badala ya kuchunguza upya blockchain katika kubwa, chunks clunky, Pepper Sync kazi kwa hatua ndogo, manageable - daima kuokoa nafasi yako kama ni huenda.
+Badala ya kuchanganua upya blockchain katika sehemu kubwa na nzito, Usawazishaji wa Pepper hufanya kazi katika hatua ndogo zinazoweza kudhibitiwa—huku ukihifadhi daima ulipoendelea.
 
-1. Kuunganisha - Wallets kuangalia katika na mtandao.
-2. Fetch Blocks - Data ni kupakuliwa incrementally.
-3. Kuthibitisha - shughuli ni kuthibitishwa.
-4. Kushughulikia Shielded Notes - faragha kuhifadhiwa wakati wote.
-5. Update Mizani - Wallet refreshes salama.
-6. Hifadhi Maendeleo - Stops na inaendelea bila mshono.
-7. Finish - Wallet ni tayari kufanya manunuzi.
+1. Unganisha - Pochi huwasiliana na mtandao.
+2. Pakua Block - Data hupakuliwa hatua kwa hatua.
+3. Thibitisha - Miamala inathibitishwa.
+4. Shughulikia Madokezo ya Faragha - Faragha huhifadhiwa wakati wote.
+5. Sasisha Salio - Pochi hujisasisha kwa usalama.
+6. Hifadhi Maendeleo - Husimama na kuendelea bila usumbufu.
+7. Maliza - Pochi iko tayari kufanya miamala.
 
-## Matokeo ya Kimatendo
+## Athari za Kivitendo
 
-### Ni nani wanafaidika kutokana na Pepper Sync?
+### Nani hunufaika na Usawazishaji wa Pepper?
 
-- Watumiaji wapya - Unaweza kuanzisha pochi haraka bila kuwa tamaa na kuchelewa.
-- Watumiaji wa kila siku - Usawazishaji kuaminika hufanya malipo ya ulinzi vitendo kwa ajili ya matumizi ya kila siku.
-- Watengenezaji & Testers - Shorter sync mara maana ya haraka majaribio mizunguko.
-- Simu ya Mkono & Mwanga Vifaa - Zingo sasa anaendesha kwa ufanisi hata juu ya rasilimali za vifaa vya mdogo.
+- Watumiaji Wapya - Wanaweza kusanidi pochi haraka bila kukatishwa tamaa na ucheleweshaji.
+- Watumiaji wa Kila Siku - Usawazishaji wa kuaminika hufanya malipo ya faragha yawe ya vitendo kwa matumizi ya kila siku.
+- Wasanidi Programu na Wajaribu - Nyakati fupi za usawazishaji humaanisha mizunguko ya majaribio ya haraka zaidi.
+- Vifaa vya Simu na Vyepesi - Zingo sasa hufanya kazi kwa ufanisi hata kwenye vifaa vyenye rasilimali chache.
 
 ### Kwa nini ni muhimu kwa Zcash
 
-Zcash ni kujengwa karibu na shughuli ulinzi, moja ya zana nguvu zaidi faragha katika cryptocurrency. Lakini faragha tu muhimu kama inapatikana.
+Zcash imejengwa kwa kuzingatia miamala ya faragha, mojawapo ya vifaa vyenye nguvu zaidi vya faragha katika sarafu za kidijitali. Lakini faragha ina manufaa tu ikiwa inafikika.
 
-Pepper Sync husaidia kwa:
+Usawazishaji wa Pepper husaidia kwa:
 
-- Kupunguza vikwazo vya kuingia - Watumiaji wapya wanaweza kuanza haraka.
-- Kusaidia matumizi ya kila siku - anwani Shielded kuwa rahisi kuamini.
-- Kuhimiza ukuaji wa mazingira - Uzoefu bora wa mkoba huendesha kupitishwa zaidi, programu na huduma.
+- Kupunguza vikwazo vya kuanza - Watumiaji wapya wanaweza kuanza haraka.
+- Kusaidia utumiaji wa kila siku - Anwani za faragha huwa rahisi zaidi kuamini.
+- Kuhimiza ukuaji wa mfumo ikolojia - Uzoefu bora wa pochi huchochea upokeaji zaidi, programu, na huduma.
 
-Kwa kuboresha uzoefu wa mkoba, Pepper Sync inaimarisha mfumo mzima wa Zcash.
+Kwa kuboresha uzoefu wa pochi, Usawazishaji wa Pepper huimarisha mfumo mzima wa ikolojia wa Zcash.
 
-### Kuanza: onboarding na Zingo 2.0
+### Kuanza: uanzishaji kwa kutumia Zingo 2.0
 
-1. Download Wallet - Kupata toleo sahihi kutoka [Zingo GitHub releases ukurasa](https://github.com/zingolabs/zingolib)
-2. Kuanzisha mkoba wako - kujenga moja mpya au kurejesha kutoka kwa kifungu mbegu zilizopo. [Zingo 2.0 na Zingo Labs](https://www.youtube.com/watch?v=FREwMzf_LlM)
-3. Acha Pepper Sync Run - Kuangalia viashiria maendeleo kama updates mkoba wako. [Pepper Synch Run](https://x.com/ZingoLabs/status/1961871338441724191)
-4. Anza kutumia Zcash - Tuma na kupokea walinzi wa ZEC mara tu usawazishaji ukikamilika.
-5. Kupumzika Kuhusu Kusumbuliwa - Kama programu kufunga au uhusiano drops, Pepper Sync itaanza moja kwa moja.
+1. Pakua Pochi - Pata toleo sahihi kutoka ukurasa wa matoleo wa [Zingo GitHub](https://github.com/zingolabs/zingolib)
+2. Sanidi Pochi Yako - Unda pochi mpya au irejeshe kutoka maneno ya kurejesha pochi yaliyopo. [Zingo 2.0 yenye Zingo Labs](https://www.youtube.com/watch?v=FREwMzf_LlM)
+3. Acha Usawazishaji wa Pepper Uendeshe - Tazama viashiria vya maendeleo wakati pochi yako inasasishwa. [Usawazishaji wa Pepper Uendeshe](https://x.com/ZingoLabs/status/1961871338441724191)
+4. Anza Kutumia Zcash - Tuma na upokee ZEC za faragha mara tu usawazishaji unapokamilika.
+5. Usihofie Kukatizwa - Programu ikifungwa au muunganisho ukikatika, Usawazishaji wa Pepper huendelea kiotomatiki.
 
 ## Makosa ya Kawaida
 
-**Kutibu Pepper Sync kama mkoba katika haki yake mwenyewe**. Pepper sync ni injini ya usawazishaji ndani Zingo! mfuko wa fedha, si maombi tofauti. Kufunga Zingo; Pepper ushirikiano ni nini anaendesha chini yake.
+**Kuichukulia Usawazishaji wa Pepper kama pochi inayojitegemea**. Usawazishaji wa Pepper ni injini ya usawazishaji ndani ya pochi ya Zingo!, si programu tofauti. Unasakinisha Zingo; Usawazishaji wa Pepper ndiyo huendesha chini yake.
 
-** Kufikiria upatanisho wa haraka unamaanisha faragha dhaifu.** Kasi inakuja kutoka kwa jinsi data ya kuzuia inavyopatikana, kuamuru, na kuhifadhiwa, sio kutokana na kufunua habari zaidi. Shughuli zilizohifadhiwa hubaki kuwa za kibinafsi wakati wote.
+**Kudhani kuwa usawazishaji wa haraka unamaanisha faragha dhaifu**. Kasi hutokana na jinsi data ya block inavyopakuliwa, kupangwa, na kuhifadhiwa katika akiba, si kwa kufichua taarifa zaidi. Miamala ya faragha hubaki ya siri wakati wote.
 
-** Kuzingatia lazima kuwa kikamilifu kulandanishwa kabla unaweza kutumia**. matumizi ya kabla ya usawazishaji kukamilika ni moja ya makala kichwa cha Pepper Sync, hivyo huna kusubiri kwa mkoba kufikia mwisho wa mnyororo.
+**Kudhani lazima uwe umesawazishwa kikamilifu kabla ya kutumia fedha**. Kutumia fedha kabla ya usawazishaji kukamilika ni mojawapo ya vipengele vikuu vya Usawazishaji wa Pepper, hivyo huhitaji kusubiri pochi ifikie ncha ya mnyororo.
 
-## Maswali ya kawaida - maswali yanayoulizwa mara kwa mara
+## Maswali Yanayoulizwa Mara kwa Mara
 
-Je, mimi na rescan kila wakati mimi kufungua mkoba?
+**S: Je, lazima nichanganue upya kila ninapofungua pochi?**
 
-A: Hapana. Pepper Sync huhifadhi maendeleo, hivyo wewe tu update kutoka hatua ya mwisho.
+J: Hapana. Usawazishaji wa Pepper huhifadhi maendeleo, hivyo unasasisha tu kutoka sehemu ya mwisho.
 
-** Swali: Nini kinatokea kama mtandao wangu disconnects?**
+**S: Nini hutokea ikiwa intaneti yangu itakatika?**
 
-A: Sync pauses na inaendelea baadaye bila kuanzisha upya.
+J: Usawazishaji husitishwa na huendelea baadaye bila kuanza upya.
 
-** Swali: Je, faragha yangu salama wakati syncing?**
+**S: Je, faragha yangu iko salama wakati wa usawazishaji?**
 
-Jibu: Ndiyo. shughuli Shielded kubaki binafsi kabisa.
+J: Ndiyo. Miamala ya faragha hubaki ya siri kabisa.
 
-** Swali: Muda gani ni mara ya kwanza sync kuchukua?**
+**S: Usawazishaji wa kwanza huchukua muda gani?**
 
-J: Kwa kawaida ni dakika badala ya saa, ikitegemea kifaa chako na mtandao.
+J: Kwa kawaida huchukua dakika badala ya saa, kutegemea kifaa chako na intaneti.
 
-** Swali: Je, mimi kutumia mkoba kabla ya usawazishaji kumaliza?**
+**S: Je, ninaweza kutumia pochi kabla usawazishaji haujakamilika?**
 
-A: Ndiyo. Pepper Sync inasaidia matumizi kabla ya usawazishaji kukamilika, hivyo huna haja ya kusubiri kwa mkoba kufikia mwisho wa mnyororo.
+J: Ndiyo. Usawazishaji wa Pepper unasaidia kutumia fedha kabla ya usawazishaji kukamilika, hivyo huhitaji kusubiri pochi ifikie ncha ya mnyororo.
 
-## Matokeo ya Uchunguzi
+## Hitimisho
 
-Pamoja na Zingo 2.0 Pepper Sync, kusawazisha ni tena kubwa maumivu uhakika wa wallets ulinzi. Ni sasa kwa kasi, imara, na user-kirafiki, kupunguza kizuizi kwa wageni na kufanya matumizi ya kila siku mbali zaidi vitendo.
+Kwa Zingo 2.0 Usawazishaji wa Pepper, usawazishaji si tena kero kubwa zaidi ya pochi za faragha. Sasa ni wa haraka, thabiti, na rafiki kwa mtumiaji, ukipunguza kikwazo kwa watumiaji wapya na kufanya matumizi ya kila siku yawe ya vitendo zaidi.
 
-For users, it means less waiting and more privacy. For developers, it means a stronger foundation to build on. For the Zcash ecosystem, it's another step toward making shielded transactions accessible to everyone.
+Kwa watumiaji, humaanisha kusubiri kidogo na faragha zaidi. Kwa wasanidi programu, humaanisha msingi imara zaidi wa kujengea. Kwa mfumo ikolojia wa Zcash, ni hatua nyingine kuelekea kufanya miamala ya faragha ipatikane kwa kila mtu.
 
-Zingo 2.0 na Pepper Sync si tu kuboresha; ni leap mbele kwa faragha, usable crypto.
+Zingo 2.0 yenye Usawazishaji wa Pepper si uboreshaji tu; ni hatua kubwa mbele kwa sarafu za kidijitali za faragha zinazoweza kutumika.
 
 ## Kurasa Zinazohusiana
 
-- [Zcash mkoba Syncing](/zcash-tech/zcash-wallet-syncing)  jinsi mkoba usawazishaji kazi katika mazingira Zcash.
-- [Lightwallet Nodes] (Ndoa za mkoba mwepesi)](/zcash-tech/lightwallet-nodes)  miundombinu light mkoba kama vile Zingo syncs dhidi.
-- [Zaino](/zcash-tech/zaino)  indexer zilizotengenezwa na timu Zingo.
-- [Mifuko ya fedha](/wallets)  orodha kamili ya pochi Zcash na sifa zao.
+- [Usawazishaji wa Pochi wa Zcash](/zcash-tech/zcash-wallet-syncing) — jinsi usawazishaji wa pochi unavyofanya kazi katika mfumo ikolojia wa Zcash.
+- [Node za Lightwallet](/zcash-tech/lightwallet-nodes) — miundombinu ambayo pochi nyepesi kama Zingo husawazishwa nayo.
+- [Zaino](/zcash-tech/zaino) — kiorodheshi kilichotengenezwa na timu ya Zingo.
+- [Pochi](/wallets) — orodha kamili ya pochi za Zcash na vipengele vyake.
 
 ## Kujifunza Zaidi
 
-- [Zingo! GitHub Repository] (Kifungu cha habari)](https://github.com/zingolabs/zingolib)
-- [Zcash Jamii Forum](https://forum.zcashcommunity.com/)
-- Matangazo rasmi - [Zingo Labs Twitter](https://twitter.com/ZingoLabs)
+- [Zingo! Hifadhi ya GitHub](https://github.com/zingolabs/zingolib)
+- [Jukwaa la Jumuiya la Zcash](https://forum.zcashcommunity.com/)
+- Matangazo Rasmi - [Zingo Labs Twitter](https://twitter.com/ZingoLabs)
 
 ___
 ___

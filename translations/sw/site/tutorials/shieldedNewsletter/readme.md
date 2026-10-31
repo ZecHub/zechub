@@ -1,20 +1,20 @@
-# Barua za Habari Zilizohifadhiwa
+# Majarida ya habari ya faragha [Shielded Newsletters]
 
 
-## Kuweka
+## Usanidi [Setup]
 
- * Zebrad node mbio na kikamilifu kulandanishwa na RPC ya juu na umeboreshwa kutumia cookies
- * zainod kikamilifu kulandanishwa
- * Zallet kuanzisha kuendesha RPC ya
+ * Node ya Zebrad inayofanya kazi na iliyosawazishwa kikamilifu, huku RPC zikiwa zimewashwa na kusanidiwa kutumia vidakuzi
+ * zainod iliyosawazishwa kikamilifu
+ * Zallet iliyosanidiwa kuendesha RPC
 
 
-### Kuanza Zallet
+### Anzisha Zallet
 
 `./target/release/zallet -c /home/zktails/.zallet/zallet.toml start`
 
-na zallet.toml faili iliyoboreshwa
+ukiwa na faili ya zallet.toml iliyosanidiwa
 
-mfano toml:
+mfano wa toml:
 
 ```markdown
 [builder]
@@ -72,17 +72,17 @@ bind = ["127.0.0.1:8237"]
 
 `chmod +x toCurl.sh`
 
-kurekebisha sahihi zebrad RPC (8232) bandari na ni pamoja na jina la mtumiaji na pw kutoka zebrad cookie
+Rekebisha bandari sahihi ya RPC (8232) ya zebrad na ujumuishe jina la mtumiaji na nenosiri kutoka kwenye kidakuzi cha zebrad
 
 
 `__cookie__:yourpasswordhere`
 
 
-### Jaribio RPC
+### Jaribu RPC
 
 `./target/release/zallet -c /home/zktails/.zallet/zallet.toml rpc help`
 
-Lazima pato
+Inapaswa kutoa
 
 ```bash
 getrawtransaction
@@ -107,22 +107,16 @@ z_recoveraccounts
 z_sendmany
 z_viewtransaction
 ```
-Kumbuka: kuhakikisha una nakala ya zallet executable katika folda ambapo kukimbia script
+Dokezo [Note]: Hakikisha una nakala ya kitekelezaji cha zallet katika folda ambamo unaendesha hati ya amri
 
-### Tumia maandishi
+### Endesha hati za amri
 
 `chmod +x ascii2hex hex2ascii shieldNewsletter.sh txBuilderFromFile.sh toCurl.sh`
 
-Sasisha daoAddress.md na UA ya unataka kutumia
+Sasisha daoAddress.md kwa UA unazotaka kutumia
 
-Fungua txBuilderFromFile.sh na update "kutoka" variable kwa UA kufadhiliwa kwamba ni katika mkoba wako zallet
+Fungua txBuilderFromFile.sh na usasishe kigezo cha “from” kuwa UA iliyofadhiliwa iliyo katika pochi yako ya zallet
 
 Kisha,
 
 `./shieldNewsletter.sh yourNewsletterHere.md`
-
-
-
-
-
-

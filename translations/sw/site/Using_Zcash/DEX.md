@@ -1,20 +1,20 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Using_Zcash/DEX.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Hariri Ukurasa"/>
 </a>
 
-# Masoko Yaliyogatuliwa
+# Masoko ya kubadilishana sarafu yaliyogatuliwa [Decentralised Exchanges]
 
-ZecHub haiungi mkono huduma yoyote maalum ya Ubadilishanaji wa Madaraka, tafadhali fanya utafiti wako mwenyewe.
+ZecHub haiungi mkono huduma yoyote mahususi ya soko la kubadilishana sarafu lililogatuliwa [Decentralised Exchange], tafadhali fanya utafiti wako mwenyewe.
 
-Kila moja `###` kichwa cha habari hapa chini kina kadi moja https://zechub.wiki/dex.
-Ongeza, hariri, au ondoa kizuizi hapa; wiki inakichukua kutoka kwenye faili hii.
+Kila kichwa cha `###` hapa chini ni kadi moja kwenye https://zechub.wiki/dex.
+Ongeza, hariri, au ondoa block hapa; wiki huichukua kutoka kwenye faili hili.
 
 ### NEAR Intents
 
 <img src="/nearintents.png" alt="NEAR Intents" width="200" height="100"/>
 
 - Tovuti: https://near.com/
-- Maelezo: Kubadilishana haraka kwa usaidizi wa NEAR. Weka amana, uza, badilisha ikiwa ni pamoja na TRUMP maarufu, MELANIA, BERA na meme zingine
+- Maelezo: Soko la haraka kwa msaada wa NEAR. Weka amana, uza, badilisha [swap] ikijumuisha TRUMP, MELANIA, BERA maarufu na meme nyingine
 
 ___
 
@@ -23,7 +23,7 @@ ___
 <img src="/nativeswap.png" alt="Nativeswap" width="200" height="100"/>
 
 - Tovuti: https://nativeswap.io/
-- Maelezo: Biashara ya Minyororo ya Asili Bila Vikwazo kupitia Maya Protocol. Fanya biashara moja kwa moja kwenye mnyororo bila madaraja au tokeni zilizofungwa - furahia ada za chini za tasnia na udhibiti kamili wa mali.
+- Maelezo: Biashara ya cross-chain [Cross-Chain Trading] ya asili bila vikwazo kupitia Maya Protocol. Fanya biashara moja kwa moja on-chain bila madaraja au tokeni zilizofungwa - furahia ada za chini katika sekta na udhibiti kamili wa mali.
 
 ___
 
@@ -32,7 +32,7 @@ ___
 <img src="/content-images/firodex-beta-release-b1958c5adc.webp" alt="Firo DEX" width="200" height="100"/>
 
 - Tovuti: https://github.com/firoorg/FiroDEX-Desktop
-- Maelezo: Ubadilishaji usioaminika wa sehemu zilizotengwa kwa kutumia ubadilishaji wa atomiki na FiroDEX!.
+- Maelezo: Mabadilishano yaliyogatuliwa [decentralized swaps] yasiyohitaji kuaminiwa yakitumia mabadilishano ya atomiki pamoja na FiroDEX!.
 
 ___
 
@@ -41,7 +41,7 @@ ___
 <img src="/leodex-logo.png" alt="LeoDex" width="200" height="100"/>
 
 - Tovuti: https://leodex.io
-- Maelezo: Crosschain hubadilishana na kuingia na kutoka kwa ZEC, hupitia THORChain, Maya Protocol, Chainflip, NEAR Intents, Relay na Rango. Hakuna akaunti, hakuna KYC, na hakuna muunganisho wa pochi unaohitajika kwenye njia zinazoungwa mkono.
+- Maelezo: Mabadilishano ya cross-chain kwenda na kutoka ZEC, yakielekezwa kupitia THORChain, Maya Protocol, Chainflip, NEAR Intents, Relay na Rango. Hakuna akaunti, hakuna KYC, na hakuna uunganishaji wa pochi unaohitajika kwenye njia zinazotumika.
 
 ___
 
@@ -50,7 +50,7 @@ ___
 <img src="/bisonwallet-logo.png" alt="Bison Wallet" width="200" height="100"/>
 
 - Tovuti: https://dex.decred.org/
-- Maelezo: Biashara ya sarafu ya kidijitali kwa rika. Hakuna ada za biashara. Hakuna KYC.
+- Maelezo: Fanya biashara ya sarafu za kidijitali kati ya watu binafsi. Hakuna ada za biashara. Hakuna KYC.
 
 ___
 
@@ -59,7 +59,7 @@ ___
 <img src="/thorswapLogo.png" alt="THORSwap" width="200" height="100"/>
 
 - Tovuti: https://app.thorswap.finance/
-- Maelezo: DEX ya mnyororo mtambuka inayoendeshwa na THORChain, ikiwezesha ubadilishanaji asilia kati ya Bitcoin, Ethereum, na mali zingine kuu bila tokeni zilizofungwa.
+- Maelezo: DEX ya cross-chain inayotumia THORChain, inayowezesha mabadilishano ya asili kati ya Bitcoin, Ethereum, na mali nyingine kuu bila tokeni zilizofungwa.
 
 ___
 
@@ -68,16 +68,16 @@ ___
 <img src="/routerProtocolLogo.png" alt="Router Protocol" width="200" height="100"/>
 
 - Tovuti: https://www.routerprotocol.com/
-- Maelezo: Safu ya usafirishaji wa ukwasi wa mnyororo mtambuka ambayo inaruhusu uhamishaji wa mali na data usio na mshono kati ya blockchain nyingi.
+- Maelezo: Tabaka la usafirishaji wa ukwasi wa cross-chain linaloruhusu uhamishaji rahisi wa mali na data kati ya blockchain [blockchains] nyingi.
 
 ___
 
-### Rika
+### Peer
 
 <img src="/peer-logo.jpg" alt="Peer" width="200" height="100"/>
 
 - Tovuti: https://peer.xyz/
-- Maelezo: Ubadilishanaji wa rika-kwa-rika uliogatuliwa unaowezesha miamala ya moja kwa moja ya crypto pamoja na faragha iliyoimarishwa na udhibiti wa mtumiaji.
+- Maelezo: Soko lililogatuliwa la mtu-kwa-mtu linalowezesha miamala ya moja kwa moja ya sarafu za kidijitali yenye faragha [privacy] iliyoimarishwa na udhibiti wa mtumiaji.
 
 ___
 
@@ -86,7 +86,7 @@ ___
 <img src="/rocketx-logo.jpg" alt="RocketX" width="200" height="100"/>
 
 - Tovuti: https://rocketx.exchange/
-- Maelezo: Kikusanyaji cha DEX mseto kinachowezesha ubadilishaji wa mnyororo mtambuka katika blockchain nyingi kwa uelekezaji bora na viwango vya ushindani.
+- Maelezo: Kijumlishi mseto cha DEX kinachowezesha mabadilishano ya cross-chain kwenye blockchain nyingi kwa uelekezaji bora na viwango shindani.
 
 ___
 
@@ -95,7 +95,7 @@ ___
 <img src="/thorchain-logo.jpg" alt="THORChain" width="200" height="100"/>
 
 - Tovuti: https://swap.thorchain.org/
-- Maelezo: Ubadilishanaji wa mnyororo mtambuka wa Tabaka la 1 uliogatuliwa. Badilisha mali asilia kama ZEC, BTC, na ETH moja kwa moja bila madaraja, tokeni zilizofungwa, au wapatanishi.
+- Maelezo: Soko lililogatuliwa la cross-chain la Tabaka la 1. Badilisha mali asili kama ZEC, BTC, na ETH moja kwa moja bila madaraja, tokeni zilizofungwa, au waamuzi.
 
 ___
 
@@ -104,7 +104,7 @@ ___
 <img src="/loofta-logo.svg" alt="Loofta" width="200" height="100"/>
 
 - Tovuti: https://loofta.xyz/
-- Maelezo: Jukwaa la malipo ya kibinafsi na ubadilishaji lisilo la ulinzi. Tuma na upokee crypto faraghani kupitia minyororo, huku Zcash ikiwa safu ya malipo kwa ajili ya faragha iliyoimarishwa ya kifedha.
+- Maelezo: Jukwaa la malipo ya faragha na kubadilisha lisilohifadhiwa na mtu mwingine [Non-custodial]. Tuma na upokee sarafu za kidijitali kwa faragha katika minyororo mingi, huku Zcash ikiwa tabaka la ukamilishaji kwa faragha ya kifedha iliyoimarishwa.
 
 
 ___
@@ -117,5 +117,4 @@ ___
 
 
 - Tovuti: https://zcashto.cash/
-- Maelezo: Pesa kutoka ZEC-to-fiat isiyo ya dhamana kupitia Peer. Tuma ZEC iliyolindwa na upokee malipo katika programu za malipo za kila siku kama vile Venmo, Cash App, Revolut, Zelle, Chime, na Monzo katika zaidi ya maeneo 100 ya kijiografia. Hakuna akaunti ya CEX inayohitajika; escrow hukamilika baada ya uthibitisho wa malipo ya fiat.
-
+- Maelezo: Utoaji wa fedha taslimu kutoka ZEC hadi fedha fiat usiohifadhiwa na mtu mwingine kupitia Peer. Tuma ZEC ya faragha [shielded] na upokee malipo katika programu za malipo za kila siku kama Venmo, Cash App, Revolut, Zelle, Chime, na Monzo katika maeneo zaidi ya 100. Hakuna akaunti ya CEX inayohitajika; escrow hukamilika baada ya thibitisho [proof] la malipo ya fiat.

@@ -4,27 +4,27 @@
 
 # <img src="/content-images/image-2024-02-03-165803028-2532c6c3ac.webp" alt="Alt Text" width="50"/>  Zcash Foundation
 
-## Taarifa ya Ujumbe
+## Taarifa ya Dhamira
 
-Our goal at ZF is to create tools that help sustain open networks, enabling anyone and everyone to protect their own privacy on their own terms. The essence of privacy itself is being able to choose what is or isn't shared with others. Privacy comprises both autonomy and consent; it is essential to human dignity and the healthy continuation of civil society.
+Lengo letu katika ZF ni kuunda vifaa [tools] vinavyosaidia kudumisha mitandao wazi, vikimwezesha kila mtu kulinda faragha [privacy] yake kwa masharti yake mwenyewe. Kiini cha faragha yenyewe ni kuweza kuchagua kile kinachoshirikiwa au kisichoshirikiwa na wengine. Faragha inajumuisha uhuru wa kujiamulia na ridhaa; ni muhimu kwa heshima ya binadamu na mwendelezo wenye afya wa jamii ya kiraia.
 
 ## Watu na Timu
 
-The Zcash Foundation has ~12 employees that are distributed across the world. They focus on protocol development, protocol security, protocol governance, infrastructure development and managing Zcash community events. The Zcash Foundation is not restricted to only working on Zcash and so also engages in developing privacy preserving technologies for [humanitarian aid](https://zfnd.org/sai/) na kwa manufaa ya umma kwa ujumla.
+Zcash Foundation ina takribani wafanyakazi 12 waliosambazwa kote duniani. Wanalenga maendeleo ya itifaki, usalama wa itifaki, utawala [governance] wa itifaki, maendeleo ya miundombinu na kusimamia matukio ya jumuiya ya Zcash. Zcash Foundation haijazuiwa kufanya kazi kwenye Zcash pekee, na kwa hiyo pia hushiriki katika kuendeleza teknolojia zinazohifadhi faragha kwa ajili ya [msaada wa kibinadamu](https://zfnd.org/sai/) na kwa manufaa ya umma kwa ujumla.
 
-Zcash Foundation Grants hutoa mfumo wa mazingira na njia ya kufadhili miradi ambayo kuchangia mazingira ya faragha kama vile [Zebra](https://zebra.zfnd.org/) (mpango wa node kujitegemea kwa Zcash) & [FROST](https://frost.zfnd.org/) pamoja na [aina mbalimbali](https://www.coindesk.com/tech/2021/06/08/tor-project-receives-670k-from-zcash-open-major-grants-for-coding-language-upgrade/) miradi mingine kupitia [Zcash Community Grants Committee](https://zcashcommunitygrants.org/). 
+Ruzuku [Grants] za Zcash Foundation huipa mfumo ikolojia njia ya kufadhili miradi inayochangia mfumo ikolojia wa faragha, kama vile [Zebra](https://zebra.zfnd.org/) (utekelezaji huru wa node kwa ajili ya Zcash) na [FROST](https://frost.zfnd.org/), pamoja na miradi [mbalimbali](https://www.coindesk.com/tech/2021/06/08/tor-project-receives-670k-from-zcash-open-major-grants-for-coding-language-upgrade/) mingine kupitia Kamati ya [Zcash Community Grants](https://zcashcommunitygrants.org/). 
 
-Foundation pia ana [Zcon](https://zfnd.org/zcon/), a yearly in-person conference centered on the Zcash ecosystem and supports grassroots, community initiatives such as [Zcon Vozes](https://zfnd.org/zcon-voices/), mkoa maalum [mikutano](https://zfnd.org/zcash-dev-summits/), Zcash Foundation A / V [Club](https://forum.zcashcommunity.com/t/the-zero-knowledge-audiovisual-club/43733), sasa Zero Ujuzi Audio Visual [Club](https://zkav.club/) na wito mwingine wa umma ulio wazi [](https://zfnd.org/arborist-calls/), jamii [matukio](https://zfnd.org/zf-events/#:~:text=Zcomm) na [AMA's](https://forum.zcashcommunity.com/t/community-call-with-the-zcg-candidates-december-2024/49707).
+Foundation pia huendesha [Zcon](https://zfnd.org/zcon/), mkutano wa ana kwa ana wa kila mwaka unaolenga mfumo ikolojia wa Zcash, na huunga mkono mipango ya jamii kutoka ngazi ya chini kama vile [Zcon Vozes](https://zfnd.org/zcon-voices/), [mikutano](https://zfnd.org/zcash-dev-summits/) mahususi kwa maeneo, Klabu ya Zcash Foundation A/V [Club](https://forum.zcashcommunity.com/t/the-zero-knowledge-audiovisual-club/43733), ambayo sasa ni Zero Knowledge Audio Visual [Club](https://zkav.club/), pamoja na [simu](https://zfnd.org/arborist-calls/) mbalimbali za jumuiya zilizo wazi, [matukio](https://zfnd.org/zf-events/#:~:text=Zcomm) ya jumuiya na [AMA's](https://forum.zcashcommunity.com/t/community-call-with-the-zcg-candidates-december-2024/49707).
 
-Zcash Foundation inatekeleza [Zcash Trademark sera](https://zfnd.org/new-zcash-trademark-policy/) per the updated conditions of it's donation by the Electric Coin Co. which helps "Protect the reputation of Zcash, its associated entities, and the Zcash community" by "identify(ing) official sources of information, reducing the likelihood of fraudulent or incorrect information" and "Identify(ing) official apps and services, reducing the likelihood of fraudulent activities." 
+Zcash Foundation hutekeleza sera ya chapa ya biashara ya [Zcash](https://zfnd.org/new-zcash-trademark-policy/) kwa mujibu wa masharti yaliyosasishwa ya mchango wake kutoka kwa Electric Coin Co. Hii husaidia “Kulinda sifa ya Zcash, huluki zake zinazohusiana, na jumuiya ya Zcash” kwa “kutambua vyanzo rasmi vya taarifa, na kupunguza uwezekano wa taarifa za ulaghai au zisizo sahihi” na “kutambua programu na huduma rasmi, na kupunguza uwezekano wa shughuli za ulaghai.” 
 
 ## Muundo wa Shirika
 
-Zcash Foundation ni [501c) (3)](https://projects.propublica.org/nonprofits/organizations/820707962) kodi ya bure, yasiyo ya faida [charity](https://zfnd.org/#:~:text=Committed%20to%20Transparency). Mbali na wao [Team](https://zfnd.org/#:~:text=Our%20Team), wana Bodi ya [Mkurugenzi](https://zfnd.org/#:~:text=Board%20of%20Directors) na kuwezesha uchaguzi wa utawala wa jamii kwa kupiga kura ya Ushauri wa Jumuiya ya Zcash [Panel](https://zfnd.org/zcash-community-advisory-panel/).
+Zcash Foundation ni shirika la hisani lisilo la faida, lisilotozwa kodi la [501(c)(3)](https://projects.propublica.org/nonprofits/organizations/820707962) [charity](https://zfnd.org/#:~:text=Committed%20to%20Transparency). Mbali na [Timu](https://zfnd.org/#:~:text=Our%20Team) yao, wana Bodi ya [Wakurugenzi](https://zfnd.org/#:~:text=Board%20of%20Directors) na huwezesha uchaguzi wa utawala wa jumuiya kwa kupigia kura Jopo la Ushauri la Jumuiya la Zcash [Panel](https://zfnd.org/zcash-community-advisory-panel/).
 
 ## Ufadhili
 
-Zcash Foundation haina tena kupokea fedha kutoka kwa maendeleo Zcash [mfuko](https://zips.z.cash/zip-1014) kama ya Novemba, 2024. Fedha kwa ajili ya Foundation sasa inapaswa kupitia jadi, kodi deductible [zawadi](https://www.jotform.com/form/251874383638065)Matumizi yao ya fedha inaweza kuonekana katika robo yao [Ripoti Uwazi](https://zfnd.org/category/transparency-reports/).
+Zcash Foundation haipokei tena ufadhili kutoka mfuko wa maendeleo wa Zcash [fund](https://zips.z.cash/zip-1014) tangu Novemba 2024. Ufadhili wa Foundation sasa hutolewa kupitia [michango](https://www.jotform.com/form/251874383638065) ya kawaida inayokatwa kodi. Matumizi yao ya fedha yanaweza kuonekana katika [Ripoti za Uwazi](https://zfnd.org/category/transparency-reports/) za kila robo mwaka.
 
 ## Programu ya Zcash Community Grants
 
@@ -32,12 +32,12 @@ Zcash Foundation haina tena kupokea fedha kutoka kwa maendeleo Zcash [mfuko](htt
   
 [https://zcashcommunitygrants.org/](https://zcashcommunitygrants.org/)
 
-This program funds independent teams to perform major ongoing development (or other work) that benefits the Zcash ecosystem. Grants are chosen by a five-person committee elected by the Zcash Community Advisory Panel. Teams and organizations that are interested in advancing the usability, security, privacy and adoption of Zcash are strongly encouraged to apply for a Zcash Community Grant!
+Programu hii hufadhili timu huru kutekeleza maendeleo makubwa yanayoendelea (au kazi nyingine) ambayo yanaufaa mfumo ikolojia wa Zcash. Ruzuku huchaguliwa na kamati ya watu watano iliyochaguliwa na Jopo la Ushauri la Jumuiya la Zcash. Timu na mashirika yanayopenda kuendeleza urahisi wa matumizi, usalama, faragha na utumiaji wa Zcash yanahimizwa sana kutuma maombi ya Ruzuku ya Jumuiya ya Zcash!
 
 
-## Video za Zcash Foundation zilizoangaziwa
+## Video Zilizoangaziwa za Zcash Foundation
   
-** Zebrad kwa Linux Tutorials **
+**Zebrad kwa Mafunzo ya Linux**
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -50,7 +50,7 @@ This program funds independent teams to perform major ongoing development (or ot
   />
 </div>
     
-** Jinsi ya Zcash **
+**Jinsi ya Zcash**
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -64,7 +64,7 @@ This program funds independent teams to perform major ongoing development (or ot
 </div>
 
 
-**Zcon Sauti: Brazil 2023**
+**Zcon Vozes: Brasil 2023**
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -78,7 +78,7 @@ This program funds independent teams to perform major ongoing development (or ot
 </div>
 
 
-** Zcash Foundation Bodi ya Wakurugenzi Wanachama: Marta Belcher & JW Verret **
+**Wanachama wa Bodi ya Wakurugenzi ya Zcash Foundation: Marta Belcher & J.W. Verret**
 
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
@@ -92,7 +92,7 @@ This program funds independent teams to perform major ongoing development (or ot
   />
 </div>
 
-**Arti: ZF + ZCG Wito w/ Tor Project**
+**Arti: ZF + Simu ya ZCG pamoja na Mradi wa Tor**
 
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
@@ -107,7 +107,7 @@ This program funds independent teams to perform major ongoing development (or ot
 </div>
 
 
-** Jumuiya Yaomba Kura Za ZCAP**
+**Simu za Jumuiya kwa ajili ya Kura za ZCAP**
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -121,7 +121,7 @@ This program funds independent teams to perform major ongoing development (or ot
 </div>
 
 
-**AMA na Mkurugenzi Mtendaji wa ZF Jack Gavigan**
+**AMA pamoja na Mkurugenzi Mtendaji wa ZF Jack Gavigan**
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -137,5 +137,3 @@ This program funds independent teams to perform major ongoing development (or ot
 ## Rasilimali
 
 [Zcash maendeleo na utawala](https://z.cash/zcash-development-and-governance/)
-
-

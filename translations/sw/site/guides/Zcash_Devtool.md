@@ -1,17 +1,17 @@
-# Kifaa Zcash Dev
+# Devtool ya Zcash
 
-[What is the zcash-devtool?](https://github.com/zcash/zcash-devtool?tab=readme-ov-file) 
+[Devtool ya zcash-devtool ni nini?](https://github.com/zcash/zcash-devtool?tab=readme-ov-file) 
 
-Zcash Devtool ni jukwaa la udukuzi kwenye Zcash. Limejengwa na watengenezaji, kwa ajili ya watengenezaji, kwa ajili ya kujaribu na kutengeneza utendaji mpya Zcash; na halipaswi kuzingatiwa kuwa tayari kwa uzalishaji. API ya mstari wa amri ambayo kifaa hiki kinafichua inaweza na itabadilika wakati wowote na bila onyo. USITOE fedha nyingi kwa usimamizi wa pochi iliyopachikwa ya zcash-devtool.
+Devtool ya Zcash ni jukwaa la kufanya udukuzi kwenye Zcash. Imeundwa na wasanidi programu [developers], kwa ajili ya wasanidi programu, kwa ajili ya majaribio na uundaji wa utendakazi mpya wa Zcash; na haipaswi kuchukuliwa kuwa tayari kwa matumizi ya uzalishaji. API ya mstari wa amri inayotolewa na kifaa hiki inaweza na itabadilika wakati wowote bila onyo. USIWEKE fedha kubwa chini ya usimamizi wa pochi [wallet] iliyopachikwa ya zcash-devtool.
 
-### Mafunzo ya video ya Zcash Devtool:
-Kris Nuttycombe (@nuttycom) aliwasilisha zana hii wakati wa ZconVI.
+### Mafunzo ya video ya Devtool ya Zcash:
+Kris Nuttycombe (@nuttycom) aliwasilisha kifaa hiki wakati wa ZconVI.
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
     className="w-full h-full"
     src="https://www.youtube.com/embed/5gvQF5oFT8E"
-    title="zcash-devtool: the Zcash development multitool with Kris Nuttycombe - ZconVI"
+    title="zcash-devtool: zana nyingi ya uundaji ya Zcash pamoja na Kris Nuttycombe - ZconVI"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowFullScreen
     loading="lazy"
@@ -21,15 +21,15 @@ Kris Nuttycombe (@nuttycom) aliwasilisha zana hii wakati wa ZconVI.
 
 ---
 
-Kwa mwongozo wa hatua kwa hatua wa jinsi ya kuanza kutumia zana hizi, tazama [mwongozo huu](https://github.com/zcash/zcash-devtool/blob/main/doc/walkthrough.md)Inaandika muhtasari kamili wa jinsi ya kuanzisha na kutumia zana za zcash devtool. Imekusudiwa kutumika kama mwongozo wa jinsi ya kuanzisha na jinsi ya kuongeza utendaji wako mwenyewe kwenye zana.
+Kwa mwongozo wa hatua kwa hatua wa jinsi ya kuanza kutumia vifaa hivi, tazama [mwongozo huu](https://github.com/zcash/zcash-devtool/blob/main/doc/walkthrough.md). Unaeleza mwongozo kamili wa jinsi ya kusanidi na kutumia vifaa vya zcash devtool. Unakusudiwa kutumika kama mwongozo wa jinsi ya kusanidi na kuongeza utendakazi wako mwenyewe kwenye kifaa hiki.
 
-## Anza haraka
+## Mwanzo wa haraka
 
-Amri zilizo hapa chini zilikaguliwa dhidi ya zcash-devtool `main` (kujitolea `5a26ee8`, Agosti 2026). Kifaa hubadilika bila taarifa, kwa hivyo endesha `--help` kwa amri yoyote ikiwa kitu hapa hakiendani tena.
+Amri zilizo hapa chini zilihakikiwa dhidi ya zcash-devtool `main` (commit `5a26ee8`, Agosti 2026). Kifaa hubadilika bila onyo, kwa hivyo endesha `--help` kwenye amri yoyote ikiwa kitu hapa hakilingani tena.
 
-### Sakinisha
+### Usakinishaji
 
-Hakuna jozi zilizojengwa tayari. Sakinisha [Rust](https://rustup.rs), kisha jenga kutoka chanzo:
+Hakuna jozi za programu zilizojengwa mapema. Sakinisha [Rust](https://rustup.rs), kisha unda kutoka kwenye chanzo:
 
 ```bash
 git clone https://github.com/zcash/zcash-devtool.git
@@ -37,11 +37,11 @@ cd zcash-devtool
 cargo run --release -- --help
 ```
 
-Mifano iliyo hapa chini inaita binary iliyojengwa, `target/release/zcash-devtool`. `cargo run --release -- ...` hufanya kazi kwa njia ile ile.
+Mifano iliyo hapa chini hutumia jozi ya programu iliyojengwa, `target/release/zcash-devtool`. `cargo run --release -- ...` hufanya kazi kwa njia ileile.
 
 ### Unda pochi ya testnet
 
-Anza kwenye testnet. Sarafu za Testnet (TAZ) hazina thamani.
+Anza kwenye testnet. Sarafu za testnet (TAZ) hazina thamani.
 
 ```bash
 zcash-devtool wallet -w ./my-wallet init --name demo -i ./my-wallet-identity.txt -n test
@@ -49,13 +49,13 @@ zcash-devtool wallet -w ./my-wallet sync
 zcash-devtool wallet -w ./my-wallet balance
 ```
 
-- `-w` ni saraka ya pochi. Inafuata `wallet` na kabla ya amri ndogo.
-- `-i` is an [umri](https://age-encryption.org) Faili ya utambulisho. Kifungu cha kumbukumbu cha pochi kimesimbwa kwa njia fiche, na faili huundwa ikiwa haipo. Ihifadhi: `send`, `shield` na amri zingine za matumizi zinahitaji ili kuondoa msimbo wa siri wa mbegu.
-- `-n` mtandao ni: `test` or `main`.
-- `-s` huchagua seva nyepesi ya pochi. Chaguo-msingi, `zecrocks`, huunganisha kwenye seva ya zec.rocks kwa mtandao uliochaguliwa.
-- Ili kurejesha pochi iliyopo, tumia `restore-mnemonic` badala ya `init`Inaashiria kifungu cha maneno.
+- `-w` ni saraka ya pochi. Huandikwa baada ya `wallet` na kabla ya amri ndogo.
+- `-i` ni faili ya utambulisho ya [age](https://age-encryption.org). Maneno ya kurejesha pochi ya pochi husimbwa fiche kwa faili hilo, na faili huundwa ikiwa halipo. Lihifadhi: `send`, `shield` na amri nyingine za matumizi zinahitaji kulifungua ili kufumbua maneno ya kurejesha pochi.
+- `-n` ni mtandao: `test` au `main`.
+- `-s` huchagua seva ya pochi nyepesi. Chaguomsingi, `zecrocks`, huunganisha kwenye seva ya zec.rocks kwa mtandao uliochaguliwa.
+- Ili kurejesha pochi iliyopo, tumia `restore-mnemonic` badala ya `init`. Itaomba maneno hayo.
 
-`balance` inaorodhesha kila bwawa la kuogelea kando, ikijumuisha Ironwood:
+`balance` huorodhesha kila bwawa [pool] kivyake, ikijumuisha Ironwood:
 
 ```
     Balance:   0.00000000 TAZ
@@ -65,13 +65,13 @@ zcash-devtool wallet -w ./my-wallet balance
   Unshielded Spendable:   0.00000000 TAZ
 ```
 
-Kimbia `zcash-devtool wallet -w ./my-wallet list-addresses` kuona anwani ya pamoja ya pochi, na kuituma pesa za testnet kutoka kwa [bomba](https://zechub.wiki/using-zcash/faucets).
+Endesha `zcash-devtool wallet -w ./my-wallet list-addresses` ili kuona anwani [address] iliyounganishwa ya pochi, na uitumie kupokea fedha za testnet kutoka kwenye [chanzo cha sarafu za bure](https://zechub.wiki/using-zcash/faucets) [faucet].
 
-Kwa mtandao mkuu, pasi `-n main` to `init`Tumia tu kiasi unachoweza kumudu kupoteza.
+Kwa mainnet, pitisha `-n main` kwa `init`. Tumia tu kiasi ambacho unaweza kumudu kupoteza.
 
-### Tuma na ulinde
+### Tuma na ufanye kuwa ya faragha
 
-Kiasi kiko katika zatoshis (1 ZEC = 100,000,000 zatoshi).
+Kiasi huonyeshwa kwa zatoshi (1 ZEC = zatoshi 100,000,000).
 
 ```bash
 zcash-devtool wallet -w ./my-wallet send -i ./my-wallet-identity.txt \
@@ -79,13 +79,13 @@ zcash-devtool wallet -w ./my-wallet send -i ./my-wallet-identity.txt \
 zcash-devtool wallet -w ./my-wallet shield -i ./my-wallet-identity.txt
 ```
 
-`propose` inaonyesha muamala a `send` ingejenga, bila kuituma. `list-tx` na `list-unspent` Onyesha historia na maelezo ya pochi.
+`propose` huonyesha muamala [transaction] ambao `send` ungeunda, bila kuutuma. `list-tx` na `list-unspent` huonyesha historia na madokezo [notes] ya pochi.
 
-Amri yoyote inayozungumza na seva pia inakubali `--connection tor`, ambayo hupitisha muunganisho kupitia mteja Tor aliyejengewa ndani.
+Amri yoyote inayowasiliana na seva pia hukubali `--connection tor`, ambayo huelekeza muunganisho kupitia mteja wa Tor uliojengewa ndani.
 
 ### Kagua anwani, funguo na miamala
 
-`inspect` husimbua data Zcash nje ya mtandao: anwani, funguo, na miamala ghafi. Ongeza `--lookup` ili kupata taarifa zaidi kutoka kwa mnyororo, kama vile muamala unaofanywa kwa kutumia kitambulisho chake.
+`inspect` hufumbua data ya Zcash nje ya mtandao: anwani, funguo na miamala ghafi. Ongeza `--lookup` ili kupata maelezo zaidi kutoka kwenye mnyororo [chain], kama vile muamala kwa kitambulisho chake.
 
 ```
 $ zcash-devtool inspect utest1h55y5z...
@@ -98,11 +98,11 @@ Zcash address
    - Transparent P2PKH (...)
 ```
 
-Noti za Ironwood hutumwa kwa kipokezi kile kile Orchard katika anwani iliyounganishwa, kwa hivyo anwani hazikubadilika na NU6.3.
+Madokezo ya Ironwood hutumwa kwa kipokezi kilekile cha Orchard katika anwani iliyounganishwa, kwa hivyo anwani hazikubadilika kwa NU6.3.
 
-### Jenga miamala kwa hatua kwa kutumia PCZTs
+### Jenga miamala kwa hatua ukitumia PCZT
 
-PCZT (muamala wa Zcash ulioundwa kwa sehemu) hugawanya ujenzi wa muamala katika hatua tofauti: kuunda, kuthibitisha, kusaini, na kutuma. Kila hatua inaweza kuendeshwa kwenye mashine tofauti, kwa mfano na kisaini cha vifaa kama vile Keystone `pczt` amri inasoma PCZT kutoka kwa faili au stdin na kuiandika kwenye faili (`--output`) au stdout, ili hatua ziweze kupigwa bomba:
+PCZT (muamala ulioundwa kwa sehemu wa Zcash) hugawanya uundaji wa muamala katika hatua tofauti: unda, thibitisha, tia sahihi, na tuma. Kila hatua inaweza kuendeshwa kwenye mashine tofauti, kwa mfano kwa kutumia kitia sahihi cha hardware kama Keystone. Kila amri ya `pczt` husoma PCZT kutoka kwenye faili au stdin na kuiandika kwenye faili (`--output`) au stdout, kwa hivyo hatua zinaweza kuunganishwa kwa bomba:
 
 ```bash
 zcash-devtool pczt -w ./my-wallet create --address <recipient address> --value 100000 \
@@ -111,11 +111,11 @@ zcash-devtool pczt -w ./my-wallet create --address <recipient address> --value 1
   | zcash-devtool pczt -w ./my-wallet send
 ```
 
-`zcash-devtool pczt --help` inaorodhesha hatua zingine, ikiwa ni pamoja na `inspect`, `redact`, `combine`, `extract` na `shield`.
+`zcash-devtool pczt --help` huorodhesha hatua nyingine, zikiwemo `inspect`, `redact`, `combine`, `extract` na `shield`.
 
 ### Hamisha fedha kutoka Orchard hadi Ironwood
 
-Tangu NU6.3, fedha za Orchard zinaweza kuhamishiwa kwenye anwani za pochi pekee `migration` amri zinazihamisha hadi Ironwood:
+Tangu NU6.3, fedha za Orchard zinaweza kuhamishwa tu hadi kwenye anwani za pochi yenyewe. Amri za `migration` huzihamisha hadi Ironwood:
 
 ```bash
 zcash-devtool migration -w ./my-wallet plan
@@ -124,21 +124,19 @@ zcash-devtool migration -w ./my-wallet status
 zcash-devtool migration -w ./my-wallet advance
 ```
 
-- `plan` huhakiki mgawanyiko wa noti na ratiba ya uhamisho, na haibadilishi chochote.
-- `commit` hujenga na kusaini mapema miamala ya kwanza ya maandalizi. Ongeza `--external` kuziacha bila saini kwa mtu wa nje kama vile Keystone.
-- `status` inaonyesha maendeleo ya uhamiaji na hatua inayofuata.
-- `advance` inathibitisha muamala unaofuata ambao nanga yake iko tayari.
+- `plan` hukagua mapema mgawanyo wa dokezo na ratiba ya uhamisho, na haibadilishi chochote.
+- `commit` huunda na kutia sahihi mapema miamala ya kwanza ya maandalizi. Ongeza `--external` ili kuiacha bila sahihi kwa kitia sahihi cha nje kama Keystone.
+- `status` huonyesha maendeleo ya uhamishaji na hatua inayofuata.
+- `advance` huthibitisha muamala unaofuata ambao nanga yake iko tayari.
 
-Amri za uhamiaji bado zinajengwa. `advance` husimama katika muamala wa kwanza ambao uko tayari kutangazwa, kwa sababu utangazaji haujatekelezwa kwenye kifaa bado. Kwa matumizi ya kila siku, hamisha pesa ukitumia pochi inayounga mkono Ironwood. Tazama [Mabwawa ya Kuogelea Yenye Ngao](https://zechub.wiki/using-zcash/shielded-pools).
+Amri za uhamishaji bado zinaundwa. `advance` husimama kwenye muamala wa kwanza ulio tayari kutangazwa, kwa sababu utangazaji bado haujatekelezwa kwenye kifaa. Kwa matumizi ya kila siku, hamisha fedha kwa pochi inayotumia Ironwood. Tazama [Mabwawa ya Faragha](https://zechub.wiki/using-zcash/shielded-pools).
 
 
 **Maonyo ya Usalama:**
-USITUMIE HII KATIKA UZALISHAJI!!!
-Programu hii haijaandikwa kwa kuzingatia usalama. Hata hivyo, ina uwezo kama vile usimbaji fiche wa vifungu vya mnemonic ambavyo vinapaswa kuifanya iweze kutumika kwa majaribio madogo, kwa hatari yako mwenyewe.
+USITUMIE HII KWENYE UZALISHAJI!!!
+Programu haijaandikwa kwa kuzingatia usalama. Hata hivyo, ina vipengele kama usimbaji fiche [encryption] wa maneno ya kurejesha pochi ambayo yanapaswa kuifanya ifae kwa majaribio madogo, kwa hatari yako mwenyewe.
 
-### Kina (librustzcash)
+### Ya Juu (mafunzo ya librustzcash )
 
 
 [tazama video hapa](https://free2z.cash/uploadz/public/ZcashTutorial/librustzcash-a-rust-crates.mp4)
-
-

@@ -1,130 +1,130 @@
-# ZIP 218: Kile Kinachobadilika kwa Vitalu vya Sekunde 25
+# ZIP 218: Kile Ambacho Block za Sekunde 25 Hubadilisha Kwa Hakika
 
-Katika kura ya maoni ya wamiliki wa sarafu NU7 iliyofungwa mnamo Septemba 14, 2026, takriban ZEC 2,397,669 walipiga kura ya ZIP 218 na ZEC 141.6 walipiga kura dhidi yake, matokeo ya 99.9%. Wadau wengi waliifupisha kama "Zcash vinakuwa haraka zaidi." Hiyo ni kweli, lakini inaacha sehemu kubwa ya kile ambacho pendekezo hilo hufanya na mengi ya kile ambacho linaweka sawa kimakusudi.
+Katika kura ya wamiliki wa sarafu ya NU7 iliyofungwa tarehe 14 Septemba 2026, takribani ZEC 2,397,669 walipiga kura kuunga mkono ZIP 218 na ZEC 141.6 walipiga kura kuipinga, matokeo ya 99.9%. Maelezo mengi yaliifupisha kama “Block za Zcash zinakuwa za haraka zaidi.” Hilo ni kweli, lakini linaacha sehemu kubwa ya kile ambacho pendekezo linafanya na sehemu kubwa ya kile ambacho kwa makusudi linaacha bila kubadilisha.
 
-Ukurasa huu unaelezea ZIP 218 kutoka kwa maandishi yake: kinachobadilika, kisichobadilika, na kinachogharimu kiasi gani.
+Ukurasa huu unaeleza ZIP 218 kwa kutegemea maandishi yake yenyewe: kile kinachobadilika, kile kisichobadilika, na gharama yake.
 
 ## Toleo fupi
 
 | | Leo | Baada ya ZIP 218 |
 |---|---|---|
-| Nafasi ya kulenga vitalu | Sekunde 75 | Sekunde 25 |
-| Vitalu kwa siku | 1,152 | 3,456 |
-| Ruzuku ya vitalu (enzi ya sasa ya nusu) | 1.5625 ZEC | 0.52083333 ZEC |
-| ZEC mpya kwa siku | haijabadilika | haijabadilika |
-| Kipindi cha nusu | Vitalu 1,680,000 | Vitalu 5,040,000 |
-| Vizuizi vya vitendo vilivyolindwa kwa kila kizuizi | hakuna (kikomo cha ukubwa wa MB 2 pekee) | Jumla ya 330, pamoja na vifuniko vya kila bwawa |
-| Uzalishaji wa Orchard (miamala ya vitendo 2) | kama 2.9 kwa sekunde | kama 6.6 kwa sekunde |
+| Nafasi lengwa kati ya block | Sekunde 75 | Sekunde 25 |
+| Block kwa siku | 1,152 | 3,456 |
+| Ruzuku ya block (kipindi cha sasa cha kupunguzwa kwa nusu [halving]) | ZEC 1.5625 | ZEC 0.52083333 |
+| ZEC mpya kwa siku | Haibadiliki | Haibadiliki |
+| Kipindi cha kupunguzwa kwa nusu | Block 1,680,000 | Block 5,040,000 |
+| Vikomo vya vitendo vya faragha [shielded] kwa block | Hakuna (kikomo cha ukubwa wa MB 2 pekee) | 330 kwa jumla, yakiwa na vikomo kwa kila bwawa [pool] |
+| Uwezo wa miamala [transactions] ya Orchard (miamala yenye vitendo 2) | Takribani 2.9 kwa sekunde | Takribani 6.6 kwa sekunde |
 
 ![ZIP 218 cuts block target spacing from 75 seconds to 25, tripling daily blocks from 1,152 to 3,456, while dividing the per-block subsidy by the same factor of three from 1.5625 to 0.52083333 ZEC, so daily issuance stays at 1,800 ZEC and the halving interval stretches from 1,680,000 to 5,040,000 blocks to hold halving dates fixed](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/nu7-block-timing.png)
 
-Mara tatu ya vitalu vingi, kila kimoja kikilipa theluthi moja ya kiasi hicho. Ratiba ya usambazaji inabaki pale ilipokuwa.
+Block nyingi mara tatu, kila moja ikilipa thuluthi moja ya kiasi. Ratiba ya ugavi inabaki ilipokuwa.
 
-## Kwa nini ubadilishe muda wa kuzuia
+## Kwa nini kubadilisha muda wa block
 
-Lengo kuu ni **muda mdogo wa kusubiri**. Leo malipo husubiri sekunde 75 kwa wastani kwa uthibitisho wake wa kwanza, bila kujali mzigo wa mtandao. Kwa sekunde 25 hiyo hupungua hadi sekunde 25 kwa wastani. ZIP inataja malipo ya sehemu ya mauzo, amana za kubadilishana na madaraja ya mnyororo mtambuka kama matumizi yanayohisiwa zaidi.
+Lengo kuu ni **kupunguza muda wa kusubiri**. Leo, malipo [payment] husubiri sekunde 75 kwa wastani ili kupata uthibitisho wake wa kwanza, bila kujali mzigo wa mtandao. Kwa sekunde 25, hali hiyo hushuka hadi sekunde 25 kwa wastani. ZIP inataja malipo ya sehemu za mauzo, amana za soko la kubadilishana sarafu [exchange], na madaraja ya cross-chain kama matumizi yanayohisi jambo hili zaidi.
 
-Mambo mawili kutoka kwa ZIP yanafaa kukumbukwa:
+Mambo mawili kutoka kwenye ZIP yanafaa kuzingatiwa:
 
-- **Haimwambii mtu yeyote kutumia uthibitisho mdogo.** Kwa watumiaji ambao wana uvumilivu sawa wa hatari ya kurudi nyuma kama ilivyo leo, ZIP inatarajia muda wa uthibitisho kuimarika kwa chini kidogo ya mara tatu.
-- **Sio mbadala wa kazi ya umaliziaji.** ZIP inajielezea kama inayosaidiana na mifumo ya umaliziaji kama vile Crosslink. Vitalu vya safu ya msingi vya kasi husaidia iwe safu ya umaliziaji itaongezwa baadaye au la.
+- **Haiwaambii watu kutumia uthibitisho chache zaidi.** Kwa watumiaji wanaodumisha uvumilivu uleule wa hatari ya kurejeshwa nyuma kama leo, ZIP inatarajia muda wa uthibitisho kuboreka kwa chini kidogo ya mara tatu.
+- **Si mbadala wa kazi ya ukamilifu.** ZIP inajieleza kuwa inayokamilishana na taratibu za ukamilifu kama Crosslink. Block za safu ya msingi zilizo haraka zaidi husaidia iwe safu ya ukamilifu itaongezwa baadaye au la.
 
-ZIP pia inabainisha kuwa upitishaji wa juu pekee ungeweza kupatikana kwa ukubwa mkubwa wa vitalu. Ucheleweshaji ndio sababu ya kuchagua vitalu vifupi badala yake.
+ZIP pia inabainisha kwamba uwezo mkubwa wa miamala ungeweza kupatikana kwa kuongeza ukubwa wa block. Muda wa kusubiri ndio sababu ya kuchagua block fupi badala yake.
 
-## Mabadiliko gani
+## Kile kinachobadilika
 
-### Utoaji: ZEC sawa kwa siku
+### Utoaji: ZEC zilezile kwa siku
 
-Kuongeza mara tatu idadi ya vitalu kungeongeza mara tatu utoaji wa kila siku ikiwa hakuna kingine kilichobadilika. ZIP 218 inazuia hilo kwa kugawa ruzuku ya kila kitalu kwa kipengele kingine cha tatu mara tu NU7 itakapokuwa inafanya kazi.
+Kuongeza idadi ya block mara tatu kungeongeza utoaji wa kila siku mara tatu iwapo hakuna kingine kingebadilika. ZIP 218 huzuia hilo kwa kugawanya ruzuku kwa kila block kwa kipengele kingine cha tatu pindi NU7 inapokuwa amilifu.
 
-Katika enzi ya sasa ya ugawaji nusu, hiyo inachukua ruzuku ya vitalu kutoka **1.5625 ZEC hadi 0.52083333 ZEC** (52,083,333 zatoshi). Kwa sababu zatoshi 156,250,000 hazigawanyiki sawasawa kwa tatu, kila vitalu huzungushwa chini kwa theluthi moja ya zatoshi. Katika kipindi chote cha ugawaji nusu wa vitalu 5,040,000 ambacho ni takriban 0.0168 ZEC kwa jumla.
+Katika kipindi cha sasa cha kupunguzwa kwa nusu, hilo hupunguza ruzuku ya block kutoka **ZEC 1.5625 hadi ZEC 0.52083333** (zatoshi 52,083,333). Kwa sababu zatoshi 156,250,000 haigawanyiki sawasawa kwa tatu, kila block huzungushwa chini kwa thuluthi ya zatoshi. Katika kipindi kamili cha kupunguzwa kwa nusu cha block 5,040,000, hilo ni takribani ZEC 0.0168 kwa jumla.
 
-Ruzuku hiyo ni jumla ya ZEC mpya iliyoundwa kwa kila kitalu. Sehemu iliyopo ya ufadhili wa maendeleo bado inachukuliwa kutoka humo, kwa hivyo wachimbaji hupokea chini ya takwimu kamili, kama ilivyo leo.
+Ruzuku ni jumla ya ZEC mpya inayoundwa kwa kila block. Sehemu iliyopo ya ufadhili wa maendeleo bado huchukuliwa kutoka humo, kwa hiyo wachimbaji [miners] hupokea chini ya kiasi kamili, sawa kabisa na leo.
 
-> **Dokezo kwenye takwimu ya ZEC ya 0.26041666.** Dokezo la maelezo la rasimu ZIP's linachapisha ruzuku post-NU7 kama ghorofa (156250000 / 6) = 0.26041666 ZEC, na baadhi ya habari zimerudia. Dokezo hilo si sahihi kwa sababu ya mbili: 156,250,000 zatoshi tayari ni ruzuku post-Blossom, kwa hivyo kuigawanya kwa sita hutumia kipengele cha Blossom cha mbili kwa mara ya pili juu ya kipengele cha NU7 cha tatu. Fomula ya kawaida inatoa ghorofa (1,250,000,000 / (2 · 3 · 4)) = 52,083,333 zatoshi katika faharisi ya sasa ya nusu. Suala la utekelezaji wa Zebra's kwa mabadiliko haya ([#11463](https://github.com/ZcashFoundation/zebra/issues/11463)) hurekodi noti kama inayohesabu mara mbili kipengele cha Blossom, huwaambia watekelezaji "kutekeleza fomula, si noti," na husema marekebisho yamewasilishwa dhidi ya ZIP. Takwimu sahihi wakati wa uanzishaji ni **0.52083333 ZEC**.
+> **Dokezo kuhusu kiasi cha ZEC 0.26041666.** Dokezo la ufafanuzi la rasimu ya ZIP huchapisha ruzuku ya baada ya NU7 kama floor(156250000 / 6) = ZEC 0.26041666, na baadhi ya taarifa za habari zimelirudia. Dokezo hilo lina hitilafu ya kipengele cha mbili: zatoshi 156,250,000 tayari ni ruzuku ya baada ya Blossom, hivyo kuigawanya kwa sita hutumia kipengele cha mbili cha Blossom mara ya pili juu ya kipengele cha tatu cha NU7. Fomula ya kikanuni hutoa floor(1,250,000,000 / (2 · 3 · 4)) = zatoshi 52,083,333 katika faharasa ya sasa ya kupunguzwa kwa nusu. Toleo la Zebra la utekelezaji kwa mabadiliko haya ([#11463](https://github.com/ZcashFoundation/zebra/issues/11463)) linarekodi dokezo hilo kama lililohesabu kipengele cha Blossom mara mbili, linawaambia watekelezaji “tekelezeni fomula, si dokezo,” na linasema marekebisho yamewasilishwa dhidi ya ZIP. Kiasi sahihi wakati wa uanzishaji ni **ZEC 0.52083333**.
 
-### Kupunguza nusu huweka muda wake
+### Vipindi vya kupunguzwa kwa nusu vinadumisha muda wake
 
-Kipindi cha nusu kinaongezeka mara tatu kutoka vitalu 1,680,000 hadi vitalu 5,040,000. Kwa kuwa vitalu hufika mara tatu zaidi, nusu bado huanguka katika kipindi kile kile kama vile ambavyo vingekuwa bila mabadiliko. Jumla ya kikomo cha usambazaji haiathiriwi.
+Kipindi cha kupunguzwa kwa nusu kinaongezeka mara tatu kutoka block 1,680,000 hadi block 5,040,000. Kwa kuwa block hufika mara tatu zaidi, vipindi vya kupunguzwa kwa nusu bado hutokea takribani wakati uleule ambavyo vingetokea bila mabadiliko. Kikomo cha jumla cha ugavi hakiathiriki.
 
-Hili ni tofauti na swali lingine la utoaji katika kura ya maoni NU7, ambapo wenye sarafu walipiga kura kuweka nusu badala ya kuzibadilisha na mkunjo uliolainishwa. ZIP 218 inafanya kazi na modeli iliyopo ya nusu na haibadilishi.
+Hili ni tofauti na swali lingine la utoaji katika kura ya NU7, ambapo wamiliki wa sarafu walipiga kura kudumisha kupunguzwa kwa nusu badala ya kukubali mkunjo uliosawazishwa. ZIP 218 hufanya kazi kwa muundo uliopo wa kupunguzwa kwa nusu na hauubadilishi.
 
-### Mipaka mipya kwenye vitendo vilivyolindwa kwa kila kizuizi
+### Vikomo vipya vya vitendo vya faragha kwa block
 
-ZIP 218 inaongeza kikomo cha shughuli zilizolindwa ambazo kizuizi kimoja kinaweza kushikilia:
+ZIP 218 huongeza vikomo vya kiasi cha shughuli za faragha ambacho block moja inaweza kubeba:
 
-| Kikomo | Kiwango cha juu zaidi kwa kila kizuizi |
+| Kikomo | Kiwango cha juu kwa block |
 |---|---|
-| Mabwawa yote yenye ulinzi yameunganishwa | 330 (kila Sprout JoinSplit huhesabiwa kama 2) |
-| Vitendo Orchard | 330 |
-| Pembejeo za Sapling pamoja na matokeo | 300 |
-| Sprout JoinSplits | 25 |
+| Mabwawa yote ya faragha kwa pamoja | 330 (kila JoinSplit ya Sprout huhesabiwa kama 2) |
+| Vitendo vya Orchard | 330 |
+| Ingizo pamoja na matokeo ya Sapling | 300 |
+| JoinSplit za Sprout | 25 |
 
-Sehemu za miamala zisizo na uwazi haziathiriwi, na kikomo cha ukubwa wa block 2 MB bado kinatumika.
+Sehemu za uwazi [transparent] za miamala haziathiriki, na kikomo cha ukubwa wa block cha MB 2 bado kinatumika.
 
-Mipaka ipo kwa sababu vitalu vingi vinginevyo vingemaanisha kazi zaidi kwa pochi na nodi. Kwa kuwa na vifuniko vilivyowekwa, hali mbaya zaidi inakuwa **bora** kuliko leo, hata kwa vitalu mara tatu zaidi:
+Vikomo hivi vipo kwa sababu block nyingi zaidi zingemaanisha kazi zaidi kwa pochi [wallets] na node. Vikomo vikiwekwa, hali mbaya zaidi kwa hakika inakuwa **bora** kuliko leo, hata kwa block nyingi mara tatu:
 
-- **Usawazishaji wa pochi:** data nyingi zaidi ambayo pochi nyepesi inaweza kupakua kwa siku moja hupungua kutoka takriban MB 271 hadi takriban MB 169, takriban punguzo la 38%. Uondoaji wa usimbaji fiche katika kesi mbaya zaidi hupungua kutoka takriban milioni 4.8 hadi takriban milioni 2.3 kwa siku.
-- **Uthibitishaji wa vizuizi:** Vipimo ZIP's vinaweka kizuizi Orchard chenye kesi mbaya zaidi kwa takriban milisekunde 432 chini ya mipaka mipya, dhidi ya takriban milisekunde 770 kwa kesi mbaya zaidi ya leo. Kwa Sapling tone ni kubwa zaidi, kutoka takriban milisekunde 3,175 hadi takriban milisekunde 272.
+- **Usawazishaji wa pochi:** Kiwango kikubwa zaidi cha data ambacho pochi nyepesi inaweza kulazimishwa kupakua kwa siku kinashuka kutoka takribani MB 271 hadi takribani MB 169, upungufu wa karibu 38%. Usimbuaji fiche wa majaribio katika hali mbaya zaidi unashuka kutoka takribani milioni 4.8 hadi takribani milioni 2.3 kwa siku.
+- **Uthibitishaji wa block:** Vigezo vya ZIP vinaweka block ya Orchard katika hali mbaya zaidi kuwa takribani ms 432 chini ya vikomo vipya, dhidi ya takribani ms 770 kwa hali mbaya zaidi ya leo. Kwa Sapling, upungufu ni mkubwa zaidi, kutoka takribani ms 3,175 hadi takribani ms 272.
 
-Vifuniko Sapling na Sprout vimefungwa kimakusudi. Kufikia Mei 2026, Orchard ilikuwa na 87.9% ya ZEC, Sapling 11.6% na Sprout 0.5%, kwa hivyo mabwawa madogo hupata nafasi ya kutosha kwa matumizi yao halisi huku ikimpa mshambuliaji matumizi kidogo. Kwa sababu ada za ZIP 317 hutoza sawa kwa kila kitendo cha kimantiki katika kila bwawa, mshambuliaji hatapata faida yoyote kwa kutuma barua taka kwenye bwawa moja badala ya jingine.
+Vikomo vya Sapling na Sprout vimebanwa kwa makusudi. Kufikia Mei 2026, Orchard ilishikilia 87.9% ya ZEC ya faragha, Sapling 11.6% na Sprout 0.5%, hivyo mabwawa madogo hupata nafasi ya kutosha kwa matumizi yao halisi huku yakimpa mshambuliaji kidogo cha kutumia vibaya. Kwa sababu ada [fees] za ZIP 317 hutoza kiasi kilekile kwa kila tendo la kimantiki katika kila bwawa, mshambuliaji hapati faida kwa kujaza bwawa moja kwa taka badala ya jingine.
 
-### Upitishaji
+### Uwezo wa miamala
 
-Kwa vitendo 330 vya Orchard kwa kila kizuizi, muamala wa kawaida Orchard wa vitendo 2 unafaa ⌊330 / 2⌋ = mara 165 kwa kila kizuizi. Kwa kizuizi kimoja kila baada ya sekunde 25 hiyo ni takriban miamala **6.6 kwa sekunde**, kutoka takriban 2.9 leo — ZIP inaiita ongezeko la 2.3× katika upitishaji wa kawaida Orchard. Sapling hutoka kwa takriban 3.0 kwa sekunde, bado juu ya kile Orchard inachoweza kufanya leo.
+Kwa vitendo 330 vya Orchard kwa kila block, muamala wa kawaida wa Orchard wenye vitendo 2 unatoshea ⌊330 / 2⌋ = 165 kwa kila block. Kwa block moja kila sekunde 25, hilo ni takribani **miamala 6.6 kwa sekunde**, kutoka takribani 2.9 leo — ZIP inaliita ongezeko la 2.3× katika uwezo wa kawaida wa miamala ya Orchard. Sapling hufikia takribani 3.0 kwa sekunde, bado juu ya kile ambacho Orchard husimamia leo.
 
-### Marekebisho ya ugumu
+### Urekebishaji wa ugumu
 
-Algorithm ya ugumu huongezeka kwa wastani katika dirisha la vizuizi vya hivi karibuni. ZIP 218 huinua dirisha hilo kutoka vizuizi 17 hadi 102, kwa hivyo bado inashughulikia takriban sekunde 2,550 za muda halisi, muda uleule uliofunika wakati Zcash ilipozindua na vizuizi vya sekunde 150. ZIP inatoa sababu mbili: ili kuepuka kurahisisha mashambulizi ya ujanja-ujanja (inataja tukio la Litecoin la Aprili 2026 MWEB), na kupunguza tofauti za muda mfupi katika nyakati za vizuizi.
+Algoriti ya ugumu hufanya wastani katika dirisha la block za karibuni. ZIP 218 huongeza dirisha hilo kutoka block 17 hadi 102, hivyo bado linafunika takribani sekunde 2,550 za muda halisi, muda uleule lililofunika wakati Zcash ilipozinduliwa kwa block za sekunde 150. ZIP inatoa sababu mbili: kuepuka kufanya mashambulizi ya udanganyifu wa ugumu kuwa mepesi zaidi (inataja tukio la MWEB la Litecoin la Aprili 2026), na kulainisha mabadiliko ya muda mfupi katika nyakati za block.
 
-Mara tu baada ya uanzishaji, muda wa kuzuia utachukua muda kutulia kwenye shabaha mpya. Hilo linatarajiwa na linaakisi kile kilichotokea Blossom, wakati Zcash ilipopanda kutoka sekunde 150 hadi 75.
+Mara tu baada ya uanzishaji, nyakati za block zitachukua muda kutulia katika lengo jipya. Hilo linatarajiwa na linafanana na kilichotokea katika Blossom, wakati Zcash ilipobadilika kutoka sekunde 150 hadi 75.
 
-### Chaguo-msingi za nodi na pochi
+### Mipangilio chaguomsingi ya node na pochi
 
-Haya ni mapendekezo ya utekelezaji badala ya sheria za makubaliano:
+Haya ni mapendekezo kwa utekelezaji badala ya kanuni za makubaliano [consensus]:
 
-- **Muamala wa mwisho:** muda wa mwisho wa muamala huongezeka kutoka vitalu 40 hadi 120, na kudumu takriban dakika 50 sawa.
-- **Kina cha juu zaidi cha urekebishaji upya:** Kikomo Zebra's kinaongezeka kutoka vitalu 99 hadi 600, kama saa 4.2 kwa sekunde 25, dirisha lile lile alilofunika wakati wa uzinduzi.
-- **Kina cha nanga kwa miamala iliyolindwa:** kinabaki katika vitalu 3, kwa hivyo ucheleweshaji hupungua kutoka dakika 3.75 hadi dakika 1.25. ZIP inafuata mfano wa Blossom hapa.
-- **Vigezo kadhaa vya mtandao** vinavyopimwa katika vitalu huongezwa kwa tatu ili viweze kugharamia muda sawa.
+- **Mwisho wa muda wa muamala:** Muda chaguomsingi wa mwisho unaongezeka kutoka block 40 hadi 120, ukidumisha takribani dakika 50 zilezile.
+- **Kina cha juu zaidi cha reorg:** Kikomo cha Zebra kinaongezeka kutoka block 99 hadi 600, takribani saa 4.2 kwa sekunde 25, dirisha lilelile lililofunika wakati wa uzinduzi.
+- **Kina cha nanga kwa miamala ya faragha:** Kinabaki block 3, kwa hiyo ucheleweshaji hupungua kutoka dakika 3.75 hadi dakika 1.25. ZIP hufuata mfano wa Blossom hapa.
+- **Vigezo kadhaa vya mtandao** vinavyopimwa kwa block vinaongezwa mara tatu ili vifunike muda uleule.
 
-## Kinachobaki vile vile
+## Kile kinachobaki sawa
 
-- ZEC iliyotolewa kwa siku, ratiba ya kupunguza nusu na kikomo cha usambazaji
-- Kikomo cha ukubwa wa vitalu 2 MB
-- Miamala ya uwazi, ambayo mipaka mipya ya vitendo haigusi
-- Ukomavu wa Coinbase katika vitalu 100. Kumbuka kwamba hii sasa inamaanisha kama dakika 42 badala ya kama 125, kwa sababu hesabu iko katika vitalu, si wakati.
+- ZEC inayotolewa kwa siku, ratiba ya kupunguzwa kwa nusu, na kikomo cha ugavi
+- Kikomo cha ukubwa wa block cha MB 2
+- Miamala ya uwazi, ambayo vikomo vipya vya vitendo haviigusi
+- Ukomavu wa Coinbase katika block 100. Kumbuka kwamba sasa hii inamaanisha takribani dakika 42 badala ya takribani 125, kwa sababu hesabu iko katika block, si muda.
 
-## Makubaliano: vitalu vya zamani zaidi
+## Ubadilishanaji: block zilizopitwa na wakati zaidi
 
-Vizuizi vya kasi si vya bure. Kizuizi cha zamani ni kizuizi halali kinachopoteza mbio za kujumuishwa kwenye mnyororo kwa sababu kizuizi kingine kilifika kwenye mtandao kwanza. Kadiri pengo kati ya vizuizi linavyopungua, ndivyo hili linavyotokea mara nyingi, na ZIP huunganisha kiwango cha zamani na uenezaji wa kuzuia, muda wa uthibitishaji na hatari ya uchimbaji kati.
+Block za haraka zaidi si za bure. Block iliyopitwa na wakati ni block halali inayopoteza mbio za kujumuishwa katika mnyororo [chain] kwa sababu block nyingine ilifikia mtandao kwanza. Kadiri pengo kati ya block linavyokuwa fupi, ndivyo hali hii hutokea mara nyingi zaidi, na ZIP inahusisha kiwango cha block zilizopitwa na wakati na uenezaji wa block, muda wa uthibitishaji, na hatari ya mkusanyiko wa uchimbaji [mining].
 
-- **Leo:** karibu 0.4%, ambayo ZIP inabainisha inaweza kupuuza kiwango cha msingi kwa sababu nguvu ya hash imejilimbikizia kwenye mabwawa.
-- **Kinadharia kwa sekunde 25:** karibu 3.26%, kulingana na ucheleweshaji wa uenezaji wa Zcash uliopimwa.
-- **Jaribio la Devnet:** Nodi 99 za Zebra zilizosambazwa kijiografia zinazozalisha vizuizi kamili vya MB 2 kwa nafasi ya sekunde 25 zilipima kiwango cha zamani cha 4.86% na kiwango cha uma cha 0.37%. Urekebishaji pekee uliohitajika ulikuwa usanidi wa TCP. Kwa sababu devnet hiyo ilikuwa imegawanywa zaidi kuliko mtandao mkuu wa leo, ZIP inachukulia hizi kama takwimu zinazokaribiana na hali mbaya zaidi.
-- **Kigezo cha marejeleo:** ZIP inatumia kiwango cha kihistoria cha uthibitisho wa kazi cha 5.4% kama kizingiti chake cha usalama. Takwimu zote mbili za waendelezaji ziko chini yake.
+- **Leo:** Takribani 0.4%, ambayo ZIP inabainisha inaweza kupunguza kiwango halisi kwa sababu hashpower imekusanyika katika mabwawa.
+- **Kidhahania kwa sekunde 25:** Takribani 3.26%, kwa kutegemea ucheleweshaji uliopimwa wa uenezaji wa Zcash.
+- **Jaribio la Devnet:** Node 99 za Zebra zilizosambazwa kijiografia zikizalisha block kamili za MB 2 kwa nafasi ya sekunde 25 zilipima kiwango cha block zilizopitwa na wakati cha 4.86% na kiwango cha fork cha 0.37%. Urekebishaji pekee uliohitajika ulikuwa usanidi wa TCP. Kwa sababu devnet hiyo ilikuwa imegatuliwa [decentralized] zaidi kuliko mainnet ya leo, ZIP huzichukulia hizi kama takwimu zilizo karibu na hali mbaya zaidi.
+- **Kigezo cha marejeleo:** ZIP hutumia kiwango cha kihistoria cha block zilizopitwa na wakati cha Ethereum cha uthibitisho wa kazi [proof-of-work] cha 5.4% kama kizingiti chake cha usalama. Takwimu zote mbili za devnet ziko chini yake.
 
-Pia kuna gharama mbili ndogo. Pochi nyepesi hupakua takriban KB 200 zaidi kwa siku ya vichwa vya habari vya block ndogo. Na kwa sababu kuna block mara tatu zaidi, nodi kamili ambayo imekuwa nje ya mtandao ina block zaidi za kusindika inapofikia, ingawa kila block ni ya bei rahisi kuthibitisha. ZIP inakubali zote mbili.
+Pia kuna gharama mbili ndogo. Pochi nyepesi hupakua takribani KB 200 zaidi kwa siku za vichwa vya compact block. Na kwa sababu kuna block nyingi mara tatu, full node ambayo imekuwa nje ya mtandao ina block nyingi zaidi za kuchakata inapofidia, ingawa kila block ni nafuu zaidi kuthibitisha. ZIP inakubali yote mawili.
 
 ## Hali na ratiba
 
-- **ZIP:** Rasimu. Wamiliki Dev Ojha na Evan Forbes; iliundwa Machi 13, 2026.
-- **Kura ya maoni ya wamiliki wa sarafu:** ilifungwa tarehe 14 Septemba 2026, ikiwa na uungwaji mkono wa 99.9%. Kura ya maoni inaonyesha upendeleo; haibadilishi sheria za makubaliano yenyewe.
-- **Muda wa Matumizi:** katika tangazo la Jukwaa la Jumuiya Zcash mnamo Septemba 17, mashirika ya maendeleo yalikubaliana ratiba ya msimbo kukamilika ifikapo Septemba 30, NU7 kwenye testnet mnamo Oktoba 6, uamuzi wa mwisho na urefu wa uanzishaji wa mainnet mnamo Oktoba 20, na uanzishaji wa mainnet unaolengwa kwa takriban Novemba 5, 2026. Novemba 5 ni lengo, si tarehe maalum, hadi urefu utakapowekwa.
-- **Utekelezaji:** unafuatiliwa katika Zebra ([#11440](https://github.com/ZcashFoundation/zebra/issues/11440)) na katika Zakura ([PR #1066](https://github.com/zakura-core/zakura/pull/1066)).
+- **Hali ya ZIP:** Imependekezwa. Wamiliki ni Dev Ojha na Evan Forbes; iliundwa tarehe 13 Machi 2026.
+- **Kura ya wamiliki wa sarafu:** Ilifungwa tarehe 14 Septemba 2026, kwa uungwaji mkono wa 99.9%. Kura huashiria upendeleo; haibadilishi kanuni za makubaliano yenyewe.
+- **Ratiba:** Katika tangazo la Community Forum la Zcash tarehe 17 Septemba, mashirika ya maendeleo yalikubaliana kuhusu ratiba ya msimbo kukamilika kufikia tarehe 30 Septemba, NU7 kwenye testnet tarehe 6 Oktoba, na uamuzi wa mwisho tarehe 20 Oktoba. Urefu wa uanzishaji wa mainnet sasa umewekwa kuwa 3,543,405 ([ZIP 259](https://zips.z.cash/zip-0259)), ukilengwa kwa takribani tarehe 5 Novemba 2026.
+- **Utekelezaji:** Unafuatiliwa katika Zebra ([#11440](https://github.com/ZcashFoundation/zebra/issues/11440)) na katika Zakura ([PR #1066](https://github.com/zakura-core/zakura/pull/1066)).
 
-## Hii ina maana gani kwako
+## Hii inamaanisha nini kwako
 
-- **Kushikilia ZEC:** hakuna cha kufanya. Salio lako na ratiba ya usambazaji havijaathiriwa.
-- **Kutumia pochi:** sasisha pochi yako inapotuma usaidizi wa NU7. Uthibitisho wa kwanza utafika karibu mara tatu mapema zaidi.
-- **Kuendesha nodi, ubadilishaji au huduma:** panga kusasisha kabla ya kuamilishwa, na kukagua mipangilio yoyote iliyopimwa katika vizuizi, kwani hesabu ya vizuizi vilivyowekwa sasa inashughulikia theluthi moja ya muda ilivyokuwa hapo awali.
+- **Kushikilia ZEC:** Hakuna cha kufanya. Salio lako na ratiba ya ugavi haviathiriki.
+- **Kutumia pochi:** Sasisha wakati pochi yako inapotuma usaidizi wa NU7. Uthibitisho wa kwanza utawasili takribani mara tatu mapema zaidi.
+- **Kuendesha node, soko la kubadilishana sarafu, au huduma:** Panga kusasisha kabla ya uanzishaji, na pitia mipangilio yoyote inayopimwa kwa block, kwa kuwa hesabu isiyobadilika ya block sasa inafunika thuluthi ya muda iliyokuwa ikifunika.
 
 ## Vyanzo
 
-- [ZIP 218: Nafasi ya Kulenga ya Vitalu vya Sekunde 25](https://zips.z.cash/zip-0218)
-- [ZIP 208: Nafasi Fupi ya Kulenga Vitalu](https://zips.z.cash/zip-0208), mfano wa Blossom
-- [Jukwaa: Pendekezo — Nafasi ya Lengo la Kizuizi Zcash cha Chini hadi sekunde 25](https://forum.zcashcommunity.com/t/proposal-lower-zcash-block-target-spacing-to-25s/54577)
-- [Jukwaa: Kupunguza Muda wa Kuzuia Zcash Kunaonekana Kuwa Salama kwa NU7 na Zebra-only](https://forum.zcashcommunity.com/t/zcash-block-time-reduction-appears-safe-for-nu7-w-zebra-only-devnet/55586)
-- [Toleo la Zebra #11463](https://github.com/ZcashFoundation/zebra/issues/11463), kipindi cha nusu ya post-NU7 na ruzuku
-- [Toleo la Zebra #11440](https://github.com/ZcashFoundation/zebra/issues/11440), Ufuatiliaji wa utekelezaji wa ZIP 218
-- Matokeo ya kura ya maoni NU7 na ratiba, kama ilivyoripotiwa na Bitcoin.com News, crypto.news na KuCoin (16–19 Septemba 2026)
+- [ZIP 218: Nafasi Lengwa ya Block ya Sekunde 25](https://zips.z.cash/zip-0218)
+- [ZIP 208: Nafasi Lengwa Fupi ya Block](https://zips.z.cash/zip-0208), mfano wa Blossom
+- [Forum: Pendekezo — Punguza Nafasi Lengwa ya Block ya Zcash hadi 25s](https://forum.zcashcommunity.com/t/proposal-lower-zcash-block-target-spacing-to-25s/54577)
+- [Forum: Kupunguzwa kwa Muda wa Block wa Zcash Kunaonekana Salama kwa NU7 kwa Devnet ya Zebra-pekee](https://forum.zcashcommunity.com/t/zcash-block-time-reduction-appears-safe-for-nu7-w-zebra-only-devnet/55586)
+- [Zebra suala #11463](https://github.com/ZcashFoundation/zebra/issues/11463), kipindi cha kupunguzwa kwa nusu baada ya NU7 na ruzuku
+- [Zebra suala #11440](https://github.com/ZcashFoundation/zebra/issues/11440), ufuatiliaji wa utekelezaji wa ZIP 218
+- NU7 matokeo ya kura na ratiba, kama ilivyoripotiwa na Bitcoin.com News, crypto.news na KuCoin (16–19 Septemba 2026)

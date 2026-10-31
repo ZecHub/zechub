@@ -2,16 +2,16 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-Yafuatayo ni mkusanyiko wa vyombo vya habari zaidi Zcon kuhusiana katika rahisi kupata eneo.
+Yafuatayo ni mkusanyiko wa maudhui mengi yanayohusiana na Zcon katika eneo rahisi kupatikana.
 
 # Zcon
-Zcon ni mkutano wa kila mwaka ulioandaliwa na [Zcash Foundation](https://zfnd.org/).
+Zcon ni kongamano la kila mwaka linaloandaliwa na [Zcash Foundation](https://zfnd.org/).
 
-## Zcon0: Faragha kutoka A hadi Zcon
+## Zcon0: Faragha [Privacy] kutoka A hadi Zcon
 
-Zcon0 ilikuwa mkutano wetu wa kwanza wa kila mwaka, na ilienda vizuri sana. Tulitumia Juni 26-28th 2018 katika Montreal nzuri
+Zcon0 lilikuwa kongamano letu la kwanza la kila mwaka, na lilifanikiwa sana. Tulitumia Juni 26-28, 2018 katika jiji zuri la Montreal
 
-[Zcon0 orodha ya kucheza](https://www.youtube.com/playlist?list=PL40dyJ0UYTLK507afWUMgzUYeh-i4qQWS)
+[Orodha ya video ya Zcon0](https://www.youtube.com/playlist?list=PL40dyJ0UYTLK507afWUMgzUYeh-i4qQWS)
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -25,11 +25,11 @@ Zcon0 ilikuwa mkutano wetu wa kwanza wa kila mwaka, na ilienda vizuri sana. Tuli
 </div>
 
 
-## Zcon1: Zero kwa faragha Hero
+## Zcon1: Kuanzia Sifuri hadi Shujaa wa Faragha
 
-mkutano wa pili wa kila mwaka wa faragha na teknolojia ulioandaliwa na Zcash Foundation, ulifanyika huko Split, Croatia mnamo Juni 22 hadi 24 2019.
+Kongamano la pili la kila mwaka kuhusu faragha na teknolojia, lililoandaliwa na Zcash Foundation, lilifanyika Split, Kroatia kuanzia Juni 22 hadi 24, 2019.
 
-[Zcon1 orodha ya kucheza](https://www.youtube.com/playlist?list=PL40dyJ0UYTLLjPZaKjdhMoCNanb77_Ztj)
+[Orodha ya video ya Zcon1](https://www.youtube.com/playlist?list=PL40dyJ0UYTLLjPZaKjdhMoCNanb77_Ztj)
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -43,11 +43,11 @@ mkutano wa pili wa kila mwaka wa faragha na teknolojia ulioandaliwa na Zcash Fou
 </div>
 
 
-## Zcon2: Faragha All the Way Down
+## Zcon2: Faragha Hadi Kina Chote
 
-Zcon2 ilifanyika Jumanne, Juni 8 na Jumatano, Juni 9, 2021. Zcon 2 ilikuwa mkutano wa kawaida
+Zcon2 ilifanyika Jumanne, Juni 8 na Jumatano, Juni 9, 2021. Zcon2 lilikuwa kongamano la mtandaoni
 
-[Zcon2 orodha ya kucheza](https://www.youtube.com/playlist?list=PL40dyJ0UYTLLa68H9ibpiSZqeevqKizg4)
+[Orodha ya video ya Zcon2](https://www.youtube.com/playlist?list=PL40dyJ0UYTLLa68H9ibpiSZqeevqKizg4)
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -61,11 +61,11 @@ Zcon2 ilifanyika Jumanne, Juni 8 na Jumatano, Juni 9, 2021. Zcon 2 ilikuwa mkuta
 </div>
 
 
-## Zcon3: Code Alone Doesn't Cut It (Nambari Pekee Haifanyi Kazi)
+## Zcon3: Msimbo Pekee Hautoshi
 
-Zcon3 ilifanyika huko Las Vegas kutoka Agosti 7-9th 2022.
+Zcon3 ilifanyika Las Vegas kuanzia Agosti 7-9, 2022.
 
-[Zcon3 orodha ya kucheza](https://www.youtube.com/playlist?list=PL40dyJ0UYTLJm-Cl7ez3UXp8R4IuUNDfb)
+[Zcon3 Orodha ya video](https://www.youtube.com/playlist?list=PL40dyJ0UYTLJm-Cl7ez3UXp8R4IuUNDfb)
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -79,11 +79,11 @@ Zcon3 ilifanyika huko Las Vegas kutoka Agosti 7-9th 2022.
 </div>
 
 
-## Zcon4: Baadaye Haijaandikwa
+## Zcon4: Mustakabali Bado Haujaandikwa
 
-Mkutano huo utafanyika jijini Barcelona, Uhispania Julai 30-31, 2023 na utatangazwa moja kwa moja kutoka eneo hilo. 
+Kongamano la ana kwa ana litafanyika Barcelona, Hispania Julai 30-31, 2023 na litarushwa moja kwa moja kutoka ukumbini. 
 
-[Zcon4 orodha ya kucheza](https://www.youtube.com/playlist?list=PL40dyJ0UYTLII7oQRQmNOFf0d2iKT35tL)
+[Orodha ya video ya Zcon4](https://www.youtube.com/playlist?list=PL40dyJ0UYTLII7oQRQmNOFf0d2iKT35tL)
 
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
@@ -97,11 +97,11 @@ Mkutano huo utafanyika jijini Barcelona, Uhispania Julai 30-31, 2023 na utatanga
   />
 </div>
 
-## ZconV: Zcash Umoja
+## ZconV: Zcash Iliyounganishwa
 
-ZconV ilifanyika Mei 6-10th, 2024. Zcon V ilikuwa mkutano wa kawaida
+ZconV ilifanyika Mei 6-10, 2024. ZconV lilikuwa kongamano la mtandaoni
 
-[ZconV orodha ya kucheza](https://www.youtube.com/playlist?list=PL40dyJ0UYTLJ41e2uSOJItvbW1YVR49aR)
+[Orodha ya video ya ZconV](https://www.youtube.com/playlist?list=PL40dyJ0UYTLJ41e2uSOJItvbW1YVR49aR)
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -114,11 +114,11 @@ ZconV ilifanyika Mei 6-10th, 2024. Zcon V ilikuwa mkutano wa kawaida
   />
 </div>
 
-## ZconVI: Synergy Kupitia Decentralization
+## ZconVI: Ushirikiano Kupitia Ugatuzi
 
-ZconVI ulifanyika Machi 4th-7th, 2025. Zcon VI ilikuwa mkutano wa virusi
+ZconVI ilifanyika Machi 4-7, 2025. ZconVI lilikuwa kongamano la mtandaoni
 
-[ZconVI orodha ya kucheza](https://www.youtube.com/playlist?list=PL40dyJ0UYTLIIhRk8vu2hkPL_q7OWO7wk)
+[Orodha ya video ya ZconVI](https://www.youtube.com/playlist?list=PL40dyJ0UYTLIIhRk8vu2hkPL_q7OWO7wk)
 
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
@@ -131,6 +131,3 @@ ZconVI ulifanyika Machi 4th-7th, 2025. Zcon VI ilikuwa mkutano wa virusi
     loading="lazy"
   />
 </div>
-
-
-

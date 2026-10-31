@@ -2,37 +2,37 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Exporting Transaction History kutoka Viewing Key
+# Kuhamisha Historia ya Miamala [Transaction History] kutoka kwenye Viewing Key
 
-Wengi wa mkoba mauzo ya nje ni nyembamba. ZODL 's kodi ya kuuza nje, kwa mfano, inakupa tarehe, kiasi na ada kwa ajili ya mwaka uliopita kalenda, lakini hakuna shughuli IDs, hakuna memos wala anwani yoyote. Hiyo haitoshi kwa bookkeeping, kuangalia uhamiaji mfuko, au kufanya kazi nini kilichotokea malipo.
+Uhamishaji mwingi wa pochi [wallet] una taarifa chache. Uhamishaji wa kodi wa ZODL, kwa mfano, hukupa tarehe, kiasi na ada [fees] za mwaka wa kalenda uliopita, lakini hakuna vitambulisho vya miamala, jumbe [memos] wala anwani [addresses]. Hiyo haitoshi kwa utunzaji wa hesabu, kuthibitisha uhamisho wa pochi, au kubaini kilichotokea kwa malipo [payment].
 
-Huna haja ya neno la mbegu kupata picha kamili. Umoja wa kuangalia muhimu (UFVK, kuanzia `uview1`) unaweza kuona kila shughuli zinazoingia na zinazotoka katika akaunti, na zana mbili inaweza kugeuka kuwa kwenye faili wewe kuweka: Zkool GraphQL server na zingo-cli. mwongozo huu hukusanya mbinu kutoka kwa watumiaji wa kawaida hadi wateja wako binafsi (kama vile mteja) ili kupata maelezo ya kina kuhusu jinsi gani wanaweza kufanya biashara yako au kutengeneza bidhaa zao. [thread hii ya jukwaa](https://forum.zcashcommunity.com/t/exporting-transaction-history-to-json-csv-from-ufvk-seed/54662) na updates yao kwa releases ya sasa.
+Huhitaji maneno yako ya kurejesha pochi [seed phrase] ili kupata picha kamili. Ufunguo wa kutazama kamili uliounganishwa (UFVK, unaoanza `uview1`) unaweza kuona kila muamala unaoingia na unaotoka katika akaunti, na vifaa [tools] viwili vinaweza kugeuza hilo kuwa faili unalohifadhi: seva ya GraphQL ya Zkool na zingo-cli. Mwongozo huu unakusanya mbinu kutoka kwenye [mazungumzo haya ya jukwaa](https://forum.zcashcommunity.com/t/exporting-transaction-history-to-json-csv-from-ufvk-seed/54662) na kuzisasisha kwa matoleo ya sasa.
 
-Ilijaribiwa Septemba 2026 na Zkool 6.30.0 na zingo-cli kutoka zingolib 6.0.0.
+Ilijaribiwa Septemba 2026 kwa Zkool 6.30.0 na zingo-cli kutoka zingolib 6.0.0.
 
-## Kabla ya kuanza .
+## Kabla hujaanza
 
-Unahitaji mambo mawili:
+Unahitaji vitu viwili:
 
-1. ** UFVK** kwa ajili ya akaunti. [Kuangalia funguo za kuvinjari](/zcash-tech/viewing-keys) inaelezea kile kinachodhihirisha na jinsi ya kuuza nje moja.
-2. **A birth height**, the block to start scanning from. Use a height from before your first transaction. Kuweka juu sana na historia ya zamani ni kimya kukosa. Set it too low and the scan just takes longer. Sapling activation (419200) is always safe but can take hours to scan.
+1. **UFVK** ya akaunti. [Viewing Keys](/zcash-tech/viewing-keys) inaeleza inachofichua na jinsi ya kuihamisha.
+2. **Urefu wa kuanzia**, block [block] ambayo uchanganuzi utaanza kutoka. Tumia urefu wa kabla ya muamala wako wa kwanza. Ukiuweka juu sana, historia ya zamani haitapatikana kimya kimya. Ukiuweka chini sana, uchanganuzi utachukua muda mrefu zaidi. Uanzishaji wa Sapling (419200) ni salama kila wakati lakini unaweza kuchukua saa kadhaa kuchanganua.
 
-## Iweke faragha.
+## Uweke faraghani
 
-Ufunguo wa kutazama hauwezi kutumia, lakini huonyesha historia yako yote kwa yeyote anayeshikilia.
+Ufunguo wa kutazama hauwezi kutumia fedha, lakini unaonyesha historia yako yote kwa yeyote anayeushikilia.
 
-- Usiweke kwenye tovuti au block explorer. Ingiza katika programu unayoendesha mwenyewe.
-- Server wewe kulandanisha kutoka anaona anwani yako ya IP na ambayo shughuli download katika full. zana zote mbili chini kupata kila moja ya shughuli zako kwa ID kusoma memos na ada, na [ZIP 307 - Ujumbe wa posta.](https://zips.z.cash/zip-0307) inabainisha kwamba hii anaelezea server ambayo shughuli ni yako. Syncing kutoka node yako mwenyewe Zebra na Zaino au lightwalletd kuepuka kuwa. [Zingolib na Zaino Tutorial](/guides/zingolib-and-zaino-tutorial) anatembea kupitia kuanzisha.
-- zingo-cli 6 hutuma malipo juu ya Nym mixnet, lakini usawazishaji wake bado unaunganisha kwa seva moja kwa moja, hivyo hatua hapo juu inatumika pia.
-- Kutoa zana hizi kuangalia muhimu, kamwe mbegu. Zkool GraphQL server hana login default, na API yake itakuwa mkono nyuma ya mbegu ya akaunti yoyote kuundwa kutoka moja, na unaweza kutuma fedha.
-- Weka server kwenye mashine yako mwenyewe. amri Docker chini tu anasikiliza juu ya `127.0.0.1`.
-- Zana zote kuhifadhi ufunguo na historia yako unencrypted. Futa data ya kazi wakati wewe ni kufanyika na kuweka kuuza nje mahali fulani encrypting.
+- Usiubandike kwenye tovuti au kichunguzi cha block. Uuingize kwenye programu unayoendesha mwenyewe.
+- Seva unayosawazisha nayo huona anwani yako ya IP na miamala unayopakua kikamilifu. Vifaa vyote viwili hapa chini hupata kila muamala wako kwa kitambulisho ili kusoma jumbe na ada, na [ZIP 307](https://zips.z.cash/zip-0307) inabainisha kuwa hii huambia seva miamala ipi ni yako. Kusawazisha kutoka kwenye node yako mwenyewe ya Zebra kwa kutumia Zaino au lightwalletd huepusha hilo. [Zingolib na Mafunzo ya Zaino](/guides/zingolib-and-zaino-tutorial) yanaelekeza hatua kwa hatua jinsi ya kusanidi.
+- zingo-cli 6 hutuma malipo kupitia mixnet ya Nym, lakini usawazishaji wake bado huunganisha kwenye seva moja kwa moja, kwa hiyo hoja iliyo hapo juu inaihusu pia.
+- Vipe vifaa hivi ufunguo wa kutazama, kamwe si seed. Seva ya GraphQL ya Zkool haina kuingia kwa chaguomsingi, na API yake itarudisha seed ya akaunti yoyote iliyoundwa kutoka kwa moja, na inaweza kutuma fedha.
+- Weka seva kwenye mashine yako mwenyewe. Amri ya Docker hapa chini husikiliza tu kwenye `127.0.0.1`.
+- Vifaa vyote viwili huhifadhi ufunguo na historia yako bila usimbaji fiche [encryption]. Futa data ya kazi ukimaliza na uhifadhi uhamishaji mahali paliposimbwa fiche.
 
-## Chaguo 1: Zkool GraphQL
+## Chaguo la 1: GraphQL ya Zkool
 
-`zkool_graphql` ni injini mkoba Zkool ya kama seva kujitegemea. Ni mpango tofauti kutoka programu Zkoul. Njia rahisi kuendesha ni rasmi Docker picha (amd64 na arm64). Pia kuna Linux x86-64 binary juu ya [Zkool releases ukurasa](https://github.com/hhanh00/zkool2/releases); inahitaji glibc 2.38 au mpya, hivyo Ubuntu 24.04 kazi na Debian 12 haina.
+`zkool_graphql` ni injini ya pochi ya Zkool kama seva huru. Ni programu tofauti na programu ya Zkool. Njia rahisi zaidi ya kuiendesha ni taswira rasmi ya Docker (amd64 na arm64). Pia kuna binari ya x86-64 ya Linux kwenye [ukurasa wa matoleo wa Zkool](https://github.com/hhanh00/zkool2/releases); inahitaji glibc 2.38 au toleo jipya zaidi, kwa hivyo Ubuntu 24.04 hufanya kazi na Debian 12 haifanyi.
 
-### 1. Kuanza server
+### 1. Anzisha seva
 
 ```bash
 docker run -d --name zkool-export \
@@ -42,11 +42,11 @@ docker run -d --name zkool-export \
   --db-path /data/zkool.db
 ```
 
-Ni syncs kutoka `https://zec.rocks` isipokuwa wewe kuongeza `--lwd-url` Wakati wa kuanza kwanza ni downloads Sapling vigezo (kuhusu 50 MB). Kama kwamba inashindwa, `docker start zkool-export` jaribu tena.
+Husawazisha kutoka `https://zec.rocks` isipokuwa uongeze `--lwd-url` na seva yako mwenyewe. Inapoanzishwa kwa mara ya kwanza inapakua vigezo vya Sapling (takriban MB 50). Hilo likishindikana, `docker start zkool-export` hujaribu tena.
 
-Kufungua `http://127.0.0.1:8000/graphiql` Unaweza kuweka kila moja ya hatua zifuatazo huko na kukimbia.
+Fungua `http://127.0.0.1:8000/graphiql` katika kivinjari. Unaweza kubandika kila hatua inayofuata humo na kuiendesha.
 
-### 2. Kuingiza ufunguo huo
+### 2. Ingiza ufunguo
 
 ```graphql
 mutation {
@@ -60,10 +60,10 @@ mutation {
 }
 ```
 
-Ni anarudi ID mpya akaunti ya, ambayo ni 1 kwenye seva safi.
+Hurejesha kitambulisho cha akaunti mpya, ambacho ni 1 kwenye seva mpya.
 
-- Daima kuweka `birth`. Bila hiyo Zkool huanza kutoka block ya sasa na hupata chochote.
-- `useInternal: true` hufanya Zkool kuangalia uwazi mabadiliko ya anwani pia. Kuweka juu kwa funguo kutoka ZODL, kuweka sawa [Kufufua Fedha](/using-zcash/recovering-funds) matumizi kwa mbegu ZODL.
+- Weka `birth` kila wakati. Bila hiyo Zkool huanza kutoka block ya sasa na haipati chochote.
+- `useInternal: true` hufanya Zkool ichunguze pia anwani za mabadiliko ya uwazi [transparent]. Iwashe kwa funguo kutoka ZODL, mpangilio uleule unaotumiwa na [Kurejesha Fedha](/using-zcash/recovering-funds) kwa seed za ZODL.
 
 ### 3. Sawazisha
 
@@ -71,19 +71,19 @@ Ni anarudi ID mpya akaunti ya, ambayo ni 1 kwenye seva safi.
 mutation { synchronizeAccount(idAccount: 1) }
 ```
 
-Hii anaendesha mpaka mwisho wa usawazishaji. Usiongeze `fast: true`Ni skips downloading shughuli kamili, ambayo ni ambapo memos, ada na matokeo kutoka.
+Hii huendelea hadi usawazishaji umalizike. Usiongeze `fast: true`. Huruka kupakua miamala kamili, ambako jumbe, ada na matokeo hutoka.
 
-Idadi ni kurudi urefu ilikuwa inalenga kwa, si ushahidi got huko. kosa la mtandao unaweza kumaliza usawazishaji mapema bila taarifa chochote, hivyo kuangalia:
+Nambari inayorejesha ni urefu uliokuwa inalenga, si uthibitisho kwamba iliufikia. Hitilafu ya mtandao inaweza kumaliza usawazishaji mapema bila kuripoti chochote, kwa hivyo angalia:
 
 ```graphql
 { currentHeight accounts { id name height } }
 ```
 
-Kama akaunti ya `height` ni nyuma ya `currentHeight`, kuendesha sync tena. Inaendelea kutoka ambapo ni kusimamishwa.
+Ikiwa `height` ya akaunti iko nyuma ya `currentHeight`, endesha usawazishaji tena. Huendelea kutoka ilipokomea.
 
-### 4 Usafirishaji nje ya nchi
+### 4. Hamisha
 
-Hifadhi hii kama: `history.graphql`:
+Hifadhi hii kama `history.graphql`:
 
 ```graphql
 {
@@ -96,9 +96,9 @@ Hifadhi hii kama: `history.graphql`:
 }
 ```
 
-Acha nje ya `height` hoja isipokuwa wewe maana yake. Inaweka kiwango cha chini, hivyo mfano jukwaa ya `height: 3000000` kuacha kila kitu kabla ya kuzuia kwamba.
+Acha hoja ya `height` isipokuwa unaimaanisha. Inaweka kiwango cha chini, kwa hivyo `height: 3000000` ya mfano wa jukwaa huondoa kila kitu kabla ya block hiyo.
 
-Kuileta kama JSON:
+Ipate kama JSON:
 
 ```bash
 jq -n --rawfile q history.graphql '{query: $q}' |
@@ -106,15 +106,15 @@ jq -n --rawfile q history.graphql '{query: $q}' |
     -H 'content-type: application/json' --data-binary @- > history.json
 ```
 
-Kila shughuli lazima kuonyesha ada juu ya 0, madini tuzo kando. Kama mtu inaonyesha `"fee": "0"` Zkool fetches shughuli kamili moja kwa wakati baada ya skanning, na kushindwa mmoja kimya anaacha wengine. orodha yoyote walioathirika:
+Kila muamala unapaswa kuonyesha ada zaidi ya 0, isipokuwa zawadi za uchimbaji [mining]. Ikiwa mmoja unaonyesha `"fee": "0"` na hakuna ujumbe, maelezo yake hayakupakuliwa. Zkool hupata miamala kamili mmoja baada ya mwingine baada ya uchanganuzi, na hitilafu moja husimamisha iliyosalia kimya kimya. Kuorodhesha yoyote iliyoathirika:
 
 ```bash
 jq -r '.data.transactionsByAccount[] | select(.fee == "0") | .txid' history.json
 ```
 
-Kama kitu inaonekana, kulandanisha tena dakika chache baadaye na kuuza nje tena.
+Ikiwa chochote kinaonekana, sawazisha tena dakika chache baadaye na uhamishe tena.
 
-Kisha flatten ni kwa CSV, safu moja kwa kila shughuli:
+Kisha ilainishe kuwa CSV, mstari mmoja kwa kila muamala:
 
 ```bash
 jq -r '["txid","height","time_utc","net_zec","fee_zec","memos"],
@@ -124,24 +124,24 @@ jq -r '["txid","height","time_utc","net_zec","fee_zec","memos"],
   | @csv' history.json > history.csv
 ```
 
-### Kusoma pato
+### Kusoma matokeo
 
-| Field | Maana |
+| Sehemu | Maana |
 |---|---|
-| `value` | Mabadiliko halisi kwenye akaunti katika ZEC, ada imejumuishwa. Hasi kwa utumaji. |
-| `fee` | Ada katika ZEC. Kwa malipo uliyopokea, mtumaji alilipa na hayapo `value`. |
-| `time` | Muda wa kuzuia katika UTC, bila alama ya eneo la saa |
-| `notes` | Akaunti ilipokea kiasi gani katika muamala huu, ikijumuisha chenji. Memo zilizotumwa kwako ziko hapa. Maingizo ya uwazi hayana anwani. |
-| `spends` | Akaunti yenyewe inabainisha kuwa muamala huu ulitumia |
-| `outputs` | Muamala ulituma nini: kila matokeo ya uwazi, pamoja na malipo yaliyolindwa kwa anwani zingine zenye memo zao |
-| `pool` | 0 inayong'aa, 1 Sapling, 2 Orchard, 3 Ironwood |
-| `scope` | 0 ya nje (malipo ya ndani), 1 ya ndani (chenji) |
+| `value` | Mabadiliko halisi katika akaunti kwa ZEC, ada ikijumuishwa. Hasi kwa utumaji. |
+| `fee` | Ada katika ZEC. Kwa malipo uliyopokea, mtumaji aliilipa na haiko katika `value`. |
+| `time` | Muda wa block katika UTC, bila alama ya eneo la saa |
+| `notes` | Kile ambacho akaunti ilipokea katika muamala huu, ikijumuisha mabadiliko. Jumbe zilizotumwa kwako ziko hapa. Maingizo ya uwazi hayana anwani. |
+| `spends` | Madokezo [notes] ya akaunti yenyewe ambayo muamala huu ulitumia |
+| `outputs` | Kile ambacho muamala ulituma nje: kila tokeo la uwazi, pamoja na malipo ya faragha [shielded] kwa anwani nyingine pamoja na jumbe zake |
+| `pool` | 0 uwazi, 1 Sapling, 2 Orchard, 3 Ironwood |
+| `scope` | 0 nje (malipo yanayoingia), 1 ndani (mabadiliko) |
 
-Zkool programu pia ina Export Transactions, Memos na Notes katika orodha ya akaunti, lakini wale ni mbichi meza Dumps: kiasi katika zatoshis, Unix timestamps, na memos katika faili tofauti.
+Programu ya Zkool pia ina Hamisha Miamala, Jumbe na Madokezo katika menyu ya akaunti, lakini hizo ni uhamishaji wa jedwali ghafi: kiasi katika zatoshi, mihuri ya muda ya Unix, na jumbe katika faili tofauti.
 
-## Chaguo 2: zingo-cli
+## Chaguo la 2: zingo-cli
 
-zingo-cli ni mkoba wa amri ya Zingo. Hakuna downloads prebuilt, hivyo kujenga na kutu:
+zingo-cli ni pochi ya mstari wa amri ya Zingo. Hakuna vipakuliwa vilivyojengwa tayari, kwa hivyo unaijenga kwa Rust:
 
 ```bash
 git clone --branch zingolib_v6.0.0 https://github.com/zingolabs/zingolib.git
@@ -151,9 +151,9 @@ cargo build --release --manifest-path zingo-netutils/Cargo.toml --features nym -
 cp zingo-netutils/target/release/nym-proxy target/release/
 ```
 
-Unahitaji `nym-proxy` hata tu kwa kulandanisha. zingo-cli 6 si kuungana na seva yoyote bila hiyo.
+Unahitaji `nym-proxy` hata kwa kusawazisha pekee. zingo-cli 6 haitaunganishwa na seva yoyote bila hiyo.
 
-Run ya kwanza inajenga mtazamo tu mkoba, syncs yake na prints historia:
+Uendeshaji wa kwanza huunda pochi ya kutazama pekee, huisawazisha na kuchapisha historia:
 
 ```bash
 ./target/release/zingo-cli --data-dir "$HOME/zingo-export" \
@@ -163,11 +163,11 @@ Run ya kwanza inajenga mtazamo tu mkoba, syncs yake na prints historia:
 ```
 
 - `--data-dir` lazima iwe njia kamili.
-- `--viewkey` na `--birthday` tu kuomba wakati mkoba ni kuundwa. Waache nje baada ya hapo.
-- zingo-cli huanza nje ya mtandao kwa default. `--server` huchagua server na pia kuhesabiwa kama idhini yako ya kwenda online.
-- Funguo huishia katika historia yako ya shell, hivyo wazi baadae.
+- `--viewkey` na `--birthday` hutumika tu pochi inapoundwa. Viachie baada ya hapo.
+- zingo-cli huanza nje ya mtandao kwa chaguomsingi. `--server` huchagua seva na pia huhesabika kama idhini yako ya kwenda mtandaoni.
+- Ufunguo huishia katika historia ya shell yako, kwa hivyo ifute baadaye.
 
-Baadaye anaendesha:
+Uendeshaji wa baadaye:
 
 ```bash
 Z="./target/release/zingo-cli --data-dir $HOME/zingo-export"
@@ -176,43 +176,43 @@ $Z --offline value_transfers > value_transfers.txt
 $Z --offline messages > memos.json
 ```
 
-`--offline` anasoma kile tayari synced bila kugusa mtandao.
+`--offline` husoma kilichosawazishwa tayari bila kugusa mtandao.
 
-- `transactions` inatoa kiingilio moja kwa kila shughuli: txid, wakati (UTC), urefu, aina (`received`, `sent`, `shield` or `send-to-self`), thamani, ada na noti zinazohusika.
-- `value_transfers` anatoa kuingia moja kwa malipo, hivyo kutuma watu wawili ni entries mbili, kila mmoja na anwani ya mpokeaji na memos.
-- `messages` orodha memos kama JSON.
+- `transactions` hutoa ingizo moja kwa kila muamala: txid, muda (UTC), urefu, aina (`received`, `sent`, `shield` au `send-to-self`), thamani, ada na madokezo yanayohusika.
+- `value_transfers` hutoa ingizo moja kwa kila malipo, kwa hivyo utumaji kwa watu wawili ni maingizo mawili, kila moja likiwa na anwani ya mpokeaji na jumbe.
+- `messages` huorodhesha jumbe kama JSON.
 
-Mambo machache ya kujua kuhusu pato:
+Mambo machache ya kujua kuhusu matokeo:
 
-- `transactions` na `value_transfers` kuchapisha maandishi wazi kwamba inaonekana kidogo kama JSON lakini si.
-- Kiasi cha pesa hizo ni za zatoshi (ZEC 100,000,000 hadi 1 ZEC) na sikuzote zina thamani ya kuridhisha. `kind` inakuambia mwelekeo. Kwa sends, `value` ni kile alienda kwa watu wengine, bila ada.
-- Ada inaonyesha kama "haipatikani" wakati shughuli hutumia fedha uwazi ambayo haikuwa yako. Nakala tu za maandishi zinaonyeshwa.
-- Kama usawazishaji inashindwa, kosa huenda terminal, si faili na zingo-cli bado exits kawaida. Angalia terminal kabla ya kuamini `transactions.txt`.
+- `transactions` na `value_transfers` huchapisha maandishi wazi yanayofanana kidogo na JSON lakini si JSON.
+- Kiasi kiko katika zatoshi (100,000,000 kwa 1 ZEC) na huwa chanya kila wakati. `kind` hukuambia mwelekeo. Kwa utumaji, `value` ni kilichoenda kwa watu wengine, bila ada.
+- Ada huonekana kama “haipatikani” wakati muamala unatumia fedha za uwazi ambazo hazikuwa zako. Jumbe za maandishi pekee huonyeshwa.
+- Usawazishaji ukishindikana, hitilafu huenda kwenye terminal, si faili, na zingo-cli bado hutoka kawaida. Angalia terminal kabla ya kuamini `transactions.txt`.
 
-ya dismad's [msaidizi wa tangazo la habari](https://github.com/dismad/zingoHelper) ina a `exportToJSON.sh` script kwamba hubadilisha `transactions` Ni iliandikwa kabla ya zingo-cli 6, ni kuanzisha kwa testnet, alama baadhi outgoing Sapling na viingizo uwazi kama placeholders, na mahitaji zana GNU, hivyo si kukimbia juu ya hisa macOS. Kutibu pato lake kama hatua ya kuanzia na kuangalia jumla.
+[zingoHelper](https://github.com/dismad/zingoHelper) ya dismad ina hati ya `exportToJSON.sh` inayobadilisha `transactions` kuwa JSON. Iliandikwa kabla ya zingo-cli 6, imesanidiwa kwa testnet, huweka baadhi ya maingizo yanayotoka ya Sapling na ya uwazi kama vijaza nafasi, na inahitaji vifaa vya GNU, kwa hivyo haitaendeshwa kwenye macOS ya kawaida. Chukulia matokeo yake kama mwanzo na uangalie jumla.
 
-## Nini ufunguo viewing hawezi kukuambia
+## Kile ambacho ufunguo wa kutazama hauwezi kukuambia
 
-- ** Bei.** Wala chombo kumbukumbu ZEC bei wakati wa kila shughuli. Ongeza fiat maadili mwenyewe.
-- ** historia ya uwazi, kama muhimu haina ni pamoja na hayo.** sehemu wazi wa UFVK ni hiari chini [ZIP 316 - Ujumbe wa posta.](https://zips.z.cash/zip-0316). Kwa zingo-cli, `$Z --offline parse_viewkey uview1...` inaonyesha ambayo hifadhi muhimu inashughulikia.
-- ** Nani aliyekulipa.** Malipo ya kulindwa hayana anwani ya mtumaji. Isipokuwa mtoaji aweke moja katika kumbukumbu, haiko popote.
-- ** Baadhi ya maelezo kwenda.** Anwani ya marudio, kiasi na memo kwa ajili ya shielded kutuma ni kufufuliwa kwa decrypting na ufunguo. mkoba unaweza kujenga shughuli ili kwamba haiwezekani, ingawa wengi hawana.
+- **Bei.** Hakuna kifaa kinachorekodi bei ya ZEC wakati wa kila muamala. Ongeza thamani za fiat mwenyewe.
+- **Historia ya uwazi, ikiwa ufunguo hauijumuishi.** Sehemu ya uwazi ya UFVK ni ya hiari chini ya [ZIP 316](https://zips.z.cash/zip-0316). Kwa zingo-cli, `$Z --offline parse_viewkey uview1...` huonyesha mabwawa [pools] ambayo ufunguo unashughulikia.
+- **Nani alikulipa.** Malipo ya faragha hayabebi anwani ya mtumaji. Isipokuwa mtumaji aliweka moja katika ujumbe, haipo popote.
+- **Baadhi ya maelezo ya utumaji.** Anwani lengwa, kiasi na ujumbe kwa utumaji wa faragha hurejeshwa kwa kufumbua kwa kutumia ufunguo. Pochi inaweza kujenga muamala ili hilo lisiwezekane, ingawa nyingi hazifanyi hivyo.
 
 ## Vifaa vingine
 
-| Zana | Unachopata |
+| Kifaa | Unachopata |
 |---|---|
-| ZODL | CSV ya Ushuru yenye tarehe, kiasi, ada na lebo. Mwaka uliopita wa kalenda pekee, huacha miamala ya ulinzi, hakuna txid, memo au anwani. |
-| Programu Zkool | Usafirishaji wa jedwali ghafi kutoka kwenye menyu ya akaunti |
-| [Zenith](https://code.vergara.tech/Vergara_Tech/zenith) | Huingiza UFVK na `importvk`. `listreceived` Marejesho ya noti zilizopokelewa zenye txid na memo, lakini hakuna utumaji na ada. |
-| [Zallet](https://github.com/zcash/zallet) | `z_listtransactions` imefafanuliwa kwa undani lakini imetiwa alama ya majaribio, na Zallet huingiza funguo za kutazama Sapling pekee, si UFVK |
-| [zcash-devtool](https://github.com/zcash/zcash-devtool) | Huingiza UFVK na `wallet init-fvk`, kisha `wallet list-tx`Hali yake ya CSV haina txid au anwani, na mradi unasema isitumike katika uzalishaji. |
+| ZODL | CSV ya kodi yenye tarehe, kiasi, ada na lebo. Mwaka wa kalenda uliopita pekee, huruka miamala ya kuweka faraghani, hakuna txid, ujumbe wala anwani. |
+| Programu ya Zkool | Uhamishaji wa jedwali ghafi kutoka kwenye menyu ya akaunti |
+| [Zenith](https://code.vergara.tech/Vergara_Tech/zenith) | Huleta UFVK kwa `importvk`. `listreceived` kupitia RPC hurejesha madokezo yaliyopokelewa yenye txid na ujumbe, lakini hakuna utumaji wala ada. |
+| [Zallet](https://github.com/zcash/zallet) | `z_listtransactions` ina maelezo mengi lakini imewekwa alama ya majaribio, na Zallet huingiza tu funguo za kutazama za Sapling, si UFVK |
+| [zcash-devtool](https://github.com/zcash/zcash-devtool) | Huleta UFVK kwa `wallet init-fvk`, kisha `wallet list-tx`. Hali yake ya CSV haina txid wala anwani, na mradi unasema usiitumie katika uzalishaji. |
 
-## Kuhusiana na hilo
+## Zinazohusiana
 
-- [Kuangalia funguo za kuvinjari](/zcash-tech/viewing-keys)
-- [Kufufua Fedha](/using-zcash/recovering-funds)
-- [Zingolib na Zaino Tutorial](/guides/zingolib-and-zaino-tutorial)
-- [Forum: Exporting shughuli historia ya JSON / CSV kutoka UFVK/mbegu](https://forum.zcashcommunity.com/t/exporting-transaction-history-to-json-csv-from-ufvk-seed/54662)
-- [Forum: Zkool & GraphQL (Kifungu cha habari)](https://forum.zcashcommunity.com/t/zkool-graphql/54100)
-- [tangazo-cli README](https://github.com/zingolabs/zingolib/blob/zingolib_v6.0.0/zingo-cli/README.md)
+- [Viewing Keys](/zcash-tech/viewing-keys)
+- [Kurejesha Fedha](/using-zcash/recovering-funds)
+- [Zingolib na Mafunzo ya Zaino](/guides/zingolib-and-zaino-tutorial)
+- [Jukwaa: Kuhamisha historia ya miamala kwenda JSON/CSV kutoka UFVK/seed](https://forum.zcashcommunity.com/t/exporting-transaction-history-to-json-csv-from-ufvk-seed/54662)
+- [Jukwaa: Zkool & GraphQL](https://forum.zcashcommunity.com/t/zkool-graphql/54100)
+- [zingo-cli README](https://github.com/zingolabs/zingolib/blob/zingolib_v6.0.0/zingo-cli/README.md)

@@ -1,97 +1,97 @@
-# Kufufua habari binafsi
+# Urejeshaji wa taarifa binafsi [Private information retrieval]
 
-## TL;DR
+## Kwa ufupi
 
-- Kufufua habari binafsi, au PIR, inaruhusu kifaa kupata bidhaa moja kutoka database server ya bila server kujifunza ambayo kipengee aliuliza kwa
-- Zcash mahitaji haya kwa sababu mkoba binafsi hawezi kuuliza server ambayo shughuli ni yake mwenyewe bila kutoa yenyewe mbali.
-- Leo pochi download na scan data mbali zaidi kuliko wao haja, ambayo ni sababu kuu ya kusawazisha ni polepole
-- PIR ingekuwa basi mkoba kuchota tu data yake binafsi, kuondoa kwamba bottleneck wakati kuweka faragha intact
-- Ni eneo la utafiti hai kwa Zcash, nguvu katika nadharia, na kuwa vitendo kwa ajili ya pochi halisi
-
-<br/>
-
-## Hii ni kwa ajili ya nani?
-
-- Mtu yeyote ambaye amejiuliza jinsi mkoba binafsi hupata sarafu yake mwenyewe bila kuvuja ambayo wale
-- Wageni ambao kuweka kuona PIR zilizotajwa kando Zcash kazi ya kuongeza ukubwa wa.
-- Wasomaji ambao wanataka dhana ya kwanza na cryptography chini yake pili
+- Urejeshaji wa taarifa binafsi, au PIR, huruhusu kifaa kupata kipengee kimoja kutoka kwenye hifadhidata ya seva bila seva kujifunza ni kipengee kipi kilichoombwa
+- Zcash inahitaji hili kwa sababu pochi ya faragha haiwezi kuiuliza seva ni miamala ipi ni yake bila kujifichua
+- Leo pochi hupakua na kuchanganua data nyingi zaidi kuliko zinavyohitaji, jambo ambalo ni sababu kuu ya ulandanishi kuwa wa polepole
+- PIR ingewezesha pochi kupata data yake pekee kwa faragha, ikiondoa kizuizi hicho huku faragha ikibaki salama
+- Ni eneo la utafiti unaoendelea kwa Zcash, lenye nguvu kinadharia, na linalofanywa liwe la vitendo kwa pochi halisi
 
 <br/>
 
-## Tatizo PIR kutatua kwa Zcash
+## Hii ni kwa ajili ya nani
 
-Zcash huficha ambaye shughuli ni kwa. kwamba faragha inajenga swali awkward: kama mtandao hawezi kuona ambayo mikataba mali yako, jinsi gani mkoba wako mwenyewe kupata yao?
-
-Today the answer is blunt. A wallet cannot ask a server which transactions are mine, because that question would reveal exactly what Zcash is trying to hide. So instead the wallet downloads a large amount of data and tests each item locally to see what belongs to it. It works, and it preserves privacy, but it is slow and heavy. This scanning is one of the main reasons wallet syncing can feel sluggish.
-
-Bora itakuwa njia kwa mkoba kuuliza server hasa data yake mwenyewe, na kupokea hiyo, bila ya seva milele kujifunza nini aliomba. Hiyo ni nini haswa binafsi habari retrieval hutoa.
+- Mtu yeyote ambaye amejiuliza jinsi pochi ya faragha hupata sarafu zake bila kufichua ni zipi
+- Wageni wanaoendelea kuona PIR ikitajwa pamoja na kazi ya kupanua uwezo ya Zcash
+- Wasomaji wanaotaka kuelewa dhana kwanza na usimbaji fiche unaoiwezesha baadaye
 
 <br/>
 
-## PIR ni nini?
+## Tatizo ambalo PIR hutatua kwa Zcash
 
-Kufufua habari binafsi ni mbinu ya cryptographic kwamba lets mteja kusoma moja kuingia kutoka database server bila kufunua kwa seva ambayo entry alisoma.
+Zcash huficha muamala unamkusudia nani. Faragha hiyo huibua swali gumu: ikiwa mtandao hauwezi kuona ni miamala ipi inayokuhusu, pochi yako yenyewe huipatije?
 
-Fikiria maktaba ambapo unaweza kupokea kitabu hasa unataka, lakini librarian kamwe anajua ambayo kitabu wao mikononi. Unaweza kupata bidhaa yako, na maslahi yako anakaa binafsi. PIR ni toleo la hisabati ya wazo kwamba, kutumika kwa yoyote database.
+Leo jibu ni la moja kwa moja. Pochi haiwezi kuiuliza seva “ni miamala ipi ni yangu,” kwa sababu swali hilo lingefichua hasa kile ambacho Zcash inajaribu kuficha. Hivyo badala yake pochi hupakua kiasi kikubwa cha data na kujaribu kila kipengee ndani ya kifaa ili kuona kinachohusu hiyo pochi. Hufanya kazi, na huhifadhi faragha, lakini ni polepole na nzito. Uchanganuzi huu ni mojawapo ya sababu kuu zinazofanya ulandanishi wa pochi uhisiwe kuwa wa kusuasua.
 
-The concept has been studied in cryptography for decades. It was first introduced in 1995 by Chor, Goldreich, Kushilevitz, and Sudan, who described the multiple server approach, and the first single server version followed in 1997 from Kushilevitz and Ostrovsky. It is not something Zcash invented, it is an established field that Zcash is now applying to a real and stubborn problem.
-
-<br/>
-
-## Jinsi PIR kazi, katika ngazi ya kwanza
-
-Kuna njia mbili kuu za kujenga PIR, na tofauti ni muhimu.
-
-Kwanza hutumia seva nyingi. mteja hutuma kila moja ya servers kadhaa kipande cha swali, na huchanganya majibu yao ndani ya nchi. hakuna server mmoja anaona kutosha kujifunza nini aliomba. Hii ni ufanisi, lakini inategemea juu ya watumiaji si kwa makusudi pamoja na mtu mwingine, ambayo ni vigumu kuhakikisha katika ulimwengu wa kweli.
-
-Pili inatumia server moja na cryptography smart badala ya vyama mbalimbali. Hapa mteja hutegemea chombo maalum aitwaye homomorphic encryption, na hii ni mwelekeo muhimu zaidi kwa ajili ya kupelekwa halisi, kwa sababu haina haja servers nyingi zisizo colluding.
+Njia bora ingekuwa kuwezesha pochi kuiomba seva data yake mahususi, na kuipokea, bila seva kujifunza kamwe kilichoombwa. Hiki ndicho hasa kinachotolewa na urejeshaji wa taarifa binafsi.
 
 <br/>
 
-## utaratibu: homomorphic encryption
+## PIR ni nini
 
-Homomorphic encryption ni aina ya usimbuaji ambayo inaruhusu server mahesabu juu data wakati anakaa encrypted. Server inazalisha sahihi encrypped jibu bila milele kuona maadili msingi.
+Urejeshaji wa taarifa binafsi ni mbinu ya usimbaji fiche inayomwezesha mteja kusoma ingizo moja kutoka kwenye hifadhidata ya seva bila kufichua kwa seva ni ingizo lipi alilosoma.
 
-Hapa ni wazo nyuma ya single-server PIR kujengwa kwa njia hii. mteja anataka kipengee namba tatu kutoka orodha. hujenga swali kwamba, katika athari, encrypted ndiyo nafasi tatu na hakuna encryption kwa kila msimamo mwingine. server, ombi hili tu haina maana kelele, haiwezi kusema ambayo nafasi ana yes.
+Fikiria maktaba ambamo unaweza kupokea kitabu halisi unachotaka, lakini msimamizi wa maktaba hajui kamwe ni kitabu kipi alichokukabidhi. Unapata kipengee chako, na shauku yako hubaki binafsi. PIR ni toleo la kihisabati la wazo hilo, linalotumika kwa hifadhidata yoyote.
 
-Server kisha inachanganya database yake na hii encrypted query kutumia mali maalum ya homomorphic encryption, kuzidisha kila kuhifadhiwa kipengee kwa vinavyolingana encrypti yes au no and adding the results together. Nini hutoka ni moja tu encryptable mfuko ambayo ina hasa bidhaa mteja alitaka, na hakuna kitu anaonyesha ambayo ilikuwa mmoja. Mteja decrypts kwamba kifurushi na anasoma kipande chake. server amejibu swali bila hata kujua swali.
-
-Toleo la nguvu, aitwaye symmetric PIR, anaongeza dhamana ya pili: mteja hujifunza tu bidhaa aliuliza kwa na kitu chochote kuhusu kuingia nyingine yoyote katika database. Hiyo inalinda database kama vile mteja.
+Dhana hii imechunguzwa katika usimbaji fiche kwa miongo kadhaa. Ilianzishwa kwa mara ya kwanza mwaka 1995 na Chor, Goldreich, Kushilevitz, na Sudan, ambao walieleza mbinu ya seva nyingi, na toleo la kwanza la seva moja lilifuata mwaka 1997 kutoka kwa Kushilevitz na Ostrovsky. Si jambo ambalo Zcash ilivumbua, ni taaluma iliyoimarika ambayo Zcash sasa inatumia kwa tatizo halisi na gumu.
 
 <br/>
 
-## Kuangalia kwa karibu zaidi kwa wasomaji wa kiufundi
+## Jinsi PIR inavyofanya kazi, katika kiwango cha kwanza
 
-Modern single-server schemes are built on lattice cryptography, most commonly the learning with errors assumption. The client's query is a vector of ciphertexts, an encryption of one at the target index and zero elsewhere, and the encryption is additively homomorphic, so the server can add ciphertexts and multiply them by plaintext database entries without decrypting.
+Kuna njia mbili pana za kujenga PIR, na tofauti yake ni muhimu.
 
-Server inachukua database kama matrix, inatumia vector ya uteuzi iliyofichwa na kurudisha ciphertext moja ambayo hufafanua kwenye safu inayotaka. Kwa sababu swala haliwezi kutofautiana kutoka kwa kelele za random, server haipati habari kuhusu index.
+Ya kwanza hutumia seva nyingi. Mteja hutuma kwa kila mojawapo ya seva kadhaa sehemu ya ombi, na kuunganisha majibu yake ndani ya kifaa. Hakuna seva moja inayoona taarifa za kutosha kujua kilichoombwa. Hii ni yenye ufanisi, lakini hutegemea seva kutoshirikiana, jambo ambalo ni gumu kulihakikisha katika ulimwengu halisi.
 
-The historic obstacle has always been cost. Naively, the server must touch every entry in the database for each query, which is expensive in computation, and the ciphertexts are large, which is expensive in bandwidth. Recent research attacks this with preprocessing, schemes such as SimplePIR and FrodoPIR let the server prepare the database ahead of time and hand each client a small hint, pushing much of the work into an offline phase so that live queries become fast. A useful side benefit is that lattice-based constructions are also considered resistant to quantum attacks, which aligns with Zcash's wider move toward post-quantum privacy.
+Ya pili hutumia seva moja na usimbaji fiche mahiri badala ya wahusika wengi. Hapa mteja hutegemea kifaa maalumu kinachoitwa usimbaji fiche homomofia [homomorphic encryption], na huu ndio mwelekeo wenye manufaa zaidi kwa utekelezaji halisi, kwa sababu hauhitaji seva nyingi zisizoshirikiana.
+
+<br/>
+
+## Utaratibu: usimbaji fiche homomofia
+
+Usimbaji fiche homomofia ni aina ya usimbaji fiche unaoiruhusu seva kukokotoa data huku data ikibaki imesimbwa fiche. Seva hutoa jibu sahihi lililosimbwa fiche bila kamwe kuona thamani za msingi.
+
+Hili ndilo wazo la PIR ya seva moja iliyojengwa kwa njia hii. Mteja anataka kipengee namba tatu katika orodha. Hutengeneza ombi ambalo, kimsingi, ni “ndiyo” iliyosimbwa fiche kwa nafasi ya tatu na “hapana” iliyosimbwa fiche kwa kila nafasi nyingine. Kwa seva, ombi hili ni kelele zisizo na maana tu; haiwezi kubaini ni nafasi ipi ina “ndiyo.”
+
+Kisha seva huunganisha hifadhidata yake na ombi hili lililosimbwa fiche kwa kutumia sifa maalumu za usimbaji fiche homomofia, ikizidisha kila kipengee kilichohifadhiwa kwa “ndiyo” au “hapana” iliyosimbwa fiche inayolingana na kujumlisha matokeo. Kinachotoka ni kifurushi kimoja kilichosimbwa fiche ambacho kina hasa kipengee alichotaka mteja, na hakuna kinachofichua kilikuwa kipi. Mteja husimbua kifurushi hicho na kusoma kipengee chake. Seva imejibu swali bila kamwe kujua swali lenyewe.
+
+Toleo thabiti zaidi, linaloitwa PIR ya ulinganifu, huongeza dhamana ya pili: mteja hujifunza kipengee alichoomba pekee na hakuna chochote kuhusu ingizo lingine lolote katika hifadhidata. Hilo hulinda hifadhidata pamoja na mteja.
+
+<br/>
+
+## Mtazamo wa karibu kwa wasomaji wa kiufundi
+
+Mipango ya kisasa ya seva moja hujengwa kwa usimbaji fiche wa lattice, kwa kawaida zaidi dhana ya kujifunza kwa hitilafu. Ombi la mteja ni vekta ya maandishi fiche, usimbaji fiche wa moja katika faharasa lengwa na sufuri kwingineko, na usimbaji fiche huo ni homomofia ya kijumlisho, hivyo seva inaweza kujumuisha maandishi fiche na kuyazidisha kwa maingizo ya hifadhidata ya maandishi wazi bila kuyasimbua.
+
+Seva huchukulia hifadhidata kama matriki, hutumia vekta ya uteuzi iliyosimbwa fiche, na kurejesha maandishi fiche moja ambayo husimbuka kuwa safu mlalo inayotakiwa. Kwa sababu ombi halitofautishiki na kelele za nasibu, seva haipati taarifa kuhusu faharasa.
+
+Kizuizi cha kihistoria kimekuwa gharama. Kwa njia rahisi, seva lazima iguse kila ingizo katika hifadhidata kwa kila ombi, jambo ambalo ni ghali katika ukokotoaji, na maandishi fiche ni makubwa, jambo ambalo ni ghali katika upana wa bendi. Utafiti wa hivi karibuni hushughulikia hili kwa uchakataji wa awali; mipango kama SimplePIR na FrodoPIR huiruhusu seva kuandaa hifadhidata mapema na kumpa kila mteja dokezo dogo, ikihamisha sehemu kubwa ya kazi katika awamu ya nje ya mtandao ili maombi ya moja kwa moja yawe ya haraka. Faida ya ziada yenye manufaa ni kwamba miundo inayotegemea lattice pia huchukuliwa kuwa sugu kwa mashambulizi ya quantum, jambo linaloendana na mwelekeo mpana wa Zcash kuelekea faragha baada ya quantum.
 
 <br/>
 
 ## PIR katika Zcash
 
-PIR ni sehemu ya juhudi za kufanya Zcash kuwa binafsi na kwa haraka.
+PIR ni sehemu ya juhudi za kufanya Zcash iwe ya faragha na ya haraka kwa kiwango kikubwa.
 
-The wallet scanning bottleneck described earlier is the target. Work at the Valar Group is developing private information retrieval techniques so that a wallet can fetch its own data from a server without the server learning which entries were requested. One concrete application is checking nullifiers privately. A nullifier is a unique marker published when a note is spent, which stops the same funds being spent twice. A wallet often needs to check whether a given nullifier has appeared yet, in other words whether a note is still unspent, and doing that through a server today can leak which note is being asked about. Private information retrieval lets the wallet ask that question without revealing which nullifier it cares about. This sits alongside other scaling work, including Project Tachyon and new node software, aimed at removing the performance limits that hold back private wallets today.
+Kizuizi cha uchanganuzi wa pochi kilichoelezwa awali ndicho lengo. Kazi katika Valar Group inaendeleza mbinu za urejeshaji wa taarifa binafsi ili pochi iweze kupata data yake kutoka kwenye seva bila seva kujifunza ni maingizo gani yaliyoombwa. Matumizi moja mahususi ni kukagua nullifier kwa faragha. Nullifier ni alama ya kipekee inayochapishwa dokezo linapotumika, ambayo huzuia fedha zilezile kutumika mara mbili. Mara nyingi pochi huhitaji kukagua kama nullifier fulani imeonekana tayari, kwa maneno mengine kama dokezo bado halijatumika, na kufanya hivyo kupitia seva leo kunaweza kufichua ni dokezo lipi linauliziwa. Urejeshaji wa taarifa binafsi huiruhusu pochi kuuliza swali hilo bila kufichua nullifier inayojali. Hili linaambatana na kazi nyingine ya kupanua uwezo, ikiwemo Mradi Tachyon na programu mpya ya node, inayolenga kuondoa vikwazo vya utendaji vinavyozuia pochi za faragha leo.
 
-Ni muhimu kuwa waaminifu kuhusu hatua. Hii ni utafiti hai na uhandisi, si kumaliza, kusafirishwa kipengele. dhana ya imara vizuri na mwelekeo imewekwa, lakini kufanya PIR ufanisi wa kutosha kwa ajili ya pochi kila siku juu ya vifaa vya kawaida ni hasa sehemu ngumu kazi sasa.
-
-<br/>
-
-## Maoni yasiyo sahihi ya kawaida
-
-- PIR huficha ambayo kipengee uliomba, haina lazima kuficha kwamba kuwasiliana server wakati wote, mtandao-kiwango cha metadata ni wasiwasi tofauti
-- PIR si kipekee kwa Zcash, ni general cryptographic chombo kwamba Zcash inatumika kwa mkoba faragha
-- Haraka kusawazisha kutoka PIR ni lengo katika maendeleo, si kipengele tayari sasa katika pochi
-- Downloading kila kitu na skanning ndani ya nchi, mbinu ya sasa ni binafsi lakini polepole, PIR inalenga kuweka faragha wakati kuondoa upole
+Ni muhimu kuwa wakweli kuhusu hatua iliyofikiwa. Huu ni utafiti na uhandisi unaoendelea, si kipengele kilichokamilika na kutolewa. Dhana imeimarika na mwelekeo umewekwa, lakini kuifanya PIR iwe yenye ufanisi wa kutosha kwa pochi za kila siku kwenye vifaa vya kawaida ndilo hasa tatizo gumu linaloshughulikiwa sasa.
 
 <br/>
 
-## Kurasa zinazohusiana na makala hii
+## Dhana potofu za kawaida
 
-- [Zcash Wallet Syncing (Usawazishaji wa Pochi za Kifedha)](https://zechub.wiki/zcash-tech/zcash-wallet-syncing) - kwa nini syncing kazi njia inafanya leo
-- [Nodes Lightwallet](https://zechub.wiki/zcash-tech/lightwallet-nodes) - mwanga mteja mfano PIR ingekuwa kuboresha
-- [zk-SNARKs](https://zechub.wiki/zcash-tech/zk-snarks) - nyingine kubwa cryptographic chombo nyuma Zcash faragha
-- [Usalama Baada ya Quantum](https://zechub.wiki/zcash-tech/post-quantum-security) - kwa nini mbinu lattice-msingi umuhimu wa baadaye
+- PIR huficha kipengee ulichoomba; si lazima ifiche kwamba uliwasiliana na seva kabisa, metadata ya kiwango cha mtandao ni suala tofauti
+- PIR si ya kipekee kwa Zcash, ni kifaa cha jumla cha usimbaji fiche ambacho Zcash inatumia kwa faragha ya pochi
+- Ulandanishi wa haraka zaidi kupitia PIR ni lengo linaloendelea, si kipengele ambacho tayari kipo katika pochi
+- Kupakua kila kitu na kuchanganua ndani ya kifaa, mbinu ya sasa, ni ya faragha lakini ni polepole; PIR inalenga kuhifadhi faragha huku ikiondoa upolepole huo
+
+<br/>
+
+## Kurasa zinazohusiana
+
+- [Ulandanishi wa pochi wa Zcash](https://zechub.wiki/zcash-tech/zcash-wallet-syncing) - kwa nini ulandanishi hufanya kazi jinsi unavyofanya leo
+- [Node za Lightwallet](https://zechub.wiki/zcash-tech/lightwallet-nodes) - muundo wa light client ambao PIR ingeboresha
+- [zk-SNARKs](https://zechub.wiki/zcash-tech/zk-snarks) - kifaa kingine kikuu cha usimbaji fiche kinachosimamia faragha ya Zcash
+- [Usalama baada ya Quantum](https://zechub.wiki/zcash-tech/post-quantum-security) - kwa nini mbinu zinazotegemea lattice ni muhimu kwa siku zijazo

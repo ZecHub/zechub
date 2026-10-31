@@ -1,139 +1,139 @@
-# <img src="/content-images/shopping-cart-free-15-svgrepo-com-991c5b52e9.svg" width="24" height="24" alt="finance icon"/> Accept Payments as a Merchant with Zcash
+# <img src="/content-images/shopping-cart-free-15-svgrepo-com-991c5b52e9.svg" width="24" height="24" alt="finance icon"/> Kubali malipo [payments] kama mfanyabiashara ukitumia Zcash
 
 <span className="inline-flex items-center gap-[6px]">
   <span className="inline-block w-[12px] h-[12px] bg-green-500 rounded-full"></span>
-  Mwanzoni - dakika 5
+  Anayeanza - Dakika 5
 </span>
 
-## TL;DR
+## Kwa Ufupi Sana
 
-- Kubali malipo kwa kutumia anwani ya ulinzi
-- Epuka kufichua data ya shughuli za wateja
-- Matumizi memos au nje ya mfumo wa mlolongo kwa utaratibu kufuatilia
-- Weka mapato ya biashara faragha
+- Kubali malipo kwa kutumia anwani ya faragha [shielded address]
+- Epuka kufichua data za miamala [transaction]
+- Tumia jumbe [memos] au mifumo ya off-chain kufuatilia oda
+- Weka mapato ya biashara kuwa ya faragha
 
 <br/>
 
-## <img src="/content-images/user-svgrepo-com-21adf62b7c.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="user icon"/> Who is this for?
+## <img src="/content-images/user-svgrepo-com-21adf62b7c.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="user icon"/> Hii ni kwa ajili ya nani?
 
-- Wafanyabiashara mtandaoni
+- Wafanyabiashara wa mtandaoni
 - Watoa huduma
-- Biashara ndogo ndogo
-- Maduka ya crypto-kirafiki
+- Biashara ndogo
+- Maduka yanayokubali sarafu za kidijitali
 
 <br/>
 
-## <img src="/content-images/warning-error-svgrepo-com-b7ea8a50da.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="warning icon"/> The Problem
+## <img src="/content-images/warning-error-svgrepo-com-b7ea8a50da.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="warning icon"/> Tatizo
 
-Malipo ya jadi crypto yatangaza:
-- Ununuzi tabia ya mteja
+Malipo ya kawaida ya sarafu za kidijitali hufichua:
+- Tabia za ununuzi za wateja
 - Mapato ya mfanyabiashara
-- Historia ya shughuli
+- Historia ya miamala
 
-Hii inaongoza kwa:
-- Kupoteza faragha ya mteja
-- Uvujaji wa habari za ushindani
-- Uwazi wa kifedha ambao huenda usitake
+Hii husababisha:
+- Kupotea kwa faragha [privacy] ya wateja
+- Kuvuja kwa taarifa za ushindani
+- Uwazi wa kifedha ambao huenda usiutake
 
 <br/>
 
-## <img src="/content-images/icons8-lock-2f8e221321.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> Why Zcash?
+## <img src="/content-images/icons8-lock-2f8e221321.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> Kwa nini Zcash?
 
-Zcash inawezesha:
-- Malipo ya wateja binafsi
-- Ufuatiliaji wa mapato ya siri
+Zcash huwezesha:
+- Malipo ya wateja ya faragha
+- Ufuatiliaji wa siri wa mapato
 - Ulinzi wa shughuli za biashara
 
 
 <br/>
 
-## <img src="/content-images/icons8-toolbox-9bebbb1619.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> What You Need
+## <img src="/content-images/icons8-toolbox-9bebbb1619.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> Unachohitaji
 
-- Zcash mkoba kusaidia shughuli ulinzi
-- Mtiririko wa malipo rahisi (mkono au jumuishi)
-- Hiari: utaratibu wa kufuatilia amri
+- Pochi [wallet] ya Zcash inayosaidia miamala ya faragha
+- Mtiririko rahisi wa malipo (wa mkono au uliounganishwa)
+- Hiari: mfumo wa kufuatilia oda
 
 
 <br/>
 
-## <img src="/content-images/ladder-svgrepo-com-7232bf46ed.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="step icon"/> Step-by-Step Guide
+## <img src="/content-images/ladder-svgrepo-com-7232bf46ed.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="step icon"/> Mwongozo wa Hatua kwa Hatua
 
-### Hatua ya 1: Kuweka anwani malipo
+### Hatua ya 1: Weka Anwani ya Malipo
 
-- Kuzalisha kinga (z) anwani
-- Matumizi hii kwa kupokea malipo
+- Tengeneza anwani ya faragha (z)
+- Tumia hii kupokea malipo
 
 
 ### Hatua ya 2: Onyesha Maagizo ya Malipo
 
-Kwa kila shughuli:
-- Onyesha anwani yako ya z-mahali pa kuishi.
-- Kutoa kiasi cha malipo
-- Optionally ni pamoja na kumbukumbu rejea
+Kwa kila muamala:
+- Onyesha anwani yako ya z
+- Toa kiasi cha malipo
+- Hiari, jumuisha rejeleo la ujumbe
 
-### Hatua ya 3: Track Orders
+### Hatua ya 3: Fuatilia Oda
 
-Matumizi:
-- Memo (kwa mfano, Order ID)
-- Au kufuatilia nje ya mlolongo (database, spreadsheet)
+Tumia:
+- Jumbe (kwa mfano, Kitambulisho cha Oda)
+- Au ufuatiliaji wa off-chain (hifadhidata, lahajedwali)
 
 
 Mfano:
-- Amri #4821
+- Oda #4821
 
 
 ### Hatua ya 4: Thibitisha Malipo
 
-- Kufuatilia shughuli zinazoingia za ulinzi
-- Mechi memo au kiasi kwa utaratibu
+- Fuatilia miamala ya faragha inayoingia
+- Linganisha ujumbe au kiasi na oda
 
 
-### Hatua ya 5: Dumisha Usafi wa Kibinafsi
+### Hatua ya 5: Dumisha Usafi wa Faragha
 
-- Epuka kutumia tena anwani hadharani kama inawezekana
-- Je, si kufichua historia ya shughuli
-- Wamiliki tofauti wa pochi kwa vitengo vya biashara mbalimbali kama inahitajika.
-
-
-<br/>
-
-## <img src="/content-images/icons8-cancel-7f786be3c1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="cancel icon"/> Common Mistakes to Avoid
-
-- Kutumia anwani uwazi kwa ajili ya malipo 
-- Kuchapisha uthibitisho wa shughuli kwa umma 
-- Kuunganisha utambulisho wa mteja kwa data blockchain 
-- Si kufuatilia malipo vizuri 
+- Epuka kutumia tena anwani hadharani inapowezekana
+- Usifichue historia ya miamala
+- Tenganisha pochi kwa vitengo tofauti vya biashara ikihitajika
 
 
 <br/>
 
-## <img src="/content-images/checked-checkbox-svgrepo-com-7ea19022da.svg" width="28" height="28" className="inline-block align-middle mr-1 p-[2px]" alt="done icon"/> Result
+## <img src="/content-images/icons8-cancel-7f786be3c1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="cancel icon"/> Makosa ya Kawaida ya Kuepuka
+
+- Kutumia anwani za uwazi [transparent addresses] kwa malipo  
+- Kuchapisha mathibitisho [transaction proofs] ya miamala hadharani  
+- Kuunganisha utambulisho wa mteja na data za blockchain  
+- Kutofuatilia malipo ipasavyo  
+
+
+<br/>
+
+## <img src="/content-images/checked-checkbox-svgrepo-com-7ea19022da.svg" width="28" height="28" className="inline-block align-middle mr-1 p-[2px]" alt="done icon"/> Matokeo
 
 Unaweza:
-- Kubali malipo binafsi
-- Linda wateja wako
-- Weka siri ya habari za biashara yako
+- Kukubali malipo kwa faragha
+- Kuwalinda wateja wako
+- Kuweka data zako za biashara kuwa za siri
 
 
 <br/>
 
-## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="chain-links icon"/> Related
+## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="chain-links icon"/> Zinazohusiana
 
 
-- [Mkoba](/wallets)
-- [Faragha - Mazoea Bora Zaidi](/start-here/who-can-see-your-zcash-payment)
+- [Pochi](/wallets)
+- [Nani anaweza kuona malipo yako ya Zcash](/start-here/who-can-see-your-zcash-payment)
 
 <br/>
 
-## <img src="/content-images/progress-arrows-svgrepo-com-aad76739e5.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="progress icon"/> Progress
+## <img src="/content-images/progress-arrows-svgrepo-com-aad76739e5.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="progress icon"/> Maendeleo
 
-** Hatua ya 4 kati ya 6**
+**Hatua ya 4 kati ya 6**
 
-Sasa unaweza kuendesha mtiririko wa malipo binafsi kwa ajili ya biashara.
+Sasa unaweza kuendesha mitiririko ya malipo ya faragha kwa biashara.
 
 <br/>
 
 ## Hatua Inayofuata
 
-- [Fanya Kazi ya Hazina ya Jumuiya ya Kibinafsi](/zcash-use-cases/private-community-treasury)
+- [Endesha Hazina ya Jumuiya ya Faragha](/zcash-use-cases/private-community-treasury)
 <br/>

@@ -1,178 +1,178 @@
 ![Tor logo](/content-images/_unavailable.svg)
 
-# **Arti: Kizazi kijacho Tor mteja katika kutu**
+# **Arti: Mteja [Client] wa Tor wa Kizazi Kijacho katika Rust**
 ![Atri Logo](/content-images/_unavailable.svg)
 
-**Arti** is the Tor Project's initiative to build a next-generation **Tor** client using the **Rust** programming language. Arti is designed to be modular, embeddable, and production-ready, providing a more secure and efficient implementation of the **Tor** anonymity protocols. With **Arti version 1.4.0**, several significant updates have been introduced:
+**Arti** ni mpango wa Mradi wa Tor wa kujenga mteja wa **Tor** wa kizazi kijacho kwa kutumia lugha ya programu ya **Rust**. Arti imeundwa kuwa ya sehemu mbalimbali, inayoweza kupachikwa, na tayari kwa matumizi ya uzalishaji, ikitoa utekelezaji salama zaidi na wenye ufanisi wa itifaki za kutofichua utambulisho za **Tor**. Kwa **toleo la Arti 1.4.0**, masasisho kadhaa muhimu yameanzishwa:
 
-- ** interface mpya RPC** kwa kuimarishwa mwingiliano.
-- Kazi ya maandalizi kwa ajili ** msaada relay**.
-- Maboresho katika ** huduma-upande vitunguu huduma ya kukataa upinzani wa huduma**.
+- **Kiolesura kipya cha RPC** kwa ajili ya mwingiliano ulioboreshwa.
+- Kazi za maandalizi kwa ajili ya **usaidizi wa relay**.
+- Maboresho katika **ustahimilivu wa upande wa huduma wa onion service dhidi ya kunyimwa huduma**.
 
-Hii kutolewa inaendelea juhudi Tor Project ya kutoa usalama bora, utendaji na modularity kwa watumiaji wa Tor na watengenezaji.
+Toleo hili linaendeleza juhudi za Mradi wa Tor za kutoa usalama, utendaji, na uwezo wa ugawaji wa sehemu bora zaidi kwa watumiaji na wasanidi programu wa Tor.
 
 
 ---
 
 
-## ** Ufungaji wa Arti Mteja**
+## **Usakinishaji wa Mteja wa Arti**
 
-Fuata hatua hizi kufunga na kukimbia ** Arti ** kama wakala SOCKS kwenye mfumo wako.
+Fuata hatua hizi ili kusakinisha na kuendesha **Arti** kama proksi ya SOCKS kwenye mfumo wako.
 
 ---
 
-### ** Hatua 1: Kuanzisha mazingira ya maendeleo kutu**
+### **Hatua ya 1: Sanidi Mazingira ya Uundaji wa Programu ya Rust**
 
-Kabla ya unaweza kujenga Arti kutoka chanzo, unahitaji kuwa na latest imara toleo la **Rust** imewekwa.
+Kabla ya kujenga Arti kutoka kwenye msimbo chanzi, unahitaji kuwa na toleo thabiti la hivi karibuni la **Rust** lililosakinishwa.
 
-#### Kuweka kutu:
+#### Ili Kusakinisha Rust:
 
-1. Tembelea rasmi [Rust tovuti](https://www.rust-lang.org/).
-2. Fuata maelekezo ya usakinishaji kwa ajili ya mfumo wako wa uendeshaji.
-3. Angalia ufungaji kwa kuendesha:
+1. Tembelea tovuti rasmi ya [Rust](https://www.rust-lang.org/).
+2. Fuata maagizo ya usakinishaji kwa mfumo wako wa uendeshaji.
+3. Thibitisha usakinishaji kwa kuendesha:
    
    ```sh
    rustc --version
    ```
 
-Hii kuthibitisha kwamba una latest imara toleo la Rust imewekwa kwenye mfumo wako.
+Hii itathibitisha kuwa una toleo thabiti la hivi karibuni la Rust lililosakinishwa kwenye mfumo wako.
 
-#### ** Kumbuka kwa watumiaji wa Windows**:
-- Kutu inaweza kuwa imewekwa kwenye Windows kupitia [**rustup**](https://rustup.rs/), toolchain installer. Hakikisha kwamba wewe pia kuweka mazingira ya kujenga sambamba (unaweza haja ** Visual Studio Build Tools** juu ya Windows).
+#### **Dokezo [Note] kwa Watumiaji wa Windows**:
+- Rust inaweza kusakinishwa kwenye Windows kupitia [**rustup**](https://rustup.rs/), kisakinishi cha msururu wa vifaa. Hakikisha pia umesanidi mazingira ya uundaji yanayooana (huenda ukahitaji **Visual Studio Build Tools** kwenye Windows).
   
 ---
 
-### ** Hatua ya 2: Clone Arti Repository**
+### **Hatua ya 2: Nakili Hazina ya Arti**
 
-Ili kupata toleo la karibuni wa mteja Arti, unahitaji clone hazina kutoka [** GitLab **](https://gitlab.torproject.org/tpo/core/arti).
+Ili kupata toleo la hivi karibuni la mteja wa Arti, utahitaji kunakili hazina kutoka [**GitLab**](https://gitlab.torproject.org/tpo/core/arti).
 
 #### Hatua:
-1. Fungua terminal yako (Command Prompt, PowerShell, au Git Bash kwenye Windows).
-2. Endesha amri ifuatayo kuiunganisha hifadhi: @ info / plainbox
+1. Fungua terminali yako (Command Prompt, PowerShell, au Git Bash kwenye Windows).
+2. Endesha amri ifuatayo ili kunakili hazina:
    
    ```sh
    git clone https://gitlab.torproject.org/tpo/core/arti.git
    ```
-4. Nenda kwenye orodha *arti* iliyoundwa hivi karibuni:
+4. Nenda kwenye saraka mpya ya *arti*:
    
    ```sh
    cd arti
    ```
 
-Hii itavuta chanzo cha kanuni ya Arti kwa mashine yako ndani.
+Hii itavuta msimbo chanzi wa Arti kwenye mashine yako ya ndani.
 
 ---
 
-### Hatua ya 3: Kujenga Binary Artificial **
+### **Hatua ya 3: Jenga Faili la Binary la Arti**
 
-Mara baada ya cloned hazina, unahitaji kujenga Arti kutumia ** Cargo**, ambayo ni Rust's mfuko meneja na zana jengo.
+Baada ya kunakili hazina, unahitaji kujenga Arti kwa kutumia **Cargo**, ambayo ni msimamizi wa vifurushi na kifaa [tool] cha uundaji cha Rust.
 
-#### Kujenga Arti:
-1. Katika terminal, kukimbia amri ifuatayo:
+#### Ili Kujenga Arti:
+1. Kwenye terminali, endesha amri ifuatayo:
    ```sh
    cargo build --release
    ```
 
-Amri hii compiles Arti code na optimizes ni kwa ajili ya uzalishaji (kuachiliwa * bendera). binary itakuwa kuundwa katika orodha * lengo / kutolewa *.
+Amri hii hukusanya msimbo wa Arti na kuuboreshia matumizi ya uzalishaji (alama ya *--release*). Faili la binary litaundwa kwenye saraka ya *target/release*.
 
-#### Mahali ya Binary Compiled:
-- Baada ya ujenzi, Arti binary itakuwa iko katika: 
+#### Mahali pa Faili la Binary Lililokusanywa:
+- Baada ya kujenga, faili la binary la Arti litapatikana katika:  
   ```sh
   target/release/arti
   ```
 
-Unaweza kuendesha hii binary moja kwa moja kutoka terminal.
+Unaweza kuendesha faili hili la binary moja kwa moja kutoka kwenye terminali.
 
 ---
 
-### ** Hatua 4: Run Arti SOCKS Proxy**
+### **Hatua ya 4: Endesha Proksi ya Arti SOCKS**
 
-Kutumia Arti kama wakala wa SOCKS (ambayo itaelekeza trafiki yako ya mtandao kupitia mtandao wa Tor), unahitaji kuanza wakala.
+Ili kutumia Arti kama proksi ya SOCKS (ambayo itaelekeza trafiki yako ya intaneti kupitia mtandao wa Tor), unahitaji kuanzisha proksi.
 
-#### Kuanza SOCKS Proxy:
-1. Tumia amri ifuatayo:
+#### Ili Kuanzisha Proksi ya SOCKS:
+1. Endesha amri ifuatayo:
    ```sh
    ./target/release/arti proxy -p 9150
    ```
 
-Amri hii huanza Arti kama ** SOCKS5 wakala** juu ya *** bandari 9150**, ambayo ni default bandari kutumika na Tor kwa trafiki SOCGS.
+Amri hii huanzisha Arti kama **proksi ya SOCKS5** kwenye **bandari 9150**, ambayo ndiyo bandari chaguomsingi inayotumiwa na Tor kwa trafiki ya SOCKS.
 
 ---
 
-### ** Hatua 5: Configure Maombi ya kutumia Arti**
+### **Hatua ya 5: Sanidi Programu Tumiaji ili Zitumia Arti**
 
-Mara Arti ni mbio kama wakala SOCKS, unahitaji kusanidi programu yako kwa kuitumia kwa trafiki routing kupitia mtandao Tor.
+Mara Arti inapokuwa inaendesha kama proksi ya SOCKS, unahitaji kusanidi programu zako zitumie proksi hiyo kuelekeza trafiki kupitia mtandao wa Tor.
 
 #### Hatua:
-1. Katika mipangilio ya programu yako (kwa mfano, kivinjari cha wavuti, maombi terminal), tafuta **mipangilio wakala**.
-2. Kuweka ** SOCKS5 wakala** kwa * mwenyeji wa ndani: 9150 *.
+1. Katika mipangilio ya programu yako (kwa mfano, kivinjari cha wavuti, programu ya terminali), tafuta **mipangilio ya proksi**.
+2. Weka **proksi ya SOCKS5** kuwa *localhost:9150*.
 
-Hii itakuwa njia trafiki yote kutoka maombi yako kwa njia ya ** mtandao wa Tor** kutumia Arti kama mpatanishi.
+Hii itaelekeza trafiki yote kutoka kwenye programu zako kupitia **mtandao wa Tor** kwa kutumia Arti kama kiunganishi.
 
 ---
 
-## **Arti Ushirikiano na Mtandao wa Tor**
+## **Ujumuishaji wa Arti na Mtandao wa Tor**
 
-Hapa ni mchoro rahisi kuonyesha jinsi Arti kazi kwa kushirikiana na mtandao Tor:
+Huu hapa mchoro uliorahisishwa unaoonyesha jinsi Arti inavyofanya kazi pamoja na mtandao wa Tor:
 
 
 ```plaintext
 [Application] --(SOCKS5)--> [Arti SOCKS Proxy] --(Tor Protocol)--> [Tor Network]
 ```
 
-- ** Programu ya** unajumuisha na ** Arti SOCKS Proxy ** kutumia itifaki ya ** SOCCS5 **.
-- Arti kisha kuwasiliana na ** mtandao wa Tor, kuhakikisha kwamba trafiki yako ni anonymized kama inapita kupitia mtandao.
+- **Programu Tumiaji** huunganishwa na **Proksi ya Arti SOCKS** kwa kutumia itifaki ya **SOCKS5**.
+- Kisha Arti huwasiliana na **mtandao wa Tor**, ikihakikisha kuwa trafiki yako haifichui utambulisho inapopita kwenye mtandao.
 
 ---
 
-## ** GitLab Repository na Mchango**
+## **Hazina ya GitLab na Uchangiaji**
 
-Kama una nia ya kuchangia katika maendeleo ya Arti, unaweza kugundua kanuni na kuchangie kupitia GitLab.
+Ikiwa una nia ya kuchangia maendeleo ya **Arti**, unaweza kuchunguza msimbo na kuchangia kupitia **GitLab**.
 
-- ** Kiungo cha Hifadhi**: [Arti GitLab Repository](https://gitlab.torproject.org/tpo/core/arti)
-- **Kupanga Repo**:
+- **Kiungo cha Hazina**: [Hazina ya Arti GitLab](https://gitlab.torproject.org/tpo/core/arti)
+- **Nakili Hazina**:
   ```sh
   git clone https://gitlab.torproject.org/tpo/core/arti.git
   ```
 
-### ** Kugawanyika na kuchangia**:
-1. ** Fork** hazina juu ya GitLab (inahitaji akaunti ya Gitlab).
-2. Kuunganisha hazina yako forked kwa kuanzisha wako wa ndani:
+### **Kutengeneza Fork na Kuchangia**:
+1. **Tengeneza Fork** ya hazina kwenye GitLab (inahitaji akaunti ya GitLab).
+2. Unganisha hazina yako iliyotengenezwa fork na usanidi wako wa ndani:
    ```sh
    git remote add _name_ git@gitlab.torproject.org:_name_/arti.git
    git fetch _name_
    ```
-   Badilisha *_name_* na jina lako la mtumiaji GitLab.
+   Badilisha *_name_* kwa jina lako la mtumiaji la GitLab.
 
-3. **Push mabadiliko** kwa uma wako:
+3. **Tuma mabadiliko** kwenye fork yako:
    ```sh
    git push _name_ main
    ```
 
-4. ** Kuunda Ombi la Uunganisho (MR)** kwenye GitLab:
-   Nenda kwenye sehemu ya Maombi ya Kuunganisha katika uma wako wa GitLab:
+4. **Unda Ombi la Kuunganisha (MR)** kwenye GitLab:
+   Nenda kwenye sehemu ya Ombi la Kuunganisha katika fork yako ya GitLab:
    ```plaintext
    https://gitlab.torproject.org/_name_/arti/-/merge_requests
    ```
 
-### **Mwongozo wa Maombi ya Kuunganisha**:
-- ** Je, si rebase na squash commits wakati wa mapitio**.
-- Kama ni lazima, kutumia * fixup!* au * squash! kwa ajili ya auto-squashing commits.
-- Lengo la ** kuongeza ahadi mpya** badala ya squashing wakati wa mzunguko ukaguzi.
+### **Miongozo ya Ombi la Kuunganisha**:
+- **Usifanye rebase na squash commits wakati wa ukaguzi**.
+- Ikiwa ni lazima, tumia *fixup!* au *squash!* kwa ajili ya kuunganisha commits kiotomatiki.
+- Lenga **kuongeza commits mpya** badala ya kuzifanyia squash wakati wa mzunguko wa ukaguzi.
 
 ---
 
-### **Maelezo ya ziada**:
+### **Madokezo ya Ziada**:
 
-- ** Pre-kujengwa Binaries**: Kama ya sasa, Arti haina kutoa rasmi pre-kujenga binary. Lazima kujenga mteja kutoka chanzo kama ilivyoelezwa hapo juu.
-- **Rust Maarifa**: Kama wewe ni kuchangia Arti, kumbuka kwamba codebase bado inakuwa, na kunaweza kuwa mabadiliko au refactoring kama makala mpya zinaongezwa.
+- **Faili za Binary Zilizojengwa Tayari**: Kwa sasa, **Arti** haitoi faili rasmi za binary zilizojengwa tayari. Lazima ujenge mteja kutoka kwenye msimbo chanzi kama ilivyoelezwa hapo juu.
+- **Maarifa ya Rust**: Ikiwa unachangia Arti, tambua kuwa msimbo msingi bado unaendelea kubadilika, na huenda kukawa na mabadiliko au urekebishaji wa muundo kadiri vipengele vipya vinavyoongezwa.
 
 ---
 
 
 
-Kama una nia ya kuchangia mradi, jisikie huru kuangalia nje code, gable hazina, na kuwasilisha ombi la kuunganisha. Kwa habari zaidi, updates, na utatuzi wa matatizo, rejea [Arti GitLab Repository](https://gitlab.torproject.org/tpo/core/arti). 
+Ikiwa una nia ya kuchangia mradi huu, jisikie huru kuangalia msimbo, kutengeneza fork ya hazina, na kuwasilisha Ombi la Kuunganisha. Kwa maelezo zaidi, masasisho, na utatuzi wa matatizo, rejelea [Hazina ya Arti GitLab](https://gitlab.torproject.org/tpo/core/arti). 
 
-Kufurahia uzoefu wako na Arti na hacking furaha!
+Ufurahie uzoefu wako na **Arti** na uandishi mwema wa msimbo!
 
---- 
+---

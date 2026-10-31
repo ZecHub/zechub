@@ -1,50 +1,56 @@
-# Tumia Zcash katika Dunia Halisi
+# Tumia Zcash katika Ulimwengu Halisi
 
-Zcash si tu kuhusu faragha katika nadharia  ni juu ya ** vitendo, kila siku uhuru wa kifedha**.
+Zcash si tu kuhusu faragha [privacy] katika nadharia — ni kuhusu **uhuru wa kifedha wa vitendo, wa kila siku**.
 
-Sehemu hii inakuonyesha **sawa jinsi ya kutumia Zcash katika hali halisi za maisha**, na miongozo ya hatua kwa hatua na mazoea bora.
+Sehemu hii inakuonyesha **hasa jinsi ya kutumia Zcash katika hali halisi za maisha**, kwa miongozo ya hatua kwa hatua na mbinu bora.
 
-## Mambo Utakayojifunza
+## Utakachojifunza
 
-- Jinsi ya kulinda faragha yako kifedha
-- Jinsi ya kuepuka makosa ya kawaida kwamba yatangaza data yako
-- Jinsi ya kutumia Zcash katika hali halisi duniani
+- Jinsi ya kulinda faragha yako ya kifedha
+- Jinsi ya kuepuka makosa ya kawaida yanayofichua data yako
+- Jinsi ya kutumia Zcash katika hali halisi
 
 ## Jinsi ya Kutumia Miongozo Hii
 
-Kila kitabu cha mchezo ni:
-- Kwa kifupi (dakika 5-7)
-- Hatua kwa hatua
-- Imezingatia ulimwengu halisi 
+Kila mwongozo ni:
+- Mfupi (dakika 5-7)
+- Wa hatua kwa hatua
+- Unaojikita kwenye ulimwengu halisi 
 
 
-Kama wewe ni mpya, kuanza hapa: [Ni nini Zcash](/start-here/what-is-zec-and-zcash)
+Ikiwa wewe ni mgeni, anza hapa: [Zcash ni nini?](/start-here/what-is-zec-and-zcash)
 
 
 ##  Njia Inayopendekezwa
 
-Fuata hatua hii kwa safari ya hatua ili kuweza kutumia Zcash katika ulimwengu halisi:
+Fuata safari hii ya hatua kwa hatua ili kufahamu matumizi ya Zcash katika ulimwengu halisi:
 
-###  [Pokea Michango ya Kibinafsi](/zcash-use-cases/receive-donations-privately)
-Jifunze jinsi ya kukubali pesa bila kufunua utambulisho wako au historia yako ya kifedha.
-
-
-###  [Tuma Pesa Bila Kuficha Utambulisho Wako](/zcash-use-cases/send-money-without-linking-identity) 
-Epuka kufunua kibeti chako, utambulisho wako au chati ya shughuli unapotuma pesa.
+###  [Pokea Michango kwa Faragha](/zcash-use-cases/receive-donations-privately)
+Jifunze jinsi ya kupokea fedha bila kufichua utambulisho wako au historia yako ya kifedha.
 
 
-###  [Freelancer Faragha Setup](/zcash-use-cases/freelance-privacy-setup)
-Pata malipo kwa Zcash huku ukiweka wateja wako na mapato yako kuwa ya siri.
+###  [Tuma Pesa Bila Kuunganisha Utambulisho](/zcash-use-cases/send-money-without-linking-identity) 
+Epuka kufichua pochi yako [wallet], utambulisho, au grafu ya miamala [transaction graph] unapomtumia mtu fedha.
 
 
-###  [Kubali Malipo Kama Mfanyabiashara](/zcash-use-cases/accept-payments-as-a-merchant)
-Kubali malipo kwa kutumia anwani ya ulinzi na kuepuka kufichua data mteja shughuli
+###  [Mpangilio wa Faragha kwa Mfanyakazi Huru](/zcash-use-cases/freelance-privacy-setup)
+Lipwa kwa Zcash huku ukiweka wateja wako na mapato yako kuwa ya faragha.
 
 
-###  [Fanya Kazi ya Hazina ya Jumuiya ya Kibinafsi](/zcash-use-cases/private-community-treasury)
-Matumizi ya anwani za ulinzi kushikilia fedha pamoja na kikomo kujulikana kwa mizani na shughuli
+###  [Kubali Malipo kama Mfanyabiashara](/zcash-use-cases/accept-payments-as-a-merchant)
+Kubali malipo [payments] kwa kutumia anwani ya faragha [shielded] na epuka kufichua data ya miamala ya wateja
 
-###  [Mwandishi wa habari Privacy Setup](/zcash-use-cases/journalist-privacy-setup)   
-Tumia anwani za ulinzi kwa shughuli zote na kulinda vyanzo kwa kuepuka malipo traceable. Matumizi memos makini kwa mawasiliano salama
+
+###  [Endesha Hazina ya Jamii ya Faragha](/zcash-use-cases/private-community-treasury)
+Tumia anwani za faragha kushikilia fedha za pamoja na kupunguza uonekano wa salio na miamala
+
+###  [Kubali Michango ya Faragha kama Shirika Lisilo la Faida la Marekani](/zcash-use-cases/accept-private-donations-as-a-us-nonprofit)
+Kubali ZEC za faragha kama shirika la 501(c)(3) na bado uwape wafadhili stakabadhi na fomu za IRS wanazohitaji
+
+###  [Mahali pa Kutoa ZEC](/zcash-use-cases/where-to-donate-zec)
+Pata mashirika yasiyo ya faida yanayokubali ZEC, na ni yapi kati yao yanayokubali zawadi za faragha
+
+###  [Mpangilio wa Faragha kwa Mwanahabari](/zcash-use-cases/journalist-privacy-setup)   
+Tumia anwani za faragha kwa miamala yote na ulinde vyanzo kwa kuepuka malipo yanayoweza kufuatiliwa. Tumia jumbe [memos] kwa uangalifu kwa mawasiliano salama
 
 <br/>

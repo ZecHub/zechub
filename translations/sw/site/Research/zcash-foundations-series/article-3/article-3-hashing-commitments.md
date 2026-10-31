@@ -1,187 +1,187 @@
-# Kushiriki na ahadi: bahasha ya kichawi iliyofungwa
-##### Utafiti wa awali kutoka [Annkkitaaa](https://github.com/Annkkitaaa)
+# Hashing na Commitment: Bahasha ya Kiajabu Iliyofungwa
+##### Utafiti Asilia kutoka kwa [Annkkitaaa](https://github.com/Annkkitaaa)
 
-! ![ alt maandishi](/content-images/image-15-0c16784b27.webp)
+![alt text](/content-images/image-15-0c16784b27.webp)
 
-### Jinsi ya kufunga siri katika umma na kamwe kuwa na uwezo wa uongo kuhusu hilo
+### Jinsi ya kufunga siri hadharani na usiweze kamwe kudanganya kuihusu
 
-> **Series:** *Zcash kutoka Kwanza Kanuni* . **Kifungu cha 3 .
-> Sisi kujenga juu ya [Kifungu cha 1 (maeneo ya mwisho)](article-1-finite-fields.md) na [Kifungu cha 2 (curves elliptic)](article-2-elliptic-curves.md), lakini intuition anasimama peke yake.
-> Nini wewe kuondoka na: uelewa wazi wa kazi hash, nini "kuficha" na "kufunga" kweli maana, na jinsi Zcash hujenga ahadi kumbuka kwamba nanga kila malipo binafsi.
+> **Mfululizo:** *Zcash kutoka Kanuni za Msingi* . **Makala ya 3 . Hashing na Commitment**
+> **Hadhira:** wanaoanza. Tunajenga juu ya [Makala ya 1 (nyuga zenye kikomo)](article-1-finite-fields.md) na [Makala ya 2 (mikondo duaradufu)](article-2-elliptic-curves.md), lakini intuisheni inajitegemea.
+> **Utakachobaki nacho:** ufahamu wazi wa vitendakazi vya hash [hash functions], maana halisi ya “kuficha” na “kufunga,” na jinsi Zcash hutengeneza commitment za dokezo zinazotia nanga kila malipo ya faragha [private payment].
 
-Katika [Kifungu cha 0](article-0-shielded-transaction.md) sisi ilivyoelezwa "kibao cha kichawi kufungwa": kitu unaweza pini kwa bodi ya umma kwamba inathibitisha bahasha ipo wakati kuficha nini ndani, na ambayo unaweza kamwe kubadilishana nje baadaye. Tuliahidi kueleza jinsi jambo kama hilo inawezekana. Hii ni makala hiyo. Tunahitaji viungo viwili: ** kazi hash ** na ** ahadi **.
-
----
-
-## 1. Kwa nini unapaswa kuhangaikia jambo hilo?
-
-Fikiria wewe kutabiri matokeo ya uchaguzi na wanataka kuthibitisha, * baada ya *, kwamba wewe kuitwa ni mapema. Huwezi tu kutangaza utabiri wako (ambayo huathiri watu, au inakaribisha mashtaka wewe iliyopita). Na huwezi kuiweka siri kabisa (basi huwezi kuthibitisha chochote baadaye).
-
-Nini unataka ni njia ya ** lock katika thamani sasa, katika umma, kama kwamba:**
-
-- hakuna mtu anaweza kujua nini wewe imefungwa ndani (ni anakaa siri kwa sasa), na
-- Baadaye, unapoifunua, huwezi kusema uwongo kuhusu jinsi ilivyokuwa.
-
-Hii "kufunga sasa, kufunua baadaye, hakuna uongo" gadget inaitwa ahadi, na ni kila mahali katika Zcash. noti ya thamani na mmiliki ni imefungwa katika ahadi wakati noti ni kuundwa. kujenga ahadi, sisi kwanza haja workhorse yao: hash kazi.
+Katika [Makala ya 0](article-0-shielded-transaction.md) tulieleza “bahasha ya kiajabu iliyofungwa”: kitu unachoweza kubandika kwenye ubao wa umma kinachothibitisha kuwa bahasha ipo huku kikificha kilichomo, na ambacho huwezi kamwe kukibadilisha baadaye. Tuliahidi kueleza jinsi kitu kama hicho kinavyowezekana. Hii ndiyo makala hiyo. Tunahitaji viambato viwili: **vitendakazi vya hash** na **commitment**.
 
 ---
 
-## 2. Intuition: alama ya vidole kwa ajili ya data
+## 1. Kwa nini ujali?
 
-kazi ** hash ** inachukua data yoyote wakati wote, herufi moja au maktaba nzima, na crushes chini ya mfululizo mfupi, fasta-saizi aitwaye ** digest ** au ** hash. Fikiria kama alama ya vidole kwa ajili ya data.
+Fikiria unatabiri matokeo ya uchaguzi na unataka kuthibitisha, *baadaye*, kwamba uliyatabiri mapema. Huwezi kutangaza tu utabiri wako (hilo huathiri watu, au hualika tuhuma kwamba uliubadilisha). Pia huwezi kuuweka siri kabisa (basi huwezi kuthibitisha chochote baadaye).
 
-! ![ alt maandishi](/content-images/image-16-52fdf62c87.webp)
+Unachotaka ni njia ya **kufunga thamani sasa, hadharani, hivi kwamba:**
 
-Fingerprint encryptographic nzuri ina mali nne. kushikilia yao kama intuitions, si equations:
+- hakuna anayeweza kujua ulichofunga (kinabaki siri kwa sasa), na
+- baadaye, utakapoifichua, **huwezi kudanganya** kuhusu ilivyokuwa.
 
-| Mali | Maana ya kawaida | Kwa nini ni muhimu |
+Kifaa hiki cha “funga sasa, fichua baadaye, bila udanganyifu” huitwa **commitment**, na kipo kila mahali katika Zcash. Thamani na mmiliki wa dokezo hufungwa katika commitment wakati dokezo linapoundwa. Ili kujenga commitment, kwanza tunahitaji farasi wake wa kazi: kitendakazi cha hash.
+
+---
+
+## 2. Intuisheni: alama ya kidole ya data
+
+**Kitendakazi cha hash** huchukua data yoyote ile, herufi moja au maktaba nzima, na kuibana hadi kuwa mfuatano mfupi wa ukubwa usiobadilika unaoitwa **digest** au **hash**. Kifikirie kama **alama ya kidole ya data.**
+
+![alt text](/content-images/image-16-52fdf62c87.webp)
+
+Alama nzuri ya kidole ya kriptografia ina sifa nne. Zichukulie kama intuisheni, si milinganyo:
+
+| Sifa | Maana rahisi | Kwa nini ni muhimu |
 |---|---|---|
-| **Ya Kuamua** | Ingizo moja hutoa alama za vidole sawa kila wakati | Unaweza kuangalia tena alama ya kidole wakati wowote |
-| **Washambuliaji wa haraka** | Kuhesabu alama za vidole ni haraka | Inafaa kutumika kila mahali |
-| **Njia moja (haiwezi kuathiriwa na picha ya awali)** | Ukipewa alama ya kidole, huwezi kupata ingizo lililoifanya | Huficha data asili |
-| **Haiwezi kugongana** | Huwezi kupata ingizo mbili tofauti zenye alama za vidole sawa | Hakuna mtu anayeweza kutengeneza mechi |
+| **Inayobainika** | Ingizo lilelile daima hutoa alama ileile ya kidole | Unaweza kukagua upya alama ya kidole wakati wowote |
+| **Husonga mbele kwa haraka** | Kuhesabu alama ya kidole ni haraka | Ni rahisi kutumika kila mahali |
+| **Ya njia moja (sugu kwa preimage)** | Ukipewa alama ya kidole, huwezi kupata ingizo lililoitengeneza | Huficha data asilia |
+| **Sugu kwa collision** | Huwezi kupata maingizo mawili tofauti yenye alama ileile ya kidole | Hakuna anayeweza kughushi ulinganifu |
 
-Na tabia moja zaidi ambayo hufanya alama za vidole kuhisi karibu kichawi:
+Na kuna tabia moja zaidi inayofanya alama za vidole zionekane karibu za kiajabu:
 
-### Athari ya mvua ya mawe (iliyothibitishwa)
+### Athari ya maporomoko (imethibitishwa)
 
-Kubadilisha pembejeo kwa kiasi kidogo na mabadiliko ya alama ya vidole * kabisa *, bila kufanana na zamani. Hapa ni mbili halisi SHA-256 alama za kidole ya ujumbe tofauti na herufi moja:
+Badilisha ingizo kwa kiasi kidogo kabisa na alama ya kidole hubadilika *kabisa*, bila kufanana na ya zamani. Hizi hapa ni alama mbili halisi za SHA-256 za ujumbe zinazotofautiana kwa herufi moja:
 
 ```
 H("Pay Bob 5 ZEC") = 6e2dc1a954c70cc865f18ea8cb70b7b56eeaf6ca42b380824a55d65dc342f34b
 H("Pay Bob 6 ZEC") = 76abc346d8d3053f76a9ae18b617af71f02729a73ec6a51732d2d94934e4217f
 ```
 
-Out of 64 hex digits, **59 are different.** One character in, an entirely unrelated fingerprint out. This is why you cannot nudge an input toward a target fingerprint: there's no "warmer / colder" signal to follow.
+Kati ya tarakimu 64 za hex, **59 ni tofauti.** Herufi moja ikiingia, alama ya kidole isiyohusiana kabisa hutoka. Hii ndiyo sababu huwezi kusogeza ingizo kuelekea alama ya kidole lengwa: hakuna ishara ya “joto zaidi / baridi zaidi” ya kufuata.
 
 ---
 
-## 3. Kutoka alama za vidole hadi wajibu
+## 3. Kutoka alama ya kidole hadi commitment
 
-Hapa ni wazo la kushawishi lakini kuvunjwa: kujitolea kwa thamani ya siri `v`, tu kuchapisha fingerprint yake `H(v)`.
+Hili hapa wazo la kuvutia lakini lililoharibika: ili kufunga thamani ya siri `v`, chapisha tu alama yake ya kidole `H(v)`.
 
-Hii * binds * wewe vizuri (unaweza baadaye kudai tofauti `v`, kwa sababu hiyo ingehitaji mgongano). Lakini ** inashindwa kujificha.** Kama seti ya thamani iwezekanavyo ni ndogo, mshambuliaji tu fingerprints kila mgombea na kulinganisha. Kujitolea kwa "ndiyo" au "hapana"? Wao hash wote na mara moja kujifunza ambayo wewe alichagua. determinism, rafiki yetu dakika iliyopita, sasa kuvuja siri.
+Hii *inakufunga* vizuri (huwezi baadaye kudai `v` tofauti, kwa sababu hilo lingehitaji collision). Lakini **inashindwa kuficha.** Ikiwa seti ya thamani zinazowezekana ni ndogo, mshambuliaji huweka tu alama ya kidole kwa kila chaguo na kulinganisha. Unafunga “ndiyo” au “hapana”? Anafanya hash kwa zote mbili na kujua mara moja uliyochagua. Ubainikaji, rafiki yetu muda mfupi uliopita, sasa unavuja siri.
 
-Suluhisho ni neno moja: ** randomness. **
+Suluhisho ni neno moja: **unasibu.**
 
-> ** ahadi ni alama ya vidole ya thamani yako mchanganyiko na idadi safi random: **
-> `commitment = H(v, r)` ambapo `r` ni siri random "kupofusha" thamani.
+> **Commitment ni alama ya kidole ya thamani yako iliyochanganywa na nambari nasibu mpya:**
+> `commitment = H(v, r)` ambapo `r` ni thamani ya siri nasibu ya “kufifisha.”
 
-Sasa sawa `v` inazalisha tofauti-kuangalia ahadi kila wakati, kwa sababu `r` Sifa mbili tulitaka hatimaye wote kushikilia:
+Sasa `v` ileile hutoa commitment yenye mwonekano tofauti kila wakati, kwa sababu `r` ni tofauti. Sifa mbili tulizotaka hatimaye zote zinatimia:
 
-! ![ alt maandishi](/content-images/image-17-3ec4617665.webp)
+![alt text](/content-images/image-17-3ec4617665.webp)
 
-** Kufungua ** (kufunua) ahadi baadaye, wewe kuchapisha `v` na `r`; mtu yeyote recalculates `H(v, r)` Hiyo ni bahasha ya kichawi iliyofungwa kutoka kwa Kifungu cha 0, iliyofanywa kuwa halisi.
+Ili **kufungua** (kufichua) commitment baadaye, unachapisha `v` na `r`; mtu yeyote huhesabu upya `H(v, r)` na kukagua kuwa inalingana. Umefungwa. Hiyo ndiyo bahasha ya kiajabu iliyofungwa kutoka Makala ya 0, iliyofanywa kuwa halisi.
 
-> **Two takeaways kubeba milele:** *binding* linatokana na hash kuwa mgongano sugu; *kuficha* inatokana na random blinding sababu `r`.
+> **Mambo mawili ya kukumbuka milele:** *kufunga* hutokana na hash kuwa sugu kwa collision; *kuficha* hutokana na kigezo nasibu cha kufifisha `r`.
 
 ---
 
 ## 4. Njia mbili za kujenga bahasha
 
-Kuna mapishi mawili ya kawaida, na Zcash hutumia zote mbili.
+Kuna mapishi mawili ya kawaida, na Zcash hutumia yote mawili.
 
-| | **Ahadi inayotokana na Hash** | **Ahadi ya Pedersen** (kutoka Kifungu cha 2) |
+| | **Commitment inayotegemea hash** | **Commitment ya Pedersen** (kutoka Makala ya 2) |
 |---|---|---|
-| Kichocheo | `H(v, r)` | `v.G + r.H` (pointi kwenye mkunjo) |
-| Kujificha kutoka | nasibu `r` | nasibu `r` |
-| Kufunga kutoka | upinzani wa mgongano | mlango wa mtego wa mviringo-mkunjo (ECDLP) |
-| Nguvu maalum | rahisi na ya haraka | ahadi **zinaongeza** (homomorphic) |
+| Mapishi | `H(v, r)` | `v.G + r.H` (pointi kwenye mkunjo) |
+| Kuficha hutokana na | `r` nasibu | `r` nasibu |
+| Kufunga hutokana na | usugu kwa collision | mtego wa mkunjo duaradufu (ECDLP) |
+| Nguvu maalumu | rahisi na haraka | commitment **hujumlishika** (homomorphic) |
 
-Hiyo safu ya mwisho ni kwa nini ahadi Pedersen umuhimu sana katika Zcash. Kwa sababu `commit(v_1) + commit(v_2)` ni halali `commit(v_1 + v_2)`, itifaki inaweza baadaye kuthibitisha kwamba ** fedha katika sawa fedha nje ** kwa kuongeza ahadi pamoja, wote bila kufunua kiasi moja. Sisi ni kuhifadhi ukweli kwamba kwa Ibara ya 6.
-
----
-
-## 5. subtlety kwamba maumbo yote ya Zcash: ZK-kirafiki hashing
-
-Hapa ni ufahamu wengi utangulizi miss, na ni hasa "hisabati hukutana uhandisi" uhakika thamani ya kuonyesha.
-
-SHA-256 is a superb fingerprint for everyday computing. But Zcash doesn't just *compute* hashes; it has to **prove, inside a zero-knowledge proof, that a hash was computed correctly** (Article 5 explains why). And here's the catch: a zero-knowledge proof works in the language of **finite-field arithmetic** (Article 1), while SHA-256 is built from bit-twiddling operations (shifts, ANDs, XORs). Expressing all that bit-twiddling in field arithmetic is enormously expensive, making proofs huge and slow.
-
-Hivyo Zcash cryptographers iliyoundwa kazi hash ambao ndani ni * tayari * uwanja arithmetic, na kuifanya nafuu kuthibitisha:
-
-! ![ alt maandishi](/content-images/image-18-89ade807ad.webp)
-
-Hii moja ya uhandisi shinikizo, * "ni lazima kuwa na gharama nafuu kuthibitisha",* ni kwa nini Zcash zuliwa na kupitishwa maalum hash kazi badala ya kufikia kwa SHA-256 kila mahali.
+Safu hiyo ya mwisho ndiyo sababu commitment za Pedersen ni muhimu sana katika Zcash. Kwa sababu `commit(v_1) + commit(v_2)` ni `commit(v_1 + v_2)` halali, itifaki inaweza baadaye kuthibitisha kwamba **pesa zinazoingia ni sawa na pesa zinazotoka** kwa kujumlisha commitment pamoja, yote hayo bila kufichua kiasi hata kimoja. Tunahifadhi ukweli huo kwa ajili ya Makala ya 6.
 
 ---
 
-## 6. Ambapo hii anaishi katika Zcash
+## 5. Ujanja unaounda Zcash yote: hashing rafiki kwa ZK
 
-Zcash ametumia hashes tofauti katika miundo yake, kila mmoja alichaguliwa kwa kazi hiyo:
+Huu hapa ni ufahamu ambao utangulizi mwingi hukosa, na ndio hasa hoja ya “hisabati hukutana na uhandisi” inayofaa kusisitizwa.
 
-| Ubunifu | Hashi zilizotumika | Wapi |
+SHA-256 ni alama bora kabisa ya kidole kwa kompyuta za kila siku. Lakini Zcash haihesabu tu hash; inapaswa **kuthibitisha, ndani ya thibitisho la maarifa sifuri [zero-knowledge proof], kwamba hash ilihesabiwa kwa usahihi** (Makala ya 5 inaeleza kwa nini). Na hapa kuna tatizo: thibitisho la maarifa sifuri hufanya kazi katika lugha ya **hesabu za nyuga zenye kikomo** (Makala ya 1), ilhali SHA-256 imejengwa kwa operesheni za kubadilisha biti (shifts, ANDs, XORs). Kueleza ubadilishaji huo wote wa biti katika hesabu za nyuga ni ghali sana, na kufanya mathibitisho kuwa makubwa na polepole.
+
+Kwa hiyo wanakryptografia wa Zcash walibuni vitendakazi vya hash ambavyo sehemu zake za ndani *tayari* ni hesabu za nyuga, na hivyo kuwa rahisi kuthibitisha:
+
+![alt text](/content-images/image-18-89ade807ad.webp)
+
+Shinikizo hili moja la uhandisi, *“lazima iwe nafuu kuthibitisha,”* ndilo sababu Zcash ilibuni na kutumia vitendakazi maalumu vya hash badala ya kutumia SHA-256 kila mahali.
+
+---
+
+## 6. Ambapo hili lipo katika Zcash
+
+Zcash imetumia hash tofauti katika miundo yake, kila moja ikichaguliwa kwa kazi husika:
+
+| Muundo | Hash zilizotumika | Wapi |
 |---|---|---|
-| **Sprout** (mapema zaidi) | **SHA-256** | Kumbuka ahadi na mti |
-| **Sapling** | **Pedersen heshi**, pamoja na **BLAKE2** | Pedersen kwa ahadi za noti na mti wa Merkle; BLAKE2 kwa ajili ya uondoaji wa funguo na vibatilishi |
-| **Orchard** (ya sasa) | **Sinsemilla**, pamoja na **Poseidon** | Sinsemilla kwa ajili ya ahadi za noti na mti wa Merkle; Poseidon kwa ajili ya kifuta nullifier, vyote vimeundwa kwa ajili ya saketi za hesabu |
+| **Sprout** (wa mwanzo kabisa) | **SHA-256** | Commitment za dokezo na mti |
+| **Sapling** | **Hash za Pedersen**, pamoja na **BLAKE2** | Pedersen kwa commitment za dokezo na mti wa Merkle; BLAKE2 kwa utokaji wa funguo na nullifier |
+| **Orchard** (wa sasa) | **Sinsemilla**, pamoja na **Poseidon** | Sinsemilla kwa commitment za dokezo na mti wa Merkle; Poseidon kwa nullifier, zote zikiwa zimeundwa kwa saketi za hesabu |
 
-Majina ya kutambua ni ** Pedersen ** na ** Sinsemilla ** (kufunga-style hashes kujengwa kutoka pointi curve, hivyo kurithi "anaongeza" superpower na kuthibitisha nafuu) na ** Poseidon ** (shamba-arithmetic hash kusudi-kujengwa kwa ajili ya zero-maarifa circuits). Wakati Ibara 0 alisema maudhui ya kumbuka ni muhuri katika ahadi, * hii * ni mashine kufanya muhuri.
+Majina ya kutambua ni **Pedersen** na **Sinsemilla** (hash za mtindo wa commitment zilizojengwa kutoka pointi za mkunjo, hivyo hurithi uwezo wa “kujumlishika” na kuthibitishwa kwa gharama nafuu) na **Poseidon** (hash ya hesabu za nyuga iliyoundwa mahsusi kwa saketi za maarifa sifuri). Makala ya 0 iliposema yaliyomo kwenye dokezo yamefungwa ndani ya commitment, *hii* ndiyo mitambo inayofanya ufungaji huo.
 
-Hivyo kitanzi wazi kutoka Ibara ya 0, * "jinsi unaweza bahasha muhuri kuficha yaliyomo yake bado kuwa haiwezekani kwa ajili ya bandia?" *, Sasa imefungwa: ** kujificha kutoka kwa sababu blinding random, binding kutoka upinzani mgongano au curve trapdoor. *
+Kwa hiyo mzunguko wazi kutoka Makala ya 0, *“bahasha iliyofungwa inawezaje kuficha yaliyomo lakini isiwezekane kuighushi?”*, sasa umefungwa: **kuficha hutokana na kigezo nasibu cha kufifisha, kufunga hutokana na usugu kwa collision au mtego wa mkunjo.**
 
 ---
 
-## 7. Kujitenga kwa unyoofu
+## 7. Kanusho la uaminifu
 
-Sisi kurahisisha kuweka mambo wazi. mipango halisi ahadi kufafanua hasa jinsi `v` na `r` are encoded and which generators are used; "hiding" and "binding" each come in flavours (perfect vs computational) with precise security definitions; and we didn't show the internals of Pedersen, Sinsemilla, or Poseidon. None of that changes the intuition: a commitment is a fingerprint plus randomness that hides now and binds forever. The details return, flagged, when the protocol article needs them.
+Tumerahisisha ili kuweka mambo wazi. Mipango halisi ya commitment hubainisha kwa usahihi jinsi `v` na `r` zinavyosimbwa na jenereta zipi zinatumika; “kuficha” na “kufunga” kila kimoja huwa na aina zake (kamili dhidi ya kikokotozi) zenye fasili sahihi za usalama; na hatukuonyesha sehemu za ndani za Pedersen, Sinsemilla, au Poseidon. Hakuna kati ya hayo kinachobadilisha intuisheni: commitment ni alama ya kidole pamoja na unasibu unaoficha sasa na kufunga milele. Maelezo yatarejea, yakiwa yamebainishwa, wakati makala ya itifaki yatakapoyahitaji.
 
 ---
 
 ## 8. Muhtasari
 
-- A **hash function** is a **fingerprint for data**: deterministic, fast forwards, one-way, collision resistant, with an **avalanche effect** (one bit in, a totally different fingerprint out).
-- A ** kujitolea ** utapata ** lock thamani katika umma sasa na kufunua baadaye bila kuwa na uwezo wa uongo.
-- Kuchapisha alama za vidole `H(v)` inaunganisha lakini haina ** si ** kujificha. Kuongeza random blinding sababu, `H(v, r)`, hurekebisha kwamba: ** kujificha kutoka `r`, kuunganisha kutoka upinzani mgongano.**
-- Zcash anatumia wote wawili ** hash-msingi ** na ** Pedersen ** ahadi; Pedersen ahadi kuongeza ** kuongeza up **, ambayo Ibara ya 6 itatumia kuthibitisha thamani ya usawa binafsi.
-- Kwa sababu hashes lazima ** kuthibitishwa ** ndani ya zero-maarifa uthibitisho, Zcash anatumia ** ZK-kirafiki ** hashes kujengwa kutoka uwanja hesabu (Pedersen **, Sinsemilla **, Poseidon **) badala ya SHA-256 kila mahali.
+- **Kitendakazi cha hash** ni **alama ya kidole ya data**: kinabainika, husonga mbele kwa haraka, ni cha njia moja, sugu kwa collision, na kina **athari ya maporomoko** (biti moja ikiingia, alama ya kidole tofauti kabisa hutoka).
+- **Commitment** hukuruhusu **kufunga thamani hadharani sasa na kuifichua baadaye bila kuweza kudanganya.**
+- Kuchapisha alama tupu ya kidole `H(v)` hufunga lakini **hakufichi**. Kuongeza kigezo nasibu cha kufifisha, `H(v, r)`, hurekebisha hilo: **kuficha hutokana na `r`, kufunga hutokana na usugu kwa collision.**
+- Zcash hutumia commitment **zinazotegemea hash** na za **Pedersen**; commitment za Pedersen pia **hujumlishika**, jambo ambalo Makala ya 6 itatumia kuthibitisha usawa wa thamani kwa faragha.
+- Kwa kuwa hash lazima **zithibitishwe** ndani ya mathibitisho ya maarifa sifuri, Zcash hutumia hash **rafiki kwa ZK** zilizojengwa kutoka hesabu za nyuga (**Pedersen**, **Sinsemilla**, **Poseidon**) badala ya SHA-256 kila mahali.
 
 ---
 
-## Orodha ya maneno
+## Fahirisi ya istilahi
 
-| Muhula | Maana ya Kiingereza cha kawaida |
+| Istilahi | Maana kwa Kiingereza rahisi |
 |---|---|
-| **Hash function** | Huponda data yoyote kuwa alama fupi ya kidole isiyobadilika (digest) |
-| **Digest** | Kidole cha alama cha matokeo cha kitendakazi cha hashi |
-| **Preimage resistance** | Haiwezi kurudisha muhtasari kwenye ingizo lake (la upande mmoja) |
-| **Collision resistance** | Siwezi kupata ingizo mbili zenye muhtasari sawa |
-| **Avalanche effect** | Mabadiliko madogo ya kuingiza hubadilisha kabisa muhtasari |
-| **Commitment** | Funga thamani sasa, funua baadaye, huwezi kusema uongo kuihusu |
-| **Blinding factor (`r`)** | Nambari mpya nasibu inayoficha ahadi |
-| **ZK-friendly hash** | Hash iliyojengwa kutoka kwa hesabu ya uwanja kwa hivyo ni rahisi kuthibitisha |
+| **Hash function** | Hubana data yoyote hadi kuwa alama fupi ya kidole ya ukubwa usiobadilika (digest) |
+| **Digest** | Alama ya kidole inayotolewa na kitendakazi cha hash |
+| **Preimage resistance** | Huwezi kurudisha digest hadi ingizo lake (njia moja) |
+| **Collision resistance** | Huwezi kupata maingizo mawili yenye digest ileile |
+| **Avalanche effect** | Mabadiliko madogo kwenye ingizo hubadilisha digest kabisa |
+| **Commitment** | Funga thamani sasa, fichua baadaye, huwezi kudanganya kuihusu |
+| **Blinding factor (`r`)** | Nambari nasibu mpya inayofanya commitment ifiche |
+| **ZK-friendly hash** | Hash iliyojengwa kutoka hesabu za nyuga ili iwe nafuu kuthibitisha |
 
 ---
 
-## FAQ
+## Maswali Yanayoulizwa Mara Kwa Mara
 
-** Kwa nini si tu encrypt thamani badala ya ahadi yake? **
-Encryption ni kuhusu *usiri unaweza baadaye decrypt.* ahadi ni kuhusu #binding*: dhamana kwamba huwezi kubadilisha jibu lako baadaye. kazi tofauti.
+**Kwa nini usisimbie fiche tu thamani badala ya kutengeneza commitment kuihusu?**  
+Usimbaji fiche [encryption] unahusu *usiri unaoweza kuufumbua baadaye*. Commitment inahusu *kufunga*: dhamana kwamba huwezi kubadilisha jibu lako baadaye. Ni kazi tofauti.
 
-** Kama ahadi kuficha thamani, jinsi gani mtu yeyote kuangalia sheria? **
-Hiyo ni jukumu la zero-ujuzi uthibitisho (Kifungu cha 5): wao kuthibitisha thamani ya siri hutii sheria bila kufunua yake.
+**Ikiwa commitment huficha thamani, mtu yeyote hukaguaje kanuni?**  
+Hiyo ndiyo kazi ya mathibitisho ya maarifa sifuri (Makala ya 5): yanathibitisha kwamba thamani iliyofichwa inatii kanuni bila kuifichua.
 
-** Je, SHA-256 kuvunjwa, tangu Zcash kuepuka ni katika maeneo? **
-Hapana SHA-256 ni nzuri na Zcash bado inatumia ni tu ghali kwa * kuthibitisha ndani ya mzunguko *, ambayo ni kwa nini ZK-kirafiki hashes zipo kwa kazi hiyo maalum.
+**Je, SHA-256 imeharibika, kwa kuwa Zcash huiepuka sehemu fulani?**  
+Hapana. SHA-256 ni nzuri na Zcash bado huitumia. Ni ghali tu *kuthibitisha ndani ya saketi*, ndiyo sababu hash rafiki kwa ZK zipo kwa kazi hiyo mahususi.
 
-**Wapi random `r` linatoka wapi, na ni nani anayelitunza?**
-Ni yanayotokana na safi wakati kumbuka ni kuundwa na inayojulikana kwa kumbuka ya mmiliki. Ni sehemu ya nini hufanya kila kumbuka kipekee na binafsi.
+**`r` nasibu hutoka wapi, na ni nani huihifadhi?**  
+Huzalishwa upya wakati dokezo linapoundwa na hujulikana kwa mmiliki wa dokezo. Ni sehemu ya kinachofanya kila dokezo liwe la kipekee na la faragha.
 
 ---
 
-### Jaribu ufahamu wako wa ndani
+### Jaribu intuisheni yako
 
-Unajitolea kwa utabiri wako wa uchaguzi kama `H(v, r)` rafiki anasisitiza unapaswa kuchapisha tu `H(v)` Katika sentensi moja, kwa nini ni wazo mbaya kama kuna tu matokeo mawili iwezekanavyo? * ((Jibu chini.) *
+Unafunga utabiri wako wa uchaguzi kama `H(v, r)` na kuuchapisha. Rafiki anasisitiza kwamba uchapishe tu `H(v)` ili iwe rahisi zaidi. Kwa sentensi moja, kwa nini hilo ni wazo baya ikiwa kuna matokeo mawili tu yanayowezekana? *(Jibu hapa chini.)*
 
-<details><summary>Answer</summary>
+<details><summary>Jibu</summary>
 
-Kwa matokeo mawili tu, rafiki yako anaweza tu mahesabu `H("win")` na `H("lose")` wao wenyewe na kulinganisha dhidi ya kuchapishwa yako digest, mara moja kujifunza utabiri wako. hash wazi huunganisha lakini haina kujificha; random `r` ni nini stops hii guess-na-kuangalia mashambulizi.
+Kukiwa na matokeo mawili tu, rafiki yako anaweza tu kuhesabu `H("win")` na `H("lose")` mwenyewe na kulinganisha na digest uliyochapisha, hivyo kujua mara moja utabiri wako. Hash tupu hufunga lakini haifiche; `r` nasibu ndiyo inayozuia shambulio hili la kubashiri na kukagua.
 </details>
 
 ---
 
-### Ni nini kinachofuata
+### Kinachofuata
 
-**Article 4 . Merkle trees:** we now have millions of commitments piling up. Article 4 shows how Zcash organizes them into a single tree whose tiny root fingerprint stands in for the entire history, and how you can prove your note is in that tree without revealing which one. That's the real shape of Article 0's "public board."
+**Makala ya 4 . Miti ya Merkle:** sasa tuna mamilioni ya commitment yakirundikana. Makala ya 4 inaonyesha jinsi Zcash huyapanga katika mti mmoja ambao alama yake ndogo ya kidole ya mzizi husimama kwa niaba ya historia nzima, na jinsi unavyoweza kuthibitisha dokezo lako limo katika mti huo bila kufichua ni lipi. Hiyo ndiyo sura halisi ya “ubao wa umma” wa Makala ya 0.
 
-* Sehemu ya * Zcash kutoka Kanuni za Kwanza * mfululizo kwa [ZecHub](https://zechub.org). Leseni CC BY-SA 4.0.*
+*Sehemu ya mfululizo wa* Zcash kutoka Kanuni za Msingi *kwa ajili ya [ZecHub](https://zechub.org). Imepewa leseni ya CC BY-SA 4.0.*

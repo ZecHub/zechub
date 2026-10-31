@@ -1,33 +1,33 @@
 # Maswali Yanayoulizwa Mara kwa Mara
 
-Orodha ya maswali ya kawaida kuhusu Zcash. Kwa utatuzi wa matatizo ya mteja wa Zcash, tafadhali tazama [mwongozo rasmi wa utatuzi wa matatizo](https://zcash.readthedocs.io/en/latest/rtd_pages/troubleshooting_guide.html).
+Orodha ya maswali yanayoulizwa sana kuhusu Zcash. Kwa utatuzi wa matatizo wa mteja wa Zcash, tafadhali angalia [mwongozo rasmi wa utatuzi wa matatizo](https://zcash.readthedocs.io/en/latest/rtd_pages/troubleshooting_guide.html).
 
 ### Urambazaji wa Haraka
 
 <div className="flex flex-wrap gap-2 my-4">
-  <a href="#what-is-zcash" className="inline-flex px-3 py-1.5 rounded-full border border-border bg-card text-sm no-underline hover:bg-accent">What is Zcash?</a>
-  <a href="#how-can-i-acquire-zcash" className="inline-flex px-3 py-1.5 rounded-full border border-border bg-card text-sm no-underline hover:bg-accent">How can I acquire Zcash?</a>
-  <a href="#what-is-the-difference-between-zcash-and-other-cryptocurrencies" className="inline-flex px-3 py-1.5 rounded-full border border-border bg-card text-sm no-underline hover:bg-accent">Difference from other cryptocurrencies?</a>
-  <a href="#how-is-the-zcash-protocol-governed" className="inline-flex px-3 py-1.5 rounded-full border border-border bg-card text-sm no-underline hover:bg-accent">Protocol governance?</a>
-  <a href="#where-is-my-transaction" className="inline-flex px-3 py-1.5 rounded-full border border-border bg-card text-sm no-underline hover:bg-accent">Where is my transaction?</a>
-  <a href="#is-zcash-really-private" className="inline-flex px-3 py-1.5 rounded-full border border-border bg-card text-sm no-underline hover:bg-accent">Is Zcash really private?</a>
-  <a href="#a-few-common-misconceptions" className="inline-flex px-3 py-1.5 rounded-full border border-border bg-card text-sm no-underline hover:bg-accent">Common misconceptions</a>
-  <a href="#zcashd-stopped-working-what-do-i-run-now" className="inline-flex px-3 py-1.5 rounded-full border border-border bg-card text-sm no-underline hover:bg-accent">zcashd stopped working?</a>
-  <a href="#how-do-i-move-my-zcashd-wallet-to-zallet" className="inline-flex px-3 py-1.5 rounded-full border border-border bg-card text-sm no-underline hover:bg-accent">Move my wallet to Zallet?</a>
-  <a href="#what-is-ironwood-and-do-i-need-to-do-anything" className="inline-flex px-3 py-1.5 rounded-full border border-border bg-card text-sm no-underline hover:bg-accent">What is Ironwood?</a>
-  <a href="#which-full-node-should-i-run" className="inline-flex px-3 py-1.5 rounded-full border border-border bg-card text-sm no-underline hover:bg-accent">Which full node?</a>
-  <a href="#where-do-i-look-up-a-term-from-a-release-note" className="inline-flex px-3 py-1.5 rounded-full border border-border bg-card text-sm no-underline hover:bg-accent">Look up a term?</a>
+  <a href="#what-is-zcash" className="inline-flex px-3 py-1.5 rounded-full border border-border bg-card text-sm no-underline hover:bg-accent">Zcash ni nini?</a>
+  <a href="#how-can-i-acquire-zcash" className="inline-flex px-3 py-1.5 rounded-full border border-border bg-card text-sm no-underline hover:bg-accent">Ninawezaje kupata Zcash?</a>
+  <a href="#what-is-the-difference-between-zcash-and-other-cryptocurrencies" className="inline-flex px-3 py-1.5 rounded-full border border-border bg-card text-sm no-underline hover:bg-accent">Tofauti na sarafu nyingine za kidijitali?</a>
+  <a href="#how-is-the-zcash-protocol-governed" className="inline-flex px-3 py-1.5 rounded-full border border-border bg-card text-sm no-underline hover:bg-accent">Utawala wa itifaki?</a>
+  <a href="#where-is-my-transaction" className="inline-flex px-3 py-1.5 rounded-full border border-border bg-card text-sm no-underline hover:bg-accent">Muamala wangu uko wapi?</a>
+  <a href="#is-zcash-really-private" className="inline-flex px-3 py-1.5 rounded-full border border-border bg-card text-sm no-underline hover:bg-accent">Je, Zcash ni ya faragha kweli?</a>
+  <a href="#a-few-common-misconceptions" className="inline-flex px-3 py-1.5 rounded-full border border-border bg-card text-sm no-underline hover:bg-accent">Dhana potofu za kawaida</a>
+  <a href="#zcashd-stopped-working-what-do-i-run-now" className="inline-flex px-3 py-1.5 rounded-full border border-border bg-card text-sm no-underline hover:bg-accent">zcashd imeacha kufanya kazi?</a>
+  <a href="#how-do-i-move-my-zcashd-wallet-to-zallet" className="inline-flex px-3 py-1.5 rounded-full border border-border bg-card text-sm no-underline hover:bg-accent">Nihamishe pochi yangu hadi Zallet?</a>
+  <a href="#what-is-ironwood-and-do-i-need-to-do-anything" className="inline-flex px-3 py-1.5 rounded-full border border-border bg-card text-sm no-underline hover:bg-accent">Ironwood ni nini?</a>
+  <a href="#which-full-node-should-i-run" className="inline-flex px-3 py-1.5 rounded-full border border-border bg-card text-sm no-underline hover:bg-accent">Full node gani?</a>
+  <a href="#where-do-i-look-up-a-term-from-a-release-note" className="inline-flex px-3 py-1.5 rounded-full border border-border bg-card text-sm no-underline hover:bg-accent">Kutafuta istilahi?</a>
 </div>
 
 ---
 
-## What is Zcash?
+## Zcash ni nini?
 
 <div className="rounded-2xl border border-border bg-card p-5 my-4">
 
-Zcash ni sarafu ya kidijitali yenye miamala ya haraka na ya siri na ada za chini. Faragha ndiyo sifa kuu ya Zcash. Ilianzisha matumizi ya uthibitisho wa kutojua chochote ili kuficha miamala yote.
+Zcash ni sarafu ya kidijitali yenye miamala ya haraka na ya siri pamoja na ada ndogo. Faragha [privacy] ni kipengele kikuu cha Zcash. Ilianzisha matumizi ya mathibitisho ya maarifa sifuri [zero-knowledge proofs] kusimba fiche miamala yote.
 
-Pochi kadhaa zinapatikana kwa malipo ya papo hapo, ya simu, salama na ya kibinafsi: [Pochi](/using-zcash/wallets)
+Pochi kadhaa zinapatikana kwa malipo ya papo hapo, ya mkononi, salama na ya faragha: [Pochi](/using-zcash/wallets)
 
 </div>
 
@@ -35,32 +35,32 @@ Pochi kadhaa zinapatikana kwa malipo ya papo hapo, ya simu, salama na ya kibinaf
 
 <div className="rounded-2xl border border-border bg-card p-5 my-4">
 
-Unaweza kununua ZEC kwenye [kubadilishana kwa dhamana](/using-zcash/custodial-exchanges), [DEX](/using-zcash/dex), or [majukwaa ya ubadilishaji wa kati](/using-zcash/centralized-swaps).
+Unaweza kununua ZEC kwenye [masoko ya kubadilishana sarafu yanayohifadhiwa na mtu mwingine](/using-zcash/custodial-exchanges), [DEX](/using-zcash/dex), au [majukwaa ya kati ya kubadilisha](/using-zcash/centralized-swaps).
 
-Unaweza pia kununua Zcash peer-to-peer au kuipata kwa kuchimba madini.
-
-</div>
-
-## Kuna tofauti gani kati ya Zcash na sarafu zingine za kidijitali?
-
-<div className="rounded-2xl border border-border bg-card p-5 my-4">
-
-Zcash kimsingi ni ya faragha zaidi kuliko Bitcoin au Ethereum. Inatoa muda wa kuzuia haraka (sekunde 75), ada za chini, na uboreshaji wa kawaida.
-
-Watumiaji wanaweza kuchagua kati ya miamala ya **Uwazi** au **Shielded**. Kwa maelezo zaidi tazama [Mfumo Ekolojia Uliolindwa](https://electriccoin.co/blog/shielded-ecosystem).
+Unaweza pia kununua Zcash moja kwa moja kutoka kwa mtu mwingine au kuipata kupitia uchimbaji [mining].
 
 </div>
 
-## Itifaki Zcash inasimamiwaje?
+## Kuna tofauti gani kati ya Zcash na sarafu nyingine za kidijitali?
 
 <div className="rounded-2xl border border-border bg-card p-5 my-4">
 
-Itifaki hii inaongozwa na mchakato wa **Zcash (ZIP)**. Mtu yeyote anaweza kuwasilisha rasimu ZIP. Rasimu hujadiliwa na jumuiya na kukubaliwa au kukataliwa na wahariri wa ZIP:
+Zcash ina faragha zaidi kimsingi kuliko Bitcoin au Ethereum. Inatoa muda mfupi wa block [block] (sekunde 75), ada ndogo, na maboresho ya mara kwa mara.
+
+Watumiaji wanaweza kuchagua kati ya miamala ya **uwazi [Transparent]** au **ya faragha [Shielded]**. Kwa maelezo zaidi angalia [Mfumo Ikolojia wa Faragha](https://electriccoin.co/blog/shielded-ecosystem).
+
+</div>
+
+## Itifaki ya Zcash inatawaliwaje?
+
+<div className="rounded-2xl border border-border bg-card p-5 my-4">
+
+Itifaki inatawaliwa kupitia mchakato wa **Pendekezo la Uboreshaji la Zcash (ZIP)**. Mtu yeyote anaweza kuwasilisha rasimu ya ZIP. Rasimu hujadiliwa na jumuiya na kukubaliwa au kukataliwa na wahariri wa ZIP:
 
 - [Daira Hopwood](https://twitter.com/feministPLT) (Electric Coin Company)
 - [Deirdre Connolly](https://twitter.com/durumcrustulum) (Zcash Foundation)
 
-Maamuzi huandikwa katika vipimo na kuidhinishwa kwenye mnyororo wakati mtandao unapoyakubali.
+Maamuzi huandikwa katika ufafanuzi wa kiufundi na kuridhiwa on-chain wakati mtandao unayapitisha.
 
 </div>
 
@@ -68,131 +68,131 @@ Maamuzi huandikwa katika vipimo na kuidhinishwa kwenye mnyororo wakati mtandao u
 
 <div className="rounded-2xl border border-border bg-card p-5 my-4">
 
-Usomaji wa kwanza [mwongozo wetu wa kuzuia wachunguzi](/guides/blockchain-explorers)Kisha angalia [Kichunguzi cha Kizuizi Zcash](https://mainnet.zcashexplorer.app).
+Kwanza soma [mwongozo wetu wa vichunguzi vya block](/guides/blockchain-explorers). Kisha angalia [Kichunguzi cha Block cha Zcash](https://mainnet.zcashexplorer.app).
 
-Miamala huisha baada ya takriban dakika 25 (vizuizi 20) na pesa hurejeshwa kiotomatiki.
+Miamala huisha muda baada ya takriban dakika 25 (block 20) na fedha hurudishwa kiotomatiki.
 
 **Sababu za kawaida ambazo muamala unaweza usionekane:**
 
 - Kupoteza muunganisho
 - Ada ya muamala ni ndogo sana
-- Uzito wa mtandao
-- Ingizo nyingi mno zenye uwazi (ukubwa mkubwa sana)
+- Mtandao umeelemewa
+- Ingizo nyingi sana za uwazi (ukubwa ni mkubwa sana)
 
 **Vidokezo vya kufanikiwa:**
 
 - Tumia muunganisho thabiti
-- Lipa ada ya kawaida (au zaidi kwa kipaumbele)
+- Lipa ada ya kawaida (au ya juu zaidi kwa kipaumbele)
 - Subiri na ujaribu tena baadaye
-- Tumia pembejeo chache ili kuweka muamala mdogo
+- Tumia ingizo chache ili kuweka muamala mdogo
 
 </div>
 
-## Zcash ni ya faragha kweli?
+## Je, Zcash ni ya Faragha kweli?
 
 <div className="rounded-2xl border border-border bg-card p-5 my-4">
 
-**Ndiyo.** Zcash husimba data ya mtumaji, kiasi, na mpokeaji kwa miamala iliyolindwa.
+**Ndiyo.** Zcash husimba fiche data ya mtumaji, kiasi na mpokeaji kwa miamala ya faragha.
 
-Zcash haifanyi **si**:
+Zcash **haifanyi** yafuatayo:
 
-- Simba miamala ya saini nyingi (FROST unasubiri)
-- Kinga dhidi ya uhusiano na miamala ya uwazi
-- Ficha anwani za IP
+- Kusimba fiche miamala ya sahihi nyingi (ujumuishaji wa FROST unasubiriwa)
+- Kulinda dhidi ya uhusiano na miamala ya uwazi
+- Kuficha anwani za IP
 
-Usomaji zaidi: [Mfumo Ekolojia Uliolindwa](https://web.archive.org/web/20260903010654/https://electriccoin.co/blog/shielded-ecosystem/)
+Usomaji wa ziada: [Mfumo Ikolojia wa Faragha](https://web.archive.org/web/20260903010654/https://electriccoin.co/blog/shielded-ecosystem/)
 
 </div>
 
-## zcashd iliacha kufanya kazi, nifanye nini sasa?
+## zcashd imeacha kufanya kazi, niendeshe nini sasa?
 
 <div className="rounded-2xl border border-border bg-card p-5 my-4">
 
-zcashd imeacha kufanya kazi. Toleo la 6.20.0 lilijifunga kwenye kizuizi 3417100 mnamo tarehe 18 Julai 2026, na halikuweza kamwe kutumia Ironwood (NU6.3), kwa hivyo hakuna toleo la baadaye la kusasisha.
+zcashd imestaafishwa. Toleo la 6.20.0 lilijizima lenyewe kwenye block 3417100 tarehe 18 Julai 2026, na halikuwahi kuunga mkono Ironwood (NU6.3), hivyo hakuna toleo la baadaye la kusasisha.
 
-Endesha mrundiko wa Z3 badala yake. Programu tatu hugawanya kazi ambayo zcashd ilifanya peke yake:
+Endesha mfumo wa Z3 badala yake. Programu tatu zinagawana kazi ambayo zcashd ilikuwa ikifanya peke yake:
 
-- **[Zebra](/zcash-tech/zebra-full-node)** inathibitisha mnyororo
-- **[Zaino](/zcash-tech/zaino)** huiweka kwenye faharasa na kutoa data ya pochi
-- **[Zallet](/zcash-tech/zallet)** huhifadhi pesa zako
+- **[Zebra](/zcash-tech/zebra-full-node)** huthibitisha mnyororo [chain]
+- **[Zaino](/zcash-tech/zaino)** huiweka katika faharasa na kutoa data ya pochi
+- **[Zallet](/zcash-tech/zallet)** huhifadhi fedha zako
 
-[Zakura](/zcash-tech/zakura-node) ni nodi kamili mbadala. Pia huendesha zcashd juu yake yenyewe, ambayo husaidia ikiwa programu nyingine bado inatarajia kiolesura cha zamani.
+[Zakura](/zcash-tech/zakura-node) ni full node mbadala. Pia huendesha zcashd juu yake, jambo linalosaidia ikiwa programu nyingine bado zinatarajia kiolesura cha zamani.
 
-Anza na [mwongozo wa uhamiaji](/guides/migration-guide-zcashd-to-zebrad-zallet).
+Anza na [mwongozo wa uhamishaji](/guides/migration-guide-zcashd-to-zebrad-zallet).
 
 </div>
 
-## Ninawezaje kuhamisha pochi yangu zcashd hadi Zallet?
+## Ninawezaje kuhamisha pochi yangu ya zcashd hadi Zallet?
 
 <div className="rounded-2xl border border-border bg-card p-5 my-4">
 
-Zallet huhamisha kifaa kilichopo `wallet.dat`, kwa hivyo unaweka pesa na anwani zako.
+Zallet huhamisha `wallet.dat` iliyopo, hivyo unabaki na fedha na anwani zako.
 
-Hifadhi nakala rudufu `wallet.dat` kwanza, kisha fuata [mwongozo wa uhamiaji](/guides/migration-guide-zcashd-to-zebrad-zallet). Weka nakala rudufu hiyo hadi utakapothibitisha salio lako katika Zallet.
+Hifadhi nakala rudufu ya `wallet.dat` kwanza, kisha fuata [mwongozo wa uhamishaji](/guides/migration-guide-zcashd-to-zebrad-zallet). Hifadhi nakala hiyo rudufu hadi utakapothibitisha salio lako katika Zallet.
 
-Ya [Marejeleo ya haraka Zallet](/using-zcash/zallet-quick-reference-guide) hushughulikia amri za kila siku mara tu unapozipata.
+[Zallet rejeleo la haraka](/using-zcash/zallet-quick-reference-guide) linashughulikia amri za kila siku baada ya kuhamia.
 
 </div>
 
-## Ironwood, na je, ninahitaji kufanya chochote?
+## Ironwood ni nini, na je, ninahitaji kufanya chochote?
 
 <div className="rounded-2xl border border-border bg-card p-5 my-4">
 
-Ironwood inaboresha mtandao wa NU6.3, inatumika moja kwa moja kwenye mtandao mkuu tangu kitalu namba 3,428,143 mnamo tarehe 28 Julai 2026. Inaongeza bwawa la kuogelea lililojengwa kwenye saketi iliyorekebishwa na kuziba kifaa cha zamani [Orchard](/using-zcash/shielded-pools) bwawa, kwa hivyo mtu yeyote anaweza kuthibitisha kwamba hakuna ZEC iliyoghushiwa.
+Ironwood ni uboreshaji wa mtandao [network upgrade] NU6.3, unaotumika kwenye mainnet tangu block 3,428,143 tarehe 28 Julai 2026. Unaongeza bwawa la faragha [shielded pool] lililojengwa kwenye mzunguko uliosahihishwa na kufunga bwawa la zamani la [Orchard](/using-zcash/shielded-pools), hivyo mtu yeyote anaweza kuthibitisha kuwa hakuna ZEC iliyoghushiwa.
 
-**Ukiwa na fedha zilizolindwa, huenda zikahitaji kuhamishwa.** Thamani huacha Orchard pekee [turnstile](/zcash-tech/the-turnstile), na pochi hushughulikia uhamishaji kwa nyakati tofauti na kwa njia tofauti. Muulize mtoa huduma wako wa pochi kabla ya kuhamisha chochote kwa mkono.
+**Ikiwa unashikilia fedha za faragha, huenda zikahitaji kuhamishwa.** Thamani hutoka kwenye Orchard kupitia tu [turnstile](/zcash-tech/the-turnstile), na pochi hushughulikia uhamisho huo kwa nyakati na njia tofauti. Muulize mtoa huduma wako wa pochi kabla ya kuhamisha chochote mwenyewe.
 
-Soma [Ironwood](/zcash-tech/ironwood) kwa nini kilibadilika na kwa nini.
+Soma [Ironwood](/zcash-tech/ironwood) ili kujua kilichobadilika na sababu zake.
 
 </div>
 
-## Ni nodi gani kamili ninapaswa kuendesha?
+## Ni full node gani ninapaswa kuendesha?
 
 <div className="rounded-2xl border border-border bg-card p-5 my-4">
 
-**[Zebra](/zcash-tech/zebra-full-node)** ni mbadala wa moja kwa moja wa zcashd na nodi ambayo mwongozo wa uhamiaji unachukua. Ichague isipokuwa kama una sababu ya kutofanya hivyo.
+**[Zebra](/zcash-tech/zebra-full-node)** ndiyo mbadala wa moja kwa moja wa zcashd na node inayodhaniwa katika mwongozo wa uhamishaji. Ichague isipokuwa una sababu ya kutofanya hivyo.
 
-**[Zakura](/zcash-tech/zakura-node)** ni utekelezaji wa pili unaolenga kupima ukubwa, pamoja na usawazishaji wa haraka na upogoaji wa vitalu asilia. Chagua ikiwa unahitaji hivyo, au ikiwa unategemea programu ambayo bado inazungumza na zcashd.
+**[Zakura](/zcash-tech/zakura-node)** ni utekelezaji wa pili unaolenga kiwango kikubwa, wenye usawazishaji wa haraka zaidi na upunguzaji wa block wa asili. Ichague ikiwa unahitaji haya, au ikiwa unategemea programu ambayo bado huwasiliana na zcashd.
 
-Zote mbili zinathibitisha mnyororo mmoja, kwa hivyo huu ni chaguo la kiutendaji badala ya chaguo la makubaliano.
+Zote mbili huthibitisha mnyororo mmoja, hivyo hili ni chaguo la kiutendaji badala ya la makubaliano [consensus].
 
 </div>
 
-## Nitatafuta wapi neno kutoka kwa noti ya kutolewa?
+## Nitatafuta wapi istilahi kutoka katika dokezo la toleo?
 
 <div className="rounded-2xl border border-border bg-card p-5 my-4">
 
-Tazama [Maktaba Zcash](/glossary-and-faqs/zcash-library)Inashughulikia programu ya nodi na pochi, mabwawa yaliyolindwa, na nambari za ZIP zinazopatikana mara nyingi.
+Angalia Maktaba ya [Zcash](/glossary-and-faqs/zcash-library). Inashughulikia programu za node na pochi, mabwawa ya faragha, na nambari za ZIP zinazoonekana mara nyingi zaidi.
 
 </div>
 
-## Dhana potofu chache za kawaida
+## Dhana potofu za kawaida
 
 <div className="rounded-2xl border border-border bg-card p-5 my-4 overflow-x-auto">
 
 <table className="w-full border-collapse">
   <thead>
     <tr className="border-b border-border bg-amber-100 dark:bg-zinc-800">
-      <th className="py-4 px-5 text-left font-bold text-amber-800 dark:text-white">Misconception</th>
-      <th className="py-4 px-5 text-left font-bold text-amber-800 dark:text-white">Correct Answer</th>
+      <th className="py-4 px-5 text-left font-bold text-amber-800 dark:text-white">Dhana potofu</th>
+      <th className="py-4 px-5 text-left font-bold text-amber-800 dark:text-white">Jibu sahihi</th>
     </tr>
   </thead>
   <tbody>
     <tr className="border-b border-border hover:bg-amber-50 dark:hover:bg-zinc-700">
-      <td className="py-4 px-5 font-medium text-foreground">Is Zcash a centralised coin?</td>
-      <td className="py-4 px-5 text-foreground">No. A trademark agreement prevents the Zcash Foundation or ECC from acting against community consensus. Governance is proven decentralised (see [Messari report](https://messari.io/report/decentralizing-zcash)). Community polls, ZecHub, and Zcash Foundation A/V Club all enable broad participation.</td>
+      <td className="py-4 px-5 font-medium text-foreground">Je, Zcash ni sarafu ya kati?</td>
+      <td className="py-4 px-5 text-foreground">Hapana. Makubaliano ya alama ya biashara huzuia Zcash Foundation au ECC kuchukua hatua kinyume na makubaliano ya jumuiya. Utawala umethibitishwa kuwa uliogatuliwa [decentralised] (angalia [ripoti ya Messari](https://messari.io/report/decentralizing-zcash)). Kura za jumuiya, ZecHub, na Klabu ya A/V ya Zcash Foundation zote huwezesha ushiriki mpana.</td>
     </tr>
     <tr className="border-b border-border hover:bg-amber-50 dark:hover:bg-zinc-700">
-      <td className="py-4 px-5 font-medium text-foreground">Does Zcash have a backdoor?</td>
-      <td className="py-4 px-5 text-foreground">No. Neither Zcash nor any cryptographic software we have built contains a backdoor, and never will.</td>
+      <td className="py-4 px-5 font-medium text-foreground">Je, Zcash ina mlango wa nyuma?</td>
+      <td className="py-4 px-5 text-foreground">Hapana. Wala Zcash wala programu yoyote ya kriptografia tuliyounda haina mlango wa nyuma, na haitakuwa nao kamwe.</td>
     </tr>
     <tr className="border-b border-border hover:bg-amber-50 dark:hover:bg-zinc-700">
-      <td className="py-4 px-5 font-medium text-foreground">Is Zcash controlled by a corporation?</td>
-      <td className="py-4 px-5 text-foreground">Incorrect. While we partner with companies for research, Zcash remains committed to decentralisation. Multiple autonomous organisations work together toward self-custody and privacy rights.</td>
+      <td className="py-4 px-5 font-medium text-foreground">Je, Zcash inadhibitiwa na shirika?</td>
+      <td className="py-4 px-5 text-foreground">Si sahihi. Ingawa tunashirikiana na kampuni kwa ajili ya utafiti, Zcash inaendelea kujitolea kwa ugatuzi. Mashirika mengi huru hufanya kazi pamoja kuelekea uhifadhi binafsi na haki za faragha.</td>
     </tr>
     <tr className="hover:bg-amber-50 dark:hover:bg-zinc-700">
-      <td className="py-4 px-5 font-medium text-foreground">Zcash has limited privacy compared to other privacy coins</td>
-      <td className="py-4 px-5 text-foreground">No. Monero/Grin-style privacy relies on decoys (which can be defeated). Zcash encrypts all shielded transaction data so every transaction in the pool is indistinguishable. See [Not Private Enough?](https://electriccoin.co/blog/not-private-enough-mixers-and-decoys-wont-protect-you-for-long/).</td>
+      <td className="py-4 px-5 font-medium text-foreground">Zcash ina faragha ndogo ikilinganishwa na sarafu nyingine za faragha</td>
+      <td className="py-4 px-5 text-foreground">Hapana. Faragha ya mtindo wa Monero/Grin hutegemea chambo (ambavyo vinaweza kushindwa). Zcash husimba fiche data yote ya miamala ya faragha ili kila muamala katika bwawa usitofautishwe. Angalia [Je, Faragha Haitoshi?](https://electriccoin.co/blog/not-private-enough-mixers-and-decoys-wont-protect-you-for-long/).</td>
     </tr>
   </tbody>
 </table>
@@ -202,4 +202,4 @@ Tazama [Maktaba Zcash](/glossary-and-faqs/zcash-library)Inashughulikia programu 
 ---
 
 **Ilisasishwa mara ya mwisho:** Oktoba 2026
-**Unataka kuchangia?** [Hariri ukurasa huu kwenye GitHub](https://github.com/ZecHub/zechub/edit/main/site/Glossary_and_FAQs/FAQ.md)
+**Je, ungependa kuchangia?** [Hariri ukurasa huu kwenye GitHub](https://github.com/ZecHub/zechub/edit/main/site/Glossary_and_FAQs/FAQ.md)

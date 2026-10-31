@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# RPi5 Zebra lightwalletd yenye Zingo
+# RPi5 Zebra lightwalletd with Zingo
 
 ## Mafunzo ya Video
 
@@ -18,7 +18,7 @@
 </div>
 
 
-## Utegemezi
+## Vitegemezi
 
 ```bash
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
@@ -33,7 +33,7 @@ sudo apt install libclang-dev clang pkg-config openssl protobuf-compiler npm
 
 ## Sanidi zebrad.toml
 
-ongeza:
+Ongeza:
 
 `listen_addr = '127.0.0.1:8232'`
 
@@ -45,7 +45,7 @@ ongeza:
 
 ## Kusanya lightwalletd
 
-* sakinisha nenda
+* Sakinisha go
 
 ```bash
 wget https://go.dev/dl/go1.25.5.linux-arm64.tar.gz
@@ -53,7 +53,7 @@ sudo rm -rf /usr/local/go && sudo tar -C /usr/local -xzf go1.25.5.linux-arm64.ta
 export PATH=$PATH:/usr/local/go/bin
 ```
 
-* sakinisha lightwalletd
+* Sakinisha lightwalletd
 
 ```bash
 git clone https://github.com/zcash/lightwalletd
@@ -65,7 +65,7 @@ export PATH=$PATH:~/go/bin
 
 ## Sawazisha lightwalletd
 
-* angalia mabadiliko ya data-dir
+* Tambua mabadiliko ya data-dir
 
   `lightwalletd --zcash-conf-path ~/.config/zcash.conf --data-dir /media/zebra5/zebra/.cache/lightwalletd --log-file /dev/stdout --no-tls-very-insecure`
 
@@ -78,9 +78,9 @@ export PATH=$PATH:~/go/bin
  sudo apt update
  sudo apt install nodejs
 ```
-Ukipata makosa yoyote, [hapa](https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-22-04) Kuna njia mbadala za kusakinisha NodeJS.
+Iwapo utapata hitilafu zozote, [bofya hapa](https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-22-04) kwa njia mbadala za kusakinisha NodeJS.
 
-## Sakinisha Uzi
+## Sakinisha Yarn
 
 `corepack enable`
 
@@ -96,9 +96,9 @@ sudo apt-get install ruby-dev build-essential && sudo gem i fpm -f
 yarn dist:linux
 ```
 
-## Anza Zingo-PC
+## Anzisha Zingo-PC
 
-* Inaweza kutumia programu, au mfumo wa jozi kwenye folda isiyo na vifurushi
+* Unaweza kutumia appimage, au binary katika folda iliyofunguliwa
 * Furahia! :)
 
 # Vyanzo
@@ -117,6 +117,3 @@ https://pimylifeup.com/raspberry-pi-nodejs/
 https://go.dev/dl/#stable
 https://askubuntu.com/questions/1177492/openssl-installed-but-no-openssl-pc-needed-by-pkg-config
 ```
-
-
-
