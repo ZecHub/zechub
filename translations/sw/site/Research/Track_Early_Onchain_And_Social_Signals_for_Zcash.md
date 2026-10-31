@@ -15,33 +15,33 @@ Past trends of ZEC are also monitored and compared to other privacy coins; how r
 Blockchain technology works in an innovative manner and the operations in cryptocurrency lead to quite an experience. From how transactions happen to how they cause significant changes in market behavior and sentiment, the interesting dynamics of the market can be studied; the gains and losses being first hand experiences. 
 
 The early on-chain metrics in activity stands as one of the earliest activities and powerful metrics that reveals the direction and movement of the market as well as the investor's activities and possible changes that will occur in the near future in the crypto world. Moreover, if timely detected, these signals can help investors access profit, particularly when combined with off-chain factors like social media sentiment analysis. 
-According to the Messari ZEC Dashboard, CoinMetrics and Blockchair, analysis of ZEC's network activity provides actionable insight into whether large whale movements correspond with spikes in social activity such as tweet volume and broader interest online. Specifically, Messari charts reveal a clear surge in daily on-chain transaction volume and exchange inflows during the period from July 1 to 22, 2025, peaking around July 22; coinciding with elevated social chatter and price movement .
+According to the Messari ZEC Dashboard, Coin Metrics and Blockchair, analysis of ZEC's network activity provides actionable insight into whether large whale movements correspond with spikes in social activity such as tweet volume and broader interest online. Specifically, Messari charts reveal a clear surge in daily on-chain transaction volume and exchange inflows during the period from July 1 to 22, 2025, peaking around July 22; coinciding with elevated social chatter and price movement .
 Data Blockchair inaonyesha kwamba sehemu ya ZEC uliofanyika katika anwani ulinzi iliongezeka kutoka takriban 18% hadi 20% wakati wa dirisha sawa, kuonyesha kuongezeka kwa matumizi ya shughuli kuhifadhi faragha. (Ona Kielelezo 1)
 
 # Mchoro 1. sehemu ya ZEC uliofanyika katika anwani Shielded - Julai 2025
 (Chanzo: Blockchair (2025). Asilimia ya usambazaji uliolindwa kwa Julai 1-22, 2025.)
 
-Additionally, CoinMetrics public network series confirm that daily active addresses and shielded-supply metrics both trended upward in mid-July, enabling quantitative comparisons between on-chain behavior and social indicators.  (See Figure 2)
+Additionally, Coin Metrics public network series confirm that daily active addresses and shielded-supply metrics both trended upward in mid-July, enabling quantitative comparisons between on-chain behavior and social indicators.  (See Figure 2)
 
 
 # Mchoro 2. Zcash Daily Active Anwani na Shielded Ugavi - Mid Julai 2025
-(Chanzo: CoinMetrics (2025). anwani za kila siku za kazi kwa Julai 1-22, 2025.)
+(Chanzo: Coin Metrics (2025). anwani za kila siku za kazi kwa Julai 1-22, 2025.)
 
 All these data show coin movement, privacy adoption and user engagement; the spike in large on-chain volumes and exchange inflows suggests whales were active, possibly relocating funds or preparing for market impact; the increase in shielded-supply demonstrates continued preference for privacy-enhanced transactions, even during periods of heightened attention and the rising active address counts indicate that network usage was expanding alongside these whale movements and privacy demand.  (See Figure 3)
 
 
 # Mchoro 3. sehemu ya ZEC uliofanyika katika anwani Shielded - Julai 2025
-(Chanzo: Zechub (2025).
+(Chanzo: ZecHub (2025).
 
 ### Zcash kama sarafu ya faragha
 
 Zcash is one of the cryptocurrencies developed with user privacy in mind which uses zero knowledge proofs (zk-SNARKs) and is derived from the Bitcoin code as a fork; users can now perform both transparent and shielded transactions. While the aim is to help protect user privacy, having too much of it makes it harder to monitor signals that can make trading and investing much easier. It is however not impossible.  
 
-Unlike Monero and DASH, which are often grouped as “privacy coins,” DASH has officially moved away from privacy coin classification following feature changes and evolving regulatory definitions (CoinTelegraph, 2024) . ZEC still faces competition and scrutiny, but its momentum can be measured through on-chain activity, whale movement correlation, tweet volume, and network engagement without relying solely on price speculation.
+Unlike Monero and DASH, which are often grouped as “privacy coins,” DASH has officially moved away from privacy coin classification following feature changes and evolving regulatory definitions (Cointelegraph, 2024) . ZEC still faces competition and scrutiny, but its momentum can be measured through on-chain activity, whale movement correlation, tweet volume, and network engagement without relying solely on price speculation.
 
 On-chain activity refers to all the interactions that occur directly on a blockchain, such as wallet-to-wallet transfers, token swaps, smart contract interactions, deposits and withdrawals from exchanges, NFT minting or transfers and staking/unlocking events. Behavior patterns of key players, especially whales, retail clusters, developers, or institutional wallets can be inferred when this data is analyzed and it will be possible to fully understand how they relate in determining the market.
 
-According to the Messari ZEC Dashboard (Messari), between July 1 and July 22, 2025, there were 12 transactions exceeding 1,000 ZEC, the largest equaling 5,200 ZEC (CoinMetrics, 2025). These capped ZEC volumes were accompanied by notable exchange inflow activity, suggesting potential sell-off or portfolio reshuffle activity.
+According to the Messari ZEC Dashboard (Messari), between July 1 and July 22, 2025, there were 12 transactions exceeding 1,000 ZEC, the largest equaling 5,200 ZEC (Coin Metrics, 2025). These capped ZEC volumes were accompanied by notable exchange inflow activity, suggesting potential sell-off or portfolio reshuffle activity.
 
 Wakati huo huo, shughuli za ulinzi, sehemu muhimu ya mfumo wa faragha wa Zcash bado zilikuwa zikipata maana. Kufikia Julai, karibu 20% ya jumla ya usambazaji wa ZEC ilikuwa katika anwani za ulindaji (Blockchair 2025) (tazama Kielelezo 4) 
 
@@ -73,7 +73,7 @@ Looking at Community, Adoption, and Development, the Zcash Community Hub highlig
 (Chanzo: Shawn; Kiongozi wa Mkutano wa Jumuiya ya Zcash (2025). Chati inayofunika Aprili 9 hadi Mei 9, 2025.)
 
 Community, Adoption, and Development in which the Zcash Community Hub showcased growing grassroots enthusiasm. On the adoption front, merchant integration remains limited but notable. Although usage among global merchants is low, estimated at 120, the integration of ZEC into the Brave Wallet and the zk-proof experiment in Google Wallet in April and May 2025 respectively, boosted exposure. 
-The Electric Coin Company and Zcash Foundation's work showcased in the second quarter of 2025 demonstrated sustained activity. Over 350 Github commits revealed significant collaboration on important infrastructure projects like the Zedrab codebase and Zallet wallet, showcasing the Zcash ecosystem's active technical community and charts of contributors as well.
+The Electric Coin Company and Zcash Foundation's work showcased in the second quarter of 2025 demonstrated sustained activity. Over 350 GitHub commits revealed significant collaboration on important infrastructure projects like the Zedrab codebase and Zallet wallet, showcasing the Zcash ecosystem's active technical community and charts of contributors as well.
 
 
 To really analyze Zcash's current dynamics, it is best to examine the user's viewpoint over time and compare Zcash's historical context with other privacy coins. This analysis will declare ZEC's historical price movements, like the market high from 2017 and the block halving event of 2020, and comparison of on-chain and social indicators with Monero (XMR) and DASH (DASH) (ex., transaction volume, market cap rank, and social activity). 
@@ -95,13 +95,13 @@ Zcash may not boast of a community as large as Monero or an extensive merchant b
 
 # Marejeo
 - Blockchair. (2025). Zcash data ulinzi shughuli. https://blockchair.com/zcash/charts/shielded-supply
-- CoinMetrics. (2025). Zcash metrics data mtandao . https://coinmetrics.io/
-- CoinTelegraph. (2024). Dash ni tena sarafu faragha chini ya sheria zinazoendelea. https://cointelegraph.com/news/dash-no-longer-privacy-coin
+- Coin Metrics. (2025). Zcash metrics data mtandao . https://coinmetrics.io/
+- Cointelegraph. (2024). Dash ni tena sarafu faragha chini ya sheria zinazoendelea. https://cointelegraph.com/news/dash-no-longer-privacy-coin
 - Electric Coin Company. (2025). Zcash 6.2.0 release notes. https://electriccoin.co/blog/
 - Messari. (2025). Messari ZEC dashibodi. https://messari.io/asset/zcash
 - Shawn; Kiongozi kiongozi wa Jukwaa la Jumuiya ya Zcash (2025). 
 - X Uchambuzi wa Mtazamo wa Jukwaa. (2025, Julai). seti ya data ya ndani. 
 - Zcash Jumuiya Hub. (2025). Jumuiya updates na ushiriki takwimu. https://z.cash
 - Zcash Foundation. (2025). Zashi 2.0 mfuko wa fedha kutolewa. https://zcashfoundation.org/blog/
-- Zechub. (2025). Chati ya dashibodi ya Zechubu.
+- ZecHub. (2025). Chati ya dashibodi ya ZecHub.
 

@@ -14,11 +14,11 @@
 
 ## Spiegazione principale
 
-Zebra è il primo nodo Zcash scritto interamente in Rust. Opera sulla rete peer-to-peer di Zcash, dove convalida e trasmette transazioni e conserva lo stato della blockchain. Avere una seconda implementazione indipendente rende l'infrastruttura della rete meno dipendente da una singola codebase.
+Zebra è il primo nodo di Zcash scritto interamente in Rust. Opera sulla rete peer-to-peer di Zcash, dove convalida e trasmette transazioni e conserva lo stato della blockchain. Avere una seconda implementazione indipendente rende l'infrastruttura della rete meno dipendente da una singola codebase.
 
 ### Zebra e zcashd
 
-Il nodo Zcash originale, zcashd, è stato sviluppato dalla Electric Coin Company a partire dalla codebase di Bitcoin. Zebra è stato scritto da zero in Rust, un linguaggio sicuro per la memoria, con particolare attenzione alla sicurezza e all'efficienza.
+Il nodo di Zcash originale, zcashd, è stato sviluppato dalla Electric Coin Company a partire dalla codebase di Bitcoin. Zebra è stato scritto da zero in Rust, un linguaggio sicuro per la memoria, con particolare attenzione alla sicurezza e all'efficienza.
 
 Entrambe le implementazioni seguono lo stesso protocollo, quindi potevano comunicare e interoperare. zcashd ha raggiunto l'arresto di fine supporto il 18 luglio 2026 e non si avvia più, lasciando Zebra e Zakura come implementazioni di nodi in uso. Per un quadro più ampio, consulta [Full node](/zcash-tech/full-nodes).
 

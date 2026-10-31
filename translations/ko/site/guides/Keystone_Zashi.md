@@ -1,6 +1,6 @@
 # 키스톤 Zashi 사용자 가이드
 
-트위터 가이드:  => [Zashi x Keystone 하드웨어 지갑 통합 트위터 가이드](https://x.com/zashi_app/status/1869793574880973144) 
+Twitter 가이드:  => [Zashi x Keystone 하드웨어 지갑 통합 Twitter 가이드](https://x.com/zashi_app/status/1869793574880973144) 
 
 이 통합은 보호된 ZEC의 냉장 저장을 가능하게 함으로써 Zcash 사용성에 있어 중요한 진전을 의미합니다. 과거에는 다른 하드웨어 지갑 플랫폼에서 문제가 발생한 적이 있었지만, 키스톤은 전자 암호화 회사(Electric Coin Company)와 협력하여 경계를 넘어서고 혁신에 동참할 의향 있는 파트너로 부상했습니다. 키스톤 팀은 그들의 작업을 지원하기 위해 ZCG 보조금을 받았습니다.
 

@@ -25,5 +25,5 @@
   * Подкаст Zcash 4 с Сетом по приватности: Внешняя перспектива на Zcash и приватность | [YouTube](https://www.youtube.com/watch?v=C8ItmDFjczQ&list=PLBFOSRGoT80W5EAebpT9zwXu6OTS1mq8w&index=4) | [Odysee](https://odysee.com/@DigitalCashNetwork:c/Zcash-Podcast-4:3) |
 
   * Подкаст Zcash 5 с Номи Броквелл: Как жить современным образом, заботясь о приватности | [YouTube](https://www.youtube.com/watch?v=GpZAY5O2nJQ&list=PLBFOSRGoT80W5EAebpT9zwXu6OTS1mq8w&index=6) | [Odysee](https://odysee.com/@DigitalCashNetwork:c?view=content) |
-  * Подкаст Zcash 6 с Зуко Вилкокс: Государственное управление и путь вперед для Zcash | [YouTube](https://www.youtube.com/watch?v=VZeM7bvWWPg&list=PLBFOSRGoT80W5EAebpT9zwXu6OTS1mq8w&index=6&pp=iAQB) | [Odysee](https://t.co/MDW7FoXgxm)|
+  * Подкаст Zcash 6 с Zooko Wilcox: Государственное управление и путь вперед для Zcash | [YouTube](https://www.youtube.com/watch?v=VZeM7bvWWPg&list=PLBFOSRGoT80W5EAebpT9zwXu6OTS1mq8w&index=6&pp=iAQB) | [Odysee](https://t.co/MDW7FoXgxm)|
   * Подкаст Zcash 7 с Джейком из ZecSpends: Использование Zcash как цифровой наличности сегодня | [YouTube](https://www.youtube.com/live/yZ1Y1qMu3UE) | [Odysee](https://odysee.com/@DigitalCashNetwork:c/Zcash-Podcast-7:0)|

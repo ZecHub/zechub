@@ -6,7 +6,7 @@ Ijabọ Afihan ECC, Mobile SDK Tuntun ni Beta ati ZCAP ṣafikun awọn ọmọ 
 
 ### EKaabo si ZecWeekly
 
-Ni ọsẹ yii a mu awọn iroyin alarinrin wa nipa imudojuiwọn Mobile SDK v2.0 fun iOS ati awọn olupilẹṣẹ Android, atokọ ti awọn igbero Awọn igbeowosile Zcash Minor ati pe yoo kọ ohun gbogbo Zcash pẹlu Zechub.
+Ni ọsẹ yii a mu awọn iroyin alarinrin wa nipa imudojuiwọn Mobile SDK v2.0 fun iOS ati awọn olupilẹṣẹ Android, atokọ ti awọn igbero Awọn igbeowosile Zcash Minor ati pe yoo kọ ohun gbogbo Zcash pẹlu ZecHub.
 ---
 
 ## Nkan Ẹkọ ti Ọsẹ yii
@@ -38,7 +38,7 @@ Ni ọsẹ yii ZecHub ṣe atẹjade jara eto-ẹkọ tuntun kan: Zcash 101. O j
 #### Awujo Ise Agbese 
 [Nighthawk Wallet ṣe ifilọlẹ 🚀 ẹya Beta V2](https://forum.zcashcommunity.com/t/nighthawk-apps-announces-the-revamped-nighthawk-wallet/45731) 
 
-[Gitopia, Ayẹwo Zechub kan🧪](https://free2z.cash/ZecHub/zpage/gitopia-a-zechub-experiment) 
+[Gitopia, Ayẹwo ZecHub kan🧪](https://free2z.cash/ZecHub/zpage/gitopia-a-zechub-experiment) 
 
 [Oṣu iranti Zcash nipasẹ Zcash Esp](https://free2z.cash/zcashesp/zpage/mes-aniversario-de-zcash) 
 

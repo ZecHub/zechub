@@ -5,7 +5,7 @@
 # Alat AI (lokal, luring)
 
 <aside>
-*Masih dalam tahap penulisan dan pengembangan...*</aside>
+*Masih dalam tahap penulisan dan pengembangan...*
 
 </aside>
 

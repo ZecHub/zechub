@@ -10,7 +10,7 @@
 
 - [Zcon0 - Приватность: От A до Zcon (2018)](https://www.youtube.com/playlist?list=PL40dyJ0UYTLK507afWUMgzUYeh-i4qQWS)
 - [Zcon1: С нуля к герою приватности (2019)](https://www.youtube.com/playlist?list=PL40dyJ0UYTLLjPZaKjdhMoCNanb77_Ztj)
-- [Zcon2 Lite - Приватность на все 100% (2021)](https://www.youtube.com/playlist?list=PL40dyJ0UYTLLa68H9ibpiSZqeevqKizg4)
+- [Zcon2 Lite - Приватность до самого основания (2021)](https://www.youtube.com/playlist?list=PL40dyJ0UYTLLa68H9ibpiSZqeevqKizg4)
 - [Zcon3: Только код не поможет (2022)](https://www.youtube.com/playlist?list=PL40dyJ0UYTLJm-Cl7ez3UXp8R4IuUNDfb)
 - [Zcon4: Будущее ещё не написано (2023)](https://www.youtube.com/playlist?list=PL40dyJ0UYTLII7oQRQmNOFf0d2iKT35tL)
 

@@ -14,7 +14,7 @@ BTCPay Server allows online businesses to accept cryptocurrency payments directl
 - [Where Are Funds Stored? Who Controls the Private Keys?](#Where-Are-Funds-Stored-Who-Controls-the-Private-Keys)
 - [How to Set Up BTCPay Server for Accepting Zcash](#How-to-Set-Up-BTCPay-Server-for-Accepting-Zcash)
   - [Deploying BTCPay Server with Zcash Support](#Deploying-BTCPay-Server-with-Zcash-Support)
-  - [Running Your Own Zcash Full Node (Zebra + Lightwalletd)](#Running-Your-Own-Zcash-Full-Node)
+  - [Running Your Own Zcash Full Node (Zebra + lightwalletd)](#Running-Your-Own-Zcash-Full-Node)
   - [Connecting to an External lightwalletd Node (Custom Configuration)](#Connecting-to-an-External-Lightwalletd-Node)
   - [Hosting BTCPay Server at Home with Cloudflare Tunnel](#Hosting-BTCPay-Server-at-Home-with-Cloudflare-Tunnel)
 - [Configuring the Zcash Plugin in the BTCPay Server Web Interface](#Configuring-the-Zcash-Plugin-in-the-BTCPay-Server-Web-Interface)
@@ -325,19 +325,19 @@ Then proceed to the next section to configure Zcash in the BTCPay Server web int
 
 ## Running Your Own Zcash Full Node
 
-If you prefer **not** to rely on public `lightwalletd` nodes, you can deploy your own full Zcash node along with Lightwalletd on the same server.  
+If you prefer **not** to rely on public `lightwalletd` nodes, you can deploy your own full Zcash node along with lightwalletd on the same server.  
 This gives you **full autonomy** - no external dependencies, no trust required.
 
 ---
 
 ### Step 1: Ensure Sufficient Disk Space
 
-A full Zcash node (Zebra + Lightwalletd) currently requires **300+ GB** of disk space, and it continues to grow.
+A full Zcash node (Zebra + lightwalletd) currently requires **300+ GB** of disk space, and it continues to grow.
 
 Breakdown:
 
 - The Zebra blockchain database: ~260-270 GB
-- Lightwalletd indexing: ~15-20 GB
+- lightwalletd indexing: ~15-20 GB
 
 #### Recommended storage:
 
@@ -367,7 +367,7 @@ This will include the `zcash-fullnode` fragment, which launches both `zebrad` an
 
 The script will:
 
-* Download the Docker images for Zebra and Lightwalletd
+* Download the Docker images for Zebra and lightwalletd
 * Set up the services inside the BTCPay stack
 * Link the Zcash plugin to the **local** `lightwalletd` instance
 
@@ -375,7 +375,7 @@ The script will:
 > Until synchronization completes, shielded payments will not be available.
 
 
-## Connecting to an External Lightwalletd Node
+## Connecting to an External lightwalletd Node
 
 In most cases, full autonomy isn't required - and merchants may not want to spend time and disk space running a full Zcash node.  
 By default, BTCPay Server connects to a public `lightwalletd` node to handle shielded payments without downloading the entire blockchain.
@@ -907,8 +907,8 @@ We wish you success exploring the BTCPay ecosystem and making your payments trul
 * [Zcash Plugin for BTCPay (GitHub)](https://github.com/btcpay-zcash/btcpayserver-zcash-plugin)
 * [Zcash Plugin Installation Guide](https://github.com/btcpay-zcash/btcpayserver-zcash-plugin/blob/master/docs/installation.md)
 * [Custom zcash-lightwalletd.custom.yml Example](https://github.com/btcpay-zcash/btcpayserver-zcash-plugin/blob/master/docs/zcash-lightwalletd.custom.yml)
-* [Lightwalletd Docker Compose File (Zebra)](https://github.com/ZcashFoundation/zebra/blob/main/docker/docker-compose.lwd.yml)
+* [lightwalletd Docker Compose File (Zebra)](https://github.com/ZcashFoundation/zebra/blob/main/docker/docker-compose.lwd.yml)
 * [BTCPay API Key Docs (Greenfield API)](https://docs.btcpayserver.org/API/Greenfield/v1/#tag/API-Keys)
 * [Create a Cloudflare Tunnel](https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/get-started/create-remote-tunnel/)
 * [Zcash Wallet Compatibility List (ZecHub)](https://zechub.wiki/wallets)
-* [Zebra + Lightwalletd on Raspberry Pi 5 (ZecHub)](https://free2z.com/ZecHub/zpage/zcash-101-zebra-lightwalletd-sync-journal-on-raspberry-pi-5)
+* [Zebra + lightwalletd on Raspberry Pi 5 (ZecHub)](https://free2z.com/ZecHub/zpage/zcash-101-zebra-lightwalletd-sync-journal-on-raspberry-pi-5)

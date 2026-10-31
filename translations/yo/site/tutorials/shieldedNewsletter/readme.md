@@ -4,7 +4,7 @@
 ## Ìtòlẹ́sẹẹsẹ
 
  * Zebrad node ti n ṣiṣẹ ati pe o ni ibamu ni kikun pẹlu awọn RPCs ati tunto lati lo awọn kuki
- * Zainod tí ó wà ní ìmúṣiṣẹ́pọ̀ ní kíkún
+ * zainod tí ó wà ní ìmúṣiṣẹ́pọ̀ ní kíkún
  * Ṣiṣeto Zallet lati ṣiṣe awọn RPC
 
 

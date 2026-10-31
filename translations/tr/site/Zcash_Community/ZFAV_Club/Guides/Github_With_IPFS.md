@@ -2,11 +2,11 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Sayfayı Düzenle"/>
 </a>
 
-# Github Repo’sunu IPFS ile Sunma
+# GitHub Repo’sunu IPFS ile Sunma
 
 ## Giriş
 
-Bu rehberde, Github deponuz için bir IPFS CID kullanılarak sunulan, `git clone` ile klonlanabilir bir URL’nin nasıl oluşturulacağını öğreneceğiz. Bu, coğrafi bölgeden bağımsız olarak içeriğin erişilebilirliğini sağlamak, sansüre karşı dayanıklılık kazanmak ve değerli bilgilerin kalıcı bir yedeğini oluşturmak açısından faydalıdır!
+Bu rehberde, GitHub deponuz için bir IPFS CID kullanılarak sunulan, `git clone` ile klonlanabilir bir URL’nin nasıl oluşturulacağını öğreneceğiz. Bu, coğrafi bölgeden bağımsız olarak içeriğin erişilebilirliğini sağlamak, sansüre karşı dayanıklılık kazanmak ve değerli bilgilerin kalıcı bir yedeğini oluşturmak açısından faydalıdır!
 
 Not: IPFS’ye yüklenen veriler ağdaki *tüm* kullanıcılar tarafından erişilebilir. Kişisel/hassas verileri yerel olarak şifrelemek isteyebilirsiniz.
 

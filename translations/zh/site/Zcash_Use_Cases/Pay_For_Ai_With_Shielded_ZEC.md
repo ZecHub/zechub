@@ -44,7 +44,7 @@ Crypto 本该解决这个问题，但大多数指南都已经过时。服务方�
 ## <img src="/content-images/icons8-toolbox-9bebbb1619.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> 你需要准备什么
 
 - 处于**屏蔽**余额中的 ZEC
-- 一个能够向 unified address 发送资金的钱包。本教程使用 **Noir Wallet** 浏览器扩展，因此整个流程都能在同一个窗口中完成。Zkool 和 ZODL 的操作方式也一样
+- 一个能够向 unified address 发送资金的钱包。本教程使用 **Noir Wallet** 浏览器扩展，因此整个流程都能在同一个窗口中完成。Zkool 和 Zodl 的操作方式也一样
 - 大约 $1 用于跟做演示
 
 > **从交易所提现吗？** 大多数交易所（包括 Binance）只支持将 ZEC 提现到**透明**地址，而且不会接受 `u1...` 地址作为目标地址。请先提到你自己的透明地址，再在钱包里把它转入屏蔽池，然后从屏蔽余额中付款。
@@ -103,10 +103,10 @@ Crypto 本该解决这个问题，但大多数指南都已经过时。服务方�
 
 大多数 AI 服务都不接受 ZEC。**Venice.ai** 和 **OpenRouter** 都接受 USDC，而 OpenRouter 还允许你选择结账时在哪条链上完成结算。
 
-对于这类情况，可以在 [ZODL](/zcash-organizations/zodl) 中使用 **CrossPay**。你花费的是屏蔽 ZEC，而收款方收到的是他们要求的资产，整个过程通过 NEAR Intents 路由完成，无需中心化交易所，也无需 KYC。
+对于这类情况，可以在 [Zodl](/zcash-organizations/zodl) 中使用 **CrossPay**。你花费的是屏蔽 ZEC，而收款方收到的是他们要求的资产，整个过程通过 NEAR Intents 路由完成，无需中心化交易所，也无需 KYC。
 
 1. 获取服务方的收款地址，以及它要求的资产和链，例如 Base 上的 USDC
-2. 打开 ZODL 并选择 **CrossPay**
+2. 打开 Zodl 并选择 **CrossPay**
 3. 输入该地址，选择服务方需要的资产，并输入金额
 4. 从你的屏蔽余额中发送
 

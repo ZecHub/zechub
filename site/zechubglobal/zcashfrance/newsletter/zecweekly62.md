@@ -9,7 +9,7 @@ Rapport de transparence de l'ECC, nouveaux SDK mobiles en version bêta et ZCAP 
 
 #### Bienvenue à ZecWeekly
 
-Cette semaine, nous apportons des nouvelles passionnantes concernant le SDK mobile mis à jour v2.0 pour les développeurs iOS et Android, une liste de propositions de subventions mineures de Zcash et vous apprendrez tout sur Zcash avec Zechub:
+Cette semaine, nous apportons des nouvelles passionnantes concernant le SDK mobile mis à jour v2.0 pour les développeurs iOS et Android, une liste de propositions de subventions mineures de Zcash et vous apprendrez tout sur Zcash avec ZecHub:
 
 [Zcash 101 - Free2Z](https://free2z.cash/ZecHub/zpage/zcash-101)
 
@@ -35,7 +35,7 @@ Cette semaine, nous apportons des nouvelles passionnantes concernant le SDK mobi
 
 [Nighthawk Wallet lance sa version bêta V2](https://forum.zcashcommunity.com/t/nighthawk-apps-announces-the-revamped-nighthawk-wallet/45731)
 
-[Gitopia, une expérience de Zechub](https://free2z.cash/ZecHub/zpage/gitopia-a-zechub-experiment)
+[Gitopia, une expérience de ZecHub](https://free2z.cash/ZecHub/zpage/gitopia-a-zechub-experiment)
 
 [Mois anniversaire de Zcash par Zcash Esp](https://free2z.cash/zcashesp/zpage/mes-aniversario-de-zcash)
 

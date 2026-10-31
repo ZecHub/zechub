@@ -112,7 +112,7 @@ Per questi, usa **CrossPay** in [Zodl](/zcash-organizations/zodl). Spendi ZEC sc
 
 Il tuo ZEC esce dalla schermatura. Il servizio vede arrivare un normale pagamento in USDC e non scopre mai che è partito come ZEC.
 
-> La parte di swap è visibile sulla chain di destinazione, quindi il pagamento in USDC stesso è pubblico come qualsiasi altro pagamento in USDC. Ciò che resta privato è il lato Zcash e il collegamento tra i due.
+> La parte di swap è visibile sulla chain di destinazione, quindi il pagamento in USDC stesso è pubblico come qualsiasi altro pagamento in USDC. Ciò che resta privato è il lato di Zcash e il collegamento tra i due.
 
 <br/>
 

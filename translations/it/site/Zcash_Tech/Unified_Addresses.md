@@ -70,7 +70,7 @@ Per i tipi di receiver noti, verificare che la lunghezza codificata corrisponda 
 
 ## Regole obbligatorie di rifiuto ZIP-316
 
-**Decodificare correttamente non rende valido un indirizzo.** I portafogli ufficiali Zcash rifiutano rigorosamente gli indirizzi che violano le seguenti regole. Anche gli strumenti web devono rifiutarli per prevenire errori di pagamento:
+**Decodificare correttamente non rende valido un indirizzo.** I portafogli ufficiali di Zcash rifiutano rigorosamente gli indirizzi che violano le seguenti regole. Anche gli strumenti web devono rifiutarli per prevenire errori di pagamento:
 
 - **Receiver schermati mancanti:** L'indirizzo **deve** contenere almeno un receiver Sapling o Orchard. Un UA con soli receiver trasparenti non è valido secondo ZIP-316.
 - **Typecode duplicati:** Ogni tipo di receiver può apparire al massimo una volta.

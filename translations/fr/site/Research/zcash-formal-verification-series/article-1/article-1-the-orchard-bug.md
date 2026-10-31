@@ -5,7 +5,7 @@
 
 > **Série :** *Série sur la vérification formelle* · **Partie 2 sur 3**
 > **Public :** débutants. La partie 1 a présenté la vérification formelle ; nous découvrons ici le véritable bug qui l'a rendue urgente. Tout le nécessaire est expliqué depuis le début.
-> **Ce que vous en retiendrez :** une vision intuitive mais exacte de la façon dont un système de preuve cryptographique peut contenir une faille de solidité, de ce qu'était exactement le bug « Orchard » de Zcash, de la raison pour laquelle cette catégorie de bug peut rester cachée pendant des années, et de pourquoi cela s'est déjà produit auparavant.
+> **Ce que vous en retiendrez :** une vision intuitive mais exacte de la façon dont un système de preuve cryptographique peut contenir une faille de solidité, de ce qu'était exactement le bug « Orchard » de Zcash de 2026, de la raison pour laquelle cette catégorie de bug peut rester cachée pendant des années, et de pourquoi cela s'est déjà produit auparavant.
 
 Dans la partie 1, nous avons dit que les tests peuvent montrer la présence de bugs, mais jamais leur absence, et que les bugs les plus dangereux se trouvent dans la *spécification* d'un système, ses mathématiques sous-jacentes. Cet article est l'étude de cas. En 2026, une faille a été trouvée dans le pool protégé Orchard de Zcash ; elle aurait pu permettre à un attaquant de créer invisiblement une quantité illimitée de fausse monnaie. Elle avait survécu quatre ans et plusieurs audits répétés. La comprendre, ainsi que ses prédécesseurs, est la motivation la plus claire qui soit pour prouver qu'un système est correct.
 

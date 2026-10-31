@@ -6,7 +6,7 @@
 
 ## Dichiarazione d'intenti
 
-Il programma Zcash Community Grants finanzia team indipendenti che entrano nell'ecosistema Zcash, affinché svolgano un'importante attività di sviluppo continuativo (o altro lavoro) per il bene pubblico dell'ecosistema Zcash.
+Il programma Zcash Community Grants finanzia team indipendenti che entrano nell'ecosistema di Zcash, affinché svolgano un'importante attività di sviluppo continuativo (o altro lavoro) per il bene pubblico dell'ecosistema di Zcash.
 
 ## Persone e team
 

@@ -4,7 +4,7 @@
 ## Kurulum
 
  * Çalışan ve tamamen senkronize olmuş, RPC'leri açık ve çerez kullanacak şekilde yapılandırılmış Zebrad düğümü
- * Tamamen senkronize olmuş Zainod
+ * Tamamen senkronize olmuş zainod
  * RPC'leri çalıştırmak üzere kurulmuş Zallet
 
 

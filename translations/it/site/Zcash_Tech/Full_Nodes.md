@@ -98,11 +98,11 @@ I seed DNS espongono un elenco di altri nodi affidabili tramite un server integr
 
 ### Statistiche della rete
 
-Queste sono piattaforme di esempio che consentono l'accesso ai dati della rete Zcash:
+Queste sono piattaforme di esempio che consentono l'accesso ai dati della rete di Zcash:
 
 [Zcash Esploratore di blocchi](https://mainnet.zcashexplorer.app)
 
-[Coinmetrics](https://docs.coinmetrics.io/info/assets/zec)
+[Coin Metrics](https://docs.coinmetrics.io/info/assets/zec)
 
 Puoi anche contribuire allo sviluppo della rete eseguendo test o proponendo nuovi miglioramenti e fornendo metriche.
 
@@ -116,7 +116,7 @@ Leggi [La guida al mining](https://zcash.readthedocs.io/en/latest/rtd_pages/zcas
 
 ### Privacy
 
-Eseguire un full node ti consente di verificare in modo indipendente tutte le transazioni e i blocchi sulla rete Zcash.
+Eseguire un full node ti consente di verificare in modo indipendente tutte le transazioni e i blocchi sulla rete di Zcash.
 
 Eseguire un full node evita alcuni rischi per la privacy associati all'uso di servizi di terze parti per verificare le transazioni per tuo conto.
 

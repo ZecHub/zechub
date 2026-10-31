@@ -44,7 +44,7 @@ Bootstrap era una nonprofit creata nel 2020 per governare Electric Coin Company,
 
 Per correttezza, conta anche l'altra versione dei fatti. Bootstrap ha presentato il conflitto come una questione di governance e di conformità legale nonprofit. Il fondatore di Zcash, Zooko Wilcox, ha difeso pubblicamente i membri del consiglio nominati nella disputa, dicendo di aver lavorato con loro per molti anni e di considerarli persone di alta integrità, chiarendo al tempo stesso di non schierarsi sul disaccordo in sé.
 
-Due cose non erano oggetto di disputa. Nessuna parte ha denunciato condotte criminali, quindi si trattava di un disaccordo societario e di governance piuttosto che di un caso legale. E la rete Zcash stessa non ne è stata influenzata: è rimasta open source, permissionless, sicura e pienamente operativa per tutto il tempo, un punto che sia Swihart sia Wilcox hanno sottolineato agli utenti.
+Due cose non erano oggetto di disputa. Nessuna parte ha denunciato condotte criminali, quindi si trattava di un disaccordo societario e di governance piuttosto che di un caso legale. E la rete di Zcash stessa non ne è stata influenzata: è rimasta open source, permissionless, sicura e pienamente operativa per tutto il tempo, un punto che sia Swihart sia Wilcox hanno sottolineato agli utenti.
 
 Ciò che è seguito è stata una riorganizzazione, non un collasso. L'ex team dell'azienda ha poi formato ZODL più avanti nel 2026 e, separatamente, tre ex membri del consiglio di Bootstrap hanno formato Sovright. Lo sviluppo si è assestato in una forma più distribuita tra diversi team indipendenti.
 
@@ -83,7 +83,7 @@ Oggi il lavoro è distribuito tra organizzazioni indipendenti, ognuna con una re
 ### Finanziamento
 
 10. Zcash Community Grants finanzia collaboratori indipendenti e progetti della comunità con una porzione della block reward, distribuendo il lavoro tra molti team oltre alle organizzazioni principali. Vedi [Zcash Community Grants](https://zechub.wiki/zcash-organizations/zcash-community-grants).
-11. Financial Privacy Foundation supporta l'ecosistema Zcash e i progetti della comunità. Vedi [Financial Privacy Foundation](https://zechub.wiki/zcash-organizations/financial-privacy-foundation).
+11. Financial Privacy Foundation supporta l'ecosistema di Zcash e i progetti della comunità. Vedi [Financial Privacy Foundation](https://zechub.wiki/zcash-organizations/financial-privacy-foundation).
 
 Tutte queste organizzazioni mantengono repository open source, quindi il loro lavoro può essere letto, verificato e sviluppato da chiunque. E le organizzazioni non raccontano l'intera storia. Molti contributi significativi provengono da individui e da aziende sotto contratto finanziate tramite finanziamenti, piuttosto che dalle sole organizzazioni principali. Accanto a loro ci sono team di portafogli, comunità regionali, sviluppatori indipendenti e investitori che detengono e sostengono ZEC senza costruire il protocollo. L'elenco sopra è la struttura portante, non il quadro completo.
 

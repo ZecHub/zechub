@@ -7,7 +7,7 @@
 
 ## TL;DR
 
-- Zụta ZEC na mgbanwe nke na-akwado ** iwepụ echekwara ** (Gemini, BitcoinVN, Flyp.me) mgbe enwere ike
+- Zụta ZEC na mgbanwe nke na-akwado ** iwepụ echekwara ** (Gemini, BitcoinVN, flyp.me) mgbe enwere ike
 - Imirikiti mgbanwe ndị isi (Coinbase, Kraken, Binance) na-akwado naanị ịdọrọ ego doro anya  chebe ZEC gị mgbe ị natara ya
 - Decentralized exchanges allow non-custodial swaps but typically withdraw to transparent addresses
 - Ị na-eme ** adịghị ** mkpa ịzụta a zuru ZEC  fractions ọrụ ezi
@@ -28,9 +28,9 @@ Gemini is a regulated cryptocurrency exchange, wallet, and custodian that makes 
 
 BitcoinVN is a non-custodial instant exchange that supports shielded (z-address) deposits and withdrawals for ZEC — one of very few exchanges globally with full z-address support. Operating since 2014, you can swap BTC, ETH, USDT, and other cryptocurrencies for ZEC directly to your shielded wallet.
 
-**[Flyp.me](https://flyp.me)**
+**[flyp.me](https://flyp.me)**
 
-Flyp.me is a no sign-up crypto exchange. It was one of the safest and most private ways to exchange 30+ cryptocurrencies straight to your wallet. You can buy ZEC with other cryptocurrencies.
+flyp.me is a no sign-up crypto exchange. It was one of the safest and most private ways to exchange 30+ cryptocurrencies straight to your wallet. You can buy ZEC with other cryptocurrencies.
 
 ## Mgbanwe ndị na-akwado iwepụ ego n'ụzọ doro anya
 

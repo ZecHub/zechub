@@ -41,7 +41,7 @@ Zebra 1.8.0 Latest Release, FROST ni Published, Zooko Starts New Zcash Project &
 
 [Zcash Brazil Weekly Wito 22](https://x.com/zcashbrazil/status/1808206303107731746)
 
-[Usitumie MacOS Signal programu - alberdioni8406 juu ya Free2z](https://x.com/free2zcash/status/1809716224940781965)
+[Usitumie MacOS Signal programu - alberdioni8406 juu ya Free2Z](https://x.com/free2zcash/status/1809716224940781965)
 
 [Gharama zilizofichwa za Mtandao 2.0 - Zcash Media ](https://x.com/zcashmedia/status/1809580807616397557)
 

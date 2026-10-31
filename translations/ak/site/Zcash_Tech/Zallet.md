@@ -202,7 +202,7 @@ Ade a edi kan wɔ hɔ ma ɔmanfo no ankasa. [zallet.io](https://www.zallet.io/) 
 - [Zebra Nodoɔ a Ɛwɔ Mu Nyinaa](Zebra_Full_Node.md)  node Zallet's default backend reads: "Ɛyɛ sɛ wo bɛ twe no a, na w'atwe no".
 - [Zakura Ntam no](Zakura_Node.md)  alternative validating node (Ɔkwan foforɔ a wɔfa so sɔ no hwɛ)
 - [Zaino](Zaino.md)  indexers backend ne light-client server no ho nsɛm pii wɔ hɔ a, wobɛtumi de adi dwuma.
-- [ZECD (Ɔman a wɔtɔ so mmienu)](ZECD.md)  ɔfã fofor bi a wɔdze yɛ edwumayɛbea nkorbata-server no do wɔ librustzcash so.
+- [zecd (Ɔman a wɔtɔ so mmienu)](ZECD.md)  ɔfã fofor bi a wɔdze yɛ edwumayɛbea nkorbata-server no do wɔ librustzcash so.
 - [Zcash Kɔntaktɔ Nkrataafa a Ɛwɔhɔ no Ntotoho](Zcash_Wallet_Syncing.md)  kwan a wallets a wɔabɔ ho ban no fa so hwehwɛ chain mu
 - [Ɔhwɛfoɔ Nsaano Hwehwɛbea](Viewing_Keys.md)
 

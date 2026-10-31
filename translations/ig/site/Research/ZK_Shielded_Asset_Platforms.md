@@ -85,7 +85,7 @@ Dịka ọmụmaatụ, tụlee ndepụta NFT na Solana; ọnọdụ ọha ya (d�
 
 
 
-**[Dark.fi](https://dark.fi/)**: DarkFi bụ L1 amaghi aha dabere na ihe ọmụma efu, mgbakọ ọtụtụ mmadụ, na nzuzo homomorphic. Ihe akaebe amaghi aha na-eme ka e zoo ndị na-akwado ya. DarkFi na-enye gburugburu ebe na-adịghị ike iji mepụta ma na-agba ngwa ndị a na-amaghị aha - **Mgbanwe Akụrụngwa**: Ee - [Akwụkwọ ọcha](https://darkfi.org/whitepaper) - ![Darkfi.png](/content-images/0-auQOzkLMfYdoXlRy-b10ed91da5.webp)
+**[Dark.fi](https://dark.fi/)**: DarkFi bụ L1 amaghi aha dabere na ihe ọmụma efu, mgbakọ ọtụtụ mmadụ, na nzuzo homomorphic. Ihe akaebe amaghi aha na-eme ka e zoo ndị na-akwado ya. DarkFi na-enye gburugburu ebe na-adịghị ike iji mepụta ma na-agba ngwa ndị a na-amaghị aha - **Mgbanwe Akụrụngwa**: Ee - [Akwụkwọ ọcha](https://darkfi.org/whitepaper) - ![DarkFi.png](/content-images/0-auQOzkLMfYdoXlRy-b10ed91da5.webp)
 ***
 
 

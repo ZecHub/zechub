@@ -41,7 +41,7 @@
 
 [Щотижневий дзвінок Zcash Brazil 22](https://x.com/zcashbrazil/status/1808206303107731746)
 
-[Не використовуйте застосунок Signal для MacOS - alberdioni8406 на Free2z](https://x.com/free2zcash/status/1809716224940781965)
+[Не використовуйте застосунок Signal для MacOS - alberdioni8406 на Free2Z](https://x.com/free2zcash/status/1809716224940781965)
 
 [Приховані витрати Web 2.0 - Zcash Media ](https://x.com/zcashmedia/status/1809580807616397557)
 

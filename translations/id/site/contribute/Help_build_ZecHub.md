@@ -8,7 +8,7 @@ Jika kamu adalah anggota komunitas Zcash, dan ingin berkontribusi dalam membangu
 
 Kurasi tautan untuk buletin dan tambahkan ke halaman GitHub buletin: -> [Klik di sini untuk instruksi](https://github.com/ZecHub/zechub/blob/main/site/contribute/ZecWeekly_Newsletter.md)
 
-Lakukan pemeriksaan fakta pada dokumen wiki, sarankan pengeditan, dan usulkan halaman baru di Github
+Lakukan pemeriksaan fakta pada dokumen wiki, sarankan pengeditan, dan usulkan halaman baru di GitHub
 
 Buatlah konten video dalam kategori berikut:```
 * Zcash explainer videos

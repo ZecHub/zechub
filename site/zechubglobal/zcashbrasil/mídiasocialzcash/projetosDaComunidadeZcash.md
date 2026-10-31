@@ -88,7 +88,7 @@ Um método pelo qual a votação ponderada por moeda ocorreu na blockchain do Zc
 
 O SDK Aztec Connect permite que qualquer protocolo Ethereum seja integrado na private rollup da Aztec com uma simples interface Solidity e SDK front-end. O Aztec Connect permite que os usuários acessem de forma confidencial serviços DeFi de classe mundial na Ethereum com até 100x de economia de custos, ao mesmo tempo em que fortalece as garantias de privacidade existentes da Aztec.
 
-[Darkfi](https://dark.fi)
+[DarkFi](https://dark.fi)
 
 DarkFi é um ambiente com uma linguagem para escrever smart contracts de prova de conhecimento zero. Uma rede econômica global descentralizada que opera totalmente anonimamente.
 

@@ -2,61 +2,61 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Nós Completos
+# Nós integrais
 
 ## TL;DR
 
-- Um nó completo mantém uma cópia completa da blockchain Zcash e verifica cada novo bloco e transação segundo as regras de consenso.
-- Zebra (`zebrad`) é o nó a instalar atualmente. Zakura é uma segunda implementação, bifurcada de Zebra.
-- zcashd foi descontinuado. A sua interrupção de Fim de Suporte foi atingida em 18 de julho de 2026, à altura de bloco 3417100, e esses nós já não iniciam.
-- O nó e a wallet são agora programas separados. [Zallet](https://github.com/zcash/zallet) funciona com um nó e detém as chaves.
-- Executar o seu próprio nó permite-lhe uma verificação independente e elimina a necessidade de confiar no servidor de outra pessoa.
+- Um nó integral mantém uma cópia completa da blockchain do Zcash e verifica cada novo bloco e transação de acordo com as regras de consenso.
+- Zebra (`zebrad`) é o nó a ser instalado atualmente. Zakura é uma segunda implementação, bifurcada do Zebra.
+- zcashd foi descontinuado. Sua interrupção de fim de suporte foi alcançada em 18 de julho de 2026, na altura do bloco 3417100, e esses nós não são mais iniciados.
+- O nó e a carteira agora são programas separados. [Zallet](https://github.com/zcash/zallet) funciona com um nó e armazena as chaves.
+- Executar seu próprio nó permite que você tenha verificação independente e elimina a necessidade de confiar no servidor de outra pessoa.
 
-## Explicação Principal
+## Explicação principal
 
-Um Nó Completo é um software que executa uma cópia completa da blockchain de uma criptomoeda, dando-lhe acesso às funcionalidades do protocolo.
+Um nó integral é um software que executa uma cópia completa da blockchain de uma criptomoeda, dando a você acesso aos recursos do protocolo.
 
-Mantém um registo completo de todas as transações ocorridas desde a génese e, por isso, consegue verificar a validade de novas transações e blocos adicionados à blockchain.
+Ele mantém um registro completo de todas as transações ocorridas desde a gênese e, por isso, consegue verificar a validade de novas transações e blocos adicionados à blockchain.
 
-## Implementações de Nós
+## Implementações de nós
 
 ### Zebra
 
-Zebra é uma implementação independente de nó completo, pronta para produção, do protocolo Zcash, criada pela Zcash Foundation e escrita em Rust. Como zcashd foi descontinuado, Zebra (`zebrad`) é o nó completo recomendado para novas implementações.
+Zebra é uma implementação independente de nó integral, pronta para produção, do protocolo Zcash, criada pela Zcash Foundation e escrita em Rust. Como zcashd foi descontinuado, Zebra (`zebrad`) é o nó integral recomendado para novas implementações.
 
-Zebra valida blocos e transações, participa na rede peer-to-peer e expõe uma interface RPC para aplicações. A wallet é agora um componente separado: [Zallet](https://github.com/zcash/zallet) funciona com um nó Zebra e gere chaves e saldos. Isto substitui zcashd, que agrupava o nó e a wallet num único processo.
+Zebra valida blocos e transações, participa da rede peer-to-peer e expõe uma interface RPC para aplicativos. A carteira agora é um componente separado: [Zallet](https://github.com/zcash/zallet) funciona com um nó Zebra e gerencia chaves e saldos. Isso substitui zcashd, que agrupava o nó e a carteira em um único processo.
 
-Para servir wallets leves protegidas, o nó funciona juntamente com um indexador, seja o já estabelecido [lightwalletd](https://github.com/zcash/lightwalletd) ou o mais recente [Zaino](https://zechub.wiki/zcash-tech/zaino).
+Para atender carteiras leves blindadas, o nó funciona junto a um indexador, seja o já estabelecido [lightwalletd](https://github.com/zcash/lightwalletd) ou o mais recente [Zaino](https://zechub.wiki/zcash-tech/zaino).
 
-Não deixe de ler o livro Zebra para obter instruções de configuração e junte-se ao servidor de I&D Discord para obter apoio.
+Não deixe de ler o livro do Zebra para obter instruções de configuração e participe do servidor Discord de P&D para obter suporte.
 
 [GitHub](https://github.com/ZcashFoundation/zebra/)
 
-[O Livro Zebra](https://zebra.zfnd.org)
+[O livro do Zebra](https://zebra.zfnd.org)
 
-Consulte [Zebra Nó Completo](/zcash-tech/zebra-full-node) para obter passos de instalação, configuração e requisitos de hardware.
+Consulte [Nó integral Zebra](/zcash-tech/zebra-full-node) para obter etapas de instalação, configuração e requisitos de hardware.
 
 ### Zakura
 
-Zakura é um segundo nó completo compatível com o consenso, bifurcado de Zebra e desenvolvido pela Valar Group em conjunto com o Project Tachyon. Segue as mesmas regras de protocolo e adiciona sincronização mais rápida, poda de blocos e uma camada de compatibilidade RPC zcashd. Consulte [Zakura Nó](/zcash-tech/zakura-node).
+Zakura é um segundo nó integral compatível com o consenso, bifurcado do Zebra e desenvolvido pela Valar Group em conjunto com o Project Tachyon. Ele segue as mesmas regras do protocolo e adiciona sincronização mais rápida, poda de blocos e uma camada de compatibilidade com RPC do zcashd. Consulte [Nó Zakura](/zcash-tech/zakura-node).
 
 ### zcashd (descontinuado)
 
-> **Nota:** zcashd foi descontinuado. A Electric Coin Company [anunciou a descontinuação](https://z.cash/support/zcashd-deprecation/), e a interrupção automática de Fim de Suporte foi atingida em 18 de julho de 2026, à altura de bloco 3417100. Todos os nós zcashd 6.20.0 não modificados foram encerrados a essa altura e recusam reiniciar, e o software não suporta NU6.3. Utilize Zebra. Se tiver uma zcashd `wallet.dat`, siga o [Guia de Migração: zcashd para zebrad/Zallet](https://zechub.wiki/guides/migration-guide-zcashd-to-zebrad-zallet).
+> **Nota:** zcashd foi descontinuado. A Electric Coin Company [anunciou a descontinuação](https://z.cash/support/zcashd-deprecation/), e a interrupção automática de fim de suporte foi alcançada em 18 de julho de 2026, na altura do bloco 3417100. Todos os nós zcashd 6.20.0 não modificados foram encerrados nessa altura e se recusam a reiniciar, e o software não oferece suporte ao NU6.3. Use Zebra. Se você tiver uma `wallet.dat` do zcashd, siga o [Guia de migração: zcashd para zebrad/Zallet](https://zechub.wiki/guides/migration-guide-zcashd-to-zebrad-zallet).
 
-zcashd era a implementação original de Nó Completo para Zcash, desenvolvida e mantida pela Electric Coin Company. As instruções de compilação abaixo são mantidas para referência e para operadores que estejam a migrar de zcashd.
+zcashd era a implementação original de nó integral do Zcash, desenvolvida e mantida pela Electric Coin Company. As instruções de compilação abaixo são mantidas como referência e para operadores que estão migrando do zcashd.
 
-zcashd expõe um conjunto de APIs através da sua interface RPC. Estas APIs fornecem funções que permitem que aplicações externas interajam com o nó.
+zcashd expõe um conjunto de APIs por meio de sua interface RPC. Essas APIs fornecem funções que permitem que aplicativos externos interajam com o nó.
 
-[lightwalletd](https://github.com/zcash/lightwalletd) é um exemplo de uma aplicação que utiliza um nó completo para permitir que os programadores criem e mantenham wallets leves protegidas compatíveis com dispositivos móveis sem terem de interagir diretamente com zcashd.
+[lightwalletd](https://github.com/zcash/lightwalletd) é um exemplo de aplicativo que usa um nó integral para permitir que desenvolvedores criem e mantenham carteiras leves blindadas compatíveis com dispositivos móveis sem precisar interagir diretamente com zcashd.
 
-[Lista completa dos comandos RPC suportados](https://zcash.github.io/rpc/)
+[Lista completa de comandos RPC compatíveis](https://zcash.github.io/rpc/)
 
-[O livro zcashd](https://zcash.github.io/zcash/)
+[O livro do zcashd](https://zcash.github.io/zcash/)
 
-#### Iniciar um Nó (Linux)
+#### Inicie um nó (Linux)
 
-- Instalar Dependências
+- Instale as dependências
 
       sudo apt update
 
@@ -65,7 +65,7 @@ zcashd expõe um conjunto de APIs através da sua interface RPC. Estas APIs forn
       autoconf libtool ncurses-dev unzip git python3 python3-zmq \
       zlib1g-dev curl bsdmainutils automake libtinfo5
 
-- Clonar a versão mais recente, fazer checkout, configurar e compilar:
+- Clone a versão mais recente, faça checkout, configure e compile:
 
       git clone https://github.com/zcash/zcash.git
 
@@ -76,70 +76,70 @@ zcashd expõe um conjunto de APIs através da sua interface RPC. Estas APIs forn
       ./zcutil/clean.sh
       ./zcutil/build.sh -j$(nproc)
 
-- Sincronizar a Blockchain (pode demorar várias horas)
+- Sincronize a blockchain (pode levar várias horas)
 
     Para iniciar o nó, execute:
 
       ./src/zcashd
 
-- As Chaves Privadas são armazenadas em ~/.zcash/wallet.dat
+- As chaves privadas são armazenadas em ~/.zcash/wallet.dat
 
-[Guia para zcashd no Raspberry Pi](https://zechub.notion.site/Raspberry-Pi-4-a-zcashd-full-node-guide-6db67f686e8d4b0db6047e169eed51d1)
+[Guia do zcashd no Raspberry Pi](https://zechub.notion.site/Raspberry-Pi-4-a-zcashd-full-node-guide-6db67f686e8d4b0db6047e169eed51d1)
 
-## Implicações Práticas
+## Implicações práticas
 
-### A Rede
+### A rede
 
-Ao executar um nó completo, está a ajudar a fortalecer a rede zcash, apoiando a sua descentralização.
+Ao executar um nó integral, você ajuda a fortalecer a rede Zcash ao apoiar sua descentralização.
 
-Isto ajuda a impedir o controlo adversarial e mantém a rede resiliente a algumas formas de perturbação.
+Isso ajuda a impedir o controle adversarial e a manter a rede resiliente a algumas formas de interrupção.
 
-Os seeders DNS expõem uma lista de outros nós fiáveis através de um servidor integrado. Isto permite que as transações se propaguem por toda a rede.
+Os seeders DNS expõem uma lista de outros nós confiáveis por meio de um servidor integrado. Isso permite que as transações se propaguem por toda a rede.
 
-### Estatísticas da Rede
+### Estatísticas da rede
 
-Estas são plataformas de exemplo que permitem o acesso a dados da Rede Zcash:
+Estas são plataformas de exemplo que permitem acesso aos dados da rede Zcash:
 
-[Zcash Explorador de Blocos](https://mainnet.zcashexplorer.app)
+[Explorador de blocos do Zcash](https://mainnet.zcashexplorer.app)
 
-[Coinmetrics](https://docs.coinmetrics.io/info/assets/zec)
+[Coin Metrics](https://docs.coinmetrics.io/info/assets/zec)
 
-Também pode contribuir para o desenvolvimento da rede executando testes ou propondo novas melhorias e fornecendo métricas.
+Você também pode contribuir para o desenvolvimento da rede executando testes ou propondo novas melhorias e fornecendo métricas.
 
 ### Mineração
 
-Os mineradores necessitam de nós completos para aceder a todos os RPCs relacionados com mineração, como getblocktemplate e getmininginfo.
+Os mineradores precisam de nós integrais para acessar todos os RPCs relacionados à mineração, como getblocktemplate e getmininginfo.
 
-zcashd também permite a mineração para coinbase protegida. Os mineradores e os pools de mineração têm a opção de minerar diretamente para acumular ZEC protegidos num z-address por predefinição.
+zcashd também permite mineração para coinbase blindada. Os mineradores e os pools de mineração têm a opção de minerar diretamente para acumular ZEC blindados em um z-address por padrão.
 
-Leia [O Guia de Mineração](https://zcash.readthedocs.io/en/latest/rtd_pages/zcash_mining_guide.html) ou junte-se à página do Fórum da Comunidade para [Zcash Mineradores](https://forum.zcashcommunity.com/c/mining/13).
+Leia [O guia de mineração](https://zcash.readthedocs.io/en/latest/rtd_pages/zcash_mining_guide.html) ou participe da página do fórum da comunidade para [Mineradores de Zcash](https://forum.zcashcommunity.com/c/mining/13).
 
 ### Privacidade
 
-Executar um nó completo permite-lhe verificar independentemente todas as transações e blocos na rede Zcash.
+Executar um nó integral permite que você verifique independentemente todas as transações e blocos na rede Zcash.
 
-Executar um nó completo evita alguns riscos de privacidade associados à utilização de serviços de terceiros para verificar transações em seu nome.
+Executar um nó integral evita alguns riscos de privacidade associados ao uso de serviços de terceiros para verificar transações em seu nome.
 
-Utilizar o seu próprio nó também permite ligar-se à rede através de [Tor](https://zcash.github.io/zcash/user/tor.html).
-Isto tem a vantagem adicional de permitir que outros utilizadores se liguem privadamente ao endereço .onion do seu nó.
+Usar seu próprio nó também permite que você se conecte à rede por meio do [Tor](https://zcash.github.io/zcash/user/tor.html).
+Isso tem a vantagem adicional de permitir que outros usuários se conectem de forma privada ao endereço .onion do seu nó.
 
-## Erros Comuns
+## Erros comuns
 
-- Compilar zcashd a partir das instruções acima e esperar um nó funcional. Esses binários param à altura de descontinuação.
-- Executar um nó e assumir que a sua wallet móvel passa a utilizá-lo. Uma wallet leve continua a comunicar com o servidor que tiver configurado até a apontar para o seu. Consulte [Nós Lightwallet](/zcash-tech/lightwallet-nodes).
-- Executar apenas `zebrad` e esperar que as wallets leves se liguem. O nó necessita de um indexador ao seu lado, seja lightwalletd ou [Zaino](/zcash-tech/zaino).
-- Procurar RPCs de wallet no nó. As chaves e os saldos foram movidos para Zallet.
+- Compilar zcashd a partir das instruções acima e esperar um nó funcional. Esses binários são interrompidos na altura da descontinuação.
+- Executar um nó e supor que sua carteira móvel agora o utiliza. Uma carteira leve continua se comunicando com qualquer servidor configurado até que você a aponte para o seu próprio. Consulte [Nós Lightwallet](/zcash-tech/lightwallet-nodes).
+- Executar apenas `zebrad` e esperar que carteiras leves se conectem. O nó precisa de um indexador ao seu lado, seja lightwalletd ou [Zaino](/zcash-tech/zaino).
+- Procurar RPCs de carteira no nó. As chaves e os saldos foram movidos para a Zallet.
 
-## Páginas Relacionadas
+## Páginas relacionadas
 
-- [Zebra Nó Completo](/zcash-tech/zebra-full-node) - instalar, configurar e executar o nó recomendado
-- [Zakura Nó](/zcash-tech/zakura-node) - a segunda implementação de nó, bifurcada de Zebra
-- [Nós Lightwallet](/zcash-tech/lightwallet-nodes) - os servidores consultados pelas wallets leves
-- [Zaino](/zcash-tech/zaino) - o indexador Rust que serve wallets leves
-- [Zcash Sincronização de Wallets](/zcash-tech/zcash-wallet-syncing) - por que motivo a sincronização funciona desta forma
+- [Nó integral Zebra](/zcash-tech/zebra-full-node) - instale, configure e execute o nó recomendado
+- [Nó Zakura](/zcash-tech/zakura-node) - a segunda implementação de nó, bifurcada do Zebra
+- [Nós Lightwallet](/zcash-tech/lightwallet-nodes) - os servidores consultados pelas carteiras leves
+- [Zaino](/zcash-tech/zaino) - o indexador Rust que atende carteiras leves
+- [Sincronização de carteiras Zcash](/zcash-tech/zcash-wallet-syncing) - por que a sincronização funciona dessa forma
 
-## Aprendizagem Adicional
+## Aprendizagem adicional
 
-Leia [Documentação de Suporte](https://zcash.readthedocs.io/en/latest/)
+Leia a [Documentação de suporte](https://zcash.readthedocs.io/en/latest/)
 
-Junte-se ao nosso [Discord Servidor](https://discord.gg/zcash) ou contacte-nos em [X](https://X.com/ZecHub)
+Participe do nosso [servidor Discord](https://discord.gg/zcash) ou entre em contato conosco no [X](https://X.com/ZecHub)

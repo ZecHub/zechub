@@ -31,7 +31,7 @@ Saa kwan yi so no, wɔn a wɔde di dwuma betumi asende tokens baako wɔ blockcha
 
 Proof of Bond (PoB) is a consensus mechanism where node operators must commit a bond (usually in the form of the network's native token) to participate in the network. This bond acts as a form of economic security, ensuring that nodes act honestly and maintain the network's integrity2. If a node tries to act maliciously or fails to perform its duties, its bond can be slashed, meaning a portion of it is taken away as a penalty.
 
-Wɔ Maya Protocol mu no, saa kwan yi boa ma wonya sika a ɛsom bo fi node operators ho de hyɛ wɔn akodeɛ so. Saa ara nso na wɔ Thorchain mu no , node operator bɔ RUNE (native token) to hɔ sɛ ɛbɛbɔ network no ho ban na ama adwumayɛfo anya adwuma ayɛ yie.
+Wɔ Maya Protocol mu no, saa kwan yi boa ma wonya sika a ɛsom bo fi node operators ho de hyɛ wɔn akodeɛ so. Saa ara nso na wɔ THORChain mu no , node operator bɔ RUNE (native token) to hɔ sɛ ɛbɛbɔ network no ho ban na ama adwumayɛfo anya adwuma ayɛ yie.
 
 ## Nsonsonoe a ɛda Maya ne THORChain ntam no
 
@@ -56,16 +56,16 @@ The Liquidity Auction was a 21-day event designed to distribute $CACAO tokens am
 
 Wɔ Maya Protocol mfiase no, na CACAO reserves a ɛwɔ hɔ yɛ 10% pɛ wɔ nkuro nyinaa mu, sɛ wɔde toto 44% a ɛwɔ THORChain ho, na wɔn botae titiriw ne Impermanent Loss Protection (ILP).
 
-Nanso, ɛmfa ho nsonsonoe a ɛwɔ mu no, Maya nso yɛ ɔfã bi ma THORChain sɛ ano aduru de kyerɛ redundancy ne extension na validation ase. Afei so wɔ fa foforo a enni hɔ saa bere yi wɔ Thorchain dwumadi mu.
+Nanso, ɛmfa ho nsonsonoe a ɛwɔ mu no, Maya nso yɛ ɔfã bi ma THORChain sɛ ano aduru de kyerɛ redundancy ne extension na validation ase. Afei so wɔ fa foforo a enni hɔ saa bere yi wɔ THORChain dwumadi mu.
 
 Afei nso, Maya botae ne sɛ ɔbɛyɛ *backend* ama dwumadie afoforo a wɔbɛtumi agyina so anya anidasoɔ sε wobehu nsesaeԑ foforo pii anaa DEX dwumadi ahodoɔ a wɔasi no kwan mu.
 
-## Maya protocol akwantuo mu nkotoku a wɔfa so di dwuma
+## Maya Protocol akwantuo mu nkotoku a wɔfa so di dwuma
 
 Sɛ wɔde Maya bɛyɛ *backend* a, ehia sɛ wɔboa no ma ne mfidie ahodoɔ na ɛtumi di dwuma. 
 Sεnea y'atwe nsem a wͻwᴐ no adi kan na woahyehyɛ nsesaeԑ ahodoɔ yi:
 
-[Thorwallet DEX no ho nsɛm pii wɔ hɔ.](https://www.thorwallet.org/): Ledger, XDEFI, Metamask, Keystore
+[Thorwallet DEX no ho nsɛm pii wɔ hɔ.](https://www.thorwallet.org/): Ledger, XDEFI, MetaMask, Keystore
 
 [El Dorado mu no, na wɔhwɛ wɔn so.](https://www.eldorado.market/): XDEFI, Keystore
 
@@ -75,6 +75,6 @@ Sεnea y'atwe nsem a wͻwᴐ no adi kan na woahyehyɛ nsesaeԑ ahodoɔ yi:
 
 DefiSpot: ɛnni intanɛt so bio, ne domen no ntumi nsiesie.
 
-[XDEFI](https://www.xdefi.io/): sika kotoku a w'ankasa hwɛ so wɔ mu, na ɛboa ma wɔde blockchain ahorow bɛboro 30 ne EVM nyinaa di dwuma. Saa nkɔnsɔnkɔnsɔn no bi nso yɛ Bitcoin, Ethereum, Solana, THORChain, Maya Protocol, TRON, ɛne afoforo pii.
+[Ctrl Wallet (XDEFI)](https://ctrl.xyz/): sika kotoku a w'ankasa hwɛ so wɔ mu, na ɛboa ma wɔde blockchain ahorow bɛboro 30 ne EVM nyinaa di dwuma. Saa nkɔnsɔnkɔnsɔn no bi nso yɛ Bitcoin, Ethereum, Solana, THORChain, Maya Protocol, TRON, ɛne afoforo pii.
 
 [KeepKey ](https://keepkey.com/): Dwumadie a wɔde sie sika wɔ abɛɛfo mfiri so.

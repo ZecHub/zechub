@@ -382,7 +382,7 @@ let resp = client
     .await?;
 ```
 
-`send_with_payment` estende qualsiasi client HTTP con gestione automatica del 402, gestione delle sessioni e completamento dei pagamenti Zcash.
+`send_with_payment` estende qualsiasi client HTTP con gestione automatica del 402, gestione delle sessioni e completamento dei pagamenti in Zcash.
 
 ---
 
@@ -449,11 +449,11 @@ packages/
 
 **`zimppy-core`** - Il nucleo crittografico. Gestisce la decrittazione delle note Orchard utilizzando l'IVK del server, il parsing dei memo, la logica di protezione dai replay e la verifica delle challenge. Scritto in Rust per prestazioni e correttezza.
 
-**`zimppy-wallet`** - Un portafoglio Zcash nativo basato su `zingolib`. Gestisce chiavi, account, saldi schermati/trasparenti e invio delle transazioni.
+**`zimppy-wallet`** - Un portafoglio di Zcash nativo basato su `zingolib`. Gestisce chiavi, account, saldi schermati/trasparenti e invio delle transazioni.
 
 **`zimppy-rs`** - L'SDK Rust. Fornisce i trait `ChargeMethod`, `SessionMethod` e `PaymentProvider`, oltre agli estrattori Axum (`MppCharge`, `WithReceipt`) per un'integrazione ergonomica del server.
 
-**`zimppy-napi`** - Binding NAPI-RS che espongono il nucleo Rust a Node.js, consentendo all'SDK TypeScript di utilizzare lo stesso motore crittografico senza reimplementare le primitive Zcash in JavaScript.
+**`zimppy-napi`** - Binding NAPI-RS che espongono il nucleo Rust a Node.js, consentendo all'SDK TypeScript di utilizzare lo stesso motore crittografico senza reimplementare le primitive di Zcash in JavaScript.
 
 **`zimppy-ts`** - L'SDK TypeScript. Avvolge i binding NAPI con API async/await idiomatiche per i flussi di addebito, sessione e streaming SSE.
 
@@ -495,6 +495,6 @@ packages/
 
 - [Portafogli](/using-zcash/wallets) — Portafogli Zcash che supportano transazioni schermate
 - [Pool schermate](/using-zcash/shielded-pools) — Come le transazioni schermate Orchard proteggono i dati di pagamento
-- [Elaboratori di pagamento](/using-zcash/payment-processors) — Altri modi per accettare pagamenti Zcash
+- [Elaboratori di pagamento](/using-zcash/payment-processors) — Altri modi per accettare pagamenti in Zcash
 - [Zcash Shielded Assets](/zcash-tech/zcash-shielded-assets) — ZSA e il futuro della programmabilità di Zcash
-- [Progetti della community](/zcash-community/community-projects) — Altri progetti dell'ecosistema Zcash
+- [Progetti della community](/zcash-community/community-projects) — Altri progetti dell'ecosistema di Zcash

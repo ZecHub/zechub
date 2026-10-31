@@ -41,7 +41,7 @@ Zebra 1.8.0 Mbipụta Ọhụrụ, E bipụtara FROST, Zooko Na-ebido Zcash Ọh
 
 [Zcash Brazil Kwa Izu Kpọọ 22](https://x.com/zcashbrazil/status/1808206303107731746)
 
-[Ejila ngwa MacOS Signal - alberdioni8406 na Free2z](https://x.com/free2zcash/status/1809716224940781965)
+[Ejila ngwa MacOS Signal - alberdioni8406 na Free2Z](https://x.com/free2zcash/status/1809716224940781965)
 
 [Ego zoro ezo nke Web 2.0 - Zcash Media ](https://x.com/zcashmedia/status/1809580807616397557)
 

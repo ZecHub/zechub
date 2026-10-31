@@ -79,6 +79,8 @@ L'explorateur peut également voir lorsque des fonds passent entre les côtés t
 
 - [ZecBlock](https://zecblock.com/)
 
+- [SoChain](https://sochain.com/zec) ([réseau de test](https://sochain.com/zectest))
+
 ### Guide visuel
 
 Voici quatre bons exemples de différents explorateurs de blockchain :

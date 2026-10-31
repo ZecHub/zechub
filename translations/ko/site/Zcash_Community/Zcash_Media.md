@@ -8,7 +8,7 @@
 
 ## 배경
 
-[Zcash 커뮤니티 그랜츠](https://x.com/ZcashCommGrants) 프로그램에 의해 자금이 지원되는 [37 LAINES](https://www.37laines.com/)가 제작한 Zcash 미디어의 교육 영상은 모두 Zcash와 암호화폐에 관한 것입니다. 이는 공공의 이익을 위해 만들어졌으며, Zcash 생태계에서 중요한 역할을 하고 있습니다.
+[Zcash Community Grants](https://x.com/ZcashCommGrants) 프로그램에 의해 자금이 지원되는 [37 LAINES](https://www.37laines.com/)가 제작한 Zcash 미디어의 교육 영상은 모두 Zcash와 암호화폐에 관한 것입니다. 이는 공공의 이익을 위해 만들어졌으며, Zcash 생태계에서 중요한 역할을 하고 있습니다.
 
 ## 영상
 

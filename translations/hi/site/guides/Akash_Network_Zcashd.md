@@ -475,7 +475,7 @@ zcash-cli getinfo
 
 ### RPC authentication failures
 
--> जांचें कि *ZCASHD_RPCUSER* और *ZCASHD_RPCPASSWORD* सही तरह सेट हैं
+-> जांचें कि `ZCASHD_RPCUSER` और `ZCASHD_RPCPASSWORD` सही तरह सेट हैं
 
 -> सत्यापित करें कि आप सही port उपयोग कर रहे हैं (mainnet के लिए 8232, testnet के लिए 18232)
 

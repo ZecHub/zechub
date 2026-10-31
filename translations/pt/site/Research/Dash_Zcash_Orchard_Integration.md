@@ -6,28 +6,28 @@ published: 2026-04-14
   <img src="https://img.shields.io/badge/Edit-blue" alt="Editar Página"/>
 </a>
 
-# Integração do Dash com Orchard da Zcash
+# Integração do Dash com o Orchard do Zcash
 
 
 
 ## Introdução
 
-Em fevereiro de 2026, a rede Dash anunciou a integração da pool blindada Orchard da Zcash na chain Evolution do Dash. Isso marcou uma das colaborações de privacidade cross-chain mais significativas no espaço das criptomoedas, já que o Dash adotou a criptografia de ponta de conhecimento zero da Zcash para complementar seu modelo de privacidade existente baseado em CoinJoin. A integração valida a posição da Zcash como líder em tecnologia de privacidade e abre um novo capítulo para a colaboração de privacidade cross-chain.
+Em fevereiro de 2026, a rede Dash anunciou a integração do pool blindado Orchard do Zcash à chain Evolution do Dash. Isso marcou uma das colaborações de privacidade cross-chain mais significativas no espaço das criptomoedas, já que o Dash adotou a criptografia de conhecimento zero de ponta do Zcash para complementar seu modelo de privacidade existente baseado em CoinJoin. A integração valida a posição do Zcash como líder em tecnologia de privacidade e abre um novo capítulo para a colaboração de privacidade cross-chain.
 
-Este artigo explica o que é o protocolo Orchard, como o Dash o está implementando, por que isso importa para ambos os ecossistemas e o que isso sinaliza para o cenário mais amplo das privacy coins.
+Este artigo explica o que é o protocolo Orchard, como o Dash está implementando-o, por que isso importa para ambos os ecossistemas e o que isso sinaliza para o cenário mais amplo das privacy coins.
 
 
-## O que é o protocolo Zcash Orchard?
+## O que é o protocolo Orchard do Zcash?
 
-Orchard é a pool blindada mais avançada da Zcash, ativada com o Network Upgrade 5 (NU5) em meados de 2022. Ela representa o ápice de anos de pesquisa criptográfica na Electric Coin Company (ECC) e na comunidade da Zcash.
+Orchard é o pool blindado mais avançado do Zcash, ativado com a atualização da rede 5 (NU5) em meados de 2022. Ele representa o ápice de anos de pesquisa criptográfica na Electric Coin Company (ECC) e na comunidade do Zcash.
 
 ### Tecnologia central: Halo 2
 
 Orchard é construído sobre o sistema de provas **Halo 2**, uma implementação de zk-SNARK de alto desempenho escrita em Rust. O Halo 2 introduziu dois grandes avanços:
 
-- **Sem Trusted Setup**: As pools blindadas anteriores da Zcash (Sprout e Sapling) dependiam de cerimônias de computação multipartidária para gerar parâmetros criptográficos. Se a aleatoriedade secreta ("toxic waste") dessas cerimônias não fosse destruída adequadamente, ela poderia teoricamente ser usada para criar tokens blindados falsificados. O Halo 2 elimina completamente essa exigência por meio de uma técnica chamada **nested amortization**, que colapsa múltiplas instâncias de problemas difíceis ao longo de ciclos de curvas elípticas, para que provas computacionais possam raciocinar sobre si mesmas.
+- **Sem configuração confiável**: Os pools blindados anteriores do Zcash (Sprout e Sapling) dependiam de cerimônias de computação multipartidária para gerar parâmetros criptográficos. Se a aleatoriedade secreta ("toxic waste") dessas cerimônias não fosse destruída adequadamente, ela poderia teoricamente ser usada para criar tokens blindados falsificados. O Halo 2 elimina completamente essa exigência por meio de uma técnica chamada **nested amortization**, que colapsa múltiplas instâncias de problemas difíceis ao longo de ciclos de curvas elípticas, para que provas computacionais possam raciocinar sobre si mesmas.
 
-- **Composição recursiva de provas**: Uma única prova pode atestar a correção de praticamente um número ilimitado de outras provas, comprimindo uma grande quantidade de computação em uma forma compacta e verificável. Isso é essencial para escalabilidade e futuras atualizações.
+- **Composição recursiva de provas**: Uma única prova pode atestar a correção de praticamente um número ilimitado de outras provas, comprimindo uma grande quantidade de computação em uma forma compacta e verificável. Isso é essencial para a escalabilidade e futuras atualizações.
 
 ### Como funciona a privacidade do Orchard
 
@@ -52,9 +52,9 @@ Para entender a integração, é importante compreender a arquitetura do Dash.
 
 O Dash opera um sistema de dupla chain:
 
-- **Dash Core (Camada 1)**: A blockchain original de proof-of-work, protegida por miners e masternodes. É onde o token nativo DASH existe e onde a mistura de privacidade CoinJoin opera.
+- **Dash Core (Camada 1)**: A blockchain original de proof-of-work, protegida por mineradores e masternodes. É onde o token nativo DASH existe e onde a mistura de privacidade CoinJoin opera.
 
-- **Dash Evolution (Camada de Plataforma)**: Uma chain secundária construída ao lado do Core que oferece suporte a funcionalidades de smart contracts, aplicações descentralizadas e gerenciamento de identidade. A Evolution usa um mecanismo de consenso Tendermint modificado chamado **Tenderdash** e é validada por Evolution Masternodes que protegem ambas as chains simultaneamente.
+- **Dash Evolution (Camada de plataforma)**: Uma chain secundária construída ao lado do Core que oferece suporte a funcionalidades de contratos inteligentes, aplicativos descentralizados e gerenciamento de identidade. A Evolution usa um mecanismo de consenso Tendermint modificado chamado **Tenderdash** e é validada por Evolution Masternodes que protegem ambas as chains simultaneamente.
 
 A chain Evolution é onde a integração do Orchard acontece. Essa escolha de design permite que o Dash introduza privacidade criptográfica avançada sem modificar a comprovada chain Core.
 
@@ -63,7 +63,7 @@ A chain Evolution é onde a integração do Orchard acontece. Essa escolha de de
 
 ### Arquitetura técnica
 
-O Dash fez um fork do crate Rust Orchard open-source da Zcash e o adaptou para a chain Evolution. A integração segue uma estrutura de **protected credit pool**:
+O Dash fez um fork do crate Rust Orchard open-source do Zcash e o adaptou para a chain Evolution. A integração segue uma estrutura de **pool de créditos protegidos**:
 
 1. **Lock**: Os usuários bloqueiam seus ativos DASH no Dash Core
 2. **Mint**: Tokens "Credits" atrelados são cunhados na chain Evolution
@@ -77,13 +77,13 @@ Esse modelo é análogo a um two-way peg entre as chains Core e Evolution, mas c
 A integração está planejada em duas fases:
 
 **Fase 1 (março de 2026, pendente de auditorias de cibersegurança):**
-- Implantar pools blindadas Orchard na chain Evolution
+- Implantar pools blindados Orchard na chain Evolution
 - Oferecer suporte a transferências blindadas básicas de Dash Credits entre partes
 - Conclusão de auditorias de segurança independentes antes da ativação na mainnet
 
 **Fase 2 (atualizações subsequentes):**
 - Estender os recursos de privacidade do Orchard a **ativos do mundo real tokenizados (RWAs)** emitidos na Evolution
-- Permitir operações que preservam a privacidade para interações de DeFi e smart contracts na plataforma
+- Permitir operações que preservam a privacidade para interações de DeFi e contratos inteligentes na plataforma
 - Levar blindagem de conhecimento zero para qualquer tipo de token, não apenas para a moeda nativa
 
 ### Sincronização móvel
@@ -95,7 +95,7 @@ Uma barreira histórica de usabilidade para sistemas de privacidade de conhecime
 
 ### A privacidade existente do Dash: CoinJoin
 
-Tradicionalmente, o Dash oferece privacidade por meio do **CoinJoin**, um mecanismo de mixing sem custódia. O CoinJoin funciona combinando entradas e saídas de transações de múltiplos usuários em uma única transação, dificultando (mas não impossibilitando) que observadores rastreiem quais entradas correspondem a quais saídas.
+Tradicionalmente, o Dash oferece privacidade por meio do **CoinJoin**, um mecanismo de mixing não custodiante. O CoinJoin funciona combinando entradas e saídas de transações de múltiplos usuários em uma única transação, dificultando (mas não impossibilitando) que observadores rastreiem quais entradas correspondem a quais saídas.
 
 O CoinJoin tem limitações:
 
@@ -110,35 +110,35 @@ O Orchard representa uma abordagem fundamentalmente diferente para a privacidade
 
 - **Garantias criptográficas**: A privacidade é imposta pela matemática, não pelo comportamento da multidão
 - **Sem rastro**: Não há rastros de transação para analisar porque remetente, destinatário e valor nunca são gravados na chain em texto simples
-- **Conjunto blindado maior**: Todas as transações Orchard compartilham uma pool blindada comum, aumentando o conjunto de anonimato
-- **Sem trusted setup**: O sistema de provas Halo 2 elimina quaisquer pressupostos residuais de confiança
+- **Conjunto blindado maior**: Todas as transações Orchard compartilham um pool blindado comum, aumentando o conjunto de anonimato
+- **Sem configuração confiável**: O sistema de provas Halo 2 elimina quaisquer pressupostos residuais de confiança
 
 A integração não substitui o CoinJoin no Dash Core. Em vez disso, o Orchard fornece uma **camada criptográfica complementar** na chain Evolution, dando aos usuários do Dash a opção entre o mixing leve do CoinJoin e a privacidade matemática das provas de conhecimento zero.
 
 
-## O que isso significa para a Zcash
+## O que isso significa para o Zcash
 
-A integração do Dash traz implicações significativas para o ecossistema da Zcash.
+A integração do Dash traz implicações significativas para o ecossistema do Zcash.
 
-### Validação da tecnologia da Zcash
+### Validação da tecnologia do Zcash
 
-Quando outro grande projeto de criptomoeda adota a stack criptográfica da Zcash, isso serve como validação externa da maturidade, segurança e qualidade de design da tecnologia. Samuel Westrich, CTO do Dash Core Group, observou:
+Quando outro grande projeto de criptomoeda adota a stack criptográfica do Zcash, isso serve como validação externa da maturidade, segurança e qualidade de design da tecnologia. Samuel Westrich, CTO do Dash Core Group, observou:
 
-> "Tenho interesse pessoal na tecnologia de provas ZK e em seus usos em blockchain desde os primeiros artigos em 2014. Ao longo dos anos, temos acompanhado a Zcash. Com o lançamento mais recente do crate Orchard, sentimos que era um bom momento para investigar a adição da tecnologia à nossa chain Evolution mais recente."
+> "Tenho interesse pessoal na tecnologia de provas ZK e em seus usos em blockchain desde os primeiros artigos em 2014. Ao longo dos anos, temos acompanhado o Zcash. Com o lançamento mais recente do crate Orchard, sentimos que era um bom momento para investigar a adição da tecnologia à nossa chain Evolution mais recente."
 
 Ele acrescentou que "Orchard é open source e maduro; integrá-lo foi mais fácil do que o esperado."
 
 ### Expansão do ecossistema
 
-O crate Orchard é lançado sob as licenças open-source MIT e Apache 2.0. Cada integração por outro projeto expande a base de usuários dos primitivos criptográficos da Zcash, aumenta o número de desenvolvedores familiarizados com a base de código e potencialmente leva a melhorias upstream que beneficiam a própria Zcash.
+O crate Orchard é lançado sob as licenças open-source MIT e Apache 2.0. Cada integração por outro projeto expande a base de usuários dos primitivos criptográficos do Zcash, aumenta o número de desenvolvedores familiarizados com a base de código e potencialmente leva a melhorias upstream que beneficiam o próprio Zcash.
 
 ### Reconhecimento cross-chain
 
-A entrada do Dash na lista de projetos que usam Halo 2 e Orchard coloca a Zcash ao lado de projetos como Filecoin, Ethereum e múltiplas soluções zkRollup que adotaram ou exploraram a tecnologia Halo 2. Esse ecossistema em crescimento fortalece os efeitos de rede em torno da pesquisa de privacidade da Zcash.
+A entrada do Dash na lista de projetos que usam Halo 2 e Orchard coloca o Zcash ao lado de projetos como Filecoin, Ethereum e múltiplas soluções zkRollup que adotaram ou exploraram a tecnologia Halo 2. Esse ecossistema em crescimento fortalece os efeitos de rede em torno da pesquisa de privacidade do Zcash.
 
 ### Zcash como padrão de privacidade
 
-A integração posiciona a tecnologia da Zcash como um emergente **padrão da indústria para privacidade em blockchain**, assim como o TLS se tornou o padrão para criptografia na web. Quando projetos concorrentes escolhem adotar as ferramentas da Zcash em vez de construir as suas próprias, isso demonstra a qualidade e a confiabilidade da ciência subjacente.
+A integração posiciona a tecnologia do Zcash como um emergente **padrão da indústria para privacidade em blockchain**, assim como o TLS se tornou o padrão para criptografia na web. Quando projetos concorrentes escolhem adotar as ferramentas do Zcash em vez de construir as suas próprias, isso demonstra a qualidade e a confiabilidade da ciência subjacente.
 
 
 ## Impacto mais amplo nas criptomoedas de privacidade
@@ -149,13 +149,13 @@ A integração acontece durante um período de maior interesse em tecnologia de 
 
 ### Contexto regulatório
 
-A integração também ocorre em um cenário de pressão regulatória sobre tokens de privacidade. Em janeiro de 2026, a Financial Services Authority (DFSA) de Dubai proibiu exchanges reguladas de cripto de vender tokens de privacidade, incluindo ZEC e XMR, para novos usuários. Embora a proibição não impeça cidadãos de manter esses tokens, ela destaca a tensão entre privacidade do usuário e conformidade regulatória.
+A integração também ocorre em um cenário de pressão regulatória sobre tokens de privacidade. Em janeiro de 2026, a Financial Services Authority (DFSA) de Dubai proibiu corretoras reguladas de cripto de vender tokens de privacidade, incluindo ZEC e XMR, para novos usuários. Embora a proibição não impeça cidadãos de manter esses tokens, ela destaca a tensão entre privacidade do usuário e conformidade regulatória.
 
 Integrações de privacidade cross-chain como Dash-Orchard podem influenciar a forma como reguladores enxergam a tecnologia de privacidade. O fato de que recursos de privacidade podem ser adotados como componentes modulares por qualquer blockchain sugere que proibir tokens específicos pode ser menos eficaz do que lidar com a tecnologia subjacente.
 
 ### Parcerias futuras
 
-A integração do Dash estabelece um precedente para outros projetos de blockchain. Se o Orchard pode ser implantado com sucesso em uma chain com mecanismos de consenso e arquitetura diferentes, isso demonstra que a tecnologia de privacidade da Zcash é realmente portável. Isso pode incentivar novas adoções em todo o ecossistema, incluindo:
+A integração do Dash estabelece um precedente para outros projetos de blockchain. Se o Orchard pode ser implantado com sucesso em uma chain com mecanismos de consenso e arquitetura diferentes, isso demonstra que a tecnologia de privacidade do Zcash é realmente portável. Isso pode incentivar novas adoções em todo o ecossistema, incluindo:
 
 - Redes Layer-2 em busca de recursos de privacidade
 - Protocolos DeFi que desejam blindar dados de transação dos usuários
@@ -165,16 +165,16 @@ A integração do Dash estabelece um precedente para outros projetos de blockcha
 
 ## Conclusão
 
-A integração do protocolo Orchard da Zcash na chain Evolution do Dash representa um marco na colaboração de privacidade cross-chain. Para o Dash, isso significa um salto qualitativo do modelo de ofuscação do CoinJoin para as garantias de privacidade criptográfica do Orchard. Para a Zcash, isso confirma que os anos de pesquisa em Halo 2 e na pool blindada Orchard produziram uma tecnologia robusta e madura o suficiente para ser adotada por outros grandes projetos.
+A integração do protocolo Orchard do Zcash na chain Evolution do Dash representa um marco na colaboração de privacidade cross-chain. Para o Dash, isso significa um salto qualitativo do modelo de ofuscação do CoinJoin para as garantias de privacidade criptográfica do Orchard. Para o Zcash, isso confirma que os anos de pesquisa em Halo 2 e no pool blindado Orchard produziram uma tecnologia robusta e madura o suficiente para ser adotada por outros grandes projetos.
 
-Mais importante ainda, essa integração sinaliza que a privacidade em criptomoedas não é uma competição de soma zero entre projetos. A tecnologia de privacidade open-source se beneficia de adoção mais ampla, revisão mais abrangente e desenvolvimento compartilhado. À medida que o Orchard da Zcash se espalha pelo ecossistema de blockchain, todo o setor se aproxima de um futuro em que a privacidade financeira é o padrão, não a exceção.
+Mais importante ainda, essa integração sinaliza que a privacidade em criptomoedas não é uma competição de soma zero entre projetos. A tecnologia de privacidade open-source se beneficia de adoção mais ampla, revisão mais abrangente e desenvolvimento compartilhado. À medida que o Orchard do Zcash se espalha pelo ecossistema de blockchain, todo o setor se aproxima de um futuro em que a privacidade financeira é o padrão, não a exceção.
 
 
 ## Leitura adicional
 
 - [Documentação do Halo 2](https://zcash.github.io/halo2/)
-- [Crate Orchard da Zcash (GitHub)](https://github.com/zcash/orchard)
+- [Crate Orchard do Zcash (GitHub)](https://github.com/zcash/orchard)
 - [Repositório GitHub do Halo 2](https://github.com/zcash/halo2)
 - [Documentação da plataforma Dash Evolution](https://docs.dash.org/en/stable/)
-- [Cointelegraph: Dash integra a pool de privacidade da Zcash](https://cointelegraph.com/news/dash-integrates-z-cash-orchard-privacy)
-- [HackerNoon: Dash leva a privacidade Orchard da Zcash para a chain Evolution](https://hackernoon.com/dash-brings-zcash-orchard-privacy-to-evolution-chain-for-shielded-transactions)
+- [Cointelegraph: Dash integra o pool de privacidade do Zcash](https://cointelegraph.com/news/dash-integrates-z-cash-orchard-privacy)
+- [HackerNoon: Dash leva a privacidade Orchard do Zcash para a chain Evolution](https://hackernoon.com/dash-brings-zcash-orchard-privacy-to-evolution-chain-for-shielded-transactions)

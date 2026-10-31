@@ -28,7 +28,7 @@ Considerando tutti gli elementi sopra, ci sono molti luoghi dove puoi spendere Z
 
 In particolare, in Venezuela ci sono molti luoghi (fisici e online) dove puoi acquistare prodotti o servizi e pagare con Zcash… Cominciamo!
 
-> Elencati senza un ordine particolare. Ti serve un portafoglio Zcash e una connessione di rete.
+> Elencati senza un ordine particolare. Ti serve un portafoglio di Zcash e una connessione di rete.
 
 [**Gastronomia - Panetteria & Cioccolateria**] 
 
@@ -52,7 +52,7 @@ Quindi, se sei un mostro dei biscotti..,
 
 ora sai dove spendere i tuoi ZEC!
 
-**Sito web**: sheemprende.com è stato ritirato e non è più raggiungibile. Contattala su [Free2z](https://free2z.cash/SheEmprende) | [Piattaforma X](https://twitter.com/SheEmprende_)
+**Sito web**: sheemprende.com è stato ritirato e non è più raggiungibile. Contattala su [Free2Z](https://free2z.cash/SheEmprende) | [Piattaforma X](https://twitter.com/SheEmprende_)
 
 **Zcash Unified Address:** 
 
@@ -74,7 +74,7 @@ Rosa sorride con orgoglio mostrando che accetta **Zcash.**
 
 **Sito web**: somosdulceros.com è stato ritirato e non è più raggiungibile. Usa i link social qui sotto.
 
-**Social media:** [Instagram](https://www.instagram.com/somos_dulceros) | [Piattaforma X](https://twitter.com/RosaMRangel) | [Free2z](https://free2z.cash/Criptodulceros/zpage/criptodulceros-01)
+**Social media:** [Instagram](https://www.instagram.com/somos_dulceros) | [Piattaforma X](https://twitter.com/RosaMRangel) | [Free2Z](https://free2z.cash/Criptodulceros/zpage/criptodulceros-01)
 
 **Zcash Unified Address:** 
 
@@ -106,7 +106,7 @@ Alcune delle altre splendide creazioni artigianali di Papeles a Color.
 
 **Social media** 
 
-[Instagram](https://instagram.com/papelesacolor) | [Free2z](https://free2z.cash/PapelesaColor) 
+[Instagram](https://instagram.com/papelesacolor) | [Free2Z](https://free2z.cash/PapelesaColor) 
 
 [Linktree](https://linktr.ee/Papelesacolor)
 
@@ -183,7 +183,7 @@ Servizi di persona e online.
 
 Oltre a essere un designer digitale, Robmar è un fotografo che dedica anche del tempo a insegnare **workshop** di **fotografia e strumenti correlati**, e nel frattempo diffonde anche la voce su Zcash.
 
-Il suo lavoro è ben noto nell'ecosistema Zcash grazie al suo contributo al club ZFAV.
+Il suo lavoro è ben noto nell'ecosistema di Zcash grazie al suo contributo al club ZFAV.
 
 • Realizzazione / montaggio video
 
@@ -193,7 +193,7 @@ Il suo lavoro è ben noto nell'ecosistema Zcash grazie al suo contributo al club
 
 **Social media:**
 
-[Telegram](https://t.me/Robmarn) | [Piattaforma X](https://twitter.com/robmarn) | [Free2z](https://free2z.cash/robmarn)
+[Telegram](https://t.me/Robmarn) | [Piattaforma X](https://twitter.com/robmarn) | [Free2Z](https://free2z.cash/robmarn)
 
 📍Barquisimeto - Venezuela 
 
@@ -261,7 +261,7 @@ Tecnopapapi è la persona giusta da contattare!
 
 **Social media** 
 
-Free2z | [Telegram](https://t.me/Lexihel) | [YouTube](https://youtube.com/@tecnopapapi) | [Piattaforma X](https://twitter.com/tecnopapapi) | [TikTok](https://www.tiktok.com/@lexihel) | [Instagram](https://www.instagram.com/tecnopapapi/) |  [Facebook](https://www.facebook.com/tecnopapapi) 
+Free2Z | [Telegram](https://t.me/Lexihel) | [YouTube](https://youtube.com/@tecnopapapi) | [Piattaforma X](https://twitter.com/tecnopapapi) | [TikTok](https://www.tiktok.com/@lexihel) | [Instagram](https://www.instagram.com/tecnopapapi/) |  [Facebook](https://www.facebook.com/tecnopapapi) 
 
 Tecnopapapi accetta criptovalute (inclusi 3ZEC) e altri metodi di pagamento.
 

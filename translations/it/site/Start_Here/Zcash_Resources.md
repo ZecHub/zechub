@@ -12,15 +12,15 @@ Zcash Media è un'organizzazione indipendente che realizza documentari educativi
 
 **[X (precedentemente Twitter)](https://x.com)**
 
-Twitter è il centro di comunicazione de facto per la comunità Zcash e per il più ampio settore delle criptovalute. È un ottimo posto per tenersi aggiornati su tutto ciò che riguarda Zcash e seguire anche i membri più rilevanti della comunità. Ecco un [documento](https://www.notion.so/zechub/Social-Media-Links-05b9df645af54de7a1989d9c4ccc4d05) che elenca gli account principali da seguire.
+Twitter è il centro di comunicazione de facto per la comunità di Zcash e per il più ampio settore delle criptovalute. È un ottimo posto per tenersi aggiornati su tutto ciò che riguarda Zcash e seguire anche i membri più rilevanti della comunità. Ecco un [documento](https://www.notion.so/zechub/Social-Media-Links-05b9df645af54de7a1989d9c4ccc4d05) che elenca gli account principali da seguire.
 
 **[Comunità Zcash](https://www.zcashcommunity.com/)**
 
-Zcash Community è un sito gestito dalla comunità che mette in evidenza progetti gestiti dalla comunità a sostegno dell'ecosistema Zcash. È un ottimo modo per conoscere la comunità Zcash e le sue varie applicazioni come valuta.
+Zcash Community è un sito gestito dalla comunità che mette in evidenza progetti gestiti dalla comunità a sostegno dell'ecosistema di Zcash. È un ottimo modo per conoscere la comunità di Zcash e le sue varie applicazioni come valuta.
 
-**[Il forum Zcash](https://forum.zcashcommunity.com/)**
+**[Il forum di Zcash](https://forum.zcashcommunity.com/)**
 
-Come menzionato nella guida per i nuovi utenti, il forum Zcash è un ottimo luogo per discutere in modo approfondito di argomenti relativi a Zcash e di idee proposte. Le proposte arrivano sempre sul forum, così la comunità ha l'opportunità di discutere e dibattere le idee proposte.
+Come menzionato nella guida per i nuovi utenti, il forum di Zcash è un ottimo luogo per discutere in modo approfondito di argomenti relativi a Zcash e di idee proposte. Le proposte arrivano sempre sul forum, così la comunità ha l'opportunità di discutere e dibattere le idee proposte.
 
 **[Z.cash](https://z.cash/)**
 
@@ -28,11 +28,11 @@ Z.cash è il sito web principale di Zcash. Fornisce contenuti e documentazione s
 
 **[GitHub di Zcash](https://github.com/zcash/zcash)**
 
-Hai competenze di programmazione e vuoi approfondire l'aspetto tecnico di Zcash? Il repository GitHub di Zcash è il repository di zcashd, la prima implementazione di un nodo Zcash. zcashd ha raggiunto il proprio arresto automatico di fine supporto il 18 luglio 2026 e non è più mantenuto; inoltre, la pagina di download a cui questa voce rimandava non è più disponibile. Lo stack mantenuto è [Zebra](https://github.com/ZcashFoundation/zebra) per il nodo e [Zallet](https://github.com/zcash/zallet) per il portafoglio — consulta la [guida alla migrazione da zcashd a Zebra e Zallet](https://zechub.wiki/guides/migration-guide-zcashd-to-zebrad-zallet).
+Hai competenze di programmazione e vuoi approfondire l'aspetto tecnico di Zcash? Il repository GitHub di Zcash è il repository di zcashd, la prima implementazione di un nodo di Zcash. zcashd ha raggiunto il proprio arresto automatico di fine supporto il 18 luglio 2026 e non è più mantenuto; inoltre, la pagina di download a cui questa voce rimandava non è più disponibile. Lo stack mantenuto è [Zebra](https://github.com/ZcashFoundation/zebra) per il nodo e [Zallet](https://github.com/zcash/zallet) per il portafoglio — consulta la [guida alla migrazione da zcashd a Zebra e Zallet](https://zechub.wiki/guides/migration-guide-zcashd-to-zebrad-zallet).
 
 **[GitHub della Zcash Foundation](https://github.com/ZcashFoundation)**
 
-Un altro repository GitHub che ospita progetti della Zcash Foundation, incluso [zebra](https://github.com/ZcashFoundation/zebra), un'implementazione di nodo Zcash in Rust.
+Un altro repository GitHub che ospita progetti della Zcash Foundation, incluso [zebra](https://github.com/ZcashFoundation/zebra), un'implementazione di nodo di Zcash in Rust.
 
 **[Halo2](https://zcash.github.io/halo2/index.html)**
 

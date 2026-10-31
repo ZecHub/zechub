@@ -7,7 +7,7 @@
 
 # Cypherpunk Zero
 
-Cypherpunk Zero è una serie di racconti incentrata su Zero, una giovane hacker cypherpunk e combattente per la libertà. Zero vive attualmente in un incubo distopico e usa il codice per combattere i guardiani centralizzati che tengono in catene la società. La storia è stata ispirata da Zcash e dalla crittografia Halo. L'opera creativa è uno sforzo collaborativo tra ECC, Stranger World, Might Jaxx e partner selezionati dell'ecosistema. L'opera creativa si è concentrata soprattutto su una [serie NFT](https://opensea.io/collection/cypherpunk-zero) ed è stato pubblicato anche un [giocattolo da collezione](https://mightyjaxx.com/products/cypherpunk-zero). La community NFT, attiva principalmente su Twitter, ha persino creato una [organizzazione decentralizzata (DAO)](https://twitter.com/CypherpunkDAO) per organizzare e completare progetti a sostegno della campagna e della più ampia community Zcash.
+Cypherpunk Zero è una serie di racconti incentrata su Zero, una giovane hacker cypherpunk e combattente per la libertà. Zero vive attualmente in un incubo distopico e usa il codice per combattere i guardiani centralizzati che tengono in catene la società. La storia è stata ispirata da Zcash e dalla crittografia Halo. L'opera creativa è uno sforzo collaborativo tra ECC, Stranger World, Might Jaxx e partner selezionati dell'ecosistema. L'opera creativa si è concentrata soprattutto su una [serie NFT](https://opensea.io/collection/cypherpunk-zero) ed è stato pubblicato anche un [giocattolo da collezione](https://mightyjaxx.com/products/cypherpunk-zero). La community NFT, attiva principalmente su Twitter, ha persino creato una [organizzazione decentralizzata (DAO)](https://twitter.com/CypherpunkDAO) per organizzare e completare progetti a sostegno della campagna e della più ampia community di Zcash.
 
 ## Roadmap anti-roadmap
 
@@ -44,7 +44,7 @@ Abbiamo visto troppi progetti promettere troppo e mantenere troppo poco nelle lo
 *Offerta totale*: 10.000 NFT generativi unici su Ethereum Mainnet
 Il 4% dell'offerta (i primi 400 NFT) è stato distribuito tramite airdrop ai primi sostenitori del progetto che hanno acquistato il Zcash X Mighty Jaxx: Cypherpunk Zero Genesis Edition Toy 59.
 
-Il 72% dell'offerta (7.200 NFT) sarà rilasciato al pubblico tramite un nuovo meccanismo di whitelist che richiede l'uso di un portafoglio Zcash che supporti i memo crittografati (maggiori dettagli sotto).
+Il 72% dell'offerta (7.200 NFT) sarà rilasciato al pubblico tramite un nuovo meccanismo di whitelist che richiede l'uso di un portafoglio di Zcash che supporti i memo crittografati (maggiori dettagli sotto).
 
 Il 24% dell'offerta (2.400 NFT) sarà detenuto da ECC nella Cypherpunk Reserve, per l'uso in future iniziative che promuovano Zcash e la privacy nello spazio Web3.
 

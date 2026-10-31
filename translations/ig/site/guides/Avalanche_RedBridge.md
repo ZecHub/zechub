@@ -28,7 +28,7 @@ Nkọwa: Na-ahụ na echekwara atụmatụ nzuzo Zcash n'oge usoro njikọta, na
 **Àkwà mmiri Zcash Elastic Subnet dị na Avalanche**: [Atụmatụ Enyemaka](https://zcashgrants.org/gallery/25215916-53ea-4041-a3b2-6d00c487917d/36243580/)
 N'okpuru ebe a bụ ihe ndị dị mkpa e mepụtara na akụrụngwa teknụzụ maka ọrụ Zcash Avalanche RedBridge:
 
-1.1 a ga-ebuga: PoC mbụ nke na-akwado ịjụ ajụjụ gbasara azụmahịa Zcash site na testnet Avalanche subnet nwere CLI, nke e bipụtara na Github na otu node subnet na Avalanche testnet. https://github.com/red-dev-inc/zavax-oracle
+1.1 a ga-ebuga: PoC mbụ nke na-akwado ịjụ ajụjụ gbasara azụmahịa Zcash site na testnet Avalanche subnet nwere CLI, nke e bipụtara na GitHub na otu node subnet na Avalanche testnet. https://github.com/red-dev-inc/zavax-oracle
 
 A ga-ebuga 2.1: [Nhazi ụlọ](https://github.com/red-dev-inc/zavax-bridge/tree/main/Architecture)
 
@@ -49,9 +49,9 @@ GUI 5.1 a na-ebufe: njikọta akwa n'ime Core ma ọ bụ Webapp
 
 Isi ihe dị mkpa 6 Juun 30, 2024
 A ga-enye ya 6.1 Njem nyocha ngwanrọ nke ọma
-A pụrụ inyefe 6.2 Mbipụta nke koodu isi mmalite enyochara na nchekwa Github ọha
+A pụrụ inyefe 6.2 Mbipụta nke koodu isi mmalite enyochara na nchekwa GitHub ọha
 
-Lelee na [Nchekwa Github](https://github.com/red-dev-inc/zavax-bridge/tree/main/Architecture)
+Lelee na [Nchekwa GitHub](https://github.com/red-dev-inc/zavax-bridge/tree/main/Architecture)
   
 Maka nkọwa teknụzụ ndị ọzọ, a na-agba ndị ọrụ ume ka ha lelee ebe nchekwa na akwụkwọ maka ọrụ RedBridge iji [inyocha](https://zcashgrants.org/gallery/25215916-53ea-4041-a3b2-6d00c487917d/36243580/) nkọwapụta njikọta, usoro nnwale, na usoro nchekwa.
 
@@ -62,7 +62,7 @@ Maka nkọwa teknụzụ ndị ọzọ, a na-agba ndị ọrụ ume ka ha lelee 
 * Ihe ndị a ga-ebuga: 
 Na nkeji mbụ nke afọ 2025, ndị otu ahụ kwupụtara mmalite nke [red·bridge demo website](https://redbridge-demo.red.dev/index.html)ebe onye ọ bụla nwere ike ịnwale ahụmịhe onye ọrụ, nye nzaghachi, ma tụọ aro mmezi. Ọ na-ejekwa ozi dị ka ụzọ dị mfe isi webata ndị na-abụghị ndị ọkachamara na ọrụ ahụ.
 
-* Ndị otu ahụ jiri Zebra mee ụdị ikpeazụ nke red·bridge. Iji nwalee ya, ha kwalitere abụọ n'ime nodes atọ dị na blockchain nnwale ha, ZavaX Oracle, nke na-agba ọsọ na Fuji testnet nke Avalanche. Emelitere nodes ikpeazụ nke ọma, ugbu a [Zavax Oracle](https://web.archive.org/web/20260823181644/https://zavax-oracle.red.dev/) ugbu a na-agba ọsọ na Zebra!
+* Ndị otu ahụ jiri Zebra mee ụdị ikpeazụ nke red·bridge. Iji nwalee ya, ha kwalitere abụọ n'ime nodes atọ dị na blockchain nnwale ha, ZavaX Oracle, nke na-agba ọsọ na Fuji testnet nke Avalanche. Emelitere nodes ikpeazụ nke ọma, ugbu a [ZavaX Oracle](https://web.archive.org/web/20260823181644/https://zavax-oracle.red.dev/) ugbu a na-agba ọsọ na Zebra!
 
 * In Q1 of 2025, the red.bridge website was coded to offer four views from red, Dark, Light, and Zebra as opposed to the initial version, which was red.
 

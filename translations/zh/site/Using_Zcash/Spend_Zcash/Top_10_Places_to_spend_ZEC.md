@@ -52,7 +52,7 @@ Zcash 搭配 ZEC，同时提供增强的隐私和安全功能。但采用和使�
 
 现在你知道该去哪里花费你的 ZEC 了！
 
-**网站**：sheemprende.com 已停止运营，且不再可访问。请通过 [Free2z](https://free2z.cash/SheEmprende) | [X 平台](https://twitter.com/SheEmprende_) 联系她。
+**网站**：sheemprende.com 已停止运营，且不再可访问。请通过 [Free2Z](https://free2z.cash/SheEmprende) | [X 平台](https://twitter.com/SheEmprende_) 联系她。
 
 **Zcash Unified Address：** 
 
@@ -74,7 +74,7 @@ Rosa 自豪地微笑着，展示她接受 **Zcash。**
 
 **网站**：somosdulceros.com 已停止运营，且不再可访问。请使用下方社交媒体链接。
 
-**社交媒体：** [Instagram](https://www.instagram.com/somos_dulceros) | [X 平台](https://twitter.com/RosaMRangel) | [Free2z](https://free2z.cash/Criptodulceros/zpage/criptodulceros-01)
+**社交媒体：** [Instagram](https://www.instagram.com/somos_dulceros) | [X 平台](https://twitter.com/RosaMRangel) | [Free2Z](https://free2z.cash/Criptodulceros/zpage/criptodulceros-01)
 
 **Zcash Unified Address：** 
 
@@ -106,7 +106,7 @@ Papeles a Color 手工制作的其他精美物品。
 
 **社交媒体** 
 
-[Instagram](https://instagram.com/papelesacolor) | [Free2z](https://free2z.cash/PapelesaColor) 
+[Instagram](https://instagram.com/papelesacolor) | [Free2Z](https://free2z.cash/PapelesaColor) 
 
 [Linktree](https://linktr.ee/Papelesacolor)
 
@@ -167,7 +167,7 @@ u14g5wzyan35s5fq4glf7hsf0wteuskr3dgfs25wkr2tk5dq6sqrfpq8pqmme5yp7c3eq42tlssgv5hw
 
 GorBrit 接受多种支付方式，包括加密货币，其中之一是 **Zcash。**
 
-**Unified address** 
+**Unified Address** 
 
 ```
 u1l2lxdx2en962h3utm24fthm0r9q5cxc4705jeatq4lckm92k06htdk8jear9tsay7w8xz4najnv0mpnngalctdtqnh9dv3d4fsr3lqxk0jhgfukujzca752eqj4pyeklgymk0j72lfs85r3vnpx48jkgk5v0zk5zl7nx4mlyaxq7xm0k7wfjnt9h86d4wxvrm45w358qkd60cdckp4h
@@ -193,7 +193,7 @@ Robmar 除了是一名数字设计师，也是一位摄影师；他还会抽时�
 
 **社交媒体：**
 
-[Telegram](https://t.me/Robmarn) | [X 平台](https://twitter.com/robmarn) | [Free2z](https://free2z.cash/robmarn)
+[Telegram](https://t.me/Robmarn) | [X 平台](https://twitter.com/robmarn) | [Free2Z](https://free2z.cash/robmarn)
 
 📍 巴基西梅托 - 委内瑞拉 
 
@@ -261,7 +261,7 @@ Tecnopapapi 是值得联系的人！
 
 **社交媒体** 
 
-Free2z | [Telegram](https://t.me/Lexihel) | [YouTube](https://youtube.com/@tecnopapapi) | [X 平台](https://twitter.com/tecnopapapi) | [TikTok](https://www.tiktok.com/@lexihel) | [Instagram](https://www.instagram.com/tecnopapapi/) |  [Facebook](https://www.facebook.com/tecnopapapi) 
+Free2Z | [Telegram](https://t.me/Lexihel) | [YouTube](https://youtube.com/@tecnopapapi) | [X 平台](https://twitter.com/tecnopapapi) | [TikTok](https://www.tiktok.com/@lexihel) | [Instagram](https://www.instagram.com/tecnopapapi/) |  [Facebook](https://www.facebook.com/tecnopapapi) 
 
 Tecnopapapi 接受加密货币（包括 3ZEC）及其他支付方式。 
 

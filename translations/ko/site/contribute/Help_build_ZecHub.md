@@ -8,7 +8,7 @@
 
 뉴스레터용 링크를 큐레이션하여 뉴스레터의 GitHub 페이지에 추가해 주세요: -> [지침을 보려면 여기를 클릭하세요](https://github.com/ZecHub/zechub/blob/main/site/contribute/ZecWeekly_Newsletter.md)
 
-위키 문서를 팩트 체크하고, 수정 사항을 제안하며, Github에서 새 페이지를 제안해 주세요.
+위키 문서를 팩트 체크하고, 수정 사항을 제안하며, GitHub에서 새 페이지를 제안해 주세요.
 
 다음 카테고리의 영상 콘텐츠를 만들어 주세요:
 ```
@@ -50,9 +50,9 @@ Zcash 및 Privacy 생태계를 위한 포스터/그래픽/애니메이션 등의
 
 [ZEC Bounties](https://bounties.zechub.wiki/)
 
-[ZecHub Github 이슈](https://github.com/ZecHub/zechub/issues)
+[ZecHub GitHub 이슈](https://github.com/ZecHub/zechub/issues)
 
-[ZecHub-Wiki Github 이슈](https://github.com/ZecHub/zechub-wiki/issues)
+[ZecHub-Wiki GitHub 이슈](https://github.com/ZecHub/zechub-wiki/issues)
 
 이 외에도 기여하고 싶은 다른 방법이 있다면, Twitter에서 ZecHub ([@ZecHub](https://twitter.com/zechub))에 메시지를 보내거나 [Discord](https://discord.gg/zcash) 에 참여해 주세요.
 

@@ -2,11 +2,11 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Na-eje ozi Github Repo na IPFS 
+# Na-eje ozi GitHub Repo na IPFS 
 
 ## Okwu Mmalite
 
-N'ime ntuziaka a, anyị na-amụta otu esi emepụta git cloneable URL maka ebe nchekwa Github gị nke ejiri IPFS CID rụọ ọrụ. Nke a bara uru iji hụ na ọdịnaya dị n'agbanyeghị mpaghara mpaghara, nkwụsị nkwụsị na dịka nkwado ndabere nke ozi bara uru!
+N'ime ntuziaka a, anyị na-amụta otu esi emepụta git cloneable URL maka ebe nchekwa GitHub gị nke ejiri IPFS CID rụọ ọrụ. Nke a bara uru iji hụ na ọdịnaya dị n'agbanyeghị mpaghara mpaghara, nkwụsị nkwụsị na dịka nkwado ndabere nke ozi bara uru!
 
 Rịba ama: Data ebugote na IPFS dị maka * ndị ọrụ netwọk niile. Ị nwere ike ịchọrọ izochi data nkeonwe / ihe nzuzo.
 

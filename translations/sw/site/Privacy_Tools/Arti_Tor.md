@@ -38,7 +38,7 @@ Kabla ya unaweza kujenga Arti kutoka chanzo, unahitaji kuwa na latest imara tole
 Hii kuthibitisha kwamba una latest imara toleo la Rust imewekwa kwenye mfumo wako.
 
 #### ** Kumbuka kwa watumiaji wa Windows**:
-- Kutu inaweza kuwa imewekwa kwenye Windows kupitia [**Rustup**](https://rustup.rs/), toolchain installer. Hakikisha kwamba wewe pia kuweka mazingira ya kujenga sambamba (unaweza haja ** Visual Studio Build Tools** juu ya Windows).
+- Kutu inaweza kuwa imewekwa kwenye Windows kupitia [**rustup**](https://rustup.rs/), toolchain installer. Hakikisha kwamba wewe pia kuweka mazingira ya kujenga sambamba (unaweza haja ** Visual Studio Build Tools** juu ya Windows).
   
 ---
 

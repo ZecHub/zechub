@@ -5,7 +5,7 @@
 **Zcash Testnet** è una blockchain parallela alla vera rete principale di Zcash (Mainnet) che replica l'esatto protocollo, le regole e la logica delle transazioni, ma con due differenze fondamentali:
 
 1. **Le monete non hanno un valore monetario reale** - si chiamano **TAZ**, non ZEC, e sono utilizzate solo per i test.  
-2. **Gli aggiornamenti della rete, gli strumenti e il software vengono testati qui** prima di essere distribuiti sulla vera blockchain Zcash.  
+2. **Gli aggiornamenti della rete, gli strumenti e il software vengono testati qui** prima di essere distribuiti sulla vera blockchain di Zcash.  
 
 In altre parole, la Testnet è come una **sandbox o un ambiente sperimentale** dove sviluppatori, revisori e costruttori possono provare idee senza rischiare denaro reale.
 

@@ -52,7 +52,7 @@ Zcash разом із ZEC пропонує посилені можливості
 
 тепер ви знаєте, де витратити свої ZEC!
 
-**Вебсайт**: sheemprende.com більше не працює та не відкривається. Зв’яжіться з нею на [Free2z](https://free2z.cash/SheEmprende) | [платформі X](https://twitter.com/SheEmprende_)
+**Вебсайт**: sheemprende.com більше не працює та не відкривається. Зв’яжіться з нею на [Free2Z](https://free2z.cash/SheEmprende) | [платформі X](https://twitter.com/SheEmprende_)
 
 **Zcash Unified Address:** 
 
@@ -74,7 +74,7 @@ Rosa з гордістю усміхається, показуючи, що вон
 
 **Вебсайт**: somosdulceros.com більше не працює та не відкривається. Скористайтеся посиланнями на соціальні мережі нижче.
 
-**Соціальні мережі:** [Instagram](https://www.instagram.com/somos_dulceros) | [платформа X](https://twitter.com/RosaMRangel) | [Free2z](https://free2z.cash/Criptodulceros/zpage/criptodulceros-01)
+**Соціальні мережі:** [Instagram](https://www.instagram.com/somos_dulceros) | [платформа X](https://twitter.com/RosaMRangel) | [Free2Z](https://free2z.cash/Criptodulceros/zpage/criptodulceros-01)
 
 **Zcash Unified Address:** 
 
@@ -106,7 +106,7 @@ Elizabeth — пристрасна молода мама, яка любить р
 
 **Соціальні мережі** 
 
-[Instagram](https://instagram.com/papelesacolor) | [Free2z](https://free2z.cash/PapelesaColor) 
+[Instagram](https://instagram.com/papelesacolor) | [Free2Z](https://free2z.cash/PapelesaColor) 
 
 [Linktree](https://linktr.ee/Papelesacolor)
 
@@ -193,7 +193,7 @@ u1l2lxdx2en962h3utm24fthm0r9q5cxc4705jeatq4lckm92k06htdk8jear9tsay7w8xz4najnv0mp
 
 **Соціальні мережі:**
 
-[Telegram](https://t.me/Robmarn) | [платформа X](https://twitter.com/robmarn) | [Free2z](https://free2z.cash/robmarn)
+[Telegram](https://t.me/Robmarn) | [платформа X](https://twitter.com/robmarn) | [Free2Z](https://free2z.cash/robmarn)
 
 📍Баркісімето — Венесуела 
 
@@ -261,7 +261,7 @@ Tecnopapapi — саме та людина, з якою варто зв’яза
 
 **Соціальні мережі** 
 
-Free2z | [Telegram](https://t.me/Lexihel) | [YouTube](https://youtube.com/@tecnopapapi) | [платформа X](https://twitter.com/tecnopapapi) | [TikTok](https://www.tiktok.com/@lexihel) | [Instagram](https://www.instagram.com/tecnopapapi/) |  [Facebook](https://www.facebook.com/tecnopapapi) 
+Free2Z | [Telegram](https://t.me/Lexihel) | [YouTube](https://youtube.com/@tecnopapapi) | [платформа X](https://twitter.com/tecnopapapi) | [TikTok](https://www.tiktok.com/@lexihel) | [Instagram](https://www.instagram.com/tecnopapapi/) |  [Facebook](https://www.facebook.com/tecnopapapi) 
 
 Tecnopapapi приймає криптовалюти (включно з 3ZEC) та інші способи оплати. 
 

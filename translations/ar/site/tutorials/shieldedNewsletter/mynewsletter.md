@@ -41,7 +41,7 @@
 
 [المكالمة الأسبوعية 22 لـ Zcash Brazil](https://x.com/zcashbrazil/status/1808206303107731746)
 
-[لا تستخدم تطبيق Signal على MacOS - alberdioni8406 على Free2z](https://x.com/free2zcash/status/1809716224940781965)
+[لا تستخدم تطبيق Signal على MacOS - alberdioni8406 على Free2Z](https://x.com/free2zcash/status/1809716224940781965)
 
 [التكاليف الخفية للويب 2.0 - Zcash Media ](https://x.com/zcashmedia/status/1809580807616397557)
 

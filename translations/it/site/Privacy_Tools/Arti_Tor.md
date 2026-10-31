@@ -38,7 +38,7 @@ Prima di poter compilare Arti dal sorgente, devi avere installato l'ultima versi
 Questo confermerà che hai installato l'ultima versione stabile di Rust sul tuo sistema.
 
 #### **Nota per gli utenti Windows**:
-- Rust può essere installato su Windows tramite [**Rustup**](https://rustup.rs/), un installatore di toolchain. Assicurati di aver configurato anche un ambiente di build compatibile (su Windows potresti aver bisogno dei **Visual Studio Build Tools**).
+- Rust può essere installato su Windows tramite [**rustup**](https://rustup.rs/), un installatore di toolchain. Assicurati di aver configurato anche un ambiente di build compatibile (su Windows potresti aver bisogno dei **Visual Studio Build Tools**).
   
 ---
 

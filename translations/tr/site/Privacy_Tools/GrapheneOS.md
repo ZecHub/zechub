@@ -4,7 +4,14 @@
 
 # Graphene OS
 
-GrapheneOS, Android uygulamalarıyla uyumluluğu korurken mobil cihazlarda gizlilik ve güvenliği geliştirmeye adanmış, kâr amacı gütmeyen, açık kaynaklı bir projedir. Bu işletim sistemi, gizlilik ve güvenlik teknolojilerini ilerletmeye güçlü bir vurgu yapar; özellikle sandboxing’i güçlendirmeye, exploit azaltma önlemlerini geliştirmeye ve izin modelini iyileştirmeye odaklanır. 2014 yılında **CopperheadOS** adıyla doğmuştur. O zamandan bu yana dijital gizliliğinizin ve güvenliğinizin güçlü bir koruyucusuna dönüşmüştür.
+## Özet
+
+- **GrapheneOS**, günlük Android uygulamalarıyla tam uyumlu, gizlilik ve güvenliğe odaklanan kâr amacı gütmeyen, açık kaynaklı bir mobil işletim sistemidir
+- Temel güçlü yönleri: güçlendirilmiş uygulama sandbox’ı, bellek güvenli kod ve istismar azaltımları, donanım destekli doğrulanmış önyükleme, ayrıntılı izinler ve cihaz kilitliyken USB-C bağlantı noktası koruması
+- Kurulum, resmî **WebUSB yükleyicisi** (çoğu kullanıcı için önerilir) veya teknik kullanıcılar için **komut satırı yöntemi** aracılığıyla yapılır
+- Bir Zcash kullanıcısı için mobil kendi saklama konusunda güçlü bir temel sunar: bakımı yapılan bir shielded wallet ve standart OPSEC alışkanlıklarıyla eşleştirin
+
+GrapheneOS, Android uygulamalarıyla uyumluluğu korurken mobil cihazlarda gizliliği ve güvenliği artırmaya adanmış, kâr amacı gütmeyen, açık kaynaklı bir projedir. Bu işletim sistemi, özellikle sandboxing, istismar azaltımları ve izin modelinin iyileştirilmesine odaklanarak gizlilik ve güvenlik teknolojilerini geliştirmeye büyük önem verir. 2014 yılında **CopperheadOS** adıyla doğan proje, o zamandan beri dijital gizliliğinizin ve güvenliğinizin güçlü koruyucusuna dönüşmüştür.
 
 GrapheneOS’in temel amacı, kullanıcı deneyimini olumsuz etkilemeden uygulama sandbox’ı gibi güvenlik sınırlarını güçlendirmektir. 
 
@@ -107,3 +114,10 @@ Aşağıdaki bağlantıdan kurulum kılavuzuna göz atın ve kurulum sürecini t
 ## **Sonuç**
 
 Özünde GrapheneOS, kullanıcı gizliliğini ve güvenliğini önceliklendiren alternatif bir mobil işletim sistemi sunmayı amaçlar; böylece kullanıcılarına dijital yaşamları üzerinde daha fazla kontrol sağlarken güvendikleri uygulamalarla uyumluluk da sunar. Gizlilik ve güvenlik kaygılarının son derece önemli olduğu bir çağda, mobil cihaz güvenliği ve gizliliği için yüksek bir standart belirlemeyi hedefleyen bir projedir.
+
+## İlgili sayfalar
+
+- [Güvenli Mesajlaşma Uygulamaları](Secure_Messengers.md) — güçlendirilmiş bir cihazda özel iletişim
+- [PGP Şifreleme](PGP_Encryption.md) — şifrelenmiş e-posta ve dosya alışverişi
+- [VPN ve DVPN](VPN_and_DVPN.md) — mobilde ağ katmanı gizliliği
+- [Web Tarayıcıları](Web_Browsers.md) — mobil tarayıcı seçimi ve güçlendirilmesi

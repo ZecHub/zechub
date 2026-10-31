@@ -83,7 +83,7 @@ Firn을 사용하려면 프로토콜에 ETH를 예치하세요. Firn 잔액이 �
 
 
 
-**[Dark.fi](https://dark.fi/)**: DarkFi는 영지식, 다자간 계산, 동형 암호화를 기반으로 하는 익명 L1입니다. 익명 지분증명은 검증자를 숨겨줍니다. DarkFi는 익명 앱을 만들고 실행할 수 있는 반취약성 환경을 제공합니다 - **자산 스왑**: 예 - [백서](https://darkfi.org/whitepaper) - ![Darkfi.png](/content-images/0-auQOzkLMfYdoXlRy-b10ed91da5.webp)
+**[Dark.fi](https://dark.fi/)**: DarkFi는 영지식, 다자간 계산, 동형 암호화를 기반으로 하는 익명 L1입니다. 익명 지분증명은 검증자를 숨겨줍니다. DarkFi는 익명 앱을 만들고 실행할 수 있는 반취약성 환경을 제공합니다 - **자산 스왑**: 예 - [백서](https://darkfi.org/whitepaper) - ![DarkFi.png](/content-images/0-auQOzkLMfYdoXlRy-b10ed91da5.webp)
 ***
 
 

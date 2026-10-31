@@ -475,7 +475,7 @@ Ebia nea ɔde ma no wɔ network ho nsɛm anaasɛ bandwidth a ɛyɛ brɛoo. Mpɛn
 
 ### RPC nokwaredi a entumi nyɛ yiye
 
--> Hwɛ sɛ *ZCASHD_RPCUSER* ne *ZCASHD_RPCPASSWORD* ahyɛ no yiye
+-> Hwɛ sɛ `ZCASHD_RPCUSER` ne `ZCASHD_RPCPASSWORD` ahyɛ no yiye
 
 -> Hwɛ sɛ wode port a ɛfata redi dwuma (8232 ma mainnet, 18232 ma testnet)
 

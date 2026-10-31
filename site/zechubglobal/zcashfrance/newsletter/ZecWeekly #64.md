@@ -52,7 +52,7 @@ La pièce éducative de cette semaine nous guidera à travers le processus d'ins
 
 [La SEC ne fera pas appel de sa défaite dans l'affaire Grayscale - Coindesk](https://www.coindesk.com/policy/2023/10/13/sec-reportedly-decides-not-to-appeal-its-bitcoin-etf-court-loss-against-grayscale/)
 
-[Comment dépenser vos ZEC dans dans la vie de tous les jours - Chaîne Zechub](https://www.youtube.com/watch?v=pMNk2A3NcKw)
+[Comment dépenser vos ZEC dans dans la vie de tous les jours - Chaîne ZecHub](https://www.youtube.com/watch?v=pMNk2A3NcKw)
 
 [Le directeur technique de Tether prend la relève en tant que nouveau PDG de la société Stablecoin - Bloomberg Crypto](https://www.bloomberg.com/news/articles/2023-10-13/tether-s-cto-paolo-ardoino-appointed-as-stablecoin-firm-s-new-ceo?srnd=cryptocurrencies-v2#xj4y7vzkg)
 
@@ -100,4 +100,4 @@ La pièce éducative de cette semaine nous guidera à travers le processus d'ins
 
 ## Offres d'emploi dans l'écosystème
 
-[Tâches Zechubs Dework, à partir de lundi](https://dework.zechub.org)
+[Tâches ZecHub Dework, à partir de lundi](https://dework.zechub.org)

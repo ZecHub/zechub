@@ -9,7 +9,7 @@ Amanneɛ kwan so zcashd full node, a *Electric Coin Company (ECC)* / *Zodl* na �
 ![Diagram: zcashd splitting into zebrad for node duties and Zallet for wallet duties](/content-images/SJNBsSYTel-dfd19f34e4.webp)
 </div>
 
-Saa akwankyerɛ yi de wo nantew fa tu a ɛfiri **Zcashd** kɔ **Zebrad** ne **Zallet** mu, a nhyehyeɛ, sika kotokuo a wɔde ba, ne ɔhaw a ɛfa atutena a ɛtaa ba ho dwumadie ka ho.
+Saa akwankyerɛ yi de wo nantew fa tu a ɛfiri **zcashd** kɔ **Zebrad** ne **Zallet** mu, a nhyehyeɛ, sika kotokuo a wɔde ba, ne ɔhaw a ɛfa atutena a ɛtaa ba ho dwumadie ka ho.
 
 ---
 

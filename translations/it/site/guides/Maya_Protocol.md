@@ -31,7 +31,7 @@ In questo modo, gli utenti possono inviare un tipo di token su una blockchain e 
 
 Proof of Bond (PoB) è un meccanismo di consenso in cui gli operatori di nodo devono impegnare un bond (di solito sotto forma del token nativo della rete) per partecipare alla rete. Questo bond agisce come una forma di sicurezza economica, garantendo che i nodi agiscano onestamente e mantengano l'integrità della rete. Se un nodo cerca di agire in modo malevolo o non riesce a svolgere i propri compiti, il suo bond può essere tagliato (slashed), il che significa che una porzione di esso viene sottratta come penalità.
 
-In Maya Protocol, questo meccanismo aiuta a produrre valore economico dalle risorse messe in staking dagli operatori di nodo, aumentando l'efficienza del capitale. Allo stesso modo, in Thorchain, gli operatori di nodo vincolano (bond) RUNE (il token nativo) per mettere in sicurezza la rete e garantire la cooperazione tra i partecipanti.
+In Maya Protocol, questo meccanismo aiuta a produrre valore economico dalle risorse messe in staking dagli operatori di nodo, aumentando l'efficienza del capitale. Allo stesso modo, in THORChain, gli operatori di nodo vincolano (bond) RUNE (il token nativo) per mettere in sicurezza la rete e garantire la cooperazione tra i partecipanti.
 
 ## Differenze tra Maya e THORChain
 
@@ -65,7 +65,7 @@ Inoltre, l'obiettivo di Maya è diventare un *backend* su cui altri servizi poss
 In qualità di *backend*, Maya deve essere supportata da diverse UI e portafogli per poter essere usata. 
 Ecco un elenco con alcuni dei servizi che già supportano Maya:
 
-[Thorwallet DEX](https://www.thorwallet.org/): Ledger, XDEFI, Metamask, Keystore
+[Thorwallet DEX](https://www.thorwallet.org/): Ledger, XDEFI, MetaMask, Keystore
 
 [El Dorado](https://www.eldorado.market/): XDEFI, Keystore
 
@@ -75,6 +75,6 @@ Ecco un elenco con alcuni dei servizi che già supportano Maya:
 
 DefiSpot: non è più online, il suo dominio non viene risolto.
 
-[XDEFI](https://www.xdefi.io/): un portafoglio in autocustodia multi-ecosistema con supporto per oltre 30 blockchain native e tutte le chain EVM e Cosmos, tra cui Bitcoin, Ethereum, Solana, THORChain, Maya Protocol, TRON e altre.
+[Ctrl Wallet (XDEFI)](https://ctrl.xyz/): un portafoglio in autocustodia multi-ecosistema con supporto per oltre 30 blockchain native e tutte le chain EVM e Cosmos, tra cui Bitcoin, Ethereum, Solana, THORChain, Maya Protocol, TRON e altre.
 
 [KeepKey ](https://keepkey.com/): un portafoglio hardware per conservare in modo sicuro gli asset digitali.

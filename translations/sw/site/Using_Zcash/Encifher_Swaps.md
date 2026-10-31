@@ -9,7 +9,7 @@
 ---
 
 ###  Utangulizi 
-[**simba.biashara**](https://encrypt.trade/zec) ni programu ya Solana inayoendeshwa na JMD Labs Inc. Inakuwezesha kubadilisha **SOL au USDC** kwenye Solana hadi **Zcash (ZEC)**. Tokeni zako kwanza hufungwa katika matoleo yaliyosimbwa kwa njia fiche ili kiasi hicho kifichwe kwenye Solana, kisha hubadilishwa hadi ZEC kupitia Near Intents.
+[**simba.biashara**](https://encrypt.trade/zec) ni programu ya Solana inayoendeshwa na JMD Labs Inc. Inakuwezesha kubadilisha **SOL au USDC** kwenye Solana hadi **Zcash (ZEC)**. Tokeni zako kwanza hufungwa katika matoleo yaliyosimbwa kwa njia fiche ili kiasi hicho kifichwe kwenye Solana, kisha hubadilishwa hadi ZEC kupitia NEAR Intents.
 
 Ubadilishaji huo ni wa faragha kwa njia fulani lakini si wote. Programu yenyewe ni yake [hati](https://docs.encifher.io/docs) Sema mwingiliano wako na mnyororo si wa siri: watu wanaweza kuona kwamba pochi yako ilitumia programu, lakini si kiasi ulichohamisha. ZEC pia hufika kwenye anwani ya uwazi, kwa hivyo inaendelea kuonekana kwenye mnyororo wa Zcash hadi utakapoulinda.
 
@@ -23,7 +23,7 @@ Ubadilishaji huo ni wa faragha kwa njia fulani lakini si wote. Programu yenyewe 
 - **Usimbaji fiche.** Mizani iliyosimbwa kwa njia fiche husindikwa nje ya mnyororo ndani ya eneo la vifaa (TEE). Wasanidi programu [karatasi](https://eprint.iacr.org/2026/1504) inasema hii inategemea uadilifu wa TEE, usimamizi wa funguo za kizingiti cha uaminifu na mzizi wa uthibitisho wa wingu, si kwenye usimbaji fiche pekee.
 - **Hatua ya mnyororo mtambuka.** Kubadilishana hadi ZEC hupitia Karibu na Malengo, ambapo watatuzi huru hujaza mpangilio.
 - **Zcash.** Malengo ya Karibu yanaorodhesha ZEC kama inayoungwa mkono kwa [anwani zinazoonekana wazi pekee](https://docs.near-intents.org/resources/chain-support), na sehemu ya ZEC kwenye encrypt.trade ilikubali anwani za uwazi (t1 au t3) pekee wakati mwongozo huu ulipokaguliwa mnamo Septemba 2026. Anwani ya uwazi inaonyesha salio lake na uhamisho unaoingia hadharani hadi utakapolinda.
-- **Uchunguzi.** Programu huangalia pochi zinazounganisha dhidi ya hifadhidata kama vile TRM na Chainalysis, na [ukurasa wa kufuata sheria](https://docs.encifher.io/docs/compliance) inasema rekodi zilizosimbwa kwa njia fiche zinaweza kukaguliwa ikiwa kuna sababu halali za kisheria. Near Intents inaendesha yenyewe [uchunguzi](https://docs.near-intents.org/security-compliance/risk-and-compliance) pia.
+- **Uchunguzi.** Programu huangalia pochi zinazounganisha dhidi ya hifadhidata kama vile TRM na Chainalysis, na [ukurasa wa kufuata sheria](https://docs.encifher.io/docs/compliance) inasema rekodi zilizosimbwa kwa njia fiche zinaweza kukaguliwa ikiwa kuna sababu halali za kisheria. NEAR Intents inaendesha yenyewe [uchunguzi](https://docs.near-intents.org/security-compliance/risk-and-compliance) pia.
 
 ---
 
@@ -83,7 +83,7 @@ Rudi kwenye **encrypt.trade**, nenda kwenye **Swap**. Chagua **eSOL/eUSDC -> ZEC
 ![img9](/content-images/S1yoapgRle-6d2031a62c.webp)
 
 
-**Near Intents** hushughulikia uelekezaji wa mnyororo mtambuka na kutuma **ZEC** kwenye pochi yako ZODL. Inaweza kuchukua dakika chache. Near Intents inapendekeza kuruhusu hadi dakika 15 kwa ubadilishaji wa mnyororo mtambuka. 
+**NEAR Intents** hushughulikia uelekezaji wa mnyororo mtambuka na kutuma **ZEC** kwenye pochi yako ZODL. Inaweza kuchukua dakika chache. NEAR Intents inapendekeza kuruhusu hadi dakika 15 kwa ubadilishaji wa mnyororo mtambuka. 
 
 
 
@@ -104,4 +104,4 @@ Masharti na anwani zinazoungwa mkono zinaweza kubadilika, kwa hivyo angalia mato
 
 ---
 
-Kwa kuchanganya **Solana**, **Zcash** na **Near Intents**, **encrypt.trade** inakupa njia ya haraka kutoka SOL au USDC hadi ZEC. Inaficha kiasi kwenye Solana lakini si ya faragha kutoka mwanzo hadi mwisho, kwa hivyo linda ZEC yako mara tu inapotua.
+Kwa kuchanganya **Solana**, **Zcash** na **NEAR Intents**, **encrypt.trade** inakupa njia ya haraka kutoka SOL au USDC hadi ZEC. Inaficha kiasi kwenye Solana lakini si ya faragha kutoka mwanzo hadi mwisho, kwa hivyo linda ZEC yako mara tu inapotua.

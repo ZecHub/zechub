@@ -28,7 +28,7 @@ Description : garantit que les fonctionnalités de confidentialité de Zcash son
 **Pont Elastic Subnet Zcash sur Avalanche** : [Proposition de subvention](https://zcashgrants.org/gallery/25215916-53ea-4041-a3b2-6d00c487917d/36243580/)
 Voici les principaux livrables et ressources techniques réalisés pour le projet Zcash Avalanche RedBridge :
 
-Livrable 1.1 : PoC préliminaire prenant en charge l’interrogation des transactions Zcash de testnet depuis un sous-réseau Avalanche de testnet avec une CLI, publié sur Github et avec un sous-réseau à un nœud sur le testnet Avalanche. https://github.com/red-dev-inc/zavax-oracle
+Livrable 1.1 : PoC préliminaire prenant en charge l’interrogation des transactions Zcash de testnet depuis un sous-réseau Avalanche de testnet avec une CLI, publié sur GitHub et avec un sous-réseau à un nœud sur le testnet Avalanche. https://github.com/red-dev-inc/zavax-oracle
 
 Livrable 2.1 : [Architecture](https://github.com/red-dev-inc/zavax-bridge/tree/main/Architecture)
 
@@ -49,9 +49,9 @@ Livrable 5.1 GUI : intégration du pont dans Core ou Webapp
 
 Jalons 6 30 juin 2024
 Livrable 6.1 réussite de l’audit logiciel
-Livrable 6.2 publication du code source audité dans un dépôt Github public
+Livrable 6.2 publication du code source audité dans un dépôt GitHub public
 
-Jetez un œil au [dépôt Github](https://github.com/red-dev-inc/zavax-bridge/tree/main/Architecture)
+Jetez un œil au [dépôt GitHub](https://github.com/red-dev-inc/zavax-bridge/tree/main/Architecture)
   
 Pour plus de détails techniques, les utilisateurs sont encouragés à consulter le dépôt et la documentation du projet RedBridge afin d’[explorer](https://zcashgrants.org/gallery/25215916-53ea-4041-a3b2-6d00c487917d/36243580/) les spécificités de l’intégration, les frameworks de test et les protocoles de sécurité.
 
@@ -62,7 +62,7 @@ Pour plus de détails techniques, les utilisateurs sont encouragés à consulter
 * Livrables : 
 Au T1 2025, l’équipe a annoncé le lancement du [site de démonstration red·bridge](https://redbridge-demo.red.dev/index.html), où chacun peut essayer l’expérience utilisateur, donner son avis et suggérer des améliorations. Il sert également de moyen simple pour présenter le projet à des personnes non techniques.
 
-* L’équipe a utilisé Zebra pour la version finale de red·bridge. Pour le tester, elle a mis à niveau deux des trois nœuds de sa blockchain de test, ZavaX Oracle, qui fonctionne sur le testnet Fuji d’Avalanche. Le dernier nœud a été mis à niveau avec succès, et désormais [Zavax Oracle](https://web.archive.org/web/20260823181644/https://zavax-oracle.red.dev/) fonctionne sur Zebra !
+* L’équipe a utilisé Zebra pour la version finale de red·bridge. Pour le tester, elle a mis à niveau deux des trois nœuds de sa blockchain de test, ZavaX Oracle, qui fonctionne sur le testnet Fuji d’Avalanche. Le dernier nœud a été mis à niveau avec succès, et désormais [ZavaX Oracle](https://web.archive.org/web/20260823181644/https://zavax-oracle.red.dev/) fonctionne sur Zebra !
 
 * Au T1 2025, le site web red.bridge a été codé pour proposer quatre vues : red, Dark, Light et Zebra, contrairement à la version initiale, qui était red.
 

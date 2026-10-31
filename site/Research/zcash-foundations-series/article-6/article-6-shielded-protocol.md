@@ -153,7 +153,7 @@ This is the most complete picture in the series, but still a model. We compresse
 | Term | Plain-English meaning |
 |---|---|
 | **Spending key** | The single root secret from which all a user's keys derive |
-| **Viewing key** | Reveals your transactions to a holder without letting them spend |
+| **Viewing Key** | Reveals your transactions to a holder without letting them spend |
 | **Spend description** | The part of a tx that consumes a note (nullifier, anchor, proof) |
 | **Output description** | The part of a tx that creates a note (commitment, ciphertext, proof) |
 | **Action (Orchard)** | A unified unit doing one spend and one output together |

@@ -9,7 +9,7 @@ Der traditionelle zcashd-Vollknoten, der von *Electric Coin Company (ECC)* / *Zo
 ![Diagramm: zcashd teilt sich für Knotenaufgaben in zebrad und für Wallet-Aufgaben in Zallet auf](/content-images/SJNBsSYTel-dfd19f34e4.webp)
 </div>
 
-Dieser Leitfaden führt Sie durch die Migration von **Zcashd** zu **Zebrad** und **Zallet**, einschließlich Einrichtung, Wallet-Import und Behebung häufiger Migrationsprobleme.
+Dieser Leitfaden führt Sie durch die Migration von **zcashd** zu **Zebrad** und **Zallet**, einschließlich Einrichtung, Wallet-Import und Behebung häufiger Migrationsprobleme.
 
 ---
 

@@ -1,12 +1,12 @@
-# Como Enviar e Receber Zcash (ZEC) Blindado com a Brave Wallet: Um Guia de Privacidade Passo a Passo
+# Como enviar e receber Zcash (ZEC) blindado com a Brave Wallet: guia de privacidade passo a passo
 
-A Brave Wallet é uma carteira cripto segura e nativa, integrada diretamente no navegador Brave - sem necessidade de extensões.
-
-
-## Por Que o Suporte a ZEC Blindado É Importante
+A Brave Wallet é uma carteira cripto segura e nativa, integrada diretamente ao navegador Brave - sem necessidade de extensões.
 
 
-Zcash é uma das únicas criptomoedas que oferece privacidade por padrão com transações blindadas.
+## Por que o suporte a ZEC blindado é importante
+
+
+O Zcash é uma das únicas criptomoedas que oferecem privacidade por padrão com transações blindadas.
 
 A Brave Wallet agora oferece suporte a ZEC blindado via Orchard, permitindo transações privadas sem software de terceiros.
 
@@ -33,9 +33,9 @@ Agora, os usuários podem enviar/receber ZEC sem revelar saldos nem metadados - 
 
 1. Abra o navegador Brave (apenas no desktop por enquanto)
 
-2. Clique no ícone da Wallet ou vá para brave://wallet
+2. Clique no ícone da carteira ou vá para brave://wallet
 
-3. Configure sua carteira (criar ou importar)
+3. Configure sua carteira (crie ou importe)
 
 4. Acesse o painel de cripto
 
@@ -47,7 +47,7 @@ Agora, os usuários podem enviar/receber ZEC sem revelar saldos nem metadados - 
 
 **Passos abordados:**
 
-1. No painel da Wallet, clique em "Manage Assets"
+1. No painel da carteira, clique em "Manage Assets"
 
 2. Procure por ZEC e ative-o
 
@@ -57,7 +57,7 @@ Agora, os usuários podem enviar/receber ZEC sem revelar saldos nem metadados - 
 ![img2](/content-images/6f2b2190-cf55-4394-9d5f-29ff9b5bb525-13d37cb455.webp)
 
 
-## Parte 3: Recebendo ZEC Blindado (Unified Address)
+## Parte 3: Recebendo ZEC blindado (Unified Address)
 
 **Passos abordados:**
 
@@ -65,7 +65,7 @@ Agora, os usuários podem enviar/receber ZEC sem revelar saldos nem metadados - 
 
 2. Selecione "Receive"
 
-3. A Brave gera um Unified Address (UA) - um único endereço que suporta tanto transações blindadas quanto transparentes
+3. A Brave gera um Unified Address (UA) - um único endereço que oferece suporte a transações blindadas e transparentes
 
 4. Copie ou escaneie o código QR
 
@@ -77,7 +77,7 @@ Agora, os usuários podem enviar/receber ZEC sem revelar saldos nem metadados - 
 
 
 
-## Parte 4: Enviando ZEC Blindado com Privacidade
+## Parte 4: Enviando ZEC blindado com privacidade
 
 **Passos abordados:**
 
@@ -97,15 +97,15 @@ Agora, os usuários podem enviar/receber ZEC sem revelar saldos nem metadados - 
 
 
 
-## Tipos de Endereço
+## Tipos de endereço
 
-Aqui está uma explicação para cada tipo de endereço Zcash:
+Aqui está uma explicação para cada tipo de endereço do Zcash:
 
-**t-addr (t1...)** - Endereços transparentes funcionam como endereços de Bitcoin, o que significa que as transações são públicas na blockchain. Eles são mais fáceis de usar com carteiras que não são de Zcash, mas não oferecem privacidade.
+**t-addr (t1...)** - Endereços transparentes funcionam como endereços de Bitcoin, o que significa que as transações são públicas na blockchain. Eles são mais fáceis de usar com carteiras que não são do Zcash, mas não oferecem privacidade.
 
-**z-addr (zs...)** - Endereços blindados usam a tecnologia de privacidade do Zcash (Sprout/Sapling) para ocultar o remetente, o destinatário e o valor. Somente viewing keys ou o proprietário podem revelar os detalhes.
+**z-addr (zs...)** - Endereços blindados usam a tecnologia de privacidade do Zcash (Sprout/Sapling) para ocultar o remetente, o destinatário e o valor. Somente chaves de visualização ou o proprietário podem revelar os detalhes.
 
-**UA (u... or QR)** - Unified Addresses combinam vários tipos de endereço (transparente, blindado, Orchard) em um só. Isso permite compatibilidade máxima, ao mesmo tempo em que prioriza a privacidade sempre que possível.
+**UA (u... ou QR)** - Endereços unificados combinam vários tipos de endereço (transparente, blindado, Orchard) em um só. Isso permite compatibilidade máxima, ao mesmo tempo em que prioriza a privacidade sempre que possível.
 
 
 
@@ -123,7 +123,7 @@ Aqui está uma explicação para cada tipo de endereço Zcash:
 </div>
     
 
-## Conclusão: Privacidade Tornada Prática
+## Conclusão: privacidade tornada prática
 
 Com a Brave Wallet e ZEC blindado, a privacidade agora está acessível a todos - sem necessidade de software especial nem conhecimento avançado.
 

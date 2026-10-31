@@ -14,7 +14,7 @@ ZEC è un asset digitale ampiamente utilizzato per i pagamenti e offre solide fu
 - La scelta spetta a te per ogni pagamento. La privacy è un'opzione che Zcash ti offre, non un'impostazione che qualcun altro decide per te.
 - Il prelievo da un exchange è il caso più comune in cui le persone perdono privacy. Se l'exchange supporta solo prelievi trasparenti, proteggi tu stesso i fondi una volta ricevuti.
 - Le commissioni seguono [ZIP 317](https://zips.z.cash/zip-0317) e aumentano con le dimensioni della transazione. I portafogli che inviano ancora la vecchia commissione fissa possono vedere le proprie transazioni ritardate.
-- La maggior parte delle transazioni Zcash ha un'altezza di scadenza ai sensi di [ZIP 203](https://zips.z.cash/zip-0203). Se una transazione scade prima di essere inclusa in un blocco, non può essere confermata dopo quell'altezza di scadenza e potrebbe dover essere inviata nuovamente.
+- La maggior parte delle transazioni di Zcash ha un'altezza di scadenza ai sensi di [ZIP 203](https://zips.z.cash/zip-0203). Se una transazione scade prima di essere inclusa in un blocco, non può essere confermata dopo quell'altezza di scadenza e potrebbe dover essere inviata nuovamente.
 
 ## Transazioni schermate
 
@@ -33,7 +33,7 @@ ZEC è un asset digitale ampiamente utilizzato per i pagamenti e offre solide fu
 
 Le transazioni schermate avvengono quando sposti ZEC nel tuo portafoglio schermato. L'indirizzo del tuo portafoglio schermato inizia con `u` o `z`. Quando invii transazioni schermate, tu e le persone con cui effettui transazioni potete mantenere un livello di privacy impossibile sulle reti di pagamento pubbliche per impostazione predefinita.
 
-Inviare una transazione schermata è più semplice quando utilizzi un portafoglio che supporta l'attuale rete Zcash e le attuali pool schermate. Prima di affidarti a un portafoglio per la privacy, verifica se supporta l'invio schermato, la ricezione schermata e la pool che intendi utilizzare. Quando prelevi ZEC da un exchange, verifica se l'exchange supporta prelievi schermati o trasparenti. Se supporta solo prelievi trasparenti, sposta i fondi in un portafoglio in grado di gestire transazioni schermate dopo averli ricevuti.
+Inviare una transazione schermata è più semplice quando utilizzi un portafoglio che supporta l'attuale rete di Zcash e le attuali pool schermate. Prima di affidarti a un portafoglio per la privacy, verifica se supporta l'invio schermato, la ricezione schermata e la pool che intendi utilizzare. Quando prelevi ZEC da un exchange, verifica se l'exchange supporta prelievi schermati o trasparenti. Se supporta solo prelievi trasparenti, sposta i fondi in un portafoglio in grado di gestire transazioni schermate dopo averli ricevuti.
 
 Utilizzare transazioni schermate per inviare e ricevere fondi è il modo migliore per preservare la privacy e ridurre il rischio di divulgare dati di pagamento.
 
@@ -64,7 +64,7 @@ La parte importante è che Zcash ti permette di decidere quale inviare, pagament
 
 ## Commissioni Zcash
 
-Zcash non utilizza unità di gas in stile Ethereum. Le commissioni delle transazioni Zcash vengono pagate in ZEC, solitamente misurate in **zatoshis**. Uno ZEC equivale a 100.000.000 zatoshis.
+Zcash non utilizza unità di gas in stile Ethereum. Le commissioni delle transazioni di Zcash vengono pagate in ZEC, solitamente misurate in **zatoshis**. Uno ZEC equivale a 100.000.000 zatoshis.
 
 [ZIP 317](https://zips.z.cash/zip-0317) definisce un meccanismo di commissione convenzionale che si adatta alla complessità della transazione. Invece di utilizzare per ogni transazione la vecchia commissione fissa di 1.000 zatoshi, la commissione convenzionale si basa su "azioni logiche", come input, output e azioni schermate. Le transazioni semplici partono comunemente da circa 10.000 zatoshi, ovvero 0,0001 ZEC, mentre le transazioni più complesse possono richiedere di più.
 
@@ -72,7 +72,7 @@ Nella maggior parte dei portafogli attuali, gli utenti non dovrebbero dover calc
 
 ## Risoluzione dei problemi delle transazioni bloccate
 
-Una transazione Zcash non è definitiva solo perché appare nel tuo portafoglio. Diventa definitiva per l'uso ordinario dopo essere stata inclusa in un blocco e aver ricevuto un numero sufficiente di conferme per la tua situazione. Gli exchange e i servizi possono richiedere più conferme di quelle mostrate dal portafoglio per impostazione predefinita.
+Una transazione di Zcash non è definitiva solo perché appare nel tuo portafoglio. Diventa definitiva per l'uso ordinario dopo essere stata inclusa in un blocco e aver ricevuto un numero sufficiente di conferme per la tua situazione. Gli exchange e i servizi possono richiedere più conferme di quelle mostrate dal portafoglio per impostazione predefinita.
 
 Utilizza questo albero decisionale prima di inviare nuovamente:
 
@@ -167,7 +167,7 @@ I team di assistenza non hanno bisogno della tua frase mnemonica, chiave di spes
 
 ## Nota
 
-Tieni presente che il modo più sicuro per utilizzare ZEC è usare transazioni schermate ogniqualvolta mittente, destinatario, portafoglio e servizio le supportino tutti. Alcuni portafogli ed exchange supportano gli [indirizzi unificati](https://web.archive.org/web/20260823012524/https://electriccoin.co/blog/unified-addresses-in-zcash-explained/#:~:text=The%20unified%20address%20(UA)%20is,within%20the%20broader%20Zcash%20ecosystem.), che possono combinare più tipi di destinatario Zcash in un unico indirizzo.
+Tieni presente che il modo più sicuro per utilizzare ZEC è usare transazioni schermate ogniqualvolta mittente, destinatario, portafoglio e servizio le supportino tutti. Alcuni portafogli ed exchange supportano gli [indirizzi unificati](https://web.archive.org/web/20260823012524/https://electriccoin.co/blog/unified-addresses-in-zcash-explained/#:~:text=The%20unified%20address%20(UA)%20is,within%20the%20broader%20Zcash%20ecosystem.), che possono combinare più tipi di destinatario di Zcash in un unico indirizzo.
 
 ## Risorse
 

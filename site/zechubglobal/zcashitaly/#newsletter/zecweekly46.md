@@ -73,7 +73,7 @@ In conclusione, a seconda dello scenario d'uso specifico, sia le tecnologie Tor 
 
 [Il video dell'incontro mensile dello ZF A/V Club di aprile è ora su free2z!](https://free2z.com/ZFAVClub/zpage/podcasting-for-privacy-insights-from-zcash-foundation-audiovisual-club-april-2023)
 
-[Logo animato di Zechub!](https://twitter.com/ZFAVClub/status/1667120468904538116?s=20)
+[Logo animato di ZecHub!](https://twitter.com/ZFAVClub/status/1667120468904538116?s=20)
 
 [La squadra di calcio ZcashNigeria ha vinto!](https://twitter.com/ZcashNigeria/status/1666812431023362049?s=20)
 

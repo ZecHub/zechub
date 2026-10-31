@@ -175,4 +175,4 @@ ShapeShift kple Zcash ƒe ƒoƒo ɖekae tsi tre ɖi na afɔɖeɖe si ŋu gɔmese
 
 [ShapeShift ɖe v4.0 ɖe go, si gbugbɔ ɖo adzamenyawo kple ɖokuidzikpɔkpɔ le DeFi (Invezz) me.](https://invezz.com/news/2025/12/18/shapeshift-unveils-version-4-0-re-centering-privacy-and-self-custody-in-defi/)
 
-[ShapeShift ɖea kpekpeɖeŋu ɖe go na Zcash ƒe asitsatsa siwo wokpɔ ta na (CoinTelegraph) .](https://cointelegraph.com/news/shapeshift-rolls-out-support-for-shielded-zcash-transactions-for-true-privacy)
+[ShapeShift ɖea kpekpeɖeŋu ɖe go na Zcash ƒe asitsatsa siwo wokpɔ ta na (Cointelegraph) .](https://cointelegraph.com/news/shapeshift-rolls-out-support-for-shielded-zcash-transactions-for-true-privacy)

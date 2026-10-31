@@ -28,7 +28,7 @@ Oracle ZavaX ti a ti pin sipo: O n so eto oracle pọ lati rii daju pe data idiy
 **Afara Subnet Zcash Elastic lori Igun Ofurufu**: [Ìdámọ̀ràn fún Iṣẹ́ Àfikún](https://zcashgrants.org/gallery/25215916-53ea-4041-a3b2-6d00c487917d/36243580/)
 Àwọn ohun pàtàkì tí a ti ṣe àgbékalẹ̀ àti àwọn ohun èlò ìmọ̀-ẹ̀rọ fún iṣẹ́ àgbékalẹ̀ Zcash Avalanche RedBridge nìyí:
 
-A le fi jiṣẹ 1.1: PoC àkọ́kọ́ tí ó ṣe àtìlẹ́yìn fún ìbéèrè fún àwọn ìṣòwò Zcash láti inú testnet Avalanche subnet pẹ̀lú CLI kan, tí a tẹ̀ jáde lórí Github àti pẹ̀lú kan ṣoṣo node subnet lórí Avalanche testnet. https://github.com/red-dev-inc/zavax-oracle
+A le fi jiṣẹ 1.1: PoC àkọ́kọ́ tí ó ṣe àtìlẹ́yìn fún ìbéèrè fún àwọn ìṣòwò Zcash láti inú testnet Avalanche subnet pẹ̀lú CLI kan, tí a tẹ̀ jáde lórí GitHub àti pẹ̀lú kan ṣoṣo node subnet lórí Avalanche testnet. https://github.com/red-dev-inc/zavax-oracle
 
 Ifijiṣẹ 2.1: [Àwọn ilé](https://github.com/red-dev-inc/zavax-bridge/tree/main/Architecture)
 
@@ -49,9 +49,9 @@ GUI 5.1 ti a le fi jiṣẹ: isopọpọ afara sinu Core tabi Webapp
 
 Àkókò Àṣeyọrí 6 Okudu Kẹfà 30, 2024
 Ifijiṣẹ 6.1 Aṣeyọri iwe-ẹri ayẹwo sọfitiwia
-A le fi jiṣẹ 6.2 Atẹjade koodu orisun ti a ṣe ayẹwo si ibi ipamọ Github gbogbogbo kan
+A le fi jiṣẹ 6.2 Atẹjade koodu orisun ti a ṣe ayẹwo si ibi ipamọ GitHub gbogbogbo kan
 
-Wo ni [ibi ipamọ Github](https://github.com/red-dev-inc/zavax-bridge/tree/main/Architecture)
+Wo ni [ibi ipamọ GitHub](https://github.com/red-dev-inc/zavax-bridge/tree/main/Architecture)
   
 Fun awọn alaye imọ-ẹrọ diẹ sii, a gba awọn olumulo niyanju lati ṣe atunyẹwo ibi ipamọ ati awọn iwe aṣẹ fun iṣẹ akanṣe RedBridge lati [ṣe àwárí](https://zcashgrants.org/gallery/25215916-53ea-4041-a3b2-6d00c487917d/36243580/) awọn pato isọdọkan, awọn ilana idanwo, ati awọn ilana aabo.
 

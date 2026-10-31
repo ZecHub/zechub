@@ -26,7 +26,7 @@
 
 
 - L'utente Zcash installa/compila Zingolib, che dà accesso a zingo-cli. Può inviare/ricevere ZEC secondo necessità.
-- Zingo-cli si connette a zaino sia localmente sia tramite un canale sicuro online (all'utente Zcash non importa come funziona!)
+- zingo-cli si connette a zaino sia localmente sia tramite un canale sicuro online (all'utente di Zcash non importa come funziona!)
 - Zaino consente l'accesso sia a zebrad sia a zcashd            
 - Un zebrad completamente sincronizzato è la fonte di verità (qui niente più portafogli!)
 

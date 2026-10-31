@@ -1,6 +1,6 @@
 # Ntuziaka Mbugharị: Site na zcashd ruo Zebrad/Zallet
 
-Zcashd zuru oke, nke *Electric Coin Company (ECC) * / *Zodl* na-elekọta ya ka Zebra na Zallet dochiri. zcashd ruru njedebe nkwado ya na 18 July 2026 ma ọ naghịzi agba ọsọ.
+zcashd zuru oke, nke *Electric Coin Company (ECC) * / *Zodl* na-elekọta ya ka Zebra na Zallet dochiri. zcashd ruru njedebe nkwado ya na 18 July 2026 ma ọ naghịzi agba ọsọ.
 
 - Zebra bụ mmejuputa Rust nke oge a na usoro Zcash mepụtara site n'aka ụlọ ọrụ Zcash Foundation.
 - Zallet bụ obere akpa ego dị mfe e wuru iji jikọta ya na Zebra nodes nke Zodl mepụtara.
@@ -9,7 +9,7 @@ Zcashd zuru oke, nke *Electric Coin Company (ECC) * / *Zodl* na-elekọta ya ka 
 ![Diagram: zcashd splitting into zebrad for node duties and Zallet for wallet duties](/content-images/SJNBsSYTel-dfd19f34e4.webp)
 </div>
 
-This guide walks you through the migration from **Zcashd** to **Zebrad** and **Zallet**, including setup, wallet import, and troubleshooting common migration issues.
+This guide walks you through the migration from **zcashd** to **Zebrad** and **Zallet**, including setup, wallet import, and troubleshooting common migration issues.
 
 ---
 

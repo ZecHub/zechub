@@ -11,7 +11,7 @@ Kris Nuttycombe (@nuttycom) ha presentato questo strumento durante ZconVI.
   <iframe
     className="w-full h-full"
     src="https://www.youtube.com/embed/5gvQF5oFT8E"
-    title="zcash-devtool: il multitool di sviluppo Zcash con Kris Nuttycombe - ZconVI"
+    title="zcash-devtool: il multitool di sviluppo di Zcash con Kris Nuttycombe - ZconVI"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowFullScreen
     loading="lazy"
@@ -85,7 +85,7 @@ Qualsiasi comando che comunica con un server accetta anche `--connection tor`, c
 
 ### Ispeziona indirizzi, chiavi e transazioni
 
-`inspect` decodifica dati Zcash offline: indirizzi, chiavi e transazioni grezze. Aggiungi `--lookup` per recuperare ulteriori informazioni dalla chain, come una transazione tramite il suo ID.
+`inspect` decodifica dati di Zcash offline: indirizzi, chiavi e transazioni grezze. Aggiungi `--lookup` per recuperare ulteriori informazioni dalla chain, come una transazione tramite il suo ID.
 
 ```
 $ zcash-devtool inspect utest1h55y5z...
@@ -102,7 +102,7 @@ Le note Ironwood vengono inviate allo stesso ricevitore Orchard in un indirizzo 
 
 ### Crea transazioni in passaggi con PCZT
 
-Una PCZT (transazione Zcash parzialmente creata) suddivide la creazione di una transazione in passaggi separati: creazione, prova, firma e invio. Ogni passaggio può essere eseguito su una macchina diversa, ad esempio con un firmatario hardware come Keystone. Ogni comando `pczt` legge la PCZT da un file o da stdin e la scrive in un file (`--output`) o su stdout, quindi i passaggi possono essere concatenati:
+Una PCZT (transazione di Zcash parzialmente creata) suddivide la creazione di una transazione in passaggi separati: creazione, prova, firma e invio. Ogni passaggio può essere eseguito su una macchina diversa, ad esempio con un firmatario hardware come Keystone. Ogni comando `pczt` legge la PCZT da un file o da stdin e la scrive in un file (`--output`) o su stdout, quindi i passaggi possono essere concatenati:
 
 ```bash
 zcash-devtool pczt -w ./my-wallet create --address <recipient address> --value 100000 \

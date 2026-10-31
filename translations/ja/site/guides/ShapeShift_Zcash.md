@@ -28,7 +28,7 @@ ShapeShiftは2014年にErik Voorheesによってスイスに設立された中�
 
 - **非管理型**：ユーザーは自分のウォレットから直接取引します。ShapeShiftはあなたの資金を一切保持しません。
 - **KYC不要**：身分証明書の提出、アカウント作成、個人情報の収集は一切ありません。
-- **マルチチェーン対応**：15以上のブロックチェーン上にわたる10,000以上の資産へのアクセスが可能です。例としてビットコイン（BTC）、イーサリアム（ETH）、コスモス、Zcashなどが挙げられます。
+- **マルチチェーン対応**：15以上のブロックチェーン上にわたる10,000以上の資産へのアクセスが可能です。例としてビットコイン（BTC）、イーサリアム（ETH）、Cosmos、Zcashなどが挙げられます。
 - **DEX集約機能**：ShapeShiftはTHORChainや0xなどの分散型プロトコルを通じて取引をルーティングし、最適なレートを見つけることができます。
 - **クロスチェーン交換**：ラップトークンや中央集約型ブリッジを使用することなく、異なるブロックチェーン間で資産をネイティブに交換できます。
 - **完全オープンソース**：モバイルアプリを含むプラットフォーム全体がオープンソースであり、ブロックチェーンデータ以外の専有バックエンドは存在しません。
@@ -79,7 +79,7 @@ ShapeShiftプラットフォームでは、完全に分散型なプロセスを�
 - **KeepKey**（ハードウェアウォレット）
 - **MetaMask**
 - **XDEFI / Ctrl Wallet**
-- **Keplr**（コスモスベースの資産用）
+- **Keplr**（Cosmosベースの資産用）
 - **WalletConnect対応ウォレット**
 
 ZECを交換するためには、Zcashと互換性のあるウォレット（例：ZODL）が準備されていることを確認してください。
@@ -107,7 +107,7 @@ ShapeShiftでは複数のブロックチェーンエコシステム間でZEC交�
 - **ビットコイン**（BTC） &lt;-&gt; ZEC
 - **イーサリアム**（ETH） &lt;-&gt; ZEC
 - **アービトラム**資産 &lt;-&gt; ZEC
-- **コスモス**エコシステムトークン &lt;-&gt; ZEC
+- **Cosmos**エコシステムトークン &lt;-&gt; ZEC
 
 ---
 
@@ -125,9 +125,9 @@ ShapeShiftの成長およびコミュニティ作業ストリームリーダー�
 
 2025年12月にリリースされた**ShapeShift v4.0**では、Zcashがプラットフォームの**主要なプライバシー保護支払いおよびルーティング資産**となりました。プライバシーは今やデフォルト機能として位置づけられ、ZECはShapeShiftのウォレットとルーティングスタックに直接統合されています。
 
-### Zcashコミュニティグランツ支援
+### Zcash Community Grants支援
 
-[Zcashコミュニティグランツ](https://zcashcommunitygrants.org/)プログラムでは、**5万ドル**をShapeShiftの技術インフラおよびZcash統合に関するマーケティング活動のために割り当てました。この資金により、ShapeShiftチームは**Liquify**（90以上のブロックチェーンRPCサポートを提供するWeb3インフラプロバイダー）と提携し、リモートプロシージャー呼び出し（RPC）エンドポイントを通じて高速な実行およびネットワークの信頼性向上を実現しました。
+[Zcash Community Grants](https://zcashcommunitygrants.org/)プログラムでは、**5万ドル**をShapeShiftの技術インフラおよびZcash統合に関するマーケティング活動のために割り当てました。この資金により、ShapeShiftチームは**Liquify**（90以上のブロックチェーンRPCサポートを提供するWeb3インフラプロバイダー）と提携し、リモートプロシージャー呼び出し（RPC）エンドポイントを通じて高速な実行およびネットワークの信頼性向上を実現しました。
 
 ### 分散型金融の進展
 
@@ -151,9 +151,9 @@ ShapeShiftの成長およびコミュニティ作業ストリームリーダー�
 | **Zcashサポート** | シールド取引を含む完全なZEC取引 |
 | **KYCが必要か** | いいえ |
 | **管理** | 非管理型（ユーザー自身が鍵を保持） |
-| **クロスチェーン交換** | BTC、ETH、アービトラム、コスモスなど |
+| **クロスチェーン交換** | BTC、ETH、アービトラム、Cosmosなど |
 | **インフラ** | Liquifyによりサポート（90以上のブロックチェーンRPCサポート） |
-| **Zcashコミュニティグランツ資金** | 技術およびマーケティング支援のために5万ドル |
+| **Zcash Community Grants資金** | 技術およびマーケティング支援のために5万ドル |
 
 ShapeShiftとZcashの統合は、分散型金融におけるプライバシーにとって重要な一歩です。ShapeShiftの非管理型でマルチチェーンな取引インフラとZcashのゼロ知識証明技術を組み合わせることにより、ユーザーは本当にプライバシー保護された、許可不要な暗号通貨取引にアクセスできます。金融プライバシーおよび自己主権を重視するすべての人にとって、この統合はZECを使用するための実用的でアクセス可能な道を提供しています。
 
@@ -169,10 +169,10 @@ ShapeShiftとZcashの統合は、分散型金融におけるプライバシー�
 
 [ShapeShift DAOガバナンス（FOXトークン）](https://web.archive.org/web/20210126180411/https://shapeshift.com/fox-token)
 
-[Zcashコミュニティグランツ](https://zcashcommunitygrants.org/)
+[Zcash Community Grants](https://zcashcommunitygrants.org/)
 
 [ShapeShift、オンチェーンプライバシーを強化するためZcashを統合（crypto.news）](https://crypto.news/shapeshift-integrates-zcash-to-enable-true-onchain-privacy/)
 
 [ShapeShift、v4.0を発表し、DeFiにおけるプライバシーと自己管理を再中心に据える（Invezz）](https://invezz.com/news/2025/12/18/shapeshift-unveils-version-4-0-re-centering-privacy-and-self-custody-in-defi/)
 
-[ShapeShift、シールドされたZcash取引を展開（CoinTelegraph）](https://cointelegraph.com/news/shapeshift-rolls-out-support-for-shielded-zcash-transactions-for-true-privacy)
+[ShapeShift、シールドされたZcash取引を展開（Cointelegraph）](https://cointelegraph.com/news/shapeshift-rolls-out-support-for-shielded-zcash-transactions-for-true-privacy)

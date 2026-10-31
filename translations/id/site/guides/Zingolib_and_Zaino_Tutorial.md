@@ -11,7 +11,7 @@
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
     className="w-full h-full"
-    src="https://www.youtube.com/embed/b5dIuGstMvI""
+    src="https://www.youtube.com/embed/b5dIuGstMvI"
     title="Pengenalan tentang Zingolib + Zaino"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowFullScreen
@@ -26,7 +26,7 @@ Arsitektur Sistem [](https://github.com/zingolabs/zaino/blob/dev/docs/zaino_live
 
 
 - Zcash Pengguna Menginstal/Mengompilasi Zingolib yang memberikan akses ke zingo-cli. Mereka dapat mengirim/menerima ZEC sesuai kebutuhan.
-- Zingo-cli terhubung ke zaino baik secara lokal maupun melalui saluran aman secara online (Zcash pengguna tidak perlu mempedulikan bagaimana cara kerjanya!)
+- zingo-cli terhubung ke zaino baik secara lokal maupun melalui saluran aman secara online (Zcash pengguna tidak perlu mempedulikan bagaimana cara kerjanya!)
 - Zaino memungkinkan akses ke zebrad atau zcashd            
 - zebrad yang tersinkronisasi penuh adalah sumber kebenaran (tidak ada lagi dompet di sini!)
 

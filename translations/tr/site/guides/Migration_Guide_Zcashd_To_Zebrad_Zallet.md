@@ -9,7 +9,7 @@
 ![Diyagram: zcashd’nin düğüm görevleri için zebrad’a ve cüzdan görevleri için Zallet’e ayrılması](/content-images/SJNBsSYTel-dfd19f34e4.webp)
 </div>
 
-Bu rehber; kurulum, cüzdan içe aktarma ve yaygın geçiş sorunlarını giderme dâhil olmak üzere **Zcashd**’den **Zebrad** ve **Zallet**’e geçişte size yol gösterir.
+Bu rehber; kurulum, cüzdan içe aktarma ve yaygın geçiş sorunlarını giderme dâhil olmak üzere **zcashd**’den **Zebrad** ve **Zallet**’e geçişte size yol gösterir.
 
 ---
 

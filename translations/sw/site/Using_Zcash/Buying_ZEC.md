@@ -7,7 +7,7 @@
 
 ## TL;DR
 
-- Kununua ZEC juu ya kubadilishana ambayo inasaidia ** Shielded uondoaji ** (Gemini, BitcoinVN, Flyp.me) wakati inawezekana
+- Kununua ZEC juu ya kubadilishana ambayo inasaidia ** Shielded uondoaji ** (Gemini, BitcoinVN, flyp.me) wakati inawezekana
 - Kubadilishana kuu kuu (Coinbase, Kraken, Binance) msaada ** uondoaji wa uwazi ** tu  kulinda ZEC yako baada ya kuipokea
 - kubadilishana madaraka kuruhusu swaps yasiyo ya uhifadhi lakini kwa kawaida kujiondoa kwa anwani uwazi
 - Huwezi ** si ** haja ya kununua ZEC kamili  sehemu kazi vizuri
@@ -28,9 +28,9 @@ Gemini is a regulated cryptocurrency exchange, wallet, and custodian that makes 
 
 BitcoinVN is a non-custodial instant exchange that supports shielded (z-address) deposits and withdrawals for ZEC — one of very few exchanges globally with full z-address support. Operating since 2014, you can swap BTC, ETH, USDT, and other cryptocurrencies for ZEC directly to your shielded wallet.
 
-**[Flyp.me](https://flyp.me)**
+**[flyp.me](https://flyp.me)**
 
-Flyp.me ni hakuna kujisajili crypto kubadilishana. Ilikuwa moja ya njia salama na zaidi binafsi kubadilisha 30+ cryptocurrencies moja kwa moja kwa mkoba wako. Unaweza kununua ZEC na cryptocurrencies nyingine.
+flyp.me ni hakuna kujisajili crypto kubadilishana. Ilikuwa moja ya njia salama na zaidi binafsi kubadilisha 30+ cryptocurrencies moja kwa moja kwa mkoba wako. Unaweza kununua ZEC na cryptocurrencies nyingine.
 
 ## Kubadilishana kwamba msaada uondoaji uwazi
 

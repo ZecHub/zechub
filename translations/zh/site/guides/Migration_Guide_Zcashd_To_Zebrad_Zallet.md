@@ -9,7 +9,7 @@
 ![示意图：zcashd 拆分为负责节点职责的 zebrad 和负责钱包职责的 Zallet](/content-images/SJNBsSYTel-dfd19f34e4.webp)
 </div>
 
-本指南将带您完成从 **Zcashd** 到 **Zebrad** 和 **Zallet** 的迁移，包括设置、钱包导入及常见迁移问题的排查。
+本指南将带您完成从 **zcashd** 到 **Zebrad** 和 **Zallet** 的迁移，包括设置、钱包导入及常见迁移问题的排查。
 
 ---
 

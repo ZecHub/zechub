@@ -161,7 +161,7 @@ Configuración transparente (sin configuración confiable)- El algoritmo de prep
 
 [Groth16](https://eprint.iacr.org/2016/260): Requiere una configuración confiable, pero tiene pruebas muy cortas que pueden verificarse rápidamente.
 
-[Sonic](https://www.youtube.com/watch?v=oTRAg6Km1os)/[Marlin](https://www.youtube.com/watch?v=bJDLf8KLdL0)/[Plonk](https://eprint.iacr.org/2019/953): Configuración confiable universal.
+[Sonic](https://www.youtube.com/watch?v=oTRAg6Km1os)/[Marlin](https://www.youtube.com/watch?v=bJDLf8KLdL0)/[PLONK](https://eprint.iacr.org/2019/953): Configuración confiable universal.
 
 [DARK](https://eprint.iacr.org/2019/1229)/[Halo](https://eprint.iacr.org/archive/2019/1021/20200218:011907)/[STARK](https://www.youtube.com/watch?v=wFZ_YIetK1o): Sin configuración confiable, pero producen pruebas ligeramente más largas o pueden tardar más en ejecutarse para el demostrador.
 

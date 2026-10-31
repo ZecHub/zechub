@@ -92,13 +92,13 @@ Come creare richieste di pagamento con Zcash:
   />
 </div>
 
-Aggiungere un widget di donazione Zcash al tuo sito web:
+Aggiungere un widget di donazione in Zcash al tuo sito web:
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
     className="w-full h-full"
     src="https://www.youtube.com/embed/NbP4BcHC0uM"
-    title="Aggiungere un widget di donazione Zcash al tuo sito web"
+    title="Aggiungere un widget di donazione in Zcash al tuo sito web"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowFullScreen
     loading="lazy"
@@ -147,6 +147,6 @@ Bitcoin ha due standard più vecchi per le richieste di pagamento: BIP 21, un se
 - [Processori di pagamento](/using-zcash/payment-processors): servizi che gestiscono i pagamenti per i negozi.
 - [Portafogli](/using-zcash/wallets): usa il filtro Payment Request per trovare portafogli che leggono questi link.
 - [Zcash Asset schermati](/zcash-tech/zcash-shielded-assets): i Custom Assets a cui `req-asset` si riferisce.
-- [Cosa sono gli indirizzi TEX Zcash?](/using-zcash/transparent-exchange-addresses): un'altra regola sugli indirizzi che il tuo portafoglio legge prima di pagare.
+- [Cosa sono gli indirizzi TEX di Zcash?](/using-zcash/transparent-exchange-addresses): un'altra regola sugli indirizzi che il tuo portafoglio legge prima di pagare.
 
 **Ultimo aggiornamento:** ottobre 2026

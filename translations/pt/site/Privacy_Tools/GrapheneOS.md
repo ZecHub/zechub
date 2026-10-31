@@ -4,7 +4,14 @@
 
 # Graphene OS
 
-GrapheneOS é um projeto sem fins lucrativos e de código aberto dedicado a aprimorar a privacidade e a segurança em dispositivos móveis, mantendo a compatibilidade com aplicativos Android. Este sistema operacional dá forte ênfase ao avanço das tecnologias de privacidade e segurança, com foco especial em fortalecer o sandboxing, as mitigações contra exploits e o refinamento do modelo de permissões. Nascido em 2014 sob o nome **CopperheadOS**, desde então evoluiu para se tornar um formidável guardião da sua privacidade e segurança digital.
+## TL;DR
+
+- **GrapheneOS** é um sistema operacional móvel sem fins lucrativos e de código aberto, focado em privacidade e segurança, com total compatibilidade com aplicativos Android do dia a dia
+- Pontos fortes principais: sandbox de aplicativos reforçado, código seguro para memória e mitigações contra exploits, inicialização verificada com suporte de hardware, permissões granulares e proteção da porta USB-C quando o dispositivo está bloqueado
+- A instalação é feita por meio do **instalador oficial WebUSB** (recomendado para a maioria dos usuários) ou do **processo de linha de comando** para usuários técnicos
+- Para um usuário do Zcash, é uma base sólida para autocustódia móvel: combine-o com uma carteira blindada mantida e práticas padrão de higiene OPSEC
+
+GrapheneOS é um projeto sem fins lucrativos e de código aberto dedicado a melhorar a privacidade e a segurança em dispositivos móveis, mantendo simultaneamente a compatibilidade com aplicativos Android. Este sistema operacional dá grande ênfase ao avanço das tecnologias de privacidade e segurança, com foco especial no reforço do isolamento em sandbox, nas mitigações contra exploits e no aperfeiçoamento do modelo de permissões. Nascido em 2014 sob o nome **CopperheadOS**, evoluiu desde então para o formidável guardião da sua privacidade e segurança digitais.
 
 O principal objetivo do GrapheneOS é reforçar os limites de segurança, como o sandbox de aplicativos, sem afetar negativamente a experiência do usuário.
 
@@ -12,33 +19,33 @@ O GrapheneOS pode introduzir várias opções de alternância para recursos espe
 
 ## **Recursos do GrapheneOS**
 
-**Endurecimento de Segurança** O GrapheneOS inclui extensos aprimoramentos de segurança, como linguagens de programação seguras em memória e recursos de segurança baseados no compilador para reduzir vulnerabilidades comuns.
+**Reforço de segurança** O GrapheneOS inclui extensos aprimoramentos de segurança, como linguagens de programação seguras para memória e recursos de segurança baseados no compilador para reduzir vulnerabilidades comuns.
 
-**Sandboxing** Ele fortalece o sandboxing de aplicativos para isolar os apps uns dos outros, limitando potenciais vetores de ataque.
+**Sandboxing** Ele reforça o sandboxing de aplicativos para isolar os apps uns dos outros, limitando possíveis vetores de ataque.
 
-**Inicialização Verificada** O GrapheneOS usa chaves com suporte de hardware e um processo de inicialização verificável para garantir a integridade do sistema operacional.
+**Inicialização verificada** O GrapheneOS usa chaves com suporte de hardware e um processo de inicialização verificável para garantir a integridade do sistema operacional.
 
-**Permissões Aprimoradas** Ele oferece melhor controle sobre as permissões dos aplicativos, permitindo que os usuários ajustem com precisão e gerenciem quais dados os apps podem acessar.
+**Permissões aprimoradas** Ele oferece melhor controle sobre as permissões dos aplicativos, permitindo que os usuários ajustem com precisão e gerenciem quais dados os apps podem acessar.
 
-**Painel de Privacidade** Os usuários podem monitorar e controlar o comportamento dos aplicativos por meio de um painel de privacidade, oferecendo transparência sobre o uso de dados.
+**Painel de privacidade** Os usuários podem monitorar e controlar o comportamento dos aplicativos por meio de um painel de privacidade, oferecendo transparência sobre o uso de dados.
 
-**Atualizações de Segurança Integradas** O GrapheneOS oferece atualizações de segurança em tempo hábil, garantindo que os usuários tenham a proteção mais recente contra vulnerabilidades.
+**Atualizações de segurança integradas** O GrapheneOS oferece atualizações de segurança em tempo hábil, garantindo que os usuários tenham a proteção mais recente contra vulnerabilidades.
 
-**Criptografia Forte** Ele emprega criptografia de disco completo por padrão, protegendo os dados armazenados no dispositivo.
+**Criptografia forte** Ele emprega criptografia de disco completo por padrão, protegendo os dados armazenados no dispositivo.
 
-**Segurança Aprimorada no Navegador** O navegador padrão é configurado para segurança reforçada, incluindo proteção contra rastreamento.
+**Segurança aprimorada no navegador** O navegador padrão é configurado para segurança reforçada, incluindo proteção contra rastreamento.
 
-**Mínimo de Aplicativos Pré-instalados** O GrapheneOS vem com poucos aplicativos pré-instalados, reduzindo potenciais riscos de segurança e privacidade.
+**Poucos aplicativos pré-instalados** O GrapheneOS vem com poucos aplicativos pré-instalados, reduzindo possíveis riscos de segurança e privacidade.
 
-**Proteção Hostil de Porta USB** Ele oferece proteção contra acesso não autorizado ao dispositivo por meio de portas USB quando o dispositivo está bloqueado.
+**Proteção contra portas USB hostis** Ele oferece proteção contra acesso não autorizado ao dispositivo por meio de portas USB quando o dispositivo está bloqueado.
 
-**Proteções Antimalware** O GrapheneOS inclui recursos para detectar e prevenir malwares conhecidos.
+**Proteções antimalware** O GrapheneOS inclui recursos para detectar e prevenir malwares conhecidos.
 
-**Foco em Privacidade** O sistema operacional é projetado com forte ênfase na privacidade do usuário, minimizando a coleta e a exposição de dados.
+**Foco em privacidade** O sistema operacional é projetado com forte ênfase na privacidade do usuário, minimizando a coleta e a exposição de dados.
 
-**Código Aberto** É um projeto de código aberto, permitindo transparência e contribuições da comunidade para melhorar a segurança.
+**Código aberto** É um projeto de código aberto, permitindo transparência e contribuições da comunidade para melhorar a segurança.
 
-**Políticas de Segurança Personalizáveis** Os usuários têm a capacidade de personalizar várias políticas de segurança para atender às suas preferências.
+**Políticas de segurança personalizáveis** Os usuários têm a capacidade de personalizar várias políticas de segurança para atender às suas preferências.
 
 **Compatibilidade** O GrapheneOS busca manter compatibilidade com aplicativos Android, para que os usuários possam continuar usando seus aplicativos favoritos enquanto se beneficiam de recursos aprimorados de segurança e privacidade.
 
@@ -46,64 +53,71 @@ O GrapheneOS pode introduzir várias opções de alternância para recursos espe
 
 Como declarado na seção de melhores práticas, recomenda-se utilizar o guia oficial de instalação recomendado. Há dois métodos para instalar o GrapheneOS: usando o [instalador baseado em WebUSB](https://grapheneos.org/install/web) ou utilizando o [guia de instalação por linha de comando](https://grapheneos.org/install/cli)
 
-**Instalação Baseada em Web USB** Para instalar o GrapheneOS usando o método do instalador Web, normalmente você precisará dos seguintes materiais e recursos:
+**Instalação baseada em WebUSB** Para instalar o GrapheneOS usando o método do instalador Web, normalmente você precisará dos seguintes materiais e recursos:
 
 - 2GB de memória livre e 32GB de espaço de armazenamento livre.
 - Cabo USB (A ou C)
 - Sistema operacional compatível: Windows 10, Windows 11, macOS Big Sur (11 - 13), Arch Linux, Debian (10 - 12), Ubuntu (22.04, 22.10 e 23.04), ChromeOS, GrapheneOS, Google Android (Pixel OS padrão)
 - Navegadores compatíveis: Chromium (não compatível com Ubuntu), Vanadium (GrapheneOS), Google Chrome, Microsoft Edge, Brave Browser.
 
-Confira o Guia de instalação pelo link abaixo e siga o processo de instalação
+Confira o guia de instalação pelo link abaixo e siga o processo de instalação
 
-[Guia do Instalador Web do GrapheneOS](https://grapheneos.org/install/web#prerequisites)
+[Guia do instalador Web do GrapheneOS](https://grapheneos.org/install/web#prerequisites)
 
-**Instalação por Linha de Comando** A instalação por linha de comando não é recomendada para usuários sem perfil técnico, e as ferramentas e recursos abaixo são necessários para a Instalação por Linha de Comando;
+**Instalação por linha de comando** A instalação por linha de comando não é recomendada para usuários sem perfil técnico, e as ferramentas e recursos abaixo são necessários para a instalação por linha de comando;
 
 - Você deve ter pelo menos 2GB de memória livre disponível e 32GB de espaço de armazenamento livre
 - Cabo USB (A ou C)
 - Sistema operacional compatível Windows 10 Windows 11 macOS Big Sur (11) macOS Monterey (12) macOS Ventura (13) Arch Linux Debian 10 (buster) Debian 11 (bullseye) Debian 12 (bookworm) Ubuntu 20.04 LTS Ubuntu 22.04 LTS Ubuntu 22.10 Ubuntu 23.04
 - Instalador Web a partir de Android, ChromeOS ou GrapheneOS
 
-Confira o Guia de instalação pelo link abaixo e siga o processo de instalação
+Confira o guia de instalação pelo link abaixo e siga o processo de instalação
 
-[Instalação por Linha de Comando](https://grapheneos.org/install/cli#prerequisites)
+[Instalação por linha de comando](https://grapheneos.org/install/cli#prerequisites)
 
-## **Melhores Práticas**
+## **Melhores práticas**
 
-**Mantenha o Sistema Operacional Atualizado** Atualize regularmente o GrapheneOS para garantir que você tenha os patches e aprimoramentos de segurança mais recentes.
+**Mantenha o sistema operacional atualizado** Atualize regularmente o GrapheneOS para garantir que você tenha os patches e aprimoramentos de segurança mais recentes.
 
-**Use Senhas Fortes** Defina senhas fortes e exclusivas para a criptografia do dispositivo e logins de aplicativos para evitar acesso não autorizado.
+**Use senhas fortes** Defina senhas fortes e exclusivas para a criptografia do dispositivo e logins de aplicativos para evitar acesso não autorizado.
 
-**Permissões de Aplicativos** Revise e gerencie cuidadosamente as permissões dos aplicativos, concedendo apenas o que for necessário para cada app funcionar.
+**Permissões de aplicativos** Revise e gerencie cuidadosamente as permissões dos aplicativos, concedendo apenas o que for necessário para cada app funcionar.
 
-**Backups Regulares** Faça backups regulares dos seus dados em caso de perda do dispositivo ou corrupção de dados.
+**Backups regulares** Faça backups regulares dos seus dados em caso de perda do dispositivo ou corrupção de dados.
 
-**Criptografe o Armazenamento** Se não estiver habilitado por padrão, criptografe o armazenamento do seu dispositivo para proteger seus dados caso o dispositivo seja perdido ou roubado.
+**Criptografe o armazenamento** Se não estiver habilitado por padrão, criptografe o armazenamento do seu dispositivo para proteger seus dados caso o dispositivo seja perdido ou roubado.
 
-**Tela de Bloqueio Segura** Use uma tela de bloqueio segura, como PIN, senha ou autenticação biométrica, para evitar acesso não autorizado.
+**Tela de bloqueio segura** Use uma tela de bloqueio segura, como PIN, senha ou autenticação biométrica, para evitar acesso não autorizado.
 
-**Evite Fazer Root no Seu Dispositivo Android** Evite fazer root ou desbloquear o bootloader, pois isso pode enfraquecer a segurança do dispositivo.
+**Evite fazer root no seu dispositivo Android** Evite fazer root ou desbloquear o bootloader, pois isso pode enfraquecer a segurança do dispositivo.
 
-**Verifique as Fontes dos Aplicativos** Verifique a autenticidade dos aplicativos e de suas fontes para evitar a instalação de software malicioso.
+**Verifique as fontes dos aplicativos** Verifique a autenticidade dos aplicativos e de suas fontes para evitar a instalação de software malicioso.
 
-**Instale um Navegador com Foco em Privacidade** Considere usar um navegador com foco em privacidade, como Brave browser, Firefox ou Bromite, para uma navegação segura.
+**Instale um navegador com foco em privacidade** Considere usar um navegador com foco em privacidade, como Brave browser, Firefox ou Bromite, para uma navegação segura.
 
-**Audite os Aplicativos Regularmente** Revise periodicamente e desinstale aplicativos que você não usa mais ou nos quais não confia, para reduzir a superfície de ataque.
+**Audite os aplicativos regularmente** Revise periodicamente e desinstale aplicativos que você não usa mais ou nos quais não confia, para reduzir a superfície de ataque.
 
-**Ative a Autenticação de Dois Fatores (2FA)** Ative o 2FA para suas contas online para adicionar uma camada extra de segurança.
+**Ative a autenticação de dois fatores (2FA)** Ative o 2FA para suas contas online para adicionar uma camada extra de segurança.
 
-**Evite Wi-Fi Público** Tenha cuidado ao se conectar a redes Wi-Fi públicas, pois elas podem ser menos seguras. Use uma VPN quando necessário.
+**Evite Wi-Fi público** Tenha cuidado ao se conectar a redes Wi-Fi públicas, pois elas podem ser menos seguras. Use uma VPN quando necessário.
 
-**Tenha Cuidado com Dados de Localização** Limite o rastreamento de localização dos aplicativos e considere usar uma ferramenta de falsificação de localização se você valoriza a privacidade.
+**Tenha cuidado com dados de localização** Limite o rastreamento de localização dos aplicativos e considere usar uma ferramenta de falsificação de localização se você valoriza a privacidade.
 
-**Evite Links e Anexos Desconhecidos** Desconfie de links não solicitados e anexos de e-mail, pois podem ser tentativas de phishing ou malware.
+**Evite links e anexos desconhecidos** Desconfie de links não solicitados e anexos de e-mail, pois podem ser tentativas de phishing ou malware.
 
-**Revise as Configurações Padrão** Revise cuidadosamente e ajuste as configurações padrão para alinhá-las às suas preferências de privacidade.
+**Revise as configurações padrão** Revise cuidadosamente e ajuste as configurações padrão para alinhá-las às suas preferências de privacidade.
 
-**Suporte da Comunidade** Participe da comunidade e dos fóruns do GrapheneOS para obter dicas, atualizações e orientações de segurança. Você pode entrar em contato com a equipe e se manter atualizado clicando [aqui](https://grapheneos.org/contact) para explorar mais contatos.
+**Suporte da comunidade** Participe da comunidade e dos fóruns do GrapheneOS para obter dicas, atualizações e orientações de segurança. Você pode entrar em contato com a equipe e se manter atualizado clicando [aqui](https://grapheneos.org/contact) para explorar mais contatos.
 
-**Use o Método Oficial de Instalação** O GrapheneOS oferece dois métodos de instalação oficialmente suportados. Os usuários podem optar pelo instalador baseado em WebUSB, que é recomendado para a maioria das pessoas, ou podem seguir o guia de instalação por linha de comando, voltado para usuários com maior inclinação técnica.
+**Use o método oficial de instalação** O GrapheneOS oferece dois métodos de instalação oficialmente suportados. Os usuários podem optar pelo instalador baseado em WebUSB, que é recomendado para a maioria das pessoas, ou podem seguir o guia de instalação por linha de comando, voltado para usuários com maior inclinação técnica.
 
 ## **Conclusão**
 
 Em essência, o GrapheneOS trata de fornecer um sistema operacional móvel alternativo que prioriza a privacidade e a segurança de seus usuários, dando a eles maior controle sobre suas vidas digitais, ao mesmo tempo em que oferece compatibilidade com os aplicativos dos quais dependem. É um projeto que busca estabelecer um alto padrão de segurança e privacidade para dispositivos móveis em uma era em que essas preocupações são fundamentais.
+
+## Páginas relacionadas
+
+- [Mensageiros seguros](Secure_Messengers.md) — comunicação privada em um dispositivo reforçado
+- [Criptografia PGP](PGP_Encryption.md) — e-mail criptografado e troca de arquivos
+- [VPN e DVPN](VPN_and_DVPN.md) — privacidade na camada de rede em dispositivos móveis
+- [Navegadores web](Web_Browsers.md) — escolhendo e reforçando um navegador móvel

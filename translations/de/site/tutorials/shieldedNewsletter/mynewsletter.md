@@ -41,7 +41,7 @@ Neueste Veröffentlichung von Zebra 1.8.0, FROST ist veröffentlicht, Zooko star
 
 [Wöchentlicher Call von Zcash Brazil 22](https://x.com/zcashbrazil/status/1808206303107731746)
 
-[Verwende nicht die MacOS-Signal-App - alberdioni8406 auf Free2z](https://x.com/free2zcash/status/1809716224940781965)
+[Verwende nicht die MacOS-Signal-App - alberdioni8406 auf Free2Z](https://x.com/free2zcash/status/1809716224940781965)
 
 [Die versteckten Kosten von Web 2.0 - Zcash Media ](https://x.com/zcashmedia/status/1809580807616397557)
 

@@ -42,7 +42,7 @@ Il team più ampio è composto dai creatori e sviluppatori originali del protoco
 
 ### ZODL Wallet (in precedenza Zashi)
 
-ZODL è un portafoglio mobile in autocustodia progettato per transazioni Zcash private. Combina una profonda conoscenza a livello di protocollo con un design intuitivo, nascondendo la complessità pur mantenendo la sicurezza.
+ZODL è un portafoglio mobile in autocustodia progettato per transazioni di Zcash private. Combina una profonda conoscenza a livello di protocollo con un design intuitivo, nascondendo la complessità pur mantenendo la sicurezza.
 
 **Piattaforme:**
 - [iOS (App Store)](https://apps.apple.com/us/app/zodl-zcash-wallet/id1672392439)
@@ -69,14 +69,14 @@ ZODL è un portafoglio mobile in autocustodia progettato per transazioni Zcash p
 
 ### Prestazioni e impatto
 
-Dal suo lancio originale come Zashi nel 2024, il portafoglio ha favorito una crescita significativa nell'ecosistema Zcash:
+Dal suo lancio originale come Zashi nel 2024, il portafoglio ha favorito una crescita significativa nell'ecosistema di Zcash:
 
 - Ha fatto crescere la pool schermata Orchard da circa 1M ZEC a 4M ZEC nel corso del 2025 (un aumento di oltre il 400%)
 - Ha elaborato più di 600 milioni di dollari in swap di ZEC da ottobre 2025
 
-## Ruolo nell'ecosistema Zcash
+## Ruolo nell'ecosistema di Zcash
 
-ZODL svolge un duplice ruolo nell'ecosistema Zcash:
+ZODL svolge un duplice ruolo nell'ecosistema di Zcash:
 
 1. **Sviluppo del protocollo:** il team continua a far avanzare il software e gli strumenti core del protocollo Zcash, lavorando al fianco di altri team dell'ecosistema come la Zcash Foundation e Zingo Labs
 2. **Prodotti rivolti agli utenti:** sviluppo e manutenzione del principale portafoglio destinato ai consumatori per Zcash, focalizzato sul rendere accessibili agli utenti mainstream i pagamenti digitali privati

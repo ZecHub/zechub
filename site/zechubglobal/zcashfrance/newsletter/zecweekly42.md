@@ -8,7 +8,7 @@ Selectionné par "Hardaeborla" ([Hardaeborla](https://twitter.com/ayanlajaadebol
 
 ### Welcome to ZecWeekly
 
-Bonne semaine Zcashers ! C'est un grand privilège de contribuer à la communauté Zechub. Vous pouvez également être un contributeur sur Zechub en visitant la [page ZecHub Github](https://github.com/ZecHub/zechub).
+Bonne semaine Zcashers ! C'est un grand privilège de contribuer à la communauté ZecHub. Vous pouvez également être un contributeur sur ZecHub en visitant la [page ZecHub Github](https://github.com/ZecHub/zechub).
 
 Dans la newsletter de cette semaine, nous examinerons les mises à jour récentes concernant les derniers développements de l'ECC sur zcashd 5.6.0. Vous en apprendrez également plus via notre article d'éducation hebdomadaire.
 
@@ -21,7 +21,7 @@ Cette semaine, nous sommes présentés aux mixthets.
 
 Les mixes reçoivent des données ou des informations de plusieurs expéditeurs, mélangent les données reçues et les renvoient dans un ordre aléatoire à un autre nœud de mix, ce qui rend les transactions difficiles à tracer. 
 
-En savoir plus sur cette méthode de confidentialité de la blockchain via Zechub Zero à Zero Knowledge Tutorial Session 👇👇
+En savoir plus sur cette méthode de confidentialité de la blockchain via ZecHub Zero à Zero Knowledge Tutorial Session 👇👇
 
 [Zero to Zero Knowledge Mixnets](https://twitter.com/ZecHub/status/1657033704902909954?t=H1CWjZYjQ4LT_ZpyVo3OSA&s=19) 
 

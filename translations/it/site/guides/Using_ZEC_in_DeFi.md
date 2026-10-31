@@ -54,7 +54,7 @@ L'integrazione con Kamino apre opportunità a Zcash per entrare nell'ecosistema 
 Scopri di più: [Kamino Scopri](https://kamino.com/docs/learn/guides)
 
 
-> Accedi a credito garantito da ZEC su Solana. Il mercato Zcash su Kamino è cresciuto fino a superare $2M, offrendo ai possessori di ZEC accesso alla liquidità di USDC contro $ZEC in un mercato completamente isolato curato da @AllezLabs.
+> Accedi a credito garantito da ZEC su Solana. Il mercato di Zcash su Kamino è cresciuto fino a superare $2M, offrendo ai possessori di ZEC accesso alla liquidità di USDC contro $ZEC in un mercato completamente isolato curato da @AllezLabs.
 >
 > — [Kamino su X](https://x.com/kamino/status/2098485250816946322)
 
@@ -104,7 +104,7 @@ Scopri di più su: <br /> 1. [Meteora Scopri](https://docs.meteora.ag/get-starte
 
 Attraverso [THORChain](https://thorchain.org/) e [THORSwap](https://thorswap.finance/), gli utenti possono scambiare asset tra blockchain, incluso Zcash (ZEC). Questa integrazione offre a Zcash accesso diretto alla liquidità decentralizzata tramite la rete THORChain, consentendo agli utenti di mantenere le caratteristiche degli asset nativi senza dover utilizzare intermediari centralizzati.
 
-Con l'introduzione della pool ZEC su [THORChain](https://thorchain.org/), la rete [THORChain](https://thorchain.org/) ora supporta attività di liquidità Zcash senza permessi. I nodi [THORChain](https://thorchain.org/) possono monitorare la blockchain Zcash e fornire l'infrastruttura per il trading cross-chain tra ZEC e altri asset blockchain.
+Con l'introduzione della pool ZEC su [THORChain](https://thorchain.org/), la rete [THORChain](https://thorchain.org/) ora supporta attività di liquidità di Zcash senza permessi. I nodi [THORChain](https://thorchain.org/) possono monitorare la blockchain di Zcash e fornire l'infrastruttura per il trading cross-chain tra ZEC e altri asset blockchain.
 
 Questa integrazione offre diversi vantaggi per l'ecosistema di Zcash:
 

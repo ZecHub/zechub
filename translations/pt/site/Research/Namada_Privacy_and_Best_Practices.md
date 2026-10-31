@@ -8,88 +8,88 @@ published: 2025-08-02
 
 ![Logotipo da Namada](/content-images/nam-078c7b6883.webp)
 
-# Melhores Práticas de Privacidade da Namada
+# Melhores práticas de privacidade da Namada
 
 > Orientações práticas e acionáveis para alcançar o máximo de privacidade na Namada — e entender exatamente onde suas proteções terminam.
 
-**A privacidade é um direito fundamental.** A Namada foi criada especificamente para protegê-la por meio de criptografia avançada de conhecimento zero. Este guia reúne as práticas mais eficazes usadas por utilizadores e programadores preocupados com a privacidade.
+**A privacidade é um direito fundamental.** A Namada foi criada especificamente para protegê-la por meio de criptografia avançada de conhecimento zero. Este guia reúne as práticas mais eficazes usadas por usuários e desenvolvedores preocupados com a privacidade.
 
 ---
 
-## Como a Namada Protege a Sua Privacidade
+## Como a Namada protege sua privacidade
 
-A Namada é uma blockchain soberana, focada em privacidade, que oculta endereços de carteira, montantes de transações e saldos usando **provas de conhecimento zero (zk-SNARKs)**.
+A Namada é uma blockchain soberana, focada em privacidade, que oculta endereços de carteira, valores de transações e saldos usando **provas de conhecimento zero (zk-SNARKs)**.
 
-### Funcionalidades Principais de Privacidade
+### Recursos principais de privacidade
 
-- **Transações Blindadas** - Ocultam completamente remetente, destinatário e montantes.
-- **Multi-Asset Shielded Pool (MASP)** - Transferências privadas, swaps e bridging entre quaisquer ativos.
-- **Privacidade Entre Cadeias** - Bridging blindado via IBC (suporte para Ethereum e Solana em breve).
-- **Recompensas de Rendimento Blindadas** - Ganhe tokens NAM simplesmente ao blindar transações.
-- **Taxas Baixas** - Privacidade forte sem sacrificar a usabilidade.
+- **Transações blindadas** - Ocultam completamente remetente, destinatário e valores.
+- **Multi-Asset Shielded Pool (MASP)** - Transferências privadas, conversões e uso de pontes entre quaisquer ativos.
+- **Privacidade cross-chain** - Uso de pontes blindadas via IBC (suporte para Ethereum e Solana em breve).
+- **Recompensas de rendimento blindadas** - Ganhe tokens NAM simplesmente ao blindar transações.
+- **Taxas baixas** - Privacidade forte sem sacrificar a usabilidade.
 
 ---
 
-## Limitações Importantes
+## Limitações importantes
 
-Mesmo a privacidade on-chain mais forte pode ser comprometida pelo comportamento do utilizador ou por fatores off-chain.
+Mesmo a privacidade on-chain mais forte pode ser comprometida pelo comportamento do usuário ou por fatores off-chain.
 
 <div class="border-l-4 border-yellow-400 bg-yellow-400/10 p-6 my-8 rounded-r-xl text-sm">
 
 **A Namada NÃO protege contra:**
 
-- Conectar-se sem uma VPN ou Tor (o seu endereço IP fica exposto)
+- Conectar-se sem uma VPN ou Tor (seu endereço IP fica exposto)
 - Reutilizar endereços blindados repetidamente
 - Realizar transações transparentes (não blindadas)
-- Associar o seu endereço Namada às redes sociais ou à sua identidade no mundo real
-- Usar exchanges centralizadas com KYC para depósitos ou levantamentos
+- Associar seu endereço da Namada às redes sociais ou à sua identidade no mundo real
+- Usar corretoras centralizadas com KYC para depósitos ou saques
 
 </div>
 
 ---
 
-## Melhores Práticas para Máxima Privacidade
+## Melhores práticas para máxima privacidade
 
-### 1. Princípios Gerais
+### 1. Princípios gerais
 - Use por padrão **transações blindadas** em todas as ações.
 - Nunca reutilize endereços blindados para finalidades diferentes.
 - Evite misturar atividade blindada e transparente na mesma sessão.
 
-### 2. Bridging de Ativos
-- Use um endereço transparente dedicado **apenas** para bridges de entrada.
-- Proteja imediatamente os ativos após fazer o bridging para dentro.
-- Minimize o bridging para fora da Namada sempre que possível.
+### 2. Uso de pontes para ativos
+- Use um endereço transparente dedicado **apenas** para pontes de entrada.
+- Blinde imediatamente os ativos após transferi-los para dentro por uma ponte.
+- Minimize o uso de pontes para retirar ativos da Namada sempre que possível.
 
 ### 3. MASP (Multi-Asset Shielded Pool)
 - Mantenha todos os ativos dentro da MASP por padrão.
-- Trate o seu saldo na MASP como a sua carteira privada principal.
+- Trate seu saldo na MASP como sua carteira privada principal.
 
-### 4. View Keys
-- Partilhe viewing keys **apenas** com partes em quem confia plenamente.
-- Nunca publique nem divulgue viewing keys publicamente.
+### 4. Chaves de visualização
+- Compartilhe chaves de visualização **apenas** com pessoas em quem você confia plenamente.
+- Nunca publique nem divulgue chaves de visualização publicamente.
 
-### 5. Higiene de Transações
-- Randomize o timing e os montantes entre transações.
+### 5. Higiene de transações
+- Varie o timing e os valores entre transações.
 - Agrupe várias transações quando possível.
-- Evite enviar montantes redondos ou altamente identificáveis.
+- Evite enviar valores redondos ou altamente identificáveis.
 
-### 6. Segurança Operacional
+### 6. Segurança operacional
 - Use sempre uma **VPN** (idealmente Tor) ao interagir com carteiras ou dApps.
-- Nunca partilhe capturas de ecrã que contenham endereços ou saldos.
+- Nunca compartilhe capturas de tela que contenham endereços ou saldos.
 - Use carteiras separadas para diferentes atividades (trading, doações, uso pessoal).
 
 ---
 
-## Checklist de Privacidade Estendida
+## Checklist estendido de privacidade
 
-1. **Proteja sempre primeiro** - mova os ativos para a MASP antes de transacionar.
-2. **Rode endereços blindados** regularmente para diferentes casos de uso.
-3. **Levante diretamente para endereços blindados** a partir de exchanges quando possível.
+1. **Blinde sempre primeiro** - mova os ativos para a MASP antes de realizar transações.
+2. **Alterne endereços blindados** regularmente para diferentes casos de uso.
+3. **Retire diretamente para endereços blindados** de corretoras quando possível.
 4. **Varie o timing das transações** para quebrar padrões identificáveis.
-5. **Use hardware wallets** para saldos maiores.
+5. **Use carteiras de hardware** para saldos maiores.
 6. **Mantenha o software atualizado** - execute sempre o cliente Namada mais recente.
-7. **Proteja o seu dispositivo** com encriptação forte e gestores de palavras-passe.
-8. **Seja extremamente cauteloso** com fugas de metadados em conversas ou registos públicos.
+7. **Proteja seu dispositivo** com criptografia forte e gerenciadores de senhas.
+8. **Seja extremamente cauteloso** com vazamentos de metadados em conversas ou registros públicos.
 
 ---
 

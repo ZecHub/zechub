@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Editar Página"/>
 </a>
 
-A seguir está uma coleção da maior parte da mídia relacionada ao Zcon Vozes em um local fácil de encontrar.
+A seguir está uma coleção de grande parte da mídia relacionada ao Zcon Vozes em um local fácil de encontrar.
 
 # Zcon Vozes
 Zcon Vozes é uma conferência anual organizada pela [Zcash Brazil](https://zcashbr.com/) | [zcashbrasil.com.br](https://zcashbrasil.com.br/).
@@ -10,7 +10,7 @@ Zcon Vozes é uma conferência anual organizada pela [Zcash Brazil](https://zcas
 ## Zcon  Vozes Brasil
 
 O primeiro evento de Zcash fora dos Estados Unidos, patrocinado pela Zcash Foundation, aconteceu em 18 de março de 2023.
-Foi realizado no icônico Museu do Amanhã, marcando o continente como lar da segunda maior comunidade Zcash do mundo. 💛
+Foi realizado no icônico Museu do Amanhã, marcando o continente como lar da segunda maior comunidade do Zcash do mundo. 💛
 
 [Playlist do Zcon Vozes 1](https://www.youtube.com/playlist?list=PLez2pAhViAI2KiXyPtcXIfmC5FQ-ozrPf)
 

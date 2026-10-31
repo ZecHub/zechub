@@ -16,7 +16,7 @@
 
 ## Ƒo FROST bins nu ƒu
 
-[Github ƒe kadodo](https://github.com/ZcashFoundation/frost-zcash-demo)
+[GitHub ƒe kadodo](https://github.com/ZcashFoundation/frost-zcash-demo)
 
 Zã repo si le etame eye nàwɔ ɖe mɔfiame siwo ku ɖe nuƒoƒoƒu ŋu dzi: 
 

@@ -182,5 +182,5 @@ Free2z Live сам по себе является отличным инстру�
 [Free2z для сторонников](https://web.archive.org/web/20260118172223/https://free2z.cash/docs/category/for-supporters/)
 
 ---
-_Написано Джеймсом Кацем для Zechub._
+_Написано Джеймсом Кацем для ZecHub._
 

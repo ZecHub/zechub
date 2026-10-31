@@ -1,6 +1,6 @@
 # Domande frequenti
 
-Un elenco delle domande più comuni su Zcash. Per risolvere i problemi del client Zcash, consulta la [guida ufficiale alla risoluzione dei problemi](https://zcash.readthedocs.io/en/latest/rtd_pages/troubleshooting_guide.html).
+Un elenco delle domande più comuni su Zcash. Per risolvere i problemi del client di Zcash, consulta la [guida ufficiale alla risoluzione dei problemi](https://zcash.readthedocs.io/en/latest/rtd_pages/troubleshooting_guide.html).
 
 ### Navigazione rapida
 

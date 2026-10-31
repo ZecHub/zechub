@@ -175,4 +175,4 @@ ShapeShift na Zcash ushirikiano inawakilisha hatua ya maana mbele kwa faragha ka
 
 [ShapeShift inafunua v4.0, ikizingatia upya faragha na kujilinda katika DeFi (Invezz)](https://invezz.com/news/2025/12/18/shapeshift-unveils-version-4-0-re-centering-privacy-and-self-custody-in-defi/)
 
-[ShapeShift inazindua msaada kwa ajili ya shughuli za Zcash walinzi (CoinTelegraph)](https://cointelegraph.com/news/shapeshift-rolls-out-support-for-shielded-zcash-transactions-for-true-privacy)
+[ShapeShift inazindua msaada kwa ajili ya shughuli za Zcash walinzi (Cointelegraph)](https://cointelegraph.com/news/shapeshift-rolls-out-support-for-shielded-zcash-transactions-for-true-privacy)

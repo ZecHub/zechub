@@ -2,9 +2,9 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Editar Página"/>
 </a>
 
-# <img src="/content-images/image-2024-02-03-174147713-63a42e536c.webp" alt="Texto Alternativo" width="400"/> Links da Comunidade Zcash
+# <img src="/content-images/image-2024-02-03-174147713-63a42e536c.webp" alt="Texto Alternativo" width="400"/> Links da comunidade Zcash
 
-A comunidade Zcash é um grupo vibrante de pessoas que trabalham para tornar ZEC uma das criptomoedas com preservação de privacidade mais amplamente utilizadas no mundo. A comunidade é composta por indivíduos diversos de todo o planeta — desenvolvedores, educadores, defensores e construtores — unidos por uma crença compartilhada na privacidade financeira.
+A comunidade Zcash é um grupo vibrante de pessoas que trabalham para tornar ZEC uma das criptomoedas que preservam a privacidade mais usadas no mundo. A comunidade é composta por indivíduos diversos de todo o planeta — desenvolvedores, educadores, defensores e construtores — unidos por uma crença compartilhada na privacidade financeira.
 
 ----
 
@@ -12,16 +12,16 @@ A comunidade Zcash é um grupo vibrante de pessoas que trabalham para tornar ZEC
 
 ### <img src="/content-images/image-2024-02-03-173937048-148e401d5e.webp" alt="Texto Alternativo" width="50"/> <span translate="no" class="notranslate">Telegram</span>
 
-A comunidade Zcash é muito ativa em seu <span translate="no" class="notranslate">Telegram</span> comunitário. Entre para conversar sobre o dia a dia, discutir notícias e atualizações, e conhecer outros membros da comunidade: [t.me/Zcash_Community](https://t.me/Zcash_Community)
+A comunidade Zcash é muito ativa em seu <span translate="no" class="notranslate">Telegram</span> comunitário. Entre para conversar sobre o dia a dia, discutir notícias e atualizações e conhecer outros membros da comunidade: [t.me/Zcash_Community](https://t.me/Zcash_Community)
 
 ### <img src="/content-images/image-2024-02-03-174056252-8a6a76eabf.webp" alt="Texto Alternativo" width="50"/> <span translate="no" class="notranslate">Discord</span>
 
 - [Zcash Global](https://discord.gg/zcash) - Servidor principal da comunidade
-- [Zcash R&D](https://discord.gg/xpzPR53xtU) - Discussões sobre protocolo e desenvolvimento
+- [Zcash R&D](https://discord.gg/xpzPR53xtU) - Discussões sobre o protocolo e para desenvolvedores
 - [Zcash Foundation](https://discord.gg/na6QZNd) - Atualizações da fundação e governança
 - [ZecHub DAO](https://discord.gg/zcash) - Colaboradores da DAO da comunidade
 
-### <span translate="no" class="notranslate">Mastodon / Redes Sociais Descentralizadas</span>
+### <span translate="no" class="notranslate">Mastodon / Redes sociais descentralizadas</span>
 
 - [ZecHub.Social](https://zechub.social/public/local) - Instância Mastodon para a comunidade Zcash
 - [Bluesky @zcashesp.bsky.social](https://bsky.app/profile/zcashesp.bsky.social) - Zcash en Espanol no Bluesky (mudou-se do X após a suspensão da conta)
@@ -30,17 +30,17 @@ A comunidade Zcash é muito ativa em seu <span translate="no" class="notranslate
 
 - [ZecHub Matrix](https://matrix.to/#/#zechub:matrix.org)
 
-### Fórum da Comunidade Zcash
+### Fórum da comunidade Zcash
 
-O [Fórum da Comunidade Zcash](https://forum.zcashcommunity.com/) é o centro para discussões longas sobre Zcash — governança, propostas de grants, debate técnico e anúncios do ecossistema. Agora, a administração foi transferida para a Zcash Foundation após a transição da ECC para ZODL.
+O [Fórum da comunidade Zcash](https://forum.zcashcommunity.com/) é o centro para discussões aprofundadas sobre o Zcash — governança, propostas de subsídios, debate técnico e anúncios do ecossistema. Agora, a administração foi transferida para a Zcash Foundation após a transição da ECC para ZODL.
 
 ### <img src="/content-images/image-2024-02-03-174240928-7a8f751301.webp" alt="Texto Alternativo" width="50"/> <span translate="no" class="notranslate">X / Twitter</span>
 
-Zcash tem uma presença global ativa no X. Principais contas para acompanhar:
+O Zcash tem uma presença global ativa no X. Principais contas para acompanhar:
 
 | Conta | Descrição |
 |---------|-------------|
-| [@Zcash](https://x.com/zcash) | Conta oficial da Zcash |
+| [@Zcash](https://x.com/zcash) | Conta oficial do Zcash |
 | [@ZecHub](https://x.com/zechub) | ZecHub DAO - educação comunitária e recompensas |
 | [@zodl_app](https://x.com/zodl_app) | Carteira ZODL (anteriormente Zashi) |
 | [@ZcashFoundation](https://x.com/zcashfoundation) | Atualizações da Zcash Foundation |
@@ -56,7 +56,7 @@ Zcash tem uma presença global ativa no X. Principais contas para acompanhar:
 
 ----
 
-## Centros Regionais da Comunidade
+## Centros regionais da comunidade
 
 - [Zcash en Espanol](https://zcashesp.com) - Comunidade de língua espanhola (também no Bluesky após a suspensão no X)
 - [Zcash Brazil](https://x.com/zcashbrazil) - Comunidade brasileira
@@ -73,8 +73,8 @@ Zcash tem uma presença global ativa no X. Principais contas para acompanhar:
 
 ## Recursos
 
-- [Zcash Site da Comunidade](https://www.zcashcommunity.com/)
+- [Site da comunidade Zcash](https://www.zcashcommunity.com/)
 - [ZecHub Wiki](https://zechub.wiki)
-- [Zcash Hub de Grants](https://forum.zcashcommunity.com/t/introducing-zcash-grants-hub-browse-zcg-coinholder-grants-apply-via-betther-ui-and-explore-zechub-dao-proposals/55267)
-- [Zcash Embaixadores Globais](https://zechub.wiki/zcash-community/zcash-global-ambassadors) - visão geral do programa nesta wiki (zcashambassadors.com está offline)
+- [Hub de subsídios do Zcash](https://forum.zcashcommunity.com/t/introducing-zcash-grants-hub-browse-zcg-coinholder-grants-apply-via-betther-ui-and-explore-zechub-dao-proposals/55267)
+- [Embaixadores globais do Zcash](https://zechub.wiki/zcash-community/zcash-global-ambassadors) - visão geral do programa nesta wiki (zcashambassadors.com está offline)
 - [ZEC Bounties](https://bounties.zechub.wiki/)

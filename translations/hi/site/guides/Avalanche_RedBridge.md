@@ -14,7 +14,7 @@ Support for DeFi and DApps: Zcash धारक अब privacy से समझ�
 ### Technical Components
 
 **Decentralized ZavaX Oracle**
-विवरण: ZavaX oracle bridge के लिए अत्यंत महत्वपूर्ण है, जो crosschain price feeds प्रदान करता है और trustless ZEC से AVAX conversions को सक्षम बनाता है।
+विवरण: ZavaX Oracle bridge के लिए अत्यंत महत्वपूर्ण है, जो crosschain price feeds प्रदान करता है और trustless ZEC से AVAX conversions को सक्षम बनाता है।
 [Oracle का लिंक](https://zavax-oracle.red.dev)
 
 **Cross Chain Bridge Contract**
@@ -28,7 +28,7 @@ Support for DeFi and DApps: Zcash धारक अब privacy से समझ�
 **Avalanche पर Zcash Elastic Subnet Bridge**: [Grant Proposal](https://zcashgrants.org/gallery/25215916-53ea-4041-a3b2-6d00c487917d/36243580/)
 नीचे Zcash Avalanche RedBridge project के लिए पूर्ण किए गए प्रमुख deliverables और technical resources दिए गए हैं:
 
-Deliverable 1.1: प्रारंभिक PoC जो testnet Avalanche subnet से एक CLI के माध्यम से testnet Zcash transactions को query करने का समर्थन करता है, Github पर प्रकाशित, और Avalanche testnet पर one node subnet के साथ। https://github.com/red-dev-inc/zavax-oracle
+Deliverable 1.1: प्रारंभिक PoC जो testnet Avalanche subnet से एक CLI के माध्यम से testnet Zcash transactions को query करने का समर्थन करता है, GitHub पर प्रकाशित, और Avalanche testnet पर one node subnet के साथ। https://github.com/red-dev-inc/zavax-oracle
 
 Deliverable 2.1: [Architecture](https://github.com/red-dev-inc/zavax-bridge/tree/main/Architecture)
 
@@ -49,9 +49,9 @@ Deliverable 5.1 GUI: Core या Webapp में bridge integration
 
 Milestone 6 June 30, 2024
 Deliverable 6.1 software audit का सफलतापूर्वक पास होना
-Deliverable 6.2 audited source code को एक public Github repo में प्रकाशित करना
+Deliverable 6.2 audited source code को एक public GitHub repo में प्रकाशित करना
 
-[Github repo](https://github.com/red-dev-inc/zavax-bridge/tree/main/Architecture) पर एक नज़र डालें
+[GitHub repo](https://github.com/red-dev-inc/zavax-bridge/tree/main/Architecture) पर एक नज़र डालें
   
 अधिक technical details के लिए, उपयोगकर्ताओं को RedBridge project के repository और documentation की समीक्षा करने के लिए प्रोत्साहित किया जाता है ताकि वे integration specifics, testing frameworks, और security protocols को [explore](https://zcashgrants.org/gallery/25215916-53ea-4041-a3b2-6d00c487917d/36243580/) कर सकें।
 
@@ -62,7 +62,7 @@ Deliverable 6.2 audited source code को एक public Github repo में �
 * Deliverables: 
 Q1 2025 में, टीम ने [red·bridge demo website](https://redbridge-demo.red.dev/index.html) के लॉन्च की घोषणा की, जहाँ कोई भी user experience को आज़मा सकता है, feedback दे सकता है, और सुधार सुझा सकता है। यह गैर-तकनीकी लोगों को project से परिचित कराने का एक आसान तरीका भी है।
 
-* टीम ने red·bridge के अंतिम संस्करण के लिए Zebra का उपयोग किया। इसका परीक्षण करने के लिए, उन्होंने अपने परीक्षण blockchain, ZavaX Oracle, के तीन में से दो नोड को upgrade किया, जो Avalanche के Fuji testnet पर चलता है। अंतिम नोड भी सफलतापूर्वक upgrade किया गया, और अब [Zavax Oracle](https://web.archive.org/web/20260823181644/https://zavax-oracle.red.dev/) अब Zebra पर चल रहा है!
+* टीम ने red·bridge के अंतिम संस्करण के लिए Zebra का उपयोग किया। इसका परीक्षण करने के लिए, उन्होंने अपने परीक्षण blockchain, ZavaX Oracle, के तीन में से दो नोड को upgrade किया, जो Avalanche के Fuji testnet पर चलता है। अंतिम नोड भी सफलतापूर्वक upgrade किया गया, और अब [ZavaX Oracle](https://web.archive.org/web/20260823181644/https://zavax-oracle.red.dev/) अब Zebra पर चल रहा है!
 
 * 2025 की Q1 में, red.bridge website को इस तरह code किया गया कि वह प्रारंभिक version, जो केवल red था, की तुलना में red, Dark, Light, और Zebra — ये चार views प्रदान करे।
 

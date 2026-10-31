@@ -10,7 +10,7 @@ Rilasciato nel 2019, questo protocollo si basa su Zerocoin. È usato nella valut
 
 ---
 
-## Fondamenta dei protocolli Zcash vs Firo
+## Fondamenta dei protocolli di Zcash vs Firo
 
 - **Zcash** - Si basa sul protocollo **Zerocash**  
 - **Firo (Zcoin)** - Si basa sul protocollo **Zerocoin**

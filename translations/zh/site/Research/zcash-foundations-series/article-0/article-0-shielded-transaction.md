@@ -221,7 +221,7 @@ Zcash 的诞生，是为了回答一个看似简单、实则极难的问题：
 | **Nullifier** | 当一个 note 被使用时公开的唯一“已花费”标记，用于防止双花 |
 | **Zero-knowledge proof** | 一种证明：某个陈述为真，但除了“它是真的”之外不泄露任何信息 |
 | **Shielding / deshielding** | 将资金移入 / 移出私密的 Shielded 世界 |
-| **Viewing key** | 让拥有者能够发现并读取发给自己的 notes 的密钥 |
+| **Viewing Key** | 让拥有者能够发现并读取发给自己的 notes 的密钥 |
 
 ---
 

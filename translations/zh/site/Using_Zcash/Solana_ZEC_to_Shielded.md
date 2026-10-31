@@ -10,6 +10,20 @@
 
 ---
 
+## 简而言之
+
+- 你 Solana 钱包中的 ZEC 是一种 **Solana 代币**（铸造地址为 `A7bd…QXaS`），由 NEAR OmniBridge 在 Zcash 链上持有的真实 ZEC 以 1:1 比例支持——存在于 Solana 公共账本上、且无法在那里被屏蔽的“纸面 ZEC”。
+- 路径分两步：先在 solswap.org（NEAR Intents）**存入**该代币，然后在 near.com 上**提现**至你钱包的屏蔽 `u1` 地址。不要使用 Phantom 自带的 Swap 按钮——它帮不了你。
+- 使用 [ZecHub 目录](/wallets) 标记为 **Ironwood：就绪** 的钱包，并在 Phantom 中保留少量 SOL 以支付 Solana 费用。
+- 我们的实际测试（2026 年 9 月 27 日，0.00266336 ZEC）：存入在 9 秒内到账，提现耗时约 8 分钟，总成本约为 0.00025 ZEC + 0.0016 SOL。
+- 安全提示：仅在 `near.com`/`solswap.org` 上签署消息中含有 `intents.near` 的请求，绝不要输入你的助记词，并且应粘贴 `u1`，绝不要粘贴 `t1`。
+
+## 视觉类比
+
+ZEC 在 Solana 上的运作方式就像一枚**赌场筹码**。它的定价如同现金，而赌场——NEAR OmniBridge——承诺向任何归还筹码的人兑现真正的纸钞（原生 ZEC）。但这枚筹码只是赌场账本中的一行记录：所有人都能看到谁持有它，其价值取决于赌场系统是否保持稳健。通过 near.com 提现，就像走到兑换柜台将筹码兑现。一旦纸钞进入 shielded pool，它们就进入了你自己的不透明钱包——再也没有人能看到金额或持有人。
+
+---
+
 ## 你实际持有的是什么
 
 你 Solana 钱包中的 ZEC 是 Solana 上的代币，并非 Zcash 网络上的币。NEAR OmniBridge 发行该代币，并在 Zcash 链上持有真实的 ZEC 作为支撑；该桥自 2025 年 10 月起已在 Solana 上运行。其 Solana 端依赖 Wormhole 消息和 NEAR Chain Signatures，而非 Zcash 轻客户端，因此 Solana 端的可靠性仅取决于这两个系统。人们称它为“纸面 ZEC”。它跟踪 ZEC 的价格，但每笔余额和转账都位于 Solana 公共账本中、归属你的钱包地址；只要它留在那里，就无法被屏蔽。
@@ -181,9 +195,28 @@ NEAR 的桥公布标准 Zcash 提取的最低额度为 0.01 ZEC、费用为 0.00
 
 ---
 
+## 常见错误
+
+- **使用 Phantom 的 Swap 按钮**，而不是充值流程。你已经持有该代币——兑换只是把一种纸面 ZEC 换成另一种代币，离原生 ZEC 并没有更近。
+- **粘贴 `t1` 地址**，或粘贴隐藏了透明接收方的 `u1`，而你的钱包提供的是仅屏蔽的 `u1`。充值会公开到账，并永久关联到你的钱包。
+- 当 solswap 的 Withdraw 页面显示“–”时，**以为资金被卡住了**。余额取决于你的 Phantom 密钥，而不是网站——请在 near.com 完成提现。
+- **未检查就签署消息。** 仿冒网站只需一次签名就能清空你的 NEAR Intents 余额。网站必须是 `near.com`，且消息必须包含 `"verifying_contract": "intents.near"`。
+- **混淆两个“ZEC”代币代码。** Solana 代币与原生 Zcash ZEC 同名但不在同一网络——将任一发送到另一条链都会丢失。
+
 ## 可以如何使用屏蔽的 ZEC
 
 - 私密地使用它：[私密使用 ZEC](/guides/using-zec-privately)
 - 查找接受它的地点：[可消费 ZEC 的地点](/using-zcash/spend-zcash/top-10-places-to-spend-zec)
 - 发送时附带一条私密消息：[备注](/using-zcash/memos)
 - 在不关联身份的情况下付款给他人：[在不关联身份的情况下转账](/zcash-use-cases/send-money-without-linking-identity)
+
+---
+
+## 相关页面
+
+- [如何在 Phantom Wallet 中兑换 ZEC](/using-zcash/solswap) — 更详细了解 solswap 页面
+- [屏蔽资金池](/using-zcash/shielded-pools) — Ironwood/Orchard 资金池是什么，以及接收方如何运作
+- [谁能看到你的 Zcash 付款？](/start-here/who-can-see-your-zcash-payment) — 屏蔽实际隐藏了什么
+- [钱包](/wallets) — 钱包目录；查看 **Ironwood：就绪** 标签
+- [托管型交易所](/using-zcash/custodial-exchanges) — 此路径所避免的取舍
+- [恢复资金](/using-zcash/recovering-funds) — 应妥善保管什么，才能永远不失去访问权限

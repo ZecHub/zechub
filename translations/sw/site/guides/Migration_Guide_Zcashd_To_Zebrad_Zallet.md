@@ -1,6 +1,6 @@
 # Mwongozo wa Uhamiaji: Kutoka zcashd kwa Zebrad/Zallet
 
-Zcashd ya jadi full node, kudumishwa na *Electric Coin Company (ECC) * / *Zodl*, imebadilishwa kwa Zebra na Zallet. zcashd ilifikia mwisho wa msaada wake kusimamisha tarehe 18 Julai 2026 na haitaendelea tena kuendesha.
+zcashd ya jadi full node, kudumishwa na *Electric Coin Company (ECC) * / *Zodl*, imebadilishwa kwa Zebra na Zallet. zcashd ilifikia mwisho wa msaada wake kusimamisha tarehe 18 Julai 2026 na haitaendelea tena kuendesha.
 
 - Zebra is a modern Rust implementation of the Zcash protocol developed by the Zcash Foundation
 - Zallet ni mkoba nyepesi kujengwa interface seamlessly na Zebra nodes zilizotengenezwa na Zodl
@@ -9,7 +9,7 @@ Zcashd ya jadi full node, kudumishwa na *Electric Coin Company (ECC) * / *Zodl*,
 ![Diagram: zcashd splitting into zebrad for node duties and Zallet for wallet duties](/content-images/SJNBsSYTel-dfd19f34e4.webp)
 </div>
 
-Mwongozo huu kutembea wewe kupitia uhamiaji kutoka ** Zcashd** kwa ** Zebrad ** na ** Zallet, ikiwa ni pamoja na kuanzisha, mkoba wa kuagiza, na matatizo ya kawaida migomo masuala.
+Mwongozo huu kutembea wewe kupitia uhamiaji kutoka ** zcashd** kwa ** Zebrad ** na ** Zallet, ikiwa ni pamoja na kuanzisha, mkoba wa kuagiza, na matatizo ya kawaida migomo masuala.
 
 ---
 

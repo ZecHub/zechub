@@ -79,7 +79,7 @@ Kɔkɔbɔ abien. Tor de wo IP sie server no, nanso ɛnsesa nea server no sua fi 
 
 ### Zaino, Rust indexer no
 
-[Zaino](/zcash-tech/zaino) yɛ indexer a Zingo kuw no kyerɛwee wɔ Rust mu, a wɔasi sɛ wɔde besi lightwalletd ananmu sɛ zcashd deprecation adwuma no fã. Ɛsom hann afɛfoɔ, afɛfoɔ a wɔyɛ pɛ, ne block explorers, kenkan nkɔnsɔnkɔnsɔn data a "Zebra anaa Zcashd full validator" kura mu.
+[Zaino](/zcash-tech/zaino) yɛ indexer a Zingo kuw no kyerɛwee wɔ Rust mu, a wɔasi sɛ wɔde besi lightwalletd ananmu sɛ zcashd deprecation adwuma no fã. Ɛsom hann afɛfoɔ, afɛfoɔ a wɔyɛ pɛ, ne block explorers, kenkan nkɔnsɔnkɔnsɔn data a "Zebra anaa zcashd full validator" kura mu.
 
 Ɛwɔ nkɔsoɔ a ɛyɛ nnam ase, a version 0.8.0 a wɔayi no adi wɔ Oforisuo 2026. Ɛde asi n’ani so sɛ ɛbɛtena akyi a ɛne lightwalletd hyia wɔ baabi a ɛbɛyɛ yie, enti sika kotokuo bɛtumi atwe adwene asi so a wɔrensan nkyerɛw bio.
 

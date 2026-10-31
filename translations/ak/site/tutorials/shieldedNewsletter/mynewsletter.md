@@ -41,7 +41,7 @@ Zebra 1.8.0 Latest Release, FROST yɛ Published, Zooko Fi ase Foforo Zcash Dwuma
 
 [Zcash Brazil Nnawɔtwe Biara Frɛ 22](https://x.com/zcashbrazil/status/1808206303107731746)
 
-[Nfa MacOS Signal app no ​​nni dwuma - alberdioni8406 wɔ Free2z so](https://x.com/free2zcash/status/1809716224940781965)
+[Nfa MacOS Signal app no ​​nni dwuma - alberdioni8406 wɔ Free2Z so](https://x.com/free2zcash/status/1809716224940781965)
 
 [Wɔb 2.0 - Zcash Media ho ka a ahintaw ](https://x.com/zcashmedia/status/1809580807616397557)
 

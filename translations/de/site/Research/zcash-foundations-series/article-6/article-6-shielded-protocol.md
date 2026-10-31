@@ -153,7 +153,7 @@ Dies ist das vollständigste Bild in der Reihe, aber immer noch ein Modell. Wir 
 | Begriff | Bedeutung in einfachem Englisch |
 |---|---|
 | **Spending key** | Das einzelne Wurzelgeheimnis, von dem alle Schlüssel eines Benutzers abgeleitet werden |
-| **Viewing key** | Legt deine Transaktionen für einen Inhaber offen, ohne ihm das Ausgeben zu erlauben |
+| **Viewing Key** | Legt deine Transaktionen für einen Inhaber offen, ohne ihm das Ausgeben zu erlauben |
 | **Spend description** | Der Teil einer Tx, der eine Note verbraucht (Nullifier, anchor, Beweis) |
 | **Output description** | Der Teil einer Tx, der eine Note erzeugt (Commitment, Ciphertext, Beweis) |
 | **Action (Orchard)** | Eine vereinheitlichte Einheit, die einen Spend und einen Output zusammen ausführt |

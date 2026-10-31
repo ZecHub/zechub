@@ -52,7 +52,7 @@ Zcash는 ZEC와 함께 향상된 프라이버시 및 보안 기능을 제공합�
 
 이제 ZEC를 어디에서 사용할지 알게 되었습니다!
 
-**웹사이트**: sheemprende.com은 폐쇄되어 더 이상 연결되지 않습니다. [Free2z](https://free2z.cash/SheEmprende) | [X 플랫폼](https://twitter.com/SheEmprende_)에서 연락하세요.
+**웹사이트**: sheemprende.com은 폐쇄되어 더 이상 연결되지 않습니다. [Free2Z](https://free2z.cash/SheEmprende) | [X 플랫폼](https://twitter.com/SheEmprende_)에서 연락하세요.
 
 **Zcash Unified Address:** 
 
@@ -74,7 +74,7 @@ Rosa는 **Zcash를 받는다는 사실을 자랑스럽게 보여주며 미소 �
 
 **웹사이트**: somosdulceros.com은 폐쇄되어 더 이상 연결되지 않습니다. 아래 소셜 링크를 이용하세요.
 
-**소셜 미디어:** [Instagram](https://www.instagram.com/somos_dulceros) | [X 플랫폼](https://twitter.com/RosaMRangel) | [Free2z](https://free2z.cash/Criptodulceros/zpage/criptodulceros-01)
+**소셜 미디어:** [Instagram](https://www.instagram.com/somos_dulceros) | [X 플랫폼](https://twitter.com/RosaMRangel) | [Free2Z](https://free2z.cash/Criptodulceros/zpage/criptodulceros-01)
 
 **Zcash Unified Address:** 
 
@@ -106,7 +106,7 @@ Papeles a Color가 손수 만드는 아름다운 다른 작품들입니다.
 
 **소셜 미디어** 
 
-[Instagram](https://instagram.com/papelesacolor) | [Free2z](https://free2z.cash/PapelesaColor) 
+[Instagram](https://instagram.com/papelesacolor) | [Free2Z](https://free2z.cash/PapelesaColor) 
 
 [Linktree](https://linktr.ee/Papelesacolor)
 
@@ -193,7 +193,7 @@ u1l2lxdx2en962h3utm24fthm0r9q5cxc4705jeatq4lckm92k06htdk8jear9tsay7w8xz4najnv0mp
 
 **소셜 미디어:**
 
-[Telegram](https://t.me/Robmarn) | [X 플랫폼](https://twitter.com/robmarn) | [Free2z](https://free2z.cash/robmarn)
+[Telegram](https://t.me/Robmarn) | [X 플랫폼](https://twitter.com/robmarn) | [Free2Z](https://free2z.cash/robmarn)
 
 📍베네수엘라 Barquisimeto 
 
@@ -261,7 +261,7 @@ Tecnopapapi는 연락하기에 적합한 사람입니다!
 
 **소셜 미디어** 
 
-Free2z | [Telegram](https://t.me/Lexihel) | [YouTube](https://youtube.com/@tecnopapapi) | [X 플랫폼](https://twitter.com/tecnopapapi) | [TikTok](https://www.tiktok.com/@lexihel) | [Instagram](https://www.instagram.com/tecnopapapi/) |  [Facebook](https://www.facebook.com/tecnopapapi) 
+Free2Z | [Telegram](https://t.me/Lexihel) | [YouTube](https://youtube.com/@tecnopapapi) | [X 플랫폼](https://twitter.com/tecnopapapi) | [TikTok](https://www.tiktok.com/@lexihel) | [Instagram](https://www.instagram.com/tecnopapapi/) |  [Facebook](https://www.facebook.com/tecnopapapi) 
 
 Tecnopapapi는 암호화폐(3ZEC 포함) 및 기타 결제 수단을 받습니다. 
 

@@ -4,7 +4,7 @@
 ## Configuración
 
  * Nodo Zebrad en ejecución y completamente sincronizado, con los RPC activados y configurado para usar cookies
- * Zainod completamente sincronizado
+ * zainod completamente sincronizado
  * Zallet configurado para ejecutar RPC
 
 

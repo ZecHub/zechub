@@ -182,5 +182,5 @@ Concluderend, Free2z is een veelzijdig platform voor makers om hun capaciteiten 
 [Free2z voor supporters](https://web.archive.org/web/20260118172223/https://free2z.cash/docs/category/for-supporters/)
 
 ---
-_Geschreven door James Katz voor Zechub._
+_Geschreven door James Katz voor ZecHub._
 

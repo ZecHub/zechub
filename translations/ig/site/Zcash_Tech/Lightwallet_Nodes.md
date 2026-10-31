@@ -79,7 +79,7 @@ Two caveats. Tor hides your IP from the server, but it does not change what the 
 
 ### Zaino, onye na-enyocha ihe ndị e ji eme nchara.
 
-[Zaino](/zcash-tech/zaino) bụ indexer e dere na Rust site Zingo otu, wuru iji dochie lightwalletd dị ka akụkụ nke zcashd deprecation ọrụ. Ọ na-eje ozi ìhè ahịa, zuru ahịa, na ngọngọ explorers, ịgụ ihe n'usoro data ẹkenịmde "ma a Zebra ma ọ bụ Zcashd full validator".
+[Zaino](/zcash-tech/zaino) bụ indexer e dere na Rust site Zingo otu, wuru iji dochie lightwalletd dị ka akụkụ nke zcashd deprecation ọrụ. Ọ na-eje ozi ìhè ahịa, zuru ahịa, na ngọngọ explorers, ịgụ ihe n'usoro data ẹkenịmde "ma a Zebra ma ọ bụ zcashd full validator".
 
 It is under active development, with version 0.8.0 released in August 2026. It aims to stay backward compatible with lightwalletd where possible, so wallets can point at it without being rewritten.
 

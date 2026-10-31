@@ -26,7 +26,7 @@
 
 
 - Zcash Ɔdefoɔ Installs/Compiles Zingolib Nea ɛma kwan kɔ zingo-cli so. Wobetumi de ZEC amena/agye sɛnea ɛho hia.
-- Zingo-cli di nkitaho ne zaino wɔ mpɔtam hɔ anaasɛ ɛnam ɔkwan a ahobammɔ wom so wɔ intanɛt so (Zcash dwumayɛni no mfa sɛnea eyi yɛ adwuma ho!)
+- zingo-cli di nkitaho ne zaino wɔ mpɔtam hɔ anaasɛ ɛnam ɔkwan a ahobammɔ wom so wɔ intanɛt so (Zcash dwumayɛni no mfa sɛnea eyi yɛ adwuma ho!)
 - Zaino ma kwan ma wotumi kɔ zebrad anaa zcashd so 
 - Fully synced zebrad is source of truth (no more wallets here!)
 

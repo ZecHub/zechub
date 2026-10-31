@@ -202,7 +202,7 @@ E nwere ngwaahịa ndị ọzọ dị iche na nke a. [zallet.io](https://www.zal
 - [Zebra Full Node (Nọmba zuru ezu)](Zebra_Full_Node.md)  ọnụ Zallet's ndabara backend na-agụ
 - [Zakura Node (Nọmba nke Zaku)](Zakura_Node.md)  ọzọ na-akwado ọnụ
 - [Zaino](Zaino.md)  backend indexer na ihe nkesa-onye ahịa dị mfe.
-- [ZECD (Zụlite ihe ọmụma)](ZECD.md)  ihe ọzọ wallet-server imewe na librustzcash
+- [zecd (Zụlite ihe ọmụma)](ZECD.md)  ihe ọzọ wallet-server imewe na librustzcash
 - [Nkwekọrịta obere akpa Zcash](Zcash_Wallet_Syncing.md)  otú wallets na-eche nche si enyocha agbụ ahụ.
 - [Igodo Nlele](Viewing_Keys.md)
 

@@ -221,7 +221,7 @@ Artık harita sizde. Serinin geri kalanı onun içini dolduruyor.
 | **Nullifier** | Bir note kullanıldığında yayımlanan, çifte harcamayı önleyen benzersiz "harcandı" işareti |
 | **Zero-knowledge proof** | Bir ifadenin doğru olduğunu, doğruluğunun ötesinde hiçbir şey ifşa etmeden kanıtlayan ispat |
 | **Shielding / deshielding** | Fonları özel korumalı dünyanın içine / dışına taşımak |
-| **Viewing key** | Sahibinin kendisine gönderilen note'ları tespit edip okumasını sağlayan anahtar |
+| **Viewing Key** | Sahibinin kendisine gönderilen note'ları tespit edip okumasını sağlayan anahtar |
 
 ---
 

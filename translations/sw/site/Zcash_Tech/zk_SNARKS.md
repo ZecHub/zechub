@@ -161,7 +161,7 @@ Usanidi Uwazi (Hakuna Usanidi Unaoaminika)- Algoriti ya usindikaji wa awali hait
 
 [Groth16](https://eprint.iacr.org/2016/260): Inahitaji Usanidi Unaoaminika lakini ina uthibitisho mfupi sana ambao unaweza kuthibitishwa haraka.
 
-[Sonic](https://www.youtube.com/watch?v=oTRAg6Km1os)/[Marlin](https://www.youtube.com/watch?v=bJDLf8KLdL0)/[Plonk](https://eprint.iacr.org/2019/953): Usanidi Unaoaminika Ulimwenguni.
+[Sonic](https://www.youtube.com/watch?v=oTRAg6Km1os)/[Marlin](https://www.youtube.com/watch?v=bJDLf8KLdL0)/[PLONK](https://eprint.iacr.org/2019/953): Usanidi Unaoaminika Ulimwenguni.
 
 [GIZA](https://eprint.iacr.org/2019/1229)/[Halo](https://eprint.iacr.org/archive/2019/1021/20200218:011907)/[NYOTA](https://www.youtube.com/watch?v=wFZ_YIetK1o): Hakuna Usanidi Unaoaminika lakini hutoa uthibitisho mrefu kidogo au inaweza kuchukua muda mrefu kwa prover kufanya kazi. 
 

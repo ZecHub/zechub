@@ -41,7 +41,7 @@ Zebra 1.8.0 最新发布，FROST 已发布，Zooko 启动新的 Zcash 项目，�
 
 [Zcash Brazil 每周通话 22](https://x.com/zcashbrazil/status/1808206303107731746)
 
-[不要使用 MacOS 版 Signal 应用 - alberdioni8406 发布于 Free2z](https://x.com/free2zcash/status/1809716224940781965)
+[不要使用 MacOS 版 Signal 应用 - alberdioni8406 发布于 Free2Z](https://x.com/free2zcash/status/1809716224940781965)
 
 [Web 2.0 的隐性成本 - Zcash Media](https://x.com/zcashmedia/status/1809580807616397557)
 

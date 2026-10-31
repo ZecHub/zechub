@@ -4,7 +4,7 @@
 ## Hyehyɛ
 
  * Zebrad node a ɛretu mmirika na ɛne RPC's a ɛwɔ so na wɔahyehyɛ no sɛ ɛde cookies bedi dwuma koraa
- * Zainod yɛɛ sync koraa
+ * zainod yɛɛ sync koraa
  * Zallet nhyehyɛe a ɛbɛma RPC ahorow no ayɛ adwuma
 
 

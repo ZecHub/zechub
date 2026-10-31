@@ -43,22 +43,22 @@ Zcash의 프라이버시는 실드 주소에서 비롯됩니다. ZEC이(가) 실
 스왑에는 Zcash이(가) 숨길 수 없는 부분이 있습니다.
 
 - **출발 네트워크.** Solana, Ethereum 또는 다른 공개 체인에서 보내는 자금은 주소와 금액을 포함해 해당 체인에서 보입니다.
-- **수신 주소.** 일부 스왑 경로는 ZEC을(를) 투명 주소로 전달합니다. 예를 들어, Near Intents는 ZEC이(가) [투명 주소 전용](https://docs.near-intents.org/resources/chain-support)으로 지원된다고 명시합니다. 투명(t1 또는 t3) 주소로 전송된 ZEC은(는) Bitcoin과 마찬가지로 공개됩니다. 이후 실드 처리하면 그다음 활동은 보호되지만, 들어오는 전송과 실드 처리 거래는 계속 보입니다.
+- **수신 주소.** 일부 스왑 경로는 ZEC을(를) 투명 주소로 전달합니다. 예를 들어, NEAR Intents는 ZEC이(가) [투명 주소 전용](https://docs.near-intents.org/resources/chain-support)으로 지원된다고 명시합니다. 투명(t1 또는 t3) 주소로 전송된 ZEC은(는) Bitcoin과 마찬가지로 공개됩니다. 이후 실드 처리하면 그다음 활동은 보호되지만, 들어오는 전송과 실드 처리 거래는 계속 보입니다.
 - **서비스.** 앱과 모든 라우팅 서비스는 IP 주소 같은 연결 데이터와 함께 사용자가 제공하는 주소와 금액을 봅니다.
 
 ZEC을(를) 자신이 통제하는 지갑으로 보내고 사용하기 전에 실드 처리하세요. [ZEC을(를) 비공개로 사용하기](/guides/using-zec-privately)에서 다음 단계를 다룹니다.
 
 ### **스왑에 관여하는 주체**
 
-Near Intents 1Click 서비스를 통해 라우팅되는 스왑을 예로 들어 보겠습니다. 해당 [API 약관](https://docs.near-intents.org/security-compliance/terms-of-service)은(는) 이를 별도의 구성 요소로 다룹니다.
+NEAR Intents 1Click 서비스를 통해 라우팅되는 스왑을 예로 들어 보겠습니다. 해당 [API 약관](https://docs.near-intents.org/security-compliance/terms-of-service)은(는) 이를 별도의 구성 요소로 다룹니다.
 
 - **인터페이스**: 사용하는 웹사이트 또는 지갑입니다. Intents Technology가 운영할 수도 있고, 자체 약관을 가진 제3자가 운영할 수도 있습니다.
 - **1Click**: Intents Technology Limited가 운영하는 라우팅 및 결제 서비스입니다. 견적에 맞춰 생성된 입금 주소로 자금을 보냅니다. 문서에서는 1Click이 자산을 수탁하지 않는다고 하지만, 약관에는 전송 진행 중 자산이 브리지 인프라에 보관되거나 잠길 수 있다고 명시되어 있습니다.
-- **프로토콜**: Near Intents 스마트 계약입니다.
+- **프로토콜**: NEAR Intents 스마트 계약입니다.
 - **솔버**: 견적을 이행하는 독립적인 제3자입니다.
 - **브리지**: 네이티브 ZEC은(는) Intents Technology가 운영하는 PoA Bridge를 통해 이동합니다.
 
-Near Intents는 또한 통합된 견적 흐름을 여러 AML 데이터베이스와 대조하여 [심사](https://docs.near-intents.org/security-compliance/risk-and-compliance)하며, 적용 범위는 흐름과 통합 방식에 따라 다르다고 말합니다. 약관에 따라 표시된 스왑은 지연, 차단, 동결 또는 거부될 수 있습니다.
+NEAR Intents는 또한 통합된 견적 흐름을 여러 AML 데이터베이스와 대조하여 [심사](https://docs.near-intents.org/security-compliance/risk-and-compliance)하며, 적용 범위는 흐름과 통합 방식에 따라 다르다고 말합니다. 약관에 따라 표시된 스왑은 지연, 차단, 동결 또는 거부될 수 있습니다.
 
 ### **스왑 중 공유하는 정보**
 
@@ -72,8 +72,8 @@ Near Intents는 또한 통합된 견적 흐름을 여러 AML 데이터베이스�
 약관은 변경되므로 큰 규모의 스왑 전에 최신 버전을 읽어 보세요.
 
 - **사용하는 앱부터 확인하세요.** 이는 주된 연락 창구입니다. 1Click API 약관에는 Intents Technology가 이를 기반으로 구축된 앱 사용자와 직접적인 관계가 없다고 명시되어 있습니다.
-- **Near Intents:** near.com/terms 및 near.com/privacy의 약관과 개인정보 처리방침, 그리고 [1Click API 약관](https://docs.near-intents.org/security-compliance/terms-of-service) 및 [위험 및 규정 준수](https://docs.near-intents.org/security-compliance/risk-and-compliance).
-- **추적 및 지원:** [Near Intents Explorer](https://explorer.near-intents.org)에서 스왑을 조회하거나 [Near Intents Telegram](https://t.me/near_intents)에서 문의하세요.
+- **NEAR Intents:** near.com/terms 및 near.com/privacy의 약관과 개인정보 처리방침, 그리고 [1Click API 약관](https://docs.near-intents.org/security-compliance/terms-of-service) 및 [위험 및 규정 준수](https://docs.near-intents.org/security-compliance/risk-and-compliance).
+- **추적 및 지원:** [NEAR Intents Explorer](https://explorer.near-intents.org)에서 스왑을 조회하거나 [NEAR Intents Telegram](https://t.me/near_intents)에서 문의하세요.
 - **환불:** 실패한 스왑은 제공한 환불 주소로 반환될 수 있지만, near.com 약관에는 환불이 보장되지 않는다고 명시되어 있습니다. 1Click 약관은 USD 300 미만의 사용자 오류에 대한 복구 요청도 검토하지 않는다고 명시합니다.
 
 이제 Zcash 거래를 지원하는 접근 가능한 비수탁형 거래소 몇 곳을 살펴보겠습니다. 이러한 플랫폼을 사용하면 더 많은 Zcash 코인을 편리하게 획득할 수 있습니다.

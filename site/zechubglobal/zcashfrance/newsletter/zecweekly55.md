@@ -36,7 +36,7 @@ Lisez le guide complet [ici](https://free2z.cash/James_Katz/zpage/compiling-zecw
 
 #### Projets communautaires
 
-[Zechub et ZfavClub font équipe](https://twitter.com/ZecHub/status/1690001353379135488)
+[ZecHub et ZfavClub font équipe](https://twitter.com/ZecHub/status/1690001353379135488)
 
 [Mise à jour Free2Z : Améliorations multimédia](https://twitter.com/Edicksonjga/status/1688996155705659392) 🗂️
 
@@ -72,7 +72,7 @@ Les Canadiens s'intéressent aux cryptomonnaies privées👛
 
 [Pourquoi vous ne pouvez pas vous empêcher d'être excité à propos de Zcash](https://twitter.com/ZforZcash/status/1689903350995664896)
 
-[Zechub, un centre éducatif pour Zcash - Zcashesp](https://twitter.com/zcashesp/status/1690079675039567872) 📚
+[ZecHub, un centre éducatif pour Zcash - Zcashesp](https://twitter.com/zcashesp/status/1690079675039567872) 📚
 
 [L'intégration dans les cryptos est aussi importante que dans tout autre secteur - Michae2xl](https://twitter.com/michae2xl/status/1689667573908905984)
 

@@ -3,38 +3,38 @@
 </a>
 
 
-# Obtendo Zcash
+# Como obter Zcash
 
 ## Resumo
 
-- Compre ZEC em uma exchange que ofereça **saques blindados** (Gemini, BitcoinVN, Flyp.me) sempre que possível
-- A maioria das grandes exchanges centralizadas (Coinbase, Kraken, Binance) oferece apenas **saques transparentes** — blinde seu ZEC após recebê-lo
-- Exchanges descentralizadas permitem trocas sem custódia, mas normalmente sacam para endereços transparentes
+- Compre ZEC em uma corretora que ofereça **saques blindados** (Gemini, BitcoinVN, flyp.me) sempre que possível
+- A maioria das grandes corretoras centralizadas (Coinbase, Kraken, Binance) oferece apenas **saques transparentes** — blinde seu ZEC após recebê-lo
+- Corretoras descentralizadas permitem conversões não custodiantes, mas normalmente fazem saques para endereços transparentes
 - Você **não** precisa comprar um ZEC inteiro — frações funcionam perfeitamente
 
 ---
 
-Para usar Zcash em transações privadas (blindadas), você precisa ter ZEC. Para obter ZEC, será necessário comprá-lo. Você pode comprar ZEC em várias exchanges diferentes, que listaremos abaixo. Recomenda-se usar uma exchange que ofereça saques blindados.
+Para usar o Zcash em transações privadas (blindadas), você precisa ter ZEC. Para obter ZEC, será necessário comprá-lo. Você pode comprar ZEC em várias corretoras diferentes, que listaremos abaixo. Recomenda-se que você use uma corretora que ofereça saques blindados.
 
-_Você também pode minerar ZEC, mas isso geralmente não é possível para consumidores comuns. Mais sobre isso [aqui](https://forum.zcashcommunity.com/t/mining-to-shielded-addresses-community-mining-pool/50281) e [aqui](https://zec.suprnova.cc/StartMining)_.
+_Você também pode minerar ZEC, mas isso geralmente não é possível para consumidores comuns. Mais informações sobre isso [aqui](https://forum.zcashcommunity.com/t/mining-to-shielded-addresses-community-mining-pool/50281) e [aqui](https://zec.suprnova.cc/StartMining)_.
 
-## Exchanges que oferecem saques blindados
+## Corretoras que oferecem saques blindados
 
 **[Gemini](https://www.gemini.com)**
 
-Gemini é uma exchange de criptomoedas regulamentada, carteira e custodiante que torna simples e seguro comprar ZEC, Ether e outras criptomoedas. Você pode comprar ZEC com moeda fiduciária ou outras criptomoedas.
+Gemini é uma corretora regulamentada de criptomoedas, carteira e custodiante que torna simples e seguro comprar ZEC, Ether e outras criptomoedas. Você pode comprar ZEC com moeda fiduciária ou outras criptomoedas.
 
 **[BitcoinVN](https://bitcoinvn.io)**
 
-BitcoinVN é uma exchange instantânea sem custódia que oferece suporte a depósitos e saques blindados (z-address) para ZEC — uma das pouquíssimas exchanges no mundo com suporte completo a z-address. Operando desde 2014, você pode trocar BTC, ETH, USDT e outras criptomoedas por ZEC diretamente para sua carteira blindada.
+BitcoinVN é uma corretora instantânea não custodiante que oferece suporte a depósitos e saques blindados (z-address) para ZEC — uma das pouquíssimas corretoras no mundo com suporte completo a z-address. Operando desde 2014, você pode converter BTC, ETH, USDT e outras criptomoedas em ZEC diretamente para sua carteira blindada.
 
-**[Flyp.me](https://flyp.me)**
+**[flyp.me](https://flyp.me)**
 
-Flyp.me é uma exchange de criptomoedas sem necessidade de cadastro. Era uma das formas mais seguras e privadas de trocar mais de 30 criptomoedas diretamente para sua carteira. Você pode comprar ZEC com outras criptomoedas.
+flyp.me é uma corretora de criptomoedas sem necessidade de cadastro. Era uma das formas mais seguras e privadas de converter mais de 30 criptomoedas diretamente para sua carteira. Você pode comprar ZEC com outras criptomoedas.
 
-## Exchanges que oferecem saques transparentes
+## Corretoras que oferecem saques transparentes
 
-A maioria das grandes exchanges oferece suporte a Zcash. Veja uma lista detalhada [aqui](https://zechub.wiki/using-zcash/custodial-exchanges).
+A maioria das grandes corretoras oferece suporte ao Zcash. Veja uma lista detalhada [aqui](https://zechub.wiki/using-zcash/custodial-exchanges).
 
 
 **[Coinbase](https://www.coinbase.com)**
@@ -50,15 +50,15 @@ A maioria das grandes exchanges oferece suporte a Zcash. Veja uma lista detalhad
   />
 </div>
 
-## Exchanges descentralizadas que oferecem saques transparentes
+## Corretoras descentralizadas que oferecem saques transparentes
 
-Essas exchanges oferecem saques transparentes. Isso significa que, ao sacar ZEC para sua carteira, você precisa enviá-lo para seu endereço transparente, seu endereço público de ZEC. 
-Clique [aqui](https://zechub.wiki/using-zcash/non-custodial-exchanges) para mais detalhes.
+Essas corretoras oferecem saques transparentes. Isso significa que, ao sacar ZEC para sua carteira, você precisa enviá-lo para seu endereço transparente, seu endereço público de ZEC. 
+Clique [aqui](https://zechub.wiki/using-zcash/non-custodial-exchanges) para ver mais detalhes.
 
 ![dex](/content-images/bfe2e9cf-2def-4593-b790-152e14b23da3-f94f97c7e6.webp)
 
 
-Ao fazer isso, recomendamos usar uma das seguintes [carteiras](https://zechub.wiki/wallets). 
+Ao fazer isso, recomendamos que você use uma das seguintes [carteiras](https://zechub.wiki/wallets). 
 
 ![mobile](/content-images/8b7618f5-dec6-4e6b-9804-db75be5c1e2f-14fa53d3bd.webp)
 
@@ -76,7 +76,7 @@ Ao fazer isso, recomendamos usar uma das seguintes [carteiras](https://zechub.wi
 
 ## Erros comuns a evitar
 
-- **Sacar para um endereço transparente** quando a exchange oferece saques blindados — sempre use seu z-address, se estiver disponível
+- **Sacar para um endereço transparente** quando a corretora oferece saques blindados — sempre use seu z-address, se estiver disponível
 - **Pular a etapa de blindagem** após receber em um endereço transparente — use imediatamente o recurso "Shield Funds" da sua carteira
 - **Comprar mais do que o necessário no início** — comece com pouco para aprender o processo antes de fazer compras maiores
 
@@ -84,8 +84,8 @@ Ao fazer isso, recomendamos usar uma das seguintes [carteiras](https://zechub.wi
 
 ## Páginas relacionadas
 
-- [Carteiras](/using-zcash/wallets) — Escolha uma carteira antes de sacar de uma exchange
-- [Exchanges sem custódia](/using-zcash/non-custodial-exchanges) — Lista completa de DEXes com suporte a ZEC
-- [Exchanges com custódia](/using-zcash/custodial-exchanges) — Lista completa de CEXes com suporte a ZEC
+- [Carteiras](/using-zcash/wallets) — Escolha uma carteira antes de sacar de uma corretora
+- [Corretoras não custodiantes](/using-zcash/non-custodial-exchanges) — Lista completa de DEXes com suporte a ZEC
+- [Corretoras custodiantes](/using-zcash/custodial-exchanges) — Lista completa de CEXes com suporte a ZEC
 - [Pools blindados](/using-zcash/shielded-pools) — Por que os saques blindados são importantes
-- [Guia para novos usuários](/start-here/new-user-guide) — Checklist completo de introdução para novos usuários de Zcash
+- [Guia para novos usuários](/start-here/new-user-guide) — Checklist completo de introdução para novos usuários do Zcash

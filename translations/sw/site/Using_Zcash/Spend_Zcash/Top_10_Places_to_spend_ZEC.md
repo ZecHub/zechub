@@ -52,7 +52,7 @@ Hivyo, kama wewe ni biskuti monster ..!
 
 sasa unajua wapi kutumia ZEC yako!
 
-**Website**: sheemprende.com imekuwa kustaafu na tena si kutatua. Kufikia yake juu ya [Free2z](https://free2z.cash/SheEmprende) | [X Jukwaa la Mbele](https://twitter.com/SheEmprende_)
+**Website**: sheemprende.com imekuwa kustaafu na tena si kutatua. Kufikia yake juu ya [Free2Z](https://free2z.cash/SheEmprende) | [X Jukwaa la Mbele](https://twitter.com/SheEmprende_)
 
 **Zcash Unified Address:** 
 
@@ -74,7 +74,7 @@ Rosa anatabasamu kwa fahari akionyesha kwamba anakubali **Zcash.**
 
 **Website**: somosdulceros.com imekataliwa na haiwezi kutatua tena Tumia viungo vya kijamii hapa chini.
 
-** Mitandao ya kijamii:** [Instagram](https://www.instagram.com/somos_dulceros) | [X Jukwaa la Mbele](https://twitter.com/RosaMRangel) | [Free2z](https://free2z.cash/Criptodulceros/zpage/criptodulceros-01)
+** Mitandao ya kijamii:** [Instagram](https://www.instagram.com/somos_dulceros) | [X Jukwaa la Mbele](https://twitter.com/RosaMRangel) | [Free2Z](https://free2z.cash/Criptodulceros/zpage/criptodulceros-01)
 
 **Zcash Unified Address:** 
 
@@ -106,7 +106,7 @@ Baadhi ya vitu vingine nzuri Papeles a rangi handcrafts.
 
 ** Mitandao ya kijamii** 
 
-[Instagram](https://instagram.com/papelesacolor) | [Free2z](https://free2z.cash/PapelesaColor) 
+[Instagram](https://instagram.com/papelesacolor) | [Free2Z](https://free2z.cash/PapelesaColor) 
 
 [Mti wa Linktree](https://linktr.ee/Papelesacolor)
 
@@ -193,7 +193,7 @@ Kazi yake inajulikana katika mazingira ya Zcash shukrani kwa mchango wake kwenye
 
 ** Mitandao ya kijamii:**
 
-[Telegram](https://t.me/Robmarn) | [X Jukwaa la Mbele](https://twitter.com/robmarn) | [Free2z](https://free2z.cash/robmarn)
+[Telegram](https://t.me/Robmarn) | [X Jukwaa la Mbele](https://twitter.com/robmarn) | [Free2Z](https://free2z.cash/robmarn)
 
  Barquisimeto - Venezuela 
 
@@ -261,7 +261,7 @@ Tecnopapapi ndiye mtu sahihi wa kuwasiliana naye!
 
 ** Mitandao ya kijamii** 
 
-Free2z. [Telegram](https://t.me/Lexihel) | [YouTube](https://youtube.com/@tecnopapapi) | [X Jukwaa la Mbele](https://twitter.com/tecnopapapi) | [TikTok](https://www.tiktok.com/@lexihel) | [Instagram](https://www.instagram.com/tecnopapapi/) |  [Facebook ya kijamii](https://www.facebook.com/tecnopapapi) 
+Free2Z. [Telegram](https://t.me/Lexihel) | [YouTube](https://youtube.com/@tecnopapapi) | [X Jukwaa la Mbele](https://twitter.com/tecnopapapi) | [TikTok](https://www.tiktok.com/@lexihel) | [Instagram](https://www.instagram.com/tecnopapapi/) |  [Facebook ya kijamii](https://www.facebook.com/tecnopapapi) 
 
 Tecnopapapi inakubali cryptocurrencies (ikiwa ni pamoja na 3ZEC) na mbinu nyingine za malipo. 
 
