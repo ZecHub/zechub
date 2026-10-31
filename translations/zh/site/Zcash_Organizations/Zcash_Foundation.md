@@ -14,7 +14,7 @@ Zcash Foundation 拥有约 12 名分布在世界各地的员工。他们专注�
 
 Zcash Foundation Grants 为生态系统提供了资助项目的途径，这些项目为隐私生态作出贡献，例如 [Zebra](https://zebra.zfnd.org/)（Zcash 的独立节点实现）和 [FROST](https://frost.zfnd.org/)，以及通过 [Zcash Community Grants Committee](https://zcashcommunitygrants.org/) 资助的[各类](https://www.coindesk.com/tech/2021/06/08/tor-project-receives-670k-from-zcash-open-major-grants-for-coding-language-upgrade/)其他项目。 
 
-该基金会还举办 [Zcon](https://zfnd.org/zcon/)，这是一场以 Zcash 生态系统为核心的年度线下会议，并支持基层社区倡议，例如 [Zcon Vozes](https://zfnd.org/zcon-voices/)、地区性[会议](https://zfnd.org/zcash-dev-summits/)、Zcash Foundation 音视频 [Club](https://forum.zcashcommunity.com/t/the-zero-knowledge-audiovisual-club/43733)（现为 Zero Knowledge Audio Visual [Club](https://www.zkav.club/)），以及各种其他开放社区[通话](https://zfnd.org/arborist-calls/)、社区[活动](https://zfnd.org/zf-events/#:~:text=Zcomm)和 [AMA](https://forum.zcashcommunity.com/t/community-call-with-the-zcg-candidates-december-2024/49707)。
+该基金会还举办 [Zcon](https://zfnd.org/zcon/)，这是一场以 Zcash 生态系统为核心的年度线下会议，并支持基层社区倡议，例如 [Zcon Vozes](https://zfnd.org/zcon-voices/)、地区性[会议](https://zfnd.org/zcash-dev-summits/)、Zcash Foundation 音视频 [Club](https://forum.zcashcommunity.com/t/the-zero-knowledge-audiovisual-club/43733)（现为 Zero Knowledge Audio Visual [Club](https://zkav.club/)），以及各种其他开放社区[通话](https://zfnd.org/arborist-calls/)、社区[活动](https://zfnd.org/zf-events/#:~:text=Zcomm)和 [AMA](https://forum.zcashcommunity.com/t/community-call-with-the-zcg-candidates-december-2024/49707)。
 
 根据 Electric Coin Company 更新后的捐赠条件，Zcash Foundation 执行 [Zcash 商标政策](https://zfnd.org/new-zcash-trademark-policy/)。该政策通过“保护 Zcash、其相关实体以及 Zcash 社区的声誉”，并通过“识别官方信息来源，降低欺诈性或错误信息出现的可能性”以及“识别官方应用和服务，降低欺诈活动发生的可能性”来发挥作用。 
 

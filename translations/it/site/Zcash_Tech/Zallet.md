@@ -4,7 +4,7 @@
 
 # Zallet
 
-Zallet è un portafoglio Zcash full node (nodo completo) scritto in Rust. Sostituisce il portafoglio che in precedenza era incorporato in `zcashd`. Dopo che `zcashd` ha raggiunto l'interruzione del supporto il 18 luglio 2026 all'altezza del blocco 3417100, i compiti di consenso e del portafoglio sono stati separati: **Zebra** o **Zakura** convalidano la chain, mentre **Zallet** conserva le chiavi, scansiona le note ed espone il JSON-RPC del portafoglio.
+Zallet è un portafoglio di Zcash full node (nodo completo) scritto in Rust. Sostituisce il portafoglio che in precedenza era incorporato in `zcashd`. Dopo che `zcashd` ha raggiunto l'interruzione del supporto il 18 luglio 2026 all'altezza del blocco 3417100, i compiti di consenso e del portafoglio sono stati separati: **Zebra** o **Zakura** convalidano la chain, mentre **Zallet** conserva le chiavi, scansiona le note ed espone il JSON-RPC del portafoglio.
 
 Zallet è attualmente in versione **beta**. Non è stato sottoposto a una revisione completa. Modifiche incompatibili potrebbero richiedere l'eliminazione e la ricreazione del portafoglio. Non considerarlo una soluzione di custodia in produzione per grandi quantità di ZEC senza aver letto gli avvisi di sicurezza nel [The Zallet Book](https://zcash.github.io/zallet/).
 
@@ -132,7 +132,7 @@ Differenze rilevanti rispetto a `zcashd`:
 
 - I campi dei saldi in `getwalletinfo` sono vuoti. Usa `z_getbalances`, `z_getbalanceforaccount`, `z_gettotalbalance`.
 - Le commissioni seguono **ZIP 317**. Non esiste `settxfee`.
-- La costruzione delle spese si sta spostando sui **PCZT** (transazioni Zcash create parzialmente, ZIP 374). Gli RPC PCZT sono arrivati nella serie beta.
+- La costruzione delle spese si sta spostando sui **PCZT** (transazioni di Zcash create parzialmente, ZIP 374). Gli RPC PCZT sono arrivati nella serie beta.
 - Un **blocco di sincronizzazione** globale blocca gli RPC di saldo e spesa mentre il portafoglio recupera il ritardo o si riprende da una riorganizzazione (`ClientInInitialDownload` / `ForbiddenBySafeMode`).
 
 I metodi volutamente omessi includono `createrawtransaction`, `fundrawtransaction`, `getnewaddress`, `getrawchangeaddress`, `keypoolrefill`, `importwallet` e `encryptwallet`. Le alternative sono elencate nel [Zallet Book](https://zcash.github.io/zallet/zcashd/json_rpc.html).
@@ -202,8 +202,8 @@ Esiste un prodotto consumer separato su [zallet.io](https://www.zallet.io/) che 
 - [Full node Zebra](Zebra_Full_Node.md) — il nodo che il backend predefinito di Zallet legge
 - [Nodo Zakura](Zakura_Node.md) — nodo validante alternativo
 - [Zaino](Zaino.md) — backend indicizzatore e server light client
-- [ZECD](ZECD.md) — un altro progetto di server di portafoglio su librustzcash
-- [Sincronizzazione dei portafogli Zcash](Zcash_Wallet_Syncing.md) — come i portafogli schermati scansionano la chain
+- [zecd](ZECD.md) — un altro progetto di server di portafoglio su librustzcash
+- [Sincronizzazione dei portafogli di Zcash](Zcash_Wallet_Syncing.md) — come i portafogli schermati scansionano la chain
 - [Chiavi di visualizzazione](Viewing_Keys.md)
 
 ## Risorse

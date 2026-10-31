@@ -1,6 +1,6 @@
 # Finanziamenti retroattivi decisi dai detentori di ZEC
 
-Il **Coinholder-Directed Retroactive Grants Program** finanzia il lavoro già completato che ha apportato un valore verificabile all'ecosistema Zcash.
+Il **Coinholder-Directed Retroactive Grants Program** finanzia il lavoro già completato che ha apportato un valore verificabile all'ecosistema di Zcash.
 
 Attinge al **Coinholder-Controlled Fund** (12% delle ricompense di blocco + il seed del Deferred Dev Fund Lockbox), istituito dalla ZIP 1016 e attivato con NU6.1 (novembre 2025).
 

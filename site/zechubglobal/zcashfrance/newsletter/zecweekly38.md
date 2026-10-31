@@ -95,7 +95,7 @@ Mises à jour #### ECC et ZF
 [Un detenuer de ZEC donne des conseils à la communauté ZCash](https://twitter.com/magical_zodler/status/1646161086977126400?t=JU4sJBd65Lex81tUp0-dQA&s=19)
 
 
-[La chronologie ZCash par Zechub](https://twitter.com/ZecHub/status/1645779191596736514?t=H9hNUND6KxN1-DWGtAlclA&s=19)
+[La chronologie ZCash par ZecHub](https://twitter.com/ZecHub/status/1645779191596736514?t=H9hNUND6KxN1-DWGtAlclA&s=19)
 
 [Le nombre d'investisseurs crypto augmente de 50% au Brésil pendant le bear market](https://twitter.com/michae2xl/status/1646660663001980928?t=9TjwBXkxpkWRcw3u5JaZMw&s=19)
 

@@ -4,12 +4,12 @@
 
 # Zcash Media
 
-"O nosso papel neste esforço colaborativo é educar, inspirar e entusiasmar os Zcashers atuais e futuros, construindo uma base de apoiadores que rivaliza com os maiores projetos e vai além."
+"Nosso papel neste esforço colaborativo é educar, inspirar e entusiasmar os Zcashers atuais e futuros, construindo uma base de apoiadores que rivaliza com os maiores projetos e vai além."
 
 
 ## Contexto
 
-Produzidos pela [37 LAINES](https://www.37laines.com/) para o bem público, os vídeos educativos da Zcash Media são totalmente dedicados à Zcash e às criptomoedas. É financiada pelo programa [Zcash Community Grants](https://x.com/ZcashCommGrants) e tornou-se um participante importante no ecossistema Zcash.
+Produzidos pela [37 LAINES](https://www.37laines.com/) para o bem público, os vídeos educativos da Zcash Media são totalmente dedicados ao Zcash e às criptomoedas. É financiada pelo programa [Zcash Community Grants](https://x.com/ZcashCommGrants) e tornou-se um participante importante no ecossistema do Zcash.
 
 ## Vídeos
 

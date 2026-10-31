@@ -9,7 +9,7 @@ Full node zcashd tradisional, yang dikelola oleh *Electric Coin Company (ECC)* /
 ![Diagram: zcashd splitting into zebrad for node duties and Zallet for wallet duties](/content-images/SJNBsSYTel-dfd19f34e4.webp)
 </div>
 
-Panduan ini akan membimbing kamu melalui migrasi dari **Zcashd** ke **Zebrad** dan **Zallet**, termasuk pengaturan, impor dompet, dan pemecahan masalah umum terkait migrasi.
+Panduan ini akan membimbing kamu melalui migrasi dari **zcashd** ke **Zebrad** dan **Zallet**, termasuk pengaturan, impor dompet, dan pemecahan masalah umum terkait migrasi.
 
 ---
 

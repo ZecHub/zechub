@@ -175,4 +175,4 @@ Tata Kelola [DAOShapeShift (Token FOX)](https://web.archive.org/web/202101261804
 
 [ShapeShift meluncurkan v4.0, memusatkan kembali privasi dan self-custody dalam DeFi (Invezz)](https://invezz.com/news/2025/12/18/shapeshift-unveils-version-4-0-re-centering-privacy-and-self-custody-in-defi/)
 
-[ShapeShift meluncurkan dukungan untuk transaksi Zcash terlindungi (CoinTelegraph)](https://cointelegraph.com/news/shapeshift-rolls-out-support-for-shielded-zcash-transactions-for-true-privacy)
+[ShapeShift meluncurkan dukungan untuk transaksi Zcash terlindungi (Cointelegraph)](https://cointelegraph.com/news/shapeshift-rolls-out-support-for-shielded-zcash-transactions-for-true-privacy)

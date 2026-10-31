@@ -79,7 +79,7 @@ Tor huficha IP yako kutoka kwa seva, lakini haibadilishi kile ambacho server ina
 
 ### Zaino, indexer Rust
 
-[Zaino](/zcash-tech/zaino) ni indexer iliyoandikwa katika kutu na timu Zingo, kujengwa kuchukua nafasi ya lightwalletd kama sehemu ya kazi zcashd deprecation. Ni mtumishi mwanga wateja, wateja kamili, na block explorers, kusoma data mlolongo uliofanyika kwa "ama Zebra au Zcashd full validator".
+[Zaino](/zcash-tech/zaino) ni indexer iliyoandikwa katika kutu na timu Zingo, kujengwa kuchukua nafasi ya lightwalletd kama sehemu ya kazi zcashd deprecation. Ni mtumishi mwanga wateja, wateja kamili, na block explorers, kusoma data mlolongo uliofanyika kwa "ama Zebra au zcashd full validator".
 
 Ni chini ya maendeleo hai, na toleo 0.8.0 iliyotolewa katika Agosti 2026. ni inalenga kukaa nyuma sambamba na lightwalletd ambapo inawezekana, hivyo pochi unaweza kuashiria bila kuwa rewritten.
 

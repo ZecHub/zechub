@@ -4,7 +4,7 @@
 
 # Newsletter schermata
 
-> Invia una nota Markdown a un elenco di indirizzi schermati come memo Zcash, usando Zallet. L'elenco dei destinatari e la nota restano fuori dagli indirizzi trasparenti.
+> Invia una nota Markdown a un elenco di indirizzi schermati come memo di Zcash, usando Zallet. L'elenco dei destinatari e la nota restano fuori dagli indirizzi trasparenti.
 
 Una newsletter schermata è una serie di transazioni schermate. Ogni output paga una piccola somma a un destinatario Unified Address e contiene la porzione successiva della nota nel campo memo. Zallet costruisce e invia queste transazioni. Zebra e Zaino forniscono soltanto dati della chain.
 

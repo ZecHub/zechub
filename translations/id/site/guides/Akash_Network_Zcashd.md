@@ -475,7 +475,7 @@ Penyedia mungkin mengalami masalah jaringan atau bandwidth yang lambat. Hal ini 
 
 ### Kegagalan autentikasi RPC
 
--> Pastikan *ZCASHD_RPCUSER* dan *ZCASHD_RPCPASSWORD* telah diatur dengan benar
+-> Pastikan `ZCASHD_RPCUSER` dan `ZCASHD_RPCPASSWORD` telah diatur dengan benar
 
 -> Pastikan kamu menggunakan port yang benar (8232 untuk mainnet, 18232 untuk testnet)
 

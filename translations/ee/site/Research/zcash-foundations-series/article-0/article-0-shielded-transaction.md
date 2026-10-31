@@ -221,7 +221,7 @@ Fifia èlé anyigbatata la ɖe asi. Nusiwo kplɔ wo nɔewo ɖo ƒe akpa mamlɛa 
 | **Nullifier** | Dzesi tɔxɛ "si wozã" si wota ne wozã nuŋlɔɖi aɖe, si xea mɔ na gazazã zi eve |
 | **Zero-knowledge proof** | Kpeɖodzi be nya aɖe nye nyateƒe esime mele naneke ɖem fia wu eƒe nyateƒenyenye o |
 | **Shielding / deshielding** | Gawo ʋuʋu yi / do goe le ame ŋutɔ ƒe xexe si me wokpɔa akpoxɔnu le me |
-| **Viewing key** | Safui si naa aƒetɔa dea dzesi nuŋlɔɖi siwo woŋlɔ na wo hexlẽa |
+| **Viewing Key** | Safui si naa aƒetɔa dea dzesi nuŋlɔɖi siwo woŋlɔ na wo hexlẽa |
 
 ---
 

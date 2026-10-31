@@ -177,7 +177,7 @@ Il fatto che Dash disponga di firme BLS a soglia **non** significa che abbia, o 
 - [repository dashpay/dips](https://github.com/dashpay/dips)
 
 **Resoconti contemporanei**
-- [Dash lancia la tecnologia Zcash di Orchard in un aggiornamento della privacy](https://www.cryptopolitan.com/dash-launch-zcash-orchard-technology/) — Cryptopolitan
-- [Dash porta la privacy Zcash di Orchard nella chain Evolution per transazioni schermate](https://hackernoon.com/dash-brings-zcash-orchard-privacy-to-evolution-chain-for-shielded-transactions) — HackerNoon
+- [Dash lancia la tecnologia Orchard di Zcash in un aggiornamento della privacy](https://www.cryptopolitan.com/dash-launch-zcash-orchard-technology/) — Cryptopolitan
+- [Dash porta la privacy Orchard di Zcash nella chain Evolution per transazioni schermate](https://hackernoon.com/dash-brings-zcash-orchard-privacy-to-evolution-chain-for-shielded-transactions) — HackerNoon
 
 *Fonti verificate il 27 settembre 2026. Dash Platform e ZIP 312 sono entrambi in evoluzione; figure e stati dovrebbero essere verificati nuovamente prima della ripubblicazione.*

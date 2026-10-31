@@ -175,4 +175,4 @@ The ShapeShift and Zcash integration represents a meaningful step forward for pr
 
 [ShapeShift na-ekpughe v4.0, re-centering nzuzo na njide onwe onye na DeFi (Invezz)](https://invezz.com/news/2025/12/18/shapeshift-unveils-version-4-0-re-centering-privacy-and-self-custody-in-defi/)
 
-[ShapeShift na-agbasa nkwado maka azụmahịa Zcash echekwara (CoinTelegraph)](https://cointelegraph.com/news/shapeshift-rolls-out-support-for-shielded-zcash-transactions-for-true-privacy)
+[ShapeShift na-agbasa nkwado maka azụmahịa Zcash echekwara (Cointelegraph)](https://cointelegraph.com/news/shapeshift-rolls-out-support-for-shielded-zcash-transactions-for-true-privacy)

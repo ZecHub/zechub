@@ -3,9 +3,9 @@
 </a>
 
 
-#  Visualizzare la rete Zcash
+#  Visualizzare la rete di Zcash
 
-Quella che segue è una guida su come eseguire il crawler Ziggurat 3.0 per Zcash insieme ai programmi associati Crunchy e P2P-Viz su Ubuntu 22.04 per raccogliere e visualizzare le informazioni sulla rete Zcash.  
+Quella che segue è una guida su come eseguire il crawler Ziggurat 3.0 per Zcash insieme ai programmi associati Crunchy e P2P-Viz su Ubuntu 22.04 per raccogliere e visualizzare le informazioni sulla rete di Zcash.  
 Il video collegato qui sotto segue lo stesso procedimento.
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
@@ -58,7 +58,7 @@ sudo apt upgrade
 
 ----------------
 
-## Crawler della rete Zcash
+## Crawler della rete di Zcash
 
 Il crawler di Zcash risiede dentro una cartella chiamata 'zcash', quindi potrebbe essere consigliabile creare una nuova directory prima di clonare il crawler (repo runziggurat/zcash).
 
@@ -122,7 +122,7 @@ cargo run --release --features crawler --bin crawler -- --help
 
 Questo compilerà il programma e si assicurerà che tutto funzioni correttamente.
 
-Per eseguire il crawler, è necessario aggiungere un flag '--seed-addrs' al comando di avvio, contenente almeno un indirizzo IP valido di un nodo Zcash. Il crawler dovrebbe essere lasciato in esecuzione per un periodo di tempo ragionevole per ottenere un risultato accurato. Alcuni indirizzi IP di nodi di esempio si possono trovare su [https://mainnet.zcashexplorer.app/nodes](https://mainnet.zcashexplorer.app/nodes).
+Per eseguire il crawler, è necessario aggiungere un flag '--seed-addrs' al comando di avvio, contenente almeno un indirizzo IP valido di un nodo di Zcash. Il crawler dovrebbe essere lasciato in esecuzione per un periodo di tempo ragionevole per ottenere un risultato accurato. Alcuni indirizzi IP di nodi di esempio si possono trovare su [https://mainnet.zcashexplorer.app/nodes](https://mainnet.zcashexplorer.app/nodes).
 
 Per ottenere informazioni dal crawler mentre è in esecuzione, è necessario aggiungere il flag '--rpc-addr' al comando di avvio. Non è richiesto per eseguire solamente il crawler in sé, ma altrimenti richiederà di arrestare il crawler (ctrl+c o SIGKILL) per visualizzare qualsiasi informazione.
 
@@ -182,7 +182,7 @@ Copia e incolla il file 'latest.json' nella cartella 'crunchy/testdata/'.
 cargo run --release -- -i testdata/latest.json -o testdata/state.json -g testdata/geoip-cache.json -f Zcash
 ```
 
-Questo creerà un file 'state.json' filtrato sui nodi Zcash nella cartella 'crunchy/testdata/' da usare con P2P-Viz.
+Questo creerà un file 'state.json' filtrato sui nodi di Zcash nella cartella 'crunchy/testdata/' da usare con P2P-Viz.
 
 ----------------
 

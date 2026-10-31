@@ -175,4 +175,4 @@
 
 [ShapeShift تكشف عن v4.0 مع إعادة تركيز الخصوصية والحفظ الذاتي في DeFi (Invezz)](https://invezz.com/news/2025/12/18/shapeshift-unveils-version-4-0-re-centering-privacy-and-self-custody-in-defi/)
 
-[ShapeShift تطلق دعماً للمعاملات المحمية في Zcash (CoinTelegraph)](https://cointelegraph.com/news/shapeshift-rolls-out-support-for-shielded-zcash-transactions-for-true-privacy)
+[ShapeShift تطلق دعماً للمعاملات المحمية في Zcash (Cointelegraph)](https://cointelegraph.com/news/shapeshift-rolls-out-support-for-shielded-zcash-transactions-for-true-privacy)

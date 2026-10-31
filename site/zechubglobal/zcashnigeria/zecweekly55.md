@@ -36,7 +36,7 @@ Ka ni kikun  [níbi yìí](https://free2z.cash/James_Katz/zpage/compiling-zecwal
 
 
 #### Awujo Ise Agbese 
-[Ègbé Zechub ati Ègbé ZFAV tí fí ọwọ sọ wọ́pọ̀](https://twitter.com/ZecHub/status/1690001353379135488) 
+[Ègbé ZecHub ati Ègbé ZFAV tí fí ọwọ sọ wọ́pọ̀](https://twitter.com/ZecHub/status/1690001353379135488) 
 
 [Imudojuiwọn Free2z:Ilosiwaju Multimedia](https://twitter.com/Edicksonjga/status/168899615570565939) 
 
@@ -79,7 +79,7 @@ Awọn ara ilu Kanada nifẹ si awọn owo nẹtiwoki ikọkọ - Flash News New
 ## Awon oro die Nipa ZCash Lori Twitter
 [Kini idi ti O ko le ṣe iranlọwọ Ṣugbọn Gbadun Nipa Zcash](https://twitter.com/ZforZcash/status/1689903350995664896) 
 
-[Zechub, ile-iṣẹ ẹkọ fun Zcash - Zcashesp](https://twitter.com/zcashesp/status/1690079675039567872) 
+[ZecHub, ile-iṣẹ ẹkọ fun Zcash - Zcashesp](https://twitter.com/zcashesp/status/1690079675039567872) 
 
 [Ti nwọle ni crypto jẹ pataki bi ni eyikeyi eka miiran - Michae2x](https://twitter.com/michae2xl/status/1689667573908905984) 
 

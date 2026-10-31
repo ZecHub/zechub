@@ -8,7 +8,7 @@
 
 Le pool schermate di Zcash nascondono importi, mittenti e destinatari on-chain. Non nascondono il percorso di rete tra un portafoglio e il server lightwallet. La mixnet di Nym aggiunge questa protezione mancante a livello di rete. A ottobre 2026, l'integrazione è attiva nei portafogli di produzione (Zingo, Zkool).
 
-Fonte: [Come Nym aggiunge anonimato ai portafogli Zcash](https://nym.com/blog/zcash-mixnet-anonymity) (Nym, 13 ottobre 2026).
+Fonte: [Come Nym aggiunge anonimato ai portafogli di Zcash](https://nym.com/blog/zcash-mixnet-anonymity) (Nym, 13 ottobre 2026).
 
 ## Cosa è protetto
 
@@ -34,7 +34,7 @@ Se il tuo modello di minaccia richiede di nascondere il traffico di sincronizzaz
 | Zkool | Attivo | Integrazione nativa della mixnet. |
 | Altri | Tramite NymVPN | Instrada il portafoglio attraverso la modalità Mixnet a livello di sistema. |
 
-I dettagli di configurazione per il percorso a livello di portafoglio sono disponibili in [Instrada il traffico del portafoglio Zcash attraverso la mixnet Nym](/guides/nym-mixnet-wallet-setup).
+I dettagli di configurazione per il percorso a livello di portafoglio sono disponibili in [Instrada il traffico del portafoglio di Zcash attraverso la mixnet Nym](/guides/nym-mixnet-wallet-setup).
 
 ## Compromessi
 
@@ -57,8 +57,8 @@ Il crate espone i trait `BlockSource` e `TxBroadcaster`, viene compilato per `wa
 
 ## Fonti
 
-- [Come Nym aggiunge anonimato ai portafogli Zcash](https://nym.com/blog/zcash-mixnet-anonymity) — Nym, 13 ottobre 2026
-- [nym-swizzle-zcash: policy di igiene per i light client Zcash](https://nym.com/docs/developers/swizzle/zcash) — Documentazione di Nym
+- [Come Nym aggiunge anonimato ai portafogli di Zcash](https://nym.com/blog/zcash-mixnet-anonymity) — Nym, 13 ottobre 2026
+- [nym-swizzle-zcash: policy di igiene per i light client di Zcash](https://nym.com/docs/developers/swizzle/zcash) — Documentazione di Nym
 - [Zingo + Nym](https://zingolabs.org/zingo/blog/zingo-nym/) — Zingo Labs
-- [Instrada il traffico del portafoglio Zcash attraverso la mixnet Nym](/guides/nym-mixnet-wallet-setup) — ZecHub
+- [Instrada il traffico del portafoglio di Zcash attraverso la mixnet Nym](/guides/nym-mixnet-wallet-setup) — ZecHub
 - [Nym VPN](/guides/nym-vpn) — ZecHub

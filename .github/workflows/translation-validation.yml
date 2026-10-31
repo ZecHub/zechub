@@ -146,6 +146,23 @@ jobs:
       - name: Model-reply gate self-test
         run: node --test scripts/check-model-replies.test.mjs
 
+      # Damage from a model REORDERING a sentence around the placeholders that
+      # hide protected names and link brackets (#2427): a name glued to the
+      # next word («[ZcashΠορτοφόλια του οικοσυστήματος]», «[Zebraполный
+      # узел]») in locales whose script separates words with spaces, a link
+      # whose "[" moved after its "](url)", and a link text pushed onto a
+      # function word («[ του ](…)»). Bracket counts stay equal, so the
+      # manifest invariants pass these. CJK locales are exempt from the glue
+      # rule (no spaces there). Same scope rule as model replies: translated
+      # pages the PR changes; damage already at the base is a notice.
+      - name: Reorder damage on changed translations
+        env:
+          BASE_REF_OUT: ${{ steps.base.outputs.ref }}
+        run: node scripts/check-reorder-damage.mjs --base "$BASE_REF_OUT"
+
+      - name: Reorder-damage gate self-test
+        run: node --test scripts/check-reorder-damage.test.mjs
+
       # Numbers and dates on the TRANSLATED pages a PR changes. Engines garble
       # numbers while the rest of the page stays intact: "ZIP 2emma" and
       # "November 202kan" from the local model, a changed block height, a

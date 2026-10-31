@@ -2,7 +2,7 @@
 
 Guida su Twitter:  => [Guida Twitter all'integrazione del portafoglio hardware Zashi x Keystone](https://x.com/zashi_app/status/1869793574880973144) 
 
-Questa integrazione segna un'evoluzione significativa nell'usabilità di Zcash, abilitando la conservazione a freddo (cold storage) di ZEC schermati. La comunità Zcash ha affrontato battute d'arresto con altre piattaforme di portafogli hardware in passato, ma Keystone è emerso come un partner collaborativo disposto a superare i limiti e a innovare al fianco della Electric Coin Company. Il team di Keystone ha ricevuto un finanziamento ZCG per finanziare la propria parte del lavoro.
+Questa integrazione segna un'evoluzione significativa nell'usabilità di Zcash, abilitando la conservazione a freddo (cold storage) di ZEC schermati. La comunità di Zcash ha affrontato battute d'arresto con altre piattaforme di portafogli hardware in passato, ma Keystone è emerso come un partner collaborativo disposto a superare i limiti e a innovare al fianco della Electric Coin Company. Il team di Keystone ha ricevuto un finanziamento ZCG per finanziare la propria parte del lavoro.
 
 ## Tutorial Keystone X Zashi
 

@@ -182,5 +182,5 @@ En conclusion, Free2z est une plate-forme polyvalente permettant aux créateurs 
 [Free2z pour les supporters](https://web.archive.org/web/20260118172223/https://free2z.cash/docs/category/for-supporters/)
 
 ---
-_Écrit par James Katz pour Zechub._
+_Écrit par James Katz pour ZecHub._
 

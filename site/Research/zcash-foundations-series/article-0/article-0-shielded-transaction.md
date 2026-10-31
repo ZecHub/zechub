@@ -221,7 +221,7 @@ You now hold the map. The rest of the series fills it in.
 | **Nullifier** | A unique "spent" marker published when a note is used, preventing double-spends |
 | **Zero-knowledge proof** | A proof that a statement is true while revealing nothing beyond its truth |
 | **Shielding / deshielding** | Moving funds into / out of the private shielded world |
-| **Viewing key** | The key that lets the owner detect and read notes addressed to them |
+| **Viewing Key** | The key that lets the owner detect and read notes addressed to them |
 
 ---
 

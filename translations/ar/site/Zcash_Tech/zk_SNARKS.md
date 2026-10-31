@@ -161,7 +161,7 @@ Transparent Setup (No Trusted Setup)- لا تستخدم خوارزمية الم�
 
 [Groth16](https://eprint.iacr.org/2016/260): يتطلب Trusted Setup، لكنه يوفّر إثباتات قصيرة جدًا يمكن التحقق منها بسرعة.
 
-[Sonic](https://www.youtube.com/watch?v=oTRAg6Km1os)/[Marlin](https://www.youtube.com/watch?v=bJDLf8KLdL0)/[Plonk](https://eprint.iacr.org/2019/953): Trusted Setup عام.
+[Sonic](https://www.youtube.com/watch?v=oTRAg6Km1os)/[Marlin](https://www.youtube.com/watch?v=bJDLf8KLdL0)/[PLONK](https://eprint.iacr.org/2019/953): Trusted Setup عام.
 
 [DARK](https://eprint.iacr.org/2019/1229)/[Halo](https://eprint.iacr.org/archive/2019/1021/20200218:011907)/[STARK](https://www.youtube.com/watch?v=wFZ_YIetK1o): لا تتطلب إعدادًا موثوقًا، لكنها تنتج إثباتات أطول قليلًا أو قد تستغرق وقتًا أطول لتشغيل المُثبِت.
 

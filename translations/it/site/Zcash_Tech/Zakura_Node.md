@@ -4,20 +4,18 @@
 
 # Nodo Zakura
 
-> 🇧🇷 [Versione in portoghese](/pt/zcash-tech/zakura-node)
-
 Zakura è un'implementazione gratuita e open source di un full node (nodo completo) per Zcash, progettata per la scalabilità. Derivata da [Zebra](Zebra_Full_Node.md) e sviluppata attraverso una collaborazione tra **Valar Group** e **Project Tachyon**, Zakura offre una sincronizzazione notevolmente più veloce, potatura nativa dei blocchi e un livello di compatibilità per gli strumenti legacy di `zcashd`. La versione 1.0.0 è stata rilasciata il 15 luglio 2026.
 
 ---
 
 ## In breve
 
-- Zakura è un **full node Zcash compatibile con il consenso** — un'alternativa a Zebra e zcashd, derivata da Zebra.
+- Zakura è un **full node di Zcash compatibile con il consenso** — un'alternativa a Zebra e zcashd, derivata da Zebra.
 - La sincronizzazione della blockchain è circa **5× più veloce di Zebra**; l'avvio tramite snapshot richiede **meno di 2 minuti**.
 - La **potatura nativa dei blocchi** permette agli operatori di eseguire un full node con molto meno spazio su disco (~11 GB per uno snapshot potato rispetto ai 300 GB di un full node Zebra).
 - Una **modalità di compatibilità RPC zcashd** consente a portafogli e integrazioni esistenti di funzionare senza modifiche.
 - Un **livello di trasporto P2P sperimentale** (disabilitato per impostazione predefinita) punta a una propagazione dei blocchi inferiore a 500 ms con gossip resistente ai DoS.
-- Compatibile con **Ironwood (NU6.3)**, l'aggiornamento di rete Zcash attivato a metà del 2026.
+- Compatibile con **Ironwood (NU6.3)**, l'aggiornamento di rete di Zcash attivato a metà del 2026.
 - **Zakura Common** (v1.3.0, agosto 2026) accelera la crittografia che i portafogli usano per costruire transazioni private: da oltre 3 secondi a meno di 200 ms in molti casi, secondo i benchmark di Zakura.
 - Guidato da **Sean Bowe** (cofondatore di Zcash, Project Tachyon) e **Dev Ojha** (Valar Group).
 
@@ -25,7 +23,7 @@ Zakura è un'implementazione gratuita e open source di un full node (nodo comple
 
 ## Cos'è Zakura?
 
-Zakura è un full node Zcash progettato da zero per essere pronto alla produzione su larga scala. Sebbene condivida la compatibilità di consenso con Zebra — ossia convalida e segue le stesse regole del protocollo Zcash — Zakura introduce significativi miglioramenti ingegneristici volti a ridurre la barriera all'esecuzione di un full node Zcash.
+Zakura è un full node di Zcash progettato da zero per essere pronto alla produzione su larga scala. Sebbene condivida la compatibilità di consenso con Zebra — ossia convalida e segue le stesse regole del protocollo Zcash — Zakura introduce significativi miglioramenti ingegneristici volti a ridurre la barriera all'esecuzione di un full node di Zcash.
 
 Il progetto è uno sforzo congiunto tra **Project Tachyon** (guidato da Sean Bowe, uno degli ingegneri crittografici originali di Zcash) e **Valar Group** (guidato da Dev Ojha). Insieme si concentrano sui miglioramenti del protocollo Zcash di nuova generazione, e Zakura funge da nodo di riferimento per questo lavoro.
 
@@ -65,11 +63,11 @@ Zakura viene fornito con un livello di trasporto peer-to-peer di nuova generazio
 - Aggregazione della mempool per una trasmissione delle transazioni più efficiente
 - Protocollo gossip resistente ai DoS per migliorare la resilienza della rete
 
-Questo livello rappresenta un'anteprima dei futuri miglioramenti a livello di rete Zcash sviluppati nell'ambito di Project Tachyon.
+Questo livello rappresenta un'anteprima dei futuri miglioramenti a livello di rete di Zcash sviluppati nell'ambito di Project Tachyon.
 
 ### Compatibile con Ironwood (NU6.3)
 
-Zakura è pienamente compatibile con l'aggiornamento di rete Ironwood (NU6.3), attivato sulla mainnet Zcash a metà del 2026.
+Zakura è pienamente compatibile con l'aggiornamento di rete Ironwood (NU6.3), attivato sulla mainnet di Zcash a metà del 2026.
 
 ---
 
@@ -93,7 +91,7 @@ Per gli utenti, il cambiamento più visibile è il tempo di attesa. La creazione
 
 ---
 
-## Come Zakura si relaziona agli altri nodi Zcash
+## Come Zakura si relaziona agli altri nodi di Zcash
 
 | | zcashd | Zebra | Zakura |
 |--|--------|-------|--------|
@@ -119,9 +117,9 @@ Le opzioni di download, gli snapshot e la documentazione di configurazione sono 
 
 ## Pagine correlate
 
-- [Full node Zebra](Zebra_Full_Node.md) — il full node Zcash upstream da cui è stato derivato Zakura
+- [Full node Zebra](Zebra_Full_Node.md) — il full node di Zcash upstream da cui è stato derivato Zakura
 - [Indicizzatore Zaino](Zaino.md) — un indicizzatore basato su Rust compatibile con Zebra e Zakura
-- [Full node](Full_Nodes.md) — panoramica delle opzioni di full node Zcash
+- [Full node](Full_Nodes.md) — panoramica delle opzioni di full node di Zcash
 - [Nodi Lightwallet](Lightwallet_Nodes.md) — alternative leggere per client
 
 ## Risorse

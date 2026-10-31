@@ -43,22 +43,22 @@ La privacidad de Zcash proviene de las direcciones blindadas. Cuando ZEC se muev
 Un swap tiene partes que Zcash no puede ocultar:
 
 - **La red de origen.** Los fondos que envías desde Solana, Ethereum u otra cadena pública son visibles en esa cadena, incluida tu dirección y el importe.
-- **La dirección de recepción.** Algunas rutas de swap envían ZEC a una dirección transparente. Por ejemplo, Near Intents enumera ZEC como compatible únicamente con [direcciones transparentes](https://docs.near-intents.org/resources/chain-support). Los ZEC enviados a una dirección transparente (t1 o t3) son públicos, al igual que Bitcoin. Blindarlos después protege lo que hagas a continuación, pero la transferencia entrante y la transacción de blindaje siguen siendo visibles.
+- **La dirección de recepción.** Algunas rutas de swap envían ZEC a una dirección transparente. Por ejemplo, NEAR Intents enumera ZEC como compatible únicamente con [direcciones transparentes](https://docs.near-intents.org/resources/chain-support). Los ZEC enviados a una dirección transparente (t1 o t3) son públicos, al igual que Bitcoin. Blindarlos después protege lo que hagas a continuación, pero la transferencia entrante y la transacción de blindaje siguen siendo visibles.
 - **El servicio.** La aplicación y cualquier servicio de enrutamiento ven las direcciones y los importes que les proporcionas, además de datos de conexión como tu dirección IP.
 
 Envía los ZEC a una wallet que controles y blíndalos antes de gastarlos. [Uso privado de ZEC](/guides/using-zec-privately) cubre los pasos siguientes.
 
 ### **Quién interviene en un swap**
 
-Tomemos como ejemplo un swap enrutado mediante el servicio 1Click de Near Intents. Sus [términos de la API](https://docs.near-intents.org/security-compliance/terms-of-service) tratan estos elementos como partes separadas:
+Tomemos como ejemplo un swap enrutado mediante el servicio 1Click de NEAR Intents. Sus [términos de la API](https://docs.near-intents.org/security-compliance/terms-of-service) tratan estos elementos como partes separadas:
 
 - **La interfaz**: el sitio web o la wallet que utilizas. Puede estar gestionada por Intents Technology o por un tercero con sus propios términos.
 - **1Click**: un servicio de enrutamiento y liquidación gestionado por Intents Technology Limited. Envías fondos a una dirección de depósito creada para tu cotización. La documentación indica que 1Click no toma custodia, pero los términos señalan que los activos pueden mantenerse o bloquearse en infraestructura de bridges mientras una transferencia está en curso.
-- **El protocolo**: los contratos inteligentes de Near Intents.
+- **El protocolo**: los contratos inteligentes de NEAR Intents.
 - **Solucionadores**: terceros independientes que completan la cotización.
 - **Bridges**: los ZEC nativos se mueven a través del PoA Bridge, operado por Intents Technology.
 
-Near Intents también [examina los flujos de cotizaciones integrados](https://docs.near-intents.org/security-compliance/risk-and-compliance) frente a varias bases de datos AML, e indica que la cobertura varía según el flujo y la integración. Según sus términos, un swap señalado puede retrasarse, bloquearse, congelarse o rechazarse.
+NEAR Intents también [examina los flujos de cotizaciones integrados](https://docs.near-intents.org/security-compliance/risk-and-compliance) frente a varias bases de datos AML, e indica que la cobertura varía según el flujo y la integración. Según sus términos, un swap señalado puede retrasarse, bloquearse, congelarse o rechazarse.
 
 ### **Qué compartes durante un swap**
 
@@ -72,8 +72,8 @@ Near Intents también [examina los flujos de cotizaciones integrados](https://do
 Los términos cambian, así que lee las versiones actuales antes de realizar un swap grande.
 
 - **Comienza con la aplicación que utilizas.** Es tu principal punto de contacto. Los términos de la API de 1Click indican que Intents Technology no tiene una relación directa con los usuarios de las aplicaciones creadas sobre ella.
-- **Near Intents:** los términos y la política de privacidad en near.com/terms y near.com/privacy, además de los [términos de la API de 1Click](https://docs.near-intents.org/security-compliance/terms-of-service) y [riesgo y cumplimiento](https://docs.near-intents.org/security-compliance/risk-and-compliance).
-- **Seguimiento y soporte:** busca un swap en el [Explorador de Near Intents](https://explorer.near-intents.org) o pregunta en el [Near Intents Telegram](https://t.me/near_intents).
+- **NEAR Intents:** los términos y la política de privacidad en near.com/terms y near.com/privacy, además de los [términos de la API de 1Click](https://docs.near-intents.org/security-compliance/terms-of-service) y [riesgo y cumplimiento](https://docs.near-intents.org/security-compliance/risk-and-compliance).
+- **Seguimiento y soporte:** busca un swap en el [Explorador de NEAR Intents](https://explorer.near-intents.org) o pregunta en el [NEAR Intents Telegram](https://t.me/near_intents).
 - **Reembolsos:** un swap fallido puede devolverse a la dirección de reembolso que proporcionaste, pero los términos de near.com indican que un reembolso no está garantizado. Los términos de 1Click también indican que no se consideran solicitudes de recuperación por errores de usuario inferiores a USD 300.
 
 Ahora, exploremos algunos de los exchanges no custodiales accesibles que facilitan el comercio de Zcash. Utilizar estas plataformas te proporcionará un medio conveniente para adquirir más monedas Zcash.

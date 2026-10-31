@@ -1,6 +1,6 @@
 # Guida utente di Ledger Shielded ZEC
 
-Il 23 settembre 2026 Ledger ha aggiunto il supporto nativo schermato per ZEC a Ledger Wallet Desktop. Un account Zcash ora contiene un saldo trasparente e un saldo privato nella pool Ironwood di Zcash. Le tue chiavi private restano sul tuo Ledger, e ogni transazione viene esaminata e firmata sul dispositivo.
+Il 23 settembre 2026 Ledger ha aggiunto il supporto nativo schermato per ZEC a Ledger Wallet Desktop. Un account di Zcash ora contiene un saldo trasparente e un saldo privato nella pool Ironwood di Zcash. Le tue chiavi private restano sul tuo Ledger, e ogni transazione viene esaminata e firmata sul dispositivo.
 
 **Solo desktop.** L'annuncio di Ledger afferma che il supporto schermato per ZEC è "disponibile solo su Ledger Wallet Desktop. Il supporto mobile non è disponibile al momento, ma arriverà presto." L'app desktop mostra lo stesso avviso. Verificato il 15 ottobre 2026.
 
@@ -19,7 +19,7 @@ Il 23 settembre 2026 Ledger ha aggiunto il supporto nativo schermato per ZEC a L
 - Cerca **Zcash** nel catalogo delle app, quindi fai clic su **Installa**, oppure su **Aggiorna** se è già installata.
 - Apri l'app Zcash sul tuo Ledger. Lo schermo mostra "L'app Zcash è pronta". Scorri verso destra fino a **Informazioni sull'app** per verificare la versione.
 
-**2. Aggiungi un account Zcash**
+**2. Aggiungi un account di Zcash**
 - In Ledger Wallet, scegli **Aggiungi account**. In **Seleziona asset**, cerca Zcash e seleziona **Zcash (ZEC)**, non un token wrapped come Binance-Peg Zcash Token.
 - Con l'app Zcash aperta sul tuo Ledger, Ledger Wallet trova il tuo account. Selezionalo in **Seleziona gli account che vuoi aggiungere** e fai clic su **Conferma**.
 - La pagina dell'account mostra **Saldo disponibile**, **Saldo trasparente** e **Saldo privato**, oltre a un pulsante **Abilita schermatura**.
@@ -36,7 +36,7 @@ Il 23 settembre 2026 Ledger ha aggiunto il supporto nativo schermato per ZEC a L
 ![Enable Zcash private balance window showing UFVK successfully imported and the Start sync button](https://raw.githubusercontent.com/ZecHub/zechub/main/site/guides/assets/ledger-zec-02-ufvk-imported.png)
 
 **4. Ricevi ZEC e verifica entrambi gli indirizzi sul tuo Ledger**
-- Fai clic su **Ricevi** e seleziona il tuo account Zcash. Ledger Wallet mostra un **Indirizzo per Zcash 1** (trasparente, che inizia con t1) e un **Indirizzo privato per Zcash 1** (che inizia con u1). Gli indirizzi precedenti restano validi.
+- Fai clic su **Ricevi** e seleziona il tuo account di Zcash. Ledger Wallet mostra un **Indirizzo per Zcash 1** (trasparente, che inizia con t1) e un **Indirizzo privato per Zcash 1** (che inizia con u1). Gli indirizzi precedenti restano validi.
 - Il tuo Ledger mostra "Verifica gli indirizzi Zcash", l'**Indirizzo privato** su due pagine, poi l'**Indirizzo pubblico**. Confronta ogni carattere con lo schermo prima di condividere uno dei due indirizzi, quindi conferma sul dispositivo.
 - Preferisci l'indirizzo privato; usa quello trasparente solo quando il mittente non supporta altro.
 
@@ -71,7 +71,7 @@ Il 23 settembre 2026 Ledger ha aggiunto il supporto nativo schermato per ZEC a L
 - Il supporto schermato per ZEC su Ledger è per ora disponibile solo su desktop (verificato il 15 ottobre 2026).
 - Il saldo privato di Ledger Wallet utilizza la pool Ironwood.
 - Ledger afferma che puoi condividere l'accesso in sola lettura alla cronologia delle tue transazioni con un consulente fiscale. Chiunque disponga delle tue chiavi di visualizzazione può vedere la tua cronologia schermata, quindi condividile solo intenzionalmente.
-- Le schermate del dispositivo in questa guida sono state acquisite con l'emulatore Speculos di Ledger (Nano S Plus), che eseguiva l'app Zcash 3.9.4, collegato a Ledger Wallet Desktop 4.24.0 su mainnet Zcash. Un Ledger fisico esegue la stessa app e mostra le stesse schermate.
+- Le schermate del dispositivo in questa guida sono state acquisite con l'emulatore Speculos di Ledger (Nano S Plus), che eseguiva l'app Zcash 3.9.4, collegato a Ledger Wallet Desktop 4.24.0 su mainnet di Zcash. Un Ledger fisico esegue la stessa app e mostra le stesse schermate.
 
 ## Ulteriore assistenza
 

@@ -26,7 +26,7 @@
 
 
 - Zcash kullanıcısı, zingo-cli'ye erişim sağlayan Zingolib'i kurar/derler. Gerektiğinde ZEC gönderip alabilir.
-- Zingo-cli, zaino'ya ya yerel olarak ya da çevrimiçi güvenli bir kanal üzerinden bağlanır (Zcash kullanıcısı bunun nasıl çalıştığını umursamaz!)
+- zingo-cli, zaino'ya ya yerel olarak ya da çevrimiçi güvenli bir kanal üzerinden bağlanır (Zcash kullanıcısı bunun nasıl çalıştığını umursamaz!)
 - Zaino, zebrad veya zcashd erişimi sağlar            
 - Tamamen senkronize edilmiş zebrad, gerçeğin kaynağıdır (artık burada cüzdan yok!)
 

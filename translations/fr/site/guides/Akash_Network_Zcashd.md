@@ -475,7 +475,7 @@ Le fournisseur peut avoir des problèmes réseau ou une bande passante faible. C
 
 ### Échecs d'authentification RPC
 
--> Vérifiez que *ZCASHD_RPCUSER* et *ZCASHD_RPCPASSWORD* sont correctement définis
+-> Vérifiez que `ZCASHD_RPCUSER` et `ZCASHD_RPCPASSWORD` sont correctement définis
 
 -> Vérifiez que vous utilisez le bon port (8232 pour le mainnet, 18232 pour le testnet)
 

@@ -3,7 +3,7 @@
 </a>
 
 # <img src="/content-images/image-2024-02-03-164918723-f59419848a.webp" alt="Alt Text" width="50"/>    Electric Coin Company (Cierre)
-[Sitio web](https://electriccoin.co) - [Github](https://github.com/zodl-inc) - [X/Twitter](https://x.com/ElectricCoinCo)
+[Sitio web](https://electriccoin.co) - [GitHub](https://github.com/zodl-inc) - [X/Twitter](https://x.com/ElectricCoinCo)
 
 > **Sobre ese enlace de GitHub.** Los repositorios de ECC están en `zodl-inc`. Es la misma organización, renombrada cuando el equipo pasó a [ZODL](/zcash-organizations/zodl). El antiguo nombre `github.com/Electric-Coin-Company` fue registrado por una parte no relacionada en mayo de 2026 y no tiene nada que ver con ECC ni con ZODL, así que no confíes en el código publicado allí.
 

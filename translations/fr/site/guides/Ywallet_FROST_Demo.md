@@ -16,7 +16,7 @@
 
 ## Compiler les binaires FROST
 
-[Lien Github](https://github.com/ZcashFoundation/frost-zcash-demo)
+[Lien GitHub](https://github.com/ZcashFoundation/frost-zcash-demo)
 
 Utilisez le dépôt ci-dessus et suivez les instructions de compilation : 
 

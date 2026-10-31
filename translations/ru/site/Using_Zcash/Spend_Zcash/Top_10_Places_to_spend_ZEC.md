@@ -52,7 +52,7 @@ Zcash вместе с ZEC предлагает улучшенные функци
 
 теперь вы знаете, где потратить свои ZEC!
 
-**Веб-сайт**: sheemprende.com закрыт и больше не работает. Связаться с ней можно через [Free2z](https://free2z.cash/SheEmprende) | [платформу X](https://twitter.com/SheEmprende_)
+**Веб-сайт**: sheemprende.com закрыт и больше не работает. Связаться с ней можно через [Free2Z](https://free2z.cash/SheEmprende) | [платформу X](https://twitter.com/SheEmprende_)
 
 **Zcash Unified Address:** 
 
@@ -74,7 +74,7 @@ Rosa с гордостью улыбается, показывая, что при
 
 **Веб-сайт**: somosdulceros.com закрыт и больше не работает. Используйте ссылки на социальные сети ниже.
 
-**Социальные сети:** [Instagram](https://www.instagram.com/somos_dulceros) | [платформа X](https://twitter.com/RosaMRangel) | [Free2z](https://free2z.cash/Criptodulceros/zpage/criptodulceros-01)
+**Социальные сети:** [Instagram](https://www.instagram.com/somos_dulceros) | [платформа X](https://twitter.com/RosaMRangel) | [Free2Z](https://free2z.cash/Criptodulceros/zpage/criptodulceros-01)
 
 **Zcash Unified Address:** 
 
@@ -106,7 +106,7 @@ Elizabeth — увлечённая молодая мама, которая лю�
 
 **Социальные сети** 
 
-[Instagram](https://instagram.com/papelesacolor) | [Free2z](https://free2z.cash/PapelesaColor) 
+[Instagram](https://instagram.com/papelesacolor) | [Free2Z](https://free2z.cash/PapelesaColor) 
 
 [Linktree](https://linktr.ee/Papelesacolor)
 
@@ -167,7 +167,7 @@ u14g5wzyan35s5fq4glf7hsf0wteuskr3dgfs25wkr2tk5dq6sqrfpq8pqmme5yp7c3eq42tlssgv5hw
 
 GorBrit принимает различные способы оплаты, включая криптовалюты, среди которых есть **Zcash.**
 
-**Unified address** 
+**Unified Address** 
 
 ```
 u1l2lxdx2en962h3utm24fthm0r9q5cxc4705jeatq4lckm92k06htdk8jear9tsay7w8xz4najnv0mpnngalctdtqnh9dv3d4fsr3lqxk0jhgfukujzca752eqj4pyeklgymk0j72lfs85r3vnpx48jkgk5v0zk5zl7nx4mlyaxq7xm0k7wfjnt9h86d4wxvrm45w358qkd60cdckp4h
@@ -193,7 +193,7 @@ u1l2lxdx2en962h3utm24fthm0r9q5cxc4705jeatq4lckm92k06htdk8jear9tsay7w8xz4najnv0mp
 
 **Социальные сети:**
 
-[Telegram](https://t.me/Robmarn) | [платформа X](https://twitter.com/robmarn) | [Free2z](https://free2z.cash/robmarn)
+[Telegram](https://t.me/Robmarn) | [платформа X](https://twitter.com/robmarn) | [Free2Z](https://free2z.cash/robmarn)
 
 📍 Баркисимето — Венесуэла 
 
@@ -261,7 +261,7 @@ Tecnopapapi — нужный человек, с которым стоит свя
 
 **Социальные сети** 
 
-Free2z | [Telegram](https://t.me/Lexihel) | [YouTube](https://youtube.com/@tecnopapapi) | [платформа X](https://twitter.com/tecnopapapi) | [TikTok](https://www.tiktok.com/@lexihel) | [Instagram](https://www.instagram.com/tecnopapapi/) |  [Facebook](https://www.facebook.com/tecnopapapi) 
+Free2Z | [Telegram](https://t.me/Lexihel) | [YouTube](https://youtube.com/@tecnopapapi) | [платформа X](https://twitter.com/tecnopapapi) | [TikTok](https://www.tiktok.com/@lexihel) | [Instagram](https://www.instagram.com/tecnopapapi/) |  [Facebook](https://www.facebook.com/tecnopapapi) 
 
 Tecnopapapi принимает криптовалюты (включая 3ZEC) и другие способы оплаты. 
 

@@ -9,7 +9,7 @@
 
 ## 背景
 
-[Zcash コミュニティ グラント](https://x.com/ZcashCommGrants)プログラムによって資金提供され、[37 LAINES](https://www.37laines.com/)が公共の利益のために制作したZcash Mediaは、Zcashおよび暗号資産に関する教育動画を提供しています。これは、Zcashエコシステムにおいて重要なプレイヤーとなっています。
+[Zcash Community Grants](https://x.com/ZcashCommGrants)プログラムによって資金提供され、[37 LAINES](https://www.37laines.com/)が公共の利益のために制作したZcash Mediaは、Zcashおよび暗号資産に関する教育動画を提供しています。これは、Zcashエコシステムにおいて重要なプレイヤーとなっています。
 
 ## 動画
 

@@ -161,7 +161,7 @@ Eto ti o han gbangba (Ko si Eto ti a gbẹkẹle) - Algorithm ti a ṣe ṣaaju 
 
 [Groth16](https://eprint.iacr.org/2016/260): Ó nílò ètò tí a gbẹ́kẹ̀lé ṣùgbọ́n ó ní àwọn ẹ̀rí kúkúrú tí a lè fìdí rẹ̀ múlẹ̀ kíákíá.
 
-[Sonic](https://www.youtube.com/watch?v=oTRAg6Km1os)/[Marlin](https://www.youtube.com/watch?v=bJDLf8KLdL0)/[Plonk](https://eprint.iacr.org/2019/953): Eto ti a gbẹkẹle gbogbo agbaye.
+[Sonic](https://www.youtube.com/watch?v=oTRAg6Km1os)/[Marlin](https://www.youtube.com/watch?v=bJDLf8KLdL0)/[PLONK](https://eprint.iacr.org/2019/953): Eto ti a gbẹkẹle gbogbo agbaye.
 
 [DUDU](https://eprint.iacr.org/2019/1229)/[Halo](https://eprint.iacr.org/archive/2019/1021/20200218:011907)/[STARK](https://www.youtube.com/watch?v=wFZ_YIetK1o): Ko si Eto ti a gbẹkẹle ṣugbọn o ṣe awọn ẹri ti o gun diẹ tabi o le gba akoko diẹ fun prover lati ṣiṣẹ. 
 

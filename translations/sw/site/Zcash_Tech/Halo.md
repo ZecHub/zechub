@@ -106,7 +106,7 @@ ECC, Filecoin Foundation, Protocol Labs na Ethereum Foundation pia watafanya kaz
 
 + [Oribis, L2 zkRollup juu ya Cardano](https://docs.orbisprotocol.com/orbis/technology/halo-2)
 
-+ [Darkfi, binafsi L1 zkEVM blockchain](https://dark.fi/book/arch/arch.html)
++ [DarkFi, binafsi L1 zkEVM blockchain](https://dark.fi/book/arch/arch.html)
 
 + [Scroll, L2 zkRollup juu ya Ethereum](https://scroll.mirror.xyz/nDAbJbSIJdQIWqp9kn8J0MVS4s6pYBwHmK7keidQs-k)
 

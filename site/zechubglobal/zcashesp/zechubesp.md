@@ -1,4 +1,4 @@
-# Zechub en Español
+# ZecHub en Español
 
 ## Usando ZEC
 

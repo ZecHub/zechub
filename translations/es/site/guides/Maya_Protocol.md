@@ -65,7 +65,7 @@ Además, el objetivo de Maya es convertirse en un *backend* sobre el que otros s
 Al actuar como *backend*, Maya necesita ser compatible con diferentes interfaces de usuario y billeteras para poder utilizarse. 
 Aquí tienes una lista de algunos de los servicios que ya son compatibles con Maya:
 
-[Thorwallet DEX](https://www.thorwallet.org/): Ledger, XDEFI, Metamask, Keystore
+[Thorwallet DEX](https://www.thorwallet.org/): Ledger, XDEFI, MetaMask, Keystore
 
 [El Dorado](https://www.eldorado.market/): XDEFI, Keystore
 
@@ -75,6 +75,6 @@ Aquí tienes una lista de algunos de los servicios que ya son compatibles con Ma
 
 DefiSpot: ya no está en línea; su dominio no se resuelve.
 
-[XDEFI](https://www.xdefi.io/): una billetera de autocustodia multiecosistema con soporte para más de 30 blockchains nativas, y todas las cadenas EVM y Cosmos, incluyendo Bitcoin, Ethereum, Solana, THORChain, Maya Protocol, TRON y más.
+[Ctrl Wallet (XDEFI)](https://ctrl.xyz/): una billetera de autocustodia multiecosistema con soporte para más de 30 blockchains nativas, y todas las cadenas EVM y Cosmos, incluyendo Bitcoin, Ethereum, Solana, THORChain, Maya Protocol, TRON y más.
 
 [KeepKey ](https://keepkey.com/): Una billetera de hardware para almacenar activos digitales de forma segura.

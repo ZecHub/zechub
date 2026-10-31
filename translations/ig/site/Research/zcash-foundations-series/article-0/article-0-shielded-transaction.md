@@ -221,7 +221,7 @@ Ugbu a, jide map ahụ. Ndị fọdụrụ n'usoro ahụ na-emejupụta ya.
 | **Nullifier** | Ihe nrịbama "e mefuru" pụrụ iche nke e bipụtara mgbe ejiri akwụkwọ ndetu mee ihe, na-egbochi mmefu okpukpu abụọ |
 | **Zero-knowledge proof** | Ihe akaebe na-egosi na okwu bụ eziokwu ebe ọ na-ekpughe ihe ọ bụla karịrị eziokwu ya |
 | **Shielding / deshielding** | Ịkwaga ego n'ime / n'ime ụwa nkeonwe echekwara |
-| **Viewing key** | Igodo nke na-enye onye nwe ya ohere ịchọpụta ma gụọ ihe ndetu e degaara ha |
+| **Viewing Key** | Igodo nke na-enye onye nwe ya ohere ịchọpụta ma gụọ ihe ndetu e degaara ha |
 
 ---
 

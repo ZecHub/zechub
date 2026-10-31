@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Modifica pagina"/>
 </a>
 
-# Recupero dei fondi del portafoglio Zcash
+# Recupero dei fondi del portafoglio di Zcash
 
 **Perché conservare il materiale di recupero?**
 
@@ -67,7 +67,7 @@ Per il riferimento completo alla migrazione, inclusi percorsi di recupero dettag
 
 ## Recupero fondi con Zkool
 
-[Zkool](https://github.com/hhanh00/zkool2/releases) è il successore Zcash mantenuto di YWallet dello stesso sviluppatore. Supporta percorsi di recupero trasparenti e schermati moderni, incluse le chiavi Sapling legacy, ma **non Sprout**.
+[Zkool](https://github.com/hhanh00/zkool2/releases) è il successore di Zcash mantenuto di YWallet dello stesso sviluppatore. Supporta percorsi di recupero trasparenti e schermati moderni, incluse le chiavi Sapling legacy, ma **non Sprout**.
 
 Qui sono trattate due situazioni:
 
@@ -199,9 +199,9 @@ Se possiedi ancora un seed o una chiave di spesa funzionante, inizia invece con 
 
 YWallet è stato per molto tempo lo strumento di recupero consigliato in questa pagina e molte guide meno recenti vi rimandano ancora.
 
-Il suo sviluppatore afferma ora che YWallet non supporta più Zcash dopo l'aggiornamento Ironwood e indirizza gli utenti Zcash a **Zkool**, il successore mantenuto. Conserva il vecchio materiale seed/chiave YWallet, ma non avviare una nuova migrazione Zcash in YWallet.
+Il suo sviluppatore afferma ora che YWallet non supporta più Zcash dopo l'aggiornamento Ironwood e indirizza gli utenti di Zcash a **Zkool**, il successore mantenuto. Conserva il vecchio materiale seed/chiave YWallet, ma non avviare una nuova migrazione di Zcash in YWallet.
 
-Se possiedi già materiale di recupero Zcash da YWallet, ripristinalo in Zkool utilizzando il percorso seed/chiave supportato sopra.
+Se possiedi già materiale di recupero di Zcash da YWallet, ripristinalo in Zkool utilizzando il percorso seed/chiave supportato sopra.
 
 ## Pagine correlate
 

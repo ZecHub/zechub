@@ -16,7 +16,7 @@
 
 ## Boaboa FROST bin ahorow ano
 
-[Github link no](https://github.com/ZcashFoundation/frost-zcash-demo)
+[GitHub link no](https://github.com/ZcashFoundation/frost-zcash-demo)
 
 Fa atifi hɔ repo no di dwuma na di akwankyerɛ a ɛfa compiling ho akyi: 
 

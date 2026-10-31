@@ -85,7 +85,7 @@ Par exemple, prenons une annonce NFT sur Solana ; son état public (par exemple,
 
 
 
-**[Dark.fi](https://dark.fi/)**: DarkFi est une L1 anonyme basée sur la connaissance nulle, le calcul multipartite et le chiffrement homomorphe. Le proof-of-stake anonyme garantit que les validateurs restent cachés. DarkFi offre un environnement antifragile pour créer et exécuter des applications anonymes - **Échange d’actifs**: Oui - [Livre blanc](https://darkfi.org/whitepaper) - ![Darkfi.png](/content-images/0-auQOzkLMfYdoXlRy-b10ed91da5.webp)
+**[Dark.fi](https://dark.fi/)**: DarkFi est une L1 anonyme basée sur la connaissance nulle, le calcul multipartite et le chiffrement homomorphe. Le proof-of-stake anonyme garantit que les validateurs restent cachés. DarkFi offre un environnement antifragile pour créer et exécuter des applications anonymes - **Échange d’actifs**: Oui - [Livre blanc](https://darkfi.org/whitepaper) - ![DarkFi.png](/content-images/0-auQOzkLMfYdoXlRy-b10ed91da5.webp)
 ***
 
 

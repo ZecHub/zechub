@@ -3,7 +3,7 @@
 </a>
 
 # <img src="/content-images/image-2024-02-03-164918723-f59419848a.webp" alt="Alt Text" width="50"/>    Electric Coin Company (chiusa)
-[Sito web](https://electriccoin.co) - [Github](https://github.com/zodl-inc) - [X/Twitter](https://x.com/ElectricCoinCo)
+[Sito web](https://electriccoin.co) - [GitHub](https://github.com/zodl-inc) - [X/Twitter](https://x.com/ElectricCoinCo)
 
 > **A proposito di quel link GitHub.** I repository di ECC si trovano su `zodl-inc`. Si tratta della stessa organizzazione, rinominata quando il team si è spostato su [ZODL](/zcash-organizations/zodl). Il vecchio nome `github.com/Electric-Coin-Company` è stato registrato da una parte non collegata nel maggio 2026 e non ha nulla a che fare con ECC o ZODL, quindi non fidarti del codice pubblicato lì.
 
@@ -25,7 +25,7 @@ Integrazioni realizzate negli anni di ECC:
 
 - [Flexa:](https://electriccoin.co/blog/zashi-flexa-integration-is-here-spend-zec-at-thousands-of-retailers/) rende semplice utilizzare davvero ZEC, permettendo ai nuovi utenti di spenderlo in migliaia di punti vendita come Barnes & Noble, GameStop e Chipotle.
 
-- [Keystone:](https://electriccoin.co/blog/drumroll-please-introducing-zashi-keystone-hardware-wallet-integration-for-shielded-zec/) un importante traguardo per la comunità Zcash che richiede anni di lavoro. Questa integrazione segna un'evoluzione significativa nell'usabilità di Zcash, consentendo la conservazione a freddo di ZEC schermati.
+- [Keystone:](https://electriccoin.co/blog/drumroll-please-introducing-zashi-keystone-hardware-wallet-integration-for-shielded-zec/) un importante traguardo per la comunità di Zcash che richiede anni di lavoro. Questa integrazione segna un'evoluzione significativa nell'usabilità di Zcash, consentendo la conservazione a freddo di ZEC schermati.
 
 ## Ricerca e sviluppo
 
@@ -37,9 +37,9 @@ Il progresso più significativo è il più recente. [La creazione e il deploymen
 
 ## Collaborazione e partnership 
 
-Il team ECC supporta e contribuisce all'ecosistema Zcash in molti modi, collaborando regolarmente sia con team interni sia esterni per aiutare a mantenere e migliorare il protocollo Zcash. 
+Il team ECC supporta e contribuisce all'ecosistema di Zcash in molti modi, collaborando regolarmente sia con team interni sia esterni per aiutare a mantenere e migliorare il protocollo Zcash. 
 
-Le partnership includono il lavoro con Gemini per abilitare le transazioni schermate sulla loro piattaforma, con Flexa per rendere facili i pagamenti mobili in Zcash presso i punti vendita, con aziende di portafogli hardware come Keystone per abilitare la conservazione a freddo schermata di ZEC, con Brave per il supporto a Zcash nel browser e con altri team dell'ecosistema Zcash per apportare miglioramenti a Zcash. 
+Le partnership includono il lavoro con Gemini per abilitare le transazioni schermate sulla loro piattaforma, con Flexa per rendere facili i pagamenti mobili in Zcash presso i punti vendita, con aziende di portafogli hardware come Keystone per abilitare la conservazione a freddo schermata di ZEC, con Brave per il supporto a Zcash nel browser e con altri team dell'ecosistema di Zcash per apportare miglioramenti a Zcash. 
 
 ECC è anche un orgoglioso sponsor di [PGPforCrypto](https://x.com/pgpforcrypto), una serie di incontri che riunisce professionisti, appassionati ed esperti del settore delle criptovalute per discutere gli sviluppi, condividere approfondimenti e favorire il coinvolgimento della comunità. PGPforCrypto è guidato da Paul Brigner, membro del consiglio e VP of Strategic Alliances di Electric Coin Co.
 

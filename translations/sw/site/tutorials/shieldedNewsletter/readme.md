@@ -4,7 +4,7 @@
 ## Kuweka
 
  * Zebrad node mbio na kikamilifu kulandanishwa na RPC ya juu na umeboreshwa kutumia cookies
- * Zainod kikamilifu kulandanishwa
+ * zainod kikamilifu kulandanishwa
  * Zallet kuanzisha kuendesha RPC ya
 
 

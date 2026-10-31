@@ -44,6 +44,12 @@ Zcash 不只是停留在理论层面的隐私——它关乎**实用的、日常
 ###  [运行私密的社区金库](/zcash-use-cases/private-community-treasury)
 使用屏蔽地址持有共享资金，并限制余额和交易的可见性
 
+###  [作为美国非营利组织接受私密捐款](/zcash-use-cases/accept-private-donations-as-a-us-nonprofit)
+作为 501(c)(3) 接受屏蔽的 ZEC，同时仍向捐赠者提供他们所需的收据和 IRS 表格
+
+###  [捐赠去处 ZEC](/zcash-use-cases/where-to-donate-zec)
+寻找接受 ZEC 的非营利组织，并了解其中哪些接受屏蔽捐赠
+
 ### [记者隐私配置](/zcash-use-cases/journalist-privacy-setup)   
 对所有交易使用屏蔽地址，并通过避免可追踪付款来保护消息来源。谨慎使用备忘录以实现安全通信
 

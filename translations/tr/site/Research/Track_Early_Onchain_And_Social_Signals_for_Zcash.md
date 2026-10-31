@@ -15,33 +15,33 @@ ZEC’in geçmiş eğilimleri de izlenmekte ve diğer gizlilik coin’leri ile k
 Blockchain teknolojisi yenilikçi bir şekilde çalışır ve kripto para operasyonları oldukça farklı bir deneyim sunar. İşlemlerin nasıl gerçekleştiğinden piyasa davranışı ve duyarlılığında nasıl önemli değişimlere yol açtığına kadar, piyasanın ilginç dinamikleri incelenebilir; kazançlar ve kayıplar birinci elden deneyimlerdir. 
 
 Faaliyetteki erken on-chain metrikler, kripto dünyasında piyasanın yönünü ve hareketini, yatırımcı faaliyetlerini ve yakın gelecekte meydana gelebilecek olası değişimleri ortaya koyan en erken faaliyetlerden ve en güçlü metriklerden biridir. Ayrıca, zamanında tespit edilirse bu sinyaller, özellikle sosyal medya duyarlılık analizi gibi off-chain faktörlerle birleştirildiğinde, yatırımcıların kâr fırsatlarına erişmesine yardımcı olabilir. 
-Messari ZEC Dashboard, CoinMetrics ve Blockchair’a göre, ZEC’in ağ faaliyetinin analizi, büyük balina hareketlerinin tweet hacmi ve çevrimiçi daha geniş ilgi gibi sosyal faaliyetlerdeki sıçramalara karşılık gelip gelmediğine dair uygulanabilir içgörü sunmaktadır. Özellikle, Messari grafikleri 1 Temmuz ile 22 Temmuz 2025 arasındaki dönemde günlük on-chain işlem hacminde ve borsa girişlerinde belirgin bir artış olduğunu, bunun da 22 Temmuz civarında zirve yaptığını göstermektedir; bu durum yükselen sosyal konuşmalar ve fiyat hareketiyle çakışmıştır.
+Messari ZEC Dashboard, Coin Metrics ve Blockchair’a göre, ZEC’in ağ faaliyetinin analizi, büyük balina hareketlerinin tweet hacmi ve çevrimiçi daha geniş ilgi gibi sosyal faaliyetlerdeki sıçramalara karşılık gelip gelmediğine dair uygulanabilir içgörü sunmaktadır. Özellikle, Messari grafikleri 1 Temmuz ile 22 Temmuz 2025 arasındaki dönemde günlük on-chain işlem hacminde ve borsa girişlerinde belirgin bir artış olduğunu, bunun da 22 Temmuz civarında zirve yaptığını göstermektedir; bu durum yükselen sosyal konuşmalar ve fiyat hareketiyle çakışmıştır.
 Blockchair verileri, korumalı adreslerde tutulan ZEC payının aynı zaman diliminde yaklaşık %18’den %20’ye yükseldiğini göstermektedir; bu da gizliliği koruyan işlemlerin kullanımının arttığını göstermektedir.  (Bkz. Şekil 1)
 
 # Şekil 1. Korumalı Adreslerde Tutulan ZEC Payı - Temmuz 2025
 (Kaynak: Blockchair (2025). 1-22 Temmuz 2025 için korumalı arz yüzdesi.)
 
-Ayrıca, CoinMetrics’in kamuya açık ağ serileri günlük aktif adreslerin ve korumalı arz metriklerinin Temmuz ortasında yukarı yönlü bir eğilim gösterdiğini doğrulamakta, böylece on-chain davranış ile sosyal göstergeler arasında nicel karşılaştırmalar yapılabilmesini sağlamaktadır.  (Bkz. Şekil 2)
+Ayrıca, Coin Metrics’in kamuya açık ağ serileri günlük aktif adreslerin ve korumalı arz metriklerinin Temmuz ortasında yukarı yönlü bir eğilim gösterdiğini doğrulamakta, böylece on-chain davranış ile sosyal göstergeler arasında nicel karşılaştırmalar yapılabilmesini sağlamaktadır.  (Bkz. Şekil 2)
 
 
 # Şekil 2. Zcash Günlük Aktif Adresler ve Korumalı Arz - Temmuz Ortası 2025
-(Kaynak: CoinMetrics (2025). 1-22 Temmuz 2025 için günlük aktif adresler.)
+(Kaynak: Coin Metrics (2025). 1-22 Temmuz 2025 için günlük aktif adresler.)
 
 Tüm bu veriler coin hareketini, gizlilik benimsenmesini ve kullanıcı etkileşimini göstermektedir; büyük on-chain hacimler ile borsa girişlerindeki sıçrama, balinaların aktif olduğunu, muhtemelen fon taşıdıklarını veya piyasa etkisine hazırlandıklarını düşündürmektedir; korumalı arzın artışı, dikkat yoğunluğunun yükseldiği dönemlerde bile gizlilik artırılmış işlemlere yönelik tercihin sürdüğünü göstermekte ve artan aktif adres sayıları ağ kullanımının bu balina hareketleri ve gizlilik talebiyle birlikte genişlediğine işaret etmektedir.  (Bkz. Şekil 3)
 
 
 # Şekil 3. Korumalı Adreslerde Tutulan ZEC Payı - Temmuz 2025
-(Kaynak: Zechub (2025). Zechub dashboard chart for 2016- 2025)
+(Kaynak: ZecHub (2025). ZecHub dashboard chart for 2016- 2025)
 
 ### Bir gizlilik coin’i olarak Zcash
 
 Zcash, kullanıcı gizliliği düşünülerek geliştirilmiş kripto para birimlerinden biridir; sıfır bilgi ispatlarını (zk-SNARKs) kullanır ve bir fork olarak Bitcoin kodundan türetilmiştir; kullanıcılar artık hem şeffaf hem de korumalı işlemler gerçekleştirebilmektedir. Amaç kullanıcı gizliliğini korumaya yardımcı olmak olsa da bunun fazla olması, alım satım ve yatırım yapmayı çok daha kolaylaştırabilecek sinyallerin izlenmesini zorlaştırır. Ancak bu imkânsız değildir.  
 
-Sıklıkla “gizlilik coin’leri” olarak gruplanan Monero ve DASH’ın aksine, DASH özellik değişiklikleri ve gelişen düzenleyici tanımların ardından resmî olarak gizlilik coin’i sınıflandırmasından uzaklaşmıştır (CoinTelegraph, 2024). ZEC hâlâ rekabet ve incelemeyle karşı karşıyadır, ancak momentumu yalnızca fiyat spekülasyonuna dayanmak yerine on-chain faaliyet, balina hareketi korelasyonu, tweet hacmi ve ağ etkileşimi yoluyla ölçülebilir.
+Sıklıkla “gizlilik coin’leri” olarak gruplanan Monero ve DASH’ın aksine, DASH özellik değişiklikleri ve gelişen düzenleyici tanımların ardından resmî olarak gizlilik coin’i sınıflandırmasından uzaklaşmıştır (Cointelegraph, 2024). ZEC hâlâ rekabet ve incelemeyle karşı karşıyadır, ancak momentumu yalnızca fiyat spekülasyonuna dayanmak yerine on-chain faaliyet, balina hareketi korelasyonu, tweet hacmi ve ağ etkileşimi yoluyla ölçülebilir.
 
 On-chain faaliyet, cüzdandan cüzdana transferler, token takasları, akıllı sözleşme etkileşimleri, borsalara para yatırma ve çekme işlemleri, NFT basımı veya transferleri ve stake/çözme olayları gibi doğrudan bir blockchain üzerinde gerçekleşen tüm etkileşimleri ifade eder. Bu veriler analiz edildiğinde başlıca aktörlerin, özellikle balinaların, perakende kümelerinin, geliştiricilerin veya kurumsal cüzdanların davranış kalıpları çıkarılabilir ve piyasanın şekillenmesinde bunların nasıl ilişkili olduğu tam olarak anlaşılabilir.
 
-Messari ZEC Dashboard’a (Messari) göre, 1 Temmuz ile 22 Temmuz 2025 arasında 1.000 ZEC’i aşan 12 işlem gerçekleşmiş, bunların en büyüğü 5.200 ZEC olmuştur (CoinMetrics, 2025). Bu sınırlı ZEC hacimlerine kayda değer borsa giriş faaliyetleri eşlik etmiş, bu da potansiyel satış ya da portföy yeniden düzenleme faaliyetine işaret etmiştir.
+Messari ZEC Dashboard’a (Messari) göre, 1 Temmuz ile 22 Temmuz 2025 arasında 1.000 ZEC’i aşan 12 işlem gerçekleşmiş, bunların en büyüğü 5.200 ZEC olmuştur (Coin Metrics, 2025). Bu sınırlı ZEC hacimlerine kayda değer borsa giriş faaliyetleri eşlik etmiş, bu da potansiyel satış ya da portföy yeniden düzenleme faaliyetine işaret etmiştir.
 
 Aynı zamanda, Zcash’in gizlilik çerçevesinin temel bir parçası olan korumalı işlemler de anlamlı düzeyde benimsenmeye devam ediyordu. Temmuz itibarıyla toplam ZEC arzının yaklaşık %20’si korumalı adreslerde bulunuyordu. (Blockchair 2025) (bkz. Şekil 4) 
 
@@ -73,7 +73,7 @@ Topluluk, Benimsenme ve Geliştirme tarafına bakıldığında, Zcash Community 
 (Kaynak : Shawn; Lead moderator Zcash Community Forum (2025). 9 Nisan - 9 Mayıs 2025 dönemini kapsayan grafik. )
 
 Zcash Community Hub’ın büyüyen taban desteğini sergilediği Topluluk, Benimsenme ve Geliştirme alanlarında gelişmeler görüldü. Benimsenme cephesinde, tüccar entegrasyonu hâlâ sınırlı ancak dikkate değerdir. Küresel tüccarlar arasındaki kullanımın düşük olduğu, yaklaşık 120 olarak tahmin edildiği görülse de, ZEC’in Brave Wallet’a entegrasyonu ve sırasıyla Nisan ve Mayıs 2025’te Google Wallet’taki zk-proof deneyi görünürlüğü artırdı. 
-Electric Coin Company ve Zcash Foundation’ın 2025’in ikinci çeyreğinde sergilenen çalışmaları, sürdürülen faaliyeti ortaya koydu. 350’den fazla Github commit’i, Zedrab kod tabanı ve Zallet cüzdanı gibi önemli altyapı projelerinde kayda değer iş birliğini gösterdi; ayrıca Zcash ekosisteminin aktif teknik topluluğunu ve katkı sağlayanların grafiklerini de ortaya koydu.
+Electric Coin Company ve Zcash Foundation’ın 2025’in ikinci çeyreğinde sergilenen çalışmaları, sürdürülen faaliyeti ortaya koydu. 350’den fazla GitHub commit’i, Zedrab kod tabanı ve Zallet cüzdanı gibi önemli altyapı projelerinde kayda değer iş birliğini gösterdi; ayrıca Zcash ekosisteminin aktif teknik topluluğunu ve katkı sağlayanların grafiklerini de ortaya koydu.
 
 
 Zcash’in mevcut dinamiklerini gerçekten analiz etmek için, zaman içinde kullanıcının bakış açısını incelemek ve Zcash’in tarihsel bağlamını diğer gizlilik coin’leri ile karşılaştırmak en iyisidir. Bu analiz, 2017’deki piyasa zirvesi ve 2020 blok halving olayı gibi ZEC’in tarihsel fiyat hareketlerini ve Monero (XMR) ile DASH (DASH) ile on-chain ve sosyal göstergelerin karşılaştırmasını (ör. işlem hacmi, piyasa değeri sıralaması ve sosyal faaliyet) ortaya koyacaktır. 
@@ -95,12 +95,12 @@ Zcash henüz Monero kadar büyük bir topluluğa ya da geniş bir tüccar taban�
 
 # Kaynaklar
 - Blockchair. (2025). Zcash korumalı işlemler verileri. https://blockchair.com/zcash/charts/shielded-supply
-- CoinMetrics. (2025). Zcash ağ veri metrikleri. https://coinmetrics.io/
-- CoinTelegraph. (2024). Dash gelişen düzenlemeler kapsamında artık bir gizlilik coin’i değil. https://cointelegraph.com/news/dash-no-longer-privacy-coin
+- Coin Metrics. (2025). Zcash ağ veri metrikleri. https://coinmetrics.io/
+- Cointelegraph. (2024). Dash gelişen düzenlemeler kapsamında artık bir gizlilik coin’i değil. https://cointelegraph.com/news/dash-no-longer-privacy-coin
 - Electric Coin Company. (2025). Zcash 6.2.0 sürüm notları. https://electriccoin.co/blog/
 - Messari. (2025). Messari ZEC panosu. https://messari.io/asset/zcash
 - Shawn; Lead moderator Zcash Community Forum. (2025). 
 - X Platform Duyarlılık Analizi. (2025, Temmuz). İç veri kümesi. 
 - Zcash Community Hub. (2025). Topluluk güncellemeleri ve etkileşim istatistikleri. https://z.cash
 - Zcash Foundation. (2025). Zashi 2.0 cüzdan sürümü. https://zcashfoundation.org/blog/
-- Zechub. (2025).  Zechub dashboard grafiği.
+- ZecHub. (2025).  ZecHub dashboard grafiği.

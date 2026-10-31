@@ -90,7 +90,7 @@ Zcash Sapling consente agli utenti di effettuare transazioni private in pochi se
 
 La schermatura delle transazioni migliora la privacy, rendendo impossibile per terze parti collegare le transazioni e determinare la quantità di ZEC trasferita. Sapling migliora anche l’usabilità riducendo i requisiti computazionali necessari per generare transazioni private, rendendole più accessibili agli utenti.
 
-Gli indirizzi dei portafogli Sapling iniziano con "zs" e questo si può osservare in tutti i portafogli schermati Zcash supportati (Zkool, Zingo Wallet, Nighthawk ecc.) che hanno indirizzi Sapling integrati. Zcash Sapling rappresenta un importante sviluppo tecnologico in termini di privacy ed efficienza delle transazioni, che rende Zcash una criptovaluta pratica ed efficace per gli utenti che danno valore a privacy e sicurezza.
+Gli indirizzi dei portafogli Sapling iniziano con "zs" e questo si può osservare in tutti i portafogli schermati di Zcash supportati (Zkool, Zingo Wallet, Nighthawk ecc.) che hanno indirizzi Sapling integrati. Zcash Sapling rappresenta un importante sviluppo tecnologico in termini di privacy ed efficienza delle transazioni, che rende Zcash una criptovaluta pratica ed efficace per gli utenti che danno valore a privacy e sicurezza.
 
 ____
 
@@ -106,7 +106,7 @@ Gli indirizzi Sprout sono identificati dalle loro prime due lettere, che sono se
 
 Sprout fu usato come strumento iniziale per il [mining slow start di Zcash](https://electriccoin.co/blog/slow-start-and-mining-ecosystem/), che portò alla distribuzione di ZEC e delle ricompense di blocco ai miner. 
 
-Con la continua espansione dell’ecosistema Zcash e l’aumento del numero di transazioni schermate, si osservò che la serie Zcash Sprout diventava limitata e meno efficiente in termini di privacy degli utenti, scalabilità delle transazioni ed elaborazione. Questo portò alla modifica della rete e all’aggiornamento Sapling. 
+Con la continua espansione dell’ecosistema Zcash e l’aumento del numero di transazioni schermate, si osservò che la serie Sprout di Zcash diventava limitata e meno efficiente in termini di privacy degli utenti, scalabilità delle transazioni ed elaborazione. Questo portò alla modifica della rete e all’aggiornamento Sapling. 
 
 ---
 5. <h3 id="transparent" class="text-3xl font-bold my-4">Pool Transparent</h3>
@@ -129,7 +129,7 @@ Gli indirizzi Transparent di Zcash sono usati per lo più dagli exchange central
 
 ## Pratiche consigliate per i trasferimenti tra pool
 
-Quando si considera un alto livello di privacy durante una transazione sulla rete Zcash, è consigliabile seguire le pratiche riportate di seguito;
+Quando si considera un alto livello di privacy durante una transazione sulla rete di Zcash, è consigliabile seguire le pratiche riportate di seguito;
 
 Le transazioni che avvengono tra portafogli "z to z" sulla blockchain di Zcash sono per lo più schermate e talvolta vengono chiamate transazioni private per l’elevato livello di privacy generato. Questo è di solito il modo migliore e più raccomandato per inviare e ricevere $ZEC quando è richiesta privacy. 
 
@@ -143,7 +143,7 @@ Trasferire ZEC da un Transparent Address (T-address) a uno Z-address è semplice
 
 ---
 
-Inviare ZEC da un Transparent Address (T-address) a un altro Transparent Address (T-address) sulla rete Zcash (transazione T-T) è molto simile a una transazione Bitcoin ed è per questo che le transazioni T-T su Zcash vengono sempre chiamate transazioni pubbliche, perché i dettagli della transazione sia del mittente sia del destinatario diventano visibili al pubblico, il che rende il livello di privacy molto basso in questo tipo di transazione. 
+Inviare ZEC da un Transparent Address (T-address) a un altro Transparent Address (T-address) sulla rete di Zcash (transazione T-T) è molto simile a una transazione Bitcoin ed è per questo che le transazioni T-T su Zcash vengono sempre chiamate transazioni pubbliche, perché i dettagli della transazione sia del mittente sia del destinatario diventano visibili al pubblico, il che rende il livello di privacy molto basso in questo tipo di transazione. 
 
 La maggior parte degli exchange centralizzati di criptovalute utilizza Transparent Address ("T-address) quando effettua transazioni sulla blockchain di Zcash, ma questo tipo di transazione (T-T) non avrà alcuna proprietà privata.
 

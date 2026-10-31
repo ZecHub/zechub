@@ -4,8 +4,6 @@
 
 # Zakura 노드
 
-> 🇧🇷 [포르투갈어 버전](/pt/zcash-tech/zakura-node)
-
 Zakura는 확장성을 위해 구축된 Zcash용 무료 오픈 소스 풀 노드 구현체입니다. [Zebra](Zebra_Full_Node.md)에서 포크되었으며 **Valar Group**과 **Project Tachyon**의 협업을 통해 개발된 Zakura는 획기적으로 더 빠른 동기화, 네이티브 블록 프루닝, 그리고 레거시 `zcashd` 도구를 위한 호환성 계층을 제공합니다. 버전 1.0.0은 2026년 7월 15일에 출시되었습니다.
 
 ---

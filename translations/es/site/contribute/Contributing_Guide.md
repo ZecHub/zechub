@@ -92,7 +92,7 @@ Aquí tienes un ejemplo de tutorial:
   <iframe
     className="w-full h-full"
     src="https://www.youtube.com/embed/qz4KzDjkqu8"
-    title="Tutorial de instalación de WSL + compilación/transacción de Zcashd"
+    title="Tutorial de instalación de WSL + compilación/transacción de zcashd"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowFullScreen
     loading="lazy"
@@ -125,11 +125,11 @@ Las páginas de idiomas seleccionadas en `translations/<locale>/site/` se rastre
 
 #### Wiki de ZecHub - edición de un documento existente
 
-A veces la información de nuestros documentos no es del todo precisa. No pasa nada. ¡Por eso los hacemos de código abierto! Si encuentras algo que necesita un cambio en un wiki-doc, ve al pie de página del documento (que enlaza con su página de Github) y sugiere un cambio mediante un PR.
+A veces la información de nuestros documentos no es del todo precisa. No pasa nada. ¡Por eso los hacemos de código abierto! Si encuentras algo que necesita un cambio en un wiki-doc, ve al pie de página del documento (que enlaza con su página de GitHub) y sugiere un cambio mediante un PR.
 
 #### Wiki de ZecHub - enlace roto corregido
 
-Si descubres que un enlace está roto o que algo importante está mal escrito, ve al pie de página del documento (que enlaza con su página de Github) y sugiere el cambio mediante un PR.
+Si descubres que un enlace está roto o que algo importante está mal escrito, ve al pie de página del documento (que enlaza con su página de GitHub) y sugiere el cambio mediante un PR.
 
 #### Boletín - nueva edición
 

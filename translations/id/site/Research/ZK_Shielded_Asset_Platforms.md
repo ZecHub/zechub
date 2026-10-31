@@ -84,7 +84,7 @@ Sebagai contoh, pertimbangkan sebuah listing NFT di Solana; state publiknya (mis
 
 
 
-**[Dark.fi](https://dark.fi/)**: DarkFi adalah L1 anonim yang berbasis pada zero-knowledge, multi-party computation, dan homomorphic encryption. Anonymous proof-of-stake memastikan validator tetap tersembunyi. DarkFi menawarkan lingkungan anti-fragile untuk membuat dan menjalankan aplikasi anonim - **Asset Swap**: Ya - [Whitepaper](https://darkfi.org/whitepaper) - ![Darkfi.png](/content-images/0-auQOzkLMfYdoXlRy-b10ed91da5.webp)
+**[Dark.fi](https://dark.fi/)**: DarkFi adalah L1 anonim yang berbasis pada zero-knowledge, multi-party computation, dan homomorphic encryption. Anonymous proof-of-stake memastikan validator tetap tersembunyi. DarkFi menawarkan lingkungan anti-fragile untuk membuat dan menjalankan aplikasi anonim - **Asset Swap**: Ya - [Whitepaper](https://darkfi.org/whitepaper) - ![DarkFi.png](/content-images/0-auQOzkLMfYdoXlRy-b10ed91da5.webp)
 ***
 
 

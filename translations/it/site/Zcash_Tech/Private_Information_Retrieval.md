@@ -91,7 +91,7 @@ L'obiettivo è il collo di bottiglia della scansione del portafoglio descritto i
 
 ## Pagine correlate
 
-- [Sincronizzazione dei portafogli Zcash](https://zechub.wiki/zcash-tech/zcash-wallet-syncing) - perché oggi la sincronizzazione funziona in questo modo
+- [Sincronizzazione dei portafogli di Zcash](https://zechub.wiki/zcash-tech/zcash-wallet-syncing) - perché oggi la sincronizzazione funziona in questo modo
 - [Nodi Lightwallet](https://zechub.wiki/zcash-tech/lightwallet-nodes) - il modello light client che il PIR migliorerebbe
 - [zk-SNARKs](https://zechub.wiki/zcash-tech/zk-snarks) - l'altro principale strumento crittografico alla base della privacy di Zcash
 - [Sicurezza Post-Quantistica](https://zechub.wiki/zcash-tech/post-quantum-security) - perché i metodi basati su reticoli sono importanti per il futuro

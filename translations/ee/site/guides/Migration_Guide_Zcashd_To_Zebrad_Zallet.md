@@ -9,7 +9,7 @@ Wotsɔ Zebra kple Zallet ɖɔ li zcashd blibo node si wozãna tsã, si *Electric
 ![Diagram: zcashd splitting into zebrad for node duties and Zallet for wallet duties](/content-images/SJNBsSYTel-dfd19f34e4.webp)
 </div>
 
-Mɔfiame sia kplɔ wò to ʋuʋu tso **Zcashd** yi **Zebrad** kple **Zallet** me, si me ɖoɖowɔwɔ, gakotoku ƒe tsɔtsɔ yi, kple ʋuʋu ƒe kuxi siwo bɔ gbɔ kpɔkpɔ hã le.
+Mɔfiame sia kplɔ wò to ʋuʋu tso **zcashd** yi **Zebrad** kple **Zallet** me, si me ɖoɖowɔwɔ, gakotoku ƒe tsɔtsɔ yi, kple ʋuʋu ƒe kuxi siwo bɔ gbɔ kpɔkpɔ hã le.
 
 ---
 

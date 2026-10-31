@@ -20,7 +20,7 @@
 
 ## In breve
 
-* Due strumenti Zcash aiutano i creator a ricevere pagamenti in modo privato. Zcash.me ti offre una pagina profilo con il tuo indirizzo schermato e TIPZ permette ai fan di inviarti mance.
+* Due strumenti di Zcash aiutano i creator a ricevere pagamenti in modo privato. Zcash.me ti offre una pagina profilo con il tuo indirizzo schermato e TIPZ permette ai fan di inviarti mance.
 * Con Zcash.me, condividi un unico link, `zcash.me/[username]`, che mostra il tuo indirizzo unificato e i tuoi account social.
 * Con TIPZ, i fan possono inviarti mance in altre criptovalute e ogni mancia ti raggiunge come ZEC schermati.
 * Entrambi gli strumenti richiedono il tuo indirizzo unificato (`u1...`).
@@ -56,7 +56,7 @@
 ##### In arrivo
 | Funzionalità            | Descrizione |
 |--------------------|-------------|
-| Mappa delle località       | Trova utenti Zcash nelle vicinanze |
+| Mappa delle località       | Trova utenti di Zcash nelle vicinanze |
 | Statistiche della piattaforma| Visualizza le metriche di crescita |
 | Sondaggi della comunità    | Vota sui temi dell'ecosistema |
 | Notizie e annunci | Aggiornamenti ufficiali |
@@ -66,7 +66,7 @@
 #### Per iniziare
 1. Visita [https://zcash.me/](https://zcash.me/) e fai clic su **Join**.
 2. Scegli un nome utente unico, aggiungi una biografia e un'immagine del profilo.
-3. Incolla il tuo indirizzo unificato Zcash (`u1...`)
+3. Incolla il tuo indirizzo unificato di Zcash (`u1...`)
 4. Collega i tuoi account social.
 5. Condividi il tuo link: `zcash.me/[yourusername]`
 

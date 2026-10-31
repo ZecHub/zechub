@@ -2,11 +2,11 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Sicurezza dell'ecosistema Zcash
+# Sicurezza dell'ecosistema di Zcash
 
 ## Responsabile della sicurezza dell'ecosistema
 
-Il ruolo di Responsabile della Sicurezza dell'Ecosistema Zcash è stato istituito tramite un finanziamento ZCG per fornire ingegneria della sicurezza dedicata all'intero ecosistema Zcash — in particolare ai beneficiari ZCG — al di fuori di ECC e ZF.
+Il ruolo di Responsabile della Sicurezza dell'Ecosistema di Zcash è stato istituito tramite un finanziamento ZCG per fornire ingegneria della sicurezza dedicata all'intero ecosistema di Zcash — in particolare ai beneficiari ZCG — al di fuori di ECC e ZF.
 
 - **2022–2023:** [earthrise](https://forum.zcashcommunity.com/t/zcash-ecosystem-security-lead/42090) ha ricoperto il ruolo di primo Responsabile della Sicurezza dell'Ecosistema. Scopri di più su [zecsec.com](https://zecsec.com).
 - **2024–2025:** ZCG ha selezionato [Least Authority](https://leastauthority.com) per continuare il ruolo tramite una nuova [RFP](https://forum.zcashcommunity.com/t/rfp-zcash-ecosystem-security-lead-2023/45723). Gli aggiornamenti sono disponibili [qui](https://forum.zcashcommunity.com/t/grant-update-zcash-ecosystem-security-lead/47541).
@@ -14,7 +14,7 @@ Il ruolo di Responsabile della Sicurezza dell'Ecosistema Zcash è stato istituit
 
 ## Iniziativa di divulgazione delle vulnerabilità e sicurezza ZCG
 
-L'[Iniziativa di Divulgazione delle Vulnerabilità e Sicurezza ZCG](https://forum.zcashcommunity.com/t/zcg-security-vulnerability-disclosure-initiative/55545) fornisce un quadro per la divulgazione coordinata delle vulnerabilità di sicurezza nell'ecosistema Zcash.
+L'[Iniziativa di Divulgazione delle Vulnerabilità e Sicurezza ZCG](https://forum.zcashcommunity.com/t/zcg-security-vulnerability-disclosure-initiative/55545) fornisce un quadro per la divulgazione coordinata delle vulnerabilità di sicurezza nell'ecosistema di Zcash.
 
 ## Aggiornamenti di sicurezza recenti (2026)
 

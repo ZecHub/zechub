@@ -4,8 +4,6 @@
 
 # zecd  Shielded-Kwanza Wallet Server
 
-> 🇧🇷 [Versión en Português Tafsiri ya Kihispania](/pt/zcash-tech/zecd)
-
 zecd ni wallet server-kinga ya kwanza kwa ajili ya Zcash, kujengwa juu ya [librustzcash](https://github.com/zcash/librustzcash) Ni inatoa watengenezaji na malipo integrators ya kawaida, Bitcoin-ambayo inaendana API kwa kuingiliana na Zcash  wakati kufanya Orchard (majivu zaidi binafsi) default. Iliyotengenezwa na [zec.rocks](https://zec.rocks), zecd imeundwa kuchukua nafasi ya `zcashd`'s mfuko wa fedha utendaji katika kisasa, wingu-asili deployments.
 
 ** Toleo la sasa:** 0.5.0-rc3 (Julai 13, 2026)  na msaada wa Ironwood (NU6.3). Weka kupitia `cargo install zecd` au kutumia picha rasmi Docker.

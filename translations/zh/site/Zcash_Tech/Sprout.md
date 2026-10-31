@@ -6,7 +6,7 @@
 
 > Zcash 于 2016 年 10 月 28 日上线，并启用了 Sprout 屏蔽池。
 
-> **警告：**NU7 一旦激活，将使仍在 Sprout 池中的 ZEC 无法花费（主网目标激活日期为 2026 年 11 月 5 日，最终决定日期为 2026 年 10 月 20 日；参见 [ZIP 259](https://zips.z.cash/zip-0259)）。如果你持有 Sprout 资金，请阅读 [恢复资金](../using-zcash/recovering-funds)，并优先迁移这些资金。
+> **警告：**NU7 一旦激活，将使仍在 Sprout 池中的 ZEC 无法花费（主网激活高度为 3,543,405，目标激活日期为 2026 年 11 月 5 日；参见 [ZIP 259](https://zips.z.cash/zip-0259)）。如果你持有 Sprout 资金，请阅读 [恢复资金](../using-zcash/recovering-funds)，并优先迁移这些资金。
 
 你将了解到的要点：Sprout 是 Zcash 的起点，这是私密且可验证的货币第一次在真实运行的 blockchain 上落地。
 

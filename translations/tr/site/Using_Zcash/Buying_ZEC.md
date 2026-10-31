@@ -7,7 +7,7 @@
 
 ## Kısaca
 
-- Mümkün olduğunda **shielded çekimleri** destekleyen bir borsadan ZEC satın alın (Gemini, BitcoinVN, Flyp.me)
+- Mümkün olduğunda **shielded çekimleri** destekleyen bir borsadan ZEC satın alın (Gemini, BitcoinVN, flyp.me)
 - Çoğu büyük merkezi borsa (Coinbase, Kraken, Binance) yalnızca **transparent çekimleri** destekler — ZEC’nizi aldıktan sonra shield edin
 - Merkeziyetsiz borsalar saklama gerektirmeyen takaslara izin verir, ancak genellikle transparent adreslere çekim yapar
 - Tam bir ZEC satın almanız **gerekmez** — küsuratlı miktarlar da gayet iyi çalışır
@@ -28,9 +28,9 @@ Gemini, ZEC, Ether ve diğer kripto paraları satın almayı basit ve güvenli h
 
 BitcoinVN, ZEC için shielded (z-address) yatırma ve çekmeyi destekleyen, saklama gerektirmeyen anlık bir borsadır — dünya genelinde tam z-address desteği sunan çok az sayıdaki borsadan biridir. 2014’ten beri faaliyet gösteren bu platformda BTC, ETH, USDT ve diğer kripto paraları doğrudan shielded cüzdanınıza ZEC ile takas edebilirsiniz.
 
-**[Flyp.me](https://flyp.me)**
+**[flyp.me](https://flyp.me)**
 
-Flyp.me, kayıt gerektirmeyen bir kripto borsasıdır. Cüzdanınıza doğrudan 30’dan fazla kripto parayı takas etmenin en güvenli ve en özel yollarından biriydi. ZEC’yi diğer kripto paralarla satın alabilirsiniz.
+flyp.me, kayıt gerektirmeyen bir kripto borsasıdır. Cüzdanınıza doğrudan 30’dan fazla kripto parayı takas etmenin en güvenli ve en özel yollarından biriydi. ZEC’yi diğer kripto paralarla satın alabilirsiniz.
 
 ## Transparent çekimleri destekleyen borsalar
 

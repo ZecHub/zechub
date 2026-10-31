@@ -175,4 +175,4 @@ ShapeShift поддерживает обмены ZEC между нескольк
 
 [ShapeShift представляет v4.0, вновь делая конфиденциальность и самостоятельное хранение ключевыми элементами DeFi (Invezz)](https://invezz.com/news/2025/12/18/shapeshift-unveils-version-4-0-re-centering-privacy-and-self-custody-in-defi/)
 
-[ShapeShift запускает поддержку экранированных транзакций Zcash (CoinTelegraph)](https://cointelegraph.com/news/shapeshift-rolls-out-support-for-shielded-zcash-transactions-for-true-privacy)
+[ShapeShift запускает поддержку экранированных транзакций Zcash (Cointelegraph)](https://cointelegraph.com/news/shapeshift-rolls-out-support-for-shielded-zcash-transactions-for-true-privacy)

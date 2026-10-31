@@ -153,7 +153,7 @@ Ini adalah gambaran paling lengkap dalam seri ini, namun tetap merupakan sebuah 
 | Istilah | Makna dalam Bahasa Indonesia |
 |---|---|
 | **Spending key** | Satu-satunya akar rahasia yang menjadi asal mula semua kunci pengguna |
-| **Viewing key** | Mengungkap transaksi Anda kepada pemegang kunci tanpa mengizinkan mereka untuk membelanjakan dana |
+| **Viewing Key** | Mengungkap transaksi Anda kepada pemegang kunci tanpa mengizinkan mereka untuk membelanjakan dana |
 | **Spend description** | Bagian dari sebuah tx yang menghabiskan sebuah note (nullifier, anchor, proof) |
 | **Output description** | Bagian dari sebuah tx yang membuat sebuah note (commitment, ciphertext, proof) |
 | **Action (Orchard)** | Sebuah unit terpadu yang melakukan satu pengeluaran dan satu output secara bersamaan |

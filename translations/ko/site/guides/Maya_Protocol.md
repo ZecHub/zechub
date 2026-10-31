@@ -60,12 +60,12 @@ Maya Protocol의 제네시스 시점에 사용 가능한 CACAO 준비금은 총 
 
 또한 Maya의 목표는 다른 서비스들이 그 위에 구축할 수 있는 *백엔드*가 되는 것이며, Maya의 인프라 위에 구축된 많은 새로운 *프런트엔드*, 즉 DEX 서비스가 등장하기를 기대하고 있습니다.
 
-## Maya protocol 지갑 통합
+## Maya Protocol 지갑 통합
 
 *백엔드*로서 기능하는 Maya는 사용되기 위해 다양한 UI와 지갑의 지원이 필요합니다. 
 다음은 이미 Maya를 지원하는 서비스 목록입니다:
 
-[Thorwallet DEX](https://www.thorwallet.org/): Ledger, XDEFI, Metamask, Keystore
+[Thorwallet DEX](https://www.thorwallet.org/): Ledger, XDEFI, MetaMask, Keystore
 
 [El Dorado](https://www.eldorado.market/): XDEFI, Keystore
 
@@ -75,6 +75,6 @@ Maya Protocol의 제네시스 시점에 사용 가능한 CACAO 준비금은 총 
 
 DefiSpot: 더 이상 온라인 상태가 아니며, 해당 도메인은 확인되지 않습니다.
 
-[XDEFI](https://www.xdefi.io/): Bitcoin, Ethereum, Solana, THORChain, Maya Protocol, TRON 등을 포함해 30개 이상의 네이티브 블록체인과 모든 EVM 및 Cosmos 체인을 지원하는 멀티 생태계 셀프 커스터디 지갑입니다.
+[Ctrl Wallet (XDEFI)](https://ctrl.xyz/): Bitcoin, Ethereum, Solana, THORChain, Maya Protocol, TRON 등을 포함해 30개 이상의 네이티브 블록체인과 모든 EVM 및 Cosmos 체인을 지원하는 멀티 생태계 셀프 커스터디 지갑입니다.
 
 [KeepKey ](https://keepkey.com/): 디지털 자산을 안전하게 보관하기 위한 하드웨어 지갑입니다.

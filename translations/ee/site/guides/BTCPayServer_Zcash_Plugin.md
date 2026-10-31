@@ -14,7 +14,7 @@ BTCPay Server ɖea mɔ na asitsaha siwo le Internet dzi be woaxɔ cryptocurrency
 - [Afikae Wodzraa Gawo ɖo? Amekae Kpɔa Safui Siwo Nye Ame ŋutɔ ƒe Safuiwo Dzi?](#Where-Are-Funds-Stored-Who-Controls-the-Private-Keys)
 - [Alesi Nàɖo BTCPay Server na Zcash Xɔxɔ](#How-to-Set-Up-BTCPay-Server-for-Accepting-Zcash)
   - [BTCPay Server ƒe dɔwɔwɔ kple Zcash Kpekpeɖeŋu](#Deploying-BTCPay-Server-with-Zcash-Support)
-  - [Wò ŋutɔ Wò Zcash Full Node (Zebra + Lightwalletd) ƒe Duƒuƒu](#Running-Your-Own-Zcash-Full-Node)
+  - [Wò ŋutɔ Wò Zcash Full Node (Zebra + lightwalletd) ƒe Duƒuƒu](#Running-Your-Own-Zcash-Full-Node)
   - [Kadodo kple External lightwalletd Node (Tɔtrɔ Ðe Ðoɖo Nu)](#Connecting-to-an-External-Lightwalletd-Node)
   - [BTCPay Server ƒe amedzrowɔwɔ le Aƒeme kple Cloudflare Tunnel](#Hosting-BTCPay-Server-at-Home-with-Cloudflare-Tunnel)
 - [Zcash Plugin ƒe ɖoɖowɔwɔ le BTCPay Server Web Interface me](#Configuring-the-Zcash-Plugin-in-the-BTCPay-Server-Web-Interface)
@@ -325,19 +325,19 @@ Emegbe yi akpa si kplɔe ɖo dzi be nàɖo Zcash le BTCPay Server web interface 
 
 ## Wò ŋutɔ Wò Zcash Full Node ƒe Duƒuƒu
 
-Ne èdi be **menye** be yeaɖo ŋu ɖe dutoƒo ŋu o `lightwalletd` nodes, àteŋu aɖo wò ŋutɔ wò Zcash node bliboa kpe ɖe Lightwalletd ŋu le server ɖeka dzi. 
+Ne èdi be **menye** be yeaɖo ŋu ɖe dutoƒo ŋu o `lightwalletd` nodes, àteŋu aɖo wò ŋutɔ wò Zcash node bliboa kpe ɖe lightwalletd ŋu le server ɖeka dzi. 
 Esia naa **ɖokuisinɔnɔ blibo** - gotagome nusiwo dzi woanɔ te ɖo aɖeke meli o, kakaɖedzi aɖeke mehiã o.
 
 ---
 
 ### Afɔɖeɖe 1: Kpɔ egbɔ be Disk ƒe Teƒe si Sɔ
 
-Zcash node blibo (Zebra + Lightwalletd) hiã **300+ GB** ƒe disk teƒe fifia, eye wòyi edzi le tsitsim.
+Zcash node blibo (Zebra + lightwalletd) hiã **300+ GB** ƒe disk teƒe fifia, eye wòyi edzi le tsitsim.
 
 Gbeƒãɖeɖe:
 
 - Zebra blockchain ƒe nyatakakadzraɖoƒe: ~ 260-270 GB
-- Lightwalletd ƒe xexlẽdzesiwo: ~ 15-20 GB
+- lightwalletd ƒe xexlẽdzesiwo: ~ 15-20 GB
 
 #### Nudzraɖoƒe si wokafu:
 
@@ -367,7 +367,7 @@ Esia alɔ.. `zcash-fullnode` kakɛ, si daa evea siaa ɖe yame `zebrad` kple `lig
 
 Nuŋɔŋlɔa awɔe be:
 
-* Wɔ Docker ƒe nɔnɔmetatawo ƒe kɔpi na Zebra kple Lightwalletd
+* Wɔ Docker ƒe nɔnɔmetatawo ƒe kɔpi na Zebra kple lightwalletd
 * Ðo subɔsubɔdɔawo ɖe BTCPay ƒe ƒuƒoƒoa me
 * Do ƒome Zcash ƒe kpeɖeŋutɔa kple **nutoa me** `lightwalletd` ɣeyiɣi
 
@@ -375,7 +375,7 @@ Nuŋɔŋlɔa awɔe be:
 > Vaseɖe esime ɖekawɔwɔa wu enu la, fexexe siwo ŋu wokpɔ ta na la manɔ anyi o.
 
 
-## Kadodo kple External Lightwalletd Node
+## Kadodo kple External lightwalletd Node
 
 Zi geɖe la, ɖokuisinɔnɔ blibo mehiã o - eye asitsalawo madi be yewoazã ɣeyiɣi kple disk teƒe atsɔ awɔ Zcash node blibo o. 
 Le gɔmedzedzea me la, BTCPay Server doa ka kple dutoƒo `lightwalletd` node be woakpɔ fexexe siwo wokpɔ ta na gbɔ evɔ womaɖe blockchain bliboa ƒe kɔpi o.
@@ -907,7 +907,7 @@ Míele didim be nàkpɔ dzidzedze le BTCPay ƒe lãwo ƒe agbenɔnɔ me dzodzro 
 * [Zcash Dɔwɔnu na BTCPay (GitHub)](https://github.com/btcpay-zcash/btcpayserver-zcash-plugin)
 * [Zcash Plugin ƒe Ðoɖowɔwɔ Ŋuti Mɔfiame](https://github.com/btcpay-zcash/btcpayserver-zcash-plugin/blob/master/docs/installation.md)
 * [Trɔ asi zcash-lightwalletd.custom.yml Kpɔɖeŋu](https://github.com/btcpay-zcash/btcpayserver-zcash-plugin/blob/master/docs/zcash-lightwalletd.custom.yml)
-* [Lightwalletd Docker Kpa Faɛl (Zebra)](https://github.com/ZcashFoundation/zebra/blob/main/docker/docker-compose.lwd.yml)
+* [lightwalletd Docker Kpa Faɛl (Zebra)](https://github.com/ZcashFoundation/zebra/blob/main/docker/docker-compose.lwd.yml)
 * [BTCPay API ƒe Nuŋlɔɖi Veviwo (Greenfield API)](https://docs.btcpayserver.org/API/Greenfield/v1/#tag/API-Keys)
 * [Wɔ Cloudflare Mɔdodo aɖe](https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/get-started/create-remote-tunnel/)
 * [Zcash Gakotoku ƒe Ðoɖowɔɖi (ZecHub)](https://zechub.wiki/wallets)

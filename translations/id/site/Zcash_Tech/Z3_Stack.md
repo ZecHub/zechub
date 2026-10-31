@@ -224,9 +224,9 @@ Daftar periksa dan FAQ siap produksi: [docs/faq.md](https://github.com/ZcashFoun
 
 * Repositori [Z3](https://github.com/ZcashFoundation/z3)
 * Kontrak [Z3 (port, volume, nama proyek)](https://github.com/ZcashFoundation/z3/blob/main/z3-contract.yaml)
-* [Zebra](https://github.com/ZcashFoundation/zebra) · [Buku ZebraZ3](https://zebra.zfnd.org/)
+* [Zebra](https://github.com/ZcashFoundation/zebra) · [Buku Zebra](https://zebra.zfnd.org/)
 * [Zaino](https://github.com/zingolabs/zaino)
-* [Zallet](https://github.com/zcash/zallet) · [Buku ZalletZ3](https://zcash.github.io/zallet/)
+* [Zallet](https://github.com/zcash/zallet) · [Buku Zallet](https://zcash.github.io/zallet/)
 * [Zcash Forum Komunitas — pembaruan Z3](https://forum.zcashcommunity.com/t/zcash-z3-updates-formerly-zcashd-deprecation/48965)
 * [Z3 Launcher](https://github.com/Jubrilabdulazeez/z3-launcher) — control plane komunitas atas stack Compose resmi (ZecHub Hackathon)
 

@@ -31,7 +31,7 @@ Kwa njia hii, watumiaji wanaweza kutuma aina moja ya ishara kwenye blockchain na
 
 Uthibitisho wa Bond (PoB) ni utaratibu umoja ambapo node watendaji lazima kufanya dhamana (kawaida katika mfumo wa ishara ya asili mtandao) kushiriki katika mtandao. dhamana hii vitendo kama aina ya usalama kiuchumi, kuhakikisha kwamba nodes kutenda kwa uaminifu na kudumisha usahihi wa mtandao2. ikiwa Node anajaribu kutenda vibaya au kushindwa kutekeleza majukumu yake, dhamana yake inaweza kuwa slashed, maana sehemu yake inachukuliwa mbali kama adhabu.
 
-Katika Maya Protocol, utaratibu huu husaidia kuzalisha thamani ya kiuchumi kutoka kwa rasilimali zilizowekwa za waendeshaji node, kuongeza ufanisi wa mtaji. Vivyo hivyo, katika Thorchain, waendeshaje node wanafunga RUNE (alama asili) kupata mtandao na kuhakikisha ushirikiano kati ya washiriki.
+Katika Maya Protocol, utaratibu huu husaidia kuzalisha thamani ya kiuchumi kutoka kwa rasilimali zilizowekwa za waendeshaji node, kuongeza ufanisi wa mtaji. Vivyo hivyo, katika THORChain, waendeshaje node wanafunga RUNE (alama asili) kupata mtandao na kuhakikisha ushirikiano kati ya washiriki.
 
 ## Tofauti kati ya Maya na THORChain
 
@@ -65,7 +65,7 @@ Also, Maya's goal is to become a *backend* for other services to build upon, in 
 Kutenda kama * backend, Maya inahitaji kuwa na mkono kwa UI tofauti ya na pochi kutumika. 
 Hapa ni orodha ya baadhi ya huduma ambazo tayari kusaidia Maya:
 
-[Thorwallet DEX](https://www.thorwallet.org/): Ledger, XDEFI, Metamask, Keystore
+[Thorwallet DEX](https://www.thorwallet.org/): Ledger, XDEFI, MetaMask, Keystore
 
 [El Dorado (Mto wa Dhoruba)](https://www.eldorado.market/): XDEFI, Kiwanda cha Keystore
 
@@ -75,6 +75,6 @@ Hapa ni orodha ya baadhi ya huduma ambazo tayari kusaidia Maya:
 
 DefiSpot: tena online, uwanja wake haina kutatua.
 
-[XDEFI](https://www.xdefi.io/): a multi-ecosystem self-custody wallet with support for 30+ native blockchains, and all EVM and Cosmos chains, including Bitcoin, Ethereum, Solana, THORChain, Maya Protocol, TRON, and more.
+[Ctrl Wallet (XDEFI)](https://ctrl.xyz/): a multi-ecosystem self-custody wallet with support for 30+ native blockchains, and all EVM and Cosmos chains, including Bitcoin, Ethereum, Solana, THORChain, Maya Protocol, TRON, and more.
 
 [KeepKey ](https://keepkey.com/): mkoba vifaa kwa ajili ya kuhifadhi salama mali digital.

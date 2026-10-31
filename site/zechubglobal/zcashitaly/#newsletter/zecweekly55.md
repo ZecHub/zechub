@@ -38,7 +38,7 @@ Leggete [qui](https://free2z.cash/James_Katz/zpage/compiling-zecwallet-lite-with
 
 #### Progetti della comunità
 
-[Zechub e ZFAV Club collaborano insieme](https://twitter.com/ZecHub/status/1690001353379135488)
+[ZecHub e ZFAV Club collaborano insieme](https://twitter.com/ZecHub/status/1690001353379135488)
 
 [Aggiornamento Free2Z: miglioramenti multimediali](https://twitter.com/Edicksonjga/status/168899615570565939)
 

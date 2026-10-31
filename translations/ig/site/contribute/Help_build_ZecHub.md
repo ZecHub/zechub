@@ -8,7 +8,7 @@
 
 Hazie njikọ maka akwụkwọ ozi ahụ wee tinye ha na ibe GitHub nke akwụkwọ ozi ahụ: -> [Pịa ebe a maka ntuziaka](https://github.com/ZecHub/zechub/blob/main/site/contribute/ZecWeekly_Newsletter.md)
 
-Lelee eziokwu wiki docs, tụọ aro ndozi, ma tụọ aro peeji ọhụrụ na Github
+Lelee eziokwu wiki docs, tụọ aro ndozi, ma tụọ aro peeji ọhụrụ na GitHub
 
 Mepụta ọdịnaya vidiyo n'ime edemede ndị a:
 ```
@@ -50,9 +50,9 @@ Anyị na-etinye ọrụ mepere emepe na [ZEC Bounties](https://bounties.zechub.
 
 [ZEC Bounties](https://bounties.zechub.wiki/)
 
-[Okwu ZecHub Github](https://github.com/ZecHub/zechub/issues)
+[Okwu ZecHub GitHub](https://github.com/ZecHub/zechub/issues)
 
-[Okwu ZecHub-Wiki Github](https://github.com/ZecHub/zechub-wiki/issues)
+[Okwu ZecHub-Wiki GitHub](https://github.com/ZecHub/zechub-wiki/issues)
 
 
 

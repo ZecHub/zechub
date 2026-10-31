@@ -8,7 +8,7 @@
 
 为新闻简报筛选链接，并将其添加到新闻简报的 GitHub 页面：-> [点击这里查看说明](https://github.com/ZecHub/zechub/blob/main/site/contribute/ZecWeekly_Newsletter.md)
 
-核查 wiki 文档中的事实、提出编辑建议，并在 Github 上提议新页面
+核查 wiki 文档中的事实、提出编辑建议，并在 GitHub 上提议新页面
 
 创作以下类别的视频内容：
 ```
@@ -50,9 +50,9 @@ ZEC中的金额并非固定。请遵循[赏金金额政策](https://bounties.zec
 
 [ZEC Bounties](https://bounties.zechub.wiki/)
 
-[ZecHub Github Issues](https://github.com/ZecHub/zechub/issues)
+[ZecHub GitHub Issues](https://github.com/ZecHub/zechub/issues)
 
-[ZecHub-Wiki Github Issues](https://github.com/ZecHub/zechub-wiki/issues)
+[ZecHub-Wiki GitHub Issues](https://github.com/ZecHub/zechub-wiki/issues)
 
 如果你还希望通过其他方式做出贡献，请在 Twitter 上联系 ZecHub（[@ZecHub](https://twitter.com/zechub)），或加入我们的 [Discord](https://discord.gg/zcash)。
 

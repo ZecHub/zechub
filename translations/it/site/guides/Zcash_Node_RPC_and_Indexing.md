@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Guida pratica: RPC del nodo Zcash e indicizzazione della blockchain
+# Guida pratica: RPC del nodo di Zcash e indicizzazione della blockchain
 
 Questa pagina è un ricettario per comunicare con un full node (nodo completo) Zcash in esecuzione tramite JSON-RPC e per collegare un indicizzatore interrogabile da portafogli leggeri ed explorer. **Non** è una seconda guida all'installazione.
 

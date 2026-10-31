@@ -161,7 +161,7 @@ Transparent Setup (No Trusted Setup)- Preprocessing algorithm no mfa kokoam rand
 
 [Nkɔsoɔ16](https://eprint.iacr.org/2016/260): Ɛhwehwɛ Trusted Setup nanso ɛwɔ adanse ntiantiaa paa a wobetumi agye atom ntɛmntɛm.
 
-[Sonic a ɛyɛ den](https://www.youtube.com/watch?v=oTRAg6Km1os)/[Marlin na ɔkyerɛwee](https://www.youtube.com/watch?v=bJDLf8KLdL0)/[Plonk](https://eprint.iacr.org/2019/953): Nhyehyɛe a Wogye Di wɔ Amansan Nyinaa Mu.
+[Sonic a ɛyɛ den](https://www.youtube.com/watch?v=oTRAg6Km1os)/[Marlin na ɔkyerɛwee](https://www.youtube.com/watch?v=bJDLf8KLdL0)/[PLONK](https://eprint.iacr.org/2019/953): Nhyehyɛe a Wogye Di wɔ Amansan Nyinaa Mu.
 
 [SUM](https://eprint.iacr.org/2019/1229)/[Halo](https://eprint.iacr.org/archive/2019/1021/20200218:011907)/[STARK](https://www.youtube.com/watch?v=wFZ_YIetK1o): No Trusted Setup nanso ɛma adanse a ɛware kakra anaasɛ ebetumi agye bere tenten ansa na prover atu mmirika. 
 

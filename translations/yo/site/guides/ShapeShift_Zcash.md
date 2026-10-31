@@ -175,4 +175,4 @@ Awọn ShapeShift ati Zcash isopọmọ duro fun a significant igbese siwaju fun
 
 [ShapeShift ṣe afihan v4.0, ti o tun n ṣalaye aṣiri ati idaduro ara ẹni ni DeFi (Invezz)](https://invezz.com/news/2025/12/18/shapeshift-unveils-version-4-0-re-centering-privacy-and-self-custody-in-defi/)
 
-[ShapeShift ń ṣe ìtìlẹ́yìn fún àwọn ìdánwò Zcash tí a fi ààbò bo (CoinTelegraph)](https://cointelegraph.com/news/shapeshift-rolls-out-support-for-shielded-zcash-transactions-for-true-privacy)
+[ShapeShift ń ṣe ìtìlẹ́yìn fún àwọn ìdánwò Zcash tí a fi ààbò bo (Cointelegraph)](https://cointelegraph.com/news/shapeshift-rolls-out-support-for-shielded-zcash-transactions-for-true-privacy)

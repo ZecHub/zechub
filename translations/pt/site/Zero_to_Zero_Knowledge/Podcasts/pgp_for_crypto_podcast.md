@@ -3,10 +3,10 @@
 </a>
 
 
-# Podcast PGP* para Cripto
+# Podcast PGP* para cripto
 ![bannerpgp](/content-images/221758326-06cea3f5-4c9e-4466-b9ee-738546-01f88aec39.webp)
 
-Bem-vindo ao “Podcast PGP* (Pretty Good Policy) para Cripto”, uma iniciativa da Electric Coin Co.!
+Bem-vindo ao "Podcast PGP* (Pretty Good Policy) para Cripto", uma iniciativa da Electric Coin Co.!
 
 Exploramos a interseção entre a tecnologia blockchain, as políticas públicas e os temas regulatórios globais. Nosso objetivo é oferecer ao nosso público análises aprofundadas e perspectivas especializadas sobre as questões-chave que moldam o futuro da blockchain e das criptomoedas.
 

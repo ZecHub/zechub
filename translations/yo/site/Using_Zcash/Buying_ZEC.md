@@ -7,7 +7,7 @@
 
 ## TL;DR
 
-- Ra ZEC lori paṣipaarọ ti o ṣe atilẹyin ** awọn yiyọ kuro ni aabo ** (Gemini, BitcoinVN, Flyp.me) nigbati o ba ṣeeṣe
+- Ra ZEC lori paṣipaarọ ti o ṣe atilẹyin ** awọn yiyọ kuro ni aabo ** (Gemini, BitcoinVN, flyp.me) nigbati o ba ṣeeṣe
 - Pupọ awọn paṣipaarọ aarin pataki (Coinbase, Kraken, Binance) ṣe atilẹyin ** awọn yiyọ kuro lasan ** nikan  daabobo ZEC rẹ lẹhin gbigba rẹ
 - Awọn paṣipaarọ ti a ko ni idojukọ gba awọn paṣipọ ti ko ni idaduro ṣugbọn ni deede yọkuro si awọn adirẹsi ṣiṣan
 - O kò nílò láti ra ZEC kíkún  àwọn ìyókù máa ń ṣiṣẹ́ dáadáa
@@ -28,9 +28,9 @@ Gemini jẹ paṣipaarọ cryptocurrency ti a ṣe ilana, apamọwọ, ati olut�
 
 BitcoinVN is a non-custodial instant exchange that supports shielded (z-address) deposits and withdrawals for ZEC — one of very few exchanges globally with full z-address support. Operating since 2014, you can swap BTC, ETH, USDT, and other cryptocurrencies for ZEC directly to your shielded wallet.
 
-**[Flyp.me](https://flyp.me)**
+**[flyp.me](https://flyp.me)**
 
-Flyp.me is a no sign-up crypto exchange. It was one of the safest and most private ways to exchange 30+ cryptocurrencies straight to your wallet. You can buy ZEC with other cryptocurrencies.
+flyp.me is a no sign-up crypto exchange. It was one of the safest and most private ways to exchange 30+ cryptocurrencies straight to your wallet. You can buy ZEC with other cryptocurrencies.
 
 ## Awọn paṣipaarọ ti o ṣe atilẹyin fun awọn yiyọ kuro lasan
 

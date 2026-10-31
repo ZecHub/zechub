@@ -108,9 +108,9 @@ Il existe aussi deux coûts plus modestes. Les wallets légers téléchargent en
 
 ## Statut et calendrier
 
-- **Statut de ZIP :** Projet. Responsables : Dev Ojha et Evan Forbes ; créé le 13 mars 2026.
+- **Statut de ZIP :** Proposé. Responsables : Dev Ojha et Evan Forbes ; créé le 13 mars 2026.
 - **Sondage auprès des détenteurs :** clôturé le 14 septembre 2026, avec 99,9 % de soutien. Le sondage indique une préférence ; il ne modifie pas à lui seul les règles de consensus.
-- **Calendrier :** dans une annonce du Community Forum de Zcash le 17 septembre, les organisations de développement ont convenu d'un calendrier prévoyant la finalisation du code le 30 septembre, NU7 sur testnet le 6 octobre, une décision finale et une hauteur d'activation du mainnet le 20 octobre, et une activation du mainnet visée autour du 5 novembre 2026. Le 5 novembre est un objectif, et non une date fixe, tant que la hauteur n'est pas définie.
+- **Calendrier :** dans une annonce du Community Forum de Zcash le 17 septembre, les organisations de développement ont convenu d'un calendrier prévoyant la finalisation du code le 30 septembre, NU7 sur testnet le 6 octobre, et une décision finale le 20 octobre. La hauteur d'activation du mainnet est désormais fixée à 3 543 405 ([ZIP 259](https://zips.z.cash/zip-0259)), visée autour du 5 novembre 2026.
 - **Implémentation :** suivie dans Zebra ([#11440](https://github.com/ZcashFoundation/zebra/issues/11440)) et dans Zakura ([PR #1066](https://github.com/zakura-core/zakura/pull/1066)).
 
 ## Ce que cela signifie pour vous

@@ -79,7 +79,7 @@ Zaino developers भी threat model का सीधे उल्लेख क�
 
 ### Zaino, Rust indexer
 
-[Zaino](/zcash-tech/zaino), Zingo टीम द्वारा Rust में लिखा गया एक indexer है, जिसे zcashd deprecation कार्य के हिस्से के रूप में lightwalletd का स्थान लेने के लिए बनाया गया है। यह "either a Zebra or Zcashd full validator" द्वारा रखे गए chain data को पढ़ते हुए light clients, full clients और block explorers को सेवा देता है।
+[Zaino](/zcash-tech/zaino), Zingo टीम द्वारा Rust में लिखा गया एक indexer है, जिसे zcashd deprecation कार्य के हिस्से के रूप में lightwalletd का स्थान लेने के लिए बनाया गया है। यह "either a Zebra or zcashd full validator" द्वारा रखे गए chain data को पढ़ते हुए light clients, full clients और block explorers को सेवा देता है।
 
 यह सक्रिय विकास में है, जिसका संस्करण 0.8.0 अगस्त 2026 में जारी हुआ था। जहाँ संभव हो, इसका लक्ष्य lightwalletd के साथ backward compatible रहना है, ताकि वॉलेट बिना फिर से लिखे इसकी ओर निर्देशित हो सकें।
 

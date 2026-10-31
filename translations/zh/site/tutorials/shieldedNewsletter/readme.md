@@ -4,7 +4,7 @@
 ## 设置
 
  * Zebrad 节点正在运行，且已完全同步，已启用 RPC 并配置为使用 cookies
- * Zainod 已完全同步
+ * zainod 已完全同步
  * Zallet 已设置为运行 RPC
 
 

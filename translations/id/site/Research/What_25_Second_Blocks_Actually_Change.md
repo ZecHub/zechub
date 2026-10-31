@@ -108,9 +108,9 @@ Terdapat dua biaya tambahan yang lebih kecil. Dompet light client mengunduh seki
 
 ## Status dan lini masa
 
-- **Status ZIP:** Draft. Pemilik Dev Ojha dan Evan Forbes; dibuat pada 13 Maret 2026.
+- **Status ZIP:** Diusulkan. Pemilik Dev Ojha dan Evan Forbes; dibuat pada 13 Maret 2026.
 - **Polling pemegang koin:** ditutup pada 14 September 2026, dengan dukungan 99,9%. Polling ini menandakan preferensi; polling tersebut tidak mengubah aturan konsensus dengan sendirinya.
-- **Lini masa:** dalam pengumuman Forum Komunitas Zcash pada 17 September, organisasi pengembangan menyepakati jadwal penyelesaian kode paling lambat 30 September, NU7 pada testnet pada 6 Oktober, keputusan akhir dan tinggi aktivasi mainnet pada 20 Oktober, dan target aktivasi mainnet sekitar 5 November 2026. 5 November adalah sebuah target, bukan tanggal tetap, sampai tinggi tersebut ditetapkan.
+- **Lini masa:** dalam pengumuman Forum Komunitas Zcash pada 17 September, organisasi pengembangan menyepakati jadwal penyelesaian kode paling lambat 30 September, NU7 pada testnet pada 6 Oktober, dan keputusan akhir pada 20 Oktober. Tinggi aktivasi mainnet kini ditetapkan pada 3.543.405 ([ZIP 259](https://zips.z.cash/zip-0259)), dengan target sekitar 5 November 2026.
 - **Implementasi:** dilacak dalam Zebra ([#11440](https://github.com/ZcashFoundation/zebra/issues/11440)) dan dalam Zakura ([PR #1066](https://github.com/zakura-core/zakura/pull/1066)).
 
 ## Apa artinya ini bagi Anda

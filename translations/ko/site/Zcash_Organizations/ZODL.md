@@ -12,7 +12,7 @@ ZODL은 대규모 금융 감시가 없는 세상을 상상합니다. 이곳에�
 
 ## 배경 및 역사
 
-ZODL (Zcash Open Development Lab)은 2026년 초에 이전 Electric Coin Company (ECC)의 전 CEO인 Josh Swihart에 의해 설립되었습니다. 2026년 1월, ECC의 전체 엔지니어링 및 제품 팀이 ECC를 감독하는 비영리 단체 Bootstrap과의 거버넌스 분쟁으로 인해 사임했습니다. 원래 Zcash의 가장 중요한 시스템을 설계, 구현, 유지한 핵심 팀은 ZODL로 이전하여 독립적으로 작업을 계속하기로 결정했습니다.
+ZODL (Zcash Open Development Lab)은 2026년 초에 이전 Electric Coin Company (ECC)의 전 CEO인 Josh Swihart에 의해 설립되었습니다. 2026년 1월, ECC의 전체 엔지니어링 및 제품 팀이 ECC를 감독하는 501(c)(3) 비영리 이사회인 Bootstrap과의 거버넌스 분쟁으로 인해 사임했습니다. 원래 Zcash의 가장 중요한 시스템을 설계, 구현, 유지한 핵심 팀은 ZODL로 이전하여 독립적으로 작업을 계속하기로 결정했습니다.
 
 이전 ECC에서 개발 및 유지된 Zashi 지갑은 새로운 조직에서 ZODL로 리브랜딩되었습니다. 사용자는 아무런 조치를 취할 필요가 없었으며, 다음 업데이트 시 앱이 자동으로 리브랜딩되었습니다.
 

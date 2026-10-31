@@ -6,7 +6,7 @@
 
 ## In breve
 
-* Pepper Sync è il motore di sincronizzazione introdotto in Zingo! 2.0, il portafoglio Zcash open-source sviluppato da Zingo Labs.
+* Pepper Sync è il motore di sincronizzazione introdotto in Zingo! 2.0, il portafoglio di Zcash open-source sviluppato da Zingo Labs.
 * Usa una sincronizzazione non lineare invece di scansionare la chain in grandi blocchi sequenziali, così il tuo saldo e le tue transazioni appaiono molto prima.
 * I progressi vengono salvati continuamente. Se la connessione cade o l'app si chiude, la sincronizzazione riprende dal punto in cui si era fermata invece di ricominciare.
 * Puoi spendere prima che la sincronizzazione sia terminata.
@@ -18,7 +18,7 @@ Zingo 2.0 è l'ultima versione del portafoglio Zingo!, un portafoglio leggero e 
 
 In passato, la sincronizzazione poteva sembrare dolorosamente lenta, soggetta a errori e pesante in termini di risorse, costringendo talvolta gli utenti a ricominciare da zero. Pepper Sync cambia tutto questo. Rende la sincronizzazione più veloce, più fluida, più affidabile e meno impegnativa per il tuo dispositivo, preservando pienamente la privacy delle transazioni schermate.
 
-Che tu sia un utente completamente nuovo che prova Zcash per la prima volta, oppure un membro storico della community che gestisce più portafogli schermati, Pepper Sync rende l'esperienza molto più pratica e piacevole.
+Che tu sia un utente completamente nuovo che prova di Zcash per la prima volta, oppure un membro storico della community che gestisce più portafogli schermati, Pepper Sync rende l'esperienza molto più pratica e piacevole.
 
 ### Funzionalità principali di Pepper Sync
 
@@ -89,7 +89,7 @@ Pepper Sync aiuta in questo modo:
 - Supporta l'usabilità quotidiana - Gli indirizzi schermati diventano più facili da considerare affidabili.
 - Incoraggia la crescita dell'ecosistema - Un'esperienza del portafoglio migliore porta a una maggiore adozione, più app e più servizi.
 
-Migliorando l'esperienza del portafoglio, Pepper Sync rafforza l'intero ecosistema Zcash.
+Migliorando l'esperienza del portafoglio, Pepper Sync rafforza l'intero ecosistema di Zcash.
 
 ### Per iniziare: onboarding con Zingo 2.0
 
@@ -133,16 +133,16 @@ R: Sì. Pepper Sync supporta la possibilità di spendere prima che la sincronizz
 
 Con Zingo 2.0 Pepper Sync, la sincronizzazione non è più il principale punto dolente dei portafogli schermati. Ora è veloce, stabile e facile da usare, abbassando la barriera d'ingresso per i nuovi arrivati e rendendo l'uso quotidiano molto più pratico.
 
-Per gli utenti, significa meno attesa e più privacy. Per gli sviluppatori, significa una base più solida su cui costruire. Per l'ecosistema Zcash, è un altro passo verso il rendere le transazioni schermate accessibili a tutti.
+Per gli utenti, significa meno attesa e più privacy. Per gli sviluppatori, significa una base più solida su cui costruire. Per l'ecosistema di Zcash, è un altro passo verso il rendere le transazioni schermate accessibili a tutti.
 
 Zingo 2.0 con Pepper Sync non è solo un aggiornamento; è un salto in avanti per una crypto privata e realmente utilizzabile.
 
 ## Pagine correlate
 
-- [Sincronizzazione dei portafogli Zcash](/zcash-tech/zcash-wallet-syncing) — come funziona la sincronizzazione dei portafogli nell'ecosistema Zcash.
+- [Sincronizzazione dei portafogli di Zcash](/zcash-tech/zcash-wallet-syncing) — come funziona la sincronizzazione dei portafogli nell'ecosistema di Zcash.
 - [Nodi Lightwallet](/zcash-tech/lightwallet-nodes) — l'infrastruttura con cui si sincronizza un portafoglio leggero come Zingo.
 - [Zaino](/zcash-tech/zaino) — l'indexer sviluppato dal team di Zingo.
-- [Portafogli](/wallets) — la directory completa dei portafogli Zcash e delle loro funzionalità.
+- [Portafogli](/wallets) — la directory completa dei portafogli di Zcash e delle loro funzionalità.
 
 ## Per approfondire
 

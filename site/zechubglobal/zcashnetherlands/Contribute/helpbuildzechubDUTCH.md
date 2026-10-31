@@ -1,4 +1,4 @@
-# Help mee Zechub te bouwen
+# Help mee ZecHub te bouwen
 
 Als je lid bent van de Zcash-gemeenschap en wilt bijdragen aan het bouwen van ZecHub, zijn er een paar dingen die super handig zijn.
 

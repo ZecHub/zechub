@@ -8,7 +8,7 @@
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
     className="w-full h-full"
-    src="https://www.youtube.com/embed/f1k6xhNfTV8""
+    src="https://www.youtube.com/embed/f1k6xhNfTV8"
     title="Cara melakukan Swap Ethereum ke Zcash di LeoDex"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowFullScreen
@@ -31,7 +31,7 @@ Dengan cara ini, kamu dapat mengirim satu jenis token di satu blockchain dan men
 
 Proof of Bond (PoB) adalah mekanisme konsensus di mana operator node harus menjaminkan sebuah bond (biasanya dalam bentuk token asli jaringan) untuk berpartisipasi dalam jaringan. Bond ini berfungsi sebagai bentuk keamanan ekonomi, memastikan bahwa node bertindak jujur dan menjaga integritas jaringan2. Jika sebuah node mencoba bertindak secara jahat atau gagal menjalankan tugasnya, bond miliknya dapat di-slash, yang berarti sebagian dari bond tersebut diambil sebagai penalti.
 
-Dalam Maya Protocol, mekanisme ini membantu menghasilkan nilai ekonomi dari sumber daya yang di-stake oleh operator node, sehingga meningkatkan efisiensi modal. Demikian pula, dalam Thorchain, operator node menjaminkan RUNE (token asli) untuk mengamankan jaringan dan memastikan kerja sama antar peserta.
+Dalam Maya Protocol, mekanisme ini membantu menghasilkan nilai ekonomi dari sumber daya yang di-stake oleh operator node, sehingga meningkatkan efisiensi modal. Demikian pula, dalam THORChain, operator node menjaminkan RUNE (token asli) untuk mengamankan jaringan dan memastikan kerja sama antar peserta.
 
 ## Perbedaan antara Maya dan THORChain
 
@@ -65,7 +65,7 @@ Selain itu, tujuan Maya adalah untuk menjadi *backend* bagi layanan lain agar da
 Bertindak sebagai *backend*, Maya perlu didukung oleh berbagai UI dan dompet agar dapat digunakan.
 Berikut adalah daftar beberapa layanan yang sudah mendukung Maya:
 
-[Thorwallet DEX](https://www.thorwallet.org/): Ledger, XDEFI, Metamask, Keystore
+[Thorwallet DEX](https://www.thorwallet.org/): Ledger, XDEFI, MetaMask, Keystore
 
 [El Dorado](https://www.eldorado.market/): XDEFI, Keystore
 
@@ -75,6 +75,6 @@ Berikut adalah daftar beberapa layanan yang sudah mendukung Maya:
 
 DefiSpot: tidak lagi online, domainnya tidak dapat diakses.
 
-[XDEFI](https://www.xdefi.io/): sebuah dompet self-custody multi-ekosistem dengan dukungan untuk 30+ blockchain asli, serta semua chain EVM dan Cosmos, termasuk Bitcoin, Ethereum, Solana, THORChain, Maya Protocol, TRON, dan banyak lagi.
+[Ctrl Wallet (XDEFI)](https://ctrl.xyz/): sebuah dompet self-custody multi-ekosistem dengan dukungan untuk 30+ blockchain asli, serta semua chain EVM dan Cosmos, termasuk Bitcoin, Ethereum, Solana, THORChain, Maya Protocol, TRON, dan banyak lagi.
 
 [KeepKey ](https://keepkey.com/): Sebuah dompet hardware untuk menyimpan aset digital secara aman.

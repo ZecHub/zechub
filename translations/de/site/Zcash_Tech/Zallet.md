@@ -202,7 +202,7 @@ Unter [zallet.io](https://www.zallet.io/) gibt es ein separates Verbraucherprodu
 - [Zebra Vollknoten](Zebra_Full_Node.md) — der Knoten, dessen Standard-Backend Zallet liest
 - [Zakura Knoten](Zakura_Node.md) — alternativer validierender Knoten
 - [Zaino](Zaino.md) — Indexer-Backend und Light-Client-Server
-- [ZECD](ZECD.md) — ein weiteres Wallet-Server-Design auf librustzcash
+- [zecd](ZECD.md) — ein weiteres Wallet-Server-Design auf librustzcash
 - [Zcash Wallet-Synchronisierung](Zcash_Wallet_Syncing.md) — wie Shielded Wallets die Chain scannen
 - [Viewing Keys](Viewing_Keys.md)
 

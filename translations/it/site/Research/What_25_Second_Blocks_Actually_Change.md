@@ -108,9 +108,9 @@ Vi sono anche due costi minori. I portafogli leggeri scaricano circa 200 KB in p
 
 ## Stato e cronologia
 
-- **Stato di ZIP:** Bozza. Proprietari Dev Ojha ed Evan Forbes; creato il 13 marzo 2026.
+- **Stato di ZIP:** Proposto. Proprietari Dev Ojha ed Evan Forbes; creato il 13 marzo 2026.
 - **Sondaggio tra i detentori di monete:** chiuso il 14 settembre 2026, con il 99,9% di sostegno. Il sondaggio indica una preferenza; non modifica di per sé le regole di consenso.
-- **Cronologia:** in un annuncio sul Community Forum di Zcash del 17 settembre, le organizzazioni di sviluppo hanno concordato un programma con codice completato entro il 30 settembre, NU7 sulla testnet il 6 ottobre, una decisione finale e l'altezza di attivazione della mainnet il 20 ottobre, e l'attivazione della mainnet prevista intorno al 5 novembre 2026. Il 5 novembre è un obiettivo, non una data fissa, finché non viene definita l'altezza.
+- **Cronologia:** in un annuncio sul Community Forum di Zcash del 17 settembre, le organizzazioni di sviluppo hanno concordato un programma con codice completato entro il 30 settembre, NU7 sulla testnet il 6 ottobre e una decisione finale il 20 ottobre. L'altezza di attivazione della mainnet è ora fissata a 3.543.405 ([ZIP 259](https://zips.z.cash/zip-0259)), prevista intorno al 5 novembre 2026.
 - **Implementazione:** tracciata in Zebra ([#11440](https://github.com/ZcashFoundation/zebra/issues/11440)) e in Zakura ([PR #1066](https://github.com/zakura-core/zakura/pull/1066)).
 
 ## Cosa significa per te

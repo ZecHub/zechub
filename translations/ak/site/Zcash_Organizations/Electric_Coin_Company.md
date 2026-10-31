@@ -3,7 +3,7 @@
 </a>
 
 # <img src="/content-images/image-2024-02-03-164918723-f59419848a.webp" alt="Alt Text" width="50"/>    Electric Coin Company (Sunset)
-[Wɛbsaet no](https://electriccoin.co) - [Github a wɔde di dwuma](https://github.com/zodl-inc) - [X/Twitter na ɛwɔ hɔ](https://x.com/ElectricCoinCo)
+[Wɛbsaet no](https://electriccoin.co) - [GitHub a wɔde di dwuma](https://github.com/zodl-inc) - [X/Twitter na ɛwɔ hɔ](https://x.com/ElectricCoinCo)
 
 > **Ɛfa saa GitHub link no ho.** ECC adekorabea ahorow no wɔ `zodl-inc`. Ɛno ne ahyehyɛde koro no ara, a wɔsesaa ne din bere a kuw no tu kɔɔ hɔ no [ZODL](/zcash-organizations/zodl). Dedaw no `github.com/Electric-Coin-Company` din no, obi a ɔne no nni abusuabɔ na ɔkyerɛw too hɔ wɔ May 2026 mu na ɛne ECC anaa ZODL nni hwee yɛ, enti nnye mmara a wɔatintim wɔ hɔ no nni.
 

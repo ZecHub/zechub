@@ -4,8 +4,6 @@
 
 # zecd  Shielded-First Wallet Server (Onye na - ahụ maka obere akpa ego nke mbụ)
 
-> 🇧🇷 [Versiọn na Portuguese](/pt/zcash-tech/zecd)
-
 zecd is a shielded-first wallet server for Zcash, built on [librustzcash](https://github.com/zcash/librustzcash) a na-ekpughere site n'asụsụ JSON-RPC nke Bitcoin Core. Ọ na - enye ndị mmepe na ndị ntinye ego ụgwọ ihe amaara, API dakọtara maka mmekọrịta Zcash  ma mee ka Orchard (olulu mmiri kachasị onwe ya) ndabara. Emepụtara site [zec.rocks](https://zec.rocks), zecd ezubere iji dochie anya . `zcashd`bụ obere akpa arụ ọrụ na oge a, igwe ojii-nwa afọ deployments.
 
 **Oge a:** 0.5.0-rc3 (July 13, 2026)  na Ironwood (NU6.3) nkwado. Wụnye site na `cargo install zecd` ma ọ bụ jiri onyinyo Docker.

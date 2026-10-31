@@ -52,7 +52,7 @@
 
 فأنت تعرف الآن أين تنفق ZEC الخاصة بك!
 
-**الموقع الإلكتروني**: تم إيقاف sheemprende.com ولم يعد يعمل. تواصل معها عبر [Free2z](https://free2z.cash/SheEmprende) | [منصة X](https://twitter.com/SheEmprende_)
+**الموقع الإلكتروني**: تم إيقاف sheemprende.com ولم يعد يعمل. تواصل معها عبر [Free2Z](https://free2z.cash/SheEmprende) | [منصة X](https://twitter.com/SheEmprende_)
 
 **Zcash Unified Address:** 
 
@@ -74,7 +74,7 @@ Rosa Ma. Rangel، مهندسة حاسوب بالمهنة، لكنها *chocolati
 
 **الموقع الإلكتروني**: تم إيقاف somosdulceros.com ولم يعد يعمل. استخدم الروابط الاجتماعية أدناه.
 
-**وسائل التواصل الاجتماعي:** [Instagram](https://www.instagram.com/somos_dulceros) | [منصة X](https://twitter.com/RosaMRangel) | [Free2z](https://free2z.cash/Criptodulceros/zpage/criptodulceros-01)
+**وسائل التواصل الاجتماعي:** [Instagram](https://www.instagram.com/somos_dulceros) | [منصة X](https://twitter.com/RosaMRangel) | [Free2Z](https://free2z.cash/Criptodulceros/zpage/criptodulceros-01)
 
 **Zcash Unified Address:** 
 
@@ -106,7 +106,7 @@ Elizabeth أم شابة شغوفة تحب الأعمال اليدوية والت
 
 **وسائل التواصل الاجتماعي** 
 
-[Instagram](https://instagram.com/papelesacolor) | [Free2z](https://free2z.cash/PapelesaColor) 
+[Instagram](https://instagram.com/papelesacolor) | [Free2Z](https://free2z.cash/PapelesaColor) 
 
 [Linktree](https://linktr.ee/Papelesacolor)
 
@@ -193,7 +193,7 @@ u1l2lxdx2en962h3utm24fthm0r9q5cxc4705jeatq4lckm92k06htdk8jear9tsay7w8xz4najnv0mp
 
 **وسائل التواصل الاجتماعي:**
 
-[Telegram](https://t.me/Robmarn) | [منصة X](https://twitter.com/robmarn) | [Free2z](https://free2z.cash/robmarn)
+[Telegram](https://t.me/Robmarn) | [منصة X](https://twitter.com/robmarn) | [Free2Z](https://free2z.cash/robmarn)
 
 📍Barquisimeto - فنزويلا 
 
@@ -261,7 +261,7 @@ Tecnopapapi هو الشخص المناسب للتواصل معه!
 
 **وسائل التواصل الاجتماعي** 
 
-Free2z | [Telegram](https://t.me/Lexihel) | [YouTube](https://youtube.com/@tecnopapapi) | [منصة X](https://twitter.com/tecnopapapi) | [TikTok](https://www.tiktok.com/@lexihel) | [Instagram](https://www.instagram.com/tecnopapapi/) |  [Facebook](https://www.facebook.com/tecnopapapi) 
+Free2Z | [Telegram](https://t.me/Lexihel) | [YouTube](https://youtube.com/@tecnopapapi) | [منصة X](https://twitter.com/tecnopapapi) | [TikTok](https://www.tiktok.com/@lexihel) | [Instagram](https://www.instagram.com/tecnopapapi/) |  [Facebook](https://www.facebook.com/tecnopapapi) 
 
 يقبل Tecnopapapi العملات المشفرة (بما فيها 3ZEC) ووسائل دفع أخرى. 
 

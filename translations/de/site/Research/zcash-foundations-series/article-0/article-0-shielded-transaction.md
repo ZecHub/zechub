@@ -221,7 +221,7 @@ Du hältst jetzt die Karte in der Hand. Der Rest der Serie füllt sie aus.
 | **Nullifier** | Eine eindeutige „ausgegeben“-Markierung, die veröffentlicht wird, wenn eine Note verwendet wird, und Doppelausgaben verhindert |
 | **Zero-knowledge proof** | Ein Beweis, dass eine Aussage wahr ist, ohne irgendetwas über diese Wahrheit hinaus offenzulegen |
 | **Shielding / deshielding** | Gelder in die / aus der privaten abgeschirmten Welt bewegen |
-| **Viewing key** | Der Schlüssel, der es dem Eigentümer erlaubt, an ihn adressierte Notes zu erkennen und zu lesen |
+| **Viewing Key** | Der Schlüssel, der es dem Eigentümer erlaubt, an ihn adressierte Notes zu erkennen und zu lesen |
 
 ---
 

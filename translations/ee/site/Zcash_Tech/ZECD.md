@@ -4,8 +4,6 @@
 
 # zecd — Gakotoku ƒe Dɔwɔla si Wokpɔ Akpoxɔnu Gbãtɔ
 
-> 🇧🇷 [Versão em Portugaltɔwo ƒe agbalẽwo](/pt/zcash-tech/zecd)
-
 zecd nye shielded-first wallet server na Zcash, si wotu ɖe edzi [librustzcash](https://github.com/zcash/librustzcash) eye woɖee ɖe go to Bitcoin Core ƒe JSON-RPC gbetagbe dzi. Enaa dɔwɔlawo kple fexexe ƒe ƒuƒoƒowɔlawo API nyanyɛ, si sɔ kple Bitcoin hena nuwɔwɔ kple Zcash — esime wòle Orchard (si nye ame ŋutɔ tɔ wu) wɔm wònye nusi woɖo ɖi. Woto esia vɛ to [zec.rocks](https://zec.rocks), wowɔ zecd be wòaxɔ ɖe eteƒe `zcashd`’s gakotoku ƒe dɔwɔwɔ le egbegbe, alilikpo me tɔwo ƒe dɔwɔwɔwo me.
 
 **Fifia ƒe tɔtrɔ:** 0.5.0-rc3 (July 13, 2026) — kple Ironwood (NU6.3) ƒe kpekpeɖeŋu. Install via `cargo install zecd` alo nàzã Docker ƒe nɔnɔmetata si dziɖuɖua da asi ɖo.

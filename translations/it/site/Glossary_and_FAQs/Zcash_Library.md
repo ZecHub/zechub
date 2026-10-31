@@ -119,7 +119,7 @@ Un glossario completo dei termini chiave, dei concetti e delle risorse relativi 
 | Metrics | Le metriche di rete sono disponibili [qui](https://tokenterminal.com/explorer/projects/zcash/metrics/all) |
 | Metadata | Dati generati insieme a una transazione Zcash di un utente. Possono includere altezza del blocco, versione della transazione o altezza di scadenza, ecc. |
 | Mobile SDK | Un SDK leggero che collega Android a Zcash, consentendo ad app Android di terze parti di inviare e ricevere transazioni schermate. [GitHub](https://github.com/zcash/zcash-android-wallet-sdk) |
-| Mining | Il processo in cui, per ogni blocco, i nodi della rete Zcash competono eseguendo complessi calcoli matematici per trovare una soluzione basata su una difficoltà che si autoregola. [Guida](https://z.cash/mining-zcash/) |
+| Mining | Il processo in cui, per ogni blocco, i nodi della rete di Zcash competono eseguendo complessi calcoli matematici per trovare una soluzione basata su una difficoltà che si autoregola. [Guida](https://z.cash/mining-zcash/) |
 | Multisignature | Un indirizzo che richiede più firme di chiavi private per poter spendere i fondi. Attualmente, la funzionalità multisig è supportata solo dagli indirizzi trasparenti. |
 
 ## N
@@ -128,7 +128,7 @@ Un glossario completo dei termini chiave, dei concetti e delle risorse relativi 
 |------|-----------|
 | Network Sustainability Mechanism (NSM) | Una proposta di Shielded Labs per bruciare una quota delle commissioni di transazione, così che il budget di sicurezza a lungo termine del protocollo non dipenda interamente dall'emissione. Specificata nello ZIP 234, in fase di revisione nel 2026. |
 | Nighthawk | Un portafoglio mobile per Zcash. [Sito web](https://nighthawkwallet.com) |
-| Noir Wallet | Un portafoglio Zcash in forma di estensione del browser supportato da Zcash Community Grants, creato per collegare direttamente gli ZEC schermati alle applicazioni del browser invece di affidarsi a codici QR e trasferimenti manuali. [zknoir.com](https://www.zknoir.com/) |
+| Noir Wallet | Un portafoglio di Zcash in forma di estensione del browser supportato da Zcash Community Grants, creato per collegare direttamente gli ZEC schermati alle applicazioni del browser invece di affidarsi a codici QR e trasferimenti manuali. [zknoir.com](https://www.zknoir.com/) |
 | NU5 | Il 6° grande aggiornamento di rete di Zcash, che introduce la pool schermata Orchard e gli indirizzi unificati. [Maggiori informazioni](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#nu5) |
 | NU6 | Il 7° grande aggiornamento di rete di Zcash, che adegua il sussidio per blocco per finanziare il programma Zcash Community Grants e il Deferred Dev Fund Lockbox. Attivato alla fine del 2024. [Maggiori informazioni](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#nu6) |
 | NU7 | L'aggiornamento di rete successivo a Ironwood, previsto per mainnet il 5 novembre 2026. Secondo [ZIP 259](https://zips.z.cash/zip-0259) introduce blocchi da 25 secondi (ZIP 218), il Network Sustainability Mechanism con riciclo delle commissioni (ZIP 235 e 237) e la fine delle transazioni di versione 4, che rende i fondi Sprout non spendibili (ZIP 2003). Non aggiunge alcun nuovo formato di transazione; Tachyon e gli Zcash Shielded Assets non ne fanno parte. |
@@ -155,7 +155,7 @@ Un glossario completo dei termini chiave, dei concetti e delle risorse relativi 
 
 | Termine | Definizione |
 |------|-----------|
-| QR Code | Un codice leggibile da una macchina usato per codificare indirizzi Zcash e facilitarne la scansione. Gli indirizzi unificati (UA) vengono tipicamente condivisi tramite codici QR nei moderni portafogli Zcash. |
+| QR Code | Un codice leggibile da una macchina usato per codificare indirizzi Zcash e facilitarne la scansione. Gli indirizzi unificati (UA) vengono tipicamente condivisi tramite codici QR nei moderni portafogli di Zcash. |
 | Quantum Recoverability | Una proprietà delle note Ironwood, specificata in [ZIP 2005](https://zips.z.cash/zip-2005), che mantiene recuperabile la registrazione on-chain di una moneta se un futuro computer quantistico dovesse compromettere la crittografia che oggi la protegge. Si tratta di un percorso di recupero piuttosto che di resistenza quantistica, e si applica alle note Ironwood, non ai fondi Sprout, Sapling o Orchard esistenti. |
 
 ## R
@@ -209,7 +209,7 @@ Un glossario completo dei termini chiave, dei concetti e delle risorse relativi 
 
 | Termine | Definizione |
 |------|-----------|
-| Wallet | Software o hardware che conserva le chiavi private e consente di inviare/ricevere ZEC. I portafogli attivi includono ZODL (iOS/Android), Zingo! (mobile/desktop), Nighthawk (Android), Zkool (mobile/desktop), Zallet (in arrivo) e Keystone (hardware). Per un elenco completo, vedi [Portafogli dell'ecosistema Zcash](https://z.cash/ecosystem/?wallets=#tag-wallets) |
+| Wallet | Software o hardware che conserva le chiavi private e consente di inviare/ricevere ZEC. I portafogli attivi includono ZODL (iOS/Android), Zingo! (mobile/desktop), Nighthawk (Android), Zkool (mobile/desktop), Zallet (in arrivo) e Keystone (hardware). Per un elenco completo, vedi [Portafogli dell'ecosistema di Zcash](https://z.cash/ecosystem/?wallets=#tag-wallets) |
 | WebZjs | Il primo SDK JavaScript per Zcash, sviluppato da ChainSafe per ambienti del browser. È alla base dello snap Zcash Shielded Wallet che ha portato gli ZEC schermati su MetaMask. |
 
 ## X
@@ -222,14 +222,14 @@ Un glossario completo dei termini chiave, dei concetti e delle risorse relativi 
 
 | Termine | Definizione |
 |------|-----------|
-| YWallet | Un portafoglio Zcash focalizzato sulla privacy che supporta Orchard, Sapling e indirizzi trasparenti, noto per la sincronizzazione rapida. Non è più mantenuto: il suo sviluppatore ha confermato che non verrà aggiornato per Ironwood, quindi non può più seguire la rete. Zkool, dello stesso sviluppatore, è il successore attivamente mantenuto. |
+| YWallet | Un portafoglio di Zcash focalizzato sulla privacy che supporta Orchard, Sapling e indirizzi trasparenti, noto per la sincronizzazione rapida. Non è più mantenuto: il suo sviluppatore ha confermato che non verrà aggiornato per Ironwood, quindi non può più seguire la rete. Zkool, dello stesso sviluppatore, è il successore attivamente mantenuto. |
 
 ## Z
 
 | Termine | Definizione |
 |------|-----------|
 | Zcash | Criptovaluta incentrata sulla privacy che utilizza zk-SNARKs. Collega pagamenti trasparenti (in stile Bitcoin) e pagamenti completamente schermati. |
-| Zcash Foundation | Organizzazione non profit indipendente che supporta l'ecosistema Zcash, finanzia lo sviluppo e promuove la privacy. |
+| Zcash Foundation | Organizzazione non profit indipendente che supporta l'ecosistema di Zcash, finanzia lo sviluppo e promuove la privacy. |
 | Zcash Network | Rete peer-to-peer di nodi che valida le transazioni e mantiene la blockchain. |
 | ZEC | Il ticker ufficiale di Zcash (alcuni exchange mostrano ancora XZC). |
 | Z3 stack | I tre programmi che insieme sostituiscono zcashd: Zebra per il nodo, Zaino per l'indicizzazione, Zallet per il portafoglio. [stack Z3](/zcash-tech/z3-stack) |

@@ -2,32 +2,32 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Ajude a Construir o ZecHub 
+# Ajude a construir o ZecHub 
 
-Se é membro da comunidade Zcash e quer contribuir para a construção do ZecHub, há algumas coisas que são extremamente úteis.
+Se você é membro da comunidade Zcash e quer contribuir para a construção do ZecHub, há algumas coisas que são extremamente úteis.
 
-Selecione links para a newsletter e adicione-os à página GitHub da newsletter: -> [Clique aqui para obter instruções](https://github.com/ZecHub/zechub/blob/main/site/contribute/ZecWeekly_Newsletter.md)
+Selecione links para a newsletter e adicione-os à página do GitHub da newsletter: -> [Clique aqui para obter instruções](https://github.com/ZecHub/zechub/blob/main/site/contribute/ZecWeekly_Newsletter.md)
 
-Verifique os factos da documentação da wiki, sugira edições e proponha novas páginas no Github
+Verifique os fatos da documentação da wiki, sugira edições e proponha novas páginas no GitHub
 
-Crie conteúdos em vídeo nas seguintes categorias:
+Crie conteúdo em vídeo nas seguintes categorias:
 ```
 * Zcash explainer videos
-* Zcash wallet guide/tutorials
+* Guias e tutoriais de carteiras Zcash
 * Third-party application demos
 ```
 
-Produza designs como cartazes/gráficos/animações para o ecossistema de Zcash & Privacidade 
+Produza designs como cartazes/gráficos/animações para o ecossistema do Zcash e da privacidade 
 
 Traduza qualquer uma das páginas existentes da wiki.
 
-Reportar bugs
+Reporte bugs
 
 ### Recompensas
 
-Os montantes não são fixos em ZEC. Use a [política de montantes de recompensas](https://bounties.zechub.wiki/docs/bounty-amounts): escolha um intervalo em USD para a categoria de trabalho, converta à taxa à vista e introduza ZEC no quadro. Essa política é a fonte de verdade.
+Os valores não são fixos em ZEC. Use a [política de valores de recompensas](https://bounties.zechub.wiki/docs/bounty-amounts): escolha um intervalo em USD para a categoria de trabalho, converta à taxa à vista e insira ZEC na tabela. Essa política é a fonte de verdade.
 
-Fluxo de trabalho dos contribuidores e tipos de trabalho: [Contribuir para ZecHub](https://zechub.wiki/contribute/contributing-guide).
+Fluxo de trabalho dos colaboradores e tipos de trabalho: [Contribuir para o ZecHub](https://zechub.wiki/contribute/contributing-guide).
 
 Guia da plataforma:
 
@@ -42,7 +42,7 @@ Guia da plataforma:
   />
 </div>
 
-Publicamos tarefas em aberto em [ZEC Bounties](https://bounties.zechub.wiki/). Também pode sugerir recompensas lá. Um PR integrado não é o mesmo que uma recompensa aprovada ou paga.
+Publicamos tarefas em aberto em [ZEC Bounties](https://bounties.zechub.wiki/). Você também pode sugerir recompensas lá. Um PR integrado não é o mesmo que uma recompensa aprovada ou paga.
 
 ![zecbounties](/content-images/0e4f5109-c0c9-4a0a-8d71-8172e36b9726-1a94469edf.webp)
 
@@ -50,15 +50,15 @@ Publicamos tarefas em aberto em [ZEC Bounties](https://bounties.zechub.wiki/). T
 
 [ZEC Bounties](https://bounties.zechub.wiki/)
 
-[Issues do Github do ZecHub](https://github.com/ZecHub/zechub/issues)
+[Issues do GitHub do ZecHub](https://github.com/ZecHub/zechub/issues)
 
-[Issues do Github do ZecHub-Wiki](https://github.com/ZecHub/zechub-wiki/issues)
+[Issues do GitHub do ZecHub-Wiki](https://github.com/ZecHub/zechub-wiki/issues)
 
-Se houver outras formas pelas quais gostaria de contribuir, envie uma mensagem ao ZecHub ([@ZecHub](https://twitter.com/zechub)) no Twitter ou junte-se ao nosso [Discord](https://discord.gg/zcash).
+Se houver outras formas pelas quais você gostaria de contribuir, envie uma mensagem para o ZecHub ([@ZecHub](https://twitter.com/zechub)) no Twitter ou entre no nosso [Discord](https://discord.gg/zcash).
 
 ____
 
-**Para efetuar pagamentos, o ZecHub exige que todos os contribuidores preencham um formulário de declaração com o seu Nome & Shielded:**
+**Para efetuar pagamentos, o ZecHub exige que todos os colaboradores preencham um formulário de declaração com seu Nome e endereço blindado:**
 
 **( Zcash | Namada | Penumbra | Ycash ) endereço**
 

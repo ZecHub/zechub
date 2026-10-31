@@ -106,7 +106,7 @@ ECC, Ile-iṣẹ Filecoin Foundation, Awọn ile-iṣelọpọ Protocol Labs ati
 
 + [Oribis, ohun L2 zkRollup lori Cardano](https://docs.orbisprotocol.com/orbis/technology/halo-2)
 
-+ [Darkfi, a ikọkọ L1 zkEVM blockchain](https://dark.fi/book/arch/arch.html)
++ [DarkFi, a ikọkọ L1 zkEVM blockchain](https://dark.fi/book/arch/arch.html)
 
 + [Iyípadà, a L2 zkRollup on Ethereum](https://scroll.mirror.xyz/nDAbJbSIJdQIWqp9kn8J0MVS4s6pYBwHmK7keidQs-k)
 

@@ -8,7 +8,7 @@ Wenn du Mitglied der Zcash-Community bist und zum Aufbau von ZecHub beitragen m�
 
 Kuratiere Links für den Newsletter und füge sie auf der GitHub-Seite des Newsletters hinzu: -> [Klicke hier für Anweisungen](https://github.com/ZecHub/zechub/blob/main/site/contribute/ZecWeekly_Newsletter.md)
 
-Überprüfe die Wiki-Dokumente auf sachliche Richtigkeit, schlage Änderungen vor und reiche neue Seiten auf Github ein
+Überprüfe die Wiki-Dokumente auf sachliche Richtigkeit, schlage Änderungen vor und reiche neue Seiten auf GitHub ein
 
 Erstelle Videoinhalte in den folgenden Kategorien:
 ```
@@ -50,9 +50,9 @@ Wir veröffentlichen offene Aufgaben auf [ZEC Bounties](https://bounties.zechub.
 
 [ZEC Bounties](https://bounties.zechub.wiki/)
 
-[ZecHub Github-Issues](https://github.com/ZecHub/zechub/issues)
+[ZecHub GitHub-Issues](https://github.com/ZecHub/zechub/issues)
 
-[ZecHub-Wiki Github-Issues](https://github.com/ZecHub/zechub-wiki/issues)
+[ZecHub-Wiki GitHub-Issues](https://github.com/ZecHub/zechub-wiki/issues)
 
 Falls es andere Möglichkeiten gibt, wie du beitragen möchtest, sende bitte ZecHub ([@ZecHub](https://twitter.com/zechub)) eine Nachricht auf Twitter oder tritt unserem [Discord](https://discord.gg/zcash) bei.
 

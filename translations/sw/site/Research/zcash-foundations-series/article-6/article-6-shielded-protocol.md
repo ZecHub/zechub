@@ -153,7 +153,7 @@ This is the most complete picture in the series, but still a model. We compresse
 | Muhula | Maana ya Kiingereza cha kawaida |
 |---|---|
 | **Spending key** | Siri moja ya mzizi ambayo funguo zote za mtumiaji hupata |
-| **Viewing key** | Hufichua miamala yako kwa mmiliki bila kumruhusu kutumia |
+| **Viewing Key** | Hufichua miamala yako kwa mmiliki bila kumruhusu kutumia |
 | **Spend description** | Sehemu ya tx inayotumia noti (nullifier, nanga, uthibitisho) |
 | **Output description** | Sehemu ya tx inayounda noti (kujitolea, maandishi ya siri, uthibitisho) |
 | **Action (Orchard)** | Kitengo kimoja kinachofanya matumizi moja na matokeo moja pamoja |

@@ -202,7 +202,7 @@ Kuna tofauti ya bidhaa za watumiaji katika [zallet.io](https://www.zallet.io/) k
 - [Zebra Full Node (Njia ya Kuunganisha)](Zebra_Full_Node.md)  node Zallet's default backend reads: "Kama ni hivyo, basi unaweza kusoma"
 - [Zakura Node (Kituo cha Zakura)](Zakura_Node.md)  mbadala kuthibitisha node
 - [Zaino](Zaino.md)  indexer backend na mwanga-mteja server
-- [ZECD](ZECD.md)  mwingine mkoba-server kubuni juu ya librustzcash
+- [zecd](ZECD.md)  mwingine mkoba-server kubuni juu ya librustzcash
 - [Zcash Wallet Syncing (Usawazishaji wa Pochi za Kifedha)](Zcash_Wallet_Syncing.md)  jinsi wallets kulindwa scan mlolongo
 - [Kuangalia funguo za kuvinjari](Viewing_Keys.md)
 

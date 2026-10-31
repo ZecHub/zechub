@@ -7,7 +7,7 @@
 
 ## TL;DR
 
-- Ƒle ZEC le asitɔtrɔ si doa alɔ **shielded withdrawals** (Gemini, BitcoinVN, Flyp.me) ne anya wɔ
+- Ƒle ZEC le asitɔtrɔ si doa alɔ **shielded withdrawals** (Gemini, BitcoinVN, flyp.me) ne anya wɔ
 - Akpa gãtɔ gã centralized exchanges (Coinbase, Kraken, Binance) doa alɔ **transparent gaɖeɖe** ɖeɖeko — takpɔ wò ZEC le exɔxlɔ̃ vɔ megbe
 - Decentralized exchanges ɖea mɔ ɖe non-custodial exchanges gake zi geɖe la, woɖea asi le wo ŋu yia adrɛs siwo me kɔ
 - Mehiã be **mehiã** be nàƒle ZEC blibo o — akpa suewo wɔa dɔ nyuie
@@ -28,9 +28,9 @@ Gemini nye cryptocurrency exchange, gakotoku, kple nudzrala si ŋu wowɔ ɖoɖo 
 
 BitcoinVN nye asitɔtrɔ enumake si menye nudzraɖoƒe o si doa alɔ shielded (z-address) deposits kple gaɖeɖe na ZEC — exchange ʋee ŋutɔwo dometɔ ɖeka le xexeame katã kple z-address ƒe kpekpeɖeŋu blibo. Esi nèle dɔ wɔm tso ƒe 2014 me ta la, àte ŋu aɖɔli BTC, ETH, USDT, kple cryptocurrencies bubuwo na ZEC tẽe ɖe wò gakotoku si ŋu wokpɔ ta na la me.
 
-**[Flyp.me. ƒe agbalẽ](https://flyp.me)**
+**[flyp.me. ƒe agbalẽ](https://flyp.me)**
 
-Flyp.me nye crypto exchange si me womedea asi agbalẽ te o. Enye mɔ siwo le dedie wu eye wole ɣaɣla wu dometɔ ɖeka si dzi nàto aɖɔli cryptocurrencies 30+ tẽe ɖe wò gakotokua me. Àte ŋu aƒle ZEC kple cryptocurrencies bubuwo.
+flyp.me nye crypto exchange si me womedea asi agbalẽ te o. Enye mɔ siwo le dedie wu eye wole ɣaɣla wu dometɔ ɖeka si dzi nàto aɖɔli cryptocurrencies 30+ tẽe ɖe wò gakotokua me. Àte ŋu aƒle ZEC kple cryptocurrencies bubuwo.
 
 ## Exchange siwo doa alɔ gaɖeɖe le gaglãgbe
 

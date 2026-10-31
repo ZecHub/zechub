@@ -6,7 +6,7 @@
 
 ## Introduzione
 
-In questa guida impariamo come creare un URL clonabile via git per il tuo repository Github servito usando un CID di IPFS. Questo è utile per garantire la disponibilità dei contenuti indipendentemente dalla regione geografica, la resistenza alla censura e come backup persistente di informazioni preziose!
+In questa guida impariamo come creare un URL clonabile via git per il tuo repository GitHub servito usando un CID di IPFS. Questo è utile per garantire la disponibilità dei contenuti indipendentemente dalla regione geografica, la resistenza alla censura e come backup persistente di informazioni preziose!
 
 Nota: i dati caricati su IPFS sono disponibili a *tutti* gli utenti della rete. Potresti voler cifrare localmente i dati personali/sensibili.
 

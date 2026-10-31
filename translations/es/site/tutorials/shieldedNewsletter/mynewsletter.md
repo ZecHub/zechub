@@ -41,7 +41,7 @@ RESUMEN DEL ECOSISTEMA ZCASH | 6 DE JULIO
 
 [Llamada semanal 22 de Zcash Brazil](https://x.com/zcashbrazil/status/1808206303107731746)
 
-[No uses la app Signal de MacOS - alberdioni8406 en Free2z](https://x.com/free2zcash/status/1809716224940781965)
+[No uses la app Signal de MacOS - alberdioni8406 en Free2Z](https://x.com/free2zcash/status/1809716224940781965)
 
 [Los costos ocultos de la Web 2.0 - Zcash Media ](https://x.com/zcashmedia/status/1809580807616397557)
 

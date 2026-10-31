@@ -38,7 +38,7 @@
 这将确认你的系统中已安装最新稳定版 Rust。
 
 #### **Windows 用户注意**：
-- Rust 可以通过 [**Rustup**](https://rustup.rs/) 在 Windows 上安装，它是一个工具链安装器。请确保你还配置了兼容的构建环境（在 Windows 上你可能还需要 **Visual Studio Build Tools**）。
+- Rust 可以通过 [**rustup**](https://rustup.rs/) 在 Windows 上安装，它是一个工具链安装器。请确保你还配置了兼容的构建环境（在 Windows 上你可能还需要 **Visual Studio Build Tools**）。
   
 ---
 

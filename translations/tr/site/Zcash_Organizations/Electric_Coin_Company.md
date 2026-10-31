@@ -3,7 +3,7 @@
 </a>
 
 # <img src="/content-images/image-2024-02-03-164918723-f59419848a.webp" alt="Alt Text" width="50"/>    Electric Coin Company (Sunset)
-[Web Sitesi](https://electriccoin.co) - [Github](https://github.com/zodl-inc) - [X/Twitter](https://x.com/ElectricCoinCo)
+[Web Sitesi](https://electriccoin.co) - [GitHub](https://github.com/zodl-inc) - [X/Twitter](https://x.com/ElectricCoinCo)
 
 > **Bu GitHub bağlantısı hakkında.** ECC'nin depoları `zodl-inc` altındadır. Bu, ekibin [ZODL](/zcash-organizations/zodl)'ye taşınmasıyla yeniden adlandırılan aynı organizasyondur. Eski `github.com/Electric-Coin-Company` adı Mayıs 2026'da ilgisiz bir tarafça kaydedildi ve ECC ya da ZODL ile hiçbir ilgisi yoktur, bu yüzden orada yayımlanan kodlara güvenmeyin.
 

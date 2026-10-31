@@ -38,7 +38,7 @@ Ansa na wobɛtumi ayɛ Arti afiri fibea no, ɛsɛ sɛ wonya **Rust** a ɛyɛ sta
 Wei bɛsi so dua sɛ wowɔ Rust a ɛyɛ stable version a ɛtwa toɔ a wɔde ahyɛ wo system no so.
 
 #### **Hyɛ no nsow ma Windows Dwumadifo**:
-- Wobetumi de Rust ahyɛ Windows so denam [**Rustup** .](https://rustup.rs/), adwinnade a wɔde hyɛ mu. Hwɛ sɛ woasan nso asiesie adansi tebea a ɛne no hyia (ebia wubehia **Visual Studio Build Tools** wɔ Windows so).
+- Wobetumi de Rust ahyɛ Windows so denam [**rustup** .](https://rustup.rs/), adwinnade a wɔde hyɛ mu. Hwɛ sɛ woasan nso asiesie adansi tebea a ɛne no hyia (ebia wubehia **Visual Studio Build Tools** wɔ Windows so).
   
 ---
 

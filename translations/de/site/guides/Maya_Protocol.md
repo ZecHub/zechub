@@ -65,7 +65,7 @@ Außerdem ist es Mayas Ziel, ein *Backend* zu werden, auf dem andere Dienste auf
 Als *Backend* muss Maya von verschiedenen Benutzeroberflächen und Wallets unterstützt werden, damit es genutzt werden kann. 
 Hier ist eine Liste einiger Dienste, die Maya bereits unterstützen:
 
-[Thorwallet DEX](https://www.thorwallet.org/): Ledger, XDEFI, Metamask, Keystore
+[Thorwallet DEX](https://www.thorwallet.org/): Ledger, XDEFI, MetaMask, Keystore
 
 [El Dorado](https://www.eldorado.market/): XDEFI, Keystore
 
@@ -75,6 +75,6 @@ Hier ist eine Liste einiger Dienste, die Maya bereits unterstützen:
 
 DefiSpot: nicht mehr online, seine Domain wird nicht aufgelöst.
 
-[XDEFI](https://www.xdefi.io/): eine Self-Custody-Wallet für mehrere Ökosysteme mit Unterstützung für mehr als 30 native Blockchains sowie alle EVM- und Cosmos-Chains, einschließlich Bitcoin, Ethereum, Solana, THORChain, Maya Protocol, TRON und weiteren.
+[Ctrl Wallet (XDEFI)](https://ctrl.xyz/): eine Self-Custody-Wallet für mehrere Ökosysteme mit Unterstützung für mehr als 30 native Blockchains sowie alle EVM- und Cosmos-Chains, einschließlich Bitcoin, Ethereum, Solana, THORChain, Maya Protocol, TRON und weiteren.
 
 [KeepKey ](https://keepkey.com/): Eine Hardware-Wallet zur sicheren Aufbewahrung digitaler Vermögenswerte.

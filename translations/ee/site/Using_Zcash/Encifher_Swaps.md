@@ -4,12 +4,12 @@
 ![img1](/content-images/Bkbg5alCll-7a02545c00.webp)
 
 
-*Trɔ tso Solana yi Zcash, kple cross-chain step si to Near Intents.* 
+*Trɔ tso Solana yi Zcash, kple cross-chain step si to NEAR Intents.* 
 
 ---
 
 ###  Kpɔkplɔyiɖeme 
-[**encrypt.asitsatsa**](https://encrypt.trade/zec) nye Solana dɔwɔnu si JMD Labs Inc. wɔna. Enaa nètrɔa **SOL alo USDC** le Solana dzi wòzua **Zcash (ZEC)**. Woxatsa wò dzesiwo ɖe nya ɣaɣlawo me gbã ale be woɣlaa ga homeawo ɖe Solana, emegbe woɖɔlia wo ɖe ZEC to Near Intents dzi.
+[**encrypt.asitsatsa**](https://encrypt.trade/zec) nye Solana dɔwɔnu si JMD Labs Inc. wɔna. Enaa nètrɔa **SOL alo USDC** le Solana dzi wòzua **Zcash (ZEC)**. Woxatsa wò dzesiwo ɖe nya ɣaɣlawo me gbã ale be woɣlaa ga homeawo ɖe Solana, emegbe woɖɔlia wo ɖe ZEC to NEAR Intents dzi.
 
 Swap la nye ame ŋutɔ tɔ le mɔ aɖewo nu gake menye wo katã o. App la ŋutɔ tɔe [docs](https://docs.encifher.io/docs) gblɔ be wò kadodo kple kɔsɔkɔsɔa menye ŋkɔmaɖemaɖe o: amewo ate ŋu akpɔe be wò gakotokua zã dɔwɔnua, gake menye alesi gbegbe nèʋui o. ZEC hã va ɖoa adrɛs si me kɔ, eyata enɔa dzedzem le Zcash kɔsɔkɔsɔa dzi vaseɖe esime nèkpɔ eta.
 
@@ -21,9 +21,9 @@ Swap la nye ame ŋutɔ tɔ le mɔ aɖewo nu gake menye wo katã o. App la ŋutɔ
 ###  Nusiwo Nànya Hafi Nàɖɔli 
 - **Solana side.** Wrapping ɣlaa ga homewo, gake wò gakotoku ƒe adrɛs kple eƒe app la zazã nye dutoƒo. Enye [nuwɔna nyuitɔwo kekeake](https://docs.encifher.io/docs/best-practices) xlɔ̃ nu be wrap, swap kple unwrap bɔbɔe nana wò asitsatsa la te ŋu doa ka.
 - **Encryption.** Wowɔa dɔ tso encrypted balances ŋu le kɔsɔkɔsɔ me le hardware enclave (TEE) me. Dɔwɔlawo ƒe [pɛpa](https://eprint.iacr.org/2026/1504) gblɔ be esia nɔ te ɖe TEE ƒe blibonyenye, dzidzenu ƒe safui dzikpɔkpɔ anukwaretɔe kple alilikpo me ɖaseɖiɖi ƒe ke dzi, ke menye nya ɣaɣlawo ɖeɖeko dzi o.
-- **Cross-chain step.** Wotsɔa asitɔtrɔ yi ZEC to Near Intents dzi, afisi solvers siwo le wo ɖokui si yɔa nudɔdɔa ɖo.
-- **Zcash akpa.** Near Intents ŋlɔ ZEC abe alesi wodo alɔe ene [adrɛs siwo me kɔ ɖeɖeko](https://docs.near-intents.org/resources/chain-support), and the ZEC field on encrypt.trade only accepted transparent (t1 or t3) addresses when this guide was checked in September 2026. A transparent address shows its balance and incoming transfers publicly until you shield.
-- **Screening.** Dɔdamɔnua léa ŋku ɖe gakotoku siwo do ƒome kple nyatakakadzraɖoƒewo abe TRM kple Chainalysis ene ŋu, eye eƒe.. [sedziwɔwɔ ƒe axa](https://docs.encifher.io/docs/compliance) gblɔ be woate ŋu alé ŋku ɖe nuŋlɔɖi siwo wotsɔ nya ɣaɣlawo ŋlɔe ŋu ne senya aɖe li. Near Intents wɔa eya ŋutɔ tɔ [dodokpɔ wɔwɔ](https://docs.near-intents.org/security-compliance/risk-and-compliance) hã.
+- **Cross-chain step.** Wotsɔa asitɔtrɔ yi ZEC to NEAR Intents dzi, afisi solvers siwo le wo ɖokui si yɔa nudɔdɔa ɖo.
+- **Zcash akpa.** NEAR Intents ŋlɔ ZEC abe alesi wodo alɔe ene [adrɛs siwo me kɔ ɖeɖeko](https://docs.near-intents.org/resources/chain-support), and the ZEC field on encrypt.trade only accepted transparent (t1 or t3) addresses when this guide was checked in September 2026. A transparent address shows its balance and incoming transfers publicly until you shield.
+- **Screening.** Dɔdamɔnua léa ŋku ɖe gakotoku siwo do ƒome kple nyatakakadzraɖoƒewo abe TRM kple Chainalysis ene ŋu, eye eƒe.. [sedziwɔwɔ ƒe axa](https://docs.encifher.io/docs/compliance) gblɔ be woate ŋu alé ŋku ɖe nuŋlɔɖi siwo wotsɔ nya ɣaɣlawo ŋlɔe ŋu ne senya aɖe li. NEAR Intents wɔa eya ŋutɔ tɔ [dodokpɔ wɔwɔ](https://docs.near-intents.org/security-compliance/risk-and-compliance) hã.
 
 ---
 
@@ -83,7 +83,7 @@ Trɔ yi **encrypt.trade**, yi **Swap**. Tia **eSOL/eUSDC -> ZEC**, tsɔ wò ZODL
 ![img9](/content-images/S1yoapgRle-6d2031a62c.webp)
 
 
-**Near Intents** kpɔa cross-chain routing gbɔ eye wòɖoa **ZEC** ɖe wò ZODL gakotokua me. Ate ŋu axɔ miniti ʋɛ aɖewo. Near Intents do susua ɖa be woaɖe mɔ na aɖabaƒoƒo 15 na cross-chain swaps. 
+**NEAR Intents** kpɔa cross-chain routing gbɔ eye wòɖoa **ZEC** ɖe wò ZODL gakotokua me. Ate ŋu axɔ miniti ʋɛ aɖewo. NEAR Intents do susua ɖa be woaɖe mɔ na aɖabaƒoƒo 15 na cross-chain swaps. 
 
 
 
@@ -98,10 +98,10 @@ Ne ZEC nya va ɖo ko la, zã ZODL's **Shield** tiatia tsɔ tsɔe yi ɖe [ta si �
 
 ###  Ame Si Kpɔa Eme Kple Afisi Nàkpɔ Kpekpeɖeŋu Le 
 - **encrypt.trade** nye dɔwɔnua, si JMD Labs Inc. Eƒe [ameŋunyatakakawo ŋuti ɖoɖo](https://encrypt.trade/privacy) gblɔ be yeƒoa mɔ̃ɖaŋununya ŋuti nyatakakawo abe IP, web-browser kple mɔ̃a ŋuti nyatakakawo nu ƒu, yeɖoa wò gakotoku ƒe adrɛs, ŋutinya si nèkpɔ nyitsɔ laa kple ga si susɔ ɖe sedziwɔwɔ ŋuti dɔwɔƒewo hafi trɔa asi le eŋu, eye ate ŋu adzra nuŋlɔɖiwo kple AML ƒe dodokpɔ me tsonu ɖo vaseɖe ƒe atɔ̃. Enye [ɖoɖowo](https://encrypt.trade/terms) xe mɔ na VPN alo proxy zazã atsɔ aɣla afi si nèle. Kpekpeɖeŋu: help@encifher.io alo le [Telegram ƒuƒoƒo](https://t.me/+ZWHGMW4ZHXQwYTZl) do ƒome tso dɔwɔnua dzi.
-- **Near Intents** kplɔa cross-chain step la eye wòtsɔa ZEC. Kpɔ eƒe [1Zi API ƒe nyawo dzi](https://docs.near-intents.org/security-compliance/terms-of-service) kple ameŋunyatakakawo ŋuti ɖoɖo si le near.com/privacy, track swaps on the [Near Tameɖoɖowo Ŋuti Numekula](https://explorer.near-intents.org), eye nàbia kpekpeɖeŋu le [Near Tameɖoɖowo Telegram](https://t.me/near_intents).
+- **NEAR Intents** kplɔa cross-chain step la eye wòtsɔa ZEC. Kpɔ eƒe [1Zi API ƒe nyawo dzi](https://docs.near-intents.org/security-compliance/terms-of-service) kple ameŋunyatakakawo ŋuti ɖoɖo si le near.com/privacy, track swaps on the [Near Tameɖoɖowo Ŋuti Numekula](https://explorer.near-intents.org), eye nàbia kpekpeɖeŋu le [Near Tameɖoɖowo Telegram](https://t.me/near_intents).
 
 Nyawo kple adrɛs siwo ŋu wodo alɔe ate ŋu atrɔ, eyata lé ŋku ɖe tɔtrɔ siwo li fifia ŋu hafi nàtrɔ asi le wo ŋu vevie. Ne èdi nyatakaka bubuwo tso nɔnɔmetata si keke ta wu ŋu la, kpɔ [Nusiwo Menye Dedienɔnɔ ƒe Asitɔtrɔ O](/using-zcash/non-custodial-exchanges).
 
 ---
 
-To **Solana**, **Zcash** kple **Near Intents** ƒoƒo ƒu me la, **encrypt.trade** naa mɔ kabakaba tso SOL alo USDC yi ZEC. Eɣlaa ga homewo ɖe Solana gake menye ame ŋutɔ ƒe nuwuwu vaseɖe nuwuwu o, eyata kpɔ wò ZEC ta ne enya ɖi go ko.
+To **Solana**, **Zcash** kple **NEAR Intents** ƒoƒo ƒu me la, **encrypt.trade** naa mɔ kabakaba tso SOL alo USDC yi ZEC. Eɣlaa ga homewo ɖe Solana gake menye ame ŋutɔ ƒe nuwuwu vaseɖe nuwuwu o, eyata kpɔ wò ZEC ta ne enya ɖi go ko.

@@ -202,7 +202,7 @@ Wowɔ nuƒleƒe bubu aɖe le afima. [zallet.io](https://www.zallet.io/) Menye d�
 - [Zebra ƒe Dzogoe Blibo la](Zebra_Full_Node.md)  nuƒleƒe Zallet ƒe domenyigbalẽvi xlẽna be:
 - [Zakura ƒe Nuƒoƒomevi](Zakura_Node.md)  Ŋutete si ŋu kakaɖedzi le ƒe akpa bubu aɖe
 - [Zaino](Zaino.md)  Indexing backend kple light-client server
-- [ZECD ƒe akpa aɖe](ZECD.md)  gaɖivɔ̃-subɔla ƒe wɔwɔme bubu le librustzcash dzi
+- [zecd ƒe akpa aɖe](ZECD.md)  gaɖivɔ̃-subɔla ƒe wɔwɔme bubu le librustzcash dzi
 - [Zcash Gadzɛwo ƒe Ðɔɖɔɖo](Zcash_Wallet_Syncing.md)  alesi gaɖaba siwo ŋu wota ɖo la léa ŋku ɖe nudzraɖoƒea ŋui
 - [Kpɔkplɔtiwo](Viewing_Keys.md)
 

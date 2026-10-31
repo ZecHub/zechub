@@ -102,7 +102,7 @@ Bunlar, Zcash Ağ verilerine erişim sağlayan örnek platformlardır:
 
 [Zcash Blok Gezgini](https://mainnet.zcashexplorer.app)
 
-[Coinmetrics](https://docs.coinmetrics.io/info/assets/zec)
+[Coin Metrics](https://docs.coinmetrics.io/info/assets/zec)
 
 Ayrıca testler çalıştırarak veya yeni iyileştirmeler önerip metrikler sağlayarak ağın geliştirilmesine katkıda bulunabilirsiniz.
 

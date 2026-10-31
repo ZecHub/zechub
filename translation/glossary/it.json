@@ -1,6 +1,6 @@
 {
   "locale": "it",
-  "version": 4,
+  "version": 5,
   "meta": {
     "language_name": "Italian",
     "native_name": "Italiano",
@@ -10,7 +10,7 @@
     "language_lead": [
       "Gianni"
     ],
-    "last_review": "2026-10-12"
+    "last_review": "2026-10-26"
   },
   "style": {
     "variety": "natural, fluent Italian",
@@ -40,7 +40,7 @@
       "English terms kept in English do not take a plural -s (gli exchange, gli zk-SNARK, le pool). Italian words take the Italian plural (portafoglio → portafogli).",
       "Lowercase after a colon, unless a proper name follows.",
       "Avoid calques of English: \"una delle uniche\" (one of the only), \"con nessuna … richiesta\", \"componenti mobili\" (moving parts).",
-      "Put \"di\" between a noun and Zcash when Zcash is the owner or the subject (la rete di Zcash, l'ecosistema di Zcash, la tecnologia di Zcash, gli sviluppatori di Zcash, i nodi di Zcash). Keep \"X Zcash\" when Zcash names the kind of thing or is an apposition (un indirizzo Zcash, i portafogli Zcash, la criptovaluta Zcash) and inside proper names (Zcash Foundation, Zcash Community Grants)."
+      "Put \"di\" between a noun and Zcash (la rete di Zcash, l'ecosistema di Zcash, i portafogli di Zcash, un indirizzo TEX di Zcash, il full node di Zcash, le primitive di Zcash). Use \"in Zcash\" for money and payments (pagamenti in Zcash, una donazione in Zcash) and \"per Zcash\" for support or software made for Zcash (supporto per Zcash, client leggero per Zcash). Keep \"X Zcash\" only in these cases: un indirizzo Zcash / gli indirizzi Zcash, un pagamento Zcash, il protocollo Zcash, \"il progetto Zcash\" when it means Zcash itself (a project in the ecosystem is \"un progetto di Zcash\"), app and product names (l'app Zcash), and proper names (Zcash Foundation, Zcash Community Grants, Zcash Labs). Where the English says just \"Zcash\" for the coin, keep \"Zcash\" (acquisire più Zcash), do not add \"monete\"."
     ]
   },
   "terms": {
@@ -2332,6 +2332,13 @@
         "Zcash Visualizers"
       ],
       "summary": "Gianni's native review of the website text: one form per label (Inizia da qui, Recuperare i fondi, URI di richiesta di pagamento, Organizzazioni/Community di Zcash), five new UI phrases, and the writing rule for \"di Zcash\"."
+    },
+    {
+      "version": 5,
+      "date": "2026-10-26",
+      "terms": [],
+      "phrases": [],
+      "summary": "Gianni's review of every \"X Zcash\" expression on the Italian pages: \"di Zcash\" after a noun is the rule; \"in Zcash\" for payments and donations, \"per Zcash\" for support and software; listed exceptions keep \"X Zcash\"."
     }
   ]
 }

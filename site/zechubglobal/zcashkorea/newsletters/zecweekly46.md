@@ -72,7 +72,7 @@ Tor & I2P 기술 - 개인 정보 보호가 중요한 이유
 
 [ZF A/V Club Monthly Meetup Video on free2z!](https://free2z.com/ZFAVClub/zpage/podcasting-for-privacy-insights-from-zcash-foundation-audiovisual-club-april-2023)
 
-[Zechub Animated 로고!](https://twitter.com/ZFAVClub/status/1667120468904538116?s=20)
+[ZecHub Animated 로고!](https://twitter.com/ZFAVClub/status/1667120468904538116?s=20)
 
 [Zcash나이지리아 축구팀 우승!](https://twitter.com/ZcashNigeria/status/1666812431023362049?s=20)
 

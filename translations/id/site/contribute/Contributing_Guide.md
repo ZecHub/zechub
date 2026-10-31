@@ -19,7 +19,7 @@ ZecHub menggunakan GitHub untuk mengelola kontribusi komunitas. Jika kamu baru d
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
     className="w-full h-full"
-    src="https://www.youtube.com/embed/8eYDTyV39a4""
+    src="https://www.youtube.com/embed/8eYDTyV39a4"
     title="Cara Berkontribusi ke ZecHub!"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowFullScreen
@@ -92,7 +92,7 @@ Berikut adalah contoh tutorial di bawah ini:
   <iframe
     className="w-full h-full"
     src="https://www.youtube.com/embed/qz4KzDjkqu8"
-    title="Tutorial Instalasi WSL + Kompilasi Zcashd/Transaksi"
+    title="Tutorial Instalasi WSL + Kompilasi zcashd/Transaksi"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowFullScreen
     loading="lazy"
@@ -125,7 +125,7 @@ Halaman lokal yang dikurasi di bawah `translations/<locale>/site/` dilacak terha
 
 #### Wiki ZecHub - edit ke dokumen yang sudah ada
 
-Terkadang informasi kami dalam dokumentasi tidak sepenuhnya akurat. Tidak apa-apa. Itulah alasan mengapa kami menjadikannya open-source! Jika kamu menemukan sesuatu yang perlu diubah dalam dokumen wiki, silakan buka bagian footer dokumen tersebut (yang terhubung ke halaman Github-nya) dan sarankan perubahan melalui PR.
+Terkadang informasi kami dalam dokumentasi tidak sepenuhnya akurat. Tidak apa-apa. Itulah alasan mengapa kami menjadikannya open-source! Jika kamu menemukan sesuatu yang perlu diubah dalam dokumen wiki, silakan buka bagian footer dokumen tersebut (yang terhubung ke halaman GitHub-nya) dan sarankan perubahan melalui PR.
 
 #### ZecHub Wiki - tautan rusak telah diperbaiki
 

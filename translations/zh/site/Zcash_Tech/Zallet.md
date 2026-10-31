@@ -202,7 +202,7 @@ Zallet 和 **zecd** 都可以部署在 Zebra 前方。当您需要 `z_*` 钱包�
 - [Zebra Full Node](Zebra_Full_Node.md) — 节点 Zallet 的默认后端所读取的节点
 - [Zakura Node](Zakura_Node.md) — 替代验证节点
 - [Zaino](Zaino.md) — 索引器后端和轻客户端服务器
-- [ZECD](ZECD.md) — 基于 librustzcash 的另一种钱包服务器设计
+- [zecd](ZECD.md) — 基于 librustzcash 的另一种钱包服务器设计
 - [Zcash Wallet Syncing](Zcash_Wallet_Syncing.md) — 屏蔽钱包如何扫描链
 - [Viewing Keys](Viewing_Keys.md)
 

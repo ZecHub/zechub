@@ -14,7 +14,7 @@ Essas chaves são projetadas para funcionar em conjunto com seu nome de usuário
 
 ## Como funciona uma chave de segurança de hardware
 
-Você deve ativar o 2FA por meio de chaves de segurança de hardware no site ou plataforma que oferece suporte a essa tecnologia, por exemplo, as exchanges Binance e Coinbase.
+Você deve ativar o 2FA por meio de chaves de segurança de hardware no site ou plataforma que oferece suporte a essa tecnologia, por exemplo, as corretoras Binance e Coinbase.
 
 Com chaves de segurança de hardware como a YubiKey, basta conectar a chave de hardware à porta USB ou Type-C do seu desktop/laptop ou smartphone, e a chave conclui a verificação para você.
 
@@ -45,12 +45,12 @@ Aqui estão alguns exemplos de hardware 2FA disponíveis no mercado.
 ![Yubico YubiKey 5 NFC](/content-images/bf1ac95e-7277-4559-b5ef-63117b66971b-3aa542aba7.webp)
 
 Fabricada pela Yubico, co-desenvolvedora do padrão aberto de autenticação FIDO U2F usado por muitas chaves de segurança, a YubiKey 5 NFC está em boas mãos para proteger seus dispositivos. Como o nome sugere, ela funciona usando USB A (ou USB C com o uso de um adaptador) ou NFC.  
-Ela oferece compatibilidade imediata com muitos serviços, incluindo Google Chrome, Facebook, Dropbox, LastPass, 1Password e outros. A YubiKey 5 é compacta, durável e leve — e é até à prova d’água.  
+Ela oferece compatibilidade imediata com muitos serviços, incluindo Google Chrome, Facebook, Dropbox, LastPass, 1Password e outros. A YubiKey 5 é compacta, durável e leve — e é até à prova d'água.  
 Você pode configurar a YubiKey como um segundo fator U2F sem problemas seguindo as instruções do serviço e inserindo a chave na porta USB quando solicitado. Tocar ou pressionar o círculo dourado da chave registrará sua chave, então, na próxima vez que fizer login, basta inserir a senha, conectar a chave e tocá-la.
 
 **Thetis Fido U2F Security Key**
 
-![Thetis Fido U2F Security Key](/content-images/b83e42e5-bba6-4175-ad6c-d64972ef54ef-a2ef17a10d.webp)
+![Chave de segurança Thetis Fido U2F](/content-images/b83e42e5-bba6-4175-ad6c-d64972ef54ef-a2ef17a10d.webp)
 
 Se você está procurando o melhor custo-benefício em uma chave de segurança, este modelo da Thetis deve estar na sua lista. Não há Bluetooth integrado (ele está disponível em um modelo mais caro), e ela oferece suporte apenas ao padrão FIDO U2F, portanto não há compatibilidade com UAF ou OTP. No entanto, ela fornecerá acesso seguro a sites se você usar Chrome ou Opera como navegador no Windows, macOS ou Linux.  
 Convenientemente, esta chave de segurança acessível apresenta um design dobrável compacto com uma carcaça giratória de alumínio que evita que o conector fique exposto a danos potenciais durante o transporte. Ela vem em três cores atraentes: preto, dourado e prata.  

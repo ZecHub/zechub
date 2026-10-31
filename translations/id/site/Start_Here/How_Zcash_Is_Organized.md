@@ -4,9 +4,7 @@
 
 - Zcash tidak dibangun oleh satu perusahaan, melainkan dibangun oleh banyak organisasi independen yang masing-masing memiliki bagian pekerjaan yang berbeda
 - Selama sebagian besar sejarahnya, dua organisasi memimpin pengembangan, yaitu Electric Coin Company dan Zcash Foundation
-- Pada Januari 202
-
-In January 2026 the entire Electric Coin Company team resigned after a governance dispute, and the ecosystem reorganized into several independent teams
+- Pada Januari 2026 seluruh tim Electric Coin Company mengundurkan diri setelah sengketa tata kelola, dan ekosistem direorganisasi menjadi beberapa tim independen
 - Today the protocol, the node software, wallets, research, scaling, and funding are handled by separate groups
 - No single organization controls Zcash, the network is open source and permissionless, and it kept running normally through every change
 

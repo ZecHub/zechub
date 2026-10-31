@@ -1,7 +1,7 @@
-# Nó Completo Zebra Endurecido
+# Nó integral Zebra reforçado
 
-- Usa um utilizador dedicado sem privilégios + sandboxing `systemd` ao nível do kernel (o mesmo isolamento que Docker).  
-- O RPC é apenas localhost com autenticação segura por cookie (predefinido e recomendado).  
+- Usa um usuário dedicado sem privilégios + sandboxing `systemd` no nível do kernel (o mesmo isolamento do Docker).  
+- O RPC é somente no localhost com autenticação segura por cookie (padrão e recomendada).  
 
 
 ---
@@ -15,7 +15,7 @@
 
 ---
 
-## Configuração Única (Execute como o seu utilizador normal)
+## Configuração única (execute como seu usuário normal)
 
 ### 1. Atualizar o sistema e instalar as dependências de compilação
 
@@ -34,7 +34,7 @@ sudo chmod 755 /usr/local/bin/zebrad
 zebrad --version
 ```
 
-## Criar utilizador zebra dedicado sem privilégios
+## Criar usuário zebra dedicado sem privilégios
 
 ```
 sudo adduser --system --group --no-create-home --shell /usr/sbin/nologin zebra
@@ -73,7 +73,7 @@ sudo chown zebra:zebra /etc/zebrad/zebrad.toml
 sudo chmod 600 /etc/zebrad/zebrad.toml
 ```
 
-## Criar serviço systemd endurecido
+## Criar serviço systemd reforçado
 
 ```
 sudo tee /etc/systemd/system/zebrad.service > /dev/null <<EOF
@@ -110,7 +110,7 @@ EOF
 sudo systemctl daemon-reload
 ```
 
-## Utilização Diária - Fluxo de Trabalho com Um Único Comando
+## Uso diário - Fluxo de trabalho com um único comando
 
 | Ação                    | Comando                                      | Notas |
 |-------------------------|----------------------------------------------|-------|
@@ -118,9 +118,9 @@ sudo systemctl daemon-reload
 | **Parar**               | `sudo systemctl stop zebrad`                 | Um comando |
 | **Estado**              | `sudo systemctl status zebrad`               | Mostra se está em execução |
 | **Logs em tempo real**  | `journalctl -u zebrad -f -o short-precise`  | Substitui `screen -r` |
-| **Obter cookie RPC**    | `sudo cat /var/lib/zebrad/.cookie`           | Apenas enquanto estiver em execução |
+| **Obter o cookie RPC**    | `sudo cat /var/lib/zebrad/.cookie`           | Apenas enquanto estiver em execução |
 
-**Aliases de conveniência** (adicione a `~/.bashrc` ou `~/.zshrc`):
+**Aliases de conveniência** (adicione ao `~/.bashrc` ou `~/.zshrc`):
 ```
 alias zebra-start='sudo systemctl start zebrad'
 alias zebra-stop='sudo systemctl stop zebrad'

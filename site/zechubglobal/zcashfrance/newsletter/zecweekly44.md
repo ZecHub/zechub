@@ -9,7 +9,7 @@ Selectionné "Hardaeborla" ([Hardaeborla](https://twitter.com/ayanlajaadebola))
 
 ### Bienvenue à ZecWeekly
 
-Bonne semaine ZCashers!Je suis très heureux de contribuer à la communauté Zechub en créant la newsletter pour cette semaine.Vous pouvez également être un contributeur sur Zechub en visitant [la page GitHub de ZecHub](https://github.com/ZecHub/zechub). Apprenez également plus sur la contribution à Zechub en regardant cette [video](https://youtu.be/8eYDTyV39a4) 
+Bonne semaine ZCashers!Je suis très heureux de contribuer à la communauté ZecHub en créant la newsletter pour cette semaine.Vous pouvez également être un contributeur sur ZecHub en visitant [la page GitHub de ZecHub](https://github.com/ZecHub/zechub). Apprenez également plus sur la contribution à ZecHub en regardant cette [video](https://youtu.be/8eYDTyV39a4) 
 
 La newsletter de cette semaine nous plongera dans les derniers événements de l'écosystème de Zcash, en mettant en lumière les progrès récents de l'ECC, nottament sa restructuration. En outre, notre pièce pédagogique hebdomadaire fournira un aperçu des protocoles et des outils technologiques de pointe employés dans la technologie de la blockchain pour maintenir la confidentialité des transactions.
 
