@@ -1,140 +1,140 @@
-# Jinsi ya kuendesha Zebra kwenye Mtandao Akash
+# Jinsi ya kuendesha Zebra kwenye Mtandao wa Akash
 
-Hatua kwa hatua mwongozo wa kupeleka Zebra Zcash full node kutumia [Kifaa cha Akash Console](https://console.akash.network).
+Mwongozo wa hatua kwa hatua wa kusambaza full node ya Zebra Zcash ukitumia [Konsoli ya Akash](https://console.akash.network).
 
-### Unachoweka Mahali pa Kazi
+### Unachosambaza
 
-full Zebra node kwamba itakuwa:
+Full node ya Zebra ambayo:
 
--> Sync nzima Zcash blockchain (100GB + kwa mainnet, ~ 40GB kwa testnet)
+-> Itasawazisha blockchain yote ya Zcash (100GB+ kwa mainnet, ~40GB kwa testnet)
 
--> Gharama takriban $ 15 / mwezi kulingana na bei AKT ishara
+-> Itagharimu takriban $15/mwezi kutegemea bei za tokeni za AKT
 
--> Kuchukua masaa kadhaa kwa siku ili usawazishe kikamilifu
+-> Itachukua saa kadhaa hadi siku kusawazisha kikamilifu
 
--> Matumizi 4 vCPUs, 16GB RAM, 350GB kuhifadhi (mainnet) au 2 vCPU, 8GB RAM , 50GB (testnet)
-
-
-### Muhimu: Ramani ya Bandari kwenye Akash
-
-When you expose a port on Akash (e.g., port 8233 for Zebra P2P), it **does NOT bind to that exact port** on the provider's public IP. Instead, the provider assigns a random high port (like 31234 or 42567) and reverse-proxies it to your container's port 8233.
-
-Hii ni kwa kubuni - watoa kukimbia kupelekwa nyingi, na wao d kuwa migogoro kama kila mtu alijaribu kutumia bandari 8233 moja kwa moja.
-
-** Hii inamaanisha nini kwako:**
-
--> Wewe Configure bandari 8233 katika SDL (kiwango Zebra ya P2P bandari)
-
--> Akash inakupa URI kama * mtoa huduma.com:31234*
-
--> nodes nyingine Zcash kuungana na wewe katika * mtoa huduma.com:31234*
-
--> Ndani ya chombo yako, Zebra bado anasikiliza juu 8233
+-> Itatumia vCPU 4, RAM 16GB, hifadhi 350GB (mainnet) au vCPU 2, RAM 8GB, 50GB (testnet)
 
 
-Hii ni kushughulikiwa moja kwa moja. Tu kutumia URI kwamba Akash inakupa.
+### Muhimu: Uwekaji Ramani wa Port kwenye Akash
 
-### Mahitaji ya awali
+Unapofichua port kwenye Akash (kwa mfano, port 8233 kwa P2P ya Zebra), **HAIFUNGIWI kwenye port hiyo kamili** kwenye IP ya umma ya mtoa huduma. Badala yake, mtoa huduma hukupatia port ya juu ya nasibu (kama 31234 au 42567) na huiunganisha kupitia reverse proxy kwenye port 8233 ya kontena lako.
 
-1. ** Keplr Wallet** browser extension imewekwa (Chrome/Brave/Firefox)
-2. ** AKT ishara** - Kupata 50-100 AKT kutoka kubadilishana (Coinbase, Kraken, Osmosis)
-3. ** Dakika 5** kubonyeza kupitia UI Console
+Hii imeundwa hivi kwa makusudi - watoa huduma huendesha usambazaji mwingi, na kungekuwa na migongano ikiwa kila mtu angejaribu kutumia port 8233 moja kwa moja.
 
-#### Hatua ya 1: Kuunganisha mkoba wako
+**Hii ina maana gani kwako:**
 
--> Go to [https://console.akash.network](https://console.akash.network)
+-> Unasanidi port 8233 katika SDL (port ya kawaida ya P2P ya Zebra)
 
--> Bonyeza **"Kuunganisha Wallet"** katika haki ya juu
+-> Akash hukupa URI kama *provider.com:31234*
 
--> Chagua ** Keplr** (au Cosmos yako favorite mkoba)
+-> Node nyingine za Zcash huunganishwa nawe kupitia *provider.com:31234*
 
--> Kubali uhusiano wakati Keplr pops up
+-> Ndani ya kontena lako, Zebra bado husikiliza kwenye 8233
 
 
-Akiba yako ya AKT inapaswa kuonekana juu kulia. Kama ni sifuri, kwenda fedha mkoba wako kwanza.
+Hili hushughulikiwa kiotomatiki. Tumia tu URI ambayo Akash inakupa.
 
-#### Hatua ya 2: Kujenga kupelekwa
+### Mahitaji ya Awali
 
--> Click **"Kupanga"** kifungo (kubwa bluu button, katikati ya ukurasa)
+1. Kiendelezi cha kivinjari cha **Keplr Wallet** kimesakinishwa (Chrome/Brave/Firefox)
+2. **Tokeni za AKT** - Pata AKT 50-100 kutoka kwenye soko la kubadilishana sarafu [exchange] (Coinbase, Kraken, Osmosis)
+3. **Dakika 5** za kubofya kwenye kiolesura cha Konsoli
 
--> Chagua **"Kujenga template yako"** (au kuruka moja kwa moja uploading SDL)
+#### Hatua ya 1: Unganisha Pochi Yako
+
+-> Nenda kwenye [https://console.akash.network](https://console.akash.network)
+
+-> Bofya **“Unganisha Pochi”** kwenye sehemu ya juu kulia
+
+-> Chagua **Keplr** (au pochi yako ya Cosmos unayoipendelea)
+
+-> Idhinisha muunganisho Keplr itakapojitokeza
 
 
-##### Chaguo A: Upload SDL File (Ilipendekeza)
+Salio lako la AKT linapaswa kuonekana sehemu ya juu kulia. Ikiwa ni sifuri, ongeza salio kwenye pochi yako kwanza.
+
+#### Hatua ya 2: Unda Usambazaji
+
+-> Bofya kitufe cha **“Sambaza”** (kitufe kikubwa cha bluu, katikati ya ukurasa)
+
+-> Chagua **“Jenga kiolezo chako”** (au ruka moja kwa moja hadi kupakia SDL)
+
+
+##### Chaguo A: Pakia Faili la SDL (Linapendekezwa)
 
 [![Deploy on Akash](/content-images/deploy-with-akash-btn-74abb88d44.svg)](https://console.akash.network/new-deployment?step=edit-deployment&templateId=akash-network-awesome-akash-zcash-zebra)
 
-##### Chaguo B: Tumia SDL Mhariri
+##### Chaguo B: Tumia Kihariri cha SDL
 
-Kama unataka kuweka kiwandani [SDL ya](https://github.com/akash-network/awesome-akash/blob/master/zcash-zebra/deploy.yaml):
+Ikiwa unataka kunakili mwenyewe [SDL](https://github.com/akash-network/awesome-akash/blob/master/zcash-zebra/deploy.yaml):
 
--> Nakili yaliyomo ya *zebra-akash.yml*
+-> Nakili maudhui ya *zebra-akash.yml*
 
--> Weka katika mhariri SDL
+-> Bandika kwenye kihariri cha SDL
 
--> Kurekebisha kama inahitajika (tazama sehemu ya Configuration chini)
+-> Rekebisha inapohitajika (tazama sehemu ya usanidi hapa chini)
 
--> Click **"Kujenga kupelekwa"**
-
-
-#### Hatua ya 3: Kuchunguza na Kuidhinisha Amana
-
-Console atakuonyesha:
-
--> ** Deposit kupelekwa**: ~ 5 AKT (unaweza kupata hii nyuma wakati wewe kufunga utoaji)
-
--> **Makadirio ya gharama**: Kulingana na SDL yako bei.
-
-Bonyeza ** "Kubali"** na saini shughuli katika Keplr.
-
-#### Hatua ya 4: Chagua Mtunzaji wa Afya Yako
-
-Baada ya ~ sekunde 30, utaona zabuni kutoka kwa watoa. Kila zabuni inaonyesha:
-
--> ** Bei kwa kila block** (katika AKT au USDC)
-
--> **Kikadirio cha gharama ya kila mwezi**
-
--> **Mtoa maelezo** (uptime, mkoa, nk)
+-> Bofya **“Unda Usambazaji”**
 
 
-**Usichague tu ya bei rahisi.** Angalia:
+#### Hatua ya 3: Kagua na Idhinisha Amana
 
--> Uptime % (njia ya kwa > 95%)
+Konsoli itakuonyesha:
 
--> Mkoa (karibu na wewe = bora latency, lakini haina jambo kubwa kwa blockchain nodes)
+-> **Amana ya usambazaji**: ~5 AKT (utarejeshewa hii utakapofunga usambazaji)
 
--> hali ya ukaguzi (kijani checkmark = zaidi kuaminika)
+-> **Gharama inayokadiriwa**: Kulingana na bei yako ya SDL
 
+Bofya **“Idhinisha”** na utie sahihi kwenye muamala [transaction] katika Keplr.
 
-Bonyeza **"Kubali Bid"** juu ya mtoa huduma yako kuchaguliwa na ishara katika Keplr.
+#### Hatua ya 4: Chagua Mtoa Huduma
 
-#### Hatua 5: Kusubiri kwa ajili ya kupelekwa
+Baada ya ~ sekunde 30, utaona zabuni kutoka kwa watoa huduma. Kila zabuni huonyesha:
 
-Kiweko itakuwa:
+-> **Bei kwa block** (katika AKT au USDC)
 
--> Kujenga kukodisha na mtoa huduma yako kuchaguliwa
+-> **Gharama ya kila mwezi inayokadiriwa**
 
--> Tuma orodha (huambia mtoa nini kukimbia)
-
--> Kuanza chombo yako
-
-Hii inachukua dakika 1-2. Utaona updates hali katika UI.
-
-#### Hatua ya 6: Thibitisha Ni Running
-
-Mara baada ya kupelekwa, utaona:
-
--> ** Huduma** tab: Inaonyesha huduma yako * zebra * na hali ya
-
--> ** Logs** tab: kuishi vyombo vya kumbukumbu
-
--> ** Leases** tab: Maelezo kuhusu kupelekwa yako (DSEQ, mtoa huduma, gharama)
+-> **Maelezo ya mtoa huduma** (muda wa upatikanaji, eneo, n.k.)
 
 
-##### Angalia Matangazo ya Mkutano wa Mawasiliano
+**Usichague tu iliyo nafuu zaidi.** Kagua:
 
-Bonyeza kwenye **Logs** na unapaswa kuona Zebra kuanza juu:
+-> Asilimia ya muda wa upatikanaji (lenga > 95%)
+
+-> Eneo (karibu nawe = muda mfupi zaidi wa kusubiri, lakini si muhimu sana kwa node za blockchain)
+
+-> Hali ya ukaguzi (alama ya tiki ya kijani = ya kuaminika zaidi)
+
+
+Bofya **“Kubali Zabuni”** kwa mtoa huduma uliyemchagua na utie sahihi katika Keplr.
+
+#### Hatua ya 5: Subiri Usambazaji
+
+Konsoli itafanya yafuatayo:
+
+-> Kuunda ukodishaji na mtoa huduma uliyemchagua
+
+-> Kutuma manifest (humwelekeza mtoa huduma cha kuendesha)
+
+-> Kuwasha kontena lako
+
+Hii huchukua dakika 1-2. Utaona masasisho ya hali kwenye kiolesura.
+
+#### Hatua ya 6: Thibitisha Kwamba Inaendesha
+
+Baada ya kusambazwa, utaona:
+
+-> Kichupo cha **Huduma**: Huonyesha huduma yako ya *zebra* pamoja na hali yake
+
+-> Kichupo cha **Kumbukumbu**: Kumbukumbu za moja kwa moja za kontena
+
+-> Kichupo cha **Ukodishaji**: Maelezo kuhusu usambazaji wako (DSEQ, mtoa huduma, gharama)
+
+
+##### Kagua Kumbukumbu
+
+Bofya **Kumbukumbu** na unapaswa kuona Zebra ikianza:
 
 ```bash
 Loading config from environment variables
@@ -143,52 +143,52 @@ Listening for peer connections on [::]:8233
 Starting initial sync...
 ```
 
-Sync itachukua ** masaa kwa siku** kulingana na mtandao. Angalia:
+Usawazishaji utachukua **saa hadi siku** kutegemea mtandao. Angalia:
 
--> Kuongeza block urefu
+-> Urefu wa block unaoongezeka
 
--> Peer uhusiano (lazima 10-30 wenzao)
+-> Miunganisho ya peer (inapaswa kuwa peer 10-30)
 
--> Hakuna makosa ya kurudia-rudia
+-> Kutokuwepo kwa hitilafu zinazojirudia
 
 
-#### Hatua ya 7: Kupata anwani yako Node ya
+#### Hatua ya 7: Pata Anwani ya Node Yako
 
-Bonyeza kwenye ** Leases** tab, kisha ** URI's.
+Bofya kichupo cha **Ukodishaji**, kisha **URI**.
 
-Utaona kitu kama:
+Utaona kitu kama hiki:
 
 ```bash
 zebra-8233: provider-hostname.com:31234
 ```
 
-Hii ni node yako ya ** umma P2P mwisho hatua. nodes nyingine Zcash itakuwa kuungana na wewe katika anwani hii.
+Hii ni **endpoint ya umma ya P2P** ya node yako. Node nyingine za Zcash zitaunganishwa nawe kwenye anwani hii.
 
-** Angalia ramani bandari:** Umeweka bandari 8233 katika SDL, lakini Akash aliiweka kwa tofauti ya umma port (31234 katika mfano huu). Hii ni kawaida - angalia "Port Mapping juu ya Akash" sehemu hapo juu kama hii confuses wewe. node yako inapatikana kwenye yoyote bandari Akash inaonyesha hapa, si lazima 8233.
+**Tambua uwekaji ramani wa port:** Ulisanidi port 8233 katika SDL, lakini Akash iliipangia port tofauti ya umma (31234 katika mfano huu). Hii ni kawaida - tazama sehemu ya “Uwekaji Ramani wa Port kwenye Akash” hapo juu ikiwa hili linakuchanganya. Node yako inaweza kufikiwa kwenye port yoyote ambayo Akash inaonyesha hapa, si lazima 8233.
 
-Kama umewezesha RPC (commented nje default katika SDL), utaona pia mwisho wa RPC hapa na bandari yake mwenyewe mapped.
+Ikiwa uliwezesha RPC (imewekwa kama maoni kwa chaguomsingi katika SDL), utaona pia endpoint ya RPC hapa pamoja na port yake yenyewe iliyowekwa ramani.
 
-### Chaguzi Configuration
+### Chaguo za Usanidi
 
-#### Kubadili kwa Testnet
+#### Kubadilisha hadi Testnet
 
-SDL default kwa Mainnet. kutumia Testnet badala yake:
+SDL hutumia Mainnet kwa chaguomsingi. Ili kutumia Testnet badala yake:
 
--> ** Mainnet Config** katika sehemu ya * env:
+-> **Weka kama maoni usanidi wa Mainnet** katika sehemu ya *env*:
 
    ```yaml
    # - "ZEBRA_NETWORK__NETWORK=Mainnet"
    # - "ZEBRA_NETWORK__LISTEN_ADDR=[::]:8233"
    ```
 
--> ** Uncomment Testnet config**:
+-> **Ondoa maoni kwenye usanidi wa Testnet**:
 
    ```yaml
    - "ZEBRA_NETWORK__NETWORK=Testnet"
    - "ZEBRA_NETWORK__LISTEN_ADDR=[::]:18233"
    ```
 
--> ** Sasisha bandari wazi** katika * expose* sehemu:
+-> **Sasisha port iliyofichuliwa** katika sehemu ya *expose*:
 
    ```yaml
    # Comment out Mainnet port:
@@ -206,7 +206,7 @@ SDL default kwa Mainnet. kutumia Testnet badala yake:
      proto: tcp
    ```
 
--> ** Hiari: Kupunguza rasilimali** kwa Testnet katika *profiles.compute.zebra.resources*:
+-> **Hiari: Punguza rasilimali** kwa Testnet katika *profiles.compute.zebra.resources*:
 
    ```yaml
    cpu:
@@ -217,26 +217,26 @@ SDL default kwa Mainnet. kutumia Testnet badala yake:
      - size: 50Gi  # Down from 150Gi
    ```
 
--> ** Hiari: Bei ya chini** katika *profiles.placement.akash.pricing*:
+-> **Hiari: Punguza bei** katika *profiles.placement.akash.pricing*:
 
    ```yaml
    amount: 5000  # Down from 10000
    ```
 
-#### Kuwezesha RPC Access
+#### Wezesha Ufikiaji wa RPC
 
-RPC ni walemavu kwa default kwa ajili ya usalama. Ili kuwezesha:
+RPC imezimwa kwa chaguomsingi kwa usalama. Ili kuiwezesha:
 
-** Kwa Mainnet:**
+**Kwa Mainnet:**
 
--> Uncomment katika * env* sehemu:
+-> Ondoa maoni katika sehemu ya *env*:
 
    ```yaml
    - "ZEBRA_RPC__LISTEN_ADDR=0.0.0.0:8232"
    - "ZEBRA_RPC__COOKIE_DIR=/home/zebra/.cache/zebra"
    ```
 
--> Uncomment Mainnet RPC bandari katika * wazi*:
+-> Ondoa maoni kwenye port ya RPC ya Mainnet katika *expose*:
 
    ```yaml
    - port: 8232
@@ -246,16 +246,16 @@ RPC ni walemavu kwa default kwa ajili ya usalama. Ili kuwezesha:
      proto: tcp
    ```
 
-** Kwa Testnet:**
+**Kwa Testnet:**
 
--> Uncomment katika * env* sehemu:
+-> Ondoa maoni katika sehemu ya *env*:
 
    ```yaml
    - "ZEBRA_RPC__LISTEN_ADDR=0.0.0.0:18232"
    - "ZEBRA_RPC__COOKIE_DIR=/home/zebra/.cache/zebra"
    ```
 
--> Uncomment Testnet RPC bandari katika * wazi*:
+-> Ondoa maoni kwenye port ya RPC ya Testnet katika *expose*:
 
    ```yaml
    - port: 18232
@@ -265,21 +265,21 @@ RPC ni walemavu kwa default kwa ajili ya usalama. Ili kuwezesha:
      proto: tcp
    ```
 
-** Onyo**: Kama kuweka * kimataifa: kweli* kwa RPC, wewe ni wazi yake ya mtandao. Zebra anatumia kuki uthibitishaji default, lakini bado - si kufanya hili isipokuwa unajua nini cha kufanya.
+**Onyo**: Ukiweka *global: true* kwa RPC, unaifichua kwenye intaneti. Zebra hutumia uthibitishaji wa cookie kwa chaguomsingi, lakini bado - usifanye hivi isipokuwa unajua unachofanya.
 
-** Port ramani kukumbusha**: Hata kama wewe yatangaza RPC kimataifa, Akash itakuwa ramani yake kwa random juu bandari (si 8232/18232). Angalia URIs katika kupelekwa yako kuona mwisho halisi ya umma. Kwa * global: uongo* (ilipendekezwa), mwisho wa RPC ni kupatikana tu ndani ya mtandao wa utoaji akashi, si kutoka internet za umma.
+**Kikumbusho cha uwekaji ramani wa port**: Hata ukifichua RPC kimataifa, Akash itaiweka kwenye port ya juu ya nasibu (si 8232/18232). Kagua URI katika usambazaji wako ili kuona endpoint halisi ya umma. Kwa *global: false* (inayopendekezwa), endpoint ya RPC inaweza kufikiwa tu ndani ya mtandao wa usambazaji wa Akash, si kutoka kwenye intaneti ya umma.
 
-#### Kuwezesha Metrics (Prometheus)
+#### Wezesha Vipimo (Prometheus)
 
-Kwa scrape metrics kwa ufuatiliaji:
+Ili kukusanya vipimo vya ufuatiliaji:
 
--> Uncomment katika *env*:
+-> Ondoa maoni katika *env*:
 
    ```yaml
    - "ZEBRA_METRICS__ENDPOINT_ADDR=0.0.0.0:9999"
    ```
 
--> Uncomment metrics bandari katika * wazi*:
+-> Ondoa maoni kwenye port ya vipimo katika *expose*:
 
    ```yaml
    - port: 9999
@@ -289,127 +289,127 @@ Kwa scrape metrics kwa ufuatiliaji:
      proto: tcp
    ```
 
-#### Kurekebisha rasilimali/kuweka bei
+#### Rekebisha Rasilimali/Bei
 
-Kama wewe si kupata zabuni au unataka kuboresha gharama:
+Ikiwa hupati zabuni au unataka kuboresha gharama:
 
-** Kwa watoa huduma ya chini-spec**, kupunguza katika *profiles.compute.zebra.resources* sehemu:
+**Kwa watoa huduma wenye vipimo vya chini**, punguza katika sehemu ya *profiles.compute.zebra.resources*:
 
--> CPU: * vitengo: 2* (kiwango cha chini kwa ajili ya kasi ya usawazishaji wa busara)
+-> CPU: *units: 2* (kiwango cha chini kwa kasi inayofaa ya usawazishaji)
 
--> Kumbukumbu: * ukubwa: 12Gi* (kiwango cha chini kwa ajili ya utulivu)
+-> Kumbukumbu: *size: 12Gi* (kiwango cha chini kwa uthabiti)
 
--> Hifadhi: * ukubwa: 120Gi* (kiwango cha chini kwa mainnet)
+-> Hifadhi: *size: 120Gi* (kiwango cha chini kwa mainnet)
 
-**Kuvuna bei zaidi**, ongezeko la *profiles.placement.akash.pricing*:
+**Ili kuvutia zabuni zaidi**, ongeza katika *profiles.placement.akash.pricing*:
 
--> Mainnet: Jaribu * kiasi: 1000000* uakt/block
+-> Mainnet: Jaribu *amount: 1000000* uakt/block
 
--> Testnet: Jaribu * kiasi: 1000000* uakt/block
+-> Testnet: Jaribu *amount: 1000000* uakt/block
 
-### Kuboresha Utoaji Wako wa Kazi ya Kujitolea
+### Kusasisha Usambazaji Wako
 
-Unahitaji kubadilisha Configuration baada ya kupelekwa?
+Je, unahitaji kubadilisha usanidi baada ya kusambaza?
 
--> Nenda kwa ** My Deployments** katika Console
+-> Nenda kwenye **Usambazaji Wangu** katika Konsoli
 
--> Kupata kupelekwa yako Zebra
+-> Tafuta usambazaji wako wa Zebra
 
--> Click **"Update kupelekwa"**
+-> Bofya **“Sasisha Usambazaji”**
 
 -> Hariri SDL
 
--> Click **"Update"** na kupitisha katika Keplr
+-> Bofya **“Sasisha”** na uidhinishe katika Keplr
 
-** Kumbuka**: Upyaji itaanza tena chombo yako. node itakuwa kuendelea kutoka hali yake kuhifadhiwa (kuendelea uhifadhi), lakini kutarajia 1-2 dakika ya downtime.
+**Kumbuka**: Kusasisha kutaanzisha upya kontena lako. Node itaendelea kutoka hali yake iliyohifadhiwa (hifadhi endelevu), lakini tarajia dakika 1-2 za kutopatikana.
 
 ### Ufuatiliaji
 
-#### Kupitia Console
+#### Kupitia Konsoli
 
--> ** Tab Logs**: kuishi vyombo vya kumbukumbu
+-> **Kichupo cha kumbukumbu**: Kumbukumbu za moja kwa moja za kontena
 
--> ** Tab Shell**: Kupata shell ndani ya chombo (faida kwa ajili ya debugging)
+-> **Kichupo cha shell**: Pata shell ndani ya kontena (muhimu kwa utatuzi wa hitilafu)
 
--> ** Matukio tab**: Kubernetes matukio (zaidi ya bure isipokuwa kitu ni kuvunjwa)
+-> **Kichupo cha matukio**: Matukio ya Kubernetes (kwa kiasi kikubwa hayana faida isipokuwa kuna kitu kimeharibika)
 
 
 #### Kupitia RPC (ikiwa imewezeshwa)
 
-Kama wewe kuwezeshwa RPC, unaweza kuuliza node yako kama kawaida zebrad full Node (kwa sababu ni!)
+Ikiwa uliwezesha RPC, unaweza kuuliza node yako kama full node ya kawaida ya zebrad (kwa sababu ndivyo ilivyo!)
 
-### Kufunga kupelekwa kwako
+### Kufunga Usambazaji Wako
 
-Wakati wewe ni kufanyika au unataka kuacha kulipa:
+Ukimaliza au unataka kuacha kulipa:
 
--> Nenda kwa ** Usanidi Wangu**
+-> Nenda kwenye **Usambazaji Wangu**
 
--> Kupata kupelekwa yako Zebra
+-> Tafuta usambazaji wako wa Zebra
 
--> Click **"Funga kupelekwa"**
+-> Bofya **“Funga Usambazaji”**
 
--> Thibitisha na saini katika Keplr
+-> Thibitisha na utie sahihi katika Keplr
 
-Akaunti yako ya 5 AKT itarejeshwa. ** Hifadhi endelevu** inapaswa kuhifadhiwa na mtoa huduma, lakini usitegemee - kutibu kama mtoaji mwingine wowote wa wingu.
+Amana yako ya AKT 5 itarejeshwa. **Hifadhi endelevu** inapaswa kuhifadhiwa na mtoa huduma, lakini usiitegemee - ichukulie kama mtoa huduma mwingine yeyote wa wingu.
 
-### Kutatua matatizo
+### Utatuzi wa Hitilafu
 
-#### "Fedha za kutosha" kosa
+#### Hitilafu ya “Fedha hazitoshi”
 
-Unahitaji AKT zaidi. Fedha mkoba wako Keplr.
+Unahitaji AKT zaidi. Weka salio kwenye pochi yako ya Keplr.
 
-#### Hakuna zabuni zinazoonekana juu ya
+#### Hakuna zabuni zinazoonekana
 
-Ama:
+Huenda:
 
--> Bei yako ni ya chini sana (ongezea * kiasi cha* katika SDL)
+-> Bei yako ni ndogo sana (ongeza *amount* katika SDL)
 
--> Mahitaji yako rasilimali ni kubwa mno kwa watoa inapatikana (kupunguza CPU / kumbukumbu / kuhifadhi)
+-> Mahitaji yako ya rasilimali ni makubwa sana kwa watoa huduma wanaopatikana (punguza CPU/kumbukumbu/hifadhi)
 
--> Kusubiri muda mrefu (wakati mwingine inachukua 60-90 sekunde kwa ajili ya zabuni kuonekana)
+-> Subiri zaidi (wakati mwingine huchukua sekunde 60-90 kwa zabuni kuonekana)
 
 
-#### Utekelezaji kukwama katika "kusubiri"
+#### Usambazaji umekwama kwenye “unasubiri”
 
-Mtoa huduma inaweza kuwa na matatizo. Kufunga kupelekwa na kujaribu mtoa mwingine.
+Huenda mtoa huduma ana matatizo. Funga usambazaji na ujaribu mtoa huduma tofauti.
 
-#### Kumbukumbu za Zebra zinaonyesha "Hakuna wenzao waliounganishwa"
+#### Kumbukumbu za Zebra zinaonyesha “Hakuna peer waliounganishwa”
 
-Hii ni kawaida kwa dakika chache za kwanza. Zebra itakuwa kugundua wenzao moja kwa moja. Kama inaendelea baada ya 10+ dakika, unaweza kuwa na mtandao wa suala (sio uwezekano juu Akash).
+Hii ni kawaida kwa dakika chache za kwanza. Zebra itagundua peer kiotomatiki. Ikiendelea baada ya dakika 10+, huenda una tatizo la mtandao (jambo lisilo la kawaida kwenye Akash).
 
-#### "Kutoka nje ya kumbukumbu" makosa katika magogo
+#### Hitilafu za “Kumbukumbu haitoshi” katika kumbukumbu
 
-Wewe cheaped nje juu ya RAM. Kufunga kupelekwa na redeploy kwa angalau 12Gi kumbukumbu (16Gi ilipendekeza).
+Ulipunguza RAM kupita kiasi. Funga usambazaji na usambaze tena ukiwa na angalau kumbukumbu 12Gi (16Gi inapendekezwa).
 
-#### Sync ni kuchukua milele
+#### Usawazishaji unachukua muda mrefu sana
 
-Eleza maana ya "kwa milele":
+Fafanua “muda mrefu sana”:
 
--> **Masaa**: Kawaida
+-> **Saa**: Kawaida
 
--> ** Siku**: Pia kawaida kwa mainnet kutoka mwanzo
+-> **Siku**: Pia ni kawaida kwa mainnet kuanzia mwanzo
 
--> ** Wiki**: Kitu ni makosa, kuangalia kumbukumbu kwa ajili ya makosa
+-> **Wiki**: Kuna tatizo, kagua kumbukumbu kwa hitilafu
 
 
 ### Usimamizi wa Gharama
 
-Kufuatilia matumizi yako katika Console:
+Fuatilia matumizi yako katika Konsoli:
 
--> ** My Deployments** -> yako kupelekwa -> Inaonyesha "Gharama kwa mwezi" makadirio ya
+-> **Usambazaji Wangu** -> Usambazaji wako -> Huonyesha makadirio ya “Gharama kwa mwezi”
 
--> yako Keplr mkoba salio itapungua baada ya muda
+-> Salio la pochi yako ya Keplr litapungua kadiri muda unavyopita
 
 
-Wakati usawa wako ni mdogo, Akash itafunga moja kwa moja kupelekwa kwako. ** Ongeza mkoba wako mara kwa mara** au weka arifu.
+Salio lako litakapopungua, Akash itafunga usambazaji wako kiotomatiki. **Ongeza salio kwenye pochi yako mara kwa mara** au weka arifa.
 
 #### Kupunguza Gharama
 
--> ** Matumizi Testnet** kwa ajili ya upimaji yasiyo ya uzalishaji (50% nafuu)
+-> **Tumia Testnet** kwa majaribio yasiyo ya uzalishaji (nafuu kwa 50%)
 
--> ** Chini CPU / kumbukumbu** kama huna haja ya haraka sync
+-> **Punguza CPU/kumbukumbu** ikiwa huhitaji usawazishaji wa haraka
 
--> ** Chagua watoa huduma wa bei rahisi** (sio kila wakati busara - masuala ya uptime)
+-> **Chagua watoa huduma wa bei nafuu** (si busara kila wakati - muda wa upatikanaji ni muhimu)
 
 
 ### Mainnet dhidi ya Testnet
@@ -429,17 +429,16 @@ Wakati usawa wako ni mdogo, Akash itafunga moja kwa moja kupelekwa kwako. ** Ong
 ----------------------------------------------------------------------------------
 ```
 
-Anza na Testnet kama wewe ni tu kupima mchakato wa kupelekwa. Angalia "Kubadilisha kwa Testnet" sehemu hapo juu ya Configuration.
+Anza na Testnet ikiwa unajaribu tu mchakato wa usambazaji. Tazama sehemu ya “Kubadilisha hadi Testnet” hapo juu kwa usanidi.
 
-### Rasilimali za ziada
+### Rasilimali za Ziada
 
-**Kidhibiti cha Akash**: [https://console.akash.network](https://console.akash.network)
+**Konsoli ya Akash**: [https://console.akash.network](https://console.akash.network)
 
-** Akash Docs**: [https://akash.network/docs/](https://akash.network/docs/)
+**Nyaraka za Akash**: [https://akash.network/docs/](https://akash.network/docs/)
 
-** Zebra Docs**: [https://zebra.zfnd.org/](https://zebra.zfnd.org/)
+**Nyaraka za Zebra**: [https://zebra.zfnd.org/](https://zebra.zfnd.org/)
 
-** Zcash Explorers**: [https://zechub.wiki/guides/blockchain-explorers](https://zechub.wiki/guides/blockchain-explorers)
+**Vichunguzi vya Zcash**: [https://zechub.wiki/guides/blockchain-explorers](https://zechub.wiki/guides/blockchain-explorers)
 
-**Akash Discord**: [https://discord.akash.network](https://discord.akash.network) (kwa masuala ya mtoa huduma)
-
+**Discord ya Akash**: [https://discord.akash.network](https://discord.akash.network) (kwa matatizo ya mtoa huduma)

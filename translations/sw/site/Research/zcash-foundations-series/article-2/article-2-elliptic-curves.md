@@ -1,88 +1,88 @@
-# Elliptic Curves: Ambapo Zcash ya funguo na ahadi ni kuzaliwa
-##### Utafiti wa awali kutoka [Annkkitaaa](https://github.com/Annkkitaaa)
+# Mikunjo ya Elliptiki [Elliptic Curves]: Ambapo Funguo na Commitments za Zcash Huzaliwa
+##### Utafiti Asilia kutoka [Annkkitaaa](https://github.com/Annkkitaaa)
 
-! ![ alt maandishi](/content-images/image-10-c1097b22d7.webp)
+![alt text](/content-images/image-10-c1097b22d7.webp)
 
-### Barabara yenye mwendo mmoja iliyojengwa kutoka kwa sehemu zilizo kwenye mviringo
+### Njia ya upande mmoja iliyojengwa kwa pointi kwenye mkunjo
 
-> **Series:** *Zcash kutoka Kanuni za Kwanza* . **Kifungu cha 2 . Curves Elliptic**
-> Sisi kudhani tu [Kifungu cha 1 (maeneo ya mwisho)](article-1-finite-fields.md): arithmetic kwamba wraps karibu mod a msingi. hakuna background nyingine zinahitajika.
-> **What you'll leave with:** an intuitive and correct picture of elliptic curves, the "trapdoor" that makes them useful, and exactly how Zcash turns them into keys and commitments.
+> **Mfululizo:** *Zcash kutoka Kanuni za Msingi* . **Makala ya 2 . Mikunjo ya Elliptiki**
+> **Hadhira:** wanaoanza. Tunachukulia tu [Makala ya 1 (sehemu finiti)](article-1-finite-fields.md): hesabu inayozunguka upya mod namba ya kwanza. Hakuna maarifa mengine yanayohitajika.
+> **Utaondoka na:** picha angavu na sahihi ya mikunjo ya elliptiki, “mlango wa siri” unaoifanya iwe muhimu, na jinsi hasa Zcash inavyoigeuza kuwa funguo na commitments.
 
-[Kifungu cha 1](article-1-finite-fields.md) alitupa kamili uwanja wa michezo kwa ajili ya hesabu: uwanja mwisho. Lakini uwanja yenyewe ni tu namba. Kujenga funguo na "envelopes muhuri" kutoka [Kifungu 0](article-0-shielded-transaction.md), Zcash inahitaji kitu na maalum, aina moja ya mwelekeo wa ugumu: rahisi kuhesabu mbele, karibu haiwezekani kurudi nyuma. Kitu hicho ni ** curve elliptic **. Makala hii hujenga kutoka chini, intuition kabla ya algebra.
-
----
-
-## 1. Kwa nini unapaswa kuhangaikia jambo hilo?
-
-Kila mfumo wa faragha unahitaji barabara ya njia moja: operesheni ambayo ni ya kawaida kutembea mbele na kwa ufanisi haiwezekani kurudi nyuma.
-
-Here's why. Your **secret key** is a number you keep hidden. Your **public key** (and your address) is derived from it and shown to the world. The entire security of the system rests on one fact: *given the public key, nobody can work backwards to your secret key.* If they could, they could spend your money.
-
-Hivyo tunahitaji operesheni ya hisabati ambapo:
-
-- kwenda ** mbele ** (siri -> umma) ni ya haraka na rahisi, lakini
-- kwenda ** nyuma ** (ya umma -> siri) ni vigumu sana kwamba kompyuta zote duniani kufanya kazi kwa ajili ya maisha ya ulimwengu hawezi kumaliza.
-
-Tu finite-shamba kuzidisha si nzuri ya kutosha; mgawanyiko undoes yake mara moja (hiyo ilikuwa pointi nzima ya Kifungu 1). Tunahitaji kitu bila rahisi "undo" kifungo. curves elliptic kutoa hasa kwamba, na kama ziada, pointi zao kuchanganya kwa njia ambayo ni kamili kwa ajili ya kujenga ahadi. Hebu tuone jinsi.
+[Makala ya 1](article-1-finite-fields.md) ilitupatia uwanja bora wa hesabu: sehemu finiti. Lakini sehemu yenyewe ni namba tu. Ili kujenga funguo na “bahasha zilizofungwa” kutoka [Makala ya 0](article-0-shielded-transaction.md), Zcash inahitaji kitu chenye aina maalumu ya ugumu wa upande mmoja: rahisi kukokotoa kwenda mbele, lakini kisichowezekana kiutendaji kurudisha nyuma. Kitu hicho ni **mkunjo wa elliptiki [elliptic curve]**. Makala hii inaujenga kuanzia chini, kwa utambuzi kabla ya aljebra.
 
 ---
 
-## 2. Intuition: curve ambayo pointi unaweza "kuongeza"
+## 1. Kwa nini unapaswa kujali?
 
-Kusahau cryptography kwa muda mfupi. ** curve elliptic ** ni tu seti ya pointi `(x, y)` kuridhisha equation ya sura:
+Kila mfumo wa faragha unahitaji **njia ya upande mmoja**: operesheni ambayo ni rahisi sana kufuata kwenda mbele na haiwezekani kiutendaji kurudi nyuma.
+
+Hii ndiyo sababu. **Ufunguo wako wa siri [secret key]** ni namba unayoiweka siri. **Ufunguo wako wa umma [public key]** (na anwani yako) unatokana nao na huonyeshwa kwa dunia. Usalama wote wa mfumo unategemea jambo moja: *kwa kupewa ufunguo wa umma, hakuna anayeweza kurudi nyuma hadi kwenye ufunguo wako wa siri.* Kama wangeweza, wangeweza kutumia pesa zako.
+
+Hivyo tunahitaji operesheni ya kihisabati ambapo:
+
+- kwenda **mbele** (siri -> umma) ni kwa haraka na rahisi, lakini
+- kwenda **nyuma** (umma -> siri) ni kugumu kiasi kwamba kompyuta zote Duniani zikifanya kazi kwa muda wa uhai wa ulimwengu hazingemaliza.
+
+Kuzidisha kwa sehemu finiti ya kawaida hakutoshi; kugawanya hukibatilisha papo hapo (hilo lilikuwa kusudi zima la Makala ya 1). Tunahitaji kitu kisicho na kitufe rahisi cha “kutengua.” Mikunjo ya elliptiki hutoa hilo hasa, na kama faida ya ziada, pointi zake huunganishwa kwa namna inayofaa sana kujenga commitments. Hebu tuone jinsi.
+
+---
+
+## 2. Utambuzi: mkunjo ambao pointi zake unaweza “kujumlisha”
+
+Sahau kriptografia kwa muda. **Mkunjo wa elliptiki** ni mkusanyiko tu wa pointi `(x, y)` zinazotimiza mlinganyo wa umbo:
 
 ```
 y^2 = x^3 + ax + b
 ```
 
-Juu ya nambari za kawaida inaonekana kama mviringo laini, unaoanguka, mara nyingi na kitanzi kilichokunjwa na mikia miwili:
+Juu ya namba za kawaida unaonekana kama mkunjo laini unaopinda, mara nyingi ukiwa na kitanzi cha mviringo na mikia miwili:
 
-! ![ alt maandishi](/content-images/image-14-1d2e8c25d2.webp)
+![alt text](/content-images/image-14-1d2e8c25d2.webp)
 
-The genuinely surprising part: **you can "add" two points on this curve to get a third point on the same curve.** This isn't ordinary addition of coordinates. It's a geometric rule, and it's easier to *see* than to say.
+Sehemu ya kushangaza kweli ni hii: **unaweza “kujumlisha” pointi mbili kwenye mkunjo huu ili kupata pointi ya tatu kwenye mkunjo huohuo.** Huu si ujumlishaji wa kawaida wa koordinati. Ni kanuni ya kijiometri, na ni rahisi zaidi *kuiona* kuliko kuieleza.
 
-### Sheria ya chord (kuongeza pointi mbili tofauti)
+### Kanuni ya kamba (kujumlisha pointi mbili tofauti)
 
-Kuongeza `P + Q`:
+Ili kujumlisha `P + Q`:
 
-1. Chora mstari wa moja kwa moja kupitia `P` na `Q`.
-2. Mstari huo hits curve katika hasa sehemu moja zaidi. `R*`.
-3. **Kutafakari `R*` katika mhimili wa usawa.** kwamba reflection ni jibu, `P + Q`.
+1. Chora mstari mnyoofu kupitia `P` na `Q`.
+2. Mstari huo hugonga mkunjo katika sehemu moja zaidi hasa. Iite `R*`.
+3. **Akisi `R*` kwenye mhimili wa mlalo.** Akisi hiyo ndiyo jibu, `P + Q`.
 
-! ![ alt maandishi](/content-images/image-11-61f3df1989.webp)
+![alt text](/content-images/image-11-61f3df1989.webp)
 
-### Kanuni ya tangent (kuongeza uhakika kwa yenyewe)
+### Kanuni ya tanjenti (kujumlisha pointi na yenyewe)
 
-Ili kuhesabu `P + P` (kwa maandishi `2P`), hakuna hatua ya pili kuteka mstari kupitia, hivyo kutumia ** tangent ** line katika `P` badala yake, kisha kufuata sawa "mkutano wa tatu, kisha kutafakari" mapishi.
+Ili kukokotoa `P + P` (huandikwa `2P`), hakuna pointi ya pili ya kuchorea mstari kupita ndani yake, hivyo badala yake unatumia mstari wa **tanjenti [tangent]** kwenye `P`, kisha ufuate utaratibu huohuo wa “makutano ya tatu, kisha akisi.”
 
-Hiyo ni operesheni nzima. sheria mbili za kijiometri. pamoja nao, pointi ya curve elliptic fomu nini wanahisabati wito ** kikundi **: seti na vizuri-kufanya "addition". Hata ina "zero".
+Hiyo ndiyo operesheni nzima. Kanuni mbili za kijiometri. Kwa hizo, pointi za mkunjo wa elliptiki huunda kile wanahisabati hukiita **kundi [group]**: mkusanyiko wenye “ujumlishaji” unaofanya kazi kwa utaratibu mzuri. Hata lina “sifuri.”
 
-### uhakika katika infinity (curve ya sifuri)
+### Pointi isiyo na kikomo (sifuri ya mkunjo)
 
-Kila mfumo wa idadi inahitaji `0`, kitu ambacho mabadiliko chochote wakati kuongeza yake. Juu ya curve elliptic, kwamba jukumu ni alicheza na maalum ziada uhakika aitwaye ** uhakika katika infinity **, imeandikwa `O`. Unaweza picha yake kama "infinitely mbali juu", mahali ambapo mistari ya wima kukutana. `O` kwa hatua yoyote majani ni unchanged, hasa kama kuongeza `0`.
+Kila mfumo wa namba unahitaji `0`, kitu ambacho hakibadilishi chochote unapokijumlisha. Kwenye mkunjo wa elliptiki, jukumu hilo hutimizwa na pointi maalumu ya ziada iitwayo **pointi isiyo na kikomo [point at infinity]**, inayoandikwa `O`. Unaweza kuifikiria kama “mbali sana juu,” mahali ambapo mistari ya wima hukutana. Kujumlisha `O` kwenye pointi yoyote huiwacha bila kubadilika, sawasawa na kujumlisha `0`.
 
 ---
 
-## 3. Kutoka picha hadi uwanja mdogo
+## 3. Kutoka picha hadi sehemu finiti
 
-Curve laini juu ni * Intuition*. Lakini Zcash haina kutumia namba halisi (wao pande zote na kuvuja ukubwa, kwa Kifungu 1). Inatumia curve elliptic ** juu ya uwanja mdogo **: sawa `y^2 = x^3 + ax + b`, lakini kwa arithmetic yote kufanyika mod a msingi.
+Mkunjo laini hapo juu ndiyo *utambuzi*. Lakini Zcash haitumii namba halisi (huzungushwa na hufichua ukubwa, kulingana na Makala ya 1). Hutumia mkunjo wa elliptiki **juu ya sehemu finiti**: mlinganyo uleule `y^2 = x^3 + ax + b`, lakini hesabu zote hufanywa mod namba ya kwanza.
 
-Unapofanya hivyo, curve nzuri vipande katika ** kutawanyika ya dots disconnected **, dot moja kwa kila `(x, y)` jozi kwamba kuridhisha equation mod `p`Lakini hapa ni jambo muhimu:
+Unapofanya hivyo, mkunjo mzuri hugawanyika kuwa **mtawanyiko wa nukta zisizoungana**, nukta moja kwa kila jozi ya `(x, y)` inayotimiza mlinganyo mod `p`. Huacha kuonekana kama mkunjo kabisa. Lakini hapa kuna jambo muhimu:
 
-> **Algebra ya kanuni chord-na-tangent bado kazi kikamilifu.** Fomula sawa kwamba kupatikana `P + Q` geometrically sasa mahesabu yake na finite-shamba arithmetic. dots bado kuunda kundi, na sawa `0` (hatua katika infinity).
+> **Aljebra ya kanuni ya kamba-na-tanjenti bado hufanya kazi kikamilifu.** Formula zilezile zilizopata `P + Q` kijiometri sasa huikokotoa kwa hesabu ya sehemu finiti. Nukta bado huunda kundi, lenye `0` ileile (pointi isiyo na kikomo).
 
-Hebu tufanye hii kuwa halisi kwa mfano mdogo, uliothibitishwa kikamilifu.
+Hebu tufanye hili liwe halisi kwa mfano mdogo, uliothibitishwa kikamilifu.
 
-### Curve kamili, mahesabu hasa
+### Mkunjo kamili, uliokokotolewa kwa usahihi
 
-Chukua `y^2 = x^3 + 2x + 2` juu ya uwanja wa mwisho `F_17`. Kuhesabu kila uhakika halali inatoa hasa ** pointi 18, pamoja na uhakika katika infinity = 19 jumla.** Baadhi yao:
+Chukua `y^2 = x^3 + 2x + 2` juu ya sehemu finiti `F_17`. Kukokotoa kila pointi halali kunatoa hasa **pointi 18, pamoja na pointi isiyo na kikomo = jumla ya 19.** Chache kati yake:
 
 ```
 (0,6) (0,11) (3,1) (3,16) (5,1) (5,16) (6,3) (6,14) (7,6) (7,11) ...
 ```
 
-Sasa chagua uhakika `G = (5, 1)` Angalia nini kinatokea (kila mstari hapa chini umehesabiwa, haukugunduliwa):
+Sasa chagua pointi `G = (5, 1)` na uendelee kuijumlisha yenyewe. Tazama kinachotokea (kila mstari hapa chini ulikokotolewa, haukukisiwa):
 
 | Hatua | Pointi | Hatua | Pointi |
 |---|---|---|---|
@@ -97,133 +97,133 @@ Sasa chagua uhakika `G = (5, 1)` Angalia nini kinatokea (kila mstari hapa chini 
 | `9G` | (7, 6) | `19G` | **O (isiyo na kikomo)** |
 | `10G` | (7, 11) | | |
 
-Mambo mawili ya kuzingatia:
+Mambo mawili ya kutambua:
 
-- Ni ** ziara zote 18 pointi mwisho na kisha ardhi juu ya `O`** katika hatua ya 19, basi itakuwa kurudia milele. `G` "huzalisha" kundi zima, hivyo sisi kuiita ** jenereta **.
-- Ni kundi kuthibitishwa: kwa mfano `1G + 2G = (5,1) + (6,3) = (10,6)`, ambayo ni hasa `3G`. Kuongeza ni ndani thabiti, tu kama kundi mahitaji.
+- **Hutembelea pointi zote 18 finiti na kisha kutua kwenye `O`** katika hatua ya 19, kisha ingerudia milele. Pointi ya kuanzia `G` “huzalisha” kundi lote, kwa hivyo tunaipa jina **kizalishaji [generator]**.
+- Ni kundi lililothibitishwa: kwa mfano `1G + 2G = (5,1) + (6,3) = (10,6)`, ambayo ni sawa kabisa na `3G`.  Ujumlishaji una uthabiti wa ndani, kama kundi linavyodai.
 
 ---
 
-## 4. Mlango wa mtego: kuzidisha kwa scalar
+## 4. Mlango wa siri: kuzidisha skala
 
-Hiyo meza ya `1G, 2G, 3G, ...` ni moyo wa kila kitu. mara kwa mara kuongeza hatua kwa yenyewe inaitwa ** scalar kuzidisha **: hatua `kG` inamaanisha "`G` imeongezwa yenyewe `k` nyakati".
+Jedwali hilo la `1G, 2G, 3G, ...` ndilo kiini cha kila kitu. Kujumlisha pointi yenyewe mara kwa mara huitwa **kuzidisha skala [scalar multiplication]**: pointi `kG` humaanisha “`G` iliyojumlishwa yenyewe mara `k`.”
 
-Sasa uchawi. Fikiria mwelekeo mbili:
+Sasa uchawi. Zingatia pande mbili:
 
 | Mwelekeo | Swali | Ugumu |
 |---|---|---|
-| **Washambuliaji** | Imetolewa `k` na `G`hesabu `kG` | **Rahisi.** Hata kwa ukubwa wa anga `k`, hila inayoitwa *double-and-add* inafika hapo kwa hatua mia chache |
-| **Kurudi Nyuma** | Imetolewa `G` na `kG`, kupona `k` | **Haiwezekani** kwenye mkunjo halisi wa kriptografia |
+| **Mbele** | Kwa kupewa `k` na `G`, kokotoa `kG` | **Rahisi.** Hata kwa `k` kubwa sana kwa kiwango cha astronomia, mbinu iitwayo *double-and-add* hufika hapo kwa hatua mia chache |
+| **Nyuma** | Kwa kupewa `G` na `kG`, pata tena `k` | **Haiwezekani kiutendaji** kwenye mkunjo halisi wa kriptografia |
 
-Kwamba asymmetry ni ** moja ya njia ya barabara ** sisi zinahitajika katika Sehemu 1. nyuma tatizo ("ambayo `k` alitengeneza hatua hii?") inaitwa ** Elliptic Curve Discrete Logarithm Problem (ECDLP) **, na kwenye curves Zcash hutumia, hakuna njia inayojulikana inayotatua kabla ya kifo cha joto cha ulimwengu.
+Kutolingana huko ndiko **njia ya upande mmoja** tuliyohitaji katika Sehemu ya 1. Tatizo la kurudi nyuma (“ni `k` gani iliyozalisha pointi hii?”) huitwa **Tatizo la Logaritimu Tengefu ya Mkunjo wa Elliptiki (ECDLP)**, na kwenye mikunjo inayotumiwa na Zcash, hakuna mbinu inayojulikana inayolitatua kabla ya kifo cha joto cha ulimwengu.
 
-! ![ alt maandishi](/content-images/image-12-86b9ace6cb.webp)
+![alt text](/content-images/image-12-86b9ace6cb.webp)
 
-> Katika toy yetu `F_17` curve wewe *could* tu kusoma `k` mbali meza, kwa sababu ina pointi 19 tu. curves halisi kuwa karibu `2^(255)` Meza itakuwa na safu zaidi kuliko kuna atomu katika ulimwengu, hivyo "kusoma ni mbali" si chaguo. ndogo ni nini hufanya toy curve kufundishwa na pia kwa nini si salama.
+> Kwenye mkunjo wetu wa mfano wa `F_17` ungeweza kusoma tu `k` kutoka kwenye jedwali, kwa sababu una pointi 19 pekee. Mikunjo halisi ina takriban pointi `2^(255)`. Jedwali lingeweza kuwa na safu nyingi zaidi kuliko atomu zilizopo ulimwenguni, hivyo “kuisoma kutoka kwenye jedwali” si chaguo. Udogo ndio unaofanya mkunjo wa mfano uweze kufundishika na pia ndio sababu hauko salama.
 
 ---
 
-## 5. Jinsi funguo huzaliwa (thawabu)
+## 5. Jinsi funguo huzaliwa (matokeo)
 
-Sasa tuna kila kitu kinachohitajika kuelezea ufunguo halisi wa kificho, na ni rahisi sana:
+Sasa tuna kila kitu kinachohitajika kueleza ufunguo halisi wa kriptografia, na ni rahisi kwa kushangaza:
 
-> ** Chagua namba ya siri `k`. Chapisha jambo hilo `kG`. Hiyo ni.**
-> `k` ni ** ufunguo wako binafsi **. `kG` ni ** ufunguo wako wa umma **. barabara moja ya upande (ECDLP) dhamana hakuna mtu anaweza kukimbia `kG` nyuma hadi `k`.
+> **Chagua namba ya siri `k`. Chapisha pointi `kG`. Hiyo tu.**
+> `k` ni **ufunguo wako binafsi [private key]**. `kG` ni **ufunguo wako wa umma**. Njia ya upande mmoja (ECDLP) inahakikisha hakuna anayeweza kurudisha `kG` hadi `k`.
 
-Hii wazo moja, * ufunguo wa umma ni siri scalar mara generator fasta *, ni mbegu ya Zcash ya matumizi ya funguo, kuona funguo na anwani. kamili muhimu mti tabaka zaidi muundo juu, lakini kila tawi hukua kutoka mzizi huu.
+Wazo hili moja, *ufunguo wa umma ni skala ya siri ikizidishwa na kizalishaji kisichobadilika*, ndilo mbegu ya funguo za kutumia pesa, funguo za kutazama, na anwani za Zcash. Mti kamili wa funguo huweka muundo zaidi juu yake, lakini kila tawi hukua kutoka kwenye mzizi huu.
 
-### Bonus: kwa nini curve pointi kufanya ahadi kamilifu
+### Ziada: kwa nini pointi za mkunjo hutengeneza commitments bora
 
-Kumbuka "muhuri muhuri" (kujitolea) kutoka Kifungu cha 0, ambayo ilibidi ** kuficha ** yaliyomo lakini haiwezekani **. curves Elliptic kutupa njia safi ya kujenga moja. Kuchukua mbili za kudumu, umma jenereta pointi `G` na `H`, thamani ya siri `v`, na idadi ya kipofu random `r`, na fomu:
+Kumbuka “bahasha iliyofungwa” (commitment) kutoka Makala ya 0, ambayo ilipaswa **kuficha** yaliyomo lakini iwe **isiyowezekana kughushi**. Mikunjo ya elliptiki hutupatia njia safi ya kuijenga. Chukua pointi mbili za kizalishaji zisizobadilika, za umma `G` na `H`, thamani ya siri `v`, na namba ya uficheaji ya nasibu `r`, kisha unda:
 
 ```
 Commitment  =  v.G  +  r.H
 ```
 
-Hii ni ** kujitolea Pedersen **, na ina mali zote mbili tulitaka:
+Hii ni **commitment ya Pedersen [Pedersen commitment]**, na ina sifa zote mbili tulizotaka:
 
-- ** Kuficha:** random `r` smears matokeo katika curve nzima, hivyo uhakika inaonyesha kitu kuhusu `v`.
-- ** Kufunga: ** ECDLP hufanya ni haiwezekani kupata * tofauti * `(v, r)` kutoa hatua sawa, hivyo huwezi kubadilisha mawazo yako kuhusu nini wewe nia ya.
+- **Kuficha [Hiding]:** `r` ya nasibu hutawanya matokeo kwenye mkunjo wote, hivyo pointi haifichui chochote kuhusu `v`.
+- **Kufunga [Binding]:** ECDLP hufanya isiwezekane kupata `(v, r)` *tofauti* inayotoa pointi ileile, hivyo huwezi kubadilisha mawazo yako kuhusu ulichojifunga nacho.
 
-Mali ya ziada inageuka kuwa bila bei baadaye: ahadi hizi ** kuongeza up **. `v_1` pamoja na ahadi ya `v_2` ni ahadi halali ya `v_1 + v_2`. Hiyo "homomorphic" tabia ni jinsi Zcash baadaye kuthibitisha kwamba fedha kwenda * katika * shughuli ni sawa na fedha kuja * nje *, bila kufunua kiasi chochote. Tutaweza fedha kwamba katika karibu Kifungu 6.
+Sifa ya ziada inageuka kuwa yenye thamani kubwa baadaye: commitments hizi **hujumlishika**. Commitment ya `v_1` pamoja na commitment ya `v_2` ni commitment halali ya `v_1 + v_2`. Tabia hiyo ya “homomorphic” ndiyo jinsi Zcash itakavyothibitisha baadaye kwamba pesa zinazoingia *katika* muamala ni sawa na pesa zinazotoka, bila kufichua kiasi chochote. Tutaitumia karibu na Makala ya 6.
 
 ---
 
-## 6. Ambapo hii anaishi katika Zcash
+## 6. Mahali hili linapoishi katika Zcash
 
-Alama za vidole ni thabiti na zinaweza kuchunguzwa.
+Alama zake ni mahususi na zinaweza kukaguliwa.
 
-| Ubunifu wa Zcash | Mikunjo inayotumia | Jukumu |
+| Muundo wa Zcash | Mikunjo inayotumia | Jukumu |
 |---|---|---|
-| **Sapling** (ya zamani) | **BLS12-381** pamoja na mkunjo uliopachikwa unaoitwa **Jubjub** | BLS12-381 hubeba mfumo wa uthibitisho; Jubjub imejengwa juu ya uwanja wa scalar BLS12-381's ili shughuli muhimu na za kujitolea ziwe nafuu kufanya *ndani* ya uthibitisho usio na ujuzi wowote |
-| **Orchard** (ya sasa) | **Pallas** na **Vesta** (mzunguko wa "Pasta") | Pallas hubeba funguo na ahadi Orchard's; uunganishaji wa Pallas/Vesta umepangwa maalum ili kufanya uthibitishaji wa hali ya juu uwe mzuri |
+| **Sapling** (ya zamani) | **BLS12-381** pamoja na mkunjo uliopachikwa uitwao **Jubjub** | BLS12-381 hubeba mfumo wa thibitisho; Jubjub imejengwa juu ya sehemu ya skala ya BLS12-381 ili operesheni za ufunguo na commitment ziwe nafuu kutekeleza *ndani* ya thibitisho la maarifa sifuri [zero-knowledge proof] |
+| **Orchard** (ya sasa) | **Pallas** na **Vesta** (mzunguko wa “Pasta”) | Pallas hubeba funguo na commitments za Orchard; uoanishaji wa Pallas/Vesta umepangwa mahsusi kufanya mathibitisho ya hali ya juu yawe yenye ufanisi |
 
-The reasons one curve gets "embedded" inside another's field, and why a *cycle* of two curves is useful, are real and important, but they belong to the proof-system articles. For now the takeaway is solid: **every Zcash key is a scalar times a generator, and every Zcash commitment is a sum of curve points**, living on one of these named curves.
+Sababu zinazofanya mkunjo mmoja “upachikwe” ndani ya sehemu ya mwingine, na kwa nini *mzunguko* wa mikunjo miwili ni muhimu, ni halisi na muhimu, lakini ni za makala za mfumo wa thibitisho. Kwa sasa hitimisho ni thabiti: **kila ufunguo wa Zcash ni skala mara kizalishaji, na kila commitment ya Zcash ni jumla ya pointi za mkunjo**, zikiishi kwenye mojawapo ya mikunjo hii iliyopewa majina.
 
-! ![ alt maandishi](/content-images/image-13-ffdd703c60.webp)
+![alt text](/content-images/image-13-ffdd703c60.webp)
 
 ---
 
-## 7. Kujitenga kwa unyoofu
+## 7. Kanusho la uaminifu
 
-Baadhi ya kurahisisha kuweka hii kusoma. Sisi kutumika ** short Weierstrass ** fomu (`y^2 = x^3 + ax + b`); Zcash's curves are often written in other equivalent forms (Jubjub is a *twisted Edwards* curve) chosen for efficiency and safety, but the group idea is identical. We didn't define the exact point-addition formulas (they're the algebraic version of "third intersection, then reflect"), and we set aside subtleties like curve order, cofactors, and "pairings," which become important in the proof-system articles. None of this changes the intuition; it sharpens it.
+Mambo machache ya kurahisisha yaliweka hili lisomeke. Tulitumia umbo la **short Weierstrass** (`y^2 = x^3 + ax + b`); mikunjo ya Zcash mara nyingi huandikwa kwa maumbo mengine sawia (Jubjub ni mkunjo wa *twisted Edwards*) yaliyochaguliwa kwa ufanisi na usalama, lakini wazo la kundi ni lilelile. Hatukufafanua formula kamili za kujumlisha pointi (ni toleo la kialjebra la “makutano ya tatu, kisha akisi”), na tuliweka pembeni undani kama mpangilio wa mkunjo, cofactors, na “pairings,” ambavyo huwa muhimu katika makala za mfumo wa thibitisho. Hakuna kati ya haya yanayobadilisha utambuzi; huyafanya kuwa makali zaidi.
 
 ---
 
 ## 8. Muhtasari
 
-- Mfumo wa faragha unahitaji ** barabara ya njia moja **: rahisi mbele, haiwezekani nyuma. Curves elliptic kutoa moja.
-- ** curve elliptic ** ni seti ya pointi kuridhisha `y^2 = x^3 + ax + b`, na pointi zake zinaweza ** kuongezwa ** kupitia sheria ya kijiometri ya ** chord-na-tangent **, na ** uhakika maalum katika infinity ** inayofanya kama sifuri.
-- Zaidi ya ** uwanja wa mwisho ** curve inakuwa kutawanyika kwa dots, lakini kuongeza sawa bado kazi na pointi kuunda ** kikundi **. (Mfano kuthibitishwa: `y^2 = x^3 + 2x + 2` zaidi `F_17` ina pointi 19, na `G = (5,1)` inazalisha yao yote.)
-- ** Scalar kuzidisha ** `kG` ni rahisi kuhesabu lakini haiwezekani kugeuza: ** ECDLP **. Hiyo ni mtego.
-- ** funguo:** siri ufunguo `k`, ufunguo wa umma `kG`. ** Mahusiano:** Fomu ya Pedersen `v.G + r.H`, ambayo huficha, hufunga, na kwa urahisi huongeza.
-- Katika ** Zcash **, Sapling anatumia ** BLS12-381 + Jubjub ** na Orchard anatumia mapengo ya ** Pallas / Vesta (Pasta) **; kila ufunguo na ahadi huishi juu ya haya.
+- Mfumo wa faragha unahitaji **njia ya upande mmoja**: rahisi kwenda mbele, isiyowezekana kurudi nyuma. Mikunjo ya elliptiki hutoa hiyo.
+- **Mkunjo wa elliptiki** ni mkusanyiko wa pointi zinazotimiza `y^2 = x^3 + ax + b`, na pointi zake zinaweza **kujumlishwa** kupitia kanuni ya kijiometri ya **kamba-na-tanjenti**, huku **pointi isiyo na kikomo** maalumu ikifanya kazi kama sifuri.
+- Juu ya **sehemu finiti** mkunjo huwa mtawanyiko wa nukta, lakini ujumlishaji uleule bado hufanya kazi na pointi huunda **kundi**. (Mfano uliothibitishwa: `y^2 = x^3 + 2x + 2` juu ya `F_17` una pointi 19, na `G = (5,1)` huzalisha zote.)
+- **Kuzidisha skala** `kG` ni rahisi kukokotoa lakini haiwezekani kurudisha nyuma: **ECDLP**. Huo ndio mlango wa siri.
+- **Funguo:** ufunguo binafsi `k`, ufunguo wa umma `kG`. **Commitments:** umbo la Pedersen `v.G + r.H`, ambalo huficha, hufunga, na kwa urahisi **hujumlishika**.
+- Katika **Zcash**, Sapling hutumia **BLS12-381 + Jubjub** na Orchard hutumia mikunjo ya **Pallas/Vesta (Pasta)**; kila ufunguo na commitment huishi kwenye hiyo.
 
 ---
 
-## Orodha ya maneno
+## Kamusi
 
-| Muhula | Maana ya Kiingereza cha kawaida |
+| Istilahi | Maana kwa lugha rahisi |
 |---|---|
-| **Elliptic curve** | Pointi zinazoridhisha `y^2 = x^3 + ax + b`, pamoja na "nyongeza" maalum ya pointi |
-| **Point addition** | Sheria ya gumzo na mchanganyiko: piga mstari kupitia pointi mbili, piga hitilafu ya tatu, tafakari |
-| **Point at infinity (`O`)** | "Sufuri" ya mkunjo; kuiongeza hakubadilishi chochote |
-| **Generator (`G`)** | Sehemu ya msingi ambayo vizidisho vyake hatimaye hufunika kundi zima |
-| **Scalar multiplication (`kG`)** | Kuongeza `G` yenyewe `k` nyakati; kusonga mbele kwa urahisi, vigumu kurudi nyuma |
-| **ECDLP** | Tatizo gumu la kupona `k` kutoka `kG`; msingi wa usalama |
-| **Pedersen commitment** | `v.G + r.H`bahasha iliyofungwa ambayo huficha, hufunga, na kuongeza ukubwa |
+| **Elliptic curve** | Pointi zinazotimiza `y^2 = x^3 + ax + b`, zikiwa na “ujumlishaji” maalumu wa pointi |
+| **Point addition** | Kanuni ya kamba-na-tanjenti: mstari kupitia pointi mbili, chukua mguso wa tatu, akisi |
+| **Point at infinity (`O`)** | “Sifuri” ya mkunjo; kuijumlisha hakubadilishi chochote |
+| **Generator (`G`)** | Pointi ya msingi ambayo vizidisho vyake hatimaye hufunika kundi lote |
+| **Scalar multiplication (`kG`)** | Kujumlisha `G` yenyewe mara `k`; rahisi kwenda mbele, vigumu kurudisha nyuma |
+| **ECDLP** | Tatizo gumu la kupata tena `k` kutoka `kG`; msingi wa usalama |
+| **Pedersen commitment** | `v.G + r.H`; bahasha iliyofungwa inayoficha, kufunga, na kujumlishika |
 
 ---
 
-## FAQ
+## Maswali Yanayoulizwa Mara kwa Mara
 
-** Kwa nini curves badala ya idadi kubwa tu mod msingi? **
-Wote wanaweza kutoa barabara ya njia moja, lakini curves elliptic kufikia usalama huo kwa funguo ndogo sana na shughuli za haraka, na pointi yao hesabu ni bora kwa ajili ya ahadi.
+**Kwa nini mikunjo badala ya namba kubwa tu mod namba ya kwanza?**
+Vyote vinaweza kutoa njia ya upande mmoja, lakini mikunjo ya elliptiki hupata usalama uleule kwa funguo ndogo zaidi na operesheni za haraka zaidi, na hesabu yake ya pointi inafaa kwa commitments.
 
-** Je, ECDLP kuthibitika kuwa ngumu? **
-Si * kuthibitishwa * haiwezekani, lakini miongo ya juhudi kali hawajapata mashambulizi ufanisi juu ya curves vizuri kuchaguliwa. Usalama inategemea kwamba dhana vizuri majaribio.
+**Je, ECDLP imethibitishwa kuwa gumu?**
+Haijathibitishwa kuwa haiwezekani, lakini miongo kadhaa ya juhudi kubwa haijapata shambulio lenye ufanisi dhidi ya mikunjo iliyochaguliwa vizuri. Usalama hutegemea dhana hiyo iliyojaribiwa vizuri.
 
-** Je, kompyuta ya quantum inaweza kuvunja hii? **
-Kompyuta kubwa ya quantum inaweza kuvunja ECDLP. Hiyo ni inayojulikana ya muda mrefu wasiwasi katika sekta na eneo la utafiti hai; curves leo kubaki salama dhidi ya kompyuta classical.
+**Je, kompyuta ya kwanta inaweza kuvunja hili?**
+Kompyuta ya kwanta iliyo kubwa vya kutosha inaweza kuvunja ECDLP. Hilo ni suala linalojulikana la muda mrefu katika sekta nzima na eneo hai la utafiti; mikunjo ya leo hubaki salama dhidi ya kompyuta za kawaida.
 
-** Kwa nini Zcash kutumia zaidi ya curve moja? **
-Kazi tofauti. Curve moja hubeba zero-maarifa mfumo ushahidi; mwingine (kuingizwa katika uwanja wa kwanza) inafanya muhimu katika-ushahidi na ahadi shughuli ufanisi. makala yafuatayo kueleza kwa nini kwamba pairing mambo.
+**Kwa nini Zcash hutumia zaidi ya mkunjo mmoja?**
+Majukumu tofauti. Mkunjo mmoja hubeba mfumo wa thibitisho la maarifa sifuri; mwingine (uliopachikwa kwenye sehemu ya wa kwanza) hufanya operesheni za ufunguo na commitment ndani ya thibitisho ziwe zenye ufanisi. Makala zinazofuata zinaeleza kwa nini uoanishaji huo ni muhimu.
 
 ---
 
-### Jaribu ufahamu wako wa ndani
+### Jaribu utambuzi wako
 
-Kutumia meza kuthibitishwa katika Sehemu ya 3, ni nini `9G + 10G` Na nini jibu anakuambia kuhusu `G`? * ((Jibu hapa chini.) *
+Kwa kutumia jedwali lililothibitishwa katika Sehemu ya 3, `9G + 10G` ni nini kwenye mkunjo wetu wa mfano? Na jibu linakuambia nini kuhusu `G`? *(Jibu hapa chini.)*
 
-<details><summary>Answer</summary>
+<details><summary>Jibu</summary>
 
-`9 + 10 = 19`, na tuliona kwamba `19G = O`, uhakika katika infinity. Hivyo `9G + 10G = O`Hii inamaanisha `10G` ni **negative** (additive inverse) ya `9G`: pointi mbili ambazo kuongeza kwa "zero" uhakika. Juu ya curve, hasi ya uhakika ni tu picha yake kioo katika mhimili wa x, na kwa kweli `9G = (7,6)` na `10G = (7,11)` kushiriki sawa `x` na kuwa na `y`- Thamani ambazo jumla ya `17 = 0 (mod 17)`Muundo ni thabiti kikamilifu, ambayo ni nini hasa "ni kundi" dhamana.
+`9 + 10 = 19`, na tuliona kwamba `19G = O`, pointi isiyo na kikomo. Hivyo `9G + 10G = O`. Hii inamaanisha `10G` ni **kinyume hasi [negative]** (kinyume cha kijumlisha) cha `9G`: pointi mbili zinazojumlishwa hadi pointi ya “sifuri.” Kwenye mkunjo, kinyume hasi cha pointi ni taswira yake tu kwenye mhimili wa x, na kwa kweli `9G = (7,6)` na `10G = (7,11)` zina `x` sawa na zina thamani za `y` zinazojumlisha hadi `17 = 0 (mod 17)`. Muundo una uthabiti kamili, ambalo ndilo hasa linalohakikishwa na “ni kundi.”
 </details>
 
 ---
 
-### Ni nini kinachofuata
+### Kinachofuata
 
-**Article 3 . Hashing and commitments:** we'll open up the "magic sealed envelope" properly. You've now seen one way to build a commitment from curve points; next we ask what hiding and binding really mean, meet hash functions, and connect both to the note commitments that anchor every Zcash payment.
+**Makala ya 3 . Hashing na commitments:** tutafungua vizuri “bahasha ya kichawi iliyofungwa.” Sasa umeona njia moja ya kujenga commitment kutoka pointi za mkunjo; inayofuata tunauliza maana halisi ya kuficha na kufunga, tunakutana na functions za hash, na kuunganisha vyote na commitments za dokezo zinazotia nanga kila malipo ya Zcash.
 
-* Sehemu ya * Zcash kutoka Kanuni za Kwanza * mfululizo kwa [ZecHub](https://zechub.org). Leseni CC BY-SA 4.0.*
+*Sehemu ya mfululizo wa* Zcash kutoka Kanuni za Msingi *kwa ajili ya [ZecHub](https://zechub.org). Imepewa leseni ya CC BY-SA 4.0.*

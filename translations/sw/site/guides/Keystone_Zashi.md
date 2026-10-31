@@ -1,10 +1,10 @@
-# Keystone Zashi User Guide
+# Keystone Zashi Mwongozo wa Mtumiaji
 
-Mwongozo wa Twitter: => [Zashi x Keystone Hardware Wallet Ushirikiano Mwongozo Twitter](https://x.com/zashi_app/status/1869793574880973144) 
+Mwongozo wa Twitter:  => [Zashi x Keystone Ujumuishaji wa Hardware Wallet Twitter Mwongozo](https://x.com/zashi_app/status/1869793574880973144) 
 
-This integration marks a significant evolution in Zcash usability by enabling cold storage of shielded ZEC. The Zcash community has faced setbacks with other hardware wallet platforms in the past, but Keystone emerged as a collaborative partner willing to push boundaries and innovate alongside the Electric Coin Company. The Keystone team received a ZCG grant to fuel their side of the work.
+Ujumuishaji huu unaashiria maendeleo muhimu katika urahisi wa matumizi wa Zcash kwa kuwezesha hifadhi baridi ya ZEC ya faragha [shielded]. Jumuiya ya Zcash imekumbana na vikwazo kwenye majukwaa mengine ya hardware wallet hapo awali, lakini Keystone iliibuka kama mshirika shirikishi aliye tayari kuvuka mipaka na kubuni pamoja na Electric Coin Company. Timu ya Keystone ilipokea ruzuku [grant] ya ZCG ili kufadhili sehemu yao ya kazi.
 
-## Keystone X Zashi Mafunzo
+## Mafunzo ya Keystone X Zashi
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -19,59 +19,59 @@ This integration marks a significant evolution in Zcash usability by enabling co
     
 
 ## Maandalizi
-[Agizo & Kupokea yako Keystone 3 Pro au Keystones 3](https://keyst.one) 
+[Agiza na Upokee Keystone 3 Pro yako au Keystone 3](https://keyst.one) yako
 
-Kiwango cha betri: Hakikisha kifaa yako keystone ina kiwango cha betri juu ya 20%.
+Kiwango cha Betri: Hakikisha kifaa chako cha keystone kina kiwango cha betri kinachozidi 20%.
 
-USB Cable au SD Kadi:
+Kebo ya USB au Kadi ya SD:
 
-- USB cable kwa firmware Update (pamoja).
-- Micro SD kadi (chini ya 1 TB) kwa upgrades (kununuliwa tofauti).
+- Kebo ya USB kwa ajili ya kusasisha programu dhibiti [firmware] (imejumuishwa).
+- Kadi ya Micro SD (chini ya TB 1) kwa ajili ya masasisho (nunua kando).
 
-Upatikanaji wa tovuti rasmi Keystones kwa ajili ya ukaguzi na Firmware Update.
+Ufikiaji wa tovuti rasmi ya Keystones kwa ajili ya uthibitishaji na kusasisha programu dhibiti.
 
-Zashi programu ya kuanzisha kwenye kifaa yako ya mkononi.
+Usanidi wa programu ya Zashi kwenye kifaa chako cha mkononi.
 
-## [Hatua kwa Hatua Mwongozo ((Keystone kifaa)](https://keyst.one/get-started) 
+## [Mwongozo wa Hatua kwa Hatua (Kifaa cha Keystone)](https://keyst.one/get-started) 
 
 
 **Chagua Lugha Yako**
--Device Verification(via QR): Device Verification is crucial to detect potential contamination during transportation, prevent supply chain attacks, and ensure the safety of installed firmware.
+-Uthibitishaji wa Kifaa (kupitia QR): Uthibitishaji wa kifaa ni muhimu ili kugundua uchafuzi unaoweza kutokea wakati wa usafirishaji, kuzuia mashambulizi kwenye msururu wa ugavi, na kuhakikisha usalama wa programu dhibiti iliyosakinishwa.
   - Tembelea ukurasa wa Uthibitishaji wa Kifaa kwenye tovuti ya Keystone.
   - Bofya Scan QR Code kwenye tovuti rasmi.
-  - Tumia kamera yako ya Keystone kuchanganua nambari ya QR iliyoonyeshwa kwenye tovuti.
-  - Nambari ya uthibitisho itaonekana kwenye skrini yako ya Keystone.
-  - Ingiza nambari hii kwenye tovuti ili kukamilisha mchakato wa uthibitishaji.
+  - Tumia kamera yako ya Keystone kuchanganua msimbo wa QR unaoonyeshwa kwenye tovuti.
+  - Msimbo wa uthibitishaji utaonekana kwenye skrini yako ya Keystone.
+  - Weka msimbo huu kwenye tovuti ili kukamilisha mchakato wa uthibitishaji.
 
-- ** Firmware Mwisho:**
-  - Sasisha kupitia MicroSD kadi
-    - Hakikisha mkoba wako wa Keystone una angalau malipo ya betri ya 20%.
-    - Kuingiza SD kadi katika kompyuta yako na kuifomati kama FAT32.
-    - Download latest Cypherpunk firmware version kutoka [Keystone Firmware Update ukurasa](https://keyst.one/firmware) na kuhifadhi faili keystone3.bin kwa mizizi ya kadi yako MicroSD.
-    - Weka SD kadi na firmware katika mkoba wako Keystone.
-    - Fikia chaguo la "Upgrade" kwenye mkoba wako wa Keystone, kisha fuata maagizo kwenye skrini ili kuanza mchakato wa kusasisha.
-  - ** Sasisha kupitia USB Cable **
-    - Kama firmware yako toleo ni chini ya 1.0.4, unahitaji kufanya update ya awali kwa kutumia MicroSD kadi kabla unaweza kuendelea na updates USB.
-    - Hakikisha mkoba wako wa Keystone una angalau malipo ya betri ya 20%.
-    - Bonyeza juu ya kupitia USB na kutumia kebo ya USB kuunganisha mkoba yako Keystone kwa kompyuta yako. Bonyeza [Kukubali] kutoa mkoba wako Keystones USB upatikanaji, kama inaweza vinginevyo tu kuruhusu malipo.
-    - Fungua kompyuta yako kivinjari cha mtandao na kwenda kwenye [Keystone Firmware Update ukurasa](https://keyst.one/firmware)
-    - Katika ukurasa update, bofya kitufe cha Install Update na kufuata maelekezo iliyotolewa kufunga firmware karibuni.
-- ** Kujenga Wallet:**
-    - Neno la siri salama: Chagua nambari ya siri au neno la siri lenye nguvu ili kulinda kibeti chako.
-    - Jina Wallet yako (Hiari): Hiari, kutoa mkoba wako jina kwa ajili ya utambulisho rahisi au ruka hatua hii.
-    - Chagua Kujenga Wallet Mpya kama wewe ni kuanzisha mkoba kwa mara ya kwanza.
-    - Kifaa chako kitatokeza maneno 24 ya msingi.
-    - Andika maneno haya ya msingi na uyahifadhi mahali salama.
-    - Thibitisha maneno ya mbegu kwa kuangalia maneno katika utaratibu sahihi kama inavyoonekana kwenye skrini.
-- ** Kuunganisha Zashi + Keystone Wallet:**
-    - Kwenye kifaa cha Keystone: Bonyeza ... kwenye ukurasa kuu
-    - Bonyeza Kuunganisha Programu Wallet na kuchagua Zashi. QR code kwa ajili ya uhusiano na Zashi itaonekana.
-    - Katika Zashi App: Bonyeza zashi dropdown (juu kushoto ya screen)
-    - Bonyeza Unganisha Pochi ya Vifaa
-    - Bonyeza Tayari kwa Scan
-    - Scan QR kuonyeshwa kwenye Kifaa Keystone
-    - Katika Zashi App: Thibitisha akaunti ya mkoba wa Keystone kwa kugusa akaunti iliyoonyeshwa
-    - Bonyeza Unganisha chini ya skrini
+- **Sasisho la Programu Dhibiti:**
+  - Sasisha kupitia kadi ya MicroSD
+    - Hakikisha pochi yako ya Keystone ina chaji ya betri ya angalau 20%.
+    - Ingiza kadi ya SD kwenye kompyuta yako na uiunde kwa muundo wa FAT32.
+    - Pakua toleo la hivi karibuni la programu dhibiti ya Cypherpunk kutoka kwenye ukurasa wa Sasisho la Programu Dhibiti wa [Keystone](https://keyst.one/firmware) na uhifadhi faili la keystone3.bin kwenye mzizi wa kadi yako ya MicroSD.
+    - Weka kadi ya SD yenye programu dhibiti kwenye pochi yako ya Keystone.
+    - Fikia chaguo la "Upgrade" kwenye pochi yako ya Keystone, kisha fuata maelekezo yaliyo kwenye skrini ili kuanzisha mchakato wa sasisho.
+  - **Sasisha kupitia Kebo ya USB**
+    - Ikiwa toleo lako la programu dhibiti liko chini ya 1.0.4, utahitaji kufanya sasisho la awali kwa kutumia kadi ya MicroSD kabla ya kuendelea na masasisho ya USB.
+    - Hakikisha pochi yako ya Keystone ina chaji ya betri ya angalau 20%.
+    - Gusa kupitia USB na utumie kebo ya USB kuunganisha pochi yako ya Keystone kwenye kompyuta yako. Gusa [Approve] ili kuipa pochi yako ya Keystone ufikiaji wa USB, kwani vinginevyo inaweza kuruhusu kuchaji pekee.
+    - Fungua kivinjari cha wavuti cha kompyuta yako na uende kwenye ukurasa wa Sasisho la Programu Dhibiti wa [Keystone](https://keyst.one/firmware)
+    - Kwenye ukurasa wa sasisho, bofya kitufe cha Install Update na ufuate maelekezo yaliyotolewa ili kusakinisha programu dhibiti ya hivi karibuni.
+- **Unda Pochi:**
+    - Nenosiri Salama: Chagua PIN au nenosiri thabiti ili kulinda pochi yako.
+    - Ipe Pochi Yako Jina (Hiari): Kwa hiari, ipe pochi yako jina kwa ajili ya kuitambua kwa urahisi au ruka hatua hii.
+    - Chagua Create New Wallet ikiwa unaweka pochi kwa mara ya kwanza.
+    - Kifaa chako kitatengeneza maneno 24 ya kurejesha pochi [seed phrase].
+    - Andika maneno haya ya kurejesha pochi na uyahifadhi kwa usalama.
+    - Thibitisha maneno ya kurejesha pochi kwa kuhakiki maneno kwa mpangilio sahihi kama yanavyoonyeshwa kwenye skrini.
+- **Unganisha Pochi ya Zashi + Keystone:**
+    - Kwenye kifaa cha Keystone: Gusa … kwenye ukurasa mkuu
+    - Gusa Connect Software Wallet na uchague Zashi. Msimbo wa QR wa kuunganisha na Zashi utaonekana.
+    - Kwenye Programu ya Zashi: Gusa menyu kunjuzi ya zashi (juu kushoto mwa skrini)
+    - Gusa Connect Hardware Wallet
+    - Gusa Ready to Scan
+    - Changanua QR inayoonyeshwa kwenye Kifaa cha Keystone
+    - Kwenye Programu ya Zashi: Thibitisha Akaunti ya Pochi ya Keystone kwa kugusa akaunti inayoonyeshwa
+    - Gusa Connect chini ya skrini
 
 
 ## Msaada Zaidi
@@ -98,7 +98,3 @@ Zashi programu ya kuanzisha kwenye kifaa yako ya mkononi.
     loading="lazy"
   />
 </div>
-
-
-
-

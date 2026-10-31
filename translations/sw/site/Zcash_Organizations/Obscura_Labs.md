@@ -3,184 +3,184 @@
 
 [Tembelea tovuti](https://www.obscuralabs.org/)
 
-## Taarifa ya Ujumbe
+## Taarifa ya Dhamira
 
-Obscura Labs ni shirika huru lililosajiliwa nchini Nigeria lenye mwelekeo wa kimkakati katika Afrika na masoko mengine yanayoibuka.
+Obscura Labs ni shirika huru lililosajiliwa nchini Nigeria lenye mwelekeo wa kimkakati katika Afrika na masoko mengine yanayoibukia.
 
-Its mission is to build infrastructure, tools, and practical adoption pathways that improve the accessibility, utility, decentralization, and long-term resilience of the Zcash ecosystem across Africa.
+Dhamira yake ni kujenga miundombinu, vifaa [tools], na njia za utekelezaji wa vitendo zinazoboresha ufikivu, manufaa, ugatuzi, na uthabiti wa muda mrefu wa mfumo ikolojia wa Zcash kote Afrika.
 
-Shirika hilo linalenga kusaidia matumizi ya faragha kuhifadhi teknolojia ya kifedha kwa kuboresha upatikanaji wa miundombinu ya kuaminika, kusaidia watengenezaji na biashara, kuelimisha watumiaji, na kuimarisha jamii za Zcash za mitaa.
+Shirika linalenga kuunga mkono matumizi ya teknolojia ya kifedha inayolinda faragha [privacy] kwa kuboresha ufikiaji wa miundombinu ya kuaminika, kuunga mkono wasanidi programu [developers] na biashara, kuelimisha watumiaji, na kuimarisha jumuiya za ndani za Zcash.
 
 ## Historia
 
 Obscura Labs ilianzishwa na Chidi Olisa, kiongozi wa Zcash Nigeria.
 
-Before establishing Obscura Labs, Chidi contributed to the Zcash ecosystem through community building, education, advocacy, localized content creation, user support, and initiatives designed to introduce people in Nigeria and other parts of Africa to financial privacy and Zcash.
+Kabla ya kuanzisha Obscura Labs, Chidi alichangia mfumo ikolojia wa Zcash kupitia ujenzi wa jumuiya, elimu, utetezi, uundaji wa maudhui yaliyojanibishwa, usaidizi kwa watumiaji, na mipango iliyobuniwa kuwafahamisha watu nchini Nigeria na sehemu nyingine za Afrika kuhusu faragha ya kifedha na Zcash.
 
-Engagement with users, students, developers, businesses, and community members highlighted several barriers to broader Zcash adoption across Africa. These included limited infrastructure, difficulty accessing ZEC through local currencies, insufficient developer support, a shortage of localized educational resources, and limited integration with everyday payment systems.
+Ushirikiano na watumiaji, wanafunzi, wasanidi programu, biashara, na wanajumuiya ulionyesha vikwazo kadhaa kwa utumiaji mpana wa Zcash kote Afrika. Hivi vilijumuisha miundombinu finyu, ugumu wa kufikia ZEC kwa kutumia sarafu za ndani, usaidizi usiotosha kwa wasanidi programu, upungufu wa rasilimali za elimu zilizonakiliwa kwa mazingira ya ndani, na ujumuishaji finyu na mifumo ya malipo ya kila siku.
 
-Obscura Labs iliundwa ili kukabiliana na changamoto hizi.
+Obscura Labs iliundwa kujibu changamoto hizi.
 
-Shirika hilo linategemea maoni kwamba ufahamu peke yake haitoshi kwa ajili ya kupitishwa endelevu. Jamii pia zinahitaji miundombinu ya kuaminika, bidhaa kupatikana, zana developer, upatikanaji wa fedha, elimu, na muda mrefu msaada wa taasisi.
+Shirika linaongozwa na mtazamo kwamba uelewa pekee hautoshi kwa utumiaji endelevu. Jumuiya pia zinahitaji miundombinu ya kuaminika, bidhaa zinazofikika, vifaa vya wasanidi programu, ufikiaji wa kifedha, elimu, na msaada wa taasisi wa muda mrefu.
 
-## Maono
+## Dira
 
-Maono ya Obscura Labs ni kusaidia kufanya Afrika kuwa moja ya mikoa yenye nguvu zaidi kwa miundombinu ya Zcash, kupitishwa, na ukuaji wa mazingira.
+Dira ya Obscura Labs ni kusaidia kuifanya Afrika kuwa mojawapo ya maeneo yenye nguvu zaidi kwa miundombinu, utumiaji, na ukuaji wa mfumo ikolojia wa Zcash.
 
-Shirika hilo linatamani kuwa mchangiaji mkuu wa Kiafrika katika mfumo wa ikolojia wa Zcash kwa:
+Shirika linatamani kuwa mchangiaji mkuu wa Kiafrika katika mfumo ikolojia wa Zcash kwa:
 
-* Kuendesha reliable Zcash miundombinu.
-* Kuboresha upatikanaji wa ZEC na malipo ya kuhifadhi faragha.
-* Kusaidia watumiaji, watengenezaji, biashara, na mashirika ya jamii.
-* Kujenga zana na huduma za vitendo.
-* Kuhamasisha maendeleo ya jamii endelevu za Zcash.
-* Kuongeza utofauti wa kijiografia wa miundombinu ya Zcash na ushiriki wa mazingira.
+* Kuendesha miundombinu ya kuaminika ya Zcash.
+* Kuboresha ufikiaji wa ZEC na malipo [payment] yanayolinda faragha.
+* Kuunga mkono watumiaji, wasanidi programu, biashara, na mashirika ya jumuiya.
+* Kujenga vifaa na huduma za vitendo.
+* Kuhimiza maendeleo ya jumuiya endelevu za Zcash.
+* Kuongeza utofauti wa kijiografia wa miundombinu ya Zcash na ushiriki katika mfumo ikolojia.
 
 ## Maeneo ya Kimkakati
 
-Obscura Labs awali mipango ya kuzingatia kazi yake katika maeneo manne ya kimkakati.
+Obscura Labs inapanga hapo awali kuelekeza kazi yake katika maeneo manne ya kimkakati.
 
 ### Maendeleo ya Miundombinu
 
-Miundombinu ya kuaminika ni muhimu kwa pochi, maombi, watengenezaji, kubadilishana, huduma za malipo, na watumiaji kuingiliana na mtandao wa Zcash.
+Miundombinu ya kuaminika ni muhimu ili pochi [wallet], programu, wasanidi programu, masoko ya kubadilishana sarafu [exchange], huduma za malipo, na watumiaji waweze kuingiliana na mtandao wa Zcash.
 
-Obscura Labs operates and develops Zcash infrastructure within Africa to improve network accessibility, geographic diversity, reliability, and resilience. This work is intended to reduce reliance on a small number of infrastructure operators and provide dependable services for users and developers in African markets.
+Obscura Labs inaendesha na kuendeleza miundombinu ya Zcash barani Afrika ili kuboresha ufikivu wa mtandao, utofauti wa kijiografia, utegemevu, na uthabiti. Kazi hii inalenga kupunguza utegemezi kwa idadi ndogo ya waendeshaji wa miundombinu na kutoa huduma zinazotegemewa kwa watumiaji na wasanidi programu katika masoko ya Afrika.
 
 Mipango ya miundombinu inaweza kujumuisha:
 
-* Umma Zcash mainnet RPC mwisho pointi.
-* Umma Zcash testnet RPC mwisho pointi.
-* Zebra full nodes.
-* lightwalletd huduma.
-* Wachimbaji wa DNS.
-* Ufuatiliaji wa miundombinu ya umma.
-* Developer-ililenga APIs.
-* Vifaa vya ushirikiano na nyaraka.
-* Huduma za ziada ambazo hupunguza vikwazo vya kujenga kwenye Zcash.
+* Vituo vya umma vya RPC vya mainnet ya Zcash.
+* Vituo vya umma vya RPC vya testnet ya Zcash.
+* Full node [full node] za Zebra.
+* Huduma za lightwalletd.
+* DNS seeders.
+* Ufuatiliaji wa umma wa miundombinu.
+* API zinazolenga wasanidi programu.
+* Vifaa vya ujumuishaji na nyaraka.
+* Huduma za ziada zinazopunguza vikwazo vya kujenga kwenye Zcash.
 
-Kwa kufanya miundombinu kupatikana zaidi, Obscura Labs inakusudia kusaidia watengenezaji, pochi, maombi, biashara, na huduma zinazounganishwa na mfumo wa ikolojia wa Zcash.
+Kwa kufanya miundombinu ifikike zaidi, Obscura Labs inalenga kuunga mkono wasanidi programu, pochi, programu, biashara, na huduma zinazojumuishwa na mfumo ikolojia wa Zcash.
 
-### Kupitishwa na Upatikanaji wa Fedha
+### Utumiaji na Ufikiaji wa Kifedha
 
-Kwa Zcash kuwa na manufaa katika hali ya kila siku, watu lazima kuwa na uwezo wa kupata, kuhifadhi, kutumia, na kubadilishana ZEC bila usumbufu usiohitajika.
+Ili Zcash iwe na manufaa katika hali za kila siku, watu lazima waweze kupata, kuhifadhi, kutumia, na kubadilisha ZEC bila vikwazo visivyo vya lazima.
 
-Obscura Labs inasaidia mipango inayokusudiwa kuboresha:
+Obscura Labs inaunga mkono mipango inayolenga kuboresha:
 
-* Upatikanaji kati ya ZEC na Afrika sarafu za mitaa.
-* Fiat-on-rampa na off-ramp.
-* Kupitishwa na wafanyabiashara.
-* Ushirikiano wa malipo.
+* Ufikiaji kati ya ZEC na sarafu za ndani za Afrika.
+* Njia za kuingia na kutoka za fiat.
+* Utumiaji wa wafanyabiashara.
+* Ujumuishaji wa malipo.
 * Malipo ya kuvuka mipaka.
-* Mtumiaji onboarding.
-* Kifurushi upatikanaji.
-* Matumizi ya vitendo ya ZEC na watu binafsi na biashara.
+* Uanzishaji wa watumiaji.
+* Ufikiaji wa pochi.
+* Matumizi ya vitendo ya ZEC na watu binafsi pamoja na biashara.
 
-Particular attention is given to services that address challenges commonly experienced in African markets, including currency instability, financial exclusion, expensive cross-border transfers, limited access to global payment systems, and increasing financial surveillance.
+Uangalizi maalum unatolewa kwa huduma zinazoshughulikia changamoto zinazopatikana kwa kawaida katika masoko ya Afrika, zikiwemo kuyumba kwa sarafu, kutengwa kifedha, uhamisho wa gharama kubwa wa kuvuka mipaka, ufikiaji finyu wa mifumo ya malipo ya kimataifa, na ongezeko la ufuatiliaji wa kifedha.
 
-### Ukuaji wa Jumuiya na Ufahamu
+### Ukuaji wa Jumuiya na Uelewa
 
-Obscura Labs inasaidia maendeleo ya jamii endelevu Zcash kote Afrika.
+Obscura Labs inaunga mkono maendeleo ya jumuiya endelevu za Zcash kote Afrika.
 
-Mipango yake ya jamii inaweza kujumuisha:
+Mipango yake ya jumuiya inaweza kujumuisha:
 
 * Warsha za elimu.
-* Kufikia Chuo Kikuu.
+* Ufikiaji wa vyuo vikuu.
 * Matukio ya jumuiya.
-* Maudhui ya kienyeji.
+* Maudhui yaliyojanibishwa.
 * Tafsiri.
-* Mafunzo ya watengenezaji.
-* Mtumiaji onboarding.
-* Ushirikiano wa mazingira.
-* Mipango ya maendeleo ya wachangiaji.
-* Msaada kwa ajili ya jamii za kikanda Zcash.
+* Mafunzo ya wasanidi programu.
+* Uanzishaji wa watumiaji.
+* Ushirikiano wa mfumo ikolojia.
+* Programu za maendeleo ya wachangiaji.
+* Msaada kwa jumuiya za kikanda za Zcash.
 
-Lengo la shirika si tu kuongeza ufahamu wa jumla. Pia inataka kusaidia jamii kuendeleza maarifa na rasilimali zinahitajika kuelimisha watumiaji, kusaidia kupitishwa kwa mitaa, mafunzo ya watengenezaji, na kuzalisha watetezi wa baadaye na wachangiaji wa mazingira.
+Lengo la shirika halizuiliwi katika kuongeza uelewa wa jumla. Pia linatafuta kusaidia jumuiya kukuza maarifa na rasilimali zinazohitajika kuwaelimisha watumiaji, kuunga mkono utumiaji wa ndani, kuwafundisha wasanidi programu, na kuandaa watetezi wa baadaye pamoja na wachangiaji wa mfumo ikolojia.
 
-### Ushirikiano wa Mazingira
+### Ushirikiano wa Mfumo Ikolojia
 
-Obscura Labs hufanya kazi na mashirika, watengenezaji, waelimishaji, watafiti, biashara, waendeshaji wa miundombinu, na viongozi wa jamii katika mfumo mzima wa ikolojia Zcash.
+Obscura Labs hufanya kazi na mashirika, wasanidi programu, waelimishaji, watafiti, biashara, waendeshaji wa miundombinu, na viongozi wa jumuiya katika mfumo ikolojia wa Zcash.
 
-Ushirikiano huu ni lengo la kusaidia mipango ambayo:
+Ushirikiano huu unalenga kuunga mkono mipango ambayo:
 
-* Kuendeleza faragha ya kifedha.
-* Kuimarisha mtandao Zcash.
-* Kuboresha usability ya ZEC.
-* Kupanua upatikanaji wa miundombinu Zcash.
-* Kuhamasisha maendeleo ya chanzo wazi.
-* Kusaidia jamii zinazoibuka za Zcash.
-* Kuongeza ushiriki wa mazingira kutoka Afrika na masoko mengine yanayoibuka.
+* Inaendeleza faragha ya kifedha.
+* Inaimarisha mtandao wa Zcash.
+* Inaboresha urahisi wa kutumia ZEC.
+* Inapanua ufikiaji wa miundombinu ya Zcash.
+* Inahimiza maendeleo ya chanzo huria.
+* Inaunga mkono jumuiya zinazoibukia za Zcash.
+* Inaongeza ushiriki wa mfumo ikolojia kutoka Afrika na masoko mengine yanayoibukia.
 
-Obscura Labs operates independently while working toward shared objectives with other Zcash ecosystem participants.
+Obscura Labs hufanya kazi kwa kujitegemea huku ikifanya kazi kuelekea malengo ya pamoja na washiriki wengine wa mfumo ikolojia wa Zcash.
 
 ## Mipango ya Sasa
 
-Ingawa Obscura Labs ni katika hatua ya mwanzo ya maendeleo, mipango kadhaa tayari imeanza.
+Ingawa Obscura Labs iko katika hatua ya awali ya maendeleo, mipango kadhaa tayari imeanza.
 
-### Afrika DNS Seeder Miundombinu
+### Miundombinu ya African DNS Seeder
 
-Obscura Labs huendesha miundombinu ya DNS kutoka Afrika.
+Obscura Labs huendesha miundombinu ya DNS seeder kutoka Afrika.
 
-DNS seeders help new Zcash nodes discover peers when connecting to the network. Increasing the geographic distribution of seeders contributes to the decentralization and resilience of the Zcash peer-to-peer network.
+DNS seeders husaidia node [node] mpya za Zcash kugundua washirika zinapounganishwa na mtandao. Kuongeza usambazaji wa kijiografia wa seeders huchangia ugatuzi na uthabiti wa mtandao wa rika-kwa-rika wa Zcash.
 
-### Zebra Node Miundombinu
+### Miundombinu ya Node ya Zebra
 
-Shirika hilo linaendesha vituo vya Zebra ndani ya Afrika.
+Shirika huendesha node za Zebra ndani ya Afrika.
 
-Zebra is an independent implementation of the Zcash consensus protocol. Operating Zebra infrastructure contributes to network accessibility, implementation diversity, and the geographic distribution of Zcash nodes.
+Zebra ni utekelezaji huru wa itifaki ya makubaliano [consensus] ya Zcash. Kuendesha miundombinu ya Zebra huchangia ufikivu wa mtandao, utofauti wa utekelezaji, na usambazaji wa kijiografia wa node za Zcash.
 
-### lightwalletd Huduma
+### Huduma za lightwalletd
 
-Obscura Labs huendesha miundombinu lightwalletd ili kusaidia muunganisho wa pochi ya Zcash.
+Obscura Labs huendesha miundombinu ya lightwalletd ili kuunga mkono muunganisho wa pochi za Zcash.
 
-lightwalletd hutoa data blockchain kwa mteja mwanga-pochi bila kuhitaji kila mtumiaji wa mkoba kuendesha node kamili ya Zcash.
+lightwalletd hutoa data ya blockchain [blockchain] kwa pochi za light client [light client] bila kuhitaji kila mtumiaji wa pochi kuendesha node kamili ya Zcash. Kwa hiyo, huduma za kuaminika za lightwalletd ni muhimu kwa pochi za simu na programu nyingine nyepesi za Zcash.
 
 ### Ufuatiliaji wa Miundombinu
 
-Obscura Labs ni kuendeleza ufuatiliaji wa umma na hali ya mifumo ya miundombinu yake.
+Obscura Labs inaendeleza mifumo ya umma ya ufuatiliaji na hali kwa miundombinu yake.
 
-Mifumo hii imekusudiwa kuboresha uwazi wa uendeshaji kwa kuruhusu watumiaji na watengenezaji kuangalia upatikanaji na hali ya huduma zinazopatikana kwa umma.
+Mifumo hii inalenga kuboresha uwazi wa uendeshaji kwa kuruhusu watumiaji na wasanidi programu kukagua upatikanaji na hali ya huduma zinazofikika kwa umma.
 
 ### ZecFiat
 
 ZecFiat ni mpango wa Obscura Labs unaolenga kuboresha ufikiaji kati ya ZEC na sarafu za ndani za Afrika.
 
-Mradi huo unakusudiwa kupunguza vizuizi kwa watu binafsi na biashara wanaotaka kupata, kutumia, au kubadilishana ZEC. Lengo lake pana ni kufanya Zcash vitendo zaidi ndani ya masoko ambapo upatikanaji wa huduma cryptocurrency na mifumo ya fedha ya kimataifa inaweza kuwa mdogo.
+Mradi unalenga kupunguza vikwazo kwa watu binafsi na biashara zinazotaka kupata, kutumia, au kubadilisha ZEC. Lengo lake pana ni kuifanya Zcash iwe ya vitendo zaidi katika masoko ambako ufikiaji wa huduma za sarafu-fiche na mifumo ya kifedha ya kimataifa unaweza kuwa finyu.
 
-Taarifa zaidi kuhusu muundo wa ZecFiat, masoko yanayoungwa mkono, upatikanaji, na mtindo wa uendeshaji unatarajiwa wakati mpango huo unapoendelea.
+Maelezo zaidi kuhusu muundo wa ZecFiat, masoko yanayoungwa mkono, upatikanaji, na muundo wa uendeshaji yanatarajiwa kadiri mpango unavyoendelea.
 
 ## Timu
 
-Obscura Labs was founded by Chidi Olisa, who also leads the Zcash Nigeria community and Gentle Fox is an infrastructure engineer and contributor at Obscura Labs, supporting the deployment, maintenance, and reliability of the organization's infrastructure and services.
+Obscura Labs ilianzishwa na Chidi Olisa, ambaye pia anaongoza jumuiya ya Zcash Nigeria, na Gentle Fox ni mhandisi wa miundombinu na mchangiaji katika Obscura Labs, akiunga mkono utekelezaji, matengenezo, na utegemevu wa miundombinu na huduma za shirika.
 
-The organization is currently in its early development stage. As it grows, Obscura Labs intends to establish a small team of part-time contributors with experience in areas including:
+Shirika kwa sasa liko katika hatua yake ya awali ya maendeleo. Linapokua, Obscura Labs inakusudia kuanzisha timu ndogo ya wachangiaji wa muda usio kamili wenye uzoefu katika maeneo yanayojumuisha:
 
-* Uendeshaji miundombinu.
-* Programu na maendeleo ya bidhaa.
+* Uendeshaji wa miundombinu.
+* Maendeleo ya programu na bidhaa.
 * Elimu.
 * Maendeleo ya jumuiya.
-* Biashara na malipo integrations.
-* Msaada wa mazingira.
+* Ujumuishaji wa biashara na malipo.
+* Usaidizi wa mfumo ikolojia.
 * Mawasiliano.
-* Utawala na shughuli za shirika.
+* Utawala [governance] na uendeshaji wa shirika.
 
-Obscura Labs is also engaging experienced professionals, industry experts, and Zcash ecosystem contributors who may provide strategic guidance or serve as advisors and board members.
+Obscura Labs pia inashirikisha wataalamu wenye uzoefu, wataalamu wa sekta, na wachangiaji wa mfumo ikolojia wa Zcash ambao wanaweza kutoa mwongozo wa kimkakati au kuhudumu kama washauri na wajumbe wa bodi.
 
 ## Muundo wa Shirika
 
 Obscura Labs ni shirika huru lililosajiliwa nchini Nigeria.
 
-Shirika hilo linatengenezwa kwa kuzingatia kuanzisha utawala, utaalam, na uwezo wa uendeshaji unaohitajika kusaidia ukuaji endelevu na michango ya muda mrefu kwa mfumo wa ikolojia wa Zcash.
+Shirika linaendelezwa kwa kuzingatia kuanzisha utawala, utaalamu, na uwezo wa kiutendaji unaohitajika kuunga mkono ukuaji endelevu na michango ya muda mrefu katika mfumo ikolojia wa Zcash.
 
-Muundo wake wa shirika iliyopangwa inaweza kujumuisha:
+Muundo wake wa shirika uliopangwa unaweza kujumuisha:
 
-* Mwanzilishi na uongozi mtendaji.
+* Mwanzilishi na uongozi wa kiutendaji.
 * Timu ndogo ya uendeshaji.
-* Sehemu ya muda wa kiufundi na jamii wachangiaji.
-* Bodi au sawa utawala mwili.
+* Wachangiaji wa kiufundi na wa jumuiya wa muda usio kamili.
+* Bodi au chombo sawia cha utawala.
 * Washauri huru.
-* Ushirikiano na mashirika ya mazingira na jamii za mitaa.
+* Ushirikiano na mashirika ya mfumo ikolojia na jumuiya za ndani.
 
-Habari za ziada kuhusu muundo wake wa utawala, hali ya kisheria, uanachama wa bodi, na sera za shirika zinaweza kuchapishwa wakati shirika linapoendelea.
+Maelezo ya ziada kuhusu muundo wake wa utawala, hadhi ya kisheria, uanachama wa bodi, na sera za shirika yanaweza kuchapishwa kadiri shirika linavyoendelea.
 
 ## Ufadhili
 
@@ -188,25 +188,25 @@ Wakati wa uzinduzi, Obscura Labs inatarajiwa kufadhiliwa hasa kupitia:
 
 * Michango.
 * Ushirikiano wa kimkakati.
-* Msaada wa kifedha.
-* Ecosystem-aligned fursa za ufadhili.
-* Msaada kwa ajili ya miundombinu maalum, bidhaa, au mipango ya jamii.
+* Ruzuku [grant].
+* Fursa za ufadhili zinazolingana na mfumo ikolojia.
+* Msaada kwa mipango mahususi ya miundombinu, bidhaa, au jumuiya.
 
-Ufadhili wa awali utatumiwa kusaidia shughuli za miundombinu, maendeleo ya bidhaa, mipango ya jamii, gharama za shirika, na kuajiri wachangiaji.
+Ufadhili wa awali utatumika kuunga mkono uendeshaji wa miundombinu, maendeleo ya bidhaa, mipango ya jumuiya, gharama za shirika, na uajiri wa wachangiaji.
 
-Baada ya muda, Obscura Labs ina nia ya kuendeleza endelevu fedha mfano kwamba inaruhusu ni mara kwa mara kutoa thamani kupimika kwa Zcash mazingira wakati kudumisha uhuru wake.
+Baada ya muda, Obscura Labs inakusudia kuendeleza muundo endelevu wa ufadhili unaoiruhusu kutoa thamani inayopimika kwa uthabiti kwa mfumo ikolojia wa Zcash huku ikidumisha uhuru wake.
 
-## Jukumu katika Zcash Ecosystem
+## Jukumu katika Mfumo Ikolojia wa Zcash
 
-Obscura Labs is part of a growing group of independent organizations contributing to Zcash through infrastructure, software development, education, community support, and adoption initiatives.
+Obscura Labs ni sehemu ya kundi linalokua la mashirika huru yanayochangia katika Zcash kupitia miundombinu, maendeleo ya programu, elimu, msaada wa jumuiya, na mipango ya utumiaji.
 
-Kazi yake inakusudia kuongeza utofauti wa kijiografia na shirika ndani ya mfumo wa ikolojia kwa kuanzisha miundombinu ya ziada ya Zcash na uwezo wa maendeleo barani Afrika.
+Kazi yake inalenga kuongeza utofauti wa kijiografia na wa mashirika ndani ya mfumo ikolojia kwa kuanzisha miundombinu ya ziada ya Zcash na uwezo wa maendeleo barani Afrika.
 
-Shughuli za shirika zinachangia malengo kadhaa ya jumla ya mazingira:
+Shughuli za shirika zinachangia malengo kadhaa mapana ya mfumo ikolojia:
 
-* Kuboresha usambazaji wa miundombinu ya Zcash.
-* Kuongeza upatikanaji wa huduma za Zcash katika mikoa isiyo na huduma.
-* Kusaidia maendeleo ya utaalamu wa kiufundi wa ndani.
-* Kupanua idadi ya washirika wa mazingira huru.
-* Kuboresha upatikanaji wa teknolojia ya kifedha ya kuhifadhi faragha.
-* Kusaidia ZEC utekelezaji wa vitendo na watumiaji na biashara.
+* Kuboresha ugatuzi wa miundombinu ya Zcash.
+* Kuongeza ufikiaji wa huduma za Zcash katika maeneo yasiyohudumiwa vya kutosha.
+* Kuunga mkono maendeleo ya utaalamu wa kiufundi wa ndani.
+* Kupanua idadi ya wachangiaji huru wa mfumo ikolojia.
+* Kuboresha ufikiaji wa teknolojia ya kifedha inayolinda faragha.
+* Kuunga mkono utumiaji wa vitendo wa ZEC na watumiaji pamoja na biashara.

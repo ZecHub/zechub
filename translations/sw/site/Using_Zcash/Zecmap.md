@@ -4,148 +4,148 @@
 
 # ZecMap
 
-ZecMap ni orodha ya kimataifa, jamii inayotokana na kugundua biashara na huduma ambazo zinakubali Zcash (ZEC). Ilijengwa karibu na interface ya ramani inayoingiliana, inasaidia wamiliki wa ZEC kujibu swali la vitendo: ** "Ninaweza kutumia wapi ZEC yangu?"**
+ZecMap ni orodha ya kimataifa inayoendeshwa na jumuiya kwa ajili ya kugundua biashara na huduma zinazokubali Zcash (ZEC). Ikiwa imejengwa kuzunguka kiolesura cha ramani shirikishi, inawasaidia wamiliki wa ZEC kujibu swali la vitendo: **“Ninaweza kutumia ZEC yangu wapi?”**
 
 Tovuti: [zecmap.com](https://zecmap.com/)
 
 ---
 
-## TL;DR
+## Kwa Ufupi
 
-- ZecMap ni ** bure, umma directory** ya wafanyabiashara ambao kukubali ZEC  biashara za ndani na maduka online.
-- Browse **mchoro mwingiliano** kupata wafanyabiashara ZEC-kirafiki karibu na wewe au mahali popote duniani.
-- **Kila mtu anaweza kuwasilisha** biashara; orodha hupitia ukaguzi wa jamii kabla ya kuonekana kwa umma.
-- A **Mchangiaji Tuzo Programu** inakuza kuongeza na kuthibitisha data ya mfanyabiashara.
-- ZecMap hivi karibuni kushirikiana na [CipherPay](https://x.com/ZecMap/status/2059622324958093616) kupanua ushirikiano wa muuzaji.
-
----
-
-## Kazi ya ZecMap
-
-ZecMap hupanga biashara zinazokubali Zcash kwenye ramani ya ulimwengu. Kila orodha inaonyesha jina la kampuni, jamii, eneo au wavuti, na jinsi ZEC inakubaliwa. Hii inafanya iwe rahisi kwa wamiliki wa ZEC:
-
-- Tafuta mkahawa, mgahawa, hoteli, duka au huduma iliyo karibu inayokubali ZEC kabla ya kusafiri.
-- Gundua maduka ya mtandaoni, watoa huduma za VPN, wafanyabiashara huru au huduma za dijiti ambazo zinasaidia malipo ya Zcash.
-- Tafuta eneo la Zcash kwa mji, nchi au njia ya kusafiri.
-- Kusaidia kuweka orodha ya sasa kama biashara mpya kuanza kukubali ZEC.
+- ZecMap ni **orodha ya bure, ya umma** ya wafanyabiashara wanaokubali ZEC — biashara za ndani na maduka ya mtandaoni.
+- Vinjari **ramani shirikishi** ili kupata wafanyabiashara wanaokubali ZEC karibu nawe au popote duniani.
+- **Mtu yeyote anaweza kuwasilisha** biashara; orodha hupitia ukaguzi wa jumuiya kabla ya kuonekana hadharani.
+- **Mpango wa Zawadi kwa Wachangiaji** unahamasisha kuongezwa na kuthibitishwa kwa data ya wafanyabiashara.
+- ZecMap hivi karibuni ilishirikiana na [CipherPay](https://x.com/ZecMap/status/2059622324958093616) ili kupanua miunganisho ya wafanyabiashara.
 
 ---
 
-## Matumizi ya kesi
+## Kile Ambacho ZecMap Hufanya
 
-### Kupata Wafanyabiashara wa Karibu na Mahali Ulipo
+ZecMap hupanga biashara zinazokubali Zcash kwenye ramani ya kimataifa. Kila orodha huonyesha jina la biashara, aina, eneo au tovuti, na jinsi ZEC inavyokubaliwa. Hii huwarahisishia wamiliki wa ZEC:
 
-Kufungua [zecmap.com](https://zecmap.com/) kabla ya kutembelea, kuthibitisha na biashara kwamba ZEC ni sasa kukubalika na kuuliza ambayo mkoba au malipo mkondo wao wanapendelea.
+- Kupata mkahawa mdogo, mgahawa, hoteli, duka, au huduma ya karibu inayokubali ZEC kabla ya kusafiri.
+- Kugundua maduka ya mtandaoni, watoa huduma wa VPN, wafanyakazi huru, au huduma za kidijitali zinazotumia malipo [payments] ya Zcash.
+- Kuvinjari matumizi ya Zcash katika maeneo mbalimbali kwa jiji, nchi, au njia ya usafiri.
+- Kusaidia kudumisha orodha iwe ya kisasa biashara mpya zinapoanza kukubali ZEC.
 
-### Kupata Maduka na Huduma za Intaneti
+---
 
-ZecMap ina orodha ya biashara za mtandaoni pia. Vinjari kwa makundi ili kupata maduka e-commerce, huduma hosting, watoa VPN na wafanyabiashara wengine digital kwamba kukubali ZEC malipo.
+## Matumizi [Use Cases]
 
-### Kupanga Safari Zote za ZEC
+### Kupata Wafanyabiashara wa Ndani
 
-Kusafiri kwa mji mpya au nchi? ZecMap utapata browse mfuko wa biashara kabla ya kufika, hivyo unaweza kupanga vituo katika ZEC-kirafiki migahawa, maduka na huduma.
+Fungua [zecmap.com](https://zecmap.com/) na utafute ramani ili kupata wafanyabiashara walio karibu nawe. Kabla ya kutembelea, thibitisha na biashara kwamba ZEC inakubaliwa kwa sasa na uulize ni pochi [wallet] gani au mtiririko gani wa malipo wanaopendelea.
 
-### Kusaidia Watumiaji Wapya wa Zcash
+### Kugundua Maduka na Huduma za Mtandaoni
 
-Watumiaji wapya mara nyingi kujifunza jinsi ya kununua na kuhifadhi ZEC kabla wanagundua ambapo kutumia. ZecMap hutoa kuwa hatua inayofuata  vitendo, browsable orodha ya ulimwengu wa kweli ZEC huduma.
+ZecMap huorodhesha biashara za mtandaoni pia. Vinjari kwa aina ili kupata maduka ya biashara ya kielektroniki, huduma za upangishaji, watoa huduma wa VPN, na wafanyabiashara wengine wa kidijitali wanaokubali malipo ya ZEC.
+
+### Kupanga Safari Kwa Kuzingatia ZEC
+
+Je, unasafiri kwenda jiji au nchi mpya? ZecMap hukuruhusu kuvinjari upatikanaji wa wafanyabiashara kabla ya kuwasili, ili uweze kupanga vituo katika migahawa, maduka, na huduma zinazokubali ZEC.
+
+### Kuwasaidia Watumiaji Wapya wa Zcash
+
+Watumiaji wapya mara nyingi hujifunza jinsi ya kununua na kuhifadhi ZEC kabla ya kugundua mahali pa kuitumia. ZecMap hutoa hatua hiyo inayofuata — orodha ya vitendo inayoweza kuvinjariwa ya matumizi halisi ya ZEC.
 
 ---
 
 ## Kuongeza Biashara
 
-Kama biashara inakubali ZEC na bado si juu ya ZecMap, yoyote jamii mwanachama anaweza kuwasilisha. uwasilishaji mzuri ni pamoja:
+Ikiwa biashara inakubali ZEC na bado haipo kwenye ZecMap, mwanajumuiya yeyote anaweza kuiwasilisha. Uwasilishaji mzuri unajumuisha:
 
-| Field | Nini cha kutoa |
+| Sehemu | Kile cha kutoa |
 |-------|----------------|
 | Business name | Jina rasmi kama linavyoonekana hadharani |
-| Website or contact | URL au wasifu wa kijamii |
-| Location | Anwani ya biashara halisi; eneo la mtandaoni |
-| Category | Kafe, mgahawa, duka, huduma, duka la mtandaoni, n.k. |
-| Evidence | Ukurasa wa malipo ya umma, tangazo la mfanyabiashara, au uthibitisho wa moja kwa moja |
-| Payment notes | Ana kwa ana, mtandaoni, au vyote viwili; ZEC iliyo wazi au iliyolindwa |
+| Website or contact | URL au wasifu wa mitandao ya kijamii |
+| Location | Anwani kwa biashara za kimwili; eneo kwa biashara za mtandaoni |
+| Category | Mkahawa mdogo, mgahawa, duka, huduma, duka la mtandaoni, n.k. |
+| Evidence | Ukurasa wa umma wa malipo, tangazo la mfanyabiashara, au uthibitisho wa moja kwa moja |
+| Payment notes | Ana kwa ana, mtandaoni, au zote; ya uwazi [transparent] au ya faragha [shielded] ZEC |
 
-Mawasilisho wanapaswa kuepuka data binafsi ya wateja. Kama kutumia uthibitisho wa shughuli, kuondoa maelezo ya kibinafsi, namba ili na anwani za nyumbani kabla ya kushirikiana.
-
----
-
-## Ukaguzi na idhini
-
-Orodha hupitia mchakato wa ukaguzi kabla ya kuonekana kwa umma:
-
-1. Mchangiaji huwasilisha biashara na habari ya kutosha kwa umma kuthibitisha.
-2. Orodha hiyo inachunguzwa kwa ajili ya kurudia-rudia na usahihi wa msingi.
-3. ZEC kukubalika ni alithibitisha kupitia chanzo cha umma au mfanyabiashara mawasiliano.
-4. Orodha zilizokubaliwa zinaonekana kwenye ramani.
-5. Wanachama wa jumuiya wanaweza alama ya zamani au sahihi orodha hivyo directory anakaa sasa.
-
-Kwa sababu chaguzi za malipo ya mfanyabiashara zinaweza kubadilika, chukua orodha kama habari inayotunzwa na jamii, sio dhamana. Thibitisha kwa muuzaji kabla ya safari au ununuzi mkubwa.
+Uwasilishaji unapaswa kuepuka data binafsi za wateja. Ikiwa unatumia thibitisho la muamala [transaction proof], ondoa maelezo binafsi, nambari za oda, na anwani za makazi kabla ya kushiriki.
 
 ---
 
-## Mchangiaji Tuzo Programu ya
+## Uthibitishaji na Uidhinishaji
 
-ZecMap inawatuza wachangiaji ambao husaidia kukua na kudumisha orodha. Tuzo zimeundwa ili kuhamasisha:
+Orodha hupitia mchakato wa ukaguzi kabla ya kuonekana hadharani:
 
-- ** orodha mpya**  kuongeza biashara ambazo kukubali ZEC na si bado kwenye ramani.
-- **Uthibitisho**  kuthibitisha kwamba orodha zilizopo bado ni hai na sahihi.
-- **Maintenance**  updating outdated habari au flagging kufungwa biashara.
-- **Upanuzi wa chanjo**  kuongeza wafanyabiashara katika miji underrepresented, mikoa au makundi online.
+1. Mchangiaji huwasilisha biashara yenye taarifa za umma zinazotosha kuthibitisha.
+2. Orodha hukaguliwa ili kubaini nakala na usahihi wa msingi.
+3. Kukubaliwa kwa ZEC huthibitishwa kupitia chanzo cha umma au mawasiliano na mfanyabiashara.
+4. Orodha zilizoidhinishwa huonekana kwenye ramani.
+5. Wanajumuiya wanaweza kuripoti orodha zilizopitwa na wakati au zisizo sahihi ili orodha ibaki ya kisasa.
 
-Kwa sheria za sasa tuzo na jinsi ya kudai, tembelea tovuti hii: WEB [zecmap.com](https://zecmap.com/) au angalia matangazo ya ZecMap katika njia za jamii Zcash.
-
----
-
-## Sifa Muhimu za Mfano wa Yesu
-
-- ** Interactive dunia ramani**  kuvinjari au kutafuta wafanyabiashara kwa eneo.
-- ** orodha ya biashara**  wafanyabiashara ndani na online pamoja na maelezo malipo.
-- ** Akaunti za watumiaji**  kuwasilisha orodha, kufuatilia michango, na kujenga wasifu wa wachangiaji.
-- **Kipimo cha Jumuiya**  orodha zinachunguzwa kabla ya kuanza.
-- ** Vyombo vya kuripoti**  bendera entries outdated au sahihi kuweka ramani ya usahihi.
+Kwa sababu chaguo za malipo za wafanyabiashara zinaweza kubadilika, zichukulie orodha kama taarifa zinazodumishwa na jumuiya, wala si dhamana. Thibitisha na mfanyabiashara kabla ya safari au ununuzi mkubwa.
 
 ---
 
-## Ushirikiano wa Mifumo ya Ikolojia
+## Mpango wa Zawadi kwa Wachangiaji
 
-ZecMap accepts merchants that accept Zcash payments via **Flexa**, a payment network used by a growing number of retail locations. This expands the number of real-world merchants listed on the map beyond those that accept Zcash natively.
+ZecMap huwazawadia wachangiaji wanaosaidia kukuza na kudumisha orodha. Zawadi zimeundwa kuhamasisha:
 
-ZecMap pia imetangaza ushirikiano na [CipherPay](https://cipherpay.app) kuimarisha ushirikiano wa miundombinu ya malipo kwa ajili ya wafanyabiashara katika orodha.
+- **Orodha mpya** — kuongeza biashara zinazokubali ZEC na ambazo bado hazipo kwenye ramani.
+- **Uthibitishaji** — kuthibitisha kwamba orodha zilizopo bado zinafanya kazi na ni sahihi.
+- **Matengenezo** — kusasisha taarifa zilizopitwa na wakati au kuripoti biashara zilizofungwa.
+- **Upanuzi wa ufunikaji** — kuongeza wafanyabiashara katika majiji, maeneo, au aina za mtandaoni zisizowakilishwa vya kutosha.
+
+Kwa sheria za sasa za zawadi na jinsi ya kudai, tembelea [zecmap.com](https://zecmap.com/) au angalia matangazo ya ZecMap katika njia za jumuiya za Zcash.
+
+---
+
+## Vipengele Muhimu
+
+- **Ramani shirikishi ya kimataifa** — vinjari au tafuta wafanyabiashara kwa eneo.
+- **Orodha za biashara** — wafanyabiashara wa ndani na wa mtandaoni wenye maelezo ya malipo.
+- **Akaunti za watumiaji** — wasilisha orodha, fuatilia michango, na ujenge wasifu wa mchangiaji.
+- **Ukaguzi wa jumuiya** — orodha hukaguliwa kabla ya kuchapishwa.
+- **Vifaa vya kuripoti** — ripoti maingizo yaliyopitwa na wakati au yasiyo sahihi ili ramani ibaki sahihi.
+
+---
+
+## Miunganisho ya Mfumo wa Ikolojia
+
+ZecMap hukubali wafanyabiashara wanaokubali malipo ya Zcash kupitia **Flexa**, mtandao wa malipo unaotumiwa na idadi inayoongezeka ya maeneo ya rejareja. Hii huongeza idadi ya wafanyabiashara wa ulimwengu halisi walioorodheshwa kwenye ramani zaidi ya wale wanaokubali Zcash moja kwa moja.
+
+ZecMap pia imetangaza ushirikiano na [CipherPay](https://cipherpay.app) ili kuimarisha miunganisho ya miundombinu ya malipo kwa wafanyabiashara walio katika orodha.
 
 ---
 
 ## Maendeleo ya Baadaye
 
-Maboresho yaliyopangwa ni pamoja na:
+Maboresho yaliyopangwa yanajumuisha:
 
 - Programu za simu kwa Android na iOS.
-- Msaada wa lugha nyingi kwa jamii za Zcash.
-- Malipo ya ushirikiano zana na kuanzisha viongozi kwa wafanyabiashara.
-- Cheo cha wachangiaji na sifa za sifa.
-- Makundi kupanuliwa kwa ajili ya huduma za mtandaoni na biashara jamii kuthibitishwa.
-- Vifaa bora kwa ajili ya kuripoti orodha zisizo na kazi na kuthibitisha kuishi ZEC kukubalika.
+- Usaidizi wa lugha nyingi kwa jumuiya za ndani za Zcash.
+- Vifaa vya kuunganisha malipo na miongozo ya usanidi kwa wafanyabiashara.
+- Viwango vya wachangiaji na vipengele vya sifa.
+- Aina zilizopanuliwa za huduma za mtandaoni na biashara zilizothibitishwa na jumuiya.
+- Vifaa bora vya kuripoti orodha zisizotumika na kuthibitisha kukubaliwa kwa ZEC kwa sasa.
 
 ---
 
 ## Vidokezo vya Kutumia ZecMap
 
-- **Kuthibitisha kabla ya kwenda.** Daima kuthibitisha na mfanyabiashara kwamba ZEC ni kukubaliwa kwa sasa.
-- ** Angalia aina ya malipo.** Baadhi biashara kukubali ZEC uwazi, wengine wanapendelea kulindwa. Kuuliza kabla ya kulipa.
-- **Saidia jamii.** Kama unapata orodha ambayo ni ya zamani au sahihi, ripoti hivyo ili wengine si kupotoshwa.
-- ** Ongeza kile unajua.** Kama biashara ya ndani inakubali ZEC na si waliotajwa, kuwasilisha  maarifa yako ya mitaa ni thamani.
+- **Thibitisha kabla ya kwenda.** Daima thibitisha na mfanyabiashara kwamba ZEC inakubaliwa kwa sasa.
+- **Angalia aina ya malipo.** Baadhi ya biashara hukubali ZEC ya uwazi, nyingine hupendelea ya faragha. Uliza kabla ya kulipa.
+- **Saidia jumuiya.** Ukipata orodha iliyopitwa na wakati au isiyo sahihi, iripoti ili wengine wasipotoshwe.
+- **Ongeza unachojua.** Ikiwa biashara ya ndani inakubali ZEC na haijaorodheshwa, iwasilishe — maarifa yako ya eneo ni yenye thamani.
 
 ---
 
 ## Kurasa Zinazohusiana
 
-- [Tumia ZEC](/using-zcash/spend-zcash/top-10-places-to-spend-zec)  Njia nyingine za kutumia ZEC katika ulimwengu halisi
-- [Usindikaji wa Malipo](/using-zcash/payment-processors)  Vifaa kwa wafanyabiashara kukubali ZEC
-- [Kutumia ZEC binafsi](/guides/using-zec-privately)  Mazoea bora kwa ajili ya malipo shielded
-- [Mkoba](/using-zcash/wallets)  Wallets sambamba na ZEC malipo ya mfanyabiashara
-- [Mabadilishano yasiyo ya Ulinzi wa Kifungo](/using-zcash/non-custodial-exchanges)  Kupata ZEC kutumia
+- [Tumia ZEC](/using-zcash/spend-zcash/top-10-places-to-spend-zec) — Njia nyingine za kutumia ZEC katika ulimwengu halisi
+- [Wasindikaji wa Malipo](/using-zcash/payment-processors) — Vifaa kwa wafanyabiashara kukubali ZEC
+- [Kutumia ZEC kwa Faragha](/guides/using-zec-privately) — Mbinu bora za malipo ya faragha
+- [Pochi](/using-zcash/wallets) — Pochi zinazooana na malipo ya mfanyabiashara ya ZEC
+- [Masoko ya Kubadilishana Sarafu Yasiyohifadhiwa na Mtu Mwingine](/using-zcash/non-custodial-exchanges) — Pata ZEC ya kutumia
 
 ## Rasilimali
 
 - [ZecMap](https://zecmap.com/)
 - [ZecMap kwenye X/Twitter](https://x.com/ZecMap)
-- [ZecMap × CipherPay ushirikiano tangazo](https://x.com/ZecMap/status/2059622324958093616)
-- [Tangazo la kuingizwa kwa muuzaji wa ZecMap Flexa](https://x.com/ZecMap/status/2060453501063594002)
+- [ZecMap × tangazo la ushirikiano wa CipherPay](https://x.com/ZecMap/status/2059622324958093616)
+- [ZecMap tangazo la kujumuishwa kwa mfanyabiashara wa Flexa](https://x.com/ZecMap/status/2060453501063594002)

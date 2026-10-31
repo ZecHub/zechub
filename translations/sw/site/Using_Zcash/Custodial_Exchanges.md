@@ -2,9 +2,9 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# <img src="/content-images/image-2024-02-03-173258092-a5440e5ee2.webp" alt="Alt Text" width="50"/>   Custodial Exchanges
+# <img src="/content-images/image-2024-02-03-173258092-a5440e5ee2.webp" alt="Alt Text" width="50"/>   Masoko ya kubadilishana sarafu yanayohifadhiwa na mtu mwingine [Custodial Exchanges]
 
-Ironwood ni bwawa lililolindwa lililofika na uboreshaji wa mtandao wa Julai 2026. Mabadilishano yanayoshughulikia anwani za t zenye uwazi pekee hayagusi kamwe, kwa hivyo hizo zimetiwa alama kuwa hazitumiki. Pale ambapo ubadilishaji unashughulikia anwani zilizolindwa lakini haujasema ni bwawa gani linalotumia, mstari unasema hivyo badala ya kukisia.
+Ironwood ni bwawa la faragha [shielded pool] lililowasili pamoja na uboreshaji wa mtandao [network upgrade] wa Julai 2026. Masoko ya kubadilishana sarafu yanayoshughulikia tu anwani za uwazi [transparent] za t hayahusiani nalo kamwe, kwa hivyo yanawekwa alama kuwa hayatumiki. Ambapo soko la kubadilishana sarafu linashughulikia anwani za faragha lakini halijasema linatumia bwawa gani, mstari unaeleza hivyo badala ya kubashiri.
 
 ---
 
@@ -16,9 +16,9 @@ Ironwood ni bwawa lililolindwa lililofika na uboreshaji wa mtandao wa Julai 2026
 
 - Tovuti: [Backpack](https://backpack.exchange)
 - Jozi: ZEC/USDC | ZEC-PERP
-- Usaidizi: Amana na utoaji pesa umewezeshwa. Aina za anwani hazijatajwa
-- Muda wa Kuweka Amana: Haijatajwa
-- Ironwood: Haijatajwa
+- Inaauni: Kuweka amana na kutoa kumewezeshwa. Aina za anwani hazijabainishwa
+- Muda wa kuweka amana: Haujaainishwa
+- Ironwood: Haijabainishwa
 ___
 
 ### [Binance](https://binance.com)
@@ -28,10 +28,10 @@ ___
 </a>
 
 - Tovuti: [Binance](https://binance.com)
-- Jozi: ALL/ZEC
-- Inasaidia: Uwazi (Amana ya Anwani ya TEX)
-- Muda wa Kuweka Amana: Dakika 20
-- Ironwood: Haitumiki, anwani zinazoonekana wazi pekee
+- Jozi: ZOTE/ZEC
+- Inaauni: Ya uwazi (Kuweka amana kwa anwani ya TEX)
+- Muda wa kuweka amana: Dakika 20
+- Ironwood: Haitumiki, anwani za uwazi pekee
 ___
 
 ### [BitcoinVN](https://bitcoinvn.io)
@@ -42,9 +42,9 @@ ___
 
 - Tovuti: [BitcoinVN](https://bitcoinvn.io)
 - Jozi: BTC/ZEC, ETH/ZEC, USDT/ZEC, XMR/ZEC, LTC/ZEC, DASH/ZEC
-- Inasaidia: Uwazi | Iliyolindwa (z-anwani Amana na Kutoa)
-- Muda wa Kuweka Pesa: Papo hapo (kubadilishana bila dhamana)
-- Ironwood: Haijatajwa
+- Inaauni: Ya uwazi | Ya faragha (Kuweka amana na kutoa kupitia z-address)
+- Muda wa kuweka amana: Mara moja (kubadilisha kusikohifadhiwa na mtu mwingine)
+- Ironwood: Haijabainishwa
 ___
 
 ### [Bitfinex](https://bitfinex.com)
@@ -54,10 +54,10 @@ ___
 </a>
 
 - Tovuti: [Bitfinex](https://bitfinex.com)
-- Jozi: ALL/ZEC
-- Inasaidia: Uwazi
-- Muda wa Kuweka Amana: Dakika 25 
-- Ironwood: Haitumiki, anwani zinazoonekana wazi pekee
+- Jozi: ZOTE/ZEC
+- Inaauni: Ya uwazi
+- Muda wa kuweka amana: Dakika 25 
+- Ironwood: Haitumiki, anwani za uwazi pekee
 ___
 
 ### [Coinbase](https://coinbase.com)
@@ -67,10 +67,10 @@ ___
 </a>
 
 - Tovuti: [Coinbase](https://coinbase.com)
-- Jozi: ALL/ZEC
-- Inasaidia: Uwazi
-- Muda wa Kuweka Amana: Dakika 150
-- Ironwood: Haitumiki, anwani zinazoonekana wazi pekee
+- Jozi: ZOTE/ZEC
+- Inaauni: Ya uwazi
+- Muda wa kuweka amana: Dakika 150
+- Ironwood: Haitumiki, anwani za uwazi pekee
 ___
 
  ### [Gemini](https://gemini.com)
@@ -80,10 +80,10 @@ ___
 </a>
 
 - Tovuti: [Gemini](https://gemini.com)
-- Jozi: ALL/ZEC
-- Inasaidia: Uwazi | Uondoaji wa pamoja na uliolindwa, Orchard tangu Novemba 2025
-- Muda wa Kuweka Amana: Dakika 50 
-- Ironwood: Utoaji wa pesa uliolindwa unaungwa mkono, bwawa halijatajwa
+- Jozi: ZOTE/ZEC
+- Inaauni: Ya uwazi | Kutoa kwa anwani za faragha na anwani zilizounganishwa, Orchard tangu Novemba 2025
+- Muda wa kuweka amana: Dakika 50 
+- Ironwood: Kutoa kwa anwani za faragha kunaungwa mkono, bwawa halijabainishwa
 ___
 
 ### [Huobi](https://huobi.com)
@@ -93,10 +93,10 @@ ___
 </a>
 
 - Tovuti: [Huobi](https://huobi.com)
-- Jozi: ALL/ZEC
-- Inasaidia: Uwazi
-- Muda wa Kuweka Amana: Dakika 35 
-- Ironwood: Haitumiki, anwani zinazoonekana wazi pekee
+- Jozi: ZOTE/ZEC
+- Inaauni: Ya uwazi
+- Muda wa kuweka amana: Dakika 35 
+- Ironwood: Haitumiki, anwani za uwazi pekee
 ___
 
 ### [Kraken](https://kraken.com)
@@ -106,10 +106,10 @@ ___
 </a>
 
 - Tovuti: [Kraken](https://kraken.com)
-- Jozi: ALL/ZEC
-- Inasaidia: Uwazi
-- Muda wa Kuweka Amana: Dakika 60
-- Ironwood: Haitumiki, anwani zinazoonekana wazi pekee
+- Jozi: ZOTE/ZEC
+- Inaauni: Ya uwazi
+- Muda wa kuweka amana: Dakika 60
+- Ironwood: Haitumiki, anwani za uwazi pekee
 ___
 
 ### [KuCoin](https://kucoin.com)
@@ -119,10 +119,10 @@ ___
 </a>
 
 - Tovuti: [KuCoin](https://kucoin.com)
-- Jozi: ALL/ZEC
-- Inasaidia: Uwazi
-- Muda wa Kuweka Amana: Dakika 20 
-- Ironwood: Haitumiki, anwani zinazoonekana wazi pekee
+- Jozi: ZOTE/ZEC
+- Inaauni: Ya uwazi
+- Muda wa kuweka amana: Dakika 20 
+- Ironwood: Haitumiki, anwani za uwazi pekee
 ___
 
 ## [OKX (zamani OKEx)](https://www.okx.com)
@@ -132,10 +132,10 @@ ___
 </a>
 
 - Tovuti: [OKX](https://www.okx.com)
-- Jozi: ALL/ZEC
-- Inasaidia: Uwazi
-- Muda wa Kuweka Amana: Dakika 25 
-- Ironwood: Haitumiki, anwani zinazoonekana wazi pekee
+- Jozi: ZOTE/ZEC
+- Inaauni: Ya uwazi
+- Muda wa kuweka amana: Dakika 25 
+- Ironwood: Haitumiki, anwani za uwazi pekee
 ___
 
 ### [Robinhood](https://robinhood.com)
@@ -146,7 +146,7 @@ ___
 
 - Tovuti: [Robinhood](https://robinhood.com)
 - Jozi: USD/ZEC | EUR/ZEC
-- Inasaidia: Kutoa pesa kwa anwani za t zenye uwazi pekee. Amana za ZEC hazitumiki
-- Muda wa Kuweka Amana: Amana hazitumiki
-- Ironwood: Haitumiki, anwani zinazoonekana wazi pekee
+- Inaauni: Kutoa kwa anwani za uwazi za t pekee. Kuweka amana za ZEC hakuungwi mkono
+- Muda wa kuweka amana: Kuweka amana hakuungwi mkono
+- Ironwood: Haitumiki, anwani za uwazi pekee
 ___

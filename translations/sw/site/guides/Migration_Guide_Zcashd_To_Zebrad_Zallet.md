@@ -1,126 +1,126 @@
-# Mwongozo wa Uhamiaji: Kutoka zcashd kwa Zebrad/Zallet
+# Mwongozo wa Uhamishaji: Kutoka zcashd hadi Zebrad/Zallet
 
-zcashd ya jadi full node, kudumishwa na *Electric Coin Company (ECC) * / *Zodl*, imebadilishwa kwa Zebra na Zallet. zcashd ilifikia mwisho wa msaada wake kusimamisha tarehe 18 Julai 2026 na haitaendelea tena kuendesha.
+full node ya jadi ya zcashd, inayodumishwa na *Electric Coin Company (ECC)* / *Zodl*, imebadilishwa na Zebra na Zallet. zcashd ilifikia kusitishwa kwa usaidizi wake tarehe 18 Julai 2026 na haiendeshi tena.
 
-- Zebra is a modern Rust implementation of the Zcash protocol developed by the Zcash Foundation
-- Zallet ni mkoba nyepesi kujengwa interface seamlessly na Zebra nodes zilizotengenezwa na Zodl
+- Zebra ni utekelezaji wa kisasa wa Rust wa itifaki ya Zcash uliotengenezwa na Zcash Foundation
+- Zallet ni pochi nyepesi iliyoundwa kuwasiliana kwa urahisi na node za Zebra zilizotengenezwa na Zodl
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
 ![Diagram: zcashd splitting into zebrad for node duties and Zallet for wallet duties](/content-images/SJNBsSYTel-dfd19f34e4.webp)
 </div>
 
-Mwongozo huu kutembea wewe kupitia uhamiaji kutoka ** zcashd** kwa ** Zebrad ** na ** Zallet, ikiwa ni pamoja na kuanzisha, mkoba wa kuagiza, na matatizo ya kawaida migomo masuala.
+Mwongozo huu unakuongoza katika uhamishaji kutoka **zcashd** hadi **Zebrad** na **Zallet**, ikijumuisha usanidi, uingizaji wa pochi, na utatuzi wa matatizo ya kawaida ya uhamishaji.
 
 ---
 
-## zcashd aliacha kuendesha tarehe 18 Julai 2026
+## zcashd ilisimama kuendesha tarehe 18 Julai 2026
 
-** Hii inamaanisha nini**
+**Maana yake**
 
-- zcashd alifikia mwisho wa msaada wake kusimamishwa tarehe 18 Julai 2026. Itakuwa si kulandanisha kwa ncha ya mnyororo tena, na haiwezi kutuma au kupokea fedha. Hii ni kumaliza, haipangwa.
-- zcashd's two jobs are now split: **zebrad** is the full node, and **Zallet** is the wallet.
-- Zallet ni katika ** beta**. kuvunja mabadiliko yanaweza kutokea kati ya releases, na baadhi zcashd JSON-RPC mbinu si kutumika bado. Angalia hali halisi ya data yako kwa ajili ya kuboresha uwezo wa kufuta au kurekebisha faili za programu nyingine yoyote ambayo inaweza kuwa inapatikana kwenye tovuti yetu. [hali ya njia matrix](https://zcash.github.io/zallet/) kabla ya kutegemea wito maalum.
-- Kama bado kushikilia ** Sprout *** fedha, kusoma onyo katika hatua ya 6 kwanza. Zallet haina msaada wa shina pool, na njia ya kawaida kwa hoja hizo fedha zinahitajika mbio zcashd.
+- zcashd ilifikia kusitishwa kwa usaidizi wake tarehe 18 Julai 2026. Haitasawazisha tena hadi ncha ya mnyororo [chain], na haiwezi kutuma au kupokea fedha. Hili limekamilika, si jambo lililopangwa.
+- Majukumu mawili ya zcashd sasa yamegawanywa: **zebrad** ndiyo full node, na **Zallet** ndiyo pochi [wallet].
+- Zallet iko katika **beta**. Mabadiliko yanayovunja utangamanifu yanaweza kutokea kati ya matoleo, na baadhi ya mbinu za JSON-RPC za zcashd bado hazijatekelezwa. Angalia matriki ya hali ya mbinu za [method status matrix](https://zcash.github.io/zallet/) kabla ya kutegemea mwito mahususi.
+- Ikiwa bado unashikilia fedha za **Sprout**, soma onyo katika hatua ya 6 kwanza. Zallet haitumii bwawa [pool] la Sprout, na njia ya kawaida ya kuhamisha fedha hizo ilihitaji zcashd iendelee kuendeshwa.
 
-Kwa Nini Wahame - Zaidi ya Kukataliwa?
+**Kwa Nini Uhamie - Zaidi ya Kuondolewa kwa Usaidizi**
 
-Hata tukiacha mbali hali ya kupoteza umaana, kuna sababu zenye kusadikisha za kuhama:
-- Usalama na Uimara: Rust ya kumbukumbu-usalama na zana za kisasa kupunguza hatari ya udhaifu.
-- Utendaji & ufanisi: Zebrad ni iliyoundwa kwa ajili ya sambamba, matumizi bora zaidi rasilimali na kasi sync.
-- Modular usanifu: Kutenganisha node mantiki (Zebrad) kutoka mkoba UI (Zallet) inatoa mipaka wazi na njia bora ya kuboresha.
-- Future Ecosystem Compatibility: Tools, enhancements, and the rest of Zcash's ecosystem will increasingly target Zebrad/Zallet.
-- Amani ya akili: Epuka kuwa amefungwa kuendesha sehemu deprecated, unsupported.
+Hata ukiacha suala la kuondolewa kwa usaidizi, kuna sababu za msingi za kuhama:
+- Usalama na Uimara: Usalama wa kumbukumbu wa Rust na vifaa vya kisasa hupunguza hatari za udhaifu.
+- Utendaji na Ufanisi: Zebrad imeundwa kwa uendeshaji sambamba, matumizi bora zaidi ya rasilimali, na usawazishaji wa haraka.
+- Usanifu wa Moduli: Kutenganisha mantiki ya node (Zebrad) na kiolesura cha pochi (Zallet) hutoa mipaka iliyo wazi zaidi na njia bora za uboreshaji.
+- Ulinganifu na Mfumo wa Ikolojia wa Baadaye: Vifaa [tools], maboresho, na sehemu nyingine za mfumo wa ikolojia wa Zcash zitalenga zaidi Zebrad/Zallet.
+- Utulivu wa Akili: Epuka kukwama ukiendesha sehemu iliyoondolewa kwa usaidizi na isiyoungwa mkono.
 
-### Sasa hebu kupiga mbizi katika mwongozo Uhamiaji
+### Sasa tuingie katika mwongozo wa uhamishaji
 
-** 1. Backup Kila kitu**
-* Backup yako wallet.dat (au nyingine yoyote ya mkoba faili / muhimu kuhifadhi) kutoka node zcashd wako.
+**1. Hifadhi Nakala ya Kila Kitu**
+* Hifadhi nakala ya wallet.dat yako (au faili nyingine yoyote ya pochi / hifadhi ya funguo) kutoka node yako ya zcashd.
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
 ![bash (1)](/content-images/SJ_0mUtTxg-1441185a72.svg)
 </div>
 
-* Hifadhi zcash.conf yako na yoyote ya mipangilio desturi .
-* Export nakala ya yoyote RPC scripts au automatisering matumizi.
-* Hakikisha kwamba backups yako ni halali (kwa mfano katika mazingira mengine, kujaribu kufungua au kukagua yao).
-* Mapitio ambayo JSON-RPC mbinu wewe ni sasa kutegemea.
-* Linganisha na meza ya utangamano iliyopangwa iliyohifadhiwa kwenye tovuti. [Zcash msaada tovuti](https://z.cash/support/zcashd-deprecation/) 
-* Jitayarishe kwa ajili ya mabadiliko au kukosa mbinu (baadhi inaweza kuhitaji workaround au marekebisho).
+* Hifadhi zcash.conf yako na mipangilio yoyote maalum.
+* Hamisha nakala ya skripti zozote za RPC au otomatiki unazotumia.
+* Thibitisha kuwa nakala zako zinafaa (kwa mfano, katika mazingira mengine, jaribu kuzifungua au kuzichunguza).
+* Kagua mbinu za JSON-RPC unazotegemea kwa sasa.
+* Linganisha na jedwali la utangamanifu lililopangwa linalodumishwa kwenye tovuti ya usaidizi ya [Zcash](https://z.cash/support/zcashd-deprecation/) 
+* Jiandae kwa mabadiliko au mbinu zinazokosekana (baadhi zinaweza kuhitaji njia mbadala au marekebisho).
 
-**2. Mahitaji ya mfumo & Disk Space**
-* Nafasi ya diski ni mahitaji watu underestimate. mlolongo Zcash kupita ** 270 GB** Agosti 2026, hivyo kuruhusu angalau ** 300 GB** nafasi bure, juu SSD kama unaweza.
-* Kuhakikisha mashine yako ina imara mtandao, CPU, RAM.
-* Kiunganisho cha mtandao 
-* Kama mpango wa kukusanya kutoka chanzo, kuwa Rust & Cargo imewekwa.
+**2. Mahitaji ya Mfumo na Nafasi ya Diski**
+* Nafasi ya diski ni hitaji ambalo watu hulidharau. Mnyororo wa Zcash ulipita **270 GB** mwezi Agosti 2026, kwa hiyo ruhusu angalau **300 GB** ya nafasi huru, kwenye SSD ikiwezekana.
+* Hakikisha mashine yako ina mtandao thabiti, CPU, na RAM.
+* Muunganisho wa intaneti 
+* Ikiwa unapanga kukusanya kutoka chanzo, sakinisha Rust na Cargo.
 
-** 3. Kufunga / Config Zebrad**
-Unaweza ama kushusha awali kujengwa binary au kujenga kutoka chanzo.
-* Zcash Foundation kuchapisha releases na binaries kwa Zebra. Kwa mfano unaweza kutumia script kufunga au download binary sahihi kwa OS yako.
+**3. Sakinisha / Sanidi Zebrad**
+Unaweza kupakua binary iliyojengwa mapema au kujenga kutoka chanzo.
+* Zcash Foundation huchapisha matoleo na binary za Zebra. Kwa mfano, unaweza kutumia skripti ya usakinishaji au kupakua binary inayofaa kwa mfumo wako wa uendeshaji.
 
-* Kumbuka kwamba katika matoleo ya hivi karibuni Zebra, [mwisho RPC ni tena kuwezeshwa kwa default katika Docker.](https://zfnd.org/zebra-2-3-0-release/)
+* Kumbuka kwamba katika matoleo ya hivi karibuni ya Zebra, [kituo cha RPC hakiwezeshwi tena kwa chaguomsingi katika Docker.](https://zfnd.org/zebra-2-3-0-release/)
 
-** Chaguo A: Kufunga kupitia prebuilt binary** 
-On ** Linux**/** macOS**:
+**Chaguo A: Sakinisha kupitia binary iliyojengwa mapema**  
+Kwenye **Linux**/**macOS**:
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
 ![bash (2)](/content-images/HJhYu8Y6el-d2198f22c9.svg)
 </div>
 
-This installs the latest stable version of zebrad.
+Hii husakinisha toleo thabiti la hivi karibuni la zebrad.
 
-** Chaguo B: Kujenga kutoka chanzo**
+**Chaguo B: Jenga kutoka chanzo**
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
 ![bash (3)](/content-images/Syg8FUK6eg-b4557e52e0.svg)
 </div>
 
-Baada ya kujenga, hoja binary katika njia yako:
+Baada ya kujenga, hamisha binary kwenye njia yako:
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
 ![migration 11](/content-images/BJ0zjLY6ll-f77354d701.webp)
 </div>
 
-** 4. Configuration & Uzinduzi** 
-Kuzalisha default config:
+**4. Usanidi na Uzinduzi**  
+Tengeneza usanidi chaguomsingi:
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
 ![migration2](/content-images/HJV1C8tTxx-5823395651.webp)
 </div>
 
-Hariri **zebrad.toml** kwa mapendeleo yako (kusikiliza anwani, bandari, hali directory, caching).
+Hariri **zebrad.toml** kulingana na mapendeleo yako (anwani ya kusikiliza, porti, saraka ya hali, uhifadhi wa akiba).
 
-** Kuanza node:**
+**Anzisha node:**
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
 ![image](/content-images/H1KPkvt6gl-864c48ca40.webp)
 </div>
 
-node itaanza kusawazisha kutoka genesis - kutarajia masaa kadhaa (au zaidi) kulingana na vifaa vya kazi na mtandao.
+Node itaanza kusawazisha kutoka genesis - tarajia saa kadhaa (au zaidi) kulingana na maunzi na mtandao.
 
-** 5. kufunga / Config Zallet (Wallet)**
+**5. Sakinisha / Sanidi Zallet (Pochi)**
 
-Zallet ni iliyoundwa na kuchukua nafasi ya sehemu mkoba wa zcashd.
+Zallet imeundwa kuchukua nafasi ya sehemu ya pochi ya zcashd.
 
-Angalia Zallet GitHub / kutolewa ukurasa kwa ajili ya binaries.
+Angalia ukurasa wa Zallet GitHub / matoleo kwa binary.
 
-** Au kujenga kutoka chanzo:**
+**Au jenga kutoka chanzo:**
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
 ![image](/content-images/SyUFxvFTex-5bb10ee1d3.webp)
 </div>
 
-* Kuanzisha GUI au CLI (kama ufungaji yako hutoa).
-* Configure ni kuungana na yako ya ndani Zebrad node kupitia RPC au API mwisho.
+* Zindua GUI au CLI (kama usakinishaji wako unavyotoa).
+* Isanidi ili iunganishwe na node yako ya ndani ya Zebrad kupitia kituo cha RPC au API.
 
-** 6. kuagiza yako zcashd Wallet katika Zallet**
+**6. Kuingiza Pochi yako ya zcashd kwenye Zallet**
 
-Huna haja ya mbio zcashd kwa hili. Zallet anasoma `wallet.dat` faili moja kwa moja, ambayo ni muhimu kwa sababu zcashd hawezi tena kuanza.
+Huhitaji zcashd inayofanya kazi kwa hili. Zallet husoma faili ya `wallet.dat` moja kwa moja, jambo muhimu kwa sababu zcashd haiwezi tena kuanzishwa.
 
-> Endelea ** `wallet.dat`.** Uhamiaji ripoti chochote haiwezi kuwakilisha katika mkoba Zallet badala ya kuagiza, na kwamba nyenzo muhimu basi ipo tu kwa ajili ya matumizi. `wallet.dat`. Usifutwe baada ya kuhamia.
+> **Hifadhi `wallet.dat`.** Uhamishaji huripoti kila kitu ambacho hauwezi kukiwakilisha katika pochi ya Zallet badala ya kukiingiza, na nyenzo hizo za funguo basi zinapatikana katika `wallet.dat` pekee. Usiifute baada ya kuhamisha.
 
-Kukimbia `zallet init-wallet-encryption` kwanza. Zallet encrypts muhimu vifaa kwa umri utambulisho, na kwamba ni lazima kuwepo kabla ya funguo yoyote kuingizwa.
+Endesha `zallet init-wallet-encryption` kwanza. Zallet husimba fiche [encryption] nyenzo za funguo kwa utambulisho wa age, na utambulisho huo lazima uwepo kabla ya funguo zozote kuingizwa.
 
-Kisha kubadilisha config yako na mkoba wako:
+Kisha badilisha usanidi wako na pochi yako:
 
 ```bash
 # translate zcash.conf into zallet.toml
@@ -130,35 +130,35 @@ zallet migrate-zcash-conf --zcashd-datadir /path/to/zcashd/datadir -o /path/to/z
 zallet migrate-zcashd-wallet --zcashd-datadir /path/to/zcashd/datadir
 ```
 
-`migrate-zcashd-wallet` ni tu sasa katika kujenga na `zcashd-import` kipengele, na kusoma `wallet.dat` mahitaji ya `db_dump` zana kutoka Berkeley DB 6.2, toleo zcashd kutumika. Kama una zaidi ya moja mfuko wa fedha faili, kukimbia amri mara moja kwa kila faili na kuongeza `--allow-multiple-wallet-imports` juu ya baadaye mbio; kila inakuwa seti yake mwenyewe ya akaunti. yako `rpcuser` na `rpcpassword` si kuchukuliwa, kwa sababu Zallet ya JSON-RPC inatumia kuki uthibitishaji default; kuongeza sifa na `zallet add-rpc-user` ikiwa unazihitaji.
+`migrate-zcashd-wallet` inapatikana tu katika miundo yenye kipengele cha `zcashd-import`, na kusoma `wallet.dat` kunahitaji kifaa cha `db_dump` kutoka Berkeley DB 6.2, toleo lililotumiwa na zcashd. Ikiwa una faili zaidi ya moja ya pochi, endesha amri mara moja kwa kila faili na uongeze `--allow-multiple-wallet-imports` katika utekelezaji wa baadaye; kila moja huwa seti yake ya akaunti. `rpcuser` yako na `rpcpassword` yako hazihamishwi, kwa sababu JSON-RPC ya Zallet hutumia uthibitishaji wa cookie kwa chaguomsingi; ongeza stakabadhi kwa `zallet add-rpc-user` ukizihitaji.
 
-**Kile kinachokuja kupitia**
+**Kinachohamishwa**
 
-* mbegu mnemonic na funguo inayotokana nao, kwa akaunti upya ili kufanana mfuko wa zcashd
-* Standalone kuingizwa Sapling matumizi funguo na vifunguo uwazi
-* Uwazi kuangalia tu entries kwamba ni pamoja na ufunguo wao wa umma au kuikomboa script
-* Akaunti siku za kuzaliwa, hivyo mnyororo skanning huanza katika urefu wa haki
+* Mbegu za mnemonic na funguo zinazotokana nazo, huku akaunti zikijengwa upya ili zilingane na pochi ya zcashd
+* Funguo huru zilizoingizwa za kutumia pesa [spending keys] za Sapling na funguo za uwazi [transparent]
+* Ingizo za kutazama pekee za uwazi zinazojumuisha ufunguo wao wa umma au redeem script
+* Siku za kuzaliwa za akaunti, ili uchanganuzi wa mnyororo uanze kwenye urefu sahihi
 
-** Nini si kuja hela.** Hizi ni taarifa na hesabu badala ya kuingizwa:
+**Kisichohamishwa.** Hivi huripotiwa kwa hesabu badala ya kuingizwa:
 
-* ** Sprout matumizi ya funguo na fedha.** Zallet haina msaada wa shina pool. njia kumbukumbu ilikuwa kuhamisha mali Chipukizi nje kwa kutumia zcashd kabla ya kustaafu, na kwamba ni haiwezekani tena. Kama hii huathiri wewe, uliza juu ya wingu la mzunguko ili kupata maelezo zaidi kuhusu jinsi gani unaweza kufanya hivyo katika hali yoyote wakati wowote. [Zcash R & D Discord](https://discord.gg/xpzPR53xtU) au ya [jukwaa la jamii](https://forum.zcashcommunity.com/) kabla ya kufanya kitu kingine chochote.
-* Maelezo ya kitabu cha anwani
-* Angalia-tu entries kuhifadhiwa bila ufunguo wa umma au kuokoa script, na entries kwa uncompressed funguo za umma
-* Regtest pochi
+* **Funguo za kutumia pesa za Sprout na fedha.** Zallet haitumii bwawa la Sprout. Njia iliyoandikwa ilikuwa kuhamisha fedha za Sprout kwa kutumia zcashd kabla ya kuiondoa, na hilo haliwezekani tena. Ikiwa hili linakuathiri, uliza kwenye [Zcash R&D Discord](https://discord.gg/xpzPR53xtU) au jukwaa la jamii la [](https://forum.zcashcommunity.com/) kabla ya kufanya jambo lingine.
+* Ingizo za kitabu cha anwani
+* Ingizo za kutazama pekee zilizohifadhiwa bila ufunguo wa umma au redeem script, na ingizo zenye funguo za umma zisizobanwa
+* Pochi za Regtest
 
-** Backup baadaye.** Mnemonic peke yake si nakala rudufu kamili, kwa sababu funguo za kuingizwa zipo tu katika hifadhidata ya mkoba. Weka nakala salama za `wallet.db`, umri encryption faili utambulisho jina lake na `keystore.encryption_identity` chaguo, na mnemonic yako kifungu, na kuweka awali `wallet.dat`. Kumbuka kwamba `wallet.db` si yenyewe encrypted: ni ana historia yako ya manunuzi na kuangalia funguo katika wazi, hivyo kuhifadhi chelezo mahali salama.
+**Kuhifadhi nakala baadaye.** Mnemonic peke yake si nakala kamili, kwa sababu funguo zilizoingizwa zinapatikana tu katika hifadhidata ya pochi. Hifadhi nakala salama za `wallet.db`, faili ya utambulisho wa usimbaji fiche wa age iliyotajwa na chaguo la `keystore.encryption_identity`, na kifungu chako cha mnemonic, na uhifadhi `wallet.dat` ya asili. Kumbuka kwamba `wallet.db` haijasimbwa fiche yenyewe: inashikilia historia yako ya miamala [transaction] na funguo za kutazama [viewing keys] waziwazi, kwa hiyo hifadhi nakala mahali salama.
 
-** mkoba Rescan & Synchronization**
+**Uchanganuzi Upya wa Pochi na Usawazishaji**
 
-* Mara tu funguo zinapopelekwa, Zallet ataanzisha skanning ya mnyororo kupitia Zebrad.
-* Ruhusu Zallet muda wa kujenga upya salio lako na historia ya shughuli.
+* Mara funguo zinapoingizwa, Zallet itaanzisha uchanganuzi upya wa mnyororo kupitia Zebrad.
+* Ruhusu muda kwa Zallet kujenga upya salio lako na historia ya miamala.
 
-** 7. Angalia mizani na Sync**
+**7. Thibitisha Salio na Usawazishaji**
 
-Mara baada ya kuingizwa, Zallet itaunganisha kwa node yako Zebrad na rescan blockchain.
-Wakati usawazishaji kukamilika, mizani yako na shughuli lazima kuonekana hasa kama kabla.
+Baada ya kuingizwa, Zallet itaunganishwa na node yako ya Zebrad na kuchanganua upya blockchain.
+Usawazishaji unapokamilika, salio lako na miamala vinapaswa kuonekana sawasawa na hapo awali.
 
-Unaweza kuthibitisha hali ya usawazishaji node yako kwa kuendesha:
+Unaweza kuthibitisha hali ya usawazishaji ya node yako kwa kuendesha:
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
 ![image](/content-images/SyIyVDY6xl-10d6bed7b8.webp)
@@ -170,51 +170,51 @@ Au angalia kumbukumbu.
 ![image](/content-images/r1HfVPF6gg-b6b76e9907.webp)
 </div>
 
-**8. Kutatua matatizo**
+**8. Utatuzi wa Matatizo**
 
 <div className="overflow-x-auto my-8 rounded-2xl border border-slate-200 dark:border-slate-700">
   <table className="w-full min-w-full border-collapse text-sm">
     <thead className="bg-slate-100 dark:bg-slate-800">
       <tr>
-        <th className="px-6 py-4 text-left font-semibold text-slate-900 dark:text-white">Issue</th>
-        <th className="px-6 py-4 text-left font-semibold text-slate-900 dark:text-white">Possible Cause</th>
-        <th className="px-6 py-4 text-left font-semibold text-slate-900 dark:text-white">Solution</th>
+        <th className="px-6 py-4 text-left font-semibold text-slate-900 dark:text-white">Tatizo</th>
+        <th className="px-6 py-4 text-left font-semibold text-slate-900 dark:text-white">Sababu Inayowezekana</th>
+        <th className="px-6 py-4 text-left font-semibold text-slate-900 dark:text-white">Suluhisho</th>
       </tr>
     </thead>
     <tbody>
       <tr className="border-b border-slate-200 dark:border-slate-700 hover:bg-slate-50 dark:hover:bg-slate-900/50">
-        <td className="px-6 py-4">Zebrad won't start</td>
-        <td className="px-6 py-4">Port in use or bad config</td>
-        <td className="px-6 py-4">Check **zebrad.toml** and use a free port</td>
+        <td className="px-6 py-4">Zebrad haitaanza</td>
+        <td className="px-6 py-4">Porti inatumika au usanidi mbaya</td>
+        <td className="px-6 py-4">Angalia **zebrad.toml** na utumie porti huru</td>
       </tr>
       <tr className="border-b border-slate-200 dark:border-slate-700 hover:bg-slate-50 dark:hover:bg-slate-900/50">
-        <td className="px-6 py-4">Slow sync</td>
-        <td className="px-6 py-4">Network congestion</td>
-        <td className="px-6 py-4">Ensure stable internet, restart Zebrad</td>
+        <td className="px-6 py-4">Usawazishaji wa polepole</td>
+        <td className="px-6 py-4">Msongamano wa mtandao</td>
+        <td className="px-6 py-4">Hakikisha intaneti ni thabiti, anzisha upya Zebrad</td>
       </tr>
       <tr className="border-b border-slate-200 dark:border-slate-700 hover:bg-slate-50 dark:hover:bg-slate-900/50">
-        <td className="px-6 py-4">Wallet missing transactions</td>
-        <td className="px-6 py-4">Partial key import</td>
-        <td className="px-6 py-4">Re-import keys or rescan in Zallet</td>
+        <td className="px-6 py-4">Pochi inakosa miamala</td>
+        <td className="px-6 py-4">Uingizaji wa sehemu wa funguo</td>
+        <td className="px-6 py-4">Ingiza upya funguo au changanua upya katika Zallet</td>
       </tr>
       <tr className="border-b border-slate-200 dark:border-slate-700 hover:bg-slate-50 dark:hover:bg-slate-900/50">
-        <td className="px-6 py-4">Zallet can't connect to node</td>
-        <td className="px-6 py-4">Node not running or wrong endpoint</td>
-        <td className="px-6 py-4">Start Zebrad and verify correct RPC port</td>
+        <td className="px-6 py-4">Zallet haiwezi kuunganishwa na node</td>
+        <td className="px-6 py-4">Node haiendeshi au kituo si sahihi</td>
+        <td className="px-6 py-4">Anzisha Zebrad na uthibitishe porti sahihi ya RPC</td>
       </tr>
       <tr className="border-b border-slate-200 dark:border-slate-700 hover:bg-slate-50 dark:hover:bg-slate-900/50">
-        <td className="px-6 py-4">Zallet crashes</td>
-        <td className="px-6 py-4">Outdated build</td>
-        <td className="px-6 py-4">Update to latest release from GitHub</td>
+        <td className="px-6 py-4">Zallet inaacha kufanya kazi</td>
+        <td className="px-6 py-4">Muundo uliopitwa na wakati</td>
+        <td className="px-6 py-4">Sasisha hadi toleo la hivi karibuni kutoka GitHub</td>
       </tr>
     </tbody>
   </table>
 </div>
 
-**9. hitimisho**
+**9. Hitimisho**
 
-Kuhama kutoka zcashd kwa Zebrad na Zallet inakupa kasi, salama zaidi, na kisasa Zcash uzoefu.
-Kwa usalama wa Rust, muundo wa moduli na zana bora zaidi, usanidi huu unahakikisha node yako na mkoba wako unabaki tayari kwa siku zijazo wakati mfumo wa ikolojia ya Zcash unaendelea kubadilika.
+Kuhama kutoka zcashd hadi Zebrad na Zallet hukupa uzoefu wa Zcash ulio wa haraka, salama zaidi, na wa kisasa zaidi.
+Kwa usalama unaotegemea Rust, usanifu wa moduli, na vifaa bora zaidi, usanidi huu huhakikisha node na pochi yako vinabaki tayari kwa siku zijazo huku mfumo wa ikolojia wa Zcash ukiendelea kubadilika.
 
-Kidokezo: Weka funguo za mkoba wako nje ya mtandao na mara kwa mara chukua nakala rudufu ya data zako za Zallet.
-Kutembelea [zebra.zfnd.org](https://zebra.zfnd.org) kwa Zebra, na [Kitabu cha Zallet](https://zcash.github.io/zallet/) au ya [Zallet kuhifadhi](https://github.com/zcash/zallet) kwa Zallet. The [Kuhama kutoka zcashd](https://zcash.github.io/zallet/) sura ya Kitabu Zallet ni mamlaka rejea kwa hatua 6.
+Dokezo: Weka funguo zako za pochi nje ya mtandao na uhifadhi nakala za data yako ya Zallet mara kwa mara.
+Tembelea [zebra.zfnd.org](https://zebra.zfnd.org) kwa Zebra, na [Kitabu cha Zallet](https://zcash.github.io/zallet/) au hazina ya [Zallet](https://github.com/zcash/zallet) kwa Zallet. Sura ya [Kuhama kutoka zcashd](https://zcash.github.io/zallet/) ya Kitabu cha Zallet ndiyo rejeleo lenye mamlaka kwa hatua ya 6.

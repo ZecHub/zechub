@@ -4,55 +4,70 @@
 
 # <img src="/content-images/Shielded-labs-shield-white-2-27aef199ae.webp" alt="Shielded Labs logo" width="50"/> Shielded Labs
 
-[Maabara ya Kuhifadhiwa](https://shieldedlabs.net/) ni shirika huru, mchango unaofadhiliwa Zcash msaada taasisi makao yake makuu nchini Uswisi. dhamira yake ni kujenga unstoppable fedha binafsi kwamba inawezesha uhuru wa binadamu na kujitegemea enzi kuu, kwa kuzingatia kazi ambayo maendeleo endelevu, usalama, na scalability ya mtandao Zcash .
+[Shielded Labs](https://shieldedlabs.net/) ni shirika huru la usaidizi wa Zcash linalofadhiliwa kwa michango na lenye makao yake Uswisi. Dhamira yake ni kujenga pesa ya faragha [privacy] isiyozuilika inayowezesha uhuru wa binadamu na kujitawala, kwa kuzingatia kazi inayoendeleza uendelevu, usalama, na kupanua uwezo [scaling] wa mtandao wa Zcash.
 
-Shielded Labs adds independent engineering capacity to the Zcash ecosystem. It is not part of the Electric Coin Company, the Zcash Foundation, or Zcash Community Grants, and it describes itself as the first Zcash ecosystem organization that has not received direct or indirect funding from the Development Fund or block rewards.
+Shielded Labs huongeza uwezo huru wa uhandisi katika mfumo ikolojia wa Zcash. Si sehemu ya Electric Coin Company, Zcash Foundation, wala Zcash Community Grants, na hujielezea kama shirika la kwanza la mfumo ikolojia wa Zcash ambalo halijapokea ufadhili wa moja kwa moja au usio wa moja kwa moja kutoka Development Fund au zawadi za block.
 
-## Kazi na Daraka Lake
+## Dhamira na Wajibu
 
-Shielded Labs inalenga katika kazi ya itifaki na miundombinu ambayo inaweza kufanya Zcash kuwa thabiti zaidi kwa muda mrefu. Vifaa vyake vya umma vinasisitiza:
+Shielded Labs hujikita katika kazi ya itifaki na miundombinu inayoweza kufanya Zcash iwe thabiti zaidi kwa muda mrefu. Machapisho yake ya umma husisitiza:
 
-- Uhuru wa binadamu na faragha ya kifedha
-- Ufadhili wa kujitegemea nje ya Mfuko wa Maendeleo
-- Kuheshimu wamiliki wa ZEC na mchango coinholder
-- uhuru wa mtumiaji na kujitawala mwenyewe
-- Ubunifu wa kiufundi kwa ajili ya uendelevu, usalama na uwezo wa kupanuka
+- Uhuru wa binadamu na faragha ya kifedha [financial privacy]
+- Ufadhili huru nje ya Development Fund
+- Heshima kwa wamiliki wa ZEC na maoni ya wamiliki wa sarafu
+- Uhuru wa watumiaji na kujitawala
+- Ubunifu wa kiufundi kwa ajili ya uendelevu, usalama, na kupanua uwezo [scalability]
 - Ushirikiano na wachangiaji wengine wa Zcash
 
-The organization contributes through direct engineering, public research, infrastructure support, and ecosystem coordination. It also maintains public resources for governance polling and coinholder-directed funding, helping Zcash community members understand when and how they can participate in governance signals.
+Shirika huchangia kupitia uhandisi wa moja kwa moja, utafiti wa umma, msaada wa miundombinu, na uratibu wa mfumo ikolojia. Pia hudumisha rasilimali za umma kwa ajili ya kura za utawala [governance] na ufadhili unaoelekezwa na wamiliki wa sarafu, zikiwasaidia wanajamii wa Zcash kuelewa lini na jinsi wanavyoweza kushiriki katika ishara za utawala.
 
 ## Miradi ya Sasa
 
-Shielded Labs orodha hadharani maeneo kadhaa ya mradi hai:
+Shielded Labs huorodhesha hadharani maeneo kadhaa ya miradi inayotumika:
 
-- [Utaratibu wa Mtandao endelevu](https://shieldedlabs.net/nsm/) - A set of proposed changes intended to support Zcash's long-term security budget while preserving the 21 million ZEC supply cap. The NSM work includes voluntary ZEC burns, issuance smoothing, and fee-burning proposals described in ZIPs 233, 234, and 235.
-- [Crosslink](https://shieldedlabs.net/crosslink-faq/) - A mapendekezo mseto makubaliano kuboresha ambayo kuchanganya Zcash ya uthibitisho wa kazi block uzalishaji na ushahidi-ya hisa finality, hivyo wamiliki ZEC inaweza kusaidia kupata mtandao wakati wachimbaji kuendelea kuzalisha vitalu.
-- [Ada ya Dynamic](https://shieldedlabs.net/fees/) - Utafiti na zana kwa ajili ya zaidi kutabiriwa, user-kirafiki, na sugu Zcash ada shughuli kama mtandao inaendelea.
-- [Zero](https://shieldedlabs.net/zero/) - A mkono Suite ya wazi chanzo Zcash miundombinu programu kwa kubadilishana, madini mabwawa, watoa mkoba, na mashirika mengine ambayo kutegemea miundomizo Zcash.
-- [Ironwood](https://shieldedlabs.net/ironwood/) - Zcash mtandao kuboresha na kulindwa bwawa kuundwa katika kukabiliana na Orchard bandia udhaifu, iliyoundwa ili kurejesha kujitegemea verifiable soundness ya kusambazwa mzunguko wa Zcash.
+- [Mbinu ya Uendelevu wa Mtandao](https://shieldedlabs.net/nsm/) - Seti ya mabadiliko yanayopendekezwa yanayokusudiwa kuunga mkono bajeti ya usalama ya muda mrefu ya Zcash huku yakihifadhi kikomo cha ugavi wa ZEC cha milioni 21. Kazi ya NSM inajumuisha uchomaji wa hiari wa ZEC, ulainishaji wa utoaji, na mapendekezo ya uchomaji ada [fee-burning] yaliyoelezwa katika ZIP 233, 234, na 235.
+- [Crosslink](https://shieldedlabs.net/crosslink-faq/) - Uboreshaji wa makubaliano [consensus] wa mseto unaopendekezwa ambao ungeunganisha uzalishaji wa block wa uthibitisho wa kazi [proof-of-work] wa Zcash na ukamilishaji wa uthibitisho wa kuweka sarafu [proof-of-stake], ili wamiliki wa ZEC waweze kusaidia kulinda mtandao huku wachimbaji wakiendelea kuzalisha block.
+- [Ada Zinazobadilika](https://shieldedlabs.net/fees/) - Utafiti na zana za ada za miamala ya Zcash zinazotabirika zaidi, rafiki kwa mtumiaji, na thabiti kadiri mtandao unavyoendelea.
+- [Zero](https://shieldedlabs.net/zero/) - Kifurushi kinachoungwa mkono cha programu huria za miundombinu ya Zcash kwa masoko ya kubadilishana sarafu, mabwawa ya uchimbaji, watoa huduma wa pochi, na mashirika mengine yanayotegemea miundombinu ya Zcash.
+- [Ironwood](https://shieldedlabs.net/ironwood/) - Uboreshaji wa mtandao [network upgrade] wa Zcash na bwawa la faragha [shielded pool] lililoundwa kujibu udhaifu wa kughushi wa Orchard, lililobuniwa kurejesha uimara unaoweza kuthibitishwa kwa kujitegemea wa ugavi unaozunguka wa Zcash.
+- [Epoch](https://shieldedlabs.net/epoch-future-proof-cryptography-for-zcash/) - Mradi wa utafiti na uhandisi uliotangazwa Oktoba 2026 ili kutengeneza kriptografia ya baada ya quantum iliyo tayari kwa matumizi ya uzalishaji na yenye uhakika mkubwa kwa Zcash, na kupanua uthibitishaji rasmi wa vipengele muhimu vya kriptografia. Mradi unalenga utekelezaji ulio tayari kwa matumizi ya uzalishaji kufikia mwisho wa 2027 ambao unaweza kuwa msingi wa uboreshaji wa mtandao wa siku zijazo. Unakamilisha Mradi Tachyon na juhudi nyingine za baada ya quantum katika mfumo ikolojia.
+
+## Epoch na timu ya kriptografia
+
+Mnamo Oktoba 2026, Shielded Labs ilizindua Epoch, juhudi mahususi ya kuilinda Zcash dhidi ya kompyuta za quantum, mashambulizi yanayosaidiwa na AI, na vitisho vingine vya hali ya juu. Mradi unalenga kubadilisha vipengele vya kriptografia vilivyo hatarini kwa quantum na kutumia uthibitishaji rasmi katika sehemu muhimu za itifaki.
+
+Epoch inaongozwa na timu ya watu watatu ya kriptografia:
+
+- **Ulrich Haböck** – Mtaalamu Mkuu wa Kriptografia (awali katika StarkWare; kabla ya hapo Polygon Zero). Mtaalamu wa mathibitisho ya maarifa sifuri [zero-knowledge proofs] na kriptografia ya baada ya quantum; mwandishi wa hoja ya utafutaji ya logUp na mwandishi mwenza wa waraka wa Circle STARKs.
+- **Luke Edwards** – Mhandisi wa Kriptografia (awali kiongozi wa kiufundi wa timu ya uhandisi wa kriptografia katika Aztec). Ana Shahada ya Udaktari katika Hisabati Tumizi kutoka Chuo Kikuu cha Arizona.
+- **Suyash Bagad** – Mhandisi wa Kriptografia (awali katika Aztec, akifanya kazi kwenye maktaba ya Barretenberg na familia ya PLONK ya mifumo ya thibitisho). Ana digrii za BTech na MTech kutoka IIT Bombay; utafiti wake wa uzamili ulijikita katika mathibitisho ya akiba yanayohifadhi faragha.
+
+Awamu ya 1 hujikita katika kuchunguza utafiti uliopo, kutathmini miundo inayowania kulingana na mahitaji ya usalama na utendaji ya Zcash, na kutoa pendekezo mahususi la baada ya quantum. Utekelezaji ulio tayari kwa matumizi ya uzalishaji unalengwa kufikia mwisho wa 2027.
 
 ## Mchango wa Ironwood
 
-In 2026, Shielded Labs played an important role in the ecosystem response to the Orchard counterfeiting vulnerability. The vulnerability was discovered by Shielded Labs security researcher Taylor Hornby and disclosed to Zcash Open Development Lab (ZODL), which coordinated an emergency remediation with other Zcash contributors.
+Mnamo 2026, Shielded Labs ilicheza wajibu muhimu katika mwitikio wa mfumo ikolojia kwa udhaifu wa kughushi wa Orchard. Udhaifu huo uligunduliwa na mtafiti wa usalama wa Shielded Labs Taylor Hornby na kufichuliwa kwa Open Development Lab ya Zcash (ZODL), ambayo iliratibu urekebishaji wa dharura pamoja na wachangiaji wengine wa Zcash.
 
-After the emergency fix, the community still needed a way to restore independent confidence in Zcash's circulating supply. Ironwood addressed that by creating a new shielded pool using the corrected Orchard circuit and by sealing the original Orchard pool so funds could leave only through the turnstile. Shielded Labs worked alongside Project Tachyon, Valar Group, ZODL, and the Zcash Foundation on the design, review, and ecosystem preparation for Ironwood.
+Baada ya marekebisho ya dharura, jumuiya bado ilihitaji njia ya kurejesha imani huru katika ugavi unaozunguka wa Zcash. Ironwood ilishughulikia hilo kwa kuunda bwawa jipya la faragha kwa kutumia mzunguko uliosahihishwa wa Orchard na kwa kufunga bwawa asilia la Orchard ili fedha ziweze kutoka kupitia turnstile pekee. Shielded Labs ilifanya kazi pamoja na Mradi Tachyon, Valar Group, ZODL, na Zcash Foundation katika usanifu, mapitio, na maandalizi ya mfumo ikolojia kwa ajili ya Ironwood.
 
-Kazi hii ilionyesha moja ya majukumu kuu Shielded Labs katika Zcash: kuongeza kujitegemea itifaki-maendeleo na usalama uwezo nje ya awali Zcash maendeleo mashirika.
+Kazi hii ilionyesha mojawapo ya majukumu makuu ya Shielded Labs katika Zcash: kuongeza uwezo huru wa uundaji wa itifaki na usalama nje ya mashirika asilia ya maendeleo ya Zcash.
 
-## Kazi ya Utawala wa Serikali
+## Kazi ya Utawala
 
-Shielded Labs also publishes governance information for Zcash community members. Its governance page tracks protocol governance polls, ZCAP participation, coinholder-directed funding, and supported voting wallets. This helps make Zcash decision-making easier to follow for coinholders, ZCAP members, and broader community participants.
+Shielded Labs pia huchapisha taarifa za utawala kwa wanajamii wa Zcash. Ukurasa wake wa utawala hufuatilia kura za utawala wa itifaki, ushiriki wa ZCAP, ufadhili unaoelekezwa na wamiliki wa sarafu, na pochi za kupigia kura zinazoungwa mkono. Hii hufanya ufanyaji maamuzi wa Zcash uwe rahisi kufuatilia kwa wamiliki wa sarafu, wanachama wa ZCAP, na washiriki wa jumuiya kwa upana zaidi.
 
-Zcash does not use automatic on-chain governance for protocol changes. Polls and community input are advisory signals that feed into the broader rough-consensus process. Shielded Labs' governance work helps make those signals more accessible and easier to verify.
+Zcash haitumii utawala wa kiotomatiki on-chain kwa mabadiliko ya itifaki. Kura na maoni ya jumuiya ni ishara za ushauri zinazoingia katika mchakato mpana wa makubaliano yasiyo rasmi. Kazi ya utawala ya Shielded Labs husaidia kufanya ishara hizo zipatikane zaidi na rahisi kuthibitisha.
 
 ## Rasilimali
 
 - [Shielded Labs tovuti](https://shieldedlabs.net/)
 - [Shielded Labs miradi](https://shieldedlabs.net/projects/)
-- [Utaratibu wa Mtandao endelevu](https://shieldedlabs.net/nsm/)
-- [Crosslink FAQ](https://shieldedlabs.net/crosslink-faq/)
-- [Ada ya Dynamic](https://shieldedlabs.net/fees/)
+- [Mbinu ya Uendelevu wa Mtandao](https://shieldedlabs.net/nsm/)
+- [Crosslink Maswali Yanayoulizwa Mara kwa Mara](https://shieldedlabs.net/crosslink-faq/)
+- [Ada Zinazobadilika](https://shieldedlabs.net/fees/)
 - [Zero](https://shieldedlabs.net/zero/)
 - [Ironwood](https://shieldedlabs.net/ironwood/)
-- [Utawala na uchaguzi](https://shieldedlabs.net/governance/)
+- [Epoch: Kriptografia ya Kujiandaa kwa Wakati Ujao kwa Zcash](https://shieldedlabs.net/epoch-future-proof-cryptography-for-zcash/)
+- [Timu](https://shieldedlabs.net/team/)
+- [Utawala na kura](https://shieldedlabs.net/governance/)
 - [Shielded Labs GitHub](https://github.com/ShieldedLabs)

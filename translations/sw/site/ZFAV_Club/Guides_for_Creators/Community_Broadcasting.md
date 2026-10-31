@@ -2,89 +2,89 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Utangazaji wa Jumuiya kutumia VDO.Ninja na OBS Studio
+# Utangazaji wa Jamii kwa kutumia VDO.Ninja na OBS Studio
 
-Hii mafunzo fupi iliundwa wakati wa [DWeb Kambi 2023](https://dwebcamp.org/) Lengo la zoezi hili ni kuongeza matumizi ya vifaa vya simu za smart zilizounganishwa na mtandao wa MESH nje ya mkondo kwa kurekodi video pamoja na utiririshaji.
+Mafunzo haya mafupi yaliundwa wakati wa [DWeb Camp 2023](https://dwebcamp.org/) na kikundi cha washirika na wajitoleaji. Lengo la zoezi hili ni kutumia vifaa vya simu mahiri vilivyounganishwa kwenye mtandao wa MESH usio na muunganisho wa intaneti kwa ajili ya kurekodi na kutiririsha video kwa ushirikiano.
 
-Sisi kutumia mbili wazi chanzo programu [OBS Studio (Open Broadcaster programu)](https://obsproject.com/) na [VDO.Ninja](https://vdo.ninja/)Programu hizi inaweza kupakuliwa na kuendeshwa ndani ya kompyuta yako.
+Tunatumia programu mbili za chanzo wazi [OBS Studio (Open Broadcaster software)](https://obsproject.com/) na [VDO.Ninja](https://vdo.ninja/). Programu hizi zinaweza kupakuliwa na kuendeshwa ndani ya kompyuta yako.
 
-## OBS Studio (Open Boardcaster programu)
+## OBS Studio (programu ya Open Boardcaster)
 
-OBS Studio is Free and Open source software for recording and live streaming that is available for multiple operating systems. The software was first released in 2012 and enjoys quite a large following among game streaming community and independent video content creators.
+OBS Studio ni programu huria na ya chanzo wazi [Free and Open source software] ya kurekodi na kutiririsha moja kwa moja inayopatikana kwa mifumo mingi ya uendeshaji. Programu hii ilitolewa kwa mara ya kwanza mwaka 2012 na ina wafuasi wengi miongoni mwa jamii ya utiririshaji wa michezo na waundaji huru wa maudhui ya video.
 
-OBS Studio user interfaces inaweza kuangalia kabisa daunting kwa mara ya kwanza watumiaji wakati. studio OBS imegawanywa katika madirisha mawili "Preview" na "Broadcast". dirisha preview inaonyesha video inapatikana (kamera mbalimbali kama vile webcam, Iriun Webcam, OBS Virtual Camera, Video na Browser chanzo) aitwaye "Scenes" na ' Broadcast' inaonyesha mkondo wa moja kwa moja .
+Miingiliano ya mtumiaji ya OBS Studio inaweza kuonekana ya kutisha kwa watumiaji wa mara ya kwanza. OBS Studio imegawanywa katika madirisha mawili, “Onyesho la awali” na “Utangazaji”. Dirisha la onyesho la awali huonyesha video zinazopatikana (kamera mbalimbali kama vile kamera ya wavuti, Iriun Webcam, OBS Virtual Camera, chanzo cha Video na Browser) zinazoitwa “Matukio”, na “Utangazaji” huonyesha utiririshaji wa moja kwa moja.
 
-Ili mkondo kutoka kwa mtiririko kamera ya mbali kutoka VDO.ninja katika OBS Studio, wewe kuanza na kuongeza mpya "Chanzo Browser" pamoja na "Vyanzo > Ongeza> browser". Katika dirisha jipya, unaweza kutoa chanzo URL kutoka Vdo.Ninja na kuchagua "Kufanya vyanzo kuonekana".
+Ili kutiririsha kutoka kwa mtiririko wa kamera ya mbali kutoka VDO.ninja hadi OBS Studio, anza kwa kuongeza “Chanzo cha Kivinjari” kipya ukitumia “Sources > Add > Browser”. Katika dirisha jipya, unaweza kutoa URL ya chanzo kutoka VDO.Ninja na kuchagua “Make source visible”.
 
-Sasa unaweza sasa kuanza matangazo ya mbali mito.
+Sasa unaweza kuanza kutangaza mitiririko ya mbali.
 
 ## VDO.Ninja
 
-[VDO.Ninja](https://vdo.ninja/) ni Free na wazi chanzo mtandao maombi ambayo inaruhusu wewe kurejea vifaa yako ya mkononi katika kuishi Streaming kamera. programu inaweza kupakuliwa na kupelekwa kwenye kompyuta yako ndani au unaweza moja kwa moja kutumia [toleo la mtandaoni katika: https://vdo.ninja](https://vdo.ninja/).
+[VDO.Ninja](https://vdo.ninja/) ni programu ya wavuti huria na ya chanzo wazi inayokuruhusu kubadilisha vifaa vyako vya simu kuwa kamera za utiririshaji wa moja kwa moja. Programu hii inaweza kupakuliwa na kusambazwa kwenye kompyuta yako ya ndani au unaweza kutumia moja kwa moja [toleo la mtandaoni katika https://vdo.ninja](https://vdo.ninja/).
 
-Interface VOD.Ninja ni rahisi, tu kufungua VDO.Ninya katika kivinjari yako ya mkononi na kuchagua "Kuongeza kamera yako kwa OBS". Kisha utachagua kamera yako na audio kifaa kutoka orodha ya vifaa na bonyeza "Start". Basi kupata "kuangalia" link ambayo unaweza kuongeza OBS Studio.
+Kiolesura cha VOD.Ninja ni rahisi; fungua tu VDO.Ninja kwenye kivinjari cha wavuti cha kifaa chako cha simu na uchague “Add your camera to OBS”. Kisha utachagua kamera yako na kifaa cha sauti kutoka kwenye orodha ya vifaa na kubofya “Start”. Kisha utapata kiungo cha “view” ambacho unaweza kuongeza kwenye OBS Studio.
 
-## Kuongoza wito wa jamii na VDO.Ninja
+## Kuongoza mwito wa jamii kwa kutumia VDO.Ninja
 
-Kuanza kwa kwenda na [VDO.ninja](http://VDO.ninja) na kivinjari chako cha mtandao kwenye desktop / laptop.
+Anza kwa kwenda kwenye [VDO.ninja](http://VDO.ninja) kwa kutumia kivinjari chako cha wavuti kwenye kompyuta ya mezani au kompyuta mpakato.
 
 <a href="">
     <img src="/content-images/_unavailable.svg" alt="" width="300" height="400"/>
 </a>
 
 
-Kuunda chumba kipya na kuelekeza mwenyewe jamii wito livestream, bofya Unda Chumba.
+Ili kuunda chumba kipya na kuongoza utiririshaji wa moja kwa moja wa mwito wako wa jamii, bofya Create a Room.
 
-Skrini inayofuata itauliza habari za msingi kuanzisha chumba chako.
-
-<a href="">
-    <img src="/content-images/_unavailable.svg" alt="" width="400" height="400"/>
-</a>
-
-Mara chumba imeundwa, mkurugenzi ina mengi ya chaguzi kudhibiti inapatikana kwenye screen zifuatazo.
+Skrini inayofuata itaomba maelezo ya msingi ili kusanidi chumba chako.
 
 <a href="">
     <img src="/content-images/_unavailable.svg" alt="" width="400" height="400"/>
 </a>
 
+Baada ya chumba kuundwa, mwelekezi ana chaguo nyingi za udhibiti zinazopatikana kwenye skrini inayofuata.
 
-Wakati watu kujiunga chumba yako basi wewe, mkurugenzi, utaona yote ya chaguzi chanzo na udhibiti kuonekana pamoja video yao na sauti.
+<a href="">
+    <img src="/content-images/_unavailable.svg" alt="" width="400" height="400"/>
+</a>
+
+
+Watu wanapojiunga na chumba chako, wewe kama mwelekezi utaona chaguo zote za vyanzo na vidhibiti vikitokea pamoja na video na sauti zao.
 
 <a href="">
     <img src="/content-images/_unavailable.svg" alt="" width="400" height="300"/>
 </a>
 
 
-## FAQs
+## Maswali Yanayoulizwa Mara kwa Mara
 
-- Ni aina gani ya kadi za video zinazohitajika kwa OBS Studio ?
+- Ni aina gani za kadi za picha za video zinahitajika kwa OBS Studio?
 
-Unaweza kutumia kompyuta binafsi na kadi nzuri graphics na mengi ya kumbukumbu au mbadala unaweza kutumia encoders vifaa [Teradek VidiU](https://www.bhphotovideo.com/c/product/1609186-REG/teradek_10_0235_vidiu_x_modem.html?gclid=EAIaIQobChMIl4aIo7zX_wIVDhqtBh0PgwhxEAAYAiAAEgInufD_BwE)
-- Je, OBS inaruhusu kufanya tafsiri ya moja kwa moja na captioning?
+Unaweza kutumia kompyuta binafsi yenye kadi nzuri ya picha na kumbukumbu nyingi, au kwa mbadala unaweza kutumia visimbaji vya vifaa [Teradek VidiU](https://www.bhphotovideo.com/c/product/1609186-REG/teradek_10_0235_vidiu_x_modem.html?gclid=EAIaIQobChMIl4aIo7zX_wIVDhqtBh0PgwhxEAAYAiAAEgInufD_BwE)
+- Je, OBS hukuruhusu kufanya tafsiri ya moja kwa moja na manukuu?
 
-Kuna baadhi ya jamii kuchangia Plugins kwamba inaonekana kuwa kutoa kipengele kama hicho. [https://github.com/eddieoz/OBS-live-translation](https://github.com/eddieoz/OBS-live-translation)
+Kuna baadhi ya programu-jalizi zilizochangiwa na jamii ambazo zinaonekana kutoa kipengele kama hicho. [https://github.com/eddieoz/OBS-live-translation](https://github.com/eddieoz/OBS-live-translation)
 
-- Je, unaweza kuendeleza Plugins yako mwenyewe kwa OBS Studio?
+- Je, unaweza kuunda programu-jalizi zako mwenyewe za OBS Studio?
 
-Ndiyo, OBS ina msaada lua, Python scripting. Pia JavaScript kwa Overlays na webviews.
+Ndiyo, OBS inasaidia uandishi wa Lua na Python. Pia JavaScript kwa Overlays na webviews.
 
-- Je, tunatumia kuishi kufifia kwa nyeusi au mabadiliko?
+- Je, tunatumia kufifisha hadi nyeusi moja kwa moja au mabadiliko?
 
-Hilo linakutegemea wewe, mzalishaji!
+Hilo linategemea wewe, mtayarishaji!
 
-- Je, kuna latency wakati wewe ni Streaming?
+- Je, kuna ucheleweshaji unapofanya utiririshaji?
 
-Hii inategemea hasa katika marudio ambapo wewe ni Streaming. Kwa mfano, YouTube inaweza kuwa na kuchelewa ya dakika moja au zaidi kutokana na usindikaji video kwamba hufanywa kwenye seva zao kabla ya kutangazwa.
+Hii inategemea hasa unakopeleka utiririshaji wako. Kwa mfano, YouTube inaweza kuwa na ucheleweshaji wa dakika moja au zaidi kutokana na uchakataji wa video unaofanywa kwenye seva zao kabla ya kutangazwa.
 
-- Audio matone wakati wa kutumia OBS juu ya mashine polepole na wakati kufanya kijani-kuangalia
+- Sauti hukatika unapotumia OBS kwenye mashine yenye kasi ndogo na unapofanya green-screening
 
-Matumizi ya encoder vifaa au kutumia mtaro yadi
-[https://support.streamyard.com/hc/en-us/articles/360056350852-How-to-Use-OBS-Virtual-Camera-with-StreamYard](https://support.streamyard.com/hc/en-us/articles/360056350852-How-to-Use-OBS-Virtual-Camera-with-StreamYard) or [RiverSide.FM - Kijiji cha Radio ya Afrika Kusini (Radio)](http://riverside.fm/)
+Tumia kisimbaji cha vifaa au tumia stream yard
+[https://support.streamyard.com/hc/en-us/articles/360056350852-How-to-Use-OBS-Virtual-Camera-with-StreamYard](https://support.streamyard.com/hc/en-us/articles/360056350852-How-to-Use-OBS-Virtual-Camera-with-StreamYard) au [RiverSide.FM](http://riverside.fm/)
 
-## Mikopo
+## Shukrani
 
-- Ryan . - Ni nani ?
-- Ajay (mwanamke)
+- Ryan
+- Ajay
 - Arky
 
 ## Rasilimali
@@ -93,5 +93,5 @@ Matumizi ya encoder vifaa au kutumia mtaro yadi
 
 [https://docs.vdo.ninja/](https://docs.vdo.ninja/)
 
-Ofisi ya Saa: vyombo vya habari na digital tukio jamii
+Saa za Ofisi: Jamii ya vyombo vya habari na matukio ya kidijitali
 [https://alex4d.com/notes/item/media-and-digital-event-community](https://alex4d.com/notes/item/media-and-digital-event-community)

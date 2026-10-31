@@ -2,264 +2,264 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Usalama wa Baada ya Quantum huko Zcash
+# Usalama Baada ya Quantum katika Zcash
 
-## TL;DR
+## Kwa Ufupi Sana
 
-- Kompyuta za quantum ni hatari ya siku zijazo kwa sababu zinaweza kuvunja baadhi ya usimbaji fiche wa ufunguo wa umma unaotumiwa na blockchain leo.
-- "Post-quantum" inamaanisha usimbaji fiche unaoendeshwa kwenye kompyuta za kawaida lakini umeundwa kupinga mashambulizi kutoka kwa kompyuta za quantum za baadaye.
-- Zcash haijakamilika kikamilifu leo.
-- Shielded Zcash hupunguza kiasi cha data ya miamala ya umma ambayo washambuliaji wa siku zijazo wanaweza kusoma, lakini matumizi ya kinga si sawa na upinzani kamili wa quantum.
-- Zcash inaandaa kupitia utafiti, ZIP, na mapendekezo ya uboreshaji kama vile ZIP 2005 na Project Tachyon.
-- Uhamiaji salama baada ya kiasi unapaswa kulinda fedha, faragha, pochi, kubadilishana, na sheria za makubaliano kwa wakati mmoja.
+- Kompyuta za quantum ni hatari ya siku zijazo kwa sababu zinaweza kuvunja baadhi ya kriptografia ya ufunguo wa umma inayotumiwa na blockchain leo.
+- “Baada ya quantum” humaanisha kriptografia inayofanya kazi kwenye kompyuta za kawaida lakini imeundwa kupinga mashambulizi kutoka kwa kompyuta za quantum za siku zijazo.
+- Zcash si baada ya quantum kikamilifu leo.
+- Matumizi ya faragha [shielded] ya Zcash hupunguza kiasi cha data ya umma ya miamala ambacho washambuliaji wa siku zijazo wanaweza kuchunguza, lakini matumizi ya faragha si sawa na upinzani kamili dhidi ya quantum.
+- Zcash inajiandaa kupitia utafiti, ZIP, na mapendekezo ya uboreshaji kama vile ZIP 2005 na Project Tachyon.
+- Uhamishaji salama wa baada ya quantum lazima ulinde fedha, faragha, pochi, masoko ya kubadilishana sarafu, na sheria za makubaliano kwa wakati mmoja.
 
-Kwa kile Ironwood ilichobadilika na hali ya kila kipande iliyopitwa na wakati, tazama [Je Zcash ni Baada ya Quantum?](/zcash-tech/is-zcash-post-quantum).
+Kwa maelezo kuhusu kile ambacho Ironwood ilibadilisha na hali ya kila sehemu yenye tarehe, tazama [Je, Zcash Ni Baada ya Quantum?](/zcash-tech/is-zcash-post-quantum).
 
-## Kompyuta ya Quantum ni Nini?
+## Kompyuta za Quantum Ni Nini?
 
-Kompyuta ya kawaida huhifadhi taarifa kama biti. Kila biti ni mojawapo ya `0` or `1`.
+Kompyuta ya kawaida huhifadhi taarifa kama biti. Kila biti huwa ama `0` au `1`.
 
-Kompyuta ya quantum hutumia biti za quantum, zinazoitwa qubits. Qubits zinaweza kutumiwa na algoriti maalum zinazotatua matatizo fulani ya hesabu haraka zaidi kuliko kompyuta za kawaida.
+Kompyuta ya quantum hutumia biti za quantum, zinazoitwa qubit. Qubit zinaweza kutumiwa na algoriti maalumu zinazotatua baadhi ya matatizo ya hisabati kwa kasi zaidi kuliko kompyuta za kawaida.
 
-Hiyo haimaanishi kwamba kompyuta ya quantum ina kasi zaidi katika kila kitu. Hatari ni maalum. Baadhi ya usimbaji fiche hutegemea matatizo ya hisabati ambayo ni magumu sana kwa kompyuta za kawaida lakini ni rahisi zaidi kwa kompyuta kubwa ya quantum.
+Hii haimaanishi kuwa kompyuta ya quantum ina kasi zaidi katika kila jambo. Hatari ni mahususi. Baadhi ya kriptografia hutegemea matatizo ya hisabati ambayo ni magumu sana kwa kompyuta za kawaida lakini rahisi zaidi kwa kompyuta ya quantum yenye uwezo wa kutosha.
 
-Kwa blockchains, mfano muhimu zaidi ni usimbaji fiche wa ufunguo wa umma. Funguo na sahihi za umma hutumiwa kuthibitisha kwamba mtumiaji anaruhusiwa kutumia sarafu.
+Kwa blockchain, mfano muhimu zaidi ni kriptografia ya ufunguo wa umma. Funguo za umma na sahihi hutumiwa kuthibitisha kwamba mtumiaji ameruhusiwa kutumia sarafu.
 
-## Kwa Nini Blockchains Hujali
+## Kwa Nini Blockchain Zinajali
 
-Blockchains hutumia usimbaji fiche kwa kazi kadhaa tofauti:
+Blockchain hutumia kriptografia kwa kazi mbalimbali:
 
-| Zana ya kidijitali | Inafanya nini | Athari ya quantum |
+| Kifaa cha kriptografia | Kinachofanya | Athari ya quantum |
 | --- | --- | --- |
-| Saini za kidijitali | Thibitisha kuwa mmiliki aliidhinisha matumizi | Hatari kubwa kwa mifumo ya kawaida ya mviringo |
-| Vitendakazi vya hash | Jenga anwani, ahadi, miti ya Merkle, na changamoto | Hatari ndogo, lakini faida za usalama ni muhimu |
-| Uthibitisho wa kutojua chochote | Thibitisha miamala iliyolindwa ni halali bila kufichua maelezo | Inategemea mfumo wa uthibitisho na mawazo |
-| Makubaliano muhimu | Husaidia pochi kusimba data ya noti kwa wapokeaji | Inahitaji mapitio ya makini chini ya mfumo wa tishio la quantum |
+| Sahihi za kidijitali | Kuthibitisha kuwa mmiliki aliidhinisha matumizi | Hatari kubwa kwa mifumo ya kawaida ya elliptic-curve |
+| Vitendakazi vya hash | Kujenga anwani, commitment, miti ya Merkle, na changamoto | Hatari ndogo zaidi, lakini viwango vya usalama ni muhimu |
+| Mathibitisho ya maarifa sifuri | Kuthibitisha kuwa miamala ya faragha ni halali bila kufichua maelezo | Hutegea mfumo wa thibitisho na dhana zake |
+| Makubaliano ya ufunguo | Husaidia pochi kusimba fiche data ya dokezo kwa wapokeaji | Huhitaji mapitio makini chini ya modeli ya tishio la quantum |
 
-Kompyuta ya quantum yenye nguvu ya kutosha inaweza kutishia mipango mingi ya sahihi inayotumika leo, ikiwa ni pamoja na sahihi zenye umbo la duaradufu. Hii ni muhimu kwa sababu sahihi ndiyo inayofahamisha mtandao kwamba muamala uliidhinishwa na ufunguo sahihi.
+Kompyuta ya quantum yenye uwezo wa kutosha inaweza kuhatarisha mifumo mingi ya sahihi inayotumiwa leo, ikiwemo sahihi za elliptic-curve. Hili ni muhimu kwa sababu sahihi ndiyo huiruhusu mtandao kujua kuwa muamala uliidhinishwa na ufunguo sahihi.
 
-Vitendaji vya hash ni tofauti. Algoriti ya Grover inaweza kuharakisha utafutaji wa nguvu kali, lakini haivunji vitendaji vya hash kwa njia ile ile ya moja kwa moja. Pembezo kubwa za usalama zinaweza kusaidia.
+Vitendakazi vya hash ni tofauti. Algoriti ya Grover inaweza kuharakisha utafutaji wa nguvu-nyingi, lakini haivunji vitendakazi vya hash kwa njia ileile ya moja kwa moja. Viwango vikubwa vya usalama vinaweza kusaidia.
 
-## Uandishi wa Kielektroniki wa Baada ya Quantum ni Nini?
+## Kriptografia Baada ya Quantum Ni Nini?
 
-Usimbaji fiche baada ya kiasi ni usimbaji fiche ulioundwa ili kubaki salama dhidi ya kompyuta za kawaida na kompyuta za quantum za siku zijazo.
+Kriptografia baada ya quantum ni kriptografia iliyoundwa kubaki salama dhidi ya kompyuta za kawaida na kompyuta za quantum za siku zijazo.
 
-Haimaanishi kwamba usimbaji fiche hutumia kompyuta ya quantum. Inamaanisha kwamba mfumo huo unategemea matatizo tofauti ya hesabu ngumu.
+Haimaanishi kuwa kriptografia hutumia kompyuta ya quantum. Humaanisha kuwa mfumo unatokana na matatizo tofauti magumu ya hisabati.
 
-Mnamo 2024, NIST ilitoa viwango vya kwanza vya baada ya kiasi vilivyokamilishwa:
+Mwaka 2024, NIST ilitoa viwango vya kwanza vilivyokamilishwa vya baada ya quantum:
 
-- **ML-KEM** kwa ajili ya kuanzishwa kwa funguo
+- **ML-KEM** kwa uanzishaji wa ufunguo
 - **ML-DSA** kwa sahihi za kidijitali
 - **SLH-DSA** kwa sahihi za kidijitali zinazotegemea hash
 
-Viwango hivi ni hatua muhimu, lakini blockchain haiwezi kubadilisha algoriti moja kwa moja kwa usiku mmoja. Sheria za makubaliano, pochi, pochi za vifaa, ukubwa wa miamala, ada, na faragha zote zinapaswa kuzingatiwa.
+Viwango hivi ni hatua kubwa muhimu, lakini blockchain haiwezi kubadilisha tu algoriti moja kwa nyingine kwa usiku mmoja. Sheria za makubaliano, pochi, hardware wallet, ukubwa wa miamala, ada, na faragha vyote lazima vizingatiwe.
 
-## Jinsi Hatari ya Quantum Inavyoonekana Kwenye Mnyororo
+## Jinsi Hatari ya Quantum Inavyojitokeza On-Chain
 
 Njia rahisi ya kufikiria kuhusu hatari ni:
 
-1. Mtumiaji huunda jozi ya vitufe.
-2. Data ya ufunguo wa umma au sahihi inaweza kuonekana kwenye mnyororo.
-3. Mshambuliaji wa quantum wa siku zijazo anaweza kutumia nyenzo hizo za umma kujifunza ufunguo wa faragha.
+1. Mtumiaji huunda jozi ya funguo.
+2. Data ya ufunguo wa umma au sahihi inaweza kuonekana on-chain.
+3. Mshambuliaji wa quantum wa siku zijazo anaweza kutumia nyenzo hiyo ya umma kujifunza ufunguo binafsi.
 4. Ikiwa fedha bado zinadhibitiwa na ufunguo huo, zinaweza kuwa hatarini.
 
-Blockchain zenye uwazi hufichua taarifa nyingi kwa muundo. Anwani, kiasi, na viungo vya miamala ni vya umma. Nyenzo muhimu za umma pia zinaweza kuonekana sarafu zinapotumika.
+Blockchain za uwazi hufichua taarifa nyingi kimakusudi. Anwani, kiasi, na uhusiano wa miamala ni wa umma. Nyenzo ya ufunguo wa umma inaweza pia kuonekana wakati sarafu zinapotumiwa.
 
-Hii ni sababu moja kwa nini utumiaji tena wa anwani ni hatari. Kutumia tena huwapa waangalizi data zaidi ya kuunganisha leo na huwapa washambuliaji wa siku zijazo nyenzo zaidi za kihistoria za kuchanganua.
+Hii ni sababu mojawapo inayofanya kutumia anwani tena kuwa hatari. Matumizi tena huwapa waangalizi data zaidi ya kuunganisha leo na huwapa washambuliaji wa siku zijazo nyenzo zaidi za kihistoria za kuchanganua.
 
-## Tofauti ni nini kuhusu Zcash?
+## Ni Nini Tofauti Kuhusu Zcash?
 
-Zcash inasaidia miamala iliyo wazi na iliyolindwa.
+Zcash inasaidia miamala ya uwazi na ya faragha.
 
-Zcash ya Uwazi hufanya kazi zaidi kama matumizi ya blockchain ya umma ya mtindo wa Bitcoin. Anwani, kiasi, na uhusiano wa miamala unaonekana.
+Matumizi ya uwazi ya Zcash hufanya kazi zaidi kama matumizi ya blockchain ya umma ya mtindo wa Bitcoin. Anwani, kiasi, na mahusiano ya miamala yanaonekana.
 
-Zcash Iliyolindwa ni tofauti. Miamala iliyolindwa hutumia uthibitisho wa kutojua chochote ili mtandao uweze kuthibitisha kwamba muamala unafuata sheria bila kufichua mtumaji, mpokeaji, au kiasi.
+Matumizi ya faragha ya Zcash ni tofauti. Miamala ya faragha hutumia mathibitisho ya maarifa sifuri ili mtandao uweze kuthibitisha kuwa muamala unafuata sheria bila kufichua mtumaji, mpokeaji, au kiasi.
 
-Hii inampa Zcash faida muhimu ya faragha:
+Hii huipa Zcash faida muhimu ya faragha:
 
-- Data ndogo ya miamala huchapishwa kwa kila mtu kuona.
-- Watumiaji huepuka kuunda grafu ya malipo ya umma wanapoendelea kuwa salama.
-- Waangalizi wa siku zijazo wana historia ndogo ya fedha za umma ya kuchambua.
-- Ufichuzi teule unaweza kutokea kupitia funguo za kutazama badala ya rekodi za umma kwa chaguo-msingi.
+- Data ndogo ya miamala huchapishwa ili kila mtu aione.
+- Watumiaji huepuka kuunda grafu ya umma ya malipo wanapobaki katika hali ya faragha.
+- Waangalizi wa siku zijazo wana historia ndogo ya kifedha ya umma ya kuchanganua.
+- Selective disclosure inaweza kufanyika kupitia funguo za kutazama badala ya rekodi zilizo wazi kwa umma kwa chaguo-msingi.
 
-Lakini Zcash iliyolindwa si kiotomatiki baada ya kiasi. Mabwawa yaliyolindwa bado yanategemea mawazo ya kriptografia. Uidhinishaji wa matumizi, ahadi za kumbuka, vibatilishaji, mifumo ya uthibitisho, usimbaji fiche, na funguo za pochi zote zinahitaji ukaguzi wa makini.
+Lakini matumizi ya faragha ya Zcash si baada ya quantum kiotomatiki. Mabwawa ya faragha bado hutegemea dhana za kriptografia. Uidhinishaji wa matumizi, commitment za madokezo, nullifier, mifumo ya thibitisho, usimbaji fiche, na funguo za pochi vyote vinahitaji mapitio makini.
 
 Toleo fupi:
 
-> Matumizi ya kinga hupunguza udhihirisho wa umma, lakini Zcash bado inahitaji maboresho ya makusudi baada ya kiasi.
+> Matumizi ya faragha hupunguza ufichuaji wa umma, lakini Zcash bado inahitaji maboresho ya makusudi ya baada ya quantum.
 
-## Ramani ya Hatari Zcash
+## Ramani ya Hatari ya Zcash
 
-| Eneo | Maelezo ya wanaoanza | Wasiwasi wa baada ya kiasi |
+| Eneo | Maelezo kwa wanaoanza | Wasiwasi wa baada ya quantum |
 | --- | --- | --- |
-| Anwani za uwazi | Anwani za umma na grafu ya miamala ya umma | Hatari zinazofanana na blockchain zingine zenye uwazi |
-| Idhini ya matumizi | Uthibitisho kwamba mtumiaji anaruhusiwa kutumia | Mipango ya sahihi inaweza kuhitaji kubadilishwa au kuhamishwa |
-| Maelezo yaliyolindwa | Kumbukumbu za kibinafsi za thamani ndani ya mabwawa yaliyolindwa | Baadhi ya vipengele vinaweza kuhitaji mawazo mapya au zana za kurejesha |
-| zk-SNARKs | Uthibitisho kwamba miamala iliyolindwa ni halali | Dhana za mfumo wa uthibitisho zinahitaji kupitiwa upya |
-| Kuchanganua pochi | Jinsi pochi zinavyopata na kusimbua noti zilizopokelewa | Makubaliano muhimu na usimbaji fiche wa noti unahitaji kukaguliwa |
-| Uhamiaji | Kuhamisha fedha kwenye usimbaji fiche salama zaidi | Lazima uepuke upotevu wa fedha na uvujaji wa faragha |
+| Anwani za uwazi | Anwani za umma na grafu ya umma ya miamala | Hatari zinazofanana na blockchain nyingine za uwazi |
+| Uidhinishaji wa matumizi | Thibitisho kwamba mtumiaji ameruhusiwa kutumia | Mifumo ya sahihi inaweza kuhitaji kubadilishwa au kuhamishwa |
+| Madokezo ya faragha | Rekodi binafsi za thamani ndani ya mabwawa ya faragha | Baadhi ya vipengele vinaweza kuhitaji dhana mpya au vifaa vya urejeshaji |
+| zk-SNARKs | Mathibitisho kwamba miamala ya faragha ni halali | Dhana za mfumo wa thibitisho zinahitaji mapitio |
+| Uchanganuzi wa pochi | Jinsi pochi zinavyopata na kusimbua madokezo yaliyopokelewa | Makubaliano ya ufunguo na usimbaji fiche wa madokezo vinahitaji mapitio |
+| Uhamishaji | Kuhamisha fedha hadi kriptografia salama zaidi | Lazima uepuke upotevu wa fedha na uvujaji wa faragha |
 
 ## Jinsi Zcash Inavyojiandaa
 
-### Zcash Ina Mchakato wa Kuboresha Mtandao
+### Zcash Ina Mchakato wa Uboreshaji wa Mtandao
 
-Zcash imebadilisha usimbaji wake wa maandishi hapo awali. Sapling ilifanya miamala iliyolindwa iwe rahisi kutumia. NU5 ilianzisha Orchard, Unified Addresses, na Halo 2.
+Zcash imebadilisha kriptografia yake hapo awali. Sapling ilifanya miamala ya faragha iwe rahisi kutumia. NU5 ilianzisha Orchard, Unified Addresses, na Halo 2.
 
-Hili ni muhimu kwa sababu utayari wa baada ya kiasi si kiraka cha programu cha mstari mmoja. Inahitaji uboreshaji wa mtandao ulioratibiwa, mabadiliko ya pochi, ukaguzi, na muda kwa watumiaji kuhama.
+Hili ni muhimu kwa sababu utayari wa baada ya quantum si kiraka cha programu cha mstari mmoja. Unahitaji maboresho yaliyoratibiwa ya mtandao, mabadiliko ya pochi, ukaguzi, na muda kwa watumiaji kuhamia.
 
-Maboresho ya awali Zcash yanaonyesha kuwa mfumo ikolojia una uzoefu wa kuhama kutoka usimbaji fiche wa zamani hadi miundo mipya.
+Maboresho ya awali ya Zcash yanaonyesha kuwa mfumo ikolojia una uzoefu wa kuhama kutoka kriptografia ya zamani kuelekea miundo mipya.
 
-### Halo na Orchard Zilipunguza Mawazo ya Zamani
+### Halo Na Orchard Zilipunguza Dhana za Zamani
 
-Halo 2 inatumiwa na Orchard, bwawa la kisasa Zcash's lenye ulinzi. Uboreshaji mmoja muhimu ni kwamba Halo iliondoa hitaji la usanidi unaoaminika wa mfumo wa kuzuia Orchard.
+Halo 2 inatumiwa na Orchard, bwawa la kisasa la faragha la Zcash. Uboreshaji mmoja muhimu ni kwamba Halo iliondoa hitaji la usanidi unaoaminika kwa mfumo wa thibitisho wa Orchard.
 
-Hilo si sawa na usalama wa baada ya kiasi. Bado ni muhimu kwa sababu inaonyesha kwamba Zcash inaweza kuchukua nafasi ya vitalu vikuu vya ujenzi wa kriptografia wakati miundo bora inapatikana.
+Hili si jambo lilelile na usalama baada ya quantum. Bado lina umuhimu kwa sababu linaonyesha kuwa Zcash inaweza kubadilisha vipengele vikuu vya ujenzi vya kriptografia wakati miundo bora inapopatikana.
 
-### ZIP 2005 Inalenga Urejeshaji wa Quantum
+### ZIP 2005 Inalenga Uwezo wa Kurejesha kwa Quantum
 
-ZIP 2005 inaitwa "Orchard Quantum Recoverability." Inapendekeza mabadiliko yanayokusudiwa kuwasaidia watumiaji wa Orchard kurejesha au kuhamisha fedha ikiwa mashambulizi ya quantum dhidi ya dhana za zamani yatakuwa ya vitendo.
+ZIP 2005 ina jina “Orchard Quantum Recoverability.” Inapendekeza mabadiliko yaliyokusudiwa kusaidia watumiaji wa Orchard kurejesha au kuhamisha fedha ikiwa mashambulizi ya quantum dhidi ya dhana za zamani yataanza kutekelezeka.
 
-Uwezo wa kurejesha si sawa na usalama kamili baada ya kiasi. Ni finyu na bado ni muhimu:
+Uwezo wa kurejesha si sawa na usalama kamili baada ya quantum. Ni finyu zaidi na bado una manufaa:
 
-- Usalama kamili baada ya kiasi hujaribu kuzuia mashambulizi ya kiasi kufanya kazi.
-- Urejeshaji huwapa watumiaji waaminifu njia bora zaidi ikiwa usimbaji fiche wa zamani unakuwa hatari.
+- Usalama kamili baada ya quantum hujaribu kuzuia mashambulizi ya quantum yasifanikiwe.
+- Uwezo wa kurejesha huwapa watumiaji waaminifu njia bora zaidi ikiwa kriptografia ya zamani itakuwa si salama.
 
-Kwa wanaoanza, fikiria hili kama mpango wa kutokea kwa dharura. Halichukui nafasi ya jengo lote, lakini linawasaidia watu kuondoka katika chumba cha zamani salama ikiwa kufuli la zamani litakuwa dhaifu.
+Kwa wanaoanza, fikiria hili kama mpango wa njia ya dharura. Hauchukui nafasi ya jengo lote, lakini huwasaidia watu kutoka salama katika chumba cha zamani ikiwa kufuli la zamani litadhoofika.
 
-### Mradi wa Tachyon Unatazamia Maboresho Makubwa ya Itifaki
+### Project Tachyon Inaelekea Kwenye Maboresho Makubwa Zaidi ya Itifaki
 
-Mradi wa Tachyon ni uboreshaji uliopendekezwa Zcash unaolenga ukuaji wa kiwango, usawazishaji, na hali. Tovuti yake ya umma inasema pendekezo hilo linalenga kupunguza miamala, kupunguza ukuaji wa hali ya kithibitishaji, na kupata faragha kamili baada ya kiasi kama athari ya upande.
+Project Tachyon ni uboreshaji unaopendekezwa wa Zcash unaolenga ukubwa, usawazishaji, na ukuaji wa hali. Tovuti yake ya umma inasema pendekezo linalenga kupunguza miamala, kupunguza ukuaji wa hali ya validator, na kupata faragha kamili baada ya quantum kama athari ya ziada.
 
-Kwa sababu Tachyon ni pendekezo, bado inategemea kazi ya uhandisi, mapitio, na idhini ya jamii kabla ya kuamilishwa. Inaeleweka vyema kama sehemu ya utafiti hai Zcash's na mwelekeo wa uboreshaji, si kama kipengele ambacho watumiaji tayari wanacho leo.
+Kwa sababu Tachyon ni pendekezo, bado inategemea kazi ya uhandisi, mapitio, na idhini ya jamii kabla ya kuwashwa. Inaeleweka vyema kama sehemu ya mwelekeo hai wa utafiti na maboresho wa Zcash, si kama kipengele ambacho watumiaji tayari wanacho leo.
 
-### Utafiti na Viwango Vinasonga
+### Utafiti Na Viwango Vinasongea
 
-Ulimwengu mpana wa usimbaji fiche pia unasonga mbele. Viwango vya NIST vya baada ya kiasi huwapa watekelezaji vipengele imara vya ujenzi kwa ajili ya sahihi na uanzishwaji muhimu. Watafiti wasio na ujuzi wanaendelea kusoma mifumo ya uthibitisho ambayo inaweza kuhimili mawazo ya kiasi.
+Ulimwengu mpana wa kriptografia pia unasongea. Viwango vya baada ya quantum vya NIST huwapa watekelezaji vipengele imara zaidi vya ujenzi kwa sahihi na uanzishaji wa ufunguo. Watafiti wa maarifa sifuri wanaendelea kuchunguza mifumo ya thibitisho inayoweza kustahimili dhana za quantum.
 
-Zcash inaweza kufaidika na kazi hiyo, lakini bado inapaswa kuibadilisha na blockchain inayohifadhi faragha.
+Zcash inaweza kunufaika na kazi hiyo, lakini bado lazima irekebishe kazi hiyo kwa blockchain inayohifadhi faragha.
 
-## Mbinu Zinazowezekana za Uboreshaji wa Baadaye
+## Mbinu Zinazowezekana za Maboresho ya Siku Zijazo
 
-### Idhini ya Matumizi Baada ya Kiasi
+### Uidhinishaji wa Matumizi Baada ya Quantum
 
-Zcash hatimaye inaweza kuhitaji idhini ya matumizi ambayo haitegemei mipango ya sahihi inayoweza kuathiriwa na quantum.
+Zcash huenda hatimaye ikahitaji uidhinishaji wa matumizi ambao hautegemei mifumo ya sahihi iliyo hatarini kwa quantum.
 
-Hii inaweza kutumia sahihi za baada ya kiasi, sahihi mseto, au muundo mwingine. Muundo mseto hutumia ukaguzi wa kitambo na baada ya kiasi wakati wa kipindi cha mpito, kwa hivyo mfumo hautegemei dhana moja tu.
+Hii inaweza kutumia sahihi za baada ya quantum, sahihi mseto, au muundo mwingine. Muundo mseto hutumia ukaguzi wa kawaida na wa baada ya quantum wakati wa kipindi cha mpito, ili mfumo usitegemee dhana moja pekee.
 
-Changamoto ni ukubwa na gharama. Saini za baada ya kiasi zinaweza kuwa kubwa kuliko sahihi za leo, ambazo huathiri ukubwa wa miamala, kipimo data, ada, pochi za simu, na pochi za vifaa.
+Changamoto ni ukubwa na gharama. Sahihi za baada ya quantum zinaweza kuwa kubwa kuliko sahihi za leo, jambo linaloathiri ukubwa wa muamala, bandwidth, ada, pochi za simu, na hardware wallet.
 
-### Anwani Mpya na Miundo ya Funguo
+### Miundo Mipya ya Anwani Na Funguo
 
-Usimbaji fiche mpya mara nyingi huhitaji funguo na anwani mpya. Watumiaji watahitaji njia iliyo wazi ya uhamishaji kutoka kwa miundo ya zamani hadi miundo salama zaidi.
+Kriptografia mpya mara nyingi huhitaji funguo na anwani mpya. Watumiaji wangehitaji njia wazi ya kuhamia kutoka miundo ya zamani hadi miundo salama zaidi.
 
-Uhamishaji unapaswa kuwa rahisi katika pochi. Watumiaji wengi hawapaswi kulazimika kuelewa kila undani wa kriptografia ili kuwa salama.
+Uhamishaji unapaswa kuwa rahisi kwenye pochi. Watumiaji wengi hawapaswi kulazimika kuelewa kila undani wa kriptografia ili wabaki salama.
 
-### Uhamiaji Unaolinda Faragha
+### Uhamishaji Unaohifadhi Faragha
 
-Uhamiaji ni nyeti hasa kwa Zcash. Ikiwa watumiaji wengi watahamisha fedha kutoka kwenye mabwawa ya zamani hadi kwenye mabwawa mapya katika mifumo dhahiri, uhamiaji wenyewe unaweza kuvuja taarifa.
+Uhamishaji ni nyeti hasa kwa Zcash. Ikiwa watumiaji wengi watahamisha fedha kutoka mabwawa ya zamani hadi mabwawa mapya kwa mifumo iliyo wazi, uhamishaji wenyewe unaweza kuvuja taarifa.
 
-Mpango mzuri wa uhamiaji unahitaji kulinda:
+Mpango mzuri wa uhamishaji unahitaji kulinda:
 
 - Fedha za watumiaji
-- Faragha ya mtumiaji
-- Utangamano wa pochi
-- Usaidizi wa kubadilishana
-- Usaidizi wa pochi ya vifaa
+- Faragha ya watumiaji
+- Ulinganifu wa pochi
+- Usaidizi wa soko la kubadilishana sarafu
+- Usaidizi wa hardware wallet
 - Usalama wa makubaliano ya mtandao
 
-### Mapitio ya Mfumo wa Uthibitisho wa Baada ya Kiasi
+### Mapitio ya Mfumo wa Thibitisho Baada ya Quantum
 
-Kubadilisha sahihi hakutoshi. Muundo Zcash's uliolindwa pia unategemea uthibitisho na ahadi zisizo na ujuzi.
+Kubadilisha sahihi hakutoshi. Muundo wa faragha wa Zcash pia hutegemea mathibitisho ya maarifa sifuri na commitment.
 
-Kazi ya baadaye inaweza kuhitaji kukagua au kubadilisha:
+Kazi ya siku zijazo inaweza kuhitaji kukagua au kubadilisha:
 
-- dhana zk-SNARK
-- Ahadi za polinomia
-- Haraka za changamoto za Fiat-Shamir
-- Kumbuka ahadi
-- Ujenzi wa kifuta nullifier
-- Mawazo ya mti wa Merkle
-- Kumbuka usimbaji fiche na tabia ya ufunguo wa kutazama
+- Dhana za zk-SNARK
+- Commitment za polinomu
+- Hash za changamoto za Fiat-Shamir
+- Commitment za madokezo
+- Ujenzi wa nullifier
+- Dhana za mti wa Merkle
+- Usimbaji fiche wa dokezo na tabia ya ufunguo wa kutazama
 
 Baadhi ya vipengele vinaweza kukubalika kwa vigezo vilivyorekebishwa. Vipengele vingine vinaweza kuhitaji miundo mipya.
 
-## Mifano ya Wanaoanza
+## Mifano kwa Wanaoanza
 
-### Mfano wa 1: Kufuli la Zamani
+### Mfano 1: Kufuli la Zamani
 
-Hebu fikiria sefu yenye kufuli imara leo. Zana mpya iliyobuniwa katika siku zijazo inaweza kufungua kufuli hiyo ya zamani haraka.
+Hebu fikiria sanduku salama lenye kufuli ambalo ni imara leo. Kifaa kipya kilichovumbuliwa siku zijazo kinaweza kufungua kufuli hilo la zamani haraka.
 
-Usimbaji fiche wa baada ya kiasi ni kama kubadilisha kufuli na muundo ambao kifaa kipya hakitarajiwi kuvunja.
+Kriptografia baada ya quantum ni kama kubadilisha kufuli kwa muundo ambao kifaa kipya hakitarajiwi kuuvunja.
 
-Kwa blockchain, kubadilisha kufuli ni vigumu kwa sababu kila pochi, nodi, ubadilishaji, na kifaa cha vifaa lazima kielewe muundo mpya.
+Kwa blockchain, kubadilisha kufuli ni vigumu kwa sababu kila pochi, node, soko la kubadilishana sarafu, na kifaa cha hardware lazima vielewe muundo mpya.
 
-### Mfano wa 2: Sanduku la Stakabadhi za Umma
+### Mfano 2: Sanduku la Risiti za Umma
 
-Data ya blockchain inayoonekana wazi ni kama kuweka kila risiti kwenye sanduku la umma milele. Hata kama hakuna mtu anayeweza kusoma kila muundo leo, zana za baadaye zinaweza kujifunza zaidi baadaye.
+Data ya blockchain ya uwazi ni kama kuweka kila risiti katika sanduku la umma milele. Hata kama hakuna anayeweza kusoma kila muundo leo, vifaa vya siku zijazo vinaweza kujifunza zaidi baadaye.
 
-Shielded Zcash hujaribu kuepuka kuchapisha risiti hizo hapo awali. Hilo husaidia faragha ya muda mrefu, lakini kufuli linalolinda mfumo uliolindwa bado linapaswa kupitiwa upya kwa ajili ya mustakabali wa quantum.
+Matumizi ya faragha ya Zcash hujaribu kuepuka kuchapisha risiti hizo tangu mwanzo. Hilo husaidia faragha ya muda mrefu, lakini kufuli linalolinda mfumo wa faragha bado lazima likaguliwe kwa ajili ya siku zijazo za quantum.
 
-### Mfano wa 3: Mpango wa Kuondoka
+### Mfano 3: Mpango wa Njia ya Kutokea
 
-Kurejesha ni kama kupanga njia ya kutokea kabla ya moto kutokea. Unatumaini hutahitaji, lakini ni salama zaidi kuibuni mapema kuliko wakati wa dharura.
+Uwezo wa kurejesha ni kama kupanga njia ya kutokea kabla ya moto kutokea. Unatumaini kutohitaji, lakini ni salama zaidi kuuunda mapema kuliko wakati wa dharura.
 
-ZIP 2005 inafaa wazo hili kwa maelezo ya Orchard.
+ZIP 2005 inalingana na wazo hili kwa madokezo ya Orchard.
 
-## Mambo Ambayo Watumiaji Wanaweza Kufanya Leo
+## Watumiaji Wanaweza Kufanya Nini Leo
 
-Watumiaji hawahitaji kuogopa. Kompyuta kubwa za umma za quantum zenye uwezo wa kuvunja usimbaji fiche wa blockchain uliotumika hazipatikani leo.
+Watumiaji hawahitaji kuingiwa na hofu. Kompyuta kubwa za quantum za umma zenye uwezo wa kuvunja kriptografia ya blockchain iliyotumwa hazipatikani leo.
 
-Tabia nzuri bado husaidia:
+Mazoea mazuri bado husaidia:
 
-- Pendelea matumizi ya Zcash yenye kinga inapowezekana.
+- Pendelea matumizi ya faragha ya Zcash inapowezekana.
 - Epuka kutumia anwani tena.
-- Weka pochi zikisasishwa.
-- Fuata matangazo ya uboreshaji wa mtandao Zcash.
-- Tazama mwongozo wa ZIP na pochi kuhusu urejeshaji au uhamishaji.
-- Usidhani shughuli ya uwazi ni ya faragha.
-- Usihamishe fedha kulingana na uvumi; subiri mwongozo wazi kutoka kwa watengenezaji Zcash wanaoaminika na timu za pochi.
+- Sasisha pochi.
+- Fuata matangazo ya maboresho ya mtandao wa Zcash.
+- Fuatilia ZIP na mwongozo wa pochi kuhusu uwezo wa kurejesha au uhamishaji.
+- Usidhani shughuli za uwazi ni za faragha.
+- Usihamishe fedha kwa kutegemea uvumi; subiri mwongozo wazi kutoka kwa wasanidi programu wa Zcash wanaoaminika na timu za pochi.
 
 ## Changamoto
 
-Uboreshaji wa baada ya kiasi ni mgumu kwa kila blockchain.
+Maboresho baada ya quantum ni magumu kwa kila blockchain.
 
-Changamoto za kawaida ni pamoja na:
+Changamoto za kawaida zinajumuisha:
 
 - Funguo na sahihi kubwa zaidi
 - Miamala mikubwa zaidi
-- Gharama za juu za uthibitishaji
-- Matumizi zaidi ya kipimo data
+- Gharama kubwa zaidi za uthibitishaji
+- Matumizi zaidi ya bandwidth
 - Ukaguzi mpya wa usalama
-- Usaidizi wa pochi ya vifaa
-- Utendaji wa pochi ya simu
-- Ujumuishaji wa kubadilishana na ulinzi
-- Uvujaji wa faragha wakati wa uhamiaji
+- Usaidizi wa hardware wallet
+- Utendaji wa pochi za simu
+- Ujumuishaji wa soko la kubadilishana sarafu na uhifadhi
+- Uvujaji wa faragha wakati wa uhamishaji
 - Makubaliano ya jamii kuhusu mabadiliko ya makubaliano
 
-Kwa Zcash, sehemu ngumu zaidi si tu kuweka sarafu zikitumika. Sehemu ngumu ni kuweka sarafu zikitumika huku zikihifadhi faragha inayofanya Zcash iwe tofauti.
+Kwa Zcash, sehemu ngumu zaidi si tu kuweka sarafu zikitumika. Sehemu ngumu ni kuweka sarafu zikitumika huku ikihifadhi faragha inayoifanya Zcash kuwa tofauti.
 
 ## Muhtasari
 
-Kompyuta za quantum hatimaye zinaweza kutishia baadhi ya usimbaji fiche unaotumiwa na blockchain. Usimbaji fiche baada ya quantum ndio jibu la muda mrefu, lakini lazima utumike kwa uangalifu.
+Kompyuta za quantum zinaweza hatimaye kuhatarisha baadhi ya kriptografia inayotumiwa na blockchain. Kriptografia baada ya quantum ni jibu la muda mrefu, lakini lazima itumiwe kwa uangalifu.
 
-Zcash haijakamilika kikamilifu baada ya kiasi leo. Hata hivyo, Zcash ina nguvu muhimu: miamala iliyolindwa hupunguza udhihirisho wa umma, mtandao una historia ya maboresho ya kriptografia, na utafiti wa sasa kama vile ZIP 2005 na Project Tachyon tayari unalenga hatari za quantum za siku zijazo.
+Zcash si baada ya quantum kikamilifu leo. Hata hivyo, Zcash ina nguvu muhimu: miamala ya faragha hupunguza ufichuaji wa umma, mtandao una historia ya maboresho ya kriptografia, na utafiti wa sasa kama vile ZIP 2005 na Project Tachyon tayari unalenga hatari za quantum za siku zijazo.
 
-Kwa wanaoanza, wazo kuu ni rahisi: faragha leo hupunguza udhihirisho wa data katika siku zijazo, na uboreshaji makini unaweza kusaidia Zcash kuelekea usalama imara wa enzi ya quantum bila kuathiri urahisi wa matumizi.
+Kwa wanaoanza, wazo kuu ni rahisi: faragha leo hupunguza ufichuaji wa data wa siku zijazo, na maboresho makini yanaweza kusaidia Zcash kuelekea usalama thabiti zaidi wa enzi ya quantum bila kuathiri urahisi wa matumizi.
 
 ## Kurasa Zinazohusiana
 
-- [Je Zcash ni Baada ya Quantum?](/zcash-tech/is-zcash-post-quantum) - Kilichobadilika Ironwood, kile ambacho bado kinaonekana, na jedwali la hali ya zamani
-- [Mabwawa ya Kuogelea Yenye Ngao](/using-zcash/shielded-pools) - Jinsi miamala iliyolindwa ya Zcash inavyolinda maelezo ya miamala
-- [Halo](/zcash-tech/halo) - Mfumo wa uthibitisho Zcash's bila mpangilio unaoaminika
-- [ZKP na zk-SNARKs](/zcash-tech/zk-snarks) - Jinsi uthibitisho wa maarifa yasiyo na msingi unavyofanya kazi katika Zcash
-- [Funguo za Kutazama](/zcash-tech/viewing-keys) - Jinsi ufichuzi wa kuchagua unavyofanya kazi kwa Zcash iliyolindwa
-- [Mali Zilizolindwa za Zcash](/zcash-tech/zcash-shielded-assets) - Mali zilizolindwa za baadaye na usaidizi wa mali binafsi
+- [Je, Zcash Ni Baada ya Quantum?](/zcash-tech/is-zcash-post-quantum) - Kile ambacho Ironwood ilibadilisha, kile ambacho bado kimefichuliwa, na jedwali la hali yenye tarehe
+- [Mabwawa ya Faragha](/using-zcash/shielded-pools) - Jinsi miamala ya faragha ya Zcash inavyolinda maelezo ya miamala
+- [Halo](/zcash-tech/halo) - Mfumo wa thibitisho wa Zcash bila usanidi unaoaminika
+- [ZKP na zk-SNARKs](/zcash-tech/zk-snarks) - Jinsi mathibitisho ya maarifa sifuri yanavyofanya kazi katika Zcash
+- [Funguo za Kutazama](/zcash-tech/viewing-keys) - Jinsi selective disclosure inavyofanya kazi kwa Zcash ya faragha
+- [Rasilimali za Faragha za Zcash](/zcash-tech/zcash-shielded-assets) - Rasilimali za faragha za siku zijazo na usaidizi wa rasilimali binafsi
 
 ## Marejeleo
 
-- [NIST: Viwango vya kwanza vya usimbaji fiche baada ya kiasi vilivyokamilishwa](https://www.nist.gov/news-events/news/2024/08/nist-releases-first-3-finalized-post-quantum-encryption-standards)
-- [Mradi wa Uandishi wa Hisabati wa NIST Baada ya Quantum](https://csrc.nist.gov/projects/post-quantum-cryptography)
-- [ZIP 2005: Urejeshaji wa Quantum Orchard](https://zips.z.cash/zip-2005)
-- [Mradi wa Tachyon](https://tachyon.z.cash/)
-- [Vipimo vya Itifaki ya Zcash](https://zips.z.cash/protocol/protocol.pdf)
+- [NIST: Viwango vya kwanza vilivyokamilishwa vya usimbaji fiche baada ya quantum](https://www.nist.gov/news-events/news/2024/08/nist-releases-first-3-finalized-post-quantum-encryption-standards)
+- [Mradi wa Kriptografia Baada ya Quantum wa NIST](https://csrc.nist.gov/projects/post-quantum-cryptography)
+- [ZIP 2005: Orchard Quantum Recoverability](https://zips.z.cash/zip-2005)
+- [Project Tachyon](https://tachyon.z.cash/)
+- [Uainishaji wa Itifaki wa Zcash](https://zips.z.cash/protocol/protocol.pdf)
 - [Kitabu cha Halo 2](https://zcash.github.io/halo2/)

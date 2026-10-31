@@ -1,197 +1,197 @@
 ![alt text](image-1.png)
-# Ironwood: Kuthibitisha Kwamba Pesa Haiwezi Kutengenezwa Kimakosa
+# Ironwood: Kuthibitisha Kwamba Pesa Haziwezi Kughushiwa
 
-### Jinsi Zcash alijibu mdudu na mashine-iliyopimwa ushahidi
+### Jinsi Zcash ilivyojibu hitilafu kwa thibitisho lililokaguliwa na mashine
 
-> **Series:** *Formal Verification* · **Part 3 ya 3**
-> Sehemu ya 1 na 2 kuweka kuthibitisha rasmi na mdudu Orchard; mwisho huu inaonyesha mkutano mawazo mawili katika mfumo halisi. Kila kitu muhimu ni kukumbushwa kama sisi kwenda.
-> ** Nini wewe kuondoka na:** uelewa sahihi wa nini Zcash kweli kuthibitishwa kuhusu yake mpya "Ironwood" pool, jinsi ushahidi ni muundo, kile gani na haina kufunika, jinsi ya zamani bwawa alikuwa kustaafu salama, na kwa nini hii inaonyesha kiwango kipya cha kujenga fedha cryptographic.
+> **Mfululizo:** *Uthibitishaji Rasmi* · **Sehemu ya 3 kati ya 3**
+> **Hadhira:** wanaoanza. Sehemu za 1 na 2 zinaanzisha uthibitishaji rasmi na hitilafu ya Orchard; hitimisho hili linaonyesha mawazo hayo mawili yakikutana katika mfumo halisi. Kila kinachohitajika kinakumbushwa tunapoendelea.
+> **Mtajifunza:** uelewa sahihi wa kile ambacho Zcash ilithibitisha hasa kuhusu bwawa lake jipya la “Ironwood”, jinsi thibitisho hilo lilivyoundwa, kile linachoshughulikia na kisichoshughulikia, jinsi bwawa la zamani lilivyostaafishwa kwa usalama, na kwa nini hili linaelekea kuwa kiwango kipya cha kutengeneza pesa za kifumbo.
 
-Katika Sehemu ya 1 tulijifunza nini maana yake kwa * kuthibitisha* mfumo sahihi. katika sehemu 2 sisi aliona kasoro halisi kwamba kupima amekosa miaka minne, chini-constrained elliptic curve kuzidisha ambayo inaweza kuwa kuruhusiwa ukosefu wa mipaka bandia asiyeonekana. makala hii ni azimio: jinsi Zcash akajibu si tu na patch, lakini pamoja na mashine checked ushahidi kwamba darasa nzima ya mdudu imeondoka.
-
----
-
-## 1. Kwa nini unapaswa kuhangaikia jambo hilo?
-
-When a bug threatens money, the usual response is to patch it and move on. Zcash did something more ambitious. Alongside a new shielded pool called **Ironwood**, activated on July 28, 2026, its engineers published a **machine-checked mathematical proof**, over **2,700 theorems** written in the **Lean** proof assistant, establishing that the new pool cannot create counterfeit coins under its stated assumptions. The proof is public, in the open-source `ironwood` kuhifadhi, na alichukua timu tatu za watafiti na cryptographers vizuri zaidi ya mwezi kukamilisha.
-
-Hii ni muhimu zaidi ya Zcash. Ni mojawapo ya maonyesho wazi kabisa katika ulimwengu halisi kwamba unaweza kuchukua mfumo wa kifedha ulio hai, andika kwa usahihi kile "hakuna udanganyifu" unamaanisha na *uthibitishe,* badala ya kutumaini vipimo vyako vilikuwa vya kina. Inabadilisha ahadi kuwa nadharia.
+Katika Sehemu ya 1 tulijifunza maana ya *kuthibitisha* mfumo kuwa sahihi. Katika Sehemu ya 2 tuliona dosari halisi ambayo majaribio hayakuigundua kwa miaka minne, uzidishaji wa mviringo wa duaradufu uliokuwa na vikwazo pungufu ambao ungeweza kuruhusu ughushi usioonekana usio na kikomo. Makala haya ndiyo suluhisho: jinsi Zcash ilivyojibu si kwa kiraka pekee, bali kwa thibitisho lililokaguliwa na mashine kwamba aina nzima ya hitilafu imeondolewa.
 
 ---
 
-## 2. wazo kuu: kuthibitisha vipimo, kuua darasa la mdudu
+## 1. Kwa nini hili likuhusu?
 
-Sehemu ya 2 ilimalizika kwa ufahamu uliofanya hili iwezekanavyo. Ikumbuke, kwani kila kitu hapa kinategemea:
+Hitilafu inapotishia pesa, jibu la kawaida ni kuitia kiraka na kuendelea. Zcash ilifanya jambo la kutamani zaidi. Sambamba na bwawa jipya la faragha (shielded) liitwalo **Ironwood**, lililoanzishwa tarehe 28 Julai 2026, wahandisi wake walichapisha **thibitisho la kihisabati lililokaguliwa na mashine**, lenye **zaidi ya teoremu 2,700** zilizoandikwa katika msaidizi wa uthibitisho wa **Lean**, likithibitisha kuwa bwawa jipya haliwezi kuunda sarafu ghushi chini ya dhana zake zilizotajwa. Thibitisho hilo ni la umma, katika hifadhi huria ya `ironwood`, na lilichukua timu tatu za watafiti na wataalamu wa kriptografia zaidi ya mwezi mmoja kulikamilisha.
 
-> An *undetectable* counterfeiting bug can only live in the protocol's **specification**, the mathematical description of what the circuit must enforce. Anything detectable would show up in the public accounting. So proving the specification sound eliminates the entire class of hidden-counterfeiting bug at once.
+Hili ni muhimu zaidi ya Zcash. Ni mojawapo ya maonyesho yaliyo wazi zaidi katika ulimwengu halisi kwamba unaweza kuchukua mfumo wa kifedha unaotumika, kuandika kwa usahihi maana ya “hakuna ughushi,” na *kuthibitisha* hilo, badala ya kutumaini majaribio yako yalikuwa ya kina. Hubadilisha ahadi kuwa teoremu.
 
-Kwa nini "tu katika vipimo"? kwa sababu kila block daima kumbukumbu ya maudhui kamili ya kila shughuli, ikiwa ni pamoja na uthibitisho wake. Kama * programu * kimakosa kukubalika biashara mbaya, mtu yeyote anaweza replay historia kupitia software kusahihishwa na kuona hiyo. ushahidi huo ni wa kudumu na umma. Tu kasoro katika msingi * math * unaweza kujificha milele, kwa sababu hakuna "toleo sahihi" kucheza dhidi yake. Hiyo ni kosa rasmi ukaguzi inalenga.
+---
 
-Kupima hundi * tabia ya sampuli pembejeo*, na Orchard mdudu siri hasa kwa sababu hakuna sampuli input hit yake. uthibitisho kuhusu vipimo inashughulikia ** wote** pembeji wakati huo huo, ikiwa ni pamoja kesi makali mtu yeyote bila kufikiri kujaribu. Hiyo ndiyo aina pekee ya dhamana nguvu kutosha kustaafu miaka minne-wazee hitilafu asiyeonekana kwa ujasiri.
+## 2. Wazo kuu: thibitisha vipimo, ondoa aina ya hitilafu
+
+Sehemu ya 2 ilimalizikia kwenye ufahamu uliowezesha hili. Ukumbuke, kwa sababu kila kitu hapa kinategemea huo:
+
+> Hitilafu ya ughushi *isiyogundulika* inaweza kuwepo tu katika **vipimo** (specification) vya itifaki, maelezo ya kihisabati ya kile ambacho mzunguko lazima utekeleze. Kitu chochote kinachogundulika kingeonekana katika uhasibu wa umma. Kwa hiyo kuthibitisha vipimo kuwa sahihi huondoa aina nzima ya hitilafu ya ughushi uliojificha mara moja.
+
+Kwa nini “tu katika vipimo”? Kwa sababu kila block hurekodi kwa kudumu maudhui kamili ya kila muamala (transaction), yakiwemo mathibitisho yake. Ikiwa *programu* ilikubali kimakosa muamala mbaya, yeyote angeweza kurudia historia kupitia programu iliyosahihishwa na kuliona hilo. Ushahidi huo ni wa kudumu na wa umma. Dosari katika *hisabati* ya msingi pekee inaweza kujificha milele, kwa sababu hakuna “toleo sahihi” la kulinganisha katika urudiaji. Hiyo ndiyo dosari ambayo uthibitishaji rasmi unalenga.
+
+Majaribio hukagua *tabia katika ingizo zilizochaguliwa*, na hitilafu ya Orchard ilijificha hasa kwa sababu hakuna ingizo lililochaguliwa lililoifikia. Thibitisho kuhusu vipimo hushughulikia ingizo **zote** kwa wakati mmoja, zikiwemo hali za ukingoni ambazo hakuna mtu angefikiria kujaribu. Hiyo ndiyo aina pekee ya dhamana yenye nguvu ya kutosha kustaafisha dosari isiyoonekana ya miaka minne kwa ujasiri.
 
 ![alt text](image-2.png)
 
 ---
 
-## 3. Ni nini hasa kilichothibitishwa?
+## 3. Nini hasa kilithibitishwa
 
-Uthibitisho huanzisha kichwa cha habari moja, iliyojengwa kutoka kwa kina zaidi chini yake.
+Thibitisho linaanzisha sifa moja kuu, iliyojengwa juu ya sifa ya kina zaidi chini yake.
 
-### Usawa wa usawa (kifungu cha kichwa)
+### Uadilifu wa salio (balance integrity) (kichwa kikuu)
 
-> ** Usawa wa usawa:** thamani iliyofichwa imehifadhiwa katika dimbwi la kulinda kamwe haizidi thamani ya umma ambayo imemiminika ndani yake.
+> **Uadilifu wa salio:** thamani iliyofichwa inayohifadhiwa katika bwawa la faragha haizidi kamwe thamani halisi ya umma iliyotiririka kuingia humo.
 
-Hii ni mali ya kupambana na bandia katika fomu wazi. Fedha inaweza kuingia kwenye bwawa la ulinzi (kuonekana kwa umma) na kuondoka (kujulikana kwa umma), lakini ndani, ambapo kiasi kinafichwa, hakuna thamani inayoweza kutekelezwa. Hebu tufanye iwe halisi na kitabu kidogo cha hesabu (arithmetic kuthibitishwa):
+Hii ndiyo sifa ya kupinga ughushi kwa lugha rahisi. Pesa zinaweza kuingia kwenye bwawa la faragha (zinaonekana hadharani) na kutoka humo (zinaonekana hadharani), lakini ndani, ambapo kiasi kimefichwa, hakuna thamani inayoweza kutungwa. Hebu tuilinganishe kwa daftari dogo la hesabu (hesabu iliyothibitishwa):
 
-- ** Uaminifu shughuli:** thamani ya pembejeo `5 + 3 = 8` kuzalisha matokeo thamani ya `4 + 4 = 8`. Thamani katika sawa thamani nje. usawa wa mizani anaendelea ✓
-- ** Jaribio la bandia:** thamani ya pembejeo sawa `8`, lakini matokeo ya `4 + 4 + 2 = 10`Hiyo ingekuwa mint . `2` usawa uadilifu ** inakataza hii: pool hawezi kamwe kulipa nje zaidi kuliko aliingia yake. 
+- **Muamala wa uaminifu:** ingizo zenye thamani ya `5 + 3 = 8` huzalisha matokeo yenye thamani ya `4 + 4 = 8`. Thamani inayoingia ni sawa na inayotoka. Uadilifu wa salio unadumishwa. ✓
+- **Jaribio la ughushi:** ingizo zilezile zenye thamani ya `8`, lakini matokeo ya `4 + 4 + 2 = 10`. Hilo lingeunda vipimo `2` kutoka pasipo kitu. Uadilifu wa salio **unakataa** hili: bwawa haliwezi kamwe kulipa zaidi ya kilichoingia humo. ✗
 
-usawa uadilifu ni taarifa ya hisabati kwamba hali ya pili kamwe inaweza kuzalisha shughuli halali.
+Uadilifu wa salio ni kauli ya kihisabati kwamba hali ya pili haiwezi kamwe kuzalisha muamala halali.
 
-### Ujuzi soundness (injini chini)
+### Uthabiti wa maarifa (knowledge soundness) (injini iliyo chini yake)
 
-To guarantee balance integrity, the researchers first had to prove a deeper and subtler property about the zero-knowledge proof system itself. Ordinary soundness (Part 2's "only true statements have a witness") turns out to be *not enough* for a shielded pool, for a fascinating reason: because a hidden transaction can contain anything, almost every statement technically *has* some witness. So the researchers proved a stronger property:
+Ili kuhakikisha uadilifu wa salio, watafiti walipaswa kwanza kuthibitisha sifa ya kina zaidi na tata kuhusu mfumo wenyewe wa thibitisho la maarifa sifuri (zero-knowledge). Uthabiti wa kawaida (kauli ya Sehemu ya 2 ya “kauli za kweli pekee zina shahidi”) unaonekana kuwa *hautoshi* kwa bwawa la faragha, kwa sababu ya kuvutia: kwa kuwa muamala uliofichwa unaweza kuwa na chochote, karibu kila kauli kitaalamu *ina* shahidi fulani. Kwa hiyo watafiti walithibitisha sifa yenye nguvu zaidi:
 
-> ** Ujuzi soundness:** mtu yeyote ambaye anaweza kuzalisha halali ya manunuzi ushahidi lazima *kweli kumiliki* na shahidi halali, yaani sarafu halisi, usahihi inayotokana, katika anwani sahihi.
+> **Uthabiti wa maarifa:** yeyote anayeweza kutokeza thibitisho halali la muamala lazima *awe na* shahidi halali, yaani sarafu halisi, zilizotokana kwa usahihi, katika anwani sahihi.
 
-Katika sehemu ya pili, kuna ushahidi wa kutosha kwamba hakuna pengo la uhalali katika taarifa. Hakuna kizuizi kinachokosekana ambacho kingeacha taarifa bandia kupotea. Ni mali halisi ambayo * kukosekana kwake ilikuwa mdudu wa Orchard. Kuthibitisha kuwa iko sasa kwa washuhuda wote wanaowezekana ni kile kinachofunga mlango huo.
+Kifaa rasmi cha hili ni **kitoa-shahidi** (extractor): utaratibu ambao, ukipewa mthibitishaji yeyote anayeweza kumshawishi mthibitishaji-kaguzi, unaweza kutoa shahidi halisi kutoka kwake. Ikiwa shahidi anaweza kutolewa daima, basi mthibitishaji mwenye kushawishi lazima kweli alikuwa naye. Kwa lugha ya Sehemu ya 2, uthabiti wa maarifa ni ahadi rasmi kwamba hakuna **pengo la uthabiti**, hakuna kikwazo kilichokosekana ambacho kingeruhusu kauli ya uongo kupenya. Hii ndiyo hasa sifa ambayo *kutokuwepo* kwake kulikuwa hitilafu ya Orchard. Kuthibitisha uwepo wake, kwa wathibitishaji wote wanaowezekana, ndiko kunakofunga mlango huo kabisa.
 
 ![alt text](image-3.png)
 
 ---
 
-## 4. Jinsi uthibitisho ulivyojengwa
+## 4. Jinsi thibitisho lilivyojengwa
 
-Uthibitisho huo ulikuwa ni juhudi kubwa ya kibinadamu, sio matokeo ya kushinikiza kitufe:
+Uthibitishaji ulikuwa juhudi kubwa ya kibinadamu, si matokeo ya kubonyeza kitufe:
 
-- Imeandikwa katika ** Lean** msaidizi uthibitisho (kutoka Sehemu ya 1: mashine ambayo inachunguza kila hatua mantiki).
-- Inajumuisha **zaidi ya theorems 2,700**, inapatikana kwa umma katika EU. `ironwood` kumbukumbu.
-- Produced by **three teams** of researchers and cryptographers over **more than a month**, including work led by Project Tachyon's Tal Derei, with contributions from Gregor Mitscha-Baude of zkSecurity and Daira-Emma Hopwood of the Zcash Open Development Lab, plus an independent parallel soundness proof by other cryptographers.
+- Uliandikwa katika msaidizi wa uthibitisho wa **Lean** (kutoka Sehemu ya 1: mashine inayokagua kila hatua ya kimantiki).
+- Una **zaidi ya teoremu 2,700**, zinazopatikana hadharani katika hifadhi ya `ironwood`.
+- Ulitolewa na **timu tatu** za watafiti na wataalamu wa kriptografia kwa muda wa **zaidi ya mwezi mmoja**, ukijumuisha kazi iliyoongozwa na Tal Derei wa Project Tachyon, michango kutoka kwa Gregor Mitscha-Baude wa zkSecurity na Daira-Emma Hopwood wa Open Development Lab ya Zcash, pamoja na thibitisho huru sambamba la uthabiti kutoka kwa wataalamu wengine wa kriptografia.
 
-To reason about the property, the Lean model describes an entire **ledger** as a list of transactions, each carrying its actions, its declared public value, and its signatures. A predicate the researchers call **ValidLedger** transcribes the network's consensus rules directly: every action's witness must satisfy the required conditions, no spend-marker (nullifier) may appear twice, every referenced tree state must be one the system genuinely reached, and every signature must verify. The theorems then quantify over **every** valid ledger. That phrase, "every valid ledger," is the whole point: not a sample, but all of them, a superset of anything a real attacker could ever assemble.
+Ili kufikiri kuhusu sifa hiyo, modeli ya Lean huelezea **daftari kuu** (ledger) zima kama orodha ya miamala, kila mmoja ukiwa na vitendo vyake, thamani yake ya umma iliyotangazwa, na sahihi zake. Kielezi ambacho watafiti wanakiita **ValidLedger** hunakili moja kwa moja kanuni za makubaliano (consensus) za mtandao: shahidi wa kila kitendo lazima atimize masharti yanayohitajika, hakuna alama ya matumizi (nullifier) inayoweza kuonekana mara mbili, kila hali ya mti inayorejelewa lazima iwe ile ambayo mfumo uliifikia kweli, na kila sahihi lazima ithibitike. Kisha teoremu hizo huhesabu juu ya **kila daftari kuu halali**. Kauli hiyo, “kila daftari kuu halali,” ndiyo hoja nzima: si sampuli, bali zote, mkusanyiko mpana zaidi ya chochote ambacho mshambulizi halisi angeweza kukusanya.
 
-The balance-integrity result is assembled from several ledger-level theorems, each proving one route to counterfeiting is closed: that every spend corresponds to a real earlier output, that total value is conserved, that a received note stays spendable and cannot be stolen, and that spending requires proper authorization. A separate piece, the **binding signature**, ties each transaction's hidden values to the public amount it declares, so hidden and public accounting cannot silently disagree.
-
----
-
-## 5. Mahali ambapo hesabu hukutana na programu ya kompyuta
-
-Swali la busara na uaminifu: uthibitisho ni kuhusu mfano wa hisabati, lakini mtandao huendesha * Rust code. * Tunajuaje nambari inalingana na mtindo?
-
-The team drew a careful boundary they call the verifier's **fingerprint**. Above the boundary, the Lean proofs reason about the verifier as a precise mathematical object. Below it sits the ordinary Rust implementation. The key argument is the same one from Part 2:
-
-> Njia yoyote programu halisi inaweza kupotoka kutoka mfano kuthibitishwa itakuwa * utekelezaji * mdudu, na udhaifu wa uendeshaji unaweza tu milele kuzalisha bandia ya kutambulika, kwa sababu kila uthibitisho uliokubaliwa umerekodiwa kabisa na unaweza kusakinishwa kupitia programu iliyorekebishwa.
-
-Hivyo uthibitisho hushughulikia darasa undetectable (vipimo), na rekodi ya umma kudumu inashughulikia darasani detectable, utekelezaji. Kati yao, hakuna mahali kwa ajili *undetectables* bandia mdudu kujificha. Timu pia msalaba-iliyoangaliwa, kwa kuendesha halisi kuthibitisha na kuthibitisha ni reproduces alama za vidole hasa juu ya kesi alitekwa.
+Matokeo ya uadilifu wa salio yamekusanywa kutoka kwa teoremu kadhaa za kiwango cha daftari kuu, kila moja ikithibitisha njia moja ya ughushi imefungwa: kwamba kila matumizi yanalingana na matokeo halisi ya awali, kwamba jumla ya thamani inahifadhiwa, kwamba dokezo (note) lililopokelewa linabaki linaweza kutumika na haliwezi kuibiwa, na kwamba matumizi yanahitaji idhini sahihi. Sehemu tofauti, **sahihi ya kuunganisha** (binding signature), huunganisha thamani zilizofichwa za kila muamala na kiasi cha umma kinachotangazwa, ili uhasibu uliofichwa na wa umma usitofautiane kimyakimya.
 
 ---
 
-## 6. tahadhari muhimu zaidi: "chini ya dhana zilizotajwa"
+## 5. Ambapo hisabati hukutana na programu
 
-Sehemu ya 1 alisisitiza kwamba uthibitisho dhamana mfumo hukutana na vipimo * chini ya madai alisema*, na kamwe maana "hakuna mende milele". timu Zcash alikuwa admirably sahihi kuhusu hasa hii, na uandishi wa elimu waaminifu lazima pia.
+Swali tata na la uaminifu: thibitisho linahusu modeli ya kihisabati, lakini mtandao huendesha msimbo wa Rust. Tunajuaje kuwa msimbo unalingana na modeli?
 
-Uthibitisho hupunguza usalama wa Ironwood chini ya seti ndogo ya kiwango, wazi jina dhana. Hasa, soundness yake inategemea juu ya ukali wa ** tofauti logarithm tatizo** kwenye curve elliptic Ironwood matumizi (a vizuri alisoma dhana, ambapo mashambulizi bora inayojulikana kuchukua kwa utaratibu wa `2^126` shughuli, mbali zaidi ya yoyote hesabu feasible), pamoja na dhana standard modeling kwa ajili ya kazi hash. mipaka mbili ni thamani ya kusema wazi:
+Timu iliweka mpaka makini wanaouita **alama ya utambulisho** (fingerprint) ya mthibitishaji-kaguzi. Juu ya mpaka huo, thibitisho za Lean hufikiri kuhusu mthibitishaji-kaguzi kama kitu sahihi cha kihisabati. Chini yake kuna utekelezaji wa kawaida wa Rust. Hoja kuu ni ileile ya Sehemu ya 2:
 
-- ** Inachukua chini ya dhana hizo za kificho.** Ikiwa msingi wa msingi ulivunjwa, dhamana ingepotea. Hii ni kawaida na haiepukiki; kimsingi wote uliowekwa kwenye cryptography unategemea mawazo kama hayo.
-- ** Inafunika usawa wa usawa, sio faragha.** Uthibitisho ni juu ya uadilifu wa usambazaji (hakuna pesa bandia). Haina * madai ya kudhihirisha dhamana tofauti za faragha za dimbwi, ambazo ni mali tofauti na hoja tofauti.
+> Njia yoyote ambayo programu halisi ingeweza kupotoka kutoka kwa modeli iliyothibitishwa ingekuwa hitilafu ya *utekelezaji*, na hitilafu za utekelezaji zinaweza tu kuzalisha ughushi *unaogundulika*, kwa sababu kila thibitisho linalokubaliwa hurekodiwa kwa kudumu na linaweza kurudiwa kupitia programu iliyosahihishwa.
 
-Mbali na kudhoofisha mafanikio, kutaja mipaka hii ni nini hufanya kuaminika. Madai ni sahihi: * chini ya dhana za kawaida za cryptographic, hifadhi hii haiwezi kutengeneza sarafu bandia zisizoweza kugunduliwa.* Hiyo ni nadharia, sio tumaini, na upeo wake wa uhakika unatajwa waziwazi.
+Kwa hiyo thibitisho hushughulikia aina isiyogundulika (vipimo), na rekodi ya kudumu ya umma hushughulikia aina inayogundulika (utekelezaji). Kati yao, hakuna mahali pa hitilafu ya ughushi *isiyogundulika* kujificha. Timu pia ilihakiki kwa mlinganisho, kwa kuendesha mthibitishaji-kaguzi halisi na kuthibitisha kuwa inazalisha alama ya utambulisho sawasawa katika matukio yaliyonaswa.
+
+---
+
+## 6. Tahadhari muhimu zaidi: “chini ya dhana zilizotajwa”
+
+Sehemu ya 1 ilisisitiza kwamba thibitisho linahakikisha mfumo unatimiza vipimo *chini ya dhana zilizotajwa*, na kamwe halimaanishi “hakuna hitilafu yoyote kamwe.” Timu ya Zcash ilikuwa sahihi kwa kupendeza kuhusu hili hasa, na uandishi wa kielimu wa uaminifu unapaswa kuwa hivyo pia.
+
+Thibitisho hupunguza usalama wa Ironwood hadi kwenye seti ndogo ya dhana za kawaida zilizopewa majina wazi. Hasa, uthabiti wake unategemea ugumu wa **tatizo la logaritimu tambuzi** (discrete logarithm problem) kwenye mviringo wa duaradufu unaotumiwa na Ironwood (dhana iliyofanyiwa utafiti wa kina, ambapo shambulio bora linalojulikana lingehitaji takribani shughuli `2^126`, mbali zaidi ya hesabu yoyote inayowezekana), pamoja na dhana za kawaida za uundaji wa modeli wa kazi ya heshi. Mipaka miwili inastahili kusemwa wazi:
+
+- **Unatumika chini ya dhana hizo za kriptografia.** Ikiwa dhana ya msingi ingevunjwa, dhamana hiyo ingetoweka. Hili ni la kawaida na haliwezi kuepukika; kimsingi kriptografia yote inayotumika hutegemea dhana kama hizo.
+- **Unashughulikia uadilifu wa salio, si faragha.** Thibitisho linahusu uthabiti wa ugavi (hakuna pesa bandia). Halidai kuthibitisha dhamana tofauti za faragha za bwawa, ambazo ni sifa tofauti zenye hoja tofauti.
+
+Mbali na kudhoofisha mafanikio haya, kutaja mipaka hii ndiko kunakofanya yaaminike. Dai ni sahihi: *chini ya dhana za kawaida za kriptografia, bwawa hili haliwezi kuunda sarafu ghushi zisizogundulika.* Hiyo ni teoremu, si matumaini, na upeo wake sahihi umeelezwa wazi.
 
 ![alt text](image-4.png)
 
 ---
 
-## 7. Kuondoa maji ya zamani kwa usalama: kijia cha kugeuza hewa kinachobadilika-badilika
+## 7. Kustaafisha bwawa la zamani kwa usalama: turnstile
 
-Kuthibitisha * mpya ya* pool sauti bado inachukua swali: nini kuhusu * zamani * Orchard bwawa, ambapo kasoro aliishi kwa miaka minne? Huwezi un-kuficha yake nyuma. Lakini unaweza amefungwa baadaye yake.
+Kuthibitisha bwawa *jipya* kuwa sahihi bado kunaacha swali: je, bwawa la zamani la Orchard, ambamo dosari iliishi kwa miaka minne? Huwezi kufichua yaliyopita. Lakini unaweza kuweka mpaka wa yajayo.
 
-Zcash ilianzisha utaratibu aitwaye **turnstile**. sheria ni rahisi na nguvu:
+Zcash ilianzisha utaratibu unaoitwa **turnstile**. Kanuni ni rahisi na yenye nguvu:
 
-> Thamani inaweza tu kuondoka pool zamani hadi kiasi kwamba verifiably aliingia ndani yake.
+> Thamani inaweza kutoka katika bwawa la zamani hadi kiwango cha kiasi kilichoingia humo kinachoweza kuthibitishwa.
 
-Because money moving into and out of a shielded pool is publicly visible (only the activity *inside* is hidden), the turnstile lets the whole network check that no more comes out than ever went in. If counterfeit coins had been created inside the old pool, they would hit this cap and fail to exit. And as honest funds migrate out and no excess appears, the community gains strong public evidence that the flaw was never exploited. It is the closest thing to auditing a private pool's supply without breaking its privacy, and it brings supply integrity closer to the transparent model of a chain like Bitcoin while preserving Zcash's privacy.
+Kwa sababu pesa zinazoingia na kutoka katika bwawa la faragha zinaonekana hadharani (ni shughuli *ndani* pekee zilizofichwa), turnstile huruhusu mtandao mzima kukagua kwamba hakuna zaidi inayotoka kuliko iliyowahi kuingia. Kama sarafu ghushi zingeundwa ndani ya bwawa la zamani, zingefikia kikomo hiki na zishindwe kutoka. Na fedha za uaminifu zinapohama kutoka na hakuna ziada inayoonekana, jumuiya hupata ushahidi thabiti wa umma kwamba dosari hiyo haikuwahi kutumiwa. Hii ndiyo kitu cha karibu zaidi na kukagua ugavi wa bwawa la faragha bila kuvunja faragha yake, na huleta uadilifu wa ugavi karibu zaidi na modeli ya uwazi ya mnyororo kama Bitcoin huku ikihifadhi faragha ya Zcash.
 
 ![alt text](image-5.png)
 
-Ironwood yenyewe inatumia tena mzunguko wa uthibitisho * uliosahihishwa, huanza upya na dimbwi tupu, na inaongeza ulinzi unaotazama mbele (pamoja na vifungu ili fedha ziweze kubaki kupatikana ikiwa kompyuta za quantum zitakazotishia usiri wa leo). Shughuli mpya ya kulindwa sasa inapita kupitia Ironwood, wakati bwawa la zamani la Orchard limezuiliwa kwa uondoaji.
+Ironwood yenyewe hutumia tena mzunguko wa thibitisho *uliorekebishwa*, huanza upya kwa bwawa tupu, na huongeza ulinzi wa kuangalia mbele (ukiwa na masharti ya fedha kubaki zinaweza kurejeshwa iwapo kompyuta za kwanta za siku zijazo zingetishia kriptografia ya leo). Shughuli mpya za faragha sasa hupitia Ironwood, huku bwawa la zamani la Orchard likizuiwa kwa utoaji pekee.
 
 ---
 
-## 8. picha kubwa: cryptography juu ya uhakika
+## 8. Picha kubwa zaidi: kriptografia yenye uhakika wa juu
 
-Ironwood is part of a broader shift in how Zcash builds. Its next-generation scaling effort (an architecture called **Tachyon**, built on recursive proofs and a toolkit called **Ragu**) is being developed under a philosophy sometimes called **high-assurance cryptography**: treating machine-checked formal verification not as an afterthought, but as a standard part of shipping novel cryptographic systems.
+Ironwood ni sehemu ya mabadiliko mapana katika jinsi Zcash inavyojenga. Juhudi yake ya kizazi kijacho ya kupanua uwezo (scaling) (usanifu unaoitwa **Tachyon**, uliojengwa juu ya mathibitisho ya urejeleaji na mkusanyiko wa vifaa unaoitwa **Ragu**) unaendelezwa chini ya falsafa wakati mwingine iitwayo **kriptografia yenye uhakika wa juu** (high-assurance cryptography): kuchukulia uthibitishaji rasmi unaokaguliwa na mashine si kama jambo la baadaye, bali kama sehemu ya kawaida ya kutoa mifumo mipya ya kriptografia.
 
-The logic is compelling. Cutting-edge cryptography is exactly where human intuition is weakest and where a subtle, untested edge case can hide for years, as Orchard showed. Proving the specification is the one technique that scales to "all possible inputs" and closes those gaps by construction. The team has signaled it intends to extend this scrutiny further over time, toward the implementation and beyond. Expect to see this bar adopted more widely, in and beyond Zcash.
+Mantiki yake inashawishi. Kriptografia ya kisasa kabisa ndiyo hasa eneo ambako angalizo la binadamu ni dhaifu zaidi na ambako hali fiche ya ukingoni isiyojaribiwa inaweza kujificha kwa miaka, kama Orchard ilivyoonyesha. Kuthibitisha vipimo ndiyo mbinu moja inayopanuka hadi “ingizo zote zinazowezekana” na kuziba mapengo hayo kwa muundo. Timu imeashiria kuwa inakusudia kupanua uchunguzi huu zaidi kadiri muda unavyokwenda, kuelekea utekelezaji na zaidi ya hapo. Tarajia kiwango hiki kipitishwe kwa upana zaidi, ndani na nje ya Zcash.
 
 ---
 
-## 9. Mtu anayetoa taarifa kwa unyoofu kwamba hana hatia ya kosa fulani
+## 9. Kanusho la uaminifu
 
-We simplified for clarity. The real Lean development is far more detailed than the sketch here, with precise definitions of actions, statements, commitments, nullifiers, and signatures; "balance integrity" and "knowledge soundness" have exact formal definitions we stated only in words; the reduction to discrete-log hardness passes through several intermediate models (an algebraic model of the prover and a random-oracle model of the hash) that we compressed into "standard assumptions"; and we described the fingerprint and turnstile at a conceptual level. None of this changes the essential story: a specification of "no counterfeiting," a machine-checked proof over all valid ledgers, an explicit and honest statement of scope and assumptions, and a safe retirement of the flawed pool. For the authoritative account, consult Project Tachyon's published verification writeups and the `ironwood` uthibitisho hazina.
+Tumerahisisha kwa ajili ya uwazi. Uendelezaji halisi wa Lean una maelezo mengi zaidi kuliko muhtasari huu, ukiwa na fasili sahihi za vitendo, kauli, commitment, nullifier, na sahihi; “uadilifu wa salio” na “uthabiti wa maarifa” zina fasili rasmi sahihi tulizozieleza kwa maneno pekee; upunguzaji hadi ugumu wa logaritimu tambuzi hupitia modeli kadhaa za kati (modeli ya kialjebra ya mthibitishaji na modeli ya random-oracle ya heshi) ambazo tulizifupisha kuwa “dhana za kawaida”; na tulielezea alama ya utambulisho na turnstile katika kiwango cha kimawazo. Hakuna kati ya haya kinachobadilisha hadithi muhimu: vipimo vya “hakuna ughushi,” thibitisho lililokaguliwa na mashine juu ya madaftari makuu yote halali, kauli ya wazi na ya uaminifu kuhusu upeo na dhana, na kustaafishwa kwa usalama kwa bwawa lenye dosari. Kwa maelezo yenye mamlaka, soma maandiko ya uthibitishaji yaliyochapishwa ya Project Tachyon na hifadhi ya thibitisho ya `ironwood`.
 
 ---
 
 ## 10. Muhtasari
 
-- Zcash akajibu Orchard mdudu si tu na patch lakini kwa ** mashine-iliyopimwa ushahidi** (zaidi ya theorems 2,700 katika Lean, inapatikana hadharani) kwa ajili yake mpya Ironwood pool.
-- Ushahidi huanzisha ** usawa wa usawa** (dimbwi kamwe hulipa zaidi ya uliingia kwa umma), kujengwa juu ya uhalali wa maarifa * (ushahidi halali unahitaji kuthibitisha kweli kushikilia shahidi halisi, alithibitishwa kupitia ** extractor **). Uhalali na ujuzi ni mali hasa ambayo pengo lilikuwa mdudu wa Orchard.
-- Ni sababu kuhusu ** kila kitabu halali**, si sampuli kesi, ambayo ni nini kufunga darasa la siri-ulaghai mdudu kwamba kupima missed.
-- Math-to-programu pengo ni kushughulikiwa na ** alama ya vidole ** mpaka: bugs undetectable wanakataliwa nje kwa ushahidi, na yoyote utekelezaji kupotoka itakuwa ** detectable** katika rekodi ya kudumu umma.
-- Dhamana ni alielezea hasa: inashikilia chini ya ** diskret-log ugumu na kiwango hash dhana**, na inashughulikia ** counterfeiting, si faragha. uaminifu huu ni kipengele, sio udhaifu.
-- ** Turntile** salama retires pool zamani kwa capping exits yake katika amana zake verifiable, kufichua bandia yoyote na kujenga ushahidi wa umma ya uadilifu usambazaji.
-- Ironwood huonyesha hatua kuelekea ** high-uhakikisho cryptography**, ambapo uthibitishaji rasmi ni sehemu ya kawaida ya kujenga riwaya fedha Cryptographic.
+- Zcash ilijibu hitilafu ya Orchard si kwa kiraka pekee bali kwa **thibitisho lililokaguliwa na mashine** (lenye **zaidi ya teoremu 2,700** katika **Lean**, linalopatikana hadharani) kwa bwawa lake jipya la **Ironwood**.
+- Thibitisho linaanzisha **uadilifu wa salio** (bwawa haliwahi kulipa zaidi ya kilichoingia humo hadharani), uliojengwa juu ya **uthabiti wa maarifa** (thibitisho halali huhitaji mthibitishaji awe kweli na shahidi halisi, anayethibitishwa kupitia **kitoa-shahidi**). Uthabiti wa maarifa ndiyo hasa sifa ambayo pengo lake lilikuwa hitilafu ya Orchard.
+- Linatafakari kuhusu **kila daftari kuu halali**, si matukio yaliyochaguliwa, jambo ambalo hufunga aina ya hitilafu ya ughushi iliyofichwa ambayo majaribio hayakuigundua.
+- Pengo kati ya hisabati na programu hushughulikiwa kwa mpaka wa **alama ya utambulisho**: hitilafu zisizogundulika huondolewa na thibitisho, na upotovu wowote wa utekelezaji ungekuwa **unaogundulika** katika rekodi ya kudumu ya umma.
+- Dhamana inaelezwa kwa usahihi: inatumika chini ya **ugumu wa logaritimu tambuzi na dhana za kawaida za heshi**, na inashughulikia **ughushi, si faragha**. Uaminifu huu ni sifa nzuri, si udhaifu.
+- **Turnstile** hustaafisha bwawa la zamani kwa usalama kwa kuweka ukomo wa kutoka kwake kuwa amana zake zinazoweza kuthibitishwa, kufichua ughushi wowote na kujenga ushahidi wa umma wa uadilifu wa ugavi.
+- Ironwood inaonyesha mwelekeo kuelekea **kriptografia yenye uhakika wa juu**, ambamo uthibitishaji rasmi ni sehemu ya kawaida ya kutengeneza pesa mpya za kifumbo.
 
 ---
 
-## Orodha ya maneno
+## Kamusi
 
-| Muhula | Maana ya Kiingereza cha kawaida |
+| Neno | Maana kwa Kiingereza rahisi |
 |---|---|
-| **Ironwood** | Bwawa jipya Zcash's lenye ulinzi (2026), likichukua nafasi ya bwawa Orchard lenye dosari |
-| **Balance integrity** | Bwawa la kuogelea halilipi thamani zaidi ya kuingia hadharani |
-| **Knowledge soundness** | Ushahidi halali unahitaji mthibitishaji kuwa na ushahidi halisi |
-| **Extractor** | Utaratibu unaomtoa shahidi kutoka kwenye uthibitisho wowote unaoshawishi |
-| **Lean** | Msaidizi wa uthibitishaji alitumika kukagua uthibitishaji kwa mashine |
-| **ValidLedger** | Mfano rasmi wa makubaliano hutawala nadharia za mantiki |
-| **Fingerprint** | Mpaka kati ya hesabu iliyothibitishwa na programu ya Rust inayoendeshwa |
-| **Under stated assumptions** | Uthibitisho umetoa dhana zilizotajwa za kriptografia |
-| **Turnstile** | Sheria inayoweka mipaka ya njia za kutoka za bwawa la kuogelea kwenye amana zake zinazoweza kuthibitishwa |
-| **High-assurance cryptography** | Kujenga crypto kwa uthibitisho rasmi kama hatua ya kawaida |
+| **Ironwood** | Bwawa jipya la faragha la Zcash (2026), linalochukua nafasi ya bwawa lenye dosari la Orchard |
+| **Balance integrity** | Bwawa halilipi kamwe thamani zaidi ya iliyoingia humo hadharani |
+| **Knowledge soundness** | Thibitisho halali huhitaji mthibitishaji awe na shahidi halisi |
+| **Extractor** | Utaratibu unaotoa shahidi kutoka kwa mthibitishaji yeyote mwenye kushawishi |
+| **Lean** | Msaidizi wa uthibitisho anayetumiwa kukagua uthibitishaji kwa mashine |
+| **ValidLedger** | Modeli rasmi ya kanuni za makubaliano ambazo teoremu hutafakari juu yake |
+| **Fingerprint** | Mpaka kati ya hisabati iliyothibitishwa na programu ya Rust inayotekelezwa |
+| **Under stated assumptions** | Thibitisho hutumika mradi dhana za kriptografia zilizotajwa zinatumika |
+| **Turnstile** | Kanuni inayoweka ukomo wa kutoka kwa bwawa kuwa amana zake zinazoweza kuthibitishwa |
+| **High-assurance cryptography** | Kutengeneza kriptografia huku uthibitishaji rasmi ukiwa hatua ya kawaida |
 
 ---
 
-## FAQs
+## Maswali Yanayoulizwa Mara kwa Mara
 
-** Je, uthibitisho maana Ironwood ni bug-bure?**
-Hapana, na haidai kuwa. Inathibitisha mali moja sahihi, usawa wa uwiano, chini ya dhana zilizowekwa. Hiyo inakataza udanganyifu usioonekana, sio kila mdudu anayeweza kufikiriwa.
+**Je, thibitisho linamaanisha Ironwood haina hitilafu?**
+Hapana, wala halidai hivyo. Linathibitisha sifa moja sahihi, uadilifu wa salio, chini ya dhana zilizotajwa. Hilo huondoa ughushi usiogundulika, si kila hitilafu inayowezekana.
 
-** Je, uthibitisho dhamana shughuli zangu ni binafsi?**
-Hapana. uthibitisho inashughulikia ugavi soundness (hakuna fedha bandia), si tofauti ya hifadhi faragha dhamana hizo ni hoja tofauti.
+**Je, thibitisho linahakikisha miamala yangu ni ya faragha?**
+Hapana. Uthibitishaji unashughulikia uthabiti wa ugavi (hakuna pesa bandia), si dhamana tofauti za faragha za bwawa. Hizo hujadiliwa kwa njia tofauti.
 
-**Kwa nini uamini uthibitisho ulioandikwa na wanadamu (na AI)?**
-Kwa sababu ni mashine-iliyoangaliwa. Lean uthibitisho msaidizi kuthibitisha kila hatua mechanically, hivyo imani hutegemea vipimo na madai aitwaye, si juu ya huduma yoyote binadamu au AI katika kila hatua.
+**Kwa nini uliamini thibitisho lililoandikwa na binadamu (na AI)?**
+Kwa sababu limekaguliwa na mashine. Msaidizi wa uthibitisho wa Lean huhakiki kila hatua kimitambo, kwa hiyo imani hutegemea vipimo na dhana zilizotajwa, si umakini wa binadamu au AI katika kila hatua.
 
-** Nini kinachotokea kwa sarafu bado katika bwawa zamani Orchard?**
-Wanaweza kuondolewa, lakini tu hadi kiasi kwamba verifiably aliingia, kutekelezwa na turnstile. Hii wote inalinda uadilifu usambazaji na husaidia kuonyesha mdudu zamani kamwe alitumia vibaya.
+**Nini hutokea kwa sarafu ambazo bado ziko katika bwawa la zamani la Orchard?**
+Zinaweza kutolewa, lakini hadi tu kiwango cha kiasi kilichoingia kinachoweza kuthibitishwa, kikitekelezwa na turnstile. Hili hulinda uadilifu wa ugavi na kusaidia kuonyesha kwamba dosari ya zamani haikuwahi kutumiwa.
 
-** Je, huu ndio mwisho wa hadithi?**
-Ni hatua muhimu, si mstari wa kumaliza. usanifu ujao Zcash ya (Tachyon, na Ragu toolkit) ni kuwa kujengwa kwa uthibitisho rasmi kama mazoezi standard, kupanua mbinu hii zaidi.
+**Je, hii ndiyo mwisho wa hadithi?**
+Ni hatua muhimu, si mstari wa kumalizia. Usanifu wa baadaye wa Zcash (Tachyon, wenye mkusanyiko wa vifaa wa Ragu) unajengwa huku uthibitishaji rasmi ukiwa desturi ya kawaida, ukipanua mbinu hii zaidi.
 
 ---
 
-### Jaribu kutambua hisia zako za ndani.
+### Jaribu angalizo lako
 
-Mtu anadai: "Kwa kuwa Ironwood imethibitishwa rasmi, sasa haiwezekani kwa chochote kwenda vibaya na Zcash". Kutumia maoni kutoka sehemu zote tatu, toa sababu mbili tofauti ambazo madai ni nguvu sana. * ((Jibu hapa chini.)) *
+Mtu anadai: “Kwa kuwa Ironwood imethibitishwa rasmi, sasa haiwezekani chochote kwenda vibaya kamwe kwa Zcash.” Kwa kutumia mawazo kutoka sehemu zote tatu, toa sababu mbili tofauti kwa nini dai hilo ni kubwa kupita kiasi. *(Jibu hapa chini.)*
 
-<details><summary>Answer</summary>
+<details><summary>Jibu</summary>
 
-Kwanza, uthibitisho inashughulikia * maalum* mali (usawa usawa) chini ya * alisema dhana * (discrete-log ugumu na kiwango hash modeling). Kama cryptographic dhana walikuwa kuvunjwa, au kama tatizo lilitokea nje kile kilichoainishwa (kwa mfano katika faragha, katika programu mkoba, au baadhi sehemu unproven), ushahidi anasema chochote kuhusu hilo. Pili, kuthibitisha rasmi dhamana mfumo hukutana * vipimo kwamba alikuwa imeandikwa; ikiwa kuwa specifikation yenyewe alishindwa kukamata mahitaji fulani halisi, ushahidi itakuwa uaminifu vyeti kitu kibaya. Pointi zote mbili ni Sehemu 1 tahadhari reiterated: ushahidi sahihi na bounded, nguvu hasa kwa sababu wigo wake ni waaminifu, si blanketi kuhakikisha kwamba hakuna jambo inaweza kwenda vibaya wakati wowote.
+Kwanza, thibitisho linashughulikia sifa *maalumu* (uadilifu wa salio) chini ya *dhana zilizotajwa* (ugumu wa logaritimu tambuzi na uundaji wa modeli wa kawaida wa heshi). Ikiwa dhana ya kriptografia ingevunjwa, au tatizo lingetokea nje ya kilichobainishwa (kwa mfano katika faragha, katika programu ya pochi, au katika sehemu fulani isiyothibitishwa), thibitisho halisemi chochote kulihusu. Pili, uthibitishaji rasmi huhakikisha mfumo unatimizia *vipimo vilivyoandikwa*; ikiwa vipimo hivyo vyenyewe vilishindwa kujumuisha hitaji fulani halisi, thibitisho lingethibitisha kwa uaminifu jambo lisilo sahihi. Hoja zote mbili ni tahadhari ya Sehemu ya 1 iliyosemwa tena: thibitisho ni sahihi na lenye mipaka, lina nguvu hasa kwa sababu upeo wake ni wa uaminifu, si dhamana ya jumla kwamba hakuna chochote kinachoweza kwenda vibaya kamwe.
 </details>
 
 ---
 
-### Mfululizo, kamilifu
+### Mfululizo, kamili
 
-Across three parts we moved from a general idea to a live application: what it means to **prove** software correct rather than test it (Part 1), how a real under-constrained circuit could have minted invisible money (Part 2), and how a machine-checked proof of **balance integrity** retired that class of bug for good (Part 3). The through-line is a single, honest promise: not "no bugs ever," but "this precise property holds for every case, under stated assumptions." For money that hides its own amounts, that promise is exactly the one worth proving.
+Katika sehemu tatu tulihama kutoka wazo la jumla hadi matumizi hai: maana ya **kuthibitisha** programu kuwa sahihi badala ya kuijaribu (Sehemu ya 1), jinsi mzunguko halisi wenye vikwazo pungufu ungeweza kutengeneza pesa zisizoonekana (Sehemu ya 2), na jinsi thibitisho lililokaguliwa na mashine la **uadilifu wa salio** lilivyostaafisha aina hiyo ya hitilafu kabisa (Sehemu ya 3). Uzi unaounganisha yote ni ahadi moja ya uaminifu: si “hakuna hitilafu kamwe,” bali “sifa hii sahihi hutumika kwa kila tukio, chini ya dhana zilizotajwa.” Kwa pesa zinazoficha kiasi chake, hiyo ndiyo ahadi inayostahili kuthibitishwa.
 
-* Sehemu ya* Formal Verification * mfululizo kwa ajili ya [ZecHub](https://zechub.org).*
+*Sehemu ya mfululizo wa* Uthibitishaji Rasmi  *kwa [ZecHub](https://zechub.org).*

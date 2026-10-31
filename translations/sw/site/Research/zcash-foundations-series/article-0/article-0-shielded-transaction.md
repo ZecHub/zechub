@@ -1,254 +1,254 @@
-# Jinsi Usafirishaji wa Zcash Unavyofanya Kazi
-##### Utafiti wa awali kutoka [Annkkitaaa](https://github.com/Annkkitaaa)
+# Jinsi Muamala [transaction] wa faragha [shielded] Zcash Unavyofanya Kazi kwa Kweli
+##### Utafiti Asilia kutoka [Annkkitaaa](https://github.com/Annkkitaaa)
 
-! ![ alt maandishi](/content-images/image-fedc371488.webp)
+![alt text](/content-images/image-fedc371488.webp)
 
-### Intuition kabla ya hesabu: hakuna-formula kutembea kwa njia ya malipo binafsi
+### Intuisia kabla ya hisabati: maelezo ya malipo ya faragha bila fomula
 
-> Mfululizo: Zcash kutoka Kanuni za Kwanza.
-> Hakuna cryptography, hakuna blockchain background, na hakuna hisabati kudhani.
-> ** Nini wewe kuondoka na: ** sahihi ya kiakili mfano wa jinsi Zcash huficha * nani kulipwa nani, na kiasi gani *, wakati bado kuruhusu dunia nzima kuthibitisha kwamba hakuna fedha ilikuwa bandia au alitumia mara mbili.
+> **Mfululizo:** *Zcash kutoka Kanuni za Msingi* . **Makala ya 0 . Nguzo**
+> **Hadhira:** wanaoanza kabisa. Hakuna maarifa ya usimbaji fiche, blockchain, au hisabati yanayodhaniwa.
+> **Utakachobaki nacho:** mtindo sahihi wa kiakili wa jinsi Zcash inavyoficha *nani alimlipa nani, na kiasi gani*, huku bado ikiruhusu dunia nzima kuthibitisha kwamba hakuna pesa zilizoghushiwa au kutumika mara mbili.
 
-Kila makala ya baadaye katika mfululizo huu inakaribia sehemu moja ya mashine unayokaribia kukutana nayo. Kwa hiyo kama neno hapa linaonekana kama mkono wa mikono, * nzuri. * Hiyo ni ahadi kwamba tutarudi na kupata vizuri.
+Kila makala inayofuata katika mfululizo huu huchunguza kwa karibu sehemu moja ya mashine unayokaribia kukutana nayo. Kwa hiyo ikiwa neno hapa linaonekana lisiloeleweka kwa undani, *vizuri*. Hiyo ni ahadi kwamba tutalirudia na kulielezea ipasavyo.
 
 ---
 
-## 1. Kwa nini unapaswa kuhangaikia jambo hilo?
+## 1. Kwa nini unapaswa kujali?
 
-Imagine your bank statement were nailed to a wall in the town square. Forever. Anyone (your landlord, your employer, a stranger, a future employer, a government) could read every rent payment, every medical bill, every donation, every coffee, and trace exactly who you sent money to and who sent money to you.
+Fikiria taarifa yako ya benki ingetundikwa ukutani katika uwanja wa mji. Milele. Mtu yeyote (mwenye nyumba wako, mwajiri wako, mgeni, mwajiri wa baadaye, serikali) angeweza kusoma kila malipo ya kodi, kila bili ya matibabu, kila mchango, kila kahawa, na kufuatilia hasa uliyemtumia pesa na aliyekutumia pesa.
 
-Hiyo si dystopian hypothetical. ** Hiyo ni takriban jinsi Bitcoin kazi.**
+Hiyo si dhana ya kubuni ya dystopia. **Hivyo ndivyo Bitcoin inavyofanya kazi kwa takriban.**
 
-Bitcoin is often called "anonymous," but it isn't. It's *pseudonymous*: your name isn't on the ledger, but every transaction, amount, and link between addresses is public and permanent. The entire field of "chain analysis" exists to peel back that thin pseudonym and tie addresses to real people. Once one of your addresses is linked to you, your financial history unspools.
+Bitcoin mara nyingi huitwa “isiyojulikana,” lakini sivyo. Ni *ya jina bandia*: jina lako haliko kwenye daftari, lakini kila muamala, kiasi, na kiungo kati ya anwani ni vya umma na vya kudumu. Eneo lote la “uchambuzi wa mnyororo [chain analysis]” lipo ili kufichua jina hilo bandia dhaifu na kuunganisha anwani na watu halisi. Mara tu anwani yako moja inapounganishwa na wewe, historia yako ya kifedha hujitokeza wazi.
 
-Zcash ilijengwa kujibu swali gumu la kudanganya:
+Zcash ilijengwa kujibu swali gumu kwa njia ya kudanganya:
 
-> Je, tunaweza kuwa na pesa ambazo ni za kibinafsi kabisa, kuficha mtumaji, mpokeaji, na kiasi, wakati bado kuruhusu mtu yeyote kuthibitisha kwamba sheria zilifuatwa?
+> **Je, tunaweza kuwa na pesa ambazo ni za faragha kabisa, zikificha mtumaji, mpokeaji, na kiasi, huku bado zikimruhusu mtu yeyote kuthibitisha kwamba kanuni zilifuatwa?**
 
-malengo hayo mawili mapigano kila mmoja. kitabu cha umma ni verifiable * kwa sababu * kila mtu anaweza kuona. faragha ina maana hakuna mtu anaweza kuiona. hivyo jinsi gani umma kuthibitisha kitu ni si kuruhusiwa kuangalia?
+Malengo hayo mawili hupingana. Daftari la umma linaweza kuthibitishwa *kwa sababu* kila mtu anaweza kuliona. Faragha [privacy] inamaanisha hakuna mtu anayeweza kuliona. Hivyo umma unaweza kuthibitishaje kitu ambacho haurusiwi kukitazama?
 
-Kutatua hiyo paradox ni hadithi nzima ya mfululizo huu. Hebu kuanza.
+Kutatua fumbo hilo ndilo simulizi zima la mfululizo huu. Tuanze.
 
 ---
 
 ## 2. Kuna dunia mbili ndani ya Zcash
 
-Kabla ya kitu kingine chochote, eleza dhana potofu ya kawaida: ** Zcash sio "sarafu ya kibinafsi. " Ni sarafu ambayo inatoa faragha kama chaguo.** Kwa kweli ilianza maisha kama uma wa Bitcoin, na inabeba mifumo miwili sambamba kwenye blockchain moja.
+Kabla ya jambo lingine lolote, rekebisha dhana potofu ya kawaida: **Zcash si “sarafu ya faragha.” Ni sarafu inayotoa faragha kama chaguo.** Kwa kweli ilianza kama fork ya Bitcoin, na hubeba mifumo miwili inayokwenda sambamba kwenye blockchain moja.
 
-| | **Ulimwengu wa uwazi** | **Ulimwengu uliolindwa** |
+| | **Dunia ya uwazi [transparent]** | **Dunia ya faragha** |
 |---|---|---|
-| Faragha | Umma, kama vile Bitcoin | Privat |
-| Anwani huanza na | `t...` | `z...` or `u...` |
-| Mtumaji/mpokeaji/kiasi | **Inaonekana** kwa kila mtu | **Imefichwa** kutoka kwa kila mtu |
-| Teknolojia ya msingi | ledger cha umma cha mtindo wa Bitcoin | Ahadi za kidijitali + uthibitisho wa kutojua chochote |
+| Faragha | Ya umma, kama Bitcoin | Ya kibinafsi |
+| Anwani huanza na | `t...` | `z...` au `u...` |
+| Mtumaji / mpokeaji / kiasi | **Huonekana** kwa kila mtu | **Hufichwa** kwa kila mtu |
+| Teknolojia ya msingi | Daftari la umma la mtindo wa Bitcoin | Commitment za kriptografia + mathibitisho ya maarifa sifuri [zero-knowledge] |
 
-Fedha inaweza hata kuvuka mpaka kati yao: kuhamisha fedha * katika * ulimwengu ulinzi inaitwa * kulinda *, na kuihamisha tena ni * unshielding *.
+Pesa zinaweza hata kuvuka mpaka kati ya hizo: kuhamisha fedha *kwenda* kwenye dunia ya faragha huitwa *shielding*, na kuzihamisha kurudi nje huitwa *deshielding*.
 
-Ulimwengu wa uwazi ni "Bitcoin tayari unaelewa kwa kiasi kikubwa. " Ni ** ulimwengu ulinzi ** ambayo ina cryptography zote nzuri, na kwamba ni dunia tu mfululizo huu anajali kuhusu.
+Dunia ya uwazi ni “Bitcoin unayoielewa kwa kiasi fulani tayari.” Ni **dunia ya faragha** inayojumuisha usimbaji fiche wote wa kuvutia, na hiyo ndiyo dunia pekee inayojaliwa na mfululizo huu.
 
-! ![ alt maandishi](/content-images/image-1-f821d24c6f.webp)
-
----
-
-## 3. Intuition: bahasha zilizofungwa kwenye ubao wa umma
-
-Hapa kuna picha moja ya akilini ya kuendeleza kupitia makala iliyobaki. Tutarudi kwa hiyo daima.
-
-Hebu wazia ubao mkubwa wa matangazo ambao kila mtu duniani anaweza kuuona wakati wowote.
-
-* **Receiving money** means someone pins a **sealed, opaque envelope** to the board. Inside the envelope is *how much money it holds* and *a secret that only the recipient can read*, because the envelope is locked to that recipient's personal key. The whole world sees that *an envelope appeared*. Nobody but the owner can see what's inside.
-
-* Bodi huendelea kukua, na bahasha mpya huwekwa juu ya bahasha hiyo milele.
-
-* Kutumia pesa inamaanisha kutembea nyuma ya pazia, kuthibitisha * "Mimi mwenyewe moja ya bahasha unspent juu ya bodi hii, na mimi ni kuruhusiwa kufungua" *, kisha kuacha kipekee ** void ishara ** katika umma "imetumika" bin na pinning ** bahasha mpya ** kwa mtu yeyote wewe ni kulipa.
-
-Desturi hiyo ndogo (kuweka ishara tupu, kuweka bahasha mpya, yote kutoka nyuma ya pazia) * ni* malipo ya Zcash. Kila kitu kingine ni maelezo.
-
-Sasa hebu tuwape wale viungo majina yao halisi.
+![alt text](/content-images/image-1-f821d24c6f.webp)
 
 ---
 
-## 4. Majina matano
+## 3. Intuisia: bahasha zilizofungwa kwenye ubao wa umma
 
-Maneno haya matano ni msamiati mzima wa Zcash kulindwa. Jifunze kama * hadithi *, si kama msamiato, na wao itakuwa fimbo.
+Hii ndiyo picha moja ya kiakili ya kubeba katika sehemu iliyobaki ya makala. Tutairejelea mara kwa mara.
 
-| Katika hadithi | Muhula halisi Zcash | Ni nini hasa |
+Fikiria **ubao mmoja mkubwa wa matangazo wa umma** ambao kila mtu Duniani anaweza kuuona wakati wote.
+
+* **Kupokea pesa** kunamaanisha mtu anabandika **bahasha iliyofungwa, isiyopenyeka** kwenye ubao. Ndani ya bahasha kuna *kiasi cha pesa ilichonacho* na *siri ambayo mpokeaji pekee anaweza kusoma*, kwa sababu bahasha imefungwa kwa ufunguo binafsi wa mpokeaji huyo. Dunia nzima huona kwamba *bahasha imetokea*. Hakuna mtu isipokuwa mmiliki anayeweza kuona kilichomo ndani.
+
+* **Ubao hukua tu.** Bahasha hazitolewi kamwe wala kufutwa. Mpya hubandikwa juu yake, milele.
+
+* **Kutumia pesa** kunamaanisha kwenda nyuma ya pazia, kuthibitisha *“Ninamiliki mojawapo ya bahasha ambazo hazijatumika kwenye ubao huu, na ninaruhusiwa kuifungua”*, kisha kuweka **tokeni [token] ya kubatilisha** ya kipekee kwenye sanduku la umma la “zilizotumika” na kubandika **bahasha mpya** kwa yeyote unayemlipa.
+
+Tambiko hilo dogo (kubandika tokeni ya kubatilisha, kubandika bahasha mpya, yote yakifanyika nyuma ya pazia) *ndilo* malipo ya Zcash. Kila kitu kingine ni undani.
+
+Sasa tuyape vifaa hivyo majina yao halisi.
+
+---
+
+## 4. Nomino tano
+
+Maneno haya matano ni msamiati wote wa Zcash ya faragha. Yajifunze kama *simulizi*, si kama faharasa, na yatakumbukwa.
+
+| Katika simulizi | Neno halisi la Zcash | Kile kilicho hasa |
 |---|---|---|
-| Yaliyomo kwenye bahasha (kiasi + mmiliki + siri) | **Dokezo** | "Sarafu" ya kibinafsi: kipande cha thamani kinachomilikiwa na mtu |
-| Bahasha iliyofungwa, isiyo na mwanga wowote ubaoni | **Ahadi ya Kumbuka** | Muhuri wa siri unaothibitisha bahasha ipo huku ukificha kilicho ndani |
-| Ubao wa matangazo wenyewe | **Mti wa ahadi ya kumbuka** | Rekodi ya nyongeza pekee ya *kila noti iliyowahi kuundwa* |
-| Tokeni tupu kwenye pipa la takataka "lililotumika" | **Kifuta null** | Alama ya kipekee inayomaanisha "noti hii sasa imetumika" |
-| Uchawi wa "nyuma ya pazia" | **Ushahidi wa kutojua** | Uthibitisho kwamba matumizi yote ni halali, bila kuonyesha yoyote kati yake |
+| Yaliyomo kwenye bahasha (kiasi + mmiliki + siri) | **Dokezo [Note]** | “Sarafu” ya faragha: sehemu ya thamani inayomilikiwa na mtu |
+| Bahasha iliyofungwa, isiyopenyeka kwenye ubao | **Commitment ya dokezo [Note commitment]** | Muhuri wa kriptografia unaothibitisha kuwa bahasha ipo huku ukificha kilichomo |
+| Ubao wa matangazo wenyewe | **Mti wa commitment za madokezo [Note commitment tree]** | Rekodi inayoongezwa pekee ya *kila dokezo lililowahi kuundwa* |
+| Tokeni ya kubatilisha kwenye sanduku la “zilizotumika” | **Nullifier** | Alama ya kipekee inayomaanisha “dokezo hili sasa limetumika” |
+| Uchawi wa “nyuma ya pazia” | **Thibitisho la maarifa sifuri [Zero-knowledge proof]** | Thibitisho kwamba matumizi yote ni halali, bila kufichua chochote kuhusu hayo |
 
-Kama unakumbuka kitu kingine chochote kutoka makala hii, kumbuka meza hii. Kila kitu ifuatavyo ni tu * kwa nini * kila kipande ina kuwa umbo njia ni.
-
----
-
-## 5. Kwa nini kila kipande kina umbo lake
-
-Hii ni sehemu ya wengi waelezaji kuruka, na ni hasa sehemu ambayo hutenganisha "mimi memorized baadhi ya maneno" kutoka "Mimi kuelewa kubuni". Kila moja ya vipande tano ipo kutatua ** tatizo moja maalum.**
-
-### Kujitolea barua: kuficha yaliyomo, lakini kufanya bandia haiwezekani
-
-Envelope ya kawaida inaweza kufunguliwa kwa mvuke. cryptographic ** not commitment ** haiwezi. Fikiria kama envelope * magically * muhuri, opaque kabisa na nguvu mbili:
-
-- **Kuficha**: kuangalia bahasha iliyofungwa hakukuambii chochote kuhusu kiasi au mmiliki aliye ndani.
-- ** Kufunga **: mara moja ni muhuri, maudhui haiwezi kubadilishwa. Huwezi baadaye kudai bahasha uliofanyika kiasi tofauti.
-
-Kwa sasa, kukubali bahasha kama uchawi na kuendelea kusonga mbele.
-
-### Nullifier: kweli smart kidogo
-
-Wakati wewe kutumia noti, wewe kuchapisha yake null, "vifungo tupu". ishara hii ni mahesabu kutoka * noti yenyewe * na * ufunguo wako siri. * Hiyo mapishi hununua mali tatu wakati huo huo, na kila moja mambo:
-
-1. **Mmiliki pekee anaweza kuunda.** Unahitaji ufunguo wa siri kwa mahesabu yake, hivyo hakuna mtu anaweza kutumia maelezo yako kwa ajili yenu.
-2. ** Daima ni * sawa * ishara kwa ajili ya noti fulani.** Jaribu kutumia noti hiyo mara mbili na ungependa kuzalisha * kufanana * void ishara mara zote mbili, na umma "kutumia" bin tayari ina yake. Double-kutumia kukataliwa. 
-3. ** Hakuna mtu anayeweza kufuatilia nyuma kwa bahasha yake.** ishara tupu inaonekana kabisa kuhusiana na bahasha ilitoka.
-
-Hiyo mali ya tatu ni ** moyo wa faragha Zcash **, na anastahili sehemu yake mwenyewe chini.
-
-### Uthibitisho wa ujuzi wa sifuri: pazia yenyewe
-
-Kila kitu kinatokea nyuma ya pazia, na kile unachokipa ulimwengu baada ya hapo ni uthibitisho wa ujuzi wa sifuri, aina ya cheti kisichoweza kudanganywa.
-
-- * envelope I'm spending really is pinned to the board * (it's a real, existing note), (ni halisi, inapatikana kwenye ubao)
-- * Mimi ni kweli kuruhusiwa kufungua * (Mimi kushikilia ufunguo haki),
-- * ishara yangu void ni mahesabu kwa usahihi * (hakuna cheating kuangalia mara mbili-matumizi),
-- * envelopes yangu mpya kushikilia fedha sawa kama moja ya zamani *: ** hakuna fedha kuundwa kutoka kitu chochote. *
-
-The miracle is that the proof reveals **none** of those facts. Not the amount, not the addresses, not which envelope. It only convinces you that *every statement above is true*. How that's even possible is **Article 5 (zero-knowledge proofs)**, the crescendo of the series.
+Ikiwa hutakumbuka kitu kingine kutoka katika makala hii, kumbuka jedwali hili. Kila kinachofuata ni *kwa nini* kila sehemu lazima iwe na muundo huo.
 
 ---
 
-## 6. Maisha ya noti moja
+## 5. Kwa nini kila sehemu ina muundo huo
 
-A note is *born*, it *lives* on the board, and eventually it *dies*, and crucially, its birth and its death look unrelated to anyone watching.
+Hii ndiyo sehemu ambayo maelezo mengi huruka, na ndiyo hasa sehemu inayotenganisha “Nilikariri maneno fulani” na “Ninaelewa muundo.” Kila sehemu kati ya hizi tano ipo ili kutatua **tatizo moja maalumu.**
 
-! ![ alt maandishi](/content-images/image-2-0eca0ea4f7.webp)
+### Commitment ya dokezo: ficha yaliyomo, lakini fanya ughushi usiwezekane
+
+Bahasha ya kawaida inaweza kufunguliwa kwa mvuke. **Commitment ya dokezo** ya kriptografia haiwezi. Ifikirie kama bahasha iliyofungwa *kichawi*, isiyopenyeka kabisa, yenye uwezo mawili ya kipekee:
+
+- **Kuficha**: kutazama bahasha iliyofungwa hakukuambii *chochote* kuhusu kiasi au mmiliki aliye ndani.
+- **Kufunga**: ikishafungwa, yaliyomo hayawezi kubadilishwa. Huwezi baadaye kudai kwamba bahasha ilikuwa na kiasi tofauti.
+
+Muhuri unawezaje kufanya yote mawili kwa wakati mmoja? Hilo ni swali halisi lenye jibu. Ndilo mada ya **Makala ya 3 (commitment)**. Kwa sasa, kubali bahasha kama uchawi na uendelee.
+
+### Nullifier: sehemu yenye werevu wa kweli
+
+Unapotumia dokezo, unachapisha **nullifier** yake, “tokeni ya kubatilisha.” Tokeni hii hukokotolewa kutoka *kwenye dokezo lenyewe* **na** *ufunguo wako wa siri*. Mfumo huo huleta sifa tatu kwa wakati mmoja, na kila moja ni muhimu:
+
+1. **Mmiliki pekee anaweza kuitengeneza.** Unahitaji ufunguo wa siri ili kuikokotoa, kwa hiyo hakuna mtu anayeweza kutumia madokezo yako kwa niaba yako.
+2. **Daima ni tokeni *ileile* kwa dokezo fulani.** Jaribu kutumia dokezo lilelile mara mbili na utatengeneza tokeni ileile ya kubatilisha nyakati zote mbili, na sanduku la umma la “zilizotumika” tayari linayo. Matumizi mara mbili yanakataliwa.
+3. **Hakuna mtu anayeweza kuifuatilia hadi kwenye bahasha yake.** Tokeni ya kubatilisha huonekana kuwa haina uhusiano kabisa na bahasha ilikotoka.
+
+Sifa hiyo ya tatu ndiyo **kiini cha faragha ya Zcash**, na inastahili sehemu yake hapa chini.
+
+### Thibitisho la maarifa sifuri: pazia lenyewe
+
+Kila kitu hutokea nyuma ya pazia, na unachokabidhi dunia baadaye ni **thibitisho la maarifa sifuri**, aina ya cheti kisichoweza kughushiwa. Linathibitisha kimya kimya haya yote kwa wakati mmoja:
+
+- *bahasha ninayotumia kweli imebandikwa kwenye ubao* (ni dokezo halisi lililopo),
+- *kwa kweli ninaruhusiwa kuifungua* (ninashikilia ufunguo sahihi),
+- *tokeni yangu ya kubatilisha imekokotolewa kwa usahihi* (hakuna kudanganya ukaguzi wa matumizi mara mbili),
+- *bahasha zangu mpya zina kiasi sawa kabisa cha pesa na ile ya zamani*: **hakuna pesa zinazoibuliwa kutoka pasipo kitu.**
+
+Muujiza ni kwamba thibitisho hufichua **hakuna** kati ya mambo hayo. Sio kiasi, sio anwani, wala sio bahasha gani. Linakushawishi tu kwamba *kila kauli iliyo hapo juu ni kweli*. Jinsi hilo linavyowezekana hata kidogo ndiyo **Makala ya 5 (mathibitisho ya maarifa sifuri)**, kilele cha mfululizo huu.
 
 ---
 
-## 7. Malipo, mwisho hadi mwisho
+## 6. Maisha ya dokezo moja
 
-Hebu tuangalie Alice akimlipa Bob, na kila hatua ya umma na ya kibinafsi ikiwekwa alama.
+Dokezo *huzaliwa*, *huishi* kwenye ubao, na hatimaye *hufa*, na muhimu zaidi, kuzaliwa kwake na kufa kwake huonekana kutohusiana kwa yeyote anayevitazama.
 
-! ![ alt maandishi](/content-images/image-4-7af0dfe795.webp)
-
-Angalia asymmetry ambayo inafanya kazi ya faragha:
-
-- **Noti ya zamani ya Alice** inakufa kupitia *nullifier* katika bin kutumika.
-- **Noti mpya ya Bob** imezaliwa kupitia *kujitolea* mpya kwenye bodi.
-- Kwa kila mtu anayetazama, matukio haya mawili hayana uhusiano wowote unaoonekana.
-
-> ** Jinsi gani Bob hata anajua yeye alikuwa kulipwa? ** noti yake ni encrypted * kwa ufunguo wake. * Yeye kuendelea scans bodi na tu * bahasha yake pop wazi kwa ajili yake, kama kuwa na ufunguzi moja kwamba inafaa seti maalum ya kufuli. * Mashine nyuma ya hii ni ** viewing funguo **, mada baadaye.
+![alt text](/content-images/image-2-0eca0ea4f7.webp)
 
 ---
 
-## 8. Kile ambacho ulimwengu unaona dhidi ya kile kinachobaki kikifichwa
+## 7. Malipo, kutoka mwanzo hadi mwisho
 
-| Ukweli kuhusu malipo | Inaonekana kwa umma? |
+Hebu tumtazame Alice akimlipa Bob, huku kila hatua ya umma na ya binafsi ikiwekewa lebo.
+
+![alt text](/content-images/image-4-7af0dfe795.webp)
+
+Tambua kutolingana kunakofanya faragha ifanye kazi:
+
+- **Dokezo la zamani la Alice** hufa kupitia *nullifier* katika sanduku la zilizotumika.
+- **Dokezo jipya la Bob** huzaliwa kupitia *commitment* mpya kwenye ubao.
+- Kwa kila mtu anayetazama, matukio haya mawili **hayana muunganisho unaoonekana.** Njia ya pesa hupotea.
+
+> **Bob anajuaje hata kwamba amelipwa?** Dokezo lake limesimbwa fiche *kwa ufunguo wake*. Huchanganua ubao daima na ni bahasha *zake* pekee hufunguka kwake, kama kuwa na ufunguo mmoja unaolingana na seti maalumu ya kufuli. Mfumo unaosimamia hili ni **funguo za kutazama [viewing keys]**, mada ya baadaye.
+
+---
+
+## 8. Kile ambacho dunia huona dhidi ya kile kinachobaki kimefichwa
+
+| Jambo kuhusu malipo | Linaonekana kwa umma? |
 |---|---|
-| Muamala huo *uliolindwa* ulitokea |  Ndiyo |
-| Kwamba ilitii sheria zote (hakuna kughushi, hakuna matumizi maradufu) |  Ndiyo (kupitia uthibitisho) |
-| **Nani** alituma pesa |  Imefichwa |
-| **Nani** aliipokea |  Imefichwa |
-| **Ni kiasi gani** kilitumwa |  Imefichwa |
-| **Ambayo** noti ya awali ilitumika |  Imefichwa |
+| Kwamba muamala *wa* faragha ulitokea |  Ndiyo |
+| Kwamba ulitii kanuni zote (hakuna ughushi, hakuna matumizi mara mbili) |  Ndiyo (kupitia thibitisho) |
+| **Nani** alituma pesa |  Hufichwa |
+| **Nani** alipokea |  Hufichwa |
+| **Kiasi gani** kilitumwa |  Hufichwa |
+| **Dokezo gani** la awali lilitumika |  Hufichwa |
 
-Hii ni azimio la utata kutoka Sehemu ya 1. umma kuthibitisha * sheria, * si * yaliyomo. * Ukaguzi na faragha kuacha mapigano, kwa sababu zero-ujuzi ushahidi utapata kuangalia zamani bila kugusa mwisho.
-
----
-
-## 9. moyo wake: kwa nini bahasha na ishara tupu haiwezi kuunganishwa
-
-Kama unaelewa wazo hili moja, unaelewa kwa nini Zcash ni binafsi. Soma polepole.
-
-- ** bahasha (kujitolea) ** ni pinned kwa bodi wakati kumbuka ni ** kuzaliwa **.
-- Nambari isiyo na maana (nullifier) inachukuliwa katika bin wakati noti hiyo hiyo inatumika, labda miezi baadaye.
-- Zinatengenezwa kwa njia tofauti za siri, na hakuna hesabu ya umma ambayo hubadilisha moja kuwa nyingine.
-
-Kwa hiyo mtazamaji wa nje anaona mkondo wa bahasha kuonekana na mkondo ya ishara tupu kuonekana, lakini hawawezi mechi yao up. Hawawezi kusema "tokeni tupu imeshuka leo inalingana na bahasha pinned Machi iliyopita". Kiungo ipo * tu * ndani ya maarifa siri ya mmiliki wa noti, na zero-ujuzi ushahidi unathibitisha kiungo ni halali * bila kufunua yake.*
-
-Kiungo hicho kilichovunjika ni kitu ambacho kampuni za uchambuzi wa mlolongo hufurahia katika Bitcoin, na kitu ambacho Zcash hukata kwa makusudi.
-
-> **Jaribu intuition yako:** Kama nullifiers walikuwa badala ya kuhesabiwa * tu * kutoka kwa kumbuka (hakuna siri muhimu kushiriki), ambayo ya mali tatu katika Sehemu ya 5 bila kuvunja, na kwa nini kwamba kimya kimya kuharibu faragha? * Jibu mwisho.) *
+Hili ndilo suluhisho la fumbo kutoka Sehemu ya 1. Umma huthibitisha *kanuni*, si *yaliyomo*. Uthibitishaji na faragha huacha kupingana, kwa sababu thibitisho la maarifa sifuri hukuruhusu kukagua la kwanza bila kugusa la pili.
 
 ---
 
-## 10. Kujitenga kwa unyoofu
+## 9. Kiini chake: kwa nini bahasha na tokeni ya kubatilisha haziwezi kuunganishwa
 
-This is a **mental model**, not the spec. To keep it newcomer-friendly we've quietly simplified several real things: Zcash has had multiple shielded designs (Sprout, then Sapling, now Orchard); real transactions can spend and create *several* notes at once; "the board" is technically a specific kind of tree, not a literal pinboard; and value balance is enforced with some additional cryptographic bookkeeping. None of those details change the story you just learned; they refine it. We'll add the precision back, one article at a time, and flag clearly whenever we do.
+Ukielewa wazo hili moja, utaelewa kwa nini Zcash ni ya faragha. Lisome polepole.
 
-Maudhui mazuri ya elimu hupata uaminifu kwa kusema kile kilichopotea. Sehemu hii ni ahadi hiyo.
+- **Bahasha (commitment)** hubandikwa kwenye ubao wakati dokezo **linazaliwa**.
+- **Tokeni ya kubatilisha (nullifier)** huwekwa kwenye sanduku wakati dokezo hilohilo **linatumika**, labda miezi kadhaa baadaye.
+- Hutolewa kwa **mifumo tofauti ya siri**, na hakuna **hisabati ya umma** inayoweza kubadilisha moja kuwa nyingine.
+
+Kwa hiyo mtazamaji wa nje huona mkondo wa bahasha zikionekana na mkondo wa tokeni za kubatilisha zikionekana, lakini **hawezi kuzipatanisha**. Hawezi kusema “tokeni ya kubatilisha iliyowekwa leo inalingana na bahasha iliyobandikwa Machi iliyopita.” Kiungo kipo *tu* ndani ya maarifa ya siri ya mmiliki wa dokezo, na thibitisho la maarifa sifuri huthibitisha kiungo ni halali *bila kukifichua.*
+
+Kiungo hicho kilichokatwa ndicho makampuni ya uchambuzi wa mnyororo hujilisha nacho katika Bitcoin, na ndicho ambacho Zcash hukata kimakusudi.
+
+> **Jaribu intuisia yako:** Ikiwa nullifier badala yake zingekokotolewa *kutoka kwenye dokezo pekee* (bila ufunguo wa siri kuhusika), ni ipi kati ya sifa tatu katika Sehemu ya 5 ingevunjika, na kwa nini hilo lingeangamiza faragha kimya kimya? *(Jibu liko mwishoni.)*
 
 ---
 
-## 11. Loops sisi kufunguliwa (ramani yako ya mfululizo)
+## 10. Tahadhari ya uaminifu
 
-Kila "tutarudi kwa hili" hapo juu ni thread. Hapa ni ambapo kila mmoja anapata amefungwa:
+Huu ni **mtindo wa kiakili**, si maelezo rasmi. Ili kuuweka rafiki kwa wanaoanza, tumerahisisha kimya kimya mambo kadhaa halisi: Zcash imekuwa na miundo mingi ya faragha (Sprout, kisha Sapling, sasa Orchard); miamala halisi inaweza kutumia na kuunda *madokezo* kadhaa kwa wakati mmoja; “ubao” kitaalamu ni aina maalumu ya mti, si ubao halisi wa kubandika; na mizani ya thamani hutekelezwa kwa utunzaji wa ziada wa kriptografia. Hakuna maelezo hayo yanayobadilisha simulizi ulilojifunza; huyaboresha. Tutarudisha usahihi huo, makala moja baada ya nyingine, na tutaweka alama wazi kila tunapofanya hivyo.
 
-! ![ alt maandishi](/content-images/image-29-27ef4636ff.webp)
+Maudhui mazuri ya elimu hujenga imani kwa kueleza yale yaliyoachwa nje. Sehemu hii ndiyo ahadi hiyo.
 
-| Sehemu ya mwisho kutoka kwa makala haya | Ambapo imetatuliwa |
+---
+
+## 11. Mizunguko tuliyoifungua (ramani yako ya mfululizo)
+
+Kila “tutalirudia hili” hapo juu ni uzi. Hapa ndipo kila mmoja unafungwa:
+
+![alt text](/content-images/image-29-27ef4636ff.webp)
+
+| Jambo lisilokamilika kutoka makala hii | Linatatuliwa wapi |
 |---|---|
-| Bahasha iliyofungwa inawezaje kuficha na kutosameheka? | Kifungu cha 3: ahadi |
-| Funguo na mapishi ya siri hutoka wapi? | Makala 1 na 2: sehemu na mikunjo |
-| *"Ubao" ni nini hasa? | Kifungu cha 4: Miti ya Merkle |
-| Unawezaje kuthibitisha jambo bila kufichua chochote? | Kifungu cha 5: ushahidi wa kutojua chochote |
-| Vipande vyote vitano vinawezaje kuunganishwa pamoja katika Zcash? | Kifungu cha 6: itifaki iliyolindwa |
+| Bahasha iliyofungwa inawezaje kuficha *na* isiweze kughushiwa? | Makala ya 3: commitment |
+| Funguo na mifumo ya siri hutoka wapi? | Makala ya 1 na 2: nyuga na mikunjo |
+| “Ubao” ni nini hasa? | Makala ya 4: miti ya Merkle |
+| Unawezaje kuthibitisha jambo huku ukifichua chochote? | Makala ya 5: mathibitisho ya maarifa sifuri |
+| Sehemu zote tano huunganishwaje katika Zcash halisi? | Makala ya 6: itifaki ya faragha |
 
 ---
 
-## 12 Muhtasari
+## 12. Muhtasari
 
-- Bitcoin ni ** uwazi **; Zcash inatoa ** ulinzi ** ulimwengu ambapo mtumaji, mpokeaji, na kiasi ni siri.
-- Utata dhahiri (* faragha bado hadharani verifiable *) ni hatua nzima, na ni solvable.
-- Malipo ya kulindwa ni vipande vitano vya kuingiliana: **note** (sarafu), **note commitment** (bao lililofungwa), **not commitment tree** (bodi ya umma), **nullifier** (alama isiyo na maana ambayo inazuia matumizi mara mbili), na **zero-knowledge proof** (kifuniko ambacho kinathibitisha uhalali bila kufunua chochote).
-- Faragha mwishowe hutegemea ** kiungo kimoja kilichokatwa **: hakuna mtu nje anayeweza kuunganisha kuzaliwa kwa noti (kujitolea) na kifo chake (nullifier).
-- Umma unathibitisha sheria, si yaliyomo.
+- Bitcoin ni **ya uwazi**; Zcash hutoa dunia **ya faragha** ambamo mtumaji, mpokeaji, na kiasi hufichwa.
+- Fumbo linaloonekana (*la faragha lakini linaloweza kuthibitishwa hadharani*) ndilo lengo kuu, na linaweza kutatuliwa.
+- Malipo ya faragha yana sehemu tano zinazoingiliana: **dokezo** (sarafu), **commitment ya dokezo** (bahasha iliyofungwa), **mti wa commitment za madokezo** (ubao wa umma), **nullifier** (tokeni ya kubatilisha inayozuia matumizi mara mbili), na **thibitisho la maarifa sifuri** (pazia linalothibitisha uhalali huku likifichua chochote).
+- Faragha hatimaye hutegemea **kiungo kimoja kilichokatwa**: hakuna mtu wa nje anayeweza kuunganisha kuzaliwa kwa dokezo (commitment) na kufa kwake (nullifier).
+- Umma huthibitisha **kanuni**, kamwe si **yaliyomo**.
 
-Sasa unashikilia ramani hiyo. Mfululizo unaobaki hujaza ramani.
+Sasa unashikilia ramani. Mfululizo uliosalia unaijaza kwa maelezo.
 
 ---
 
-## Orodha ya maneno
+## Faharasa
 
-| Muhula | Maana ya Kiingereza cha kawaida |
+| Neno | Maana kwa Kiingereza rahisi |
 |---|---|
-| **Note** | Kitengo cha thamani cha kibinafsi, sawa na sarafu au noti Zcash's |
-| **Note commitment** | Muhuri wa siri unaothibitisha kwamba noti ipo bila kuifichua |
-| **Note commitment tree** | Rekodi ya umma ya ahadi zote za noti zinazoongezwa pekee |
-| **Nullifier** | Alama ya kipekee ya "kutumika" iliyochapishwa wakati noti inatumiwa, kuzuia matumizi mara mbili |
-| **Zero-knowledge proof** | Uthibitisho kwamba kauli ni kweli bila kufichua chochote zaidi ya ukweli wake |
-| **Shielding / deshielding** | Kuhamisha fedha kuingia/kutoka katika ulimwengu wa kibinafsi uliolindwa |
-| **Viewing Key** | Ufunguo unaomruhusu mmiliki kugundua na kusoma maelezo yaliyoelekezwa kwake |
+| **Note** | Kitengo binafsi cha thamani, sawa na sarafu au noti katika Zcash |
+| **Note commitment** | Muhuri wa kriptografia unaothibitisha dokezo lipo bila kulifichua |
+| **Note commitment tree** | Rekodi ya umma inayoongezwa pekee ya commitment zote za madokezo |
+| **Nullifier** | Alama ya kipekee ya “imetumika” inayochapishwa dokezo linapotumika, ikizuia matumizi mara mbili |
+| **Zero-knowledge proof** | Thibitisho kwamba kauli ni kweli huku lisifichue chochote zaidi ya ukweli wake |
+| **Shielding / deshielding** | Kuhamisha fedha kuingia / kutoka katika dunia ya faragha |
+| **Viewing Key** | Ufunguo unaomruhusu mmiliki kutambua na kusoma madokezo yaliyoelekezwa kwake |
 
 ---
 
-## FAQ
+## Maswali Yanayoulizwa Mara kwa Mara
 
-** Je, Zcash daima binafsi? **
-No. faragha inatumika kwa * shielded * dunia (`z...`/`u...` anwani). Uwazi (`t...`) shughuli ni ya umma, kama Bitcoin.
+**Je, Zcash daima ni ya faragha?**
+Hapana. Faragha hutumika katika dunia *ya faragha* (anwani za `z...`/`u...`). Miamala ya uwazi (`t...`) ni ya umma, kama Bitcoin.
 
-Ikiwa kila kitu kimefichwa, ni nini kinachomzuia mtu kuchapisha pesa bure?
-Uthibitisho wa ujuzi wa sifuri, unawalazimisha kwa hesabu matokeo ya kila shughuli kuungwa mkono na mapato halisi, ambayo hayajatumika, * wakati * kuweka kiasi cha siri.
+**Ikiwa kila kitu kimefichwa, nini kinamzuia mtu kuchapisha pesa za bure?**
+Thibitisho la maarifa sifuri. Kinamlazimisha kihisabati kila muamala kuwa na matokeo yanayoungwa mkono na pembejeo halisi ambazo hazijatumika, *huku* kikificha kiasi.
 
-** Je, noti ileile inaweza kutumiwa mara mbili?**
-Hapana. Kutumia noti kuchapisha null yake; jaribio la pili itakuwa kuchapishwa null sawa, ambayo ni tayari katika "matumizi" bin, hivyo mtandao inakataa yake.
+**Je, dokezo lilelile linaweza kutumika mara mbili?**
+Hapana. Kutumia dokezo huchapisha nullifier yake; jaribio la pili lingechapisha nullifier ileile, ambayo tayari iko katika sanduku la “zilizotumika,” kwa hiyo mtandao unalikataa.
 
-** Je, watu wa nje wanaweza kuunganisha mtumaji na mpokeaji?**
-Hapana, dhamira (kuzaliwa kwa noti) na kufuta (kifo cha noti) haziwezi kulinganishwa na mtu yeyote bila ujuzi wa siri wa mmiliki.
-
----
-
-### Jibu la mtihani wa intuition (Sehemu ya 9)
-
-Kama nullifier walikuwa mahesabu * tu * kutoka maelezo, na hakuna siri muhimu, basi ** mtu yeyote ** anaweza kuhesabu ni, kuvunja mali # 1 (tu mmiliki anaweza kutumia). mbaya zaidi, nultifier sasa itakuwa derivable moja kwa moja kutoka taarifa ya umma kuhusu maelezo, ambayo inaweza basi watazamaji ** kuunganisha nullifer nyuma kwa ahadi yake **, kukiuka mali # 3 na kimya kimya unraveling faragha ya mfumo mzima. siri muhimu ni nini hufanya tupu ishara zote mbili * peke yako * na * unlinkable. *
+**Je, watu wa nje wanaweza kuunganisha mtumaji na mpokeaji?**
+Hapana. Commitment (kuzaliwa kwa dokezo) na nullifier (kufa kwa dokezo) haziwezi kupatanishwa na mtu yeyote asiye na maarifa ya siri ya mmiliki.
 
 ---
 
-### Ni nini kinachofuata
+### Jibu la jaribio la intuisia (Sehemu ya 9)
 
-** Kifungu cha 1. mashamba Finite: ** ajabu, nzuri idadi mfumo ambapo hesabu "wrapples kuzunguka", na sababu kila kipande cha cryptography katika mfululizo huu anaishi huko. Tutaanza, kama siku zote, na intuition, hakuna fomula mpaka wao ni chuma.
+Ikiwa nullifier ingekokotolewa *kutoka kwenye dokezo pekee*, bila ufunguo wa siri, basi **mtu yeyote** angeweza kuikokotoa, akivunja sifa ya #1 (mmiliki pekee anaweza kutumia). Mbaya zaidi, nullifier sasa ingeweza kutolewa moja kwa moja kutoka katika taarifa za umma kuhusu dokezo, jambo ambalo lingeweza kuruhusu watazamaji **kuunganisha nullifier na commitment yake**, likivunja sifa ya #3 na kuvunja kimya kimya faragha ya mfumo mzima. Ufunguo wa siri ndio unaofanya tokeni ya kubatilisha iwe *yako wewe pekee* na *isiyoweza kuhusishwa [unlinkable].*
 
-* Sehemu ya * Zcash kutoka Kanuni za Kwanza * mfululizo kwa [ZecHub](https://zechub.org). Leseni CC BY-SA 4.0.*
+---
+
+### Kinachofuata
+
+**Makala ya 1 . Nyuga finiti:** mfumo wa ajabu na mzuri wa namba ambamo hesabu “huzunguka,” na sababu kila sehemu ya usimbaji fiche katika mfululizo huu huishi humo. Tutaanza, kama kawaida, kwa intuisia, bila fomula hadi zitakapostahili kutolewa.
+
+*Sehemu ya mfululizo wa* Zcash kutoka Kanuni za Msingi *kwa ajili ya [ZecHub](https://zechub.org). Imetolewa chini ya leseni ya CC BY-SA 4.0.*

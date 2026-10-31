@@ -1,20 +1,20 @@
-# Kupeleka zcashd kwa Akash kupitia Console
+# Kuweka zcashd kwenye Akash kupitia Console
 
-> ** Deprecated. Je, si kufuata mwongozo huu kupeleka node wewe ni nia ya kutumia.**
+> **Imepitwa na wakati. Usifuate mwongozo huu ili kuweka node unayokusudia kutumia.**
 >
-> zcashd alifikia moja kwa moja Mwisho wa Support kusimamishwa Julai 18, 2026. node zcashD kupelekwa leo si kulandanisha na ncha ya mnyororo, hivyo utoaji gharama fedha kila mwezi na inazalisha chochote.
+> zcashd ilisimamishwa kiotomatiki mwishoni mwa Usaidizi mnamo Julai 18, 2026. Node ya zcashd iliyowekwa leo haitasawazisha hadi ncha ya mnyororo [chain], kwa hivyo uwekaji huo hugharimu fedha kila mwezi na hautoi chochote.
 >
-> Kupeleka ** Zebra** badala yake: [Jinsi ya kuendesha Zebra kwenye Mtandao Akash](/guides/akash-network-zebra), ambayo inashughulikia huo Akash Console kazi mtiririko na mahitaji takriban theluthi moja ya disk. Kama wewe ni kusonga kuanzisha zilizopo, angalia [zcashd kwa Zebra na Zallet uhamiaji mwongozo](/guides/migration-guide-zcashd-to-zebrad-zallet).
+> Weka **Zebra** badala yake: [Jinsi ya kuendesha Zebra kwenye Akash Network](/guides/akash-network-zebra), ambayo inaelezea utaratibu uleule wa Akash Console na inahitaji takribani theluthi moja ya diski. Ikiwa unahamisha usanidi uliopo, tazama mwongozo wa uhamishaji kutoka [zcashd hadi Zebra na Zallet](/guides/migration-guide-zcashd-to-zebrad-zallet).
 >
-> Ukurasa huu ni uliofanyika kama rekodi ya kihistoria wa kupelekwa zcashd.
+> Ukurasa huu umehifadhiwa kama kumbukumbu ya kihistoria ya uwekaji wa zcashd.
 
-Guide for deploying a zcashd Zcash full node (Electric Coin Co implementation) using [Kifaa cha Akash Console](https://console.akash.network)Hapa ni mafunzo ya video chini. mwongozo zaidi katika kina inaweza kupatikana hapa chini.
+Mwongozo wa kuweka full node ya zcashd Zcash (utekelezaji wa Electric Coin Co) kwa kutumia [Akash Console](https://console.akash.network). Hapa chini kuna mafunzo ya video. Mwongozo wa kina zaidi unapatikana hapa chini.
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
     className="w-full h-full"
     src="https://www.youtube.com/embed/SVekeNU6_-g"
-    title="Zcash Full Node setup on Akash Network"
+    title="Usanidi wa Full Node ya Zcash kwenye Akash Network"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowFullScreen
     loading="lazy"
@@ -22,159 +22,159 @@ Guide for deploying a zcashd Zcash full node (Electric Coin Co implementation) u
 </div>
 
 
-## Unachoweka Mahali pa Kazi
+## Unachoweka
 
-full zcashd node ambayo itakuwa:
+Full node ya zcashd ambayo:
 
--> Sync nzima Zcash blockchain (350GB + kwa mainnet, ~ 40GB kwa testnet)
+-> Itasawazisha blockchain nzima ya Zcash (350GB+ kwa mainnet, ~ 40GB kwa testnet)
 
--> Gharama takriban $ 15 / mwezi kulingana na bei AKT ishara
+-> Itagharimu takribani $15/mwezi kulingana na bei za tokeni za AKT
 
--> Kuchukua masaa kadhaa kwa siku ili usawazishe kikamilifu
+-> Itachukua saa kadhaa hadi siku kadhaa kusawazisha kikamilifu
 
--> Matumizi 4 vCPUs, 16GB RAM, 350GB kuhifadhi (mainnet) au 2 vCPU, 8GB RAM , 50GB (testnet)
+-> Itatumia vCPU 4, RAM 16GB, hifadhi 350GB (mainnet) au vCPU 2, RAM 8GB, 50GB (testnet)
 
--> Download cryptographic vigezo juu ya kukimbia kwanza (~ 2GB, moja wakati)
+-> Itapakua vigezo vya kriptografia wakati wa uendeshaji wa kwanza (~ 2GB, mara moja)
 
-** zcashd dhidi ya Zebra:**
+**zcashd dhidi ya Zebra:**
 
--> zcashd ilikuwa uanzishaji wa node ya Zcash asili na Electric Coin Co, iliyosimamishwa tangu Julai 18, 2026
+-> zcashd ilikuwa utekelezaji asili wa node ya Zcash kutoka Electric Coin Co, iliyosimamishwa tangu Julai 18, 2026
 
--> Zebra, kutoka Zcash Foundation, ni node kamili katika matumizi ya leo
+-> Zebra, kutoka Zcash Foundation, ndiyo full node inayotumika leo
 
--> Zebra tu ifuatavyo mlolongo wa sasa; node zcashd hawezi kufikia ncha
+-> Ni Zebra pekee inayofuata mnyororo wa sasa; node ya zcashd haiwezi kufikia ncha
 
--> mkoba zcashd ya imekuwa kubadilishwa na [Zallet](/using-zcash/zallet-quick-reference-guide)
+-> Pochi ya zcashd imebadilishwa na [Zallet](/using-zcash/zallet-quick-reference-guide)
 
--> Tumia zcashd kama unahitaji mfuko wa fedha utendaji au maalum RPC APIs
-
-
-### ** Muhimu: Port Mapping juu ya Akash**
-
-When you expose a port on Akash (e.g., port 8233 for zcashd P2P), it **does NOT bind to that exact port** on the provider's public IP. Instead, the provider assigns a random high port (like 31234 or 42567) and reverse-proxies it to your container's port 8233.
-
-Hii ni kwa kubuni - watoa kukimbia kupelekwa nyingi, na wao d kuwa migogoro kama kila mtu alijaribu kutumia bandari 8233 moja kwa moja.
-
-** Hii inamaanisha nini kwako:**
-
--> Wewe Configure bandari 8233 katika SDL (zcashd ya kiwango P2P bandari)
-
--> Akash inakupa URI kama * mtoa huduma.com:31234*
-
--> nodes nyingine Zcash kuungana na wewe katika * mtoa huduma.com:31234*
-
--> Ndani ya chombo yako, zcashd bado anasikiliza juu 8233
+-> Tumia zcashd ikiwa unahitaji utendaji wa pochi au API mahususi za RPC
 
 
-Hii ni kushughulikiwa moja kwa moja. Tu kutumia URI kwamba Akash inakupa.
+### **Muhimu: Uchoraji wa Bandari kwenye Akash**
 
-## Mahitaji ya awali
+Unapofichua bandari kwenye Akash (kwa mfano, bandari 8233 kwa P2P ya zcashd), **HAIUNGWI kwenye bandari hiyo kamili** kwenye IP ya umma ya mtoa huduma. Badala yake, mtoa huduma hutenga bandari ya juu ya nasibu (kama 31234 au 42567) na kuielekeza kwa reverse proxy kwenye bandari 8233 ya kontena lako.
 
--> ** Keplr Wallet** kivinjari kupanua imewekwa (Chrome/Brave/Firefox)
+Hii imekusudiwa hivyo - watoa huduma huendesha uwekaji mwingi, na kungekuwa na migongano ikiwa kila mtu angejaribu kutumia bandari 8233 moja kwa moja.
 
--> ** AKT ishara** - Kupata 50-100 AKT kutoka kubadilishana (Coinbase, Kraken, Osmosis)
+**Hii ina maana gani kwako:**
 
--> ** Dakika 5** kubonyeza kupitia UI Console
+-> Unasanidi bandari 8233 katika SDL (bandari ya kawaida ya P2P ya zcashd)
 
+-> Akash hukupa URI kama *provider.com:31234*
 
-## Hatua ya 1: Kuunganisha mkoba wako
+-> Node nyingine za Zcash huunganishwa nawe katika *provider.com:31234*
 
--> Go to [https://console.akash.network](https://console.akash.network)
-
--> Bonyeza **"Kuunganisha Wallet"** katika haki ya juu
-
--> Chagua ** Keplr** (au Cosmos yako favorite mkoba)
-
--> Kubali uhusiano wakati Keplr pops up
+-> Ndani ya kontena lako, zcashd bado husikiliza kwenye 8233
 
 
-Akiba yako ya AKT inapaswa kuonekana juu kulia. Kama ni sifuri, kwenda fedha mkoba wako kwanza.
+Hili hushughulikiwa kiotomatiki. Tumia tu URI ambayo Akash inakupa.
 
-## Hatua ya 2: Kujenga kupelekwa
+## Mahitaji ya Awali
 
--> Click **"Kupanga"** kifungo (kubwa bluu button, katikati ya ukurasa)
+-> Kiendelezi cha kivinjari cha **Keplr Wallet** kimesakinishwa (Chrome/Brave/Firefox)
 
--> Chagua **"Kujenga template yako"** (au kuruka moja kwa moja uploading SDL)
+-> **Tokeni za AKT** - Pata AKT 50-100 kutoka soko la kubadilishana sarafu [exchange] (Coinbase, Kraken, Osmosis)
 
-### Chaguo A: Upload SDL File (Ilipendekeza)
+-> **Dakika 5** za kubofya kupitia kiolesura cha Console
 
-> ** Kitufe hiki deploys node kusimamishwa.** Ni bili dhidi ya AKT yako usawa kwa ajili ya Node kwamba hawezi kulandanisha. Matumizi ya [Mwongozo wa Zebra](/guides/akash-network-zebra) badala yake.
+
+## Hatua ya 1: Unganisha Pochi Yako
+
+-> Nenda kwenye [https://console.akash.network](https://console.akash.network)
+
+-> Bofya **“Connect Wallet”** upande wa juu kulia
+
+-> Chagua **Keplr** (au pochi yako unayopendelea ya Cosmos)
+
+-> Idhinisha muunganisho Keplr inapojitokeza
+
+
+Salio lako la AKT linapaswa kuonekana upande wa juu kulia. Ikiwa ni sifuri, weka salio kwenye pochi yako kwanza.
+
+## Hatua ya 2: Unda Uwekaji
+
+-> Bofya kitufe cha **“Deploy”** (kitufe kikubwa cha samawati, katikati ya ukurasa)
+
+-> Chagua **“Build your template”** (au ruka moja kwa moja hadi kupakia SDL)
+
+### Chaguo A: Pakia Faili ya SDL (Inapendekezwa)
+
+> **Kitufe hiki kinaweka node iliyosimamishwa.** Kinatoza salio lako la AKT kwa node ambayo haiwezi kusawazisha. Tumia mwongozo wa [Zebra](/guides/akash-network-zebra) badala yake.
 
 [![Deploy on Akash](/content-images/deploy-with-akash-btn-74abb88d44.svg)](https://console.akash.network/new-deployment?step=edit-deployment&templateId=akash-network-awesome-akash-zcash-zcashd)
 
-### Chaguo B: Tumia SDL Mhariri
+### Chaguo B: Tumia Kihariri cha SDL
 
-Kama unataka kushikamana SDL manually:
+Ikiwa ungependa kubandika SDL mwenyewe:
 
--> Nakili yaliyomo ya * zcashd-akash.yml*
+-> Nakili maudhui ya *zcashd-akash.yml*
 
--> Weka katika mhariri SDL
+-> Bandika kwenye kihariri cha SDL
 
--> Kurekebisha kama inahitajika (tazama sehemu ya Configuration chini)
+-> Rekebisha inavyohitajika (tazama sehemu ya usanidi hapa chini)
 
--> Click **"Kujenga kupelekwa"**
-
-
-## Hatua ya 3: Kuchunguza na Kuidhinisha Amana
-
-Console atakuonyesha:
-
--> ** Deposit kupelekwa**: ~ 5 AKT (unaweza kupata hii nyuma wakati wewe kufunga utoaji)
-
--> **Makadirio ya gharama**: Kulingana na SDL yako bei.
+-> Bofya **“Create Deployment”**
 
 
-Bonyeza ** "Kubali"** na saini shughuli katika Keplr.
+## Hatua ya 3: Kagua na Idhinisha Amana
 
-## Hatua ya 4: Chagua Mtunzaji wa Afya Yako
+Console itakuonyesha:
 
-Baada ya ~ sekunde 30, utaona zabuni kutoka kwa watoa. Kila zabuni inaonyesha:
+-> **Amana ya uwekaji**: ~ AKT 5 (utairudishiwa unapofunga uwekaji)
 
--> ** Bei kwa kila block** (katika AKT au USDC)
-
--> **Kikadirio cha gharama ya kila mwezi**
-
--> **Mtoa maelezo** (uptime, mkoa, nk)
+-> **Gharama inayokadiriwa**: Kulingana na bei katika SDL yako
 
 
-**Usichague tu ya bei rahisi.** Angalia:
+Bofya **“Approve”** na utie sahihi muamala [transaction] katika Keplr.
 
--> Uptime % (njia ya kwa > 95%)
+## Hatua ya 4: Chagua Mtoa Huduma
 
--> Mkoa (karibu na wewe = bora latency, lakini haina jambo kubwa kwa blockchain nodes)
+Baada ya ~ sekunde 30, utaona zabuni kutoka kwa watoa huduma. Kila zabuni inaonyesha:
 
--> hali ya ukaguzi (kijani checkmark = zaidi kuaminika)
+-> **Bei kwa block** (katika AKT au USDC)
 
+-> **Gharama ya kila mwezi inayokadiriwa**
 
-Bonyeza **"Kubali Bid"** juu ya mtoa huduma yako kuchaguliwa na ishara katika Keplr.
-
-## Hatua 5: Kusubiri kwa ajili ya kupelekwa
-
-Kiweko itakuwa:
-
--> Kujenga kukodisha na mtoa huduma yako kuchaguliwa
-
--> Tuma orodha (huambia mtoa nini kukimbia)
-
--> Kuanza chombo yako
+-> **Maelezo ya mtoa huduma** (muda wa upatikanaji, eneo, n.k.)
 
 
-Hii inachukua dakika 1-2. Utaona updates hali katika UI.
+**Usichague iliyo nafuu zaidi pekee.** Angalia:
 
-## Hatua ya 6: Thibitisha Ni Running
+-> Asilimia ya muda wa upatikanaji (lenga > 95%)
 
-Mara baada ya kupelekwa, utaona:
+-> Eneo (lililo karibu nawe = muda bora wa kujibu, lakini halina umuhimu mkubwa kwa node za blockchain)
 
--> ** Huduma** tab: Inaonyesha huduma yako * zcashd* na hali ya
-
--> ** Logs** tab: Live kumbukumbu kutoka node yako zcashd
-
--> ** Leases** tab: Maelezo kuhusu kupelekwa yako (DSEQ, mtoa huduma, gharama)
+-> Hali ya ukaguzi (alama ya kijani = inaaminika zaidi)
 
 
-### Angalia Matangazo ya Mkutano wa Mawasiliano
+Bofya **“Accept Bid”** kwenye mtoa huduma uliyochagua na utie sahihi katika Keplr.
 
-Bonyeza juu ya ** Logs** na unapaswa kuona zcashd kuanza up:
+## Hatua ya 5: Subiri Uwekaji
+
+Console itafanya yafuatayo:
+
+-> Kuunda upangaji na mtoa huduma uliyochagua
+
+-> Kutuma manifest (humweleza mtoa huduma nini cha kuendesha)
+
+-> Kuanzisha kontena lako
+
+
+Hii huchukua dakika 1-2. Utaona masasisho ya hali katika kiolesura.
+
+## Hatua ya 6: Thibitisha Kwamba Inaendesha
+
+Baada ya kuwekwa, utaona:
+
+-> Kichupo cha **Services**: Huonyesha huduma yako ya *zcashd* pamoja na hali
+
+-> Kichupo cha **Logs**: Kumbukumbu za moja kwa moja kutoka node yako ya zcashd
+
+-> Kichupo cha **Leases**: Maelezo kuhusu uwekaji wako (DSEQ, mtoa huduma, gharama)
+
+
+### Angalia Kumbukumbu
+
+Bofya **Logs** na unapaswa kuona zcashd ikianza:
 
 ```bash
 [zcashd]: ZCASHD_NETWORK=mainnet
@@ -182,20 +182,20 @@ Bonyeza juu ya ** Logs** na unapaswa kuona zcashd kuanza up:
 ...
 ```
 
-**Kuanza kwanza itakuwa download zcash-params (~ 2GB).** Hii ni mara moja ya operesheni na inachukua 5-10 dakika kutegemea mtoa bandwidth. baadae restarts skip hii.
+**Uendeshaji wa kwanza utapakua zcash-params (~2GB).** Hili ni operesheni ya mara moja na huchukua dakika 5-10 kulingana na kipimo data cha mtoa huduma. Kuanzishwa upya baadae kutaruka hili.
 
-Sync itachukua ** masaa kwa siku** kulingana na mtandao. Angalia:
+Usawazishaji utachukua **saa hadi siku** kulingana na mtandao. Angalia:
 
--> Kuongeza block urefu
+-> Urefu wa block unaoongezeka
 
--> Peer uhusiano (lazima 10-30 wenzao)
+-> Miunganisho ya wenzao (inapaswa kuwa wenzao 10-30)
 
--> Hakuna makosa ya kurudia-rudia
+-> Kutokuwepo kwa hitilafu zinazojirudia
 
 
-## Hatua ya 7: Kupata anwani yako Node ya
+## Hatua ya 7: Pata Anwani ya Node Yako
 
-Bonyeza kwenye ** Leases** tab, kisha ** URI's.
+Bofya kichupo cha **Leases**, kisha **URIs**.
 
 Utaona kitu kama:
 
@@ -203,26 +203,26 @@ Utaona kitu kama:
 zcashd-8233: provider-hostname.com:31234
 ```
 
-Hii ni node yako ya ** umma P2P mwisho hatua. nodes nyingine Zcash itakuwa kuungana na wewe katika anwani hii.
+Hii ni **endpoint ya P2P ya umma** ya node yako. Node nyingine za Zcash zitaunganishwa nawe kwenye anwani hii.
 
-** Angalia ramani bandari:** Umeweka bandari 8233 katika SDL, lakini Akash aliiweka kwa tofauti ya umma port (31234 katika mfano huu). Hii ni kawaida - angalia "Port Mapping juu ya Akash" sehemu hapo juu kama hii confuses wewe. node yako inapatikana kwenye yoyote bandari Akash inaonyesha hapa, si lazima 8233.
+**Zingatia uchoraji wa bandari:** Ulisanidi bandari 8233 katika SDL, lakini Akash iliitenga kwa bandari tofauti ya umma (31234 katika mfano huu). Hili ni la kawaida - tazama sehemu ya “Uchoraji wa Bandari kwenye Akash” hapo juu ikiwa hili linakuchanganya. Node yako inafikika kwenye bandari yoyote ambayo Akash inaonyesha hapa, si lazima 8233.
 
-Kama umewezesha RPC (commented nje default katika SDL), utaona pia mwisho wa RPC hapa na bandari yake mwenyewe mapped.
+Ikiwa uliwezesha RPC (imewekewa maoni kwa chaguo-msingi katika SDL), pia utaona endpoint ya RPC hapa ikiwa na bandari yake iliyochorwa.
 
-## Chaguzi Configuration
+## Chaguo za Usanidi
 
-### Kubadili kwa Testnet
+### Kubadilisha kwenda Testnet
 
-SDL default kwa Mainnet. kutumia Testnet badala yake:
+SDL hutumia Mainnet kwa chaguo-msingi. Kutumia Testnet badala yake:
 
--> ** Kubadilisha mtandao katika * env* sehemu:**
+-> **Badilisha mtandao katika sehemu ya *env*:**
 
    ```yaml
    # - "ZCASHD_NETWORK=mainnet"
    - "ZCASHD_NETWORK=testnet"
    ```
 
--> ** Sasisha bandari wazi** katika * expose* sehemu:
+-> **Sasisha bandari iliyofichuliwa** katika sehemu ya *expose*:
 
    ```yaml
    # Comment out Mainnet port:
@@ -240,7 +240,7 @@ SDL default kwa Mainnet. kutumia Testnet badala yake:
      proto: tcp
    ```
 
--> ** Hiari: Kupunguza rasilimali** kwa Testnet katika *profiles.compute.zcashd.resources*:
+-> **Hiari: Punguza rasilimali** za Testnet katika *profiles.compute.zcashd.resources*:
 
    ```yaml
    cpu:
@@ -251,21 +251,21 @@ SDL default kwa Mainnet. kutumia Testnet badala yake:
      - size: 50Gi  # Down from 150Gi
    ```
 
--> ** Hiari: Bei ya chini** katika *profiles.placement.akash.pricing*:
+-> **Hiari: Punguza bei** katika *profiles.placement.akash.pricing*:
 
    ```yaml
    amount: 5000  # Down from 10000
    ```
 
-> kumbuka kupunguza bei inaweza kuchuja watoa wetu fomu ya zabuni. uzoefu na thamani hii, au kutumia mtoa mwisho kwa kuangalia kama wangeweza kutoa (mapitio ya wasambazaji API nyaraka)
+> Kumbuka kuwa kupunguza bei kunaweza kuwazuia watoa huduma kutoa zabuni. Jaribu thamani hii, au tumia endpoint ya mtoa huduma kuangalia kama wangetoa zabuni. (Kagua nyaraka za API ya mtoa huduma)
 
-### Kuwezesha RPC Access
+### Wezesha Ufikiaji wa RPC
 
-RPC ni walemavu kwa default kwa ajili ya usalama. Ili kuwezesha:
+RPC imezimwa kwa chaguo-msingi kwa usalama. Ili kuiwezesha:
 
-** CRITICAL: Kuweka nguvu sifa.** zcashd RPC transmits jina la mtumiaji / password juu ya HTTP (si HTTPS). Tu wazi RPC kama wewe kuelewa usalama athari.
+**MUHIMU SANA: Weka vitambulisho imara.** RPC ya zcashd hutuma jina la mtumiaji/nenosiri kupitia HTTP (si HTTPS). Fichua RPC tu ikiwa unaelewa athari za kiusalama.
 
--> Uncomment katika * env* sehemu:
+-> Ondoa maoni katika sehemu ya *env*:
 
    ```yaml
    - "ZCASHD_RPCUSER=yourusername"
@@ -276,9 +276,9 @@ RPC ni walemavu kwa default kwa ajili ya usalama. Ili kuwezesha:
    - "ZCASHD_ALLOWIP=0.0.0.0/0"  # Allow from anywhere (use with caution)
    ```
 
--> Uncomment bandari RPC katika * wazi*:
+-> Ondoa maoni kwenye bandari ya RPC katika *expose*:
 
-   ** Kwa Mainnet:**
+   **Kwa Mainnet:**
 
    ```yaml
    - port: 8232
@@ -288,7 +288,7 @@ RPC ni walemavu kwa default kwa ajili ya usalama. Ili kuwezesha:
      proto: tcp
    ```
 
-   ** Kwa Testnet:**
+   **Kwa Testnet:**
 
    ```yaml
    - port: 18232
@@ -298,46 +298,46 @@ RPC ni walemavu kwa default kwa ajili ya usalama. Ili kuwezesha:
      proto: tcp
    ```
 
-**Warning**: If you set *global: true* for RPC, you're exposing it to the internet with basic auth. This is a bad idea. Use *global: false* and access RPC through Akash's internal network or set up a secure tunnel.
+**Onyo**: Ukiweka *global: true* kwa RPC, unaifichua kwenye intaneti kwa uthibitishaji wa msingi. Hili ni wazo baya. Tumia *global: false* na ufikie RPC kupitia mtandao wa ndani wa Akash au usanidi njia salama ya mawasiliano.
 
-** Port ramani kukumbusha**: Hata kama wewe yatangaza RPC kimataifa, Akash itakuwa ramani yake kwa random juu bandari (si 8232/18232). Angalia URIs katika kupelekwa yako kuona mwisho halisi ya umma. Kwa * global: uongo* (ilipendekezwa), mwisho wa RPC ni kupatikana tu ndani ya mtandao wa utoaji akashi, si kutoka internet za umma.
+**Ukumbusho wa uchoraji wa bandari**: Hata ukifichua RPC kimataifa, Akash itaichora kwenye bandari ya juu ya nasibu (si 8232/18232). Angalia URI katika uwekaji wako ili kuona endpoint halisi ya umma. Kwa *global: false* (inapendekezwa), endpoint ya RPC inafikika tu ndani ya mtandao wa uwekaji wa Akash, si kutoka intaneti ya umma.
 
-### Kuwezesha Index Transaction
+### Wezesha Kielezo cha Muamala
 
-Utaftaji wa shughuli inaruhusu wewe kuuliza yoyote ya manunuzi kwa ID yake kupitia RPC. Hutumia kuhifadhi zaidi (~ 20% ongezeko).
+Kielezo cha muamala hukuruhusu kuuliza muamala wowote kwa kitambulisho chake kupitia RPC. Hutumia hifadhi zaidi (ongezeko la ~ 20%).
 
-Uncomment katika *env*:
+Ondoa maoni katika *env*:
 
 ```yaml
 - "ZCASHD_TXINDEX=1"
 ```
 
-** Onyo**: kuwezesha txindex kwenye node iliyopo ya usawazishaji inahitaji upya indexing blockchain nzima, ambayo inachukua masaa.
+**Onyo**: Kuwezesha txindex kwenye node iliyosawazishwa tayari kunahitaji kuorodhesha upya blockchain nzima, jambo linalochukua saa kadhaa.
 
-### Kuwezesha Insight Explorer
+### Wezesha Kivinjari cha Insight
 
-Insight Explorer hutoa ziada REST API mwisho kwa data blockchain (faida ya block explorers).
+Kivinjari cha Insight hutoa endpoint za ziada za REST API za data ya blockchain (zinafaa kwa vivinjari vya block).
 
-Uncomment katika *env*:
+Ondoa maoni katika *env*:
 
 ```yaml
 - "ZCASHD_INSIGHTEXPLORER=1"
 ```
 
-Hii moja kwa moja inawezesha txindex na anaongeza mbinu za ziada RPC.
+Hili huwezesha txindex kiotomatiki na huongeza mbinu za ziada za RPC.
 
-### Kuwezesha Prometheus Metrics
+### Wezesha Vipimo vya Prometheus
 
-Kwa scrape metrics kwa ufuatiliaji:
+Kukusanya vipimo kwa ajili ya ufuatiliaji:
 
--> Uncomment katika *env*:
+-> Ondoa maoni katika *env*:
 
    ```bash
    - "ZCASHD_PROMETHEUSPORT=9969"
    - "ZCASHD_METRICSIP=0.0.0.0/0"
    ```
 
--> Uncomment metrics bandari katika * wazi*:
+-> Ondoa maoni kwenye bandari ya vipimo katika *expose*:
 
    ```bash
    - port: 9969
@@ -347,65 +347,65 @@ Kwa scrape metrics kwa ufuatiliaji:
      proto: tcp
    ```
    
-Metrics itakuwa inapatikana katika: http://yourendpoint:9969/metrics katika muundo wa Prometheus.
+Vipimo vitapatikana katika http://yourendpoint:9969/metrics kwa muundo wa Prometheus.
 
-### Kurekebisha rasilimali/kuweka bei
+### Rekebisha Rasilimali/Bei
 
-Kama wewe si kupata zabuni au unataka kuboresha gharama:
+Ikiwa hupati zabuni au unataka kuboresha gharama:
 
-** Kwa watoa huduma chini ya vipimo**, kupunguza katika *profiles.compute.zcashd.resources* sehemu:
+**Kwa watoa huduma wenye vipimo vya chini**, punguza katika sehemu ya *profiles.compute.zcashd.resources*:
 
--> CPU: * vitengo: 2* (kiwango cha chini kwa ajili ya kasi ya usawazishaji wa busara)
+-> CPU: *units: 2* (kiwango cha chini kwa kasi inayokubalika ya usawazishaji)
 
--> Kumbukumbu: * ukubwa: 12Gi* (kiwango cha chini kwa ajili ya utulivu)
+-> Kumbukumbu: *size: 12Gi* (kiwango cha chini kwa uthabiti)
 
--> Hifadhi: * ukubwa: 120Gi* (kiwango cha chini kwa mainnet)
-
-
-**Kuvuna bei zaidi**, ongezeko la *profiles.placement.akash.pricing*:
-
--> Mainnet: Jaribu * kiasi: 15000* uakt/block
-
--> Testnet: Jaribu * kiasi: 7500* uakt/block
+-> Hifadhi: *size: 120Gi* (kiwango cha chini kwa mainnet)
 
 
-SDL maadili ni kuweka juu conservatively. watoa wengi bid chini.
+**Ili kuvutia zabuni zaidi**, ongeza katika *profiles.placement.akash.pricing*:
 
-## Kuboresha Utoaji Wako wa Kazi ya Kujitolea
+-> Mainnet: Jaribu *amount: 15000* uakt/block
 
-Unahitaji kubadilisha Configuration baada ya kupelekwa?
+-> Testnet: Jaribu *amount: 7500* uakt/block
 
--> Nenda kwa ** My Deployments** katika Console
 
--> Kupata kupelekwa yako zcashd
+Thamani za SDL zimewekwa kwa kiwango cha juu kwa tahadhari. Watoa huduma wengi watatoa zabuni ya chini zaidi.
 
--> Click **"Update kupelekwa"**
+## Kusasisha Uwekaji Wako
+
+Je, unahitaji kubadilisha usanidi baada ya kuweka?
+
+-> Nenda kwenye **My Deployments** katika Console
+
+-> Tafuta uwekaji wako wa zcashd
+
+-> Bofya **“Update Deployment”**
 
 -> Hariri SDL
 
--> Click **"Update"** na kupitisha katika Keplr
+-> Bofya **“Update”** na uidhinishe katika Keplr
 
 
-** Kumbuka**: Upyaji itaanza tena chombo yako. node itakuwa kuendelea kutoka hali yake kuhifadhiwa (kuendelea uhifadhi), lakini kutarajia 1-2 dakika ya downtime.
+**Kumbuka**: Kusasisha kutaanzisha upya kontena lako. Node itaendelea kutoka hali yake iliyohifadhiwa (hifadhi endelevu), lakini tarajia dakika 1-2 za kutofanya kazi.
 
 ## Ufuatiliaji
 
 ### Kupitia Console
 
--> ** Tab Logs**: kuishi vyombo vya kumbukumbu
+-> Kichupo cha **Logs**: Kumbukumbu za kontena za moja kwa moja
 
--> ** Tab Shell**: Kupata shell ndani ya chombo (faida kwa ajili ya debugging)
+-> Kichupo cha **Shell**: Pata shell ndani ya kontena (inafaa kwa utatuzi)
 
--> ** Matukio tab**: Kubernetes matukio (zaidi ya bure isipokuwa kitu ni kuvunjwa)
+-> Kichupo cha **Events**: Matukio ya Kubernetes (kwa kiasi kikubwa hayana manufaa isipokuwa kuna kilichoharibika)
 
 
 ### Kupitia RPC (ikiwa imewezeshwa)
 
-Kama wewe kuwezeshwa RPC, unaweza kuuliza node yako kama kawaida zcashd full Node (kwa sababu ni!)
+Ikiwa uliwezesha RPC, unaweza kuuliza node yako kama full node ya kawaida ya zcashd (kwa sababu ndivyo ilivyo!)
 
-### zcash-cli mbadala
+### Mbadala wa zcash-cli
 
-Kama una access ya shell kupitia Console, unaweza kutumia *zcash-cli* moja kwa moja:
+Ikiwa una ufikiaji wa shell kupitia Console, unaweza kutumia *zcash-cli* moja kwa moja:
 
 ```bash
 # From the Shell tab in Console
@@ -414,113 +414,113 @@ zcash-cli getpeerinfo
 zcash-cli getinfo
 ```
 
-## Kufunga kupelekwa kwako
+## Kufunga Uwekaji Wako
 
-Wakati wewe ni kufanyika au unataka kuacha kulipa:
+Unapomaliza au unapotaka kuacha kulipa:
 
--> Nenda kwa ** Usanidi Wangu**
+-> Nenda kwenye **My Deployments**
 
--> Kupata kupelekwa yako zcashd
+-> Tafuta uwekaji wako wa zcashd
 
--> Click **"Funga kupelekwa"**
+-> Bofya **“Close Deployment”**
 
--> Thibitisha na saini katika Keplr
+-> Thibitisha na utie sahihi katika Keplr
 
 
-Akaunti yako ya 5 AKT itarejeshwa. ** Hifadhi endelevu** inapaswa kuhifadhiwa na mtoa huduma, lakini usitegemee - kutibu kama mtoaji mwingine wowote wa wingu.
+Amana yako ya AKT 5 itarejeshwa. **Hifadhi endelevu** inapaswa kuhifadhiwa na mtoa huduma, lakini usitegemee hilo - ichukulie kama mtoa huduma mwingine yeyote wa wingu.
 
-## Kutatua matatizo
+## Utatuzi wa Matatizo
 
-### "Fedha za kutosha" kosa
+### Hitilafu ya “Insufficient funds”
 
-Unahitaji AKT zaidi. Fedha mkoba wako Keplr.
+Unahitaji AKT zaidi. Weka salio kwenye pochi yako ya Keplr.
 
-### Hakuna zabuni zinazoonekana juu ya
+### Hakuna zabuni zinazoonekana
 
 Ama:
 
--> Bei yako ni ya chini sana (ongezea * kiasi cha* katika SDL)
+-> Bei yako ni ndogo sana (ongeza *amount* katika SDL)
 
--> Mahitaji yako rasilimali ni kubwa mno kwa watoa inapatikana (kupunguza CPU / kumbukumbu / kuhifadhi)
+-> Mahitaji yako ya rasilimali ni makubwa sana kwa watoa huduma wanaopatikana (punguza CPU/kumbukumbu/hifadhi)
 
--> Kusubiri muda mrefu (wakati mwingine inachukua 60-90 sekunde kwa ajili ya zabuni kuonekana)
-
-
-### Utekelezaji kukwama katika "kusubiri"
-
-Mtoa huduma inaweza kuwa na matatizo. Kufunga kupelekwa na kujaribu mtoa mwingine.
-
-### zcashd kumbukumbu kuonyesha "Hakuna wenzao kushikamana"
-
-Tangu mwisho wa msaada kusimamishwa Julai 18, 2026, hii ni hali ya kudumu inayotarajiwa badala ya kuchelewesha kuanza, na hakuna kiasi cha kusubiri au kupelekwa tena kitakosa. Kupeleka [Zebra](/guides/akash-network-zebra) badala yake.
-
-### "Kutoka nje ya kumbukumbu" makosa katika magogo
-
-Wewe cheaped nje juu ya RAM. Kufunga kupelekwa na redeploy kwa angalau 12Gi kumbukumbu (16Gi ilipendekeza).
-
-### Sync ni kuchukua milele
-
-Eleza maana ya "kwa milele":
-
--> **Masaa**: Kawaida
-
--> ** Siku**: Pia kawaida kwa mainnet kutoka mwanzo
-
--> ** Wiki**: Kitu ni makosa, kuangalia kumbukumbu kwa ajili ya makosa
+-> Subiri zaidi (wakati mwingine huchukua sekunde 60-90 zabuni kuonekana)
 
 
-### "Kosa kupata zcash-params"
+### Uwekaji umekwama katika “pending”
 
-Mtoa huduma anaweza kuwa na matatizo ya mtandao au bandwidth polepole. Hii kawaida hutatua yenyewe. Kama inaendelea kwa zaidi ya dakika 30, jaribu redploying mtoa tofauti.
+Huenda mtoa huduma ana matatizo. Funga uwekaji na ujaribu mtoa huduma tofauti.
 
-### Kushindwa kwa uthibitishaji wa RPC
+### Kumbukumbu za zcashd zinaonyesha “No peers connected”
 
--> Angalia kwamba `ZCASHD_RPCUSER` na * Z CASHD_ RPCPASSWORD * ni kuweka kwa usahihi
+Tangu kusimamishwa kwa Usaidizi mnamo Julai 18, 2026, hii ndiyo hali ya kudumu inayotarajiwa badala ya kuchelewa kuanza, na hakuna kiasi cha kusubiri au kuweka upya kitakachorekebisha hili. Weka [Zebra](/guides/akash-network-zebra) badala yake.
 
--> Angalia wewe ni kutumia bandari sahihi (8232 kwa mainnet, 18232 testnet)
+### Hitilafu za “Out of memory” katika kumbukumbu
 
--> Kumbuka bandari ni ramani na Akash - kutumia URI kutoka kupelekwa yako, si 8232 moja kwa moja
+Ulipunguza sana RAM. Funga uwekaji na uweke upya ukiwa na angalau kumbukumbu 12Gi (16Gi inapendekezwa).
+
+### Usawazishaji unachukua muda usioisha
+
+Fafanua “usioisha”:
+
+-> **Saa**: Kawaida
+
+-> **Siku**: Pia ni kawaida kwa mainnet kutoka mwanzo
+
+-> **Wiki**: Kuna tatizo, angalia kumbukumbu kwa hitilafu
+
+
+### “Error fetching zcash-params”
+
+Huenda mtoa huduma ana matatizo ya mtandao au kipimo data cha polepole. Hili kwa kawaida hujitatua lenyewe. Ikiendelea kwa zaidi ya dakika 30, jaribu kuweka upya kwa mtoa huduma tofauti.
+
+### Hitilafu za uthibitishaji wa RPC
+
+-> Angalia kuwa `ZCASHD_RPCUSER` na `ZCASHD_RPCPASSWORD` zimewekwa kwa usahihi
+
+-> Thibitisha kuwa unatumia bandari sahihi (8232 kwa mainnet, 18232 kwa testnet)
+
+-> Kumbuka bandari huchorwa na Akash - tumia URI kutoka uwekaji wako, si 8232 moja kwa moja
 
 
 ## Usimamizi wa Gharama
 
-Kufuatilia matumizi yako katika Console:
+Fuatilia matumizi yako katika Console:
 
--> ** My Deployments** -> yako kupelekwa -> Inaonyesha "Gharama kwa mwezi" makadirio ya
+-> **My Deployments** -> Uwekaji wako -> Huonyesha makadirio ya “Cost per month”
 
--> yako Keplr mkoba salio itapungua baada ya muda
+-> Salio la pochi yako ya Keplr litapungua kadiri muda unavyopita
 
 
-Wakati usawa wako ni mdogo, Akash itafunga moja kwa moja kupelekwa kwako. ** Ongeza mkoba wako mara kwa mara** au weka arifu.
+Salio lako linapopungua, Akash itafunga uwekaji wako kiotomatiki. **Ongeza salio kwenye pochi yako mara kwa mara** au usanidi arifa.
 
 ### Kupunguza Gharama
 
--> ** Matumizi Testnet** kwa ajili ya upimaji yasiyo ya uzalishaji (50% nafuu)
+-> **Tumia Testnet** kwa majaribio yasiyo ya uzalishaji (nafuu kwa 50%)
 
--> ** Chini CPU / kumbukumbu** kama huna haja ya haraka sync
+-> **Punguza CPU/kumbukumbu** ikiwa huhitaji usawazishaji wa haraka
 
--> ** Chagua watoa huduma wa bei rahisi** (sio kila wakati busara - masuala ya uptime)
+-> **Chagua watoa huduma wa bei nafuu** (si busara daima - muda wa upatikanaji ni muhimu)
 
--> **Tumia USDC badala ya AKT** kama bei AKT ni tete (inahitaji SDL mabadiliko ya bei)
+-> **Tumia USDC badala ya AKT** ikiwa bei ya AKT ni tete (huhitaji mabadiliko ya bei ya SDL)
 
--> ** Disable txindex** kama huna haja yake (Anaokoa ~ 20% ya kuhifadhi)
+-> **Zima txindex** ikiwa huihitaji (huokoa hifadhi ~ 20%)
 
 
-### Rasilimali za ziada
+### Rasilimali za Ziada
 
-**Kidhibiti cha Akash**: [https://console.akash.network](https://console.akash.network)
+**Akash Console**: [https://console.akash.network](https://console.akash.network)
 
-** Akash Docs**: [https://akash.network/docs/](https://akash.network/docs/)
+**Nyaraka za Akash**: [https://akash.network/docs/](https://akash.network/docs/)
 
-** Zcash Explorers**: [https://zechub.wiki/guides/blockchain-explorers](https://zechub.wiki/guides/blockchain-explorers)
+**Vivinjari vya Zcash**: [https://zechub.wiki/guides/blockchain-explorers](https://zechub.wiki/guides/blockchain-explorers)
 
-**Akash Discord**: [https://discord.akash.network](https://discord.akash.network) (kwa masuala ya mtoa huduma)
+**Akash Discord**: [https://discord.akash.network](https://discord.akash.network) (kwa matatizo ya mtoa huduma)
 
 ## Maelezo ya Mwisho
 
-- ** Matatizo ya kuhifadhi kudumu.** Usikose * persistent: true* au kutumia darasa la beta2. Tumia *beta3*.
-- ** awali usawazishaji ni polepole.** Kuwa na subira. Hii ni ya kawaida kwa nodes blockchain.
-- ** Weka mkoba wako fedha.** Utekelezaji auto-kufunga wakati wewe kukimbia nje ya AKT.
-- ** Backup si moja kwa moja.** Kama wewe huduma kuhusu data, kudhani inaweza kutoweka na mpango ipasavyo.
-- ** Usalama wa RPC ni muhimu.** Usitumie mtandao bila hatua za usalama zinazofaa.
-- ** zcash-params ni cached.** Run ya kwanza downloads ~ 2GB wa cryptographic vigezo. Hii ni kawaida na hutokea mara moja tu.
+- **Hifadhi endelevu ni muhimu.** Usiruke *persistent: true* wala kutumia daraja la *beta2*. Tumia *beta3*.
+- **Usawazishaji wa mwanzo ni wa polepole.** Kuwa na subira. Hili ni la kawaida kwa node za blockchain.
+- **Weka salio kwenye pochi yako.** Uwekaji hufungwa kiotomatiki unapomaliza AKT.
+- **Nakala rudufu si za kiotomatiki.** Ikiwa data ni muhimu kwako, dhania kwamba inaweza kupotea na panga ipasavyo.
+- **Usalama wa RPC ni muhimu sana.** Usifiche RPC kwenye intaneti bila hatua sahihi za usalama.
+- **zcash-params huhifadhiwa kwenye akiba.** Uendeshaji wa kwanza hupakua ~2GB za vigezo vya kriptografia. Hili ni la kawaida na hutokea mara moja tu.

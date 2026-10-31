@@ -1,68 +1,68 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Using_Zcash/Memos.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Hariri Ukurasa"/>
 </a>
 
-# Kumbukumbu
+# Jumbe
 
-## TL;DR
+## Kwa Ufupi
 
-* Memo ni barua fupi unayoambatanisha na malipo yanayotumwa kwa anwani iliyolindwa. Imesimbwa kwa njia fiche, kwa hivyo watu wanaotazama blockchain hawawezi kuisoma.
-* Sehemu ya memo inashikilia hadi baiti 512 za maandishi.
-* Watu hutumia memo kusema ni nani aliyetuma malipo na yalikuwa ya nini, au kutuma ujumbe wa faragha.
-* Malipo kwa anwani zinazoeleweka hayawezi kuwa na memo.
-* A [kiungo cha ombi la malipo](/using-zcash/payment-request-uris) wanaweza kujaza memo kwa ajili yako ili duka liweze kuweka lebo kwa kila agizo.
+* Ujumbe [memo] ni dokezo fupi unaloambatanisha na malipo [payment] yanayotumwa kwa anwani ya faragha [shielded address]. Umesimbwa kwa usimbaji fiche [encryption], hivyo watu wanaotazama blockchain hawawezi kuusoma.
+* Sehemu ya ujumbe hubeba hadi baiti 512 za maandishi.
+* Watu hutumia jumbe kueleza ni nani aliyetuma malipo na yalikuwa ya nini, au kutuma ujumbe wa faragha.
+* Malipo kwa anwani za uwazi [transparent addresses] hayawezi kubeba ujumbe.
+* Kiungo cha [ombi la malipo](/using-zcash/payment-request-uris) kinaweza kujaza ujumbe kwa niaba yako ili duka liweze kutambulisha kila agizo.
 
 ## Maelezo ya Msingi
 
-### Kutuma Memo Zilizosimbwa kwa Njia Fiche
+### Kutuma Jumbe Zilizosimbwa kwa Usimbaji Fiche
 
-Unapotuma muamala wa Z2Z (uliofunikwa kwa ngao), unaweza kujumuisha memo (ujumbe) katika muamala. Memo hii inaweza kutumika kwa mambo kadhaa tofauti.
+Unapotuma muamala [transaction] wa Z2Z (kutoka faragha hadi faragha), unaweza kujumuisha ujumbe katika muamala. Ujumbe huu unaweza kutumika kwa mambo kadhaa tofauti.
 
-### Kusaini Miamala
+### Kutia Saini Miamala
 
-Memo hutumika hasa kwa ajili ya kusaini malipo. Kwa kuwa miamala iliyolindwa huficha data yako, huwezi kuona ni nani aliyekutumia ZEC na ZEC ingekuwa ya nini. Watumiaji wanaweza kutumia sehemu ya memo kusaini jina lao au jina bandia ili kuwajulisha wenzao kuhusu muamala huo. Wanaweza pia kuelezea muamala huo ulikuwa wa nini.
+Jumbe hutumika hasa kutia saini malipo. Kwa kuwa miamala ya faragha husimba data yako kwa usimbaji fiche, huwezi kuona ni nani aliyekutumia ZEC na ZEC ilikuwa kwa ajili ya nini. Watumiaji wanaweza kutumia sehemu ya ujumbe kutia saini jina lao au jina bandia ili kumjulisha mhusika mwingine muamala ulitoka kwa nani. Pia wanaweza kueleza muamala ulikuwa wa nini.
 
 ### Kutuma Ujumbe
 
-Mfano mwingine wa matumizi ya memo iliyosimbwa kwa njia fiche ni kutuma ujumbe kwa mtu mwenye z-addr. Ujumbe huu unaweza kuwa kuhusu chochote, iwe ni [ukumbusho kwa rafiki](https://twitter.com/iansagstette/status/1542142468505870336) or a [ujumbe nyeti unaohitaji kubaki faragha iwezekanavyo](https://twitter.com/InsideZcash/status/1545800146352578560).
+Matumizi [use case] mengine ya ujumbe uliosimbwa kwa usimbaji fiche ni kutuma ujumbe kwa mtu mwenye z-addr. Jumbe hizi zinaweza kuwa kuhusu chochote, iwe ni [ukumbusho kwa rafiki](https://twitter.com/iansagstette/status/1542142468505870336) au [ujumbe nyeti unaohitaji kubaki wa faragha iwezekanavyo](https://twitter.com/InsideZcash/status/1545800146352578560).
 
-### Vidokezo vya Mapenzi kwenye Blockchain
+### Madokezo ya Mapenzi kwenye Blockchain
 
-Kulikuwa na mtu aliyemtumia mwenzi wake ujumbe wa mapenzi katika moja ya vizuizi vya kwanza kwenye blockchain ya Zcash. Mtu aligundua kuwa mwenzi wake alikuwa amemtumia faili kupitia memo Zcash. Faili hii ilikuwa tiketi ya tukio maalum ng'ambo ambalo yeye na mpenzi wake wa mbali walikuwa wakizungumzia kuhudhuria pamoja. Ujumbe huo ulikuwa ujumbe wa mapenzi.
+Kulikuwa na mtu aliyemtumia mwenzi wake dokezo la mapenzi katika mojawapo ya block [block] za kwanza kwenye blockchain ya Zcash. Mtu fulani aligundua kuwa mwenzi wake alikuwa amemtumia faili kupitia Zcash ujumbe. Faili hii ilikuwa tiketi ya tukio maalumu ng'ambo ya nchi ambalo yeye na mpenzi wake wa mbali walikuwa wakizungumza kuhusu kulihudhuria pamoja. Ujumbe huo ulikuwa dokezo la mapenzi.
 
-## Taswira / Analojia
+## Taswira / Mfano
 
-Fikiria malipo yaliyofunikwa kama bahasha iliyofungwa yenye pesa ndani. Hati hiyo ni noti iliyokunjwa pamoja na pesa.
+Fikiria malipo ya faragha kama bahasha iliyofungwa yenye fedha ndani. Ujumbe ni dokezo lililokunjwa pamoja na fedha.
 
-Blockchain ni ofisi ya posta. Hubeba bahasha na kurekodi kwamba ilifika, na haifungui kamwe. Mtu anayefungua bahasha husoma barua. Malipo ya uwazi ni kadi ya posta, kwa hivyo hakuna bahasha ya kukunjwa barua.
+Blockchain ni ofisi ya posta. Hubeba bahasha na kurekodi kwamba imewasili, wala haiifungui. Mtu anayefungua bahasha husoma dokezo. Malipo ya uwazi ni kadi ya posta, hivyo hakuna bahasha ya kukunjia dokezo.
 
-## Kupiga Mbizi Kina
+## Uchambuzi wa Kina
 
-### Kinachofaa katika memo
+### Kinachotoshea katika ujumbe
 
-Sehemu ya memo huwa na baiti 512 haswa. Memo fupi ya maandishi hufunikwa na baiti sifuri kabla ya kusimba, kwa hivyo kila memo inaonekana saizi sawa kwenye mnyororo.
+Sehemu ya ujumbe huwa na baiti 512 kila wakati. Ujumbe mfupi wa maandishi hujazwa kwa baiti sifuri kabla ya kusimbwa kwa usimbaji fiche, hivyo kila ujumbe huonekana kuwa na ukubwa sawa on-chain.
 
-Memo nyingi ni maandishi ya UTF-8 tu. [ZIP 302](https://zips.z.cash/zip-0302) pia huhifadhi memo zinazoanza na baiti ya `0xF5` au zaidi kwa aina nyingine za data, na kumbukumbu ya `0xF6` ikifuatiwa na sifuri inamaanisha "hakuna memo".
+Jumbe nyingi ni maandishi ya kawaida ya UTF-8. [ZIP 302](https://zips.z.cash/zip-0302) pia huhifadhi jumbe zinazoanza kwa baiti ya `0xF5` au zaidi kwa aina nyingine za data, na ujumbe wa `0xF6` unaofuatwa na sufuri humaanisha “hakuna ujumbe”.
 
-Kila pato lililolindwa katika muamala lina memo yake, kwa hivyo muamala mmoja unaowalipa watu kadhaa unaweza kujumuisha noti tofauti kwa kila mmoja wao.
+Kila toweo la faragha katika muamala hubeba ujumbe wake mwenyewe, hivyo muamala mmoja unaowalipa watu kadhaa unaweza kujumuisha dokezo tofauti kwa kila mmoja wao.
 
 ### Kina
 
-> **Ya kihistoria. Onyesho hili haliendelei tena kama lilivyoandikwa.**
+> **Kihistoria. Onyesho hili halifanyi kazi tena kama lilivyoandikwa.**
 >
-> Onyesho lililo hapa chini linatumia zcashd, na ni [hati ya kupokea](https://github.com/ZecHub/zechub/blob/main/site/tutorials/ZcashMagicWormhole/receiveOwlsWormhole.sh) husoma memo zote `zcash-cli`. zcashd ilifikia kikomo chake cha mwisho wa usaidizi kiotomatiki mnamo tarehe 18 Julai 2026, kwa hivyo hati haiwezi kufikia nodi inayoendeshwa, na haijahamishwa.
+> Onyesho lililo hapa chini linatumia zcashd, na [hati yake ya kupokea](https://github.com/ZecHub/zechub/blob/main/site/tutorials/ZcashMagicWormhole/receiveOwlsWormhole.sh) husoma jumbe kupitia `zcash-cli`. zcashd ilifikia kusimamishwa kwake kiotomatiki kwa Mwisho wa Usaidizi tarehe 18 Julai 2026, hivyo hati hiyo haiwezi kufikia node inayofanya kazi, na haijahamishwa.
 >
-> Kusoma memo zilizolindwa kutoka kwa mstari wa amri bado kunafanya kazi kwenye Zallet: `zallet rpc z_listunspent` hurejesha kila noti iliyolindwa iliyopokelewa ikiwa na `memoStr` sehemu ambayo hati inasomeka. Tazama [Mwongozo wa Marejeleo ya Haraka Zallet](/using-zcash/zallet-quick-reference-guide) kwa amri, na [mwongozo wa uhamiaji kwenda Zebra na Zallet](/guides/migration-guide-zcashd-to-zebrad-zallet) ili kuhamisha nodi kutoka kwa zcashd. Zallet bado iko katika beta.
+> Kusoma jumbe za faragha kutoka mstari wa amri bado hufanya kazi kwenye Zallet: `zallet rpc z_listunspent` hurejesha kila dokezo la faragha lililopokelewa pamoja na sehemu ileile ya `memoStr` inayosomwa na hati. Tazama [Zallet Mwongozo wa Marejeo ya Haraka](/using-zcash/zallet-quick-reference-guide) kwa amri, na [mwongozo wa uhamishaji kwenda Zebra na Zallet](/guides/migration-guide-zcashd-to-zebrad-zallet) ili kuhamisha node kutoka zcashd. Zallet bado iko katika beta.
 >
 > Sehemu hii imehifadhiwa kama rekodi ya kihistoria ya onyesho la Magic-Wormhole.
 
-Hivi ndivyo jinsi ya kutumia Zcash Shielded Memo zenye Magic-Wormhole CLI na zcashd kutuma faili kwa usalama kutoka kompyuta moja hadi nyingine!
+Hivi ndivyo unavyotumia Zcash Jumbe za Faragha pamoja na CLI ya Magic-Wormhole na zcashd kutuma faili kwa usalama kutoka kompyuta moja hadi nyingine!
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
     className="w-full h-full"
     src="https://www.youtube.com/embed/8iqPCza9o6A"
-    title="DEMO: Encrypted File Transfer with Zcash 📁"
+    title="ONYESHO: Uhamishaji wa Faili Uliosimbwa kwa Usimbaji Fiche kwa kutumia Zcash 📁"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowFullScreen
     loading="lazy"
@@ -71,15 +71,15 @@ Hivi ndivyo jinsi ya kutumia Zcash Shielded Memo zenye Magic-Wormhole CLI na zca
 
 ## Kurasa Zinazohusiana
 
-- [URI za Ombi la Malipo](/using-zcash/payment-request-uris): weka memo kwenye `zcash:` kiungo au msimbo wa QR.
-- [Miamala](/using-zcash/transactions): aina za miamala iliyolindwa na inayoonekana wazi.
-- [Mabwawa ya Kuogelea Yenye Ngao](/using-zcash/shielded-pools): ambapo noti zilizofunikwa na ngao zinazobeba memo zinaishi.
-- [Pochi](/using-zcash/wallets): tumia kichujio cha Shielded Memo ili kupata pochi zinazounga mkono memo.
-- [Mwongozo wa Marejeleo ya Haraka Zallet](/using-zcash/zallet-quick-reference-guide): soma memo zilizopokelewa kutoka kwa mstari wa amri.
-- [Zana Zcash kwa Waumbaji](/using-zcash/creators-and-tips): zana za kutoa vidokezo vinavyotuma ujumbe pamoja na vidokezo.
+- [URI za Ombi la Malipo](/using-zcash/payment-request-uris): weka ujumbe katika kiungo cha `zcash:` au msimbo wa QR.
+- [Miamala](/using-zcash/transactions): aina za miamala ya faragha na ya uwazi.
+- [Mabwawa ya Faragha](/using-zcash/shielded-pools): mahali ambapo madokezo ya faragha yanayobeba jumbe huhifadhiwa.
+- [Pochi](/using-zcash/wallets): tumia kichujio cha Ujumbe wa Faragha kupata pochi zinazounga mkono jumbe.
+- [Zallet Mwongozo wa Marejeo ya Haraka](/using-zcash/zallet-quick-reference-guide): soma jumbe zilizopokelewa kutoka mstari wa amri.
+- [Vifaa vya Watayarishi vya Zcash](/using-zcash/creators-and-tips): vifaa vya kudokeza vinavyotuma ujumbe pamoja na dokezo.
 
 ### Rasilimali
 
-[Sehemu ya Kumbukumbu Iliyosimbwa kwa Njia Fiche](https://electriccoin.co/blog/encrypted-memo-field/)
+[Sehemu ya Ujumbe Uliosimbwa kwa Usimbaji Fiche](https://electriccoin.co/blog/encrypted-memo-field/)
 
-**Ilisasishwa mara ya mwisho:** Oktoba 2026
+**Ilisasishwa mwisho:** Oktoba 2026

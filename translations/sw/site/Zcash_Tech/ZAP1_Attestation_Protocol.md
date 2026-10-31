@@ -1,32 +1,32 @@
-# ZAP1 Uthibitisho wa Itifaki ya Utaratibu
+# Itifaki ya uthibitishaji [attestation] ya ZAP1
 
-ZAP1 ni wazi chanzo uthibitisho itifaki kwa ajili ya Zcash. Inaandika muundo wa maisha mzunguko matukio BLAKE2b Merkle mti na nanga mizizi mti on-mnyororo kupitia Orchard ulinzi memos. ushahidi ni hadharani verifiable. tukio data anakaa binafsi.
+ZAP1 ni itifaki ya uthibitishaji yenye msimbo wazi [open-source] kwa ajili ya Zcash. Inaandika matukio yaliyopangiliwa ya mzunguko wa maisha kwenye mti wa Merkle wa BLAKE2b na kutia nanga mzizi wa mti on-chain kupitia jumbe [memos] za faragha za Orchard. Mathibitisho [proofs] yanaweza kuthibitishwa hadharani. Data ya matukio husalia kuwa ya faragha [privacy].
 
 ## Jinsi inavyofanya kazi
 
-Operators register event types (deployments, payments, transfers, etc.) and submit them to a ZAP1 instance. Kila tukio hutoa leaf hash using domain-separated BLAKE2b-256. majani kukusanya katika Merkle mti. Wakati kizingiti ni kufikiwa, mzizi wa mti umebadilishwa kama memo ya ZAP1:09 na kuingizwa kwa Zcash katika shughuli iliyohifadhiwa.
+Waendeshaji husajili aina za matukio (utumiaji, malipo [payments], uhamisho, n.k.) na kuyawasilisha kwenye nakala ya ZAP1. Kila tukio huzalisha heshi ya jani [leaf hash] kwa kutumia BLAKE2b-256 iliyotenganishwa kwa kikoa [domain-separated]. Majani hukusanywa kwenye mti wa Merkle. Kizingiti kinapofikiwa, mzizi wa mti husimbwa kama ujumbe wa ZAP1:09 na kutiwa nanga kwa Zcash katika muamala wa faragha [shielded transaction].
 
-Mtu yeyote na hash jani unaweza kuthibitisha njia kamili kutoka jani kwa mizizi ya juu-mnyororo nanga, bila kuamini operator.
+Mtu yeyote mwenye heshi ya jani anaweza kuthibitisha njia kamili kutoka kwenye jani hadi mzizi hadi nanga ya on-chain, bila kumwamini mwendeshaji.
 
-## Sifa muhimu
+## Sifa kuu
 
-- ** Programu-agnostic**: yoyote Zcash operator unaweza kufafanua yao wenyewe aina ya tukio na minyororo customization
-- ** faragha-kuhifadhi**: tukio payloads ni hashed kabla ya nanga. tu hashes kwenda juu ya mnyororo.
-- ** Independently verifiable**: uthibitisho mahitaji tu ushahidi mfuko na mlolongo upatikanaji. hakuna uaminifu operator required.
-- ** ZIP 302 sambamba**: ZAP1 ni converging kuelekea ZIP302 partType kwa ajili ya utility uthibitisho mzigo
+- **Huru kwa programu [Application-agnostic]**: mwendeshaji yeyote wa Zcash anaweza kufafanua aina zake za matukio na tungo za ubinafsishaji
+- **Inayohifadhi faragha [Privacy-preserving]**: maudhui ya matukio [event payloads] huwekewa heshi kabla ya kutiwa nanga. Heshi pekee ndizo huenda on-chain.
+- **Inayoweza kuthibitishwa kwa kujitegemea [Independently verifiable]**: uthibitishaji huhitaji tu kifurushi cha thibitisho na ufikiaji wa mnyororo [chain]. Hakuna uaminifu kwa mwendeshaji unaohitajika.
+- **Inayooana na ZIP 302**: ZAP1 inaelekea kwenye partType ya ZIP 302 kwa maudhui ya uthibitishaji
 
-## Kinachoendelea kuwepo
+## Vilivyopo
 
-- Utekelezaji wa kumbukumbu (Rust, MIT leseni)
-- Verification SDK juu ya crates.io (Rust + 83KB WASM)
-- JavaScript SDK juu ya npm
-- Universal memo decoder (hutambua ZAP1, ZIP 302 TVLV, maandishi, binary na tupu memos)
-- Kitengo cha Ufuatiliaji na ukaguzi wa 29 API na 14 ya uthibitisho wa itifaki
-- FROST 2-ya-3 kizingiti kusaini kubuni kwa ajili ya matangazo multi-party nanga
-- ZIP rasimu PR # 1243 chini ya ukaguzi
-- 4 mainnet nanga na 14 majani kama ya Machi 2026
+- Utekelezaji rejeleo [Reference implementation] (Rust, wenye leseni ya MIT)
+- SDK ya uthibitishaji kwenye crates.io (Rust + WASM ya 83KB)
+- SDK ya JavaScript kwenye npm
+- Kisimbuzi cha ujumbe cha jumla [Universal memo decoder] (hutambua ZAP1, ZIP 302 TVLV, maandishi, binari, na jumbe tupu)
+- Kifurushi cha ulinganifu [Conformance kit] chenye ukaguzi 29 wa API na ukaguzi 14 wa itifaki
+- Muundo wa FROST wa kutia saini kwa kizingiti [threshold signing] wa 2-kati-ya-3 kwa utangazaji wa nanga unaohusisha wahusika wengi
+- Rasimu ya PR #1243 ya ZIP inayopitiwa
+- Nanga 4 za mainnet zenye majani 14 kufikia Machi 2026
 
-## Usanifu wa majengo
+## Usanifu
 
 ```
 Your app  -->  ZAP1 API  -->  Merkle tree  -->  Zcash anchor
@@ -35,14 +35,14 @@ Your app  -->  ZAP1 API  -->  Merkle tree  -->  Zcash anchor
           (DEPLOYMENT, etc)                    (ZAP1:09:{root})
 ```
 
-Kila operator anaendesha mwenyewe ZAP1 mfano na funguo zao wenyewe, Merkle mti, na nanga. Hakuna hali ya pamoja kati ya waendeshaji.
+Kila mwendeshaji huendesha nakala yake binafsi ya ZAP1 yenye funguo zake, mti wa Merkle, na nanga zake. Hakuna hali ya pamoja kati ya waendeshaji.
 
 ## Mahali pa kujifunza zaidi
 
 - Chanzo: [github.com/Frontier-Compute/zap1](https://github.com/Frontier-Compute/zap1)
-- kuthibitisha SDK: [crates.io/crates/zap1-verify](https://crates.io/crates/zap1-verify)
-- Memo decoder: [crates.io/crates/zcash-memo-decode Kiwango cha juu zaidi ya kiwango cha chini ni:](https://crates.io/crates/zcash-memo-decode)
-- Itifaki spec: [ONCHAIN_PROTOCOL.md](https://github.com/Frontier-Compute/zap1/blob/main/ONCHAIN_PROTOCOL.md)
-- ZIP rasimu: [PR #1243](https://github.com/zcash/zips/pull/1243)
-- Kuishi API: [pay.frontiercompute.io/protocol/info (kiingilio cha simu)](https://pay.frontiercompute.io/protocol/info)
-- Mwongozo wa Opereta: [OPERATOR_GUIDE.md Kuweka alama ya kifaa cha kompyuta kwenye kituo chako](https://github.com/Frontier-Compute/zap1/blob/main/OPERATOR_GUIDE.md)
+- SDK ya uthibitishaji: [crates.io/crates/zap1-verify](https://crates.io/crates/zap1-verify)
+- Kisimbuzi cha ujumbe: [crates.io/crates/zcash-memo-decode](https://crates.io/crates/zcash-memo-decode)
+- Bainifu ya itifaki: [ONCHAIN_PROTOCOL.md](https://github.com/Frontier-Compute/zap1/blob/main/ONCHAIN_PROTOCOL.md)
+- Rasimu ya ZIP: [PR #1243](https://github.com/zcash/zips/pull/1243)
+- API ya moja kwa moja: [pay.frontiercompute.io/protocol/info](https://pay.frontiercompute.io/protocol/info)
+- Mwongozo wa mwendeshaji: [OPERATOR_GUIDE.md](https://github.com/Frontier-Compute/zap1/blob/main/OPERATOR_GUIDE.md)

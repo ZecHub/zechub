@@ -2,135 +2,135 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Mradi Tachyon
+# Mradi wa Tachyon
 
-## TL;DR
+## Kwa Ufupi
 
-- Tachyon ni muundo mpya uliopendekezwa wa jinsi pochi za Zcash zinavyopata na kutumia pesa zilizolindwa, unaokusudiwa kuruhusu mtandao kukua hadi idadi kubwa ya watumiaji
-- Leo pochi inabidi ijaribu kuondoa sehemu kubwa ya blockchain ili kugundua ni malipo gani ambayo ni yake, na hiyo ndiyo sababu kuu ya kusawazisha kwa ulinzi kunahisi polepole
-- Tachyon hubadilisha hilo na **usawazishaji usio wazi**, kwa hivyo pochi huchota kile inachohitaji bila kuchanganua kila kitu na bila kumwambia seva ni sehemu gani ilitaka
-- Pia huhamisha maelezo ya malipo kutoka kwenye blockchain na kuingia kwenye ombi la malipo lenyewe, jambo ambalo hurahisisha itifaki lakini huhamisha jukumu kwenye pochi
-- Ni pendekezo, lililochapishwa kwa mara ya kwanza Aprili 2025. Sio **sehemu ya NU7** na **haijasafirishwa**, na inahitaji juhudi za uhandisi katika kiwango cha uboreshaji wa Sapling
+- Tachyon ni usanifu upya unaopendekezwa wa jinsi pochi za Zcash zinavyopata na kutumia fedha za faragha, unaokusudiwa kuruhusu mtandao ukue hadi kuwa na idadi kubwa sana ya watumiaji
+- Leo, pochi hulazimika kujaribu kufumbua kwa usimbaji fiche sehemu kubwa ya blockchain ili kugundua malipo yake yenyewe, na hii ndiyo sababu kuu ya usawazishaji wa faragha kuonekana polepole
+- Tachyon hubadilisha hilo kwa **usawazishaji usiofichua taarifa**, ili pochi ipate inachohitaji bila kuchanganua kila kitu na bila kuijulisha seva ni sehemu zipi ilizotaka
+- Pia huondoa maelezo ya malipo kutoka blockchain na kuyaweka katika ombi la malipo lenyewe, jambo linalorahisisha itifaki lakini kuhamishia wajibu kwenye pochi
+- Ni pendekezo, lililochapishwa kwa mara ya kwanza Aprili 2025. **Si sehemu ya NU7** na **halijatolewa**, na linahitaji juhudi za uhandisi zinazolingana na kiwango cha uboreshaji wa Sapling
 
 <br/>
 
 ## Hii ni kwa ajili ya nani
 
-- Mtu yeyote ambaye ametazama usawazishaji wa pochi iliyolindwa na kujiuliza kwa nini inachukua muda mrefu hivyo
-- Wageni wanaoendelea kumuona Tachyon akitajwa karibu na NU7 na Zcash scaling
-- Wasomaji wanaotaka wazo kwanza na usimbaji fiche wa pili
+- Mtu yeyote ambaye ametazama pochi ya faragha ikisawazisha na kujiuliza kwa nini inachukua muda mrefu
+- Wageni wanaoendelea kuona Tachyon ikitajwa pamoja na kupanua uwezo wa NU7 na Zcash
+- Wasomaji wanaotaka kuelewa wazo kwanza na kriptografia baadaye
 
 <br/>
 
-## Tatizo ambalo Tachyon anatatua
+## Tatizo linalotatuliwa na Tachyon
 
-Zcash huficha malipo ni ya nani. Hilo ndilo jambo kuu, na husababisha tatizo lisilo la kawaida: ikiwa hakuna mtu anayeweza kujua malipo ni ya nani, pochi yako mwenyewe hupataje yako?
+Zcash huficha malipo yamekusudiwa nani. Hilo ndilo kusudi lake lote, na huleta tatizo gumu: ikiwa hakuna anayeweza kujua malipo ni ya nani, pochi yako hupataje yaliyo yako?
 
-Katika Bitcoin hii ni rahisi. Anwani ni za umma, kwa hivyo pochi inaweza kuuliza seva "ni nini kilitumwa kwa anwani hii?" na kupata jibu. Pochi Zcash haiwezi kuuliza swali hilo, kwa sababu kuuliza kungefichua haswa kile ambacho bwawa lililofunikwa limeundwa kuficha.
+Katika Bitcoin hili ni rahisi. Anwani ni za umma, hivyo pochi inaweza kuuliza seva, “Ni nini kimetumwa kwa anwani hii?” na kupata jibu. Pochi ya Zcash haiwezi kuuliza swali hilo, kwa sababu kuliuliza kungefichua hasa kile ambacho bwawa la faragha limekusudiwa kuficha.
 
-Kwa hivyo Zcash hufanya kitu tofauti. Mtumaji husimba maelezo ya malipo na kuyaingiza ndani ya muamala wenyewe. Kisha pochi yako hufanya kazi kupitia miamala kwenye mnyororo na kujaribu kusimba kila moja. Karibu kila jaribio hushindwa. Machache yanayofanikiwa ni malipo yako. Hii inaitwa **kusimba kwa majaribio**, na ni ya faragha, sahihi, na polepole.
+Kwa hiyo Zcash hufanya jambo tofauti. Mtumaji husimba fiche maelezo ya malipo na kuyaficha ndani ya muamala wenyewe. Pochi yako kisha hupitia miamala kwenye mnyororo na kujaribu kufumbua kila mmoja kwa usimbaji fiche. Karibu kila jaribio hushindwa. Yale machache yanayofaulu ni malipo yako. Hii huitwa **ufumbuaji wa majaribio [trial decryption]**, na ni ya faragha, sahihi, na polepole.
 
 ![Today a Zcash wallet downloads every shielded transaction and tries to decrypt each one, with almost every attempt failing, to find the few payments that belong to it](/content-images/tachyon-scanning-today.svg)
 
-Kinachovutia ni kazi inategemea. Juhudi ambazo pochi yako hutumia huwekwa na ukubwa wa mnyororo, si kwa kiasi cha malipo uliyopokea. Mtu ambaye hajawahi kupokea malipo hata moja hufanya kazi karibu sawa na mtu anayeyapokea kila siku. Kadri Zcash inavyokua, hilo linazidi kuwa baya kwa kila mtu. Kwa maneno ya pendekezo, "halipandi tu."
+Kikwazo ni kile ambacho kazi hiyo hutegemea. Juhudi zinazotumiwa na pochi yako huamuliwa na ukubwa wa mnyororo, si idadi ya malipo uliyopokea hasa. Mtu ambaye hajawahi kupokea hata malipo moja hufanya karibu kazi nyingi sawa na mtu anayeyapokea kila siku. Zcash inapokua, hali hiyo huwa mbaya zaidi kwa kila mtu. Kwa maneno ya pendekezo, “haiwezi kupanuka uwezo kabisa.”
 
 <br/>
 
-## Kinachobadilika Tachyon
+## Mabadiliko yanayoletwa na Tachyon
 
-Tachyon inashambulia tatizo hilo kutoka kwenye chanzo chake: inaacha kutumia blockchain kama njia ya uwasilishaji wa siri za malipo.
+Tachyon hushambulia tatizo kwenye chanzo chake: huacha kutumia blockchain kama njia ya kuwasilisha siri za malipo.
 
-Badala yake, maelezo unayohitaji yanasafirishwa na ombi lenyewe la malipo, nje ya bendi. Ombi la malipo, URI, au msimbo wa QR hubeba taarifa ambazo zilikuwa zimesimbwa kwa njia fiche katika muamala. Sean Bowe anaelezea hili kama kukumbatia **malipo ya nje ya bendi** kwa mara ya kwanza katika itifaki iliyolindwa ya Zcash.
+Badala yake, maelezo unayohitaji husafiri pamoja na ombi la malipo lenyewe, nje ya njia kuu. Ombi la malipo, URI, au msimbo wa QR hubeba taarifa ambazo hapo awali zilisimbwa fiche ndani ya muamala. Sean Bowe hueleza hili kama kukumbatia **malipo ya nje ya njia kuu [out-of-band payments]** kwa mara ya kwanza katika itifaki ya faragha ya Zcash.
 
-Mara tu mnyororo unapokuwa haujabeba taarifa hiyo tena, pochi yako haina sababu tena ya kuitafuta, na tatizo la majaribio ya usimbaji fiche hutoweka.
+Mara mnyororo usipobeba tena taarifa hiyo, pochi yako haina tena sababu ya kuutafuta, na tatizo la ufumbuaji wa majaribio hutoweka.
 
-Pochi yako bado inahitaji kujua hali ya mnyororo wa sasa ili kutumia, ingawa. Hiyo ni nusu ya pili ya muundo, **usawazishaji usio wazi**: njia ya pochi kupata vitu maalum inavyohitaji bila kufichua kwa seva ni vitu gani iliomba.
+Hata hivyo, pochi yako bado inahitaji kujua hali ya sasa ya mnyororo ili kutumia fedha. Hii ni nusu ya pili ya usanifu, **usawazishaji usiofichua taarifa [oblivious synchronization]**: njia ya pochi kupata vitu mahususi inavyohitaji bila kufichua kwa seva ni vitu gani ilivyoomba.
 
 ![With Tachyon the sender passes payment details to the recipient out of band, and the wallet uses oblivious synchronization to retrieve only the data it needs instead of scanning the whole chain](/content-images/tachyon-oblivious-sync.svg)
 
 <br/>
 
-## Ingekuwa na maana gani kwa mtu anayetumia pochi
+## Maana yake kwa mtu anayetumia pochi
 
-- **Kusawazisha huacha kukua na mnyororo.** Muda ambao pochi yako hutumia kufuatilia shughuli zako mwenyewe badala ya ukubwa wa Zcash.
-- **Malipo yanakuwa kama kumpa mtu bili.** Ombi la malipo hubeba kile ambacho mpokeaji anahitaji, kwa hivyo ubadilishanaji kati ya mtumaji na mpokeaji ni muhimu zaidi kuliko ilivyo leo.
-- **Pochi zina jukumu zaidi.** Kwa sababu mnyororo hauna tena nakala iliyosimbwa ya maelezo yako ya malipo, kupoteza data ya pochi yako ni muhimu zaidi. Kuhama kwa chelezo na urejeshaji kutoka kuwa kipengele cha itifaki hadi kitu ambacho programu ya pochi lazima ifanye kazi vizuri.
-- **Baadhi ya vipande vinavyojulikana husogea au kutoweka.** Tachyon huondoa utofautishaji wa funguo, funguo za kutazama, na anwani za malipo kutoka kwa itifaki kuu, na kuziacha kwenye safu ya pochi. Hii ni moja ya sehemu muhimu zaidi za pendekezo na bado inafanyiwa kazi.
+- **Usawazishaji haukui tena pamoja na mnyororo.** Muda ambao pochi yako hutumia kufikia hali ya sasa ungefuata shughuli zako mwenyewe badala ya ukubwa wa Zcash.
+- **Malipo huwa zaidi kama kumpa mtu ankara.** Ombi la malipo hubeba kile ambacho mpokeaji anahitaji, hivyo mawasiliano kati ya mtumaji na mpokeaji huwa muhimu zaidi kuliko yalivyo leo.
+- **Pochi hubeba wajibu zaidi.** Kwa sababu mnyororo haushikilii tena nakala iliyosimbwa fiche ya maelezo yako ya malipo, kupoteza data ya pochi yako kunakuwa na athari kubwa zaidi. Hifadhi rudufu na urejeshaji hubadilika kutoka kuwa kipengele cha itifaki hadi kuwa jambo ambalo programu ya pochi lazima ilifanye kwa usahihi.
+- **Baadhi ya vipengele vinavyozoeleka huhama au kutoweka.** Tachyon huondoa utofautishaji wa funguo, funguo za kutazama, na anwani za malipo kutoka itifaki ya msingi, na kuziacha kwa safu ya pochi. Hii ni mojawapo ya sehemu zenye athari kubwa zaidi za pendekezo na bado inafanyiwa kazi.
 
 <br/>
 
 ## Mtazamo wa karibu kwa wasomaji wa kiufundi
 
-Tachyon inaelezewa kama mabadiliko yanayoendana kinyume na itifaki ya Orchard. Inaweza kutumika kama uboreshaji hadi bwawa lililopo Orchard au kama bwawa tofauti lililolindwa linalofikiwa kupitia [turnstile](https://zechub.wiki/zcash-tech/the-turnstile), utaratibu uleule ambao Zcash iliutumia kwa Ironwood. Chaguo huathiri utekelezwaji, si muundo.
+Tachyon hufafanuliwa kama mabadiliko yanayooana kwa kinyume na itifaki ya Orchard. Inaweza kutekelezwa ama kama uboreshaji wa bwawa lililopo la Orchard au kama bwawa tofauti la faragha linalofikiwa kupitia [turnstile](https://zechub.wiki/zcash-tech/the-turnstile), utaratibu uleule ambao Zcash ilitumia kwa Ironwood. Chaguo hilo huathiri utekelezaji, si usanifu.
 
-Inaficha mambo kadhaa kutoka kwa Orchard: Urekebishaji upya wa ufunguo wa RedPallas, ahadi za thamani za homomorphic na sahihi za kufunga, na muundo wa ufunguo uliogawanywa ambao huruhusu kifaa kugawanya uthibitisho bila kukabidhi mamlaka ya matumizi.
+Inahifadhi mambo kadhaa kutoka Orchard: uundaji upya wa nasibu wa funguo wa RedPallas, commitments za thamani za homomorphic na sahihi za binding, pamoja na muundo wa funguo uliogawanywa unaoruhusu kifaa kukabidhi uthibitishaji bila kukabidhi mamlaka ya kutumia fedha.
 
-Kazi ya kuongeza ukubwa hutegemea **data ya kubeba uthibitisho**, mbinu ambayo data husafiri pamoja na uthibitisho wa usahihi wake, ili kuichanganya na data nyingine ya kubeba uthibitisho hutoa kitu kinachorithi na kupanua uthibitisho huo. Hili ndilo linaloruhusu kiasi kikubwa cha kazi iliyothibitishwa kubanwa kuwa kitu kidogo na cha haraka kukaguliwa. Halo, iliyogunduliwa na timu iliyo nyuma ya Zcash, ndiyo iliyofanya data ya kubeba uthibitisho iwe ya vitendo vya kutosha kujenga juu yake.
+Kazi ya kupanua uwezo hutegemea **data inayobeba uthibitisho [proof-carrying data]**, mbinu ambayo data husafiri pamoja na thibitisho la usahihi wake yenyewe, ili kuichanganya na data nyingine inayobeba uthibitisho kuzalishe kitu kinachorithi na kupanua mathibitisho hayo. Hiki ndicho kinachoruhusu kiasi kikubwa cha kazi iliyothibitishwa kufinywa kuwa kitu kidogo na cha kukaguliwa haraka. Halo, iliyogunduliwa na timu nyuma ya Zcash, ndiyo iliyofanya data inayobeba uthibitisho iwe halisi vya kutosha kujengewa juu yake.
 
-Mstari wa tatu ni **vijumlisho vya miamala vilivyolindwa**, ambavyo hubadilisha jinsi mabadiliko ya hali yaliyolindwa yanavyowasilishwa na huwa na athari za kugonga jinsi utiaji saini unavyofanya kazi.
+Uzi wa tatu ni **jumla za miamala ya faragha [shielded transaction aggregates]**, ambao hubadilisha jinsi mabadiliko ya hali ya faragha yanavyowasilishwa na una athari zinazofuata kuhusu jinsi utiaji sahihi unavyofanya kazi.
 
 <br/>
 
-## Ambapo kazi iko
+## Hali ya kazi
 
-Tachyon ni **pendekezo, si kipengele kilichosafirishwa**. Ilichapishwa Aprili 2025, na chapisho la ufuatiliaji mnamo Mei 2025 lilishughulikia matokeo ya makubaliano. Iliteuliwa kama mgombea wa NU7, uboreshaji unaofuata baada ya Ironwood, lakini wigo wa NU7 uliokubaliwa mnamo Septemba 17, 2026 haujumuishi: [ZIP 259](https://zips.z.cash/zip-0259) inaorodhesha kile ambacho NU7 inatekeleza, na [tangazo la jukwaa](https://forum.zcashcommunity.com/t/nu7-timeline/57655) inasema hakuna umbizo jipya la muamala linaloonekana ndani yake. Hakuna tarehe ya uanzishaji iliyowekwa kwa Tachyon.
+Tachyon ni **pendekezo, si kipengele kilichotolewa**. Ilichapishwa Aprili 2025, na chapisho la ufuatiliaji Mei 2025 lilichambua athari za makubaliano. Ilitajwa kama mgombea wa NU7, uboreshaji unaofuata baada ya Ironwood, lakini wigo wa NU7 uliokubaliwa tarehe 17 Septemba 2026 hauijumuishi: [ZIP 259](https://zips.z.cash/zip-0259) huorodhesha kile ambacho NU7 hutekeleza, na tangazo la jukwaa la [forum announcement](https://forum.zcashcommunity.com/t/nu7-timeline/57655) linasema hakuna muundo mpya wa muamala unaoonekana humo. Hakuna tarehe ya uanzishaji iliyowekwa kwa Tachyon.
 
-Muundo wa mwandishi mwenyewe ni kwamba huu ni mpango unaoweza kutekelezeka badala ya utafiti wa kubahatisha, lakini unaohitaji juhudi za uhandisi zinazofanana na Sapling, huku maswali magumu zaidi yakiachwa kwa makusudi kwa ajili ya baadaye.
+Mtazamo wa mwandishi mwenyewe ni kwamba huu ni mpango unaoweza kutekelezwa badala ya utafiti wa kubahatisha, lakini unaohitaji juhudi za uhandisi zinazolingana na Sapling, huku baadhi ya maswali magumu yakiachwa kimakusudi kwa baadaye.
 
-Kazi inayohusiana tayari inaonekana. [Zakura](https://zechub.wiki/zcash-tech/zakura-node), nodi kamili iliyotolewa Julai 2026, ni juhudi za pamoja kati ya Project Tachyon na Valar Group na inakagua baadhi ya mabadiliko haya ya kiwango cha mtandao. [Urejeshaji wa taarifa binafsi](https://zechub.wiki/zcash-tech/private-information-retrieval) Utafiti unalenga katika kikwazo kile kile cha uchanganuzi kutoka pembe tofauti.
+Kazi zinazohusiana tayari zinaonekana. [Zakura](https://zechub.wiki/zcash-tech/zakura-node), full node iliyotolewa Julai 2026, ni juhudi ya pamoja kati ya Mradi wa Tachyon na Valar Group na huonyesha mapema baadhi ya mabadiliko haya ya kiwango cha mtandao. Utafiti wa [Urejeshaji wa taarifa binafsi](https://zechub.wiki/zcash-tech/private-information-retrieval) unalenga kikwazo kilekile cha uchanganuzi kutoka mtazamo tofauti.
 
 <br/>
 
 ## Dhana potofu za kawaida
 
-- **Tachyon haipo.** Hakuna pochi inayoitumia leo, na hakuna sasisho lililoiwezesha.
-- **Tachyon si sawa na Ironwood.** Ironwood ilianzishwa mnamo Julai 2026 na kushughulikiwa na bwawa Orchard na turnstile. Tachyon ni pendekezo tofauti, la baadaye kuhusu upandishaji.
-- **Tachyon si kupunguza faragha.** Lengo ni kuweka leja isiyotofautiana huku ikiondoa gharama ya kuongeza thamani, si kubadilishana faragha kwa kasi.
-- **zk-SNARK haukuwa kikwazo kamwe.** Pendekezo liko wazi kwamba sehemu ya polepole ni jinsi pochi zinavyogundua na kuratibu hali, si gharama ya uthibitisho wa ukaguzi.
-- **Tachyon haipo katika NU7.** Iliwahi kutajwa kama mgombea, lakini wigo uliokubaliwa mnamo Septemba 2026 unashughulikia vitalu vya sekunde 25, kuchakata ada na mwisho wa miamala ya toleo la 4, bila muundo mpya wa miamala ([ZIP 259](https://zips.z.cash/zip-0259)).
+- **Tachyon haijaanza kutumika.** Hakuna pochi inayoitumia leo, na hakuna uboreshaji ulioianzisha.
+- **Tachyon si sawa na Ironwood.** Ironwood ilianzishwa Julai 2026 na ilishughulikia bwawa la Orchard na turnstile. Tachyon ni pendekezo tofauti, la baadaye, kuhusu kupanua uwezo.
+- **Tachyon si upunguzaji wa faragha.** Lengo ni kudumisha kutotofautishika kwa leja huku ukiondoa gharama ya kupanua uwezo, si kubadilisha faragha kwa kasi.
+- **Uthibitishaji wa zk-SNARK haujawahi kuwa kikwazo.** Pendekezo linaeleza wazi kwamba sehemu polepole ni jinsi pochi zinavyogundua na kuratibu hali, si gharama ya kukagua mathibitisho.
+- **Tachyon haipo katika NU7.** Iliwahi kutajwa kama mgombea, lakini wigo uliokubaliwa Septemba 2026 unahusu block za sekunde 25, urejelezaji wa ada na mwisho wa miamala ya toleo la 4, bila muundo mpya wa muamala ([ZIP 259](https://zips.z.cash/zip-0259)).
 
 <br/>
 
-## Faharasa
+## Kamusi
 
-| Muhula | Maana |
+| Neno | Maana |
 |---|---|
-| Trial decryption | Kujaribu kuficha miamala moja baada ya nyingine ili kupata ile iliyoelekezwa kwako |
+| Trial decryption | Kujaribu kufumbua miamala kwa usimbaji fiche mmoja baada ya mwingine ili kupata ile iliyoelekezwa kwako |
 | In-band secret distribution | Kuweka siri ya malipo ndani ya muamala kwenye blockchain, kama Zcash inavyofanya leo |
 | Out-of-band payment | Kupitisha maelezo ya malipo moja kwa moja kati ya mtumaji na mpokeaji badala ya kupitia mnyororo |
-| Oblivious synchronization | Kuchukua data ya mnyororo ambayo pochi inahitaji bila kufichua ni data gani iliyoombwa |
-| Proof-carrying data (PCD) | Data inayosafiri ikiwa na uthibitisho wa usahihi wake, ili uthibitisho uweze kuunganishwa na kubanwa |
-| Shielded transaction aggregate | Njia Tachyon's ya kuunganisha mabadiliko ya hali yaliyolindwa, kubadilisha jinsi yanavyowasilishwa na kusainiwa |
-| ledger indistinguishability | Mali iliyolinda miamala haiwezi kutofautishwa kati ya mali nyingine |
+| Oblivious synchronization | Kupata data ya mnyororo inayohitajika na pochi bila kufichua data gani iliombwa |
+| Proof-carrying data (PCD) | Data inayosafiri pamoja na thibitisho la usahihi wake yenyewe, ili mathibitisho yaweze kuunganishwa na kufinywa |
+| Shielded transaction aggregate | Njia ya Tachyon ya kuunganisha mabadiliko ya hali ya faragha, ikibadilisha jinsi yanavyowasilishwa na kutiwa sahihi |
+| ledger indistinguishability | Sifa kwamba miamala ya faragha haiwezi kutofautishwa kutoka kwa mingine |
 
 <br/>
 
 ## Maswali Yanayoulizwa Mara kwa Mara
 
-**Je, hii itafanya pochi yangu isawazike haraka zaidi?** Hilo ndilo lengo. Muda wa kusawazisha ungefuata shughuli yako mwenyewe badala ya ukubwa wa mnyororo. Hakuna kilichosafirishwa, kwa hivyo hakuna takwimu iliyopimwa ya kunukuu bado.
+**Je, hii itafanya pochi yangu isawazishe kwa kasi zaidi?** Hilo ndilo lengo. Muda wa kusawazisha ungefuata shughuli zako mwenyewe badala ya ukubwa wa mnyororo. Hakuna kilichotolewa, hivyo bado hakuna kipimo kilichopimwa cha kunukuu.
 
-**Je, ninahitaji kufanya chochote sasa?** Hapana. Tachyon ni pendekezo. Ikiwa litapitishwa, litapatikana kupitia uboreshaji wa mtandao kwa notisi ya kawaida.
+**Je, ninahitaji kufanya chochote sasa?** Hapana. Tachyon ni pendekezo. Ikiwa itapitishwa, ingewasili kupitia uboreshaji wa mtandao kwa taarifa ya kawaida.
 
-**Je, kuondoa funguo za kutazama kunamaanisha kupoteza uwezo wa kushiriki ufikiaji wa kusoma?** Pendekezo hilo linaondoa uwezo huo kutoka kwa itifaki kuu na kuingia kwenye safu ya pochi. Jinsi hilo linavyoonekana katika vitendo ni mojawapo ya maswali yaliyo wazi.
+**Je, kuondoa funguo za kutazama kunamaanisha kupoteza uwezo wa kushiriki ufikiaji wa kusoma?** Pendekezo huhamisha uwezo huo kutoka itifaki ya msingi hadi safu ya pochi. Jinsi hilo litakavyoonekana kwa vitendo ni mojawapo ya maswali yaliyo wazi.
 
-**Je, pesa zangu ziko hatarini ikiwa Tachyon itasafirishwa?** Uhamisho utatumia uboreshaji wa Orchard au turnstile, zote zimeundwa ili thamani ibadilike chini ya sheria za uhasibu wa umma. Ukurasa Ironwood unaelezea jinsi turnstile inavyofanya kazi.
+**Je, fedha zangu ziko hatarini ikiwa Tachyon itatolewa?** Utekelezaji ungetumia ama uboreshaji wa Orchard au turnstile, zote zikiwa zimeundwa ili thamani ihame chini ya kanuni za uhasibu wa umma. Ukurasa wa Ironwood hueleza jinsi turnstile inavyofanya kazi.
 
 <br/>
 
 ## Kurasa zinazohusiana
 
-- [Urejeshaji wa Taarifa Binafsi](https://zechub.wiki/zcash-tech/private-information-retrieval) - mbinu nyingine ya kikwazo sawa cha kuchanganua pochi
-- [Njia ya Zakura](https://zechub.wiki/zcash-tech/zakura-node) - nodi iliyojengwa kwa sehemu kutokana na juhudi za uhandisi Tachyon's
-- [Ironwood](https://zechub.wiki/zcash-tech/ironwood) - uboreshaji ulioanza kutumika Julai 2026, mara nyingi huchanganyikiwa na Tachyon
-- [Turnstile](https://zechub.wiki/zcash-tech/the-turnstile) - utaratibu ambao Tachyon inaweza kutumia ikiwa itatumika kama bwawa lake la kuogelea
-- [Usalama wa Baada ya Kiasi](https://zechub.wiki/zcash-tech/post-quantum-security) - ambapo Tachyon iko pamoja na kazi ya itifaki ya muda mrefu
-- [Jinsi Zcash Inavyopangwa](https://zechub.wiki/start-here/how-zcash-is-organized) - ni nani anayefanya kazi hii na jinsi mfumo ikolojia unavyoendana
+- [Urejeshaji wa Taarifa Binafsi](https://zechub.wiki/zcash-tech/private-information-retrieval) - mbinu nyingine kwa kikwazo kilekile cha uchanganuzi wa pochi
+- [Zakura Node](https://zechub.wiki/zcash-tech/zakura-node) - node iliyojengwa kwa sehemu kutokana na juhudi za uhandisi za Tachyon
+- [Ironwood](https://zechub.wiki/zcash-tech/ironwood) - uboreshaji ulioanzishwa Julai 2026, ambao mara nyingi huchanganywa na Tachyon
+- [Turnstile](https://zechub.wiki/zcash-tech/the-turnstile) - utaratibu ambao Tachyon inaweza kutumia ikiwa itatekelezwa kama bwawa lake yenyewe
+- [Usalama wa Baada ya Quantum](https://zechub.wiki/zcash-tech/post-quantum-security) - mahali ambapo Tachyon ipo pamoja na kazi ya itifaki ya muda mrefu
+- [Jinsi Zcash Inavyopangwa](https://zechub.wiki/start-here/how-zcash-is-organized) - nani anayefanya kazi hii na jinsi mfumo ikolojia unavyoungana
 
 <br/>
 
 ## Rasilimali
 
-- [Tachyon: Kuongeza Zcash kwa Usawazishaji Usiojulikana](https://seanbowe.com/blog/tachyon-scaling-zcash-oblivious-synchronization/) - Sean Bowe, 2 Aprili 2025, pendekezo la awali
-- [Kukabiliana kwa Mbali](https://seanbowe.com/blog/tachyaction-at-a-distance/) - Sean Bowe, 15 Mei 2025, makubaliano na athari za itifaki, iliyoandikwa kwa ajili ya watengenezaji itifaki
-- [Blogu Sean Bowe's](https://seanbowe.com/blog/) - ambapo mfululizo wa Tachyon huchapishwa
-- [tachyon.z.cash](https://tachyon.z.cash/) - eneo la mradi
+- [Tachyon: Kupanua uwezo wa Zcash kwa Usawazishaji Usiofichua Taarifa](https://seanbowe.com/blog/tachyon-scaling-zcash-oblivious-synchronization/) - Sean Bowe, 2 Aprili 2025, pendekezo la asili
+- [Tachyaction kwa Umbali](https://seanbowe.com/blog/tachyaction-at-a-distance/) - Sean Bowe, 15 Mei 2025, athari za makubaliano na itifaki, lililoandikwa kwa wasanidi wa itifaki
+- [Blogu ya Sean Bowe](https://seanbowe.com/blog/) - mahali ambapo mfululizo wa Tachyon huchapishwa
+- [tachyon.z.cash](https://tachyon.z.cash/) - tovuti ya mradi

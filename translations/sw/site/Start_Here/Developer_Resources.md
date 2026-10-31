@@ -3,105 +3,105 @@
 </a>
 
 
-# Vifaa vya Watengenezaji wa Programu
+# Rasilimali za wasanidi programu [Developer Resources]
 
-Rasilimali unahitaji kujenga juu ya Zcash, makundi kwa nini kila mmoja ni kwa badala ya waliotajwa katika rundo moja.
+Rasilimali unazohitaji kujenga kwenye Zcash, zikiwa zimepangwa kulingana na kusudi la kila moja badala ya kuorodheshwa pamoja.
 
-The stack changed a great deal in 2026. zcashd, which ran the network for most of its history, reached its end of life on 18 July 2026 at block height 3417100, and every unmodified node shut down at that height and will refuse to restart. Guides written for zcashd are history now rather than a starting point, so this page is organised around what replaced it.
+Mfumo ulipitia mabadiliko makubwa mwaka 2026. zcashd, ambayo iliendesha mtandao kwa sehemu kubwa ya historia yake, ilifikia mwisho wa maisha yake tarehe 18 Julai 2026 katika urefu wa block 3417100, na kila node ambayo haijabadilishwa ilisimama katika urefu huo na itakataa kuwashwa upya. Miongozo iliyoandikwa kwa ajili ya zcashd sasa ni historia badala ya mahali pa kuanzia, kwa hiyo ukurasa huu umepangwa kuzungumzia kilichoibadilisha.
 
-## Mkusanyiko kwa mtazamo mmoja tu
+## Mfumo kwa muhtasari
 
-| Safu | Cha kutumia | Anza na |
+| Tabaka | Cha kutumia | Anza na |
 |:--|:--|:--|
-| Nodi kamili | Zebra au Zakura | [Kitabu cha Zebra](https://zebra.zfnd.org/), [zakura.com](https://zakura.com/) |
-| Pochi kamili ya nodi | Zallet, katika beta | [Kitabu Zallet](https://zcash.github.io/zallet/) |
-| Seva nyepesi ya pochi | Zaino au lightwalletd | [Zaino](https://github.com/zingolabs/zaino), [lightwalletd](https://github.com/zcash/lightwalletd) |
-| Maktaba za pochi | Masanduku librustzcash | [librustzcash](https://github.com/zcash/librustzcash) |
-| Simu ya Mkononi | SDK za Android na iOS | [Android](https://github.com/zcash/zcash-android-wallet-sdk), [iOS](https://github.com/zcash/zcash-swift-wallet-sdk) |
-| Vipimo | Vipimo vya itifaki na ZIP | [zips.z.cash](https://zips.z.cash) |
+| Full node | Zebra au Zakura | [Kitabu cha Zebra](https://zebra.zfnd.org/), [zakura.com](https://zakura.com/) |
+| Pochi [wallet] ya full node | Zallet, katika beta | [Kitabu cha Zallet](https://zcash.github.io/zallet/) |
+| Seva ya pochi nyepesi | Zaino au lightwalletd | [Zaino](https://github.com/zingolabs/zaino), [lightwalletd](https://github.com/zcash/lightwalletd) |
+| Maktaba za pochi | Crates za librustzcash | [librustzcash](https://github.com/zcash/librustzcash) |
+| Simu | SDK za Android na iOS | [Android](https://github.com/zcash/zcash-android-wallet-sdk), [iOS](https://github.com/zcash/zcash-swift-wallet-sdk) |
+| Uainishaji | Uainishaji wa itifaki na ZIP | [zips.z.cash](https://zips.z.cash) |
 
-## Nodes (viungo)
+## Node
 
-Node validates makubaliano na anaendelea mlolongo. Kuna mbili uanzishaji kikamilifu maendeleo.
+Node huthibitisha makubaliano [consensus] na kuhifadhi mnyororo [chain]. Kuna utekelezaji mbili zinazoendelezwa kikamilifu.
 
-[Zebra](/zcash-tech/zebra-full-node) ni node Zcash Foundation ya, imeandikwa katika kutu, na moja viongozi wengi sasa kudhani. [Kitabu cha Zebra](https://zebra.zfnd.org/) inashughulikia kufunga na kuendesha yake, na [kumbukumbu ya habari](https://github.com/ZcashFoundation/zebra) ni mahali ambapo maendeleo hutokea.
+[Zebra](/zcash-tech/zebra-full-node) ni node ya Zcash Foundation, iliyoandikwa kwa Rust, na ndiyo inayodhaniwa na miongozo mingi sasa. [Kitabu cha Zebra](https://zebra.zfnd.org/) kinaeleza jinsi ya kuisakinisha na kuiendesha, na [hazina](https://github.com/ZcashFoundation/zebra) ndiyo mahali ambapo maendeleo hufanyika.
 
-[Zakura](/zcash-tech/zakura-node) is a newer node, described by its authors as a "consensus-compatible Zcash full node, built for scale", with faster sync, block pruning and a zcashd compatibility mode. It is led by Sean Bowe, a Zcash cofounder, and Dev Ojha. It is open source under Apache 2.0 at [zakura-msingi/zakura](https://github.com/zakura-core/zakura).
+[Zakura](/zcash-tech/zakura-node) ni node mpya zaidi, iliyoelezwa na waandishi wake kama “full node ya Zcash inayooana na makubaliano, iliyojengwa kwa ajili ya ukubwa”, yenye usawazishaji wa haraka zaidi, upogoaji wa block na hali ya uoanifu ya zcashd. Inaongozwa na Sean Bowe, mwanzilishi mwenza wa Zcash, na Dev Ojha. Ni huria chini ya Apache 2.0 katika [zakura-core/zakura](https://github.com/zakura-core/zakura).
 
-ZecHub ina a [Nodes kamili](/zcash-tech/full-nodes) ukurasa kufunika biashara kati yao.
+ZecHub ina ukurasa wa [Full Nodes](/zcash-tech/full-nodes) unaoeleza tofauti za kiutendaji kati yao.
 
-## Nakala kamili ya mkoba
+## Pochi ya full node
 
-zcashd bundled mkoba na node. mfuko huo ni gone, na [Zallet](https://github.com/zcash/zallet) ni badala. Kitabu Zallet inaelezea kama "full-node Zcash mkoba imeandikwa katika kutu" kuwa "kujengwa kama mbadala kwa ajili ya mfuko wa zcashd".
+zcashd iliunganisha pochi na node. Pochi hiyo haipo tena, na [Zallet](https://github.com/zcash/zallet) ndiyo mbadala wake. Kitabu cha Zallet kinaieleza kama “pochi ya Zcash full-node iliyoandikwa kwa Rust” inayojengwa “kama mbadala wa pochi ya zcashd”.
 
-Soma onyo la usalama kabla ya kutegemea. Zallet ni katika beta, "haikuwa kikamilifu upya", kuvunja mabadiliko "inaweza kutokea wakati wowote, zinahitaji wewe ili kufutilia mbali na recreate mkoba wako Zallet", na si kila njia zcashd RPC imekuwa ported bado.
+Soma onyo la usalama kabla ya kuitegemea. Zallet iko katika beta, “haijapitiwa kikamilifu”, mabadiliko yanayovunja uoanifu “yanaweza kutokea wakati wowote, yakikuhitaji ufute na uunde upya pochi yako ya Zallet”, na bado si kila mbinu ya RPC ya zcashd imehamishwa.
 
-Kama wewe ni kusonga kuanzisha zilizopo katika, ZecHub ina [uhamiaji mwongozo kutoka zcashd kwa Zebra na Zallet](/guides/migration-guide-zcashd-to-zebrad-zallet) na a [Zallet haraka rejea](/using-zcash/zallet-quick-reference-guide).
+Ikiwa unahamisha usanidi uliopo, ZecHub ina [mwongozo wa uhamishaji kutoka zcashd hadi Zebra na Zallet](/guides/migration-guide-zcashd-to-zebrad-zallet) pamoja na [Zalletrejeleo la haraka](/using-zcash/zallet-quick-reference-guide).
 
-## Mwanga mkoba servers
+## Seva za pochi nyepesi
 
-Wengi pochi si kukimbia node. Wao kuzungumza na server kwamba anaendelea mlolongo na mikono nyuma mtazamo compact ya hiyo.
+Pochi nyingi haziendeshi node. Huzungumza na seva inayohifadhi mnyororo na kurudisha mtazamo finyu wake.
 
-[lightwalletd](https://github.com/zcash/lightwalletd) ni huduma ya awali, iliyoandikwa katika Go, ilivyoelezwa kama "huduma backend ambayo hutoa interface bandwidth-afya kwa blockchain Zcash". [Zaino](/zcash-tech/zaino) ni indexer mpya, imeandikwa katika kutu, na anasoma kutoka validator kamili badala ya kubeba nakala yake mwenyewe wa mlolongo.
+[lightwalletd](https://github.com/zcash/lightwalletd) ni huduma asili, iliyoandikwa kwa Go, inayoelezwa kama “huduma ya nyuma inayotoa kiolesura kinachotumia bendi kwa ufanisi kwa blockchain ya Zcash”. [Zaino](/zcash-tech/zaino) ni kiorodheshi kipya zaidi, kilichoandikwa kwa Rust, na husoma kutoka kwa kithibitishaji kamili badala ya kubeba nakala yake yenyewe ya mnyororo.
 
-Makala ya kwanza. [Mwanga Client Itifaki](https://zcash.readthedocs.io/en/latest/lightwalletd/index.html) hati inashughulikia itifaki yenyewe. [Nodes Lightwallet](/zcash-tech/lightwallet-nodes) ukurasa inashughulikia nini hizi seva wanaweza na hawawezi kuona kuhusu mtumiaji, ambayo ni thamani ya kuelewa kabla ya kuchagua moja.
+Nyaraka za [Itifaki ya Light Client](https://zcash.readthedocs.io/en/latest/lightwalletd/index.html) zinaeleza itifaki yenyewe. Ukurasa wa [Node za Lightwallet](/zcash-tech/lightwallet-nodes) unaeleza seva hizi zinaweza na haziwezi kuona nini kuhusu mtumiaji, jambo linalofaa kueleweka kabla ya kuchagua moja.
 
-## Kujenga mkoba
+## Kutengeneza pochi
 
-Kazi zaidi mkoba hutokea katika makontena Rust chini ya [librustzcash](https://github.com/zcash/librustzcash), ambayo SDKs mkononi na pochi kadhaa desktop kujenga juu. Kila crate ni kumbukumbu kwenye [docs.rs](https://docs.rs).
+Kazi nyingi za pochi hufanyika katika crates za Rust chini ya [librustzcash](https://github.com/zcash/librustzcash), ambazo SDK za simu na pochi kadhaa za kompyuta mezani hujengwa juu yake. Kila crate imeandikwa kwenye [docs.rs](https://docs.rs).
 
-| Kreti | Ni kwa ajili ya nini |
+| Crate | Kusudi lake |
 |:--|:--|
-| zcash_client_backend | "API za kuunda wateja wa mwanga Zcash waliolindwa", ikiwa ni pamoja na usawazishaji na ujenzi wa miamala |
-| zcash_client_sqlite | "Kiteja cha mwanga Zcash kinachotegemea SQLite", safu ya hifadhi ya hapo juu |
-| zcash_keys | "Zcash na anwani" |
-| zcash_primitives | "Utekelezaji wa kutu wa vifaa vya awali Zcash " |
-| zcash_protocol | "Zcash na aina za thamani" |
-| orchard | "Itifaki ya miamala iliyolindwa na Orchard " |
-| sapling-crypto | "Maktaba ya kriptografia kwa ajili ya Zcash Sapling" |
-| pczt | "Zana za kufanya kazi na miamala ya Zcash iliyotengenezwa kwa sehemu", inayotumika kwa ajili ya vifaa na utiaji saini wa vifaa vingi |
-| zip321 | URI za ombi la malipo, kama ilivyoainishwa katika ZIP 321 |
+| zcash_client_backend | “API za kuunda light client za Zcash zenye faragha [shielded]”, ikijumuisha usawazishaji na uundaji wa muamala [transaction] |
+| zcash_client_sqlite | “Light client ya Zcash inayotegemea SQLite”, tabaka la hifadhi kwa yaliyo hapo juu |
+| zcash_keys | “Usimamizi wa funguo na anwani [address] wa Zcash” |
+| zcash_primitives | “Utekelezaji wa Rust wa primitivi za Zcash” |
+| zcash_protocol | “Vigezo vya mtandao vya itifaki ya Zcash na aina za thamani” |
+| orchard | “Itifaki ya muamala wa faragha ya Orchard” |
+| sapling-crypto | “Maktaba ya kriptografia kwa ajili ya Zcash Sapling” |
+| pczt | “Vifaa [tools] vya kufanya kazi na miamala ya Zcash iliyoundwa kwa sehemu”, vinavyotumika kwa utiaji sahihi wa hardware na vifaa vingi |
+| zip321 | URI za maombi ya malipo [payment], kama zilivyoainishwa katika ZIP 321 |
 
-Kwa simu, the [Android SDK](https://github.com/zcash/zcash-android-wallet-sdk) na ya [iOS SDK](https://github.com/zcash/zcash-swift-wallet-sdk) kumbukumbu iOS awali aliitwa ZcashLightClientKit, hivyo viungo zamani na makala kutumia jina hilo.
+Kwa simu, SDK ya [Android](https://github.com/zcash/zcash-android-wallet-sdk) na [SDK ya iOS](https://github.com/zcash/zcash-swift-wallet-sdk) hufunika maktaba hizo. Hazina ya iOS hapo awali iliitwa ZcashLightClientKit, kwa hiyo viungo na makala za zamani hutumia jina hilo.
 
-## Vipimo na cryptography
+## Uainishaji na kriptografia
 
-Makala ya kwanza. [maelezo ya itifaki](https://zips.z.cash/protocol/protocol.pdf) ni mamlaka juu ya jinsi Zcash kazi, ikiwa ni pamoja na [anwani na encodings muhimu](https://zips.z.cash/protocol/protocol.pdf#5.6%20Encodings%20of%20Addresses%20and%20Keys).
+[Uainishaji wa itifaki](https://zips.z.cash/protocol/protocol.pdf) ndiyo mamlaka ya jinsi Zcash inavyofanya kazi, ikijumuisha [usimbaji wa anwani na funguo](https://zips.z.cash/protocol/protocol.pdf#5.6%20Encodings%20of%20Addresses%20and%20Keys).
 
-[ZIPs](https://zips.z.cash) mabadiliko ya mkataba meli katika kuboresha mtandao, na ZecHub hufuatilia wale juu ya mstari. [Kuboresha Mtandao](/start-here/network-upgrades) ukurasa.
+[ZIP](https://zips.z.cash) ndizo mahali ambapo mabadiliko hupendekezwa na kubainishwa, na faharasa inaonyesha zipi ni rasimu na zipi ni za mwisho. Mabadiliko ya makubaliano hutolewa katika maboresho ya mtandao [network upgrades], na ZecHub huyafuatilia kwenye ukurasa wa [Maboresho ya Mtandao](/start-here/network-upgrades).
 
-Kwa cryptography chini, kusoma [Kitabu cha Halo2](https://zcash.github.io/halo2/index.html) na [The Orchard Book](https://zcash.github.io/orchard/), pamoja na [halo2 (mwanga)](https://docs.rs/halo2_proofs/latest/halo2_proofs/) na [shamba la matunda](https://docs.rs/orchard/latest/orchard/) crate docs kando. [Kitabu cha FROST](https://frost.zfnd.org/) inashughulikia saini kizingiti, na ZecHub ina [FROST](/zcash-tech/frost) ukurasa.
+Kwa kriptografia ya msingi, soma [Kitabu cha halo2](https://zcash.github.io/halo2/index.html) na [Kitabu cha Orchard](https://zcash.github.io/orchard/), pamoja na nyaraka za crate za [halo2](https://docs.rs/halo2_proofs/latest/halo2_proofs/) na [orchard](https://docs.rs/orchard/latest/orchard/). [Kitabu cha FROST](https://frost.zfnd.org/) kinaeleza sahihi [signature] za kizingiti, na ZecHub ina ukurasa wa [FROST](/zcash-tech/frost).
 
-## Mtihani wa Wavu
+## Testnet
 
-Testnet ni mlolongo tofauti na sarafu thamani, aitwaye TAZ. Wote Zebra na Zakura wanaweza kukimbia dhidi yake, na mzunguko wa fedha za kigeni kwa ajili ya biashara yao katika nchi nyingine pia inaonekana kuwa muhimu zaidi kuliko hata kabla. [mwongozo wa jaribio la ukumbi](https://zcash.readthedocs.io/en/latest/rtd_pages/testnet_guide.html) inashughulikia node Configuration.
+Testnet ni mnyororo tofauti wenye sarafu zisizo na thamani, zinazoitwa TAZ. Zebra na Zakura zote zinaweza kuendeshwa dhidi yake, na [mwongozo wa testnet](https://zcash.readthedocs.io/en/latest/rtd_pages/testnet_guide.html) unaeleza usanidi wa node.
 
-[testnet.zcashexplorer.app](https://testnet.zcashexplorer.app/) ni kazi testnet block Explorer, na mainnet mwenzake katika [mainnet.zcashexplorer.app](https://mainnet.zcashexplorer.app/).
+[testnet.zcashexplorer.app](https://testnet.zcashexplorer.app/) ni kichunguzi kinachofanya kazi cha block za testnet, chenye mwenzake wa mainnet katika [mainnet.zcashexplorer.app](https://mainnet.zcashexplorer.app/).
 
-Kupata TAZ ni sehemu ya awkward, kwa sababu bomba zilizounganishwa kutoka hati za zamani wameacha kujibu. [zcashfaucet.jinolabs.xyz](https://zcashfaucet.jinolabs.xyz) ni bomba la jamii linalotumiwa ambalo linaendesha "node yake mwenyewe, mkoba na mchimbaji", hulipa "drip z2z zilizohifadhiwa" , na milango ya madai na "uthibitisho wa kazi badala ya muuzaji wa captcha". Ni chanzo wazi chini ya MIT. Ikiwa haipatikani, uliza katika Zcash R & D Discord, ambayo ndio hati za Zcash zenyewe zinaonyesha.
+Kupata TAZ ndiyo sehemu ngumu, kwa sababu vyanzo vya sarafu za bure [faucets] vilivyounganishwa kutoka nyaraka za zamani vimeacha kujibu. [zcashfaucet.jinolabs.xyz](https://zcashfaucet.jinolabs.xyz) ni chanzo cha sarafu za bure kinachoendeshwa na jamii ambacho huendesha “node, pochi na mchimbaji [miner] wake wenyewe”, hulipa “matone ya z2z ya faragha”, na huzuia madai kwa “thibitisho la kazi [proof of work] la kivinjari badala ya mtoa captcha”. Ni huria chini ya MIT. Kisipopatikana, uliza katika Zcash R&D Discord, jambo ambalo nyaraka za Zcash zenyewe zinapendekeza.
 
 ## Nyaraka za jumla
 
-[Zcash Nyaraka](https://zcash.readthedocs.io/en/latest/) ni bado pana moja chanzo, kufunika itifaki dhana, ushirikiano na madini. Kusoma kwa uangalifu fulani. Ni versioned dhidi zcashd, hivyo sehemu yake kuelezea node kwamba tena anaendesha, wakati protocol na mwanga mteja mafungu kubaki muhimu. [Zcash Wallet App tishio la mfano wa mtindo](https://zcash.readthedocs.io/en/latest/rtd_pages/wallet_threat_model.html) kwamba anaishi kuna thamani ya kusoma kabla ya kubuni kitu chochote ambacho huathiri faragha user.
+[Nyaraka za Zcash](https://zcash.readthedocs.io/en/latest/) bado ndicho chanzo kimoja chenye upana mkubwa zaidi, kikijumuisha dhana za itifaki, ujumuishaji na uchimbaji [mining]. Zisome kwa tahadhari. Zinawekewa matoleo kulingana na zcashd, kwa hiyo baadhi yake zinaeleza node ambayo haiendeshi tena, huku sehemu za itifaki na light client zikibaki muhimu. [Muundo wa Vitisho wa Programu ya Pochi ya Zcash](https://zcash.readthedocs.io/en/latest/rtd_pages/wallet_threat_model.html) uliopo humo unafaa kusomwa kabla ya kubuni chochote kinachogusa faragha [privacy] ya mtumiaji.
 
-Kama wewe ni mpya kwa blockchains ujumla, [Kujifunza Bitcoin kwa Ukamili](https://github.com/bitcoinbook/bitcoinbook) ni mapendekezo ya kawaida kwa msingi pamoja, na ni huru kusoma katika ukamilifu. Haina kufunika shughuli shielded.
+Ikiwa wewe ni mpya kwa blockchain kwa ujumla, [Mastering Bitcoin](https://github.com/bitcoinbook/bitcoinbook) ndilo pendekezo la kawaida kwa misingi inayoshirikiwa, na linaweza kusomwa lote bila malipo. Halielezi miamala ya faragha.
 
-## Vifaa vingine watengenezaji wametaja
+## Vifaa vingine ambavyo wasanidi programu wametaja
 
-[Arti](https://docs.rs/arti/latest/arti/) ni Rust utekelezaji wa Tor, kutumika na zcash_client_backend kwa njia ya mkoba trafiki. [Tailscale (Kipande cha Mkia)](https://github.com/tailscale/tailscale) huja juu kwa kuunganisha na node wewe kukimbia mwenyewe. [warp2](https://github.com/hhanh00/warp2) ni utekelezaji wa haraka ya usawazishaji na Hanh, ingawa haijasasishwa tangu 2023.
+[Arti](https://docs.rs/arti/latest/arti/) ni utekelezaji wa Rust wa Tor, unaotumiwa na zcash_client_backend kuelekeza trafiki ya pochi. [Tailscale](https://github.com/tailscale/tailscale) hutajwa kwa kuunganisha kwenye node unayoendesha mwenyewe. [warp2](https://github.com/hhanh00/warp2) ni utekelezaji wa usawazishaji wa haraka wa Hanh, ingawa haujasasishwa tangu 2023.
 
-## Jumuiya na matukio
+## Jamii na matukio
 
-Makala ya kwanza. [Zcash R & D Discord](https://discord.gg/6AK7keWFaK) ni ambapo itifaki na mkoba maendeleo ni kujadiliwa, na [Zcash Jamii Forum](https://forum.zcashcommunity.com/) hubeba mapendekezo marefu na kuunga mkono thread.
+[Zcash R&D Discord](https://discord.gg/6AK7keWFaK) ni mahali ambapo maendeleo ya itifaki na pochi hujadiliwa, na [Jukwaa la Jamii la Zcash](https://forum.zcashcommunity.com/) hubeba mapendekezo marefu na mijadala ya usaidizi.
 
-Matokeo ya hivi karibuni ya hackathon ni picha nzuri ya kile watu wanajenga: [ZecHub 2024](https://x.com/ZecHub/status/1845212469809033489), [ZecHub 2025](https://x.com/ZecHub/status/1975565960661635283) na ya [Zypherpunk Hackathon 2025 (Mchezo wa kutisha)](https://forum.zcashcommunity.com/t/zypherpunk-hackathon-winners/53985).
+Matokeo ya hivi karibuni ya hackathon yanatoa picha nzuri ya kile watu wanachojenga: [ZecHub 2024](https://x.com/ZecHub/status/1845212469809033489), [ZecHub 2025](https://x.com/ZecHub/status/1975565960661635283) na [Zypherpunk Hackathon 2025](https://forum.zcashcommunity.com/t/zypherpunk-hackathon-winners/53985).
 
-## Rasilimali waliondolewa kazi
+## Rasilimali zilizostaafishwa
 
-Ilibaki kwa sababu makala ya zamani wanaunganisha yao, na kwa sababu bado ni rejea jinsi node kustaafu mwenendo. Usianze hapa.
+Zimehifadhiwa kwa sababu makala za zamani zinaunganisha kwazo, na kwa sababu bado ni rejeleo la jinsi node iliyostaafishwa ilivyofanya kazi. Usianzie hapa.
 
-[Kitabu zcashd](https://zcash.github.io/zcash/) na ya [zcashd RPC rejea](https://zcash.github.io/rpc/) hati programu ambayo kufikiwa [mwisho wa maisha ya mtu](https://zcash.github.io/zcash/user/end-of-life.html) katika Julai 2026. [zcash/zcash](https://github.com/zcash/zcash) hazina ni kumbukumbu.
+[Kitabu cha zcashd](https://zcash.github.io/zcash/) na rejeleo la RPC la [zcashd](https://zcash.github.io/rpc/) zinaandika programu iliyofikia [mwisho wa maisha](https://zcash.github.io/zcash/user/end-of-life.html) mwezi Julai 2026. Hazina ya [zcash/zcash](https://github.com/zcash/zcash) imehifadhiwa.
 
-Kama una rasilimali kuongeza, au wewe doa kitu hapa kwamba imekuwa stale, kufungua suala au ombi kuvuta. Timu si daima kuwa na uwezo wa kuweka kila kitu sasa, na flagging nini kukimbia katika husaidia mwongozo viongozi.
+Ikiwa una rasilimali ya kuongeza, au unaona kitu hapa ambacho kimepitwa na wakati, fungua issue au pull request. Timu hazina uwezo kila wakati wa kuweka kila kitu kikiwa cha sasa, na kuripoti ulichokutana nacho husaidia kuelekeza miongozo.
 
-** Mwisho updated:** Agosti 2026
+**Ilisasishwa mwisho:** Agosti 2026

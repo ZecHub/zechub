@@ -1,92 +1,92 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Zcash_Tech/Sapling.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Hariri Ukurasa"/>
 </a>
 
 # Sapling
 
-> Sapling alienda kuishi kwenye Zcash mainnet katika block 419,200 (Oktoba 29, 2018, 02:15 UTC).
+> Sapling ilianza kutumika kwenye mainnet ya Zcash katika block 419,200 (Oktoba 29, 2018, 02:15 UTC).
 
-Nini wewe kuchukua mbali: Sapling alifanya binafsi Zcash malipo ya haraka na mwanga kutosha kuendesha kwenye simu au mkoba vifaa.
+Mtakachojifunza: Sapling ilifanya malipo ya Zcash ya faragha [private] kuwa ya haraka na mepesi vya kutosha kutekelezwa kwenye simu au hardware wallet.
 
-Sapling was the second major Zcash network upgrade, activating on Zcash's second anniversary. It was a consensus hard fork that rebuilt how shielded (private) transactions are put together. The deployment is defined by ZIP 205, the new transaction signature rules by ZIP 243, and both build on ZIP 200, the network upgrade mechanism. The full details live in the Zcash Protocol Specification. Electric Coin Company built the upgrade and shipped the first version that supported it, zcashd 2.0.0, in August 2018. On chain, the network identifies the Sapling rules by its consensus branch id.
+Sapling ilikuwa uboreshaji wa pili mkubwa wa mtandao [network upgrade] wa Zcash, uliowashwa katika maadhimisho ya pili ya Zcash. Ilikuwa hard fork ya makubaliano [consensus] iliyojenga upya jinsi miamala ya faragha [shielded] inavyoundwa. Utekelezaji umefafanuliwa na ZIP 205, kanuni mpya za sahihi za muamala [transaction signature] na ZIP 243, na zote zinajengwa juu ya ZIP 200, utaratibu wa uboreshaji wa mtandao. Maelezo kamili yapo katika Uainishaji wa Itifaki wa Zcash. Electric Coin Company ilijenga uboreshaji huu na kutoa toleo la kwanza lililounga mkono uboreshaji huo, zcashd 2.0.0, mnamo Agosti 2018. On-chain, mtandao hutambua kanuni za Sapling kwa kitambulisho chake cha tawi la makubaliano.
 
-Why this matters. Before Sapling, making a truly private payment meant waiting minutes while your computer chewed through gigabytes of memory to build the proof. That was too slow and too heavy for most people, so a lot of users, exchanges, and shops skipped shielded transactions and sent ZEC in the open instead. Sapling cut the work down to a few seconds and about 40 megabytes of memory. That single change is what made shielded ZEC practical to use in everyday life, on ordinary phones and on hardware wallets.
+Kwa nini hili ni muhimu. Kabla ya Sapling, kufanya malipo ya faragha ya kweli kulimaanisha kusubiri dakika huku kompyuta yako ikitumia gigabaiti za kumbukumbu kuunda thibitisho [proof]. Hilo lilikuwa polepole sana na zito sana kwa watu wengi, hivyo watumiaji wengi, masoko ya kubadilishana sarafu, na maduka waliepuka miamala ya faragha na kutuma ZEC waziwazi badala yake. Sapling ilipunguza kazi hiyo hadi sekunde chache na takribani megabaiti 40 za kumbukumbu. Mabadiliko hayo pekee ndiyo yaliyofanya matumizi ya ZEC ya faragha yawe ya vitendo katika maisha ya kila siku, kwenye simu za kawaida na hardware wallet.
 
-## Ni nini kilichobadilika?
+## Nini kilibadilika
 
-The heart of Sapling is a faster way to build the zero-knowledge proof that keeps a shielded transaction private. The original Sprout design used a single proving circuit (the JoinSplit circuit) that was slow and memory-hungry. Sapling replaced it with two purpose-built circuits, a Spend circuit and an Output circuit, described in the Zcash Protocol Specification. The result is a large drop in cost. Per Electric Coin Company, a shielded transaction can be built in as little as a few seconds using about 40 megabytes of memory. The pre-Sapling Sprout baseline was far heavier, on the order of minutes and several gigabytes of memory (these Sprout-side figures are the widely cited approximate baseline).
+Kiini cha Sapling ni njia ya haraka zaidi ya kuunda thibitisho la maarifa sifuri [zero-knowledge proof] linalodumisha faragha ya muamala wa faragha. Muundo wa awali wa Sprout ulitumia circuit moja ya kuthibitisha (circuit ya JoinSplit) iliyokuwa polepole na kutumia kumbukumbu nyingi. Sapling iliibadilisha kwa circuit mbili zilizoundwa mahususi, circuit ya Spend na circuit ya Output, zilizoelezwa katika Uainishaji wa Itifaki wa Zcash. Matokeo yake ni kupungua kubwa kwa gharama. Kwa kila Electric Coin Company, muamala wa faragha unaweza kuundwa kwa sekunde chache tu kwa kutumia takribani megabaiti 40 za kumbukumbu. Kigezo cha kabla ya Sapling cha Sprout kilikuwa kizito zaidi, kikihitaji dakika na gigabaiti kadhaa za kumbukumbu (takwimu hizi za upande wa Sprout ni kigezo kinachonukuliwa sana cha makadirio).
 
 ![Sprout versus Sapling shielded transaction cost](/content-images/sapling-before-after-a045b0b48f.webp)
 
 ## Funguo mpya
 
-Sapling also introduced a new set of shielded addresses and keys. One key can derive many diversified addresses, which are separate payment addresses that an outside observer cannot link back to each other. Sapling added viewing keys too: a full or incoming viewing key lets you share the ability to see a wallet's transaction details without handing over the ability to spend its funds. That is useful for auditing, accounting, or simply proving a payment was made.
+Sapling pia ilianzisha seti mpya ya anwani za faragha na funguo. Ufunguo mmoja unaweza kutoa anwani nyingi tofauti, ambazo ni anwani tofauti za malipo ambazo mtazamaji wa nje hawezi kuzihusisha na nyingine. Sapling pia iliongeza funguo za kutazama [viewing keys]: ufunguo kamili au wa kutazama unaoingia humwezesha mtu kushiriki uwezo wa kuona maelezo ya miamala ya pochi bila kukabidhi uwezo wa kutumia pesa zake. Hilo ni muhimu kwa ukaguzi, uhasibu, au kuthibitisha tu kwamba malipo yalifanywa.
 
-A related change is that Sapling separated the job of building the proof from the job of signing the transaction. The device that constructs the zero-knowledge proof no longer has to be the device that holds spend authority. This decoupling is what lets a hardware wallet keep your spending key isolated while a separate device does the heavier proving work.
+Mabadiliko yanayohusiana ni kwamba Sapling ilitenganisha kazi ya kuunda thibitisho na kazi ya kusaini muamala. Kifaa kinachounda thibitisho la maarifa sifuri hakihitaji tena kuwa kifaa kinachoshikilia mamlaka ya kutumia pesa. Utenganishaji huu ndio unaoruhusu hardware wallet kuweka ufunguo wako wa kutumia pesa [spending key] kando huku kifaa tofauti kikifanya kazi nzito zaidi ya kuthibitisha.
 
 ![Proving device hands the proof to a separate signing device](/content-images/sapling-decoupled-spend-6fceca13a2.webp)
 
-## Uanzishaji wa kuaminika
+## Usanidi unaoaminika
 
-Mzunguko wa Sapling unategemea seti ya vigezo vya umma ambavyo vilitakiwa kuzalishwa kwa uangalifu. Ikiwa chama kimoja kiliwaleta peke yake na kuweka data iliyobaki siri ("takataka zenye sumu"), chama hicho kingeweza kudanganya uthibitisho. Ili kuepuka hili, vigezeo vilikuja kutoka katika hatua mbili za sherehe nyingi. Awamu 1, inayoitwa Nguvu za Tau, ilikuwa mzunguko-agnostic, ikimaanisha haikuunganishwa na mizunguko maalum ya Sapling. Awamridi 2, Sapling MPC, ilikuwa mahususi kwa mzungulo. Kila awamu inakaa salama maadamu angalau mmoja anayeshiriki alikuwa mwaminifu na aliharibu taka zao zenye sumu, hivyo sherehe hiyo itashindwa tu ikiwa kila mshiriki ataungana.
+Circuit za Sapling zinategemea seti ya vigezo vya umma ambavyo vilipaswa kuzalishwa kwa uangalifu. Ikiwa mhusika mmoja angevitoa peke yake na kuhifadhi data ya siri iliyosalia (“taka zenye sumu”), mhusika huyo angeweza kughushi mathibitisho. Ili kuepuka hili, vigezo vilitokana na sherehe ya awamu mbili yenye wahusika wengi. Awamu ya 1, iitwayo Powers of Tau, haikutegemea circuit yoyote, ikimaanisha haikufungamanishwa na circuit mahususi za Sapling. Awamu ya 2, Sapling MPC, ilihusu circuit mahususi. Kila awamu hubaki salama mradi angalau mshiriki mmoja alikuwa mwaminifu na kuharibu taka zake zenye sumu, hivyo sherehe hushindwa tu ikiwa kila mshiriki atashirikiana kwa siri.
 
-## Jinsi ilivyotenda kazi
+## Jinsi ilivyowashwa
 
-Sapling followed Overwinter, the June 2018 upgrade that prepared the network's upgrade mechanism. Electric Coin Company set the mainnet activation height in zcashd 2.0.0, released in August 2018, and the network switched to the Sapling rules when block 419,200 was mined. On chain, that moment is marked by the Sapling consensus branch id.
+Sapling ilifuata Overwinter, uboreshaji wa Juni 2018 uliotayarisha utaratibu wa uboreshaji wa mtandao. Electric Coin Company iliweka urefu wa uanzishaji wa mainnet katika zcashd 2.0.0, iliyotolewa mnamo Agosti 2018, na mtandao ulibadilika hadi kanuni za Sapling wakati block 419,200 ilipochimbwa. On-chain, wakati huo huwekwa alama na kitambulisho cha tawi la makubaliano cha Sapling.
 
 ![Timeline from Zcash launch to Sapling activation](/content-images/sapling-timeline-6cad184c30.webp)
 
-## Orodha ya maneno
+## Faharasa
 
-| Muhula | Maana ya Kiingereza cha kawaida |
+| Neno | Maana kwa lugha rahisi |
 |---|---|
-| Shielded transaction | Muamala wa kibinafsi Zcash unaoficha mtumaji, mpokeaji, na kiasi. |
-| Sprout | Itifaki ya awali iliyolindwa Zcash ilizinduliwa na, polepole na nzito kuliko Sapling. |
-| Spend and Output circuits | Saketi mbili mpya zinazothibitisha Sapling zilizochukua nafasi ya saketi moja Sprout's JoinSplit. |
-| Diversified address | Mojawapo ya anwani nyingi za malipo ambazo haziwezi kuunganishwa unazoweza kupata kutoka kwa ufunguo mmoja. |
-| Viewing Key | Ufunguo unaomruhusu mtu kuona miamala ya pochi bila kuweza kutumia pesa kutoka kwayo. |
-| Consensus branch id | Nambari fupi inayoelezea mtandao sheria za uboreshaji ambazo muamala unafuata. |
+| Shielded transaction | Muamala wa Zcash wa faragha unaoficha mtumaji, mpokeaji, na kiasi. |
+| Sprout | Itifaki ya awali ya faragha ambayo Zcash ilizindua nayo, polepole na nzito zaidi kuliko Sapling. |
+| Spend and Output circuits | Circuit mbili mpya za kuthibitisha za Sapling zilizobadilisha circuit moja ya JoinSplit ya Sprout. |
+| Diversified address | Moja kati ya anwani nyingi za malipo zisizoweza kuhusishwa [unlinkable] unazoweza kutoa kutoka kwenye ufunguo mmoja. |
+| Viewing Key | Ufunguo unaomruhusu mtu kuona miamala ya pochi bila kuwa na uwezo wa kutumia pesa kutoka humo. |
+| Consensus branch id | Msimbo mfupi unaouambia mtandao kanuni za uboreshaji gani ambazo muamala unafuata. |
 
-## FAQs
+## Maswali yanayoulizwa mara kwa mara
 
-Je, Sapling kubadilishwa jinsi ZEC mimi mwenyewe? Hapana. Sapling iliyopita jinsi shughuli ulinzi ni kujengwa, si kiasi cha ZEC mtu yeyote ana au usambazaji jumla. salio yako ilikuwa unaffected.
+Je, Sapling ilibadilisha kiasi cha ZEC ninachomiliki? Hapana. Sapling ilibadilisha jinsi miamala ya faragha inavyoundwa, si kiasi cha ZEC ambacho mtu yeyote anamiliki au ugavi wa jumla. Salio lako halikuathiriwa.
 
-Je, ZEC yangu bado binafsi baada ya Sapling? Ndiyo, na zaidi usable. Sapling ilidumisha siri kali ya shughuli ulinzi na kuwafanya haraka na rahisi kutosha kwa kweli kutumia. fedha Shielded kubaki siri njia sawa.
+Je, ZEC yangu bado ni ya faragha baada ya Sapling? Ndiyo, na inatumika zaidi. Sapling ilidumisha faragha imara ya miamala ya faragha na kuifanya iwe ya haraka na nafuu vya kutosha kutumika kwa kweli. Fedha za faragha hubaki zimefichwa kwa njia ileile.
 
-Je, mimi na kufanya kitu chochote? Hakuna hatua inahitajika kutoka kwenu kama mmiliki. Sapling ilikuwa mtandao kuboresha kwamba mkoba na node programu iliyopitishwa. pochi kisasa tayari msaada anwani ya Sapling.
+Je, ninapaswa kufanya chochote? Hapana, hakuna hatua inayohitajika kutoka kwako kama mmiliki. Sapling ilikuwa uboreshaji wa mtandao ambao programu za pochi na node zilitumia. Pochi za kisasa tayari zinaunga mkono anwani za Sapling.
 
-What is the difference between Sprout and Sapling? Sprout was the first shielded protocol and used one slow, memory-heavy proving circuit. Sapling replaced it with faster Spend and Output circuits, added viewing keys and diversified addresses, and made shielded transactions light enough for phones and hardware wallets.
+Tofauti kati ya Sprout na Sapling ni ipi? Sprout ilikuwa itifaki ya kwanza ya faragha na ilitumia circuit moja ya kuthibitisha iliyokuwa polepole na kutumia kumbukumbu nyingi. Sapling iliibadilisha kwa circuit za Spend na Output za haraka zaidi, ikaongeza funguo za kutazama na anwani tofauti, na kufanya miamala ya faragha iwe myepesi vya kutosha kwa simu na hardware wallet.
 
-Why do some sources say October 28 and others October 29? The activation height was set in advance to target October 28, 2018. The block that actually triggered the change, block 419,200, was mined in the early hours of October 29 UTC. In many local time zones that was still October 28. It is the same block and the same moment either way.
+Kwa nini vyanzo vingine vinasema Oktoba 28 na vingine Oktoba 29? Urefu wa uanzishaji uliwekwa mapema kulenga Oktoba 28, 2018. Block iliyosababisha mabadiliko hayo kwa kweli, block 419,200, ilichimbwa katika saa za mapema za Oktoba 29 UTC. Katika maeneo mengi ya saa za mahali hapo, bado ilikuwa Oktoba 28. Ni block ileile na wakati uleule kwa vyovyote vile.
 
-Nini ni kuangalia muhimu? Angalia muhimu utapata kushiriki kusoma upatikanaji wa mkoba shielded. Mtu na kamili au zinazoingia kuona ufunguo unaweza kuona maelezo ya manunuzi mfuko lakini hawezi kutumia fedha zake. Tazama [Kuangalia funguo za kuvinjari](../zcash-tech/viewing-keys) kwa ajili ya zaidi.
+Ufunguo wa kutazama ni nini? Ufunguo wa kutazama hukuruhusu kushiriki ruhusa ya kusoma pochi ya faragha. Mtu mwenye ufunguo kamili au wa kutazama unaoingia anaweza kuona maelezo ya miamala ya pochi lakini hawezi kutumia fedha zake. Tazama [Funguo za Kutazama](../zcash-tech/viewing-keys) kwa maelezo zaidi.
 
-## Jaribu uelewevu wako
+## Jaribu uelewa wako
 
-Chini ya Sprout, kwa nini watu wengi sana waliepuka shughuli za ulinzi na Sapling alirekebishaje?
+Chini ya Sprout, kwa nini watu wengi waliepuka miamala ya faragha, na Sapling iliwezaje kurekebisha hali hiyo?
 
 <details>
-<summary>Answer</summary>
-Under Sprout, building a shielded transaction took minutes and used gigabytes of memory, so it was too slow and heavy for most users, exchanges, and shops. Sapling introduced faster Spend and Output circuits that cut the work to a few seconds and about 40 megabytes, making shielded transactions practical on everyday phones and hardware wallets.
+<summary>Jibu</summary>
+Chini ya Sprout, kuunda muamala wa faragha kulichukua dakika na kutumia gigabaiti za kumbukumbu, hivyo kulikuwa polepole na zito sana kwa watumiaji wengi, masoko ya kubadilishana sarafu, na maduka. Sapling ilianzisha circuit za Spend na Output za haraka zaidi zilizopunguza kazi hadi sekunde chache na takribani megabaiti 40, na kufanya miamala ya faragha iwe ya vitendo kwenye simu za kila siku na hardware wallet.
 </details>
 
 ### Rasilimali
 
-- [ZIP 205: Utekelezaji wa Sapling Network Upgrade](https://zips.z.cash/zip-0205)
-- [ZIP 243: Transaction Signature Validation kwa Sapling](https://zips.z.cash/zip-0243)
-- [Zcash Sapling ukurasa kuboresha](https://z.cash/upgrade/sapling/)
-- [Electric Coin Company: Sapling tangazo](https://electriccoin.co/blog/sapling/)
-- [Electric Coin Company: Kutangaza Sapling MPC](https://electriccoin.co/blog/sapling-mpc/)
+- [ZIP 205: Utekelezaji wa Uboreshaji wa Mtandao wa Sapling](https://zips.z.cash/zip-0205)
+- [ZIP 243: Uthibitishaji wa Sahihi za Muamala kwa Sapling](https://zips.z.cash/zip-0243)
+- [Ukurasa wa uboreshaji wa Sapling wa Zcash](https://z.cash/upgrade/sapling/)
+- [Electric Coin Company: Tangazo la Sapling](https://electriccoin.co/blog/sapling/)
+- [Electric Coin Company: Kutangaza MPC ya Sapling](https://electriccoin.co/blog/sapling-mpc/)
 
-### Angalia pia:
+### Tazama pia
 
-- [Vidimbwi Vilivyohifadhiwa kwa Kifaa cha Kuzuia Mlipuko](../using-zcash/shielded-pools)
-- [Kuangalia funguo za kuvinjari](../zcash-tech/viewing-keys)
+- [Mabwawa ya Faragha](../using-zcash/shielded-pools)
+- [Funguo za Kutazama](../zcash-tech/viewing-keys)
 - [zk-SNARKs](../zcash-tech/zk-snarks)
-- [Zcash Network Upgrades (Ubadilishaji wa Mtandao)](../start-here/network-upgrades)
-- [Mkoba](../using-zcash/wallets)
+- [Maboresho ya Mtandao wa Zcash](../start-here/network-upgrades)
+- [Pochi](../using-zcash/wallets)
 - [Electric Coin Company](../zcash-organizations/electric-coin-company)
 
 ---
 
-Mfululizo: [Kiwango cha Upgrades Network](../start-here/network-upgrades) · Zamani: [Overwinter](../zcash-tech/overwinter) · Kisha: [Blossom](../zcash-tech/blossom)
+Mfululizo: [Faharasa ya Maboresho ya Mtandao](../start-here/network-upgrades) · Iliyotangulia: [Overwinter](../zcash-tech/overwinter) · Inayofuata: [Blossom](../zcash-tech/blossom)

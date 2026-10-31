@@ -1,208 +1,208 @@
 ![alt text](image-1.png)
-# Mdudu wa Orchard: Wakati Mfumo Wenye Uthibitisho Ukiwa na Pengo
+# Hitilafu ya Orchard: Wakati Mfumo wa Uthibitisho Una Pengo
 
-### Jinsi moja chini ya vikwazo mstari wa hisabati inaweza kuwa minted unlimited fedha asiyeonekana
+### Jinsi mstari mmoja wa hesabu wenye vikwazo visivyotosha ungeweza kutengeneza pesa za siri zisizo na kikomo
 
-> **Series:** *Formal Verification Series* · **Part 2 ya 3**
-> ** Wasikilizaji:** wageni. Sehemu ya 1 ilianzisha uthibitisho rasmi; hapa tunakutana na mdudu halisi ambayo alifanya hivyo haraka. Kila kitu muhimu ni kuelezwa kutoka mwanzo.
-> **What you'll leave with:** an intuitive but accurate picture of how a cryptographic proof system can contain a soundness hole, exactly what the 2026 Zcash "Orchard" bug was, why this class of bug can hide for years, and why it has happened before.
+> **Mfululizo:** *Mfululizo wa Uthibitishaji Rasmi [Formal Verification]* · **Sehemu ya 2 kati ya 3**
+> **Hadhira:** wanaoanza. Sehemu ya 1 ilitambulisha uthibitishaji rasmi; hapa tunakutana na hitilafu halisi iliyoifanya kuwa ya dharura. Kila kinachohitajika kinafafanuliwa kuanzia mwanzo.
+> **Utakachobaki nacho:** picha ya kiintuisia lakini sahihi ya jinsi mfumo wa uthibitisho wa kriptografia unaweza kuwa na pengo la usahihi, hitilafu ya “Orchard” ya Zcash ya mwaka 2026 ilikuwa nini hasa, kwa nini aina hii ya hitilafu inaweza kujificha kwa miaka mingi, na kwa nini imeshawahi kutokea hapo awali.
 
-Katika Sehemu ya 1 sisi alisema kupima inaweza kuonyesha uwepo wa mende lakini kamwe kukosekana yao, na kwamba mende hatari zaidi kuishi katika mfumo * vipimo*, yake msingi hisabati. makala hii ni utafiti kesi. Mwaka 2026 kasoro ilipatikana katika Zcash Orchard kulindwa pool ambayo inaweza kuwa kuruhusu mshambuliaji kuunda unlimited fedha bandia invisibly. Ilikuwa imeokoka miaka minne na ukaguzi mara kwa mara. Kuelewa hilo, na watangulizi wake, ni nia dhahiri iwezekanavyo kwa kuthibitisha mifumo sahihi.
-
----
-
-## 1. Kwa nini unapaswa kuhangaikia jambo hilo?
-
-Zcash ni cryptocurrency na hali ya kibinafsi. Katika bwawa lake la kulindwa, kiasi cha pesa, watumaji, na wapokeaji wa shughuli zimefichwa. Faragha hii imeundwa kwa kutumia uthibitisho wa maarifa-si*: ushahidi wa kifumbo kwamba manunuzi yanafuata sheria zote bila kufunua yaliyomo kwenye manunuzio.
-
-Kwa hiyo, ikiwa mfumo wa uthibitisho yenyewe ulikuwa na kasoro ambayo iliruhusu shughuli isiyo halali ionekane kuwa halali, ulaghai huo haungeweza kugunduliwa. Huwezi kuuona kwa kukagua kitabu cha hesabu, kwani kitabu hicho kimekuwa kisicho wazi kabisa. Lakini kama kuna kitu ambacho kinafanya biashara iwe mbaya zaidi kuliko Bitcoin ni kwamba mtu anaweza kuuza sarafu kutoka kwenye vitu visivyoonekana katika akaunti yake ya benki au hata kutengeneza pesa za kibinafsi ambazo hazipatikani kupitia mtandao wake.
-
-Hiyo ni hatari ambayo ilitokea katika Orchard. Ili kuielewa, tunahitaji kuangalia ndani ya kile uthibitisho wa ujuzi-sifuri unathibitisha kweli.
+Katika Sehemu ya 1 tulisema kuwa majaribio yanaweza kuonyesha uwepo wa hitilafu lakini kamwe si kutokuwepo kwake, na kwamba hitilafu hatari zaidi huishi katika *ubainifu [specification]* wa mfumo, yaani hesabu yake ya msingi. Makala hii ni uchunguzi wa kisa. Mwaka 2026, dosari ilipatikana katika bwawa la faragha la Orchard la Zcash ambayo ingeweza kumruhusu mshambulizi kutengeneza pesa ghushi zisizo na kikomo bila kuonekana. Ilikuwa imenusurika miaka minne na ukaguzi wa mara kwa mara. Kuielewa, pamoja na zilizotangulia, ndiyo motisha iliyo wazi zaidi ya kuthibitisha usahihi wa mifumo.
 
 ---
 
-## 2. Intuition: uthibitisho ni mzuri tu kama orodha yake ya kuangalia
+## 1. Kwa nini unapaswa kujali?
 
-Fikiria ofisa wa mpakani ambaye lazima akubali wasafiri bila kuona hati zao moja kwa moja. Badala yake, kila msafiri hujaza orodha ya ** kuangalia**, na afisa anakubali mtu yeyote ambaye orodha yake imewekwa alama kabisa. Orodha hiyo imetengenezwa ili * tu mhamiaji halali aweze kuweka tick kwenye kila kisanduku.*
+Zcash ni sarafu-fiche yenye hali ya faragha. Katika bwawa lake la faragha, kiasi, watumaji, na wapokeaji wa miamala **hufichwa**. Faragha hii huundwa kwa kutumia **mathibitisho ya maarifa sifuri [zero-knowledge proofs]**: mathibitisho ya kriptografia kwamba muamala unafuata sheria zote, bila kufichua maudhui ya muamala.
 
-Sasa fikiria orodha ya kuangalia inakosa sanduku moja muhimu, sema "pasipoti haijakwisha". Karibu kila mtu bado kujaza kwa uaminifu na hakuna kitu inaonekana makosa. Lakini mtu mwenye pasipoti iliyopitwa inaweza * pia * alama kila kisanduku kilichobaki na meli kupitia. mfumo unaonekana vizuri katika matumizi ya kila siku. shimo tu mambo kwa mtu ambaye huenda kutafuta yake.
+Muundo huo una pande mbili. Kwenye leja ya uwazi kama ya Bitcoin, ikiwa mtu angetengeneza sarafu kutoka pasipo kitu, idadi zilizoongezwa zingeonekana kwa kila mtu, na mtandao ungeweza kuitambua na kuirejesha nyuma. Katika bwawa la faragha, idadi hufichwa kwa makusudi. Kwa hiyo, ikiwa mfumo wa uthibitisho wenyewe ungekuwa na dosari inayoruhusu muamala batili kuonekana kuwa halali, ughushi huo ungekuwa **usioonekana**. Usingeweza kuutambua kwa kukagua leja, kwa sababu leja imefanywa isiwe wazi kimakusudi.
 
-Ushahidi wa ujuzi-sifuri hufanya kazi kama orodha hiyo ya kuangalia. Haifunuli maelezo binafsi; inachunguza kwamba wanakidhi seti maalum ya hali. Na ikiwa sharti moja muhimu imeondolewa kwa bahati mbaya, basi baadhi ya pembejeo zisizofaa zinaweza * pia * kupita, wakati kila kitu kinaendelea kuonekana kawaida.
-
-Hebu tufanye "orodha ya hali" kuwa sahihi, kwa sababu hapo ndipo hasa mdudu aliishi.
+Hiyo ndiyo hasa hatari iliyotokea katika Orchard. Ili kuielewa, tunahitaji kuangalia ndani ya kile ambacho thibitisho la maarifa sifuri hukagua hasa.
 
 ---
 
-## 3. Hesabu: mizunguko, vizuizi na uthabiti wa mfumo
+## 2. Intuisia: thibitisho ni zuri kadiri ya orodha yake ya ukaguzi
 
-Chini ya kofia, taarifa " shughuli hii ni halali" imewekwa kama ** mzunguko: mkusanyiko wa masharti yaliyoandikwa kwa hesabu inayoitwa vikwazo na kuandikwa kama equations juu ya idadi. Ili kufanya uthibitisho halali, prover lazima kutoa maadili siri (shahidi) ambayo kuridhisha * kila kikwazo. ushahidi inasadikisha verifier kwamba shahidi vile ipo bila kufunua yake.
+Muwazie afisa wa mpakani anayepaswa kuidhinisha wasafiri bila kuona nyaraka zao moja kwa moja. Badala yake, kila msafiri hujaza **orodha ya ukaguzi**, na afisa humuidhinisha yeyote ambaye orodha yake imewekewa alama zote. Orodha hiyo imeundwa ili *msafiri halali pekee aweze kuweka alama katika kila kisanduku.*
 
-Mali tunayohitaji kutoka kwa mfumo huu ina jina:
+Sasa fikiria orodha hiyo haina kisanduku kimoja muhimu, kwa mfano, “pasipoti haijaisha muda.” Karibu kila mtu bado huijaza kwa uaminifu na hakuna kinachoonekana kuwa kibaya. Lakini mtu mwenye pasipoti iliyoisha muda anaweza *pia* kuweka alama katika kila kisanduku kilichobaki na kupita kwa urahisi. Mfumo huonekana mzuri katika matumizi ya kila siku. Pengo hilo lina umuhimu kwa mtu anayelitafuta tu.
 
-> **Usahihi:** lazima iwe vigumu kutoa ushahidi halali kwa taarifa * ya uongo. Tu kweli kauli wanapaswa kuwa na mashahidi ambao kukidhi vikwazo vyote.
+Thibitisho la maarifa sifuri hufanya kazi kama orodha hiyo ya ukaguzi. Halifichui maelezo ya faragha; hukagua kwamba yanatimiza seti maalumu ya masharti. Na sharti moja la lazima likiachwa kwa bahati mbaya, basi baadhi ya ingizo batili yanaweza *pia* kupita, huku kila kitu kikiendelea kuonekana kawaida.
 
-Usahihi ni dhamana ya kupambana na bandia. Kama usahihi inashikilia, ushahidi halali kweli ina maana "halisi, sheria-kutii manunuzi kilichotokea". kama uhalali ana pengo, uthibitisho halali inaweza kuwa haina maana yoyote wakati wote.
+Hebu tufanye “orodha ya masharti ya ukaguzi” iwe sahihi, kwa sababu hapo ndipo hitilafu ilipoishi hasa.
 
-### Nini mapungufu kizuizi gani (a kuthibitishwa mfano)
+---
 
-Vizuizi mara nyingi haja ya kulazimisha thamani kuwa rahisi. Mfano wa kawaida: kulazimishwa kwa thamani `b` kuwa moja ** bit**, ama `0` or `1`. Njia ya kawaida ya kufanya hivyo ni moja kizuizi:
+## 3. Hesabu: saketi, vikwazo, na usahihi
+
+Ndani kabisa, kauli “muamala huu ni halali” husimbwa kama **saketi [circuit]**: mkusanyiko maalumu wa masharti ya kihesabu, yanayoitwa **vikwazo [constraints]**, yaliyoandikwa kama milinganyo juu ya nambari. Ili kutengeneza thibitisho halali, mthibitishaji lazima atoe thamani za siri (**shahidi [witness]**) zinazotimiza *kila* kizuizi. Thibitisho humshawishi mthibitishaji kwamba shahidi wa aina hiyo yupo, bila kumfichua.
+
+Sifa tunayohitaji kutoka kwa mfumo huu ina jina:
+
+> **Usahihi [Soundness]:** lazima isiwezekane kutengeneza thibitisho halali kwa kauli *ya uongo*. Kauli za kweli pekee zinapaswa kuwa na mashahidi wanaotimiza vikwazo vyote.
+
+Usahihi ndiyo dhamana dhidi ya ughushi. Ikiwa usahihi upo, thibitisho halali humaanisha kwa kweli kwamba muamala halisi unaofuata sheria ulitokea. Ikiwa usahihi una pengo, thibitisho halali linaweza lisimaanishe chochote kabisa.
+
+### Kile ambacho kizuizi kinachokosekana hufanya (mfano uliothibitishwa)
+
+Vikwazo mara nyingi huhitaji kulazimisha thamani iwe rahisi. Mfano wa kawaida ni kulazimisha thamani `b` iwe **biti [bit]** moja, ama `0` au `1`. Njia ya kawaida ya kufanya hivi ni kizuizi kimoja:
 
 ```
 b × (b − 1) = 0
 ```
 
-Kwa nini kazi? bidhaa ni zero tu wakati moja ya mambo yake ni sifuri. hivyo `b × (b − 1) = 0` nguvu za kijeshi `b = 0` or `b = 1`, na kitu kingine. kuangalia kila thamani kutoka 0 hadi 16 (katika hesabu kwamba wraps karibu katika 17), * tu* maadili kuridhisha ni hasa **0 1**. ✓
+Kwa nini hufanya kazi? Zao huwa sifuri tu wakati mojawapo ya vipengele vyake ni sifuri. Kwa hiyo `b × (b − 1) = 0` hulazimisha `b = 0` au `b = 1`, na hakuna kingine. Tukikagua kila thamani kuanzia 0 hadi 16 (katika hesabu inayozunguka tena inapofika 17), thamani *pekee* zinazokitimizia ni **0 na 1**. ✓
 
-Sasa fikiria kwamba mstari ni **accidentally kushoto nje** ya mzunguko. ghafla `b` Mtawala asiye mnyoofu anaweza kuweka sheria za kiadili ambazo hazipatani na kanuni. `b` to `5`, or `9`, au kitu chochote, na bado kukidhi vikwazo zilizobaki. line Hiyo moja inayokosekana ni ** upungufu wa sauti**: taarifa za uwongo sasa zina mashahidi wenye kuridhisha.
+Sasa fikiria mstari huo **umeachwa kwa bahati mbaya** kwenye saketi. Ghafla `b` haina kizuizi. Mthibitishaji asiye mwaminifu anaweza kuweka `b` kuwa `5`, au `9`, au chochote kile, na bado atimize vikwazo vilivyosalia. Mstari huo mmoja unaokosekana ni **pengo la usahihi [soundness gap]**: kauli za uongo sasa zina mashahidi wanaotimiza masharti.
 
-This is not a hypothetical. A missing boolean constraint of exactly this kind was found in Zcash's very first shielded design, Sprout, during development, and fixed before launch. Under-constraining is one of the most common and dangerous mistakes in building these circuits.
+Hili si jambo la kinadharia. Kizuizi cha boolean kinachokosekana cha aina hii hasa kilipatikana katika muundo wa kwanza kabisa wa faragha wa Zcash, Sprout, wakati wa uundaji, na kurekebishwa kabla ya uzinduzi. Kuweka vikwazo visivyotosha ni mojawapo ya makosa ya kawaida na hatari zaidi katika kujenga saketi hizi.
 
 ![alt text](image-2.png)
 
-Hii ni sura nzima ya mdudu wa Orchard, kwa kiwango kidogo. Sasa kitu halisi.
+Huu ndio umbo lote la hitilafu ya Orchard, kwa kiwango kidogo. Sasa jambo halisi.
 
 ---
 
-## 4. Mdudu wa Orchard alikuwa nini hasa?
+## 4. Hitilafu ya Orchard ilikuwa nini hasa
 
-Zcash ya ulinzi ushahidi ni kujengwa juu ** curves elliptic, hisabati vitu ambayo pointi inaweza kuwa pamoja na "kuzidishwa" kwa idadi, shughuli mzunguko ina kutekeleza na vikwazo. Mzunguko lina gadgets kwamba kufanya * multiplication Elliptic-curve** na kuangalia kama ilifanyika vizuri.
+Mathibitisho ya faragha ya Zcash yamejengwa juu ya **mikondo ya eliptiki [elliptic curves]**, vitu vya kihesabu ambavyo nukta zake zinaweza kuunganishwa na “kuzidishwa” kwa nambari, operesheni ambazo saketi lazima izitekeleze kwa vikwazo. Saketi ina vifaa vinavyotekeleza **uzidishaji wa mkondo wa eliptiki [elliptic-curve multiplication]** na kukagua kwamba umefanywa kwa usahihi.
 
-Kulingana na ufunuo wa Shielded Labs na mtafiti Taylor Hornby, kasoro ya Orchard ilikuwa hasa hii:
+Kulingana na ufichuzi wa Shielded Labs na mtafiti Taylor Hornby, dosari ya Orchard ilikuwa hii hasa:
 
-> ** chini ya kizuizi kipengele cha mzunguko wa Orchard** alifanya inawezekana kulisha ** hiari uongo pembejeo katika elliptic-curve kuzidisha na bado kuwa na uzalishaji kuangalia kupita.**
+> **Kipengele chenye vikwazo visivyotosha cha saketi ya Orchard** kiliwezesha kuingiza **ingizo la uongo la kiholela katika uzidishaji wa mkondo wa eliptiki na bado kufanya ukaguzi wa uzidishaji upite.**
 
-Kwa maneno rahisi, orodha ya mzunguko ilikuwa inakosa masanduku ambayo inapaswa kuwa na pinned chini kwamba kuzidisha. Kutokana na pengo hilo, mshambuliaji wa kutosha mwenye ujuzi anaweza kujenga uthibitisho wa shughuli ambao mfumo unakubali hata kama shughuli iliunda thamani kutoka kwa kitu chochote. Hiyo ni ** ulaghai**, na kwa sababu kiasi katika bwawa la ulinzi kimefichwa, ingekuwa ** haijulikani ** kutoka kwenye kitabu cha kumbukumbu. Timu ya Tachyon baadaye ilivyoelezwa kosa sawa katika kiwango cha nambari kama mistari inayokosekana katika mzungko ambao ulichanganya kimya kimya usawa uliowekwa.
+Kwa maneno rahisi, orodha ya ukaguzi ya saketi haikuwa na visanduku vilivyopaswa kuufunga uzidishaji huo. Kwa sababu ya pengo hilo, mshambulizi mwenye utaalamu wa kutosha angeweza kutengeneza thibitisho la muamala ambalo mfumo ungekubali hata ingawa muamala huo ulitengeneza thamani kutoka pasipo kitu. Huu ni **ughushi**, na kwa sababu kiasi katika bwawa la faragha hufichwa, usingeweza **kugunduliwa** kutoka kwenye leja. Timu ya Tachyon baadaye ilielezea dosari hiyohiyo katika kiwango cha msimbo kama mistari inayokosekana kwenye saketi ambayo ilichanganya kimya kimya milinganyo ya msingi.
 
-Ulinganisho wa hadithi yetu ya orodha ni sahihi:
+Ulinganifu na simulizi letu la orodha ya ukaguzi ni sahihi kabisa:
 
-| Hadithi ya orodha ya ukaguzi | Mdudu wa Orchard |
+| Simulizi la orodha ya ukaguzi | Hitilafu ya Orchard |
 |---|---|
-| Kisanduku cha "pasipoti ambacho hakijaisha muda wake" kinakosekana | Kizuizi kinachokosekana kwenye kuzidisha kwa mkunjo wa duaradufu |
-| Msafiri aliyemaliza muda wake wa kusafiria hupita hata hivyo | Ingizo bandia kiholela hupita ukaguzi wa kuzidisha |
-| Kila mtu mwingine hajaathiriwa, kwa hivyo hakuna kinachoonekana kibaya | Miamala ya kawaida ilifanya kazi vizuri, ikificha dosari |
-| Ni mtu anayeitafuta tu ndiye anayepata shimo | Ilimchukua mtaalamu kuchunguza kwa makusudi hesabu ya mzunguko |
+| Kisanduku kinachokosekana cha “pasipoti haijaisha muda” | Kizuizi kinachokosekana katika uzidishaji wa mkondo wa eliptiki |
+| Msafiri mwenye pasipoti iliyoisha muda hupita hata hivyo | Ingizo la uongo la kiholela hupita ukaguzi wa uzidishaji |
+| Wengine wote hawaathiriki, kwa hiyo hakuna kinachoonekana kuwa kibaya | Miamala ya kawaida ilifanya kazi kikamilifu, ikificha dosari |
+| Mtu anayeitafuta pekee hupata nafasi hiyo | Ilichukua mtaalamu kuchunguza kimakusudi hesabu ya saketi |
 
-To be clear about how serious this was: the researcher, with AI assistance, wrote a *complete working exploit* and confirmed in a local test network that it produced unlimited, undetectable counterfeit coins. This was a real and exploitable flaw, not a theoretical worry.
+Ili kuweka wazi jinsi hili lilivyokuwa zito: mtafiti, kwa msaada wa AI, aliandika *tumiaji kamili wa shambulio unaofanya kazi* na kuthibitisha katika mtandao wa majaribio wa ndani kwamba ulitengeneza sarafu ghushi zisizo na kikomo na zisizoweza kugunduliwa. Hii ilikuwa dosari halisi inayoweza kutumiwa, si wasiwasi wa kinadharia.
 
 ---
 
-## 5. Kwa nini ilifichwa kwa miaka minne?
+## 5. Kwa nini ilijificha kwa miaka minne
 
-mdudu aliishi katika Orchard kutoka kuanzishwa kwake Mei 2022 hadi kurekebisha dharura Juni 2026, kupitia ukaguzi wa kitaalam uliorudiwa na baadhi ya wataalamu bora zaidi duniani. Jinsi gani?
+Hitilafu hiyo iliishi katika Orchard tangu ilipoanzishwa mnamo **Mei 2022** hadi marekebisho ya dharura mnamo **Juni 2026**, ikipitia ukaguzi wa kitaalamu wa mara kwa mara uliofanywa na baadhi ya wataalamu bora zaidi wa kriptografia duniani. Vipi?
 
-Because, as Part 1 warned, **testing samples cases, and this flaw lived in a case nobody sampled.** Ordinary transactions never exercised the missing constraint, so every test passed and every day of normal operation looked flawless. The flaw was reachable only by deliberately constructing an unusual witness aimed squarely at the gap. It was ultimately found not by running tests but by *reasoning about the circuit's mathematics*.
+Kwa sababu, kama Sehemu ya 1 ilivyoonya, **majaribio huchukua sampuli za hali, na dosari hii iliishi katika hali ambayo hakuna aliyeichukua kama sampuli.** Miamala ya kawaida haikutumia kamwe kizuizi kilichokosekana, hivyo kila jaribio lilipita na kila siku ya utendaji wa kawaida ilionekana bila dosari. Dosari hiyo iliweza kufikiwa tu kwa kutengeneza kimakusudi shahidi usio wa kawaida uliolenga moja kwa moja pengo hilo. Hatimaye haikupatikana kwa kuendesha majaribio, bali kwa *kufikiri kuhusu hesabu ya saketi*.
 
-The discovery itself is a sign of where security is heading. In April 2026, Shielded Labs engaged security researcher **Taylor Hornby** specifically to hunt for exactly this kind of flaw. Shortly after a new frontier AI model (Anthropic's Claude Opus 4.8) was released in late May 2026, Hornby used it, together with a custom analysis harness and traditional methods, in a targeted review of the Orchard circuit. On **May 29, 2026**, the review found the vulnerability.
+Ugunduzi wenyewe ni ishara ya mwelekeo wa usalama. Mnamo Aprili 2026, Shielded Labs ilimhusisha mtafiti wa usalama **Taylor Hornby** hasa kutafuta aina hii ya dosari. Muda mfupi baada ya modeli mpya ya AI ya kiwango cha juu (Claude Opus 4.8 ya Anthropic) kutolewa mwishoni mwa Mei 2026, Hornby aliitumia, pamoja na mazingira maalumu ya uchambuzi na mbinu za jadi, katika ukaguzi uliolengwa wa saketi ya Orchard. Mnamo **Mei 29, 2026**, ukaguzi huo ulipata udhaifu huo.
 
-Mambo mawili ya wazi kutoka kwa ufunuo yanafaa kutajwa moja kwa moja:
+Mambo mawili ya tahadhari kutoka katika ufichuzi yanafaa kusemwa wazi:
 
-- Timu kupatikana ** hakuna ushahidi * mdudu alikuwa milele kutumika, na anaona matumizi ya awali haiwezekani (ilikuwa evaded miaka ya uchunguzi wa wataalam, na aligunduliwa kupitia juhudi makusudi nyeupe-hat). Lakini asili yenyewe ya kosa la * undetectable * ina maana kitabu peke yake hawezi kikamilifu kuthibitisha kamwe kilichotokea.
-- Ugunduzi huo ulisababisha machafuko makubwa, ikiwa ni pamoja na kushuka kwa kasi katika bei ya mali hiyo, haswa kwa sababu * uwezekano wa* udanganyifu uliofichwa ni mbaya sana kwa pesa.
+- Timu haikupata **ushahidi wowote** kwamba hitilafu hiyo iliwahi kutumiwa, na inaona matumizi ya awali kuwa yasiyowezekana (ilikuwa imekwepa uchunguzi wa wataalamu kwa miaka, na ilipatikana kupitia juhudi ya kimakusudi ya white-hat). Lakini asili yenyewe ya dosari *isiyoweza kugunduliwa* inamaanisha kuwa leja pekee haiwezi kuthibitisha kikamilifu kwamba haikutokea kamwe.
+- Ugunduzi huo ulisababisha msukosuko mkubwa, ukiwemo kushuka kwa kasi kwa bei ya mali hiyo, hasa kwa sababu *uwezekano* wa ughushi uliofichwa ni jambo zito sana kwa pesa.
 
 ![alt text](image-3.png)
 
 ---
 
-## 6. Hii haikuwa mara ya kwanza kwa
+## 6. Hii haikuwa mara ya kwanza
 
-Kosa la Orchard linatokana na familia inayorudiwa, na kuona kwamba ni nini hufanya uthibitisho rasmi usionekane kuwa wa hiari lakini unaepuka. Kasoro ya kudanganya daima hufuatilia mojawapo ya vyanzo vitatu (taxonomi kutoka Sehemu ya 1): ** vipimo** (hisabati yenyewe), utekelezaji** (kificho kisichokuwa cha kufuata hesabu sahihi), au dhana iliyovunjika.* Na muhimu zaidi:
+Hitilafu ya Orchard ni sehemu ya familia inayojirudia, na kuona familia hiyo ndiko kunakofanya uthibitishaji rasmi uonekane si wa hiari bali wa lazima. Dosari ya ughushi kila mara hufuatwa hadi mojawapo ya vyanzo vitatu (uainishaji kutoka Sehemu ya 1): **ubainifu** (hesabu yenyewe), **utekelezaji [implementation]** (msimbo kushindwa kufuata hesabu sahihi), au **dhana iliyovunjika [broken assumption]**. Na muhimu zaidi:
 
-> mdudu bandia ni ** undetectable** tu kama anaishi katika * vipimo vya. viungo utekelezaji kuondoka ushahidi wa kudumu umma, kwa sababu kila block kumbukumbu ya maudhui kamili ya kila shughuli, hivyo replaying historia kupitia programu kusahihishwa ingekuwa kufichua yoyote manunuzi code buggy vibaya kukubalika.
+> Hitilafu ya ughushi haiwezi **kugunduliwa** tu ikiwa ipo katika **ubainifu**. Hitilafu za utekelezaji huacha ushahidi wa kudumu wa umma, kwa sababu kila block hurekodi maudhui kamili ya kila muamala, hivyo kurudia historia kupitia programu iliyorekebishwa kungeanika muamala wowote ambao msimbo wenye hitilafu ulikubali kimakosa.
 
-Historia ya Zcash yenyewe inaonyesha muundo:
+Historia ya Zcash yenyewe inaonyesha muundo huu:
 
-| Mdudu (mwaka) | Chanzo | Inaweza kugunduliwa? |
+| Hitilafu (mwaka) | Chanzo | Inaweza kugunduliwa? |
 |---|---|---|
-| Dosari ya ahadi ya Zerocash (2016, kabla ya uzinduzi) | Vipimo (hash iliyokatwa ilivunja sifa ya kufunga) | Haigunduliki |
-| Kasoro ya uthabiti katika usanidi unaoaminika (2018) | Vipimo (kosa katika karatasi ya zk-SNARK) | Haigunduliki |
-| Mgongano wa hoja ya mfumo wa kuthibitisha (2025) | Vipimo (hundi isiyopatikana katika mfumo wa uthibitisho) | Inaweza kugunduliwa |
-| Hitilafu ya uthibitishaji wa kikundi kidogo cha mkunjo (2016) | Utekelezaji (ukaguzi wa kikundi kidogo unaokosekana) | Inaweza kugunduliwa |
-| **Orchard under-constrained multiplication (2026)** | **Vipimo (mzunguko)** | **Haigunduliki** |
+| Dosari ya commitment ya Zerocash (2016, kabla ya uzinduzi) | Ubainifu (hash iliyokatwa ilivunja sifa ya binding) | Haiwezi kugunduliwa |
+| Dosari ya usahihi ya usanidi unaoaminika (2018) | Ubainifu (kosa katika waraka wa msingi wa zk-SNARK) | Haiwezi kugunduliwa |
+| Mgongano wa query wa mfumo wa kuthibitisha (2025) | Ubainifu (ukaguzi uliokosekana katika mfumo wa uthibitisho) | Inaweza kugunduliwa |
+| Hitilafu ya uthibitishaji wa kikundi kidogo cha mkondo (2016) | Utekelezaji (ukaguzi wa subgroup uliokosekana) | Inaweza kugunduliwa |
+| **Uzidishaji wa Orchard wenye vikwazo visivyotosha (2026)** | **Ubainifu (saketi)** | **Haiwezi kugunduliwa** |
 
-Kupitia-line ni stark: kasoro ambayo inaweza kujificha milele ndio wale katika hisabati. Hiyo ndiyo hasa darasa kuthibitishwa mashine ya vipimo unaweza kuondoa, kesi zote kwa mara moja. kupima na ukaguzi sampuli; tu kuthibitisha hesabu inashughulikia kila pembejeo.
-
----
-
-## 7. Itikio la watu
-
-Watengenezaji wa Zcash walihamia haraka na kwa hatua:
-
-1. ** Urekebishaji wa dharura (kufikia Juni 1-2, 2026).** Ndani ya siku chache za ufunuo huo, uboreshaji wa mtandao wa dharuru ulifunga dirisha la udhaifu, na kuongeza vizuizi vilivyokosekana ili hesabu ya mzunguko iwe sawa tena.
-2. **A fresh, provable start ("Ironwood," activated July 28, 2026).** Rather than trust a patched version of the old pool indefinitely, the community launched a brand-new shielded pool, Ironwood, based on the corrected circuit but starting clean, and accompanied by a formal, machine-checked proof of correctness.
-
-Hatua hiyo ya pili ni ambapo uthibitisho rasmi huingia hadithi, na ndio mada ya Sehemu 3. utambuzi timu alitenda juu yake inafaa kutazama mapema, kwa sababu inahusisha mfululizo huu wote pamoja:
-
-> * undetectable * udanganyifu mdudu anaweza kuishi tu katika itifaki ya ** vipimo hivyo kama unaweza kuthibitisha maalum sheria nje ulaghai, kuondoa darasa nzima ya bug kwamba siri hapa kwa miaka minne.
-
-Hiyo ni hasa nguzo-moja wazo kutoka Sehemu ya 1: kuthibitisha vipimo, na wewe kufunga pengo kwamba kupima kamwe inaweza.
+Mstari unaounganisha ni wazi: dosari zinazoweza kujificha milele ni zile zilizo katika hesabu. Hiyo ndiyo hasa aina ambayo thibitisho la ubainifu lililokaguliwa na mashine linaweza kuondoa, kwa hali zote mara moja. Majaribio na ukaguzi huchukua sampuli; kuthibitisha hesabu pekee kunashughulikia kila ingizo.
 
 ---
 
-## 8. Mtu anayetoa taarifa kwa unyoofu kuhusu madeni yake
+## 7. Majibu
 
-We simplified deliberately. The real circuit involves hundreds of regions and many thousands of constraints, and the actual flaw is more technically intricate than a single missing bit-check; we used the bit-check because it shows the *shape* of an under-constrained circuit exactly, and because that exact mistake is real in Zcash's history. The precise Orchard flaw was an under-constrained elliptic-curve multiplication, as stated in the official disclosure. We also compressed the disclosure and remediation timeline. For the authoritative technical account, consult the Shielded Labs disclosure and the Project Tachyon writeups.
+Wasanidi programu wa Zcash walichukua hatua haraka na kwa awamu:
+
+1. **Marekebisho ya dharura (kufikia Juni 1-2, 2026).** Ndani ya siku chache baada ya ufichuzi, uboreshaji wa dharura wa mtandao ulifunga dirisha la udhaifu, ukiongeza vikwazo vilivyokosekana ili hesabu ya saketi iwe sahihi tena.
+2. **Mwanzo mpya unaoweza kuthibitishwa (“Ironwood,” ulioanzishwa Julai 28, 2026).** Badala ya kuamini toleo lililorekebishwa la bwawa la zamani kwa muda usiojulikana, jamii ilizindua bwawa jipya kabisa la faragha, Ironwood, lililotegemea saketi iliyorekebishwa lakini likianza upya, na kuambatana na thibitisho rasmi la usahihi lililokaguliwa na mashine.
+
+Hatua hiyo ya pili ndiyo mahali uthibitishaji rasmi unapoingia katika simulizi, na ndiyo mada ya Sehemu ya 3. Utambuzi ambao timu ilitekeleza unafaa kuutazamia mapema, kwa sababu unaunganisha mfululizo huu wote:
+
+> Dosari ya ughushi *isiyoweza kugunduliwa* inaweza kuishi tu katika **ubainifu** wa itifaki. Kwa hiyo, ukiweza **kuthibitisha ubainifu** unaondoa ughushi, unaondoa aina nzima ya hitilafu iliyojificha hapa kwa miaka minne.
+
+Hilo ndilo hasa wazo la nguzo ya kwanza kutoka Sehemu ya 1: thibitisha ubainifu, na unafunga pengo ambalo majaribio yasingeweza kamwe kulifunga.
+
+---
+
+## 8. Kanusho la uaminifu
+
+Tumerahisisha kwa makusudi. Saketi halisi inahusisha mamia ya maeneo na maelfu mengi ya vikwazo, na dosari halisi ni changamani zaidi kiufundi kuliko ukaguzi mmoja wa biti unaokosekana; tulitumia ukaguzi wa biti kwa sababu unaonyesha *umbo* la saketi yenye vikwazo visivyotosha kwa usahihi, na kwa sababu kosa hilo hasa ni la kweli katika historia ya Zcash. Dosari sahihi ya Orchard ilikuwa uzidishaji wa mkondo wa eliptiki wenye vikwazo visivyotosha, kama ilivyoelezwa katika ufichuzi rasmi. Pia tumefupisha ratiba ya ufichuzi na marekebisho. Kwa maelezo ya kiufundi yenye mamlaka, tazama ufichuzi wa Shielded Labs na maandishi ya Project Tachyon.
 
 ---
 
 ## 9. Muhtasari
 
-- Hifadhi ya Zcash iliyohifadhiwa huficha kiasi kwa kutumia uthibitisho wa ujuzi, hivyo kosa katika ushahidi huo linaweza kuwezesha udanganyifu usioonekana.
-- mfumo wa uthibitisho checks a fasta ** mzunguko** ya vikwazo; mali yake muhimu ni ** soundness: taarifa tu kweli lazima kuwa na kuridhisha *** shahidi.
-- ** missing constraint** inajenga ** soundness gap**, kuruhusu taarifa za uongo kupita. (Kesi ya toy iliyothibitishwa: `b(b−1)=0` nguvu za kijeshi `b` kwa 0 au 1; kuacha na `b` Hii aina halisi ya mdudu ni kweli katika historia Zcash.)
-- ** Orchard mdudu** ilikuwa ni chini ya vikwazo elliptic-curve kuzidisha: arbitrary uongo pembejeo inaweza kupita uzalishaji kuangalia, kuwezesha ukomo, undetectable bandia. kazi utumiaji ulionyeshwa katika mtandao mtihani.
-- Ilikuwa imefichwa kwa miaka minne (Mei 2022 hadi Juni 2026) kwani majaribio ya sampuli za kesi na kamwe haikuchukua; ilipatikana kwa sababu juu ya hesabu, kwa msaada wa AI mnamo Mei 29, 2026.
-- Zcash alijibu na kurekebisha dharura na dimbwi jipya, lililothibitishwa rasmi, Ironwood, somo la Sehemu ya 3.
+- Bwawa la faragha la Zcash huficha kiasi kwa kutumia **mathibitisho ya maarifa sifuri**, hivyo dosari katika mathibitisho hayo ingeweza kuwezesha **ughushi usioonekana**.
+- Mfumo wa uthibitisho hukagua **saketi** maalumu ya **vikwazo**; sifa yake muhimu ni **usahihi**: kauli za kweli pekee zinapaswa kuwa na **shahidi** anayetimiza masharti.
+- **Kizuizi kinachokosekana** huunda **pengo la usahihi**, likiruhusu kauli za uongo kupita. (Kisa kidogo kilichothibitishwa: `b(b−1)=0` hulazimisha `b` kuwa 0 au 1; ukikiondoa, `b` inaweza kuwa chochote. Aina hii hasa ya hitilafu ni halisi katika historia ya Zcash.)
+- **Hitilafu ya Orchard** ilikuwa **uzidishaji wa mkondo wa eliptiki wenye vikwazo visivyotosha**: ingizo la uongo la kiholela lingeweza kupita ukaguzi wa uzidishaji, na kuwezesha ughushi usio na kikomo usioweza kugunduliwa. Shambulio linalofanya kazi lilionyeshwa katika mtandao wa majaribio.
+- Ilijificha kwa **miaka minne** (Mei 2022 hadi Juni 2026) kwa sababu majaribio huchukua sampuli za hali na hayakuwahi kuichukua; ilipatikana kwa kufikiri kuhusu hesabu, kwa msaada wa AI, mnamo Mei 29, 2026.
+- Ughushi usioweza kugunduliwa unaweza kuishi tu katika **ubainifu**, na Zcash imeshawahi kuona familia hii ya hitilafu hapo awali. Zcash ilijibu kwa marekebisho ya dharura na bwawa jipya lililothibitishwa rasmi, **Ironwood**, mada ya Sehemu ya 3.
 
 ---
 
-## Orodha ya maneno
+## Kamusi
 
-| Muhula | Maana ya Kiingereza cha kawaida |
+| Istilahi | Maana kwa lugha rahisi |
 |---|---|
-| **Shielded pool** | Hali ya faragha ya Zcash ambapo kiasi na vyama vimefichwa |
-| **Zero-knowledge proof** | Uthibitisho kwamba kauli iliyofichwa ni halali, bila kufichua kitu kingine chochote |
-| **Circuit** | Seti isiyobadilika ya masharti ya hesabu ambayo muamala halali lazima utimize |
-| **Constraint** | Hali moja (mlinganyo) ndani ya saketi |
-| **Witness** | Thamani za siri zinazokidhi vikwazo |
-| **Soundness** | Dhamana kwamba taarifa za kweli pekee ndizo zinaweza kutoa uthibitisho halali |
-| **Soundness gap** | Kizuizi kinachokosekana kinachoruhusu taarifa za uongo kupita |
-| **Under-constrained** | Mzunguko usio na hali iliyohitajika, mzizi wa mdudu wa Orchard |
-| **Detectable / undetectable** | Kama unyonyaji ungeacha ushahidi katika ledger la umma |
+| **Shielded pool** | Hali ya faragha ya Zcash ambapo kiasi na wahusika hufichwa |
+| **Zero-knowledge proof** | Thibitisho kwamba kauli iliyofichwa ni halali, bila kufichua kitu kingine |
+| **Circuit** | Seti maalumu ya masharti ya kihesabu ambayo muamala halali lazima utimize |
+| **Constraint** | Sharti moja (milinganyo) ndani ya saketi |
+| **Witness** | Thamani za siri zinazotimiza vikwazo |
+| **Soundness** | Dhamana kwamba kauli za kweli pekee zinaweza kutengeneza thibitisho halali |
+| **Soundness gap** | Kizuizi kinachokosekana kinachoruhusu kauli za uongo kupita |
+| **Under-constrained** | Saketi inayokosa sharti ililohitaji, chanzo cha hitilafu ya Orchard |
+| **Detectable / undetectable** | Ikiwa matumizi mabaya yangeacha ushahidi katika leja ya umma |
 
 ---
 
-## FAQs
+## Maswali Yanayoulizwa Mara kwa Mara
 
-** Je, Zcash bandia kweli kuundwa?**
-Hakuna ushahidi wa unyonyaji kupatikana, na timu anaona ni uwezekano. Lakini kwa sababu kasoro ingekuwa undetectable kutoka kitabu cha hesabu, kitabu peke yake hawezi kikamilifu kuthibitisha kamwe kilichotokea, ambayo ni kwa nini majibu ilikuwa hivyo kina.
+**Je, Zcash ghushi ilitengenezwa kweli?**
+Hakuna ushahidi wa matumizi mabaya uliopatikana, na timu inaona hali hiyo kuwa isiyowezekana. Lakini kwa sababu dosari hiyo isingeweza kugunduliwa kutoka kwenye leja, leja pekee haiwezi kuthibitisha kikamilifu kwamba haikutokea kamwe, ndiyo maana majibu yalikuwa ya kina sana.
 
-**Kwa nini kuficha kiasi hufanya mdudu kuwa mbaya zaidi?**
-Katika mzunguko wa uwazi, sarafu zilizochongwa zinaonekana na zinaweza kukamatwa na kugeuzwa. Wakati kiasi kinafichwa kwa faragha, mdudu bandia haitoi kasoro inayoonekana, hivyo inaweza kudumu bila kuonekana.
+**Kwa nini kuficha kiasi hufanya hitilafu kuwa mbaya zaidi?**
+Kwenye mnyororo wa uwazi, sarafu zilizotengenezwa huonekana na zinaweza kutambuliwa na kurejeshwa. Kiasi kinapofichwa kwa faragha, hitilafu ya ughushi haitoi hali yoyote isiyo ya kawaida inayoonekana, hivyo inaweza kuendelea bila kuonekana.
 
-Kwa nini miaka ya ukaguzi haikugundua?
-Ukaguzi na vipimo kwa kiasi kikubwa kuchunguza tabia ya kesi halisi. kasoro hii tu kuibuka chini ya makusudi crafted, pembejeo isiyo ya kawaida inayolenga hali kando hisabati, ambayo mapitio routine hakuwa zoezi. Ilikuwa kupatikana kwa lengo kufikiri kuhusu mzunguko, si kwa kupima.
+**Kwa nini miaka ya ukaguzi haikuipata?**
+Ukaguzi na majaribio kwa kiasi kikubwa huchunguza tabia katika hali halisi. Dosari hii ilijitokeza tu chini ya ingizo lisilo la kawaida lililotengenezwa kimakusudi na kulenga hali ya ukingo wa kihesabu, jambo ambalo ukaguzi wa kawaida haukulitumia. Ilipatikana kwa ufikiri uliolengwa kuhusu saketi, si kwa majaribio.
 
-** Je, kikwazo kukosa kweli wote inachukua?**
-Ndiyo. mfumo wa uthibitisho ni nguvu tu kama seti yake kamili ya vikwazo. moja muhimu hali kushoto nje kutosha kuruhusu taarifa batili kupitia.
+**Je, kizuizi kinachokosekana ndicho pekee kinachohitajika?**
+Ndiyo. Mfumo wa uthibitisho una nguvu tu kadiri ya seti yake kamili ya vikwazo. Sharti moja muhimu likiachwa linatosha kuruhusu kauli batili kupita.
 
-** AI ilicheza jukumu gani?**
-Mtafiti alitumia mpaka AI mfano pamoja na harness desturi na mbinu za jadi kupitia hisabati mzunguko wa na kupata kasoro. AI ni inazidi kutumika kwa pande zote mbili ya usalama, ambayo ni sehemu ya nini kuthibitisha mifumo sahihi sasa mambo mengi sana.
+**AI ilicheza jukumu gani?**
+Mtafiti alitumia modeli ya AI ya kiwango cha juu pamoja na mazingira maalumu na mbinu za jadi kukagua hesabu ya saketi na kupata dosari hiyo. AI inazidi kutumiwa pande zote mbili za usalama, jambo ambalo ni sehemu ya sababu ya kuthibitisha usahihi wa mifumo kuwa muhimu sana sasa.
 
 ---
 
-### Jaribu kutambua hisia zako za ndani.
+### Jaribu intuisia yako
 
-Tuseme shughuli kulindwa ni inatakiwa kuthibitisha "pesa katika sawa fedha nje", lakini mzunguko anasahau kuzuia moja pato thamani. nini inaweza kuwa na uaminifu prover kufanya, na kwa nini ingekuwa kitabu cha umma kuangalia kabisa kawaida? * ((Jibu chini.)) *
+Tuseme muamala wa faragha unatakiwa kuthibitisha “pesa inayoingia ni sawa na pesa inayotoka,” lakini saketi inasahau kuweka kizuizi kwa thamani moja ya pato. Mthibitishaji asiye mwaminifu angeweza kufanya nini, na kwa nini leja ya umma ingeonekana kuwa ya kawaida kabisa? *(Jibu hapa chini.)*
 
-<details><summary>Answer</summary>
+<details><summary>Jibu</summary>
 
-With that output unconstrained, the prover could set it larger than the real inputs allow, creating value from nothing, a counterfeit. The proof would still verify, because the missing constraint is the only thing that would have caught the imbalance. And since the shielded pool hides amounts, the ledger shows only that "a valid transaction occurred," with no visible imbalance to raise an alarm. The forgery is real but invisible, which is exactly why soundness of the circuit matters so much, and exactly why it must be proven rather than tested.
+Kwa pato hilo kukosa kizuizi, mthibitishaji angeweza kuliweka kubwa kuliko ingizo halisi linavyoruhusu, na kutengeneza thamani kutoka pasipo kitu, yaani ughushi. Thibitisho bado lingethibitishwa, kwa sababu kizuizi kinachokosekana ndicho kitu pekee ambacho kingetambua ukosefu wa uwiano. Na kwa kuwa bwawa la faragha huficha kiasi, leja huonyesha tu kwamba “muamala halali umetokea,” bila ukosefu wa uwiano unaoonekana wa kutoa tahadhari. Ughushi ni halisi lakini hauonekani, ndiyo sababu usahihi wa saketi ni muhimu sana, na ndiyo sababu lazima uthibitishwe badala ya kujaribiwa.
 </details>
 
 ---
 
-### Ni nini kinachofuata?
+### Kinachofuata
 
-**Part 3 · Ironwood:** the fix was not just a patch. Zcash's engineers built a new shielded pool and accompanied it with a machine-checked mathematical proof, over 2,700 theorems written in the Lean proof assistant, that it cannot create counterfeit money under its stated assumptions. We will see what "balance integrity" and "knowledge soundness" mean, exactly what the proof does and does not cover, and how the old pool was safely retired.
+**Sehemu ya 3 · Ironwood:** marekebisho hayakuwa kiraka tu. Wahandisi wa Zcash walijenga bwawa jipya la faragha na kuliambatanisha na thibitisho la kihesabu lililokaguliwa na mashine, zaidi ya teorema 2,700 zilizoandikwa katika msaidizi wa uthibitishaji wa Lean, kwamba haliwezi kutengeneza pesa ghushi chini ya dhana zake zilizoelezwa. Tutaona “uadilifu wa mizani” na “usahihi wa maarifa” vinamaanisha nini, thibitisho linashughulikia nini hasa na lisichoshughulikia, na jinsi bwawa la zamani lilivyostaafishwa kwa usalama.
 
-* Sehemu ya* Formal Verification * mfululizo kwa ajili ya [ZecHub](https://zechub.org).*
+*Sehemu ya* mfululizo wa Uthibitishaji Rasmi *kwa ajili ya [ZecHub](https://zechub.org).*

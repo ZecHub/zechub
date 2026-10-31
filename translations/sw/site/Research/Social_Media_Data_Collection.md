@@ -7,79 +7,77 @@ published: 2023-10-23
 </a>
 
 
-# Kukusanya Takwimu za Media ya Jamii
+# Ukusanyaji wa Data za Mitandao ya Kijamii
 
-Currently, it is difficult to find a person who is not exposed to the reach of social networks. They have become popular for their ease of use and their speed and effectiveness in spreading a message.
+Kwa sasa, ni vigumu kupata mtu ambaye hajafikiwa na mitandao ya kijamii. Mitandao hiyo imekuwa maarufu kwa urahisi wake wa matumizi na kasi pamoja na ufanisi wake katika kueneza ujumbe.
 
-Kwa bahati mbaya, urahisi huu pia umetufanya sisi, kama watumiaji, tusijali kuhusu kiasi cha habari ambazo mitandao ya kijamii hukusanya kutuhusu na kile wanachoweza kufanya nayo, au kile ambacho mtu wa tatu mwenye nia mbaya anaweza kufanya ikiwa wangepata ufikiaji.
+Kwa bahati mbaya, urahisi huu huu pia umetufanya sisi, kama watumiaji, tusijali kiasi cha taarifa ambacho majukwaa ya mitandao ya kijamii hukusanya kutuhusu na wanachoweza kufanya nacho, au kile ambacho mhusika mwingine mwenye nia mbaya angeweza kufanya ikiwa angezipata.
 
-Halafu, tutaelezea data ambazo baadhi ya majukwaa haya hukusanya juu yetu, wanafanya nini nayo, na kwa nini hii inaweza kuhatarisha faragha yetu na, uwezekano, usalama wetu wa kibinafsi au wa familia.
+Kisha, tutaeleza data ambayo baadhi ya majukwaa haya hukusanya kutuhusu, wanachofanya nayo, na kwa nini jambo hili linaweza kuwa hatari kwa faragha [privacy] yetu na, huenda, usalama wetu binafsi au wa familia.
 
 Discord
 -------
 
-Tunahitaji kuanza na Discord kwa sababu ni programu ya mawasiliano tunayoitumia "nyumbani".
+Tunahitaji kuanza na Discord kwa sababu ni programu ya mawasiliano tunayotumia “nyumbani.”
 
-Discord ni muhimu sana kwa kusimamia jumuiya kubwa katika mada mbalimbali, lakini ni hatia sawa na wengine wengi kufaidika na taarifa zetu binafsi.
+Discord ni muhimu sana kwa kusimamia jumuiya kubwa kuhusu mada mbalimbali, lakini ina hatia sawa na nyingine nyingi za kunufaika na taarifa zetu binafsi.
 
-### Hifadhi ya Data Discord
+### Data Ambayo Discord Huhifadhi
 
-Kulingana na sera yake ya faragha, Discord hukusanya habari ifuatayo kuhusu sisi:
+Kulingana na sera yake ya faragha, Discord hukusanya taarifa zifuatazo kutuhusu:
 
--   Ujumbe wa maandishi (ikiwa ni pamoja na rasimu), ujumbe wa sauti, picha za jalada kwa mito ya moja kwa moja, marafiki unaowaongeza au watumiaji unaowasiliana nao, michezo unayocheza, seva au jamii ambazo umesajiliwa, ununuzi au mauzo unayofanya kupitia programu, na maamuzi unayofanya wakati wa kudhibiti yaliyomo.
+-   Ujumbe wa maandishi (ikiwemo rasimu), ujumbe wa sauti, picha za jalada za matangazo ya moja kwa moja, marafiki unaowaongeza au watumiaji unaoshirikiana nao, michezo unayocheza, seva au jumuiya ulizosajiliwa, ununuzi au mauzo unayofanya kupitia programu, na maamuzi unayofanya unapodhibiti maudhui.
 
-Wao si kuhifadhi video yako au video ya mito yako kuishi, ingawa wao kuondoka mlango wazi kwa kubadilisha uamuzi huu katika siku zijazo.
+Hawatahifadhi video zako au video za matangazo yako ya moja kwa moja, ingawa wanaacha uwezekano wa kubadilisha uamuzi huu siku zijazo.
 
-Pia hukusanya habari fulani kiotomatiki, kama vile anwani ya IP unayotumia ili kuunganisha kompyuta, kivinjari unachotumia, na mfumo wako wa uendeshaji.
+Pia hukusanya kiotomatiki taarifa fulani, kama vile anwani ya IP [IP address] unayotumia kuunganishwa, kivinjari unachotumia, na mfumo wako wa uendeshaji.
 
 ### Jinsi Wanavyoitumia
 
-Most of the things they do with our data could be considered justifiable, such as improving the user experience, offering a more personalized experience, and maintaining community standards. However, they can also use your data to promote their services, and they may even share some of it with third parties to promote their services or analyze company growth.
+Mambo mengi wanayofanya kwa data yetu yanaweza kuonekana kuwa yanahalalishika, kama vile kuboresha uzoefu wa mtumiaji, kutoa uzoefu uliobinafsishwa zaidi, na kudumisha viwango vya jumuiya. Hata hivyo, wanaweza pia kutumia data yako kutangaza huduma zao, na hata wanaweza kushiriki baadhi yake na wahusika wengine ili kutangaza huduma zao au kuchanganua ukuaji wa kampuni.
 
-Pia wanadai wanaweza kutumia habari hiyo kutoa kwa mamlaka yoyote ambayo inaweza kuitaka kupitia agizo la mahakama.
+Pia wanadai wanaweza kutumia taarifa hizo kuzitoa kwa mamlaka yoyote inayoweza kuziomba kupitia amri ya mahakama.
 
 Twitter
 -------
 
-Like Discord, Twitter stores a good amount of information on its servers. It also saves direct messages, who you follow, and who you interact with (saved posts, favorites), and in fact, their policies are quite similar, including sharing your data with third parties and authorities.
+Kama Discord, Twitter huhifadhi kiasi kikubwa cha taarifa kwenye seva zake. Pia huhifadhi ujumbe wa moja kwa moja, watu unaowafuata, na watu unaoshirikiana nao (machapisho yaliyohifadhiwa, vipendwa), na kwa kweli sera zao zinafanana sana, ikiwemo kushiriki data yako na wahusika wengine na mamlaka.
 
 Meta
 ----
 
-The Meta group of applications, including Facebook, Instagram, and now Threads, goes even further, with a list so long, just of the information you provide, that it would be too long to detail. It includes all your posts, including voice notes, photos taken using your device's "camera" feature or its gallery, the ads you see, the time you spend viewing them, and even the ones you choose to ignore. It includes metadata from your messages, such as location, date, time, and device. It also includes the time you spend on each of the different app functions, and, if the law doesn't protect you, your religious beliefs, philosophical beliefs, sexual orientation, and even union membership.
+Kundi la programu za Meta, likijumuisha Facebook, Instagram, na sasa Threads, linaenda mbali zaidi, likiwa na orodha ndefu sana ya taarifa unazotoa kiasi kwamba itakuwa ndefu mno kuieleza kwa undani. Linajumuisha machapisho yako yote, ikiwemo madokezo [notes] ya sauti, picha zilizopigwa kwa kutumia kipengele cha “kamera” cha kifaa chako au ghala yake, matangazo unayoyaona, muda unaotumia kuyatazama, na hata yale unayochagua kuyapuuza. Linajumuisha metadata kutoka kwenye ujumbe wako, kama vile mahali, tarehe, muda, na kifaa. Pia linajumuisha muda unaotumia katika kila kipengele tofauti cha programu, na, ikiwa sheria haikulindi, imani zako za kidini, imani za kifalsafa, mwelekeo wako wa kingono, na hata uanachama wa vyama vya wafanyakazi.
 
-But they go further, through their famous Pixel, Meta is able to know what you do **outside of Facebook**: the websites you visit, how much time you spend on them, what games you play, what you buy, and even data like your level of education. Also, of course, the technical information about your device, such as IP address, operating system, browser, among others, regardless of whether you have logged in to Facebook or not.
+Lakini wanaenda mbali zaidi; kupitia Pixel yao maarufu, Meta inaweza kujua unachofanya **nje ya Facebook**: tovuti unazotembelea, muda unaotumia humo, michezo unayocheza, unachonunua, na hata data kama kiwango chako cha elimu. Pia, bila shaka, taarifa za kiufundi kuhusu kifaa chako, kama vile anwani ya IP, mfumo wa uendeshaji, kivinjari, miongoni mwa mengine, bila kujali kama umeingia kwenye Facebook au la.
 
-Kwa Nini Nijihangaishe?
+Kwa Nini Ninapaswa Kujali?
 ------------------
 
-"Sina chochote cha kuficha" ni hoja ya kawaida kupunguza umuhimu wa data zote ambazo hizi majukwaa kukusanya kuhusu sisi. Hata hivyo, hata wakati kile unachofanya si kinyume cha sheria, kuna sababu nzuri za kuwa na wasiwasi juu ya nini makampuni haya kujua kuhusu wewe.
+“Sina cha kuficha” ndiyo hoja ya kawaida zaidi ya kupunguza umuhimu wa data yote ambayo majukwaa haya hukusanya kutuhusu. Hata hivyo, hata wakati unachofanya si kinyume cha sheria, kuna sababu nzuri za kuwa na wasiwasi kuhusu kile kampuni hizi zinachojua kukuhusu.
 
-Mwanaharakati wa kisiasa anaweza kuathiriwa sana ikiwa shirika lolote lenye nguvu wanalopinga linaamua kwamba wanachofanya ni "kiovu" na kuomba habari kuhusu mtu huyu kutoka kwa kampuni yoyote kati ya hizi, [ambazo wangetoa bila kusita](https://gizmodo.com/twitter-saudi-arabia-x-jack-dorsey-areej-al-sadhan-abdu-1850805085).
+Mwanaharakati wa kisiasa anaweza kuathirika sana ikiwa shirika lolote lenye nguvu analolipinga lingeamua kwamba anachofanya ni “kibaya” na kuomba taarifa kuhusu mtu huyu kutoka kwa kampuni hizi zozote, [ambazo zingezitoa bila kusita](https://gizmodo.com/twitter-saudi-arabia-x-jack-dorsey-areej-al-sadhan-abdu-1850805085).
 
-Pia kuna mifano ya wazi ambapo maelezo yako binafsi inaweza kuishia katika mikono ya wageni, makampuni, au watekaji ambao wanaweza kuitumia kwa madhumuni mabaya, kama vile wizi wa utambulisho, kupata upatikanaji wa akaunti yako, kutuma matangazo zisizohitajika, kukupunja, au [kubadilisha wewe](https://en.wikipedia.org/wiki/Facebook%E2%80%93Cambridge_Analytica_data_scandal).
+Pia kuna mifano wazi ambapo taarifa zako binafsi zinaweza kuishia mikononi mwa wageni, kampuni, au wavamizi wa mifumo ambao wanaweza kuzitumia kwa malengo mabaya, kama vile wizi wa utambulisho, kupata ufikiaji wa akaunti zako, kukutumia matangazo yasiyotakiwa, kukutoza fedha kwa vitisho, au [kukudhibiti](https://en.wikipedia.org/wiki/Facebook%E2%80%93Cambridge_Analytica_data_scandal).
 
-Likewise, you can lose control of your data. You may not know how your data is stored, processed, or shared with third parties, or you may not be able to delete or modify it if you change your mind. This could also put you at risk if the service provider you trusted [does not protect your data properly](https://www.iotworldtoday.com/security/duolingo-data-breach-exposes-3-million-user-emails) [kwa usahihi](https://edition.cnn.com/2023/01/05/tech/twitter-data-email-addresses/index.html).
+Vivyo hivyo, unaweza kupoteza udhibiti wa data yako. Huenda usijue jinsi data yako inavyohifadhiwa, kuchakatwa, au kushirikiwa na wahusika wengine, au huenda usiweze kuifuta au kuibadilisha ukibadilisha mawazo yako. Hili pia linaweza kukuweka katika hatari ikiwa mtoa huduma uliyemwamini [hailindi data yako ipasavyo](https://www.iotworldtoday.com/security/duolingo-data-breach-exposes-3-million-user-emails) [kwa usahihi](https://edition.cnn.com/2023/01/05/tech/twitter-data-email-addresses/index.html).
 
-Je, Kuna Njia Nyingine?
+Je, Kuna Mbadala?
 -----------------------
 
-Ingawa si kama maarufu, kuna njia mbadala kwa angalau wengi wa mitandao ya kijamii maarufu. Hebu tuangalie baadhi:
+Ingawa si maarufu sana, kuna mbadala kwa angalau mitandao mingi ya kijamii iliyo maarufu zaidi. Hebu tuangalie baadhi yake:
 
-### Matrix, kama Discord lakini zaidi binafsi
+### Matrix, kama Discord lakini yenye faragha zaidi
 
-Matrix is the closest alternative to Discord and Telegram, sharing many of their features but adding privacy enhancements such as end-to-end encryption, not making a business out of data, and keeping its code open source. It is completely free if you decide to run your own server, although you may want to pay for a specialized server on the internet or donate to the project. It is cross-platform and even allows integration with Discord, Telegram, and other popular applications.
+Matrix ndiyo mbadala wa karibu zaidi wa Discord na Telegram, ikishiriki vipengele vyao vingi lakini ikiongeza maboresho ya faragha kama vile usimbaji fiche wa upande hadi upande [end-to-end encryption], kutofanya data kuwa biashara, na kuweka msimbo wake wazi. Ni bure kabisa ukiamua kuendesha seva yako mwenyewe, ingawa unaweza kutaka kulipia seva maalumu kwenye intaneti au kuchangia mradi huo. Inatumika kwenye majukwaa mbalimbali na hata inaruhusu muunganisho na Discord, Telegram, na programu nyingine maarufu.
 
 ### Mastodon
 
-Moja ya njia mbadala maarufu kwa Twitter, ingawa si moja tu. Mastodon anasimama nje kwa kuwa decentralized, maana yake ni kwamba mtu yeyote au shirika kwamba anataka unaweza kuzindua mfano wao wenyewe au "server" kwa watu wenye maslahi ya kawaida au sifa, lakini wanaweza kuingiliana na mifano nyingine huru.
+Mojawapo ya mbadala maarufu zaidi za Twitter, ingawa si pekee. Mastodon inajitokeza kwa kuwa iliyogatuliwa [decentralized], ikimaanisha kwamba mtu binafsi au shirika lolote linalotaka linaweza kuanzisha nakala yake au “seva” kwa ajili ya watu wenye maslahi au sifa zinazofanana, lakini wanaweza kushirikiana na nakala nyingine huru.
 
-Katika Mastodon, kila msimamizi huweka sheria zao wenyewe, na kwa kuwa hawajihusishi na biashara ya data, hawakusanyi habari nyingi juu ya watumiaji wao, idadi ya watu, au upendeleo, wala hawaishiriki na watu wengine.
+Katika Mastodon, kila msimamizi huweka sheria zake mwenyewe, na kwa kuwa hawajihusishi na biashara ya data, hawakusanyi taarifa nyingi sana kuhusu watumiaji wao, idadi ya watu, au mapendeleo, wala hawazishiriki na wahusika wengine.
 
-Kwa bahati mbaya, wao si kutekeleza mwisho-kwa-mwisho encryption katika ujumbe wao, ambayo ni kitu cha kuweka akilini.
+Kwa bahati mbaya, hawatekelezi usimbaji fiche wa upande hadi upande katika ujumbe wao, jambo ambalo ni muhimu kuzingatia.
 
-### Ishara
+### Signal
 
-Kina kirefu katika wiki yetu ya wateja wa ujumbe, Signal ni mbadala zaidi ya faragha na salama kwa Telegram na WhatsApp, kushiriki vipengele vya kuvutia sana na vya kupendeza
-
-
+Ikielezwa kwa undani katika wiki yetu ya wateja wa ujumbe, Signal ni mbadala wenye faragha na usalama zaidi wa Telegram na WhatsApp, ikishiriki vipengele vya kuvutia na vya kupendeza

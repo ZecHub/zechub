@@ -1,29 +1,29 @@
-# Mdudu wa Zebra Aliyefanywa Mgumu
+# Full node ya Zebra iliyolindwa
 
-- Matumizi ya kujitolea user unprivileged + kernel-level systemd sandboxing (moja kutengwa kama Docker). 
-- RPC ni localhost-tu na salama kuki auth (default & ilipendekeza). 
+- Hutumia mtumiaji maalumu asiye na mapendeleo + uwekeaji katika sandbox wa systemd katika kiwango cha kernel (utengaji sawa na Docker).  
+- RPC inapatikana localhost pekee kwa uthibitishaji salama wa cookie (chaguo-msingi na unaopendekezwa).  
 
 
 ---
 
 ## Mahitaji ya awali
 
-- yoyote Ubuntu-msingi distro
-- Rust toolchain imewekwa (`rustup` + `cargo`)
-- Angalau 300 GB nafasi ya bure disk (`/var` kizigeu)
+- Usambazaji wowote unaotegemea Ubuntu
+- Toolchain ya Rust imesakinishwa (`rustup` + `cargo`)
+- Angalau GB 300 za nafasi huru ya diski (sehemu ya `/var`)
 
 
 ---
 
-## Usanidi wa Mara Moja (Kimbia kama mtumiaji wako wa kawaida)
+## Usanidi wa mara moja (Tekeleza kama mtumiaji wako wa kawaida)
 
-### 1. update mfumo & kufunga kujenga dependencies
+### 1. Sasisha mfumo na usakinishe vitegemezi vya ujenzi
 
 ```
 sudo apt update && sudo apt install -y build-essential pkg-config libclang-dev clang libssl-dev protobuf-compiler
 ```
 
-## Sasisha Rust na kufunga zebrad karibuni (v4.3.0+)
+## Sasisha Rust na usakinishe zebrad ya karibuni zaidi (v4.3.0+)
 
 ```
 rustup update
@@ -34,14 +34,14 @@ sudo chmod 755 /usr/local/bin/zebrad
 zebrad --version
 ```
 
-## Unda mtumiaji wa zebra aliyejitolea asiye na upendeleo
+## Unda mtumiaji maalumu wa zebra asiye na mapendeleo
 
 ```
 sudo adduser --system --group --no-create-home --shell /usr/sbin/nologin zebra
 ```
 
 
-## Kujenga salama data directory
+## Unda saraka salama ya data
 
 ```
 sudo mkdir -p /var/lib/zebrad
@@ -49,7 +49,7 @@ sudo chown zebra:zebra /var/lib/zebrad
 sudo chmod 700 /var/lib/zebrad
 ```
 
-## Kujenga salama Configuration (/etc/zebrad/zebrat.toml)
+## Unda usanidi salama (/etc/zebrad/zebrad.toml)
 
 ```
 sudo mkdir -p /etc/zebrad
@@ -73,7 +73,7 @@ sudo chown zebra:zebra /etc/zebrad/zebrad.toml
 sudo chmod 600 /etc/zebrad/zebrad.toml
 ```
 
-## Kujenga huduma systemd ngumu
+## Unda huduma ya systemd iliyolindwa
 
 ```
 sudo tee /etc/systemd/system/zebrad.service > /dev/null <<EOF
@@ -110,17 +110,17 @@ EOF
 sudo systemctl daemon-reload
 ```
 
-## Daily Matumizi - Single-Amri Workflow
+## Matumizi ya kila siku - Mtiririko wa kazi wa amri moja
 
-| Kitendo                  | Amri                                      | Vidokezo |
+| Kitendo                  | Amri                                      | Maelezo |
 |-------------------------|----------------------------------------------|-------|
 | **Anza**               | `sudo systemctl start zebrad`                | Amri moja |
-| **Simama**                | `sudo systemctl stop zebrad`                 | Amri moja |
-| **Hali**              | `sudo systemctl status zebrad`               | Inaonyesha ikiwa inaendeshwa |
+| **Simamisha**                | `sudo systemctl stop zebrad`                 | Amri moja |
+| **Hali**              | `sudo systemctl status zebrad`               | Huonyesha ikiwa inaendesha |
 | **Kumbukumbu za moja kwa moja**           | `journalctl -u zebrad -f -o short-precise`  | Hubadilisha `screen -r` |
-| **Pata kuki ya RPC**      | `sudo cat /var/lib/zebrad/.cookie`           | Wakati wa kukimbia pekee |
+| **Pata cookie ya RPC**      | `sudo cat /var/lib/zebrad/.cookie`           | Wakati tu inaendesha |
 
-** Aliases urahisi ** (kuongeza kwa `~/.bashrc` or `~/.zshrc`):
+**Majina ya mkato ya urahisi** (ongeza kwenye `~/.bashrc` au `~/.zshrc`):
 ```
 alias zebra-start='sudo systemctl start zebrad'
 alias zebra-stop='sudo systemctl stop zebrad'

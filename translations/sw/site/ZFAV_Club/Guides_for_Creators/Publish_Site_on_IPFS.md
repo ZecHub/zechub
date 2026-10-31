@@ -1,8 +1,8 @@
 <a href="https://github.com/Zechub/zechub/edit/main/site/ZFAV_Club/Guides_for_Creators/Publish_Site_on_IPFS.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Hariri Ukurasa"/>
 </a>
 
-# Kuchapisha Site juu ya IPFS
+# Chapisha Tovuti kwenye IPFS
 
 <a href="">
     <img src="/content-images/IPFS-40c2e22732.webp" alt="" width="800" height="400"/>
@@ -12,43 +12,43 @@
 
 ## Utangulizi wa IPFS
 
-IPFS (InterPlanetary File System) ni peer-to-peer itifaki na mtandao iliyoundwa na kujenga njia madaraka ya kuhifadhi na kushiriki files.
+IPFS (InterPlanetary File System) ni itifaki na mtandao wa rika-kwa-rika uliobuniwa kuunda mbinu iliyogatuliwa [decentralised] ya kuhifadhi na kushiriki faili.
 
-Tofauti na mtindo wa jadi wa mteja-mtumishi wa mtandao, IPFS inaruhusu watumiaji kushiriki faili moja kwa moja na kila mmoja, badala ya kutegemea seva kuu kuhifadhi na kusambaza maudhui.
+Tofauti na muundo wa jadi wa mteja-seva wa intaneti, IPFS huwaruhusu watumiaji kushiriki faili moja kwa moja wao kwa wao, badala ya kutegemea seva iliyowekwa katikati kuhifadhi na kusambaza maudhui.
 
-Faili katika IPFS ni kushughulikiwa kwa kutumia * maudhui ya kushughulikia *, maana kila faili ni kupewa kipekee hash au CONTENT IDENTIFIER (CID) kulingana na maudhui yake, na hash hii hutumiwa kupata faili kutoka mtandao.
+Faili katika IPFS hupewa anwani [address] kwa kutumia *uanwani wa maudhui [content-addressing]*, kumaanisha kuwa kila faili hupewa hashi ya kipekee au KITAMBULISHO CHA MAUDHUI (CID) kulingana na maudhui yake, na hashi hii hutumika kurejesha faili kutoka kwenye mtandao.
 
-Wakati mtumiaji anaongeza faili kwa IPFS, faili ni kuvunjwa katika vipande vidogo kuitwa vitalu, na kila block ni kupewa CID. vitalu haya ni kisha kuhifadhiwa kwenye nodes tofauti katika mtandao, ili faili inaweza kwa urahisi retrieved kutoka vyanzo mbalimbali.
+Mtumiaji anapoongeza faili kwenye IPFS, faili hugawanywa katika vipande vidogo vinavyoitwa block, na kila block hupewa CID. Block hizi kisha huhifadhiwa kwenye node tofauti katika mtandao, ili faili iweze kurejeshwa kwa urahisi kutoka vyanzo vingi.
 
-Hii kuhakikisha redundancy na kosa-uvumilivu wakati pia kufanya ni vigumu kwa yoyote node moja kuwa hatua moja ya kushindwa au udhibiti.
+Hii huhakikisha urudufu na ustahimilivu wa hitilafu huku pia ikifanya iwe vigumu kwa node yoyote moja kuwa sehemu moja ya kushindwa au udhibiti.
 
-**Soma: [Introduction to IPFS](https://blog.infura.io/post/an-introduction-to-ipfs)**
+**Soma: [Utangulizi wa IPFS](https://blog.infura.io/post/an-introduction-to-ipfs)**
 
-## Kujenga tovuti yako
+## Kuunda Tovuti Yako
 
-Kwa mfano huu sisi ni kujenga tovuti rahisi.
+Kwa mfano huu, tunaunda tovuti [site] rahisi.
 
-[Mfano wa Tovuti](https://squirrel.surf/)
+[Tovuti ya Mfano](https://squirrel.surf/)
 
-** Hatua ya 1:** Kama wewe ni ukoo na kubuni mtandao kuandika maudhui kuu kwa tovuti yako ikiwa ni pamoja na Title, Main mwili wa maandishi, na viungo kwa kurasa nyingine / tovuti & footer.
+**Hatua ya 1:** Ikiwa hujafahamu usanifu wa wavuti, andika maudhui makuu ya tovuti yako, yakiwemo Kichwa, Sehemu Kuu ya maandishi, viungo vya kurasa/tovuti nyingine na vijachini.
 
-** Hatua ya 2:** Tumia [HTML template!](https://nicepage.com/html-templates) Kuweka maandishi umeandika ipasavyo. Hiari pia kuunda .CSS stylesheet kwa tovuti yako.
+**Hatua ya 2:** Tumia [kiolezo cha HTML!](https://nicepage.com/html-templates). Bandika maandishi uliyoandika ipasavyo. Pia unaweza kuunda laha ya mitindo ya .CSS kwa tovuti yako.
 
-** Hatua ya 3:** Hifadhi directory yako. All .html kurasa + picha lazima katika folda moja.
+**Hatua ya 3:** Hifadhi saraka yako. Kurasa zote za .html pamoja na picha lazima ziwe katika Folda moja.
 
-## Kuanzisha Node
+## Kusanidi Node
 
-Pakua na kufunga IPFS kutoka [Tovuti rasmi](https://docs.ipfs.tech/install/ipfs-desktop/).
+Pakua na usakinishe IPFS kutoka kwenye [tovuti Rasmi](https://docs.ipfs.tech/install/ipfs-desktop/).
 
-### Kuanzisha IPFS:
+### Anzisha IPFS:
 
-Kama wewe ni kutumia Desktop Programu huwezi kuwa na kuanzisha.
+Ikiwa unatumia Programu ya Eneo-kazi, hutahitaji kuanzisha.
 
-Kutumia Terminal au amri ya haraka, Run amri: ipfs init
+Kwa kutumia Terminal au kidokezo cha amri, endesha amri: ipfs init
 
-### ** Ongeza Folda Site kwa IPFS **:
+### **Ongeza Folda ya Tovuti kwenye IPFS**:
 
-Chagua folda na faili yako tovuti na navigate kwa chaguo Ongeza Folda.
+Chagua folda yenye faili za tovuti yako na uende kwenye chaguo la Ongeza Folda.
 
 
 <a href="">
@@ -57,58 +57,57 @@ Chagua folda na faili yako tovuti na navigate kwa chaguo Ongeza Folda.
 
 –
 
-Kama kutumia Terminal, Run amri: ipfs kuongeza -r folder_name kuongeza folder nzima recursively kwa IPFS.
+Ikiwa unatumia Terminal, endesha amri: ipfs add -r folder_name ili kuongeza folda nzima kwenye IPFS kwa kujirudia.
 
-### Pin Site juu ya IPFS:
+### Funga Tovuti kwenye IPFS:
 
-Mara baada ya tovuti yako files ni aliongeza kwa IPFS, unahitaji ** pini ** yao ili kuhakikisha wao kubaki inapatikana kwenye mtandao.
-
-–
-
-Kama kwa kutumia Terminal, Run amri: Kama kwa matumizi ya terminal, Run agizo: ipfs pini kuongeza ** hash **
-
-**hash** = CID ya folda umeongeza katika hatua ya awali.
-
-Vinginevyo, unaweza pia kuwa na uwezo wa pini directories kutumia huduma kama vile [Pinata](https://pinata.cloud/) au [Dolpin](https://dolpin.io/)
-
-Inaokoa wakati mwingi!
+Mara faili za tovuti yako zinapoongezwa kwenye IPFS, unahitaji **kuzifunga [pin]** ili kuhakikisha zinaendelea kupatikana kwenye mtandao.
 
 –
 
-### Kupata tovuti yako juu ya IPFS:
+Ikiwa unatumia Terminal, endesha amri: Ikiwa unatumia Terminal, endesha amri: ipfs pin add **hash**
 
-Tovuti yako sasa ni kuchapishwa juu ya IPFS na inaweza kupatikana kwa kutumia hash ya folda. Kwa kupata tovuti yako, unaweza kutembelea https://ipfs.io/ipfs/**hash**
+**hash** = CID ya folda uliyoiongeza katika hatua iliyotangulia.
+
+Vinginevyo, unaweza pia kufunga saraka ukitumia huduma kama vile [Pinata](https://pinata.cloud/) au [Dolpin](https://dolpin.io/)
+
+Hii huokoa muda mwingi!
+
+–
+
+### Fikia tovuti yako kwenye IPFS:
+
+Tovuti yako sasa imechapishwa kwenye IPFS na inaweza kufikiwa kwa kutumia hashi ya folda. Ili kufikia tovuti yako, unaweza kutembelea https://ipfs.io/ipfs/**hash**
 
 **hash** = CID ya folda.
 
-Katika kesi yetu CID = QmW2UEfap1vrRRvS5H9wed8qmsx4WsvXBk3GPGVVfWx3r3
+Katika hali yetu CID = QmW2UEfap1vrRRvS5H9wed8qmsx4WsvXBk3GPGVVfWx3r3
 
 ## IPNS
 
-Interplanetary Naming System (IPNS) inaruhusu update IPFS CIDs kuhusishwa na tovuti yako na bado kutumika kiungo tuli. Ni zinazotolewa kama ufunguo.
-
+Interplanetary Naming System (IPNS) hukuruhusu kusasisha CID za IPFS zinazohusishwa na tovuti yako na bado kutoa kiungo tuli. Hutolewa kama ufunguo.
 
 <a href="">
     <img src="/content-images/dns-query.a0134a75-9ef7817f80.webp" alt="" width="400" height="100"/>
 </a>
 
 
-Katika mipangilio ya menyu kwa ajili ya folda yako tovuti kwenye IPFS desktop maombi chagua kuchapisha kwa IPNS.
+Katika menyu ya mipangilio ya folda ya tovuti yako kwenye programu ya eneo-kazi ya IPFS, chagua Chapisha kwenye IPNS.
 
 <a href="">
     <img src="/content-images/IPNS-2fe62cc369.webp" alt="" width="400" height="200"/>
 </a>
 
 
-Key: k51qzi5uqu5di670a6uxywo17b2be1eyhoa2cl0qlwpfxn5p9ypcu8jbzgnj4n
+Ufunguo: “k51qzi5uqu5di670a6uxywo17b2be1eyhoa2cl0qlwpfxn5p9ypcu8jbzgnj4n”
 
-Inaweza pia kutumika kutazama tovuti yetu kupitia lango: https://ipfs.io/ipns/k51qzi5uqu5di670a6uxywo17b2be1eyhoa2cl0qlwpfxn5p9ypcu8jbzgnj4n
+Unaweza pia kutumika kutazama tovuti yetu kupitia lango: https://ipfs.io/ipns/k51qzi5uqu5di670a6uxywo17b2be1eyhoa2cl0qlwpfxn5p9ypcu8jbzgnj4n
 
 ## Kiungo cha DNS
 
-Tovuti imeundwa, sasa tunahitaji njia ya kuelekeza URL kwa maudhui.
+Tovuti imeundwa, sasa tunahitaji njia ya kuelekeza URL kwenye maudhui.
 
-Kama tayari umemiliki anwani ya mtandao wewe ni uwezo wa kuongeza rekodi mpya kwa kutumia TXT rekodi _dnslink ((domain yako). Kulingana na mtoa inaweza auto kujaza.
+Ikiwa tayari unamiliki anwani ya wavuti, unaweza kuongeza rekodi mpya kwa kutumia rekodi ya TXT _dnslink(kikoa chako). Kulingana na mtoa huduma, inaweza kujazwa kiotomatiki.
 
 
 <a href="">
@@ -116,16 +115,16 @@ Kama tayari umemiliki anwani ya mtandao wewe ni uwezo wa kuongeza rekodi mpya kw
 </a>
 
 
-Itachukua muda kuenea kupitia mtandao kabla ya kuiona.
+Itachukua muda kuenea katika mtandao kabla ya kuweza kuiona.
 
-*Pongezi! Sasa una tovuti inayopinga udhibiti.*
+*Hongera! Sasa una tovuti inayostahimili udhibiti.*
 
 ____
 
 **Rasilimali**
 
-[IPFS Nyaraka](https://docs.ipfs.tech/)
+[Nyaraka za IPFS](https://docs.ipfs.tech/)
 
-[IPNS Nyaraka](https://docs.ipfs.tech/concepts/ipns/)
+[Nyaraka za IPNS](https://docs.ipfs.tech/concepts/ipns/)
 
-[DNS kiungo Docs](https://dnslink.io/#introduction)
+[Nyaraka za kiungo cha DNS](https://dnslink.io/#introduction)

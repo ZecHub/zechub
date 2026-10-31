@@ -6,175 +6,175 @@ published: 2026-04-14
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Dash Ushirikiano wa Zcash Orchard
+# Ujumuishaji wa Dash na Zcash Orchard
 
 
 
 ## Utangulizi
 
-In February 2026, the Dash network announced the integration of Zcash's Orchard shielded pool into the Dash Evolution chain. This marked one of the most significant cross-chain privacy collaborations in the cryptocurrency space, as Dash adopted Zcash's cutting-edge zero-knowledge cryptography to complement its existing CoinJoin-based privacy model. The integration validates Zcash's position as a leader in privacy technology and opens a new chapter for cross-chain privacy collaboration.
+Mnamo Februari 2026, mtandao wa Dash ulitangaza ujumuishaji wa bwawa la faragha [shielded pool] la Zcash, Orchard, katika mnyororo wa Dash Evolution. Hii iliashiria mojawapo ya ushirikiano muhimu zaidi wa faragha wa cross-chain katika sekta ya sarafu-fiche, kwani Dash ilitumia teknolojia fiche ya maarifa sifuri [zero-knowledge] ya kisasa ya Zcash kukamilisha modeli yake iliyopo ya faragha inayotegemea CoinJoin. Ujumuishaji huu unathibitisha nafasi ya Zcash kama kiongozi katika teknolojia ya faragha na kufungua sura mpya ya ushirikiano wa faragha wa cross-chain.
 
-This article explains what the Orchard protocol is, how Dash is implementing it, why it matters for both ecosystems, and what it signals for the broader privacy coin landscape.
+Makala haya yanaeleza itifaki ya Orchard ni nini, jinsi Dash inavyoitekeleza, kwa nini ni muhimu kwa mifumo-ikolojia yote miwili, na inachoashiria kwa mazingira mapana ya sarafu za faragha.
 
 
-## Je, ni nini Zcash Orchard Itifaki?
+## Itifaki ya Zcash Orchard Ni Nini?
 
-Orchard is Zcash's most advanced shielded pool, activated with Network Upgrade 5 (NU5) in mid-2022. It represents the culmination of years of cryptographic research at Electric Coin Company (ECC) and the Zcash community.
+Orchard ndilo bwawa la faragha la juu zaidi la Zcash, lililoanzishwa kwa Uboreshaji wa Mtandao [Network Upgrade] 5 (NU5) katikati ya 2022. Linawakilisha kilele cha miaka ya utafiti wa teknolojia fiche katika Electric Coin Company (ECC) na jumuiya ya Zcash.
 
 ### Teknolojia ya Msingi: Halo 2
 
-Orchard ni kujengwa juu ya ** Halo 2 ** kuthibitisha mfumo, high-utendaji zk-SNARK utekelezaji imeandikwa katika kutu. Halo 2 ilianzisha mafanikio mawili makubwa:
+Orchard imejengwa juu ya mfumo wa uthibitishaji [proving system] wa **Halo 2**, utekelezaji wa utendaji wa juu wa zk-SNARK ulioandikwa kwa Rust. Halo 2 ilianzisha mafanikio makubwa mawili:
 
-- ** No Trusted Setup **: Mapema Zcash kulindwa mabwawa (Sprout na Sapling) tegemezi juu ya vyama mbalimbali hesabu sherehe za kuzalisha cryptographic vigezo. Kama siri randomness ("waste sumu") kutoka sherehe hizi si vizuri kuharibiwa, inaweza kinadharia kutumika kujenga bandia kulindwa ishara. Halo 2 huondoa mahitaji haya kabisa kupitia mbinu inayoitwa ** nested amortization **, ambayo collapses instances nyingi za matatizo ngumu pamoja juu ya mizunguko ya curves elliptic hivyo kwamba ushahidi wa kompyuta unaweza sababu kuhusu wenyewe.
+- **Hakuna Usanidi Unaoaminika [Trusted Setup]**: Mabwawa ya faragha ya awali ya Zcash (Sprout na Sapling) yalitegemea sherehe za ukokotoaji wa wahusika wengi ili kutengeneza vigezo vya teknolojia fiche. Ikiwa nasibu ya siri (“taka zenye sumu”) kutoka katika sherehe hizi haingeangamizwa ipasavyo, ingeweza kinadharia kutumiwa kuunda tokeni za faragha bandia. Halo 2 huondoa hitaji hili kabisa kupitia mbinu iitwayo **ulipaji wa ndani uliopachikwa**, ambayo huunganisha matukio mengi ya matatizo magumu pamoja katika mizunguko ya mikunjo ya duaradufu ili mathibitisho ya ukokotoaji yaweze kujieleza yenyewe.
 
-- ** Recursive uthibitisho utungaji **: uthibitishaji moja inaweza kuthibitisha usahihi wa karibu unlimited ushahidi mwingine, compressing kiasi kikubwa cha hesabu katika fomu compact, verifiable. Hii ni muhimu kwa scalability na upgrades baadaye.
+- **Muungano wa Mathibitisho Yanayojirudia**: Thibitisho moja linaweza kuthibitisha usahihi wa idadi isiyo na kikomo kivitendo ya mathibitisho mengine, likibana kiasi kikubwa cha ukokotoaji katika muundo mdogo unaoweza kuthibitishwa. Hii ni muhimu kwa kupanua uwezo [scaling] na maboresho ya baadaye.
 
 ### Jinsi Faragha ya Orchard Inavyofanya Kazi
 
-Katika shughuli ya jadi blockchain, mtumaji, mpokeaji, na kiasi ni wote inayoonekana kwenye mnyororo. Katika Orchard ulinzi shughuli, zero-ujuzi ushahidi mathematically kuhakikisha kwamba:
+Katika muamala wa jadi wa blockchain, mtumaji, mpokeaji, na kiasi vyote vinaonekana on-chain. Katika muamala wa faragha wa Orchard, mathibitisho ya maarifa sifuri yanahakikisha kihisabati kwamba:
 
-- shughuli ni halali (inputs sawa matokeo, hakuna ishara ni kuundwa kutoka chochote)
+- Muamala ni halali (ingizo ni sawa na pato, hakuna tokeni zinazoundwa kutoka pasipo kitu)
 - Mtumaji ana fedha za kutosha
 - Hakuna matumizi maradufu yaliyotokea
 
-Kama Dash CTO Samuel Westrich alisema, badala ya kuficha shughuli trails kupitia kuchanganya, sifuri-ujuzi uthibitisho kuhakikisha "hakuna kufuatilia kwa kuanza na".
+Haya yote yanathibitishwa **bila kufichua** ni nani aliyetuma fedha, ni nani aliyezitumia, au kiasi kilichohamishwa. Kama CTO wa Dash, Samuel Westrich, alivyoeleza, badala ya kuficha nyayo za miamala kwa kuchanganya, mathibitisho ya maarifa sifuri yanahakikisha kwamba “hakuna nyayo tangu mwanzo.”
 
-### Vitendo Huchukua Nafasi ya Matumizi na Matokeo
+### Vitendo Vinachukua Nafasi ya Maingizo na Matokeo
 
-Orchard ilianzisha dhana ya ** vitendo ** kuchukua nafasi ya jadi pembejeo / pato mfano. Kila kitendo bundles matumizi na pato pamoja, ambayo inapunguza kiasi cha shughuli metadata kuvuja. Hii inafanya kuwa vigumu kwa waangalizi kufanya uchambuzi wa trafiki au mashambulizi heuristic juu ya shughuli ulinzi.
-
-
-## Mfuatano wa Mageuzi ya Dash Ni Nini?
-
-Kuelewa ushirikiano, ni muhimu kuelewa usanifu wa Dash.
-
-### Dual-Mnyororo Usanifu
-
-Dash inafanya kazi mfumo wa mlolongo-mbili:
-
-- **Dash Core (Layer 1) **: Original uthibitisho-wa-kazi blockchain, ulinzi na wachimbaji na masternodes. Hii ni ambapo asili DASH ishara anaishi na ambapo CoinJoin faragha kuchanganya kazi.
-
-- ** Dash Evolution (Jukwaa Layer) **: mlolongo sekondari kujengwa kando ya msingi ambayo inasaidia smart mkataba utendaji, programu madaraka, na usimamizi wa utambulisho. Evolution inatumia iliyopita Tendermint makubaliano utaratibu aitwaye ** Tenderdash ** na ni kuthibitishwa na Evolution Masternodes kwamba salama minyororo wote wakati huo huo.
-
-Evolution mlolongo ni ambapo Orchard ushirikiano hufanyika. uchaguzi huu wa kubuni inaruhusu Dash kuanzisha juu cryptographic faragha bila kurekebisha kuthibitika Core mlolango.
+Orchard ilianzisha dhana ya **Vitendo** kuchukua nafasi ya modeli ya jadi ya ingizo/pato. Kila Kitendo huunganisha matumizi na pato pamoja, jambo linalopunguza kiasi cha metadata ya muamala inayovuja. Hii hufanya iwe vigumu zaidi kwa waangalizi kufanya uchanganuzi wa trafiki au mashambulizi ya kimakisio dhidi ya miamala ya faragha.
 
 
-## Jinsi Ushirikiano Unavyofanya Kazi
+## Mnyororo wa Dash Evolution Ni Nini?
 
-### Usanifu wa Ufundi
+Ili kuelewa ujumuishaji huu, ni muhimu kuelewa usanifu wa Dash.
 
-Dash forked Zcash ya wazi chanzo Orchard Rust crate na ilichukuliwa kwa Evolution mlolongo. ushirikiano ifuatavyo ** ulinzi mikopo pool ** muundo:
+### Usanifu wa Minyororo Miwili
 
-1. ** Lock **: Watumiaji kufunga mali zao DASH juu ya Dash Core
-2. ** Mint **: pegged "Credits" tokens ni minted juu ya Evolution mlolongo
-3. **Transfer**: Mikopo inaweza kuhamishwa bila kujulikana kwa kutumia uthibitisho wa ujuzi wa sifuri wa Orchard, na mtumaji, mpokeaji, na kiasi kilichohifadhiwa kikamilifu
-4. ** Kuungua **: Tokens ni kuchomwa moto juu ya Evolution kurejesha mali DASH msingi juu ya Core
+Dash hutumia mfumo wa minyororo miwili:
 
-Mfano huu ni sawa na mlinganisho wa njia mbili kati ya minyororo ya Msingi na Mageuzi, lakini na faragha kamili ya ujuzi wa sifuri kwa shughuli upande wa Mageuko.
+- **Kiini cha Dash (Tabaka la 1)**: Blockchain asilia ya uthibitisho wa kazi, inayolindwa na wachimbaji [miners] na masternode. Hapa ndipo tokeni asilia ya DASH ipo na ambapo uchanganyaji wa faragha wa CoinJoin hufanya kazi.
 
-### Utekelezaji wa hatua kwa hatua
+- **Dash Evolution (Tabaka la Jukwaa)**: Mnyororo wa pili uliojengwa sambamba na Core unaosaidia utendaji wa mikataba mahiri [smart contract], programu zilizogatuliwa, na usimamizi wa utambulisho. Evolution hutumia utaratibu wa makubaliano [consensus] wa Tendermint uliorekebishwa unaoitwa **Tenderdash** na huthibitishwa na Evolution Masternodes zinazolinda minyororo yote miwili kwa wakati mmoja.
 
-Ushirikiano ni iliyopangwa katika hatua mbili:
-
-** Awamu ya 1 (Machi 2026, inasubiri ukaguzi wa usalama wa mtandao):**
-- Kupeleka Orchard kulindwa mabwawa juu ya Evolution mlolongo
-- Kusaidia uhamisho msingi ulinzi wa mikopo Dash kati ya vyama
-- Kukamilika kwa ukaguzi wa usalama huru kabla ya uanzishaji wa mtandao kuu
-
-** Awamu ya 2 (Upgrades baadaye):**
-- Kupanua vipengele vya faragha ya Orchard kwa ** mali halisi ya ulimwengu halisi (RWA) ** iliyotolewa kwenye Evolution
-- Ruhusu shughuli za kuhifadhi faragha kwa mwingiliano wa DeFi na mkataba mzuri kwenye jukwaa
-- Kuleta zero-ujuzi kulinda kwa aina yoyote ya ishara, si tu fedha za asili
-
-### Ushirikiano Simu ya Mkono
-
-One historically challenging usability barrier for zero-knowledge privacy systems has been slow synchronization on mobile devices. The Dash team has indicated that Evolution's architecture may enable **faster mobile synchronization of shielded data**, which would be a meaningful improvement for everyday users. This work is currently being validated.
+Mnyororo wa Evolution ndio mahali ujumuishaji wa Orchard unafanyika. Chaguo hili la usanifu huruhusu Dash kuanzisha faragha ya hali ya juu ya teknolojia fiche bila kubadilisha mnyororo wa Core uliothibitishwa.
 
 
-## Kwa nini Hii Matters: CoinJoin dhidi ya Orchard
+## Jinsi Ujumuishaji Unavyofanya Kazi
 
-### Dash ya sasa ya faragha: CoinJoin
+### Usanifu wa Kiufundi
 
-Dash kwa kawaida imetoa faragha kupitia **CoinJoin**, utaratibu wa kuchanganya usio wa uhifadhi. CoinJoin inafanya kazi kwa kuchanganisha pembejeo za shughuli za watumiaji wengi na matokeo katika shughuli moja, na kuifanya iwe ngumu (lakini haiwezekani) kwa waangalizi kufuatilia ni ipi inayofanana na matokeo gani.
+Dash ilitengeneza fork ya crate ya chanzo huria ya Zcash, Orchard Rust, na kuibadilisha kwa ajili ya mnyororo wa Evolution. Ujumuishaji unafuata muundo wa **bwawa la mikopo lililolindwa**:
 
-CoinJoin ina mapungufu:
+1. **Funga**: Watumiaji hufunga mali zao za DASH kwenye Dash Core
+2. **Tengeneza**: Tokeni za “Credits” zilizofungamanishwa hutengenezwa kwenye mnyororo wa Evolution
+3. **Hamisha**: Credits zinaweza kuhamishwa bila kutambulika kwa kutumia mathibitisho ya maarifa sifuri ya Orchard, huku mtumaji, mpokeaji, na kiasi vikibaki vya faragha kabisa
+4. **Choma**: Tokeni huchomwa kwenye Evolution ili kurejesha mali za msingi za DASH kwenye Core
 
-- ** Opt-in **: Watumiaji lazima manually kuwezesha kuchanganya katika Dash Core mkoba
-- ** Obfuscation, si encryption **: shughuli trails bado zipo kwenye mlolongo; wao ni tu vigumu kufuata
-- ** Inakabiliwa na uchambuzi **: Kwa rasilimali za kutosha na data, makampuni ya uchanganuzi wa mlolongo wameonyesha uwezo wa kuondoa majina ya baadhi ya shughuli za CoinJoin
-- ** Limited anonymity kuweka **: faragha zinazotolewa inategemea jinsi watumiaji wengine wengi ni wakati huo huo kuchanganya
+Muundo huu unafanana na kifungo cha pande mbili kati ya minyororo ya Core na Evolution, lakini ukiwa na faragha kamili ya maarifa sifuri kwa miamala upande wa Evolution.
 
-### Orchard's Qualitative Advancement
+### Utekelezaji wa Hatua kwa Hatua
 
-Orchard inawakilisha njia tofauti kabisa ya faragha:
+Ujumuishaji umepangwa katika hatua mbili:
 
-- ** Dhamana za usimbuaji siri**: Faragha inatekelezwa na hesabu, sio na tabia ya umati
-- ** Hakuna trail **: Hakuna shughuli trails kuchambua kwa sababu mtumaji, mpokeaji, na kiasi ni kamwe imeandikwa kwa mlolongo katika plaintext
-- ** kubwa kulindwa seti **: shughuli zote Orchard kushiriki pool kawaida kulindwa, kuongeza kutojulikana kuweka
-- ** Hakuna Configuration Trusted **: Halo 2 kuthibitisha mfumo huondoa dhana yoyote mabaki ya uaminifu
+**Hatua ya 1 (Machi 2026, ikisubiri ukaguzi wa usalama wa mtandao):**
+- Tumia mabwawa ya faragha ya Orchard kwenye mnyororo wa Evolution
+- Saidia uhamisho msingi wa faragha wa Credits za Dash kati ya wahusika
+- Kamilisha ukaguzi huru wa usalama kabla ya uanzishaji wa mainnet
 
-The integration does not replace CoinJoin on Dash Core. Instead, Orchard provides a **complementary cryptographic layer** on the Evolution chain, giving Dash users a choice between the lightweight mixing of CoinJoin and the mathematical privacy of zero-knowledge proofs.
+**Hatua ya 2 (Maboresho yanayofuata):**
+- Panua vipengele vya faragha vya Orchard hadi **mali za ulimwengu halisi zilizopewa tokeni (RWAs)** zinazotolewa kwenye Evolution
+- Wezesha shughuli zinazohifadhi faragha kwa DeFi na mwingiliano wa mikataba mahiri kwenye jukwaa
+- Leta ulinzi wa maarifa sifuri kwa aina yoyote ya tokeni, si sarafu asilia pekee
 
+### Usawazishaji wa Simu
 
-## Maana ya Zcash
-
-Dash ushirikiano hubeba athari kubwa kwa Zcash mazingira.
-
-### Uthibitishaji wa Teknolojia ya Zcash
-
-Wakati mwingine mkubwa cryptocurrency mradi adopts Zcash ya cryptographic stack, ni mtumishi kama nje uthibitisho wa teknolojia ya ukomavu, usalama, na ubora wa kubuni. Samuel Westrich, CTO wa Dash Core Group, alisema:
-
-> "Mimi binafsi nimekuwa nia ya ZK ushahidi teknolojia na matumizi yake katika blockchain tangu karatasi ya kwanza katika 2014. Kwa miaka, tumekuwa kuweka tabo juu ya Zcash. Pamoja na kutolewa karibuni wa Orchard crate, tulihisi ni wakati mzuri wa kuchunguza kuongeza teknolojia kwa mlolongo wetu mpya Evolution. "
-
-Aliongeza kuwa "Orchard ni chanzo wazi na kukomaa; kuunganisha imekuwa rahisi kuliko ilivyotarajiwa".
-
-### Upanuzi wa Mfumo wa Ikolojia
-
-The Orchard crate is released under the MIT and Apache 2.0 open-source licenses. Every integration by another project expands the user base for Zcash's cryptographic primitives, increases the number of developers familiar with the codebase, and potentially leads to upstream improvements that benefit Zcash itself.
-
-### Msalaba-Mnyororo Kutambua
-
-Dash joining the roster of projects using Halo 2 and Orchard places Zcash alongside projects like Filecoin, Ethereum, and multiple zkRollup solutions that have adopted or explored Halo 2 technology. This growing ecosystem strengthens the network effects around Zcash's privacy research.
-
-### Zcash kama kiwango cha faragha
-
-The integration positions Zcash's technology as an emerging **industry standard for blockchain privacy**, much as TLS became the standard for web encryption. When competing projects choose to adopt Zcash's tools rather than building their own, it speaks to the quality and reliability of the underlying science.
+Kikwazo kimoja cha matumizi ambacho kihistoria kimekuwa changamoto kwa mifumo ya faragha ya maarifa sifuri ni usawazishaji wa polepole kwenye vifaa vya simu. Timu ya Dash imeashiria kwamba usanifu wa Evolution unaweza kuwezesha **usawazishaji wa haraka zaidi wa data ya faragha kwenye simu**, jambo ambalo lingekuwa uboreshaji muhimu kwa watumiaji wa kila siku. Kazi hii kwa sasa inathibitishwa.
 
 
-## Athari pana juu ya faragha Cryptocurrency
+## Kwa Nini Hii Ni Muhimu: CoinJoin dhidi ya Orchard
 
-### Hadithi ya Faragha
+### Faragha Iliyopo ya Dash: CoinJoin
 
-The integration comes during a period of heightened interest in privacy technology across the cryptocurrency industry. Privacy coins saw surges of over 80% in early 2026, driven by increasing awareness of financial surveillance and the value of transactional privacy.
+Dash kijadi imetoa faragha kupitia **CoinJoin**, utaratibu wa uchanganyaji usiohifadhiwa na mtu mwingine [non-custodial]. CoinJoin hufanya kazi kwa kuunganisha maingizo na matokeo ya miamala ya watumiaji wengi katika muamala mmoja, na kufanya iwe vigumu (lakini si haiwezekani) kwa waangalizi kufuatilia ni maingizo gani yanalingana na matokeo yapi.
 
-### Mazingira ya Udhibiti
+CoinJoin ina vikwazo:
 
-The integration also arrives against a backdrop of regulatory pressure on privacy tokens. In January 2026, Dubai's Financial Services Authority (DFSA) banned regulated crypto exchanges from selling privacy tokens including ZEC and XMR to new users. While the ban does not prevent citizens from holding these tokens, it highlights the tension between user privacy and regulatory compliance.
+- **Huchaguliwa na mtumiaji**: Watumiaji lazima waamshe uchanganyaji wao wenyewe katika pochi ya Core ya Dash
+- **Kuficha, si usimbaji fiche**: Nyayo za miamala bado zipo on-chain; ni vigumu tu zaidi kuzifuata
+- **Inaweza kuchanganuliwa**: Kwa rasilimali na data za kutosha, kampuni za uchanganuzi wa mnyororo zimeonyesha uwezo wa kuondoa kutotambulika kwa baadhi ya miamala ya CoinJoin
+- **Seti ndogo ya kutotambulika**: Faragha inayotolewa hutegemea idadi ya watumiaji wengine wanaochanganya kwa wakati mmoja
 
-Ushirikiano wa faragha wa msalaba kama Dash-Orchard unaweza kuathiri jinsi wasimamizi wanavyoona teknolojia ya faragha. Ukweli kwamba huduma za faragha zinaweza kupitishwa kama vifaa vya moduli na blockchain yoyote inaonyesha kuwa kupiga marufuku ishara maalum kunaweza kuwa na ufanisi mdogo kuliko kushirikiana na teknolojia ya msingi.
+### Maendeleo ya Kimsingi ya Orchard
 
-### Ushirikiano wa Wakati Ujao
+Orchard inawakilisha mbinu tofauti kimsingi ya faragha:
 
-The Dash integration sets a precedent for other blockchain projects. If Orchard can be successfully deployed on a chain with different consensus mechanisms and architecture, it demonstrates that Zcash's privacy technology is truly portable. This could encourage further adoptions across the ecosystem, including:
+- **Dhamana za teknolojia fiche**: Faragha inalindwa na hisabati, si tabia ya umati
+- **Hakuna nyayo**: Hakuna nyayo za miamala za kuchanganua kwa sababu mtumaji, mpokeaji, na kiasi haviandikwi kamwe kwenye mnyororo kwa maandishi wazi
+- **Seti kubwa zaidi ya faragha**: Miamala yote ya Orchard hushiriki bwawa moja la faragha, na kuongeza seti ya kutotambulika
+- **Hakuna usanidi unaoaminika**: Mfumo wa uthibitishaji wa Halo 2 huondoa dhana zozote zilizobaki za uaminifu
 
-- Layer-2 mitandao kutafuta vipengele faragha
-- Itifaki za DeFi zinazotaka kulinda data ya shughuli ya mtumiaji
-- Jukwaa la mali halisi linalohitaji uhamisho wa siri
-- Biashara blockchains wanaohitaji kanuni-kufuata faragha
-
-
-## Matokeo
-
-The integration of Zcash's Orchard protocol into Dash's Evolution chain represents a milestone in cross-chain privacy collaboration. For Dash, it means a qualitative leap from CoinJoin's obfuscation model to Orchard's cryptographic privacy guarantees. For Zcash, it affirms that the years of research into Halo 2 and the Orchard shielded pool have produced technology robust and mature enough for other major projects to adopt.
-
-Most importantly, this integration signals that privacy in cryptocurrency is not a zero-sum competition between projects. Open-source privacy technology benefits from wider adoption, broader review, and shared development. As Zcash's Orchard spreads across the blockchain ecosystem, the entire space moves closer to a future where financial privacy is a default, not an exception.
+Ujumuishaji hauchukui nafasi ya CoinJoin kwenye Dash Core. Badala yake, Orchard hutoa **tabaka la teknolojia fiche linalokamilisha** kwenye mnyororo wa Evolution, likiwapa watumiaji wa Dash chaguo kati ya uchanganyaji mwepesi wa CoinJoin na faragha ya kihisabati ya mathibitisho ya maarifa sifuri.
 
 
-## Kusoma Zaidi
+## Hii Inamaanisha Nini kwa Zcash
 
-- [Halo 2 Nyaraka](https://zcash.github.io/halo2/)
-- [Zcash Orchard Crate (GitHub)](https://github.com/zcash/orchard)
-- [Halo 2 GitHub Repository](https://github.com/zcash/halo2)
-- [Dash Evolution Jukwaa Documentation](https://docs.dash.org/en/stable/)
-- [Cointelegraph: Dash huunganisha Zcash Faragha Pool](https://cointelegraph.com/news/dash-integrates-z-cash-orchard-privacy)
-- [HackerNoon: Dash huleta Zcash Orchard faragha kwa Evolution Chain](https://hackernoon.com/dash-brings-zcash-orchard-privacy-to-evolution-chain-for-shielded-transactions)
+Ujumuishaji wa Dash una athari muhimu kwa mfumo-ikolojia wa Zcash.
+
+### Uthibitisho wa Teknolojia ya Zcash
+
+Wakati mradi mwingine mkuu wa sarafu-fiche unapotumia mkusanyiko wa teknolojia fiche wa Zcash, hutumika kama uthibitisho wa nje wa ukomavu, usalama, na ubora wa usanifu wa teknolojia hiyo. Samuel Westrich, CTO wa Dash Core Group, alibainisha:
+
+> “Mimi binafsi nimekuwa nikipendezwa na teknolojia ya thibitisho la ZK na matumizi yake katika blockchain tangu makala za kwanza mwaka 2014. Kwa miaka mingi, tumekuwa tukifuatilia Zcash. Kwa toleo la hivi karibuni la crate ya Orchard, tuliona kuwa ulikuwa wakati mzuri wa kuchunguza kuongeza teknolojia hiyo kwenye mnyororo wetu mpya wa Evolution.”
+
+Aliongeza kwamba “Orchard ni chanzo huria na imekomaa; kuiunganisha imekuwa rahisi kuliko ilivyotarajiwa.”
+
+### Upanuzi wa Mfumo-Ikolojia
+
+Crate ya Orchard imetolewa chini ya leseni za chanzo huria za MIT na Apache 2.0. Kila ujumuishaji unaofanywa na mradi mwingine hupanua msingi wa watumiaji wa vizalia vya teknolojia fiche vya Zcash, huongeza idadi ya wasanidi programu wanaofahamu msingi wa msimbo, na huenda ukaongoza kwenye maboresho ya upstream yanayoifaidi Zcash yenyewe.
+
+### Utambuzi wa Cross-Chain
+
+Kujiunga kwa Dash kwenye orodha ya miradi inayotumia Halo 2 na Orchard kunaiweka Zcash pamoja na miradi kama Filecoin, Ethereum, na suluhisho nyingi za zkRollup ambazo zimetumia au kuchunguza teknolojia ya Halo 2. Mfumo-ikolojia huu unaokua huimarisha athari za mtandao zinazozunguka utafiti wa faragha wa Zcash.
+
+### Zcash kama Kiwango cha Faragha
+
+Ujumuishaji huu huiweka teknolojia ya Zcash kama **kiwango kinachojitokeza cha sekta kwa faragha ya blockchain**, kama vile TLS ilivyokuwa kiwango cha usimbaji fiche wa wavuti. Miradi shindani inapochagua kutumia vifaa vya Zcash badala ya kujenga vyao, inaonyesha ubora na uaminifu wa sayansi ya msingi.
+
+
+## Athari Pana kwa Sarafu-Fiche za Faragha
+
+### Simulizi la Faragha
+
+Ujumuishaji unakuja wakati wa hamu kubwa ya teknolojia ya faragha katika sekta nzima ya sarafu-fiche. Sarafu za faragha ziliona ongezeko la zaidi ya 80% mapema mwaka 2026, likichochewa na ongezeko la ufahamu kuhusu ufuatiliaji wa kifedha na thamani ya faragha ya miamala.
+
+### Muktadha wa Udhibiti
+
+Ujumuishaji pia unakuja katika mazingira ya shinikizo la udhibiti kwa tokeni za faragha. Mnamo Januari 2026, Financial Services Authority ya Dubai (DFSA) ilipiga marufuku masoko ya kubadilishana sarafu ya crypto yaliyodhibitiwa kuuza tokeni za faragha, zikiwemo ZEC na XMR, kwa watumiaji wapya. Ingawa marufuku hayo hayazuii raia kushikilia tokeni hizi, yanaangazia mvutano kati ya faragha ya mtumiaji na utiifu wa kanuni.
+
+Ujumuishaji wa faragha wa cross-chain kama Dash-Orchard unaweza kuathiri jinsi wasimamizi wanavyoitazama teknolojia ya faragha. Ukweli kwamba vipengele vya faragha vinaweza kutumiwa kama vipengele vya moduli na blockchain yoyote unaashiria kwamba kupiga marufuku tokeni mahususi kunaweza kuwa na ufanisi mdogo kuliko kujihusisha na teknolojia ya msingi.
+
+### Ushirikiano wa Baadaye
+
+Ujumuishaji wa Dash unaweka kielelezo kwa miradi mingine ya blockchain. Ikiwa Orchard inaweza kutekelezwa kwa mafanikio kwenye mnyororo wenye taratibu tofauti za makubaliano na usanifu tofauti, huonyesha kwamba teknolojia ya faragha ya Zcash inaweza kubebwa kweli. Hii inaweza kuhamasisha matumizi zaidi katika mfumo-ikolojia, yakiwemo:
+
+- Mitandao ya Tabaka la 2 inayotafuta vipengele vya faragha
+- Itifaki za DeFi zinazotaka kulinda data ya miamala ya watumiaji
+- Majukwaa ya mali za ulimwengu halisi yanayohitaji uhamisho wa siri
+- Blockchain za biashara zinazohitaji faragha inayotii kanuni
+
+
+## Hitimisho
+
+Ujumuishaji wa itifaki ya Zcash, Orchard, katika mnyororo wa Evolution wa Dash unawakilisha hatua muhimu katika ushirikiano wa faragha wa cross-chain. Kwa Dash, unamaanisha hatua ya kimsingi kutoka modeli ya kuficha ya CoinJoin hadi dhamana za faragha za teknolojia fiche za Orchard. Kwa Zcash, unathibitisha kwamba miaka ya utafiti kuhusu Halo 2 na bwawa la faragha la Orchard imetoa teknolojia imara na iliyokomaa vya kutosha kutumiwa na miradi mingine mikuu.
+
+Muhimu zaidi, ujumuishaji huu unaashiria kwamba faragha katika sarafu-fiche si ushindani wa sifuri-jumla kati ya miradi. Teknolojia ya faragha ya chanzo huria hunufaika kutokana na matumizi mapana, ukaguzi mpana, na maendeleo ya pamoja. Kadiri Zcash ya Orchard inavyoenea katika mfumo-ikolojia wa blockchain, anga zima husogea karibu na wakati ujao ambapo faragha ya kifedha ni chaguo la kawaida, si ubaguzi.
+
+
+## Usomaji Zaidi
+
+- [Nyaraka za Halo 2](https://zcash.github.io/halo2/)
+- [Crate ya Zcash Orchard (GitHub)](https://github.com/zcash/orchard)
+- [Hifadhi ya Halo 2 ya GitHub](https://github.com/zcash/halo2)
+- [Nyaraka za Jukwaa la Dash Evolution](https://docs.dash.org/en/stable/)
+- [Cointelegraph: Dash Yaunganisha Bwawa la Faragha la Zcash](https://cointelegraph.com/news/dash-integrates-z-cash-orchard-privacy)
+- [HackerNoon: Dash Yaleta Faragha ya Zcash Orchard kwenye Mnyororo wa Evolution](https://hackernoon.com/dash-brings-zcash-orchard-privacy-to-evolution-chain-for-shielded-transactions)
