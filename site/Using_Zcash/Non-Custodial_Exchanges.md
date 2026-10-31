@@ -4,29 +4,39 @@
 
 # <img src="/content-images/ZEC-USD-a2189a84b9.webp" alt="Alt Text" width="50"/>   Non-Custodial Exchanges
 
+## TL;DR
+
+* A non-custodial exchange lets you swap coins from your own wallet. You keep your private keys, and no exchange account holds your funds.
+* Keeping your keys protects you from exchange hacks and failures. Privacy is a separate question.
+* The deposit you send from another chain, such as Solana or Ethereum, is public on that chain. The swap service also sees your addresses and connection data.
+* Some swap routes deliver ZEC to a transparent address, which is public.
+* Your ZEC becomes private once it sits in a shielded address. Shield it in your own wallet before you spend it.
+
+## Core Explanation
+
 [Zcash Non-Custodial Exchanges](/dex)
 
 In the ever-evolving world of cryptocurrency trading, non-custodial exchanges, also known as Decentralized Exchanges or DEXs, let users trade without handing their funds to an exchange account. You keep your own keys, but that does not mean nobody else is involved. Depending on the route, a swap can pass through a website or wallet app, a routing service, smart contracts, solvers and bridges.
 
 The exchanges listed above let you get and trade Zcash from your own wallet. How private a swap is depends on the service, the network you pay from, and whether your ZEC ends up in a shielded address. The sections below explain the difference.
 
-### **Understanding Non Custodial Exchanges**
+### **Understanding Non-Custodial Exchanges**
 
-Non-custodial exchanges, also known as Decentralized Exchanges (DEXs) are platforms that facilitate cryptocurrency trading without requiring users to deposit their funds into the exchange itself. Instead, users keep control of their private keys and trade from their own wallets. Cross-chain swaps still rely on other parties to quote, route and settle the trade (see below).
+Non-custodial exchanges, also known as Decentralized Exchanges (DEXs), are platforms that facilitate cryptocurrency trading without requiring users to deposit their funds into the exchange itself. Instead, users keep control of their private keys and trade from their own wallets. Cross-chain swaps still rely on other parties to quote, route and settle the trade (see below).
 
 This can improve security, as users are not relying on the exchange to hold their assets, which reduces the risk of hacks or mismanagement. It does not make a swap private on its own. Transactions on non-custodial exchanges often use smart contracts, which are public, and the service you use can still see your addresses and connection details.
 
 A key advantage of non-custodial cryptocurrency exchanges lies in the increased control they provide to users over their assets. As these exchanges do not retain the assets, users enjoy complete ownership and authority over their digital currencies.
 
-### **Non Custodial Exchanges Vs Custodial Exchanges**
+### **Non-Custodial Exchanges Vs Custodial Exchanges**
 
 **#1 Security**: Non-custodial exchanges remove the need to keep funds in a central exchange account. Users keep control of their private keys, reducing the risk of hacks, insider attacks and platform failures that custodial exchanges may experience. Cross-chain swaps can still hold funds for a short time in a deposit address or bridge while the trade settles.
 
-**#2 Privacy**: Non-custodial swaps usually do not need an exchange account, so you often skip signing up with an email or ID. That is not the same as anonymity. The deposit you send on the source network (for example Solana or Ethereum) is public on that chain, and the service can still see your wallet addresses, IP address and swap details. Privacy on the Zcash side depends on where your ZEC lands (see below).
+**#2 Privacy**: Non-custodial swaps usually do not need an exchange account, so you often skip signing up with an email or ID. That is not the same as anonymity. The deposit you send on the source network (for example, Solana or Ethereum) is public on that chain, and the service can still see your wallet addresses, IP address and swap details. Privacy on the Zcash side depends on where your ZEC lands (see below).
 
 **#3 Decentralization**: Non-custodial exchanges align more closely with the decentralized ethos of cryptocurrencies. Users have greater autonomy and control over their trading activities, in line with the broader principles of blockchain technology.
 
-When it comes to Custodial Exchanges, the level of Decentralization is often quite minimal in most centralized exchanges which give rise to the exchange team or officials managing user data or information on the exchange.
+When it comes to Custodial Exchanges, the level of Decentralization is often quite minimal in most centralized exchanges, which give rise to the exchange team or officials managing user data or information on the exchange.
 
 **#4 Adaptability to Changing Regulations**: Non-custodial exchanges are often more adaptable to changing regulatory environments. Since they do not hold user funds, they might have fewer compliance challenges compared to custodial exchanges.
 
@@ -67,6 +77,16 @@ NEAR Intents also [screens integrated quote flows](https://docs.near-intents.org
 - Connection data. The 1Click terms say Intents Technology may collect request metadata, IP addresses and wallet addresses, and the privacy policy on near.com lists IP address, location, browser and device information.
 - Anything the app adds on top, such as other connected wallet addresses. Apps may also run your wallet through their own compliance checks.
 
+## Visual / Analogy
+
+A custodial exchange works like a bank. You open an account, leave your money in its vault, and ask the bank to trade for you.
+
+A non-custodial swap works like a currency exchange window on a busy street. You pass cash through the window, get a different currency back, and never leave money with the clerk. People on the street can see you walk up and hand over your cash, just as anyone can see your deposit on the source chain. The clerk sees your face and the amount.
+
+What happens after the window is up to you. Put the new coins in a sealed envelope, use a shielded address, and nobody can follow them from there.
+
+## Practical Implications
+
 ### **Where to Check Terms and Support**
 
 Terms change, so read the current versions before a large swap.
@@ -85,3 +105,23 @@ Non-custodial exchanges, or DEXs, let you trade from your own wallet while keepi
 While non-custodial exchanges offer compelling advantages, it is important to acknowledge that they might come with drawbacks, such as potential liquidity issues and a steeper learning curve for less experienced users.
 
 As with any financial decision, traders should carefully assess their priorities, risk tolerance, and familiarity with the technology before choosing between non-custodial and custodial exchange options.
+
+## Common Mistakes
+
+- **Treating "non-custodial" as "private".** Keeping your keys protects your funds from an exchange failure. The deposit on the source chain is public, and the service sees your addresses and IP address.
+- **Leaving swapped ZEC on a transparent address.** If the route pays out to a t1 or t3 address, move the ZEC to a shielded address in your own wallet before you spend it.
+- **Skipping the refund address check.** A failed swap may go back to the refund address you gave, and refunds are not guaranteed. Check that address before you send.
+- **Reading "no KYC" as "no checks".** Most services screen wallet addresses against compliance databases, so a flagged swap can be delayed or blocked.
+
+## Related Pages
+
+- [DEX](/using-zcash/dex): non-custodial exchanges that support ZEC.
+- [Centralized Swaps](/using-zcash/centralized-swaps): instant swap services that work without an exchange account.
+- [Custodial Exchanges](/using-zcash/custodial-exchanges): exchanges that hold your funds in an account.
+- [Shielded Pools](/using-zcash/shielded-pools): where your ZEC becomes private after a swap.
+- [Unified Addresses](/using-zcash/unified-addresses): the `u1` address most wallets give you to receive ZEC.
+- [Solana ZEC to Shielded](/using-zcash/solana-zec-to-shielded): moving ZEC from Solana into a shielded address.
+- [Using ZEC Privately](/guides/using-zec-privately): what to do with your ZEC once it arrives.
+- [Who Can See Your Zcash Payment](/start-here/who-can-see-your-zcash-payment): what stays visible on each side of a payment.
+
+**Last updated:** October 2026
