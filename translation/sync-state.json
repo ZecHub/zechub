@@ -24303,7 +24303,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4+ptbr",
+      "tool": "gpt-5.4+ptbr+proofread",
       "edited": false
     },
     "Start_Here/What_is_ZEC_and_Zcash.md": {
@@ -24311,7 +24311,7 @@
       "src_commit": "fbcda60b242cdc9fe526f315ddb855adc47011b8",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra+ptbr",
+      "tool": "codex/gpt-5.6-terra+ptbr+proofread",
       "edited": false
     },
     "Start_Here/What_is_ZecHub.md": {
@@ -24335,7 +24335,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4+ptbr",
+      "tool": "gpt-5.4+ptbr+proofread",
       "edited": false
     },
     "Start_Here/Zcash_Monetary_Policy.md": {
@@ -24343,7 +24343,7 @@
       "src_commit": "1fb7c9979e868c00cb5bc2268e3814a6dc4abb98",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra+ptbr",
+      "tool": "codex/gpt-5.6-terra+ptbr+proofread",
       "edited": false
     },
     "Start_Here/Zcash_Resources.md": {
