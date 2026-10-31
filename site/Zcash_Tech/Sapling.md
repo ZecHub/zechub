@@ -12,6 +12,19 @@ Sapling was the second major Zcash network upgrade, activating on Zcash's second
 
 Why this matters. Before Sapling, making a truly private payment meant waiting minutes while your computer chewed through gigabytes of memory to build the proof. That was too slow and too heavy for most people, so a lot of users, exchanges, and shops skipped shielded transactions and sent ZEC in the open instead. Sapling cut the work down to a few seconds and about 40 megabytes of memory. That single change is what made shielded ZEC practical to use in everyday life, on ordinary phones and on hardware wallets.
 
+## TL;DR
+
+- Sapling was the second major Zcash network upgrade, activating at block 419,200 (October 29, 2018, 02:15 UTC) — Zcash's second anniversary.
+- It rebuilt shielded transactions around two purpose-built circuits (Spend and Output), replacing Sprout's single slow JoinSplit circuit (ZIP 205, ZIP 243).
+- The result: proof construction dropped from minutes and gigabytes of memory to a few seconds and about 40 MB — light enough for phones and hardware wallets.
+- New features: diversified addresses (many unlinkable payment addresses from one key), viewing keys for audit-only access, and decoupled proving from signing.
+- Its parameters came from a two-phase multi-party ceremony (Powers of Tau + Sapling MPC); security holds if even one participant was honest.
+
+## Visual analogy
+
+Sprout was a private courier who walked every letter across the country by hand — perfectly private, but slow and exhausting. Sapling turned the same courier into a cyclist with a light backpack: still private, but fast enough for everyday deliveries. And the new viewing keys are like giving an auditor a clear window into the courier's logbook without ever handing over the keys to the cargo.
+
+
 ## What changed
 
 The heart of Sapling is a faster way to build the zero-knowledge proof that keeps a shielded transaction private. The original Sprout design used a single proving circuit (the JoinSplit circuit) that was slow and memory-hungry. Sapling replaced it with two purpose-built circuits, a Spend circuit and an Output circuit, described in the Zcash Protocol Specification. The result is a large drop in cost. Per Electric Coin Company, a shielded transaction can be built in as little as a few seconds using about 40 megabytes of memory. The pre-Sapling Sprout baseline was far heavier, on the order of minutes and several gigabytes of memory (these Sprout-side figures are the widely cited approximate baseline).
@@ -35,6 +48,15 @@ Sapling's circuits rely on a set of public parameters that had to be generated c
 Sapling followed Overwinter, the June 2018 upgrade that prepared the network's upgrade mechanism. Electric Coin Company set the mainnet activation height in zcashd 2.0.0, released in August 2018, and the network switched to the Sapling rules when block 419,200 was mined. On chain, that moment is marked by the Sapling consensus branch id.
 
 ![Timeline from Zcash launch to Sapling activation](/content-images/sapling-timeline-6cad184c30.webp)
+
+## Common Mistakes
+
+- **Assuming shielded payments were always usable.** Before Sapling, proof construction took minutes and gigabytes of memory, so most users, exchanges, and shops skipped shielded transactions entirely.
+- **Calling Sapling's addresses the same as Sprout's.** Sapling introduced its own address and key types (plus diversified addresses and viewing keys); Sprout keys do not interoperate with Sapling addresses.
+- **Believing the trusted setup was "one company's secret".** It was a multi-party ceremony: only if every participant colluded could proofs be forged.
+- **Thinking Sapling changed issuance or balances.** It changed how shielded transactions are built — no ZEC amounts were affected.
+- **Assuming proving and signing must happen on the same device.** Sapling's decoupling is precisely what lets hardware wallets keep spending keys isolated while another device builds proofs.
+
 
 ## Glossary
 
@@ -88,5 +110,13 @@ Under Sprout, building a shielded transaction took minutes and used gigabytes of
 - [Electric Coin Company](../zcash-organizations/electric-coin-company)
 
 ---
+
+## Related Pages
+
+- [Viewing Keys](./Viewing_Keys.md) — the audit-sharing feature Sapling introduced
+- [Sprout](./Sprout.md) — the original shielded protocol Sapling replaced
+- [Blossom](./Blossom.md) — the next upgrade in the series (block timing, not cryptography)
+- [zk_SNARKS](./zk_SNARKS.md) — the zero-knowledge technology behind the circuits
+
 
 Series: [Network Upgrades index](../start-here/network-upgrades) · Previous: [Overwinter](../zcash-tech/overwinter) · Next: [Blossom](../zcash-tech/blossom)
