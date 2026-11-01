@@ -37,6 +37,8 @@ resolves to `site/Zcash_Use_Cases/Sign_in_With_Zcash.md` with a lowercase `in`.
 
 `check-links.mjs` mirrors that conversion, including the loose fallback match the
 app falls back on, so a link that works in production is not reported as broken.
+The fallback compares complete basenames after ignoring case and separators;
+a shorter slug must not match a page merely because its name contains that slug.
 If the rules in the app's `src/lib/helpers.ts` change, update `transformUri` here
 to match.
 
