@@ -4,7 +4,7 @@
 
 # Zcash Payment Processors
 
-Ways to accept ZEC as a merchant, compared side by side. Every entry was checked against the provider's own site and API on **29 July 2026**.
+Ways to accept ZEC as a merchant, compared side by side. Every entry was checked against the provider's own site and API on **29 July 2026**, apart from Zcash Payment Service, added on **1 November 2026**.
 
 Support for privacy assets changes often, so each row carries its own verified date. If you are reading this months later, check the provider's site before you integrate.
 
@@ -14,6 +14,7 @@ Support for privacy assets changes often, so each row carries its own verified d
 |:--|:--|:--|:--|:--|:--|:--|
 | [CipherPay](https://www.cipherpay.app) | Non-custodial | Yes, Orchard via Unified Addresses | Yes, open source | 1% per payment, free if self-hosted | No KYC, regions not stated | 2026-07-29 |
 | [BTCPay Server](https://github.com/btcpay-zcash/btcpayserver-zcash-plugin) | Non-custodial, view key only | Yes, shielded only (Sapling, Orchard, UA) | Yes, open source | None, you pay network fees only | Global, no KYC | 2026-07-29 |
+| [Zcash Payment Service](https://github.com/nerdcash/zcash-payment-service) | Non-custodial, incoming view key only | Yes, shielded only (Sapling and Orchard) | Yes, self-hosted only, open source | None, you pay network fees only | No account, no KYC | 2026-11-01 |
 | [ZGo](https://zgo.cash/) | Non-custodial | Yes, Sapling and Orchard | No, hosted service | Prepaid session, price not published | No KYC stated, regions not stated | 2026-07-29 |
 | [Flexa](https://flexa.co/) | Customer self-custody, merchant settles in fiat | Customer spends shielded, receiving side not documented | No | 1% per payment | US and 37 SEPA countries, ZEC in EU unconfirmed | 2026-07-29 |
 | [NOWPayments](https://nowpayments.io/supported-coins/zcash-payments) | Non-custodial by default | No, transparent address only | No | 0.5%, or 1% with conversion | Global except where prohibited, no KYC to start | 2026-07-29 |
@@ -36,7 +37,7 @@ Where a provider does not publish something, the entry says "not stated" or "not
 
 ### Which one to pick
 
-For the most privacy and control, use **BTCPay Server** or a self-hosted **CipherPay**. Both are shielded, open source, and hold no funds for you.
+For the most privacy and control, use **BTCPay Server**, a self-hosted **CipherPay**, or **Zcash Payment Service** if you can add a little code to your site. All three are shielded, open source, and hold no funds for you.
 
 For taking payments in a shop rather than online, use **Flexa**.
 
@@ -89,6 +90,29 @@ One limitation to know about: the plugin uses a single Zcash wallet for every st
 There is no fee to the software itself. You pay Zcash network fees and whatever your hosting costs.
 
 **Last verified:** 2026-07-29
+
+---
+
+## [Zcash Payment Service](https://github.com/nerdcash/zcash-payment-service)
+- **Support Type**: Shielded only (Sapling and Orchard)
+- **Description**: A free, self-hosted Zcash payment processor for online merchants, run as a Docker container or embedded as a Rust crate.
+- **URL**: [Zcash Payment Service](https://github.com/nerdcash/zcash-payment-service)
+
+A free, open-source (MIT) processor built by Andrew Arnott, who already uses it for real payments in his own app.
+
+It only ever holds an incoming viewing key (a UIVK). It can see payments arrive but cannot spend them, so even a compromised server cannot move your funds. The key stays on your own server, so no company sees your payments either.
+
+Every checkout gets a fresh unified address with Sapling and Orchard receivers and no transparent one. Payments go straight to your own wallet.
+
+There is no fee, no account and no usage meter. You pay Zcash network fees and your hosting.
+
+It is self-hosted only: one Docker container, or a Rust crate inside an app you already run. It reads the chain from a lightwalletd server you choose, so you do not need a full node.
+
+Setting it up takes code, not a plugin. Your site asks the service for a payment address and QR code at checkout, and the service tells your site when the money arrives through signed webhooks. There is an npm client for JavaScript and TypeScript backends, and an open-source [demo store](https://github.com/nerdcash/zcash-payment-demo-store) to copy from. There is no Shopify or WooCommerce plugin, so you need control of your site's code, or a developer who has it.
+
+Things to weigh. It is new: the repository started in June 2026, the npm client is at version 0.1, there are no tagged releases yet, and there is no published security audit. Its API has no login of its own, so keep it on a private network and never open it to the internet. And as with any shielded payment, a refund needs the buyer to give you an address.
+
+**Last verified:** 2026-11-01
 
 ---
 
