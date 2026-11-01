@@ -95,8 +95,8 @@ Zcash governance is a mix of "on-chain protocol rules" and "off-chain social con
 1. **ZIP Process (Zcash Improvement Proposals)**  
    - Anyone can submit a ZIP.  
    - Public debate on forums, Discord, GitHub.  
-   - ZIP Editors (currently Jack Grigg, Daira-Emma Hopwood, Kris Nuttycombe in individual capacities, Arya from ZF, and representatives from Shielded Labs) review and decide acceptance.  
-   - Accepted ZIPs are included in the next network upgrade.
+   - The current ZIP Editors are Jack Grigg, Daira-Emma Hopwood, and Kris Nuttycombe (individual capacities); Arya and Marek (Zcash Foundation); Mark Henderson and Sam H. Smith (Shielded Labs); Sean Bowe and Tal Derei (Project Tachyon); and Dev Ojha (Valar Group).
+   - ZIP approval does not automatically schedule inclusion in the next network upgrade. Consensus ZIPs require a deployment plan and implementation, and their rules activate at the specified network-upgrade height.
 
 2. **Trademark Agreement (2019-2024)**  
    - ECC donated the Zcash trademark to ZF in 2019.  
@@ -109,7 +109,7 @@ Zcash governance is a mix of "on-chain protocol rules" and "off-chain social con
    - Used for non-binding community polling on major decisions.
 
 4. **On-chain Ratification**  
-   - Once a network upgrade is deployed, the majority of the network hash rate must adopt it (no hard-fork risk if consensus is reached).
+   - Network upgrades activate at a predetermined block height. Nodes running compatible software enforce the new consensus rules from that height. Nodes that do not upgrade may continue following a pre-upgrade consensus branch, potentially resulting in a chain split.
 
 5. **Future Direction - The Lockbox & ZIP 1016**  
    - The 12% lockbox funds are accumulating in the protocol.  
