@@ -1,109 +1,109 @@
-# Zero to Zero Knowledge: CryptoNote Itifaki
+# Zero to Zero Knowledge: Itifaki ya CryptoNote
 
-**Series:** Zero to Zero Knowledge
+**Mfululizo:** Zero to Zero Knowledge
 
-Leo ni siku yenye kupendeza! 
-** CryptoNote ** itifaki itawezesha nguvu juu ya mlolongo faragha. Leo sisi kujifunza yote ya vipengele vyake muhimu na jinsi imekuwa kutekelezwa na miradi kadhaa mashuhuri faragha .
+Jambo la kuvutia leo!  
+Itifaki ya **CryptoNote** huwezesha faragha ya on-chain [on-chain privacy] iliyo imara. Leo tunajifunza vipengele vyake vyote muhimu na jinsi ambavyo imetekelezwa na miradi kadhaa mashuhuri ya faragha.
 
-![CryptoNote utangulizi](/content-images/FrXr5P8WIAAvx36-88db0c8250.webp)
-
----
-
-## Historia
-
-Whitepaper ya awali ya CryptoNote ilichapishwa chini ya jina bandia ** "Nicolas van Saberhagen"**. 
-
-**Bytecoin** ilikuwa cryptocurrency kwanza kutekeleza itifaki. mradi maarufu kutumia leo ni **Monero (XMR) **. Pia imekuwa kutumika katika TurtleCoin, Aeon, na wengine kadhaa.
+![CryptoNote intro](/content-images/FrXr5P8WIAAvx36-88db0c8250.webp)
 
 ---
 
-## Vipengele vya msingi vya CryptoNote
+## Usuli
 
-Itifaki ya CryptoNote hutoa sifa kuu tatu:
+Whitepaper asili ya CryptoNote ilichapishwa kwa jina bandia **“Nicolas van Saberhagen”**.  
 
-1. **Untraceability na Unlinkablity** ya shughuli
-2. **Egalitarian uthibitisho wa kazi** (ASIC sugu) 
-3. ** Dynamic uzalishaji **
+**Bytecoin** ilikuwa sarafu-fiche ya kwanza kutekeleza itifaki hiyo. Mradi unaojulikana zaidi unaoitumia leo ni **Monero (XMR)**. Pia umetumika katika TurtleCoin, Aeon, na mingine kadhaa.
 
 ---
 
-## 1. Untraceability - Saini za pete
+## Vipengele Msingi vya CryptoNote
 
-Untraceability ni hasa kupatikana kwa kutumia **Ring Signatures**.
+Itifaki ya CryptoNote hutoa vipengele vitatu vikuu:
 
-Unapotuma shughuli, ufunguo wako halisi wa umma unachanganywa na funguo kadhaa za bandia ("pete") - zote zikiwa na kiasi sawa cha sarafu. Hii inafanya iwe ngumu sana kuamua ni nani aliyepeleka sarafu hizo.
-
-** ukubwa pete ** kwa kiasi kikubwa huathiri kuweka kutokujulikana. pete kubwa kutoa faragha bora.
-
-! ![Ring Signatures maelezo](/content-images/FrXteGHXgAANE0F-f11593a0d9.webp)
-
-** Kulinganisha na Zcash **: 
-Zcash's anonymity set is the total number of transactions *ever* made in a given shielded pool (kubwa sana kuliko kawaida CryptoNote pete ukubwa).
+1. **Kutofuatilika [Untraceability] na kutoweza kuhusishwa [Unlinkability]** kwa miamala [transactions]
+2. **Uthibitisho wa Kazi wa Kiusawa [Egalitarian Proof of Work]** (unaokinza ASIC) 
+3. **Utoaji unaobadilika [Dynamic emission]**
 
 ---
 
-## Pete CT (Transactions siri)
+## 1. Kutofuatilika - Sahihi za Mviringo
 
-Mfano wa **Ring CT** umeboresha sana faragha katika sarafu za msingi wa CryptoNote.
+Kutofuatilika hufikiwa hasa kwa kutumia **Sahihi za Mviringo [Ring Signatures]**.
 
-Badala ya tu kuficha mtumaji, Ring CT pia ** obfuscates kiasi cha shughuli ** kati ya mtumi na mpokeaji.
+Unapotuma muamala, ufunguo wako halisi wa umma huchanganywa na funguo kadhaa za chambo (hiyo “mviringo”) - zote zikiwa na kiasi sawa cha sarafu. Hili hufanya iwe vigumu sana kubaini ni nani hasa aliyetuma sarafu hizo.
 
-![Ring CT mchoro](/content-images/FrXuivgWYAAze7B-260071c1b3.webp)
+**Ukubwa wa mviringo** huathiri kwa kiasi kikubwa seti ya kutokujulikana. Miviringo mikubwa hutoa faragha bora zaidi.
 
-Inatumia:
-- Elliptic Curve Cryptography
-- Mikataba ya Pedersen
-- Homomorphic Encryption (Kufichwa kwa namna moja)
+![Ring Signatures explanation](/content-images/FrXteGHXgAANE0F-f11593a0d9.webp)
 
-** Uthibitisho ** hutumiwa kuonyesha kwamba kiasi ni kubwa kuliko 0 na ndani ya mbalimbali halali ** bila kufunua maadili halisi **.
-
-** Stealth Anwani ** pia kuongeza anwani ya matumizi ya mara moja kwa mpokeaji.
-
-![Anwani za siri + Ushuhuda](/content-images/FrXut5aWAAMhuRb-f3ce8ea3fd.webp)
+**Ulinganisho na Zcash**:  
+Seti ya kutokujulikana ya Zcash ni jumla ya miamala yote *iliyowahi* kufanywa katika bwawa la faragha husika (kubwa zaidi kuliko ukubwa wa kawaida wa mviringo wa CryptoNote).
 
 ---
 
-## 2. Egalitarian uthibitisho wa kazi (ePoW)
+## Ring CT (Miamala ya Siri)
 
-CryptoNote inakusudia kujenga mfumo wa madini ya haki kwa kuwa sugu kwa ASICs.
+Muundo wa **Ring CT** uliimarisha sana faragha katika sarafu zinazotegemea CryptoNote.
 
-It uses the **CryptoNight** algorithm (a memory-hard function). Unlike Bitcoin’s SHA256, CryptoNight is designed to close the gap between CPU, GPU, and ASIC miners.
+Badala ya kuficha mtumaji pekee, Ring CT pia **huficha kiasi cha muamala** kati ya mtumaji na mpokeaji.
 
-** Hatua CryptoNight:**
-1. Initialize eneo kubwa la kumbukumbu (scratchpad) na data pseudoorandom
-2. Kufanya wengi kusoma / kuandika shughuli juu ya scratchpad
-3. Hash scratchpad nzima kuzalisha thamani ya mwisho
+![Ring CT diagram](/content-images/FrXuivgWYAAze7B-260071c1b3.webp)
 
-![CryptoNight madini](/content-images/FrXvNs3XsAA37LG-5779657f5c.webp)
+Hutumia:
+- Kriptografia ya Mikunjo ya Duaradufu
+- Commitment za Pedersen
+- Usimbaji fiche wa Homomorphic
 
-(Kumbuka: Monero tangu kuhamia mbali na CryptoNight kwa algorithms nyingine.)
+**Mathibitisho [Proofs]** hutumiwa kuonyesha kwamba kiasi ni kikubwa kuliko 0 na kiko ndani ya viwango halali **bila kufichua thamani halisi**.
 
----
+**Anwani Fiche [Stealth Addresses]** pia huongeza anwani za matumizi ya mara moja kwa mpokeaji.
 
-## 3. Dynamic Utoaji
-
-Badala ya ghafla halving matukio (kama Bitcoin), CryptoNote inatumia **smoothly kupungua block thawabu**.
-
-Hii inaunda curve ya uzalishaji laini zaidi kwa muda.
-
-![Dynamic uzalishaji curve](/content-images/FrXv8wpXoAEjUxW-e2bbaebced.webp)
-
-** Zcash Connection **: 
-Watengenezaji wa Zcash wamejadili utekelezaji wa curve laini ya uzalishaji katika siku zijazo, uwezekano wa kupitia "Zcash Posterity Fund".
+![Stealth Addresses + Proofs](/content-images/FrXut5aWAAMhuRb-f3ce8ea3fd.webp)
 
 ---
 
-## Matokeo
+## 2. Uthibitisho wa Kazi wa Kiusawa (ePoW)
 
-CryptoNote imeonekana kuwa nguvu na vita-kujaribiwa mbinu ya juu ya mlolongo faragha. wengi wa ubunifu wake wameathiri pana faragha sarafu mazingira.
+CryptoNote inalenga kuunda mfumo wa uchimbaji wenye usawa zaidi kwa kuwa sugu dhidi ya ASIC.
 
-Baadhi ya watafiti wanaamini vipengele vya CryptoNote mwishowe vinaweza kuunganishwa na hifadhi zisizo na uaminifu za ujuzi wa sifuri.
+Inatumia algoriti ya **CryptoNight** (kazi inayohitaji kumbukumbu nyingi). Tofauti na SHA256 ya Bitcoin, CryptoNight imeundwa kupunguza pengo kati ya wachimbaji wa CPU, GPU, na ASIC.
+
+**Hatua za CryptoNight:**
+1. Anzisha eneo kubwa la kumbukumbu (scratchpad) kwa data ya nasibu-bandia
+2. Fanya operesheni nyingi za kusoma/kuandika kwenye scratchpad
+3. Fanya hash ya scratchpad nzima ili kutoa thamani ya mwisho
+
+![CryptoNight mining](/content-images/FrXvNs3XsAA37LG-5779657f5c.webp)
+
+(Kumbuka: Monero tangu wakati huo imeacha kutumia CryptoNight na kuhamia algoriti nyingine.)
 
 ---
 
-**Ujumbe wa awali na ZecHub (@ZecHub) ** 
+## 3. Utoaji Unaobadilika
+
+Badala ya matukio ya ghafla ya kupunguzwa kwa nusu [halving] (kama Bitcoin), CryptoNote hutumia **zawadi ya block inayopungua polepole**.
+
+Hii huunda mkunjo wa utoaji ulio laini zaidi kadiri muda unavyopita.
+
+![Dynamic emission curve](/content-images/FrXv8wpXoAEjUxW-e2bbaebced.webp)
+
+**Muunganiko wa Zcash**:  
+Wasanidi programu wa Zcash wamejadili kutekeleza mkunjo wa utoaji ulio laini zaidi siku zijazo, huenda kupitia “Mfuko wa Urithi wa Zcash”.
+
+---
+
+## Hitimisho
+
+CryptoNote imethibitisha kuwa mbinu imara na iliyojaribiwa sana kwa faragha ya on-chain. Ubunifu wake mwingi umeathiri mfumo mpana wa sarafu za faragha.
+
+Baadhi ya watafiti wanaamini kwamba vipengele vya CryptoNote vinaweza hatimaye kuunganishwa na mabwawa ya faragha ya maarifa sifuri [zero-knowledge] yasiyohitaji uaminifu.
+
+---
+
+**Mfululizo Asili wa ZecHub (@ZecHub)**  
 https://x.com/ZecHub/status/1636473585781948416
 
 ---
 
-*Ukurasa huu ulikusanywa kutoka kwa mada ya awali ya Zero to Zero Knowledge kwa wiki ya ZecHub.*
+*Ukurasa huu ulikusanywa kutoka kwenye mfululizo asili wa Zero to Zero Knowledge kwa ajili ya wiki ya ZecHub.*

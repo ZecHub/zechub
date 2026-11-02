@@ -1,135 +1,135 @@
-# <img src="/content-images/people-community-add-svgrepo-com-3c6ac75333.svg" width="24" height="24" alt="Journalist icon"/>  Run a Private Community Treasury with Zcash
+# <img src="/content-images/people-community-add-svgrepo-com-3c6ac75333.svg" width="24" height="24" alt="Journalist icon"/>  Endesha Hazina ya Jamii ya Faragha kwa kutumia Zcash
 
 <span className="inline-flex items-center gap-[6px]">
   <span className="inline-block w-[12px] h-[12px] bg-green-500 rounded-full"></span>
-  Kati - 7 min.
+  Ya kati - Dakika 7
 </span>
 
-## TL;DR
+## Kwa ufupi
 
-- Matumizi ya anwani za ulinzi kushikilia fedha pamoja
-- Kikomo kujulikana kwa salio na shughuli
-- Kutenganisha majukumu ya uendeshaji kutoka kwa utambulisho wa umma
-- Matumizi memos kwa uwajibikaji wa ndani
+- Tumia anwani za faragha [shielded addresses] kushikilia fedha za pamoja
+- Punguza uonekano wa salio na miamala [transactions]
+- Tenganisha majukumu ya uendeshaji na utambulisho wa umma
+- Tumia jumbe [memos] kwa uwajibikaji wa ndani
 
 <br/>
 
-## <img src="/content-images/user-svgrepo-com-21adf62b7c.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="user icon"/> Who is this for?
+## <img src="/content-images/user-svgrepo-com-21adf62b7c.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="user icon"/> Hii ni kwa ajili ya nani?
 
-- DAOs na jamii
-- Programu za ruzuku
-- Timu za chanzo wazi
-- Makundi ya Crypto
+- DAO na jamii
+- Programu za ruzuku [grant programs]
+- Timu za programu huria
+- Makundi ya crypto
   
 
 <br/>
 
-## <img src="/content-images/warning-error-svgrepo-com-b7ea8a50da.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="warning icon"/> The Problem
+## <img src="/content-images/warning-error-svgrepo-com-b7ea8a50da.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="warning icon"/> Tatizo
 
-fedha za jamii katika blockchains umma yatangaza:
-- Jumla ya salio la hazina
+Fedha za jamii katika blockchain za umma hufichua:
+- Jumla ya salio la hazina [treasury]
 - Historia ya matumizi
 - Utambulisho wa wachangiaji
 
-Hii inaleta hatari:
-- Kuelekeza fedha kwa lengo maalum
-- Migogoro ya ndani kutokana na shinikizo uwazi
-- Kupoteza faragha ya kimkakati
+Hii husababisha hatari:
+- Kulengwa kwa fedha
+- Migogoro ya ndani kutokana na shinikizo la uwazi [transparency]
+- Kupotea kwa faragha [privacy] ya kimkakati
 
 <br/>
 
-## <img src="/content-images/icons8-lock-2f8e221321.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> Why Zcash?
+## <img src="/content-images/icons8-lock-2f8e221321.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> Kwa nini Zcash?
 
-Zcash inaruhusu jamii:
-- Weka fedha binafsi
-- Kufanya shughuli bila kufichua maelezo
-- Kudumisha uwajibikaji wa ndani bila kufichua umma
-
-<br/>
-
-## <img src="/content-images/icons8-toolbox-9bebbb1619.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> What You Need
-
-- Mkoba wa Zcash (au pochi nyingi kwa utengano wa majukumu)
-- Utaratibu wa ndani ulio wazi kwa ajili ya kusimamia fedha
-- Hiari: nyaraka za pamoja kwa ajili ya kufuatilia
+Zcash huruhusu jamii:
+- Kushikilia fedha kwa faragha
+- Kutekeleza miamala bila kufichua maelezo
+- Kudumisha uwajibikaji wa ndani bila kufichuliwa hadharani
 
 <br/>
 
-## <img src="/content-images/ladder-svgrepo-com-7232bf46ed.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="step icon"/> Step-by-Step Guide
+## <img src="/content-images/icons8-toolbox-9bebbb1619.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> Unachohitaji
 
-### Hatua ya 1: Kujenga Shielded Hazina Anwani
+- Pochi [wallet] ya Zcash (au pochi nyingi kwa kutenganisha majukumu)
+- Taratibu wazi za ndani za kusimamia fedha
+- Hiari: Nyaraka za pamoja za ufuatiliaji
 
-- Kuzalisha ** z-anwani** kwa hazina ya fedha
-- Hii inakuwa akaunti kuu ya kuhifadhi.
+<br/>
+
+## <img src="/content-images/ladder-svgrepo-com-7232bf46ed.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="step icon"/> Mwongozo wa Hatua kwa Hatua
+
+### Hatua ya 1: Unda Anwani ya Hazina ya Faragha
+
+- Tengeneza **anwani ya z** [z-address] kwa ajili ya hazina
+- Hii huwa akaunti kuu ya kushikilia fedha
 
 
-### Hatua ya 2: Tambua Majukumu Yako
+### Hatua ya 2: Bainisha Majukumu
 
-Majukumu tofauti:
-- Mhifadhi wa hazina (huongoza fedha)
-- Washiriki (maombi ya matumizi)
-- Wakaguzi (kubali ndani)
+Tenganisha majukumu:
+- Mweka hazina (anayedhibiti fedha)
+- Wachangiaji (wanaoomba matumizi)
+- Wakaguzi (wanaoidhinisha ndani)
 
 Epuka kuunganisha majukumu haya na utambulisho wa umma.
 
 
 
-### Hatua ya 3: Kupokea Fedha Binafsi
+### Hatua ya 3: Pokea Fedha kwa Faragha
 
-- Kubali michango kupitia anwani ya ulinzi
-- Kuhamasisha wafadhili kutuma kutoka wallets ulinzi
-
-
-
-### Hatua 4: Kufuatilia shughuli ndani ya nchi
-
-Matumizi:
-- Memo ya mkoba
-- Nje ya mlolongo wa kumbukumbu (kwa mfano, pamoja docs)
-
-Mfano memo: 
- - Grant #12 - Malipo ya Developer
+- Kubali michango kupitia anwani ya faragha
+- Wahimize wachangiaji kutuma kutoka pochi za faragha
 
 
 
-### Hatua ya 5: Fanya Malipo kwa Siri
+### Hatua ya 4: Fuatilia Miamala Ndani
 
-- Tuma fedha kupitia shughuli za ulinzi (z → z)
-- Epuka kufunua utambulisho wa wapokeaji hadharani.
+Tumia:
+- Jumbe za pochi
+- Kumbukumbu za off-chain (kwa mfano, hati za pamoja)
 
-<br/>
+Mfano wa ujumbe: 
+ - Ruzuku #12 - Malipo ya Msanidi Programu
 
-## <img src="/content-images/icons8-cancel-7f786be3c1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="cancel icon"/> Common Mistakes to Avoid
 
-- Kutumia anwani uwazi kwa hazina ya fedha 
-- Kuchapisha mizani ya mkoba kwa umma 
-- Si kufuatilia shughuli ndani ya nchi 
-- Kuunganisha anwani ya hazina kwa watu binafsi inayoweza kutambuliwa. 
 
+### Hatua ya 5: Tekeleza Malipo kwa Faragha
+
+- Tuma fedha kupitia miamala ya faragha (z → z)
+- Epuka kufichua utambulisho wa wapokeaji hadharani
 
 <br/>
 
-## <img src="/content-images/checked-checkbox-svgrepo-com-7ea19022da.svg" width="28" height="28" className="inline-block align-middle mr-1 p-[2px]" alt="done icon"/> Result
+## <img src="/content-images/icons8-cancel-7f786be3c1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="cancel icon"/> Makosa ya Kawaida ya Kuepuka
+
+- Kutumia anwani za uwazi [transparent addresses] kwa hazina  
+- Kuchapisha salio la pochi hadharani  
+- Kutofuatilia miamala ndani  
+- Kuunganisha anwani ya hazina na watu wanaotambulika  
+
+
+<br/>
+
+## <img src="/content-images/checked-checkbox-svgrepo-com-7ea19022da.svg" width="28" height="28" className="inline-block align-middle mr-1 p-[2px]" alt="done icon"/> Matokeo
 
 Jamii yako inaweza:
-- Tumia pesa kwa njia salama
-- Kulinda wachangiaji na wapokeaji
-- Kazi bila kufichua mkakati wa kifedha
+- Kusimamia fedha kwa usalama
+- Kuwalinda wachangiaji na wapokeaji
+- Kufanya kazi bila kufichua mkakati wa kifedha
 
 
 <br/>
 
-## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="chain-links icon"/> Related
+## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="chain-links icon"/> Yanayohusiana
 
-- [Faragha - Mazoea Bora](/start-here/who-can-see-your-zcash-payment)
-- [Tuma fedha bila kuunganisha utambulisho](/zcash-use-cases/send-money-without-linking-identity)
+- [Nani anaweza kuona malipo yako ya Zcash](/start-here/who-can-see-your-zcash-payment)
+- [Tuma pesa bila kuunganisha utambulisho](/zcash-use-cases/send-money-without-linking-identity)
  
 
 <br/>
 
-## <img src="/content-images/progress-arrows-svgrepo-com-aad76739e5.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="progress icon"/> Progress
+## <img src="/content-images/progress-arrows-svgrepo-com-aad76739e5.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="progress icon"/> Maendeleo
 
-** Hatua ya 5 kati ya 6**
+**Hatua ya 5 kati ya 6**
 
 Unaelewa jinsi ya kusimamia fedha za pamoja kwa faragha.
 
@@ -137,4 +137,4 @@ Unaelewa jinsi ya kusimamia fedha za pamoja kwa faragha.
 
 ## Hatua Inayofuata
 
-- [Mwandishi wa habari Privacy Setup](/zcash-use-cases/journalist-privacy-setup)
+- [Mpangilio wa Faragha kwa Waandishi wa Habari](/zcash-use-cases/journalist-privacy-setup)

@@ -1,6 +1,6 @@
 {
   "locale": "sw",
-  "version": 2,
+  "version": 3,
   "meta": {
     "language_name": "Swahili",
     "native_name": "Kiswahili",
@@ -28,7 +28,13 @@
     "numerals": "western",
     "decimal_separator": ".",
     "quotes": "double quotation marks “…”",
-    "abbreviations_with_full_stop": []
+    "abbreviations_with_full_stop": [],
+    "writing_rules": [
+      "Translate the visible text of links too (for example [Viewing Keys](…) becomes [Funguo za kutazama](…)); keep only brand and product names and protected terms in English. Never put the English in brackets inside link text: \"[Funguo za kutazama](…)\", not \"[Funguo za kutazama [viewing keys]](…)\"; if needed, put the English after the link.",
+      "Use Swahili word order around names: the noun comes first, then \"cha/ya/la/wa/za\" and the name (\"Kitabu cha Zebra\", not \"Zebra Kitabu\"; \"Sera ya Fedha ya Zcash\", not \"Zcash Sera ya Fedha\"; \"Maboresho ya Mtandao wa Zcash\"). Names of organisations and community chapters stay as they are (Zcash Foundation, Zcash Brazil).",
+      "Give the English in brackets only once per term per page, at first use; do not stack two brackets on one phrase.",
+      "\"Trustless\" means \"not needing trust\" (\"isiyohitaji kuaminiana\"), never \"untrustworthy\" («isiyo na uaminifu»). \"API calls\" are «maombi ya API», not «simu»."
+    ]
   },
   "terms": {
     "wallet": {
@@ -2605,6 +2611,13 @@
         "Store"
       ],
       "summary": "Quality check by @Sonnie1 (#2494, #2568): block, blockchain, commitment and hardware wallet kept in English; decentralized = iliyogatuliwa; note dokezo, tools vifaa and Store Duka confirmed."
+    },
+    {
+      "version": 3,
+      "date": "2026-10-31",
+      "terms": [],
+      "phrases": [],
+      "summary": "Writing rules from the internal benchmark and the regeneration review: translate link text (never with an English bracket inside it), Swahili word order around names, one English bracket per term, trustless and API calls."
     }
   ]
 }

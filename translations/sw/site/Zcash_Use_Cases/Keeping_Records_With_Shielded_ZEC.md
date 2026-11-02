@@ -1,86 +1,86 @@
-# Kuweka kumbukumbu na ZEC ulinzi
+# Kuweka kumbukumbu kwa kutumia ZEC ya faragha [shielded]
 
-## TL;DR
+## Kwa ufupi
 
-- Fedha zilizofichwa ni za kibinafsi, lakini bado unaweza kuweka rekodi safi na kamili za kifedha
-- Memo hufanya kazi kama vitu vya mstari katika kitabu chako, kama vile nambari ya ankara au malipo yalikuwa kwa nini
-- Kuangalia muhimu inaruhusu wewe, au mtu wewe kuchagua kama uhasibu, kupitia historia yako bila kufanya ni ya umma
-- Unaweza jumla ya mapato na matumizi kwa kipindi chochote, ambayo ni nini unahitaji kwa ajili ya kuripoti au kodi
-- Hakuna hata moja ya haya ambayo hupunguza faragha yako, kwa sababu wewe huamua ni nani anayeona nini
+- Fedha za faragha ni za siri, lakini bado unaweza kuweka kumbukumbu safi na kamili za kifedha
+- Jumbe [memos] hutumika kama vipengele vya mstari katika daftari lako la hesabu, kama vile nambari ya ankara au sababu ya malipo
+- Ufunguo wa kutazama [viewing key] hukuruhusu wewe, au mtu unayemchagua kama mhasibu, kukagua historia yako bila kuifanya iwe ya umma
+- Unaweza kujumlisha mapato na matumizi kwa kipindi chochote, ambacho ndicho unachohitaji kwa ajili ya kuripoti au kodi
+- Hakuna kati ya haya yanayodhoofisha faragha yako, kwa sababu unaamua ni nani aone nini
 
 <br/>
 
 ## Hii ni kwa ajili ya nani?
 
-- Wafanyakazi huru na biashara ndogo ndogo kulipwa katika ZEC
-- Mtu yeyote ambaye anahitaji kuweka vitabu wakati kukaa faragha
-- Watu wanaoandaa rekodi kwa ajili ya mhasibu au kodi
+- Wafanyakazi huru na biashara ndogo zinazolipwa kwa ZEC
+- Mtu yeyote anayehitaji kuweka hesabu huku akidumisha faragha
+- Watu wanaotayarisha kumbukumbu kwa ajili ya mhasibu au kodi
 
 <br/>
 
 ## Changamoto
 
-Faragha na kuweka rekodi inaweza kujisikia kama kinyume. Kama shughuli yako ni kulindwa, kiasi na anwani ni siri kutoka kwa umma, hivyo jinsi gani unaweza kuweka vitabu sahihi au kuonyesha mapato yako kwa mhasibu?
+Faragha na utunzaji wa kumbukumbu vinaweza kuonekana kuwa vinakinzana. Ikiwa miamala yako ni ya faragha, kiasi na anwani hufichwa kwa umma, hivyo unawekaje hesabu sahihi au kuonyesha mapato yako kwa mhasibu?
 
-With Zcash this is a false tradeoff. Shielded transactions hide your activity from everyone by default, but Zcash also gives you tools to disclose your own records to the people who need them, on your terms. You stay private to the world and open to your accountant at the same time.
-
-<br/>
-
-## Memo ni kitabu chako
-
-Kila ulinzi (z kwa z) shughuli inaweza kubeba encrypted [memo](/using-zcash/memos). Kwa ajili ya utunzaji wa rekodi, memo ni ambapo kuandika nini malipo ilikuwa kwa: idadi ya ankara, jina mteja, code mradi, au kumbuka mfupi kama "Machi kodi".
-
-Because the memo travels with the transaction and is only readable by the parties involved, it becomes a private line item in your books. When you or your client include a clear memo on each payment, your transaction history turns into a usable ledger instead of a list of amounts with no context.
-
-Tabia rahisi: kukubaliana na wateja daima ni pamoja na idadi ya ankara katika memo. Baadaye, kulinganisha malipo kwa ankara inakuwa moja kwa moja.
+Kwa Zcash, huu ni mlingano wa kuchagua usio wa kweli. Miamala ya faragha huficha shughuli zako kutoka kwa kila mtu kwa chaguomsingi, lakini Zcash pia hukupa vifaa vya kufichua kumbukumbu zako mwenyewe kwa watu wanaozihitaji, kwa masharti yako. Unadumisha faragha kwa dunia na kuwa wazi kwa mhasibu wako kwa wakati mmoja.
 
 <br/>
 
-## Kuchunguza historia yako mwenyewe
+## Jumbe ni daftari lako la hesabu
 
-Kuweka vitabu, unahitaji kuona shughuli yako mwenyewe. mkoba wako ana funguo kwamba decrypt shughuli yako ulinzi, hivyo mkoba yako inaweza kuonyesha picha kamili: tarehe, kiasi, ambayo walikuwa kupokea, ambayo walitumwa, na memos zilizoambatanishwa.
+Kila muamala wa faragha (z hadi z) unaweza kubeba [ujumbe](/using-zcash/memos) uliosimbwa kwa usimbaji fiche [encryption]. Kwa utunzaji wa kumbukumbu, ujumbe ndio mahali unapoandika sababu ya malipo: nambari ya ankara, jina la mteja, msimbo wa mradi, au dokezo fupi kama “Kodi ya Machi”.
 
-Hii ni sehemu ya umma hawezi kuona, lakini unaweza, kwa sababu data ni yako. kupitia historia yako mara kwa mara, badala ya mwisho wa mwaka, anaendelea kumbukumbu yako sahihi na hufanya makosa rahisi kupata.
+Kwa sababu ujumbe husafiri pamoja na muamala na unaweza kusomwa tu na wahusika wanaohusika, huwa kipengele cha mstari cha faragha katika hesabu zako. Wewe au mteja wako mnapoweka ujumbe wazi kwenye kila malipo, historia yako ya miamala hugeuka kuwa daftari la hesabu linaloweza kutumika badala ya orodha ya kiasi kisicho na muktadha.
 
-<br/>
-
-## Kushiriki rekodi na mhasibu
-
-Wakati unahitaji mtu mwingine kuona shughuli yako kulindwa, kama vile mhasibu au mkaguzi, huna kutoa funguo yako matumizi au kufanya kitu chochote umma.](/zcash-tech/viewing-keys).
-
-A full viewing key is read only. It lets the holder see incoming and outgoing transactions for an address, including amounts and memos, but it never lets them move your funds. That makes it the safe thing to give an accountant. They get exactly the visibility they need, your money stays under your control, and the rest of the world still sees nothing.
-
-Hii inaitwa selective disclosure, na ni moja ya sababu za vitendo shielded Zcash kazi kwa ajili ya uaminifu bookkeeping badala ya dhidi yake.
+Tabia rahisi: Kubaliana na wateja kujumuisha nambari ya ankara kila wakati katika ujumbe. Baadaye, kulinganisha malipo na ankara huwa rahisi.
 
 <br/>
 
-## Jumla kwa kipindi
+## Kukagua historia yako mwenyewe
 
-Kwa ajili ya taarifa nyingi, unahitaji jumla juu ya span ya muda: kiasi gani kupokea robo hii, kiasi gani wewe alimtuma, msimamo wako wa usawa. Kwa kuwa unaweza kupitia historia yako kamili, unaweza kuongeza hizi hadi kwa kipindi chochote kuchagua, mwezi, robo, au mwaka.
+Ili kuweka hesabu, unahitaji kuona shughuli zako mwenyewe. Pochi yako [wallet] huhifadhi funguo zinazofungua miamala yako ya faragha, hivyo pochi yako inaweza kukuonyesha picha kamili: tarehe, kiasi, vilivyopokelewa, vilivyotumwa, na jumbe zilizoambatishwa.
 
-Keeping memos consistent makes this easier, because you can group payments by what they were for, not just by date and amount.
+Hii ndiyo sehemu ambayo umma hauwezi kuona, lakini wewe unaweza, kwa sababu data ni yako. Kukagua historia yako mara kwa mara, badala ya mwishoni mwa mwaka, huweka kumbukumbu zako sahihi na hurahisisha kugundua makosa.
 
 <br/>
 
-## Taarifa juu ya kodi
+## Kushiriki kumbukumbu na mhasibu
 
-Tax rules differ by country and change over time, so this is general information and not tax advice. In many places, receiving or disposing of cryptocurrency can have tax consequences, and you may be expected to keep records of what you received, when, and its value at the time.
+Unapohitaji mtu mwingine aone shughuli zako za faragha, kama vile mhasibu au mkaguzi wa hesabu, huhitaji kukabidhi funguo zako za kutumia pesa [spending keys] au kufanya chochote kiwe cha umma. Unashiriki [ufunguo wa kutazama](/zcash-tech/viewing-keys) [viewing key].
 
-The good news is that shielded Zcash does not stop you from meeting these obligations. You can keep complete private records, total them for the period your tax authority requires, and disclose them to an accountant or tax authority using a viewing key, without making your activity public. If you are unsure what your obligations are, speak to a qualified professional in your country.
+Ufunguo kamili wa kutazama unasomwa tu. Humruhusu mmiliki kuona miamala inayoingia na inayotoka kwa anwani, ikijumuisha kiasi na jumbe, lakini haumruhusu kamwe kuhamisha fedha zako. Hilo huufanya kuwa kitu salama cha kumpa mhasibu. Anapata mwonekano kamili anaohitaji, pesa zako zinabaki chini ya udhibiti wako, na dunia nzima bado haioni chochote.
+
+Hii huitwa selective disclosure, na ni mojawapo ya sababu za kiutendaji zinazofanya Zcash ya faragha ifae kwa utunzaji wa hesabu wa uaminifu badala ya kuupinga.
+
+<br/>
+
+## Kujumlisha kwa kipindi
+
+Kwa kuripoti nyingi, unahitaji jumla kwa kipindi cha muda: kiasi ulichopokea katika robo hii ya mwaka, kiasi ulichotuma, na nafasi yako halisi. Kwa kuwa unaweza kukagua historia yako kamili mwenyewe, unaweza kujumlisha haya kwa kipindi chochote unachochagua, mwezi, robo ya mwaka, au mwaka.
+
+Kuweka jumbe kwa uthabiti hurahisisha hili, kwa sababu unaweza kupanga malipo kulingana na sababu yake, si kwa tarehe na kiasi pekee.
+
+<br/>
+
+## Dokezo kuhusu kodi
+
+Sheria za kodi hutofautiana kulingana na nchi na hubadilika kadiri muda unavyopita, hivyo haya ni maelezo ya jumla wala si ushauri wa kodi. Katika maeneo mengi, kupokea au kuuza cryptocurrency kunaweza kuwa na athari za kodi, na unaweza kutarajiwa kuweka kumbukumbu za ulichopokea, lini, na thamani yake wakati huo.
+
+Habari njema ni kwamba Zcash ya faragha haikuzuii kutimiza wajibu huu. Unaweza kuweka kumbukumbu kamili za faragha, kuzijumlisha kwa kipindi kinachohitajika na mamlaka yako ya kodi, na kuzifichua kwa mhasibu au mamlaka ya kodi kwa kutumia ufunguo wa kutazama, bila kufanya shughuli zako ziwe za umma. Ikiwa huna uhakika kuhusu wajibu wako, zungumza na mtaalamu mwenye sifa katika nchi yako.
 
 <br/>
 
 ## Makosa ya kawaida ya kuepuka
 
-- Kuruka memos, ambayo inakuacha na kiasi na hakuna mazingira mwishoni mwa mwaka
-- Reusing anwani moja kwa kila kitu, ambayo inafanya kuwa vigumu kutenganisha wateja au madhumuni
-- Kusubiri hadi msimu wa kodi kupitia mwaka wa historia badala ya kuweka rekodi kama wewe kwenda
-- Kushiriki matumizi muhimu wakati kusoma tu kuangalia muhimu ni wote uhasibu mahitaji
+- Kuruka jumbe, hali inayokuacha na kiasi bila muktadha mwishoni mwa mwaka
+- Kutumia anwani moja tena kwa kila kitu, jambo linalofanya iwe vigumu kutenganisha wateja au madhumuni
+- Kusubiri hadi msimu wa kodi ili kukagua historia ya mwaka mmoja badala ya kuweka kumbukumbu unapoendelea
+- Kushiriki ufunguo wa kutumia pesa wakati ufunguo wa kutazama wa kusoma tu ndio mhasibu anahitaji
 
 <br/>
 
 ## Kurasa zinazohusiana
 
-- [Memo](/using-zcash/memos) - jinsi memo encrypted kazi
-- [Kuona funguo](/zcash-tech/viewing-keys) - jinsi ya kuuza nje na kushiriki kusoma tu kupata
-- [Freelancer Faragha Setup](/zcash-use-cases/freelance-privacy-setup) - kupokea mapato binafsi, hatua kabla ya kuweka rekodi
+- [Jumbe](/using-zcash/memos) - jinsi jumbe zilizosimbwa kwa usimbaji fiche zinavyofanya kazi
+- [Funguo za kutazama](/zcash-tech/viewing-keys) - jinsi ya kuhamisha na kushiriki ufikiaji wa kusoma tu
+- [Mpangilio wa Faragha wa Mfanyakazi Huru](/zcash-use-cases/freelance-privacy-setup) - kupokea mapato kwa faragha, hatua inayotangulia utunzaji wa kumbukumbu

@@ -1,18 +1,18 @@
 <a href="https://github.com/Zechub/zechub/edit/main/site/Zcash_Community/Zcon_Vozes.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Hariri Ukurasa"/>
 </a>
 
-Yafuatayo ni mkusanyiko wa wengi Zcon Sauti vyombo vya habari kuhusiana katika rahisi kupata eneo.
+Yafuatayo ni mkusanyiko wa maudhui mengi ya vyombo vya habari yanayohusiana na Zcon Vozes katika eneo rahisi kupatikana.
 
-# Sauti za Zcon
-Zcon Vozes ni mkutano wa kila mwaka ulioandaliwa na [Zcash Brazil](https://zcashbr.com/) [zcashbrasil.com.br](https://zcashbrasil.com.br/).
+# Zcon Vozes
+Zcon Vozes ni kongamano la kila mwaka linaloandaliwa na [Zcash Brazil](https://zcashbr.com/) | [zcashbrasil.com.br](https://zcashbrasil.com.br/).
 
 ## Zcon Vozes Brasil
 
-Tukio la kwanza la Zcash nje ya Marekani, lililofadhiliwa na Zcash Foundation, lilifanyika Machi 18, 2023.
-It was held at the iconic Museum of Tomorrow, marking the continent as home to the second-largest Zcash community in the world. 💛
+Tukio la kwanza la Zcash nje ya Marekani, lililofadhiliwa na Zcash Foundation, lilifanyika tarehe 18 Machi 2023.
+Lilifanyika katika Jumba la Makumbusho la Tomorrow maarufu, likiashiria bara hili kama makao ya jumuiya ya pili kwa ukubwa zaidi ya Zcash duniani. 💛
 
-[Zcon Sauti 1 orodha ya nyimbo](https://www.youtube.com/playlist?list=PLez2pAhViAI2KiXyPtcXIfmC5FQ-ozrPf)
+[Orodha ya video za Zcon Vozes 1](https://www.youtube.com/playlist?list=PLez2pAhViAI2KiXyPtcXIfmC5FQ-ozrPf)
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -26,13 +26,13 @@ It was held at the iconic Museum of Tomorrow, marking the continent as home to t
 </div>
 
 
-## Zcon Sauti 2
+## Zcon Vozes 2
 
-Tukio lililojitolea kujadili teknolojia, faragha, blockchain, mali za crypto, miundombinu ya kifedha, uvumbuzi, na siku zijazo za mtandao wazi.
-We bring together conversations with experts, professors, developers, researchers, and community members to explore topics such as Zcash, financial privacy, RWAs (Real-World Assets), asset tokenization, Web3, security, digital sovereignty, and new applications of blockchain technology.
-The goal of Zcon Vozes is to bridge technical knowledge, market insights, and accessible education, bringing the Brazilian community closer to the most important debates regarding privacy, decentralization, and the future of digital finance.
+Tukio lililojitolea kujadili teknolojia, faragha [privacy], blockchain, mali za kripto, miundombinu ya kifedha, ubunifu, na mustakabali wa intaneti huria.
+Tunaleta pamoja mazungumzo na wataalamu, maprofesa, wasanidi programu, watafiti, na wanajamii ili kuchunguza mada kama vile Zcash, faragha ya kifedha, RWAs (Mali za Ulimwengu Halisi), uwekaji wa mali katika tokeni, Web3, usalama, mamlaka ya kidijitali, na matumizi mapya ya teknolojia ya blockchain.
+Lengo la Zcon Vozes ni kujenga daraja kati ya maarifa ya kiufundi, maarifa ya soko, na elimu inayofikika, kwa kuifanya jumuiya ya Brazil iwe karibu zaidi na mijadala muhimu zaidi kuhusu faragha, ugatuzi [decentralization], na mustakabali wa fedha za kidijitali.
 
-[Zcon Sauti 2 orodha ya nyimbo](https://www.youtube.com/playlist?list=PLez2pAhViAI1S5fJwhJa9g91x3io4NLTz)
+[Orodha ya video za Zcon Vozes 2](https://www.youtube.com/playlist?list=PLez2pAhViAI1S5fJwhJa9g91x3io4NLTz)
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -44,6 +44,3 @@ The goal of Zcon Vozes is to bridge technical knowledge, market insights, and ac
     loading="lazy"
   />
 </div>
-
-
-

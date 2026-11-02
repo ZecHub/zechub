@@ -4,65 +4,65 @@
 
 # Jiunge na Crosslink Feature Net
 
-## TL;DR
+## Kwa ufupi
 
-- Feature Net ni mtandao wa majaribio wa umma Shielded Labs' kwa [Crosslink](/zcash-tech/crosslink-protocol), safu ya mwisho iliyopendekezwa ambayo inaongeza uimara karibu na uthibitisho wa kazi Zcash's.
-- Inaendeshwa kwenye sarafu ya majaribio, cTAZ. Hakuna unachofanya juu yake kinachosogeza au kuhatarisha ZEC.
-- Programu moja ya kompyuta ya mezani ni nodi, mchimbaji, pochi na kimaliziaji. Inachimba cTAZ kwa chaguo-msingi na ina kitufe cha kugonga.
-- Kuweka dau, kufungua na kutoa pesa hufanya kazi tu wakati wa "Siku ya Kuweka dau", siku moja katika kila tatu. Unaikosa na unasubiri inayofuata.
-- Ili kuweka dau, unabandika utambulisho wa mkamilishaji na kubofya kiasi. Mwongozo huu unatumia mkamilishaji ZecHub's kama mfano.
-- Simu mbili za RPC zinaonyesha msimamo wako: `wallet_staking_positions` na `get_tfl_recency_status`.
+- Feature Net ni mtandao wa majaribio wa umma wa Shielded Labs kwa ajili ya [Crosslink](/zcash-tech/crosslink-protocol), safu ya mwisho inayopendekezwa inayoongeza kuweka sarafu karibu na thibitisho la kazi la Zcash.
+- Inaendesha sarafu ya majaribio, cTAZ. Hakuna chochote unachofanya humo kinachohamisha au kuweka hatarini ZEC ya mainnet.
+- Programu moja ya kompyuta ya mezani ni node, mchimbaji, pochi na kithibitishaji cha mwisho. Huchimba cTAZ kwa chaguo-msingi na ina kitufe cha chanzo cha sarafu za bure.
+- Kuweka sarafu, kuondoa sarafu zilizowekwa na kutoa hufanya kazi tu wakati wa “Siku ya Kuweka Sarafu”, siku moja katika kila siku tatu. Ukiikosa, unasubiri inayofuata.
+- Ili kuweka sarafu, unabandika utambulisho wa kithibitishaji cha mwisho na kubofya kiasi. Mwongozo huu unatumia kithibitishaji cha mwisho cha ZecHub kama mfano.
+- Miito miwili ya RPC inaonyesha ulipo: `wallet_staking_positions` na `get_tfl_recency_status`.
 
-*Imejaribiwa na toleo la 14 Feature Net kwenye Windows 11 (toleo la 10.0.26200.9550), kuanzia tarehe 8 hadi 10 Oktoba 2026. Programu hii ni mfano na hubadilika kila inapotolewa. Ikiwa unachokiona kinatofautiana na ukurasa huu, amini utendakazi wako mwenyewe na tafadhali fungua PR.*
+*Imejaribiwa kwa Feature Net toleo la 14 kwenye Windows 11 (toleo la 10.0.26200.9550), kuanzia 8 hadi 10 Oktoba 2026. Programu hii ni mfano wa awali na hubadilika kwa kila toleo. Ikiwa unachokiona kinatofautiana na ukurasa huu, amini uendeshaji wako mwenyewe na tafadhali fungua PR.*
 
 ## Feature Net ni nini
 
-Crosslink ni pendekezo, si sehemu ya Zcash Shielded Labs' [Maswali Crosslink](https://shieldedlabs.net/crosslink-faq/) inasema "itahitaji kupitia mchakato wa kawaida wa utawala Zcash " kabla ya kufikia mainnet [Itifaki ya Crosslink](/zcash-tech/crosslink-protocol) Ukurasa unaelezea muundo.
+Crosslink ni pendekezo, si sehemu ya Zcash leo. Maswali yanayoulizwa mara kwa mara ya Shielded Labs kuhusu [Crosslink FAQ](https://shieldedlabs.net/crosslink-faq/) yanasema kwamba “ingehitaji kupitia mchakato wa kawaida wa utawala wa Zcash” kabla haijafika mainnet. Ukurasa wa [Crosslink Protocol](/zcash-tech/crosslink-protocol) unaeleza usanifu huo.
 
-Ili kujaribu muundo huu kwa watumiaji halisi, Shielded Labs huendesha kile inachokiita [nyavu za vipengele vilivyochochewa](https://shieldedlabs.net/crosslink-incentivized-feature-nets/): "mfululizo wa mitandao ya majaribio yenye motisha". Kuna majukumu matatu kwenye mtandao, na programu ya kompyuta ya mezani inaweza kuyacheza yote:
+Ili kujaribu usanifu huu pamoja na watumiaji halisi, Shielded Labs huendesha kile inachokiita [incentivized feature nets](https://shieldedlabs.net/crosslink-incentivized-feature-nets/): “mfululizo wa testnet zenye motisha”. Majukumu matatu yapo kwenye mtandao, na programu ya kompyuta ya mezani inaweza kutekeleza yote:
 
-| Jukumu | Inafanya nini |
+| Jukumu | Hufanya nini |
 |---|---|
-| Mchimbaji | Hutengeneza vizuizi vya uthibitisho wa kazi, kama ilivyo kwenye Zcash leo |
-| Staker | Anafunga cTAZ katika dhamana ya ugawaji na kuielekeza kwenye fainali |
-| Kimaliziaji | Kura za kukamilisha vikwazo. Nguvu yake ya kupiga kura ni dau lililokabidhiwa kwake |
+| Mchimbaji | Huzalisha block za thibitisho la kazi, kama ilivyo kwenye Zcash leo |
+| Mwenye kuweka sarafu | Hufunga cTAZ katika dhamana ya ukabidhi na kuielekeza kwa kithibitishaji cha mwisho |
+| Kithibitishaji cha mwisho | Hupiga kura kukamilisha block. Nguvu yake ya kupiga kura ni sarafu zilizowekwa zilizoikabidhiwa |
 
-Hifadhi iliyo nyuma yake inaanza na kanusho linalofaa kusomwa kabla ya kusakinisha chochote: "ipo ili kuthibitisha mawazo, si kuonyesha uhandisi wa uzalishaji" na "si msimbo ulio tayari kwa uzalishaji" ([README](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/README.md)). Iendeshe kwenye mashine ambapo inakubalika.
+Hifadhi nyuma yake inaanza kwa taarifa ya kutokuwa na dhamana inayostahili kusomwa kabla ya kusakinisha chochote: “ipo kuthibitisha mawazo, si kuonyesha uhandisi wa uzalishaji” na ni “msimbo ambao hauko tayari kwa uzalishaji” ([README](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/README.md)). Iendeshe kwenye mashine ambako hilo linakubalika.
 
-### Ni toleo gani la 14 lililobadilika
+### Kile kilichobadilika katika toleo la 14
 
-[Toleo la 14](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v14) ilizinduliwa tarehe 1 Oktoba 2026. Mtandao wake unaanza kama uthibitisho wa kazi na unawasha Crosslink katika hatua tatu ([chanzo](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/librustzcash/zcash_primitives/src/bft.rs#L546-L555), pia imeonyeshwa kwenye [ctaz.cash](https://ctaz.cash/v14)):
+[Version 14](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v14) ilitoka 1 Oktoba 2026. Mtandao wake huanza kama thibitisho la kazi la kawaida na kuwasha Crosslink kwa hatua tatu ([source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/librustzcash/zcash_primitives/src/bft.rs#L546-L555), pia zinaonyeshwa kwenye [ctaz.cash](https://ctaz.cash/v14)):
 
-| Kizuizi | Kinachotokea |
+| Block | Kinachotokea |
 |---|---|
-| 20,736 | Kizibo cha kuwekea kinaanza |
-| 34,560 | Orodha ya kwanza ya watakaokamilisha inachukuliwa kutoka kwa dau kwenye mnyororo |
-| 36,288 | Mwisho wa BFT unaanza, na zawadi zake zinapatikana |
+| 20,736 | Kuweka sarafu kunafunguliwa |
+| 34,560 | Orodha ya kwanza ya vithibitishaji vya mwisho huchukuliwa kutoka kwa sarafu zilizowekwa kwenye mnyororo |
+| 36,288 | Ukamilishaji wa BFT huanza, pamoja na zawadi za kuweka sarafu |
 
-Zawadi za kuweka dau huanza mwishoni mwa vitalu hivyo. Dhamana iliyotengenezwa mapema haipati chochote hadi wakati huo ([chanzo](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebra-chain/src/parameters/network/subsidy.rs#L487-L508)).
+Zawadi za kuweka sarafu huanza kwenye block ya mwisho kati ya hizo. Dhamana iliyowekwa mapema haipati chochote hadi wakati huo ([source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebra-chain/src/parameters/network/subsidy.rs#L487-L508)).
 
-Toleo hilohilo lilipunguza orodha ya wachezaji wanaofanya kazi hadi 12 waliokamilisha fainali wenye dau nyingi zaidi ([chanzo](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/librustzcash/zcash_primitives/src/bft.rs#L884)) na, kwa maneno ya maelezo yake ya kutolewa, iliwapa kamisheni: "10% ya Zawadi zote za PoS katika block moja huenda kwa kamisheni hizi, huku 90% ikisambazwa kwa dhamana zote za kuweka."
+Toleo hilohilo lilipunguza orodha hai kuwa vithibitishaji 12 vya mwisho vyenye sarafu nyingi zaidi zilizowekwa ([source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/librustzcash/zcash_primitives/src/bft.rs#L884)) na, kwa maneno ya maelezo yake ya toleo, likavipa kamisheni: “10% ya Zawadi zote za PoS katika block huenda kwenye kamisheni hizi, huku 90% ikisambazwa kwa dhamana zote za kuweka sarafu”.
 
 ### cTAZ na ZEC halisi
 
-cTAZ ("Crosslink TAZ") ni sarafu ya majaribio Feature Net's. Unaweka dau kwenye cTAZ, kamwe si ZEC.
+cTAZ (“Crosslink TAZ”) ni sarafu ya majaribio ya Feature Net. Unaweka cTAZ, kamwe si ZEC.
 
-ZEC halisi huingia mwishoni tu. Shielded Labs ina [kutenga ZEC 500](https://shieldedlabs.net/crosslink-incentivized-feature-nets/) kwa ajili ya nyavu za vipengele, na [maelezo ya kutolewa](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v14) wanasema inalipwa "kwa msingi wa prorata kulingana na kiasi cha cTAZ ambacho kila mshiriki alipata kupitia uchimbaji au uwekaji wa hisa". Matokeo mawili:
+ZEC halisi huingia tu mwishoni. Shielded Labs imetenga [500 ZEC](https://shieldedlabs.net/crosslink-incentivized-feature-nets/) kwa ajili ya feature nets, na maelezo ya [release notes](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v14) yanasema inalipwa “kwa uwiano unaotegemea tu kiasi cha cTAZ ambacho kila mshiriki alipata kupitia uchimbaji au kuweka sarafu”. Matokeo mawili ni haya:
 
-- **Sarafu za bomba hazihesabiki.** cTAZ uliyopewa, kwa bomba au na mtu mwingine yeyote, haipati chochote kwa kukaa kwenye pochi yako. Zuia tu zawadi kutoka kwa uchimbaji na hesabu ya amana.
-- **Malipo yanadaiwa, si ya kiotomatiki.** Shielded Labs hutangaza kila raundi katika [uzi wa jukwaa](https://forum.zcashcommunity.com/t/crosslink-incentivized-feature-net/55210)Kwa Raundi ya 2 iliwaomba washiriki kutuma ufunguo wa kutazama wa pochi yao na anwani ya mtandao mkuu ifikapo tarehe 4 Oktoba 2026 ([chapisho la 94](https://forum.zcashcommunity.com/t/crosslink-incentivized-feature-net/55210/94)Mtandao ambao toleo la 14 linatumika, ule ambao mwongozo huu unajiunga nao, ulitangazwa kuwa Raundi ya 3 ([chapisho la 101](https://forum.zcashcommunity.com/t/crosslink-incentivized-feature-net/55210/101)).
+- **Sarafu za chanzo cha sarafu za bure hazihesabiki.** cTAZ uliyopewa, na chanzo cha sarafu za bure au mtu mwingine yeyote, haipati chochote kwa kukaa katika pochi yako. Zawadi za block kutoka uchimbaji na kuweka sarafu pekee ndizo zinazohesabika.
+- **Malipo yanadaiwa, si ya kiotomatiki.** Shielded Labs hutangaza kila awamu katika [forum thread](https://forum.zcashcommunity.com/t/crosslink-incentivized-feature-net/55210). Kwa Awamu ya 2 iliwaomba washiriki kutuma ufunguo wa kutazama wa pochi zao na anwani ya mainnet kufikia 4 Oktoba 2026 ([post 94](https://forum.zcashcommunity.com/t/crosslink-incentivized-feature-net/55210/94)). Mtandao ambao toleo la 14 huendesha, ule unaojiunga nao katika mwongozo huu, ulitangazwa kama Awamu ya 3 ([post 101](https://forum.zcashcommunity.com/t/crosslink-incentivized-feature-net/55210/101)).
 
 ## Kabla ya kuanza
 
-- **Kompyuta unayoweza kuacha ikifanya kazi.** Toleo hili lina vifaa vya Windows, macOS, Ubuntu na Arch Linux. Mwongozo huu uliendeshwa kwenye Windows, kwenye PC yenye kichakataji cha Intel Core i5-8350U.
-- **Siku ya Kusubiri.** Angalia siku inayofuata itafunguliwa lini kabla ya kupanga chochote. [Dashibodi ya Staker Space](https://crosslink.staker.space/) inahesabiwa.
-- **Hakuna kingine.** Hakuna ZEC, hakuna akaunti na hakuna usajili.
+- **Kompyuta unayoweza kuiacha ikiendelea kufanya kazi.** Toleo hili lina miundo ya Windows, macOS, Ubuntu na Arch Linux. Mwongozo huu uliendeshwa kwenye Windows, kwenye PC yenye kichakataji cha Intel Core i5-8350U.
+- **Siku ya Kuweka Sarafu.** Angalia wakati inayofuata inafunguliwa kabla ya kupanga chochote. Dashibodi ya [Staker Space's dashboard](https://crosslink.staker.space/) huhesabu muda uliosalia kuifikia.
+- **Hakuna kingine.** Hakuna ZEC, akaunti wala usajili.
 
-## Hatua ya 1: Pakua programu na uangalie faili
+## Hatua ya 1: Pakua programu na uhakiki faili
 
-1. Fungua [toleo la 14 la kutolewa](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v14) na usogeze hadi **Vipengee**.
-2. Pakua faili ya mfumo wako. Kwenye Windows ambayo ni `zebrad_v14_win32.exe`.
-3. Linganisha SHA-256 ya faili na maonyesho GitHub yaliyofichwa kando ya kipengee hicho.
+1. Fungua [version 14 release](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v14) na usogeze chini hadi **Assets**.
+2. Pakua faili la mfumo wako. Kwenye Windows hilo ni `zebrad_v14_win32.exe`.
+3. Linganisha SHA-256 ya faili na digest ambayo GitHub inaonyesha kando ya asset hiyo.
 
 Kwenye Windows, katika PowerShell:
 
@@ -76,7 +76,7 @@ Hash      : 1D464E31CCC110E175D45E3EDC0B7FB0B9583ACC996E99F4398F390EC111297E
 Path      : C:\crosslink\zebrad_v14_win32.exe
 ```
 
-Digest GitHub inaonyesha faili hiyo ni `1d464e31ccc110e175d45e3edc0b7fb0b9583acc996e99f4398f390ec111297e`Hex haina herufi kubwa, kwa hivyo herufi kubwa hapo juu ni sawa. Ili kuruhusu ganda lilinganishwe badala ya macho yako:
+Digest ambayo GitHub inaonyesha kwa faili hilo ni `1d464e31ccc110e175d45e3edc0b7fb0b9583acc996e99f4398f390ec111297e`. Hex haitumii herufi kubwa au ndogo, hivyo herufi kubwa zilizo hapo juu ni sahihi. Ili kuacha shell ilinganishe badala ya macho yako:
 
 ```powershell
 $expected = "1d464e31ccc110e175d45e3edc0b7fb0b9583acc996e99f4398f390ec111297e"
@@ -88,29 +88,29 @@ if ($actual -eq $expected) { "OK" } else { "MISMATCH" }
 OK
 ```
 
-Jua thamani ya ukaguzi huu. Toleo halina sahihi, kwa hivyo hash inayolingana inakuambia kuwa upakuaji umekamilika na ni faili ambayo GitHub inahudumia. Haikuambie ni nani aliyeijenga. [Kuthibitisha Matoleo Zcash](/guides/verifying-zcash-releases) anaelezea tofauti.
+Fahamu thamani ya ukaguzi huu. Toleo halina sahihi, kwa hivyo hash inayolingana inakuambia kwamba upakuaji umekamilika na ni faili ambalo GitHub inatoa. Haikuambii ni nani aliyelitengeneza. [Verifying Zcash Releases](/guides/verifying-zcash-releases) inaeleza tofauti hiyo.
 
-## Hatua ya 2: Anzisha nodi na uiruhusu isawazishe
+## Hatua ya 2: Anzisha node na uiruhusu ilandanishwe
 
-Anzisha programu kutoka kwa terminal, ili ujumbe wake wa kuanzisha ubaki kwenye skrini. Tumia dirisha la kawaida PowerShell, ambalo halijafunguliwa na "Run as administrator": hii ni programu ya mfano ambayo haijasainiwa, na haihitaji haki za msimamizi.
+Anzisha programu kutoka terminal, ili ujumbe wake wa kuanza ubaki kwenye skrini. Tumia dirisha la kawaida la PowerShell, si lile lililofunguliwa kwa “Run as administrator”: hii ni programu ya mfano wa awali isiyo na sahihi, na haihitaji haki za msimamizi.
 
 ```powershell
 .\zebrad_v14_win32.exe
 ```
 
-Dirisha lenye kichwa "Zcash Crosslink Visualizer" linafunguka. Pochi iko upande wa kushoto, ikiwa na vichupo vya **Pochi yako** na **Pochi ya Bomba**, mnyororo umechorwa katikati, na vimaliziaji vimeorodheshwa upande wa kulia. Kituo kinaendelea kuchapisha kumbukumbu ya nodi. Acha zote mbili zikiwa wazi unapotumia mtandao.
+Dirisha lenye kichwa “Zcash Crosslink Visualizer” hufunguka. Pochi iko upande wa kushoto, ikiwa na vichupo vya **Your Wallet** na **Faucet Wallet**, mnyororo umechorwa katikati, na vithibitishaji vya mwisho vimeorodheshwa upande wa kulia. Terminal huendelea kuchapisha logi ya node. Viache vyote wazi unapotumia mtandao.
 
-Maelezo ya kutolewa yanaunganisha [video ya usakinishaji wa Windows](https://www.youtube.com/watch?v=cO-5Oa4B1Tk).
+Maelezo ya toleo yanaunganisha [video of the Windows install](https://www.youtube.com/watch?v=cO-5Oa4B1Tk).
 
-Programu huweka data yake kwenye folda ya akiba: `%LOCALAPPDATA%\zebra` kwenye Windows, `~/.cache/zebra` kwenye Linux na `~/Library/Caches/zebra` kwenye macOS, kulingana na maelezo ya kutolewa.
+Programu huweka data yake katika folda ya cache: `%LOCALAPPDATA%\zebra` kwenye Windows, `~/.cache/zebra` kwenye Linux na `~/Library/Caches/zebra` kwenye macOS, kulingana na maelezo ya toleo.
 
-**Weka siri hiyo kwako.** Folda hiyo ina faili inayoitwa `secret.seed`Programu huiunda mwanzoni mwa kwanza ([chanzo](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebrad/src/commands/start.rs#L280-L305)) na hupata pochi yako na utambulisho wako wa mwisho kutoka kwayo ([chanzo](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebrad/src/commands/start.rs#L625-L626)). Programu pia ina kitufe cha **Nakili Mbegu** kinachoweka siri hiyo hiyo kwenye ubao wako wa kunakili. Yeyote aliye na mojawapo ya hizo atadhibiti pochi yako. Kamwe usiibandike kwenye gumzo, chapisho la jukwaa au picha ya skrini.
+**Weka siri hiyo kwako mwenyewe.** Folda hiyo ina faili linaloitwa `secret.seed`. Programu hulitengeneza wakati wa kuanza kwa mara ya kwanza ([source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebrad/src/commands/start.rs#L280-L305)) na hutoa pochi yako na utambulisho wako wa kithibitishaji cha mwisho kutoka humo ([source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebrad/src/commands/start.rs#L625-L626)). Programu pia ina kitufe cha **Copy Seed** kinachoweka siri hiyohiyo kwenye clipboard yako. Mtu yeyote aliye na mojawapo hudhibiti pochi yako. Kamwe usivibandike kwenye gumzo, chapisho la jukwaa au picha ya skrini.
 
-### Jinsi ya kujua kama umesawazishwa
+### Jinsi ya kujua kuwa umelandanishwa
 
-Maelezo ya kutolewa yanasema hakuna "ufuatiliaji uliojengewa ndani kuhusu jinsi unavyosawazishwa kwa karibu na ncha ya mtandao". Toleo la 14 lina baadhi: menyu kunjuzi ya **Info ya Mtandao** juu ya dirisha ina safu mlalo za Urefu wa PoW, Usawazishaji wa Wallet na Vizuizi Nyuma ya PoW Inayojulikana ([chanzo](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-gui/src/ui.rs#L4362-L4373)Linganisha urefu wako na ule ulio juu [Nafasi ya Staker](https://crosslink.staker.space/) or [ctaz.cash](https://ctaz.cash/).
+Maelezo ya toleo yanasema hakuna “ufuatiliaji uliojengwa ndani wa jinsi ulivyo karibu kulandanishwa na kilele cha mtandao”. Toleo la 14 lina kiasi fulani: menyu kunjuzi ya **Network Info** juu ya dirisha ina safu za PoW Height, Wallet Sync na Blocks Behind Known PoW ([source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-gui/src/ui.rs#L4362-L4373)). Linganisha urefu wako na ule kwenye [Staker Space](https://crosslink.staker.space/) au [ctaz.cash](https://ctaz.cash/).
 
-Nodi pia hujibu juu ya RPC:
+Node pia hujibu kupitia RPC:
 
 ```powershell
 Invoke-RestMethod -Uri http://127.0.0.1:8232 -Method Post -ContentType 'application/json' -Body '{"jsonrpc":"2.0","method":"getblockcount","params":[],"id":1}' | ConvertTo-Json -Depth 20
@@ -124,28 +124,28 @@ Invoke-RestMethod -Uri http://127.0.0.1:8232 -Method Post -ContentType 'applicat
 }
 ```
 
-Lango la RPC `127.0.0.1:8232` imefunguliwa kwa chaguo-msingi katika muundo huu na haihitaji nenosiri ([chanzo](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebrad/src/config.rs#L333-L337)Inasikiliza kwenye mashine yako pekee, na chochote kinachofanya kazi kwenye mashine hiyo kinaweza kuiita.
+Porti ya RPC `127.0.0.1:8232` iko wazi kwa chaguo-msingi katika muundo huu na haihitaji nenosiri ([source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebrad/src/config.rs#L333-L337)). Husikiliza kwenye mashine yako mwenyewe tu, na chochote kinachoendesha kwenye mashine hiyo kinaweza kuiita.
 
-Katika kipindi hiki, ulandanishi wa kwanza, kutoka kizuizi 0 hadi ncha kwenye kizuizi 28,400, ulichukua takriban dakika 50.
+Katika uendeshaji huu, ulandanishaji wa kwanza, kutoka block 0 hadi kilele kwenye takriban block 28,400, ulichukua karibu dakika 50.
 
-**Baada ya kuanza upya salio lako husoma sifuri kwa muda.** Kila wakati programu inapoanza, hujenga upya pochi kutoka `secret.seed` na kuchanganua mnyororo tena kutoka kwenye kizuizi 0 ([chanzo](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/wallet/src/lib.rs#L3609-L3623)Hadi uchanganuzi utakapofikia miamala yako, salio lako na dau lako huonekana kama 0. Katika kipindi hiki, walirudi takriban dakika 15 baada ya kuanza upya. Pochi ya bomba huchanganuliwa tena kwa njia ile ile ([chanzo](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/wallet/src/lib.rs#L3588)), na wakati wa uchanganuzi kichupo cha Pochi ya Faucet kilionyesha salio kubwa sana. Puuza zote mbili hadi Usawazishaji wa Pochi ukamilike.
+**Baada ya kuanzisha upya, salio lako huonyesha sufuri kwa muda.** Kila programu inapoanza, huunda upya pochi kutoka `secret.seed` na kuchanganua mnyororo tena kuanzia block 0 ([source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/wallet/src/lib.rs#L3609-L3623)). Hadi uchanganuzi ufikie miamala yako, salio lako na sarafu zako zilizowekwa huonekana kama 0. Katika uendeshaji huu vilirudi takriban dakika 15 baada ya kuanzisha upya. Pochi ya chanzo cha sarafu za bure huchanganuliwa tena kwa njia hiyohiyo ([source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/wallet/src/lib.rs#L3588)), na wakati wa uchanganuzi kichupo cha Faucet Wallet kilionyesha salio kubwa sana. Puuza vyote viwili hadi Wallet Sync ikamilike.
 
 ## Hatua ya 3: Pata cTAZ
 
-### Nichague
+### Ichimbe
 
-Kulingana na maelezo ya kutolewa, programu huanza kuchimba CPU kwenye pochi yako mwenyewe mara tu inaposawazishwa. Huna haja ya kuwasha chochote. Sarafu zilizochimbwa huenda kwenye anwani ya uwazi ya pochi yako mwenyewe ([chanzo](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebrad/src/commands/start.rs#L349-L355)).
+Kulingana na maelezo ya toleo, programu huanza uchimbaji wa CPU kwenda kwenye pochi yako yenyewe baada ya kulandanishwa. Huhitaji kuwasha chochote. Sarafu zilizochimbwa huenda kwenye anwani ya uwazi ya pochi yako mwenyewe ([source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebrad/src/commands/start.rs#L349-L355)).
 
-Kama itapata kizuizi ni jambo lingine. Maelezo yanaonya kwamba "huenda ukashindwa na wengine kuchimba haraka zaidi, kwa hivyo hakuna uhakika wa kufanikiwa". Kwa chaguo-msingi, mchimbaji aliyejengewa ndani hutumia uzi mmoja wa CPU ([chanzo](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebra-rpc/src/config/mining.rs#L97-L100)).
+Iwapo itapata block ni jambo jingine. Maelezo yanaonya kwamba “unaweza kushindanishwa na wengine wanaochimba kwa kasi zaidi, kwa hiyo hakuna uhakika wa kufanikiwa”. Kwa chaguo-msingi mchimbaji aliyejengwa ndani hutumia thread moja ya CPU ([source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebra-rpc/src/config/mining.rs#L97-L100)).
 
-Ili kutumia nyuzi zaidi, weka kigezo cha mazingira katika dirisha lile lile PowerShell kabla ya kuanza programu ([chanzo](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebrad/src/config.rs#L109-L128)). Kipindi hiki kilitumia nne:
+Ili kutumia thread zaidi, weka kigezo cha mazingira katika dirisha hilohilo la PowerShell kabla ya kuanzisha programu ([source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebrad/src/config.rs#L109-L128)). Uendeshaji huu ulitumia nne:
 
 ```powershell
 $env:ZEBRA_MINING__INTERNAL_MINER_THREADS = "4"
 .\zebrad_v14_win32.exe
 ```
 
-Kigezo hudumu kwa muda wa dirisha hilo pekee. Kikiwa kimewekwa, kaunta ya kichakataji Windows' ilionyesha nodi hiyo kwa kutumia muda wa vichakataji wanne hadi watano, kwa asilimia ya kichakataji kimoja cha kimantiki:
+Kigezo hicho hudumu mradi dirisha hilo liko wazi. Kikiwa kimewekwa, kihesabu cha kichakataji cha Windows kilionyesha node ikitumia muda unaolingana na vichakataji vinne hadi vitano, kwa asilimia ya kichakataji kimoja cha kimantiki:
 
 ```powershell
 (Get-Counter '\Process(zebrad_v14_win32)\% Processor Time' -SampleInterval 2 -MaxSamples 3).CounterSamples.CookedValue
@@ -157,15 +157,15 @@ Kigezo hudumu kwa muda wa dirisha hilo pekee. Kikiwa kimewekwa, kaunta ya kichak
 505.957457577538
 ```
 
-Matokeo: uchimbaji wa Intel Core i5-8350U kwenye nyuzi nne, kuanzia mapema tarehe 8 Oktoba hadi alasiri ya tarehe 9 Oktoba, haukupata kizuizi chochote.
+Matokeo: Intel Core i5-8350U ikichimba kwa thread nne, kuanzia mapema 8 Oktoba hadi alasiri ya 9 Oktoba, haikupata block.
 
-### Au tumia bomba
+### Au tumia chanzo cha sarafu za bure
 
-Programu ina kitufe cha **Pokea cTAZ** chini kulia. Katika chanzo cha toleo la 14, kubonyeza mara moja hutuma cTAZ 0.5 kutoka kwenye pochi ya bomba hadi yako ([kiasi](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/wallet/src/lib.rs#L3073), [tuma](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/wallet/src/lib.rs#L5018-L5021)). Bomba ni pochi moja ambayo kila nakala ya programu hubeba ([chanzo](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/wallet/src/lib.rs#L3579-L3583)), na kichupo cha **Pochi ya Bomba** kinaonyesha salio lake.
+Programu ina kitufe cha **Receive cTAZ** chini kulia. Katika msimbo wa toleo la 14, kubonyeza mara moja hutuma 0.5 cTAZ kutoka pochi ya chanzo cha sarafu za bure kwenda yako ([amount](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/wallet/src/lib.rs#L3073), [send](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/wallet/src/lib.rs#L5018-L5021)). Chanzo cha sarafu za bure ni pochi moja ambayo kila nakala ya programu hubeba ([source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/wallet/src/lib.rs#L3579-L3583)), na kichupo cha **Faucet Wallet** kinaonyesha salio lake.
 
-Kitufe huzimwa isipokuwa bomba lina sarafu zilizolindwa zenye zaidi ya 5.01 cTAZ ([chanzo](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-gui/src/ui.rs#L3975-L3989)). Kichupo huhesabu sarafu zilizochimbwa kwenye bomba pia, na hizo hulindwa kwa cTAZ 10 pekee pamoja na ada ([chanzo](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/wallet/src/lib.rs#L4880-L4884)), ili kichupo kiweze kuonyesha mengi huku kitufe kikibaki kijivu. Katika kipindi hiki kiliendelea kuwa kijivu mnamo tarehe 8 na 9 Oktoba, huku "Bomba linachimba fedha zaidi." kilipoelea, huku kichupo kikionyesha 14.74695 cTAZ.
+Kitufe huzimwa isipokuwa chanzo cha sarafu za bure kiwe na zaidi ya 5.01 cTAZ katika sarafu za faragha ([source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-gui/src/ui.rs#L3975-L3989)). Kichupo pia huhesabu sarafu zilizochimbwa na chanzo cha sarafu za bure, na hizo huwa za faragha tu katika makundi ya cTAZ 10 kamili pamoja na ada ([source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/wallet/src/lib.rs#L4880-L4884)), kwa hivyo kichupo kinaweza kuonyesha nyingi huku kitufe kikibaki kijivu. Katika uendeshaji huu kilibaki kijivu tarehe 8 na 9 Oktoba, kikiwa na “The faucet is mining more funds.” kilipowekewa kishale, huku kichupo kikionyesha cTAZ 14.74695.
 
-**Kitufe kinapokuwa kijivu, uliza nodi yako mwenyewe.** Nodi ina njia ya kuomba bomba, `requestfaucetdonation` ([chanzo](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebra-rpc/src/methods.rs#L314-L315)), ambayo haitumiki sheria ya kitufe cha 5.01 cTAZ. Weka anwani yako mwenyewe badala ya `YOUR_ADDRESS` (ni `address` uwanja wa `wallet_spendable_funds`, chini):
+**Kitufe kikiwa kijivu, iulize node yako mwenyewe.** Node ina mbinu ya kuomba kutoka chanzo cha sarafu za bure, `requestfaucetdonation` ([source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebra-rpc/src/methods.rs#L314-L315)), ambayo haitumii kanuni ya cTAZ 5.01 ya kitufe. Weka anwani yako mwenyewe mahali pa `YOUR_ADDRESS` (ni sehemu ya `address` ya `wallet_spendable_funds`, hapa chini):
 
 ```powershell
 Invoke-RestMethod -Uri http://127.0.0.1:8232 -Method Post -ContentType 'application/json' -Body '{"jsonrpc":"2.0","method":"requestfaucetdonation","params":[{"address":"YOUR_ADDRESS"}],"id":1}' | ConvertTo-Json -Depth 20
@@ -181,21 +181,21 @@ Invoke-RestMethod -Uri http://127.0.0.1:8232 -Method Post -ContentType 'applicat
 }
 ```
 
-Jibu hilo linamaanisha ombi lilikuwa limepangwa, si kwamba lilitumwa. Katika kipindi hiki, 0.5 cTAZ ya bomba ilichimbwa kwenye kitalu namba 33,306 na ilitumika kwenye kitalu namba 33,322. Uliza mara moja: bomba linashirikiwa, na ombi la pili la anwani hiyo hiyo linakataliwa wakati ya kwanza inasubiriwa ([chanzo](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/wallet/src/lib.rs#L3553)).
+Jibu hilo linamaanisha ombi limewekwa kwenye foleni, si kwamba limetumwa. Katika uendeshaji huu, cTAZ 0.5 ya chanzo cha sarafu za bure ilichimbwa kwenye block 33,306 na ingeweza kutumika kwenye block 33,322. Omba mara moja: chanzo cha sarafu za bure kinashirikiwa, na ombi la pili la anwani ileile hukataliwa wakati la kwanza linasubiri ([source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/wallet/src/lib.rs#L3553)).
 
-### Au muulize mshiriki mwingine
+### Au muombe mshiriki mwingine
 
-Mtu yeyote kwenye mtandao anaweza kukutumia cTAZ kwa kutumia kitufe cha **Tuma** cha programu. Katika kipindi hiki, mshiriki mwingine alituma cTAZ 31. Ilifika kama "Imepokelewa" ikiwa na ujumbe "tuma kutoka kwa mkoba wa mtumiaji", ambao ni ujumbe ambao programu yenyewe inaambatisha ([chanzo](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/wallet/src/lib.rs#L5036)). Uliza katika [uzi wa jukwaa](https://forum.zcashcommunity.com/t/crosslink-incentivized-feature-net/55210), na toa anwani yako pekee.
+Mtu yeyote kwenye mtandao anaweza kukutumia cTAZ kwa kitufe cha **Send** cha programu. Katika uendeshaji huu mshiriki mwingine alituma cTAZ 31. Iliwasili kama “Received” ikiwa na dokezo “send from user wallet”, ambalo ni dokezo ambalo Send ya programu yenyewe huambatisha ([source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/wallet/src/lib.rs#L5036)). Omba katika [forum thread](https://forum.zcashcommunity.com/t/crosslink-incentivized-feature-net/55210), na toa anwani yako pekee.
 
-Sarafu za mfereji na zawadi zinatosha kujifunza kuweka akiba. Hazihesabiwi kwenye zawadi za ZEC.
+Sarafu za chanzo cha sarafu za bure na zawadi zinatosha kujifunza kuweka sarafu. Hazihesabiki kuelekea zawadi za ZEC.
 
-### Angalia unachoweza kutumia
+### Hakiki unachoweza kutumia
 
 ```powershell
 Invoke-RestMethod -Uri http://127.0.0.1:8232 -Method Post -ContentType 'application/json' -Body '{"jsonrpc":"2.0","method":"wallet_spendable_funds","params":[],"id":1}' | ConvertTo-Json -Depth 20
 ```
 
-Hili lilikuwa jibu mara tu 0.5 cTAZ ya bomba ilipofika, huku anwani ikiwa imefupishwa:
+Hili lilikuwa jibu baada ya cTAZ 0.5 ya chanzo cha sarafu za bure kuwasili, huku anwani ikiwa imefupishwa:
 
 ```text
 {
@@ -212,62 +212,62 @@ Hili lilikuwa jibu mara tu 0.5 cTAZ ya bomba ilipofika, huku anwani ikiwa imefup
 }
 ```
 
-Kiasi kiko katika zatoshis: 100,000,000 hutengeneza cTAZ moja. Sarafu zilizolindwa zinahitaji uthibitisho 3 kabla hazijahesabiwa kama zinazoweza kutumika ([chanzo](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebra-rpc/src/methods.rs#L621-L634)Sarafu kutoka kwenye bomba na kutoka kwa washiriki wengine zinatua ndani `spendable_zats`Sarafu zilizochimbwa zina uwazi, kwa hivyo zinatua ndani `unshielded_zats` ([chanzo](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/wallet/src/lib.rs#L4659)).
+Kiasi kiko katika zatoshi: 100,000,000 hutengeneza cTAZ moja. Sarafu za faragha huhitaji uthibitisho 3 kabla hazijahesabika kuwa zinaweza kutumika ([source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebra-rpc/src/methods.rs#L621-L634)). Sarafu kutoka chanzo cha sarafu za bure na kutoka kwa washiriki wengine hutua katika `spendable_zats`. Sarafu zilizochimbwa ni za uwazi, kwa hivyo hutua katika `unshielded_zats` ([source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/wallet/src/lib.rs#L4659)).
 
-Kizuizi kimoja baada ya dau la pili kwenye mbio hizi, salio lililobaki lilionekana chini ya `pending_zats`Vitalu vichache baadaye iliwezekana tena kutumika.
+Block moja baada ya uwekaji wa pili wa sarafu katika uendeshaji huu, salio lililosalia lilionyeshwa chini ya `pending_zats`. Block chache baadaye lingeweza kutumika tena.
 
-## Hatua ya 4: Weka dau kwa mkamilishaji
+## Hatua ya 4: Weka sarafu kwa kithibitishaji cha mwisho
 
-### Subiri Siku ya Kusubiri
+### Subiri Siku ya Kuweka Sarafu
 
-Kuweka, kufungua na kutoa hukubaliwa tu wakati
+Kuweka sarafu, kuondoa sarafu zilizowekwa na kutoa hukubaliwa tu wakati
 
 ```text
 block height mod 10,368 < 3,456
 ```
 
-ambayo ni dirisha la vitalu 3,456 mwanzoni mwa kila 10,368. Katika lengo la vitalu vya sekunde 25 la mtandao huo, hiyo ni siku moja katika kila tatu ([chanzo](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/librustzcash/zcash_primitives/src/transaction/mod.rs#L1540-L1547)Madirisha ya kwanza ya toleo la 14 yanafunguliwa katika vitalu 20,736, 31,104, 41,472 na 51,840.
+ambapo ni dirisha la block 3,456 mwanzoni mwa kila block 10,368. Kwa lengo la mtandao la sekunde 25 kwa block, hiyo ni siku moja katika kila siku tatu ([source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/librustzcash/zcash_primitives/src/transaction/mod.rs#L1540-L1547)). Madirisha ya kwanza ya toleo la 14 hufunguliwa kwenye block 20,736, 31,104, 41,472 na 51,840.
 
-Kulingana na maelezo ya kutolewa, programu inatangaza mwanzo na mwisho wa kila Siku ya Kuweka. Katika kipindi hiki orodha yake ya vizuizi ilionyesha mstari mwekundu wa "* STAKING DAY END *" kati ya vizuizi 34,559 na 34,560.
+Kulingana na maelezo ya toleo, programu hutangaza mwanzo na mwisho wa kila Siku ya Kuweka Sarafu. Katika uendeshaji huu orodha yake ya block ilionyesha mstari mwekundu wa “* STAKING DAY END *” kati ya block 34,559 na 34,560.
 
-**Maelezo ya kutolewa yanasema mambo mawili.** Orodha yao ya mabadiliko inatoa "~siku 1 kwa Siku ya Kuweka na ~siku 3 kwa Mzunguko wa Kuweka", ambayo inalingana na msimbo. Zaidi ya hayo, sehemu iliyopitishwa kutoka Msimu wa 1 bado inasema Siku ya Kuweka huanza kila baada ya vitalu 150 na hudumu 70. Endelea na ya kwanza. Mstari wa mwisho hapo juu upo ambapo sheria ya kwanza inafunga dirisha (34,560 mod 10,368 = 3,456); chini ya sheria ya pili kizuizi 34,560 kingeangukia ndani ya dirisha.
+**Maelezo ya toleo yanasema mambo mawili.** Orodha yake ya mabadiliko hutoa “~siku 1 kwa Siku ya Kuweka Sarafu na ~siku 3 kwa Mzunguko wa Kuweka Sarafu”, jambo linalolingana na msimbo. Chini zaidi, sehemu iliyohamishwa kutoka Msimu wa 1 bado inasema Siku ya Kuweka Sarafu huanza kila block 150 na kudumu 70. Fuata ya kwanza. Mstari wa mwisho hapo juu hukaa mahali ambapo kanuni ya kwanza hufunga dirisha (34,560 mod 10,368 = 3,456); chini ya kanuni ya pili block 34,560 ingeanguka ndani ya dirisha.
 
-### Chagua kimalizia
+### Chagua kithibitishaji cha mwisho
 
-Kifaa cha kumalizia hupewa jina kwa utambulisho wake, mfuatano unaoanza na `zfinv1`ZecHub huchapisha utambulisho wa kimaliziaji kinachoendesha [`zechub_validator_crosslink.json`](https://github.com/ZecHub/zechub/blob/main/zechub_validator_crosslink.json):
+Kithibitishaji cha mwisho hutajwa kwa utambulisho wake, mfuatano unaoanza na `zfinv1`. ZecHub huchapisha utambulisho wa kithibitishaji cha mwisho kinachoendesha katika [`zechub_validator_crosslink.json`](https://github.com/ZecHub/zechub/blob/main/zechub_validator_crosslink.json):
 
 ```text
 zfinv1j65qJgeSId7ssZk6a71NvQG2KjD5hfJCYxWkCSPvQSmwibffVw52UYU72wKbrEL0-cw-C4PQoO5IlLgbsgA3q_Gf1mzYIKcnixNP9XXVgphIDuLI6RBMhjFfYWyzp4YN
 ```
 
-Nakili utambulisho kutoka kwa chanzo unachokiamini. Kulingana na maelezo ya kutolewa, programu pia inaorodhesha wakamilishaji katika paneli yake ya kulia, huku aikoni ya kunakili ikiwa kushoto kwa kila moja.
+Nakili utambulisho kutoka chanzo unachokiamini. Kulingana na maelezo ya toleo, programu pia huorodhesha vithibitishaji vya mwisho katika paneli yake ya upande wa kulia, ikiwa na ikoni ya kunakili upande wa kushoto wa kila kimoja.
 
-Baada ya kuweka dau, historia ya pochi na RPC huitaja kimaliziaji kwa kutumia ufunguo wa heksaidi badala ya utambulisho wake. Kwa kimaliziaji ZecHub's ufunguo huo ni `2941ef23...266aae8f`.
+Baada ya kuweka sarafu, historia ya pochi na RPC hutaja kithibitishaji cha mwisho kwa ufunguo wa hex badala ya utambulisho wake. Kwa kithibitishaji cha mwisho cha ZecHub ufunguo huo ni `2941ef23...266aae8f`.
 
-Chagua kimalizia unachokiamini. Muundo hauna ukata otomatiki, lakini unaruhusu "uma mgumu unaoratibiwa na mtumiaji ambao huchoma hisa zote zilizokabidhiwa kwa kimalizia kilichopewa jina" ([Kitabu cha Crosslink, muhtasari wa muundo](https://shieldedlabs.github.io/crosslink_book/branches/main/crosslink-design-overview-20260914.html)).
+Chagua kithibitishaji cha mwisho unachokiamini. Usanifu hauna ukataji wa kiotomatiki, lakini huruhusu “hard fork inayoratibiwa na watumiaji inayochoma sarafu zote zilizowekwa zilizokabidhiwa kwa kithibitishaji cha mwisho kilichotajwa” ([Crosslink book, muhtasari wa usanifu](https://shieldedlabs.github.io/crosslink_book/branches/main/crosslink-design-overview-20260914.html)).
 
-Chaguo pia huamua ni nani anayepiga kura. Kila dhamana inayofanya kazi hupata sehemu yake ya zawadi ya dau. Ikiwa mshindi wake ni miongoni mwa 12 kwenye orodha, sehemu ya kumi ya hisa hiyo huenda kwa mshindi kama kamisheni. Dhamana inayoelekezwa kwa mshindi nje ya 12 huhifadhi sehemu yake yote, lakini mshindi huyo hapigi kura ([chanzo](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebra-state/src/service.rs#L2063-L2079)).
+Chaguo pia huamua ni nani anayepiga kura. Kila dhamana hai hupata sehemu yake ya zawadi ya kuweka sarafu. Ikiwa kithibitishaji chake cha mwisho ni miongoni mwa 12 katika orodha, sehemu ya kumi ya sehemu hiyo huenda kwa kithibitishaji cha mwisho kama kamisheni. Dhamana iliyoelekezwa kwa kithibitishaji cha mwisho kilicho nje ya 12 huweka sehemu yake yote, lakini kithibitishaji hicho cha mwisho hakipigi kura ([source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebra-state/src/service.rs#L2063-L2079)).
 
-### Dau
+### Weka sarafu
 
-1. Nakili utambulisho wa kimaliziaji.
-2. Kwenye kichupo cha **Pochi Yako**, bonyeza **Dalali**.
-3. Bonyeza **Bandika Utambulisho**. Mstari ulio juu ya kitufe hubadilika hadi herufi ya kwanza na ya mwisho ya utambulisho, `[zfinv1j6..YWyzp4YN]` kwa ZecHub's. Iangalie kabla ya kuendelea.
-4. Bonyeza kiasi. Kiasi huja katika hatua zisizobadilika, ndogo zaidi ni 0.01 cTAZ, na ni kiasi gani salio lako linafunikwa ndicho pekee kinachowashwa. Kwa 0.5 cTAZ, +0.01 cTAZ na +0.1 cTAZ zilikuwa.
+1. Nakili utambulisho wa kithibitishaji cha mwisho.
+2. Katika kichupo cha **Your Wallet**, bonyeza **Stake**.
+3. Bonyeza **Paste Identity**. Mstari ulio juu ya kitufe hubadilika kuwa herufi za kwanza na za mwisho za utambulisho, `[zfinv1j6..YWyzp4YN]` kwa ule wa ZecHub. Uhakiki kabla ya kuendelea.
+4. Bofya kiasi. Kiasi huja katika hatua zisizobadilika, kidogo zaidi ni cTAZ 0.01, na ni kiasi tu ambacho salio lako linatosheleza huwashwa. Kwa cTAZ 0.5, +0.01 cTAZ na +0.1 cTAZ ziliwashwa.
 
-**Hakuna kinachokuomba uthibitishe, na hakuna kinachoonekana kutokea.** Katika jaribio hili, kwa maneno ya mjaribu: "Niliibofya mara moja na hakuna kilichotokea, iligeuka kijivu na kuwaka tena." Dau lilikuwa limepita. Historia ya pochi ilionyesha "Imepigwa @ 33334 hadi 2941ef23..266aae8f", ada ilikuwa 0.00015 cTAZ, na pochi ilionyesha 0.010 cTAZ Imepigwa. Dau la pili dakika chache baadaye lilitengeneza dhamana ya pili, katika kitalu namba 33,348.
+**Hakuna chochote kinachokuomba uthibitishe, na hakuna kinachoonekana kutokea.** Katika uendeshaji huu, kwa maneno ya mjaribu: “Nilibofya mara moja na hakuna kilichotokea, kilikuwa kijivu tu kisha kikawaka tena.” Uwekaji wa sarafu ulikuwa umepita. Historia ya pochi ilionyesha “Staked @ 33334 to 2941ef23..266aae8f”, ada ilikuwa cTAZ 0.00015, na pochi ilionyesha cTAZ 0.010 Staked. Uwekaji wa pili wa sarafu dakika chache baadaye ulitengeneza dhamana ya pili, kwenye block 33,348.
 
-Kila hisa huunda dhamana yake ya ugawaji. Kiasi kilichowekwa na Siku ya Uwekaji Dau vyote vipo kwa ajili ya faragha: hufanya iwe vigumu kutofautisha hisa ya mtu mmoja na ya mwingine.
+Kila uwekaji wa sarafu hutengeneza dhamana yake ya ukabidhi. Kiasi kisichobadilika na Siku ya Kuweka Sarafu vyote vipo kwa faragha: hufanya sarafu zilizowekwa za mtu mmoja kuwa vigumu zaidi kutofautishwa na za mwingine.
 
-## Hatua ya 5: Angalia msimamo wako
+## Hatua ya 5: Angalia nafasi yako
 
-### Vifungo vyako
+### Dhamana zako [bonds]
 
 ```powershell
 Invoke-RestMethod -Uri http://127.0.0.1:8232 -Method Post -ContentType 'application/json' -Body '{"jsonrpc":"2.0","method":"wallet_staking_positions","params":[],"id":1}' | ConvertTo-Json -Depth 20
 ```
 
-Hili lilikuwa jibu katika kitalu namba 36,490, siku mbili baada ya kuwekewa dau:
+Hili lilikuwa jibu katika block 36,490, siku mbili baada ya kuweka sarafu [staking]:
 
 ```text
 {
@@ -299,21 +299,21 @@ Hili lilikuwa jibu katika kitalu namba 36,490, siku mbili baada ya kuwekewa dau:
 }
 ```
 
-Simu haichukui vigezo. Inarudisha vifungo vyako vinavyofanya kazi, vilivyowekwa chini ya ufunguo wa kimaliziaji kila kimoja kikirudi nyuma, na vifungo ambavyo vimemaliza kufungua na vinaweza kutolewa. Kila kifungo kinaonyesha kiasi kilichowekwa kwenye dau (`initial_val`), thamani yake sasa (`latest_val`), na muamala na urefu wa kitalu uliouunda. Zawadi huongezwa kwenye dhamana yenyewe: kwa kitalu 36,490 kila dhamana ya zatoshi 1,000,000 ilikuwa imekua hadi 1,003,451.
+Mwito huo hauchukui vigezo. Hurejesha dhamana zako zinazotumika, zilizopangwa chini ya ufunguo wa kithibitishaji cha mwisho [finalizer] ambacho kila moja inaunga mkono, na dhamana ambazo zimemaliza kutoa sarafu na zinaweza kutolewa. Kila dhamana huonyesha kiasi kilichowekwa [staked] (`initial_val`), thamani yake sasa (`latest_val`), na muamala na urefu wa block vilivyoiumba. Tuzo huongezwa kwenye dhamana yenyewe: kufikia block 36,490 kila dhamana ya zatoshis 1,000,000 ilikuwa imekua hadi 1,003,451.
 
-**Dirisha la Kubadilisha Kigingi linaonyesha kila bondi kubwa mara kumi kupita kiasi.** Katika jaribio hili, kila bondi ya 0.01 cTAZ ilisoma 0.100 cTAZ kwenye safu yake, na 0.1003536 cTAZ mara tu zawadi zilipoanza, huku jumla zilizo juu ya safu (0.020 cTAZ, baadaye 0.02007 cTAZ) zikikubaliana na RPC. Pitia jumla na RPC.
+**Dirisha la Edit Stake huonyesha kila dhamana ikiwa kubwa mara kumi kupita kiasi.** Katika utekelezaji huu, kila dhamana ya cTAZ 0.01 ilisomeka cTAZ 0.100 kwenye mstari wake, na cTAZ 0.1003536 baada ya tuzo kuanza, ilhali jumla zilizo juu ya mistari (cTAZ 0.020, baadaye cTAZ 0.02007) zilikubaliana na RPC. Tegemea jumla na RPC.
 
-Dirisha hilo hilo liliweka pembetatu ya onyo karibu na kimalizia, kabla na baada ya kuanza kwa mwisho. Katika chanzo, pembetatu hiyo inamaanisha programu yako haihesabii kimalizia hicho kama mtandaoni, na cha mtandaoni kinapata aikoni ya Wi-Fi badala yake ([chanzo](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-gui/src/ui.rs#L2646-L2648)Dhamana zilipata zawadi hata hivyo.
+Dirisha hilohilo liliweka pembetatu ya onyo kando ya kithibitishaji cha mwisho, kabla na baada ya uthibitisho wa mwisho kuanza. Katika msimbo chanzi, pembetatu hiyo inamaanisha programu yako hailihesabu kithibitishaji hicho cha mwisho kuwa mtandaoni, na lililo mtandaoni hupata ikoni ya Wi-Fi badala yake ([source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-gui/src/ui.rs#L2646-L2648)). Dhamana zilipata tuzo hata hivyo.
 
-### Waamuzi wa mwisho
+### Vithibitishaji vya mwisho
 
 ```powershell
 Invoke-RestMethod -Uri http://127.0.0.1:8232 -Method Post -ContentType 'application/json' -Body '{"jsonrpc":"2.0","method":"get_tfl_recency_status","params":[],"id":1}' | ConvertTo-Json -Depth 20
 ```
 
-Kulingana na maelezo ya kutolewa, hii inaripoti mahali ambapo nodi yako iko katika mchakato wa kupiga kura na, kwa kila mkamilishaji, nodi yako ilisikia mara ya mwisho kutoka kwake na jinsi imekuwa ikipiga kura.
+Kulingana na maelezo ya toleo, hii huripoti mahali node yako ilipo katika mchakato wa kupiga kura na, kwa kila kithibitishaji cha mwisho, mara ya mwisho node yako ilisikia kutoka kwake na jinsi ambavyo imekuwa ikipiga kura.
 
-Kabla ya kitalu 36,288 kila sehemu ni sifuri na orodha ni tupu. Hili lilikuwa jibu katika kitalu 33,354:
+Kabla ya block 36,288 kila sehemu ni sifuri na orodha haina kitu. Hili lilikuwa jibu katika block 33,354:
 
 ```text
 {
@@ -333,7 +333,7 @@ Kabla ya kitalu 36,288 kila sehemu ni sifuri na orodha ni tupu. Hili lilikuwa ji
 }
 ```
 
-Baada ya fainali kuanza, orodha inashikilia wahitimu kwenye orodha. Katika kizuizi cha 36,490 ilishikilia nafasi 12, ZecHub's `2941ef23...` miongoni mwao, ambayo inalingana na kikomo cha orodha cha 12. Huu ndio mwanzo wa jibu hilo, lililokatwa baada ya ingizo la kwanza:
+Baada ya uthibitisho wa mwisho kuanza, orodha hushikilia vithibitishaji vya mwisho vilivyo kwenye orodha rasmi. Katika block 36,490 ilishikilia 12, ZecHub's `2941ef23...` miongoni mwazo, jambo linalolingana na kikomo cha orodha rasmi cha 12. Huu ni mwanzo wa jibu hilo, uliokatwa baada ya ingizo la kwanza:
 
 ```text
 {
@@ -367,11 +367,11 @@ Baada ya fainali kuanza, orodha inashikilia wahitimu kwenye orodha. Katika kizui
                                               ],
 ```
 
-Dakika chache baadaye paneli ya kulia ya programu ilionyesha "Vifaa vya Kumalizia (23)".
+Dakika chache baadaye paneli ya upande wa kulia ya programu ilionyesha “Vithibitishaji vya mwisho (23)”.
 
-### Kwenye Linux na macOS
+### Kuhusu Linux na macOS
 
-Ya [chanzo](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebra-rpc/src/methods.rs#L602-L610) anatoa simu ndani `curl` fomu. Badilisha jina la mbinu kwa simu zingine. Fomu hii haikuendeshwa kwa mwongozo huu:
+[source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebra-rpc/src/methods.rs#L602-L610) hutoa mwito katika muundo wa `curl`. Badilisha jina la mbinu kwa miito mingine. Muundo huu haukutekelezwa kwa mwongozo huu:
 
 ```bash
 curl -X POST -H "Content-Type: application/json" -d \
@@ -379,11 +379,11 @@ curl -X POST -H "Content-Type: application/json" -d \
 http://127.0.0.1:8232
 ```
 
-Kwenye Linux, maelezo ya kutolewa yanasema labda unahitaji `xclip` imewekwa kabla ya kunakili na kubandika kazi katika programu.
+Kwenye Linux, maelezo ya toleo yanasema huenda ukahitaji `xclip` kusakinishwa kabla ya kunakili na kubandika kufanya kazi kwenye programu.
 
-### Jina moja la RPC la kutazama
+### Jina moja la RPC la kuangalia
 
-Maelezo ya toleo la 14 yanaelezea wito wa kusubiri uliopewa jina `wallet_staking_action` ambayo inachukua kitu. Msimbo chanzo wa toleo la 14 hauna njia ya jina hilo, na katika kipindi hiki nodi ilijibu:
+Maelezo ya toleo la 14 yanaeleza mwito wa kuweka sarafu unaoitwa `wallet_staking_action` unaochukua kitu. Msimbo chanzi wa toleo la 14 hauna mbinu ya jina hilo, na katika utekelezaji huu node ilijibu:
 
 ```text
 {
@@ -396,53 +396,53 @@ Maelezo ya toleo la 14 yanaelezea wito wa kusubiri uliopewa jina `wallet_staking
 }
 ```
 
-Mbinu ya kuweka dau inayosajiliwa ni [`staking_command`](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebra-rpc/src/methods.rs#L418-L420), ambayo inachukua mfuatano mmoja unaoshikilia ombi kama JSON, huku kimaliziaji kikitolewa na `zfinv1` utambulisho ([chanzo](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebra-crosslink/src/lib.rs#L750-L760)Haikujaribu kwa mwongozo huu.
+Mbinu ya kuweka sarafu inayosajili ni [`staking_command`](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebra-rpc/src/methods.rs#L418-L420), ambayo huchukua mfuatano mmoja unaoshikilia ombi kama JSON, huku kithibitishaji cha mwisho kikitolewa kwa utambulisho wake wa `zfinv1` ([source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebra-crosslink/src/lib.rs#L750-L760)). Haikujaribiwa kwa mwongozo huu.
 
-## Ondoa na utoe dau
+## Toa sarafu na utoe
 
-Dhamana haiwezi kutenguliwa siku ambayo imetengenezwa. Inachukua Siku tatu za Kuweka Dhamana kuanzia mwanzo hadi mwisho: kuweka dau katika moja, kuondoa dau katika nyingine ya baadaye, kutoa dau katika theluthi. Maelezo ya kutolewa yanaongeza kuwa dhamana moja haiwezi kuchukua hatua mbili za kuweka dau katika Siku hiyo hiyo ya Kuweka Dhamana.
+Dhamana haiwezi kubatilishwa siku ambayo inafanywa. Huchukua Siku tatu za Kuweka Sarafu [Staking Days] kutoka mwanzo hadi mwisho: weka sarafu katika moja, toa sarafu katika nyingine ya baadaye, na utoe katika ya tatu. Maelezo ya toleo yanaongeza kwamba dhamana moja haiwezi kuchukua hatua mbili za kuweka sarafu katika Siku moja ya Kuweka Sarafu.
 
-*Haitumiki kwa mwongozo huu. Kutoka kwa maelezo ya toleo la 14:* ili kuondoa dau, bonyeza **Hariri Dau**, chagua dhamana kutoka kwenye orodha ya Dhamana Zilizowekwa na ubofye aikoni ya kiungo cha mnyororo. Ili kutoa dau katika Siku ya Kuweka Dau baadaye, bonyeza **Hariri Dau**, chagua dhamana kutoka kwenye orodha ya Dhamana Zinazoweza Kutolewa na ubofye aikoni ya pesa. Kuhamisha dhamana hadi kwenye kimaliziaji tofauti, ambacho noti hukiita kulenga upya, kinaruhusiwa wakati wowote.
+*Haikutekelezwa kwa mwongozo huu. Kutoka maelezo ya toleo la 14:* ili kutoa sarafu, bonyeza **Edit Stake**, chagua dhamana kutoka orodha ya Staked Bonds na ubofye ikoni ya kiungo cha mnyororo. Ili kutoa katika Siku ya Kuweka Sarafu ya baadaye, bonyeza **Edit Stake**, chagua dhamana kutoka orodha ya Withdrawable Bonds na ubofye ikoni ya pesa. Kuhamisha dhamana hadi kithibitishaji tofauti cha mwisho, ambako maelezo yanaita retargeting, kunaruhusiwa wakati wowote.
 
-## Mahali pa kutazama mtandao
+## Mahali pa kufuatilia mtandao
 
-Ya [Kichupo cha Crosslink kwenye Zana za ZecHub](https://zechub.wiki/tools?tool=crosslink) hukusanya vifaa hivyo mahali pamoja, chini ya taarifa inayosomeka "Kuweka kwenye mtandao huu hakuhamishi ZEC":
+Kichupo cha [Crosslink kwenye ZecHub Tools](https://zechub.wiki/tools?tool=crosslink) hukusanya vifaa [tools] mahali pamoja, chini ya taarifa inayosomeka “Kuweka sarafu kwenye mtandao huu hakuhamishi ZEC”:
 
-- Imepangishwa, bila nodi inayohitajika: [Nafasi ya Staker](https://crosslink.staker.space/), "dashibodi ya moja kwa moja ya mtandao wa majaribio wa cTAZ wa sasa" yenye urefu, wachimbaji, kiwango cha suluhisho, kuhesabu na mwisho wa Siku ya Kuweka, na [ctaz.cash](https://ctaz.cash/), pamoja na uzalishaji wa madini, orodha ya wakamilishaji, wenzao na madai ya jina la anwani ya hisa.
-- Kwenye mashine yako mwenyewe: `zcash-explorer`, ambaye `/live/crosslink` Ukurasa unaonyesha uanzishaji, kuchelewa kwa mwisho, orodha ya wagombea na nafasi za kusimama, na `crosslink_indexer`, faharasa ya SQLite ya nodi Crosslink.
+- Vinavyopangishwa, bila node inayohitajika: [Staker Space](https://crosslink.staker.space/), “dashibodi [dashboard] ya moja kwa moja ya cTAZ testnet ya sasa” yenye urefu, wachimbaji [miners], kiwango cha suluhisho, hesabu ya kurudi nyuma ya Siku ya Kuweka Sarafu na uthibitisho wa mwisho, na [ctaz.cash](https://ctaz.cash/), yenye uzalishaji wa uchimbaji [mining], orodha rasmi ya vithibitishaji vya mwisho, rika na madai ya majina ya anwani za kuweka sarafu.
+- Kwenye mashine yako mwenyewe: `zcash-explorer`, ambayo ukurasa wake wa `/live/crosslink` huonyesha uanzishaji, ucheleweshaji wa uthibitisho wa mwisho, orodha rasmi na nafasi za kuweka sarafu, na `crosslink_indexer`, faharasa ya SQLite ya node ya Crosslink.
 
 ## Makosa ya kawaida
 
-**Kupanga saa nzima badala ya urefu wa vitalu.** Siku za Kuweka huhesabiwa katika vitalu. Tazama kuhesabu chini ya dashibodi, si kalenda.
+**Kupanga kwa kutegemea saa badala ya urefu wa block.** Siku za Kuweka Sarafu huhesabiwa kwa block. Angalia hesabu ya kurudi nyuma ya dashibodi, wala si kalenda.
 
-**Kuweka akiba katika dakika za mwisho za dirisha.** Sheria imeangaliwa dhidi ya kizuizi kinachojumuisha muamala wako ([chanzo](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebra-consensus/src/transaction.rs#L941-L953)), kwa hivyo dau lazima lichimbwe kabla dirisha halijafungwa, si tu kutumwa.
+**Kuweka sarafu katika dakika za mwisho za dirisha.** Kanuni hukaguliwa dhidi ya block inayojumuisha muamala wako ([source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebra-consensus/src/transaction.rs#L941-L953)), kwa hivyo sarafu lazima ichimbwe kabla ya dirisha kufungwa, si kutumwa tu.
 
-**Natarajia kuchimba hisa yako.** Mchimbaji wa CPU mwenye nyuzi nne kwenye Intel Core i5-8350U hakupata kizuizi kati ya tarehe 8 na 9 Oktoba. Pata cTAZ yako ya kwanza kutoka kwenye bomba au kutoka kwa mshiriki mwingine.
+**Kutarajia kuchimba dhamana yako.** Mchimbaji wa CPU mwenye nyuzi nne kwenye Intel Core i5-8350U hakupata block kati ya 8 na 9 Oktoba. Pata cTAZ yako ya kwanza kutoka chanzo cha sarafu za bure [faucet] au kutoka kwa mshiriki mwingine.
 
-**Kubofya tena kwa sababu hakuna kilichoonekana kutokea.** Kila kubofya kiasi ni dhamana mpya. Angalia historia ya pochi au `wallet_staking_positions` kwanza.
+**Kubofya tena kwa sababu hakuna kilichoonekana kutokea.** Kila mbofyo kwenye kiasi ni dhamana mpya. Angalia historia ya pochi [wallet] au `wallet_staking_positions` kwanza.
 
-**Kuwa na wasiwasi baada ya kuanza upya.** Salio lako na dau lako husoma sifuri hadi pochi itakapochanganuliwa tena. Subiri Usawazishaji wa Pochi ukamilike.
+**Kuogopa baada ya kuwasha upya.** Salio lako na sarafu ulizoweka zitasomeka sifuri hadi pochi itakapokuwa imechanganua upya. Subiri Wallet Sync ikamilike.
 
-**Kuichukulia cTAZ kama pesa ya mchezo, au siri kama isiyo na madhara.** cTAZ ni sarafu ya majaribio, lakini cTAZ unayopata huamua sehemu yako ya ZEC `secret.seed` kama vile ungefanya kwenye pochi.
+**Kuchukulia cTAZ kuwa pesa za mchezo, au siri kuwa isiyo na madhara.** cTAZ ni sarafu ya majaribio, lakini cTAZ unayopata huamua sehemu yako ya ZEC halisi. Linda `secret.seed` kama ambavyo ungelinda pochi.
 
-**Kusoma maagizo ya zamani.** Maelezo ya kutolewa yana maandishi kutoka misimu ya awali karibu na sheria mpya. Pale ambapo hayakubaliani na kile ambacho nodi yako inafanya, nodi yako iko sahihi.
+**Kusoma maelekezo ya zamani.** Maelezo ya toleo hubeba maandishi kutoka misimu ya awali pamoja na sheria mpya. Pale yanapotofautiana na kile ambacho node yako hufanya, node yako iko sahihi.
 
 ## Kurasa zinazohusiana
 
-- [Itifaki ya Crosslink](/zcash-tech/crosslink-protocol) - muundo ambao mtandao huu unajaribu
+- [Crosslink Protocol](/zcash-tech/crosslink-protocol) - muundo ambao mtandao huu hujaribu
 - [Shielded Labs](/zcash-organizations/shielded-labs) - timu iliyo nyuma ya Crosslink
-- [Kuthibitisha Matoleo Zcash](/guides/verifying-zcash-releases) - kile ambacho checksum hufanya na kile ambacho haithibitishi
-- [Kifundo Kamili cha Zebra](/zcash-tech/zebra-full-node) - nodi ambayo programu Feature Net imejengwa juu yake
+- [Kuthibitisha Matoleo ya Zcash](/guides/verifying-zcash-releases) - kile ambacho checksum huthibitisha na kisichothibitisha
+- [Zebra Full Node](/zcash-tech/zebra-full-node) - node ambayo programu ya Feature Net imejengwa juu yake
 - [Zcash Testnet](/using-zcash/testnet) - mtandao wa kawaida wa majaribio wa Zcash, ambao ni mtandao tofauti
 
 ## Vyanzo
 
-- [Maelezo ya kutolewa ya Toleo la 14](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v14), Shielded Labs, 1 Oktoba 2026
-- [Crosslink: Vipengele vya Chanzo Vilivyochochewa](https://shieldedlabs.net/crosslink-incentivized-feature-nets/), Shielded Labs, 2 Aprili 2026
-- [Crosslink: Feature Net Kilichochochewa](https://forum.zcashcommunity.com/t/crosslink-incentivized-feature-net/55210), Jukwaa la Jumuiya Zcash
-- [Maswali Crosslink](https://shieldedlabs.net/crosslink-faq/), Shielded Labs
-- [Kitabu Crosslink](https://shieldedlabs.github.io/crosslink_book/), Shielded Labs
+- [Maelezo ya toleo la 14](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v14), Shielded Labs, 1 Oktoba 2026
+- [Crosslink: Feature Nets zenye motisha](https://shieldedlabs.net/crosslink-incentivized-feature-nets/), Shielded Labs, 2 Aprili 2026
+- [Crosslink: Feature Net yenye motisha](https://forum.zcashcommunity.com/t/crosslink-incentivized-feature-net/55210), Jukwaa la Jamii la Zcash
+- [Crosslink Maswali Yanayoulizwa Mara kwa Mara](https://shieldedlabs.net/crosslink-faq/), Shielded Labs
+- [Kitabu cha Crosslink](https://shieldedlabs.github.io/crosslink_book/), Shielded Labs
 
 ---
 
-*Hatua kwenye ukurasa huu ziliendeshwa na toleo la 14 la Feature Net kwenye Windows 11 (toleo la 10.0.26200.9550), kuanzia tarehe 8 hadi 10 Oktoba 2026. Taarifa inayotaja maelezo ya kutolewa au msimbo chanzo imechukuliwa kutoka kwao. Chochote kilichoandikwa "hakijaendeshwa" hakijajaribiwa.*
+*Hatua kwenye ukurasa huu zilitekelezwa kwa Feature Net toleo la 14 kwenye Windows 11 (toleo la 10.0.26200.9550), kuanzia 8 hadi 10 Oktoba 2026. Kauli inayorejelea maelezo ya toleo au msimbo chanzi imechukuliwa kutoka humo. Kitu chochote kilichowekwa alama “hakikutekelezwa” hakikujaribiwa.*

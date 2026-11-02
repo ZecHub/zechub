@@ -1,206 +1,206 @@
-# Itifaki Iliyohifadhiwa, Mwisho kwa Mwisho
-##### Utafiti wa awali kutoka [Annkkitaaa](https://github.com/Annkkitaaa)
+# Itifaki ya Faragha, Mwanzo hadi Mwisho
+##### Utafiti Asili kutoka [Annkkitaaa](https://github.com/Annkkitaaa)
 
-! ![ alt maandishi](/content-images/image-27-4094293ec0.webp)
+![alt text](/content-images/image-27-4094293ec0.webp)
 
-### Kuunganisha kila kipande katika moja ya kibinafsi Zcash shughuli
+### Kuunganisha kila sehemu kuwa muamala mmoja wa faragha wa Zcash
 
-> **Series:** *Zcash kutoka Kanuni za Kwanza* . **Kifungu cha 6.
-> Wasikilizaji: wageni ambao wamesoma vifungu vya 0 hadi 5.
-> ** Nini wewe kuondoka na: ** kamili, sahihi mfano wa akili ya ulinzi Zcash shughuli, na kila dhana kutoka mfululizo katika nafasi yake sahihi, Na kila kitanzi kutoka Kifungu 0 kufungwa.
+> **Mfululizo:** *Zcash kutoka Kanuni za Kwanza* . **Makala ya 6 . Itifaki ya Faragha** (hitimisho)
+> **Hadhira:** wanaoanza ambao wamesoma Makala ya 0 hadi 5. Hapa ndipo kila kitu kinaunganishwa.
+> **Utakachobaki nacho:** muundo kamili na sahihi wa kiakili wa muamala wa faragha wa Zcash, wenye kila dhana kutoka katika mfululizo ikiwa mahali pake sahihi, na kila duara kutoka Makala ya 0 likiwa limefungwa.
 
-Tulianza, katika [Kifungu cha 0](article-0-shielded-transaction.md), with a paradox and a story about sealed envelopes on a public board. Then we spent five articles building the parts: finite fields, elliptic curves, commitments, Merkle trees, and zero-knowledge proofs. Now we put them together and watch a real private payment work, start to finish.
-
----
-
-## 1. Kwa nini unapaswa kuhangaikia jambo hilo?
-
-Kila mmoja, kila kipande umejifunza ni wajanja. Lakini *uchawi* wa Zcash uko katika jinsi wanavyoingiliana. Nullifier peke yake haitoi faragha. Kujitolea peke yake hakuzuii udanganyifu. Uthibitisho peke yake hauonyeshi chochote muhimu. Ni **mkusanyiko** ambao hubadilisha sehemu tano kuwa pesa ambazo ni za kibinafsi na za kuaminika wakati huo huo.
-
-Makala hii ni mkutano. Mwisho, hukumu *"mtandao kuthibitisha shughuli haiwezi kuona"* kujisikia si kama paradox lakini kama matokeo ya wazi ya sehemu tayari kuelewa.
+Tulianza, katika [Makala ya 0](article-0-shielded-transaction.md), kwa kitendawili na simulizi kuhusu bahasha zilizofungwa kwenye ubao wa umma. Kisha tulitumia makala tano kujenga sehemu zake: nyuga zenye kikomo, mikunjo duaradufu, commitment, miti ya Merkle, na mathibitisho ya maarifa sifuri [zero-knowledge proofs]. Sasa tunaziunganisha na kutazama malipo halisi ya faragha yakifanya kazi, mwanzo hadi mwisho.
 
 ---
 
-## 2. Mchoro uliokusanywa tena
+## 1. Kwa nini unapaswa kujali?
 
-Hapa ni mfululizo mzima katika ukurasa mmoja, iliyowekwa ramani kutoka hadithi ya Kifungu 0 kwa mashine halisi.
+Kila sehemu uliyojifunza peke yake ina werevu. Lakini *uchawi* wa Zcash uko katika jinsi zinavyoungana. Nullifier pekee haitoi faragha. Commitment pekee haizuii ughushi. Thibitisho pekee halithibitishi jambo lolote muhimu. Ni **muunganiko** unaobadilisha vipengele vitano kuwa pesa ambazo kwa wakati mmoja zina faragha na zinaaminika.
 
-| Kipengele cha hadithi cha makala 0 | Sehemu halisi | Imejengwa kutoka |
+Makala hii ni muunganiko huo. Mwishoni, sentensi *“mtandao unathibitisha muamala ambao hauwezi kuuona”* haitahisi tena kama kitendawili bali kama tokeo dhahiri la sehemu ambazo tayari unaelewa.
+
+---
+
+## 2. Wahusika, wameunganishwa tena
+
+Huu hapa mfululizo mzima katika ukurasa mmoja, ukilinganisha simulizi la Makala ya 0 na utaratibu halisi.
+
+| Kipengele cha simulizi la Makala ya 0 | Sehemu halisi | Imejengwa kutoka |
 |---|---|---|
-| Pesa zilizo ndani ya bahasha | **Dokezo** (thamani, mpokeaji, nasibu) | imesimbwa kama vipengele vya uga (Kifungu cha 1) |
-| Bahasha isiyoonekana wazi iliyofungwa | **Ahadi ya Kumbuka** | Ahadi ya Pedersen / Sinsemilla (Kifungu cha 2, 3) |
-| Bodi ya umma | **Angalia mti wa ahadi** (nanga = mzizi wake) | Mti wa Merkle unaoongezeka (Sanaa ya 4) |
-| Tokeni tupu | **Kifuta null** | hash ya noti na ufunguo wa siri unaoendana na ZK (Kifungu cha 2, 3) |
-| "Pesa zinazoingia ni sawa na pesa zinazotoka" | **Ahadi za thamani + ukaguzi wa salio** | Ahadi za Pedersen zenye umbo la homomorphic (Kifungu cha 2, 3) |
-| Uchawi wa nyuma ya pazia | **Ushahidi wa kutojua chochote** | zk-SNARK juu ya saketi ya hesabu (Sanaa ya 5) |
-| "Ni wewe tu unayeweza kusoma bahasha yako" | **Dokezo lililosimbwa kwa njia fiche + funguo za kutazama** | usimbaji fiche + uongozi wa ufunguo (makala haya) |
+| Pesa ndani ya bahasha | **Dokezo [Note]** (thamani, mpokeaji, ubahatishaji) | husimbwa kama elementi za nyuga (Mak. 1) |
+| Bahasha iliyofungwa isiyoonekana yaliyomo | **Commitment ya dokezo [Note commitment]** | commitment ya Pedersen / Sinsemilla (Mak. 2, 3) |
+| Ubao wa umma | **Mti wa commitment za madokezo [Note commitment tree]** (anchor = mzizi wake) | mti wa Merkle unaoongezwa hatua kwa hatua (Mak. 4) |
+| Tokeni ya utupu | **Nullifier** | hash rafiki kwa ZK ya dokezo + ufunguo wa siri (Mak. 2, 3) |
+| “Pesa zinazoingia ni sawa na pesa zinazotoka” | **Commitment za thamani + ukaguzi wa salio [Value commitments + balance check]** | commitment za Pedersen homomofia (Mak. 2, 3) |
+| Uchawi wa nyuma ya pazia | **Thibitisho la maarifa sifuri [Zero-knowledge proof]** | zk-SNARK juu ya sakiti ya kihisabati (Mak. 5) |
+| “Ni wewe pekee unaweza kusoma bahasha yako” | **Dokezo lililosimbwa fiche + funguo za kutazama [Encrypted note + viewing keys]** | usimbaji fiche + mpangilio wa funguo (makala hii) |
 
 ---
 
-## 3. Funguo zinatoka wapi?
+## 3. Funguo zinatoka wapi
 
-Kila kitu mtumiaji anaweza kufanya mtiririko kutoka siri moja, ** kutumia ufunguo **, kwa njia ya uongozi moja ya njia moja (kila mshale ni derivation irreversible, ukarimu wa mitego katika vifungu 2 na 3):
+Kila kitu ambacho mtumiaji anaweza kufanya hutokana na siri moja, **ufunguo wa kutumia pesa [spending key]**, kupitia mpangilio wa njia moja (kila mshale ni utokaji usiorejesheka, kutokana na milango ya siri katika Makala ya 2 na 3):
 
-! ![ alt maandishi](/content-images/image-32-f443f9bb72.webp)
+![alt text](/content-images/image-32-f443f9bb72.webp)
 
-Mambo mawili yenye kustahili kuangaliwa, yote mawili matokeo ya makala za awali:
+Mambo mawili yanafaa kuzingatiwa, yote yakiwa matokeo ya makala za awali:
 
-- Kugawanyika hukuwezesha kutoa ** ufunguo wa kutazama ** (sema, kwa mkaguzi) ambayo inaonyesha shughuli zako ** bila ** kutoa nguvu ya kutumia. Faragha ni ya kuchagua, sio yote-au-hakuna.
-- Kila derivation ni ** one-way **: kushikilia ufunguo viewing kamwe inaruhusu mtu yeyote kupata ufunguzi wa matumizi, hasa elliptic-curve mtego kutoka Ibara ya 2 kufanya kazi yake.
-
----
-
-## 4. Kutumia noti: madai manne
-
-Kutumia noti binafsi, lazima kushawishi mtandao wa mambo manne mara moja ** bila kufunua noti, thamani yake, nafasi yake, au utambulisho wako.** Kila madai ni kuridhika na sehemu ambayo tayari kujua.
-
-! ![ alt maandishi](/content-images/image-31-86309af194.webp)
-
-Uthibitisho hufunua ** hakuna ** ya ukweli wa msingi (ambayo kumbuka, ambaye muhimu, nini thamani). Inaonyesha tu kwamba * madai yote manne ni kweli.* Hiyo ni hila nzima ya Zcash iliyohifadhiwa, iliyoonyeshwa kwenye mchoro mmoja.
+- Mgawanyo huu hukuruhusu kutoa **ufunguo wa kutazama [viewing key]** (kwa mfano, kwa mkaguzi) unaofichua miamala yako **bila** kumpa uwezo wa kutumia pesa. Faragha ni ya kuchagua, si ya yote-au-hakuna.
+- Kila utokaji ni wa **njia moja**: kumiliki ufunguo wa kutazama hakumruhusu kamwe mtu yeyote kurejesha ufunguo wa kutumia pesa, hasa kama mlango wa siri wa mkunjo duaradufu kutoka Makala ya 2 unavyofanya kazi yake.
 
 ---
 
-## 5. Mbinu ya kusawazisha thamani (malipo tuliyohifadhi)
+## 4. Kutumia dokezo: madai manne
 
-Nyuma katika vifungu 2 na 3 sisi alibainisha kuwa ahadi Pedersen ** kuongeza up **: ahadi ya `v_1` pamoja na ahadi ya `v_2` ni ahadi ya `v_1 + v_2`Hapa ni ambapo kwamba hulipa.
+Ili kutumia dokezo kwa faragha, lazima uushawishi mtandao kuhusu mambo manne kwa wakati mmoja **bila kufichua dokezo, thamani yake, nafasi yake, au utambulisho wako.** Kila dai hutimizwa na sehemu ambayo tayari unaijua.
 
-Kila kuingia na pato noti hubeba ** dhamana ya thamani **: ahadi Pedersen `v.G + r.H` Ambayo huficha kiasi chake. `v`Kwa sababu hizi kuongeza, mtandao unaweza mahesabu:
+![alt text](/content-images/image-31-86309af194.webp)
+
+Thibitisho halifichui **hata moja** ya hoja za msingi (ni dokezo gani, ufunguo wa nani, thamani gani). Linafichua tu kwamba *madai yote manne ni sahihi.* Huo ndio ujanja wote wa Zcash wa faragha, ulioelezwa katika mchoro mmoja.
+
+---
+
+## 5. Mbinu ya salio la thamani (faida tuliyohifadhi)
+
+Huko katika Makala ya 2 na 3 tulibaini kuwa commitment za Pedersen **hujumlishika**: commitment ya `v_1` pamoja na commitment ya `v_2` ni commitment ya `v_1 + v_2`. Hapa ndipo hilo linapolipa.
+
+Kila dokezo la ingizo na utoaji hubeba **commitment ya thamani [value commitment]**: commitment ya Pedersen `v.G + r.H` inayoficha kiasi chake `v`. Kwa sababu hizi hujumlishika, mtandao unaweza kukokotoa:
 
 ```
 (sum of input value commitments) − (sum of output value commitments)
 ```
 
-Kama shughuli ni uwiano (hakuna fedha kuundwa au kuharibiwa), `v` sehemu kufuta kabisa, kuacha tu ahadi ya ** thamani sifuri **, kipofu na randomness mabaki. mtumaji inathibitisha wanajua kwamba randomness leftover kwa kuzalisha saini ndogo aitwaye ** kusaini kisheria.** sahihi halali kisheria inawezekana tu wakati maadili kweli usawa, ** bado si kiasi moja ilifunuliwa.**
+Muamala unapokuwa na salio (hakuna pesa zinazoundwa au kuharibiwa), sehemu za `v` hufutika kikamilifu, zikibakisha commitment ya **thamani sifuri**, iliyofichwa na ubahatishaji uliosalia. Mtumaji huthibitisha kuwa anajua ubahatishaji huo uliosalia kwa kutengeneza sahihi ndogo iitwayo **sahihi ya kufunga [binding signature].** Sahihi halali ya kufunga inawezekana tu wakati thamani zinasawiana kweli, **ilhali hakuna kiasi hata kimoja kilichofichuliwa.**
 
-> Hii ni mfano safi katika mfululizo mzima wa * kwa nini * sisi zinahitajika homomorphic, ahadi curve-msingi. "fedha katika sawa fedha nje" utawala ni kutekelezwa na ** kuongeza bahasha muhuri pamoja ** na kuangalia mihuri matokeo kwa sifuri.
+> Huu ndio mfano safi zaidi katika mfululizo mzima wa *kwa nini* tulihitaji commitment za homomofia zinazotegemea mkunjo. Kanuni ya “pesa zinazoingia ni sawa na pesa zinazotoka” inatekelezwa kwa **kujumlisha bahasha zilizofungwa pamoja** na kukagua kuwa matokeo yanafungwa hadi sifuri.
 
 ---
 
-## 6. Mkataba kamili, unatazamwa mwisho hadi mwisho
+## 6. Muamala kamili, ukitazamwa mwanzo hadi mwisho
 
-Hebu kukusanyika Alice kulipa Bob. Tutatumia Sapling ya wazi "kutumia upande / pato upande" muundo kama mfano wa kufundisha.
+Hebu tuunganishe Alice akimlipa Bob. Tutatumia muundo wazi wa Sapling wa “upande wa matumizi / upande wa utoaji” kama kielelezo cha kufundishia.
 
-** Shughuli ya ulinzi huunganisha aina mbili za maelezo: **
+**Muamala wa faragha hujumuisha aina mbili za maelezo:**
 
-| Maelezo ya matumizi (hutumia noti) | Maelezo ya matokeo (huunda dokezo) |
+| Maelezo ya matumizi [Spend description] (hutumia dokezo) | Maelezo ya utoaji [Output description] (huunda dokezo) |
 |---|---|
-| ahadi ya thamani ya pembejeo | ahadi ya thamani ya matokeo |
-| nanga inayothibitisha dhidi ya (mzizi wa mti) | ahadi mpya ya **noti** (jarida jipya) |
-| **kibatili** cha noti iliyotumika | **ufunguo wa muda** wa usimbaji fiche |
-| saini ya ufunguo wa umma uliobadilishwa nasibu + idhini ya matumizi | **dokezo lililosimbwa kwa njia fiche** (maandishi ya siri kwa mpokeaji) |
-| **zk-SNARK** inayothibitisha madai manne | **zk-SNARK** inayothibitisha matokeo yameundwa vizuri |
+| commitment ya thamani ya ingizo | commitment ya thamani ya utoaji |
+| **anchor** inayothibitisha dhidi yake (mzizi wa mti) | **commitment ya dokezo** mpya (jani jipya) |
+| **nullifier** ya dokezo lililotumika | **ufunguo wa muda mfupi [ephemeral key]** wa usimbaji fiche |
+| ufunguo wa umma uliobahatishwa upya + sahihi ya uidhinishaji wa matumizi | **dokezo lililosimbwa fiche** (ciphertext kwa mpokeaji) |
+| **zk-SNARK** inayothibitisha madai manne | **zk-SNARK** inayothibitisha utoaji umeundwa vizuri |
 
-Pamoja na moja ** kisheria saini ** juu ya mfuko mzima, kutekeleza thamani ya usawa (Sehemu ya 5).
+Pamoja na **sahihi ya kufunga** moja juu ya kifurushi kizima, inayotekeleza salio la thamani (Sehemu ya 5).
 
-! ![ alt maandishi](/content-images/image-30-98511eb2d0.webp)
+![alt text](/content-images/image-30-98511eb2d0.webp)
 
-Trace the privacy: the network checked the anchor, checked the nullifier was fresh, verified the proof, and verified balance. It accepted a valid payment **having learned no amount, no address, and not which note was spent.** Meanwhile the spent note's **nullifier** (its death) and Bob's new **commitment** (his note's birth) sit in two different public structures with no visible link between them, the severed link from Article 0.
+Fuatilia faragha: mtandao ulikagua anchor, ukakagua kuwa nullifier ilikuwa mpya, ukathibitisha thibitisho, na ukathibitisha salio. Ulikubali malipo halali **bila kujifunza kiasi chochote, anwani yoyote, wala dokezo lililotumika.** Wakati huo huo, **nullifier** ya dokezo lililotumika (kifo chake) na **commitment** mpya ya Bob (kuzaliwa kwa dokezo lake) hukaa katika miundo miwili tofauti ya umma bila kiungo kinachoonekana kati yake, kiungo kilichokatwa kutoka Makala ya 0.
 
 ---
 
-## 7. Kufunga kila kitanzi kutoka Kifungu 0
+## 7. Kufunga kila duara kutoka Makala ya 0
 
-Makala ya 0 kwa makusudi kufungua maswali. Hapa ni wote, imefungwa.
+Makala ya 0 ilifungua maswali kimakusudi. Haya yote yapo hapa, yamefungwa.
 
-| Kitanzi kimefunguliwa katika Kifungu cha 0 | Imefungwa na |
+| Duara lililofunguliwa katika Makala ya 0 | Limefungwa na |
 |---|---|
-| Bahasha iliyofungwa lakini isiyoweza kusameheka inawezekanaje? | Ahadi: kujificha kutokana na nasibu, kujifunga kutokana na upinzani wa mgongano / mlango wa mtego wa mkunjo (Sanaa ya 3) |
-| Funguo na mapishi ya siri hutoka wapi? | Hesabu ya uwanjani na kuzidisha kwa skala ya mviringo-mviringo (Sanaa ya 1, 2) |
-| "Ubao" ni nini hasa? | Mti wa Merkle unaoendelea kwa kasi wa ahadi za noti; mzizi wake ndio nanga (Kifungu cha 4) |
-| Kwa nini tokeni tupu haiwezi kuunganishwa na bahasha yake? | Kifuta ni hashi yenye ufunguo iliyohifadhiwa katika seti tofauti na ahadi (Kifungu cha 2, 3, 4) |
-| Unathibitishaje uhalali bila kufichua chochote? | zk-SNARK juu ya saketi ya hesabu inayosimba madai yote manne (Kifungu cha 5) |
-| Mpokeaji anajifunzaje kwamba alilipwa? | Ujumbe umesimbwa kwa njia fiche kwenye anwani yao; wanajaribu kuondoa msimbo kwa kutumia viewing key (makala haya) |
-| "Pesa ndani = pesa nje" inatekelezwaje kibinafsi? | Ahadi za thamani za homomorphic + sahihi ya kufunga (Sehemu ya 5) |
+| Bahasha iliyofungwa lakini isiyoweza kughushiwa inawezekanaje? | Commitment: kuficha kunatokana na ubahatishaji, kufunga kunatokana na ukinzani wa mgongano / mlango wa siri wa mkunjo (Mak. 3) |
+| Funguo na taratibu za siri zinatoka wapi? | Hisabati ya nyuga na uzidishaji wa skala wa mkunjo duaradufu (Mak. 1, 2) |
+| “Ubao” hasa ni nini? | Mti wa Merkle unaoongezwa hatua kwa hatua wa commitment za madokezo; mzizi wake ndio anchor (Mak. 4) |
+| Kwa nini tokeni ya utupu haiwezi kuunganishwa na bahasha yake? | Nullifier ni hash yenye ufunguo inayowekwa katika seti tofauti na commitment (Mak. 2, 3, 4) |
+| Unathibitishaje uhalali bila kufichua chochote? | zk-SNARK juu ya sakiti ya kihisabati inayosimba madai yote manne (Mak. 5) |
+| Mpokeaji anajuaje amelipwa? | Dokezo husimbwa fiche kwa anwani yake; hujaribu kulifungua kwa ufunguo wa kutazama (makala hii) |
+| “Pesa zinazoingia = pesa zinazotoka” hutekelezwaje kwa faragha? | Commitment za thamani homomofia + sahihi ya kufunga (Sehemu ya 5) |
 
-Tofauti kutoka ukurasa wa kwanza, * kuthibitisha kile huwezi kuona *, sasa ni kutatuliwa kabisa. Mtandao kuthibitisha ** madai kuhusu data siri **, kamwe data yenyewe.
+Kitendawili kutoka ukurasa wa kwanza, *thibitisha usichoweza kuona*, sasa kimeondolewa kabisa. Mtandao huthibitisha **madai kuhusu data iliyofichwa**, kamwe data yenyewe.
 
 ---
 
-## 8. Sapling vs Orchard, in one breath
+## 8. Sapling dhidi ya Orchard, kwa kifupi
 
-Tulifundisha kwa muundo wa Sapling kwa sababu mgawanyiko wake ni wazi zaidi. Ubunifu wa sasa, ** Orchard **, unasafisha badala ya kuchukua nafasi ya mawazo haya:
+Tulifundisha kwa muundo wa Sapling kwa sababu mgawanyo wake uko wazi zaidi. Muundo wa sasa, **Orchard**, husafisha badala ya kubadilisha mawazo haya:
 
 | | **Sapling** | **Orchard** |
 |---|---|---|
-| Kitengo cha miamala | maelezo tofauti ya **Matumizi** na **Matokeo** | **Vitendo** vilivyounganishwa (kila kimoja kinatumia + matokeo moja) |
+| Kitengo cha muamala | maelezo tofauti ya **Matumizi [Spend]** na **Utoaji [Output]** | **Vitendo [Actions]** vilivyounganishwa (kila kimoja hufanya matumizi 1 + utoaji 1) |
 | Mfumo wa uthibitisho | **Groth16** (usanidi unaoaminika) | **Halo 2** (hakuna usanidi unaoaminika) |
 | Mikunjo | BLS12-381 + Jubjub | Pallas / Vesta (Pasta) |
-| Hash ya ahadi | Pedersen | Sinsemilla |
+| Hash ya commitment | Pedersen | Sinsemilla |
 
-Kila dhana katika makala hii hubeba moja kwa moja; Orchard hasa bundles kutumia-na-output pamoja na swaps katika mfumo ushahidi bila sherehe. nguzo tano ni unchanged.
+Kila dhana katika makala hii huhamishwa moja kwa moja; Orchard hasa huunganisha matumizi na utoaji pamoja na kubadilisha mfumo wa uthibitisho usio na sherehe. Nguzo tano hazijabadilika.
 
 ---
 
-## 9. Mtu anayetoa taarifa kwa unyoofu
+## 9. Tahadhari ya uaminifu
 
-This is the most complete picture in the series, but still a model. We compressed the exact field encodings of a note, the precise key-derivation formulas, the re-randomization of spend keys, diversified addresses, memo fields, fee handling, the difference between value commitments and note commitments in full detail, and the precise role of each signature. We also presented one canonical flow; real transactions can carry many spends and outputs at once and may mix transparent and shielded parts. The authoritative source is the Zcash Protocol Specification. What you now hold is the correct shape; the specification fills in every measurement.
+Hii ndiyo picha kamili zaidi katika mfululizo, lakini bado ni kielelezo. Tumefupisha usimbaji mahususi wa nyuga wa dokezo, fomula sahihi za utokaji wa funguo, ubahatishaji upya wa funguo za matumizi, anwani zilizoainishwa, sehemu za ujumbe, ushughulikiaji wa ada, tofauti kati ya commitment za thamani na commitment za madokezo kwa undani kamili, na jukumu sahihi la kila sahihi. Pia tumewasilisha mtiririko mmoja wa kawaida; miamala halisi inaweza kubeba matumizi na utoaji mengi kwa wakati mmoja na inaweza kuchanganya sehemu za uwazi na za faragha. Chanzo chenye mamlaka ni Ufafanuzi wa Itifaki wa Zcash. Sasa unashikilia umbo sahihi; ufafanuzi hujaza kila kipimo.
 
 ---
 
 ## 10. Muhtasari
 
-- shughuli Shielded interlocks wote sehemu tano: ** kumbuka ** (thamani), ** ahadi yake ** katika ** kumbukeni mti ahadi **, ** annuller ** ili kuzuia matumizi mara mbili, ** thamani ahadi ** kwa ajili ya usawa, na **zk-SNARK ** kuunganisha yote pamoja.
-- Gharama inathibitisha madai manne kwa wakati mmoja, noti ipo, wewe ni mamlaka, annuller yake ni sahihi, na thamani mizani, katika ujuzi sifuri, kufunua hakuna ukweli wa msingi.
-- **Usawa wa thamani** ni kutekelezwa na **kuongeza ahadi homomorphic** na kuangalia wao muhuri kwa sifuri, kupitia **kushikamana saini**, bila kiasi disclosed.
-- Uwezo wa mtumiaji hutoka kwa ufunguo mmoja wa kutumia kupitia uongozi wa njia moja, kuwezesha kufungua ufunguoo ambao hufunua bila kutoa nguvu ya kutumia.
-- Mtandao huo **huhakikisha madai kuhusu data zilizofichwa**, na kutatua utata wa kuthibitisha-dhidi ya faragha kutoka Kifungu cha 0.
-- ** Orchard ** refines ** Sapling ** (Unified Vitendo, Halo 2 bila kuaminiwa kuanzisha, curves Pasta, Sinsemilla) bila kubadilisha nguzo tano.
+- Muamala wa faragha huunganisha vipengele vyote vitano: **dokezo** (thamani), **commitment** yake katika **mti wa commitment za madokezo**, **nullifier** ya kuzuia matumizi mara mbili, **commitment za thamani** kwa salio, na **zk-SNARK** inayovifunga vyote pamoja.
+- Matumizi huthibitisha **madai manne kwa wakati mmoja**, kwamba dokezo lipo, umeidhinishwa, nullifier yake ni sahihi, na thamani ina salio, katika **maarifa sifuri**, bila kufichua hoja zozote za msingi.
+- **Salio la thamani** hutekelezwa kwa **kujumlisha commitment homomofia** na kukagua kuwa zinafungwa hadi sifuri, kupitia **sahihi ya kufunga**, bila kiasi chochote kufichuliwa.
+- Uwezo wa mtumiaji hutokana na **ufunguo wa kutumia pesa** mmoja kupitia **mpangilio wa njia moja**, unaowezesha **funguo za kutazama** zinazofichua bila kutoa uwezo wa kutumia pesa.
+- Mtandao **huthibitisha madai kuhusu data iliyofichwa**, hivyo kuondoa kitendawili cha uthibitishaji-dhidi-ya-faragha kutoka Makala ya 0. Kila duara lililofunguliwa hapo sasa limefungwa.
+- **Orchard** husafisha **Sapling** (Vitendo vilivyounganishwa, Halo 2 bila usanidi unaoaminika, mikunjo ya Pasta, Sinsemilla) bila kubadilisha nguzo tano.
 
 ---
 
-## Orodha ya maneno
+## Kamusi
 
-| Muhula | Maana ya Kiingereza cha kawaida |
+| Istilahi | Maana kwa Kiingereza rahisi |
 |---|---|
-| **Spending key** | Siri moja ya mzizi ambayo funguo zote za mtumiaji hupata |
-| **Viewing Key** | Hufichua miamala yako kwa mmiliki bila kumruhusu kutumia |
-| **Spend description** | Sehemu ya tx inayotumia noti (nullifier, nanga, uthibitisho) |
-| **Output description** | Sehemu ya tx inayounda noti (kujitolea, maandishi ya siri, uthibitisho) |
-| **Action (Orchard)** | Kitengo kimoja kinachofanya matumizi moja na matokeo moja pamoja |
-| **Value commitment** | Ahadi ya Pedersen ya homomorphic kwa kiasi |
-| **Binding signature** | Saini inayothibitisha usawa wa maadili bila kuyafichua |
-| **Anchor** | Mzizi wa mti unaotumika unathibitisha uanachama dhidi ya |
-| **Trial decryption** | Mpokeaji akijaribu ahadi mpya za kupata maelezo yaliyokusudiwa kwake |
+| **Spending key** | Siri moja ya mzizi ambayo funguo zote za mtumiaji hutokana nayo |
+| **Viewing Key** | Hufichua miamala yako kwa mmiliki bila kumruhusu kutumia pesa |
+| **Spend description** | Sehemu ya tx inayotumia dokezo (nullifier, anchor, thibitisho) |
+| **Output description** | Sehemu ya tx inayounda dokezo (commitment, ciphertext, thibitisho) |
+| **Action (Orchard)** | Kitengo kilichounganishwa kinachofanya matumizi moja na utoaji mmoja pamoja |
+| **Value commitment** | Commitment ya Pedersen homomofia ya kiasi |
+| **Binding signature** | Sahihi inayothibitisha kuwa thamani zina salio bila kuzifichua |
+| **Anchor** | Mzizi wa mti ambao matumizi huthibitisha uanachama dhidi yake |
+| **Trial decryption** | Mpokeaji anayejaribu commitment mpya ili kupata madokezo yaliyokusudiwa kwake |
 
 ---
 
-## FAQ
+## Maswali Yanayoulizwa Mara kwa Mara
 
-**Je, mtandao umewahi kuona kiasi au ni nani aliyemlipa nani?**
-La. Inathibitisha uthibitisho, freshness ya annuller, nanga, na saini ya kisheria. Maadili yote binafsi kubaki siri.
+**Je, mtandao huona kiasi au nani amelipa nani?**  
+Hapana. Unathibitisha thibitisho, upya wa nullifier, anchor, na sahihi ya kufunga. Thamani zote za faragha hubaki zimefichwa.
 
-** Ni nini kinachonizuia kutumia noti mara mbili? **
-Nullifier. matumizi ya kuchapisha ni; mtandao inakatalia mbali yoyote nullifier tayari katika seti nultifier. kumbuka sawa daima inazalisha nullifer sawa.
+**Ni nini kinachonizuia kutumia dokezo mara mbili?**  
+Nullifier. Matumizi huiweka hadharani; mtandao hukataa nullifier yoyote ambayo tayari iko katika seti ya nullifier. Dokezo lilelile kila wakati hutoa nullifier ileile.
 
-** Jinsi gani unaweza salio kuchunguzwa kama kiasi ni siri? **
-Value commitments add up homomorphically; a balanced transaction's commitments cancel to a commitment of zero, which the binding signature proves.
+**Salio linawezaje kukaguliwa ikiwa kiasi kimefichwa?**  
+Commitment za thamani hujumlishika kwa homomofia; commitment za muamala wenye salio hufutika hadi commitment ya sifuri, jambo ambalo sahihi ya kufunga huthibitisha.
 
-Je, ninaweza kuthibitisha shughuli zangu kwa mkaguzi bila kutoa udhibiti?
-Ndio, toa ufunguo wa kuangalia, unafunua shughuli zako zilizofichwa lakini hauwezi kuidhinisha matumizi, shukrani kwa uongozi wa ufunguzi wa njia moja.
+**Je, ninaweza kuthibitisha miamala yangu kwa mkaguzi bila kupoteza udhibiti?**  
+Ndiyo. Mpe ufunguo wa kutazama. Hufichua shughuli zako za faragha lakini hauwezi kuidhinisha matumizi, kutokana na mpangilio wa funguo wa njia moja.
 
-**Je, Sapling imepitwa na wakati sasa Orchard ipo?**
-Wote wawili wamekuwepo kwenye mtandao; Orchard ni muundo wa sasa. Dhana zinashirikiwa, kwa hivyo kuelewa moja inakupa nyingine.
+**Je, Sapling imepitwa na wakati sasa kwa kuwa Orchard ipo?**  
+Zote zimekuwepo kwenye mtandao; Orchard ndio muundo wa sasa. Dhana zake zinashirikiwa, hivyo kuelewa moja hukupa nyingine.
 
 ---
 
-### Jaribu ufahamu wako wa ndani
+### Jaribu intuisheni yako
 
-A friend says: "Since the proof hides the amount, a thief could just claim their outputs are worth more than their inputs and print free money." Using Section 5, explain in two sentences why this fails. *(Answer below.)*
+Rafiki anasema: “Kwa kuwa thibitisho huficha kiasi, mwizi angeweza kudai tu kuwa utoaji wake una thamani zaidi kuliko ingizo lake na kuchapisha pesa za bure.” Kwa kutumia Sehemu ya 5, eleza kwa sentensi mbili kwa nini hili haliwezekani. *(Jibu hapa chini.)*
 
-<details><summary>Answer</summary>
+<details><summary>Jibu</summary>
 
-The amounts are hidden, but each is wrapped in a homomorphic value commitment, and the network adds all input commitments and subtracts all output commitments; if the hidden values didn't balance, the result would not seal to zero and **no valid binding signature could be produced.** The thief can hide *how much*, but cannot make unbalanced values pass the balance check, so printing free money is impossible without revealing nothing yet still being caught by the arithmetic.
+Kiasi kimefichwa, lakini kila kimoja kimefungwa katika commitment ya thamani homomofia, na mtandao hujumlisha commitment zote za ingizo na kutoa commitment zote za utoaji; ikiwa thamani zilizofichwa hazikuwa na salio, matokeo hayangefungwa hadi sifuri na **hakuna sahihi halali ya kufunga ingeweza kutengenezwa.** Mwizi anaweza kuficha *kiasi gani*, lakini hawezi kufanya thamani zisizo na salio zipite ukaguzi wa salio, kwa hiyo kuchapisha pesa za bure hakuwezekani bila kufichua chochote na bado kukamatwa na hesabu.
 </details>
 
 ---
 
-### Mfululizo, kamili
+### Mfululizo, umekamilika
 
-Sasa umesafiri kutoka paradox moja hadi malipo kamili ya kibinafsi:
+Sasa umesafiri kutoka kitendawili kimoja hadi malipo kamili ya faragha:
 
-! ![ alt maandishi](/content-images/cd8bbb40-57b8-4854-b9cf-97f2485d126a-8847fae521.webp)
+![alt text](/content-images/cd8bbb40-57b8-4854-b9cf-97f2485d126a-8847fae521.webp)
 
 
-From here, the natural next arc goes deeper: the inner workings of Groth16 and Halo 2, trusted-setup ceremonies, the Sapling and Orchard circuits in detail, key derivation and diversified addresses, and the protocol's evolution across network upgrades. But the foundation is now in place, and every one of those topics has a home to attach to.
+Kuanzia hapa, mkondo wa asili unaingia kwa kina zaidi: utendaji wa ndani wa Groth16 na Halo 2, sherehe za usanidi unaoaminika, sakiti za Sapling na Orchard kwa undani, utokaji wa funguo na anwani zilizoainishwa, na mageuzi ya itifaki katika maboresho ya mtandao. Lakini msingi sasa umewekwa, na kila moja ya mada hizo ina mahali pa kuunganishwa.
 
-* Sehemu ya * Zcash kutoka Kanuni za Kwanza * mfululizo kwa [ZecHub](https://zechub.org). Leseni CC BY-SA 4.0.*
+*Sehemu ya mfululizo wa* Zcash kutoka Kanuni za Kwanza *kwa [ZecHub](https://zechub.org). Imeidhinishwa chini ya CC BY-SA 4.0.*

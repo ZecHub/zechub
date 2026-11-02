@@ -1,23 +1,23 @@
-# Zero to Zero Knowledge: Uwazi dhidi ya Miamala Iliyolindwa na Anwani Zilizounganishwa
+# Zero to Zero Knowledge: Miamala ya uwazi [Transparent] dhidi ya Miamala ya faragha [Shielded] & Anwani Zilizounganishwa [Unified Addresses]
 
 **Mfululizo:** Zero to Zero Knowledge
 
-Ukijifunza kuhusu Zcash kwa mara ya kwanza utagundua kuwa kuna aina mbili za miamala inayopatikana: **Uwazi** na **Imehifadhiwa**. 
+Ikiwa unajifunza kuhusu Zcash kwa mara ya kwanza, utagundua kuwa kuna aina mbili za miamala zinazopatikana: **Ya uwazi** na **Ya faragha**.  
 
-Leo tunajifunza kuzihusu na kuzungumzia mojawapo ya vipengele vipya katika mfumo ikolojia wa #Zcash, **Anwani Zilizounganishwa**.
+Leo tunajifunza kuzihusu na kuchunguza mojawapo ya vipengele vipya katika mfumo ikolojia wa #Zcash, **Anwani Zilizounganishwa**.
 
 ---
 
-## Miamala ya Uwazi dhidi ya Iliyolindwa
+## Miamala ya Uwazi dhidi ya Miamala ya Faragha
 
-- **Miamala ya Uwazi** hutumia **anwani za t** (Base58 imesimbwa). Kila kitu kinaonekana hadharani - kama vile Bitcoin. 
-- **Miamala Iliyolindwa** hutumia anwani zilizosimbwa kwa ajili ya mabwawa ya **Sapling** au **Orchard**. Hizi huficha mtumaji, mpokeaji, na kiasi kwa kutumia uthibitisho wa kutojua chochote.
+- **Miamala ya Uwazi** hutumia **t-addresses** (zilizosimbwa kwa Base58). Kila kitu kinaonekana hadharani — kama ilivyo katika Bitcoin.  
+- **Miamala ya Faragha** hutumia anwani zilizosimbwa kwa mabwawa [pools] ya Sapling au Orchard. Hizi huficha mtumaji, mpokeaji, na kiasi kwa kutumia mathibitisho ya maarifa sifuri [zero-knowledge proofs].
 
-**Muamala Uliolindwa** unarejelea muamala wowote wenye anwani zilizosimbwa kwa ajili ya mabwawa Sapling/Orchard.
+**Muamala wa Faragha** hurejelea muamala wowote wenye anwani zilizosimbwa kwa mabwawa ya Sapling/Orchard.
 
 ![Transparent vs Shielded intro](/content-images/FpmW00HWIAIZpQD-a244cfd85d.webp)
 
-**Anwani Zilizounganishwa (UA)** zimeundwa ili kuunganisha** miamala iliyolindwa au iliyo wazi katika anwani moja.
+**Anwani Zilizounganishwa (UAs)** zimeundwa **kuunganisha** miamala ya faragha au ya uwazi katika anwani moja.
 
 ---
 
@@ -25,11 +25,11 @@ Leo tunajifunza kuzihusu na kuzungumzia mojawapo ya vipengele vipya katika mfumo
 
 Kuna aina 3 za anwani zinazotumika:
 
-1. **(T) Uwazi** – Msingi58 
-2. **(Z) Sapling** – Bech32 
-3. **(UA) Unified Address** – Bech32m 
+1. **(T) Ya Uwazi** – Base58  
+2. **(Z) Sapling** – Bech32  
+3. **(UA) Anwani Iliyounganishwa** – Bech32m  
 
-Idadi ya herufi (na kwa hivyo ukubwa wa msimbo wa QR) huongezeka kwa kila aina.
+Idadi ya herufi (na hivyo ukubwa wa msimbo wa QR) huongezeka kwa kila aina.
 
 ![Address types comparison](/content-images/FpmXe5bXsAEFeLY-704048927f.webp)
 
@@ -39,42 +39,42 @@ Idadi ya herufi (na kwa hivyo ukubwa wa msimbo wa QR) huongezeka kwa kila aina.
 
 ## Jinsi Anwani Zilizounganishwa Zinavyofanya Kazi
 
-Anwani na funguo zimesimbwa kama mfuatano wa baiti (**Usimbaji Mbichi**). 
-**Usimbaji wa Mpokeaji** unajumuisha taarifa zote muhimu ili kuhamisha mali kwa kutumia itifaki maalum.
+Anwani na funguo husimbwa kama mfuatano wa baiti (**Usimbaji Ghafi [Raw Encoding]**).  
+**Usimbaji wa Kipokezi [Receiver Encoding]** hujumuisha taarifa zote muhimu za kuhamisha rasilimali kwa kutumia itifaki maalumu.
 
-Usimbaji mbichi wa Unified Address ni mchanganyiko wa usimbaji (msimbo wa aina, urefu, anwani) wa wapokeaji:
+Usimbaji ghafi wa Anwani Iliyounganishwa ni mchanganyiko wa misimbaji (typecode, length, addr) ya vipokezi:
 
 - UA: `0x03`  
 - Sapling: `0x02`  
-- Uwazi: `0x01`  
+- Ya uwazi: `0x01`  
 
-**Muhimu**: Lazima kuwe na **angalau anwani moja ya malipo iliyolindwa** katika kila UA. (Sprout hazitumiki tena baada ya uboreshaji wa Canopy.)
+**Muhimu**: Lazima kuwe na **angalau anwani moja ya malipo ya faragha [shielded payment address]** katika kila UA. (Anwani za Sprout hazitumiki tena baada ya boreshaji la Canopy.)
 
 ![UA encoding structure](/content-images/FpmYW1ZXgAAvALT-70903e29c6.webp)
 
-Vipimo kamili: **[ZIP-316: Anwani Zilizounganishwa](https://zips.z.cash/zip-0316)**
+Uainishaji kamili: **[ZIP-316: Anwani Zilizounganishwa](https://zips.z.cash/zip-0316)**
 
 ---
 
 ## Faida za Anwani Zilizounganishwa
 
-- **Rahisi zaidi kwa kubadilishana** - Sasa wanaweza kusaidia amana/utoaji uliolindwa kwa usalama zaidi. 
-- **Haiwezi kuharibika** - Mabwawa mapya ya kuogelea yaliyofunikwa yanaweza kuongezwa bila pochi kuvunjika. 
-- **Imehifadhiwa kwa Chaguo-Msingi** - Kila UA ina angalau anwani moja iliyolindwa, kwa hivyo faragha inapatikana kila wakati.
+- **Rahisi zaidi kwa masoko ya kubadilishana sarafu [exchanges]** - Sasa yanaweza kusaidia amana/utoaji wa faragha kwa usalama zaidi.  
+- **Tayari kwa siku zijazo** - Mabwawa mapya ya faragha yanaweza kuongezwa bila kuathiri pochi [wallets].  
+- **Ya Faragha kwa Chaguo-msingi [Shielded-by-Default]** - Kila UA ina angalau anwani moja ya faragha, kwa hiyo faragha [privacy] hupatikana daima.
 
-Huu ni mabadiliko ya msingi ambayo tayari yanasaidia ZEC zaidi kuingia kwenye bwawa lenye ulinzi.
+Huu ni mabadiliko ya msingi ambayo tayari yanasaidia ZEC zaidi kuingia katika bwawa la faragha.
 
 ---
 
-## Miamala na Vitendo Orchard
+## Miamala ya Orchard & Vitendo [Actions]
 
-Orchard ilianzisha dhana mpya inayoitwa **Vitendo**:
+Orchard ilianzisha dhana mpya iitwayo **Vitendo**:
 
-- Hupunguza uvujaji wa metadata kwa kutumia **nanga moja** kwa Vitendo vyote katika muamala. 
-- Huunganisha sehemu za (V4) Spend + Output katika ahadi moja ya thamani. 
-- Hii inawezesha uboreshaji wa utendaji wa mfumo wa uthibitishaji wa Halo2.
+- Hupunguza uvujaji wa data ya maelezo kwa kutumia **nanga moja [single anchor]** kwa Vitendo vyote katika muamala.  
+- Huunganisha sehemu za (V4) Matumizi + Tokeo katika commitment moja ya thamani.  
+- Hii huwezesha uboreshaji wa utendaji wa mfumo wa thibitisho wa Halo2.
 
-Daira anaelezea nafasi za Nanga (zcon3):
+Daira anaeleza nafasi za Nanga (zcon3):
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -89,31 +89,31 @@ Daira anaelezea nafasi za Nanga (zcon3):
 
 ---
 
-## Salio la Thamani na Faragha
+## Salio la Thamani & Faragha
 
-Katika baadhi ya matukio (km miamala ya pamoja) kiasi kinaweza kuonekana kwa mwangalizi wa nje. Hata hivyo, `valueBalanceSapling` na `valueBalanceOrchard` tumia **ahadi za homomorphic** kuthibitisha jumla ya ZEC katika mabwawa yaliyolindwa na kuzuia ughushi.
+Katika baadhi ya hali (kwa mfano, miamala ya kuvuka mabwawa), kiasi kinaweza kuonekana kwa mwangalizi wa nje. Hata hivyo, `valueBalanceSapling` na `valueBalanceOrchard` hutumia commitment za homomorphic kuthibitisha jumla ya ZEC katika mabwawa ya faragha na kuzuia ughushi.
 
-Soma zaidi: [ZIP 209: Kataza Mizani ya Thamani ya Mnyororo Ulio Nje ya Masafa](https://zips.z.cash/zip-0209)
+Soma zaidi: [ZIP 209: Kataza Salio la Bwawa la Thamani ya Mnyororo Nje ya Masafa](https://zips.z.cash/zip-0209)
 
 ---
 
 ## Maboresho ya Baadaye
 
-Timu ECC inafanyia kazi mbinu mpya za RPC katika `zcashd` (kubadilisha `z_sendmany`) ambayo itawaruhusu watumiaji kuhakiki na kukubali/kukataa muamala uliopendekezwa kulingana na sifa zake za faragha.
+Timu ya ECC inafanyia kazi mbinu mpya za RPC katika `zcashd` (ikichukua nafasi ya `z_sendmany`) ambazo zitawawezesha watumiaji kuhakiki mapema na kukubali/kukataa muamala uliopendekezwa kulingana na sifa zake za faragha.
 
 ---
 
-## Mapendekezo
+## Pendekezo
 
-Uzi huu awali ulielekeza kwenye **YWallet**, kwa mpango wa muamala ulioonyeshwa kabla ya kubofya tuma. YWallet haitumiki tena na haitasasishwa kwa Ironwood, kwa hivyo haiwezi tena kufuata mnyororo. Chagua pochi inayodumishwa kutoka [Pochi](https://zechub.wiki/wallets) badala yake, na unapendelea ile inayokuambia muamala utaonyesha nini kabla haujatoka.
+Mfululizo huu hapo awali ulielekeza kwenye **YWallet**, kwa mpango wa muamala uliouonyesha kabla ya kubonyeza kutuma. YWallet haidumishwi tena na haitasasishwa kwa Ironwood, kwa hiyo haiwezi tena kufuata mnyororo [chain]. Badala yake, chagua pochi inayodumishwa kutoka kwenye ukurasa wa [Pochi](https://zechub.wiki/wallets), na upendeleee ile inayokuambia muamala utafunua nini kabla haujatoka.
 
-Makala nzuri kuhusu faragha ya miamala: https://medium.com/@hanh.huynh/
+Makala bora kuhusu faragha ya miamala: https://medium.com/@hanh.huynh/
 
 ---
 
-**Uzi Asili kutoka kwa ZecHub (@ZecHub)** 
+**Mfululizo wa Asili wa ZecHub (@ZecHub)**  
 https://x.com/ZecHub/status/1628498645627666432
 
 ---
 
-*Ukurasa huu ulikusanywa kutoka kwa uzi asili wa Zero to Zero Knowledge kwa wiki ya ZecHub.*
+*Ukurasa huu ulikusanywa kutoka kwenye mfululizo wa asili wa Zero to Zero Knowledge kwa ajili ya wiki ya ZecHub.*

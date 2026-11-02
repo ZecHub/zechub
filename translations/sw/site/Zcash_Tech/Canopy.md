@@ -4,104 +4,104 @@
 
 # Canopy
 
-> Canopy ilianza kutumika kwenye mtandao wa Zcash katika block 1,046,400 (Novemba 18, 2020 UTC).
+> Canopy ilianza kutumika kwenye mainnet ya Zcash katika block 1,046,400 (Novemba 18, 2020 UTC).
 
-Nini utachukua mbali: jinsi Zcash naendelea kufadhili maendeleo yake mwenyewe baada ya mwanzilishi tuzo kumalizika, na jinsi Canopy kuanzisha fedha mgawanyiko kwamba baadaye upgrades bado kujenga juu.
+Utakachojifunza: jinsi Zcash ilivyoendelea kufadhili maendeleo yake yenyewe baada ya zawadi ya waanzilishi kuisha, na jinsi Canopy ilivyoanzisha mgawanyo wa ufadhili ambao maboresho ya baadaye bado yanajengwa juu yake.
 
-Canopy ni Zcash ya tano mtandao kuboresha, pia iitwayo Network Upgrade 4 (NU4). Ni kupelekwa na [ZIP 251 - Ujumbe wa posta.](https://zips.z.cash/zip-0251), and it activated at mainnet block 1,046,400 on November 18, 2020 (UTC), the same moment as Zcash's first block reward halving. Canopy was mainly a governance and monetary upgrade. It ended the original founders reward and started the new Zcash Development Fund, which pays the Electric Coin Company, the Zcash Foundation, and independent grant recipients. The policy behind that fund came out of an extended community governance process in 2019.
+Canopy ni uboreshaji wa mtandao [network upgrade] wa tano wa Zcash, unaojulikana pia kama Uboreshaji wa Mtandao 4 (NU4). Umetekelezwa na [ZIP 251](https://zips.z.cash/zip-0251), na ulianza kutumika kwenye mainnet katika block 1,046,400 mnamo Novemba 18, 2020 (UTC), wakati huohuo wa kupunguzwa kwa nusu kwa kwanza kwa zawadi ya block ya Zcash. Canopy ulikuwa hasa uboreshaji wa utawala [governance] na kifedha. Ulimaliza zawadi ya awali ya waanzilishi na kuanzisha Mfuko mpya wa Maendeleo [Development Fund] wa Zcash, unaolipa Electric Coin Company, Zcash Foundation, na wapokeaji huru wa ruzuku [grant]. Sera nyuma ya mfuko huo ilitokana na mchakato mpana wa utawala wa jamii mwaka 2019.
 
-Why this matters. Zcash funds its own development from block rewards, because it has no company behind it. The founders reward that paid for its early years was set to end at the first halving. Canopy was the replacement: it routed a fixed share of each block reward into a Development Fund and set who receives it. That model was refined by later upgrades, up to [NU6.1](../zcash-tech/nu6-1).
+Kwa nini hili ni muhimu. Zcash hufadhili maendeleo yake yenyewe kutokana na zawadi za block, kwa sababu haina kampuni inayoiunga mkono. Zawadi ya waanzilishi iliyolipia miaka yake ya awali ilipangwa kuisha wakati wa kupunguzwa kwa nusu kwa kwanza. Canopy ulikuwa mbadala: ulielekeza sehemu isiyobadilika ya kila zawadi ya block kwenye Mfuko wa Maendeleo na kubainisha wanaoupokea. Muundo huo uliboreshwa na maboresho ya baadaye, hadi [NU6.1](../zcash-tech/nu6-1).
 
 ![Before Canopy the founders reward funded development and was set to end at the first halving. After Canopy the Development Fund takes 20 percent of each block reward and runs to the second halving in 2024](/content-images/canopy-founders-to-devfund-010676e799.webp)
 
 ## Mfuko wa maendeleo
 
-Canopy kumaliza mwanzilishi awali malipo na kubadilishwa kwa Zcash Mfuko wa Maendeleo. mabadiliko alitua katika block moja kama kwanza halving ya Zcash, wakati kuzuia zawadi imeshuka kutoka 6.25 ZEC 3.125 ZEC. Hivyo wachimbaji waliona tuzo yao kukatwa nusu siku hiyohiyo kipande kipya cha kwamba kidogo thawabu ilianza mtiririko maendeleo.
+Canopy ulimaliza zawadi ya awali ya waanzilishi na kuibadilisha kwa Mfuko wa Maendeleo wa Zcash. Mabadiliko hayo yalifanyika katika block ileile kama kupunguzwa kwa nusu kwa kwanza kwa Zcash, wakati zawadi ya block iliposhuka kutoka 6.25 ZEC hadi 3.125 ZEC. Kwa hivyo wachimbaji [miners] waliona zawadi yao ikipunguzwa kwa nusu siku ileile ambapo sehemu mpya ya zawadi hiyo ndogo ilianza kuelekezwa kwenye maendeleo.
 
-Mfuko huo uliwekwa kuendesha kwa miaka minne, kutoka nusu ya kwanza mnamo Novemba 2020 hadi nusu ya pili mnamo 2024. sera iliyokubaliwa iliandikwa kama ifuatavyo: [ZIP 1014 - Ujumbe wa posta.](https://zips.z.cash/zip-1014). utaratibu wa makubaliano kwamba kweli huenda fedha ni kifedha mkondo utaratibi: [ZIP 207](https://zips.z.cash/zip-0207) ilianzisha njia ya jumla kuelekeza sehemu ya ruzuku kwa wateule maalum, na [ZIP 214 (Kifungo cha posta)](https://zips.z.cash/zip-0214) kuweka sheria maalum na anwani za wapokeaji kwa ajili ya Mfuko wa Maendeleo.
+Mfuko huo ulipangwa kudumu kwa miaka minne, kuanzia kupunguzwa huku kwa nusu kwa kwanza mnamo Novemba 2020 hadi kupunguzwa kwa nusu kwa pili mwaka 2024. Sera iliyokubaliwa iliandikwa kama [ZIP 1014](https://zips.z.cash/zip-1014). Utaratibu wa makubaliano [consensus] unaohamisha fedha hasa ni mfumo wa mkondo wa ufadhili: [ZIP 207](https://zips.z.cash/zip-0207) ulianzisha njia ya jumla ya kuelekeza sehemu ya ruzuku ya block kwa wapokeaji waliobainishwa, na [ZIP 214](https://zips.z.cash/zip-0214) uliweka sheria mahususi na anwani za wapokeaji za Mfuko wa Maendeleo.
 
-## Jinsi pesa zinavyogawanywa
+## Jinsi fedha zinavyogawanywa
 
-Mfuko wa Maendeleo inachukua asilimia 20 ya kila block tuzo. wachimbaji kuweka wengine 80%. kwamba 20% ni kisha kugawanywa katika njia tatu, kufuatia ZIP 1014.
+Mfuko wa Maendeleo huchukua asilimia 20 ya kila zawadi ya block. Wachimbaji hubakiza asilimia 80 nyingine. Asilimia hiyo 20 kisha hugawanywa kwa njia tatu, kufuatia ZIP 1014.
 
-1. 35 percent to the Bootstrap Project, the parent organization of the Electric Coin Company.
+1. Asilimia 35 kwa Mradi wa Bootstrap, shirika mama la Electric Coin Company.
 2. Asilimia 25 kwa Zcash Foundation.
-3. 40 asilimia kwa Major Grants, ambayo fedha kazi ya kujitegemea na inasimamiwa na Zcash Foundation. Major misaada baadaye akawa Zcash Community Misaada (ZCG).
+3. Asilimia 40 kwa Ruzuku Kuu, inayofadhili kazi huru na kusimamiwa na Zcash Foundation. Ruzuku Kuu baadaye zilikuwa Zcash Community Grants (ZCG).
 
-Kupimwa dhidi ya malipo yote block badala tu mfuko, hisa hizo kazi nje kwa asilimia 7 Electric Coin Company, 5 per cent Zcash Foundation na 8 per cent Major misaada. njia zote mbili za kuelezea ni idadi sawa.
+Zikipimwa dhidi ya zawadi nzima ya block badala ya mfuko pekee, sehemu hizo ni asilimia 7 kwa Electric Coin Company, asilimia 5 kwa Zcash Foundation, na asilimia 8 kwa Ruzuku Kuu. Njia zote mbili za kuieleza zinaonyesha nambari zilezile.
 
 ![The Development Fund is 20 percent of each block reward, split 35 percent to Bootstrap and the Electric Coin Company, 25 percent to the Zcash Foundation, and 40 percent to Major Grants](/content-images/canopy-dev-fund-split-005bf6f2dd.webp)
 
-## Mabadiliko ya bwawa la Sprout
+## Mabadiliko ya bwawa [pool] la Sprout
 
-Canopy pia alianza kustaafu ya zamani kulindwa pool. Sprout alikuwa Zcash kwanza kulindwa bwawa, na Canopy kuanza winding chini kwa njia ya [ZIP 211 - Ujumbe wa posta.](https://zips.z.cash/zip-0211).
+Canopy pia ilianza kustaafisha bwawa la faragha [shielded pool] la zamani zaidi. Sprout lilikuwa bwawa la kwanza la faragha la Zcash, na Canopy ilianza kuliondoa hatua kwa hatua kupitia [ZIP 211](https://zips.z.cash/zip-0211).
 
-Kutoka wakati Canopy kuanzishwa, hakuna thamani mpya inaweza kuwa aliongeza katika shina bwawa. Katika suala la kiufundi, vpub_old uwanja wa kila JoinSplit lazima zero. Fedha tayari katika Sprout bado unaweza kutolewa, hivyo mtu yeyote ni imefungwa nje, lakini pool tu shrink kutoka hapa. Hii ni hatua ya kwanza kuelekea hatimaye deprecating urithi Shina bwawa kwa ajili ya mabwawa mapya ulinzi.
+Kuanzia wakati Canopy ilipoanza kutumika, hakuna thamani mpya inayoweza kuongezwa kwenye bwawa la Sprout. Kwa istilahi za kiufundi, sehemu ya vpub_old ya kila JoinSplit lazima iwe sifuri. Fedha zilizo tayari katika Sprout bado zinaweza kutolewa, hivyo hakuna anayenyimwa ufikiaji, lakini bwawa linaweza kupungua tu kuanzia hapa. Hii ni hatua ya kwanza kuelekea kuacha hatimaye kutumia bwawa la urithi la Sprout kwa kupendelea mabwawa mapya ya faragha.
 
 ![Before Canopy, value could both enter and leave the Sprout pool. After Canopy, no new value can enter but withdrawals are still allowed](/content-images/canopy-sprout-pool-f5166aa049.webp)
 
-## Nyongeza za kiufundi
+## Vipengele vya ziada vya kiufundi
 
-Pamoja na mabadiliko ya fedha, Canopy alikuwa ndogo mbili ZIPs kiufundi. [ZIP 212 - Ujumbe wa posta.](https://zips.z.cash/zip-0212) iliyopita jinsi mpokeaji hupata siri ya muda mfupi Sapling, kupata kutoka maandishi wazi note. [ZIP 215 - Ujumbe wa posta.](https://zips.z.cash/zip-0215) aliandika sheria wazi kwa ajili ya kuthibitisha Ed25519 saini, hivyo kila node anakubaliana juu hasa ambayo ishara kuhesabu kama halali.
+Pamoja na mabadiliko ya ufadhili, Canopy ilileta ZIP mbili ndogo za kiufundi. [ZIP 212](https://zips.z.cash/zip-0212) ilibadilisha jinsi mpokeaji anavyotoa siri ya muda mfupi ya Sapling, kwa kuitoa kutoka kwenye maandishi wazi ya dokezo [note]. [ZIP 215](https://zips.z.cash/zip-0215) iliandika sheria wazi za kuthibitisha sahihi [signature] za Ed25519, ili kila node ikubaliane ni sahihi zipi hasa zinazochukuliwa kuwa halali.
 
-## Orodha ya maneno
+## Faharasa
 
-| Muhula | Maana ya Kiingereza cha kawaida |
+| Istilahi | Maana kwa lugha rahisi |
 |---|---|
-| Founders reward | Mfumo wa awali wa ufadhili uliolipia maendeleo ya mapema Zcash, uliopangwa kuisha katika nusu ya kwanza ya mwaka |
-| Development Fund | Sehemu ya asilimia 20 ya kila zawadi ya block ambayo Canopy iliipeleka kwenye maendeleo, ikiendelea hadi nusu ya pili ya mzunguko |
-| Block reward (subsidy) | ZEC mpya iliundwa na kulipwa kadri kila kitalu kinavyochimbwa |
-| Halving | Tukio lililopangwa ambapo zawadi ya kuzuia hukatwa katikati |
-| Funding stream | Utaratibu wa makubaliano (ZIP 207) unaoelekeza sehemu ya ruzuku ya block kwa anwani zilizoainishwa za wapokeaji |
-| Sprout pool | Bwawa la awali Zcash's lililolindwa, ambalo Canopy iliacha kupokea thamani mpya ndani yake |
+| Founders reward | Muundo wa awali wa ufadhili uliolipia maendeleo ya mapema ya Zcash, uliopangwa kuisha wakati wa kupunguzwa kwa nusu kwa kwanza |
+| Development Fund | Sehemu ya asilimia 20 ya kila zawadi ya block ambayo Canopy ilielekeza kwenye maendeleo, ikidumu hadi kupunguzwa kwa nusu kwa pili |
+| Block reward (subsidy) | ZEC mpya inayoundwa na kulipwa kadiri kila block inavyochimbwa |
+| Halving | Tukio lililopangwa ambapo zawadi ya block hukatwa kwa nusu |
+| Funding stream | Utaratibu wa makubaliano (ZIP 207) unaoelekeza sehemu ya ruzuku ya block kwenye anwani za wapokeaji waliobainishwa |
+| Sprout pool | Bwawa la awali la faragha la Zcash, ambalo Canopy iliacha kupokea thamani mpya |
 
-## FAQs
+## Maswali yanayoulizwa mara kwa mara
 
-Je, Canopy kubadilisha ZEC yangu au faragha? Hapana. canopy ni kuhusu jinsi ya maendeleo unafadhiliwa, pamoja na baadhi ya sheria za kiufundi. mizani yako na shughuli zako kulindwa si walioathirika.
+Je, Canopy hubadilisha ZEC yangu au faragha yangu? Hapana. Canopy inahusu jinsi maendeleo yanavyofadhiliwa, pamoja na sheria chache za kiufundi. Salio lako na miamala yako ya faragha [shielded transactions] haviathiriki.
 
-Did Canopy cut the block reward? Canopy activated at the same block as Zcash's first halving, which cut the reward from 6.25 ZEC to 3.125 ZEC. The halving is part of Zcash's monetary policy. Canopy's job was to decide how a share of that smaller reward is used.
+Je, Canopy ilipunguza zawadi ya block? Canopy ilianza kutumika katika block ileile kama kupunguzwa kwa nusu kwa kwanza kwa Zcash, ambako kulipunguza zawadi kutoka 6.25 ZEC hadi 3.125 ZEC. Kupunguzwa kwa nusu ni sehemu ya sera ya kifedha ya Zcash. Jukumu la Canopy lilikuwa kuamua jinsi sehemu ya zawadi hiyo ndogo inavyotumiwa.
 
-What is the Development Fund for? It funds the people building Zcash. The money goes to the Electric Coin Company (through the Bootstrap Project), the Zcash Foundation, and Major Grants, which supports independent work.
+Mfuko wa Maendeleo unatumika kwa nini? Unafadhili watu wanaojenga Zcash. Fedha huenda kwa Electric Coin Company (kupitia Mradi wa Bootstrap), Zcash Foundation, na Ruzuku Kuu, ambazo zinaunga mkono kazi huru.
 
-Je, bado ninaweza kutumia pesa katika bwawa Sprout? Ndiyo. Bado unaweza kutoa pesa ambazo tayari ziko katika Sprout. Huwezi kuongeza thamani mpya ndani yake baada ya Canopy.
+Je, bado ninaweza kutumia fedha katika bwawa la Sprout? Ndiyo. Bado unaweza kutoa fedha ambazo tayari ziko katika Sprout. Huwezi tu kuongeza thamani mpya humo baada ya Canopy.
 
-Je, Mfuko wa Maendeleo ni wa kudumu? La. Ulikuwa umepangwa kuendesha kwa miaka minne, kutoka nusu ya kwanza mnamo Novemba 2020 hadi nusu ya pili mnamo 2024, ikitoa wakati wa jamii kuona jinsi inavyofanya kazi kabla ya kuiangalia tena.
+Je, Mfuko wa Maendeleo ni wa kudumu? Hapana. Ulipangwa kudumu kwa miaka minne, kuanzia kupunguzwa kwa nusu kwa kwanza mnamo Novemba 2020 hadi kupunguzwa kwa nusu kwa pili mwaka 2024, ukiipa jamii muda wa kuona jinsi unavyofanya kazi kabla ya kuupitia upya.
 
-How does Canopy relate to NU6 and NU6.1? Canopy set up the three-way funding split and the funding stream machinery. Later upgrades, including NU6 and NU6.1, revisited and reshaped the Development Fund built on top of that foundation.
+Je, Canopy inahusianaje na NU6 na NU6.1? Canopy ilianzisha mgawanyo wa ufadhili wa njia tatu na utaratibu wa mkondo wa ufadhili. Maboresho ya baadaye, yakiwemo NU6 na NU6.1, yalipitia upya na kuunda upya Mfuko wa Maendeleo uliojengwa juu ya msingi huo.
 
-## Jaribu uelewevu wako
+## Jaribu uelewa wako
 
-Canopy kuanzishwa katika block sawa na Zcash ya kwanza halving. Kwa nini wakati huo alichaguliwa, na ni nini kingetokea kwa fedha za maendeleo bila Canopy?
+Canopy ilianza kutumika katika block ileile kabisa kama kupunguzwa kwa nusu kwa kwanza kwa Zcash. Kwa nini muda huo ulichaguliwa, na nini kingetokea kwa ufadhili wa maendeleo bila Canopy?
 
 <details>
-<summary>Answer</summary>
+<summary>Jibu</summary>
 
-Msingi wa mwanzilishi zawadi ilikuwa imepangwa mwisho katika kwanza halving. Bila Canopy, wote ndogo baada ya nusu block malipo ingekuwa wamekwenda kwa wachimbaji, na kuacha hakuna itifaki-kiwango cha fedha za maendeleo. Canopy badala ya waanzilishi tuzo na Mfuko Development saa kwamba kuzuia halisi, hivyo ufadhili iliendelea bila pengo.
+Zawadi ya awali ya waanzilishi ilipangwa kuisha wakati wa kupunguzwa kwa nusu kwa kwanza. Bila Canopy, zawadi yote ndogo ya block baada ya kupunguzwa kwa nusu ingeenda kwa wachimbaji, na kuacha bila ufadhili wa kiwango cha itifaki kwa maendeleo. Canopy ilibadilisha zawadi ya waanzilishi kwa Mfuko wa Maendeleo katika block hiyo hasa, hivyo ufadhili uliendelea bila pengo.
 </details>
 
 ### Rasilimali
 
-[ZIP 251: kupelekwa kwa Upgrading Canopy Network](https://zips.z.cash/zip-0251)
+[ZIP 251: Utekelezaji wa Uboreshaji wa Mtandao wa Canopy](https://zips.z.cash/zip-0251)
 
-[ZIP 1014: Kuanzisha Mfuko wa Dev kwa ECC, ZF na Misaada Mkubwa](https://zips.z.cash/zip-1014)
+[ZIP 1014: Kuanzisha Mfuko wa Maendeleo kwa ECC, ZF, na Ruzuku Kuu](https://zips.z.cash/zip-1014)
 
-[ZIP 207: Fedha Streams](https://zips.z.cash/zip-0207)
+[ZIP 207: Mikondo ya Ufadhili](https://zips.z.cash/zip-0207)
 
-[ZIP 214: Kanuni za makubaliano kwa ajili ya Mfuko wa Maendeleo Zcash](https://zips.z.cash/zip-0214)
+[ZIP 214: Sheria za makubaliano za Mfuko wa Maendeleo wa Zcash](https://zips.z.cash/zip-0214)
 
-[ZIP 211: Kuzima Uongezaji wa Thamani Mpya kwenye Kikosi cha Thamani cha Mnyororo wa Sprout](https://zips.z.cash/zip-0211)
+[ZIP 211: Kuzuia Kuongezwa kwa Thamani Mpya kwenye Bwawa la Thamani la Mnyororo wa Sprout](https://zips.z.cash/zip-0211)
 
-[Canopy Network Upgrade (Upakuaji wa Mtandao)](https://z.cash/upgrade/canopy/)
+[Canopy Uboreshaji wa Mtandao](https://z.cash/upgrade/canopy/)
 
-### Angalia pia:
+### Tazama pia
 
-[Zcash Network Upgrades (Ubadilishaji wa Mtandao)](../start-here/network-upgrades)
+[Maboresho ya Mtandao wa Zcash](../start-here/network-upgrades)
 
 [Mfuko wa Maendeleo](../start-here/development-fund)
 
-[Zcash Sera ya Fedha](../start-here/zcash-monetary-policy)
+[Sera ya Kifedha ya Zcash](../start-here/zcash-monetary-policy)
 
-[Vidimbwi Vilivyohifadhiwa kwa Kifaa cha Kuzuia Mlipuko](../using-zcash/shielded-pools)
+[Mabwawa ya Faragha](../using-zcash/shielded-pools)
 
 [NU6.1](../zcash-tech/nu6-1)
 
@@ -109,4 +109,4 @@ Msingi wa mwanzilishi zawadi ilikuwa imepangwa mwisho katika kwanza halving. Bil
 
 ---
 
-Mfululizo: [Kiwango cha Upgrades Network](../start-here/network-upgrades) · Zamani: [Heartwood](../zcash-tech/heartwood) · Kisha: [NU5](../zcash-tech/nu5)
+Mfululizo: [Faharasa ya Maboresho ya Mtandao](../start-here/network-upgrades) · Iliyotangulia: [Heartwood](../zcash-tech/heartwood) · Inayofuata: [NU5](../zcash-tech/nu5)

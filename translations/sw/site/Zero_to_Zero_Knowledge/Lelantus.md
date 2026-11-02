@@ -1,129 +1,129 @@
-# Zero to Zero Knowledge: Lelantus Itifaki
+# Zero to Zero Knowledge: Itifaki ya Lelantus
 
-**Series:** Zero to Zero Knowledge
+**Mfululizo:** Zero to Zero Knowledge
 
 Leo tunaangalia **Lelantus**!
 
-Iliyotolewa mnamo 2019, itifaki hii inajengwa juu ya Zerocoin. Inatumika katika sarafu ya ** Firo ** (zamani Zcoin) kuwezesha shughuli za kibinafsi kwenye mnyororo. Inafanana na Zcash kwa njia kadhaa lakini ni tofauti kabisa katika nyanja nyingi.
+Iliyotolewa mwaka 2019, itifaki hii inajengwa juu ya Zerocoin. Inatumika katika sarafu ya **Firo** (hapo awali Zcoin) kuwezesha miamala ya faragha [private transactions] on-chain. Inafanana na Zcash kwa namna fulani, lakini ni tofauti wazi katika vipengele vingi.
 
-![Lelantus utangulizi](/content-images/Fsk18DgXsAEc0Ob-a8cd9a85d1.webp)
-
----
-
-## Zcash dhidi ya Firo Protocol Foundations
-
-- ** Zcash ** - Hujenga juu ya ** Zerocash ** itifaki 
-- **Firo (Zcoin) ** - Hujenga juu ya **Zerocoin** itifaki
-
-![Zerocash dhidi ya kulinganisha Zerocoin](/content-images/Fsk2Fk7WcAA81ty-92158edf6b.webp)
+![Lelantus intro](/content-images/Fsk18DgXsAEc0Ob-a8cd9a85d1.webp)
 
 ---
 
-## Mageuzi ya Firo Privacy Protocols
+## Misingi ya Itifaki ya Zcash dhidi ya Firo
 
-Sawa na Zcash, Firo hutumia anwani za ulinzi kufikia malipo ya bila majina.
+- **Zcash** - Inajengwa juu ya itifaki ya **Zerocash**  
+- **Firo (Zcoin)** - Inajengwa juu ya itifaki ya **Zerocoin**
 
-Mfuatano wa matukio:
-- **Zerocoin** - Soundness kuvunjwa
-- ** Sigma ** - Fixed jina mfumo
-- **Lelantus 1.0** - Kukosa uthibitisho sahihi wa usalama
-
-![Protocol mageuzi](/content-images/Fsk2NdaWAAAKVgH-f84ae27c48.webp)
+![Zerocash vs Zerocoin comparison](/content-images/Fsk2Fk7WcAA81ty-92158edf6b.webp)
 
 ---
 
-## Mipaka ya itifaki Sigma
+## Mageuzi ya Itifaki za Faragha [Privacy] za Firo
 
-Σ (Sigma) itifaki kutumika katika matoleo ya awali ya Zcoin / Firo alikuwa na mapungufu makubwa: watumiaji inaweza tu mint majina ya kudumu.
+Sawa na Zcash, Firo hutumia anwani za faragha [shielded addresses] kufanikisha malipo yasiyotambulika [anonymous payments].
 
-Hii iliunda seti ndogo za kutokujulikana na kufungua mlango wa mashambulizi ya wakati kati ya shughuli za mint na redeem (pamoja na shida ya "badilishaji iliyochafuliwa").
+**Ratiba:**
+- **Zerocoin** - Uthabiti umevunjwa
+- **Sigma** - Mfumo wa madhehebu yasiyobadilika
+- **Lelantus 1.0** - Ilikosa mathibitisho sahihi ya usalama
 
-![Sigma madhehebu](/content-images/Fsk2fxfWcAMUBDo-333a8f9df3.webp)
+![Protocol evolution](/content-images/Fsk2NdaWAAAKVgH-f84ae27c48.webp)
+
+---
+
+## Vikwazo vya Itifaki ya Sigma
+
+Itifaki ya Σ (Sigma) iliyotumiwa katika matoleo ya awali ya Zcoin/Firo ilikuwa na kikwazo kikubwa: watumiaji waliweza tu kutengeneza madhehebu yasiyobadilika.
+
+Hii iliunda seti ndogo za kutokutambulika na kufungua uwezekano wa mashambulizi ya muda kati ya shughuli za kutengeneza na kukomboa (pamoja na tatizo la “chenji iliyochafuliwa”).
+
+![Sigma denominations](/content-images/Fsk2fxfWcAMUBDo-333a8f9df3.webp)
 
 ---
 
 ## Jinsi Lelantus Inavyoboresha Faragha
 
-**Lelantus** hutatua suala la jina la kudumu kwa kuruhusu mint kutoka seti moja kubwa.
+**Lelantus** hutatua tatizo la madhehebu yasiyobadilika kwa kuruhusu utengenezaji kutoka kwa seti moja kubwa zaidi.
 
 Faida kuu:
-- Inaondoa fasta majina anonymity seti
-- Hupunguza mashambulizi ya muda kati ya kuchoma / kukomboa
-- Inaondoa tatizo la mabadiliko ya uchafu
+- Huondoa seti za kutokutambulika za madhehebu yasiyobadilika
+- Hupunguza mashambulizi ya muda kati ya kuchoma/kukomboa
+- Huondoa tatizo la chenji iliyochafuliwa
 
-**Upungufu**: Ukubwa wa seti kwa sasa umepunguzwa kwa sarafu **65,000**.
+**Kikwazo**: Ukubwa wa seti kwa sasa umewekewa kikomo cha **sarafu 65,000**.
 
-![Lelantus faida](/content-images/Fsk2wK3X0AA6MEe-06f29b3621.webp)
-
----
-
-## Mikataba ya sarafu
-
-A ** sarafu ahadi ** ni mara mbili kipofu ahadi encoding sarafu namba ya mfululizo na sarafu thamani.
-
-Hizi kazi sawa na ** Notes ** katika Zcash.
-
-sarafu ahadi ni kuchapishwa na kuhifadhiwa juu ya kitabu wakati sarafu ni kuundwa (kupitia Mint au kutumia shughuli).
-
-![Mchoro wa kujitolea kwa sarafu](/content-images/Fsk3AWNX0AIHya8-0ed01a73c1.webp)
+![Lelantus advantages](/content-images/Fsk2wK3X0AA6MEe-06f29b3621.webp)
 
 ---
 
-## Basecoin < - > Zerocoin Mfano
+## Commitment za Sarafu
 
-Lelantus inatumia classic **basecoin < - > zerocoin** mfano.
+**Commitment ya sarafu** ni commitment iliyopofushwa mara mbili inayosimba nambari tambulishi ya sarafu na thamani ya sarafu.
 
-** Muhimu kipengele **: sehemu redeemments ni sasa inawezekana wakati kuweka salio na kiasi siri.
+Hizi hufanya kazi kwa namna inayofanana na **Madokezo [Notes]** katika Zcash.
 
-Kama Zcash, shughuli uwazi lazima wazi kuchaguliwa na mtumiaji.
+Commitment ya sarafu huchapishwa na kuhifadhiwa kwenye leja sarafu inapoundwa (kupitia miamala ya Mint au Spend).
 
-![Lelantus mtiririko](/content-images/Fsk3HrjXgAMgqmX-4d727febf5.webp)
-
----
-
-## Uthibitisho Mmoja-Kati-ya-Mengi
-
-Lelantus hutumia ** One-of-Many Proofs ** kutoa maadili ya kuingiza muhimu kwa kuthibitisha usawa bila kufunua vyanzo vya kuingiza - na bila kuhitaji usanidi wa kuaminika.
-
-Uthibitisho huu pia hutumiwa katika **Triptych** (iliyotajwa katika thread yetu ya CryptoNote).
-
-![Uthibitisho wa Moja-ya-Mengi](/content-images/Fsk3Z0nWIAAPD4k-b76f087018.webp)
+![Coin commitment diagram](/content-images/Fsk3AWNX0AIHya8-0ed01a73c1.webp)
 
 ---
 
-## Mtandao safu ya faragha: Dandelion++
+## Muundo wa Basecoin < - > Zerocoin
 
-Firo nodes kutumia sawa Network Magic kama Zcash ya Magicbean.
+Lelantus hutumia muundo wa kawaida wa **basecoin < - > zerocoin**.
 
-Kama Monero, Firo kutekelezwa ** Dandelion ++ ** kuongeza faragha kwa obfuscating anwani ya IP ya shughuli broadcaster.
+**Kipengele muhimu**: Ukomboaji wa sehemu sasa unawezekana huku salio na kiasi vikibaki vimefichwa.
 
-** Dandelion ++ awamu:**
-- **Stem awamu** - shughuli ni relayed kwa node moja random badala ya wenzao wote
-- **Fluff awamu** - Randomly ilianzishwa, kisha switches kwa hali ya kawaida uvumi
+Kama Zcash, miamala ya uwazi [transparent transactions] lazima ichaguliwe waziwazi na mtumiaji.
 
-Hii inafanya kuwa vigumu sana kufuatilia asili ya manunuzi kupitia uchambuzi wa mtandao.
+![Lelantus flow](/content-images/Fsk3HrjXgAMgqmX-4d727febf5.webp)
 
-![Dandelion++ maelezo](/content-images/Fsk4A8VWcAU84MR-538b054cab.webp)
+---
+
+## Mathibitisho ya Moja-kati-ya-Nyingi
+
+Lelantus hutumia **Mathibitisho ya Moja-kati-ya-Nyingi [One-of-Many Proofs]** kutoa thamani za ingizo zinazohitajika kuthibitisha salio bila kufichua asili za ingizo - na bila kuhitaji usanidi unaoaminika [trusted setup].
+
+Mathibitisho haya pia hutumiwa katika **Triptych** (iliyotajwa katika mfululizo wetu wa CryptoNote).
+
+![One-of-Many Proofs](/content-images/Fsk3Z0nWIAAPD4k-b76f087018.webp)
+
+---
+
+## Faragha ya Tabaka la Mtandao: Dandelion++
+
+Node za Firo hutumia Network Magic sawa na Magicbean ya Zcash.
+
+Kama Monero, Firo ilitekeleza **Dandelion++** ili kuongeza faragha kwa kuficha anwani ya IP ya mtangazaji wa muamala.
+
+**Awamu za Dandelion++:**
+- **Awamu ya shina** - Muamala hutumwa kwa node moja ya nasibu badala ya washirika wote
+- **Awamu ya fluff** - Huanza kwa nasibu, kisha hubadilika hadi hali ya kawaida ya uvumishaji
+
+Hii hufanya iwe vigumu zaidi kufuatilia asili ya muamala kupitia uchambuzi wa mtandao.
+
+![Dandelion++ explanation](/content-images/Fsk4A8VWcAU84MR-538b054cab.webp)
 
 ---
 
 ## Baadaye: Lelantus-Spark
 
-**Lelantus-Spark** (iliyopangwa baadaye 2023) huanzisha viwango viwili vya kuonekana kwa kuchagua kutumia **ZIP-32 style derivation** na anwani anuwai.
+**Lelantus-Spark** (iliyopangwa kwa baadaye mwaka 2023) huanzisha viwango viwili vya mwonekano wa hiari kwa kutumia **ZIP-32 style derivation** na anwani mbalimbali.
 
-Pia itaongeza msaada kwa:
-- Kutia sahihi nyingi
-- Mtumiaji maalum siri mali
+Pia itaongeza usaidizi kwa:
+- Multisig
+- Rasilimali za Siri Zilizofafanuliwa na Mtumiaji
 
-Hizi makala sambamba Zcash Shielded Mali.
+Vipengele hivi vinafanana na Rasilimali za Faragha za Zcash.
 
-![Lelantus-Spark tangazo](/content-images/Fsk4jXeXsAACQ3h-b53294b16e.webp)
+![Lelantus-Spark announcement](/content-images/Fsk4jXeXsAACQ3h-b53294b16e.webp)
 
 ---
 
-**Ujumbe wa awali na ZecHub (@ZecHub) ** 
+**Mfululizo wa Asili na ZecHub (@ZecHub)**  
 https://x.com/ZecHub/status/1641902859800150017
 
 ---
 
-*Ukurasa huu ulikusanywa kutoka kwa mada ya awali ya Zero to Zero Knowledge kwa wiki ya ZecHub.*
+*Ukurasa huu ulikusanywa kutoka mfululizo wa asili wa Zero to Zero Knowledge kwa ajili ya wiki ya ZecHub.*

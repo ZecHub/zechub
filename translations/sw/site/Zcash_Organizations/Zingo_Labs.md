@@ -1,37 +1,39 @@
 #  <img src="/content-images/e38b13a9-d410-426a-a1e6-2dde105d56c4-6b8154e5ae.webp" alt="Alt Text" width="50"/> ZingoLabs
 
-[Tovuti rasmi](https://zingolabs.org/) - [GitHub](https://github.com/zingolabs) - [X/Twitter](https://x.com/ZingoLabs) - [Instagram](https://www.instagram.com/zingolabesp/)
+[Tovuti Rasmi](https://zingolabs.org/) - [GitHub](https://github.com/zingolabs) - [X/Twitter](https://x.com/ZingoLabs) - [Instagram](https://www.instagram.com/zingolabesp/)
 
-ZingoLabs ni timu ya maono kujitolea kuboresha uzoefu wa binadamu. Tunaamini kuwa teknolojia inapaswa kufaidi ubinadamu na kwamba sisi kustawi kupitia mwingiliano wa makubaliano. Sisi ni kutambua mifumo ambayo kufanya hii inawezekana.
+ZingoLabs ni timu ya wenye maono inayojitolea kuboresha uzoefu wa binadamu. Tunaamini kwamba teknolojia inapaswa kunufaisha ubinadamu na kwamba tunastawi kupitia mwingiliano wa hiari. Tunatambua mifumo inayowezesha hili.
 
-Zingo Lab Cyan inafanya kazi kama DAO Shielded sisi kuhifadhi fedha zetu katika hazina ambapo kila mwanachama ana mtazamo muhimu fedha ni alitumia kutoka hazina wakati wanachama kura kwa niaba ya pendekezo.
+Zingo Lab Cyan hufanya kazi kama DAO ya Faragha [Shielded DAO]. Tunahifadhi fedha zetu katika hazina [treasury] ambako kila mwanachama ana ufunguo wa kutazama [view key]. Fedha hutolewa kutoka kwenye hazina wanachama wanapopigia kura kwa niaba ya pendekezo.
 
 ## Miradi
 
-### Zingo! mkoba ([GitHub](https://github.com/zingolabs/zingo-mobile))
-Zingo Wallet is a fully featured Zcash wallet designed for user friendliness, although it includes some advanced features for more advanced users. It supports transparent, Sapling and Orchard pools, has an address book for recurrent payments and is available in various languages. It was the first wallet to support Orchard and to implement NU5 formats.
+### Zingo! Pochi [Wallet] ([GitHub](https://github.com/zingolabs/zingo-mobile))
+Zingo Wallet ni pochi yenye vipengele kamili ya Zcash iliyoundwa kwa urahisi wa matumizi, ingawa inajumuisha vipengele vya kina kwa watumiaji wenye ujuzi zaidi. Inaauni mabwawa ya uwazi [transparent], Sapling na Ironwood, ina kitabu cha anwani kwa malipo [payments] yanayorudiwa, na inapatikana katika lugha mbalimbali. Ilikuwa pochi ya kwanza kuunga mkono Orchard na kutekeleza fomati za NU5.
 
-Moja ya sifa kuu ya Zingo! ni uwezo wake wa kutumia uwanja Memo kutoa ufahamu thamani kuhusu shughuli yako.
+Kimoja cha vipengele vikuu vya Zingo! ni uwezo wake wa kutumia sehemu ya ujumbe [Memo] kutoa maarifa muhimu kuhusu miamala [transactions] yako.
 
-Zingo! inapatikana kwa ajili ya vifaa vya mkononi na PC.](https://zingolabs.org/)
+Zingo! inapatikana kwa vifaa vya mkononi na Kompyuta. Utapata vipakuliwa vyote [hapa](https://zingolabs.org/)
 
 ### Zingolib ([GitHub](https://github.com/zingolabs/zingolib))
-API na mtihani-app kwamba inaonyesha zcash utendaji kwa matumizi ya programu. Zingolib hutoa wote maktaba kwa ajili ya zingo-simu, kama vile pamoja na maombi cli kuingiliana na zcashd kupitia lightwalletd aitwaye zingo-cli, amri line lightwalletsd-proxy mteja.
+API na programu ya majaribio inayotoa utendakazi wa zcash kwa matumizi ya programu. Zingolib hutoa maktaba ya zingo-mobile, pamoja na programu ya cli iliyojumuishwa iitwayo zingo-cli, pochi nyepesi ya mstari wa amri inayowasiliana na kiorodheshi cha mnyororo [chain indexer] kama vile [Zaino](/zcash-tech/zaino).
 
-### Zaino Indexer ([GitHub](https://github.com/zingolabs/zaino))
-Zaino ni Indexer maendeleo katika kutu na timu Zingo, ambayo inalenga kuchukua nafasi ya lightwalletd na kushinikiza mbele mradi zcashd deprecation.
+### Kiorodheshi [Indexer] cha Zaino ([GitHub](https://github.com/zingolabs/zaino))
+Zaino ni kiorodheshi cha Rust cha blockchain ya Zcash, kilichotengenezwa na timu ya Zingo. Ni kiorodheshi katika [stacki ya Z3](/zcash-tech/z3-stack): Huweka faharasa ya data ya mnyororo kutoka kwa kithibitishaji cha [Zebra](/zcash-tech/zebra-full-node) na huhudumia pochi, vivinjari, na wateja wengine. Ni njia mrithi wa lightwalletd.
 
-Zaino offers essential features for both light clients, such as wallets and applications that do not require the full blockchain history, and full clients or wallets. It also supports block explorers, granting access to both the finalized blockchain and the non-finalized best chain and mempool managed by a Zebra or zcashd full validator.
+Zaino hutoa vipengele muhimu kwa light clients, kama pochi na programu ambazo hazihitaji historia kamili ya blockchain, pamoja na wateja kamili au pochi. Pia inaauni vivinjari vya block, ikitoa ufikiaji wa blockchain iliyokamilishwa na mnyororo bora [best chain] ambao haujakamilishwa pamoja na mempool inayosimamiwa na kithibitishaji kamili [full validator] cha Zebra.
+
+`zcashd` ilifikia kusimamishwa kwa Mwisho wa Usaidizi [End-of-Support] tarehe 18 Julai 2026 katika block 3,417,100 na haiungi mkono Ironwood (NU6.3). Zaino husoma kithibitishaji cha Zebra.
 
 ###  ZLN (zcash-local-net) ([GitHub](https://github.com/zingolabs/infrastructure/tree/dev/zcash_local_net))
-Seti ya huduma ambayo kuzindua na kusimamia michakato Zcash. Hii ni kutumika kwa ajili ya ushirikiano wa kupima katika maendeleo ya:
-- wateja nyepesi
-- indexers
-- kuthibitisha
 
-Lengo lake ni kutoa mazingira ya kupima yenye kubadilika na imara kwa nodes za msingi (validators) kama zcash na zebra, indexers kama lightwallet na zaino, angalau, zingo-cli kama mkoba mwepesi wa mteja.
+Seti ya vifaa vinavyoanzisha na kusimamia michakato ya Zcash. Hii hutumiwa kwa majaribio ya ujumuishaji katika maendeleo ya:
+- light clients
+- viorodheshi
+- vithibitishaji
 
-Hifadhi hii ni iliyoundwa kulinganisha utendaji wa wathibitishaji mbalimbali (kama zcashd na Zebrad) na indexers (kama vile lightwalletd na Zaino) ili kuwezesha uhamiaji wakati wa mchakato ZCashd deprecation.
+Lengo lake ni kutoa mazingira ya majaribio yanayoweza kubadilishwa kwa urahisi na thabiti kwa node za msingi (vithibitishaji) kama Zebra, viorodheshi kama Zaino, na pochi za light client kama zingo-cli.
 
-In addition to providing tools to start, cache, and load Zcash chain data (for mainnet, testnet, and regtest), zcash-zocal-net includes a series of tests to compare the capabilities of lightwalletd and Zaino across all Lightwallet RPC services. These tests can be executed directly from Zaino (see [https://github.com/zingolabs/zaino/blob/dev/docs/testing.md](https://github.com/zingolabs/zaino/blob/dev/docs/testing.md)]) kutathmini huduma za Lightwallet RPC zilizohifadhiwa katika Zaino.
+Stacki chaguomsingi inayozinduliwa ni Zebrad, zainod, na zcash-devtool. Michakato ya urithi ya `zcashd` na lightwalletd iko nyuma ya kipengele cha `legacy-stack` kisichoauniwa na imepangwa kuondolewa.
 
+Mbali na kutoa vifaa vya kuanzisha, kuhifadhi kwenye kashe, na kupakia data ya mnyororo wa Zcash (kwa mainnet, testnet, na regtest), zcash-local-net hutumiwa kutoka kwenye mkusanyiko wa majaribio wa Zaino kutathmini huduma za Lightwallet RPC zinazopangishwa katika Zaino (tazama [Zainonyaraka za majaribio](https://github.com/zingolabs/zaino/blob/dev/docs/testing.md)).

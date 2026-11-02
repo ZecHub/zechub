@@ -1,8 +1,8 @@
 # Nym VPN 
 
-Nym is an evolving mix network (mixnet), a type of computer network infrastructure for privacy that masks user metadata, separating source and destination IP addresses. It anonymizes various types of communication, including messaging, files transfers, payments transactions, and web browsing on basic websites. The project is built on free and open-source software and is decentralized, maintained by a distributed set of independent nodes worldwide.Nym VPN & Mixnet accepts payment in shielded ZEC! 
+Nym ni mtandao mseto unaoendelea kubadilika (mixnet), aina ya miundombinu ya mtandao wa kompyuta kwa ajili ya faragha [privacy] inayoficha metadata ya mtumiaji, ikitenganisha anwani za IP za chanzo na lengwa. Hufanya aina mbalimbali za mawasiliano kutotambulika, zikiwemo ujumbe, uhamishaji wa faili, miamala ya malipo, na kuvinjari wavuti kwenye tovuti za kawaida. Mradi huu umejengwa kwa programu huria na za chanzo wazi, na umegawanywa, ukidumishwa na kundi lililosambazwa la node huru duniani kote.Nym VPN & Mixnet inakubali malipo ya faragha [shielded] katika ZEC! 
 
-[Nym Blog Post](https://nym.com/blog/nymvpn-with-zcash) [Download Nym VPN](https://nym.com)
+[Nym Chapisho la Blogu](https://nym.com/blog/nymvpn-with-zcash) | [Pakua Nym VPN](https://nym.com)
 
 ## Mafunzo
 
@@ -18,54 +18,53 @@ Nym is an evolving mix network (mixnet), a type of computer network infrastructu
 </div>
    
 
-### Upatikanaji wa maudhui ya geo iliyozuiliwa
+### Fikia maudhui yaliyozuiwa kwa eneo la kijiografia
 
-Pitia vizuizi vya kijiografia ili kufikia huduma za utiririshaji, tovuti, au maudhui ambayo hayapatikani katika eneo lako.
+Epuka vizuizi vya kijiografia ili kufikia huduma za utiririshaji, tovuti, au maudhui yasiyopatikana katika eneo lako.
 
-### Kuboresha usalama wako kwenye WiFi ya umma
+### Imarisha usalama wako kwenye WiFi ya umma
 
-Linda data zako kutokana na watekaji wa mtandao unapotumia Wi-Fi ya umma katika mikahawa, viwanja vya ndege, au hoteli.
+Linda data yako dhidi ya wavamizi unapotumia Wi-Fi ya umma katika mikahawa, viwanja vya ndege, au hoteli.
 
-### Advanced faragha katika moja 
+### Faragha ya hali ya juu katika huduma moja 
 
 Linda faragha yako
-Funga muunganisho wako wa intaneti ili kuficha shughuli zako za mtandaoni kutoka kwa watoa huduma za intaneti, watangazaji, na wachunguzi wa data.
+Simbua muunganisho wako wa intaneti ili kuficha shughuli zako mtandaoni dhidi ya watoa huduma za intaneti, watangazaji, na wafuatiliaji wa data.
 
-### Usijulikane mtandaoni
+### Usitambulike mtandaoni
 
-Kuficha anwani yako ya IP ili kubaki bila kujulikana wakati wa kuvinjari, kuepuka profile au matangazo yaliyolengwa.
+Ficha anwani yako ya IP ili usitambulike unapovinjari, ukiepuka uundaji wa wasifu au matangazo yanayolengwa.
 
-### Epuka bandwidth throttling
+### Epuka kupunguzwa kwa kasi ya data
 
-Kuzuia ISPs kutoka kupunguza kasi ya uhusiano wako wa mtandao wakati wa Streaming au michezo.
+Zuia watoa huduma za intaneti wasipunguze kasi ya muunganisho wako wa intaneti unapotiririsha maudhui au kucheza michezo.
 
-### Kuzuia ufuatiliaji na udhibiti
+### Zuia ufuatiliaji na udhibiti
 
-Pitia udhibiti na ufikie tovuti zilizozuiwa au mitandao ya kijamii katika nchi zenye vizuizi.
+Epuka udhibiti na ufikie tovuti au mitandao ya kijamii iliyozuiwa katika nchi zenye vikwazo.
 
-### Benki ya mtandaoni iliyo salama
+### Linda huduma za benki mtandaoni
 
-Linda habari nyeti za kifedha unapotumia huduma za benki au kufanya malipo kupitia Intaneti.
+Linda taarifa nyeti za kifedha unapofikia huduma za benki mtandaoni au kufanya malipo.
 
-### Epuka bei ya nguvu
+### Epuka bei zinazobadilika
 
-Ficha eneo lako ili kuepuka ubaguzi wa bei kulingana na eneo kwa ndege, hoteli, au bidhaa.
+Ficha eneo lako ili kuepuka ubaguzi wa bei kulingana na eneo kwa safari za ndege, hoteli, au bidhaa.
 
-### Kulinda shughuli yako crypto
+### Linda miamala yako ya sarafu za kidijitali
 
-Kulinda shughuli yako cryptocurrency na malipo unlinkable ya NymVPN na metadata ya juu ya ulinzi.
+Linda shughuli zako za sarafu za kidijitali kwa malipo yasiyoweza kuhusishwa [unlinkable] ya NymVPN na ulinzi wa hali ya juu wa metadata.
 
 
-## Nym VPN Installation Guides:
+## Miongozo ya usakinishaji wa Nym VPN:
 
 [iOS](https://vimeo.com/1083490444/81e95709b0) 
 
 [MacOS](https://vimeo.com/1080779573/78844dc8db)
 
-[Mifereji](https://vimeo.com/1085710809/52876930a6)
+[Windows](https://vimeo.com/1085710809/52876930a6)
 
 [Android](https://vimeo.com/1096218590?share=copy)
 
 
-Kujifunza kuhusu [Nym x Zcash ushirikiano](https://nym.com/blog/zcash-ltgt-nym)
- 
+Jifunze kuhusu ujumuishaji wa [Nym x Zcash](https://nym.com/blog/zcash-ltgt-nym)

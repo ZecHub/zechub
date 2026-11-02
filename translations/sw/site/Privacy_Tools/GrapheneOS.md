@@ -4,106 +4,120 @@
 
 # Graphene OS
 
-GrapheneOS is a non-profit, open-source project dedicated to enhancing privacy and security on mobile devices while maintaining compatibility with Android apps. This Operating system places a strong emphasis on advancing privacy and security technologies, with a particular focus on bolstering sandboxing, exploit mitigations, and refining the permission model. Born in 2014 under the moniker **CopperheadOS**. it has since evolved into the formidable guardian of your digital privacy and security.
+## Kwa ufupi
 
-Lengo kuu la GrapheneOS ni kuimarisha mipaka ya usalama, kama vile sandbox ya programu, bila kuathiri vibaya uzoefu wa mtumiaji. 
+- **GrapheneOS** ni mfumo wa uendeshaji wa simu wa chanzo huria, usio wa faida, unaolenga faragha (privacy) na usalama, wenye uoanifu kamili na programu za kila siku za Android
+- Nguvu kuu: kisanduku kigumu cha programu, msimbo salama kwa kumbukumbu na kinga dhidi ya uvamizi, uanzishaji uliothibitishwa unaotegemea vifaa, ruhusa za kina, na ulinzi wa mlango wa USB-C kifaa kinapofungwa
+- Usakinishaji hufanywa kupitia kisakinishi rasmi cha **WebUSB** (kinachopendekezwa kwa watumiaji wengi) au **mchakato wa mstari wa amri** kwa watumiaji wa kiufundi
+- Kwa mtumiaji wa Zcash, huu ni msingi imara wa kujihifadhi mwenyewe kwa simu: unganisha na pochi ya faragha inayodumishwa pamoja na mazoea ya kawaida ya OPSEC
 
-GrapheneOS inaweza kuanzisha toggles mbalimbali kwa ajili ya vipengele maalum, kama vile ruhusa Network, ruhusa Sensors, au vikwazo wakati kifaa ni imefungwa (kufunika masuala kama USB peripherals, upatikanaji wa kamera, na tiles haraka).
+GrapheneOS ni mradi wa chanzo huria, usio wa faida, unaojitolea kuboresha faragha na usalama kwenye vifaa vya simu huku ukiendelea kuwa na uoanifu na programu za Android. Mfumo huu wa uendeshaji unasisitiza sana kuendeleza teknolojia za faragha na usalama, hasa katika kuimarisha utenganishaji wa programu, kinga dhidi ya uvamizi, na kuboresha muundo wa ruhusa. Ulioanzishwa mwaka 2014 kwa jina **CopperheadOS**, tangu hapo umekuwa mlinzi imara wa faragha na usalama wako wa kidijitali.
 
-## ** Sifa ya GrapheneOS **
+Lengo kuu la GrapheneOS ni kuimarisha mipaka ya usalama, kama vile kisanduku cha programu, bila kuathiri vibaya uzoefu wa mtumiaji. 
 
-**Security Hardening** GrapheneOS includes extensive security enhancements, such as memory-safe programming languages and compiler-based security features to reduce common vulnerabilities.
+GrapheneOS inaweza kuanzisha vigeuzi mbalimbali vya vipengele mahususi, kama vile ruhusa za mtandao, ruhusa za vihisi, au vizuizi kifaa kinapofungwa (vinavyohusu vipengele kama vifaa vya pembeni vya USB, ufikiaji wa kamera, na vigae vya haraka). Aidha, vipengele changamani zaidi vya faragha na usalama vinavyomkabili mtumiaji hutengenezwa kwa uangalifu ili kudumisha uzoefu rafiki kwa mtumiaji, kila kimoja kikiwa na maboresho yake ya kiolesura cha mtumiaji.
 
-**Sandboxing** Inaimarisha sandboxing ya programu ili kutenganisha programu kutoka kwa kila mmoja, kupunguza hatari za mashambulizi.
+## **Vipengele vya GrapheneOS**
 
-**Verified Boot** GrapheneOS inatumia funguo za vifaa na mchakato wa boot unaoweza kuthibitishwa ili kuhakikisha uadilifu wa mfumo wa uendeshaji.
+**Uimarishaji wa Usalama** GrapheneOS inajumuisha maboresho makubwa ya usalama, kama vile lugha za programu salama kwa kumbukumbu na vipengele vya usalama vinavyotegemea mkusanyaji wa msimbo ili kupunguza udhaifu wa kawaida.
 
-**Ruhusa Enhanced** Inatoa udhibiti bora juu ya ruhusa ya programu, kuruhusu watumiaji kuboresha na kusimamia programu gani za data zinaweza kufikia.
+**Utenganishaji** Hii huimarisha utenganishaji wa programu ili kutenga programu moja na nyingine, na kupunguza njia zinazoweza kutumiwa kushambulia.
 
-Watumiaji wanaweza kufuatilia na kudhibiti tabia ya programu kupitia dashibodi ya faragha, kutoa uwazi katika matumizi ya data.
+**Uanzishaji Uliothibitishwa** GrapheneOS hutumia funguo zinazotegemea vifaa na mchakato wa uanzishaji unaoweza kuthibitishwa ili kuhakikisha uadilifu wa mfumo wa uendeshaji.
 
-** Kujengwa katika Updates Usalama ** GrapheneOS inatoa updates usalama kwa wakati muafaka, kuhakikisha watumiaji kuwa na ulinzi karibuni dhidi ya udhaifu.
+**Ruhusa Zilizoboreshwa** Hii hutoa udhibiti ulioboreshwa wa ruhusa za programu, ukiwaruhusu watumiaji kurekebisha kwa usahihi na kusimamia data ambazo programu zinaweza kufikia.
 
-** Strong Encryption ** Inatumia full-disk encryption default, kulinda data zilizohifadhiwa kwenye kifaa.
+**Dashibodi ya Faragha** Watumiaji wanaweza kufuatilia na kudhibiti tabia ya programu kupitia dashibodi ya faragha, ikitoa uwazi kuhusu matumizi ya data.
 
-**Kuimarishwa Browser Usalama** default browser ni umeboreshwa kwa ajili ya kuimarisha usalama, ikiwa ni pamoja na ulinzi dhidi ya kufuatilia.
+**Masasisho ya Usalama Yaliyojengewa Ndani** GrapheneOS hutoa masasisho ya usalama kwa wakati, yakihakikisha watumiaji wanapata ulinzi wa hivi karibuni dhidi ya udhaifu.
 
-** Minimum Pre-installed Apps** GrapheneOS inakuja na programu chache zilizowekwa tayari, kupunguza hatari zinazowezekana za usalama na faragha.
+**Usimbaji Fiche Imara** Hii hutumia usimbaji fiche wa diski nzima kwa chaguo-msingi, ikilinda data iliyohifadhiwa kwenye kifaa.
 
-**USB maadui Port Ulinzi** Inatoa ulinzi dhidi ya ufikiaji haramu kwa kifaa kupitia USB bandari wakati kifaa imefungwa.
+**Usalama Ulioboreshwa wa Kivinjari** Kivinjari chaguo-msingi kimesanidiwa kwa usalama ulioimarishwa, ikijumuisha ulinzi dhidi ya ufuatiliaji.
 
-**Anti-Malware Protection** GrapheneOS inajumuisha vipengele vya kugundua na kuzuia zisizo zinazojulikana.
+**Programu Chache Zilizosakinishwa Awali** GrapheneOS huja na programu chache zilizosakinishwa awali, na hivyo kupunguza hatari zinazoweza kutokea kwa usalama na faragha.
 
-**Kuzingatia faragha** OS imeundwa kwa msisitizo mkubwa juu ya faragha ya mtumiaji, kupunguza ukusanyaji wa data na mfiduo.
+**Ulinzi wa Mlango Hasimu wa USB** Hii hutoa ulinzi dhidi ya ufikiaji usioidhinishwa wa kifaa kupitia milango ya USB kifaa kinapofungwa.
 
-** Open Source ** Ni mradi wa chanzo wazi, kuruhusu uwazi na mchango wa jamii ili kuboresha usalama.
+**King a Dhidi ya Programu Hasidi** GrapheneOS inajumuisha vipengele vya kutambua na kuzuia programu hasidi zinazojulikana.
 
-Watumiaji wana uwezo wa Customize sera mbalimbali za usalama ili kukidhi matakwa yao.
+**Inayolenga Faragha** Mfumo wa uendeshaji umeundwa kwa kusisitiza sana faragha ya mtumiaji, ukipunguza ukusanyaji na ufichuzi wa data.
 
-**Upatanifu** GrapheneOS inajitahidi kudumisha utangamano na programu za Android, kwa hivyo watumiaji wanaweza kuendelea kutumia programu zao wanazopenda wakati wakifaidika na usalama ulioboreshwa na huduma za faragha.
+**Chanzo Huria** Huu ni mradi wa chanzo huria, unaoruhusu uwazi na michango ya jamii kuboresha usalama.
 
-## ** Kufunga GrapheneOS **
+**Sera za Usalama Zinazoweza Kurekebishwa** Watumiaji wana uwezo wa kurekebisha sera mbalimbali za usalama kulingana na mapendeleo yao.
 
-Kama ilivyoelezwa katika sehemu ya mazoezi bora ni ilipendekeza kufanya matumizi ya mapendekezo rasmi ufungaji mwongozo. Kuna njia mbili za kufunga GrapheneOS ambayo ni ama kwa kutumia [WebUSB-msingi installer](https://grapheneos.org/install/web) au kutumia [mwongozo wa ufungaji wa mstari wa amri](https://grapheneos.org/install/cli)
+**Uoanifu** GrapheneOS hujitahidi kudumisha uoanifu na programu za Android, ili watumiaji waendelee kutumia programu wanazopenda huku wakinufaika na vipengele vilivyoimarishwa vya usalama na faragha.
 
-** Mtandao USB Kulingana na Ufungaji ** Kufunga GrapheneOS kutumia Mtandaoni installer mbinu, wewe kawaida haja ya vifaa zifuatazo na rasilimali:
+## **Kusakinisha GrapheneOS**
 
-- 2GB of free memory & 32GB of free storage space.
-- USB Cable (A au C)
-- Inasaidiwa Mfumo wa Uendeshaji: Windows 10, Windows 11, MacOS Big Sur (11 - 13), Arch Linux, Debian (10 - 12), Ubuntu (22.04, 22.10 na 23.04), ChromeOS, GrapheneOS, Google Android (stock Pixel OS)
-- Browsers mkono: Chromium (haijaungwa mkono na Ubuntu), Vanadium (GrapheneOS), Google Chrome, Microsoft Edge, Brave Browser.
+Kama ilivyoelezwa katika sehemu ya mbinu bora, inashauriwa kutumia mwongozo rasmi unaopendekezwa wa usakinishaji. Kuna mbinu mbili za kusakinisha GrapheneOS: kutumia kisakinishi kinachotegemea [WebUSB](https://grapheneos.org/install/web) au kutumia [mwongozo wa usakinishaji kwa mstari wa amri](https://grapheneos.org/install/cli)
 
-Angalia ufungaji Mwongozo kupitia kiungo chini na kufuata mchakato wa ufungaji
+**Usakinishaji Unaotegemea Web USB** Ili kusakinisha GrapheneOS kwa kutumia mbinu ya kisakinishi cha wavuti, kwa kawaida utahitaji vifaa na rasilimali zifuatazo:
 
-[GrapheneOS Web Installer Mwongozo](https://grapheneos.org/install/web#prerequisites)
+- 2GB ya kumbukumbu huru na 32GB ya nafasi huru ya hifadhi.
+- Kebo ya USB (A au C)
+- Mfumo wa uendeshaji unaotumika: Windows 10, Windows 11, macOS Big Sur (11 - 13), Arch Linux, Debian (10 - 12), Ubuntu (22.04, 22.10 na 23.04), ChromeOS, GrapheneOS, Google Android (Pixel OS ya kawaida)
+- Vivinjari vinavyotumika: Chromium (haitumiki kwenye Ubuntu), Vanadium (GrapheneOS), Google Chrome, Microsoft Edge, kivinjari cha Brave.
 
-** amri Line ufungaji ** amri line ufungaji haipendekezi kwa watumiaji ambao si kiufundi oriented na chini zana na rasilimali zinahitajika kwa amri Line Installation;
+Tazama mwongozo wa usakinishaji kupitia kiungo kilicho hapa chini na ufuate mchakato wa usakinishaji
 
-- Unapaswa kuwa na angalau 2GB ya bure kumbukumbu inapatikana na 32GB ya nafasi ya kuhifadhi bure
-- USB Cable (A au C)
-- Inasaidiwa Operating System Windows 10 Windows 11 macOS Big Sur (11) macOS Monterey (12) macOS Ventura (13) Arch Linux Debian 10 (buster) Debian 11 (bullseye) Debian 12 (bookworm) Ubuntu 20.04 LTS Ubuntu 22.04 Lts Ubuntu 22.10 Ubuntu 23.04
-- Mtandao Installer kutoka Android, ChromeOS au GrapheneOS
+[GrapheneOS Mwongozo wa Kisakinishi cha Wavuti](https://grapheneos.org/install/web#prerequisites)
 
-Angalia ufungaji Mwongozo kupitia kiungo chini na kufuata mchakato wa ufungaji 
+**Usakinishaji kwa Mstari wa Amri** Usakinishaji kwa mstari wa amri haupendekezwi kwa watumiaji wasio na mwelekeo wa kiufundi, na vifaa pamoja na rasilimali zifuatazo zinahitajika kwa usakinishaji kwa mstari wa amri;
 
-[Kiwango Line amri](https://grapheneos.org/install/cli#prerequisites)
+- Unapaswa kuwa na angalau 2GB ya kumbukumbu huru na 32GB ya nafasi huru ya hifadhi
+- Kebo ya USB (A au C)
+- Mfumo wa uendeshaji unaotumika Windows 10 Windows 11 macOS Big Sur (11) macOS Monterey (12) macOS Ventura (13) Arch Linux Debian 10 (buster) Debian 11 (bullseye) Debian 12 (bookworm) Ubuntu 20.04 LTS Ubuntu 22.04 LTS Ubuntu 22.10 Ubuntu 23.04
+- Kisakinishi cha wavuti kutoka Android, ChromeOS au GrapheneOS
 
-## **Mazoea Bora**
+Tazama mwongozo wa usakinishaji kupitia kiungo kilicho hapa chini na ufuate mchakato wa usakinishaji 
 
-** Weka OS Updated ** Mara kwa mara update GrapheneOS kuhakikisha una patches karibuni usalama na maboresho.
+[Usakinishaji kwa Mstari wa Amri](https://grapheneos.org/install/cli#prerequisites)
 
-**Tumia Maneno ya siri yenye nguvu** Weka nywila zenye nguvu na za kipekee kwa usimbuaji wa kifaa na kuingia kwa programu ili kuzuia ufikiaji usioidhinishwa.
+## **Mbinu Bora**
 
-**Ruhusa za Programu** Pitia na udhibiti ruhusa za programu kwa uangalifu, ukitoa tu kile kinachohitajika kwa kila programu kufanya kazi.
+**Dumisha Mfumo wa Uendeshaji Ukiwa wa Sasa** Sasisha GrapheneOS mara kwa mara ili kuhakikisha una viraka na maboresho ya hivi karibuni ya usalama.
 
-** Regular Backups ** Kufanya backups mara kwa mara ya data yako katika kesi ya kupoteza kifaa au data rushwa.
+**Tumia Nywila Imara** Weka nywila imara na za kipekee kwa usimbaji fiche wa kifaa na kuingia kwenye programu ili kuzuia ufikiaji usioidhinishwa.
 
-** Encrypt Storage** Kama si kuwezeshwa kwa default, encrypt kuhifadhi kifaa yako kulinda data yako kama kifaa ni kupotea au kuibiwa.
+**Ruhusa za Programu** Kagua na simamia ruhusa za programu kwa uangalifu, ukitoa tu ruhusa zinazohitajika ili kila programu ifanye kazi.
 
-**Safi Lock Screen** Tumia salama lock screen, kama vile PIN, password, au biometric uthibitishaji, ili kuzuia ufikiaji usioidhinishwa.
+**Nakala Rudufu za Mara kwa Mara** Tengeneza nakala rudufu za data yako mara kwa mara iwapo kifaa kitapotea au data itaharibika.
 
-** Epuka Rooting Kifaa chako cha Android ** epuka mizizi au kufungua bootloader, kwani hii inaweza kudhoofisha usalama wa kifaa.
+**Simba Hifadhi Kwa Fiche** Ikiwa haijawezeshwa kwa chaguo-msingi, simba hifadhi ya kifaa chako kwa fiche ili kulinda data yako kifaa kinapopotea au kuibiwa.
 
-**Kuthibitisha Chanzo cha Programu** Thibitisha uhalisi wa programu na vyanzo vyao ili kuepuka kusanikisha programu hasidi.
+**Skrini Salama ya Kufunga** Tumia skrini salama ya kufunga, kama vile PIN, nywila, au uthibitishaji wa kibayometriki, ili kuzuia ufikiaji usioidhinishwa.
 
-**Install a Privacy-Focused Browser** Fikiria kutumia browser inayolenga faragha kama Brave browser, Firefox au Bromite kwa kuvinjari salama.
+**Epuka Kuweka Root Kifaa Chako cha Android** Epuka kuweka root au kufungua bootloader, kwa kuwa hali hii inaweza kudhoofisha usalama wa kifaa.
 
-**Kagua Programu Mara kwa mara** Pitia na uondoe programu ambazo hutumii tena au kuamini ili kupunguza uso wa shambulio.
+**Thibitisha Vyanzo vya Programu** Thibitisha uhalisi wa programu na vyanzo vyake ili kuepuka kusakinisha programu hasidi.
 
-** Kuwezesha Uthibitishaji wa Sababu Mbili (2FA)** Kuwezesha 2FA kwa akaunti zako za mtandaoni ili kuongeza safu ya ziada ya usalama.
+**Sakinisha Kivinjari Kinacholenga Faragha** Fikiria kutumia kivinjari kinacholenga faragha kama kivinjari cha Brave, Firefox au Bromite kwa kuvinjari kwa usalama.
 
-** Epuka Wi-Fi za umma ** Kuwa mwangalifu wakati wa kuunganisha kwenye mitandao ya umma ya Wifi, kwani inaweza kuwa salama kidogo. Tumia VPN inapohitajika.
+**Kagua Programu Mara kwa Mara** Kagua na uondoe mara kwa mara programu ambazo huzitumii tena au huziamini ili kupunguza eneo la kushambulia.
 
-**Kuwa makini na data ya eneo** Punguza ufuatiliaji wa eneo kwa programu na fikiria kutumia zana ya kudanganya eneo ikiwa unathamini faragha.
+**Wezesha Uthibitishaji wa Vipengele Viwili (2FA)** Wezesha 2FA kwa akaunti zako za mtandaoni ili kuongeza safu ya ziada ya usalama.
 
-** Epuka viungo na viambatisho visivyojulikana ** Jihadharini na viungo visivyohitajika na viambatanisho vya barua pepe, kwani zinaweza kuwa majaribio ya utapeli au programu hasidi.
+**Epuka Wi-Fi za Umma** Kuwa mwangalifu unapounganisha kwenye mitandao ya Wi-Fi ya umma, kwa kuwa inaweza kuwa salama kwa kiwango cha chini. Tumia VPN inapohitajika.
 
-**Kagua Mipangilio ya Msingi** Angalia kwa uangalifu na urekebishe mipangilio ya msingi ili ipatane na mapendekezo yako ya faragha.
+**Kuwa Mwangalifu na Data ya Eneo** Weka kikomo cha ufuatiliaji wa eneo kwa programu na fikiria kutumia kifaa cha kughushi eneo ikiwa unathamini faragha.
 
-**Community Support** Engage with the GrapheneOS community and forums for tips, updates, and security advice. You can contact the team and stay updated clicking [here](https://grapheneos.org/contact) kuchunguza mawasiliano zaidi.
+**Epuka Viungo na Viambatisho Visivyojulikana** Tahadhari na viungo visivyoombwa pamoja na viambatisho vya barua pepe, kwa kuwa vinaweza kuwa majaribio ya hadaa au programu hasidi.
 
-GrapheneOS inatoa njia mbili rasmi mkono ufungaji. Watumiaji wanaweza kuchagua kwa ajili ya WebUSB-msingi installer, ambayo ni ilipendekeza kwa watu wengi, au wanaweza kufuata amri-line ufungaji mwongozo, iliyoundwa kwa watumiaji zaidi kiufundi mwelekeo.
+**Kagua Mipangilio Chaguo-msingi** Kagua na urekebishe kwa uangalifu mipangilio chaguo-msingi ili ilingane na mapendeleo yako ya faragha.
+
+**Msaada wa Jamii** Shiriki na jamii pamoja na majukwaa ya GrapheneOS kwa vidokezo, masasisho, na ushauri wa usalama. Unaweza kuwasiliana na timu na kuendelea kupata masasisho kwa kubofya [hapa](https://grapheneos.org/contact) ili kuchunguza mawasiliano zaidi.
+
+**Tumia Mbinu Rasmi ya Usakinishaji** GrapheneOS hutoa mbinu mbili za usakinishaji zinazoungwa mkono rasmi. Watumiaji wanaweza kuchagua kisakinishi kinachotegemea WebUSB, kinachopendekezwa kwa watu wengi, au wanaweza kufuata mwongozo wa usakinishaji kwa mstari wa amri, ulioundwa kwa watumiaji wenye mwelekeo zaidi wa kiufundi.
 
 ## **Hitimisho**
 
-Kimsingi, GrapheneOS ni wote kuhusu kutoa mbadala simu mfumo wa uendeshaji kwamba prioritizes faragha na usalama wa watumiaji wake, kuwapa udhibiti zaidi juu ya maisha yao digital wakati sadaka utangamano na programu wao kutegemea. Ni mradi ambao unakusudia kuweka kiwango cha juu kwa ajili ya usalama wa kifaa mkononi na faragha katika umri ambapo masuala haya ni muhimu.
+Kwa msingi, GrapheneOS inahusu kutoa mfumo mbadala wa uendeshaji wa simu unaotanguliza faragha na usalama wa watumiaji wake, ukiwapa udhibiti mkubwa zaidi wa maisha yao ya kidijitali huku ukitoa uoanifu na programu wanazozitegemea. Huu ni mradi unaolenga kuweka kiwango cha juu cha usalama na faragha ya vifaa vya simu katika enzi ambayo masuala haya ni muhimu sana.
+
+## Kurasa zinazohusiana
+
+- [Wajumbe Salama](Secure_Messengers.md) — mawasiliano ya faragha kwenye kifaa kilichoimarishwa
+- [Usimbaji Fiche wa PGP](PGP_Encryption.md) — barua na ubadilishanaji wa faili uliosimbwa kwa fiche
+- [VPN na DVPN](VPN_and_DVPN.md) — faragha ya safu ya mtandao kwenye simu
+- [Vivinjari vya Wavuti](Web_Browsers.md) — kuchagua na kuimarisha kivinjari cha simu

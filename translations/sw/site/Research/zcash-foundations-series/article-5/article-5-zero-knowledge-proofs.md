@@ -1,178 +1,178 @@
-# Uthibitisho wa Ujuzi-Zero: Kuthibitisha Wewe ni haki bila kusema kwa nini
-##### Utafiti wa awali kutoka [Annkkitaaa](https://github.com/Annkkitaaa)
+# Thibitisho za Maarifa Sifuri (Zero-Knowledge Proofs): Kuthibitisha Uko Sahihi Bila Kusema Kwa Nini
+##### Utafiti Asilia kutoka [Annkkitaaa](https://github.com/Annkkitaaa)
 
-! ![ alt maandishi](/content-images/image-23-71534bece9.webp)
+![alt text](/content-images/image-23-71534bece9.webp)
 
-### Pazia ambalo huruhusu ulimwengu kuthibitisha kile ambacho hakiwezi kamwe kuona
+### Pazia linaloruhusu ulimwengu kuthibitisha kile ambacho hauwezi kamwe kuona
 
-> **Series:** *Zcash kutoka Kanuni za Kwanza* . **Kifungu cha 5 . Zero-Ujuzi Ushuhuda**
-> Sisi kuteka juu ya kila makala ya awali (maeneo ya mwisho, curves, ahadi, Merkle miti), lakini kila wazo ni alikumbuka kama tunahitaji.
-> ** Nini wewe kuondoka na: ** intuitive, uelewa sahihi wa nini zero-maarifa ushahidi ni, dhamana tatu hufanya, jinsi kauli arbitrary kupata kuthibitishwa, na nini nguvu Zcash ya Sapling na Orchard.
+> **Mfululizo:** *Zcash kuanzia Kanuni za Msingi* . **Makala ya 5 . Thibitisho za Maarifa Sifuri**
+> **Hadhira:** wanaoanza. Tunategemea kila makala ya awali (sehemu zenye kikomo, mikunjo, commitment, miti ya Merkle), lakini kila wazo linakumbushwa tunapolihitaji.
+> **Utakachobaki nacho:** uelewa wa kiintuisia na sahihi wa thibitisho la maarifa sifuri ni nini, dhamana tatu linazotoa, jinsi kauli za aina yoyote zinavyothibitishwa, na kinachoendesha Zcash ya Sapling na Orchard.
 
-Hii ndiyo makala ambayo mfululizo mzima umekuwa ukielekea.](article-0-shielded-transaction.md) onward we kept saying a payment is validated "behind a curtain," proven correct while revealing nothing. A zero-knowledge proof is that curtain. It's the piece that finally resolves the paradox we opened with: *how can the public verify a transaction it isn't allowed to see?*
-
----
-
-## 1. Kwa nini unapaswa kuhangaikia jambo hilo?
-
-Kumbuka utata katika moyo wa Zcash:
-
-- blockchain ni kuaminika kwa sababu ni ** umma verifiable **.
-- Malipo ya Zcash ni ** binafsi kabisa **: kiasi, mtumaji, mpokeaji, yote yaliyofichwa.
-
-Hii inaonekana kuhusisha kila mmoja. uthibitisho inaonekana * inahitaji * kuangalia. faragha * inakataza * kutafuta. kama huwezi kupatanisha yao, huwezi kuwa na fedha binafsi kwamba mtu yeyote matumaini.
-
-A ** zero-maarifa ushahidi (ZKP) ** ni upatanisho. Inaruhusu ** prover ** kumshawishi ** verifier ** kwamba taarifa ni kweli ** bila kufunua chochote zaidi ya ukweli kwamba ni kweli.** Hakuna kiasi. Hakuna vitambulisho. Hakuna kumbuka. Tu: * "kila kitu hapa hutii sheria. "* Hebu kujenga intuition kabla ya mashine yoyote.
+Hii ndiyo makala ambayo mfululizo mzima umekuwa ukipanda kuifikia. Kuanzia [Makala ya 0](article-0-shielded-transaction.md) na kuendelea, tuliendelea kusema malipo yanathibitishwa “nyuma ya pazia,” yanathibitishwa kuwa sahihi huku hayafichui chochote. Thibitisho la maarifa sifuri ndilo pazia hilo. Ni kipengele kinachotatua hatimaye kitendawili tulichoanza nacho: *umma unawezaje kuthibitisha muamala ambao hauruhusiwi kuuona?*
 
 ---
 
-## 2. Intuition: uthibitisho tatu wa kila siku
+## 1. Kwa nini unapaswa kujali?
 
-Uthibitisho unajua password, bila kusema ni.** Tovuti inaweza kuthibitisha unajua nenosiri lako kwa kuangalia wewe kufungua kitu ambacho tu password kufungua, kamwe kuona password yenyewe. Unaweza kuthibitisha * maarifa * bila * ufunuo *.
+Kumbuka mgongano ulioko kiini cha Zcash:
 
-**The colour-blind friend and two balls.** You hold a red ball and a green ball that look identical to your colour-blind friend. You want to convince him they're *different colours* without telling him which is which. He hides both behind his back, optionally swaps them, and shows you one. You say whether he swapped. If the balls really differ, you're always right. If they were identical, you'd be guessing, right only half the time. After 20 rounds, your unbroken streak convinces him they differ, yet he never learns which ball is red. **He's convinced of a fact while learning nothing else.** That is zero knowledge in miniature.
+- Blockchain inaaminika kwa sababu **inaweza kuthibitishwa hadharani**.
+- Malipo ya Zcash ni **ya faragha kabisa**: kiasi, mtumaji, mpokeaji, vyote vimefichwa.
 
-**The cave.** A ring-shaped cave has a magic door at the back that opens only with a secret word. You claim to know the word. To prove it without revealing it: a verifier waits outside while you walk in and picks the left or right passage at random. The verifier then shouts which side they want you to come *out* from. If you really know the Word, you can always comply (you can open the door to change sides if needed). If you're bluffing, you may only come out the right side by luck, 50/50 each round. Repeat 20 times and a bluffer's odds of surviving are less than one in a million.
+Haya yanaonekana kutopatana. Uthibitishaji unaonekana *kuhitaji* kuangalia. Faragha *inakataza* kuangalia. Ikiwa huwezi kuvipatanisha, huwezi kuwa na pesa binafsi ambayo kila mtu anaamini.
 
-Hadithi hiyo ya pango inaonyesha kwa utulivu dhamana tatu ambazo kila uthibitisho wa ujuzi wa sifuri lazima ufanye.
+**Thibitisho la maarifa sifuri (ZKP)** ndilo upatanisho huo. Linamruhusu **mthibitishaji** kumshawishi **mhakiki** kwamba kauli ni ya kweli **bila kufichua chochote zaidi ya ukweli kwamba ni ya kweli.** Hakuna kiasi. Hakuna utambulisho. Hakuna dokezo. Ni tu: *“Kila kitu hapa kinatii kanuni.”* Hebu tujenge intuisia kabla ya mitambo yoyote.
+
+---
+
+## 2. Intuisia: uthibitisho tatu za kila siku
+
+**Uthibitisho kwamba unajua nenosiri, bila kulisema.** Tovuti inaweza kuthibitisha kwamba unajua nenosiri lako kwa kukuangalia ukifungua kitu ambacho ni nenosiri pekee linaweza kufungua, bila kamwe kuliona nenosiri lenyewe. Unathibitisha *maarifa* bila *ufichuaji*.
+
+**Rafiki asiyeweza kutofautisha rangi na mipira miwili.** Unashikilia mpira mwekundu na mpira wa kijani vinavyoonekana sawa kwa rafiki yako asiyeweza kutofautisha rangi. Unataka kumshawishi kuwa vina *rangi tofauti* bila kumwambia kipi ni kipi. Anavificha vyote nyuma ya mgongo wake, anaweza kuvibadilisha nafasi, kisha anakuonyesha kimoja. Unasema kama alivibadilisha. Ikiwa mipira hiyo kwa kweli inatofautiana, daima uko sahihi. Ikiwa ingekuwa sawa, ungekuwa unakisia, ukiwa sahihi nusu tu ya wakati. Baada ya raundi 20, mfululizo wako usiovunjika unamshawishi kuwa vinatofautiana, ilhali hajifunzi kamwe mpira upi ni mwekundu. **Anashawishika kuhusu ukweli huku hajifunzi kitu kingine chochote.** Hayo ni maarifa sifuri kwa kiwango kidogo.
+
+**Pango.** Pango lenye umbo la pete lina mlango wa kichawi nyuma unaofunguka kwa neno siri pekee. Unadai kujua neno hilo. Ili kulithibitisha bila kulifichua: mhakiki anasubiri nje huku ukiingia na kuchagua njia ya kushoto au kulia kwa nasibu. Kisha mhakiki anapaza sauti akisema upande anaotaka utoke *kwenye* pango. Ikiwa kwa kweli unajua neno hilo, unaweza kutii daima (unaweza kufungua mlango kubadilisha upande ikihitajika). Ikiwa unadanganya, unaweza kutoka upande sahihi kwa bahati tu, 50/50 katika kila raundi. Rudia mara 20 na uwezekano wa mdanganyifu kunusurika ni chini ya mmoja katika milioni.
+
+Hadithi hiyo ya pango inaonyesha kwa utulivu **dhamana tatu** ambazo kila thibitisho la maarifa sifuri lazima litoe.
 
 ---
 
 ## 3. Dhamana tatu
 
-! ![ alt maandishi](/content-images/image-24-b559d31849.webp)
+![alt text](/content-images/image-24-b559d31849.webp)
 
 | Dhamana | Katika hadithi ya pango | Katika Zcash |
 |---|---|---|
-| **Ukamilifu** | Ukijua neno, unatoka upande wa kulia kila wakati | Muamala halali hutoa uthibitisho unaokubalika kila wakati |
-| **Utulivu** | Mdanganyifu anashikwa na uwezekano mkubwa | Muamala wa ulaghai (pesa bandia, matumizi mara mbili) hauwezi kutoa uthibitisho unaokubalika |
-| **Kutojua chochote** | Mthibitishaji huwa hasikii neno la siri | Mtandao haujifunzi kamwe kiasi, anwani, au noti gani |
+| **Ukamilifu** | Ikiwa unajua neno, unatoka daima upande sahihi | Muamala halali daima huzalisha thibitisho linalokubaliwa |
+| **Uimara** | Mdanganyifu anakamatwa kwa uwezekano mkubwa sana | Muamala wa udanganyifu (pesa ghushi, matumizi mara mbili) hauwezi kuzalisha thibitisho linalokubaliwa |
+| **Maarifa sifuri** | Mhakiki hasikii kamwe neno siri | Mtandao haujifunzi kiasi, anwani, au dokezo lipi |
 
-Kama yoyote ya haya inashindwa, mfumo kuvunja: hakuna ukamilifu na watumiaji waaminifu kupata kukataliwa; hakuna soundness na forgers kuchapisha fedha; hakuna sifuri-ujuzi na faragha evaporates.
-
----
-
-## 4. Kutoka pango hadi * taarifa yoyote: mizunguko na mashahidi
-
-Pango inathibitisha ukweli mmoja cute. Zcash inahitaji kuthibitisha taarifa tajiri: * "Najua noti unspent katika mti, mimi nina mamlaka ya kutumia, nullifier yake ni mahesabu kwa usahihi, na pembejeo yangu sawa matokeo yangu". * Jinsi gani sisi kupata kutoka mipira na mapango kwa kuwa?
-
-Daraja ni wazo ambalo linaunganisha mfululizo huu wote pamoja:
-
-> ** Taarifa yoyote unaweza kuthibitisha na hesabu inaweza kuandikwa upya kama mzunguko hisabati:** mtandao wa kuongeza na kuzidisha juu ya uwanja wa mwisho (Kifungu cha 1).
-
-Fikiria mzunguko kama orodha ya vikwazo arithmetic kwamba ni * wote kuridhika tu kama taarifa ni kweli.* pembejeo binafsi kwamba kufanya kila kitu kuangalia nje, kumbuka yako, ufunguo wako, njia Merkle, ni kuitwa ** shahidi.**
-
-! ![ alt maandishi](/content-images/image-25-2479377e43.webp)
-
-This is why we spent Article 1 on finite fields and Article 3 on ZK-friendly hashes: the circuit speaks field arithmetic, so every operation inside the statement (including hashing and the Merkle climb of Article 4) has to be expressed that way. The cheaper each operation is to express, the smaller and faster the proof.
+Ikiwa hata moja kati ya hizi itashindwa, mfumo huvunjika: bila ukamilifu watumiaji waaminifu wanakataliwa; bila uimara waghushi wanachapisha pesa; bila maarifa sifuri faragha hutoweka.
 
 ---
 
-## 5. Kufanya ni vitendo: yasiyo ya maingiliano na mafupi
+## 4. Kutoka pangoni hadi kauli *yoyote*: saketi na shahidi
 
-Pango alihitaji raundi nyingi za kurudi na kurudi. Hiyo si vitendo kwa blockchain, ambapo uthibitisho lazima posted mara moja na checked na kila mtu, milele. Upgrades mbili kurekebisha hii.
+Pango linathibitisha ukweli mmoja wa kuvutia. Zcash inahitaji kuthibitisha kauli pana: *“Ninajua dokezo lisilotumika katika mti, nina idhini ya kulitumia, nullifier yake imekokotolewa kwa usahihi, na pembejeo zangu ni sawa na matokeo yangu.”* Tunatokaje kwenye mipira na mapango hadi hapo?
 
-**Non-interactive (Fiat-Shamir wazo).** Badala ya kuishi verifier shouting random changamoto, prover inazalisha "challenges random" wenyewe kwa *hashing* yao mwenyewe ushahidi-hivi. Kwa sababu hash nzuri ni unpredictable (Kifungu cha 3), prover hawezi kupika changamoto katika neema yao. mazungumzo chatty collapses katika ** moja ya kujitegemea zilizomo uthibitisho ** mtu yeyote anaweza kuangalia baadaye, bila mwingiliano.
+Daraja ni wazo linalounganisha mfululizo huu wote:
 
-**Succinct.** Mifumo bora kufanya ushahidi **ndogo na haraka kuthibitisha, bila kujali jinsi kubwa kauli ni.** Hii ni kweli kushangaza sehemu.
+> **Kauli yoyote unayoweza kukagua kwa ukokotoaji inaweza kuandikwa upya kama saketi ya kihesabu:** mtandao wa jumlisho na uzidishaji juu ya sehemu yenye kikomo (Makala ya 1).
 
-> A Groth16 uthibitisho (mfumo Sapling anatumia) ni takribani ** 192 baiti ** na kuthibitisha katika milliseconds, * kama taarifa inathibitisha ni ndogo au kubwa. * Baiti mia chache wanaweza kuthibitisha mahesabu kuhusisha maelfu mengi ya vikwazo.
+Fikiria saketi kama orodha ya vikwazo vya kihesabu ambavyo *vyote hutimizwa tu ikiwa kauli ni ya kweli.* Pembejeo za faragha zinazofanya kila kitu kihakikiwe, dokezo lako, ufunguo wako, njia ya Merkle, huitwa **shahidi.**
 
-Weka hayo pamoja na utapata kifupi utakachoona kila mahali:
+![alt text](/content-images/image-25-2479377e43.webp)
 
-> **zk-SNARK** = **z**zero-k**knowledge **S**uccinct **N**on-interactive **AR**argument ya **K**knows. Zero-knowledg (hafunui chochote), succinct (ndogo na haraka), non-interactive (pigo moja), hoja ya maarifa (mtoaji kweli * anajua * shahidi halali).
-
----
-
-## 6. Tatizo moja: kuaminiana
-
-Hakuna chakula cha mchana bure. wengi SNARKs haja ya mara moja ** kuanzisha ** ambayo inazalisha vigezo umma kwa ajili ya mzunguko. kuanzisha inazalishwa siri randomness kama byproduct, na siri hiyo lazima ** kuharibiwa.** Kama mtu yeyote kushikiliwa, wangeweza bandia ushahidi, yaani, ** bandia fedha ** (ingawa, muhimu, bado * hawakuweza * kuvunja faragha).
-
-Siri hii iliyobaki ina jina la utani ** taka zenye sumu. * Ili kuiondoa salama, Zcash iliendesha sherehe za vyama vingi ambapo washiriki wengi huru kila mmoja alichangia nasibu; kwa muda mrefu kama * hata moja * iliharibu kipande chao kwa uaminifu, taka yenye sumu haiwezi kupatikana.
-
-! ![ alt maandishi](/content-images/image-26-cdad6625cd.webp)
-
-Mifumo mpya kuondoa mahitaji haya kabisa, ambayo ni moja ya sababu kubwa Zcash maendeleo mfumo wake ushahidi baada ya muda.
+Hii ndiyo sababu tulitumia Makala ya 1 kuhusu sehemu zenye kikomo na Makala ya 3 kuhusu heshi rafiki kwa ZK: saketi hutumia hesabu ya sehemu, hivyo kila operesheni ndani ya kauli (ikiwemo kuheshi na kupanda kwa Merkle katika Makala ya 4) lazima ielezwe kwa namna hiyo. Kadiri kila operesheni inavyokuwa nafuu kueleza, ndivyo thibitisho linavyokuwa dogo na la haraka zaidi.
 
 ---
 
-## 7. Ambapo hii anaishi katika Zcash
+## 5. Kuifanya iwe ya vitendo: isiyo ya mwingiliano na fupi
 
-| Ubunifu | Mfumo wa uthibitisho | Umeweka mipangilio inayoaminika? | Imejengwa juu ya |
+Pango lilihitaji raundi nyingi za mawasiliano ya kwenda na kurudi. Hilo halitekelezeki kwa blockchain, ambapo thibitisho lazima lichapishwe mara moja na kukaguliwa na kila mtu, milele. Maboresho mawili yanarekebisha hili.
+
+**Isiyo ya mwingiliano (wazo la Fiat-Shamir).** Badala ya mhakiki wa moja kwa moja kupaza sauti changamoto za nasibu, mthibitishaji huzalisha “changamoto za nasibu” mwenyewe kwa *kuheshi* thibitisho lake hadi hapo. Kwa sababu heshi nzuri haitabiriki (Makala ya 3), mthibitishaji hawezi kutengeneza changamoto kwa manufaa yake. Mazungumzo marefu yanakunjwa kuwa **thibitisho moja linalojitosheleza** ambalo mtu yeyote anaweza kukagua baadaye, bila mwingiliano.
+
+**Fupi.** Mifumo bora hufanya thibitisho liwe **dogo sana na la haraka kukaguliwa, bila kujali kauli ni kubwa kiasi gani.** Hii ndiyo sehemu ya kushangaza kweli.
+
+> Thibitisho la Groth16 (mfumo unaotumiwa na Sapling) lina takriban **baiti 192** na hukaguliwa kwa milisekunde, *iwe kauli inayothibitishwa ni ndogo au kubwa sana.* Baiti mia chache zinaweza kushuhudia ukokotoaji unaohusisha maelfu mengi ya vikwazo.
+
+Unganisha haya na utapata kifupi utakachokiona kila mahali:
+
+> **zk-SNARK** = **z**ero-**k**nowledge **S**uccinct **N**on-interactive **AR**gument of **K**nowledge. Maarifa sifuri (hayafichui chochote), fupi (dogo na la haraka), isiyo ya mwingiliano (jaribio moja), hoja ya maarifa (mthibitishaji kwa kweli *anajua* shahidi halali).
+
+---
+
+## 6. Kikwazo kimoja: usanidi unaoaminika
+
+Hakuna faida isiyo na gharama. SNARK nyingi zinahitaji **usanidi unaoaminika** wa mara moja unaozalisha vigezo vya umma vya saketi. Usanidi huo huzalisha nasibu siri kama zao la pembeni, na siri hiyo lazima **iharibiwe.** Ikiwa mtu yeyote angeihifadhi, angeweza kughushi thibitisho, yaani, **kughushi pesa** (ingawa, muhimu zaidi, bado hangeweza *kuvunja* faragha).
+
+Siri hii inayobaki hupewa jina la utani **taka zenye sumu.** Ili kuziondoa kwa usalama, Zcash iliendesha **sherehe za wahusika wengi** zilizo tata ambapo washiriki wengi huru kila mmoja alichangia nasibu; mradi *hata mmoja* aliharibu sehemu yake kwa uaminifu, taka zenye sumu haziwezi kurejeshwa.
+
+![alt text](/content-images/image-26-cdad6625cd.webp)
+
+Mifumo mipya huondoa hitaji hili kabisa, jambo ambalo ni mojawapo ya sababu kubwa zaidi za Zcash kubadilisha mfumo wake wa thibitisho kadiri muda ulivyopita.
+
+---
+
+## 7. Hapa ndipo hili linapoishi katika Zcash
+
+| Muundo | Mfumo wa thibitisho | Usanidi unaoaminika? | Umejengwa juu ya |
 |---|---|---|---|
-| **Sprout** (mapema zaidi) | mapema zk-SNARK | Ndiyo | sherehe ya asili |
-| **Sapling** | **Groth16** | Ndiyo (sherehe ya "Nguvu za Tau" ya vyama vingi + sherehe Sapling) | **BLS12-381** (Kifungu cha 2) |
-| **Orchard** (ya sasa) | **Halo 2** | **Hakuna usanidi unaoaminika** | **Pallas / Vesta** (Kifungu cha 2) |
+| **Sprout** (wa mwanzo kabisa) | zk-SNARK ya awali | Ndiyo | sherehe ya awali |
+| **Sapling** | **Groth16** | Ndiyo (sherehe ya wahusika wengi ya “Powers of Tau” + sherehe ya Sapling) | **BLS12-381** (Makala ya 2) |
+| **Orchard** (ya sasa) | **Halo 2** | **Hakuna usanidi unaoaminika** | **Pallas / Vesta** (Makala ya 2) |
 
-The march from Sprout to Sapling to Orchard is largely a story about proofs getting smaller, faster, and shedding the trusted setup. **Halo 2**, used by Orchard, needs no ceremony at all and is built to support *recursion* (proofs that verify other proofs), which is why Orchard uses the Pallas/Vesta **cycle** of curves from Article 2: each curve is tuned to verify proofs written over the other.
+Safari kutoka Sprout hadi Sapling hadi Orchard kwa kiasi kikubwa ni hadithi ya thibitisho kuwa madogo, ya haraka, na kuondoa usanidi unaoaminika. **Halo 2**, inayotumiwa na Orchard, haihitaji sherehe hata kidogo na imejengwa kusaidia *urejelezaji* (thibitisho zinazothibitisha thibitisho nyingine), ndiyo maana Orchard hutumia **mzunguko** wa mikunjo wa Pallas/Vesta kutoka Makala ya 2: kila mkunjo umeundwa kuthibitisha thibitisho zilizoandikwa juu ya ule mwingine.
 
-Hii hufunga kitanzi kubwa kutoka Kifungu 0. "nyuma ya pazia" uchawi ni **zk-SNARK**: inathibitisha shughuli yako inakidhi mzunguko wa hesabu encoding sheria zote, wakati akifunua kitu lakini moja kidogo "halali".
+Hili linafunga mzunguko mkubwa zaidi kutoka Makala ya 0. Uchawi wa “nyuma ya pazia” ni **zk-SNARK**: unathibitisha muamala wako unatimiza saketi ya kihesabu inayoweka kanuni zote, huku ukifichua chochote isipokuwa biti moja “halali.”
 
 ---
 
-## 8. Mtu anayetoa taarifa kwa uaminifu
+## 8. Kanusho la uaminifu
 
-Zero-knowledge proofs are a deep field and we stayed at intuition level on purpose. We didn't define the precise probability bounds in soundness, the exact form of an arithmetic circuit (R1CS, PLONKish, and so on), how polynomials and commitments turn a circuit into a short proof, or the real internals of Groth16 and Halo 2. The cave is an *interactive* proof; production systems are non-interactive and far more intricate. None of that changes the core: prove a circuit is satisfied by a secret witness, completely, soundly, and revealing nothing. The machinery is a whole series of its own.
+Thibitisho za maarifa sifuri ni eneo pana, na tulibaki kimakusudi katika kiwango cha intuisia. Hatukufafanua mipaka sahihi ya uwezekano katika uimara, umbo halisi la saketi ya kihesabu (R1CS, PLONKish, na kadhalika), jinsi polinomu na commitment zinavyogeuza saketi kuwa thibitisho fupi, au miundo halisi ya ndani ya Groth16 na Halo 2. Pango ni thibitisho *shirikishi*; mifumo ya uzalishaji si ya mwingiliano na ni changamani zaidi. Hakuna kati ya hayo yanayobadilisha kiini: thibitisha saketi inatimizwa na shahidi siri, kwa ukamilifu, uimara, na bila kufichua chochote. Mitambo hiyo ni mfululizo mzima kivyake.
 
 ---
 
 ## 9. Muhtasari
 
-- Uthibitisho wa ujuzi wa sifuri huruhusu kuthibitisha kumshawishi mkaguzi kuwa taarifa ni kweli wakati haidhihirishi kitu kingine chochote, kutatua utata wa kuthibitisha dhidi ya faragha.
-- Ni lazima kukidhi dhamana tatu: ** ukamilifu ** (taarifa ya kweli kushawishi), ** soundness ** (matamshi ya uongo hawezi), na ** sifuri-ujuzi ** (verifier anajifunza tu "ni kweli").
-- Taarifa ya hiari kuwa ** arithmetic circuits ** juu ya uwanja wa mwisho; siri pembejeo kwamba kuridhisha mzunguko ni ** shahidi ** Hii ni kwa nini mashamba ya mwisho na ZK-kirafiki hashes mattered.
-- ** Fiat-Shamir ** hufanya uthibitisho ** yasiyo ya maingiliano ** (pigo moja); mifumo bora pia ni ** succinct ** (uthibitisho wa Groth16 ni kuhusu ** 192 bytes ** na inathibitisha katika milliseconds bila kujali ukubwa wa taarifa). Pamoja: **zk-SNARK **.
-- Baadhi SNARKs haja ya ** kuaminiwa kuanzisha ** ambao mabaki ** taka sumu ** lazima kuharibiwa (kupitia sherehe mbalimbali chama); maelewano ingekuwa kuruhusu forging fedha lakini ** si ** kuvunja faragha.
-- **Sapling** hutumia **Groth16** (mpangilio wa kuaminika, BLS12-381); **Orchard** hutumika **Halo 2** (hakuna mpangilio wa kuaminiwa, Pallas / Vesta, rafiki wa kurudia).
+- **Thibitisho la maarifa sifuri** humruhusu mthibitishaji kumshawishi mhakiki kwamba kauli ni ya kweli **huku akifichua chochote kingine**, likitatua kitendawili cha uthibitishaji dhidi ya faragha.
+- Lazima litimize dhamana tatu: **ukamilifu** (kauli za kweli hushawishi), **uimara** (kauli za uongo haziwezi), na **maarifa sifuri** (mhakiki hujifunza tu “ni kweli”).
+- Kauli za aina yoyote huwa **saketi za kihesabu** juu ya sehemu yenye kikomo; pembejeo siri zinazotimiza saketi ni **shahidi**. Hii ndiyo sababu sehemu zenye kikomo na heshi rafiki kwa ZK zilikuwa muhimu.
+- **Fiat-Shamir** hufanya thibitisho ziwe **zisizo za mwingiliano** (jaribio moja); mifumo bora pia ni **mifupi** (thibitisho la Groth16 ni takriban **baiti 192** na hukaguliwa kwa milisekunde bila kujali ukubwa wa kauli). Kwa pamoja: **zk-SNARK**.
+- SNARK nyingine huhitaji **usanidi unaoaminika** ambao **taka zenye sumu** zilizobaki lazima ziharibiwe (kupitia sherehe za wahusika wengi); kuathiriwa kungewezesha kughushi pesa lakini **si** kuvunja faragha.
+- **Sapling** hutumia **Groth16** (usanidi unaoaminika, BLS12-381); **Orchard** hutumia **Halo 2** (hakuna usanidi unaoaminika, Pallas/Vesta, rafiki kwa urejelezaji).
 
 ---
 
-## Orodha ya maneno
+## Kamusi
 
-| Muhula | Maana ya Kiingereza cha kawaida |
+| Istilahi | Maana kwa Kiingereza rahisi |
 |---|---|
-| **Zero-knowledge proof** | Mshawishi mtu kwamba kauli ni kweli bila kufichua chochote kingine |
-| **Prover / Verifier** | Yule anayetoa uthibitisho / yule anayeuthibitisha |
-| **Completeness** | Kauli za kweli hukubaliwa kila wakati (kutoka kwa mthibitishaji mwaminifu) |
+| **Zero-knowledge proof** | Kumshawishi mtu kwamba kauli ni ya kweli huku ukifichua chochote kingine |
+| **Prover / Verifier** | Anayetengeneza thibitisho / anayelikagua |
+| **Completeness** | Kauli za kweli hukubaliwa daima (kutoka kwa mthibitishaji mwaminifu) |
 | **Soundness** | Kauli za uongo hukataliwa (wadanganyifu hawawezi kushinda isipokuwa kwa bahati) |
-| **Witness** | Michango ya siri inayofanya taarifa hiyo kuwa kweli |
-| **Arithmetic circuit** | Taarifa iliyoandikwa upya kama inaongeza na kuzidisha juu ya sehemu yenye kikomo |
-| **Non-interactive (Fiat-Shamir)** | Ushahidi wa risasi moja usiohitaji kurudi na kurudi moja kwa moja |
-| **Succinct** | Uthibitisho ni mdogo na wa haraka kuthibitisha bila kujali ukubwa wa taarifa |
-| **zk-SNARK** | Maarifa yasiyo na kikomo Ufafanuzi usioingiliana wa Maarifa |
-| **Trusted setup / toxic waste** | Uundaji wa vigezo vya wakati mmoja ambavyo siri yake iliyobaki lazima iharibiwe |
+| **Witness** | Pembejeo siri zinazofanya kauli iwe ya kweli |
+| **Arithmetic circuit** | Kauli iliyoandikwa upya kama jumlisho na uzidishaji juu ya sehemu yenye kikomo |
+| **Non-interactive (Fiat-Shamir)** | Thibitisho la jaribio moja lisilohitaji mawasiliano ya moja kwa moja ya kwenda na kurudi |
+| **Succinct** | Thibitisho ni dogo na la haraka kukaguliwa bila kujali ukubwa wa kauli |
+| **zk-SNARK** | Hoja Fupi Isiyo ya Mwingiliano ya Maarifa ya Maarifa Sifuri |
+| **Trusted setup / toxic waste** | Uzalishaji wa vigezo wa mara moja ambao siri yake iliyobaki lazima iharibiwe |
 
 ---
 
-## FAQ
+## Maswali Yanayoulizwa Mara kwa Mara
 
-** Ikiwa uthibitisho haufunui chochote, ni jinsi gani kuuchunguza kunaweza kumaanisha chochote? **
-Kwa sababu hesabu imepangwa ili *tu* shahidi halisi, halali anaweza kutoa uthibitisho wa kupitisha. Kupitisha hundi yenyewe ni ushahidi, hakuna ufunuo unaohitajika.
+**Ikiwa thibitisho halifichui chochote, kulikagua kunawezaje kuwa na maana?**
+Kwa sababu hesabu imepangwa ili *shahidi halisi na halali pekee* aweze kuzalisha thibitisho linalopita. Kupita ukaguzi wenyewe ni ushahidi, hakuna ufichuaji unaohitajika.
 
-** Je, mtu anaweza bandia ushahidi? **
-Uthabiti hufanya hii kuwa haiwezekani isipokuwa SNARK ambayo uanzishaji wake wa kuaminika ulihifadhiwa taka zenye sumu; hiyo ndiyo sababu sherehe za kuiharibu zina umuhimu.
+**Je, mtu anaweza kughushi thibitisho?**
+Uimara hufanya hili lisitekelezeke. Isipokuwa moja ni SNARK ambayo taka zake zenye sumu za usanidi unaoaminika zilihifadhiwa; ndiyo maana sherehe za kuziharibu ni muhimu.
 
-** Je, kuvunjika Configuration Trusted kuvuja data yangu binafsi? **
-La. Itaruhusu mshambuliaji bandia * mpya * fedha, lakini haina ** si ** yatangaza kiasi, anwani, au noti. faragha na soundness ni dhamana tofauti.
+**Je, usanidi unaoaminika uliovunjika huvuja data yangu ya faragha?**
+Hapana. Ungemruhusu mshambuliaji kughushi pesa *mpya*, lakini **haufichui** kiasi, anwani, au madokezo. Faragha na uimara ni dhamana tofauti.
 
-**Kwa nini Zcash ilibadilisha mifumo ya uthibitisho kwa muda?**
-Kupata ndogo, uthibitisho kasi na, na Halo 2, kuondoa kuaminika kuanzisha kabisa na kuwezesha recursion.
+**Kwa nini Zcash ilibadilisha mifumo ya thibitisho kadiri muda ulivyopita?**
+Ili kupata thibitisho ndogo na za haraka zaidi, na kwa Halo 2, kuondoa usanidi unaoaminika kabisa na kuwezesha urejelezaji.
 
 ---
 
-### Jaribu ufahamu wako wa ndani
+### Jaribu intuisia yako
 
-Katika pango, kwa nini ni muhimu kwamba verifier huchagua upande wa kuondoka * baada ya * prover tayari kutembea ndani, badala ya kutangaza kabla? * Jibu chini. *
+Katika pango, kwa nini ni muhimu kwamba mhakiki achague upande wa kutokea *baada ya* mthibitishaji kuwa tayari ameingia, badala ya kuutangaza kabla? *(Jibu hapa chini.)*
 
-<details><summary>Answer</summary>
+<details><summary>Jibu</summary>
 
-If the verifier announced the side first, a bluffer who doesn't know the word could simply walk into that side from the start and stroll back out, never needing the door. Choosing *after* the prover commits to a passage forces a bluffer to rely on luck (50/50 per round), which is what makes repeated rounds convincing. This "commit first, then be challenged" ordering is exactly what Fiat-Shamir preserves by deriving the challenge from a hash of the prover's already-committed proof.
+Ikiwa mhakiki angetangaza upande kwanza, mdanganyifu ambaye hajui neno angeweza tu kuingia upande huo tangu mwanzo na kutoka nje kwa kutembea, bila kuhitaji kamwe mlango. Kuchagua *baada ya* mthibitishaji kujifunga kwa njia kunamlazimisha mdanganyifu kutegemea bahati (50/50 kwa kila raundi), jambo linalofanya raundi zinazorudiwa kushawishi. Mpangilio huu wa “jifunge kwanza, kisha upewe changamoto” ndio hasa Fiat-Shamir huhifadhi kwa kupata changamoto kutoka kwenye heshi ya thibitisho ambalo mthibitishaji tayari amejifunga nalo.
 </details>
 
 ---
 
-### Ni nini kinachofuata
+### Kinachofuata
 
-** Kifungu cha 6 . itifaki Shielded, mwisho hadi mwisho: ** finale. sisi kuchukua kila kipande, maelezo, ahadi, mti wa dhamana maelezo, nullifiers, thamani ya usawa, na zero-maarifa ushahidi, na kukusanyika Zcash kamili Shielded manunuzi, kufunga kila kitanzi moja kufunguliwa nyuma katika Kifungu 0.
+**Makala ya 6 . Itifaki ya faragha, mwanzo hadi mwisho:** hitimisho. Tunachukua kila kipengele, madokezo, commitment, mti wa commitment wa dokezo, nullifier, uwiano wa thamani, na thibitisho la maarifa sifuri, na kuunganisha muamala kamili wa faragha wa Zcash, tukifunga kila mzunguko tuliofungua katika Makala ya 0.
 
-* Sehemu ya * Zcash kutoka Kanuni za Kwanza * mfululizo kwa [ZecHub](https://zechub.org). Leseni CC BY-SA 4.0.*
+*Sehemu ya mfululizo wa* Zcash kuanzia Kanuni za Msingi *wa [ZecHub](https://zechub.org). Imetolewa kwa leseni ya CC BY-SA 4.0.*

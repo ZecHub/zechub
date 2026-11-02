@@ -1,21 +1,21 @@
 <a href="https://github.com/Zechub/zechub/edit/main/site/ZFAV_Club/Guides_for_Creators/Creating_Zcon_Highlights.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Hariri Ukurasa"/>
 </a>
 
-# Quick Start: Kujenga Zcon Highlights
+# Mwongozo wa Haraka: Kuunda Vivutio vya Zcon
 
-Mwongozo huu utakuongoza kupitia mchakato wa kuhariri na kuchapisha video fupi kwa kutumia video za kihistoria za Zcon kama chanzo cha maudhui.
+Mwongozo huu utakuelekeza katika mchakato wa kuhariri na kuchapisha klipu fupi kwa kutumia video za kihistoria za Zcon kama maudhui ya chanzo.
 
-** Zcon video orodha ya kucheza: **
+**Orodha za kucheza video za Zcon:**
 
-- [Zcon0 - Faragha: Kutoka A hadi Zcon (2018)](https://www.youtube.com/playlist?list=PL40dyJ0UYTLK507afWUMgzUYeh-i4qQWS)
-- [Zcon1: Zero kwa faragha Hero (2019)](https://www.youtube.com/playlist?list=PL40dyJ0UYTLLjPZaKjdhMoCNanb77_Ztj)
-- [Zcon2 Lite - Faragha njia yote chini (2021)](https://www.youtube.com/playlist?list=PL40dyJ0UYTLLa68H9ibpiSZqeevqKizg4)
-- [Zcon3: Code Alone Doesn't Cut It (2022) ](https://www.youtube.com/playlist?list=PL40dyJ0UYTLJm-Cl7ez3UXp8R4IuUNDfb)
-- [Zcon4: Baadaye Haijaandikwa (2023)](https://www.youtube.com/playlist?list=PL40dyJ0UYTLII7oQRQmNOFf0d2iKT35tL)
+- [Zcon0 - Faragha [Privacy]: Kuanzia A hadi Zcon (2018)](https://www.youtube.com/playlist?list=PL40dyJ0UYTLK507afWUMgzUYeh-i4qQWS)
+- [Zcon1: Shujaa wa Faragha wa Zero (2019)](https://www.youtube.com/playlist?list=PL40dyJ0UYTLLjPZaKjdhMoCNanb77_Ztj)
+- [Zcon2 Lite - Faragha hadi kiwango cha chini kabisa (2021)](https://www.youtube.com/playlist?list=PL40dyJ0UYTLLa68H9ibpiSZqeevqKizg4)
+- [Zcon3: Msimbo Pekee Hautoshi (2022)](https://www.youtube.com/playlist?list=PL40dyJ0UYTLJm-Cl7ez3UXp8R4IuUNDfb)
+- [Zcon4: Mustakabali Bado Haujaandikwa (2023)](https://www.youtube.com/playlist?list=PL40dyJ0UYTLII7oQRQmNOFf0d2iKT35tL)
 
-** Zcon Highlights orodha ya kucheza: **
+**Orodha za kucheza za Vivutio vya Zcon:**
 
-- [Zcon0 Mambo Makuu (2018)](https://www.youtube.com/playlist?list=PL9eB_cR4oMej_GykkZnQg0zH1SbZ9S67O)
+- [Vivutio vya Zcon0 (2018)](https://www.youtube.com/playlist?list=PL9eB_cR4oMej_GykkZnQg0zH1SbZ9S67O)
 
-Urefu wa lengo kwa Zcon Highlights ni chini ya dakika moja ili kuendana na mahitaji ya YouTube Shorts.
+Urefu unaolengwa wa Vivutio vya Zcon ni chini ya dakika moja ili kutimiza mahitaji ya Shorts ya YouTube.
