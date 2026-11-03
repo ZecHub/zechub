@@ -60,7 +60,7 @@ Community engagement and rewards platform designed for Zcash communities, Web3 p
 
 ### Zcash Grants Hub
 Community-focused grants dashboard designed to simplify how Zcash grants are discovered, tracked, and reviewed. It brings grant applications, milestones, budgets, discussions, and analytics into one place by pulling live data from the Zcash Community Grants GitHub repository. The platform aims to provide a clearer and more user-friendly experience for applicants, committee members, and community reviewers.  
-[Visit](https://staging.zgrantshub.com/)
+[Visit](https://zgrantshub.com/)
 
 ---
 
