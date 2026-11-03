@@ -193,6 +193,8 @@
   "contribute/ZecWeekly_Newsletter.md": "ZecWeekly Newsletter",
   "guides/Akash_Network_Zcashd.md": "Deploying zcashd to Akash via Console",
   "guides/Akash_Network_Zebra.md": "How to run Zebra on Akash Network",
+  "guides/Akash_Network_Zakura.md": "How to run Zakura on Akash Network",
+  "guides/Thus_Spoke_Zakura_Akash.md": "Thus Spoke Zakura on Akash (Regtest)",
   "guides/Avalanche_RedBridge.md": "Zcash Avalanche RedBridge",
   "guides/BTCPayServer_Zcash_Plugin.md": "BTCPay Server with Zcash Support: Full Installation and Integration Guide",
   "guides/Blockchain_Explorers.md": "Blockchain Explorers",
