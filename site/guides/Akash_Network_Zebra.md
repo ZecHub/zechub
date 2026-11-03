@@ -1,6 +1,6 @@
 # How to run Zebra on Akash Network
 
-Step-by-step guide for deploying a Zebra Zcash full node using [Akash Console](https://console.akash.network).
+Step-by-step guide for deploying a Zebra Zcash full node on Akash.
 
 ### What You're Deploying
 
@@ -38,35 +38,67 @@ This is by design - providers run multiple deployments, and they'd have conflict
 
 This is handled automatically. Just use the URI that Akash gives you.
 
+### Which site to use (payments)
+
+The SDL is the same. The two Akash web UIs differ in **how you pay**.
+
+| Site | Payments | Wallet |
+| --- | --- | --- |
+| [console.akash.network](https://console.akash.network) | Traditional web checkout (card / fiat rails Console offers) | Console account |
+| [air.akash.network](https://air.akash.network) | Native Akash chain payments (AKT / ACT) | **Keplr** |
+
+Use **Air** when you want to pay with Keplr on-chain. Use **Console** when you want a conventional web payment flow. Do not expect Keplr native settlement on Console.
+
 ### Prerequisites
 
-1. **Keplr Wallet** browser extension installed (Chrome/Brave/Firefox)
-2. **AKT tokens** - Get 50-100 AKT from an exchange (Coinbase, Kraken, Osmosis)
-3. **5 minutes** to click through the Console UI
+**If you pay on Console (web checkout)**
 
-#### Step 1: Connect Your Wallet
+1. A Console account at [console.akash.network](https://console.akash.network)
+2. A payment method the Console UI accepts
+3. A few minutes in the UI
+
+**If you pay on Air (native Akash / Keplr)**
+
+1. **Keplr** browser extension (Chrome/Brave/Firefox)
+2. **AKT / ACT** in Keplr for the deposit and lease (from an exchange or IBC)
+3. Open [air.akash.network](https://air.akash.network)
+
+#### Step 1: Connect
+
+**Console (web payments)**
 
 -> Go to [https://console.akash.network](https://console.akash.network)
 
--> Click **"Connect Wallet"** in the top right
+-> Sign in / complete the Console account flow
 
--> Choose **Keplr** (or your preferred Cosmos wallet)
+-> Use the checkout the UI presents (not Keplr on-chain)
 
--> Approve the connection when Keplr pops up
+**Air (native Akash payments)**
 
+-> Go to [https://air.akash.network](https://air.akash.network)
 
-Your AKT balance should appear in the top right. If it's zero, go fund your wallet first.
+-> Click **"Connect Wallet"**
+
+-> Choose **Keplr** and approve the connection
+
+-> Confirm your AKT/ACT balance is enough for deposit plus the lease
 
 #### Step 2: Create Deployment
 
--> Click **"Deploy"** button (big blue button, center of page)
+-> Click **"Deploy"**
 
 -> Choose **"Build your template"** (or skip directly to uploading SDL)
 
 
 ##### Option A: Upload SDL File (Recommended)
 
-[![Deploy on Akash](/content-images/deploy-with-akash-btn-74abb88d44.svg)](https://console.akash.network/new-deployment?step=edit-deployment&templateId=akash-network-awesome-akash-zcash-zebra)
+**Web payments (Console)**
+
+[![Deploy on Akash Console](/content-images/deploy-with-akash-btn-74abb88d44.svg)](https://console.akash.network/new-deployment?step=edit-deployment&templateId=akash-network-awesome-akash-zcash-zebra)
+
+**Native Akash payments with Keplr (Air)**
+
+[Open this template on Air](https://air.akash.network/new-deployment?step=edit-deployment&templateId=akash-network-awesome-akash-zcash-zebra)
 
 ##### Option B: Use SDL Editor
 
@@ -83,13 +115,13 @@ If you want to manually paste [the SDL](https://github.com/akash-network/awesome
 
 #### Step 3: Review and Approve Deposit
 
-The Console will show you:
+The UI will show you:
 
 -> **Deployment deposit**: ~5 AKT (you get this back when you close the deployment)
 
 -> **Estimated cost**: Based on your SDL pricing
 
-Click **"Approve"** and sign the transaction in Keplr.
+On **Air**, click **"Approve"** and sign in **Keplr**. On **Console**, complete the web checkout the UI presents.
 
 #### Step 4: Choose a Provider
 
@@ -111,7 +143,7 @@ After ~ 30 seconds, you'll see bids from providers. Each bid shows:
 -> Audited status (green checkmark = more trustworthy)
 
 
-Click **"Accept Bid"** on your chosen provider and sign in Keplr.
+Click **"Accept Bid"** on your chosen provider. On Air, sign in Keplr. On Console, confirm with the web payment flow.
 
 #### Step 5: Wait for Deployment
 
@@ -323,7 +355,7 @@ Need to change configuration after deploying?
 
 -> Edit the SDL
 
--> Click **"Update"** and approve in Keplr
+-> Click **"Update"** (Air: sign in Keplr; Console: confirm the web payment flow)
 
 **Note**: Updating will restart your container. The node will resume from its saved state (persistent storage), but expect 1-2 minutes of downtime.
 
@@ -352,7 +384,7 @@ When you're done or want to stop paying:
 
 -> Click **"Close Deployment"**
 
--> Confirm and sign in Keplr
+-> Confirm (Air: sign in Keplr; Console: confirm in the Console UI)
 
 Your 5 AKT deposit will be refunded. **Persistent storage** should be preserved by the provider, but don't rely on it - treat it like any other cloud provider.
 
@@ -360,7 +392,7 @@ Your 5 AKT deposit will be refunded. **Persistent storage** should be preserved 
 
 #### "Insufficient funds" error
 
-You need more AKT. Fund your Keplr wallet.
+On Air, fund Keplr with AKT/ACT. On Console, top up the Console payment method.
 
 #### No bids showing up
 
@@ -398,11 +430,11 @@ Define "forever":
 
 ### Cost Management
 
-Monitor your spending in the Console:
+Monitor your spending in Console or Air:
 
 -> **My Deployments** -> Your deployment -> Shows "Cost per month" estimate
 
--> Your Keplr wallet balance will decrease over time
+-> Air: your Keplr AKT/ACT balance decreases over time. Console: your Console payment balance decreases.
 
 
 When your balance runs low, Akash will auto-close your deployment. **Top up your wallet periodically** or set up alerts.
@@ -437,7 +469,9 @@ Start with Testnet if you're just testing the deployment process. See "Switching
 
 ### Additional Resources
 
-**Akash Console**: [https://console.akash.network](https://console.akash.network)
+**Akash Console** (web payments): [https://console.akash.network](https://console.akash.network)
+
+**Akash Air** (native AKT/ACT + Keplr): [https://air.akash.network](https://air.akash.network)
 
 **Akash Docs**: [https://akash.network/docs/](https://akash.network/docs/)
 

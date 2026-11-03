@@ -31,11 +31,28 @@ Akash maps each container port to a random public port. Use the **lease URIs**.
 
 The dashboard listens on `0.0.0.0:8080` (`THS_LISTEN`). After the lease is ready, click the **`app` URI**. That is the same UI `ths` opens locally.
 
+### Which site to use (payments)
+
+The SDL is the same. The two Akash web UIs differ in **how you pay**.
+
+| Site | Payments | Wallet |
+| --- | --- | --- |
+| [console.akash.network](https://console.akash.network) | Traditional web checkout (card / fiat rails Console offers) | Console account |
+| [air.akash.network](https://air.akash.network) | Native Akash chain payments (AKT / ACT) | **Keplr** |
+
+Use **Air** when you want to pay with Keplr on-chain. Use **Console** when you want a conventional web payment flow.
+
 ### Deploy
 
-[![Deploy on Akash](https://raw.githubusercontent.com/akash-network/console/refs/heads/main/apps/deploy-web/public/images/deploy-with-akash-btn.svg)](https://console.akash.network/new-deployment?step=edit-deployment&templateId=akash-network-awesome-akash-thus-spoke-zakura)
+**Web payments (Console)**
 
-Connect Keplr, create the deployment from the template, accept a bid, wait until `app` logs show `ths-server serve` staying up, then open the `app` URI.
+[![Deploy on Akash Console](https://raw.githubusercontent.com/akash-network/console/refs/heads/main/apps/deploy-web/public/images/deploy-with-akash-btn.svg)](https://console.akash.network/new-deployment?step=edit-deployment&templateId=akash-network-awesome-akash-thus-spoke-zakura)
+
+**Native Akash payments with Keplr (Air)**
+
+[Open this template on Air](https://air.akash.network/new-deployment?step=edit-deployment&templateId=akash-network-awesome-akash-thus-spoke-zakura)
+
+Create the deployment from the template, accept a bid, wait until `app` logs show `ths-server serve` staying up, then open the **`app` URI** for the dashboard.
 
 ### Related
 

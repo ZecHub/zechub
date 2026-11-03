@@ -1,6 +1,6 @@
 # How to run Zakura on Akash Network
 
-Step-by-step path for a **Zakura** Zcash full node on [Akash Console](https://console.akash.network), using the [awesome-akash zcash-zakura](https://github.com/akash-network/awesome-akash/tree/master/zcash-zakura) template.
+Step-by-step path for a **Zakura** Zcash full node using the [awesome-akash zcash-zakura](https://github.com/akash-network/awesome-akash/tree/master/zcash-zakura) template.
 
 Zakura is a consensus-compatible Zcash node (forked from Zebra) with faster sync, native pruning, and snapshot bootstrap. This template pins **`zakuracore/zakura:1.8.1`** (digest-pinned; do not use `:latest` or `1.1.1`).
 
@@ -13,15 +13,33 @@ Zakura is a consensus-compatible Zcash node (forked from Zebra) with faster sync
 
 Feature flags in the SDL (true/false): `ENABLE_METRICS`, `ENABLE_HEALTH`, `ENABLE_RPC`, `ENABLE_LIGHTWALLETD`. Cookie auth is off when lightwalletd is on, because lightwalletd cannot read cookie files.
 
+### Which site to use (payments)
+
+The SDL is the same. The two Akash web UIs differ in **how you pay**.
+
+| Site | Payments | Wallet |
+| --- | --- | --- |
+| [console.akash.network](https://console.akash.network) | Traditional web checkout (card / fiat rails Console offers) | Console account |
+| [air.akash.network](https://air.akash.network) | Native Akash chain payments (AKT / ACT) | **Keplr** |
+
+Use **Air** when you want to pay with Keplr on-chain. Use **Console** when you want a conventional web payment flow. Do not expect Keplr native settlement on Console.
+
 ### Deploy
 
-[![Deploy on Akash](https://raw.githubusercontent.com/akash-network/console/refs/heads/main/apps/deploy-web/public/images/deploy-with-akash-btn.svg)](https://console.akash.network/new-deployment?step=edit-deployment&templateId=akash-network-awesome-akash-zcash-zakura)
+**Web payments (Console)**
 
-1. Connect Keplr on [console.akash.network](https://console.akash.network).
-2. Open the template (button above) or paste `zcash-zakura/deploy.yaml`.
-3. Deposit, accept a bid, wait for the lease.
-4. Logs should show snapshot download (first start) then `zakurad start`.
-5. Lease URIs: P2P (`8233` mapping) and lightwalletd (`9067` mapping). Point compact wallets at the **9067** URI, TLS off unless you add your own terminator.
+[![Deploy on Akash Console](https://raw.githubusercontent.com/akash-network/console/refs/heads/main/apps/deploy-web/public/images/deploy-with-akash-btn.svg)](https://console.akash.network/new-deployment?step=edit-deployment&templateId=akash-network-awesome-akash-zcash-zakura)
+
+**Native Akash payments with Keplr (Air)**
+
+[Open this template on Air](https://air.akash.network/new-deployment?step=edit-deployment&templateId=akash-network-awesome-akash-zcash-zakura)
+
+1. Open the matching link above (Console or Air).
+2. On Air, connect **Keplr** and confirm you have AKT/ACT for deposit and lease. On Console, complete the web checkout the UI presents.
+3. Load `zcash-zakura/deploy.yaml` if it is not already filled in.
+4. Deposit, accept a bid, wait for the lease.
+5. Logs should show snapshot download (first start) then `zakurad start`.
+6. Lease URIs: P2P (`8233` mapping) and lightwalletd (`9067` mapping). Point compact wallets at the **9067** URI, TLS off unless you add your own terminator.
 
 ### Archive vs pruned
 
