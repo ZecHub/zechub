@@ -14,6 +14,10 @@ A full Zebra node that will:
 
 -> Use 4 vCPUs, 16GB RAM, 350GB storage (mainnet) or 2 vCPUs, 8GB RAM, 50GB (testnet)
 
+The awesome-akash template now pins **Zebra 7.0.0** (never `:latest`). It enables Prometheus (`9999`) and health (`8080`) internally, JSON-RPC internally for a colocated **lightwalletd** on gRPC **9067**, and feature flags `ENABLE_METRICS` / `ENABLE_HEALTH` / `ENABLE_RPC` / `ENABLE_LIGHTWALLETD`.
+
+For a faster pruned Mainnet node, see [How to run Zakura on Akash](/guides/akash-network-zakura). For a disposable Regtest dashboard, see [Thus Spoke Zakura on Akash](/guides/thus-spoke-zakura-akash).
+
 
 ### Important: Port Mapping on Akash
 
