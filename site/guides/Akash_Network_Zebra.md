@@ -19,24 +19,26 @@ The awesome-akash template now pins **Zebra 7.0.0** (never `:latest`). It enable
 For a faster pruned Mainnet node, see [How to run Zakura on Akash](/guides/akash-network-zakura). For a disposable Regtest dashboard, see [Thus Spoke Zakura on Akash](/guides/thus-spoke-zakura-akash).
 
 
-### Important: Port Mapping on Akash
+### How Akash publishes ports
 
-When you expose a port on Akash (e.g., port 8233 for Zebra P2P), it **does NOT bind to that exact port** on the provider's public IP. Instead, the provider assigns a random high port (like 31234 or 42567) and reverse-proxies it to your container's port 8233.
+The numbers in the SDL (`port` / `as`) are **container ports**. Zebra still listens on **8233**, lightwalletd on **9067**, health on **8080**. Those numbers are for the process and for other services in the same deployment (`zebra:8232`).
 
-This is by design - providers run multiple deployments, and they'd have conflicts if everyone tried to use port 8233 directly.
+They are **not** the ports on the provider's public IP.
 
-**What this means for you:**
+**Default (this template):** no dedicated IP. For each `global: true` TCP expose, the provider maps a **random high port** on a shared host to your container port. After the lease is up, Console/Air **Leases → URIs** lists the real endpoints, for example:
 
--> You configure port 8233 in the SDL (Zebra's standard P2P port)
+```
+zebra-8233: provider.example:31482
+lightwalletd-9067: provider.example:32011
+```
 
--> Akash gives you a URI like *provider.com:31234*
+Peers and wallets use **those** host:port values. Copy the URI for the expose you care about (P2P vs lightwalletd). If you set `ZEBRA_NETWORK__EXTERNAL_ADDR`, set it to the mapped P2P URI (`provider.example:31482`), not `…:8233`.
 
--> Other Zcash nodes connect to you at *provider.com:31234*
+**HTTP** (`as: 80` with `http_options`, used on the Thus Spoke dashboard): many providers publish an **ingress hostname** (often on 80/443) instead of a random TCP port. Open the URI for that service in a browser.
 
--> Inside your container, Zebra still listens on 8233
+**Internal** (`global: false` or `to: service: lightwalletd`): cluster DNS only (`zebra:8232`). No public URI.
 
-
-This is handled automatically. Just use the URI that Akash gives you.
+**Dedicated IPs** (`endpoints` / `kind: ip` in the SDL) are a **premium extra**. They can pin a public IP and sometimes the `as` port on that IP. These templates do **not** request one. Add that yourself later if you want a stable `host:8233`; expect extra cost and fewer bidding providers.
 
 ### Which site to use (payments)
 
@@ -194,15 +196,14 @@ Click on the **Leases** tab, then **URIs**.
 
 You'll see something like:
 
-```bash
-zebra-8233: provider-hostname.com:31234
+```
+zebra-8233: provider-hostname.com:31482
+lightwalletd-9067: provider-hostname.com:32011
 ```
 
-This is your node's **public P2P endpoint**. Other Zcash nodes will connect to you at this address.
+Each line is one `global: true` expose. The name includes the SDL `as` port (8233, 9067). The number after the hostname is the **provider's mapped port**, assigned at lease time. Other Zcash nodes dial `provider-hostname.com:31482`. Compact wallets use the lightwalletd URI (TLS off unless you terminate TLS yourself).
 
-**Note the port mapping:** You configured port 8233 in the SDL, but Akash assigned it to a different public port (31234 in this example). This is normal - see the "Port Mapping on Akash" section at the top if this confuses you. Your node is accessible at whatever port Akash shows here, not necessarily 8233.
-
-If you enabled RPC (commented out by default in the SDL), you'll also see the RPC endpoint here with its own mapped port.
+The container is still listening on 8233 / 9067. The public address is always the URI, unless you later add a dedicated IP (not in this template).
 
 ### Configuration Options
 
@@ -303,7 +304,7 @@ RPC is disabled by default for security. To enable it:
 
 **Warning**: If you set *global: true* for RPC, you're exposing it to the internet. Zebra uses cookie auth by default, but still - don't do this unless you know what you're doing.
 
-**Port mapping reminder**: Even if you expose RPC globally, Akash will map it to a random high port (not 8232/18232). Check the URIs in your deployment to see the actual public endpoint. For *global: false* (recommended), the RPC endpoint is only accessible within the Akash deployment network, not from the public internet.
+If you expose RPC with `global: true`, the public address is still a **lease URI** (`host:<random-high-port>`), not `host:8232`. With `global: false` (this template), RPC stays on the deployment network (`zebra:8232` for lightwalletd). Dedicated IP leases are a separate paid option and are not in the SDL.
 
 #### Enable Metrics (Prometheus)
 

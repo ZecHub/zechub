@@ -6,10 +6,10 @@ Zakura is a consensus-compatible Zcash node (forked from Zebra) with faster sync
 
 ### What you get
 
-- Mainnet P2P on container port **8233** (Akash maps a public high port)
+- Mainnet P2P: container **8233**, published globally (see port mapping below)
 - Persistent pruned state (64 GiB default) with Valar snapshot bootstrap on first start
-- Prometheus **9999** and health **8080** (internal)
-- JSON-RPC **8232** internal for a colocated **lightwalletd** on gRPC **9067** (published globally)
+- Prometheus **9999** and health **8080** (internal, no public URI)
+- JSON-RPC **8232** internal for colocated **lightwalletd**; LWD listens on container **9067** and is published globally
 
 Feature flags in the SDL (true/false): `ENABLE_METRICS`, `ENABLE_HEALTH`, `ENABLE_RPC`, `ENABLE_LIGHTWALLETD`. Cookie auth is off when lightwalletd is on, because lightwalletd cannot read cookie files.
 
@@ -39,7 +39,26 @@ Use **Air** when you want to pay with Keplr on-chain. Use **Console** when you w
 3. Load `zcash-zakura/deploy.yaml` if it is not already filled in.
 4. Deposit, accept a bid, wait for the lease.
 5. Logs should show snapshot download (first start) then `zakurad start`.
-6. Lease URIs: P2P (`8233` mapping) and lightwalletd (`9067` mapping). Point compact wallets at the **9067** URI, TLS off unless you add your own terminator.
+6. Open **Leases → URIs**. Use the host:port the provider assigned, not 8233 or 9067 on the public IP.
+
+### How Akash publishes ports
+
+SDL `port` / `as` (8233, 9067, 8232) are **container** ports. Zakura still listens on 8233; lightwalletd on 9067; RPC on 8232 for the LWD sidecar (`zakura:8232`).
+
+They are **not** the ports on the provider's public IP.
+
+**Default (this template):** no dedicated IP. Each `global: true` TCP expose is mapped to a **random high port** on a shared provider host. Console/Air list them as lease URIs, for example:
+
+```
+zakura-8233: provider.example:31482
+lightwalletd-9067: provider.example:32011
+```
+
+Peers dial the **8233** URI (`provider.example:31482`). Compact wallets use the **9067** URI (TLS off unless you terminate TLS yourself). Set `ZAKURA_NETWORK__EXTERNAL_ADDR` to the mapped P2P URI, not `:8233`.
+
+**Internal** exposes (`8232` RPC, `9999` metrics, `8080` health) stay on the deployment network. No public URI.
+
+**Dedicated IPs** (`endpoints` / `kind: ip`) are a paid extra and are **not** in this template. They can pin a public IP and sometimes the `as` port. Add that only if you need a stable `host:8233`.
 
 ### Archive vs pruned
 

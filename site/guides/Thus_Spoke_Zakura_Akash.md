@@ -18,18 +18,24 @@ Upstream: [zcashlabs/thus-spoke-zakura](https://github.com/zcashlabs/thus-spoke-
 
 On first start the `app` container runs `ths-server init` on its persistent volume, then `ths-server serve`. Serve retries until Zakura JSON-RPC and lightwalletd are up. You do not run `ths` on the provider; the SDL is the runtime.
 
-### Ports (what to open)
+### How Akash publishes ports
 
-Akash maps each container port to a random public port. Use the **lease URIs**.
+SDL `port` / `as` are **container** ports. The app listens on **8080** (`THS_LISTEN`); lightwalletd on **9067**; Zakura RPC on **18232** and P2P on **18233**. Inside the deployment, services already use those (`http://zakura:18232`, `http://lightwalletd:9067`).
 
-| Service | Container port | Published as | Use |
+They are **not** the ports on the provider's public IP.
+
+**Default (this template):** no dedicated IP.
+
+| Service | Container listen | SDL `as` | How it shows up on the lease |
 | --- | --- | --- | --- |
-| `app` | 8080 | **80** (global, HTTP) | **Dashboard and HTTP API** — open this URI in a browser |
-| `lightwalletd` | 9067 | 9067 (global) | CompactTxStreamer for wallets (`THS_LIGHTWALLETD_TLS=false`) |
-| `zakura` | 18232 | 18232 (global) | JSON-RPC |
-| `zakura` | 18233 | 18233 (global) | Regtest P2P |
+| `app` (dashboard + HTTP API) | 8080 | 80 (HTTP) | Ingress hostname, often on 80/443 — **open this URI in a browser** |
+| `lightwalletd` | 9067 | 9067 (TCP, global) | `host:<random-high-port>` |
+| `zakura` RPC | 18232 | 18232 (TCP, global) | `host:<random-high-port>` |
+| `zakura` P2P | 18233 | 18233 (TCP, global) | `host:<random-high-port>` |
 
-The dashboard listens on `0.0.0.0:8080` (`THS_LISTEN`). After the lease is ready, click the **`app` URI**. That is the same UI `ths` opens locally.
+After the lease is ready, **Leases → URIs** is the source of truth. Open the **`app`** URI for the dashboard (the same UI `ths` opens locally). Point compact clients at the **lightwalletd** URI (`THS_LIGHTWALLETD_TLS=false`). Do not type `:8080`, `:80`, or `:9067` on the provider IP unless a dedicated IP lease made those ports public.
+
+**Dedicated IPs** (`endpoints` / `kind: ip`) are a paid extra and are **not** in this template. They can pin a public IP and sometimes the `as` port. Leave them off unless you need that.
 
 ### Which site to use (payments)
 
