@@ -199,6 +199,10 @@ A privacy-focused static website that aggregates Zcash news, statistics, and edu
 A retro-style desktop interface that combines various Zcash ecosystem tools and information into one application. It includes a blockchain explorer, mempool viewer, network statistics, historical charts, shielded pool information, mining tools, a Unified Address decoder, calculator, games, terminal, and other utilities.  
 [Visit](https://www.zec-os.com/)
 
+### Kumocast
+Free Zcash (ZEC) market data and analysis, refreshed every 30 minutes: live price, support and resistance levels, volatility ranges, common indicators explained in plain language, order-book depth and long/short positioning. No sign-up needed.  
+[Visit](https://www.kumocast.io/zcash-price-prediction)
+
 ---
 
 ## Identity, Names, and User Experience
