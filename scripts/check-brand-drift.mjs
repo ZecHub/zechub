@@ -166,7 +166,12 @@ for (const key of pages) {
     const tr = read(join(TRANSLATIONS, loc, "site", key));
     if (tr === null) continue;
     for (const [t, how] of cands) {
-      if (present(t, raw) && !present(t, tr)) {
+      // "The Giving Block" with "Giving Block" protected: the English article
+      // is the locale's to render (Greek "το Giving Block"), so the name counts
+      // as kept when the exact protected core is present in the translation.
+      const core = t.replace(/^The\s+/, "");
+      const coreKept = protectedSet.has(core) && present(core, tr);
+      if (present(t, raw) && !present(t, tr) && !coreKept) {
         const f = findings.get(t) ?? { locales: new Set(), page: key, how };
         f.locales.add(loc);
         findings.set(t, f);
