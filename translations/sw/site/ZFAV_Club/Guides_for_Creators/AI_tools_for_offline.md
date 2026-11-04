@@ -2,50 +2,50 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# AI zana (kijijini, nje ya mtandao)
+# Vifaa vya AI [AI tools] (vya ndani, nje ya mtandao)
 
 <aside>
-* Bado kuandika na kujenga hapa ... *
+*Bado ninaandika na kujenga hapa...*
 
 </aside>
 
-### Kuzalisha picha
+### Utengenezaji wa picha [Image generating]
 
-Ambapo kushusha mifano kwa ajili ya uzalishaji wa picha? 
-Katika [**HuggingFace**](https://huggingface.co/models?pipeline_tag=text-to-image&sort=trending) na [**Civitai](https://civitai.com/)** ni mengi ya mifano mbalimbali.
+Ni wapi pa kupakua modeli za utengenezaji wa picha? 
+Kwenye [**HuggingFace**](https://huggingface.co/models?pipeline_tag=text-to-image&sort=trending) na [**Civitai](https://civitai.com/)** kuna modeli nyingi tofauti.
 
-## Madirisha - kupakua mifano maalum
+## Windows - pakua modeli maalum [custom models]
 
-Kawaida kiwango cha chini cha GPU na 4GB au kumbukumbu ya video inahitajika kwa zana yoyote ya AI.
+Kwa kawaida, GPU yenye angalau 4GB za kumbukumbu ya video inahitajika kwa kifaa chochote cha AI.
 
-Nvida GPUs kazi bora.
+GPU za Nvida hufanya kazi vizuri zaidi.
 
-- [InvokeAI](https://invoke-ai.github.io/InvokeAI/) (inahitaji 4GB GPU kumbukumbu)
-- [NMKD Imara Diffusion GUI](https://nmkd.itch.io/t2i-gui)
+- [InvokeAI](https://invoke-ai.github.io/InvokeAI/) (inahitaji 4GB za kumbukumbu ya GPU)
+- [NMKD Stable Diffusion GUI](https://nmkd.itch.io/t2i-gui)
 - [EasyDiffusion 3.0](https://github.com/easydiffusion/easydiffusion)
 
-### Mac OS - kushusha mifano desturi
+### Mac OS - pakua modeli maalum
 
-- [Draw Mambo: AI Generation](https://apps.apple.com/ee/app/draw-things-ai-generation/id6444050820) kutoka AppStore - bure
-(Unaweza kutumia mifano mbalimbali StableDiffusion)
-- [DiffusionBee](https://diffusionbee.com/) - huru
-(Unaweza kutumia mifano mbalimbali StableDiffusion)
-- [InvokeAI](https://invoke-ai.github.io/InvokeAI/) (inahitaji 4GB GPU kumbukumbu)
+- [Draw Things: AI Generation](https://apps.apple.com/ee/app/draw-things-ai-generation/id6444050820) kutoka AppStore - bila malipo
+(Inaweza kutumia modeli nyingi tofauti za StableDiffusion)
+- [DiffusionBee](https://diffusionbee.com/) - bila malipo
+(Inaweza kutumia modeli nyingi tofauti za StableDiffusion)
+- [InvokeAI](https://invoke-ai.github.io/InvokeAI/) (inahitaji 4GB za kumbukumbu ya GPU)
 
-### Linux - kupakua mifano maalum
+### Linux - pakua modeli maalum
 
-- [InvokeAI](https://invoke-ai.github.io/InvokeAI/) (inahitaji 4GB GPU kumbukumbu)
+- [InvokeAI](https://invoke-ai.github.io/InvokeAI/) (inahitaji 4GB za kumbukumbu ya GPU)
 
-## Nakala kuzalisha
+## Uzalishaji wa maandishi [Text generating]
 
-### Madirisha - kupakua mifano maalum
+### Windows - pakua modeli maalum
 
-- [GPT4All](https://gpt4all.io/index.html) (min 8gb RAM inahitajika)
+- [GPT4All](https://gpt4all.io/index.html) (angalau 8GB za RAM zinahitajika)
 
-### Mac OS - kushusha mifano desturi
+### Mac OS - pakua modeli maalum
 
-- [GPT4All](https://gpt4all.io/index.html) - (kazi ya haraka kabisa juu ya M1 Macs, kulingana na GPT mfano kutumika)
+- [GPT4All](https://gpt4all.io/index.html) - (hufanya kazi haraka sana kwenye Mac zenye M1, kutegemea modeli ya GPT inayotumika)
 
-## Linux - kupakua mifano maalum
+## Linux - pakua modeli maalum
 
-- [GPT4All](https://gpt4all.io/index.html) (min 8gb RAM inahitajika)
+- [GPT4All](https://gpt4all.io/index.html) (angalau 8GB za RAM zinahitajika)

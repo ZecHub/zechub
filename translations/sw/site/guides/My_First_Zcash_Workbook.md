@@ -1,165 +1,165 @@
-# Kitabu Changu cha Kwanza cha Kazi Zcash
+# Kitabu Changu cha Kwanza cha Zcash
 
 ---
 
 ## Utangulizi
 
-*My First Zcash* ni kitabu cha mazoezi cha kielimu kilichoundwa ili kuwasaidia wanafunzi wapya, hasa vijana na wanaoanza katika teknolojia ya crypto kuelewa misingi ya Zcash, faragha ya kifedha, pesa za kidijitali, na mifumo iliyo nyuma ya teknolojia. Kilitengenezwa na kundi la wachangiaji mbalimbali na wenye shauku kutoka kote katika jumuiya ya Zcash duniani, wakichanganya ukuzaji wa programu, usanifu, utafiti, elimu, na utetezi wa faragha.
+*Kitabu Changu cha Kwanza cha Zcash* ni kitabu cha mazoezi ya kielimu kilichoundwa kuwasaidia wanafunzi wapya, hasa vijana na wanaoanza katika crypto, kuelewa misingi ya Zcash, faragha ya kifedha [financial privacy], fedha za kidijitali [digital money], na mifumo inayotekeleza teknolojia hiyo. Kilitengenezwa na kundi la wachangiaji mbalimbali na wenye shauku kutoka kote katika jamii ya kimataifa ya Zcash, likiunganisha utengenezaji wa programu, usanifu, utafiti, elimu, na utetezi wa faragha.
 
-Mwongozo huu unatoa muhtasari wa mkondo mkuu wa kujifunza wa kitabu cha kazi, umegawanywa katika sehemu kuu tisa. Sio mbadala wa kitabu chenyewe bali, ni rasilimali saidizi inayofupisha mtiririko wa kielimu na kuangazia taarifa muhimu kwa walimu, wanafunzi, na waelimishaji wa jamii.
+Mwongozo huu unatoa muhtasari wa mkondo mkuu wa kujifunza wa kitabu cha mazoezi, uliogawanywa katika sehemu kuu tisa. Haukusudiwi kuchukua nafasi ya kitabu chenyewe, bali ni nyenzo ya usaidizi inayofupisha mtiririko wa kielimu na kuangazia taarifa muhimu kwa wakufunzi, wanafunzi, na waelimishaji wa jamii.
 
-Kitabu cha kazi kinapatikana bure kwa kupakuliwa kama PDF:
+Kitabu cha mazoezi kinapatikana bila malipo kupakuliwa kama PDF:
 
 [Muhtasari](https://drive.google.com/file/d/1eYWLgvAAHzCpr2b7bZ494FTZAtHqmtRk/view)
 
-[Marejeleo GitHub](https://github.com/massadoptionorg/My-First-Zcash) 
+[GitHub Hifadhi](https://github.com/massadoptionorg/My-First-Zcash) 
 
 
 
 ---
 
-## 1. What is Zcash?
+## 1. Zcash ni nini?
 
-Sehemu hii ya kwanza inawafahamisha wasomaji wazo la pesa taslimu kidijitali na kwa nini faragha ni muhimu katika jamii ya kisasa ya kidijitali. Inalinganisha mifumo ya kifedha ya kitamaduni na blockchain zenye uwazi, ikiangazia jinsi leja nyingi za umma zinavyofichua shughuli za watumiaji. Zcash inaelezewa kama njia mbadala ya kuhifadhi faragha ya pesa taslimu kidijitali ambayo inaruhusu watumiaji kubadilishana kwa usalama bila kufichua taarifa binafsi za kifedha.
+Sehemu hii ya kwanza inawafahamisha wasomaji dhana ya fedha taslimu za kidijitali na sababu faragha ni muhimu katika jamii ya kisasa ya kidijitali. Inalinganisha mifumo ya jadi ya kifedha na blockchain za uwazi [transparent blockchains], ikionyesha jinsi leja nyingi za umma zinavyofichua shughuli za watumiaji. Zcash inaelezewa kama fedha mbadala za kidijitali zinazohifadhi faragha, zinazowawezesha watumiaji kubadilishana kwa usalama bila kufichua taarifa zao binafsi za kifedha.
 
- Kitabu cha mazoezi kinasisitiza kwamba faragha si kuhusu kuficha makosa bali ni kuwalinda watu wa kawaida kutokana na kufichuliwa bila sababu, ufuatiliaji, na utumiaji wa data. Wanafunzi wanachukuliwa kupitia mifano iliyo wazi inayoonyesha jinsi Zcash ilivyoundwa ili kuwapa watu udhibiti wa kweli wa maisha yao ya kifedha na jinsi miamala ya kawaida ya kifedha inavyofichua taarifa zaidi za kibinafsi kuliko tunavyotambua.
+Kitabu cha mazoezi kinasisitiza kwamba faragha haihusu kuficha makosa, bali kulinda watu wa kawaida dhidi ya kufichuliwa kusikostahili, ufuatiliaji, na unyonyaji wa data. Wanafunzi hupitia mifano ya moja kwa moja inayoonyesha jinsi Zcash ilivyoundwa kuwapa watu udhibiti halisi wa maisha yao ya kifedha na jinsi miamala ya kawaida ya kifedha inavyofichua taarifa binafsi zaidi kuliko tunavyotambua.
 
 
 ---
 
-## 2. Nani Aliyejenga Zcash na Kwa Nini Ipo?
+## 2. Nani Aliunda Zcash na Kwa Nini Ipo?
 
-Sehemu hii inaelezea asili ya Zcash kupitia lenzi ya utafiti wa kisayansi na usimbaji fiche. Inaleta uthibitisho wa maarifa yasiyo na msingi hasa "zk-SNARKs" kama teknolojia ya mafanikio inayowezesha miamala ya kibinafsi iliyolindwa.
+Sehemu hii inaeleza chimbuko la Zcash kupitia mtazamo wa utafiti wa kisayansi na kriptografia. Inatambulisha mathibitisho ya maarifa sifuri [zero-knowledge proofs], hasa “zk-SNARKs”, kama teknolojia ya mafanikio inayowezesha miamala ya faragha ya kibinafsi.
 
-Kitabu cha mazoezi pia kinagusia historia ya uzinduzi Zcash's, kanuni zake za msingi, na jumuiya ya kimataifa inayodumisha na kuunga mkono mfumo ikolojia leo. Dhamira hiyo imejikita katika kuwawezesha watu binafsi, kutoa ufikiaji usiodhibitiwa wa pesa za kidijitali, na kuendeleza teknolojia ya faragha kwa kila mtu.
+Kitabu cha mazoezi pia kinagusia historia ya uzinduzi wa Zcash, kanuni zake za msingi, na jamii ya kimataifa inayodumisha na kuunga mkono mfumo ikolojia leo. Dhamira inaelekezwa katika kuwawezesha watu binafsi, kutoa ufikiaji wa fedha za kidijitali usiozuiliwa na udhibiti, na kuendeleza teknolojia ya faragha kwa kila mtu.
 
 
 ---
 
 ## 3. Jinsi Zcash Inavyofanya Kazi
 
-Sehemu hii inachambua misingi ya kiufundi ya itifaki ya Zcash katika lugha inayoweza kufikiwa kwa urahisi. Dhana muhimu ni pamoja na:
+Sehemu hii inachambua misingi ya kiufundi ya itifaki ya Zcash kwa lugha rahisi kueleweka. Dhana kuu ni pamoja na:
 
-- Anwani zenye uwazi dhidi ya zilizolindwa 
-- Kuangalia funguo na ufichuzi unaodhibitiwa 
-- Jukumu la wachimbaji/wathibitishaji 
-- Jinsi uthibitisho wa kutojua chochote unavyothibitisha miamala 
-- Jinsi faragha inavyohifadhiwa hata wakati wa kuhakikisha mtandao unabaki kuwa salama na usio na mipaka 
+- Anwani za uwazi dhidi ya anwani za faragha  
+- Funguo za kutazama [viewing keys] na ufichuzi unaodhibitiwa  
+- Wajibu wa wachimbaji/wathibitishaji  
+- Jinsi mathibitisho ya maarifa sifuri yanavyothibitisha miamala  
+- Jinsi faragha inavyohifadhiwa huku ikihakikisha mtandao unasalia uliogatuliwa na salama  
 
-Michoro na sitiari zinazoonekana katika kitabu cha mazoezi husaidia kurahisisha dhana hizi kwa wanaoanza.
+Michoro na sitiari za kuona katika kitabu cha mazoezi husaidia kurahisisha dhana hizi kwa wanaoanza.
 
 
 ---
 
 ## 4. Kutumia Zcash katika Maisha ya Kila Siku
 
-Sehemu ya nne inazingatia mifano halisi ya matumizi. Inaonyesha jinsi mtu anavyoweza kutuma na kupokea Zcash kwa kutumia pochi za simu, jinsi misimbo ya QR inavyorahisisha malipo, na jinsi watumiaji wanavyotumia miamala iliyolindwa kwa ajili ya ulinzi binafsi, usiri wa biashara, au uhamisho wa mpakani.
+Sehemu ya nne inaangazia mifano halisi ya matumizi. Inaonyesha jinsi mtu anavyoweza kutuma na kupokea Zcash kwa kutumia pochi za simu, jinsi misimbo ya QR inavyorahisisha malipo, na jinsi watumiaji wanavyotumia miamala ya faragha kwa ulinzi binafsi, usiri wa biashara, au uhamishaji wa fedha kuvuka mipaka.
 
-Mifano inaonyesha hali halisi za ulimwengu ikiwa ni pamoja na kuwapa wasanii zawadi, kuhamisha pesa kwa jamaa walio nje ya nchi, kusaidia mashirika yasiyo ya kiserikali bila kujulikana, au kutumia Zcash kama posho ya kibinafsi ya kidijitali ya kijana.
-
----
-
-## 5. Kujenga kwa kutumia Zcash
-
-Sehemu hii inaangazia jinsi watengenezaji programu, wabunifu, watafiti, na waelimishaji wanavyoweza kujenga msingi wa Zcash. Inaleta dhana kama vile:
-
-- Pochi Zcash 
-- SDK za Wasanidi Programu 
-- Vikundi vya kazi vya jamii 
-- Jukumu la wachangiaji katika maendeleo ya chanzo huria 
-- Jinsi uboreshaji wa mtandao Zcash unavyoboresha itifaki 
-
-Wasomaji hupata hisia ya jinsi Zcash inavyobadilika baada ya muda na jinsi wachangiaji wa kimataifa wanavyosaidia kupanua zana, miundombinu, matumizi, na rasilimali za kielimu.
-
+Mifano inaonyesha hali za maisha halisi, zikiwemo kutoa zawadi kwa wasanii, kutuma fedha kwa jamaa walio ng'ambo, kuunga mkono mashirika yasiyo ya kiserikali bila kutambulika, au kutumia Zcash kama posho binafsi ya kidijitali ya kijana.
 
 ---
 
-## 6. Usalama, Usalama, na Mbinu Bora
+## 5. Kujenga kwa Kutumia Zcash
 
-Sehemu hii inafundisha tabia za msingi za usalama wa kidijitali:
+Sehemu hii inaangazia jinsi wasanidi programu, wabunifu, watafiti, na waelimishaji wanavyoweza kujenga kwa kutumia Zcash. Inatambulisha dhana kama:
 
-- Kulinda funguo na misemo ya mbegu 
-- Kuepuka ulaghai 
-- Kuelewa pochi za uangalizi dhidi ya pochi zisizo za uangalizi 
-- Kufanya mazoezi ya usafi thabiti wa nenosiri 
-- Kuepuka kushiriki taarifa nyeti za pochi hadharani 
+- Pochi za Zcash  
+- SDK za wasanidi programu  
+- Makundi ya kazi ya jamii  
+- Wajibu wa wachangiaji katika utengenezaji wa chanzo huria  
+- Jinsi maboresho ya mtandao ya Zcash yanavyoboresha itifaki  
 
-Masomo haya huwapa watumiaji wapya tabia muhimu zinazoenea zaidi ya Zcash hadi maisha ya kidijitali kwa ujumla.
+Wasomaji hupata ufahamu wa jinsi Zcash inavyobadilika kadiri muda unavyopita na jinsi wachangiaji wa kimataifa wanavyosaidia kupanua vifaa, miundombinu, programu tumizi, na rasilimali za kielimu.
 
 
 ---
 
-## 7. Jumuiya ya Kimataifa Zcash
+## 6. Usalama, Ulinzi, na Mbinu Bora
 
-Mfumo ikolojia Zcash ni wa kimataifa, wa aina mbalimbali, na unaoendeshwa na jamii. Sehemu hii inaelezea jinsi wachangiaji wanavyoshirikiana kupitia mijadala huria, GitHub, Discord, na vikundi vya kazi. Inatambulisha utamaduni wa maendeleo huria, utetezi wa faragha, na elimu ya msingi.
+Sehemu hii inafundisha mazoea ya msingi ya usalama wa kidijitali:
 
-Kitabu cha mazoezi pia kinaelezea mashirika yanayohusika katika mfumo ikolojia, ikiwa ni pamoja na mashirika yasiyo ya faida, misingi, na wajenzi huru wanaounga mkono mtandao na kudumisha ugatuzi Zcash's na dhamira njema kwa umma.
+- Kulinda funguo na maneno ya kurejesha pochi  
+- Kuepuka utapeli  
+- Kuelewa pochi inayohifadhiwa na mtu mwingine dhidi ya pochi isiyohifadhiwa na mtu mwingine  
+- Kutekeleza usafi thabiti wa nenosiri  
+- Kuepuka kushiriki hadharani taarifa nyeti za pochi  
+
+Masomo haya huwapa watumiaji wapya mazoea muhimu yanayoenea zaidi ya Zcash hadi katika maisha ya kidijitali kwa ujumla.
 
 
 ---
 
-## 8. Kutana na Waumbaji - "Watu Waliofanya Hilo!"
+## 7. Jamii ya Kimataifa ya Zcash
 
-Sehemu hii inaangazia wachangiaji wenye talanta waliowezesha *My First Zcash*. Wao ni pamoja na:
+Mfumo ikolojia wa Zcash ni wa kimataifa, mbalimbali, na unaoongozwa na jamii. Sehemu hii inaeleza jinsi wachangiaji wanavyoshirikiana kupitia mijadala ya wazi, GitHub, Discord, na makundi ya kazi. Inatambulisha utamaduni wa utengenezaji wa chanzo huria, utetezi wa faragha, na elimu ya ngazi ya jamii.
+
+Kitabu cha mazoezi pia kinaeleza mashirika yanayohusika katika mfumo ikolojia, yakiwemo mashirika yasiyo ya faida, taasisi, na wajenzi huru wanaounga mkono mtandao na kudumisha ugatuzi wa Zcash na dhamira yake ya manufaa ya umma.
+
+
+---
+
+## 8. Kutana na Waumbaji - “Watu Waliofanikisha Hili!”
+
+Sehemu hii inaangazia wachangiaji wenye vipaji waliofanikisha *Kitabu Changu cha Kwanza cha Zcash*. Wao ni pamoja na:
 
 **Ice (@frostbyte11211)**
 
-Mwanafunzi wa shule ya upili anayependa faragha, kompyuta, usimbaji fiche, na saikolojia.
+Mwanafunzi wa shule ya sekondari anayevutiwa na faragha, kompyuta, kriptografia, na saikolojia.
 
 **Pacu (@thecodebuffet)** 
 
-Msanidi programu wa muda mrefu wa pochi za Zcash, hapo awali alikuwa ECC akifanya kazi kwenye SDK na teknolojia ya Light Client, sasa anachangia katika mfumo ikolojia chini ya ruzuku ZCG.
+Msanidi programu wa muda mrefu wa pochi ya Zcash, aliyekuwa hapo awali katika ECC akifanya kazi kwenye SDK na teknolojia ya Light Client, na sasa anachangia mfumo ikolojia chini ya ruzuku ya ZCG.
 
 **Marek** 
 
-Mhandisi katika Zcash Foundation. 
+Mhandisi katika Zcash Foundation.  
 
 **Alfredo Garcia** 
 
-Mhandisi wa mifumo ya Rust anayefanya kazi katika timu Zebra katika Zcash Foundation.
+Mhandisi wa mifumo ya Rust anayefanya kazi katika timu ya Zebra huko Zcash Foundation.
 
 **Pili (@mpguerra)** 
 
-Meneja katika Zcash Foundation mwenye uzoefu wa zaidi ya miaka 20, ikiwa ni pamoja na kufanya kazi kwenye Mradi wa Tor.
+Meneja katika Zcash Foundation mwenye uzoefu wa zaidi ya miaka 20, ukiwemo kazi katika Mradi wa Tor.
 
 **Zksquirrel** 
 
-Mtaalamu wa Miti wa Zcash, mchukuaji wa madokezo ya jamii, na mchangiaji katika mipango ya elimu ZecHub's.
+Arborist wa Zcash, mwandishi wa madokezo ya jamii, na mchangiaji wa mipango ya elimu ya ZecHub.
 
-**Tatu wewe** 
+**Tripleyouww** 
 
-Mratibu wa Usaidizi wa Jamii katika Zcash Foundation. 
+Mratibu wa Usaidizi wa Jamii katika Zcash Foundation.  
 
-**Muungano wa Kuasili kwa Umati** 
+**Mass Adoption Alliance** 
 
 Mpango unaowawezesha vijana kupitia elimu kuhusu sarafu za kidijitali zilizogatuliwa na faragha ya kifedha.
 
 ---
 
-Wasifu huu unawaonyesha wasomaji kwamba Zcash inasimamiwa na jumuiya mbalimbali ya wahandisi, wabunifu, watengenezaji, waelimishaji, na waandaaji kutoka kote ulimwenguni.
+Wasifu huu unaonyesha wasomaji kwamba Zcash inadumishwa na jamii mbalimbali ya wahandisi, wabunifu, wasanidi programu, waelimishaji, na waandaaji kutoka kote duniani.
 
 
 ---
 
 ## 9. Jinsi ya Kushiriki
 
-Sehemu ya mwisho inawaalika wasomaji kuwa sehemu ya mfumo ikolojia Zcash. Fursa zinajumuisha:
+Sehemu ya mwisho inawaalika wasomaji kuwa sehemu ya mfumo ikolojia wa Zcash. Fursa ni pamoja na:
 
-- Kujiunga na Zcash Global Discord 
-- Kushiriki katika miito ya kijamii na vikundi vya kazi 
-- Kuchangia katika tafsiri za vitabu vya kazi vya siku zijazo 
-- Kusaidia elimu huria 
-- Kuunda maudhui, michango ya msimbo, kazi za sanaa, au maoni 
-- Kuchunguza Zcash Community Grants 
+- Kujiunga na Zcash ya Kimataifa ya Discord  
+- Kushiriki katika simu za jamii na makundi ya kazi  
+- Kuchangia tafsiri za baadaye za kitabu cha mazoezi  
+- Kuunga mkono elimu ya chanzo huria  
+- Kuunda maudhui, michango ya msimbo, kazi za sanaa, au maoni  
+- Kuchunguza Zcash Community Grants  
 
-Ujumbe uko wazi: mtu yeyote anaweza kushiriki, na jamii inawakaribisha wachangiaji wa malezi na viwango vyote vya ujuzi.
+Ujumbe uko wazi: mtu yeyote anaweza kushiriki, na jamii inawakaribisha wachangiaji wa asili zote na viwango vyote vya ujuzi.
 
-[Discord Zcash Global](https://discord.gg/F6DCkCDK)
+[Zcash ya Kimataifa ya Discord](https://discord.gg/F6DCkCDK)
 
 ---
 
 # Leseni
 
-*My First Zcash* imepewa leseni chini ya **Leseni ya Kimataifa ya Creative Commons Attribution-ShareAlike 4.0 (CC BY-SA 4.0).**
+*Kitabu Changu cha Kwanza cha Zcash* kimepewa leseni chini ya **Leseni ya Kimataifa ya Creative Commons Attribution-ShareAlike 4.0 (CC BY-SA 4.0).**
 
 [Leseni](https://creativecommons.org/licenses/by-sa/4.0/)

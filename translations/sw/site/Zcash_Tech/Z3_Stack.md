@@ -2,38 +2,38 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Z3 Stack (Kifungu cha Msaada)
+# Stack ya Z3
 
-**Z3 Stack** ni Zcash Foundation's pakiti node jukwaa: * Zebra (full Node) + * Zallet* (kamili-node mkoba), na hiari ya indexer Zaino. Ni intended badala kwa kusimama peke yake `zcashd` mchakato, ambayo bundled makubaliano na mfuko wa fedha katika binary moja na kufikiwa mwisho wa maisha juu ya 18 Julai 2026.
+**Stack ya Z3** ni jukwaa la node lililopakiwa la Zcash Foundation: **Zebra** (full node) + **Zallet** (pochi ya full node), lenye kiorodheshi cha hiari **Zaino**. Ndilo mbadala uliokusudiwa wa mchakato huru wa `zcashd`, ambao uliunganisha makubaliano [consensus] na pochi katika binary moja na ulifikia mwisho wa matumizi tarehe 18 Julai 2026.
 
-Utekelezaji wa kumbukumbu ni mradi Docker Compose katika [github.com/ZcashFoundation/z3](https://github.com/ZcashFoundation/z3).
-
----
-
-## TL;DR
-
-* Z3 ni **si mpya makubaliano mteja. Ni jinsi gani wewe kuendesha baada ya-`zcashd` stack pamoja: Zebra inathibitisha mlolongo, Zallet ana funguo na hutumikia mkoba RPC, na Zaino (hiari) huzungumza lightwalletd gRPC itifaki.
-* `zcashd` bundled node + mkoba. Z3 **splits wale majukumu**. kubadilishana, madini ya mifereji na wengine full-node mfuko wa fedha watendaji kuhamia kwa hii mchanganyiko badala ya Zebra peke yake.
-* Miradi mitatu ya kutenganisha inaweza kuendesha kwenye jeshi moja: ** mainnet**, ** testnet** na ** regtest.
-* Mainnet kwanza sync ni juu ya utaratibu wa ** 24 72 masaa** na kuhusu ** 300 GB. Regtest huja katika sekunde na mahali sahihi kujifunza stack.
-* Zallet embeds Zaino ya indexer maktaba na mazungumzo kwa Zebra juu JSON-RPC. kujitegemea za huduma ni zinahitajika tu kama unataka lightwalletd sambamba mwisho hatua kwa ajili ya mikoba nje.
-* Zallet ni katika ** beta. kuvunja mabadiliko inaweza kuhitaji kufuta na recreate mkoba. Je, si kutibu kama kukamilika ulinzi programu kwa ajili ya kiasi kikubwa cha fedha.
+Utekelezaji wa marejeleo ni mradi wa Compose wa Docker katika [github.com/ZcashFoundation/z3](https://github.com/ZcashFoundation/z3).
 
 ---
 
-## Kwa nini Z3 ipo?
+## Kwa Ufupi
 
-Kwa wengi wa maisha Zcash ya, `zcashd` ilikuwa wote kumbukumbu full node na tu uzalishaji kamili-node mkoba. kubuni kwamba ni nini kubadilishana, mabwawa, na watunzaji jumuishi dhidi ya.
-
-`zcashd` ni kustaafu. makubaliano wakiongozwa na [Zebra](/zcash-tech/zebra-full-node) (na sasa pia [Zakura](/zcash-tech/zakura-node)) mkoba iliyoingia wakiongozwa na [Zallet](https://github.com/zcash/zallet)Mwangaza-mkoba kuwahudumia ni kusonga kutoka [lightwalletd](/zcash-tech/lightwallet-nodes) to [Zaino](/zcash-tech/zaino).
-
-Vipande hivyo vitatu ni hazina tofauti, treni za kutolewa kwa mbali na config. Z3 ndio gundi: picha zilizowekwa alama, ukaguzi wa afya ambao unadumisha mkoba chini hadi node itakaposawazishwa, bandari ya mtandao na kiasi cha habari, na njia iliyoandikwa ya mwendeshaji.
-
-Jina ni informal mazingira ya mfumo wa shorthand  Zebra, Zaino, Zallet hata kama default Kuunda faili tu huanza Zebra na Zallet. zaino ni profile kuandaa, si required tatu mchakato.
+* Z3 **si mteja mpya wa makubaliano**. Ni namna ya kuendesha stack baada ya `zcashd` pamoja: Zebra huthibitisha mnyororo [chain], Zallet huhifadhi funguo na kutoa RPC ya pochi, na Zaino (ya hiari) hutumia itifaki ya gRPC ya lightwalletd.
+* `zcashd` iliunganisha node + pochi. Z3 **hutenganisha majukumu hayo**. Masoko ya kubadilishana sarafu [exchanges], mabwawa ya uchimbaji [mining pools], na waendeshaji wengine wa pochi za full node huhamia kwenye mchanganyiko huu badala ya Zebra pekee.
+* Miradi mitatu iliyotengwa ya Compose inaweza kuendeshwa kwenye seva pangishi moja: **mainnet**, **testnet**, na **regtest**.
+* Usawazishaji wa kwanza wa mainnet huchukua takribani **saa 24–72** na karibu **GB 300**. Regtest huanza ndani ya sekunde chache na ndiyo mahali sahihi pa kujifunza stack hii.
+* Zallet hujumuisha maktaba za kiorodheshi za Zaino na huwasiliana na Zebra kupitia JSON-RPC. Huduma huru ya Zaino inahitajika tu iwapo unataka endpoint inayooana na lightwalletd kwa pochi za nje.
+* Zallet iko katika **beta**. Mabadiliko yanayovunja uoanifu yanaweza kuhitaji kufuta na kuunda upya pochi. Usiichukulie kama programu kamili ya uhifadhi wa fedha kwa kiasi kikubwa.
 
 ---
 
-## Usanifu wa majengo
+## Kwa nini Z3 ipo
+
+Kwa sehemu kubwa ya maisha ya Zcash, `zcashd` ilikuwa full node ya marejeleo na pochi pekee ya full node ya uzalishaji. Muundo huo ndio ambao masoko ya kubadilishana sarafu, mabwawa, na wahifadhi wa mali waliunganisha mifumo yao nao.
+
+`zcashd` imestaafishwa. Makubaliano yalihamia kwenye [Zebra](/zcash-tech/zebra-full-node) (na sasa pia kwenye [Zakura](/zcash-tech/zakura-node)). Pochi iliyojengeka ndani ilihamia kwenye [Zallet](https://github.com/zcash/zallet). Huduma kwa pochi nyepesi inahama kutoka [lightwalletd](/zcash-tech/lightwallet-nodes) kwenda [Zaino](/zcash-tech/zaino).
+
+Vipande hivyo vitatu ni hazina tofauti, ratiba tofauti za matoleo, na usanidi tofauti. Z3 ndiyo kiunganishi: picha zilizofungwa toleo, ukaguzi wa hali unaoifanya pochi isianze hadi node isawazishwe, bandari na volyumu kwa kila mtandao, na njia iliyoandikwa kwa waendeshaji.
+
+Jina hili ni ufupisho usio rasmi wa mfumo ikolojia — Zebra, Zaino, Zallet — ingawa faili chaguomsingi ya Compose huanzisha tu Zebra na Zallet. Zaino ni wasifu wa Compose, si mchakato wa tatu wa lazima.
+
+---
+
+## Usanifu
 
 ```
                     ┌──────────────────────── Z3 (per network) ────────────────────────┐
@@ -51,88 +51,88 @@ Jina ni informal mazingira ya mfumo wa shorthand  Zebra, Zaino, Zallet hata kama
                         light wallets / explorers
 ```
 
-| Kipengele | Jukumu katika Z3 | Inahitajika? |
+| Kipengele | Jukumu katika Z3 | Kinahitajika? |
 | --- | --- | --- |
-| **Zebra** | Husawazisha na kuthibitisha mnyororo, umbea, JSON-RPC, na sehemu ya mwisho ya afya | Ndiyo |
-| **Zallet** | Pochi yenye nodi kamili. Hupachika maktaba za Zaino. Huunganisha moja kwa moja kwenye Zebra JSON-RPC. Je, **hai** huita chombo cha Zaino kinachojitegemea | Ndiyo |
-| **Zaino** | Kiashiria cha kujitegemea. gRPC lightwalletd-compatible kwa wateja wa taa za nje, pamoja na proksi ya JSON-RPC kwa wachunguzi na mabomba | No — `--profile indexer` |
+| **Zebra** | Husawazisha na kuthibitisha mnyororo, gossip, JSON-RPC, endpoint ya hali | Ndiyo |
+| **Zallet** | Pochi ya full node. Hujumuisha maktaba za Zaino. Huunganishwa moja kwa moja na JSON-RPC ya Zebra. **Haitumii** kontena huru la Zaino | Ndiyo |
+| **Zaino** | Kiorodheshi huru. gRPC inayooana na lightwalletd kwa light clients za nje, pamoja na proksi ya JSON-RPC kwa vichunguzi na vyanzo vya sarafu za bure [faucets] | Hapana — `--profile indexer` |
 
-Z3 pini picha matoleo katika `docker-compose.yml`. Override na `Z3_ZEBRA_IMAGE`, `Z3_ZAINO_IMAGE`, or `Z3_ZALLET_IMAGE` kama unahitaji lebo tofauti.
+Z3 hufunga matoleo ya picha katika `docker-compose.yml`. Badilisha kwa `Z3_ZEBRA_IMAGE`, `Z3_ZAINO_IMAGE`, au `Z3_ZALLET_IMAGE` ikiwa unahitaji lebo tofauti.
 
 ---
 
-## Jinsi hii tofauti na zcashd
+## Jinsi hii inavyotofautiana na zcashd
 
 | | zcashd | Z3 |
 | --- | --- | --- |
-| Lugha | C++ (uma ya Bitcoin) | Huduma za kutu, zilizopangwa na Docker Compose |
-| Mfano wa mchakato | Panari moja: nodi + pochi | Vyombo tofauti vya nodi na pochi |
-| Makubaliano | Alistaafu (EOS 18 Julai 2026) | Zebra (au nodi nyingine inayolingana) |
-| Pochi | Imejengewa ndani `wallet.dat` | Zallet, data iliyosimbwa kwa njia fiche ya umri |
-| Wateja wa mwanga | Kawaida mkoba tofauti lightwalletd | Wasifu wa hiari Zaino |
-| Usanidi | `zcash.conf` | Faili za kila mtandao chini ya `config/<network>/` pamoja na Tunga faili za env |
-| Mitandao kwenye seva mwenyeji mmoja | Mgongano mkali wa bandari | Daraja la kwanza: `z3-mainnet`, `z3-testnet`, `z3-regtest` |
+| Lugha | C++ (fork ya Bitcoin) | Huduma za Rust, zinazoandaliwa kwa Compose ya Docker |
+| Muundo wa michakato | Binary moja: node + pochi | Kontena tofauti za node na pochi |
+| Makubaliano | Imestaafishwa (EOS 18 Julai 2026) | Zebra (au node nyingine inayoana) |
+| Pochi | `wallet.dat` iliyojengeka ndani | Zallet, datadir iliyosimbwa fiche kwa age |
+| Light clients | Kwa kawaida lightwalletd tofauti | Wasifu wa hiari wa Zaino |
+| Usanidi | `zcash.conf` | Faili za kila mtandao chini ya `config/<network>/` pamoja na faili za mazingira za Compose |
+| Mitandao kwenye seva pangishi moja | Migongano ya bandari yenye usumbufu | Kipaumbele cha moja kwa moja: `z3-mainnet`, `z3-testnet`, `z3-regtest` |
 
-Ikiwa bado una tatizo la damu, tafadhali usisite kuuliza. `zcashd` wallet, use ZecHub’s [mwongozo wa uhamiaji](/guides/migration-guide-zcashd-to-zebrad-zallet) and Zallet’s `migrate-zcashd-wallet` amri badala ya kunakili `wallet.dat` katika kiasi Z3.
+Ikiwa bado una pochi ya `zcashd`, tumia mwongozo wa uhamishaji wa ZecHub katika [migration guide](/guides/migration-guide-zcashd-to-zebrad-zallet) na amri ya Zallet ya `migrate-zcashd-wallet` badala ya kunakili `wallet.dat` kwenye volyumu ya Z3.
 
 ---
 
 ## Mitandao
 
-Z3 ni tatu kujitegemea kuandika miradi. Wao si kushiriki bandari au kiasi cha habari.
+Z3 ni miradi mitatu huru ya Compose. Haishiriki bandari wala volyumu.
 
 | Mtandao | Jina la mradi | Itumie kwa | Usawazishaji wa kwanza | Fedha halisi |
 | --- | --- | --- | --- | --- |
-| **mtandao mkuu** | `z3-mainnet` | Uzalishaji | Saa 24–72 | Ndiyo |
-| **testnet** | `z3-testnet` | Kuigiza kwenye mtandao wa majaribio wa umma | Saa 2–12 | Hapana (jaribu ZEC) |
-| **jaribio la kawaida** | `z3-regtest` | Mazoezi ya ndani: vizuizi vya papo hapo, hakuna wenzao | Sekunde | No |
+| **mainnet** | `z3-mainnet` | Uzalishaji | Saa 24–72 | Ndiyo |
+| **testnet** | `z3-testnet` | Maandalizi katika mtandao wa majaribio wa umma | Saa 2–12 | Hapana (ZEC za majaribio) |
+| **regtest** | `z3-regtest` | Mazoezi ya ndani: block za papo hapo, hakuna rika | Sekunde | Hapana |
 
-Waendeshaji mpya wanapaswa kuanza kwa ** regtest **, kuthibitisha RPC na mtiririko wa pochi, kisha kuhamia testnet au mainnet.
+Waendeshaji wapya wanapaswa kuanza kwenye **regtest**, kuthibitisha mitiririko ya RPC na pochi, kisha kuhamia testnet au mainnet.
 
 ---
 
-## Bandari default mwenyeji
+## Bandari chaguomsingi za seva pangishi
 
-Mtandao wote watatu ni maana ya kuishi pamoja kwenye mashine moja. maadili chini ni defaults kuchapishwa; kila mmoja ni overridable kupitia vinavyolingana `Z3_*` env var. Matrix ya canonical ni [`z3-contract.yaml`](https://github.com/ZcashFoundation/z3/blob/main/z3-contract.yaml).
+Mitandao yote mitatu imekusudiwa kuwepo pamoja kwenye mashine moja. Thamani zilizo hapa chini ndizo chaguomsingi zilizochapishwa; kila moja inaweza kubadilishwa kupitia kigezo kinacholingana cha mazingira cha `Z3_*`. Jedwali rasmi ni [`z3-contract.yaml`](https://github.com/ZcashFoundation/z3/blob/main/z3-contract.yaml).
 
-| Huduma | Mtandao Mkuu | Mtandao wa Majaribio | Jaribio la Usajili |
+| Huduma | Mainnet | Testnet | Regtest |
 | --- | --- | --- | --- |
-| Zebra JSON-RPC | 8232 | 18232 | 29232 |
-| Zebra P2P | 8233 | 18233 | (haijachapishwa) |
-| Afya Zebra (`/ready`) | 8080 | 18080 | 28080 |
-| Zaino gRPC (wasifu wa kiashiria) | 8137 | 18137 | 28137 |
-| Zaino JSON-RPC (wasifu wa kiashiria) | 8237 | 18237 | 28237 |
-| Zallet RPC | 28232 | 40232 | 50232 |
+| JSON-RPC ya Zebra | 8232 | 18232 | 29232 |
+| P2P ya Zebra | 8233 | 18233 | (haijachapishwa) |
+| Hali ya Zebra (`/ready`) | 8080 | 18080 | 28080 |
+| gRPC ya Zaino (wasifu wa kiorodheshi) | 8137 | 18137 | 28137 |
+| JSON-RPC ya Zaino (wasifu wa kiorodheshi) | 8237 | 18237 | 28237 |
+| RPC ya Zallet | 28232 | 40232 | 50232 |
 
-Ndani ya mtandao wa Compose, huduma kutatua kwa jina (`zebra`, `zaino`, `zallet`).
+Ndani ya mtandao wa Compose, huduma hutatuliwa kwa jina (`zebra`, `zaino`, `zallet`).
 
 ---
 
-## Data na backups
+## Data na nakala rudufu
 
-| Kiasi | Ina nini | Je, unahifadhi nakala rudufu? |
+| Volyumu | Kile inachohifadhi | Kufanya nakala rudufu? |
 | --- | --- | --- |
-| `z3-<network>-chain` | Hali ya mnyororo wa Zebra (~300 GB mtandao mkuu) | Hiari — inaweza kusawazishwa tena |
-| `z3-<network>-zallet` | Hifadhidata ya pochi iliyosimbwa kwa njia fiche **na** utambulisho wa umri unaoifungua | **Ndiyo — huu ndio ujazo pekee unaopaswa kuhifadhiwa nakala rudufu** |
-| `z3-<network>-zaino` | Hali ya kiashiria (ikiwa na wasifu wa kiashiria pekee) | Hiari — inaweza kujengwa upya |
-| `z3-<network>-cookie` | Biskuti ya Zebra RPC | Hapana — imezaliwa upya |
+| `z3-<network>-chain` | Hali ya mnyororo ya Zebra (~GB 300 kwenye mainnet) | Ya hiari — inaweza kusawazishwa tena |
+| `z3-<network>-zallet` | Hifadhidata ya pochi iliyosimbwa fiche **na** utambulisho wa age unaoifungua | **Ndiyo — hii ndiyo volyumu pekee inayopaswa kufanyiwa nakala rudufu** |
+| `z3-<network>-zaino` | Hali ya kiorodheshi (ikiwa na wasifu wa kiorodheshi pekee) | Ya hiari — inaweza kujengwa upya |
+| `z3-<network>-cookie` | Kuki ya RPC ya Zebra | Hapana — hutengenezwa upya |
 
-Kuweka hali ya mnyororo kwenye diski nyingine kabla ya kuanza kwanza:
+Ili kuweka hali ya mnyororo kwenye diski nyingine kabla ya kuanza kwa mara ya kwanza:
 
 ```bash
 export Z3_CHAIN_DATA_PATH=/mnt/ssd/zebra-state
 ./scripts/fix-permissions.sh zebra /mnt/ssd/zebra-state
 ```
 
-`docker compose --env-file .env.<network> --profile "*" down` ataacha stack na anaendelea kiasi. Kuongeza `-v` hufuta yao na vikosi re-sync kamili. Kujumuisha `--profile "*"` hivyo huduma profile-gated (indexer, ufuatiliaji) ni kweli kuvunjwa chini.
+`docker compose --env-file .env.<network> --profile "*" down` husimamisha stack na huhifadhi volyumu. Kuongeza `-v` huzifuta na kulazimisha usawazishaji kamili upya. Jumuisha `--profile "*"` ili huduma zinazodhibitiwa na wasifu (kiorodheshi, ufuatiliaji) ziondolewe pia.
 
 ---
 
-## Kuanza kuanza
+## Kuanza
 
-Mahitaji: Docker Engine, Docker kutunga v2.24.4+, Git. `openssl` inahitajika tu kwa regtest.
+Masharti ya awali: Engine ya Docker, Compose ya Docker v2.24.4+, Git. `openssl` inahitajika kwa regtest pekee.
 
-### Regtest (njia ya haraka kuona stack)
+### Regtest (njia ya haraka zaidi ya kuona stack)
 
 ```bash
 git clone https://github.com/ZcashFoundation/z3 && cd z3
@@ -140,11 +140,11 @@ git clone https://github.com/ZcashFoundation/z3 && cd z3
 docker compose --env-file .env.regtest up -d
 ```
 
-Ona habari hii. [docs/regtest.md](https://github.com/ZcashFoundation/z3/blob/main/docs/regtest.md) kwa amri ya mtihani.
+Tazama [docs/regtest.md](https://github.com/ZcashFoundation/z3/blob/main/docs/regtest.md) kwa amri za majaribio.
 
-### Mainnet (mbili awamu boot)
+### Mainnet (uanzishaji wa awamu mbili)
 
-Zebra lazima kumaliza kusawazisha kabla Zallet ni muhimu. Kuanza Zallet mapema inafanya upya-mzunguko mpaka `/ready` ni kweli.
+Zebra lazima imalize kusawazisha kabla ya Zallet kuwa na manufaa. Kuanzisha Zallet mapema huifanya irudie kuanzishwa hadi `/ready` iwe kweli.
 
 ```bash
 git clone https://github.com/ZcashFoundation/z3 && cd z3
@@ -160,11 +160,11 @@ docker compose --env-file .env.mainnet up -d zebra
 docker compose --env-file .env.mainnet up -d
 ```
 
-Testnet ni mtiririko huo na `.env.testnet` na `./scripts/check-zebra-readiness.sh 18080`.
+Testnet hutumia mtiririko huohuo kwa `.env.testnet` na `./scripts/check-zebra-readiness.sh 18080`.
 
-Edits chini ya `config/<network>/` kaa karibu na kuishi. `git pull`.
+Marekebisho chini ya `config/<network>/` hubaki ya ndani na hudumu baada ya `git pull`.
 
-### Profaili hiari
+### Wasifu wa hiari
 
 ```bash
 # Lightwalletd-compatible gRPC + JSON-RPC proxy
@@ -174,59 +174,58 @@ docker compose --env-file .env.mainnet --profile indexer up -d
 docker compose --env-file .env.mainnet --profile monitoring up -d
 ```
 
-default Grafana bandari ni 3000 (mainnet), 13000 (testnet), 23000 (regtest).
+Bandari chaguomsingi za Grafana ni 3000 (mainnet), 13000 (testnet), 23000 (regtest).
 
 ---
 
-## Maelezo ya mwendeshaji
+## Maelezo kwa waendeshaji
 
-* ** Picha za siri. * Z3 haina kimya-kimya kuelea juu ya `:latest`. Bump pini katika mabadiliko ya upya, au kuweka `Z3_<SERVICE>_IMAGE`.
-* **Non-mzizi vyombo.** Linux uwezo ni imeshuka. Checks afya kushikilia mkoba nyuma mpaka Zebra tayari. Kuanzisha upya sera ya juu kwa default.
-* ** Logs.** Z3 haina pini dereva wa kumbukumbu. Kuweka mipaka ya ukubwa katika Daemon config Docker au magogo kukua bila bound juu 24/7 node.
-* ** P2P.** Mainnet na testnet kuchapisha Zebra ya bandari P2p. Nyuma NAT, kuweka `ZEBRA_NETWORK__EXTERNAL_ADDR` kwa anwani wenzao wanapaswa kupiga. Regtest haina wenzake.
-* ** Zaino juu ya ARM. * Upstream picha za Zaino ni `linux/amd64` Katika Apple Silicon ni anaendesha chini ya emulation isipokuwa kujenga kutoka chanzo. Zebra na Zallet ni mbalimbali arch.
-* ** Shiriki majeshi.** Hakuna CPU au kumbukumbu mipaka ni kuweka kwa default. Kuongeza `deploy.resources.limits` katika faili override kama sanduku si wakfu kwa node.
+* **Picha zilizofungwa toleo.** Z3 haielei kimyakimya hadi kwenye `:latest`. Ongeza toleo lililofungwa katika mabadiliko yaliyopitiwa, au weka `Z3_<SERVICE>_IMAGE`.
+* **Kontena zisizo za root.** Uwezo wa Linux huondolewa. Ukaguzi wa hali huizuia pochi kuanza hadi Zebra iwe tayari. Sera ya kuanzisha upya imewashwa kwa chaguomsingi.
+* **Kumbukumbu.** Z3 haifungi dereva wa kumbukumbu. Weka mipaka ya ukubwa katika usanidi wa daemon wa Docker la sivyo kumbukumbu zitakua bila kikomo kwenye node ya saa 24/7.
+* **P2P.** Mainnet na testnet huchapisha bandari ya P2P ya Zebra. Ukiwa nyuma ya NAT, weka `ZEBRA_NETWORK__EXTERNAL_ADDR` kwenye anwani ambayo rika zinapaswa kupiga. Regtest haina rika.
+* **Zaino kwenye ARM.** Picha ya upstream ya Zaino ni ya `linux/amd64` pekee. Kwenye Apple Silicon huendeshwa kwa emulation isipokuwa ujenge kutoka chanzo. Zebra na Zallet zina usanifu mwingi.
+* **Seva pangishi zinazoshirikiwa.** Hakuna mipaka ya CPU au kumbukumbu iliyowekwa kwa chaguomsingi. Ongeza `deploy.resources.limits` katika faili ya kubatilisha ikiwa mashine haijatengwa kwa node.
 
-Uzalishaji-umbo orodha ya kuangalia na FAQ: [docs/faq.md](https://github.com/ZcashFoundation/z3/blob/main/docs/faq.md), [docs/docker-architecture.md](https://github.com/ZcashFoundation/z3/blob/main/docs/docker-architecture.md).
+Orodha ya ukaguzi ya uzalishaji na Maswali Yanayoulizwa Mara kwa Mara: [docs/faq.md](https://github.com/ZcashFoundation/z3/blob/main/docs/faq.md), [docs/docker-architecture.md](https://github.com/ZcashFoundation/z3/blob/main/docs/docker-architecture.md).
 
 ---
 
 ## Nani anapaswa kuendesha Z3
 
-** Inafaa vizuri**
+**Inafaa**
 
-* Kubadilishana, watunzaji na madini ya kuchimba ambayo ilitumia `zcashd` kama node-plus-mkoba
-* Waendeshaji ambao wanataka mkono full-node mkoba RPC dhidi ya Zebra synced
-* Watengenezaji ambao wanahitaji mainnet, testnet na regtest kando kwa upande
-* Mtu yeyote kusimama juu ya binafsi lightwalletd-ambayo sambamba mwisho kupitia profile Zaino
+* Masoko ya kubadilishana sarafu, wahifadhi wa mali, na mabwawa ya uchimbaji yaliyotumia `zcashd` kama node-pamoja-na-pochi
+* Waendeshaji wanaotaka RPC ya pochi ya full node inayoungwa mkono dhidi ya Zebra iliyosawazishwa
+* Wasanidi programu wanaohitaji mainnet, testnet, na regtest sambamba
+* Mtu yeyote anayeanzisha endpoint binafsi inayooana na lightwalletd kupitia wasifu wa Zaino
 
-**Kwa kawaida chombo kibaya**
+**Kwa kawaida si kifaa sahihi**
 
-* Watumiaji wa mwisho ambao wanahitaji tu kutuma na kupokea ZEC  kutumia mkoba mwanga kama vile ZODL / Zashi, Zingo, au YWallet
-* Watu ambao wanataka tu kuthibitisha mlolongo  kukimbia Zebra (au Zakura) peke yake
-* Watu ambao wanataka tu kutumika vitalu compact  kukimbia Zebra + Zaino, au Zebra plus lightwalletd, bila Zallet
+* Watumiaji wa mwisho wanaohitaji tu kutuma na kupokea ZEC — tumia pochi nyepesi kama ZODL / Zashi, Zingo, au YWallet
+* Watu wanaotaka tu kuthibitisha mnyororo — endesha Zebra (au Zakura) pekee
+* Watu wanaotaka tu kuhudumia block fupi — endesha Zebra + Zaino, au Zebra + lightwalletd, bila Zallet
 
 ---
 
-## Kurasa zinazohusiana na makala hii
+## Kurasa zinazohusiana
 
-* [Zebra Full Node (Njia ya Kuunganisha)](/zcash-tech/zebra-full-node)  makubaliano node Z3 wraps
-* [Zaino](/zcash-tech/zaino)  hiari indexer profile
-* [Nodes kamili](/zcash-tech/full-nodes)  Zebra, Zakura na zcashd waliostaafu
-* [Nodes Lightwallet](/zcash-tech/lightwallet-nodes)  wateja wa nuru wanazungumza na nini?
-* [Zakura Node (Kituo cha Zakura)](/zcash-tech/zakura-node)  mbadala full node; si nini Z3 meli leo
-* [Kiongozi wa Uhamiaji: zcashd kwa Zebrad/Zallet](/guides/migration-guide-zcashd-to-zebrad-zallet)
-* [Vifaa vya Watengenezaji wa Programu](/start-here/developer-resources)
+* [Zebra Full Node](/zcash-tech/zebra-full-node) — node ya makubaliano ambayo Z3 hufunika
+* [Zaino](/zcash-tech/zaino) — wasifu wa hiari wa kiorodheshi
+* [Full Nodes](/zcash-tech/full-nodes) — Zebra, Zakura, na zcashd iliyostaafishwa
+* [Lightwallet Nodes](/zcash-tech/lightwallet-nodes) — kile ambacho light clients huwasiliana nacho
+* [Zakura Node](/zcash-tech/zakura-node) — full node mbadala; si ile ambayo Z3 husafirisha leo
+* [Mwongozo wa Uhamishaji: zcashd hadi Zebrad/Zallet](/guides/migration-guide-zcashd-to-zebrad-zallet)
+* [Rasilimali za Wasanidi Programu](/start-here/developer-resources)
 
 ---
 
 ## Rasilimali
 
-* [Z3 kuhifadhi](https://github.com/ZcashFoundation/z3)
-* [Z3 mkataba (bandari, kiasi cha maji, majina ya mradi)](https://github.com/ZcashFoundation/z3/blob/main/z3-contract.yaml)
+* [Hazina ya Z3](https://github.com/ZcashFoundation/z3)
+* [Mkataba wa Z3 (bandari, volyumu, majina ya miradi)](https://github.com/ZcashFoundation/z3/blob/main/z3-contract.yaml)
 * [Zebra](https://github.com/ZcashFoundation/zebra) · [Kitabu cha Zebra](https://zebra.zfnd.org/)
 * [Zaino](https://github.com/zingolabs/zaino)
 * [Zallet](https://github.com/zcash/zallet) · [Kitabu cha Zallet](https://zcash.github.io/zallet/)
-* [Zcash Jamii Forum  updates za Z3](https://forum.zcashcommunity.com/t/zcash-z3-updates-formerly-zcashd-deprecation/48965)
-* [Z3 Launcher](https://github.com/Jubrilabdulazeez/z3-launcher)  ndege ya udhibiti wa jamii juu ya safu rasmi ya kutunga (ZecHub Hackathon)
-
+* [Jukwaa la Jamii la Zcash — masasisho ya Z3](https://forum.zcashcommunity.com/t/zcash-z3-updates-formerly-zcashd-deprecation/48965)
+* [Kizindua cha Z3](https://github.com/Jubrilabdulazeez/z3-launcher) — safu ya udhibiti ya jamii juu ya stack rasmi ya Compose (ZecHub Hackathon)
