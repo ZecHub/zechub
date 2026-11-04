@@ -2,55 +2,55 @@
 
 # Wajumbe Salama
 
-## Usimbaji fiche wa mwanzo hadi mwisho
+## Usimbaji fiche kutoka mwisho hadi mwisho
 
-Kwa kuzingatia wajumbe salama, usimbaji fiche wa mwanzo hadi mwisho upo ili kuwa njia ya usalama inayoweka mazungumzo salama. Kadri ujumbe unavyosafiri kutoka kifaa kimoja hadi kingine, hakuna mtu, ikiwemo programu ya mawasiliano unayotumia kutuma ujumbe, na wahusika wengine hawataweza kusoma ujumbe unaostahiki. Zaidi ya hayo, watoa huduma wengi wapya na maarufu wa ujumbe kama Facebook, Whatsapp, na Zoom tayari wanatumia teknolojia ya usimbaji fiche wa mwanzo hadi mwisho. 
+Kwa kuzingatia wajumbe salama, usimbaji fiche kutoka mwisho hadi mwisho [end-to-end encryption] ni mbinu ya usalama inayolinda mazungumzo. Jumbe zinaposafiri kutoka kifaa kimoja hadi kingine, hakuna mtu—ikiwa ni pamoja na programu ya mawasiliano unayotumia kutuma ujumbe na wahusika wengine—anayeweza kusoma jumbe husika. Aidha, watoa huduma wengi mashuhuri na wabunifu wa ujumbe kama Facebook, WhatsApp, na Zoom tayari wanatumia teknolojia ya usimbaji fiche kutoka mwisho hadi mwisho. 
 
-## Sababu za kwa nini E2EE ni muhimu?
+## Kwa nini E2EE ni muhimu?
 
-Kwa faida kubwa zaidi, teknolojia ya usimbaji fiche kutoka mwanzo hadi mwisho ina jukumu muhimu katika hali ambapo usalama wa data ni muhimu, ikiwa ni pamoja na lakini sio tu sekta za fedha, mawasiliano, na huduma za afya. Inaruhusu mashirika kufuata faragha ya data, kanuni za usalama na sheria bila shida.
+Kwa manufaa makubwa zaidi, teknolojia ya usimbaji fiche kutoka mwisho hadi mwisho ina jukumu muhimu katika hali zinazohitaji usalama wa data, zikiwemo sekta za fedha, mawasiliano, na huduma za afya. Huiruhusu mashirika kutii kwa urahisi kanuni na sheria za faragha ya data na usalama.
 
-**Faragha ya Data**: Kwa usimbaji fiche wa mwanzo hadi mwisho, inasemekana kwamba ni mpokeaji anayekusudiwa wa ujumbe au data pekee ndiye anayeweza kuufikia na kuuondoa kwenye msimbo fiche. Ikimaanisha kwamba hata mtoa huduma wa ujumbe, kama vile Facebook na WhatsApp, hawezi kusoma maudhui. Kiwango hiki cha ndani cha faragha ya data ni muhimu kwa watumiaji na mashirika ambayo hayataki taarifa nyeti zifichuliwe, inaweza kuwa miamala ya kifedha, mawasiliano ya biashara, au gumzo la faragha nyeti kutoka kwa ufikiaji usioidhinishwa.
+**Faragha ya Data**: Kwa usimbaji fiche kutoka mwisho hadi mwisho, ni mpokeaji aliyekusudiwa wa ujumbe au data pekee anayeweza kuifikia na kuifumbua. Hii inamaanisha kuwa hata mtoa huduma wa ujumbe, kama Facebook na WhatsApp, hawezi kusoma maudhui yake. Kiwango hiki cha juu cha faragha ya data ni muhimu kwa watumiaji na mashirika yasiyotaka taarifa nyeti kufichuliwa, iwe ni miamala ya kifedha, mawasiliano ya biashara, au mazungumzo ya faragha yanayohitaji kulindwa dhidi ya ufikiaji usioidhinishwa.
 
-**Usalama wa Data**: Kiwango hiki kizuri cha teknolojia huruhusu ulinzi wa data kutokana na uvujaji unaowezekana hata wakati bado iko safarini au imepumzika.
-Data inaposafiri kupitia seva au intaneti, huwekwa wazi kwa mambo mengi yanayoifanya iwe katika hatari ya kuingiliwa na ufikiaji usioidhinishwa, kama vile wadukuzi. Kwa teknolojia ya usimbaji fiche kutoka mwanzo hadi mwisho, data inayosambazwa inaweza kuingiliwa lakini, bado haiwezi kusomwa mradi tu mtumaji au mpokeaji hana ufunguo wa usimbaji fiche. Hii inaweza kupunguza kiwango na uvujaji wa data huku ikihakikisha kwamba mawasiliano ya mtu binafsi na ya shirika yanahifadhiwa salama.
+**Usalama wa Data**: Kiwango hiki imara cha teknolojia huruhusu data kulindwa dhidi ya uvujaji unaoweza kutokea, hata inapokuwa inasafirishwa au imehifadhiwa.
+Data inapopitia seva au intaneti, hukabiliwa na mambo mengi yanayoifanya iwe rahisi kunaswa kupitia ufikiaji usioidhinishwa, kama vile wavamizi wa mifumo. Kwa teknolojia ya usimbaji fiche kutoka mwisho hadi mwisho, data inayotumwa inaweza kunaswa lakini hubaki isiyosomeka mradi mtumaji au mpokeaji hana ufunguo wa usimbaji fiche. Hili linaweza kupunguza kiwango cha uvujaji wa data huku likihakikisha kuwa mawasiliano ya watu binafsi na mashirika yanabaki salama.
 
-**Uaminifu na Udhibiti wa Mtumiaji**: Kwa usimbaji fiche wa kila mara, watu binafsi na mashirika yana uwezo wa kuwasiliana bila malipo kwa sababu wanajua ujumbe wao, faili, na taarifa nyingine nyeti zimehifadhiwa salama kutokana na ufikiaji usioidhinishwa. Vile vile, teknolojia husaidia kuwalinda watu binafsi na mashirika dhidi ya ufikiaji na ufuatiliaji wa serikali.
+**Imani na Udhibiti wa Mtumiaji**: Kwa usimbaji fiche kutoka mwisho hadi mwisho, watu binafsi na mashirika wanawezeshwa kuwasiliana kwa uhuru kwa sababu wanajua kuwa jumbe, faili, na taarifa nyingine nyeti zinalindwa dhidi ya ufikiaji usioidhinishwa. Vilevile, teknolojia hii husaidia kulinda watu binafsi na mashirika dhidi ya uingiliaji na ufuatiliaji wa serikali.
 
 ### Baadhi ya Wajumbe Salama Maarufu
 
-**Zcash Encrypted Memos**
+**Zcash Jumbe Zilizosimbwa Fiche**
 
-Pochi za Zcash Desktop & Mobile zina kipengele kilichojengewa ndani kinachoruhusu watumiaji kutuma jumbe zilizosimbwa kwa njia fiche zenye miamala ya kibinafsi iliyolindwa. Ukubwa wa memo/ujumbe unaweza kuwa hadi baiti 512 kwa kila miamala huku ada za miamala zikiwa chini ya senti 1 ya Marekani. Kutokana na jinsi miamala inavyogunduliwa kwa njia ya kuhifadhi faragha na muda wa mtandao kuzuiwa, jumbe zinaweza kuchukua hadi dakika 1 au zaidi kupokelewa. 
+Zcash Pochi [wallets] za Kompyuta ya Mezani na Simu zina kipengele kilichojengewa ndani kinachowaruhusu watumiaji kutuma jumbe zilizosimbwa fiche kwa miamala ya faragha [shielded transactions]. Ukubwa wa ujumbe unaweza kuwa hadi baiti 512 kwa kila muamala, huku ada za miamala zikiwa chini ya senti 1 ya Marekani. Kwa sababu ya namna inayohifadhi faragha ambayo miamala hugunduliwa na muda wa block wa mtandao, jumbe zinaweza kuchukua hadi dakika 1 au zaidi kupokelewa. 
 
-Jaribu: https://z.cash/wallets 
+Ijaribu: https://z.cash/wallets 
 
 ![Zcash Encrypted Memos](/content-images/Zcash-1177103374-7bca37eb4d.webp)
 
-**Programu ya mawimbi**
+**Programu ya Signal**
 
 ![Signal App](/content-images/signal-app-logo-scaled-454032876-81b24a0421.webp)
 
-Mjumbe wa faragha wa Signal ni programu salama ya kutuma ujumbe yenye faragha ya data katika kilele chake. Programu ya mjumbe wa faragha wa Signal ni bure na rahisi kutumia, watumiaji hawahitaji uzoefu wowote wa awali. Programu ya Signal ina teknolojia ya usimbaji fiche kuanzia mwanzo hadi mwisho ambayo inahakikisha mawasiliano yako ni ya faragha kabisa. Mtu yeyote anayetaka kutuma ujumbe wa faragha kwa usalama anapaswa kuzingatia kutumia programu ya mjumbe wa faragha wa Signal kwa sababu itapunguza kwa kiasi kikubwa udhaifu wako wa usalama wa mtandao na alama ya data yako.
+Mjumbe binafsi wa Signal ni programu salama ya ujumbe yenye faragha ya data ya kiwango cha juu. Programu ya mjumbe binafsi wa Signal ni ya bure na rahisi kutumia; watumiaji hawahitaji uzoefu wowote wa awali. Programu ya Signal ina teknolojia ya usimbaji fiche kutoka mwisho hadi mwisho inayohakikisha mawasiliano yako ni ya faragha kabisa. Mtu yeyote anayetaka kutuma jumbe binafsi kwa usalama anapaswa kuzingatia kutumia programu ya mjumbe binafsi wa Signal kwa sababu itapunguza kwa kiasi kikubwa hatari zako za usalama wa mtandao na alama yako ya data.
 
-Jaribu: [https://signal.org/download/](https://signal.org/download/)
+Ijaribu: [https://signal.org/download/](https://signal.org/download/)
 
 **BisonRelay**
 
 ![Bison Relay](/content-images/ogimg-v1-1000556235-9390372d1e.webp)
 
-Programu ya Bison Relay ilizinduliwa mwaka wa 2022. Bison Relay haitegemei watumiaji kuwa na akaunti - Haiaminiki sana! Hapa, kila ujumbe unaotumwa na kupokelewa hulipwa kibinafsi kupitia Mtandao wa Decred Lightning. Kusudi pekee la programu hii ni kuondoa kabisa hitaji la akaunti huku ikipunguza metadata. Kwa upande mwingine, Bison Relay ilizuia jinsi udhibiti unavyotekelezwa kwa kawaida. 
+Programu ya Bison Relay ilizinduliwa mwaka 2022. Bison Relay haitegemei watumiaji kuwa na akaunti—jambo la kushangaza sana! Hapa, kila ujumbe unaotumwa na kupokelewa hulipiwa kivyake kupitia Decred Lightning Network. Kusudi pekee la programu hii ni kuondoa kabisa hitaji la akaunti huku ikipunguza metadata. Kwa upande mwingine, Bison Relay ilisimamisha namna ambavyo udhibiti wa maudhui kwa kawaida hutekelezwa. 
 
-Jaribu: [https://bisonrelay.org/download](https://bisonrelay.org/download)
+Ijaribu: [https://bisonrelay.org/download](https://bisonrelay.org/download)
 
-**Programu ya Kipindi**
+**Programu ya Session**
 
 ![Session App](/content-images/logo-black-9e799f2b06.webp)
 
-Kama hujui programu ya Session ni nini, usijali! Hapa kuna muhtasari, Session ni mojawapo ya wajumbe waliosimbwa kwa njia fiche kutoka mwanzo hadi mwisho. Programu iliundwa ili kupunguza metadata nyeti. Programu ya session iliundwa kwa ajili ya watu wanaotaka faragha kamili, na uhuru kutoka kwa aina yoyote ya ufuatiliaji. Kwenye programu ya Session, watumiaji wanaweza kuunda akaunti bila nambari za simu au anwani za barua pepe, ambayo ina maana kwamba haijulikani kabisa. Watumiaji wanaweza kutuma ujumbe kwa usalama kupitia mtandao wao bila kuwa na alama yoyote, kwa hivyo hakuna cha kuvuja.
+Ikiwa bado hujui programu ya Session ni nini, usiwe na wasiwasi! Huu hapa muhtasari: Session ni miongoni mwa wajumbe wanaoshindania kutoa usimbaji fiche kutoka mwisho hadi mwisho. Programu hii ilijengwa ili kupunguza metadata nyeti. Programu ya Session ilibuniwa kwa watu wanaotaka faragha kamili na uhuru dhidi ya aina yoyote ya ufuatiliaji. Katika programu ya Session, watumiaji wanaweza kufungua akaunti bila namba za simu au anwani za barua pepe, jambo linalomaanisha kuwa hawajulikani kabisa. Watumiaji wanaweza kutuma jumbe kwa usalama kupitia mtandao wao bila kuacha alama yoyote, hivyo hakuna chochote cha kuvuja.
 
-Jaribu: [https://getsession.org](https://getsession.org)
+Ijaribu: [https://getsession.org](https://getsession.org)
 
 ## Muhtasari
 
-Usimbaji fiche wa mwanzo hadi mwisho ni muhimu kwa sababu unakuza ulinzi imara wa faragha, huimarisha usalama wa data katika kiini chake, na huwawezesha watumiaji kudhibiti kikamilifu taarifa zao wanaposafiri kupitia mitandao na vifaa, na hivyo kushughulikia masuala muhimu katika enzi ya kidijitali.
+Usimbaji fiche kutoka mwisho hadi mwisho ni muhimu kwa sababu unakuza ulinzi imara wa faragha, huimarisha usalama wa data kwa kiwango cha juu, na huwawezesha watumiaji kuwa na udhibiti kamili wa taarifa zao wenyewe zinaposafiri kupitia mitandao na vifaa, hivyo kushughulikia masuala muhimu katika enzi ya kidijitali.

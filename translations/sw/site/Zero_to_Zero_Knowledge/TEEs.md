@@ -1,109 +1,109 @@
-# Zero to Zero Knowledge: Trusted Utekelezaji Mazingira (TEEs)
+# Zero to Zero Knowledge: Mazingira ya Utekelezaji Yanayoaminika (Trusted Execution Environments, TEEs)
 
-**Series:** Zero to Zero Knowledge
+**Mfululizo:** Zero to Zero Knowledge
 
-Zero to Zero Knowledge ni nyuma na mada mpya! 
-Wiki hii sisi kuchunguza ** Trusted Execution Environments (TEEs) ** - jinsi wao ni kutumika katika sarafu faragha na maombi mengine blockchain.
+Zero to Zero Knowledge imerejea na mada mpya!  
+Wiki hii tunachunguza **Mazingira ya Utekelezaji Yanayoaminika (TEEs)** - jinsi yanavyotumika katika sarafu za faragha (privacy coins) na matumizi mengine ya blockchain.
 
-! ![Trusted Utekelezaji Mazingira intro](/content-images/Fquj-h2WcAIgSnL-b80c8614cd.webp)
-
----
-
-## TEEs na Blockchains: Complementary Mali
-
-Blockchains na TEEs zina nguvu sana complementary:
-
-- **Blockchains** kuhakikisha upatikanaji, hali ya kudumu, na kuruhusu uthibitisho wa umma wa hali nzima - lakini wana uwezo mdogo wa kompyuta. 
-- ** TEEs ** unaweza kufanya kazi intensive computational binafsi - lakini kukosa hali ya asili uvumilivu.
-
-Kwa pamoja wanaweza kuunda mifumo yenye nguvu ya kuhifadhi faragha.
+![Trusted Execution Environments intro](/content-images/Fquj-h2WcAIgSnL-b80c8614cd.webp)
 
 ---
 
-## Mtandao wa Siri: Faragha ya TEE-Powered
+## TEEs na Blockchain: Sifa Zinazokamilishana
 
-** Siri ya Mtandao ** leverages TEE teknolojia (hasa Intel SGX) kufanya mahesabu juu ya encrypted pembejeo, pato, na hali.
+Blockchain na TEEs zina nguvu zinazokamilishana sana:
 
-Kila node validator anaendesha Intel SGX chips. makubaliano na kompyuta tabaka ni pamoja:
+- **Blockchain** zinahakikisha upatikanaji, uhifadhi endelevu wa hali, na kuruhusu uthibitishaji wa umma wa hali nzima - lakini zina uwezo mdogo wa ukokotoaji.  
+- **TEEs** zinaweza kutekeleza kazi nzito za ukokotoaji kwa faragha - lakini hazina uhifadhi asilia wa hali.
 
-- Matumizi ya fedha hutengenezwa ndani ya vyumba salama. 
-- Data ni tu decrypted ** ndani ya TEE **.
+Kwa pamoja zinaweza kuunda mifumo yenye nguvu inayohifadhi faragha.
 
-Hii ni tofauti na Zcash, ambayo hutumia ** ushahidi wa ujuzi wa sifuri ** kwa faragha. Katika Zcash shughuli zilizohifadhiwa zinatangazwa na kuthibitishwa hadharani bila data ya ziada iliyofunuliwa kwenye mtandao. Mali za Zcash Shielded zinafuata kanuni hiyo hiyo.
+---
 
-![Taabu ya siri Network TEE mchoro](/content-images/FqulPjNX0AEfjRp-c7085732a2.webp)
+## Secret Network: Faragha Inayoendeshwa na TEE
 
-Kwa maelezo ya kina ya jinsi TEEs zinavyotekelezwa kwenye Mtandao wa Siri, soma makala hii bora na @l_woetzel: 
+**Secret Network** hutumia teknolojia ya TEE (hasa Intel SGX) kutekeleza ukokotoaji kwenye pembejeo, matokeo, na hali zilizosimbwa fiche [encrypted].
+
+Kila node ya validator huendesha chipu za Intel SGX. Tabaka za makubaliano na ukokotoaji zinaunganishwa:
+
+- Miamala huchakatwa ndani ya enclaves salama.  
+- Data hufumbuliwa usimbaji fiche **ndani ya TEE pekee**.
+
+Hii ni tofauti na Zcash, inayotumia **mathibitisho ya maarifa sifuri [zero-knowledge proofs]** kwa faragha. Katika Zcash, miamala ya faragha [shielded transactions] hutangazwa na kuthibitishwa hadharani bila data ya ziada kufichuliwa kwa mtandao. Mali za Faragha za Zcash hufuata kanuni hiyo hiyo.
+
+![Secret Network TEE diagram](/content-images/FqulPjNX0AEfjRp-c7085732a2.webp)
+
+Kwa maelezo ya kina kuhusu jinsi TEEs zinavyotekelezwa kwenye Secret Network, soma makala hii bora ya @l_woetzel:  
 https://carter-woetzel.medium.com/secret-network-tees-lets-talk-fud-vulnerability-33ca94b6df38
 
 ---
 
-## Jinsi Mtandao wa Siri Unavyohifadhi Funguo na Hali
+## Jinsi Secret Network Inavyolinda Funguo na Hali
 
-- Mtandao wa ** makubaliano encryption mbegu ** ni kuhifadhiwa ndani ya TEE kila validator ya. 
-- Mikataba kutumia kipekee unforgeable encryption funguo. 
-- Mikataba ya siri kukimbia juu ya Cosmos SDK compute moduli lakini msaada encrypted pembejeo / pato na hali.
-
----
-
-## Ushuhuda wa Mbali
-
-** Remote Attestation ** ni mchakato wa kuthibitisha kwamba enclave ni mbio katika mazingira halisi salama vifaa.
-
-Ni inaruhusu chama cha mbali ili kuthibitisha:
-- Programu sahihi inaendeshwa 
-- Maombi hayajabadilishwa 
-- Ni kutekeleza salama ndani ya Intel SGX enclave
-
-![Remote Attestation maelezo](/content-images/FqumRjoWwAAeT-M-6eff73af4d.webp)
-
-Enclaves pia vyenye private kusaini na uthibitisho funguo ambayo haiwezi kupatikana kutoka nje.
-
-![Enclave ulinzi muhimu](/content-images/Fqumv83XoAQq-MO-47c3ab77e0.webp)
+- **Mbegu ya usimbaji fiche ya makubaliano [consensus encryption seed]** ya mtandao huhifadhiwa ndani ya TEE ya kila validator.  
+- Mikataba hutumia funguo za kipekee za usimbaji fiche zisizoweza kughushiwa.  
+- Mikataba ya Secret huendeshwa kwenye moduli ya ukokotoaji ya SDK ya Cosmos lakini inasaidia pembejeo/matokeo na hali zilizosimbwa fiche.
 
 ---
 
-## Data Kufunga
+## Uthibitishaji wa Mbali
 
-Tangu enclaves ni stateless, data lazima wakati mwingine kuhifadhiwa nje katika kumbukumbu untrusted. 
+**Uthibitishaji wa Mbali (Remote Attestation)** ni mchakato wa kuthibitisha kwamba enclave inaendeshwa katika mazingira halisi ya maunzi salama.
 
-** Data Sealing ** encrypts data ndani ya enclave kutumia ufunguo inayotokana na CPU. block encrypted inaweza tu kuwa unsealed juu ya ** mfumo huo**.
+Humruhusu mhusika wa mbali kuthibitisha:
+- Programu sahihi inaendeshwa  
+- Programu haijaharibiwa au kubadilishwa  
+- Inatekelezwa kwa usalama ndani ya enclave ya Intel SGX
 
-![Data Kufunga mchoro](/content-images/FqunBwyWYAA-TR3-933c2b0e6f.webp)
+![Remote Attestation explanation](/content-images/FqumRjoWwAAeT-M-6eff73af4d.webp)
 
----
+Enclaves pia zina funguo binafsi za kutia saini na uthibitishaji ambazo haziwezi kufikiwa kutoka nje.
 
-## Mtandao wa Oasis
-
-** Mtandao wa Oasis ** pia hutumia TEEs kupitia ParaTime yake ya siri (kwa mfano Sapphire na Cipher).
-
-Data encrypted huingia TEE pamoja na mkataba smart. Ni decrypting, kusindika, na re-encrypt before leaving the enclave.
-
-![Oasis Network TEE mtiririko](/content-images/FqunJRDXwAMt4Ob-0e7969c7a8.webp)
+![Enclave key protection](/content-images/Fqumv83XoAQq-MO-47c3ab77e0.webp)
 
 ---
 
-## TEEs katika Proof-of-Stake Networks
+## Kufunga Data
 
-Wengi Proof-ya-Hisa blockchains (ikiwa ni pamoja na siri na Oasis) kutumia ** Tendermint ** kama yao makubaliano mfumo.
+Kwa kuwa enclaves hazina hali, wakati mwingine data lazima ihifadhiwe nje katika kumbukumbu isiyoaminika.  
 
-Kwa validators PoS:
-- Funguo lazima kusimamiwa salama na kamwe wazi katika plaintext. 
-- Validators lazima kukaa online (mashtaka downtime kutumika). 
-- Kutia sahihi ujumbe unaopingana kunaweza kusababisha mtu apigwe.
+**Kufunga Data (Data Sealing)** husimba fiche data ndani ya enclave kwa kutumia ufunguo unaotokana na CPU. Block iliyosimbwa fiche inaweza kufumbuliwa usimbaji fiche kwenye **mfumo huo huo pekee**.
 
-** TEEs ** ni bora kwa salama kuzalisha na kutumia validator funguo.
-
-![Tendermint & PoS usalama](/content-images/Fqun0HEX0AAooxW-7f6163ae1e.webp)
+![Data Sealing diagram](/content-images/FqunBwyWYAA-TR3-933c2b0e6f.webp)
 
 ---
 
-## Zcash na uthibitisho wa hisa utafiti
+## Oasis Network
 
-Zcash ni kikamilifu kutafiti uhamiaji kwa uthibitisho wa Stake.
+**Oasis Network** pia hutumia TEEs kupitia ParaTime yake ya siri (kwa mfano Sapphire na Cipher).
+
+Data iliyosimbwa fiche huingia kwenye TEE pamoja na mkataba mahiri [smart contract]. Hufumbuliwa usimbaji fiche, huchakatwa, na kusimbwa fiche tena kabla ya kuondoka kwenye enclave.
+
+![Oasis Network TEE flow](/content-images/FqunJRDXwAMt4Ob-0e7969c7a8.webp)
+
+---
+
+## TEEs katika Mitandao ya Proof-of-Stake
+
+Blockchain nyingi za Proof-of-Stake (zikiwemo Secret na Oasis) hutumia **Tendermint** kama mfumo wao wa makubaliano.
+
+Kwa validators wa PoS:
+- Funguo lazima zisimamiwe kwa usalama na zisiwe wazi kamwe katika maandishi wazi.  
+- Validators lazima waendelee kuwa mtandaoni (adhabu za kutokuwa mtandaoni hutumika).  
+- Kutia saini ujumbe unaokinzana kunaweza kusababisha slashing.
+
+**TEEs** zinafaa sana kwa kutengeneza na kutumia funguo za validator kwa usalama.
+
+![Tendermint & PoS security](/content-images/Fqun0HEX0AAooxW-7f6163ae1e.webp)
+
+---
+
+## Zcash na Utafiti wa Proof-of-Stake
+
+Zcash inatafiti kwa bidii uhamaji kuelekea Proof-of-Stake.
 
 - Soma utafiti: https://electriccoin.co/blog/zcash-proof-of-stake-research/  
-- Tazama sehemu hii kutoka kwa Zcash Foundation Community Call inayoelezea miundo tofauti ya PoS na athari zao za faragha:
+- Tazama sehemu hii kutoka kwa Community Call ya Zcash Foundation inayoeleza miundo tofauti ya PoS na athari zake kwa faragha:
   
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -118,9 +118,9 @@ Zcash ni kikamilifu kutafiti uhamiaji kwa uthibitisho wa Stake.
 
 ---
 
-**Ujumbe wa awali na ZecHub (@ZecHub) ** 
+**Mjadala Asili wa ZecHub (@ZecHub)**  
 https://x.com/ZecHub/status/1633579659282587651
 
 ---
 
-*Ukurasa huu ulikusanywa kutoka kwa mada ya awali ya Zero to Zero Knowledge kwa wiki ya ZecHub.*
+*Ukurasa huu ulikusanywa kutoka kwa mjadala asili wa Zero to Zero Knowledge kwa ajili ya wiki ya ZecHub.*
