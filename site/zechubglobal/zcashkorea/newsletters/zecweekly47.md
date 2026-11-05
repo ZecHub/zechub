@@ -69,7 +69,7 @@ Zcash에서 노드를 실행하는 것에 익숙하지 않은 사용자는 이 �
 
 #### 뉴스 & 미디어
 
-[Crypto Detector ZachXBT 명예훼손 소송에 직면](https://www.coindesk.com/business/2023/06/16/crypto-detective-zachxbt-faces-defamation-lawsuit/ ?utm_medium=sources&utm_source=rss&utm_campaign=crypto) 
+[Crypto Detector ZachXBT 명예훼손 소송에 직면](https://www.coindesk.com/business/2023/06/16/crypto-detective-zachxbt-faces-defamation-lawsuit/?utm_medium=sources&utm_source=rss&utm_campaign=crypto) 
 
 [프랑스에서 조사 중인 바이낸스](https://coindesk.com/policy/2023/06/16/binance-under-investigation-in-france-accused-of-aggravated-money-laundering) 
 
@@ -105,7 +105,7 @@ Zcash에서 노드를 실행하는 것에 익숙하지 않은 사용자는 이 �
 
 [프라이버시 채팅을 위해 Zcash 브라질에 가입하세요](https://twitter.com/zcashbrazil/status/1669500069588893696?t=TtGgOxCM_AmG3cv5rgSjxg&s=19) 
 
-[Zingo는 금융 프라이버시를 실천해야 하는 다섯 가지 이유를 공유합니다.] (https://twitter.com/ZingoLabs/status/1668746421284089861?t=c1AnNFSeyqHBSuC8UDsUkg&s=19) 
+[Zingo는 금융 프라이버시를 실천해야 하는 다섯 가지 이유를 공유합니다.](https://twitter.com/ZingoLabs/status/1668746421284089861?t=c1AnNFSeyqHBSuC8UDsUkg&s=19) 
 
 [ZcashEsp - Nym은 차세대 개인 정보 보호 인프라를 구축하고 있습니다.](https://twitter.com/zcashesp/status/1669359117167890445?s=19)
 
