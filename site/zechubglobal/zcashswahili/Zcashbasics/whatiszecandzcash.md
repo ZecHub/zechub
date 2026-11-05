@@ -26,7 +26,7 @@ Zcash inatatua kasoro kubwa ya Bitcoin; umiliki wa faragha na uhamishaji wa data
 
 #### Rasilimali
 
-[Misingi](https://z.cash/the-basics/)
+[Misingi](https://z.cash/learn/)
 
 [Zcash ni nini?](https://www.youtube.com/watch?v=J1Nr1VL5dGU&t=751s)
 

@@ -26,7 +26,7 @@ Zcash lost de grootste fout van Bitcoin op; particulier eigendom en overdracht v
 
 #### Bronnen
 
-[De basis](https://z.cash/the-basics/)
+[De basis](https://z.cash/learn/)
 
 [Wat is Zcash](https://www.youtube.com/watch?v=J1Nr1VL5dGU&t=751s)
 

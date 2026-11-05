@@ -9,7 +9,7 @@ De missie van de Zcash Foundation is om een ​​openbare liefdadigheidsinstell
 
 De Zcash Foundation heeft bijna 15 medewerkers die verspreid zijn over de hele wereld. Ze werken aan verschillende zaken, zoals protocolontwikkeling, protocolbeveiliging, bedrijfsontwikkeling en het beheer van Zcash-community-evenementen.
 
-Het ZF-team bestaat uit een raad van bestuur, het technische team en een operationeel team, meer info [hier](https://zfnd.org/about/).
+Het ZF-team bestaat uit een raad van bestuur, het technische team en een operationeel team, meer info [hier](https://zfnd.org/).
 
 Zcash Foundation Grants biedt het ecosysteem een ​​middel om projecten te financieren die bijdragen aan het privacy-ecosysteem, zoals Zebra (een onafhankelijke node-implementatie voor Zcash) & FROST.
 

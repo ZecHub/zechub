@@ -117,7 +117,7 @@ ___
 
 |          |            | 
 |--------------|-----------|
-|  **Governance**: |   Le decisioni del processo ZIP vengono scritte nelle specifiche di Zcash, così come nel software che gestisce la rete. Le modifiche sono "ratificate" sulla blockchain quando la maggioranza della rete adotta l'aggiornamento e non viola il consenso. [Storia completa del protocollo](https://zfnd.org/protocol-governance/)|  
+|  **Governance**: |   Le decisioni del processo ZIP vengono scritte nelle specifiche di Zcash, così come nel software che gestisce la rete. Le modifiche sono "ratificate" sulla blockchain quando la maggioranza della rete adotta l'aggiornamento e non viola il consenso. [Storia completa del protocollo](https://zfnd.org/protocol-agreements-and-major-decisions/)|  
 
 
 
@@ -332,7 +332,7 @@ ___
 
 |          |            | 
 |--------------|-----------|
-|   **Youtube**:  | [Zcash Foundation Channel](https://www.youtube.com/channel/UCi01v05DNTUEC_eB0c9rpgQ) / [ECC Channel](https://www.youtube.com/c/ZcashCo) / [ZECHub](https://www.youtube.com/channel/UC3-KM00kjCUheRzO5cq3PAA) / [ZF A/V Club](https://www.youtube.com/@zfavclub) / [Zcash Media](https://www.youtube.com/@ZcashMedia) |  
+|   **Youtube**:  | [Zcash Foundation Channel](https://www.youtube.com/channel/UCi01v05DNTUEC_eB0c9rpgQ) / [ECC Channel](https://www.youtube.com/c/ZcashCo) / [ZECHub](https://www.youtube.com/channel/UC3-KM00kjCUheRzO5cq3PAA) / [ZF A/V Club](https://www.youtube.com/@ZkAv_Club) / [Zcash Media](https://www.youtube.com/@ZcashMedia) |  
 |  **Ywallet**: |  Un wallet mobile che supporta sia Ycash che Zcash. - [Sito](https://ywallet.app) |  
 
 

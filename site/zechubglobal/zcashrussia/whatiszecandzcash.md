@@ -30,7 +30,7 @@
 
 #### Ресурсы
 
-[Основы](https://z.cash/the-basics/)
+[Основы](https://z.cash/learn/)
 
 [Что такое Zcash](https://www.youtube.com/watch?v=J1Nr1VL5dGU&t=751s)
 

@@ -26,7 +26,7 @@ Zcash résout le plus gros défaut de Bitcoin ; la propriété privée et le tra
 
 #### Ressources
 
-[Les bases](https://z.cash/the-basics/)
+[Les bases](https://z.cash/learn/)
 
 [Qu'est-ce que Zcash](https://www.youtube.com/watch?v=J1Nr1VL5dGU&t=751s)
 

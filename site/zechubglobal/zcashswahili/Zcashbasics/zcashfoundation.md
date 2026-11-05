@@ -8,7 +8,7 @@ Lengo la Taasisi ya Zcash ni kuwa shirika la hisani ya umma lenye kujitolea kati
 
 Taasisi ya Zcash ina karibu wafanyakazi 15 ambao wametawanyika ulimwenguni. Wao hufanya kazi katika maeneo mbalimbali kama maendeleo ya itifaki, usalama wa itifaki, maendeleo ya biashara na usimamizi wa matukio ya jamii ya Zcash.
 
-Timu ya ZF inajumuisha bodi ya wakurugenzi, timu ya uhandisi, na timu ya uendeshaji.Habari zaidi [hapa](https://zfnd.org/about/).
+Timu ya ZF inajumuisha bodi ya wakurugenzi, timu ya uhandisi, na timu ya uendeshaji.Habari zaidi [hapa](https://zfnd.org/).
 
 Ruzuku za Taasisi ya Zcash zinasaidia mfumo wa ikolojia kwa kutoa njia ya kufadhili miradi ambayo inachangia katika ikolojia ya faragha, kama vile Zebra (utekelezaji huru wa node kwa Zcash) & FROST.
 
