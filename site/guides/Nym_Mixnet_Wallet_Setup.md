@@ -13,7 +13,7 @@ Nym adds a separate network-privacy layer. As of September 2026, the best approa
 1. **Prefer a wallet's native Nym integration when it exists.**
 2. Otherwise, use **system-level NymVPN Mixnet mode** so the wallet's network traffic is routed through Nym without depending on wallet-specific proxy support.
 
-For general VPN and dVPN background, see [VPN & dVPN](./VPN_and_DVPN.md).
+For general VPN and dVPN background, see [VPN & dVPN](../Privacy_Tools/VPN_and_DVPN.md).
 
 ## What Nym adds — and what it does not
 
