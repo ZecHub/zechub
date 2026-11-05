@@ -38,7 +38,7 @@ Zcash의 새로운 에피소드를 게시했습니다. NAMADA<->Zcash 전략 동
 
 [JOSH Swihart - ZEC 채택 현황](https://forum.zcashcommunity.com/t/state-of-zec-adoption/45014)(★★)
 
-[Zcon4 이벤트 일정](https://whova.com/embedded/event/RGFRbnJpGJpviTa9ahUPq1qCTtKVpQnpL01vAKVQTsY%3D/ ?sshot_source=ems)
+[Zcon4 이벤트 일정](https://whova.com/embedded/event/RGFRbnJpGJpviTa9ahUPq1qCTtKVpQnpL01vAKVQTsY%3D/?sshot_source=ems)
 
 
 #### Zcash 커뮤니티 보조금 업데이트
