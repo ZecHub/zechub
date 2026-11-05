@@ -28,7 +28,7 @@ ___
 | **Benchmarking**: | Os mineradores podem enviar métricas sobre a eficiência de vários hardwares usados ​​para minerar Zcash. Disponível para visualização [aqui](https://zcashbenchmarks.info) |
 | **Bloco**: | Um Bloco é um registro na blockchain Zcash que contém um conjunto de transações enviadas na rede. Aproximadamente a cada 75 segundos, em média, um novo bloco é anexado ao blockchain. |
 | **Block Explorer**: | Uma ferramenta online para visualizar todas as transações, passadas e atuais, no blockchain. Eles fornecem informações úteis, como hashrate de rede e crescimento de transações. [Zcash Block Explorer](https://mainnet.zcashexplorer.app/) |
-| **Blogs**: | [Blog ECC](https://electriccoin.co/blog/) / [Zcash Foundation Blog](https://zfnd.org/blog/) / [Zcash Community Blog](https://www.zcashcommunity.com /blog/) |
+| **Blogs**: | [Blog ECC](https://electriccoin.co/blog/) / [Zcash Foundation Blog](https://zfnd.org/blog/) / [Zcash Community Blog](https://www.zcashcommunity.com/blog/) |
 | **Blossom**: | A terceira grande atualização de rede para Zcash. [Mais informações](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html?highlight=orchard#blossom) |
 
   
