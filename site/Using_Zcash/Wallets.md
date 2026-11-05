@@ -413,6 +413,19 @@
 ![logo](/content-images/wallets/zafu-wallet.webp "Zafu Wallet")
 - Devices: Desktop Browser (Browser Extension)
 - Operating System: Windows | macOS | Linux (via compatible Chromium-based browsers)
+
+  
+---
+
+## [Celari](https://app.celariwallet.com)
+![logo](/content-images/wallets/celari.webp "Celari")
+- Devices: Web
+- Operating System: Browser
+- Wallet Support: Seed Phrase | Unified Address
+- Pools: Transparent | Sapling | Ironwood
+- Features: Address Rotation | Open Source | Pool Transfer | Reproducible Build | Shielded Memo
+- Stage: Beta
+- Ironwood: Ready
 - Wallet Support: Seed Phrase | Wallet Import | Viewing Keys | Cold Signing
 - Pools: Transparent | Orchard (Legacy) | Ironwood | Penumbra Shielded
 - Features: Multi-Chain | Shielded Transactions | Swaps | FROST Multisig | Cold Signing
