@@ -42,5 +42,5 @@ zs1txa9wzxsc46w4940c4t76wjlylhntyp7vcppsp8re32z02srqse038melgglew4jwsh3qes4m4n
 
 ---
 
-* Si vous souhaitez ajouter ou suggérer des modifications à cette page wiki, rendez-vous sur [ZecHub github repo] (https://github.com/ZecHub/zechub) et soumettez une pull request.*
+* Si vous souhaitez ajouter ou suggérer des modifications à cette page wiki, rendez-vous sur [ZecHub github repo](https://github.com/ZecHub/zechub) et soumettez une pull request.*
 
