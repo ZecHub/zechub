@@ -1,74 +1,74 @@
 <a href="https://github.com/Zechub/zechub/edit/main/site/Zcash_Community/ZFAV_Club/Guides/Github_With_IPFS.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Hariri Ukurasa"/>
 </a>
 
-# Kutumikia GitHub Repo na IPFS 
+# Hudumia Hazina ya GitHub kwa IPFS 
 
 ## Utangulizi
 
-Katika mwongozo huu sisi kujifunza jinsi ya kujenga git cloneable URL kwa GitHub yako hazina kutumika kwa kutumia IPFS CID. Hii ni muhimu ili kuhakikisha maudhui upatikanaji bila kujali mkoa wa kijiografia, upinzani udhibiti na kama chelezo perisistent ya habari yenye thamani!
+Katika mwongozo huu tunajifunza jinsi ya kuunda URL inayoweza kuigwa kwa git kwa ajili ya hazina yako ya GitHub inayohudumiwa kwa kutumia CID ya IPFS. Hii ni muhimu ili kuhakikisha upatikanaji wa maudhui bila kujali eneo la kijiografia, upinzani dhidi ya udhibiti, na kama nakala endelevu ya taarifa muhimu!
 
-Kumbuka: Data uploaded kwa IPFS inapatikana kwa * wote * watumiaji wa mtandao. Unaweza kutaka kienyeji encrypt data binafsi / nyeti.
-
-
-## Kufunga IPFS Kubo
-
-Fuata maagizo ya ufungaji iliyotolewa [hapa](https://docs.ipfs.tech/install/command-line/#install-official-binary-distributions)
-
-Katika mfano huu tunatumia Linux, matoleo mengine ya OS zinapatikana. 
-
-Angalia mitambo ilikuwa na mafanikio kutumia "ipfs --version" 
+Dokezo: Data inayopakiwa kwenye IPFS inapatikana kwa *watumiaji wote* wa mtandao. Unaweza kutaka kusimba fiche data binafsi/nyeti ndani ya kifaa chako.
 
 
-## Hifadhi ya Clone 
+## Sakinisha IPFS Kubo
 
-Kuanza, kuchagua Git hazina unataka kuwa mwenyeji & clone ni:
+Fuata maelekezo ya usakinishaji yaliyotolewa [hapa](https://docs.ipfs.tech/install/command-line/#install-official-binary-distributions)
 
-Run amri: "git clone https://github.com/zechub/zechub"
+Katika mfano huu tunatumia Linux, matoleo mengine ya OS yanapatikana. 
+
+Thibitisha kuwa usakinishaji ulifanikiwa kwa kutumia "ipfs --version" 
+
+
+## Igiza Hazina 
+
+Kuanza, chagua hazina ya Git unayotaka kupangisha na uiige:
+
+Endesha Amri: "git clone https://github.com/zechub/zechub"
 
 ![](/content-images/Screenshot-from-2023-05-20-14-14-46-8503afccc3.webp)
 
 
-Sasa, kupata tayari kuwa cloned kupitia IPFS.
+Sasa, itayarishe ili iweze kuigwa kupitia IPFS.
 
 cd zechub
 git update-server-info
 
 
-Unpack Git ya vitu:
+Fungua vitu vya Git:
 
-mv vitu/pakiti/*.pakiti.
-git unpack-objects < *. pakiti
-rm -f *.pakiti vitu/pakiti/*
+mv objects/pack/*.pack .
+git unpack-objects < *.pack
+rm -f *.pack objects/pack/*
 
-Kufanya hivyo itaruhusu IPFS deduplicate vitu kama update Git hazina baadaye.
+Kufanya hivi kutaruhusu IPFS kuondoa nakala rudufu za vitu ikiwa utasasisha hazina ya Git baadaye.
 
 
-## Ongeza kwa IPFS 
+## Ongeza kwenye IPFS 
 
-Mara baada ya kuwa umefanya kwamba, kwamba hazina ni tayari kutumika. yote kushoto kwa kufanya ni kuongeza kwa IPFS:
+Ukishafanya hivyo, hazina hiyo iko tayari kuhudumiwa. Kinachobaki kufanya ni kuiongeza kwenye IPFS:
 
 $ pwd
 
 /code/myrepo
 
-$ ipfs kuongeza -r .
+$ ipfs add -r .
 
 ![](/content-images/Screenshot-from-2023-05-20-14-22-38-3fc2f72d91.webp)
 
-Matokeo CID: Qmbgqox5g3614gjTb43s5mdSmmk95aGWWA9EHksL2T91A2
+CID inayotokana: Qmbgqox5g3614gjTb43s5mdSmmk95aGWWA9EHksL2T91A2
 
 ![](/content-images/Screenshot-from-2023-05-20-14-26-34-6e00fee828.webp)
 
-Ajabu! Sasa hazina yako imepakiwa kwenye mtandao.
+Vizuri sana! Sasa hazina yako imepakiwa kwenye mtandao.
 
 
-## Clone kutumia IPFS 
+## Igiza kwa kutumia IPFS 
 
-Unapaswa sasa kuwa na uwezo wa kupata hifadhi github kutumia:
+Sasa unapaswa kuweza kurejesha hazina ya github kwa kutumia:
 
-kit clone http://ipfs.io/ipfs/"yourCID"
+git clone http://ipfs.io/ipfs/"yourCID"
 
-Vinginevyo wewe ni uwezo wa kutafuta & kupata kutumia yako ya ndani IPFS node. 
+Vinginevyo unaweza kutafuta na kurejesha kwa kutumia node yako ya IPFS ya ndani. 
 
-Mwisho Kumbuka: repo folder juu ya IPFS haina kupokea updates pamoja na halisi github hazina. Inashauriwa reupload folder katika vipindi vya mara kwa mara. 
+Dokezo la Mwisho: Folda ya hazina kwenye IPFS haipokei masasisho sambamba na hazina halisi ya github. Inapendekezwa kupakia upya folda hiyo kwa vipindi vya kawaida.

@@ -1,50 +1,50 @@
-# ZecHub Mwongozo Style
+# Mwongozo wa mtindo wa ZecHub
 
-Mtindo wa ZecHub ni rahisi na inapatikana. Tunakaribisha kila mtu na kuzingatia jamii ya Zcash .
+Mtindo wa ZecHub ni rahisi na unaoeleweka kwa urahisi. Tunawakaribisha wote na tunaangazia jumuiya ya Zcash.
 
-## Kanuni za Kufuata
+## Kanuni
 
-1. ** Tayari kusaidia** - Onyesha watumiaji wa Zcash kwamba tuko upande wao.
+1. **Tayari kusaidia** - Waonyeshe watumiaji wa Zcash kwamba tuko upande wao.
 
-2. ** Kwa ufupi na kwa uhakika:** Toa ujumbe rahisi iwezekanavyo. Anza na jambo muhimu zaidi.
+2. **Mfupi na wa moja kwa moja:** Toa ujumbe rahisi zaidi iwezekanavyo. Anza na hoja muhimu zaidi.
 
-3. ** User-centered:** Sisi kuandika kwa watumiaji wa kwanza, watengenezaji pili, na kila mtu mwingine tatu.
+3. **Unawalenga watumiaji:** Tunaandika kwa ajili ya watumiaji kwanza, wasanidi programu pili, na kila mtu mwingine tatu.
 
-## Mambo ya Msingi
+## Misingi
 
-- **Kupata kwa uhakika**. Kuanza na hatua muhimu zaidi. Front-load maneno kuu ya skimming. kufanya chaguzi za mtumiaji na hatua zifuatazo wazi.
+- **Nenda moja kwa moja kwenye hoja**. Anza na hoja muhimu zaidi. Weka maneno muhimu mwanzoni ili kurahisisha usomaji wa haraka. Fanya chaguo na hatua zinazofuata za mtumiaji ziwe wazi.
 
-- **Andika kama wewe kuzungumza** Watumiaji wetu ni watu halisi. Kuzungumza nao kwa maandishi.
+- **Andika kama unavyozungumza**. Watumiaji wetu ni watu halisi. Zungumza nao kwa maandishi.
 
-- ** Kuwa mfupi**. Kutoa watumiaji habari ya kutosha kwa ajili yao ili kutatua tatizo au kufanya uchaguzi.
+- **Kuwa mfupi**. Wape watumiaji taarifa za kutosha ili waweze kutatua tatizo au kufanya uchaguzi.
 
-- ** Punguza vipindi katika majina**. Ondoa alama ya mwisho kwenye vichwa, kichwa cha habari, vifungu vidogo vya makala, na orodha za vitu vyenye maneno matatu au chini yake. Kipindi hutumiwa kwa aya na nakala ya mwili.
+- **Ruka nukta katika vichwa**. Ondoa alama za uakifishaji za mwisho kwenye vichwa, vichwa vidogo, vichwa vya UI, na vipengee vya orodha vyenye maneno matatu au machache. Nukta hutumiwa katika aya na matini kuu.
 
-  - Mifano: Bonyeza kitufe cha Tuma->Bonyeza Kitufe cha Tuma
+  - Mifano: Bonyeza kitufe cha Tuma->Bonyeza kitufe cha Tuma
 
-- ** Wakati wa shaka, epuka capitalization**. Tu mtaji majina au majina kama Zcash, pamoja na neno la kwanza ya kichwa cha habari au kifungu.
+- **Unapokuwa na shaka, epuka matumizi ya herufi kubwa**. Tumia herufi kubwa kwa nomino maalumu au majina kama Zcash pekee, pamoja na neno la kwanza la kichwa au kifungu.
 
-  - Examples: How to Send ZEC with Unified Address. → How to send ZEC with unified address
+  - Mifano: Jinsi ya Kutuma ZEC kwa Anwani Iliyounganishwa. → Jinsi ya kutuma ZEC kwa anwani iliyounganishwa
 
-- ** Rewrite kuandika dhaifu**. Wakati mwingi, kuanza kila taarifa na kitenzi. Unaweza na kulikuwa lazima marekebisho.
+- **Andika upya maandishi dhaifu**. Mara nyingi, anza kila kauli kwa kitenzi. Kauli kama Unaweza na Kulikuwa na zinapaswa kurekebishwa.
 
-  - Mifano: Unaweza kutuma na kupokea ZEC kutoka simu yako ya mkononi-> Kutuma na kupata ZEC kwa njia ya simu yako
+  - Mifano: Unaweza kutuma na kupokea ZEC kutoka kwenye simu yako ya mkononi->Tuma na upokee ZEC kwa simu yako
 
-- Tumia nafasi moja tu baada ya vipindi na colon.
+- **Usitumie nafasi nyingi**. Tumia nafasi moja tu baada ya nukta na koloni.
 
-- ** Epuka maneno yasiyo ya Kiingereza** kama vile de facto au ad hoc. epuka vifupisho vya Kilatini vya misemo ya kawaida ya Kifaransa.
+- **Epuka maneno yasiyo ya Kiingereza** kama de facto au ad hoc. Epuka vifupisho vya Kilatini vya vifungu vya kawaida vya Kiingereza.
 
-    | Tumia hii    | Badala ya hii |
+    | Tumia hiki    | Badala ya hiki |
     |-------------|-----------------|
     | kwa mfano | e.g.            |
-    | hiyo ni     | i.e.            |
+    | yaani     | i.e.            |
 
-## Tweets za Twitter
+## Machapisho kwenye Twitter
 
-> Mwongozo huu wa kawaida ni kwa ajili ya kuandika makala au mwongozo user kwa ZecHub. Pia inatumika kwa tweets na taarifa nyingine fupi: kuwaweka mfupi, mbele-kupakia uhakika, na ruka mwisho alama za kuashiria juu ya mistari mafupi.
+> Mwongozo huu wa jumla wa mtindo ni wa kuandika makala au miongozo ya watumiaji kwa ajili ya ZecHub. Pia unatumika kwa machapisho kwenye Twitter na kauli nyingine fupi: ziweke fupi, weka hoja mwanzoni, na ruka alama za uakifishaji za mwisho kwenye mistari mifupi.
 
 ---
 
 <small>
-ZecHub style guide is adapted from <a href="https://learn.microsoft.com/en-us/style-guide/">Microsoft Writing Style Guide</a> with modifications. Consult Microsoft guide when you need to.
+Mwongozo wa mtindo wa ZecHub umechukuliwa kutoka <a href="https://learn.microsoft.com/en-us/style-guide/">Microsoft Mwongozo wa Mtindo wa Uandishi</a> kwa marekebisho. Rejelea mwongozo wa Microsoft unapohitaji.
 </small>

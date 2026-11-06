@@ -1,185 +1,185 @@
 ![alt text](image-1.png)
-# Uthibitisho wa Kisheria Ni Nini?
+# Uthibitishaji Rasmi ni Nini?
 
-### Jinsi ya kuthibitisha programu ni sahihi, badala tu matumaini yake ni
+### Jinsi unavyothibitisha programu ni sahihi, badala ya kutumaini tu kuwa ni sahihi
 
-> **Series:** *Formal Verification Series* · **Part 1 ya 3**
-> ** Wasikilizaji:** kabisa wageni. Hakuna hisabati, programu au cryptography background kudhaniwa.
-> ** Nini wewe kuondoka na:** uelewa wazi wa nini maana ya * kuthibitisha * programu sahihi, kwa nini hiyo ni kimsingi tofauti kutoka kupima yake, kile mashine-iliyoangaliwa uthibitisho ni, na usahihi (na waaminifu) mipaka ya yale kama ushahidi inaweza ahadi.
+> **Mfululizo:** *Mfululizo wa Uthibitishaji Rasmi* · **Sehemu ya 1 kati ya 3**
+> **Hadhira:** wanaoanza kabisa. Hakuna maarifa ya hisabati, upangaji programu, au kriptografia yanayodhaniwa.
+> **Utakachoondoka nacho:** uelewa wazi wa maana ya *kuthibitisha* programu sahihi, kwa nini hilo ni tofauti kimsingi na kuijaribu, thibitisho linalokaguliwa na mashine ni nini, na mipaka mahususi (na ya uaminifu) ya kile ambacho thibitisho kama hilo linaweza kuahidi.
 
-Programu nyingi ni kuaminiwa kwa sababu imekuwa * kupimwa: sisi kukimbia juu ya pembejeo wengi na kuangalia tabia yake. uthibitisho rasmi anauliza swali zaidi jasiri. Je, tunaweza kuthibitisha*, pamoja na uhakika wa hisabati, kwamba mfumo hufanya nini lazima ** kila** uwezekano pembeji, ikiwa ni pamoja na wale hakuna mtu milele mawazo kujaribu? Makala hii hujenga wazo hilo kutoka chini hadi Intuition kwanza, hakuna alama mpaka wao kupata.
-
----
-
-## 1. Kwa nini unapaswa kuhangaikia jambo hilo?
-
-Hii ni hadithi ya kweli, na ndiyo sababu mfululizo huu upo.
-
-In 2022, the privacy-focused cryptocurrency Zcash launched a new shielded pool named Orchard, letting people transact with the amounts hidden. For four years it worked flawlessly and passed repeated professional audits. Then, in May 2026, a security researcher reasoning carefully about the underlying mathematics (with help from AI tooling) found a single **under-constrained** spot in the system's math. That one gap could have let an attacker create an *unlimited* amount of counterfeit money, and because the amounts were hidden, nobody would have seen it happen. The flaw had been present the entire time.
-
-Ni si hawakupata kwa kupima. Kila mtihani alikuwa kupita kwa miaka minne. Ilikuwa ni kukamatwa na mtu * kusababu kuhusu math.* Na wakati timu kurekebisha, hawakuwa tu patch na kuendelea. Waliandika ** mashine-iliyoangaliwa ushahidi wa hisabati** zaidi ya 2,700 theorems binafsi, kwamba badala hakuweza kuwa darasa hilo la kasoro kabisa.
-
-Hiyo ni uthibitisho rasmi, na hii ndiyo inunuliwa kwako: sio "tulijaribu kesi nyingi na zilifanya kazi", lakini "tumethibitisha inafaa kwa kila kisa". Kwa mifumo ambapo hali moja iliyopotea ni mbaya (fedha, ndege, vifaa vya matibabu, cryptography), tofauti hiyo ni yote.
-
-Macho ya kipofu katika kupima yalitajwa miongo kadhaa iliyopita na mwanasayansi wa kompyuta Edsger Dijkstra, na bado ni kweli:
-
-> ** Uchunguzi unaweza kuonyesha * uwepo wa mende, lakini kamwe kutokuwepo kwao. *
-
-Kama mtihani hupita, umefanya kujifunza kwamba mfumo kazi * juu ya kuingia hiyo.* Wewe wamejifunza kitu kuhusu pembejeo wewe si walijaribu, na bugs hatari ni karibu daima katika kesi hakuna mtu alijaribu.
+Programu nyingi huaminiwa kwa sababu zime*jaribiwa*: tunaziendesha kwa ingizo nyingi na kuzitazama zikifanya kazi. Uthibitishaji rasmi [Formal Verification] unauliza swali la ujasiri zaidi. Je, tunaweza *kuthibitisha*, kwa uhakika wa kihisabati, kwamba mfumo hufanya unachopaswa kufanya kwa **kila** ingizo linalowezekana, ikiwemo zile ambazo hakuna mtu aliyewahi kufikiria kujaribu? Makala haya yanajenga wazo hilo kuanzia misingi. Intuisheni kwanza, hakuna alama hadi zitakapostahili.
 
 ---
 
-## 2. Intuition: kuangalia milango dhidi ya kuthibitisha jengo hilo
+## 1. Kwa nini unapaswa kujali?
 
-Wazia kwamba una daraka la kujenga jengo lenye milango elfu moja, na kazi yako ni kuhakikisha kila mlango umefungwa usiku.
+Hii ni simulizi ya kweli, na ndiyo sababu mfululizo huu upo.
 
-- ** Njia ya kupima:** kutembea kuzunguka na kujaribu sampuli ya milango. Jaribu hamsini, mia moja, elfu tano. Kila mmoja wewe jaribu ni imefungwa, hivyo ujasiri wako kukua. Lakini si wamejaribu wote, na mlango unlocked inaweza kuwa moja skipped.
-- ** Njia rasmi-uthibitisho:** kuchunguza * mfumo wa kufunga yenyewe* na kuthibitisha, kutoka kwa kubuni yake, kwamba kushinikiza "lock" kifungo lazima engages kila mlango. Sasa huna haja ya kujaribu milango mtu binafsi wakati wote. Umeonyesha kuwa * hakuna mlango iwezekanavyo inaweza kushoto unlocked*, kwa sababu utaratibu hufanya hivyo haiwezekani.
+Mnamo 2022, sarafu-fiche inayolenga faragha Zcash ilizindua bwawa jipya la faragha lililoitwa Orchard, likiwawezesha watu kufanya miamala huku kiasi kikiwa kimefichwa. Kwa miaka minne lilifanya kazi bila kasoro na lilipita ukaguzi wa kitaalamu wa kurudiwa. Kisha, mnamo Mei 2026, mtafiti wa usalama aliyefikiri kwa uangalifu kuhusu hisabati ya msingi (kwa msaada wa zana za AI) aligundua sehemu moja **isiyowekewa vikwazo vya kutosha** katika hisabati ya mfumo. Pengo hilo moja lingeweza kumruhusu mshambulizi kuunda kiasi *kisicho na kikomo* cha fedha bandia, na kwa sababu kiasi kilifichwa, hakuna ambaye angeona hilo likitokea. Kasoro hiyo ilikuwepo wakati wote.
 
-Tofauti ni kati ya ** sampuli ukweli** na ** kuthibitisha mali ya kubuni. Kupima sampuli. uthibitisho rasmi inathibitisha. Hiyo ndiyo wazo lote, na kila kitu kingine ni mashine kwa kufanya hivyo madhubuti.
+Haikugunduliwa kwa majaribio. Kila jaribio lilikuwa limepita kwa miaka minne. Iligunduliwa na mtu *aliyefikiria kuhusu hisabati*. Na timu ilipoirekebisha, haikupachika tu marekebisho na kuendelea. Waliandika **thibitisho la kihisabati lililokaguliwa na mashine**, lenye zaidi ya nadharia binafsi 2,700, kwamba mbadala huo haungeweza kuwa na aina hiyo ya kasoro kabisa.
+
+Huo ndio uthibitishaji rasmi, na hiki ndicho unachokupatia: si “tulijaribu hali nyingi na zikafanya kazi,” bali “tulithibitisha kuwa inashikilia kwa kila hali.” Kwa mifumo ambamo hali moja iliyokosekana ni janga (fedha, ndege, vifaa vya matibabu, kriptografia), tofauti hiyo ni kila kitu.
+
+Eneo lisiloonekana katika majaribio lilipewa jina miongo kadhaa iliyopita na mwanasayansi wa kompyuta Edsger Dijkstra, na bado ni kweli:
+
+> **Majaribio yanaweza kuonyesha *uwepo* wa hitilafu, lakini kamwe si *kutokuwepo* kwake.**
+
+Jaribio linapopita, umejifunza kwamba mfumo hufanya kazi *kwa ingizo hilo*. Hujajifunza chochote kuhusu ingizo ambazo hukujaribu, na hitilafu hatari karibu daima huwa katika hali ambazo hakuna aliyejaribu.
+
+---
+
+## 2. Intuisheni: kukagua milango dhidi ya kuthibitisha jengo
+
+Fikiria una wajibu wa jengo lenye milango elfu moja, na kazi yako ni kuhakikisha kila mlango umefungwa usiku.
+
+- **Mbinu ya majaribio:** tembea huku na huku na ujaribu sampuli ya milango. Jaribu hamsini, mia moja, mia tano. Kila unaojaribu umefungwa, hivyo imani yako huongezeka. Lakini hujajaribu yote, na mlango mmoja usiofungwa huenda ni ule uliouruka.
+- **Mbinu ya uthibitishaji rasmi:** chunguza *mfumo wa kufunga wenyewe* na uthibitishe, kutokana na usanifu wake, kwamba kubonyeza kitufe cha “funga” lazima kufunge kila mlango. Sasa huhitaji kujaribu milango binafsi hata kidogo. Umeonyesha kwamba *hakuna mlango unaowezekana unaweza kuachwa bila kufungwa*, kwa sababu utaratibu hufanya hilo lisiwezekane.
+
+Tofauti iko kati ya **kuchukua sampuli ya uhalisia** na **kuthibitisha sifa ya usanifu**. Majaribio huchukua sampuli. Uthibitishaji rasmi huthibitisha. Hilo ndilo wazo zima, na kila kitu kingine ni mitambo ya kulifanya kwa ukali.
 
 ![alt text](image-2.png)
 
 ---
 
-## 3. nguzo tatu za yoyote ya kuthibitisha rasmi
+## 3. Nguzo tatu za uthibitishaji rasmi wowote
 
-Kila uthibitisho rasmi, bila kujali jinsi ya juu ni kujengwa kutoka hasa viungo tatu. Kuweka haya wazi na wengine ni maelezo mafupi.
+Kila uthibitishaji rasmi, haijalishi umeendelea kiasi gani, hujengwa kwa viambato vitatu hasa. Vishike hivi kwa uwazi na yaliyobaki ni maelezo.
 
-| Nguzo | Maana ya kawaida | Mfano wa ujenzi |
+| Nguzo | Maana rahisi | Mfano wa jengo |
 |---|---|---|
-| **Vipimo** | Kauli sahihi ya maana ya "sahihi" *maana* | "Kila mlango lazima ufungwe usiku" |
-| **Mfumo** | Kitu halisi kinachokaguliwa (programu, mzunguko, itifaki) | Jengo na utaratibu wake wa kufunga |
-| **Uthibitisho** | Hoja kali kwamba mfumo huo hukidhi vipimo kila wakati | Maonyesho ya kimantiki kwamba kubonyeza "kufuli" hufunga milango yote |
+| **Ubainishaji** | Kauli sahihi ya maana ya “usawa” | “Kila mlango lazima ufunge usiku” |
+| **Mfumo** | Kitu halisi kinachokaguliwa (programu, saketi, itifaki) | Jengo na utaratibu wake wa kufunga |
+| **Thibitisho** | Hoja kali kwamba mfumo daima hutimiza ubainishaji | Uonyeshaji wa kimantiki kwamba kubonyeza “funga” hufunga milango yote |
 
-Na sehemu ya nne, isiyo na sauti nyingi hufanya jambo hilo liwe lenye kuaminika:
+Na kiambato cha nne, kisicho na kelele, hufanya jambo lote liaminike:
 
-- **Mchunguzi wa mashine.** Uthibitisho haujaandikwa na mwanadamu na unaonekana tu. Inalishwa kwa programu (msaidizi wa uthibitishaji, pia huitwa mtoaji wa nadharia) ambayo inachunguza * kila hatua ya kimantiki*. Mwanadamu anaweza kupeperusha mikono yake au kufanya kosa la hila; mashine haitakubali hatua ambayo haifuati kabisa. Hii ndio sababu tunasema matokeo ni **mashine-iliyoangaliwa**.
+- **Kikaguzi cha mashine.** Thibitisho haliandikwi na binadamu kisha kutazamwa kwa juu juu tu. Huwasilishwa kwa programu (**msaidizi wa thibitisho**, pia huitwa **kithibitishaji cha nadharia**) inayokagua *kila hatua moja ya kimantiki*. Binadamu anaweza kupunga mikono au kufanya kosa dogo; mashine haitakubali hatua isiyofuata kwa ukamilifu. Hii ndiyo sababu tunasema matokeo **yamekaguliwa na mashine**.
 
 ![alt text](image-3.png)
 
-Msaidizi wa uthibitisho unaweza kusikia jina ni pamoja na ** Lean, Roq (zamani Coq), na Isabelle. Wao ni, kwa kweli, injini za kuangalia mantiki kali sana. Ushahidi wa Zcash katika hadithi yetu ya ufunguzi uliandikwa katika * Lean. Ikumbukwe kwamba mifano ya kisasa ya AI inatumiwa zaidi kusaidia kuandika ushahidi huu, na wanadamu kuwaongoza, ambayo imefupisha juhudi ambazo wakati mmoja zilichukua miaka hadi wiki. Mashine bado inachunguza kila hatua, hivyo kuongeza kasi hakugharimu uhakika wowote.
+Wasaidizi wa thibitisho ambao unaweza kusikia wakitajwa ni pamoja na **Lean**, **Rocq** (zamani Coq), na **Isabelle**. Kwa hakika, ni injini kali sana za kukagua mantiki. Thibitisho la Zcash katika simulizi letu la mwanzo liliandikwa kwa **Lean**. Kwa kutambulika, miundo ya kisasa ya AI inazidi kutumiwa kusaidia *kuandika* thibitisho hizi, huku binadamu wakiziongoza, jambo ambalo limepunguza juhudi zilizokuwa zikichukua miaka hadi wiki. Mashine bado hukagua kila hatua, kwa hiyo uharakishaji huo haupunguzi uhakika wowote.
 
 ---
 
-## 4. Uthibitisho ni nini hasa?
+## 4. Thibitisho hasa ni nini
 
-Neno "uthibitisho" linaweza kuogopesha, kwa hiyo hebu tulitoshe na mfano halisi unaofuatiliwa. Hakuna cryptography, hesabu ya shule pekee.
+Neno “thibitisho” linaweza kuonekana kutisha, kwa hiyo tuliondoe fumbo kwa mfano thabiti unaoweza kukaguliwa. Hakuna kriptografia, ni hesabu za shule tu.
 
-** Madai:** kwa kila idadi nzima `n`, jumla ya fedha hizo ni: `0 + 1 + 2 + ... + n` sawa na `n(n+1)/2`.
+**Dai:** kwa kila nambari nzima `n`, jumla `0 + 1 + 2 + ... + n` ni sawa na `n(n+1)/2`.
 
-Unaweza *kujaribu* hii. `n = 5` huandaa `0+1+2+3+4+5 = 15`, na `5 × 6 / 2 = 15`. ✓ Inalingana. Jaribu `n = 10`: jumla ni: `55`, na formula inatoa `10 × 11 / 2 = 55`✓ (Hizi ni mahesabu na kuthibitishwa; madai kwa kweli huchukua kila moja ya viungo vya mwili. `n` kutoka 0 hadi 999 wakati checked moja kwa moja.)
+Unaweza *kujaribu* hili. `n = 5` hutoa `0+1+2+3+4+5 = 15`, na `5 × 6 / 2 = 15`. ✓ Inalingana. Jaribu `n = 10`: jumla ni `55`, na fomula hutoa `10 × 11 / 2 = 55`. ✓ (Hivi vinahesabiwa na kuthibitishwa; dai kwa kweli hushikilia kwa kila `n` kuanzia 0 hadi 999 vinapokaguliwa moja kwa moja.)
 
-Lakini kupima maadili, hata elfu yao, kamwe kufikia "kwa kila idadi nzima". Kuna infinitely wengi. A ** ushahidi** kufunga kwamba pengo usio katika hoja ya mwisho, kwa kutumia mbinu inayoitwa *** induction:
+Lakini kujaribu thamani, hata elfu moja kati yake, hakufikii “kwa **kila** nambari nzima.” Zipo zisizo na ukomo. **Thibitisho** huziba pengo hilo lisilo na ukomo kwa hoja yenye kikomo, kwa kutumia mbinu inayoitwa **induction** [induction]:
 
-1. ** kesi ya msingi:** kwa ajili ya `n = 0`, jumla ni tu `0`, na formula inatoa `0 × 1 / 2 = 0`. Wanakubaliana. ✓
-2. ** Hatua inductive: * kudhani* formula anaendelea kwa baadhi ya idadi `k`Sasa ongeza namba ijayo, `k+1`. Jumla hadi `k+1` is `(sum up to k) + (k+1) = k(k+1)/2 + (k+1)`. line ya algebra rearranges hii kwa `(k+1)(k+2)/2`, ambayo ni hasa formula na `k+1` badala ya: `k`. ✓
+1. Kisa cha **Base:** kwa `n = 0`, jumla ni `0` tu, na fomula hutoa `0 × 1 / 2 = 0`. Zinalingana. ✓
+2. **Hatua ya induksia:** *chukulia* kwamba fomula hushikilia kwa nambari fulani `k`. Sasa ongeza nambari inayofuata, `k+1`. Jumla hadi `k+1` ni `(sum up to k) + (k+1) = k(k+1)/2 + (k+1)`. Mstari mmoja wa aljebra hupanga upya hili kuwa `(k+1)(k+2)/2`, ambayo ni fomula yenyewe hasa huku `k+1` ikichukua nafasi ya `k`. ✓
 
-Kwa kuwa ni wa mwanzo (0) na kila hatua hubeba kwa idadi ya pili, inashikilia ** zote** namba nzima milele katika hoja moja mwisho. Hiyo ni uthibitisho. Msaidizi ushahidi hufanya hasa sababu hii, lakini mechanically kuthibitisha kwamba kila hatua, ikiwa ni pamoja na "mstari wa algebra", kweli ifuatavyo kutoka kile kilichokuja kabla.
+Kwa kuwa hushikilia mwanzoni (0) na kila hatua huipeleka hadi nambari inayofuata, hushikilia kwa nambari nzima **zote**, milele, katika hoja moja yenye kikomo. Hilo ni thibitisho. Msaidizi wa thibitisho hufanya hoja hii hasa, lakini huhakiki kimitambo kwamba kila hatua, ikiwemo “mstari wa aljebra,” hufuata kwa kweli kutokana na yaliyotangulia.
 
-> Leap thamani ya kunyonya: uthibitisho anarudi "matukio mengi infinitely" katika ** mwisho, checkable hoja. Hiyo ni superpower kupima kimkakati haina.
+> Kuruka kwa fikra kunakostahili kueleweka: thibitisho hubadilisha “hali zisizo na ukomo” kuwa **hoja yenye kikomo, inayoweza kukaguliwa**. Huo ndio uwezo wa kipekee ambao majaribio hayana kimuundo.
 
 ---
 
-## 5. Mahali ambapo wadudu huishi hasa
+## 5. Ambapo hitilafu huishi hasa
 
-Formal uthibitisho ni nguvu kwa sehemu kutokana na kufafanua ufahamu kuhusu * ambapo * bugs kuja kutoka katika nafasi ya kwanza. kasoro yoyote katika mfumo wa sheria-kuangalia hufuatiliwa moja ya maeneo matatu:
+Uthibitishaji rasmi una nguvu kwa kiasi fulani kutokana na utambuzi unaofafanua *ambapo* hitilafu hutoka kwanza. Kasoro yoyote katika mfumo wa kukagua kanuni hufuatilia hadi mojawapo ya sehemu tatu:
 
-| Chanzo cha mdudu | Inamaanisha nini | Je, tunaweza kuthibitisha hilo? |
+| Chanzo cha hitilafu | Maana yake | Je, tunaweza kuithibitisha iondoke? |
 |---|---|---|
-| **Vipimo** | Hesabu au sheria zenyewe si sahihi (hali inayokosekana, ufafanuzi mbaya) | **Ndiyo**, moja kwa moja, hii ni sehemu rasmi ya uthibitishaji wa nyumbani |
-| **Utekelezaji** | Msimbo unashindwa kutekeleza kwa uaminifu vipimo sahihi | Kwa kiasi fulani; mara nyingi kushindwa huko huacha ushahidi unaoweza kugunduliwa |
-| **Dhana iliyovunjika** | Kitu ambacho mfumo mzima unategemea kinageuka kuwa si kweli | Hapana; dhana ndio msingi usioweza kupunguzwa |
+| **Ubainishaji** | Hisabati au kanuni zenyewe si sahihi (sharti linalokosekana, ufafanuzi mbaya) | **Ndiyo**, moja kwa moja; hapa ndipo uthibitishaji rasmi hustawi |
+| **Utekelezaji** | Msimbo unashindwa kutekeleza kwa uaminifu ubainishaji sahihi | Kwa sehemu; mara nyingi kushindwa huko huacha ushahidi unaoweza kugundulika |
+| **Dhana iliyovunjika** | Kitu ambacho mfumo mzima hutegemea kinageuka kuwa si kweli | Hapana; dhana ndizo msingi usioweza kupunguzwa |
 
-Hii taxonomy mambo zaidi ya inaonekana, na Sehemu 2 3 kurejea juu yake. kina, mende hatari sana, wale ambao wanaweza kujificha milele, huwa kuishi katika ** vipimo vya: maelezo ya hisabati ya nini mfumo ni lazima kufanya. Na maalum ni hasa kile mashine-iliyotathmini ushahidi unaweza kuchunguza moja kwa moja, kesi zote mara moja. Hiyo ndiyo sababu kubwa rasmi kuthibitisha juhudi lengo huko kwanza.
+Uainishaji huu una maana zaidi kuliko unavyoonekana, na Sehemu za 2 na 3 huzingatia hilo. Hitilafu za kina zaidi na hatari zaidi, zile zinazoweza kujificha milele, huwa zinaishi katika **ubainishaji**: maelezo ya kihisabati ya kile ambacho mfumo unapaswa kufanya. Na ubainishaji ndio hasa ambao thibitisho lililokaguliwa na mashine linaweza kuchunguza moja kwa moja, hali zote kwa wakati mmoja. Hiyo ndiyo sababu juhudi makini za uthibitishaji rasmi hulenga hapo kwanza.
 
 ![alt text](image-4.png)
 
 ---
 
-## 6. tahadhari muhimu zaidi katika uwanja mzima
+## 6. Tahadhari muhimu zaidi katika uga huu wote
 
-Uthibitisho rasmi una nguvu, lakini ahadi yake ni sahihi na kutoelewana huongoza watu vibaya. Kwa hivyo sema kwa uangalifu:
+Uthibitishaji rasmi una nguvu, lakini ahadi yake ni mahususi, na kuielewa vibaya huwapotosha watu. Kwa hiyo iseme kwa uangalifu:
 
-> ** Uthibitisho dhamana kwamba * mfumo wa* hukutana na * vipimo, chini ya taarifa mawazo. kitu zaidi.**
+> **Thibitisho huhakikisha kwamba *mfumo* hutimiza *ubainishaji*, chini ya *dhana* zilizotajwa. Hakuna zaidi.**
 
-Matokeo manne yanafuata, na kila moja ni muhimu:
+Matokeo manne hufuata, na kila moja ni muhimu:
 
-- ** Kama vipimo ni makosa, ushahidi haina thamani.** kama wewe kuthibitisha "kila mlango kufuli" lakini mahitaji halisi ilikuwa "kila * dirisha * kufuli", umethibitishwa kitu kibaya, kikamilifu. ukaguzi wa uthibitisho kwamba kujengwa * nini maalum yako*, si kuwa maalum ya jambo sahihi.
-- ** Kama ufafanuzi ni subtly misstated, dhamana kimya huziba.** uthibitisho kuhusu kidogo makosa ya ufafano wa "usawa" inaweza kuthibitisha chini kuliko unafikiri wakati bado kupita kila kuangalia. Hii ndiyo sababu maonyesho katika moyo wa ukaguzi lazima mfupi, kiwango cha juu na wazi reviewable kwa wanadamu.
-- ** Kama dhana kushindwa, udhamini inakoma.** Ushahidi hutegemea madai ("hardware lock si kimwili kuvunjwa"). Ikiwa dhana ni uongo katika hali halisi, hitimisho haipaswi kushikilia.
-- ** Haina maana "hakuna mende milele".** Ina maana "hapana mende wa aina ya kukataliwa na uainishaji huu, kutokana na dhana hizi. "A narrower, zaidi waaminifu, na madai mengi muhimu zaidi.
+- **Ikiwa ubainishaji ni mbaya, thibitisho halina thamani.** Ikiwa unathibitisha “kila mlango hufunga” lakini sharti halisi lilikuwa “kila *dirisha* hufunga,” umethibitisha kitu kisicho sahihi, kikamilifu. Uthibitishaji hukagua kwamba ulijenga *ulichobainisha*, si kwamba ulibainisha kitu sahihi.
+- **Ikiwa ufafanuzi umeelezwa vibaya kwa hila, dhamana hupungua kimya kimya.** Thibitisho kuhusu ufafanuzi usio sahihi kidogo wa “salio” linaweza kuthibitisha kidogo kuliko unavyodhani huku likipita kila ukaguzi. Hii ndiyo sababu fafanuzi katika kiini cha uthibitishaji lazima ziwe fupi, za kawaida, na zinazoweza kupitiwa waziwazi na binadamu.
+- **Ikiwa dhana zinashindwa, dhamana huisha.** Thibitisho hutegemea dhana (“vifaa vya kufunga havijavunjika kimwili”). Ikiwa dhana si ya kweli katika uhalisia, hitimisho si lazima lishikilie.
+- **Haimaanishi “hakuna hitilafu kamwe.”** Inamaanisha “hakuna hitilafu za aina inayokataliwa na ubainishaji huu, kwa kuzingatia dhana hizi.” Hili ni dai finyu zaidi, la uaminifu zaidi, na lenye manufaa zaidi kwa mbali.
 
-Kama tutakavyoona katika Sehemu ya 3, timu Zcash kueleza wigo wao na dhana wazi ("sisi kuthibitishwa ugavi soundness, chini ya haya majina madai, na si faragha") ni mfano wa uaminifu kwamba.
+Mbali na kudhoofisha uthibitishaji rasmi, usahihi huu ndio nguvu yake. Hukwambia *hasa* unachopata. Kama tutakavyoona katika Sehemu ya 3, timu ya Zcash inayotaja wazi wigo na dhana zake (“tulithibitisha uimara wa ugavi, chini ya dhana hizi zilizopewa majina, na si faragha”) ni mfano wa uaminifu huo.
 
 ![alt text](image-5.png)
 
 ---
 
-## 7. Kujitenga kwa unyoofu na madeni ya wengine
+## 7. Kanusho la uaminifu
 
-Ili kuweka hii readable sisi kurahisishwa. specifikationer halisi ni imeandikwa katika lugha sahihi rasmi, si sentensi Kiingereza; kuna * mitindo kadhaa ya ukaguzi wa kisheria (interactive theorem kuthibitisha, mfano kuangalia, SMT-msingi mbinu) yanafaa kwa matatizo mbalimbali; na kuandika ushahidi haya bado ujuzi, kazi ngumu hata kwa msaada AI. Sisi pia akaruka jinsi msaidizi uthibitisho inawakilisha mantiki ndani. Hakuna mabadiliko hayo msingi: uainishaji, mfumo, na mashine checked ushahidi kwamba wawili kukubaliana chini ya madai alisema. maelezo anarudi kama tunahitaji yake.
+Ili kuweka hili lisomeke tulirahisisha. Ubainishaji halisi huandikwa katika lugha rasmi sahihi, si sentensi za Kiingereza; kuna *mitindo* kadhaa ya uthibitishaji rasmi (uthibitishaji shirikishi wa nadharia, ukaguzi wa miundo, mbinu zinazotegemea SMT) inayofaa kwa matatizo tofauti; na kuandika thibitisho hizi bado ni kazi inayohitaji ustadi na juhudi hata kwa msaada wa AI. Pia tuliruka jinsi msaidizi wa thibitisho huwakilisha mantiki ndani yake. Hakuna kati ya haya yanayobadilisha kiini: ubainishaji, mfumo, na thibitisho lililokaguliwa na mashine kwamba vitu hivyo viwili vinakubaliana, chini ya dhana zilizotajwa. Maelezo yatarejea tutakapoyahitaji.
 
 ---
 
 ## 8. Muhtasari
 
-- **Kujaribu** sampuli maalum ya pembejeo na inaweza kuonyesha bug ni sasa, kamwe kwamba mende hazipo. mende hatari kujificha katika kesi hakuna mtu samples.
-- **Formal uthibitisho** inathibitisha mali anashikilia kwa ajili ya kila kesi iwezekanavyo, katika mwisho, checkable hoja.
-- Kila uthibitisho ina nguzo tatu: ** vipimo** (nini sahihi maana), a ** mfumo wa ** (kitu checked), na ** ushahidi *** kwamba wanakubaliana, pamoja na ** ushuhuda msaidizi ** (kama vile Lean) ambayo mashine-kuangalia kila hatua.
-- A ** ushahidi** (kwa mfano, kwa njia ya *** induction **) collapses infinitely kesi nyingi katika hoja moja mwisho.
-- Bugs kuishi katika ** vipimo vya, utekelezaji wa au dhana kuvunjwa. Formal uthibitisho malengo maalum moja kwa moja, ambayo ni ambapo kina zaidi, wengi siri bugs huwa na kuishi.
-- dhamana ni sahihi: mfumo hukutana ** vipimo vya, chini ya dhana alisema. Spec makosa, misstated ufafanuzi au kuvunjwa dhana huvunja yake na kamwe haina maana "hakuna mende milele".
+- **Majaribio** huchukua sampuli za ingizo mahususi na yanaweza kuonyesha hitilafu ipo, kamwe si kwamba hitilafu hazipo. Hitilafu hatari hujificha katika hali ambazo hakuna anayezichukua kama sampuli.
+- **Uthibitishaji rasmi** huthibitisha sifa hushikilia kwa **kila** hali inayowezekana, katika hoja yenye kikomo na inayoweza kukaguliwa.
+- Kila uthibitishaji una nguzo tatu: **ubainishaji** (maana ya usawa), **mfumo** (kitu kinachokaguliwa), na **thibitisho** kwamba vinakubaliana, pamoja na **msaidizi wa thibitisho** (kama **Lean**) anayekagua kila hatua kwa mashine.
+- **Thibitisho** (kwa mfano, kwa **induction**) hubana hali zisizo na ukomo kuwa hoja moja yenye kikomo.
+- Hitilafu huishi katika **ubainishaji**, **utekelezaji**, au **dhana iliyovunjika**. Uthibitishaji rasmi hulenga ubainishaji moja kwa moja, ambako hitilafu za kina zaidi na zilizofichika zaidi huwa zinaishi.
+- Dhamana ni mahususi: mfumo hutimiza **ubainishaji**, chini ya **dhana zilizotajwa**. Ubainishaji mbaya, ufafanuzi ulioelezwa vibaya, au dhana iliyovunjika huiondoa, na kamwe haimaanishi “hakuna hitilafu kamwe.”
 
 ---
 
-## Orodha ya maneno
+## Kamusi
 
-| Muhula | Maana ya Kiingereza cha kawaida |
+| Istilahi | Maana rahisi kwa Kiingereza |
 |---|---|
-| **Formal verification** | Kuthibitisha, kihisabati, kwamba mfumo unakidhi vipimo kwa kesi zote |
-| **Specification** | Kauli sahihi ya maana ya "tabia sahihi" |
-| **System** | Programu, mzunguko, au itifaki halisi inayokaguliwa |
-| **Proof** | Msururu wa hatua za kimantiki zinazoanzisha madai kwa kesi zote |
-| **Proof assistant / theorem prover** | Programu (Lean, Rocq, Isabelle) inayoangalia kila hatua ya uthibitisho |
-| **Machine-checked** | Imethibitishwa hatua kwa hatua na kompyuta, si kwa usomaji wa kibinadamu pekee |
-| **Induction** | Mbinu ya uthibitisho: ni kweli mwanzoni, na kila hatua huipeleka kwenye inayofuata |
-| **Assumption** | Sharti ambalo uthibitisho unategemea; ikiwa si kweli, dhamana inaweza isiweze kushikilia |
+| **Formal verification** | Kuthibitisha, kihisabati, kwamba mfumo hutimiza ubainishaji kwa hali zote |
+| **Specification** | Kauli sahihi ya maana ya “tabia sahihi” |
+| **System** | Programu halisi, saketi, au itifaki inayokaguliwa |
+| **Proof** | Mlolongo wenye kikomo wa hatua za kimantiki unaoanzisha dai kwa hali zote |
+| **Proof assistant / theorem prover** | Programu (Lean, Rocq, Isabelle) inayokagua kila hatua ya thibitisho |
+| **Machine-checked** | Imethibitishwa hatua kwa hatua na kompyuta, si kwa kusomwa na binadamu pekee |
+| **Induction** | Mbinu ya uthibitisho: ni kweli mwanzoni, na kila hatua huipeleka hadi inayofuata |
+| **Assumption** | Sharti ambalo thibitisho hutegemea; likiwa si kweli, dhamana huenda isishikilie |
 
 ---
 
-## FAQs
+## Maswali Yanayoulizwa Mara kwa Mara
 
-** Je, uthibitisho rasmi kuchukua nafasi ya kupima?**
-Hapana. Wao kukamilisha kila mmoja. kupima huchukua masuala ya vitendo na dhana potofu kwa bei rahisi; uthibitishaji unazuia makundi nzima ya mdudu kwamba upimaji inaweza kamwe sampuli.
+**Je, uthibitishaji rasmi unachukua nafasi ya majaribio?**
+Hapana. Hukamilishana. Majaribio hugundua matatizo ya kiutendaji na dhana potofu kwa gharama ndogo; uthibitishaji huondoa aina nzima za hitilafu ambazo majaribio yanaweza yasichukue kamwe kama sampuli.
 
-** Kama ni nguvu sana, kwa nini kila kitu si rasmi kuthibitishwa?**
-Ni ghali na inahitaji ujuzi maalum, ingawa AI msaada ni kupunguza gharama hiyo. Imehifadhiwa kwa mifumo ambapo mdudu nadra itakuwa janga la, ambayo ni hasa mahali ambapo gharama yake pays off.
+**Ikiwa una nguvu sana, kwa nini kila kitu hakithibitishwi rasmi?**
+Ni ghali na huhitaji ustadi wa wataalamu, ingawa msaada wa AI unapunguza gharama hiyo. Huhifadhiwa kwa mifumo ambamo hitilafu nadra ingekuwa janga, ambako gharama yake hulipa hasa.
 
-** Je, mfumo rasmi kuthibitishwa bado kushindwa?**
-Ndiyo, kama vipimo ilikuwa na makosa, ufafanuzi alikuwa misstated, dhana hakuwa kushikilia, au kushindwa liko nje ya kile kilichotajwa. ushahidi inashughulikia tu nini inadai kufunika.
+**Je, mfumo uliothibitishwa rasmi bado unaweza kushindwa?**
+Ndiyo, ikiwa ubainishaji ulikuwa mbaya, ufafanuzi ulielezwa vibaya, dhana haikushikilia, au kushindwa kuko nje ya kilichobainishwa. Thibitisho hufunika tu kile kinachodai kufunika.
 
-** Je, uthibitisho wa mashine uliopimwa ni wenye kuaminika zaidi kuliko ule wa kibinadamu?**
-Kwa uthibitisho mkubwa, tata kwa ujumla ndiyo. Mashine haitapuuza pengo dogo au kukubali mwendo wa mkono, ingawa bado inaamini vipimo na ufafanuzi uliopewa.
+**Je, thibitisho lililokaguliwa na mashine linaaminika zaidi kuliko la binadamu?**
+Kwa thibitisho kubwa na tata, kwa kawaida ndiyo. Mashine haitapuuza pengo dogo au kukubali kauli isiyo na uthibitisho, ingawa bado huamini ubainishaji na fafanuzi ilizopewa.
 
-** Kama AI husaidia kuandika uthibitisho, kwa nini kuamini?**
-Kwa sababu msaidizi wa uthibitisho huangalia kila hatua kwa njia ya mitambo. AI inapendekeza hatua; mashine inathibitisha yao. Hatua mbaya ni tu kukataliwa, hivyo AI kuharakisha kazi bila kudhoofisha dhamana.
+**Ikiwa AI husaidia kuandika thibitisho, kwa nini uliamini?**
+Kwa sababu msaidizi wa thibitisho hukagua kila hatua kimitambo. AI hupendekeza hatua; mashine huzithibitisha. Hatua isiyo sahihi hukataliwa tu, kwa hiyo AI huharakisha kazi bila kudhoofisha dhamana.
 
 ---
 
-### Jaribu kutambua hisia zako za ndani.
+### Jaribu intuisheni yako
 
-Unathibitisha kwamba programu ya benki "hairuhusu kamwe usawa wa akaunti uwe hasi". Mwaka mmoja baadaye, pesa bado hazipo. Ni vipi zote mbili zinaweza kuwa kweli kwa wakati mmoja? * ((Jibu hapa chini.)) *
+Unathibitisha kwamba programu ya benki “kamwe hairuhusu salio la akaunti kuwa hasi.” Mwaka mmoja baadaye, fedha bado zinapotea. Je, yote mawili yanawezaje kuwa kweli kwa wakati mmoja? *(Jibu hapa chini.)*
 
-<details><summary>Answer</summary>
+<details><summary>Jibu</summary>
 
-Uthibitisho ulihakikisha mali moja tu: mizani haiwezi kuwa hasi. Pesa zinaweza kutoweka kwa njia ambazo hazina kamwe hazishughulikiwi, kwa mfano mdudu anayehamisha pesa kwenye akaunti mbaya (bado sio hasi), au kasoro katika sehemu ya mfumo ambayo haikuelezewa kamwe. Ukaguzi ulifanya kile kilichoahidiwa na hakuna zaidi. Hii ni tahadhari ya Sehemu ya 6 inatumika: uthibitishaji unafunika uainishaji, sio kila wazo linalowezekana la "sahihi".
+Thibitisho lilihakikisha sifa moja hasa: masalio kamwe hayawi hasi. Fedha zinaweza kupotea kwa njia ambazo sifa hiyo haikushughulikia kamwe, kwa mfano hitilafu inayohamisha fedha hadi akaunti isiyo sahihi (ambayo bado si hasi), au kasoro katika sehemu ya mfumo ambayo haikubainishwa kamwe. Uthibitishaji ulifanya hasa ulichokuwa umeahidi na hakuna zaidi. Hii ni tahadhari ya Sehemu ya 6 ikifanya kazi: thibitisho hufunika ubainishaji, si kila wazo linalowezekana la “usawa.”
 </details>
 
 ---
 
-### Ni nini kinachofuata?
+### Kinachofuata
 
-** Sehemu ya 2 · Orchard Bug:** sisi kurejea kwa kweli 2026 hadithi katika full. mfumo wa faragha siri kiasi kutumia cryptographic ushahidi, na moja chini-constrained mstari katika hesabu yake ilimaanisha kwamba uthibitisho hizo inaweza kufanywa uongo, kuruhusu unlimited bandia asiyeonekana. Tutaona hasa nini "mzunguko chini ya constrained" maana, ni kwa nini darasa hili la mdudu unaweza kujificha milele, na kwa nini imekuwa kilichotokea zaidi ya mara moja.
+**Sehemu ya 2 · Hitilafu ya Orchard:** tunageukia simulizi halisi la 2026 kwa ukamilifu. Mfumo wa faragha ulificha kiasi kwa kutumia thibitisho za kriptografia, na mstari mmoja usiowekewa vikwazo vya kutosha katika hisabati yake ulimaanisha kuwa thibitisho hizo zingeweza kufanywa ziseme uongo, zikuruhusu kughushi kusikoonekana bila kikomo. Tutaona hasa maana ya “saketi isiyowekewa vikwazo vya kutosha,” kwa nini aina hii ya hitilafu inaweza kujificha milele, na kwa nini imetokea zaidi ya mara moja.
 
-* Sehemu ya* Formal Verification * mfululizo kwa ajili ya [ZecHub](https://zechub.org).*
+*Sehemu ya* Mfululizo wa Uthibitishaji Rasmi *kwa [ZecHub](https://zechub.org).*

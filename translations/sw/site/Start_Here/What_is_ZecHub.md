@@ -6,26 +6,26 @@
 # ZecHub ni nini?
 ---
 
-ZecHub ni kituo cha elimu ya madaraka kwa Zcash. Lengo la [ZecHub](http://zechub.xyz) ni kutoa jukwaa la elimu ambapo wanajamii wanaweza kufanya kazi pamoja katika kujenga, kuthibitisha na kukuza maudhui ambayo inasaidia mazingira Zcash. Tunafanya hili kupitia michakato chache.
+ZecHub ni kitovu cha elimu kilichogatuliwa [decentralized] kwa ajili ya Zcash. Lengo la [ZecHub](http://zechub.xyz) ni kutoa jukwaa la elimu ambapo wanajamii wanaweza kushirikiana katika kuunda, kuthibitisha na kukuza maudhui yanayounga mkono mfumo ikolojia wa Zcash. Tunafanya hivyo kupitia mbinu chache.
 
 1. [Tutorials](https://www.youtube.com/playlist?list=PL6_epn0lASLFF28ePj7P5TvtMG_WE7p3O)
 2. [Wiki-docs](https://zechub.wiki/)
-3. [Podcast kuhojiana na wanajamii wa jamii ya watu wenye ulemavu](https://www.youtube.com/playlist?list=PL6_epn0lASLHlNCMtUErX8UfaJK6N9K5O).
-4. [A Weekly Zcash jarida.](https://zechub.substack.com/)
+3. [A Podcast interviewing community members](https://www.youtube.com/playlist?list=PL6_epn0lASLHlNCMtUErX8UfaJK6N9K5O).
+4. [Jarida la habari la kila wiki la Zcash.](https://zechub.substack.com/)
 
-Mafunzo, blogi fupi na jarida ni chanzo wazi na zimehifadhiwa kwenye GitHub, ikimaanisha kuwa mtu yeyote kutoka kwa jamii anaweza kuchangia. Hii ni kuhakikisha yaliyomo ni sahihi na kwamba kituo chenyewe hakina shida yoyote ya kutofaulu.
+Mafunzo, blogu za muundo mfupi na jarida la habari ni vya chanzo huria [open source] na vinapangishwa kwenye GitHub, kumaanisha kuwa mtu yeyote kutoka katika jamii anaweza kuchangia. Hii ni kuhakikisha maudhui ni sahihi na kwamba chaneli yenyewe haina sehemu moja ya kushindwa.
 
-Kama wewe ni mpya kwa Zcash, kutumia [mwongozo huu](/start-here/new-user-guide).****
+Ikiwa wewe ni mgeni katika Zcash, tumia [mwongozo huu](/start-here/new-user-guide).****
 
-## Jinsi ya kufanya mabadiliko kwa ZecHub
+## Jinsi ya kufanya mabadiliko kwenye ZecHub
 
 ---
 
-1. Nenda kwa [ZecHub GitHub repo](https://github.com/ZecHub/zechub)
+1. Nenda kwenye hifadhi [repository] ya [ZecHub ya GitHub](https://github.com/ZecHub/zechub)
    
-2. Unda akaunti mpya ya GitHub au ingia na yako mwenyewe
+2. Unda akaunti mpya ya GitHub au ingia kwa kutumia yako mwenyewe
    
-3. Kufuata mwongozo huu kujifunza jinsi ya kufanya ombi kuvuta:
+3. Fuata mwongozo huu ili ujifunze jinsi ya kutuma ombi la kuvuta [pull request]:
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -39,11 +39,11 @@ Kama wewe ni mpya kwa Zcash, kutumia [mwongozo huu](/start-here/new-user-guide).
 </div>
 
 
-## Miongozo ya Mchangiaji
+## Miongozo kwa Wachangiaji
 
 ---
 
-Katika maslahi ya kudumisha kuangalia sare kwa ZecHub, kuna template ambayo unaweza kutumia wakati wa kuongeza kurasa repo.
+Kwa madhumuni ya kudumisha mwonekano unaofanana wa ZecHub, kuna kiolezo unachoweza kutumia unapoongeza kurasa kwenye hifadhi.
 
 ```markdown
 1. All pages should have additional resources (ie. links to z.cash) to support content
@@ -59,8 +59,8 @@ Michango: [hapa](https://mainnet.zcashexplorer.app/ua/u17sawf3pdh7z6tsy83vhjd2z7
 
 
 
-** UTAYA: ZecHub ni kabisa huru na wazi chanzo mpango ilianzishwa na Zcash wanachama wa jamii. Hakuna yaliyomo katika hifadhi hii GitHub inapaswa kuchukuliwa ushauri wa kifedha au uwekezaji - ni kwa ajili ya habari tu.**
+**KANUSHO: ZecHub ni mpango huru kabisa na wa chanzo huria ulioanzishwa na wanajamii wa Zcash. Hakuna chochote kilichomo katika hifadhi hii ya GitHub kinachopaswa kuchukuliwa kuwa ushauri wa kifedha au uwekezaji - ni kwa madhumuni ya taarifa pekee.**
 
 ---
 
-* Kama ungependa kuongeza, au kupendekeza mabadiliko ya ukurasa huu wiki, tafadhali kichwa kwa [ZecHub github repo](https://github.com/ZecHub/zechub) na kuwasilisha ombi la kuvuta.*
+*Ikiwa ungependa kuongeza au kupendekeza marekebisho kwenye ukurasa huu wa wiki, tafadhali nenda kwenye hifadhi ya GitHub ya [ZecHub](https://github.com/ZecHub/zechub) na utume ombi la kuvuta.*

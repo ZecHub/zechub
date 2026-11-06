@@ -1,205 +1,205 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Using_Zcash/Payment_Processors.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Hariri Ukurasa"/>
 </a>
 
-# Zcash Malipo Processors
+# Zcash Vichakataji vya malipo [Payment Processors]
 
-Njia za kukubali ZEC kama muuzaji, ikilinganishwa kwa pamoja. Kila kuingia ilichunguzwa dhidi ya tovuti na API ya mtoa huduma mwenyewe mnamo ** 29 Julai 2026**.
+Njia za kukubali ZEC kama mfanyabiashara, zikilinganishwa bega kwa bega. Kila ingizo lilichunguzwa dhidi ya tovuti na API ya mtoa huduma mwenyewe tarehe **29 Julai 2026**.
 
-Msaada kwa ajili ya mali faragha mabadiliko mara nyingi, hivyo kila safu hubeba yake mwenyewe kuthibitishwa tarehe. Kama wewe ni kusoma hii miezi baadaye, kuangalia tovuti mtoa kabla ya kuunganisha.
+Usaidizi wa mali za faragha [privacy assets] hubadilika mara kwa mara, kwa hiyo kila safu ina tarehe yake ya uthibitisho. Ikiwa unasoma hili miezi kadhaa baadaye, angalia tovuti ya mtoa huduma kabla ya kuunganisha huduma hiyo.
 
 <div class="processor-table">
 
-| Kichakataji | Uangalizi | ZEC Iliyolindwa | Mwenyeji binafsi | Ada ya mfanyabiashara | Mikoa / KYC | Imethibitishwa |
+| Kichakataji | Uhifadhi | ZEC ya faragha [shielded] | Kujihudumia | Ada ya mfanyabiashara | Maeneo / KYC | Imethibitishwa |
 |:--|:--|:--|:--|:--|:--|:--|
-| [CipherPay](https://www.cipherpay.app) | Isiyo ya kifungoni | Ndiyo, Orchard kupitia Anwani za Umoja | Ndiyo, chanzo huria | 1% kwa kila malipo, bila malipo ikiwa inajiendesha yenyewe | Hakuna KYC, maeneo hayajatajwa | 2026-07-29 |
-| [Seva ya BTCPay](https://github.com/btcpay-zcash/btcpayserver-zcash-plugin) | Haijawekwa kizuizini, ufunguo wa kutazama pekee | Ndiyo, imehifadhiwa pekee (Sapling, Orchard, UA) | Ndiyo, chanzo huria | Hakuna, unalipa ada za mtandao pekee | Kimataifa, hakuna KYC | 2026-07-29 |
-| [ZGo](https://zgo.cash/) | Isiyo ya kifungoni | Ndiyo, Sapling na Orchard | Hapana, huduma iliyopangishwa | Kipindi cha kulipia mapema, bei haijachapishwa | Hakuna KYC iliyotajwa, maeneo hayajatajwa | 2026-07-29 |
-| [Flexa](https://flexa.co/) | Mteja anajilinda, mfanyabiashara anatulia katika fiat | Matumizi ya mteja yamehifadhiwa, upande wa kupokea haujaandikwa | No | 1% kwa kila malipo | Marekani na nchi 37 za SEPA, ZEC katika EU hazijathibitishwa | 2026-07-29 |
-| [NOWPayments](https://nowpayments.io/supported-coins/zcash-payments) | Kutokuwa chini ya ulinzi kwa chaguo-msingi | Hapana, anwani ya uwazi pekee | No | 0.5%, au 1% pamoja na ubadilishaji | Kimataifa isipokuwa pale ambapo imepigwa marufuku, hakuna KYC ya kuanza | 2026-07-29 |
-| [Plisio](https://plisio.net/accept-zcash) | Uhifadhi, licha ya uuzaji | Haijarekodiwa | No | API ya 0.5%, lebo nyeupe ya 1.5% | Hakuna KYC ya kupokea | 2026-07-29 |
-| [Binance Pay](https://pay.binance.com/en) | Uhifadhi, nje ya mnyororo | Hapana, amana zilizolindwa zimekataliwa | No | Pochi ya bure kwa pochi, malipo ya 0.8% | Imezuiliwa kijiografia, ZEC imeondolewa kwenye orodha katika FR, ES, IT, PL | 2026-07-29 |
+| [CipherPay](https://www.cipherpay.app) | Isiyohifadhiwa na mtu mwingine [Non-custodial] | Ndiyo, Orchard kupitia Anwani Zilizounganishwa | Ndiyo, chanzo huria | 1% kwa kila malipo, bila malipo ikiwa unajihudumia | Hakuna KYC, maeneo hayajaelezwa | 2026-07-29 |
+| [BTCPay Server](https://github.com/btcpay-zcash/btcpayserver-zcash-plugin) | Isiyohifadhiwa na mtu mwingine, ufunguo wa kutazama pekee | Ndiyo, ya faragha pekee (Sapling, Orchard, UA) | Ndiyo, chanzo huria | Hakuna, unalipa ada za mtandao pekee | Ulimwenguni kote, hakuna KYC | 2026-07-29 |
+| [ZGo](https://zgo.cash/) | Isiyohifadhiwa na mtu mwingine | Ndiyo, Sapling na Orchard | Hapana, huduma inayopangishwa | Kipindi kinacholipiwa mapema, bei haijachapishwa | Hakuna KYC iliyoelezwa, maeneo hayajaelezwa | 2026-07-29 |
+| [Flexa](https://flexa.co/) | Mteja hujihifadhi mwenyewe, mfanyabiashara hulipwa kwa fiat | Mteja hutumia mali za faragha, upande unaopokea haujaandikwa | Hapana | 1% kwa kila malipo | Marekani na nchi 37 za SEPA, ZEC katika EU haijathibitishwa | 2026-07-29 |
+| [NOWPayments](https://nowpayments.io/supported-coins/zcash-payments) | Isiyohifadhiwa na mtu mwingine kwa chaguomsingi | Hapana, anwani ya uwazi [transparent] pekee | Hapana | 0.5%, au 1% pamoja na ubadilishaji | Ulimwenguni kote isipokuwa palipokatazwa, hakuna KYC kuanza | 2026-07-29 |
+| [Plisio](https://plisio.net/accept-zcash) | Inayohifadhiwa na mtu mwingine, licha ya matangazo | Haijaandikwa | Hapana | 0.5% API, 1.5% white label | Hakuna KYC ili kupokea | 2026-07-29 |
+| [Binance Pay](https://pay.binance.com/en) | Inayohifadhiwa na mtu mwingine, off-chain | Hapana, amana za faragha zinakataliwa | Hapana | Pochi hadi pochi bila malipo, malipo ya utoaji 0.8% | Ina vikwazo vya kijiografia, ZEC imeondolewa kwenye orodha nchini FR, ES, IT, PL | 2026-07-29 |
 
 </div>
 
-### Nguzo hizo zinamaanisha nini?
+### Maana ya safu
 
-** Ulinzi wa data** ni kama processor anaweka ZEC yako. Non-Uhifadhi maana yake huenda kwa mkoba wewe kudhibiti.
+**Uhifadhi** ni kama kichakataji kinashikilia ZEC yako. Isiyohifadhiwa na mtu mwingine inamaanisha kuwa inaingia kwenye pochi [wallet] unayodhibiti.
 
-**ZEC Shielded** ni kama unaweza kulipwa katika bwawa shielded. Uwazi tu ina maana kiasi na anwani ni umma juu ya blockchain.
+**ZEC ya faragha** ni kama unaweza kulipwa kwenye bwawa la faragha [shielded pool]. Uwazi pekee inamaanisha kiasi na anwani ziko wazi kwenye blockchain.
 
-** Self-host** ni kama unaweza kukimbia programu mwenyewe, bila kampuni katika katikati.
+**Kujihudumia** ni kama unaweza kuendesha programu mwenyewe, bila kampuni katikati.
 
-** ada ya mfanyabiashara** haijumuishi ada za mtandao wa Zcash, ambazo mtu hulipa katika kila kesi.
+**Ada ya mfanyabiashara** haijumuishi ada za mtandao za Zcash, ambazo mtu hulipa katika kila hali.
 
-Wakati mtoa huduma haina kuchapisha kitu, kuingia anasema "si alisema" au "hakuna kumbukumbu ya" badala ya nadhani. Hiyo si sawa na "hapana".
+Ambapo mtoa huduma hajachapisha kitu, ingizo linasema “haijaelezwa” au “haijaandikwa” badala ya kukisia. Hilo si sawa na “hapana”.
 
-### Ni ipi ya kuchagua?
+### Lipi uchague
 
-Kwa faragha zaidi na udhibiti, tumia ** Seva ya BTCPay** au mwenyeji wa kibinafsi ** CipherPay. Zote ni ulinzi, chanzo wazi, na hazina pesa kwako.
+Kwa faragha na udhibiti wa juu zaidi, tumia **BTCPay Server** au **CipherPay** inayojihudumia. Vyote ni vya faragha, vya chanzo huria, na havikuhifadhii fedha.
 
-Kwa kuchukua malipo katika duka badala ya online, kutumia ** Flexa**.
+Kwa kupokea malipo dukani badala ya mtandaoni, tumia **Flexa**.
 
-Kwa lango mwenyeji ambapo malipo ya uwazi ni kukubalika, kutumia ** NOWPayments** au ** Plisio.
+Kwa lango linalopangishwa ambapo malipo ya uwazi yanakubalika, tumia **NOWPayments** au **Plisio**.
 
-Moja tahadhari thamani ya kurudia: uwazi tu processor kuchapisha kila kiasi malipo na anwani juu blockchain. Na kwa yoyote mwenyeji zisizo custodial mchakato wewe mkono kuangalia yako muhimu, hivyo kampuni inaweza kuona malipo yako hata kama hawezi kutumia yao. Self-hosting ni njia pekee ili kuepuka kwamba.
+Tahadhari moja inayostahili kurudiwa: kichakataji cha uwazi pekee huchapisha kila kiasi cha malipo na anwani kwenye blockchain. Na kwa kichakataji chochote kinachopangishwa kisichohifadhiwa na mtu mwingine, unakabidhi ufunguo wako wa kutazama, hivyo kampuni inaweza kuona malipo yako ingawa haiwezi kuyatumia. Kujihudumia ndiyo njia pekee ya kuepuka hilo.
 
 <div class="processor-note">
 
-**ZGo huduma onyo, 29 Julai 2026.** Zgo backend katika api.zgo.cash alirudi HTTP 503 juu ya kila mwisho wakati ukurasa huu alikuwa checked. mradi si kutelekezwa na mtunza wake ilikuwa hai katika jamii mwezi huu, lakini kuthibitisha huduma ni mbio kabla kutegemea yake.
+**Onyo la huduma ya ZGo, 29 Julai 2026.** Mfumo wa nyuma wa ZGo katika api.zgo.cash ulirejesha HTTP 503 kwenye kila endpoint wakati ukurasa huu ulipokuwa ukichunguzwa. Mradi haujaachwa na msimamizi wake alikuwa hai katika jumuiya mwezi huu, lakini thibitisha kuwa huduma inaendeshwa kabla ya kuitegemea.
 
 </div>
 
 ---
 
-## [CipherPay](https://www.cipherpay.app) <img src="/content-images/cipherpay-mark.png" alt="CipherPay logo" class="processor-logo" />
-- ** Aina ya msaada**: Shielded (Orchard, kupitia Unified Anwani)
-- ** Maelezo**: Kubali Zcash katika dakika, Non-matayarisho, Zero mnunuzi data, Hakuna mpatanishi.
-- ** URL**: [CipherPay](https://www.cipherpay.app)
-<img src="/content-images/cipherpay-mark.png" alt="CipherPay logo" width="200" hidden />
+## [CipherPay](https://www.cipherpay.app) <img src="/content-images/cipherpay-mark.png" alt="Nembo ya CipherPay" class="processor-logo" />
+- **Aina ya Usaidizi**: Ya faragha (Orchard, kupitia Anwani Zilizounganishwa)
+- **Maelezo**: Kubali Zcash kwa dakika chache, isiyohifadhiwa na mtu mwingine, bila data ya mnunuzi, bila mpatanishi.
+- **URL**: [CipherPay](https://www.cipherpay.app)
+<img src="/content-images/cipherpay-mark.png" alt="Nembo ya CipherPay" width="200" hidden />
 
-Wewe kutoa CipherPay view-tu muhimu, hivyo malipo kwenda moja kwa moja kwenye mkoba yako mwenyewe na kamwe ana fedha. Inatumia anwani mpya kwa kila muswada.
+Unaipa CipherPay ufunguo wa kutazama pekee, hivyo malipo huenda moja kwa moja kwenye pochi yako mwenyewe na haihifadhi kamwe fedha. Hutumia anwani mpya kwa kila ankara.
 
-Orchard only. There is no Sapling or transparent support, even though the repository README mentions Sapling.
+Orchard pekee. Hakuna usaidizi wa Sapling au wa uwazi, ingawa README ya hifadhi inataja Sapling.
 
-Ni gharama 1% kwa malipo, na kitu chochote wakati wewe kukimbia mwenyewe. Kitu nzima ni wazi chanzo, kama kutu binary pamoja SQLite au kama Docker picha. Hakuna KYC, na wanunuzi hawana haja ya akaunti.
+Inagharimu 1% kwa kila malipo, na hakuna chochote kabisa ukiendesha mwenyewe. Kila kitu ni chanzo huria, kama binary ya Rust yenye SQLite au kama picha ya Docker. Hakuna KYC, na wanunuzi hawahitaji akaunti.
 
-Ushirikiano hufunika Shopify, WooCommerce, REST API, checkout iliyohifadhiwa, viungo vya malipo na QR ya kibinafsi.
+Miunganisho inajumuisha Shopify, WooCommerce, REST API, checkout inayopangishwa, viungo vya malipo, na QR ya ana kwa ana.
 
-Mambo mawili ya kupima. Ilizinduliwa Februari 2026 na hana kuchapishwa ukaguzi wa usalama. Na juu ya tier mwenyeji operator ana kuangalia yako muhimu, hivyo inaweza kuona malipo yako. Self-hosting kuondoa kwamba. Malipo Shielded pia ni mwisho, kwa hiyo refund inahitaji mnunuzi kukupa anwani.
+Mambo mawili ya kutathmini. Ilizinduliwa Februari 2026 na haina ukaguzi wa usalama uliochapishwa. Na katika kiwango kinachopangishwa, mwendeshaji anashikilia ufunguo wako wa kutazama, hivyo anaweza kuona malipo yako. Kujihudumia huondoa hilo. Malipo ya faragha pia ni ya mwisho, hivyo kurejesha fedha kunahitaji mnunuzi akupe anwani.
 
-** Mwisho kuthibitishwa:** 2026-07-29
-
----
-
-## [BTCPay Server](https://github.com/btcpay-zcash/btcpayserver-zcash-plugin) <img src="/content-images/btcpay-mark.png" alt="BTCPay Server logo" class="processor-logo" />
-- **Support Type**: Shielded only (Sapling, Orchard, Unified Address)
-- **Maelezo**: BTCPay Server ni wazi chanzo, binafsi mwenyeji cryptocurrency malipo processor.
-- ** URL**: [BTCPay Server](https://github.com/btcpay-zcash/btcpayserver-zcash-plugin)
-<img src="/content-images/btcpay-mark.png" alt="BTCPay Server logo" width="200" hidden />
-
-Nguvu chaguo juu ya ulinzi. backend wake mkoba ni view-tu na ana hakuna mbegu au siri muhimu, hivyo hata server compromised hawezi kutumia fedha yako.
-
-Shielded tu, kufunika Sapling, Orchard na Unified anwani. Hakuna uwazi fallback, hivyo si mpango karibu moja.
-
-Kuweka ni unahitaji btcpay-zcash Docker uma kwenye tawi feat / ZEC, pamoja na kuangalia muhimu nje kutoka mkoba kama vile Zkool au Zingo. By default anaongea kwa lightwalletd kijijini, au unaweza kuendesha Zebra na lightwallettd mwenyewe.
-
-Moja ya mapungufu kujua kuhusu: Plugin inatumia moja Zcash mkoba kwa kila duka juu ya mfano, hivyo si kukimbia kwenye server pamoja. Per-duka pochi ni kuwa kazi katika.
-
-Hakuna ada kwa programu yenyewe. Unalipa Zcash mtandao na gharama yoyote ya mwenyeji wako wa malipo.
-
-** Mwisho kuthibitishwa:** 2026-07-29
+**Ilithibitishwa mwisho:** 2026-07-29
 
 ---
 
-## [ZGo](https://zgo.cash/) <img src="/content-images/zgo-prp2-497679039b.webp" alt="ZGo logo" class="processor-logo" />
-- ** Aina ya msaada**: Shielded (Sapling na Orchard)
-- **Maelezo**: ZGo ni malipo ya elektroniki jukwaa kwamba huenda moja kwa moja kutoka mteja wako na wewe, bila vyama vya tatu kushiriki.
-- ** URL**: [ZGo](https://zgo.cash/)
-<img src="/content-images/zgo-prp2-497679039b.webp" alt="ZGo logo" width="200" hidden />
+## [BTCPay Server](https://github.com/btcpay-zcash/btcpayserver-zcash-plugin) <img src="/content-images/btcpay-mark.png" alt="Nembo ya BTCPay Server" class="processor-logo" />
+- **Aina ya Usaidizi**: Ya faragha pekee (Sapling, Orchard, Anwani Iliyounganishwa)
+- **Maelezo**: BTCPay Server ni kichakataji cha malipo ya sarafu-fiche chenye chanzo huria, kinachojihudumia.
+- **URL**: [BTCPay Server](https://github.com/btcpay-zcash/btcpayserver-zcash-plugin)
+<img src="/content-images/btcpay-mark.png" alt="Nembo ya BTCPay Server" width="200" hidden />
 
-A hadi kukimbia katika browser, hivyo mbali ya kompyuta ndogo, kibao au simu inakuwa checkout. Pia kuna WooCommerce Plugin na REST API. Ilikuwa kujengwa kwa Vergara Technologies na unafadhiliwa Zcash Community Grants, ikiwa ni pamoja na hoja kutoka zcashd Zebra.
+Chaguo imara zaidi kuhusu uhifadhi. Mfumo wake wa nyuma wa pochi ni wa kutazama pekee na haushikilii seed wala ufunguo wa siri, hivyo hata seva iliyoathiriwa haiwezi kutumia fedha zako.
 
-Fedha huenda kutoka kwa mteja moja kwa moja kwenye pochi yako, bila mtu yeyote kati.
+Ya faragha pekee, ikijumuisha Sapling, Orchard na Anwani Zilizounganishwa. Hakuna mbadala wa uwazi, kwa hiyo usipange ukitegemea huo.
 
-Shielded, kufunika Sapling na Orchard kupitia Unified Anwani, na inafuata ZIP 321. hakuna chanzo cha sasa anasema ni kushughulikia anwani uwazi, hivyo ukurasa huu tena madai kwamba anafanya.
+Ili kuisakinisha unahitaji fork ya Docker ya btcpay-zcash kwenye tawi la feat/zec, pamoja na ufunguo wa kutazama uliosafirishwa kutoka pochi kama Zkool au Zingo. Kwa chaguomsingi huwasiliana na lightwalletd ya mbali, au unaweza kuendesha Zebra na lightwalletd mwenyewe.
 
-Huwezi kweli binafsi mwenyeji yake. ZGo anaendesha miundombinu ya Zcash kwa ajili yenu na kuchapisha hakuna mwongozo kupelekwa. chanzo ni umma juu ya mtunza mwenyewe Git server, ingawa watu nakala GitLab kawaida kupata ni 2022 kioo stale.
+Kizuizi kimoja cha kujua: programu-jalizi hutumia pochi moja ya Zcash kwa kila duka kwenye instance, kwa hiyo usiiendeshe kwenye seva inayoshirikiwa. Pochi za kila duka zinafanyiwa kazi.
 
-ZGo anauza vikao kulipwa kabla na inahitaji kikao Pro kwa WooCommerce, lakini ukurasa bei ni sasa unreachable, hivyo hakuna takwimu inatajwa hapa.
+Hakuna ada kwa programu yenyewe. Unalipa ada za mtandao za Zcash na gharama zozote za upangishaji wako.
 
-** Mwisho kuthibitishwa:** 2026-07-29
-
----
-
-## [Flexa](https://flexa.co/) <img src="/content-images/flexa-mark.png" alt="Flexa logo" class="processor-logo" />
-- ** Aina ya msaada**: Mteja hutumia ulinzi, upande wa kupokea haujathibitishwa.
-- **Maelezo**: Flexa ni mtandao wa malipo ambayo inaruhusu wateja kutumia mali digital, ikiwa ni pamoja na Zcash, katika maeneo ya rejareja kutoka mkoba binafsi kuhifadhi.
-- ** URL**: [Flexa](https://flexa.co/)
-<img src="/content-images/flexa-mark.png" alt="Flexa logo" width="200" hidden />
-
-Flexa si gateway ya malipo, hivyo ni sio swap kwa wengine hapa. mteja kufungua Flexa-enabled mfuko kama vile Zodl, inaonyesha code moja wakati na duka scans yake. hakuna ankara ZEC na e-commerce Plugin.
-
-Mteja anaweka sarafu zao wenyewe mpaka wakati wao kulipa. Wewe kama mfanyabiashara kamwe kupokea ZEC. Flexa settles na wewe katika fedha ya kuchagua, hivyo upande crypto ni kushughulikiwa nao.
-
-Flexa mwenyewe tangazo inaelezea Zcash ushirikiano kama kulipa na walinzi ZEC. Ni aina gani ya anwani ambayo Flexa inapokea kwa haijachapishwa popote.
-
-Ada ni 1% kwa malipo, na kubadilisha na uhifadhi pamoja bila gharama ya ziada.
-
-Inafanya kazi nchini Marekani na, tangu Julai 2026, katika nchi 37 za SEPA. Kama ZEC hasa inaweza kutumika Ulaya haijaelezwa.
-
-** Mwisho kuthibitishwa:** 2026-07-29
+**Ilithibitishwa mwisho:** 2026-07-29
 
 ---
 
-## [NOWPayments](https://nowpayments.io/supported-coins/zcash-payments) <img src="/content-images/nowpayments-wordmark.png" alt="NOWPayments logo" class="processor-logo processor-logo-wide" />
-- ** Aina ya msaada**: Uwazi tu.
-- **Maelezo**: NOWPayments ni lango la malipo ya crypto ambayo inawawezesha wafanyabiashara kukubali malipo na michango ya Zcash kwa urahisi.
-- ** URL**: [NOWPayments](https://nowpayments.io/supported-coins/zcash-payments)
-<img src="/content-images/nowpayments-wordmark.png" alt="NOWPayments logo" width="200" hidden />
+## [ZGo](https://zgo.cash/) <img src="/content-images/zgo-prp2-497679039b.webp" alt="Nembo ya ZGo" class="processor-logo" />
+- **Aina ya Usaidizi**: Ya faragha (Sapling na Orchard)
+- **Maelezo**: ZGo ni jukwaa la malipo ya kielektroniki linalokwenda moja kwa moja kutoka kwa mteja wako hadi kwako, bila wahusika wa tatu.
+- **URL**: [ZGo](https://zgo.cash/)
+<img src="/content-images/zgo-prp2-497679039b.webp" alt="Nembo ya ZGo" width="200" hidden />
 
-Hakuna msaada kulindwa. nyaraka zao anasema kuweka anwani ya uwazi kwa Zcash, na ZEC ni sarafu tu wao pekee nje njia hiyo kila malipo kupokea ni umma juu blockchain.
+Mashine ya malipo unayoendesha kwenye kivinjari, hivyo kompyuta mpakato, tableti au simu huwa checkout. Pia kuna programu-jalizi ya WooCommerce na REST API. Ilijengwa na Vergara Technologies na kufadhiliwa na Zcash Community Grants, ikijumuisha kuhama kutoka zcashd hadi Zebra.
 
-Hakuna ulinzi kwa default. FAQ yao anasema hawana kuhifadhi fedha na kamwe kushikilia funguo binafsi. Kuna hiari ya uangalizi wa salio, hivyo kuangalia mipangilio yako akaunti kama unahitaji kuwa na uhakika.
+Fedha huenda moja kwa moja kutoka kwa mteja hadi kwenye pochi yako, bila mtu katikati.
 
-Ada ni 0.5% kwa moja malipo, au 1% ya fedha mbalimbali, kiwango cha kudumu, au "ada kulipwa na mtumiaji" malipo, pamoja na ada za mtandao juu.
+Ya faragha, ikijumuisha Sapling na Orchard kupitia Anwani Zilizounganishwa, na inafuata ZIP 321. Hakuna chanzo cha sasa kinachosema inashughulikia anwani za uwazi, kwa hiyo ukurasa huu hausisitizi tena kwamba inafanya hivyo.
 
-Inapatikana duniani kote isipokuwa ambapo sheria inakataza. Huna haja ya KYC kuanza kukubali crypto, tu kuondoa fiat.
+Huwezi kwa hakika kujiendeshea mwenyewe. ZGo huendesha miundombinu ya Zcash kwa ajili yako na haichapishi mwongozo wa usambazaji. Chanzo kiko wazi kwenye seva ya Git ya msimamizi mwenyewe, ingawa nakala ya GitLab ambayo watu hupata kwa kawaida ni kioo cha zamani cha 2022.
 
-** Mwisho kuthibitishwa:** 2026-07-29
+Pia si bure. ZGo huuza vipindi vinavyolipiwa mapema na huhitaji kipindi cha Pro kwa WooCommerce, lakini ukurasa wa bei haupatikani kwa sasa, kwa hiyo hakuna kiasi kinachonukuliwa hapa.
 
----
-
-## [Plisio](https://plisio.net/accept-zcash) <img src="/content-images/plisio-wordmark.png" alt="Plisio logo" class="processor-logo processor-logo-wide" />
-- ** Aina ya msaada**: Uwazi (si kumbukumbu)
-- **Maelezo**: Plisio ni cryptocurrency malipo gateway kwamba inaruhusu biashara kukubali Zcash malipo.
-- ** URL**: [Plisio](https://plisio.net/accept-zcash)
-<img src="/content-images/plisio-wordmark.png" alt="Plisio logo" width="200" hidden />
-
-Kuitendea kama kuhifadhi. masoko Plisio ya wito ni yasiyo ya uhifadhi, lakini kurasa zake mwenyewe msaada kuelezea mizani uliofanyika kwenye jukwaa, hifadhi baridi na mchakato wa uondoaji. madai non-hifadhi hakuweza kuthibitishwa.
-
-Plisio kamwe anasema ambayo aina ya anwani Zcash anatumia, hivyo kudhani wazi mpaka mtu kuthibitisha vinginevyo.
-
-mkoba ni bure, gateway na API gharama 0.5%, na White Label ni 1.5%. nyeupe Lebo ni rebranding ya huduma yao mwenyeji, si binafsi-hosting.
-
-Huna haja ya KYC kupokea malipo, na hakuna orodha ya nchi zilizozuiliwa kuchapishwa.
-
-** Mwisho kuthibitishwa:** 2026-07-29
+**Ilithibitishwa mwisho:** 2026-07-29
 
 ---
 
-## [Binance Pay](https://pay.binance.com/en) <img src="/content-images/binancepay-mark.png" alt="Binance Pay logo" class="processor-logo" />
-- ** Aina ya msaada**: Uwazi tu, amana za kulindwa zinakataliwa.
-- **Maelezo**: Binance Pay ni cryptocurrency malipo jukwaa ambayo inasaidia Zcash malipo.
-- ** URL**: [Malipo ya Binance Pay](https://pay.binance.com/en)
-<img src="/content-images/binancepay-mark.png" alt="Binance Pay logo" width="200" hidden />
+## [Flexa](https://flexa.co/) <img src="/content-images/flexa-mark.png" alt="Nembo ya Flexa" class="processor-logo" />
+- **Aina ya Usaidizi**: Mteja hutumia mali za faragha, upande unaopokea haujaandikwa
+- **Maelezo**: Flexa ni mtandao wa malipo unaowaruhusu wateja kutumia mali za kidijitali, ikijumuisha Zcash, katika maeneo ya rejareja kutoka pochi ya kujihifadhi mwenyewe.
+- **URL**: [Flexa](https://flexa.co/)
+<img src="/content-images/flexa-mark.png" alt="Nembo ya Flexa" width="200" hidden />
 
-Binance rejea ZEC kutumwa kutoka anwani ulinzi. kukataa kwamba ni sababu TEX anwani ziliundwa.
+Flexa si lango la checkout, kwa hiyo si mbadala wa nyingine zilizo hapa. Mteja hufungua pochi iliyowezeshwa na Flexa kama Zodl, huonyesha msimbo wa matumizi ya mara moja, na duka huuchanganua. Hakuna ankara ya ZEC wala programu-jalizi ya e-commerce.
 
-Ni kikamilifu custodial. Malipo hoja off-mnyororo kati ya Binance Pay pochi, na unahitaji kuthibitishwa akaunti Binance.
+Mteja huweka sarafu zake mwenyewe hadi wakati wa kulipa. Wewe kama mfanyabiashara hupokei kamwe ZEC. Flexa hulipa nawe kwa sarafu unayochagua, hivyo upande wa crypto hushughulikiwa nao.
 
-Uhamisho wa mkoba-kwa-mfuko ni bure, malipo ya mfanyabiashara yana gharama 0.8% iliyowekwa juu kwa USD 5, na wafanyabiashara wa Programu ndogo hulipa 1%.
+Tangazo la Flexa lenyewe linaeleza muunganisho wa Zcash kama kulipa kwa ZEC ya faragha. Aina ya anwani ambayo Flexa hupokea haijachapishwa popote.
 
-Angalia upatikanaji ambapo wewe ni kabla ya kutegemea juu yake. Binance Pay haitolewa katika baadhi ya nchi na viwanda, ZEC imekuwa delisted kwa watumiaji nchini Ufaransa, Hispania, Italia na Poland tangu 2023, na huduma katika EEA imevurugwa chini MiCA .
+Ada ni 1% kwa kila malipo, huku ubadilishaji na uhifadhi vikijumuishwa bila gharama ya ziada.
 
-** Mwisho kuthibitishwa:** 2026-07-29
+Hufanya kazi Marekani na, tangu Julai 2026, katika nchi na maeneo 37 ya SEPA. Ikiwa ZEC hasa inaweza kutumika Ulaya haijaelezwa.
+
+**Ilithibitishwa mwisho:** 2026-07-29
 
 ---
 
-### Si kukubali tena ZEC
+## [NOWPayments](https://nowpayments.io/supported-coins/zcash-payments) <img src="/content-images/nowpayments-wordmark.png" alt="Nembo ya NOWPayments" class="processor-logo processor-logo-wide" />
+- **Aina ya Usaidizi**: Uwazi pekee
+- **Maelezo**: NOWPayments ni lango la malipo ya crypto linalowawezesha wafanyabiashara kukubali malipo na michango ya Zcash kwa urahisi.
+- **URL**: [NOWPayments](https://nowpayments.io/supported-coins/zcash-payments)
+<img src="/content-images/nowpayments-wordmark.png" alt="Nembo ya NOWPayments" width="200" hidden />
 
-Wote wawili walikuwa waliotajwa hapa kabla. kila mtoaji mwenyewe kuishi orodha ya fedha alikuwa checked juu 29 Julai 2026 na Zcash ni gone kutoka wote mbili.
+Hakuna usaidizi wa faragha. Nyaraka zao zinakuambia uweke anwani ya uwazi kwa Zcash, na ZEC ndiyo sarafu pekee wanayoitenga kwa namna hiyo. Kila malipo unayopokea yako wazi kwenye blockchain.
 
-**CoinPayments** haina orodha ZEC katika v2 yake sarafu ya orodha, urithi wake wa orodha au API zake kuishi fedha, na makala yake Zcash sasa inaelekeza kwa ukurasa wa nyumbani.
+Isiyohifadhiwa na mtu mwingine kwa chaguomsingi. Maswali yao yanayoulizwa mara kwa mara yanasema hawahifadhi fedha na kamwe hawashikilii funguo za faragha. Kuna salio la hiari linalohifadhiwa, kwa hiyo angalia mipangilio ya akaunti yako ikiwa unahitaji kuwa na uhakika.
 
-**CoinGate** haina orodha ZEC kwenye ukurasa wake mkono sarafu au katika API yake ya umma. Hakuna delisting ilitangazwa, hivyo sababu na tarehe ni haijulikani.
+Ada ni 0.5% kwa malipo ya moja kwa moja, au 1% kwa malipo ya sarafu nyingi, kiwango kisichobadilika, au malipo ya “ada hulipwa na mtumiaji”, pamoja na ada za mtandao juu yake.
 
-Kama ama huleta Zcash nyuma, kuongeza tena na tarehe safi kuthibitishwa.
+Inapatikana ulimwenguni kote isipokuwa pale sheria inapokataza. Huhitaji KYC kuanza kukubali crypto, ila tu kutoa fiat.
+
+**Ilithibitishwa mwisho:** 2026-07-29
+
+---
+
+## [Plisio](https://plisio.net/accept-zcash) <img src="/content-images/plisio-wordmark.png" alt="Nembo ya Plisio" class="processor-logo processor-logo-wide" />
+- **Aina ya Usaidizi**: Uwazi (haijaandikwa)
+- **Maelezo**: Plisio ni lango la malipo ya sarafu-fiche linaloruhusu biashara kukubali malipo ya Zcash.
+- **URL**: [Plisio](https://plisio.net/accept-zcash)
+<img src="/content-images/plisio-wordmark.png" alt="Nembo ya Plisio" width="200" hidden />
+
+Ichukulie kama inayohifadhiwa na mtu mwingine. Matangazo ya Plisio huiita isiyohifadhiwa na mtu mwingine, lakini kurasa zake za usaidizi zinaeleza salio linaloshikiliwa kwenye jukwaa, cold storage na mchakato wa kutoa fedha. Dai la kutohifadhiwa na mtu mwingine halikuweza kuthibitishwa.
+
+Plisio haisemi kamwe aina za anwani za Zcash inazotumia, kwa hiyo dhania uwazi hadi mtu athibitishe vinginevyo.
+
+Pochi ni bure, lango na API hugharimu 0.5%, na White Label ni 1.5%. White Label ni kubadilisha chapa kwa huduma yao inayopangishwa, si kujihudumia.
+
+Huhitaji KYC kupokea malipo, na hakuna orodha ya nchi zilizozuiwa iliyochapishwa.
+
+**Ilithibitishwa mwisho:** 2026-07-29
+
+---
+
+## [Binance Pay](https://pay.binance.com/en) <img src="/content-images/binancepay-mark.png" alt="Nembo ya Binance Pay" class="processor-logo" />
+- **Aina ya Usaidizi**: Uwazi pekee, amana za faragha zinakataliwa
+- **Maelezo**: Binance Pay ni jukwaa la malipo ya sarafu-fiche linalounga mkono malipo ya Zcash.
+- **URL**: [Binance Pay](https://pay.binance.com/en)
+<img src="/content-images/binancepay-mark.png" alt="Nembo ya Binance Pay" width="200" hidden />
+
+Binance hukataa ZEC inayotumwa kutoka anwani za faragha. Kukataliwa huko ndiko sababu anwani za TEX ziliundwa.
+
+Inahifadhiwa na mtu mwingine kikamilifu. Malipo husogea off-chain kati ya pochi za Binance Pay, na unahitaji akaunti ya Binance iliyothibitishwa.
+
+Uhamisho wa pochi hadi pochi hauna malipo, malipo ya utoaji kwa wafanyabiashara hugharimu 0.8% yenye ukomo wa USD 5, na wafanyabiashara wa Mini Program hulipa 1%.
+
+Angalia upatikanaji ulipo kabla ya kuitegemea. Binance Pay haitolewi katika baadhi ya nchi na sekta, ZEC imeondolewa kwenye orodha kwa watumiaji nchini Ufaransa, Hispania, Italia na Poland tangu 2023, na huduma katika EEA imevurugika chini ya MiCA.
+
+**Ilithibitishwa mwisho:** 2026-07-29
+
+---
+
+### Hazikubali tena ZEC
+
+Zote hizi mbili ziliorodheshwa hapa awali. Orodha ya sarafu hai ya kila mtoa huduma ilichunguzwa tarehe 29 Julai 2026 na Zcash haipo tena kwa zote mbili.
+
+**CoinPayments** haijaorodhesha ZEC katika orodha yake ya sarafu ya v2, orodha yake ya zamani, wala API yake ya sarafu hai, na makala yake ya Zcash sasa inaelekeza kwenye ukurasa mkuu.
+
+**CoinGate** haijaorodhesha ZEC kwenye ukurasa wake wa sarafu zinazoungwa mkono wala katika API yake ya umma. Hakuna kuondolewa kwenye orodha kulikotangazwa, kwa hiyo sababu na tarehe havijulikani.
+
+Ikiwa mojawapo itarudisha Zcash, iongeze tena kwa tarehe mpya ya uthibitisho.
 
 ### Kuweka ukurasa huu sahihi
 
-Usalama sarafu msaada moves kote, hivyo ukurasa huu ni tu kama nzuri kama kuangalia yake ya mwisho. Wakati wewe kupitia:
+Usaidizi wa sarafu za faragha hubadilika, kwa hiyo ukurasa huu ni mzuri kadiri ya ukaguzi wake wa mwisho. Unapouhakiki:
 
-1. Angalia mtoa huduma mwenyewe orodha ya sarafu au API. Orodha za tatu walikuwa nje ya tarehe kwa wote wa wasindikaji kuondolewa juu.
-2. Angalia ambayo Zcash aina ya anwani ni mkono. "Inasaidia Zcash" kawaida ina maana tu wazi anwani.
-3. Sasisha tarehe kuthibitishwa katika meza na sehemu hiyo ya mtoa huduma.
+1. Angalia orodha ya sarafu au API ya mtoa huduma mwenyewe. Orodha za wahusika wengine zilikuwa zimepitwa na wakati kwa vichakataji vyote viwili vilivyoondolewa hapo juu.
+2. Angalia aina za anwani za Zcash zinazoungwa mkono. “Inaauni Zcash” kwa kawaida humaanisha anwani za uwazi pekee.
+3. Sasisha tarehe ya uthibitisho katika jedwali na katika sehemu ya mtoa huduma huyo.
