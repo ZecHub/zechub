@@ -91,6 +91,9 @@ out
 .nuxt
 dist
 
+# Local history files
+.history/
+
 # Gatsby files
 .cache/
 .history/
