@@ -230,4 +230,4 @@ tutorials/shieldedNewsletter/daoAddresses.md
 tutorials/shieldedNewsletter/mynewsletter.md
 tutorials/shieldedNewsletter/readme.md
 tutorials/zenithserver/zenithBeta.md
-Zcash_Tech/Outgoing_Viewing_Keys.md
+
