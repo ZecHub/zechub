@@ -30,6 +30,8 @@ Wallets built on `zcash_client_backend` select an `OvkPolicy` when they build a 
 
 A convenience constructor creates a `Custom` policy from a single 32-byte value so that both the external and internal OVK are the same key.
 
+![Outgoing Viewing Key policy comparison](/content-images/ovk-policies.webp)
+
 See the [OvkPolicy documentation](https://zcash.github.io/librustzcash/rustdoc/latest/zcash_client_backend/wallet/enum.OvkPolicy.html) and [ZIP 310](https://zips.z.cash/zip-0310).
 
 ## What each policy is for
