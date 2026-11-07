@@ -190,6 +190,7 @@ contribute/Style_Guide.md
 contribute/ZecHub_DAO.md
 contribute/ZecWeekly_Newsletter.md
 footer.md
+guides/Akash_Network_Zakura.md
 guides/Akash_Network_Zcashd.md
 guides/Akash_Network_Zebra.md
 guides/Avalanche_RedBridge.md
@@ -211,6 +212,7 @@ guides/Raspberry_Pi_4_Full_Node.md
 guides/Raspberry_pi5_Zebra_Lightwalletd_Zingo.md
 guides/Raspberry_pi_4_Zebra_Node.md
 guides/ShapeShift_Zcash.md
+guides/Thus_Spoke_Zakura_Akash.md
 guides/Using_ZEC_Privately.md
 guides/Using_ZEC_in_DeFi.md
 guides/Verifying_Zcash_Releases.md
