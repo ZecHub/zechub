@@ -38,7 +38,7 @@ Tor & I2P 기술 - 개인 정보 보호가 중요한 이유
 
 [Raspberry Pi에서 Zcashd 노드를 실행하는 방법에 대한 비디오 튜토리얼](https://www.youtube.com/watch?v=SGYrzhs1l2k)
 
-[Zcash With Tor] (https://zechub.wiki/privacy-tools)
+[Zcash With Tor](https://zechub.wiki/privacy-tools)
 
 [다중 스칼라 곱셈으로 FROST 속도 향상](https://zfnd.org/speeding-up-frost-with-multi-scalar-multiplication/)(★)
 
@@ -76,7 +76,7 @@ Tor & I2P 기술 - 개인 정보 보호가 중요한 이유
 
 [Zcash나이지리아 축구팀 우승!](https://twitter.com/ZcashNigeria/status/1666812431023362049?s=20)
 
-[Zcast the zcash 팟캐스트 스페인어](https://www.youtube.com/ @ZcastEsp)
+[Zcast the zcash 팟캐스트 스페인어](https://www.youtube.com/@ZcastEsp)
 
 
 
@@ -92,7 +92,7 @@ Tor & I2P 기술 - 개인 정보 보호가 중요한 이유
 
 [Binance의 BNB 토큰, SEC 소송 직전에 수백만 건의 판매 주문](https://www.coindesk.com/markets/2023/06/09/binances-bnb-token-saw-millions-in-sell-orders-right-before-sec-lawsuits/)
 
-[1조 달러의 암호화폐 폭락이 새로운 코인베이스 경고를 촉발하고 BTC, ETH, BNB, XRP, ADA, DOGE, MATIC & SOL의 가격을 끌어올렸습니다.](https://www.forbes.com/sites/digital-assets/2023/06/10/bloodbath-sudden-1-trillion-crypto-crash-sparks-fresh-coinbase-warning-and-tanks-the-price-of-bitcoin-ethereum-bnb-xrp-cardano-dogecoin-polygon-and-solana/ ?sh=6ad380d15904)
+[1조 달러의 암호화폐 폭락이 새로운 코인베이스 경고를 촉발하고 BTC, ETH, BNB, XRP, ADA, DOGE, MATIC & SOL의 가격을 끌어올렸습니다.](https://www.forbes.com/sites/digital-assets/2023/06/10/bloodbath-sudden-1-trillion-crypto-crash-sparks-fresh-coinbase-warning-and-tanks-the-price-of-bitcoin-ethereum-bnb-xrp-cardano-dogecoin-polygon-and-solana/?sh=6ad380d15904)
 
 [SEC Clampdown은 바이낸스, 코인베이스 및 바이낸스US로부터 40억 달러의 예금 이탈을 촉진합니다.](https://www.coindesk.com/markets/2023/06/09/sec-clampdown-spurs-4b-deposit-flight-from-binance-coinbase-and-binanceus/)
 
