@@ -26,7 +26,7 @@ Alors que l'écosystème Zcash continue de se développer avec un nombre croissa
 
 ![zcash-sapling-vertical-fullcolor-2x](/content-images/233535552-f04b727e-078f-483a-8fbc-162848-1e5193fd90.webp)
 
-[Zcash Sapling] (https://z.cash/upgrade/sapling) est une mise à niveau du protocole Zcash introduit le 28 octobre 2018. Il s'agit d'une amélioration majeure par rapport à la version précédente du connu sous le nom de Sprout qui présentait certaines limitations. en termes de confidentialité, d'efficacité et de convivialité.
+[Zcash Sapling](https://z.cash/upgrade/sapling) est une mise à niveau du protocole Zcash introduit le 28 octobre 2018. Il s'agit d'une amélioration majeure par rapport à la version précédente du connu sous le nom de Sprout qui présentait certaines limitations. en termes de confidentialité, d'efficacité et de convivialité.
 
 Certaines des mises à niveau incluent des performances améliorées pour les adresses protégées, des clés de visualisation améliorées pour permettre aux utilisateurs de visualiser les transactions entrantes et sortantes sans exposer les clés privées de l'utilisateur et des clés indépendantes Zero Knowledge pour le portefeuille matériel lors de la signature de la transaction.
 
@@ -38,9 +38,9 @@ Les adresses de portefeuille Sapling commencent par "zs" et cela peut être obse
 
 ### Orchard Pool
 
-L'Orchard Shielded Pool a été lancé le 31 mai 2022. Les adresses Orchard sont également appelées adresses unifiées (UA).
+L'Orchard Shielded Pool a été lancé le 31 mai 2022. Les récepteurs Orchard sont encodés dans des adresses unifiées (UA). Une UA peut regrouper plusieurs types de récepteurs : elle n'est donc pas synonyme d'adresse Orchard. Voir la [ZIP 316](https://zips.z.cash/zip-0316).
 
-Étant donné que les adresses unifiées combinent les récepteurs pour Orchard, les adresses Sapling & Transparent, le montant des fonds stockés dans les adresses blindées devrait augmenter de manière significative. Il n'y a aucun moyen de faire la distinction entre les fonds envoyés aux pools transparents/protégés.
+Une UA peut contenir des récepteurs Orchard, Sapling et, selon sa composition, transparents. Le portefeuille de l'expéditeur sélectionne le type de récepteur pris en charge le plus prioritaire : Orchard, puis Sapling, puis transparent. La confidentialité dépend du transfert réellement effectué, pas du seul fait d'utiliser une UA. Les adresses et montants transparents sont publics, et les mouvements nets entre pools sont visibles, même lorsque les soldes individuels des adresses blindées restent privés. Une UA ne rend donc pas un paiement transparent indiscernable d'un paiement entièrement blindé ; voir les [adresses et pools de valeur](https://zcash.readthedocs.io/en/latest/rtd_pages/addresses.html).
 
 La piscine protégée Orchard constitue une amélioration significative des piscines existantes. Il forme un ensemble d'anonymat distinct des pools protégés Sprout et Sapling, ce qui contribue à accroître la confidentialité et l'anonymat des utilisateurs.
 
