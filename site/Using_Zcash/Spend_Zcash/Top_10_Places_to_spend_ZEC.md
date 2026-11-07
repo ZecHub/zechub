@@ -333,7 +333,7 @@ Background reading: [VPNs and dVPNs](/privacy-tools/vpn-and-dvpn)
 
 Meile is a dVPN client from the MathNodes team that runs on the Sentinel network, where the nodes are operated by community members rather than by a single company. Subscription plans are paid inside the app, and shielded ZEC payments are handled through BTCPay. Builds are available for Windows, macOS and Linux alongside the mobile client.
 
-**Website**: [Meile dVPN on MathNodes](https://mathnodes.com/index.php/meile-dvpn-client-linux-os-x/) (meile.app redirects here)
+**Website**: [Meile dVPN](https://dvpn.app/) (meile.app redirects here)
 
 🌐 Online | Worldwide
 

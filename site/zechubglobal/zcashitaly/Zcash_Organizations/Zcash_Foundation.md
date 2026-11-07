@@ -8,7 +8,7 @@ L'obiettivo di ZF è creare strumenti che aiutino a sostenere reti aperte, conse
 
 La Zcash Foundation ha quasi 15 dipendenti distribuiti in tutto il mondo. Si occupano di vari aspetti, come lo sviluppo del protocollo, la sicurezza del protocollo, la governance del protocollo, lo sviluppo commerciale e la gestione degli eventi della comunità Zcash. 
 
-Il team della ZF è composto da un consiglio di amministrazione, dal team di ingegneri e da un team operativo, per maggiori informazioni vedi [qui] (https://zfnd.org/about/).
+Il team della ZF è composto da un consiglio di amministrazione, dal team di ingegneri e da un team operativo, per maggiori informazioni vedi [qui] (https://zfnd.org/).
 
 Le sovvenzioni della Fondazione Zcash forniscono all'ecosistema un mezzo per finanziare progetti che contribuiscono all'ecosistema della privacy, come [Zebra](https://zebra.zfnd.org/) (un'implementazione indipendente di un nodo per Zcash) e [FROST](https://frost.zfnd.org/), nonché [vari](https://www.coindesk.com/tech/2021/06/08/tor-project-receives-670k-from-zcash-open-major-grants-for-coding-language-upgrade/) altri progetti attraverso [Zcash Open Major Grants](https://zcashcommunitygrants.org/), ora [Zcash Community Grants Committee](https://zcashgrants.org/submit). 
 

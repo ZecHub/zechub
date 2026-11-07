@@ -48,7 +48,7 @@ Zcash solves Bitcoin's biggest flaw; private ownership and transfer of data. In 
 
 #### Resources
 
-[The Basics](https://z.cash/the-basics/)
+[The Basics](https://z.cash/learn/)
 
 [How It Works](https://z.cash/technology/)
 

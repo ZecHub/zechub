@@ -7,7 +7,7 @@ Zcash es una implementación del protocolo "Zerocash". Es un libro contable basa
 Zcash resuelve el fallo más grande de Bitcoin, posesión privada y transferencia de datos. En un mundo en que las aplicaciones y criptomonedas son cada vez más aceptadas, las transacciones seudónimas ya no son una opción viable para proteger la privacidad de los usuarios. Cada vez se usan más aplicaciones de vigilancia para analizar las transacciones de *blockchain*.
 
 ## Recursos (En inglés) ##
-[Lo Básico](https://z.cash/the-basics/)
+[Lo Básico](https://z.cash/learn/)
 [Qué es Zcash](https://www.youtube.com/watch?v=J1Nr1VL5dGU&t=751s)
 [Cómo funciona](https://z.cash/technology/)
 [El HTTPS de las cadenas de bloques](https://nakamoto.com/zcash-the-https-of-blockchains/)

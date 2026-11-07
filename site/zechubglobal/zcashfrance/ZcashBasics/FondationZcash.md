@@ -9,7 +9,7 @@ La mission de la Fondation Zcash est d'être une organisation caritative publiqu
 
 La Fondation Zcash compte près de 15 employés répartis dans le monde entier. Ils travaillent sur diverses choses telles que le développement de protocoles, la sécurité des protocoles, le développement commercial et la gestion des événements de la communauté Zcash.
 
-L'équipe ZF se compose d'un conseil d'administration, de l'équipe d'ingénierie et d'une équipe d'exploitation, plus d'infos [ici](https://zfnd.org/about/).
+L'équipe ZF se compose d'un conseil d'administration, de l'équipe d'ingénierie et d'une équipe d'exploitation, plus d'infos [ici](https://zfnd.org/).
 
 Les subventions de la Fondation Zcash fournissent à l'écosystème un moyen de financer des projets qui contribuent à l'écosystème de la confidentialité, tels que Zebra (une implémentation de nœud indépendant pour Zcash) et FROST.
 

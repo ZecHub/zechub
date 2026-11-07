@@ -26,7 +26,7 @@ Zcash risolve la più grande falla di Bitcoin; la proprietà privata e il trasfe
 
 #### Risorse
 
-[Fondamenti di Zcash](https://z.cash/the-basics/)
+[Fondamenti di Zcash](https://z.cash/learn/)
 
 [Cos'è Zcash](https://www.youtube.com/watch?v=J1Nr1VL5dGU&t=751s)
 

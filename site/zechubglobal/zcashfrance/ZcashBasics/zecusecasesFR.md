@@ -18,7 +18,7 @@ Les utilisateurs peuvent utiliser le champ mémo dans une transaction Z-Z proté
 
 [Le champ mémo crypté](https://electriccoin.co/blog/encrypted-memo-field/)
 
-[Payer avec Zcash](https://z.cash/payer-avec-zcash/)
+[Payer avec Zcash](https://z.cash/pay-with-zcash/)
 
 [Où payer avec Zcash](https://paywithz.cash/)
 
