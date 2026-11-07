@@ -37,7 +37,7 @@ Nozioni di base su Zcash
 
 Utilizzare ZEC in modo privato
 
-[Tutto ciò che devi sapere su ZKP e ZK-SNARKS](../zcashtech/zksnarks.md)
+[Tutto ciò che devi sapere su ZKP e ZK-SNARKS](../Zcash_Tech/zk_SNARKS.md)
 
 ### Social Italiani
 
