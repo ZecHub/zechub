@@ -14,13 +14,13 @@ Zcon0 était notre première conférence annuelle, et ça s'est incroyablement b
 
 la deuxième conférence annuelle sur la confidentialité et la technologie organisée par la Fondation Zcash s'est tenue à Split, en Croatie, du 22 au 24 juin 2019.
 
-[Liste de lecture Zcon1] (https://www.youtube.com/playlist?list=PL40dyJ0UYTLLjPZaKjdhMoCNanb77_Ztj)
+[Liste de lecture Zcon1](https://www.youtube.com/playlist?list=PL40dyJ0UYTLLjPZaKjdhMoCNanb77_Ztj)
 
 ## Zcon2 : Confidentialité jusqu'au bout
 
 Zcon2 a eu lieu les mardi 8 et mercredi 9 juin 2021. Zcon2 était une conférence virtuelle
 
-[Liste de lecture Zcon2] (https://www.youtube.com/playlist?list=PL40dyJ0UYTLLa68H9ibpiSZqeevqKizg4)
+[Liste de lecture Zcon2](https://www.youtube.com/playlist?list=PL40dyJ0UYTLLa68H9ibpiSZqeevqKizg4)
 
 ## Zcon3 : le code seul ne suffira pas
 
