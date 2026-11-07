@@ -130,8 +130,8 @@ A **faucet** is a service that gives free TAZ coins for testing:
 - Avoids the need to mine TAZ manually  
 
 **Example:**  
-1. Visit a Testnet faucet (e.g., [fauzec.com](https://fauzec.com/) | [zcashfaucet.jinolabs.xyz](https://zcashfaucet.jinolabs.xyz/))  
-2. Enter your Testnet address  
+1. Visit a Testnet faucet (e.g., [fauzec.com](https://fauzec.com/) | [zcashfaucet.jinolabs.xyz](https://zcashfaucet.jinolabs.xyz/)), or from a terminal run `npx zcash-faucet <address>`  
+2. Enter your Testnet address (no address yet? On macOS, `npx zcash-testnet-wallet` creates a funded testnet wallet)  
 3. Request TAZ  
 4. Receive TAZ instantly to start testing  
 
