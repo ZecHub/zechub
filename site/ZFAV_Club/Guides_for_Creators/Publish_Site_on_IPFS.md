@@ -28,7 +28,7 @@ This ensures redundancy and fault-tolerance while also making it difficult for a
 
 For this example we are creating a simple website.
 
-[Example Site](https://squirrel.surf/)
+[Example Site](https://www.squirrel.surf/)
 
 **Step 1:** If you are unfamiliar with web design write the main content for your website including Title, Main Body of text, with links to other pages/site & footers.
 
