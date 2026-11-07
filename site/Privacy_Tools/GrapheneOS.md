@@ -57,8 +57,8 @@ As stated in the best practice section it is recommended to make use of the reco
 
 - 2GB of free memory & 32GB of free storage space.
 - USB Cable (A or C)
-- Supported Operating System : Windows 10, Windows 11, macOS Big Sur (11 - 13), Arch Linux, Debian (10 - 12), Ubuntu (22.04, 22.10 and 23.04), ChromeOS, GrapheneOS, Google Android (stock Pixel OS)
-- Supported Browsers: Chromium (not supported with Ubuntu), Vanadium (GrapheneOS), Google Chrome, Microsoft Edge, Brave Browser.
+- Use a supported host operating system and a browser with working WebUSB support. Check the current [official WebUSB prerequisites](https://grapheneos.org/install/web#prerequisites) for supported versions and browser packaging restrictions; older end-of-life systems are not officially supported.
+- The web installer can also run from a supported Android device, ChromeOS or GrapheneOS. Follow the browser-specific notes in the official guide rather than assuming every Chromium package supports WebUSB.
 
 Check out the installation Guide via the link below and follow the installation process
 
@@ -68,8 +68,8 @@ Check out the installation Guide via the link below and follow the installation 
 
 - You should have at least 2GB of free memory available and 32GB of free storage space
 - USB Cable (A or C)
-- Supported Operating System Windows 10 Windows 11 macOS Big Sur (11) macOS Monterey (12) macOS Ventura (13) Arch Linux Debian 10 (buster) Debian 11 (bullseye) Debian 12 (bookworm) Ubuntu 20.04 LTS Ubuntu 22.04 LTS Ubuntu 22.10 Ubuntu 23.04
-- Web Installer from Android, ChromeOS or GrapheneOS
+- Use a host operating system supported by the [current command-line prerequisites](https://grapheneos.org/install/cli#prerequisites), and follow that guide for the required tools.
+- Android, ChromeOS and GrapheneOS hosts should use the web installer; they are not listed as supported command-line installation hosts.
 
 Check out the installation Guide via the link below and follow the installation process 
 
@@ -89,7 +89,7 @@ Check out the installation Guide via the link below and follow the installation 
 
 **Secure Lock Screen** Use a secure lock screen, such as a PIN, password, or biometric authentication, to prevent unauthorized access.
 
-**Avoid Rooting Your Android Device** Avoid rooting or unlocking the bootloader, as this can weaken device security.
+**Relock the Bootloader After Installation** The official installation process requires [temporarily unlocking the bootloader](https://grapheneos.org/install/web#unlocking-the-bootloader) to flash GrapheneOS, then [locking it again before use](https://grapheneos.org/install/web#locking-the-bootloader) to enable full verified boot. Unlocking and relocking each wipe all user data, so back up first and follow the official steps in order. Do not root the installed operating system.
 
 **Verify App Sources** Verify the authenticity of apps and their sources to avoid installing malicious software.
 
