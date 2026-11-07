@@ -37,6 +37,8 @@ cd zcash-devtool
 cargo run --release -- --help
 ```
 
+> **Just want a testnet wallet quickly?** On macOS, `npx zcash-testnet-wallet` installs a prebuilt zcash-devtool, creates a testnet wallet, shows its address with a QR code and funds it from a faucet. It is a shortcut for getting started only; the steps below are the full setup.
+
 The examples below call the built binary, `target/release/zcash-devtool`. `cargo run --release -- ...` works the same way.
 
 ### Create a testnet wallet
