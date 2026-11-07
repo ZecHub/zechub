@@ -50,6 +50,9 @@ Accept shielded ZEC as a 501(c)(3) and still give donors the receipts and IRS fo
 ###  [Where to Donate ZEC](/zcash-use-cases/where-to-donate-zec)
 Find nonprofits that accept ZEC, and which of them take shielded gifts
 
+###  [Run a ZEC Fundraising Campaign](/zcash-use-cases/run-a-zec-fundraising-campaign)
+Raise ZEC for one goal, show progress donors can trust, and keep every gift private
+
 ###  [Journalist Privacy Setup](/zcash-use-cases/journalist-privacy-setup)   
 Use shielded addresses for all transactions and protect sources by avoiding traceable payments. Use memos carefully for secure communication
 
