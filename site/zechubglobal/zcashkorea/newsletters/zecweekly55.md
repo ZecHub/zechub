@@ -19,7 +19,7 @@ Free2Z James Katz의 새로운 Zcash 사용자 가이드가 등장했습니다.
 
 이 가이드는 이것이 필요한 이유에 대한 몇 가지 정보를 제공합니다. custom fee에 필요한 설정 구성으로 시작한 다음 컴파일 명령을 실행하고 test transaction을 보내는 방법을 보여줍니다. 
 
-전체 안내서 [here](https://free2z.cash/James_Katz/zpage/compiling-zecwallet-lite-with custom-fee)를 읽어 보세요
+전체 안내서 [here](https://free2z.cash/James_Katz/zpage/compiling-zecwallet-lite-with-custom-fee)를 읽어 보세요
 
 ## Zcash 업데이트
 
