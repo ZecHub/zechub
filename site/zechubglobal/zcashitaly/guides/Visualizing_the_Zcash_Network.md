@@ -41,7 +41,7 @@ Replica di P2P-Viz
 Iniziare applicando i normali aggiornamenti.
 
 > Eseguite i seguenti comandi:
-```fish
+```bash
 sudo apt update
 sudo apt upgrade
 ```
@@ -54,7 +54,7 @@ Zcash Crawler risiede all'interno di una cartella denominata "zcash", quindi è 
 
 
 > Dalla cartella /Home, eseguire i seguenti comandi:
-``fish
+```bash
 mkdir runziggurat
 cd runziggurat
 git clone https://github.com/runziggurat/zcash.git
@@ -72,7 +72,7 @@ Questa pagina contiene informazioni sull'uso specifico.
 ----------------
 
 
-```fish
+```bash
 $ cargo run --release --features crawler --bin crawler -- --help
 
 OPZIONI:
@@ -105,7 +105,7 @@ Il comando 'cargo run --release --features crawler --bin crawler -- --help' è i
 
 
 > Eseguire il comando
-``fish
+```bash
 cargo run --release --features crawler --bin crawler -- --help
 ```
 
@@ -118,7 +118,7 @@ Per ottenere informazioni dal Crawler mentre è in esecuzione, è necessario agg
 
 
 > Eseguire il comando
-``fish
+```bash
 cargo run --release --features crawler --bin crawler -- --seed-addrs 157.245.172.190:8233 194.135.81.61:8233 35.233.224.178:8233 --rpc-addr 127.0.0.1:54321
 ```
 
@@ -126,7 +126,7 @@ Il Crawler inizierà a comunicare con la rete (default ogni 20 secondi) e a racc
 
 
 > In un altro terminale, eseguire il comando
-```fish
+```bash
 curl --data-binary '{"jsonrpc": "2.0", "id":0, "method": "getmetrics", "params": [] }' -H 'content-type: application/json' http://127.0.0.1:54321/ | jq .result.protocol_versions
 ```
 
@@ -140,7 +140,7 @@ Per eseguire Crunchy e P2P-Viz, è necessario inserire il '.result' in un file .
 
 
 > Eseguire il comando
-```fish
+```bash
 curl --data-binary '{"jsonrpc": "2.0", "id":0, "method": "getmetrics", "params": [] }' -H 'content-type: application/json' http://127.0.0.1:54321/ > latest.json
 ```
 
@@ -159,14 +159,14 @@ Crunchy è necessario per aggregare il file json di output da usare con P2P-Viz.
 Per creare Crunchy, navigare nella cartella '/runziggurat'. 
 
 > Per clonare il repo di Crunchy, eseguire i seguenti comandi
-``Pesce
+```bash
 git clone https://github.com/runziggurat/crunchy.git
 cd crunchy
 ```
 Copiare e incollare il file 'latest.json' nella cartella 'crunchy/testdata/'.
 
 > Eseguire i seguenti comandi
-```fish
+```bash
 cargo run --release -- -i testdata/latest.json -o testdata/state.json -g testdata/geoip-cache.json -f Zcash
 ```
 
@@ -180,7 +180,7 @@ Per compilare P2P-Viz, è necessario avere npm.
 
 
 > Per installare npm con nvm, eseguire i seguenti comandi:
-``fish
+```bash
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
 ```
 
@@ -188,7 +188,7 @@ Chiudere e riavviare il terminale.
 
 
 > Eseguire il comando:
-``fish
+```bash
 nvm install --lts
 ```
 
@@ -196,7 +196,7 @@ Navigare nella cartella '/runziggurat'.
 
 
 > Per clonare il repo P2P-Viz e avviarlo, eseguite i seguenti comandi
-```fish
+```bash
 git clone https://github.com/runziggurat/p2p-viz.git
 cd p2p-viz
 npm i
@@ -213,7 +213,7 @@ Selezionare "Geolocation" e poi "Choose state file".
 
 Dall'apertura del file explorer, seleziona il file "state.json". 
 
-La mappa del mondo dell'esploratore di nodi si popolerà con i dati del file. Per ulteriori dettagli sulle opzioni di utilizzo e sulle impostazioni, consultare il file Readme [Qui] (https://github.com/runziggurat/p2p-viz#build-and-run-the-app).
+La mappa del mondo dell'esploratore di nodi si popolerà con i dati del file. Per ulteriori dettagli sulle opzioni di utilizzo e sulle impostazioni, consultare il file Readme [Qui](https://github.com/runziggurat/p2p-viz#build-and-run-the-app).
 
 
 ----------------
@@ -223,7 +223,7 @@ SUGGERIMENTI!
 Il comando seguente avvia e arresta automaticamente il crawler dopo 50 minuti.
 
 > Eseguire il comando
-```fish
+```bash
 timeout --signal=2 50m cargo run --release --features crawler --bin crawler -- --seed-addrs 157.245.172.190:8233 194.135.81.61:8233 35.233.224.178:8233 --rpc-addr 127.0.0.1:54321
 ```
 
