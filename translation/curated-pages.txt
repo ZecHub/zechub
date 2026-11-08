@@ -227,3 +227,4 @@ tutorials/shieldedNewsletter/daoAddresses.md
 tutorials/shieldedNewsletter/mynewsletter.md
 tutorials/shieldedNewsletter/readme.md
 tutorials/zenithserver/zenithBeta.md
+Using_Zcash/Native_ZEC_on_THORChain.md
