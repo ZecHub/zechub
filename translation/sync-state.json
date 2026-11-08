@@ -7358,14 +7358,6 @@
       "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
-    "Using_Zcash/Wallets.md": {
-      "src": "sha256:6434ccef401b3196a97815cd4cbe960d0642a081488a85747044479d76eb6722",
-      "src_commit": "49cf9a952d1bba7093fc026c037625ce4e2b382e",
-      "engine": "llm",
-      "mode": "full",
-      "tool": "codex-regen",
-      "edited": false
-    },
     "Zcash_Use_Cases/Accept_Private_Donations_As_A_US_Nonprofit.md": {
       "src": "sha256:6434ccef401b3196a97815cd4cbe960d0642a081488a85747044479d76eb6722",
       "src_commit": "49cf9a952d1bba7093fc026c037625ce4e2b382e",
