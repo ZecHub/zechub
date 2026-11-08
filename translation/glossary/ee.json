@@ -1,0 +1,989 @@
+{
+  "locale": "ee",
+  "version": 2,
+  "meta": {
+    "language_name": "Ewe",
+    "native_name": "Eʋegbe",
+    "engine": "gt",
+    "script": "Latn",
+    "dir": "ltr",
+    "language_lead": [],
+    "last_review": "2026-11-07"
+  },
+  "style": {
+    "variety": "natural, fluent Ewe",
+    "register": {
+      "default": "wò",
+      "ui": "wò",
+      "text": {
+        "wò": "Address the reader informally with \"wò\" (singular). Use \"mi\" when addressing several readers."
+      }
+    },
+    "english_in_brackets": "first-use",
+    "loanwords": "keep-english",
+    "loanwords_text": "Keep established crypto loanwords (e.g. blockchain, token); explain them briefly in Ewe at first use. The terminology list below wins over this rule.",
+    "capitalise_kept_english_at_sentence_start": true,
+    "numerals": "western",
+    "decimal_separator": ".",
+    "quotes": "straight double quotes \"…\"",
+    "abbreviations_with_full_stop": [],
+    "writing_rules": [
+      "Never put English in brackets inside a Markdown link label: [Ewe text](url) is correct, [Ewe text [English]](url) is wrong and breaks the link."
+    ]
+  },
+  "terms": {
+    "wallet": {
+      "target": "gakotoku",
+      "forms": [
+        "gakotoku",
+        "Gakotoku"
+      ],
+      "context": "\"gakotoku\" for a wallet (app/device). In \"hardware wallet\" the compound uses a different rendering.",
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@starlabman"
+      ],
+      "reviewed_at": "2026-11-07",
+      "source": "glossary-review-ee.md#terms-1"
+    },
+    "shielded": {
+      "target": "ɣaɣla",
+      "forms": [
+        "ɣaɣla",
+        "Ɣaɣla"
+      ],
+      "context": "Use for Zcash shielding (protected by zero-knowledge encryption). Privacy (the concept) is also 'ɣaɣla'; context distinguishes them.",
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@starlabman"
+      ],
+      "reviewed_at": "2026-11-07",
+      "source": "glossary-review-ee.md#terms-2"
+    },
+    "transaction": {
+      "target": "gaɖoɖo",
+      "forms": [
+        "gaɖoɖo",
+        "Gaɖoɖo"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@starlabman"
+      ],
+      "reviewed_at": "2026-11-07",
+      "source": "glossary-review-ee.md#terms-3"
+    },
+    "privacy": {
+      "target": "ɣaɣla",
+      "forms": [
+        "ɣaɣla",
+        "Ɣaɣla"
+      ],
+      "context": "Use for the concept of keeping information hidden. Shielded (the Zcash adjective) is also 'ɣaɣla'; context distinguishes them.",
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@starlabman"
+      ],
+      "reviewed_at": "2026-11-07",
+      "source": "glossary-review-ee.md#terms-5"
+    },
+    "pool": {
+      "target": "gaƒuƒoƒo",
+      "forms": [
+        "gaƒuƒoƒo",
+        "Gaƒuƒoƒo"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@starlabman"
+      ],
+      "reviewed_at": "2026-11-07",
+      "source": "glossary-review-ee.md#terms-6"
+    },
+    "proof": {
+      "target": "ɖaseɖigbalɛ",
+      "forms": [
+        "ɖaseɖigbalɛ",
+        "Ɖaseɖigbalɛ"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@starlabman"
+      ],
+      "reviewed_at": "2026-11-07",
+      "source": "glossary-review-ee.md#terms-10"
+    },
+    "node": {
+      "target": "ɣaɣla dzesi ŋɔŋlɔ",
+      "forms": [
+        "ɣaɣla dzesi ŋɔŋlɔ",
+        "Ɣaɣla dzesi ŋɔŋlɔ"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@starlabman"
+      ],
+      "reviewed_at": "2026-11-07",
+      "source": "glossary-review-ee.md#terms-9"
+    },
+    "transparent": {
+      "target": "nuwo ƒe ʋuʋuɖi",
+      "forms": [
+        "nuwo ƒe ʋuʋuɖi",
+        "Nuwo ƒe ʋuʋuɖi"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@starlabman"
+      ],
+      "reviewed_at": "2026-11-07",
+      "source": "glossary-review-ee.md#terms-12"
+    },
+    "exchange": {
+      "target": "gatrɔƒe",
+      "forms": [
+        "gatrɔƒe",
+        "Gatrɔƒe"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@starlabman"
+      ],
+      "reviewed_at": "2026-11-07",
+      "source": "glossary-review-ee.md#terms-16"
+    },
+    "memo": {
+      "target": "nya kpui",
+      "forms": [
+        "nya kpui",
+        "Nya kpui"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@starlabman"
+      ],
+      "reviewed_at": "2026-11-07",
+      "source": "glossary-review-ee.md#terms-19"
+    },
+    "viewing-key": {
+      "target": "nukpɔsafui",
+      "forms": [
+        "nukpɔsafui",
+        "Nukpɔsafui"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@starlabman"
+      ],
+      "reviewed_at": "2026-11-07",
+      "source": "glossary-review-ee.md#terms-26"
+    },
+    "fee": {
+      "target": "adzɔ",
+      "forms": [
+        "adzɔ",
+        "Adzɔ"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@starlabman"
+      ],
+      "reviewed_at": "2026-11-07",
+      "source": "glossary-review-ee.md#terms-22"
+    },
+    "swap": {
+      "target": "ɖɔli ɖɔli",
+      "forms": [
+        "ɖɔli ɖɔli",
+        "Ɖɔli ɖɔli"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@starlabman"
+      ],
+      "reviewed_at": "2026-11-07",
+      "source": "glossary-review-ee.md#terms-27"
+    },
+    "custodial": {
+      "target": "asikplɔ-dzralá",
+      "forms": [
+        "asikplɔ-dzralá",
+        "Asikplɔ-dzralá"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@starlabman"
+      ],
+      "reviewed_at": "2026-11-07",
+      "source": "glossary-review-ee.md#terms-18"
+    },
+    "zero-knowledge": {
+      "target": "zero-knowledge",
+      "keep_english": true,
+      "forms": [
+        "zero-knowledge",
+        "Zero-knowledge"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@starlabman"
+      ],
+      "reviewed_at": "2026-11-07",
+      "source": "glossary-review-ee.md#terms-23"
+    },
+    "network-upgrade": {
+      "target": "mɔ̃ ƒe sewo trɔtrɔ",
+      "forms": [
+        "mɔ̃ ƒe sewo trɔtrɔ",
+        "Mɔ̃ ƒe sewo trɔtrɔ"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@starlabman"
+      ],
+      "reviewed_at": "2026-11-07",
+      "source": "glossary-review-ee.md#terms-32"
+    },
+    "mining": {
+      "target": "nukuku",
+      "forms": [
+        "nukuku",
+        "Nukuku"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@starlabman"
+      ],
+      "reviewed_at": "2026-11-07",
+      "source": "glossary-review-ee.md#terms-20"
+    },
+    "miner": {
+      "target": "nukula",
+      "forms": [
+        "nukula",
+        "Nukula"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@starlabman"
+      ],
+      "reviewed_at": "2026-11-07",
+      "source": "glossary-review-ee.md#terms-39"
+    },
+    "full-node": {
+      "target": "ɣaɣla dzesi ŋɔŋlɔ blibo",
+      "forms": [
+        "ɣaɣla dzesi ŋɔŋlɔ blibo",
+        "Ɣaɣla dzesi ŋɔŋlɔ blibo"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@starlabman"
+      ],
+      "reviewed_at": "2026-11-07",
+      "source": "glossary-review-ee.md#terms-34"
+    },
+    "turnstile": {
+      "target": "gaɖoɖowo ƒe xexlẽdzikpɔɖeƒe",
+      "forms": [
+        "gaɖoɖowo ƒe xexlẽdzikpɔɖeƒe",
+        "Gaɖoɖowo ƒe xexlẽdzikpɔɖeƒe"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@starlabman"
+      ],
+      "reviewed_at": "2026-11-07",
+      "source": "glossary-review-ee.md#terms-37"
+    },
+    "spending-key": {
+      "target": "gazazãsafui",
+      "forms": [
+        "gazazãsafui",
+        "Gazazãsafui"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@starlabman"
+      ],
+      "reviewed_at": "2026-11-07",
+      "source": "glossary-review-ee.md#terms-38"
+    },
+    "seed-phrase": {
+      "target": "gadzraɖoɖi nya",
+      "forms": [
+        "gadzraɖoɖi nya",
+        "Gadzraɖoɖi nya"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@starlabman"
+      ],
+      "reviewed_at": "2026-11-07",
+      "source": "glossary-review-ee.md#terms-50"
+    },
+    "light-client": {
+      "target": "nyatakaka si hiã ƒe mɔ",
+      "forms": [
+        "nyatakaka si hiã ƒe mɔ",
+        "Nyatakaka si hiã ƒe mɔ"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@starlabman"
+      ],
+      "reviewed_at": "2026-11-07",
+      "source": "glossary-review-ee.md#terms-55"
+    },
+    "token": {
+      "target": "token",
+      "keep_english": true,
+      "forms": [
+        "token",
+        "Token"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@starlabman"
+      ],
+      "reviewed_at": "2026-11-07",
+      "source": "glossary-review-ee.md#terms-28"
+    },
+    "chain": {
+      "target": "ɖoɖonu",
+      "forms": [
+        "ɖoɖonu",
+        "Ɖoɖonu"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@starlabman"
+      ],
+      "reviewed_at": "2026-11-07",
+      "source": "glossary-review-ee.md#terms-11"
+    },
+    "cross-chain": {
+      "target": "ɖoɖonu geɖe dome",
+      "forms": [
+        "ɖoɖonu geɖe dome",
+        "Ɖoɖonu geɖe dome"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@starlabman"
+      ],
+      "reviewed_at": "2026-11-07",
+      "source": "glossary-review-ee.md#terms-52"
+    },
+    "faucet": {
+      "target": "ga suewo nanaƒe",
+      "forms": [
+        "ga suewo nanaƒe",
+        "Ga suewo nanaƒe"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@starlabman"
+      ],
+      "reviewed_at": "2026-11-07",
+      "source": "glossary-review-ee.md#terms-49"
+    },
+    "developer": {
+      "target": "mɔ̃ ƒe ɖoɖoŋlɔla",
+      "forms": [
+        "mɔ̃ ƒe ɖoɖoŋlɔla",
+        "Mɔ̃ ƒe ɖoɖoŋlɔla"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@starlabman"
+      ],
+      "reviewed_at": "2026-11-07",
+      "source": "glossary-review-ee.md#terms-33"
+    },
+    "dashboard": {
+      "target": "ɖoɖowo ƒuƒopé",
+      "forms": [
+        "ɖoɖowo ƒuƒopé",
+        "Ɖoɖowo ƒuƒopé"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@starlabman"
+      ],
+      "reviewed_at": "2026-11-07",
+      "source": "glossary-review-ee.md#terms-51"
+    },
+    "visualizer": {
+      "target": "nukpɔkpɔ ƒe mɔ̃",
+      "forms": [
+        "nukpɔkpɔ ƒe mɔ̃",
+        "Nukpɔkpɔ ƒe mɔ̃"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@starlabman"
+      ],
+      "reviewed_at": "2026-11-07",
+      "source": "glossary-review-ee.md#terms-62"
+    },
+    "use-case": {
+      "target": "zã nyawo",
+      "forms": [
+        "zã nyawo",
+        "Zã nyawo"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@starlabman"
+      ],
+      "reviewed_at": "2026-11-07",
+      "source": "glossary-review-ee.md#terms-53"
+    },
+    "brand": {
+      "target": "ŋkɔ kple dzesi",
+      "forms": [
+        "ŋkɔ kple dzesi",
+        "Ŋkɔ kple dzesi"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@starlabman"
+      ],
+      "reviewed_at": "2026-11-07",
+      "source": "glossary-review-ee.md#terms-61"
+    },
+    "treasury": {
+      "target": "gadzraɖoƒe",
+      "forms": [
+        "gadzraɖoƒe",
+        "Gadzraɖoƒe"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@starlabman"
+      ],
+      "reviewed_at": "2026-11-07",
+      "source": "glossary-review-ee.md#terms-57"
+    },
+    "top-up": {
+      "target": "kaƒomɔ ƒe gaɖoɖo",
+      "forms": [
+        "kaƒomɔ ƒe gaɖoɖo",
+        "Kaƒomɔ ƒe gaɖoɖo"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@starlabman"
+      ],
+      "reviewed_at": "2026-11-07",
+      "source": "glossary-review-ee.md#terms-58"
+    },
+    "tools": {
+      "target": "dɔwɔnu",
+      "forms": [
+        "dɔwɔnu",
+        "Dɔwɔnu"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@starlabman"
+      ],
+      "reviewed_at": "2026-11-07",
+      "source": "glossary-review-ee.md#terms-25"
+    },
+    "newsletter": {
+      "target": "nyadzɔdzɔgbalẽ",
+      "forms": [
+        "nyadzɔdzɔgbalẽ",
+        "Nyadzɔdzɔgbalẽ"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@starlabman"
+      ],
+      "reviewed_at": "2026-11-07",
+      "source": "glossary-review-ee.md#terms-45"
+    },
+    "address": {
+      "target": "gaɖoƒe ƒe dzesi",
+      "forms": [
+        "gaɖoƒe ƒe dzesi",
+        "Gaɖoƒe ƒe dzesi"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@starlabman"
+      ],
+      "reviewed_at": "2026-11-07",
+      "source": "glossary-review-ee.md#terms-4"
+    },
+    "block": {
+      "target": "gaɖoɖowo ƒuƒoƒe",
+      "forms": [
+        "gaɖoɖowo ƒuƒoƒe",
+        "Gaɖoɖowo ƒuƒoƒe"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@starlabman"
+      ],
+      "reviewed_at": "2026-11-07",
+      "source": "glossary-review-ee.md#terms-7"
+    },
+    "blockchain": {
+      "target": "gaɖoɖowo ƒuƒoƒo ƒe ɖoɖonu",
+      "forms": [
+        "gaɖoɖowo ƒuƒoƒo ƒe ɖoɖonu",
+        "Gaɖoɖowo ƒuƒoƒo ƒe ɖoɖonu"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@starlabman"
+      ],
+      "reviewed_at": "2026-11-07",
+      "source": "glossary-review-ee.md#terms-15"
+    },
+    "signature": {
+      "target": "asidede agbalẽ te",
+      "forms": [
+        "asidede agbalẽ te",
+        "Asidede agbalẽ te"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@starlabman"
+      ],
+      "reviewed_at": "2026-11-07",
+      "source": "glossary-review-ee.md#terms-17"
+    },
+    "commitment": {
+      "target": "adzɔgbeɖeɖe",
+      "forms": [
+        "adzɔgbeɖeɖe",
+        "Adzɔgbeɖeɖe"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@starlabman"
+      ],
+      "reviewed_at": "2026-11-07",
+      "source": "glossary-review-ee.md#terms-21"
+    },
+    "nullifier": {
+      "target": "gaɣaɣla ɖeɖe dzesi",
+      "forms": [
+        "gaɣaɣla ɖeɖe dzesi",
+        "Gaɣaɣla ɖeɖe dzesi"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@starlabman"
+      ],
+      "reviewed_at": "2026-11-07",
+      "source": "glossary-review-ee.md#terms-40"
+    },
+    "note": {
+      "target": "didienu",
+      "forms": [
+        "didienu",
+        "Didienu"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@starlabman"
+      ],
+      "reviewed_at": "2026-11-07",
+      "source": "glossary-review-ee.md#terms-13"
+    },
+    "trusted-setup": {
+      "target": "mɔ̃ ƒe ɖoɖo xexlẽnuwo",
+      "forms": [
+        "mɔ̃ ƒe ɖoɖo xexlẽnuwo",
+        "Mɔ̃ ƒe ɖoɖo xexlẽnuwo"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@starlabman"
+      ],
+      "reviewed_at": "2026-11-07",
+      "source": "glossary-review-ee.md#terms-46"
+    },
+    "consensus": {
+      "target": "gbegbɔgblɔ ɖi",
+      "forms": [
+        "gbegbɔgblɔ ɖi",
+        "Gbegbɔgblɔ ɖi"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@starlabman"
+      ],
+      "reviewed_at": "2026-11-07",
+      "source": "glossary-review-ee.md#terms-29"
+    },
+    "governance": {
+      "target": "dziɖuɖu",
+      "forms": [
+        "dziɖuɖu",
+        "Dziɖuɖu"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@starlabman"
+      ],
+      "reviewed_at": "2026-11-07",
+      "source": "glossary-review-ee.md#terms-36"
+    },
+    "grant": {
+      "target": "ga ƒe kpekpeɖeŋu",
+      "forms": [
+        "ga ƒe kpekpeɖeŋu",
+        "Ga ƒe kpekpeɖeŋu"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@starlabman"
+      ],
+      "reviewed_at": "2026-11-07",
+      "source": "glossary-review-ee.md#terms-24"
+    },
+    "halving": {
+      "target": "fetu ƒe afãmama",
+      "forms": [
+        "fetu ƒe afãmama",
+        "Fetu ƒe afãmama"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@starlabman"
+      ],
+      "reviewed_at": "2026-11-07",
+      "source": "glossary-review-ee.md#terms-43"
+    },
+    "staking": {
+      "target": "ga ƒuƒoƒo",
+      "forms": [
+        "ga ƒuƒoƒo",
+        "Ga ƒuƒoƒo"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@starlabman"
+      ],
+      "reviewed_at": "2026-11-07",
+      "source": "glossary-review-ee.md#terms-30"
+    },
+    "finalizer": {
+      "target": "nuwuwu dɔwɔla",
+      "forms": [
+        "nuwuwu dɔwɔla",
+        "Nuwuwu dɔwɔla"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@starlabman"
+      ],
+      "reviewed_at": "2026-11-07",
+      "source": "glossary-review-ee.md#terms-44"
+    },
+    "bond": {
+      "target": "ga si wode ɖe asi",
+      "forms": [
+        "ga si wode ɖe asi",
+        "Ga si wode ɖe asi"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@starlabman"
+      ],
+      "reviewed_at": "2026-11-07",
+      "source": "glossary-review-ee.md#terms-47"
+    },
+    "encryption": {
+      "target": "ɣaɣlaŋlɔŋlɔ",
+      "forms": [
+        "ɣaɣlaŋlɔŋlɔ",
+        "Ɣaɣlaŋlɔŋlɔ"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@starlabman"
+      ],
+      "reviewed_at": "2026-11-07",
+      "source": "glossary-review-ee.md#terms-14"
+    },
+    "decentralized": {
+      "target": "ha nuɖo agni",
+      "forms": [
+        "ha nuɖo agni",
+        "Ha nuɖo agni"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@starlabman"
+      ],
+      "reviewed_at": "2026-11-07",
+      "source": "glossary-review-ee.md#terms-31"
+    },
+    "on-chain": {
+      "target": "ɖoɖonu dzi",
+      "forms": [
+        "ɖoɖonu dzi",
+        "Ɖoɖonu dzi"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@starlabman"
+      ],
+      "reviewed_at": "2026-11-07",
+      "source": "glossary-review-ee.md#terms-35"
+    },
+    "bridge": {
+      "target": "ga ƒe lẽ",
+      "forms": [
+        "ga ƒe lẽ",
+        "Ga ƒe lẽ"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@starlabman"
+      ],
+      "reviewed_at": "2026-11-07",
+      "source": "glossary-review-ee.md#terms-42"
+    },
+    "payment": {
+      "target": "fexexe",
+      "forms": [
+        "fexexe",
+        "Fexexe"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@starlabman"
+      ],
+      "reviewed_at": "2026-11-07",
+      "source": "glossary-review-ee.md#terms-8"
+    },
+    "smart-contract": {
+      "target": "mɔ̃ŋlɔ ƒe dɔwɔwɔ",
+      "forms": [
+        "mɔ̃ŋlɔ ƒe dɔwɔwɔ",
+        "Mɔ̃ŋlɔ ƒe dɔwɔwɔ"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@starlabman"
+      ],
+      "reviewed_at": "2026-11-07",
+      "source": "glossary-review-ee.md#terms-54"
+    },
+    "unlinkable": {
+      "target": "kadodo manɔ anyi",
+      "forms": [
+        "kadodo manɔ anyi",
+        "Kadodo manɔ anyi"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@starlabman"
+      ],
+      "reviewed_at": "2026-11-07",
+      "source": "glossary-review-ee.md#terms-60"
+    },
+    "permissionless": {
+      "target": "zãzã faa",
+      "forms": [
+        "zãzã faa",
+        "Zãzã faa"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@starlabman"
+      ],
+      "reviewed_at": "2026-11-07",
+      "source": "glossary-review-ee.md#terms-59"
+    },
+    "scaling": {
+      "target": "nu ƒe dziyiyi",
+      "forms": [
+        "nu ƒe dziyiyi",
+        "Nu ƒe dziyiyi"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@starlabman"
+      ],
+      "reviewed_at": "2026-11-07",
+      "source": "glossary-review-ee.md#terms-48"
+    },
+    "selective-disclosure": {
+      "target": "nyatakaka tɔxɛ ɣaɣla",
+      "forms": [
+        "nyatakaka tɔxɛ ɣaɣla",
+        "Nyatakaka tɔxɛ ɣaɣla"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@starlabman"
+      ],
+      "reviewed_at": "2026-11-07",
+      "source": "glossary-review-ee.md#terms-56"
+    },
+    "hardware-wallet": {
+      "target": "asikplɔwo dzra mɔ",
+      "forms": [
+        "asikplɔwo dzra mɔ",
+        "Asikplɔwo dzra mɔ"
+      ],
+      "context": "\"asikplɔwo dzra mɔ\" for the whole compound. The base word \"wallet\" alone is \"gakotoku\".",
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@starlabman"
+      ],
+      "reviewed_at": "2026-11-07",
+      "source": "glossary-review-ee.md#terms-41"
+    }
+  },
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-11-07",
+      "terms": [
+        "address",
+        "block",
+        "blockchain",
+        "bond",
+        "brand",
+        "bridge",
+        "chain",
+        "commitment",
+        "consensus",
+        "cross-chain",
+        "custodial",
+        "dashboard",
+        "decentralized",
+        "developer",
+        "encryption",
+        "exchange",
+        "faucet",
+        "fee",
+        "finalizer",
+        "full-node",
+        "governance",
+        "grant",
+        "halving",
+        "hardware-wallet",
+        "light-client",
+        "memo",
+        "miner",
+        "mining",
+        "network-upgrade",
+        "newsletter",
+        "node",
+        "note",
+        "nullifier",
+        "on-chain",
+        "payment",
+        "permissionless",
+        "pool",
+        "privacy",
+        "proof",
+        "scaling",
+        "seed-phrase",
+        "selective-disclosure",
+        "shielded",
+        "signature",
+        "smart-contract",
+        "spending-key",
+        "staking",
+        "swap",
+        "token",
+        "tools",
+        "top-up",
+        "transaction",
+        "transparent",
+        "treasury",
+        "trusted-setup",
+        "turnstile",
+        "unlinkable",
+        "use-case",
+        "viewing-key",
+        "visualizer",
+        "wallet",
+        "zero-knowledge"
+      ],
+      "phrases": [],
+      "summary": "Imported all 62 terms from the Ewe glossary review kit (glossary-review-ee.md). Reviewer: starlabman (Laboré). 60 terms translated into Ewe; 2 kept in English (zero-knowledge, token)."
+    },
+    {
+      "version": 2,
+      "date": "2026-11-08",
+      "terms": [],
+      "phrases": [],
+      "summary": "Add writing rule: no English brackets inside Markdown link labels (fixes 19 malformed-link failures)."
+    }
+  ]
+}

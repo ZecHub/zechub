@@ -2,36 +2,36 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Zcash Nutoa me ƒe Dedienɔnɔ
+# Zcash Ecosystem ƒe Dedienɔnɔ
 
-## Nu gbagbewo ƒe agbenɔnɔ ƒe dedienɔnɔ ƒe Kplɔla
+## Ecosystem ƒe Dedienɔnɔ ƒe Kplɔla
 
-Woɖo Zcash Ecosystem Security Lead ƒe dɔa to ZCG ƒe kpekpeɖeŋunana me be woana dedienɔnɔ ŋuti mɔ̃ɖaŋununya tɔxɛ na Zcash ecosystem si keke ta wu — vevietɔ ZCG ƒe kpekpeɖeŋunalawo — le ECC kple ZF godo.
+Wode Zcash Ecosystem ƒe Dedienɔnɔ ƒe Kplɔla ƒe dɔa dzi to ZCG ga ƒe kpekpeɖeŋu me be woana dedienɔnɔ ƒe mɔnuwo ƒe dzadzra kple dɔwɔwɔ si ŋutɔ na Zcash ecosystem blibo la — vevietɔ na ZCG ga ƒe kpekpeɖeŋu xɔlawo — le ECC kple ZF ƒe afiawo.
 
-- **2022–2023:** [anyigbaʋuʋu](https://forum.zcashcommunity.com/t/zcash-ecosystem-security-lead/42090) subɔ abe Nu gbagbewo ƒe Agbenɔnɔ Ŋuti Dedienɔnɔ Ŋuti Kplɔla gbãtɔ ene. Srɔ̃ nu geɖe le [zecsec.com dzi](https://zecsec.com).
-- **Ƒe 2024–2025:** ZCG tiatia [Least Authority](https://leastauthority.com) be woayi akpaa dzi to yeye aɖe dzi [RFP ƒe dɔwɔwɔ](https://forum.zcashcommunity.com/t/rfp-zcash-ecosystem-security-lead-2023/45723). Woate ŋu akpɔ nya yeye siwo wowɔ [afi sia](https://forum.zcashcommunity.com/t/grant-update-zcash-ecosystem-security-lead/47541).
-- **2026:** Akpoxɔnu ƒe Dɔwɔƒewo [do ŋugbe na Taylor Hornby](https://forum.zcashcommunity.com/t/shielded-labs-engages-taylor-hornby-as-security-consultant/55421) abe dedienɔnɔ ŋuti aɖaŋuɖola ene be wòado ŋusẽ Zcash ƒe dedienɔnɔ ƒe ŋutetewo.
+- **2022–2023:** [earthrise](https://forum.zcashcommunity.com/t/zcash-ecosystem-security-lead/42090) wɔ dɔ abe Ecosystem ƒe Dedienɔnɔ ƒe Kplɔla gbãtɔ ene. Srɔ̃ nu geɖe le [zecsec.com](https://zecsec.com).
+- **2024–2025:** ZCG tia [Least Authority](https://leastauthority.com) be woayi edzi awɔ dɔa to [RFP](https://forum.zcashcommunity.com/t/rfp-zcash-ecosystem-security-lead-2023/45723) yeyee me. Wòate ŋu akpɔ nyitsotso le [afi sia](https://forum.zcashcommunity.com/t/grant-update-zcash-ecosystem-security-lead/47541).
+- **2026:** Shielded Labs [xɔ Taylor Hornby](https://forum.zcashcommunity.com/t/shielded-labs-engages-taylor-hornby-as-security-consultant/55421) abe dedienɔnɔ ƒe aɖaŋuɖola ene be wòakpe ɖe Zcash ƒe dedienɔnɔ ƒe ŋusẽwo ŋu.
 
-## ZCG Dedienɔnɔ & Afɔkuwo Ŋuti Nyatakakawo Gbɔgblɔ ƒe Dɔwɔna
+## ZCG Dedienɔnɔ kple Gbegbe ƒe Fiaɖuɖu ƒe Dɔwɔwɔ
 
-The [ZCG Dedienɔnɔ & Afɔkuwo Ŋuti Nyatakakawo Gbɔgblɔ ƒe Dɔwɔna](https://forum.zcashcommunity.com/t/zcg-security-vulnerability-disclosure-initiative/55545) na ɖoɖo si dzi woato aɖe dedienɔnɔ ƒe afɔkuwo afia le ɖoɖo nu le Zcash ƒe lãwo ƒe agbenɔnɔ ƒe ɖoɖoa katã me.
+[ZCG Dedienɔnɔ kple Gbegbe ƒe Fiaɖuɖu ƒe Dɔwɔwɔ](https://forum.zcashcommunity.com/t/zcg-security-vulnerability-disclosure-initiative/55545) na ɖoɖo si me woate ŋu akpɔ dedienɔnɔ ƒe gbegblẽwo ƒe nya ɖeɖe ɖeɖoɖo me le Zcash ecosystem blibo la me.
 
-## Dedienɔnɔ Ŋuti Nyatakaka Siwo Wowɔ Nyitsɔ Laa (ƒe 2026)
+## Dedienɔnɔ ƒe Nyitsotso Yeyeawo (2026)
 
-- **Zebra 4.4.1 (May 2026):** [Dedienɔnɔ ɖɔɖɔɖo vevi aɖe](https://forum.zcashcommunity.com/t/zebra-4-4-1-critical-security-fix/55588) si ŋuti woɖe asi le. Míele dzi dem ƒo na node dɔwɔlawo katã be woawɔ ŋgɔyiyi enumake.
-- **Zebra 4.3.1 (April 2026):** [Dedienɔnɔ ƒe ɖɔɖɔɖo veviwo, dockerized mining kple CI hardening](https://forum.zcashcommunity.com/t/zebra-4-3-1-critical-security-fixes-dockerized-mining-and-ci-hardening/55389) si ŋuti woɖe asi le.
-- **Woɖɔ Afɔku Geɖewo Gbɔ (April 2026):** [Zcash ƒe afɔku geɖewo ɖɔ li wo dzidzedzetɔe](https://forum.zcashcommunity.com/t/several-zcash-vulnerabilities-successfully-remediated/55388) evɔ makpɔ ŋusẽ ɖe ezãlawo ƒe ga alo ame ŋutɔ ƒe nyatakakawo dzi o.
-- **zcashd ƒe Aɖaŋuɖoɖo (April 2026):** [Aɖaŋuɖoɖo be woaɖe zcashd amedzidzedze ƒe anyigba dzi akpɔtɔ](https://forum.zcashcommunity.com/t/advisory-reduce-your-zcashd-attack-surface-by-shielding-it-behind-zebra/55390) to ʋuwo ƒe mɔzɔzɔ to Zebra dzi me.
+- **Zebra 4.4.1 (May 2026):** Wodo [dedienɔnɔ ƒe dzadzra vevi aɖe](https://forum.zcashcommunity.com/t/zebra-4-4-1-critical-security-fix/55588) ɖe go. Wodo ŋusẽ na ɣaɣla dzesi ŋɔŋlɔ ƒe dɔwɔlawo katã be woawɔ yeyetɔ enumake.
+- **Zebra 4.3.1 (April 2026):** Wodo [dedienɔnɔ ƒe dzadzra veviwo, nukuku si woɖo le Docker me, kple CI ƒe sesẽwɔwɔ](https://forum.zcashcommunity.com/t/zebra-4-3-1-critical-security-fixes-dockerized-mining-and-ci-hardening/55389) ɖe go.
+- **Gbegbe Geɖewo Ƒe Dzadzra (April 2026):** Woɖe [Zcash gbegblẽ geɖewo ɖa nyuie](https://forum.zcashcommunity.com/t/several-zcash-vulnerabilities-successfully-remediated/55388) ne womeɖe asi le zãlawo ƒe ga alo ɣaɣla ŋu o.
+- **zcashd Ƒe Nyagblɔɖoɖo (April 2026):** [Nyagblɔɖoɖo si ana zcashd ƒe aʋawɔƒe si woate ŋu adze la nasẽ ɖe anyi](https://forum.zcashcommunity.com/t/advisory-reduce-your-zcashd-attack-surface-by-shielding-it-behind-zebra/55390) to trafik ƒe tom ɖe Zebra dzi.
 
-## Nyaɖeɖefia si Ŋu Agbanɔamedzi Le
+## Gbegbe Ƒe Fiaɖuɖu Kple Dɔmefɔfɔ Nyuitɔ
 
-Electric Coin Company kple Zcash Foundation siaa wɔ ɖeka kple Agbanɔamedzi ƒe Nyatakaka sia [dzidzenu](https://github.com/RD-Crypto-Spec/Responsible-Disclosure/tree/d47a5a3dafa5942c8849a93441745fdd186731e6) kple teteɖeanyi si gbɔna:
+Electric Coin Company kple Zcash Foundation siawo katã ɖo ɖe Gbegbe Ƒe Fiaɖuɖu Kple Dɔmefɔfɔ Nyuitɔ ƒe [segbalẽ](https://github.com/RD-Crypto-Spec/Responsible-Disclosure/tree/d47a5a3dafa5942c8849a93441745fdd186731e6) sia nu, eye vovototo sia koe li:
 
-> "Zcash nye mɔ̃ɖaŋununya si naa adzamenyawo sesẽ. Wotsɔa nya ɣaɣlawo ɣlana ɖe afisi woɖo tae, eye emegbe wodzraa ga ƒe gɔmeɖoanyia ɖo to kpeɖodzi siwo me sidzedze zero le si woɖo be Zcash tɔ ŋutɔŋutɔ koe ate ŋu awɔ. Ne esia do kpo nu, eye aʋatsokaka ƒe vodada aɖe do tso eme la, woate ŋu awɔ aʋatso nuvɔ̃ ma ŋudɔ mɔ aɖeke manɔmee be blockchain numekulawo nade dzesi nuvlowɔla alo esi." wozã nyatakaka siwo le blockchain la me tsɔ wɔ vodadaa ŋudɔ Rollbacks do ŋgɔ na nya ma, abe alesi wowɔe le dɔ bubu aɖewo me le nɔnɔme mawo tɔgbe me ene, eyata manya wɔ o gblɔ be ewɔe — mɔɖeɖe na ŋgɔyiyi ƒe ƒuƒoƒoa be woatsɔ nyaa aɖo nɔƒe gbãtɔ pɛpɛpɛ ahakpɔ egbɔ, gake, abe alesi wòle le CVE-2019-7167 me ene la, míate ŋu atso nya me be míagatsɔ nyatakaka mawo akpe ɖe míaƒe nyatakakawo ŋu na hadɔwɔlawo do ŋgɔ na wo ɖeɖe ɖe go le ɖoɖo nu o, ne míeka ɖe edzi be woate ŋu adze afɔku bɔbɔe."
+> "Zcash nye mɔ̃ si na ɣaɣla sesĩe. Wona didienuwo ɣaɣlaŋlɔŋlɔ ɖe woƒe afiƒo, eye wometsɔ zero-knowledge ɖaseɖigbalɛwo kplɔ ga ƒe teƒe la ɖe asi o, si woɖe be ame si le Zcash ŋutɔ ƒe asi koe ate ŋu awɔ. Ne esia mewɔ o, eye dzodzro ƒe gbegblẽ aɖe do le eme la, womate ŋu azã dzodzro ƒe gbegblẽ ma ne mɔ aɖeke mele gaɖoɖowo ƒuƒoƒo ƒe ɖoɖonu ƒe xexlẽlawo si woate ŋu adze ame si wɔe la alo data kae le gaɖoɖowo ƒuƒoƒo ƒe ɖoɖonu me si wo zã be woawɔ gbegblẽa la kpɔ o. Eya ta mègawɔ megbe yi teƒe ma ŋgɔ, abe ale si wowɔe le dɔwɔƒe bubuwo me le nyateƒe siawo me ene, o. Segbalẽa ƒo nu tso gbegblẽ ƒe nyagblɔlawo ŋu, siwo ƒe nya katã le eme be woate ŋu awɔe ake. Esia hiã, kpɔɖeŋu, ne gɔmeɖeɖe ƒe ame si tso afima o le eɖem fia kple da ɖase be dedienɔnɔ ƒe kuxi aɖe le eme vavã, eye dedienɔnɔ ƒe kuxi ma le vevi si wogblɔ be ele — si na hatsotso si wɔa nutowo ate ŋu ade dzesi nu sia ƒe vevi nyuie eye woaɖe eɖa. Ke ne dzodzro ƒe gbegblẽ aɖe li la, abe CVE-2019-7167 me ene, míate ŋu atia be míegatsɔ nyatiawo ma akpe ɖe miaƒe nyagblɔwo ŋu na hadɔwɔlawo hafi woadoe ɖe go le ɖoɖo me o, ne míeka ɖe edzi be woate ŋu axɔa kuxi la."
 
-## Dedienɔnɔ Ŋuti Dɔwɔnuwo
+## Dedienɔnɔ ƒe Nusiwo Wòate Ŋu Azã
 
-- [Zcash Dedienɔnɔ Ŋuti Aɖaŋuɖolawo](https://github.com/zcash/zcash/security/advisories)
-- [Zebra Dedienɔnɔ Ŋuti Aɖaŋuɖolawo](https://github.com/ZcashFoundation/zebra/security/advisories)
-- [Ka nya ta tso Afɔku aɖe ŋu le zcash/zcash me](https://github.com/zcash/zcash/security/policy)
-- [Ka nya ta tso Afɔku aɖe ŋu na ZF](https://github.com/ZcashFoundation/zebra/security/policy)
+- [Zcash Dedienɔnɔ ƒe Nyagblɔɖoɖowo](https://github.com/zcash/zcash/security/advisories)
+- [Zebra Dedienɔnɔ ƒe Nyagblɔɖoɖowo](https://github.com/ZcashFoundation/zebra/security/advisories)
+- [Ƒo nyagblɔ tso gbegbe aɖe ŋu le zcash/zcash](https://github.com/zcash/zcash/security/policy)
+- [Ƒo nyagblɔ tso gbegbe aɖe ŋu na ZF](https://github.com/ZcashFoundation/zebra/security/policy)

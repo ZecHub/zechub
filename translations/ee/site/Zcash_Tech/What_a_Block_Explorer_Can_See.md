@@ -2,78 +2,78 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Nusi block explorer ateŋu akpɔ le Zcash dzi
+# Nu si gaɖoɖowo ƒuƒoƒe [block] didzila atekpɔ le Zcash dzi
 
 ## TL;DR
 
-- Le Bitcoin dzi la, block explorer ɖea nusianu fiana: amesi ɖoe ɖa, amesi xɔe, kple ga home.
-- Le Zcash dzi la, ema nye nyateƒe na dɔwɔna si me kɔ (t-adrɛs) ko.
-- Anyigbayeyedila ate ŋu akpɔ ga wòage ɖe ta si ŋu wokpɔ akpoxɔnu le la me ahado le eme, gake menye nusi dzɔna le eme o.
-- Asitsatsa siwo wokpɔ ta na bliboe (z vaseɖe z) meɖea ame aɖeke si ɖoe ɖa o, ame aɖeke mexɔe o, eye womeɖea ga home aɖeke fiana o.
-- Dutoƒo "akpoxɔnu ƒe agbɔsɔsɔme" ƒe xexlẽme ɖesiaɖe nye anyigba, elabena ame ŋutɔ ƒe dɔwɔna bliboe nye nusi womate ŋu akpɔ tso egodo o.
+- Le Bitcoin dzi la, gaɖoɖowo ƒuƒoƒe didzila atekpɔ fia nu gbogbo: dɔla, xɔla, kple gaƒe.
+- Le Zcash dzi la, esia nyo na nuwo ƒe ʋuʋuɖi [transparent] (t-address) ƒe dɔwɔwɔ ko.
+- Didzila atekpɔ ate ŋu akpɔ be ga ge ɣaɣla [shielded] gaƒuƒoƒo [pool] me eye wòdo tso eme, gake mate ŋu akpɔ nu si dzɔ le eme o.
+- Ɣaɣla blibo (z yi z) gaɖoɖowo [transactions] mefia dɔla aɖeke o, xɔla aɖeke o, alo gaƒe aɖeke o.
+- Dukɔ bliboa ƒe "ɣaɣla ƒe rate" ƒe nɔmba ɖe anyi, elabena dɔwɔwɔ si le ɣaɣla blibo me la menye nukpɔkpɔtɔ na ame si le gota o.
 
 ---
 
-## Adrɛs ƒomevi eve
+## Gaɖoƒe ƒe dzesi ƒomevi eve
 
-Adrɛs ƒomevi eve le Zcash si.
+Zcash wɔa gaɖoƒe ƒe dzesi [address] ƒomevi eve.
 
-**adrɛs si me kɔ** dzea egɔme kple `t` eye wòwɔa dɔ abe Bitcoin adrɛs ene. Ga si susɔ kple ga si woxena la nyea dutoƒo.
+**Nuwo ƒe ʋuʋuɖi gaɖoƒe ƒe dzesi** dzea egɔme kple `t` eye wowɔa dɔ abe Bitcoin gaɖoƒe ƒe dzesi ene. Balance kple fexexe [payment]wo le dukɔ bliboa ƒe nukpɔkpɔ me.
 
-**adrɛs si wokpɔ ta na** dzea egɔme kple `z` eye wotsɔa kpeɖodzi siwo me sidzedze aɖeke mele o kpɔa eta. Netwɔƒea ate ŋu aɖo kpe edzi be fexexe si wokpɔ ta na la sɔ evɔ maɖe amesi ɖoe ɖa, amesi xɔe, alo ga home si woaxe la afia o.
+**Ɣaɣla gaɖoƒe ƒe dzesi** dzea egɔme kple `z` eye zero-knowledge ɖaseɖigbalɛ [proof]wo naa wò ɣaɣla. Network la ate ŋu akaka be ɣaɣla fexexe nyo, gaɖe dɔla, xɔla, alo gaƒe o.
 
-Esi wònye be ƒomevi eve li ta la, asixɔxɔ ate ŋu azɔ le mɔ ene nu: esi me kɔ va ɖo esi me kɔ (t va ɖo t), esi me kɔ va ɖo esi ŋu wokpɔa ta ɖo (t va ɖo z, si woyɔna be akpoxɔnu), esi wokpɔ ta na va ɖo esi me kɔ (z va ɖo t, si woyɔna be akpoxɔnu ɖeɖeɖa), kple esi wokpɔ ta na si me woɖea akpoxɔnu le (z va ɖo z, si nye ame ŋutɔ tɔ bliboe).
+Elabena gaɖoƒe ƒomevi eve li la, asixɔxɔ ate ŋu ayi mɔ ene: nuwo ƒe ʋuʋuɖi yi nuwo ƒe ʋuʋuɖi (t yi t), nuwo ƒe ʋuʋuɖi yi ɣaɣla (t yi z, woyɔna be shielding), ɣaɣla yi nuwo ƒe ʋuʋuɖi (z yi t, woyɔna be deshielding), kple ɣaɣla yi ɣaɣla (z yi z, ɣaɣla blibo).
 
-## Nusi anyigbayeyedila ate ŋu akpɔ
+## Nu si didzila atekpɔ ate ŋu akpɔ
 
-Dutoƒonudila aɖe abe [ZecBlock](https://zecblock.com/) ate ŋu axlẽe kɔte be:
+Dukɔ bliboa ƒe didzila atekpɔ abe [ZecBlock](https://zecblock.com/) ene ate ŋu axlẽe nyuie:
 
-- Fexexe ɖesiaɖe si me kɔ bliboe (t vaseɖe t), tso nuwuwu vaseɖe nuwuwu.
-- Ga si gena ɖe ta si wotsɔ akpoxɔnu wɔe la me (afã si me kɔ kple ga home si woaxe).
-- Ga si dona le ta si ŋu wokpɔ akpoxɔnu le la me (afã si me kɔ kple ga home si woatsɔ awɔe).
-- ZEC bliboa si le ta ɖesiaɖe si wokpɔ ta na me, si nye dutoƒo ale be network la ate ŋu aɖo kpe edzi be womewɔ gaku aɖeke tso naneke me o.
+- Nuwo ƒe ʋuʋuɖi blibo (t yi t) fexexe sia fexexe.
+- Ga si ge ɣaɣla gaƒuƒoƒo me (nuwo ƒe ʋuʋuɖi ƒe akpa kple gaƒe).
+- Ga si do tso ɣaɣla gaƒuƒoƒo me (nuwo ƒe ʋuʋuɖi ƒe akpa kple gaƒe).
+- ZEC ƒe ƒomevi blibo si le ɣaɣla gaƒuƒoƒo sia sia me, si le dukɔ bliboa ƒe nukpɔkpɔ me be network la nate ŋu aɖe kpeɖeŋu be womewɔ ga aɖeke tso naneke me o.
 
-Kpuie ko la, ta si ŋu wokpɔ akpoxɔnu le ƒe goawo dzena. Àte ŋu akpɔ asixɔxɔ ƒe tsotso le eme kple eƒe dodo.
+Le nyagɔme me la, ɣaɣla gaƒuƒoƒo ƒe toƒo mewo le nukpɔkpɔ me. Àte ŋu akpɔ asixɔxɔ si le ge me kple dodom.
 
-## Nusi anyigbayeyedila mate ŋu akpɔ o
+## Nu si didzila atekpɔ mate ŋu akpɔ o
 
-Dutoƒonudila mate ŋu axlẽe be:
+Dukɔ bliboa ƒe didzila atekpɔ mate ŋu axlẽe o:
 
-- Adzɔnu siwo wokpɔ ta na bliboe (z vaseɖe z). Ame si ɖoe ɖa, amesi xɔe, kple ga home si woaxe la nɔa ɣaɣla.
-- Amesi ɖoe ɖa alo xɔe le megbe na fexexe ɖesiaɖe si wokpɔ ta na.
-- Adrɛs ɖekaɖeka si wokpɔ ta na ƒe dadasɔ.
-- Nukae dzɔna ɖe ga dzi ne wonya ge ɖe ta la me ko.
+- Ɣaɣla blibo (z yi z) gaɖoɖowo. Dɔla, xɔla, kple gaƒe la le ɣaɣla me.
+- Dɔla alo xɔla si le ɣaɣla fexexe sia sia megbe.
+- Ɣaɣla gaɖoƒe ƒe dzesi ɖeka ƒe balance.
+- Nu si dzɔna na ga le gaƒuƒoƒo la me vɔ.
 
-Bia nyatakaka xoxoawo eye shielded sender and receiver fields trɔ gbɔ ƒuƒlu. Menye tiatiae dzie anyigbayeyedila la le esia ɣlam o. Menɔ dutoƒo kɔsɔkɔsɔa dzi le nɔnɔme si woate ŋu axlẽ me gbeɖe o. Wode nyatakakaawo nya ɣaɣlawo me, eye ame si si nukpɔkpɔ ƒe safui nyuitɔ le koe ate ŋu axlẽ wo.
+Bia nyatakakawo ŋutɔ eye ɣaɣla dɔla kple xɔla ƒe fieldwo trɔ gbɔna kple aƒe. Didzila atekpɔ la meɣlana esia ɖe aga o. Womede wò ɖo dukɔ bliboa ƒe ɖoɖonu [chain] dzi kpɔ gbeɖe le nɔnɔ si me wòate ŋu axlẽe o. Wona nyatakakawo ɣaɣlaŋlɔŋlɔ [encryption], eye ame si si nukpɔsafui [viewing key] nyuitɔ ko ate ŋu axlẽe.
 
-## Nusita wòle vevie
+## Nu ka tae esia xɔ asi
 
-**Wò nya ɣaɣlawo tso nya ɣaɣlawo me, ke menye tso kaka ɖe dɔwɔƒe aɖe dzi gbɔ o.** Nyatakakadzraɖoƒe mate ŋu alé ŋku ɖe asitsatsa si wokpɔ ta na la me ne edi gɔ̃ hã o.
+**Wò ƒe ɣaɣla [privacy] tso cryptography me, menye tso company aɖe dzi ƒe dzideƒo me o.** Nyatakaka ƒe provider aɖeke mate ŋu akpɔ ɣaɣla gaɖoɖo ƒe eme o, togbɔ be wòdi be yeawɔe hã.
 
-**Dukɔa ƒe akpoxɔnu ƒe xexlẽme medea ame ŋutɔ ƒe nyawo ta o.** Nusiwo tso dukɔa ƒe liƒo koe numekulawo ate ŋu adzidze, eyata ame ŋutɔ ƒe dɔwɔnawo ƒe agbɔsɔsɔ ŋutɔŋutɔ nye nusi ŋu woka nya ta le ya teti, eye zi geɖe la, esɔ gbɔ wu.
+**Dukɔ bliboa ƒe ɣaɣla-rate nɔmbawo mesea ɣaɣla ƒe katã o.** Nudzɔdzɔlawo ate ŋu akpɔ nu si va to dukɔ bliboa ƒe liƒo ko, eyata ɣaɣla dɔwɔwɔ ƒe katã si le nyateƒe me la sɔ kple nu si wogblɔ la le esime sia me, eye zi geɖe wu ema.
 
-**Ta si lolo wu si ŋu wokpɔ ta na kpɔa amesiame ta.** Zi alesi ame geɖe zãa adrɛs siwo ŋu wokpɔa ta ɖo la, zi nenemae ameha si me ame ŋutɔ ƒe fetu ɖeka ɖesiaɖe ɣla ɖo la lolonae. Adrɛs si wokpɔ ta na zazã kpena ɖe ŋuwò be nàkpɔ wò kple amesiame si le ta la me ta.
+**Ɣaɣla gaƒuƒoƒo gãtɔ dea amesia ame.** Ame geɖe siwo zãna ɣaɣla gaɖoƒe ƒe dzesi la, esia na amewo ƒe ha si me ɣaɣla fexexe ɖeka ɣlana la gãna. Ɣaɣla gaɖoƒe ƒe dzesi zãzã dea wò kple ame bubu siwo katã le gaƒuƒoƒo la me.
 
-## Tsɔe de dɔwɔwɔ me
+## Wɔe le wò ŋutɔ ƒe agbe me
 
-- Zã gakotoku si nye adrɛs siwo wokpɔ ta na, abe [ZODL](https://zodl.com) or [Zingo!](https://www.zingolabs.org/).
-- Ne èxɔ ZEC le adrɛs si me kɔ dzi la, tsɔe yi adrɛs si wokpɔ ta na hafi nàzãe.
-- Xe fe ɖe adrɛs siwo ŋu wokpɔ ta na le afisi nàte ŋui. Fexexe ɖesiaɖe si wowɔna le gaglãgbe nye dutoƒo bliboe; amesi ŋu wokpɔ akpoxɔnu le ya menye nenema o.
+- Zã gakotoku [wallet] si naa ɣaɣla gaɖoƒe ƒe dzesi wɔa dɔ le gɔmedzedze me, abe [ZODL](https://zodl.com) alo [Zingo!](https://www.zingolabs.org/) ene.
+- Ne nèxɔ ZEC le nuwo ƒe ʋuʋuɖi gaɖoƒe ƒe dzesi dzi la, tsɔe yi ɣaɣla gaɖoƒe ƒe dzesi me hafi nàzãe.
+- Ƒe fexexe na ɣaɣla gaɖoƒe ƒe dzesi afi si nàte ŋu. Nuwo ƒe ʋuʋuɖi fexexe sia sia le dukɔ bliboa ƒe nukpɔkpɔ me; ɣaɣla fexexe menɔ eme o.
 
-## Nunɔamesiwo
+## Nudzɔdzɔwo
 
-- [Zcash: ame ŋutɔ ƒe nyawo kple dedienɔnɔ ŋuti aɖaŋuɖoɖowo](https://z.cash/support/security/privacy-security-recommendations/)
-- [Nu gbagbewo ƒe agbenɔnɔ ƒe ɖoɖo si wokpɔ ta na (Electric Coin Company) .](https://web.archive.org/web/20260903010654/https://electriccoin.co/blog/shielded-ecosystem/)
-- [Alesi Zcash mɔ̃ɖaŋununya wɔa dɔe](https://z.cash/technology/)
+- [Zcash: ɣaɣla kple dedienyui ƒe aɖaŋuwo](https://z.cash/support/security/privacy-security-recommendations/)
+- [Ɣaɣla ƒe nɔnɔme (Electric Coin Company)](https://web.archive.org/web/20260903010654/https://electriccoin.co/blog/shielded-ecosystem/)
+- [Ale si Zcash technology wɔa dɔe](https://z.cash/technology/)
 - [ZecBlock](https://zecblock.com/)
 
-## Axa siwo do ƒome kplii
+## Axɔ nuku siwo
 
-- [Zcash ƒe gɔmedzenufiafiawo](/start-here/what-is-zec-and-zcash)
-- [Gakotokuwo](/using-zcash/wallets)
-- [Ta siwo ŋu wokpɔ akpoxɔnu le](/using-zcash/shielded-pools)
+- [Zcash ƒe gɔmedzedze nyawo](/start-here/what-is-zec-and-zcash)
+- [Gakotokuwɔwo](/using-zcash/wallets)
+- [Ɣaɣla gaƒuƒoƒowo](/using-zcash/shielded-pools)
 - [zk-SNARKs](/zcash-tech/zk-snarks)
 
 ---
 
-*Ne èdi be yeatsɔ ɖɔɖɔɖowo akpe ɖe wiki ƒe axa sia ŋu alo aɖo aɖaŋu na wò la, taflatse yi ɖe... [ZecHub GitHub ƒe nuŋlɔɖi](https://github.com/ZecHub/zechub) eye nàtsɔ hehe ƒe biabiawo aɖo ɖa.*
+*Nèdi be nàtsɔ nu aɖe kpee alo nàɖe asi le wiki axɔ nuku sia ƒe tɔtrɔwo ŋu ɖa la, mekpɔ ɖe [ZecHub GitHub repo](https://github.com/ZecHub/zechub) dzi eye nàɖo pull request.*

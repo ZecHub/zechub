@@ -52,7 +52,7 @@ blockchain 是邮局。它负责递送信封并记录其已送达，但绝不会
 >
 > 以下演示使用zcashd，其[接收脚本](https://github.com/ZecHub/zechub/blob/main/site/tutorials/ZcashMagicWormhole/receiveOwlsWormhole.sh)通过`zcash-cli`读取备注。zcashd已于 2026 年 7 月 18 日达到其自动停止支持日期，因此该脚本无法连接到正在运行的节点，且尚未被移植。
 >
-> 仍可在Zallet上通过命令行读取屏蔽备注：`zallet rpc z_listunspent`会返回每个收到的屏蔽票据，其中包含与该脚本读取的相同`memoStr`字段。有关该命令，请参阅[Zallet快速参考指南](/using-zcash/zallet-quick-reference-guide)；有关将节点从zcashd迁移至Zebra和Zallet](/guides/migration-guide-zcashd-to-zebrad-zallet)，请参阅[迁移指南。Zallet仍处于 beta 阶段。
+> 仍可在Zallet上通过命令行读取屏蔽备注：`zallet rpc z_listunspent`会返回每个收到的屏蔽票据，其中包含与该脚本读取的相同`memoStr`字段。有关该命令，请参阅[Zallet快速参考指南](/using-zcash/zallet-quick-reference-guide)；有关将节点从zcashd迁移，请参阅[迁移至Zebra和Zallet指南](/guides/migration-guide-zcashd-to-zebrad-zallet)。Zallet仍处于 beta 阶段。
 >
 > 本节作为 Magic-Wormhole 演示的历史记录予以保留。
 

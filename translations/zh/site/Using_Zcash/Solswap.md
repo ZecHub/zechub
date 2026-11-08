@@ -4,7 +4,7 @@
 
 ![img1](/content-images/SJOlnt-ceg-34468cfecd.webp)
 
-已在 Solana 上持有 ZEC（例如来自一种以 ZEC 支付给持有者的代币）？不要兑换它。将该代币转移到使用 [ 的受屏蔽 Zcash 钱包。已在 Solana 上获得 ZEC？将其转移到受屏蔽的 Zcash](/using-zcash/solana-zec-to-shielded)
+已在 Solana 上持有 ZEC（例如来自一种以 ZEC 支付给持有者的代币）？不要兑换它。将该代币转移到受屏蔽的 Zcash 钱包，请参阅[已在 Solana 上获得 ZEC？将其转移到受屏蔽的 Zcash](/using-zcash/solana-zec-to-shielded)。
 
 ---
 

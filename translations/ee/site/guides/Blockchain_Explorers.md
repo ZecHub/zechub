@@ -1,89 +1,92 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/guides/Blockchain_Explorers.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Aŋlɔ Axawo"/>
 </a>
 
-# Blockchain ƒe Nukulawo
+# Gaɖoɖowo Ƒuƒoƒo Ƒe Ɖoɖonu Ƒe Kpɔlawo
 
-## Kpɔkplɔyiɖeme
+## Gɔmedzedze
 
-Le asitsatsa ƒe xexe si me wowɔa nu le tsã me la, wotsɔa gaxɔgbalẽvi si wotsɔ ɖo kpe edzi be woƒlee la kpena ɖe asitsatsa ɖesiaɖe ŋu. Nenema ke le blockchain xexeame la, ezãla xɔa dijitaal gaxɔgbalẽvi le asitsatsa ƒe id ƒe nɔnɔme me ɖe asitsatsa ɖesiaɖe si wowu enu ta. Gakotoku akpa gãtɔ ana esia wò. Blockchain explorers nye dɔwɔnu siwo nana ame kpɔa nusiwo dzɔ xoxo le blockchain dzi le susu me ko. Woxɔa na nusiwo wotsɔ de eme: asitsatsa ƒe id's, adrɛswo, alo block hashes, eye woɖea nusi dzɔ la fiana le nukpɔkpɔ me.
+Le asiatsotso ƒe xexeme la me la, gaɖoɖo [transaction] sia kple sia si wowɔ la ƒe asiatsotso ƒe ɖaseɖigbalɛ [proof] le eme. Nenema kee, le gaɖoɖowo ƒuƒoƒo ƒe ɖoɖonu [blockchain] ƒe xexeme la me la, zazã aɖe xɔ digital asiatsotso le gaɖoɖo ƒe ID ƒe nɔnɔme me na gaɖoɖo sia kple sia si wowu. Gakotoku [wallet] geɖe ana esia na wò. Gaɖoɖowo ƒuƒoƒo ƒe ɖoɖonu ƒe kpɔlawo nye dɔwɔnu [tools] ko siwo na ame ŋu wòakpɔ nu si dzɔ xoxo le gaɖoɖowo ƒuƒoƒo ƒe ɖoɖonu aɖe dzi. Woxɔna gaɖoɖo ƒe ID, gaɖoƒe ƒe dzesi [address], alo gaɖoɖowo ƒuƒoƒe ƒe hash abe wɔnɔewo ene, eye wofia nu si dzɔ la kple mɔkpɔkpɔ.
 
-## Kpɔɖeŋuwo
+## Medekpɔwo
 <div>
 
 - Bitcoin: [c839b44a7052393f4672cdc4ec79f8f15d3036565e13bede0fab91f674506a7c](https://mempool.space/tx/c839b44a7052393f4672cdc4ec79f8f15d3036565e13bede0fab91f674506a7c)
 
-- Ethereum: Ƒe 1999 me. [0x43117fc201f8d3c09a72d42ab4a048003f348917771b9ace64b8944a91807320](https://etherscan.io/tx/0x43117fc201f8d3c09a72d42ab4a048003f348917771b9ace64b8944a91807320)
+- Ethereum: [0x43117fc201f8d3c09a72d42ab4a048003f348917771b9ace64b8944a91807320](https://etherscan.io/tx/0x43117fc201f8d3c09a72d42ab4a048003f348917771b9ace64b8944a91807320)
 
-- Xexeame katã: [D0587C76E7689A9EFBDDA587DDB450F6C6E972FCEEA37DD8DA9AF95C23CF8170](https://www.mintscan.io/cosmos/txs/D0587C76E7689A9EFBDDA587DDB450F6C6E972FCEEA37DD8DA9AF95C23CF8170)
+- Cosmos: [D0587C76E7689A9EFBDDA587DDB450F6C6E972FCEEA37DD8DA9AF95C23CF8170](https://www.mintscan.io/cosmos/txs/D0587C76E7689A9EFBDDA587DDB450F6C6E972FCEEA37DD8DA9AF95C23CF8170)
 
-- Zcash (dutoƒo): [8dd212847a97c5eb9cee5e7e58c4d9e739f4156273ae3b2da1a4ff79ad95ff82](https://mainnet.zcashexplorer.app/transactions/8dd212847a97c5eb9cee5e7e58c4d9e739f4156273ae3b2da1a4ff79ad95ff82)
+- Zcash (duƒe bliboa): [8dd212847a97c5eb9cee5e7e58c4d9e739f4156273ae3b2da1a4ff79ad95ff82](https://mainnet.zcashexplorer.app/transactions/8dd212847a97c5eb9cee5e7e58c4d9e739f4156273ae3b2da1a4ff79ad95ff82)
 
-- Zcash (ame ŋutɔ tɔ): [19a4be270089490ece2e5fe7a6c9b9804af3c7ed43e1fb1b744b0fb29070fa5d](https://mainnet.zcashexplorer.app/transactions/19a4be270089490ece2e5fe7a6c9b9804af3c7ed43e1fb1b744b0fb29070fa5d)
+- Zcash (sia le ame ŋutɔ ƒe asi): [19a4be270089490ece2e5fe7a6c9b9804af3c7ed43e1fb1b744b0fb29070fa5d](https://mainnet.zcashexplorer.app/transactions/19a4be270089490ece2e5fe7a6c9b9804af3c7ed43e1fb1b744b0fb29070fa5d)
 
 </div>
 
 
-#### De dzesii kple Zcash alesi asitsatsa evelia ɣla nyatakaka veviwo katã, esia le vevie eye wòkpɔ ŋusẽ gã aɖe le dijitaal xexeame.
+#### Kpɔ Zcash gbɔ ale si gaɖoɖo evelia ƒe nyatakakanu veviwo katã le ɣaɣla [shielded] me, esia le vevi eye eŋu nya gãwo le le digital xexeme me.
 
 
-## Blockchain ƒe Anyigbatatawo
+## Gaɖoɖowo Ƒuƒoƒo Ƒe Ɖoɖonu Ƒe Anyigbatatawo
 
-Eyata ŋɔŋlɔdzesiwo ƒe ka didi sia le mía si abe dijitaal xɔgbalẽvi ene, nukae fifia? Afi siae míezãa a [blockchain ƒe numekula](https://nym.com/blog/using-blockchain-privately), alo anyigbatata, be wòakpe ɖe mía ŋu míaɖu nusi dzɔ le blockchain la dzi. De dzesi alesi kɔsɔkɔsɔ ɖesiaɖe kple eƒe tɔtrɔ le... [blockchain ƒe numekula](https://nym.com/blog/using-blockchain-privately) dzi me. Ele vevie be míase egɔme be blockchain dɔ siawo katã nye open source software ƒe kpɔɖeŋuwo. Eyae nye be ame sia ame ate ŋu akpe asi ɖe kɔdasia ŋu eye alo atsɔe awɔ fork wòasɔ ɖe eƒe didi nu. Le gɔmesese ma ta la, dɔ ɖesiaɖe bi ɖe nuto vovovowo me eye wòtrɔa asi le blockchain explorer la ŋu be wòasɔ ɖe dɔ si woyɔ ƒe nuhiahiãwo nu.
+Eya ta míaƒe digital asiatsotsoe nye agbalẽdzidzenu didi sia, nu ka wòanɔ? Afisiae mía zãna [gaɖoɖowo ƒuƒoƒo ƒe ɖoɖonu ƒe kpɔla](https://nym.com/blog/using-blockchain-privately), alo anyigbatata, be wòakpe ɖe mía ŋu míase nu si dzɔ le gaɖoɖowo ƒuƒoƒo ƒe ɖoɖonu la dzi. Kpɔ ale si ɖoɖonu sia kple sia si le eƒe [gaɖoɖowo ƒuƒoƒo ƒe ɖoɖonu ƒe kpɔla](https://nym.com/blog/using-blockchain-privately) le afima. Ele vevi be nàse egɔme be gaɖoɖowo ƒuƒoƒo ƒe ɖoɖonu ƒe dɔwɔwɔ projɛkiti siawo katã nye open source software ƒe medekpɔwo. Esia fia be ame sia kple sia ate ŋu akpe ɖe code la ŋu alo awɔ fork na eƒe dzidzɔ nu. Ne nèse esia gɔme la, projɛkiti sia kple sia katã tsɔa eɖokui dea teƒe vovovowo me eye wotrɔa gaɖoɖowo ƒuƒoƒo ƒe ɖoɖonu ƒe kpɔla la be wòasɔ kple projɛkiti ma ƒe hiãhiãwo.
 
-### Blockwo ƒe ƒuƒoƒo
-Wotsɔa asitsatsa dea *blocks* me. Ne woɖe block/validated la, woɖoa kpe asitsatsa ɖesiaɖe si le block ma me dzi eye wowɔa block hash. Woateŋu atsɔ hash ɖesiaɖe si wowɔ la ade block explorer me. Àte ŋu akpɔe be CEX's hiã *ɖo kpe edzi* geɖe hafi woaɖe asi le wò ga ŋu, esiae nye metric si zãm wole tsɔ le egbɔ kpɔm be wò asitsatsa le nenema 
-wowu enu wòde edeƒe. Aleke blockchain la wɔna nyaa asitsatsa siwo gena ɖe block si kplɔe ɖo me? Numekuku ƒe tanya sesẽ, gake egbegbe kɔsɔkɔsɔ akpa gãtɔ zãa *fewo* ƒe susu tsɔ nyaa amesi age ɖe fli la ƒe ŋgɔgbe. Zi alesi fe si woxena la loloe la, zi nenemae mɔnukpɔkpɔ asu asiwò be nàʋu ayi fli la ƒe ŋgɔgbe.
+### Gaɖoɖowo Ƒuƒoƒewo
+Wodea gaɖoɖowo ɖe *gaɖoɖowo ƒuƒoƒewo* [blocks] me. Ne woku alo woda ɖase na gaɖoɖowo ƒuƒoƒe aɖe la, woda ɖase na gaɖoɖo sia kple sia si le gaɖoɖowo ƒuƒoƒe ma me eye wowɔa gaɖoɖowo ƒuƒoƒe ƒe hash. Hash sia kple sia si wowɔ la, woate ŋu aɖe eŋu ɖe gaɖoɖowo ƒuƒoƒe ƒe kpɔla aɖe me. Ɖe wòkpɔ CEXwo kpɔ le *ɖaseɖigbalɛwo* [confirmations] ƒe xexlẽ aɖe bi hafi woda wò ga la ɖe asi, esiae nye dzidzenu si wozãna be woakpɔ be wowu wò gaɖoɖo la ɖe egbe. Aleke gaɖoɖowo ƒuƒoƒo ƒe ɖoɖonu la ƒoa ta be gaɖoɖo kae awɔ ɖoɖo ge ɖe gaɖoɖowo ƒuƒoƒe si gbɔna me? Esia nye nyadzɔdzɔ ƒe nudzɔdzɔ si sesẽ, gake ɖoɖonu yeyeawo dometɔ geɖe zãa *adzɔwo* [fees] ƒe susu be woatsɔ atia ame si anɔ fliƒe gbãtɔ me. Ne adzɔ la le dzidzedze wu la, ekema wòƒe mɔ be nàyi fliƒe gbãtɔ me le fli la me la le dzidzedze wu.
 
-### Adrɛswo
+### Gaɖoƒe Ƒe Dzesiawo
 
-Mɔ dodzidzɔname aɖe si dzi woato asrɔ̃ nu le nukpɔkpɔ me [blockchain-nukpɔlawo](https://nym.com/blog/using-blockchain-privately) nye be woaŋlɔ asitsatsa ɖesiaɖe si wowɔ le vome ƒe adrɛs ɖe eme. Ekema àte ŋu atrɔ ayi megbe le ɣeyiɣi me akpɔ afisi ga la dzɔ tso! Adrɛs si wotsɔ dea eme kple esi dona siaa le asitsatsa ɖesiaɖe si.  Ne ame tsɔ nyatakaka siawo bla aʋakpa la, ate ŋu ayi ŋgɔ kple megbe siaa bɔbɔe tso asitsatsa ɖesiaɖe si wozã me. Le amesiwo lɔ̃a aɖaŋunuwɔwɔ gome la, esia nye dijitaal si sɔ kple ganyawo ƒe aɖaŋunu gã aɖe, eye woate ŋu azãe hena nuwɔwɔ le gaglãgbe. Blockchain explorer zazã na be menye ɖeko esia kpɔkpɔ le susu me le bɔbɔe ŋutɔ ko o, ke *ehea susu yia* alesi wòhiã be woawɔ asitsatsa ƒe adzamenyawo hã dzi. Negbe ɖe nèle Zcash si wotsɔ akpoxɔnu zãm ko la, àte ŋu awɔ esia kple *ɖesiaɖe* blockchain si me kɔ: BTC, ETH, ATOM, DOGE, VTC, kple bubuawo ... . Nya sia le vevie ŋutɔ na amesiame si zãa blockchain la le ʋuʋum dedie yi ɖe dijitaal ɖeɖeko ƒe etsɔme me.
+Mɔ dzidzɔ aɖe si mɔkpɔkpɔ me nàsrɔ [gaɖoɖowo ƒuƒoƒo ƒe ɖoɖonu ƒe kpɔlawo](https://nym.com/blog/using-blockchain-privately) nye be nàɖe gaɖoɖo aɖe si wòtia ɖe asi ƒe gaɖoƒe ƒe dzesi la ɖe eme. Emegbe nàte ŋu ayi megbe le ɣeyiɣi me eye nàkpɔ afi si ga la tso! Gaɖoɖo sia kple sia ƒe gaɖoƒe ƒe dzesi si tsoa eme kple si yia eme le. Ne ame aɖe le nyatakaka sia ŋu la, ate ŋu ayi ŋgɔ kple megbe bɔbɔe tso gaɖoɖo sia kple sia si wozã xoxo. Na ame siwo lɔ̃a nudzɔdzɔwo la, esia nye digital nudzɔdzɔ gã aɖe si le ga ŋu, eye woate ŋu azãe na nuwo ƒe ʋuʋuɖi [transparent] ƒe ta. Ne wòzã gaɖoɖowo ƒuƒoƒo ƒe ɖoɖonu ƒe kpɔla la, menye be wòanɔ bɔbɔe be nàkpɔe ko o, ke boŋ *efia kple dzesi* be gaɖoɖo ƒe ɣaɣla [privacy] le vevi. Ne mèzã ɣaɣla Zcash o la, àte ŋu awɔ esia kple gaɖoɖowo ƒuƒoƒo ƒe ɖoɖonu sia kple sia si nuwo ƒe ʋuʋuɖi le: BTC, ETH, ATOM, DOGE, VTC, kple bubuwo ... . Nu sia le vevi ŋutɔ na ame sia kple sia si zãa gaɖoɖowo ƒuƒoƒo ƒe ɖoɖonu dedie le mɔ si yia digital ko ƒe etsɔme.
 
-### Ga homewo
+### Ga Ƒe Ɖeƒewo
 
-Abe adrɛs siwo le etame ene la, ga home siwo woate ŋu akpɔ le dutoƒo la le asitsatsa ɖesiaɖe si wowɔna le dutoƒo blockchain dzi la me. Esia lɔ ga home siwo le adrɛs siwo dzi woŋlɔa nu ɖo kple esiwo dzi woŋlɔa nu ɖo siaa ɖe eme na asitsatsa ɖesiaɖe. Nu ɖeka si to vovo na esia enye ne ètiae be yeazã Shielded Zcash -- ekema ga homewo katã ɣla. Le asitsaha suewo tɔ siwo hiã adzamenyawo godoo hena *asitsatsa dzɔdzɔe* gome la, esia nye viɖe gã aɖe!
+Nenema kee abe gaɖoƒe ƒe dzesiwo siwo le etame ene la, gaɖoɖo sia kple sia si le duƒe blibo ƒe gaɖoɖowo ƒuƒoƒo ƒe ɖoɖonu dzi la, woɖea ga ƒe ƒeƒewo fia ame sia kple sia. Esia ƒoa ga ƒe ƒeƒe siwo le gaɖoƒe ƒe dzesi si tsoa eme kple si yia eme me na gaɖoɖo sia kple sia. Nu ɖeka si vovo le esia me nye ne wòtia be yèazã Shielded Zcash -- ekema woɣla ga ƒe ƒeƒewo katã. Na asitsɔdzraɖoƒe sue ƒe dzikpɔlawo siwo hiã ɣaɣla na *trade si le dzɔdzɔe* la, esia nye anfani gã aɖe!
 
 ![amounts](/content-images/206312357-e9504151-830f-4fa1-81cb-f23619-210f51493c.webp)
 
 
-### Nusiwo anyigbayeyedila ate ŋu akpɔ kple esiwo mate ŋu akpɔ le Zcash dzi o
+### Nu si kpɔla aɖe ate ŋu akpɔ kple nu si wòmate ŋu akpɔ le Zcash
 
 #### TL;DR
-- Si me kɔ (`t`) adrɛswo dzena bliboe le explorer dzi, abe Bitcoin ene
-- Asitsatsa siwo wokpɔ ta na bliboe (z vaseɖe z) ɣlaa ga homea, adrɛsawo, kple nuŋlɔɖia
-- Fe si woxena la gakpɔtɔ dzena, le asitsatsa si ŋu wokpɔ ta na bliboe gɔ̃ hã me
-- Shielding (ʋuʋudedi `t` to shielded) kple deshielding (si wotsɔ akpoxɔnu trɔ yi `t`) ƒe akpa aɖe dzena, elabena akpa ɖeka me kɔ
-- Ne ga le ta siwo ŋu wokpɔ ta na la me ko hafi ame ŋutɔ ƒe nyawo nɔa anyi
+- Nuwo ƒe ʋuʋuɖi (`t`) gaɖoƒe ƒe dzesiawo fia bliboa le kpɔla aɖe dzi, abe Bitcoin ene
+- Gaɖoɖowo siwo le ɣaɣla bliboa me (z yi z) ɣla ga ƒe ƒeƒe, gaɖoƒe ƒe dzesiawo, kple nya kpui [memo] la
+- Adzɔ la hã fia, gɔ̃ hã le gaɖoɖo si le ɣaɣla bliboa me dzi
+- Ɣaɣla wɔwɔ (`t` ƒe ga ƒe dididi yi ɣaɣla me) kple ɣaɣla ƒe dididi megbegbe (ɣaɣla me ƒe ga ƒe trɔtrɔ yi `t`) fia kpuie, elabena akpa ɖeka nye nuwo ƒe ʋuʋuɖi
+- Ɣaɣla nɔa anyi ko zi si ga nɔa ɣaɣla me ƒe gaƒuƒoƒowo [pools] me
 
-Adrɛs ƒomevi siwo wu ɖeka le Zcash si, eye anyigbayeyedila aɖe wɔa nu ɖe ​​wo ŋu le mɔ bubu kura nu.
+Zcash ƒe gaɖoƒe ƒe dzesi ƒome vovovo sɔ gbɔ, eye kpɔla aɖe trɔa wo ŋu vovotɔe.
 
-Adrɛs siwo me kɔ, siwo dzea egɔme tso `t`, wɔa dɔ abe Bitcoin ene. Amedzro aɖe fiaa amesi ɖoe ɖa, amesi xɔe, ga home si woaxe, kple mɔ si dzi woato atrɔ ayi afisi ga la tso.
+Nuwo ƒe ʋuʋuɖi gaɖoƒe ƒe dzesiawo si dzea egɔme kple `t` la wɔa dɔ abe Bitcoin ene. Kpɔla aɖe fiaa ame si dɔ ga, ame si xɔ ga, ga ƒe ƒeƒe, kple mɔ si yia afi si ga la tso.
 
-Shielded addresses are the private side. Funds in the Sapling or Orchard [ta siwo ŋu wokpɔ akpoxɔnu le](https://zechub.wiki/using-zcash/shielded-pools#content) wokpɔa wo ta to sidzedze ƒe kpeɖodzi zero dzi. Di asitsatsa si wokpɔ ta na bliboe eye anyigbayedila la mate ŋu aɖe ga home, adrɛsawo, alo nuŋlɔɖia afia o. Ðeko wòate ŋu aɖo kpe edzi be asitsatsa si sɔ dzɔ eye woŋlɔe ɖe block aɖe me. Esia nye ame ŋutɔ ƒe kpɔɖeŋu ɣaɣla si woɖe fia le axa sia tame gbɔ.
+Ɣaɣla me ƒe gaɖoƒe ƒe dzesiawo nye akpa si le ame ŋutɔ ƒe asi. Ga si le Sapling alo Orchard [ɣaɣla me ƒe gaƒuƒoƒowo](https://zechub.wiki/using-zcash/shielded-pools#content) la, zero-knowledge ɖaseɖigbalɛwoe kpɔa eŋu. Di gaɖoɖo si le ɣaɣla bliboa me eye kpɔla la mate ŋu afia ga ƒe ƒeƒe, gaɖoƒe ƒe dzesiawo, alo nya kpui la o. Ete ŋu ada ɖase ko be gaɖoɖo si le eteƒe dzɔ eye wowɔ nuŋlɔɖi na e le gaɖoɖowo ƒuƒoƒe aɖe me. Esiae nye medekpɔ si le ame ŋutɔ ƒe asi, si wofia ɖe axa sia ƒe dzesi gbɔ.
 
-Nya ɖeka aɖe nɔa dzedzem le asitsatsa siwo ŋu wokpɔ ta na bliboe gɔ̃ hã gome: fe si woxena. Zcash ƒe nukpɔsusu ɖeka ƒe sewo bia be woagblɔ fe si woxena le gaglãgbe la tẽ, eyata anyigbayeyedila ateŋu aɖee afia ɣesiaɣi, ne wotsyɔ ga homeawo dzi gɔ̃ hã. Le susu ma ta la, enyo be nàzã gakotoku ƒe fe si wozãna ɖaa, eyata wò asitsatsa maɖe dzesi to ga home si mebɔ o xexe me o.
+Nu ɖeka nɔa fia gɔ̃ hã na gaɖoɖowo si le ɣaɣla bliboa me: adzɔ la. Zcash ƒe gbegbɔgblɔ ɖi [consensus] ƒe sewo bia be woagblɔ nuwo ƒe ʋuʋuɖi ƒe adzɔ la kpuie, eyata kpɔla aɖe ate ŋu afiae ɣesiaɣi, gɔ̃ hã ne woɣla ga ƒe ƒeƒewo. Eya ta ele nyuie be nàzã gakotoku ƒe adzɔ si woɖo ɖi, ale be wò gaɖoɖo la magblẽ le go me le adzɔ si mesɔ o ƒe fefee ta o.
 
-Anyigbayeyedila ate ŋu akpɔe hã ne ga tso akpa siwo me kɔ kple esiwo ŋu wokpɔ akpoxɔnu le dome. Ʋuʋu `t` gawo yi ta aɖe me nye ametakpɔnu, wo ʋuʋu ake do goe nye ametakpɔnu ɖeɖeɖa. Wokpɔa mɔ mawo ƒe akpa aɖe elabena axa ɖeka me kɔ. Z to z dɔwɔna si nye ame ŋutɔ tɔ bliboe koe, si meka asi a ŋu gbeɖe o `t` adrɛs, ɣlaa nusianu negbe fetu la ko.
+Kpɔla la hã ate ŋu akpɔ ne ga tsoa nuwo ƒe ʋuʋuɖi akpa la yi ɣaɣla me ƒe akpa la dome. `t` ƒe ga ƒe dididi yi gaƒuƒoƒe aɖe me nye ɣaɣla wɔwɔ, eye ga ƒe hehehe tso eme nye ɣaɣla ƒe dididi megbegbe. Ɖeɖekae woakpɔ crossings siawo, elabena akpa ɖeka nye nuwo ƒe ʋuʋuɖi. Z yi z ƒe dɔwɔwɔ si le ame ŋutɔ ƒe asi bliboa ko, si meka ɖe `t` gaɖoƒe ƒe dzesi aɖe ŋu o, ɣla nu sia kple sia negbe adzɔ la.
 
-Nusi woatsɔ ayi teƒe bubu: ame ŋutɔ ƒe nyawo gbɔ kpɔkpɔ nɔ te ɖe ta siwo ŋu wokpɔ ta na la me nɔnɔ dzi. Ne gawo nya ka asi a `t` adrɛs, be woƒe ŋutinya ƒe akpa aɖe nye dutoƒo abe Bitcoin ene. Be nàɖo kpe wò ŋutɔ wò dɔwɔna si ŋu akpoxɔnu le dzi na ame aɖe si nètia, abe akɔntanyala ene la, ma nukpɔkpɔ ƒe safui aɖe tsɔ wu be nàɖee afia le dutoƒo. Kpɔ nya si [Safuiwo Kpɔkpɔ](https://zechub.wiki/zcash-tech/viewing-keys#content) axa 10.
+Nu si wòanye be nàtsɔ ayi: ɣaɣla ƒoa ɖe ga ƒe nɔnɔ ɖe ɣaɣla me ƒe gaƒuƒoƒewo me. Ne ga de asi ɖe `t` gaɖoƒe ƒe dzesi aɖe ŋu ko la, eƒe ŋutinya ma ƒe akpa la le duƒe bliboa ƒe ŋku me abe Bitcoin ene. Be nàda ɖase na ame si wòtia be wòkpɔ wò ɣaɣla me ƒe dɔwɔwɔ, abe akɔntabliŋlɔla ene, mawo nukpɔsafui [viewing key] aɖe de duƒe bliboa ƒe asi o. Kpɔ [Nukpɔsafuiwo](https://zechub.wiki/zcash-tech/viewing-keys#content) ƒe axa la.
 
+### Zcash Ƒe Gaɖoɖowo Ƒuƒoƒo Ƒe Ɖoɖonu Ƒe Kpɔlawo ƒe Xexlẽme
 
-### Zcash Block Explorers ƒe ŋkɔwo
-
-- [Zcash Block ƒe Ʋuʋudedi](https://mainnet.zcashexplorer.app/)
+- [Zcash Gaɖoɖowo Ƒuƒoƒo Ƒe Ɖoɖonu Ƒe Kpɔla](https://mainnet.zcashexplorer.app/)
 
 - [3xpl](https://3xpl.com/zcash)
 
+- [ShieldedScan](https://shieldedscan.xyz)
+
 - [ZecBlock](https://zecblock.com/)
 
+- [SoChain](https://sochain.com/zec) ([testnet](https://sochain.com/zectest))
 
-### Mɔfiame si Wokpɔna
 
-Blockchain explorer vovovowo ƒe kpɔɖeŋu nyui enee nye esi:
 
-* [Mempool.teƒe](https://mempool.space)
-* [Ethscan ƒe agbalẽ](https://etherscan.io/)
-* [Zcash Block ƒe Ʋuʋudedi](https://mainnet.zcashexplorer.app)
+### Mɔkpɔkpɔ Ƒe Kplɔɖeŋu
+
+Afi sia la medekpɔ nyui ene le gaɖoɖowo ƒuƒoƒo ƒe ɖoɖonu ƒe kpɔla vovovowo ŋu:
+
+* [Mempool.space](https://mempool.space)
+* [Ethscan](https://etherscan.io/)
+* [Zcash Gaɖoɖowo Ƒuƒoƒo Ƒe Ɖoɖonu Ƒe Kpɔla](https://mainnet.zcashexplorer.app)
 * [Mintscan](https://hub.mintscan.io/chains/ibc-network)
 
 
@@ -97,7 +100,3 @@ Blockchain explorer vovovowo ƒe kpɔɖeŋu nyui enee nye esi:
 
 
 ![cosmos](/content-images/206316791-2debfd28-923a-44f4-b7d3-701182-cf39a065fc.webp)
-
-
-
-

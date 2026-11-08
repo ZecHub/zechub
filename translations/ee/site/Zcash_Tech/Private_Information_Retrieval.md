@@ -1,97 +1,97 @@
-# Ame ŋutɔ ƒe nyatakakawo xɔxɔ
+# Ɖeɖe nyatakaka le ɣaɣla me [Private information retrieval]
 
-## TL;DR
+## Ɖe asi le eŋu
 
-- Nyatakakawo xɔxɔ le ame ŋutɔ gbɔ, alo PIR, naa mɔ̃ aɖe xɔa nu ɖeka tso server ƒe nyatakakadzraɖoƒe evɔ server la menya nusi wobia o
-- Zcash hiã esia elabena ame ŋutɔ ƒe gakotoku mateŋu abia server be asitsatsa kawoe nye eya ŋutɔ tɔ evɔ matsɔ eɖokui ana o
-- Egbea gakotokuwo ɖea nyatakaka geɖe wu esiwo hiã la ƒe kɔpi hewɔa wo scan, si nye susu vevi si tae wowɔa ɖeka le blewu ɖo
-- PIR ana gakotoku aɖe naxɔ eya ŋutɔ ƒe nyatakakawo ko le adzame, eye wòaɖe mɔxenu ma ɖa esime adzamenyawo ya nɔa anyi
-- Enye numekukuwɔƒe si le dɔ dzi vevie na Zcash, ŋusẽ le eŋu le nukpɔsusu me, eye wole ewɔm be wòawɔ dɔ na gakotoku ŋutɔŋutɔwo
-
-<br/>
-
-## Ameka tae esia nye
-
-- Amesiame si bia eɖokui be aleke ame ŋutɔ ƒe gakotoku wɔa ye ŋutɔ ƒe gakuwo evɔ wo dometɔ kawo medona le eme o hã
-- Ame yeye siwo yia edzi kpɔa PIR si woyɔ kpe ɖe Zcash scaling dɔwɔwɔ ŋu
-- Nuxlẽla siwo di be nukpɔsusua gbã eye nya ɣaɣla siwo le ete la di evelia
+- Ɖeɖe nyatakaka le ɣaɣla me, alo PIR, na mɔ device aɖe be wòaxɔ nu ɖeka tso server ƒe nyatakakadzraɖoƒe me, si server la manya nu si wobia o
+- Zcash hia esia elabena gakotoku si le ɣaɣla me mate ŋu abia server be gaɖoɖo kae nye etɔwo ne menye be wòafia eɖokui o
+- Egbea gakotokuwo ƒea nyatakaka geɖe wu esi wo hia eye womekpe ɖe wo ŋu o, si nye susu vevi aɖe si ta sync wɔna blewu
+- PIR ana mɔ gakotoku aɖe be wòaxɔ eya ŋutɔ ƒe nyatakakawo le ɣaɣla me ko, eye wòadzudzɔ teƒe si wɔna be nuwo mekpɔa dzi o, esi ɣaɣla le anyi
+- E nye nu si wo le tsɔtsɔ me fifia na Zcash, eƒe ŋusẽ gã le teori me, eye wo le wɔm be wòanyo na gakotoku siwo wo zãa le nyateƒe me
 
 <br/>
 
-## Kuxi si PIR kpɔa egbɔ na Zcash
+## Ame kae wotu esia na
 
-Zcash ɣlaa amesiwo ƒe asitsatsa aɖe nye na. Ameŋunyatakaka ma he nyabiase aɖe si mebɔbɔ o vɛ: ne network la mete ŋu kpɔ asitsatsa siwo nye tɔwò o la, aleke wò ŋutɔ wò gakotoku awɔ ake ɖe wo ŋu?
-
-Egbea ŋuɖoɖoa me mekɔ tututu o. Gakotoku mateŋu abia server be asitsatsa kawoe nye tɔnye o, elabena biabia ma aɖe nusi tututu Zcash le agbagba dzem be yeaɣla la afia. Eyata gakotokua ɖea nyatakaka gbogbo aɖewo ɖe kɔpi boŋ eye wòdoa nu ɖesiaɖe kpɔna le teƒea be yeakpɔ nusi nye ye tɔ. Ewɔa dɔ, eye wòkpɔa ame ŋutɔ ƒe nyawo ta, gake ewɔa blewu eye wòlolona. Scanning sia nye susu vevi siwo ta gakotoku ƒe syncing ate ŋu ase le eɖokui me be kuviawɔwɔ le la dometɔ ɖeka.
-
-Nu nyuitɔ anye mɔ si dzi gakotoku aɖe ato abia tso server aɖe si be wòana eya ŋutɔ ƒe nyatakakawo pɛpɛpɛ, eye wòaxɔe, evɔ server la masrɔ̃ nusi wobia la gbeɖe o. Nu ma tututue ame ŋutɔ ƒe nyatakakawo xɔxɔ nana.
+- Ame sia ame si bia kpɔ be aleke gakotoku si le ɣaɣla me kpɔa eƒe gaawo egbe menana nyatakaka tso ame siwo wònye o
+- Ame yeye siwo kpɔa be woƒoa PIR kple Zcash ƒe nu ƒe dziyiyi dɔwo ƒe nya zi geɖe
+- Nuxlẽlawo siwo di be woase gɔmedzedze la gbã hafi woava ɖe kriptografi si le eƒe te me
 
 <br/>
 
-## Nusi PIR nye
+## Kuxi si PIR ɖo ɖe egbe na Zcash
 
-Ame ŋutɔ ƒe nyatakakawo xɔxɔ nye nya ɣaɣlawo xɔxɔ ƒe mɔnu si naa asisi xlẽa nya ɖeka tso server ƒe nyatakakadzraɖoƒe evɔ meɖea nya si wòxlẽ la fiana server la o.
+Zcash ɣla ame si wotu gaɖoɖo aɖe ɖo na. Ɣaɣla ma hea biabia aɖe si mekpɔa bɔbɔe o: ne network la mate ŋu akpɔ gaɖoɖo siwo nye tɔwò o la, aleke wò gakotoku ŋutɔ akpɔ wo?
 
-Bu agbalẽdzraɖoƒe aɖe si me nàte ŋu axɔ agbalẽ si tututu nèdi le, gake agbalẽdzraɖoƒedzikpɔla la menya agbalẽ si wotsɔ de asi na wò gbeɖe o. Èxɔa wò nu, eye wò ɖetsɔleme nɔa ame ŋutɔ gbɔ. PIR nye susu ma ƒe akɔntabubu ƒe tɔtrɔ, si wozãna ɖe nyatakakadzraɖoƒe ɖesiaɖe ŋu.
+Egbea, ŋuɖoɖo la menɔ bɔbɔe o. Gakotoku aɖe mate ŋu abia server be gaɖoɖo kae nye tɔnye o, elabena biabia ma afia nu si Zcash le dɔ wɔm be yeɣla. Eyata, gakotoku la ƒea nyatakaka geɖe eye wòle kpɔkpɔ nu ɖeka sia ɖeka le eƒe te be yeakpɔ esi nye etɔ. Ewɔa dɔ, eye wòle ɣaɣla la kpɔm ɖe asi, gake ewɔna blewu eye wòle kpekpeɖeŋu. Nudzodzro sia nye susu vevi si ta gakotoku ƒe sync ate ŋu anɔ blewu.
 
-Wosrɔ̃ nu tso nukpɔsusua ŋu le nya ɣaɣlawo me ƒe bla nanewoe nye sia. Chor, Goldreich, Kushilevitz, kple Sudan ye to esia vɛ zi gbãtɔ le ƒe 1995 me, amesiwo ƒo nu tso server geɖe ƒe mɔnu ŋu, eye server ɖeka ƒe tɔtrɔ gbãtɔ kplɔe ɖo le ƒe 1997 me tso Kushilevitz kple Ostrovsky gbɔ. Menye nane si Zcash to vɛ o, ke boŋ enye agble si woɖo anyi si Zcash le zazãm fifia ɖe kuxi ŋutɔŋutɔ kple dzimesesẽ ŋu.
-
-<br/>
-
-## Alesi PIR wɔa dɔe, le ɖoƒe gbãtɔ
-
-Mɔ gbadza eve li siwo dzi woato atu PIR ɖo, eye vovototoa le vevie.
-
-Gbãtɔ zãa server geɖe. Asitsalawo ɖoa nyabiasea ƒe akpa aɖe ɖe server geɖewo dometɔ ɖesiaɖe, eye wòƒoa woƒe ŋuɖoɖowo nu ƒu ɖe teƒea. Server ɖeka aɖeke mekpɔa nusi sɔ gbɔ be wòasrɔ̃ nusi wobia o. Esia wɔa dɔ nyuie, gake enɔ te ɖe serverawo ƒe nugbeɖoɖo kple wo nɔewo dzi, si ŋu kakaɖedzi le sesẽ le xexe ŋutɔŋutɔ me.
-
-Evelia zãa server ɖeka kple nya ɣaɣlawo zazã si me nunya le tsɔ wu be wòazã akpa vovovowo. Le afisia la, asisi la ɖoa ŋu ɖe dɔwɔnu tɔxɛ aɖe si woyɔna be homomorphic encryption ŋu, eye esiae nye mɔfiame si ŋu viɖe le wu na dɔwɔwɔ ŋutɔŋutɔwo, elabena mehiã na server geɖe siwo mewɔ ɖeka kple wo nɔewo o.
+Nu si anyo ŋutɔ nye mɔ si ana gakotoku aɖe abia server be wòana eya ŋutɔ ƒe nyatakaka tututu, eye wòaxɔe, esi server la manya nu si wobia o. Esia tututu nye nu si ɖeɖe nyatakaka le ɣaɣla me naa.
 
 <br/>
 
-## Mɔnu si wozãna: homomorphic encryption
+## Nu si PIR nye
 
-Homomorphic encryption nye nya ɣaɣla ƒomevi aɖe si naa server te ŋu bua akɔnta le nyatakakawo ŋu esime wòle nya ɣaɣla me. Server la wɔa ŋuɖoɖo nyuitɔ si wotsɔ nya ɣaɣlawo ŋlɔe evɔ mekpɔa asixɔxɔ siwo le ete la gbeɖe o.
+Ɖeɖe nyatakaka le ɣaɣla me nye kriptografi ƒe mɔ si naa client aɖe xlẽ nudzraɖoƒe ɖeka tso server ƒe nyatakakadzraɖoƒe me, esi menafia server la nudzraɖoƒe si wòxlẽ o.
 
-Susu si le megbe na single-server PIR si wotu aleae nye esi. Asisi la di be yeakpɔ nusi ƒe xexlẽdzesi etɔ̃ le xexlẽdzesi aɖe me. Etua biabia aɖe si le nyateƒe me la, enye ẽ si wotsɔ nya ɣaɣlawo ŋlɔ na nɔƒe etɔ̃lia kple ao si wotsɔ nya ɣaɣlawo ŋlɔ na nɔƒe bubu ɖesiaɖe. Le server gome la, biabia sia nye toɣliɖeɖe si gɔmesese aɖeke mele o ko, mate ŋu anya nɔƒe si lé ẽ la ɖe asi o.
+Bu dzidzime aɖe ŋu, afi si wòate ŋu axɔ agbalẽ tututu si nèdi, gake dzidzimeŋlɔla la manya agbalẽ si wòtsɔ na wò o. Nèxɔ nu si nèdi, eye wò dzidzɔ le ɣaɣla me. PIR nye matematiki ƒe tata le susu sia ŋu, si wo tsɔ wɔa dɔ kple nyatakakadzraɖoƒe eyikeyi.
 
-Emegbe dɔwɔƒea ƒoa eƒe nyatakakadzraɖoƒea nu ƒu kple nyabiase sia si wotsɔ nya ɣaɣlawo ŋlɔe to homomorphic encryption ƒe nɔnɔme tɔxɛwo zazã me, eye wòdzia ​​nu ɖesiaɖe si wodzra ɖo ɖe edzi kple ẽ alo ao si wotsɔ nya ɣaɣlawo ŋlɔe si sɔ eye wòtsɔa emetsonuwo kpena ɖe wo nɔewo ŋu. Nusi dona nye agbalẽvi ɖeka si wotsɔ nya ɣaɣlawo ŋlɔe si me nusi tututu asisi la di le, eye naneke meɖea esi wònye fiana o. Asitsaha la ɖea agbalẽvi ma gɔme eye wòxlẽa eƒe nu. Server la ɖo nyabiasea ŋu evɔ menya nyabiasea gbeɖe o.
-
-Eƒe tɔtrɔ si sesẽ wu, si woyɔna be symmetric PIR, tsɔ kakaɖedzi evelia kpee: nusi wòbia koe asisi la srɔ̃na eye mesrɔ̃a naneke tso nya bubu aɖeke si woŋlɔ ɖe nyatakakadzraɖoƒea ŋu o. Ema kpɔa nyatakakadzraɖoƒea ta eye wòkpɔa asisi la hã ta.
+Wo le srɔ̃m gɔmedzedze sia le kriptografi me ƒe ƒe geɖe. Chor, Goldreich, Kushilevitz, kple Sudan ƒo eɖe gɔme gbã le 1995, esi woɖe server geɖe ƒe mɔ la fia, eye single-server ƒe version gbã va le 1997 tso Kushilevitz kple Ostrovsky gbɔ. Menye nu si Zcash wɔ o, e nye dɔƒe si woɖo ɖe anyi xoxo, si Zcash le tsɔm fifia le kuxi si sese ɖe ŋutɔ ŋu ƒe ŋu.
 
 <br/>
 
-## Mɔ̃ɖaŋunuxlẽlawo ƒe ŋkuléle ɖe nu ŋu nyuie wu
+## Aleke PIR wɔa dɔ, le gɔmedzedze ƒe te
 
-Wotu egbegbe dɔwɔnu ɖeka ƒe ɖoɖowo ɖe lattice cryptography dzi, zi geɖe la, nusɔsrɔ̃ kple vodadawo ƒe susu. Asitsalawo ƒe biabia nye vector of ciphertexts, encryption of one le target index kple zero le teƒe bubuwo, eye encryption la nye additively homomorphic, eyata server ateŋu atsɔ ciphertexts akpe ɖe eŋu eye wòadzi wo ɖe plaintext database entries dzi evɔ maɖe nya ɣaɣlawo gɔme o.
+Mɔ vevi eve le PIR tutu na, eye vovototo si le wo dome la le vevie.
 
-Server la wɔa nu ɖe ​​nyatakakadzraɖoƒea ŋu abe matrix ene, ewɔa tiatia vektor si wotsɔ nya ɣaɣlawo ŋlɔ la ŋudɔ, eye wòtrɔa nya ɣaɣla ɖeka si ɖea nyatakakadzraɖoƒea ɖe fli si wodi la gbɔ. Esi wònye be womate ŋu ade vovototo biabia la kple toɣliɖeɖe si wowɔna le vome dome o ta la, nyatakaka aɖeke mekpɔa server la tso index la ŋu o.
+Gbãtɔ la zãa server geɖe. Client la na server geɖe siawo ƒe biabia la ƒe akpa ɖeka sia ɖeka, eye wòtsɔa woƒe ŋuɖoɖowo ƒoa nu le eƒe te. Server ɖeka aɖeke mekɔ nyatakaka ade si aso eŋu be wòanya nu si wobia o. Esia wɔa dɔ kabakaba, gake wòle ɖe edzi be serverwo mana ɖe ɖokpe me o, si sesẽ be woakpɔa ɖe edzi le xexea me.
 
-Ŋutinya me mɔxenua nye gazazã ɣesiaɣi. Le bometsitsi me la, ele be server la naka asi nya ɖesiaɖe si woŋlɔ ɖe nyatakakadzraɖoƒea ŋu na biabia ɖesiaɖe, si xɔ asi le akɔntabubu me, eye ciphertexts lolo, si xɔ asi le bandwidth me. Numekuku siwo wowɔ nyitsɔ laa dze esia dzi kple dɔwɔwɔ do ŋgɔ, ɖoɖowo abe SimplePIR kple FrodoPIR na be dɔwɔƒea dzraa nyatakakadzraɖoƒea ɖo do ŋgɔ eye wòtsɔa aɖaŋuɖoɖo sue aɖe dea asi na asisi ɖesiaɖe, si tua dɔa ƒe akpa gãtɔ ɖe akpa si mele internet dzi o me ale be nyabiase siwo le agbe la nawɔ kabakaba. Viɖe si le akpa aɖe si ŋu viɖe le enye be wobua xɔtuɖoɖo siwo wotu ɖe lattice dzi hã be woate ŋu anɔ te ɖe quantum amedzidzedze nu, si sɔ kple Zcash ƒe afɔɖeɖe si keke ta wu yi quantum megbe adzamenyawo gbɔ.
+Evelia zãa server ɖeka kple kriptografi si le ŋusẽ me le ame geɖe teƒe. Afisia client la le ɖe dɔwɔnu tɔxɛ aɖe si woyɔna be homomorphic encryption ɖe, eye esia nye mɔ si wòwɔ be wòanyo na dɔwɔwɔ le nyateƒe me, elabena mehia server siwo mana ɖe ɖokpe me o.
+
+<br/>
+
+## Mɔ si wozãna: homomorphic encryption
+
+Homomorphic encryption nye ɣaɣlaŋlɔŋlɔ ƒomevi aɖe si naa server aɖe wɔa akɔnta le nyatakaka ŋu esi wòle ɣaɣla me. Server la wɔa ŋuɖoɖo si le ete, esi mekpɔ asixɔxɔ siwo le eƒe te o.
+
+Esi nye single-server PIR si wotu alea ƒe gɔmedzedze. Client la di nu number 3 tso list aɖe me. Wòtua biabia aɖe si, le nyateƒe me, nye "ẽ" si woŋlɔ ɣla na teƒe 3 kple "ao" si woŋlɔ ɣla na teƒe bubu ɖe sia ɖe. Na server la, biabia sia nye haɖehaɖe si menye nu o, mate ŋu anya teƒe si "ẽ" la le o.
+
+Emegbe server la tsɔa eƒe nyatakakadzraɖoƒe kple biabia si woŋlɔ ɣla sia doa ɖekae le homomorphic encryption ƒe nɔnɔme tɔxɛwo zãm, wòle nudzraɖoƒe ɖe sia ɖe ƒe asixɔxɔ kple "ẽ" alo "ao" si woŋlɔ ɣla si sɔ kplii dom, eye wòle ŋuɖoɖowo ƒom ɖekae. Nu si do go nye package ɖeka si woŋlɔ ɣla, si me nu tututu si client la di le, eye menɔ nu aɖeke si afia nu si wònye o. Client la ɖe ɣaɣlaŋlɔŋlɔ la ɖe eyome eye wòxlẽa eƒe nu. Server la ɖo biabia la ŋu esi menya biabia la kpɔ o.
+
+Version si le ŋusẽ wu, si woyɔna be symmetric PIR, tsɔa ɖoɖo evelia kpea ɖe eŋu: client la nya nu si wòbia ko eye manya naneke tso nudzraɖoƒe bubu aɖeke le nyatakakadzraɖoƒe la me o. Esia kpɔa nyatakakadzraɖoƒe la hã ɖe asi abe ale si wòle client la kpɔm ɖe asi ene.
+
+<br/>
+
+## Nudzodzro kpuie na nuxlẽla siwo le tekiniɖiƒe me
+
+Single-server ƒe tata yeyeawo le lattice kriptografi ŋu, zi geɖe le learning with errors assumption ŋu. Client la ƒe biabia nye ciphertext vectors, enye ɖeka si woŋlɔ ɣla le index si wotu ɖo la dzi kple zero le teƒe bubuwo katã, eye ɣaɣlaŋlɔŋlɔ la nye additive homomorphic, eyata server la ate ŋu aƒo ciphertextwo eye wòadɔ wo kple plaintext nyatakakadzraɖoƒe ƒe nudzraɖoƒewo esi wòmeɖe wo ɣaɣlaŋlɔŋlɔ o.
+
+Server la kpɔa nyatakakadzraɖoƒe la abe matrix ene, wòzãa nudzɔti vector si woŋlɔ ɣla, eye wòtrɔa ciphertext ɖeka si woɖe ɣaɣlaŋlɔŋlɔ le eyome, si nye row si wodi. Elabena biabia la mekpɔ vovototo tso haɖehaɖe si wotɔ ɖokpe o, server la mexɔ nyatakaka aɖeke tso index la ŋu o.
+
+Kuxi si tsi tre tso blema nye cost. Ne woatae le mɔ bɔbɔe nu la, server la hia be wòanɔ nudzraɖoƒe ɖe sia ɖe le nyatakakadzraɖoƒe la me ŋu na biabia ɖe sia ɖe, si xɔa akɔnta ƒe ga geɖe, eye ciphertextwo hã lolo, si xɔa bandwidth ƒe ga geɖe. Srɔ̃srɔ̃ yeyeawo le ɖoɖo kuxi sia ŋu kple preprocessing; tatawo abe SimplePIR kple FrodoPIR ene naa server la mɔ be wòawɔ nyatakakadzraɖoƒe la ɖo ɖe anyi hafi eye wòana client ɖe sia ɖe hint sue aɖe, eye wòtsɔ dɔ la ƒe akpa gã de offline phase me be biabia siwo le fifia nava wɔa dɔ kabakaba. Kpekpeɖeŋu nyui aɖe hã nye be woexɔ lattice-based ƒe tatanuwo be wole tete ŋu tsɔa ɖe quantum attacks ŋu, si sɔ kple Zcash ƒe mɔ keke si yina ɖe post-quantum ɣaɣla ŋu.
 
 <br/>
 
 ## PIR le Zcash me
 
-PIR nye agbagbadzedze be woana Zcash nanye ame ŋutɔ tɔ eye wòawɔ dɔ kabakaba le agbɔsɔsɔ me ƒe akpa aɖe.
+PIR nye dɔ si le wo wɔm be Zcash nanɔ le ɣaɣla me eye wòanɔ kabakaba le dzidzime gã me ƒe akpa aɖe.
 
-Gakotoku me scanning bottleneck si ŋu míeƒo nu tsoe va yi ye nye taɖodzinu. Dɔwɔwɔ le Valar Ƒuƒoƒoa me le ame ŋutɔ ƒe nyatakakawo xɔxɔ ƒe mɔnuwo tom vɛ ale be gakotoku nate ŋu axɔ eya ŋutɔ ƒe nyatakakawo tso dɔwɔƒe aɖe evɔ dɔwɔƒea masrɔ̃ nya siwo wobia tso esi o. Dɔwɔwɔ ŋutɔŋutɔ ɖeka le nullifiers me dzrom le adzame. Nullifier nye dzesi tɔxɛ aɖe si wotaa ne wozã nuŋlɔɖi aɖe, si wɔnɛ be womegazãa ga ɖeka ma ke zi eve o. Zi geɖe la, ehiãna be gakotoku nakpɔe ɖa be nullifier aɖe si wona la do haɖe hã, ne míagblɔe bubui la, ne womezã nuŋlɔɖi aɖe haɖe o, eye ema wɔwɔ to server dzi egbea ate ŋu ado go le nuŋlɔɖi si ŋu wole biabiam tsoe. Nyatakakawo xɔxɔ le ame ŋutɔ gbɔ nana gakotokua biaa nya ma evɔ meɖea nullifier si ŋu wòtsɔ ɖe le la fiana o. Esia bɔbɔ nɔ scaling dɔ bubuwo, siwo dometɔ aɖewoe nye Project Tachyon kple node software yeye, si ƒe taɖodzinue nye be woaɖe dɔwɔwɔ ƒe seɖoƒe siwo xea mɔ na ame ŋutɔ ƒe gakotokuwo egbea la ɖa.
+Gakotoku ƒe nudzodzro ƒe teƒe si wòle blewu, si woɖe egɔme do ŋgɔ, nye nu si wotu ɖo. Dɔ si le Valar Group le ɖeɖe nyatakaka le ɣaɣla me ƒe mɔwo dzi, be gakotoku aɖe naxɔa eya ŋutɔ ƒe nyatakaka tso server aɖe gbɔ esi server la manya nudzraɖoƒe siwo wobia o. Dɔwɔwɔ tutu aɖe nye be woakpɔ gaɣaɣla ɖeɖe dzesiwo le ɣaɣla me. Gaɣaɣla ɖeɖe dzesi nye dzesi tɔxɛ si woɖe fia ne woza didienu, si tsia nu tre be woazã ga ma zi eve. Gakotoku aɖe hia be wòakpɔ zi geɖe be gaɣaɣla ɖeɖe dzesi aɖe do go xoxo alo ao, alo be didienu aɖe menye be wozae haɖe o, eye ne wo wɔe to server aɖe dzi egbea la, ate ŋu afia didienu si wobia nya tsoe ŋu. Ɖeɖe nyatakaka le ɣaɣla me naa gakotoku la mɔ be wòabia biabia ma esi menafia gaɣaɣla ɖeɖe dzesi si wòle susu ɖo o. Esia le dɔ bubu siwo wɔa be nu ƒe dziyiyi naɖo ŋgɔ kple Project Tachyon kple ɣaɣla dzesi ŋɔŋlɔ software yeye ŋu, siwo katã wotu ɖo be woaɖe performance ƒe dzadzra si tsia mɔ na gakotoku siwo le ɣaɣla me egbea ɖa.
 
-Ele vevie be woaɖi anukware le fefewɔƒea ŋu. Esia nye numekuku kple mɔ̃ɖaŋudɔwɔwɔ vevie, ke menye nusi wowu enu, si woɖo ɖe amewo o. Woɖo nukpɔsusua anyi nyuie eye woɖo mɔfiame la, gake PIR wɔwɔ wòawɔ dɔ nyuie ale gbegbe na gbesiagbe gakotokuwo le mɔ̃ dzrowo dzi nye akpa sesẽ si tututu ŋu wole dɔ wɔm le fifia.
-
-<br/>
-
-## Nukpɔsusu totro siwo bɔ
-
-- PIR ɣlaa nusi nèbia, meɣlae kokoko be èdo ka kple server la kura o, network-level metadata nye nusi ŋu nètsi dzi ɖo le vovo
-- PIR menye Zcash ɖeɖeko tɔ o, enye cryptographic dɔwɔnu si wozãna le xexeame katã si Zcash le zazãm ɖe gakotoku ƒe adzamenyawo ŋu
-- Nuwɔwɔ ɖekae kabakaba tso PIR gbɔ nye taɖodzinu si le edzi yim, ke menye nɔnɔme si le gakotokuwo me xoxo o
-- Nusianu ƒe kɔpi wɔwɔ kple scanning le nutoa me, mɔnu si li fifia, nye ame ŋutɔ tɔ gake blewu, PIR ɖoe be yealé adzamenyawo ɖe te esime wòle blewu la ɖem ɖa
+Ele vevie be míagblɔ nyateƒe tso teƒe si dɔ sia le. E nye srɔ̃srɔ̃ kple engineering si le edzi yim, menye feature si woɖo nu eye woɖe ɖa xoxo o. Gɔmedzedze la ŋutɔ woɖo ɖe anyi nyuie eye mɔ si woato la le anyi, gake be woawɔ PIR be wòanyo na gakotoku siwo zãna le ŋkeke sia ŋkeke me le device mamawo dzi nye kuxi sesẽ tututu si wo le dɔ wɔm ɖo egbea.
 
 <br/>
 
-## Axa siwo do ƒome kplii
+## Nukoko siwo dzɔa zi geɖe
 
-- [Zcash Gakotoku ƒe Ðoɖowɔwɔ](https://zechub.wiki/zcash-tech/zcash-wallet-syncing) - nusitae syncing wɔa dɔ abe alesi wòwɔna egbea ene
-- [Lightwallet ƒe Nutowo](https://zechub.wiki/zcash-tech/lightwallet-nodes) - kekeli ƒe asisi ƒe kpɔɖeŋu PIR la anyo ɖe edzi
-- [zk-SNARKs](https://zechub.wiki/zcash-tech/zk-snarks) - dɔwɔnu gã bubu si nye cryptographic dɔwɔnu si le megbe na Zcash ƒe adzamenyawo
-- [Dedienɔnɔ le Quantum megbe](https://zechub.wiki/zcash-tech/post-quantum-security) - nusita mɔnu siwo wotu ɖe lattice dzi le vevie na etsɔme
+- PIR ɣla nu si nèbia, gake menɔ be wòɣla be nèɖo server la ŋu kura o; network-level metadata nye kuxi bubu
+- PIR menye Zcash tɔ ɖeka pɛ o, e nye kriptografi ƒe dɔwɔnu gbogblɔ si Zcash le tsɔm wɔ gakotoku ƒe ɣaɣla
+- Sync si kabakaba tso PIR me nye dzidzɔ si le edzi yim, menye feature si le gakotokuwo me xoxo o
+- Be woaƒe nu katã eye woanɔ dzodzrom le wo ŋutɔ ƒe te, esi nye mɔ si wozãna fifia, le ɣaɣla me gake ewɔna blewu; PIR ƒe ta nye be wòaɖe blewu la ɖa esi wòle ɣaɣla la kpɔm ɖe asi
+
+<br/>
+
+## Axawo si sɔ kplii
+
+- [Zcash Gakotoku ƒe Sync](https://zechub.wiki/zcash-tech/zcash-wallet-syncing) - nu si ta sync wɔa dɔ le mɔ si me wòle egbea
+- [Lightwallet Nodes](https://zechub.wiki/zcash-tech/lightwallet-nodes) - light client ƒe model si PIR ana nanyo
+- [zk-SNARKs](https://zechub.wiki/zcash-tech/zk-snarks) - kriptografi ƒe dɔwɔnu vevi bubu si le Zcash ƒe ɣaɣla te
+- [Post-Quantum Security](https://zechub.wiki/zcash-tech/post-quantum-security) - nu si ta lattice-based ƒe mɔwo le vevie na etsɔme

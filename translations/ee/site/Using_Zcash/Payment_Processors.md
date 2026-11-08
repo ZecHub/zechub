@@ -1,205 +1,205 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Using_Zcash/Payment_Processors.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Axa Page"/>
 </a>
 
-# Zcash Fexexe Ŋuti Dɔwɔlawo
+# Zcash Fexexe [Payment] Ƒe Wɔwɔlawo
 
-Mɔ siwo dzi woato axɔ ZEC abe asitsala ene, ne wotsɔe sɔ kple wo nɔewo. Wolé ŋku ɖe nya ɖesiaɖe si woŋlɔ ɖe dɔwɔƒea ŋutɔ ƒe nyatakakadzraɖoƒe kple API ŋu le **29 July 2026** dzi.
+Mɔnu siwo dzi wòate ŋu axɔ ZEC abe asitsalá ene, woƒe tsatsam ƒe tsatsam. Wokpɔ nuɖoɖo siawo katã ɖe nudzɔdzɔla ƒe aƒeŋkume kple API ŋu le **29 July 2026**.
 
-Kpekpeɖeŋunana ameŋunyatakakawo ƒe nunɔamesiwo trɔna zi geɖe, eyata fli ɖesiaɖe tsɔa eƒe ŋkeke si dzi woɖo kpee. Ne èle esia xlẽm le ɣleti aɖewo megbe la, ke lé ŋku ɖe dɔwɔƒea ƒe nyatakakadzraɖoƒea ŋu hafi nàwɔ ɖeka.
+Ɣe sia ƒe, ɣaɣla [privacy] ƒe assets ƒe kpekpeɖeŋu trɔna zi geɖe, eyata le ɖe sia ɖe me woƒe ɣeyiɣi si woɖo kpe ɖe ŋu le. Ne èle esiam le ƒlẽ geɖe megbe la, kpɔ nudzɔdzɔla ƒe aƒeŋkume do ŋgɔ hafi nàtsɔe ade wò dɔ me.
 
 <div class="processor-table">
 
-| Dɔwɔnu si wɔa dɔ | Vidzikpɔkpɔ | Akpoxɔnu ZEC | Ame ŋutɔ ƒe amedzrowɔwɔ | Asitsalawo ƒe fetu | Nutowo / KYC | Woɖo kpe edzi be |
+| Wɔwɔla | Ga ƒe dzrɔdzrɔ | Ɣaɣla ZEC | Wò ŋutɔ ƒe host | Asitsalá ƒe adzɔ [fee] | Dziƒoƒe / KYC | Woɖo kpe ɖe ŋu |
 |:--|:--|:--|:--|:--|:--|:--|
-| [CipherPay](https://www.cipherpay.app) | Nusiwo menye gaxɔmenɔnɔ o | Ẽ, Orchard to Adrɛs Siwo Wowɔ Ðeka dzi | Ẽ, ʋuʋu dzɔtsoƒe | 1% le fetu ɖesiaɖe me, femaxee ne ame ŋutɔe xɔe | KYC aɖeke meli o, nuto siwo womegblɔ o | Ƒe 2026-07-29 |
-| [BTCPay Dɔwɔƒe si Kpɔa Dɔwɔnyawo Gbɔ](https://github.com/btcpay-zcash/btcpayserver-zcash-plugin) | Non-custodial, view key ɖeɖeko | Ẽ, wokpɔ akpoxɔnu ko (Sapling, Orchard, UA) | Ẽ, ʋuʋu dzɔtsoƒe | Ðeke meli o, èxea network fees ko | Xexeame katã, KYC aɖeke meli o | Ƒe 2026-07-29 |
-| [ZGo](https://zgo.cash/) | Menye gaxɔmenɔnɔ o | Ẽ, Sapling kple Orchard | Ao, subɔsubɔdɔ si woxɔna | Prepaid session, asixɔxɔ si womeɖe ɖe go o | Womegblɔ KYC aɖeke o, womegblɔ nutowo o | 2026-07-29 |
-| [Flexa](https://flexa.co/) | Asitsalawo ƒe ɖokuidzikpɔkpɔ, asitsala ɖoa anyi le fiat | Asitsalawo zãa akpoxɔnu, xɔxɔ akpa si womeŋlɔ ɖi o | Ao | 1% le fexexe ɖesiaɖe me | US kple SEPA dukɔ 37, ZEC le EU meɖo kpe edzi o | Ƒe 2026-07-29 |
-| [NOWPayments](https://nowpayments.io/supported-coins/zcash-payments) | Menye vidzikpɔkpɔ o le gɔmedzedzea me | Ao, adrɛs si me kɔ koe | Ao | 0.5%, alo 1% kple tɔtrɔ | Xexeame katã negbe afisi wode se ɖo ko, KYC aɖeke meli be woadze egɔme | Ƒe 2026-07-29 |
-| [Plisio ƒe ŋkɔ](https://plisio.net/accept-zcash) | Custodial, togbɔ be asitsatsa | Womeŋlɔe ɖi o | Ao | 0.5% API, 1.5% yevu ƒe dzeside | KYC aɖeke meli si woaxɔ | Ƒe 2026-07-29 |
-| [Binance Fetu](https://pay.binance.com/en) | Custodial, off-kɔsɔkɔsɔ | Ao, wogbe ga si wotsɔ de akpoxɔnu me | Ao | Gakotoku femaxee yi gakotoku me, 0.8% ƒe fexexe | Woxe mɔ ɖe anyigba nu, woɖe ZEC ɖa le FR, ES, IT, PL | Ƒe 2026-07-29 |
+| [CipherPay](https://www.cipherpay.app) | Menye asikplɔ-dzralá [custodial] o | Ɛ̃, Orchard to Unified Addresses me | Ɛ̃, open source | 1% le fexexe ɖe sia ɖe ŋu, blibo ne wòhoste wò ŋutɔ | KYC manɔ o, wometsɔ dziƒoƒewo fia o | 2026-07-29 |
+| [BTCPay Server](https://github.com/btcpay-zcash/btcpayserver-zcash-plugin) | Menye asikplɔ-dzralá o, nukpɔsafui [viewing key] ko | Ɛ̃, ɣaɣla ko (Sapling, Orchard, UA) | Ɛ̃, open source | Aɖeke o, ɖoɖonu [chain] ƒe adzɔwo ko nàxe | Xexeme blibo, KYC manɔ o | 2026-07-29 |
+| [ZGo](https://zgo.cash/) | Menye asikplɔ-dzralá o | Ɛ̃, Sapling kple Orchard | Ao, hosted service | Session si woƒo nu da ɖi, wometsɔ asixɔxɔ fia o | Wometsɔ KYC ƒe nyawo fia o, wometsɔ dziƒoƒewo fia o | 2026-07-29 |
+| [Flexa](https://flexa.co/) | Asiƒo ƒe dzralá ƒe gakplɔ, asitsalá xea ga le fiat me | Asiƒo zã ɣaɣla, wometsɔ nu si xɔe ƒe nyawo fia o | Ao | 1% le fexexe ɖe sia ɖe ŋu | US kple SEPA dukɔ 37, ZEC le EU me menye nyateƒe le o | 2026-07-29 |
+| [NOWPayments](https://nowpayments.io/supported-coins/zcash-payments) | Menye asikplɔ-dzralá o le gɔmedzedze | Ao, nuwo ƒe ʋuʋuɖi [transparent] gaɖoƒe ƒe dzesi [address] ko | Ao | 0.5%, alo 1% ne woɖe ga trɔ | Xexeme blibo, ke afi si se mele mɔ o, KYC mele be nàdze egɔme o | 2026-07-29 |
+| [Plisio](https://plisio.net/accept-zcash) | Asikplɔ-dzralá, togbɔ be woƒe asitsotso ƒe nyawo gblɔ bubu | Wometsɔe ɖe agbalẽ me o | Ao | 0.5% API, 1.5% white label | KYC mele be nàxɔe o | 2026-07-29 |
+| [Binance Pay](https://pay.binance.com/en) | Asikplɔ-dzralá, le ɖoɖonu me o | Ao, woɖe ɣaɣla deposits gbɔ | Ao | Gakotoku [wallet] tso gakotoku me ƒe fexexe blibo, 0.8% payouts | Woɖo geo-restriction, ZEC meganɔ le FR, ES, IT, PL o | 2026-07-29 |
 
 </div>
 
-### Nusi sɔtiawo fia
+### Nu si columns ƒe gɔme nye
 
-**Custody** nye nenye be processor la lé wò ZEC. Non-custodial fia be eyia gakotoku si dzi nèkpɔ ŋusẽ ɖo la me.
+**Ga ƒe dzrɔdzrɔ** nye be ɖe wɔwɔla la kplɔ wò ZEC alo o. Menye asikplɔ-dzralá o gɔme nye be eƒo ɖe gakotoku si wò kplɔ la me.
 
-**Shielded ZEC** nye nenye be woateŋu axe fe na wò ɖe shielded pool la me. Transparent koe fia be ga home kple adrɛswo le dutoƒo le blockchain la dzi.
+**Ɣaɣla ZEC** nye be woate ŋu axe ga na wò le ɣaɣla gaƒuƒoƒo [pool] me alo o. Nuwo ƒe ʋuʋuɖi ko gɔme nye be ga ƒe home kple gaɖoƒe ƒe dzesiwo le dzeɖoɖo kple gaɖoɖowo ƒuƒoƒo ƒe ɖoɖonu [blockchain] dzi.
 
-**Self-host** nye nenye be wò ŋutɔ àte ŋu awɔ kɔmpiutadziɖoɖoa, eye dɔwɔƒe aɖeke mele titina o.
+**Wò ŋutɔ ƒe host** nye be nàte ŋu anɔ software la ƒe dɔ wɔ wò ŋutɔ, eye company aɖeke manɔ titina o.
 
-**Asitsalawo ƒe fe** meɖe Zcash network fees, si ame aɖe xena le nɔnɔme ɖesiaɖe me la ɖa.
+**Asitsalá ƒe adzɔ** mekpɔ Zcash ɖoɖonu ƒe adzɔwo o, elabena ame aɖe xea wo le nu ɖe sia ɖe me.
 
-Le afisiwo dɔwɔƒe aɖe meta nane o la, nuŋɔŋlɔa gblɔna be "womegblɔe o" alo "womeŋlɔe ɖi o" tsɔ wu be woasusui. Ema mesɔ kple "ao" o.
+Afi si nudzɔdzɔla aɖe meɖe nu aɖe ƒe nyawo afia o la, entry la gblɔ be "wometsɔe fia o" alo "wometsɔe ɖe agbalẽ me o" ɖe nusi woatsɔe akaka la teƒe. Esi menye nu ma ke kple "ao" o.
 
-### Wo dometɔ kae nàtia
+### Ame kae nàtia
 
-Ne èdi be yeakpɔ adzamenyawo kple dziɖuɖu geɖe wu la, zã **BTCPay Server** alo **CipherPay** si nèwɔna le ɖokuiwò si. Wo ame evea siaa nye esiwo ŋu wokpɔ ta na, woʋu mɔ na wo, eye ga aɖeke mele wo si na wò o.
+Ne èdi ɣaɣla kple dziɖuɖu geɖe wu la, zã **BTCPay Server** alo **CipherPay** si wòhoste wò ŋutɔ. Wo evea nye ɣaɣla, open source, eye wometsɔ wò ga aɖeke ɖe asi o.
 
-Ne èdi fexexe le fiase me tsɔ wu be nàxɔe le internet dzi la, zã **Flexa**.
+Ne èdi be nàxɔ fexexewo le fiadƒe me le online ƒe teƒe la, zã **Flexa**.
 
-Ne èdi agbo si woxɔ afisi woda asi ɖe fexexe le gaglãgbe dzi le la, zã **NOWPayments** alo **Plisio**.
+Ne èdi hosted gateway afi si nuwo ƒe ʋuʋuɖi fexexewo dzɔ na wò la, zã **NOWPayments** alo **Plisio**.
 
-Nuxlɔ̃ame ɖeka si sɔ be míagbugbɔ agblɔ: dɔwɔnu si wɔa dɔ le gaglãgbe ko taa fexexe ƒe ga home ɖesiaɖe kple adrɛs ɖe blockchain la dzi. Eye le hosted non-custodial processor ɖesiaɖe gome la, ètsɔa wò nukpɔkpɔ ƒe safui dea asi, ale be dɔwɔƒea nate ŋu akpɔ wò fewo togbɔ be mate ŋu azã wo o hã. Ame ŋutɔ ƒe amedzrowɔwɔ koe nye mɔ si dzi nàto aƒo asa na ema.
+Nu ɖeka si wòhiã be woagblɔe ake nye esi: wɔwɔla si xɔ nuwo ƒe ʋuʋuɖi ko la ɖea fexexe ƒe home kple gaɖoƒe ƒe dzesi ɖe sia ɖe fia le gaɖoɖowo ƒuƒoƒo ƒe ɖoɖonu dzi. Eye le hosted processor si menye asikplɔ-dzralá o ɖe sia ɖe me la, nètsɔ wò nukpɔsafui de asi na wo, ale be company la ate ŋu akpɔ wò fexexewo togbɔ be mate ŋu azã wo o. Wò ŋutɔ ƒe hosting ko nye mɔ si dzi nàte ŋu aƒo nu ma gbɔ.
 
 <div class="processor-note">
 
-**ZGo subɔsubɔ ƒe nuxlɔ̃ame, 29 July 2026.** ZGo ƒe megbenyawo le api.zgo.cash trɔ HTTP 503 ɖe nuwuƒe ɖesiaɖe esime wole axa sia me dzrom. Womegblẽ dɔa ɖi o eye edzikpɔla nɔ dɔ dzi vevie le nutoa me le ɣleti sia me, gake ɖo kpe edzi be subɔsubɔdɔa le edzi yim hafi nàɖo ŋu ɖe eŋu.
+**ZGo service ƒe nyagblɔɖi, 29 July 2026.** Le esime wokpɔ axa sia ɖa la, ZGo backend le api.zgo.cash trɔ HTTP 503 na endpoint ɖe sia ɖe. Womegbɔ project la o, eye eƒe maintainer wɔ dɔ le community la me le ƒleti sia me, ke kpɔ be service la le dɔ wɔm hafi nàka ɖe eŋu.
 
 </div>
 
 ---
 
 ## [CipherPay](https://www.cipherpay.app) <img src="/content-images/cipherpay-mark.png" alt="CipherPay logo" class="processor-logo" />
-- **Support Type**: Shielded (Orchard, via Unified Addresses)
-- **Numeɖeɖe**: Lɔ̃ ɖe Zcash dzi le minitiwo me, Non-custodial, Zero nuƒlela ƒe nyatakakawo, Domeɖela aɖeke meli o.
+- **Kpekpeɖeŋu ƒe ƒomevi**: Ɣaɣla (Orchard, to Unified Addresses me)
+- **Nuxlɔɖi**: Xɔ Zcash le minutewo me, menye asikplɔ-dzralá o, asiƒo ƒe nyawo aɖeke mele o, ame aɖeke menɔ titina o.
 - **URL**: [CipherPay](https://www.cipherpay.app)
 <img src="/content-images/cipherpay-mark.png" alt="CipherPay logo" width="200" hidden />
 
-Èna CipherPay safui si woate ŋu akpɔ ko, eyata fexexe yia wò ŋutɔ wò gakotoku me tẽ eye meléa ga ɖe asi gbeɖe o. Ezãa adrɛs yeye na gaxɔgbalẽvi ɖesiaɖe.
+Nèna CipherPay nukpɔsafui si kpɔna ko, ale be fexexewo ayi tẽ ɖe wò ŋutɔ ƒe gakotoku me eye womekpɔ ga aɖeke ɖe asi o. Ezã gaɖoƒe ƒe dzesi yeyee na invoice ɖe sia ɖe.
 
-Orchard only. There is no Sapling or transparent support, even though the repository README mentions Sapling.
+Orchard ko. Sapling alo nuwo ƒe ʋuʋuɖi ƒe kpekpeɖeŋu mele o, togbɔ be repository README la gblɔ Sapling ƒe nya.
 
-Exɔa 1% le fetu ɖesiaɖe ta, eye naneke kura nenye be wò ŋutɔ nèƒui o. Nu bliboa nye dzɔtsoƒe si woʋu, abe Rust binary kple SQLite alo abe Docker nɔnɔmetata ene. KYC aɖeke meli o, eye nuƒlelawo mehiã akɔnta o.
+Eƒe asixɔxɔ nye 1% le fexexe ɖe sia ɖe ŋu, eye mele naneke o ne wònɔ eƒe dɔ wɔm wò ŋutɔ. Nu blibo la nye open source, abe Rust binary si kplɔ SQLite alo abe Docker image ene. KYC mele o, eye asiƒolawo mehiã account o.
 
-Nuwɔwɔ ɖekae ƒo nu tso Shopify, WooCommerce, REST API, gaxɔgbalẽvi si woxɔ, fexexe ƒe kadodowo, kple ame ŋutɔ ƒe QR ŋu.
+Integrations la kpɔ Shopify, WooCommerce, REST API, hosted checkout, payment links, kple QR si woazã le ame ŋkume.
 
-Nu eve siwo wòle be woada. Edze egɔme le February 2026 me eye dedienɔnɔ ŋuti agbalẽ aɖeke meli si wota o. Eye le hosted tier dzi la, dɔwɔƒea léa wò nukpɔkpɔ ƒe safui ɖe asi, ale be wòate ŋu akpɔ wò fexexe. Ame ŋutɔ ƒe amedzrowɔwɔ ɖea ema ɖa. Fexexe si ŋu wokpɔ ta na hã nye mamlɛtɔ, eyata gagbugbɔɖoɖo hiã be nuƒlela nana adrɛs wò.
+Nu eve koe nàle dzidzime. Wodzii le February 2026 eye security audit si woɖe fia mele o. Eye le hosted tier la me, operator la kpɔa wò nukpɔsafui ɖe asi, ale be wòate ŋu akpɔ wò fexexewo. Wò ŋutɔ ƒe hosting ɖea esia ɖa. Ɣaɣla ƒe fexexewo nye nu mamlɛtɔ, eyata refund hiã be asiƒo la nana gaɖoƒe ƒe dzesi na wò.
 
-**Woɖo kpe edzi zi mamlɛtɔ:** 2026-07-29
+**Ɣeyiɣi mamlɛ si woɖo kpe ɖe ŋu:** 2026-07-29
 
 ---
 
 ## [BTCPay Server](https://github.com/btcpay-zcash/btcpayserver-zcash-plugin) <img src="/content-images/btcpay-mark.png" alt="BTCPay Server logo" class="processor-logo" />
-- **Kpekpeɖeŋu Ƒomevi**: Wokpɔ ta na ko (Sapling, Orchard, Unified Address)
-- **Numeɖeɖe**: BTCPay Server nye ʋuʋu-dzɔtsoƒe, ɖokuitɔdidi cryptocurrency fexexe dɔwɔwɔ.
-- **URL**: [BTCPay Dɔwɔƒe si Kpɔa Dɔwɔnyawo Gbɔ](https://github.com/btcpay-zcash/btcpayserver-zcash-plugin)
+- **Kpekpeɖeŋu ƒe ƒomevi**: Ɣaɣla ko (Sapling, Orchard, Unified Address)
+- **Nuxlɔɖi**: BTCPay Server nye cryptocurrency fexexe ƒe wɔwɔla si nye open-source, si wòhoste wò ŋutɔ.
+- **URL**: [BTCPay Server](https://github.com/btcpay-zcash/btcpayserver-zcash-plugin)
 <img src="/content-images/btcpay-mark.png" alt="BTCPay Server logo" width="200" hidden />
 
-Tiatia sesẽtɔ kekeake le vidzikpɔkpɔ ŋu. Eƒe gakotoku ƒe megbenyawo nye nukpɔkpɔ ɖeɖeko eye nuku alo safui ɣaɣla aɖeke mele eme o, eyata server si ŋu wogblẽ nu le gɔ̃ hã mate ŋu azã wò ga o.
+Esi nye mɔ kɔkɔe ŋutɔ le ga ƒe dzrɔdzrɔ me. Eƒe gakotoku backend kpɔna ko eye mekpɔ seed alo secret key aɖeke ɖe asi o, ale be togbɔ be server la ƒe ɖɔɖɔ dze o la, mate ŋu azã wò ga o.
 
-Shielded ɖeɖeko, si ƒo nu tso Sapling, Orchard kple Unified Addresses ŋu. Fallback aɖeke meli si dzena gaglãa o, eyata mègawɔ ɖoɖo ɖe ɖeka ŋu o.
+Ɣaɣla ko, esi kpɔ Sapling, Orchard kple Unified Addresses. Nuwo ƒe ʋuʋuɖi ƒe fallback mele o, eyata mègaɖo wò ɖoɖo ɖe eŋu o.
 
-Be nàɖoe ɖe wò kɔmpiuta dzi la, èhiã btcpay-zcash Docker fork si le feat/zec alɔdzea dzi, tsɔ kpe ɖe nukpɔkpɔ safui si woɖo ɖa tso gakotoku abe Zkool alo Zingo ene me. Le gɔmedzedzea me la, eƒoa nu kple adzɔge lightwalletd, alo àte ŋu awɔ Zebra kple lightwalletd wò ŋutɔ.
+Be nàtsɔe ade la, wòhiã btcpay-zcash Docker fork le feat/zec branch dzi, kple nukpɔsafui si woɖe tso gakotoku abe Zkool alo Zingo me. Le gɔmedzedze me la, eƒoa nu kple remote lightwalletd, alo nàte ŋu anɔ Zebra kple lightwalletd ƒe dɔ wɔ wò ŋutɔ.
 
-Seɖoƒe ɖeka si ŋu wòle be nànya nu tsoe: plugin la zãa Zcash gakotoku ɖeka na fiase ɖesiaɖe le kpɔɖeŋu aɖe me, eyata mègawɔe le server si woama dzi o. Wole dɔ wɔm tso fiase ɖesiaɖe ƒe gakotokuwo ŋu.
+Nu si nànyae nye esi: plugin la zãa Zcash gakotoku ɖeka na store ɖe sia ɖe si le instance aɖe me, eyata mègaɖe eƒe dɔ ɖe shared server dzi o. Wole store ɖe sia ɖe ƒe gakotokuwɔwɔ ŋu dɔ wɔm.
 
-Womexea fe aɖeke ɖe kɔmpiutadziɖoɖoa ŋutɔ ta o. Èxea Zcash network fees kple nusianu si wò hosting ƒe gazazãwo.
+Adzɔ aɖeke mele software la ŋutɔ ŋu o. Nàxe Zcash ɖoɖonu ƒe adzɔwo kple nusi wòƒe hosting xɔ.
 
-**Woɖo kpe edzi zi mamlɛtɔ:** 2026-07-29
+**Ɣeyiɣi mamlɛ si woɖo kpe ɖe ŋu:** 2026-07-29
 
 ---
 
 ## [ZGo](https://zgo.cash/) <img src="/content-images/zgo-prp2-497679039b.webp" alt="ZGo logo" class="processor-logo" />
-- **Support Type**: Shielded (Sapling and Orchard)
-- **Numeɖeɖe**: ZGo nye elektrɔnik fexexe ƒe mɔnu si tso wò asisi gbɔ yia gbɔwò tẽ, eye ame etɔ̃lia aɖeke mekpɔa gome le eme o.
+- **Kpekpeɖeŋu ƒe ƒomevi**: Ɣaɣla (Sapling kple Orchard)
+- **Nuxlɔɖi**: ZGo nye electronic fexexe ƒe platform si tso wò asiƒo gbɔ tẽ va wò gbɔ, eye ame etɔ̃ aɖeke menɔ eme o.
 - **URL**: [ZGo](https://zgo.cash/)
 <img src="/content-images/zgo-prp2-497679039b.webp" alt="ZGo logo" width="200" hidden />
 
-A till nèƒua du le browser me, eyata laptop, tablet alo phone va zua gaxɔgbalẽvi. WooCommerce ƒe kpeɖeŋutɔ kple REST API hã li. Vergara Technologies ye tue eye Zcash Community Grants ye na gae, si me ʋuʋu tso zcashd yi Zebra hã le.
+E nye till si nàzã le browser me, ale be laptop, tablet alo telefon zu checkout. WooCommerce plugin kple REST API hã le eme. Vergara Technologies wɔe, eye Zcash Community Grants ƒo ga na e, esi me tso zcashd yi Zebra me hã le.
 
-Gawo tsoa asisi gbɔ yia wò gakotokua me tẽ, eye ame aɖeke mele wo dome o.
+Ga tso asiƒo la gbɔ tẽ yi wò gakotoku me, eye ame aɖeke menɔ titina o.
 
-Shielded, covering Sapling and Orchard through Unified Addresses, and it follows ZIP 321. Fifia ƒe dzɔtsoƒe aɖeke megblɔ be yekpɔa adrɛs siwo me kɔ o, eyata axa sia megagblɔna be ewɔa dɔ o.
+E nye ɣaɣla, eye ekpɔ Sapling kple Orchard to Unified Addresses me, eye ewɔ ɖe ZIP 321 nu. Source aɖeke si le fifia megblɔ be ekpɔ nuwo ƒe ʋuʋuɖi gaɖoƒe ƒe dzesiwo o, eyata axa sia megblɔ be ekpɔ wo o.
 
-Màte ŋu awɔe le ɖokuiwò si ŋutɔŋutɔ o. ZGo wɔa Zcash ƒe xɔtuɖoɖoa na wò eye metaa mɔfiame aɖeke ɖe dɔwɔwɔ ŋu o. Dzɔtsoƒea nye dutoƒo le beléla ŋutɔ ƒe Git dɔwɔƒe, togbɔ be GitLab kɔpi si amewo kpɔna zi geɖe la nye 2022 ƒe ahuhɔ̃e xoxo aɖe hã.
+Mègakpɔa mɔ be nàhoste e ŋutɔ o. ZGo wɔa Zcash infrastructure ƒe dɔ na wò, eye wometsɔ deployment guide aɖeke ɖe go o. Source la le maintainer la ŋutɔ ƒe Git server dzi, ke GitLab copy si amewo kpɔna zi geɖe la nye 2022 ƒe mirror si meyeye o.
 
-Menye femaxee hã o. ZGo dzraa ɣeyiɣi siwo woxea fe do ŋgɔ eye wòhiã na Pro ɣeyiɣi na WooCommerce, gake asixɔxɔ ƒe axaa ya gbɔ mate ŋu aɖo fifia o, eyata womeyɔ xexlẽme aɖeke le afisia o.
+Emegaxɔa blibo hã o. ZGo lia prepaid sessions eye Pro session hiã na WooCommerce, ke pricing page la mate ŋu ava o le fifia, eyata wometsɔ asixɔxɔ aɖeke de afi sia o.
 
-**Woɖo kpe edzi zi mamlɛtɔ:** 2026-07-29
+**Ɣeyiɣi mamlɛ si woɖo kpe ɖe ŋu:** 2026-07-29
 
 ---
 
 ## [Flexa](https://flexa.co/) <img src="/content-images/flexa-mark.png" alt="Flexa logo" class="processor-logo" />
-- **Kpekpeɖeŋu Ƒomevi**: Asitsalawo zãa akpoxɔnu, xɔxɔ ƒe akpa si womeŋlɔ ɖi o
-- **Numeɖeɖe**: Flexa nye fexexe ƒe ɖoɖo si na asisiwo zãa dijitaal nunɔamesiwo, siwo dome Zcash hã le, le asitsaƒewo tso gakotoku si me wokpɔa wo ɖokui dzi le.
+- **Kpekpeɖeŋu ƒe ƒomevi**: Asiƒo zã ɣaɣla, wometsɔ nu si xɔe ƒe nyawo fia o
+- **Nuxlɔɖi**: Flexa nye fexexe ƒe network si na asiƒolawo mɔ be woazã digital assets, Zcash hã le wo dome, le retail afiwo me tso gakotoku si woaŋutɔ kplɔ me.
 - **URL**: [Flexa](https://flexa.co/)
 <img src="/content-images/flexa-mark.png" alt="Flexa logo" width="200" hidden />
 
-Flexa menye gateway o, eyata menye swap na bubu siwo le afisia o. Asisi la ʋua gakotoku si me Flexa le abe Zodl ene, ɖea kɔpi si wozãna zi ɖeka fiana, eye fiasea léa ŋku ɖe eŋu. ZEC ƒe adzɔxegbalẽvi aɖeke meli o eye e-commerce plugin aɖeke hã meli o.
+Flexa menye checkout gateway o, eyata menye ɖɔli ɖɔli [swap] na bubuwo si le afisia o. Asiƒo la ƒe gakotoku si Flexa de mɔ na, abe Zodl ene, ɖea, efia code si woazã zi ɖeka, eye fiadƒe la scan-ae. ZEC invoice alo e-commerce plugin aɖeke mele o.
 
-Asisi la dzraa woawo ŋutɔ ƒe gakuwo ɖo vaseɖe esime woaxee. Wò abe asitsala ene mexɔa ZEC gbeɖe o. Flexa nɔa anyi kpli wò le ga si nètia me, eyata woawoe kpɔa crypto ƒe akpaa gbɔ.
+Asiƒo la kpɔa eƒe coins ɖe asi va se ɣeyiɣi si wòaxe ga. Wò abe asitsalá ene la, mèxɔa ZEC o. Flexa xea ga kple wò le currency si wòtia me, eyata woawɔ crypto ƒe akpa la.
 
-Flexa ŋutɔ ƒe gbeƒãɖeɖe ɖɔ Zcash ƒe ƒoƒo ɖekae be exea fe kple ZEC si wotsɔ akpoxɔnu le. Wometa adrɛs ƒomevi si Flexa xɔna ɖe afi aɖeke o.
+Flexa ƒe announcement ŋutɔ gblɔ be Zcash integration la nye fexexe kple ɣaɣla ZEC. Gaɖoƒe ƒe dzesi ƒe ƒomevi si Flexa xɔe ɖo la, wometsɔe fia afia aɖeke o.
 
-Fetu la nye 1% le fexexe ɖesiaɖe me, eye wotsɔa tɔtrɔ kple vidzikpɔkpɔ hã kpena ɖe eŋu fetu bubu aɖeke maxɔmaxɔe.
+Adzɔ la nye 1% le fexexe ɖe sia ɖe ŋu, eye ga trɔtrɔ kple ga ƒe dzrɔdzrɔ le eme, eye womexɔ ga bubu o.
 
-Ewɔa dɔ le United States eye tso July 2026 me la, ewɔa dɔ le SEPA dukɔ kple anyigbamama 37 me. Womegblɔ nenye be woate ŋu azã ZEC koŋ le Europa o.
+Ewɔ dɔ le United States me, eye tso July 2026 me la, le SEPA dukɔwo kple anyigba 37 me. Wometsɔe fia be ZEC ŋutɔ ate ŋu woazãe le Europe o.
 
-**Woɖo kpe edzi zi mamlɛtɔ:** 2026-07-29
+**Ɣeyiɣi mamlɛ si woɖo kpe ɖe ŋu:** 2026-07-29
 
 ---
 
 ## [NOWPayments](https://nowpayments.io/supported-coins/zcash-payments) <img src="/content-images/nowpayments-wordmark.png" alt="NOWPayments logo" class="processor-logo processor-logo-wide" />
-- **Kpekpeɖeŋu Ƒomevi**: Edzena le gaglãgbe ɖeɖeko
-- **Numeɖeɖe**: NOWPayments nye crypto fexexe ƒe agbo si naa asitsalawo te ŋu xɔa Zcash fexexe kple nudzɔdzɔwo bɔbɔe.
+- **Kpekpeɖeŋu ƒe ƒomevi**: Nuwo ƒe ʋuʋuɖi ko
+- **Nuxlɔɖi**: NOWPayments nye crypto fexexe ƒe gateway si na asitsaláwo mɔ be woaxɔ Zcash fexexewo kple donations bɔbɔe.
 - **URL**: [NOWPayments](https://nowpayments.io/supported-coins/zcash-payments)
 <img src="/content-images/nowpayments-wordmark.png" alt="NOWPayments logo" width="200" hidden />
 
-Kpekpeɖeŋu si ŋu wotsɔ akpoxɔnu ɖo aɖeke meli o. Woƒe nuŋlɔɖiwo gblɔna na wò be nàɖo adrɛs si me kɔ na Zcash, eye ZEC koe nye gaku si woɖe ɖe vovo nenema. Fe ɖesiaɖe si nàxɔ la nye dutoƒo le blockchain la dzi.
+Ɣaɣla ƒe kpekpeɖeŋu mele o. Woƒe documentation gblɔ be nàɖo nuwo ƒe ʋuʋuɖi gaɖoƒe ƒe dzesi na Zcash, eye ZEC koe nye coin si woɖe fia le mɔ ma nu. Fexexe ɖe sia ɖe si nèxɔ nye nu si dze ɖe dzeɖoɖo me le gaɖoɖowo ƒuƒoƒo ƒe ɖoɖonu dzi.
 
-Non-custodial le gɔmedzedzea me. Woƒe FAQ gblɔ be womedzraa ga ɖo o eye womeléa ame ŋutɔ ƒe safuiwo ɖe asi gbeɖe o. Vidzikpɔkpɔ ƒe ga si nàte ŋu atia, eyata lé ŋku ɖe wò akɔntabubu ƒe ɖoɖowo ŋu ne ehiã be nàka ɖe edzi.
+Menye asikplɔ-dzralá o le gɔmedzedze me. Woƒe FAQ gblɔ be wometsɔa ga ɖe asi o eye wometsɔa private keys kpɔa ɖe asi o. Custody balance si wòate ŋu atia le, eyata kpɔ wò account settings ne èdi be nànya nyateƒe.
 
-Fewo nye 0.5% na fexexe tẽ, alo 1% na ga geɖe, ga home si woɖo ɖi, alo "fe si zãla xe" fexexe, kple network fewo le etame.
+Adzɔwo nye 0.5% na fexexe si yi tẽ, alo 1% na multi-currency, fixed-rate, alo "asiƒo xea adzɔ" ƒe fexexewo, eye ɖoɖonu ƒe adzɔwo sɔ kpe ɖe eŋu.
 
-Woate ŋu akpɔe le xexeame katã negbe afisi sea de se ɖe enu le ko. Mehiã be KYC nadze crypto xɔxɔ gɔme o, ɖeko nàɖe fiat ɖa.
+Ewɔ dɔ le xexeme blibo me, afi si se mele mɔ o koe katã. KYC mehiã be nàdze crypto ƒe xɔxɔ gɔme o, ke ehiã be nàɖe fiat ga ɖa.
 
-**Woɖo kpe edzi zi mamlɛtɔ:** 2026-07-29
+**Ɣeyiɣi mamlɛ si woɖo kpe ɖe ŋu:** 2026-07-29
 
 ---
 
 ## [Plisio](https://plisio.net/accept-zcash) <img src="/content-images/plisio-wordmark.png" alt="Plisio logo" class="processor-logo processor-logo-wide" />
-- **Kpekpeɖeŋu Ƒomevi**: Edzena le gaglãgbe (womeŋlɔe ɖi o)
-- **Numeɖeɖe**: Plisio nye cryptocurrency fexexe ƒe agbo si ɖea mɔ na asitsalawo be woaxɔ Zcash fexexe.
-- **URL**: [Plisio ƒe ŋkɔ](https://plisio.net/accept-zcash)
+- **Kpekpeɖeŋu ƒe ƒomevi**: Nuwo ƒe ʋuʋuɖi (wometsɔe ɖe agbalẽ me o)
+- **Nuxlɔɖi**: Plisio nye cryptocurrency fexexe ƒe gateway si na businesses mɔ be woaxɔ Zcash fexexewo.
+- **URL**: [Plisio](https://plisio.net/accept-zcash)
 <img src="/content-images/plisio-wordmark.png" alt="Plisio logo" width="200" hidden />
 
-Bu eŋu abe vidzikpɔkpɔ ene. Plisio ƒe asitsatsa yɔe be menye gaxɔgbalẽvi o, gake eya ŋutɔ ƒe kpekpeɖeŋu ƒe axawo ƒo nu tso ga si susɔ ɖe nuƒolanɔƒea, nufamɔ̃ dzi nudzraɖoƒe kple gaɖeɖe ƒe ɖoɖo aɖe ŋu. Womete ŋu ɖo kpe nya si wogblɔ be womede gaxɔ me o dzi o.
+Bu be enye asikplɔ-dzralá. Plisio ƒe marketing gblɔ be menye asikplɔ-dzralá o, ke eƒe help pages ŋutɔ gblɔ balancewo si woɖe ɖe platform la me, cold storage kple withdrawal ƒe mɔ. Womate ŋu aɖo kpe ɖe nyagblɔ be menye asikplɔ-dzralá o la ŋu o.
 
-Plisio megblɔa Zcash adrɛs ƒomevi siwo wòzãna gbeɖe o, eyata tsɔe be edze ƒã vaseɖe esime ame aɖe ɖo kpe edzi be menye nenemae o.
+Plisio megblɔ gaɖe Zcash gaɖoƒe ƒe dzesi ƒe ƒomevi si ezã o, eyata bu be nye nuwo ƒe ʋuʋuɖi va se ɣeyiɣi si ame aɖe aɖo kpe ɖe bubu ŋu.
 
-Gakotokua nye femaxee, agbo kple API ƒe asi nye 0.5%, eye White Label nye 1.5%. White Label nye woƒe amedzrodzeƒe si woxɔna ƒe ŋkɔ yeye, ke menye ame ŋutɔ ƒe amedzrowɔwɔ o.
+Gakotoku la nye blibo, gateway kple API xɔ 0.5%, eye White Label xɔ 1.5%. White Label nye woƒe hosted service ƒe rebrand, menye wò ŋutɔ ƒe hosting o.
 
-Mehiã be nàxɔ KYC hafi axɔ fetu o, eye wometaa dukɔ siwo ŋu woxe mɔ ɖo ƒe ŋkɔ aɖeke o.
+KYC mehiã be nàxɔ fexexewo o, eye dukɔwo si woƒo nu na ƒe list aɖeke mele o.
 
-**Woɖo kpe edzi zi mamlɛtɔ:** 2026-07-29
+**Ɣeyiɣi mamlɛ si woɖo kpe ɖe ŋu:** 2026-07-29
 
 ---
 
 ## [Binance Pay](https://pay.binance.com/en) <img src="/content-images/binancepay-mark.png" alt="Binance Pay logo" class="processor-logo" />
-- **Kpekpeɖeŋu Ƒomevi**: Edzena le gaglãgbe ɖeɖeko, wogbea gadede asi siwo ŋu wokpɔ ta na
-- **Numeɖeɖe**: Binance Pay nye cryptocurrency fexexe ƒe mɔnu si doa alɔ Zcash fexexe.
-- **URL**: [Binance Fetu](https://pay.binance.com/en)
+- **Kpekpeɖeŋu ƒe ƒomevi**: Nuwo ƒe ʋuʋuɖi ko, woɖea ɣaɣla deposits gbɔ
+- **Nuxlɔɖi**: Binance Pay nye cryptocurrency fexexe ƒe platform si kpe ɖe Zcash fexexewo ŋu.
+- **URL**: [Binance Pay](https://pay.binance.com/en)
 <img src="/content-images/binancepay-mark.png" alt="Binance Pay logo" width="200" hidden />
 
-Binance trɔa ZEC si woɖo ɖa tso adrɛs siwo wokpɔ ta na gbɔ. Gbegbe ma tae wowɔ TEX adrɛswo ɖo.
+Binance ɖea ZEC si woɖo tso ɣaɣla gaɖoƒe ƒe dzesiwo gbɔ. Nudzɔdzɔ sia tae wo wɔ TEX gaɖoƒe ƒe dzesiwo.
 
-Enye vidzikpɔkpɔ bliboe. Fexexewo zɔna le kɔsɔkɔsɔ me le Binance Pay gakotokuwo dome, eye nèhiã Binance akɔnta si ŋu woɖo kpee.
+Enye asikplɔ-dzralá blibo. Fexexewo lia le ɖoɖonu me o le Binance Pay gakotokuwɔwo dome, eye wòhiã Binance account si woɖo kpe ɖe ŋu.
 
-Gakotoku me gaɖoɖo ɖe gakotoku me nye femaxee, asitsalawo ƒe fexexe ƒe home nye 0.8% si woɖo seɖoƒe na 5 USD, eye Mini Program ƒe asitsalawo xea 1%.
+Gakotoku tso gakotoku me ƒe transferwo nye blibo, asitsalá ƒe payouts xɔ 0.8% si wotɔ ɖe 5 USD dzi, eye Mini Program ƒe asitsaláwo xɔ 1%.
 
-Kpɔ alesi wòle le afisi nèle hafi nànɔ te ɖe edzi. Wometsɔa Binance Fe naa amewo le dukɔ aɖewo kple dɔwɔƒe aɖewo me o, woɖe ZEC ɖa le ŋkɔ me na ezãlawo le France, Spain, Italy kple Poland tso ƒe 2023 me, eye wogblẽ dɔwɔwɔ le EEA me le MiCA te.
+Kpɔ be ewɔ dɔ le afi si nèle hafi nàka ɖe eŋu. Binance Pay mele dukɔ aɖewo kple dɔ ƒe ƒomevi aɖewo me o, ZEC meganɔ le France, Spain, Italy kple Poland ƒe zãlawo gbɔ tso 2023 me o, eye MiCA ta me la, service le EEA me mewɔ dɔ nyuie o.
 
-**Woɖo kpe edzi zi mamlɛtɔ:** 2026-07-29
+**Ɣeyiɣi mamlɛ si woɖo kpe ɖe ŋu:** 2026-07-29
 
 ---
 
-### Megaxɔ ZEC o
+### Womegaxɔa ZEC o
 
-Woŋlɔ amesiawo evea siaa ɖe afisia do ŋgɔ. Wolé ŋku ɖe dɔwɔƒe ɖesiaɖe ŋutɔ ƒe ga si wozãna le agbe me ƒe xexlẽdzesi ŋu le 29 July 2026 dzi eye Zcash megali tso wo ame evea siaa gbɔ o.
+Woŋlɔ wo evea le afisia do ŋgɔ. Wokpɔ nudzɔdzɔla ɖe sia ɖe ƒe currency list si le dɔ wɔm le 29 July 2026, eye Zcash meganɔ wo evea gbɔ o.
 
-**CoinPayments** meŋlɔ ZEC ɖe eƒe v2 gaku ƒe xexlẽdzesi, eƒe domenyinu ƒe xexlẽdzesi, alo eƒe ga gbagbewo ƒe API me o, eye eƒe Zcash nyatia trɔna yia aƒeme azɔ.
+**CoinPayments** meɖe ZEC fia le eƒe v2 coin list, eƒe legacy list, alo eƒe live currencies API me o, eye eƒe Zcash article trɔa yi homepage la dzi fifia.
 
-**CoinGate** meŋlɔ ZEC ɖe eƒe ga siwo wodo alɔe ƒe axa dzi alo le eƒe dutoƒo API me o. Womeɖe gbeƒãe be woaɖe ame aɖeke le ŋkɔa me o, eyata womenya susu si tae kple ŋkeke si dzi woawɔe o.
+**CoinGate** meɖe ZEC fia le eƒe supported currencies ƒe axa alo eƒe public API me o. Womeɖe delisting ƒe nyagblɔɖi aɖeke go o, eyata menya ta kple ɣeyiɣi si wowo esia o.
 
-Ne wo dometɔ ɖesiaɖe trɔ Zcash vɛ la, gatsɔe kpee ake kple ŋkeke yeye si ŋu woɖo kpee.
+Ne ame aɖe hã tsɔ Zcash va gbɔ la, tsɔe gbugbɔ kple ɣeyiɣi yeye si woɖo kpe ɖe ŋu.
 
-### Axa sia dzi wɔwɔ wòade pɛpɛpɛ
+### Ale si nàkpɔ be axa sia nɔ nyateƒe
 
-Adzame gaku ƒe kpekpeɖeŋu ʋãna, eyata axa sia nyo abe eƒe ɖaseɖigbalẽ mamlɛtɔ ene ko. Ne èto eme la:
+Privacy coin ƒe kpekpeɖeŋu trɔna, eyata axa sia ƒe nyuie le eƒe ɣeyiɣi mamlɛ si wokpɔe ɖa ko dzi. Ne èkpɔe ɖa la:
 
-1. Kpɔ dɔwɔƒea ŋutɔ ƒe ga ƒe xexlẽdzesi alo API ɖa. Ame etɔ̃lia ƒe ŋkɔwo do xoxo na dɔwɔnu eve siwo woɖe ɖa le etame.
-2. Kpɔ Zcash adrɛs ƒomevi siwo wodo alɔe ɖa. Zi geɖe la, "Edoa alɔ Zcash" fia adrɛs siwo me kɔ ko.
-3. Trɔ asi le ŋkeke si dzi woɖo kpee ŋu le kplɔ̃a dzi kple le dɔwɔƒe ma ƒe akpaa dzi.
+1. Kpɔ nudzɔdzɔla la ŋutɔ ƒe currency list alo API. Third-party lists meyɔ o na processors eve si woɖe ɖa le afima.
+2. Kpɔ Zcash gaɖoƒe ƒe dzesi ƒe ƒomevi si woakpe ɖe ŋu. "Ekpe ɖe Zcash ŋu" gɔme nye nuwo ƒe ʋuʋuɖi gaɖoƒe ƒe dzesiwo ko zi geɖe.
+3. Trɔ ɣeyiɣi si woɖo kpe ɖe ŋu le table la me kple nudzɔdzɔla ma ƒe section me.

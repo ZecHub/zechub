@@ -2,79 +2,79 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Raspberry Pi 4 Mwongozo kwa Running Zebra
+# Mwongozo wa Raspberry Pi 4 wa Kuendesha Zebra
 
 <img src="/content-images/image-2023-11-28-172907488-e7e9fd4ac5.webp" alt="raspberry pi" width="300" height="300"/>
 
-Kuendesha programu Zebra node juu ya Raspberry Pi 4 utapata kushiriki katika mtandao Zcash kama huru, makubaliano-sambamba Node. Mwongozo huu kutembea wewe kupitia hatua za kuanzisha na kukimbia Zebra kwenye yako RaspBerry Pi 4.
+Kuendesha programu ya node ya Zebra kwenye Raspberry Pi 4 hukuruhusu kushiriki katika mtandao wa Zcash kama node huru inayooana na makubaliano [consensus]. Mwongozo huu utakuelekeza kupitia hatua za kusanidi na kuendesha Zebra kwenye Raspberry Pi 4 yako.
 
-## Mahitaji ya awali
+## Masharti ya Awali
 
-1. Raspberry Pi 4 (2GB RAM au juu ilipendekeza).
+1. Raspberry Pi 4 (RAM ya 2GB au zaidi inapendekezwa).
 
-2. MicroSD kadi (16GB au zaidi ilipendekeza) na Raspberry Pi OS (Raspbian) imewekwa.
+2. Kadi ya MicroSD (16GB au zaidi inapendekezwa) yenye Raspberry Pi OS (Raspbian) iliyosakinishwa.
 
-3. Kiunganishi imara internet.
+3. Muunganisho thabiti wa intaneti.
 
-4. Kibodi, panya na kiwambo (kwa ajili ya kuanzisha awali).
+4. Kibodi, kipanya, na kifuatiliaji (kwa usanidi wa awali).
 
-5. SSH mteja (hiari, kwa ajili ya upatikanaji wa mbali).
+5. Kiteja cha SSH (si lazima, kwa ufikiaji wa mbali).
 
-## Ufungaji
+## Usakinishaji
 
-1. __ Sasisha Mfumo Wako__
-   Fungua terminal au SSH katika yako Raspberry Pi na kuhakikisha mfumo wako ni hadi sasa kwa kuendesha:
+1. __Sasisha Mfumo Wako__
+   Fungua terminali au unganisha kwa SSH kwenye Raspberry Pi yako, na uhakikishe kuwa mfumo wako umesasishwa kwa kuendesha:
 
-   __ sudo apt update__
+   __sudo apt update__
 
-   __ sudo apt kuboresha__
+   __sudo apt upgrade__
 
-2. __Install Utegemezi__
-   Utahitaji kufunga baadhi ya dependencies muhimu kwa ajili ya kujenga na kuendesha Zebra:
+2. __Sakinisha Vitegemezi__
+   Utahitaji kusakinisha vitegemezi muhimu vya kuunda na kuendesha Zebra:
 
-   __sudo apt install kujenga-muhimu cmake git clang libssl-dev pkg-config__
+   __sudo apt install build-essential cmake git clang libssl-dev pkg-config__
 
-3. __ Clone Zebra Repository__
-   Fungua terminal na clone Zebra hazina kwa yako Raspberry Pi:
+3. __Nakili Hazina ya Zebra__
+   Fungua terminali na unakili hazina ya Zebra kwenye Raspberry Pi yako:
 
    __git clone https://github.com/ZcashFoundation/zebra.git__
 
-   _cd zebra__
+   __cd zebra__
 
-4. __Kujenga Zebra__
-   Kujenga Zebra, kutumia amri zifuatazo:
+4. __Unda Zebra__
+   Ili kuunda Zebra, tumia amri zifuatazo:
 
-   __ mzigo kujenga --release__
+   __cargo build --release__
 
-   Utaratibu huu unaweza kuchukua muda. Hakikisha kwamba yako Raspberry Pi ni kutosha baridi, kama kuunganisha inaweza kutoa joto.
+   Mchakato huu unaweza kuchukua muda. Hakikisha Raspberry Pi yako imepozwa vya kutosha, kwa kuwa uundaji unaweza kuzalisha joto.
 
-5. __ Configuration__ (Usanidi)
-   Kujenga faili ya Configuration kwa Zebra. Unaweza kutumia default config kama hatua ya kuanzia:
+5. __Usanidi__
+   Unda faili ya usanidi kwa ajili ya Zebra. Unaweza kutumia usanidi chaguomsingi kama mwanzo:
 
-   __ cp zcash.conf.mfano wa zcash .conf__
+   __cp zcash.conf.example zcash.conf__
 
-   Hariri faili zcash.conf ili Customize mipangilio yako node ya. Unaweza kutaja mtandao, kuwezesha madini, kuanzisha uhusiano peer na zaidi.
+   Hariri faili ya zcash.conf ili kubinafsisha mipangilio ya node yako. Unaweza kubainisha mtandao, kuwezesha uchimbaji [mining], kusanidi miunganisho ya rika, na mengineyo.
 
-6. __Kuanza Zebra__
-   Sasa unaweza kuanza Zebra na Configuration yako desturi:
+6. __Anzisha Zebra__
+   Sasa unaweza kuanzisha Zebra kwa usanidi wako maalum:
 
    __./target/release/zebrad -c zcash.conf__
 
-   __ maoni ya kitanda__ 
+   __git comment__ 
 
-   Amri hii itaanza node Zebra, na itakuwa kuanza kusawazisha kwa blockchain Zcash.
+   Amri hii itaanzisha node ya Zebra, nayo itaanza kusawazisha na blockchain ya Zcash.
 
-7. __Kufuatilia__
-   Unaweza kufuatilia maendeleo na hali ya node yako Zebra kwa kufungua kivinjari cha mtandao na navigating to __http://127.0.0.1:8233/status__.
+7. __Ufuatiliaji__
+   Unaweza kufuatilia maendeleo na hali ya node yako ya Zebra kwa kufungua kivinjari na kuelekea kwenye __http://127.0.0.1:8233/status__.
 
 <img src="/content-images/image-2023-11-28-173024853-99540511cf.webp" alt="zebra logo" width="200" height="200"/>
 
-## Kutatua matatizo
+## Utatuzi wa Matatizo
 
-Kama kukutana na matatizo yoyote kwa kujenga au kuendesha Zebra, angalia [Nyaraka za Zebra](https://zebra.zfnd.org/user/troubleshooting.html) kwa vidokezo vya kutatua matatizo na taarifa za ziada.
+Ukikumbana na matatizo yoyote katika kuunda au kuendesha Zebra, angalia nyaraka za [Zebra](https://zebra.zfnd.org/user/troubleshooting.html) kwa vidokezo vya utatuzi wa matatizo na maelezo ya ziada.
 
-Hakikisha kuweka Raspberry Pi yako baridi, kama kuendesha node inaweza kutoa joto. Unaweza kutaka kutumia ufumbuzi wa baridi ya, kama vile shabiki au sinki la joto .
+Hakikisha Raspberry Pi yako inabaki katika hali ya ubaridi, kwa kuwa kuendesha node kunaweza kuzalisha joto. Unaweza kutaka kutumia suluhisho la kupoza, kama vile feni au kipozaji cha joto.
 
-## Matokeo ya Uchunguzi
+## Hitimisho
 
-Kwa kufuata mwongozo huu, unapaswa kuwa na mafanikio kuanzisha na kukimbia Zebra kwenye Raspberry Pi yako 4. sasa ni kuchangia mtandao Zcash kama node huru, kusaidia kupata faragha ya shughuli Zcash.
+Kwa kufuata mwongozo huu, unapaswa kuwa umefanikiwa kusanidi na kuendesha Zebra kwenye Raspberry Pi 4 yako. Sasa unachangia mtandao wa Zcash kama node huru, ukisaidia kulinda faragha [privacy] ya miamala [transactions] ya Zcash.

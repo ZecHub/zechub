@@ -2,40 +2,40 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# ZEC zazã, le ame ŋutɔ gbɔ
+# Ale si wòazu ZEC, le ɣaɣla me
 
-#### Shielded (Ame ŋutɔ tɔ) vs. Transparent
+#### Ɣaɣla [Shielded] (Le ɣaɣla me) kple Nuwo ƒe ʋuʋuɖi [Transparent]
 
-Abe alesi wòle fifia ene la, adrɛs eve kple asitsatsa ƒomeviwo le Zcash me, siwo wokpɔ ta na eye wole gaglãgbe. Vovototo si le ZEC si wotsɔ akpoxɔnu wɔe kple esi me kɔ dome la le bɔbɔe ŋutɔ. Shielded ZEC na wò ga kple wò asitsatsa nye ame ŋutɔ tɔ, abe afisi ZEC si me kɔ wɔa dɔ le abe Bitcoin ene, si me kɔ keŋkeŋ ene. Esia fia be ame aɖe ate ŋu akpɔ wò ga si susɔ kple wò asitsatsa katã ne enya wò adrɛs.
+Le ale si wònɔ fifia la, gaɖoƒe ƒe dzesi [address] kple gaɖoɖo [transaction] ƒomevi eve le Zcash me: ɣaɣla kple nuwo ƒe ʋuʋuɖi. Vovototo si le ɣaɣla kple nuwo ƒe ʋuʋuɖi ZEC dome la le bɔbɔe ŋutɔ. Ɣaɣla ZEC dea wò ga kple wò gaɖoɖowo ɣaɣla [privacy], ke esi nuwo ƒe ʋuʋuɖi ZEC wɔa dɔ abe Bitcoin ene, eye nu siawo katã le ʋuʋuɖi me. Esia fia be ame aɖe ate ŋu akpɔ wò ga ƒe asixɔxɔ kple wò gaɖoɖowo katã ne wònya wò gaɖoƒe ƒe dzesi.
 
-Ne amewo dze ZEC zazã gɔme zi gbãtɔ la, ɖewohĩ womanya adrɛs ƒomevi si zãm wole o. Esia le alea elabena menye asitɔtrɔwo katãe doa alɔ ZEC si wokpɔ ta na kple/alo ZEC si wokpɔ ta na ƒe gaɖeɖe o. 
+Ne amewo dze ZEC zazã gɔme gbe ma gbe la, woate ŋu mànya gaɖoƒe ƒe dzesi ƒomevi ka wozãm. Esia dome le be gatrɔƒe [exchange] katã mekpena ɣaɣla ZEC kple alo ɣaɣla ZEC ƒe gaɖeɖe le woa me o. 
 
-Eyata, le kpɔɖeŋu me, ne ame aɖe zã Coinbase eye woƒle ZEC la, aƒle ZEC si me kɔ eye ɖeko wòate ŋu aɖe ZEC ma ayi adrɛs si me kɔ le gakotoku me. Gakotokuwo abe [Zodl](https://zodl.com/) ate ŋu akpɔ ga siwo woɖo ɖe adrɛs si me kɔ be woatsɔ akpɔ esia gbɔe ta, gake menye amesiamee nyae o. Ame geɖe, ne míagblɔe kpuie ko la, wozãa ZEC le mɔ si nu woƒe asitɔtrɔ alo gakotoku gbãtɔ ɖe mɔ na wo nu.
+Eya ta, ne ame aɖe zã Coinbase eye wòƒle ZEC la, aƒle nuwo ƒe ʋuʋuɖi ZEC eye wòate ŋu aɖe ZEC ma ɖe asi le gakotoku [wallet] me ƒe nuwo ƒe ʋuʋuɖi gaɖoƒe ƒe dzesi aɖe ko dzi. Gakotokuwɔlawo abe [Zodl](https://zodl.com/) ene ate ŋu awɔ ɣaɣla na ga si woɖo ɖe nuwo ƒe ʋuʋuɖi gaɖoƒe ƒe dzesi aɖe dzi be woaɖɔe ɖo, gake ame sia ame menya esia o. Ame geɖewo zã ZEC le mɔ si woaƒe gatrɔƒe alo gakotoku vevi na wo la ɖe mɔ na wo be woazãe ɖo.
 
-#### Kpɔ egbɔ be yekpɔ yeƒe ZEC ta
+#### Ale si nàkpɔe be wò ZEC le ɣaɣla me
 
-Míele aɖaŋu ɖom be amesiame nakpɔ eƒe ZEC dzi le eɖokui si. Efia be, tsɔ wò ZEC tso exchange me yi gakotoku me. Mɔ nyuitɔ si dzi nàto anya ne èle shielded, a.k.a private, ZEC zãm enye to ŋkuléle ɖe adrɛs si me balance la bɔbɔ nɔ ŋu.Ne adrɛs la dze egɔme kple "z" alo "u1" , ekema wò balance nye shielded. Ne adrɛs la dze egɔme kple "t" la, ekema dadasɔa le dzedzem.
+Miele ŋu kpɔa ɖe edzi be ame sia ame nanɔ ZEC le eya ŋutɔ ƒe kpɔɖeŋu me. Esia fia be nàtsɔ wò ZEC tso gatrɔƒe aɖe me ayi gakotoku aɖe me. Mɔ nyuitɔ si dzi nànya be èle ɣaɣla, si nye be ele ɣaɣla, ZEC zazã la nye be nàkpɔ gaɖoƒe ƒe dzesi si dzi ga ƒe asixɔxɔ le. Ne gaɖoƒe ƒe dzesi la dze egɔme kple "z" alo "u1" la, ekema wò ga ƒe asixɔxɔ le ɣaɣla me. Ne gaɖoƒe ƒe dzesi la dze egɔme kple "t" la, ekema ga ƒe asixɔxɔ la le nuwo ƒe ʋuʋuɖi me.
 
-Zi geɖe la, mɔ eve li siwo dzi woato aɖo ZEC si wotsɔ akpoxɔnu ɖo la gbɔ.
+Mɔ eve wɔnɛ le gbogbɔme be woato ayi ɣaɣla ZEC gbɔ.
 
-Tso asitɔtrɔ si doa alɔ **shielded** ƒe gaɖeɖe me:
+Tso gatrɔƒe si kpena **ɣaɣla** gaɖeɖe:
 
-  1. Ƒle ZEC le asitɔtrɔ me
-  2. Dze gaɖeɖe ƒe ɖoɖoa gɔme le asitɔtrɔa me
-  3. Ʋu wò ZEC gakotoku si wokpɔ ta na eye nàkpɔ egbɔ be adrɛs si xɔe la dze egɔme kple "u1" alo "z".
-  4. Du ga si woɖe le wò asitɔtrɔ me
+  1. Ƒle ZEC le gatrɔƒe aɖe me
+  2. Dze gaɖeɖe ƒe dɔwɔwɔ gɔme le gatrɔƒe la me
+  3. Ʋu wò ɣaɣla ZEC gakotoku eye nàkpɔe be gaɖoƒe ƒe dzesi si wòaxɔe la dze egɔme kple "u1" alo "z"
+  4. Wɔ gaɖeɖe la tso wò gatrɔƒe la me
 
-Tso asitɔtrɔ si doa alɔ **gaɖeɖe le gaglãgbe** me:
-
-
-  1. Ƒle ZEC le asitɔtrɔ me
-  2. Dze gaɖeɖe ƒe ɖoɖoa gɔme le asitɔtrɔa me
-  3. Ʋu wò autoshielding ZEC gakotoku eye nàzã adrɛs si me kɔ si xɔa nyatakakawo
-  4. Du ga si woɖe le wò asitɔtrɔ me
-  5. Lala kpeɖodzi ewo, eye emegbe nàkpɔ ZEC la ta tso wò adrɛs si me kɔ la gbɔ va ɖo adrɛs si wokpɔ ta na la gbɔ
+Tso gatrɔƒe si kpena **nuwo ƒe ʋuʋuɖi** gaɖeɖe:
 
 
-Nufiame aɖe si ku ɖe alesi woaɖe ZEC le asitɔtrɔ me ŋue nye esi. De dzesii be esia nye gaɖeɖe le ga si wotsɔ akpoxɔnu wɔe.
+  1. Ƒle ZEC le gatrɔƒe aɖe me
+  2. Dze gaɖeɖe ƒe dɔwɔwɔ gɔme le gatrɔƒe la me
+  3. Ʋu wò ZEC gakotoku si wɔa eƒe ŋutɔ ƒe ɣaɣla eye zã nuwo ƒe ʋuʋuɖi gaɖoƒe ƒe dzesi si wòaxɔe
+  4. Wɔ gaɖeɖe la tso wò gatrɔƒe la me
+  5. Lala be woana dzesi zi 10, eye megbe nàwɔ ɣaɣla na ZEC tso wò nuwo ƒe ʋuʋuɖi gaɖoƒe ƒe dzesi dzi yi ɣaɣla gaɖoƒe ƒe dzesi dzi
+
+
+Efi tutoriaɖeŋu aɖe si fia ale si nàɖe ZEC tso gatrɔƒe aɖe me. Ðo ŋku edzi be esia nye ɣaɣla gaɖeɖe.
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -50,7 +50,7 @@ Nufiame aɖe si ku ɖe alesi woaɖe ZEC le asitɔtrɔ me ŋue nye esi. De dzesii
     
 
 ---
-Nufiame aɖe si ku ɖe alesi nàkpɔ wò ZEC ta tso adrɛs si me kɔ dzi ayi adrɛs si wokpɔ ta na lae nye esi.
+Efi tutoriaɖeŋu aɖe si fia ale si nàwɔ ɣaɣla na wò ZEC tso nuwo ƒe ʋuʋuɖi gaɖoƒe ƒe dzesi dzi yi ɣaɣla gaɖoƒe ƒe dzesi dzi.
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -65,7 +65,7 @@ Nufiame aɖe si ku ɖe alesi nàkpɔ wò ZEC ta tso adrɛs si me kɔ dzi ayi adr
 
 
 ---
-Nufiame aɖee nye esi ku ɖe alesi woaƒle ZEC le Coinbase eye woaɖoe ɖe Zodl ŋu.
+Efi tutoriaɖeŋu aɖe si fia ale si nàƒle ZEC le Coinbase dzi eye nàɖoe ɖe Zodl.
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -79,18 +79,18 @@ Nufiame aɖee nye esi ku ɖe alesi woaƒle ZEC le Coinbase eye woaɖoe ɖe Zodl 
 </div>
 
 
-#### Adzɔnuwo ƒe asitsatsa
+#### Gaɖoɖowo
 
-Ne èkpɔ egbɔ be yeƒe ZEC le gakotoku si ŋu wokpɔ ta na si doa alɔ adrɛs siwo wokpɔ ta na me vɔ la, àte ŋu atso nya me azɔ ne èdi be yeawɔ asitsadɔ kple ZEC ma. Asitsatsa kple ZEC le bɔbɔe ŋutɔ. Àte ŋu aɖo ZEC ɖe adrɛs siwo wokpɔ ta na alo esiwo me kɔ le amea ƒe didi nu. Abe alesi wòle le gadodo ɖesiaɖe gome ene la, mɔnukpɔkpɔ sue aɖewo li be amewo nate ŋu aɖe nyatakakawo ɖe go. ZEC ye nye nyuitɔ kekeake le avuwɔwɔ kple nyatakakawo ƒe dodo me, gake mefia be ele be nàzãe beléle manɔmee o. Nu aɖewo siwo nàdi be yeaƒo asa na ne èle asitsadɔ wɔm kple ZEC lae nye esi.
+Le esi nàkpɔe vɔ be wò ZEC le ɣaɣla gakotoku aɖe me si kpena ɣaɣla gaɖoƒe ƒe dzesiwo vɔ megbe la, azu wòate ŋu atia be wòdi be yeawɔ gaɖoɖo kple ZEC. Gaɖoɖo wɔwɔ kple ZEC le bɔbɔe ŋutɔ. Àte ŋu aɖo ZEC ɖe ɣaɣla alo nuwo ƒe ʋuʋuɖi gaɖoƒe ƒe dzesiwo dzi, le ame ma ƒe didi nu. Abe gaɖoɖo bubu siawo katã ene la, mɔ sue aɖewo le be amewo aɖe ate ŋu aɖe nyatakakawo afia. ZEC nye nu nyuitɔ si tsona nyatakaka ƒe fifiɖeŋu wɔa aʋa kplee, gake esia menye be nàzãe manɔ ɖe ŋku o. Nu siwo nàdi be nàge ɖa le esi nèle gaɖoɖo wɔm kple ZEC lae nye esiwo.
 
-- Wò adrɛs si wokpɔ ta na la ɖeɖefia
-- Adrɛs si wokpɔ ta na zazã abe mɔ si dzi woato ene na t-adrɛswo (a.k.a "mixing") .
-- Duƒuƒu, kple wò duƒuƒu ɖeɖefia, xexlẽme gã aɖe si wokpɔ ta na asitsatsa siwo me kɔ
-- Nana amewo edziedzi be woanya afisi nèzãa ga le ZEC si wokpɔ ta na
+- Fia wò ɣaɣla gaɖoƒe ƒe dzesi
+- Zã ɣaɣla gaɖoƒe ƒe dzesi abe mɔtɔe na t-addresses ene (si woyɔna be "mixing")
+- Wɔ, eye nàfia be èle wɔm, ɣaɣla tso yi nuwo ƒe ʋuʋuɖi gaɖoɖo geɖe ŋutɔ
+- Ƒo nu na amewo zi sia zi tso teƒe si nètsɔa ɣaɣla ZEC daa le
 
 
-Le nyateƒe me la, nu nyuitɔ si nàwɔ kple wò ZEC enye be nàlée ɖe gakotoku si ŋu wokpɔ ta na me, awɔ asitsadɔ le adrɛs siwo ŋu wokpɔ ta na dome, eye nàkpɔ nyuie le alesi nàzã ZEC le dutoƒo (i.e. kɔfidzraƒe) ŋu. Ame ŋutɔ ƒe nyawo gbɔ kpɔkpɔ ƒe kakaɖedzi hea agbanɔamedzi ƒe seƒe aɖe vɛ. 
+Le nyateƒe me la, nu nyuitɔ si nàwɔ kple wò ZEC nye be nànɔe ɖe ɣaɣla gakotoku aɖe me, nàwɔ gaɖoɖo le ɣaɣla gaɖoƒe ƒe dzesiwo dome, eye nànɔ ŋku ɖe ale si nèzã ZEC le ameha me (abe kɔfiƒe aɖe ene) la ŋu. Ɣaɣla dadzra bia be ame nanɔ agbenɔnɔ ƒe agbagba aɖe me. 
 
-#### Nunɔamesiwo
+#### Nu siwo woate ŋu akpe ɖe ŋuwò
 
-[Zcash ƒe asitsatsa](https://zechub.wiki/using-zcash/transactions)
+[Zcash gaɖoɖowo](https://zechub.wiki/using-zcash/transactions)

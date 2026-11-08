@@ -112,7 +112,7 @@ Esta estructura crea un incentivo para que Zcash Labs sea cautelosa al seleccion
 
 Zcash Labs no se limita a esperar a que los proyectos acudan en busca de financiación. Zcash Labs también puede identificar problemas que considera importantes, buscar equipos o desarrolladores capaces de proporcionar soluciones y luego ofrecer apoyo si el enfoque propuesto se considera viable.
 
-Este enfoque es evidente en la **Zcashactividad pública de [ Labs en X](https://x.com/zcashlabs)**. Zcash Labs buscó en una ocasión soluciones para un problema de recompensa por errores en el desarrollo de inteligencia artificial y declaró que había financiación disponible para las soluciones que se consideraran capaces de resolver el problema.
+Este enfoque es evidente en la **[actividad pública de Zcash Labs en X](https://x.com/zcashlabs)**. Zcash Labs buscó en una ocasión soluciones para un problema de recompensa por errores en el desarrollo de inteligencia artificial y declaró que había financiación disponible para las soluciones que se consideraran capaces de resolver el problema.
 
 Este enfoque otorga a Zcash Labs un papel más activo en el desarrollo del ecosistema. Zcash Labs puede identificar necesidades desde el principio, determinar si esas necesidades son relevantes, encontrar desarrolladores adecuados y luego utilizar capital para ayudar a que las soluciones alcancen la etapa de implementación.
 

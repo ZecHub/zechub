@@ -6,175 +6,175 @@ published: 2026-04-14
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Dash Integration of Zcash Orchard
+# Dash Ƒe Ƒo Ƒu Kple Zcash Orchard
 
 
 
-## Kpɔkplɔyiɖeme
+## Gbedodoɖa
 
-Le February 2026 me la, Dash network ɖe gbeƒãe be yewotsɔ Zcash ƒe Orchard shielded pool la de Dash Evolution kɔsɔkɔsɔa me. Esia de dzesi ameŋunyatakakawo ŋuti nuwɔwɔ aduadu ɖedzesitɔwo dometɔ ɖeka le kɔsɔkɔsɔwo dome le cryptocurrency ƒe teƒea, esi Dash xɔ Zcash ƒe nya ɣaɣla siwo me sidzedze zero mele o ƒe nu yeyewo tsɔ kpe ɖe eƒe ameŋunyatakakawo ŋuti kpɔɖeŋu si wotu ɖe CoinJoin dzi si li fifia ŋu. Ðekawɔwɔa ɖo kpe Zcash ƒe ɖoƒe si nye kplɔla le ameŋunyatakakawo ŋuti mɔ̃ɖaŋununya me dzi eye wòʋu ta yeye aɖe na ameŋunyatakakawo ŋuti nuwɔwɔ aduadu le kɔsɔkɔsɔwo dome.
+Le 2026 ƒe Dzove me la, Dash network gblɔ be woƒe Zcash ƒe Orchard ɣaɣla [shielded] gaƒuƒoƒo [pool] wotsɔ kpe ɖe Dash Evolution ɖoɖonu [chain] la ŋu. Esia nye ɖoɖonu geɖe dome [cross-chain] ɣaɣla [privacy] ƒe wɔwɔ kpeɖeŋu gã aɖe le cryptocurrency ƒe xexeme, elabena Dash tsɔ Zcash ƒe zero-knowledge ɣaɣlaŋlɔŋlɔ [encryption] si nye yeyetɔ kekeake va kpe ɖe eƒe CoinJoin-based ɣaɣla ƒe mɔ si nɔ anyi xoxo la ŋu. Ƒoƒo sia ɖo kpe ɖe Zcash ƒe nɔƒe abe ɣaɣla ƒe mɔ̃ ƒe ɖoɖoŋlɔla [developer] gã aɖe ene ŋu, eye wòʋu agbalẽ yeye aɖe na ɖoɖonu geɖe dome ɣaɣla ƒe wɔwɔ kpeɖeŋu.
 
-Nyati sia ɖe nusi Orchard ƒe ɖoɖowɔɖia nye, alesi Dash le ewɔm, nusita wòle vevie na lãwo ƒe agbenɔnɔ ƒe ɖoɖo eveawo siaa, kple nusi wòfia na adzame gaku ƒe nɔnɔme si keke ta wu la me.
+Agbalẽ sia ɖe nu me tso Orchard protocol si nye nu la, ale si Dash le wɔm ɖo la, nu si ta esɔ ŋu na ecosystem eve la, kple nu si wòfia tso ɣaɣla coin ƒe xexeme blibo la ŋu.
 
 
-## What Is the Zcash Orchard Protocol?
+## Nu Nenye Zcash Orchard Protocol?
 
-Orchard nye Zcash ƒe akpoxɔnu ta deŋgɔtɔ kekeake, si wowɔ dɔ kple Network Upgrade 5 (NU5) le ƒe 2022 ƒe domedome. Etsi tre ɖi na ƒe geɖe ƒe nya ɣaɣlawo ŋuti numekuku le Electric Coin Company (ECC) kple Zcash nutoa me ƒe taƒoƒo.
+Orchard nye Zcash ƒe ɣaɣla gaƒuƒoƒo si nyo wu, eye wodzi edzi kple Network Upgrade 5 (NU5) le 2022 ƒe titina. Eƒo ƒu le crypto ƒe nusrɔ̃lawo ƒe dɔwɔwɔ ƒe ƒe geɖe, si wòwɔ le Electric Coin Company (ECC) kple Zcash ƒe hamea me.
 
-### Mɔ̃ɖaŋununya Vevi: Halo 2
+### Dɔwɔnu ƒe Nɔnɔme Gbegbe: Halo 2
 
-Wotu Orchard ɖe **Halo 2** kpeɖodziɖoɖo dzi, si nye zk-SNARK ƒe dɔwɔwɔ si wɔa dɔ nyuie si woŋlɔ ɖe Rust me. Halo 2 to ŋgɔyiyi gã eve vɛ:
+Orchard wotu ɖe **Halo 2** ƒe ɖaseɖigbalɛ [proof] wɔwɔ ƒe ƒoƒo dzi, si nye zk-SNARK ƒe dɔwɔwɔ si wɔ dɔ kabakaba eye wòŋlɔ le Rust me. Halo 2 va kple ŋgɔyiyi gã eve:
 
-- **No Trusted Setup**: Do ŋgɔ na Zcash shielded pools (Sprout kple Sapling) ɖo ŋu ɖe akpa geɖe ƒe akɔntabubu kɔnuwo ŋu be woawɔ cryptographic parameters. Ne wometsrɔ̃ adzame nusiwo dzɔna le vome ("aɖi gbeɖuɖɔ") tso kɔnu siawo me nyuie o la, le nukpɔsusu nu la, woate ŋu azãe atsɔ awɔ aʋatso dzesi siwo wotsɔ akpoxɔnu wɔe. Halo 2 ɖea nudidi sia ɖa keŋkeŋ to mɔnu aɖe si woyɔna be **nested amortization**, si gbãa kuxi sesẽwo ƒe kpɔɖeŋu geɖewo ɖekae le elliptic curves ƒe tsatsamwo dzi ale be akɔntabubu ƒe kpeɖodziwo nate ŋu abu wo ɖokui ŋu.
+- **Mɔ̃ ƒe ɖoɖo xexlẽnuwo [trusted setup] Meli O**: Zcash ƒe ɣaɣla gaƒuƒoƒowo tsã (Sprout kple Sapling) nɔ ŋu ɖo le ame geɖe ƒe dɔwɔwɔ ƒe kɔnuwo dzi be woawɔ crypto ƒe parameterwo. Ne woŋlẽ agbeɖeɖe si nye kɔkɔe gblẽ ("toxic waste") tso kɔnu siawo me me nyuie o la, anye be ame aɖe ate ŋu atsɔe awɔ ɣaɣla token si menye etɔ o. Halo 2 ɖe hiãhiã sia ɖa blibo to mɔ aɖe si woyɔ be **nested amortization**, si tsɔ kuxi sesẽwo ƒe nɔnɔme geɖe ƒu ɖe eɖokui me le elliptic curves ƒe ɣeyiɣiwo dzi, ale be calculation ƒe ɖaseɖigbalɛwo ate ŋu asusɔ tso woaŋutɔ ŋu.
 
-- **Kpeɖodzi si wogbugbɔ ŋlɔna ƒe wɔwɔme**: Kpeɖodzi ɖeka ate ŋu aɖo kpe kpeɖodzi bubu siwo seɖoƒe meli na o kloe ƒe nyateƒenyenye dzi, si aƒo akɔntabubu gbogbo aɖe nu ƒu wòazu nɔnɔme si le sue, si ŋu woate ŋu aɖo kpee. Esia le vevie na scalability kple etsɔme tɔtrɔwo.
+- **Ɖaseɖigbalɛ ƒe Ƒoƒoƒo si Me Ɖo Ɖe Eɖokui Ŋu**: Ɖaseɖigbalɛ ɖeka ate ŋu aɖe asi ɖe ɖaseɖigbalɛ bubuwo ƒe nyateƒe si menye kakaɖedzi o la ŋu, eye wòtsɔ calculation gã aɖe ɖe teƒe sue aɖe si woate ŋu akpɔ ɖa. Esia hiã na nu ƒe dziyiyi [scaling] kple mɔ̃ ƒe sewo trɔtrɔ [network upgrade] siava va megbe.
 
-### Alesi Orchard ƒe Adzamenyawo Wɔa Dɔe
+### Ale Si Orchard Ƒe Ɣaɣla Wɔ Dɔe
 
-Le blockchain ƒe asitsatsa si wowɔna tsã me la, amesi ɖoe ɖa, amesi xɔe, kple ga home katã dzena le kɔsɔkɔsɔ me. Le asitsatsa si wokpɔ ta na Orchard me la, kpeɖodzi siwo me sidzedze zero mele o ɖo kpe edzi le akɔntabubu nu be:
+Le gaɖoɖowo ƒuƒoƒo ƒe ɖoɖonu [blockchain] ƒe gaɖoɖo [transaction] blema aɖe me la, amesi dɔ ga, amesi xɔe, kple ga ƒe home katã le ŋkɔ me le ɖoɖonu dzi [on-chain]. Le Orchard ƒe ɣaɣla gaɖoɖo aɖe me la, zero-knowledge ɖaseɖigbalɛwo ɖe kpe ɖe edzi le mathematics me be:
 
-- Asitsatsa la sɔ (nu siwo wotsɔ dea eme sɔ kple emetsonuwo, womewɔa dzesi aɖeke tso naneke me o) .
-- Ga si sɔ le amesi ɖoe ɖa la si
-- Gazazã zi eve aɖeke medzɔ o
+- Gaɖoɖoa le nyateƒe me (nu siwo ge ɖe me sɔ kple nu siwo doa go, token aɖeke medi tso afi aɖeke o)
+- Amesi dɔ ga la si ga de
+- Gaɖoɖo ƒe wɔwɔ zi eve mede anyi o
 
-Woɖo kpe esiawo katã dzi **evɔ womeɖea** amesi ɖo ga la ɖa, amesi xɔe, alo ga home si wotsɔ yi na ame bubu o. Abe alesi Dash ƒe CTO Samuel Westrich gblɔe ene la, le esi teƒe be woatsɔ atsyɔ asitsatsa ƒe mɔwo dzi to tsakatsaka me la, sidzedze zero ƒe kpeɖodziwo kpɔa egbɔ be "mɔ aɖeke meli woatsɔ adze egɔmee o."
+Wokpɔ esia katã ɖa **menye be wòafɔ** amesi dɔ ga, amesi xɔe, alo ga si wotrɔ la ƒe home o. Abe Dash CTO Samuel Westrich gblɔe ene la, le gaɖoɖo ƒe mɔwo ƒe vovototo to mixing me teƒe la, zero-knowledge ɖaseɖigbalɛwo na nyateƒea nye be "mɔ aɖeke meli be woaɖe ŋku ɖe eŋu tso gɔmedzedzea me o."
 
-### Nuwɔnawo Tsɔa Nusiwo Wotsɔ Dea Nu Kple Nusiwo Wodo Ðe Eme Teƒe
+### Actions Ɖe Inputs Kple Outputs Teƒe
 
-Orchard to nukpɔsusu si nye **Actions** vɛ be woatsɔ axɔ ɖe input/output model si wozãna tsã la teƒe. Dɔwɔwɔ ɖesiaɖe ƒoa gazazã kple nusi woɖe tso eme nu ƒu ɖekae, si ɖea asitsatsa ƒe metadata si do go la dzi kpɔtɔna. Esia wɔnɛ be esesẽna na eteƒekpɔlawo be woawɔ ʋuwo ƒe zɔzɔ ŋuti numekuku alo heuristic amedzidzedze ɖe asitsatsa siwo ŋu wokpɔ ta na ŋu.
+Orchard va kple **Actions** ƒe susu be wòaɖe input/output ƒe mɔ blema la teƒe. Action ɖeka ƒo gaɖeɖe kple gaɖodo ƒu, si ɖe gaɖoɖo ƒe metadata si doa go la gbɔ. Esia na wòsesẽ na amesiwo le kpɔm be woawɔ traffic analysis alo heuristic attacks le ɣaɣla gaɖoɖowo ŋu.
 
 
-## Nukae Nye Dash Evolution Chain?
+## Nu Nenye Dash Evolution Ɖoɖonu?
 
-Be nàse ƒoƒo ɖekae gɔme la, ele vevie be nàse Dash ƒe xɔtuɖaŋu gɔme.
+Be nàse ƒoƒo sia gɔme la, ele vevie be nàse Dash ƒe architecture gɔme.
 
-### Kɔsɔkɔsɔ Eve ƒe Xɔtuɖaŋu
+### Ɖoɖonu Eve Ƒe Architecture
 
-Dash wɔa kɔsɔkɔsɔ eve ƒe ɖoɖo aɖe ŋudɔ:
+Dash wɔ dɔ kple ɖoɖonu eve ƒe system:
 
-- **Dash Core (Layer 1)**: Blockchain gbãtɔ si ɖo kpe dɔwɔwɔ dzi, si tomenukulawo kple masternodes le dedie. Afi siae DASH dzesi si nye dzɔdzɔmetɔ la le eye CoinJoin ƒe ameŋunyatakakawo ƒe tsakatsaka wɔa dɔ le.
+- **Dash Core (Layer 1)**: Proof-of-work gaɖoɖowo ƒuƒoƒo ƒe ɖoɖonu gbãtɔ, nukulawo [miner] kple masternodeswo le dzram ɖe eŋu. Afisiae DASH token le, eye afisiae CoinJoin ƒe ɣaɣla mixing wɔ dɔe.
 
-- **Dash Evolution (Platform Layer)**: Kɔsɔkɔsɔ evelia si wotu ɖe Core xa si doa alɔ smart contract ƒe dɔwɔwɔ, dɔwɔɖoɖo siwo woɖe ɖe vovo, kple amenyenye dzikpɔkpɔ. Evolution zãa Tendermint ƒe nukpɔsusu ɖeka ƒe mɔnu si wogbugbɔ trɔ si woyɔna be **Tenderdash** eye Evolution Masternodes siwo léa kɔsɔkɔsɔ eveawo ta le ɣeyiɣi ɖeka me la ɖo kpe edzi.
+- **Dash Evolution (Platform Layer)**: Ɖoɖonu evelia si wotu kple Core, si kpe ɖe mɔ̃ŋlɔ ƒe dɔwɔwɔ [smart contract], ha nuɖo agni [decentralized] dɔwɔƒewo, kple ameƒe nyateƒe ƒe dzidzi ŋu. Evolution zã Tendermint consensus ƒe mɔ si wotrɔ, si woyɔ be **Tenderdash**, eye Evolution Masternodeswoe le ƒoɖo be ɖoɖonu evea siaa nakpɔ dzidzɔ le ɣeyiɣi ɖeka.
 
-Evolution kɔsɔkɔsɔae nye afisi Orchard ƒe ƒoƒo ɖekae dzɔna le. Aɖaŋu ƒe tiatia sia na Dash te ŋu to nya ɣaɣlawo ƒe adzamenyawo deŋgɔ vɛ evɔ matrɔ asi le Core kɔsɔkɔsɔ si ŋu kpeɖodzi le ŋu o.
+Evolution ɖoɖonue nye afi si Orchard ƒoƒoa le dzɔm. Nɔnɔme sia ƒe tiam na Dash ƒe mɔ be wòatsɔ crypto ƒe ɣaɣla si nyo ŋutɔ ava, esi wòatrɔ Core ɖoɖonu si woɖo kpe ɖe edzi xoxo la o.
 
 
-## Alesi Ðekawɔwɔa Wɔa Dɔe
+## Ale Si Ƒoƒoa Wɔ Dɔe
 
-### Mɔ̃ɖaŋununya ƒe Xɔtuɖaŋu
+### Dɔwɔnu Ƒe Architecture
 
-Dash tsɔ fɔkpa ƒo Zcash ƒe Orchard Rust aɖaka si woate ŋu azã faa la eye wòtrɔ asi le eŋu na Evolution kɔsɔkɔsɔa. Ðekawɔwɔa zɔna ɖe **gaxɔgbalẽvi si wokpɔ ta na** ƒe ɖoɖo dzi:
+Dash wɔ fork tso Zcash ƒe Orchard Rust crate si le open-source me, eye wòtrɔe be wòawɔ dɔ na Evolution ɖoɖonu. Ƒoƒoa ɖo ɖe **credit gaƒuƒoƒo si wokpɔ ɖe eŋu** ƒe nɔnɔme dzi:
 
-1. **Lock**: Zãlawo doa woƒe DASH nunɔamesiwo ɖe Dash Core dzi
-2. **Mint**: Woŋlɔa "Credits" dzesi siwo wotsɔ pegged la ɖe Evolution kɔsɔkɔsɔa dzi
-3. **Tɔtrɔ**: Woate ŋu atsɔ Orchard ƒe sidzedze zero-sidzedze ƒe kpeɖodziwo atsɔ gaxɔgbalẽviwo ayi teƒe bubu le ame bubuwo ƒe ŋkɔ manɔmee, eye woakpɔ ame si ɖoe ɖa, amesi xɔe, kple ga home la ta bliboe
-4. **Burn**: Wotɔa dzo dzesiwo le Evolution dzi be woagbugbɔ DASH ƒe nunɔamesi siwo le ete la axɔ le Core
+1. **Tso**: Zãlawo tso woƒe DASH assets ɖe Dash Core me
+2. **Wɔ**: Wo wɔ "Credits" tokens siwo ƒe asixɔxɔ sɔ kple Core ga le Evolution ɖoɖonu dzi
+3. **Trɔ**: Woate ŋu atrɔ Creditswo le ɣaɣla me kple Orchard ƒe zero-knowledge ɖaseɖigbalɛwo, eye amesi dɔ ga, amesi xɔe, kple ga ƒe home katã le ɣaɣla me
+4. **Tɔ**: Wotɔ tokenwo le Evolution dzi be woaxɔ DASH assets siwo le Core me la gbɔ
 
-Kpɔɖeŋu sia sɔ kple mɔ eve ƒe peg le Core kple Evolution kɔsɔkɔsɔwo dome, gake sidzedze zero-sidzedze blibo le eŋu na asitsatsa le Evolution ƒe akpa dzi.
+Model sia sɔ kple peg si yi mɔ eve me le Core kple Evolution ɖoɖonuwo dome, gake zero-knowledge ɣaɣla blibo le gaɖoɖowo ŋu le Evolution ƒe akpa.
 
-### Woaɖee Ðe Edzi Vivime
+### Ƒoƒo Ƒe Ɣeyiɣiwo
 
-Wowɔ ɖoɖo ɖe ɖekawɔwɔa ŋu le akpa eve me:
+Wode asi be woawɔ ƒoƒoa le ɣeyiɣi eve me:
 
-**Akpa 1 (March 2026, wole lalam be woawɔ kɔmpiuta dzi dedienɔnɔ ŋuti numekukuwo):**
-- De Orchard shielded ta siwo le Evolution kɔsɔkɔsɔa dzi
-- Do alɔ Dash Credits ƒe gɔmedzedze siwo wokpɔ ta na ƒe asitɔtrɔ le akpa eveawo dome
-- Dedienɔnɔ ŋuti numekuku siwo wowɔ le wo ɖokui si ƒe nuwuwu hafi woawɔ mainnet ƒe dɔwɔwɔ
+**Ɣeyiɣi 1 (2026 ƒe Tedoxe, cybersecurity auditwo nɔ mɔ kpɔm):**
+- Ɖo Orchard ƒe ɣaɣla gaƒuƒoƒowo ɖe Evolution ɖoɖonu dzi
+- Na Dash Credits ƒe ɣaɣla trɔtrɔ gɔmedzedze le amewo dome
+- Ɖe asi ɖe security audit siwo menye ame mawo tɔ o la ŋu hafi mainnet nadze dɔ
 
-**Akpa 2 (Afɔɖeɖe siwo kplɔe ɖo):**
-- Keke Orchard ƒe ameŋunyatakakawo ƒe nɔnɔmewo ɖe enu ɖe ​​**tokenized real-world assets (RWAs)** siwo woɖe ɖe go le Evolution dzi
-- Na ameŋunyatakakawo takpɔkpɔ ƒe dɔwɔnawo nawɔ dɔ na DeFi kple smart contract ƒe kadodowo le mɔ̃a dzi
-- He zero-knowledge shielding vɛ na dzesi ƒomevi ɖesiaɖe, ke menye ga si wozãna le dukɔa me ɖeɖeko o
+**Ɣeyiɣi 2 (Mɔ̃ ƒe sewo trɔtrɔ siwo ava):**
+- Ɖe Orchard ƒe ɣaɣla ƒe nɔnɔmewo ɖe **tokenized real-world assets (RWAs)** siwo wodo le Evolution dzi la ŋu
+- Na dɔwɔwɔ siwo kpɔ ɣaɣla ɖe eŋu na DeFi kple mɔ̃ŋlɔ ƒe dɔwɔwɔwo le platform la dzi
+- Tsɔ zero-knowledge ɣaɣla va na token ƒe leƒe siaa, menye native currency ko o
 
-### Asitelefon dzi Nuwɔwɔ Ðekae
+### Mobile Ƒe Synchronization
 
-Mɔxenu ɖeka si nye kuxi le ŋutinya me na ameŋunyatakakawo zazã ƒe ɖoɖo siwo me sidzedze aɖeke mele o enye be woawɔ ɖeka blewuu le asitelefonwo dzi. Dash ƒe ƒuƒoƒoa ɖee fia be Evolution ƒe xɔtuɖaŋu ateŋu ana **asitelefon dzi nyatakaka siwo wokpɔ ta na ƒe ɖekawɔwɔ kabakaba wu**, si anye ŋgɔyiyi si ŋu gɔmesese le na gbesiagbe zãlawo. Wole asi dam ɖe dɔ sia dzi fifia.
+Nu si kpɔm sesẽ le zero-knowledge ɣaɣla ƒe systemwo zãzã me tso blema la nye synchronization ƒe blema le mobile devicewo dzi. Dash ƒe hamea fia be Evolution ƒe architecture ate ŋu ana **ɣaɣla data ƒe mobile synchronization nasɔ kabakaba wu**, si anye nyonyo gã aɖe na zãlawo le wɔnawo katã me. Wole dɔ sia ƒe nyateƒe kpɔm fifia.
 
 
-## Nusita Esia Le Vevie: CoinJoin vs. Orchard
+## Nu Si Ta Esɔ Ŋu: CoinJoin Kple Orchard
 
-### Dash ƒe Nya ɣaɣla si Li Fifia: CoinJoin
+### Dash Ƒe Ɣaɣla Si Nɔ Anyi: CoinJoin
 
-Dash tsɔ adzamenyawo naa amewo tso blema ke to **CoinJoin**, si nye mɔnu si menye nudzraɖoƒe o ƒe tsakatsaka dzi. CoinJoin wɔa dɔ to zãla geɖewo ƒe asitsatsa me nyawo kple emetsonuwo ƒoƒo ƒu ɖe asitsatsa ɖeka me, si wɔnɛ be esesẽna (gake menye nusi mate ŋu adzɔ o) na eteƒekpɔlawo be woakpɔ nusiwo wotsɔ de eme siwo sɔ kple nusiwo woɖe tso eme.
+Dash nɔ ɣaɣla nam tsã to **CoinJoin**, mixing ƒe mɔ si menye asikplɔ-dzralá [custodial] o. CoinJoin wɔ dɔ to zãla geɖe ƒe gaɖoɖo ƒe inputwo kple outputwo ƒoƒo ɖe gaɖoɖo ɖeka me, si na wòsesẽ (gake menye be womate ŋu o) na amesiwo le kpɔm be woaɖe input siwo sɔ kple output siwo gɔme.
 
-Seɖoƒe li na CoinJoin:
+CoinJoin si le ɖeŋuɖeŋuwo:
 
-- **Tiatia**: Ele be zãlawo natsɔ asi awɔ tsakatsaka le Dash Core gakotokua me
-- **Obfuscation, menye encryption**: Asitsatsa ƒe mɔwo gakpɔtɔ li le kɔsɔkɔsɔ dzi; ɖeko wo dzi wɔwɔ sesẽna wu
-- **Susceptible to analysis**: Esi nunɔamesiwo kple nyatakaka siwo sɔ ta la, kɔsɔkɔsɔ me numekuku dɔwɔƒewo ɖe ŋutete si le wo si be woaɖe ŋkɔmaɖemaɖe le CoinJoin ƒe asitsatsa aɖewo ŋu fia
-- **Ŋkɔmaɖemaɖe ƒe ɖoɖo si seɖoƒe li na**: Adzamenyawo si wona la nɔ te ɖe zãla bubu neni siwo le tsakatsam le ɣeyiɣi ɖeka me dzi
+- **Ele zãla ƒe tia me**: Ele be zãlawo naɖo mixing dzi kple woaŋutɔ le Dash Core gakotoku [wallet] me
+- **Ɖe mɔwo kple wo nɔ alɔ̃, menye ɣaɣlaŋlɔŋlɔ o**: Gaɖoɖo ƒe mɔwo gale ɖoɖonu dzi; wova sesẽ wu be woaɖe ŋku ɖe woŋu ko
+- **Analysis ate ŋu awɔ dɔ ɖe eŋu**: Ne resources kple data de la, ɖoɖonu ƒe analysis firmwo fia be woate ŋu aɖe CoinJoin gaɖoɖo aɖewo ƒe anonymization ɖa
+- **Anonymity set sue**: Ɣaɣla si woana la ɖo ɖe zãla bubu siwo le mixing wɔm le ɣeyiɣi ma ke me la ƒe number dzi
 
-### Orchard ƒe Nɔnɔme ƒe Ŋgɔyiyi
+### Orchard Ƒe Ŋgɔyiyi Le Nɔnɔme Me
 
-Orchard tsi tre ɖi na ame ŋutɔ ƒe nyawo gbɔ kpɔkpɔ ƒe mɔnu si to vovo kura:
+Orchard fia mɔ vovotɔ aɖe le ɣaɣla me:
 
-- **Cryptographic guarantees**: Akɔntabubue kpɔa ame ŋutɔ ƒe nyawo dzi, ke menye amehawo ƒe nuwɔna o
-- **No trail**: Asitsatsa ƒe mɔ aɖeke meli si ŋu woaku nu me le o elabena womeŋlɔa ame si ɖoe ɖa, amesi xɔe, kple ga home ɖe kɔsɔkɔsɔa me le nuŋɔŋlɔ gbadzaa me gbeɖe o
-- **Larger shielded set**: Orchard ƒe asitsatsa katã ma shielded pool ɖeka, si dzia ŋkɔmaɖemaɖe ƒe ƒuƒoƒoa ɖe edzi
-- **No setup si dzi woka ɖo o**: Halo 2 ƒe kpeɖodziɖoɖoa ɖea kakaɖedzi ƒe susu susɔe ɖesiaɖe ɖa
+- **Crypto ƒe nyateƒe ƒe laylay**: Mathematics ƒo ɣaɣla ɖe te, menye amehawo ƒe nɔnɔme o
+- **Mɔ aɖeke meli o**: Gaɖoɖo ƒe mɔ aɖeke meli be woaanalyze, elabena wometsɔ amesi dɔ ga, amesi xɔe, kple ga ƒe home ŋlɔ ɖe ɖoɖonu dzi le plaintext me o
+- **Ɣaɣla set gã wu**: Orchard ƒe gaɖoɖowo katã mawo ƒe ɣaɣla gaƒuƒoƒo ɖeka, si na anonymity set la gã wu
+- **Mɔ̃ ƒe ɖoɖo xexlẽnuwo meli o**: Halo 2 ƒe ɖaseɖigbalɛ wɔwɔ ƒe system ɖe trust ƒe hiãhiã siwo gali ɖa
 
-Ðekawɔwɔa mexɔ ɖe CoinJoin teƒe le Dash Core o. Ke boŋ Orchard naa **nya ɣaɣlawo ƒe ƒuƒoƒo si kpe ɖe eŋu** le Evolution kɔsɔkɔsɔa dzi, si naa Dash zãlawo tiatia le CoinJoin ƒe tsakatsaka si le bɔbɔe kple akɔntabubu ƒe adzamenyawo si nye zero-sidzedze kpeɖodziwo dome.
+Ƒoƒo sia metsrɔ CoinJoin ɖe te le Dash Core me o. Boŋ, Orchard na **crypto ƒe layer si kpe ɖe eŋu** le Evolution ɖoɖonu dzi, si na Dash ƒe zãlawo woatia le CoinJoin ƒe mixing bɔbɔe kple zero-knowledge ɖaseɖigbalɛwo ƒe mathematics ƒe ɣaɣla dome.
 
 
-## Nusi Esia Gblɔ Na Zcash
+## Nu Si Esia Gɔme Na Zcash
 
-Dash ƒe ɖekawɔwɔa tsɔa gɔmesese veviwo vɛ na Zcash ƒe lãwo ƒe agbenɔnɔ.
+Dash ƒe ƒoƒo sia kple Zcash ecosystem la le gɔme gã.
 
-### Zcash Mɔ̃ɖaŋununya ƒe kpeɖodzinana
+### Zcash Ƒe Dɔwɔnu ƒe Ɖo Kpe
 
-Ne cryptocurrency dɔ gã bubu xɔ Zcash ƒe cryptographic stack la, ewɔa dɔ abe gotagome kpeɖodzi na mɔ̃ɖaŋununya ƒe tsitsi, dedienɔnɔ, kple aɖaŋuwɔwɔ ƒe nyonyome. Samuel Westrich, si nye Dash Core Group ƒe CTO de dzesii be:
+Ne cryptocurrency project gã bubu aɖe tsɔ Zcash ƒe crypto ƒe dɔwɔnu ƒe ƒoƒo la zã la, ekema wòɖe asi ɖe technology sia ƒe mɔ̃nu, dzidzɔ, kple design ƒe nyonyo ŋu tso gota. Samuel Westrich, si nye Dash Core Group ƒe CTO, gblɔ be:
 
-> "Nye ŋutɔ metsɔ ɖe le ZK kpeɖodzi mɔ̃ɖaŋununya kple eƒe zazã le blockchain me tso esime woŋlɔ agbalẽ gbãtɔwo le ƒe 2014 me. Le ƒe siwo va yi me la, míele ŋku lém ɖe Zcash ŋu. Esi woɖe Orchard crate la ɖe go yeyetɔ ta la, míese le mía ɖokui me be enye ɣeyiɣi nyui aɖe be míaku nu me atsɔ mɔ̃ɖaŋununya la akpe ɖe míaƒe Evolution kɔsɔkɔsɔ yeyetɔ ŋu."
+> "Nyenye ŋutɔ menɔ dzidzi le ZK proof technology kple eƒe zãzãwo le blockchain me tso agbalẽ gbãtɔwo le 2014 me. Le ƒeawo dome la, míetsɔ míaƒe ŋkuwo ɖe Zcash ŋu. Le Orchard crate ƒe version yeyetɔ la me la, míekpɔ be ɣeyiɣi nyui aɖe koe be míakpɔ ale si míate ŋu atsɔ technology sia akpe ɖe míaƒe Evolution chain yeye la ŋu."
 
-Egblɔ kpee be "Orchard nye dzɔtsoƒe si le ʋuʋu ɖi eye wòtsi; eƒe ƒoƒo ɖekae le bɔbɔe wu alesi wokpɔ mɔe."
+Eɖo kpe edzi be "Orchard le open source me eye wòxɔ mɔ̃; eƒe ƒoƒo meva sesẽ abe ale si míebuie ene o."
 
-### Nu Gbagbewo ƒe Dɔwɔɖoɖowo ƒe Kekeɖenudɔwɔwɔ
+### Ecosystem Ƒe Gãnyinyi
 
-Woɖe Orchard crate la ɖe go le MIT kple Apache 2.0 ƒe mɔɖegbalẽ siwo le ʋuʋu ɖi te. Ðekawɔwɔ ɖesiaɖe si dɔ bubu awɔ la kekea Zcash ƒe nya ɣaɣlawo ƒe gɔmedzenuwo zazã ɖe enu, dzia dɔwɔlawo ƒe xexlẽme si nya nu tso kɔdaɖoɖoa ŋu ɖe edzi, eye ateŋu ahe ŋgɔyiyi siwo le dzigbe gome vɛ si aɖe vi na Zcash ŋutɔ.
+Wotsɔ MIT kple Apache 2.0 open-source licensewo de Orchard crate la te. Ƒoƒo siaa si project bubu aɖe wɔ la na Zcash ƒe crypto ƒe nɔnɔme gɔme zãlawo gã wu, na mɔ̃ ƒe ɖoɖoŋlɔlawo siwo se codebase la gɔme la ƒe number gã wu, eye ɣeaɖe la wòatsɔ upstream nyonyowo ava siwo akpe ɖe Zcash ŋutɔ ŋu.
 
-### Atitsoga-kɔsɔkɔsɔwo ƒe Dzesidede
+### Ɖoɖonu Geɖe Dome Ƒe Dzigbɔbɔ
 
-Dash ƒe gege ɖe dɔwo ƒe ŋkɔwo me to Halo 2 kple Orchard zazã me tsɔ Zcash da ɖe dɔwo abe Filecoin, Ethereum, kple zkRollup egbɔkpɔnu geɖe siwo xɔ alo ku Halo 2 mɔ̃ɖaŋununya me la xa. Nu gbagbewo ƒe agbenɔnɔ ƒe ɖoɖo sia si le dzidzim ɖe edzi doa ŋusẽ network ƒe ŋusẽkpɔɖeamedzi siwo ƒo xlã Zcash ƒe ameŋunyatakakawo ŋuti numekuku.
+Ne Dash va ɖe project siwo zã Halo 2 kple Orchard ƒe xexeme la me, ekema wòtsɔ Zcash de projectwo abe Filecoin, Ethereum, kple zkRollup solution geɖe siwo tsɔ alo kpɔ Halo 2 technology ɖo la ƒe akpa. Ecosystem si le gã yim sia ɖo network effectwo kpe ɖe Zcash ƒe ɣaɣla nusrɔ̃ ŋu.
 
-### Zcash abe Ameŋunyatakakawo Ŋuti Dzidzenu ene
+### Zcash Abe Ɣaɣla Ƒe Standard Ene
 
-Ðekawɔwɔa tsɔ Zcash ƒe mɔ̃ɖaŋununya ɖo nɔƒe si nye **dɔwɔƒe ƒe dzidzenu si le dodom na blockchain ƒe adzamenyawo**, abe alesi TLS va zu dzidzenu na nyatakakadzraɖoƒe ƒe nya ɣaɣla ene. Ne dɔ siwo le ho ʋlim tiae be yewoaxɔ Zcash ƒe dɔwɔnuwo tsɔ wu be yewoatu yewo ŋutɔ tɔ la, eƒoa nu tso dzɔdzɔmeŋutinunya si le ete ƒe nyonyome kple kakaɖedzi ŋu.
+Ƒoƒo sia tsɔ Zcash ƒe technology de nɔƒe abe **industry standard si le dzidzim na blockchain ɣaɣla** ene, abe ale si TLS zu standard na web ɣaɣlaŋlɔŋlɔ ene. Ne project siwo le hoho me tia be woatsɔ Zcash ƒe dɔwɔnuwo azã teƒe be woatu woaŋutɔ tɔwo la, efia science si le ete la ƒe nyonyo kple esi woate ŋu aɖo eŋu.
 
 
-## Ŋusẽkpɔɖeamedzi si keke ta wu ɖe Ameŋunyatakakawo Dzi Cryptocurrency
+## Ɖeŋu Gã Wu Le Privacy Cryptocurrency Ŋu
 
-### Ameŋunyatakakawo Ŋuti Nuŋlɔɖi
+### Ɣaɣla Ƒe Nyawo
 
-Ðekawɔwɔ sia va le ɣeyiɣi si me wotsɔ ɖe le ameŋunyatakakawo ŋuti mɔ̃ɖaŋununya me vevie le cryptocurrency dɔwɔƒea katã me. Ameŋunyatakakawo ƒe gakuwo kpɔ dzidziɖedzi si wu 80% le ƒe 2026 ƒe gɔmedzedze, si tso ganyawo dzi kpɔkpɔ kple asixɔxɔ si le asitsatsa ƒe adzamenyawo ŋu ƒe sidzedze si le dzidzim ɖe edzi gbɔ.
+Ƒoƒo sia va le ɣeyiɣi aɖe me si me amewo ƒe dzidzi le ɣaɣla technology ŋu gã yim le cryptocurrency industry blibo me. Ɣaɣla coinswo ƒe asixɔxɔ dzi va yi 80% wu le 2026 ƒe gɔmedzedze, elabena amewo se ga ƒe dzrokpɔkpɔ kple gaɖoɖo ƒe ɣaɣla ƒe asixɔxɔ gɔme wu.
 
-### Sededewo ƒe Nyawo
+### Se Ƒe Nɔnɔme
 
-Ðekawɔwɔa hã va ɖo le sedede ƒe nyaƒoɖeamenu le ameŋunyatakakawo ƒe dzesiwo ŋu me. Le January 2026 me la, Dubai ƒe Ganyawo Gbɔkpɔha (DFSA) xe mɔ na crypto exchange siwo ŋu wowɔ ɖoɖo ɖo be woagadzra ameŋunyatakakawo ƒe dzesi siwo dometɔ aɖewoe nye ZEC kple XMR na ezãla yeyewo o. Togbɔ be mɔxexeɖedɔa mexe mɔ na dumeviwo be woagalé dzesi siawo ɖe asi o hã la, ehe susu yi masɔmasɔ si le ezãlawo ƒe adzamenyawo kple sewo dzi wɔwɔ dome dzi.
+Ƒoƒo sia hã va le ɣeyiɣi si me sewo ƒe teƒe le ɣaɣla tokenwo ŋu. Le 2026 ƒe Dzove me la, Dubai ƒe Financial Services Authority (DFSA) ƒo tɔtrɔ na crypto gatrɔƒewo [exchange] siwo wose ɖe eŋu be woatsɔ ɣaɣla tokenwo, siwo ƒe ZEC kple XMR le, anae na zãla yeyewo. Hafi tɔtrɔa magblo ame siwo nye dukɔla be woalé token siawo o, egblɔ ɣeɖeɖe si le zãla ƒe ɣaɣla kple se ƒe wɔwɔ dome.
 
-Ameŋunyatakakawo ƒe kɔsɔkɔsɔwo ƒe ƒoƒo ɖekae abe Dash-Orchard ene ate ŋu akpɔ ŋusẽ ɖe alesi sedzikpɔlawo bua ameŋunyatakakawo ŋuti mɔ̃ɖaŋununyae dzi. Nyateƒe si wònye be woate ŋu axɔ ameŋunyatakakawo ƒe nɔnɔmewo abe modular components ene to blockchain ɖesiaɖe dzi la ɖee fia be mɔxexe ɖe dzesi tɔxɛwo nu ate ŋu mawɔ dɔ boo o wu nuwɔwɔ kple mɔ̃ɖaŋununya si le ete.
+Ɖoɖonu geɖe dome ɣaɣla ƒe ƒoƒowo abe Dash-Orchard ene ate ŋu atrɔ ale si seɖolaawo kpɔ ɣaɣla technology. Esi ɣaɣla ƒe nɔnɔmewo ate ŋu akpɔ zãzã abe modular components le blockchain siaa me ta la, ɣeaɖe la token aɖewo ƒe tɔtrɔ manye mɔ nyuitɔ wu o ne wosɔ kple technology si le ete la wɔwɔ.
 
-### Etsɔme Habɔbɔwo
+### Ƒoƒo Siwo Ava
 
-Dash ƒe ƒoƒo ɖekae ɖo kpɔɖeŋu na blockchain dɔ bubuwo. Ne woateŋu atsɔ Orchard ade kɔsɔkɔsɔ si me nukpɔsusu ɖeka ƒe mɔnu vovovowo kple xɔtuɖaŋu vovovowo le dzidzedzetɔe la, eɖenɛ fiana be Zcash ƒe ameŋunyatakakawo ŋuti mɔ̃ɖaŋununya nye esi woate ŋu atsɔ ayi teƒe bubu vavã. Esia ate ŋu ade vixɔxɔnyi bubuwo ƒe dzi ƒo le lãwo ƒe agbenɔnɔ ƒe ɖoɖoa katã me, siwo dometɔ aɖewoe nye:
+Dash ƒe ƒoƒo sia da kpɔɖeŋu na blockchain project bubuwo. Ne woate ŋu aɖo Orchard ɖe ɖoɖonu si ƒe consensus ƒe mɔwo kple architecture vovo la dzi nyuie la, ekema efia be Zcash ƒe ɣaɣla technology meŋlɔ ɖe teƒe ɖeka ko o. Esia ate ŋu ado ŋusẽ na tsɔtsɔ bubuwo le ecosystem la me, siwoe nye:
 
-- Layer-2 network siwo le ameŋunyatakakawo ƒe nɔnɔmewo dim
-- DeFi ƒe ɖoɖowɔɖi siwo di be yewoakpɔ zãla ƒe asitsatsa ŋuti nyatakakawo ta
-- Xexeame ŋutɔŋutɔ ƒe nunɔamesiwo ƒe mɔ̃ siwo hiã be woatsɔ wo ana ame bubuwo le adzame
-- Dɔwɔƒewo ƒe blockchains siwo hiã adzamenyawo si wɔ ɖeka kple sewo
+- Layer-2 networkwo siwo le ɣaɣla ƒe nɔnɔmewo dim
+- DeFi protocolwo siwo di be woaɣaɣla zãla ƒe gaɖoɖo data
+- Real-world asset platformwo siwo hiã confidential transfers
+- Enterprise blockchainwo siwo hiã ɣaɣla si sɔ kple sewo
 
 
-## Nyanuwuwuw
+## Ɖoɖo
 
-Zcash ƒe Orchard ɖoɖowɔɖi ƒe ɖekawɔwɔ ɖe Dash ƒe Evolution kɔsɔkɔsɔ me tsi tre ɖi na nu vevi aɖe le kɔsɔkɔsɔwo dome adzamenyawo ŋuti nuwɔwɔ aduadu me. Le Dash gome la, efia be woawɔ titri le nɔnɔme me tso CoinJoin ƒe obfuscation model dzi ayi Orchard ƒe cryptographic adzamenyawo ƒe kakaɖedziwo dzi. Le Zcash gome la, eɖo kpe edzi be ƒe geɖe ƒe numekuku le Halo 2 kple Orchard shielded pool ŋu na mɔ̃ɖaŋununya sesẽ eye wòtsi ale gbegbe be dɔ gã bubuwo nate ŋu axɔ.
+Zcash ƒe Orchard protocol ƒe ƒoƒo ɖe Dash ƒe Evolution ɖoɖonu ŋu nye dzesi gã aɖe le ɖoɖonu geɖe dome ɣaɣla ƒe wɔwɔ kpeɖeŋu me. Na Dash la, egɔme nye ŋgɔyiyi le nɔnɔme me tso CoinJoin ƒe mɔ ƒe alɔ̃lɔ̃ ƒe model la dzi yi Orchard ƒe crypto ƒe ɣaɣla ƒe laylaywo gbɔ. Na Zcash la, edɔ ɖase be nusrɔ̃ si wɔ wo le ƒe geɖe me tso Halo 2 kple Orchard ƒe ɣaɣla gaƒuƒoƒo ŋu la wɔ technology si sesẽ eye wòxɔ mɔ̃ na project gã bubuwo be woatsɔe azã.
 
-Vevietɔ wu la, ɖekawɔwɔ sia ɖee fia be ame ŋutɔ ƒe nyawo tsɔtsɔ aɣla le cryptocurrency me menye hoʋiʋli si me wozãa ga home zero le le dɔwo dome o. Ameŋunyatakakawo ŋuti mɔ̃ɖaŋununya si wozãna le mɔ gbadza nu ɖea vi tso wo zazã le mɔ geɖe nu, wo me toto le mɔ si keke ta wu, kple ŋgɔyiyi si wowɔ ɖekae me. Esi Zcash ƒe Orchard le kakam ɖe blockchain ƒe lãwo ƒe agbenɔnɔ ƒe ɖoɖoa me la, teƒe bliboa te ɖe etsɔme si me ganyawo ƒe adzamenyawo nye nusi woɖo ɖi, ke menye nusi to vovo o ŋu.
+Nu si sɔ ŋu wu la, ƒoƒo sia fia be ɣaɣla le cryptocurrency me menye hoho si me ame ɖeka ƒe dzidzɔ nye bubu ƒe tsrɔ̃ o. Ɣaɣla technology si le open source me ƒe dzidzɔ tso tsɔtsɔ gã wu, review kekeake wu, kple dɔwɔwɔ ƒoƒo me. Ne Zcash ƒe Orchard le kaka ɖe blockchain ecosystem la me la, xexeme blibo la yi ɖe ŋgɔ ɖe future aɖe si me ga ƒe ɣaɣla nye nɔnɔme gbãtɔ, menye nu si meva kpɔ o.
 
 
-## Nuxexlẽ Bubuwo
+## Nuxexlẽ Mawu
 
-- [Halo 2 ƒe Nuŋlɔɖiwo](https://zcash.github.io/halo2/)
+- [Halo 2 Ƒe Dokumentation](https://zcash.github.io/halo2/)
 - [Zcash Orchard Crate (GitHub)](https://github.com/zcash/orchard)
-- [Halo 2 GitHub Nudzraɖoƒe](https://github.com/zcash/halo2)
-- [Dash Evolution Platform ƒe Nuŋlɔɖiwo](https://docs.dash.org/en/stable/)
-- [Cointelegraph: Dash Tsɔ Zcash ƒe Adzamenyawo Gbɔkpɔha Ðekae](https://cointelegraph.com/news/dash-integrates-z-cash-orchard-privacy)
-- [HackerNoon: Dash He Zcash Orchard ƒe Adzamenyawo Va Nɔnɔmetɔtrɔ Kɔsɔkɔsɔ me](https://hackernoon.com/dash-brings-zcash-orchard-privacy-to-evolution-chain-for-shielded-transactions)
+- [Halo 2 GitHub Repository](https://github.com/zcash/halo2)
+- [Dash Evolution Platform Ƒe Dokumentation](https://docs.dash.org/en/stable/)
+- [Cointelegraph: Dash Ƒo Zcash Ɣaɣla Gaƒuƒoƒo Ƒu](https://cointelegraph.com/news/dash-integrates-z-cash-orchard-privacy)
+- [HackerNoon: Dash Tsɔ Zcash Orchard Ƒe Ɣaɣla Va Evolution Ɖoɖonu Dzi](https://hackernoon.com/dash-brings-zcash-orchard-privacy-to-evolution-chain-for-shielded-transactions)

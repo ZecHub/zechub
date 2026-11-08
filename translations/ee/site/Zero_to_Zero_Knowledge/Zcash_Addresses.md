@@ -1,35 +1,35 @@
-# Zero to Zero Knowledge: Transparent vs Shielded Transactions & Adrɛs Siwo Wowɔ Ðeka
+# Zero to Zero Knowledge: Nuwo ƒe ʋuʋuɖi [Transparent] kple Ɣaɣla [Shielded] Gaɖoɖowo & Ɖekae Ƒe Gaɖoƒe ƒe Dzesiewo
 
-**Series:** Zero to Zero Knowledge
+**Xexlẽme:** Zero to Zero Knowledge
 
-Ne èle nu srɔ̃m tso Zcash ŋu zi gbãtɔ la, àkpɔe be asitsatsa ƒomevi eve li: **Transparent** kple **Shielded**. 
+Ne èle Zcash srɔm zi gbã la, àkpɔ be gaɖoɖo ƒomevi eve le mɔ: **Nuwo ƒe ʋuʋuɖi** kple **Ɣaɣla**.  
 
-Egbea míesrɔ̃ nu tso wo ŋu & ƒo nu tso nu yeye siwo le #Zcash ecosystem me dometɔ ɖeka ŋu, **Unified Addresses**.
+Egbe míele wo srɔm eye míakpɔ ŋkeke yeye ƒe nɔnɔwo dometɔ ɖeka si le #Zcash ƒe nutome la me, **Ɖekae Ƒe Gaɖoƒe ƒe Dzesiewo**.
 
 ---
 
-## Transparent vs Shielded Asitsatsa
+## Nuwo ƒe ʋuʋuɖi kple Ɣaɣla Gaɖoɖowo
 
-- **Adzɔnuwɔna siwo me kɔ** zãa **t-adrɛs** (Base58 encoded). Nusianu dzena le dutoƒo - abe Bitcoin ene. 
-- **Shielded Transactions** zãa adrɛs siwo woŋlɔ ɖe kɔpi me na **Sapling** alo **Orchard** taawo. Esiawo ɣlaa ame si ɖoe ɖa, amesi xɔe, kple ga home to kpeɖodzi siwo me sidzedze zero mele o zazã me.
+- **Nuwo ƒe ʋuʋuɖi Gaɖoɖowo** zã **t-gaɖoƒe ƒe dzesiewo** (Base58 meŋlɔŋlɔ). Ame sia ame ate ŋu akpɔ nuwo katã kple dɔmeɖeɖe, abe Bitcoin ene.  
+- **Ɣaɣla Gaɖoɖowo** zã gaɖoƒe ƒe dzesiewo si woŋlɔ na **Sapling** alo **Orchard** gaƒuƒoƒowo. Esia ɣla dzɔla, xɔla, kple gaƒeƒe to zero-knowledge ɖaseɖigbalɛwo me.
 
-**Shielded Transaction** fia asitsatsa ɖesiaɖe si ƒe adrɛswo woŋlɔ na Sapling/Orchard pools.
+**Ɣaɣla Gaɖoɖo** fia gaɖoɖo siawo katã si zã gaɖoƒe ƒe dzesiewo si woŋlɔ na Sapling/Orchard gaƒuƒoƒowo.
 
 ![Transparent vs Shielded intro](/content-images/FpmW00HWIAIZpQD-a244cfd85d.webp)
 
-Wotrɔ asi le **Unified Addresses (UAs)** be woatsɔ **awɔ ɖeka** adzɔnu siwo wokpɔ ta na alo esiwo me kɔ nyuie la ɖe adrɛs ɖeka me.
+**Ɖekae Ƒe Gaɖoƒe ƒe Dzesiewo (UAs)** wowɔ wo be woa**ɖe kpleɖe** ɣaɣla alo nuwo ƒe ʋuʋuɖi gaɖoɖowo ɖe gaɖoƒe ƒe dzesi ɖeka me.
 
 ---
 
-## Adrɛs Ƒomeviwo le Zcash
+## Gaɖoƒe Ƒe Dzesi Ƒomeviwo le Zcash
 
-Adrɛs ƒomevi 3 ye wozãna:
+Gaɖoƒe ƒe dzesi ƒomevi etɔe le zazãm:
 
-1. **(T) Nusi me kɔ** – Gɔmeɖoanyi58 
-2. **(Z) Sapling** – Bech32 
-3. **(UA) Unified Address** – Bech32m 
+1. **(T) Nuwo ƒe ʋuʋuɖi** – Base58  
+2. **(Z) Sapling** – Bech32  
+3. **(UA) Ɖekae Ƒe Gaɖoƒe ƒe Dzesi** – Bech32m  
 
-Ŋɔŋlɔdzesiwo ƒe xexlẽme (eye le esia ta QR-kɔda ƒe lolome) dzina ɖe edzi le ƒomevi ɖesiaɖe me.
+Agbalẽdzesiwo ƒe xexlẽme (eye eya ta QR code ƒe lolome) gɔme ɖe edzi kple ƒomevi siawo dometɔ ɖe sia ɖe.
 
 ![Address types comparison](/content-images/FpmXe5bXsAEFeLY-704048927f.webp)
 
@@ -37,44 +37,44 @@ Adrɛs ƒomevi 3 ye wozãna:
 
 ---
 
-## Alesi Adrɛs Siwo Wowɔ Ðeka Wɔa Dɔe
+## Ale Si Ɖekae Ƒe Gaɖoƒe Ƒe Dzesiewo Wɔ Dɔe
 
-Woŋlɔa adrɛswo kple safuiwo ɖe kɔpi me abe byte ƒe ɖoɖo ene (**Raw Encoding**). 
-**Receiver Encoding** lɔ nyatakaka siwo katã hiã be woatsɔ atsɔ nunɔamesi aɖe ayi teƒe bubu to ɖoɖo tɔxɛ aɖe zazã me.
+Woŋlɔ gaɖoƒe ƒe dzesiewo kple kɔkɔewo abe byte ƒe woƒe mɔnu ( **Raw Encoding** ) ene.  
+**Receiver Encoding** me la, nyatakaka si hiã katã le be woatrɔ asset ɖeka to protocol aɖe me.
 
-Unified Address ƒe encoding xoxo nye encodings (typecode, length, addr) siwo le receivers ƒe ƒuƒoƒo:
+Ɖekae Ƒe Gaɖoƒe ƒe Dzesi ƒe raw encoding nye receiverwo ƒe encodingwo (typecode, didime, addr) ƒe ƒoƒo:
 
 - UA: `0x03`  
 - Sapling: `0x02`  
-- Si me kɔ: `0x01`  
+- Nuwo ƒe ʋuʋuɖi: `0x01`  
 
-**Vevietɔ**: Ele be **fexexe ƒe adrɛs ɖeka ya teti si wokpɔ ta na** nanɔ UA ɖesiaɖe me. (Sprout adrɛswo ŋu le Canopy ƒe dodoɖeŋgɔ megbe o.)
+**Nu si le vevie**: Ɣaɣla fexexe gaɖoƒe ƒe dzesi atɔ ɖeka koŋ hĩ le UA ɖe sia ɖe me. (Sprout gaɖoƒe ƒe dzesiewo menye nu si wowɔa dɔe le Canopy ƒe upgrade megbe o.)
 
 ![UA encoding structure](/content-images/FpmYW1ZXgAAvALT-70903e29c6.webp)
 
-Nyatakaka bliboa: **[ZIP-316: Adrɛs Siwo Wowɔ Ðeka](https://zips.z.cash/zip-0316)**
+Ɖeɖeɖe bliboa: **[ZIP-316: Ɖekae Ƒe Gaɖoƒe Ƒe Dzesiewo](https://zips.z.cash/zip-0316)**
 
 ---
 
-## Viɖe Siwo Le Adrɛs Siwo Wowɔ Ðeka Me
+## Ɖekae Ƒe Gaɖoƒe Ƒe Dzesiewo Ƒe Viɖeawo
 
-- **Ele bɔbɔe na asitɔtrɔ** - Woate ŋu ado alɔ shielded deposits/withdrawals azɔ dedie wu. 
-- **Etsɔme-kpeɖodzi** - Woate ŋu atsɔ ta yeye siwo ŋu wokpɔ akpoxɔnu le akpe ɖe eŋu evɔ womagbã gakotokuwo o. 
-- **Shielded-by-Default** - Adrɛs ɖeka ya teti si wokpɔ ta na le UA ɖesiaɖe me, eyata adzamenyawo nɔa anyi ɣesiaɣi.
+- **Ewɔe bɔbɔe na gatrɔƒewo** - Fifia woate ŋu ado ɣaɣla gaɖoƒe ƒe dzesiwo me kple woadoe go le mɔ dedie wu.  
+- **Eŋu akpɔ etsɔme** - Woate ŋu atsɔ ɣaɣla gaƒuƒoƒo yeyewo akpe ɖe eŋu ne gakotokuwo manɔ gbãm o.  
+- **Ɣaɣla le gɔmedzedze** - UA ɖe sia ɖe me la, ɣaɣla gaɖoƒe ƒe dzesi atɔ ɖeka koŋ le, eyata ɣaɣla nɔa mɔ sia mɔ.
 
-Esia nye tɔtrɔ vevi aɖe si le kpekpem ɖe ZEC geɖe wu ŋu xoxo be woaʋu ayi ta si wotsɔ akpoxɔnu wɔe la me.
+Esia nye tɔtrɔ gã aɖe si le kpeɖe ŋu xoxo be ZEC geɖe naava ɣaɣla gaƒuƒoƒo me.
 
 ---
 
-## Orchard Asitsatsa & Nuwɔnawo
+## Orchard Gaɖoɖowo & Wɔwɔwo
 
-Orchard to nukpɔsusu yeye aɖe vɛ si woyɔna be **Actions**:
+Orchard tsɔ susu yeye aɖe vɛ si woyɔna be **Wɔwɔwo**:
 
-- Woɖea metadata ƒe sisi dzi kpɔtɔna to **seke ɖeka** zazã na Nuwɔnawo katã le asitsatsa me. 
-- Woƒoa (V4) Spend + Output ƒe agblewo nu ƒu ɖe asixɔxɔ ɖeka ƒe ɖokuitsɔtsɔna me. 
-- Esia wɔnɛ be woate ŋu awɔ Halo2 kpeɖodziɖoɖoa ƒe dɔwɔwɔ nyuie wu.
+- Wowɔe be metadata ƒe lele le ŋgɔ ŋu nade ɖe egbɔ to **anchor ɖeka** zazã na Wɔwɔwo katã le gaɖoɖo ɖeka me.  
+- Woƒoa (V4) Spend + Output ƒe fieldwo katã ɖe value commitment ɖeka me.  
+- Esia na Halo2 ɖaseɖigbalɛ ƒe system la ŋuɖoɖo ƒe tɔtrɔwo nava anyi.
 
-Daira ɖe Anchor ƒe nɔƒewo me (zcon3):
+Daira ɖe Anchor ƒe nɔƒewo ƒe gɔme me (zcon3):
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -89,31 +89,31 @@ Daira ɖe Anchor ƒe nɔƒewo me (zcon3):
 
 ---
 
-## Asixɔxɔ ƒe Dadaɖeanyi & Adzamenyawo
+## Asixɔxɔ ƒe Balance & Ɣaɣla
 
-Le go aɖewo me (le kpɔɖeŋu me, cross-pool transactions) ga homewo ateŋu adze na gotagome ŋkuléla. Gake la, `valueBalanceSapling` kple `valueBalanceOrchard` zã **homomorphic commitments** tsɔ ɖo kpe ZEC bliboa dzi le tadeaguƒe siwo wokpɔ ta na me eye nàxe mɔ ɖe aʋatsokaka nu.
+Le nyateƒe aɖewo me (abe gaƒuƒoƒo vovovowo dome gaɖoɖowo ene), ame si mele gota la ate ŋu akpɔ gaƒeƒewo. Ke hã, `valueBalanceSapling` kple `valueBalanceOrchard` zã **homomorphic adzɔgbeɖeɖewo** be woaɖe ZEC ƒe katã le ɣaɣla gaƒuƒoƒowo me afi, eye woaxe mɔ na asixɔxɔ ƒe alakpanu.
 
-Xlẽ nu geɖe: [ZIP 209: Woxe mɔ ɖe Kɔsɔkɔsɔ ƒe Asixɔxɔ ƒe Tadeaguƒe ƒe Dadaɖeanyi Siwo Le Gome](https://zips.z.cash/zip-0209)
-
----
-
-## Etsɔme ƒe Ŋgɔyiyiwo
-
-ECC ƒe ƒuƒoƒoa le dɔ wɔm tso RPC mɔnu yeyewo ŋu le.. `zcashd` (si le eteƒe `z_sendmany`) si ana ezãlawo nakpɔ asitsatsa si wodo ɖa la do ŋgɔ eye woalɔ̃ ɖe edzi/gbee le eƒe ameŋunyatakakawo ƒe nɔnɔmewo nu.
+Xlẽ nu geɖe: [ZIP 209: Mègana Chain Value Pool Balances Siwo Doa Dzidzɔ Tso Range Me O](https://zips.z.cash/zip-0209)
 
 ---
 
-## Kafukafunya
+## Ɣeyiɣi Si Gbɔna Ƒe Ɖeɖeɖewo
 
-Thread sia fia asi **YWallet**, na asitsatsa ƒe ɖoɖo si wòɖe fia hafi nèƒo send. Womegaléa be na YWallet o eye womawɔe yeyee na Ironwood, eyata magate ŋu adze kɔsɔkɔsɔa yome o. Tia gakotoku si dzi wodzra ɖo tso.. [Gakotokuwo](https://zechub.wiki/wallets) axaa boŋ, eye nàdi esi gblɔ nusi asitsatsa aɖe aɖe afia na wò hafi wòado.
-
-Nyati gã aɖe si ku ɖe asitsatsa ƒe adzamenyawo ŋu: https://medium.com/@hanh.huynh/
+ECC ƒe team la le RPC mɔnu yeye aɖewo wɔm le `zcashd` me (si ɖe `z_sendmany` teƒe) si ana be zãlawo nakpɔ gaɖoɖo si wodo ɖaɖa daɖi, eye woaxɔe alo woagbe edzi le eƒe ɣaɣla ƒe nɔnɔwo nu.
 
 ---
 
-**Ka gbãtɔ si ZecHub (@ZecHub)** 
+## Aɖaŋu
+
+Thread sia tsɔ gbãna ame ɖe **YWallet** ŋu, le gaɖoɖo ƒe ɖoɖo si wòkpɔ hafi nàdzi send la ta. YWallet menɔa dɔ wɔm o azɔ eye woamaɖe eƒe version yeyee na Ironwood o, eyata mate ŋu adze ɖoɖonu la yome o. Tia gakotoku si wole dɔ wɔm ɖe eŋu tso [Gakotokuwɔwo](https://zechub.wiki/wallets) ƒe axa dzi ɖe teƒe, eye nàfia tɔ si aɖe nu si gaɖoɖo la aɖe fia hafi woadzoe.
+
+Article nyui aɖe ku ɖe gaɖoɖo ƒe ɣaɣla ŋu: https://medium.com/@hanh.huynh/
+
+---
+
+**Thread Gbãtɔ Tso ZecHub (@ZecHub)**  
 https://x.com/ZecHub/status/1628498645627666432
 
 ---
 
-*Woƒo axa sia nu ƒu tso Zero to Zero Knowledge ƒe ka gbãtɔ me na ZecHub wiki.*
+*Woƒo axa sia nu tso Zero to Zero Knowledge ƒe thread gbãtɔ me na ZecHub ƒe wiki.*

@@ -4,42 +4,42 @@
 
 # <img src="/content-images/ZCG-Circle-Logo-10-f41b8229ca.webp" alt="Alt Text" width="50"/>  Zcash Community Grants
 
-## Dɔdasi Ŋuti Nyatakaka
+## Dɔwɔwɔ ƒe Taɖodzi
 
-Zcash Community Grants naa ga ƒuƒoƒo siwo le wo ɖokui si siwo gena ɖe Zcash lãwo ƒe agbenɔnɔ ƒe ɖoɖoa me, be woawɔ ŋgɔyiyi gã siwo yia edzi (alo dɔ bubuwo) hena Zcash lãwo ƒe agbenɔnɔ ƒe ɖoɖoa ƒe nyonyo. 
+Zcash Community Grants ƒe ɣeyiɣi sia ƒea ga ƒe kpekpeɖeŋu na timu siwo wɔnɔ ɖokuiwoe le ge ɖe Zcash ƒe nɔnɔme me, be woawɔ ŋgɔyiyi gã si ayi edzi (alo dɔ bubu) na Zcash ƒe nɔnɔme ƒe amewo katã ƒe nyui.
 
-## Amewo Kple Ƒuƒoƒowo
+## Ame Kple Timuwo
 
-Kɔmiti aɖee kpɔa Zcash Community Grants dzi, eye ame atɔ̃e le eme fifia. Nuto sia léa ŋku ɖe kpekpeɖeŋunana ƒe biabiawo ŋu tso ame etɔ̃lia ƒe ƒuƒoƒo siwo di be yewoatu Zcash ɖoɖowɔɖia ɖe edzi gbɔ eye woda asi ɖe wo dzi. Nyatakaka bubuwo tso.. [Dɔwɔha](https://zcashcommunitygrants.org/committee/)
+Komiti a de dzikpɔna Zcash Community Grants, eye fifia ame atɔ̃e le eme. Hamea kpɔna eye wòɖea asi ɖe ga ƒe kpekpeɖeŋu [grant] ƒe biabiawo ŋu tso etɔ̃lawo ƒe timuwo gbɔ, siwo di be woatu nu ɖe Zcash ƒe protocol dzi. Nya bubu le [Team](https://zcashcommunitygrants.org/committee/) ŋu.
 
-Dɔ siwo wowɔ nyitsɔ laa siwo dzi ZCG da asi ɖoe nye Zcash Shielded Assets (ZSA) si QEDIT ƒe ƒuƒoƒoa kplɔ. DeFi hehe va ZEC kple Zcash kple fexexe ƒe ɖoɖo yeye si tsɔ nɔnɔme bubuwo kpe ɖe Zcash mainnet ŋu. 
+Dɔ yeyewo si ZCG da asi ɖe enu la enye Zcash Shielded Assets (ZSA), si QEDIT ƒe timu kplɔna. Woele DeFi tsɔm vɛ na ZEC kple Zcash, to fexexe [payment] ƒe protocol yeye si kplɔ nɔnɔme bubuwo ɖe Zcash ƒe mainnet ŋu dzi.
 
-Zcash Media ƒe Nuŋlɔɖi Kpuie si me Zcashertɔ ɖedzesiwo abe Edward Snowden, Zooko & Deirdre Connolly ene le kple susu be woawɔ video siwo sɔ, siwo doa dzidzɔ na ame eye wofiaa nu wo be woama le afisiafi. 
+Zcash Media ƒe documentary kpui a fia Zcash amegãwo abe Edward Snowden, Zooko kple Deirdre Connolly ene, eye eƒe taɖodzi nye be wòawɔ video siwo sɔ na ɣeyiɣi, wɔnɔa dzidzɔ, eye wonoa nu, be amewo katã nakpɔ wo.
 
-Hardware gakotokuwo ƒe ƒoƒo ɖekae le Ledger be woado alɔ Sapling shielded transactions bliboe, esia na be woate ŋu adzra Zcash ɖo le ame ŋutɔ & dedie. Zondax Ƒuƒoƒoae wɔ esia. 
+Asikplɔwo dzra mɔ ƒe kpekpeɖeŋu na Ledger be wòakpe ɖe Sapling ƒe ɣaɣla [shielded] gaɖoɖowo [transaction] katã ŋu, eye esia na wòte ŋu dzra Zcash ɖe ɣaɣla kple dedie me. Zondax ƒe Timu wɔ esia.
 
-A Easy one-click shielded payment kple Point-of-sale system na brick kple mortar fiasewo SDK si ZGo. 
+Ɖoɖo bɔbɔe si wòate ŋu awɔ ɣaɣla fexexe kple Point-of-sale system na xɔme siwo le mɔdzi, kple SDK, nye dɔ si ZGo le wɔm.
 
-Xexeame Katã ƒe Dutanyanyuigblɔla ƒe ɖoɖoa kpena ɖe Zcash ŋu wòkpɔa teƒe geɖe wu le dukɔwo dome kple na nutoa me wɔna siwo wowɔna le ame ŋutɔ ŋkume le xexeame godoo. 
+Global Ambassador ƒe ɣeyiɣi kpena ɖe Zcash ŋu be wòanɔ teƒe geɖe le dukɔwo me kple hamea ƒe nudzɔdzɔwo siwo wɔna ɖe amewo ŋkume le xexeame katã.
 
-Zcash Grants Committee la to dɔ geɖewo me, kpɔ a [Ŋkɔwo ƒe Ŋkɔ Blibo, Siwo Wotrɔ Asi Le](https://docs.google.com/spreadsheets/d/1FQ28rDCyRW0TiNxrm3rgD8ai2KGUsXAjPieQmI1kKKg/edit?gid=135980745#gid=135980745) ƒe dɔ siwo woɖo ɖa.
+Zcash Grants Committee kpɔ dɔ bubu geɖe hã, kpɔ [Nɔnɔme blibo, si wowɔ yeyee, ƒe xexlẽ](https://docs.google.com/spreadsheets/d/1FQ28rDCyRW0TiNxrm3rgD8ai2KGUsXAjPieQmI1kKKg/edit?gid=135980745#gid=135980745) na dɔ siwo woɖo ɖe edzi.
 
-## Habɔbɔ ƒe Dɔwɔɖoɖo
+## Hame ƒe Nɔnɔme
 
-Zcash Community Grants nye habɔbɔ si le eɖokui si tso Electric Coin Company kple Zcash Foundation. 
+Zcash Community Grants nye hame si le ɖokui me tso Electric Coin Company kple Zcash Foundation gbɔ.
 
-## Gakpekpeɖeŋunana
+## Ga ƒe Kpekpeɖeŋu
 
-Zcash Community Grants xɔa 8% le block subsidy me, le gadodo ƒe kpɔɖeŋu si woɖo ɖe NU6.1 by [ZIP 1016 ƒe xexlẽdzesi](https://zips.z.cash/zip-1016). Tɔsisi la dze egɔme esime do ŋgɔ [ZIP 1015 ƒe xexlẽdzesi](https://zips.z.cash/zip-1015) stream wu enu, eye wòzɔna vaseɖe Zcash's afã etɔ̃lia le block 4,406,400 le block dometsotso si li fifia te. ZCG zãa ga siawo tsɔ doa alɔ ƒuƒoƒo siwo le wo ɖokui si le Zcash lãwo ƒe agbenɔnɔ ƒe ɖoɖo bliboa me.
+Zcash Community Grants xɔ gaɖoɖowo ƒuƒoƒe [block] ƒe kpekpe ƒe 8%, le ŋkɔɖi ƒe mɔnu si NU6.1 de le [ZIP 1016](https://zips.z.cash/zip-1016) me la nu. Tɔsisi sia dze egɔme esi [ZIP 1015](https://zips.z.cash/zip-1015) ƒe tɔsisi si nɔ anyi kpɔ la wu, eye wòayi yi Zcash ƒe fetu ƒe afãmama [halving] evelia le gaɖoɖowo ƒuƒoƒe 4,406,400 me, le gaɖoɖowo ƒuƒoƒe ƒe teƒeƒo si le egbea nu. ZCG zã ga siawo be wòakpe ɖe habɔbɔwo siwo tsi tre ɖokuiwo ŋu le Zcash ƒe ecosystem me.
 
-## Nunɔamesiwo
+## Nuɖoɖowo
 
-[Zcash ŋgɔyiyi kple dziɖuɖu](https://z.cash/zcash-development-and-governance/)
-
-
+[Zcash ŋgɔyiyi kple dziɖuɖu governance](https://z.cash/zcash-development-and-governance/)
 
 
-## Alesi Woatsɔ Gakpekpeɖeŋunana ƒe Dɔbiagbalẽvi Aɖo to ZCG (GitHub + Community Forum) dzi
+
+
+## Aleke Nàɖo Ga Ƒe Kpekpeɖeŋu Ƒe Biabia Tso ZCG Dzi (GitHub + Hamea ƒe Forum)
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -53,44 +53,44 @@ Zcash Community Grants xɔa 8% le block subsidy me, le gadodo ƒe kpɔɖeŋu si 
 </div>
 
 
-### Afɔɖeɖe 1: Dzra Wò Aɖaŋuɖoɖoa Ðo
-Wɔ aɖaŋuɖoɖo si me kɔ si me:
-- Dɔa ƒe tanya kple ame si di be yeaxɔ dɔa ŋuti nyatakakawo
-- Kuxia gbɔgblɔ kple egbɔkpɔnu si wodo ɖa
-- Nusiwo woatsɔ aɖo ɖe amewo, ɣeyiɣi ƒe ɖoɖo, kple nu vevi siwo woawɔ
-- Gazazã kple gazazã ƒe biabiawo
-- Nuteƒekpɔkpɔ kple afɔku siwo sɔ
+### Afɔ 1: Dzra Wò Ɖoɖo ɖe Eŋu
+Wɔ ɖoɖo klaro si me nu siawo le:
+- Dɔ la ƒe ŋkɔ kple ame si biaa la ƒe nyawo
+- Kuxi la ƒe nɔnɔme kple ɖoɖo si wòɖo be nàwɔ
+- Nu siwo woatsɔ ana, ɣeyiɣi ƒe ɖoɖo, kple afɔwo
+- Ga ƒe ɖoɖo kple ga ƒe kpekpeɖeŋu si wòbia
+- Nunya si sɔ kple afɔkuwo
 
 ---
 
-### Afɔɖeɖe 2: Ðoe ɖe GitHub
-1. Yi **Zcash Community Grants GitHub nudzraɖoƒe**
-2. Ʋu **Nyawo** ƒe akpaa eye nàzi **Nya Yeye** dzi
+### Afɔ 2: Ɖo Biabia ɖe GitHub Dzi
+1. Yi ɖe **Zcash Community Grants GitHub repository** dzi
+2. Ʋu **Issues** tab la eye nàzi **New Issue** dzi
 3. Tia **grant application template** si sɔ
-4. Kpe agble siwo katã hiã la ɖo eye nàtsɔe aɖo ɖa
+4. Ɖo fiaƒe siwo katã wobia la eye nàɖo biabia la ɖa
 
-GitHub nya la nye **dɔwɔwɔ ƒe nuŋlɔɖi si dziɖuɖua ɖo**.
-
----
-
-### Afɔɖeɖe 3: Wɔ Nutoa me Nyamedzroƒe ƒe Nyatakaka
-1. Yi **Zcash Hamea ƒe Nyamedzroƒe**
-2. Wɔ ka yeye le **Zcash Community Grants** hatsotso me
-3. Zã tanya ma ke si zã GitHub tataa
-4. Tsɔ kpukpui kpui aɖe kpee eye nàde **kadodo si yi GitHub ƒe nyatia gbɔ** eme
+GitHub ƒe issue la nye **biabia ƒe nuŋɔŋlɔ si nye nyateƒe**.
 
 ---
 
-### Afɔɖeɖe 4: Ƒo ɖokuiwò ɖe Totoɖeme me
-- Lé ŋku ɖe GitHub nya la kple nyamedzroƒe ƒe ka ŋu
-- Ðo nyabiasewo kple nyaŋuɖoɖo siwo tso ZCG Kɔmitia kple nutoa me tɔwo gbɔ ŋu
+### Afɔ 3: Wɔ Hamea Ƒe Forum Ƒe Nunyaɖoɖo
+1. Yi ɖe **Zcash Community Forum** dzi
+2. Wɔ thread yeye le **Zcash Community Grants** ƒe ha me
+3. Zã tanya ma ke abe GitHub ƒe issue la ene
+4. Tsɔ nyadzɔdzɔ kpui aɖe kpe ɖe eŋu, eye nàtsɔ **kadodo yi GitHub ƒe issue la gbɔ** ade eme
 
 ---
 
-### Afɔɖeɖe 5: Emetsonu
-- Aɖaŋuɖoɖo siwo dzi woda asi ɖo la yia gazazã kple nyatakakawo nana dzi
-- Woagbugbɔ ŋku alé ɖe aɖaŋuɖoɖo siwo dzi womeda asi ɖo o ŋu **ATEŊU** eye woagbugbɔ wo aɖo ɖa
+### Afɔ 4: Va De Asi Le Kpɔkpɔ Me
+- Lé ŋku ɖe GitHub ƒe issue kple forum ƒe thread ŋu
+- Ɖo ŋu na biabiawo kple nya siwo amewo gblɔ tso ZCG Committee kple hamea gbɔ
 
 ---
 
-**De dzesii:** GitHub nye nuŋlɔɖi ƒe dzɔtsoƒe; nyamedzroƒea nye dutoƒo numedzodzro.
+### Afɔ 5: Nu Si Do Ɖe Emegbe
+- Ɖoɖo siwo woɖe asi ɖe enu la ayi ga ƒe kpekpeɖeŋu kple nyadzɔdzɔ ƒe afɔ me
+- Ɖoɖo siwo woɖe asi ɖe enu o la **ATE ŊU** woawɔ wo yeye eye woaɖo wo ɖa ake
+
+---
+
+**Nudzɔdzɔ:** GitHub nye nuŋɔŋlɔ ƒe teƒe gɔ̃; forum la nye teƒe na amewo katã ƒe numedzodzro.

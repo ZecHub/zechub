@@ -1,50 +1,56 @@
-# Zã Zcash le Xexeme Nyateƒetɔ me
+# Zã Zcash Le Xexeme Ƒe Agbe Me
 
-Zcash menye ame ŋutɔ ƒe nyawo ɖeɖeko ŋue wòku ɖo le susu me o — eƒo nu tso **ganyawo ƒe ablɔɖe ŋutɔŋutɔ, gbesiagbe** ŋu.
+Zcash Menye ɣaɣla [privacy] tso nyati ƒe akpa ko ŋuti o — eƒe nyae nye **gaƒe ablɔɖeŋu si wɔa dɔ le ŋkeke sia ŋkeke me**.
 
-Akpa sia fia wò **alesi tututu nàzã Zcash le agbeme nɔnɔme ŋutɔŋutɔwo me**, kple afɔɖeɖe ɖesiaɖe ƒe mɔfiamewo kple nuwɔna nyuitɔwo.
+Akpa sia fia mi **ale si miazã Zcash le xexeme ƒe nɔnɔme vavãwo me tututu**, kple fiafiawo siwo yina afɔɖeɖe dzi kple nuwɔwɔ nyuiwo.
 
-## Nusiwo Nàsrɔ̃
+## Nusi Nàsrɔ̃
 
-- Ale si nàkpɔ wò ganyawo ŋuti nyatakakawo ta
-- Alesi nàwɔ aƒo asa na vodada siwo bɔ siwo ɖea wò nyatakakawo ɖe go
-- Alesi woawɔ Zcash ŋudɔ le xexeame ŋutɔŋutɔ ƒe nɔnɔmewo me
+- Ale si nàdzɔ wò gaƒe ɣaɣla
+- Ale si nàƒo agbagba be nàdze tɔtrɔ siwo katã doa wò nyawo fia
+- Ale si nàzã Zcash le xexeme ƒe nɔnɔme vavãwo me
 
-## Ale Si Nàzã Mɔfiame Siawo
+## Ale Si Nàzã Fiafia Siawo
 
-Fefegbalẽ ɖesiaɖee nye:
-- Kpuie (aɖabaƒoƒo 5-7) .
-- Afɔɖeɖe ɖesiaɖe
-- Woƒe susu nɔ xexeame ŋutɔŋutɔ ŋu 
-
-
-Ne ènye ame yeye la, ke dze egɔme tso afisia: [Nukae nye Zcash](/start-here/what-is-zec-and-zcash)
+Nyaɖeɖefia sia ɖe sia ɖe:
+- Ena kpuie (miniti 5-7)
+- Yina afɔɖeɖe dzi
+- Ɖoa ŋku xexeme ƒe agbe ŋu 
 
 
-##  Mɔ si Wokafu
-
-Wɔ ɖe afɔɖeɖe ɖesiaɖe ƒe mɔzɔzɔ sia dzi be nàbi ɖe xexeame ŋutɔŋutɔ ƒe Zcash zazã me:
-
-###  [Xɔ Nudzɔdzɔwo Le Adzame](/zcash-use-cases/receive-donations-privately)
-Srɔ̃ alesi nàxɔ ga evɔ màɖe wò amenyenye alo ganyawo ŋuti ŋutinya ɖe go o.
+Ne ènye yeye, dze egɔme le afisia: [Nukae Nye Zcash](/start-here/what-is-zec-and-zcash)
 
 
-###  [Ðo Ga Ðo Ðe Ame Ŋu Matsɔ Kadodo Dzesidede Ame Ŋu O](/zcash-use-cases/send-money-without-linking-identity) 
-Ƒo asa na wò gakotoku, amenyenye, alo asitsatsa ƒe nɔnɔmetata ɖeɖefia ne èle ga ɖom ɖa.
+##  Mɔ Si Wòele Be Nàto
+
+To mɔ sia si yina afɔɖeɖe dzi la dzi be nànya ale si nàzã Zcash le xexeme ƒe agbe me:
+
+###  [Xɔ Kpekpeɖeŋuwo Le Ɣaɣla Me](/zcash-use-cases/receive-donations-privately)
+Srɔ̃ ale si nàxɔ ga mawɔ wò ameŋkɔ kple wò gaƒe ŋutinya adze le ŋkume o.
 
 
-###  [Freelancer ƒe Nyatakakawo Ŋuti Ðoɖowɔwɔ](/zcash-use-cases/freelance-privacy-setup)
-Xɔ fetu le Zcash me esime nèle wò asisiwo kple gakpɔkpɔ me tom.
+###  [Dɔ Ga Mawɔ Ameŋkɔ Naxɔ Ɖe Eŋu O](/zcash-use-cases/send-money-without-linking-identity) 
+Ƒo agbagba be wò gakotoku [wallet], wò ameŋkɔ, alo wò gaɖoɖo [transaction] ƒe graph madze le ŋkume ne èle ga dɔm.
 
 
-###  [Xɔ Fexexewo Abe Asitsala ene](/zcash-use-cases/accept-payments-as-a-merchant)
-Xɔ fexexe to adrɛs si wokpɔ ta na zazã me eye nàƒo asa na asisiwo ƒe asitsatsa ŋuti nyatakakawo ɖeɖe ɖe go
+###  [Ɖoɖowɔla ƒe Ɣaɣla Ɖoɖoɖo](/zcash-use-cases/freelance-privacy-setup)
+Xɔ fetu le Zcash me, eye nàde asi le wò asitsotso kple wò klientes ƒe nyawo ɣla.
 
 
-###  [Dzra Nutoa me Gaxɔdzikpɔƒe si nye Ame ŋutɔ tɔ dzi](/zcash-use-cases/private-community-treasury)
-Zã adrɛs siwo ŋu wokpɔ ta na nàtsɔ alé ga siwo woama la ɖe asi eye nàɖo seɖoƒe na ga si susɔ kple asitsatsa ƒe dzedzeme
+###  [Xɔ Fexexewo Abe Asitsolawɔla Ene](/zcash-use-cases/accept-payments-as-a-merchant)
+Xɔ fexexewo kple ɣaɣla [shielded] gaɖoƒe ƒe dzesi [address], eye nàƒo agbagba be asiƒoƒo ƒe gaɖoɖo ƒe nyawo madze le ŋkume o
 
-###  [Nyadzɔdzɔŋlɔlawo ƒe Nyatakakawo Ŋuti Ðoɖowɔwɔ](/zcash-use-cases/journalist-privacy-setup)   
-Zã adrɛs siwo ŋu wokpɔ ta na le asitsatsa katã me eye nàkpɔ dzɔtsoƒewo ta to asaƒoƒo na fexexe si ŋu woate ŋu ake ɖo me. Zã nuŋlɔɖiwo nyuie hena kadodo dedie
+
+###  [Wɔ Hamea Ƒe Gad zraɖoƒe Le Ɣaɣla Me](/zcash-use-cases/private-community-treasury)
+Zã ɣaɣla gaɖoƒe ƒe dzesiwo be nàdzra ga si nye miaƒe katã ɖo, eye nàse mɔ na ame adzesi be wòakpɔ gaƒe nɔnɔ kple gaɖoɖowo o
+
+###  [Xɔ Kpekpeɖeŋu Ɣaɣla Me Abe US ƒe Dukɔme Hame Si Menye FetuƑe O Ene](/zcash-use-cases/accept-private-donations-as-a-us-nonprofit)
+Xɔ ɣaɣla ZEC abe 501(c)(3) ene, eye nàtsɔ asiɖeɖe kpukpuiwo kple IRS ƒe fom siwo wòle be amedziɖelawo nakpɔ la na wo hã
+
+###  [Afisi nàtsɔ avu ZEC](/zcash-use-cases/where-to-donate-zec)
+Di dzikpɔdzikpɔ dɔwɔƒewo siwo xɔ ZEC, eye nàkpɔ be wo dometɔ kae xɔ ɣaɣla [shielded] nunanaewo
+
+###  [Nyadzɔdzɔla Ƒe Ɣaɣla Ɖoɖoɖo](/zcash-use-cases/journalist-privacy-setup)   
+Zã ɣaɣla gaɖoƒe ƒe dzesiwo na gaɖoɖoawo katã, eye nàdzɔ nyateƒe ƒe nudzɔdzɔlawo to fexexe siwo wòate ŋu awɔ abe woɖe nɔnɔme ene la me. Zã nya kpui [memo]wo kple nukpɔkpɔ na nyadzɔdzɔ ɖeɖe me
 
 <br/>

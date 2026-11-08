@@ -1,107 +1,107 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Zcash_Tech/Canopy.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Axa Page"/>
 </a>
 
 # Canopy
 
-> Canopy yi agbe le Zcash mainnet dzi le block 1,046,400 (November 18, 2020 UTC).
+> Canopy de dzi le Zcash mainnet dzi le gaɖoɖowo ƒuƒoƒe 1,046,400 (November 18, 2020 UTC).
 
-Nusi nàtsɔ adzoe: alesi Zcash yi edzi nɔ ga nam eya ŋutɔ ƒe ŋgɔyiyi le gɔmeɖolawo ƒe fetu ƒe nuwuwu megbe, kple alesi Canopy ɖo gadodo ƒe mama si dzi emegbe ŋgɔyiyiwo gakpɔtɔ tu ɖo.
+Nu si nànyae: Aleke Zcash yi edzi xɔna ga na eya ŋutɔ ƒe ŋgɔyiyi le founders reward vɔ megbe, eye aleke Canopy ɖo ga ƒe mama ƒe mawo ɖe afi si mɔ̃ ƒe sewo trɔtrɔ [network upgrade] siwo va megbe hã tu ɖo.
 
-Canopy nye Zcash ƒe network ƒe tɔtrɔ atɔ̃lia, si woyɔna hã be Network Upgrade 4 (NU4). Wotsɔe de dɔwɔwɔ me to... [ZIP 251 ƒe xexlẽdzesi](https://zips.z.cash/zip-0251), eye wòwɔ dɔ le mainnet block 1,046,400 le November 18, 2020 (UTC), ɣeyiɣi ma ke si me Zcash ƒe block teƒeɖoɖo gbãtɔ ƒe afã dzi ɖeɖe kpɔtɔ. Dziɖuɖu kple ganyawo ƒe nyonyo koŋue nye Canopy. Ewu gɔmeɖolawo ƒe fetu gbãtɔ nu eye wòdze Zcash Development Fund yeyea gɔme, si xea fe na Electric Coin Company, Zcash Foundation, kple gakpekpeɖeŋuxɔla siwo le wo ɖokui si. Ðoɖo si le megbe na ga ma do tso nutoa me dziɖuɖu ƒe ɖoɖo si keke ta me le ƒe 2019 me.
+Canopy nye Zcash ƒe mɔ̃ ƒe sewo trɔtrɔ [network upgrade] etɔ̃lia, eye woyɔe hã be Network Upgrade 4 (NU4). [ZIP 251](https://zips.z.cash/zip-0251) wɔ eƒe ɖoɖo, eye wòde dzi le mainnet ƒe gaɖoɖowo ƒuƒoƒe 1,046,400 dzi le November 18, 2020 (UTC), le ɣeyiɣi ma ke me si Zcash ƒe gaɖoɖowo ƒuƒoƒe ƒe fetu ƒe afãmama [halving] gbãtɔ hã va me. Canopy nye dziɖuɖu [governance] kple ga ƒe ɖoɖo ƒe mɔ̃ ƒe sewo trɔtrɔ vevie. Ewɔ be founders reward gbãtɔ va yi, eye wòdze Zcash Development Fund yeye gɔme, si naa ga na Electric Coin Company, Zcash Foundation, kple ame siwo xɔ ga ƒe kpekpeɖeŋu [grant] le wo ŋutɔ ƒe dɔwo ta. Se si nɔ gaƒuƒoƒo ma megbe tso dukɔ ƒe amewo ƒe dziɖuɖu ƒe mɔ didi si wɔ le 2019 me.
 
-Nusitae esia le vevie ɖo. Zcash kpɔa ga na eya ŋutɔ ƒe ŋgɔyiyi tso block rewards me, elabena dɔwɔƒe aɖeke mele megbe nɛ o. Woɖoe be gɔmeɖolawo ƒe fetu si woxe ɖe eƒe ƒe gbãtɔwo ta la awu enu le afã gbãtɔ me. Canopy ye nye esi wotsɔ ɖo eteƒe: eɖo block ɖesiaɖe ƒe fetu ƒe akpa aɖe si woɖo ɖi la ɖe Ŋgɔyidɔwo ƒe Gaxɔ me eye wòɖo amesi axɔe. Wotrɔ asi le kpɔɖeŋu ma ŋu to asitɔtrɔ siwo wowɔ emegbe me, va ɖo... [NU6.1](../zcash-tech/nu6-1).
+Nu ka ta esia le vevie. Zcash naa ga na eya ŋutɔ ƒe ŋgɔyiyi tso gaɖoɖowo ƒuƒoƒe ƒe fetuwo me, elabena kampuni aɖeke mele eƒe megbe o. Founders reward si xɔ eƒe ƒe gbãtɔwo ƒe dɔwo ƒe ga nɔ ɖoɖo me be wòava yi le fetu ƒe afãmama gbãtɔ dzi. Canopy nye teƒe tɔtrɔ: Ewɔ be gaɖoɖowo ƒuƒoƒe ƒe fetu ɖe sia ɖe ƒe akpa si me wɔa ɖo ɖe Development Fund me, eye wòɖo ame siwo ana wòaxɔe. Mɔ ma ƒe ɖoɖo ɖe nyuie to mɔ̃ ƒe sewo trɔtrɔ siwo va megbe dzi, va se ɖe [NU6.1](../zcash-tech/nu6-1).
 
 ![Before Canopy the founders reward funded development and was set to end at the first halving. After Canopy the Development Fund takes 20 percent of each block reward and runs to the second halving in 2024](/content-images/canopy-founders-to-devfund-010676e799.webp)
 
-## Ŋgɔyiyi ƒe gaxɔa
+## Nunya ƒe gaƒuƒoƒo
 
-Canopy wu gɔmeɖolawo ƒe fetu gbãtɔ nu eye wòtsɔ Zcash Development Fund ɖo eteƒe. Tɔtrɔa dze anyi ɖe block ma ke dzi kple Zcash ƒe afã gbãtɔ, esime block ƒe fetu ɖiɖi tso 6.25 ZEC va ɖo 3.125 ZEC. Eyata tomenukulawo kpɔ be woɖe woƒe fetu la ɖe afã me gbemagbe ke teƒeɖoɖo sue ma ƒe akpa yeye aɖe te sisi yi ŋgɔyiyi me.
+Canopy wɔ be founders reward gbãtɔ va yi, eye wòtrɔe ɖe Zcash Development Fund me. Tɔtrɔa va le gaɖoɖowo ƒuƒoƒe ma ke dzi si Zcash ƒe fetu ƒe afãmama gbãtɔ va me, esi gaɖoɖowo ƒuƒoƒe ƒe fetu va tso 6.25 ZEC yi 3.125 ZEC. Eya ta nukula [miner]wo kpɔ woƒe fetu ƒe afãmem le ọjọ ma ke dzi si fetu sue ma ƒe akpa yeye dze nutso yi ŋgɔyiyi ƒe dɔwo gbɔ.
 
-Woɖoe be gaxɔa nawɔ dɔ ƒe ene, tso afã gbãtɔ sia dzi le November 2020 me vaseɖe afã evelia dzi le ƒe 2024. Woŋlɔ ɖoɖo si dzi wolɔ̃ ɖo la be... [ZIP 1014 ƒe xexlẽdzesi](https://zips.z.cash/zip-1014). Mɔ̃ si dzi woda asi ɖo si ʋãa ga la ŋutɔŋutɔe nye gadodo ƒe mɔnu: [ZIP 207 ƒe xexlẽdzesi](https://zips.z.cash/zip-0207) to mɔnu si wozãna le mɔ gbadza nu be woatsɔ aɖo block subsidy ƒe akpa aɖe ayi na amesiwo woɖe fia be woaxɔe, eye [ZIP 214 ƒe xexlẽdzesi](https://zips.z.cash/zip-0214) ɖo se tɔxɛwo kple amesiwo axɔe ƒe adrɛs na Ŋgɔyidɔwo ƒe Gaxɔa.
+Woɖo gaƒuƒoƒoa ɖe be wòanɔ ƒe ene, tso fetu ƒe afãmama gbãtɔ sia si va le November 2020 me va se ɖe fetu ƒe afãmama evelia le 2024 me. Woŋlɔ se si wode blibo la ɖe [ZIP 1014](https://zips.z.cash/zip-1014) me. Gbegbeɖiɖi [consensus] ƒe mɔ si wɔnɛ be ga la natrɔ ava afi sia afi nye funding stream ƒe mɔ: [ZIP 207](https://zips.z.cash/zip-0207) ɖo mɔ gbogblo si me woato adzra gaɖoɖowo ƒuƒoƒe ƒe fetu ƒe akpa aɖe ɖe ame siwo woɖo ɖi la gbɔ, eye [ZIP 214](https://zips.z.cash/zip-0214) ɖo se siwo le Development Fund la ta kple ame siwo ƒe gaɖoƒe ƒe dzesi [address] woana ga la na.
 
-## Alesi woma ga lae
+## Aleke woema ga la
 
-Ŋgɔyidɔwo ƒe Gaxɔa xɔa block ɖesiaɖe ƒe fetu ƒe alafa memama 20. Tomenukulawo léa 80 le alafa me mamlɛawo me ɖe asi. Emegbe womaa alafa memama 20 ma ɖe mɔ etɔ̃ nu, eye wokplɔa ZIP 1014 ɖo.
+Development Fund xɔ gaɖoɖowo ƒuƒoƒe ƒe fetu ɖe sia ɖe ƒe 20 percent. Nukulawo xɔ 80 percent si susɔ. Woema 20 percent ma ƒe akpa etɔ̃, ɖe ZIP 1014 nu.
 
-1. 35 le alafa me na Bootstrap Project, si nye Electric Coin Company ƒe habɔbɔ si dzilawo.
-2. 25 le alafa me na Zcash Foundation.
-3. 40 le alafa me na Major Grants, si naa ga dɔwɔwɔ le wo ɖokui si eye Zcash Foundation ye kpɔa edzi. Emegbe Gakpekpeɖeŋunana Gãwo va zu Zcash Nutome Gakpekpeɖeŋunana (ZCG).
+1. 35 percent na Bootstrap Project, si nye Electric Coin Company ƒe dzikpɔla ƒe habɔbɔ.
+2. 25 percent na Zcash Foundation.
+3. 40 percent na Major Grants, si naa ga na dɔ siwo ame siwo le wo ŋutɔ wɔna, eye Zcash Foundation kpɔa edzi. Major Grants va trɔ zu Zcash Community Grants (ZCG) le megbe.
 
-Ne wotsɔe sɔ kple block ƒe fetu bliboa tsɔ wu gaxɔa ɖeɖeko la, gome mawo wɔa dɔ va ɖoa 7 le alafa me na Electric Coin Company, 5 le alafa me na Zcash Foundation, kple 8 le alafa me na Major Grants. Mɔ evea siaa si dzi woato aɖɔe la nye xexlẽdzesi ɖeka.
+Ne wodoa woƒe akpaawo dzra le gaɖoɖowo ƒuƒoƒe ƒe fetu blibo ŋu, ke menye gaƒuƒoƒoa ɖeŋu o la, eva zu 7 percent na Electric Coin Company, 5 percent na Zcash Foundation, eye 8 percent na Major Grants. Mɔ eve si woato agblɔe la fiae be xexlẽ mawo ke.
 
 ![The Development Fund is 20 percent of each block reward, split 35 percent to Bootstrap and the Electric Coin Company, 25 percent to the Zcash Foundation, and 40 percent to Major Grants](/content-images/canopy-dev-fund-split-005bf6f2dd.webp)
 
-## Sprout ƒe ta la trɔna
+## Sprout gaƒuƒoƒo [pool] ƒe tɔtrɔ
 
-Canopy dze dzudzɔxɔxɔledɔme le ta xoxotɔ kekeake si ŋu wokpɔ akpoxɔnu le hã gɔme. Sprout ye nye Zcash ƒe ta gbãtɔ si ŋu wokpɔ akpoxɔnu le, eye Canopy dze eƒoƒo gɔme to eme [ZIP 211 ƒe xexlẽdzesi](https://zips.z.cash/zip-0211).
+Canopy hã dze ɣaɣla [shielded] gaƒuƒoƒo xoxoetɔ ɖeɖe dɔme gɔme. Sprout nye Zcash ƒe ɣaɣla gaƒuƒoƒo gbãtɔ, eye Canopy dze eƒe dɔɖeɖe me to [ZIP 211](https://zips.z.cash/zip-0211) dzi.
 
-Tso esime Canopy wɔ dɔ la, womateŋu atsɔ asixɔxɔ yeye aɖeke akpe ɖe Sprout ƒe ta la ŋu o. Le mɔ̃ɖaŋununya gome la, ele be JoinSplit ɖesiaɖe ƒe vpub_old agble nanye zero. Woate ŋu aɖe ga siwo le Sprout xoxo la kokoko, eyata wometu ame aɖeke ɖe gota o, gake ɖeko ta la ate ŋu aɖiɖi tso afisia. Esia nye afɔɖeɖe gbãtɔ si ana woagbe Sprout-ta si nye domenyinu la mlɔeba atsɔ ado ta yeye siwo ŋu wokpɔ akpoxɔnu le la ɖe ŋgɔ.
+Tso ɣeyiɣi si Canopy de dzi la, womate ŋu atsɔ asinu yeye ade Sprout gaƒuƒoƒo me o. Le mɔ si ƒe nyagblɔ me la, JoinSplit ɖe sia ɖe ƒe vpub_old field la ele be wòanye zero. Womate ŋu akpe ga siwo le Sprout xɔ o, eya ta ame aɖeke meganɔ godo o, ke gaƒuƒoƒoa ate ŋu asue tso afima yi. Esia nye afɔ gbãtɔ be woaɖe Sprout ƒe gaƒuƒoƒo xoxo la ɖe dɔme le megbe, eye woatsɔ ɣaɣla gaƒuƒoƒo yeyeawo atɔe teƒe.
 
 ![Before Canopy, value could both enter and leave the Sprout pool. After Canopy, no new value can enter but withdrawals are still allowed](/content-images/canopy-sprout-pool-f5166aa049.webp)
 
-## Mɔ̃ɖaŋununya ƒe kpeɖeŋutɔawo
+## Mɔ ƒe nu bubuwo
 
-Tsɔ kpe ɖe gazazã ƒe tɔtrɔwo ŋu la, Canopy tsɔ mɔ̃ɖaŋu ZIP sue eve ɖe asi. [ZIP 212 ƒe xexlẽdzesi](https://zips.z.cash/zip-0212) trɔ alesi amesi xɔe xɔa Sapling ƒe nya ɣaɣla si nɔa anyi kpuie la, eye wòxɔe tso nuŋlɔɖi si me nyawo me kɔ la me. [ZIP 215 ƒe xexlẽdzesi](https://zips.z.cash/zip-0215) ŋlɔ se siwo me kɔ hena Ed25519 ƒe asidede agbalẽ te ƒe kpeɖodzi, eyata node ɖesiaɖe lɔ̃ ɖe asidede agbalẽ te siwo tututu wobu be wosɔ dzi.
+Kple ga ƒe tɔtrɔawo, Canopy tsɔ technical ZIP eve si meganɔ didi o va. [ZIP 212](https://zips.z.cash/zip-0212) trɔ ale si ame si xɔa nu la tsɔa wɔnɛ be wòaxɔ Sapling ƒe ɣeyiɣi kpui ƒe nya si mia katã menya o, eye wòdoe tso didienu [note] ƒe nya si me ɖe la me. [ZIP 215](https://zips.z.cash/zip-0215) ŋlɔ se fafawo ɖe Ed25519 ƒe asidede agbalẽ te [signature] ƒe kpekpeɖeŋu ta, ale be ɣaɣla dzesi ŋɔŋlɔ [node] ɖe sia ɖe nava ƒo nu ɖe asidede agbalẽ te siwo nye vavã tɔwo ŋu tututu.
 
-## Nyagɔmeɖegbalẽ
+## Nyawo ƒe gɔme
 
-| Nyagbe | Plain-Eŋlisigbe me gɔmesese |
+| Nya | Gɔme bɔbɔe le English me |
 |---|---|
-| Founders reward | Gadodo ƒe kpɔɖeŋu gbãtɔ si xe fe ɖe Zcash ƒe ŋgɔyiyi gbãtɔ ta, si woɖo be wòawu enu le afã gbãtɔ |
-| Development Fund | Block ƒe fetu ɖesiaɖe ƒe akpa 20 le alafa me si Canopy tsɔ yi ŋgɔyiyi gbɔ, si ƒu du yi afã evelia |
-| Block reward (subsidy) | ZEC yeyea wɔ eye woxee esime wole block ɖesiaɖe kum |
-| Halving | Nudzɔdzɔ si woɖo ɖi si me wotso block ƒe fetu la ɖe afã me |
-| Funding stream | Mɔnu si dzi woda asi ɖo (ZIP 207) si fiaa mɔ block subsidy ƒe akpa aɖe yia xɔla ƒe adrɛs siwo woɖe fia gbɔ |
-| Sprout pool | Zcash ƒe gbãtɔ shielded pool, si Canopy dzudzɔ asixɔxɔ yeye xɔxɔ ɖe |
+| Founders reward | Ga ƒe nana ƒe mɔ gbãtɔ si xɔ Zcash ƒe ŋgɔyiyi ƒe dɔwo ƒe ga, eye woɖo ɖe be wòava yi le fetu ƒe afãmama gbãtɔ dzi |
+| Development Fund | Gaɖoɖowo ƒuƒoƒe ƒe fetu ɖe sia ɖe ƒe 20 percent si Canopy tsɔ de ŋgɔyiyi ƒe dɔwo me, eye wònɔ yi va se ɖe fetu ƒe afãmama evelia |
+| Block reward (subsidy) | ZEC yeye si wowɔ eye wona le gaɖoɖowo ƒuƒoƒe ɖe sia ɖe nukuku [mining] megbe |
+| Halving | Ŋkeke si woɖo ɖi be gaɖoɖowo ƒuƒoƒe ƒe fetu natrɔ anɔ afã |
+| Funding stream | Gbegbeɖiɖi ƒe mɔ (ZIP 207) si tsɔa gaɖoɖowo ƒuƒoƒe ƒe fetu ƒe akpa aɖe naa ame siwo woɖo ɖi ƒe gaɖoƒe ƒe dzesiwo |
+| Sprout pool | Zcash ƒe ɣaɣla gaƒuƒoƒo gbãtɔ si Canopy tsɔ tɔ asi le asinu yeye ƒe deɖe eme |
 
-## Nyabiasewo ƒe Nyabiasewo
+## Biabia siwo wobiae zi geɖe
 
-Ðe Canopy trɔa nye ZEC alo nye adzamenyawo? Ao, Canopy ku ɖe alesi wokpɔa ga tsɔ wɔa ŋgɔyiyie ŋu, tsɔ kpe ɖe mɔ̃ɖaŋununya ƒe se ʋɛ aɖewo ŋu. Wò ga si susɔ kple wò asitsatsa siwo ŋu wokpɔ ta na la mekpɔa ŋusẽ ɖe wo dzi o.
+Ðe Canopy trɔm ƒe ZEC alo nye ɣaɣla? Ao. Canopy ku ɖe ale si woana ga na ŋgɔyiyi ƒe dɔwo ŋu, kple mɔ ƒe se vie aɖewo. Míaƒe ga siwo le asiwò kple wòƒe ɣaɣla gaɖoɖowo menye tɔtrɔ aɖeke o.
 
-Ðe Canopy lã block ƒe fetua? Canopy wɔ dɔ le block ma ke me kple Zcash ƒe afã gbãtɔ, si ɖe teƒeɖoɖoa dzi kpɔtɔ tso 6.25 ZEC va ɖo 3.125 ZEC. Afã dzi ɖeɖe kpɔtɔ nye Zcash ƒe ganyawo ƒe ɖoɖoa ƒe akpa aɖe. Canopy ƒe dɔe nye be wòatso nya me le alesi woazã fetu sue ma ƒe akpa aɖee ŋu.
+Ðe Canopy tse gaɖoɖowo ƒuƒoƒe ƒe fetu? Canopy de dzi le gaɖoɖowo ƒuƒoƒe ma ke si Zcash ƒe fetu ƒe afãmama gbãtɔ va me, si trɔ fetu la tso 6.25 ZEC yi 3.125 ZEC. Fetu ƒe afãmama nye Zcash ƒe ga ƒe sewo ƒe akpa. Canopy ƒe dɔ nye be wòaɖo ale si woatsɔ fetu sue ma ƒe akpa aɖe awɔ dɔ.
 
-Nukae nye Ŋgɔyidɔwo ƒe Gaxɔa na? Ekpɔa ga na ame siwo le Zcash tum. Ga la yi na Electric Coin Company (to Bootstrap Project dzi), Zcash Foundation, kple Major Grants, si doa alɔ dɔwɔwɔ le wo ɖokui si.
+Development Fund la wɔna ɖe nu ka ta? Ena ga na ame siwo le Zcash tom. Ga la yia na Electric Coin Company (tso Bootstrap Project me), Zcash Foundation, kple Major Grants, si dea alɔ ame siwo le wo ŋutɔ ƒe dɔ wɔm.
 
-Ðe mate ŋu azã ga le Sprout-ta la me kokokoa? Ɛ̃. Àte ŋu aɖe ga siwo le Sprout xoxo la ɖa kokoko. Ðeko màte ŋu atsɔ asixɔxɔ yeye akpe ɖe eŋu le Canopy megbe o.
+Ðe mate ŋu aɖea ga siwo le Sprout gaƒuƒoƒo me ha? Ẽ. Àte ŋu aɖe ga siwo le Sprout xoxo la me. Ke mèle be nàte ŋu aɖe asinu yeye ade eme le Canopy megbe o.
 
-Ðe Ŋgɔyidɔwo ƒe Gaxɔa nɔa anyi ɖaaa? Ao, woɖoe be wòaxɔ ƒe ene, tso eƒe afã gbãtɔ dzi le November 2020 me vaseɖe afã evelia le ƒe 2024 me, si ana nutoa me tɔwo nakpɔ ɣeyiɣi akpɔ alesi wòwɔa dɔe hafi agbugbɔ ayi edzi.
+Ðe Development Fund la nɔa te ɣesiaɣi? Ao. Woɖoe ɖe be wòanɔ ƒe ene, tso fetu ƒe afãmama gbãtɔ le November 2020 me va se ɖe fetu ƒe afãmama evelia le 2024 me, ale be amehawo nakpɔ ale si wòwɔa dɔ hafi woagblɔe ake.
 
-Aleke Canopy do ƒome kple NU6 kple NU6.1? Canopy ɖo gadodo ƒe mama si to mɔ etɔ̃ dzi kple gadodo ƒe mɔ̃wo. Emegbe ŋgɔyiyi siwo wowɔ, siwo dome NU6 kple NU6.1 hã le, gbugbɔ yi Ŋgɔyidɔwo ƒe Ga si wotu ɖe gɔmeɖoanyi ma tame la dzi eye wogbugbɔ trɔ asi le eŋu.
+Aleke Canopy wɔ ɖeka kple NU6 kple NU6.1? Canopy ɖo ga ƒe mama ƒe akpa etɔ̃ kple funding stream ƒe mɔwo. Mɔ̃ ƒe sewo trɔtrɔ siwo va megbe, siwo me NU6 kple NU6.1 hã le, kpɔ Development Fund si woɖo ɖe teƒe ma dzi la gbɔ eye wotrɔ eƒe nɔnɔ.
 
-## Do wò nugɔmesese kpɔ
+## Do kpɔ wòƒe gɔmesese
 
-Canopy wɔ dɔ le block ma ke tututu dzi abe Zcash ƒe afã gbãtɔ ene. Nukatae wotia ɣeyiɣi ma, eye nukae adzɔ ɖe ŋgɔyiyi ƒe gazazã dzi ne menye Canopy o?
+Canopy de dzi le gaɖoɖowo ƒuƒoƒe ma ke si Zcash ƒe fetu ƒe afãmama gbãtɔ va me. Nu ka ta wotia ɣeyiɣi ma, eye nu ka nava va le ŋgɔyiyi ƒe dɔwo ƒe ga ŋu ne Canopy menɔ o?
 
 <details>
-<summary>Answer</summary>
+<summary>Ŋuɖoɖo</summary>
 
-Woɖoe be gɔmeɖolawo ƒe fetu gbãtɔ nawu enu le afã gbãtɔ me. Canopy manɔmee la, anye ne fetu suetɔ kekeake si woxɔna le block ƒe afã ɖeɖeɖa megbe la katã ayi na tomenukulawo, si ana ga aɖeke manɔ anyi le ɖoɖowɔɖi ƒe ɖoɖo nu na ŋgɔyiyi o. Canopy tsɔ Development Fund ɖɔ li gɔmeɖolawo ƒe fetu le block ma tututu dzi, eyata gadodo yi edzi dometsotso aɖeke manɔmee.
+Woɖo founders reward gbãtɔ ɖe be wòava yi le fetu ƒe afãmama gbãtɔ dzi. Ne Canopy menɔ o la, gaɖoɖowo ƒuƒoƒe ƒe fetu sue si va le fetu ƒe afãmama megbe la katã ayi na nukulawo, eye ga aɖeke manɔ protocol ƒe mɔ me na ŋgɔyiyi ƒe dɔwo o. Canopy trɔ founders reward la ɖe Development Fund me le gaɖoɖowo ƒuƒoƒe ma dzi tututu, ale be ga ƒe nana yi edzi menɔ vovo o.
 </details>
 
-### Nunɔamesiwo
+### Nu siwo nàtsɔ akpɔe
 
-[ZIP 251: Canopy Network ƒe Dodoɖeŋgɔ ƒe Dɔwɔwɔ](https://zips.z.cash/zip-0251)
+[ZIP 251: Canopy Network Upgrade ƒe ɖoɖo](https://zips.z.cash/zip-0251)
 
-[ZIP 1014: Dev Fund ɖoɖo na ECC, ZF, kple Gakpekpeɖeŋu Gãwo](https://zips.z.cash/zip-1014)
+[ZIP 1014: Development Fund ƒe ɖoɖo na ECC, ZF, kple Major Grants](https://zips.z.cash/zip-1014)
 
-[ZIP 207: Gadodo ƒe Mɔnuwo](https://zips.z.cash/zip-0207)
+[ZIP 207: Funding Streams](https://zips.z.cash/zip-0207)
 
-[ZIP 214: Se siwo dzi woda asi ɖo na Zcash Development Fund](https://zips.z.cash/zip-0214)
+[ZIP 214: Gbegbeɖiɖi ƒe sewo na Zcash Development Fund](https://zips.z.cash/zip-0214)
 
-[ZIP 211: Asixɔxɔ Yeye ƒe Kpekpeɖeŋunana le Sprout Chain Value Pool me ƒe nuwɔametɔ](https://zips.z.cash/zip-0211)
+[ZIP 211: Asinu yeye ƒe deɖe ƒe dɔtsetse le Sprout ƒe ɖoɖonu [chain] ƒe gaƒuƒoƒo me](https://zips.z.cash/zip-0211)
 
-[Canopy Network ƒe Ðɔɖɔɖo](https://z.cash/upgrade/canopy/)
+[Canopy Network Upgrade](https://z.cash/upgrade/canopy/)
 
-### Kpɔe hã
+### Kpɔ hã
 
-[Zcash Network ƒe Ðɔɖɔɖowo](../start-here/network-upgrades)
+[Zcash Mɔ̃ ƒe sewo trɔtrɔwo](../start-here/network-upgrades)
 
-[Hlɔ̃nyawo Gbɔkpɔha](../start-here/development-fund)
+[Development Fund](../start-here/development-fund)
 
-[Zcash Ganyawo Ŋuti Ðoɖo](../start-here/zcash-monetary-policy)
+[Zcash Ga ƒe sewo](../start-here/zcash-monetary-policy)
 
-[Ta Siwo Wotsɔ Akpoxɔnu Wɔe](../using-zcash/shielded-pools)
+[Ɣaɣla gaƒuƒoƒowo](../using-zcash/shielded-pools)
 
 [NU6.1](../zcash-tech/nu6-1)
 
@@ -109,4 +109,4 @@ Woɖoe be gɔmeɖolawo ƒe fetu gbãtɔ nawu enu le afã gbãtɔ me. Canopy man�
 
 ---
 
-Siwo kplɔ wo nɔewo ɖo: [Network Upgrades ƒe dzesi](../start-here/network-upgrades) · Do ŋgɔ: [Heartwood](../zcash-tech/heartwood) · Esi kplᴐe ɖo: [NU5](../zcash-tech/nu5)
+Series: [Mɔ̃ ƒe sewo trɔtrɔwo ƒe index](../start-here/network-upgrades) · Do ŋgɔ: [Heartwood](../zcash-tech/heartwood) · Si gbɔe: [NU5](../zcash-tech/nu5)

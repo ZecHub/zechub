@@ -4,152 +4,149 @@
 # FROST
 
 
-## TL;DR
+## Nyatakaka Vevi
 
-* FROST (Flexible Round-Optimised Schnorr Threshold Signatures) nye dzidzenu ƒe asidede agbalẽ te kple safui dzidzi ƒe ɖoɖo si woma: asidede agbalẽ te geɖewo dometɔ ɖesiaɖe ƒe akpa aɖe le ame ŋutɔ ƒe safui ɖeka me, eye ele be wo dometɔ ƒe dzidzenu ƒe xexlẽme nawɔ nu aduadu be woawɔ asidede ɖeka.
-* Esi wònye be nusi dona tso eme nye Schnorr ƒe asidede agbalẽ te ɖeka ta la, asitsatsa si wowɔ alea la dzena abe asitsatsa dzro aɖe si wowɔna le network la dzi ene.
-* Ebia kadodo sue aɖe ko, ate ŋu aƒu du le ɣeyiɣi ɖeka me, eye ate ŋu ade dzesi gomekpɔla si wɔa nu gbegblẽ ahaɖee ɖa.
-* Le Zcash gome la, esia fia be FROST na be akpa geɖe, siwo dome to vovo le anyigba ƒe nɔnɔme nu la te ŋu kpɔa ŋusẽ ɖe ZEC si wokpɔ ta na ƒe gazazã ƒe ŋusẽ dzi — si ɖea vi na nudzikpɔkpɔ, escrow, dɔwɔna siwo menye nudzraɖoƒe o, kple Zcash Shielded Assets (ZSA).
-* Chelsea Komlo (Waterloo Yunivɛsiti, Zcash Foundation) kple Ian Goldberg (Waterloo Yunivɛsiti) ye wɔe.
+* FROST (Flexible Round-Optimised Schnorr Threshold Signatures) nye xexlẽme asidede agbalẽ te kple klavi ƒe dzidzeme le amehawo dome ƒe ɖoɖo: asidela geɖewo siaa le klavi sia tɔ̃ ƒe kpekpeɖeŋu aɖe si wo ƒe sia, eye wòhiã be wo dometɔ geɖe si wo da ɖo la nakpe ɖe eŋu be woawɔ asidede agbalẽ te aɖe.
+* Esi emetsonu la nye Schnorr ƒe asidede agbalẽ te ɖeka, gaɖoɖo [transaction] si wowɔ ale la ƒe nɔnɔ le network me anɔ abe gaɖoɖo kawaida ene.
+* Ehia ƒoƒo meɖoɖowo vi, wòate ŋu awɔ dɔ le ɣeyiɣi ɖeka me, eye wòate ŋu ade dzesi ame si wɔ nu vɔ̃ la eye wòadoe ɖe zaza me.
+* Na Zcash, esia fia be FROST na amehawo siwo le anyigba ƒe teƒe vovovowo te ŋu nɔ la ate ŋu akplɔ gaɖoɖo ƒe ŋusẽ le ɣaɣla ZEC dzi — esia ƒe vi na gakotoku [wallet] ƒe dzrala, gaƒoƒoƒe, dɔwɔƒewo siwo menye asikplɔ-dzralá o, kple Zcash Shielded Assets (ZSA).
+* Chelsea Komlo (University of Waterloo, Zcash Foundation) kple Ian Goldberg (University of Waterloo) wɔe.
 
-## Numeɖeɖe Vevitɔ
+## Nu Si Wòasrɔ Gbã
 
-### Nukae nye Schnorr ƒe asidede agbalẽ te?
+### Nu kae nye Schnorr ƒe asidede agbalẽ te?
 
-Schnorr ƒe dijitaal asidede agbalẽ te nye akɔntabubuwo ƒe hatsotso aɖe: (KeyGen, Sign, Verify).
+Schnorr ƒe asidede agbalẽ te si nye digital la nye algorithm ƒe ƒuƒoƒo: (KeyGen, Sign, Verify).
 
-Viɖe geɖe le Schnorr ƒe asidede agbalẽ te ŋu. Viɖe vevi ɖekae nye be ne wozã safui geɖe tsɔ de asi gbedasi ɖeka te la, woate ŋu aƒo asidede agbalẽ te siwo do tso eme la nu ƒu wòazu asidede agbalẽ te ɖeka. Esia ate ŋu aɖe multisign fexexe kple asitsatsa bubu siwo do ƒome kple multisign ƒe lolome dzi akpɔtɔ ŋutɔ.
+Schnorr ƒe asidede agbalẽ tewo le viɖe geɖe. Viɖe vevi aɖe nye be ne wowɔ asidede le mesaj ma ke dzi kple klavi geɖe, woate ŋu aƒo asidede agbalẽ te siwo do tso eme la ƒu ɖe asidede agbalẽ te ɖeka me. Esia ate ŋu aɖe multisig ƒe fexexe [payment] kple gaɖoɖowo bubu siwo kplɔ multisig ɖo la ƒe lolome ɖe anyi kakhulu.
 
-### Nukae nye FROST?
+### Nu kae nye FROST?
 
-**Schnorr ƒe dzidzenu ƒe asidede agbalẽ te siwo te ŋu trɔna goglo-Optimised** -
-*Chelsea Komlo (Waterloo Yunivɛsiti, Zcash Foundation) & Ian Goldberg (Waterloo Yunivɛsiti) ye wɔe.*
+**Flexible Round-Optimised Schnorr Threshold Signatures** -
+*Chelsea Komlo (University of Waterloo, Zcash Foundation) kple Ian Goldberg (University of Waterloo) wɔe.*
 
-FROST nye threshold signature kple distributed key generation protocol si hiã kadodo ƒe ƒoƒo suetɔ kekeake eye woateŋu awɔe le ɣeyiɣi ɖeka me. FROST ɖoɖowɔɖi nye Schnorr ƒe asidede agbalẽ te ƒe ɖoɖoa ƒe dzidzenu ƒe tɔtrɔ.
+FROST nye xexlẽme asidede agbalẽ te kple klavi ƒe dzidzeme le amehawo dome ƒe ɖoɖo si hia ƒoƒo meɖoɖowo vi, eye wòate ŋu awɔ dɔ le ɣeyiɣi ɖeka me. FROST ƒe ɖoɖo nye Schnorr ƒe asidede agbalẽ te ƒe xexlẽme ƒe version.
 
-To vovo na asidede agbalẽ te le ame ɖeka ƒe nɔnɔme me la, dzidzenu ƒe asidede agbalẽ te bia be woawɔ nu aduadu le amesiwo de asi agbalẽ te ƒe xexlẽme si woɖo ɖi dome, eye wo dometɔ ɖesiaɖe ƒe gome le ame ŋutɔ ƒe safui ɖeka me.
+To vovo na asidede agbalẽ tewo siwo le ame ɖeka ƒe nɔnɔ me la, xexlẽme asidede agbalẽ tewo hia be asidela geɖe si wo da ɖo nakpe ɖe eŋu, esi sia sia le klavi sia tɔ̃ ƒe kpekpeɖeŋu aɖe si wo ƒe.
 
-[Nukae nye Threshold Signatures? Chelsea Komlo - Zcon3](https://youtu.be/cAfTTfblzoU?t=110)
+[Nu kae nye Threshold Signatures? Chelsea Komlo - Zcon3](https://youtu.be/cAfTTfblzoU?t=110)
 
-Eyata asidede agbalẽ te wɔwɔ le dzidzenu ƒe ɖoɖo me xɔa ga geɖe le network ƒe tsatsam le asidede agbalẽ te dome ta, si wɔnɛ be wòxɔa ga geɖe ne wodzra adzame gomekpɔkpɔwo ɖo ɖe mɔ̃ siwo me network seɖoƒe le dzi alo ne ɖoɖowɔwɔ dzɔ le network siwo dzi womate ŋu aka ɖo o dzi.
+Eya ta, asidede agbalẽ te ƒe wɔwɔ le xexlẽme ƒe nɔnɔ me hia dɔ bubu tso network ƒe ƒoƒo me le asidelawo dome, eye esia wɔna be wòxɔ asi ne woɖe ɣaɣla ƒe kpekpeɖeŋuwo ɖe mɔ̃dɔlawo dzi siwo ƒe network ŋusẽ meganɔ o, alo ne woƒo nu le network si mele nuteƒe o dzi.
 
-Woɖea network ƒe gazazã dzi kpɔtɔna le asidede agbalẽ te ƒe dɔwɔnawo me to mɔnu yeye aɖe zazã si kpɔa ame ta tso aʋatsokaka ƒe amedzidzedze me eye wòsɔ na ɖoɖo bubuwo hã.
+Wona network ƒe dɔ bubu le asidede ƒe dɔwɔwɔ me nɔa anyi sue wu to mɔ yeye aɖe si dea tso forgery ƒe attacks me, eye wòle dɔ wɔm na scheme bubuwo hã.
 
-FROST na threshold signature protocols nyona ɖe edzi to mɔɖeɖe be woawɔ asidede dɔwɔwɔ ƒe xexlẽme si seɖoƒe meli na o dedie le parallel (concurrency) me.
+FROST nana xexlẽme asidede agbalẽ te ƒe ɖoɖowo nɔnɔ nyuie wu to asidede agbalẽ te ƒe dɔwɔwɔ siwo menye nuwɔwɔ ƒe xexlẽme o ƒe numeɖeka me, be woate ŋu awɔ wo katã le ɣeyiɣi ɖeka me le dedie (concurrency).
 
-Woateŋu azãe abe 2-round protocol, afisi asidede agbalẽ te ɖoa gbedasi 2 ɖa eye woxɔa wo le wo katã me, alo abe 2-round signing protocol si wowɔ nyuie wu kple preprocessing stage.
+Woate ŋu azãe abe ƒoƒo ƒe ɖoɖo si me asidelawo doa mesaj 2 eye woxɔ mesaj 2 katã ene, alo abe asidede ƒe ɖoɖo si woɖe nyuie si le ƒoƒo ɖeka me kple ɖoɖo gbã ƒe akpa ene.
 
-FROST kpɔa eƒe dɔwɔwɔ nyuie ƒe ŋgɔyiyi ƒe akpa aɖe to mɔɖeɖe na ɖoɖowɔɖia be wòaɖe fu le gomekpɔla aɖe si mewɔa nu gbegblẽ o la ŋkume, amesi emegbe wodea dzesii eye woɖenɛ ɖa le etsɔme dɔwɔwɔwo me.
+FROST xɔ eƒe nɔnɔ nyuie ƒe akpa aɖe to mɔ si na ɖoɖo la ƒe dɔ nɔ teƒe ne ame aɖe wɔa nu vɔ̃, eye woade dzesi ame ma eye woadoe ɖe dɔwɔwɔ siwo gbɔna me.
 
-Wotsɔ dedienɔnɔ ƒe kpeɖodzi siwo ɖee fia be FROST le dedie tso gbedasi tiatia ƒe amedzidzedzewo me, ne wotsɔe be discrete logarithm kuxia sesẽ, eye futɔa kpɔa gomekpɔla ʋɛ aɖewo dzi wu dzidzenua, na [le afisia](https://eprint.iacr.org/2020/852.pdf#page=16).
+Woɖo dedie ƒe ɖaseɖigbalɛwo si fia be FROST le dedie tso chosen-message attacks me, ne discrete logarithm ƒe kuxi le sesĩe, eye fliatɔ la kplɔ amehawo siwo sɔ ɖe xexlẽme la nu o, le [afisia](https://eprint.iacr.org/2020/852.pdf#page=16).
 
-### Aleke FROST wɔa dɔe?
+### Alekee FROST wɔa dɔ?
 
-Nu vevi eve le FROST ƒe ɖoɖowɔɖia me:
+FROST ƒe ɖoɖo la ƒe akpa vevi evee:
 
-Gbã la, n gomekpɔlawo wɔa distributed key generation (DKG) protocol tsɔ wɔa kpeɖodzi safui si bɔ. Le nuwuwu la, gomekpɔla ɖesiaɖe xɔa ame ŋutɔ ƒe adzame safui ƒe gome kple dutoƒo kpeɖodzi safui ƒe gome.
+Gbã la, amehawo n le klavi ƒe dzidzeme le amehawo dome (DKG) ƒe ɖoɖo aɖe dzi be woawɔ nukpɔsafui [viewing key] si wo katã ƒe. Le nuwuwu la, ame sia sia kpɔ klavi sia tɔ̃ ƒe kpekpeɖeŋu kple nukpɔsafui ƒe kpekpeɖeŋu si nye dukɔ ƒe.
 
-Le ema megbe la, t-out-of-n gomekpɔla ɖesiaɖe ateŋu awɔ threshold signing protocol be woawɔ Schnorr ƒe asidede agbalẽ te si sɔ le nuwɔwɔ aduadu me.
+Emegbe la, amehawo t-le-n me ate ŋu awɔ xexlẽme asidede ƒe ɖoɖo la ɖekae be woawɔ Schnorr ƒe asidede agbalẽ te si le eteƒe.
 
 <a href="">
     <img src="/content-images/1634081807-frost-flexible-round-optimize-3697a713d9.webp" alt="" width="400" height="300"/>
 </a>
 
-## Nukpɔkpɔ / Nusɔsrɔ̃
+## Nɔnɔ Ƒe Nɔnɔ / Mɔ Ƒe Ŋutinya
 
-Bu FROST abe dedienɔƒe si ʋuna ne safuixɔla geɖe siwo ŋu woɖe mɔ ɖo trɔ woƒe safuiwo ɖekae ko — gake menye safuitɔ ɖesiaɖee wobia o; xexlẽdzesi si woɖo ko (le kpɔɖeŋu me, 3 ɖesiaɖe le 5 me). Ne wonya ʋu aɖakaa ko la, eteƒekpɔla si le egodo mate ŋu anya safui siwo va, alo be ame siwo wu ɖeka koe kpɔ gome le eme gɔ̃ hã o. Le mɔ ma ke nu la, ƒuƒoƒo aɖe ate ŋu awɔ ɖeka aɖe mɔ ɖe Zcash ƒe asitsatsa ŋu esime network la kpɔa asidede agbalẽ te ɖeka si dze abe ame tsɛ ene ko.
+Bu FROST be enye gaƒoƒoƒe ƒe akpa si ƒu nɔe ne klavi tɔwo si woɖe mɔ na wɔnɔ la trɔ woƒe klaviwo ɖekae — ke menye be klavi tɔ sia sia nɔa anyi o; xexlẽme aɖe ko (kpɔɖeŋu, ame 3 le ame 5 me). Ne woƒu akpa la, ame si le gota mate ŋu akpɔ klavi tɔ kaewo va o, alo be ame ɖeka wu nɔ eme hã o. Nenema ke, ƒuƒoƒo aɖe ate ŋu ana mɔ na Zcash ƒe gaɖoɖo, eye network la kpɔ asidede agbalẽ te ɖeka ko si wɔnɔ abe dzidzɔ ene.
 
-## Deep Dive (Tsi me tsi goglo).
+## Nya Kɔkɔe
 
-**Dzidzime vevi si woma (DKG)**
+**Klavi ƒe dzidzeme le amehawo dome (DKG)**
 
-Taɖodzinu si le akpa sia ŋue nye be woawɔ safui ɣaɣla siwo anɔ anyi didi kple safui si woatsɔ aɖo kpe edzi ɖekae. Akpa sia nyea gomekpɔla n.
+Akpa sia ƒe taɖodzinu nye be woawɔ klavi sia tɔ̃ ƒe kpekpeɖeŋuwo siwo anɔ anyi ɣeyiɣi didi kple nukpɔsafui si wo katã ƒe. Ame n wɔa akpa sia.
 
-FROST tu eya ŋutɔ ƒe dzidzime vevi ƒe akpa ɖe Pedersen ƒe DKG (GJKR03) dzi, si zãa Shamir ƒe adzame mama kple Feldman ƒe adzame mama ƒe ɖoɖo siwo ŋu woate ŋu aɖo kpee siaa abe ɖoɖowɔɖi suewo ene. Tsɔ kpe ɖe eŋu la, ele be gomekpɔla ɖesiaɖe naɖe eya ŋutɔ ƒe nya ɣaɣla sidzedze afia to kpeɖodzi si me sidzedze aɖeke mele o ɖoɖo ɖe gomekpɔla bubuawo me, si ŋutɔ nye Schnorr ƒe asidede agbalẽ te. Afɔɖeɖe bubu sia kpɔa ame ta tso rogue-key ƒe amedzidzedzewo me ne t ≥ n/2.
+FROST tua eya ŋutɔ ƒe klavi ƒe dzidzeme ƒe akpa ɖo Pedersen ƒe DKG (GJKR03) dzi, si zãa Shamir ƒe ɣlɔ̃ɣlɔ̃ ƒe maɖama kple Feldman ƒe ɣlɔ̃ɣlɔ̃ ƒe maɖama si wòate ŋu akpɔ ɖa be wòle eteƒe la abe dɔwɔwɔ ƒe akpawo ene. Kpe ɖe eŋu la, ame sia sia ele be wòafia be eya ŋutɔ nya eƒe ɣlɔ̃ɣlɔ̃ la to zero-knowledge ƒe ɖaseɖigbalɛ si wòado ɖe amehawo bubu ŋu, si enye Schnorr ƒe asidede agbalẽ te hã. Akpa bubu sia dea tso rogue-key ƒe attacks me ne t ≥ n/2.
 
-Le DKG ƒe ɖoɖowɔɖia ƒe nuwuwu la, wowɔa ƒuƒoƒo ƒe kpeɖodzi safui vk. Gomenɔla ɖesiaɖe Pᵢ lé asixɔxɔ (i, skᵢ ) si nye woƒe adzame gomekpɔkpɔ si nɔa anyi didi kple kpeɖodzi safui ƒe gomekpɔkpɔ vkᵢ = skᵢ *G. Gomenɔla Pᵢ ƒe kpeɖodzi safui ƒe akpa vkᵢ nye esi gomekpɔla bubuwo zãna tsɔ ɖoa ​​kpe Pᵢ ƒe asidede agbalẽ te ƒe gomekpɔkpɔ ƒe dzɔdzɔenyenye dzi le asidede agbalẽ te ƒe akpaa me, gake kpeɖodzi safui vk ya nye esi gotagometɔwo zãna tsɔ ɖoa ​​kpe asidede agbalẽ te siwo ƒuƒoƒoa ɖe ɖe go dzi.
+Le DKG ƒe ɖoɖo la ƒe nuwuwu la, woɖea nukpɔsafui si wo katã ƒe vk. Ame sia sia Pᵢ le value (i, skᵢ ) si nye eƒe ɣlɔ̃ɣlɔ̃ ƒe kpekpeɖeŋu si anɔ anyi ɣeyiɣi didi kple nukpɔsafui ƒe kpekpeɖeŋu vkᵢ = skᵢ *G. Ame Pᵢ ƒe nukpɔsafui ƒe kpekpeɖeŋu vkᵢ nye nu amehawo bubu zãna be woakpɔ be Pᵢ ƒe asidede agbalẽ te ƒe kpekpeɖeŋuwo le eteƒe le asidede ƒe akpa me, eye nukpɔsafui vk nye nu amehawo siwo le gota zãna be woakpɔ asidede agbalẽ te si ƒuƒoƒo la do la ɖa.
 
-**Akɔtadzesi ƒe Asidede**
+**Xexlẽme Ƒe Asidede**
 
-Akpa sia tua aɖaŋu nyanyɛ siwo zãa additive secret sharing kple share conversion be non-interactively dzia nonce na asidede ɖesiaɖe. Ewɔa aɖaŋu siwo wotsɔ blaa nu hã ŋudɔ tsɔ ƒoa asa na aʋatsokaka ƒe amedzidzedze siwo wonya evɔ meɖoa seɖoƒe na nusiwo dzɔna le ɣeyiɣi ɖeka me o.
+Akpa sia ɖo ɖe mɔwo si nye nunya xoxo si zãa ɣlɔ̃ɣlɔ̃ ƒe maɖama si woate ŋu aƒo kpe kple kpekpeɖeŋu ƒe trɔtrɔ be woawɔ nonce na asidede sia sia le mɔ si me amehawo mewɔ dɔ ɖekae o. Ega zãa mɔwo si wɔnɔa nuwo ɖe teƒe ɖekae be woade tso forgery ƒe attacks si woyɔ o me, eye wòmele concurrency ɖom ɖe teƒe o.
 
-Le dɔwɔwɔ do ŋgɔ ƒe afɔɖeɖea me la, gomekpɔla ɖesiaɖe dzraa Elliptic Curve (EC) ƒe teƒe eve ƒe xexlẽme si woɖo ɖi ɖo hena zazã emegbe. Afɔɖeɖe sia zɔna zi ɖeka to dzidzenu ƒe asidede agbalẽ te ƒe akpa geɖewo dzi.
+Le ɖoɖo gbã ƒe akpa me la, ame sia sia ɖoa Elliptic Curve (EC) ƒe teƒewo ƒe pairs ƒe xexlẽme si woɖo ɖe eteƒe be woazãe emegbe. Akpa sia wɔa dɔ zi ɖeka le xexlẽme ƒe asidede ƒe akpawo geɖe dome.
 
 <a href="">
     <img src="/content-images/preprocess-5cbb14f892.webp" alt="" width="400" height="300"/>
 </a>
 
-Asidede agbalẽ te ƒe Kpekpe 1: Gomenɔla ɖesiaɖe Pᵢ dzea egɔme kple ame ŋutɔ ƒe nonce eve (dᵢ, eᵢ) kple EC ƒe dzesi eve siwo sɔ (Dᵢ, Eᵢ) wɔwɔ, emegbe eɖea dzesi eve sia ɖe go na gomekpɔla bubuawo katã. Gomenɔla ɖesiaɖe dzraa EC-point eve siawo ɖo be woazã emegbe. Asidede agbalẽ te ƒe ƒoƒo 2 kple 3 nye dɔwɔwɔ ŋutɔŋutɔ siwo me t-out-of-n gomekpɔlawo wɔa nu aduadu le be woawɔ Schnorr ƒe asidede agbalẽ te si sɔ.
+Asidede Ƒe Ƒoƒo 1: Ame sia sia Pᵢ dzena kple private nonce pair (dᵢ, eᵢ) ɖeka kple EC ƒe teƒewo ƒe pair si sɔ ɖe eŋu (Dᵢ, Eᵢ), eye wòdo teƒewo ƒe pair sia ɖe amehawo bubu katã ŋu. Ame sia sia ɖea EC ƒe teƒewo ƒe pairs siawo ɖo be woazãe emegbe. Asidede ƒe ƒoƒo 2 kple 3 nye dɔwɔwɔ tututɔ si me amehawo t-le-n kpena ɖe eŋu be woawɔ Schnorr ƒe asidede agbalẽ te si le eteƒe.
 
-Asidede agbalẽ te ƒe Kpekpe 2 lia: Gomenɔlawo wɔa dɔ aduadu be woawɔ Schnorr ƒe asidede agbalẽ te si sɔ. Mɔnu vevitɔ si le megbe na ƒoƒo siae nye t-out-of-t additive secret sharing.
+Asidede Ƒe Ƒoƒo 2: Amehawo wɔ dɔ ɖekae be woawɔ Schnorr ƒe asidede agbalẽ te si le eteƒe. Nunya vevi si le ƒoƒo sia megbe nye t-le-t ƒe ɣlɔ̃ɣlɔ̃ ƒe maɖama si woate ŋu aƒo kpe.
 
-Afɔɖeɖe sia xea mɔ na aʋatsokaka ƒe amedzidzedzewo elabena amedzidzelawo mate ŋu aƒo asidede agbalẽ te ƒe gomekpɔkpɔwo nu ƒu le asidede agbalẽ te ƒe dɔwɔna vovovowo me alo atrɔ asi le amesiwo de asi agbalẽ te ƒe hatsotso alo teƒe siwo wota na asidede agbalẽ te ɖesiaɖe ŋu o.
+Afɔ sia dea tso forgery ƒe attacks me elabena attack wɔlawo mate ŋu aƒo asidede agbalẽ te ƒe kpekpeɖeŋuwo le asidede ƒe dɔwɔwɔ vovovoawo me kpe o, alo woatrɔ asidelawo ƒe ƒuƒoƒo alo teƒewo si woɖe fia na asidela sia sia.
 
 <a href="">
     <img src="/content-images/sign-402794d36a.webp" alt="" width="400" height="300"/>
 </a>
 
-Esi wobu kuxi c vɔ la, gomekpɔla ɖesiaɖe ate ŋu abu ŋuɖoɖo zᵢ to nonces siwo wozãna zi ɖeka kple adzame gomekpɔkpɔ siwo nɔa anyi didi, siwo nye t-out-of-n (degree t-1) Shamir adzame gomekpɔkpɔwo le ƒuƒoƒoa ƒe safui si nɔa anyi didi la zazã me. Le asidede agbalẽ te ƒe ƒoƒo 2 lia ƒe nuwuwu la, gomekpɔla ɖesiaɖe ɖea zᵢ ɖe go na gomekpɔla bubuwo.
+Le esime woɖe challenge c xexle la, ame sia sia ate ŋu axexle response zᵢ to noncewo si woazã zi ɖeka kple ɣlɔ̃ɣlɔ̃ ƒe kpekpeɖeŋuwo siwo anɔ anyi ɣeyiɣi didi, siwo nye ƒuƒoƒo la ƒe klavi si anɔ anyi ɣeyiɣi didi ƒe t-le-n (degree t-1) Shamir ƒe ɣlɔ̃ɣlɔ̃ ƒe kpekpeɖeŋuwo. Le asidede ƒe ƒoƒo 2 ƒe nuwuwu la, ame sia sia doa zᵢ ɖe amehawo bubu ŋu.
 
-[Xlẽ agbalẽ bliboa](https://eprint.iacr.org/2020/852.pdf)
+[Xlẽ agbalẽ blibo la](https://eprint.iacr.org/2020/852.pdf)
 
-### FROST zazã le lãwo ƒe agbenɔnɔ ƒe ɖoɖo si keke ta wu me
+### FROST ƒe zazã le ecosystem blibo me
 
-**FROST le [Coinbase me](https://github.com/coinbase/kryptology/tree/master/pkg/dkg/frost)**
+**FROST le [Coinbase](https://github.com/coinbase/kryptology/tree/master/pkg/dkg/frost) me**
 
-Be Coinbase ƒe threshold-signing systems ƒe dɔwɔwɔ nanyo ɖe edzi la, wowɔ FROST ƒe tɔtrɔ aɖe. Coinbase ƒe dɔwɔwɔ sia wɔa tɔtrɔ sue aɖewo tso FROST ƒe nuŋɔŋlɔ gbãtɔ gbɔ.
+Be woana Coinbase ƒe xexlẽme ƒe asidede ƒe ɖoɖowo wɔ dɔ nyuie wu la, wowɔ FROST ƒe version aɖe. Coinbase ƒe dɔwɔwɔ sia wɔ tɔtrɔ sue aɖewo tso FROST ƒe draft gɔme.
 
-Wotiae be yewomazã asidede agbalẽ te ƒe nuƒoƒoƒu ƒe akpaa o. Ke boŋ gomekpɔla ɖesiaɖe nyea asidede agbalẽ te nuƒoƒoƒula. Aɖaŋu sia le dedie wu: gomekpɔla siwo katã le ɖoɖowɔɖia me la ɖoa kpe ame bubuwo ƒe akɔntabubuwo dzi, si wɔnɛ be wokpɔa dedienɔnɔ ƒe ɖoɖo si de ŋgɔ wu eye woɖea afɔku dzi kpɔtɔna. Woɖe afɔɖeɖe si wowɔna zi ɖeka do ŋgɔ hã ɖa be woawɔ dɔ kabakaba, eye wozã asidede agbalẽ te ƒe ɣeyiɣi etɔ̃lia ɖe eteƒe.
+Wotia be woazã signature aggregator ƒe dɔa o. Le ɖeke me la, ame sia sia nye signature aggregator. Nɔnɔ sia le dedie wu: amehawo katã le ɖoɖo la me kpɔa amehawo bubu ƒe xexleɖewo ɖa, eye woɖo dedie ƒe nɔnɔ kɔkɔe wu teƒe eye woɖea afɔku ƒe nuwo ɖe anyi. Woɖe preprocessing ƒe akpa si wɔa dɔ zi ɖeka hã ɖa be dɔwɔwɔ la nava kabakaba wu, eye woza asidede ƒe ƒoƒo etɔ ɖe eteƒe.
 
 ---
 
-**[ME](https://eprint.iacr.org/2022/550.pdf) si Blockstream ŋlɔ**
+**[ROAST](https://eprint.iacr.org/2022/550.pdf) tso Blockstream**
 
-Wodo ŋgɔyiyi aɖe si ku ɖe dɔwɔwɔ tɔxɛ aɖe ŋu le FROST ŋu be woazã le [Blockstream Liquid Sidechain](https://blog.blockstream.com/roast-robust-asynchronous-schnorr-threshold-signatures/) na Bitcoin.
+Woɖo FROST ƒe nɔnɔ nyuitɔ si wɔe na dɔ tɔxɛ aɖe be woazãe le [Blockstream Liquid Sidechain](https://blog.blockstream.com/roast-robust-asynchronous-schnorr-threshold-signatures/) dzi na Bitcoin.
 
-"ROAST nye nusi wotsɔ blaa nu bɔbɔe aɖe si ƒo xlã threshold signature schemes abe FROST. Enaa kakaɖedzi be ameha si dea asi anukwareɖilawo dome, e.g., Liquid dɔwɔlawo, ateŋu axɔ asidede agbalẽ te si sɔ ɣesiaɣi le asidede agbalẽ te siwo gblẽa nu le ame ŋu ƒe anyinɔnɔ gɔ̃ hã me ne network kadodowo ƒe latency lolo le wo ɖokui si."
+“ROAST nye wrapper bɔbɔe aɖe si le xexlẽme ƒe asidede ƒe ɖoɖowo abe FROST ene ƒe xexlẽme. Wòɖo kpo be asidelawo siwo wɔnɔ nyuie ƒe quorum, kpɔɖeŋu, Liquid functionaries, ate ŋu akpɔ asidede agbalẽ te si le eteƒe ɣesiaɣi, gɔ̃ hã ne asidelawo aɖewo katã wɔa dɔ vɔ̃ eye network ƒe kadodo le ɣeyiɣi didi si meke wòte ŋu ayɔ o.”
 
 ---
 
 **FROST le IETF me**
 
-Internet Mɔ̃ɖaŋudɔwo ƒe Dɔwɔha, si woɖo le ƒe 1986 me, ye nye dzidzenuwo wɔwɔ ƒe habɔbɔ vevitɔ kekeake na Internet. IETF wɔa lɔlɔ̃nu faa dzidzenu siwo dzi Internet zãlawo, kɔmpiutadziɖoɖodzikpɔlawo, kple dɔwɔnudzralawo da asi ɖo zi geɖe, si kpena ɖe ame ŋu wòtrɔa asi le Internet ƒe mɔzɔzɔ ŋu.
+Internet Engineering Task Force, si woɖo le 1986 me, nye standards ƒe dzidzeme ƒe habɔbɔ si kɔkɔe wu na Internet. IETF wɔa standards si mewobia be amehawo nava zã o, ke Internet ƒe zãlawo, network ƒe dzralawo, kple mɔ̃ ƒe dzidzelawo zãna zi geɖe, eye esia kpena ɖe Internet ƒe mɔ si wòto la ŋu.
 
-Wotsɔ FROST ƒe tɔtrɔ 11 (si ƒe tɔtrɔ eve le) [ɖoe ɖe IRTF](https://datatracker.ietf.org/doc/draft-irtf-cfrg-frost/11/). Esia nye afɔɖeɖe vevi aɖe si ana woada FROST kpɔ bliboe abe dzidzenu yeye si woatsɔ ade asi agbalẽ te ƒe ɖoɖo si woazã le internet dzi katã, le xɔtunuwo me, kple na dɔwɔna bubuwo le ƒe siwo gbɔna me.
+FROST version 11 (two-round variant) woɖo [do ɖe IRTF](https://datatracker.ietf.org/doc/draft-irtf-cfrg-frost/11/). Esia nye afɔ vevi aɖe yi FROST ƒe kpɔkpɔ blibo ŋu abe xexlẽme ƒe asidede agbalẽ te ƒe standard yeye si woazã le internet blibo me, le hardware ƒe mɔ̃wo me, kple na dɔwɔƒe bubuwo le ƒeawo si gbɔna me.
 
+## Dɔwɔwɔ Ƒe Gomeɖeɖe
 
-## Nusiwo wòfia ŋutɔŋutɔ
+Ɛ̃, tututu. FROST ƒe vava yi Zcash me ana amehawo geɖe siwo le anyigba ƒe teƒe vovovowo te ŋu nɔ la nakplɔ gaɖoɖo ƒe ŋusẽ le ɣaɣla ZEC dzi. Gaɖoɖowo si woado ɖe network la dzi to asidede ƒe ɖoɖo sia zazã me la anɔ abe gaɖoɖo bubuwo le network la me ene, eye woakpɔ ŋusẽ sesĩe be woatsɔ akpɔ fexexe ƒe mɔwo ɖa, eye woaɖe gaɖoɖowo ƒuƒoƒo ƒe ɖoɖonu [blockchain] ƒe nyatakaka si woate ŋu akpɔa be woaxle dɔ le eŋu la ƒe lolome ɖe anyi.
 
-Ẽ bliboe. FROST ƒe dodo ɖe Zcash me ana akpa geɖe, siwo dome to vovo le anyigba ƒe nɔnɔme nu, nakpɔ ŋusẽ ɖe ZEC si wokpɔ ta na ƒe gazazã ƒe ŋusẽ dzi. Womate ŋu ade vovototo asitsatsa siwo woaɖe ɖe go to asidede agbalẽ te ƒe ɖoɖo sia zazã me kple asitsatsa bubu siwo le network la dzi o, si alé tsitretsitsi sesẽ ɖe fexexe yometiti ŋu me ɖe asi eye wòaɖo seɖoƒe na blockchain nyatakaka agbɔsɔsɔme si li hena numekuku.
+Le dɔwɔwɔ me la, esia na mɔ be woatu dɔwɔwɔ yeye ƒe ha geɖe le network la dzi, tso gaƒoƒoƒe ƒe dzralawo gbɔ yi dɔwɔƒe bubuwo siwo menye asikplɔ-dzralá o gbɔ.
 
-Le nyateƒe me la, esia wɔnɛ be woate ŋu atu dɔwɔnu yeye geɖe ɖe network la dzi, tso escrow dɔwɔƒewo dzi va ɖo dɔwɔƒe bubu siwo menye gaxɔmenɔnɔ ƒe dɔwɔƒe o dzi.
+FROST hã atrɔ zu akpa vevi le Zcash Shielded Assets (ZSA) ƒe dodododo kple dzradrza si le dedie me, eye wòana woakplɔ gaɖoɖo ƒe ŋusẽ nyuie wu le development ƒe habɔbɔwo kple ZEC ƒe asikplɔ-dzraláwo abe gatrɔƒewo [exchange] ene me, eye wòana Zcash ƒe zãlawo hã nakpɔ ŋusẽ sia.
 
-FROST hã ava zu akpa vevi aɖe le Zcash Shielded Assets (ZSA) ƒe nana kple edzikpɔkpɔ dedie me, si ana gazazã ƒe ŋusẽ dzikpɔkpɔ dedie wu le ŋgɔyiyi orgs & ZEC dzikpɔlawo abe exchanges ene me, esime wòana ŋutete sia hã Zcash zãlawo.
+## Vodada Siwo Wɔna Zi Geɖe
 
-## Vodada Siwo Wowɔna Zi geɖe
+**FROST ƒe mamanya kple on-chain [ɖoɖonu dzi] multisig xoxo**. Multisig xoxo ate ŋu afia asidelawo geɖe alo asidede agbalẽ te geɖe ɖoɖonu dzi. FROST wɔa Schnorr ƒe asidede agbalẽ te ɖeka si woƒo ƒu, eyata gaɖoɖo aɖe menye vovototo le gaɖoɖo si le asidede ɖeka me ŋu o.
 
-**FROST tɔtɔ kple kɔsɔkɔsɔ dzi multisig xoxo**. Dekɔnu multisig ateŋu aɖe asidede agbalẽ te geɖe alo asidede agbalẽ te geɖe ɖe kɔsɔkɔsɔ dzi. FROST wɔa Schnorr ƒe asidede agbalẽ te ɖeka si woƒo ƒu, eyata womate ŋu ade vovototo asitsatsa kple asidede agbalẽ te ɖeka dome o.
+**Miexɔe se be amehawo siwo sɔ ɖe xexlẽme la nu ate ŋu aside**. Ame geɖe siwo da ɖo (t-le-n) siwo wɔa dɔ ɖekae ko ate ŋu awɔ asidede agbalẽ te si le eteƒe; ƒuƒoƒo si su wɔnɛ mate ŋu awɔe o.
 
-**Ne míetsɔe be wosɔ gbɔ wu dzidzenu la ate ŋu ade asi ete**. Gomenɔla siwo wɔa nu ɖekae ƒe xexlẽdzesi si woɖo ɖi (t-tso-n) koe ate ŋu awɔ asidede agbalẽ te si sɔ; ƒuƒoƒo sue ɖesiaɖe mate ŋui o.
+**Miexɔe se be FROST ɣaɣla nu sia katã le ɖoɖonu me o**. FROST dea asidede agbalẽ te si le ɖoɖonu dzi la tso afɔku me, ke ƒomeɖoɖo le asidelawo dome gaɖe le ɖoɖonu me o, eye wòhia eya ŋutɔ ƒe ɣaɣla kple dedie ƒe dzidzenuwo.
 
-**Ne míetsɔe be FROST ɣlaa nusianu off-chain**. FROST kpɔa asidede agbalẽ te le kɔsɔkɔsɔa me ta, gake nuwɔwɔ aduadu le asidede agbalẽ te dome gakpɔtɔ dzɔna le kɔsɔkɔsɔa godo eye ebia be wòakpɔ eya ŋutɔ ƒe ameŋunyatakakawo kple dedienɔnɔ dzi.
+## Axa Siwo Kplɔe ɖo
 
+- [Halo](/zcash-tech/halo) — ɖaseɖigbalɛ ƒe ɖoɖo si meka ɖe ame aɖe ŋu o, si wòate ŋu atrɔ ɖe eya ŋutɔ me, si Zcash zãna le eƒe Orchard ƒe gaƒuƒoƒo [pool] me.
+- [Nukpɔsafuiwo](/zcash-tech/viewing-keys) — nyatakaka tɔxɛ ɣaɣla [selective disclosure] na ɣaɣla gaɖoɖowo.
+- [Zcash Shielded Assets](/zcash-tech/zcash-shielded-assets) — afi si FROST kpena ɖe gaɖoɖo/nu dodododo ƒe ŋusẽ ƒe dzradrza ŋu.
+- [Zcash Gakotoku ƒe Sync Wɔwɔ](/zcash-tech/zcash-wallet-syncing) — akpa vevi bubu le Zcash ƒe ɣaɣla ƒe nɔnuwo me.
 
-## Axa Siwo Do Ƒome Kplii
+## Nusrɔ̃ Muna Wu
 
-- [Halo](/zcash-tech/halo) — kpeɖodziɖoɖo si dzi womate ŋu aka ɖo o, si gbugbɔna dzɔna si wozãna le Zcash ƒe Orchard ta la me.
-- [Nukpɔkpɔ ƒe Safuiwo](/zcash-tech/viewing-keys) — tiatia tiatia na asitsatsa siwo wokpɔ ta na.
-- [Zcash ƒe Nunɔamesi Siwo Wokpɔna](/zcash-tech/zcash-shielded-assets) — afisi FROST kpena ɖe gazazã/nuɖeɖe ƒe ŋusẽ dzi kpɔkpɔ ŋu le.
-- [Zcash Gakotoku ƒe Ðoɖowɔwɔ](/zcash-tech/zcash-wallet-syncing) — Zcash ƒe ameŋunyatakakawo ŋuti dɔwɔnu vevi bubu.
+[Coinbase Article - Xexlẽme Ƒe Asidede Agbalẽ Tewo](https://www.coinbase.com/blog/threshold-digital-signatures)
 
+[Shamir ƒe Ɣlɔ̃ɣlɔ̃ Ƒe Maɖama - Nuxlẽɖeŋu kple Kpɔɖeŋu](https://www.geeksforgeeks.org/shamirs-secret-sharing-algorithm-cryptography/)
 
-## Nusɔsrɔ̃ Bubuwo
-
-[Coinbase Nyati - Dzesidede asidede agbalẽ te](https://www.coinbase.com/blog/threshold-digital-signatures)
-
-[Shamir Nya ɣaɣlawo mama - Numeɖela & Kpɔɖeŋu](https://www.geeksforgeeks.org/shamirs-secret-sharing-algorithm-cryptography/)
-
-[Video Kpuie si ku ɖe Schnorr Digital Signatures ŋu](https://youtu.be/r9hJiDrtukI?t=19)
+[Video Vevi Kuɖe Ŋu Tso Schnorr ƒe Digital Asidede Agbalẽ Tewo Ŋu](https://youtu.be/r9hJiDrtukI?t=19)
 
 ___
 ___

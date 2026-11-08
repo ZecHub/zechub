@@ -1,246 +1,246 @@
-# Zcash Mining Guide: Tomenukuƒe ƒe Ƒuƒoƒo kple Ame ŋutɔ ƒe Dɔwɔnuwo
+# Zcash Nukuku [Mining] Ƒe Mɔfiame: Nɔƒo kple Nukuku Ƒe Gaƒuƒoƒo kple Wò Ŋutɔ ƒe Mɔ̃nuwo
 
-## Kpɔkplɔyiɖeme
+## Gɔmedzedze
 
-Zcash (ZEC) nye cryptocurrency si léa ŋku ɖe adzamenyawo ŋu si zãa Equihash proof-of-work algorithm hena tomenukuƒe. Zcash tomenukuƒe bia be woazã akɔntabubu ƒe ŋusẽ atsɔ akpɔ akɔntabubu ƒe kuxi sesẽwo gbɔ, aɖo kpe asitsatsa dzi, eye woakpɔ network la ta ɖe ZEC teƒeɖoɖowo teƒe. Le network la ƒe sesẽ ta la, womekafu solo mining na ezãla akpa gãtɔ o. Tomenukuƒe aɖe me nɔnɔ nye mɔ nyuitɔ si dzi nàto akpɔ teƒeɖoɖo ɣesiaɣi to wò hash ŋusẽ tsɔtsɔ ƒo ƒu kple ame bubuwo me.
+Zcash (ZEC) nye crypto ga si ƒe ɣaɣla [privacy] le ŋgɔ, eye wò zãna Equihash dɔwɔmɔ si woyɔna proof-of-work le nukuku me. Nukuku Zcash fia be woazã akɔnta ƒe ŋusẽ atsɔ aɖo matematiki ƒe kuxi sesẽwo, akaka gaɖoɖowo [transactions] ɖe edzi, eye woaɖe network la ƒe dzideƒo na le ZEC ƒe fetuwo ta. Esi network la ƒe sesẽ le dzi ŋutɔ ta la, womedi be zãla geɖewo nɔ nukuku wɔnɔ ɖeka o. Nɔnɔ kple nukuku ƒe gaƒuƒoƒo nye mɔ nyuitɔ be nàxɔ fetu si le dzi ɖe edzi to wò hash ŋusẽ tsɔtsɔ kple ame bubuwo tɔ ƒoƒo me.
 
-Mɔfiame sia ku ɖe Zcash kuku ŋu to ame ŋutɔ ƒe xɔtunuwo zazã me (le kpɔɖeŋu me, aƒeme PC si me GPUwo le alo ASIC siwo le gɔmedzedzea me). De dzesii be togbɔ be GPUwo ateŋu aku Zcash, ASICwo wɔa dɔ nyuie wu eye wokpɔa viɖe le ƒe 2026 me le network ƒe sesẽ ta. Kpɔ viɖe si li fifia ɖa ɣesiaɣi to dɔwɔnuwo abe WhatToMine.com zazã me, elabena nusiwo abe elektrikŋusẽ ƒe asi, xɔtunuwo ƒe asiwo, kple ZEC ƒe asixɔxɔ kpɔa ŋusẽ ɖe alesi woate ŋu awɔ dɔe dzi. Ðewohĩ tomenukuƒewo maɖe vi na amesiame o; numekuku le nutoa me ƒe sededewo kple ŋusẽ ƒe agbɔsɔsɔme ŋu (ɖoe be yeaxɔ < $0.08/kWh).
+Mɔfiame sia ƒe ta nye be woanuku Zcash kple ame ŋutɔ ƒe mɔ̃nuwo (le kpɔɖeŋu me, aƒeme PC si me GPUwo le alo ASIC siwo ƒe asi medze ŋutɔ o). De dzesi be togbɔ be GPUwo ate ŋu anuku Zcash ha, ASICwo wɔnɔ nyuie wu eye woxɔa vi geɖe le 2026 me le network la ƒe sesẽ ta. Na kpɔa nugbegbe si le fifia me tso dɔwɔnuwo abe WhatToMine.com ene zãm, elabena nu abe elektrik ƒe asi, mɔ̃nu ƒe asi, kple ZEC ƒe asixɔxɔ ene doa asi le nu si ate ŋu awɔ dɔ la me. Nukuku mate ŋu axɔ vi na ame sia ame o; di nya tso wò nuto ƒe sewo kple energia ƒe asiwo ŋuti (di be wòanye < $0.08/kWh).
 
 
-## Nudidiwo
+## Nu Siwo Hiã
 
-### Hardware ƒe dɔwɔnuwo
-- **GPU Mining (Ame ŋutɔ ƒe Ðoɖowɔwɔ si Wokafu na Gɔmedzelawo):**
-  - NVIDIA alo AMD GPU siwo si VRAM 4GB ya teti le (le kpɔɖeŋu me, NVIDIA GTX 1070, RTX 3060; AMD RX 580 alo esi nyo wu).
-  - Motherboard si sɔ, PSU si sɔ (750W ya teti na GPU geɖe), kple fafa nyui be wòaxe mɔ ɖe dzoxɔxɔ si gbɔ eme nu.
-  - Multi-GPU rigs bɔ na hash ƒe agbɔsɔsɔme nyuitɔ (le kpɔɖeŋu me, 6x GPUs ateŋu aɖo 1-2 kSol/s gbɔ).
-- **ASIC Tomenukuƒe (Ewɔa dɔ nyuie wu gake eƒe asi lolo wu):**
-  - ASIC siwo sɔ kple Equihash abe Bitmain Antminer Z15 (420 kSol/s) alo Innosilicon A9 (50 kSol/s) ene.
-  - Esiawo sesẽna wu, woxɔa dzo wu, eye woxɔa ŋusẽ geɖe wu (le kpɔɖeŋu me, 1500W+); si sɔ na teƒe siwo woɖo ɖi koŋ. Ƒle nu tso teƒe siwo ŋu ŋkɔ le abe Bitmain.com alo nudzralawo (Blockware Mining).
-- **General:** Internet si li ke, kɔmpiuta si wotsɔ ɖoa ɖoɖowɔwɔ/dzikpɔkpɔ. ASICs ɖua network la dzi (~13 GSol/s total hashrate le ƒe 2026 me), si wɔe be GPU tomenukuku meganye hoʋiʋli boo o gake egate ŋu dzɔna na modzakaɖelawo.
+### Mɔ̃nuwo
+- **GPU Nukuku (Ame Ŋutɔ Ƒe Ɖoɖo Si Woaɖo Ɖe Amegãwo Ŋu):**
+  - NVIDIA alo AMD GPUwo siwo ƒe VRAM le 4GB alo wu (le kpɔɖeŋu me, NVIDIA GTX 1070, RTX 3060; AMD RX 580 alo si wu eya).
+  - Motherboard si wɔa dɔ kple eŋu, PSU si ɖe edzi (le 750W alo wu na GPU geɖewo), kple hame nyui be dzɔdzɔ geɖe magbugbɔ mɔ̃nuwo o.
+  - GPU geɖe ƒe rigwo menye nudzɔdzɔ o na hash rate nyui (le kpɔɖeŋu me, GPU 6 ate ŋu axɔ 1-2 kSol/s).
+- **ASIC Nukuku (Ewɔa Dɔ Nyuie Ke Eƒe Asi Le Dzi):**
+  - ASIC siwo wɔa dɔ kple Equihash abe Bitmain Antminer Z15 (420 kSol/s) alo Innosilicon A9 (50 kSol/s) ene.
+  - Esiawo ƒoa gbe ŋutɔ, womea dzo ŋutɔ, eye wozãa ŋusẽ geɖe (le kpɔɖeŋu me, 1500W+); wòle be woazã wo le teƒe si ɖe ɖe eŋu. Ƒle wo tso teƒe siwo ŋu wòka ɖe edzi abe Bitmain.com alo ame siwo dzra wo (Blockware Mining) ene.
+- **Le Ƒomevi Blibo Me:** Internet si le dzideƒo, kple kɔmpiuta na ɖoɖo/kpɔkpɔ. ASICwo le network la dzi (~13 GSol/s ƒe hashrate blibo le 2026 me), esia wɔe be GPU nukuku menye dzidzɔ geɖe o ke wògale bubuɖeka wɔwɔ ƒe mɔ na ame siwo lɔ̃e.
 
-### Sɔƒtwɛ
-- **Dɔwɔɖoɖo:** Windows 10/11, Linux (Ubuntu kafui be wòali ke).
-- **Tomenukuƒe ƒe Kɔmpiutadziɖoɖo:**
-  - Le GPUwo gome la: lolMiner (doa alɔ AMD/NVIDIA), GMiner, alo miniZ (NVIDIA-si ƒe susu nɔa eŋu). Wɔ eƒe kɔpi tso GitHub teƒe siwo dziɖuɖua ɖo (le kpɔɖeŋu me, github.com/Lolliedieb/lolMiner-releases).
-  - Le ASICwo gome la: Zã adzɔnuwɔƒea ƒe firmware/dashboard si wotu ɖe eme (le kpɔɖeŋu me, Bitmain ƒe web interface).
-- **Gakotoku:** Zcash gakotoku si woatsɔ axɔ fetu. Doe ɖa:
-  - Wokpɔ ta (ame ŋutɔ tɔ): ZODL Gakotoku, Zingo (Asitelefon/Dɔwɔƒe), Zkool (asitelefon/kplɔ̃).
-  - Nusi me kɔ (ele bɔbɔe wu gake menye ame ŋutɔ tɔ o): Edge Wallet, Zecwallet Lite.
-  - Wɔ eƒe kɔpi tso [gakotokuwo](https://zechub.wiki/wallets). Wɔ adrɛs si wokpɔ ta na (edzea egɔme kple 'zs') hena adzamenyawo ne ta la do alɔe.
+### Software
+- **Dɔwɔ Ƒe Ƒoƒe:** Windows 10/11, Linux (Ubuntu woaɖo ŋu na dzideƒo).
+- **Nukuku Ƒe Software:**
+  - Na GPUwo: lolMiner (wɔa dɔ kple AMD/NVIDIA), GMiner, alo miniZ (NVIDIA ŋu wɔnɔ). Ɖe eƒe official GitHub repo wo me (le kpɔɖeŋu me, github.com/Lolliedieb/lolMiner-releases).
+  - Na ASICwo: Zã manufacturer la ŋutɔ ƒe firmware/dashboard si wotu ɖe eme (le kpɔɖeŋu me, Bitmain ƒe web interface).
+- **Gakotoku [wallet]:** Zcash gakotoku be nàxɔ fetuwo. Esiwo woaɖo ŋu:
+  - Ɣaɣla [Shielded] (si le ɣaɣla me): ZODL Wallet, Zingo (Mobile/Desktop), Zkool (mobile/desktop).
+  - Nuwo ƒe ʋuʋuɖi [Transparent] (bɔbɔe ke ɣaɣla medze o): Edge Wallet, Zecwallet Lite.
+  - Ɖe wo tso [wallets](https://zechub.wiki/wallets). Wɔ ɣaɣla gaɖoƒe ƒe dzesi [address] si dze egɔme kple 'zs' na ɣaɣla ne gaƒuƒoƒo la wɔa dɔ kple ema.
 
-### Bubu
-- Elektrikŋusẽ: Bu gazazãwo ƒe akɔnta. GPUwo zãa 150-300W le kaɖi ɖeka dzi; ASIC-wo ƒe 1000W+.
-- Antivirus: Trɔ asi le eŋu le ɖoɖowɔwɔ me elabena ate ŋu ade dzesi tomenukulawo be wonye ŋɔdzinuwo.
+### Bubuwo
+- Elektrik: Bui asiwo. GPUwo zãa 150-300W na card ɖeka; ASICwo 1000W+.
+- Antivirus: Ɖe le teƒe le ɖoɖo ƒe ɣeyiɣi me elabena ate ŋu awɔ dzesi be nukulawo nye afɔɖe.
 
-## Afɔɖeɖe ɖesiaɖe ƒe Mɔfiame si Ku Ðe Tomenukuƒe ƒe Ðekawɔwɔ Ŋu
+## Afɔɖeɖe Ƒe Mɔfiame Na Nukuku Ƒe Gaƒuƒoƒo Ƒe Nɔnɔ
 
-### Afɔɖeɖe 1: Ðo Wò Zcash Gakotoku
-1. Wɔ gakotoku aɖe ƒe kɔpi eye nàdae ɖe wò kɔmpiuta dzi tso Zcash nyatakakadzraɖoƒe si dziɖuɖua da asi ɖo [gakotokuwo](https://zechub.wiki/wallets).
-2. Wɔ gakotoku yeye eye nàwɔ wò nuku ƒe nyagbea ƒe kɔpi dedie.
-3. Wɔ adrɛs si nàxɔ (anyo wu be woakpɔ eta hena ame ŋutɔ ƒe nyawo tsɔtsɔ aɣla). De dzesii ɖi, le kpɔɖeŋu me, `zs1exampleaddress...`.
-4. Ne adrɛs si me kɔ zãm (edze egɔme kple 't') la, ele bɔbɔe wu gake menaa ame ŋutɔ ƒe nyawo tsɔtsɔ aɣla fũu o.
+### Afɔɖe 1: Ɖo Wò Zcash Gakotoku Ɖe Anyi
+1. Ɖe eye nàtsɔ gakotoku tso official Zcash website [wallets](https://zechub.wiki/wallets).
+2. Wɔ gakotoku yeye eye nàdzra wò gadzraɖoɖi nya [seed phrase] ɖe teƒe dedie.
+3. Wɔ dzesi si wòaxɔa nu (enye nyuitɔ be wòanye ɣaɣla na ɣaɣla). Ŋlɔe ɖi, le kpɔɖeŋu me, `zs1exampleaddress...`.
+4. Ne èzã nuwo ƒe ʋuʋuɖi dzesi si dze egɔme kple 't' la, eŋutɔ bɔbɔe gã wu ke ɣaɣla si le eme sɔ gbɔ.
 
-### Afɔɖeɖe 2: Dzra Wò Hardware Ðo
-- Le GPUwo gome la:
-  1. De GPUwo wò PC me eye nàwɔ ʋukulawo yeyee (NVIDIA: GeForce Experience; AMD: Radeon Software).
-  2. Overclock ne nuteƒekpɔkpɔ (zã MSI Afterburner hena liƒo; taɖodzinu na +100-200 core clock, -500 memory hena dɔwɔwɔ nyuie).
-- Le ASIC-wo gome la:
-  1. Do ka kple ASIC la ɖe elektrikŋusẽ kple Ethernet ŋu.
-  2. Di eƒe IP adrɛs to dɔwɔnu abe Advanced IP Scanner alo ewɔla ƒe dɔwɔnu ene zazã me.
-  3. Ge ɖe web dashboard la me (le kpɔɖeŋu me, ŋlɔ IP ɖe browser me, gege ɖe eme gbãtɔ: root/root na Bitmain).
+### Afɔɖe 2: Dzra Wò Mɔ̃nuwo Ɖo
+- Na GPUwo:
+  1. Ɖo GPUwo ɖe wò PC me eye nàtrɔ driverwo yeyee (NVIDIA: GeForce Experience; AMD: Radeon Software).
+  2. Dze edzi ne ènyae nyuie (zã MSI Afterburner na dzideƒo; di be core clock nadze edzi kple +100-200, memory nadze ɖe -500 na dɔwɔ nyui).
+- Na ASICwo:
+  1. Ɖo ASIC la ɖe ŋusẽ kple Ethernet.
+  2. Di eƒe IP gaɖoƒe ƒe dzesi kple dɔwɔnu abe Advanced IP Scanner alo manufacturer la ƒe app ene.
+  3. Ʋu web dashboard la (le kpɔɖeŋu me, ŋlɔ IP la ɖe browser me, login si wòde eme le gɔmedzedze nye: root/root na Bitmain).
 
-**Nuxlɔ̃ame:** Kpɔ egbɔ be ya nyui le eme; tomenukuƒewo naa dzoxɔxɔ dona. Dze egɔme tso sue dzi be nàdoe kpɔ.
+**Nuxlɔ̃ame:** Kpɔe be ya adze nyuie; nukuku wɔa dzo. Dze egɔme kple nu sue be nàte eŋu akpɔ.
 
-### Afɔɖeɖe 3: Tia Tomenukuƒe aɖe eye nàwɔ ɖeka kplii
-Tomenukuƒewo maa dɔwɔwɔ eye woama teƒeɖoɖowo ɖe wò hashrate si nèdzɔ nu. Tiae ɖe fetu (0-2%), fexexe suetɔ kekeake (0.01-0.1 ZEC), teƒe si nèle (ping si le sue), kple kakaɖedzi nu.
+### Afɔɖe 3: Ti Eye Nàƒo Ɖe Nukuku Ƒe Gaƒuƒoƒo Ŋu
+Nukuku ƒe gaƒuƒoƒowo maa dɔ mawo eye woma fetuwo ɖe hash rate si wònye wò tɔ la nu. Ti wo ɖe adzɔ [fee] (0-2%), fetu si woanaxɔ katã vi (0.01-0.1 ZEC), nɔƒe (ping si me gbɔ), kple wɔnɔƒe ŋu.
 
-**Tadeaguƒe Siwo Wokafu (Wotue Ðe Hashrate, Fewo, Kple Numetotowo Dzi):**
-- **2Miners (zec.2miners.com)**: 1% fetu, PPLNS fexexe, doa alɔ GPU / ASIC / NiceHash. Hashrate si kɔkɔ (~1.17 GSol/s), dɔwɔƒe siwo ŋu kakaɖedzi le.
-- **F2Pool (zec.f2pool.com)**: 2% fetu, PPS + fexexe, ga geɖe ƒe kpekpeɖeŋu. Ta gã aɖe (~ 2.57 GSol/s).
-- **ViaBTC (zec.viabtc.com)**: 2% fetu (PPS +), zãla-xɔlɔ̃wɔwɔ dashboard, xexeame katã ƒe dɔwɔƒewo.
-- **AntPool (zec.antpool.com)**: 1% ƒe fetu, tso Bitmain gbɔ, enyo na ASICwo (~ 494 MSol/s).
-- **Foundry Zcash Pool (foundrydigital.com/foundry-zcash-pool/)**: Zcash tomenukuƒe si nye dɔnyala bibi si Foundry Digital wɔ. Ezãa PPLNS ƒe fexexe, naa teƒeɖoɖowo yometiti le gaglãgbe kple dɔwɔƒe ƒe ɖoƒe ƒe kpekpeɖeŋu. Esɔ nyuie wu na ASIC tomenukulawo le dɔwɔƒewo kple gãwo; bia be woaɖo kpe akɔntabubua dzi.
-- **Sovright (mining.sovright.com)**: Zcash ta si wotu ɖe Stratum V2 dzi, si le dɔ wɔm fifia abe dutoƒo dodokpɔmɔ̃ ene. ZEC fexexe aɖeke mele agbe haɖe o, eyata bu eŋu be enye mɔnu si dzi nàto ado wò ɖoɖoa kpɔ tsɔ wu be wòanye gakpɔkpɔtsoƒe. Kpɔ akpa si woɖo ɖi le ete hena numeɖeɖe bubuwo.
-- Bubuwo: Kryptex Pool, Luxor (kpɔ poolwatch.io/coin/zcash hena ɣeyiɣi ŋutɔŋutɔ ƒe akɔntabubuwo).
+**Gaƒuƒoƒo Siwo Woaɖo Ŋu (Wotso Hashrate, Adzɔ, Kple Nudzodzro Ŋu):**
+- **2Miners (zec.2miners.com)**: 1% adzɔ, PPLNS fetu, wɔa dɔ kple GPU/ASIC/NiceHash. Hashrate le dzi (~1.17 GSol/s), serverwo le dzideƒo.
+- **F2Pool (zec.f2pool.com)**: 2% adzɔ, PPS+ fetu, coin geɖe ƒe kpekpeɖeŋu. Gaƒuƒoƒo gã (~2.57 GSol/s).
+- **ViaBTC (zec.viabtc.com)**: 2% adzɔ (PPS+), ɖoɖowo ƒuƒopé si bɔbɔe na zãla, serverwo le xexeame blibo me.
+- **AntPool (zec.antpool.com)**: 1% adzɔ, tso Bitmain gbɔ, nyo na ASICwo (~494 MSol/s).
+- **Foundry Zcash Pool (foundrydigital.com/foundry-zcash-pool/)**: Zcash ƒe nukuku ƒe gaƒuƒoƒo si wɔnɔa dɔ kple amedzrowo le Foundry Digital gbɔ. Ezãa PPLNS fetuwo, eye wònaa fetuwo ƒe kpɔkpɔ si le ʋuʋuɖi me kple kpekpeɖeŋu si nyo na dzikpɔkpɔ. Wònyo ŋutɔ na ASIC nukulawo siwo wɔnɔa dɔ le dzidzime kple hame gãwo; wòhia account ƒe kakaɖedzi.
+- **Sovright (mining.sovright.com)**: Zcash ƒe gaƒuƒoƒo si wotu ɖe Stratum V2 dzi, si le public testnet dzi fifia. ZEC ƒe fetu vavã aɖeke mele o haɖe, eyata zãe abe mɔ si woaɖe wò ɖoɖo ate eŋu kpɔ ene, menye abe ga xɔxɔ ƒe teƒe ene o. Kpɔ akpa si tututu le ete na nyawo.
+- Bubuwo: Kryptex Pool, Luxor (kpɔ poolwatch.io/coin/zcash na statistik siwo le fifia).
 
-1. Yi ta la ƒe nyatakakadzraɖoƒea eye nàwɔ akɔnta (email alo ame aɖewo abe 2Miners ene ƒe ŋkɔ ŋɔŋlɔ aɖeke meli o).
-2. Tsɔ wò Zcash gakotoku ƒe adrɛs kpe ɖe fexexe ƒe ɖoɖowo ŋu.
-3. De dzesi ta la ƒe stratum server (le kpɔɖeŋu me, zec.2miners.com:1010) kple port.
+1. Yi gaƒuƒoƒo la ƒe website dzi eye nàwɔ account (email alo registration aɖeke mele na ɖewo abe 2Miners ene).
+2. Ɖo wò Zcash gakotoku ƒe dzesi ɖe settings me na fetuwo.
+3. Ŋlɔ gaƒuƒoƒo la ƒe stratum server (le kpɔɖeŋu me, zec.2miners.com:1010) kple port ɖi.
 
-### Afɔɖeɖe 4: De Tomenukuƒea ƒe Kɔmpiutadziɖoɖowo De Dɔwɔɖoɖowo Me eye Nàwɔ Wo Ðoɖo Ðe Eŋu
-- Le GPUwo gome (Kpɔɖeŋu: lolMiner le Windows/Linux):
-  1. Wɔ lolMiner ƒe kɔpi tso GitHub (ƒe yeyetɔ, le kpɔɖeŋu me, 1.88).
-  2. Tsɔe yi agbalẽdzraɖoƒe aɖe.
-  3. Wɔ batch file (start.bat) kple ɖoɖowɔɖi:
+### Afɔɖe 4: Ɖe Eye Nàɖo Nukuku Ƒe Software Ɖe Anyi
+- Na GPUwo (Kpɔɖeŋu: lolMiner le Windows/Linux):
+  1. Ɖe lolMiner tso GitHub (version yeye, le kpɔɖeŋu me, 1.88).
+  2. Ʋu eƒe filewo ɖe folder aɖe me.
+  3. Wɔ batch file (start.bat) kple ɖoɖo sia:
      ```
      lolMiner.exe --coin ZEC --pool zec.2miners.com:1010 --user YOUR_WALLET_ADDRESS.WORKER_NAME --pass x
      ```
-     - Ɖo eteƒe `YOUR_WALLET_ADDRESS` kple wò ZEC adrɛs.
+     - Trɔ `YOUR_WALLET_ADDRESS` ɖe wò ZEC dzesi.
      - `WORKER_NAME`: Ŋkɔ na wò rig (le kpɔɖeŋu me, Rig1).
-     - Le EU ƒe dɔwɔƒewo gome la: eu.zec.2miners.com:1010.
-  4. Tsɔ batch file la ƒu du. Aƒo ka kple ta la eye wòadze tomenukudɔ gɔme.
-- Le ASICwo gome (Kpɔɖeŋu: Bitmain Antminer):
+     - Na EU serverwo: eu.zec.2miners.com:1010.
+  4. Ƒo batch file la. Eɖo ɖe gaƒuƒoƒo la ŋu eye wòadze nukuku gɔme.
+- Na ASICwo (Kpɔɖeŋu: Bitmain Antminer):
   1. Ge ɖe web dashboard la me.
-  2. Yi Miner ƒe Ðoɖowɔɖi gbɔ.
-  3. Tsɔ ta la ŋuti nyatakakawo kpee:
+  2. Yi Miner Configuration.
+  3. Tsɔ gaƒuƒoƒo ƒe nyawo ɖe eme:
      - URL: stratum+tcp://zec.2miners.com:1010
-     - Zãla ƒe ŋkɔ: YOUR_WALLET_ADDRESS.WORKER_NAME
-     - Nyagbe ɣaɣla: x (alo ƒuƒlu).
-  4. Dzra tomenukuƒea ɖo eye nàgbugbɔ adze egɔme.
-- Le kɔmpiutadziɖoɖo bubuwo gome (le kpɔɖeŋu me, GMiner):
+     - Username: YOUR_WALLET_ADDRESS.WORKER_NAME
+     - Password: x (alo mele).
+  4. Dzra ɖoɖo la ɖo eye nàgbugbɔ nukula la.
+- Na software bubuwo (le kpɔɖeŋu me, GMiner):
   ```
   miner.exe --algo 125_4 --server zec.2miners.com:1010 --user YOUR_WALLET_ADDRESS.WORKER_NAME --pass x
   ```
 
-**Dodokpɔ:** Duƒuƒu hena miniti 10-15; kpɔ console hena gomekpɔkpɔ siwo dzi woda asi ɖo kple hashrate.
+**Tetee:** Ƒo dɔ le minuti 10-15; kpɔ console la me na share siwo woxɔ kple hashrate.
 
-### Afɔɖeɖe 5: Dze Tomenukudɔ gɔme eye nàlé ŋku ɖe eŋu
-1. Dze tomenukuƒea gɔme: ado ka kple ta la eye wòadze gomekpɔkpɔwo ɖoɖo ɖa gɔme.
-2. Kpɔ egbɔ to:
-   - Pool dashboard: Ŋlɔ wò gakotoku ƒe adrɛs be nàkpɔ hashrate, ga si womexe o, kple akɔntabubuwo.
-   - Kɔmpiutadziɖoɖo ƒe mɔ̃: Kpɔ vodadawo ɖa, dzoxɔxɔ (na < 80 degrees C).
-   - Dɔwɔnuwo: Zã HiveOS alo SimpleMining OS hena adzɔge rig dzikpɔkpɔ.
-3. Fexexe: Ta akpa gãtɔ xea fe le wo ɖokui si ne èɖo suetɔ gbɔ (le kpɔɖeŋu me, 0.05 ZEC). Kpɔ tadeaguƒea ƒe sewo ɖa.
+### Afɔɖe 5: Dze Nukuku Gɔme Eye Nàkpɔe
+1. Ƒo nukula la: woaɖo ɖe gaƒuƒoƒo la ŋu eye woaɖe asi adzro sharewo.
+2. Kpɔe to:
+   - Gaƒuƒoƒo ƒe ɖoɖowo ƒuƒopé: Ŋlɔ wò gakotoku ƒe dzesi be nàkpɔ hashrate, balance si menaxɔ o, kple statistikwo.
+   - Software ƒe console: Le ŋku ɖe vodadawo, dzɔdzɔ (nàwɔe be wòanɔ < 80 degrees C).
+   - Dɔwɔnuwo [Tools]: Zã HiveOS alo SimpleMining OS na rig ƒe kpɔkpɔ tso didime.
+3. Fetuwo: Gaƒuƒoƒo geɖe maa wo ɖokui ƒe mɔ nu ne èva ɖo fetu si le vi la (le kpɔɖeŋu me, 0.05 ZEC). Kpɔ gaƒuƒoƒo la ƒe sewo.
 
    
 ![Zcash Mining Monitoring Setup](/content-images/zcashMining-5ca0019c17.webp)
 
 
-## Sovright: Testnet Ta kple Relay Network
+## Sovright: Testnet Ƒe Gaƒuƒoƒo Kple Block Ƒe Relay Network
 
-Sovright (sovright.com) wɔa Stratum V2 tomenukuƒe kple block relay network si le vovo. Wowɔa dɔ vovovowo, eyata woƒo nu tso wo ŋu ɖe vovo le ete.
+Sovright (sovright.com) wɔa Stratum V2 nukuku ƒe gaƒuƒoƒo kple block relay network si le ɖe eŋu. Wɔa dɔ vovovo, eyata woɖe wo me ɖe eŋu le ete.
 
-### Tomenukuƒe (mining.sovright.com)
+### Nukuku Ƒe Gaƒuƒoƒo (mining.sovright.com)
 
-Sovright's ta la zɔna le dutoƒo Zcash testnet (NU6, Stratum V2) dzi, ke menye mainnet dzi o. Testnet la mexea ZEC. Zãe nàtsɔ ado wò tomenukulawo ƒe ɖoɖoa kpɔ, ke menye be nàkpɔ ga o.
+Sovright ƒe gaƒuƒoƒo la le Zcash ƒe public testnet (NU6, Stratum V2) dzi, menye mainnet o. Testnet la memaa ZEC vavã o. Zãe be nàte wò nukula ƒe ɖoɖo ŋu kpɔ, menye be nàxɔ ga o.
 
-- Womehiã akɔntabubu aɖeke hafi woadze egɔme o. Fia asi CPU alo ASIC Equihash tomenukulawo le ta la gbɔ eye wò gomekpɔkpɔwo adze le live dashboard dzi.
-- Sovright ta Stratum V2 proxy si le ʋuʋu ɖi hã na tomenukulawo siwo di be yewoatia yewo ŋutɔ yewoƒe block templates tsɔ wu be yewoaxɔ ta la ƒe dɔwo ko:
+- Account aɖeke mehia be woaɖe asi adze gɔme o. Ɖo CPU alo ASIC Equihash nukula ɖe gaƒuƒoƒo la ŋu eye wò sharewo adzɔ ɖe dashboard si le agbe me.
+- Sovright hã doa Stratum V2 proxy si open source la ɖe go na nukulawo siwo di be woati wo ŋutɔ ƒe block templatewo ɖe tsɔtsɔ ƒe teƒe be woaxɔ gaƒuƒoƒo la ƒe dɔwo ko:
 
-### Kpɔkpɔ Foundry Zcash Pool
+### Foundry Zcash Pool Ƒe Kpɔkpɔ
 
-Le Foundry Zcash Pool zãlawo gome la:
+Na Foundry Zcash Pool zãlawo:
 
-- Lé ŋku ɖe tomenukulawo ƒe dɔwɔwɔ ŋu to Foundry pool dashboard dzi.
-- Le ŋku ɖe eŋu:
-  - Dɔwɔla siwo doa vevie nu
-  - Hashrate si ŋu woka nya ta le
-  - Gome siwo dzi woda asi ɖo
-  - Teƒeɖoɖo siwo wobu be woakpɔ
-  - Fexexe ƒe nɔnɔme
+- Kpɔ nukula ƒe dɔwɔwɔ to Foundry pool dashboard la dzi.
+- Kpɔ:
+  - Dɔwɔlawo siwo le dɔ wɔm
+  - Hashrate si wogblɔ
+  - Share siwo woxɔ
+  - Fetu si woabui
+  - Fetu ƒe nɔnɔ
 
-Esi Foundry zãa PPLNS ƒe teƒeɖoɖo ƒe kpɔɖeŋu ta la, tomenukuƒewo ƒe teƒeɖoɖowo nɔ te ɖe gome siwo wodzɔ le ta la ƒe teƒeɖoɖo fesre dzi tsɔ wu be woanɔ te ɖe hashrate si wowɔ enumake dzi ɖeɖeko dzi.
+Esi Foundry zãa PPLNS fetu ƒe mɔ ta la, nukuku ƒe fetuwo ɖe share siwo nètsɔ ɖe eme le gaƒuƒoƒo la ƒe fetu ƒe ɣeyiɣi me ŋu, menye hashrate si le fifia ko ŋu o.
 
-Mɔnu siwo wokafu be woalé ŋku ɖe nu ŋu:
-- Tsɔ ASIC dashboard hashrate sɔ kple hashrate si Foundry ka nya ta.
-- Ku nu me tso gome siwo wogbe, gome siwo do xoxo, alo kadodo ƒe malikenyenye ŋu.
-- Lé network ƒe kadodo si li ke me ɖe asi elabena dɔmawɔmawɔ ɖea gome siwo woɖo ɖa kple teƒeɖoɖo siwo ate ŋu ado tso eme dzi kpɔtɔna.
+Kpɔkpɔ ƒe mɔ siwo woaɖo ŋu:
+- Sɔ ASIC dashboard ƒe hashrate kple Foundry ƒe hashrate si wogblɔ.
+- Dze rejected shares, stale shares, alo kadodo ƒe madzideƒo ŋu.
+- Lé network ƒe kadodo ɖe dzideƒo me elabena dɔtsiatsi wɔa be share siwo nètsɔ ɖe eme kple fetu siwo ate ŋu ava la nadze ɖe anyi.
   ```
   git clone https://github.com/sovright/mining-infra
   cd mining-infra
   cargo build --release -p sovright-v1-stratum-proxy
   ./target/release/sovright-v1-stratum-proxy --listen 0.0.0.0:3334 --upstream 34.28.134.13:3333
   ```
-  Fia asi wò tomenukulawo ɖe teƒea teƒenɔla tsɔ wu be nàfia asi ta la tẽ:
+  Ɖo wò nukula ɖe proxy la ŋu ɖe gaƒuƒoƒo la ŋu tẽ ƒe teƒe:
   ```
   stratum+tcp://<your-proxy-ip>:3334
   ```
-  dɔwɔla ƒe ŋkɔ zazã abe `yourname.rig1`.
-- Sovright's gaglãgbe ƒe axa gblɔ be "de wo katã eme" ƒe ɖoɖo aɖe na asitsatsa siwo wokpɔ ta na, to vovo na tadeaguƒe aɖewo siwo ɖea wo ɖa. Block ɖesiaɖe xɔa ɖaseɖiɖi si wode asi ale be woate ŋu alé ŋku ɖe ɖoɖoa ŋu le wo ɖokui si.
-- Wɔ akɔnta le mining.sovright.com (Google alo email ge ɖe eme) be nàlé ŋku ɖe wò ŋutɔ wò dɔwɔlawo ŋu ɖe kpɔɖeŋu dashboard nyatakakawo teƒe.
+  kple worker ƒe ŋkɔ abe `yourname.rig1` ene.
+- Sovright ƒe transparency page gblɔ be "include all" policy le eŋu na ɣaɣla gaɖoɖowo, menye abe gaƒuƒoƒo ɖewo siwo xɔa wo ɖe aga ene o. Block ɖe sia ɖe xɔa attestation si woɖe asi ɖe, ale be woate ŋu akpɔ policy la ɖe eŋu le ɖokui ƒe mɔ nu.
+- Wɔ account le mining.sovright.com (Google alo email ƒe sign in) be nàkpɔ wò ŋutɔ ƒe workerwo ɖe sample dashboard ƒe data ƒe teƒe.
 
-### Relay ƒe Nyatakakadzraɖoƒe (relay.sovright.com)
+### Relay Network (relay.sovright.com)
 
-Sovright wɔa dutoƒo block relay network ɖe vovo le Zcash mainnet dzi. Ne ta aɖe ke ɖe block ŋu la, alesi block ma ɖoa network la ƒe akpa mamlɛa kabakabae ye afia zi nenie wòazu tsyɔ̃evi, si fia be ebu kaka ƒe duɖimekekea eye fetu si wòaxɔ ɖe eta la bu. Relay la tsɔa blockwo yia ŋgɔ le nuto ene me to compact block relay kple ŋgɔgbe vodada ɖɔɖɔɖo zazã me.
+Sovright wɔa public block relay network le Zcash mainnet dzi hã le ɖe eŋu. Ne gaƒuƒoƒo aɖe kpɔ block aɖe la, ale si block ma va ɖo network la ƒe akpa bubuwo gbɔ kaba ɖea eŋu be wòaɖe eƒe akpa le eŋu aɖeke o, si fia be edze edzi le propagation ƒe hoho la me eye fetu si le eŋu la bui. Relay la naa blockwo tso region ene me to compact block relay kple forward error correction.
 
-Dutoƒo dashboard la ɖea ŋusẽkpɔɖeamedzia fiana le agbe: nuto siwo do ƒome kple relay kpɔa block yeyewo le ɣeyiɣi si me hatiwo ƒe nyatoƒoetoto dzrowo xɔna ƒe afã teti me, eye dashboard la léa ŋku ɖe network la ƒe tsyɔ̃evi siwo le agbe ƒe agbɔsɔsɔme ŋu.
+Public dashboard la fia eƒe wɔwɔ le agbe me: region siwo ɖo ɖe relay la ŋu kpɔa block yeye le ɣeyiɣi si me nye pɛtɛɛ wu peer to peer gossip ƒe ɣeyiɣi ƒe afã, eye dashboard la lɔ̃a network la ƒe orphan rate si le agbe me.
 
-Esia nye xɔtuɖaŋu na tadeagulawo, ke menye tomenukulawo ɖekaɖeka o. Sovright's dzɔtsoƒe si le ʋuʋu ɖi `mining-infra` nudzraɖoƒe ƒe nuŋlɔɖiwo a `submitblock` relay gateway na fanning kpɔ blocks ɖe mesh la me kabakaba wu native P2P. Be nàdo ka la, te ɖe Sovright ŋu tẽ (support@sovright.com) hena relay peer adrɛswo kple auth key.
+Esia nye infrastructure na gaƒuƒoƒo ƒe amegãwo, menye na nukula ɖekaɖekawo o. Sovright ƒe open source `mining-infra` repository ɖe `submitblock` relay gateway si doa block si woekpɔ ɖe mesh la me kaba wu native P2P la ƒe nu. Be nàɖo ɖe eŋu la, ka ɖe Sovright ŋu tẽ (support@sovright.com) na relay peer ƒe gaɖoƒe ƒe dzesiwo kple auth key.
 
 
-## Tomenukuƒe ɖe wò ŋutɔ wò Zebra node ŋu
+## Nukuku ɖe wò ŋutɔ ƒe Zebra ɣaɣla dzesi ŋɔŋlɔ [node] ŋu
 
-Nusianu si le etame la fia asi wò tomenukulawo ɖe ame bubu ƒe ta. Mɔ bubue nye be wò ŋutɔ nàwɔ node aɖe eye nàna wò tomenukuƒe ƒe kɔmpiutadziɖoɖoa nabia tso esi be wòawɔ dɔ. Esi zcashd tɔ le 18 July 2026 dzi ta la, ema fia be [Zebra](/zcash-tech/zebra-full-node), node si ŋu akpa sia ƒo nu tsoe.
+Nu siwo katã le etame la ɖo wò nukula ɖe ame bubu ƒe gaƒuƒoƒo ŋu. Mɔ bubu la nye be nàwɔ node wò ŋutɔ eye nàwɔe be wò nukuku ƒe software nabi dɔ tso egbɔ. Esi zcashd tɔ ɖe 18 July 2026 la, ema fia be [Zebra](/zcash-tech/zebra-full-node), eye node siae akpa sia ɖe eŋu.
 
-Zebra's akpa le sue eye wòle tẽ: etua block templates eye wòxɔa block siwo wokpɔ gbɔ to eƒe RPC interface dzi. Tomenukuƒe ƒe kɔmpiutadziɖoɖowoe wɔa hashing la, eye teƒeɖoɖowo mama le tomenukulawo dometɔ geɖe dome nye pool software ƒe dɔ. Ne tomenukuƒe ɖeɖeko akpɔ mɔxenu aɖe gbeɖeka la, enɔ te ɖe wò gomekpɔkpɔ le network la ƒe hash rate me dzi, si akpa sia medze agbagba be yeabu akɔnta o. Esia tae axa sia ƒe ŋgɔdonya mekafu solo mining na ezãla akpa gãtɔ o.
+Zebra ƒe akpa sue eye wòle kpuie: ewɔa block templatewo eye wòxɔa block si woɖo nu le eƒe RPC interface dzi. Nukuku ƒe softwaree wɔa hashing la, eye be woama fetuwo na nukula geɖewo nye pool software ƒe dɔ. Be nukuku wɔnɔ ɖeka akpɔ block aɖe kpɔa ɖe wò akpa le network la ƒe hash rate me ŋu, si akpa sia metoa ŋku bui o. Esia tae nye be mɔgɔmeɖeɖe si le axa sia gɔme medi nukuku wɔnɔ ɖeka na zãla geɖewo o.
 
-Afɔɖeɖeawo kplɔ Zebra Book ƒe axa eve ɖo, [Zcash kple Zebra](https://zebra.zfnd.org/user/mining.html) kple [Tomenukuƒe kple Zebra le Docker](https://zebra.zfnd.org/user/mining-docker.html), abe alesi wonɔ le 8 October 2026. Ŋkɔ veviwo kple nusiwo woɖo ɖi la trɔna le esiwo woɖe ɖe go dome, eyata lé ŋku ɖe Agbalẽa ŋu hafi nàɖo ŋu ɖe ɖeka ŋu.
+Afɔɖewo do ŋku Zebra Book ƒe axa eve, [Mining Zcash with Zebra](https://zebra.zfnd.org/user/mining.html) kple [Mining with Zebra in Docker](https://zebra.zfnd.org/user/mining-docker.html), abe ale si wonɔ le 8 October 2026 ene. Key ƒe ŋkɔwo kple defaultwo trɔna le release vovovowo dome, eyata kpɔ Book la hafi nàɖo ŋku ɖe ɖeka ŋu.
 
-### Ðo adrɛs si axɔ teƒeɖoɖoa
+### Ɖo dzesi si axɔ fetu la ɖe anyi
 
-Wɔ ɖoɖowɔɖi ƒe faɛl si me ɖoɖo gbãtɔawo le, emegbe nàtrɔ asi le eŋu:
+Wɔ config file kple default settings, eye nàtrɔe:
 
 ```bash
 mkdir -p ~/.config
 zebrad generate -o ~/.config/zebrad.toml
 ```
 
-Wobia tomenukulawo ƒe adrɛs ([Agbalẽ: Tomenukulawo ƒe adrɛs](https://zebra.zfnd.org/user/mining.html#miner-address)):
+Nukula ƒe dzesi hiã ([Book: Miner address](https://zebra.zfnd.org/user/mining.html#miner-address)):
 
 ```toml
 [mining]
 miner_address = "YOUR_ADDRESS"
 ```
 
-Zebra xɔa P2PKH alo P2SH adrɛs si me kɔ, Sapling adrɛs, alo Unified Address. Le Unified Address, Agbalẽa gblɔ be Zebra xea fe na xɔla ɖeka, "elɔ̃a Orchard, emegbe Sapling, emegbe transparent".
+Zebra xɔa transparent P2PKH alo P2SH dzesi, Sapling dzesi, alo Unified Address. Na Unified Address si me receiver geɖe le la, Book la gblɔ be Zebra maa fetu ɖe receiver ɖeka ko, "ewɔa ŋgɔ na Orchard, eye Sapling va gbɔ, eye transparent va mlɔeba".
 
-Safui eve siwo woate ŋu awɔ le wo ɖokui si la yia ɖeka me `[mining]` akpa:
+Key eve siwo menye tilili o ɖo ɖe `[mining]` akpa ma ke me:
 
-| Asafui | Nusi wòwɔna | Seɖoƒe li na |
+| Key | Nu si ewɔ | Kakaɖedzi |
 |---|---|---|
-| `extra_coinbase_data` | Tsɔ dutoƒo tag, abe pool ŋkɔ ene, kpena ɖe coinbase input si le block ɖesiaɖe si nèku la ŋu, le Zebra's dzesi ([Agbalẽ](https://zebra.zfnd.org/user/mining.html#extra-coinbase-data)) | 86 ƒe byte. Le esia ta la, "Zebra gbe be yemadze egɔme o" |
-| `miner_memo` | Tsɔ nuŋlɔɖi si wotsɔ akpoxɔnu wɔe kpena ɖe teƒeɖoɖoa ƒe emetsonua ŋu. To vovo na ema `extra_coinbase_data` menye dutoƒoe wònye o: amesi si nukpɔkpɔ ƒe safui le na adrɛs si xɔe koe ate ŋu axlẽe ([Agbalẽ](https://zebra.zfnd.org/user/mining.html#miner-memo)) | 512 ƒe byte. Ne teƒeɖoɖoa yi na amesi xɔ akpoxɔnu ko hafi wòwɔa dɔ. Ne adrɛs si me kɔ la "le ɖoɖoezizi me mekpɔa ŋusẽ aɖeke ɖe edzi o" |
+| `extra_coinbase_data` | Etsɔ tag si le ʋuʋuɖi me, abe pool ƒe ŋkɔ ene, ɖe coinbase input ƒe block sia sia si nènuku me, le Zebra ƒe marker ŋutɔ ([Book](https://zebra.zfnd.org/user/mining.html#extra-coinbase-data)) megbe | Byte 86. Ne wòva le ema wu la, "Zebra gbe be yeaɖe asi adze gɔme" |
+| `miner_memo` | Etsɔ ɣaɣla nya kpui [memo] ɖe fetu ƒe output la ŋu. To vovototo na `extra_coinbase_data`, menye nu si le ʋuʋuɖi me o: ame si si nukpɔsafui [viewing key] na dzesi si xɔa nu la ko ate ŋu axlẽe ([Book](https://zebra.zfnd.org/user/mining.html#miner-memo)) | Byte 512. Ewɔa dɔ ne fetu la yi ɖe ɣaɣla receiver gbɔ ko. Ne nuwo ƒe ʋuʋuɖi dzesi le la, "ewɔa naneke le ɣaɣla me o" |
 
-### Ʋu RPC ʋɔtrua
+### Ʋu RPC port la
 
-Mining software ƒoa nu kple Zebra to JSON-RPC dzi, si nɔa anyi vaseɖe esime nèna adrɛse be wòase le ([Agbalẽ: RPC ƒe akpa aɖe](https://zebra.zfnd.org/user/mining.html#rpc-section)):
+Nukuku ƒe software doa ƒo kple Zebra to JSON-RPC, si menɔa dɔ wɔm o va se ɖe esime nàtsɔ gaɖoƒe ƒe dzesi si woaɖo to ɖo eŋu ([Book: RPC section](https://zebra.zfnd.org/user/mining.html#rpc-section)):
 
 ```toml
 [rpc]
 listen_addr = "127.0.0.1:8232"
 ```
 
-8232 nye RPC ʋɔtru si wozãna ɖaa le Mainnet dzi. `127.0.0.1` nana be mɔ̃ ɖeka ma ke dzi koe woate ŋu aɖo melidzeƒea.
+8232 nye RPC port si woɖo ɖe Mainnet dzi. `127.0.0.1` léa port la ɖe mɔ si wɔa be machine ma ke ko wòaɖo eŋu.
 
-Esi wònye Zebra 2.0.0 ta la, cookie kpɔa RPC ʋɔtrua ta, si nye mɔnu si sɔ kple esi zcashd zã. Zebra ŋlɔa kuki la ne RPC ƒe nuwuƒe dze egɔme eye wòtutunɛ ne etɔ. Le gɔmedzedzea me la, faɛl la nɔa Zebra's cache directory me, le kpɔɖeŋu me `/home/user/.cache/zebra/.cookie` le Linux, eye wòléa fli ɖeka ɖe asi:
+Tso Zebra 2.0.0 me la, cookie aɖe ɖea RPC port la, mɔ si sɔ kple esi zcashd zã. Zebra ŋlɔa cookie la ne RPC endpoint la dze gɔme eye wòtutui ne wòwɔ dɔ. Le default me la, file la le Zebra ƒe cache ƒe folder me, le kpɔɖeŋu me, `/home/user/.cache/zebra/.cookie` le Linux, eye line ɖeka ko le eme:
 
 ```text
 __cookie__:PASSWORD
 ```
 
-`rpc.cookie_dir` ʋua faɛl la. `rpc.enable_cookie_auth = false` tsia dzesidea, eye wòtsɔa kpeɖodzi ɖeka kolia si le RPC ʋɔtrua si: nusianu si ateŋu aɖo ʋɔtrua gbɔ ateŋu ayɔe emegbe.
+`rpc.cookie_dir` trɔa file la ƒe teƒe. `rpc.enable_cookie_auth = false` dea kpekpeɖeŋu la le teƒe, eye kple ema la, authentication ɖeka si RPC port la si hã ɖe le teƒe: nu sia nu si ate ŋu ava ɖo port la ŋu ate ŋu ayɔe.
 
-### Dze Zebra gɔme eye nàna wòawɔ ɖeka
+### Ɖe Zebra Gɔme Eye Nàle Eƒe Sync Ƒe Nu
 
 ```bash
 zebrad
 ```
 
-Zebra xlẽa config la tso teƒe si woɖoe ɖo. To eme `-c /path/to/zebrad.toml` be nàzã faɛl bubu. Lala be sync la nawu enu. Nuŋlɔɖia ɖee fia `sync_percent=100.000%` ne ewɔe be ([Agbalẽ: Zebra si le du dzi](https://zebra.zfnd.org/user/mining.html#running-zebra)). [Zebra Node Bliboe](/zcash-tech/zebra-full-node) ƒoa nu tso hardware kple disk ƒe teƒe ŋu.
+Zebra xlẽa config la tso teƒe si woɖo le default me. Tsɔ `-c /path/to/zebrad.toml` be nàzã file bubu. Le sync la ƒe nu va se ɖe esime wòava nu. Log la afia `sync_percent=100.000%` ne wòwu ([Book: Running zebra](https://zebra.zfnd.org/user/mining.html#running-zebra)). [Zebra Full Node](/zcash-tech/zebra-full-node) ɖe mɔ̃nuwo kple disk ƒe teƒe ŋu.
 
-### Kpɔe ɖa kple getblocktemplate
+### Kpɔe kple getblocktemplate
 
-`getblocktemplate` nye kaƒoƒo si tomenukuƒe ƒe kɔmpiutadziɖoɖowo wɔna be woakpɔ dɔ, eyata enye dodokpɔ si wowɔna kabakaba wu hã ([Agbalẽ: Dodokpɔ le ɖoɖoa ŋu](https://zebra.zfnd.org/user/mining.html#testing-the-setup)). Tsɔ wò cookie file me nyawo de.. `__cookie__:PASSWORD`:
+`getblocktemplate` nye yɔyɔ si nukuku ƒe software wɔna be wòaxɔ dɔ, eyata enye tetee si kaba wu ([Book: Testing the setup](https://zebra.zfnd.org/user/mining.html#testing-the-setup)). Ɖo nu si le wò cookie file me ɖe `__cookie__:PASSWORD` ƒe teƒe:
 
 ```bash
 curl --silent --data-binary '{"jsonrpc": "1.0", "id":"curltest", "method": "getblocktemplate", "params": [] }' -H 'Content-type: application/json' http://__cookie__:PASSWORD@127.0.0.1:8232/ | jq
 ```
 
-Setup si le dɔ wɔm trɔna a `result` tsi tre ɖe agble siwo tomenukulawo hiã ŋu, le wo dome `previousblockhash`, `coinbasetxn`, `target` kple `height`. Ne èɖoe `extra_coinbase_data`, Agbalẽa ɖe alesi nàwɔ ake ɖe wò tag la ŋu me `coinbasetxn.data`.
+Ɖoɖo si wɔa dɔ trɔa `result` object aɖe gbɔ kple field siwo nukula hia, siwo me `previousblockhash`, `coinbasetxn`, `target` kple `height` le. Ne nèɖo `extra_coinbase_data` ɖe anyi la, Book la ɖe mɔ si nàto akpɔ wò tag le `coinbasetxn.data` me.
 
-### Fia asi wò tomenukuƒe ƒe kɔmpiutadziɖoɖoa ɖe eŋu
+### Ɖo wò nukuku ƒe software ɖe eŋu
 
-Na wò tomenukuƒe alo pool ƒe kɔmpiutadziɖoɖoa nanye RPC ƒe nuwuƒe, `127.0.0.1:8232`, kple zãla ƒe ŋkɔ kple nyagbe si tso cookie la me. Agbalẽa gblɔ be Zebra "doa alɔ RPC mɔnu siwo hiã be woatsɔ awɔ tomenukuƒe ƒe kɔmpiuta dɔwɔɖoɖo akpa gãtɔ" ([Agbalẽ: Du tomenukuƒe aɖe](https://zebra.zfnd.org/user/mining.html#run-a-mining-pool)).
+Na wò nukuku alo pool software la RPC endpoint, `127.0.0.1:8232`, kple zãla ƒe ŋkɔ kple password si le cookie la me. Book la gblɔ be Zebra "kpɔa RPC mɔ siwo hiã be woatsɔ awɔ nukuku ƒe pool software geɖe" ([Book: Run a mining pool](https://zebra.zfnd.org/user/mining.html#run-a-mining-pool)).
 
-Nu eve siwo nàŋlɔ tso Agbalẽa me hafi atia kɔmpiutadziɖoɖowo:
+Nya eve tso Book la me hafi nàtia software:
 
-- **s-nomp nye dodokpɔ ɖeɖeko tɔ.** Agbalẽa yɔ eƒe s-nomp ɖoɖoa be "dodokpɔ" eye wògblɔ be s-nomp "mewɔ ɖeka kple NU5, eyata wotu tomenukudɔ aɖewo nuwɔametɔe". Enye [Testnet ƒe mɔfiame](https://zebra.zfnd.org/user/mining-testnet-s-nomp.html) egblɔ kpee be s-nomp "mewɔ yeye le se nu na NU5 alo emegbe network ƒe tɔtrɔwo o" eye wòfia asi nuwɔwɔ tomenukulawo be woaƒo kɔmpiutadziɖoɖo siwo doa alɔ tɔtrɔ siwo li fifia nu ƒu.
-- **Zebra ɖoa stack si wowɔ xoxo la ɖa.** Zebra nudzraɖoƒea ƒe Docker Compose ɖoɖo le [`docker/mining/`](https://github.com/ZcashFoundation/zebra/tree/main/docker/mining) si dzea Zebra gɔme ɖekae kple tomenukuƒe aɖe eye ne èbiae la, CPU tomenukuƒe. Ta si le eme la nye s-nomp eye wòdzea egɔme tso Testnet dzi negbe ɖe nètrɔe, eyata bu eŋu abe mɔnu si dzi nàto asrɔ̃ akpa siwo le ʋuʋum ene.
+- **s-nomp nye na tetee ko.** Book la yɔ eƒe s-nomp ɖoɖo be "experimental" eye wògblɔ be s-nomp "mewɔa dɔ kple NU5 o, eyata nukuku ƒe dɔwɔwɔ ɖewo mele dɔ wɔm o". Eƒe [Testnet guide](https://zebra.zfnd.org/user/mining-testnet-s-nomp.html) hã tsɔ kpe ɖe eŋu be s-nomp "womeyɔe yeyee official na NU5 alo network upgrade siwo va emegbe o" eye wòɖo production nukulawo ɖe pool software siwo wɔa dɔ kple upgrade siwo le fifia ŋu.
+- **Zebra tsɔ stack si woɖo ɖe anyi vɔ gɔme.** Zebra repository la si Docker Compose ɖoɖo le [`docker/mining/`](https://github.com/ZcashFoundation/zebra/tree/main/docker/mining), si dea Zebra gɔme kple nukuku ƒe pool aɖe, eye ne èbia la, CPU nukula aɖe. Pool si le eme nye s-nomp eye wòdzea gɔme le Testnet dzi ne mètrɔe o, eyata bui be enye mɔ si nàsrɔ akpa vovovowo.
 
-### Docker ƒe mɔa
+### Docker Ƒe Mɔ
 
-Agbalẽa ƒe mɔ kpuitɔ kekeakee nye.. `zfnd/zebra` Docker nɔnɔmetata, kple adrɛs kple RPC ʋɔtrua si wotsɔ yi abe nuto ƒe tɔtrɔwo ene ([Agbalẽ: Tomenukuƒe kple Zebra le Docker](https://zebra.zfnd.org/user/mining-docker.html)). Sedede si le ete la nye Agbalẽa tɔ kple tɔtrɔ ɖeka: etaa RPC ʋɔtrua ɖe host ƒe loopback adrɛs ɖeɖeko dzi, eyata mɔ̃ bubuwo mateŋu aɖo egbɔ o.
+Book la ƒe mɔ si sɔ kpuie nye `zfnd/zebra` Docker image, kple dzesi la kple RPC port si woɖo ɖe environment variablewo me ([Book: Mining with Zebra in Docker](https://zebra.zfnd.org/user/mining-docker.html)). Command si le ete la nye Book la tɔ kple trɔtrɔ ɖeka: edoa RPC port la ɖe host la ƒe loopback gaɖoƒe ƒe dzesi ko dzi, ale be machine bubuwo mate ŋu aɖo eŋu o.
 
 ```bash
 docker run -d --name zebra_local \
@@ -252,23 +252,23 @@ docker run -d --name zebra_local \
   zfnd/zebra:latest
 ```
 
-Esia dzea Mainnet node gɔme, taa P2P ʋɔtru (8233) ɖe Docker host la dzi, eye wònana RPC port (8232) la gbɔ ɖoɖo tso host la ŋutɔ gbɔ ko. Ta cookie la kple:
+Esia dea Mainnet node aɖe gɔme, wònaa P2P port (8233) le Docker host la dzi, eye wòwɔa be RPC port (8232) nakpɔa mɔ tso host la ŋutɔ gbɔ ko. Ta cookie la ɖe go kple:
 
 ```bash
 docker exec -it zebra_local cat /home/zebra/.cache/zebra/.cookie
 ```
 
-- **Le aɖe asi `0.0.0.0` in `ZEBRA_RPC__LISTEN_ADDR`.** Emae nye adrɛs si dzi Zebra ɖoa to le nugoe la me. Docker ɖoa ʋɔtru si wota ɖe nugoe la ŋutɔ ƒe network ƒe ŋgɔdonya, eyata Zebra aɖe le to ɖom `127.0.0.1` le nugoe me maxɔ kadodoa o, tso amedzroxɔla gɔ̃ hã gbɔ. The `127.0.0.1:` le ŋgɔ `-p` nye nusi nana melidzeƒea meganɔa network la dzi o.
-- **Agbalẽa ƒe sedede** ta RPC ʋɔtrua kple `-p 8232:8232`, si ʋunɛ le host la ƒe network interface ɖesiaɖe dzi.
-- **To practise on Testnet**, add `-e ZEBRA_NETWORK__NETWORK="Testnet"`, set `ZEBRA_RPC__LISTEN_ADDR=0.0.0.0:18232`, publish `-p 18233:18233` and `-p 127.0.0.1:18232:18232`, and give a Testnet address. A Mainnet address stops Zebra from starting on Testnet, and the other way round.
+- **Lé `0.0.0.0` le `ZEBRA_RPC__LISTEN_ADDR` me.** Emae nye gaɖoƒe ƒe dzesi si Zebra ɖoa to le container la me. Docker doa port si woɖe go ɖe container la ŋutɔ ƒe network interface ŋu, eyata Zebra si toa to le `127.0.0.1` me le container la me maxɔ kadodo la o, ne wòtso host la gbɔ hã. `127.0.0.1:` si le `-p` ƒe ŋgɔe léa port la ɖe network la ŋu.
+- **Book la ƒe command** doa RPC port la ɖe go kple `-p 8232:8232`, si ʋuae ɖe host la ƒe network interface gbogbo ŋu.
+- **Be nàwɔ practice le Testnet dzi**, tsɔ `-e ZEBRA_NETWORK__NETWORK="Testnet"` kpee, ɖo `ZEBRA_RPC__LISTEN_ADDR=0.0.0.0:18232`, na `-p 18233:18233` kple `-p 127.0.0.1:18232:18232` nava go, eye nàtsɔ Testnet dzesi. Mainnet dzesi aɖe wɔa be Zebra madze gɔme le Testnet dzi o, eye wòmegbe hã nenema.
 
-Tomenukulawo ƒe fexexe kple gakotokua ŋudɔwɔwɔ le akpa sia godo. Ne èdi gakotokua ƒe akpaa la, kpɔ [Zallet](/zcash-tech/zallet).
+Nukula ƒe fetu mama kple gakotoku ƒe kpɔkpɔ mele akpa sia me o. Na gakotoku ƒe akpa la, kpɔ [Zallet](/zcash-tech/zallet).
 
-## Aɖaŋuɖoɖowo Kple Nuwɔna Nyuitɔwo
-- **Viɖekpɔkpɔ:** Zã akɔntabubumɔ̃wo abe whattomine.com/coins/166-zec-equihash ene. Kpɔɖeŋu: RTX 3060 (~300 Sol/s) xɔa ~0.001 ZEC/day le $50/ZEC, woɖe ~$0.50 elektrikŋusẽ ɖa.
-- **Adzamenyawo:** Zã tadeaguƒe siwo wokpɔ ta na ne woli; ƒo asa na adrɛswo gbugbɔgazã.
-- **Dedienɔnɔ:** Zã nyagbe sesẽwo; na 2FA nawɔ dɔ le tadeaguƒewo/gakotokuwo dzi. Mègatsɔ ame ŋutɔ ƒe safuiwo ma gbeɖe o.
-- **Kuxiwo gbɔkpɔkpɔ:** Ne gome aɖeke mele eme o la, kpɔ dzodoƒe, antivirus, alo config si mesɔ o. Wɔ ɖeka kple nyamedzroƒewo abe forum.zcashcommunity.com alo Reddit r/zec.
-- **Nu bubu siwo woate ŋu azã:** Ne viɖe aɖeke mele eŋu o la, bu alilikpo me tomenukuku alo gaku bubuwo dede afɔku me ŋu.
-- **Nutoa Me De dzesii:** Tomenukuƒewo xɔa ŋusẽ; zã nu yeyewo tsoƒe ne anya wɔ.
-- **Nu yeyewo:** Zcash ate ŋu atrɔ (le kpɔɖeŋu me, PoS ƒe tɔtrɔ si ate ŋu adzɔ); kpɔ z.cash hena nyadzɔdzɔwo.
+## Aɖaŋu Kple Mɔ Nyuiwo
+- **Asixɔxɔ:** Zã calculatorwo abe whattomine.com/coins/166-zec-equihash ene. Kpɔɖeŋu: RTX 3060 (~300 Sol/s) xɔa ~0.001 ZEC/ŋkeke le $50/ZEC, le elektrik ƒe ~$0.50 megbe.
+- **Ɣaɣla:** Zã ɣaɣla poolwo ne woto; mègaɖe dzesiwo zã akɔ o.
+- **Dedienɔnɔ:** Zã password sesẽ; ɖe 2FA ɖe poolwo/gakotokuwɔwo ŋu. Mègaɖe private keywo fia gbeɖe o.
+- **Kuxi Ƒe Ɖɔɖɔ:** Ne share aɖeke mele o la, kpɔ firewall, antivirus, alo config si mesɔ o. Ƒo kple forumwo abe forum.zcashcommunity.com alo Reddit r/zec ene.
+- **Mɔ Bubuwo:** Ne asixɔxɔ mele o la, bu cloud mining alo coin bubuwo ƒe ga ƒuƒoƒo [staking] ŋu.
+- **Xexea Ƒe Nudzesi:** Nukuku zãa energia; zã energia si woyɔna renewable ne wòte ŋu.
+- **Yeyeɖoɖowo:** Zcash ate ŋu atrɔ (le kpɔɖeŋu me, PoS ƒe trɔtrɔ si ate ŋu ava); kpɔ z.cash na nyanyuiwo.

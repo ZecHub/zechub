@@ -85,3 +85,5 @@ Los exchanges no custodiales, o DEX, te permiten comerciar desde tu propia walle
 Aunque los exchanges no custodiales ofrecen ventajas atractivas, es importante reconocer que podrían conllevar inconvenientes, como posibles problemas de liquidez y una curva de aprendizaje más pronunciada para usuarios menos experimentados.
 
 Como con cualquier decisión financiera, los traders deben evaluar cuidadosamente sus prioridades, tolerancia al riesgo y familiaridad con la tecnología antes de elegir entre opciones de exchange no custodiales y custodiales.
+
+**Última actualización:** octubre de 2026

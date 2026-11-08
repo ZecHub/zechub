@@ -1,92 +1,92 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Zcash_Tech/Sprout.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Aɖe Axawo Ŋu"/>
 </a>
 
 # Sprout
 
-> Zcash dze dɔ gɔme le October 28, 2016 dzi, kple Sprout shielded pool.
+> Zcash dze egɔme le October 28, 2016, kple Sprout ɣaɣla [shielded] gaƒuƒoƒo [pool].
 
-> **Nuxlɔ̃ame:** NU7 na ZEC gakpɔtɔ le Sprout ta la me nye nusi womate ŋu azã o ne ewɔ dɔ ko (mainnet taɖodzinu na 5 November 2026, nyametsotso mamlɛtɔ 20 October 2026; kpɔ [ZIP 259 ƒe xexlẽdzesi](https://zips.z.cash/zip-0259)). Ne èlé Sprout ga ɖe asi la, xlẽe [Gawo gbugbɔgaxɔ](../using-zcash/recovering-funds) eye nàʋu wo gbã.
+> **Nuxlɔ̃ame:** Ne NU7 dze egɔme la, eana be ZEC siwo gale Sprout gaƒuƒoƒo me la mate ŋu wɔ fexexe o (mainnet dze egɔme le teƒe 3,543,405, woɖo ŋgɔ be anɔ le 5 November 2026; kpɔ [ZIP 259](https://zips.z.cash/zip-0259)). Ne èle Sprout ga siwo ŋu la, xlẽ [Gaxɔ ga siwo](../using-zcash/recovering-funds) eye nàtrɔ wo gbã.
 
-Nusi nàtsɔ adzoe: Sprout nye afisi Zcash dze egɔme tsoe, zi gbãtɔ si ame ŋutɔ ƒe ga si ŋu woate ŋu aɖo kpee la ƒu du le blockchain si le agbe dzi.
+Nu si nàkpɔe: Sprout nye afi si Zcash dze egɔme le, esi wòwɔ ga si le ɣaɣla me eye wòate ŋu aɖe eɖokui fia le gaɖoɖowo ƒuƒoƒo ƒe ɖoɖonu si le agbe dzi me zi gbã.
 
-Sprout nye Zcash network ƒe gɔmedzedze gbãtɔ, ke menye emegbe o [network ƒe ŋgɔyiyi](../start-here/network-upgrades). Eyi agbe le genesis block le October 28, 2016. ZIP si ŋu xexlẽdzesi le aɖeke meɖe Sprout: ZIP ɖoɖoa dze egɔme emegbe kple Overwinter, eyata woɖɔ Sprout to Zcash Protocol Specification gbãtɔ kple Zerocash xɔtutu si dzi wotue ɖo. The [Electric Coin Company](../zcash-organizations/electric-coin-company) (si nye Zerocoin Electric Coin Company), si Zooko Wilcox nɔ ŋgɔ na lae tue heɖoe ɖe meli. Sprout to zk-SNARK shielded transactions gbãtɔ siwo wɔa dɔ kple shielded pool gbãtɔ vɛ, ale be amewo ateŋu aɖo ZEC kple ame si ɖoe ɖa, amesi xɔe, kple ga home si woɣla esime network la gakpɔtɔ le ekpɔm be ga si susɔ la ƒo ƒu. Ŋkɔa fia kɔsɔkɔsɔ ɖekakpui aɖe si le tsitsim si ƒuƒoƒoa nɔ mɔ kpɔm be adzi ɖe edzi.
+Sprout nye Zcash network ƒe gɔmedzedze, menye [mɔ̃ ƒe sewo trɔtrɔ network upgrade](../start-here/network-upgrades) si va megbe o. Ede dɔ le genesis block dzi le October 28, 2016. ZIP si wode xexlẽ mele o la mee ɖe Sprout gɔme o: ZIP ƒe ɖoɖo la dze egɔme emegbe kple Overwinter, eyata Sprout ƒe numetoto tso Zcash Protocol Specification gbãtɔ kple Zerocash ƒe tutu si dzi wotu e la dzi. [Electric Coin Company](../zcash-organizations/electric-coin-company) (le esime ma me la, Zerocoin Electric Coin Company), si Zooko Wilcox nɔ kplɔm, wɔe eye wodo e ɖe asi. Sprout ɖe zk-SNARK ɣaɣla [shielded] gaɖoɖowo [transactions] siwo wɔnɔ dɔ me gbãtɔ kple ɣaɣla gaƒuƒoƒo [pool] gbãtɔ fia, ale be amewo ate ŋu adɔ ZEC kple amesi dɔe, amesi xɔe, kple gaƒe si woɣla, ke network la hã kpɔ be gaƒeawo ƒe akonta sɔ. Ŋkɔ la fia ɖoɖonu [chain] ɖevi si mele tsitsi me, si timu la katã xɔe se be wòatsi.
 
-Nusitae esia le vevie ɖo. Dutoƒo blockchain ɖesiaɖe si do ŋgɔ na Sprout tsɔ wò fexexewo ɖe go: amesiame ate ŋu akpɔ amesi xe fe na amesi kple ga home si wòxe. Sprout ye nye network gbãtɔ si le agbe, si ŋu mɔɖeɖe mele o, si ɣla nyatakaka mawo tsitotsito eye wògaɖo kpe edzi kokoko be ame aɖeke mele ameflunyawo gblɔm o. Ema le vevie na ganyawo ƒe adzamenyawo gbɔgblɔ dzro ko, si ƒomevi nèkpɔa mɔ na tso ga alo gadzraɖoƒegbalẽvi si ame bubu mate ŋu axlẽ o me. Eɖo kpe edzi hã be adzamenyawo gbɔ kpɔkpɔ sesẽ le kɔsɔkɔsɔ me ate ŋu awɔ dɔ le nuwɔna me, wu pepa dzi wɔwɔme. Ðoɖowɔwɔ ƒe Kɔnu si dzi woka ɖo si na wòte ŋu dzɔ la va zu nusi dzi woanɔ te ɖo awɔ nya ɣaɣlawo ƒe dɔwɔwɔ emegbe, eye kpeɖodziɖoɖo blewu, si ƒe ŋkuɖodzinu kpekpe si Sprout tsɔ ɖo ɖa lae nye nusi tututu ƒoe ɖe ƒuƒoƒoa nu be woatu Sapling le ƒe eve megbe.
+Nu ka ta esia le vevie. Gaɖoɖowo ƒuƒoƒo ƒe ɖoɖonu siawo katã siwo nɔ anyi hafi Sprout la ɖea wò fexexewo fia: ame sia ame ate ŋu akpɔ ame si xe ga na ame kae kple gaƒe si wòxe. Sprout nye network gbãtɔ si le agbe me eye zãzã faa [permissionless], si te ŋu fia nudzɔdzɔ siawo le ɣaɣla me eye wòagaɖe ɖase be ame aɖeke mele aʋaʋã wɔm o. Esia le vevie na ga ƒe ɣaɣla si le amewo ƒe gbe sia gbe agbeme, si nèle mɔ kpɔm na le cash alo bank ƒe nyagbalẽ si ame bubu mate ŋu axlẽ o me. Egblɔ hã be ɣaɣla sesẽ si le ɖoɖonu dzi [on-chain] ate ŋu awɔ dɔ le nuwɔna me, ke menye agbalẽ ƒe aɖaŋu ko o. Mɔ̃ ƒe ɖoɖo xexlẽnuwo [trusted setup] ƒe Ceremony si na esia dzɔ la zu kpɔɖeŋu na cryptography ƒe dɔwo si va megbe, eye ɖaseɖigbalɛ [proof] ƒe mɔɖoɖo si blea ɣeyiɣi eye wòhia memory geɖe, si Sprout va kple la, eyae wɔ be timu la tu Sapling le ƒe eve megbe.
 
-## Ta gbãtɔ si wokpɔ ta na
+## Ɣaɣla gaƒuƒoƒo gbãtɔ
 
-Sprout wɔ adrɛs ƒomevi eve. Adrɛs siwo me kɔ (t-adrɛs) wɔa dɔ abe Bitcoin ene, eye nyatakakaawo dzena le dutoƒo agbalẽ gã la dzi. Adrɛs siwo wokpɔ ta na (z-adrɛs) ɖoa ga ɖe Sprout la me [ta si ŋu wokpɔ akpoxɔnu le](../using-zcash/shielded-pools), afisi ame si ɖoe ɖa, amesi xɔe, kple ga homea nɔa ɣaɣla le. Aɖaŋuae nye be [zk-SNARKs](../zcash-tech/zk-snarks), sidzedze zero ƒe kpeɖodzi siwo naa asitsatsa aɖe ɖenɛ fiana be esɔ, eye gazazã zi gbɔ zi eve kple ga si susɔ siwo ƒo ƒu, evɔ womeɖea nyatakakaawo dometɔ aɖeke ɖe go o. Sprout nye zi gbãtɔ si esia ƒu du le ewɔwɔ me le cryptocurrency si le agbe dzi.
+Sprout wɔ gaɖoƒe ƒe dzesi [address] ƒomevi eve. Nuwo ƒe ʋuʋuɖi [transparent] gaɖoƒe ƒe dzesiwo (t-addresses) wɔ dɔ abe Bitcoin ene, eye nudzɔdzɔwo katã le agbalẽ si le dukɔ bliboa ƒe asi me dzi. Ɣaɣla gaɖoƒe ƒe dzesiwo (z-addresses) ɖoa ga ɖe Sprout [ɣaɣla gaƒuƒoƒo](../using-zcash/shielded-pools) me, afi si ame si do ga, ame si xɔ ga, kple gaƒe la katã nɔa ɣaɣla me. Nunya si le eme nye [zk-SNARKs](../zcash-tech/zk-snarks), zero-knowledge ɖaseɖigbalɛwo siwo na gaɖoɖo aɖe ate ŋu afia be enyo, ne ga meɖo zi eve o eye asitsɔwo ƒe xexlẽ sɔ, ke mefia nudzɔdzɔ aɖeke o. Sprout nye zi gbãtɔ si esia wɔ dɔ le production me le cryptocurrency si le agbe me dzi.
 
 ![Transparent transactions expose sender, receiver, and amount, while Sprout shielded transactions hide all three yet stay verifiable](/content-images/sprout-shielded-vs-transparent-61d3b1980c.webp)
 
-## Kɔnua
+## Ceremony
 
-zk-SNARKs siwo le Sprout hiã dutoƒo parameters ƒe hatsotso aɖe, eye wo wɔwɔ dedie bia be woawɔ ɖoɖo zi ɖeka si woyɔna be Ceremony. Gomenɔla ade siwo nɔ teƒe vovovowo, siwo le didiƒe, dometɔ ɖesiaɖe wɔ nu ɣaɣla aɖe, si woyɔna be gbeɖuɖɔ si me aɖi le. Ne ame aɖe gaƒo kakɛawo katã nu ƒu gbeɖeka la, ate ŋu awɔ ZEC tso naneke me. Alesi wowɔe la trɔ afɔku ma wòzu se bɔbɔe aɖe: zi alesi gomekpɔla ɖeka ya teti tsrɔ̃ woƒe akpaa ko la, womate ŋu agbugbɔ nya ɣaɣla bliboa atu gbeɖe o, eyata aʋatsokaka gakpɔtɔ nye nusi mate ŋu adzɔ o. Gomenɔla siwo ƒe ŋkɔ woyɔ le dutoƒo dometɔ aɖewoe nye Zooko Wilcox, Andrew Miller, Peter Van Valkenburgh, Peter Todd, kple Derek Hinch siwo le NCC Ƒuƒoƒoa me. Gomenɔla ɖeka tiae be yemaɖe yeƒe ŋkɔ o.
+zk-SNARKs si le Sprout me hia public parameters aɖe, eye be woawɔ wo dedie la, ehia mɔ̃ ƒe ɖoɖo zi ɖeka si woyɔna be Ceremony. Ame ade siwo nɔ teƒe vovovo kple didi me la, ame sia ame wɔ dɔ kple ɣ secret aɖe, si woyɔna be toxic waste. Ne ame aɖeke ate ŋu afɔ nu siwo katã ƒo ƒu ake la, ate ŋu awɔ ZEC tso naneke me. Aɖaŋua trɔ afɔku sia zu se bɔbɔe aɖe: Ne ame ɖeka ko hã tsrɔ eƒe akpa la, woagate ŋu afɔ secret bliboa ƒo ƒu ake o, eyata ga ƒe aʋaʋã wɔwɔ megate ŋu adzɔ o. Ame siwo ƒe ŋkɔwo woɖe fia le dukɔ bliboa me la domee nye Zooko Wilcox, Andrew Miller, Peter Van Valkenburgh, Peter Todd, kple Derek Hinch tso NCC Group. Ame ɖeka tia be yeanɔ ŋkɔmanya me.
 
 ![The Ceremony: six participants generate private shards, then destroy the toxic waste, leaving only the public Sprout parameters](/content-images/sprout-ceremony-flow-ae16f6282a.webp)
 
-## Afisi wòdzɔ tso
+## Gɔmedzeƒe
 
-Sprout ye nye gɔmeɖoanyi si dzi tɔtrɔ ɖesiaɖe si ava emegbe tua ɖo. Esi network-upgrade mechanism va ɖo kple Overwinter, etsɔ ŋkɔ na se gbãtɔawo be consensus branch id 0, si fia ko be womewɔ upgrade aɖeke ŋudɔ haɖe o. Nusianu tso ɣemaɣi (Overwinter, Sapling, Blossom, Heartwood, Canopy, NU5, NU6, kple edziyiyi) bɔbɔ nɔ kɔsɔkɔsɔ si Sprout dze egɔme la dzi. Woɖe gbeƒã dodo ɖe ŋgɔ le August 2016 me na October 28 ƒe gɔmedzedze, Kɔnu la ƒu du le kwasiɖa siwo do ŋgɔ me, eye gɔmedzedze ƒe block ƒe ɣeyiɣi ƒe dzesi si woŋlɔ sesĩe xlẽ October 28, 2016, le 07:56 UTC.
+Sprout nye gɔmeɖoƒe si tɔtrɔ sia tɔtrɔ si va megbe tu eɖe dzi. Esi mɔ̃ ƒe sewo trɔtrɔ ƒe mɔɖoɖo va kple Overwinter la, eɖe ŋkɔ na se gbãtɔwo be consensus branch id 0, si fia ko be mɔ̃ ƒe sewo trɔtrɔ aɖeke meva do o haɖe. Nu siwo katã va tso emegbe (Overwinter, Sapling, Blossom, Heartwood, Canopy, NU5, NU6, kple nu siwo va yi edzi) le ɖoɖonu Sprout dze egɔme la dzi. Wogblɔ dzeɖoɖoa le August 2016 be genesis aɖe egɔme le October 28, Ceremony la wɔ dɔ le kwasiɖawo siwo nɔ eŋgɔ me, eye genesis gaɖoɖowo ƒuƒoƒe ƒe timestamp si woŋlɔ ɖe eme ɖaa fia be October 28, 2016, le 07:56 UTC.
 
 ![Timeline from the August 2016 announcement through the parameter Ceremony to the October 28, 2016 Sprout launch](/content-images/sprout-timeline-348766352a.webp)
 
-## Nyagɔmeɖegbalẽ
+## Nyawo ƒe Gɔmeɖeɖe
 
-| Nya | Gɔmesese si le Eŋlisigbe me gbadzaa |
+| Nyagblɔɖi | Gɔme si le English bɔbɔe me |
 |---|---|
-| zk-SNARK | Kpeɖodzi si me sidzedze zero le si ɖea asitsatsa aɖe fiana la sɔ evɔ womeɖea amesi ɖoe ɖa, amesi xɔe, alo ga home si wòxɔ la fiana o |
-| Shielded pool | Zcash ƒe akpa si nye ame ŋutɔ tɔ si me woɣlaa ga homewo kple kplɔ̃ɖoƒewo le. Sprout -ta lae nye gbãtɔ |
-| z-address and t-address | Wokpɔa z-adrɛs ta eye wònaa nyatakakawo nɔa ɣaɣla. T-adrɛs dzena le gaglãgbe eye wòɖea nyatakakawo fiana le dutoƒo agbalẽ gã la dzi |
-| The Ceremony | Ƒe 2016 ƒe akpa geɖe ƒe ɖoɖo si na Sprout's dutoƒo parameters eye emegbe wòtsɔ aɖi gbeɖuɖɔawo ƒu gbe |
-| Toxic waste | Safui ɣaɣla siwo tso Kɔnu la me siwo wòle be woatsrɔ̃ ale be womate ŋu awɔ ZEC o |
-| Consensus branch id 0 | Sprout's sewo ƒe dzeside, si fia gɔmedzedze hafi network ƒe tɔtrɔ ɖesiaɖe |
+| zk-SNARK | Zero-knowledge ɖaseɖigbalɛ si fia be gaɖoɖo aɖe nyo, ke mefia ame si do ga, ame si xɔ ga, alo gaƒe o |
+| Shielded pool | Zcash ƒe akpa si le ɣaɣla me, afi si gaƒewo kple amewo ƒe nyawo le ɣaɣla me. Sprout gaƒuƒoƒo nye gbãtɔ |
+| z-address and t-address | z-address nye ɣaɣla eye wòna nudzɔdzɔwo nɔ ɣaɣla me. t-address nye nuwo ƒe ʋuʋuɖi eye wòfia nudzɔdzɔwo le agbalẽ si le dukɔ bliboa ƒe asi me dzi |
+| The Ceremony | Ƒe 2016 ame geɖe ƒe mɔ̃ ƒe ɖoɖo si wɔ Sprout ƒe public parameters eye wotsrɔ toxic waste la |
+| Toxic waste | Secret key ƒe akpawo tso Ceremony me siwo wòhia be woatsrɔ, be woagate ŋu awɔ ZEC aʋaʋã o |
+| Consensus branch id 0 | Ŋkɔ si wotsɔ na Sprout ƒe sewo, si fia be nye gɔmeɖoƒe hafi mɔ̃ ƒe sewo trɔtrɔ aɖeke ava do |
 
-## Nyabiasewo ƒe Nyabiasewo
+## Biabia Siwo Wobia Zi Geɖe
 
-Ðe Sprout trɔa nye ZEC alo nye adzamenyawo egbea? Ao, Sprout nye ŋutinya, gɔmedzedze si dze kɔsɔkɔsɔ si dzi wò ZEC le agbe ɖo la gɔme. Wò gakuwo kple wò adzamenyawo egbea nɔ te ɖe gakotoku kple ta si ŋu akpoxɔnu le si nèzãna fifia dzi, ke menye ɖe naneke si wòle be nàwɔ tso Sprout.
+Ðe Sprout trɔm wò ZEC alo wò ɣaɣla egbea? Ao. Sprout nye xexlẽme, dzeɖoɖo si dze ɖoɖonu si wò ZEC le dzi egɔme. Wò coins kple wò ɣaɣla egbe dze gakotoku [wallet] kple ɣaɣla gaƒuƒoƒo si nèzã fifia ŋu, menye nu aɖeke si wòhia be nàwɔ tso Sprout ta o.
 
-Nukatae ZIP xexlẽdzesi aɖeke meli na Sprout? ZIP ɖoɖoa dze egɔme emegbe, kple Overwinter tɔtrɔ. Sprout nye gɔmedzedze gbãtɔ, si woɖɔ to Zcash Protocol Specification kple Zerocash xɔtutu si dzi wotue ɖo. ZIP 200 yɔ Sprout le megbekpɔkpɔ me ko, abe consensus branch id 0, gɔmedzedze hafi ŋgɔyiyi ɖesiaɖe ene.
+Nu ka ta ZIP ƒe xexlẽmɔ̃ aɖeke mele na Sprout o? ZIP ƒe mɔɖoɖo dze egɔme megbe, kple Overwinter ƒe mɔ̃ ƒe sewo trɔtrɔ. Sprout nye dzeɖoɖo gbãtɔ, si Zcash Protocol Specification kple Zerocash ƒe tutu si wotu eɖe dzi ɖe egɔme. ZIP 200 gblɔ Sprout ƒe nya ko le megbe kpɔkpɔ me, abe consensus branch id 0 ene, gɔmeɖoƒe hafi mɔ̃ ƒe sewo trɔtrɔ aɖeke ava do.
 
-Ðe wòhiã be maka ɖe ame ade siwo nɔ Kɔnua me dzia? Wotu ɖoɖoa ale be wo dometɔ ɖeka koe nèhiã be nàto nyateƒe. Wo dometɔ ɖesiaɖe lé nya ɣaɣla aɖe ɖe asi, eye zi alesi gomekpɔla ɖeka tsrɔ̃ wo tɔ ko la, womate ŋu agbugbɔ nya ɣaɣla bliboa atu gbeɖe o eye ame aɖeke mate ŋu awɔ ZEC. Woyɔ gomekpɔla atɔ̃ ƒe ŋkɔ le dutoƒo eye ɖeka megaɖe ŋkɔ o.
+Ðe wòhia be maxɔ dzitsinya na ame ade siwo nɔ Ceremony me? Ao. Wotu mɔ̃ ƒe ɖoɖoa ale be wòhia be ame ɖeka ko nanɔ dzitsinya me. Ame sia ame nɔ secret ƒe akpa aɖe ŋu, eye ne ame ɖeka ko tsrɔ eƒetɔ la, woagate ŋu afɔ secret bliboa ƒo ƒu ake o eye ame aɖeke mate ŋu awɔ ZEC aʋaʋã o. Woɖe ame atɔ ƒe ŋkɔwo fia le dukɔ bliboa me, eye ame ɖeka nɔ ŋkɔmanya me.
 
-Ðe Sprout ta lae nye esi nye gakotoku zãna fifiaa? Ðewohĩ menye nenemae o. Sprout ye nye ta gbãtɔ si ŋu wokpɔ akpoxɔnu le, gake emegbe tɔtrɔ siwo wowɔ abe Sapling ene to aɖaŋu si wotsɔ akpoxɔnu ɖo kabakaba wu vɛ, eye gakotoku akpa gãtɔ zãa ta yeyewo egbea. Sprout gakpɔtɔ le vevie elabena dɔ si ɖo kpe edzi be ame ŋutɔ ƒe asitsatsa siwo ŋu woate ŋu aɖo kpee ate ŋu awɔ dɔ le live network dzi.
+Ðe Sprout gaƒuƒoƒo nye esi wò gakotoku zãna fifiaa? Ðewohĩ ao. Sprout nye ɣaɣla gaƒuƒoƒo gbãtɔ, ke mɔ̃ ƒe sewo trɔtrɔ siwo va megbe abe Sapling ene va kple ɣaɣla ƒe aɖaŋu si le kabakaba wu, eye gakotoku geɖewo zãna gaƒuƒoƒowo siwo yeyee egbe. Sprout gale vevie hã abe dɔ si ɖe ɖase be gaɖoɖowo si le ɣaɣla me eye woate ŋu aɖe eɖokui fia ate ŋu awɔ dɔ le network si le agbe me dzi ene.
 
-Nukae na Sprout to vovo tso Bitcoin gbɔ? Bitcoin tsɔa fexexe ɖesiaɖe dea dutoƒo agbalẽ gã aɖe me afisi ga homewo kple adrɛswo dzena le. Sprout tsɔ adzɔnuwɔna siwo wokpɔ ta na siwo ɣlaa ame si ɖoe ɖa, amesi xɔe, kple ga home la kpe ɖe eŋu esime wògaɖea mɔ na network la be wòaɖo kpe edzi be asitsatsa la sɔ. Ena adrɛs siwo me kɔ hã nɔna, eyata atsyã eveawo siaa nɔa kɔsɔkɔsɔ ɖeka dzi.
+Nu kae wɔ be Sprout to vovo na Bitcoin? Bitcoin ɖoa fexexe sia fexexe ɖe agbalẽ si le dukɔ bliboa ƒe asi me dzi, afi si gaƒewo kple gaɖoƒe ƒe dzesiwo le ʋuʋuɖi me. Sprout tsɔ ɣaɣla gaɖoɖowo kpe ɖe eŋu, siwo ɣlaa ame si do ga, ame si xɔ ga, kple gaƒe la, ke wòna network la ate ŋu aka ɖe edzi be gaɖoɖoa nyo. Ewɔ nuwo ƒe ʋuʋuɖi gaɖoƒe ƒe dzesiwo hã ɖe eŋu, ale be mɔ eve siawo katã le ɖoɖonu ma ke dzi.
 
-## Do wò nugɔmesese kpɔ
+## Do wò gɔmesese kpɔ
 
-Woyɔa Sprout zi geɖe be network upgrade kple activation height. Nukatae nya ma mesɔ tututu o?
+Sprout woyɔna zi geɖe be mɔ̃ ƒe sewo trɔtrɔ kple dzeɖoɖo ƒe teƒe. Nu ka ta esia menye nyateƒe bliboa o?
 
 <details>
-<summary>Answer</summary>
+<summary>Ŋuɖoɖo</summary>
 
-Sprout nye Zcash, ke menye emegbe ƒe tɔtrɔ o. Ewɔa dɔ tso esime wowɔ genesis block (block 0) le October 28, 2016 dzi, eyata dɔwɔwɔ ƒe kɔkɔme aɖeke meli si dzi woafia asi o. Network-upgrade mechanism la va emegbe eye wòtsɔ ŋkɔ na Sprout's sewo be consensus branch id 0, gɔmedzenu si do ŋgɔ na upgrade ɖesiaɖe.
+Sprout nye Zcash ƒe dzeɖoɖo gbãtɔ, menye mɔ̃ ƒe sewo trɔtrɔ si va megbe o. Esi wòdze egɔme tso genesis gaɖoɖowo ƒuƒoƒe (gaɖoɖowo ƒuƒoƒe 0) dzi le October 28, 2016 la, dzeɖoɖo ƒe teƒe aɖeke mele si wòate ŋu atɔ asi afia o. Mɔ̃ ƒe sewo trɔtrɔ ƒe mɔɖoɖo va megbe eye eɖe ŋkɔ na Sprout ƒe sewo be consensus branch id 0, gɔmeɖoƒe hafi mɔ̃ ƒe sewo trɔtrɔ aɖeke ava do.
 </details>
 
-### Nunɔamesiwo
+### Nu Siwo Wòate Ŋu Azã
 
-[ZIP 200: Netwɔƒe ƒe Ðɔɖɔɖo ƒe Mɔnu](https://zips.z.cash/zip-0200)
+[ZIP 200: Network Upgrade Mechanism](https://zips.z.cash/zip-0200)
 
-[Zcash network ƒe ŋgɔyiyiwo](https://z.cash/upgrade/)
+[Zcash mɔ̃ ƒe sewo trɔtrɔwo](https://z.cash/upgrade/)
 
-[Electric Coin Company: Zcash Sprout ƒe dodo](https://electriccoin.co/blog/zcash-sprout-launch/)
+[Electric Coin Company: Zcash Sprout ƒe dzeɖoɖo](https://electriccoin.co/blog/zcash-sprout-launch/)
 
-[Electric Coin Company: Kɔnua ƒe Aɖaŋuwɔwɔ](https://electriccoin.co/blog/the-design-of-the-ceremony/)
+[Electric Coin Company: Ceremony ƒe Ŋuɖoɖo](https://electriccoin.co/blog/the-design-of-the-ceremony/)
 
-### Kpɔe hã
+### Kpɔ Hã
 
-[Ta Siwo Wotsɔ Akpoxɔnu Wɔe](../using-zcash/shielded-pools)
+[Ɣaɣla Gaƒuƒoƒowo](../using-zcash/shielded-pools)
 
 [zk-SNARKs](../zcash-tech/zk-snarks)
 
-[Zcash Network ƒe Ðɔɖɔɖowo](../start-here/network-upgrades)
+[Zcash Mɔ̃ ƒe Sewo Trɔtrɔwo](../start-here/network-upgrades)
 
-[Nukae nye ZEC kple Zcash](../start-here/what-is-zec-and-zcash)
+[Nu kae nye ZEC eye Zcash](../start-here/what-is-zec-and-zcash)
 
 [Electric Coin Company](../zcash-organizations/electric-coin-company)
 
 ---
 
-Siwo kplɔ wo nɔewo ɖo: [Network Upgrades ƒe dzesi](../start-here/network-upgrades) · Esi kplᴐe ɖo: [Overwinter](../zcash-tech/overwinter)
+Series: [Mɔ̃ ƒe sewo trɔtrɔwo ƒe index](../start-here/network-upgrades) · Esi kplɔe ɖo: [Overwinter](../zcash-tech/overwinter)

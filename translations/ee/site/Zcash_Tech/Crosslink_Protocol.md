@@ -2,152 +2,152 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Crosslink ƒe Ðoɖowɔɖi
+# Crosslink Ƒe Mɔɖoɖo
 
-## TL;DR
+## Nu Si Wòle Be Nànya Le Kpuie
 
-* Crosslink ƒe ɖoɖowɔɖia nye aɖaŋu si wodo ɖa na Zcash's Hybrid Proof-of-Work/Proof-of-Stake (PoW/PoS) stage. Ewɔa PoW ɖekae kple Byzantine Fault Tolerance (BFT) ɖoɖowɔɖi, si wɔnɛ be kakaɖedzi le nuwuwu ŋu zi alesi PoW alo PoS gakpɔtɔ le dedie.
-* Hybrid PoS toa notaries siwo ɖoa kpe block siwo wotu ɖe staked ZEC dzi — le gɔmedzedzea me la, wotia wo ɖe staked ZEC.
-* Crosslink ɖoe be yeana ledger eve: **finalized ledger (LOG_fin)** hena rollback dedienɔnɔ, kple **lower-latency ledger (LOG_ba)** si kekee ɖe enu wu *L* blocks.
-* **Dedienɔnɔ ƒe Nɔnɔme** wɔa dɔ ne agbalẽ gã si wowu enu la tsi megbe wu *L* blocks: PoW yi edzi, gake ganyawo ƒe dɔwɔnawo tɔ vie vaseɖe esime wokpɔ nyaa gbɔ.
-* Le ɣeyiɣi aɖe megbe la, PoS ƒe kpeɖodzinalawo axɔ teƒeɖoɖowo ƒe akpa si le dzidzim ɖe edzi, si aɖe PoW tomenukulawo ƒe fetu dzi akpɔtɔ; ɖoɖowɔɖia toa tɔtrɔwo vɛ vivivi.
-* Shielded Labs, kple mɔfiame si woatsɔ awɔ Crosslink 2* ɖekae ɖe Zcash's Zebra asisi me.
-* Crosslink mele dɔ wɔm le Zcash mainnet dzi o. Ewɔa dɔ le Shielded Labs' Feature Net, si nye dodokpɔ network si me amesiame ate ŋu age ɖo. Kpɔ "Afisi Crosslink tsi tre ɖo" le ete.
+* Crosslink ƒe mɔɖoɖo nye ɖoɖo si woɖoe be wòanye Zcash ƒe Proof-of-Work/Proof-of-Stake (PoW/PoS) ƒe ƒomekɔkɔe ƒe akpa. Eƒoa PoW kple Byzantine Fault Tolerance (BFT) ƒe mɔɖoɖo nu, eye eƒea nuwuwu kakaɖedzi be woakpɔ ɖe edzi ne PoW alo PoS ɖeka koe gale dedie.
+* Ƒomekɔkɔe PoS va kple notarywo siwo doa gaɖoɖowo ƒuƒoƒewo ɖe edzi le ZEC si woƒoe le ga ƒuƒoƒo [staking] me dzi — gbã la, wole te ɖe teƒe ɖeka; megbe la, woatia wo le ZEC si woƒoe le ga ƒuƒoƒo me dzi.
+* Crosslink ƒe ta nye be wòana agbaleƒoƒo eve: **agbaleƒoƒo si wotsɔ nuwuwu wɔe (LOG_fin)** na trɔtrɔ megatrɔ o ƒe dedie, kple **agbaleƒoƒo si me gãmesese ƒe mɔnu mekpɔ akpa (LOG_ba)** si do ŋgɔ na eƒe gaɖoɖowo ƒuƒoƒe *L* ko.
+* **Dedienɔnɔ ƒe Mɔnu** dzea dzi ne agbaleƒoƒo si wotsɔ nuwuwu wɔe megbe akpa wu gaɖoɖowo ƒuƒoƒe *L*: PoW yi edzi, ke ga ƒe dɔwɔwɔwo katã tɔ gbɔ va se ɖe esia ƒe fifi me.
+* Ɣeyiɣi yi la, PoS ƒe nusiwo doa gaɖoɖowo ƒuƒoƒe ɖe edzi axɔ fetu ƒe akpa si le dzidzime yi edzi, eye esia aɖe PoW ƒe nukulawo ƒe xɔɖe le anyi; mɔɖoɖoa ɖea tɔtrɔwo ƒe mɔ le vie vie.
+* Shielded Labs le mɔɖoɖoa ŋu wɔm, eye mɔɖoɖo li na Crosslink 2* ƒe kɔkɔe ɖe Zcash ƒe Zebra ƒe klient me.
+* Crosslink menɔ dɔ wɔm le Zcash ƒe mainnet dzi o. Ele dɔ wɔm le Shielded Labs ƒe Feature Net, afi nudzodzro ƒe network si ame sia ame ate ŋu akpɔ ɖe eŋu. Kpɔ "Afi si Crosslink tsɔ tsi" le anyi.
 
-## Numeɖeɖe Vevitɔ
+## Ɖeɖe Me Tɔxɛ
 
-### Ɖoɖowɔɖi: Zcash Hybrid PoS kple Crosslink ƒe Ðoɖowɔɖi
+### Gɔmedzedze: Zcash Ƒe Ƒomekɔkɔe PoS Kple Crosslink Ƒe Mɔɖoɖo
 
-Crosslink Protocol nye ŋgɔyiyi ɖedzesi aɖe le Zcash nɔnɔmetɔtrɔ me, si fia mɔe yi **Hybrid Proof-of-Stake (PoS)** kple **Proof-of-Work (PoW)** ƒe kpɔɖeŋu gbɔ. PoW deŋgɔ, togbɔ be kakaɖedzi le eŋu le kakaɖedzi nana network ƒe dedienɔnɔ ta hã la, edzea ŋgɔ ɖeklemiɖeɖe le ŋusẽzazã kple titina ƒe afɔku siwo do ƒome kple dɔwɔƒewo ƒe tomenukuƒewo ta. Crosslink to ɖoɖo si me wotsɔa nu vovovowo tsakana vɛ, si tsɔa PoW ƒe ŋusẽ si ŋu kpeɖodzi le la tsakana kple PoS ƒe dɔwɔwɔ nyuie kple dziɖuɖu ƒe viɖewo.
+Crosslink ƒe Mɔɖoɖo nye ŋgɔyiyi gã aɖe le Zcash ƒe tɔtrɔ me, eye wòkplɔe yi **Ƒomekɔkɔe Proof-of-Stake (PoS)** kple **Proof-of-Work (PoW)** ƒe mɔnu gbɔ. PoW si wozãna le blema, togbɔ be wònye mɔ si dzi womate ŋu aka le network ƒe dedie ɖo o la, wometsɔe ɖe dzidzedze o, elabena eɖuna ŋusẽ geɖe, eye nukuku [mining] ƒe dɔwɔwɔ gãwo ƒe akpɔkpɔ le eŋu. Crosslink trɔna va kple ƒomekɔkɔe ƒe mɔnu aɖe, si ƒoa PoW ƒe ŋusẽ si woɖoe kpɔ kple PoS ƒe dɔwɔwɔ nyuitɔ kple dziɖuɖu [governance] ƒe viwo nu.
 
 ![image](/content-images/a2ffb19d-e570-4723-b669-a66e14fc6b71-a727c958de.webp)
 
-Tɔtrɔ sia sɔ kple xexeame katã ƒe nɔnɔme siwo le blockchain ƒe nu yeyewo dodo ɖe ŋgɔ me, afisi dɔwo le tɔtrɔm ɖe mɔnu siwo li tegbee le nutome ŋu eye woɖe mɔ ɖe wo nɔewo ŋu le. Crosslinks ƒe nukpɔsusu eve ƒe kpɔɖeŋu kpɔa egbɔ be Zcash lé eƒe nya ɣaɣlawo ƒe adzamenyawo ƒe kakaɖedzi sesẽwo me ɖe asi esime wòle tɔtrɔm be yeakpɔ egbegbe kuxiwo gbɔ.
+Tɔtrɔ sia sɔ kple xexeame bliboa ƒe ɖoɖowo le gaɖoɖowo ƒuƒoƒo ƒe ɖoɖonu [blockchain] ƒe nu yeye wɔwɔ me, afi si dɔwɔwɔwo le yi yim le mɔnu siwo menoa anyigba gbegblẽ o kple ha nuɖo agni [decentralized] ƒe mɔnuwo gbɔ. Crosslinks ƒe gbegbɔgblɔ ɖi [consensus] ƒe mɔnu evea nana be Zcash nɔa ɣaɣla [privacy] ƒe kakaɖedzi si le eƒe asitsala mɔnuwo me la ɖeasi, le esime wòle tɔtrɔm be wòawɔ dɔ le egbea ƒe kuxiwo ŋu.
 
-Mɔnu si nye Hybrid Proof-of-Stake (PoS) tsɔa Proof-of-Work (PoW) si wozãna tsã la tsakana kple PoS, si ƒe taɖodzinue nye be yeakpɔ afɔkuwo abe 51% ƒe amedzidzedze ene gbɔ esime wòle be woalé decentralization me ɖe asi eye woaɖe ŋusẽzazã dzi akpɔtɔ. Hybrid PoS toa notaries siwo ɖoa kpe block siwo wotu ɖe staked ZEC. Wotrɔ asi le mɔnu sia ŋu be wòana kɔsɔkɔsɔ ƒe dedienɔnɔ kple ɖaseɖigbalẽ ƒe kpeɖodzi nanyo ɖe edzi, si ana mɔnu bubu si sesẽ wu ɖe PoW ɖoɖo dzadzɛwo teƒe.
+Ƒomekɔkɔe Proof-of-Stake (PoS) ƒe mɔnu ƒoa Proof-of-Work (PoW) si wozãna le blema kple PoS nu, eye eƒe ta nye be wòamɔ kuxiwo abe 51% ƒe asrɔ̃nu ene, le esime wònɔ ha nuɖo agni me eye wòɖe ŋusẽ ƒe zãzã le anyi. Ƒomekɔkɔe PoS va kple notarywo siwo doa gaɖoɖowo ƒuƒoƒewo ɖe edzi le ZEC si woƒoe le ga ƒuƒoƒo me dzi. Woɖo mɔnu sia be wòana ɖoɖonu [chain] ƒe dedie kple teƒe siwo wɔna be woakpɔ gaɖoɖowo ƒuƒoƒewo ɖe edzi nyuie wu, eye wòana mɔnu si sesẽ wu PoW ƒe mɔnuwo ko.
 
-### Nukatae Hybrid PoS/PoW abe dodokpɔ gbãtɔ ene?
+### Nu Ka Ta Ƒomekɔkɔe PoS/PoW Wòanye Nudzodzro Gbã?
 
-* Ewɔa ŋgɔyiyi yia PoS dzadzɛ gbɔ.
-* Enaa tomenukuƒewo kple staking zazã ƒe nɔnɔmewo kple lãwo ƒe agbenɔnɔ ƒe vovototodedeameme le ɣeyiɣi ɖeka me te ŋu dzɔna.
-* Eɖea dedienɔnɔ ƒe nya siwo ate ŋu ado mo ɖa kple PoS ɖoɖowɔɖia dzi kpɔtɔna vaseɖe esime wòakpɔ gome le validator ƒe akpa gãtɔ kple kakaɖedzi geɖe wu me.
-* Mɔnu si wozãna le xexeame katã la dze le Ethereum le Production me.
+* Ena ŋgɔyiyi yi PoS blibo gbɔ.
+* Ena be nukuku kple ga ƒuƒoƒo ƒe zã nyawo [use case] nawɔ dɔ ɖekae, eye wòana ekɔsɔkɔsɔ ƒe akpawo nakpe ɖe eŋu.
+* Eɖea dedie ƒe kuxi siwo ate ŋu ava le PoS ƒe mɔɖoɖoa me la ɖe anyi va se ɖe esime nusiwo doa gaɖoɖowo ƒuƒoƒe ɖe edzi la ƒe ga ƒuƒoƒo kple dzixɔse nava gã wu.
+* Ethereum fia mɔnu sia xoxo le Production me.
 
-### Nusi Crosslink nye
+### Nu Si Crosslink Nye
 
-Crosslink ƒe ɖoɖowɔɖia nye aɖaŋu si wodo ɖa na Zcash's Hybrid Proof-of-Work/Proof-of-Stake (PoW/PoS) stage. Ewɔa PoW ɖekae kple Byzantine Fault Tolerance (BFT) ɖoɖowɔɖi, si wɔnɛ be kakaɖedzi le nuwuwu ŋu zi alesi PoW alo PoS gakpɔtɔ le dedie. Aɖaŋua ƒe taɖodzinue nye be woado ŋusẽ network ƒe dedienɔnɔ kple decentralization to staked validation dede eme esime tomenukulawo ƒe gomekpɔkpɔ le eme. Nu vevi aɖe si le aɖaŋuɖoɖoa me, si woyɔna be Crosslink 2, na xɔtuɖaŋua le bɔbɔe to BFT ƒe aɖaŋuɖolawo kple tomenukulawo ƒe ɖekawɔwɔ me. Mɔnu sia si wowɔ ɖe ɖoɖo nu la ɖea xɔtuɖaŋu ƒe tɔtrɔwo dzi kpɔtɔna eye wòɖea mɔ be woazã "dummy" BFT layer, si wɔnɛ be wònɔa bɔbɔe be woawɔ kpɔɖeŋu eye woatsɔe ade dɔwɔwɔ me esime wole dedienɔnɔ ƒe dzidzenu kɔkɔwo me ɖe asi.
+Crosslink ƒe mɔɖoɖo nye ɖoɖo si woɖoe be wòanye Zcash ƒe Proof-of-Work/Proof-of-Stake (PoW/PoS) ƒe ƒomekɔkɔe ƒe akpa. Eƒoa PoW kple Byzantine Fault Tolerance (BFT) ƒe mɔɖoɖo nu, eye eƒea nuwuwu kakaɖedzi be woakpɔ ɖe edzi ne PoW alo PoS ɖeka koe gale dedie. Ɖoɖoa le mɔ kpɔm be wòasesẽ network ƒe dedie kple ha nuɖo agni, to nusiwo doa gaɖoɖowo ƒuƒoƒe ɖe edzi si woƒoe le ga ƒuƒoƒo me ƒe kɔkɔe me, le esime wòle nukulawo ƒe gomekpɔkpɔ ɖeasi. Ɖoɖoa ƒe nɔnɔme vevi aɖe, si woyɔna be Crosslink 2, wɔna be mɔnu sia naɖe bɔbɔe to BFT ƒe nufialaawo kple nukulawo ƒoƒo ɖekae me. Mɔnu si me nu mekpɔ akpa sia ɖea ɖoɖo ƒe tɔtrɔwo ɖe anyi, eye ena be woazã BFT ƒe akpa "metsi o", eye esia nana be eƒe nudzodzro kple eƒe dɔwɔwɔ naɖe bɔbɔe, le esime wònɔ dedie ƒe se gãwo ɖeasi.
 
-Dɔwɔwɔ ƒe ɖoɖoa lɔ mɔfiame si me wobu mɔ̃ɖaŋununya ƒe gazazãwo le hena Crosslink 2* tsɔtsɔ de Zcash's Zebra asisi me. Dɔwɔwɔ vivivi sia ku ɖe dadasɔ le amesiwo kpɔ gome le eme ƒe dzideƒonamenuwo me, tɔtɔ dzi ɖeɖe kpɔtɔ, kple ɖekawɔwɔ kple Zcash ƒe taɖodzinuwo hena dzidziɖedzi, zazã, kple ɖoɖowɔwɔ ɖe teƒe bubuwo ŋu. Kakaɖedzi si le dzidzim ɖe edzi ɖe ɖoɖowɔɖia ƒe dedienɔnɔ ƒe nɔnɔme sesẽwo ŋu gasẽ ɖe edzi be eƒe ŋutete nye afɔɖeɖe vevi aɖe le Zcash tɔtrɔ me. To ŋusẽzazã nyuie gbɔ kpɔkpɔ kple nukpɔsusu ɖeka ƒe mɔnuwo dodo ɖe ŋgɔ me la, Crosslink naa egbɔkpɔnu si kpɔa ŋgɔ na blockchain ƒe kuxi siwo le tɔtrɔm. Ne èdi nyatakaka bubuwo la, kpɔ.. [GitHub nudzraɖoƒe](https://github.com/ShieldedLabs/zebra-crosslink) kple.. [Zcash Nutome Takpekpe](https://forum.zcashcommunity.com).
+Dɔwɔwɔ ƒe ɖoɖoa kplɔ mɔɖoɖo si me woɖe injinia ƒe asixɔxɔwo fia be woakɔ Crosslink 2* ɖe Zcash ƒe Zebra ƒe klient me. Dɔwɔwɔ sia si woma akpa akpa la ɖo ŋku ɖe amesiwo katã ƒe dzidzenuwo ƒe sɔsɔ, kuxi ɖeɖe anyi, kple tsitsitɔtɔ kple Zcash ƒe taɖodzinuwo na nu ƒe dziyiyi [scaling], zãzã ƒe bɔbɔe, kple ha nuɖo agni. Dzixɔse si le mɔɖoɖoa ƒe dedie ƒe nɔnɔme sesẽwo me ƒe tsitsitɔtɔ sesẽna eƒe ŋutete be wòanye afɔɖeɖe vevi le Zcash ƒe tɔtrɔ me. To ŋusẽ ƒe zãzã ƒe dɔwɔwɔ nyuitɔ kple gbegbɔgblɔ ɖi ƒe mɔnuwo ƒe nyonyo me la, Crosslink nana ɖoɖo si kpɔ ŋgɔ na gaɖoɖowo ƒuƒoƒo ƒe ɖoɖonu ƒe kuxiwo siwo le tɔtrɔm. Na nyatakaka geɖe, yi [GitHub ƒe repository](https://github.com/ShieldedLabs/zebra-crosslink) kple [Zcash ƒe Community Forum](https://forum.zcashcommunity.com) gbɔ.
 
-### Crosslink ƒe Taɖodzinuwo Kple Taɖodzinuwo
+### Crosslink Ƒe Taɖodzinuwo Kple Eƒe Taɖoɖowo
 
-Wotrɔ asi le Crosslink Protocol la ŋu be wòakpɔ taɖodzinu vevi geɖe siwo le vevie na Zcash:
+Crosslink ƒe Mɔɖoɖo woɖoe be wòakpɔ ɖe taɖodzinu siwo le vevie na Zcash ƒe etsɔme ŋu:
 
-1. **Dziɖuɖu ƒe ɖoɖowo tsɔtsɔ de asi na amewo**:
-   * To PoS dede eme me la, Zcash ɖea ŋuɖoɖo ɖe PoW hardware tɔxɛwo (ASIC) ŋu dzi kpɔtɔna, si zi geɖe la, eƒoa tomenukuŋusẽ nu ƒu ɖe dɔwɔƒe gã ʋee aɖewo dome.
-   * PoS ɖea mɔ na gomekpɔkpɔ tso nuto si keke ta wu gbɔ, afisi gakuxɔlawo tsɔa woƒe nunɔamesiwo dea afɔku me be woakpɔ network la ta, si ana woakpɔ egbɔ be woma nukpɔsusu ɖeka si woma wu.
-   * To staked validation toto vɛ me la, ɖoɖowɔɖia kpɔa egbɔ be ganyawo me gomekpɔlawo wɔa akpa vevi aɖe le nukpɔsusu ɖeka me, si ɖea ŋuɖoɖo ɖe tomenukuƒewo ɖeɖeko ŋu dzi kpɔtɔna.
-2. **Dziɖuɖu si Wodo Ðe Ŋgɔ**:
-   * Gakuxɔlawo kpɔa gome le akɔdada me to gadede asi me, si wɔnɛ be woate ŋu akpɔ ŋusẽ ɖe nyametsotso siwo ku ɖe network ƒe nyonyo, gazazã ƒe mama, kple lãwo ƒe agbenɔnɔ ƒe ɖoɖo siwo le vevie wu ŋu dzi. Demokrasi ƒe mɔnu sia naa ɖoɖowɔɖia ƒe tɔtrɔ sɔ kple nutoa me tɔwo ƒe didiwo.
-3. **Ŋusẽ Zazã nyuie**:
-   * Trɔtrɔ ɖe PoS ŋu ƒe akpa aɖe ɖea ŋusẽ ƒe hiahiã dzi kpɔtɔna ŋutɔ, si wɔnɛ be Zcash sɔ kple xexeame katã ƒe ŋgɔyiyi ƒe ɖoɖowo. Le dzɔdzɔme nu la, PoS mexɔa nunɔamesi geɖe o ne wotsɔe sɔ kple PoW si ƒe akɔntabubu kpekpe. Hybrid systems ƒe taɖodzinue nye be yewoaɖe ŋusẽzazã dzi akpɔtɔ ne wotsɔe sɔ kple PoW-only systems esime wole dedienɔnɔ gã me.
-4. **Ganyawo ƒe Dedienɔnɔ kple Nusiwo Li Eteƒe Didi**:
-   * PoW kple PoS tsɔtsɔ ƒo ƒui naa ganyawo ƒe dzideƒonamenu vovovowo na network gomekpɔlawo, si naa dedienɔnɔ sesẽ nɔa anyi evɔ womeɖoa ŋu ɖe mɔnu ɖeka ŋu fũu akpa o.
-   * Staking hã to teƒeɖoɖo ƒe kpɔɖeŋu si woate ŋu agblɔ ɖi vɛ na gomekpɔlawo, si wɔnɛ be wòhea susu aɖe vɛ na gadelawo ɣeyiɣi didi.
-5. **Dedienɔnɔ ƒe dzidziɖedzi**: Crosslink ƒe taɖodzinue nye be yeana network la nate ŋu anɔ te ɖe kɔsɔkɔsɔ gbugbɔgaɖoɖo ƒe amedzidzedzewo nu to PoS tsɔtsɔ kpe ɖe PoW ŋu me.
+1. **Ha Nuɖo Agni**:
+   * To PoS ƒe kɔkɔe me la, Zcash ɖea asi le PoW ƒe dɔwɔnu xɔasi siwo woyɔna be ASICs ŋu, siwo hã dzɔna be nukuku ƒe ŋusẽ nɔa dɔwɔlawo ƒe amedzro aɖe ko ƒe asi me.
+   * PoS na amehawo ƒe gomekpɔkpɔ si lolo wu, afi si ga ƒe tɔxɛlawo ƒoa woƒe nudzɔdzɔwo le ga ƒuƒoƒo me be woasecɔ network la, eye esia nana be gbegbɔgblɔ ɖi naa kpɔkplɔe le teƒe geɖe.
+   * To nusiwo doa gaɖoɖowo ƒuƒoƒe ɖe edzi si woƒoe le ga ƒuƒoƒo me ƒe kɔkɔe me la, mɔɖoɖoa nana be ame siwo le ga ƒe akpa me la naxɔ gome vevie le gbegbɔgblɔ ɖi me, eye esia ɖea asi le nukuku ko ŋu.
+2. **Dziɖuɖu Si Nyo Wu**:
+   * Ga ƒe tɔxɛlawo kpɔ voti ƒe mɔnu to ga ƒuƒoƒo me, eye esia nana woate ŋu akplɔ ɖe network ƒe mɔ̃ ƒe sewo trɔtrɔ [network upgrade], ga ƒe maɖama, kple ekɔsɔkɔsɔ ƒe nu veviwo ƒe nya me. Amedziƒe mɔnu sia wɔa be mɔɖoɖoa ƒe tɔtrɔ nɔa amehawo ƒe dzidzenuwo me.
+3. **Ŋusẽ Ƒe Zãzã Si Nyo Wu**:
+   * PoS ƒe kɔkɔe le akpa aɖe me ɖea ŋusẽ si wozã la ɖe anyi ŋutɔ, eye wòƒoa Zcash kple xexeame ƒe anyigba ƒe dzidzɔɖoɖo ƒe dɔwɔwɔwo nu. PoS me dɔwɔnu xɔasi si PoW zãna geɖe o. Ƒomekɔkɔe ƒe mɔnuwo ƒe ta nye be woaɖe ŋusẽ ƒe zãzã ɖe anyi wu PoW-ko ƒe mɔnuwo, le esime woanɔ dedie gã ɖeasi.
+4. **Ga Ƒe Dedie Kple Eƒe Dɔwɔwɔ Ƒe Tsitsi**:
+   * PoW kple PoS ƒoƒo ɖekae wɔnɔa ga ƒe dzidzenuwo na network ƒe amesiwo le eƒe me la le mɔ geɖe nu, eye esia nana dedie sesẽ nanɔ anyi me esi wometsɔa asi ɖe mɔnu ɖeka ko ŋu o.
+   * Ga ƒuƒoƒo hã trɔa fetu ƒe mɔnu si wònɔ kple nyateƒe na amesiwo le gome, eye esia nana nu sia nɔa dzeame na ame siwo di be woaɖo ga ɖe eŋu na ƒe geɖe.
+5. **Dedie Ƒe Tsitsi**: Crosslink ƒe ta nye be wòasesẽ network la ƒe ŋutete be wòatsi tsitre ɖe ɖoɖonu ƒe ɖoɖo gagblẽ ƒe asrɔ̃nuwo ŋu, to PoS ƒe kɔkɔe kple PoW me.
 
-## Nukpɔkpɔ / Nusɔsrɔ̃
+## Nukpɔkpɔ / Sɔsɔme Nya
 
 ![image](/content-images/b34afda4-fe33-448f-b0dd-279fd6cef1f5-73f58cdcc6.webp)
 
-Bu agbalẽviwo ƒe dɔwɔƒe aɖe si naa agbalẽ vovovo eve hena agbalẽ ɖeka ɖoɖo ɖe amewo ŋu kpɔ. Gbãtɔe nye tracking scan: edzena kabakaba, egblɔa afisi agbalẽvi la anya le wu, eye woɖɔnɛ ɖo ɣeaɖewoɣi. Evelia nye agbalẽ si dzi woŋlɔ nu ɖo be woatsɔe ayi na amewo: eva ɖona emegbe, gake ne enya li ko la, ame aɖeke meʋlia nya le eŋu o.
+Bu ɖe parcel ƒe dɔwɔƒe aɖe ŋu si doa agbalẽ vovovo eve na parcel ɖeka ƒe ɖoɖo. Gbãtɔ nye tracking ƒe scan: eɖea fia kaba, egblɔ na wò afi si parcel la le geɖe be wònɔ, eye wotrɔna eƒe nya ƒe akpa aɖe ɣeaɣi. Evelia nye parcel xɔxɔ ƒe agbalẽ si wode asi te: eva megbe, ke ne eli la, ame aɖeke metsia nya le eŋu o.
 
-Ledger si ƒe ɣeyiɣi le bɔbɔe wue nye tracking scan, eye ledger si wowu enu lae nye gaxɔgbalẽvi si wode asi ete. Wo ame evea siaa ƒo nu tso nudzɔdzɔ siwo kplɔ wo nɔewo ɖo ɖeka ma ke ŋu; woto vovo le alesi wodzena kabakaba kple alesi woléa woe sesĩe me.
+Agbaleƒoƒo si me gãmesese ƒe mɔnu mekpɔ akpa la nye tracking ƒe scan, eye agbaleƒoƒo si wotsɔ nuwuwu wɔe la nye agbalẽ si wode asi te. Woƒe evea katã le nudzɔdzɔ ƒe ɖoɖonu ɖeka gblɔm; nu si wɔa woƒe vovototoe nye ale si wova kaba kple ale si woƒe nyateƒe le sesẽ.
 
-Dedienɔnɔ ƒe Nɔnɔme nye nusi nudzraɖoƒea wɔna ne gaxɔgbalẽvi siwo wode asi ete la dzudzɔ vava esime scan-wo yi edzi le dzidzim ɖe edzi. Parcels gakpɔtɔ zɔna to xɔa me — gake ɔfis la dzudzɔa fexexe ɖe scan ɖeɖeko ta vaseɖe esime asidede agbalẽ te la va ɖo.
+Dedienɔnɔ ƒe Mɔnu nye nu si depot wɔna ne agbalẽ siwo wode asi te mele vava o, ke scanwo le sɔ gbɔna. Parcelwo yi edzi le xɔa me — ke ofisi la medzra ga na scanwo ko dzi o va se ɖe esime asidede agbalẽ te [signature]wo nava sɔ.
 
-## Deep Dive (Tsi me tsi goglo)
+## Nudzodzro Koko
 
-### Dedienɔnɔ Kple Dɔwɔwɔ ƒe Taɖodzinuwo le Crosslink
+### Crosslink Ƒe Dedie Kple Dɔwɔwɔ Ƒe Taɖodzinuwo
 
-Crosslink ƒe ɖoɖowɔɖia ƒe taɖodzinue nye be yeana agbalẽ gã ƒomevi eve na Zcash: **agbalẽ gã si wowu enu (LOG_fin)** kple **agbalẽ gã si ƒe ɣeyiɣi mede o (LOG_ba)**. Ledger si wowu enu la kpɔa egbɔ be rollback dedienɔnɔ le susu siwo sɔ ku ɖe Byzantine Fault Tolerance (BFT) alo blockchain (BC) protocol ŋu. Wotrɔ asi le eŋu be wòanɔ agbe eye wòanɔ dedie le network ƒe mamawo gɔ̃ hã te, kple latency si wu Zcash blockchain si li fifia tɔ ƒe teƒe eve vie hena block ƒe kpeɖodzi siwo sɔ.
+Crosslink ƒe mɔɖoɖo ƒe ta nye be wòana agbaleƒoƒo ƒomevi eve na Zcash: **agbaleƒoƒo si wotsɔ nuwuwu wɔe (LOG_fin)** kple **agbaleƒoƒo si me gãmesese ƒe mɔnu mekpɔ akpa (LOG_ba)**. Agbaleƒoƒo si wotsɔ nuwuwu wɔe nana be trɔtrɔ megatrɔ o le susu siwo dzɔ le Byzantine Fault Tolerance (BFT) alo gaɖoɖowo ƒuƒoƒo ƒe ɖoɖonu (BC) ƒe mɔɖoɖoa ŋu. Woɖoe be wòanɔ agbe eye wòanɔ dedie to network ƒe mama mama me hã, eye eƒe mɔkpɔmɔnu nɔ vie sãa wu enu eve sɔ kple fifia ƒe Zcash gaɖoɖowo ƒuƒoƒo ƒe ɖoɖonu ƒe gaɖoɖowo ƒuƒoƒe ƒe kakaɖedzi si sɔ.
 
-Ledger si le anyime la kekea ledger si wowu enu la ɖe enu wu *L* blocks. Ekpɔa egbɔ be rollback dedienɔnɔ le blockchain protocol ɖeɖeko te eye wòléa latency kple dedienɔnɔ mevɔ̃ɖi wu Zcash kpɔɖeŋu si li fifia o. Le Crosslink 2* ƒe ɖoɖo si wowɔ wòle bɔbɔe me la, latency ledger si le anyime la naa ŋgɔyiyi kple exɔxlɔ̃ nɔa bɔbɔe to dɔwɔwɔ abe PoW kɔsɔkɔsɔ ene me.
+Agbaleƒoƒo si me gãmesese ƒe mɔnu mekpɔ akpa la do ŋgɔ na agbaleƒoƒo si wotsɔ nuwuwu wɔe gaɖoɖowo ƒuƒoƒe *L* ko. Ena trɔtrɔ megatrɔ o le gaɖoɖowo ƒuƒoƒo ƒe ɖoɖonu ƒe mɔɖoɖoa ko ŋu, eye eƒe mɔkpɔmɔnu kple dedie menyo wu Zcash ƒe mɔnu si li xoxo la o. Le Crosslink 2* ƒe ɖoɖo si me nu mekpɔ akpa me la, agbaleƒoƒo si me gãmesese ƒe mɔnu mekpɔ akpa la nana dɔwɔwɔ kple zãzã naɖe bɔbɔe esi wòwɔa dɔ abe PoW ƒe ɖoɖonu ene.
 
 ![image](/content-images/fd039664-4852-4fb0-8c88-0615f1ed116e-41459b81dc.webp)
 
-### Bounded Availability kple Dedienɔnɔ ƒe Nɔnɔme
+### Nɔnɔ Ƒe Ɣeyiɣi Si Wode Se Kple Dedienɔnɔ Ƒe Mɔnu
 
-Crosslink tsɔ **Dedienɔnɔ ƒe Nɔnɔme** de eme be woatsɔ akpɔ afɔku siwo do ƒome kple agbalẽ si ƒe ɣeyiɣi bɔbɔ wu si le du dzi sã do ŋgɔ na agbalẽ si wowu enu la gbɔ. Esia xea mɔ na masɔmasɔwo, abe akɔntabubu ƒe nɔnɔme siwo meda sɔ o alo dedienɔnɔ ƒe dometsotso siwo ŋu womeɖo kpee o le ɣeyiɣi kpui aɖe ƒe egbɔkpɔnu siwo dɔwɔƒe siwo naa kpekpeɖeŋu amewo wɔna me ene. Wowɔa Dedienɔnɔ ƒe Nɔnɔme ne ledger si wowu enu la tsi megbe wu *L* blocks si nɔa anyi ɖaa. Le nɔnɔme sia me la, blockchain la yia PoW dɔwɔwɔwo dzi (si kpɔa egbɔ be dedienɔnɔ veviwo), gake wotɔa ganyawo ƒe dɔwɔnawo vaseɖe esime wokpɔ nyaa gbɔ. Wotrɔ asi le mɔnu sia ŋu be wòahaya tso nɔnɔme tɔxɛwo abe amedzidzedze gãwo ene me esime wòle asi kpem ɖe dziɖuɖu ƒe ɖoɖo siwo wotu ɖe megbedede dzi.
+Crosslink tsɔ **Dedienɔnɔ Ƒe Mɔnu** va be wòakpɔ ɖe kuxi siwo ava ne agbaleƒoƒo si me gãmesese ƒe mɔnu mekpɔ akpa la yi ŋgɔ ŋutɔ na agbaleƒoƒo si wotsɔ nuwuwu wɔe la ŋu. Esia ƒoa nu ɖe vovototowo nu, abe account ƒe nɔnɔ siwo mesɔ o alo service ƒe dɔwɔlawo ƒe dedie ƒe gapwo si woƒe kakaɖedzi mele o le ɖoɖo ƒe mɔnu siwo wozãna enumake me. Dedienɔnɔ ƒe Mɔnu dzea dzi ne agbaleƒoƒo si wotsɔ nuwuwu wɔe megbe akpa wu gaɖoɖowo ƒuƒoƒe *L* si wode ɖo. Le nɔnɔ sia me la, gaɖoɖowo ƒuƒoƒo ƒe ɖoɖonu la yi edzi wɔa PoW ƒe dɔwo (be dedie vevi nanɔ anyi), ke woƒoa ga ƒe dɔwɔwɔwo katã nu va se ɖe esime woaɖo nya sia ɖo. Woɖo mɔnu sia be wòakpɔ tso nɔnɔ vovovo siwo dzi makpɔ o me, abe asrɔ̃nu gãwo ene, le esime wòle dziɖuɖu ƒe mɔnu me tɔtrɔ megatrɔ o ƒe sewo kpe ɖe eŋu.
 
-### Mɔ̃ɖaŋu Ŋuti Nyatakakawo Kple Wo Zazã
+### Teknikal Ƒe Nya Kple Dɔwɔwɔ
 
-Shielded Labs le Crosslink Protocol la wɔm vevie hele ezãm le nuwɔwɔ aduadu kple lãwo ƒe agbenɔnɔ ŋuti dɔwɔha veviwo abe ZODL. Ðoɖoa ƒe dɔwɔwɔ dometɔ aɖewoe nye:
+Crosslink ƒe Mɔɖoɖo la Shielded Labs le wɔm eye wole tsɔm wɔ dɔ kple ekɔsɔkɔsɔ ƒe hadɔwɔlawo abe ZODL ene. Mɔɖoɖoa ƒe dɔwɔwɔ me la, woakpɔ:
 
-* Asidadamɔnu siwo le dedie ɖoɖo anyi na PoS gomekpɔlawo.
-* Trɔtrɔ le teƒeɖoɖo ƒe ɖoɖoa ŋu be wòada asɔ le dzideƒonamenu siwo le tomenukulawo kple amesiwo le ga me dome.
-* Kakaɖedzi nana be megbenyawo sɔ kple wo nɔewo eye zãla ƒe nuteƒekpɔkpɔ si me kuxi aɖeke mele o le tɔtrɔa me.
-* Notary System: Nuŋlɔɖiwɔla siwo dea asi agbalẽ te le blockwo dzi la dea ɖoɖowɔɖia me. Le gɔmedzedzea me la, wozãa static notaries, trɔna yia dynamic system si me wotua notaries le staked ZEC.
-* Activation Logic: Crosslink ƒe dodo bia be woawɔ tɔtrɔ le Zcash nukpɔsusu ɖeka ƒe sewo ŋu, siwo dometɔ aɖewoe nye be woaɖe stake mama ƒe ɖoɖoa gɔme eye woawɔ network protocol ƒe sewo yeyee be woado alɔ hybrid consensus.
-* Akpaɖekedzimademade: Woaɖe ɖoɖowɔɖia ɖe go le afɔɖeɖewo me be woakpɔ egbɔ be network la li ke eye nutoa me tɔwo trɔ ɖe nɔnɔmeawo ŋu. Akpa gbãtɔwo ku ɖe mɔ̃ɖaŋununya ƒe dɔwɔwɔ ŋu, eye emegbe dziɖuɖu ƒe ɖekawɔwɔ hena agbalẽŋlɔlawo tiatia.
+* Ga ƒuƒoƒo ƒe mɔnu siwo le dedie na PoS ƒe amesiwo le gome.
+* Fetu ƒe ɖoɖoa ƒe tɔtrɔ be dzidzenuwo nasɔ le nukulawo kple amesiwo ƒoa ga me ƒe dome.
+* Mɔnu si wɔa be blema ƒe dɔwɔwɔwo nadzɔ kple zãla ƒe nɔnɔ si me kuxi mele o le tɔtrɔa me.
+* Notary Ƒe Mɔnu: Mɔɖoɖoa kplɔ notarywo va siwo dea asi te le gaɖoɖowo ƒuƒoƒewo ŋu. Gbã la, wozãna notary siwo nɔ te ɖe teƒe ɖeka, eye megbe la woatrɔ yi mɔnu si le dzidzime, afi si woatia notarywo le ZEC si woƒoe le ga ƒuƒoƒo me dzi.
+* Dzedze Ƒe Se: Crosslink ƒe kɔkɔe hia tɔtrɔ le Zcash ƒe gbegbɔgblɔ ɖi ƒe sewo me, si me woana ga ƒuƒoƒo ƒe mama mɔnu ƒe gɔmeɖeɖe eye woatrɔ network ƒe mɔɖoɖo ƒe sewo be woakpe ɖe ƒomekɔkɔe gbegbɔgblɔ ɖi ŋu.
+* Dɔwɔwɔ Le Akpa Akpa: Mɔɖoɖoa ava le akpa akpa me be network ƒe nɔnɔ nasɔ eye amehawo natsɔe awɔ dɔ. Gbãtɔ ƒe akpawo ɖo ŋku ɖe teknikal ƒe dɔwɔwɔ ŋu, eye megbe la woakɔ dziɖuɖu ƒe akpa be woatia notarywo.
 
-Kpɔɖeŋu si do ŋgɔ kple eƒe nuŋlɔɖiwo le.. [zebra-crosslink nudzraɖoƒe le GitHub](https://github.com/ShieldedLabs/zebra-crosslink) kple [Zebra-crosslink Agbalẽa](https://shieldedlabs.github.io/zebra-crosslink/). Woƒo nu tso dɔ si wɔm wole fifia ŋu le akpa si kplɔe ɖo me.
+Nudzodzro gbãtɔ kple eƒe nyatakakawo le [zebra-crosslink repository la me le GitHub](https://github.com/ShieldedLabs/zebra-crosslink) kple [The zebra-crosslink Book](https://shieldedlabs.github.io/zebra-crosslink/). Dɔ si le edzi fifia la ƒe gɔmeɖeɖe le akpa si kplɔe ɖo me.
 
-### Afisi Crosslink tsi tre ɖo
+### Afi Si Crosslink Tsɔ Tsi
 
-Crosslink gakpɔtɔ nye aɖaŋuɖoɖo. Shielded Labs' [Crosslink ƒe Nyabiasewo](https://shieldedlabs.net/crosslink-faq/) gblɔ be "ahiã be yeato Zcash dziɖuɖu ƒe ɖoɖo si sɔ me" hafi ateŋu awɔ dɔ le mainnet dzi.
+Crosslink gale ɖoɖo aɖe ko. Shielded Labs ƒe [Crosslink FAQ](https://shieldedlabs.net/crosslink-faq/) gblɔ be "ele be wòato Zcash ƒe dziɖuɖu ƒe mɔnu si wozãna ɣesiaɣi" me hafi wòate ŋu adze dzi le mainnet dzi.
 
-Nusi li egbea enye **Feature Net**: dodokpɔ network si Shielded Labs, si si eya ŋutɔ ƒe dodokpɔ gaku, cTAZ, si me amesiame ateŋu aku tome, de afɔku me eye wòawɔ finalizer. [Gɔmeɖeɖe 14 lia](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v14), si woɖe ɖe go le October 1, 2026 dzi, dze egɔme abe dɔwɔwɔ ƒe kpeɖodzi gbadzaa ene eye wòtrɔa Crosslink le afɔɖeɖewo me: staking tso block 20,736, finalizers ƒe ŋkɔ gbãtɔ si woxɔ le block 34,560, kple BFT finality tso block 36,288 ([dzᴐtsoƒe](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/librustzcash/zcash_primitives/src/bft.rs#L546-L555)).
+Nu si li egbea nye **Feature Net**: nudzodzro ƒe network si Shielded Labs nɔa dzi kplɔna, si ƒe nudzodzro ƒe ga tɔxɛ le, cTAZ, afi si ame sia ame ate ŋu anuku, aƒo ga, eye wòawɔ dɔ abe nuwuwu dɔwɔla [finalizer] ene. [Version 14](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v14), si woɖe tsoe le 1 October 2026, dzea egɔme abe proof-of-work blɔe ene eye wòkɔa Crosslink ɖe dɔ me le akpa akpa: ga ƒuƒoƒo tso gaɖoɖowo ƒuƒoƒe 20,736 dzi, nuwuwu dɔwɔlawo ƒe ƒometɔ gbãtɔ tso gaɖoɖowo ƒuƒoƒe 34,560 dzi, eye BFT ƒe nuwuwu kakaɖedzi tso gaɖoɖowo ƒuƒoƒe 36,288 dzi ([source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/librustzcash/zcash_primitives/src/bft.rs#L546-L555)).
 
-Nu eve siwo le axa sia dzi ʋu tso esime woŋlɔe:
+Nu eve le axa sia dzi trɔ tso esime woŋlɔe:
 
-* **Woyɔa akpa si woyɔna be notary le afisia be finalizer** le Shielded Labs' software kple release notes me. Stakers tsɔa gakuwo dea asi na finalizer, eye finalizers siwo tsɔ stake geɖe wu da akɔ be woawu blocks.
-* **Kɔdasia ʋu.** Wowɔ zebra-crosslink nudzraɖoƒe si le etame la yeyee zi mamlɛtɔ le April 2026. Feature Net ƒe tatawo tso [crosslink_monolith ƒe ƒuƒoƒo](https://github.com/ShieldedLabs/crosslink_monolith/releases), eye woŋlɔ aɖaŋua ɖe edzi le [Crosslink gbalẽa](https://shieldedlabs.github.io/crosslink_book/).
+* **Dɔ si woyɔ be notary le afisia la, woyɔe be finalizer** le Shielded Labs ƒe software kple release notes me. Amesiwo ƒoa ga me la ɖoa gaɖoɖowo ɖe nuwuwu dɔwɔla aɖe ŋu, eye nuwuwu dɔwɔlawo siwo ƒe ga ƒuƒoƒo le gã wu la votia be woatsɔ gaɖoɖowo ƒuƒoƒewo awɔ nuwuwu.
+* **Kodɛ la trɔ afi.** zebra-crosslink repository si le etame la wotrɔe le April 2026 me zi mamlɛtɔ. Feature Net ƒe releasewo tsoa [crosslink_monolith](https://github.com/ShieldedLabs/crosslink_monolith/releases), eye woŋlɔ ɖoɖoa ƒe nya le [Crosslink book](https://shieldedlabs.github.io/crosslink_book/) me.
 
-Be wò ŋutɔ nàtee kpɔ la, zɔ ɖe.. [Crosslink Feature Net](/guides/crosslink-feature-net) fia afɔɖoƒe. Ne èdi be yeakpɔ network la evɔ màwɔ naneke o la, ʋu Crosslink tab la [ZecHub Dɔwɔnuwo](https://zechub.wiki/tools?tool=crosslink).
+Ne wòdi be nàate egɔme kpakple ŋuwò la, wɔ ɖe [Crosslink Feature Net](/guides/crosslink-feature-net) ƒe mɔfia la dzi. Ne wòdi be nàkpɔ network la eye mèwɔ naneke o la, ke ɖe Crosslink ƒe tab la ɖe [ZecHub Tools](https://zechub.wiki/tools?tool=crosslink) dzi.
 
-## Nusiwo wòfia ŋutɔŋutɔ
+## Nu Si Esia Gɔmee Le Dɔ Me
 
-### Ŋusẽkpɔɖeamedzi ɖe PoW Tomenukulawo ƒe Gakpɔkpɔ Dzi
+### Eƒe Nɔnɔ ɖe PoW Ƒe Nukulawo Ƒe Xɔɖe Ŋu
 
-Crosslink lɔ̃ ɖe akpa vevi si PoW tomenukulawo wɔna le Zcash ŋgɔyiyi gbãtɔ me dzi esime wole dzadzram ɖo ɖe tɔtrɔ vivivi ŋu:
+Crosslink dea bubu PoW ƒe nukulawo ƒe dɔ vevi le Zcash ƒe gɔmedzedze ƒe ŋgɔyiyi me, le esime wòle ɖoɖom na tɔtrɔ si ava vie vie:
 
-* **Woɖe Block ƒe Teƒeɖoɖowo Dzi kpɔtɔ**:
-  * Le ɣeyiɣi aɖe megbe la, PoS ƒe kpeɖodzinalawo axɔ teƒeɖoɖo ƒe akpa si le dzidzim ɖe edzi, si aɖe PoW tomenukulawo ƒe fetu dzi akpɔtɔ. Gbugbɔmamã sia ɖe akpa si PoW wɔna si le ɖeɖem kpɔtɔ le hybrid model la me fia.
-* **Tɔtrɔ Dzɔdzɔe**:
-  * Ðoɖoa toa tɔtrɔwo vɛ vivivi, si kpɔa egbɔ be ɣeyiɣi si sɔ le tomenukulawo si be woatrɔ asi le akpa yeyewo ŋu alo aku nu me le Zcash lãwo ƒe agbenɔnɔ ƒe ɖoɖoa me, abe tɔtrɔ yi staking alo nudzɔdzɔ na network dɔwɔna bubuwo ene.
-* **Afɔku siwo le Centralization dzi ɖeɖe kpɔtɔ**:
-  * Wotrɔ asi le PoS staking pools ŋu be woaxe mɔ ɖe ŋusẽ ƒe ƒoƒo ƒu nu, si ana mɔnukpɔkpɔ fefewɔla suewo be woakpɔ gome le eme sɔsɔe. Mɔnu sia si xɔa amewo katã ɖe eme la tsi tre ɖe alesi wokpɔa tomenukuƒe siwo wotu ɖe ASIC dzi fifia ŋu.
-* PoW tomenukulawo akpɔ ga si wokpɔna dzi ɖeɖe kpɔtɔ esi wogbugbɔ ma block reward ƒe akpa aɖe na PoS validators. Gbugbɔmamã sia naa dzideƒonamenu ƒe ɖoɖo si da sɔ, si ɖoa eteƒe na tomenukulawo kple amesiwo le eme siaa le esi wokpɔ kadodoa ta.
-* Woɖoe be woawɔ tɔtrɔ vivivi be woatsɔ aɖe ganyawo ƒe ŋusẽkpɔɖeamedzi ɖe tomenukulawo dzi dzi akpɔtɔ esime wole gome kpɔm le eme dom ɖe ŋgɔ.
+* **Gaɖoɖowo Ƒuƒoƒe Ƒe Fetu Si Wotsɔ ɖe Anyi**:
+  * Ɣeyiɣi yi la, PoS ƒe nusiwo doa gaɖoɖowo ƒuƒoƒe ɖe edzi axɔ fetu ƒe akpa si le dzidzime yi edzi, eye esia aɖe PoW ƒe nukulawo ƒe xɔɖe le anyi. Ga mama sia fia PoW ƒe dɔ si le ɖeɖem le ƒomekɔkɔe ƒe mɔnu me.
+* **Tɔtrɔ Si Le Dɔmedzoe**:
+  * Mɔɖoɖoa ɖea tɔtrɔwo ƒe mɔ le vie vie, eye esia nana nukulawo kpɔ ɣeyiɣi si sɔ be woatsɔ aɖe woƒe nɔnɔ alo woanɔ dɔ bubuwo wɔm le Zcash ƒe ekɔsɔkɔsɔ me, abe ga ƒuƒoƒo ƒe dɔwɔwɔ alo network ƒe subɔsubɔ bubuwo ene.
+* **Nuwɔna Ƒe Ŋusẽ Ƒe ƒoƒo Ƒe Kuxiwo Ƒe Ɖeɖe Anyi**:
+  * PoS ƒe ga ƒuƒoƒo gaƒuƒoƒowo [pool] woɖoe be woagblɔ ŋusẽ ƒe ƒoƒo ɖeka me, eye woana ame suewo hã mɔ be woakpɔ gome le teƒe si sɔ me. Mɔnu si kplɔ ame sia ame ɖe eŋu sia tsoa nu ɖe ƒoƒo si wole kpɔm fifia le ASIC ƒe nukuku me ŋu.
+* PoW ƒe nukulawo ƒe xɔɖe aɖe anyi esi woatsɔ gaɖoɖowo ƒuƒoƒe ƒe fetu ƒe akpa aɖe ana PoS ƒe nusiwo doa gaɖoɖowo ƒuƒoƒe ɖe edzi. Ga mama sia nana dzidzenu ƒe mɔnu si sɔ, eye wòfetu nukulawo kple amesiwo ƒoa ga me la evea katã ɖe network ƒe secɔcɔ ta.
+* Woɖo tɔtrɔ si ava vie vie be woaɖe eƒe ga ƒe veve ɖe nukulawo ŋu anyi, le esime woakplɔ ame siwo le gome la ɖe eŋu.
 
-Mɔnu sia si dzi woda asi ɖo zi eve la doa ŋusẽ Zcash's ɖokuitsɔtsɔna ɖe ame ŋutɔ ƒe nyawo gbɔ kpɔkpɔ, nusiwo li tegbee, kple dziɖuɖu ƒe ɖoɖowɔwɔ ŋu, si na wòɖoe be enye kplɔla si kpɔa ŋgɔ le blockchain ƒe teƒea.
+Gbegbeɖi ƒe mɔnu eve sia sesẽna Zcash ƒe adzɔgbeɖeɖe [commitment] na ɣaɣla, nɔnɔ si menoa anyigba gbegblẽ o, kple ha nuɖo agni, eye wòtsɔe dea teƒe abe amedzidze si kpɔ ŋgɔ le gaɖoɖowo ƒuƒoƒo ƒe ɖoɖonu ƒe teƒe ene.
 
-## Vodada Siwo Bɔ
+## Vodada Siwo Wona Zi Geɖe
 
-**Crosslink xexlẽ abe se si dzi woda asi ɖo si le dɔ wɔm ene**. Axa sia ƒo nu tso aɖaŋu si wodo ɖa kple ɖoɖo si wowɔ ɖe dɔwɔwɔ ŋu vivivi ŋu. E dodo ɖe ŋgɔ bia be woawɔ tɔtrɔ le Zcash nukpɔsusu ɖeka ƒe sewo ŋu, si nye nusi ta mɔfiame kple Zebra ɖekawɔwɔdɔa nye.
+**Xexlẽ Crosslink abe gbegbɔgblɔ ɖi ƒe se si le dɔ wɔm ene**. Axa sia ƒe nya nye ɖoɖo si wode akpa akpa ƒe dɔwɔwɔ ƒe ɖoɖo kplɔe. Eƒe kɔkɔe hia tɔtrɔ le Zcash ƒe gbegbɔgblɔ ɖi ƒe sewo me, eye esiae ta mɔɖoɖoa kple Zebra ƒe kɔkɔe ƒe dɔwo li.
 
-**Ne míetsɔe be PoS xɔ ɖe tomenukuƒewo teƒe**. Crosslink nye aɖaŋu si wotsɔ tsaka: PoW block wɔwɔ yi edzi kpe ɖe staked validation ŋu. Le Dedienɔnɔ ƒe Nɔnɔme gɔ̃ hã me la, blockchain la yia PoW dɔwɔwɔ dzi esime wotɔ te ganyawo ƒe dɔwɔnawo.
+**Susu be PoS ɖea nukuku ɖe teƒe**. Crosslink nye ƒomekɔkɔe ƒe ɖoɖo: PoW ƒe gaɖoɖowo ƒuƒoƒe ƒe wɔwɔ yi edzi kple nusiwo doa gaɖoɖowo ƒuƒoƒe ɖe edzi si woƒoe le ga ƒuƒoƒo me. Le Dedienɔnɔ ƒe Mɔnu me hã la, gaɖoɖowo ƒuƒoƒo ƒe ɖoɖonu la yi edzi wɔa PoW ƒe dɔwo, le esime woƒoa ga ƒe dɔwɔwɔwo nu.
 
-**Nuwɔwɔ ɖe "mlɔetɔ" ŋu abe kpeɖodzi si le kabakaba wu ene**. Wotrɔ asi le agbalẽ gã si wowu enu la ŋu na ɣeyiɣi si woatsɔ aɣlae si wu Zcash blockchain si li fifia ƒe teƒe eve vie hena block ƒe kpeɖodzi siwo sɔ. Nusi wòtsɔ kpe ɖe eŋue nye rollback dedienɔnɔ, ke menye duƒuƒu o — lower-latency ledger nye nukpɔkpɔ kabakaba.
+**Bu "nuwuwu" be wònye kakaɖedzi si va kaba wu**. Woɖo agbaleƒoƒo si wotsɔ nuwuwu wɔe be eƒe mɔkpɔmɔnu nɔ vie sãa wu enu eve sɔ kple fifia ƒe Zcash gaɖoɖowo ƒuƒoƒo ƒe ɖoɖonu ƒe gaɖoɖowo ƒuƒoƒe ƒe kakaɖedzi si sɔ. Nu si wòtsɔ kpee nye trɔtrɔ megatrɔ o, menye kaba o — agbaleƒoƒo si me gãmesese ƒe mɔnu mekpɔ akpa lae nye nukpɔkpɔ kaba.
 
-**Tɔtɔ le agbalẽ gã eveawo me**. LOG_ba menye kɔsɔkɔsɔ si le eɖokui si o: ekekea agbalẽ gã si wowu enu la ɖe enu wu *L* blocks, eye le Crosslink 2* ƒe nɔnɔme me la, ewɔa dɔ abe PoW kɔsɔkɔsɔ ene.
+**Ƒo agbaleƒoƒo evea nu**. LOG_ba menye ɖoɖonu bubu aɖeke o: edo ŋgɔ na agbaleƒoƒo si wotsɔ nuwuwu wɔe gaɖoɖowo ƒuƒoƒe *L* ko, eye le Crosslink 2* ƒe ɖoɖo me la, ewɔa dɔ abe PoW ƒe ɖoɖonu ene.
 
-## Axa Siwo Do Ƒome Kplii
+## Axawo Si Dze Eŋu
 
-- [Crosslink Feature Net](/guides/crosslink-feature-net) — da Feature Net desktop app la ɖe wò kɔmpiuta dzi, tsɔe de finalizer aɖe me eye nàlé ŋku ɖe wò nɔƒe ŋu.
-- [Zebra Node Bliboe](/zcash-tech/zebra-full-node) — woɖoe be woatsɔ Crosslink 2* awɔ ɖeka kple asisi la.
-- [Nodes Blibowo](/zcash-tech/full-nodes) — alesi nodes da asi ɖe se siwo dzi woda asi ɖo dzi egbea, hafi nukpɔsusu ɖeka si wotsɔ tsaka ɖesiaɖe natrɔ.
-- [Netwɔƒea ƒe Ðɔɖɔɖowo](/start-here/network-upgrades) — alesi se ƒe tɔtrɔ siwo dzi woda asi ɖo ɖoa Zcash network la gbɔe.
-- [Zcash Ganyawo Ŋuti Ðoɖo](/start-here/zcash-monetary-policy) — block reward structure si Crosslink agbugbɔ ama.
+- [Crosslink Feature Net](/guides/crosslink-feature-net) — Ɖo Feature Net ƒe desktop app la ɖe, ƒo ga ɖe nuwuwu dɔwɔla aɖe ŋu, eye kpɔ nɔƒe si wòle.
+- [Zebra Ɣaɣla Dzesi Ŋɔŋlɔ Blibo](/zcash-tech/zebra-full-node) — klient si woɖo be woakɔ Crosslink 2* ɖe eme.
+- [Ɣaɣla Dzesi Ŋɔŋlɔwo Blibo](/zcash-tech/full-nodes) — ale si ɣaɣla dzesi ŋɔŋlɔwo doa gbegbɔgblɔ ɖi ƒe sewo ɖe edzi egbea, hafi ƒomekɔkɔe gbegbɔgblɔ ɖi ƒe tɔtrɔ aɖeke ava.
+- [Mɔ̃ Ƒe Sewo Trɔtrɔ](/start-here/network-upgrades) — ale si gbegbɔgblɔ ɖi ƒe se ƒe tɔtrɔwo va ɖo Zcash ƒe network la gbɔ.
+- [Zcash Ga Ƒe Ɖoɖo](/start-here/zcash-monetary-policy) — gaɖoɖowo ƒuƒoƒe ƒe fetu ƒe ɖoɖo si Crosslink akɔ ƒe akpa amama.
 
 ## Dɔwɔnu Bubuwo
 
-- Nutoa me numedzodzro: [Crosslink: Incentivized Feature Net, le Zcash Habɔbɔ ƒe Nyamedzroƒe](https://forum.zcashcommunity.com/t/crosslink-incentivized-feature-net/55210)
-- Nyatakaka yeye siwo dziɖuɖua gblɔ: [Crosslink le Shielded Labs](https://shieldedlabs.net/crosslink/) kple.. [Feature Net asiɖeɖe le eŋu](https://github.com/ShieldedLabs/crosslink_monolith/releases)
-- Aɖaŋuɖoɖo ƒe mɔfiame: [Crosslink ƒe agbalẽa](https://shieldedlabs.github.io/crosslink_book/)
+- Amedzro ƒe ƒoƒo: [Crosslink: Feature Net Si Wode Fetu Ɖe Eŋu, le Zcash ƒe Community Forum](https://forum.zcashcommunity.com/t/crosslink-incentivized-feature-net/55210) dzi
+- Nyatakaka siwo tsoa wɔnɔ: [Crosslink le Shielded Labs](https://shieldedlabs.net/crosslink/) kple [Feature Net ƒe releasewo](https://github.com/ShieldedLabs/crosslink_monolith/releases)
+- Ɖoɖo ƒe nyatakaka: [The Crosslink book](https://shieldedlabs.github.io/crosslink_book/)
 
-  Ɖeɖe fiã:
+  Nya si wotsɔ ɖe edzi:
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
      <iframe

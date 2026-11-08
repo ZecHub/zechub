@@ -2,25 +2,25 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Kizazi cha video ya subtitle na tafsiri
+# Uundaji na tafsiri wa manukuu ya video
 
-Vifaa kutumika katika mwongozo huu:
+Vifaa [tools] vilivyotumika katika mwongozo huu:
 
 1. CapCut
-2. [CapCut SRT Mauzo ya nje](https://www.biyaoyun.com/capcutsrt)
-3. Mhariri wa maandishi
-4. [Online Subtitle Translator & Mhariri](https://www.syedgakbar.com/projects/dst)
+2. [Hamisho la SRT la CapCut](https://www.biyaoyun.com/capcutsrt)
+3. Kihariri cha maandishi
+4. [Mtafsiri na Kihariri cha Manukuu Mtandaoni](https://www.syedgakbar.com/projects/dst)
 
-Kuanza lakini kuagiza mwisho hariri ya video yako katika CapCut. Vinginevyo, unaweza kutumia CapCuts kuhariri video kabla ya kuendelea na mchakato huu.
+Anza kwa kuingiza toleo la mwisho lililohaririwa la video yako kwenye CapCut. Vinginevyo, unaweza kutumia CapCut kuhariri video kabla ya kuendelea na mchakato huu.
 
-Na video ya mwisho kubeba katika CapCut, kutumia [CapCut SRT Export](https://www.biyaoyun.com/capcutsrt) kupata faili ya subtitle, na timestamps, kutoka mradi CapCut.
+Video ya mwisho ikiwa imepakiwa kwenye CapCut, tumia [Hamisho la SRT la CapCut](https://www.biyaoyun.com/capcutsrt) kupata faili ya manukuu, yenye mihuri ya muda, kutoka kwenye mradi wa CapCut.
 
-Fungua faili ya SRT katika mhariri wa maandishi na kuangalia kupitia video, wakati kusoma pamoja katika faili SRT, kufanya mabadiliko ya faili SRC wakati makosa ni kupatikana.
+Fungua faili ya SRT katika kihariri cha maandishi na tazama video huku ukisoma pamoja na faili ya SRT, ukifanya mabadiliko kwenye faili ya SRT unapopata makosa. Tumia utafutaji na ubadilishaji ili **kubadilisha yote** kwa kila kosa.
 
-Kidokezo: Tazama video katika 2x wakati kuangalia subs
+Kidokezo: Tazama video kwa kasi ya 2x huku ukikagua manukuu
 
-Baada ya nakala ya awali imekuwa checked na kusahihishwa, upload faili SRT kwa [Online Subtitle Translator & Editor](https://www.syedgakbar.com/projects/dst) kutafsiri faili SRT katika lugha nyingine yoyote kwa ada ndogo.
+Baada ya nakala asili kukaguliwa na kusahihishwa, pakia faili ya SRT kwenye [Mtafsiri na Kihariri cha Manukuu Mtandaoni](https://www.syedgakbar.com/projects/dst) ili kutafsiri faili ya SRT katika lugha nyingine yoyote kwa ada [fee] ndogo.
 
-Tafsiri SRT faili lazima checked kutumia video editing programu na mtu ambaye anaelewa lugha kutafsiriwa.
+Faili ya SRT iliyotafsiriwa inapaswa kukaguliwa kwa kutumia programu ya kuhariri video na mtu anayeelewa lugha iliyotafsiriwa.
 
-Tafsiri SRT files wakati mwingine haja ya marekebisho ya timecodes ambayo ni rahisi kupata na kurekebisha na wengi video editing programu.
+Faili za SRT zilizotafsiriwa wakati mwingine huhitaji marekebisho ya misimbo ya muda ambayo ni rahisi kupata na kurekebisha kwa programu nyingi za kuhariri video.

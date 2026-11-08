@@ -1,83 +1,83 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/guides/Mining_and_Staking_Privacy.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Aŋlɔ axa"/>
 </a>
 
-# Tomenukuƒewo kple ame ŋutɔ ƒe nyawo tsɔtsɔ de afɔku me
+# Nukuku [Mining] kple ga ƒuƒoƒo [staking] ƒe ɣaɣla [privacy]
 
-Wò tomenukulawo ƒe fetu kple wò finalizer menye nu ɖeka o. Kɔsɔkɔsɔa metsɔa wo doa ka kple wo nɔewo gbeɖe o.
+Wò nukula [miner] ƒe fetu xɔxɔ kple wò nuwuwu dɔwɔla [finalizer] menye nu ma ke o. Ɖoɖonu [chain] la meɖea wo dome kpɔ o.
 
 <div className="grid gap-3 my-5 sm:grid-cols-3">
   <div className="rounded-xl border border-emerald-300 bg-emerald-50 p-4 dark:border-emerald-700 dark:bg-emerald-950">
-    <div className="text-xs font-semibold uppercase tracking-wide text-emerald-700 dark:text-emerald-300">Miner</div>
-    <div className="mt-1 text-lg font-semibold text-emerald-950 dark:text-emerald-50">Transparent payout</div>
-    <p className="mt-1 text-sm text-emerald-900 dark:text-emerald-100">Coinbase pays a Zcash address. A t-address history is public.</p>
+    <div className="text-xs font-semibold uppercase tracking-wide text-emerald-700 dark:text-emerald-300">Nukula</div>
+    <div className="mt-1 text-lg font-semibold text-emerald-950 dark:text-emerald-50">Nuwo ƒe ʋuʋuɖi [Transparent] fetu xɔxɔ</div>
+    <p className="mt-1 text-sm text-emerald-900 dark:text-emerald-100">Coinbase ƒoa fetu na Zcash gaɖoƒe ƒe dzesi [address]. T-gaɖoƒe ƒe dzesi ƒe ŋutinya le dukɔme.</p>
   </div>
   <div className="rounded-xl border border-blue-300 bg-blue-50 p-4 dark:border-blue-700 dark:bg-blue-950">
-    <div className="text-xs font-semibold uppercase tracking-wide text-blue-700 dark:text-blue-300">Finalizer</div>
-    <div className="mt-1 text-lg font-semibold text-blue-950 dark:text-blue-50">zfinv1 key</div>
-    <p className="mt-1 text-sm text-blue-900 dark:text-blue-100">An ed25519 key. It signs votes. It is not a Zcash address.</p>
+    <div className="text-xs font-semibold uppercase tracking-wide text-blue-700 dark:text-blue-300">Nuwuwu dɔwɔla</div>
+    <div className="mt-1 text-lg font-semibold text-blue-950 dark:text-blue-50">zfinv1 kɔkɔe</div>
+    <p className="mt-1 text-sm text-blue-900 dark:text-blue-100">E nye ed25519 kɔkɔe. Etsɔa asi ɖe akɔmeɖeɖewo ŋu. Menye Zcash gaɖoƒe ƒe dzesi o.</p>
   </div>
   <div className="rounded-xl border border-amber-300 bg-amber-50 p-4 dark:border-amber-700 dark:bg-amber-950">
-    <div className="text-xs font-semibold uppercase tracking-wide text-amber-700 dark:text-amber-300">Bond</div>
-    <div className="mt-1 text-lg font-semibold text-amber-950 dark:text-amber-50">Shielded stake</div>
-    <p className="mt-1 text-sm text-amber-900 dark:text-amber-100">Lives in the staking pool. Names a target finalizer.</p>
+    <div className="text-xs font-semibold uppercase tracking-wide text-amber-700 dark:text-amber-300">Ga si wode ɖe asi</div>
+    <div className="mt-1 text-lg font-semibold text-amber-950 dark:text-amber-50">Ɣaɣla [Shielded] ga ƒuƒoƒo</div>
+    <p className="mt-1 text-sm text-amber-900 dark:text-amber-100">Ele ga ƒuƒoƒo ƒe gaƒuƒoƒo [pool] me. Eɖoa dzesi nuwuwu dɔwɔla si woɖo taɖodzinu na.</p>
   </div>
 </div>
 
-## Ðoɖo si le vevie
+## Ɖoɖo si le vevie
 
 <div className="my-4 rounded-xl border border-slate-200 bg-slate-50 p-4 dark:border-slate-600 dark:bg-slate-800">
   <div className="flex flex-wrap items-center gap-2 font-semibold">
-    <span className="rounded-full bg-emerald-600 px-3 py-1 text-sm text-white">1 Mine</span>
+    <span className="rounded-full bg-emerald-600 px-3 py-1 text-sm text-white">1 Ɖe nukuku</span>
     <span className="text-slate-400">→</span>
-    <span className="rounded-full bg-blue-600 px-3 py-1 text-sm text-white">2 Shield</span>
+    <span className="rounded-full bg-blue-600 px-3 py-1 text-sm text-white">2 Ɖe ɣaɣla</span>
     <span className="text-slate-400">→</span>
-    <span className="rounded-full bg-amber-600 px-3 py-1 text-sm text-white">3 Bond</span>
+    <span className="rounded-full bg-amber-600 px-3 py-1 text-sm text-white">3 Ɖe ga ɖe asi</span>
   </div>
-  <p className="mt-3 mb-0 text-slate-800 dark:text-slate-100">Skip the shield and the private step never happens. A bond does not erase a transparent coinbase.</p>
+  <p className="mt-3 mb-0 text-slate-800 dark:text-slate-100">Ne nèle ɣaɣla ƒe afɔ la tsoe la, dɔ si le ɣaɣla me va eme o. Ga si wode ɖe asi meɖea nuwo ƒe ʋuʋuɖi coinbase ɖa o.</p>
 </div>
 
-## Nusi le dutoƒo
+## Nu si le dukɔme
 
-| Nu | Amedome? | Nu ka ta |
+| Nu | Le dukɔme? | Nu ka ta |
 |---|---|---|
-| Miner t-adrɛs kple coinbase ŋutinya | Ɛ̃ | Nusiwo dona tso eme si me kɔ si sɔ |
-| Nuwuwu ƒe safui kple zfinv1 | Ẽ, zi ɖeka le ŋkɔwo ƒe xexlẽdzesiwo me | Ele be wòanɔ nenema, be woaɖo kpe akɔdadawo dzi |
-| Akɔdada ƒe ŋusẽ kple teƒeɖoɖo ƒe gadzraɖoƒe | Ɛ̃ | Wotae ɖe finalizer key ŋu ale be woate ŋu awɔ stake mama ƒe agbalẽdzikpɔkpɔ |
-| Adrɛs si me kɔ si me wokpɔa ga le be woatsɔ axe fe ɖe gaxɔgbalẽvi aɖe ta | Ao, le akpoxɔnu aɖe megbe | Bond la zãa gagbalẽ siwo ŋu wokpɔ ta na |
-| Kadodo tso wò tomenukulawo gbɔ va ɖo wò finalizer gbɔ | Menye ɖe kɔsɔkɔsɔ dzi o | Naneke mele ɖoɖowɔɖia me ŋlɔnɛ o |
+| Nukula ƒe t-gaɖoƒe ƒe dzesi kple coinbase ƒe ŋutinya | Ẽ | Nuwo ƒe ʋuʋuɖi ƒe output wɔnɔa gbɔgbɔ |
+| Nuwuwu dɔwɔla ƒe kɔkɔe kple zfinv1 | Ẽ, ne wotsɔe de xexlẽme ko | Ele be wòanɔ ale, be woate ŋu ada akɔmeɖeɖewo ƒe nyateƒe |
+| Akɔmeɖeɖe ƒe ŋusẽ kple fetu ƒe bank | Ẽ | Woaɖe eƒe nyatakakawo fia le nuwuwu dɔwɔla ƒe kɔkɔe ŋu, be woate ŋu akpɔ ga ƒuƒoƒo ƒe mamã kpɔ |
+| Nuwo ƒe ʋuʋuɖi gaɖoƒe ƒe dzesi si tso ga si wode ɖe asi me | Ao, le ɣaɣla megbe | Ga si wode ɖe asi la zaa ɣaɣla didienuwo [notes] |
+| Kadodo tso wò nukula gbɔ yi wò nuwuwu dɔwɔla gbɔ | Menye ɖoɖonu dzi o | Naneke mele protocol la me si ŋlɔa esia o |
 
-Woɖoe koŋ ɖea ga home siwo wotsɔ de afɔku me fiana. Aɖaŋua hiã be woatsɔ nusiwo katã wotsɔ de afɔku me kple emama le finalizers dome be woate ŋu alé ŋku ɖe eŋu le dutoƒo. Agbɔsɔsɔme (ŋusẽ 10) kple fesre siwo woɖo ɖe ati ŋu la ɖoa seɖoƒe na ɣeyiɣi alo nɔnɔme ŋuti nyatakaka ɖekaɖekawo ƒe agbɔsɔsɔme si dona esime wogaɖea mɔ ɖe agbalẽdzikpɔkpɔ ma ŋu kokoko. Unstaked Orchard ga si susɔ la nɔa ame ŋutɔ si; staking nye nusi woɖo koŋ ɖee ɖe go.
+Wofia ga si woƒu ƒo ɖe asi la ƒe agbɔsɔsɔ ta. Moɖoɖo la hiã be ame sia ame nate ŋu akpɔ ga si woƒu ƒo ɖe asi katã kple mamã si le nuwuwu dɔwɔlawo dome. Quantization (10 ƒe ŋusẽwo) kple ga ƒuƒoƒo ƒe ɣeyiɣi si woɖo ɖe anyi la dea alɔ ɖe alesi ame ƒe ɣeyiɣi alo nɔnɔme ƒe nyatakaka geɖe adzudzɔ le eme ŋu, ke hã wɔa be wòate ŋu awɔ kpɔkpɔ ma. Orchard ƒe balance si mewoƒu ƒo ɖe asi o la nɔa ɣaɣla me; ga ƒuƒoƒo nye nyatakaka fiafia si woɖo taɖodzinu na.
 
-## Tsɔe de ati ŋu na ɖokuiwò, alo na ame bubu
+## Ɖe ga ɖe asi na ɖokuiwò, alo na ame bubu
 
 <div className="grid gap-3 my-4 sm:grid-cols-2">
   <div className="rounded-xl border border-slate-300 bg-white p-4 dark:border-slate-600 dark:bg-slate-800">
-    <div className="font-semibold text-slate-900 dark:text-slate-50">Bond to your own finalizer</div>
-    <p className="mt-2 mb-0 text-sm text-slate-700 dark:text-slate-200">Simplest. You keep the operator role and the bond. An observer still cannot prove the t-address and the zfinv1 are one person from chain data alone.</p>
+    <div className="font-semibold text-slate-900 dark:text-slate-50">Ɖe ga ɖe asi na wò ŋutɔ ƒe nuwuwu dɔwɔla</div>
+    <p className="mt-2 mb-0 text-sm text-slate-700 dark:text-slate-200">Eyae le bɔbɔe wu. Nèle dɔwɔla ƒe nɔƒe kple ga si wode ɖe asi la ɖe asi. Kpɔla aɖeke mate ŋu aɖe kpeɖeŋu be t-gaɖoƒe ƒe dzesi kple zfinv1 nye ame ɖeka tɔ tso ɖoɖonu ƒe nyatakakawo ko me o.</p>
   </div>
   <div className="rounded-xl border border-amber-300 bg-amber-50 p-4 dark:border-amber-700 dark:bg-amber-950">
-    <div className="font-semibold text-amber-950 dark:text-amber-50">Bond to another member</div>
-    <p className="mt-2 mb-0 text-sm text-amber-900 dark:text-amber-100">The voting power shows under their key. They earn the 10% active-finalizer commission. You keep the 90% that accrues on the bond. This breaks the obvious guess that the miner receiving the transparent payout is the same person operating the finalizer.</p>
+    <div className="font-semibold text-amber-950 dark:text-amber-50">Ɖe ga ɖe asi na hata ƒe ame bubu</div>
+    <p className="mt-2 mb-0 text-sm text-amber-900 dark:text-amber-100">Akɔmeɖeɖe ƒe ŋusẽ aɖe eɖokui fia le woƒe kɔkɔe te. Woxɔa 10% active-finalizer commission. Èle 90% si ƒoa nu le ga si wode ɖe asi la ŋu. Esia tsena ɖe ame ƒe susu ɖa be nukula si xɔa nuwo ƒe ʋuʋuɖi fetu la nye ame ma ke si wɔa nuwuwu dɔwɔla ƒe dɔ la.</p>
   </div>
 </div>
 
-Ƒuƒoƒo aɖe ate ŋu aku tome le fexexe ƒe adrɛs vovovowo dzi, akpoxɔnu, kple kadodo le hameviwo dome. Ema na be "tomenukuƒe siae nye finalizer sia" sesẽna ŋutɔ be woagblɔ tso kɔsɔkɔsɔ ƒe nyatakakawo me. Meɣlaa amesiwo nye ame mamlɛawo o, eye meɣlaa tomenukuƒea hã o.
+Hata aɖe ate ŋu awɔ nukuku le fetu xɔxɔ ƒe gaɖoƒe ƒe dzesi vovovowo dzi, aɖe wo ɖe ɣaɣla me, eye wòaɖe ga ɖe asi le hata ƒe amewo dome. Esia wɔa be nya sia be "nukula sia nye nuwuwu dɔwɔla sia" nana wòsesẽ be ame aɖe aɖe kpeɖeŋu tso ɖoɖonu ƒe nyatakakawo me. Menye nuwuwu dɔwɔlawo ƒe ameame wɔa ɣaɣla o, eye menye nukuku hã wɔa ɣaɣla o.
 
-## Nusi esia mewɔna o
+## Nu si esia mewɔ o
 
 <div className="my-4 rounded-xl border border-rose-300 bg-rose-50 p-4 dark:border-rose-700 dark:bg-rose-950">
-  <div className="font-semibold text-rose-700 dark:text-rose-300">Not hidden</div>
+  <div className="font-semibold text-rose-700 dark:text-rose-300">Mewoa ɣaɣla o</div>
   <ul className="mt-2 mb-0 text-rose-950 dark:text-rose-100">
-    <li>Who the finalizers are</li>
-    <li>How much voting power each one has</li>
-    <li>Your transparent mining history</li>
-    <li>A link you create off-chain: one IP, one payout pattern, one operator</li>
+    <li>Ame siwo nye nuwuwu dɔwɔlawo</li>
+    <li>Akɔmeɖeɖe ƒe ŋusẽ si ame sia ame si le</li>
+    <li>Wò nuwo ƒe ʋuʋuɖi nukuku ƒe ŋutinya</li>
+    <li>Kadodo si nèwɔ le ɖoɖonu me o: IP ɖeka, fetu xɔxɔ ƒe nɔnɔme ɖeka, dɔwɔla ɖeka</li>
   </ul>
 </div>
 
-Taɖodzinu zfinv1 le staking action la me. Ame ŋutɔ ƒe nyawo tsɔtsɔ aɣla le afisia ku ɖe ga la tsoƒe ŋu, ke menye be woaɣla teƒe si woɖo tae ƒe safui o.
+zfinv1 si woɖo taɖodzinu na la le ga ƒuƒoƒo ƒe nufiafia la me. Ɣaɣla le afisia nye gaawo ƒe tete gbɔ, menye be woaɣla taɖodzinu ƒe kɔkɔe o.
 
-## Kpuie ko la
+## Nya kpui aɖe
 
-Tɔnye. Akpoxɔnu. Emegbe kadodo. Tomenukuƒea ƒe adrɛs kple finalizer key nɔa kadodo aɖeke me o negbe ɖe wò ŋutɔ nèdo ka kpli wo hafi.
+Wɔ nukuku. Ɖe ɣaɣla. Emegbe la, ɖe ga ɖe asi. Nukula ƒe gaɖoƒe ƒe dzesi kple nuwuwu dɔwɔla ƒe kɔkɔe manya wo nɔewo o, negbe wò ŋutɔ nàtsɔ wo akɔ ɖe nɔewo ŋu.

@@ -4,89 +4,89 @@
 
 # Sapling
 
-> Sapling yi agbe le Zcash mainnet dzi le block 419,200 (October 29, 2018, 02:15 UTC).
+> Sapling de dɔwɔwɔ gɔme le Zcash mainnet dzi le gaɖoɖowo ƒuƒoƒe 419,200 (October 29, 2018, 02:15 UTC).
 
-Nusi nàtsɔ adzoe: Sapling wɔ Zcash ƒe fe siwo ame ŋutɔ xena kabakaba eye wònɔa bɔbɔe ale gbegbe be woate ŋu awɔ dɔ le telefon alo gakotoku si me wozãa xɔtunuwo le dzi.
+Nu si nànya lae nye esi: Sapling wɔ Zcash ƒe fexexe ɣaɣla [private] wòzu kaba eye wòme kɔ be woate ŋu awɔe le telefon alo asikplɔwo dzra mɔ dzi.
 
-Sapling nye Zcash network ƒe tɔtrɔ gã evelia, si wɔ dɔ le Zcash ƒe ƒezã evelia dzi. Enye fɔkpa sesẽ si dzi woda asi ɖo si gbugbɔ tu alesi wotsɔa asitsatsa siwo wokpɔ ta na (ame ŋutɔ tɔ) ƒoa ƒui. Woɖea dɔwɔwɔ gɔme to ZIP 205 dzi, asitsatsa ƒe asidede agbalẽ te ƒe se yeyeawo to ZIP 243 dzi, eye wo ame evea siaa tu ɖe ZIP 200, si nye network ƒe ŋgɔyiyi ƒe mɔnu dzi. Nyatakaka bliboa le Zcash Protocol Specification me. Electric Coin Company tu ɖɔɖɔɖoa eye wòɖo gbãtɔ si do alɔe, zcashd 2.0.0, le August 2018. Le kɔsɔkɔsɔ me la, network la dea dzesi Sapling seawo to eƒe alɔdze id si dzi woda asi ɖo dzi.
+Sapling nye Zcash ƒe mɔ̃ ƒe sewo trɔtrɔ [network upgrade] gã evelia, eye wodze egɔme le Zcash ƒe dzidzɔƒe ƒe ƒe evelia. Enye gbegbɔgblɔ ɖi [consensus] ƒe hard fork si wɔe yeyee ale si woƒoa gaɖoɖo ɣaɣla (private) ƒe akpaewo. Woɖe dɔwɔwɔa ƒe ɖoɖo fia le ZIP 205 me, gaɖoɖo ƒe asidede agbalẽ te [signature] se yeyewo le ZIP 243 me, eye woƒe siawo katã tso ZIP 200, mɔ̃ ƒe sewo trɔtrɔ ƒe mɔnu, me. Nu bliboa le Zcash Protocol Specification me. Electric Coin Company tu mɔ̃ ƒe sewo trɔtrɔa eye wòɖe version gbãtɔ si doa alɔe, zcashd 2.0.0, le August 2018 me. Le ɖoɖonu [chain] dzi, network la de dzesi Sapling ƒe sewo kple eƒe consensus branch id.
 
-Nusitae esia le vevie ɖo. Do ŋgɔ na Sapling la, ame ŋutɔ ƒe fexexe ŋutɔŋutɔ fia be nàlala aɖabaƒoƒo geɖe esime wò kɔmpiuta le ŋkuɖodzinu gigabytewo ɖum be yeatu kpeɖodzia. Ema nɔ blewu akpa eye wòlolo akpa na ame akpa gãtɔ, eyata ezãla, nuɖɔlilawo, kple fiase geɖe do kpo asitsatsa siwo ŋu wokpɔ ta na la eye woɖo ZEC ɖe gaglãgbe boŋ. Sapling ɖe dɔa dzi kpɔtɔ va ɖo sɛkɛnd ʋɛ aɖewo kple ŋkuɖodzinu si ade megabyte 40. Tɔtrɔ ɖeka mae nye nusi na ZEC si wotsɔ akpoxɔnu wɔe la sɔ be woazã le gbesiagbegbenɔnɔ me, le telefon dzrowo dzi kple le gakotoku siwo me wozãa xɔtunuwo le me.
+Nu ka ta esia le vevie. Tsã na Sapling, be nàwɔ fexexe ɣaɣla vavã la, ele be nàlala miniti geɖewo hã esi wò kɔmpiuta le memory gigabyte geɖewo ƒe dɔ wɔm be wòatu ɖaseɖigbalɛ [proof] la. Esia da megbe eye wòle kpekpeɖeŋu na ame geɖewo, eyata ezãlawo, gatrɔƒewo [exchange], kple afɔkuwo geɖe mele gaɖoɖo ɣaɣla wɔm o eye wodɔ ZEC le ɖeɖefia me. Sapling tsɔ dɔa ɖe sekondi aɖewo kple memory megabyte 40 ko me. Trɔtrɔ ɖeka siae wɔe be ZEC ɣaɣla nadze agbagba le gbe sia gbe ƒe agbenɔnɔ me, le telefon vɔ̃wo kple asikplɔwo dzra mɔ dzi.
 
-## Nusi trɔ
+## Nu si trɔ
 
-Sapling ƒe dzi nye mɔnu si le kabakaba wu si dzi woato atu sidzedze zero-sidzedze ƒe kpeɖodzi si naa asitsatsa si wokpɔ ta na la nɔa ɣaɣla. Sprout ƒe nɔnɔme gbãtɔ zã kpeɖodzi nutome sue ɖeka (JoinSplit nutome) si nɔa blewu eye ŋkuɖodzinyawo ƒe dɔ nɔa eŋu. Sapling tsɔ nutome eve siwo wotu ɖe taɖodzinu aɖe ta, Spend nutome kple Output nutome, si ŋu woƒo nu tsoe le Zcash Protocol Specification me, ɖɔ li. Nusi dona tso emee nye gazazã ƒe ɖiɖi gã aɖe. Le Electric Coin Company ƒe nya nu la, woate ŋu atu asitsatsa si ŋu wokpɔ ta na le sɛkɛnd ʋɛ aɖewo ko me to ŋkuɖodzinu si ade megabyte 40 zazã me. Gɔmedzedze si nɔ anyi do ŋgɔ na Sapling Sprout la kpekpe wu sã, le aɖabaƒoƒo kple ŋkuɖodzinu gigabyte geɖe ƒe ɖoɖo nu (Sprout ƒe akpa dzi xexlẽdzesi siawoe nye gɔmedzedze si gogo si woyɔ le afisiafi).
+Sapling ƒe dziɖuɖu nye mɔ kaba aɖe si tu zero-knowledge ɖaseɖigbalɛ la, si na gaɖoɖo ɣaɣla nanɔ ɣaɣla. Sprout ƒe ɖoɖo gbãtɔ zã proving circuit ɖeka (JoinSplit circuit), si do megbe eye wòɖia memory geɖe. Sapling trɔ esia kple circuit eve si wotu na dɔ sia tɔxɛ, Spend circuit kple Output circuit, si woɖe egɔme le Zcash Protocol Specification me. Eƒe emetsonu nye asiƒoƒo gã le asixɔxɔ me. Le Electric Coin Company nu la, woate ŋu atu gaɖoɖo ɣaɣla le sekondi aɖewo ko me kple memory megabyte 40. Sapling ŋgɔ Sprout ƒe nudzodzro la kpe ɖe eme wu; edze miniti geɖewo kple memory gigabyte geɖewo (Sprout-ƒe akɔnta siawoe nye nudzodzro ƒe nudzodzro si woƒoa nu tsoe zi geɖe).
 
 ![Sprout versus Sapling shielded transaction cost](/content-images/sapling-before-after-a045b0b48f.webp)
 
 ## Safui yeyewo
 
-Sapling to adrɛs kple safui yeye aɖe hã vɛ. Safui ɖeka ate ŋu akpɔ adrɛs vovovo geɖe, siwo nye fexexe ƒe adrɛs vovovo siwo gotagome eteƒekpɔla mate ŋu atsɔ wo aɖo wo nɔewo gbɔ o. Sapling tsɔ nukpɔkpɔ ƒe safuiwo hã kpee: nukpɔkpɔ ƒe safui si yɔ fũ alo si gbɔna la na nèma ŋutete si le asiwò be nàkpɔ gakotoku ƒe asitsatsa ŋuti nyatakakawo evɔ màtsɔ ŋutete si le asiwò be nàzã eƒe ga la ade asi na ame o. Ema ɖea vi na agbalẽdzikpɔkpɔ, akɔntabubu, alo kpeɖodzi ko be woxe fe aɖe.
+Sapling hã tsɔ gaɖoƒe ƒe dzesi [address] ɣaɣla kple safui yeyewo vɛ. Safui ɖeka ate ŋu akpɔ gaɖoƒe ƒe dzesi vovovo geɖe, siwoe nye fexexe ƒe gaɖoƒe ƒe dzesi siwo ame si le gota mate ŋu aka ɖe wo nɔewo ŋu o. Sapling tsɔ nukpɔsafui [viewing key] vɛ hã: nukpɔsafui blibo alo nukpɔsafui si kpɔ gaɖoɖowo gbɔ na wòate ŋu nàma ame aɖe nakpɔ gakotoku [wallet] ƒe gaɖoɖo ƒe nyawo, ke menye be nètsɔ ŋusẽ si woatsɔ azã eƒe ga na wò o. Esia le nyui na akɔntabubu, gaƒe ƒe akɔntabubu, alo be nàɖe fia ko be wowɔ fexexe aɖe.
 
-Tɔtrɔ si do ƒome kplii enye be Sapling ma kpeɖodzia tutudɔa kple asidede asitsatsa la te ƒe dɔa dome. Mehiã be mɔ̃ si wɔa zero-sidzedze ƒe kpeɖodzia nanye mɔ̃ si lé gazazã ƒe ŋusẽ ɖe asi o. Decoupling siae nye nusi naa hardware gakotoku nana wò gazazã ƒe safuia ɖea eɖokui ɖe aga esime mɔ̃ si le eɖokui si wɔa kpeɖodzidɔ si kpekpe wu.
+Trɔtrɔ si le eŋu nye be Sapling ma dɔ si tu ɖaseɖigbalɛ la kple dɔ si dea asidede agbalẽ te na gaɖoɖo la tɔ. Mɔ si tua zero-knowledge ɖaseɖigbalɛ la megale be wòanye mɔ si le gazazãsafui [spending key] la ɖe asi o. Mama siae na asikplɔwo dzra mɔ nate ŋu ana wò gazazãsafui nanɔ ɖe eɖokui me esi mɔ bubu wɔ proving dɔ si le kpekpeɖeŋu.
 
 ![Proving device hands the proof to a separate signing device](/content-images/sapling-decoupled-spend-6fceca13a2.webp)
 
-## Ðoɖo si dzi woka ɖo
+## Mɔ̃ ƒe ɖoɖo xexlẽnuwo
 
-Sapling ƒe nutome suewo ɖoa ŋu ɖe dutoƒo parameters ƒe hatsotso aɖe si wòle be woawɔ nyuie ŋu. Ne ɖe akpa ɖeka koe wɔ wo eye wòdzra nyatakaka ɣaɣla siwo susɔ ("aɖi gbeɖuɖɔ") ɖo la, anye ne akpa ma ate ŋu awɔ kpeɖodziwo aʋatso. Be woaƒo asa na esia la, parameterawo tso wɔna si me wowɔa akpa eve le, si me akpa vovovowo nɔna. Akpa 1, si woyɔna be Powers of Tau, nye nutome-agnostic, si fia be womeblae ɖe Sapling ƒe nutome sue tɔxɛwo ŋu o. Akpa 2 lia, si nye Sapling MPC, nye nutome sue aɖe koŋ tɔ. Akpa ɖesiaɖe nɔa dedie zi alesi gomekpɔla ɖeka ya teti ɖi anukware eye wògblẽ woƒe gbeɖuɖɔ siwo me aɖi le dome ko, eyata ne gomekpɔla ɖesiaɖe wɔ ɖeka ko hafi wɔnaa do kpo nu.
+Sapling ƒe circuitwo ɖo ŋu le public parameter siwo wòle be woawɔ wo nyuie. Ne ame ɖeka ko wɔ wo eye wòtsɔ nyagblɔɖi si wɔ ɖe megbe (the "toxic waste") ɖe asi, ame ma ate ŋu awɔ ɖaseɖigbalɛ mawo. Be woavo esia ŋu la, parameterwo tso ceremony me si wɔ le akpa eve kple ame geɖewo. Akpa 1, si woyɔna be Powers of Tau, menye circuit aɖe tɔxɛ o, esia fia be wometsɔe ɖe Sapling ƒe circuit tɔxɛwo ŋu o. Akpa 2, Sapling MPC, nye circuit tɔxɛ. Akpa sia akpe ɖeŋu nenye be ame ɖeka pɛ hã nɔ anyi nyuie eye wògbã eƒe toxic waste, eyata ceremony la ƒe kɔkɔe ava dzudzɔ ko ne ame sia ame si kpɔa eme la katã wɔ ɖeka.
 
-## Alesi wòwɔ dɔe
+## Ale si wodze egɔme
 
-Sapling kplɔ Overwinter, si nye June 2018 ƒe tɔtrɔ si dzra network la ƒe dodoɖeŋgɔ ƒe mɔnu ɖo. Electric Coin Company ɖo mainnet ƒe dɔwɔwɔ ƒe kɔkɔme le zcashd 2.0.0 me, si woɖe ɖe go le August 2018 me, eye network la trɔ ɖe Sapling ƒe sewo ŋu esime woɖe block 419,200. Le kɔsɔkɔsɔ dzi la, wotsɔa Sapling ƒe nukpɔsusu ɖeka ƒe alɔdze id dea dzesi ɣeyiɣi ma.
+Sapling ɖo Overwinter yome, June 2018 mɔ̃ ƒe sewo trɔtrɔ si na network la ƒe mɔ̃ ƒe sewo trɔtrɔ ƒe mɔnu dzadzɛ. Electric Coin Company de mainnet ƒe dzeɖeɖegɔme ƒe teƒe le zcashd 2.0.0 me, si woɖe le August 2018 me, eye network la trɔ ɖe Sapling ƒe sewo dzi esi wonuku gaɖoɖowo ƒuƒoƒe 419,200. Le ɖoɖonu dzi la, Sapling consensus branch id dea dzesi ɣeyiɣi ma.
 
 ![Timeline from Zcash launch to Sapling activation](/content-images/sapling-timeline-6cad184c30.webp)
 
-## Nyagɔmeɖegbalẽ
+## Nyawo ƒe gɔme
 
-| Nyagbe | Plain-Eŋlisigbe me gɔmesese |
+| Nya | Gɔme bɔbɔe le English me |
 |---|---|
-| Shielded transaction | Zcash ƒe asitsatsa si nye ame ŋutɔ tɔ si ɣlaa amesi ɖoe ɖa, amesi xɔe, kple ga home. |
-| Sprout | Gbãtɔ shielded protocol Zcash dze egɔme kple, blewu eye wòlolo wu Sapling. |
-| Spend and Output circuits | Sapling ƒe kpeɖodzi nutome yeye eve siwo xɔ ɖe Sprout ƒe JoinSplit nutome ɖeka teƒe. |
-| Diversified address | Fexexe ƒe adrɛs geɖe siwo ŋu kadodo aɖeke mele o siwo nàte ŋu akpɔ tso safui ɖeka me la dometɔ ɖeka. |
-| Viewing Key | Safui si nana ame aɖe kpɔa gakotoku ƒe asitsatsa evɔ mate ŋu azã ga tso eme o. |
-| Consensus branch id | Kɔda kpui aɖe si gblɔna na network la be upgrade ƒe se siwo dzi asitsatsa aɖe zɔna ɖo. |
+| Shielded transaction | Zcash ƒe gaɖoɖo ɣaɣla si fia mɔ na ame si dɔ ga la, ame si xɔe la, kple gaƒe. |
+| Sprout | Protocol ɣaɣla gbãtɔ si Zcash dze egɔme kplee, si do megbe eye wòle kpekpeɖeŋu wu Sapling. |
+| Spend and Output circuits | Sapling ƒe proving circuit yeye eve si trɔ Sprout ƒe JoinSplit circuit ɖeka. |
+| Diversified address | Fexexe ƒe gaɖoƒe ƒe dzesi kadodo manɔ anyi [unlinkable] siwo katã nàte ŋu akpɔ tso safui ɖeka me. |
+| Viewing Key | Safui si na ame aɖe nakpɔ gakotoku ƒe gaɖoɖowo, ke mate ŋu azã ga tsoe o. |
+| Consensus branch id | Code kpui aɖe si fia network la be mɔ̃ ƒe sewo trɔtrɔ kae ƒe sewo gaɖoɖo aɖe le dze yome. |
 
-## Nyabiasewo ƒe Nyabiasewo
+## Biabia si woƒoa zi geɖe
 
-Ðe Sapling trɔ ZEC agbɔsɔsɔme si le asinyea? Ao, Sapling trɔ alesi wotua asitsatsa siwo ŋu akpoxɔnu le, ke menye ZEC ƒe agbɔsɔsɔ si le ame aɖe si alo nusiwo katã woatsɔ anae o. Mekpɔ ŋusẽ ɖe wò dadasɔ dzi o.
+Ɖe Sapling trɔ ZEC ƒe gaƒe si nye tɔwò oa? Ao. Sapling trɔ ale si woƒoa gaɖoɖo ɣaɣla, menye ZEC ƒe gaƒe si ame aɖeke le asi alo ga bliboa ƒe xexlẽme o. Wò balance metsrɔ o.
 
-Ðe nye ZEC gakpɔtɔ nye ame ŋutɔ tɔ le Sapling megbea? Ẽ, eye woate ŋu azãe wu. Sapling lé asitsatsa siwo ŋu wokpɔ ta na ƒe adzamenyawo sẽŋu ɖe asi eye wòna wo kabakaba eye woƒe asi bɔbɔ ale gbegbe be woate ŋu azã wo ŋutɔŋutɔ. Ga siwo wokpɔ ta na la nɔa ɣaɣla nenema ke.
+Ɖe nye ZEC gale ɣaɣla le Sapling megbe ha? Ɛ̃, eye wòle bɔbɔe wu be wòazãe. Sapling wɔ gaɖoɖo ɣaɣla ƒe ɣaɣla sesẽ la ɖe asi eye wòwɔ wo kaba kple asi mekɔ o be woate ŋu azã wo vavã. Ga ɣaɣlaawo gale ɣla ale ma ke.
 
-Ðe wòle be mawɔ nanea? Womebiaa afɔɖeɖe aɖeke tso gbɔwò abe amesi léa nu ɖe ​​te ene o. Sapling nye network upgrade si gakotoku kple node software xɔ. Egbegbe gakotokuwo doa alɔ Sapling adrɛswo xoxo.
+Ɖe ele be mawɔ naneke oa? Mègale be nàwɔ naneke o nenye gaƒe ƒe tɔasi. Sapling nye mɔ̃ ƒe sewo trɔtrɔ si gakotoku kple ɣaɣla dzesi ŋɔŋlɔ [node] ƒe softwarewo xɔ. Gakotokuwɔla yeyewo doa alɔ Sapling ƒe gaɖoƒe ƒe dzesi xoxo.
 
-Vovototo kae le Sprout kple Sapling dome? Sprout ye nye ɖoɖowɔɖi gbãtɔ si wotsɔ akpoxɔnu wɔe eye wòzã nutome sue ɖeka si ɖoa kpe edzi blewu, si ƒe ŋkuɖodzinu kpekpe. Sapling tsɔ Spend kple Output nutome sue siwo zɔna kabakaba wu ɖɔ li, etsɔ nukpɔkpɔ ƒe safuiwo kple adrɛs vovovowo kpee, eye wòna asitsatsa siwo ŋu wokpɔ ta na la le bɔbɔe ale gbegbe be woate ŋu azã telefonwo kple gakotoku siwo me wozãa xɔtunuwo le.
+Nu kae nye vovototo le Sprout kple Sapling dome? Sprout nye protocol ɣaɣla gbãtɔ eye wòzã proving circuit ɖeka si do megbe eye wòɖia memory geɖe. Sapling trɔe kple Spend kple Output circuitwo siwo le kaba, wotsɔ nukpɔsafuiwo kple gaɖoƒe ƒe dzesi vovovowo vɛ, eye wòwɔ gaɖoɖo ɣaɣla me kɔ be woate ŋu awɔ wo le telefonwo kple asikplɔwo dzra mɔ dzi.
 
-Nukatae nyatakakatsoƒe aɖewo gblɔ be October 28 eye bubuwo gblɔ be October 29? Woɖo dɔwɔwɔ ƒe kɔkɔme do ŋgɔ be woaɖo taɖodzinu na October 28, 2018. Woɖe mɔxenu si he tɔtrɔa vɛ ŋutɔŋutɔ, si nye block 419,200, le October 29 UTC ƒe gaƒoƒo gbãtɔwo me. Le nutoa me ƒe ɣeyiɣi ƒe didime geɖe me la, egakpɔtɔ nye October 28. Enye block ɖeka ma ke eye wònye ɣeyiɣi ɖeka ma ke le mɔ evea siaa nu.
+Nu ka ta nyaƒoɖewo aɖe gblɔna October 28 eye bubuwo gblɔna October 29? Woɖo dzeɖeɖegɔme ƒe teƒea ɖe ŋgɔ be wòaɖo October 28, 2018 ŋu. Gaɖoɖowo ƒuƒoƒe si wɔ trɔtrɔa vavã, gaɖoɖowo ƒuƒoƒe 419,200, woku e le October 29 UTC ƒe ŋdiŋdi. Le ɣeyiɣi ƒe teƒewo geɖe me la, October 28 koe wòga nye. Enye gaɖoɖowo ƒuƒoƒe ma ke kple ɣeyiɣi ma ke le mɔ sia alo mɔ kemɛa me.
 
-Nukae nye nukpɔkpɔ ƒe safui? Nukpɔkpɔ ƒe safui na be nàte ŋu ama nuxexlẽ ƒe mɔnukpɔkpɔ ɖe gakotoku si ŋu wokpɔ ta na la me. Ame aɖe si si nukpɔkpɔ ƒe safui blibo alo esi gbɔna ate ŋu akpɔ gakotokua ƒe asitsatsa ŋuti nyatakakawo gake mate ŋu azã eƒe ga o. Kpɔ [Safuiwo Kpɔkpɔ](../zcash-tech/viewing-keys) hena bubuwo.
+Nukpɔsafui nye nu kae? Nukpɔsafui na wòate ŋu nàma nukpɔmɔ ƒe mɔ na gakotoku ɣaɣla. Ame si le nukpɔsafui blibo alo nukpɔsafui si kpɔa gaɖoɖowo gbɔ la ate ŋu akpɔ gakotoku ƒe gaɖoɖo ƒe nyawo, ke mate ŋu azã eƒe ga o. Kpɔ [Nukpɔsafuiwo](../zcash-tech/viewing-keys) ne nànya nu geɖe.
 
-## Do wò nugɔmesese kpɔ
+## Ɖo wò nusɔsrɔ̃ kpɔ
 
-Le Sprout ƒe dziɖuɣi la, nukatae ame geɖe ƒoa asa na asitsatsa siwo ŋu wokpɔ ta na, eye aleke Sapling ɖɔe ɖoe?
+Le Sprout te la, nu ka ta ame geɖe mewɔ gaɖoɖo ɣaɣla o, eye aleke Sapling ɖɔe?
 
 <details>
-<summary>Answer</summary>
-Le Sprout te la, asitsatsa si ŋu wokpɔ ta na tutu xɔa aɖabaƒoƒo geɖe eye wòzãa ŋkuɖodzinu gigabyte, eyata enɔa blewu akpa eye wòlolona na ezãla akpa gãtɔ, nuɖɔlilawo, kple fiasewo. Sapling to Spend and Output circuits siwo zɔna kabakaba wu vɛ siwo ɖea dɔa dzi kpɔtɔna va ɖoa sɛkɛnd ʋɛ aɖewo kple abe megabyte 40 ene, si wɔe be asitsatsa siwo ŋu wokpɔa akpoxɔnuwo le la ɖea vi le gbesiagbe telefonwo kple gakotoku siwo me wozãa xɔtunuwo le me.
+<summary>Ŋuɖoɖo</summary>
+Le Sprout te la, gaɖoɖo ɣaɣla ƒe tutu xɔ miniti geɖewo eye wòzã memory gigabyte geɖewo, eyata wòda megbe eye wòle kpekpeɖeŋu na ezãla geɖewo, gatrɔƒewo, kple afɔkuwo. Sapling tsɔ Spend kple Output circuitwo siwo le kaba vɛ, siwo tsɔ dɔa ɖe sekondi aɖewo kple megabyte 40 te, eye wòwɔ gaɖoɖo ɣaɣla dze agbagba le gbe sia gbe ƒe telefonwo kple asikplɔwo dzra mɔ dzi.
 </details>
 
-### Nunɔamesiwo
+### Nuɖoɖowo
 
-- [ZIP 205: Sapling Network ƒe Dodoɖeŋgɔ ƒe Dɔwɔwɔ](https://zips.z.cash/zip-0205)
-- [ZIP 243: Asitsatsa ƒe Asidede Asi ƒe Dzesidede na Sapling](https://zips.z.cash/zip-0243)
-- [Zcash Sapling ƒe ŋgɔyiyi ƒe axa](https://z.cash/upgrade/sapling/)
-- [Electric Coin Company: Sapling announcement](https://electriccoin.co/blog/sapling/)
-- [Electric Coin Company: Gbeƒãɖeɖe le Sapling MPC ŋu](https://electriccoin.co/blog/sapling-mpc/)
+- [ZIP 205: Sapling Network Upgrade ƒe dɔwɔwɔ](https://zips.z.cash/zip-0205)
+- [ZIP 243: Gaɖoɖo ƒe asidede agbalẽ te ƒe kpekpeɖeŋu na Sapling](https://zips.z.cash/zip-0243)
+- [Zcash Sapling ƒe mɔ̃ ƒe sewo trɔtrɔ ƒe axa](https://z.cash/upgrade/sapling/)
+- [Electric Coin Company: Sapling ƒe gbeɖãɖa](https://electriccoin.co/blog/sapling/)
+- [Electric Coin Company: Sapling MPC ƒe gbeɖãɖa](https://electriccoin.co/blog/sapling-mpc/)
 
-### Kpɔe hã
+### Kpɔ hã
 
-- [Ta Siwo Wotsɔ Akpoxɔnu Wɔe](../using-zcash/shielded-pools)
-- [Safuiwo Kpɔkpɔ](../zcash-tech/viewing-keys)
-- [zk-SNARKs ƑE NUÐEÐEŊUTI](../zcash-tech/zk-snarks)
-- [Zcash Network ƒe Ðɔɖɔɖowo](../start-here/network-upgrades)
+- [Gaƒuƒoƒo ɣaɣlaawo](../using-zcash/shielded-pools)
+- [Nukpɔsafuiwo](../zcash-tech/viewing-keys)
+- [zk-SNARKs](../zcash-tech/zk-snarks)
+- [Zcash Mɔ̃ ƒe sewo trɔtrɔwo](../start-here/network-upgrades)
 - [Gakotokuwo](../using-zcash/wallets)
 - [Electric Coin Company](../zcash-organizations/electric-coin-company)
 
 ---
 
-Siwo kplɔ wo nɔewo ɖo: [Network Upgrades ƒe dzesi](../start-here/network-upgrades) · Si do ŋgᴐ: [Overwinter](../zcash-tech/overwinter) · Esi kplᴐe ɖo: [Blossom](../zcash-tech/blossom)
+Xexlẽme: [Mɔ̃ ƒe sewo trɔtrɔ ƒe index](../start-here/network-upgrades) · Si va yi: [Overwinter](../zcash-tech/overwinter) · Si kplɔe ɖo: [Blossom](../zcash-tech/blossom)

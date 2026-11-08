@@ -2,21 +2,21 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Livestream ƒe Ðoɖowɔwɔ
+# Livestream Ɖoɖo
 
-**Nusi nàhiã:**
+**Nu si wòahiã:**
 
-- Video fotoɖemɔ̃ si me HDMI ƒe dodo le si me wometsɔa nu tsyɔa nu dzi o
-- Afɔ etɔ̃lia
-- Videoɖemɔ̃ si tso HDMI-to-USB (2x) .
-- HDMI hena nuƒoƒo ƒe slide/demo léle (enyo wu ne ka mele eme o)
-- Odio nuɖuɖu tso mixer (enyo wu ne wireless) .
-- Laptop si ate ŋu awɔ OBS alo kɔmpiutadziɖoɖo ma tɔgbe (enyo wu ne ethernet)
+- Video camera si le HDMI output eye wòme nuwo mele ete o
+- Tripod
+- HDMI-to-USB video capture device (2x)
+- HDMI na presentation slides/demo ƒe capture (enye nyui wu ne wòle wireless)
+- Audio feed tso mixer me (enye nyui wu ne wòle wireless)
+- Laptop si ate ŋu adu OBS alo software bubu si sɔ (enye nyui wu ne ethernet le esi)
 
-*Taɖodzinu si le kit sia ŋue nye be eƒe nyonyome kple alesi woate ŋu atsɔe ayi teƒe bubuwo.*
+*Kit sia ƒe taɖodzinu nye nyonyo kple nɔzɔgbɔgbɔ.*
 
-Mɔ aɖewo li siwo dzi woato atsɔ egbɔkpɔnu siwo li bɔbɔe wu aɖɔli dɔwɔnu sia dometɔ aɖewo (abe telefon zazã ɖe fotoɖemɔ̃ teƒe ene) siwo ŋu woaƒo nu tsoe le wiki nyatakaka bubu me.
+Mɔwo li si woate ŋu atsɔ atrɔ nuŋuŋu siawo ƒe aɖewo kple ɖoɖowo siwo bɔbɔ wu (abe phone zazã ɖe camera teƒe ene), eye woaƒo nu tsoe le wiki post bubu me.
 
-![Kpɔɖeŋu ɖoɖo alesi woatsɔ mɔ̃wo katã aƒo ƒui hena streaming. Agbalẽŋlɔla: [decentralistdan](https://twitter.com/decentralistdan)](Livestream%20Setup%2078cbdbd99e4a42d7b5565978aa5e4488/stream-cable-setup.jpg)
+![Example scheme how to connect all devices for streaming. Author: [decentralistdan](https://twitter.com/decentralistdan)](Livestream%20Setup%2078cbdbd99e4a42d7b5565978aa5e4488/stream-cable-setup.jpg)
 
-Kpɔɖeŋu ɖoɖo alesi woatsɔ mɔ̃wo katã aƒo ƒui hena streaming. Agbalẽŋlɔla: [decentralistdan](https://twitter.com/decentralistdan)
+Mɔnuɖoɖo ƒe kpɔɖeŋu si fia ale si woatsɔ ado device gbogboawo ƒo na streaming. Ŋlɔla: [decentralistdan](https://twitter.com/decentralistdan)

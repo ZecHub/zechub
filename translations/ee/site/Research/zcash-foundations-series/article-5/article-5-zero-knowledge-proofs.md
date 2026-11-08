@@ -1,178 +1,178 @@
-# Sidzedze Zero-Kpeɖodziwo: Ðo kpe edzi be Èto Eteƒe Evɔ Mègagblɔ Nusitae O
-##### Numekuku Gbãtɔ tso [Annkkitaaa](https://github.com/Annkkitaaa)
+# Zero-Knowledge Ɖaseɖigbalɛ [Proofs]: Ale si Nàfia Be Èle Nyateƒe Gake Mègblɔ Nu Si Ta O
+##### Gbedasi ƒe Nyagblɔɖi Tso [Annkkitaaa](https://github.com/Annkkitaaa) Gbɔ
 
-![alt nuŋɔŋlɔ](/content-images/image-23-71534bece9.webp)
+![alt text](/content-images/image-23-71534bece9.webp)
 
-### Vɔvɔli si na xexeame ɖo kpe nusi mate ŋu akpɔ gbeɖe o dzi
+### Avɔ̃ si na xexeame katã ƒe amewo ate ŋu akpɔ nya si womate ŋu akpɔ o ƒe nyateƒe
 
-> **Series:** *Zcash tso Gɔmeɖose Gbãtɔwo me* . **Nyati 5 lia . Sidzedze Zero-Kpeɖodziwo**
-> **Nyaselawo:** ame yeyewo. Míeɖea nu tso nyati ɖesiaɖe si do ŋgɔ ŋu (agble siwo seɖoƒe li na, curves, commitments, Merkle trees), gake woɖoa ŋku susu ɖesiaɖe dzi abe alesi míehiãe ene.
-> **Nusi nàgblẽ ɖi:** gɔmesese si me kɔ, si sɔ le nusi nye sidzedze zero-sidzedze ƒe kpeɖodzi, kakaɖedzi etɔ̃ siwo wòna, alesi nya siwo wogblɔna le wo ɖokui si la ɖoa kpe edzii, kple nusiwo doa ŋusẽ Zcash ƒe Sapling kple Orchard.
+> **Series:** *Zcash Tso Gɔmedzedze ƒe Gɔmeɖoɖowo Me* . **Article 5 . Zero-Knowledge Ɖaseɖigbalɛ**
+> **Amewo si woŋlɔe na:** Ame yeyeawo. Míetrɔ ɖo article siwo va do ŋgɔ katã (finite fields, curves, adzɔgbeɖeɖewo, Merkle trees), gake míeɖoa susu siawo katã ɖe edzi ne míele hia wo.
+> **Nu si nàtsɔ ado go:** Nàse gɔme nyuie, eye wòanya nyateƒe si zero-knowledge ɖaseɖigbalɛ nye, ŋugbedodo etɔ si wòwɔ, ale si woɖea nya ɖeɖe siawo katã ƒe ɖase, kple nu si doa ŋusẽ Zcash ƒe Sapling kple Orchard.
 
-Esiae nye nyati si dzi nusiwo kplɔ wo nɔewo ɖo bliboa nɔ liam ɖo. Tso [Nyati 0 lia me](article-0-shielded-transaction.md) yi ŋgɔe míenɔ gbɔgblɔm be woda asi ɖe fetu aɖe dzi "le xɔmetsovɔ megbe," si woɖo kpe edzi be esɔ esime womeɖe naneke fia o. Kpeɖodzi si me sidzedze aɖeke mele o ye nye xɔmetsovɔ ma. Enye akpa si kpɔa vovototo si míetsɔ ʋu enu la gbɔ mlɔeba: *aleke dukɔa awɔ aɖo kpe asitsatsa aɖe si womeɖe mɔ nɛ be wòakpɔ o dzi?*
-
----
-
-## 1. Nu ka tae wòle be nàtsɔ ɖe le eme?
-
-Ðo ŋku nya si tsi tre ɖe wo nɔewo ŋu le Zcash ƒe dzime dzi:
-
-- Blockchain nye esi dzi woate ŋu aka ɖo elabena **woate ŋu aɖo kpe edzi le dutoƒo**.
-- Zcash fexexe nye **ame ŋutɔ tɔ keŋkeŋ**: ga homewo, ame si ɖoe ɖa, amesi xɔe, wo katã woɣla.
-
-Esiawo dze abe ɖe woto vovo tso wo nɔewo gbɔ ene. Edze abe kpeɖodzinana *bia* be woalé ŋku ɖe eŋu ene. Adzamenyawo *xe mɔ na* ŋkuléle ɖe nu ŋu. Ne màte ŋu adzra wo dome ɖo o la, màte ŋu akpɔ ame ŋutɔ ƒe ga si dzi ame aɖeke ka ɖo o.
-
-**sidzedze zero ƒe kpeɖodzi (ZKP)** nye avuléle. Enaa **dodokpɔla** nana **ɖola** xɔe se be nya aɖe nye nyateƒe **evɔ meɖea naneke fiana wu nyateƒe si wònye be enye nyateƒe o.** Ga home aɖeke meli o. Dzesidede ame aɖeke meli o. Nuŋlɔɖi aɖeke meli o. Ðeko: *"nusianu si le afisia wɔa seawo dzi."* Mina míatu nukpɔsusua ɖo hafi mɔ̃ ɖesiaɖe.
+Esiae nye article si me series blibo la katã le dzodzo na. Tso [Article 0](article-0-shielded-transaction.md) dzi la, míenɔa gbe be woɖea fexexe ƒe nyateƒe "le avɔ̃ megbe," eye woɖea eƒe nyateƒe fia be womefia naneke o. Zero-knowledge ɖaseɖigbalɛe nye avɔ̃ ma. Eyae va ɖɔ nya sesẽ si míedze egɔme la: *Alekee ame bubuwo ate ŋu akpɔ gaɖoɖo si womede mɔ na wo be woakpɔ o ƒe nyateƒe?*
 
 ---
 
-## 2. Nusi wokpɔna le susu me: gbesiagbe kpeɖodzi etɔ̃
+## 1. Nu ka ta wòle be nàdzro eŋu?
 
-**Kpeɖodzi be ènya nyagbe aɖe, evɔ mègblɔe o.** Nyatakakadzraɖoƒe ate ŋu aɖo kpe edzi be ènya wò nyagbe ɣaɣla to ŋkuléle ɖe ŋuwò nàʋu nane si nyagbea ɖeɖeko ʋuna, eye makpɔ nyagbea ŋutɔ gbeɖe o. Èɖo kpe *sidzedze* dzi *nyaɖeɖefia* manɔmee.
+Bu ŋu ɖe nya si wɔa ŋutinya le Zcash ƒe dzi:
 
-**Xɔlɔ̃ si ƒe amadede menya kpɔna o kple bɔl eve.** Èlé bɔl dzĩ kple bɔl dama si ƒe dzedzeme sɔ kple xɔ̃wò si ƒe amadede menya kpɔna o. Èdi be yeana wòaka ɖe edzi be *amadede vovovowo* yewonye evɔ màgblɔe nɛ be wo dometɔ kae nye esi o. Eɣlaa wo ame evea siaa ɖe megbe, ne elɔ̃ la, eɖɔlia wo, eye wòfiaa ɖeka wò. Ègblɔna nenye be eɖɔli. Ne bɔlawo to vovo ŋutɔŋutɔ la, ke èto nyateƒe ɣesiaɣi. Ne ɖe wosɔ la, ke àsusui, ɣeyiɣia ƒe afã koe. Le ƒoƒo 20 megbe la, wò fli si metso o la na wòka ɖe edzi be yewoto vovo, ke hã mesrɔ̃a bɔl si biã gbeɖe o. **Eka ɖe nyateƒenya aɖe dzi esime mele nu bubu aɖeke srɔ̃m o.** Ema nye sidzedze zero le nu sue aɖe me.
+- Gaɖoɖowo ƒuƒoƒo ƒe ɖoɖonu [blockchain] le ŋutinya elabena **ame sia ame ate ŋu akpɔ eƒe nyateƒe**.
+- Zcash ƒe fexexewo nye **ɣaɣla [privacy] blibo**: ga ƒe asasrã, ame si dɔe, ame si xɔe, wo katã woɣla.
 
-**Agadoa.** Agado aɖe si ƒe nɔnɔme le abe asigɛ ene la, akunyawɔʋɔ aɖe le megbe si wotsɔa nya ɣaɣla aɖe ko ʋuna. Ègblɔna be yenya nya la. Be woaɖo kpe edzi evɔ màɖee afia o: kpeɖodzinu aɖe lalala le gota esime nèle gegem ɖe eme eye wòtia miame alo ɖusime mɔa le vome. Emegbe kpeɖodzila la doa ɣli be akpa si wodi be nàdo *do* tsoe. Ne ènya nya la vavã la, àte ŋu awɔ ɖe edzi ɣesiaɣi (àte ŋu aʋu ʋɔa be nàtrɔ axawo ne ehiã). Ne èle bluff wɔm la, dzɔgbenyuie koe nàte ŋu ado le ɖusime, 50/50 le ƒoƒo ɖesiaɖe me. Gbugbɔe zi 20 eye mɔnukpɔkpɔ si li be bluff natsi agbe la mede ɖeka le miliɔn ɖeka me o.
+Nya siawo ƒe kpɔɖeŋu le abe wodze tsitre ɖe wo nɔewo ŋu ene. Ɖasekpɔkpɔ abe nu si hiã be woakpɔe ene. Ɣaɣla de mɔ kpɔkpɔ ma ŋu. Ne mèkate ŋu aɖe wo ƒe kpɔɖeŋu sia ɖa o la, mèkate ŋu akpɔ ga ɣaɣla si ame sia ame ate ŋu axɔ se ɖe eŋu o.
 
-Agado ŋutinya ma ɖe **kakaɖedzi etɔ̃** siwo wòle be kpeɖodzi ɖesiaɖe si me sidzedze zero mele nawɔ la fia kpoo.
+**Zero-knowledge ɖaseɖigbalɛ (ZKP)**e ɖea kpɔɖeŋu ma ɖa. Ena **ame si ɖea ɖase** ate ŋu aɖe fia na **ame si kpɔa ɖase** be nya aɖe nye nyateƒe **eye womefia naneke tso eŋu wu be enye nyateƒe o.** Ga ƒe asasrã aɖeke manɔ o. Ame ƒe dzesi aɖeke manɔ o. Didienu [note] aɖeke manɔ o. Ke ko: *"Nu sia mewɔ ɖe seawo katã dzi."* Mina míatu gɔmesese la hafi míage ɖe mɔnu sesẽwo me.
 
 ---
 
-## 3. Kakaɖedzi etɔ̃awo
+## 2. Gɔmesese: ɖaseɖigbalɛ gbetɔ̃ aɖewo
 
-![alt nuŋɔŋlɔ](/content-images/image-24-b559d31849.webp)
+**Ɖase be nènya password, eye mègblɔe o.** Website aɖe ate ŋu akpɔ be nènya wò password to eme be makpɔ wò le nu si password koe ate ŋu aʋu ƒe ʋuʋu me, eye makpɔ password la ŋutɔ o. Nèɖea *nyanya* ƒe ɖase, eye mède *fiafia* afia o.
 
-| Kakaɖedzinya | Le agado ŋutinya me | Le Zcash me |
+**Xɔ̃ si mate ŋu akpɔ amadzidze vovototo o kple bola eve.** Nèle bola dzĩ aɖe kple bola gbegblẽ aɖe siwo ƒe nɔnɔ ɖeka le wò xɔ̃ si mate ŋu akpɔ amadzidze vovototo o ƒe ŋkume. Èdi be nàna wòaxɔ se be woƒe *amadzidze le vovo* eye mègblɔ na e be ame kae nye ame kae o. Eɣla bola eveawo le eƒe megbe, eye wòate ŋu aɖɔli wo, eye wòfia ɖeka na wò. Ègblɔ nɛ be eɖɔli wo alo o. Ne bolaawo ƒe amadzidze le vovo tututu la, nèle nyateƒe gblɔm ɣesiaɣi. Ne wole ɖeka ko la, nèle dzodzrom, eye àgbɔ nyateƒe zi ɖeka le zi eve me. Le ƒoƒo 20 megbe la, wò ƒe nyateƒe gblɔgblɔ si medze be o la ana wòaxɔ se be woƒe amadzidze le vovo, gake wòme nya bola kae nye dzĩ o. **Exɔ se ɖe nyateƒe aɖe ŋu, eye wòmenya nu bubu aɖeke o.** Esiae nye zero knowledge le eƒe suekeke me.
+
+**Doŋkpe la.** Doŋkpe si le ring ƒe nɔnɔ me la ƒe agbe me la, agbo mágica aɖe le eme si ʋuna ne woŋlɔ nya ɣaɣla aɖe ko. Ègblɔ be ènya nya ma. Be nàɖe eƒe nyateƒe fia eye mègblɔe o la: ame si kpɔa ɖase la nɔa gota, eye nèzɔ ge ɖe eme, eye nèfia mɔ ɖe mɔ miɛ alo mɔ gome kple dzodzro. Ame si kpɔa ɖase la va ho mɔ si wòdi be nàdo *go* tsoe. Ne ènya nya ma tututu la, àte ŋu awɔ nu si wògblɔ ɣesiaɣi (àte ŋu aʋu agbo la be nàtrɔ yi mɔ bubu me ne ele be ewɔ). Ne nèle afɔɖeɖe wɔm la, àte ŋu ado go to mɔ si sɔ ko kple dzodzro, 50/50 le ƒoƒo sia ƒe sia me. Wɔe zi 20, eye ame si le afɔɖeɖe wɔm ƒe mɔnu be wòato eme le ŋgɔme wu milion ɖeka ƒe akpa ɖeka. 
+
+Doŋkpe ƒe nyagblɔ sia fia **ŋugbedodo etɔ** si zero-knowledge ɖaseɖigbalɛ sia sia lazima be wòawɔ.
+
+---
+
+## 3. Ŋugbedodo etɔawo
+
+![alt text](/content-images/image-24-b559d31849.webp)
+
+| Ŋugbedodo | Le doŋkpe ƒe nyagblɔ me | Le Zcash me |
 |---|---|---|
-| **Bliboenyenye** | Ne ènya nya la la, èdoa go le ɖusime ɣesiaɣi | Asitsatsa si sɔ naa kpeɖodzi si dzi woda asi ɖo ɣesiaɣi |
-| **Gbeɖiɖi** | Bluffer aɖe léa kple kakaɖedzi si gbɔ eme | Ameflunya (aʋatsoga, gazazã zi eve) mate ŋu ana kpeɖodzi si dzi woda asi ɖo o |
-| **Zero-sidzedze** | Ame si ɖo kpe edzi la mesea nya ɣaɣla si nye | Network la mesrɔ̃a ga homewo, adrɛswo, alo note |
+| **Completeness** | Ne ènya nya la, èdoa go to mɔ sɔ la dzi ɣesiaɣi | Gaɖoɖo si le se me ɣesiaɣi naa ɖase si woaxɔ |
+| **Soundness** | Ame si le afɔɖeɖe wɔm la woakpɔe le mɔnu sesẽ me | Gaɖoɖo si nye atsyɔ̃ (ga si woƒo, double-spend) mate ŋu awɔ ɖase si woaxɔ o |
+| **Zero-knowledge** | Ame si kpɔa ɖase la mese nya ɣaɣla la o | Network la menya ga ƒe asasrãwo, gaɖoƒe ƒe dzesiwo, alo didienu kae o |
 
-Ne esiawo dometɔ aɖe do kpo nu la, ɖoɖoa gblẽna: womegbea blibodede aɖeke kple ezãla anukwareɖilawo o; gbeɖiɖi aɖeke meli o eye aʋatsoɖasefowo taa ga; zero-sidzedze kple ame ŋutɔ ƒe nyawo tsɔtsɔ aɣla aɖeke metsia dzodzodzoe o.
-
----
-
-## 4. Tso agado me yi *nyagbɔgblɔ ɖesiaɖe* dzi: nutome suewo kple ɖasefowo
-
-Agadoa ɖo kpe nyateƒenya vivi ɖeka dzi. Zcash hiã be wòaɖo kpe nya si me kesinɔnuwo le dzi: *"Menya nuŋlɔɖi aɖe si womezã o le ati la me, woɖe mɔ nam be mazãe, wobu eƒe nullifier nyuie, eye nye nyawo sɔ kple nye nyawo."* Aleke míawɔ atso bɔlwo kple agadowo me ayi ema gbɔ?
-
-Tɔdzisasrãa nye susu aɖe si bla nu sia katã si kplɔ wo nɔewo ɖo ɖekae:
-
-> **Woateŋu agbugbɔ aŋlɔ nya ɖesiaɖe si nàteŋu akpɔ kple akɔntabubu abe akɔntabubu ƒe nutome ene:** kpeɖeŋutɔ kple dzidziɖedzi ƒe kadodo le agble si seɖoƒe li na dzi (Se 1).
-
-Bu nutome suea be enye akɔntabubu ƒe mɔxenuwo ƒe xexlẽdzesi siwo *wo katã ƒe dzi dze eme ne nyagbɔgblɔa nye nyateƒe ko.* Woyɔa ame ŋutɔ ƒe nyawo tsɔtsɔ de eme siwo nana nusianu dzena, wò nuŋlɔɖi, wò safui, Merkle mɔ, be **ɖasefo.**
-
-![alt nuŋɔŋlɔ](/content-images/image-25-2479377e43.webp)
-
-Esia tae míezã Se 1 ɖe agble siwo ŋu seɖoƒe le ŋu eye Se 3 lia ɖe ZK-xɔlɔ̃wɔwɔ ƒe hashes ŋu: nutome suea ƒoa nu tso agble ƒe akɔntabubu ŋu, eyata ele be woaɖe dɔwɔwɔ ɖesiaɖe si le nyagbɔgblɔa me (si me hashing kple Merkle lialia si le Se 4 lia me hã le) afia nenema. Zi alesi dɔwɔwɔ ɖesiaɖe ɖeɖefia ƒe asi bɔbɔe la, zi nenemae kpeɖodzia le sue wu eye wòwɔa dɔ kabakabae.
+Ne ɖeka pɛ hã le esiawo dome gbã la, ɖoɖo la gbã: ne completeness mele o la, woagbe ame siwo le nyateƒe la; ne soundness mele o la, ame siwo ƒoa atsyɔ̃ ƒea ga; ne zero-knowledge mele o la, ɣaɣla vana.
 
 ---
 
-## 5. Ewɔwɔ be wòaɖe vi: mawɔ nu aduadu eye wòanɔ kpuie
+## 4. Tso doŋkpe me yi nya sia sia: circuits kple witnesswo
 
-Agadoa hiã be woaƒoe zi geɖe le megbe kple megbe. Ema mewɔa dɔ na blockchain o, afisi wòle be woaɖo kpeɖodzi aɖe ɖe afima zi ɖeka eye amesiame nalé ŋku ɖe eŋu, tegbee. Dodoɖeŋgɔ eve ɖɔ esia ɖo.
+Doŋkpe la ɖea nya dzeani ɖeka ƒe ɖase. Zcash hia be wòaɖe nya deasi aɖe ƒe ɖase: *"Menya didienu si wometsɔ dɔ o le ati la me, wode mɔ nam be matsɔe dɔ, woƒe gaɣaɣla ɖeɖe dzesi [nullifier] wɔ ɖe mɔ sɔ me, eye nye nu siwo mede ge me sɔ kple nu siwo doa go."* Alekee míatso bolaawo kple doŋkpe la me age ɖe esia me?
 
-**Non-interactive (Fiat-Shamir ƒe susua).** Le esi teƒe be live verifier nado ɣli ɖe random challenges, prover la ŋutɔ dzia "random challenges" to *hashing* woawo ŋutɔ ƒe kpeɖodzi-vaseɖe fifia. Esi wònye be hash nyui aɖe nye nusi womate ŋu agblɔ ɖi o (Se 3 lia) ta la, lodola la mate ŋu aɖa kuxiawo ɖe woƒe nyonyo ta o. Dzeɖoɖo si me woƒoa nu le la mu zua **kpeɖodzi ɖeka si le eɖokui si** ame sia ame ate ŋu alé ŋku ɖe eŋu emegbe, eye kadodo aɖeke manɔ eme o.
+Ga ƒe lẽ [bridge] lae nye susu aɖe si blia series sia blibo ƒe akpawo katã ɖekae:
 
-**Kpuie.** Nuɖoanyi nyuitɔwo na kpeɖodzia **sue eye wòte ŋu ɖoa kpe edzi kabakaba, aleke kee nya la loloe o.** Esiae nye akpa si wɔ nuku ŋutɔŋutɔ.
+> **Nya sia sia si nàte ŋu akpɔ eƒe nyateƒe kple computation la, woate ŋu agbugbɔ aŋlɔe abe arithmetic circuit ene:** ƒuƒoƒo na wo kple ƒoƒo ɖe finite field aɖe dzi (Article 1).
 
-> Groth16 ƒe kpeɖodzi (ɖoɖo si Sapling zãna) ade **192 bytes** eye wòɖoa kpe edzi le milisekɔnd me, *eɖanye nya si wòɖo kpe edzi la le sue alo lolo ŋutɔ.* Byte alafa ʋee aɖewo ateŋu aɖo kpe akɔntabubu si me mɔxenu akpe geɖe le dzi.
+Bu circuit la ŋu abe arithmetic sewo ƒe xexlẽme ene siwo **katã** wɔa nyuie ne nya la nye nyateƒe ko. Nu siwo woɣla, siwo naa be nu katã sɔ, wò didienu, wò key, Merkle mɔ la, woayɔ wo be **witness.**
 
-Tsɔ esiawo ƒo ƒui eye àkpɔ kpukpui si nàkpɔ le afisiafi:
+![alt text](/content-images/image-25-2479377e43.webp)
 
-> **zk-SNARK** = **z**ero-**k**sidzedze **S**uccinct **N**le-nuwɔwɔ **AR**gument of **K**sidzedze. Zero-sidzedze (meɖea naneke fiana o), kpuie (sue eye wòwɔa dɔ kabakaba), non-interactive (nu ɖeka), sidzedze ƒe nyaʋiʋli (lodododzikpɔla *nya* ɖasefo si sɔ ŋutɔŋutɔ).
-
----
-
-## 6. The one catch: ɖoɖo si dzi woka ɖo
-
-Ŋdɔnuɖuɖu femaxee aɖeke meli o. SNARK geɖewo hiã zi ɖeka ƒe **ɖoɖo** si wɔa dutoƒo parameters na nutome suea. Ðoɖoa naa adzame nudzɔdzɔ siwo wowɔna le vome abe nusi dona tso eme ene, eye ele be **woatsrɔ̃ nya ɣaɣla ma.** Ne ame aɖe dzrae ɖo la, ate ŋu awɔ kpeɖodziwo, si fia be, **awɔ ga** (togbɔ be, vevietɔ la, womate ŋu *mete ŋu* agbã adzamenyawo kokoko o hã).
-
-Wotsɔ ŋkɔ na nya ɣaɣla sia si susɔ la be **gbeɖuɖɔ si me aɖi le.** Be woatsɔe aƒu gbe dedie la, Zcash wɔ **kɔnu geɖe siwo me wowɔa nu geɖe le** afisi gomekpɔla geɖe siwo le wo ɖokui si dometɔ ɖesiaɖe tsɔe kpe asi ɖe eŋu le vome; zi alesi *ɖeka gɔ̃ hã* tsrɔ̃ woƒe akpaa anukwaretɔe ko la, womate ŋu agbugbɔ aɖi gbegblẽawo axɔ o.
-
-![alt nuŋɔŋlɔ](/content-images/image-26-cdad6625cd.webp)
-
-Nuɖoanyi yeyewo ɖea nudidi sia ɖa keŋkeŋ, si nye susu gãtɔ siwo ta Zcash trɔ asi le eƒe kpeɖodziɖoɖo ŋu le ɣeyiɣi aɖe megbe la dometɔ ɖeka.
+Esia tae míetsɔ Article 1 wɔ finite fields, eye míetsɔ Article 3 wɔ ZK-friendly hashes: circuit la doa nu le field arithmetic me, eyata operation sia sia si le nya la me (si me hashing kple Merkle dzedze ƒe Article 4 hã le) lazima be woagblɔe nenema. Ne operation aɖe ƒe gblɔgblɔ le bɔbɔe wu la, ɖase la zu sue eye wòwɔa dɔ kaba.
 
 ---
 
-## 7. Afisi esia le le Zcash
+## 5. Nanaa be wòawɔ dɔ: non-interactive kple succinct
 
-| Aɖaŋuwɔwɔ | Kpeɖodzi ƒe ɖoɖo | Ðoɖo si dzi woka ɖo? | Wotue ɖe |
+Doŋkpe la hia be woayi va yi. Esia menyo na gaɖoɖowo ƒuƒoƒo ƒe ɖoɖonu o, afi si ele be woaɖo ɖase la zi ɖeka, eye ame sia ame nakpɔe tegbee. Huhumɔnu eve aɖe wɔa be wòanyo.
+
+**Non-interactive (Fiat-Shamir ƒe susu).** Le teƒe si ame si kpɔa ɖase la anɔ agblɔ dzodzro ƒe biabiawo la, ame si ɖea ɖase lae wɔa "dzodzro ƒe biabiawo" la to eƒe ɖase si wòwɔ va se fifia ƒe *hashing* me. Esi hash nyui aɖe megblɔna ɖe ŋgɔ o (Article 3) ta la, ame si ɖea ɖase la mate ŋu aɖo biabiawo ɖe eƒe nyonyo nu o. Ɖoɖoɖo si le nu gblɔm va yi la trɔ zu **ɖase ɖeka si le eɖokpe me** si ame sia ame ate ŋu akpɔ emegbe, eye womehia be woanɔ nu gblɔm va yi o.
+
+**Succinct.** Ɖoɖoɖo nyuitɔwo wɔa ɖase lae be wòanye **sue tututu eye wòakpɔe le kaba me, ne nya si woɖea eƒe ɖase le gã alekee hã.** Esiae nye akpa si le nukunu wɔm tututu.
+
+> Groth16 ɖase (ɖoɖo si Sapling zã) le abe **bytes 192** ene, eye woate ŋu akpɔ eƒe nyateƒe le milliseconds me, *ne nya si wòɖea eƒe ɖase le sue alo le gã hã.* Bytes alafa aɖe ate ŋu aɖe computation si me se alafa geɖewo le ƒe ɖase.
+
+Ne nàtsɔ wo eveawo ƒo kple ɖeka la, àkpɔ nyeŋlɔ si nàkpɔ le afi sia afi:
+
+> **zk-SNARK** = **z**ero-**k**nowledge **S**uccinct **N**on-interactive **AR**gument of **K**nowledge. Zero-knowledge (mefia naneke o), succinct (sue eye wòle kaba), non-interactive (zi ɖeka ko), argument of knowledge (ame si ɖea ɖase la *nya* witness si le se me).
+
+---
+
+## 6. Nusi menyo o ɖeka: mɔ̃ ƒe ɖoɖo xexlẽnuwo
+
+Nu aɖeke mele baɖa o. SNARK geɖewo hia **ɖoɖo** zi ɖeka ko si wɔa public parameters na circuit la. Ɖoɖo la wɔa dzodzro ƒe number si nye ɣaɣla, eye lazima be woatsrɔ ɣaɣla ma. Ne ame aɖe kpɔe ɖe asi la, ate ŋu awɔ ɖase atsyɔ̃, si nye be **wòaƒo ga** (gake, le nyateƒe me, wòmate ŋu agbã ɣaɣla o).
+
+Woƒe ɣaɣla si kplɔe ɖo la ƒe ŋkɔe nye **toxic waste.** Be woatsrɔe le dedie me la, Zcash wɔ **ame geɖe ƒe kpekpeɖeŋu ƒe ceremonywo** si me ame vovovo geɖewo ƒe sia ƒe tsɔ dzodzro ƒe number aɖe va; ne *ame ɖeka ko* hã tsrɔ eƒe akpa le nyateƒe me la, womate ŋu agatrɔ akpɔ toxic waste la o.
+
+![alt text](/content-images/image-26-cdad6625cd.webp)
+
+Ɖoɖoɖo yeyeawo ɖea hiahiã sia ɖa blibo, eye esiae nye nu vevi aɖe si ta Zcash trɔ eƒe ɖase ƒe ɖoɖo yi ŋgɔ le ɣeyiɣi me.
+
+---
+
+## 7. Afi si esia le le Zcash me
+
+| Design | Ɖase ƒe ɖoɖo | Mɔ̃ ƒe ɖoɖo xexlẽnuwo hiaa? | Woɖo eƒe gɔme ɖe |
 |---|---|---|---|
-| **Sprout** (gbãtɔ kekeake) | gbãtɔ zk-SNARK | Ẽ | kɔnu gbãtɔ |
-| **Sapling** | **Tsitsi16** | Ẽ (ame geɖewo ƒe "Powers of Tau" + Sapling ƒe kɔnu) | **BLS12-381** (Nyati 2 lia) |
-| **Orchard** (fifia) | **Halo 2** ƒe ɣeyiɣia | **Ðoɖo si dzi woka ɖo aɖeke meli o** | **Pallas / Vesta** (Nyati 2 lia) |
+| **Sprout** (gɔmedzedzetɔ) | zk-SNARK ƒe gɔmedzedze | Ɛ̃ | ceremony gɔmedzetɔ |
+| **Sapling** | **Groth16** | Ɛ̃ ("Powers of Tau" ame geɖe ƒe ceremony + Sapling ceremony) | **BLS12-381** (Article 2) |
+| **Orchard** (fifia) | **Halo 2** | **Ao, mɔ̃ ƒe ɖoɖo xexlẽnuwo mele o** | **Pallas / Vesta** (Article 2) |
 
-Azɔlizɔzɔ tso Sprout yi Sapling yi Orchard ƒe akpa gãtɔ nye ŋutinya si ku ɖe kpeɖodziwo ƒe sue, kabakaba, kple ɖoɖo si dzi woka ɖo la ɖeɖeɖa ŋu. **Halo 2**, si Orchard zãna la, mehiã kɔnu aɖeke kura o eye wotue be wòado alɔ *recursion* (kpeɖodzi siwo ɖoa kpe kpeɖodzi bubuwo dzi), si tae Orchard zãa Pallas/Vesta **cycle** of curves tso Se 2 lia me: wotrɔa curve ɖesiaɖe tsɔ ɖoa ​​kpe kpeɖodzi siwo woŋlɔ ɖe evelia dzi la dzi.
+Mɔzɔzɔ tso Sprout yi Sapling yi Orchard la katã ate ŋu anye nyagblɔ tso ɖasewo ƒe zuzu sue, kaba, kple mɔ̃ ƒe ɖoɖo xexlẽnuwo ƒe ɖaɖa ŋu. **Halo 2**, si Orchard zã, mehĩa ceremony aɖeke o eye woɖoe be wòakpe ɖe *recursion* ŋu (ɖase siwo kpɔa ɖase bubuwo ƒe nyateƒe), esia ta Orchard zã Pallas/Vesta ƒe curves ƒe **cycle** si le Article 2: curve sia sia ƒe ɖoɖo le be wòakpɔ ɖase si woŋlɔ le bubu la ƒe dzi ƒe nyateƒe.
 
-Esia xea mɔ na loop gãtɔ kekeake tso Se 0. "Vɔvɔli la megbe" akunyawɔwɔ nye **zk-SNARK**: eɖo kpe edzi be wò asitsatsa naa akɔntabubu ƒe nutome si ŋlɔa seawo katã la dzea eŋu, esime meɖea naneke fiana o negbe bit ɖeka si "le dɔ wɔm" ko.
-
----
-
-## 8. Nya aɖe si wogblɔna be yeaɖe asi le nyaa ŋu anukwaretɔe
-
-Zero-sidzedze kpeɖodziwo nye gogloƒe eye míeɖoe koŋ nɔ intuition level. Míeɖe kakaɖedzi ƒe seɖoƒe siwo tututu le gbeɖiɖi me, akɔntabubu ƒe nutome ƒe nɔnɔme tututu (R1CS, PLONKish, kple bubuawo), alesi polynomials kple ɖokuitsɔtsɔna trɔa nutome sue aɖe wòzua kpeɖodzi kpui aɖe, alo Groth16 kple Halo 2 ƒe ememe ŋutɔŋutɔwo o. Agadoa nye *nuwɔwɔ aduadu* kpeɖodzi; nuwɔwɔ ƒe ɖoɖowo mewɔa nu aduadu kple wo nɔewo o eye wo gɔmesese sesẽ wu sã. Emawo dometɔ aɖeke metrɔa nu vevitɔ o: ɖo kpe edzi be nutome sue aɖe ƒe dzi dze eme to ɖasefo ɣaɣla aɖe gbɔ, keŋkeŋ, nyuie, eye meɖea naneke ɖe go o. Mɔ̃awo nye esiwo kplɔ wo nɔewo ɖo bliboe le wo ɖokui si.
+Esia bu klolo vevitɔ si le Article 0 me. Nukunu si nye "le avɔ̃ megbe" la nye **zk-SNARK**: eɖea fia be wò gaɖoɖo wɔ ɖe arithmetic circuit si ɖe seawo katã ƒe gɔme la dzi, eye womefia naneke wu bit ɖeka si nye "le se me" o.
 
 ---
 
-## 9. Kpuie ko la
+## 8. Nya nyateƒe aɖe
 
-- **sidzedze zero ƒe kpeɖodzi** na be prover naa kakaɖedzi amesi ɖo kpe edzi be nya aɖe nye nyateƒe **esi meɖea nu bubu aɖeke fiana o**, si kpɔa verify-vs-privacy paradox gbɔ.
-- Ele be wòawɔ ɖe kakaɖedzi etɔ̃ dzi: **de blibo** (nyateƒenyawo na kakaɖedzi), **gɔmesese** (aʋatsonyawo mate ŋui o), kple **sidzedze zero** ("enye nyateƒe" koe kpeɖodzila la srɔ̃na).
-- Nya siwo wogblɔna le wo ɖokui si va zua **akɔntabubu ƒe nutome suewo** le agble si seɖoƒe li na dzi; adzame nyawo tsɔtsɔ de eme siwo naa nutome suea ƒe dzi dzea emee nye **ɖasefo**. Esia tae agble siwo seɖoƒe li na kple hash siwo sɔ na ZK nɔ vevie ɖo.
-- **Fiat-Shamir** wɔa kpeɖodziwo **menye nuwɔwɔ aduadu o** (tu ɖeka); ɖoɖo nyuitɔwo hã nye **kpuie** (Groth16 ƒe kpeɖodzi aɖe anɔ abe **192 bytes** eye wòɖoa kpe edzi le milisekɔnd me metsɔ le nyagbɔgblɔ ƒe lolome me o). Wo katã: **zk-SNARK** aɖe.
-- SNARK aɖewo hiã **ɖoɖo si dzi woka ɖo** si ƒe **aɖi gbeɖuɖɔ** susɔeawo wòle be woatsrɔ̃ (to kplɔ̃ɖoƒe geɖewo ƒe kɔnuwɔwɔwo dzi); nugblẽfexexe ana woawɔ aʋatso ga gake **menye** ame ŋutɔ ƒe nyatakakawo dzi dada o.
-- **Sapling** zãa **Groth16** (ɖoɖo si dzi woka ɖo, BLS12-381); **Orchard** zãa **Halo 2** (ɖoɖo si dzi woka ɖo aɖeke meli o, Pallas/Vesta, gbugbɔgawɔ-xɔlɔ̃wɔwɔ).
+Zero-knowledge ɖaseɖigbalɛwo nye nusrɔ̃ɖi sesẽ aɖe, eye míenɔ gɔmesese ƒe teƒe ko kple taɖodzinu. Míemegblɔ soundness ƒe probability ƒe se xɔseawo ƒe nɔnɔ tututu o, arithmetic circuit ƒe nɔnɔ tututu (R1CS, PLONKish, kple bubuwo), ale si polynomials kple adzɔgbeɖeɖewo trɔa circuit la zu ɖase kpui aɖe, alo Groth16 kple Halo 2 ƒe emetsonuwo o. Doŋkpe la nye ɖase si woɖea kple ame eve ƒe nuƒoƒo; production ƒe ɖoɖoawo menɔa nu gblɔm va yi o eye wole sesẽ wu. Esia aɖeke metrɔa gɔme vevitɔ la o: ɖe fia be circuit aɖe le se me to witness ɣaɣla aɖe dzi, blibo, kple soundness, eye womefia naneke o. Mɔnuawo le abe series blibo aɖe ƒe ŋutinya ene.
 
 ---
 
-## Nyagɔmeɖegbalẽ
+## 9. Nufiame
 
-| Nyagbe | Plain-Eŋlisigbe me gɔmesese |
+- **Zero-knowledge ɖaseɖigbalɛ** naa ame si ɖea ɖase la ate ŋu aɖe fia na ame si kpɔa ɖase la be nya aɖe nye nyateƒe **eye womefia nu bubu aɖeke o**, eye eɖea verify-versus-privacy ƒe kpɔɖeŋu ɖa.
+- Ele be wòawɔ ŋugbedodo etɔ: **completeness** (nya nyateƒewo dea amewo dzi), **soundness** (nya aɖeke si menye nyateƒe o mate ŋu ade ame dzi o), kple **zero-knowledge** (ame si kpɔa ɖase la nya "enye nyateƒe" ko).
+- Nya sia sia trɔa zu **arithmetic circuits** le finite field aɖe dzi; nu ɣaɣla siwo wɔa be circuit la sɔe nye **witness**. Esia ta finite fields kple ZK-friendly hashes le vevie.
+- **Fiat-Shamir** wɔa be ɖasewo nanɔ **non-interactive** (zi ɖeka ko); ɖoɖo nyuitɔwo hã nye **succinct** (Groth16 ɖase le abe **bytes 192** ene, eye woate ŋu akpɔ eƒe nyateƒe le milliseconds me ne nya la le gã alekee hã). Ne woƒo wo eveawo kple ɖeka la: **zk-SNARK**.
+- SNARK aɖewo hia **mɔ̃ ƒe ɖoɖo xexlẽnuwo** si ƒe **toxic waste** si kplɔe ɖo lazima be woatsrɔe (to ame geɖe ƒe ceremonywo me); ne woɖe eƒe dedie la, wòana woate ŋu aƒo ga, gake **menɔa ɣaɣla gbãm o**.
+- **Sapling** zã **Groth16** (mɔ̃ ƒe ɖoɖo xexlẽnuwo, BLS12-381); **Orchard** zã **Halo 2** (mɔ̃ ƒe ɖoɖo xexlẽnuwo mele o, Pallas/Vesta, recursion-friendly).
+
+---
+
+## Nyawo ƒe Gɔme
+
+| Nya | Gɔmesese bɔbɔe |
 |---|---|
-| **Zero-knowledge proof** | Na ame aɖe ka ɖe edzi be nya aɖe nye nyateƒe esime mèle nu bubu aɖeke ɖem fia o |
-| **Prover / Verifier** | Ame si wɔa kpeɖodzia / amesi léa ŋku ɖe eŋu |
-| **Completeness** | Nyateƒenyawo xɔa ame dzi ɣesiaɣi (tso lodododzikpɔla anukwaretɔ gbɔ) |
-| **Soundness** | Wogbea alakpanyawo (ameflulawo mate ŋu aɖu dzi o negbe to dzɔgbenyui me ko) |
-| **Witness** | Nya ɣaɣla siwo wotsɔ de eme siwo na nyagbɔgblɔa nye nyateƒe |
-| **Arithmetic circuit** | Nyagbɔgblɔ si wogbugbɔ ŋlɔ abe kpeɖeŋutɔ kple dzidziɖedzi le agble si seɖoƒe li na dzi |
-| **Non-interactive (Fiat-Shamir)** | Kpeɖodzi si wotu zi ɖeka si mehiã be woanɔ agbe yi megbe kple ŋgɔ o |
-| **Succinct** | Kpeɖodzia le sue eye woate ŋu aɖo kpe edzi kabakaba metsɔ le nyagbɔgblɔ ƒe lolome me o |
-| **zk-SNARK** | Zero-knowledge Kpuie si Mewɔa nu ɖekae o ARgument of Knowledge |
-| **Trusted setup / toxic waste** | Zi ɖeka ƒe parameter dzidzime si ƒe nya ɣaɣla susɔea wòle be woatsrɔ̃ |
+| **Zero-knowledge proof** | De ame aɖe dzi be nya aɖe nye nyateƒe, eye mègblɔ nu bubu aɖeke o |
+| **Prover / Verifier** | Ame si wɔa ɖase la / ame si kpɔa eƒe nyateƒe |
+| **Completeness** | Woaxɔ nya nyateƒewo ɣesiaɣi (tso ame si ɖea ɖase le nyateƒe me gbɔ) |
+| **Soundness** | Woagbe nya siwo menye nyateƒe o (ame siwo di be woawɔ atsyɔ̃ mate ŋu awɔ dzi o, negbe to dzodzro me ko) |
+| **Witness** | Nu ɣaɣla siwo wɔa be nya la nye nyateƒe |
+| **Arithmetic circuit** | Nya aɖe si woŋlɔ gbugbɔ abe ƒoƒo kple ƒuƒoƒo le finite field aɖe dzi ene |
+| **Non-interactive (Fiat-Shamir)** | Ɖase zi ɖeka si mehĩa be ame eve anɔ nu gblɔm va yi o |
+| **Succinct** | Ɖase la le sue eye woate ŋu akpɔ eƒe nyateƒe le kaba me ne nya la le gã alekee hã |
+| **zk-SNARK** | Zero-knowledge Succinct Non-interactive ARgument of Knowledge |
+| **Trusted setup / toxic waste** | Parameter wɔwɔ zi ɖeka si ƒe ɣaɣla si kplɔe ɖo lazima be woatsrɔe |
 
 ---
 
-## Nyabiasewo ƒe Nyabiasewo
+## Biabia Si Woƒoa Gbegbe
 
-**Ne kpeɖodzia meɖe naneke fia o la, aleke eƒe ŋkuléle ɖe eŋu ate ŋu afia naneke?**
-Elabena woɖo akɔntabubua ale be *ɖasefo ŋutɔŋutɔ si sɔ* koe ate ŋu ana kpeɖodzi si to eme. Cheque la tsɔtsɔ yi na ame ŋutɔe nye kpeɖodzi, mehiã be woaɖee afia o.
+**Ne ɖase la mefia naneke o la, alekee eƒe kpɔkpɔ ƒe nyateƒe ate ŋu anye nu aɖe?**  
+Elabena woɖo maths la ale be *witness* si nye nyateƒe koe ate ŋu awɔ ɖase si ato eme. Eƒe toto emee nye ɖase la ŋutɔ, eye mègahiã be woafia nu aɖeke o.
 
-**Ðe ame aɖe ate ŋu awɔ aʋatso kpeɖodzi aɖea?**
-Gbeɖiɖi nyuie na be esia mate ŋu adzɔ o. Nu ɖeka si to vovoe nye SNARK si ƒe aɖi gbeɖuɖɔ siwo woɖo ɖe ɖoɖo nu si dzi woka ɖo la wodzra ɖo; esia tututu tae kɔnu siwo wowɔna tsɔ tsrɔ̃nɛ le vevie ɖo.
+**Ame aɖe ate ŋu awɔ ɖase atsyɔ̃a?**  
+Soundness wɔa be esia mate ŋu awɔ o. Nu ɖeka si ate ŋu awɔe nye SNARK si ƒe toxic waste le mɔ̃ ƒe ɖoɖo xexlẽnuwo me wometsrɔ o; esiae tututu ta ceremonywo siwo wɔna be woatsrɔe le vevie.
 
-**Ðe ɖoɖo si dzi woka ɖo si gblẽ la ɖea nye nyatakakawo ɖaa?**
-Ao, ana amedzidzela nawɔ ga *yeye*, gake **meɖea ga homewo, adrɛswo, alo nuŋlɔɖiwo fiana o. Ame ŋutɔ ƒe nyawo tsɔtsɔ aɣla kple nyawo gbɔ kpɔkpɔ nye kakaɖedzi vovovowo.
+**Mɔ̃ ƒe ɖoɖo xexlẽnuwo si gbã ate ŋu aɖe nye private data fiaa?**  
+Ao. Anya na ame vɔ̃ aɖe mɔ be wòaƒo ga *yeye*, gake **menɔa** ga ƒe asasrãwo, gaɖoƒe ƒe dzesiwo, alo didienuwo **fia o**. Ɣaɣla kple soundness nye ŋugbedodo vovovo.
 
-**Nukatae Zcash trɔ kpeɖodziɖoɖowo le ɣeyiɣi aɖe megbe?**
-Be woakpɔ kpeɖodzi suewo, siwo le kabakaba wu eye, kple Halo 2, be woaɖe ɖoɖo si dzi woka ɖo la ɖa keŋkeŋ eye woana gbugbɔgawɔ nawɔ dɔ.
+**Nu ka ta Zcash trɔ ɖase ƒe ɖoɖoawo le ɣeyiɣi me?**  
+Be woakpɔ ɖase siwo le sue, le kaba, eye, kple Halo 2, woaɖe mɔ̃ ƒe ɖoɖo xexlẽnuwo ɖa blibo eye woana recursion ava.
 
 ---
 
-### Do wò susuŋudɔwɔwɔ kpɔ
+### Ɖo wò gɔmesese kpɔ
 
-Le agadoa me la, nukatae wòle vevie be amesi ɖo kpe edzi la natia akpa si ado le *ne* prover la ge ɖe eme xoxo, tsɔ wu be wòaɖe gbeƒãe do ŋgɔ? *(Ðo eŋu le ete.)*
+Le doŋkpe la me, nu ka ta wòle vevie be ame si kpɔa ɖase la tia mɔ si woado go tsoe *le eme be* ame si ɖea ɖase la va ge ɖe eme yina, le teƒe si wòagblɔe na e hafi wòaɖe afɔ? *(Ŋuɖoɖo le afima.)*
 
-<details><summary>Answer</summary>
+<details><summary>Ŋuɖoɖo</summary>
 
-Ne amesi ɖo kpe edzi la ɖe gbeƒã axaa gbã la, ɖeko bluffer si menya nya la o ate ŋu azɔ ayi akpa ma tso gɔmedzedzea me eye wòagazɔ afɔ ado goe, eye mahiã ʋɔtrua gbeɖe o. Tiatia *le* prover la tsɔ eɖokui na be yeato mɔ aɖe dzi zi bluffer dzi be wòaɖo ŋu ɖe dzɔgbenyui ŋu (50/50 le ƒoƒo ɖesiaɖe me), si nye nusi na be ƒoƒo enuenu nyea kakaɖedzi. "Ðo ɖokuiwò gbã, emegbe woatsɔ nya ɖe ŋuwò" ƒe sedede sia nye nusi tututu Fiat-Shamir dzrana ɖo to gbetɔamea xɔxɔ tso hash si nye prover ƒe kpeɖodzi si wòtsɔ eɖokui na xoxo me.
+Ne ame si kpɔa ɖase la gblɔ mɔ la do ŋgɔ la, ame si le afɔɖeɖe wɔm si menya nya la o ate ŋu age ɖe mɔ ma me tso gɔmedzedze, eye wòava do go kple bɔbɔe, eye wòmehia agbo la o. Titi le eme be ame si ɖea ɖase la de mɔ aɖe me ɖo hafi woabiae la doa ame si le afɔɖeɖe wɔm la ɖe dzodzro ƒe ŋu (50/50 le ƒoƒo sia ƒe sia me), eye esiae wɔa be ƒoƒo geɖewo ƒe wɔwɔ nava de ame dzi. "De nu ɖo do ŋgɔ, eye woabia wò emegbe" ƒe ɖoɖo siae Fiat-Shamir hã le dzadzram, esi wòtsɔ hash tso ame si ɖea ɖase la ƒe ɖase si wòde ɖo xoxo me hea biabia la.
 </details>
 
 ---
 
-### Nukae kplɔe ɖo
+### Nu si ava do ŋgɔ
 
-**Nyati 6 lia . Protocol si wokpɔ ta na, tso nuwuwu vaseɖe nuwuwu:** nuwuwu. Míexɔa akpa ɖesiaɖe, nuŋlɔɖiwo, adzɔgbeɖeɖewo, nuŋlɔɖi ƒe ɖokuitsɔtsɔna ƒe ati, nullifiers, asixɔxɔ ƒe dadasɔ, kple zero-sidzedze ƒe kpeɖodzi, eye míeƒoa Zcash takpɔnu ƒe asitsatsa blibo nu ƒu, tsɔ tua loop ɖesiaɖe si woʋu ɖe megbe le Se 0 lia me.
+**Article 6 . Ɣaɣla protocol, tso gɔme yi nuwuwu:** nuwuwu la. Míatsɔ akpa sia sia, didienuwo, adzɔgbeɖeɖewo, didienu ƒe adzɔgbeɖeɖe ati, gaɣaɣla ɖeɖe dzesiwo, value balance, kple zero-knowledge ɖaseɖigbalɛ la, afɔ ɖe Zcash ƒe ɣaɣla gaɖoɖo blibo aɖe me, eye míabu klolo sia sia si míeʋu le Article 0 me la katã.
 
-*Zcash ƒe akpa aɖe tso Gɔmeɖose Gbãtɔwo *series na [ZecHub](https://zechub.org). CC BY-SA 4.0 si ŋu mɔɖegbalẽ le.*
+*Enye akpa le* Zcash Tso Gɔmedzedze ƒe Gɔmeɖoɖowo *ƒe series na [ZecHub](https://zechub.org). Woɖe mɔ nɛ le CC BY-SA 4.0 te.*

@@ -1,20 +1,20 @@
-# Nyadzɔdzɔgbalẽ Siwo Wotsɔ Akpoxɔnu Wɔe
+# Ɣaɣla [Shielded] Nyadzɔdzɔgbalẽ [Newsletters]
 
 
-## Ɖo anyi
+## Ɖoɖo [Setup]
 
- * Zebrad node si le dɔ wɔm eye wòwɔ ɖeka kple RPC ƒe dɔwɔwɔ bliboe eye woɖoe be wòazã cookies
- * zainod wɔ ɖeka bliboe
- * Zallet ɖoɖo be woawɔ RPC ƒe
+ * Zebrad ɣaɣla dzesi ŋɔŋlɔ [node] si le dɔ wɔm eye wòde sync bliboa, si me RPCwo le dɔ wɔm eye woɖoe be woadzã cookies
+ * zainod de sync bliboa
+ * Zallet woɖoe be wòawɔ RPCwo
 
 
 ### Dze Zallet gɔme
 
 `./target/release/zallet -c /home/zktails/.zallet/zallet.toml start`
 
-kple zallet.toml faɛl si woɖo
+kple zallet.toml faɖe si woɖo ɖe eŋu
 
-kpɔɖeŋu toml:
+toml ƒe kpɔɖeŋu:
 
 ```markdown
 [builder]
@@ -68,21 +68,21 @@ bind = ["127.0.0.1:8237"]
 ```
 
 
-### toCurl.sh dzi
+### toCurl.sh
 
 `chmod +x toCurl.sh`
 
-trɔ asi le zebrad RPC (8232) ʋɔtru nyuitɔ ŋu eye nàde zãla ƒe ŋkɔ kple pw tso zebrad cookie me
+Trɔ asi le zebrad RPC (8232) port si sɔ ŋu eye nàtsɔ username kple pw tso zebrad cookie me akpe ɖe eŋu
 
 
 `__cookie__:yourpasswordhere`
 
 
-### Do RPC kpɔ
+### Do RPC ƒe dodokpɔ
 
 `./target/release/zallet -c /home/zktails/.zallet/zallet.toml rpc help`
 
-Ele be woaɖee afia
+Ele be wòana
 
 ```bash
 getrawtransaction
@@ -107,22 +107,16 @@ z_recoveraccounts
 z_sendmany
 z_viewtransaction
 ```
-De dzesii: kpɔ egbɔ be zallet executable ƒe kɔpi le asiwò le agbalẽdzraɖoƒe si nèwɔ script la le
+Nudzɔdzɔ: Kpɔ be zallet executable ƒe kɔpi le folder si me nèle script la ƒom le
 
-### Du ŋɔŋlɔdzesiwo
+### Ƒu skriptwo
 
 `chmod +x ascii2hex hex2ascii shieldNewsletter.sh txBuilderFromFile.sh toCurl.sh`
 
-Trɔ asi le daoAddress.md ŋu kple UA siwo nèdi be yeazã
+Trɔ asi le daoAddress.md ŋu kple UAwo si nèdi be nàzã
 
-Ʋu txBuilderFromFile.sh eye nàtrɔ asi le "tso" tɔtrɔ ŋu ɖe UA si wodo ga na si le wò zallet gakotoku me
+Ʋu txBuilderFromFile.sh eye nàtrɔ asi le "from" variable la ŋu be wòanye UA si woxɔ ga ɖo ɖe zallet gakotoku [wallet] me
 
-Ɣe ma ɣi,
+Emegbe la,
 
 `./shieldNewsletter.sh yourNewsletterHere.md`
-
-
-
-
-
-

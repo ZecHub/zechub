@@ -1,89 +1,89 @@
 <a href="https://github.com/Zechub/zechub/edit/main/site/ZFAV_Club/Guides_for_Creators/AI_tools.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Axa ƒe Tata"/>
 </a>
 
-# AI dɔwɔnuwo: Nuŋɔŋlɔ, Nɔnɔmetata, Video, Odio wɔwɔ (le Internet dzi)
+# AI dɔwɔnu [tools]: Nuŋlɔ, Nɔnɔmetata, Video, Audio dzadzra (le ayelujara dzi)
 
-Nusiwo woŋlɔ ɖi be woana agbea nanɔ bɔbɔe wue nye esi. Alesi woazã woe nye nu bubu.
+Efi list si ana agbe nasusu na wòe. Ale si nàzã wo la nye nu bubu.
 
-Nusɔsrɔ̃ ƒe mɔnu aɖe le nusiwo ʋãa ame nyuitɔwo kekeake ŋɔŋlɔ ŋu. Ate ŋu adzɔ be woabi ɖe gɔmedzenufiafiawo me kabakaba ŋutɔ.
+Prompt nyuitɔwo ƒe ŋlɔŋlɔ xɔ srɔ̃srɔ̃ ƒe ɣeyiɣi. Wòate ŋu asrɔ̃ gɔmedzedzeawo kaba.
 
-## Nuŋɔŋlɔwo wɔwɔ/ Kpeɖeŋutɔwo
+## Nuŋlɔ dzadzra/ Kpeɖeŋu ƒe amewo
 
-[Numekula kaba](https://novelai.net/tokenizer) (tokenizer) be nàsrɔ̃ alesi prompts wɔa dɔe kple token agbɔsɔsɔme si wozãna.
+[Prompt ƒe xexlẽmɔ](https://novelai.net/tokenizer) (token ƒe mamã) be nàsrɔ̃ ale si promptwo wɔa dɔe kple token nenie wo zãa.
 
-Àte ŋu abia tso Chatbot ƒe kpeɖeŋutɔwo si ɣesiaɣi be woakpe asi ɖe eŋu woawɔ nyabiase nyui aɖe na wò.
+Wòate ŋu abia Chatbot ƒe kpeɖeŋu amewo ɣesiaɣi be woakpe ɖe wò ŋu nàwɔ prompt nyui aɖe.
 
-### Dɔwɔnu siwo wozãna femaxee:
+### Dɔwɔnu siwo nye fefe:
 
-- [Anthropic ƒe Claude ƒe agbalẽ](https://claude.ai/) - ate ŋu ahiã VPN hafi aŋlɔ ŋkɔ (US ɖeɖeko)
-- [DzeɖoɖoGPT 3.5](https://chat.openai.com/) - bia telefon xexlẽdzesi
-- [Bing Dzeɖoɖo (GPT4)](https://www.bing.com/search?q=Bing+AI&showconv=1&FORM=hpcodx) - seɖoƒe li na nya siwo wogblɔna gbesiagbe
-- [Llama 2 - 70B ƒe ɣeyiɣia](https://www.llama2.ai/) - femaxee le nyatakakadzraɖoƒe
+- [Anthropic ƒe Claude](https://claude.ai/) - Ɛɖe ŋu hiã be nàzã VPN be nàŋlɔ ɖe eme (US ko)
+- [ChatGPT 3.5](https://chat.openai.com/) - Ɛbia telefon ƒe xexlẽme
+- [Bing Chat (GPT4)](https://www.bing.com/search?q=Bing+AI&showconv=1&FORM=hpcodx) - Prompt siwo nàte ŋu azã le gbe ɖeka me la me xɔseɖoƒe le eme
+- [Llama 2 - 70B](https://www.llama2.ai/) - Fefe le website dzi
 
-### Dɔwɔnu siwo woxea fe na:
+### Dɔwɔnu siwo wòaxe gadzra ɖo:
 
-- [Free2Z Dzeɖoɖo2Z](https://free2z.com/ai) - Fe kple ZEC / 2Zs na GPT-3.5 kple GPT-4 cents/prompt
-- [Dzeɖoɖo GPT-4](https://chat.openai.com/auth/login) - $20/ɣleti ɖeka.
+- [Free2Z Chat2Z](https://free2z.com/ai) - Xe fe kple ZEC / 2Zs na GPT-3.5 kple GPT-4 sent/prompt
+- [Chat GPT-4](https://chat.openai.com/auth/login) - $20/ɣleti.
 
-## Nɔnɔmetatawo wɔwɔ
+## Nɔnɔmetata dzadzra
 
-### Dɔwɔnu siwo wozãna femaxee:
+### Dɔwɔnu siwo nye fefe:
 
-- [ImgnAI](https://imgnai.com/) bot le Discord alo Telegram dzi - [Dze egɔme Mɔfiame](https://imgnai.gitbook.io/imgnai/) kple 
-hã fifia [Nyatakakadzraɖoƒe ƒe Dɔwɔɖoɖo ImgnAI](https://app.imgnai.com/home) kple akɔntabubu ƒe gege ɖe eme ɖe vovo 
+- [ImgnAI](https://imgnai.com/) bot le Discord alo Telegram - [Gɔmedzedze ƒe Mɔfiame](https://imgnai.gitbook.io/imgnai/) kple 
+azɔ hã [Webapp ImgnAI](https://app.imgnai.com/home) si me account ƒe gege le vovototo me 
 ge ɖe eme kple X, Google, Discord, Telegram
-- [Bing Dalle3](https://www.bing.com/create) - free version ate ŋu anye blewu
-- [Adobe Firefly ƒe agbalẽ](https://www.adobe.com/ee/sensei/generative-ai/firefly.html) - ga home si seɖoƒe li na femaxee
-- [Ideogram](https://ideogram.ai/login) - bi ɖe nuŋɔŋlɔ ŋutɔŋutɔ siwo woate ŋu axlẽ le nɔnɔmetatawo dzi wɔwɔ me
-- [Fefewɔƒe ƒe AI](https://playgroundai.com/) - femaxee mode, nudɔdɔ tso $15/ɣleti
-- [Clipdrop to stability.ai dzi](https://clipdrop.co/stable-diffusion)
-- [StarryAI](https://www.starryai.com) - 5 nutatawo/ŋkeke
-- [Drɔ̃e to wombo dzi](https://dream.ai/)
-- [Craiyon](https://www.craiyon.com/) (DALL-E mini clone) - nudɔdɔ si woxea fe na si dzea egɔme tso $5 dzi doa duƒuƒu ɖe ŋgɔ
-- [DALL-E ƒe nu sue aɖe](https://huggingface.co/spaces/dalle-mini/dalle-mini) - xoxo kple gɔmedzenu
+- [Bing Dalle3](https://www.bing.com/create) - Fefe ƒe version la ate ŋu adze blewu
+- [Adobe Firefly](https://www.adobe.com/ee/sensei/generative-ai/firefly.html) - Ɖeŋu kpui aɖe ko nye fefe
+- [Ideogram](https://ideogram.ai/login) - Eme nyo le nya siwo me ame ate ŋu axlẽ le nɔnɔmetatawo dzi ƒe dzadzra me
+- [Playground AI](https://playgroundai.com/) - Fefe ƒe mɔ, subscription tso $15/ɣleti me
+- [Clipdrop tso stability.ai](https://clipdrop.co/stable-diffusion)
+- [StarryAI](https://www.starryai.com) - Aŋɔwo 5 le gbe ɖeka me
+- [Dream tso wombo](https://dream.ai/)
+- [Craiyon](https://www.craiyon.com/) (DALL-E mini ƒe clone) - Subscription si wòaxe fe tso $5 me doa ŋusẽ le speed dzi
+- [DALL-E mini](https://huggingface.co/spaces/dalle-mini/dalle-mini) - Xoxoe eye gɔmedzedze ko
 
-### Dɔwɔnu siwo woxea fe na:
+### Dɔwɔnu siwo wòaxe gadzra ɖo:
 
-- [Midjourney Bot](https://discord.com/invite/midjourney) le Discord me - tso $10/ɣleti - [Dze egɔme Mɔfiame](https://docs.midjourney.com/docs/quick-start)
-ate ŋu axɔ dzidzime siwo ade 100 siwo le ablɔɖe me to dzidzedzekpɔkpɔ na ame bubu geɖe me [nɔnɔmetatawo le afisia](https://www.midjourney.com/app/rank-pairs/)
-(ele be wòaɖo top2000 raters - abe miniti 15 ƒe rating fotowo)
-- [DALL-E 2. Ƒe 1999 me](https://web.archive.org/web/20250601174514/https://labs.openai.com/) [](https://openai.com/dall-e-2)- $15/115 dzidzimewo - (femaxee dzidzime 15/ɣleti)
-- [DALL-E 3. Ƒe 1999 me](https://openai.com/dall-e-3/) - le ChatGPT-4 me - $20/ɣleti
-- [Zãmodzakaɖeƒe Wɔla](https://creator.nightcafe.studio/) (Ddzidzime 4 femaxee, fetu dzea egɔme tso $6/ɣleti)
+- [Midjourney Bot](https://discord.com/invite/midjourney) le Discord - Tso $10/ɣleti me - [Gɔmedzedze ƒe Mɔfiame](https://docs.midjourney.com/docs/quick-start)
+Wòate ŋu axɔ dzadzra fefe 100 alo nenema to nɔnɔmetata bubu geɖe ƒe rating wɔwɔ me le [nɔnɔmetatawo le afisia](https://www.midjourney.com/app/rank-pairs/)
+(wòele be nàva anye top2000 raters ƒe ame aɖe - nɔnɔmetatawo ƒe rating ƒe miniti 15 alo nenema)
+- [DALL-E 2](https://web.archive.org/web/20250601174514/https://labs.openai.com/) [](https://openai.com/dall-e-2)- $15/115 dzadzra - (dzadzra fefe 15/ɣleti)
+- [DALL-E 3](https://openai.com/dall-e-3/) - Ele ChatGPT-4 me - $20/ɣleti
+- [Nightcafe Creator](https://creator.nightcafe.studio/) (dzadzra 4 nye fefe, feɖeɖe dzea egɔme tso $6/ɣleti me)
 
-## Videowo wɔwɔ
+## Video dzadzra
 
-### Dɔwɔnuwo (zi geɖe la, woate ŋu adoe kpɔ femaxee):
+### Dɔwɔnuwo (fefe ƒe dodokpɔna zi geɖe):
 
-- [YameʋudzeƒeML GEN-2](https://runwayml.com/) (dodokpɔ femaxee, nudɔdɔ tso $15/ɣleti)
-- [Pika ƒe dodokpɔxɔwo Discord Bot](https://www.pika.art/) (atm femaxee?)
-- [Elai](https://elai.io/) (nudɔdɔ tso $23/ɣleti)
+- [RunwayML GEN-2](https://runwayml.com/) (fefe ƒe dodokpɔna, subscription tso $15/ɣleti me)
+- [Pika labs Discord Bot](https://www.pika.art/) (fefe fifia?)
+- [Elai](https://elai.io/) (subscription tso $23/ɣleti me)
 
-### Video/odio gɔmeɖeɖe dɔwɔnuwo:
+### Video/audio gɔmeɖeɖe ƒe dɔwɔnuwo:
 
-- [HeyGen ƒe Dɔwɔƒegã](https://labs.heygen.com/guest/video-translate) video gɔmeɖeɖe ƒe dubbing kple nuyi ƒe wɔwɔ ɖekae dɔwɔnu
-- [Ezdubs Bot le X dzi](https://twitter.com/ezdubs_bot) video gɔmeɖeɖe ƒe dubbing kple nuyi ƒe wɔwɔ ɖekae dɔwɔnu
+- [HeyGen Labs](https://labs.heygen.com/guest/video-translate) video gɔmeɖeɖe, gbeɖeɖe kple lip ƒe sɔsɔ dɔwɔnu
+- [Ezdubs Bot le X](https://twitter.com/ezdubs_bot) video gɔmeɖeɖe, gbeɖeɖe kple lip ƒe sɔsɔ dɔwɔnu
 
-## Odio ƒe nuwo
+## Audio ƒe nuwo
 
-### Odio ɖɔɖɔɖo
+### Audio ƒe ɖoɖowɔwɔ
 
-- [Adobe AI Klɔ odio ŋu](https://podcast.adobe.com/enhance#): (femaxee kple adobe akɔntabubu femaxee)
+- [Adobe AI Clean up audio](https://podcast.adobe.com/enhance#): (fefe kple adobe ƒe account fefe)
 
-### Hadzidziwo wɔwɔ
+### Hadzi dzadzra
 
-- [Soundraw](https://soundraw.io/) - te kpɔ femaxee - (nudɔdɔ tso $16.99/ɣleti)
-- [beatoven.ai ƒe nyawo](https://www.beatoven.ai/) - dze agbagba femaxee - (nudɔdɔ tso $3/ɣleti alo $1/aɖabaƒoƒo si wowɔ)
-- [soundful.com dzi](https://soundful.com/) - te kpɔ femaxee - (nudɔdɔ tso $59.99/ɣleti alo 29.99/m ƒe sia ƒe)
-- [boomy](https://boomy.com/) - te kpɔ femaxee - (nudɔdɔ tso $9.99/ɣleti)
-- [Loudly](https://www.loudly.com/) - te kpɔ femaxee - (nudɔdɔ tso $7.99/ɣleti)
-- [Mubert ƒe agbalẽa](https://mubert.com/) - te kpɔ femaxee - (nudɔdɔ tso $14/ɣleti)
+- [Soundraw](https://soundraw.io/) - Ɖe kpɔ fefe - (subscription tso $16.99/ɣleti me)
+- [beatoven.ai](https://www.beatoven.ai/) - Ɖe kpɔ fefe - (subscription tso $3/ɣleti alo $1/miniti si wòedzra)
+- [soundful.com](https://soundful.com/) - Ɖe kpɔ fefe - (subscription tso $59.99/ɣleti alo 29.99/m le ƒe ɖeka me)
+- [boomy](https://boomy.com/) - Ɖe kpɔ fefe - (subscription tso $9.99/ɣleti me)
+- [Loudly](https://www.loudly.com/) - Ɖe kpɔ fefe - (subscription tso $7.99/ɣleti me)
+- [Mubert](https://mubert.com/) - Ɖe kpɔ fefe - (subscription tso $14/ɣleti me)
 
-### Gbe ƒe dodo
+### Gbe dzadzra
 
-- [fefe.ht](https://web.archive.org/web/20260310162301/https://play.ht/) - femaxee - (nudɔdɔ tso $39/ɣleti)
-- [ElevenLabs](https://elevenlabs.io/) - femaxee - (nudɔdɔ tso $5/ɣleti)
-- [Murf ƒe ŋkɔ](https://murf.ai/) - femaxee - (nudɔdɔ tso $29/ɣleti)
-- [Resemble](https://www.resemble.ai/) - dze agbagba femaxee (le $0.006 le sɛkɛnd ɖeka me megbe)
-- [Synthesia](https://www.synthesia.io/) - (nudɔdɔ tso $22.5/ɣleti)
+- [play.ht](https://web.archive.org/web/20260310162301/https://play.ht/) - Fefe - (subscription tso $39/ɣleti me)
+- [ElevenLabs](https://elevenlabs.io/) - Fefe - (subscription tso $5/ɣleti me)
+- [Murf](https://murf.ai/) - Fefe - (subscription tso $29/ɣleti me)
+- [Resemble](https://www.resemble.ai/) - Ɖe kpɔ fefe ($0.006 le sekondi ɖeka vɔ megbe)
+- [Synthesia](https://www.synthesia.io/) - (subscription tso $22.5/ɣleti me)
