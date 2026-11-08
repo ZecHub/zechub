@@ -103,14 +103,14 @@ Nusi wòkɔ ɖa sesĩe kple si woate ŋu akpɔ ɖa la nye nu eve siwo le vevie w
 
 | Nya | Gɔme le English bɔbɔe me |
 |---|---|
-| Akɔtaɖoɖo ƒe ɖoɖonu | Blockchain vovovo si Valar Group tu, si wɔa akɔtaɖoɖo la; wòƒe Zcash didienuwo mele ɖe eŋu o |
-| Snapshot ƒe kɔkɔƒe | Mainnet gaɖoɖowo ƒuƒoƒe si ƒe ga ƒe ƒuƒoƒowo ɖoa akɔta ƒe kpekpeɖeŋu (gaɖoɖowo ƒuƒoƒe 3,459,350 na NU7 ƒe akɔtaɖoɖo) |
-| Gaɣaɣla ɖeɖe dzesi | Didienu ƒe zãzã dzesi tɔxɛ; ne woɖe eya fia la, wòado akɔta aɖe ɖe didienu aɖe ŋu, eya ta akɔtaɖoɖo ɖea ɖase be mele xexlẽ me o le teƒe ma |
-| Nya ƒe Xɔxɔ ɣaɣla Me (PIR) | Data ƒe xɔxɔ tso server aɖe gbɔ ne èɣla data kae nèbia |
-| Homomorphic ɣaɣlaŋlɔŋlɔ | Ɣaɣlaŋlɔŋlɔ si ƒe ciphertexts woate ŋu akpe ɖe wo nɔewo ŋu ne woaɖe wo ƒe ɣaɣla kpɔ o |
+| Voting chain | Blockchain vovovo si Valar Group tu, si wɔa akɔtaɖoɖo la; wòƒe Zcash didienuwo mele ɖe eŋu o |
+| Snapshot height | Mainnet gaɖoɖowo ƒuƒoƒe si ƒe ga ƒe ƒuƒoƒowo ɖoa akɔta ƒe kpekpeɖeŋu (gaɖoɖowo ƒuƒoƒe 3,459,350 na NU7 ƒe akɔtaɖoɖo) |
+| Nullifier | Didienu ƒe zãzã dzesi tɔxɛ; ne woɖe eya fia la, wòado akɔta aɖe ɖe didienu aɖe ŋu, eya ta akɔtaɖoɖo ɖea ɖase be mele xexlẽ me o le teƒe ma |
+| Private Information Retrieval (PIR) | Data ƒe xɔxɔ tso server aɖe gbɔ ne èɣla data kae nèbia |
+| Homomorphic encryption | Ɣaɣlaŋlɔŋlɔ si ƒe ciphertexts woate ŋu akpe ɖe wo nɔewo ŋu ne woaɖe wo ƒe ɣaɣla kpɔ o |
 | Coordinator multisig | Ame 2 tso ame 5 ƒe ha si na mɔ na biabiawo kple ƒeɖeɖe ƒe kplɔɖeƒe, gake mate ŋu akpɔ alo atrɔ akɔtawo o |
-| Akɔtaɖoɖo ƒe ŋusẽmama | Dɔdzikpɔla 10 alo sɔe kple esia wu siwo le ɣaɣla-ɖeɖe kplɔɖeƒe si woema dome la eye woɖea mamle bliboa ko fia |
-| Threshold ɣaɣla-ɖeɖe | Emetsonu ƒe xɔxɔ ne kplɔɖeƒe ƒe akpa ƒe nɔlawo ƒe lolome de eme, afii la woƒe akpa etɔ le ene me |
+| Election authority | Dɔdzikpɔla 10 alo sɔe kple esia wu siwo le ɣaɣla-ɖeɖe kplɔɖeƒe si woema dome la eye woɖea mamle bliboa ko fia |
+| Threshold decryption | Emetsonu ƒe xɔxɔ ne kplɔɖeƒe ƒe akpa ƒe nɔlawo ƒe lolome de eme, afii la woƒe akpa etɔ le ene me |
 | Quorum | ZEC 1,000,000 ƒe ame siwo le akpa le akɔtaɖoɖo me ƒe lolome si woabua be ena kɔin ƒe nɔlawo ƒe susu |
 
 ## Biabia siwo wobia zi geɖe
