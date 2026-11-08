@@ -17,7 +17,7 @@
 
 ## Nusi Feature Net nye
 
-Crosslink nye ɖoɖo, menye akpa si le Zcash me egbe o. Shielded Labs ƒe [Crosslink FAQ](https://shieldedlabs.net/crosslink-faq/) gblɔ be "ele be wòato dzɔdzɔme ƒe Zcash dziɖuɖu [governance] mɔ nu" hafi wòate ŋu ava mainnet dzi. [ ƒe Crosslink Protocol](/zcash-tech/crosslink-protocol) axa la ɖe ɖoɖo la ƒe nɔnɔ fia.
+Crosslink nye ɖoɖo, menye akpa si le Zcash me egbe o. Shielded Labs ƒe [Crosslink FAQ](https://shieldedlabs.net/crosslink-faq/) gblɔ be "ele be wòato dzɔdzɔme ƒe Zcash dziɖuɖu [governance] mɔ nu" hafi wòate ŋu ava mainnet dzi. [Crosslink Protocol](/zcash-tech/crosslink-protocol) axa la ɖe ɖoɖo la ƒe nɔnɔ fia.
 
 Be woado ɖoɖo la kpɔ kple amewo la, Shielded Labs wɔa nusi woyɔna be [incentivized feature nets](https://shieldedlabs.net/crosslink-incentivized-feature-nets/): "incentivized testnets ƒe xexlẽ". Dɔwɔla ƒome etɔ le network la dzi, eye desktop app la ate ŋu awɔ wo katã ƒe dɔ:
 
@@ -47,7 +47,7 @@ Release ma ke la tsɔ nuwuwu dɔwɔlawo si ga geɖe wu le wo ƒe asi gbɔ keke 1
 
 cTAZ ("Crosslink TAZ") nye Feature Net ƒe dodokpɔ ga. Nàtsɔ cTAZ ƒo ga ƒu, menye ZEC o.
 
-ZEC vavã va le nuwuwu ko. Shielded Labs de [ 500 ZEC](https://shieldedlabs.net/crosslink-incentivized-feature-nets/) ɖe aga na feature nets la, eye [release notes](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v14) gblɔ be wonaa e "le amesiame ƒe akpa nu, le cTAZ si participant sia participant sia xɔ to nukuku alo ga ƒuƒoƒo me ko nu". Nu eve va tso eme:
+ZEC vavã va le nuwuwu ko. Shielded Labs de [500 ZEC](https://shieldedlabs.net/crosslink-incentivized-feature-nets/) ɖe aga na feature nets la, eye [release notes](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v14) gblɔ be wonaa e "le amesiame ƒe akpa nu, le cTAZ si participant sia participant sia xɔ to nukuku alo ga ƒuƒoƒo me ko nu". Nu eve va tso eme:
 
 - **Ga suewo nanaƒe ƒe ga mekɔ o.** cTAZ si wona wò, tso ga suewo nanaƒe alo amesi bubu gbɔ, mexɔ naneke esi wòle wò gakotoku me o. Ga si wòxɔ tso nukuku kple ga ƒuƒoƒo ƒe fetu ko wɔnɛ.
 - **Wole fetuwo bia, menye be wova wɔnɛ le woŋutɔ o.** Shielded Labs gblɔa round sia round sia le [forum thread](https://forum.zcashcommunity.com/t/crosslink-incentivized-feature-net/55210) me. Le Round 2 me la, wobia be participants natsɔ wo gakotoku ƒe nukpɔsafui [viewing key] kple mainnet gaɖoƒe ƒe dzesi [address] na wo hafi 4 October 2026 ([post 94](https://forum.zcashcommunity.com/t/crosslink-incentivized-feature-net/55210/94)). Network si version 14 le dɔ wɔm ɖe, si mɔfiame sia le ge ɖo me, wogblɔ be enye Round 3 ([post 101](https://forum.zcashcommunity.com/t/crosslink-incentivized-feature-net/55210/101)).
