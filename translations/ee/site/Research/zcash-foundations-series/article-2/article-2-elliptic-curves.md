@@ -1,90 +1,90 @@
-# Elliptic Curves: Afisi Wodzi Zcash ƒe Safuiwo Kple Adzɔgbeɖeɖewo Le
-##### Numekuku Gbãtɔ tso [Annkkitaaa](https://github.com/Annkkitaaa)
+# Elliptic Curves: Afisi Zcash ƒe Safuiwo kple Adzɔgbeɖeɖewo Le Dzi
+##### Ɖeɖefia Gbãtɔ tso [Annkkitaaa](https://github.com/Annkkitaaa)
 
-![alt nuŋɔŋlɔ](/content-images/image-10-c1097b22d7.webp)
+![alt text](/content-images/image-10-c1097b22d7.webp)
 
-### Mɔdodo ɖeka si wotu tso teƒe siwo le mɔ si woƒo xlãe dzi
+### Mɔ si dzi wòate ŋu ayi ɖe ŋgɔ ko, eye wotu tso afisiwo ŋu
 
-> **Series:** *Zcash tso Gɔmeɖose Gbãtɔwo me* . **Nyati 2 lia . Elliptic Curves** ƒe Ʋuʋudedi**
-> **Nyaselawo:** ame yeyewo. Míetsɔe be [Nyati 1 (anyigba siwo seɖoƒe li na) koe.](article-1-finite-fields.md): akɔntabubu si xatsa ɖe mod a prime ŋu. Mehiã be woatso teƒe bubu aɖeke o.
-> **Nusi nàgblẽ ɖi:** elliptic curves ƒe nɔnɔmetata si me kɔ eye wòsɔ, "mɔ̃" si na woɖea vi, kple alesi tututu Zcash trɔa wo wozua safuiwo kple adzɔgbeɖeɖewo.
+> **Ƒome:** *Zcash tso Gɔmedzedze ƒe Gɔme* . **Nusiŋɔŋlɔ 2 . Elliptic Curves**
+> **Ame siwo wotu na:** ame yeyeawo. Míebu be nènya [Nusiŋɔŋlɔ 1 (finite fields)](article-1-finite-fields.md) ko: xexlẽ si trɔa yi ɖe gɔmedzenu me le prime me. Medzidzɔge bubu aɖeke mele be wòhiã o.
+> **Nusi nàdzɔ ɖe eme:** nufia si nya me le elliptic curves ŋu, "trapdoor" si wɔna be wònye nu si wòahiã, kple ale si Zcash trɔe zu safuiwo kple adzɔgbeɖeɖewo.
 
-[Nyati 1 lia](article-1-finite-fields.md) na míekpɔ fefewɔƒe deblibo aɖe na akɔntabubu: afisi seɖoƒe li na. Gake agble le eɖokui si nye xexlẽdzesiwo ko. Be woatu safuiwo kple "akplo siwo wotre nu na" tso [Se 0](article-0-shielded-transaction.md), Zcash hiã na nusi ƒe sesẽme tɔxɛ, si le mɔ ɖeka dzi: akɔntabubu le bɔbɔe yi ŋgɔ, manya wɔ kloe be woatrɔe o. Nu ma nye **elliptic curve**. Nyati sia tue tso gɔmedzedzea me ke, intuition do ŋgɔ na algebra.
-
----
-
-## 1. Nu ka tae wòle be nàtsɔ ɖe le eme?
-
-Ameŋunyatakakawo takpɔkpɔ ƒe ɖoɖo ɖesiaɖe hiã **mɔ ɖeka dzi**: dɔwɔwɔ si mehiã boo o be woazɔ ayi ŋgɔ eye le nyateƒe me la, manya wɔ be woatrɔ ayi megbe o.
-
-Nusitae nye esi. Wò **safui ɣaɣla** nye xexlẽdzesi si nèɣla. Woɖe wò **dutoƒo safui** (kple wò adrɛs) tso eme eye woɖee fia xexeame. Nuɖoanyia ƒe dedienɔnɔ bliboa nɔ te ɖe nyateƒenya ɖeka dzi: *ne wotsɔ dutoƒo safuia na la, ame aɖeke mate ŋu awɔ dɔ atrɔ ɖe wò safui ɣaɣla ŋu o.* Ne woate ŋui la, woate ŋu azã wò ga.
-
-Eyata míehiã akɔntabubu ƒe dɔwɔwɔ si me:
-
-- yiyi **yi ŋgɔ** (nya ɣaɣla -> dutoƒo) le kabakaba eye wòle bɔbɔe, gake
-- yiyi **megbe** (dutoƒo -> nya ɣaɣla) sesẽ ale gbegbe be kɔmpiuta siwo katã le Anyigba dzi siwo le dɔ wɔm le xexeame katã ƒe agbenɔɣi katã la mawu enu o.
-
-Seɖoƒe ƒe dzidziɖedzi gbadzaa menyo o; mama ɖee ɖa enumake (emae nye nya bliboa si le Se 1 lia me). Míehiã nane si me "undo" ƒe dzesi bɔbɔe aɖeke mele o. Elliptic curves naa nu ma tututu, eye abe bonus ene la, woƒe dzesiwo ƒoa ƒu le mɔ si sɔ nyuie na ŋugbedodowo tutuɖo nu. Na míakpɔ alesi wòawɔe ɖa.
+[Nusiŋɔŋlɔ 1](article-1-finite-fields.md) na mí dzɔƒe nyui aɖe na xexlẽ: finite field. Gake field ɖeka ko nye xexlẽwo. Be wòatu safuiwo kple "agbalẽkuku si wodze" tso [Nusiŋɔŋlɔ 0](article-0-shielded-transaction.md) me, Zcash hia nu si me kuxi ƒe ƒome si yina ɖe mɔ ɖeka dzi le: wòbɔbɔ be wòawɔe yi ŋgɔ, gake eƒe megatrɔ gbɔ nye nu si womate ŋu awɔ o. Nu mae nye **elliptic curve**. Nusiŋɔŋlɔ sia tuae tso gɔmedzenu me, nufia le algebra ŋgɔ.
 
 ---
 
-## 2. Intuition: curve si ƒe nyawo nàte ŋu "atsɔ akpe ɖe eŋu".
+## 1. Nu ka tae wòle be nàtsɔe ɖe susu me?
 
-Ŋlɔ nya ɣaɣlawo ƒe nuŋɔŋlɔ be vie. **elliptic curve** nye teƒewo ƒe ƒuƒoƒo ko `(x, y)` si naa nɔnɔmea ƒe sɔsɔŋuɖoɖo aɖe nadze ame ŋu:
+Ɣaɣla ƒe ɖoɖo ɖe sia ɖe hia **mɔ si dzi wòate ŋu ayi ɖe ŋgɔ ko**: dɔwɔwɔ si bɔbɔ be woazɔ yi ŋgɔ, eye si megatrɔ gbɔ nye nu si womate ŋu awɔ o.
+
+Eya tae. Wò **safui ɣaɣla** nye xexlẽ si nèɖea ɣla. Wò **safui si le duto ƒe ŋkume** (kple wò gaɖoƒe ƒe dzesi) tsoe me eye wofia na xexlẽame blibo. Ɖoɖo la ƒe dedie blibo le nyateƒe ɖeka dzi: *Ne woɖe safui si le duto ƒe ŋkume la, ame aɖeke mate ŋu atrɔ yi megbe va wò safui ɣaɣla gbɔ o.* Ne woate ŋu awɔe, woate ŋu azã wò ga.
+
+Eya ta míhia matematik ƒe dɔwɔwɔ si me:
+
+- zɔzɔ **yi ŋgɔ** (ɣaɣla -> si le duto ƒe ŋkume) le kabakaba eye wòbɔbɔ, gake
+- zɔzɔ **yi megbe** (si le duto ƒe ŋkume -> ɣaɣla) sesẽ ale gbegbe be computerwo katã siwo le anyigba dzi, ne wowɔ dɔ le xexlẽgbegbe ƒe agbenɔƒe blibo, womakpɔ nuwuwu o.
+
+Finite-field ƒe hahã ɖeka menya o; mamae trɔe gbɔ enumake (emae nye Nusiŋɔŋlɔ 1 ƒe tame blibo). Míhia nu si me "trɔe gbɔ" ƒe button bɔbɔ aɖeke mele o. Elliptic curves naa esia ke, eye be woakpe ɖe eŋu la, woƒe afisiwo ɖoa wo ƒe nuku ƒo le mɔ si nyo na adzɔgbeɖeɖewo tutu. Míakpɔ ale si wòle.
+
+---
+
+## 2. Nufia: afisi si ŋu wòate ŋu "na afisi eve ƒo"
+
+Mèbu cryptography ŋu kpɔ o. **Elliptic curve** nye afisiwo ƒe ha ko `(x, y)` siwo wɔ equation si le ƒome sia me:
 
 ```
 y^2 = x^3 + ax + b
 ```
 
-Le xexlẽdzesi dzrowo gome la, edzena abe ʋuƒo si le gbadzaa, si le ʋuʋum ene, eye zi geɖe la, eƒe ka le goglo eye eƒe asike eve:
+Le xexlẽ siwo le gɔmedzenu me la, wòle abe afisi ƒe mɔ bɔbɔ si le yiyi ene, zi geɖe wòna woakpɔ akpa si ƒe nuku le akpa eye tail eve:
 
-![alt nuŋɔŋlɔ](/content-images/image-14-1d2e8c25d2.webp)
+![alt text](/content-images/image-14-1d2e8c25d2.webp)
 
-Akpa si wɔ nuku ŋutɔŋutɔ: **àte ŋu "atsɔ" teƒe eve akpe ɖe fli sia ŋu be nàkpɔ teƒe etɔ̃lia le fli ɖeka ma ke dzi.** Esia menye kɔordinatewo ƒe tsɔtsɔ kpee dzro ko o. Enye geometric se, eye ele bɔbɔe be * woakpɔ* wu be woagblɔ.
+Nu si wɔa be womakpɔe o lae nye esi: **Wòate ŋu "na afisi eve ƒo" le curve sia dzi be wòakpɔ afisi etɔ̃ si le curve ma ke dzi.** Esia menye coordinates ƒe nukuɖoɖo gbɔgbɔ o. Geometric se aɖe wònye, eye wòbɔbɔ be woakpɔe kple ŋku wu be woagblɔe.
 
-### Chord rule (tsɔ nya vovovo eve kpee) .
+### Chord se (afisi vovovowo eve ƒe nukuɖoɖo)
 
-Be míatsɔ akpe ɖe eŋu `P + Q`:
+Be nàtsɔ `P + Q` aɖo nuku:
 
-1. Kpa fli dzɔdzɔe aɖe to eme `P` kple `Q`.
-2. Fli ma dzea mɔa dzi le teƒe ɖeka pɛpɛpɛ. Yɔe `R*`.
-3. **Klẽ `R*` across the horizontal axis.** Ŋugbledede mae nye ŋuɖoɖoa, . `P + Q`.
+1. Ɖo mɔ dzɔdzɔe aɖe to `P` kple `Q` me.
+2. Mɔ ma ƒo kple curve la le teƒe bubu ɖeka pɛ. Yɔe be `R*`.
+3. **Trɔ `R*` yi ɖe horizontal axis ƒe akpa bubu.** Eƒe trɔtrɔe nye ɖoɖo la, `P + Q`.
 
-![alt nuŋɔŋlɔ](/content-images/image-11-61f3df1989.webp)
+![alt text](/content-images/image-11-61f3df1989.webp)
 
-### Tangent rule (si tsɔa dzesi aɖe kpena ɖe eɖokui ŋu) .
+### Tangent se (afisi aɖe kple e ŋutɔ ƒe nukuɖoɖo)
 
-Be woawɔ akɔntabubu `P + P` (wo ŋlɔ `2P`), teƒe evelia aɖeke meli si me nàta fli ato o, eyata èzãa **tangent** fli le `P` ke boŋ, emegbe zɔ ɖe "tsoƒe etɔ̃lia, emegbe nàde ŋugble" ƒe nuɖaɖa ma ke dzi.
+Be nàwɔ `P + P` (si woŋlɔna be `2P`), afisi evelia mele be nàto mɔ dzi o, eyata zã **tangent** mɔ le `P` gbɔ ɖe eteƒe, eye nàwɔ "ƒome etɔ̃, ekema trɔ" ƒe mɔ ma ke.
 
-Emae nye dɔwɔwɔ bliboa. Geometri ƒe se eve. Le wo gome la, elliptic curve ƒe teƒewo wɔa nusi akɔntanyalagãwo yɔna be **ƒuƒoƒo**: ƒuƒoƒo si me "tsɔtsɔ kpe ɖe" si wɔa nu nyuie le. "Zero" gɔ̃ hã le esi.
+Emae nye dɔwɔwɔ blibo. Geometric se eve. Kple wo, elliptic curve ƒe afisiwo wɔ nu si mathematicianwo yɔna be **group**: nuwo ƒe ha si me "nukuɖoɖo" dzɔ nyuie. Esi tsɔ "zero" gɔ̃ hã le eme.
 
-### Teƒe si le seɖoƒemanɔmanɔ (curve la ƒe zero) .
+### Afisi si le mavɔ (curve la ƒe zero)
 
-Xexlẽdzesiwo ƒe ɖoɖo ɖesiaɖe hiã a `0`, nusi metrɔa naneke ne ètsɔe kpee o. Le elliptic curve dzi la, akpa ma nyea teƒe tɔxɛ aɖe si wotsɔ kpe ɖe eŋu si woyɔna be **teƒe si le seɖoƒemanɔsitɔ**, si woŋlɔ `O`. Àte ŋu akpɔe le susu me be enye "didiƒe si seɖoƒe meli na o," teƒe si fli siwo le tsitrenu do go le. Tsɔ kpe ɖe eŋu `O` vaseɖe afi sia afi la, egblẽnɛ ɖi matrɔmatrɔe, abe alesi wòtsɔe kpee ene pɛpɛpɛ `0`.
+Xexlẽ ƒe ɖoɖo ɖe sia ɖe hia `0`, nu si metrɔa naneke o ne nàtsɔe kpe ɖe eŋu. Le elliptic curve dzi la, afisi bubu aɖe si yɔna be **afisi si le mavɔ** nye nu ma, eye woŋlɔna be `O`. Àte ŋu abu be ele "kakaɖedzi le dzi," afi si mɔ verticalwo ƒoa. Ne nàtsɔ `O` akpe ɖe afisi aɖeke ŋu la, ele eƒe nɔnɔ me, abe alesi nàtsɔ `0` akpe ɖe eŋu ene.
 
 ---
 
-## 3. Tso nɔnɔmetatawo dzi va ɖo agble si seɖoƒe li na dzi
+## 3. Tso aworanwo me yi finite field me
 
-Curve si le gbadzaa si le etame lae nye *intuition*. Gake Zcash mezãa xexlẽdzesi ŋutɔŋutɔwo o (wowɔa goglo eye woɖea tsi ƒe lolome, le Se 1 nu). Ezãa elliptic curve **le seɖoƒe aɖe dzi**: equation ma ke `y^2 = x^3 + ax + b`, gake kple akɔntabubuwo katã wowɔ mod a prime.
+Curve bɔbɔ si le etame nye *nufia*. Gake Zcash mezã xexlẽ siwo le gɔmedzenu o (wona woƒe nɔnɔ nɔ trɔtrɔ eye wona nɔnɔ ƒe lolome, abe Nusiŋɔŋlɔ 1 gblɔ ene). Ezã elliptic curve **le finite field me**: equation `y^2 = x^3 + ax + b` ma ke, gake xexlẽ katã wɔna le prime aɖe me.
 
-Ne èwɔe nenema la, fli dzeani la gbãna zua **teƒenɔƒe siwo metso kadodo me o ƒe kaka**, dometsotso ɖeka na wo dometɔ ɖesiaɖe `(x, y)` eve si naa equation mod la dzea eŋu `p`. Edzudzɔa dzedzeme abe ʋuʋudedi ene kura. Gake nu vevitɔe nye esi:
+Ne nàwɔ esia la, curve nyui ma gbã ɖe **dotwo siwo mate ŋu aka ɖe wo nɔewo ŋu o** me, dot ɖeka na `(x, y)` pair ɖe sia ɖe si wɔ equation la le `p` me. Mekpɔa ɖe abe curve gɔ̃ o. Gake esiae nye nu vevi:
 
-> **Cord-and-tangent sea ƒe algebra gakpɔtɔ wɔa dɔ bliboe.** Mɔfiame mawo ke siwo ŋu woke ɖo `P + Q` le geometri nu azɔ tsɔ akɔntabubu si seɖoƒe li na bu akɔntae. Dot-awo gakpɔtɔ wɔa ƒuƒoƒo, eye wosɔ kple wo nɔewo `0` (teƒe si le seɖoƒemanɔmanɔ me).
+> **Chord-and-tangent se la ƒe algebra wɔ dɔ bɔbɔ ɖe edzi hã.** Formula mawo siwo kpɔ `P + Q` le geometric mɔ nu la, azɔ wɔnɛ kple finite-field ƒe xexlẽ. Dotwo ha ɖe sia ɖe hã wɔ group, kple `0` ma ke (afisi si le mavɔ).
 
-Mina míatsɔ kpɔɖeŋu sue aɖe si ŋu woɖo kpee bliboe awɔ esia wòanye nu ŋutɔŋutɔ.
+Míana esia nanye nu si le ete kple kpɔɖeŋu sue si wodzro blibo.
 
-### Curve blibo aɖe, si wobu akɔnta pɛpɛpɛ
+### Curve blibo si wowɔ xexlẽe tututu
 
-Tsɔ `y^2 = x^3 + 2x + 2` le agble si seɖoƒe li na la dzi `F_17`. Ne èbu akɔnta le teƒe ɖesiaɖe si sɔ ŋu la, ana **dzesi 18 pɛpɛpɛ, tsɔ kpe ɖe teƒe si le seɖoƒemanɔsitɔ ŋu = 19 katã.** Wo dometɔ ʋɛ aɖewo:
+Tsɔ `y^2 = x^3 + 2x + 2` le finite field `F_17` me. Ne nèxle afisi siwo katã le eme la, nàkpɔ afisi **18 tututu, kpe ɖe afisi si le mavɔ ŋu = 19 le katã.** Woe dometɔ aɖewo:
 
 ```
 (0,6) (0,11) (3,1) (3,16) (5,1) (5,16) (6,3) (6,14) (7,6) (7,11) ...
 ```
 
-Azɔ tia nya la `G = (5, 1)` eye nàyi edzi anɔ etsɔm kpe ɖe eɖokui ŋu. Kpɔ nusi dzɔna ɖa (wobu fli ɖesiaɖe si le ete, ke menye ɖe wosusui o):
+Azɔ tsɔ afisi `G = (5, 1)` eye nàtsɔe kpe ɖe eŋutɔ ŋu zi geɖe. Kpɔ nu si dzɔa (woxle fli ɖe sia ɖe si le anyi la, wometsɔe ɖo ɖe mɔ aɖeke o):
 
-| Afɔɖeɖe | Nya vevi aɖe | Afɔɖeɖe | Nya vevi aɖe |
+| Afɔ | Afisi | Afɔ | Afisi |
 |---|---|---|---|
 | `1G` | (5, 1) | `11G` | (13, 10) |
 | `2G` | (6, 3) | `12G` | (0, 11) |
@@ -94,136 +94,137 @@ Azɔ tia nya la `G = (5, 1)` eye nàyi edzi anɔ etsɔm kpe ɖe eɖokui ŋu. Kp�
 | `6G` | (16, 13) | `16G` | (10, 11) |
 | `7G` | (0, 6) | `17G` | (6, 14) |
 | `8G` | (13, 7) | `18G` | (5, 16) |
-| `9G` | (7, 6) | `19G` | **O (seɖoƒemanɔsitɔ)** |
+| `9G` | (7, 6) | `19G` | **O (mavɔ)** |
 | `10G` | (7, 11) | | |
 
-Nu eve siwo wòle be míade dzesii:
+Nu eve si wòle be nàkpɔ:
 
-- **eɖia tsa yia teƒe 18 siwo katã seɖoƒe li na eye emegbe wòɖina ɖe edzi `O`** le afɔɖeɖe 19 lia me la, ekema agbugbɔ awɔe tegbee. Afisi wodze egɔme tsoe `G` "dzi" ƒuƒoƒo bliboa, eyata míeyɔe be **generator**.
-- Enye ƒuƒoƒo si ŋu woɖo kpee: le kpɔɖeŋu me `1G + 2G = (5,1) + (6,3) = (10,6)`, si sɔ pɛpɛpɛ `3G`.  Nusi wotsɔ kpe ɖe eŋu la sɔ le ememe, abe alesi ƒuƒoƒo aɖe bia ene.
+- Eƒoa **afisi finite 18 katã dzi eye eɖo `O`** le afɔ 19, ekema woatrɔ awɔe akpɔ ɖe mavɔ me. Afisi si wotsɔ dze egɔme `G` "wɔa" group blibo, eyata míeyɔe be **generator**.
+- Group si wodzro wònye: le kpɔɖeŋu me `1G + 2G = (5,1) + (6,3) = (10,6)`, si nye `3G` tututu. Nukuɖoɖo la me nɔnɔ le eme, abe alesi group hia ene.
 
 ---
 
-## 4. Mɔ̃a ƒe ʋɔtru: scalar dzidziɖedzi
+## 4. Trapdoor: scalar multiplication
 
-Tabla ma ƒe... `1G, 2G, 3G, ...` nye nusianu ƒe dzi. Woyɔa teƒe aɖe tsɔtsɔ kpe ɖe eɖokui ŋu enuenu be **scalar multiplication**: teƒea `kG` gᴐme nye "`G` tsɔ kpe ɖe eɖokui ŋu `k` ɣeyiɣiwo."
+`1G, 2G, 3G, ...` ƒe kplɔ̃ ma nye nu katã ƒe dzi. Afisi aɖe ƒe nukuɖoɖo kple eŋutɔ zi geɖe yɔna be **scalar multiplication**: afisi `kG` gɔme nye "`G` si woɖo eƒe nuku kple eŋutɔ zi `k`."
 
-Fifia akunyawɔwɔa. Bu mɔfiame eve siawo ŋu kpɔ:
+Azɔ nu wɔnuku la. Bu mɔ eve siawo ŋu:
 
-| Mɔfiame | Nyabiase | Sesẽme |
+| Mɔ | Biabia | Kuxi |
 |---|---|---|
-| **Ŋgɔgbewo** | Na `k` kple `G`, akɔntabubu `kG` | **Easy.** Na ɣletiviŋutinunya ƒe gã gɔ̃ hã `k`, ayemɔ aɖe si woyɔna be *double-and-add* ɖoa afima le afɔɖeɖe alafa ʋee aɖewo me |
-| **Megbe** | Na `G` kple `kG`, xɔe gbɔ `k` | **Le nyateƒe me la, manya wɔ o** le cryptographic curve ŋutɔŋutɔ dzi |
+| **Yi ŋgɔ** | Ne woɖe `k` kple `G`, xle `kG` | **Ewɔ bɔbɔ.** Na `k` siwo gã wu nu si ŋkuate ŋu akpɔ hã, mɔ aɖe si yɔna be *double-and-add* wɔe le afɔ alafa aɖewo me |
+| **Yi megbe** | Ne woɖe `G` kple `kG`, kpɔ `k` | **Womate ŋu awɔe le nyateƒe me o** le cryptographic curve vavã aɖe dzi |
 
-Asymmetry ma nye **mɔ ɖeka dzi** si míehiã le Akpa 1. Megbe ƒe kuxia ("si." `k` produced this point?") woyɔna be **Elliptic Curve Discrete Logarithm Problem (ECDLP)**, eye le curve siwo Zcash zãna dzi la, mɔnu aɖeke si wonya mekpɔ egbɔ hafi xexeame katã ƒe dzoxɔxɔ ku o.
+Mɔ eve ma ƒe vovototoe nye **mɔ si dzi wòate ŋu ayi ɖe ŋgɔ ko** si míehia le Akpa 1 me. Problem si le megbe ("`k` kae wɔ afisi sia?") yɔna be **Elliptic Curve Discrete Logarithm Problem (ECDLP)**, eye le curvewo si Zcash zã la dzi, mɔ aɖeke si wòanya fifia mate ŋu awɔe hafi xexlẽgbegbe ƒe tsitotsito aɖo nuwuwu o.
 
-![alt nuŋɔŋlɔ](/content-images/image-12-86b9ace6cb.webp)
+![alt text](/content-images/image-12-86b9ace6cb.webp)
 
-> Le míaƒe fefenu me `F_17` curve si *ate ŋu* axlẽ ko `k` le kplɔ̃a dzi, elabena dzesi 19 koe le esi. Curves ŋutɔŋutɔwo le ƒo xlãe `2^(255)` nya veviwo. Fli geɖe anɔ kplɔ̃a ŋu wu atɔm siwo le xexeame, eyata "exlẽe ɖa" menye tiatia o. Suenyenyee nye nusi na fefenu ƒe ʋuʋudedi la te ŋu fiaa nu eye wòganye nusitae mele dedie o.
+> Le míatɔ toy `F_17` curve la dzi, àte ŋu axle `k` tso kplɔ̃ la me pɛ, elabena afisi 19 koe le eme. Curve vavãwo ƒe afisiwo sɔ abe `2^(255)` ene. Kplɔ̃ la ƒe fliwo asɔ wu atom siwo le xexlẽgbegbe me, eyata "xexlee tso kplɔ̃ me" menye mɔ aɖeke o. Eƒe sueŋue wɔa be toy curve la nɔa bɔbɔ na nufia eye eya ke hã tae menye dedie o.
 
 ---
 
-## 5. Alesi wodzia safuiwoe (fetu si wokpɔna) .
+## 5. Ale si safuiwo doa (nu si wòakpɔ le egbe)
 
-Nusianu si hiã be míatsɔ aɖe nya ɣaɣlawo ƒe safui ŋutɔŋutɔ me la le mía si fifia, eye ele bɔbɔe nukutɔe:
+Azɔ míexɔ nu siwo katã míehia be míagblɔ cryptographic safui vavã aɖe ŋu, eye wòle bɔbɔ vevie:
 
-> **Tia xexlẽdzesi ɣaɣla aɖe `k`. Ta nya la `kG`. Emae nye ema.**
-> `k` nye wò **ame ŋutɔ ƒe safui**. `kG` nye wò **dutoƒo safui**. Mɔ ɖeka dzi (ECDLP) ka ɖe edzi be ame aɖeke mate ŋu aƒu du o `kG` trɔ yi `k`.
+> **Tia xexlẽ ɣaɣla `k`. Ɖe afisi `kG` fia na amewo. Ema ko.**
+> `k` nye wò **safui ɣaɣla**. `kG` nye wò **safui si le duto ƒe ŋkume**. Mɔ si dzi wòate ŋu ayi ɖe ŋgɔ ko (ECDLP) naa dedie be ame aɖeke mate ŋu atrɔ `kG` yi `k` gbɔ o.
 
-Susu ɖeka sia, *dutoƒo safui nye adzame scalar zi gbɔ zi generator si woɖo ɖi*, nye Zcash ƒe gazazã safuiwo, kpɔkpɔ safuiwo, kple adrɛswo ƒe nuku. Ati vevi bliboa ƒoa xɔtunu geɖe wu ɖe etame, gake alɔ ɖesiaɖe tsina tso ke sia me.
+Susume ɖeka sia, *safui si le duto ƒe ŋkume nye scalar ɣaɣla aɖe si woɖo nuku kple generator fixed aɖe*, nye Zcash ƒe gazazãsafuiwo, nukpɔsafuiwo, kple gaɖoƒe ƒe dzesiwo ƒe ɖɔ. Safui ƒe ati blibo tsɔ ɖoɖo geɖe kpe ɖe eŋu, gake ƒe ɖe sia ɖe tso agbagba sia me doa.
 
-### Bonus: nusita curve points doa ŋugbe deblibowo
+### Bonus: Nu ka tae curve ƒe afisiwo nyo na adzɔgbeɖeɖewo
 
-Ðo ŋku "nutrenu kotoku" (ɖokuitsɔtsɔna) si tso Se 0 lia me, si wòle be **ɣla** emenyawo gake **womate ŋu awɔ aʋatso o**. Elliptic curves naa mɔnu dzadzɛ aɖe mí be míatu ɖeka. Tsɔ elektrikŋusẽnamɔ̃ eve siwo woɖo ɖi, siwo le dutoƒo `G` kple `H`, si nye asixɔxɔ ɣaɣla aɖe `v`, kple xexlẽdzesi si gbãa ŋku le vome `r`, kple nɔnɔme:
+Ðo ŋku "agbalẽkuku si wodze" (adzɔgbeɖeɖe) tso Nusiŋɔŋlɔ 0 me ŋu, si wòle be wòaɖe eƒe nuwo ɣla gake womate ŋu aɖɔe o. Elliptic curves naa mɔ dzɔdzɔe mí be míatu esia. Tsɔ generator ƒe afisi public eve fixed `G` kple `H`, asixɔxɔ ɣaɣla `v`, kple xexlẽ random si ɖe nu ɣla `r`, eye nàwɔ:
 
 ```
 Commitment  =  v.G  +  r.H
 ```
 
-Esia nye **Pedersen ƒe ɖokuitsɔtsɔna**, eye nunɔamesi eve siwo míedi la le esi:
+Esia nye **Pedersen adzɔgbeɖeɖe**, eye nu siwo míedia eve le eŋu:
 
-- **Ɣla:** nusi wowɔ le vome `r` tsɔa nusi do tso eme la ƒua gbe ɖe fli bliboa dzi, eyata nya la meɖea naneke fiana tso eŋu o `v`.
-- **Binding:** ECDLP la na be manya wɔ be woake ɖe *to vovo* ŋu o. `(v, r)` nya ma ke gbɔgblɔ, ale be màte ŋu atrɔ susu le nusi nètsɔ ɖokuiwò na ŋu o.
+- **Ɣaɣlatsi:** `r` random la ɖe result la ɖe curve blibo dzi, eyata afisi la megblɔ naneke tso `v` ŋu o.
+- **Blibodede:** ECDLP naa be womate ŋu akpɔ `(v, r)` bubu si ana afisi ma ke o, eyata màte ŋu atrɔ wò susu tso nu si nèɖe asi ɖo la ŋu o.
 
-Bonus nunɔamesi aɖe va zua nusi ŋu asixɔxɔ gã aɖe le emegbe: ŋugbedodo siawo **tsɔ wo kpe ɖe eŋu**. Ðokuitsɔtsɔna be... `v_1` tsɔ kpe ɖe ɖokuitsɔtsɔna be `v_2` nye adzɔgbeɖeɖe si sɔ be `v_1 + v_2`. "Homomorphic" nuwɔna ma nye alesi Zcash aɖo kpe edzi emegbe be ga si yi *yi* asitsatsa aɖe me sɔ kple ga si dona *do*, evɔ maɖe ga home aɖeke afia o. Míatsɔ ga awɔ ema le Se 6 lia lɔƒo.
+Bonus ƒe nɔnɔ aɖe doa le eme si me ga sɔ kple nu vavã le megbe: adzɔgbeɖeɖewo **ɖoa nuku**. Adzɔgbeɖeɖe na `v_1` kple adzɔgbeɖeɖe na `v_2` ƒe nukuɖoɖo nye adzɔgbeɖeɖe si sɔ na `v_1 + v_2`. Nɔnɔ "homomorphic" siae nye ale si Zcash aɖe ɖase le megbe be ga si yina *ge ɖe* gaɖoɖo aɖe me sɔ kple ga si yina *doa goe*, togbɔ be womaɖe ga ƒe home aɖeke fia o. Míazãe le Nusiŋɔŋlɔ 6 gbɔ.
 
 ---
 
-## 6. Afisi esia le le Zcash
+## 6. Afi si esia le le Zcash
 
-Asibidɛawo nye kɔnkrit eye woate ŋu alé ŋku ɖe wo ŋu.
+Eƒe dzesiwo le ete eye wòate ŋu adzro wo.
 
-| Zcash ƒe nɔnɔme | Curves siwo wòzãna | Akpa si wòwɔna |
+| Zcash ƒe ɖoɖo | Curvewo si ezã | Dɔ |
 |---|---|---|
-| **Sapling** (xoxotɔ) | **BLS12-381** kpe ɖe curve si wotsɔ de eme si woyɔna be **Jubjub** ŋu | BLS12-381 tsɔa kpeɖodziɖoɖoa; Wotu Jubjub ɖe BLS12-381's scalar field dzi ale be safui kple ɖokuitsɔtsɔna dɔwɔwɔwo naxɔ asi be woawɔ *le* zero-sidzedze kpeɖodzi |
-| **Atikutsetsebɔ** (fifia) | **Pallas** kple **Vesta** ("Pasta" ƒe tsatsam) | Pallas tsɔa Orchard ƒe safuiwo kple adzɔgbeɖeɖewo; wowɔ ɖoɖo ɖe Pallas/Vesta ƒe ƒoƒo ɖekae ŋu etɔxɛe be kpeɖodzi deŋgɔwo nawɔ dɔ nyuie |
+| **Sapling** (xoxoa) | **BLS12-381** kple curve si woɖe ɖe eme si yɔna be **Jubjub** | BLS12-381 tsɔ ɖaseɖigbalɛ ƒe ɖoɖo la; Jubjub le BLS12-381 ƒe scalar field dzi, ale be safui kple adzɔgbeɖeɖe ƒe dɔwɔwɔwo asɔ gbɔ le zero-knowledge ɖaseɖigbalɛ aɖe me |
+| **Orchard** (fifia) | **Pallas** kple **Vesta** (the "Pasta" cycle) | Pallas tsɔ Orchard ƒe safuiwo kple adzɔgbeɖeɖewo; Pallas/Vesta ƒe kadodo ƒe ɖoɖo wònye tɔxɛ be advanced ɖaseɖigbalɛwo nanɔ dɔ wɔm nyuie |
 
-Susu siwo tae ʋuʋudedi ɖeka "gena ɖe" bubu ƒe agble me, kple nusitae *tsatsa* si me ʋuʋudedi eve le la ɖea vi, nye nu ŋutɔŋutɔwo eye wole vevie, gake wole kpeɖodzi-ɖoɖo ƒe nyatiwo me. Fifia la, takeaway la sesẽ: **Zcash safui ɖesiaɖe nye scalar zi gbɔ zi generator, eye Zcash ƒe ɖokuitsɔtsɔna ɖesiaɖe nye curve points ƒe ƒuƒoƒo**, si nɔa agbe ɖe curve siawo siwo ŋkɔ wo dometɔ ɖeka dzi.
+Nya siwo tae woɖea curve aɖe ɖe bubu ƒe field me, kple nu ka tae *cycle* ƒe curve eve hiã, nye nyateƒe siwo le vevi, gake wole ɖaseɖigbalɛ ƒe ɖoɖo ƒe nusiŋɔŋlɔwo me. Fifi la, nusi si wòle be nàxɔ la sesẽ: **Zcash ƒe safui ɖe sia ɖe nye scalar aɖe si woɖo nuku kple generator aɖe, eye Zcash ƒe adzɔgbeɖeɖe ɖe sia ɖe nye curve ƒe afisiwo ƒe nukuɖoɖo**, siwo le curve siwo wɔ woƒe ŋkɔ le afisia dzi.
 
-![alt nuŋɔŋlɔ](/content-images/image-13-ffdd703c60.webp)
-
----
-
-## 7. Nya aɖe si wogblɔna be yeaɖe asi le nyaa ŋu anukwaretɔe
-
-Nu ʋɛ aɖewo siwo wowɔ wòle bɔbɔe na esia na wote ŋu xlẽa esia. Míezã **Weierstrass kpui** ƒe nɔnɔme (`y^2 = x^3 + ax + b`); Zi geɖe la, woŋlɔa Zcash ƒe ʋuʋudediwo ɖe nɔnɔme bubu siwo sɔ me (Jubjub nye *Edwards* ʋuʋudedi si wotro) si wotia hena dɔwɔwɔ nyuie kple dedienɔnɔ, gake ƒuƒoƒo ƒe susua sɔ. Míeɖe point-addition formulas tututu gɔme o (wonye algebraic version of "third intersection, then reflect"), eye míeɖe subtleties abe curve order, cofactors, kple "pairings," siwo va zua nu veviwo le proof-system nyatiwo me la ɖe vovo. Esiawo dometɔ aɖeke metrɔa nusi wokpɔna le susu me o; eƒonɛ ɖe enu.
+![alt text](/content-images/image-13-ffdd703c60.webp)
 
 ---
 
-## 8. Kpuie ko la
+## 7. Nyateƒe ƒe nyagblɔɖi
 
-- Adzamenyawo gbɔ kpɔkpɔ ƒe ɖoɖo hiã **mɔ ɖeka dzi**: yi ŋgɔ bɔbɔe, megbedede si mate ŋu adzɔ o. Elliptic curves naa ɖeka.
-- **elliptic curve** nye teƒe siwo woɖo ɖi siwo naa dzidzeme ame `y^2 = x^3 + ax + b`, eye woateŋu **atsɔ eƒe teƒewo akpe ɖe eŋu** to geometric **chord-and-tangent** sea dzi, eye **teƒe tɔxɛ aɖe si le seɖoƒemanɔmanɔ** awɔ dɔ abe zero ene.
-- Le **agble si seɖoƒe li na** dzi la, fli la zua dometsotsowo ƒe kaka, gake kpeɖeŋutɔ ma ke gakpɔtɔ wɔa dɔ eye teƒeawo wɔa **ƒuƒoƒo**. (Kpɔɖeŋu si ŋu woɖo kpee: `y^2 = x^3 + 2x + 2` to eta `F_17` ƒe dzesi 19 le esi, eye `G = (5,1)` dzia wo katã.)
-- **Scalar ƒe dzidziɖedzi** `kG` akɔntabubu le bɔbɔe gake manya wɔ be woatrɔe o: **ECDLP** la. Emae nye mɔ̃a ƒe ʋɔtrua.
-- **Safuiwo:** ame ŋutɔ ƒe safui `k`, dutoƒo safui `kG`. **Adzɔgbeɖeɖewo:** Pedersen ƒe agbalẽvi `v.G + r.H`, si ɣlaa, blaa nu, eye wòsɔna **tsɔ kpe ɖe eŋu**.
-- Le **Zcash** me la, Sapling zãa **BLS12-381 + Jubjub** eye Orchard zãa **Pallas/Vesta (Pasta)** ƒe ʋuʋudediwo; safui ɖesiaɖe kple ɖokuitsɔtsɔna nɔa agbe ɖe esiawo dzi.
+Míeɖe nusiwo kpe ɖe agbalẽ sia ƒe bɔbɔŋu ŋu ɖe te. Míezã **short Weierstrass** form (`y^2 = x^3 + ax + b`); Zcash ƒe curvewo woŋlɔa wo zi geɖe le form bubu siwo sɔ kple eme (Jubjub nye *twisted Edwards* curve) si woatia na dɔwɔwɔ nyui kple dedie, gake group ƒe susu la ke tututu wònye. Míemede afisiwo ƒe nukuɖoɖo ƒe formula tututu gɔme o (wɔe le algebra ƒe mɔ nu nye "ƒome etɔ̃, ekema trɔ"), eye míeɖe nu siwo le curve ƒe order, cofactors, kple "pairings" ŋu ɖe te, siwo zu vevi le ɖaseɖigbalɛ ƒe ɖoɖo ƒe nusiŋɔŋlɔwo me. Esia katã metrɔ nufia la o; ewɔe nyuie wu.
 
 ---
 
-## Nyagɔmeɖegbalẽ
+## 8. Nudzodzro
 
-| Nyagbe | Plain-Eŋlisigbe me gɔmesese |
+- Ɣaɣla ƒe ɖoɖo hia **mɔ si dzi wòate ŋu ayi ɖe ŋgɔ ko**: wòbɔbɔ be wòawɔe yi ŋgɔ, gake megatrɔ gbɔ sesẽ. Elliptic curves naa esia.
+- **Elliptic curve** nye afisiwo siwo wɔ `y^2 = x^3 + ax + b` ƒe ha, eye wòate ŋu **aɖo wo nuku** to geometric **chord-and-tangent** se la dzi, kple **afisi si le mavɔ** aɖe si wɔa zero ƒe dɔ.
+- Le **finite field** me la, curve la zu dotwo siwo ka ɖe wo nɔewo ŋu o, gake nukuɖoɖo ma ke wɔa dɔ eye afisiwo wɔa **group**. (Kpɔɖeŋu si wodzro: `y^2 = x^3 + 2x + 2` le `F_17` me ƒe afisi 19 le eme, eye `G = (5,1)` wɔ wo katã.)
+- **Scalar multiplication** `kG` wòbɔbɔ be woaxle, gake megatrɔ gbɔ sesẽ: **ECDLP**. Emae nye trapdoor.
+- **Safuiwo:** safui ɣaɣla `k`, safui si le duto ƒe ŋkume `kG`. **Adzɔgbeɖeɖewo:** Pedersen ƒe form `v.G + r.H`, si ɖea nu ɣla, dea asi ɖe eŋu, eye wòate ŋu **aɖo nuku**.
+- Le **Zcash** me, Sapling zã **BLS12-381 + Jubjub** eye Orchard zã **Pallas/Vesta (Pasta)** curvewo; safui kple adzɔgbeɖeɖe ɖe sia ɖe le wo dzi.
+
+---
+
+## Nyawo ƒe gɔmedzedze
+
+| Nyagbe | Gɔme si le Eŋlisigbe bɔbɔ me |
 |---|---|
-| **Elliptic curve** | Nya siwo naa dzidzeme ame `y^2 = x^3 + ax + b`, kple "tsɔtsɔ kpe ɖe" nya veviwo ŋu tɔxɛ aɖe |
-| **Point addition** | Chord-and-tangent ƒe se: fli to teƒe eve, xɔ etɔ̃lia ƒoƒo, ɖe |
-| **Point at infinity (`O`)** | Curve la ƒe "zero"; etsɔtsɔ kpee metrɔa naneke o |
-| **Generator (`G`)** | Gɔmeɖoanyi si ƒe xexlẽdzesiwo xɔa ƒuƒoƒo bliboa mlɔeba |
-| **Scalar multiplication (`kG`)** | Tsɔ kpe ɖe eŋu `G` na eɖokui `k` ɣeyiɣiwo; ŋgɔgbe bɔbɔe, megbedede sesẽ |
-| **ECDLP** | Kuxi sesẽ si nye hayahaya `k` tso `kG`; dedienɔnɔ ƒe gɔmeɖoanyia |
-| **Pedersen commitment** | `v.G + r.H`; agbalẽkotoku si wotu nu ɖo si ɣlaa, blaa nu, eye wòtsɔa |
+| **Elliptic curve** | Afisiwo siwo wɔ `y^2 = x^3 + ax + b`, kple afisiwo ƒe "nukuɖoɖo" tɔxɛ aɖe |
+| **Afisiwo ƒe nukuɖoɖo** | Chord-and-tangent se: mɔ to afisi eve me, tsɔ afisi etɔ̃ si wòƒo la, trɔe |
+| **Afisi si le mavɔ (`O`)** | Curve la ƒe "zero"; ne nàtsɔe akpe ɖe nu aɖe ŋu la metrɔa naneke o |
+| **Generator (`G`)** | Afisi gɔmedzedze aɖe si eƒe multipleswo tsɔa ɖe group blibo dzi le megbe |
+| **Scalar multiplication (`kG`)** | `G` ƒe nukuɖoɖo kple eŋutɔ zi `k`; wòbɔbɔ be woawɔe yi ŋgɔ, gake megatrɔ gbɔ sesẽ |
+| **ECDLP** | Problem sesẽ si nye be woakpɔ `k` tso `kG` me; dedie ƒe fɔɖoƒe |
+| **Pedersen adzɔgbeɖeɖe** | `v.G + r.H`; agbalẽkuku si wodze, si ɖea nu ɣla, dea asi ɖe eŋu, eye wòate ŋu aɖo nuku |
 
 ---
 
-## Nyabiasewo ƒe Nyabiasewo
+## Biabia siwo wobia zi geɖe
 
-**Nukatae curves le esi teƒe be xexlẽdzesi gãwo ko mod a prime?**
-Wo ame evea siaa ate ŋu ana mɔ ɖeka, gake elliptic curves kpɔa dedienɔnɔ ɖeka ma ke gbɔ ne safui siwo le sue wu sã eye wowɔa dɔ kabakaba wu, eye woƒe point arithmetic sɔ nyuie na ɖokuitsɔtsɔna.
+**Nu ka tae curvewo le enu, ɣe menye xexlẽ gãwo ko le prime aɖe me o?**
+Wo evea katã ate ŋu ana mɔ si dzi wòate ŋu ayi ɖe ŋgɔ ko, gake elliptic curves na dedie ma ke kple safui siwo sue akpa aɖe, dɔwɔwɔ kabakaba, eye woƒe afisi ƒe xexlẽ nyo na adzɔgbeɖeɖewo.
 
-**Ðe woɖo kpe edzi be ECDLP sesẽa?**
-Menye *woɖo kpe edzi* be manya wɔ o, gake agbagbadzedze vevie ƒe bla nanewo mekpɔ amedzidzedze nyui aɖeke ɖe fli siwo wotia nyuie ŋu o. Dedienɔnɔ nɔ te ɖe susu ma si wodo kpɔ nyuie dzi.
+**Wode ɖase be ECDLP sesẽa?**
+Womede ɖase be womate ŋu awɔe o, gake ƒe ewo ƒe dɔkpekpe sesẽ la me, womate kpɔ attack si wɔa dɔ nyuie ɖe curve siwo wotia nyuie la dzi o. Dedie la ɖo ɖe susu ma si wodzro nyuie la dzi.
 
-**Ðe quantum kɔmpiuta ate ŋu agbã esia?**
-Quantum kɔmpiuta si lolo ale gbegbe ate ŋu agbã ECDLP la. Ema nye nusi wonya be enye nusi ŋu wotsi dzi ɖo ɣeyiɣi didi le dɔwɔƒea katã eye wònye numekuku ƒe akpa si le dɔ dzi vevie; egbegbe ʋuƒoawo gakpɔtɔ le dedie le kɔmpiuta xoxowo ŋu.
+**Quantum computer aɖe ate ŋu agbãe?**
+Quantum computer si gã ɖe ema ŋu ate ŋu agbã ECDLP. Esia nye nusi ƒe fifi hã wokpɔa ɖe eme le gbedoxɔme le industry blibo me eye wole research ƒe dɔwɔƒe; curve siwo le egbe la le dedie ɖe classical computerwo ŋu.
 
-**Nukatae Zcash zãa curve siwo wu ɖeka?**
-Dɔ vovovowo wɔwɔ. Kplɔ̃ ɖeka tsɔa sidzedze zero ƒe kpeɖodzi ƒe ɖoɖoa; bubu (si wotsɔ de gbãtɔa ƒe agble me) na be safui si le kpeɖodzi me kple ɖokuitsɔtsɔna ƒe dɔwɔwɔwo wɔa dɔ nyuie. Nyati siwo kplɔe ɖo ɖe nusita atsu kple asi ma le vevie la me.
+**Nu ka tae Zcash zã curve geɖe?**
+Dɔwo vovo. Curve aɖe tsɔ zero-knowledge ɖaseɖigbalɛ ƒe ɖoɖo; bubu (si woɖe ɖe first ƒe field me) wɔna be safui kple adzɔgbeɖeɖe ƒe dɔwɔwɔwo le ɖaseɖigbalɛ me nanɔ dɔ wɔm nyuie. Nusiŋɔŋlɔ siwo kplɔe ɖo la aɖe gbe na nu ka tae kadodo ma le vevi.
 
 ---
 
-### Do wò susuŋudɔwɔwɔ kpɔ
+### Dzro wò nufia me
 
-Ne èzã kplɔ̃ si ŋu woɖo kpee le Akpa 3 lia me la, nusi nye `9G + 10G` le míaƒe fefenu ƒe ʋuƒoa dzia? Eye nuka ŋue ŋuɖoɖoa gblɔ na wò `G`? *(Ðo eŋu le ete.)*
+Ne nàzã kplɔ̃ si wodzro le Akpa 3 me, nu kae nye `9G + 10G` le míatɔ toy curve la dzi? Eye nu kae ɖoɖo la gblɔ na wò tso `G` ŋu? *(Ɖoɖo la le anyi.)*
 
-<details><summary>Answer</summary>
+<details><summary>Ɖoɖo</summary>
 
-`9 + 10 = 19`, eye míekpɔe nenema `19G = O`, si nye teƒe si le seɖoƒemanɔmanɔ me. Eyata `9G + 10G = O`. Esia fia be `10G` nye **negative** (additive inverse) ƒe `9G`: teƒe eve siwo kpena ɖe "zero" teƒea ŋu. Le fli dzi la, teƒe aɖe ƒe negative nye eƒe ahuhɔ̃e me nɔnɔmetata ko le x-axis la dzi, eye le nyateƒe me `9G = (7,6)` kple `10G = (7,11)` ma nu ɖeka ma ke `x` eye wòkpɔe `y`-asixɔxɔ siwo ƒo ƒu ɖe `17 = 0 (mod 17)`. Dɔwɔɖoɖoa sɔ pɛpɛpɛ, si nye nusi tututu "enye ƒuƒoƒo" ka ɖe edzi.
+`9 + 10 = 19`, eye míekpɔ be `19G = O`, afisi si le mavɔ. Eyata `9G + 10G = O`. Esia fia be `10G` nye `9G` ƒe **negative** (additive inverse): afisi eve siwo ƒe nukuɖoɖo na "zero" ƒe afisi. Le curve aɖe dzi la, afisi ƒe negative nye eƒe aworan si wotrɔ yi x-axis ƒe akpa bubu ko, eye vavã `9G = (7,6)` kple `10G = (7,11)` ƒe `x` ma ke le eye woƒe `y`-valueswo ƒe nuku sɔ `17 = 0 (mod 17)`. Ɖoɖo la ƒe nɔnɔ le eme bliboe, si nye nu tututu si "enye group" gblɔna be wana.
+
 </details>
 
 ---
 
-### Nukae kplɔe ɖo
+### Nu si kplɔe ɖo
 
-**Nyati 3 lia . Hashing kple ŋugbedodowo:** míaʋu "magic sealed envelope" la nyuie. Fifia èkpɔ mɔ ɖeka si dzi nàto atu ɖokuitsɔtsɔna ɖo tso teƒe siwo woƒo xlãe; emegbe míebiaa nusi ɣla kple babla fia ŋutɔŋutɔ, doa go hash dɔwɔwɔwo, eye míetsɔa evea siaa doa ka kple nuŋlɔɖi ƒe ŋugbedodo siwo léa Zcash ƒe fexexe ɖesiaɖe ɖe te.
+**Nusiŋɔŋlɔ 3 . Hashing kple adzɔgbeɖeɖewo:** míaʋu "magic sealed envelope" la me nyuie. Azɔ nèkpɔ mɔ ɖeka si dzi woate ŋu atsa adzɔgbeɖeɖe to curve ƒe afisiwo dzi; si kplɔe ɖo la, míabia nu si ɣaɣlatsi kple blibodede gɔme vavã nye, míakpɔ hash functions, eye míakpe wo evea ɖe didienu ƒe adzɔgbeɖeɖewo siwo doa ɖe Zcash fexexe ɖe sia ɖe ŋu.
 
-*Zcash ƒe akpa aɖe tso Gɔmeɖose Gbãtɔwo *series na [ZecHub](https://zechub.org). CC BY-SA 4.0 si ŋu mɔɖegbalẽ le.*
+*Le* Zcash tso Gɔmedzedze ƒe Gɔme *ƒe ƒome me na [ZecHub](https://zechub.org). Licensed CC BY-SA 4.0.*

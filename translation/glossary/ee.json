@@ -1,6 +1,6 @@
 {
   "locale": "ee",
-  "version": 1,
+  "version": 2,
   "meta": {
     "language_name": "Ewe",
     "native_name": "Eʋegbe",
@@ -26,7 +26,10 @@
     "numerals": "western",
     "decimal_separator": ".",
     "quotes": "straight double quotes \"…\"",
-    "abbreviations_with_full_stop": []
+    "abbreviations_with_full_stop": [],
+    "writing_rules": [
+      "Never put English in brackets inside a Markdown link label: [Ewe text](url) is correct, [Ewe text [English]](url) is wrong and breaks the link."
+    ]
   },
   "terms": {
     "wallet": {
@@ -974,6 +977,13 @@
       ],
       "phrases": [],
       "summary": "Imported all 62 terms from the Ewe glossary review kit (glossary-review-ee.md). Reviewer: starlabman (Laboré). 60 terms translated into Ewe; 2 kept in English (zero-knowledge, token)."
+    },
+    {
+      "version": 2,
+      "date": "2026-11-08",
+      "terms": [],
+      "phrases": [],
+      "summary": "Add writing rule: no English brackets inside Markdown link labels (fixes 19 malformed-link failures)."
     }
   ]
 }

@@ -1,109 +1,109 @@
-# Zero to Zero Knowledge: Amewuwu ƒe Nɔnɔme Siwo Dzi Woka Ðo (TEEs) .
+# Zero to Zero Knowledge: Woate Ŋu Ɖe Dɔwɔƒewo (TEEs)
 
 **Series:** Zero to Zero Knowledge
 
-Zero to Zero Knowledge trɔ gbɔ kple nyati yeye aɖe! 
-Kwasiɖa sia me la, míedzro **Trusted Execution Environments (TEEs)** - alesi wozãa wo le adzame gakuwo kple blockchain dɔ bubuwo me.
+Zero to Zero Knowledge trɔ gbɔ kple nya yeye!  
+Kɔsiɖa sia me míele **Woate Ŋu Ɖe Dɔwɔƒewo (TEEs)** dzrom - ale si woazã wo le ɣaɣla gaɖeawo kple gaɖoɖowo ƒuƒoƒo ƒe ɖoɖonu [blockchain] ƒe dɔwɔwɔ bubuwo me.
 
-![Amewuwu ƒe Nɔnɔme siwo dzi Woka ɖo intro](/content-images/Fquj-h2WcAIgSnL-b80c8614cd.webp)
-
----
-
-## TEEs kple Blockchains: Nusiwo Kpena Ðe Wo Nɔewo Ŋu
-
-Blockchains kple TEEs ƒe ŋusẽwo kpena ɖe wo nɔewo ŋu ŋutɔ:
-
-- **Blockchains** ka ɖe edzi be ele, dukɔa ƒe kutrikuku, eye wòɖea mɔ na dutoƒo ƒe kpeɖodzinana le dukɔ bliboa ŋu - gake akɔntabubu ƒe ŋusẽ seɖoƒe li na wo. 
-- **TEEs** ateŋu awɔ akɔntabubudɔ sesẽwo le adzame - gake native state persistence mele wo si o.
-
-Woate ŋu awɔ ɖoɖo sẽŋu siwo akpɔ ame ŋutɔ ƒe nyatakakawo ta.
+![Trusted Execution Environments intro](/content-images/Fquj-h2WcAIgSnL-b80c8614cd.webp)
 
 ---
 
-## Adzame Nyatakakadzraɖoƒe: TEE-Powered Privacy
+## TEEs kple Gaɖoɖowo Ƒuƒoƒowo: Nɔnɔme Siwo Ɖo Ŋu Ɖe Ŋunye
 
-**Secret Network** zãa TEE mɔ̃ɖaŋununya (vevietɔ Intel SGX) tsɔ wɔa akɔntabubu le nya ɣaɣlawo tsɔtsɔ de eme, nusiwo dona, kple nɔnɔme dzi.
+Gaɖoɖowo ƒuƒoƒowo kple TEEs ƒe ŋusẽwo ƒo ɖe wo nɔewo ŋu ŋutɔ:
 
-Validator node ɖesiaɖe zãa Intel SGX chips. Woƒo nusiwo dzi woda asi ɖo kple akɔntabubu ƒe ƒuƒoƒoawo nu ƒu:
+- **Gaɖoɖowo ƒuƒoƒowo** doa ŋugbe be nuwo anɔ anyi, nɔnɔme nanɔ yi, eye wòate ŋu akpɔ nɔnɔme blibo la katã ƒe kpekpeɖeŋu le amewo katã ŋkume - ke woƒe akɔnta ƒe ŋusẽ megbɔ o.  
+- **TEEs** ate ŋu awɔ akɔnta ƒe dɔ sesẽwo le ɣaɣla me - ke nɔnɔme si anɔ yi le wo me le dzidzime o.
 
-- Wowɔa asitsatsa ŋudɔ le nuto siwo le dedie me. 
-- Woɖea nyatakakawo ɖa **le TEE la me** ko.
+Ne woƒo ƒu la, woate ŋu awɔ ɣaɣla-sesĩe ƒe ɖoɖowo siwo ƒe ŋusẽ le ŋutɔ.
 
-Esia to vovo na Zcash, si zãa **sidzedze zero-kpeɖodzi** hena ame ŋutɔ ƒe nyawo tsɔtsɔ aɣla. Le Zcash me la, woɖea gbeƒã adzɔnuwɔna siwo wokpɔ ta na eye woɖoa kpe wo dzi le dutoƒo eye womeɖea nyatakaka bubu aɖeke fiana na network la o. Zcash Shielded Assets hã zɔna ɖe gɔmeɖose ma ke dzi.
+---
 
-![Network TEE ƒe nɔnɔmetata ɣaɣla](/content-images/FqulPjNX0AEfjRp-c7085732a2.webp)
+## Secret Network: TEE-Ɖe Ŋusẽ Na Ɣaɣla
 
-Ne èdi numeɖeɖe tsitotsito tso alesi wowɔa TEEwo ŋudɔ le Secret Network dzi ŋu la, xlẽ nyati nyui sia si @l_woetzel ŋlɔ: 
+**Secret Network** zã TEE mɔ̃ (vevie Intel SGX) be wòawɔ akɔnta le nu siwo woŋlɔ ɣaɣla kple ɣaɣlaŋlɔŋlɔ [encryption] me, nu siwo doa go, kple nɔnɔme ŋu.
+
+Validator ɣaɣla dzesi ŋɔŋlɔ [node] sia sia wɔa dɔ kple Intel SGX chips. Woƒo gbegbɔgblɔ ɖi [consensus] kple akɔnta ƒe papa ɖeka:
+
+- Woaɖe gaɖoɖowo [transactions] le enclave siwo le dedie me.  
+- Woaɖe ɣaɣlaŋlɔŋlɔ le **TEE me ko**.
+
+Esia to vovo na Zcash, si zã **zero-knowledge ɖaseɖigbalɛwo [proofs]** na ɣaɣla. Le Zcash me la, woɖea ɣaɣla gaɖoɖowo ɖe go eye wole kpekpeɖeŋu wɔm le amewo katã ŋkume, eye data bubu aɖeke meɖea fia network la o. Zcash Shielded Assets wɔa ɖe gɔme sia ke dzi.
+
+![Secret Network TEE diagram](/content-images/FqulPjNX0AEfjRp-c7085732a2.webp)
+
+Ne nàdi be yeanya ale si woawɔ TEEs le Secret Network dzi ƒe numeɖeɖe blibo la, xlẽ nyatakaka nyui sia si @l_woetzel ŋlɔ:  
 https://carter-woetzel.medium.com/secret-network-tees-lets-talk-fud-vulnerability-33ca94b6df38
 
 ---
 
-## Alesi Secret Network Dea Safuiwo Kple Dukɔa Ta
+## Ale Si Secret Network Lea Keys Kple Nɔnɔme Ɖe Asi
 
-- Wodzraa network la ƒe **consensus encryption seed** ɖo ɖe validator ɖesiaɖe ƒe TEE me. 
-- Nubablawo zãa nya ɣaɣlawo ƒe safui tɔxɛ siwo womate ŋu aŋlɔ o. 
-- Adzame nubablawo zɔna le Cosmos SDK akɔntabubu module gake doa alɔ encrypted inputs/outputs kple nɔnɔme.
-
----
-
-## Adzɔge Ðaseɖiɖi
-
-**Adzɔge Ðaseɖiɖi** nye ɖoɖo si wowɔna tsɔ ɖoa ​​kpe edzi be enclave le dɔ wɔm le hardware nɔnɔme vavãtɔ si le dedie me.
-
-Enaa mɔnukpɔkpɔ ame aɖe si le didiƒe be wòaɖo kpe edzi be:
-- Dɔdamɔnu si sɔ la le dɔ wɔm 
-- Wometrɔ asi le dɔbiagbalẽvia ŋu o 
-- Ele dɔ wɔm dedie le Intel SGX enclave me
-
-![Adzɔge Ðaseɖiɖi ƒe numeɖeɖe](/content-images/FqumRjoWwAAeT-M-6eff73af4d.webp)
-
-Ame ŋutɔ ƒe asidede agbalẽ te kple ɖaseɖiɖi ƒe safui siwo womate ŋu akpɔ tso egodo o hã le enclaves me.
-
-![Enclave safui takpɔkpɔ](/content-images/Fqumv83XoAQq-MO-47c3ab77e0.webp)
+- Network la ƒe **gbegbɔgblɔ ɖi ƒe ɣaɣlaŋlɔŋlɔ ƒe nuku** le validator sia sia ƒe TEE me.  
+- Mɔ̃ŋlɔ ƒe dɔwɔwɔwo [smart contracts] zã ɣaɣlaŋlɔŋlɔ ƒe keys tɔxɛ siwo meate ŋu woakpɔe o.  
+- Secret contracts wɔa dɔ le Cosmos SDK compute module dzi, ke woɖoa alɔ na nu siwo woŋlɔ ɣaɣla kple nu siwo doa go, kple nɔnɔme.
 
 ---
 
-## Nyatakakawo ƒe Nutrenu
+## Remote Attestation
 
-Esi wònye be enclavewo nye esiwo me nɔnɔme aɖeke mele o ta la, ele be woadzra nyatakakawo ɖo ɣeaɖewoɣi le gota le ŋkuɖodzinu si dzi womate ŋu aka ɖo o me. 
+**Remote Attestation** nye ɖeɖeɖase be enclave a le dɔ wɔm le hardware ƒe dedie teƒe vavã me.
 
-**Data Sealing** tsɔa nyatakaka siwo le enclave la me ɣlana to safui si wokpɔ tso CPU me zazã me. Woateŋu aɖe mɔxenu si wotsɔ nya ɣaɣlawo ŋlɔ la le **ɖoɖo ɖeka ma ke** dzi ko.
+Ena mɔ na ame si le didime be wòakpɔe be:
+- Dɔwɔwɔ nyuitɔe la le dɔ wɔm  
+- Meɖe asi le dɔwɔwɔ la ŋu o  
+- Ele dɔ wɔm le dedie me le Intel SGX enclave me
 
-![Data Sealing ƒe nɔnɔmetata](/content-images/FqunBwyWYAA-TR3-933c2b0e6f.webp)
+![Remote Attestation explanation](/content-images/FqumRjoWwAAeT-M-6eff73af4d.webp)
 
----
+Enclaves hã le signing kple attestation keys siwo nye ame ŋutɔ tɔ, siwo meate ŋu woakpɔ wo tso gota o.
 
-## Oasis ƒe Nyatakakadzraɖoƒe
-
-**Oasis Network** hã zãa TEEwo to eƒe ParaTime ɣaɣla (e.g. Sapphire kple Cipher) dzi.
-
-Nyatakaka siwo wotsɔ nya ɣaɣlawo ŋlɔ la gena ɖe TEE la me kpe ɖe smart contract la ŋu. Woɖea nya ɣaɣlawo me, wowɔa dɔ tso eŋu, eye wogbugbɔa nya ɣaɣlawo dea eme hafi dzona le enclave la me.
-
-![Oasis Network TEE ƒe sisi](/content-images/FqunJRDXwAMt4Ob-0e7969c7a8.webp)
+![Enclave key protection](/content-images/Fqumv83XoAQq-MO-47c3ab77e0.webp)
 
 ---
 
-## TEEwo le Kpeɖodzi-ɖe-Adzɔxexe ƒe Nyatakakadzraɖoƒewo
+## Data Sealing
 
-Proof-of-Stake blockchain geɖewo (siwo dome Secret kple Oasis hã le) zãa **Tendermint** abe woƒe nukpɔsusu ɖeka ƒe ɖoɖo ene.
+Elabena enclaves menye nɔnɔme ƒe nuwo o la, zi aɖewo woate ŋu aɖo data ɖe memori si mewɔ ŋu se o me.  
 
-Le PoS ƒe kpeɖodzinalawo gome la:
-- Ele be woakpɔ safuiwo dzi dedie eye womagaɖe wo ɖe go le nuŋɔŋlɔ si me kɔ me gbeɖe o. 
-- Ele be amesiwo ɖo kpe edzi nanɔ Internet dzi (tohehe siwo woatsɔ axe mɔ ɖe dɔa nu). 
-- De asi gbedasi siwo tsi tre ɖe wo nɔewo ŋu te ate ŋu ana woaɖe asi le wo ŋu.
+**Data Sealing** zã key si tso CPU me va la na data ɣaɣlaŋlɔŋlɔ le enclave me. Gaɖoɖowo ƒuƒoƒe [block] si woŋlɔ ɣaɣla la ate ŋu aɖe ɣaɣlaŋlɔŋlɔ la le **ɖoɖo ma ke** dzi ko.
 
-**TEEs** nyo ŋutɔ na validator keys wɔwɔ kple wo zazã dedie.
-
-![Tendermint & PoS ƒe dedienɔnɔ](/content-images/Fqun0HEX0AAooxW-7f6163ae1e.webp)
+![Data Sealing diagram](/content-images/FqunBwyWYAA-TR3-933c2b0e6f.webp)
 
 ---
 
-## Zcash kple Kpeɖodzi-of-Stake Numekuku
+## Oasis Network
 
-Zcash le numekuku wɔm vevie le ʋuʋu yi Proof-of-Stake ŋu.
+**Oasis Network** hã zã TEEs to eƒe confidential ParaTime (kpɔɖeŋu, Sapphire kple Cipher) me.
 
-- Xlẽ numekukua: https://electriccoin.co/blog/zcash-proof-of-stake-research/  
-- Kpɔ akpa sia tso Zcash Foundation Community Call me si ɖe PoS ƒe nɔnɔme vovovowo kple woƒe adzamenyawo me ɖeɖe me:
+Data si woŋlɔ ɣaɣla kple mɔ̃ŋlɔ ƒe dɔwɔwɔ la ge ɖe TEE me. Woaɖe ɣaɣlaŋlɔŋlɔ na data la, woawɔ dɔ kple e, eye woaŋlɔe ɣaɣla ake hafi wòado go tso enclave me.
+
+![Oasis Network TEE flow](/content-images/FqunJRDXwAMt4Ob-0e7969c7a8.webp)
+
+---
+
+## TEEs Le Proof-of-Stake Networks Me
+
+Proof-of-Stake gaɖoɖowo ƒuƒoƒowo geɖe (siwo katã Secret kple Oasis hã le) zã **Tendermint** abe woƒe gbegbɔgblɔ ɖi ƒe ɖoɖo ene.
+
+Na PoS validators:
+- Ele be woakpɔ keys le dedie me eye woaɖe wo fia le plaintext me gbeɖe o.  
+- Ele be validators anɔ online (woaɖe fe na wo ne woɖe mɔ).  
+- Ne ame dea asi le mesajewo siwo ƒo tsiam na nɔewo ŋu la, wòate ŋu akplɔ ame ɖe slashing me.
+
+**TEEs** dze egbe na validator keys ƒe wɔwɔ kple zãzã le dedie me.
+
+![Tendermint & PoS security](/content-images/Fqun0HEX0AAooxW-7f6163ae1e.webp)
+
+---
+
+## Zcash Kple Proof-of-Stake Ƒe Nudzodzro
+
+Zcash le nudzodzro wɔm vevi tso ale si wòava yi ɖe Proof-of-Stake ŋu.
+
+- Xlẽ nudzodzro la: https://electriccoin.co/blog/zcash-proof-of-stake-research/  
+- Kpɔ akpa sia le Zcash Foundation Community Call me si me woɖe PoS ƒe ɖoɖo vovovowo kple woƒe ɣaɣla ƒe nɔnɔmewo me:  
   
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -118,9 +118,9 @@ Zcash le numekuku wɔm vevie le ʋuʋu yi Proof-of-Stake ŋu.
 
 ---
 
-**Ka gbãtɔ si ZecHub (@ZecHub) ŋlɔ** 
+**Thread Gbãtɔ si ZecHub (@ZecHub) ŋlɔ**  
 https://x.com/ZecHub/status/1633579659282587651
 
 ---
 
-*Woƒo axa sia nu ƒu tso Zero to Zero Knowledge ƒe ka gbãtɔ me na ZecHub wiki.*
+*Woxɔ axa sia ƒe nuwo tso Zero to Zero Knowledge ƒe thread gbãtɔ me na ZecHub wiki.*

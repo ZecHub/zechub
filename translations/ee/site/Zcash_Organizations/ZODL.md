@@ -2,101 +2,101 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# <img src="/content-images/198608b2-9059-4cb7-aeb8-9354971376fd-d67c2d46f5.webp" alt="ZODL Logo" width="50"/> ZODL (Zcash Open Development Lab)
+# <img src="/content-images/198608b2-9059-4cb7-aeb8-9354971376fd-d67c2d46f5.webp" alt="ZODL Logo" width="50"/> ZODL (Zcash ƒe Dɔwɔƒe si Do Ŋutifafa ƒe Mɔ ƒe Dɔ)
 
-[Nyatakakadzraɖoƒe](https://zodl.com/) - [GitHub](https://github.com/zodl-inc) - [X/Twitter](https://x.com/zodl_app) - [Discord](https://discord.gg/zodl)
+[Nudzraƒe](https://zodl.com/) - [GitHub](https://github.com/zodl-inc) - [X/Twitter](https://x.com/zodl_app) - [Discord](https://discord.gg/zodl)
 
-## Dɔdasi Ŋuti Nyatakaka
+## Dɔwɔwɔ ƒe Nya
 
-ZODL le xexe si me ame gbogbo aɖewo malé ŋku ɖe ganyawo ŋu o, afisi sedziwɔlawo ate ŋu awɔ asitsadɔ faa le le wo ɖokui si le le susu me. Habɔbɔa xɔe se be ɖokuisinɔnɔ aɖeke meli ne ame ŋutɔ ƒe nyawo mele o, eye be ele be ganyawo ƒe adzamenyawo nanye nusi woatsɔ awɔ dɔe eye asitsatsa ƒe mɔnukpɔkpɔ nanye amegbetɔ ƒe gomenɔamesi.
+ZODL kpɔ xexea me si me ga ƒe ŋkuléle gã aɖeke mele o, afi si amewo siwo wɔa se nu la ate ŋu awɔ gaɖoɖo [transaction] ablɔɖe kple ɣaɣla [privacy] me. Habɔbɔa xɔe se be dziɖuɖu aɖeke mele ɣaɣla manɔmee o, eye be ga ƒe ɣaɣla nanɔ anyi abe nu si wòle be wòanye ene, eye maket me mɔɖeɖe nanɔ anyi abe ame ƒe gomeɖeɖe ene.
 
-## Megbenyawo & Ŋutinya
+## Ƒomevi kple Xexeme Nudzodzro
 
-ZODL (Zcash Open Development Lab) nye esi Josh Swihart, si nye Electric Coin Company (ECC). Le January 2026 me la, ECC mɔ̃ɖaŋudɔwɔlawo kple adzɔnuwo ƒe ƒuƒoƒo bliboa ɖe asi le dɔ ŋu le dziɖuɖu ŋuti nyaʋiʋli aɖe si do mo ɖa kple Bootstrap, si nye 501(c)(3) ƒe habɔbɔ si mekpɔa viɖe aɖeke tso eme o si kpɔa ECC. Ƒuƒoƒo vevi si wɔ Zcash's ɖoɖo vevitɔwo, tsɔ wo de dɔwɔwɔ me, eye wokpɔ wo dzi gbã la trɔ yi ZODL be woayi woƒe dɔa dzi le wo ɖokui si.
+ZODL (Zcash ƒe Dɔwɔƒe si Do Ŋutifafa ƒe Mɔ ƒe Dɔ) woɖoe le 2026 ƒe gɔmedzedze me to Josh Swihart, si nye Electric Coin Company (ECC) ƒe CEO tsã. Le January 2026 me la, ECC ƒe engineering kple product team blibo la dze egbe le dziɖuɖu ƒe kpeɖeŋu ɖe Bootstrap, 501(c)(3) nonprofit board si kpɔa ECC dzi megbe. Core team si wɔ Zcash ƒe system siwo hiã ŋutɔ la ƒe design, implementation, kple maintenance tso gɔmedzedze me la yi ZODL be woayi edzi awɔ woƒe dɔ le wo ŋutɔ ƒe mɔ nu.
 
-Wotrɔ ŋkɔ na Zashi gakotoku si wowɔ tsã eye wolé be nɛ le ECC, wòzu ZODL le habɔbɔ yeyea te. Mehiã be ezãlawo nawɔ afɔɖeɖe aɖeke o, elabena dɔwɔnua trɔ ŋkɔ le eɖokui si ne wowɔ asitɔtrɔ si kplɔe ɖo.
+Zashi gakotoku [wallet], si ŋgɔ wodevelop kple maintain le ECC te, trɔ ŋkɔ zu ZODL le habɔbɔ yeye la me. Emehiã be zãlawo nawɔ nane o, elabena app la trɔ ŋkɔ le eƒe update si kplɔe ɖo me.
 
-## Gakpekpeɖeŋunana
+## Ga Ƒe Nɔƒe
 
-Le March 2026 me la, ZODL ƒo ga si wu dɔlar miliɔn 25 nu ƒu tso nukuwo ƒe gadodo me tso gadelawo xɔŋkɔwo ƒe ƒuƒoƒo aɖe gbɔ, siwo dometɔ aɖewoe nye:
+Le March 2026 me la, ZODL xɔ seed funding si wu $25 million tso investment wɔlawo ƒe ha gã aɖe gbɔ, siwo dome wone:
 
 - **Paradigm**
-- **a16z nya ɣaɣla**
+- **a16z crypto**
 - **Winklevoss Capital**
 - **Coinbase Ventures**
-- **Cypherpunk Technologies** ($5M ƒe gadede)
+- **Cypherpunk Technologies** ($5M investment)
 - **Chapter One**
-- **David Friedberg ƒe amegã**
-- **Balaji Srinivasan** ƒe amegãwo
-- Mawudɔla bubu siwo dea ga asiwo me tso crypto kple mɔ̃ɖaŋununya ƒe dɔwɔƒewo
+- **David Friedberg**
+- **Balaji Srinivasan**
+- Angel investment wɔlawo bubu tso crypto kple technology ƒe akpa me
 
-Wole fiadu la zãm tsɔ le Zcash ƒe ɖoɖowɔɖi kple ZODL gakotoku siaa ƒe ŋgɔyiyi kekem ɖe enu.
+Wozã ga la be woakaka Zcash protocol kple ZODL gakotoku ƒe development.
 
-## Kplɔlanyenye
+## Kplɔlawo
 
-- **Josh Swihart** - CEO & Founder (Electric Coin Company)
+- **Josh Swihart** - CEO & Founder (Electric Coin Company ƒe CEO tsã)
 
-Ƒuƒoƒo si keke ta wu la nye Zcash ɖoɖowɔɖi gbãtɔ wɔlawo kple ewɔlawo siwo tu Zcash tsã eye wolé be nɛ le ECC. Esia lɔ nunya deto le nya ɣaɣlawo ŋɔŋlɔ me, sidzedze zero-sidzedze ƒe kpeɖodziwo, kple protocol engineering ɖe eme.
+Team gã la nye Zcash protocol ƒe creators kple mɔ̃ ƒe ɖoɖoŋlɔlawo [developer] siwo ŋgɔ wɔ kple maintain Zcash le ECC. Esia me cryptography, zero-knowledge ɖaseɖigbalɛ [proof]wo, kple protocol engineering ƒe sidzedze gã le.
 
-## Nusiwo Wowɔ
+## Nudzɔdzɔwo
 
-### ZODL Gakotoku (si woyɔna tsã be Zashi)
+### ZODL Gakotoku (ŋgɔ nye Zashi)
 
-ZODL nye asitelefon dzi gakotoku si woate ŋu akpɔ le wo ɖokui si si wowɔ na Zcash asitsatsa le ame ŋutɔ gbɔ. Eƒoa sidzedze deto si le ɖoɖowɔɖi ƒe ɖoɖo nu kple aɖaŋuwɔwɔ si zazã le bɔbɔe nu ƒu, eye wòɣlaa nusiwo sesẽ esime wòléa dedienɔnɔ me ɖe asi.
+ZODL nye mobile gakotoku si me asikplɔ-dzralá aɖeke mele o, eye wowɔe na Zcash ƒe gaɖoɖo ɣaɣla me. Etsɔ protocol ƒe sidzedze si do go kple design si bɔbɔ na zãla ƒo, eye wotsɔa eƒe sesẽwo ɖeɣla to kpɔɖeŋu ƒe dedieɖoɖo me.
 
-**Nuƒolanɔƒewo:**
+**Platformwo:**
 - [iOS (App Store)](https://apps.apple.com/us/app/zodl-zcash-wallet/id1672392439)
-- [Android (Fefedzraƒe)](https://play.google.com/store/apps/details?id=co.electriccoin.zcash)
-- [F-Droid ƒe dɔwɔwɔ](https://f-droid.org/en/packages/co.electriccoin.zcash.foss/)
+- [Android (Play Store)](https://play.google.com/store/apps/details?id=co.electriccoin.zcash)
+- [F-Droid](https://f-droid.org/en/packages/co.electriccoin.zcash.foss/)
 - [GitHub](https://github.com/zodl-inc)
 
-**Nu Veviwo:**
+**Nɔnɔme Veviwo:**
 
-- **Shielded by Default:** Adzɔnuwo katã zãa Zcash's shielded pools, ɣlaa ame si ɖoe ɖa, amesi xɔe, kple asitsatsa ƒe ga homewo to zero-knowledge cryptography zazã me
-- **One-Tap Shielding:** Trɔ ZEC si me kɔ la wòzu ame ŋutɔ ƒe ga kple tap ɖeka
-- **CrossPay:** Ðo ZEC si wokpɔ ta na esime amesiwo xɔe la le woƒe nunɔamesi siwo wodi (BTC, stablecoins, kple bubuawo) xɔm
-- **Ame ŋutɔ ƒe Swaps:** Built-in swaps si ŋu ŋusẽ le to NEAR Intents, ƒo asa na centralized exchanges
-- **Keystone Integration:** Hardware gakotoku ƒe kpekpeɖeŋu na fafɛ nudzraɖoƒe na shielded ZEC to ya-gapped asitsatsa asidede
-- **Flexa Fexexe:** Zã ZEC le nudzraƒe gãwo siwo dometɔ aɖewoe nye GameStop, Chipotle, Sheetz, kple Barnes & Noble
-- **Coinbase Integration:** Ƒle ZEC tẽ le gakotokua me eye màgaŋlɔ ŋkɔ ɖe vovo o
-- **Encrypted Messaging:** Zcash-level adzamenyawo na shielded memos kpe ɖe alo le wo ɖokui si le asitsatsa me
-- **Adrɛs Siwo Wɔ Ðeka:** Adrɛswo dzikpɔkpɔ bɔbɔe le Transparent, Sapling, kple Orchard ƒe tadeaguƒewo katã me
-- **Tor Kpekpeɖeŋu:** Wodo network-level adzamenyawo ɖe ŋgɔ na asitsatsa ƒe nyadzɔdzɔwo kaka
+- **Ɣaɣla Le Gɔmedzedze:** Gaɖoɖowo katã zãa Zcash ƒe ɣaɣla [shielded] gaƒuƒoƒowo [pool], eye wowɔa dzɔla, xɔla, kple gaƒe ƒe homewo ɣaɣla to zero-knowledge cryptography me
+- **Ɣaɣla Kple Asiƒoƒo Ɖeka:** Trɔ nuwo ƒe ʋuʋuɖi [transparent] ZEC zu ga si le ɣaɣla me kple asiƒoƒo ɖeka
+- **CrossPay:** Ɖo ɣaɣla ZEC ɖa esime xɔlawo xɔa asset siwo wɔnɔa be woaxɔ (BTC, stablecoins, kple bubu)
+- **Ɖɔli Ɖɔli Ɣaɣla Me:** Ɖɔli ɖɔli [swap] si le eme, NEAR Intents wɔa wò ŋusẽe, eye wòle gatrɔƒe [exchange] siwo le central leavo
+- **Keystone ƒe Kadodo:** Asikplɔwo dzra mɔ [hardware wallet] ƒe kpeɖeŋu na ɣaɣla ZEC ƒe cold storage to gaɖoɖo ƒe asiɖoɖo si le air-gap me
+- **Flexa Ƒe Fexexewo:** Zã ZEC le retailer gãwo gbɔ, siwo dome GameStop, Chipotle, Sheetz, kple Barnes & Noble le
+- **Coinbase ƒe Kadodo:** Ƒle ZEC le gakotoku la me tẽ, esi mègahiã be nàregister le gatrɔƒe bubu aɖe o
+- **Nyaɖoɖo ɣaɣlaŋlɔŋlɔ [encryption] Me:** Zcash-ƒe ɣaɣla na nya kpui [memo]wo siwo le ɣaɣla gaɖoɖowo kplii alo wo ŋutɔ
+- **Gaɖoƒe Ƒe Dzesi Ɖekae:** Gaɖoƒe ƒe dzesi [address] ƒe kpɔɖeŋu bɔbɔ le Transparent, Sapling, kple Orchard gaƒuƒoƒowo katã me
+- **Tor Ƒe Kpeɖeŋu:** Network ƒe ɣaɣla si dze edzi na gaɖoɖowo ƒe broadcast
 
-**Ameŋunyatakakawo Ŋuti Ŋugbedodowo:**
-- Womalé ŋku ɖe gakotoku ƒe dɔwɔna, asitsatsa ŋutinya, alo zãla ƒe nuwɔna ŋu o
-- Woƒoa afɔku ŋuti nyatakaka siwo womeyɔ o ko nu ƒu, eye ŋutete aɖeke mele wo ŋu be woabla nyatakakawo ɖe ezãla aɖewo koŋ ŋu o
+**Ɣaɣla Ƒe Akpɔɖeŋuwo:**
+- Womelé gakotoku ƒe nɔnɔ, gaɖoɖo ƒe xexeme, alo zãla ƒe nɔnɔ kpɔ o
+- Crash report siwo woɖe amewo ƒe dzesi leawo koe woxɔa, eye mɔ aɖeke mele be woade data la ɖe zãla aɖe tɔxɛ o
 
-### Dɔwɔwɔ & Ŋusẽkpɔɖeamedzi
+### Dɔwɔwɔ ƒe Ŋusẽ kple Eƒe Nuŋlɔɖi
 
-Tso esime wodze egɔme zi gbãtɔ abe Zashi ene le ƒe 2024 me la, gakotokua na dzidziɖedzi gã aɖe le Zcash lãwo ƒe agbenɔnɔ me:
+Tso eƒe gɔmedzedze tsã abe Zashi ene le 2024 me la, gakotoku la kplɔ Zcash ecosystem la ƒe gɔgɔme gã va:
 
-- Wodzi Orchard shielded pool tso abe 1M ZEC va ɖo 4M ZEC le ƒe 2025 me (dzidziɖedzi si wu 400%)
-- Wowɔ dɔ tso dɔlar miliɔn 600 kple edzivɔ ŋu le ZEC asitɔtrɔwo me tso October 2025 me
+- Eda Orchard ƒe ɣaɣla gaƒuƒoƒo la tso ZEC 1M kɔkɔe dzi va ZEC 4M me le 2025 me (gɔgɔme si wu 400%)
+- Ewɔ ZEC ƒe ɖɔli ɖɔli siwo ƒe asixɔxɔ wu $600 million tso October 2025 me
 
-## Akpa si wòwɔna le Zcash Nutoa Me
+## Eƒe Dɔ Le Zcash Ecosystem La Me
 
-ZODL wɔa akpa eve le Zcash lãwo ƒe agbenɔnɔ me:
+ZODL wɔ dɔ eve le Zcash ecosystem la me:
 
-1. **Protocol Development:** Ƒuƒoƒoa yi edzi le Zcash protocol software kple dɔwɔnu veviwo dom ɖe ŋgɔ, wole dɔ wɔm kple ecosystem ƒuƒoƒo bubuwo abe Zcash Foundation kple Zingo Labs ene
-2. **Adzɔnu siwo dze ŋgɔ Zãla:** Nuƒlela ƒe gakotoku vevitɔ tutu kple edzikpɔkpɔ na Zcash, si ƒe taɖodzinue nye be woana ame ŋutɔ ƒe dijitaal fexexe nasu ezãla veviwo si
-3. **Shielded Pool Growth:** Wogblɔ tso ZODL's gakotoku ƒe nu yeyewo ŋu be enye "nu gãtɔ ɖeka kolia si na Zcash gbugbɔ ɖo anyigbatata dzi"
-4. **Open Source:** Dɔwo katã nye open-source, si na amesiame be wòalé ŋku ɖe protocol code ŋu, adzro gakotokua me, eye wòaɖo kpe dɔwɔwɔwo dzi
+1. **Protocol ƒe Development:** Team la yi edzi le Zcash protocol software kple dɔwɔnu [tools] vevitɔwo ƒe didzidzenu, eye wole dɔ wɔm kple ecosystem ƒe team bubuwo abe Zcash Foundation kple Zingo Labs ene
+2. **Nudzɔdzɔwo siwo Ɖoa Zãlawo Nu:** Wole gakotoku vevitɔ na Zcash ƒe consumerwo wɔm kple maintain wɔm, eye woƒe ta gãe nye be woawɔ digital fexexe ɣaɣla me na wòanɔ bɔbɔ na zãla geɖewo
+3. **Ɣaɣla Gaƒuƒoƒo ƒe Gɔgɔme:** Woɖe ZODL ƒe gakotoku ƒe innovationwo gɔme be wonye "nu ɖeka si wɔ be Zcash gava map la dzi ake"
+4. **Open Source:** Dɔwo katã le open-source, eye ame sia ame ate ŋu akpɔ protocol code la, awɔ gakotoku la ƒe audit, eye wòakpɔ be implementationwo le nyateƒe
 
-## Xexemenunya: Dziɖulagã la Dzɔla
+## Filosofi: Ame si Kpɔa Sovereign La Dzi
 
-ZODL's xexemenunya si fiaa mɔe la ku ɖe "Dziɖula ƒe Dzɔla" ƒe nukpɔsusu ŋu -- dzixɔse si nye be ele be ame ɖekaɖekawo nakpɔ ŋusẽ blibo ɖe woƒe ganyawo ƒe adzamenyawo kple ɖokuisinɔnɔ dzi. Habɔbɔa ɖonɛ koŋ tsɔa ezãlawo ƒe ɖokuisinɔnɔ ɖoa nɔƒe gbãtɔ wu nuƒolanɔƒea dzi kpɔkpɔ, eye wòtua dɔwɔnu siwo doa ŋusẽ ame ɖekaɖekawo tsɔ wu be woanye domenɔlawo.
+ZODL ƒe filosofi si kplɔe nye "Ame si Kpɔa Sovereign La Dzi" ƒe nukpɔkpɔ -- xɔse be amewo nanɔ wo ŋutɔ ƒe ga ƒe ɣaɣla kple dziɖuɖu blibo la kpɔm. Habɔbɔa ɖoa zãla ƒe dziɖuɖu ɖe ŋgɔ wu platform ƒe dziɖuɖu, eye wòtsoa dɔwɔnu siwo doa ŋusẽ amewo ɖe wo ŋutɔ ŋu wɔa dɔ le, menye intermediate ƒe ŋusẽ me o.
 
-## Nunɔamesiwo
+## Nugbɔgbɔwo
 
-- [ZODL Nyatakakadzraɖoƒe](https://zodl.com/)
-- [ZODL Ku Ðe Axa](https://zodl.com/about/)
+- [ZODL Nudzraƒe](https://zodl.com/)
+- [ZODL Nya si Le Mía Ŋu ƒe Axawo](https://zodl.com/about/)
 - [X/Twitter](https://x.com/zodl_app)
 - [Josh Swihart le X dzi](https://x.com/jswihart)
 
-## Kpɔ Azɔ hã
+## Kpɔ Kple
 
 - [Electric Coin Company](Electric_Coin_Company.md)
 - [Zcash Foundation](Zcash_Foundation.md)
 - [Zingo Labs](Zingo_Labs.md)
-- [Labs Siwo Wotsɔ Akpoxɔnu Wɔe](Shielded_Labs.md)
+- [Shielded Labs](Shielded_Labs.md)

@@ -2,108 +2,122 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Graphene OS ƒe dɔwɔwɔ
+# Graphene OS
 
-GrapheneOS nye dɔ si mekpɔa viɖe aɖeke tso eme o, si woate ŋu azã faa, si wotsɔ ɖe adzɔgbe be yeana ame ŋutɔ ƒe nyatakakawo kple dedienɔnɔ nanyo ɖe edzi le asitelefonwo dzi esime wole ɖekawɔwɔ me kple Android dɔwɔɖoɖowo. Dɔwɔɖoɖo sia tea gbe ɖe ameŋunyatakakawo kple dedienɔnɔ ŋuti mɔ̃ɖaŋunuwo dodo ɖe ŋgɔ dzi vevie, eye wòléa fɔ ɖe sandboxing dodo ɖe ŋgɔ, gazazã dzi ɖeɖe kpɔtɔ, kple mɔɖeɖe ƒe kpɔɖeŋua ɖɔɖɔɖo ŋu vevie. Wodzii le ƒe 2014 me le ŋkɔ si nye **CopperheadOS** te. tso ɣemaɣi la, eva zu wò dijitaal nyatakakawo kple dedienɔnɔ dzikpɔla dziŋɔ aɖe.
+## TL;DR
 
-GrapheneOS ƒe taɖodzinu vevitɔe nye be woado ŋusẽ dedienɔnɔ ƒe liƒowo, abe app sandbox ene, evɔ makpɔ ŋusẽ gbegblẽ ɖe zãla ƒe nuteƒekpɔkpɔ dzi o. 
+- **GrapheneOS** nye mobile operating system si menye hɔhɔ̃ ƒe dɔwɔƒe tɔ o, eye wotu le open-source dzi, si ɣe ɖe ɣaɣla [privacy] kple dedienyenye ŋu, eye wòate ŋu wɔ dɔ bliboa kple Android apps siwo wozãna gbe sia gbe
+- Eƒe ŋusẽ veviwoe nye: app sandbox si wowɔ wòsesẽ, code si dedie le memory me kple mɔnu siwo wɔnɔa nu vɔ̃ ƒe zãzã ŋu, verified boot si hardware dea alɔ ɖo, mɔɖoɖowo siwo woate ŋu mama ɖe nyuie, kple USB-C port ƒe dedienyenye ne wowɔ device la ƒe xɔtutu
+- Installation va to **WebUSB installer** si nye dɔwɔnu si nyo na amehawo geɖe, alo to **command-line flow** la me na amesiwo nya mɔ̃wu
+- Na Zcash ƒe zazãla, eƒe anyiɖoƒe sesẽ na mobile self-custody; tsɔe kple ɣaɣla gakotoku [wallet] si wowɔa dɔ ɖe edzi kple OPSEC ƒe nɔnɔme nyuiwo
 
-GrapheneOS ateŋu ato toggles vovovowo vɛ na nɔnɔme tɔxɛwo, abe Network ƒe mɔɖeɖewo, Sensors ƒe mɔɖeɖewo, alo mɔxexeɖenu ne wotu mɔ̃a (si ƒo nu tso akpa aɖewo abe USB peripherals, camera access, kple quick tiles ene ŋu). Tsɔ kpe ɖe eŋu la, wotrɔ asi le ameŋunyatakaka kple dedienɔnɔ ƒe nɔnɔme siwo me kɔ wu siwo dze ŋgɔ ezãlawo ŋu nyuie be woalé nuteƒekpɔkpɔ si sɔ na zazã me ɖe asi, eye wo dometɔ ɖesiaɖe kple eƒe zãla ƒe nɔnɔme ƒe nyonyome.
+GrapheneOS nye dɔwɔƒe si menye hɔhɔ̃ ƒe tɔ o, eye wotu le open-source dzi, si ɖe eɖokuiŋu be yeana ɣaɣla kple dedienyenye nasẽ ɖe mobile devicewo ŋu, hafi wòagblɔa ɖekawɔwɔ kple Android apps. Operating system sia ɖe ŋku vevie ɖe ɣaɣla kple dedienyenye ƒe mɔnuwo ƒe ɖoɖo yi edzi, eye vevie tso sandboxing, mɔnu siwo wɔnɔa nu vɔ̃ ƒe zãzã ŋu, kple mɔɖoɖo ƒe nɔnɔme nyuitɔ wɔwɔ me. Wodzii le 2014 me le ŋkɔ **CopperheadOS** te, eye tso ɣeyiɣi ma me va se egbe la, wòtrɔ zu wò digital ɣaɣla kple dedienyenye ƒe dzikpɔla sesẽ.
 
-## **GrapheneOS ƒe nɔnɔmewo**
+GrapheneOS ƒe taɖodzinu vevitɔe nye be yeaɖe dedienyenye ƒe mɔɖoɖowo, abe app sandbox ene, ɖo anyi sesẽ wu, ke wòmagaɖe nu vɔ̃ aɖe va user experience la dzi o. 
 
-**Dedienɔnɔ ƒe Sesẽwɔwɔ** GrapheneOS lɔ dedienɔnɔ ƒe ŋgɔyiyi geɖe ɖe eme, abe ɖoɖowɔɖi gbegbɔgblɔ siwo me ŋkuɖodzinu le dedie kple dedienɔnɔ ƒe nɔnɔme siwo wotu ɖe nuƒoƒoƒula dzi be woaɖe afɔku siwo bɔ dzi akpɔtɔ.
+GrapheneOS ate ŋu atsɔ toggles vovovo ava na feature aɖewo, abe Network permissions, Sensors permissions, alo mɔxexe siwo wɔa dɔ ne wowɔ device la ƒe xɔtutu (si me nuwo abe USB peripherals, camera ƒe mɔxexe, kple quick tiles le). Kpe ɖe eŋu la, ɣaɣla kple dedienyenye ƒe feature siwo hia nu dzadzra geɖe na userwo la, woɖo wo nyuie be wòanɔ bɔbɔe na zazãla, eye woƒe user interface ƒe nyonyo vovovo le wo katã si.
 
-**Sandboxing** Edoa ŋusẽ app sandboxing be wòaɖe apps ɖe vovo tso wo nɔewo gbɔ, si xea mɔ na amedzidzedze vectors siwo ate ŋu adzɔ.
+## **GrapheneOS ƒe Nɔnɔmewo**
 
-**Verified Boot** GrapheneOS zãa hardware-backed keys kple boot process si ŋu woate ŋu aɖo kpee tsɔ kpɔa egbɔ be dɔwɔɖoɖoa le bliboe.
+**Dedienyenye Ƒe Ɖoɖo Sesẽ** GrapheneOS me dedienyenye ƒe nyonyo geɖe le, abe programming languages siwo dedie le memory me kple compiler-based dedienyenye ƒe featurewo ene, be woaɖe vodadawo siwo dzɔna zi geɖe dzi.
 
-**Mɔɖeɖe Siwo Wodo Ðe Ŋgɔ** Enaa dziɖuɖu si nyo wu ɖe dɔwɔɖoɖo ƒe mɔɖeɖewo dzi, si wɔnɛ be ezãlawo te ŋu trɔa asi le nusiwo nyatakaka dɔwɔɖoɖowo ate ŋu akpɔ ŋu nyuie ahakpɔ wo dzi.
+**Sandboxing** Eɖea app sandboxing ɖo anyi sesẽ be wòama appwo ɖe wo nɔewo gbɔ, eye wòana mɔ siwo dzi attackwo ate ŋu ava la nasẽ o.
 
-**Adzamenyawo ƒe Dɔwɔƒe** Zãlawo ate ŋu alé ŋku ɖe dɔwɔnua ƒe nuwɔna ŋu ahakpɔ edzi to ameŋunyatakakawo ƒe ɖoɖowɔɖi dzi, si ana nyatakakawo zazã nadze ƒã.
+**Verified Boot** GrapheneOS zãna keys siwo hardware dea alɔ ɖo kple boot ƒe mɔnu si woate ŋu akpɔ ɖe edzi be operating system la ƒe nɔnɔme le blibo.
 
-**Dedienɔnɔ Ŋuti Nyatakaka yeye siwo wotu ɖe eme** GrapheneOS naa dedienɔnɔ ŋuti nyatakaka yeyewo le ɣeyiɣi nyuitɔ dzi, si kpɔa egbɔ be ezãlawo kpɔ takpɔkpɔ yeyetɔ kekeake tso afɔkuwo si me.
+**Mɔɖoɖo Siwo Nyo Wu** Enaa mɔ si nyo wu na app permissions ƒe dzikpɔkpɔ, eye eƒe mɔ le userwo si be woaɖo nuwo ɖe nyuie eye woakpɔ data kawɔe appwo ate ŋu akpɔ la dzi.
 
-**Strong Encryption** Ewɔa full-disk encryption le gɔmedzedzea me, si kpɔa nyatakaka siwo wodzra ɖo ɖe mɔ̃a dzi ta.
+**Ɣaɣla Ɖoɖowo Ƒuƒopé [dashboard]** Userwo ate ŋu akpɔ eye woakpɔ appwo ƒe nɔnɔme dzi to ɣaɣla ɖoɖowo ƒuƒopé dzi, si naa wòle waziã tso data ƒe zãzã ŋu.
 
-**Browser ƒe Dedienɔnɔ si nyo wu** Woɖo browser default la be wòana dedienɔnɔ nanyo ɖe edzi, si me ametakpɔkpɔ tso kplɔkplɔ me hã le.
+**Dedienyenye Ƒe Nyɔŋlɔɖiwo Siwo Le Eme** GrapheneOS naa dedienyenye ƒe nyɔŋlɔɖiwo le ɣeyiɣi nyuitɔ me, ale be userwo nakpɔ mɔxexe yeyetɔ si wɔnɔa vodadawo ŋu.
 
-**Minimal Pre-installed Apps** GrapheneOS va kple apps suetɔ kekeake siwo woda do ŋgɔ, si ɖea dedienɔnɔ kple ameŋunyatakakawo ƒe afɔku siwo ate ŋu ado mo ɖa dzi kpɔtɔna.
+**Ɣaɣlaŋlɔŋlɔ Sesẽ [encryption]** Etsɔa disk bliboa ƒe ɣaɣlaŋlɔŋlɔ wɔa dɔ le gɔmedzedze me, eye eɖea data siwo le device la dzi ɣa.
 
-**USB Hostile Port Protection** Enaa ametakpɔkpɔ tso ame aɖeke ƒe gege ɖe mɔ̃a me to USB ʋɔtruwo dzi ne wotu mɔ̃a.
+**Browser Ƒe Dedienyenye Si Nyo Wu** Browser si wotsɔ de eme le gɔmedzedze me la, woɖoe be dedienyenye nanɔ eme wu, si me tracking ƒe mɔxexe hã le.
 
-**Anti-Malware Protections** GrapheneOS ƒe akpa aɖewo le eme be woatsɔ ade dzesi malware siwo wonya ahaxe mɔ ɖe enu.
+**Apps Ɖevi Siwo Woɖe ɖe Eme Xoxo** GrapheneOS va kple apps ɖevi siwo woɖe ɖe eme xoxo, eye esia ɖea dedienyenye kple ɣaɣla ƒe afɔku siwo ate ŋu ava la dzi.
 
-**Wolé fɔ ɖe Ameŋunyatakakawo Ŋu** Wotrɔ asi le OS la ŋu kple gbetete ɖe zãla ƒe adzamenyawo dzi vevie, si na nyatakakawo nuƒoƒoƒu kple wo ɖeɖefia dzi ɖe kpɔtɔ.
+**USB Hostile Port Ƒe Mɔxexe** Enaa mɔxexe tso mɔxexe si me ame aɖe atsɔ USB ports awɔ mɔ aɖe ava device la gbɔ ne wowɔe ƒe xɔtutu.
 
-**Open Source** Enye open-source dɔ, si ɖea mɔ na nuwɔwɔ le gaglãgbe kple nutoa me tɔwo ƒe nudzɔdzɔwo be woana dedienɔnɔ nanyo ɖe edzi.
+**Anti-Malware Ƒe Mɔxexewo** GrapheneOS me featurewo le siwo kpɔa malware siwo wanya xoxo la eye wogbɔna wo ŋu.
 
-**Dedienɔnɔ Ŋuti Ðoɖo Siwo Woate Ŋu Atrɔ Asi Le** Ŋutete le ezãlawo si be woatrɔ asi le dedienɔnɔ ŋuti ɖoɖo vovovowo ŋu wòasɔ ɖe woƒe didiwo nu.
+**Woɖe Ŋku Ɖe Ɣaɣla Ŋu** Woɖo OS la be wòaɖe ŋku vevie ɖe user ƒe ɣaɣla ŋu, eye wòana data ƒe xɔxɔ kple fiamafi nasẽ ɖe edzi.
 
-**Nu ɖekawɔwɔ** GrapheneOS dzea agbagba be yealé dɔwɔɖoɖo siwo sɔ kple Android dɔwɔɖoɖowo me ɖe asi, ale be ezãlawo nate ŋu ayi edzi azã dɔwɔnu siwo wolɔ̃na wu esime wole viɖe kpɔm tso dedienɔnɔ kple ameŋunyatakakawo ƒe nɔnɔme siwo wodo ɖe ŋgɔ me.
+**Open Source** E nye open-source ƒe dɔwɔƒe, si naa nuwo le waziã eye hamea ƒe amewo ate ŋu akpe ɖe eŋu be dedienyenye nadze edzi.
 
-## **GrapheneOS ƒe ɖoɖowɔwɔ**
+**Dedienyenye Ƒe Se Siwo Woate Ŋu Atrɔ** Userwo ate ŋu atrɔ dedienyenye ƒe se vovovowo be wòaɖo woƒe dzidzɔnuwo nu.
 
-Abe alesi wogblɔe le nuwɔna nyuitɔ ƒe akpaa me ene la, wokafui be nàwɔ mɔfiame si dziɖuɖua ɖo be woatsɔ aɖoe la ŋudɔ. Mɔnu eve li siwo dzi woato aɖo GrapheneOS si nye to [WebUSB-based installer zazã me](https://grapheneos.org/install/web) alo nàwɔ [sedede-fli ƒe ɖoɖowɔɖi ƒe mɔfiamegbalẽa ŋudɔ](https://grapheneos.org/install/cli)
+**Ɖekawɔwɔ** GrapheneOS ɖoe be yeawɔ dɔ ɖekae kple Android apps, ale be userwo nanɔ woƒe apps siwo wòlɔ̃ la zãm, eye woakpɔ dedienyenye kple ɣaɣla ƒe feature siwo nyo wu ƒe vi.
 
-**Web USB Based Installation** Be nàde GrapheneOS to Web installer mɔnu zazã me la, zi geɖe la, àhiã nu kple dɔwɔnu siwo gbɔna:
+## **GrapheneOS Ƒe Installation**
 
-- 2GB ƒe ŋkuɖodzinu femaxee & 32GB ƒe nudzraɖoƒe femaxee.
-- USB Ka (A alo C) .
-- Dɔwɔɖoɖo si wodo alɔe : Windows 10, Windows 11, macOS Big Sur (11 - 13), Arch Linux, Debian (10 - 12), Ubuntu (22.04, 22.10 kple 23.04), ChromeOS, GrapheneOS, Google Android (stock Pixel OS)
-- Nyatakakadzraɖoƒe siwo wodoa alɔe: Chromium (womedoa alɔe kple Ubuntu o), Vanadium (GrapheneOS), Google Chrome, Microsoft Edge, Brave Browser.
+Abe ale si woƒo nu tsoe le nɔnɔme nyuitɔ ƒe akpa me ene la, woɖe eŋu be wòazã official installation guide si woɖo. Mɔ eve le GrapheneOS ƒe installation me: ɖeka nye be wòazã [WebUSB-based installer](https://grapheneos.org/install/web), alo wòazã [command-line installation guide](https://grapheneos.org/install/cli)
 
-Kpɔ installation Guide la to kadodo si le ete dzi eye nàwɔ ɖe installation ƒe ɖoɖoa dzi
+**Web USB-Based Installation** Be nàɖo GrapheneOS to Web installer ƒe mɔnu me la, zi geɖe wòahiã nu kple agbalẽ siawo:
 
-[GrapheneOS Nyatakakadzraɖoƒe ƒe Mɔfiame](https://grapheneos.org/install/web#prerequisites)
+- Memory bliboa 2GB kple storage ƒe teƒe bliboa 32GB.
+- USB Cable (A alo C)
+- Operating System siwo wodea alɔ: Windows 10, Windows 11, macOS Big Sur (11 - 13), Arch Linux, Debian (10 - 12), Ubuntu (22.04, 22.10 kple 23.04), ChromeOS, GrapheneOS, Google Android (stock Pixel OS)
+- Browser siwo wodea alɔ: Chromium (womedea alɔ le Ubuntu dzi o), Vanadium (GrapheneOS), Google Chrome, Microsoft Edge, Brave Browser.
 
-**Sedede ƒe fli ƒe ɖoɖowɔwɔ** Womekafu sedede ƒe fli ƒe ɖoɖowɔwɔ na zãla siwo meku ɖe mɔ̃ɖaŋununya ŋu o eye dɔwɔnu kple nunɔamesi siwo le ete la hiã na Sedede ƒe fli ƒe ɖoɖowɔwɔ;
+Kpɔ installation Guide la to link si le ete la dzi, eye nàto installation ƒe mɔnu la me
 
-- Ele be ŋkuɖodzinu 2GB ya teti nanɔ asiwò femaxee eye nudzraɖoƒe 32GB nanɔ asiwò femaxee
-- USB Ka (A alo C) .
-- Dɔwɔɖoɖo si wodo alɔ Windows 10 Windows 11 macOS Big Sur (11) macOS Monterey (12) macOS Ventura (13) Arch Linux Debian 10 (buster) Debian 11 (bullseye) Debian 12 (agbalẽ ƒe nudzodzoe) Ubuntu 20.04 LTS Ubuntu 22.04 LTS Ubuntu 22.10 Ubuntu 23.04
-- Nyatakakadzraɖoƒe ƒe Dɔwɔla tso Android, ChromeOS alo GrapheneOS dzi
+[GrapheneOS Web Installer Guide](https://grapheneos.org/install/web#prerequisites)
 
-Kpɔ installation Guide la to kadodo si le ete dzi eye nàwɔ ɖe installation ƒe ɖoɖoa dzi 
+**Command Line Ƒe Installation** Womedea ŋku command line ƒe installation ŋu na user siwo menya mɔ̃wu o, eye dɔwɔnu kple nu siwo le ete la hiã na Command Line ƒe Installation;
 
-[Sedede ƒe Fli ƒe Ðoɖowɔwɔ](https://grapheneos.org/install/cli#prerequisites)
+- Ele be memory bliboa 2GB kple storage ƒe teƒe bliboa 32GB nanɔ asiwò
+- USB Cable (A alo C)
+- Operating System siwo wodea alɔ Windows 10 Windows 11 macOS Big Sur (11) macOS Monterey (12) macOS Ventura (13) Arch Linux Debian 10 (buster) Debian 11 (bullseye) Debian 12 (bookworm) Ubuntu 20.04 LTS Ubuntu 22.04 LTS Ubuntu 22.10 Ubuntu 23.04
+- Web Installer tso Android, ChromeOS alo GrapheneOS
 
-## **Nuwɔna Nyuitɔwo**
+Kpɔ installation Guide la to link si le ete la dzi, eye nàto installation ƒe mɔnu la me 
 
-**Na OS la nanɔ yeye** Wɔ GrapheneOS yeyee edziedzi be nàkpɔ egbɔ be dedienɔnɔ ƒe ɖɔɖɔɖo yeyewo kple ŋgɔyiyi yeyewo le asiwò.
+[Command Line Installation](https://grapheneos.org/install/cli#prerequisites)
 
-**Zã Nyagbe Sesẽwo** Ðo nyagbe sesẽ siwo le etɔxɛ na mɔ̃a ƒe nya ɣaɣlawo kple dɔwɔnua ƒe gege ɖe eme be woaxe mɔ ɖe ame siwo ŋu womeɖe mɔ ɖo o ƒe gege ɖe eme nu.
+## **Nɔnɔme Nyuitɔwo**
 
-**App Mɔɖeɖewo** To app ƒe mɔɖeɖewo me eye nàkpɔ wo dzi nyuie, eye nàna nusiwo hiã be app ɖesiaɖe nawɔ dɔ ko.
+**Na OS La Nanɔ Yeyee** Ɖe GrapheneOS yeyee ɣesiaɣi be nàkpɔ dedienyenye ƒe patches kple nyonyo yeyewo.
 
-**Edziedzi Backups** Wɔ wò nyatakakawo ƒe backups edziedzi ne mɔ̃a bu alo nyatakakawo gblẽ.
+**Zã Nyagbegbe Sesẽwo** Ɖo nyagbegbe sesẽ siwo to vovo na device ƒe ɣaɣlaŋlɔŋlɔ kple app ƒe gege me be nàxe mɔ na mɔkpɔmɔkpɔ si me mɔɖeɖe mele o.
 
-**Encrypt Storage** Ne womewɔe le gɔmedzedzea me o la, ɣla wò mɔ̃a ƒe nudzraɖoƒe be nàkpɔ wò nyatakakawo ta ne mɔ̃a bu alo wofi.
+**App Ƒe Mɔɖoɖowo** Kpɔ app ƒe mɔɖoɖowo dzi nyuie eye nàkpɔ wo, eye nàna nu si hiã be app siawo wɔ dɔ ko.
 
-**Secure Lock Screen** Zã dedie lock screen, abe PIN, password, alo biometric authentication ene, be nàxe mɔ ɖe ame siwo ŋu womeɖe mɔ ɖo o ƒe gege ɖe eme nu.
+**Backup Ɣesiaɣi** Wɔ backup na wò data ɣesiaɣi ne device la bu alo data la gbã.
 
-**Ƒo asa na Rooting Your Android Device** Ƒo asa na rooting alo bootloader la ʋuʋu, elabena esia ateŋu agbɔdzɔ device ƒe dedienɔnɔ.
+**Ɣaɣla Storage** Ne wometsɔ ɣaɣlaŋlɔŋlɔ wɔe le gɔmedzedze me o la, wɔ ɣaɣlaŋlɔŋlɔ na wò device ƒe storage be nàxɔ wò data ɖe asi ne device la bu alo wofi.
 
-**Verify App Sources** Kpɔ apps ƒe nyateƒenyenye kple woƒe dzɔtsoƒewo ɖa be nàƒo asa na software vɔ̃ɖiwo dede eme.
+**Xɔtutu Screen Si Dedie** Zã xɔtutu screen si dedie, abe PIN, nyagbegbe, alo biometric authentication ene, be nàxe mɔ na mɔkpɔmɔkpɔ si me mɔɖeɖe mele o.
 
-**De Browser si Kpɔa Ameŋunyatakakawo Dzi** Bu nyatakakadzraɖoƒe si léa ŋku ɖe ameŋunyatakakawo ŋu abe Brave browser, Firefox alo Bromite ene zazã ŋu hena nyatakakadzraɖoƒe dedie.
+**Mègawɔ Root Na Wò Android Device O** Mègawɔ root alo mègavɔ bootloader la o, elabena esia ate ŋu ana device ƒe dedienyenye nasẽ o.
 
-**Dzro Dɔwɔɖoɖowo me Edziedzi** To dɔwɔɖoɖo siwo mègazãna alo ka ɖe edzi o be woaɖe amedzidzedzea dzi akpɔtɔ la me ɣeaɖewoɣi eye nàɖe wo ɖa.
+**Ɖe App Ƒe Dzɔƒewo Ɖe Edzi** Ɖe appwo kple woƒe dzɔƒewo ƒe nyateƒe ɖe edzi be nàxe mɔ na software vɔ̃ ƒe installation.
 
-**Na Nu Eve ƒe Dzesidede (2FA)** Na 2FA nawɔ dɔ na wò internet dzi akɔntabubuwo be woatsɔ dedienɔnɔ ƒe akpa bubu akpe ɖe eŋu.
+**Ɖo Browser Si Ɖe Ŋku Ɖe Ɣaɣla Ŋu** Bu browser si ɖe ŋku ɖe ɣaɣla ŋu, abe Brave browser, Firefox alo Bromite ene, zã be nàwɔ browsing dedie.
 
-**Ƒo asa na Dutoƒo Wi-Fi** Kpɔ nyuie ne èle kadodo me kple dutoƒo Wi-Fi networkwo, elabena woate ŋu anɔ dedie boo o. Zã VPN ne ehiã.
+**Kpɔ Apps Dzi Ɣesiaɣi** Kpɔ apps dzi le ɣeyiɣi vovovo me, eye nàɖe apps siwo mèzã alo mèka ɖe wo ŋu o la ɖa be attack surface la nasẽ ɖe edzi.
 
-**Kpɔ nyuie le Teƒe Ŋuti Nyatakakawo Ŋu** Seɖoƒe na teƒe si nèle yometiti na dɔwɔɖoɖowo eye nàbu teƒe si nèle ƒe alakpanuwɔwɔ ƒe dɔwɔnu zazã ŋu ne èdea asixɔxɔ ameŋunyatakakawo ŋu.
+**Ɖe Two-Factor Authentication (2FA) Dzi** Ɖe 2FA dzi na wò online accounts be dedienyenye ƒe akpa bubu nasɔ.
 
-**Ƒo asa na kadodo kple kpeɖeŋutɔ siwo womenya o** Kpɔ nyuie le kadodo kple e-mail ƒe kpeɖeŋutɔ siwo mèbia o ŋu, elabena woate ŋu anye ameflunyawo ƒe agbagbadzedze alo malware.
+**Nàwɔ Kpɔkplɔ Na Public Wi-Fi** Wòanɔ kplɔm ne èle gege ɖe public Wi-Fi networkwo ŋu, elabena woƒe dedienyenye ate ŋu nasẽ o. Zã VPN ne ehiã.
 
-**Dzro Ðoɖo Gbãtɔawo Me** Dzro ɖoɖo gbãtɔawo me nyuie eye nàtrɔ asi le wo ŋu be woasɔ ɖe wò nyatakakawo ŋuti nyatakakawo nu.
+**Nàwɔ Kpɔkplɔ Kple Location Data** Ɖe location tracking ƒe mɔxexe ɖe appwo ŋu, eye bu location spoofing dɔwɔnu [tools] aɖe zã ne ɣaɣla le wò nu vevie.
 
-**Nutoa me Kpekpeɖeŋu** Wɔ nu kple GrapheneOS habɔbɔa kple nyamedzroƒewo hena aɖaŋuɖoɖowo, nya yeyewo, kple dedienɔnɔ ŋuti aɖaŋuɖoɖowo. Àte ŋu aƒo ka na ƒuƒoƒoa eye nànɔ nyatakaka yeyewo tom ne èzi [afisia](https://grapheneos.org/contact) be woaku kadodo geɖe me.
+**Nàwɔ Kpɔkplɔ Kple Link Kple Attachment Si Mènya O** Nàwɔ kplɔm kple link kple email attachment siwo mèbia o, elabena woate ŋu anye phishing ƒe agbagba alo malware.
 
-**Zã Official Installation Method** GrapheneOS na installation mɔnu eve siwo dziɖuɖua do alɔe. Zãlawo ateŋu atia WebUSB-based installer, si wokafu na ame ɖekaɖeka akpa gãtɔ, alo woateŋu awɔ ɖe sedede-line installation guide, si wowɔ na zãla siwo lɔ̃a mɔ̃ɖaŋununya wu la dzi.
+**Kpɔ Default Settings Dzi** Kpɔ default settings dzi nyuie eye nàtrɔ wo be woawɔ ɖeka kple wò ɣaɣla ƒe dzidzɔnuwo.
 
-## **Nyanuwuwuw**
+**Hamea Ƒe Kpekpeɖeŋu** Wɔ ɖeka kple GrapheneOS ƒe hamea kple forums be nàkpɔ aɖaŋu, nyɔŋlɔɖiwo, kple dedienyenye ƒe aɖaŋu. Àte ŋu aka ɖe team la ŋu eye nànɔ nyɔŋlɔɖiwo kpɔm to [afi](https://grapheneos.org/contact) dzi be nàkpɔ contacts bubuwo.
 
-Le nyateƒe me la, GrapheneOS katã ku ɖe asitelefon dzi dɔwɔɖoɖo bubu si tsɔa ezãlawo ƒe adzamenyawo kple dedienɔnɔ ɖoa ​​nɔƒe gbãtɔ, si ana woakpɔ ŋusẽ geɖe ɖe woƒe dijitaal agbenɔnɔ dzi esime wòle be wòawɔ ɖeka kple dɔwɔnu siwo dzi woɖoa ŋu ɖo la nana. Enye dɔ si ƒe taɖodzinue nye be woaɖo dzidzenu kɔkɔ aɖe na asitelefonwo ƒe dedienɔnɔ kple ame ŋutɔ ƒe nyawo gbɔ kpɔkpɔ le ɣeyiɣi si me dzimaɖitsitsi siawo nye nu vevitɔ kekeake me.
+**Zã Official Installation Ƒe Mɔnu** GrapheneOS naa installation ƒe mɔnu eve si woɖea alɔ na wo oficiale. Userwo ate ŋu atia WebUSB-based installer la, si nyo na amehawo geɖe, alo woate ŋu ato command-line installation guide la me, si woɖo na amesiwo le mɔ̃wu ƒe nyanya me wu.
+
+## **Nuƒoƒo Ƒe Ɖoɖo**
+
+Le nyateƒe me la, GrapheneOS ƒe nu vevitɔe nye be wòana mobile operating system bubu si ɖea ŋku vevie ɖe eƒe userwo ƒe ɣaɣla kple dedienyenye ŋu, eye wòana wo nakpɔ ŋusẽ geɖe le woƒe digital agbe dzi, esi wònɔ apps siwo woɖo ɖe wo ŋu la kple ɖekawɔwɔ me. E nye dɔwɔƒe si ɖo eɖokui be yeatsɔ standard dzidzɔ aɖe aɖo mobile device ƒe dedienyenye kple ɣaɣla me le ɣeyiɣi sia si nyawo siawo le vevie ŋutɔ me.
+
+## Ɖepewo Siwo Kplɔe ɖo
+
+- [Secure Messengers](Secure_Messengers.md) — nyaɖoɖo ɣaɣla le device si woɖo anyi sesẽ dzi
+- [PGP Encryption](PGP_Encryption.md) — email kple file ƒe maxɔmaxɔ si woɣla
+- [VPN and DVPN](VPN_and_DVPN.md) — network-layer ɣaɣla le mobile dzi
+- [Web Browsers](Web_Browsers.md) — mobile browser ƒe tiatia kple eƒe ɖoɖo sesẽ

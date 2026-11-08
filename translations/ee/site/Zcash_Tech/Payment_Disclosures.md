@@ -2,171 +2,171 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Fexexe ƒe kpeɖodzi si wokpɔ ta na kple fexexe ŋuti nyatakakawo
+# Ɣaɣla [Shielded] fexexe ƒe ɖaseɖigbalɛ kple fexexe ƒe nyaɖeɖe
 
 ## TL;DR
 
-- Asitsatsa ƒe ID dea dzesi asitsatsa aɖe, gake meɖea amesi xɔe, ga home, alo nuŋlɔɖi si wokpɔ ta na la fiana o.
-- Wotrɔ asi le fexexe ŋuti nyatakaka aɖe ŋu be wòana amesi ɖoe ɖa la naɖo kpe fexexe ɖeka ŋuti nyatakaka tiatia aɖewo dzi evɔ womaɖe woƒe gakotoku ŋutinya susɔea ɖe go o.
-- Nukpɔkpɔ ƒe safui naa nuxexlẽ si yia edzi be wòakpɔ adrɛs alo akɔnta aɖe. Zãe na agbalẽdzikpɔkpɔ siwo yi edzi, ke menye na nyaʋiʋli si ku ɖe fetu ɖeka ŋu o.
-- Fexexe ŋuti nyatakaka mate ŋu aɖo kpe adzɔnuwo ɖoɖo ɖe amewo dzi, ade dzesi ame aɖe le eɖokui si, atrɔ ga si woxe, alo aɖɔli kpeɖodzigbalẽviwo o.
-- [ZIP 311 ƒe xexlẽdzesi](https://zips.z.cash/zip-0311) gakpɔtɔ nye **Draft**. Eƒe nuŋɔŋlɔ si li fifia gblẽ Orchard ƒe kpekpeɖeŋu, transparent-input support, encoding, versioning, kple user-interface sewo ɖi womewu enu o.
+- Gaɖoɖo [transaction] ID dea gaɖoɖo aɖe dzesi, gake mèɖea ɣaɣla xɔla, gaƒoƒo, alo nya kpui [memo] fia o.
+- Wo wɔ fexexe ƒe nyaɖeɖe be wòana dɔla nàte ŋu aɖe fexexe aɖe ƒe nyawo fia, eye wòmeɖea eƒe gakotoku [wallet] ƒe ŋkɔmeɖeŋu katã ɖe go o.
+- Nukpɔsafui [viewing key] nana xexlẽ ƒe mɔ na gaɖoƒe ƒe dzesi [address] alo akɔŋu. Zãe na numekpɔkpɔ siwo ayi edzi, menye fexexe aɖe ƒe nyaŋlɔɖi ƒe ta o.
+- Fexexe ƒe nyaɖeɖe mate ŋu aɖe nuƒoƒo ƒe ɖoɖo fia o, mate ŋu ade ame aɖe ƒe dzesi le eɖokui me o, mate ŋu atrɔ fexexe megbe o, eye mate ŋu awɔ confirmation ƒe nukpɔkpɔ teƒe o.
+- [ZIP 311](https://zips.z.cash/zip-0311) gale **Draft** ko. Eƒe nuŋlɔɖi si le fifia me, Orchard ƒe kpekpeɖeŋu, nuwo ƒe ʋuʋuɖi-input ƒe kpekpeɖeŋu, encoding, versioning, kple user-interface ƒe sewo medze enu o.
 
-## Nusitae asitsatsa ƒe ID mesɔ gbɔ o
+## Nu ka ta gaɖoɖo ID mede o
 
-Ame sia ame ate ŋu alé ŋku ɖe Zcash ƒe fexexe si me kɔ la ŋuti nyatakakawo ŋu le dutoƒo. Block explorer ateŋu aɖe eƒe adrɛswo, ga homewo, kple kpeɖodzi ƒe nɔnɔme afia.
+Ame sia ame ate ŋu akpɔ nuwo ƒe ʋuʋuɖi Zcash fexexe ƒe dukɔme nyawo. Gaɖoɖowo ƒuƒoƒe [block] ƒe didimekpɔnu ate ŋu afia eƒe gaɖoƒe ƒe dzesiwo, gaƒoƒowo, kple confirmation ƒe nɔnɔme.
 
-Fexexe si wokpɔ ta na la wɔa dɔ le mɔ bubu nu. Kɔsɔkɔsɔa ɖo kpe edzi be asitsatsa la wɔ ɖe Zcash ƒe sewo dzi, gake metaa amesi ɖoe ɖa, amesi xɔe, ga home, alo nuŋlɔɖi si wokpɔ ta na o. Asitsatsa ƒe ID la mama ate ŋu afia be woɖe asitsatsa aɖe, gake mate ŋu aɖo kpe edzi na asitsala alo ame etɔ̃lia be ame ŋutɔ ƒe fetu kae nɔ eme o.
+Ɣaɣla fexexe wɔa dɔ le mɔ bubu nu. Ɖoɖonu [chain] la ɖea ɖase be gaɖoɖoa wɔ nu ɖe Zcash ƒe sewo nu, gake metsi ɣaɣla dɔla, xɔla, gaƒoƒo, alo nya kpui o. Gaɖoɖo ID mama ate ŋu afia be wo kuku gaɖoɖo la le block me, gake mate ŋu aɖe fia asitsalawo alo ame etɔ̃ aɖe be fexexe si le eƒe me nye ka o.
 
-Esia hea kuxi ŋutɔŋutɔ aɖe vɛ. Ðewohĩ ahiã be asisi aɖe nakpɔ asitsalawo ƒe nyaʋiʋli aɖe gbɔ, ahiã be asitsaha aɖe naɖo kpe edzi be yewɔ dɔ tso ga si woɖe le eme ŋu, alo nunala aɖe adi be yeaɖo kpe nudzɔdzɔ ɖeka dzi. Ne woama nukpɔkpɔ ƒe safui bliboa la, aɖe nu geɖe afia wu alesi nya siawo dometɔ ɖesiaɖe abia.
+Esia hea kuxi si wɔnɛa. Asiflela aɖe hia be wòatsɔ asitsala ƒe nyaŋlɔɖi aɖe awɔ nu, gatrɔƒe [exchange] aɖe hia be wòaɖe fia be yewɔ gaɖeɖe aɖe, alo ame si na ga hia be wòaɖe eƒe kpekpeɖeŋu aɖe fia. Nukpɔsafui blibo mama aɖea nyawo geɖe wu ale si nya siawo dometɔ aɖeke hia.
 
-[ZIP 311: Zcash Fexexe Ŋuti Nyatakakawo](https://zips.z.cash/zip-0311) do ŋuɖoɖo si le kpuie wu ƒe susu ɖa: ɖe nyatakaka tiatia siwo tso asitsatsa ɖeka me la ɖe go eye nàɖo kpe wo dzi.
+[ZIP 311: Zcash Fexexe ƒe Nyaɖeɖewo](https://zips.z.cash/zip-0311) dea ŋuɖoɖo sue aɖe: ɖe nyawo siwo wotia tso gaɖoɖo aɖe me ɖe go eye nàɖe eƒe nyateƒe fia.
 
 ![A transaction ID proves that a transaction exists but does not reveal shielded payment details. A ZIP 311 payment disclosure would let a verifier authenticate only the selected recipient, amount, memo, and optional sender details against the mined transaction.](/content-images/payment-disclosure-proof-flow-208c033e06.webp)
 
-## Alesi fexexe ŋuti nyatakaka aɖe wɔa dɔe
+## Ale si fexexe ƒe nyaɖeɖe wɔa dɔe
 
-Sisi vevitɔe nye:
+Mɔ gɔmeɖeɖe lae nye:
 
-1. Nusi ɖo kpe edzi la naa kuxi alo nufiame tɔxɛ aɖe ame si ɖoe ɖa, ne kpeɖodzi si woatsɔ awɔ dɔe sɔ.
-2. Ame si ɖoe ɖa la tiaa asitsatsa la kple nusiwo woɖe tso eme alo nusiwo woɖe tso eme siwo ŋu wokpɔ ta na be yeaɖe afia.
-3. Gakotoku ƒe kɔmpiutadziɖoɖo siwo sɔ la wɔa fexexe ŋuti nyatakaka si bla ɖe asitsatsa ma ŋu eye ne èdi la, kuxia hã.
-4. Amesi ɖoe ɖa la tsɔa nyatakakaa naa amesi ɖo kpe edzi.
-5. Dzɔla la xɔa asitsatsa ŋutɔŋutɔ tso Zcash node si dzi woka ɖo gbɔ, léa ŋku ɖe eŋu be woɖee, eye wòɖoa kpe nyatakaka si woɖe ɖe go la dzi le eŋu.
-6. Nusi do tso eme si sɔ ɖo kpe nya siwo wogblɔ le nyatakaka ma me ko dzi.
+1. Ɖaseɖigbalɛ ƒe kpeɖeŋutɔ na ɖolila la fɔsẽ ƒe biabia alo ƒeɖoƒe tɔxɛ, ne wɔwɔ ɖaseɖigbalɛ [interactive proof] le nyuitɔ.
+2. Ɖolila la tia gaɖoɖo la kple ɣaɣla nuɖoɖo alo nuɖoɖowo si wòadi be yeafia.
+3. Gakotoku [wallet] ƒe dɔwɔnu si dze ɖe eŋu wɔa fexexe ƒe nyafia si ƒo xɔ̃ na gaɖoɖo ma eye, ne wòdi, na biabia la.
+4. Ɖolila la na nyafia la ɖaseɖigbalɛ ƒe kpeɖeŋutɔ la.
+5. Ɖaseɖigbalɛ ƒe kpeɖeŋutɔ la kpɔ gaɖoɖo vavã la tso Zcash ɣaɣla dzesi ŋɔŋlɔ si wokpɔ dzi se me, doa go be wonuku e, eye wòkpe ɖe nyafia la ŋu kple e.
+6. Ɖoɖo si le nyuie dea go be nyawo siwo le nyafia ma me koe wòtsɔ ɖe eme.
 
-ZIP ƒe Sapling ƒe wɔwɔme zãa cipher key si dona tsɔ gbugbɔa emetsonu ɖesiaɖe si wotia. Esia ate ŋu aɖe amesi axɔ nusi woɖe tso eme, ga home, kple nuŋlɔɖi. Ebia hã be woaɖo kpe gazazã ƒe ŋusẽ dzi na asitsatsa ƒe nyatakaka ɖeka ya teti, eyata amesi kpɔ asitsatsa la ko mate ŋu awɔ nyatakaka si sɔ abe ɖe wòɖoe ɖa ene o.
+ZIP ƒe Sapling ƒe ɖoɖo zãa outgoing cipher key be wòaxɔ output si wotia ɖe sia ɖe gbɔ. Esia ate ŋu afia output la ƒe xɔla, gaƒoƒo, kple nya kpui. Ehia gazazãsafui [spending key] ƒe ŋusẽ ƒe ɖase na gaɖoɖo ƒe input aɖe hã, ale be ame si kpɔ gaɖoɖo la ko mate ŋu awɔ nyaɖeɖe si le nyateƒe me abe ne ye wɔe o.
 
-Mehiã be Sapling ƒe fexexe ŋuti nyatakaka aɖe naɖe amesi ɖoe ɖa ƒe adrɛs afia o. Gazazã ƒe ŋusẽ ate ŋu akpɔ ŋusẽ ɖe adrɛs vovovo geɖe dzi, eyata ne woɖo kpe gazazã dzi kpɔkpɔ dzi la, medea dzesi adrɛs ɖeka le eɖokui si o. ZIP 311 lɔ adrɛs ƒe kpeɖodzi si woate ŋu atia na nya siwo me wòhiã be woatsɔ kpeɖodzia aƒo ƒu kple adrɛs si wonya si ɖoe ɖa.
+Sapling fexexe ƒe nyaɖeɖe mele be wòaɖe dɔla ƒe gaɖoƒe ƒe dzesi fia o. Gazazã ƒe ŋusẽ ate ŋu ase gaɖoƒe ƒe dzesi siwo woto vovototo me wɔ geɖe, eyata gazazã ƒe ŋusẽ ƒe ɖase medea gaɖoƒe ƒe dzesi aɖe ƒe nyateƒe fia le eɖokui me o. ZIP 311 tsɔ gaɖoƒe ƒe dzesi ƒe ɖase si wotia de eme na nya siwo me wòle be woakaka ɖase la ɖe dɔla ƒe gaɖoƒe ƒe dzesi si woanya ŋu.
 
-## Fexexe ŋuti nyatakakawo ɖeɖe ɖe go alo nukpɔkpɔ ƒe safui?
+## Fexexe ƒe nyaɖeɖe alo nukpɔsafui?
 
-| Mɔnu | Zãzã nyuitɔ kekeake | Nusi wòɖe fia | Mɔɖeɖe ɖe nu ŋu yi edzia? | Wotsɔ nya ɣaɣlawo bla ɖe fexexea ŋua? |
+| Mɔnu | Zã nyawo si nyo wu | Nu si wòɖea fia | Ƒeɖeɖe si ayi edzi? | Wo kakae kple fexexe la cryptographically? |
 | --- | --- | --- | --- | --- |
-| Transaction ID | Kpɔkpɔ be woɖe asi le asitsatsa aɖe ŋu | Dutoƒo asitsatsa ŋuti nyatakakawo kple kpeɖodzinyawo | Ao | Ẽ, gake fexexe ŋuti nyatakaka siwo wokpɔ ta na la gakpɔtɔ le ɣaɣla |
-| Screenshot or receipt | Nuŋlɔɖiwo wɔwɔ le vome | Nuka kee amesi ɖoe ɖa tia be yeaɖe afia | Ao | Ao; woate ŋu atrɔ asi le nɔnɔmetata la ŋu |
-| Payment disclosure | Fexexe ɖeka ŋuti nyatakaka tiatia aɖewo ƒe kpeɖodzinana | Asitsatsa ƒe emetsonu tiatia kple amedɔdɔ ɖesiaɖe si le eme alo gbetɔame ƒe kpeɖodzi | Ao, gake woate ŋu awɔ kpeɖodzi si woama la ƒe kɔpi | Ẽ |
-| Incoming Viewing Key | Lé ŋku ɖe fe siwo akɔntabubu aɖe xɔ ŋu | Dɔwɔna si gbɔna si ŋu safuia ƒo nu tsoe | Ɛ̃ | Eɖea ga si woxena ɖe eta siwo sɔ la me |
-| Full Viewing Key | Akɔntabubu alo akɔntabubu aɖe me dzodzro | Dɔwɔna si va kple esi dona, ga homewo, nuŋlɔɖiwo, kple ga si susɔ si safuia xe | Ɛ̃ | Eɖea akɔntabubu ƒe dɔwɔna siwo sɔ la me |
+| Transaction ID | Kpɔkpɔ be wo kuku gaɖoɖo aɖe | Dukɔme gaɖoɖo ƒe data kple confirmations | Ao | Ɛ̃, gake ɣaɣla fexexe ƒe nyawo gale ɣaɣla |
+| Screenshot or receipt | Nyaŋlɔɖi ƒe dzadzraɖoɖo si menye se tɔxɛ o | Nu sia nu si dɔla tia be yòaɖe fia | Ao | Ao; woate ŋu atrɔ nɔnɔmetata la |
+| Payment disclosure | Ɖe fexexe aɖe ƒe nyawo siwo wotia ƒe nyateƒe fia | Gaɖoɖo ƒe outputs siwo wotia kple dɔla alo challenge ƒe ɖase siwo woɖe ɖe eme | Ao, gake woate ŋu akpɔ ɖase si womama la ƒe kopi | Ɛ̃ |
+| Incoming Viewing Key | Kpɔ fexexewo si akɔŋu aɖe xɔ | Incoming activity si key la kpɔ | Ɛ̃ | Ekpɔ ɣaɣlaŋlɔŋlɔ [encryption] le fexexewo si sɔ kplee ƒe me |
+| Full Viewing Key | Akɔŋu aɖe ƒe accounts alo numekpɔkpɔ | Incoming kple outgoing activity, gaƒoƒowo, nya kpuiewo, kple balances si key la kpɔ | Ɛ̃ | Ekpɔ ɣaɣlaŋlɔŋlɔ le akɔŋu ƒe activity si sɔ kplee ƒe me |
 
-Zã nya suetɔ kekeake si woɖe ɖe go si ɖo nyabiasea ŋu. Zi geɖe la, asitsalawo ƒe nyaʋiʋli le fetu ɖeka ŋu mefia be woate ŋu akpɔ ga ɖesiaɖe si woxe le gakɔnta me o. Akɔntanyala si wòle be wòato akɔntabubu ƒe ɣeyiɣi bliboa me ate ŋu ahiã be wòakpɔ safui ɖe eteƒe.
+Zã nyaɖeɖe sue wu si ɖoa biabia la ŋu. Asitsala ƒe nyaŋlɔɖi tso fexexe aɖe ŋu mele be wòanɔ mɔ na akɔŋu me fexexe ɖe sia ɖe kpɔkpɔ o. Accountant si le be wòakpɔ reporting period blibo aɖe me ate ŋu ahia nukpɔsafui ɖe eteƒe.
 
-Mɔnu eveawo dometɔ aɖeke menaa mɔɖeɖe be woazã ga o. Mègatsɔ nuku ƒe nyagbe, gazazã ƒe safui, ame ŋutɔ ƒe safui, alo gakotoku ƒe nudzraɖoƒe ƒe kpeɖodzi gbeɖe abe fexexe ƒe kpeɖodzi ene o.
+Mɔ aɖeke menana mɔ be woazã ga o. Mègana gadzraɖoɖi nya [seed phrase], gazazãsafui, private key, alo gakotoku ƒe backup abe fexexe ƒe ɖase o.
 
 ![A transaction record is available today but provides no new third-party proof. A payment disclosure would prove selected details of one payment. A viewing key provides broader, ongoing visibility.](/content-images/payment-disclosure-scope-0585cdc075.webp)
 
-## Nukae mate ŋu azã egbea?
+## Nu ka nye si mate ŋu azã egbe?
 
-Womede dzesi gakotoku aɖeke si li fifia le afisia be ewɔa ZIP 311 ƒe fexexe-nyatakakawo wɔwɔ alo eƒe kpeɖodzinana ŋudɔ o. ZIP gakpɔtɔ nye nuŋlɔɖi eye wòŋlɔ eƒe nufiame dɔwɔwɔ be "TBD." Dɔwɔnu siwo gbɔna siwo ŋu wodzra ɖo ate ŋu akpe ɖe ame si ɖoe ɖa, amesi xɔe, alo agbalẽdzikpɔla si ŋu woɖe mɔ ɖo ŋu kokoko be wòalé ŋku ɖe nuŋlɔɖi siwo li egbea ŋu:
+Gakotoku aɖeke si le fifia me womeɖe eƒe ŋkɔ le afisia abe esi wɔa ZIP 311 fexexe-ƒe-nyaɖeɖe wɔwɔ alo ɖoɖoɖo o. ZIP gale draft, eye wòŋlɔ eƒe reference implementation be "TBD." Dɔwɔnu siwo woƒe dzadzraɖoɖo yina edzi siwo gbɔna la ate ŋu akpe ɖe dɔla, xɔla, alo numekpɔla si woɖe mɔ nɛ ŋu be woakpɔ nyaŋlɔɖi siwo le egbe:
 
-| App | Viɖe le eŋu egbea na | Seɖoƒe vevi aɖe |
+| App | Nu si wòle be wòawɔ egbe | Meli vevi |
 | --- | --- | --- |
-| [Zkool](https://github.com/hhanh00/zkool2) | Adzɔnuwo ƒe metadata tsitotsito, ga homewo, pool inputs kple outputs, kple memos kpɔkpɔ; tsɔtsɔ de Unified alo Sapling ƒe nukpɔkpɔ safuiwo me ɖe nukpɔkpɔ ɖeɖeko ƒe akɔntabubuwo me | Medoa boblo ZIP 311 ƒe nyatakakaɖeɖefia wɔwɔ alo eƒe kpeɖodzi o |
-| [Zingo PC](https://github.com/zingolabs/zingo-pc) | Asitsatsa ŋutinya kple nuŋlɔɖi siwo wokpɔ ta na la me toto; importing a Unified Full Viewing Key le nuxexlẽ ɖeɖeko ƒe nɔnɔme me | Gakotoku ƒe nuŋlɔɖi alo akɔnta si woxlẽna ɖeɖeko menye fexexe ŋuti nyatakaka si woɖo tiatia aɖe o |
-| [Zallet](https://zcash.github.io/zallet/) | Operator ƒe dɔwɔwɔ ƒe ɖoɖowo zã `z_viewtransaction`, `z_exportviewingkey`, kple `z_importviewingkey` | Beta kɔmpiutadziɖoɖowo; eƒe nukpɔkpɔ-safui kple asitsatsa RPCwo nye esiwo keke ta wu alo nutoa me nuŋlɔɖiwo, ke menye ZIP 311 kpeɖodziwo o |
+| [Zkool](https://github.com/hhanh00/zkool2) | Kpɔ gaɖoɖo ƒe metadata si le nyuie, gaƒoƒowo, gaƒuƒoƒo [pool] ƒe inputs kple outputs, kple nya kpuiewo; tsɔ Unified alo Sapling nukpɔsafuiwo de view-only accounts me | Meɖea ZIP 311 nyaɖeɖe wɔwɔ alo ɖoɖoɖo ƒe gbe o |
+| [Zingo PC](https://github.com/zingolabs/zingo-pc) | Kpɔ ɣaɣla gaɖoɖo ƒe ŋkɔmeɖeŋu kple nya kpuiewo me; tsɔ Unified Full Viewing Key de eme le read-only mode me | Gakotoku ƒe nyaŋlɔɖi alo read-only akɔŋu menye fexexe ƒe nyaɖeɖe si woka ɖe nya aɖe ko ŋu o |
+| [Zallet](https://zcash.github.io/zallet/) | Operator ƒe dɔwɔmɔwo siwo zãa `z_viewtransaction`, `z_exportviewingkey`, kple `z_importviewingkey` | Beta software; eƒe nukpɔsafui kple gaɖoɖo RPCs ƒe nɔƒe kekeake wu alo wonye local records, menye ZIP 311 ƒe ɖasewo o |
 
-Zã gakotoku si ɖo ga la ɖa alo xɔe gbã. Kpɔ eƒe asitsatsa ŋuti nyatakakawo, nuŋlɔɖigbalẽ, asitsatsa ƒe ID, kple kpeɖodzinyawo ɖa, emegbe nàbia tso akpa kemɛa si be wòatsɔ nyatakaka mawo asɔ kple eya ŋutɔ ƒe nuŋlɔɖiwo. Mègade gakotoku yeye eme eye nàŋlɔ nuku ƒe nyagbe aɖe ɖe eme be yeatsɔ aɖe kpeɖodzi afia ko o. Ne agbalẽdzikpɔla hiã be woayi edzi akpɔe la, bu akɔnta si sɔ na nukpɔkpɔ ɖeɖeko ŋu eye nàse nukpɔkpɔ ƒe safuia ƒe lolome gɔme hafi nàmae.
+Zã gakotoku si dɔ fexexe la alo xɔe la gbã. Kpɔ eƒe gaɖoɖo ƒe nyawo, nya kpui, gaɖoɖo ID, kple confirmations, eye nàbia ame bubu la be wòatsɔ nyawo ma asɔ kple eya ŋutɔ ƒe nyaŋlɔɖiwo. Mègbe gakotoku yeye ɖe eme eye nàtsɔ gadzraɖoɖi nya ɖo eme be nàwɔ ɖase ko o. Ne numekpɔla aɖe hia nukpɔkpɔ si ayi edzi, bu view-only akɔŋu si sɔ ɖe eme ŋu eye se nukpɔsafui la ƒe nɔƒe gɔme hafi nàmama.
 
-Dɔdamɔnu siawo nye mɔnu nyui siwo dzi woato alé ŋku ɖe nuŋlɔɖiwo ŋu, ke menye kpeɖodzi be fexexe ŋuti nyatakaka si woɖo ɖi li o. Screenshot ate ŋu akpe ɖe amewo ŋu woatsɔ nuŋlɔɖiwo asɔ kple wo nɔewo, gake woate ŋu atrɔ asi le eŋu eye menye nya ɣaɣlawo ƒe kpeɖodzi o.
+Apps siawo nye mɔ siwo wɔnɛa na nyaŋlɔɖi kpɔkpɔ, menye ɖase be fexexe ƒe nyaɖeɖe si wode se na le o. Screenshot ate ŋu akpe ɖe ameawo ŋu be woasɔ nyaŋlɔɖiwo, gake woate ŋu atrɔe eye menye cryptographic ɖase o.
 
-## Afisi fexexe ŋuti nyatakakawo ku ɖo le
+## Afisi fexexe ƒe nyaɖeɖewo wɔnɛ
 
-### Asitsalawo ƒe nyaʋiʋliwo
+### Asitsala ƒe nyaŋlɔɖiwo
 
-Asisi aɖe ate ŋu aɖo kpe edzi be woɖo ga home aɖe koŋ ɖe asitsala la ƒe adrɛs si ŋu wokpɔ ta na. Kpeɖodzia meɖo kpe edzi be wotsɔ adzɔnuwo vɛ, be wonyi fe si wogbugbɔ na wo, alo be ame si tsɔe ɖo ŋkume la ƒe dzesideŋkɔ tɔxɛ aɖe le se nu o. Nyabiase mawo gakpɔtɔ nɔ te ɖe nudɔdɔa ŋuti nuŋlɔɖi kple akpa eveawo ƒe nubabla dzi.
+Asiflela ate ŋu aɖe fia be wòɖo gaƒoƒo aɖe ɖe asitsala ƒe ɣaɣla gaɖoƒe ƒe dzesi. Ɖase la meɖea fia be woɖo nuƒoƒo o, be woɖo be woatsɔ ga atrɔ alo o, alo be ame si tsɔe va la ƒe legal identity le etɔxɛ o. Biabia siawo gale order ƒe nyaŋlɔɖi kple ameawo ƒe agreement ŋu.
 
-### Nusiwo woɖena le ga me siwo ŋu wokpɔ ta na
+### Ɣaɣla gaɖeɖewo
 
-ZIP 311 yɔ ga si woɖe le eme si wokpɔ ta na abe taɖodzinu zazã ƒe nɔnɔme ene: asitɔtrɔ aɖe aɖo kpe amesi xɔe kple ga home dzi evɔ womata nyatakaka mawo ɖe kɔsɔkɔsɔ me o. Eƒe kpeɖodzi si nye transparent-input la mewu enu haɖe o, eyata esia menye dɔwɔwɔ si woɖo ɖe ɖoɖo nu bliboe haɖe o. Ele be asisi la nalé ŋku ɖe asitsatsa la ƒe kpeɖodzi ƒe nɔnɔme hã ŋu le eɖokui si.
+ZIP 311 ƒo ɣaɣla gaɖeɖewo ƒe nya abe zã nyawo aɖe: gatrɔƒe aɖe aɖe xɔla kple gaƒoƒo la ƒe nyateƒe fia ne metsi nyawo ma ɖe ɖoɖonu dzi o. Eƒe nuwo ƒe ʋuʋuɖi-input ƒe ɖase medze enu haɖe o, eyata esia menye standard ƒe dɔwɔmɔ blibo haɖe o. Asiflela hia be wòakpɔ gaɖoɖo la ƒe confirmation ƒe nɔnɔme le eɖokui me hã.
 
-### Nudzɔdzɔwo
+### Ga nana
 
-Nunala alo dɔdzikpɔha aɖe ate ŋu aɖo kpe nudzɔdzɔ aɖe koŋ dzi esime wògblẽ fe siwo medo ƒome kplii o ɖe ame ŋutɔ si. Nyatakaka si woɖe ɖe go la tata nana be amesiame si axɔ eƒe kɔpi nadze le gaglãgbe, eyata ame ŋutɔ ƒe mɔ si dzi woato aɖo kpe edzi la le dedie wu ne dutoƒo kpeɖodzi mehiã o.
+Ame si na ga alo campaign aɖe ate ŋu aɖe kpekpeɖeŋu aɖe ƒe nyateƒe fia ne fexexe bubuwo gale ɣaɣla. Nyaɖeɖe la ɖe dukɔme nana wɔa be eƒe nyawo siwo wotia la na ame sia ame si xɔ kopi, eyata mɔ ɣaɣla si me woaɖoɖo nya la nyo wu ne dukɔme ɖase mehia o.
 
-### Akɔntabubu
+### Akɔŋu ƒe nyaŋlɔɖi
 
-Zã fexexe ŋuti nyatakaka ne akɔntanyala hiã kpeɖodzi na asitsatsa ɖeka. Zã nukpɔkpɔ ƒe safui si le kpuie wu si sɔ ne ehiã be akɔntanyala la nayi edzi akpɔ asitsatsa geɖe alo akɔntabubu ƒe ɣeyiɣi blibo aɖe.
+Zã fexexe ƒe nyaɖeɖe ne accountant hia ɖase na gaɖoɖo aɖe. Zã nukpɔsafui si meɖe go o wu ne accountant hia mɔ si ayi edzi na gaɖoɖowo geɖe alo reporting period blibo aɖe.
 
-## Dɔwɔwɔ ƒe ɖoɖo si me ame ŋutɔ ƒe nyawo le dedie
+## Ɣaɣla ƒe dɔwɔmɔ si le dedie
 
-ZIP 311 menye gakotoku ƒe dzidzenu si wowu enu, si woate ŋu azã le afisiafi haɖe o. Ne dɔwɔnu siwo sɔ ɖe dɔdzikpɔla kple kpeɖodzinana nu va li la, zã ɖaseɖigbalẽ sia:
+ZIP 311 menye gakotoku ƒe standard si wode enu, si woate ŋu azã le afisia afisia haɖe o. Ne dɔwɔnu siwo sɔ na dɔla kple ame si akpɔ ɖase la va le, zã checklist sia:
 
-1. **Ðo kpe ɖekawɔwɔ dzi gbã.** Ele be dɔwɔnu eveawo siaa nado alɔ nyatakakawo ɖeɖefia ƒe ɖoɖo ɖeka kple shielded pool si fexexea zãna.
-2. **Mikpɔ kuxi dzrowo gbɔ gbã.** Kpɔ gakotoku ƒe wɔwɔ ɖekae, asitsatsa ƒe ID, kpeɖodzi ƒe xexlẽme, ɣeyiɣi si wu enu ƒe nɔnɔme, kple amesi xɔe ƒe nuŋlɔɖiwo hafi nàɖe ame ŋutɔ ƒe nyatakakawo afia.
-3. **Bibia be woatsɔ nya ɖe ye ŋu.** Le nyaʋiʋli aɖe ta la, ele be amesi ɖo kpe edzi la natsɔ nudɔdɔ ƒe xexlẽdzesi yeye alo nyaʋiʋli si wowɔ le vome ale be nyatakaka si woɖe ɖe go la nabla ɖe biabia ma ŋu.
-4. **Tia nusi hiã koe.** Mègatsɔ nusiwo medo ƒome kple wo nɔewo o tso asitsatsa ɖeka me de eme o.
-5. **Kpɔ agble ɖesiaɖe si woɖe fia do ŋgɔ.** Kpɔ amesi xɔe, ga home, nuŋlɔɖi, amedɔdɔ-adrɛs ƒe kpeɖodzi, kple gbetɔame hafi nàɖoe ɖe duta.
-6. **Mae to ame ŋutɔ ƒe mɔnu dzi.** Nyaɖeɖefia menye gazazã ƒe safui le adzame o, gake amesiame si axɔe ate ŋu alé nyatakaka siwo wòɖe fia la ɖe asi alo agbugbɔ ama wo.
-7. **Ðo kpe edzi ɖe kɔsɔkɔsɔa ŋu.** Ele be kpeɖodziwɔla la naxɔ asitsatsa la tututu tso node si dzi woka ɖo gbɔ, aɖo kpe edzi be ele network si woɖo be wòaxe la me eye wòaxe mɔ nɛ, emegbe wòada asi ɖe nyatakaka si woɖe ɖe go dzi.
-8. **Ŋlɔ emetsonua ɖi, ke menye nya ɣaɣla bubuwo o.** Nusiwo nyaʋiʋli, gaɖeɖe, nudzɔdzɔ, alo akɔntabubu ƒe ɖoɖoa bia ko dzra ɖo.
+1. **Kpɔ be woasɔ kple wo nɔewo gbã.** Dɔwɔnu eveawo katã le be woakpe ɖe nyaɖeɖe ƒe format ɖeka kple ɣaɣla gaƒuƒoƒo si fexexe la zã ŋu.
+2. **Ɖo kuxi siwo wɔnɛa kpɔ gbã.** Kpɔ gakotoku ƒe sync, gaɖoɖo ID, confirmation ƒe xexlẽme, expiry ƒe nɔnɔme, kple xɔla ƒe nyaŋlɔɖiwo hafi nàɖe nyawo ɣaɣla ɖe go.
+3. **Bia challenge.** Na nyaŋlɔɖi aɖe, ame si akpɔ ɖase la le be wòana order ƒe xexlẽme yeye alo random challenge, ale be woakaka nyaɖeɖe la ɖe biabia ma ŋu.
+4. **Tia output si hia ko.** Mètsɔ outputs bubuwo tso gaɖoɖo ma ke me ɖe eme o.
+5. **Kpɔ field siwo katã woaɖe fia gbã.** Kpɔ xɔla, gaƒoƒo, nya kpui, dɔla-gaɖoƒe-ƒe-dzesi ƒe ɖase, kple challenge hafi nàɖe eme.
+6. **Ma le mɔ ɣaɣla dzi.** Nyaɖeɖe menye gazazãsafui ɣaɣla o, gake ame sia ame si xɔe ate ŋu akpɔ alo awɔ nyawo si wòɖea fia ƒe mama.
+7. **Ɖoɖo kple ɖoɖonu la.** Ame si akpɔ ɖase la le be wòatsɔ gaɖoɖo si tututu tso ɣaɣla dzesi ŋɔŋlɔ si wòka ɖe dzi me, akpɔ be wòle network kple gaɖoɖowo ƒuƒoƒe si wolɔ̃ me, eye wòaɖo nyaɖeɖe la.
+8. **Ŋlɔ emetsonu la, menye ɣaɣla bubuwo o.** Dzra nu si nyaŋlɔɖi, gaɖeɖe, ga nana, alo akɔŋu ƒe nyaŋlɔɖi ƒe mɔnu hia ko ɖo.
 
-Ne gakotokua mate ŋu awɔ nyatakaka aɖe o la, mègatsɔ nukpɔkpɔ ƒe safui blibo aɖo eteƒe ne mèse eƒe kekeme si keke ta wu eye wònɔa anyi ɖaa gɔme o. Bia nenye be amesi xɔe ate ŋu aɖo kpe ga si wòxe dzi tso eya ŋutɔ ƒe gakotoku me nuŋlɔɖiwo me alo axɔ nuŋlɔɖi si me mekɔ tututu o ɖe eteƒe.
+Ne gakotoku la mate ŋu awɔ nyaɖeɖe o, mègatsɔ nukpɔsafui blibo de eteƒe me ne mèse eƒe nɔƒe kekeake kple si menoa o. Bia be xɔla la ate ŋu aɖe fexexe la ƒe nyateƒe fia tso eya ŋutɔ ƒe gakotoku ƒe nyaŋlɔɖiwo me alo wòate ŋu axɔ nyaŋlɔɖi si meɖe nyawo geɖe go o.
 
-## Nusi nyatakaka si woɖe ɖe go si sɔ meɖo kpe edzi o
+## Nu si nyaɖeɖe si le nyateƒe me meɖea fia o
 
-Kpeɖodzinya dzidzedzetɔe meɖo kpe edzi be:
+Ɖoɖoɖo si dzɔ nyuie meɖea nu siawo ƒe nyateƒe fia o:
 
-- Be kpeɖodzi siwo sɔ le asitsatsa la si na amesi ɖo kpe edzi ƒe afɔku ŋuti ɖoɖoa
-- Be kɔsɔkɔsɔ ƒe ɖoɖo yeye mate ŋu aɖe asitsatsa aɖe si wowɔ nyitsɔ laa ɖa o
-- Be wotsɔ adzɔnuwo alo dɔwɔnawo yi na amewo
-- Be wobia be woagbugbɔ ga la ana alo agbugbɔ ga axɔ
-- Be amesi ɖoe ɖa la kpɔa adrɛs aɖe koŋ dzi, negbe ɖe wotsɔ adrɛs ƒe kpeɖodzi si sɔ kpe ɖe eŋu hafi
-- Be ame si tsɔ nyatakakaa ɖe go la ƒe amenyenye si wogblɔ be enye xexeame ŋutɔŋutɔ la le esi
-- Be asixɔxɔ aɖe koŋ le nusiwo womeɖe fia o, asitsatsa bubuwo, alo gakotokua ƒe ga si susɔ ŋu
-- Be nyatakaka si woɖe ɖe go la gakpɔtɔ nye ame ŋutɔ tɔ ne womae vɔ
+- Be gaɖoɖo la ƒe confirmations sɔ na ame si akpɔ ɖase la ƒe risk policy
+- Be chain reorganization mate ŋu aɖe gaɖoɖo yeye aɖe o
+- Be woɖo nuƒoƒo alo servicewo
+- Be gaatrɔtrɔ alo chargeback le be woawɔ
+- Be dɔla la kpɔa gaɖoƒe ƒe dzesi aɖe ŋu, ne woɖe gaɖoƒe ƒe dzesi ƒe ɖase si sɔ ɖe eme o
+- Be ame si tsɔ nyaɖeɖe la va la ƒe ameŋutilã ƒe identity si wògblɔ le nyateƒe me
+- Be outputs si woɖe fia o, gaɖoɖo bubuwo, alo gakotoku la ƒe balance wɔ nu le gaƒoƒo aɖe
+- Be nyaɖeɖe la anɔ ɣaɣla le mama megbe
 
-Ele be kpeɖodziwɔla nalé ŋku ɖe kɔsɔkɔsɔ ƒe dede eme kple kpeɖodzi ƒe nɔnɔme ŋu ɖe vovo. ZIP 311 ƒe kpeɖodzinana ƒe ɖoɖoa tsɔe be ame si le ka ƒom la xɔ asitsatsa si woɖe tome kple eƒe block ƒe kɔkɔme xoxo.
+Ame si akpɔ ɖase la le be wòakpɔ ɖoɖonu me nɔƒe kple confirmation ƒe nɔnɔme le eɖokui me. ZIP 311 ƒe ɖoɖo ƒe mɔnu bua be ame si yɔe la xɔ gaɖoɖo si wo kuku xoxo kple eƒe gaɖoɖowo ƒuƒoƒe ƒe kɔkɔme xexlẽme.
 
-## Seɖoƒe siwo li fifia
+## Meli siwo le fifia
 
-Bu ZIP 311 abe dzidzenu si wodo ɖa ene, ke menye abe ŋugbedodo be **Ðo kpe fexexe dzi** ƒe dzesi si le dɔ wɔm le gakotoku si li fifia ŋu o.
+Bu ZIP 311 be nye standard si woɖo ɖe ŋgɔ, menye ŋugbe be gakotoku si le fifia me wɔa **Fia fexexe ƒe nyateƒe** ƒe button o.
 
-Fifia la, nuŋlɔɖia gblɔ Sapling ƒe gazazãwo kple nusiwo dona tso eme, gake nusiwo womewu enu haɖe o na Orchard, nusiwo wotsɔ de eme si me kɔ, nyatakakawo ɖeɖefia ƒe nuŋɔŋlɔ, tɔtrɔ, kple alesi wòle be gakotokuwo naɖe woƒe nyonyome ƒe seƒe vovovowo afia la gakpɔtɔ le eme. Woŋlɔ eƒe nufiame dɔwɔwɔ hã be "TBD." Abe alesi woŋlɔe ene la, meɖe fexexe ŋuti nyatakakawo me na Orchard alo Ironwood ƒe fexexe o.
+Draft la dea Sapling ƒe gazazãwo kple outputs ɖe eme fifia, gake eƒe nu siwo medze enu haɖe nye Orchard, nuwo ƒe ʋuʋuɖi inputs, nyaɖeɖe ƒe encoding, versioning, kple ale si gakotokuwo le be woafia validity ƒe level vovovowo. Woŋlɔ eƒe reference implementation hã be "TBD." Abe ale si woŋlɔe ene la, meɖoa fexexe ƒe nyaɖeɖewo na Orchard alo Ironwood fexexewo o.
 
-Ate ŋu adzɔ hã be amesi ɖoe ɖa la mate ŋu aɖe emetsonu aɖe afia nenye be woɖoe koŋ wɔ asitsatsa la evɔ womekpɔa nukpɔkpɔ ƒe safui si dona le eme na nusi do tso eme ma o. ZIP 311 kpɔa ameŋunyatakakawo ƒe tiatia ma ta tsɔ wu be wòawɔ mɔ yeye si dzi woato agbugbɔe axɔ.
+Dɔla la hã mate ŋu aɖe output aɖe ɖe go o ne wo wɔ gaɖoɖo la ŋutɔ be outgoing viewing key mele output ma ŋu o. ZIP 311 de ɣaɣla ƒe tiatia ma ɖe eteƒe, le mɔ yeye aɖe ɖe recovery ta teƒe o.
 
-Nuŋlɔɖi xoxowo ƒo nu tso dodokpɔa ŋu `z_getpaymentdisclosure` kple `z_validatepaymentdisclosure` sededewo le `zcashd`. Sedede mawo do alɔ **Sprout JoinSplit ƒe dodokpɔwo ɖeɖeko**, ke menye Sapling ƒe ɖoɖo si le ZIP 311 me o, eye woɖe asi le wo ŋu. `zcashd` reached its final End-of-Support halt in July 2026. Mègazã domenyinu ƒe azɔlizɔzɔ ma abe mɔfiame ene na ga siwo li fifia o.
+Nyaŋlɔɖi xoxowo ƒo experimental `z_getpaymentdisclosure` kple `z_validatepaymentdisclosure` commands le `zcashd` ŋu. Commands mawo kpe ɖe **Sprout JoinSplit outputs ko** ŋu, menye Sapling ƒe ɖoɖo si le ZIP 311 me o, eye woɖe woƒe zãzã ɖa. `zcashd` va se ɖe eƒe End-of-Support ƒe tɔtɔtɔ katã me le July 2026. Mègazã mɔɖeɖe xoxo ma abe fiafia na ga siwo le fifia o.
 
-Dodokpɔ siawo mena viɖe aɖeke mele susua ŋu o. Woɖe nusita wòle be mɔfiame si ŋuɖɔɖɔɖo le nama ameŋunyatakakawo ŋuti nyatakakawo kple wo zazã ƒe nɔnɔmewo ɖa tso kɔmpiutadziɖoɖo siwo sɔ na ezãla dzrowo gbɔ la me.
+Meli siawo menye be susu la mewɔnɛ o. Woɖea nu me be nu ka ta fiafia si le nyuie le be wòama ɣaɣla ƒe model kple zã nyawo tso software siwo le klalo na zãla ƒe dzadzraɖoɖo ŋu.
 
-## Nyabiasewo ƒe Nyabiasewo
+## FAQ
 
-### Ðe mate ŋu aɖo kpe fexexe si wokpɔ ta na dzi kple asitsatsa ƒe ID ɖeɖekoa?
+### Ate ŋu aɖe ɣaɣla fexexe aɖe ƒe nyateƒe kple gaɖoɖo ID ko oa?
 
-Ao, ID la ate ŋu ade dzesi asitsatsa la kple eƒe kpeɖodzi ƒe nɔnɔme, gake amesi xɔ akpoxɔnu, ga home, kple nuŋlɔɖi si wowɔ la mele dutoƒo o.
+Ao. ID la ate ŋu ade gaɖoɖo la kple eƒe confirmation ƒe nɔnɔme dzesi, gake ɣaɣla xɔla, gaƒoƒo, kple nya kpui menye dukɔme nyawo o.
 
-### Ðe fexexe ŋuti nyatakaka aɖe sɔ kple safui si wotsɔ kpɔa nua?
+### Fexexe ƒe nyaɖeɖe nye nukpɔsafuia?
 
-Ao, woɖoa nyatakaka aɖe ɖe go ɖe asitsatsa ɖeka ŋuti nyatakaka tiatia aɖewo ŋu. Nukpɔkpɔ ƒe safui ate ŋu aɖe dɔwɔna si sɔ kple adrɛs alo akɔnta aɖe afia le ɣeyiɣi aɖe megbe.
+Ao. Nyaɖeɖe aɖe kaka ɖe gaɖoɖo aɖe ƒe nyawo siwo wotia ŋu. Nukpɔsafui ate ŋu aɖe activity si sɔ ɖe gaɖoƒe ƒe dzesi alo akɔŋu aɖe ŋu fia le ɣeyiɣi me.
 
-### Ðe amesi xɔe ate ŋu awɔ ame si ɖoe ɖa la ƒe kpeɖodzia?
+### Xɔla la ate ŋu awɔ dɔla ƒe ɖasea?
 
-Menye le ZIP 311 ƒe nɔnɔme te o. Ele be nyaɖeɖefia si sɔ naɖo kpe gazazã ƒe ŋusẽ dzi na nyatakaka ɖeka ya teti. Ame si xɔa ga la ate ŋu azã woawo ŋutɔ ƒe gakotoku me nuŋlɔɖiwo atsɔ aɖo kpe ga si wòxe dzi, gake nya bubue nye ema.
+Ao, menye le ZIP 311 ƒe ɖoɖo nu o. Nyaɖeɖe si le nyateƒe me le be wòaɖe gazazã ƒe ŋusẽ fia na input aɖe. Xɔla la ate ŋu aɖe fexexe aɖe ƒe nyateƒe fia kple eya ŋutɔ ƒe gakotoku ƒe nyaŋlɔɖiwo, gake esia nye nya bubu.
 
-### Ðe mate ŋu ate fli ɖe nyatakaka aɖe si woɖe ɖe go me ne memae vɔa?
+### Ate ŋu aɖe nyaɖeɖe aɖe ɖa le mama megbea?
 
-Ao, menaa mɔnukpɔkpɔ ame be wòakpɔ akɔntabubu le etsɔme abe safui si wotsɔ kpɔa nu ene o, gake woate ŋu awɔ nyatakaka kple kpeɖodzi siwo woɖe ɖe go la ƒe kɔpi. Mae nyuie abe alesi ame ŋutɔ ƒe ganyawo ŋuti nuŋlɔɖi ɖesiaɖe mae ene.
+Ao. Menana akɔŋu ƒe mɔ si ayi edzi abe nukpɔsafui ene o, gake woate ŋu akpɔ data kple ɖase si woɖe fia ƒe kopi. Ma nɛ kple nyagblɔɖi ale si nàma financial record ɣaɣla bubu aɖe.
 
-### Ðe kpeɖodzinana ʋua ZEC aɖe alo tua enua?
+### Ɖoɖoɖo la ɖea alo kɔa ZEC aɖekea?
 
-Ao, nyatakaka aɖe wɔwɔ alo edzidada mezãa ga, gbugbɔa ga, tsia tre ɖe eŋu, alo trɔa asi le eŋu o.
+Ao. Nyaɖeɖe wɔwɔ alo ɖoɖoɖo mewɔa gazazã, gaatrɔtrɔ, frost, alo gaɖeɖe megbe o.
 
-### Nukae wòle be mazã egbea ne nyaɖeɖefia ƒe mɔnu aɖeke mele nye gakotokua me o?
+### Nu ka wòle be mazã egbe ne nye gakotoku mewɔa nyaɖeɖe o?
 
-Dze egɔme kple amesi xɔe ƒe gakotoku me nuŋlɔɖiwo, asitsatsa ƒe ID kple kpeɖodzi ƒe nɔnɔme, adzɔxegbalẽvi ƒe nyatakaka si le nuŋlɔɖi si wotsɔ nya ɣaɣlawo ŋlɔ me, alo gaxɔgbalẽvi bubu si dzi wo ame evea da asi ɖo. Ne eƒe kekeme si keke ta wu hiã vavã eye wose egɔme ko hafi nàzã nukpɔkpɔ ƒe safui.
+Dze egɔme kple xɔla ƒe gakotoku ƒe nyaŋlɔɖiwo, gaɖoɖo ID kple confirmation ƒe nɔnɔme, invoice ƒe reference le nya kpui si woŋlɔ ɣaɣla me, alo receipt bubu si mia ame eveawo katã lɔ̃. Zã nukpɔsafui ne eƒe nɔƒe kekeake hia le nyateƒe me eye wòse gɔme.
 
-## Nunɔamesiwo
+## Nudzɔdzɔwo
 
-- [ZIP 311: Zcash Fexexe Ŋuti Nyatakakawo](https://zips.z.cash/zip-0311) - ɖoɖowɔɖi si wowɔ, nudidiwo, kpeɖodzinana ƒe ɖoɖo, kple ameŋunyatakakawo ŋuti nukpɔsusuwo
-- [ZIP 310: Sapling Viewing Keys ƒe Dedienɔnɔ ƒe Nɔnɔmewo](https://zips.z.cash/zip-0310) - nusiwo nukpɔkpɔ ƒe safuiwo ɖena fiana kple kakaɖedzi siwo wonana
-- [ZIP 304: Sapling Adrɛs ƒe Asidede Asi](https://zips.z.cash/zip-0304) - adrɛs-kpeɖodzi ƒe mɔnu si woate ŋu atia si ŋu ZIP 311 ƒo nu tsoe
-- [Zcash ƒe ɖoɖowɔɖi ƒe nɔnɔmetata](https://zips.z.cash/protocol/protocol.pdf) - Sapling note encryption, outgoing viewing keys, kple gazazã ƒe mɔɖeɖe
-- [Archived zcashd fexexe-ɖeɖefia ƒe nuŋlɔɖi](https://github.com/zcash/zcash/blob/master/doc/payment-disclosure.md) - ŋutinya me Sprout-ko ƒe dɔwɔwɔ, menye fifi mɔfiame o
-- [zcashd ƒe nɔnɔme siwo woɖe ɖa](https://zcash.github.io/zcash/user/deprecation.html) - nɔnɔme si le dodokpɔ xoxoawo me ɖeɖefia ƒe sededewo ŋu
+- [ZIP 311: Zcash Fexexe ƒe Nyaɖeɖewo](https://zips.z.cash/zip-0311) - draft ƒe ɖoɖo, hiahiãwo, ɖoɖo ƒe mɔnu, kple ɣaɣla ƒe nuxlɔ̃wo
+- [ZIP 310: Sapling Nukpɔsafuiwo ƒe Dedie ƒe Nɔnɔmewo](https://zips.z.cash/zip-0310) - nu siwo nukpɔsafuiwo ɖea fia kple guarantees siwo wonana
+- [ZIP 304: Sapling Gaɖoƒe ƒe Dzesi ƒe Asidede Agbalẽ Teewo](https://zips.z.cash/zip-0304) - gaɖoƒe ƒe dzesi-ɖase ƒe mɔnu si wotia, si ZIP 311 yɔe
+- [Zcash protocol specification](https://zips.z.cash/protocol/protocol.pdf) - Sapling didienu [note] ƒe ɣaɣlaŋlɔŋlɔ, outgoing viewing keys, kple gazazã ƒe mɔɖeɖe
+- [Archived zcashd fexexe-ƒe-nyaɖeɖe ƒe document](https://github.com/zcash/zcash/blob/master/doc/payment-disclosure.md) - Sprout-only implementation xoxo, menye fiafia si le fifia o
+- [zcashd features si woɖe woƒe zãzã ɖa](https://zcash.github.io/zcash/user/deprecation.html) - experimental disclosure commands xoxo ƒe nɔnɔme
 
-## Axa siwo do ƒome kplii
+## Axɔa siwo sɔ kplee
 
-- [Asitsatsa](/using-zcash/transactions) - fexexe siwo wokpɔ ta na, kpeɖodzinyawo, kple asitsatsa ƒe kuxiwo gbɔ kpɔkpɔ
-- [Safuiwo kpɔkpɔ](/zcash-tech/viewing-keys) - nuxexlẽ ɖeɖeko ƒe mɔɖeɖe si yia edzi kple fifi dɔdɔ ƒe tiatia
-- [Nusi block explorer ate ŋu akpɔ](/zcash-tech/what-a-block-explorer-can-see) - dukɔa kple ame ŋutɔ ƒe asitsatsa ƒe agblewo
-- [Nuŋlɔɖiwo wɔwɔ kple ZEC si wotsɔ akpoxɔnu wɔe](/zcash-use-cases/keeping-records-with-shielded-zec) - akɔntabubu si me wota gakotoku ŋutinya o
+- [Gaɖoɖowo](/using-zcash/transactions) - ɣaɣla fexexewo, confirmations, kple gaɖoɖo ƒe kuxi ƒe ɖoɖo
+- [Nukpɔsafuiwo](/zcash-tech/viewing-keys) - read-only mɔ si ayi edzi kple export ƒe mɔnu siwo le fifia
+- [Nu si gaɖoɖowo ƒuƒoƒe ƒe didimekpɔnu ate ŋu akpɔ](/zcash-tech/what-a-block-explorer-can-see) - gaɖoɖo ƒe fields dukɔme kple ɣaɣla
+- [Nyaŋlɔɖi ƒe dzadzraɖoɖo kple ɣaɣla ZEC](/zcash-use-cases/keeping-records-with-shielded-zec) - akɔŋu wɔwɔ ne metsi gakotoku ƒe ŋkɔmeɖeŋu ɖe go

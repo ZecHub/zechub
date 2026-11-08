@@ -1,37 +1,39 @@
 #  <img src="/content-images/e38b13a9-d410-426a-a1e6-2dde105d56c4-6b8154e5ae.webp" alt="Alt Text" width="50"/> ZingoLabs
 
-[Dziɖuɖua ƒe Nyatakakadzraɖoƒe](https://zingolabs.org/) - [GitHub ƒe ŋkɔ](https://github.com/zingolabs) - [X/Twitter dzi](https://x.com/ZingoLabs) - [Instagram](https://www.instagram.com/zingolabesp/)
+[Nyatakakadzraƒe vevi](https://zingolabs.org/) - [GitHub](https://github.com/zingolabs) - [X/Twitter](https://x.com/ZingoLabs) - [Instagram](https://www.instagram.com/zingolabesp/)
 
-ZingoLabs nye ŋutegakpɔlawo ƒe ƒuƒoƒo si tsɔ wo ɖokui na be yewoana amegbetɔ ƒe nuteƒekpɔkpɔ nanyo ɖe edzi. Míexɔe se be ele be mɔ̃ɖaŋununya naɖe vi na ameƒomea eye be míakpɔ dzidzedze to kadodo siwo dzi wolɔ̃ ɖo me. Míele dzesi dem kpɔɖeŋu siwo na esia te ŋu dzɔna.
+ZingoLabs nye nukpɔla ƒe hatɔ siwo tsɔ wo ɖokui de ameƒomevi ƒe agbenɔnɔ nyuie wɔwɔ me. Míexɔe se be teknɔlɔdzi na na viɖe na amegbetɔwo, eye míenɔa anyi nyuie to nu siwo woƒe lɔlɔ̃ le eme me. Míele ɖoɖowo siwo wɔna be esia anɔ te ŋu dzrom.
 
-Zingo Lab Cyan wɔa dɔ abe Shielded DAO ene. Míedzraa míaƒe ga ɖo ɖe gaxɔ aɖe si me hamevi ɖesiaɖe ƒe nukpɔkpɔ ƒe safui le. Wozãa ga tso gaxɔa me ne hameviwo da asi ɖe aɖaŋuɖoɖo aɖe dzi.
+Zingo Lab Cyan wɔa dɔ abe ɣaɣla [Shielded] DAO ene. Míetsɔa míatɔwo ɖoa gadzraɖoƒe [treasury] me, afi si hatɔ sia hatɔ si ƒe nukpɔsafui [viewing key] le. Woɖea ga tso gadzraɖoƒe la me ne hatɔwo ɖo vote be woakpe ɖe aɖaŋu aɖe ŋu.
 
-## Dɔwɔnawo
+## Dɔwo
 
-### Zingo! Gakotoku ([GitHub](https://github.com/zingolabs/zingo-mobile))
-Zingo Wallet nye Zcash gakotoku si me nusianu le si wowɔ na ezãla xɔlɔ̃wɔwɔtɔe, togbɔ be nɔnɔme deŋgɔ aɖewo le eme na ezãla siwo de ŋgɔ wu hã. Edoa alɔ transparent, Sapling kple Orchard pools, adrɛsgbalẽ le esi na fexexe enuenu eye wòle gbegbɔgblɔ vovovowo me. Enye gakotoku gbãtɔ si do alɔ Orchard eye wòwɔ NU5 ƒe nɔnɔmewo ŋudɔ.
+### Zingo! gakotoku [Wallet] ([GitHub](https://github.com/zingolabs/zingo-mobile))
+Zingo gakotoku nye Zcash gakotoku si ƒe nɔnɔwo blibo, eye woɖoe be wòasɔ na zãlawo, ke hã eƒe nɔnɔ xɔasi aɖewo le na zãla siwo le ŋgɔ wu. Ekpea ɖe nuwo ƒe ʋuʋuɖi [transparent], Sapling kple Ironwood gaƒuƒoƒo [pools] ŋu, eƒe gaɖoƒe ƒe dzesi [address] ƒe agbalẽ le na fexexe [payments] siwo gagbɔna, eye wòte ŋu akpɔ wo le gbe vovovowo me. Eyae nye gakotoku gbãtɔ si kpe ɖe Orchard ŋu eye wòwɔ NU5 ƒe nɔnɔwo.
 
-Zingo! nye ŋutete si le esi be wòazã Memo ƒe akpaa atsɔ ana gɔmesese veviwo tso wò asitsatsa ŋu.
+Zingo! ƒe nɔnɔ vevi aɖe nye be wòate ŋu azã nya kpui [Memo] ƒe teƒe atsɔ ana nya siwo le vevie ku ɖe wò gaɖoɖo [transactions] ŋu.
 
-Zingo! la li na asitelefonwo kple PC-wo. Àkpɔ nusiwo katã woɖe ɖe go [le afisia](https://zingolabs.org/)
+Zingo! le mɔ̃ nyuitɔwo kple PCwo dzi. Àkpɔ downloadwo katã le [afi](https://zingolabs.org/)
 
-### Zingolib ([GitHub ƒe agbalẽ](https://github.com/zingolabs/zingolib))
-API kple test-app si ɖea zcash ƒe dɔwɔwɔ ɖe go na app zazã. Zingolib naa agbalẽdzraɖoƒe na zingo-mobile siaa, kpakple cli dɔwɔɖoɖo si le eme be wòawɔ nu kple zcashd to lightwalletd dzi si woyɔna be zingo-cli, sedede ƒe fli lightwalletd-proxy client.
+### Zingolib ([GitHub](https://github.com/zingolabs/zingolib))
+API kple test-app si ɖe zcash ƒe nɔnɔwo fia na appwo be woazã. Zingolib naa library na zingo-mobile, kple cli application si le eme, si woyɔna be zingo-cli, command-line nyatakaka si hiã ƒe gakotoku si doa gbe kple ɖoɖonu [chain] ƒe indexer abe [Zaino](/zcash-tech/zaino) ene.
 
-### Zaino ƒe Nuŋlɔɖigbalẽvi ([GitHub](https://github.com/zingolabs/zaino))
-Zaino nye Indexer si Zingo ƒuƒoƒoa wɔ le Rust, si ƒe taɖodzinue nye be yeaɖɔli lightwalletd eye yeatsɔ zcashd ƒe nugbegblẽ ƒe dɔa ayi ŋgɔe.
+### Zaino Indexer ([GitHub](https://github.com/zingolabs/zaino))
+Zaino nye Rust indexer na Zcash ƒe gaɖoɖowo ƒuƒoƒo ƒe ɖoɖonu [blockchain], si Zingo ƒe hatɔ la wɔ. Enye indexer si le [Z3 stack](/zcash-tech/z3-stack) me: ekpea ɖe ɖoɖonu ƒe nyatakakawo ŋu tso [Zebra](/zcash-tech/zebra-full-node) validator aɖe gbɔ, eye wòsubɔa gakotokuwo, explorerwo, kple client bubuwo. Enye mɔ si ɖo ta na lightwalletd.
 
-Zaino naa nu veviwo na kekeli ƒe asisiwo siaa, abe gakotokuwo kple dɔwɔɖoɖo siwo mehiã blockchain ŋutinya bliboa o, kple asisiwo alo gakotoku blibowo ene. Edoa alɔ block explorers hã, enaa mɔnukpɔkpɔ be woakpɔ blockchain si wowu enu kple kɔsɔkɔsɔ nyuitɔ kekeake si womewu enu o kple mempool si Zebra alo zcashd blibo validator kpɔna la siaa.
+Zaino naa nɔnɔ veviwo na nyatakaka si hiã ƒe mɔ [light clients] siawo, abe gakotokuwo kple application siwo mehiã gaɖoɖowo ƒuƒoƒo ƒe ɖoɖonu ƒe ŋutinya blibo o ene, kple client blibowo alo gakotokuwo. Ekpea hã ɖe gaɖoɖowo ƒuƒoƒe [block] ƒe explorerwo ŋu, eye wònaa mɔ be woage ɖo gaɖoɖowo ƒuƒoƒo ƒe ɖoɖonu si woɖo kpɔ kple ɖoɖonu nyuitɔ si womeɖo kpɔ o kple mempool si Zebra ƒe ɣaɣla dzesi ŋɔŋlɔ blibo [full node] ƒe validator kpɔa dzi la gbɔ.
 
-###  ZLN (zcash-nutoa me-net) ([GitHub](https://github.com/zingolabs/infrastructure/tree/dev/zcash_local_net))
-Dɔwɔnu siwo dzea Zcash ƒe dɔwɔwɔwo gɔme eye wokpɔa wo dzi. Wozãa esia hena ƒoƒo ɖekae dodokpɔ le:
-- kekeli ƒe asisiwo
-- index-wo ƒe xexlẽdzesiwo
-- kpeɖodzinalawo
+`zcashd` va ɖo eƒe End-of-Support ƒe dzeɖiƒe le 18 July 2026 le gaɖoɖowo ƒuƒoƒe 3,417,100, eye mekpea ɖe Ironwood (NU6.3) ŋu o. Zaino xlea Zebra ƒe validator.
 
-Eƒe taɖodzinu enye be yeana dodokpɔ ƒe nɔnɔme si te ŋu trɔna ɖe nɔnɔmewo ŋu ŋutɔ eye wòsẽna na core nodes (validators) abe zcash kple zebra, indexers abe lightwallet kple zaino, ne mede ɖeke o la, zingo-cli abe light client wallet ene.
+###  ZLN (zcash-local-net) ([GitHub](https://github.com/zingolabs/infrastructure/tree/dev/zcash_local_net))
 
-Wotrɔ asi le nudzraɖoƒe sia be wòatsɔ validator vovovowo (abe zcashd kple Zebrad) kple indexers (abe lightwalletd kple Zaino) ƒe dɔwɔwɔ asɔ kple wo nɔewo be wòana ʋuʋua nanɔ bɔbɔe le zcashd ƒe tsɔtsɔke ƒe ɖoɖoa me.
+Dɔwɔnu [tools] ƒe ƒome aɖe si dzea Zcash ƒe processwo gɔme eye wòkpɔa dzi na wo. Wozãa esia na integration testing le nusiwo ƒe ŋgɔyiyi me:
+- nyatakaka si hiã ƒe mɔwo
+- indexerwo
+- validatorwo
 
-Tsɔ kpe ɖe dɔwɔnu siwo woatsɔ adze Zcash kɔsɔkɔsɔ nyatakakawo gɔme, adzra wo ɖo, eye woatsɔ wo ade agba me (na mainnet, testnet, kple regtest) ŋu la, zcash-zocal-net tsɔ dodokpɔ vovovowo de eme be woatsɔ lightwalletd kple Zaino ƒe ŋutetewo asɔ kple wo nɔewo le Lightwallet RPC dɔwɔnawo katã me. Woate ŋu awɔ dodokpɔ siawo tso Zaino tẽ (kpɔ [https://github.com/zingolabs/zaino/blob/dev/docs/testing.md](https://github.com/zingolabs/zaino/blob/dev/docs/testing.md)]) be woada Lightwallet RPC dɔwɔna siwo woxɔ ɖe Zaino la kpɔ.
+Eƒe taɖodzinu nye be wòana testing ƒe teƒe si ate ŋu atrɔ eye wòsesẽ na ɣaɣla dzesi ŋɔŋlɔ [nodes] veviwo (validatorwo) abe Zebra ene, indexerwo abe Zaino ene, kple nyatakaka si hiã ƒe mɔ ƒe gakotokuwo abe zingo-cli ene.
 
+Stack si wòdzea gɔme le gɔmedzedze me nye Zebrad, zainod, kple zcash-devtool. `zcashd` kple lightwalletd ƒe process xoxowo le `legacy-stack` ƒe nɔnɔ si womekpea ɖe ŋu o megbe, eye woɖo ɖe woƒe ɖeɖe ɖa.
+
+Kpuie na dɔwɔnu si dzea, ɖoa ɖe cache me, eye wòloa Zcash ƒe ɖoɖonu ƒe nyatakakawo (na mainnet, testnet, kple regtest), wozãa zcash-local-net tso Zaino ƒe test suite me be woatsɔ akpɔ Lightwallet RPC ƒe subɔsubɔwo siwo le Zaino me (kpɔ [Zaino testing ƒe agbalẽwo](https://github.com/zingolabs/zaino/blob/dev/docs/testing.md)).

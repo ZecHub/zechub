@@ -1,11 +1,11 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Start_Here/Development_Fund.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Aɖe Axɔse"/>
 </a>
 
-# Zcash ƒe Ŋgɔyiyi ƒe Gaxɔ
+# Zcash Ƒe Ŋgɔyiyi Ƒe Ga
 
-Zcash nye blockchain protocol tɔxɛ aɖe elabena eya ŋutɔe dzɔa ga. Esia fia be mehiã be ƒuƒoƒo siwo le dɔ wɔm le Zcash ŋu naxɔ ga tso egodo gadelawo gbɔ o, eye woate ŋu ayi edzi alé fɔ ɖe ʋukuku ɖe vixɔxɔnyi ŋu esime wole ɖekawɔwɔ me kple Zcash's ethos kple dɔdasi si keke ta wu hã.
+Zcash nye gaɖoɖowo ƒuƒoƒo ƒe ɖoɖonu [blockchain] ƒe mɔnu si tɔa ŋutɔ yɔa ga na, elabena wòtsɔa eya ŋutɔ ƒe ga wɔa dɔ. Esia fia be habɔbɔwo siwo le dɔ wɔm na Zcash mele be woaxɔ ga tso ame siwo dea ga ɖe eɖokui me o, eye woate ŋu anɔ ŋku ɖe ame geɖe ƒe zaza ɖe eme dzi, eye woanɔ ɖe Zcash ƒe nudzɔdzɔ kple dɔwɔwɔ ƒe tameɖoɖo gã la nu hã.
 
-## Zcash Dziɖuɖu
+## Zcash ƒe dziɖuɖu [governance]
 
 https://zechub.wiki/zcash-community/zcash-governance

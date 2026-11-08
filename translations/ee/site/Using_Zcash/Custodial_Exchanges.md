@@ -2,9 +2,9 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# <img src="/content-images/image-2024-02-03-173258092-a5440e5ee2.webp" alt="Alt Text" width="50"/>   Custodial Exchanges
+# <img src="/content-images/image-2024-02-03-173258092-a5440e5ee2.webp" alt="Alt Text" width="50"/>   Asikplɔ-dzralá [Custodial] Gatrɔƒewo [Exchanges]
 
-Ironwood nye ta si wotsɔ akpoxɔnu wɔe si va ɖo kple July 2026 ƒe network ƒe tɔtrɔ. Exchange siwo kpɔa t-adrɛs siwo me kɔ ko gbɔ la meka asi eŋu gbeɖe o, eyata wode dzesi esiawo be womewɔa dɔ o. Le afisiwo asitɔtrɔ aɖe kpɔa adrɛs siwo wokpɔ ta na gake megblɔ ta si wòzãna o la, fli la gblɔnɛ tsɔ wu be wòasusui.
+Ironwood nye ɣaɣla [shielded] gaƒuƒoƒo [pool] si va kple mɔ̃ ƒe sewo trɔtrɔ [network upgrade] le July 2026 me. Gatrɔƒewo siwo wɔa dɔ kple nuwo ƒe ʋuʋuɖi [transparent] t-gaɖoƒe ƒe dzesiwo ko la, wometsɔa eya o, eyata woŋlɔ be mele bubu o. Afisi gatrɔƒe aɖe wɔa dɔ kple ɣaɣla gaɖoƒe ƒe dzesiwo gake meɖe fia be gaƒuƒoƒo kae wozã o la, woŋlɔe nenema le fli la dzi le nu hãhã teƒe.
 
 ---
 
@@ -14,11 +14,11 @@ Ironwood nye ta si wotsɔ akpoxɔnu wɔe si va ɖo kple July 2026 ƒe network ƒ
     <img src="/content-images/_unavailable.svg" alt="Backpack Logo" width="200" height="100"/>
 </a>
 
-- Nyatakakadzraɖoƒe: [Backpack](https://backpack.exchange)
-- Atsu kple asi: ZEC/USDC | ZEC-PERP ƒe agbalẽ
-- Kpekpeɖeŋunana: Wona gadede kple ga si woɖena le eme la wɔ dɔ. Womegblɔ adrɛs ƒomeviwo o
-- Ɣeyiɣi si Woatsɔ Ga De Asi: Womegblɔe o
-- Ironwood: Womegblɔe o
+- Websaɖe: [Backpack](https://backpack.exchange)
+- Ɖɔliwo: ZEC/USDC | ZEC-PERP
+- Wodoa alɔ: Deposit kple withdrawal woƒe mɔ le dzɔdzɔm. Womeɖe gaɖoƒe ƒe dzesi ƒomeviwo fia o
+- Deposit Ɣeyiɣi: Womɛ nya o
+- Ironwood: Womɛ nya o
 ___
 
 ### [Binance](https://binance.com)
@@ -27,11 +27,11 @@ ___
     <img src="/content-images/_unavailable.svg" alt="Binance Logo" width="200" height="100"/>
 </a>
 
-- Nyatakakadzraɖoƒe: [Binance](https://binance.com)
-- Atsu kple asi: ALL/ZEC
-- Kpekpeɖeŋunana: Edzena le gaglãgbe (TEX Adrɛs Deposit) .
-- Ɣeyiɣi si Wotsɔ De Gadzraɖoƒe: Aɖabaƒoƒo 20
-- Ironwood: Meku ɖe eŋu o, adrɛs siwo me kɔ ko
+- Websaɖe: [Binance](https://binance.com)
+- Ɖɔliwo: ALL/ZEC
+- Wodoa alɔ: Nuwo ƒe ʋuʋuɖi (TEX Address Deposit)
+- Deposit Ɣeyiɣi: Minuten 20
+- Ironwood: Mele bubu o, nuwo ƒe ʋuʋuɖi gaɖoƒe ƒe dzesiwo ko
 ___
 
 ### [BitcoinVN](https://bitcoinvn.io)
@@ -40,11 +40,11 @@ ___
     <img src="/content-images/_unavailable.svg" alt="BitcoinVN Logo" width="200" height="100"/>
 </a>
 
-- Nyatakakadzraɖoƒe: [BitcoinVN](https://bitcoinvn.io)
-- Atsu kple asi: BTC/ZEC, ETH/ZEC, USDT/ZEC, XMR/ZEC, LTC/ZEC, DASH/ZEC
-- Kpekpeɖeŋunana: Transparent | Shielded (z-adrɛs Deposit & Gaɖeɖe) .
-- Ɣeyiɣi si Wotsɔ De Gadzraɖoƒe: Enumake (si menye gaxɔmenɔnɔ ƒe asitɔtrɔ o) .
-- Ironwood: Womegblɔe o
+- Websaɖe: [BitcoinVN](https://bitcoinvn.io)
+- Ɖɔliwo: BTC/ZEC, ETH/ZEC, USDT/ZEC, XMR/ZEC, LTC/ZEC, DASH/ZEC
+- Wodoa alɔ: Nuwo ƒe ʋuʋuɖi | Ɣaɣla (z-address Deposit & Withdrawal)
+- Deposit Ɣeyiɣi: Enumake (asikplɔ-dzralá menye ɖɔli ɖɔli [swap])
+- Ironwood: Womɛ nya o
 ___
 
 ### [Bitfinex](https://bitfinex.com)
@@ -53,11 +53,11 @@ ___
     <img src="https://upload.wikimedia.org/wikipedia/en/4/41/Bitfinex_Logo_light.svg" alt="Bitfinex Logo" width="200" height="100"/>
 </a>
 
-- Nyatakakadzraɖoƒe: [Bitfinex](https://bitfinex.com)
-- Atsu kple asi: ALL/ZEC
-- Kpekpeɖeŋunana: Edzena le gaglãgbe
-- Ɣeyiɣi si Woatsɔ Ade Gadzraɖoƒe: Aɖabaƒoƒo 25 
-- Ironwood: Meku ɖe eŋu o, adrɛs siwo me kɔ ko
+- Websaɖe: [Bitfinex](https://bitfinex.com)
+- Ɖɔliwo: ALL/ZEC
+- Wodoa alɔ: Nuwo ƒe ʋuʋuɖi
+- Deposit Ɣeyiɣi: Minuten 25 
+- Ironwood: Mele bubu o, nuwo ƒe ʋuʋuɖi gaɖoƒe ƒe dzesiwo ko
 ___
 
 ### [Coinbase](https://coinbase.com)
@@ -66,11 +66,11 @@ ___
     <img src="/content-images/coinbase-8643659341.webp" alt="" width="200" height="100"/>
 </a>
 
-- Nyatakakadzraɖoƒe: [Coinbase](https://coinbase.com)
-- Atsu kple asi: ALL/ZEC
-- Kpekpeɖeŋunana: Edzena le gaglãgbe
-- Ɣeyiɣi si Wotsɔ De Gadzraɖoƒe: Aɖabaƒoƒo 150
-- Ironwood: Meku ɖe eŋu o, adrɛs siwo me kɔ ko
+- Websaɖe: [Coinbase](https://coinbase.com)
+- Ɖɔliwo: ALL/ZEC
+- Wodoa alɔ: Nuwo ƒe ʋuʋuɖi
+- Deposit Ɣeyiɣi: Minuten 150
+- Ironwood: Mele bubu o, nuwo ƒe ʋuʋuɖi gaɖoƒe ƒe dzesiwo ko
 ___
 
  ### [Gemini](https://gemini.com)
@@ -79,11 +79,11 @@ ___
     <img src="/content-images/Gemini-Symbol-ddd31ee98b.webp" alt="Gemini Custodian Exchange Logo" width="200" height="100"/>
 </a>
 
-- Nyatakakadzraɖoƒe: [Gemini](https://gemini.com)
-- Atsu kple asi: ALL/ZEC
-- Kpekpeɖeŋunana: Transparent | Shielded kple ɖekawɔwɔ ƒe gaɖeɖe, Orchard tso November 2025
-- Ɣeyiɣi si Wotsɔ De Gadzraɖoƒe: Aɖabaƒoƒo 50 
-- Ironwood: Wodo alɔ gaɖeɖe le ga si wotsɔ akpoxɔnu wɔe, womegblɔ pool o
+- Websaɖe: [Gemini](https://gemini.com)
+- Ɖɔliwo: ALL/ZEC
+- Wodoa alɔ: Nuwo ƒe ʋuʋuɖi | Ɣaɣla kple unified withdrawals, Orchard tso November 2025 dzi
+- Deposit Ɣeyiɣi: Minuten 50 
+- Ironwood: Ɣaɣla withdrawals le dzɔdzɔm, womɛ gaƒuƒoƒo aɖe fia o
 ___
 
 ### [Huobi](https://huobi.com)
@@ -92,11 +92,11 @@ ___
     <img src="/content-images/huobi-global-logo-82DAA48E43-seeklogo.co-bc59e6f286.webp" alt="Huobi Logo" width="200" height="100"/>
 </a>
 
-- Nyatakakadzraɖoƒe: [Huobi](https://huobi.com)
-- Atsu kple asi: ALL/ZEC
-- Kpekpeɖeŋunana: Edzena le gaglãgbe
-- Ɣeyiɣi si Woatsɔ Gade Asi: Aɖabaƒoƒo 35 
-- Ironwood: Meku ɖe eŋu o, adrɛs siwo me kɔ ko
+- Websaɖe: [Huobi](https://huobi.com)
+- Ɖɔliwo: ALL/ZEC
+- Wodoa alɔ: Nuwo ƒe ʋuʋuɖi
+- Deposit Ɣeyiɣi: Minuten 35 
+- Ironwood: Mele bubu o, nuwo ƒe ʋuʋuɖi gaɖoƒe ƒe dzesiwo ko
 ___
 
 ### [Kraken](https://kraken.com)
@@ -105,11 +105,11 @@ ___
     <img src="/content-images/kraken-logo-7407ab477f.webp" alt="Kraken Promotional" width="200" height="100"/>
 </a>
 
-- Nyatakakadzraɖoƒe: [Kraken](https://kraken.com)
-- Atsu kple asi: ALL/ZEC
-- Kpekpeɖeŋunana: Edzena le gaglãgbe
-- Ɣeyiɣi si Wotsɔ De Gadzraɖoƒe: Aɖabaƒoƒo 60
-- Ironwood: Meku ɖe eŋu o, adrɛs siwo me kɔ ko
+- Websaɖe: [Kraken](https://kraken.com)
+- Ɖɔliwo: ALL/ZEC
+- Wodoa alɔ: Nuwo ƒe ʋuʋuɖi
+- Deposit Ɣeyiɣi: Minuten 60
+- Ironwood: Mele bubu o, nuwo ƒe ʋuʋuɖi gaɖoƒe ƒe dzesiwo ko
 ___
 
 ### [KuCoin](https://kucoin.com)
@@ -118,24 +118,24 @@ ___
     <img src="/content-images/kucoin-ee0c21f9fd.svg" alt="KuCoin Logo" width="200" height="100"/>
 </a>
 
-- Nyatakakadzraɖoƒe: [KuCoin](https://kucoin.com)
-- Atsu kple asi: ALL/ZEC
-- Kpekpeɖeŋunana: Edzena le gaglãgbe
-- Ɣeyiɣi si Woatsɔ Ade Asie: Aɖabaƒoƒo 20 
-- Ironwood: Meku ɖe eŋu o, adrɛs siwo me kɔ ko
+- Websaɖe: [KuCoin](https://kucoin.com)
+- Ɖɔliwo: ALL/ZEC
+- Wodoa alɔ: Nuwo ƒe ʋuʋuɖi
+- Deposit Ɣeyiɣi: Minuten 20 
+- Ironwood: Mele bubu o, nuwo ƒe ʋuʋuɖi gaɖoƒe ƒe dzesiwo ko
 ___
 
-## [OKX (si woyɔna tsã be OKEx) .](https://www.okx.com)
+## [OKX (tsã woyɔe be OKEx)](https://www.okx.com)
 
 <a href="https://www.okx.com">
     <img src="https://upload.wikimedia.org/wikipedia/commons/8/89/Official_logo_of_OKEx.png" alt="OKX logo (shown under its former OKEx branding)" width="200" height="100"/>
 </a>
 
-- Nyatakakadzraɖoƒe: [OKX](https://www.okx.com)
-- Atsu kple asi: ALL/ZEC
-- Kpekpeɖeŋunana: Edzena le gaglãgbe
-- Ɣeyiɣi si Woatsɔ Ade Gadzraɖoƒe: Aɖabaƒoƒo 25 
-- Ironwood: Meku ɖe eŋu o, adrɛs siwo me kɔ ko
+- Websaɖe: [OKX](https://www.okx.com)
+- Ɖɔliwo: ALL/ZEC
+- Wodoa alɔ: Nuwo ƒe ʋuʋuɖi
+- Deposit Ɣeyiɣi: Minuten 25 
+- Ironwood: Mele bubu o, nuwo ƒe ʋuʋuɖi gaɖoƒe ƒe dzesiwo ko
 ___
 
 ### [Robinhood](https://robinhood.com)
@@ -144,9 +144,9 @@ ___
     <img src="/content-images/IMG-5725-7f964c1fdb.webp" alt="Robinhood Logo" width="200" height="100"/>
 </a>
 
-- Nyatakakadzraɖoƒe: [Robinhood](https://robinhood.com)
-- Atsu kple asi: USD/ZEC | EUR/ZEC ƒe xexlẽme
-- Kpekpeɖeŋunana: Woɖea ga le t-adrɛs siwo me kɔ ɖeɖeko dzi. Womedoa alɔ ZEC ƒe gadede asi o
-- Ɣeyiɣi si Woade Gadzraɖoƒe: Womedoa alɔ gadede asi o
-- Ironwood: Meku ɖe eŋu o, adrɛs siwo me kɔ ko
+- Websaɖe: [Robinhood](https://robinhood.com)
+- Ɖɔliwo: USD/ZEC | EUR/ZEC
+- Wodoa alɔ: Withdrawal wo ko ɖe nuwo ƒe ʋuʋuɖi t-gaɖoƒe ƒe dzesiwo dzi. ZEC deposit wo mele mɔ o
+- Deposit Ɣeyiɣi: Deposit wo mele mɔ o
+- Ironwood: Mele bubu o, nuwo ƒe ʋuʋuɖi gaɖoƒe ƒe dzesiwo ko
 ___

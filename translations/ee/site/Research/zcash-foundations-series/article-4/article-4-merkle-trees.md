@@ -1,50 +1,50 @@
-# Merkle Atiwo: Alesi Blockchain Ðoa ŋku Nuŋlɔɖi Ðesiaɖe Dzii
-##### Numekuku Gbãtɔ tso [Annkkitaaa](https://github.com/Annkkitaaa)
+# Merkle Ƒe Titiwo: Ale Si Blockchain Ƒoa Dzi ɖe Didienu Katã Ŋu
+##### Numekuku Gbãtɔ Tso [Annkkitaaa](https://github.com/Annkkitaaa) Gbɔ
 
-![alt nuŋɔŋlɔ](/content-images/image-19-cfbdcf8f78.webp)
+![alt text](/content-images/image-19-cfbdcf8f78.webp)
 
-### Adzɔgbeɖeɖe miliɔn geɖe kpuie le asibidɛ sue ɖeka me
+### Adzɔgbeɖeɖewo Miliɔn Geɖe ƒe Kpɔkplɔɖa Ƒe Ɖeɖe Kpuie Me
 
-> **Series:** *Zcash tso Gɔmeɖose Gbãtɔwo me* . **Nyati 4 lia . Merkle Atiwo**
-> **Nyaselawo:** ame yeyewo. Míetua ɖe [Se 3 lia (hashing kple ŋugbedodowo) dzi.](article-3-hashing-commitments.md). Ne ènya nusi asibidɛ kple ɖokuitsɔtsɔna nye la, ke èle klalo.
-> **Nusi nàgblẽ ɖi:** Merkle atiwo ƒe nɔnɔmetata si me kɔ, si sɔ, alesi nàɖo kpe hamevinyenye dzi evɔ màɖe nusi nèdi be yeagblɔ la afia o, kple alesi tututu esia va zua Zcash ƒe nuŋlɔɖi ƒe ɖokuitsɔtsɔna ƒe ati.
+> **Series:** *Zcash Tso Gɔmedzedze Me* . **Nunyaŋlɔɖi 4 . Merkle Ƒe Titiwo**
+> **Ame Siwo Wòna Be Wòaxlẽ:** Ame yeyeawo. Míetsɔa [Nunyaŋlɔɖi 3 (hashing kple adzɔgbeɖeɖewo)](article-3-hashing-commitments.md) ƒe nu nyuie wɔa dɔ. Ne nènya nu si nye kpɔkplɔɖa kple adzɔgbeɖeɖe la, èɖo ŋu.
+> **Nu Si Nàdzɔ Le Emegbe:** Nunya si ƒo nu tso Merkle ƒe titiwo ŋu, ale si wòate ŋu aɖe kpekpeɖeŋu ƒe ɖaseɖigbalɛ fia ne mèfia nu si nèdi o, kple ale si esia trɔ zu Zcash ƒe didienu adzɔgbeɖeɖe ƒe ti.
 
-[Nyati 0 lia](article-0-shielded-transaction.md) ɖɔ "dutoƒo board" si léa nuŋlɔɖi ɖesiaɖe si wowɔ kpɔ eye ɖeko wòtsina ɣesiaɣi. Kaka fifia naɖo la, àte ŋu asusu nusi wotsɔ bla ɖe eŋu: **tsɔtsɔtsɔna** (Se 3), agbalẽkotoku siwo wotre nu na. Gake board ŋutɔŋutɔ axɔ wo dometɔ *miliɔn alafa geɖe*. Aleke network la dzraa ema ɖo, ɖoa kpe edzi, eye wònana nèɖoa kpe edzi be wò agbalẽkotokua le board la dzi evɔ màfia asie o? Ŋuɖoɖoa nye xɔtunu dzeanitɔwo kekeake dometɔ ɖeka le kɔmpiutaŋutinunya me: **Merkle-ti.**
-
----
-
-## 1. Nu ka tae wòle be nàtsɔ ɖe le eme?
-
-Kuxi eve dona le ɣeyiɣi si me nèŋlɔ adzɔgbeɖeɖewo ƒe ŋkɔ gã aɖe le dutoƒo.
-
-**Kuxi gbãtɔ: integrity at scale.** Ne xexlẽdzesi miliɔn 300 ye ŋlɔe la, aleke ame aɖe aɖo kpe edzi be *menye ɖeka o* ye wotrɔ le adzame? Mɔkpɔkpɔ aɖeke megale nu miliɔn 300 ŋu ake le ŋkuléle ɖe wo ŋu ɖesiaɖe me o.
-
-**Kuxi evelia: ame ŋutɔ ƒe hamevinyenye.** Be nàzã nuŋlɔɖi aɖe (Se 0) la, ele be nàɖo kpe edzi be wò ɖokuitsɔtsɔna le board la dzi vavã. Gake ne èfia asi edzi ("enye xexlẽdzesi si woŋlɔ ɖe eme 4,201,337!"), ɖeko nèɖe ŋkɔ ɖa le ɖokuiwò ŋu. Ele be nàɖo kpe *"nye agbalẽkotokua le afi aɖe le board sia dzi"* evɔ màɖe **kae** ɖeka afia o.
-
-Merkle-ti aɖe kpɔa evea siaa gbɔ zi ɖeka. Eƒoa xexlẽdzesi bliboa nu ƒu wòzua asibidɛ ɖeka, eye wònana nètsɔa kpeɖodzi sue aɖe si ɣlaa teƒe si nèle la ɖoa kpe hamevinyenye dzi.
+[Nunyaŋlɔɖi 0](article-0-shielded-transaction.md) ƒo nu tso "kplɔdzi si ame katã ate ŋu akpɔ" si me didienu katã si wowɔ kpɔ gbeɖe le eye wòganɔa dzi ɖaa. Fifia àte ŋu agblɔ nu si wotsɔ dea eme: **adzɔgbeɖeɖewo [commitments]** (Nunyaŋlɔɖi 3), agbalẽ dzɔdzɔwo. Ke kplɔdzi vavã aɖe **miliɔn alafa geɖewo**. Aleke network la atsɔe adzra, aɖe kpekpeɖeŋu na, eye wòana nàɖe ɖase be wò agbalẽ dzɔdzɔ le kplɔdzi la dzi ne mètsɔ asi fia eŋu o? Ŋuɖoɖo la nye ɖoɖo dzɔdzɔ aɖe si nyo ŋutɔ le computer science me: **Merkle ƒe ti.**
 
 ---
 
-## 2. Nusi wokpɔna le susu me: asibidɛwo ƒe hoʋiʋli
+## 1. Nu ka ta nàtsɔ esia ade dziku?
 
-Kpɔe ɖa le susu me be knockout hoʋiʋli ƒe bracket, gake le esi teƒe be fefewɔlawo nayi ŋgɔ la, **asibidɛwo ƒoa ƒu.**
+Kuxi eve doa le esi nèxɔ adzɔgbeɖeɖewo ƒe xexlẽme kplɔ aɖe si gã.
 
-- Le ete la, nyatakaka ɖesiaɖe xɔa eya ŋutɔ ƒe asibidɛ (eƒe hash tso Se 3 lia me). Esiawoe nye **aŋgbawo.**
-- Tsɔ wo kpe ɖe wo nɔewo ŋu. Wowɔa hash *ɖeka* ɖe atsu kple asi ɖesiaɖe ƒe asibidɛ eve ŋu wòzua dzila ƒe asibidɛ ɖeka.
-- Miwɔ dzilawo eve eve, mitsɔ hash eve ɖesiaɖe ƒo ƒu, kple bubuawo.
-- Yi edzi vaseɖe esime **asibidɛ ɖeka** nanɔ etame. Aʋawɔla mae nye **Merkle ke.**
+**Kuxi gbãtɔ: nyateƒe dzadzɛ le kadodo gã me.** Ne nuwo miliɔn 300 le xexlẽme la me, aleke ame aɖe avaɖe kpekpeɖeŋu be woɖe tɔ aɖeke me tɔɖo o? Be woagakpɔ nu miliɔn 300 katã ɣesiaɣi nye nu si womate ŋu awɔ o.
 
-![alt nuŋɔŋlɔ](/content-images/image-20-f5d57e425a.webp)
+**Kuxi evelia: ɣaɣla [privacy] ƒe kpekpeɖeŋu.** Be nàtsɔ didienu aɖe (Nunyaŋlɔɖi 0) awɔ dɔ la, ele be nàɖe ɖase be wò adzɔgbeɖeɖe le kplɔdzi la dzi vavã. Ke ne nètsɔ asi fia eŋu ("enye entry number 4,201,337!"), èɖe wò ŋutɔ ƒe ame-nyanya fia. Ele be nàɖe ɖase be *"nye agbalẽ dzɔdzɔ le kplɔdzi sia dzi afi aɖe"* ne mèfia **afikae** o.
 
-Nu ɖeka kolia si le vevie wu la kplɔa ahomya ƒe ŋusẽkpɔɖeamedzi ɖo tẽ (Se 3 lia):
-
-> **Kea nye *nusianu* si le ete ƒe asibidɛ ƒe dzesi.** Trɔ aŋgba ɖesiaɖe, vie gɔ̃ hã, eye eƒe asibidɛ ƒe dzesi trɔna, si trɔa edzila, si trɔa *dzila* ma, vaseɖe dzi. **Kea trɔna.** Eyata ke ƒe asixɔxɔ sue ɖeka ɖoa kpe xexlẽdzesi bliboa ƒe blibonyenye dzi. Ema kpɔa Kuxi gbãtɔ gbɔ.
+Merkle ƒe ti ɖea kuxi eve siawo katã ɖe ɣeyiɣi ɖeka me. Ewɔa xexlẽme blibo la zu kpɔkplɔɖa ɖeka, eye wòana nàɖe kpekpeɖeŋu ƒe ɖaseɖigbalɛ [proof] kpuie aɖe fia si me afi la ƒe nyanya mele o.
 
 ---
 
-## 3. Ati ŋutɔŋutɔ, si wobu akɔnta pɛpɛpɛ
+## 2. Nuxlɔ̃ame: kpɔkplɔɖawo ƒe hadede ƒeɖuɖu
 
-Mina míatu ati si ƒe aŋgba ene le etame la kple SHA-256 ƒe asibidɛ ŋutɔŋutɔwo ɖe aŋgbaawo dzi `A, B, C, D` (woɖe nuɖuɖumeŋusẽ siwo woɖe fia be wotso wo dzi be woate ŋu axlẽe):
+Bu hadede si me woɖoa amedzroa ɖe eŋu ɖe game me, ke ɖe teƒe si amedzrowo li la, **kpɔkplɔɖawo ƒoa ƒu.**
+
+- Le anyi ƒe teƒe la, nyatakakawo ƒe akpa ɖe sia ɖe xɔa eya ŋutɔ ƒe kpɔkplɔɖa (eƒe hash tso Nunyaŋlɔɖi 3 me). Esiawo nye **aɖakawo [leaves].**
+- Ƒo wo ɖe eve eve. Woƒe kpɔkplɔɖa eveawo woa-hash wo *ɖeka me* be woazu dzila ƒe kpɔkplɔɖa ɖeka.
+- Ƒo dzilawo ɖe eve eve, hash eve ɖe sia ɖe ɖeka me, eye nàyi edzi.
+- Yi edzi va se ɣe si **kpɔkplɔɖa ɖeka ko** le dzia. Ɖedziɖula ma nye **Merkle ƒe dzita.**
+
+![alt text](/content-images/image-20-f5d57e425a.webp)
+
+Nɔnɔme veviŋutɔ ɖeka le eme tso avalanche effect (Nunyaŋlɔɖi 3) me:
+
+> **Dzita la nye nu katã si le etɔ te ƒe kpɔkplɔɖa.** Trɔ aɖaka aɖe, to gbɔ ɖeka pɛ, eye eƒe kpɔkplɔɖa atrɔ, si atrɔ eƒe dzila, si atrɔ dzila ma hã, va se ɖe dzi. **Dzita la atrɔ.** Eyata dzita kpuie ɖeka ate ŋu aɖe ɖase na xexlẽme blibo la ƒe nyateƒe dzadzɛ. Esia ɖea Kuxi gbãtɔ ɖe.
+
+---
+
+## 3. Ti vavã aɖe si woƒe akɔnta bliboa le
+
+Mina míatso aɖaka ene ƒe ti si le etɔ la dzi kple SHA-256 kpɔkplɔɖawo si woƒe akɔnta le aɖakawo `A, B, C, D` dzi vavã (woɖe digestwo fia kpuie be eƒe xexlẽme nakɔ):
 
 ```
 hA = 559aead08264...     hB = df7e70e50215...
@@ -56,124 +56,124 @@ hCD = H(hC , hD) = 98a2fbfddbc7...
 ROOT = H(hAB , hCD) = 1b3faa3fcc5e...
 ```
 
-Nusianu nye "hash na nu, emegbe hash hash eve" ko. Naneke meto vovo wu Se 3 lia, si woɖo ɖe ati me o.
+Nu katã nye "hash nu aɖe, eye nàhash hashwo ƒe evewo." Nu aɖeke mele eme si wɔ akpa na Nunyaŋlɔɖi 3 o; wode ɖoɖo ti ƒe nɔnɔme me ko.
 
 ---
 
-## 4. Akpa si me aɖaŋu le: hamevinyenye ƒe kpeɖodzi evɔ womaɖe ɖoƒe afia o
+## 4. Akpa si nyo: kpekpeɖeŋu ƒe ɖaseɖigbalɛ ne mèfia afi o
 
-Fifia Kuxi evelia. Gblɔ be yedi be yeaɖo kpe aŋgba ma dzi `C` le ati la me, na ame aɖe si nya **ke** ko. *Mètsɔa ati bliboa dea asi na wo o. Asibidɛ siwo hiã be woali tso wo me koe nètsɔna dea asi na wo `C` yi kea gbɔ, si woyɔna be **kpeɖodzimɔ** (alo **Merkle kpeɖodzi**):
+Fifia Kuxi evelia. Gblɔ be nèdi nàɖe ɖase be aɖaka `C` le ti la me na ame si nya **dzita** ko. Mèna ti blibo la o. Nèna kpɔkplɔɖawo si hiã be nàtsɔ lia tso `C` yi dzita la gbɔ, si woyɔna be **ɖaseɖeɖe ƒe mɔ [authentication path]** (alo **Merkle ƒe ɖaseɖigbalɛ**):
 
-> Be woaɖo kpe edzi `C` le ati la me, na:
-> - nɔvia `hD`, kple
-> - eƒe tɔɖiayɔvi `hAB`.
+> Be nàɖe ɖase be `C` le ti la me:
+> - Na eƒe nɔvi `hD`, kple
+> - Eƒe togbui `hAB`.
 
-Esi kpeɖodziwɔla la nya kea ko ta la, egbugbɔ bu akɔnta le tolilia ŋu:
+Ame si le kpekpeɖeŋu ɖem, esi wònye ame si nya dzita ko, gaɖo akɔnta la ɖo:
 
 ```
 step 1:  H(hC , hD)        = hCD       (combine C with its sibling)
 step 2:  H(hAB , hCD)      = ROOT?     (combine with the uncle)
 ```
 
-Wobu akɔnta ŋutɔŋutɔ: esia naa ku `1b3faa3fcc5e...`, si **sɔ kple kea.** Woɖo kpe edzi be aŋgba la le ati la me.
+Woƒe akɔnta wɔ vavã: Esia hena `1b3faa3fcc5e...`, si **sɔ kple dzita la.** Woɖe ɖase be aɖaka la le ti la me.
 
-![alt nuŋɔŋlɔ](/content-images/image-21-d9e5d6eaf6.webp)
+![alt text](/content-images/image-21-d9e5d6eaf6.webp)
 
-Nu eve na ŋusẽ le esia ŋu:
+Nu eve wɔa be esia nakpɔ ŋusẽ:
 
-- **Ele sue ŋutɔ.** Le aŋgba 4 gome la, èna hash 2. Le ati aɖe ta `n` gblẽa wò nana ko abe **log_2(n)** hashes. Le aŋgba biliɔn ɖeka gome la, ema ade **hashes 30**, ke menye biliɔn ɖeka o. Ƒã hafi kpeɖodzia tsina ne ati la le wowóm le eƒe lolome me.
-- **Enye adzamenyawo ƒe nuku.** Kpeɖodzia ɖee fia be wò aŋgba le *afi aɖe* le ati la me. Ne wowɔ dodokpɔ sia ke *le sidzedze zero ƒe kpeɖodzi me* (Se 5) la, mɔa ŋutɔ gɔ̃ hã ɣla, eyata èɖo kpe edzi be "nye nuŋlɔɖi le ati la me" esime mèɖe nuŋlɔɖia alo eƒe nɔƒe aɖeke ɖe go o. Ema kpɔa Kuxi evelia gbɔ bliboe.
+- **Ekpuie.** Na aɖaka ene, nèna hash eve. Na ti si me aɖakawo `n` le, nèna **log_2(n)** hash le eŋu ko. Na aɖaka biliɔn ɖeka, esia nye **hash 30** kple eŋu, menye biliɔn ɖeka o. Ɖaseɖigbalɛ la ƒe gãmenyenye mea gã o ne ti la ƒe gãmenyenye ɖo dzi.
+- **Enye ɣaɣla ƒe ƒeɖeɖe.** Ɖaseɖigbalɛ la fia be wò aɖaka le ti la me *afi aɖe*. Ne woawɔ esia le *zero-knowledge proof* (Nunyaŋlɔɖi 5) ƒe me, woɣla mɔ la ŋutɔ hã, eye nèɖea ɖase be "nye didienu le ti la me" ne mèfia didienu la alo eƒe afi o. Esia ɖea Kuxi evelia ɖe bliboe.
 
 ---
 
-## 5. Tso Merkle-ti aɖe dzi va ɖo Zcash ƒe note commitment tree dzi
+## 5. Tso Merkle ƒe ti me yi Zcash ƒe didienu adzɔgbeɖeɖe ƒe ti
 
-Fifia míate ŋu agblɔ nusi tututu Se 0 ƒe "dukɔa ƒe habɔbɔ" nye:
+Fifia míate ŋu agblɔ Nunyaŋlɔɖi 0 ƒe "kplɔdzi si ame katã ate ŋu akpɔ" la gɔme tututu:
 
-> **note commitment tree** nye Merkle tree si ƒe **aŋgbawo nye note commitments.** Ɣesiaɣi si wowɔ note le xexeame ƒe teƒe ɖesiaɖe la, wotsɔa eƒe commitment kpena ɖe eŋu abe aŋgba si kplɔe ɖo ene, eye wowɔa ke la yeyee.
+> **Didienu adzɔgbeɖeɖe ƒe ti** nye Merkle ƒe ti si ƒe **aɖakawo nye didienu adzɔgbeɖeɖewo.** Ɣesiaɣi si wowɔ didienu aɖe le xexeame afiaɖe la, wodzea eƒe adzɔgbeɖeɖe kple aɖaka yeyee, eye wotrɔa dzita la.
 
-Nya ʋee aɖewo siwo le tẽ ŋutɔŋutɔ:
+Nyatakaka vavã aɖewo:
 
-- **Ðeko wòtsina.** Wotsɔa aŋgbawo kpena ɖe eŋu, womeɖea wo ɖa gbeɖe o. Woyɔa esia be **Markle-ti si dzina ɖe edzi.** (Esɔ kple Se 0 lia ƒe "board la megbãa naneke gbeɖe o.")
-- **Woyɔa kea be *seke*.** Ne èzã ga la, wò asitsatsa yɔa seke si wowɔ nyitsɔ laa eye wòɖoa kpe edzi, le sidzedze zero me, be wò nuŋlɔɖia ƒe ɖokuitsɔtsɔna nɔa ati si me ke ma le la me.
-- **Fixed depth.** Zcash ƒe ati siwo wotsɔ akpoxɔnu wɔe la ƒe goglome nye **32**, si fia be woate ŋu alé wo ɖe te vaseɖe `2^(32)` (si wu biliɔn ene) ƒe gagbalẽwo.
-- **ZK-xɔlɔ̃wɔwɔ hashing.** Wometu ati la kple SHA-256 o. Sapling tsɔ **Pedersen hashes** ƒo ati la eye Orchard zãa **Sinsemilla** (wo ame evea siaa tso Se 3 lia me), nenema tututue hameviwo ƒe dziyiyia mexɔ asi be woaɖo kpe edzi le nutome sue aɖe me.
+- **Eɖea dzi ko.** Wodzea aɖakawo kple, womete wo ɖa kpɔ o. Woyɔ esia be **Merkle ƒe ti si woziedzea dzi [incremental Merkle tree].** (Esɔ kple Nunyaŋlɔɖi 0 ƒe "kplɔdzi la metsia nu aɖeke ɖa o.")
+- **Woyɔ dzita la be *anchor*.** Ne nètsɔa ga wɔ dɔ la, wò gaɖoɖo [transaction] ƒoa nu tso anchor yeyee aɖe ŋu eye wòɖea ɖase le zero-knowledge me be wò didienu ƒe adzɔgbeɖeɖe le ti si dzita ma le la me.
+- **Koko si le ƒoƒo me.** Zcash ƒe ɣaɣla titiwo ƒe koko nye **32**, si fia be woate ŋu axɔ didienu `2^(32)` (bɔ biliɔn ene) va se.
+- **Hash si sɔ kple ZK.** Woɖo ti la kple SHA-256 o. Sapling hash-a ti la kple **Pedersen hashes** eye Orchard zãa **Sinsemilla** (eveawo katã tso Nunyaŋlɔɖi 3 me), be kpekpeɖeŋu ƒe mɔ la ƒe ɖaseɖeɖe le circuit aɖe me nanɔ bɔbɔe.
 
-![alt nuŋɔŋlɔ](/content-images/image-22-518354b8d5.webp)
+![alt text](/content-images/image-22-518354b8d5.webp)
 
-### Nu ɖeka si ati la *mekpɔna* o: ezãa ga zi eve
+### Nu ɖeka si ti la mewɔna o: gaɖoɖo eve
 
-Ati la ɖo kpe edzi be nuŋlɔɖi aɖe **li**. Le eɖokui si mexea mɔ na wò be màgazã gagbalẽ ɖeka zi eve o. Dɔ ma nye **nullifier set** si tso Se 0 me tɔ: "void tokens" ƒe ƒuƒoƒo ɖe vovo. Ne èzã ga la, ètaa nuŋlɔɖia ƒe nullifier, eye network la gbe nullifier ɖesiaɖe si wòkpɔ va yi.
+Ti la ɖea ɖase be didienu aɖe **le anyi**. Eya ŋutɔ menoa mɔ na wò be nàtsɔ didienu ma ke awɔ dɔ zi eve o. Dɔ ma le **gaɣaɣla ɖeɖe dzesi ƒe ƒuƒoƒe [nullifier set]** si le Nunyaŋlɔɖi 0 me ƒe asi: ƒuƒoƒe vovovo aɖe si me "token si wode ɖa" le. Ne nètsɔa didienu aɖe wɔ dɔ la, nèɖea didienu la ƒe gaɣaɣla ɖeɖe dzesi fia, eye network la gbea gaɣaɣla ɖeɖe dzesi siawo katã gbe si wòkpɔ kpɔ.
 
-Eyata dutoƒoxɔ eveawo wɔa akpa siwo kpena ɖe wo nɔewo ŋu, eye woƒe vovototodedeameme nye nusi tututu gblẽa kadodo si le nuŋlɔɖi aɖe ƒe dzidzi kple eƒe ku dome:
+Eyata ɖoɖo siwo ame katã ate ŋu akpɔ la wɔa dɔ ɖeka kple ɖeka, eye be woɖe wo ɖe asi ɖeka me o la tututu nye nu si tsia mɔ na kadodo le didienu ƒe dzidzi kple eƒe ku dome:
 
-| Dɔwɔɖoɖo | Nyabiase si ŋu wòɖo | Wotrɔ asi le eŋu ne |
+| Ɖoɖo | Biabia si wòɖoa ŋu | Ɣe si woana yeyee |
 |---|---|---|
-| **De dzesi ɖokuitsɔtsɔna ƒe ati** | "Ðe nuŋlɔɖi sia lia?" | Wowɔ nuŋlɔɖi aɖe **wɔ** (wotsɔ ɖokuitsɔtsɔna kpe ɖe eŋu) |
-| **Nullifier ƒe ɖoɖo** | "Ðe wozã nuŋlɔɖi sia xoxoa?" | Wozã nuŋlɔɖi aɖe **zã** (wota nullifier) ​​|
+| **Didienu adzɔgbeɖeɖe ƒe ti** | "Didienu sia le anyi oa?" | Wo**wɔ** didienu aɖe (wodzea adzɔgbeɖeɖe kple) |
+| **Gaɣaɣla ɖeɖe dzesi ƒe ƒuƒoƒe** | "Woɖo didienu sia dzi kpɔ oa?" | Wo**tsɔ** didienu aɖe wɔ dɔ (woɖea gaɣaɣla ɖeɖe dzesi fia) |
 
 ---
 
-## 6. Agbegbegbeɖeɖe anukwaretɔe
+## 6. Ɖeɖeɖe nyateƒe aɖe
 
-Nuwɔwɔ bɔbɔewo, abe alesi wònɔna ɖaa ene. Merkle ati ŋutɔŋutɔ siwo dzina ɖe edzi la léa ŋku ɖe "liƒo" nodes ŋu ale be kea ateŋu awɔ yeyee evɔ magbugbɔ nusianu atu o; network la léa fesre aɖe ɖe seke siwo wowɔ nyitsɔ laa ŋu, ke menye esiwo wowɔ nyitsɔ laa ɖeɖeko o, eyata gakotokuwo megbãna le block yeye ɖesiaɖe me o; eye aŋgba ƒuƒluwo zãa padding value si woɖe fia. Míeɖe ati eve siwo ƒe ŋusẽ le dzadzɛ hã siwo nye eve. Esiawo dometɔ aɖeke metrɔa nukpɔsusua o: adzɔgbeɖeɖewo ƒe aŋgbawo, siwo wotsɔ hashed wɔ eveveve vaseɖe ke ɖeka dzi, kple hamevinyenye ƒe kpeɖodzi kpuiwo. Agbalẽdzikpɔkpɔ tututu trɔ gbɔ le ɖoɖowɔɖi ƒe nyatia me.
-
----
-
-## 7. Kpuie ko la
-
-- **Merkle ati** aɖe tsɔa nyatakakawo ƒoa ƒu ɖe **aŋgbawo** me, emegbe tsɔa **eve eve yia dzi** vaseɖe esime **ke** ɖeka koe susɔ.
-- Akpe na avalanche effect la, **ke la nye asibidɛ ƒe dzesi le xexlẽdzesi bliboa me**: trɔ aŋgba ɖeka eye kea trɔ. Asixɔxɔ sue ɖeka ɖo kpe nyatakakadzraɖoƒe gã aɖe dzi.
-- **hamevinyenye ƒe kpeɖodzi (kpeɖodzimɔ)** nye nɔvi siwo le tolili yi kea gbɔ ko, ku ɖe **log_2(n)** hashes ŋu, eyata kpeɖodziwo nɔa sue na aŋgba biliɔn geɖe gɔ̃ hã.
-- Wowɔe **le sidzedze zero ƒe kpeɖodzi me**, hamevinyenye ƒe dodokpɔ ma ɣlaa *aŋgba* si nèdi be yeagblɔ, si ɖo kpe edzi be "nye nuŋlɔɖi le ati la me" evɔ meɖe nuŋlɔɖia alo eƒe nɔƒe fia o.
-- Zcash ƒe **note commitment tree** nye **incremental** Merkle tree of note commitments, goglome **32**, si ƒe ke nye **anchor**; Sapling tsɔ **Pedersen** ƒoe eye Orchard tsɔ **Sinsemilla** ƒoe.
-- Ati la ɖo kpe **anyinɔnɔ** dzi; **nullifier set** si le vovo la xea mɔ na **double-spends**. Wo ɖeɖe ɖae nye nusi ɖea kadodo si le nuŋlɔɖi aɖe ƒe dzidzi kple eƒe ku dome ɖa.
+Míewɔ fafa, abe ɣesiaɣi ene. Merkle ƒe titi siwo woziedzea dzi vavã la lée ɖe "frontier" ɣaɣla dzesi ŋɔŋlɔwo ŋu be dzita la nate ŋu atrɔ ne womagaɖo ti blibo la ƒe akɔnta o; network la léa dzitawo si va yi nyitsɔ ko ƒe ɣeyiɣi aɖe, menye dzita mamlɛtɔ ko o, be gakotokuwo [wallets] nagblẽ ɣesiaɣi si gaɖoɖowo ƒuƒoƒe [block] yeye aɖe va o; eye aɖakawo si mele o zãa padding ƒe asixɔxɔ si woɖo da. Mítsɔ ti eve evewo wɔ nɔnɔme nyuitɔ kple ƒuƒoƒewo siwo nye eve ƒe ŋusẽ. Esia aɖeke metrɔ nuxlɔ̃ame la o: adzɔgbeɖeɖewo ƒe aɖakawo, wo-hash wo ɖe eve eve va se dzita ɖeka, kple kpekpeɖeŋu ƒe ɖaseɖigbalɛ kpuiewo. Agbalẽ si ƒoa nu tso protocol ŋu la agatrɔ va ɖe akɔnta kekeawo ŋu.
 
 ---
 
-## Nyagɔmeɖegbalẽ
+## 7. Nuwo ƒe kpuie nɔnɔme
 
-| Nyagbe | Plain-Eŋlisigbe me gɔmesese |
+- **Merkle ƒe ti** hash-a nyatakakawo zu **aɖakawo**, eye wòhash-a **evewo yi dzi** va se **dzita** ɖeka koe gali.
+- Tso avalanche effect ta, **dzita la nye xexlẽme blibo la ƒe kpɔkplɔɖa**: Trɔ aɖaka ɖeka eye dzita la atrɔ. Asixɔxɔ kpuie ɖeka ɖea ɖase na nyatakaka gã aɖe.
+- **Kpekpeɖeŋu ƒe ɖaseɖigbalɛ (ɖaseɖeɖe ƒe mɔ)** nye nɔviwo siwo le mɔ si yina dzita la gbɔ, hash **log_2(n)** kple eŋu, eyata ɖaseɖigbalɛwo nɔa kpuie hã ne aɖakawo biliɔn geɖe le.
+- Ne wowɔe **le zero-knowledge proof ƒe me**, kpekpeɖeŋu ma ɣla aɖaka *ka* nèdi la, eye wòɖea ɖase be "nye didienu le ti la me" ne mèfia didienu la alo eƒe afi o.
+- Zcash ƒe **didienu adzɔgbeɖeɖe ƒe ti** nye Merkle ƒe ti si **wodzena nuwo kple**, si ƒe koko nye **32**, si ƒe dzita nye **anchor**; Sapling hash-ae kple **Pedersen** eye Orchard zãa **Sinsemilla**.
+- Ti la ɖea ɖase na **nɔnɔme**; **gaɣaɣla ɖeɖe dzesi ƒe ƒuƒoƒe** si le vovo la tsia mɔ na **gaɖoɖo eve**. Be woɖe wo ɖe asi ɖeka me o la nye nu si tsia kadodo le didienu ƒe dzidzi kple eƒe ku dome.
+
+---
+
+## Nyagbewo ƒe Gɔmeɖeɖe
+
+| Nyagbe | Gɔmeɖeɖe bɔbɔe |
 |---|---|
-| **Merkle tree** | Hashes ƒe ati aɖe; aŋgbawo nye data asibidɛwo, dzilawo hash wo viwo |
-| **Leaf** | Node si le ete; le Zcash me la, nuŋlɔɖi ɖeka ƒe ɖokuitsɔtsɔna |
-| **Merkle root** | Asibidɛ ɖeka si le etame si ƒo ati bliboa nu ƒu kpuie |
-| **Authentication path / Merkle proof** | Nɔvi hashes siwo hiã be woatsɔ aɖo kpe edzi be aŋgba aɖe le ati |
-| **Incremental Merkle tree** | Merkle-ti si woate ŋu atsɔ akpe ɖe eŋu ko (agbawo koe wotsɔ kpena ɖe eŋu ɣesiaɣi) |
-| **Anchor** | Merkle ke aɖe si a spend yɔ be "ati ƒe nɔnɔme si ŋu mele kpe ɖom edzi le" |
-| **Nullifier set** | Nusiwo wozã ƒe dzesiwo ƒe ƒuƒoƒo ɖe vovo si xea mɔ na gazazã zi eve |
+| **Merkle tree** | Hashwo ƒe ti; aɖakawo nye nyatakakawo ƒe kpɔkplɔɖawo, dzilawo hash-a woƒe viwo |
+| **Leaf** | Ɣaɣla dzesi ŋɔŋlɔ si le anyi; le Zcash me, didienu adzɔgbeɖeɖe ɖeka |
+| **Merkle root** | Kpɔkplɔɖa ɖeka si le dzia, si wɔa ti blibo la ƒe kpuie nɔnɔme |
+| **Authentication path / Merkle proof** | Nɔvi hashwo si hiã be woaɖe ɖase be aɖaka aɖe le ti la me |
+| **Incremental Merkle tree** | Merkle ƒe ti si me wodzea aɖakawo kple ko |
+| **Anchor** | Merkle ƒe dzita si gaɖoɖo aɖe wɔa dɔ kple abe "ti ƒe nɔnɔme si me mele ɖase ɖem ɖe" ene |
+| **Nullifier set** | Ƒuƒoƒe vovovo si me dzesiwo si fia be woɖo didienu dzi kpɔ le, si tsia mɔ na gaɖoɖo eve |
 
 ---
 
-## Nyabiasewo ƒe Nyabiasewo
+## FAQ
 
-**Nukatae ati aɖe eye menye hashes ƒe xexlẽdzesi didi aɖe ko o?**
-Nuŋlɔɖi gbadzaa azi dziwò be nàɖe nya ɖesiaɖe si nèŋlɔ la afia alo awɔ dɔ tso eŋu atsɔ aɖo kpe hamevinyenye dzi. Ati naa kpeɖodzi siwo ƒe lolome le abe logarithmic ene eye ke ɖeka naa wò hena fɔmaɖimaɖi.
+**Nu ka ta ti, ke menye hashwo ƒe xexlẽme didi ko o?**
+Xexlẽme fafa aɖe ana be nàfia alo nàkpɔ entry ɖe sia ɖe be nàɖe kpekpeɖeŋu ɖase. Ti aɖe naa wò ɖaseɖigbalɛwo siwo ƒe gãmenyenye nye logarithmic kple dzita ɖeka na nyateƒe dzadzɛ.
 
-**Ðe kpeɖodziwɔla la hiã ati bliboa?**
-Ao, **ke** koe nye kpeɖodziwɔla la tsɔ kpe ɖe wò ɖaseɖiɖimɔ kpui la ŋu. Emae nye nya bliboa.
+**Ame si le kpekpeɖeŋu ɖem hia ti blibo la oa?**
+Ao. Ame si le kpekpeɖeŋu ɖem hia **dzita** la kple wò ɖaseɖeɖe ƒe mɔ kpuie la ko. Esiae nye ta vevi.
 
-**Nukatae goglome 32 koŋ?**
-Edea se na ati la le gagbalẽ siwo ade biliɔn ene me, si nye tagbɔƒe si sɔ, evɔ wònana hamevinyenye ƒe kpeɖodzi (kple eƒe gazazã le nutome suea me) ƒe lolome nɔa ɖoɖo nu, si dzi woate ŋu akpɔ ŋusẽ ɖo.
+**Nu ka ta koko 32 tututu?**
+Eɖoa ti la ƒe teƒe ɖe didienu biliɔn ene kple eŋu, si le teƒe geɖe, ke wòléa kpekpeɖeŋu ƒe ɖaseɖigbalɛ (kple eƒe circuit me asixɔxɔ) ƒe gãmenyenye ɖe teƒe ɖeka si bɔbɔe eye woate ŋu akpɔ dzi.
 
-**Ne kea trɔna kple nuŋlɔɖi yeye ɖesiaɖe la, aleke kpeɖodzi xoxowo nɔa anyi?**
-Netwɔƒea ɖoa ŋku fesre aɖe si me ke (seke siwo wodo nyitsɔ laa) le dzi, eyata kpeɖodzi si wowɔ ɖe seke si tsi vie ŋu la gakpɔtɔ ɖoa ​​kpe edzi. Protocol nyatia na esia sɔ pɛpɛpɛ.
+**Ne dzita la trɔna ɣesiaɣi si didienu yeye va la, aleke ɖaseɖigbalɛ xoxoawo nɔa nyateƒe?**
+Network la ɖoa dzitawo si va yi nyitsɔ ko ƒe ɣeyiɣi aɖe ɖe dzi, eyata ɖaseɖigbalɛ si wowɔ ɖe anchor tsɔ vie la dzi hã ate ŋu akpɔ kpekpeɖeŋu. Agbalẽ si ƒoa nu tso protocol ŋu la ɖe esia fia tututu.
 
 ---
 
-### Do wò susuŋudɔwɔwɔ kpɔ
+### Kpɔ wò nuxlɔ̃ame
 
-Le míaƒe ati si ƒe aŋgbawo le 4 me la, tsɔe be amedzidzela aɖe ɖɔlia aŋgba le adzame `C` na asixɔxɔ bubu gake egblẽa ke si wota la ɖi matrɔmatrɔe. Nukae gblẽna le wo ŋu, eye nukatae womate ŋu aɖɔe ɖo le ɖoɖoezizi me o? *(Ðo eŋu le ete.)*
+Le míeƒe aɖaka ene ƒe ti me, bu be ame vɔ̃ aɖe trɔ aɖaka `C` le ɣaɣla me yi asixɔxɔ bubu, ke wòde dzita si woɖe fia la ɖe afi ma ke. Nu ka ava dzɔ na wo, eye nu ka ta womate ŋu awɔe le ɣaɣla me o? *(Ŋuɖoɖo le ete.)*
 
-<details><summary>Answer</summary>
+<details><summary>Ŋuɖoɖo</summary>
 
-Tɔtrɔ `C` trɔna `hC` (avalanche effect), si trɔna `hCD = H(hC, hD)`, si trɔna `ROOT = H(hAB, hCD)`. Eyata ke si wogbugbɔ bu akɔnta le la megasɔ kple ke si wota o, eye wokpɔa asitɔtrɔ le eŋu. Be "woaɖɔe ɖo kpoo" la, ahiã be woadi bubu `C` si naa *nu ɖeka* . `hC`, si nye hash ƒe ƒoƒo, si mate ŋu adzɔ le Se 3. Integrity holds.
+Be woatrɔ `C` la atrɔ `hC` (avalanche effect), si atrɔ `hCD = H(hC, hD)`, si atrɔ `ROOT = H(hAB, hCD)`. Eyata dzita si woƒe akɔnta gaɖo la magasɔ kple dzita si woɖe fia la o, eye woakpɔ be ame aɖe wɔ nu vɔ̃. Be woa"trɔe le ɣaɣla me" la, ele be woakpɔ `C` bubu aɖe si ana `hC` *ma ke* ava, si nye hash collision, nu si womate ŋu awɔ o le Nunyaŋlɔɖi 3 nu. Nyateƒe dzadzɛ nɔ anyi.
 </details>
 
 ---
 
-### Nukae kplɔe ɖo
+### Nu si kplɔe ɖo
 
-**Nyati 5 lia . Zero-sidzedze ƒe kpeɖodziwo:** crescendo la. Míetu nuŋlɔɖiwo, adzɔgbeɖeɖewo, kple ati la azɔ, eye míenɔa gbɔgblɔm be "woɖo kpe edzi le sidzedze zero me." Se 5 lia ɖe alesi nàte ŋu aɖo kpe nya aɖe dzi be enye nyateƒe, be wò nuŋlɔɖia le ati me, be wò nullifier la sɔ, be ga da sɔ, evɔ màɖe wo dometɔ aɖeke afia o la me mlɔeba.
+**Nunyaŋlɔɖi 5 . Zero-knowledge proofs:** ƒuƒoƒe dziƒo. Fifia míeɖo didienuwo, adzɔgbeɖeɖewo, kple ti la, eye míegblɔa ɣesiaɣi be "woɖe ɖase le zero knowledge me." Nunyaŋlɔɖi 5 aɖe ale si nàte ŋu aɖe ɖase be nya aɖe nye nyateƒe, be wò didienu le ti la me, be wò gaɣaɣla ɖeɖe dzesi le nyateƒe, be ga ƒe home sɔ, ne mèfia naneke le eme o.
 
-*Zcash ƒe akpa aɖe tso Gɔmeɖose Gbãtɔwo *series na [ZecHub](https://zechub.org). CC BY-SA 4.0 si ŋu mɔɖegbalẽ le.*
+*Enye akpa aɖe le* Zcash Tso Gɔmedzedze Me *ƒe series na [ZecHub](https://zechub.org). Woɖe mɔ na e le CC BY-SA 4.0 nu.*

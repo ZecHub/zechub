@@ -1,34 +1,34 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Zcash_Tech/Zebra_Full_Node.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Aɖe Axawɔ"/>
 </a>
 
-# Zebra Node Bliboe
+# Zebra Ɣaɣla dzesi ŋɔŋlɔ blibo [Full Node]
 
-## TL;DR
+## Nu Vevi Kpuie
 
-- Zebra (`zebrad`) nye Zcash full node si woŋlɔ ɖe Rust me eye Zcash Foundation.
-- Eɖoa kpe mɔxenuwo kple asitsatsa dzi, eléa kɔsɔkɔsɔ ƒe nɔnɔme me ɖe asi, eye wòƒoa nu kple node bubuwo to hatiwo ƒe kadodoa dzi.
-- Zebra kple zcashd wɔ ɖoɖo ɖeka eye woateŋu awɔ dɔ aduadu. Tso esime zcashd xɔ dzudzɔ le dɔme la, Zebra tsɔa akpa si dzi woda asi ɖo.
-- Mɔ eve siwo dzi woato aƒu du: le `zfnd/zebra` Docker nɔnɔmetata, alo xɔtutu tso dzɔtsoƒe.
-- Hardware si wokafu enye CPU cores 4, RAM 16 GB, kple disk 300 GB. Nu suetɔ kekeakee nye 2 cores kple 4 GB RAM, kple disk 300 GB ma ke.
+- Zebra (`zebrad`) nye Zcash ƒe ɣaɣla dzesi ŋɔŋlɔ blibo si woŋlɔ le Rust me, eye Zcash Foundation kpɔa e ŋu.
+- Ena dzesi gaɖoɖowo ƒe gaɖoɖowo ƒuƒoƒewo kple gaɖoɖowo, lée ɖoɖonu ƒe nɔnɔme me, eye wòdo go kple ɣaɣla dzesi ŋɔŋlɔ bubuwo to peer-to-peer network la dzi.
+- Zebra kple zcashd wɔ protocol ma ke eye woate ŋu adɔ ɖe ewo nɔewo ŋu. Tso zcashd ƒe dzidzimegagbe me la, Zebra tsɔ gbegbɔgblɔ ɖi [consensus] ƒe dɔa yi.
+- Mɔ eve si wòate ŋu atsɔ awɔe: `zfnd/zebra` Docker image, alo asrɔ̃ tso source me.
+- Hardware si woɖo to nye CPU cores 4, RAM GB 16, kple disk GB 300. Esi le egɔme keke nye cores 2 kple RAM GB 4, eye disk GB 300 ma ke.
 
-## Numeɖeɖe Vevitɔ
+## Nudzidzɔ Gɔmeɖeɖe
 
-Zebra nye Zcash node gbãtɔ si woŋlɔ bliboe le Rust me. Enɔa Zcash peer-to-peer network dzi, afisi wòda asi ɖe asitsatsa dzi heɖea gbeƒãe le eye wòléa blockchain ƒe nɔnɔmea me ɖe asi. Ne wowɔe le eɖokui si evelia la, egblẽa network ƒe xɔtuɖoɖoa meganɔa te ɖe codebase ɖeka aɖeke dzi boo o.
+Zebra nye Zcash ƒe ɣaɣla dzesi ŋɔŋlɔ gbãtɔ si woŋlɔ blibo le Rust me. Enɔ le Zcash peer-to-peer network la dzi, afi si wòna dzesi eye wòɖe gaɖoɖowo ɖe go, eye wòléa blockchain [gaɖoɖowo ƒuƒoƒo ƒe ɖoɖonu] ƒe nɔnɔme me. Dɔwɔwɔ si le ɖokuibɔbɔ me bubu ta la, network ƒe nuɖoɖo medze ɖe codebase ɖeka ko ŋu o.
 
 ### Zebra kple zcashd
 
-Zcash node gbãtɔ, zcashd, nye esi Electric Coin Company wɔ tso Bitcoin ƒe codebase me. Woŋlɔ Zebra tso gɔmedzedzea me ke le Rust, si nye gbegbɔgblɔ si me ŋkuɖoɖonudzi mele o me, eye woƒe susu nɔa dedienɔnɔ kple dɔwɔwɔ nyuie ŋu.
+Zcash ƒe ɣaɣla dzesi ŋɔŋlɔ gbãtɔ, zcashd, Electric Coin Company ye wɔe tso Bitcoin ƒe codebase me. Woŋlɔ Zebra tso gɔmedzeƒe me le Rust me, si nye gbe si dea ŋku memory ƒe dedie ŋu, eye woɖe asi le dzadzra kple dɔwɔwɔ nyuie ŋu.
 
-Dɔwɔwɔ eveawo siaa zɔna ɖe ɖoɖo ɖeka dzi, ale be woate ŋu aɖo dze ahawɔ dɔ aduadu. zcashd ɖo eƒe End-of-Support ƒe tɔtrɔ gbɔ le 18 July 2026 dzi eye megadzea egɔme o, si gblẽ Zebra kple Zakura ɖi abe node ƒe dɔwɔwɔ siwo wozãna ene. Kpɔ [Nodes Blibowo](/zcash-tech/full-nodes) na nɔnɔmetata si keke ta wu.
+Dɔwɔwɔ eveawo katã zãa protocol ma ke, eyata woate ŋu ado go kple nɔewo eye woawɔ dɔ ɖekae. zcashd va ɖo eƒe End-of-Support ƒe tɔtɔ 18 July 2026, eye megadzɔna o, si na Zebra kple Zakura koe nye ɣaɣla dzesi ŋɔŋlɔ ƒe dɔwɔwɔwo siwo le dɔ wɔm fifia. Kpɔ [Ɣaɣla dzesi ŋɔŋlɔwo blibo](/zcash-tech/full-nodes) be nàkpɔ nɔnɔme bliboa.
 
-## Zebra si le du dzi
+## Zebra Ƒe Dɔwɔwɔ
 
-Àteŋu awɔ Zebra to Docker nɔnɔmetata zazã me, alo àteŋu atue kple asi. Taflatse kpɔ akpa si nye System Requirements.
+Àte ŋu awɔ Zebra kple Docker image, alo nàtu e ɖokuiwò. Taflatse kpɔ System Requirements ƒe akpa.
 
-### Docker Zazã
+### Docker Ƒe Zazã
 
-Be nàwɔ dɔ yeyetɔ si woɖe ɖe go eye nàwɔe wòasɔ ɖe aɖaŋuɖoɖoa nu la, wɔ sedede si gbɔna:
+Be nàwɔ release yeyetɔ eye nàsync e ɖo tip la, wɔ sedede sia:
 
 ```
 
@@ -36,29 +36,29 @@ docker run zfnd/zebra:latest
 
 ```
 
-Ne èdi mɔfiame bliboa la, kpɔ.. [Docker ƒe nuŋlɔɖiwo](https://zebra.zfnd.org/user/docker.html).
+Na fiafia bliboa, yi [Docker ƒe agbalẽdzɔɖoɖo](https://zebra.zfnd.org/user/docker.html) gbɔ.
 
-### Zebra tutu
+### Zebra Ƒe Tututu
 
-Zebra tutu hiã Rust, libclang, kple C++ nuƒoƒoƒula.
+Zebra ƒe tututu hia Rust, libclang, kple C++ compiler.
 
-- Kpɔ egbɔ be yeda Rust ƒe tɔtrɔ yeyetɔ si li ke ɖe wò kɔmpiuta dzi, elabena eya koe wodoa Zebra kpɔna.
-- Xɔtuɖoɖo siwo hiã siwo dzi woanɔ te ɖo dometɔ aɖewoe nye:
-  - libclang (si woyɔna hã be libclang-dev alo llvm-dev)
-  - clang alo C++ nuƒoƒoƒula bubu (abe g++ na mɔ̃wo katã alo Xcode na macOS ene)
-  - protoc (Protocol Buffers nuƒoƒoƒula) kple *--experimental_allow_proto3_optional* aflaga, si woto vɛ le Protocol Buffers v3.12.0 (si woɖe ɖe go le May 16, 2020 dzi).
+- Kpɔ be Rust ƒe stable version yeyetɔ le asiwò, elabena Zebra koe woɖoa teƒe kple e.
+- Build dependencies siwo hia la dome nye:
+  - libclang (woayɔe hã be libclang-dev alo llvm-dev)
+  - clang alo C++ compiler bubu (abe g++ na platforms katã alo Xcode na macOS ene)
+  - protoc (Protocol Buffers compiler) kple *--experimental_allow_proto3_optional* flag, si woɖe egɔme le Protocol Buffers v3.12.0 me (woɖe e go le May 16, 2020).
 
-### Dee eye nàdze egɔme
+### Ɖo Eye Dze Egɔme
 
-Le x86_64 alo aarch64 Linux si me glibc 2.34 alo yeyetɔ le (Ubuntu 22.04+, Debian 12+, RHEL 9+, Amazon Linux 2023), àteŋu adzo le xɔtutu ƒe nusiwo dzi woanɔ te ɖo dzi eye nàde binary si wode asi do ŋgɔ si wotu:
+Le x86_64 alo aarch64 Linux kple glibc 2.34 alo esi wu enu dzi (Ubuntu 22.04+, Debian 12+, RHEL 9+, Amazon Linux 2023) la, àte ŋu adzo build dependencies la me eye nàɖo binary si woɖo asidede agbalẽ te [signature]:
 
 ```
 cargo binstall zebrad
 ```
 
-Wotsɔ binary mawo ke kpe ɖe GitHub tata ɖesiaɖe ŋu abe `zebrad-<version>-<target>.tar.gz`, ɖesiaɖe kple SHA-256 ƒe ɖaseɖigbalẽ, Sigstore ƒe xɔtutu-tsoƒe ƒe ɖaseɖiɖi kple Cosign ƒe asidede agbalẽ te. Le mɔ̃ xoxowo dzi la, zã Docker ƒe nɔnɔmetata alo tu tso dzɔtsoƒe.
+Woatsɔ binaries ma ke de GitHub ƒe release sia sia ŋu abe `zebrad-<version>-<target>.tar.gz` ene, eye SHA-256 checksum, Sigstore build-provenance attestation, kple Cosign signature le woƒe sia sia ŋu. Le platforms xoxowo dzi la, zã Docker image alo tu tso source me.
 
-Be nàtu tso dzɔtsoƒe la, xɔ kɔda la eye nàtu asiɖeɖe le eŋu binary:
+Be nàtu tso source me la, xɔ code la eye nàtu release binary:
 
 ```
 git clone https://github.com/ZcashFoundation/zebra.git
@@ -66,98 +66,98 @@ cd zebra
 cargo build --release --bin zebrad
 ```
 
-Dze node la gɔme kple:
+Dze ɣaɣla dzesi ŋɔŋlɔ la gɔme kple:
 
 ```
 target/release/zebrad start
 ```
 
-Mɔfiame si ku ɖe eɖoɖo ŋu: [zebra.zfnd.org/zãla/ɖoɖo.html](https://zebra.zfnd.org/user/install.html)
+Ɖoɖoɖe ƒe mɔfiame: [zebra.zfnd.org/user/install.html](https://zebra.zfnd.org/user/install.html)
 
-## Tiatiawɔblɔɖe ƒe Ðoɖowo & Nɔnɔmewo
+## Ɖoɖoɖewo Kple Features Siwo Menye Dzi Vevi O
 
-### Ðoɖowɔɖi ƒe Faɛl Gɔmedzedze
+### ƉoɖoƑe ƒe Agbalẽ Ƒe Gɔmedzedze
 
-  - Wɔ ɖoɖowɔɖi ƒe faɛl to sedede sia zazã me:
+  - Wɔ configuration file kple sedede sia:
 
   ```
   zebrad generate -o ~/.config/zebrad.toml
 
   ```
 
-  - Woatsɔ *zebrad.toml* si wowɔ la ade Linux ƒe tiatiawɔblɔɖe ƒe nuŋlɔɖi gbãtɔ me. Ne èdi OS ƒe teƒe bubu siwo woɖo ɖi la, kpɔ nuŋlɔɖiawo.
+  - Woatsɔ *zebrad.toml* si wo wɔ la ade Linux ƒe preferences directory si woɖo le gɔmedzeƒe. Na OS ƒe teƒe bubuwo, kpɔ agbalẽdzɔɖoɖoa.
 
-### Ŋgɔyiyi ƒe Dzesiwo ƒe Ðoɖowɔwɔ
+### Progress Bars Ƒe Ɖoɖoɖe
 
-  - Trɔ asi le *tracing.progress_bar* le wò *zebrad.toml* me be wòaɖe key metrics afia le terminal la me to progress bars zazã me. De dzesii: Nya aɖe si wonya li si me ŋgɔyiyi ƒe akɔntabubuwo ate ŋu alolo akpa.
+  - Ɖo *tracing.progress_bar* ɖe wò *zebrad.toml* me be nàfia metrics veviwo le terminal me kple progress bars. Dzesi: Nya si woanya lee nye be progress bar ƒe estimate ate ŋu akpɔ gɔme akpe.
 
-### Tomenukuƒewo ƒe Ðoɖowɔwɔ
+### Nukuku Ƒe Ɖoɖoɖe
 
-  - Woateŋu aɖo Zebra na tomenukuƒe to *MINER_ADDRESS* kple melidzeƒe ƒe nɔnɔmetata ɖoɖo ɖe Docker me. Àte ŋu akpɔ nyatakaka bubuwo le.. [Tomenukuƒewo ƒe kpekpeɖeŋu ŋuti nuŋlɔɖiwo](https://zebra.zfnd.org/user/mining-docker.html).
+  - Àte ŋu aɖo Zebra na nukuku [mining] kple *MINER_ADDRESS* kple port mapping le Docker me. Nya geɖe le [Nukuku ƒe support agbalẽdzɔɖoɖo](https://zebra.zfnd.org/user/mining-docker.html) me.
 
-### Tu ƒe Nɔnɔme Siwo Trɔna Ðe Edzi
+### Build Features Le Wò Ɖokui Ƒe Nuwo Nu
 
-  - Keke Zebra's dɔwɔwɔ ɖe enu kple Cargo ƒe nɔnɔme bubuwo abe Prometheus metrics, Sentry ŋkuléle ɖe eŋu, dodokpɔ Elasticsearch ƒe kpekpeɖeŋu, kple bubuwo.
+  - Ɖe Zebra ƒe dɔwɔwɔ keke kple Cargo features bubuwo abe Prometheus metrics, Sentry monitoring, experimental Elasticsearch support, kple bubuwo ene.
 
-  - Tsɔ nɔnɔme geɖewo ƒo ƒu to wo ŋɔŋlɔ ɖi abe parameters of the `--features` aflaga le eɖoɖo me.
+  - Ƒo features geɖe nu kple woƒe xexlẽ ɖe `--features` flag ƒe parameters me le installation me.
 
-  - Wotsia debugging kple monitoring feature aɖewo nu le release builds me be woawɔ dɔ nyuie wu. Ne èdi dodokpɔ kple developer ƒe nɔnɔmewo ƒe xexlẽdzesi bliboa la, kpɔ.. [API ƒe nuŋlɔɖiwo](https://docs.rs/zebrad/latest/zebrad/index.html#zebra-feature-flags).
+  - Woɖe debugging kple monitoring features aɖewo le release builds me be woanɔ dɔ wɔm nyuie. Na experimental kple mɔ̃ ƒe ɖoɖoŋlɔla [developer] features ƒe xexlẽ bliboa, kpɔ [API ƒe agbalẽdzɔɖoɖo](https://docs.rs/zebrad/latest/zebrad/index.html#zebra-feature-flags).
 
-## System ƒe Nudidiwo kple Network ƒe Ðoɖowɔwɔ
+## System Ƒe Hiahiawo Kple Network Ƒe Ɖoɖoɖe
 
-### Nudidi Siwo Wokafu
+### Hiahiawo Si Woɖo To
 
-- CPU: CPU ƒe nu vevi 4
-- RAM: 16 GB ƒe kpekpeme
-- Disk Space: 300 GB disk space li na binaries nuƒoƒoƒu kple cached chain state dzadzraɖo
-- Network: 100 Mbps network kadodo kple 300 GB ya teti ƒe nyatakakawo tsɔtsɔ yi Internet dzi kple woƒe kɔpiwo ɣleti sia ɣleti
+- CPU: CPU cores 4
+- RAM: GB 16
+- Disk ƒe Teƒe: Disk ƒe teƒe GB 300 si le blibom na binaries ƒe tututu kple chain ƒe nɔnɔme si woɖo le cache me ƒe dzraɖo
+- Network: Network ƒe kadodo Mbps 100 kple uploads kple downloads GB 300 le ƒe sia ƒe me abe esi le egɔme
 
-### Nudidi Suesuewo
+### Hiahiawo Si Le Egɔme
 
-- CPU: CPU ƒe nu vevi 2
-- RAM: 4 GB
-- Disk ƒe Teƒe: 300 GB ƒe disk ƒe teƒe si li
+- CPU: CPU cores 2
+- RAM: GB 4
+- Disk ƒe Teƒe: Disk ƒe teƒe GB 300 si le blibom
 
-Zebra's dodokpɔxɔa ate ŋu axɔ gaƒoƒo ɖeka kple edzivɔ hafi woawu enu le wò mɔ̃a ƒe nɔnɔmewo nu. Nuɖoanyi siwo le blewu ate ŋu aƒo Zebra. Womeɖo dɔwɔwɔ ƒe liƒo siwo sɔ pɛpɛpɛ to dodokpɔ me o.
+Zebra ƒe test suite ate ŋu axɔ gaƒoƒo ɖeka wu be wòawɔ nu blibo, le wò machine ƒe nuɖoɖo nu. Systems siwo menɔa avɔ o ate ŋu atu eye woawɔ Zebra. Wo mede performance ƒe teƒe siwo tututu me haɖo o.
 
-### Disk ƒe Nudidiwo
+### Disk Ƒe Hiahiawo
 
-- Zebra zãa abe 300 GB na Mainnet nyatakaka siwo wodzra ɖo ɖe cached me kple 10 GB na Testnet nyatakaka siwo wodzra ɖo ɖe cached me. Kpɔ mɔ be disk zazã adzi ɖe edzi le ɣeyiɣi aɖe megbe.
-- Wokɔa nyatakakadzraɖoƒea ŋu ɣeaɖewoɣi, eye ne wotsie alo wogadze egɔme ake hã. Wowɔa tɔtrɔwo to nyatakakadzraɖoƒe ƒe asitsatsa zazã me. Wogbugbɔa tɔtrɔ siwo mede blibo o siwo tso dɔa nu tsotso dzizizitɔe alo vɔvɔ̃ ɖo la ɖe megbe ɣebubuɣi si Zebra adze egɔme.
+- Zebra zãa GB 300 kloe na Mainnet data si le cache me, eye GB 10 na Testnet data si le cache me. Bu be disk ƒe zazã adzi ɖe yi.
+- Woakɔ database la ɣeaɣi, eye woakɔe hã ne wodzi o alo woagbugbɔ adze egɔme. Woɖoa tɔtrɔwo te kple database gaɖoɖowo. Tɔtrɔwo siwo menyo o le forced termination alo panic ta la agbugbɔ ava megbe si Zebra dze egɔme.
 
-### Network ƒe Nudidiwo Kple Melidzeƒewo
+### Network Ƒe Hiahiawo Kple Ports
 
-- Zebra zãa TCP ʋɔtru siwo gbɔna na kadodo siwo gena ɖe eme kple esiwo dona:
+- Zebra zãa TCP ports siawo na kadodo siwo ge ɖe eme kple siwo ado go:
   - 8233 na Mainnet
   - 18233 na Testnet
-- Zebra ƒe ɖoɖowɔwɔ kple listen_addr tɔxɛ aɖe doa boblo adrɛs sia na kadodo siwo gena ɖe eme. Wohiã kadodo siwo dona le gota hena ɖekawɔwɔ; kadodo siwo gena ɖe eme la nye esiwo woate ŋu awɔ le wo ɖokui si.
-- Zcash DNS seeders ƒe mɔɖeɖe hiã to OS DNS resolver (zi geɖe la, port 53) dzi.
-- Zebra ate ŋu awɔ kadodo siwo dona le melidzeƒe ɖesiaɖe. zcashd lɔ̃a hati siwo le ʋɔtru gbãtɔwo dzi be woaƒo asa na zazã na DDoS amedzidzedze le network bubuwo dzi.
+- Ne wòɖo Zebra kple listen_addr aɖe la, wòɖe gaɖoƒe ma ƒe dzesi [address] ɖe go na kadodo siwo ge ɖe eme. Kadodo siwo ado go hia na synchronization; kadodo siwo ge ɖe eme menye dzɔdzɔ be woahi o.
+- Mɔxɔxɔ ɖe Zcash DNS seeders hia to OS DNS resolver dzi (zi geɖe la, port 53).
+- Zebra ate ŋu ado go ɖe ports ɖe sia ɖe dzi. zcashd lɔ̃ peers siwo le default ports dzi be woazãe na DDoS attacks ɖe networks bubuwo dzi o.
 
-### Mainnet Network Zazã Si Bɔbɔe
+### Mainnet Network Ƒe Zazã Si Dzɔna Zi Geɖe
 
-- Gbãtɔ ƒe Ðekawɔwɔ: ehiã be woatsɔ 300 GB ƒe kɔpi awɔ ɖekawɔwɔ gbãtɔ, eye wole mɔ kpɔm be xexlẽme sia adzi ɖe edzi.
-- Nu yeye siwo yia edzi: gbesiagbe nusiwo woda ɖe Internet dzi kple esiwo woɖe tso eme tso 10 MB va ɖo 10 GB, le zãla ƒe asitsatsa ƒe lolome kple hatiwo ƒe biabiawo nu.
-- Zebra dzea gbãtɔ ƒe wɔwɔ ɖekae gɔme le nyatakakadzraɖoƒe ememetɔ ƒe tɔtrɔ ɖesiaɖe me, si ateŋu afia kɔsɔkɔsɔ blibo ƒe kɔpi wɔwɔ le tɔtrɔ ƒe tɔtrɔɣi.
-- Wolɔ̃a hati siwo ƒe mɔzɔzɔ yiyi kple gbɔgbɔ ƒe ɣeyiɣi didi sɛkɛnd 2 alo esi mede nenema o. Ne ɣeyiɣi si woatsɔ aɣlae wu dzidzenu sia la, ʋu tikiti le Zebra nudzraɖoƒe.
+- Sync Gbãtɔ: Download GB 300 hia na synchronization gbãtɔ, eye woele mɔ kpɔm be xexlẽ sia nadzi ɖe yi.
+- Updates Siwo Yina Edzi: Uploads kple downloads le ƒe sia ƒe me tso MB 10 va GB 10, le user ƒe gaɖoɖo ƒe lolome kple peer ƒe biabiawo nu.
+- Zebra dzea initial sync gɔme le internal database version ƒe tɔtrɔ sia sia me, si ate ŋu ana chain ƒe download bliboa le version upgrades me.
+- Woalɔ̃ peers siwo ƒe round-trip latency menɔ sekondi 2 wu o. Ne latency la wu dzidzime sia la, ɖe ticket le Zebra repository me.
 
-## Vodada Siwo Wowɔna Zi geɖe
+## Vodadawo Si Dzɔna Zi Geɖe
 
-- Disk la ƒe lolome tsɔtsɔ na egbea. Cached Mainnet nɔnɔme bɔbɔ nɔ anyi xoxo le 300 GB gbɔ eye wòyi edzi le tsitsim.
-- Mɔkpɔkpɔ na gakotoku RPCwo tso `zebrad`. Safuiwo kple dadasɔwo nɔa agbe le [Zallet](https://github.com/zcash/zallet), si nye ɖoɖowɔɖi si to vovo.
-- Le du dzi `zebrad` eya ɖeka eye wòle mɔ kpɔm be gakotoku siwo me kɔ be woatsɔ aƒo ka. Mɔ ma hiã indexer, eɖanye lightwalletd alo [Zaino](/zcash-tech/zaino).
-- Bubu gbugbɔgawɔ si womele mɔ kpɔm na o be enye vodada. Nyatakakadzraɖoƒe ƒe tɔtrɔ yeye ʋãa ame to aɖaŋuwɔwɔ me.
+- Disk ƒe lolome le egbe ƒe hiahiã ko nu. Mainnet ƒe nɔnɔme si le cache me va ɖo GB 300 gbɔ eye wòle dzi dem yi.
+- Mègabu be gakotoku [wallet] RPCs ava tso `zebrad` gbɔ o. Keys kple balances le [Zallet](https://github.com/zcash/zallet) me, si nye program bubu.
+- Mègawɔ `zebrad` ɖeka ko eye nàbu be light wallets ato e ŋu aɖo e ŋu o. Mɔ ma hia indexer, lightwalletd alo [Zaino](/zcash-tech/zaino).
+- Mègatsɔ resync si mebu na wò abe vodada ene o. Database version ƒe tɔtrɔ dea eme le eƒe ɖoɖo nu.
 
-## Axa Siwo Do Ƒome Kplii
+## Axawo Si Do Ŋu
 
-- [Nodes Blibowo](/zcash-tech/full-nodes) - nusi node blibo wɔna kple dɔwɔwɔ siwo li
-- [Zakura Node ƒe ŋkɔ](/zcash-tech/zakura-node) - node forked tso Zebra kple sync kabakaba wu kple pruning
-- [Zaino](/zcash-tech/zaino) - Rust indexer si subɔa gakotoku siwo me kɔ
-- [Lightwallet ƒe Nodes](/zcash-tech/lightwallet-nodes) - la servers kekeli gakotokuwo biabia
-- [Zcash Tomenukuƒe ƒe Mɔfiame](/using-zcash/zcash-mining-guide) - mining ɖe wò ŋutɔ wò node ŋu
+- [Ɣaɣla dzesi ŋɔŋlɔwo blibo](/zcash-tech/full-nodes) - nu si ɣaɣla dzesi ŋɔŋlɔ blibo wɔna kple dɔwɔwɔ siwo le eme
+- [Zakura Ɣaɣla dzesi ŋɔŋlɔ](/zcash-tech/zakura-node) - ɣaɣla dzesi ŋɔŋlɔ si woɖe tso Zebra me kple sync si le avɔ wu kple pruning
+- [Zaino](/zcash-tech/zaino) - Rust ƒe indexer si subɔa light wallets
+- [Lightwallet ƒe Ɣaɣla dzesi ŋɔŋlɔwo](/zcash-tech/lightwallet-nodes) - servers siwo light wallets biaa nu tso
+- [Zcash Nukuku Ƒe Mɔfiame](/using-zcash/zcash-mining-guide) - nukuku kple wò ɣaɣla dzesi ŋɔŋlɔ ŋutɔ
 
-## Nusɔsrɔ̃ Bubuwo
+## Nusɔsrɔ̃ Bubu
 
-- [Zebra ƒe Agbalẽa](https://zebra.zfnd.org)
-- [Zebra le GitHub](https://github.com/ZcashFoundation/zebra/)
-- [Ðoɖo ƒe Nudidiwo](https://zebra.zfnd.org/user/requirements.html)
+- [Zebra ƒe Agbalẽ](https://zebra.zfnd.org)
+- [Zebra le GitHub](https://github.com/ZcashFoundation/zebra/) dzi
+- [System Ƒe Hiahiawo](https://zebra.zfnd.org/user/requirements.html)

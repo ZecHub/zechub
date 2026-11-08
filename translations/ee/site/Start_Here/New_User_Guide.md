@@ -2,43 +2,43 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Zcash Zãla Yeye ƒe Mɔfiame
+# Zcash Fiafi Zaɖela ƒe Mɔfia
 
 ## TL;DR
 
-- **Ƒle ZEC** le asitɔtrɔ si wodo alɔe (Gemini, BitcoinVN, kple bubuawo)
-- **Ðo gakotoku si ŋu akpoxɔnu le** (Zodl, Zingo, alo Zkool kafui)
-- **Ðe** wò ZEC tso exchange la me yi wò gakotoku si wotsɔ akpoxɔnu wɔe la me
-- **Ðo adzɔnu si wokpɔ ta na** — wò ame ŋutɔ ƒe fetu gbãtɔ le Zcash dzi
-- **Wɔ ɖeka kple nutoa me tɔwo** le nyamedzroƒea alo Discord
+- **Ƒle ZEC** le gatrɔƒe [exchange] si wode asi le (Gemini, BitcoinVN, kple bubuwo)
+- **Ɖo ɣaɣla [shielded] gakotoku [wallet]** (Zodl, Zingo, alo Zkool woadze le ŋgɔ)
+- **Tsɔ yi** wò ZEC tso gatrɔƒe la me yi wò ɣaɣla gakotoku la me
+- **Dɔ ɣaɣla gaɖoɖo [transaction]** — wò fexexe [payment] ɣaɣla gbãtɔ le Zcash dzi
+- **Va xɔ haƒome la ŋu** le forum alo Discord dzi
 
 ---
 
-Nu yeyee le Zcash mea? Mɔfiame sia akplɔ wò to gege ɖe ʋua me abe Zcash zãla kple *ZEC* xɔla ene.
+Ènye fiafi le Zcash mea? Mɔfia sia akplɔ wò be nàge ɖe eme abe Zcash zaɖela kple *ZEC* ƒe nɔlila ene.
 
 ---
 
-**Ƒle ZEC** .
+**Ƒle ZEC**
 
-Be nàzã Zcash network la, ahiã be nàƒle eƒe ga, *ZEC*.
+Be nàte ŋu azã Zcash network la, ele be nàƒle eƒe ga, *ZEC*.
 
-Mɔ bɔbɔetɔ si dzi woato axɔ ZEC enye be... [ƒlee le Gemini dzi](https://www.gemini.com/prices/zcash) or [ɖɔliɖɔli siawo dometɔ ɖesiaɖe](https://zechub.wiki/using-zcash/custodial-exchanges).
+Mɔ bɔbɔe aɖe si wòato atsɔ akpɔ ZECe nye be nà[ƒle e le Gemini](https://www.gemini.com/prices/zcash) alo [gatrɔƒe siawo dometɔ ɖeka dzi](https://zechub.wiki/using-zcash/custodial-exchanges).
 
-Nu vevi ɖeka si nàde dzesii enye be mehiã be nàƒle *ZEC* blibo 1 o.
+Nu vevi aɖe nye be mele be nàƒle *ZEC* blibo o.
 
-*ZEC* nye esi woate ŋu ama, eye àte ŋu adze egɔme kple gaku la ƒe akpa sue aɖe ko ƒle.
+Womate ŋu ama *ZEC* ƒe akpa, eye nàte ŋu adze egɔme kple gaƒe akpa sue aɖe ko.
 
 ---
 
-**Ðo gakotoku aɖe anyi**
+**Ðo gakotoku ɖo**
 
-Ne èƒle *ZEC* aɖewo vɔ la, àte ŋu atsɔe ayi Zcash gakotoku me. 
+Le *ZEC* aɖewo ƒle megbe la, àdi be nàtsɔ ayi Zcash gakotoku me.
 
-Nu sia [nyatia ɖe eme](https://www.ledger.com/academy/not-your-keys-not-your-coins-why-it-matters) nusitae *ZEC* léle ɖe gakotoku me le vevie. 
+[Nyati sia ɖeɖe me](https://www.ledger.com/academy/not-your-keys-not-your-coins-why-it-matters) nu si ta wò *ZEC* ɖe gakotoku me la le vevie.
 
-Míeɖo aɖaŋu be nàzã a [gakotoku si ŋu wokpɔa akpoxɔnu le](https://zechub.wiki/wallets) elabena gakotoku siawo naa ameŋunyatakakawo ƒe nɔnɔme siwo na *ZEC* le etɔxɛ. 
+Miedo ŋku be nàzã [ɣaɣla gakotoku](https://zechub.wiki/wallets) elabena gakotoku siawo naa ɣaɣla ƒe nɔnɔme si wɔe be *ZEC* tɔxɛ.
 
-Video aɖe si ƒo nu tso egbegbe gakotoku siwo ŋu wokpɔ akpoxɔnu le ŋue nye esi:
+Afi video aɖe le esi me wole ɣaɣla gakotoku yeyewo kpɔm:
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -55,11 +55,11 @@ Video aɖe si ƒo nu tso egbegbe gakotoku siwo ŋu wokpɔ akpoxɔnu le ŋue nye 
 
 ---
 
-**Miɖe ZEC ɖa**
+**Ɖe ZEC ɖa**
 
-Ne èwɔ wò gakotoku vɔ la, àdi be yeaɖe yeƒe ZEC ade gakotoku ma me. 
+Le wò gakotoku wɔwɔ megbe la, àdi be nàɖe wò ZEC ɖa ayi gakotoku ma me.
 
-Nufiame aɖe si ku ɖe alesi woawɔ ema ŋue nye esi.
+Afi mɔfia aɖe le ale si nàwɔe ene.
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -75,9 +75,9 @@ Nufiame aɖe si ku ɖe alesi woawɔ ema ŋue nye esi.
 
 ---
 
-**Ðo adzɔnu si wotsɔ akpoxɔnu wɔe ɖa**
+**Dɔ ɣaɣla gaɖoɖo ɖa**
 
-Ne ètsɔ ZEC aɖewo de wò gakotoku me vɔ la, èle klalo be yeaɖo asitsatsa si ŋu wokpɔ ta na bliboe, si nye ame ŋutɔ tɔ la ɖa. Asitsatsa si wokpɔ ta na nye ZEC ƒe asitɔtrɔ si kpɔa gomekpɔla ɖesiaɖe ƒe adzamenyawo ta bliboe. Aɖaŋuɖoɖo nyui aɖewoe nye esi ne èle ZEC si wotsɔ akpoxɔnu wɔe zãm.
+Le wò ZEC aɖewo de ɖe wò gakotoku me megbe la, èɖo be yàdɔ gaɖoɖo si ɣaɣla blibo kple ɣaɣla le eme ɖa. Ɣaɣla gaɖoɖo nye ZEC ƒe maxɔmaxɔ si ɣaɣla medziedzi ƒe ɣaɣla katã blibo. Fiafia aɖewo le afisia ne èle ɣaɣla ZEC zom.
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -92,13 +92,13 @@ Ne ètsɔ ZEC aɖewo de wò gakotoku me vɔ la, èle klalo be yeaɖo asitsatsa s
 
 ---
 
-**Wɔ ɖeka kple nyamedzroƒea**
+**Va ɖo forum la me**
 
-Zcash Community Forum nye teƒe si Zcash habɔbɔa me tɔwo dzroa nusiwo katã ku ɖe Zcash ŋu me le. Discord server hã le mía si.
+Zcash Community Forum nye afi si Zcash habɔbɔa ƒe memetɔwo do go me le nu siwo katã liên ɖe Zcash ŋu. Discord server aɖe hã le mí si.
 
-[Zcash Nutome Nyamedzroƒe](https://forum.zcashcommunity.com/) | [Zcash Xexeame Katã ƒe](https://discord.gg/zcash).
+[Zcash Community Forum](https://forum.zcashcommunity.com/) | [Zcash Global](https://discord.gg/zcash).
 
-Nutoa me tɔwo tsɔa dzo ɖe hamevi yeyewo ŋu eye woxɔa wo nyuie ŋutɔ. Ɣeaɖewoɣi la, dzeɖoɖowo ate ŋu anye mɔ̃ɖaŋununya, gake mègatsi dzi o! Ne nya aɖe le asiwò gbeɖeka la, àte ŋu abia.
+Habɔbɔa ƒe ameawo lɔ̃ nuŋɔŋlɔ ŋutɔ eye woxɔ memetɔ yeyewo kple dzidzɔ. Ɣeaɖewo me la, nuƒoƒowo ate ŋu anye sidzedze ƒe nu, gake mègaɖe le eme o! Ne wò le biabia aɖe kpɔa la, àte ŋu abiae.
 
 <a href="">
     <img width="auto" height="200" alt="zcash-logo-horizontal-transparent" src="/content-images/c1d40441-4336-4754-b3bf-5a746b19a9d5-6d2eca6cbf.webp" />
@@ -106,10 +106,10 @@ Nutoa me tɔwo tsɔa dzo ɖe hamevi yeyewo ŋu eye woxɔa wo nyuie ŋutɔ. Ɣea�
 
 ---
 
-## Axa Siwo Do Ƒome Kplii
+## Axɔxlɔ̃ ƒe Axa Wo
 
-- [Nukae nye ZEC kple Zcash](/start-here/what-is-zec-and-zcash) — Se gɔmedzenuawo gɔme hafi nàdze egɔme
-- [ZEC ƒeƒle](/using-zcash/buying-zec) — Nusiwo wotsɔ ɖɔ li wo nɔewo siwo doa alɔ gaɖeɖe le ga si wotsɔ akpoxɔnu wɔe ƒe xexlẽdzesi bliboa
-- [Gakotokuwo](/using-zcash/wallets) — Tsɔ Zcash gakotokuwo katã sɔ kple wo nɔewo le woƒe nɔnɔmewo kple mɔ̃a nu
-- [Ta Siwo Wotsɔ Akpoxɔnu Wɔe](/using-zcash/shielded-pools) — Srɔ̃ nusita asitsatsa siwo ŋu wokpɔa akpoxɔnuwo le le vevie
-- [Adzɔnuwo ƒe asitsatsa](/using-zcash/transactions) — Alesi woaɖo ZEC ɖa ahaxɔe le adzame
+- [Nu kae nye ZEC eye Zcash](/start-here/what-is-zec-and-zcash) — Se gɔmedzedzeawo gɔme hafi nàdze egɔme
+- [ZEC ƒleƒle](/using-zcash/buying-zec) — Gatrɔƒe siwo katã dea mɔ ɣaɣla ƒe gaɖeɖe me ƒe xexlẽme blibo
+- [Gakotokowo](/using-zcash/wallets) — Tsɔ nɔnɔme kple platform sɔ gakotoku Zcashawo katã kple wo nɔewo
+- [Ɣaɣla Gaƒuƒoƒowo](/using-zcash/shielded-pools) — Srɔ̃ nu si ta ɣaɣla gaɖoɖowo le vevie
+- [Gaɖoɖowo](/using-zcash/transactions) — Ale si nàdɔ eye nàxɔ ZEC le ɣaɣla me

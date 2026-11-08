@@ -2,153 +2,153 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Gakuxɔla Siwo Wokpɔ Akpoxɔnu ƒe Akɔdada
+# ɣaɣla (Shielded) Kɔin ƒe Nɔlawo ƒe Akɔtaɖoɖo
 
-> Le August 2026 me la, Zcash wɔ gakuxɔlawo ƒe numekuku aɖe si me akɔtagbalẽviwo nɔa nya ɣaɣlawo me eye woɖea xexlẽme mamlɛawo ko ɖe go, eye wozã akɔdada ƒe ɖoɖo si wotsɔ akpoxɔnu tu si Valar Group.
+> Le August 2026 me la, Zcash wɔ kɔin ƒe nɔlawo ƒe akɔtaɖoɖo si me akɔtawo nɔ ɣaɣlaŋlɔŋlɔ te eye woɖe mamleawo ƒe xexlẽ bliboa ko fia, esi wowɔ ɣaɣla akɔtaɖoɖo ƒe ɖoɖo si Valar Group tu.
 
-Nusi nàxɔ le asiwò: alesi woate ŋu ada akɔdada ɖe ZEC agbɔsɔsɔme si le asiwò dzi, si nèdzra ɖo ɖe ɖokuiwò ŋu, eye wògaxlẽe nyuie kokoko, esiawo katã ame aɖeke masrɔ̃ alesi nèda akɔ alo agbɔsɔsɔme si le asiwò o.
+Nusi nàse egɔme: ale si woate ŋu ada akɔta ƒe kpekpeɖeŋu ɖe ZEC si nèle asiwò ƒe lolome, ana nàganɔ ɣaɣla me, eye woaxlẽe nyuie hã, ne ame aɖeke maɖe nusi nèɖo akɔta ɖo o alo nusi nèle asiwò o.
 
-Shielded coinholder voting na Zcash holders daa akɔ le lãwo ƒe agbenɔnɔ ŋuti nyabiasewo ŋu to woƒe shielded ZEC. Ame aɖeke menya nusi ame ɖekaɖeka aɖeke da asi ɖe edzi alo ZEC agbɔsɔsɔme si le esi o, ke hã ame sia ame ate ŋu adzro eme be xexlẽmeawo katã sɔ. Ezɔna ɖe akɔdada ƒe kɔsɔkɔsɔ tɔxɛ aɖe si Valar Group, si to vovo tso Zcash mainnet gbɔ, eyata wò ga ŋutɔŋutɔwo meʋãna gbeɖe o. Ne èdi alesi Zcash wɔa nyametsotsowo le mɔ si keke ta wu nu la, kpɔ [Zcash Gadodo kple Dziɖuɖu ƒe wɔwɔfia](../zcash-community/zcash-governance). Axa sia ku ɖe cryptographic voting protocol ŋu ko.
+ɣaɣla kɔin ƒe nɔlawo ƒe akɔtaɖoɖo na Zcash ƒe nɔlawo nɔ akɔta ɖe ecosystem ƒe biabiawo ŋu kple woƒe ɣaɣla ZEC. Ame aɖeke mate ŋu anya nusi ame ɖeka sia ɖo akɔta ɖo alo ZEC aleke wòle asime o, gake ame sia ame ate ŋu akpɔe ɖa be xexlẽwo le eteŋu. Ewɔa dɔ le akɔtaɖoɖo ƒe ɖoɖonu si Valar Group tu ŋu, si maɖe le Zcash mainnet ŋu o, eye wòƒe ga vavã mele ɖe asi o. Ne èdi be nànya ale si Zcash wɔa ɖoɖo le gbogblɔ me la, kpɔ [Zcash Ga ƒe Nadzɔdzɔ kple Dziɖuɖu ƒe Nɔnɔmetata](../zcash-community/zcash-governance). Axa sia ƒe nya koe nye ɣaɣlaŋlɔŋlɔ ƒe akɔtaɖoɖo ƒe ɖoɖo.
 
-Nu yeyee le Zcash? Dze egɔme kple [Nukae nye ZEC kple Zcash](../start-here/what-is-zec-and-zcash), [Ta Siwo Wotsɔ Akpoxɔnu Wɔe](../using-zcash/shielded-pools), kple [zk-SNARKs](../zcash-tech/zk-snarks), emegbe nàtrɔ ava afisia.
+Èya yeyee le Zcash ŋu oa? Dze egɔme kple [Nukae nye ZEC eye Zcash](../start-here/what-is-zec-and-zcash), [Ɣaɣla gaƒuƒoƒowo](../using-zcash/shielded-pools), eye [zk-SNARKs](../zcash-tech/zk-snarks), eye va megbe afisia.
 
 ![Shielded voting flow: a voter proves their Ironwood balance at a snapshot, casts an encrypted ballot split into shares, which are homomorphically tallied and then threshold-decrypted into totals only](/content-images/shielded-voting-flow.webp)
 
-## Nusita ame ŋutɔ ƒe akɔdada sesẽ
+## Nu ka ta ɣaɣla akɔtaɖoɖo sesẽ
 
-Gakuxɔla nyui ƒe akɔdada dina be yeawɔ nu ene zi ɖeka, kple mɔ siwo dze ƒã be yewoana woawɔ avu kple wo nɔewo.
+Kɔin ƒe nɔlawo ƒe akɔtaɖoɖo nyui di nu ene le ɣeyiɣi ɖeka me, eye mɔ siwo dze ŋgɔ be woatsɔ akpɔ wo la ƒoa ɣli kple wo nɔewo.
 
-1. Kpekpeme ɖe ati ŋu, eyata ZEC geɖe léle ɖe asi tsɔa kpekpeme geɖe wu.
-2. Ame ŋutɔ ƒe nyawo tsɔtsɔ aɣla, eyata ame aɖeke mesrɔ̃a alesi nèda akɔe o.
-3. Privacy of balance, eyata ame aɖeke mesrɔ̃a ZEC agbɔsɔsɔme si nèlé ɖe asi o.
-4. Xexlẽme si sɔ, si woate ŋu adzro, si ame sia ame ate ŋu akpɔ.
+1. Kpekpeɖeŋu nanɛ le ga ƒe ƒuƒoƒo nu, ale be ZEC geɖe si wòlé la na kpekpeɖeŋu geɖe.
+2. Tiaɖoɖo ƒe ɣaɣla, ale be ame aɖeke manya ale si nèɖo akɔta ɖo o.
+3. Ga ƒe ƒuƒoƒo ƒe ɣaɣla, ale be ame aɖeke manya ZEC aleke nèle asiwò o.
+4. Xexlẽ si le eteŋu eye woate ŋu akpɔe ɖa, si ame sia ame ate ŋu akpɔe ɖa.
 
-Be nàda kpekpeme ɖe ati ŋu la, edze abe èhiã amesiame ƒe dadasɔ ene. Be nàxlẽ akɔtagbalẽviwo la, edze abe ehiã be nàʋu wo ene. Mɔ si me susu mele o wɔwɔ dometɔ ɖesiaɖe naa ame ŋutɔ ƒe nyatakakaawo tututu dona a [ta si ŋu wokpɔ akpoxɔnu le](../using-zcash/shielded-pools) li be woakpɔ eta, eye gaku ƒe akɔdada siwo wowɔ do ŋgɔ la do dadasɔ ŋuti nyatakakawo ɖe go le susu sia ta. Akɔdada si wokpɔ ta na kpɔa masɔmasɔa gbɔ kple dɔwɔnu mawo ke siwo naa ŋusẽ fexexe si wokpɔ ta na: [kpeɖodzi siwo me sidzedze zero mele o](../zcash-tech/zk-snarks), nullifiers, kple nya ɣaɣlawo tsɔtsɔ ɣla.
+Ne woadzro kpekpeɖeŋu le ga ƒe ƒuƒoƒo nu la, ekema wòle be woanya ame sia ame ƒe ga ƒe ƒuƒoƒo. Ne woadzro akɔtawo la, wòle be woaʋu wo. Ne wowɔ esia le mɔ bɔbɔe nu la, ekema edoa ŋutinya si ɣaɣla gaƒuƒoƒo [ɣaɣla gaƒuƒoƒo](../using-zcash/shielded-pools) le be wòakpɔ ɖa la fia, eye kɔin ƒe akɔtaɖoɖo siwo va yi hã ɖe ga ƒe ƒuƒoƒo ƒe nyawo fia le ta sia nu. ɣaɣla akɔtaɖoɖo wɔa ɖe dzɔdzɔ sia ŋu kple dɔwɔnu mawo ke siwo wɔa ɣaɣla fexexe dɔ: [zero-knowledge ɖaseɖigbalɛwo](../zcash-tech/zk-snarks), nullifiers, kple ɣaɣlaŋlɔŋlɔ.
 
-## Nusi wokpɔna le susu me: akɔtagbalẽvi si xlẽa eɖokui
+## Nuxlɔ̃ame: akɔta ƒe aɖaka si xlẽa eɖokui
 
-> Trɔtrɔmɔ̃ nana nèxlẽa nusiwo toa gadzraɖoƒe ƒe nudzraɖoƒe aɖe evɔ màkpɔ eme o. Akɔtagbalẽvi si ŋu wokpɔ akpoxɔnu le la yia ŋgɔ wu ema: eƒoa akɔdada siwo wotre enu nu ƒu evɔ meʋua wo gbeɖe o.
+> Gaƒe ƒe xexlẽdzikpɔɖeƒe na wòate ŋu nàxlẽ nusi to gaƒe me la ne mèkpɔ eme o. ɣaɣla akɔta ƒe aɖaka yi edzi ɖeka: exlẽa akɔta siwo woƒo ɣaɣla la ƒe xexlẽ ne meʋu wo kpɔ o.
 
-Kpɔ akɔtagbalẽvi aɖe si me ŋusẽ etɔ̃ siwo mebɔ o le la ɖa le susu me. Ate ŋu atsɔ agbalẽkotoku si wotre nu na akpe ɖe duƒuƒu ƒe ƒuƒoƒo ŋu evɔ maʋui o. Dziɖuɖumegãwo ƒe ƒuƒoƒo aɖe, si me ame ɖeka pɛ hã melé safuia ɖe asi o, ɖea xexlẽme mamlɛawo ɖeɖeko fiana emegbe. Eye hafi nàte ŋu atsɔ agbalẽkotoku aɖe aƒu gbe ɖe eme la, èɖo kpe edzi kpoo be yelé ZEC ɖe asi le ɣeyiɣi aɖe si va yi si woɖo ɖi me eye mèda akɔ xoxo o, evɔ mèfia gaku siwo nye tɔwò o. Nusianu si le ete la nye alesi wotu aɖaka ma ŋutɔŋutɔ.
+Bu akɔta ƒe aɖaka aɖe si si ŋusẽ tɔxɛ lɔ̃. Ete ŋu atsɔ envelop si woƒo ɣaɣla akpe ɖe xexlẽ si le edzi yim la ŋu ne meʋu eƒe eme o. Dɔdzikpɔlawo ƒe ha aɖe, ame ɖeka mele wo dome si le kplɔɖeƒe la o, va ɖe mamleawo ƒe xexlẽ bliboa ko fia. Eye hafi nàte ŋu atsɔ envelop aɖe ade eme la, èɖe ɖase le ɣaɣla me be nèlé ZEC le ɣeyiɣi si va yi aɖe me eye mèɖo akɔta ɖo kpɔ o, ne mèfia kɔin kawoe nye tɔwò o. Nusiwo katã le ete lae nye ale si wotu aɖaka sia vavã.
 
-## Dzedze kple foto si woɖe le ɣeyiɣi kpui aɖe me
+## Ɖeɖe te ŋu akɔtaɖoɖo kple snapshot
 
-A voting round ɖɔa snapshot ƒe kɔkɔme, Zcash mainnet block ɖeka, eye wò kpekpeme nye wò spendable shielded balance le [Ironwood](../zcash-tech/ironwood) ta si le xɔtuƒe ma. Sea nye Ironwood ZEC ɖeka ko le fotoa me sɔ kple akɔdada ɖeka. Le NU7 ƒe kekeme ƒe numekukua gome la, fotoa nye mainnet block 3,459,350, le August 24, 2026 lɔƒo le 19:00 UTC, kple akɔdada ʋu vaseɖe September 14, 2026 le 19:00 UTC. Wowɔa ZEC si me kɔ la ŋudɔ ɖe vovo to mɔnu xoxoa dzi, ke menye to ɖoɖowɔɖi sia dzi o.
+Akɔtaɖoɖo ƒe ƒeɖeɖe aɖe tsɔa snapshot ƒe kɔkɔƒe, Zcash mainnet gaɖoɖowo ƒuƒoƒe ɖeka, ɖo anyi, eye wòƒe kpekpeɖeŋu nye wòƒe ɣaɣla ga si nàte ŋu azã le [Ironwood](../zcash-tech/ironwood) gaƒuƒoƒo me le gaɖoɖowo ƒuƒoƒe ma dzi. Se la bɔbɔe: Ironwood ƒe ZEC ɖeka le snapshot la dzi sɔ kple akɔta ɖeka. Na NU7 ƒe scope akɔtaɖoɖo la, snapshot la nye mainnet gaɖoɖowo ƒuƒoƒe 3,459,350, le August 24, 2026 ƒe 19:00 UTC ƒe ƒome, eye akɔtaɖoɖo la ʋu va se ɖe September 14, 2026 ƒe 19:00 UTC. Nuwo ƒe ʋuʋuɖi ZEC woatsɔ mɔ xoxo la wɔe le vovo me, menye ɖoɖo sia ŋu o.
 
-1. Wò ga meʋãna gbeɖe o eye wometua wo gbeɖe o. Woɖo dzedze le fotoa me, eyata àte ŋu azã ZEC alo aʋui enumake le ema megbe evɔ makpɔ ŋusẽ ɖe wò akɔdada dzi o.
-2. Afɔɖeɖe aɖeke meli si woatsɔ ade ŋkɔ agbalẽ me o. Fotoɖeɖefia ƒe kɔkɔme koe hiã, si wɔnɛ be ɖoɖoa nɔa bɔbɔe eye wòƒoa asa na amesi ɖoe be yeada akɔ la ɖeɖefia.
+1. Wòƒe ga mele ɖe asi o eye woƒoa eƒe mɔ o. Woɖo ame siate ŋu akɔtaɖoɖo le snapshot la dzi, eya ta nàte ŋu azã alo atsrɔ̃ ZEC enumake emegbe ne wòmeɖe wòƒe akɔta ŋu o.
+2. Ŋkɔŋlɔɖeɖe ƒe afɔɖeɖe aɖeke mele o. Snapshot ƒe kɔkɔƒe ko hiã, si nana dɔa le bɔbɔe eye wòna ame siwo di be woaɖo akɔta ɖo la ƒe nyawo menɔ ʋuʋuɖi o.
 
-## Wò dadasɔ dzi dada evɔ màɖee afia o
+## Ale si nàɖe wòƒe ga ƒe ƒuƒoƒo fia ne mèfia eya o
 
-Ne èda akɔ la, wò gakotokua ɖea kpeɖodzi si me sidzedze zero le vɛ be le fotoɖeɖea me la, èkpɔ ŋusẽ ɖe ZEC. Eɖoa ga si sɔ kple eƒe lolome ɖe ame ŋutɔ ƒe xexlẽdzesidzidzemɔ̃wo gbɔ, gake meɖea nuŋlɔɖi aɖeke fiana o eye mewɔa asitsatsa aɖeke le Zcash mainnet dzi o.
+Ne nèɖo akɔta ɖo la, wòƒe gakotoku wɔa zero-knowledge ɖaseɖigbalɛ be le snapshot la me nèkplɔ ɣaɣla ZEC aɖewo siwo menye zãtɔ o. Eɖea ga ƒe ƒuƒoƒo si le eteŋu kple eƒe lolome fia na xexlẽ ƒe mɔ̃ɖaŋu si le ɣaɣla me, gake mefia didienu aɖeke o eye mewɔa gaɖoɖo aɖeke le Zcash mainnet ŋu o.
 
-Kpeɖodzi ma mints akɔdada ƒe kafukafu le akɔdada ƒe kɔsɔkɔsɔa dzi si sɔ kple wò foto si susɔ, si nye akɔdada ƒe safui yeye si wò gakotokua wɔna na ɣeyiɣi sia ko tɔ. Esi wònye be safuia nye yeye eye medo ƒome kple wò Zcash adrɛswo o ta la, womate ŋu akpɔ naneke le akɔdada ƒe kɔsɔkɔsɔa me tso wò nuŋlɔɖi ŋutɔŋutɔwo gbɔ o. Wò kɔsɔkɔsɔ ƒe dzesidenu kple wò akɔtagbalẽvi la mate ŋu aƒo ƒu to xɔtutu me o.
+Ɖaseɖigbalɛ ma wɔa akɔtaɖoɖo ƒe credit le akɔtaɖoɖo ƒe ɖoɖonu la dzi, si sɔ kple wòƒe snapshot ga ƒe ƒuƒoƒo, eye akɔtaɖoɖo ƒe kplɔɖeƒe yeye si wòƒe gakotoku wɔ ɖe ƒeɖeɖe sia ta ko lae le eŋu. Esi kplɔɖeƒe la yeye eye womeɖo eƒe kadodo kple wòƒe Zcash ƒe gaɖoƒe ƒe dzesiwo o ta la, nu aɖeke le akɔtaɖoɖo ƒe ɖoɖonu la dzi mate ŋu ade mɔ ɖe wòƒe didienu vavãwo gbɔ o. Wòƒe ɖoɖonu dzi ame ƒe nyenye kple wòƒe akɔta le kadodo manɔ anyi le woƒe tututu me.
 
-## Mɔxexe ɖe akɔdada zi eve nu, le ame ŋutɔ gbɔ
+## Akɔtaɖoɖo zi eve ƒe nuxtɔxɔ, le ɣaɣla me
 
-Be ame aɖeke natɔ te gaku ɖeka ma ke ƒe akɔdada zi eve la, ele be ɖoɖoa naɖo kpe edzi be womezã gaku siwo le megbe na wò gaku si susɔ la le fotoɖeɖea me o. Le mainnet dzi la, wowɔa esia to nuŋlɔɖi aɖe ƒe nullifier, eƒe spent-marker tɔxɛ, si nodes blibowo léa ŋku ɖe eŋu be wogazãnɛ hã ɖeɖefia me. Gake ne èɖe wò nullifier la ɖe go le afisia la, ana wò akɔtagbalẽvia natrɔ ayi wò nuŋlɔɖiwo gbɔ tẽ.
+Be woaxɔ mɔ na ame aɖeke megaɖo akɔta zi eve kple kɔin ɖeka mawo o la, ele be ɖoɖoa na akpe be didienu siwo le wòƒe ga ƒe ƒuƒoƒo megbe la menye zãtɔ le snapshot la dzi. Le mainnet la dzi la, wowɔa esia to didienu ƒe gaɣaɣla ɖeɖe dzesi, eƒe zãzã dzesi tɔxɛ, ƒe ɖeɖefia me, si ɣaɣla dzesi ŋɔŋlɔ blibowo kpɔa be woatsɔ zãe ake o. Gake ne woɖe wòƒe gaɣaɣla ɖeɖe dzesi fia afii la, ekema woado wòƒe akɔtaɖoɖo ɖe didienuwo gbɔ enumake.
 
 ![Private double-vote prevention: instead of revealing a nullifier, the wallet uses Private Information Retrieval to fetch proof material while hiding which nullifier it asked about, then proves the note was unspent](/content-images/shielded-voting-pir.webp)
 
-Eyata ɖoɖowɔɖia ɖo kpe nusi to vovo na ema dzi le adzame. Etua nullifier ɖesiaɖe si wozã xoxo tso esime woɖe fotoa la ƒe xexlẽdzesi, eye wò gakotoku ɖo kpe edzi le sidzedze zero me be wò nuŋlɔɖi ƒe nullifier mele xexlẽdzesi ma me o, si fia be womezã nuŋlɔɖia o evɔ meɖea nuŋlɔɖi si wònye la fiana o.
+Eyata ɖoɖoa ɖea nu si to vovo me fia le ɣaɣla me. Ewɔa gaɣaɣla ɖeɖe dzesiwo katã siwo wozã xoxo le snapshot la dzi ƒe xexlẽ, eye wòƒe gakotoku ɖea ɖase fia le zero-knowledge me be wòƒe didienu ƒe gaɣaɣla ɖeɖe dzesi mele xexlẽ ma me o, si fia be didienu la menye zãtɔ ne mefia didienu kae o.
 
-Kuxi ɖeka gakpɔtɔ li. Ne èxɔ xexlẽdzesi ma ƒe akpa si hiã tso dɔwɔƒe aɖe la, aɖe wò nullifier la afia na dɔwɔƒea, eye xexlẽdzesi bliboa lolo, anɔ abe 2 GB ene na Orchard-era nyatakakawo eye wòlolo wu sã ne Zcash le tsitsim. [Ame ŋutɔ ƒe Nyatakakawo Xɔxɔ](../zcash-tech/private-information-retrieval) (PIR) kpɔa evea siaa gbɔ: wò gakotokua xɔa nyatakaka siwo tututu wòhiã esime wòɣlaa nyatakaka siwo wòbia la to nya ɣaɣlawo me. Woléa ŋku ɖe emetsonua ŋu kple nullifier ƒe xexlẽdzesi ƒe kpukpui si wota, eyata server si meɖi anukware o mate ŋu awɔ aʋatso emetsonua o.
+Nuxaxa ɖeka gale. Ne woaxɔ xexlẽ ma ƒe akpa si hiã tso server aɖe gbɔ la, ekema woaɖe wòƒe gaɣaɣla ɖeɖe dzesi fia na server la, eye xexlẽ bliboa lolo, le GB 2 ƒe ƒome na Orchard-me ƒe data, eye wòanɔ gã wu esia le Zcash ƒe tsitsi me. [Nya ƒe Xɔxɔ ɣaɣla Me (Private Information Retrieval)](../zcash-tech/private-information-retrieval) (PIR) ɖɔa nya evea sia: wòƒe gakotoku xɔa data si hiãe tututu, esi ɣaɣlaŋlɔŋlɔ tsɔ fia data si wobia la ɣaɣla. Wokpɔa emetsonu la ɖe gaɣaɣla ɖeɖe dzesi ƒe xexlẽ ƒe nɔnɔmetata si woɖe fia la ŋu, ale be server si menyo o mate ŋu awɔ emetsonu aɖe si menye vavã o.
 
-## Akɔtagbalẽvi si wotsɔ nya ɣaɣlawo ŋlɔ
+## Akɔta si woŋlɔ ɣaɣla ƒe ɖoɖo
 
-Le biabia ɖesiaɖe gome la, wò gakotokua wɔa nu etɔ̃.
+Na biabia sia biabia la, wòƒe gakotoku wɔa nu etɔ.
 
-1. Etsɔa homomorphic encryption, si nye nya ɣaɣla ƒomevi aɖe si me woate ŋu atsɔ eƒe nya ɣaɣlawo akpe ɖe wo nɔewo ŋu evɔ womaɖe wo gɔme o tsɔ ɣlaa wò akɔdada ƒe kpekpeme na akɔmitia. Esiae na be aɖaka la ƒe akɔntabubuwo katã nye esiwo mete ŋu xlẽ o.
-2. Ema wò akɔdada ɖe akpa vovovo 16 me, ale be kɔmiti si wɔ ɖeka bliboe gɔ̃ hã naʋli vevie be yeagaƒo ga home si ame ɖeka ɖesiaɖe da akɔ kplii nu ƒu.
-3. Etsɔa gome mawo ɖona ɖe amewo le ɣeyiɣi siwo woɖo ɖi me to server geɖe dzi, eyata eteƒekpɔla mate ŋu agblɔ be gomeawo nye atikemawɔla ɖeka tɔ vaseɖe esime wova ɖo o.
+1. Eŋlɔa wòƒe akɔta ƒe kpekpeɖeŋu ɣaɣla na xexlẽ ƒe komiti la kple homomorphic encryption, ɣaɣlaŋlɔŋlɔ ƒe ƒome si me woate ŋu akpe ciphertexts ɖe wo nɔewo ŋu ne woaɖe wo ƒe ɣaɣla kpɔ o. Esiae na aɖaka la ate ŋu axlẽ akɔtawo siwo mate ŋu exlẽ o.
+2. Ema wòƒe akɔta ƒe akpa 16 vovovo, ale be hã ne komiti bliboa wɔ ɖeka la, nanɔ sesẽ be woaƒo nusi ame ɖeka ɖo akɔta ɖo kplee la ƒe lolome ake.
+3. Edoa akpa mawo ɖe ɣeyiɣi siwo woɖe ɖe vovo me la dzi to servers geɖewo dzi, ale be nukpɔla aɖeke mate ŋu anya be akpa mawo tso akɔtaɖola ma ke gbɔ to ɣeyiɣi si wova me o.
 
-Ga ɖesiaɖe tsɔa eya ŋutɔ ƒe kpeɖodzi si me sidzedze aɖeke mele o be enye akɔtagbalẽvi si sɔ ƒe akpa si sɔ, eyata ame aɖeke mate ŋu atsɔ akɔdada siwo ŋu womeda asi ɖo o akpe ɖe eŋu o. Wotsɔa gomekpɔkpɔ siwo ŋu woɖo kpee kpena ɖe homomorphically kpena ɖe encrypted running total ŋu na wò ŋuɖoɖo si nètia.
+Akpa sia akpa tsɔa eya ŋutɔ ƒe zero-knowledge ɖaseɖigbalɛ be enye akpa si le eteŋu tso akɔta vavã aɖe me, ale be ame aɖeke mate ŋu akpe akɔtawo siwo meɖo ɖase me o. Woakpe akpa siwo woakpɔe ɖa be wole eteŋu la ɖe xexlẽ si woŋlɔ ɣaɣla na wòƒe ŋuɖoɖo si nètsɔ tia la dzi kple homomorphic mɔ.
 
-## Xexlẽme evɔ womaʋu akɔtagbalẽvi aɖeke o
+## Xexlẽ ne woaʋu akɔta aɖeke kpɔ o
 
-Tiatiawɔha si woma ye kpɔa akɔntabubua dzi: ne mede ɖeke o la, ame 10 ya teti siwo ɖoa kpe akɔdada ƒe kɔsɔkɔsɔ dzi, eye wo dometɔ ɖeka pɛ hã mate ŋu aɖe naneke gɔme o. Le ƒoƒo aɖe ƒe gɔmedzedze la, wowɔa safuidzidzi ƒe kɔnu aɖe si wɔa safui aɖe si ƒe nya ɣaɣlawo ɖeɖeɖa safui si sɔ la ma ɖe wo katã me eye womeƒoa wo nu ƒu ɖe teƒe ɖeka gbeɖe o.
+Xexlẽa wɔa dɔ kple akɔtaɖoɖo ƒe ŋusẽmama si woama le vovototo me: akɔtaɖoɖo-ɖoɖonu ƒe dɔdzikpɔla 10 alo sɔe kple esia wu, eye ame ɖeka aɖeke le wo dome mate ŋu aɖe nu aɖeke ƒe ɣaɣla kpɔ o. Le ƒeɖeɖe aɖe ƒe gɔmedzedze la, wo katã wɔa kplɔɖeƒe-wɔwɔ ƒe kpekpe ɖeka si wɔa ɣaɣlaŋlɔŋlɔ ƒe kplɔɖeƒe, si eƒe ɣaɣla-ɖeɖe kplɔɖeƒe si sɔ kplee la mamla wo dome eye womeƒoa eƒe akpa katã ɖe teƒe ɖeka o.
 
-> Dziɖuɖumegã ɖeka aɖeke melé safuia ɖe asi o. Ne wo dometɔ eve le etɔ̃ me trɔ woƒe safuiwo ɖekae ko hafi aɖaka la ʋuna, eye le ɣemaɣi gɔ̃ hã la, xexlẽme bliboa koe wòɖena fiana.
+> Dɔdzikpɔla ɖeka aɖeke mele si le kplɔɖeƒe la o. Aɖaka la ʋua ne woƒe akpa etɔ le ene me trɔ woƒe kplɔɖeƒewo ɖeka, eye hã le ɣeyiɣi ma me la, mamleawo ƒe xexlẽ koe wòɖea fia.
 
-Ne ƒoƒoa wu enu la, xexlẽdzesi siwo wotsɔ nya ɣaɣlawo ŋlɔ la li xoxo tso homomorphic addition si le etame la me. Validator ɖesiaɖe taa nya ɣaɣla ƒe akpa aɖe tsɔ kpe ɖe kpeɖodzi si wòɖe nyuie ŋu. Ne wo dometɔ eve le etɔ̃ me ya teti kpe asi ko la, woƒe akpawo ƒoa ƒu zua nuŋɔŋlɔ si me kɔ ƒe xexlẽme mamlɛtɔ na biabia ɖesiaɖe, eye womeɖea nya bubu aɖeke gɔme gbeɖe o. Emegbe node blibo ɖesiaɖe ateŋu alé ŋku ɖe dzɔdzɔenyenye ƒe kpeɖodzi si woƒo ƒu ŋu, ale be dukɔa ateŋu aɖo kpe xexlẽmea dzi evɔ womaka ɖe amesiwo ɖo kpe edzi dzi o.
+Ne ƒeɖeɖe la ƒo nu la, xexlẽ siwo woŋlɔ ɣaɣla la le afi ma xoxo tso homomorphic kpekpeɖeŋu si le etame. Dɔdzikpɔla sia sia ɖea ɣaɣla ƒe akpa aɖe kple ɖaseɖigbalɛ be eɖe ɣaɣla la nyuie fia. Ne woƒe akpa etɔ le ene me dze eme la, woƒe akpa mawo ƒoa ɖeka wɔa xexlẽ si mewoŋlɔ ɣaɣla o na biabia sia biabia, eye womeɖea nu bubu aɖeke ƒe ɣaɣla kpɔ o. ɣaɣla dzesi ŋɔŋlɔ blibo sia sia ate ŋu akpɔ ɖaseɖigbalɛ si woƒo ɖeka ƒe nyonyo ɖa, ale be dukɔ la ate ŋu akpɔ xexlẽa ɖa ne womekplɔ dzidzɔ ɖe dɔdzikpɔlawo ŋu o.
 
-## Amekae ƒua du, kple nusi womate ŋu awɔ o
+## Ame kawoe wɔa dɔa, eye nusi womate ŋu awɔ o
 
-Aɖaŋua ma akpa eve me eyata ŋusẽ mele ƒuƒoƒo aɖeke si fũ o.
+Nɔnɔmetata la ma dɔwɔƒe eve ɖe vovo me, ale be ha aɖeke magakpɔ ŋusẽ geɖe akpa o.
 
 ![Separation of powers: a coordinator multisig sets which questions appear but cannot see votes, while a validator set counts but cannot read individual ballots or forge a tally](/content-images/shielded-voting-roles.webp)
 
-Ðoɖowɔla multisig nye ƒuƒoƒo si me ame 2 le 5 me le eye eteƒenɔlawo tso Project Tachyon, me [Zcash Foundation](../zcash-organizations/zcash-foundation), ZODL, [Shielded Labs](../zcash-organizations/shielded-labs), kple Valar Group. Etsoa nya me le nyabiase siwo aɖo kɔsɔkɔsɔa gbɔ ŋu eye wòɖoa kpe ƒoƒo ɖesiaɖe ƒe nya ɣaɣla ƒe safui dzi, gake mate ŋu akpɔ ame ɖekaɖekawo ƒe akɔdada, atrɔe, alo axe mɔ na wo o. Amesiame si melɔ̃a nyabiaseawo o ate ŋu awɔ eya ŋutɔ ƒe akɔdada ƒe kɔsɔkɔsɔ, elabena kɔmpiutadziɖoɖoa ʋu eye mɔɖeɖe mele eŋu o.
+Coordinator multisig la nye ame 2 tso ame 5 ƒe ha, si me ame tso Project Tachyon, [Zcash Foundation](../zcash-organizations/zcash-foundation), ZODL, [Shielded Labs](../zcash-organizations/shielded-labs), kple Valar Group le. Wòɖoa nya siwo adze ɖoɖonu la dzi kple wòɖea ɖase na ƒeɖeɖe sia ƒe ɣaɣlaŋlɔŋlɔ ƒe kplɔɖeƒe, gake mate ŋu akpɔ, atrɔ, alo axɔ mɔ na akɔta ɖekaɖeka o. Ame sia ame si melɔ̃ biabiawo o ate ŋu awɔ eya ŋutɔ ƒe akɔtaɖoɖo ƒe ɖoɖonu, elabena software la le ʋuʋuɖi eye zãzã faa.
 
-Validators nye at-least-10 nodes siwo léa split decryption key eye wowɔa threshold decryption. Womate ŋu aɖe akɔtagbalẽvi ɖekaɖekawo gɔme alo awɔ alakpa akɔntabubu o, elabena nyatakaka ɖesiaɖe si woɖe tso eme la tsɔa dutoƒo ɖɔɖɔɖo ƒe kpeɖodzi ɖonae.
+Dɔdzikpɔlawo nye ɣaɣla dzesi ŋɔŋlɔwo 10 alo sɔe kple esia wu siwo le ɣaɣla-ɖeɖe kplɔɖeƒe si woema dome la eye wowɔa threshold ɣaɣla-ɖeɖe. Womate ŋu aɖe akɔta ɖekaɖeka ƒe ɣaɣla kpɔ alo awɔ xexlẽ aɖe si menye vavã o, elabena ɣaɣla-ɖeɖe sia sia tsɔa nyonyo ƒe ɖaseɖigbalɛ na dukɔ la.
 
-## Nusi tae quorum la nye
+## Nusi ta quorum le
 
-Ðoɖowɔlawo ɖoa gomekpɔkpɔ ƒe dzidzenu aɖe: ne ZEC 1,000,000 ya teti kpɔ gome le nyabiase ɖeka ya teti me ko hafi wobua numekukua me tsonu be enye gakuxɔlawo teƒenɔlawo. Ameha la tsoa nya me le nyabiase aɖeke ŋu o eye womewɔa eŋudɔ le nyabiase ɖesiaɖe me o. Enye ŋkuléle ɖe numekuku bliboa ŋu zi ɖeka, eyata ne ZEC ƒe agbɔsɔsɔ gã aɖe dze ko hafi wobua emetsonu aɖe nu vevii. Le dzidzenu ma te la, womebua emetsonua be enye dzesi si ŋu gɔmesese le o.
+Dɔwɔlawo ɖoa ame siwo ɖo akɔta ƒe lolome ɖe anyi: woabua akɔtaɖoɖo ƒe emetsonu be ena kɔin ƒe nɔlawo ƒe susu ko ne ZEC 1,000,000 le akpa le biabia aɖe me hã, ne woate ŋu agblɔ be wometsɔ akɔta ɖo o hã. Quorum la meɖoa biabia aɖeke o eye wometsɔe wɔa dɔ na biabia sia biabia o. Enye akpɔkpɔ ɖeka le akɔtaɖoɖo bliboa ŋu, ale be woabua emetsonu aɖe be ele vevie ko ne ZEC geɖe aɖe va le eme. Ne edze teƒe ma nu la, womabu emetsonu la be enye dzesi si le gɔme o.
 
-## Nusiwo ɖoɖo sia mekpɔ ta na o
+## Nusi ɖoɖo sia mekɔ ɖa o
 
-Be eme nakɔ le goawo ŋu nye alesi wowɔe gɔmesese ƒe akpa aɖe.
+Nɔnɔmetata la ƒe gbɔgbɔwo ƒe gblɔɖe nyuie nye ƒe akpa aɖe.
 
-1. Dzesie wònye, ke menye nyametsotso si bla ame o. Gakuxɔlawo ƒe numekuku dzidzea seselelãme si woda ɖe ati dzi eye wòɖua nu ɖe Zcash's nɔnɔme si sɔ me [dziɖuɖu ƒe ɖoɖo](../zcash-community/zcash-governance) tsɔ wu be woatsɔe aɖo eteƒe.
-2. Wodae ɖe gaku nu, eyata ŋusẽkpɔɖeamedzi kplɔa nusiwo le asi léle ɖe asi ɖo. Friction si bɔbɔ ɖe anyi ate ŋu ana amewo ƒe vava nadzi ɖe edzi gake metrɔa ZEC.
-3. Ðoɖowɔɖia nye esi ɖoɖowɔla multisig, si tiaa nyabiase siwo ado. Mate ŋu aka asi akɔdada ŋu o, eye amesiame ate ŋu awɔ kɔsɔkɔsɔ si le ho ʋlim, gake ɖoɖowɔɖiwo ɖoɖo gakpɔtɔ nye nusi kpɔa ŋusẽ ɖe ame dzi.
-4. Xexlẽme hiã validators le internet dzi. Akɔntabubua wɔwɔ bia be wo dometɔ eve le etɔ̃ me ya teti nawɔ nu aduadu, eyata nutsotso gã aɖe alo gbegbe si wowɔ ɖekae ate ŋu ahe emetsonu aɖe ɖe megbe.
-5. Dadasɔ le adzamenyawo me le nugbeɖoɖo blibo te nye ametakpɔkpɔ le gogloƒe, ke menye nukpɔsusu o. Ne kɔmiti bliboa gbugbɔ safuia tu le adzame la, gomemamã kple ɣeyiɣi si woɖo ɖi na wòe nye nusi kpɔa wò dadasɔ ta, eye aɖaŋuwɔlawo lɔ̃ ɖe edzi be esiawo gbɔdzɔ wu le nugbeɖoɖo me. Ʋuwo ƒe zɔzɔ ŋuti numekuku deŋgɔ nye afɔku si susɔ.
-6. Akpa siwo ʋãna wu alesi wowɔe xoxoa. PIR servers, submission servers, voting key yeye, kple multi-stage proofs dometɔ ɖesiaɖe nye teƒe si vodadawo alo ɖoɖowɔwɔ gbegblẽ ate ŋu adze le. Nuɖoanyia nye esi woate ŋu azã faa eye wodzro eƒe akpa aɖewo me le wo ɖokui si, si kpɔa afɔku ma gbɔ tsɔ wu be wòaɖee ɖa.
+1. Enye dzesi, menye ɖoɖo si wòle be woawɔ tututu o. Kɔin ƒe nɔlawo ƒe akɔtaɖoɖo ɖea amewo ƒe susu si woɖo kple ga ƒe ƒuƒoƒo fia eye wòdea eme le Zcash ƒe [dziɖuɖu ƒe mɔƉoɖo](../zcash-community/zcash-governance) me, le teƒe be wòatrɔe o.
+2. Woɖoa akɔta ɖe kɔin ƒe lolome nu, eya ta ŋusẽ dze ɖe nɔnɔwo ŋu. Mɔ faƒe wu ate ŋu awɔ be ame geɖe aɖo akɔta ɖo, gake ema trɔ ZEC ƒe ƒoƒo ɖe teƒe ɖeka o.
+3. Coordinator multisig lae ɖoa agenda la, si tia biabia siwo ado ɖe eme. Mate ŋu akpɔ akɔtawo o, eye ame sia ame ate ŋu awɔ ɖoɖonu si ana tsitretsitsi, gake agenda ƒe ɖoɖo gale abe ŋusẽ ƒe teƒe aɖe ene.
+4. Xexlẽa hiã be dɔdzikpɔlawo nanɔ internet dzi. Mamlea ƒe wɔwɔ hiã be woƒe akpa etɔ le ene me nɔ kpe ɖe eŋu, eya ta internet dɔƒe ŋutɔƒe ƒe gbegblẽ gã aɖe alo tɔtrɔ ƒe agbe gbɔɖeɖe ate ŋu aɖe emetsonu aɖe ɖe megbe.
+5. Ga ƒe ƒuƒoƒo ƒe ɣaɣla ne ame katã wɔ ɖeka nye ɖeɖekpɔɖeŋu si wotsɔ kpe ɖe eŋu, menye nu si woɖe fia be wòle eteŋu o. Ne komiti bliboa ƒo kplɔɖeƒe la ɣaɣla, akpa-ma-ma kple ɖoɖe ɣeyiɣi siwo wotsɔ do akɔta lae akɔ wòƒe ga ƒe ƒuƒoƒo ɖa, eye nɔnɔmetata ƒe dɔwɔlawo gblɔ be esiawo sɛ gbɔ vie ne ame katã wɔ ɖeka. Traffic ƒe dzodzro si le nunya me kpɔtɔ nye afɔku.
+6. Dɔwɔnu geɖe wu nɔnɔmetata xoxo la. PIR servers, submission servers, akɔtaɖoɖo ƒe kplɔɖeƒe yeye, kple ɖaseɖigbalɛ ƒe afɔafɔ geɖewo nye teƒe si bug alo ɖoɖo si menyo o ate ŋu adze. Ɖoɖoa le open source, eye woakpɔ eƒe akpa aɖewo ɖa le woŋutɔ ŋu, si dzea afɔku sia ŋu le teƒe be wòatsrɔ̃e katã o.
 
-Nusiwo wòkpɔ ta na, vevie eye woate ŋu aɖo kpe edzi, enye nu eve siwo le vevie wu: womate ŋu atsɔ wò akɔtagbalẽvi asɔ kple wò amenyenye o, eye xexlẽme mamlɛawo koe woɖena fiana gbeɖe o.
+Nusi wòkɔ ɖa sesĩe kple si woate ŋu akpɔ ɖa la nye nu eve siwo le vevie wu: womate ŋu ado wòƒe akɔta ɖe wòƒe ame-nyenye ŋu o, eye mamleawo ƒe xexlẽ bliboa koe woɖea fia.
 
-## Nyagɔmeɖegbalẽ
+## Nyawo ƒe Gɔme
 
-| Nya | Gɔmesese si le Eŋlisigbe me gbadzaa |
+| Nya | Gɔme le English bɔbɔe me |
 |---|---|
-| Voting chain | Blockchain si le eɖokui si, si Valar Group, si kpɔa akɔdadaa dzi; wò Zcash nuŋlɔɖiwo meʋuna ɖe edzi gbeɖe o |
-| Snapshot height | Mainnet block si ƒe balances ɖo akɔdada ƒe kpekpeme (block 3,459,350 na NU7 ƒe numekukua) |
-| Nullifier | Nuŋlɔɖi aɖe ƒe gazazã ƒe dzesi tɔxɛ; eɖeɖefia atsɔ akɔtagbalẽvi asɔ kple nuŋlɔɖi aɖe, eyata akɔdada ɖo kpe edzi be menye hamevi o boŋ |
-| Private Information Retrieval (PIR) | Nyatakakawo xɔxɔ tso server dzi esime nèle nyatakaka siwo nèbia la ɣlam |
-| Homomorphic encryption | Encryption si ƒe ciphertexts ateŋu aƒo ƒu ɖekae evɔ womaɖe wo gɔme o |
-| Coordinator multisig | Ƒuƒoƒo 2 le 5 me si ɖea mɔ ɖe nyabiasewo kple safui goglo la ŋu, gake mete ŋu kpɔa alo trɔa akɔdada o |
-| Election authority | Validator 10 alo esi wu nenema siwo léa split decryption key la ɖekae eye woɖea xexlẽme mamlɛtɔ ko fiana |
-| Threshold decryption | Ne gomekpɔla vevi siwo le afisia sɔ gbɔ, siwo nye eve le etɔ̃ me, wɔ nu aduadu ko hafi emetsonu aɖe gbugbɔgaxɔ |
-| Quorum | ZEC gomekpɔkpɔ suetɔ kekeake si nye 1,000,000 na akɔdadaa be woabui be enye teƒenɔla |
+| Voting chain | Blockchain vovovo si Valar Group tu, si wɔa akɔtaɖoɖo la; wòƒe Zcash didienuwo mele ɖe eŋu o |
+| Snapshot height | Mainnet gaɖoɖowo ƒuƒoƒe si ƒe ga ƒe ƒuƒoƒowo ɖoa akɔta ƒe kpekpeɖeŋu (gaɖoɖowo ƒuƒoƒe 3,459,350 na NU7 ƒe akɔtaɖoɖo) |
+| Nullifier | Didienu ƒe zãzã dzesi tɔxɛ; ne woɖe eya fia la, wòado akɔta aɖe ɖe didienu aɖe ŋu, eya ta akɔtaɖoɖo ɖea ɖase be mele xexlẽ me o le teƒe ma |
+| Private Information Retrieval (PIR) | Data ƒe xɔxɔ tso server aɖe gbɔ ne èɣla data kae nèbia |
+| Homomorphic encryption | Ɣaɣlaŋlɔŋlɔ si ƒe ciphertexts woate ŋu akpe ɖe wo nɔewo ŋu ne woaɖe wo ƒe ɣaɣla kpɔ o |
+| Coordinator multisig | Ame 2 tso ame 5 ƒe ha si na mɔ na biabiawo kple ƒeɖeɖe ƒe kplɔɖeƒe, gake mate ŋu akpɔ alo atrɔ akɔtawo o |
+| Election authority | Dɔdzikpɔla 10 alo sɔe kple esia wu siwo le ɣaɣla-ɖeɖe kplɔɖeƒe si woema dome la eye woɖea mamle bliboa ko fia |
+| Threshold decryption | Emetsonu ƒe xɔxɔ ne kplɔɖeƒe ƒe akpa ƒe nɔlawo ƒe lolome de eme, afii la woƒe akpa etɔ le ene me |
+| Quorum | ZEC 1,000,000 ƒe ame siwo le akpa le akɔtaɖoɖo me ƒe lolome si woabua be ena kɔin ƒe nɔlawo ƒe susu |
 
-## Nyabiasewo ƒe Nyabiasewo
+## Biabia siwo wobia zi geɖe
 
-Ðe nye gakuwo ʋãna alo wotua wo ne meda akɔa? Ao, wodzidzea dzedze le snapshot block la dzi, eyata wò ZEC nɔa anyi eye woate ŋu azãe. Akɔdada naa kpeɖodziwo nɔa kɔsɔkɔsɔ si le vovo dzi, ke menye Zcash asitsatsa o.
+Le nye kɔinwo ɖea asi alo woƒoa wo ƒe mɔ ne meɖo akɔta ɖo? Ao. Woɖea ame siate ŋu akɔtaɖoɖo le snapshot gaɖoɖowo ƒuƒoƒe la dzi, eya ta wòƒe ZEC nɔa afi ma eye nàte ŋu azãe. Akɔtaɖoɖo wɔa ɖaseɖigbalɛwo le ɖoɖonu vovovo aɖe dzi, menye Zcash gaɖoɖo o.
 
-Ame aɖe ate ŋu agblɔ alesi meda akɔ alo alesi gbegbe melé ɖe asia? Ao, wotsɔa nya ɣaɣlawo dea akɔtagbalẽviwo me eye woɖea nyatakaka siwo katã woƒo ƒu ko me. Wò akɔdada medo ƒome kple wò amenyenye o, eye woma wò ga si susɔ ɖe ɣeyiɣi 16 me be woatsɔ akpɔ eta tso kɔmiti si wɔ ɖeka gɔ̃ hã si me.
+Ame aɖeke ate ŋu anya ale si meɖo akɔta ɖo alo ga aleke le asinyea? Ao. Woŋlɔ akɔtawo ɣaɣla eye mamle ƒe xexlẽwo koe woɖea ɣaɣla. Wòƒe akɔta le kadodo manɔ anyi kple wòƒe ame-nyenye, eye woema wòƒe ga ƒe ƒuƒoƒo akpa 16 siwo woɖoa le ɣeyiɣi vovovowo me be woakɔe ɖa hã ne komiti aɖe wɔ ɖeka.
 
-Nukae xea mɔ na ame be wòada akɔ zi eve, alo atsɔ gaku siwo mele esi o ada akɔ? Akɔtagbalẽvi ɖesiaɖe tsɔa kpeɖodzi siwo me sidzedze zero le be wotsɔ fotoɖeɖe ƒe dadasɔ ŋutɔŋutɔ si womezã o ɖo megbe nɛ, eye kpeɖodzi si wotu ɖe PIR dzi si menye hamevinyenye o ɖee fia be womezã nuŋlɔɖi si le ete la xoxo o, evɔ womeɖe nuŋlɔɖi si wònye la fia o.
+Nu kae na ame aɖeke mete ŋu aɖo akɔta zi eve, alo aɖo akɔta kple kɔin siwo mele asime o? Akɔta sia sia tsɔa zero-knowledge ɖaseɖigbalɛwo be woɖo eŋu kple snapshot ga ƒe ƒuƒoƒo vavã si menye zãtɔ, eye PIR-ɖoɖo ƒe ɖase be mele xexlẽ me o fia be didienu si le eƒe megbe la menye zãtɔ kpɔ o, ne mefia didienu kae o.
 
-Amekae xlẽa akɔdadaawo? Validator 10 ya teti ƒe hatsotso si woma, amesiwo dometɔ aɖeke mate ŋu aɖe naneke gɔme ɖeɖeko o. Ele be ame eve le etɔ̃ me nawɔ nu aduadu atsɔ aɖe xexlẽmeawo katã afia, eye nya ɣaɣla ɖesiaɖe si woɖe tso eme la va kple dutoƒo ƒe dzɔdzɔenyenye ƒe kpeɖodzi.
+Ame kawoe xlẽa akɔtawo? Dɔdzikpɔla 10 alo sɔe kple esia wu ƒe ha si woama le vovototo me, eye ame aɖeke le wo dome mate ŋu aɖe nu aɖeke ƒe ɣaɣla kpɔ eya ɖeka o. Woƒe akpa etɔ le ene me le be woawɔ ɖeka hafi woaɖe mamleawo fia, eye ɣaɣla-ɖeɖe sia sia tsɔa nyonyo ƒe ɖaseɖigbalɛ na dukɔ la.
 
-Ðe emetsonua blaa amea? Enye gakuxɔla ƒe seselelãme ƒe dzesi si wotsɔ ati da kpekpemee. Enaa Zcash's dziɖuɖu si sɔ la nya tsɔ wu be wòawɔ tɔtrɔ aɖe ƒe se le eɖokui si.
+Emeɖoɖo la le be woawɔe tututua? Enye kɔin ƒe nɔlawo ƒe susu ƒe dzesi si woɖo kple ga ƒe ƒuƒoƒo. Edea eme le Zcash ƒe dziɖuɖu ƒe mɔƉoɖo me le teƒe be wòawɔ tɔtrɔ aɖe enumake o.
 
-Ðe nye ŋutɔ mate ŋu awɔ esia alo adzro emea? Ɛ̃. Valar Group ta akɔdada ƒe kɔsɔkɔsɔ ƒe kɔmpiutadziɖoɖoa, nutome suewo, PIR ɖoɖoa, kple akɔntabubu ƒe agbalẽdzikpɔla katã be amesiame nalé ŋku ɖe eŋu ahawɔ dɔ.
+Mate ŋu awɔ alo akpɔ esia ɖa nye ŋutɔa? Ẽ. Akɔtaɖoɖo-ɖoɖonu ƒe software, circuits, PIR ƒe ɖoɖo, kple mamle ƒe dɔdzikpɔla la katã Valar Groupeɖe fia be ame sia ame nakpɔ wo ɖa eye wòawɔ wo.
 
-## Do wò nugɔmesese kpɔ
+## Ɖe wòƒe gɔmesese kpɔ
 
-Ne wotsɔ nya ɣaɣlawo de akɔtagbalẽvi ɖesiaɖe me eye ame ɖesiaɖe ƒe ŋkɔ meyɔ o la, aleke ame aɖe awɔ aka ɖe edzi be akɔntabubu siwo wota la sɔ eye be ame aɖeke meda akɔ zi eve o?
+Ne woŋlɔ akɔta sia sia ɣaɣla eye akɔtaɖola sia sia ƒe ŋkɔ mele ɣla, aleke ame aɖeke ate ŋu aka ɖe edzi be mamle si woɖe fia la le eteŋu eye ame aɖeke meɖo akɔta zi eve o?
 
 <details>
-<summary>Answer</summary>
+<summary>Ŋuɖoɖo</summary>
 
-Kpeɖodzi etɔ̃e wɔa dɔa. Kpeɖodzi si nye sidzedze zero le akɔtagbalẽvi ɖesiaɖe ŋu be wotsɔ fotoɖeɖefia ŋutɔŋutɔ si da sɔ le megbe nɛ, eyata womexlẽa akɔdada aɖeke si womeda asi ɖe edzi o. Kpeɖodzi si wotu ɖe PIR dzi be womenye hameviwo o ɖee fia be womezã gagbalẽ si le megbe nɛ o, si xe mɔ ɖe akɔdada zi eve nu evɔ womeɖe nuŋlɔɖia ɖe go o. Eye ne kpeɖodzinalawo ɖe xexlẽdzesiawo katã gɔme la, wo dometɔ ɖesiaɖe taa kpeɖodzi be wosɔ, eyata node blibo ɖesiaɖe ate ŋu aɖo kpe edzi be woɖe xexlẽdzesi mamlɛawo gɔme anukwaretɔe tso akɔtagbalẽvi siwo wotsɔ nya ɣaɣlawo ŋlɔ la me.
+Ɖaseɖigbalɛ atọe wɔa dɔa. Akɔta sia sia tsɔa zero-knowledge ɖaseɖigbalɛ be woɖo eŋu kple snapshot ga ƒe ƒuƒoƒo vavã, ale be womexlẽa akɔta siwo meɖo ɖase me o. PIR-ɖoɖo ƒe ɖase be mele xexlẽ me o fia be didienu si le eƒe megbe la menye zãtɔ, si xɔa mɔ na akɔtaɖoɖo zi eve ne mefia didienu la o. Eye ne dɔdzikpɔlawo ɖe mamleawo ƒe ɣaɣla kpɔ la, ame sia sia ɖea nyonyo ƒe ɖaseɖigbalɛ fia, ale be ɣaɣla dzesi ŋɔŋlɔ blibo sia sia ate ŋu aka ɖe edzi be woɖe mamle ƒe xexlẽ siwo mlɔ o tso akɔta siwo woŋlɔ ɣaɣla la me.
 </details>
 
-## Nunɔamesiwo
+## Nuɖeɖewo
 
-- [NU7 Coinholder Vote ƒe gbeƒãɖeɖe (Valar Group kple Project Tachyon)](https://forum.zcashcommunity.com/t/nu7-coinholder-vote/56912) - forum post scoping the poll, snapshot ƒe kɔkɔme, kple ɖoɖowɔɖi
-- [Gakuxɔlawo ƒe Akɔdada ƒe Kɔsɔkɔsɔ: mɔ̃ɖaŋununya ƒe ɖoɖowɔwɔ](https://forum.zcashcommunity.com/t/the-coinholder-voting-chain/56925) - protocol write-up si dzi wotu axa sia ɖo
-- [Valar Group kpɔ akɔdada ŋuti nuŋlɔɖiwo ta](https://valargroup.gitbook.io/shielded-vote-docs) - nufiame si wolé ɖe te na akɔdada ƒe kɔsɔkɔsɔa
-- [Valar Group ƒe akɔdada ƒe sedede kple agbalẽdzikpɔkpɔ (GitHub)](https://github.com/valargroup/vote-sdk) - ʋuʋu-dzɔtsoƒe ƒe dɔwɔwɔ kple eƒe agbalẽdzikpɔkpɔ
+- [NU7 Kɔin ƒe Nɔlawo ƒe Akɔtaɖoɖo ƒe gblɔɖeɖe (Valar Group kple Project Tachyon)](https://forum.zcashcommunity.com/t/nu7-coinholder-vote/56912) - forum ƒe nuŋɔŋlɔ si ɖoa akɔtaɖoɖo la ƒe teƒe, snapshot ƒe kɔkɔƒe, kple ɣeyiɣi ƒe ɖoɖo
+- [Kɔin ƒe Nɔlawo ƒe Akɔtaɖoɖo ƒe Ɖoɖonu: nɔnɔmetata ƒe ɖoɖo](https://forum.zcashcommunity.com/t/the-coinholder-voting-chain/56925) - ɖoɖo ƒe nuŋɔŋlɔ si axa sia dze egɔme tsoe
+- [Valar Group ɣaɣla akɔtaɖoɖo ƒe nukuɖeɖewo](https://valargroup.gitbook.io/shielded-vote-docs) - nuɖeɖe si wowɔ ɣeyiɣi sia me na akɔtaɖoɖo ƒe ɖoɖonu
+- [Valar Group akɔtaɖoɖo ƒe code kple dɔdzikpɔwo (GitHub)](https://github.com/valargroup/vote-sdk) - open-source ƒe wɔwɔ kple eƒe dɔdzikpɔwo
 
-## Axa siwo do ƒome kplii
+## Axa siwo ka ɖe eŋu
 
-- [Ame ŋutɔ ƒe Nyatakakawo Xɔxɔ](../zcash-tech/private-information-retrieval) - mɔnu si menye hamevinyenye o ƒe kpeɖodzimɔnu si le megbe na ame ŋutɔ ƒe akɔdada zi eve ƒe mɔxexeɖedɔléle nu
-- [Ironwood](../zcash-tech/ironwood) - ta si wodzra ɖo si ƒe dadasɔwo ɖoa akɔdada ƒe kpekpeme
-- [zk-SNARKs](../zcash-tech/zk-snarks) - kpeɖodziɖoɖo si le megbe na dadasɔ kple dzedze ƒe kpeɖodziwo
-- [Ta Siwo Wotsɔ Akpoxɔnu Wɔe](../using-zcash/shielded-pools) - nusi shielded balance nye kple nusita wònɔa ɣaɣla
-- [Zcash Gadodo kple Dziɖuɖu ƒe wɔwɔfia](../zcash-community/zcash-governance) - alesi seselelãme ƒe dzesi sia ɖua nu ɖe Zcash's nyametsotsowɔwɔ ƒe ɖoɖo si keke ta wu me
-- [Shielded Labs](../zcash-organizations/shielded-labs) - ame atɔ̃ siwo le ɖoɖowɔla multisig la dometɔ ɖeka
+- [Nya ƒe Xɔxɔ ɣaɣla Me](../zcash-tech/private-information-retrieval) - ɖase be mele xexlẽ me o ƒe mɔ si le double-vote ɣaɣla me ƒe nuxtɔxɔ megbe
+- [Ironwood](../zcash-tech/ironwood) - ɣaɣla gaƒuƒoƒo si ƒe ga ƒe ƒuƒoƒowo ɖoa akɔta ƒe kpekpeɖeŋu
+- [zk-SNARKs](../zcash-tech/zk-snarks) - ɖaseɖigbalɛ ƒe ɖoɖo si le ga ƒe ƒuƒoƒo kple ame siate ŋu akɔtaɖoɖo ƒe ɖasewo megbe
+- [ɣaɣla Gaƒuƒoƒowo](../using-zcash/shielded-pools) - nukae nye ɣaɣla ga ƒe ƒuƒoƒo eye nu ka ta wònɔa ɣla
+- [Zcash Ga ƒe Nadzɔdzɔ kple Dziɖuɖu ƒe Nɔnɔmetata](../zcash-community/zcash-governance) - ale si susu ƒe dzesi sia dea eme le Zcash ƒe ɖoɖo ƒe mɔ blibo me
+- [Shielded Labs](../zcash-organizations/shielded-labs) - coordinator multisig ƒe ame atɔwo dometɔ ɖeka

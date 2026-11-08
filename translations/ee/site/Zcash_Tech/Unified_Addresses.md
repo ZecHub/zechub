@@ -1,115 +1,115 @@
-# Unified Address (ZIP-316) ƒe Dzesidede
+# Ɖekae ƒe Gaɖoƒe ƒe Dzesi [Unified Address] (ZIP-316) ƒe Kaka Kpɔ
 
-*Esia nye nusɔsrɔ̃ ƒe mɔfiame, menye decoder alo copy-paste fexexe ƒe agbalẽdzraɖoƒe si wobla ɖe agba me o. Eɖe alesi woɖo Unified Address me ale be nàte ŋu ase nusi agbalẽdzraɖoƒe siwo ŋu wodzra ɖo la wɔna le ʋuƒoa te gɔme. Le nusianu si kpɔa ga ŋutɔŋutɔ gbɔ gome la, he ɖe megbe na.. [ZIP-316 nɔnɔmetata](https://zips.z.cash/zip-0316) kple dziɖuɖua ƒe dɔwɔwɔ siwo do ƒome le ete.*
-
----
-
-## Nɔnɔmetata gã la
-
-Unified Address (UA) nye adrɛs ƒe ka ɖeka si tsɔa xɔla ƒomevi geɖewo: **Transparent**, **Sapling**, **Orchard**, alo ƒokpli. Gakotoku si xea fe la tiaa receiver pool nyuitɔ kekeake si wòdoa alɔe le eɖokui si.
-
-Bu UA be enye agbalẽkotoku si wotre nu na si me agbalẽvi geɖe siwo dzi woŋlɔ nu ɖo le. Kpekpeɖeŋugbalẽvi ɖesiaɖe tsi tre ɖi na mɔ vovovo si dzi woato aɖo gbɔwò. Be dɔbiagbalẽvi aɖe nate ŋu akpɔ adrɛs aɖe la, ele be:
-
-1. **Ʋu agbalẽkotokua:** Decode nuŋɔŋlɔ ƒe ka.
-2. **Un-shuffle emenyawo:** Ðe ametakpɔnu scramble (**F4Jumble**).
-3. **Xlẽ agbalẽvi ɖesiaɖe:** Ðe ame ɖekaɖeka siwo xɔa nyatakaka.
-4. **Wɔ ɖoɖowɔɖi ƒe sewo dzi:** Aɖaba ƒu alo gbe nya siwo woŋlɔ ɖe woƒe typecode ƒe didime nu.
+*Esia nye nusrɔ̃mɔfi, menye decoder si woɖo ɖe akpaɖe o alo fexexe ƒe library si wòate ŋu akɔpi eye nàtsɔ o. Eɖe fia ale si Ɖekae ƒe Gaɖoƒe ƒe Dzesi wɔe ene, ale be nàse nu si library siwo wòléa ɖe asi wɔa le eƒe me. Ne nu aɖe anwɔ ga vavã ŋu la, de asi na [ZIP-316 ƒe specification](https://zips.z.cash/zip-0316) kple dɔwɔwɔ siwo wòtsɔ ka ɖe ete afii.*
 
 ---
 
-## Nukatae "ɖeko nàɖe Bech32m ɖa" mesɔ gbɔ o
+## Nɔnɔme gã la
 
-UA zãa Bech32m nuŋɔŋlɔ ƒe nuŋɔŋlɔ, gake Bech32m ɖeɖeko ɖeɖe meɖea xɔla siwo woateŋu azã la fiana o.
+Ɖekae ƒe Gaɖoƒe ƒe Dzesi (UA) nye gaɖoƒe ƒe dzesi ƒe akpa ɖeka si tsɔ receiver ƒe ƒomevi geɖe: **nuwo ƒe ʋuʋuɖi [Transparent]**, **Sapling**, **Orchard**, alo woƒe akpaɖe ƒoƒo. Gakotoku [wallet] si wòle fexexe wɔm atia receiver gaƒuƒoƒo si nyo wu si wòate ŋu akpe ɖe eŋu.
 
-ZIP-316 ɖoe koŋ tsɔa **F4Jumble** ƒoa payload la hafi tsɔa encoding. F4Jumble kpɔa egbɔ be ne ètrɔ ŋɔŋlɔdzesi ɖeka gɔ̃ hã le adrɛs la me la, etrɔa nusi woɖe tso eme la keŋkeŋ. Esia xea mɔ na adrɛs malleability amedzidzedze siwo me amedzidzela trɔa bytes le adrɛs titina esime wògblẽa ŋgɔdonya kple megbenya ɖi wòdzena abe ɖe wòsɔ ene.
+Bu UA be enye agbalẽ ƒe akpɔdzi si wotu ɖe eŋu, si me kadi siwo wode dzesi ɖe wo ŋu le. Kadi ɖeka sia ɖeka fia mɔ vovovo si wòato atsɔ ava ɖe gbɔwò. Be application aɖe nakpɔ gaɖoƒe ƒe dzesi aɖe la, ele be wòawɔ esiawo:
 
-> **Se vevi:** Malleability takpɔkpɔ wɔa dɔ ne wò dɔwɔwɔ wɔ decoding kple validation pipeline bliboa ko. Decoding ƒe akpa aɖe ɖeɖeɖa ɖea dedienɔnɔ ɖa esime wòléa afɔkuawo katã me ɖe asi.
+1. **Ʋu akpɔdzi la:** Ɖe text ƒe akpa la me.
+2. **Trɔ emenyawo ƒe ƒoƒo:** Ɖe ɣaɣla ƒe ɖeɖe vovovo (**F4Jumble**) ɖa.
+3. **Xlẽ kadi ɖeka sia ɖeka:** Ɖe receiver ɖeka sia ɖeka me.
+4. **Wɔ protocol ƒe sewo dzi:** Gbe entrywo gbɔ alo gbee wo ɖe woƒe typecode ƒe range nu.
 
 ---
 
-## Decoding pipeline la, afɔɖeɖe ɖesiaɖe
+## Nu ka ta "ɖe Bech32m ko me" meɖe o
 
-### Afɔɖeɖe 1: Decode Bech32m eye nàlé ŋku ɖe network la ŋu
-- **Akpa si amegbetɔ ate ŋu axlẽ (HRP):** `u` dea dzesi mainnet; `utest` dea dzesi testnet. *(Mainnet UAwo dzea egɔme kple `u1`, afi ka `1` nye Bech32 ƒe mama.)*
-- **Didime ƒe seɖoƒe:** Standard Bech32m zi seɖoƒe si nye ŋɔŋlɔdzesi 90 dzi. Zi geɖe la, UAwo wua seɖoƒe sia, eyata ele be woatɔ te didime ƒe dodokpɔ siwo wozãna ɖaa le decoder la me.
-- Trɔ 5-bit Bech32m nyawo atrɔ ɖe 8-bit byte siwo wozãna ɖaa ŋu.
+UA tsɔ Bech32m text encoding, gake Bech32m ƒe ɖeɖe meɖe receiver siwo woate ŋu azã la fia o.
 
-### Afɔɖeɖe 2: Trɔ F4Jumble
-F4Jumble nye Feistel ƒe kadodo 4-ƒoƒo si wotu ɖe BLAKE2b dzi:
-- **Miame afã ƒe didime:** `min(64, floor(length / 2))` bytewo ƒe ƒuƒoƒo. Byte 64 ƒe nutrenu sɔ kple BLAKE2b ƒe dodoɖeŋgɔ ƒe lolome si sɔ gbɔ wu. Agba si susɔ si ŋu viɖe le la le ɖusime afãa me.
-- **Hash dɔwɔwɔwo:** Trɔa G kple H to ame ŋutɔ ƒe ŋkɔ siwo woɖo ɖi zazã me (`UA_F4Jumble_G` kple `UA_F4Jumble_H`).
-- **Nuwɔwɔ ɖe ɖoɖo nu goglo:** Do ŋgɔ ƒe nuŋɔŋlɔ zɔna G (0) → H (0) → G (1) → H (1). Trɔ megbe (womaɖe asi le nu ŋu o) ƒua du H(1) → G(1) → H(0) → G(0).
-- **Range check:** Gbe nyawo tsɔtsɔ de eme le ZIP-316 payload ƒe lolome ƒe seɖoƒewo godo.
+ZIP-316 tsɔ **F4Jumble** ƒo payload la kple ŋutete hafi wòawɔ encoding. F4Jumble na be ne wo trɔ dzesi ɖeka pɛ le gaɖoƒe ƒe dzesi la me la, decoded output la katã trɔ. Esia doa mɔ na address malleability ƒe attackwo, afi si attack wɔla aɖe trɔ bytewo le gaɖoƒe ƒe dzesi la ƒe titina, eye prefix kple suffix la gake nɔ ekpɔm be wòle bɔbɔe.
 
-### Afɔɖeɖe 3: Ðe padding ɖa eye nàɖo kpe HRP la dzi
-Hafi nàʋuʋu la, encoder la tsɔa byte 16 siwo me HRP le, siwo wotsɔ zerowo ƒo xlãe la kpena ɖe eŋu.
-- Ðe byte 16 mamlɛawo ɖa le ʋuʋu vɔ megbe.
-- Kpɔ egbɔ be HRP si wotsɔ de eme la sɔ kple network si wokpɔ mɔ na (`u` or `utest`). Esia xea mɔ na testnet adrɛswo be woagaxɔ wo le vo me le mainnet dzi o.
+> **Se vevi:** Malleability ƒe ɣaɣla wɔ dɔ ko ne wòƒe application wɔ ɖeɖe kple kaka kpɔ ƒe mɔ katã. Ɖeɖe ƒe akpa aɖe ko ɖea dedie ɖa, eye wòle afɔku katã la ɖe asi.
 
-### Afɔɖeɖe 4: Ðe amesiwo xɔa nyatakaka
-Payload susɔea nye `(typecode, length, content)` nyawo, afisi wodzraa typecode kple didime ɖo abe compact-size integers (byte ɖeka na asixɔxɔ suewo). Xɔla ƒe ƒomevi siwo wonya:
+---
 
-| Typecode ƒe nuŋɔŋlɔ | Xɔla ƒe ƒomevi       | Emenyawo ƒe didime |
+## Ɖeɖe ƒe mɔ la, afɔ ɖeka ɖe afɔ ɖeka
+
+### Afɔ 1: Ɖe Bech32m me eye nàkpɔ network la
+- **Akpa si amewo ate ŋu axlẽ (HRP):** `u` fia mainnet; `utest` fia testnet. *(Mainnet ƒe UAwo dze egɔme kple `u1`, afi si `1` nye Bech32 ƒe separator.)*
+- **Didime ƒe se:** Bech32m si wozãna ɖo character 90 ƒe se. UAwo zu edze se sia ŋu zi geɖe, eya ta ele be woatsi didime ƒe kakawɔ siwo wozãna ɖa le decoder la me.
+- Trɔ Bech32m ƒe nyawo siwo le bit 5 me yi bit 8 ƒe byte siwo wozãna me.
+
+### Afɔ 2: Trɔ F4Jumble
+F4Jumble nye Feistel network si wɔ round 4, si woɖo ɖe BLAKE2b ŋu:
+- **Akpa gome ƒe didime:** `min(64, floor(length / 2))` bytes. Byte 64 ƒe katã dzɔ ɖe BLAKE2b ƒe output ƒe didime si gã wu ŋu. Akpa gome ƒe dre la tsɔ payload si susɔ la.
+- **Hash ƒe functionwo:** Wòtrɔ G kple H ƒe zãzã kple personalization ƒe dzesi siwo meɖe o (`UA_F4Jumble_G` kple `UA_F4Jumble_H`).
+- **Round ƒe ɖoɖo:** Encoding si yi ŋgɔ la zã G(0) → H(0) → G(1) → H(1). Trɔtrɔ (unscrambling) la zã H(1) → G(1) → H(0) → G(0).
+- **Range ƒe kakpɔ:** Gbe input siwo le ZIP-316 ƒe payload ƒe didime ƒe sewo me o.
+
+### Afɔ 3: Ɖe padding ɖa eye nàkpɔ HRP la
+Hafi woaƒo eƒe ƒoƒo la, encoder la kplɔ byte 16 siwo me HRP le ɖe eŋu, eye wòtsɔ zero wo ƒe afɔŋu.
+- Ɖe byte 16 mamlɛtɔwo ɖa le unscrambling megbe.
+- Kpɔ be HRP si le eme la sɔ kple network si wole mɔ kpɔm na (`u` alo `utest`). Esia naa be testnet ƒe gaɖoƒe ƒe dzesiwo mekpɔ mɔ le mainnet dzi le vodada me o.
+
+### Afɔ 4: Ɖe receiverwo me
+Payload si susɔ la tso `(typecode, length, content)` entries me, afi si woɖo typecode kple didime la ɖe compact-size integerwo me (byte ɖeka na value suewo). Receiver ƒe typecode siwo míenya:
+
+| Typecode | Receiver ƒe ƒomevi       | Emenyawo ƒe didime |
 | :------- | :------------------ | :------------- |
-| `0x00`   | Nusi me kɔ (P2PKH) | 20 ƒe byte       |
-| `0x01`   | Nusi me kɔ (P2SH)  | 20 ƒe byte       |
-| `0x02`   | Sapling             | 43 ƒe byte       |
-| `0x03`   | Orchard             | 43 ƒe byte       |
+| `0x00`   | Nuwo ƒe ʋuʋuɖi (P2PKH) | Byte 20       |
+| `0x01`   | Nuwo ƒe ʋuʋuɖi (P2SH)  | Byte 20       |
+| `0x02`   | Sapling             | Byte 43       |
+| `0x03`   | Orchard             | Byte 43       |
 
-Le esiawo godo la, ZIP-316 dzra dometsotso eve bubuwo ɖo hena ŋgɔgbe ƒe ɖekawɔwɔ:
+Le esiawo megbe la, ZIP-316 ɖo range bubu eve ɖe eŋu na ŋgɔyiyi ƒe wɔwɔ:
 
-- **`0xC0`–`0xDF` (non-MUST-understand metadata):** ele be nuƒlelawo naŋe aɖaba aƒu metadata nusiwo womede dzesii le dometsotso sia me o dzi.
-- **`0xE0` kple `0xE1` (assigned MUST-understand expiry metadata):** ZIP-316 registry si li fifia dea esiawo asi be woakpɔ expiry ƒe kɔkɔme kple ɣeyiɣi. Ele be nuƒlelawo nase nu siawo gɔme alo woagbe adrɛs la.
-- **`0xE2`–`0xFC` (unassigned MUST-understand metadata):** ele be nuƒlelawo nagbe adrɛs la ne wodo go nusi womede dzesii o le dometsotso sia me.
+- **`0xC0`–`0xDF` (metadata si MUST-understand menye eŋuti o):** Ele be consumerwo nagbe metadata ƒe item siwo womanya le range sia me.
+- **`0xE0` kple `0xE1` (metadata si woɖo na MUST-understand):** ZIP-316 ƒe registry si le fifia ɖo esiawo na gaɖoƒe ƒe dzesi ƒe expiry ƒe teƒe kple ɣeyiɣi. Ele be consumerwo nase item siawo gɔme alo woagbe gaɖoƒe ƒe dzesi la.
+- **`0xE2`–`0xFC` (metadata si woɖo na MUST-understand gake womeɖo o):** Ele be consumerwo nagbe gaɖoƒe ƒe dzesi la ne wokpɔ item si womanya le range sia me.
 
-Le xɔla ƒomevi siwo wonya gome la, kpɔe ɖa be didime si woŋlɔ ɖe kɔpi me la sɔ kple ƒomevi la ƒe emenyawo ƒe didime si woɖo. Le metadata nuawo gome la, zã woƒe didime si ƒe lolome le sue si woŋlɔ ɖe kɔpi me nàtsɔ anya emenyawo ƒe didime. Gbe nya siwo wotso alo byte ɖesiaɖe si le megbe.
+Na receiver ƒe ƒomevi siwo míenya la, kpɔ be didime si woɖo le encoding me la sɔ kple emenyawo ƒe didime si woɖo na ƒomevi la. Na metadata ƒe itemwo la, zã woƒe compact-size ƒe didime si woɖo le encoding me be nànya emenyawo ƒe didime. Gbe entry siwo woɖe tso wo me vɔ o alo byte siwo katã wometsɔ zã o.
 
-**Referred receiver order.** Ne adrɛs aɖe nya ɖe nu me dzidzedzetɔe ko la, ele be gakotoku alo fexexe dɔwɔnu natia receiver nyuitɔ kekeake le ɖoɖo sia nu: Orchard, emegbe Sapling, emegbe transparent.
-
----
-
-## ZIP-316 gbegbe ƒe se siwo wòle be woawɔ
-
-**Decoding dzidzedzetɔe menaa adrɛs aɖe sɔ o.** Zcash gakotoku siwo dziɖuɖua da asi ɖo gbea adrɛs siwo da se siwo gbɔna dzi la keŋkeŋ. Ele be nyatakakadzraɖoƒe dɔwɔnuwo hã nagbe wo be woaxe mɔ ɖe fexexe ƒe kpododonu nu:
-
-- **Missing shielded receivers:** Adrɛs la **ele be** nanye Sapling alo Orchard receiver ɖeka ya teti. UA si me xɔla siwo me kɔ koe le la mewɔa dɔ le ZIP-316.
-- **Duplicate typecodes:** Xɔla ƒomevi ɖesiaɖe ateŋu adze zi ɖeka ya teti.
-- **Ŋɔŋlɔdzesi siwo womeɖo ɖe ɖoɖo nu o:** Ele be xɔlawo nadze le nuŋɔŋlɔ ƒe ɖoɖo si le dzi yim pɛpɛpɛ nu.
-- **Tsitretsitsi transparent receivers:** UA ateŋu atsɔ P2PKH alo P2SH, gake **menye evea siaa gbeɖe o**.
-- **Nyaŋɔŋlɔ alo padding si womewɔ nyuie o:** Ele be network ƒe ŋgɔdonya siwo mesɔ o, payload siwo wotso, alo didime ƒe masɔmasɔ nahe gbegbe enumake vɛ.
-- **Ŋɔŋlɔdzesi siwo womede dzesii o:** Ele be nuƒlelawo naŋe aɖaba aƒu nusiwo womede dzesii o dzi negbe nusiwo le metadata ƒe domedome si wòle be woase egɔme (`0xE0`–`0xFC`), si wòle be woagbe ne womede dzesii o. Le ŋkɔ ŋɔŋlɔ ƒe agbalẽ si li fifia me la, `0xE0` kple `0xE1` wodea ɣeyiɣi si woatsɔ awɔ dɔe ƒe ƒomeviwo asi na wo, esime `0xE2`–`0xFC` womede dɔ asi na wo o. Le ɖokuiwò si la, gbe adrɛs ɖesiaɖe si do kpo dɔwɔwɔ ƒe se siwo wòle be woawɔ le etame, si me Sapling alo Orchard xɔla ƒe nudidi hã le.
+**Receiver si nyo wu ƒe ɖoɖo.** Ne gaɖoƒe ƒe dzesi aɖe ƒe parse dzɔ edzi nyuie vɔ la, ele be gakotoku alo fexexe ƒe dɔwɔnu natia receiver si nyo wu le ɖoɖo sia me: Orchard, emegbe Sapling, emegbe nuwo ƒe ʋuʋuɖi.
 
 ---
 
-## Nuwɔna nyuitɔwo kekeake na dɔwɔlawo
+## ZIP-316 ƒe gbedede ƒe se siwo wòle be woawɔ
 
-- **Tsɔ kple parsed receivers, ke menye raw strings o.** Decode adrɛswo gbã hafi nàlé ŋku ɖe tasɔsɔ ŋu.
-- **Zã agbalẽdzraɖoƒe siwo wodzra ɖo na nusianu si kpɔa ga gbɔ.** Compile official Rust crates (abe `zcash_address`) yi WebAssembly tsɔ wu be woatsɔ JavaScript decoder tɔxɛwo ade dɔwɔwɔ me.
-- **Kpɔ nyuie le numeɖegbalẽ siwo woŋlɔ kple asi ŋu.** Ne èŋlɔ ɖeka be yeasrɔ̃e la, bu eŋu abe nusɔsrɔ̃dɔ ene eye nàdoe kpɔ kple vektor siwo dziɖuɖua da asi ɖo le ete hafi nàka ɖe edzi kple naneke.
+**Ne woɖe gaɖoƒe ƒe dzesi aɖe me nyuie hã la, menye be wòle bɔbɔe o.** Zcash ƒe gakotokuwo gbee gaɖoƒe ƒe dzesi siwo wɔ se siwo gbɔna ƒe dzodzro. Web ƒe dɔwɔnuwo hã le be woagbee wo be fexexe ƒe vodadawo megava o:
 
----
-
-## Dziɖuɖumegãwo ƒe nɔnɔmewo kple nufiamewo ƒe dɔwɔwɔwo
-
-- **[ZIP-316: Adrɛswo Kple Nukpɔkpɔ ƒe Safui Siwo Wowɔ Ðeka](https://zips.z.cash/zip-0316)**
-- **[zcash_adrɛs ƒe aɖaka (librustzcash)](https://github.com/zcash/librustzcash/tree/main/components/zcash_address)**
-- **[f4jumble aɖaka (librustzcash) aɖaka](https://github.com/zcash/librustzcash/tree/main/components/f4jumble)**
-- **Dodokpɔ vektor siwo dziɖuɖua ɖo:**
-  - [F4Jumble dodokpɔ vektorwo](https://github.com/zcash/librustzcash/blob/main/components/f4jumble/src/test_vectors.rs)
-  - [Unified Address dodokpɔ vektorwo](https://github.com/zcash/librustzcash/blob/main/components/zcash_address/src/kind/unified/address/test_vectors.rs)
+- **Ɣaɣla ƒe receiverwo mele o:** Ele be gaɖoƒe ƒe dzesi la nasɔ Sapling alo Orchard receiver atɔe kope ɖeka. UA si me nuwo ƒe ʋuʋuɖi ƒe receiverwo ko le la menye bɔbɔe le ZIP-316 nu o.
+- **Typecode siwo sɔ:** Receiver ƒe ƒomevi ɖeka sia ɖeka ate ŋu ava teƒe ɖeka ko.
+- **Typecode siwo womeɖo ɖe ɖoɖo me o:** Ele be receiverwo nanɔ typecode siwo dzi yiyim ŋutete ƒe ɖoɖo me.
+- **Nuwo ƒe ʋuʋuɖi ƒe receiver siwo wɔ asɔtsi:** UA aɖe ate ŋu atsɔ P2PKH alo P2SH, gake **menye wo eve siaa o**.
+- **Entry alo padding si mesɔ o:** Network ƒe prefix siwo mesɔ o, payload siwo woɖe tso wo me vɔ o, alo didime siwo mesɔ o le be woagbee wo enumake.
+- **Typecode siwo womanya o:** Ele be consumerwo nagbe item siwo womanya o, negbe item siwo le MUST-understand metadata ƒe range me (`0xE0`–`0xFC`), siwo le be woagbee ne womanya wo o. Le registry si le fifia me la, `0xE0` kple `0xE1` nye expiry ƒe ƒomevi siwo woɖo, eye `0xE2`–`0xFC` womeɖo o. Le eya ɖokpe me la, gbe gaɖoƒe ƒe dzesi eyikeyi si mewɔ bɔbɔe ƒe se siwo katã le afii o, tso Sapling alo Orchard receiver ƒe hiãhiã la me.
 
 ---
 
-## Nyagɔmeɖegbalẽ
+## Nɔnɔme nyuiwo na mɔ̃ ƒe ɖoɖoŋlɔlawo [developers]
 
-| Nya | Gɔmeɖeɖe |
+- **Sɔ receiver siwo woɖe me kpɔ, menye string siwo womeɖe me o.** Ɖe gaɖoƒe ƒe dzesiwo me hafi nàkpɔ woƒe sɔsɔ.
+- **Zã library siwo wòléa ɖe asi na nu sia nu si wɔa ga ŋu.** Ɖo Rust ƒe cratewo (abe `zcash_address` ene) yi WebAssembly me ɖe teƒe be nàɖo JavaScript ƒe decoderwo kɔ ɖe anyi.
+- **Nànya nu na parser siwo wòŋlɔ kple asi.** Ne nèŋlɔ ɖeka be nàsrɔ̃ nu la, bu eŋu be enye nu si nèle srɔ̃m ƒe dɔ, eye nàte eŋu kple official vector siwo le ete afii hafi nàde ŋugbe ɖe edzi le nu aɖe ŋu.
+
+---
+
+## Official ƒe specificationwo kple dɔwɔwɔ siwo wòtsɔ ɖe asi
+
+- **[ZIP-316: Ɖekae ƒe Gaɖoƒe ƒe Dzesiwo kple Viewing Keys](https://zips.z.cash/zip-0316)**
+- **[zcash_address crate (librustzcash)](https://github.com/zcash/librustzcash/tree/main/components/zcash_address)**
+- **[f4jumble crate (librustzcash)](https://github.com/zcash/librustzcash/tree/main/components/f4jumble)**
+- **Official test vectorwo:**
+  - [F4Jumble ƒe test vectorwo](https://github.com/zcash/librustzcash/blob/main/components/f4jumble/src/test_vectors.rs)
+  - [Ɖekae ƒe Gaɖoƒe ƒe Dzesi ƒe test vectorwo](https://github.com/zcash/librustzcash/blob/main/components/zcash_address/src/kind/unified/address/test_vectors.rs)
+
+---
+
+## Nyaɖeɖefia
+
+| Nyagbe | Gɔme |
 | :----------------------- | :-------------------------------------------------------------------- |
-| **Unified Address (UA)** | Adrɛs ɖeka ƒe ka si wotsɔ blaa nuxɔla geɖewo ƒe ƒuƒoƒo. |
-| **Receiver** | Fexexe ƒe teƒe ƒomevi aɖe koŋ (si me kɔ, Sapling, alo Orchard). |
-| **Bech32m** | Text encoding scheme si wozãna na UA kaƒoƒo. |
-| **HRP** | Akpa alo network ƒe ŋgɔdonya si amegbetɔ ate ŋu axlẽ (`u` or `utest`). |
-| **F4Jumble** | Reversible obfuscation algorithm si kpɔa egbɔ be adrɛs ƒe blibonyenye. |
-| **Typecode** | Xexlẽdzesi le nya ɖesiaɖe me si ɖea receiver ƒomevi si le payload la me. |
-| **Malleability** | Adrɛs bytewo ƒe tɔtrɔ si ŋu womeɖe mɔ ɖo o gake womede dzesii o. |
+| **Unified Address (UA)** | Gaɖoƒe ƒe dzesi ɖeka si ƒo receiver gaƒuƒoƒowo geɖe ɖekae. |
+| **Receiver** | Fexexe ƒe teƒe ƒe ƒomevi kpọ kpọ (nuwo ƒe ʋuʋuɖi, Sapling, alo Orchard). |
+| **Bech32m** | Text ƒe encoding ƒe mɔ si wozãna na UA ƒe stringwo. |
+| **HRP** | Akpa si amewo ate ŋu axlẽ alo network ƒe prefix (`u` alo `utest`). |
+| **F4Jumble** | Algorithm si wòate ŋu atrɔ, si naa gaɖoƒe ƒe dzesi ƒe bliboɖe. |
+| **Typecode** | Xexlẽme si le entry ɖeka sia ɖeka me, si ɖea receiver ƒe ƒomevi le payload la me fia. |
+| **Malleability** | Gaɖoƒe ƒe dzesi ƒe bytewo ƒe trɔtrɔ si womeɖe fia o eye womede mɔ na o. |
 
-Kpɔ hã: [Safuiwo Kpɔkpɔ](./Viewing_Keys.md)
+Kpɔ hã: [Viewing Keys](./Viewing_Keys.md)

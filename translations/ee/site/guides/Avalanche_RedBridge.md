@@ -1,75 +1,73 @@
-# Zcash Avalanche ƒe Tɔdzisasrã Dzĩ
+# Zcash Avalanche RedBridge
 
-Zcash Avalanche RedBridge nye tɔdzisasrã si woɖe ɖe vovo si na be woate ŋu awɔ dɔ aduadu le Zcash (ZEC) kple Avalanche (AVAX) blockchains dome. Wotrɔ asi le tɔdzisasrã sia ŋu be wòana ZEC ƒe asitɔtrɔ le Avalanche blockchain dzi si me kuxi aɖeke mele o nanɔ bɔbɔe, woawɔ Avalanche ƒe dɔwɔwɔ gã, fe suewo, kple ecofriendly consensus mechanisms ŋudɔ esime wole Zcash ƒe adzamenyawo gbɔ kpɔkpɔ ƒe nɔnɔmewo ta kpɔm.
+Zcash Avalanche RedBridge nye ga ƒe lẽ ha nuɖo agni, si na ƒomeviwo ƒe dɔwɔwɔ ɖe Zcash (ZEC) kple Avalanche (AVAX) gaɖoɖowo ƒuƒoƒo ƒe ɖoɖunuwo dome. Wode ga ƒe lẽ sia ŋu be wòana ZEC ƒe keke ɖe Avalanche gaɖoɖowo ƒuƒoƒo ƒe ɖoɖonu dzi nasɔ gbɔ, eye wòazã Avalanche ƒe dɔwɔwɔ geɖe, adzɔ sue, kple gbegbɔgblɔ ɖi si me xexeame ƒe nuwo menɔa vɔ̃ o, esi wòle Zcash ƒe ɣaɣla ƒe nɔnɔme vevieawo hã ɖe asi.
 
-RedBridge doa alɔ zazã ƒe nɔnɔme vovovowo, siwo dometɔ aɖewoe nye crosschain decentralized finance (DeFi), ame ŋutɔ ƒe asitsatsa, kple gazazã ƒe mama, si naa ŋusẽ Zcash xɔlawo be woate ŋu akeke Avalanche ƒe lãwo ƒe agbenɔnɔ ƒe ɖoɖoa ɖe enu. Wowɔa tɔdzisasrã sia to decentralized nodes ƒe hatsotso aɖe kple oracle, si woyɔna be **ZavaX**, si kpɔa egbɔ be nyatakakawo ƒe asitɔtrɔ kple asixɔxɔ ƒe kpeɖodzi si ŋu kakaɖedzi le le Zcash kple Avalanche dome.
+RedBridge doa alɔ̃ zã nyawo geɖe, abe ɖoɖonu geɖe dome ha nuɖo agni ga ƒe dɔwɔwɔ (DeFi), ɣaɣla gaɖoɖowo, kple tsiƒoƒo ƒe mama ene, eye wòna Zcash ƒe tɔwo mɔ geɖe be woage ɖe Avalanche ƒe nuto me. Ga ƒe lẽ sia dɔa ɣaɣla dzesi ŋɔŋlɔ ha nuɖo agniwo kple oracle, si woyɔna be **ZavaX**, ƒe mɔnu dzi; esia na nyatakakawo ƒe keke kple asiɖeke me nɔmanɔme ƒe kpɔɖeŋu dome ɖe Zcash kple Avalanche dome nanyo akpa.
 
-### Nu Vevi Siwo Le Eme
+### Nɔnɔme Veviwo
 
-Adzamenyawo Takpɔkpɔ Ðekawɔwɔ: Enaa Zcash zãlawo be woalé adzamenyawo me ɖe asi esime wole DeFi dɔwɔɖoɖowo zãm le Avalanche.
-Decentralized Oracle ZavaX: Ewɔa oracle ɖoɖo ɖekae be wòakpɔ egbɔ be ZEC/AVAX ƒe asi ŋuti nyatakakawo de pɛpɛpɛ, si ɖea mɔ na crosschain dɔwɔwɔ siwo dzi womate ŋu aka ɖo o.
-Scalable and Eco Friendly: Ezãa Avalanches ƒe nukpɔsusu ɖeka ƒe kpɔɖeŋu, si naa asitsatsa siwo zɔna kabakaba eye womekpɔa ŋusẽ boo aɖeke ɖe nutome dzi o.
-Kpekpeɖeŋu na DeFi kple DApps: Zcash xɔlawo ateŋu akpɔ gome le DeFi ƒe mɔ̃ vovovowo me le Avalanche fifia evɔ womagblẽ nu le ame ŋutɔ ƒe nyatakakawo ŋu o.
+Ɣaɣla ƒe Nɔnɔme Ƒe Ƒomevi Dɔwɔwɔ: Ena Zcash ƒe zazãlawo be woalé woƒe ɣaɣla me esi wole DeFi ƒe dɔwɔwɔwo zãm le Avalanche dzi.
+Ha Nuɖo Agni Oracle ZavaX: Etsɔ oracle ƒe ɖoɖo de eme be wòana ZEC/AVAX ƒe asiɖeke me nɔmanɔme ƒe nyatakaka nadzɔ, eye wòana ɖoɖonu geɖe dome dɔwɔwɔ si me mɔxɔse menye be woahiã o.
+Dɔwɔwɔ Kpɔtɔ Kple Xexeame Ƒe Nuléle: Ezã Avalanche ƒe gbegbɔgblɔ ɖi ƒe mɔnu, eye wòna gaɖoɖowo nava kabakaba kple xexeame ŋu vɔ̃ɖi sue.
+DeFi Kple DApps Ƒe Kpekpeɖeŋu: Zcash ƒe tɔwo ate ŋu ava de DeFi ƒe platform vovovowo me le Avalanche dzi, esi woƒe ɣaɣla menɔa afɔku o.
 
-### Mɔ̃ɖaŋununya ƒe Akpawo
+### Mɔ̃ŋlɔ Ƒe Akpaawo
 
-**ZavaX Oracle si woɖe ɖe vovo**
-Numeɖeɖe: ZavaX Oracle le vevie ŋutɔ na tɔdzisasrãa, enaa crosschain ƒe asi nuɖuɖuwo eye wònaa ZEC yi AVAX ƒe tɔtrɔ siwo dzi womate ŋu aka ɖo o te ŋu wɔa dɔ.
-[Kadodo kple Oracle](https://zavax-oracle.red.dev)
+**Ha Nuɖo Agni ZavaX Oracle**
+Nuxlɔɖi: ZavaX Oracle le vevie na ga ƒe lẽ sia, elabena ena asiɖeke me nɔmanɔme ƒe nyatakaka le ɖoɖonuwo dome, eye wòna ZEC ƒe trɔtrɔ yi AVAX me si me mɔxɔse menye be woahiã o.
+[Oracle Ƒe Ƒomevi Mɔ](https://zavax-oracle.red.dev)
 
-**Cross Chain Tɔdzisasrã ƒe Nubabla**
-Numeɖeɖe: Nubabla ƒe xɔtuɖoɖo si me nunya le si doa alɔ Zcash Avalanche tɔdzisasrãa, si kpɔa ZEC ƒe gadede asi, tɔtrɔ, kple gaɖeɖe gbɔ.
+**Ɖoɖonu Geɖe Dome Ga Ƒe Lẽ Ƒe Mɔ̃ŋlɔ Ƒe Dɔwɔwɔ**
+Nuxlɔɖi: Mɔ̃ŋlɔ ƒe dɔwɔwɔ si de asi na Zcash Avalanche ga ƒe lẽ, eye wòkpɔa deposits, trɔtrɔwo, kple ZEC ƒe tata ɖe go.
 
-**Adzamenyawo ƒe Layer ƒe Ðekawɔwɔ**
-Numeɖeɖe: Ekpɔa egbɔ be wokpɔ Zcash ƒe adzamenyawo ta le tɔdzisasrã ƒe ɖoɖoa katã me, si ɖea mɔ na ame ŋutɔ ƒe crosschain asitsatsa.
+**Ɣaɣla Ƒe Akpa Ƒe Ƒomevi Dede**
+Nuxlɔɖi: Ena be Zcash ƒe ɣaɣla ƒe nɔnɔmeawo nanɔ anyi le ga ƒe lẽ ƒe dɔwɔwɔ blibo la me, eye wòna ɖoɖonu geɖe dome ɣaɣla gaɖoɖowo nadzɔ.
 
-## Nusiwo Woatsɔ Aɖo Kple Wo Ŋuti Nuŋlɔɖiwo
+## Dɔwo Kple Agbalẽwo
 
-**Zcash Elastic Subnet Tɔdzisasrã le Avalanche **: [Gakpekpeɖeŋunana ƒe Aɖaŋuɖoɖo](https://zcashgrants.org/gallery/25215916-53ea-4041-a3b2-6d00c487917d/36243580/)
-Nu vevi siwo woatsɔ awɔ dɔe kple mɔ̃ɖaŋununya ƒe dɔwɔnu siwo wowu enu na Zcash Avalanche RedBridge dɔa le ete:
+**Zcash Elastic Subnet Bridge le Avalanche**: [Ga ƒe Kpekpeɖeŋu Ƒe Ɖoɖoɖo](https://zcashgrants.org/gallery/25215916-53ea-4041-a3b2-6d00c487917d/36243580/)
+Dɔ veviwo kple mɔ̃ŋlɔ ƒe nuɖoɖowo si wowɔ na Zcash Avalanche RedBridge ƒe dɔa nye esiwoe:
 
-Deliverable 1.1: PoC gbãtɔ si doa alɔ testnet Zcash ƒe asitsatsa biabia tso testnet Avalanche subnet si me CLI le, si wota ɖe GitHub dzi eye kple node ɖeka subnet le Avalanche testnet dzi. https://github.com/red-dev-inc/zavax-oracle
+Dɔ 1.1: PoC gɔmedzedze si doa alɔ̃ be woabia testnet Zcash gaɖoɖowo tso testnet Avalanche subnet me kple CLI, eye wodo eɖe GitHub, kple node ɖeka subnet le Avalanche testnet dzi. https://github.com/red-dev-inc/zavax-oracle
 
-Woate ŋu atsɔe ana 2.1: [Xɔtata](https://github.com/red-dev-inc/zavax-bridge/tree/main/Architecture)
+Dɔ 2.1: [Ɖoɖoɖo Ƒe Nɔnɔme](https://github.com/red-dev-inc/zavax-bridge/tree/main/Architecture)
 
 
-### Nu vevi 3 March 31, 2024. Eƒe dukɔ nye …
+### Dzidzimekpɔkpɔ 3 March 31, 2024
 
-Deliverable 3.1 wu enu, tsɔ míaƒe numekuku le FROST xɔxlɔ̃ ɖe BLS dzi na threshold signatures le ZavaX bridge la me. Tɔtrɔ sia wɔa agbalẽdzraɖoƒe siwo wodzro tso Zcash Foundation gbɔ ŋudɔ eye wònaa ɖekawɔwɔ kple dedienɔnɔ nyuitɔ nɔa bɔbɔe. https://github.com/ZcashFoundation/frost
+Dɔ 3.1 wu enu, eye wòtsɔ míaƒe xexlẽɖeŋu na tso FROST ƒe zãm ɖe BLS nu na threshold signatures le ZavaX ga ƒe lẽ me. Trɔtrɔ sia zã agbalẽdzraɖoƒe si wowɔ audit na tso Zcash Foundation me, eye wòna ƒomevi dede kple dedie nyuie wu. https://github.com/ZcashFoundation/frost
 
-Deliverable 3.2 UX kple UI design for GUI wu enu, si ƒo nu tso míaƒe dedienɔnɔ ƒe ŋgɔyiyiwo ŋu tsitotsito na ZavaX Oracle subnet, si wodo alɔe to penetration testing results me. Ne èdi nyatakaka bubuwo, siwo dome server ƒe ɖoɖowɔwɔ kple dodokpɔ me tsonu hã le [Dedienɔnɔ Ŋuti Numekuku](https://github.com/red-dev-inc/zavax-oracle/blob/main/security/deployment-notes.md)
-[Dɔwɔƒea ƒe Dɔwɔnyawo Ŋuti Nyatakaka](https://github.com/red-dev-inc/zavax-oracle/blob/main/security/pen-testing-report-2024-09.md)
-Tsɔ kpe ɖe eŋu la, ƒuƒoƒoa trɔ ŋkɔ tso ZavaX dzi va zu redbridge eye wotrɔ míaƒe staking token tso ZAX va zu RBR.
+Dɔ 3.2 UX kple UI ƒe ɖoɖo na GUI wu enu, eye wòɖe míaƒe dedie ƒe ɖeɖeawo fia na ZavaX Oracle subnet, si penetration testing ƒe emetsonuwo de asi. Na nyatakaka geɖe, si me server ƒe ɖoɖo kple dodokpɔ ƒe emetsonuwo hã le la, [Dedie Ƒe Kpɔkpɔ](https://github.com/red-dev-inc/zavax-oracle/blob/main/security/deployment-notes.md)
+[Audit Ƒe Nyaŋlɔɖi](https://github.com/red-dev-inc/zavax-oracle/blob/main/security/pen-testing-report-2024-09.md)
+Kpe ɖe eŋu la, team la trɔ woƒe ŋkɔ tso ZavaX yi redbridge, eye wotrɔ woƒe ga ƒuƒoƒo token tso ZAX yi RBR.
 
-### Nu vevi 4 April 30, 2024. Eƒe dukɔ nye …
-Woateŋu atsɔe ana 4.1 Dɔwɔwɔ bliboe ƒe dɔwɔwɔ ɖe Zcash kple Avalanche testnets, kple 3 validator Subnet, kple CLI ƒe kpekpeɖeŋu
+### Dzidzimekpɔkpɔ 4 April 30, 2024
+Dɔ 4.1 Ɖoɖoɖo si dɔa blibo ɖe Zcash kple Avalanche testnetwo dzi, kple validators 3 ƒe Subnet, kple CLI ƒe kpekpeɖeŋu
 
-### Nu vevi 5 May 31, 2024
-Deliverable 5.1 GUI: tɔdzisasrã ƒe ƒoƒo ɖekae ɖe Core alo Webapp me
+### Dzidzimekpɔkpɔ 5 May 31, 2024
+Dɔ 5.1 GUI: ga ƒe lẽ ƒe ƒomevi dede ɖe Core alo Webapp me
 
-Nu vevi 6 June 30, 2024
-Deliverable 6.1 Dzidzedzekpɔkpɔ to kɔmpiutadziɖoɖowo ƒe agbalẽdzikpɔkpɔ me
-Deliverable 6.2 Dzɔtsoƒe ƒe kɔpi si wodzro la tata ɖe dutoƒo GitHub repo
+Dzidzimekpɔkpɔ 6 June 30, 2024
+Dɔ 6.1 Software audit ƒe nusiwo katã wɔ nyuie
+Dɔ 6.2 Audit si wowɔ ƒe source code la ƒe tata ɖe GitHub repo si amewo katã ate ŋu akpɔ
 
-Lé ŋku ɖe... [GitHub ƒe nuŋlɔɖi](https://github.com/red-dev-inc/zavax-bridge/tree/main/Architecture)
+Kpɔ [GitHub repo](https://github.com/red-dev-inc/zavax-bridge/tree/main/Architecture) ɖeka
   
-Ne èdi mɔ̃ɖaŋu ŋuti nyatakaka bubuwo la, míele dzi dem ƒo na ezãlawo be woalé ŋku ɖe nudzraɖoƒe kple nuŋlɔɖiwo ŋu na RedBridge dɔa be... [tsa le eme](https://zcashgrants.org/gallery/25215916-53ea-4041-a3b2-6d00c487917d/36243580/) ƒoƒo ɖekae ƒe nyatakakawo, dodokpɔ ƒe ɖoɖowo, kple dedienɔnɔ ƒe ɖoɖowo.
+Na mɔ̃ŋlɔ ƒe nyatakaka geɖe, wode asi na zazãlawo be woaxlẽ RedBridge ƒe dɔa ƒe repository kple agbalẽwo be woa[tsɔ woƒe ŋku akpɔ](https://zcashgrants.org/gallery/25215916-53ea-4041-a3b2-6d00c487917d/36243580/) ƒomevi dede ƒe nyatakakaawo, dodokpɔ ƒe frameworkwo, kple dedie ƒe mɔnuwo.
 
 
 ![img1](/content-images/b8c5d267-1711-458a-8a32-1df9d56fae8a-a93ff66932.webp)
 
 
-* Nusiwo woatsɔ aɖo ɖe amewo: 
-Le Q1 2025 me la, ƒuƒoƒoa ɖe gbeƒãe be yewoadze... [red·bridge ƒe wɔwɔfia ƒe nyatakakadzraɖoƒe](https://redbridge-demo.red.dev/index.html), afisi amesiame ate ŋu ate ezãla ƒe nuteƒekpɔkpɔ kpɔ, ana nyaŋuɖoɖo, eye wòado susu ɖa be woawɔ ŋgɔyiyi le. Eganye mɔnu bɔbɔe aɖe si dzi woato ana ame siwo menye mɔ̃ɖaŋudɔwɔlawo o nadze le dɔa me.
+* Dɔwo: 
+Le Q1 2025 me la, team la ƒo [red·bridge demo website](https://redbridge-demo.red.dev/index.html) ƒe dede ƒe nya, afi si ame sia ame ate ŋu ado ŋku zazãla ƒe numekpɔkpɔ la, ana nuƒoƒo, eye wòaɖo ɖeɖeawo. Eganye mɔ bɔbɔe hã be woatsɔ aɖe dɔa fia amesiwo menya mɔ̃ŋlɔ ŋutɔ o.
 
-* Agbalẽtaƒea zã Zebra tsɔ wɔ red·bridge ƒe tata mamlɛtɔ. Be woadoe kpɔ la, wodo node etɔ̃ siwo le woƒe dodokpɔ blockchain, ZavaX Oracle, si zɔna le Avalanche ƒe Fuji testnet dzi la dometɔ eve ɖe ŋgɔ. Wodo node mamlɛtɔ ɖe ŋgɔ dzidzedzetɔe, fifia [Zavax ƒe Nyagbɔgblɔ](https://web.archive.org/web/20260823181644/https://zavax-oracle.red.dev/) fifia eƒua du ɖe Zebra dzi!
+* Team la zã Zebra na red·bridge ƒe version mamlɛtɔ. Be woado kpoe la, wotrɔ nodes etɔ me eve le woƒe test blockchain, ZavaX Oracle, si dɔa le Avalanche ƒe Fuji testnet dzi. Wotrɔ node mamlɛtɔ la hã nyuie, eye fifia [ZavaX Oracle](https://web.archive.org/web/20260823181644/https://zavax-oracle.red.dev/) dɔa le Zebra dzi!
 
-* Le ƒe 2025 ƒe Q1 me la, woŋlɔ kɔpi na red.bridge nyatakakadzraɖoƒea be wòana nukpɔkpɔ ene tso dzodzro, Viviti, Kekeli, kple Zebra me si to vovo na gbãtɔa, si nye dzĩ.
+* Le Q1 2025 me la, wowɔ red.bridge website la ƒe code be wòana nukpɔkpɔ ene: red, Dark, Light, kple Zebra, le version gɔmedzedze la te, esi nye red ko.
 
-* Nya bubu enye be ƒuƒoƒoa awɔ red·bridge L1 la ŋudɔ le Avalanche mainnet dzi le December 2025. Le gɔmedzedzea me la, anye nyagbɔgblɔ na Zcash blockchain eye emegbe, le ema megbe kpuie, na Bitcoin hã. Le esia me la, biabia ɖesiaɖe axɔ 0.001 AVAX le gas token me. Tutu sia ana L1 alo smart contract ɖesiaɖe si le Avalanche nate ŋu abia nyatakakawo tso Zcash kple Bitcoin gbɔ le mɔ si woɖe ɖe vovo nu le mɔ si mexɔ asi o nu.
+* Nu bubu hã nye be team la adze red·bridge L1 ƒe dɔwɔwɔ gɔme le Avalanche mainnet dzi le December 2025 me. Gɔmedzedze la, wòawɔ dɔ abe oracle na Zcash blockchain ene, eye emegbe madidi o la, na Bitcoin hã. Le afi sia la, biabia sia biabia axɔ 0.001 AVAX abe gas token ene. Tutu sia ana L1 alo mɔ̃ŋlɔ ƒe dɔwɔwɔ sia sia si le Avalanche dzi be wòabia nyatakaka tso Zcash kple Bitcoin me kple ga sue le ha nuɖo agni mɔnu me.
 
-* Le Q2 me la, ƒuƒoƒoa tsɔ nu vevi aɖe si nye ACP-77 (si woyɔna be Avalanche9000) ɖo ɖe Avalanche Foundation be wòana red.bridge dzikpɔla ƒe duƒuƒu nado ŋgɔ eye wòanye esi ŋu amesiame ate ŋu aƒle. Le gɔmedzedzea me la, ehiã be kpeɖodzinalawo natsɔ AVAX si ade 2000 ade afɔku me; ke hã, le Avalanche9000costs ta la, validators hiã 1 AVAX (ɣleti) ko. Gakpe ɖe eŋu la, nu vevi sia hã wu ɖoɖo si wowɔ be woazã ZF ƒe FROST dɔwɔwɔ nu, si naa Guardian ɖesiaɖe kpɔa gome le asidede agbalẽ te hena tɔdzisasrã ƒe gakotokua dzi kpɔkpɔ dedie, si woma.
+* Le Q2 me la, team la tsɔ dzidzimekpɔkpɔ ACP-77 (si woyɔna be Avalanche9000) ɖo Avalanche Foundation ŋu be red.bridge guardian ƒe dɔwɔwɔ nadze gɔme kaba wu, eye wòanye bɔbɔe na ame sia ame. Gɔmedzedze la, ehiã be validators woaƒu AVAX 2000 ko; gake kple Avalanche9000costs la, ehiã be validators woaƒu AVAX 1 ko (ɣleti sia ɣleti). Kpe ɖe eŋu la, dzidzimekpɔkpɔ sia hã wɔ ɖoɖo mamlɛtɔ be woazã ZF ƒe FROST ƒe dɔwɔwɔ, si na Guardian sia sia ƒe asiɖeɖe ƒe akpa na wo, be ga ƒe lẽ gakotoku la nanɔ dedie le ame geɖe ƒe asi me.
 
-* Va Q1 kple Q2 ƒe 2026, red.bridge awɔ eƒe RBR dzesi (tsã ZAX) airdrop na Zcash kple Avalanche nutoa me tɔwo. Le red.dev ɖola ƒe nya nu la, woawɔ dodokpɔmɔnu si me wodea dzi ƒo na si me mɔnukpɔkpɔ asu ezãlawo si be woakpɔ RBR esime wole kpekpem ɖe tɔdzisasrãa dodo kpɔ ŋu.
-
-
+* Ne Q1 kple Q2 2026 va la, red.bridge awɔ RBR token (si nye ZAX tsã) airdrop na Zcash kple Avalanche ƒe community ƒe amewo. Le red.dev ƒe founder la ƒe nya nu la, woawɔ testnet si woana nuƒoƒo na amewo, afi si zazãlawo akpɔ mɔ axɔ RBR esi wole ga ƒe lẽ la dodom.

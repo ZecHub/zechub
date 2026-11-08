@@ -1,12 +1,12 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/guides/Visualizing_the_Zcash_Network.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Aŋlɔ Axawo"/>
 </a>
 
 
-#  Zcash Network la kpɔkpɔ le susu me
+#  Zcash Network Ƒe Nɔnɔmetata
 
-Nusiwo gbɔna nye mɔfiame le alesi woawɔ Ziggurat 3.0 Crawler na Zcash kpakple ɖoɖowɔɖi siwo do ƒome kplii Crunchy kple P2P-Viz le Ubuntu 22.04 dzi hena Zcash network nyatakakawo nuƒoƒoƒu kple wo kpɔkpɔ le susu me. 
-Video si do ƒome kplii le ete la hã zɔna ɖe ɖoɖo ma ke dzi.
+Esia nye mɔfiame tso ale si nàwɔ Ziggurat 3.0 Crawler na Zcash kple ɖoɖowɔwɔ siwo do ɖeka kplii, Crunchy kple P2P-Viz, le Ubuntu 22.04 dzi be nàxɔ eye nàɖe Zcash network ƒe nyatakakawo fia.  
+Video si ƒe link le ete la wɔa mɔnu ma ke.
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -20,37 +20,38 @@ Video si do ƒome kplii le ete la hã zɔna ɖe ɖoɖo ma ke dzi.
 </div>
     
 ----------------
-## Nudidi Siwo Ku Ðe Eɖoɖo Ŋu: 
+## Ɖo Hiahiãwo: 
 
-Gbeɖuɖɔ -> [https://rustup.rs/](https://rustup.rs/)
+Rust -> [https://rustup.rs/](https://rustup.rs/)
 
-## Le tiatia me:
+## Esi Wodi O:
+
 jq -> [https://jqlang.github.io/jq/download/](https://jqlang.github.io/jq/download/)
-(hena json nyatakakawo ɖeɖefia le terminal la me)
+(be nàɖe json nyatakakawo fia le terminal me)
 
-ʋuʋudedi -> [https://everything.curl.dev/install/linux.html](https://everything.curl.dev/install/linux.html)
-(hena biabia tso crawler RPC ŋu)
+curl -> [https://everything.curl.dev/install/linux.html](https://everything.curl.dev/install/linux.html)
+(be nàbia nyatakaka tso crawler RPC dzi)
 
 npm (kple nvm) -> [https://medium.com/@iam_vinojan/how-to-install-node-js-and-npm-using-node-version-manager-nvm-143165b16ce1](https://medium.com/@iam_vinojan/how-to-install-node-js-and-npm-using-node-version-manager-nvm-143165b16ce1)
-(hena P2P-Viz ɖeɖefia le web-browser me)
+(be nàɖe P2P-Viz fia le browser me)
 
 ----------------
 
 
 ----------------
-Ziggurat 3.0 Nudzraɖoƒe | [https://github.com/runziggurat](https://github.com/runziggurat)
+Ziggurat 3.0 Ƒe Repository | [https://github.com/runziggurat](https://github.com/runziggurat)
 
-Crawler ƒe Repo | [https://github.com/runziggurat/zcash.git](https://github.com/runziggurat/zcash.git)
+Crawler Ƒe Repo | [https://github.com/runziggurat/zcash.git](https://github.com/runziggurat/zcash.git)
 
-Crunchy Repo si le ʋuʋu ɖi | [https://github.com/runziggurat/crunchy.git](https://github.com/runziggurat/crunchy.git)
+Crunchy Ƒe Repo | [https://github.com/runziggurat/crunchy.git](https://github.com/runziggurat/crunchy.git)
 
-P2P-Viz Repo | [https://github.com/runziggurat/p2p-viz.git](https://github.com/runziggurat/p2p-viz.git)
+P2P-Viz Ƒe Repo | [https://github.com/runziggurat/p2p-viz.git](https://github.com/runziggurat/p2p-viz.git)
 
 ----------------
 
-Dze egɔme kple asitɔtrɔ siwo sɔ la zazã.
+Dze egɔme kple update siwo wozãna ɣesiaɣi.
 
->  Wɔ sedede siwo gbɔna:
+>  Wɔ seɖoɖowo:
 ```bash
 sudo apt update
 sudo apt upgrade
@@ -58,12 +59,12 @@ sudo apt upgrade
 
 ----------------
 
-## Zcash Netwɔƒe ƒe Ʋuʋu
+## Zcash Network Crawler
 
-Zcash Crawler la le agbalẽdzraɖoƒe si ŋkɔe nye 'zcash' me eyata ateŋu anyo be nàwɔ agbalẽdzraɖoƒe yeye hafi awɔ crawler la ƒe nɔnɔmetata (runziggurat/zcash repo).
+Zcash Crawler le folder si woyɔ be 'zcash' me, eyata anyo be nàwɔ directory yeye hafi nàclone crawler la (runziggurat/zcash repo).
 
 
->  Tso /Home ƒe agbalẽdzraɖoƒea, Wɔ sedede siwo gbɔna:
+>  Tso /Home directory me, wɔ seɖoɖowo:
 ```bash
 mkdir runziggurat
 cd runziggurat
@@ -71,13 +72,13 @@ git clone https://github.com/runziggurat/zcash.git
 cd zcash
 ```
 
-Yi le browser me yi 
+Yi browser me ɖe 
 [https://github.com/runziggurat/zcash/blob/main/src/tools/crawler/README.md](https://github.com/runziggurat/zcash/blob/main/src/tools/crawler/README.md)
 
-Alo ʋu readme la le 
-'/runziggurat/zcash/src/dɔwɔnuwo/crawler/XLẼME.md'.
+Alo ʋu readme le 
+'/runziggurat/zcash/src/tools/crawler/README.md'
 
-Nyatakakawo le axa sia dzi ku ɖe zazã tɔxɛ aɖe ŋu. 
+Axa sia me nya le ale si nàzãe tɔxɛ.
 
 ----------------
 
@@ -105,109 +106,105 @@ OPTIONS:
             Print version information
 ```
 
-`--seed-addrs` \ `--dns-seed` nye nyaʋiʋli ɖeka kolia si hiã eye wòhiã adrɛs ɖeka ya teti si woɖo ɖi hafi wòate ŋu awɔ dɔ.
-
-
+`--seed-addrs` \ `--dns-seed` nye argument si wodi ɖeka pɛ, eye ele be gaɖoƒe ƒe dzesi Ɖeka aɖe nàɖo ɖe eme hafi wòate ŋu adu.
 
 ----------------
 
-Sedede 'cargo run --release --features crawler --bin crawler -- --help' nye sedede ŋutɔŋutɔ si nye run eye wòata kpekpeɖeŋunu si woɖe fia.
+Seɖoɖo 'cargo run --release --features crawler --bin crawler -- --help' nye seɖoɖo tututɔ si nadzɔ, eye wòaɖe kpekpeɖeŋu menu si wowɔ fia la afia.
 
 
->  Ƒu du sededea
+>  Wɔ seɖoɖo
 ```bash
 cargo run --release --features crawler --bin crawler -- --help
 ```
 
 
-Esia aƒo ɖoɖowɔɖia nu ƒu eye wòakpɔ egbɔ be nusianu le dɔ wɔm nyuie.
+Esia aɖo program la ƒe akpa siwo hiã eye wòaɖe kpe edzi be nu sia nu le dɔ wɔm nyuie.
 
-Be woawɔ Crawler la, ehiã be woatsɔ '--seed-addrs' aflaga akpe ɖe gɔmedzedze ƒe sededea ŋu, si me Zcash node IP adrɛs ɖeka ya teti, si sɔ, anɔ. Ele be woaɖe mɔ na crawler la be wòaƒu du hena ɣeyiɣi si sɔ be woakpɔ emetsonu si sɔ. Woateŋu akpɔ kpɔɖeŋu node IP adrɛs aɖewo le [https://mainnet.zcashexplorer.app/nodes](https://mainnet.zcashexplorer.app/nodes).
+Be nàdu Crawler la, ele be nàtsɔ '--seed-addrs' flag akpe ɖe seɖoɖo si dzɔna la ŋu, si me gaɖoƒe ƒe dzesi Ɖeka le sue wu, si le vavã, si nye Zcash ɣaɣla dzesi ŋɔŋlɔ ƒe IP gaɖoƒe ƒe dzesi. Ele be nàna Crawler la naƒo du ɣeyiɣi si nam akpa be nàxɔ emetsonu si sɔ. Àte ŋu akpɔ ɣaɣla dzesi ŋɔŋlɔ ƒe IP gaɖoƒe ƒe dzesi ƒe kpɔɖeŋu aɖewo le [https://mainnet.zcashexplorer.app/nodes](https://mainnet.zcashexplorer.app/nodes).
 
-Be nàxɔ nyatakaka tso Crawler gbɔ esime wòle dɔ wɔm la, ele be nàtsɔ '--rpc-addr' aflaga akpe ɖe gɔmedzedze ƒe sededea ŋu. Esia mehiã be woawɔ crawler la ŋutɔ ko o gake ne menye nenema o la, abia be woatɔ crawler (ctrl+c alo SIGKILL) be woaɖe nyatakaka aɖeke afia kura o.
+Be nàxɔ nyatakaka tso Crawler la gbɔ esi wòle dɔ wɔm la, ele be nàtsɔ '--rpc-addr' flag akpe ɖe seɖoɖo si dzɔna la ŋu. Menye be ele vevie be nàwɔ esia hafi Crawler la aɖe du o, gake ne mèwɔe o la, ele be nàtɔ Crawler la (ctrl+c alo SIGKILL) hafi àte ŋu aɖe nyatakaka aɖeke fia.
 
-
->  Ƒu du sededea
+>  Wɔ seɖoɖo
 ```bash
 cargo run --release --features crawler --bin crawler -- --seed-addrs 157.245.172.190:8233 194.135.81.61:8233 35.233.224.178:8233 --rpc-addr 127.0.0.1:54321
 ```
 
-Crawler la adze kadodo kple network la gɔme (default every 20 secs) eye wòaƒo network data nu ƒu. 
-Woateŋu aɖe nyatakaka tso Crawler la afia to curl zazã me atsɔ abia nya le node la ŋu (esia bia jq hena info ma ɖeɖefia). 
-Woɖo Crawler RPC adrɛs le kpɔɖeŋu sia me ɖe '127.0.0.1:54321'.
+Crawler la ade asi adi alɔ̃lɔ̃ kple network la (le ɣeyiɣi 20 sia 20 me le gɔmedzedze me) eye wòaxɔ network ƒe nyatakaka. 
+Àte ŋu aɖe nyatakaka tso Crawler la gbɔ afia ne nàzã curl abia ɣaɣla dzesi ŋɔŋlɔ la (esia hia jq be nàɖe nyatakaka ma fia). 
+Crawler RPC ƒe gaɖoƒe ƒe dzesi le kpɔɖeŋu sia me nye '127.0.0.1:54321'
 
 
->  Le Terminal bubu me la, Run sededea
+>  Le Terminal bubu me, wɔ seɖoɖo
 ```bash
 curl --data-binary '{"jsonrpc": "2.0", "id":0, "method": "getmetrics", "params": [] }' -H 'content-type: application/json' http://127.0.0.1:54321/ | jq .result.protocol_versions
 ```
 
-Esia aɖe '.protocol_version' nyatakaka siwo woƒo ƒu fifia siwo le '.result' ƒe akpaa me afia. '.result' ƒe akpaa lolo ŋutɔ eyata eɖea vi be woayɔ eƒe akpa aɖewo koŋ ɖe eteƒe. Nyatakaka ƒomevi bubu siwo ŋu viɖe le enye '.num_known_nodes', '.num_good_nodes', '.user_agents' kple bubuawo Kpɔ metrics ƒe akpaa [Afi sia](https://github.com/runziggurat/zcash/tree/main/src/tools/crawler#metrics)
+Esia aɖe '.protocol_version' ƒe nyatakaka si woƒo ƒu fifia le '.result' field me afia. '.result' field la gã ŋutɔ, eyata wòanyo be nàyɔ eƒe akpa tɔxɛwo ɖe eteƒe. Nyatakaka ƒe ƒomevi bubu siwo hã naa viɖe nye '.num_known_nodes', '.num_good_nodes', '.user_agents' kple bubuwo. Kpɔ metrics ƒe akpa le [Afisia](https://github.com/runziggurat/zcash/tree/main/src/tools/crawler#metrics)
 
 ----------------
 
 
 ----------------
-Be woawɔ Crunchy kple P2P-Viz la, ele be woatsɔ '.result' la aƒu gbe ɖe .json faɛl me. 
+Be nàdu Crunchy kple P2P-Viz, ele be nàtsɔ '.result' la aɖo .json file me. 
 
 
->  Ƒu du sededea
+>  Wɔ seɖoɖo
 ```bash
 curl --data-binary '{"jsonrpc": "2.0", "id":0, "method": "getmetrics", "params": [] }' -H 'content-type: application/json' http://127.0.0.1:54321/ > latest.json
 ```
 
-Esia awɔ 'latest.json' faɛl le fifi nudzraɖoƒe.Woazã 'latest.json' faɛl sia kple Crunchy. 
+Esia awɔ 'latest.json' file le directory si me nèle fifia. Wozã 'latest.json' file sia kple Crunchy. 
 
-Le afisia la, woateŋu atɔ te Crawler la kple 'ctrl+c' nenye be nyatakaka bubu aɖeke mehiã o. Crawler la atsɔ nyatakaka aɖe ayi nyatakaka siwo ŋu viɖe le ƒe terminal.
-
+Le afi sia la, àte ŋu atɔ Crawler la kple 'ctrl+c' ne mèhia nyatakaka bubu o. Crawler la aɖe nyatakaka siwo naa viɖe afia le terminal la me.
 
 ----------------
 
-## Crunchy ƒe ʋuʋudedi
+## Crunchy
 
-Wobia tso Crunchy si be wòaƒo emetsonu json faɛl la nu ƒu hena zazã kple P2P-Viz.
+Wohĩa Crunchy be woaƒo output json file la ƒe nyatakaka ƒu be P2P-Viz nate ŋu azãe.
 
 
-Be nàtu Crunchy la, yi wò '/runziggurat' agbalẽdzraɖoƒe 
+Be nàtu Crunchy, yi wò '/runziggurat' folder me 
 
->  Be nàwɔ clone ɖe Crunchy repo la, Run sedede siwo gbɔna
+>  Be nàclone ɖe Crunchy repo me, wɔ seɖoɖowo
 ```bash
 git clone https://github.com/runziggurat/crunchy.git
 cd crunchy
 ```
-Kpɔ 'latest.json' faɛl la eye nàde 'crunchy/testdata/' ƒe agbalẽdzraɖoƒea.
+Kpɔ 'latest.json' file la ɖe 'crunchy/testdata/' folder me.
 
->  Wɔ sedede siwo gbɔna la 
+>  Wɔ seɖoɖowo 
 ```bash
 cargo run --release -- -i testdata/latest.json -o testdata/state.json -g testdata/geoip-cache.json -f Zcash
 ```
 
-Esia awɔ Zcash node filtered 'state.json' faɛl le 'crunchy/testdata/' agbalẽdzraɖoƒe si woazã kple P2P-Viz.
+Esia awɔ Zcash ɣaɣla dzesi ŋɔŋlɔ si woƒe ŋutinya wotia ƒe 'state.json' file le 'crunchy/testdata/' folder me, si wozãna kple P2P-Viz.
 
 ----------------
 
 ## P2P-Viz
 
-Be woatu P2P-Viz la, wobia be npm nanɔ esi. 
+Be nàtu P2P-Viz, ele be npm nanɔ asiwò. 
 
 
->  Be nàde npm kple nvm la, wɔ sedede siwo gbɔna:
+>  Be nàɖo npm kple nvm, wɔ seɖoɖowo:
 ```bash
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
 ```
 
-Do terminal la eye nàgbugbɔ adze egɔme.
+Tu terminal la eye nàɖoe gake.
 
 
->  Tsɔ sedede si nye:
+>  Wɔ seɖoɖo:
 ```bash
 nvm install --lts
 ```
 
-yi wò '/runziggurat' agbalẽdzraɖoƒea
+Yi wò '/runziggurat' folder me
 
 
->  Be nàwɔ clone ɖe P2P-Viz repo me eye nàdze egɔme la, Du sedede siwo gbɔna
+>  Be nàclone ɖe P2P-Viz repo me eye nàdzee egɔme, wɔ seɖoɖowo
 ```bash
 git clone https://github.com/runziggurat/p2p-viz.git
 cd p2p-viz
@@ -218,32 +215,32 @@ npm run start http
 
 ----------------
 
-Ʋu browser aɖe le [http://localhost:3000](http://localhost:3000). 
+Ʋu browser le [http://localhost:3000](http://localhost:3000). 
 
-Tia 'Geolocation' eye emegbe natia 'Choose state file'.
+Tia 'Geolocation' eye nàtia 'Choose state file'.
 
-Tso file explorer ƒe pop-up me la, tia 'state.json' faɛl la. 
+Tso file explorer pop-up la me, tia 'state.json' file la. 
 
-Node explorer World Map ayɔ faɛl ƒe nyatakakawo me fũ. Kpɔ readme la ɖa [Afi sia](https://github.com/runziggurat/p2p-viz#build-and-run-the-app) hena numeɖeɖe bubuwo tso zazã ƒe tiatia kple ɖoɖowo ŋu.
+Ɣaɣla dzesi ŋɔŋlɔ ƒe nɔnɔmetata World Map la aɖe file ƒe nyatakakawo fia. Kpɔ readme la le [Afisia](https://github.com/runziggurat/p2p-viz#build-and-run-the-app) be nànya bubu tso ale si nàzãe kple ɖoɖowo ŋu.
 
 
 ----------------
-AƉAŊUƉOƉOWO! 
+NUVEVIWO! 
 
-Àteŋu aɖo Crawler la ɖe ɣeyiɣi ƒe ʋuʋu dzi ko kple 'ɣeyiɣi ƒe nuwuwu' sedede si ana amewuwu ƒe sedede tɔxɛ aɖe le ɣeyiɣi si woɖo ɖi megbe. Ƒu du 'timeout --help' hena nyatakaka bubuwo.
-Sedede si gbɔna la adze egɔme eye wòatɔ le eɖokui si hã le crawler la megbe le 50 mins megbe.
+Àte ŋu aɖo Crawler la be wòawɔ crawl le ɣeyiɣi si nàtia me kple 'timeout' seɖoɖo ko, si aɖe kill seɖoɖo aɖe ɖa le ɣeyiɣi si nàɖo megbe. Wɔ 'timeout --help' be nànya bubu.
+Seɖoɖo si gbɔna la aɖe asi adu crawler la eye wòatɔe le minuti 50 megbe.
 
->  Ƒu du sededea
+>  Wɔ seɖoɖo
 ```bash
 timeout --signal=2 50m cargo run --release --features crawler --bin crawler -- --seed-addrs 157.245.172.190:8233 194.135.81.61:8233 35.233.224.178:8233 --rpc-addr 127.0.0.1:54321
 ```
 
 ----------------
-AƉAŊUƉOƉOWO! 
+NUVEVIWO! 
 
-Woateŋu ayɔ 'latest.json' eye woaŋlɔe ɖe '/testdata' me ale be mehiã be nàtsɔ asi awɔ eƒe kɔpi ahatsɔe ade eme o.
+Àte ŋu ayɔ 'latest.json' la eye nàŋlɔe ɖe '/testdata' me, ale be mèhia be nàkɔe eye nàtsɔe aɖo afi bubu o.
 
 ----------------
-AƉAŊUƉOƉOWO! 
+NUVEVIWO! 
 
-Woateŋu aƒo IP Adrɛs nyatakakawo nu ƒu tso emetsonua me eye emegbe woazãe atsɔ agbugbɔ aɖo Crawler la le gɔmedzedzea me (--seed-addrs). Esia aɖe ɣeyiɣi si woatsɔ awɔ crawl bliboe dzi akpɔtɔ! 
+Àte ŋu axɔ IP Address ƒe nyatakaka tso output la me eye nàzãe atsɔ aɖo Crawler la ƒe seed gake le gɔmedzedze (--seed-addrs). Esia atrɔ ɣeyiɣi si hia be nàwɔ crawl blibo!

@@ -4,7 +4,7 @@
 
 # RPi5 Zebra lightwalletd kple Zingo
 
-## Video ƒe Nufiame
+## Video Ƒe Nufiafia
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -18,34 +18,34 @@
 </div>
 
 
-## Nusiwo dzi woanɔ te ɖo
+## Dɔwɔnu siwo hiã
 
 ```bash
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 sudo apt install libclang-dev clang pkg-config openssl protobuf-compiler npm
 ```
 
-## Ƒo Zebra nu ƒu
+## Ƒo Zebra
 
-[Zebra GitHub ƒe ŋkɔ](https://github.com/ZcashFoundation/zebra)
+[Zebra GitHub](https://github.com/ZcashFoundation/zebra)
 
 * `time cargo install --git https://github.com/ZcashFoundation/zebra --tag v3.1.0 zebrad`
 
-## Trɔ asi le zebrad.toml ŋu
+## Ɖo zebrad.toml ɖe ɖoɖo nu
 
-kpee ɖe eŋu:
+Tsɔ kpee:
 
 `listen_addr = '127.0.0.1:8232'`
 
 `cache_dir = "/media/zebra5/zebra/"`
 
-## Sync Zebra ɖekawɔwɔ
+## Sync Zebra
 
 * `zebrad start`
 
-## Ƒo nu ƒu lightwalletd
+## Ƒo lightwalletd
 
-* install yi ɖa
+* Ɖo go
 
 ```bash
 wget https://go.dev/dl/go1.25.5.linux-arm64.tar.gz
@@ -53,7 +53,7 @@ sudo rm -rf /usr/local/go && sudo tar -C /usr/local -xzf go1.25.5.linux-arm64.ta
 export PATH=$PATH:/usr/local/go/bin
 ```
 
-* tsɔ lightwalletd de eme
+* Ɖo lightwalletd
 
 ```bash
 git clone https://github.com/zcash/lightwalletd
@@ -63,14 +63,14 @@ make install
 export PATH=$PATH:~/go/bin
 ```
 
-## Sync lightwalletd ɖekawɔwɔ
+## Sync lightwalletd
 
-* de dzesi data-dir ƒe tɔtrɔ
+* Nɔ nyuie ɖe data-dir tɔtrɔ la ŋu
 
   `lightwalletd --zcash-conf-path ~/.config/zcash.conf --data-dir /media/zebra5/zebra/.cache/lightwalletd --log-file /dev/stdout --no-tls-very-insecure`
 
 
-## De NodeJS ɖe wò kɔmpiuta dzi
+## Ɖo NodeJS
 
 ```bash
  curl -fsSL https://deb.nodesource.com/setup_23.x -o nodesource_setup.sh
@@ -78,13 +78,13 @@ export PATH=$PATH:~/go/bin
  sudo apt update
  sudo apt install nodejs
 ```
-Ne èdo go vodada aɖewo la, [afi sia](https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-22-04) nye mɔ bubu aɖewo siwo dzi nàto aɖo NodeJS ɖe wò kɔmpiuta dzi.
+Ne vodada aɖe dzɔ na wò, [afi sia](https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-22-04) fia mɔ bubu aɖewo siwo wòate ŋu atɔ ɖo NodeJS kple.
 
-## De Yarn eme
+## Ɖo Yarn
 
 `corepack enable`
 
-## De Zingo ɖe wò kɔmpiuta dzi
+## Ɖo Zingo
 
 ```bash
 git clone https://github.com/zingolabs/zingo-pc.git
@@ -98,10 +98,10 @@ yarn dist:linux
 
 ## Dze Zingo-PC gɔme
 
-* Ate ŋu azã appimage, alo binary le unpacked folder me
-* Kpɔ dzidzɔ nyuie! :)
+* Àte ŋu azã appimage, alo binary si le folder si woɖe fia me
+* Kpɔ dzidzɔ! :)
 
-# Dzɔtsoƒewo
+# Dzɔnuwo
 
 ```markdown
 https://github.com/ZcashFoundation/zebra
@@ -117,6 +117,3 @@ https://pimylifeup.com/raspberry-pi-nodejs/
 https://go.dev/dl/#stable
 https://askubuntu.com/questions/1177492/openssl-installed-but-no-openssl-pc-needed-by-pkg-config
 ```
-
-
-

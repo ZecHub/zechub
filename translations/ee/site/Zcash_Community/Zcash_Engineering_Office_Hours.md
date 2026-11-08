@@ -2,15 +2,15 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-Zcash Engineering Office Hours ƒe nuŋlɔɖiwo nuƒoƒoƒu.
+Ƒomevi siwo wòɖe le Zcash Engineering Office Hours.
 
 # Zcash Engineering Office Hours
 
-Mɔ̃ɖaŋununya ƒe ɣeyiɣi siwo wowɔna edziedzi siwo ƒo nu tso Zcash ƒe ɖoɖowɔɖi, sidzedze zero ƒe kpeɖodziwo, dɔwɔwɔ ƒe ŋgɔyiyi, ZIPwo, kple lãwo ƒe agbenɔnɔ ŋuti mɔ̃ɖaŋununya ƒe nyatiwo ŋu. Mark Henderson koŋue nye amedzroxɔla [](https://x.com/shieldedmark) kple gomekpɔkpɔ tso Shielded Labs, ZcashMe, Edge, kple nudzɔla bubuwo gbɔ. Zi geɖe la, wowɔa live sessions le Zcash Discord ƒe fefewɔƒewo (zi geɖe to Luma dzi); wotaa nya siwo wolé ɖe mɔ̃ dzi to [Zcash Brasil ye nye esia](https://www.youtube.com/@zcashbrasil).
+Tekinikɔ ƒoƒowo siwo dzɔna ɣesiaɣi le Zcash mɔɖoɖo [protocol], zero-knowledge ɖaseɖigbalɛ [proofs], dɔwɔwɔnu ƒe ŋgɔyiyi, ZIPs, kple ecosystem engineering ƒe nyawo ŋu. Mark Henderson [](https://x.com/shieldedmark)e tu wɔnɔna wo dzadzra vevie, eye Shielded Labs, ZcashMe, Edge, kple amedɔwɔla bubuwo hã wɔnɔa eme. Gbegbe ƒoƒowo dzɔna le Zcash Discord ƒe stagewo dzi (zi geɖe le Luma dzi); [Zcash Brasil](https://www.youtube.com/@zcashbrasil)e doa wɔnɔƒomeviwo ɖe go.
 
-Nusiwo kplɔ wo nɔewo ɖo la lɔ deep-dives siwo le wo ɖokui si kple **Protocol Study** sub-series si le edzi yim (Zcash Protocol Specification ƒe nuxexlẽ si wofia mɔe) siaa ɖe eme.
+Ƒometɔa meɖeɖe ƒe nyawo kple **Protocol Study** sub-series si yi edzi (xlẽmama si wòkplɔna amewo ɖe Zcash Protocol Specification ƒe xexlẽme) le eme.
 
-[Zcash Engineering Office Hours xexlẽdzesi](https://www.youtube.com/playlist?list=PLez2pAhViAI3zb2wnXomrdr3Qmf3lRTiY)
+[Zcash Engineering Office Hours Playlist](https://www.youtube.com/playlist?list=PLez2pAhViAI3zb2wnXomrdr3Qmf3lRTiY)
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe

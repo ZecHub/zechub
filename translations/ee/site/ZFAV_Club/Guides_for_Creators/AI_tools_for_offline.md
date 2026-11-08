@@ -2,50 +2,50 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# AI dɔwɔnuwo (nutoa me, esiwo mele Internet dzi o) .
+# AI dɔwɔnu [tools] (le afi sia, offline)
 
 <aside>
-*Egakpɔtɔ le nu ŋlɔm hele xɔ tum le afisia...*
+*Wole nuŋɔŋlɔ kple tutu wɔm le afisia ha...*
 
 </aside>
 
-### Nɔnɔmetatawo wɔwɔ
+### Nɔnɔmetata wɔwɔ [Image generating]
 
-Afikae woawɔ modelwo ƒe kɔpi le hena nɔnɔmetatawo wɔwɔ? 
-Le [**Akplakplakpla Face** dzi.](https://huggingface.co/models?pipeline_tag=text-to-image&sort=trending) kple [**Civitai](https://civitai.com/)** nye kpɔɖeŋu vovovo geɖe.
+Afika wòate ŋu aɖe modelwo atsɔ awɔ nɔnɔmetata?
+Le [**HuggingFace**](https://huggingface.co/models?pipeline_tag=text-to-image&sort=trending) kple [**Civitai](https://civitai.com/)** dzi la, model vovovo geɖe le.
 
-## Windows - kɔpi ƒe kpɔɖeŋu siwo wowɔ ɖe ɖoɖo nu
+## Windows - model si wotia ŋu [custom models] wɔe ɖe
 
-Zi geɖe la, GPU suetɔ kekeake si me 4GB alo video ŋkuɖodzinu le hiã na AI dɔwɔnu ɖesiaɖe.
+Zi geɖe la, GPU si ƒe video memory le GB 4 hẽ atɔe na AI dɔwɔnu ɖe sia ɖe.
 
-Nvida GPUwo wɔa dɔ nyuie wu.
+Nvidia GPUwo wɔ dɔ nyuie wu.
 
-- [YɔyɔAI](https://invoke-ai.github.io/InvokeAI/) (ehiã 4GB GPU ŋkuɖodzinu)
-- [NMKD Kakaɖedzi GUI si Li ke](https://nmkd.itch.io/t2i-gui)
-- [EasyDiffusion 3.0 ƒe dɔwɔwɔ](https://github.com/easydiffusion/easydiffusion)
+- [InvokeAI](https://invoke-ai.github.io/InvokeAI/) (ehiã GPU memory GB 4)
+- [NMKD Stable Diffusion GUI](https://nmkd.itch.io/t2i-gui)
+- [EasyDiffusion 3.0](https://github.com/easydiffusion/easydiffusion)
 
-### Mac OS - kɔpi ƒe kpɔɖeŋu siwo wowɔ ɖe ɖoɖo nu
+### Mac OS - model si wotia ŋu wɔe ɖe
 
-- [Ta Nuwo: AI Dzidzime](https://apps.apple.com/ee/app/draw-things-ai-generation/id6444050820) tso AppStore - femaxee
-(Ate ŋu azã StableDiffusion ƒe kpɔɖeŋu vovovo geɖewo)
-- [DiffusionBee](https://diffusionbee.com/) - femaxe
-(Ate ŋu azã StableDiffusion ƒe kpɔɖeŋu vovovo geɖewo)
-- [YɔyɔAI](https://invoke-ai.github.io/InvokeAI/) (ehiã 4GB GPU ŋkuɖodzinu)
+- [Draw Things: AI Generation](https://apps.apple.com/ee/app/draw-things-ai-generation/id6444050820) tso AppStore - free
+(Wòate ŋu azã StableDiffusion model vovovo geɖe)
+- [DiffusionBee](https://diffusionbee.com/) - free
+(Wòate ŋu azã StableDiffusion model vovovo geɖe)
+- [InvokeAI](https://invoke-ai.github.io/InvokeAI/) (ehiã GPU memory GB 4)
 
-### Linux - kɔpi ƒe kpɔɖeŋu siwo wowɔ ɖe ɖoɖo nu
+### Linux - model si wotia ŋu wɔe ɖe
 
-- [YɔyɔAI](https://invoke-ai.github.io/InvokeAI/) (ehiã 4GB GPU ŋkuɖodzinu)
+- [InvokeAI](https://invoke-ai.github.io/InvokeAI/) (ehiã GPU memory GB 4)
 
-## Nuŋɔŋlɔwo wɔwɔ
+## Nuŋɔŋlɔ wɔwɔ [Text generating]
 
-### Windows - kɔpi ƒe kpɔɖeŋu siwo wowɔ ɖe ɖoɖo nu
+### Windows - model si wotia ŋu wɔe ɖe
 
-- [GPT4All](https://gpt4all.io/index.html) (mini 8gb RAM hiã)
+- [GPT4All](https://gpt4all.io/index.html) (ehiã RAM GB 8 le esia me)
 
-### Mac OS - kɔpi ƒe kpɔɖeŋu siwo wowɔ ɖe ɖoɖo nu
+### Mac OS - model si wotia ŋu wɔe ɖe
 
-- [GPT4All](https://gpt4all.io/index.html) - (ewɔa dɔ kabakaba ŋutɔ le M1 macs dzi, le GPT ƒe kpɔɖeŋu si wozã nu)
+- [GPT4All](https://gpt4all.io/index.html) - (ewɔ dɔ kaba le M1 macwo dzi, le GPT model si wozã la ŋu)
 
-## Linux - kɔpi ƒe kpɔɖeŋu siwo wowɔ ɖe ɖoɖo nu
+## Linux - model si wotia ŋu wɔe ɖe
 
-- [GPT4All](https://gpt4all.io/index.html) (mini 8gb RAM hiã)
+- [GPT4All](https://gpt4all.io/index.html) (ehiã RAM GB 8 le esia me)

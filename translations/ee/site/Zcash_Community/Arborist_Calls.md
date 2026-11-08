@@ -4,47 +4,47 @@
 
 # Arborist Calls
 
-Zcash Arborist Calls nye ɖoɖowɔɖi ƒe ŋgɔyiyi ƒe kpekpe siwo yia edzi enuenu siwo ku ɖe network upgrade planning, consensus node implementation dɔwɔwɔ, gakotoku kple xɔtuɖoɖowo ƒe ŋuɖoɖo ɖe eŋu, kple protocol numekuku ŋu.
+Zcash Arborist Calls nye protocol ƒe ɖoɖoŋgɔgblɔƒe ƒe kpekpewo siwo dzɔna ɣesiaɣi, eye wonɔa ŋku ɖom ɖe mɔ̃ ƒe sewo trɔtrɔ ƒe ɖoɖo, gbegbɔgblɔ ɖi ɣaɣla dzesi ŋɔŋlɔ ƒe dɔwɔwɔ, gakotoku [wallet] kple nuto ƒe nɔƒeɖoɖowo, kple protocol ƒe nukpɔkpɔ dzi.
 
-Zcash Foundation ye léa be na Arborist Calls ƒe axa si dziɖuɖua da asi ɖo:
+Arborist Calls ƒe axa si nye dɔmeŋkɔ la, Zcash Foundation wɔnɛ:
 
-**[https://zfnd.org/arborist-calls/](https://zfnd.org/arborist-calls/)**
+**[https://zfnd.org/arborist-calls/](https://zfnd.org/arborist-calls/)****
 
 <p>
   <a
     href="/arborist-calls"
     className="inline-flex items-center rounded-lg bg-yellow-400 px-4 py-2 font-semibold text-black hover:bg-yellow-300"
   >
-    Di kaƒoƒo ƒe nudzraɖoƒea
+    Di kpekpe ƒe archive
   </a>
 </p>
 
-## Ale Si Nàwɔ Awɔ Ðeka
+## Ale si nàte ŋu akpɔ ɖe eŋu
 
-Kaƒoƒoawo ɖɔlia ɣeyiɣi eve siwo gbugbɔna yia edzi ale be nudzɔla siwo le nuto vovovowo me nate ŋu akpɔ gome le eme. Zã Zcash Foundation ƒe axa si dziɖuɖua da asi ɖo na ɣletigbalẽ ƒe faɛl siwo li fifia kple Zoom ƒe kadodowo:
+Kpekpeawo trɔa wo ŋutɔ le ɣeyiɣi ƒe teƒe eve siwo wɔna ɣesiaɣi dome, ale be amewo siwo tso nutowo me ate ŋu akpɔ ɖe eŋu. Zã dɔmeŋkɔ Zcash Foundation ƒe axa la na kalenda ƒe faɛlwo kple Zoom ƒe ƒoƒoawo siwo le fifia:
 
-- **15:00 UTC** ɣeyiɣi ƒe didime
+- **15:00 UTC** ɣeyiɣi ƒe teƒe
 
-Gɔmeɖoanyi ƒe axaae nye nyateƒetsoƒe na ŋkɔ ŋɔŋlɔ ƒe kadodowo, ɣletigbalẽ ƒe faɛlwo, kple kpekpewo ƒe mɔɖeɖe elabena kpekpewo ƒe kadodowo ateŋu atrɔ.
+Foundation ƒe axa la nye nyateƒe ƒe teƒe na ŋkɔŋlɔɖoƒe ƒe ƒoƒoawo, kalenda ƒe faɛlwo, kple kpekpe ƒe mɔkeke, elabena kpekpe ƒe ƒoƒoawo ate ŋu atrɔ.
 
-## Nuŋlɔɖiwo, Ðoɖowɔɖiwo, Kple Nya Siwo Wolé Ðe Nyatakakadzraɖoƒe
+## Nudzodzro, Agenda, Kple Mawo ƒe Nudzodzrowo
 
-- Ðoɖowɔɖi bliboa kple aɖabaƒoƒoawo: [arboretum-nuŋlɔɖiwo](https://github.com/ZcashCommunityGrants/arboretum-notes)
-- Nudzraɖoƒe si woateŋu adi le wiki sia dzi: [Arborist Calls nudzraɖoƒe](/arborist-calls)
-- Nusiwo wolé ɖe mɔ̃ dzi nyitsɔ laa: [Zcash Arborist Call ƒe haƒoƒo ƒe xexlẽdzesi](https://www.youtube.com/playlist?list=PL40dyJ0UYTLJqD_3PE9qiJTxse-iHnn1G)
-- Zcash R&D ƒe numedzodzro: [Zcash Numekuku Kple Dɔwɔnawo Discord](https://discord.gg/xpzPR53xtU)
-- Numedzodzro didi: [Zcash Nutome Takpekpe](https://forum.zcashcommunity.com/)
+- Agenda bliboa kple kpekpe ƒe ŋkɔŋlɔwo: [arboretum-notes](https://github.com/ZcashCommunityGrants/arboretum-notes)
+- Archive si wòate ŋu adi le wiki sia dzi: [Arborist Calls archive](/arborist-calls)
+- Mawo ƒe nudzodzro yeyeawo: [Zcash Arborist Call ƒe playlist](https://www.youtube.com/playlist?list=PL40dyJ0UYTLJqD_3PE9qiJTxse-iHnn1G)
+- Zcash R&D ƒe amewo ƒe nuƒoƒo: [Zcash R&D Discord](https://discord.gg/xpzPR53xtU)
+- Nuƒoƒo didi: [Zcash Community Forum](https://forum.zcashcommunity.com/)
 
-## Ame Siwo Wòle Be Woade
+## Ame Siwo Wòle Be Woava
 
-Arborist Calls ɖea vi na:
+Arborist Calls wɔa vi na:
 
-- Protocol ƒe mɔ̃ɖaŋudɔwɔlawo kple numekulawo
-- Node, gakotoku, SDK, kple lightwallet ƒe xɔtuɖoɖowo wɔlawo
-- Na kpekpeɖeŋunala siwo ƒe dɔa ka nusiwo dzi woda asi ɖo, network ƒe ɖɔɖɔɖo, alo ɖoɖowɔɖi ƒe nusiwo dzi woanɔ te ɖo
-- Nutoa me tɔ siwo di be yewoawɔ ɖe mɔ̃ɖaŋu ŋuti nyametsotsowɔwɔ dzi le dutoƒo
+- Protocol ƒe mɔ̃ ƒe ɖoɖoŋlɔlawo kple nukpɔkpɔlawo
+- Ɣaɣla dzesi ŋɔŋlɔ, gakotoku, SDK, kple lightwallet nuto ƒe mɔ̃ ƒe ɖoɖoŋlɔlawo
+- Ga ƒe kpekpeɖeŋu ƒe xɔlawo siwo ƒe dɔ ku ɖe gbegbɔgblɔ ɖi, mɔ̃ ƒe sewo trɔtrɔ, alo protocol ƒe nɔƒeɖoɖowo ŋu
+- Hamea me tɔwo siwo di be woate ŋu ayɔ tekniki ƒe nyametsotso le amewo katã ƒe ŋkume
 
-## Haƒoƒo ƒe xexlẽdzesi
+## Playlist
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe

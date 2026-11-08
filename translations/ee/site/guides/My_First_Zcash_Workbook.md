@@ -1,165 +1,158 @@
-# Nye Zcash Dɔwɔgbalẽ Gbãtɔ
+# Nye Zcash Dɔwɔwɔ Agbalẽ Gbãtɔ
 
 ---
 
-## Kpɔkplɔyiɖeme
+## Gɔmedzedze
 
-*Nye Zcash* nye hehenana dɔwɔgbalẽ si wowɔ be wòakpe ɖe nusrɔ̃la yeyewo ŋu, vevietɔ sɔhɛwo kple crypto gɔmedzelawo be woase Zcash, ganyawo ƒe adzamenyawo, dijitaal ga, kple ɖoɖo siwo le megbe na mɔ̃ɖaŋununya la gɔme. Nudzɔlawo ƒe ƒuƒoƒo vovovo siwo me dzo le tso xexeame katã ƒe Zcash habɔbɔa me ye wɔe, eye wotsɔ kɔmpiuta dɔwɔɖoɖowo wɔwɔ, aɖaŋuwɔwɔ, numekuku, hehenana, kple ameŋunyatakakawo taʋiʋli ƒo ƒui.
+*Nye Zcash Dɔwɔwɔ Agbalẽ Gbãtɔ* nye nusɔsrɔ̃ ƒe dɔwɔwɔ agbalẽ si wo wɔ be wòakpe ɖe nusɔsrɔ̃la yeyeawo, vevietɔ ɖe ɖeviwo kple ame siwo gblɔ crypto me va yi o la ŋu, be woase Zcash, ga ƒe ɣaɣla [financial privacy], digital ga, kple ɖoɖo siwo le teknɔlɔdzi la megbe ƒe gɔme. Ame siwo tso Zcash ƒe xexeme katã ƒe haxɔsetɔ ƒe hatsotso me, eye wo le dzidzɔ me na dɔa, wɔe; wo ƒo software ƒe mɔ̃ɖoɖo, aɖaŋunana, numekpɔkpɔ, nusɔsrɔ̃, kple ɣaɣla ƒe ɖeɖefia ƒu.
 
-Mɔfiame sia na dɔwɔgbalẽa ƒe nusɔsrɔ̃ veviwo ŋuti nyatakaka kpui aɖe, si woma ɖe akpa gã enyi me. Menye agbalẽa ŋutɔ teƒenɔlae wònye o ke boŋ, enye kpeɖeŋutɔ dɔwɔnu si ƒoa nu tso hehenana ƒe sisi ŋu kpuie eye wòhea susu yia nyatakaka veviwo dzi na nufialawo, sukuviwo, kple nutoa me nufialawo.
+Mɔfia sia ƒe dɔe nye be yeana dɔwɔwɔ agbalẽ la ƒe nusɔsrɔ̃ ƒe mɔ veviwo ƒe kpɔɖeŋu, si wo mae ƒe akpa gã asieke. Menye agbalẽ la ŋutɔ ƒe teƒeɖola o, ke boŋ enye kpekpeɖeŋu ƒe nuŋɔŋlɔ si ƒo nusɔsrɔ̃ ƒe mɔ la nu, eye wòfia nyatakaka vevi na nufiala, nusrɔ̃la, kple haxɔsetɔ ƒe nufialawo.
 
-Woate ŋu awɔ dɔwɔgbalẽa ƒe kɔpi faa abe PDF ene:
+Wòate ŋu awɔ dɔwɔwɔ agbalẽ la ƒe PDF ƒe download bliboa:
 
-[Ɖoɖo](https://drive.google.com/file/d/1eYWLgvAAHzCpr2b7bZ494FTZAtHqmtRk/view)
+[Taɖodzinuŋlɔ](https://drive.google.com/file/d/1eYWLgvAAHzCpr2b7bZ494FTZAtHqmtRk/view)
 
-[GitHub Nyatakaka](https://github.com/massadoptionorg/My-First-Zcash) 
+[GitHub Repo](https://github.com/massadoptionorg/My-First-Zcash) 
 
-
-
----
-
-## 1. Nukae nye Zcash?
-
-Akpa gbãtɔ sia na nuxlẽlawo nya dijitaal ga ƒe susu kple nusita ame ŋutɔ ƒe nyawo tsɔtsɔ aɣla le vevie le egbegbe dijitaal habɔbɔ me. Etsɔa gaŋutiɖoɖo xoxowo sɔna kple blockchain siwo me kɔ, si tea gbe ɖe alesi dutoƒo gagbalẽ akpa gãtɔ ɖea zãlawo ƒe dɔwɔnawo ɖe goe dzi. Wogblɔ tso Zcash be enye dijitaal ga bubu si kpɔa ame ŋutɔ ƒe nyatakakawo ta si na be ezãlawo te ŋu ɖɔa li wo nɔewo dedie evɔ womeɖea ame ŋutɔ ƒe ganyawo ŋuti nyatakakawo ɖe go o.
-
- Dɔwɔgbalẽa te gbe ɖe edzi be ame ŋutɔ ƒe nyawo tsɔtsɔ aɣla menye nu gbegblẽ wɔwɔ ɣla o, ke boŋ be woakpɔ ame siwo nɔa anyi edziedzi ta tso wo ɖeɖe ɖe go madzemadzee, ŋkuléle ɖe wo ŋu, kple nyatakakawo zazã me. Wokplɔa nusrɔ̃lawo toa kpɔɖeŋu tẽ siwo ɖe alesi wowɔ Zcash be wòana amewo nakpɔ ŋusẽ vavãtɔ ɖe woƒe ganyawo dzi kple alesi ganyawo ŋuti asitsatsa edziedzi ɖea ame ŋutɔ ƒe nyatakaka geɖe fiana wu alesi míekpɔnɛ dzea sii.
 
 
 ---
 
-## 2. Amekae Tu Zcash Eye Nukatae Wòli?
+## 1. Nu kae nye Zcash?
 
-Akpa sia ɖe Zcash ƒe gɔmedzedze me to dzɔdzɔmeŋutinunya me numekuku kple nya ɣaɣlawo ŋɔŋlɔ ƒe ŋkume. Eto zero-sidzedze kpeɖodziwo vɛ koŋ "zk-SNARKs" abe mɔ̃ɖaŋununya si to vovo si na be ame ŋutɔ ƒe asitsatsa siwo ŋu wokpɔ ta na te ŋu dzɔna ene.
+Akpa gbãtɔ sia ɖo ame si xlẽe la ɖe digital ga ƒe gɔme kple nu si ta ɣaɣla [privacy] le vevie le digital hamea me egbea ŋu. Etsɔa ga ƒe ɖoɖo blemawo sɔa kple nuwo ƒe ʋuʋuɖi gaɖoɖowo ƒuƒoƒo ƒe ɖoɖonu [blockchains], eye wòfia be ga ƒe nyawo ƒe agbale gã siwo katã ate ŋu akpɔ la doa ezãla ƒe nudzɔdzɔwo fiana zi geɖe. Wo ɖe Zcash fia abe digital ga si dea ɣaɣla te la ene, si na ezãlawo ate ŋu awɔ gaɖoɖo [transaction] dedie, eye womefia wo ƒe ameŋutilawo ƒe ga nyawo o.
 
-Dɔwɔgbalẽa ƒo nu tso Zcash's dodo ɖe ŋgɔ ƒe ŋutinya hã ŋu, gɔmeɖose siwo ɖoe anyi, kple xexeame katã ƒe habɔbɔ si léa lãwo ƒe agbenɔnɔ ɖe te hedoa alɔe egbea. Woɖo dɔdasi la ɖe ŋusẽdodo ame ɖekaɖekawo, nana mɔnukpɔkpɔ si me womeɖea mɔ ɖe nu ŋu le o be woakpɔ ga le dijitaalmɔ̃ dzi, kple ameŋunyatakakawo ŋuti mɔ̃ɖaŋununya dodo ɖe ŋgɔ na amesiame.
-
-
----
-
-## 3. Alesi Zcash Wɔa Dɔe
-
-Akpa sia gblẽ Zcash ƒe ɖoɖowɔɖi ƒe mɔ̃ɖaŋu gɔmeɖoanyiwo me le gbe si ŋu woate ŋu ate ɖo me. Nukpɔsusu veviwo dometɔ aɖewoe nye:
-
-- Adrɛs siwo me kɔ vs 
-- Safuiwo kpɔkpɔ kple nyatakakawo ɖeɖe ɖe go si dzi wokpɔna 
-- Dɔ si tomenukulawo/siwo ɖo kpe edzi wɔna 
-- Alesi sidzedze zero ƒe kpeɖodziwo ɖoa kpe asitsatsa dzii 
-- Alesi wokpɔa ame ŋutɔ ƒe nyawo ta esime wole ekpɔm be kɔmpiutadziɖoɖoa gakpɔtɔ le teƒe ɖeka eye wòle dedie gɔ̃ hã 
-
-Nɔnɔmetatawo kple kpɔɖeŋunyagbɔgblɔ siwo wokpɔna le dɔwɔgbalẽa me kpena ɖe ame ŋu be nukpɔsusu siawo nɔa bɔbɔe na gɔmedzelawo.
-
+Dɔwɔwɔ agbalẽ la ɖe fia be ɣaɣla menye nu vɔ̃ ƒe ɣlaɣla o, ke boŋ enye ame mamlɛawo ƒe dzadzra tso fifi le ame ƒe ŋkume, ŋkuɖodzinu, kple nyatakaka ƒe zazã vɔ̃ ŋu. Wo kplɔa nusrɔ̃lawo to kpɔɖeŋu bɔbɔewo me be woakpɔ ale si wɔ Zcash be wòana amewo nakpɔ wɔnawo ƒe ga ƒe agbenɔnɔ dzi kpɔkpɔ vavã, kple ale si gaɖoɖo [transactions] mamlɛawo fiana ameŋuti nyatakaka geɖe wu ale si míebu la.
 
 ---
 
-## 4. Zcash Zazã le Gbesiagbe Agbenɔnɔ Me
+## 2. Ame Kae Wɔ Zcash, Eye Nu Ka Ta Wònɔ Anyi?
 
-Akpa enelia ƒo nu tso zazã ŋutɔŋutɔ ƒe kpɔɖeŋuwo ŋu. Eɖe alesi ame aɖe ate ŋu aɖo Zcash ɖa ahaxɔe to asitelefon dzi gakotokuwo zazã me, alesi QR-kɔdawo naa fexexe nɔa bɔbɔe, kple alesi ezãlawo zãa asitsatsa siwo ŋu wokpɔ ta na hena ame ŋutɔ ƒe ametakpɔkpɔ, asitsatsa ƒe nya ɣaɣlawo, alo gaɖoɖo ɖe amewo to dukɔwo dome.
+Akpa sia gblɔ Zcash ƒe gɔmedzedze ƒe nya to science ƒe numekpɔkpɔ kple kriptografi ƒe ŋku me. Eɖo zero-knowledge ɖaseɖigbalɛ [proofs], vevietɔ "zk-SNARKs", fia abe teknɔlɔdzi yeye si wɔe be ɣaɣla gaɖoɖo [transactions] nate ŋu ava enyɔ la ene.
 
-Kpɔɖeŋuwo ɖe xexeame ƒe nɔnɔme ŋutɔŋutɔwo fia siwo dometɔ aɖewoe nye gadodo na nutalawo, ga tsɔtsɔ yi na ƒometɔwo le duta, kpekpeɖeŋu nana NGO-wo evɔ womayɔ woƒe ŋkɔ o, alo Zcash zazã abe ƒewuivi ƒe dijitaal gakpekpeɖeŋu si nye ame ŋutɔ tɔ ene.
-
----
-
-## 5. Xɔtutu kple Zcash
-
-Akpa sia te gbe ɖe alesi dɔwɔlawo, aɖaŋuwɔlawo, numekulawo, kple nufialawo ateŋu atu Zcash. Etoa nukpɔsusuwo abe:
-
-- Zcash gakotokuwo 
-- Developer SDKwo ƒe dɔwɔwɔ 
-- Nutoa me dɔwɔhawo 
-- Akpa si nudzɔlawo wɔna le ŋgɔyiyi si wowɔna le mɔ gbadza nu me 
-- Alesi Zcash network ƒe ŋgɔyiyiwo nana ɖoɖowɔɖia nyona ɖe edzi 
-
-Nuxlẽlawo sea alesi Zcash trɔnae le ɣeyiɣi aɖe megbe kple alesi xexeame katã ƒe nudzɔlawo kpena ɖe dɔwɔnuwo, xɔtuɖaŋuwo, dɔwɔɖoɖowo, kple hehenana dɔwɔnuwo keke ɖe enu ŋu.
-
+Dɔwɔwɔ agbalẽ la gblɔ Zcash ƒe dzeɖeɖe ƒe xexlẽme, eƒe gɔmeɖoɖo gbãtɔwo, kple xexeme katã ƒe haxɔsetɔ si le ɖoɖoa dzɔm eye wòle kpekpeɖeŋu nam egbea la ƒe nya hã. Wo ɖo dɔmefia la ɖe ame sia ame ƒe ŋusẽɖeɖe, digital ga si ƒe mɔ womate ŋu atsi o ƒe mɔɖeɖe, kple ɣaɣla ƒe teknɔlɔdzi ƒe nyagãɖe yi ame sia ame gbɔ ŋu.
 
 ---
 
-## 6. Dedienɔnɔ, Dedienɔnɔ, Kple Nuwɔna Nyuitɔwo
+## 3. Ale Si Zcash Wɔa Dɔ
 
-Akpa sia fia dijitaal dedienɔnɔ ƒe nɔnɔme veviwo:
+Akpa sia ma Zcash protocol la ƒe tekniki ƒe gɔmeɖoɖowo me kple gbe bɔbɔe si amewo ate ŋu ase. Nya veviwoe nye:
 
-- Safuiwo kple nuku ƒe nyagbewo takpɔkpɔ 
-- Ƒo asa na ametafatafa 
-- Gakotoku siwo me wodzraa ga ɖo kple esiwo menye gakotoku o gɔmesese 
-- Dzadzɛnyenye sesẽ le nyagbewo zazã me 
-- Ƒo asa na gakotoku ŋuti nyatakaka veviwo mama le dutoƒo 
+- Nuwo ƒe ʋuʋuɖi kple ɣaɣla gaɖoƒe ƒe dzesiwo  
+- Nukpɔsafuiwo kple nyatakaka ƒe fiafia si wòate ŋu akpɔ dzi  
+- Nukulawo/nyatakaka ƒe asedzilawo ƒe dɔ  
+- Ale si zero-knowledge ɖaseɖigbalɛwo dea gaɖoɖo [transactions] ƒe nyateƒe fia  
+- Ale si wodea ɣaɣla te, esi wòle be network la nanɔ ha nuɖo agni eye wòanɔ dedie hã  
 
-Nusɔsrɔ̃ siawo naa numame vevi siwo keke ta wu Zcash yi dijitaal agbenɔnɔ bliboa me la zãla yeyewo.
-
-
----
-
-## 7. Xexeame Katã ƒe Zcash Habɔbɔ
-
-Zcash lãwo ƒe agbenɔnɔ ƒe ɖoɖoa nye xexeame katã tɔ, eto vovo, eye nutoa me tɔwoe ʋãnɛ. Akpa sia ɖe alesi nudzɔlawo wɔa dɔ aduadu to nyamedzroƒe siwo le ʋuʋu ɖi, GitHub, Discord, kple dɔwɔhawo dzi. Eɖea dekɔnu si nye ŋgɔyiyi si wowɔna le mɔ gbadza nu, ame ŋutɔ ƒe nyawo taʋiʋli, kple hehenana amewo le gɔmedzedzea me vɛ.
-
-Dɔwɔgbalẽa ƒo nu tso habɔbɔ siwo kpɔ gome le lãwo ƒe agbenɔnɔ ƒe ɖoɖoa me hã ŋu, siwo dometɔ aɖewoe nye habɔbɔ siwo mekpɔa viɖe aɖeke tso eme o, gɔmeɖoanyiwo, kple xɔtula siwo le wo ɖokui si siwo doa alɔ kadodoa eye woléa Zcash's dziɖuɖu ƒe ɖoɖowɔwɔ kple dukɔa ƒe nyonyo dɔdasi me ɖe asi.
-
+Nɔnɔmetatawo kple nukpɔkpɔ ƒe kpɔɖeŋuwo le dɔwɔwɔ agbalẽ la me be woana nya siawo nanɔ bɔbɔe na amesiwo le gɔmedzedze me.
 
 ---
 
-## 8. Do go Wɔlawo - "Peeps Siwo Wɔe!"
+## 4. Zcash Ƒe Zazã Le Gbegbe Agbe Me
 
-Akpa sia te gbe ɖe nudzɔla bibi siwo na *Nye Zcash* te ŋu dzɔ dzi. Wo dometɔ aɖewoe nye:
+Akpa ene lia ŋku ɖe zazã ƒe kpɔɖeŋu vavãwo ŋu. Eɖea fia ale si ame aɖe ate ŋu azɔ Zcash azɔa mobile gakotoku [wallets] me, ale si QR codewo wɔa fexexe [payments] bɔbɔe, kple ale si ezãlawo zãa ɣaɣla gaɖoɖo [transactions] na wo ŋutɔ ƒe dzadzra, asi ƒe nyatakaka ƒe ɣlaɣla, alo dukɔwo dome gaɖeɖe.
 
-**Tsikpe (@frostbyte11211)** Ƒe 1999 ƒe ɣleti gbãtɔ me
+Kpɔɖeŋuwo fia nɔnɔme vavãwo, abe ga na haƒoƒola, ga ɖeɖe na ƒometɔwo siwo le dukɔ bubu me, NGO ƒe kpekpeɖeŋu le ɣlaɣla me, alo Zcash ƒe zazã abe ɖevi ƒe digital ga si nye eya tɔ ko ene.
 
-Sekɛndrisukuvi aɖe si tsɔ ɖe le ame ŋutɔ ƒe nyawo gbɔgblɔ, kɔmpiuta, nya ɣaɣlawo, kple susuŋutinunya me.
+---
 
-**Pacu (@akɔntabubua)** 
+## 5. Tutu Kple Zcash
 
-Zcash gakotoku wɔlawo ɣeyiɣi didi aɖe, si nɔ ECC tsã le dɔ wɔm tso SDKs kple Light Client mɔ̃ɖaŋununya ŋu, fifia le asi kpem ɖe lãwo ƒe agbenɔnɔ ŋu le ZCG kpekpeɖeŋunana te.
+Akpa sia fia ale si mɔ̃ ƒe ɖoɖoŋlawo [developers], aɖaŋunala, numekpɔlawo, kple nufialawo ate ŋu atu nu ɖe Zcash dzi. Eɖea nya siawo ƒe gɔme fia:
+
+- Zcash gakotokuwo [wallets]  
+- Mɔ̃ ƒe ɖoɖoŋla ƒe SDKwo  
+- Haxɔsetɔ ƒe dɔwɔwɔ hatsotsowo  
+- Ame siwo kpena ɖe open-source mɔ̃ ƒe ɖoɖo ŋu ƒe dɔ  
+- Ale si Zcash ƒe mɔ̃ ƒe sewo trɔtrɔ [network upgrades] nana protocol la ƒe nɔnɔ nɔ nyuie  
+
+Nuxlẽlawo kpɔa ale si Zcash trɔna le ɣeyiɣi me kple ale si xexeme katã ƒe ame siwo kpena ɖe dɔa ŋu la na dɔwɔnu [tools], ɖoɖonu, applicationwo, kple nusɔsrɔ̃ ƒe nuŋlɔwo ƒe tsitsi.
+
+---
+
+## 6. Dedienɔnɔ, Dzadzra, Kple Nɔnɔ Nyuiwo
+
+Akpa sia fia digital dzadzra ƒe nɔnɔ gbãtɔwo:
+
+- Safuiwo kple gadzraɖoɖi nya [seed phrases] ƒe dzadzra  
+- Aɖeɖe tso ameflula ƒe mɔwo ŋu  
+- Asikplɔ-dzralá kple gakotoku si menye asikplɔ-dzralá o ƒe gɔmesese  
+- Nyaŋlɔɖoŋu si sesẽ ƒe dzadzra nyuie  
+- Gakotoku ƒe nyatakaka si le vevie ƒe mamana fiana le ame ƒe ŋkume  
+
+Nusɔsrɔ̃ siawo naa ezãla yeyeawo nɔnɔ veviwo siwo yi wu Zcash de digital agbe gbogblɔ la me.
+
+---
+
+## 7. Xexeme Katã Ƒe Zcash Haxɔsetɔ
+
+Zcash ƒe ɖoɖoa le xexeme katã, wòle vovototo, eye haxɔsetɔe kplɔa eŋgɔ. Akpa sia gblɔ ale si ame siwo kpena ɖe dɔa ŋu wɔa dɔ ɖekae to dzeƒe siwo le aʋa na ame katã, GitHub, Discord, kple dɔwɔwɔ hatsotsowo me. Eɖoa open-source mɔ̃ ƒe ɖoɖo, ɣaɣla ƒe ɖeɖefia, kple ameawo ŋutɔ ƒe nusɔsrɔ̃ ƒe aṣaŋu fia.
+
+Dɔwɔwɔ agbalẽ la gblɔ ɖoɖowo siwo le ɖoɖoa me la ƒe nya hã, abe nonprofit hatsotsowo, foundationwo, kple tutuwo siwo tsi wɔnawo ŋu o, eye wo kpena ɖe network la ŋu, eye wo dzraa Zcash ƒe ha nuɖo agni kple amewo katã ƒe nyui ƒe dɔmefia.
+
+---
+
+## 8. Míakpɔ Wɔlawo - "Ame Siwo Wɔe!"
+
+Akpa sia ɖe ame siwo le ŋusẽ, eye wo wɔ *Nye Zcash Dɔwɔwɔ Agbalẽ Gbãtɔ* la fia. Wo nye:
+
+**Ice (@frostbyte11211)**
+
+Sukuu gã ƒe nusrɔ̃la si lɔ̃ ɣaɣla, computerwo, kriptografi, kple ame ƒe susu nyagblɔdzedze.
+
+**Pacu (@thecodebuffet)** 
+
+Zcash gakotoku [wallet] ƒe mɔ̃ ƒe ɖoɖoŋla si le dɔa me tso ɣeyiɣi didi, si nɔ ECC kpɔe, eye wòwɔ dɔ ɖe SDKwo kple Light Client teknɔlɔdzi ŋu; fifia ele dɔwɔm na ɖoɖoa to ZCG ga ƒe kpekpeɖeŋu [grant] me.
 
 **Marek** 
 
-Mɔ̃ɖaŋudɔwɔla le Zcash Foundation. 
+Engineer le Zcash Foundation.  
 
-**Alfredo Garcia ƒe amegã** 
+**Alfredo Garcia** 
 
-Rust ƒe ɖoɖowo ŋuti mɔ̃ɖaŋudɔwɔla aɖe si le dɔ wɔm le Zebra ƒuƒoƒoa me le Zcash Foundation.
+Rust ƒe ɖoɖonu ƒe engineer si le dɔ wɔm ɖe Zebra team la me le Zcash Foundation.
 
-**Pili (@mpguerra)** ƒe lãmesẽnyawo gbɔ kpɔkpɔ 
+**Pili (@mpguerra)** 
 
-Dɔdzikpɔla le Zcash Foundation si si ƒe 20+ ƒe nuteƒekpɔkpɔ le, si me dɔwɔwɔ le Tor Dɔwɔɖoɖoa me hã le.
+Manager le Zcash Foundation, si ƒe dɔwɔwɔ ƒe numekpɔkpɔ wu ƒe 20, eye ewo dɔ ɖe Tor Project la ŋu hã.
 
-**Zksquirrel** ƒe lãgbalẽ 
+**Zksquirrel** 
 
-Zcash Arborist, nutoa me nuŋlɔɖiwɔla, kple amesi kpe asi ɖe ZecHub's hehenana ƒe ɖoɖowo ŋu.
+Zcash Arborist, haxɔsetɔ ƒe didienu [note] ŋlɔla, eye wòkpena ɖe ZecHub ƒe nusɔsrɔ̃ ƒe dɔwo ŋu.
 
-**Etɔ̃ewouww** 
+**Tripleyouww** 
 
-Nutoa me Kpekpeɖeŋunana ƒe Ðoɖowɔla le Zcash Foundation. 
+Haxɔsetɔ ƒe Kpekpeɖeŋu ƒe Coordinator le Zcash Foundation.  
 
-**Amehawo ƒe Vixɔxɔnyi ƒe Nubabla** 
+**Mass Adoption Alliance** 
 
-Afɔɖeɖe si doa ŋusẽ sɔhɛwo to hehenana le cryptocurrencies siwo woɖe ɖe vovo kple ganyawo ƒe adzamenyawo ŋu.
-
----
-
-Nɔnɔmetata siawo ɖenɛ fiana nuxlẽlawo be mɔ̃ɖaŋudɔwɔlawo, aɖaŋuwɔlawo, dɔwɔlawo, nufialawo, kple ɖoɖowɔlawo ƒe habɔbɔ vovovo siwo tso xexeame ƒe akpa vovovowoe léa be na Zcash.
-
+Dɔwɔwɔ aɖe si naa ɖeviwo ŋusẽ to ha nuɖo agni crypto ga kple ga ƒe ɣaɣla ƒe nusɔsrɔ̃ me.
 
 ---
 
-## 9. Ale Si Nàwɔ Akpɔ gome le eme
-
-Akpa mamlɛtɔ kpe nuxlẽlawo be woazu Zcash lãwo ƒe agbenɔnɔ ƒe ɖoɖoa ƒe akpa aɖe. Mɔnukpɔkpɔawo dometɔ aɖewoe nye:
-
-- Zcash Xexeame Katã ƒe Discord me nɔnɔ 
-- Gomekpɔkpɔ le nutoa me yɔyɔwo kple dɔwɔhawo me 
-- Kpekpeɖeŋunana le dɔwɔgbalẽ gɔmeɖeɖe siwo ava va me 
-- Do alɔ hehenana si woate ŋu azã faa 
-- Nusiwo le eme, kɔpi nudzɔdzɔwo, nutatawo, alo nyaŋuɖoɖowo wɔwɔ 
-- Zcash Community Grants Ŋuti Numekuku 
-
-Gbedasia me kɔ: amesiame ate ŋu akpɔ gome le eme, eye nutoa me tɔwo xɔa nudzɔla siwo tso teƒe vovovowo kple aɖaŋu vovovowo.
-
-[Zcash Xexeame Katã ƒe Discord](https://discord.gg/F6DCkCDK)
+Nyaɖeɖe siawo fia nuxlẽlawo be Zcash le haxɔsetɔ vovotowo si me engineerwo, aɖaŋunala, mɔ̃ ƒe ɖoɖoŋlawo, nufialawo, kple dɔkplɔlawo tso xexeme katã le la ƒe dzadzra me.
 
 ---
 
-# Mɔɖegbalẽ
+## 9. Ale Si Wòate Ŋu Akpɔ Teƒe Le Eme
 
-*Nye Zcash* xɔ mɔɖegbalẽ le **Creative Commons Attribution-ShareAlike 4.0 Dukɔwo Dome Mɔɖegbalẽ (CC BY-SA 4.0) te.**
+Akpa mamlɛtɔ la yɔ nuxlẽlawo be woava zu Zcash ƒe ɖoɖoa ƒe akpa. Mɔwoe nye:
 
-[Mɔɖegbalẽ](https://creativecommons.org/licenses/by-sa/4.0/)
+- Zcash Global Discord ƒe kpekpeɖeŋu  
+- Haxɔsetɔ ƒe kpekpewo kple dɔwɔwɔ hatsotsowo me ƒe hatoto  
+- Dɔwɔwɔ agbalẽ ƒe gɔmeɖeɖe yeyeawo me ƒe kpekpeɖeŋu  
+- Open-source nusɔsrɔ̃ ƒe kpekpeɖeŋu  
+- Emɔ ƒe wɔwɔ, code ƒe kpekpeɖeŋu, aɖaŋu ƒe wɔwɔ, alo nuɖoɖo  
+- Zcash Community Grants ƒe didi  
+
+Dɔmefia la le klalo: Ame sia ame ate ŋu akpɔ teƒe le eme, eye haxɔsetɔ la xɔa ame siwo tso teƒe vovotowo kple ŋusẽ ƒe nɔnɔ vovotowo me la dzi.
+
+[Zcash Global Discord](https://discord.gg/F6DCkCDK)
+
+---
+
+# Mɔɖeɖe
+
+*Nye Zcash Dɔwɔwɔ Agbalẽ Gbãtɔ* le **Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0)** ƒe mɔɖeɖe te.
+
+[Mɔɖeɖe](https://creativecommons.org/licenses/by-sa/4.0/)

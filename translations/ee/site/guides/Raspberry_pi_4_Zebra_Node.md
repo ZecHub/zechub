@@ -1,80 +1,80 @@
 <a href="https://github.com/henryquincy/zechub/edit/main/site/guides/Raspberry_pi_4_Zebra_Node.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Atria Axɔ"/>
 </a>
 
-# Raspberry Pi 4 Mɔfiame na Zebra Duƒuƒu
+# Raspberry Pi 4 Ƒe Mɔfiame Na Zebra Ƒe Dudu
 
 <img src="/content-images/image-2023-11-28-172907488-e7e9fd4ac5.webp" alt="raspberry pi" width="300" height="300"/>
 
-Zebra node kɔmpiuta dɔwɔɖoɖoa zazã le Raspberry Pi 4 dzi na be nàte ŋu akpɔ gome le Zcash network la me abe node si le eɖokui si, si sɔ kple nukpɔsusu ɖeka ene. Mɔfiame sia akplɔ wò to atrakpui siwo dzi nàto aɖo Zebra ɖe wò Raspberry Pi 4 dzi ahawɔe.
+Ne nàdzu Zebra ɣaɣla dzesi ŋɔŋlɔ [node] ƒe software le Raspberry Pi 4 dzi la, eana wò nàkpɔ gome le Zcash ƒe network me abe ɣaɣla dzesi ŋɔŋlɔ si le gbegbɔgblɔ ɖi [consensus] kple wo ene. Mɔfiame sia akplɔ wò to afɔwo me be nàɖo Zebra ɖe wò Raspberry Pi 4 dzi eye nàdzue.
 
-## Nusiwo hiã do ŋgɔ
+## Nusiwo Hiã
 
-1. Raspberry Pi 4 (wokafu 2GB RAM alo esi wu nenema).
+1. Raspberry Pi 4 (2GB RAM alo nu si sɔ wu wo wòanye nyuie).
 
-2. MicroSD kaɖi (wokafu 16GB alo esi wu nenema) si me woda Raspberry Pi OS (Raspbian) ɖe eme.
+2. MicroSD card (16GB alo nu si sɔ wu wo wòanye nyuie) si wotsɔ Raspberry Pi OS (Raspbian) de eme.
 
-3. Internet ƒe kadodo si li ke.
+3. Internet ƒe kadodo si le anyi.
 
-4. Keyboard, mouse, kple monitor (hena ɖoɖo gbãtɔ).
+4. Keyboard, mouse, kple monitor (na gɔmedzedze ƒe ɖoɖo).
 
-5. SSH asitsaha (wò ŋutɔe tiae, na adzɔge ʋĩ ƒe mɔɖeɖe).
+5. SSH client (ne èdi be nàge ɖe eŋu tso didime).
 
-## Eɖoɖo ɖe dɔa me
+## Dede Eme
 
-1. __Trɔ Asi Le Wò Dɔwɔɖoɖoa Ŋu__ .
-   Ʋu terminal alo SSH ɖe wò Raspberry Pi me eye nàkpɔ egbɔ be wò ɖoɖoa le yeye to ewɔwɔ me:
+1. __Trɔ Wò Ƒe Nɔnɔme Yiyi__
+   Ʋu terminal alo ge ɖe wò Raspberry Pi ŋu to SSH dzi eye nàkpɔ be wò ƒe nɔnɔme le nyuie to esiawo ƒe dudu me:
 
-   __sudo apt ƒe yeyewɔwɔ__ .
+   __sudo apt update__
 
-   __sudo apt ƒe ŋgɔyiyi__ .
+   __sudo apt upgrade__
 
-2. __De Dependencies__ .
-   Ahiã be nàde nusiwo dzi woanɔ te ɖo siwo hiã dometɔ aɖewo ɖe Zebra tutu kple ewɔwɔ me:
+2. __De Nusiwo Hiã Eme__
+   Ele be nàde nusiwo hiã na Zebra ƒe tutu kple dudu eme:
 
-   __sudo apt ɖo xɔtutu-vevietɔ cmake git clang libssl-dev pkg-ɖoɖo__
+   __sudo apt install build-essential cmake git clang libssl-dev pkg-config__
 
-3. __Clone Zebra Nudzraɖoƒea__ .
-   Ʋu terminal eye nàwɔ Zebra ƒe nudzraɖoƒea ƒe nɔnɔmetata ɖe wò Raspberry Pi ŋu:
+3. __Wɔ Zebra ƒe Repository ƒe Kɔpi__
+   Ʋu terminal eye nàwɔ Zebra ƒe repository ƒe kɔpi ɖe wò Raspberry Pi dzi:
 
-   __git ƒe nɔnɔmetata https://github.com/ZcashFoundation/zebra.git__
+   __git clone https://github.com/ZcashFoundation/zebra.git__
 
-   __cd sɔveda__ .
+   __cd zebra__
 
-4. __Tu Zebra__ .
-   Be nàtu Zebra la, zã sedede siwo gbɔna:
+4. __Tu Zebra__
+   Be nàtu Zebra la, zã sededewo:
 
-   __agba tutu --ɖe asi le__ .
+   __cargo build --release__
 
-   Dɔ sia ate ŋu axɔ ɣeyiɣi aɖe. Kpɔ egbɔ be wò Raspberry Pi fa nyuie, elabena nuƒoƒoƒu ate ŋu ana dzoxɔxɔ nado.
+   Ƒomekɔkɔ sia ate ŋu axɔ ɣeyiɣi aɖe. Kpɔ be wò Raspberry Pi kɔ le nyuie, elabena compilation ate ŋu awɔ dzodzo.
 
-5. __Ðoɖowɔwɔ__ .
-   Wɔ ɖoɖowɔɖi ƒe faɛl na Zebra. Àte ŋu azã ɖoɖowɔɖi si woɖo ɖi la abe gɔmedzedze ene:
+5. __Ɖoɖo__
+   Wɔ configuration file na Zebra. Àte ŋu azã default configuration abe gɔmedzeƒe ene:
 
-   __cp zcash.conf.kpɔɖeŋu zcash.conf__ .
+   __cp zcash.conf.example zcash.conf__
 
-   Trɔ asi le zcash.conf faɛl la ŋu be nàtrɔ asi le wò node ƒe ɖoɖowo ŋu. Àte ŋu agblɔ network la, ana tomenukuƒea nawɔ dɔ, aɖo hatiwo ƒe kadodowo, kple bubuwo.
+   Trɔ asi le zcash.conf file ŋu be nàwɔ wò ɣaɣla dzesi ŋɔŋlɔ ƒe ɖoɖowo ɖe wò ŋutɔ ƒe lododo nu. Àte ŋu aɖo network, na nukuku [mining] nadze, ɖo peer ƒe kadodowo, kple bubuwo.
 
-6. __Dze Zebra gɔme__ .
-   Fifia àteŋu adze Zebra gɔme kple wò ɖoɖowɔɖi tɔxɛ:
+6. __Dze Zebra Dzi__
+   Fifia àte ŋu adze Zebra dzi kple wò ɖoɖo si nèwɔ:
 
-   __./taɖodzinu/ɖe asi le/zebrad -c zcash.conf__ .
+   __./target/release/zebrad -c zcash.conf__
 
-   __git nyaŋuɖoɖo__ 
+   __git comment__ 
 
-   Sedede sia adze Zebra node gɔme, eye wòadze egɔme awɔ ɖeka kple Zcash blockchain.
+   Sedede sia adze Zebra ɣaɣla dzesi ŋɔŋlɔ dzi, eye wòadze sync wɔwɔ kple Zcash ƒe gaɖoɖowo ƒuƒoƒo ƒe ɖoɖonu [blockchain].
 
-7. __Ŋkuléle ɖe ame ŋu__ .
-   Àte ŋu alé ŋku ɖe wò Zebra node ƒe ŋgɔyiyi kple nɔnɔme ŋu ne èʋu web browser eye nèyi __ .http://127.0.0.1:8233/status__.
+7. __Kpɔe ɖa__
+   Àte ŋu akpɔ wò Zebra ɣaɣla dzesi ŋɔŋlɔ ƒe ŋgɔyiyi kple nɔnɔme ɖa to web browser ƒe tutu kple yiyiyi ɖe __http://127.0.0.1:8233/status__.
 
 <img src="/content-images/image-2023-11-28-173024853-99540511cf.webp" alt="zebra logo" width="200" height="200"/>
 
-## Kuxiwo gbɔ kpɔkpɔ
+## Nusiwo Ɖe Mɔ
 
-Ne èdo go kuxi aɖewo le Zebra tutu alo edzikpɔkpɔ me la, ke lé ŋku ɖe... [Zebra ƒe nuŋlɔɖiwo](https://zebra.zfnd.org/user/troubleshooting.html) hena kuxiwo gbɔ kpɔkpɔ ŋuti aɖaŋuɖoɖowo kple nyatakaka bubuwo.
+Ne nàdo go aɖe le Zebra ƒe tutu alo dudu me la, kpɔ [Zebra ƒe documentation](https://zebra.zfnd.org/user/troubleshooting.html) be nàkpɔ mɔfiamewo na fukpekpewo ɖɔɖɔ kple nyatakakawo bubu.
 
-Kpɔ egbɔ be yena yeƒe Raspberry Pi fa, elabena node ƒe duƒuƒu ate ŋu ana dzoxɔxɔ nado. Àdi be yeazã fafamɔ̃, abe fesre alo dzoxɔxɔnamɔ̃ ene.
+Kpɔ be wò Raspberry Pi le kɔkɔe, elabena ɣaɣla dzesi ŋɔŋlɔ ƒe dudu ate ŋu awɔ dzodzo. Àte ŋu adi be nàzã nu si wɔa kɔkɔe, abe fan alo heat sink ene.
 
-## Nyanuwuwuw
+## Nuŋɔŋlɔ
 
-Ne èwɔ ɖe mɔfiame sia dzi la, ele be nàɖo Zebra dzidzedzetɔe ahawɔe le wò Raspberry Pi 4. Fifia èle asi kpem ɖe Zcash network ŋu abe node si le eɖokui si ene, si le kpekpem ɖe Zcash ƒe asitsatsa ƒe adzamenyawo ta.
+Ne nèdze mɔfiame sia yome la, ele be nèɖo Zebra ɖe wò Raspberry Pi 4 dzi eye nèdze eŋu le dzidzedze me. Fifia nèle kpekpeɖeŋu na Zcash ƒe network abe ɣaɣla dzesi ŋɔŋlɔ si le eɖokui ŋutɔ ene, le ɣaɣla [privacy] si le Zcash ƒe gaɖoɖowo [transactions] me ƒe dedie wɔm.

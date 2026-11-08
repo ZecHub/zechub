@@ -1,206 +1,206 @@
-# The Shielded Protocol, Nuwuwu vaseɖe Nuwuwu
-##### Numekuku Gbãtɔ tso [Annkkitaaa](https://github.com/Annkkitaaa)
+# Ɣaɣla [Shielded] Protocol, Ƒe Godoo Katã
+##### Nugbegbe ƒe Nudzodzro tso [Annkkitaaa](https://github.com/Annkkitaaa) gbɔ
 
-![alt nuŋɔŋlɔ](/content-images/image-27-4094293ec0.webp)
+![alt text](/content-images/image-27-4094293ec0.webp)
 
-### Kakɛ ɖesiaɖe ƒoƒo ƒu ɖe Zcash ƒe asitsatsa ɖeka si nye ame ŋutɔ tɔ me
+### Nu siawo katã ƒe ƒoƒo ɖe ɣaɣla Zcash gaɖoɖo [transaction] ɖeka me
 
-> **Series:** *Zcash tso Gɔmeɖose Gbãtɔwo me* . **Nyati 6 lia . Ðoɖowɔɖi si Wokpɔ Ðe Eŋu** (mlɔetɔ) .
-> **Nyaselawo:** ame yeye siwo xlẽ Nyati 0 vaseɖe 5. Afi siae nusianu do ƒome le.
-> **Nusi nàgblẽ ɖi:** susu ƒe kpɔɖeŋu blibo, si sɔ si nye Zcash ƒe asitsatsa si wokpɔ ta na, kple susu ɖesiaɖe tso nusiwo kplɔ wo nɔewo ɖo me le eƒe teƒe nyuitɔ, eye wotu loop ɖesiaɖe tso Se 0 me.
+> **Ƒometɔƒo:** *Zcash tso Gɔmedzedze Ƒe Gɔmeɖosewo Me* . **Agbalẽ 6 . Ɣaɣla Protocol** (nuwuwu)
+> **Ame siwo wòŋlɔ na:** Ame yeye siwo xlẽ Agbalẽ 0 va se 5. Afisiae nu katã doa ƒo.
+> **Nu si nàva kplɔ ayi:** Nunya ƒe nɔnɔme blibo, si le ete ŋu le ɣaɣla Zcash gaɖoɖo ŋu, eye ƒometɔƒo la me ƒe nuxexlẽwo katã le woƒe teƒe nyuitɔ me, eye Agbalẽ 0 me ƒe ɣletiviwo katã woƒo.
 
-Míedze egɔme, le [Nyati 0](article-0-shielded-transaction.md), si me nya aɖe si tsi tre ɖe wo nɔewo ŋu kple ŋutinya aɖe si ku ɖe agbalẽkotoku siwo wotre nu na le dutoƒoɖaka aɖe dzi ŋu. Emegbe míezã nyati atɔ̃ tsɔ tu akpaawo: agble siwo seɖoƒe li na, elliptic curves, commitments, Merkle-tiwo, kple zero-knowledge proofs. Fifia míeƒoa wo nu ƒu hekpɔa ame ŋutɔ ƒe fexexe ƒe dɔ ŋutɔŋutɔ, tsoa gɔmedzedze vaseɖe nuwuwu.
-
----
-
-## 1. Nu ka tae wòle be nàtsɔ ɖe le eme?
-
-Le ame ɖekaɖekawo gome la, akpa ɖesiaɖe si nèsrɔ̃ la nye aɖaŋudzedze. Gake Zcash ƒe *akunyawɔwɔ* le alesi wowɔa ɖeka kple wo nɔewo me. Nullifier ɖeɖe menaa ame ŋutɔ ƒe nyawo o. Ðokuitsɔtsɔna ɖeɖe mexea mɔ na aʋatsokaka o. Kpeɖodzi ɖeɖe dzaa meɖo kpe viɖe aɖeke dzi o. Enye **assembly** si trɔa akpa atɔ̃ wozua ga si nye ame ŋutɔ tɔ eye kakaɖedzi le eŋu le ɣeyiɣi ɖeka me.
-
-Nyati siae nye takpekpea. Kaka wòawu enu la, nyagbe *"network la ɖo kpe asitsatsa aɖe si mate ŋu akpɔ o dzi"* mase le eɖokui me abe nusi to vovo ene o ke boŋ abe akpa siwo gɔme nèse xoxo ƒe emetsonu si dze ƒã ene.
+Míedze egɔme le [Agbalẽ 0](article-0-shielded-transaction.md) me kple kpɔɖeŋu dze siwo me mɔme le, eye míeƒo nu tso agbalẽwo siwo wòtu ƒo ɖe kplɔŋlɔ dzikpɔa dzi. Emegbe míetsɔ agbalẽ atɔ̃ tu akpaawo: field siwo wòɖe kpɔ, elliptic curves, adzɔgbeɖeɖe [commitments], Merkle tiwo, kple zero-knowledge ɖaseɖigbalɛwo [proofs]. Fifia míatsɔ wo ado ƒo eye míakpɔ ale si fexexe ɣaɣla aɖe wɔe tso gɔmedzedze va se nuwuwu.
 
 ---
 
-## 2. Nusi wotsɔ ƒu gbe, si wogbugbɔ ƒo ƒu
+## 1. Nu ka tae wòle be nàtsɔe ɖe asi?
 
-Nusiwo katã kplɔ wo nɔewo ɖo le axa ɖeka dzi, siwo wowɔ tso Nyati 0 ƒe ŋutinya dzi va ɖo mɔ̃ ŋutɔŋutɔ dzi lae nye esi.
+Ne wòkpɔ ɖeka ɖeka la, akpa siwo katã nèsrɔ la wɔnɔŋlɔ le. Ke Zcash ƒe *nukunɔamesi* le ale si woƒoa ƒo kple wo nɔewo. Gaɣaɣla ɖeɖe dzesi [nullifier] ɖeka ko mena ɣaɣla o. Adzɔgbeɖeɖe ɖeka ko metea mɔ aɖe tso aɖaŋudzedze ŋu o. Ɖaseɖigbalɛ ɖeka ko meɖea nu si anyi ŋu o. **Ƒoƒo** lae trɔ akpa atɔ̃ la wo zu ga si le ɣaɣla me eye wòle dzɔdzɔe hã.
 
-| Nyati 0 ŋutinya ƒe akpa aɖe | Akpa ŋutɔŋutɔ | Wotue tso |
+Agbalẽ sia nye ƒoƒo la. Ne nàwu la, nyagblɔɖi sia *"mɔ̃ la doa gaɖoɖo aɖe si wòmate ŋu akpɔ ƒe nyateƒe ɖe asi"* ava natsɔe abe kpɔɖeŋu dze si me mɔme le o, ke boŋ abe nu si dze ƒe akpa siwo nèse gɔme xoxo me ene.
+
+---
+
+## 2. Ame siwo le nya la me, woƒo ƒo ake
+
+Esi nye ƒometɔƒo blibo la le axa ɖeka dzi, wòtsɔ Agbalẽ 0 ƒe nya la ƒe akpaawo sɔ kple mɔ̃ la ƒe wɔwɔnuwo.
+
+| Agbalẽ 0 ƒe nya ƒe akpa | Wɔwɔnu vevi | Woetu tso |
 |---|---|---|
-| Ga si le agbalẽkotoku aɖe me | **De dzesii** (asixɔxɔ, amesi xɔe, nusi dzɔ le vome) | woŋlɔe abe agblemenukuwo ene (Art 1) |
-| Agbalẽkotoku si me mekɔ o si wotre nu na | **De dzesi ɖokuitsɔtsɔna** | Pedersen / Sinsemilla ƒe ɖokuitsɔtsɔna (Art 2, 3) |
-| Dutoƒohabɔbɔa | **De dzesi ɖokuitsɔtsɔna ƒe ati** (seke = eƒe ke) | Merkle-ti si dzina ɖe edzi (Art 4) |
-| Dzesi si nye void la | **Nullifier** | a ZK-xɔlɔ̃wɔwɔ hash of note + adzame safui (Art 2, 3) |
-| "Ga si le eme sɔ kple ga si dona" | **Asixɔxɔ ƒe ŋugbedodowo + ga si susɔ ƒe dodokpɔ** | homomorphic Pedersen ƒe ŋugbedodowo (Art 2, 3) |
-| Akunyawɔwɔ si le xɔmetsovɔa megbe | **Zero-sidzedze ƒe kpeɖodzi** | zk-SNARK le akɔntabubu ƒe nutome sue aɖe dzi (Art 5) |
-| "Wò koe ateŋu axlẽ wò agbalẽkotoku" | **Nyatakaka si wotsɔ nya ɣaɣlawo ŋlɔ + nukpɔkpɔ ƒe safuiwo** | encryption + key hierarchy (nyati sia) |
+| Ga si le agbalẽ me | **Didienu [Note]** (asixɔxɔ, ame si wòle be wòaxɔe, random nudzɔdzɔ) | woŋlɔe abe field ƒe elements ene (Agb 1) |
+| Agbalẽ si wòtu eye wòle kpeŋkpeŋ | **Didienu ƒe adzɔgbeɖeɖe [Note commitment]** | Pedersen / Sinsemilla adzɔgbeɖeɖe (Agb 2, 3) |
+| Kplɔŋlɔ dzikpɔa | **Didienu ƒe adzɔgbeɖeɖe ti [Note commitment tree]** (anchor = etɔ) | Merkle ti si wòle gɔmeɖoɖo me (Agb 4) |
+| Dzodzro token | **Gaɣaɣla ɖeɖe dzesi [Nullifier]** | ZK-dze hash si wòle didienu kple klu si me ame aɖe ko nya me (Agb 2, 3) |
+| "Ga si ge ɖe eme sɔ kple ga si doa tso eme" | **Asixɔxɔ ƒe adzɔgbeɖeɖewo [Value commitments] + balance ƒe kpɔkpɔ** | Pedersen adzɔgbeɖeɖewo siwo le homomorphic (Agb 2, 3) |
+| Nukunɔamesi si le avɔ la megbe | **Zero-knowledge ɖaseɖigbalɛ [Zero-knowledge proof]** | zk-SNARK le arithmetic circuit aɖe dzi (Agb 5) |
+| "Wò ko ate ŋu axlẽ wò agbalẽ" | **Didienu si wòɣlaŋlɔ [Encrypted note] + nukpɔsafuiwo [viewing keys]** | ɣaɣlaŋlɔŋlɔ [encryption] + kluwo ƒe ƒomeɖoɖo (agbalẽ sia) |
 
 ---
 
-## 3. Afisi safuiwo tsona
+## 3. Afisi kluwo tso
 
-Nusianu si zãla ate ŋu awɔ la sina tso nya ɣaɣla ɖeka me, si nye **gazazã ƒe safui**, to mɔ ɖeka ƒe ɖoɖo si wowɔna me (aŋutsrɔe ɖesiaɖe nye nusi woɖe tso eme si womate ŋu atrɔ o, le mɔ̃ siwo le Se 2 kple 3 me ƒe mɔɖeɖe te):
+Nu si katã ame aɖe ate ŋu awɔ la tsoa klu ɣaɣla ɖeka, si nye **gazazãsafui [spending key]**, to mɔ ɖeka ƒe ƒomeɖoɖo me (ama ɖeka ɖeka fia dzedze si mate ŋu atrɔ megbe o, le Articles 2 kple 3 me ƒe trapdoorwo ƒe amenuveve me):
 
-![alt nuŋɔŋlɔ](/content-images/image-32-f443f9bb72.webp)
+![alt text](/content-images/image-32-f443f9bb72.webp)
 
-Nu eve siwo wòle be míade dzesii, wo ame evea siaa nye nyati siwo do ŋgɔ me tsonuwo:
+Nu eve si dze be nàkpɔe, elabena wo katã tsoa agbalẽ siwo do ŋgɔ me:
 
-- Mamã la na be nàte ŋu ama **nukpɔkpɔ ƒe safui** (míagblɔ be, na agbalẽdzikpɔla) si ɖea wò asitsatsa fiana **evɔ màna ŋusẽ wò be nàzã ga o. Ame ŋutɔ ƒe nyawo tsɔtsɔ aɣla nye tiatia, ke menye nusianu alo naneke o.
-- Derivation ɖesiaɖe nye **mɔ ɖeka**: nukpɔkpɔ ƒe safui léle meɖea mɔ gbeɖe be ame aɖeke naxɔ gazazã ƒe safuia gbeɖe o, elliptic-curve trapdoor si tututu tso Se 2 lia me le eƒe dɔ wɔm.
-
----
-
-## 4. Nuŋlɔɖi aɖe zazã: nya eneawo
-
-Be nàzã nuŋlɔɖi aɖe le adzame la, ele be nàna network la naxɔ nu ene dzi zi ɖeka **evɔ màɖe nuŋlɔɖia, eƒe asixɔxɔ, eƒe nɔƒe, alo wò amenyenye afia o.** Wotsɔ akpa aɖe si nènya xoxo la akpɔ nya ɖesiaɖe gbɔ.
-
-![alt nuŋɔŋlɔ](/content-images/image-31-86309af194.webp)
-
-Kpeɖodzia ɖea nyateƒenya siwo le ete la dometɔ aɖeke fiana **ɖeke** o (de dzesi kae, amesi ƒe safui, asixɔxɔ ka). Ðeko wòɖee fia be *nya eneawo katã sɔ.* Emae nye Zcash si wotsɔ akpoxɔnu wɔe ƒe ayemɔ bliboa, si wogblɔ le nɔnɔmetata ɖeka me.
+- Mamã la na wòte ŋu nàtsɔ **nukpɔsafui [viewing key]** aɖe na ame aɖe (abe auditor ene), si fia wò gaɖoɖowo **ke mena mɔ be wòatsɔe afexɛ o.** Ɣaɣla nye nu si woate ŋu atia, menye nu sia katã alo melẽ o.
+- Dzedze ɖeka ɖeka nye **mɔ ɖeka:** nukpɔsafui aɖe si ame le asi me mate ŋu ana ame ma ate ŋu axɔ gazazãsafui la gbɔ o; enye elliptic-curve trapdoor tso Agbalẽ 2 me, si wɔa eƒe dɔ.
 
 ---
 
-## 5. Asixɔxɔ-dadasɔ ƒe ayemɔ (fetu si míedzra ɖo) .
+## 4. Didienu aɖe fexexe: nyateƒe ene
 
-Le megbe le Se 2 kple 3 me la míede dzesii be Pedersen ƒe ŋugbedodowo **tsɔe kpe ɖe eŋu**: ɖokuitsɔtsɔna be `v_1` tsɔ kpe ɖe ɖokuitsɔtsɔna be `v_2` nye ɖokuitsɔtsɔna be `v_1 + v_2`. Afi siae ema ɖea vi le.
+Ne wòdi be nàfexɛ didienu aɖe le ɣaɣla me la, ele be nàde dzesi na mɔ̃ la be nyateƒe ene le eme ɖe ɣeyiɣi ɖeka me **eye mèfia didienu la, eƒe asixɔxɔ, eƒe nɔƒe, alo wòame nyenye o.** Nyateƒe ɖeka ɖeka xɔa dzadzraɖoɖo aɖe si nènya xoxo.
 
-Nuŋlɔɖi ɖesiaɖe si wotsɔ de eme kple esi woɖe tso eme la tsɔa **asixɔxɔ ƒe ɖokuitsɔtsɔna**: Pedersen ƒe ɖokuitsɔtsɔna `v.G + r.H` si ɣlaa eƒe agbɔsɔsɔ `v`. Esi wònye be esiawo kpe ɖe eŋu ta la, network la ate ŋu abu akɔnta be:
+![alt text](/content-images/image-31-86309af194.webp)
+
+Ɖaseɖigbalɛ la mefia nyateƒe siwo le ete **kuraa o** (didienu kae, ame ka ƒe klu, asixɔxɔ kae). Efiya ko be *nyateƒe ene la katã le eme.* Esiae nye ɣaɣla Zcash ƒe nukunu blibo, abe woɖee fia le nɔnɔmetata ɖeka me ene.
+
+---
+
+## 5. Asixɔxɔ-balance ƒe mɔ (nu vevi si míede ɖe megbe)
+
+Le Articles 2 kple 3 me la, míegblɔ be Pedersen adzɔgbeɖeɖewo **doa ƒo**: adzɔgbeɖeɖe si le `v_1` ŋu kple adzɔgbeɖeɖe si le `v_2` ŋu nye adzɔgbeɖeɖe le `v_1 + v_2` ŋu. Afisiae mɔ na wòkpɔ eƒe vi.
+
+Didienu si ge ɖe eme kple si doa tso eme ɖeka ɖeka tsɔa **asixɔxɔ ƒe adzɔgbeɖeɖe**: Pedersen adzɔgbeɖeɖe `v.G + r.H` si ɣla eƒe asixɔxɔ `v`. Esi woate ŋu ado wo ƒo la, mɔ̃ la ate ŋu awɔ:
 
 ```
 (sum of input value commitments) − (sum of output value commitments)
 ```
 
-Ne asitsatsa la da sɔ (womewɔ ga aɖeke alo tsrɔ̃e o), la,... `v` akpawo tea fli ɖe eme pɛpɛpɛ, eye wogblẽa ɖokuitsɔtsɔna **zero value** ko ɖi, si wogbã ŋku na le vome si susɔ ta. Ame si ɖoe ɖa la ɖo kpe edzi be yewonya be nusi susɔ le vome to asidede agbalẽ te sue aɖe si woyɔna be **asidede agbalẽ te wɔwɔ me.** Ne asixɔxɔawo da sɔ ŋutɔŋutɔ ko hafi woate ŋu awɔ asidede agbalẽ te si sɔ, **ke hã womeɖe ga home ɖeka pɛ hã ɖe go o.**
+Ne gaɖoɖo la le balance me (wo mewɔ ga yeye alo womegbã ga aɖe o) la, `v` ƒe akpaawo ɖoa ɖe eɖokui me bliboe, eye adzɔgbeɖeɖe koe nɔ anyi ɖe **asixɔxɔ mema** ŋu, si wòɣla kple random nudzɔdzɔ si nɔ anyi. Ame si do ga ɖe la dea dzesi be wònya random nudzɔdzɔ si nɔ anyi ma to asidede agbalẽ te [signature] sue aɖe si woyɔna be **binding signature**. Binding signature si le nyateƒe me ate ŋu anɔ anyi ne asixɔxɔwo sɔ ko, **ke womefia asixɔxɔ aɖeke o.**
 
-> Esia nye kpɔɖeŋu si le dzadzɛ wu le *nukata* míehiã na homomorphic, curve-based commitments ƒe ƒuƒoƒo bliboa me. Wowɔa "ga si le eme sɔ kple ga do go" ƒe sea dzi to **kplo siwo wotre nu ɖo tsɔtsɔ kpe ɖe wo nɔewo ŋu** kple ŋkuléle ɖe emetsonu ƒe nutrenuwo ŋu be woaɖo zero.
+> Esiae nye kpɔɖeŋu kɔkɔe wu le ƒometɔƒo sia katã me tso *nu ka tae* míexɔ hia homomorphic, curve-based adzɔgbeɖeɖewo. Wosena se "ga si ge ɖe eme sɔ kple ga si doa tso eme" la to **agbalẽ siwo wòtu ƒo ƒo** kple kpɔkpɔ be nu si doa tso eme la tu ɖe mema.
 
 ---
 
-## 6. Asitsatsa blibo aɖe, si wokpɔna tso nuwuwu vaseɖe nuwuwu
+## 6. Gaɖoɖo blibo aɖe, wòkpɔe tso gɔmedzedze va se nuwuwu
 
-Mina míaƒo Alice si le fe xem na Bob nu ƒu. Míazã Sapling ƒe "spend side / output side" ƒe ɖoɖo si me kɔ abe nufiafia ƒe kpɔɖeŋu ene.
+Míatsɔ Alice ƒe fexexe na Bob ado ƒo. Míatsɔ Sapling ƒe "fexexe ƒe akpa / output ƒe akpa" nɔnɔme kɔkɔe la awɔa abe nufiaƒe ƒe model ene.
 
-**Adzɔnu si wokpɔ ta na ƒoa numeɖeɖe ƒomevi eve nu ƒu:**
+**Ɣaɣla gaɖoɖo aɖe ƒoa nyati ƒomevi eve:**
 
-| Zã numeɖeɖe (zãa nuŋlɔɖi aɖe) | Nusiwo do tso eme ƒe numeɖeɖe (wɔa nuŋlɔɖi) |
+| Fexexe ƒe nyati (exɔa didienu) | Output ƒe nyati (wɔa didienu yeye) |
 |---|---|
-| asixɔxɔ ƒe ɖokuitsɔtsɔna si wotsɔ de eme | asixɔxɔ ƒe ɖokuitsɔtsɔna ƒe emetsonu |
-| **seke** si wòɖo kpe edzi ɖe (ati aɖe ƒe ke) | yeyea **note commitment** (aŋgba yeye aɖe) |
-| **nullifier** si nye nuŋlɔɖi si wozã | **ɣeyiɣi kpui aɖe ƒe safui** na nya ɣaɣla |
-| dutoƒo safui si wogbugbɔ ɖo ɖe ɖoɖo nu + gazazã-mɔɖeɖe ƒe asidede agbalẽ te | the **encrypted note** (nya ɣaɣla na amesi xɔe) |
-| **zk-SNARK** si ɖo kpe nya eneawo dzi | a **zk-SNARK** si ɖo kpe edzi be emetsonua nye esi wowɔ nyuie |
+| asixɔxɔ ƒe adzɔgbeɖeɖe le input la ŋu | asixɔxɔ ƒe adzɔgbeɖeɖe le output la ŋu |
+| **anchor** si wòdea ɖaseɖigbalɛ ɖe eŋu (ti ƒe tɔ) | **didienu ƒe adzɔgbeɖeɖe** yeye (aƒe yeye) |
+| didienu si wòfexɛ ƒe **gaɣaɣla ɖeɖe dzesi** | **klũ le ɣeyiɣi kpui me** na ɣaɣlaŋlɔŋlɔ |
+| dukɔme klu si wòtrɔ random kple fexexe ƒe mɔɖeɖe asidede agbalẽ te | **didienu si wòɣlaŋlɔ** (ciphertext na ame si wòaxɔe) |
+| **zk-SNARK** si dea ɖaseɖigbalɛ ɖe nyateƒe ene la ŋu | **zk-SNARK** si dea ɖaseɖigbalɛ be output la wɔa dɔ nyuie |
 
-Gakpe ɖe **asidede asi si blaa ame** ɖeka ŋu le babla bliboa dzi, si awɔe be asixɔxɔ ƒe dadasɔ (Akpa 5).
+Eye **binding signature** ɖeka le bundle la katã ŋu, si sena asixɔxɔ-balance ƒe se (Akpa 5).
 
-![alt nuŋɔŋlɔ](/content-images/image-30-98511eb2d0.webp)
+![alt text](/content-images/image-30-98511eb2d0.webp)
 
-Trace the privacy: network la lé ŋku ɖe anchor la ŋu, kpɔe be nullifier la nye yeye, ɖo kpe kpeɖodzia dzi, eye wòɖo kpe edzi be ga si susɔ. Exɔ fexexe si sɔ **esi wòsrɔ̃ ga home aɖeke, adrɛs aɖeke, eye menye gagbalẽ si wozã o.** Le ɣeyiɣi sia me la, nuŋlɔɖi si wozã ƒe **nullifier** (eƒe ku) kple Bob ƒe **tsɔtsɔtsɔna** yeyea** (eƒe nuŋlɔɖia dzidzi) bɔbɔ nɔ dutoƒoxɔ vovovo eve me eye kadodo aɖeke si dzena le wo dome o, si nye kadodo si wotso tso Se 0 lia me.
+Kpɔ ɣaɣla la: mɔ̃ la kpɔ anchor la, wòkpɔ be gaɣaɣla ɖeɖe dzesi la menye esime wozãe xoxo o, wòkpɔ ɖaseɖigbalɛ la, eye wòkpɔ balance la. Wòxɔ fexexe dzɔdzɔ aɖe **eye wòmesrɔ asixɔxɔ aɖeke, gaɖoƒe ƒe dzesi aɖeke, eye wòmenya didienu kae wòfexɛ o.** Le ɣeyiɣi ma ke me la, didienu si wòfexɛ ƒe **gaɣaɣla ɖeɖe dzesi** (eƒe ku) kple Bob ƒe **adzɔgbeɖeɖe** yeye (eƒe didienu ƒe dzidzi) le dukɔme nɔnɔme ƒomevi eve me, eye mɔ ka aɖeke menye wo dome o; esiae nye kadodo si wotso le Agbalẽ 0 me.
 
 ---
 
-## 7. Nutsotso ɖesiaɖe tso Se 0 lia me
+## 7. Agbalẽ 0 ƒe ɣletiviwo katã ƒoƒo
 
-Nyati 0 lia ɖoe koŋ ʋu nyabiasewo nu. Wo katã nye esi, wotu wo.
+Agbalẽ 0 dzra biabiawo ɖe ŋgɔ le intentional. Afisia wo katã le, woƒo.
 
-| Loop ʋu le Nyati 0 | Wotue to |
+| Ɣleti si wòke ɖe ŋgɔ le Agbalẽ 0 me | Woƒoe kple |
 |---|---|
-| Aleke woate ŋu awɔ agbalẽkotoku si wotu nu ɖo gake womate ŋu aŋlɔe o? | Adzɔgbeɖeɖewo: bebeƒe tso randomness, babla tso ƒoƒo ƒe tsitretsitsi / the curve trapdoor (Art 3) |
-| Afikae safuiwo kple nuɖaɖa siwo wowɔna le adzame la tso? | Field akɔntabubu kple elliptic-curve scalar dzidziɖedzi (Art 1, 2) |
-| Nuka tututue nye "board" la? | Merkle-ti si dzina ɖe edzi si me wodea dzesi adzɔgbeɖeɖewo; eƒe ke enye seke (Art 4) |
-| Nukatae womate ŋu atsɔ dzesi si nye void la asɔ kple eƒe agbalẽkotokua o? | Nullifier nye keyed hash si wodzra ɖo ɖe hatsotso si to vovo tso commitments gbɔ (Art 2, 3, 4) |
-| Aleke nàwɔ aɖo kpe nyateƒetoto dzi esime mèɖea naneke ɖe go o? | zk-SNARK si le akɔntabubu ƒe nutome si ŋlɔa nya eneawo katã dzi (Art 5) |
-| Aleke amesi xɔe se be woxe fe na yewoe? | Wotsɔa nya ɣaɣlawo dea nuŋlɔɖia me ɖe woƒe adrɛs dzi; wowɔa dodokpɔ-ɖea nu me kple nukpɔkpɔ ƒe safui (nyati sia) |
-| Aleke wowɔa "ga si gena ɖe eme = ga do go" dzi le adzame? | Homomorphic asixɔxɔ ƒe ŋugbedodowo + asidede agbalẽ te si blaa ame (Sec 5) |
+| Aleke agbalẽ si wòtu ke woate ŋu aɖo ŋu wòmefia nusi le eme, eye mele aɖaŋudze o? | Adzɔgbeɖeɖewo: ɣaɣla tsoa random nudzɔdzɔ me, kpekpeɖeŋu tsoa collision resistance / curve trapdoor me (Agb 3) |
+| Afikae kluwo kple wɔwɔ ƒe nya ɣaɣlawo tsoa? | Field ƒe calculus kple elliptic-curve scalar multiplication (Agb 1, 2) |
+| Nu kae nye "kplɔŋlɔ dzikpɔa" tututu? | Didienu ƒe adzɔgbeɖeɖewo ƒe Merkle ti si le gɔmeɖoɖo me; etɔ nye anchor (Agb 4) |
+| Nu ka tae wo mate ŋu aka dzodzro token la ɖe eƒe agbalẽ ŋu o? | Gaɣaɣla ɖeɖe dzesi la nye keyed hash si le setsiaa aɖe me vovo na adzɔgbeɖeɖewo (Agb 2, 3, 4) |
+| Aleke wòate ŋu aɖe dzɔdzɔme ƒe ɖaseɖigbalɛ eye mèfia naneke o? | zk-SNARK le arithmetic circuit aɖe dzi si me nyateƒe ene la katã le (Agb 5) |
+| Aleke ame si wòaxɔa nu nya be wòxɔ fexexe? | Woɣlaŋlɔ didienu la na woƒe gaɖoƒe ƒe dzesi; wotrial-decrypt e kple nukpɔsafui (agbalẽ sia) |
+| Aleke wosena se "ga si ge ɖe eme = ga si doa tso eme" le ɣaɣla me? | Homomorphic asixɔxɔ ƒe adzɔgbeɖeɖewo + binding signature (Akpa 5) |
 
-Nya si to vovo tso axa gbãtɔ dzi, *ɖo kpe nusi màte ŋu akpɔ o dzi*, la nu yi keŋkeŋ azɔ. Netwɔƒea ɖoa kpe **nya siwo wogblɔ tso nyatakaka ɣaɣlawo ŋu** dzi, ke menye nyatakakaawo ŋutɔ gbeɖe o.
+Kpɔɖeŋu dze si me mɔme le tso axa gbãtɔ dzi, *kpɔ nyateƒe ɖe nu si mèkpɔ o ŋu*, fifia bu ɖe anyi bliboe. Mɔ̃ la dea ɖaseɖigbalɛ ɖe **nyateƒe siwo le data ɣla la ŋu**, ke menye data la ŋutɔ ŋu o.
 
 ---
 
-## 8. Sapling vs Orchard, le gbɔgbɔ ɖeka me
+## 8. Sapling kple Orchard, le gbɔgbɔ ɖeka me
 
-We taught with Sapling's structure because its split is clearest. The current design, **Orchard**, refines rather than replaces these ideas:
+Míefia kple Sapling ƒe nɔnɔme elabena eƒe mamã la dze kɔkɔe wu. Nɔnɔme si le fifia, **Orchard**, wɔa nyuie ɖe nyati siawo ŋu ke menye be wòtrɔ wo ɖe teƒe bubu o:
 
 | | **Sapling** | **Orchard** |
 |---|---|---|
-| Asitsatsa ƒe dɔwɔƒe | ɖe **Zã** kple **Nuwɔwɔ** ƒe numeɖeɖewo ɖa | ɖekawɔwɔ **Nuwɔnawo** (ɖesiaɖe zãa ɖeka + emetsonu ɖeka) |
-| Kpeɖodzi ƒe ɖoɖo | **Groth16** (ɖoɖo si dzi woka ɖo) | **Halo 2** (ɖoɖo si dzi woka ɖo aɖeke meli o) |
-| Curves | BLS12-381 + Jubjub | Pallas / Vesta (Pasta) ƒe lãgbalẽ |
-| Ðokuitsɔtsɔna hash | Pedersen ƒe agbalẽ | Sinsemilla ƒe ƒuƒoƒo |
+| Gaɖoɖo ƒe unit | **Spend** kple **Output** nyati siwo le vovo | **Actions** siwo wòƒo ɖeka (ɖeka ɖeka wɔa fexexe ɖeka + output ɖeka) |
+| Ɖaseɖigbalɛ ƒe nɔnɔme | **Groth16** (mɔ̃ ƒe ɖoɖo xexlẽnuwo [trusted setup]) | **Halo 2** (mɔ̃ ƒe ɖoɖo xexlẽnuwo mele o) |
+| Curves | BLS12-381 + Jubjub | Pallas / Vesta (Pasta) |
+| Adzɔgbeɖeɖe ƒe hash | Pedersen | Sinsemilla |
 
-Nukpɔsusu ɖesiaɖe si le nyati sia me la yi edzi tẽ; Orchard koŋ ƒoa gazazã kple nusiwo wowɔ nu ƒu ɖekae eye woɖɔlia wo nɔewo le kpeɖodziɖoɖo si me kɔnu aɖeke mele o me. Sɔti atɔ̃awo metrɔ o.
-
----
-
-## 9. Nya aɖe si wogblɔna be yeaɖe asi le nyaa ŋu anukwaretɔe
-
-Esiae nye nɔnɔmetata si de blibo wu le nusiwo kplɔ wo nɔewo ɖo me, gake egakpɔtɔ nye kpɔɖeŋu. Míeƒo nuŋlɔɖi aɖe ƒe agbledeƒe ƒe nuŋɔŋlɔ siwo sɔ pɛpɛpɛ, safuiwo ƒe dzɔtsoƒe ƒe mɔfiame siwo sɔ pɛpɛpɛ, gazazã ƒe safuiwo ƒe gbugbɔgawɔ le vome, adrɛs vovovowo, nuŋlɔɖi ƒe agblewo, fexexe ƒe dɔwɔwɔ, vovototo si le asixɔxɔ ƒe ŋugbedodowo kple nuŋlɔɖi ƒe ŋugbedodowo dome tsitotsito bliboe, kple akpa si tututu asidede agbalẽ te ɖesiaɖe wɔna. Míetsɔ sisi ɖeka si le se nu hã ɖo ŋkume; asitsatsa ŋutɔŋutɔwo ate ŋu atsɔ gazazã kple nusiwo dona tso eme geɖe zi ɖeka eye woate ŋu atsaka akpa siwo me kɔ kple esiwo ŋu wokpɔ ta na. Dzɔtsoƒe si ŋu ŋusẽ le enye Zcash Protocol Specification. Nusi nèlé ɖe asi fifiae nye nɔnɔme nyuitɔ; nusi woɖo ɖi la yɔa dzidzenu ɖesiaɖe me.
+Nuxexlẽ sia me ƒe nyati ɖeka ɖeka yia edzi tẽe; Orchard ƒoa fexexe kple output ƒe akpaawo ɖeka, eye wòtrɔ ɖaseɖigbalɛ ƒe nɔnɔme la kple esi me ceremony mele o. Ti atɔ̃ la metrɔ o.
 
 ---
 
-## 10. Kpuie ko la
+## 9. Nya si le nyateƒe me
 
-- Asitsatsa si wokpɔ ta na la ƒoa akpa atɔ̃awo katã nu ƒu: **note** (asixɔxɔa), eƒe **tsɔtsɔtsɔna** le **note commitment tree** me, **nullifier** be woaxe mɔ ɖe gazazã zi eve nu, **asixɔxɔ ƒe adzɔgbeɖeɖe** hena dadasɔ, kple **zk-SNARK** si bla wo katã ɖekae.
-- Gazazã ɖo kpe **nya ene dzi zi ɖeka**, nuŋlɔɖia li, woɖe mɔ na wò, eƒe nullifier sɔ, eye asixɔxɔ ƒe dadasɔ, le **sidzedze zero** me, si meɖea nyateƒenya siwo le ete la dometɔ aɖeke fiana o.
-- **Wowɔa asixɔxɔ ƒe dadasɔ** dzi to **homomorphic commitments** tsɔtsɔ kpee kple ŋkuléle ɖe wo nutrenu ɖe ​​zero dzi, to **sidede asi si blaa ame** dzi, eye womeɖea ga home aɖeke ɖe go o.
-- Zãla ƒe ŋusẽwo sina tso **zazã ƒe safui** ɖeka me to **mɔ ɖeka ƒe ɖoɖo** me, si wɔnɛ be **safuiwo kpɔkpɔ** siwo ɖea nu fiana evɔ womeɖea mɔ na gazazã ƒe ŋusẽ o.
-- Netwɔƒea **ɖoa kpe nya siwo wogblɔ tso nyatakaka ɣaɣlawo ŋu dzi**, si ɖea verify-vs-privacy paradox ɖa tso Se 0. Wotu loop ɖesiaɖe si woʋu le afima fifia.
-- **Orchard** trɔa asi le **Sapling** (Actions ɖekawɔwɔ, Halo 2 si me ɖoɖo si dzi woka ɖo aɖeke mele o, Pasta curves, Sinsemilla) ŋu evɔ metrɔ sɔti atɔ̃awo o.
+Esiae nye nɔnɔmetata blibo wu le ƒometɔƒo sia me, ke eganye model ko hã. Míekpɔ didienu ƒe field encodings tututu, klu ƒe dzedze ƒe formula siwo tututu, spend kluwo ƒe re-randomization, gaɖoƒe ƒe dzesi siwo le vovototo me, nya kpui [memo] ƒe fields, adzɔ [fee] ƒe wɔwɔ, vovototo si le asixɔxɔ ƒe adzɔgbeɖeɖewo kple didienu ƒe adzɔgbeɖeɖewo dome le nyati blibo me, kple asidede agbalẽ te ɖeka ɖeka ƒe dɔ tututu me ɖe kpui. Míefia mɔ ɖeka si wòzu kpɔɖeŋu hã; gaɖoɖo siwo le nyateƒe me ate ŋu akplɔ fexexewo kple output geɖe ɖe ɣeyiɣi ɖeka me eye woate ŋu aɖe transparent kple ɣaɣla ƒe akpaawo ƒo. Nya si le ŋusẽ wu nye Zcash Protocol Specification. Nu si nèle asi fifia nye nɔnɔme dzɔdzɔ; specification la tsɔa neƒe wɔwɔwo katã ɖe eme.
 
 ---
 
-## Nyagɔmeɖegbalẽ
+## 10. Nyatakakawo ƒe ƒome
 
-| Nyagbe | Plain-Eŋlisigbe me gɔmesese |
+- Ɣaɣla gaɖoɖo aɖe ƒoa akpa atɔ̃ la katã ɖeka: **didienu** (asixɔxɔ la), eƒe **adzɔgbeɖeɖe** le **didienu ƒe adzɔgbeɖeɖe ti** me, **gaɣaɣla ɖeɖe dzesi** be wòanɔ te ɖe fexexe eveli ŋu, **asixɔxɔ ƒe adzɔgbeɖeɖewo** na balance, kple **zk-SNARK** si bla wo katã ɖeka.
+- Fexexe dea ɖaseɖigbalɛ ɖe **nyateƒe ene ɖe ɣeyiɣi ɖeka me**: didienu la le anyi, wòxɔ mɔ be nàfexɛe, eƒe gaɣaɣla ɖeɖe dzesi le nyateƒe me, eye asixɔxɔwo sɔ, le **zero knowledge** me, eye wòmefia nyateƒe siwo le ete aɖeke o.
+- **Asixɔxɔ-balance** le se me to **homomorphic adzɔgbeɖeɖewo ƒe tsɔtsɔƒo** kple kpɔkpɔ be wotu ɖe mema, to **binding signature** la dzi, eye womefia asixɔxɔ aɖeke o.
+- Ame aɖe ƒe ŋusẽwo tsoa **gazazãsafui** ɖeka me to **mɔ ɖeka ƒe ƒomeɖoɖo** me, si na **nukpɔsafuiwo** fia nuwo eye mena fexexe ƒe ŋusẽ o.
+- Mɔ̃ la **dea ɖaseɖigbalɛ ɖe nyateƒe siwo le data ɣla la ŋu**, si bu kpɔɖeŋu dze si me mɔme le tso Agbalẽ 0 me, si le kpɔkpɔ kple ɣaɣla dome, ɖe anyi. Ɣleti siwo katã wòke ɖe ŋgɔ le afi ma la woƒo fifia.
+- **Orchard** wɔa nyuie ɖe **Sapling** ŋu (Actions siwo wòƒo ɖeka, Halo 2 si me mɔ̃ ƒe ɖoɖo xexlẽnuwo mele o, Pasta curves, Sinsemilla) eye ti atɔ̃ la metrɔ o.
+
+---
+
+## Nyawo ƒe gɔmeɖeɖe
+
+| Nya | Gɔmeɖeɖe bɔbɔe |
 |---|---|
-| **Spending key** | Ke ɖeka ƒe nya ɣaɣla si me zãla ƒe safuiwo katã tso |
-| **Viewing Key** | Eɖea wò asitsatsa fiana na amesi le asiwò evɔ mèɖea mɔ na wo be woazã |
-| **Spend description** | Tx ƒe akpa si ɖua nuŋlɔɖi (nullifier, anchor, proof) |
-| **Output description** | Tx ƒe akpa si wɔa nuŋlɔɖi (ɖokuitsɔtsɔna, nya ɣaɣla, kpeɖodzi) |
-| **Action (Orchard)** | Dɔwɔha ɖeka si wɔa gazazã ɖeka kple nu ɖeka wɔwɔ ɖekae |
-| **Value commitment** | A homomorphic Pedersen ƒe ɖokuitsɔtsɔna na ga home aɖe |
-| **Binding signature** | Asidede agbalẽ te si ɖo kpe asixɔxɔwo ƒe dadasɔ dzi evɔ meɖe wo fia o |
-| **Anchor** | Ati ƒe ke a gazazã ɖo kpe hamevinyenye dzi tsi tre ɖe |
-| **Trial decryption** | Amesi xɔe le ŋugbedodo yeyewo dom kpɔ be yeake ɖe nuŋlɔɖi siwo woɖo na wo ŋu |
+| **Spending key** | Klu ɣaɣla gɔmedzedze ɖeka si ame aɖe ƒe kluwo katã tsoa |
+| **Viewing Key** | Efia wò gaɖoɖowo na ame si tsɔe le asi me, ke mena mɔ be wòafexɛ o |
+| **Spend description** | Tx ƒe akpa si exɔa didienu aɖe (gaɣaɣla ɖeɖe dzesi, anchor, ɖaseɖigbalɛ) |
+| **Output description** | Tx ƒe akpa si wɔa didienu aɖe (adzɔgbeɖeɖe, ciphertext, ɖaseɖigbalɛ) |
+| **Action (Orchard)** | Unit ɖeka si wòƒo, si wɔa fexexe ɖeka kple output ɖeka ɖeka |
+| **Value commitment** | Pedersen adzɔgbeɖeɖe homomorphic le asixɔxɔ aɖe ŋu |
+| **Binding signature** | Asidede agbalẽ te si dea ɖaseɖigbalɛ be asixɔxɔwo sɔ eye wòmefia wo o |
+| **Anchor** | Ti ƒe tɔ si fexexe aɖe dea membership ƒe ɖaseɖigbalɛ ɖe eŋu |
+| **Trial decryption** | Ame si axɔa nu doa adzɔgbeɖeɖe yeye ɖe nudzodzro me be wòakpɔ didienu siwo wole be woanɔ eya tɔwo |
 
 ---
 
-## Nyabiasewo ƒe Nyabiasewo
+## Biabia siwo woƒoa gbeɖe
 
-**Ðe network la kpɔa ga homea alo amesi xe fe na ameka kpɔa?**
-Ao, eɖoa kpe kpeɖodzia, nullifier la ƒe yeyenyenye, sekea, kple asidede agbalẽ te si blaa nu dzi. Ame ŋutɔ ƒe dzidzenuwo katã nɔa ɣaɣla.
+**Mɔ̃ la kpɔa asixɔxɔ alo ame si fe na ame ka mahã kpɔa?**
+Ao. Wòkpɔa ɖaseɖigbalɛ la, be gaɣaɣla ɖeɖe dzesi la yenye yeye, anchor la, kple binding signature la. Asixɔxɔ ɣaɣlawo katã nɔa ɣla.
 
-**Nukae xe mɔ nam be nyemazã nuŋlɔɖi ɖeka zi eve o?**
-Nullifier la. Gazazã tae; network la gbe nullifier ɖesiaɖe si le nullifier ƒe ɖoɖoa me xoxo. Nuŋlɔɖi ɖeka ma ke naa nullifier ɖeka ma ke ɣesiaɣi.
+**Nu kae atɔ mɔ nam be mafexɛ didienu ɖeka zi eve?**
+Gaɣaɣla ɖeɖe dzesi la. Fexexe la doa e ɖe go; mɔ̃ la gbea gaɣaɣla ɖeɖe dzesi ɖeka ɖe sia si le gaɣaɣla ɖeɖe dzesi ƒe set la me xoxo. Didienu ma ke nana gaɣaɣla ɖeɖe dzesi ma ke ɣesiaɣi.
 
-**Aleke woate ŋu akpɔ ga si susɔ ne woɣla ga homewo?**
-Asixɔxɔ ƒe ŋugbedodowo kpena ɖe wo nɔewo ŋu le mɔ si sɔ nu; adzɔnuwɔna si da sɔ ƒe ŋugbedodowo tea fli ɖe adzɔgbeɖeɖe si nye zero gbɔ, si ƒe asidede agbalẽ te si blaa ame la ɖo kpe edzi.
+**Aleke woate ŋu akpɔ balance ne asixɔxɔwo le ɣla?**
+Asixɔxɔ ƒe adzɔgbeɖeɖewo doa ƒo homomorphically; gaɖoɖo si le balance me ƒe adzɔgbeɖeɖewo ɖoa ɖe adzɔgbeɖeɖe mema, si binding signature la dea ɖaseɖigbalɛ ɖe eŋu.
 
-**Ðe mate ŋu aɖo kpe nye asitsatsa dzi na agbalẽdzikpɔla evɔ nyemaɖe asi le dziɖuɖu ŋu oa?**
-Ɛ̃. Tsɔ nukpɔkpɔ ƒe safui aɖe de asi nɛ. Eɖea wò dɔwɔna si wokpɔ ta na la fiana gake mate ŋu aɖe mɔ ɖe gazazãwo ŋu o, akpe na mɔ ɖeka dzi safuiwo ƒe ɖoɖo.
+**Mate ŋu ade ɖaseɖigbalɛ ɖe nye gaɖoɖowo ŋu na auditor aɖe eye megbe nye ŋusẽ o?**
+Ẽ. Na nukpɔsafui aɖe. Efiya wò ɣaɣla ƒe nudzɔdzrowo, ke wòmate ŋu axɔ mɔ na fexexe o, le klu ƒe ƒomeɖoɖo mɔ ɖeka la ta.
 
-**Ðe Sapling megale dɔ wɔm o fifia si Orchard lia?**
-Both have existed on the network; Orchard is the current design. The concepts are shared, so understanding one gives you the other.
+**Sapling va zu nu si mehiã o esi Orchard le anyi?**
+Wo eve katã nɔ mɔ̃ la dzi; Orchard nye nɔnɔme si le fifia. Nyatiwo le wo dome ɖeka, eyata ne nèse ɖeka gɔme la, nèse bubu hã gɔme.
 
 ---
 
-### Do wò susuŋudɔwɔwɔ kpɔ
+### Ɖo wò nunyamekpɔkpɔ ɖe nudzodzro me
 
-Xɔ̃nye aɖe gblɔ be: “Esi kpeɖodzia ɣlaa ga homea ta la, ɖeko fiafitɔ ate ŋu agblɔ be yewoƒe nusiwo yewowɔ la ƒe asixɔxɔ de ŋgɔ wu yewoƒe nusiwo yewotsɔ de eme eye wòata ga femaxee.” Zã Akpa 5 lia nàtsɔ nyagbe eve aɖe nusita esia do kpo nu me. *(Ðo eŋu le ete.)*
+Xɔlɔ aɖe gblɔ be: "Esi ɖaseɖigbalɛ la ɣla asixɔxɔ la, fiavi aɖe ate ŋu agblɔ ko be eƒe outputwo ƒe asixɔxɔ le dɔme wu eƒe inputwo eye wòawɔ ga blaa." Tsɔ Akpa 5 dzi, gblɔ le nyagblɔɖi eve me nu ka tae esia mate ŋu ava eme o. *(Ŋuɖoɖo le ete.)*
 
-<details><summary>Answer</summary>
+<details><summary>Ŋuɖoɖo</summary>
 
-Woɣla ga homeawo, gake woxatsa wo dometɔ ɖesiaɖe ɖe homomorphic value commitment me, eye network la tsɔa nusiwo katã wotsɔ de eme ƒe ŋugbedodowo kpena ɖe eŋu eye wòɖea output ƒe ŋugbedodowo katã ɖa; ne asixɔxɔ ɣaɣlaawo meda sɔ o la, emetsonua matre enu ɖe ​​zero dzi o eye **womate ŋu awɔ asidede agbalẽ te si sɔ o.** Fiafitɔ ate ŋu aɣla *agbɔsɔsɔme*, gake mate ŋu ana asixɔxɔ siwo meda sɔ o nato dadasɔ ƒe ɖaseɖigbalẽa me o, eyata ga tata femaxee manya wɔ ne womeɖe naneke fia evɔ wogale akɔntabubua lém o.
+Asixɔxɔwo le ɣla, ke woɖeka ɖeka wòtu ɖe homomorphic asixɔxɔ ƒe adzɔgbeɖeɖe me, eye mɔ̃ la tsɔa input ƒe adzɔgbeɖeɖewo katã doa ƒo eye wòlea output ƒe adzɔgbeɖeɖewo katã ƒe nu; ne asixɔxɔ ɣaɣlawo mesɔ o la, nu si doa tso eme la matu ɖe mema o eye **wo mate ŋu awɔ binding signature dzɔdzɔ aɖeke o.** Fiavi la ate ŋu aɣla *nène*, ke wòmate ŋu ana asixɔxɔ siwo mesɔ o ava pasa balance ƒe kpɔkpɔ la o; eyata ga blaa wɔwɔ mate ŋu ava eme o, togbɔ be wòfia naneke o hã, arithmetic la akpɔe.
 </details>
 
 ---
 
-### Nusiwo kplɔ wo nɔewo ɖo, wowu enu
+### Ƒometɔƒo la, blibo
 
-Fifia èzɔ mɔ tso nya ɖeka si tsi tre ɖe wo nɔewo ŋu dzi va ɖo ame ŋutɔ ƒe fexexe blibo dzi:
+Fifia nèzɔ tso kpɔɖeŋu dze si me mɔme le ɖeka me va se fexexe ɣaɣla blibo aɖe:
 
-![alt nuŋɔŋlɔ](/content-images/cd8bbb40-57b8-4854-b9cf-97f2485d126a-8847fae521.webp)
+![alt text](/content-images/cd8bbb40-57b8-4854-b9cf-97f2485d126a-8847fae521.webp)
 
 
-Tso afisia la, dzɔdzɔme ƒe akasanu si kplɔe ɖo la yi ŋgɔ wu: Groth16 kple Halo 2 ƒe dɔwɔwɔ ememetɔ, ɖoɖowɔwɔ ƒe kɔnu siwo dzi woka ɖo, Sapling kple Orchard nutome suewo tsitotsito, safuiwo ƒe dzɔtsoƒe kple adrɛs vovovowo, kple ɖoɖowɔɖia ƒe tɔtrɔ le network ƒe ŋgɔyiyiwo katã me. Gake gɔmeɖoanyia le dɔ wɔm fifia, eye aƒe le nyati mawo dometɔ ɖesiaɖe si wòatsɔ akpe ɖe eŋu.
+Tso afisia la, mɔ si dze be woatoe yia eme wu: Groth16 kple Halo 2 ƒe wɔwɔ le eme, mɔ̃ ƒe ɖoɖo xexlẽnuwo ƒe ceremonywo, Sapling kple Orchard circuits ƒe nyatiwo, klu ƒe dzedze kple gaɖoƒe ƒe dzesi siwo le vovototo me, kple protocol la ƒe trɔtrɔ to mɔ̃ ƒe sewo trɔtrɔ [network upgrades] me. Ke gɔmeɖoɖo la le teƒe fifia, eye nyati siawo ɖeka ɖeka kpɔ teƒe si wòate ŋu abla ɖe eŋu.
 
-*Zcash ƒe akpa aɖe tso Gɔmeɖose Gbãtɔwo *series na [ZecHub](https://zechub.org). CC BY-SA 4.0 si ŋu mɔɖegbalẽ le.*
+*Enye akpa le* Zcash tso Gɔmedzedze Ƒe Gɔmeɖosewo Me *ƒometɔƒo la me na [ZecHub](https://zechub.org). Licensed CC BY-SA 4.0.*

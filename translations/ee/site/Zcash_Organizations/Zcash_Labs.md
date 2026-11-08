@@ -6,232 +6,230 @@
 
 ---
 
-**Zcash Labs** is an independent organization focused on the practical implementation, integration, and adoption of **Zcash** and its digital asset, **ZEC**. Zcash Labs helps businesses, institutions, developers, and independent projects that want to use Zcash technology in products, services, payment systems, or applications that can be used in real-world scenarios.
+**Zcash Labs** nye ɖokuibɔbɔ ƒe habɔbɔ si ɖo ŋku ɖe **Zcash** kple e digital asset, **ZEC**, ƒe vavã me dɔwɔwɔ, tsɔtsɔ kple zazã ŋu. Zcash Labs doa asi ɖe asi kple asitsɔƒewo, habɔbɔwo, mɔ̃ ƒe ɖoɖoŋlɔlawo [developer], kple ɖokuibɔbɔ ƒe dɔwɔwɔwo siwo di be woazã Zcash ƒe teknoloji le nuƒoƒowo, subɔsubɔwo, fexexe [payment] ƒe ɖoɖowo, alo application siwo woate ŋu azã le xexeame ƒe nɔnɔwo me.
 
-Zcash Labs ɖo eɖokui nu abe habɔbɔ si le asi dem na zcash ene. Le go to market ƒe nyagbɔgblɔ me la, esia fia be woakpe ɖe ŋu woatsɔ Zcash-mɔ̃ɖaŋununya tso mɔɖaŋu siwo li xoxowo dzi ayi dɔwɔna aɖe si dɔwɔƒewo kple ame bubuwo ate ŋu azãe gbɔ. Be woaɖo taɖodzinu sia gbɔ la, Zcash labs tsɔ aɖaŋuɖoɖo, mɔnu ŋuti ɖoɖowɔwɔ, mɔdɔnyawo wɔwɔ ɖekae, gɔmeɖokpewo zazã, nuwo dzadzraɖo nyuie, ga dede ŋgɔgbedede, gadzikpɔdɔwɔƒe kpakple asitsatsa wɔ ɖeka heva zu nuwɔna ɖeka si nɔ te ɖe nusiwo wodona ɖa alo esiwo wozãna ŋutɔŋutɔ dzii.
+Zcash Labs tsɔ eɖokui dea ɖe eme abe **go to market** ƒe habɔbɔ na Zcash ene. Le **go to market** ƒe nɔnɔ me la, esia fia be woadoa asi le Zcash ƒe teknoloji ƒe tsɔtsɔ tso teknikál ŋutinya siwo li xoxo yi dɔwɔwɔwo siwo asitsɔƒewo kple zazãlawo ate ŋu azã me. Be woawɔ ta sia ava eme la, Zcash Labs ƒoa aɖaŋuɖoɖo, solution engineering, teknikál tsɔtsɔ, infrastructure dɔwɔwɔ, nuƒoƒo dzikpɔkpɔ, gã ƒe kpekpeɖeŋu [grant] na dɔwɔwɔ gɔmedzedze, ga ƒe underwriting, kple hãƒoƒo ƒe nudzɔdzɔ ɖe mɔ ɖeka me si ɖo ŋku ɖe nuƒoƒowo ƒe gododo kple xexeame me zazã ŋu.
 
-Zcash Labs gblɔ be habɔbɔa le eɖokui si eye mele kadodo me kple **Zcash Foundation**. Nɔnɔme sia na mɔnukpɔkpɔe be eya ŋutɔ nazã ga siwo katã ƒe ɖoƒe enye la atsɔ akpe asi ɖe ɖoɖowo, nuwɔwɔ ɖeka ŋu kpakple mɔ̃ɖaŋunu bubuwo ŋu.
-
----
-
-## Ŋutinyawo
-
-Wotsɔ Zcash Labs na amewo to eƒe nyatakakadzraɖoƒe dzi le August 6, 2026 dzi. Le August 12, 2026, Zcash Lab tsɔ woƒe dɔwɔnawo yi dukɔmeviwo gbɔ to Zcash Community Forum me kple gbeƒãɖeɖe si ƒe tanyae nye "Announcing Zcash labs A Zcash Go To Market Company".
-
-Togbɔ be ƒe 2026 me ye woɖe gbeƒãe le dutoƒo hã la, Zcash Labs gblɔna be dɔwo nɔ edzi yim do ŋgɔ na nyatakaka ma. Zcash Laboratories wɔ nu kple ɖoɖo siwo zãa Zcash eye wole kpekpem ɖe eŋu hafi wova te eƒe ŋkɔ ɖeɖefia si nye "Zcash Labs" zazã dzii. Le kpɔɖeŋu aɖe si va dze emegbe la, enye woƒe gome nɔnɔ le **zcashtocash** wɔwɔ me.
-
-The emergence of Zcash Labs is related to the need to narrow the gap between available Zcash technology and the ability of businesses or developers to use it. A company may have needs that align with Zcash but not yet know the required technology, how to integrate, or the infrastructure to use. At the same time, a new project may have a promising concept but require technical assistance, product management, seed capital, or support to reach the production stage. Zcash Labs works in that space by providing support that connects business and developer needs with **Zcash** technology.
-
-Zcash Labs ƒe ɖoɖo dze egɔme kple nugɔmesese le kuxi alo nuhiahiãwo ŋu. Ne wo se nusiawo gɔme ko la, Zcash Lab dea dzesi ne Zcash nye mɔ̃ɖaŋununya si sɔ na dɔwɔnaa. Ne edzɔ alea la, ke Zcash Laboratory kpena ɖe ame ŋu be wòateŋu awɔ asitelefon ŋuti numekuku siwo hiã hena eƒe dɔwɔwɔ me vava. Afasi sia ateŋku tiae tso Zcash-mɔ̃ɖaŋuɖoɖo siwo li dzi, eʋua xɔtutu (architecture), nana nusiwo wòle be woawɔ hafi aɖo asi eŋu, eye eɖea akpa bubuwo hã ɖa nenye be womete ŋui o.
-
-Le mɔ sia nu la, Zcash Labs ate ŋu akpɔ gome le numedzodzrowo me tso gɔmedzedze si ku ɖe alesi woazã dɔwɔnu aɖe dzi vaseɖe esime wòava zu ɖoɖowɔɖi ŋutɔŋutɔ. Esia nyea gɔmeɖoanyi na Zcash Laboratories ƒe ɖoƒe abe habɔbɔ nɔɖokuisi ene le Zcash nutoa me be wòazu asitsaha, elabena eƒe dɔ menɔa te ɖe ɖoɖowɔwɔ alo aɖaŋuɖoɖo wɔwɔ ko dzi o ke enana wotua mɔnuwo hã kpɔna tsɔ wɔa nusiwo hiãe ne wole xexeame zãm.
+Zcash Labs gblɔ be habɔbɔa nye ɖokuibɔbɔ tɔ, eye wometsɔa eɖokui kple **Zcash Foundation** ƒo ɖekae o. Ɖokuibɔbɔ ƒe nɔnɔ sia na Zcash Labs ate ŋu adecide le eɖokui ƒe ŋkume be dɔwɔwɔ, tsɔtsɔ, kple infrastructure kae wòdi be yeadoa asi ɖe asi kplii, tsɔ zɔnuwo kple ga siwo le habɔbɔa ƒe kpɔɖeŋu te.
 
 ---
 
-## Zcash Labs ƒe Taɖodzinu Vevitɔ
+## Gɔmedzedze ƒe nyateƒe
 
-Zcash Labs ƒe taɖodzinu enye be woado alɔ nuxexlẽ kple asitelefon dzi dɔwɔƒewo alebe woate ŋu awɔ woƒe dɔ le ɣeyiɣi kpui aɖe ko me. Egblẽa ga geɖe ɖe ɖoɖo sia ta: kpeɖeŋunana na adzɔhawo kple habɔbɔwo ne wole kpɔm ɖa nenye be Zcash sɔna na yewoƒe hiahiã, kpekpeɖeŋunaɖoɖo si wowɔna tsɔ dea dɔwɔwɔ gɔme nyuie la wɔwɔ, mɔ̃ɖaŋunu siwo akpe ɖe eŋu, kpakple gadzraɖoƒewo zazã hena numekuku tso dɔwɔnu yeye aɖewo hã ŋuti.
+Woɖe Zcash Labs fia na amewo to e official website dzi le **August 6, 2026**. Le **August 12, 2026** la, Zcash Labs tsɔ e dɔwɔwɔwo va ɖe community la ŋkume to Zcash Community Forum dzi le gbeɖeɖe si ƒe tanyae nye **Announcing Zcash Labs A Zcash Go To Market Company**.
 
-Zcash Labs ƒe taɖodzinue nye be yewoana dɔ siwo zãa Zcash la nadzi ɖe edzi, eye woahe amesiwo si aɖaŋuŋutinunya me sidzedze deto mele o hã ayi dɔa dzi. Esia tae wowɔ ɖoɖo aɖe tsɔ doa ŋgɔ kple numedzodzrowo hewɔa mɔnu yeye aɖewo ɖo; emegbe woɖoa mɔ̃ na woƒe dɔwɔƒewo hena ewɔwɔ, eyome wodea asi eme wɔwɔ me, eye ne wokpɔe be ate ŋu ana ga geɖe le dɔ sia wɔ ge la, wokpena ɖe eŋu wòxɔna tso habɔbɔawo gbɔ.
+Eya ta be woɖe gbeƒãɖeɖea fia le August 2026 me hã la, Zcash Labs gblɔ be e dɔwɔwɔwo dzɔna hafi gbeƒãɖeɖe ma va do. Zcash Labs nɔ dɔ wɔm kple dɔwɔwɔwo siwo zã Zcash, eye wònɔ kpekpem ɖe development ƒe mɔ dzi hafi woɖe Zcash Labs ƒe nyenye fia na amehawo katã. Nuɖoɖo gɔmedzedze aɖe si woɖe fia na amewo emegbe nye eƒe kpɔɖeŋu le **zcashtocash** ƒe development me.
 
----
+Zcash Labs ƒe gododo kplɔa ɖo ɖe hiahiã si nye be woagblẽ teƒe si le Zcash ƒe teknoloji si li kple asitsɔƒeawo alo mɔ̃ ƒe ɖoɖoŋlɔlawo ƒe nuteŋu be woazãe dome. Asitsɔƒe aɖe ate ŋu akpɔ hiahiã si sɔ kple Zcash, gake menya teknoloji si hiã, mɔ si woato atsɔe, alo infrastructure si woazã o hafi. Le ɣeyiɣi ma ke me la, dɔwɔwɔ yeye aɖe ate ŋu akpɔ susu nyui, gake wòhia teknikál kpekpeɖeŋu, nuƒoƒo dzikpɔkpɔ, gã ƒe kapital, alo kpekpeɖeŋu be wòanɔ production ƒe teƒe. Zcash Labs wɔa dɔ le teƒe ma, tsɔ kpekpeɖeŋu si tsɔ asitsɔƒeawo kple mɔ̃ ƒe ɖoɖoŋlɔlawo ƒe hiahiãwo sɔ kple **Zcash** ƒe teknoloji.
 
-## Zcash Labs ƒe Dɔwɔƒe Veviwo
+Zcash Labs ƒe mɔa dzea egɔme kple habɔbɔ aɖe ƒe kuxi alo hiahiãwo ƒe se. Ne wose hiahiã mawo vɔ la, Zcash Labs kpɔa be Zcash nye teknoloji si sɔa. Ne wosɔ kple wo nɔewo la, Zcash Labs kpe ɖe asi be woaɖo teknikál mɔ si woate ŋu azã atsɔ atu tsɔtsɔa. Akpa sia ate ŋu aɖe Zcash ƒe teknoloji siwo li ƒe tiatia, architecture ƒe tata, infrastructure ƒe hiahiãwo ƒe ɖoɖo, kple component bubuwo ƒe development ne solution siwo li mekpe ɖe eŋu o.
 
-Le eƒe ** nu la,[nyatakakadzraɖoƒe si le dukɔa me](https://zcashlabs.org/)**, Zcash Labs lists four main ways it supports the use of Zcash. First, it provides consulting and advice to assess whether Zcash aligns with an organization’s business or operational needs. Second, they provide technical support and implementation solutions for institutions that are currently integrating or planning to integrate Zcash. Third, they distribute seed grants and assist with co-marketing coordination so that projects can reach the right audience. Fourth, they implement a “coinholder retroactive grants” approach, which involves covering project costs upfront and then seeking reimbursement through a coinholder-based grant process.
-
-Le nyatakaka aɖe si tso ** ƒe dɔwɔƒe la nu,[Zcash Community Forum (Zaka ƒe Kɔmitia)](https://forum.zcashcommunity.com/t/announcing-zcash-labs-a-zcash-go-to-market-company/56975)**, habɔbɔa ƒe taɖodzinu gbãtɔe nye be yeatsɔ Zcash blockchain ade dɔ asi na dɔwɔƒewo kple sukuviwo, eye woazã mɔ̃ɖaŋununya siwo le eɖokui si atsɔ akpe ɖe ɖoɖo yeyewo ŋu. Esia fia be Zcash Labs wɔa nu to mɔnuwɔwɔ dzi, ale si nudzraɖoƒea hiã la me, kpakple alesi nuwo va nɔna nyuie hafi wova zãnɛ wu tsã.
+Kple mɔ sia la, Zcash Labs ate ŋu anɔ eme tso gɔmedzedze ƒe nuƒoƒo tso zã nyawo [use case] ŋu va se ɖe system si le dɔ wɔm vavãe. Esia wòaɖo Zcash Labs ƒe nɔƒe abe ɖokuibɔbɔ ƒe habɔbɔ le Zcash ecosystem me si doa go to market ene, elabena e dɔwɔwɔ menɔa plan alo teknikál development ko dzi o, ke boŋ wòɖe mɔ si wɔa be solutionwo ava zazã le xexeame me hã.
 
 ---
 
-## Alesi Zcash Labs wɔa dɔ kple dɔwɔhatiwo kpakple amesiwo di be yewoanye asitsalawoe
+## Zcash Labs ƒe Ta Vevi
 
-Zcash Labs explains a fairly simple workflow. The process begins by understanding the needs of those who approach them, then honestly assessing whether Zcash is indeed suitable for that use case. If it is, they help map out the usage flow, technical requirements, and various trade-offs or design implications that need to be considered. After that, they can assist in building the technical solution and, where relevant, help with funding and co-marketing activities.
+Zcash Labs ƒe ta vevitɔe nye be wòana Zcash ƒe zazã nakeke ava amehawo dome, to kpekpeɖeŋu si service builders ate ŋu azã enumake. Wotsɔ mɔ vevi geɖewo nyaa ta sia: kpekpe ɖe asitsɔƒewo kple habɔbɔwo ŋu be woaɖo be Zcash sɔ na woƒe hiahiãwo hã, kpekpe le teknikál tsɔtsɔ ƒe mɔ me, infrastructure ƒe kpekpeɖeŋu, kple gã ƒe kpekpeɖeŋu na dɔwɔwɔwo siwo ate ŋu akeke Zcash ƒe zazã.
 
-Mɔnu sia le vevie elabena menye ɖoɖo ɖesiaɖe ye sɔna na Zcash o. Ne wotia nu si dzi woawɔ asi ɖo gbã la, Zcash Labs dzea agbagba be yewoanye zɔhɛ nyui aɖe hena ewɔwɔ ɖe edzi tsɔ wu be woaxɔe ko eye womeŋlɔnɛ kpɔna ne ehiã ŋutɔŋutɔ hafi awɔ dɔwo ŋu oa?
-
----
-
-## Dɔwɔƒe si nye Zcash Labs ƒe Mɔ̃ɖaŋudɔwɔwɔwo
-
-Hekpe ɖe nuwɔwɔ be ame etɔ̃ ƒe akpawo nawɔ ɖeka ŋu la, Zcash Labs wɔa dɔ eye wotua ɖoɖo si kpena ɖe amewo ŋu wotea ŋu ɖoa Zcash-a me. Esi wova doe ɖe dukɔmeviwo gbɔ la, habɔbɔa gblɔ be ele **Shielded Vote Validator** zãm hele subɔsubɔwo wɔm siwo dometɔ aɖewo nye **Zcash full node**, **lightwalletd** kple **RPC** gɔmeɖoanyiwo.
-
-Wozãa Full Nodes tsɔ ƒoa ka kple kadodo si le network la me tẽe eye woɖoa blockchain ŋuti nyatakakawo ɖi. lightwalletd kpena ɖe gaɖigbalẽviwo ŋu be woaxɔ nyatakaka siwo hiã tso network dzi evɔ womegazãa blockchain bliboa o. Le ɣeyiɣi ma ke me, RPC naa mɔ aɖe li na kɔmpiuta bubuwo ƒe dɔwɔɖoɖowo be woate ŋu aƒo nu kple Blockchain nodes alo services.
-
-Dɔwɔwɔ kple nuɖoanyi sia do ƒome tẽe kple Zcash Labs ƒe ɖekawɔwɔ. dɔwɔƒewo kple dɔwɔla siwo le zcash dɔwɔnuwo tum la hiã mɔɖeɖe na internet dzi dɔwɔwɔ nyuie. to wo zazã ɖeɖeko me, Zcash Lab ate ŋu akeke woƒe ɖoɖowɔɖi si li be yewoazã ne wole nuwo dome nɔm ɖekae ŋuti nuteƒekpɔkpɔ tso ŋgɔgbedɔwo gbɔ kpɔkpɔ me.
-
-Zcash Labs gblɔ hã be yewoawɔ RPC dɔ bubuwo ne woƒe mɔ̃ɖaŋununyawo le tsitsim. Esia fia be menye ɖeko woana dɔwɔnu siwo dzi zcash awɔ ɖo la ko o, ke wole aɖaŋuɖoɖo si ana woawɔ nu kple Zcash ƒe mɔnuwo alo ɖoɖowɔɖiwo hã nam.
+Zcash Labs di be wòakeke dɔwɔwɔwo ƒe xexlẽme siwo zã Zcash menye ko o, ke boŋ wòana mɔ ƒe nu xɔxɔ nava bɔbɔ na ame siwo mekɔ teknikál numanya kpɔ o hã. Eya ta, woɖea mɔ bliboa aɖe si dzea egɔme kple aɖaŋuɖoɖo, eye strategy ƒe tata, teknikál dɔwɔwɔ, kple ne wokpɔ be dɔwɔwɔa le dzidzɔ ge la, gã ƒe kpekpeɖeŋu kplɔe ɖo.
 
 ---
 
-## Kpekpeɖeŋu na Zcash Dɔwɔƒea
+## Zcash Labs ƒe Dɔwɔwɔ Teƒe Veviwo
 
-Zcash Labs doa alɔ dɔ siwo le wo si, eye wobunɛ be woate ŋu akeke ɖe nu me tso zcash zazã ŋuti. Woateŋu ana kpekpeɖeŋu tso eƒe gɔmedzedze ke ne dɔa nye nukpɔsusu ko evɔ womekpɔ ga katã de eme haɖe o la hafi adze egɔme.
+Le e **[official website](https://zcashlabs.org/)** nu la, Zcash Labs bu mɔ vevi ene si woato ado asi ɖe Zcash ƒe zazã ŋu. Gbãtɔ, wònaa aɖaŋu kple nuxlɔ̃ame be woakpɔ be Zcash sɔ kple habɔbɔ aɖe ƒe asitsɔƒe alo dɔwɔwɔ ƒe hiahiãwo hã. Evelia, woanaa teknikál kpekpeɖeŋu kple dɔwɔwɔ ƒe solutionwo na habɔbɔwo siwo le Zcash ƒe tsɔtsɔ wɔm fifia, alo siwo le ɖoɖo wɔm be woatsɔe. Etɔlia, wo maa gã ƒe kpekpeɖeŋu na dɔwɔwɔ gɔmedzedze, eye woakpe ɖe asi le hãƒoƒo ƒe nudzɔdzɔ ŋu be dɔwɔwɔwo nakpɔ amehawo si sɔ. Enelia, wo zãa “coinholder retroactive grants” ƒe mɔ, si me woaɖoa project ƒe fiƒiawo do ŋgɔ, eye emegbe woaɖia fɔfɔ tso coinholder-wo ƒe ga ƒe kpekpeɖeŋu ƒe mɔ nu.
 
-In this process, Zcash Labs can help determine the technical direction, manage product development, address integration needs, provide infrastructure, and offer seed funding. The goal is to help a team move from the idea stage to a usable product.
-
-Le dutoƒo nuƒoƒo le Zcash Community Forum dzi la, Zcash Labs gblɔ be ga si woxɔna ɖe startups siwo dze dɔ gɔme ƒe gɔmedzedze me zi geɖe nyea tso **5 va ɖo 10 ZEC**. Ga home sia menye esi woɖo ɖi o elabena Zcash Labwo bua ga gbogbo aɖewo hã abe esiwo woaxe na ame bubuwo ne wole ɖoɖo wɔm ɖe woƒe dɔwɔɖoɖo ŋu ene hena Zcash zazã.
-
-Mɔ sia naa Zcash Labs wɔa nu kpata le mɔnukpɔkpɔ siwo wòkpɔ be aɖe vi la didi me. Mehiãna be Zcash Lab nalala ɣeyiɣi si dɔdeasiwo ava ɖo hafi ana kpekpeɖeŋu o, elabena woate ŋu azã woƒe dɔwɔƒe ƒe ga atsɔ awɔ dɔa dometɔ aɖewoe.
+Le gbeɖeɖe aɖe si tso **[Zcash Community Forum](https://forum.zcashcommunity.com/t/announcing-zcash-labs-a-zcash-go-to-market-company/56975)** la, woɖe habɔbɔa ƒe gɔmedzedze ƒe dɔ ŋu ɖe edzi wu abe Zcash gaɖoɖowo ƒuƒoƒo ƒe ɖoɖonu [blockchain] ƒe tsɔtsɔ na asitsɔƒewo kple habɔbɔwo, ɖokuibɔbɔ ƒe infrastructure subɔsubɔwo ƒe dɔwɔwɔ, kple kpekpeɖeŋu na dɔwɔwɔ yeye siwo kekea Zcash ƒe vavã me zazã ene. Nuxlɔ̃ame sia fia be Zcash Labs wɔa dɔ le teknikál development, hãƒe ƒe hiahiãwo, kple ecosystem ƒe nukeke dome.
 
 ---
 
-## Gadzraɖo ƒe mɔnu kple asitsatsa ŋuti ɖoɖo si Zcash Labs wɔ la le dɔ wɔm.
+## Ale Si Zcash Labs Wɔa Dɔ Kple Hãƒoƒewo Kple Zazã ƒe Ame Siwo Ate Ŋu Anye
+
+Zcash Labs ɖe dɔwɔwɔ ƒe mɔ bɔbɔ aɖe me. Mɔa dzea egɔme kple ame siwo va gbɔna wo ƒe hiahiãwo ƒe se, eye emegbe woakpɔ vavãe be Zcash sɔ na zã nyawo ma hã. Ne esɔ la, woakpe ɖe asi be woaɖo zazã ƒe flow, teknikál hiahiãwo, kple trade-off alo design ƒe gɔmesese vovovowo siwo hiã be woaɖe ŋku ɖe. Emegbe la, woate ŋu akpe ɖe asi le teknikál solution ƒe tutu me, eye ne ehiã la, akpe ɖe asi le gã ƒe kpekpeɖeŋu kple hãƒoƒo ƒe dɔwɔwɔwo me.
+
+Mɔ sia le vevie, elabena dɔwɔwɔ ɖe sia ɖe menye nu si sɔ kple Zcash enumake o. To kpɔɖeŋu ƒe akpa ƒe nɔƒe le gɔmedzedze me la, Zcash Labs wɔa ŋutinya be yeanye implementation ƒe hãƒe si kpɔa nu le vavã me, menye adoption ƒe advocate si mekpɔa eƒe sɔsɔ kple xexeame ƒe hiahiãwo o.
 
 ---
 
-### Gadzraɖowɔƒe ƒe Mɔnu
+## Infrastructure Dɔwɔwɔ Tso Zcash Labs
 
-Zcash Labs ƒe nu vevi ɖeka enye be, wozãa ɖoɖo si nye "advance funding" (xexea me ga siwo woxɔna gbã) le eƒe dɔwɔwɔ me. Le mɔnu sia nu la, habɔbɔa ate ŋu azã eya ŋutɔ tɔ atsɔ axe fe na dɔwo do ŋgɔ ale be dɔwɔha aɖeke megalala ɣesiaɣi hafi va kpɔ mɔɖeɖe ɖe nunana ta o eye wòadze dɔa gɔme azɔ.
+Kpɔe be wònaa kpekpeɖeŋu le third-party ƒe tsɔtsɔwo me hã la, Zcash Labs hã wɔa dɔ kple doa infrastructure si doa asi ɖe mɔxɔxɔ ɖe Zcash network ŋu. Ɣeyiɣi si woɖe e fia na amewo la, habɔbɔa gblɔ be ye wɔa **Shielded Vote Validator** ƒe dɔ, eye wòle subɔsubɔwo dzɔm siwo me **Zcash ɣaɣla dzesi ŋɔŋlɔ blibo [full node]**, **lightwalletd**, kple **RPC** infrastructure le.
 
-Woate ŋu azã ga sia na dɔ yeyewo wɔwɔ, asitsatsa kple dɔwɔƒewo ƒe ɖekawɔwɔ, mɔ̃ɖaŋununya me ŋgɔyiyi kpakple hadomegbenɔnɔ. Zcash Labs ŋutɔ kpɔa ne wobu eƒe ɖoɖo aɖe be ele vevie ale gbegbe be wòaxɔ gakpekpeɖeŋu le gɔmedzedzea me la adze sii. Esi wònye kpeɖodzi siawo lɔ ganyawo si habɔbɔa kpɔna ta la, Zcash Laboratories xɔa tiatia siwo wowɔ la ŋuti viɖewo katã ɖe eɖokui dzi.
+ɣaɣla dzesi ŋɔŋlɔ blibowo zãa wo be woakpɔ network la gbɔ tẽ, eye woaɖo gaɖoɖowo ƒuƒoƒo ƒe ɖoɖonu ƒe data ɖe dzesi. lightwalletd kpea ɖe gakotokuwo [wallet] kple application bɔbɔwo ŋu be woaxɔ data si hiã tso network la me, tanpa be woawɔ gaɖoɖowo ƒuƒoƒo ƒe ɖoɖonu bliboa le woƒe teƒe. Le maɣetrɔ nu la, RPC naa mɔ be software siwo le gota nate ŋu anɔ nu ƒom kple blockchain ƒe ɣaɣla dzesi ŋɔŋlɔwo alo subɔsubɔwo.
 
-Ne dɔawo wu enu eye nane si woate ŋu adzro la do tso eme ko la, Zcash Labs ate ŋu atsɔ ga siwo wògblẽ le dɔa wɔwɔ me aɖo agbalẽ dzi to ɖoɖo aɖe si woyɔna be **Coinholder Directed Retroactive Grants** (Kɔmiti Siwo Dzi Woato Ana Kpekpeɖeŋu Ame Si Le Gadzraɖoƒe Aɖe Me). Eya ta dɔwɔlawo ƒe ganyawo kple teƒeɖoɖo nyea nu eve vovovo siwo dzɔna ɖe ɣeyiɣi vovovowo dzi.
+Infrastructure sia ƒe dɔwɔwɔ kplɔa ɖo tẽ ɖe Zcash Labs ƒe tsɔtsɔ ƒe dɔwɔwɔwo ŋu. Asitsɔƒewo kple mɔ̃ ƒe ɖoɖoŋlɔlawo siwo le Zcash applicationwo tum la hia mɔxɔxɔ si le dzidzedze ɖe network la ŋu. To subɔsubɔ siawo ƒe dɔwɔwɔ le ɖokuibɔbɔ me la, Zcash Labs ate ŋu akeke infrastructure ƒe mɔnu siwo li, eye wòakpɔ numetoto tso teknikál hiahiãwo siwo le tsɔtsɔwo siwo wònaa kpekpeɖeŋu wɔm me.
 
-Le dɔmenyo ƒe ɖoɖo si me wotrɔ asi le megbe la, wodea dzesi dɔa ne wowɔ nane siwo woate ŋu adzro. Zcash Labs naa ga gbã be woatsɔ akpe ɖe ŋgɔyiyiwo ŋu eye emegbe woɖoa dɔwɔƒe sia ƒe nuwɔwɔwo na ZEC-dɔlawo.
-
-Zcash Labs ɖe eme be nuxexlẽ ƒe didi le ga siwo woxɔ la me nye nusi wotsɔ xe fe si wodo xoxo kple **20-ƒe dzidziɖedzi.* Ga siae woatsɔ axe gakuxiwo kple dɔwɔna siwo habɔbɔa wɔ tsɔ kpe asi ɖe dɔa ŋu.
-
-Le kpɔɖeŋu me, ne Zcash Labs zãa ga si ade $5,000 tsɔ doa alɔ dɔ aɖe la, habɔbɔa ate ŋu abia be woaxe fe na ye ɖe esi ƒe home nye $6,000 dzi. Dɔla siawo dometɔ 5,000 le tsitre ɖi na woƒe gɔmedzekuxiwo eye ame 1,000 hã nye teƒeɖoɖo 20 le alafa me siwo woagatsɔ akpee nɛ.
-
-Such reimbursement requests are not automatically approved. Coinholders decide whether the work produced is deemed valuable enough to warrant funding. If a request is denied, the capital already spent remains the responsibility of Zcash Labs.
+Zcash Labs hã gblɔ be woado RPC subɔsubɔ bubuwo ɖe eŋu ne eƒe infrastructure nakeke. Esia fia be Zcash Labs ƒe dɔwɔwɔwo menɔ ɖe applicationwo tutu le Zcash ƒe dzi ko o, ke boŋ wònaa teknikál infrastructure si na applicationwo alo project mawo ate ŋu anɔ nu ƒom kple Zcash network la hã.
 
 ---
 
-### Afɔku Kple Gadzraɖoƒedzikpɔkpɔ Ŋuti Mɔɖegbalẽvi
+## Kpekpeɖeŋu Na Zcash Project
 
-Esi wònye be womena mɔxeɖenu aɖeke o ta la, Zcash Labs wɔa nu abe gadzraɖoƒedzikpɔla ene. Le go sia me la, ga dzrala nye ame si lɔ̃na faa nana gakpekpeɖeŋu eye wòtsɔa eƒe gazazãwo ƒe afɔku le ŋgɔ hafi dɔa nadze egɔme.
+Zcash Labs doa asi ɖe ɖokuibɔbɔ ƒe dɔwɔwɔwo ŋu siwo wokpɔ be woate ŋu akeke Zcash ƒe zazã. Woate ŋu ana kpekpeɖeŋu tso gɔmedzedze ƒe akpa, esi project aɖe nye susu ko hafi, eye mekpɔ zɔnu blibo siwo hiã be development nadze egɔme o.
 
-Ne xɔtulawo le kpekpeɖeŋu kpɔm la, mehiã be woaxe fe siwo katã woxɔna hafi akpɔ mɔ na ga si wonae o. Woate ŋu axɔ fetu ɖe dɔ si dzi wowɔ ɖoɖo ɖo ta; gake ne wova xe fea vɔ ko la, Zcash Labs ya kpɔa egbɔ.
+Le mɔ sia me la, Zcash Labs ate ŋu akpe ɖe asi be woaɖo teknikál mɔ, akpɔ nuƒoƒo ƒe development dzi, aɖo tsɔtsɔ ƒe hiahiãwo, ana infrastructure, eye wòana gã ƒe kpekpeɖeŋu. Ta lae nye be woakpe ɖe team aɖe ŋu be wòatso susu ƒe akpa yi nuƒoƒo si woate ŋu azã.
 
-Edzɔa dzi na Zcash Labs be woalé ŋku ɖe woƒe dɔwo ŋu nyuie ne wole ɖoɖo wɔm. Ele be woabu eŋu kpɔ nenye be nu si wowɔ la nyo, ateŋu awɔ dɔ le edzi loo alo mate ŋu aɖe vi o eye ele be woakpɔe hã be eɖea vi na ame siwo xɔa ZEC ƒe agbalẽawo. Ne womewɔ nyametsotso sia pɛpɛpɛ o eye wogbe fexeɖeta nana amewo la, ekema woawo ŋutɔwo dzie wòadze ɖo.
+Le nuƒoƒo na amewo ƒe me le Zcash Community Forum, Zcash Labs gblɔ be gã ƒe kpekpeɖeŋu gɔmedzedze na startup-wo le habɔbɔa ƒe dɔwɔwɔ ƒe akpa gɔmedzedze me la, zãna le **5 va se ɖe 10 ZEC** dome zi geɖe. Ga sia menye teƒe si womeate ŋu age o, elabena Zcash Labs hã kpɔa gã ƒe kpekpeɖeŋu gã wu na tsɔtsɔwo siwo wokpɔ be woƒe strategic value le na Zcash ƒe zazã.
 
----
-
-### Dɔwɔɖuiwo Tia Kple Wo Wɔwɔ
-
-Zcash Labs melalaa mɔ ko be dɔwo nava yewo gbɔ ava di ga o. Zcash Lab ate ŋu ade dzesi kuxi siwo wòbu nu veviwoe, adi ƒuƒoƒo alo dɔwɔha si te ŋu aɖo wo gbɔ eye emegbe ana kpekpeɖeŋu ne wokpɔe be afɔɖeɖe si woɖo la nyo.
-
-Alesi wowɔa nu ɖe amewo ŋu le Zcash Labs me la dze ƒãa. **[dɔwɔna le X dzi](https://x.com/zcashlabs)Zcash Labs di be yewoakpɔ kuxi aɖe si nye nugbegblẽwo gbɔ le nuŋububu ƒe aɖaŋuwɔwɔ me la gbɔ eye wogblɔ be ga li na mɔ siwo ŋu wobu be woate ŋu akpɔ kuxia gbɔe.
-
-Mɔ sia na Zcash Labs kpɔ gome le nu gbagbewo ƒe ɖoɖowɔwɔ me. Etea ŋu dea dzesi hiahiã siwo li, kpɔa ne wo gbɔ wòle be woakpɔe ɖa, dia xɔtula si sɔ nɛ eye wòzãa ga tsɔ kpena ɖe egbɔkpɔnuawo ŋu wodzea dɔwɔwɔ gɔme.
+Mɔ sia naa Zcash Labs ate ŋu anɔ dɔ wɔm ɖe ŋgɔ wu le mɔnu siwo wòkpɔ be woanye viɖe ŋu didi me. Zcash Labs mele be yeala ɖe project aɖe nadze ga ƒe kpekpeɖeŋu gɔme hafi yeana kpekpeɖeŋu o, elabena woate ŋu atsɔ Zcash Labs ƒe eya ŋutɔ ƒe kapital aɖe awɔ dɔwo.
 
 ---
 
-### Dɔwɔƒe ƒe Mɔfiafia, Gɔmedzedze le Nuwo Me Kple Ame Si Wole Ŋutilãme Na
-
-Zcash Labs ƒe gɔmedzedze me nɔnɔmetata to vovo na esi le ganyawo ŋuti dɔwɔƒe siwo wɔa dɔ kple ga. Le numedzodzro aɖe si wowɔ tso ** ŋu la, wogblɔ be: "Míekpɔe dze sii be ame geɖe doa kpo nuƒoƒo ɖe wo nɔewo ta".[Zcash Community Forum (Zaka ƒe Kɔmitia)](https://forum.zcashcommunity.com/t/announcing-zcash-labs-a-zcash-go-to-market-company/56975)Zcash Labs gblɔ be menye ga si yexɔna le dɔ siwo yedea dzi ƒo na me o. Wofiaa dɔwɔlawo ɖe woƒe dɔwɔwɔ alo nu siwo wokpɔ la ta zi geɖe.
-
-Eyata, ga xɔxɔ tso Zcash Labs gbɔ mefia be habɔbɔa va zu dɔ aɖe ƒe nunɔla o. Zcash Lab gblɔ hã bena menye nusi koŋ wotsɔna wɔa ɖoɖo ɖe woƒe viɖewo ŋu kple nusiwo dzi wokpena ɖo ye nye gadzraɖoƒea tɔ gome o.
-
-Ne Zcash Labs awɔ asitsatsa le gadzraɖoƒe aɖe me la, habɔbɔa gblɔ be womaxe ga si woazã atsɔ aƒle dɔwɔƒe ma o. Woana nyatakakawo hã tso nunɔamesi siwo ŋu dɔ wowɔnae ŋuti ne nɔnɔme sia va do mo ɖa.
+## Ga Ƒe Kpekpeɖeŋu Ƒe Model Kple Asitsɔƒe Ƒe Mɔ Tso Zcash Labs
 
 ---
 
-## ZcashToCash (Gazigba ɖe Ga)
+### Ga Ƒe Kpekpeɖeŋu Ƒe Model
 
-**[ZcashToCash (Gazigba ɖe Ga)](https://zcashto.cash/)** enye dɔdeasi gbãtɔ siwo dzi ame geɖe nya nu tsoe be Zcash Labs da asi ɖe edzi. Wowɔ dɔa tsɔ kpe ɖe amesiwo zãa ZEC ŋu wotrɔna zua ga si wotsɔ ɖo wo ɖokui ŋkume to asitsatsa me kple amewo domee (peer-to-peer).
+Zcash Labs ƒe nɔnɔ vevitɔ aɖee nye eƒe **upfront funding** ƒe model ƒe zazã. Le mɔ sia te la, habɔbɔa ate ŋu atsɔ eya ŋutɔ ƒe kapital adze projectwo ƒe ga ŋgɔ, ale be team aɖe mele be yeala ɖe ga ƒe kpekpeɖeŋu ƒe mɔ nadze vɔ hafi yeadze nuƒoƒo ƒe development gɔme o.
 
-zcashtocash zãa nuɖoanyi tso **Peer**. Wozãa ɖoɖo sia tsɔ dea dzesi ga siwo wotsɔna xea fe na ame le adzame hafi ɖea ZEC ɖe go le asitsatsa me. Esi wova do Zcash Labs ɖe amewo gbɔ la, woxɔ Cash App*, Chime* Monzo,* Revolut * Venmo kple Zelle*.
+Woate ŋu azã ga ƒe kpekpeɖeŋu sia na project yeye, asitsɔƒeawo kple habɔbɔwo ƒe tsɔtsɔ, infrastructure ƒe development, kple hãƒoƒo ƒe dɔwɔwɔwo. Zcash Labs dea eɖokui ƒe karar le be project aɖe le dzidzɔ ge hã be wòaxɔ gã ƒe kpekpeɖeŋu gɔmedzedze. Esi karar siawo kplɔa ɖo ɖe kapital si habɔbɔa le kpɔɖem la ŋu ta la, Zcash Labs tsɔa ga ƒe gomeɖeɖewo siwo tso tiatia siwo wòwɔ me la ƒe kɔta.
 
-Le nyatakaka si wona le ɣeyiɣi si me woɖe gbeƒãe la, ɖoɖo sia ƒe kpeɖeŋutɔ enye be woate ŋu akpɔ ga na ame siwo wu **100**. Dɔdzikpɔhaa ɖoe hã be yewoakeke nuxexlẽme kple teƒe vovovo siwo woakpe ɖe amewo ŋu atsɔ axe fewo ɖo la ɖe enu.
+Ne dɔa vɔ eye wòtsɔ nu aɖe si woate ŋu akpɔ ava la, Zcash Labs ate ŋu atsɔ fiƒiawo siwo wòwɔ la aɖo ɖe **Coinholder Directed Retroactive Grants** ƒe mɔ nu. Eya ta, kapital ƒe nana na builders kple fɔfɔ ƒe karar ƒe wɔwɔ nye mɔ eve vovovo siwo dzɔa le ɣeyiɣi vovovo me.
 
-Zcash Labs nɔ dɔ wɔm kple zcashtocash ƒuƒoƒo la do ŋgɔ na ɖoɖo sia ƒe dodo ɖe anyi. Eƒe gome le eme lɔ ga kpakple mɔ̃ɖaŋununyawo kple nuɖaŋuɖoɖo siwo ŋu wotrɔ asi le dzi kpɔkpɔ kpe ɖo hã ɖe eme. Esia wɔe be, zcash to cash va zu kpɔɖeŋu gbãtɔ si ɖee fia alesi Zcash Lab ƒoa gadzraɖoƒewo, nuwo wɔwɔ gbɔ kplɔnɛ eye wowɔa wo ŋudɔdɔwoe dome le Zcash-dɔ aɖe me.
+Le retroactive grants ƒe mɔ me la, wokpɔa project aɖe ƒe nɔnɔ ne dɔa tsɔ nu aɖe si woate ŋu akpɔ va. Zcash Labs naa ga gbã be wòado asi ɖe development ŋu, eye emegbe wòtsɔ dɔ ma ƒe kutsetsewo dea ɖe ZEC coinholders ƒe ŋkume.
 
-Le go sia me la, Zcash Labs kpe ɖe eŋu wòna nukpɔsusu aɖe va ɖo eme vava gbɔ, ena kpekpeɖeŋu si hiã le ŋgɔyiyi wɔwɔ me eye wòtsɔ nusiwo wowɔ tsɔ wɔ dɔe be woatsɔ awɔ nudzraɖo ŋuti nyatakakawo ŋu dɔ.
+Zcash Labs ɖe eme be fɔfɔ ƒe biabiawo ƒe tae nye be woaɖe fiƒiawo siwo woɖe xɔ vɔ la kple **20 percent markup**. Ga bubu sia nye fɔfɔ na ga ƒe afɔku kple dɔwɔwɔ ƒe dɔ si habɔbɔa wɔ esi wònɔ project la dom asi.
 
----
+Le kpɔɖeŋu me, ne Zcash Labs zã **$5,000** ƒe kapital be wòadzɔ project aɖe ƒe ga la, habɔbɔa ate ŋu abiabia **$6,000** le model sia nu. $5,000 la fia gɔmedzedze ƒe fiƒiawo, eye $1,000 la nye 20 percent ƒe fɔfɔ bubu.
 
-## Nudzraɖowɔƒewo Dzi Kpɔkpɔ
-
-Nuwo ƒe ɖoɖowɔwɔ nye nu bubu si Zcash Labs wɔna tsɔ kpena ɖe amewo ŋu. Dɔ sia kpea asi ɖe dɔwɔha aɖe ŋu be woatia nusiwo hiã le nuwo wɔwɔ me, ɖo ŋgɔgbedɔwo anyi, xe mɔ̃ na amesiwo zãm wole kple alesi wowɔnae la dome eye wokpɔ egbɔ hã be dɔa zɔ nyuie va se ɖe esime wodzra nane ɖo hena eɖoɖo te.
-
-Dɔ sia de ŋgɔ wu mɔ̃ɖaŋununya si ku ɖe mɔnu siwo dzi woato akpɔ kuxi aɖe gbɔ, eye dɔdzikpɔlawo kpɔa egbɔ be ale si wowɔa nuwo ŋu la wɔ ɖeka kple nuɖoanyiwo ƒe taɖodzinuwo heva ɖoa ame bubuwo gbɔ.
-
-Etsɔtsotso eve siawo na be Zcash Labs wɔa dɔ menye abe kɔmpiutaɖoɖowo wɔwɔ ƒe ƒuƒoƒo ko ene o, ke boŋ enye habɔbɔ si kpena ɖe dɔwɔha ŋu wòtea ŋu toa mɔnu sia dzi zɔa mɔ tso susua me yia dɔwɔwɔ blibo gbɔ.
+Fɔfɔ ƒe biabia siawo mexɔa yɔyɔ enumake o. Coinholders-woe dea karar be dɔ si wòdo va la le vevie hã be wòaxɔ ga. Ne wogbe biabia aɖe la, kapital si woɖe xɔ xoxo la anɔ Zcash Labs ƒe responsibility te.
 
 ---
 
-## Dɔwɔƒe Siwo Wotsɔa Wo Ðoa Asii
+### Afɔku Kple Ga Ƒe Underwriting
 
-Zcash Labs hã naa **ƒleƒoƒe ƒe ɖoɖowo** na dɔ aɖewo. Ƒleƒoƒo nyea asitsatsa si wowɔna ɖekae be woatsɔ akpe ɖe nusiwo li xoxo ŋu woade ame siwo hiã la gbɔ.
+Esi fɔfɔ menye nu si wokaka ɖe edzi o ta la, Zcash Labs wɔa dɔ abe **financial underwriter** ene. Le nɔnɔ sia me la, financial underwriter nye ame alo habɔbɔ si di be yeana kapital, eye wòatsɔ ga ƒe manyamanya ƒe afɔku la do ŋgɔ, be project aɖe nava gɔme.
 
-Dɔ sia nye go-to-market ƒe mɔnu aɖe, elabena menye mɔ̃ɖaŋunuwo zazã nyuie ɖeɖe koe nana be wozua dɔwɔnuwo o. Ele hã be amewo nakpɔ gome le dɔa me eye ame siwo dze na dɔ la nadze si nua ahaxɔe ɖe asi ŋutɔŋutɔ.
+Builders siwo xɔa kpekpeɖeŋu mele be woatsɔ afɔku bliboa akɔ esi woala ɖe retroactive funding ƒe kutsetsewo o. Woate ŋu axɔ fexexe le dɔ si woɖo ɖe enu nu, eye Zcash Labs atsɔ afɔku la be fiƒia mawo axɔ fɔ emegbe hã.
 
-By incorporating co-marketing into its support model, Zcash Labs can remain involved even after the technical development phase is complete. The organization can help projects transition from the development phase to the adoption phase.
-
----
-
-## Ƒomedodo Si Le Wo Kple ZEC Ƒe Klosalowo Dzɔlawo Dome
-
-In the Zcash Labs model, the organization and ZEC coinholders have distinct roles. Zcash Labs determines whether it is willing to take on the risk of providing capital to a project, while coinholders determine whether the results produced warrant retroactive reimbursement.
-
-Numeɖeɖe sia naa be wote ŋu dzea dɔ gɔme le esi womekpɔ gaxɔlawo ƒe mɔɖegbalẽ hafi o. Zcash Labs ateŋu awɔ nyametsotsowo to nuŋɔŋlɔ siwo wowɔna me eye woazã woƒe ganyawo atsɔ awɔe. Ne wokpɔe dze sii la, mɔnukpɔkpɔ sua ame si akpɔ ne dɔa wɔ vi na amea alo mewɔe nyuie o.
-
-Le mɔ sia nu la, gaxɔlawo metiaa dɔ siwo Zcash Labs ate ŋu adze egɔme o. Wotsoa nya me nenye be dɔa si wowu dzi dze na teƒeɖoɖo to ɖoɖowɔɖi si naa gakpekpeɖeŋu tso ɣeyiɣi aɖe megbe dzi.
+Ɖoɖo sia wɔa be Zcash Labs nakpɔa ŋku nyuie ne wòle projectwo tiatim. Zcash Labs hiã be wòabu be nuƒoƒo aɖe ƒe zã nyawo le kɔkɔe hã, wòate ŋu adzɔ hã, wòate ŋu akpɔ zazã hã, eye wònaa viɖe si ZEC holders ate ŋu akpɔ. Ne kpɔɖeŋu sia menye nyateƒe o eye wogbe fɔfɔ la, Zcash Labse kɔa karar ma ƒe ga ƒe gomeɖeɖewo.
 
 ---
 
-## Zcash Labs ƒe Ðokuisinɔnɔ
+### Project Ƒe Tiatia Kple Development
 
-Zcash Labs gblɔ le dutoƒo be enye habɔbɔ si dze eɖokui dzi eye mele kadodo me kple **Zcash Foundation**. Ewɔna ɖe ɖoɖo siwo ŋu woakpe asi ɖo la dzi, eye ga siwo wozãa nɔa habɔbɔa ƒe agbanɔamedzi te.
+Zcash Labs melaa ɖe projectwo nadze wo gbɔ be woabia ga ƒe kpekpeɖeŋu ko o. Zcash Labs hã ate ŋu aɖe kuxi siwo wòkpɔ be wo le vevie, adi teamwo alo mɔ̃ ƒe ɖoɖoŋlɔlawo siwo ate ŋu ana solution, eye emegbe wòana kpekpeɖeŋu ne wokpɔ be mɔ si woɖo la ate ŋu adzɔ.
 
-Eyata Zcash Labs mewɔa dɔ abe kɔmiti si dea ga siwo nye Zcash Foundation tɔ la asi o. Ewɔwɔ kple habɔbɔ ƒe gadzraɖowɔƒe va dzɔ le dɔa wuwu megbe, esime dɔwɔha ate ŋu aɖo biabia ɖe numegbexɔlawo be woaxe fe na wo emegbe.
+Mɔ sia ɖea eɖokui fia le Zcash Labs ƒe **[activity on X](https://x.com/zcashlabs)**. Zcash Labs di solutionwo kpɔ gbeɖeka na bug bounty ƒe kuxi le artificial intelligence ƒe development me, eye wògblɔ be ga le sɔŋ na solutionwo siwo wokpɔ be woate ŋu aɖo kuxia.
 
-Ðoɖo sia na Zcash Labs wɔa nu le eɖokui si ne wole dɔwo tiam eye wonɔ te ɖe mɔnu yeyewo ŋu, evɔ wogakpɔa ga tso ZEC-tɔawo gbɔ ku ɖe dɔa siwo wodzra ɖo la ŋuti.
-
----
-
-## Zcash Labs ƒe Vevienyenye le Ecosystem me
-
-Zcash Labs ƒe dɔdeasi ate ŋu ase egɔme be enye mɔ̃ si le nuɖoanyi sia kple eƒe dɔwɔwɔ dome. Blockchain-dɔwɔƒe geɖewo li siwo me dɔwɔnu siawo sɔ nyuie, gake wotea tɔtɔna ne wole amewo zãm o elabena womate ŋu awɔ ɖeka kpli wo alo woakpɔ ga na dɔa gɔme ɖeɖe bɔbɔe o. Ehiã be woawɔ ɖoɖo ɖe aɖaŋuɖoɖowo nana ame bubuwo hã ŋuti hafi woate ŋu azã kɔmpiuta dzi nyatakakawo ale gbegbe be wòadze abe agbalẽ ene.
-
-Ne woƒe kpɔɖeŋu la kpɔ dzidzedze la, Zcash Labs ate ŋu anye alesi habɔbɔ si le eɖokui si teŋu dea dzi ƒo na amesiwo zãa ga be woazã Zcash to dzidzenu siwo ku ɖe nusi numegbexɔlawo ƒe nudzidzea fia ŋuti me. Eyata menye ɖeko Zcash Lab nye dɔwɔla bibi aɖe ko o ke enye ɖoɖowɔha ƒe dodokpɔ hã hena gakpekpeɖeŋu kple nuɖoanyi sia tutu ɖo.
+Mɔ sia naa Zcash Labs nɔƒe si le active wu le ecosystem ƒe development me. Zcash Labs ate ŋu aɖe hiahiãwo le gɔmedzedze, aɖo be hiahiã mawo le vevie hã, adi builders si sɔ, eye emegbe wòazã kapital akpe ɖe asi be solutionwo ava implementation ƒe akpa.
 
 ---
 
-## Mɔ Siwo Woato Adzi Ƒuɖoɖiawo Dzi
+### Asitsɔƒe Ƒe Mɔ, Equity, Kple Nudzɔdzɔ
 
-Esi woɖo habɔbɔa ɖe dukɔmeviwo la, Zcash Labs gblɔ be dɔ bubuwo kple ɖekawɔwɔwo le edzi yim gake womegblɔ wo haɖe o. Wole ɖoɖo wɔm be woaɖe nyatakaka siwo ku ɖe dɔa ŋu afia vivivi ne dɔwɔƒe ɖesiaɖe dze egɔme azɔ ko.
+Zcash Labs ƒe model gɔmedzedze to vovo na venture capital ƒe firm trɔxɔwo. Le nuƒoƒo aɖe me le **[Zcash Community Forum](https://forum.zcashcommunity.com/t/announcing-zcash-labs-a-zcash-go-to-market-company/56975)**, Zcash Labs gblɔ be womexɔ equity le projectwo siwo wòdoa asi ɖe asi kplii me o. Zi geɖe la, wo xea team la ƒe fexexe le dɔ si woɖo ɖe enu alo deliverables nu.
 
-Le mɔ̃ɖaŋununya gome la, Zcash Labs hã le ɖoɖo wɔm be yewoakeke yewoƒe dɔwɔƒewo ɖe enu to RPC bubuwo nana me. Etsɔme ƒe nyagbɔgblɔe nye be habɔbɔa dze egɔme kple nunana suewo eye wole ŋku lém ɖe alesi gaxɔlawo ɖoa biabia siwo wobiana tso wo si hena fexeɖeta wɔwɔ emegbe ŋu.
+Eya ta, ga ƒe kpekpeɖeŋu ƒe xɔxɔ tso Zcash Labs gbɔ menaa habɔbɔa zu project aɖe ƒe owner aɖe enumake o. Zcash Labs hã gblɔ be equity menye mɔ vevitɔ si wo zãa be woatsɔ projectwo siwo wo doa asi ɖe asi kplii ƒe interests asɔ kple wo tɔ o.
 
-Ne nɔnɔme sia va xɔ aƒe ɖi la, Zcash Labs ate ŋu ana be ga si woazã atsɔ awɔ dɔwo alo ade nu bubuwo me ƒe agbɔsɔsɔme dzi ɖe edzi eye wòate ŋu axɔ afɔku le dɔwɔƒe gãwo kple ɖoɖo yeye siwo wowɔna hã me. Esiawo dometɔ aɖewoe nye kpekpeɖeŋu na asitsatsa geɖe, startups, mɔ̃ɖaŋunuwo, kple dɔwɔnu bubu siwo zãa Zcash.
+Ne Zcash Labs awɔ equity investment le etsɔme la, habɔbɔa gblɔ be equity ma ƒe xɔxɔ ƒe fiƒia mexɔ fɔ le retroactive grant ƒe mɔ me o. Woaɖe nudzɔdzɔ ƒe kpekpeɖeŋu siwo sɔ fia hã ne nɔnɔ ma va dzɔ.
 
-As of **[Dzove 2026 me](https://x.com/ZcashLabs/status/2087561557253267919?s=20)**, Zcash Labs gale eƒe dɔwɔnawo ƒe gɔmedzedze me kokoko, eyata dɔwɔɖoɖowo kple ɖoɖo bubuwo kpakple mɔ̃ɖaŋunu siwo le edzi yim la gakpɔtɔ nɔ dzidzim ɖe edzi.
+## ZcashToCash
 
----
+**[ZcashToCash](https://zcashto.cash/)** nye dɔwɔnu siwo katã me, enye ɖeka si xexeame nyawo na be wòxɔ kpekpeɖeŋu tso Zcash Labs gbã. Wodze dɔwɔnu sia be wòakpe ɖe ezalawo ŋu woatrɔ ZEC aɖe fia ga me to ametsɔame gaɖoɖowo [transactions] dzi.
 
-## Amewo Gbɔ Ðoɖo
+zcashtocash zã ƒe nutoɖoɖowo tso **Peer** gbɔ. Wozã ɖoɖo sia be woakpɔ fia ga ƒe fexexewo [payments] ɖa hafi woaɖe ZEC ɖe gaɖoɖo me. Esi woɖe Zcash Labs fia ame sia ame la, subɔsubɔa de **Cash App**, **Chime**, **Monzo**, **Revolut**, **Venmo**, kple **Zelle** kpɔ xoxo.
 
-Zcash Labs zãa **[zcashlabs.org (Gazigbe me: gawɔla)](https://zcashlabs.org/)Wona nyatakaka bubuwo tso eƒe ɖoɖowo ŋu le axa si wota ɖe eŋu koŋ ku ɖe ɖoɖo siwo dzi wòtona kpɔa ga kple habɔbɔa ƒe nyadzɔdzɔwo me.
+Le nyatakaka si woɖe gbe esi woɖe dɔwɔnu la fia me la nu, fexexe ƒe subɔsubɔwo ƒe ƒuƒoƒo sia ate ŋu akpɔ teƒe geografi ƒe nuto 100 wu. Hamea le ɖoɖo wɔm be yeakpɔ fexexe ƒe apps kple nutoa siwo wodea la ƒe xexlẽme la hã dzi.
 
-Zcash Labs hã zãa **.[Zcash Community Forum (Zaka ƒe Kɔmitia)](https://forum.zcashcommunity.com/t/announcing-zcash-labs-a-zcash-go-to-market-company/56975)** be woaƒo nu kple nutoa me tɔwo le alesi habɔbɔa wɔa dɔe ŋu. Nyatakakawo na numeɖeɖe bubuwo ku ɖe ɖoɖo si wowɔna hena kpekpeɖeŋunana ame ƒe gɔmedzedze, ga siwo woxɔna tso amewo gbɔ, afɔku siwo dona tsoa eme ne wotrɔ asi le eŋu la ŋuti, ale si woawɔ akpɔ woƒe ganyawo gbɔe kpakple ɖoɖo siwo li be woate ŋu adzi dɔa dzi nenye be woteŋu wɔ ɖoɖoa nyuie.
+Zcash Labs nɔ dɔ wɔm kple zcashtocash ƒe ha la hafi woɖe dɔwɔnu la gɔme. Eƒe hãɖeɖe me la, wòna ga kple tekniki kple dɔwɔnu ƒe kpɔkpɔ ƒe kpekpeɖeŋu. Eya ta zcashtocash va zu kpɔɖeŋu gbãtɔwo dometɔ ɖeka si fia ale si Zcash Labs ƒoa ga, dɔwɔnu ƒe ŋgɔyiyi, kple dɔwɔwɔ ƒe kpekpeɖeŋu ɖekae le Zcash ƒe dɔwɔnu me.
 
-Le social media dzi la, habɔbɔa zãna ** si nye "*" le eƒe nyatakakadzraɖoƒea.[@ZcashLabs](https://x.com/zcashlabs)** X dzi nyatakakawo be woata nu yeye, ɖoɖowɔɖiwo, ga ƒe mɔnu siwo li kple hiahiã si le mɔ̃ɖaŋunu siwo wobuna be wole vevie na Zcash ŋu.
-
----
-
-## Nya Vevi Siwo Le Eme
-
-**Zcash Labs nye habɔbɔ si le eɖokui dzi, eye eƒe dɔdeasiwo dometɔ ɖekae nye be wòana Zcash nava nɔ ga zãm nyuie.** Zcash Labs kpena ɖe dɔwɔƒewo kple agbalẽdzraɖoƒewo ŋu wowɔa nu siwo hiã la to Zcash-mɔ̃ɖaŋununya me. Wowɔa esia tsɔ tua dɔwɔnuwo, asitsatsawo kple mɔ̃ bubuwo hã ɖo ale be woate ŋu azã wo atsɔ awɔ nuwo na amewo alo akpɔ ŋusẽ nyui ɖe woƒe ganyawo dzii.
-
-Zcash Labs ƒe model la tsɔ technical expertise kple ga kpe ɖe wo ŋu. Eŋu habɔbɔa ate ŋu akpe asi le ɖoɖowo wɔwɔ me, ana nuɖoanyi si hiã be woawɔ dɔ tso eŋu, akpɔ nuwo gbɔ nyuie eye wòazã eya ŋutɔ ƒe gakpekpeɖeŋu atsɔ ado alɔ dɔa hafi woaxɔ eƒe home na ame bubuwo.
-
-Ne dɔ aɖe wɔ nu xɔasi la, Zcash Labs ate ŋu abia be woaxe fe na yewo to Coinholder Directed Retroactive Grants me eye woagatsɔ ga si ƒe home nye 20 le alafa me akpee ɖe afɔku kple dɔwɔgafewo ta. Gake ne womexɔa woƒe agbagbadzedzeawo dzi o la, ganyawo katã anɔ Zcash Laboratories gbɔ.
-
-To mɔnu sia dzi la, Zcash Labs ƒe taɖodzinue nye be yeana mɔ si zɔ tẽ wu tso hiahiã alo susu aɖe gbɔ ayi ɖe dɔwɔƒe kple nuzazã nyuie le Zcash zazã me.
+Le nya sia me la, Zcash Labs kpe ɖe susu aɖe ŋu wòyi ɖe dɔwɔwɔ me, ena nu siwo hiã le ŋgɔyiyi me, eye wozã nu siwo wode blibo la abe teƒe si dzi woatsɔ abiã ga ƒe ɖeɖe megbe ene.
 
 ---
 
-## Nuŋlɔɖiawo
+## Dɔwɔnu ƒe Kpɔkpɔ
+
+Dɔwɔnu ƒe kpɔkpɔ hã nye kpekpeɖeŋu si Zcash Labs naa dɔwɔnuwo ƒe akpa bubu. Dɔa kpe ɖe ha aɖe ŋu wòade dɔwɔnu ƒe hiãhiãwo gɔme, wòade ŋgɔyiyi ƒe nɔnɔawo ƒe tɔtrɔ, wòawɔ dzidzɔ le ezala ƒe hiãhiãwo kple tekniki ƒe dɔwɔwɔ dome, eye wòana dɔwɔnu la nayina ɖe dɔwɔnu si dzɔ be woaɖe gɔme me.
+
+Dɔ sia ɖoa solutions engineering ƒe dɔa dzi. Solutions engineering le dɔ wɔm tso ale si woatso tekniki ƒe kuxi aɖe gbɔ la ŋu, ke dɔwɔnu ƒe kpɔkpɔ kpe ɖe edzi be ɖoɖo si wowɔ la nasɔ kple dɔwɔnu la ƒe taɖodzinuwo eye wòanɔ ezalawo gbɔ.
+
+Woƒe ƒuƒoƒo na Zcash Labs nɔa dɔ wɔm menye abe software ƒe ŋgɔyiyi ƒe ha ko ene o, ke boŋ abe habɔbɔ aɖe si kpe ɖe dɔwɔnu aɖe ŋu wòato mɔ tso susu aɖe me va se ɖe dɔwɔnu si wɔa dɔ blibo me ene.
+
+---
+
+## Ƒome Ƒe Asitsɔtsɔ
+
+Zcash Labs hã naa **ƒome ƒe asitsɔtsɔ** na dɔwɔnu aɖewo. Ƒome ƒe asitsɔtsɔ nye asitsɔtsɔ ƒe dɔ si wodea ɖekae be wòakpe ɖe dɔwɔnu siwo li xoxo ŋu woanɔ ezala siwo dze eŋu gbɔ.
+
+Dɔ sia nye go-to-market ƒe mɔnu la ƒe akpa, elabena dɔwɔnu aɖe ƒe dzidzedze menɔa software la ƒe ŋutinya be wòawɔ dɔ ko dzi o. Dɔwɔnu aɖe hã hia be wòaxɔ mɔ ɖe amewo gbɔ, ame siwo dze eŋu nadi, eye mɔ nanɔ eŋu be woazãe le xexeame.
+
+To ƒome ƒe asitsɔtsɔ ƒe kpekpeɖeŋu tsɔtsɔ de eƒe kpekpeɖeŋu ƒe mɔnu me la, Zcash Labs ate ŋu ayi edzi akpɔ dɔa dzi hã esi tekniki ƒe ŋgɔyiyi ƒe akpa wu enu. Habɔbɔa ate ŋu akpe ɖe dɔwɔnuwo ŋu woatso tso ŋgɔyiyi ƒe akpa me ayi zãzã ƒe akpa me.
+
+---
+
+## ZEC Kple Kɔin ƒe Nɔlawo ƒe Kadodo
+
+Le Zcash Labs ƒe mɔnu me la, habɔbɔa kple ZEC ƒe kɔin ƒe nɔlawo wɔnɔnu vovovowo. Zcash Labs dea ɖe edzi be yeadi be yeatsɔ afɔɖeɖe si le ga ƒe nana na dɔwɔnu aɖe me la, ke kɔin ƒe nɔlawo dea ɖe edzi be nu siwo wodea la dze be woaɖe ga na wo megbe hã.
+
+Mãmã sia na ŋgɔyiyi dzɔa gɔme ne kɔin ƒe nɔlawo meda asi ɖa o. Zcash Labs ate ŋu awɔ ŋutɔ ƒe asitsɔtsɔwo tso eme ŋutɔ ƒe kpɔkpɔwo nu eye wòazã eƒe ga awɔ dɔa. Ne nu siwo woate ŋu akpɔ ɖa li la, kɔin ƒe nɔlawo kpɔ mɔ be woakpɔe be dɔa na asixɔxɔ de.
+
+Le mɔ sia nu la, kɔin ƒe nɔlawo mede dɔwɔnu siwo Zcash Labs ate ŋu adze gɔme la o. Wodea ɖe edzi be dɔ si wowu la dze be woaɖe ga na wo to ga ƒe ɖeɖe megbe ƒe mɔnu la dzi.
+
+---
+
+## Zcash Labs Ƒe Ɖokui Ƒe Tɔtrɔ
+
+Zcash Labs gblɔa na ame sia ame be enye **habɔbɔ si tsitre le eɖokui ŋu** eye menye **Zcash Foundation** ƒe akpa o. Zcash Labs wɔa tsɔtsɔ tso dɔwɔnu siwo woakpe ɖe ŋu la ŋu, eye ga siwo wozãa la le habɔbɔa ƒe kpɔkpɔ te.
+
+Eya ta Zcash Labs menɔa dɔ wɔm abe komiti si maa ga si le Zcash Foundation ƒe asi ene o. Kadodo kple hamea ƒe ga ƒe mɔnu la va dzɔa esi dɔa wu enu, esi habɔbɔa ate ŋu aɖo ga ƒe ɖeɖe megbe ƒe biabia ɖe kɔin ƒe nɔlawo ŋu.
+
+Ɖoɖo sia na Zcash Labs wɔa dɔ ɖe eɖokui ŋu ne wòtia dɔwɔnuwo eye wòle mɔ yeye wo dom, esi wòxɔa ga ƒe nya ƒe ŋuɖoɖo tso ZEC ƒe nɔlawo gbɔ tso dɔ si wowu la ŋu.
+
+---
+
+## Zcash Labs Ƒe Hiãhiã Le Ecosystem Me
+
+Woate ŋu ase Zcash Labs ƒe dɔ gɔme abe ga ƒe lẽ [bridge] si le Zcash ƒe teknolojia kple zãzã ƒe hiãhiã siwo le wɔnɔa me dome ene. Blockchain, gaɖoɖowo ƒuƒoƒo ƒe ɖoɖonu, ƒe dɔwɔnu geɖewo wɔnɔa teknologia sesĩe, gake wokpɔa kuxi le zãzã gã ƒe kpɔkpɔ me, elabena kadodo ƒe glɔɖiwo li, tekniki ƒe kpekpeɖeŋu menɔ o, alo ga gbãtɔ ƒe nya menya o. Zcash Labs di be wòaɖo teƒe ma ƒe ƒome to aɖaŋutɔ ƒe ƒuƒoƒo si me advice, dɔwɔwɔ, nutoɖoɖo, kple ga ƒe nana le.
+
+Ne woƒe mɔnu sia dze edzi la, Zcash Labs ate ŋu anye kpɔɖeŋu na ale si habɔbɔ si tsitre le eɖokui ŋu ate ŋu ana Zcash ƒe zãzã nadze edzi to dzidzedze ƒe nu siwo kɔin ƒe nɔlawo ƒe hamea kpɔa ɖa tẽ. Eya ta Zcash Labs le vevie menye abe subɔsubɔ ƒe nɛla ko ene o, ke boŋ abe habɔbɔ ƒe dodokpɔ le Zcash ecosystem ƒe ga ƒe nana kple dzidzi me hã.
+
+---
+
+## Ŋgɔyiyi Ƒe Mɔwo
+
+Esi woɖe habɔbɔa fia ame sia ame la, Zcash Labs gblɔ be dɔwɔnu kple kadodo bubuwo le dɔ me, gake woɖe wo gbe haɖe o. Woɖoe be woaɖe nyatakaka tso dɔ sia ŋu ɖe eme vievie ne dɔwɔnu sia sia le dzadzraɖo be woaɖe eƒe nya gɔme.
+
+Le nutoɖoɖo ƒe akpa me la, Zcash Labs hã ɖoe be yeakaka subɔsubɔ siwo li la me to RPCs bubuwo ƒe nana. Le ga ƒe nana ƒe akpa me la, habɔbɔa dze egɔme kple ga ƒe kpekpeɖeŋu [grants] suewo, esi wòle kpɔm ale si kɔin ƒe nɔlawo ƒoa nu ɖe ga ƒe ɖeɖe megbe ƒe biabiawo ŋu.
+
+Ne mɔnu sia dze edzi la, Zcash Labs ate ŋu akaka ga si wotsɔa wɔa dɔ la me eye wòatsɔ afɔɖeɖe le dɔwɔnu gãwo alo kadodo gãwo me. Ŋgɔyiyi siawo ate ŋu akpɔ kpekpeɖeŋu na asiwo, dɔwɔƒe yeyewo, nutoɖoɖowo, kple subɔsubɔwo siwo zãa Zcash.
+
+Le **[August 2026](https://x.com/ZcashLabs/status/2087561557253267919?s=20)** me la, Zcash Labs gale eme ƒe dɔwɔwo ƒe gɔmedzedze ƒe akpa me ko, eyata dɔwɔnuwo, kadodowo, kple nutoɖoɖowo ƒe xexlẽme gale dzidzim.
+
+---
+
+## Ame Ƒe Kadodo
+
+Zcash Labs zãa **[zcashlabs.org](https://zcashlabs.org/)** abe eƒe nyatakaka ƒe aƒe gã ene be wòagblɔ eƒe subɔsubɔwo, ga ƒe nana ƒe mɔnu, dɔwɔnuwo, kple habɔbɔ ƒe ŋgɔyiyiwo ƒe nya. Nyatakaka si le eme geɖe tso eƒe ga ƒe nana ƒe mɔnu ŋu hã le axa si ŋu woŋlɔ tso ga ƒe nana ƒe mɔnu ŋu kple habɔbɔ ƒe gbeɖeɖe ƒe nyatiwo me.
+
+Zcash Labs hã zãa **[Zcash Community Forum](https://forum.zcashcommunity.com/t/announcing-zcash-labs-a-zcash-go-to-market-company/56975)** be wòakpɔ nya kple hamea tso ale si habɔbɔa wɔa dɔ la ŋu. Gbeɖeɖe ƒe threadwo naa gɔmesese bubu tso ga ƒe kpekpeɖeŋu gbãtɔ ƒe lolome, ga ƒe ƒoɖoɖo, ga ƒe ɖeɖe megbe ƒe afɔɖeɖe, equity ƒe mɔnu, kple ɖoɖowo be woakaka dɔwo me ne mɔnu sia xɔ kpekpeɖeŋu la ŋu.
+
+Le social media dzi la, habɔbɔa zãa **[@ZcashLabs](https://x.com/zcashlabs)** konto le X dzi be wòaɖe ŋgɔyiyiwo, dɔwɔnuwo, ga ƒe nana ƒe mɔwo, kple ɖoɖo ƒe hiãhiã siwo wobia be wòle vevie na Zcash la gɔme.
+
+---
+
+## Ƒome Ƒe Nuxɔxɔ
+
+**Zcash Labs nye habɔbɔ si tsitre le eɖokui ŋu, si le dɔ wɔm ɖe Zcash ƒe go-to-market ƒe mɔnu, kadodo, kple zãzã wɔnɔa ŋu.** Zcash Labs kpe ɖe asiwo, habɔbɔwo, mɔ̃ ƒe ɖoɖoŋlawo [developers], kple dɔwɔnu siwo tsitre le woɖokui ŋu ŋu be woazã Zcash ƒe teknolojia atso dɔwɔnuwo, subɔsubɔwo, kple nutoɖoɖowo siwo woate ŋu azã le xexeame wɔ.
+
+Zcash Labs ƒe mɔnu la ƒoa tekniki ƒe nunya kple ga ƒe nana ɖekae. Habɔbɔa ate ŋu akpe ɖe kadodowo ƒe ɖoɖo kple tutu ŋu, wòana nutoɖoɖo, wòakpɔ dɔwɔnu ƒe ŋgɔyiyi dzi, eye wòazã eɖokui ƒe ga akpe ɖe dɔa ŋu hafi wòaxɔ ga ƒe ɖeɖe megbe.
+
+Ne dɔwɔnu aɖe dea nu si le asixɔxɔ me la, Zcash Labs ate ŋu aɖo ga ƒe ɖeɖe ƒe biabia to Coinholder Directed Retroactive Grants ƒe mɔnu la dzi, kple 20 percent ƒe ga bubu si woɖe kpe ɖe edzi abe fetu na afɔɖeɖe kple dɔwɔwɔ ƒe ga zãzã ene. Ne womexɔ biabia la o la, ga ƒe afɔɖeɖe la nɔa Zcash Labs gbɔ.
+
+To mɔnu sia dzi la, Zcash Labs di be wòawɔ mɔ si tso hiãhiã alo susu aɖe me yi ɖe Zcash ƒe dɔwɔwɔ si wɔa dɔ blibo eye woate ŋu azãe la me la nadze tẽ.
+
+---
+
+## Nudzodzro
 
 [Zcash Labs](https://zcashlabs.org/)
 
-[Míele gbeƒã ɖem Zcash Labs: A Zcash Go-to-Market Company](https://forum.zcashcommunity.com/t/announcing-zcash-labs-a-zcash-go-to-market-company/56975)
+[Gbeɖeɖe tso Zcash Labs ŋu: Zcash Go-to-Market ƒe Hɔ̃](https://forum.zcashcommunity.com/t/announcing-zcash-labs-a-zcash-go-to-market-company/56975)
 
 [Zcash Labs le X dzi](https://x.com/zcashlabs)
 
-[Zcash Labs le GitHub dzi](https://github.com/zcashlabs)
+[Zcash Labs le GitHub](https://github.com/zcashlabs) dzi
 
-[Zcash Labs le Internet dzi Blogwo me](https://zcashlabs.org/blog)
+[Zcash Labs le Web Blogs dzi](https://zcashlabs.org/blog)

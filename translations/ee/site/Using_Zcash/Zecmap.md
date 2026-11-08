@@ -4,148 +4,148 @@
 
 # ZecMap
 
-ZecMap nye xexeame katã ƒe nyatakakadzraɖoƒe si nutoa me tɔwo kplɔna hena asitsahawo kple dɔwɔƒe siwo xɔa Zcash (ZEC) didi. Wotue ɖe anyigbatata ƒe ŋgɔdonya si me wowɔa nu aduadu le dzi, eye wòkpena ɖe ZEC xɔlawo ŋu woɖoa nyabiase nyui aɖe ŋu: **"Afikae mate ŋu azã nye ZEC le?"**
+ZecMap nye dukɔ bliboa me, hamea ƒe agbalẽdzraƒe si wozãna tsɔ di asitsɔwɔƒewo kple dɔwɔƒewo siwo xɔa Zcash (ZEC). Woɖo eŋu le map si wòate ŋu adze si me, eye ekpena ɖe ZEC ƒe tɔxɛlawo be woaɖo biabia si wòle vevi: **"Afika mate ŋu azã nye ZEC?"**
 
-Nyatakakadzraɖoƒe: [zecmap.com dzi](https://zecmap.com/)
-
----
-
-## TL;DR
-
-- ZecMap nye **femaxee, dutoƒo nyatakakadzraɖoƒe** si me asitsala siwo xɔa ZEC — nutoa me dɔwɔƒewo kple internet dzi fiasewo le.
-- Di **interactive map** be nàkpɔ asitsala siwo lɔ̃a ZEC siwo te ɖe ŋuwò alo le xexeame ƒe teƒe ɖesiaɖe.
-- **Amesiame ate ŋu atsɔ asitsadɔ aɖe aɖo ɖa**; xexlẽdzesiwo toa nutoa me ƒe ŋkuléle ɖe wo ŋu me hafi dona le dutoƒo.
-- **Nudzɔlawo ƒe Teƒeɖoɖo ƒe Ðoɖo** dea dzi ƒo na asitsalawo ƒe nyatakakawo tsɔtsɔ kpee kple wo dzi dada.
-- ZecMap wɔ ɖeka kple nyitsɔ laa [CipherPay](https://x.com/ZecMap/status/2059622324958093616) be woakeke asitsalawo ƒe ɖekawɔwɔ ɖe enu.
+Website: [zecmap.com](https://zecmap.com/)
 
 ---
 
-## Nusi ZecMap Wɔna
+## Nu si le Eme Kpuie
 
-ZecMap ɖoa asitsaha siwo xɔa Zcash ɖe xexeame katã ƒe anyigbatata dzi. Nuŋlɔɖi ɖesiaɖe ɖea dɔwɔƒea ƒe ŋkɔ, hatsotso, teƒe alo nyatakakadzraɖoƒe, kple alesi woxɔa ZEC dzii fiana. Esia na wònɔa bɔbɔe na ZEC xɔlawo be:
-
-- Di cafe, nuɖuɖudzraƒe, amedzrodzeƒe, fiase, alo dɔwɔƒe si te ɖe ŋuwò si xɔa ZEC hafi nàzɔ mɔ.
-- Ke ɖe internet dzi fiasewo, VPN dɔwɔƒewo, dɔwɔla siwo wɔa dɔ le wo ɖokui si, alo dijitaal dɔwɔƒe siwo doa alɔ Zcash ƒe fexexe ŋu.
-- Kpɔ nutome Zcash xɔxɔ le du, dukɔ, alo mɔzɔzɔ mɔ nu.
-- Kpe ɖe eŋu be agbalẽdzraɖoƒea nanɔ yeye esime asitsaha yeyewo dze ZEC xɔxɔ gɔme.
-
----
-
-## Zã Nyawo
-
-### Nutoa Me Asitsalawo Didi
-
-Ʋu [zecmap.com dzi](https://zecmap.com/) eye nàdi asitsala siwo te ɖe ŋuwò le anyigbatataa dzi. Hafi nàva srãe kpɔ la, ɖo kpe edzi na dɔwɔƒea be woxɔ ZEC fifia eye nàbia be gakotoku alo fexexe ƒe sisi kae wodi.
-
-### Internet Dzi Fiasewo Kple Dɔwɔƒewo Kekeɖenu
-
-ZecMap yɔ asitsaha siwo le Internet dzi hã ŋkɔ. Di nu le hatsotsowo nu be nàkpɔ e-commerce fiasewo, amedzrodzeƒe dɔwɔƒewo, VPN dɔwɔƒewo, kple dijitaal asitsala bubu siwo xɔa ZEC ƒe fexexe.
-
-### Ðoɖowɔwɔ Ðe Mɔzɔzɔ Ŋu Le ZEC Ŋu
-
-Mɔzɔzɔ yi du alo dukɔ yeye aɖe mea? ZecMap na nète ŋu dzroa asitsalawo ƒe nyatakakawo me hafi nèva ɖo, ale be nàte ŋu awɔ ɖoɖo ɖe teƒe siwo nàtɔ le nuɖuɖudzraƒewo, fiasewo, kple dɔwɔƒewo siwo sɔ na ZEC.
-
-### Kpekpeɖeŋu nana Zcash Zãla Yeyewo
-
-Zi geɖe la, ZEC zãla yeyewo srɔ̃a alesi woaƒle ZEC ahadzrae ɖo hafi va ke ɖe afisi woazãe le ŋu. ZecMap na afɔɖeɖe ma si kplɔe ɖo — xexlẽdzesi si wɔa dɔ, si woate ŋu aʋu le xexeame ŋutɔŋutɔ ƒe ZEC dɔwɔnu ŋu.
+- ZecMap nye **agbalẽdzraƒe si woƒe asi le fũ kple si ame sia ame ate ŋu akpɔ** le asitsɔwɔlawo ŋu siwo xɔa ZEC — asitsɔwɔƒe siwo le afima kple nyadzɔdzɔƒe siwo le internet dzi.
+- Kpɔ **map si wòate ŋu adze si me** dzi be nàkpɔ asitsɔwɔlawo siwo xɔa ZEC le afisi nèle alo le xexeame katã me.
+- **Ame sia ame ate ŋu aɖo asitsɔwɔƒe ɖe eme**; hamea ƒe kpekpeɖeŋu le woanɔ fia na amewo hafi.
+- **Hekpekpeŋutɔwo ƒe fetuɖoɖo** dea dzidzɔ na amewo be woatsɔ asitsɔwɔlawo ƒe nyatakakawo ade eme eye woakpɔ woƒe nyateƒe.
+- ZecMap wɔ hadede kple [CipherPay](https://x.com/ZecMap/status/2059622324958093616) le nyɛƒe me be woatsi asitsɔwɔlawo ƒe ƒomeviwo dzi.
 
 ---
 
-## Asitsatsa aɖe Tsɔtsɔ Kpe Ðe Eŋu
+## Nu Si ZecMap Wɔna
 
-Ne asitsaha aɖe xɔ ZEC eye mele ZecMap dzi haɖe o la, nutoa me tɔ ɖesiaɖe ateŋu atsɔe aɖo ɖa. Nu nyui aɖe si woatsɔ aɖo ɖa la dometɔ aɖewoe nye:
+ZecMap ɖoa asitsɔwɔƒewo siwo xɔa Zcash ɖe xexeame bliboa ƒe map dzi. Asitsɔwɔƒe sia sia ƒe nɔnɔfia fia asitsɔwɔƒea ƒe ŋkɔ, ƒomevi, teƒe alo website, kple ale si woexɔna ZEC. Esia wɔe bɔbɔe na ZEC ƒe tɔxɛlawo be woate ŋu:
 
-| Agbledeƒe | Nusiwo woatsɔ ana |
+- Akpɔ café, nuɖuɖuƒe, hotel, fiadzraƒe, alo dɔwɔƒe si le teƒe si wo te la me si xɔa ZEC hafi woayi mɔzɔzɔ.
+- Akpɔ nyadzɔdzɔƒe siwo le internet dzi, VPN dɔwɔlawo, dɔwɔla siwo wɔa dɔ ɖe wo ɖokui ƒe ta, alo digital dɔwɔƒewo siwo xɔa Zcash ƒe fexexe [payments].
+- Akpɔ ale si Zcash ƒe zazã le le nutome, dukɔ, alo mɔzɔzɔ mɔ dzi.
+- Akpe ɖe agbalẽdzraƒea ŋu be wòanɔ yeyee esi asitsɔwɔƒe yeyeawo gɔmeɖea xɔxɔ ZEC.
+
+---
+
+## Zã Nyawo [Use Cases]
+
+### Asitsɔwɔlawo Didi Le Afima
+
+Ʋu [zecmap.com](https://zecmap.com/) eye nàdi asitsɔwɔlawo le map dzi le afisi nèle. Hafi nàyi afi ma, kpe ɖe asitsɔwɔƒea ŋu be nànya be ZEC ƒe xɔxɔ gale edzi fifia, eye nàbia gakotoku [wallet] alo fexexe ƒe mɔ si wowo lɔ̃.
+
+### Nyadzɔdzɔƒe Kple Dɔwɔƒewo Didi Le Internet Dzi
+
+ZecMap hã ɖoa asitsɔwɔƒe siwo le internet dzi ɖe eme. Kpɔ wo ɖe ƒomevi me be nàkpɔ e-commerce fiadzraƒe, hosting dɔwɔƒe, VPN dɔwɔlawo, kple digital asitsɔwɔlawo bubu siwo xɔa ZEC ƒe fexexe.
+
+### Mɔzɔzɔ Ɖoɖo Le ZEC Ƒe Nɔnɔ Me
+
+Èle mɔzɔm yina nutome alo dukɔ yeye me? ZecMap na wòate ŋu akpɔ asitsɔwɔlawo ƒe nɔnɔ hafi nàva, ale be nàte ŋu aɖo woƒe nudzudzɔƒe le nuɖuɖuƒe, fiadzraƒe, kple dɔwɔƒe siwo xɔa ZEC gbɔ.
+
+### Kpekpeɖeŋu Na Zcash Ƒe Zãlawo Yeye
+
+Zãla yeyeawo srɔ̃a ale si woaƒle eye woaɖe ZEC ɖe teƒe dzɔdzɔe me hafi woanya afisi woate ŋu azãe. ZecMap nana woakpɔ mɔ si kplɔe ɖo — xexeame me ZEC ƒe zãzã si wòate ŋu akpɔ eye wòate ŋu adze si me.
+
+---
+
+## Asitsɔwɔƒe Ɖe Eme
+
+Ne asitsɔwɔƒe aɖe xɔa ZEC eye menɔ ZecMap dzi haɖe o, hamea me tɔ aɖe sia aɖe ate ŋu aɖoe ɖe eme. Ɖoɖo nyui aɖe ƒe nu siwo wòle be wòanɔ eme nye:
+
+| Fiaɖuƒe | Nu si nàtsɔ ana |
 |-------|----------------|
-| Business name | Dziɖuɖua ƒe ŋkɔ abe alesi wòdze le dutoƒo ene |
-| Website or contact | URL alo hadomenyatakaka |
-| Location | Adrɛs na asitsaha ŋutɔŋutɔwo; nuto na internet dzi |
-| Category | Cafe, nuɖuɖudzraƒe, fiase, subɔsubɔdɔ, internet dzi fiase, kple bubuawo |
-| Evidence | Dutoƒofexexe ƒe axa, asitsala ƒe gbeƒãɖeɖe, alo kpeɖodzi tẽ |
-| Payment notes | Ame ŋutɔ gbɔ, Internet dzi, alo evea siaa; si me kɔ alo si ŋu wokpɔa akpoxɔnu le ZEC |
+| Business name | Ŋkɔ si wozãna le ame katã ƒe nukpɔkpɔ me |
+| Website or contact | URL alo social profile |
+| Location | Gaɖoƒe ƒe dzesi [address] na asitsɔwɔƒe siwo le afi; nutome na siwo le internet dzi |
+| Category | Café, nuɖuɖuƒe, fiadzraƒe, dɔwɔƒe, nyadzɔdzɔƒe le internet dzi, kple bubuwo |
+| Evidence | Fexexe ƒe axa si le ame katã ƒe nukpɔkpɔ me, asitsɔwɔla ƒe ƒoƒo, alo kpeɖeŋu tso wo gbɔ tẽ |
+| Payment notes | Le afi, le internet dzi, alo wo evea; nuwo ƒe ʋuʋuɖi [transparent] alo ɣaɣla [shielded] ZEC |
 
-Ele be nusiwo woatsɔ aɖo ɖa la naƒo asa na asisiwo ƒe ame ŋutɔ ƒe nyatakakawo. Ne èle asitsatsa ƒe kpeɖodzi zãm la, ɖe ame ŋutɔ ƒe nyatakakawo, nudɔdɔ ƒe xexlẽdzesiwo, kple aƒe ƒe adrɛswo ɖa hafi nàmae.
-
----
-
-## Kpeɖodzi Kple Dadaɖeanyi
-
-Nusiwo woŋlɔ ɖi la toa ŋkuléle ɖe wo ŋu ƒe ɖoɖo aɖe me hafi dona le dutoƒo:
-
-1. Nudzɔla tsɔa asitsaha aɖe si me dutoƒonyatakaka siwo sɔ le be woatsɔ aɖo kpe edzii la ɖona ɖa.
-2. Woléa ŋku ɖe xexlẽdzesiawo ŋu be wogbugbɔ ŋlɔ wo eye wosɔ pɛpɛpɛ hã.
-3. Woɖoa kpe ZEC ƒe lɔlɔ̃ ɖe edzi dzi to dutoƒo dzɔtsoƒe alo asitsala ƒe kadodo dzi.
-4. Nuŋlɔɖi siwo dzi woda asi ɖo la dzena le anyigbatataa dzi.
-5. Nutoa me tɔwo ate ŋu ade dzesi xexlẽdzesi siwo do xoxo alo esiwo mesɔ o ale be nyatakakadzraɖoƒea nanɔ yeye.
-
-Esi wònye be asitsalawo ƒe fexexe ƒe mɔnuwo ate ŋu atrɔ ta la, bu nusiwo woŋlɔ ɖi be wonye nyatakaka siwo nutoa me tɔwo lé be na, ke menye kakaɖedzi o. Ðo kpe edzi kple asitsala la hafi nàzɔ mɔ alo aƒle nu gã aɖe.
+Ɖoɖo nyatakakawo mele be woaɖe asitsɔwo ƒe nya siwo womele ame katã ƒe nukpɔkpɔ me o. Ne èzã gaɖoɖo [transaction] ƒe ɖaseɖigbalɛ [proof], ɖe ame ŋutɔ ƒe nyatakaka, order ƒe xexlẽme, kple aƒeme gaɖoƒe ƒe dzesiwo le eme hafi nàma wo.
 
 ---
 
-## Nudzɔlawo ƒe Teƒeɖoɖo ƒe Ðoɖowɔɖi
+## Kpɔɖeŋu Kple Xɔxɔ
 
-ZecMap ɖoa eteƒe na nudzɔla siwo kpena ɖe agbalẽdzraɖoƒea ƒe tsitsi kple edzikpɔkpɔ ŋu. Wotrɔ asi le teƒeɖoɖowo ŋu be woatsɔ ade dzi ƒo na:
+Woakpɔ nɔnɔfiawo me hafi woafia wo na amewo:
 
-- **Nya yeye siwo woŋlɔ** — tsɔ asitsaha siwo xɔ ZEC eye womele anyigbatata dzi haɖe o la kpee.
-- **Dzesidede** — si ɖo kpe edzi be xexlẽdzesi siwo li fifia gakpɔtɔ le dɔ wɔm eye wole eteƒe.
-- **Beléle na** — nyatakaka xoxowo ɖɔɖɔɖo alo aflagadede dɔwɔƒe siwo wotu.
-- **Kpekpeɖeŋunana ƒe kekeɖenudɔ** — asitsalawo tsɔtsɔ kpe ɖe dugãwo, nutowo, alo internet dzi hatsotso siwo womeɖe fia tututu o me.
+1. Hekpekpeŋutɔ aɖe ɖoa asitsɔwɔƒe aɖe ɖe eme kple nyatakaka siwo le ame katã ƒe nukpɔkpɔ me siwo de be woakpɔe me.
+2. Wokpɔa nɔnɔfiaa me be woanya ne womewɔe vɔ̃ o kple ne nyatakakawo le nyateƒe gɔme.
+3. Wokpe ɖe ZEC ƒe xɔxɔ ŋu to nyatakaka si le ame katã ƒe nukpɔkpɔ me alo asitsɔwɔla ƒe kadodo me.
+4. Nɔnɔfia siwo woxɔ la ava map dzi.
+5. Hamea me tɔwo ate ŋu aɖo dzesi ɖe nɔnɔfia siwo meyɛ o alo siwo menye nyateƒe o ŋu, ale be agbalẽdzraƒea nanɔ yeyee.
 
-Ne èdi fetu ŋuti se siwo li fifia kple alesi woabiae la, yi ɖasrãe kpɔ [zecmap.com dzi](https://zecmap.com/) alo kpɔ ZecMap ƒe gbeƒãɖeɖewo le Zcash nutoa me ƒe mɔnuwo dzi.
-
----
-
-## Nu Vevi Siwo Le Eme
-
-- **Interactive global map** — di asitsalawo alo di asitsalawo le teƒe si wole nu.
-- **Asitsatsa ƒe ŋkɔwo** — nutoa me kple internet dzi asitsala siwo si fexexe ŋuti nyatakakawo le.
-- **Zãla ƒe akɔntabubuwo** — tsɔ ŋkɔwo ɖo ɖa, lé ŋku ɖe nudzɔdzɔwo ŋu, eye nàtu nudzɔla ƒe nɔnɔmetata.
-- **Nutoa me toto** — woléa ŋku ɖe xexlẽdzesiwo ŋu hafi wodzea dɔwɔwɔ gɔme.
-- **Nyatakakadɔwɔnuwo** — de dzesi nya siwo do xoxo alo esiwo mesɔ o be anyigbatataa nade pɛpɛpɛ.
+Elabena asitsɔwɔlawo ƒe fexexe ƒe mɔwo ate ŋu atrɔ, bu nɔnɔfiawo be wonye nyatakaka si hamea le kpɔm ɖe edzi, menye ŋugbedodo o. Kpe ɖe asitsɔwɔla ŋu hafi nàyi mɔzɔzɔ alo nàƒle nu si ƒe ga le te.
 
 ---
 
-## Nu gbagbewo ƒe lãmenugbagbeviwo ƒe ɖekawɔwɔ
+## Hekpekpeŋutɔwo Ƒe Fetuɖoɖo
 
-ZecMap xɔa asitsala siwo xɔa Zcash ƒe fexexe to **Flexa**, si nye fexexe ƒe mɔnu si asitsaƒe siwo le dzidzim ɖe edzi zãna dzi. Esia kekea xexeame ŋutɔŋutɔ ƒe asitsala siwo ƒe ŋkɔ woŋlɔ ɖe anyigbatataa dzi ƒe xexlẽme ɖe enu wu esiwo xɔa Zcash le wo de me.
+ZecMap tsena fetu na hekpekpeŋutɔwo siwo kpena ɖe agbalẽdzraƒea ƒe tsitsi kple kpɔkpɔ ŋu. Woɖo fetuawo be woade dzidzɔ na:
 
-ZecMap hã ɖe gbeƒãe be yewowɔ ɖeka kple... [CipherPay](https://cipherpay.app) be woade to ɖe fexexe ƒe xɔtuɖoɖowo ƒe ƒoƒo ɖekae na asitsala siwo le agbalẽdzraɖoƒea.
+- **Nɔnɔfia yeyeawo** — asitsɔwɔƒe siwo xɔa ZEC eye menɔ map dzi haɖe o ƒe tsɔtsɔ ɖe eme.
+- **Kpɔɖeŋu** — kpeɖeŋu be nɔnɔfia siwo li xoxo la gale dɔ wɔm eye wole nyateƒe.
+- **Kpɔkpɔ** — nyatakaka siwo meyɛ haɖe o ƒe yeyewɔwɔ alo asitsɔwɔƒe siwo tɔ ƒe dzesiɖoɖo.
+- **Nɔnɔƒe ƒe gbalẽdziɖeɖe** — asitsɔwɔlawo ƒe tsɔtsɔ ɖe nutome, dukɔ, alo online ƒomevi siwo mewole kakɛ o me.
 
----
-
-## Etsɔme ƒe Ŋgɔyiyi
-
-Dɔwɔwɔ ɖe ŋgɔ siwo ŋu wowɔ ɖoɖo ɖo dometɔ aɖewoe nye:
-
-- Asitelefon dzi dɔwɔɖoɖowo na Android kple iOS.
-- Gbegbɔgblɔ geɖe me kpekpeɖeŋu nana Zcash nutoa me tɔwo.
-- Fexexe ƒe ƒoƒo ɖekae ƒe dɔwɔnuwo kple ɖoɖowɔwɔ ƒe mɔfiamewo na asitsalawo.
-- Nudzɔlawo ƒe ɖoƒewo kple ŋkɔxɔxɔ ƒe nɔnɔmewo.
-- Wokeke hatsotsowo ɖe enu na Internet dzi dɔwɔnawo kple asitsaha siwo ŋu nutoa me tɔwo ɖo kpee.
-- Dɔwɔnu nyuitɔwo na nyatakakawo nana le xexlẽdzesi siwo mele dɔ wɔm o ŋu eye woaɖo kpe ZEC ƒe lɔlɔ̃ ɖe edzi le agbe dzi.
+Na fetu ƒe se siwo wole fifia kple ale si nàbia wo la, yi [zecmap.com](https://zecmap.com/) alo kpɔ ZecMap ƒe ƒoƒowo le Zcash ƒe hamea ƒe mɔwo me.
 
 ---
 
-## Aɖaŋuɖoɖowo le ZecMap Zazã Ŋu
+## Nɔnɔƒe Veviwo
 
-- **Ðo kpe edzi hafi nàyi.** Kpɔe ɖa ɣesiaɣi kple asitsala be woxɔ ZEC fifia.
-- **Kpɔ fexexe ƒe ƒomevi ɖa.** Asitsaha aɖewo xɔa ZEC si me kɔ, bubuwo lɔ̃a akpoxɔnu. Bia hafi nàxe fe.
-- **Kpe ɖe nutoa me tɔwo ŋu.** Ne èkpɔ xexlẽdzesi aɖe si do xoxo alo mesɔ o la, gblɔe ale be ame bubuwo nagaflu o.
-- **Tsɔ nusi nènya kpee.** Ne nutoa me dɔwɔƒe aɖe xɔ ZEC eye womeŋlɔe ɖe ŋkɔ me o la, tsɔe ɖo ɖa — wò nutoa me sidzedze xɔ asi.
+- **Xexeame bliboa ƒe map si wòate ŋu adze si me** — kpɔ alo di asitsɔwɔlawo le teƒe me.
+- **Asitsɔwɔƒe ƒe nɔnɔfiawo** — asitsɔwɔlawo siwo le afi kple siwo le internet dzi kple woƒe fexexe ƒe nyatakaka.
+- **Zãla ƒe accountwo** — ɖo nɔnɔfiawo ɖe eme, kplɔ hekpekpeŋuwo ɖo, eye na wòƒe hekpekpeŋutɔ ƒe profile natsi.
+- **Hamea ƒe kpɔɖeŋu** — wokpɔa nɔnɔfiawo me hafi wòava ame katã ƒe nukpɔkpɔ me.
+- **Nyaƒoɖoɖo dɔwɔnu [tools]** — ɖo dzesi ɖe nyatakaka siwo meyɛ haɖe o alo siwo menye nyateƒe o ŋu, ale be map la nanɔ nyateƒe.
 
 ---
 
-## Axa Siwo Do Ƒome Kplii
+## Ecosystem Ƒe Ƒomeviwo
 
-- [Zã ZEC](/using-zcash/spend-zcash/top-10-places-to-spend-zec) — Mɔ bubu siwo dzi woato azã ZEC le xexe ŋutɔŋutɔ me
-- [Fexexe Ŋuti Dɔwɔlawo](/using-zcash/payment-processors) — Dɔwɔnu siwo ana asitsalawo naxɔ ZEC
-- [ZEC Zazã le Adzame](/guides/using-zec-privately) — Nuwɔna nyuitɔwo kekeake le fexexe si wotsɔ akpoxɔnu wɔe ŋu
-- [Gakotokuwo](/using-zcash/wallets) — Gakotoku siwo sɔ kple ZEC asitsalawo ƒe fexexe
-- [Nusiwo Menye Dedienɔnɔ ƒe Asitɔtrɔ O](/using-zcash/non-custodial-exchanges) — Na ZEC nazã ga
+ZecMap xɔa asitsɔwɔlawo siwo xɔa Zcash ƒe fexexe to **Flexa**, fexexe ƒe network si dukɔme fiadzraƒe geɖe le zãm la dzi. Esia tsi asitsɔwɔla siwo le xexeame me siwo wode ɖe map la dzi la ƒe xexlẽme ɖe asitsɔwɔla siwo xɔa Zcash tẽ ko wu.
 
-## Nunɔamesiwo
+ZecMap hã ƒo be ewɔ hadede kple [CipherPay](https://cipherpay.app) be woana fexexe ƒe nɔnɔƒe ƒe ƒomeviwo nakpɔ ŋusẽ na asitsɔwɔlawo siwo le agbalẽdzraƒea me.
+
+---
+
+## Ŋgɔyiyi Ƒe Wɔwɔ
+
+Nyuitɔwɔwɔ siwo woɖoe ɖo la ƒe agbalẽ nye:
+
+- Mobile appwo na Android kple iOS.
+- Gbegbe geɖe ƒe kpekpeɖeŋu na Zcash ƒe hamea siwo le afisi afisi.
+- Fexexe ƒe ƒomevi dɔwɔnuwo kple ɖoɖo ƒe mɔfiawo na asitsɔwɔlawo.
+- Hekpekpeŋutɔwo ƒe nɔnɔƒe kple ŋkɔnyui ƒe nɔnɔwo.
+- Ƒomevi sɔgbɔ geɖe na online dɔwɔƒewo kple asitsɔwɔƒe siwo hamea kpe ɖe woƒe nyateƒe ŋu.
+- Dɔwɔnu nyuitɔwo na nɔnɔfia siwo megale dɔ wɔm o ƒe nyaƒoɖoɖo kple ZEC ƒe xɔxɔ si gale dɔ wɔm ƒe kpeɖeŋu.
+
+---
+
+## Nuxlɔ̃wo Na ZecMap Ƒe Zãzã
+
+- **Kpe ɖe edzi hafi nàyi.** Ɣesiaɣi kpe ɖe asitsɔwɔla ŋu be ZEC ƒe xɔxɔ gale edzi fifia.
+- **Kpɔ fexexe ƒe ƒomevia me.** Asitsɔwɔƒe aɖewo xɔa nuwo ƒe ʋuʋuɖi ZEC, bubuwo lɔ̃a ɣaɣla. Bia wo hafi nàxe fexexe.
+- **Kpe ɖe hamea ŋu.** Ne èkpɔ nɔnɔfia aɖe si meyɛ haɖe o alo si menye nyateƒe o, ƒo nya na wo be ame bubuwo megatsɔ wɔnɔ ŋutɔ o.
+- **Ɖo nu si nènya ɖe eme.** Ne asitsɔwɔƒe aɖe le afisi nèle xɔa ZEC eye menɔ agbalẽa me o, ɖoe ɖe eme — nènya afima ƒe nu le vevi.
+
+---
+
+## Axa Siwo Kplɔe Ɖo
+
+- [Zã ZEC](/using-zcash/spend-zcash/top-10-places-to-spend-zec) — Mɔ bubuwo si woate ŋu azã ZEC ɖo le xexeame me
+- [Fexexe ƒe Mɔwɔlawo](/using-zcash/payment-processors) — Dɔwɔnuwo na asitsɔwɔlawo be woaxɔ ZEC
+- [Zã ZEC Le Ɣaɣla Me](/guides/using-zec-privately) — Mɔ nyuitɔwo na ɣaɣla ƒe fexexewo
+- [Gakotokuw o](/using-zcash/wallets) — Gakotokuw siwo sɔ kple ZEC ƒe asitsɔwɔla fexexewo
+- [Gatrɔƒewo Siwo Menye Asikplɔ-dzralá O](/using-zcash/non-custodial-exchanges) — Xɔ ZEC be nàzãe
+
+## Nusiwo Woate Ŋu Atsɔ Akpe Ɖe Wò Ŋu
 
 - [ZecMap](https://zecmap.com/)
-- [ZecMap le X/Twitter dzi](https://x.com/ZecMap)
-- [ZecMap × CipherPay ƒe hadomeɖoɖo ƒe gbeƒãɖeɖe](https://x.com/ZecMap/status/2059622324958093616)
-- [ZecMap Flexa asitsalawo ƒe gomekpɔkpɔ le eme ƒe gbeƒãɖeɖe](https://x.com/ZecMap/status/2060453501063594002)
+- [ZecMap le X/Twitter](https://x.com/ZecMap)
+- [ZecMap × CipherPay ƒe hadede ƒe ƒoƒo](https://x.com/ZecMap/status/2059622324958093616)
+- [ZecMap Flexa ƒe asitsɔwɔla ƒe tsɔtsɔ ɖe eme ƒe ƒoƒo](https://x.com/ZecMap/status/2060453501063594002)
