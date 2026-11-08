@@ -32,13 +32,13 @@ const SW_OK = [
   "```", "| Neno | Maana |", "|---|---|", "| Fuu | si jedwali halisi |", "```",
 ].join("\n");
 
-function repo(sw) {
+function repo(sw, en = EN) {
   const d = mkdtempSync(join(tmpdir(), "vc-"));
   mkdirSync(join(d, "translation"));
   mkdirSync(join(d, "site/G"), { recursive: true });
   mkdirSync(join(d, "translations/sw/site/G"), { recursive: true });
   writeFileSync(join(d, "translation/curated-pages.txt"), "G/Glossary.md\n");
-  writeFileSync(join(d, "site/G/Glossary.md"), EN);
+  writeFileSync(join(d, "site/G/Glossary.md"), en);
   writeFileSync(join(d, "translations/sw/site/G/Glossary.md"), sw);
   return d;
 }
@@ -86,6 +86,51 @@ d = repo(SW_OK.replace("| timeout |", "| muda wa kuisha |"));
 check("--files limits the check",
   [run(d, "--files", "translations/xx/site/G/Glossary.md").code, run(d, "--files", "translations/sw/site/G/Glossary.md").code], [0, 1]);
 rmSync(d, { recursive: true });
+
+// Fences are literal examples, even when they contain a shorter fence or a
+// fence-looking line with text. Check the actual CLI, including --fix: it must
+// neither rewrite the example nor miss a real table after the closing fence.
+for (const [name, open, content, close, eol = "\n"] of [
+  ["short backticks do not close a longer fence", "````markdown", "```", "````"],
+  ["short tildes do not close a longer fence", "~~~~markdown", "~~~", "~~~~"],
+  ["text after backticks is not a closer", "```", "``` not a closer", "```"],
+  ["text after tildes is not a closer", "~~~", "~~~ not a closer", "~~~"],
+  ["the other fence character is content", "```", "~~~", "```"],
+  ["a longer fence closes the example", "```markdown", "example", "`````"],
+  ["indented fence with trailing whitespace closes", "  ~~~~markdown", "~~~", "   ~~~~ \t"],
+  ["CRLF fences preserve the original bytes", "````markdown", "```", "````", "\r\n"],
+]) {
+  const en = [open, content, "| Term | Meaning |", "|---|---|",
+    "| Inside | Example |", close, "", "| Parameter | Meaning |",
+    "|---|---|", "| timeout | Seconds |", ""].join(eol);
+  const translated = en.replace("| Inside | Example |", "| Mfano | Maana |");
+  d = repo(translated, en);
+  check(`${name}: no false failure`, run(d).code, 0);
+  writeFileSync(join(d, "translations/sw/site/G/Glossary.md"), translated.replace("| timeout |", "| muda |"));
+  check(`${name}: real table is still checked`, run(d).code, 1);
+  check(`${name}: --fix changes only the real table`, [run(d, "--fix").code, sw(d)], [0, translated]);
+  rmSync(d, { recursive: true });
+}
+
+for (const [name, en, translated, expectedCode, expectedFixed] of [
+  ["an unclosed long fence covers the rest of the file",
+    "````\n```\n| Term | Meaning |\n|---|---|\n| Inside | Example |\n",
+    "````\n```\n| Term | Meaning |\n|---|---|\n| Mfano | Maana |\n",
+    0, "````\n```\n| Term | Meaning |\n|---|---|\n| Mfano | Maana |\n"],
+  ["backticks in an info string do not open a fence",
+    "``` a`b\n\n| Term | Meaning |\n|---|---|\n| Outside | Meaning |\n",
+    "``` a`b\n\n| Term | Meaning |\n|---|---|\n| Nje | Maana |\n",
+    1, "``` a`b\n\n| Term | Meaning |\n|---|---|\n| Outside | Maana |\n"],
+  ["a fence separates table column state",
+    "| Term | Meaning |\n|---|---|\n| Before | Meaning |\n```\nexample\n```\n| After | Prose |\n",
+    "| Term | Meaning |\n|---|---|\n| Before | Maana |\n```\nexample\n```\n| Baada | Maandishi |\n",
+    0, "| Term | Meaning |\n|---|---|\n| Before | Maana |\n```\nexample\n```\n| Baada | Maandishi |\n"],
+]) {
+  d = repo(translated, en);
+  check(`${name}: check result`, run(d).code, expectedCode);
+  check(`${name}: --fix result`, [run(d, "--fix").code, sw(d)], [0, expectedFixed]);
+  rmSync(d, { recursive: true });
+}
 
 if (failures) { console.log(`\n${failures} failure(s)`); process.exit(1); }
 console.log("\nall passed");

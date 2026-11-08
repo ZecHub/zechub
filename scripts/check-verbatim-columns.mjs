@@ -35,9 +35,19 @@ export function verbatimCells(enLines) {
   let cols = null;
   let fence = null;
   enLines.forEach((line, i) => {
-    const f = line.match(/^\s*(```|~~~)/);
-    if (fence) { if (f && f[1] === fence) fence = null; return; }
-    if (f) { fence = f[1]; return; }
+    const f = line.match(/^\s*(`{3,}|~{3,})([^\r]*)\r?$/);
+    if (fence) {
+      // A shorter run or one followed by text is part of the example, not
+      // its closing fence. Preserve the opener's character and full length.
+      if (f && f[1][0] === fence.char && f[1].length >= fence.length && !f[2].trim()) fence = null;
+      return;
+    }
+    // A backtick in a backtick fence's info string makes it ordinary text.
+    if (f && !(f[1][0] === "`" && f[2].includes("`"))) {
+      fence = { char: f[1][0], length: f[1].length };
+      cols = null; // a table cannot continue through a fenced code block
+      return;
+    }
     if (!isRow(line)) { cols = null; return; }
     if (i + 1 < enLines.length && SEPARATOR.test(enLines[i + 1])) {
       const c = cells(line).map((x, n) => (HEADERS.has(headerKey(x)) ? n : -1)).filter((n) => n >= 0);
