@@ -73,7 +73,7 @@ Z3 fija las versiones de las imágenes en `docker-compose.yml`. Sobrescríbelas 
 | Configuración | `zcash.conf` | Archivos por red en `config/<network>/` más archivos de entorno Compose |
 | Redes en un host | Conflictos de puertos molestos | De primera clase: `z3-mainnet`, `z3-testnet`, `z3-regtest` |
 
-Si todavía tienes una wallet `zcashd`, utiliza la ZecHubguía de migración[ de ](/guides/migration-guide-zcashd-to-zebrad-zallet) y el comando `migrate-zcashd-wallet` de Zallet, en lugar de copiar `wallet.dat` al volumen de Z3.
+Si todavía tienes una wallet `zcashd`, utiliza la [guía de migración de ZecHub](/guides/migration-guide-zcashd-to-zebrad-zallet) y el comando `migrate-zcashd-wallet` de Zallet, en lugar de copiar `wallet.dat` al volumen de Z3.
 
 ---
 
