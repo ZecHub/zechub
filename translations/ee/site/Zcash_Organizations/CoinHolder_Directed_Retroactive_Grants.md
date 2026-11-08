@@ -81,7 +81,7 @@ Edzea egɔme le biabia ƒe nuŋɔŋlɔ megbe; wɔnɔa nuƒoƒo kple nyagblɔɖi 
 
 **Akɔnta Ƒe Ɣeyiɣi**: 
 
-Edzea metsɔmetsɔ la yome (kpɔe be ~keke 7-14 le November me na Q4).
+Edzea metsɔmetsɔ la yome (kpɔe be ~keke 1-2 le November me na Q4).
 
 **Nusi Woɖe Fia Kple Ga Ƒe Nana**: 
 
