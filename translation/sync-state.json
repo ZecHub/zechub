@@ -5535,11 +5535,11 @@
       "edited": false
     },
     "Glossary_and_FAQs/Zcash_Library.md": {
-      "src": "sha256:2d56248be870b2a35d3e44c63d453540d268dd0194eb108d3facb30034344215",
-      "src_commit": "6085ff91d2e96cc6a40f0b8cb1015bf782213c08",
-      "engine": "gt",
+      "src": "sha256:25c9137b286570ee71e3ed19b74031e96f174fe2b52e63cb3b44823b39b7c356",
+      "src_commit": "49cf9a952d1bba7093fc026c037625ce4e2b382e",
+      "engine": "llm",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "Glossary_and_FAQs/ZecHub_Hackathon_Builders_Guide.md": {
@@ -5832,10 +5832,10 @@
     },
     "Start_Here/How_Zcash_Is_Organized.md": {
       "src": "sha256:672ff5fe61f10bf013e0c234c3bc7d2ae6cb615d33fa8a2c09d194ee5c1c54f3",
-      "src_commit": "db0af74c5294ef0fb3ebf3b47d308a4426eace68",
-      "engine": "gt",
+      "src_commit": "49cf9a952d1bba7093fc026c037625ce4e2b382e",
+      "engine": "llm",
       "mode": "full",
-      "tool": "gt-static+brand-restore+gloss-restore",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "Start_Here/Network_Upgrades.md": {
@@ -5952,10 +5952,10 @@
     },
     "Using_Zcash/Encifher_Swaps.md": {
       "src": "sha256:121b2fe7aaaa21e01dbe6416d9ea0c624fad6743600c1731b6a257f697aba8b5",
-      "src_commit": "606dbb8c7c444df801342cbe0a6898d21b143fd9",
-      "engine": "gt",
+      "src_commit": "49cf9a952d1bba7093fc026c037625ce4e2b382e",
+      "engine": "llm",
       "mode": "full",
-      "tool": "gt-static+handfix",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "Using_Zcash/Faucets.md": {
@@ -6072,10 +6072,10 @@
     },
     "Using_Zcash/Transactions.md": {
       "src": "sha256:6434ccef401b3196a97815cd4cbe960d0642a081488a85747044479d76eb6722",
-      "src_commit": "9d7d666987d76d6b8fa86bd6c6840fb809bb2226",
-      "engine": "gt",
+      "src_commit": "49cf9a952d1bba7093fc026c037625ce4e2b382e",
+      "engine": "llm",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "Using_Zcash/Transparent_Exchange_Addresses.md": {
@@ -6480,10 +6480,10 @@
     },
     "Zcash_Tech/FROST_Threshold_Custody.md": {
       "src": "sha256:71def870efb2880419ca219af71fc5fac96a7ea5eec0fa4c834afe91ecde75c0",
-      "src_commit": "4278910bf8dd3f4ccc522204674bebe2839d960b",
-      "engine": "gt",
+      "src_commit": "49cf9a952d1bba7093fc026c037625ce4e2b382e",
+      "engine": "llm",
       "mode": "full",
-      "tool": "gt-static+gloss-restore+table-rebuild",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "Zcash_Tech/Full_Nodes.md": {
@@ -6568,26 +6568,26 @@
     },
     "Zcash_Tech/NU6_2.md": {
       "src": "sha256:047bc98797bf244c7034eb077275ed5befe80548c2ce1a72379393f5131ce846",
-      "src_commit": "68450941240e759b6bf6dd82c0a7f9da5f948e43",
-      "engine": "gt",
+      "src_commit": "49cf9a952d1bba7093fc026c037625ce4e2b382e",
+      "engine": "llm",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "Zcash_Tech/Overwinter.md": {
       "src": "sha256:5e62cc25e454959a120528a00ec9a507ffcf74bf1671afa8d15fd0e21254022f",
-      "src_commit": "54589f386caf9c657b85a0541e5503dfd25be1fb",
-      "engine": "gt",
+      "src_commit": "49cf9a952d1bba7093fc026c037625ce4e2b382e",
+      "engine": "llm",
       "mode": "full",
-      "tool": "gt-static+gloss-restore+prose-retranslate+verbatim-columns",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "Zcash_Tech/Payment_Disclosures.md": {
       "src": "sha256:c4e06a39fb8834ec020e296be49e6f8eb4c81296c49533900da756db5f730fad",
-      "src_commit": "4c141ff9de5b6791c60fd8cabbc9728e9ebfdb36",
-      "engine": "gt",
+      "src_commit": "49cf9a952d1bba7093fc026c037625ce4e2b382e",
+      "engine": "llm",
       "mode": "full",
-      "tool": "gt-static+table-rebuild+verbatim-columns",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "Zcash_Tech/Pepper_Sync.md": {
@@ -6759,11 +6759,11 @@
       "edited": false
     },
     "Zcash_Use_Cases/About.md": {
-      "src": "sha256:bd3db270f7712d25567f3a0f377f3cc29a69bc6c03d77e9131c49b4666d8e370",
-      "src_commit": "07787fa757e24df03458bca7d68cc9eb4cc3b298",
-      "engine": "gt",
+      "src": "sha256:644ff41004673d85fa73a11ebfacac95a1e2ec8f86ba1b9dcd7f4f40ad53b6e2",
+      "src_commit": "49cf9a952d1bba7093fc026c037625ce4e2b382e",
+      "engine": "llm",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "Zcash_Use_Cases/Accept_Payments_As_A_Merchant.md": {
@@ -6960,10 +6960,10 @@
     },
     "contribute/Contributing_Guide.md": {
       "src": "sha256:505e09ee91fa06780ac39513bf493ea7917cb4f1f66b41050837a99436ff6440",
-      "src_commit": "1016455f585ca46eda1781a8114b34dcd0028942",
-      "engine": "gt",
+      "src_commit": "49cf9a952d1bba7093fc026c037625ce4e2b382e",
+      "engine": "llm",
       "mode": "full",
-      "tool": "gt-static+handfix",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "contribute/Help_build_ZecHub.md": {
@@ -7096,10 +7096,10 @@
     },
     "guides/Maya_Protocol.md": {
       "src": "sha256:c816fbddb48288f5f9f337191bc0881643f4477f7701579150af6388fef62b27",
-      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
-      "engine": "nllb",
+      "src_commit": "49cf9a952d1bba7093fc026c037625ce4e2b382e",
+      "engine": "llm",
       "mode": "full",
-      "tool": "nllb-200-3.3B+jsx-restore+gloss-restore+prose-retranslate+handfix",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "guides/Migration_Guide_Zcashd_To_Zebrad_Zallet.md": {
@@ -7232,10 +7232,10 @@
     },
     "guides/Zcash_Devtool.md": {
       "src": "sha256:a346cb26617bbbf9e7080a76de9b16d4525f7d778d4ea2924abf1c3f1bbad558",
-      "src_commit": "8a2839e166263d5316bd6216c0c9fa4a1c7e3a16",
-      "engine": "gt",
+      "src_commit": "49cf9a952d1bba7093fc026c037625ce4e2b382e",
+      "engine": "llm",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "guides/Zcash_Improvement_Proposals.md": {
