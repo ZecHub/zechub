@@ -96,7 +96,7 @@
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address
 - Pools: Transparent | Sapling | Ironwood
 - Features: Address Book | Address Rotation | Automatic Shielding | Multi Coin | Shielded Memo | Swaps | Tor Support
-- NU7 compatibility: Confirmed ([Cake Wallet v6.5.3 release notes](https://github.com/cake-tech/cake_wallet/releases/tag/v6.5.3))
+- NU7 compatibility: Confirmed in Cake Wallet v6.5.3 for iOS and Android ([release notes](https://github.com/cake-tech/cake_wallet/releases/tag/v6.5.3)); Cake also reported the update live on both app stores and Ledger shielding support ([announcement](https://forum.zcashcommunity.com/t/cake-wallet-v6-5-3-with-nu7-and-ledger-support-went-live-today/58987))
 
 ---
 
@@ -251,7 +251,7 @@
 - Wallet Support: Hardware
 - Pools: Transparent | Ironwood
 - Features: Multi Coin
-- NU7 compatibility: Confirmed in the official LedgerHQ Zcash app 3.10.0 source tag; rollout on each supported device/store listing was not independently verified. Nano S is unsupported ([3.10.0 source tag](https://github.com/LedgerHQ/app-zcash/tree/stax_1.11.0_3.10.0_sdk_v27.1.4), [device notes](https://github.com/LedgerHQ/app-zcash#ledger-rust-zcash-application))
+- NU7 compatibility: Confirmed in the official LedgerHQ Zcash app 3.10.0 changelog, which accepts the NU7 consensus branch ID; app-store rollout on each supported device was not independently verified. Nano S is unsupported ([3.10.0 changelog](https://github.com/LedgerHQ/app-zcash/blob/stax_1.11.0_3.10.0_sdk_v27.1.4/CHANGELOG.md), [device notes](https://github.com/LedgerHQ/app-zcash#ledger-rust-zcash-application)). This is separate from the Zondax shielded Ledger app, which cannot create the transaction versions required after NU7 ([warning](https://forum.zcashcommunity.com/t/zondax-shielded-will-stop-working-soon/58736))
 
 ---
 
@@ -294,7 +294,7 @@
 - Wallet Support: Seed Phrase | Unified Address | Hardware
 - Pools: Transparent | Sapling | Ironwood
 - Features: Gift Cards | NEAR Intents | Shielded Memo | Testnet Support | Voting
-- NU7 compatibility: Confirmed for iPhone 0.0.60, Android 0.0.60, and desktop 0.0.63 ([official NU7 guide](https://vizor.cash/blog/zcash-nu7-upgrade/), [desktop release notes](https://github.com/chainapsis/vizor-wallet/releases/tag/release/v0.0.63), [iOS App Store](https://apps.apple.com/us/app/vizor-zcash-wallet/id6776591245), and [Google Play](https://play.google.com/store/apps/details?id=com.keplr.vizor))
+- NU7 compatibility: Confirmed for iPhone and Android 0.0.60 and desktop (macOS, Windows, Linux) 0.0.63. The [iOS App Store listing](https://apps.apple.com/us/app/vizor-zcash-wallet/id6776591245) explicitly says “Ready for NU7”; Vizor's [official NU7 guide](https://vizor.cash/blog/zcash-nu7-upgrade/) lists the mobile releases and explains automatic NU7 switching, and the [desktop release notes](https://github.com/chainapsis/vizor-wallet/releases/tag/release/v0.0.63) confirm desktop readiness. ([Google Play](https://play.google.com/store/apps/details?id=com.keplr.vizor))
 
 ---
 
