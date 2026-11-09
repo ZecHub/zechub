@@ -2,16 +2,16 @@
 
 **Serie:** Zero to Zero Knowledge
 
-¡Una interesante hoy!  
-El protocolo **CryptoNote** permite una sólida privacidad on-chain. Hoy aprendemos todas sus características clave y cómo ha sido implementado por varios proyectos de privacidad destacados.
+¡Uno interesante hoy!  
+El protocolo **CryptoNote** permite una sólida privacidad [privacy] on-chain. Hoy aprenderemos todas sus características clave y cómo ha sido implementado por varios proyectos de privacidad destacados.
 
-![Introducción a CryptoNote](/content-images/FrXr5P8WIAAvx36-88db0c8250.webp)
+![CryptoNote intro](/content-images/FrXr5P8WIAAvx36-88db0c8250.webp)
 
 ---
 
 ## Antecedentes
 
-El whitepaper original de CryptoNote fue publicado bajo el seudónimo de **"Nicolas van Saberhagen"**.  
+El whitepaper original de CryptoNote fue publicado bajo el seudónimo **«Nicolas van Saberhagen»**.  
 
 **Bytecoin** fue la primera criptomoneda en implementar el protocolo. El proyecto más conocido que lo utiliza hoy es **Monero (XMR)**. También se ha utilizado en TurtleCoin, Aeon y varios otros.
 
@@ -19,26 +19,26 @@ El whitepaper original de CryptoNote fue publicado bajo el seudónimo de **"Nico
 
 ## Características principales de CryptoNote
 
-El Protocolo CryptoNote ofrece tres características principales:
+El protocolo CryptoNote ofrece tres características principales:
 
-1. **No trazabilidad e imposibilidad de vinculación** de las transacciones
-2. **Prueba de trabajo igualitaria** (resistente a ASIC) 
+1. **Inrastreabilidad e invinculabilidad [Unlinkability]** de las transacciones [transactions]
+2. **Prueba [Proof] de Trabajo igualitaria** (resistente a ASIC) 
 3. **Emisión dinámica**
 
 ---
 
-## 1. No trazabilidad - Firmas de anillo
+## 1. Inrastreabilidad - Firmas [Signatures] de anillo
 
-La no trazabilidad se logra principalmente mediante **Firmas de Anillo**.
+La inrastreabilidad se logra principalmente mediante **firmas de anillo**.
 
-Al enviar una transacción, tu clave pública real se mezcla con varias claves señuelo (el "anillo"), todas con la misma cantidad de monedas. Esto hace extremadamente difícil determinar quién envió realmente las monedas.
+Al enviar una transacción, tu clave pública real se mezcla con varias claves señuelo (el «anillo»), todas con la misma cantidad de monedas. Esto hace que sea extremadamente difícil determinar quién envió realmente las monedas.
 
-El **tamaño del anillo** afecta significativamente el conjunto de anonimato. Los anillos más grandes proporcionan mejor privacidad.
+El **tamaño del anillo** afecta significativamente al conjunto de anonimato. Los anillos más grandes proporcionan mejor privacidad.
 
-![Explicación de las Firmas de Anillo](/content-images/FrXteGHXgAANE0F-f11593a0d9.webp)
+![Ring Signatures explanation](/content-images/FrXteGHXgAANE0F-f11593a0d9.webp)
 
 **Comparación con Zcash**:  
-El conjunto de anonimato de Zcash es el número total de transacciones realizadas *alguna vez* en un determinado pool blindado (mucho mayor que los tamaños de anillo típicos de CryptoNote).
+El conjunto de anonimato de Zcash es el número total de transacciones realizadas *alguna vez* en un pool blindado [shielded] determinado (mucho mayor que los tamaños típicos de los anillos de CryptoNote).
 
 ---
 
@@ -46,58 +46,58 @@ El conjunto de anonimato de Zcash es el número total de transacciones realizada
 
 El modelo **Ring CT** mejoró enormemente la privacidad en las monedas basadas en CryptoNote.
 
-En lugar de ocultar solo al remitente, Ring CT también **ofusca los montos de las transacciones** entre remitente y destinatario.
+En lugar de ocultar únicamente al remitente, Ring CT también **ofusca los importes de las transacciones** entre el remitente y el destinatario.
 
-![Diagrama de Ring CT](/content-images/FrXuivgWYAAze7B-260071c1b3.webp)
+![Ring CT diagram](/content-images/FrXuivgWYAAze7B-260071c1b3.webp)
 
 Utiliza:
 - Criptografía de curva elíptica
-- Compromisos de Pedersen
-- Cifrado homomórfico
+- Compromisos [Commitments] de Pedersen
+- Cifrado [Encryption] homomórfico
 
-Se utilizan **pruebas** para demostrar que la cantidad es mayor que 0 y está dentro de rangos válidos **sin revelar los valores reales**.
+Las **pruebas** se utilizan para demostrar que el importe es mayor que 0 y está dentro de rangos válidos **sin revelar los valores reales**.
 
-Las **Direcciones ocultas** también añaden direcciones de un solo uso para el destinatario.
+Las **direcciones [Addresses] furtivas** también añaden direcciones de un solo uso para el destinatario.
 
-![Direcciones ocultas + Pruebas](/content-images/FrXut5aWAAMhuRb-f3ce8ea3fd.webp)
+![Stealth Addresses + Proofs](/content-images/FrXut5aWAAMhuRb-f3ce8ea3fd.webp)
 
 ---
 
-## 2. Prueba de trabajo igualitaria (ePoW)
+## 2. Prueba de Trabajo igualitaria (ePoW)
 
-CryptoNote busca crear un sistema de minería más justo al ser resistente a los ASIC.
+CryptoNote busca crear un sistema de minado [mining] más justo al ser resistente a los ASIC.
 
-Utiliza el algoritmo **CryptoNight** (una función memory-hard). A diferencia de SHA256 de Bitcoin, CryptoNight está diseñado para cerrar la brecha entre los mineros de CPU, GPU y ASIC.
+Utiliza el algoritmo **CryptoNight** (una función intensiva en memoria). A diferencia de SHA256 de Bitcoin, CryptoNight está diseñado para reducir la brecha entre los mineros [miners] de CPU, GPU y ASIC.
 
 **Pasos de CryptoNight:**
 1. Inicializar una gran área de memoria (scratchpad) con datos seudoaleatorios
 2. Realizar numerosas operaciones de lectura/escritura en el scratchpad
-3. Hashear todo el scratchpad para producir el valor final
+3. Aplicar hash a todo el scratchpad para producir el valor final
 
-![Minería con CryptoNight](/content-images/FrXvNs3XsAA37LG-5779657f5c.webp)
+![CryptoNight mining](/content-images/FrXvNs3XsAA37LG-5779657f5c.webp)
 
-(Nota: desde entonces, Monero se ha alejado de CryptoNight y ha pasado a otros algoritmos).
+(Nota: Monero desde entonces ha dejado CryptoNight para utilizar otros algoritmos.)
 
 ---
 
 ## 3. Emisión dinámica
 
-En lugar de eventos repentinos de halving (como Bitcoin), CryptoNote utiliza una **recompensa por bloque que disminuye gradualmente**.
+En lugar de eventos repentinos de halving (como Bitcoin), CryptoNote utiliza una **recompensa de bloque [block] que disminuye gradualmente**.
 
-Esto crea una curva de emisión mucho más suave a lo largo del tiempo.
+Esto crea una curva de emisión mucho más fluida con el tiempo.
 
-![Curva de emisión dinámica](/content-images/FrXv8wpXoAEjUxW-e2bbaebced.webp)
+![Dynamic emission curve](/content-images/FrXv8wpXoAEjUxW-e2bbaebced.webp)
 
 **Conexión con Zcash**:  
-Los desarrolladores de Zcash han debatido implementar en el futuro una curva de emisión más suave, potencialmente mediante un "Zcash Posterity Fund".
+Los desarrolladores [developers] de Zcash han debatido implementar una curva de emisión más fluida en el futuro, potencialmente mediante un «Fondo de Posteridad Zcash».
 
 ---
 
 ## Conclusión
 
-CryptoNote ha demostrado ser un enfoque sólido y probado en batalla para la privacidad on-chain. Muchas de sus innovaciones han influido en el ecosistema más amplio de monedas de privacidad.
+CryptoNote ha demostrado ser un enfoque sólido y probado en batalla para la privacidad on-chain. Muchas de sus innovaciones han influido en el ecosistema más amplio de las monedas de privacidad.
 
-Algunos investigadores creen que las características de CryptoNote podrían eventualmente combinarse con pools blindados trustless de conocimiento cero.
+Algunos investigadores creen que las características de CryptoNote podrían eventualmente combinarse con pools blindados zero-knowledge sin necesidad de confianza.
 
 ---
 
@@ -106,4 +106,4 @@ https://x.com/ZecHub/status/1636473585781948416
 
 ---
 
-*Esta página fue compilada a partir del hilo original de Zero to Zero Knowledge para la wiki de ZecHub.*
+*Esta página fue recopilada a partir del hilo original de Zero to Zero Knowledge para la wiki de ZecHub.*

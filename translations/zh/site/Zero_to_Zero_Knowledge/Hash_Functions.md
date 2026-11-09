@@ -1,15 +1,15 @@
-# Zero to Zero Knowledge：哈希函数
+# Zero to Zero Knowledge：哈希函数 [Hash Functions]
 
 **系列介绍**  
 欢迎来到新系列：**Zero to Zero Knowledge**！  
 
-在这个系列中，我们将学习构成隐私保护协议的各种技术基础知识。
+在本系列中，我们将学习构成隐私保护协议的广泛技术的基础知识。
 
 ---
 
 ## 第 1 部分：哈希函数
 
-今天我们从**哈希函数**开始——这是区块链中使用的一项关键密码学组件。在本系列的后续内容中，我们会介绍一些依赖其性质的主题。
+今天我们从**哈希函数**开始——这是 blockchain 中使用的密码学关键组成部分。在本系列后续内容中，我们将介绍一些依赖其特性的主题。
 
 ### 什么是哈希函数？
 
@@ -17,67 +17,67 @@
 
 - **待哈希的消息** = 输入  
 - **所使用的算法** = 哈希函数  
-- **得到的输出结果** = 哈希值  
+- **生成的输出** = 哈希值  
 
 
-![哈希函数示意图](/content-images/Fn_NkFHXgAEtgse-474c24c373.webp)
+![Hash Function diagram](/content-images/Fn_NkFHXgAEtgse-474c24c373.webp)
 
-### 自己试试看！
+### 亲自试试看！
 
-让我们借助这个工具来获得直观理解！  
-输入任意文本，生成固定长度的输出。观察在不同哈希算法下，输出会如何变化。
+让我们使用这个工具获得实践理解！  
+输入任意文本以生成固定长度的输出。观察输出如何随不同哈希算法而变化。
 
-**立即体验：** https://cryptii.com/pipes/hash-function
+**试试看：** https://cryptii.com/pipes/hash-function
 
 ---
 
-### 密码学哈希函数的性质
+### 密码学哈希函数的特性
 
-密码学哈希函数必须具备以下**3 个性质**：
+密码学哈希函数必须具备以下 **3 项特性**：
 
-1. **单向性** - 逆向还原哈希函数应当在计算上不可行  
-2. **抗碰撞性** - 两个不同的输入不能哈希到相同的输出  
-3. **确定性** - 对于任意输入，哈希函数必须始终给出相同结果
+1. **单向性** - 逆转哈希函数应当在计算上不可行  
+2. **抗碰撞性** - 两个不同输入不得哈希为相同输出  
+3. **确定性** - 对于任何输入，哈希函数必须始终给出相同结果
 
 ---
 
 ### 常见哈希函数
 
-哈希函数有若干类别。示例如下：
+哈希函数有多种类别。以下是一些示例：
 
 - 安全哈希算法（**SHA-3**）  
 - 消息摘要算法 5（**MD5**）  
 - **BLAKE2b** - 用于 Zcash 密钥派生
 
-**BLAKE2 入门介绍**： https://www.blake2.net
+**BLAKE2 简介**：https://www.blake2.net
 
 ---
 
-### 哈希函数的现实用途
+### 哈希函数的实际应用
 
-#### 1. 完整性哈希（数据完整性校验）
-数据完整性校验是“完整性哈希”的一个例子。它们用于为数据文件生成校验和，并向用户提供正确性保证。
+#### 1. 完整性哈希（数据完整性检查）
+数据完整性检查是"完整性哈希"的一个示例。它们用于为数据文件生成校验和，并向用户提供正确性保证。
 
-![完整性哈希示例](/content-images/Fn_Or0MWIAI6sgx-9aab89b808.webp)
+![Integrity Hashing example](/content-images/Fn_Or0MWIAI6sgx-9aab89b808.webp)
 
-#### 2. 默克尔树（哈希树）
-**哈希树**或**默克尔树**由分支和叶子节点组成，这些节点都标记有某个数据块的密码学哈希值。
+#### 2. Merkle 树（哈希树）
+**哈希树**或 **Merkle 树**由分支和叶节点 [leaf nodes] 构成，后者标记有数据区块的密码学哈希值。
 
-![默克尔树示意图](/content-images/Fn_O7ndWIAY5PA-8e30e442ed.webp)
+![Merkle Tree diagram](/content-images/Fn_O7ndWIAY5PA-8e30e442ed.webp)
 
-默克尔树是**密码学承诺方案**的一个例子。树根 Root 可被视为一个承诺，而叶子节点则可被证明属于该原始承诺的一部分。
+Merkle 树是**密码学 commitment 方案**的一个示例。树根被视为一个 commitment，而叶节点被证明是原始 commitment 的一部分。
 
-它们用于验证在 P2P 网络中存储或传输的数据，确保从对等节点接收到的数据未被篡改。
+它们验证存储在或通过 P2P 网络传输的数据，确保从对等节点接收的数据未被篡改。
 
-#### 3. Zcash 中的 Note Commitment Tree
-在 Zcash 的 **Sapling** 和 **Orchard** 屏蔽池中，**Note Commitment Tree** 用于验证交易在共识规则下是有效的，同时完美隐藏发送者、接收者和消耗的金额。
+#### 3. Zcash 中的 Note Commitment 树
+在 Zcash **Sapling** 和 **Orchard** 屏蔽池中，**Note Commitment 树**用于验证交易在共识下有效，同时完全隐藏发送方、接收方和所花费的金额。
 
-#### 4. 签名哈希（比特币风格区块）
-**SHA256** 是一种“签名哈希”的例子，用于强制保证比特币链上每个区块的不可变性。矿工在生成新区块时，会使用前一个区块的哈希 + 当前区块中所有交易的哈希（hashMerkleRoot）+ 时间戳 + 随机值 / 网络难度。
+#### 4. 签名哈希 [Signature Hash]（Bitcoin 风格区块）
+**SHA256** 是"签名哈希"的一个示例，用于确保 Bitcoin 链中每个区块的不可变性。矿工使用前一区块的哈希值 + 当前区块中所有交易的哈希值（hashMerkleRoot）+ 时间戳 + 随机值 / 新区块的网络难度。
 
-![SHA256 区块示意图](/content-images/Fn_PaVZXoAApHPf-936e479067.webp)
+![SHA256 block diagram](/content-images/Fn_PaVZXoAApHPf-936e479067.webp)
 
-#### 5. Equihash（Zcash 挖矿）
+#### 5. Equihash（Zcash 挖矿 [Mining]）
 **Equihash** 是用于挖矿 Zcash 的哈希算法。它也被 Komodo 和 Horizen 等网络使用。
 
 **Equihash：基于广义生日问题的非对称工作量证明**（Biryukov 和 Khovratovich）：https://eprint.iacr.org/2015/946
@@ -86,14 +86,14 @@
 
 ### 延伸阅读
 
-如果你想更深入理解不同类型的哈希函数及其相关用途，下面这个资源非常值得阅读：  
+为了更深入地理解不同类型的哈希函数及其相关用途，以下是出色的资源：  
 https://en.wikipedia.org/wiki/Hash_function
 
 ---
 
-**ZecHub（@ZecHub）发布的线程**  
-原始 X 线程： https://x.com/ZecHub/status/1621240109663227906  
+**由 ZecHub（@ZecHub）发布的帖子**  
+原始 X 帖子：https://x.com/ZecHub/status/1621240109663227906  
 
 ---
 
-*本页面根据 ZecHub wiki 的原始 Zero to Zero Knowledge 线程整理而成。*
+*本页面根据原始 Zero to Zero Knowledge 帖子为 ZecHub wiki 编写。*

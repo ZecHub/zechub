@@ -1,15 +1,14 @@
 <a href="https://github.com/Zechub/zechub/edit/main/site/Zcash_Community/Arborist_Calls.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Editar página"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
 # Arborist Calls
 
-Las Arborist Calls de Zcash son reuniones recurrentes de desarrollo del protocolo centradas en la planificación de actualizaciones de red, el trabajo de implementación de nodos de consenso, las dependencias de wallets e infraestructura, y la investigación del protocolo.
+Zcash Arborist Calls son reuniones recurrentes de desarrollo del protocolo centradas en la planificación de actualizaciones de red [network upgrades], el trabajo de implementación de nodos [nodes] de consenso [consensus], las dependencias de billeteras [wallets] e infraestructura, y la investigación del protocolo.
 
 La página oficial de Arborist Calls es mantenida por la Zcash Foundation:
 
-**[https://zfnd.org/arborist-calls/](https://zfnd.org/arborist-calls/)**
-
+**[https://zfnd.org/arborist-calls/](https://zfnd.org/arborist-calls/)****
 
 <p>
   <a
@@ -22,29 +21,28 @@ La página oficial de Arborist Calls es mantenida por la Zcash Foundation:
 
 ## Cómo unirse
 
-Las llamadas alternan entre dos franjas horarias recurrentes para que colaboradores de distintas regiones puedan participar. Usa la página oficial de la Zcash Foundation para consultar los archivos de calendario actuales y los enlaces de Zoom:
+Las llamadas alternan entre dos franjas horarias recurrentes para que los colaboradores de distintas regiones puedan participar. Usa la página oficial de Zcash Foundation para consultar los archivos de calendario y los enlaces de Zoom actuales:
 
-- **15:00 UTC** franja horaria
+- Franja horaria de **15:00 UTC**
 
+La página de la Fundación es la fuente de referencia para los enlaces de registro, los archivos de calendario y el acceso a las reuniones, ya que los enlaces de las reuniones pueden cambiar.
 
-La página de la Foundation es la fuente de referencia para los enlaces de registro, los archivos de calendario y el acceso a la reunión, porque los enlaces de las reuniones pueden cambiar.
+## Notas [Notes], agendas y grabaciones
 
-## Notas, agendas y grabaciones
-
-- Agendas completas y actas: [arboretum-notes](https://github.com/ZcashCommunityGrants/arboretum-notes)
-- Archivo con función de búsqueda en este wiki: [Arborist Calls archivo](/arborist-calls)
-- Grabaciones recientes: [Zcash lista de reproducción de Arborist Calls](https://www.youtube.com/playlist?list=PL40dyJ0UYTLJqD_3PE9qiJTxse-iHnn1G)
-- Debate de I+D en Zcash: [Zcash I+D Discord](https://discord.gg/xpzPR53xtU)
+- Agendas y actas completas: [arboretum-notes](https://github.com/ZcashCommunityGrants/arboretum-notes)
+- Archivo con búsqueda en esta wiki: [Arborist Calls archivo](/arborist-calls)
+- Grabaciones recientes: [Zcash lista de reproducción de Arborist Call](https://www.youtube.com/playlist?list=PL40dyJ0UYTLJqD_3PE9qiJTxse-iHnn1G)
+- Debate de I+D de Zcash: [Zcash I+D Discord](https://discord.gg/xpzPR53xtU)
 - Debate extenso: [Zcash Foro de la comunidad](https://forum.zcashcommunity.com/)
 
-## Quiénes deberían asistir
+## Quién debería asistir
 
-Las Arborist Calls son útiles para:
+Arborist Calls son útiles para:
 
-- Ingenieros e investigadores del protocolo
-- Desarrolladores de nodos, wallets, SDK e infraestructura de lightwallet
+- Ingenieros e investigadores de protocolos
+- Desarrolladores [developers] de nodos, billeteras, SDK e infraestructura de lightwallet
 - Beneficiarios de subvenciones cuyo trabajo afecta al consenso, las actualizaciones de red o las dependencias del protocolo
-- Miembros de la comunidad que quieran seguir en público la toma de decisiones técnicas
+- Miembros de la comunidad que quieran seguir la toma de decisiones técnicas en público
 
 ## Lista de reproducción
 
@@ -52,7 +50,7 @@ Las Arborist Calls son útiles para:
   <iframe
     className="w-full h-full"
     src="https://www.youtube.com/embed/videoseries?si=lFFtNRmUsdmSQ1qM&list=PL40dyJ0UYTLJqD_3PE9qiJTxse-iHnn1G"
-    title="Lista de reproducción de Zcash Arborist Call"
+    title="Zcash Arborist Call Playlist"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowFullScreen
     loading="lazy"

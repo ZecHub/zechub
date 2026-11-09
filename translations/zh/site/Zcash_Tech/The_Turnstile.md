@@ -1,124 +1,124 @@
-# 旋转门机制
+# turnstile
 
 ## TL;DR
 
-- 旋转门机制是一项公开的记账规则，用于追踪每个 shielded pool 有多少价值流入和流出
-- 它让任何人都能验证某个池子支付出去的价值永远不会超过流入的价值，即使池内的交易是私密的
-- 这能保护 ZEC 供应量免受隐藏漏洞影响，因为伪造的币如果要离开某个池子，就一定会破坏这项计数
-- 池内支付保持私密。在池子之间转移 ZEC 的交易会显示其转移的金额
-- 旋转门机制正是 Orchard 到 Ironwood 迁移能够证明 shielded 供应量健全的原因
+- turnstile 是一项公开的记账规则，用于跟踪进入和离开每个屏蔽池 [shielded pool] 的价值数量
+- 它让任何人都能验证一个 pool 支出的价值绝不会超过存入的价值，即使其中的交易是私密的
+- 它保护 ZEC 供应量免受隐藏 bug 的影响，因为伪造的币无法在不破坏计数的情况下离开 pool
+- pool 内的支付保持私密。在 pool 之间转移 ZEC 的交易会显示其转移的金额
+- turnstile 是 Orchard 到 Ironwood 的迁移能够证明屏蔽供应量可靠的原因
 
 <br/>
 
-## 这篇内容适合谁
+## 适用对象
 
-- 想了解 Zcash 如何确保其隐私供应量可信的任何人
+- 希望了解 Zcash 如何保持其私密供应量可信的任何人
 - 正在关注 Orchard 到 Ironwood 迁移，并想知道它如何证明供应量真实的用户
-- 好奇一个隐私货币系统如何仍然能够被审计的新手
+- 好奇私密货币系统如何仍可接受审计的新手
 
 <br/>
 
-## 挑战是什么
+## 挑战
 
-Shielded Zcash 会隐藏金额、发送方和接收方。这正是它实现隐私的关键所在。但这也带来一个棘手的问题：如果没人能看到 shielded pool 内部，怎么知道其中 ZEC 的总量是正确的？你要如何审计一笔你看不见的钱？
+屏蔽 Zcash 会隐藏金额、发送方和接收方。这种隐私正是其意义所在。但它带来了一个棘手的问题：如果没有人能看到屏蔽 pool 内部，任何人如何知道 ZEC 的总量是正确的？如何审计你看不见的货币？
 
-如果某个漏洞曾让人能够在某个 shielded pool 内伪造币，那么这种伪造会被保护诚实用户的同一套隐私机制隐藏起来。没有保障机制，这种不确定性就会削弱人们对整体供应量的信心。旋转门机制就是解决这一问题的保障。
-
-<br/>
-
-## 什么是旋转门机制
-
-可以把每个 shielded pool 想象成一个只有一扇可计数门口的房间。每当有价值从外部进入池子，或从池子离开流向别处时，它都必须通过这扇门，并被公开计入总数。房间里的交易仍然是私密的，但门口的累计总额对所有人可见。
-
-规则很简单：一个池子流出的价值绝不能多于流入的价值。节点会拒绝任何会让池子余额降到零以下的区块。人们始终知道某个池子被认为包含多少价值，因为它就是“总流入减去总流出”。这个公开累计值就是旋转门机制。
+如果某个 bug 曾允许有人在屏蔽 pool 内伪造币，那么这种伪造会被同样保护诚实用户的隐私所隐藏。没有保障措施，这种不确定性会削弱人们对整个供应量的信心。turnstile 就是解决这一问题的保障措施。
 
 <br/>
 
-## 它如何运作
+## turnstile 是什么
 
-在 Zcash 的历史中，存在过多个 shielded pool，例如 Sprout、Sapling 和 Orchard。价值会在透明链和这些池子之间流动，有时也会在池子之间转移。旋转门机制会监视这些流动：
+把每个屏蔽 pool 想象成一个只有单一计数门口的房间。每当价值从外部进入 pool，或离开 pool 前往其他地方时，它都会经过该门口并被公开计入总数。房间内的交易保持私密，但门口的累计总额对所有人可见。
 
-1. 当 ZEC 进入某个 shielded pool 时，该金额会被加入这个池子的公开余额
-2. 当 ZEC 从某个池子流出时，该金额会被扣除
-3. 网络会拒绝任何会让某个池子余额变为负数的区块，这意味着流出的价值超过了历史上的总流入
-4. 每笔交易只显示其流入或流出某个池子的净流量，即其价值平衡。对于在同一个池子内完成的支付，这就只是手续费
-
-网络会以这种方式追踪每个 value pool 的余额，包括 Sprout、Sapling、Orchard、新的 Ironwood pool，以及 transparent 和 lockbox 的余额。因此，即使某个池子的具体内容被隐藏，最终能流出的最大值也始终受限于它流入过多少价值。隐藏的通胀无法逃逸到流通中。
+规则很简单：一个 pool 绝不能让流出的价值超过流入的价值。节点会拒绝任何会使 pool 余额低于零的区块。人们始终知道一个 pool 内被认为存在的金额，因为它就是流入总额减去流出总额。这个公开计数就是 turnstile。
 
 <br/>
 
-## 如何检查 value balance
+## 工作原理
 
-门口的计数之所以可信，是因为每笔交易都必须证明它移动的是一个真实的金额，即使金额本身仍被隐藏。每笔 shielded 交易都会公布一个诚实的数字：它净流入或净流出该池子的价值，称为它的 value balance。正的 value balance 表示资金从池子流向透明侧，负的 value balance 表示资金流入池子。私密细节依然封存，但这个单一的净值是公开的，而旋转门机制正是把这些净值累加起来。
+Zcash 在其历史中有多个屏蔽池，例如 Sprout、Sapling 和 Orchard。价值会在透明链 [transparent chain] 与这些 pool 之间流动，有时也会在 pool 之间流动。turnstile 会监控这些流动：
 
-巧妙之处在于，交易如何在不暴露背后私密金额的前提下，证明这个公开数字是真实的。不同池子的机制并不相同，而这正是旋转门机制真正运作的核心。
+1. 当 ZEC 转入屏蔽 pool 时，该金额会加入该 pool 的公开余额
+2. 当 ZEC 从 pool 转出时，该金额会被扣除
+3. 网络会拒绝任何使 pool 余额变为负数的区块，这意味着离开的价值超过了曾经进入的价值
+4. 每笔交易只显示其流入或流出一个 pool 的净流量，即其价值余额。对于单个 pool 内的支付，这仅是手续费 [fee]
 
-在最初的 Sprout pool 中，每笔交易都会使用一个 JoinSplit。一个 JoinSplit 会花费两个隐藏 note，并创建两个新的 note，同时携带两个公开字段：vpub_old，表示从透明侧进入 shielded pool 的价值；vpub_new，表示从池子流回透明侧的价值。每个 JoinSplit 本身都必须平衡，而它的零知识证明会保证隐藏输入与隐藏输出的加总是正确的。Sprout 的池子余额，就是整条链上所有 vpub_old 减去所有 vpub_new 的累计总和。这也是为什么 Sprout 稍后会成为一个很有用的例子：因为 vpub_old 是价值进入该池子的唯一方式，所以只需一条把它关闭的规则，就可以永久封住这个池子。
-
-在 Sapling、Orchard 和 Ironwood 中，余额是通过一种更聪明的方式来证明的，即 binding signature。与每次转账都单独平衡不同，整笔交易会使用 value commitment 对每个隐藏金额作出承诺。value commitment 就像一个封住数字的信封，它由同态 Pedersen commitment 构造而成，具有一个特殊性质：这些信封可以在不打开的情况下相加和相减。网络会把所有输入 commitment 相加，再减去所有输出 commitment，然后将结果与交易唯一声明的净值——它的 valueBalance 字段——进行比较。只有当交易中的隐藏金额确实与这个公开的 valueBalance 相匹配时，交易才能对组合后的 commitments 生成一个有效的 binding signature。如果有人试图转移超过其声明值的价值，那么这些 commitments 就无法对上，binding signature 就无法通过验证，交易也会被拒绝。Ironwood 使用与 Orchard 相同的协议，因此其工作方式也完全一样。
-
-这也是为什么跨池转账能够被安全检查。当资金从一个 shielded pool 移动到另一个时，例如从 Orchard 进入 Ironwood，交易无法把这些金额从记账中隐藏起来。每个池子都有自己的 value balance，并且都必须由自身的证明来满足：Orchard 一侧必须通过它的 binding signature 展示对应的流出，Ironwood 一侧则必须通过它自己的证明展示对应的流入。离开一个池子的价值和进入另一个池子的价值，各自都是独立证明的，所以跨池转移本质上就是一次交易中发生了两次旋转门通行：一次流出，一次流入。即使底层金额保持私密，这两者仍然都会被公开计入总账。
-
-因此，旋转门机制并不是建立在信任之上。每笔交易都会以数学方式证明它自身的净影响，网络会按池子汇总这些已被证明的净影响，而一条共识规则（ZIP 209）会拒绝任何让某个池子余额变为负数的区块。交易层证明，链层执行。
+网络会以这种方式跟踪每个价值 pool 的余额，包括 Sprout、Sapling、Orchard、新的 Ironwood pool，以及透明和 lockbox 余额。因此，即使一个 pool 的确切内容被隐藏，能够流出的最大金额也受到流入金额的限制。没有隐藏的通胀能够逃入流通中。
 
 <br/>
 
-## 为什么它很重要
+## 如何检查价值余额
 
-旋转门机制同时为 Zcash 带来了三件事。
+门口的计数之所以可信，是因为每笔交易都被要求证明其转移的金额真实，即使金额本身保持隐藏。每笔屏蔽交易都会发布一个诚实的数字：它流入或流出 pool 的净价值，称为其价值余额。正的价值余额意味着资金从 pool 流向透明侧，负的价值余额意味着资金流入。私密细节仍被封存，但这个单一的净数值是公开的，也是 turnstile 累加的内容。
 
-第一，它将风险隔离开来。某个池子中的密码学漏洞会被限制在该池子内部，因为旋转门机制会阻止伪造价值流入更广泛的供应体系。
+巧妙之处在于，交易如何在不揭示背后私密金额的情况下证明这个公开数字是诚实的。机制因 pool 而异，而这正是 turnstile 的实际机制。
 
-第二，它让社区能够事后验证供应量。如果后来发现了一个漏洞，旋转门记录会显示某个池子流出的价值是否曾超过流入的价值。干净的记录是“没有伪造被利用”的强有力证据。
+在原始的 Sprout pool 中，每笔交易使用一个 JoinSplit。JoinSplit 花费两个隐藏的 note [note] 并创建两个新的 note，它带有两个公开字段：vpub_old，即从透明侧进入屏蔽 pool 的价值；以及 vpub_new，即从 pool 返回透明侧的价值。每个 JoinSplit 都必须自行平衡，其零知识证明 [zero-knowledge proof] 保证隐藏输入和隐藏输出能够正确相加。Sprout 的 pool 余额就是整条链上所有 vpub_old 减去所有 vpub_new 的累计总额。这也是 Sprout 稍后成为有用示例的原因：由于 vpub_old 是价值进入该 pool 的唯一方式，一条将其关闭的规则便可永久封闭该 pool。
 
-第三，它在做到这一切的同时，保持池内支付的隐私。每笔交易只公开流入或流出某个池的净流量；对于同一池内的支付而言，这仅为手续费。池之间的转账，例如从 Orchard 到 Ironwood，会显示跨池金额。可审计性与隐私得以并存，这并不常见，也是 Zcash 一个低调但重要的优势。
+在 Sapling、Orchard 和 Ironwood 中，余额通过更智能的方式证明，即使用绑定签名 [binding signature]。与其让每次转移单独平衡，整笔交易会使用价值 commitment [value commitment] 对每个隐藏金额作出 commitment。价值 commitment 是一个数字的密封信封，由同态 Pedersen commitment 构建，具有一项特殊属性：无需打开信封即可对其进行加减。网络会将所有输入 commitment 相加，减去所有输出 commitment，并将结果与交易声明的单一净数值，即其 valueBalance 字段进行比较。只有隐藏金额确实与该公开 valueBalance 匹配的交易，才能对组合 commitment 生成有效的绑定签名。如果有人试图转移比其声明更多的价值，这些 commitment 将无法相加，绑定签名将无法验证，交易会被拒绝。Ironwood 使用相同的 Orchard 协议，因此其工作方式相同。
 
-<br/>
+这也是跨 pool 转移能够被安全检查的原因。当资金从一个屏蔽 pool 转移到另一个屏蔽 pool 时，例如从 Orchard 转入 Ironwood，交易无法将金额从记账中隐藏起来。每个 pool 都有自己的价值余额，必须由其自身的证明满足：Orchard 一侧必须通过其绑定签名显示匹配的流出，而 Ironwood 一侧必须通过其自身的签名显示对应的流入。离开一个 pool 的价值和进入另一个 pool 的价值均被独立证明，因此跨 pool 转移实际上是在一笔交易中发生的两次 turnstile 穿越，一次流出、一次流入，二者都会被公开计入总数，即使底层金额保持私密。
 
-## 旋转门机制的实际应用
-
-旋转门机制并不新鲜，而且它在 Zcash 历史上的关键时刻已经被使用过。
-
-当 Zcash 从最初的 Sprout pool 迁移到更新的 Sapling pool 时，旋转门机制就守护了这次过渡。后来，Sprout pool 被施加限制，不能再接收新的流入，这鼓励了用户迁移，同时旋转门机制继续保证记账诚实。多年后，Sprout 从未发生价值被不当转出的事实，本身就构成了有力证据，说明其早期密码学从未被成功利用。
-
-同样的设计现在也在守护 Orchard 到 Ironwood 的迁移。2026 年，人们在 Orchard 证明系统中发现并修复了一个 soundness bug。没有任何证据表明它曾被利用过，但由于 shielded 活动本身是私密的，因此无法做到绝对确定。应对方案是封闭旧的 Orchard pool，让所有人通过旋转门机制把资金迁移到 Ironwood——一个采用修正后协议的新池子。强制资金通过旋转门，意味着任何假设存在但被遗留在原处的伪造币都无法跟着一起迁出；而一旦迁移完成，任何人都可以确认 shielded 供应量是健全的。
+因此，turnstile 并非信任。每笔交易都会在数学上证明其自身的净效应，网络会按 pool 汇总这些经证明的净效应，而一项共识 [consensus] 规则（ZIP 209）会拒绝任何会使 pool 余额变为负数的区块。交易层面的证明，链层面的执行。
 
 <br/>
 
-## 单向弃用池子
+## 为何重要
 
-旋转门机制使得安全地淘汰一个旧池子成为可能，而且只能单向进行，同时绝不会破坏供应量保证。诀窍在于关闭入口，同时保留出口开放。
+turnstile 同时为 Zcash 提供三项保障。
 
-Sprout 是最清晰的例子。为了弃用它，ZIP 211 增加了一条单独的共识规则：从其激活高度开始，每个 JoinSplit 的 vpub_old 字段都必须为零。由于 vpub_old 是价值进入 Sprout 的唯一方式，强制它为零就意味着再也不会有新价值流入，同时价值仍然可以流向透明侧，或者继续流向 Sapling。这个池子于是变成了单向池。它只能排空，不能再填满。旋转门机制会在整个过程中持续计数，因此余额可以随着资金流出而下降，但绝不会上升，也绝不会变成负数。
+首先，它将风险隔离。一个 pool 中的密码学 bug 被限制在该 pool 内，因为 turnstile 阻止伪造价值跨入更广泛的供应量。
 
-Orchard 到 Ironwood 的迁移使用的是同样的思路。在 NU6.3 升级中，Orchard pool 将关闭新的流入，而钱包会被引导把 Orchard 资金通过旋转门机制发送到新的 Ironwood pool。Orchard 会变成一个只能排空的单向池。由于每一次流出都必须是一次经过证明的旋转门通行，因此任何假设存在并被遗留在 Orchard 中的伪造价值，都无法悄悄跟随诚实资金一起流出。它会被困在一个只能排空、并且门口受到监视的池子里。随着时间推移，这会让旧池子逐步趋近清空，并让任何人都能确认：流出来的价值从未超过诚实流入的价值。
+其次，它让社区能够回溯验证供应量。如果后来发现 bug，turnstile 记录会显示离开一个 pool 的价值是否曾超过进入它的价值。干净的记录是没有伪造被利用的有力证据。
 
-这就是旋转门机制之所以重要的更深层原因，超越了简单记账本身。它是一种机制，使 Zcash 能够弃用一个 shielded pool——无论是像 Sprout 那样为了降低复杂度，还是像 Orchard 那样为了从已发现的漏洞中恢复——同时继续维持关于供应量的连续、公开、可证明保证。
+第三，它在完成这一切的同时保持 pool 内支付的私密性。每笔交易只发布其流入或流出一个 pool 的净流量，而对于单个 pool 内的支付，这仅是手续费。从 Orchard 到 Ironwood 等 pool 间转移会显示跨越的金额。可审计性与隐私可以共存，这并不常见，也是 Zcash 的一项低调优势。
+
+<br/>
+
+## turnstile 的实际应用
+
+turnstile 并不新鲜，它曾在 Zcash 历史上的关键时刻发挥作用。
+
+当 Zcash 从原始 Sprout pool 转向较新的 Sapling pool 时，turnstile 守护了这一过渡。Sprout pool 后来被限制不得接收新的流入，这鼓励用户迁移，同时 turnstile 保持记账诚实。多年后，从未有价值不当地离开 Sprout 这一事实，证明其早期密码学从未被成功利用。
+
+同样的设计如今守护着从 Orchard 到 Ironwood 的迁移。2026 年，在 Orchard 证明系统中发现并修复了一个可靠性 bug。没有证据表明它曾被利用，但由于屏蔽活动是私密的，确定性不可能实现。应对方式是封闭旧的 Orchard pool，并让所有人通过 turnstile 将资金迁移至 Ironwood，这是一个采用已修正协议的新 pool。强制资金通过 turnstile 意味着任何假设存在的伪造币都无法跟随离开，而一旦迁移完成，任何人都能确认屏蔽供应量可靠。
+
+<br/>
+
+## 单向 pool 弃用
+
+turnstile 使得能够安全地、仅在一个方向上弃用旧 pool，而不会破坏供应量保证。诀窍是关闭入口，同时保持出口开放。
+
+Sprout 是最清晰的例子。为了弃用它，ZIP 211 添加了一项单一共识规则：自其激活高度起，每个 JoinSplit 的 vpub_old 字段必须为零。由于 vpub_old 是价值进入 Sprout 的唯一方式，将其强制设为零意味着再也没有新价值能够进入，同时价值仍可流向透明侧或继续流向 Sapling。该 pool 变成了单向的。它只能排空，永远不能填充。turnstile 会始终持续计数，因此随着资金离开，余额可以下降但永远不能上升，也永远不能变为负数。
+
+Orchard 到 Ironwood 的迁移采用了相同思路。在 NU6.3 升级中，Orchard pool 被关闭，不再接收新的流入，钱包被引导将 Orchard 资金穿过 turnstile 转入新的 Ironwood pool。Orchard 成为一个只能排空的单向 pool。由于每次流出都是必须被证明的 turnstile 穿越，任何留在 Orchard 中假设存在的伪造价值都无法悄悄跟随诚实资金离开。它被困在一个只能排空且门口受到监控的 pool 中。随着时间推移，这会推动旧 pool 接近清空，并让任何人确认流出的价值从未超过诚实流入的价值。
+
+这正是 turnstile 超越简单记账的重要深层原因。它是让 Zcash 能够弃用屏蔽 pool 的机制，无论是为了像 Sprout 那样降低复杂性，还是为了像 Orchard 那样从已发现的 bug 中恢复，同时保持关于供应量的连续、公开、可证明的保障。
 
 <br/>
 
 ## 常见误解
 
-- 旋转门机制不会泄露谁向谁发送了什么。它会显示任何在池子之间转移 ZEC 的交易金额
-- 它并不会点名识别伪造者。它限制的是一个池子最多能流出多少价值，而这正是保护供应量的关键
-- 它不是专为 Ironwood 发明的新机制。它一直在守护 Zcash 历史上每一次主要的 shielded pool 迁移
-- 池子公开的总量不会削弱池内支付的隐私。在池子之间转移 ZEC 会显示转移金额，这正是 ZIP 318 要求钱包随着时间推移按标准金额迁移的原因
+- turnstile 不会揭示谁向谁发送了什么。它确实会显示任何在 pool 之间转移 ZEC 的交易金额
+- 它不会按姓名抓住伪造者。它限制能够离开 pool 的数量，而这正是保护供应量的方式
+- 它不是为 Ironwood 提出的新发明。它守护了 Zcash 历史中每一次主要的屏蔽 pool 过渡
+- 公开的 pool 总额不会削弱 pool 内支付的隐私。在 pool 之间转移 ZEC 会显示转移金额，这就是 ZIP 318 要求钱包随着时间以标准金额迁移的原因
 
 <br/>
 
 ## 资源
 
-1. [ZIP 209：禁止超出范围的链上 Value Pool 余额](https://zips.z.cash/zip-0209) - 旋转门机制背后的共识规则
-2. [ZIP 211：禁用向 Sprout 链上 Value Pool 添加新价值](https://zips.z.cash/zip-0211) - Sprout pool 如何被关闭以阻止新存入
-3. [ZIP 258：NU6.3](https://zips.z.cash/zip-0258) - 引入 Ironwood pool 并引导价值通过旋转门机制流动的升级
-4. [针对伪造的旋转门机制执行](https://electriccoin.co/blog/turnstile-enforcement-against-counterfeiting/) - 来自 Electric Coin Company 的原始解释
-5. [Zcash 协议规范](https://zips.z.cash/protocol/protocol.pdf) - 完整细节请参阅其中关于 balance 和 binding signature 的章节
-6. [Value Pools，Zebra Book](https://zebra.zfnd.org/dev/rfcs/0012-value-pools.html) - 节点如何追踪每个池子的 value balance
+1. [ZIP 209：禁止超出范围的链价值 pool 余额](https://zips.z.cash/zip-0209) - turnstile 背后的共识规则
+2. [ZIP 211：禁用向 Sprout 链价值 pool 添加新价值](https://zips.z.cash/zip-0211) - Sprout pool 如何被关闭以禁止新的存入
+3. [ZIP 258：NU6.3](https://zips.z.cash/zip-0258) - 引入 Ironwood pool 并引导价值穿过 turnstile 的升级
+4. [针对伪造的 turnstile 执行](https://electriccoin.co/blog/turnstile-enforcement-against-counterfeiting/) - 来自 Electric Coin Company 的原始说明
+5. [Zcash 协议规范](https://zips.z.cash/protocol/protocol.pdf) - 有关完整细节，请参阅余额和绑定签名部分
+6. [价值 Pools，Zebra 书籍](https://zebra.zfnd.org/dev/rfcs/0012-value-pools.html) - 节点如何跟踪每个 pool 的价值余额
 
 <br/>
 
 ## 相关页面
 
-- [Shielded Pools](https://zechub.wiki/using-zcash/shielded-pools) - Zcash 的 shielded 交易如何保持细节私密
+- [屏蔽池](https://zechub.wiki/using-zcash/shielded-pools) - Zcash 屏蔽交易如何保持细节私密
 - [Halo](https://zechub.wiki/zcash-tech/halo) - Orchard pool 背后的证明系统
-- [Network Upgrades](https://zechub.wiki/start-here/network-upgrades) - Zcash 如何激活诸如新 shielded pool 之类的变更
+- [网络升级](https://zechub.wiki/start-here/network-upgrades) - Zcash 如何激活诸如新屏蔽池之类的变更

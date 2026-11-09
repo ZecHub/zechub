@@ -2,21 +2,21 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="编辑页面"/>
 </a>
 
-# AI 工具（本地、离线）
+# AI 工具 [AI tools]（本地、离线）
 
 <aside>
-*仍在这里编写和构建中……*
+*仍在此处编写和构建...*
 
 </aside>
 
-### 图像生成
+### 图像生成 [Image generating]
 
-去哪里下载用于图像生成的模型？  
-在 [**HuggingFace**](https://huggingface.co/models?pipeline_tag=text-to-image&sort=trending) 和 [**Civitai](https://civitai.com/)** 上有很多不同的模型。
+在哪里下载用于图像生成的模型？
+在 [**HuggingFace**](https://huggingface.co/models?pipeline_tag=text-to-image&sort=trending) 和 [**Civitai](https://civitai.com/)** 上有许多不同的模型。
 
-## Windows - 下载自定义模型
+## Windows - 下载自定义模型 [custom models]
 
-通常任何 AI 工具都至少需要配备 4GB 显存的 GPU。
+通常，任何 AI 工具都至少需要配备 4GB 显存的 GPU。
 
 Nvida GPU 的效果最好。
 
@@ -26,26 +26,26 @@ Nvida GPU 的效果最好。
 
 ### Mac OS - 下载自定义模型
 
-- [Draw Things: AI Generation](https://apps.apple.com/ee/app/draw-things-ai-generation/id6444050820) 来自 AppStore - 免费
-（可以使用许多不同的 StableDiffusion 模型）
+- AppStore 中的 [Draw Things: AI Generation](https://apps.apple.com/ee/app/draw-things-ai-generation/id6444050820) - 免费
+（可使用许多不同的 StableDiffusion 模型）
 - [DiffusionBee](https://diffusionbee.com/) - 免费
-（可以使用许多不同的 StableDiffusion 模型）
+（可使用许多不同的 StableDiffusion 模型）
 - [InvokeAI](https://invoke-ai.github.io/InvokeAI/)（需要 4GB GPU 显存）
 
 ### Linux - 下载自定义模型
 
 - [InvokeAI](https://invoke-ai.github.io/InvokeAI/)（需要 4GB GPU 显存）
 
-## 文本生成
+## 文本生成 [Text generating]
 
 ### Windows - 下载自定义模型
 
-- [GPT4All](https://gpt4all.io/index.html)（至少需要 8gb RAM）
+- [GPT4All](https://gpt4all.io/index.html)（至少需要 8GB RAM）
 
 ### Mac OS - 下载自定义模型
 
-- [GPT4All](https://gpt4all.io/index.html) - （在 M1 mac 上运行相当快，具体取决于所使用的 GPT 模型）
+- [GPT4All](https://gpt4all.io/index.html) - （在 M1 Mac 上运行相当快，具体取决于所使用的 GPT 模型）
 
 ## Linux - 下载自定义模型
 
-- [GPT4All](https://gpt4all.io/index.html)（至少需要 8gb RAM）
+- [GPT4All](https://gpt4all.io/index.html)（至少需要 8GB RAM）
