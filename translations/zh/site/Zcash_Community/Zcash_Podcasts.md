@@ -2,8 +2,8 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# 播客
-想进一步了解 Zcash 生态系统吗？以下是你可以关注的播客列表：
+# 播客 [Podcasts]
+想进一步了解 Zcash 生态系统 [ecosystem] 吗？以下是您可以关注的播客列表：
 
 <ul class="podcast-list grid grid-cols-1 imd:grid-cols-2 md:grid-cols-3 gap-6">
 <li>
@@ -22,12 +22,12 @@
 </li>
 
 <li>
-<a href="https://www.youtube.com/playlist?list=PLWmtTg-WFLv7ONEIgDk4E6POEvi8hKPhq"><img class="podcast-img" src="/content-images/https-3A-2F-2Fs3-us-west-2.amazonaws.com-5ae3f48687.webp" alt="" width="40" height="41" />PGP* For Crypto</a>
+<a href="https://www.youtube.com/playlist?list=PLWmtTg-WFLv7ONEIgDk4E6POEvi8hKPhq"><img class="podcast-img" src="/content-images/https-3A-2F-2Fs3-us-west-2.amazonaws.com-5ae3f48687.webp" alt="" width="40" height="41" />PGP* 面向加密货币</a>
 <iframe width="320" height="200" src="https://www.youtube.com/embed/videoseries?si=5wgdhsq7sDxdosGt&amp;list=PLWmtTg-WFLv7ONEIgDk4E6POEvi8hKPhq" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </li>
 
 <li>
-<a href="https://www.youtube.com/playlist?list=PLH78wfbGI1x2Rj7tLp1RCG68wNvKqCT74"><img class="podcast-img" src="/content-images/https-3A-2F-2Fs3-us-west-2.amazonaws.com-d965cb4785.webp" alt="" width="40" height="41" />隐私交易播放列表</a>
+<a href="https://www.youtube.com/playlist?list=PLH78wfbGI1x2Rj7tLp1RCG68wNvKqCT74"><img class="podcast-img" src="/content-images/https-3A-2F-2Fs3-us-west-2.amazonaws.com-d965cb4785.webp" alt="" width="40" height="41" />屏蔽交易 [Shielded Transactions] 播放列表</a>
 <iframe width="320" height="200" src="https://www.youtube.com/embed/videoseries?si=MXbM7LrvNJBm9uM5&amp;list=PLH78wfbGI1x2Rj7tLp1RCG68wNvKqCT74" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </li>
 
@@ -37,4 +37,4 @@
 </li>
 </ul>
 
-我们是否遗漏了某个优秀的播客？请通过 [Discord](https://discord.gg/zcash) 联系我们，我们会将其添加到列表中。
+我们是否遗漏了优秀的播客？请通过 [Discord](https://discord.gg/zcash) 联系我们，我们会将其加入列表。
