@@ -7,18 +7,19 @@
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address | Hardware
 - Pools: Transparent | Sapling | Ironwood
 - Features: Address Book | CrossPay | Flexa Payments | NEAR Intents | Payment Request | Shielded Memo | Spend before Sync | TEX Address | Tor Support | Voting
-- Ironwood: Ready
+- NU7 compatibility: Confirmed for Android and iPhone (Zodl 3.19.0 [Android release notes](https://github.com/zodl-inc/zodl-android/releases) and [iOS App Store listing](https://apps.apple.com/us/app/zodl-zcash-wallet/id1672392439)); the [official X account](https://x.com/zodl_app/status/2118533786648383618) also says users need v3.19.0
 
 ---
 
 ## [YWallet](https://ywallet.app/)
 ![logo](/content-images/wallets/ywallet.webp "YWallet")
-- Status: Deprecated | Dropped Zcash support after the NU6.3 Ironwood upgrade (2026). The author's successor wallet is Zkool.
+- Status: Successor wallet: [Zkool](https://hhanh00.github.io/zkool2/).
 - Devices: Mobile | Desktop
 - Operating System: Android | iOS | Windows | Linux | macOS
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address
 - Pools: Transparent | Sapling
 - Features: Address Book | Address Rotation | Cold Storage | Payment Request | Pool Transfer | Shielded Memo | TEX Address | WarpSync
+- NU7 compatibility: Not confirmed
 
 ---
 
@@ -29,7 +30,7 @@
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address
 - Pools: Sapling | Ironwood
 - Features: Discord Bot
-- Ironwood: Ready
+- NU7 compatibility: Not confirmed
 
 ---
 
@@ -40,7 +41,7 @@
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address
 - Pools: Transparent | Sapling | Ironwood
 - Features: Address Book | Financial Insights | Payment Request | PepperSync | Shielded Memo | Testnet Support
-- Ironwood: Ready
+- NU7 compatibility: Confirmed for iPhone and Android (Zingo 3.0.0-324 [release notes](https://github.com/zingolabs/zingo-mobile/releases/tag/zingo-3.0.0-324), [App Store](https://apps.apple.com/us/app/zingo/id1668209531), and [Google Play](https://play.google.com/store/apps/details?id=org.ZingoLabs.Zingo)); the [official X account](https://x.com/ZingoLabs/status/2118713799100317820) says NU7 is live; desktop status not separately confirmed
 
 ---
 
@@ -51,7 +52,7 @@
 - Wallet Support: Seed Phrase | Unified Address
 - Pools: Transparent | Sapling | Ironwood
 - Features: Automatic Shielding | Multi Coin | Shielded Memo | Spend before Sync | Swaps | ZNS Names
-- Ironwood: Ready
+- NU7 compatibility: Confirmed in Edge 4.52.3 source, which pins `zcash-native` 0.1.1 and its NU7-capable Zingolib base ([release](https://github.com/EdgeApp/edge-react-gui/releases/tag/v4.52.3), [source manifest](https://raw.githubusercontent.com/EdgeApp/edge-react-gui/v4.52.3/package.json), [dependency migration PR](https://github.com/EdgeApp/edge-react-gui/pull/6306), and [Zingolib NU7 release notes](https://github.com/zingolabs/zingolib/releases/tag/zingolib_v8.0.0)); app-store rollout not separately confirmed
 
 ---
 
@@ -62,7 +63,7 @@
 - Wallet Support: Seed Phrase | Unified Address
 - Pools: Transparent | Sapling | Ironwood
 - Features: CrossPay | Multi Coin | Spend before Sync | Swaps
-- Ironwood: Ready
+- NU7 compatibility: Not confirmed
 
 ---
 
@@ -73,7 +74,7 @@
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address
 - Pools: Transparent | Sapling
 - Features: Address Book | Address Check | Address Rotation | Automatic Shielding | Payment Request | Shielded Memo | TEX Address | Testnet Support
-- Ironwood: Not Ready
+- NU7 compatibility: Not confirmed
 
 ---
 
@@ -84,7 +85,7 @@
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address | Hardware
 - Pools: Transparent | Sapling | Ironwood
 - Features: Address Rotation | Encrypted Backup | FROST Multisig | Multi Account | Offline Signing | Shielded Memo | Testnet Support | Tor Support | Voting
-- Ironwood: Ready
+- NU7 compatibility: Confirmed for iPhone (Zkool 6.36.0 [App Store listing](https://apps.apple.com/us/app/zkool/id6736854027)); other platforms not confirmed
 
 ---
 
@@ -95,7 +96,7 @@
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address
 - Pools: Transparent | Sapling | Ironwood
 - Features: Address Book | Address Rotation | Automatic Shielding | Multi Coin | Shielded Memo | Swaps | Tor Support
-- Ironwood: Ready
+- NU7 compatibility: Confirmed ([Cake Wallet v6.5.3 release notes](https://github.com/cake-tech/cake_wallet/releases/tag/v6.5.3))
 
 ---
 
@@ -106,7 +107,7 @@
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address | Full Node
 - Pools: Transparent | Sapling
 - Features: Address Book | RPC Interface | Shielded Memo | Testnet Support
-- Ironwood: Not Ready
+- NU7 compatibility: Not confirmed
 
 ---
 
@@ -117,7 +118,7 @@
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address
 - Pools: Transparent | Sapling | Ironwood
 - Features: Command Line Interface | PepperSync | Shielded Memo | Testnet Support
-- Ironwood: Ready
+- NU7 compatibility: Confirmed ([Zingolib v8.0.0 release notes](https://github.com/zingolabs/zingolib/releases/tag/zingolib_v8.0.0)); released alongside zingo-cli 0.5.0
 
 ---
 
@@ -129,7 +130,7 @@
 - Pools: Transparent | Sapling | Ironwood
 - Features: RPC Interface | Shielded Memo | Testnet Support
 - Stage: Beta
-- Ironwood: Ready
+- NU7 compatibility: Confirmed ([Zallet v0.1.0-beta.4 release notes](https://github.com/zcash/zallet/releases/tag/v0.1.0-beta.4)); release follows NU7 on mainnet
 
 ---
 
@@ -141,6 +142,7 @@
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address | Full Node
 - Pools: Transparent | Sapling
 - Features: Address Rotation | Command Line Interface | RPC Interface | Shielded Memo | Testnet Support
+- NU7 compatibility: Unsupported; deprecated and halted before NU6.3 ([Zcash deprecation notice](https://z.cash/support/zcashd-deprecation/))
 
 ---
 
@@ -151,7 +153,7 @@
 - Wallet Support: Seed Phrase | Unified Address
 - Pools: Transparent
 - Features: Shielded Memo | Testnet Support
-- Ironwood: In Progress
+- NU7 compatibility: Not confirmed
 
 ---
 
@@ -162,7 +164,7 @@
 - Wallet Support: Seed Phrase | Unified Address
 - Pools: Transparent | Sapling
 - Features: Multi Coin
-- Ironwood: Not Ready
+- NU7 compatibility: Not confirmed
 
 ---
 
@@ -173,7 +175,7 @@
 - Wallet Support: Seed Phrase | Unified Address
 - Pools: Transparent | Sapling
 - Features: Swaps | ZNS Names
-- Ironwood: Not Ready
+- NU7 compatibility: Not confirmed
 
 ---
 
@@ -184,7 +186,7 @@
 - Wallet Support: Seed Phrase | Unified Address | Hardware
 - Pools: Transparent | Sapling | Ironwood
 - Features: Multi Account | Payment Links | Pool Transfer | Shielded Memo
-- Ironwood: Ready
+- NU7 compatibility: Not confirmed
 
 ---
 
@@ -195,7 +197,7 @@
 - Wallet Support: Seed Phrase
 - Pools: Transparent
 - Features: Multi Coin | Multisig
-- Ironwood: Transparent only
+- NU7 compatibility: Not confirmed
 
 ---
 
@@ -206,7 +208,7 @@
 - Wallet Support: Seed Phrase
 - Pools: Transparent
 - Features: Multi Coin
-- Ironwood: Not Ready
+- NU7 compatibility: Not confirmed in the Trust Wallet app; Trust Wallet Core 4.9.1 adds v5 transaction support, but app rollout and NU7 branch-ID handling were not independently verified ([Core release notes](https://github.com/trustwallet/wallet-core/releases/tag/4.9.1))
 
 ---
 
@@ -217,7 +219,7 @@
 - Wallet Support: Seed Phrase | Hardware
 - Pools: Transparent
 - Features: Multi Coin | Swaps
-- Ironwood: Transparent only
+- NU7 compatibility: Not confirmed
 
 ---
 
@@ -228,7 +230,7 @@
 - Wallet Support: Seed Phrase
 - Pools: Transparent
 - Features: Multi Coin
-- Ironwood: Transparent only
+- NU7 compatibility: Not confirmed
 
 ---
 
@@ -238,7 +240,7 @@
 - Wallet Support: Hardware | Unified Address
 - Pools: Transparent | Ironwood
 - Features: Multi Coin
-- Ironwood: Ready
+- NU7 compatibility: Not confirmed
 
 ---
 
@@ -249,7 +251,7 @@
 - Wallet Support: Hardware
 - Pools: Transparent | Ironwood
 - Features: Multi Coin
-- Ironwood: Ready
+- NU7 compatibility: Confirmed in the official LedgerHQ Zcash app 3.10.0 source tag; rollout on each supported device/store listing was not independently verified. Nano S is unsupported ([3.10.0 source tag](https://github.com/LedgerHQ/app-zcash/tree/stax_1.11.0_3.10.0_sdk_v27.1.4), [device notes](https://github.com/LedgerHQ/app-zcash#ledger-rust-zcash-application))
 
 ---
 
@@ -260,7 +262,7 @@
 - Wallet Support: Seed Phrase | Hardware
 - Pools: Transparent
 - Features: Multi Coin
-- Ironwood: Not Ready
+- NU7 compatibility: Not confirmed
 
 ---
 
@@ -270,7 +272,7 @@
 - Wallet Support: Hardware
 - Pools: Transparent
 - Features: Multi Coin
-- Ironwood: Not Ready
+- NU7 compatibility: Not confirmed
 
 ---
 
@@ -281,7 +283,7 @@
 - Wallet Support: MPC Vault
 - Pools: Transparent
 - Features: Multi Coin
-- Ironwood: Not Ready
+- NU7 compatibility: Confirmed for standard transparent ZEC sends in Android v1.0.124 and iOS v1.50.80 ([Android release notes](https://github.com/vultisig/vultisig-android/releases/tag/v1.0.124), [iOS release notes](https://github.com/vultisig/vultisig-ios/releases/tag/v1.50.80)); this does not confirm the separate SwapKit swap path
 
 ---
 
@@ -292,7 +294,7 @@
 - Wallet Support: Seed Phrase | Unified Address | Hardware
 - Pools: Transparent | Sapling | Ironwood
 - Features: Gift Cards | NEAR Intents | Shielded Memo | Testnet Support | Voting
-- Ironwood: Ready
+- NU7 compatibility: Confirmed for iPhone 0.0.60, Android 0.0.60, and desktop 0.0.63 ([official NU7 guide](https://vizor.cash/blog/zcash-nu7-upgrade/), [desktop release notes](https://github.com/chainapsis/vizor-wallet/releases/tag/release/v0.0.63), [iOS App Store](https://apps.apple.com/us/app/vizor-zcash-wallet/id6776591245), and [Google Play](https://play.google.com/store/apps/details?id=com.keplr.vizor))
 
 ---
 
@@ -303,7 +305,7 @@
 - Wallet Support: Seed Phrase | Unified Address | Hardware
 - Pools: Transparent | Ironwood
 - Features: DApp Connections | Lending & Borrowing | Swaps | ZNS Names
-- Ironwood: Ready
+- NU7 compatibility: Confirmed for Mainnet in Noir Wallet v1.0.41 ([official release notes](https://github.com/NoirWallet/noir-wallet/releases/tag/v1.0.41)); the release contains separate Mainnet and Testnet builds
 
 ---
 
@@ -315,7 +317,7 @@
 - Pools: Transparent | Sapling | Ironwood
 - Features: Multi Coin | NEAR Intents | No KYC | Swaps
 - Stage: Beta
-- Ironwood: Ready
+- NU7 compatibility: Not confirmed
 
 ---
 
@@ -326,7 +328,7 @@
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address | Hardware
 - Pools: Transparent | Sapling | Ironwood
 - Features: Fiat Off-ramp | Messenger | NEAR Intents | P2P Payments | P2P Trading | Shielded Memo | Tor Support | Voting
-- Ironwood: Ready
+- NU7 compatibility: Not confirmed
 
 ---
 
@@ -337,7 +339,7 @@
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address | Spending Key | Full Node
 - Pools: Transparent | Sapling | Ironwood
 - Features: Encrypted Backup | RPC Interface | Shielded Memo
-- Ironwood: Ready
+- NU7 compatibility: Not confirmed
 
 ---
 
@@ -349,7 +351,7 @@
 - Pools: Transparent | Sapling
 - Features: No KYC | Shielded Memo
 - Stage: Beta
-- Ironwood: Not Ready
+- NU7 compatibility: Not confirmed
 
 ---
 
@@ -360,7 +362,7 @@
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address | Spending Key | Full Node
 - Pools: Ironwood
 - Features: Address Book | I2P Support | Shielded Memo | Tor Support | Transaction Export
-- Ironwood: Ready
+- NU7 compatibility: Not confirmed (the [Nozy X account](https://x.com/NozyWallet) said it was ready ahead of activation but gave no release or version; the [current website](https://www.nozywallet.com/) still describes Ironwood as NU6.3)
 
 ---
 
@@ -372,7 +374,7 @@
 - Pools: Transparent | Sapling
 - Features: AI Agent (MCP) | CipherPay | Command Line Interface | FROST Multisig | NEAR Intents | Payment Request | Shielded Memo | Testnet Support
 - Stage: Beta
-- Ironwood: In Progress
+- NU7 compatibility: Not confirmed
 
 ---
 
@@ -383,7 +385,7 @@
 - Wallet Support: Seed Phrase | Spending Key | Private Key
 - Pools: Transparent | Sprout | Sapling | Ironwood
 - Features: Command Line Interface | Shielded Memo | Testnet Support | Wallet Recovery
-- Ironwood: Ready
+- NU7 compatibility: Not confirmed
 
 ---
 
@@ -394,7 +396,7 @@
 - Wallet Support: Seed Phrase
 - Pools: Transparent
 - Features: Multi Coin
-- Ironwood: Transparent only
+- NU7 compatibility: Not confirmed
 
 --- 
 
@@ -405,7 +407,7 @@
 - Wallet Support: Seed Phrase
 - Pools: Transparent
 - Features: Multi Coin | Swaps
-- Ironwood: Transparent only
+- NU7 compatibility: Not confirmed
 
 ---
 
@@ -416,5 +418,5 @@
 - Wallet Support: Seed Phrase | Wallet Import | Viewing Keys | Cold Signing
 - Pools: Transparent | Orchard (Legacy) | Ironwood | Penumbra Shielded
 - Features: Multi-Chain | Shielded Transactions | Swaps | FROST Multisig | Cold Signing
-- Ironwood: Shielded and Transparent
+- NU7 compatibility: Not confirmed
 - Status: Beta (Continuous Development)
