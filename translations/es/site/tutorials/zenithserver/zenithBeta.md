@@ -1,8 +1,8 @@
 # Zenith 0.10 Beta
 
-Necesitarás un `zebrad` en ejecución con los RPC habilitados
+Necesitarás un zebrad en ejecución con los RPC habilitados
 
-# Instalar NIX
+# Instalar NIX [Install NIX]
 
 ```bash
 sh <(curl --proto '=https' --tlsv1.2 -L https://nixos.org/nix/install) --no-daemon

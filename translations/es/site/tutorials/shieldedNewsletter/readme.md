@@ -1,9 +1,9 @@
-# Boletines protegidos
+# Boletines blindados [Shielded Newsletters]
 
 
 ## Configuración
 
- * Nodo Zebrad en ejecución y completamente sincronizado, con los RPC activados y configurado para usar cookies
+ * Nodo [node] Zebrad en ejecución y completamente sincronizado con las RPC activadas y configurado para usar cookies
  * zainod completamente sincronizado
  * Zallet configurado para ejecutar RPC
 
@@ -12,9 +12,9 @@
 
 `./target/release/zallet -c /home/zktails/.zallet/zallet.toml start`
 
-con un archivo zallet.toml configurado
+Con un archivo zallet.toml configurado
 
-ejemplo de toml:
+Ejemplo de toml:
 
 ```markdown
 [builder]
@@ -72,7 +72,7 @@ bind = ["127.0.0.1:8237"]
 
 `chmod +x toCurl.sh`
 
-modifica el puerto RPC correcto de zebrad (8232) e incluye el nombre de usuario y la contraseña de la cookie de zebrad
+Modifica el puerto RPC (8232) correcto de zebrad e incluye el nombre de usuario y la contraseña de la cookie de zebrad
 
 
 `__cookie__:yourpasswordhere`
@@ -107,15 +107,15 @@ z_recoveraccounts
 z_sendmany
 z_viewtransaction
 ```
-Nota: asegúrate de tener una copia del ejecutable de zallet en la carpeta donde ejecutas el script
+Nota [Note]: asegúrate de tener una copia del ejecutable zallet en la carpeta donde ejecutas el script
 
 ### Ejecutar scripts
 
 `chmod +x ascii2hex hex2ascii shieldNewsletter.sh txBuilderFromFile.sh toCurl.sh`
 
-Actualiza daoAddress.md con las UA que quieras usar
+Actualiza daoAddress.md con las UA que deseas usar
 
-Abre txBuilderFromFile.sh y actualiza la variable "from" con la UA con fondos que está en tu billetera Zallet
+Abre txBuilderFromFile.sh y actualiza la variable «from» con la UA financiada que está en tu billetera zallet
 
 Luego,
 

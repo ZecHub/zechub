@@ -1,12 +1,12 @@
-# Instalación de la billetera de nodo completo Zenith GUI  
+# Instalación de la billetera [Wallet] GUI de nodo completo [Full Node] Zenith
 
-## Videotutorial
+## Tutorial en vídeo [Video Tutorial]
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
     className="w-full h-full"
     src="https://www.youtube.com/embed/zu8nvr4FlXE"
-    title="Instalación y demostración de la billetera de nodo completo Zenith"
+    title="Zenith Full Node Wallet Installation & Demo"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowFullScreen
     loading="lazy"
@@ -20,7 +20,7 @@
   <iframe
     className="w-full h-full"
     src="https://www.youtube.com/embed/-gawirv0L_U"
-    title="Uso de RPC con Zebrad + Zenith"
+    title="Using RPC's with Zebrad + Zenith"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowFullScreen
     loading="lazy"
@@ -48,11 +48,11 @@
 > nano ~/.config/zebrad.toml
 
 
-#### escuchar consultas RPC en localhost
+#### Escuchar consultas RPC en localhost [listen for RPC queries on localhost]
 
 > listen_addr = "127.0.0.1:8232"
 
-#### usar automáticamente múltiples hilos de CPU
+#### Usar automáticamente varios hilos de CPU [multiple CPU threads]
 
 parallel_cpu_threads = 0
 
@@ -60,7 +60,7 @@ enable_cookie_auth = false
 
 ## Instalar Zenith
 
-**Descarga el archivo tar.gz y descomprímelo en tu directorio home**
+**Descarga el tar.gz y descomprímelo en tu directorio principal [home directory]**
 
 > wget https://code.vergara.tech/Vergara_Tech/zenith/archive/0.7.2.0-beta.tar.gz
 
@@ -73,7 +73,7 @@ enable_cookie_auth = false
 > git clone https://code.vergara.tech/Vergara_Tech/zcash-haskell.git
 
 
-### Instalar dependencias
+### Instalar dependencias [Dependencies]
 
 > sudo apt install libssl-dev libgmp-dev libsecp256k1-dev libtinfo-dev libsdl2-dev libfreetype-dev libglew-dev gdk-pixbuf-tests raspi-config
   
@@ -92,13 +92,13 @@ enable_cookie_auth = false
 
 > nano configure
 
-**cambia el triple a: "aarch64-unknown-linux-gnu" en ambas líneas.**
+**Cambia el triple a: "aarch64-unknown-linux-gnu" en ambas líneas.**
 
 > nano Setup.hs
  
  **Modifica Setup.hs tanto en la carpeta zcash-haskell como en la carpeta zenith**
 
-### Compilar 
+### Compilar [Compile]
 
 - ./configure
 
@@ -136,19 +136,19 @@ zebraPort = 8232
 
 ## Raspi-config
 
-> [descarga la última versión de gldriver-test](https://archive.raspberrypi.org/debian/pool/main/g/gldriver-test/)
+> [descarga el último gldriver-test](https://archive.raspberrypi.org/debian/pool/main/g/gldriver-test/)
   
 > sudo dpkg - gldriver-test_0.15_all.deb
   
 > sudo raspi-config
 
-  **ve a advance y selecciona opengl => GL (Full KMS)**
+  **Ve a avanzado y selecciona opengl => GL (Full KMS)**
 
-  **reinicia**
+  **Reinicia**
 
 
 
-## Ejecutar Zenith
+## Ejecutar zenith
 
  ./zenith gui
  or
@@ -158,4 +158,4 @@ zebraPort = 8232
 
 ## RPC
 
-[cómo hacerlo](https://github.com/ZecHub/zechub/blob/main/site/tutorials/zenithserver/zenithBeta.md)
+[howto](https://github.com/ZecHub/zechub/blob/main/site/tutorials/zenithserver/zenithBeta.md)

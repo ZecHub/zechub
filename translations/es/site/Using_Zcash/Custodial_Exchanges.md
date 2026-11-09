@@ -2,9 +2,9 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# <img src="/content-images/image-2024-02-03-173258092-a5440e5ee2.webp" alt="Alt Text" width="50"/>   Exchanges con custodia
+# <img src="/content-images/image-2024-02-03-173258092-a5440e5ee2.webp" alt="Alt Text" width="50"/>   Exchanges custodios [Custodial Exchanges]
 
-Ironwood es el pool blindado que llegó con la actualización de red de julio de 2026. Los exchanges que solo manejan direcciones t transparentes nunca lo utilizan, por lo que se marcan como no aplicable. Cuando un exchange sí maneja direcciones blindadas pero no ha indicado qué pool utiliza, la línea lo señala en lugar de especular.
+Ironwood es el pool blindado [shielded pool] que llegó con la actualización de red [network upgrade] de julio de 2026. Los exchanges que solo manejan direcciones t transparentes [transparent t-addresses] nunca interactúan con él, por lo que se marcan como no aplicable. Cuando un exchange sí maneja direcciones blindadas pero no ha indicado qué pool utiliza, la línea lo indica en lugar de hacer suposiciones.
 
 ---
 
@@ -16,7 +16,7 @@ Ironwood es el pool blindado que llegó con la actualización de red de julio de
 
 - Sitio web: [Backpack](https://backpack.exchange)
 - Pares: ZEC/USDC | ZEC-PERP
-- Compatible con: Depósitos y retiros habilitados. Tipos de dirección no especificados
+- Admite: Depósitos y retiros habilitados. Tipos de dirección no especificados
 - Tiempo de depósito: No especificado
 - Ironwood: No especificado
 ___
@@ -28,8 +28,8 @@ ___
 </a>
 
 - Sitio web: [Binance](https://binance.com)
-- Pares: ALL/ZEC
-- Compatible con: Transparente (depósito con dirección TEX)
+- Pares: TODOS/ZEC
+- Admite: Transparente [Transparent] (depósito a dirección TEX)
 - Tiempo de depósito: 20 minutos
 - Ironwood: No aplicable, solo direcciones transparentes
 ___
@@ -42,7 +42,7 @@ ___
 
 - Sitio web: [BitcoinVN](https://bitcoinvn.io)
 - Pares: BTC/ZEC, ETH/ZEC, USDT/ZEC, XMR/ZEC, LTC/ZEC, DASH/ZEC
-- Compatible con: Transparente | Blindado (depósito y retiro con dirección z)
+- Admite: Transparente | Blindado (depósito y retiro a dirección z)
 - Tiempo de depósito: Instantáneo (swap sin custodia)
 - Ironwood: No especificado
 ___
@@ -54,8 +54,8 @@ ___
 </a>
 
 - Sitio web: [Bitfinex](https://bitfinex.com)
-- Pares: ALL/ZEC
-- Compatible con: Transparente
+- Pares: TODOS/ZEC
+- Admite: Transparente
 - Tiempo de depósito: 25 minutos 
 - Ironwood: No aplicable, solo direcciones transparentes
 ___
@@ -67,8 +67,8 @@ ___
 </a>
 
 - Sitio web: [Coinbase](https://coinbase.com)
-- Pares: ALL/ZEC
-- Compatible con: Transparente
+- Pares: TODOS/ZEC
+- Admite: Transparente
 - Tiempo de depósito: 150 minutos
 - Ironwood: No aplicable, solo direcciones transparentes
 ___
@@ -76,14 +76,14 @@ ___
  ### [Gemini](https://gemini.com)
 
 <a href="https://gemini.com">
-    <img src="/content-images/Gemini-Symbol-ddd31ee98b.webp" alt="Gemini Custodian Exchange Logo" width="200" height="100"/>
+    <img src="/content-images/Gemini-Symbol-ddd31ee98b.webp" alt="Gemini Logo de exchange custodio" width="200" height="100"/>
 </a>
 
 - Sitio web: [Gemini](https://gemini.com)
-- Pares: ALL/ZEC
-- Compatible con: Retiros transparentes | blindados y unificados, Orchard desde noviembre de 2025
+- Pares: TODOS/ZEC
+- Admite: Retiros transparentes | blindados y unificados, Orchard desde noviembre de 2025
 - Tiempo de depósito: 50 minutos 
-- Ironwood: Retiros blindados compatibles, pool no especificado
+- Ironwood: Retiros blindados admitidos, pool no especificado
 ___
 
 ### [Huobi](https://huobi.com)
@@ -93,8 +93,8 @@ ___
 </a>
 
 - Sitio web: [Huobi](https://huobi.com)
-- Pares: ALL/ZEC
-- Compatible con: Transparente
+- Pares: TODOS/ZEC
+- Admite: Transparente
 - Tiempo de depósito: 35 minutos 
 - Ironwood: No aplicable, solo direcciones transparentes
 ___
@@ -102,12 +102,12 @@ ___
 ### [Kraken](https://kraken.com)
 
 <a href="https://kraken.com">
-    <img src="/content-images/kraken-logo-7407ab477f.webp" alt="Kraken Promotional" width="200" height="100"/>
+    <img src="/content-images/kraken-logo-7407ab477f.webp" alt="Kraken Promocional" width="200" height="100"/>
 </a>
 
 - Sitio web: [Kraken](https://kraken.com)
-- Pares: ALL/ZEC
-- Compatible con: Transparente
+- Pares: TODOS/ZEC
+- Admite: Transparente
 - Tiempo de depósito: 60 minutos
 - Ironwood: No aplicable, solo direcciones transparentes
 ___
@@ -119,8 +119,8 @@ ___
 </a>
 
 - Sitio web: [KuCoin](https://kucoin.com)
-- Pares: ALL/ZEC
-- Compatible con: Transparente
+- Pares: TODOS/ZEC
+- Admite: Transparente
 - Tiempo de depósito: 20 minutos 
 - Ironwood: No aplicable, solo direcciones transparentes
 ___
@@ -128,12 +128,12 @@ ___
 ## [OKX (anteriormente OKEx)](https://www.okx.com)
 
 <a href="https://www.okx.com">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/8/89/Official_logo_of_OKEx.png" alt="OKX logo (shown under its former OKEx branding)" width="200" height="100"/>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/8/89/Official_logo_of_OKEx.png" alt="OKX logo (mostrado bajo su anterior marca OKEx)" width="200" height="100"/>
 </a>
 
 - Sitio web: [OKX](https://www.okx.com)
-- Pares: ALL/ZEC
-- Compatible con: Transparente
+- Pares: TODOS/ZEC
+- Admite: Transparente
 - Tiempo de depósito: 25 minutos 
 - Ironwood: No aplicable, solo direcciones transparentes
 ___
@@ -146,7 +146,7 @@ ___
 
 - Sitio web: [Robinhood](https://robinhood.com)
 - Pares: USD/ZEC | EUR/ZEC
-- Compatible con: Retiros solo a direcciones t transparentes. Los depósitos de ZEC no son compatibles
-- Tiempo de depósito: Depósitos no compatibles
+- Admite: Retiros únicamente a direcciones t transparentes. No se admiten depósitos de ZEC
+- Tiempo de depósito: Depósitos no admitidos
 - Ironwood: No aplicable, solo direcciones transparentes
 ___

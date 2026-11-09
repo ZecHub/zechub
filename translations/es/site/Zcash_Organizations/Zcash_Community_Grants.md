@@ -1,51 +1,51 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Zcash_Organizations/Zcash_Community_Grants.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Editar página"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# <img src="/content-images/ZCG-Circle-Logo-10-f41b8229ca.webp" alt="Texto alternativo" width="50"/>  Subvenciones Comunitarias de Zcash
+# <img src="/content-images/ZCG-Circle-Logo-10-f41b8229ca.webp" alt="Alt Text" width="50"/>  Zcash Community Grants
 
 ## Declaración de misión
 
-El programa de Subvenciones Comunitarias de Zcash financia a equipos independientes que ingresan al ecosistema de Zcash, para llevar a cabo un desarrollo importante y continuo (u otro trabajo) para el bien público del ecosistema de Zcash. 
+El programa Zcash Community Grants financia a equipos independientes que ingresan al ecosistema Zcash para realizar un importante desarrollo continuo (u otro trabajo) por el bien público del ecosistema Zcash. 
 
 ## Personas y equipos
 
-Las Subvenciones Comunitarias de Zcash son gestionadas por un comité, que actualmente está formado por cinco personas. Esta comunidad revisa y aprueba solicitudes de subvención de equipos terceros que quieren construir sobre el protocolo de Zcash. Más información sobre el [equipo](https://zcashcommunitygrants.org/committee/)
+Zcash Community Grants está gestionado por un comité, que actualmente consta de cinco personas. Esta comunidad revisa y aprueba solicitudes de subvenciones [grant] de equipos externos que desean desarrollar sobre el protocolo Zcash. Más información sobre el [Equipo](https://zcashcommunitygrants.org/committee/)
 
-Entre los proyectos recientes que han sido aprobados por ZCG se encuentra Zcash Shielded Assets (ZSA), liderado por el equipo de QEDIT. Lleva DeFi a ZEC con Zcash mediante un nuevo protocolo de pagos que añade funciones adicionales a la red principal de Zcash. 
+Entre los proyectos recientes aprobados por ZCG se encuentran los activos blindados [shielded] Zcash (ZSA), liderados por el equipo QEDIT. Llevan DeFi a ZEC con Zcash mediante un nuevo protocolo de pagos [payment] que añade funciones adicionales a la red principal de Zcash. 
 
-El cortometraje documental de Zcash Media presenta a Zcashers destacados como Edward Snowden, Zooko y Deirdre Connolly, con el propósito de crear videos relevantes, entretenidos y educativos para que se compartan ampliamente. 
+El cortometraje documental de Zcash Media presenta a figuras destacadas de Zcash, como Edward Snowden, Zooko y Deirdre Connolly, con el propósito de crear vídeos relevantes, entretenidos y educativos que se compartan ampliamente. 
 
-La integración de carteras de hardware de Ledger para dar soporte completo a las transacciones blindadas de Sapling permite que Zcash se almacene de forma privada y segura. Esto ha sido llevado a cabo por el equipo de Zondax. 
+La integración de hardware wallets de Ledger para admitir plenamente las transacciones blindadas de Sapling permite que Zcash se almacene de forma privada y segura. Esto ha sido realizado por el equipo Zondax. 
 
-Un sistema sencillo de pagos blindados con un solo clic y punto de venta para tiendas físicas, junto con su SDK, está siendo desarrollado por ZGo. 
+ZGo está desarrollando un sistema sencillo de pago blindado con un clic y de punto de venta para comercios físicos, junto con su SDK. 
 
-El programa de Embajadores Globales ayuda a Zcash a lograr una representación internacional más amplia y a participar en eventos comunitarios presenciales en todo el mundo. 
+El programa de embajadores globales ayuda a Zcash a lograr una representación internacional más amplia y a participar en eventos comunitarios presenciales en todo el mundo. 
 
-Varios proyectos más han sido revisados por el Comité de Subvenciones de Zcash; consulta una [lista completa y actualizada](https://docs.google.com/spreadsheets/d/1FQ28rDCyRW0TiNxrm3rgD8ai2KGUsXAjPieQmI1kKKg/edit?gid=135980745#gid=135980745) de los proyectos presentados.
+Varios proyectos más han sido revisados por el Comité de subvenciones Zcash; consulte una [Lista completa y actualizada](https://docs.google.com/spreadsheets/d/1FQ28rDCyRW0TiNxrm3rgD8ai2KGUsXAjPieQmI1kKKg/edit?gid=135980745#gid=135980745) de los proyectos presentados.
 
 ## Estructura organizativa
 
-Las Subvenciones Comunitarias de Zcash son una organización independiente de Electric Coin Company y de la Zcash Foundation. 
+Zcash Community Grants es una organización independiente de Electric Coin Company y Zcash Foundation. 
 
 ## Financiación
 
-Zcash Community Grants recibe el 8% del subsidio de bloque, bajo el modelo de financiación establecido en NU6.1 por el [ZIP 1016](https://zips.z.cash/zip-1016). El flujo comenzó cuando expiró el flujo anterior del [ZIP 1015](https://zips.z.cash/zip-1015), y se extiende hasta el tercer halving de Zcash en el bloque 4.406.400 según el espaciado de bloques actual. ZCG utiliza estos fondos para apoyar a equipos independientes en todo el ecosistema de Zcash.
+Zcash Community Grants recibe el 8 % de la subvención por bloque, conforme al modelo de financiación establecido en NU6.1 por [ZIP 1016](https://zips.z.cash/zip-1016). El flujo comenzó cuando expiró el flujo anterior de [ZIP 1015](https://zips.z.cash/zip-1015) y se mantiene hasta el tercer halving de Zcash en el bloque 4.406.400, según el espaciado actual de bloques. ZCG utiliza estos fondos para apoyar a equipos independientes en todo el ecosistema Zcash.
 
 ## Recursos
 
-[Desarrollo y gobernanza de Zcash](https://z.cash/zcash-development-and-governance/)
+[Zcash desarrollo y gobernanza governance](https://z.cash/zcash-development-and-governance/)
 
 
 
 
-## Cómo enviar una solicitud de subvención a través de ZCG (GitHub + Foro de la comunidad)
+## Cómo enviar una solicitud de subvención mediante ZCG (GitHub + foro de la comunidad)
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
     className="w-full h-full"
     src="https://www.youtube.com/embed/ItEwc1lzvzc"
-    title="Cómo enviar una solicitud de subvención a través de ZCG"
+    title="How to Submit a Grant Application via ZCG"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowFullScreen
     loading="lazy"
@@ -53,8 +53,8 @@ Zcash Community Grants recibe el 8% del subsidio de bloque, bajo el modelo de fi
 </div>
 
 
-### Paso 1: Prepara tu propuesta
-Crea una propuesta clara que incluya:
+### Paso 1: Prepare su propuesta
+Cree una propuesta clara que incluya:
 - Título del proyecto y datos del solicitante
 - Planteamiento del problema y solución propuesta
 - Entregables, cronograma e hitos
@@ -63,34 +63,34 @@ Crea una propuesta clara que incluya:
 
 ---
 
-### Paso 2: Envíala en GitHub
-1. Ve al **repositorio de GitHub de Zcash Community Grants**
-2. Abre la pestaña **Issues** y haz clic en **New Issue**
-3. Selecciona la **plantilla de solicitud de subvención** adecuada
-4. Completa todos los campos requeridos y envíala
+### Paso 2: Envíe la solicitud en GitHub
+1. Vaya al repositorio de **Zcash Community Grants GitHub**
+2. Abra la pestaña **Incidencias** y haga clic en **Nueva incidencia**
+3. Seleccione la **plantilla de solicitud de subvención** adecuada
+4. Complete todos los campos obligatorios y envíe la solicitud
 
-El issue de GitHub es el **registro oficial de la solicitud**.
-
----
-
-### Paso 3: Crea una publicación en el foro de la comunidad
-1. Ve al **Foro de la comunidad de Zcash**
-2. Crea un nuevo hilo en la categoría **Zcash Community Grants**
-3. Usa el mismo título que el issue de GitHub
-4. Añade un breve resumen e incluye un **enlace al issue de GitHub**
+La incidencia de GitHub es el **registro oficial de la solicitud**.
 
 ---
 
-### Paso 4: Participa en la revisión
-- Supervisa el issue de GitHub y el hilo del foro
-- Responde a las preguntas y comentarios del Comité de ZCG y de la comunidad
+### Paso 3: Cree una publicación en el foro de la comunidad
+1. Vaya al foro de la comunidad de **Zcash**
+2. Cree un nuevo hilo en la categoría **Zcash Community Grants**
+3. Use el mismo título que la incidencia de GitHub
+4. Añada un breve resumen e incluya un **enlace a la incidencia de GitHub**
+
+---
+
+### Paso 4: Participe en la revisión
+- Supervise la incidencia de GitHub y el hilo del foro
+- Responda a las preguntas y comentarios del Comité ZCG y de la comunidad
 
 ---
 
 ### Paso 5: Resultado
-- Las propuestas aprobadas avanzan a la financiación y la presentación de informes
-- Las propuestas no aprobadas **PUEDEN** ser revisadas y reenviadas
+- Las propuestas aprobadas pasan a la fase de financiación y presentación de informes
+- Las propuestas no aprobadas **PUEDEN** revisarse y volver a enviarse
 
 ---
 
-**Nota:** GitHub es la fuente de registro; el foro es para la discusión pública.
+**Nota [Note]:** GitHub es la fuente de registro; el foro sirve para el debate público.
