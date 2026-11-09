@@ -1,10 +1,10 @@
 # Z3: (zebrad)(zaino)(zingo-cli)
 
-**zebrad**    : zcash 全节点
+**zebrad**    ：zcash 全节点 (full node)
 
-**zaino**     : zcash 区块链索引器
+**zaino**     ：zcash blockchain 索引器 (indexer)
 
-**zingo-cli** : zcash 命令行 zaino-proxy 客户端（Zingolib 的子集）
+**zingo-cli** ：zcash 命令行 zaino-proxy 客户端 (client)（Zingolib 的子集）
 
 ## 视频
 
@@ -12,7 +12,7 @@
   <iframe
     className="w-full h-full"
     src="https://www.youtube.com/embed/b5dIuGstMvI"
-    title="Zingolib + Zaino 简介"
+    title="An introduction to Zingolib + Zaino"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowFullScreen
     loading="lazy"
@@ -20,21 +20,21 @@
 </div>
 
 
-## 整体概览
+## 全局概览 (Big Picture)
 
-[系统架构](https://github.com/zingolabs/zaino/blob/dev/docs/zaino_live_system_architecture.pdf)
+[系统架构 (System Architecture)](https://github.com/zingolabs/zaino/blob/dev/docs/zaino_live_system_architecture.pdf)
 
 
-- Zcash 用户安装/编译 Zingolib，从而获得对 zingo-cli 的访问权限。他们可以按需发送/接收 ZEC。
-- zingo-cli 通过本地连接或在线安全通道连接到 zaino（Zcash 用户并不关心这具体是如何实现的！）
+- Zcash 用户安装/编译 Zingolib，即可访问 zingo-cli。他们可以按需发送/接收 ZEC。
+- zingo-cli 通过本地方式或在线安全通道连接到 zaino（Zcash 用户不关心其工作原理！）
 - Zaino 允许访问 zebrad 或 zcashd            
-- 完全同步的 zebrad 是可信真相来源（这里不再有钱包！）
+- 完全同步的 zebrad 是唯一可信来源（这里不再有钱包 (wallet)！）
 
 
 
-## 安装
+## 安装 (Installation)
 
-你需要安装 3 样东西，此功能才能正常运行。我还建议使用 screen 或类似工具来帮助管理终端会话
+要使其正确运行，你需要安装 3 个东西。我也建议使用 screen 或类似工具来管理屏幕。
 
 `sudo apt install screen`
 
@@ -54,7 +54,7 @@ screen -S zebra
 zebrad start
 ```
 
-注意：这需要先完成全部同步！ 
+注意 (note)：这需要完全同步！ 
 
 ### zaino
 
@@ -71,7 +71,7 @@ PATH=$PATH:~/Desktop/zaino/target/release/
 ```
 screen -S zaino
 cd ~/zaino/zainod
-nano zindexer.toml  => 将端口调整为主网的 8232
+nano zindexer.toml  => Adjust port to 8232 for mainnet
 zainod --config zindexer.toml
 ```
 
@@ -91,9 +91,9 @@ screen -S zingo
 ./zingo-cli --server http://127.0.0.1:8137 --data-dir /media/zebra5/zebra/.cache/lightwalletd
 ```
 
-注意：这同样需要完成全部同步，就像 lightwalletd 一样。我建议使用外置硬盘以节省时间 :)
+注意 (note)：这也需要完全同步，就像 lightwalletd 一样。我建议使用外接硬盘以节省时间：）
 
 
-## 运行
+## 运行 (Running)
 
-如果你是在 screen 会话中运行这些，`screen -r` 会列出每个 screen，方便你按需切换
+如果你在 screen 中运行这些，`screen -r` 会列出每个 screen，以便你按需切换

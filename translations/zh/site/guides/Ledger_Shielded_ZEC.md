@@ -1,82 +1,82 @@
-# Ledger Shielded ZEC 用户指南
+# Ledger 隐蔽 ZEC 用户指南
 
-2026 年 9 月 23 日，Ledger 为 Ledger Wallet Desktop 添加了原生 Shielded ZEC 支持。现在，一个 Zcash 账户可在 Zcash 的 Ironwood 池中同时持有透明余额和私密余额。你的私钥始终保留在 Ledger 上，每笔交易均在设备上审核并签名。
+2026 年 9 月 23 日，Ledger 在 Ledger Wallet Desktop 中添加了原生隐蔽 ZEC 支持。一个 Zcash 账户现在同时持有透明余额和 Zcash Ironwood 池中的私密余额。您的私钥保存在 Ledger 设备上，每笔交易都在设备上审核和签名。
 
-**仅限桌面版。** Ledger 的公告称，Shielded ZEC“仅在 Ledger Wallet Desktop 上可用。目前尚不支持移动端，但即将推出。”桌面应用也显示相同提示。于 2026 年 10 月 15 日核实。
+**仅限桌面端。** Ledger 的公告称隐蔽 ZEC "仅在 Ledger Wallet Desktop 上可用。移动端支持目前不可用，但即将推出。" 桌面应用程序显示相同的提示。检查日期为 2026 年 10 月 15 日。
 
 ## 准备工作
 
-- 一台可运行 Zcash 应用的 Ledger 设备：Nano S Plus、Nano X、Stax 或 Flex。当前的 Zcash 应用并非为原始 Nano S 构建。
+- 运行 Zcash 应用的 Ledger 设备：Nano S Plus、Nano X、Stax 或 Flex。当前的 Zcash 应用不支持原始 Nano S。
 - Ledger Wallet Desktop 4.21 或更高版本，仅从 [ledger.com](https://www.ledger.com) 下载。本指南使用的是 4.24.0 版本。
-- Ledger 上最新版的 Zcash 应用（本指南撰写时为 3.9.4）。
-- 少量用于测试的 ZEC。以下每一步均在主网上使用 0.001 ZEC 完成。每笔交易均需支付少量网络手续费（我们的测试中为 0.00015 ZEC）。
-- 将你的 24 个单词恢复短语保留在纸上。切勿将其输入电脑或分享给他人。
+- Ledger 上最新的 Zcash 应用（编写本指南时为 3.9.4）。
+- 少量 ZEC 用于测试。以下每个步骤均在主网上使用 0.001 ZEC 完成。每笔交易收取少量网络费用（我们测试中为 0.00015 ZEC）。
+- 您的 24 个助记词保存在纸上。切勿将其输入计算机或分享给他人。
 
 ## 分步指南（Ledger Wallet Desktop）
 
 **1. 安装或更新 Zcash 应用**
-- 打开 Ledger Wallet，连接并解锁你的 Ledger，然后打开 **我的 Ledger**。在设备上允许连接。
-- 在应用目录中搜索 **Zcash**，然后点击 **安装**；如已安装，则点击 **更新**。
-- 在你的 Ledger 上打开 Zcash 应用。屏幕将显示“Zcash app is ready”。向右滚动至 **应用信息** 以查看版本。
+- 打开 Ledger Wallet，连接并解锁您的 Ledger，然后打开 **My Ledger**。在设备上允许连接。
+- 在应用目录中搜索 **Zcash**，然后点击 **Install**，或者如果已安装则点击 **Update**。
+- 在 Ledger 上打开 Zcash 应用。屏幕显示 "Zcash app is ready"。向右滚动到 **App info** 查看版本。
 
 **2. 添加 Zcash 账户**
-- 在 Ledger Wallet 中选择 **添加账户**。在 **选择资产** 中搜索 Zcash，然后选择 **Zcash（ZEC）**，而非诸如 Binance-Peg Zcash Token 的封装代币。
-- 在你的 Ledger 上打开 Zcash 应用后，Ledger Wallet 会找到你的账户。在 **选择要添加的账户** 下勾选它，然后点击 **确认**。
-- 账户页面会显示 **可用余额**、**透明余额** 和 **私密余额**，以及一个 **启用 shielded** 按钮。
+- 在 Ledger Wallet 中，选择 **Add account**。在 **Select asset** 中搜索 Zcash 并选择 **Zcash (ZEC)**，不要选择包装代币如 Binance-Peg Zcash Token。
+- 在 Ledger 上打开 Zcash 应用后，Ledger Wallet 会找到您的账户。在 **Select the accounts you want to add** 下勾选并点击 **Confirm**。
+- 账户页面显示 **Available balance**、**Transparent balance** 和 **Private balance**，以及 **Enable shielded** 按钮。
 
-![Ledger Wallet Desktop 中的 Zcash 账户，显示仅限桌面端的提示、透明和私密余额，以及“Enable shielded”按钮](https://raw.githubusercontent.com/ZecHub/zechub/main/site/guides/assets/ledger-zec-01-account-desktop-only.png)
+![Ledger Wallet Desktop 中的 Zcash 账户，显示仅限桌面端的提示、透明和私密余额，以及 Enable shielded 按钮](https://raw.githubusercontent.com/ZecHub/zechub/main/site/guides/assets/ledger-zec-01-account-desktop-only.png)
 
 **3. 启用私密余额**
-- 点击 **启用 shielded**。**启用 Zcash 私密余额** 窗口包含四个步骤：生日、UFVK、设备和确认。
-- **生日：**对于新账户，请将生日区块高度保留为今天的日期。仅当你确定该账户过去曾收到 Shielded ZEC 时，才勾选“此账户过去曾收到 shielded ZEC”，因为从区块 0 开始扫描可能需要很长时间。
-- **UFVK 和设备：**Ledger Wallet 会要求你的 Ledger 导出 Unified Full Viewing Key（UFVK）。阅读设备上的屏幕内容并批准。如果看到“设备连接丢失”，请确认 Zcash 应用已打开，及时批准并点击 **重试**。
-- 当看到 **UFVK 导入成功** 时，点击 **开始同步**。同步完成后，按钮会变为 **更新余额**，并显示“上次同步”时间。
-- 查看密钥保留在你的电脑上。它可以找到你的 shielded 资金，但无法花费它们。
+- 点击 **Enable shielded**。**Enable Zcash private balance** 窗口有四个步骤：Birthday、UFVK、Device 和 Confirmation。
+- **Birthday：** 对于新账户，保持生日高度为今天的日期。仅在您确定账户曾接收过隐蔽 ZEC 时才勾选 "This account received shielded ZEC in the past"，因为从区块 0 开始扫描可能需要很长时间。
+- **UFVK 和 Device：** Ledger Wallet 请求您的 Ledger 导出统一完整查看密钥（UFVK）。阅读设备上的屏幕并批准。如果看到 "Device connection lost"，请确保 Zcash 应用已打开，及时批准并点击 **Retry**。
+- 当您看到 **UFVK successfully imported** 时，点击 **Start sync**。同步完成后，按钮变为带有 "Last sync" 时间的 **Update balance**。
+- 查看密钥保存在您的计算机上。它可以找到您的隐蔽资金但无法花费它们。
 
-![Enable Zcash private balance window showing UFVK successfully imported and the Start sync button](https://raw.githubusercontent.com/ZecHub/zechub/main/site/guides/assets/ledger-zec-02-ufvk-imported.png)
+![Enable Zcash private balance 窗口，显示 UFVK 已成功导入和 Start sync 按钮](https://raw.githubusercontent.com/ZecHub/zechub/main/site/guides/assets/ledger-zec-02-ufvk-imported.png)
 
-**4. 接收 ZEC，并在你的 Ledger 上验证两个地址**
-- 点击 **接收**，并选择你的 Zcash 账户。Ledger Wallet 会显示一个 **Zcash 1 的地址**（透明地址，以 t1 开头）和一个 **Zcash 1 的私密地址**（以 u1 开头）。较早的地址仍然有效。
-- 你的 Ledger 会显示“验证 Zcash 地址”，先在两个页面中显示 **私密地址**，随后显示 **公开地址**。在分享任一地址前，请将每个字符与屏幕进行比对，然后在设备上确认。
-- 优先使用私密地址；仅当发送方不支持其他方式时才使用透明地址。
+**4. 接收 ZEC 并在 Ledger 上验证两个地址**
+- 点击 **Receive** 并选择您的 Zcash 账户。Ledger Wallet 显示 **Address for Zcash 1**（透明地址，以 t1 开头）和 **Private address for Zcash 1**（以 u1 开头）。之前的地址仍然有效。
+- 您的 Ledger 显示 "Verify Zcash addresses"、**Private address**（分两页显示），然后是 **Public Address**。在分享任一地址之前，将每个字符与屏幕进行比较，然后在设备上确认。
+- 优先使用私密地址；仅在发送方不支持其他格式时使用透明地址。
 
-![Ledger Wallet Receive window showing the transparent address and the private address for Zcash 1](https://raw.githubusercontent.com/ZecHub/zechub/main/site/guides/assets/ledger-zec-03-receive-addresses.png)
+![Ledger Wallet 接收窗口，显示 Zcash 1 的透明地址和私密地址](https://raw.githubusercontent.com/ZecHub/zechub/main/site/guides/assets/ledger-zec-03-receive-addresses.png)
 
-![Ledger device screens: Verify Zcash addresses, Private address in two pages, then Public Address](https://raw.githubusercontent.com/ZecHub/zechub/main/site/guides/assets/ledger-zec-04-device-verify-addresses.png)
+![Ledger 设备屏幕：Verify Zcash addresses、分两页显示的 Private address，然后是 Public Address](https://raw.githubusercontent.com/ZecHub/zechub/main/site/guides/assets/ledger-zec-04-device-verify-addresses.png)
 
-**5. 将透明 ZEC 转入你的私密余额**
-- 点击 **发送**。在 **自转账** 下，选择 **发送至私密余额**。
-- 输入金额，或使用 25%、50%、75% 或 **最大值**。检查网络手续费，然后点击 **审核**。
-- 在你的 Ledger 上，依次查看：“审核发送 ZEC 的交易”、“从公开地址转账至私密地址”、金额、分两页显示的输出地址、手续费和到期区块高度。确认输出地址与你在步骤 4 中的私密地址一致，然后在 **签署交易** 页面同时按下两个按钮。
-- Ledger Wallet 会显示 **交易已发送**。在交易详情中，类型显示为 **私密（Ironwood）**。
-- Ledger Wallet 提醒，自转账会将你的 shielded 资金与你的公开地址关联起来。直接接收到你的私密地址可使它们保持未关联状态。
+**5. 将透明 ZEC 转移到私密余额**
+- 点击 **Send**。在 **Self transfer** 下，选择 **Send to private balance**。
+- 输入金额或使用 25%、50%、75% 或 **Max**。检查网络费用，然后点击 **Review**。
+- 在 Ledger 上，依次查看："Review transaction to send ZEC"、"Transfer from public to private address"、金额、分两页显示的输出地址、费用和过期高度。检查输出地址是否与步骤 4 中的私密地址匹配，然后在 **Sign transaction** 上同时按下两个按钮。
+- Ledger Wallet 显示 **Transaction sent**。在交易详情中，类型显示为 **Private (Ironwood)**。
+- Ledger Wallet 提示自转账会将您的隐蔽资金与公开地址关联。直接接收到私密地址可保持它们不关联。
 
-![Send ZEC window in Ledger Wallet with the Self transfer option Send to private balance](https://raw.githubusercontent.com/ZecHub/zechub/main/site/guides/assets/ledger-zec-05-send-to-private-balance.png)
+![Ledger Wallet 中的 Send ZEC 窗口，带有 Self transfer 选项 Send to private balance](https://raw.githubusercontent.com/ZecHub/zechub/main/site/guides/assets/ledger-zec-05-send-to-private-balance.png)
 
-![Ledger device review screens for moving ZEC from the transparent balance to the private address, ending with Sign transaction and Transaction signed](https://raw.githubusercontent.com/ZecHub/zechub/main/site/guides/assets/ledger-zec-06-device-review-shielding.png)
+![Ledger 设备审核屏幕，用于将 ZEC 从透明余额转移到私密地址，最后显示 Sign transaction 和 Transaction signed](https://raw.githubusercontent.com/ZecHub/zechub/main/site/guides/assets/ledger-zec-06-device-review-shielding.png)
 
-- 交易确认后，透明余额会下降，私密余额会上升。新的 shielded 资金会显示为“成熟中”，直到获得足够确认后才可花费。
+- 交易确认后，透明余额减少，私密余额增加。新的隐蔽资金显示为 "maturing"，直到它们有足够的确认次数可以花费。
 
-![屏蔽后 Zcash 账户：透明余额减少，私密余额增加并显示为成熟中](https://raw.githubusercontent.com/ZecHub/zechub/main/site/guides/assets/ledger-zec-07-balances-after-shielding.png)
+![隐蔽后的 Zcash 账户：透明余额减少，私密余额增加并显示为 maturing](https://raw.githubusercontent.com/ZecHub/zechub/main/site/guides/assets/ledger-zec-07-balances-after-shielding.png)
 
-**6. 从你的私密余额发送 ZEC**
-- 私密余额可花费后，点击 **发送**，并将 **转出自** 设置为 **私密余额**。
-- 粘贴收款人的地址并输入金额。你可以添加最多 512 字节的加密 **备注（可选）**，仅收款人可以阅读。
-- 在你的 Ledger 上审核收款人、金额和手续费，然后在 **签署交易** 页面同时按下两个按钮。
+**6. 从私密余额发送 ZEC**
+- 私密余额可花费后，点击 **Send** 并将 **Transfer from** 设置为 **Private balance**。
+- 粘贴收件人地址并输入金额。您可以添加最多 512 字节的加密 **Memo (optional)**，只有收件人可以阅读。
+- 在 Ledger 上审核收件人、金额和费用，然后在 **Sign transaction** 上同时按下两个按钮。
 
-![Sent transaction from the private balance in Ledger Wallet transaction details](https://raw.githubusercontent.com/ZecHub/zechub/main/site/guides/assets/ledger-zec-08-private-send.png)
+![Ledger Wallet 交易详情中从私密余额发送的交易](https://raw.githubusercontent.com/ZecHub/zechub/main/site/guides/assets/ledger-zec-08-private-send.png)
 
-## 须知事项
+## 注意事项
 
-- Ledger 上的 Shielded ZEC 目前仅限桌面版（于 2026 年 10 月 15 日核实）。
+- Ledger 上的隐蔽 ZEC 目前仅限桌面端（检查日期为 2026 年 10 月 15 日）。
 - Ledger Wallet 的私密余额使用 Ironwood 池。
-- Ledger 表示，你可以与税务顾问共享对交易历史记录的只读访问权限。任何拥有你查看密钥的人都能看到你的 shielded 历史记录，因此请仅在有意的情况下分享。
-- 本指南中的设备屏幕使用 Ledger 的 Speculos 模拟器（Nano S Plus）截取，其运行 Zcash 应用 3.9.4，并连接至 Zcash 主网上的 Ledger Wallet Desktop 4.24.0。实体 Ledger 运行相同应用，并显示相同屏幕。
+- Ledger 表示您可以与税务顾问共享交易历史的只读访问权限。任何拥有您查看密钥的人都可以看到您的隐蔽历史，因此请仅在有意时分享。
+- 本指南中的设备屏幕使用 Ledger 的 Speculos 模拟器（Nano S Plus）捕获，运行 Zcash 应用 3.9.4，连接到 Zcash 主网上的 Ledger Wallet Desktop 4.24.0。物理 Ledger 运行相同的应用并显示相同的屏幕。
 
 ## 更多帮助
 
-- [Ledger Wallet 新功能：原生 Shielded Zcash 支持](https://www.ledger.com/blog-native-shielded-zcash-support)（Ledger 的公告）
+- [Ledger Wallet 新功能：原生隐蔽 Zcash 支持](https://www.ledger.com/blog-native-shielded-zcash-support)（Ledger 的公告）
 - [Ledger 帮助中心](https://support.ledger.com)
-- [ZecHub Wallet 页面](/using-zcash/wallets)
-- ZecHub 上的 [Shielded Pools](/using-zcash/shielded-pools) 和 [Viewing Keys](/zcash-tech/viewing-keys)
-- 另一种硬件钱包选择：[Keystone Zashi 用户指南](/guides/keystone-zashi)
+- [ZecHub 钱包页面](/using-zcash/wallets)
+- ZecHub 上的[隐蔽池](/using-zcash/shielded-pools)和[查看密钥](/zcash-tech/viewing-keys)
+- 另一个硬件钱包选择：[Keystone Zashi 用户指南](/guides/keystone-zashi)

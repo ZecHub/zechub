@@ -1,68 +1,68 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Zcash_Tech/Sprout.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="编辑页面"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
 # Sprout
 
-> Zcash 于 2016 年 10 月 28 日上线，并启用了 Sprout 屏蔽池。
+> Zcash 于 2016 年 10 月 28 日推出，并启用了 Sprout 屏蔽池 [shielded pool]。
 
-> **警告：**NU7 一旦激活，将使仍在 Sprout 池中的 ZEC 无法花费（主网激活高度为 3,543,405，目标激活日期为 2026 年 11 月 5 日；参见 [ZIP 259](https://zips.z.cash/zip-0259)）。如果你持有 Sprout 资金，请阅读 [恢复资金](../using-zcash/recovering-funds)，并优先迁移这些资金。
+> **警告：** NU7 一旦激活，将使仍在 Sprout pool 中的 ZEC 无法花费（主网激活高度为 3,543,405，目标日期为 2026 年 11 月 5 日；参见 [ZIP 259](https://zips.z.cash/zip-0259)）。如果您持有 Sprout 资金，请阅读 [恢复资金](../using-zcash/recovering-funds)，并先迁移这些资金。
 
-你将了解到的要点：Sprout 是 Zcash 的起点，这是私密且可验证的货币第一次在真实运行的 blockchain 上落地。
+您将了解：Sprout 是 Zcash 的起点，也是私密、可验证的货币首次运行于活跃 blockchain 上的地方。
 
-Sprout 是 Zcash 网络最初的发布版本，而不是后来的[网络升级](../start-here/network-upgrades)。它于 2016 年 10 月 28 日在创世区块时正式上线。Sprout 没有由某个编号的 ZIP 来定义：ZIP 流程是在之后的 Overwinter 才开始的，因此 Sprout 是由最初的 Zcash 协议规范以及其所基于的 Zerocash 构造来描述的。[Electric Coin Company](../zcash-organizations/electric-coin-company)（当时名为 Zerocoin Electric Coin Company）在 Zooko Wilcox 的带领下构建并发布了它。Sprout 引入了首个实用的 zk-SNARK 屏蔽交易以及最初的屏蔽池，因此人们可以在发送 ZEC 时隐藏发送方、接收方和金额，同时网络仍然能够检查余额是否相符。这个名字传达出一条年轻、正在萌芽的链，团队也预期它会继续成长。
+Sprout 是 Zcash 网络的最初发布，而不是后来的 [网络升级 network upgrade](../start-here/network-upgrades)。它于 2016 年 10 月 28 日在创世区块 [block] 时上线。没有编号的 ZIP 定义 Sprout：ZIP 流程在 Overwinter 之后才开始，因此 Sprout 由最初的 Zcash 协议规范及其所基于的 Zerocash 构造描述。由 Zooko Wilcox 领导的 [Electric Coin Company](../zcash-organizations/electric-coin-company)（当时是 Zerocoin Electric Coin Company）构建并发布了它。Sprout 引入了首批实用的 zk-SNARK 屏蔽交易 [transaction] 以及最初的屏蔽池，因此人们能够发送 ZEC，而发送方、接收方和金额均保持隐藏，同时网络仍会检查余额是否相加一致。这个名称象征着一条年轻、萌芽中的链 [chain]，团队预计它会不断成长。
 
-为什么这很重要。在 Sprout 之前，所有公开 blockchain 都会把你的支付记录暴露出来：任何人都能看到谁向谁支付了多少。Sprout 是第一个真实运行、无需许可的网络，能够隐藏这些细节，同时仍然证明没有人作弊。这对普通的金融隐私至关重要，也就是你期望从现金或只有自己能查看的银行对账单中获得的那种隐私。它还证明了强大的链上隐私不仅停留在论文设计中，而是可以在实践中真正运行。使这一切成为可能的可信设置 Ceremony，也成为后来密码学工作的一个重要参照点；而 Sprout 所采用的缓慢且高度依赖内存的证明系统，也正是推动团队在两年后构建 Sapling 的直接原因。
+这为何重要。在 Sprout 之前，每条公开 blockchain 都会展示您的支付 [payment]：任何人都能看到谁向谁支付了多少。Sprout 是首个活跃的、无需许可 [permissionless] 的网络，能够隐藏这些细节，同时仍能证明无人作弊。这对于普通的金融隐私 [privacy] 至关重要，也就是您期待从现金或他人无法读取的银行对账单中获得的那种隐私。它还证明了强大的链上 [on-chain] 隐私能够在实践中发挥作用，而不只是纸面设计。使之成为可能的可信设置 [trusted setup] Ceremony 成为了后续密码学工作的参考点，而 Sprout 所采用的缓慢、内存密集型证明 [proof] 系统，正是促使团队在两年后构建 Sapling 的原因。
 
-## 第一个屏蔽池
+## 首个屏蔽池
 
-Sprout 创建了两种地址。透明地址（t-address）像 Bitcoin 一样，细节会显示在公开账本上。屏蔽地址（z-address）则将资金发送到 Sprout 的[屏蔽池](../using-zcash/shielded-pools)中，在那里发送方、接收方和金额都会被隐藏。其关键技术是[zk-SNARKs](../zcash-tech/zk-snarks)，也就是零知识证明，它能让一笔交易在不泄露任何细节的前提下，证明其有效、没有双花且收支平衡。Sprout 是这项技术首次在真实运行的加密货币生产环境中落地。
+Sprout 创建了两类地址 [address]。透明 [transparent] 地址（t-address）与 Bitcoin 类似，其细节在公开账本上可见。屏蔽地址（z-address）将资金发送至 Sprout [屏蔽池](../using-zcash/shielded-pools)，其中发送方、接收方和金额均保持隐藏。关键在于 [zk-SNARKs](../zcash-tech/zk-snarks)，即零知识 [zero-knowledge] 证明：它们使一笔交易能够证明自身有效、没有双重花费且余额相加一致，而无需披露任何细节。Sprout 是这项技术首次在活跃加密货币的生产环境中运行。
 
-![透明交易会暴露发送方、接收方和金额，而 Sprout 屏蔽交易会隐藏这三者，同时仍然可验证](/content-images/sprout-shielded-vs-transparent-61d3b1980c.webp)
+![Transparent transactions expose sender, receiver, and amount, while Sprout shielded transactions hide all three yet stay verifiable](/content-images/sprout-shielded-vs-transparent-61d3b1980c.webp)
 
 ## Ceremony
 
-Sprout 中的 zk-SNARKs 需要一组公共参数，而安全生成这些参数需要一次性的初始化过程，这就是 Ceremony。六位位于不同且相距遥远地点的参与者各自生成了一部分秘密，被称为 toxic waste。如果有人将所有这些部分重新拼合起来，他们就可能凭空伪造出 ZEC。这个设计把风险转化为一条简单规则：只要至少有一位参与者销毁了自己的那一部分，完整的秘密就永远无法被重建，因此伪造就不可能发生。已公开身份的参与者包括 Zooko Wilcox、Andrew Miller、Peter Van Valkenburgh、Peter Todd，以及 NCC Group 的 Derek Hinch。还有一位参与者选择保持匿名。
+zk-SNARKs 中的 Sprout 需要一组公开参数，而安全生成这些参数需要一次名为 Ceremony 的一次性设置。位于不同遥远地点的 6 名参与者各自生成了一份秘密材料，称为 toxic waste。如果有人重新组装了所有材料，他们就能凭空伪造 ZEC。该设计将这一风险转化为一条简单规则：只要至少有一名参与者销毁了自己的材料，完整秘密就永远无法重建，因此伪造便不可能发生。公开具名的参与者包括 Zooko Wilcox、Andrew Miller、Peter Van Valkenburgh、Peter Todd 以及 NCC Group 的 Derek Hinch。一名参与者选择保持匿名。
 
-![Ceremony：六位参与者生成私密碎片，然后销毁 toxic waste，最终只留下公开的 Sprout 参数](/content-images/sprout-ceremony-flow-ae16f6282a.webp)
+![The Ceremony: six participants generate private shards, then destroy the toxic waste, leaving only the public Sprout parameters](/content-images/sprout-ceremony-flow-ae16f6282a.webp)
 
 ## 起源
 
-Sprout 是之后所有变更所建立的基线。当网络升级机制随着 Overwinter 一起到来时，它将原始规则标记为共识分支 id 0，这只是表示尚未应用任何升级。此后的一切（Overwinter、Sapling、Blossom、Heartwood、Canopy、NU5、NU6，以及后续版本）都建立在由 Sprout 启动的这条链之上。该发布于 2016 年 8 月宣布，创世时间定于 10 月 28 日；Ceremony 在此前几周进行；而创世区块中硬编码的时间戳显示为 2016 年 10 月 28 日 07:56 UTC。
+Sprout 是所有后续变更所依赖的基准。当网络升级机制随着 Overwinter 到来时，它将最初规则标记为共识 [consensus] 分支 id 0，这仅表示尚未应用任何升级。此后的所有内容（Overwinter、Sapling、Blossom、Heartwood、Canopy、NU5、NU6 及后续内容）都建立在由 Sprout 开启的链上。该发布于 2016 年 8 月宣布，并计划于 10 月 28 日创建创世区块；Ceremony 在此前数周进行，而创世区块的硬编码时间戳为 2016 年 10 月 28 日 07:56 UTC。
 
-![从 2016 年 8 月的发布公告，到参数 Ceremony，再到 2016 年 10 月 28 日的 Sprout 上线时间线](/content-images/sprout-timeline-348766352a.webp)
+![Timeline from the August 2016 announcement through the parameter Ceremony to the October 28, 2016 Sprout launch](/content-images/sprout-timeline-348766352a.webp)
 
 ## 术语表
 
 | 术语 | 通俗含义 |
 |---|---|
-| zk-SNARK | 一种零知识证明，可在不泄露发送方、接收方或金额的情况下证明交易有效 |
-| Shielded pool | Zcash 的私密部分，金额和参与方都会被隐藏。Sprout 池是第一个 |
-| z-address and t-address | z-address 是屏蔽地址，可保护细节隐私。t-address 是透明地址，会在公开账本上显示细节 |
-| The Ceremony | 2016 年进行的多方初始化过程，用于生成 Sprout 的公共参数，随后销毁 toxic waste |
-| Toxic waste | Ceremony 产生的秘密密钥片段，必须被销毁，这样 ZEC 才无法被伪造 |
-| Consensus branch id 0 | Sprout 规则的标签，表示任何网络升级之前的基线 |
+| zk-SNARK | 一种零知识证明，可证明交易有效，而无需披露发送方、接收方或金额 |
+| Shielded pool | Zcash 中隐藏金额和参与方的私密部分。Sprout pool 是第一个 |
+| z-address and t-address | z-address 是屏蔽的，并保持细节私密。t-address 是透明的，并在公开账本上显示细节 |
+| The Ceremony | 2016 年的多方设置，生成了 Sprout 的公开参数，随后丢弃 toxic waste |
+| Toxic waste | Ceremony 中的秘密密钥材料，必须销毁，以防 ZEC 被伪造 |
+| Consensus branch id 0 | Sprout 规则的标签，表示任何网络升级之前的基准 |
 
 ## 常见问题
 
-Sprout 会改变我今天的 ZEC 或我的隐私吗？不会。Sprout 是历史，是开启这条承载你 ZEC 的链的最初发布。你今天的币和隐私取决于你现在使用的钱包和屏蔽池，而不是你需要为 Sprout 做任何事。
+Sprout 会改变我如今的 ZEC 或隐私吗？不会。Sprout 是历史，是开启您的 ZEC 所在链的发布。您如今的币和隐私取决于您现在使用的钱包 [wallet] 和屏蔽池，而不是您需要针对 Sprout 采取的任何行动。
 
-为什么 Sprout 没有 ZIP 编号？ZIP 流程是在之后的 Overwinter 升级中才开始的。Sprout 是最初的发布版本，由 Zcash 协议规范以及其所基于的 Zerocash 构造来描述。ZIP 200 只是事后提到 Sprout，把它称为共识分支 id 0，也就是任何升级之前的基线。
+为什么 Sprout 没有 ZIP 编号？ZIP 流程是在 Overwinter 升级后才开始的。Sprout 是最初发布，由 Zcash 协议规范及其所基于的 Zerocash 构造描述。ZIP 200 只是事后将 Sprout 称为共识分支 id 0，即任何升级之前的基准。
 
-我当时需要信任 Ceremony 中的六个人吗？这个设置的设计使你只需要其中一人诚实即可。每个人都持有一部分秘密，只要哪怕只有一位参与者销毁了自己的那一部分，完整秘密就永远无法被重建，也就没有人能伪造 ZEC。其中五位参与者已公开身份，另一位保持匿名。
+我需要信任 Ceremony 中的 6 个人吗？该设置的构建方式使您只需其中 1 人诚实即可。每个人都持有一份秘密材料，只要任意一名参与者销毁自己的材料，完整秘密就永远无法重建，任何人也无法伪造 ZEC。5 名参与者已被公开具名，另 1 名保持匿名。
 
-Sprout 池是我现在钱包使用的那个池吗？很可能不是。Sprout 是第一个屏蔽池，但后续升级如 Sapling 引入了更快的屏蔽设计，如今大多数钱包使用的是更新的池。Sprout 仍然重要，因为正是它证明了私密且可验证的交易可以在真实运行的网络上实现。
+Sprout pool 是我的钱包现在使用的那个吗？可能不是。Sprout 是第一个屏蔽池，但后续升级如 Sapling 引入了更快的屏蔽设计，而大多数钱包如今使用较新的池。Sprout 仍然重要，因为它证明了私密、可验证的交易能够在活跃网络上运行。
 
-Sprout 与 Bitcoin 的不同之处是什么？Bitcoin 会把每一笔支付记录放在公开账本上，金额和地址都可见。Sprout 增加了屏蔽交易，能够隐藏发送方、接收方和金额，同时仍让网络确认交易有效。它也保留了透明地址，因此这两种模式都存在于同一条链上。
+Sprout 与 Bitcoin 有何不同？Bitcoin 将每笔支付置于公开账本上，金额和地址均可见。Sprout 增加了屏蔽交易，在仍让网络确认交易有效的同时隐藏发送方、接收方和金额。它也保留了透明地址，因此两种模式都存在于同一条链上。
 
-## 测试你的理解
+## 测试您的理解
 
-Sprout 常被称为具有激活高度的一次网络升级。为什么这种说法并不完全准确？
+Sprout 常被称为具有激活高度的网络升级。为什么这并不完全正确？
 
 <details>
 <summary>答案</summary>
 
-Sprout 是 Zcash 的最初发布，而不是后来的升级。它自 2016 年 10 月 28 日创世区块（区块 0）起就已生效，因此并不存在某个可指向的激活高度。网络升级机制是在之后才出现的，并将 Sprout 的规则标记为共识分支 id 0，也就是任何升级之前的基线。
+Sprout 是 Zcash 的最初发布，而不是后来的升级。它自 2016 年 10 月 28 日的创世区块（区块 0）起便已激活，因此没有可指向的激活高度。网络升级机制后来才出现，并将 Sprout 的规则标记为共识分支 id 0，即任何升级之前的基准。
 </details>
 
 ### 资源

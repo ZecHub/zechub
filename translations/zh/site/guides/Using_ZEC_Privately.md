@@ -1,47 +1,47 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/guides/Using_ZEC_Privately.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="编辑页面"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# 私密地使用 ZEC
+# 私密使用 ZEC
 
-#### Shielded（私密）与 Transparent（透明）
+#### 屏蔽[Shielded]（私密）与透明[Transparent]
 
-目前，Zcash 中有两种地址和交易类型：shielded 和 transparent。shielded ZEC 与 transparent ZEC 的区别非常简单。shielded ZEC 会保护你的资金和交易隐私，而 transparent ZEC 的运作方式则像 Bitcoin 一样，完全透明。这意味着，如果别人知道你的地址，就可以查看你的余额以及你的所有交易。
+目前，Zcash 中有两种地址和交易[transaction]类型：屏蔽和透明。屏蔽与透明 ZEC 之间的区别非常简单。屏蔽 ZEC 可使你的资金和交易保持私密，而透明 ZEC 的运作方式与 Bitcoin 相同，完全透明。这意味着，如果有人知道你的地址，他们便可以查看你的余额和所有交易。
 
-人们刚开始使用 ZEC 时，可能并没有意识到自己使用的是哪一种地址。这是因为并非所有交易所都支持 shielded ZEC 和/或 shielded ZEC 提现。
+人们刚开始使用 ZEC 时，可能不会意识到自己正在使用哪种地址。这是因为并非所有交易所[exchange]都支持屏蔽 ZEC 和/或屏蔽 ZEC 提现。 
 
-举个例子，如果有人使用 Coinbase 并购买了 ZEC，那么他们买到的是 transparent ZEC，并且只能将这笔 ZEC 提现到钱包中的 transparent 地址。像 [ZODL](https://zodl.com/) 这样的钱包可以将发送到 transparent 地址的资金转为 shielded，从而解决这个问题，但并不是每个人都知道这一点。简单来说，很多人只是按照交易所或主要钱包允许的方式来使用 ZEC。
+例如，如果有人使用 Coinbase 并购买 ZEC，他们购买的会是透明 ZEC，且只能将该 ZEC 提现至钱包中的透明地址。像 [Zodl](https://zodl.com/) 这样的钱包[wallet]可以将发送至透明地址的资金屏蔽，以解决这个问题，但并非每个人都知道这一点。简单来说，许多人会以其交易所或主要钱包所允许的方式使用 ZEC。
 
-#### 确保你的 ZEC 处于 shielded 状态
+#### 确保你的 ZEC 已屏蔽
 
-我们建议每个人都自行保管自己的 ZEC。也就是说，把你的 ZEC 从交易所转移到钱包中。判断你是否在使用 shielded，也就是私密的 ZEC，最好的方法是查看余额所在的地址。如果地址以 “z” 或 “u1” 开头，那么你的余额就是 shielded 的。如果地址以 “t” 开头，那么余额就是 transparent 的。
+我们建议每个人都自行保管其 ZEC。这意味着将你的 ZEC 从交易所转移至钱包。判断你是否正在使用屏蔽，即私密的 ZEC 的最佳方法，是查看余额所在的地址。如果地址以 "z" 或 "u1" 开头，那么你的余额就是屏蔽的。如果地址以 "t" 开头，那么余额就是透明的。
 
-一般来说，获得 shielded ZEC 有两种路径。
+通常有两种途径可获得屏蔽 ZEC。
 
-从支持 **shielded** 提现的交易所：
-
-  1. 在交易所购买 ZEC
-  2. 在交易所发起提现流程
-  3. 打开你的 shielded ZEC 钱包，并确认收款地址以 “u1” 或 “z” 开头
-  4. 从你的交易所执行提现
-
-从支持 **transparent** 提现的交易所：
-
+从支持**屏蔽**提现的交易所：
 
   1. 在交易所购买 ZEC
-  2. 在交易所发起提现流程
-  3. 打开你的自动 shielded ZEC 钱包，并使用 transparent 收款地址
+  2. 在交易所开始提现流程
+  3. 打开你的屏蔽 ZEC 钱包，并确认接收地址以 "u1" 或 "z" 开头
   4. 从你的交易所执行提现
-  5. 等待十次确认，然后将 ZEC 从你的 transparent 地址 shield 到 shielded 地址
+
+从支持**透明**提现的交易所：
 
 
-下面是一个从交易所提取 ZEC 的教程。请注意，这是一次 shielded 提现。
+  1. 在交易所购买 ZEC
+  2. 在交易所开始提现流程
+  3. 打开你的自动屏蔽 ZEC 钱包，并使用透明接收地址
+  4. 从你的交易所执行提现
+  5. 等待十次确认，然后将你的 ZEC 从透明地址屏蔽至屏蔽地址
+
+
+以下是如何从交易所提现 ZEC 的教程。请注意，这是一次屏蔽提现。
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
     className="w-full h-full"
     src="https://www.youtube.com/embed/REUbkLzK7J4"
-    title="从 Gemini 购买并将 ZEC 提现到 shielded 钱包"
+    title="Buy and withdraw ZEC to a shielded wallet from Gemini"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowFullScreen
     loading="lazy"
@@ -50,13 +50,13 @@
     
 
 ---
-下面是一个将你的 ZEC 从 transparent 地址 shield 到 shielded 地址的教程。
+以下是如何将你的 ZEC 从透明地址屏蔽至屏蔽地址的教程。
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
     className="w-full h-full"
     src="https://www.youtube.com/embed/W2msuzrxr3s"
-    title="将你的 ZEC 从 transparent 地址 shield 到 shielded 地址"
+    title="Shield your ZEC from a transparent to shielded address"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowFullScreen
     loading="lazy"
@@ -64,13 +64,14 @@
 </div>
 
 
-下面是一个在 Coinbase 上购买 ZEC 并发送到 Zodl 的教程。
+---
+以下是如何在 Coinbase 上购买 ZEC 并发送至 Zodl 的教程。
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
     className="w-full h-full"
     src="https://www.youtube.com/embed/Avweu5V9QRc"
-    title="Coinbase + Zashi：购买 Zcash 并立即 Shield"
+    title="Coinbase + Zashi: Buy Zcash & Shield Instantly"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowFullScreen
     loading="lazy"
@@ -80,15 +81,15 @@
 
 #### 交易
 
-在确认你的 ZEC 已存放在支持 shielded 地址的 shielded 钱包中之后，你现在可以决定是否要使用这笔 ZEC 进行交易。使用 ZEC 进行交易非常简单。你可以根据对方的偏好，将 ZEC 发送到 shielded 地址或 transparent 地址。和任何金钱交易一样，人们仍然有很小的概率泄露数据。ZEC 在防止数据泄露方面表现最佳，但这并不意味着你可以毫无顾虑地使用它。以下是在使用 ZEC 交易时你应当避免的一些情况。
+在确认你的 ZEC 位于支持屏蔽地址的屏蔽钱包后，你现在可以决定是否要用该 ZEC 进行交易。使用 ZEC 进行交易非常简单。你可以根据对方的偏好，将 ZEC 发送至屏蔽或透明地址。与任何货币交易一样，人们有很小的概率会泄露数据。ZEC 最擅长防范数据泄露，但这并不意味着你可以毫无顾虑地使用它。以下是使用 ZEC 进行交易时应避免的一些事项。
 
-- 公开你的 shielded 地址
-- 将 shielded 地址用作 t-addresses 的中转（也就是“混币”）
-- 进行大量 shielded 到 transparent 的交易，并公开自己在进行这类交易
-- 经常让别人知道你在哪里花费 shielded ZEC
+- 泄露你的屏蔽地址
+- 将屏蔽地址用作透明地址的中转站（即"混币"）
+- 进行大量屏蔽至透明交易，并披露自己正在进行这些交易
+- 经常让人们知道你在哪里花费屏蔽 ZEC
 
 
-归根结底，使用 ZEC 的最佳方式，是将其保存在 shielded 钱包中，在 shielded 地址之间交易，并谨慎对待你在公共场合如何使用 ZEC（例如咖啡馆）。保护隐私需要一定程度的责任感。
+本质上，使用你的 ZEC 的最佳方式是将其存放在屏蔽钱包中，在屏蔽地址之间进行交易，并谨慎对待你在公共场所（例如咖啡店）使用 ZEC 的方式。保障隐私[privacy]需要承担一定责任。 
 
 #### 资源
 
