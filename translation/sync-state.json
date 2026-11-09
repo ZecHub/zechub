@@ -9213,7 +9213,7 @@
       "src_commit": "a838aa063bd26f2f850a41f850ce05902ee209cd",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+handfix",
       "edited": false
     }
   },
