@@ -11,7 +11,7 @@ To get an overview of ZecHub, read the [README](/README.md).
 
 ## Getting started
 
-ZecHub uses GitHub to manage community contribution. If you're new to GitHub, don't worry! We're going to break down how you can get involved as a community contributor to ZecHub. We pay out tips in ZEC for accepted contribution.
+ZecHub uses GitHub to manage community contribution. If you're new to GitHub, don't worry! We're going to break down how you can get involved as a community contributor to ZecHub. Tips are paid in shielded ZEC for approved contributions. See [How rewards are set](#how-rewards-are-set) for current reward guidance.
 
 In this guide you will get an overview of the contribution workflow from opening an issue, creating a pull request (PR), reviewing, and merging the PR.
 
@@ -56,11 +56,21 @@ ZecHub is a community-driven project that aims to provide support and resources 
 
 These are the types of contribution that ZecHub currently accepts:
 
-### Zcash tutorials (video) - up to 0.12 ZEC per tutorial
+### How rewards are set
+
+Tips are paid in shielded ZEC. Fixed ZEC amounts previously shown in this guide were historical snapshots, not current rates. The [bounty amounts policy](https://bounties.zechub.wiki/docs/bounty-amounts) is the source of truth:
+
+1. Match the work to the policy's USD interval.
+2. Pick a target inside that band, not automatically the top.
+3. Divide the USD target by a public ZEC/USD spot rate and round the ZEC amount to 4 decimal places.
+
+Paid tasks are listed on [ZEC Bounties](https://bounties.zechub.wiki/). Maintainers must approve the reward and amount; merging a PR does not by itself approve a reward. A reward is paid only when ZEC reaches the contributor's shielded Unified Address. See the [current contributor guide](site/contribute/Contributing_Guide.md#how-rewards-are-set) for the full workflow.
+
+### Zcash tutorials (video)
 
 Create and share tutorials on Zcash apps and get rewarded. Example tutorial [here](https://www.youtube.com/watch?v=Mgm_nK3gr7U&list=PL6_epn0lASLGc_YALzxbMH0-dNyhFufus&index=7). Submit PR to zechub/tutorials or send video to #video-content channel in Discord. If video meets our criteria, we’ll post it and tip you :smile:
 
-### ZecHub Wiki - up to 0.04 ZEC per new page published
+### ZecHub Wiki - new page published
 
 Our wiki-docs page provides Zcash education materials in an easy and digestible format. Zcash is a very advanced technology with a vibrant community, so there's still more documentation we need to build. Our goal is to build documentation on:
 
@@ -75,7 +85,7 @@ After you submit a PR, please message @dismad or @tokidoki in the #zecwiki secti
 
 [Here](https://youtu.be/r0hC_-VNdd8) is an example tutorial of adding a translated wiki page.
 
-### ZecHub Wiki - 0.02 ZEC per accepted translated wiki page
+### ZecHub Wiki - accepted translated wiki page
 
 ZecHub's goal is to provide an open-source education hub that anyone in the Zcash community can contribute to. One of the hub's biggest successes is seeing community members translate ZecHub materials into their local language.
 
@@ -94,15 +104,15 @@ Note* ZecHub Global page translation rate limit is 10 pages per week.
 
 You don't have to remember the commands: the **Curation check** on your PR comments the exact change to make and turns green once the lists match the pages. Please don't translate curated pages by hand; the translation routine and its manifest handle them (see [docs/translation-contributor-workflow.md](docs/translation-contributor-workflow.md)).
 
-### ZecHub Wiki - 0.04 ZEC per accepted edit to docs
+### ZecHub Wiki - accepted edit to docs
 
 Sometimes our information in the docs isn't spot on. That's okay. That's why we open-source them! If you find something that needs a change in a wiki-doc, please go to the footer of the doc (which links to its Github page) and suggest a change via a PR.
 
-### ZecHub Wiki - 0.06 ZEC per broken link fixed
+### ZecHub Wiki - broken link fixed
 
 If you find that a link is broken, or something important is mispelled, please go to the footer of the doc (which links to its Github page) and suggest the change via a PR.
 
-### Newsletter - 0.04 ZEC per edition
+### Newsletter - new edition
 
 We produce the ecosystem's weekly newsletter. This is a super low lift / easy way to get involved! The newsletter goes out every Friday or Saturday. If you want to write a newsletter, message @squirrel or @tokidoki in the #zecweekly section of the Discord to let them know.
 
@@ -110,13 +120,13 @@ After you do that, you can go to the [newsletter section of this repository](/ne
 
 After you do this @squirrel or @tokidoki (in Discord) will see that your new edition of the newsletter available, and they'll review and then merge it to the repository. After it's been merged, they'll take the content and post it via Substack.
 
-### Translating Newsletter - 0.035 ZEC per translation
+### Translating Newsletter - translation
 
 We'd love for you to contribute the next edition of the ZecWeekly newsletter, or translate the content into other languages! We currently have editions in Spanish, Portuguese and Russian. The translated versions are posted on their socials, and we do our best to amplify them via the ZecHub social.
 
 If you want to translate the newsletter into your local language, we send tips for that too. Let us know what channel you would share it from and the language you would publish the newsletter in, so we can coordinate its release.
 
-### Podcast - 0.2 ZEC per episode posted on ZecHub socials
+### Podcast - episode posted on ZecHub socials
 
 ZecHub made videos before, like a [news show](https://www.youtube.com/watch?v=frTzwCWRNLs&t=434s). They stopped for now, but you can help. Do you have an idea for a news show, podcast, Twitter talk, or other video/audio thing? Tell us in Discord #video-content and we’ll talk :smile:
 
@@ -124,7 +134,7 @@ Rewards for this type of content are a bit larger, so a proposal would need to b
 
 ### Creative social media posts
 
-We want new engaging content for our social media. You can get up to .03 ZEC for short videos, GIFs, memes or other creative posts. Follow the [ZecHub style](#style-guides) when creating a social media post.
+We want new engaging content for our social media. Short videos, GIFs, memes and other creative posts can be considered for rewards under the [bounty amounts policy](https://bounties.zechub.wiki/docs/bounty-amounts). Follow the [ZecHub style](#style-guides) when creating a social media post.
 
 You can also design thumbnails for our newsletter and podcast. If you have design talent, message us in #design on Discord.
 
