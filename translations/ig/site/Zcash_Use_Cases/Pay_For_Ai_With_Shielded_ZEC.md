@@ -1,185 +1,185 @@
-# <img src="/content-images/programmer-software-engineer-coder-softw-bce5a0cb5b.svg" width="24" height="24" alt="developer icon"/> Pay for AI Services Privately with Shielded ZEC
+# <img src="/content-images/programmer-software-engineer-coder-softw-bce5a0cb5b.svg" width="24" height="24" alt="developer icon"/> Jiri ZEC Nke E Chebere Echebe [Shielded] Kwụọ Ụhwọ Maka Ọrụ AI Na Nzuzo
 
 <span className="inline-flex items-center gap-[6px]">
   <span className="inline-block w-[12px] h-[12px] bg-green-500 rounded-full"></span>
-  Onye mbido - 10 min.
+  Onye mbido - nkeji 10
 </span>
 
 
-## TL;DR
+## Nchịkọta
 
-- **NanoGPT** na-ewe ZEC echekwara ozugbo, n'enweghị akaụntụ ma ọ bụ ozi email
-- Obere ego ị ga-akwụ bụ $0.10 ka i wee nwee ike iji ya nwalee ma ọ̀ dị obere.
-- Ebe e si nweta ego na-abịa n'ihe dị ka **30 sekọnd**, mgbe mbụ a nabatara ya.
-- Maka ọrụ ndị na-anaghị anabata ZEC, jiri ** CrossPay** iji mefuo ZEC echekwara ma kwụọ ụgwọ ha na USDC.
-- Ihe na-agwụ n'elu agbụ ahụ dabere **na ọdọ mmiri ZEC gị nọ**, ma ihuenyo anaghị agwa gị mgbe ọ bụla.
-
-<br/>
-
-## <img src="/content-images/user-svgrepo-com-21adf62b7c.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="user icon"/> Who is this for?
-
-- Onye ọbụla na-achọghị ka aha ya bụrụ onye AI.
-- Ndị na-emepụta ihe na-akwụ ụgwọ maka nkwubi okwu n'enweghị kaadị ụlọ ọrụ.
-- Ndị mmadụ nọ na mba ebe ịkwụ ụgwọ kaadị maka ọrụ AI dara ada
-- Onye ọ bụla nke ga-ahọrọ ka ha ghara inyefe email iji nwalee ihe nlereanya a.
+- **NanoGPT** na-anabata ZEC nke e chebere echebe ozugbo, na-enweghị akaụntụ ma ọ bụ email
+- Ntinye ego kacha nta bụ **$0.10**, yabụ ị nwere ike iji obere ego nwalee ya
+- Ego a na-etinye na-apụta n'ihe dịka **sekọnd 30**, na nkwenye mbụ
+- Maka ọrụ ndị na-anabataghị ZEC, jiri **CrossPay** mefu ZEC nke e chebere echebe ka e wee kwụọ ha na USDC
+- Ihe na-apụta na chain dabere na **pool nke ZEC gị dị na ya**, ihuenyo anaghị agwakwa gị nke a
 
 <br/>
 
-## <img src="/content-images/warning-error-svgrepo-com-b7ea8a50da.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="warning icon"/> The Problem
+## <img src="/content-images/user-svgrepo-com-21adf62b7c.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="user icon"/> Ònye ka nke a bụ maka?
 
-Ịkwụ ụgwọ maka AI pụtara kaadị, ozi email na akaụntụ nke jikọtara ihe ọ bụla ị dere n'ihe gbasara iwu gị ma onye nhazi ego ahụ ga-ahụkwa ya.
-
-Crypto kwesiri idozi nke a, mana ọtụtụ akwụkwọ ntuziaka agafeela oge. Ọrụ gbanwere ihe ha nabatara, na usoro e dere otu afọ gara aga ga-eziga gị n'ụzọ anaghị arụ ọrụ ọzọ.
-
-<br/>
-
-## <img src="/content-images/icons8-lock-2f8e221321.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="lock icon"/> Why Zcash?
-
-A na-akwụ ụgwọ ahụ, ọ dịghịkwa onye na-ekiri usoro a ga-amata onye kwụrụ maọbụ ego ole.
-
-Nke ahụ bụ naanị ma ọ bụrụ na ị kwụọ ** site *** ego echekwara. Peeji a akọwapụtara nke ọma mgbe o jidere ya na mgbe ọ naghị eme.
+- Onye ọ bụla na-achọghị ka e jikọta ndenye aha AI na aha ya
+- Ndị onye mmepụta [developer] na-akwụ maka inference na-enweghị kaadị ụlọọrụ
+- Ndị nọ na mba ebe ịkwụ kaadị maka ọrụ AI anaghị arụ ọrụ
+- Onye ọ bụla nke ga-achọghị inye email iji nwalee model
 
 <br/>
 
-## <img src="/content-images/icons8-toolbox-9bebbb1619.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> What You Need
+## <img src="/content-images/warning-error-svgrepo-com-b7ea8a50da.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="warning icon"/> Nsogbu ahụ
 
-- ZEC na ** shielded** itule
-- A wallet that can send to a unified address. This walkthrough uses **Noir Wallet**, a browser extension, so the whole flow stays in one window. Zkool and Zodl work the same way
-- Ihe dị ka $1 iji soro gị gaa.
+Ịkwụ ụgwọ maka AI na-adịkarị mkpa kaadị, email, na akaụntụ. Nke a na-ejikọta prompt ọ bụla ị dere na njirimara iwu gị, onye nhazi Kwụọ ụhwọ ahụ na-ahụkwa ya.
 
-> ** Na-abịa site na mgbanwe?** Ọtụtụ mgbanwe, gụnyere Binance, naanị wepụ ZEC ka ọ bụrụ adreesị doro anya, ha agaghị anabata a `u1...` adreesị dị ka ebe a na-aga. Wepụ ya n'adres gị nke ọma, kpuchie ya na obere akpa gị, wee kwụọ ụgwọ site na nguzozi echekwara.
+Crypto kwesịrị idozi nke a, ma ọtụtụ ntuziaka agwụla oge. Ọrụ na-agbanwe ihe ha na-anabata, ntuziaka e dere otu afọ gara aga ga-eduga gị n’ụzọ na-adịghịzi arụ ọrụ.
 
 <br/>
 
-## <img src="/content-images/ladder-svgrepo-com-7232bf46ed.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="step icon"/> Route 1: Pay NanoGPT directly
+## <img src="/content-images/icons8-lock-2f8e221321.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="lock icon"/> Gịnị Mere Zcash?
 
-[NanoGPT Ọgwụ ndị a na- eji eme ihe .](https://nano-gpt.com/) na-enye gị 200+ ụdị, gụnyere GPT, Claude, Gemini na ihe oyiyi nlereanya, ọ na-anabata ZEC natively.
+Kwụọ ụhwọ nke e chebere echebe na-ezo onye zitere ya, onye natara ya, na ego ole. A na-akwụ ọrụ ahụ, ọ nweghịkwa onye na-ele chain maara onye kwụrụ ma ọ bụ ego ole o kwụrụ.
 
-### Nzọụkwụ 1: Mepee ya. Enweghị ntinye aka na-enweghị ihe ọ bụla
+Nke a bụ eziokwu naanị ma ị kwụọ **site na** ego nke e chebere echebe. Peeji a na-akọwa kpọmkwem mgbe ọ bụ eziokwu na mgbe ọ na-abụghị eziokwu.
 
-Go to nano-gpt.com and start using it. Every session is anonymous by default and the app says so itself: *"You are already using NanoGPT privately."* There is no account to create and no email to hand over.
+<br/>
 
-### Nzọụkwụ 2: Chekwaa akara ngosi nbanye mbụ
+## <img src="/content-images/icons8-toolbox-9bebbb1619.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> Ihe Ị Chọrọ
 
-Tupu itinye ego, mepee **Ntọala** ma mee akara ngosi nbanye wee debe ya ebe dị nchebe.
+- ZEC n’ime itule **nke e chebere echebe**
+- E-akpa ego [wallet] nwere ike iziga na Adreesị akpa ego [address] jikọtara ọnụ. Ntuziaka a ji **Noir Wallet**, extension nchọgharị, yabụ usoro niile na-adị n’otu windo. Zkool na Zodl na-arụkwa otu ụzọ ahụ
+- Ihe dịka $1 iji soro mee ya
 
-> **Nke a na-echebe ego gị.** Ihe edoghi aha ya bụ ihe dị n'ime data nke nchọgharị gị. Hichapụ kuki gị ma ọ bụrụ na echekwabeghị akara ngosi, ebe ahụ ka o nweghị akaụntụ ị ga - esi nwetaghachi ha. Mee nke a tupu i tinye ego, ọbụghị mgbe emechara.
+> **Ị na-abịa site na exchange?** Ọtụtụ exchange, gụnyere Binance, na-ewepụta naanị ZEC gaa na Adreesị akpa ego **Oha [transparent]**, ha agaghị anabatakwa Adreesị akpa ego `u1...` dị ka ebe a ga-eziga. Buru ụzọ wepụta ya gaa na Adreesị akpa ego Oha nke gị, chebe ya n’e-akpa ego gị, emesịa kwụọ site n’itule nke e chebere echebe.
 
-### Nzọụkwụ 3: Tinye nguzozi
+<br/>
 
-Mepee ** Balance**, họrọ ** Custom ** , ma tinye ego. Nke kacha nta bụ $ 0.10 na nke kachasị elu bụ $ 5,000. NanoGPT gwara gị ihe ọ zụrụ, gburugburu 12 GPT 5.5 prompts or 18 images for $1 .
+## <img src="/content-images/ladder-svgrepo-com-7232bf46ed.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="step icon"/> Ụzọ 1: Kwụọ NanoGPT ozugbo
+
+[NanoGPT](https://nano-gpt.com/) na-enye gị model karịrị 200, gụnyere GPT, Claude, Gemini na model onyonyo, ọ na-anabatakwa ZEC n’ụzọ ala ya.
+
+### Nzọụkwụ 1: Mepee ya. Enweghị ndebanye aha
+
+Gaa na nano-gpt.com malite iji ya. Session ọ bụla bụ nke amaghi onye site na ndabara, ngwa ahụ na-ekwukwa ya n’onwe ya: *"Ị na-eji NanoGPT na nzuzo ugbu a."* Enweghị akaụntụ ị ga-emepụta ma ọ bụ email ị ga-enye.
+
+### Nzọụkwụ 2: Buru ụzọ chekwaa token nbanye
+
+Tupu itinye ego, mepee **Settings** ma mepụta token nbanye, emesịa chekwaa ya n’ebe dị nchebe.
+
+> **Nzọụkwụ a na-echebe ego gị.** Itule amaghi onye bi n’ime data mpaghara nke nchọgharị gị. Ọ bụrụ na ihichapụ cookies gị na-enweghị token echekwara, itule ahụ apụọla, enweghịkwa akaụntụ a ga-esi weghachite ya. Mee nke a tupu itinye ego, ọ bụghị mgbe e mesịrị.
+
+### Nzọụkwụ 3: Tinye itule
+
+Mepee **Balance**, họrọ **Custom**, ma tinye ego. Nke kacha nta bụ **$0.10** ma nke kacha elu bụ $5,000. NanoGPT na-agwa gị ihe ego ahụ zụtara, ihe dịka prompt GPT 5.5 iri na abụọ ma ọ bụ onyonyo 18 maka $1.
 
 ![NanoGPT add balance screen showing the custom amount and the ten cent minimum](/content-images/nanogpt-add-balance-acc74a4e6d.webp)
 
 ### Nzọụkwụ 4: Họrọ Zcash
 
-Họrọ **Digital currencies**, mgbe ahụ **Zcash** site na grid.
+Họrọ **Digital currencies**, emesịa họrọ **Zcash** n’ime grid.
 
-Ị ga-enweta koodu QR, adreesị ịkwụ ụgwọ na ** nnyefe kacha nta** n'ime ZEC maka ego ịchọrọ. Ọnụ ọgụgụ ahụ bụ ọnụahịa oge ibe a buuru ya.
+Ị ga-enweta koodu QR, Adreesị akpa ego ịkwụ ụhwọ, na **opekata mpe mbufe** na ZEC maka ego ị họọrọ. A na-edobe ọnụ ọgụgụ ahụ mgbe peeji ahụ meghere.
 
 ![NanoGPT Zcash deposit screen with the QR code, unified address and transfer minimum](/content-images/nanogpt-zec-deposit-bd1980d2f7.webp)
 
-### Nzọụkwụ 5: Zipu site na obere akpa gị
+### Nzọụkwụ 5: Ziga site n’e-akpa ego gị
 
-Copy the address into your wallet, enter the amount, and send. The network fee is about **0.00015 ZEC**.
+Detuo Adreesị akpa ego ahụ n’e-akpa ego gị, tinye ego, ma ziga ya. Ugwo [fee] netwọkụ bụ ihe dịka **0.00015 ZEC**.
 
-> **Zipụ ntakịrị karịa nke kacha nta.** Ọnụahịa ahụ bụ ọnụ ahịa mgbe ibe na-ebu ibu ma ZEC agagharị tupu azụmahịa gị kwadoro. Izipu kpọmkwem ihe kachasị ala rutere ** $ 0.99** kama ịbụ $ 1.00 n'ule. Ịzụta obere elu ruru $ 1.17 maka otu aha $ 1, n'ihi na NanoGPT kwetara ihe ị zitere n'ezie.
+> **Ziga ntakịrị karịa nke kacha nta.** A na-edobe ọnụahịa mgbe peeji ahụ meghere, ZEC nwekwara ike ịgbanwe tupu Azụmahia [transaction] gị ekwenye. Iziga kpọmkwem nke kacha nta wetara **$0.99** kama $1.00 n’ule. Iziga ntakịrị karịa wetara $1.17 maka otu $1 a kpọrọ aha, n’ihi na NanoGPT na-etinye ego ị zitere n’ezie.
 
 ![Noir Wallet send screen with the NanoGPT address pasted in and the network fee shown](/content-images/noir-send-6380a5f4ef.webp)
 
-### Nzọụkwụ 6: Chere ihe dị ka sekọnd 30 .
+### Nzọụkwụ 6: Chere ihe dịka sekọnd 30
 
-Akpa ego gị ga-egosi azụmahịa ahụ na -echere, wee kwado. NanoGPT kwadoro nguzozi na ** nkwenye mbụ**, yabụ ị gaghị echere maka atọ niile.
+E-akpa ego gị ga-egosi Azụmahia ahụ dị ka nke na-echere, emesịa dịka nke ekwenyela. NanoGPT na-etinye itule ahụ na **nkwenye mbụ**, yabụ ị gaghị echere nkwenye atọ niile.
 
 ![Wallet confirmation showing the amount sent and the transaction hash](/content-images/noir-sent-2d476e94b9.webp)
 
-Ego fọdụrụnụ ga-apụta, i nweziri ike imefu ya ozugbo.
+Itule ahụ apụta, ị nwere ike imefu ya ozugbo.
 
 ![NanoGPT balance page showing the credited amount and deposit history](/content-images/nanogpt-balance-0b0c0c86ba.webp)
 
 <br/>
 
-## <img src="/content-images/send-svgrepo-com-b62f643de0.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="send icon"/> Route 2: Services that do not take ZEC
+## <img src="/content-images/send-svgrepo-com-b62f643de0.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="send icon"/> Ụzọ 2: Ọrụ ndị na-anabataghị ZEC
 
-Imirikiti ọrụ AI anaghị anabata ZEC. ** Venice.ai** na ** OpenRouter ** abụọ nabatara USDC kama, ma OpenRooter na-ahapụ gị ịhọrọ nke agbụ ịkwụ ụgwọ ahụ ga-edozi ya.
+Ọtụtụ ọrụ AI anaghị anabata ZEC. **Venice.ai** na **OpenRouter** abụọ na-anabata USDC kama nke ahụ, OpenRouter na-enyekwa gị ohere ịhọrọ chain nke checkout ga-adị na ya.
 
-Maka ndị ahụ, jiri ** CrossPay** na [Zodl .](/zcash-organizations/zodl)Ị na-emefu ZEC echekwara ma onye nnata ahụ kwụrụ ụgwọ n'ihe onwunwe ha rịọrọ, nke a gafere site na NEAR Intents enweghị mgbanwe etiti na enweghị KYC.
+Maka ndị ahụ, jiri **CrossPay** n’ime [Zodl](/zcash-organizations/zodl). Ị na-emefu ZEC nke e chebere echebe, a na-akwụkwa onye nnata n’asset ọ rịọrọ, site na NEAR Intents na-enweghị exchange etiti na-enweghịkwa KYC.
 
-1. Nweta adreesị ịkwụ ụgwọ ọrụ na akụ na agbụ ọ tụrụ anya, dịka ọmụmaatụ USDC on Base.
-2. Mepee Zodl ma họrọ ** CrossPay**
-3. Tinye na adreesị, họrọ akụ ọrụ chọrọ, ma tinye ego ahụ
-4. Ziga site na nguzozi gị echekwara.
+1. Nweta Adreesị akpa ego ịkwụ ụhwọ nke ọrụ ahụ, yana asset na chain ọ tụrụ anya ya, dịka ọmụmaatụ USDC na Base
+2. Mepee Zodl ma họrọ **CrossPay**
+3. Tinye Adreesị akpa ego ahụ, họrọ asset ọrụ ahụ chọrọ, ma tinye ego
+4. Ziga site n’itule gị nke e chebere echebe
 
-ZEC gị na-apụ echekwa. Ọrụ ahụ hụrụ ụgwọ USDC nkịtị ka ọ bịarutere ma amataghị ya bidoro dị ka ZEC.
+ZEC gị na-apụ n’ụzọ nke e chebere echebe. Ọrụ ahụ na-ahụ Kwụọ ụhwọ USDC nkịtị ka ọ na-abata, ọ dịghịkwa ama na o sitere na ZEC.
 
-> A na-ahụ ụkwụ swap ahụ n'agbụ ebe a ga - aga, ya mere ịkwụ ụgwọ USDC bụ nke ọha dịka ọ bụla ọzọ ịkwụ ego USDC. Ihe na - anọgide onwe ha bụ akụkụ Zcash yana njikọ dị n'etiti abụọ ahụ.
+> Akụkụ Mgbawe [swap] ahụ na-apụta ìhè na chain ebe a na-aga, yabụ Kwụọ ụhwọ USDC n’onwe ya bụ Oha dịka Kwụọ ụhwọ USDC ọ bụla ọzọ. Ihe na-anọ na nzuzo bụ akụkụ Zcash na njikọ dị n’etiti ha abụọ.
 
 <br/>
 
-## <img src="/content-images/triangle-exclamation-7a4c4150be.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="warning icon"/> What is revealed at each step
+## <img src="/content-images/triangle-exclamation-7a4c4150be.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="warning icon"/> Ihe a na-ekpughe n’ụzọ nke ọ bụla
 
-Nke a bụ akụkụ ọtụtụ ndị nduzi na-atụfu.
+Nke a bụ akụkụ ọtụtụ ntuziaka na-awụfe.
 
-| Kedu ihe na-eme | Ihe ọrụ ahụ na-amụta | Gịnị na-eme na yinye |
+| Ihe na-eme | Ihe ọrụ ahụ na-amụta | Ihe na-aga na chain |
 |---|---|---|
-| Ịchọgharị na mkpali | Ọ dịghị ihe ọ bụla. Enweghị akaụntụ, enweghị email | Ọ dịghị ihe ọ bụla |
-| E nyere adreesị nkwụnye ego | Ọ dịghị ihe ọ bụla | Ọ dịghị ihe ọ bụla |
-| Ị na-akwụ ụgwọ **site na Sapling** | Adreesị nkwụnye ego ị jiri | Ọ dịghị ihe ọ bụla. E chebere ya ka ọ ghara imebi |
-| Ị na-akwụ ụgwọ **site na Ironwood** | Otu ihe ahụ | **Ọnụọgụ na ogologo nke blọk ahụ** |
-| Ị na-akwụ ụgwọ **site na adreesị doro anya** | Otu ihe ahụ | Ọnụ ego na adreesị T gị |
-| Nke ọ bụla n'ime ihe ndị dị n'elu | Adreesị IP gị, belụsọ ma ị na-eji Tor ma ọ bụ VPN | Ọ metụtaghị |
+| Ịchọgharị na ide prompt | Ọ dịghị ihe. Enweghị akaụntụ, enweghị email | Ọ dịghị ihe |
+| E nyere Adreesị akpa ego ntinye ego | Ọ dịghị ihe | Ọ dịghị ihe |
+| Ị na-akwụ **site na Sapling** | Adreesị akpa ego ntinye ego ị jiri | Ọ dịghị ihe. Nke e chebere echebe gaa na nke e chebere echebe |
+| Ị na-akwụ **site na Ironwood** | Otu ihe ahụ | **Ego ole na ogo block** |
+| Ị na-akwụ **site na Adreesị akpa ego Oha** | Otu ihe ahụ | Ego ole na t-address gị |
+| Nke ọ bụla n’elu | IP gị, ma ọ bụrụ na ijighị Tor ma ọ bụ VPN | Adịghị emetụta |
 
-### Ihe mere ọdọ mmiri ji dị mkpa
+### Gịnị Mere pool ji dị mkpa
 
-Adreesị nkwụnye ego nke NanoGPT bụ adreesị dị n'otu. Nkọwapụta otu enyere na August 2026 gosipụtara kpọmkwem ndị nnata abụọ: ** Sapling** na ** Orchard ** .
+Adreesị akpa ego ntinye ego NanoGPT bụ Adreesị akpa ego jikọtara ọnụ. Ịkọwa otu e nyere n’August 2026 na-egosi kpọmkwem ndị nnata abụọ: **Sapling** na **Orchard**.
 
-Kemgbe ahụ, ndị na-eme ihe nkiri. [Ironwood](/zcash-tech/ironwood) nkwalite arụ ọrụ na 28 Julaị 2026, Orchard bụ naanị mmefu ma enweghị uru ọhụụ nwere ike ịbanye ya. Nke ahụ hapụrụ ** Sapling dị ka onye nnata ego ọ bụla nwere ike ịbata**.
+Kemgbe nkwalite [Ironwood](/zcash-tech/ironwood) malitere na 28 July 2026, Orchard bụ naanị maka imefu, ọ nweghịkwa uru ọhụrụ nwere ike ịbanye na ya. Nke ahụ hapụrụ **Sapling dịka naanị onye nnata Kwụọ ụhwọ nwere ike iru n’ezie**.
 
-Ya mere, ọ bụrụ na ZEC gị adịlarị na Sapling, ịkwụ ụgwọ bụ Sapling ka Sapling ma onweghị ihe gbasara ya. Ma ọ bụrụ n'ịkwaga Ironwood, ị kwụọ ụgwọ gafere oke ọdọ mmiri ahụ, yana uru dị mkpa nke ego a chọrọ iji nweta ọrụ site na ụlọ akụ maka ndị ahịa ha. [na turnstile](/zcash-tech/the-turnstile) publishes the amount and the height even though sender and receiver stay hidden.
+Yabụ ọ bụrụ na ZEC gị adịlarị na Sapling, Kwụọ ụhwọ ahụ bụ Sapling gaa na Sapling, ọ nweghịkwa ihe gbasara ya dị Oha. Ma ọ bụrụ na ị kwagara na Ironwood, ịkwụ ụgwọ na-ebufe uru gafee ókè pool, [the turnstile](/zcash-tech/the-turnstile) na-ebipụta ego ole na ogo ahụ ọbụna mgbe onye zitere na onye natara ya ka zoro ezo.
 
-Ihuenyo ahụ yiri otu ụzọ ọ bụla. Idebe obere Sapling maka ịkwụ ụgwọ bụ ihe kachasị mfe idozi.
-
-<br/>
-
-## <img src="/content-images/icons8-cancel-7f786be3c1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="cancel icon"/> Common Mistakes to Avoid
-
-- Ịkwụnye ego tupu ịchekwa akara ngosi nbanye, wee kpochapụ kuki
-- Ịgafe ego ole a chọrọ ma ghara inye otu penny .
-- Ịgbalị ịdọrọ ozugbo site na mgbanwe gaa n'otu ụlọ ọrụ. `u1...` ebe a na-ebi akwụkwọ
-- Na-eche na ịkwụ ụgwọ ahụ bụ nkeonwe n'enweghị ịchọpụta ebe ọ bụla i si jiri ya mee ihe.
-- Ịkwụ ụgwọ n'elu njikọ nkịtị mgbe a na-achọpụtaghị isi ihe niile ahụ
+Ihuenyo ndị ahụ yiri otu n’ụzọ ọ bụla. Idebe obere itule Sapling maka ịkwụ ụhwọ bụ ụzọ kachasị mfe isi dozie ya.
 
 <br/>
 
-## <img src="/content-images/checked-checkbox-svgrepo-com-7ea19022da.svg" width="28" height="28" className="inline-block align-middle mr-1 p-[2px]" alt="done icon"/> Result
+## <img src="/content-images/icons8-cancel-7f786be3c1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="cancel icon"/> Mmejọ Ndị A Na-ahụkarị Iji Zere
 
-I nwere ike:
-
-- Jiri ụdị AI na-enweghị akaụntụ, email ma ọ bụ kaadị
-- Kwụọ ụgwọ na ZEC echekwara ma mara kpọmkwem ihe nke ahụ mere ma ọ bụ zoo
-- Na-erute ndị ọrụ na anụtụbeghị banyere Zcash, site CrossPay
-
-<br/>
-
-## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="chain-links icon"/> Related
-
-- [Ironwood](/zcash-tech/ironwood) - ihe mere na ọdọ mmiri gị ego nọdụ ke gbanwere
-- [Ihe A Na-akpọ Turnstile](/zcash-tech/the-turnstile) - ihe na-aghọ ọha mgbe uru agafe ọdọ mmiri
-- [Akpa ego](/using-zcash/wallets) - nke wallets na-echekwa.
-- [ZODL](/zcash-organizations/zodl) - obere akpa dị n'azụ CrossPay.
+- Itinye ego tupu ichekwa token nbanye, emesịa ihichapụ cookies
+- Iziga kpọmkwem opekata mpe mbufe ma nata ego na-erughị otu cent
+- Ịgbalị iwepụta ego ozugbo site na exchange gaa na Adreesị akpa ego `u1...`
+- Iche na Kwụọ ụhwọ ahụ bụ nke nzuzo na-enyochaghị pool ị si mefu
+- Ịkwụ ụgwọ n’elu njikọ nkịtị mgbe isi ihe bụ izere ka a mata gị
 
 <br/>
 
-## <img src="/content-images/progress-arrows-svgrepo-com-aad76739e5.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="progress icon"/> Progress
+## <img src="/content-images/checked-checkbox-svgrepo-com-7ea19022da.svg" width="28" height="28" className="inline-block align-middle mr-1 p-[2px]" alt="done icon"/> Nsonaazụ
+
+Ị nwere ike:
+
+- Jiri model AI dị elu na-enweghị akaụntụ, email, ma ọ bụ kaadị
+- Kwụọ ụhwọ na ZEC nke e chebere echebe ma mara kpọmkwem ihe nke a na-ezo na ihe ọ na-adịghị ezo
+- Ruo ọrụ ndị anụtụbeghị gbasara Zcash, site na CrossPay
+
+<br/>
+
+## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="chain-links icon"/> Ihe Ndị Metụtara Ya
+
+- [Ironwood](/zcash-tech/ironwood) - ihe mere pool ego gị dị na ya ji gbanwee
+- [The Turnstile](/zcash-tech/the-turnstile) - ihe na-adị Oha mgbe uru gafere pools
+- [Wallets](/using-zcash/wallets) - e-akpa ego ndị a na-elekọta
+- [ZODL](/zcash-organizations/zodl) - e-akpa ego dị n’azụ CrossPay
+
+<br/>
+
+## <img src="/content-images/progress-arrows-svgrepo-com-aad76739e5.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="progress icon"/> Ọganihu
 
 **Nzọụkwụ 1 nke 1**
 
-Ị kwụrụ ụgwọ maka ọrụ AI na ZEC echekwara ma ị maara ihe ọ kpughere.
+Ị kwụọla ọrụ AI na ZEC nke e chebere echebe, ị makwaara ihe ọ kpughere.
 
 <br/>
 
-## Nzọụkwụ Ọzọ
+## Nzọụkwụ Na-esote
 
-- [Ziga Ego n'Ejighị Ihe Ndị Na-egosi na Ị Bụ Onye A Chọpụtara Achọpụta](/zcash-use-cases/send-money-without-linking-identity)
+- [Ziga Ego Na-enweghị Ijikọta Njirimara](/zcash-use-cases/send-money-without-linking-identity)
 
 <br/>

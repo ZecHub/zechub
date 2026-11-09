@@ -1,8 +1,8 @@
-# Ntuziaka Zkool Multisig
+# Zkool Ntuziaka Multisig
 
-This guide provides a step by step walkthrough on how to perform multisig transactions using Zkool. It includes creating accounts, sending or receiving funds, and setting up distributed key generation (DKG) for multisig. Screenshots are included for each major step.
+Ntuziaka a na-enye ntụziaka nzọụkwụ site na nzọụkwụ banyere otu esi eme Azụmahia multisig [multisig transactions] site na iji Zkool. Ọ gụnyere imepụta akaụntụ, izipu ma ọ bụ ịnata ego, na ịhazi mmepụta igodo ekesara [distributed key generation] (DKG) maka multisig. A gụnyere onyonyo ihuenyo maka nzọụkwụ ọ bụla dị mkpa.
 
-## Nkuzi nkuzi
+## Nkuzi
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -19,117 +19,116 @@ This guide provides a step by step walkthrough on how to perform multisig transa
 ## 1. Ịmepụta Akaụntụ
 
 
-1. Mepee **Zkool app** ma gaa **New Account**.
+1. Mepee **ngwa Zkool** gaa na **Akaụntụ Ọhụrụ**.
 
 
-! ![img1](/content-images/ee906e49-361a-49b6-9484-904897fe2e3f-074e400a9c.webp)
+![img1](/content-images/ee906e49-361a-49b6-9484-904897fe2e3f-074e400a9c.webp)
 
-3. Tinye ** Aha Akaụntụ ** (dịka Anabelle). 
+3. Tinye **Aha Akaụntụ** (dịka ọmụmaatụ Anabelle).  
    
 
-! ![img2](/content-images/e9c325d3-8507-433a-a0c6-6e8c1ea2a254-a637810ed5.webp)
+![img2](/content-images/e9c325d3-8507-433a-a0c6-6e8c1ea2a254-a637810ed5.webp)
 
 
-4. Ị nwere ike ịgbanwee **Jiri Mgbanwe Ọdịnaya** ma ọ bụ **Weghachite Akaụntụ** ma achọrọ.
+4. Ọ bụrụ na ọ dị mkpa, họrọ **Jiri Mgbanwe Ime** ma ọ bụ **Weghachi Akaụntụ**.
 
 
-5. Mgbe e mepụtara ya, akaụntụ ahụ ga-apụta na **List Akaụntụ** gị. 
+5. Mgbe e mepụtara ya, akaụntụ ahụ ga-apụta na **Ndepụta Akaụntụ** gị.  
 
 
-! ![img3](/content-images/c446cbca-fb3e-49b9-b1d4-fd727cd1b0fb-971cf76b33.webp)
+![img3](/content-images/c446cbca-fb3e-49b9-b1d4-fd727cd1b0fb-971cf76b33.webp)
 
 
-## 2. Inweta Ego
+## 2. Ịnata Ego
 
-Akaụntụ ọ bụla na-emepụta ọtụtụ ụdị adreesị:
+Akaụntụ ọ bụla na-emepụta ụdị Adreesị akpa ego [address] dị iche iche:
 
-**Unified Address**
+**Adreesị Ejikọrọ [Unified Address]**
 
-**Orchard only Address**
+**Adreesị Orchard naanị**
 
-** Adreesị Sapling **
+**Adreesị Sapling**
   
-**Adreesị doro anya**
+**Adreesị akpa ego Oha [Transparent Address]**
 
 
-Họrọ ụdị ịchọrọ iji ma kesaa ya iji nweta ego. 
+Họrọ ụdị ịchọrọ iji ma kesaa ya iji nata ego.  
 
 
-! ![img4](/content-images/c9de5dfe-e9d7-423d-8d90-35c1a08ffd5d-a0d6a4e7b7.webp)
+![img4](/content-images/c9de5dfe-e9d7-423d-8d90-35c1a08ffd5d-a0d6a4e7b7.webp)
 
 
 
 
 
-## 3. Iziga Ego
+## 3. Izipu Ego
 
-1. Gaa n'ebe a na-akpọ "Onye Nwetara". 
-
-
-! ![img5](/content-images/9f3a03b9-dd56-450c-a8dc-4370f9289138-3217d846b7.webp)
+1. Gaa na ngalaba **Onye Nnata**.  
 
 
-3. Tinye ** adreesị onye nnata **. 
-
-4. Ezipụta ** ego ** na nhọrọ ** memo **. 
-
-5. Nyochaa nkọwa azụmahịa ahụ ma kwado ya. 
+![img5](/content-images/9f3a03b9-dd56-450c-a8dc-4370f9289138-3217d846b7.webp)
 
 
-Ozugbo zuru ezu, mmelite nke nguzozi na ndepụta akaụntụ gị. 
+3. Tinye **Adreesị akpa ego onye nnata**.  
+
+4. Kọwaa **ọnụ ego** na **memo** nhọrọ.  
+
+5. Nyochaa nkọwa Azụmahia ahụ ma **kwado**.  
 
 
-! ![img6](/content-images/6e6da76b-cd18-4567-a5c0-74f07ddefc64-78dc3362dc.webp)
+Mgbe emechara, nha ego ahụ na-emelite n'ime ndepụta akaụntụ gị.  
 
 
-## 4. Ịrụ Multisig Azụmahịa: Ịtọlite Distributed Key Generation (Multisig)
+![img6](/content-images/6e6da76b-cd18-4567-a5c0-74f07ddefc64-78dc3362dc.webp)
 
-Multisig in Zkool uses **Distributed Key Generation (DKG)** to ensure multiple participants control a shared account.
+
+## 4. Ime Azụmahia Multisig: Ịhazi Mmepụta Igodo Ekesara (Multisig)
+
+Multisig n'ime Zkool na-eji **Mmepụta Igodo Ekesara (DKG)** iji hụ na ọtụtụ ndị sonyere na-achịkwa akaụntụ e kesara.
 
 
 
 ### Nzọụkwụ 1: Malite DKG
-Họrọ ** Aha ** maka obere akpa (dịka Anabelle).
+Họrọ **Aha** maka e-akpa ego e kesara (dịka ọmụmaatụ Anabelle).
 
-Tinye **Ọnụ ọgụgụ nke ndị sonyere**.
+Debe **Ọnụọgụ Ndị Sonyere**.
   
-Họrọ **Nke sonyere ID** gị.
+Họrọ **NJirimara Onye Sonyere** gị.
   
-Kọwaa **Ọnụ ọgụgụ nke ndị na-edebanye aha chọrọ (ọnụ ụzọ) **.
+Kọwaa **Ọnụọgụ Ndị Nbinyere Aka Achọrọ (Ọnụ Ọgụ)**.
     
-Họrọ ** Akaụntụ Ego **.
+Họrọ **Akaụntụ Ịkwado Ego**.
   
 
-! ![img7](/content-images/8a90ca85-5439-4937-b16d-a570e69d55f0-1477202a57.webp)
+![img7](/content-images/8a90ca85-5439-4937-b16d-a570e69d55f0-1477202a57.webp)
 
 
 
-### Nzọụkwụ 2: Tinye Adreesị Ndị Na-ekere òkè
-- Tinye onye ọ bụla sonyere ** Unified Address ** (na-atụ aro).
+### Nzọụkwụ 2: Tinye Adreesị akpa ego Ndị Sonyere
+- Tinye **Adreesị Ejikọrọ** onye ọ bụla sonyere (a tụrụ aro).
 
 
-**Cheta:** Ọ bụrụ na ị jiri adreesị Orchard naanị ma ọ bụ Sapling naanị, a ga-ejedebe multisig na ọdọ mmiri ahụ (Orchard or Sapling). 
-Nke a pụtara na obere akpa a na-ekerịta enweghị ike ịnata ego site na ọdọ mmiri ndị ọzọ. 
-Maka ndakọrịta na mgbanwe kachasị, jiri ** Unified Addresses ** mgbe niile. 
+**Rịba ama:** Ọ bụrụ na ị jiri Adreesị Orchard naanị ma ọ bụ Sapling naanị, multisig ga-adị naanị na pool ahụ (Orchard ma ọ bụ Sapling).  
+Nke a pụtara na e-akpa ego e kesara enweghị ike ịnata ego sitere na pool ndị ọzọ.  
+Maka ndakọrịta na mgbanwe kacha elu, jiri **Adreesị Ejikọrọ** mgbe niile.  
 
 
-### Nzọụkwụ 3: Gbaa DKG Rounds
-Chere ka ndị niile sonyere na-agbanweta ** gburugburu 1 ** na ** gburugburu 2 ** ngwugwu. 
+### Nzọụkwụ 3: Gbaa Usoro DKG
+Chere ka ndị niile sonyere gbanwee ngwugwu **okirikiri 1** na **okirikiri 2**.  
 
 
-! ![img8](/content-images/cdaf6e00-3cb0-4774-8a96-5ded19bf31c4-b6bb50bbab.webp)
+![img8](/content-images/cdaf6e00-3cb0-4774-8a96-5ded19bf31c4-b6bb50bbab.webp)
 
 
 
-### Nzọụkwụ 4: Mezue Adreesị Ekekọrịtara
-Ozugbo zuru ezu, a na-emepụta ** nkekọrịta adreesị **. 
+### Nzọụkwụ 4: Mechaa Adreesị akpa ego Ekesara
+Mgbe emechara, a na-emepụta **Adreesị akpa ego e kesara**.  
 
 
-! ![img9](/content-images/741d1bc6-0102-4e67-bb83-9a1c184bd747-a508ea0371.webp)
+![img9](/content-images/741d1bc6-0102-4e67-bb83-9a1c184bd747-a508ea0371.webp)
 
 
 
 ## Mmechi
 
-Using Zkool, you can: create accounts, send and receive funds, and set up a **multisig wallet** using Distributed Key Generation. This ensures **enhanced security** and **collaborative and private fund management**.  
-
+Site n'iji Zkool, ị nwere ike: imepụta akaụntụ, izipu ma nata ego, ma hazie **e-akpa ego multisig** site na iji Mmepụta Igodo Ekesara. Nke a na-ahụ maka **nchekwa ka mma** na **njikwa ego imekọrịta ọnụ na nke nzuzo**.

@@ -1,108 +1,108 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Zcash_Tech/Overwinter.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Dezie Peeji"/>
 </a>
 
 # Overwinter
 
-> Overwinter malitere na Zcash mainnet na block 347,500 (June 26, 2018 UTC).
+> Overwinter malitere ịrụ ọrụ na Zcash mainnet na block 347,500 (June 26, 2018 UTC).
 
-Ihe ị ga-ewepụ: otu Zcash si mụta ịgbanwe iwu nke ya n'enweghị nsogbu, na ihe kpatara ntọala ahụ ji mee ka mmelite ọ bụla mechara, malite na Sapling, nwee ike.
+Ihe ị ga-amụta: otú Zcash siri mụta ịgbanwe iwu nke ya n'enweghị nsogbu, na ihe mere ntọala ahụ ji mee ka network upgrade [network upgrade] ọ bụla sochirinụ, malite na Sapling, kwe omume.
 
-Oge oyi bụ Zcash. [nkwalite netwọkụ.](../start-here/network-upgrades), nke mbụ mgbe netwọkụ ahụ bidoro. A kọwapụtara ya n'ọtụtụ Zcash Improvement Proposals: [ZIP 200 Ụlọ ọrụ](https://zips.z.cash/zip-0200), [ZIP 201 (mkpụrụ ego)](https://zips.z.cash/zip-0201), [ZIP 202 (mkpọchi)](https://zips.z.cash/zip-0202), [ZIP 203 Ụlọ ọrụ](https://zips.z.cash/zip-0203), na [ZIP 143  Ihe e dere n'ala ala peeji](https://zips.z.cash/zip-0143)Overwinter agbakwunyeghị ihe ọ bụla ọhụrụ echekwara. Kama nke ahụ, o mere ka usoro iwu ahụ sie ike ka e wee nwee ike ịnyefe nkwalite n'ọdịnihu na nchekwa. Nkwalite a bụ akwụkwọ site na ndị ọrụ nchịkwa . [Electric Coin Company](../zcash-organizations/electric-coin-company) na peeji nke mmelite Zcash.
+Overwinter bụ Zcash [network upgrade](../start-here/network-upgrades), nke mbụ mgbe network ahụ malitere. A kọwara ya n'ofe ọtụtụ Atụmatụ Mmezi Zcash: [ZIP 200](https://zips.z.cash/zip-0200), [ZIP 201](https://zips.z.cash/zip-0201), [ZIP 202](https://zips.z.cash/zip-0202), [ZIP 203](https://zips.z.cash/zip-0203), na [ZIP 143](https://zips.z.cash/zip-0143). Overwinter etinyeghị atụmatụ ọhụrụ ọ bụla nke e chebere echebe [shielded]. Kama nke ahụ, ọ mere ka protocol ahụ sie ike ka e nwee ike iwepụta upgrades n'ọdịnihu n'enweghị nsogbu. Edekọrọ upgrade ahụ site na [Electric Coin Company](../zcash-organizations/electric-coin-company) na peeji upgrade gọọmentị nke Zcash.
 
-Why this matters. Changing the rules of a live blockchain is dangerous. Get it wrong and two versions of the network can disagree, or a transaction meant for one chain can be copied onto another. Before Overwinter, Zcash had no standard, replay-safe way to coordinate a rule change. Overwinter fixed that. It gave Zcash a formal process for upgrades and, just as important, two-way replay protection, so a transaction that is valid under one set of rules cannot be replayed under another. That groundwork is what made Sapling, and every upgrade after it, possible to activate cleanly.
+Ihe mere nke a ji dị mkpa. Ịgbanwe iwu blockchain [blockchain] dị ndụ dị ize ndụ. Ọ bụrụ na e mehie ya, ụdị abụọ nke network nwere ike ghara ikwenye, ma ọ bụ Azụmahia [transaction] e bu n'uche maka otu chain nwere ike idetuo gaa na nke ọzọ. Tupu Overwinter, Zcash enweghị ụzọ ọkọlọtọ, nke nchekwa megide mmegharị ugboro abụọ, isi ahazi mgbanwe iwu. Overwinter doziri nke ahụ. O nyere Zcash usoro iwu maka upgrades ma, nke dịkwa oke mkpa, nchedo mmegharị ugboro abụọ n'akụkụ abụọ, ka Azụmahia nke ziri ezi n'okpuru otu nchịkọta iwu ghara imeghachi n'okpuru nke ọzọ. Ntọala ahụ bụ ihe mere Sapling, na upgrade ọ bụla sochirinụ, ji nwee ike ịmalite nke ọma.
 
 ![Before and after Overwinter: before, no standard upgrade path and no replay protection. After, a network upgrade mechanism with two-way replay protection and safe future upgrades](/content-images/overwinter-before-after-acf4f5d283.webp)
 
-## Usoro nkwalite ahụ.
+## Usoro upgrade
 
-Overwinter webatara usoro nkwalite netwọk, akọwapụtara na [ZIP 200 Ụlọ ọrụ](https://zips.z.cash/zip-0200)Nwelite ọ bụla ugbu a na-akọwa ihe abụọ: ngalaba nkwekọrịta nke ahaziri usoro iwu dị ugbu a, yana ịdị elu ọrụ, ngọngọ ebe iwu ọhụrụ ahụ ga - arụ. Nke a na - enye onye ọ bụla na - agba ọsọ ngwanrọ Zcash windo doro anya iji melite tupu ịgbanwee ya.
+Overwinter webatara Usoro Network Upgrade, nke akọwara na [ZIP 200](https://zips.z.cash/zip-0200). Ugbu a, upgrade ọ bụla na-akọwa ihe abụọ: id alaka consensus nke na-akpọ nchịkọta iwu dị ugbu a, na ogo mmalite, ya bụ block ebe iwu ọhụrụ na-amalite ịrụ ọrụ. Nke a na-enye onye ọ bụla na-agba Zcash software oge doro anya iji melite tupu mgbanwe ahụ.
 
-Overwinter n'onwe ya na-arụ ọrụ na mainnet na ngọngọ 347,500.
+Overwinter n'onwe ya malitere ịrụ ọrụ na mainnet na block 347,500.
 
-[ZIP 201 (mkpụrụ ego)](https://zips.z.cash/zip-0201) na-ejikwa otú ọnụ si emeso ibe ha gburugburu nwelite. Tupu arụ ọrụ, nodes ahọrọ ijikọ ndị ọgbọ na-agba ọsọ otu ụdị ahụ. Mgbe ị rụọ ọrụ, a node disconnects site n'aka ndị ọgbọ nke dị na ngalaba nkwekọrịta dị iche, ya mere netwọk kewara ọcha tinyere iwu ọhụrụ kama inwe mgbagwoju anya.
+[ZIP 201](https://zips.z.cash/zip-0201) na-ahụ maka otú nodes si emekọrịta ibe ha n'oge upgrade. Tupu mmalite, nodes na-ahọrọ ijikọ na ndị otu na-agba otu ụdị software ahụ. N'oge mmalite, node na-apụ na ndị otu nọ n'alaka consensus dị iche, ka network kewaa nke ọma dabere n'iwu ọhụrụ kama ịgba mgbagwoju anya.
 
-## Nchedo ịmegharị ihe ọzọ
+## Nchedo megide mmegharị ugboro abụọ
 
-Ntughari bụ mgbe mmadụ na-ewere azụmahịa nke dị irè n'otu agbụ ma gosipụta ya ọzọ. Overwinter mechiri ọnụ ụzọ ahụ site na usoro mbinye aka ọhụrụ, akọwapụtara na [ZIP 143  Ihe e dere n'ala ala peeji](https://zips.z.cash/zip-0143)Mgbe obere akpa na-edebanye aka n'akwụkwọ, mbinye aka ahụ ugbu a ga - ejikọta ya na ngalaba nkwekọrịta nke mpaghara dị ugbu a. Mmekọrịta e debanyere aha maka otu alaka adịghị adị irè na mpaghara ọ bụla ọzọ, ma ụzọ abụọ. Nke ahụ bụ ihe nchebe ntụgharị ihu abụọ pụtara.
+Mmegharị ugboro abụọ bụ mgbe mmadụ were Azụmahia nke ziri ezi na otu chain gbasaa ya ọzọ na chain ọzọ. Overwinter mechiri ohere ahụ site na atụmatụ signature [signature] ọhụrụ, nke akọwara na [ZIP 143](https://zips.z.cash/zip-0143). Mgbe e-akpa ego [wallet] bịanyere Azụmahia aka, signature ahụ ugbu a na-ejikọta ya na id alaka consensus nke chain dị ugbu a. Azụmahia e binyere aka maka otu alaka anaghị adị irè ma ọlị na alaka ọzọ, n'akụkụ ọ bụla. Nke ahụ bụ ihe nchedo mmegharị ugboro abụọ n'akụkụ abụọ pụtara.
 
-Nke a na-arụ ọrụ aka n'aka ọhụrụ version 3 azụmahịa format si [ZIP 202 (mkpọchi)](https://zips.z.cash/zip-0202), mgbe ụfọdụ a na-akpọ Overwintered format. Ọ agbakwunye fOverwintered ọkọlọtọ na mbipute otu id nke doo anya ihe set of consensus iwu azụmahịa so n'ime. Dị ka akụkụ uru, ọhụrụ mbinye aka atụmatụ nwekwara mma otú ngwa ngwa uzo azụmahịa na-kwupụtara ya ịbụ eziokwu.
+Nke a na-arụkọ ọrụ nke ọma na usoro Azụmahia ụdị 3 ọhụrụ sitere na [ZIP 202](https://zips.z.cash/zip-0202), nke a na-akpọ mgbe ụfọdụ usoro Overwintered. Ọ na-agbakwunye akara fOverwintered na id otu ụdị nke na-eme ka o doo anya nchịkọta iwu consensus Azụmahia nọ na ya. Dị ka uru mgbakwunye, atụmatụ signature ọhụrụ ahụ mekwara ka e nwee ike ịkwado Azụmahia Oha [transparent] ngwa ngwa.
 
 ![How replay protection works: a wallet signs a transaction that commits to the current consensus branch id, so the transaction cannot be replayed on any other branch](/content-images/overwinter-replay-flow-754ec8578a.webp)
 
-## Oge mmezu nke azụmahịa ahụ.
+## Mmebi oge Azụmahia
 
-[ZIP 203 Ụlọ ọrụ](https://zips.z.cash/zip-0203) added transaction expiry. A transaction can now set an expiration block height. If it has not been mined by that height, nodes drop it from the mempool, the waiting room of unconfirmed transactions. Before this, a transaction could sit unconfirmed for a long time. Expiry means a stuck transaction eventually clears on its own, which reduces uncertainty for you and keeps the mempool from filling up with old, unmined transactions.
+[ZIP 203](https://zips.z.cash/zip-0203) gbakwunyere mmebi oge Azụmahia. Azụmahia nwere ike ugbu a ịtọ ogo block njedebe. Ọ bụrụ na a gwụpụtabeghị ya ruo n'ogo ahụ, nodes na-ewepụ ya na mempool, ebe echere Azụmahia ndị a na-ekwenyebeghị. Tupu nke a, Azụmahia nwere ike ịnọ ogologo oge n'enweghị nkwenye. Mmebi oge pụtara na Azụmahia rapaara ga-emecha wepụ onwe ya, nke na-ebelata ejighị n'aka maka gị ma na-egbochi mempool imeju Azụmahia ochie a na-egwupụtabeghị.
 
-## Ebe ọ dabara adaba .
+## Ebe ọ dabara
 
-Overwinter was the first Zcash network upgrade after the October 2016 mainnet launch, and it shipped deliberately ahead of Sapling. Its job was infrastructure, not features. By installing the upgrade mechanism and the replay-protection machinery first, it gave every later upgrade (Sapling, Blossom, Heartwood, Canopy, NU5, and the ones after) a safe path to activate.
+Overwinter bụ network upgrade mbụ nke Zcash mgbe mbido mainnet nke October 2016, e wepụtakwara ya n'ebumnuche tupu Sapling. Ọrụ ya bụ akụrụngwa, ọ bụghị atụmatụ ọhụrụ. Site n'ibu ụzọ wụnye usoro upgrade na ngwaọrụ nchedo mmegharị ugboro abụọ, ọ nyere upgrade ọ bụla sochirinụ (Sapling, Blossom, Heartwood, Canopy, NU5, na ndị sochirinụ) ụzọ dị nchebe isi malite ịrụ ọrụ.
 
 ![Timeline from the October 2016 Sprout launch, through the 2016 to 2018 stretch with no upgrade framework, to Overwinter in June 2018](/content-images/overwinter-timeline-689d9bcf20.webp)
 
-## Akwụkwọ ọkọwa okwu
+## Nkọwa okwu
 
-| Oge okwu | Nkọwa Bekee dị mfe |
+| Okwu | Nkọwa dị mfe |
 |---|---|
-| Network upgrade (NU) | Mgbanwe nhazi na iwu nkwekọrịta Zcash's, nke a na-arụ ọrụ na elu blọk edobere |
-| Consensus branch id | Ihe njirimara dị mkpirikpi nke na-akpọ aha iwu nkwekọrịta dị ugbu a |
-| Activation height | Mkpọchi ebe iwu ọhụrụ nke nkwalite netwọkụ ga-amalite ịrụ ọrụ |
-| Replay protection | Iwu nke na-egbochi azụmahịa dị irè n'otu agbụ ka a ghara iji ya mee ihe ọzọ |
-| Mempool | Ọgbakọ azụmahịa ndị agbasaala mana a ka gwupụtabeghị n'ime ngọngọ |
-| Transaction expiry | Ogologo blọk njedebe nke a ga-ewepụ azụmahịa a na-egwupụtaghị |
+| Network upgrade (NU) | Mgbanwe ahaziri ahazi n'iwu consensus nke Zcash, nke na-amalite na ogo block e setịpụrụ |
+| Consensus branch id | Njirimara mkpirikpi nke na-akpọ nchịkọta iwu consensus dị ugbu a |
+| Activation height | Block ebe iwu ọhụrụ nke network upgrade na-amalite ịrụ ọrụ |
+| Replay protection | Iwu na-egbochi Azụmahia ziri ezi na otu chain iji ọzọ na chain ọzọ |
+| Mempool | Pool [pool] nke Azụmahia agbasala mana a gwụpụtabeghị n'ime block |
+| Transaction expiry | Ogo block njedebe nke e mesịrị wepụ Azụmahia a na-egwupụtabeghị |
 
 ## Ajụjụ ndị a na-ajụkarị
 
-Overwinter gbanwere ZEC m ma ọ bụ nzuzo m? Mba. O nweghi ihe ọhụrụ ndị ọzọ e tinyere na ya, o metụghịkwa azụmahịa echedoro aka. Ọ nọ na-eme ka mmelite dị nchebe maka ọdịnihu. Ego gị na nzuzo adịghị emetụta.
+Overwinter gbanwere e-akpa ego ZEC m ma ọ bụ Nzuzo [privacy] m? Mba. Overwinter etinyeghị atụmatụ ọhụrụ ma metụghị Azụmahia nke e chebere echebe. Ọ bụ akụrụngwa maka upgrades n'ọdịnihu dị nchebe. Ego gị na Nzuzo gị emetụghị.
 
-Overwinter tinyere Sapling ma ọ bụ adreesị echedoro? Mba. O nweghi ihe ndị e chebere na ya, o kwadebere ala ka Sapling nwee ike ịrụ ọrụ nke ọma mgbe emechara. Ọ bụrụ na ị nwere nsogbu dị otú ahụ, biko kpọtụrụ m maka enyemaka ọzọ.
+Overwinter gbakwunyere Sapling ma ọ bụ Adreesị akpa ego nke e chebere echebe? Mba. Overwinter etinyeghị atụmatụ nke e chebere echebe. Ọ kwadebere ala ka Sapling nwee ike ịmalite n'enweghị nsogbu ma emechaa.
 
-Gịnị bụ nkwekọrịta ngalaba id? Ọ bụ mkpirikpi akara nke na-akpọ aha usoro iwu dị ugbu a. Azụmahịa na-etinye aka ya mgbe ha bịanyere aka n'akwụkwọ, nke ahụ bụ ihe na - enye Zcash nchebe mmeghachi omume ya.
+Gịnị bụ id alaka consensus? Ọ bụ akara mkpirikpi nke na-akpọ nchịkọta iwu dị ugbu a. Azụmahia na-ejikọta na ya mgbe a bịanyere ha aka, nke bụ ihe na-enye Zcash nchedo ya megide mmegharị ugboro abụọ.
 
-Gịnị mere ụfọdụ ndị ji kwuo na June 25, ndị ọzọkwa June 26? Overwinter na-arụ ọrụ na 01:37 UTC na June 26, 2018. Nke ahụ bụ obere oge tupu etiti abalị UTC, yabụ n'ọtụtụ mpaghara oge Western, elekere mpaghara ka na-agụ June 25. Ọ bụ otu blọk ahụ na otu oge ahụ.
+Gịnị mere ụfọdụ ebe ji asị June 25 ebe ndị ọzọ na-ekwu June 26? Overwinter malitere ịrụ ọrụ na 01:37 UTC na June 26, 2018. Nke ahụ bụ obere oge ka UTC gafesịrị etiti abalị, ya mere n'ọtụtụ mpaghara oge ọdịda anyanwụ, elekere mpaghara ka na-egosi June 25. Ọ bụ otu block na otu oge ahụ.
 
-Gịnị bụ azụmahịa expiry mma maka? Ọ pụtara a na-eme ihe mgbe ọ dịghị mined agaghị anọgide ruo mgbe ebighị ebi. Mgbe ya ngafe elu, ọnụ dobe ya, otú ị na-agaghị ahapụ guessing banyere a rapaara ugwo.
+Kedu ihe mmebi oge Azụmahia bara uru? Ọ pụtara na Azụmahia a na-egwupụtaghị agaghị anọgide ruo mgbe ebighị ebi. Mgbe ọ gafere ogo mmebi oge ya, nodes na-ewepụ ya, ka ị ghara ịnọ na-eche ihe na-eme banyere Kwụọ ụhwọ [payment] rapaara.
 
-Do I need to do anything? No. Overwinter activated in 2018. Any current Zcash wallet or node already follows these rules.
+Ọ dị m mkpa ime ihe ọ bụla? Mba. Overwinter malitere ịrụ ọrụ na 2018. E-akpa ego Zcash ma ọ bụ node ọ bụla dị ugbu a esorola iwu ndị a.
 
-## Nwalee nghọta gị .
+## Nwale nghọta gị
 
-Overwinter agbakwunyeghị atụmatụ ọta ọhụrụ. Ya mere, gịnị kpatara eji ewere ya dịka otu n'ime nkwalite kachasị mkpa na akụkọ ihe mere eme nke Zcash?
+Overwinter etinyeghị atụmatụ ọhụrụ ọ bụla nke e chebere echebe. Ya mere, gịnị mere e ji ewere ya dịka otu n'ime upgrades kacha mkpa n'akụkọ ihe mere eme Zcash?
 
 <details>
-<summary>Answer</summary>
+<summary>Azịza</summary>
 
-Because it built the machinery that every later upgrade depends on. Overwinter introduced the Network Upgrade Mechanism and two-way replay protection, giving Zcash a standard, safe way to change its consensus rules. Without that groundwork, Sapling and the upgrades after it could not have activated cleanly.
+N'ihi na ọ wuru ngwaọrụ upgrade ọ bụla sochirinụ dabere na ya. Overwinter webatara Usoro Network Upgrade na nchedo mmegharị ugboro abụọ n'akụkụ abụọ, na-enye Zcash ụzọ ọkọlọtọ, dị nchebe isi gbanwee iwu consensus ya. Enweghị ntọala ahụ, Sapling na upgrades ndị sochirinụ agaraghị enwe ike ịmalite nke ọma.
 </details>
 
-### Akụnụba
+### Akụrụngwa
 
-[ZIP 200: Usoro Nwelite Network](https://zips.z.cash/zip-0200)
+[ZIP 200: Usoro Network Upgrade](https://zips.z.cash/zip-0200)
 
-[ZIP 201: Njikwa Network Peer maka Overwinter](https://zips.z.cash/zip-0201)
+[ZIP 201: Nlekọta ndị otu Network maka Overwinter](https://zips.z.cash/zip-0201)
 
-[ZIP 202: Ụdị Nhazi 3 maka Overwinter](https://zips.z.cash/zip-0202)
+[ZIP 202: Usoro Azụmahia Ụdị 3 maka Overwinter](https://zips.z.cash/zip-0202)
 
-[ZIP 203: Mmebi nke azụmahịa ahụ.](https://zips.z.cash/zip-0203)
+[ZIP 203: Mmebi oge Azụmahia](https://zips.z.cash/zip-0203)
 
-[ZIP 143: Nkwado nkwenye nke azụmahịa maka Overwinter](https://zips.z.cash/zip-0143)
+[ZIP 143: Nkwado Signature Azụmahia maka Overwinter](https://zips.z.cash/zip-0143)
 
-[Mmelite netwọkụ Overwinter](https://z.cash/upgrade/overwinter/)
+[Overwinter Network Upgrade](https://z.cash/upgrade/overwinter/)
 
-### Lee kwa nke a.
+### Hụkwa
 
-[Nwelite netwọk Zcash](../start-here/network-upgrades)
+[Zcash Network Upgrades](../start-here/network-upgrades)
 
-[Ọdọ Mmiri Ndị E Chebere Echiche Ha Na Ya](../using-zcash/shielded-pools)
+[Pools nke e chebere echebe](../using-zcash/shielded-pools)
 
-[Nọmba zuru ezu](../zcash-tech/full-nodes)
+[Full Nodes](../zcash-tech/full-nodes)
 
 [NU6.1](../zcash-tech/nu6-1)
 
 [Electric Coin Company](../zcash-organizations/electric-coin-company)
 
-[Gịnị bụ ZEC na Zcash?](../start-here/what-is-zec-and-zcash)
+[Gịnị bụ ZEC na Zcash](../start-here/what-is-zec-and-zcash)
 
 ---
 
-Usoro: [Nhazi nke netwọkụ na-emelite.](../start-here/network-upgrades) · Nke gara aga: [Sprout](../zcash-tech/sprout) · Nke ọzọ: [Sapling](../zcash-tech/sapling)
+Usoro: [Ndekọ Network Upgrades](../start-here/network-upgrades) · Nke gara aga: [Sprout](../zcash-tech/sprout) · Nke na-esote: [Sapling](../zcash-tech/sapling)

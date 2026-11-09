@@ -1,120 +1,118 @@
-# <img src="/content-images/icons8-lock-2f8e221321.svg" width="24" height="24" alt="lock icon"/> Sign in with Zcash
+# <img src="/content-images/icons8-lock-2f8e221321.svg" width="24" height="24" alt="lock icon"/> Jiri Zcash banye
 
-<span className="inline-flex items-center gap-[6px]"><span className="inline-block w-[12px] h-[12px] bg-green-500 rounded-full"></span>Intermediate - 7 min</span>
+<span className="inline-flex items-center gap-[6px]"><span className="inline-block w-[12px] h-[12px] bg-green-500 rounded-full"></span>Ọkwa etiti - nkeji 7</span>
 
-## TL;DR
+## Na nkenke
 
-- Banye site n'igosi na ị chịkwaa adreesị Zcash, kama iji paswọọdụ
-- Ejiri atụmatụ abụọ: **ịbịanye aka na ihe ịma aka**, ma ọ bụ **iziga ụgwọ echekwara ya na koodu dị n'ime memo**
-- Ebe ọ bụ na adreesị ndị e chebere ekpuchiwo nguzozi gị nakwa akụkọ ihe mere eme, igosi njikwa adịghị egosipụta ego i nwere n'ụlọ akụ̀.
-- Ọdịnaya ahụ dị n'oge. Enweghi ụkpụrụ akwadoro ma mmejuputa ya anaghị arụ ọrụ ọnụ na usoro ndị ọzọ nke ụlọ ọrụ, ọ bụ ezie na e nwere ọtụtụ ihe gbasara ha iji mee ka a mara ọkwa zuru oke maka ngwa ahịa ọhụrụ.
-
-<br/>
-
-## <img src="/content-images/user-svgrepo-com-21adf62b7c.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="user icon"/> Who is this for?
-
-- Ndị mmepe chọrọ nbanye na-enweghị paswọọdụ ma ghara ịnakọta data nkeonwe
-- Ndị ọrụ na-ahọrọ ịghara inye adreesị ozi-e ha n'ebe ọ bụla.
-- Onye ọ bụla chọrọ ịbanye n'ejighị akụkọ ego ha jikọta na akaụntụ.
+- Banye site n'igosi na ị na-achịkwa Adreesị akpa ego [address] nke Zcash, kama iji okwuntughe
+- A na-eji atụmatụ abụọ: **ịbanye signature n'ihe ịma aka**, ma ọ bụ **iziga Kwụọ ụhwọ [payment] nke e chebere echebe [shielded] nwere koodu n'ime memo**
+- N'ihi na Adreesị akpa ego nke e chebere echebe na-ezo ego fọdụrụ na akụkọ Azụmahia [transaction], igosi na ị na-achịkwa ya anaghị ekpughe ego gị
+- Usoro a ka dị n'oge mbụ. Enweghị ọkọlọtọ akwadoro nke ọma, mmejuputa ya anaghị arụkọ ọrụ ọnụ
 
 <br/>
 
-## <img src="/content-images/warning-error-svgrepo-com-b7ea8a50da.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="warning icon"/> The Problem
+## <img src="/content-images/user-svgrepo-com-21adf62b7c.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="user icon"/> Ònye ka nke a bụ maka?
 
-Ọtụtụ nhọrọ nbanye na-agbapụta ihe:
-
-- ** Okwuntughe na email** mepụta akaụntụ jikọtara gị na njirimara, ha abụọ ga-ejedebe n'ime mmebi iwu.
-- **Social sign-in** na agwa onye ọrụ njirimara ebe ọbụla ị banyere nakwa mgbe.
-- ** Nbanye n'ime obere akpa ego na agbụ ndị doro anya** dị njọ karịa ka ọ dị. Ijikọ obere akpa nwere ike inye saịtị ahụ niile ịkwụ ụgwọ gị na akụkọ azụmahịa, ruo mgbe ebighị ebi
-
-Ị na-ahọrọkarị n'etiti ịdị mfe nke okwu ahụ na ikpughe ihe.
+- Ndị onye mmepụta [developer] chọrọ nbanye na-enweghị okwuntughe n'enweghị ịnakọta data onwe onye
+- Ndị ọrụ na-achọghị inye saịtị ọ bụla Adreesị ozi-e ha
+- Onye ọ bụla chọrọ ịbanye n'enweghị ijikọ akụkọ ego ya na akaụntụ
 
 <br/>
 
-## <img src="/content-images/celebration-spark-svgrepo-com-bc98dec7c1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="spark icon"/> Why Zcash?
+## <img src="/content-images/warning-error-svgrepo-com-b7ea8a50da.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="warning icon"/> Nsogbu ahụ
 
-Zcash na-ekewapụ *igosi njikwa* site n'ịgbapụta ego:
+Ọtụtụ nhọrọ nbanye na-ekpughe ihe:
 
-- Adreesị echekwara na-edebe nguzozi na akụkọ azụmahịa nzuzo, yabụ igosi gị otu anaghị ekwu ihe ọ bụla gbasara ihe ị nwere
-- **Memo ndị ezoro ezo** nwere ike iburu koodu nbanye otu oge na nzuzo n'ime azụmahịa ahụ
-- ** Igodo igosi** na-enye ohere maka ikpughe nhọrọ, yabụ enwere ike inye ngwa ahụ ihe ọ chọrọ ma ọ bụghị karịa.
+- **Okwuntughe na ozi-e** na-emepụta akaụntụ ejikọtara na njirimara gị, ha abụọ na-adịkwa n'ogbe data emebiela
+- **Nbanye site na mgbasa ozi mmekọrịta** na-agwa onye na-enye njirimara ebe ọ bụla ị na-abanye na mgbe ị na-abanye
+- **Nbanye e-akpa ego [wallet] na chain Oha [transparent]** ka njọ karịa ka ọ dị. Ijikọ e-akpa ego nwere ike inye saịtị ahụ ego gị niile fọdụrụ na akụkọ Azụmahia, ruo mgbe ebighị ebi
 
-<br/>
-
-## <img src="/content-images/ladder-svgrepo-com-7232bf46ed.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="step icon"/> How It Works
-
-Ụzọ abụọ apụtala. Ha niile na-ejedebe site n'ime ka ngwa ahụ nwee njirimara siri ike maka gị ma enweghị paswọọdụ.
-
-### Ụzọ nke 1: Binye aka na ihe ịma aka ahụ .
-
-1. Ngwa ahụ na-emepụta ihe ịma aka, otu oge eji eme ihe.
-2. Ihe akaebe akpa ego gị nke na-agbagha igodo dị n'azụ adreesị gị.
-3. Ngwa ahụ na-enyocha mbinye aka ma banye gị n'ime ya.
-
-Ọ dịghị ihe a na-agbasa, ya mere enweghị ụgwọ ma ọ bụ ichere maka ngọngọ. Ihe nkọwa dị mkpa bụ: [ZIP 304, Adreesị Sapling Mbinye aka](https://zips.z.cash/zip-0304), nke ka bụ ihe e dere ede, ya mere nkwado obere akpa maka ịbịanye aka na ozi dịgasị iche.
-
-### Ụzọ nke abụọ: Gosi ya site na ịkwụ ụgwọ echekwara.
-
-1. Ngwa ahụ na-emepụta koodu otu oge ma gosipụta arịrịọ ịkwụ ụgwọ.
-2. Ị na-eziga obere azụmahịa echekwara ya site n'iji koodu ahụ dị n'akwụkwọ ozi a.
-3. Ngwa ahụ na-ele anya maka ihe ncheta, kwekọrọ koodu ya ma banye gị n'ime kọmputa.
-
-This works with wallets that already support memos today, which is most of them. The tradeoff is that it costs a network fee and you wait for confirmation.
-
-### Idebe adreesị ahụ na nzuzo
-
-Ngwa anaghị echekwa adreesị gị iji mata gị. Ụfọdụ mmejuputa iwu na-ejikọta ya ọnụ yana uru ngwa ahụ, nke mere saịtị ọ bụla ga -ahụ ihe dị iche, njirimara kwụsiri ike maka otu onye ọrụ. Nke a gbochiri saịtị site n'iji atụnyere ndetu jikọọ akaụntụ gị.
+Ọtụtụ mgbe, ị na-ahọrọ n'etiti ịdị mfe na ikpughe ozi.
 
 <br/>
 
-## <img src="/content-images/icons8-toolbox-9bebbb1619.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> Trade-offs
+## <img src="/content-images/celebration-spark-svgrepo-com-bc98dec7c1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="spark icon"/> Gịnị mere Zcash?
 
-Ọ dị mkpa ka ị ghọta ya tupu i jiri ya mee ihe ma ọ bụ tụkwasị ya obi.
+Zcash na-ekewa *igosi nchịkwa* na *ikpughe ego*:
 
-| | Ihe ịma aka ebinyere aka | Ịkwụ ụgwọ echebere |
+- **Adreesị akpa ego nke e chebere echebe** na-edobe ego fọdụrụ na akụkọ Azụmahia na nzuzo [privacy], ya mere igosi na ị nwere otu anaghị ekwu ihe ọ bụla gbasara ihe ị nwere
+- **memo ndị ezoro ezo** nwere ike iburu koodu nbanye otu-oge na nzuzo n'ime Azụmahia
+- **viewing key** na-enye Mpughe ahọpụtara [selective disclosure], ya mere enwere ike inye ngwa ohere ịgụ naanị ihe ọ chọrọ, ọ nweghịkwa ihe ọzọ
+
+<br/>
+
+## <img src="/content-images/ladder-svgrepo-com-7232bf46ed.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="step icon"/> Otu O Si Arụ Ọrụ
+
+Ụzọ abụọ apụtala. Ha abụọ na-ejedebe n'ịnye ngwa ahụ njirimara kwụsiri ike maka gị na enweghị okwuntughe.
+
+### Ụzọ 1: Banye signature n'ihe ịma aka
+
+1. Ngwa ahụ na-emepụta ihe ịma aka enweghị usoro, nke a ga-eji naanị otu ugboro
+2. E-akpa ego gị na-eji igodo dị n'azụ Adreesị akpa ego gị abanye signature n'ihe ịma aka ahụ
+3. Ngwa ahụ na-enyocha signature ahụ ma banye gị
+
+Ọ dịghị ihe a na-agbasa, ya mere enweghị ugwo [fee] ma ọ bụ ichere block. Nkọwapụta dị mkpa bụ [ZIP 304, Sapling Address Signatures](https://zips.z.cash/zip-0304), nke ka bụ draft, ya mere nkwado e-akpa ego maka ịbanye signature ozi dịgasị iche.
+
+### Ụzọ 2: Jiri Kwụọ ụhwọ nke e chebere echebe gosi ya
+
+1. Ngwa ahụ na-emepụta koodu otu-oge ma gosi arịrịọ Kwụọ ụhwọ
+2. Ị na-eziga obere Azụmahia nke e chebere echebe nwere koodu ahụ n'ime memo
+3. Ngwa ahụ na-ele memo ahụ anya, kwekọọ koodu ahụ, ma banye gị
+
+Nke a na-arụ ọrụ na e-akpa ego ndị na-akwado memo ugbu a, nke bụ ọtụtụ n'ime ha. Ihe a ga-atụnyere ya bụ na ọ na-efu ugwo netwọkụ, ị ga-echerekwa nkwenye.
+
+### Idebe Adreesị akpa ego na nzuzo
+
+Ngwa adịghị mkpa ịchekwa Adreesị akpa ego gị iji mata gị. Ụfọdụ mmejuputa na-ejikọta ya na hash na uru kpọmkwem maka ngwa, nke mere saịtị ọ bụla ji ahụ njirimara dị iche ma kwụsiri ike maka otu onye ọrụ ahụ. Nke a na-egbochi saịtị iji tụnyere ihe ha maara iji jikọọ akaụntụ gị.
+
+<br/>
+
+## <img src="/content-images/icons8-toolbox-9bebbb1619.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> Ihe A Ga-atụnyere
+
+Ọ bara uru ịghọta tupu ị wuo ihe n'elu ya ma ọ bụ dabere na ya.
+
+| | Ihe ịma aka e tinyere signature | Kwụọ ụhwọ nke e chebere echebe |
 |---|---|---|
-| Ọnụ ego | N'efu | Ụgwọ netwọkụ kwa nbanye |
-| Ọsọ | Ozugbo | Na-eche nkwenye |
-| Nkwado obere akpa | N'ụzọ dị oke mma, ZIP 304 bụ ihe e dere ede | Obosara, naanị ihe achọrọ bụ ndetu |
-| Na-ahapụ ndekọ agbụ ígwè | No | Ee, azụmahịa dị |
+| Ọnụ ahịa | N'efu | Ugwo netwọkụ maka nbanye ọ bụla |
+| Ọsọ | Ozugbo | Na-echere nkwenye |
+| Nkwado e-akpa ego | Pere mpe, ZIP 304 bụ draft | Sara mbara, naanị memo ka ọ chọrọ |
+| Na-ahapụ ndekọ na chain | Ee e | Ee, Azụmahia dị |
 
-Ihe ndị a na-ejikọ ọnụ:
+Oke ndị ha na-ekekọrịta:
 
-- ** Enweghị mgbake akaụntụ site na ndabara.** Ịhapụ igodo pụtara ịlafu akaụntụ ahụ, ọ gwụla ma ngwa ahụ emepụta ụzọ nkwụghachi azụ.
-- **Ojiji adreesị nwere ike ijikọ gị.** Iji otu adres ahụ gafee ọtụtụ saịtị na-eme ka nsogbu nsuso, nke mere ihe njirimara ngwa pụrụ iche ji dị mkpa.
-- ** Ọ dịghị ọkọlọtọ a kwadoro.** Ọrụ ọ bụla nwere atụmatụ nke ya, n'ihi ya ịbanye maka otu anaghị arụ ọrụ na onye ọzọ.
-- ** Ọ bụghị amaghị aha ya n'onwe ya.** O na-ezobe ego gị site na ngwa ahụ, mana ngwa ahụ ka nwere ike ịkọwa ihe ị na-eme ozugbo i batara.
-
-<br/>
-
-## <img src="/content-images/icons8-cancel-7f786be3c1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="cancel icon"/> Common Mistakes to Avoid
-
-- Ịghaghachi koodu ịma aka. Koodu ọ bụla kwesịrị ịbụ otu eji eme ihe ma mebie ngwa ngwa, maọbụ enwere ike weghachite ya ọzọ
-- Ịjụ ndị ọrụ ka ha zipụ ego bara uru iji banye. Ụgwọ ahụ bụ ihe akaebe, ya mere ọnụego kwesịrị ịbụ obere
-- Ichekwa adreesị ahụ mgbe onye njirimara ngwa-ngwa ga-arụ otu ọrụ ahụ
-- Na-eche na ozi mbinye aka ga arụ ọrụ ebe niile. Lelee obere akpa ndị ọrụ gị nwere n'ezie
-- Iwere ihe ncheta dị ka nzuzo mgbe emechara ya. Ọ na-egosi onye zitere ya mere, ọ bụghị paswọọdụ
+- **Enweghị mgbake akaụntụ na ndabara.** Ịtụfu igodo pụtara ịtụfu akaụntụ, ma e wezụga ma ngwa ahụ hazie ụzọ mgbake
+- **Iji Adreesị akpa ego ọzọ nwere ike ijikọ gị.** Iji otu Adreesị akpa ego gafee ọtụtụ saịtị na-emepụta nsogbu nsuso ọzọ, nke mere njirimara kpọmkwem maka ngwa ji dị mkpa
+- **Enweghị ọkọlọtọ akwadoro.** Ọrụ ọ bụla nwere atụmatụ nke ya, ya mere nbanye e wuru maka otu anaghị arụ ọrụ na nke ọzọ
+- **Ọ bụghị enweghị njirimara n'onwe ya.** Ọ na-ezoro ngwa ahụ ego gị, mana ngwa ahụ ka nwere ike ịmepụta profaịlụ nke ihe ị na-eme ozugbo ị batara
 
 <br/>
 
-## <img src="/content-images/checked-checkbox-svgrepo-com-7ea19022da.svg" width="28" height="28" className="inline-block align-middle mr-1 p-[2px]" alt="done icon"/> Projects Exploring This
+## <img src="/content-images/icons8-cancel-7f786be3c1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="cancel icon"/> Mmejọ A Na-ahụkarị A Ga-ezere
 
-E wuru ndị a maka **Zcash Nbanye** track nke [ZecHub Hackathon 3.0](https://zechub.wiki/hackathon)Ha bụ nnwale karịa ngwaahịa ndị emechara, ha na-egosikwa etu esi arụ otu echiche n'ụzọ dị iche.
-
-- **ZecAuth** - a obere akpa njikọ protocol maka Zcash, na mmụọ nke ihe WalletConnect eme n'ebe ndị ọzọ. Ngwa ahụ gosipụtara koodu QR ma ọ bụ ozi ederede site na ngwa ahụ iji mee ka onye ọrụ nwee ike ijikọ ya na akaụntụ ha. `zecauth://` njikọ na-ebu ihe ịma aka gbakwunyere ikike ọ na - arịọ, dị ka ịbanye n'ime ya, ịrịọ maka ịkwụ ụgwọ ma ọ bụ ịnweta ilele. Enweghị azụmahịa, enweghị ego, enweghi mmekọrịta agbụ. Ọ na - ebute nkọwapụta usoro ederede edepụtara yana koodu ahụ
-- **ZShield** - turns a shielded address into a W3C DID and an OpenID Connect identity. The browser generates a keypair, the server issues a nonce over a ZIP 304 style interface, the wallet signs it, and the server returns a JWT. Because the result is OIDC compatible, existing apps can consume it without bespoke integration
-- **ZecPass** - proves ownership through a signed memo, and is built so the app never learns the user's address at all. It derives an application scoped hash to use as a stable identifier, keeps challenges single use and time bound, and ships a drop in React button with a Node verification library
-- **Portal** - login by sending a shielded transaction with a one time code in the memo, running on mainnet. The same flow is reused to unlock paid content and to send or receive money from a link
-- **ZcashMe** - na-eji ụgwọ echekwara dịka ihe akaebe nke njirimara, ma lekwasị anya na desktọọpụ gaa na ọdịiche mkpanaka ka ịbanye n'ime laptọọpụ anaghị achọ mgbatị nchọgharị.
-- **ZBooks** - an accounting and payouts tool that treats sign in with Zcash as a reusable auth primitive rather than the product itself, and reads treasury data through a Unified Full Viewing Key
+- Ijigharị koodu ihe ịma aka. Koodu ọ bụla kwesịrị ịbụ nke eji naanị otu ugboro ma kubie ume ngwa ngwa, ma ọ bụghị ya, enwere ike iji nke e jidere mee ya ọzọ
+- Ịrịọ ndị ọrụ iziga ego bara uru iji banye. Kwụọ ụhwọ ahụ bụ proof, ya mere ego ya kwesịrị ịdị ntakịrị
+- Ịchekwa Adreesị akpa ego raw mgbe njirimara kpọmkwem maka ngwa ga-arụ otu ọrụ ahụ
+- Iche na ịbanye signature ozi na-arụ ọrụ ebe niile. Lelee e-akpa ego ndị ọrụ gị nwere n'ezie
+- Iwere memo dịka ihe nzuzo mgbe emechara. Ọ na-egosi na onye zitere ya mere ihe, ọ bụghị okwuntughe
 
 <br/>
 
-## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="chain-links icon"/> Related pages
+## <img src="/content-images/checked-checkbox-svgrepo-com-7ea19022da.svg" width="28" height="28" className="inline-block align-middle mr-1 p-[2px]" alt="done icon"/> Ọrụ Ndị Na-enyocha Nke A
 
-- [Ihe ncheta](/using-zcash/memos) - otú akwụkwọ ozi ezoro ezo si arụ ọrụ, na otu koodu nbanye ga-esi agagharị n'ime ya.
-- [Igodo Nlele](/zcash-tech/viewing-keys) - inye ohere ịgụ naanị na-enweghị ịnyefe ikike mmefu ego.
-- [Idebe Ihe ndekọ na ZEC echekwara](/zcash-use-cases/keeping-records-with-shielded-zec) - otu echiche nke nhọrọ ngosi, etinyere na ndekọ ego.
-- [Ziga Ego n'Ejighị Ihe Ndị Na-egosi na Ị Bụ Onye A Chọpụtara Achọpụta](/zcash-use-cases/send-money-without-linking-identity) - ihe mere iji adreesị eme ihe ọzọ ji emetụta nzuzo
+E wuru ndị a maka usoro **Zcash Login** nke [ZecHub Hackathon 3.0](https://zechub.wiki/hackathon). Ha bụ nnwale karịa ngwaahịa emechara, ha na-egosikwa otú e nwere ike isi wuo otu echiche ahụ n'ụzọ dị iche iche.
+
+- **ZecAuth** - protocol njikọ e-akpa ego maka Zcash, n'ụdị ihe WalletConnect na-eme ebe ọzọ. Ngwa ahụ na-egosi koodu QR ma ọ bụ njikọ `zecauth://` nke nwere ihe ịma aka na ikike ọ na-arịọ, dịka ịbanye, arịrịọ Kwụọ ụhwọ, ma ọ bụ ohere viewing. Enweghị Azụmahia, enweghị ugwo, enweghị mmekorita na chain. Ọ na-ewepụta nkọwapụta protocol e dere ede n'akụkụ koodu ahụ
+- **ZShield** - na-atụgharị Adreesị akpa ego nke e chebere echebe ka ọ bụrụ W3C DID na njirimara OpenID Connect. Ihe nchọgharị na-emepụta keypair, sava ahụ na-enye nonce site na interface ụdị ZIP 304, e-akpa ego na-etinye ya signature, sava ahụ eweghachite JWT. N'ihi na nsonaazụ ahụ kwekọrọ na OIDC, ngwa ndị dị ugbu a nwere ike iji ya n'enweghị njikọta pụrụ iche
+- **ZecPass** - na-egosi nwe site na memo e tinyere signature, e wurukwa ya ka ngwa ahụ ghara ịmụta Adreesị akpa ego onye ọrụ ma ọlị. Ọ na-esite na hash e kpọmkwem maka ngwa nweta njirimara kwụsiri ike, na-edobe ihe ịma aka ka eji otu ugboro ma nwee oke oge, ma na-ewepụta bọtịnụ React a pụrụ itinye ozugbo yana ọbá akwụkwọ nyocha Node
+- **Portal** - nbanye site n'iziga Azụmahia nke e chebere echebe nwere koodu otu-oge n'ime memo, na-agba na mainnet. A na-ejikwa otu usoro ahụ meghee ọdịnaya akwụ ụgwọ na iziga ma ọ bụ ịnata ego site na njikọ
+- **ZcashMe** - na-eji Kwụọ ụhwọ nke e chebere echebe dịka proof njirimara, ma lekwasị anya na oghere dị n'etiti desktop na mobile ka ịbanye na laptop ghara ịchọ browser extension
+- **ZBooks** - ngwá ọrụ [tools] ịza ajụjụ ego na ịkwụ ụgwọ nke na-ewere nbanye na Zcash dịka ihe enyemaka auth a pụrụ iji ọzọ karịa ngwaahịa n'onwe ya, ma na-agụ data Ebe nchekwa ego [treasury] site na Unified Full Viewing Key
 
 <br/>
+
+## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="chain-links icon"/> Peeji metụtara
+
+- [Memo](/using-zcash/memos) - otu memo ezoro ezo si arụ ọrụ, na otu koodu nbanye si aga n'ime otu
+- [Viewing Keys](/zcash-tech/viewing-keys) - inye ohere ịgụ naanị n'enweghị inyefe ikike imefu
+- [Idebe Ndekọ Site na ZEC Nke E Chebere Echebe](/zcash-use-cases/keeping-records-with-shielded-zec) - otu echiche Mpughe ahọpụtara ahụ, etinyere ya n'ọrụ ịza ajụjụ ego
+- [Zipu Ego N'enweghị Ijikọ Njirimara](/zcash-use-cases/send-money-without-linking-identity) - ihe mere ijigharị Adreesị akpa ego ji emebi Nzuzo

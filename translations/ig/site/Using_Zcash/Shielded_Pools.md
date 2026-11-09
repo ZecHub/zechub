@@ -1,188 +1,188 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Using_Zcash/Shielded_Pools.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Dezie Ibe"/>
 </a>
 
-# Zcash Value Pools (Nkwụnye ego nke uru) 
+# Zcash Pool Uru [Value Pools] 
 
-## TL;DR
+## Na Nkenke
 
-- Zcash nwere ugbu a ** 5 uru ọdọ mmiri**: Sprout (ihe nketa), Sapling, Orchard (na-emefu naanị), Ironwood na Transparent.
-- **Ironwood** bụ ọdọ mmiri a na-echebe ugbu a, dị ndụ kemgbe nkwalite NU6.3 na 28 Julaị 2026.
-- **Orchard** bụzi naanị ihe a na-emefu ego: enweghị uru ọhụrụ nwere ike ịbanye ya, ma ego ndị dị adị gafere n'ime Ironwood.
-- ** Sapling** (z-adreesị na-amalite site na `zs`) na-anọgide n'ọtụtụ ebe ma nọgide na-enweta nnukwu ego ZEC echekwara.
-- Adreesị ** Transparent** (t...) anaghị enye nzuzo azụmahịa ma rụọ ọrụ yiri Bitcoin.
-- **Sprout** bụ ọdọ mmiri ochie nke e wepụrụ n'ọrụ.
-- Mpaghara Orchard na Ironwood nọ n'ọrụ ma a na-enyocha ya n'ihu ọha site na turnstile.
-- Maka nkwa nzuzo kachasị ike, ndị ọrụ kwesịrị ịnọgide na-ahọrọ **shielded to shielded (z → z)** azụmahịa mgbe ọ bụla o kwere omume.
+- Zcash nwere ugbu a **pool uru 5**: Sprout (ochie), Sapling, Orchard (naanị maka imefu), Ironwood, na Oha.
+- **Ironwood** bụ pool nke e chebere echebe bụ isi ugbu a, nke dị ndụ kemgbe network upgrade NU6.3 na 28 Julaị 2026.
+- **Orchard** bụ ugbu a **naanị maka imefu**: uru ọhụrụ enweghị ike ịbanye na ya, ego dị adị na-akwaga na Ironwood.
+- **Sapling** (z-adreesị ndị ji `zs` amalite) ka ọtụtụ ndị na-akwado, ma na-aga n'ihu ichebe nnukwu ọnụọgụ ZEC nke e chebere echebe.
+- Adreesị Oha (t...) anaghị enye Nzuzo Azụmahia ọ bụla, ha na-arụkwa ọrụ dịka Bitcoin.
+- **Sprout** bụ pool nke e chebere echebe ochie, ewepụlarị ya n'ọrụ na-arụsi ọrụ ike.
+- Nkwaga sitere na Orchard ruo Ironwood **na-aga n'ihu**, a na-enyochakwa ya n'ihu ọha site na turnstile.
+- Maka nkwa Nzuzo kacha sie ike, ndị ọrụ kwesịrị ịnọgide na-ahọrọ Azụmahia **nke e chebere echebe gaa na nke e chebere echebe (z → z)** mgbe ọ bụla o kwere omume.
 
 
 <br/>
 
-## Ịghọta Zcash Value Pools
+## Ịghọta Pool Uru Zcash
 
-Zcash separates funds into distinct accounting systems known as value pools. Each pool has its own cryptographic rules and privacy properties, while the protocol tracks the total value moving between them.
+Zcash na-ekewa ego n'ime usoro ndekọ ego dị iche iche a maara dị ka pool uru. Pool nke ọ bụla nwere iwu cryptographic na àgwà Nzuzo nke ya, ebe protocol na-enyocha uru ngụkọta na-agafe n'etiti ha.
 
-Taa, netwọk nwere ise isi uru ọdọ mmiri:
+Taa, network ahụ nwere pool uru isi ise:
 
-- O doro anya  Ọha na-ahụ maka ọha na eze ma hụ ya n'ụzọ zuru ezu.
-- Sapling  Ebe a na-egwu mmiri nke oge gboo, ka dị.
-- Orchard  Ebe a na-egwu mmiri nke mbụ, ugbu a ọ bụ naanị maka ndị mmadụ.
-- Ironwood  Ebe a na-emechi mmiri nke mbụ, ewebata ya site NU6.3.
-- Sprout  Ebe nchekwa echedoro mbụ malitere na Zcash n'afọ 2016.
+- Oha — Nke ọha na eze ma na-ahụ ya kpamkpam on-chain.
+- Sapling — Pool nke e chebere echebe nke oge a mbụ ọtụtụ ndị nakweere, nke ka na-arụ ọrụ.
+- Orchard — Pool nke e chebere echebe bụ isi gara aga, nke bụ ugbu a naanị maka imefu.
+- Ironwood — Pool nke e chebere echebe bụ isi ugbu a, nke NU6.3 webatara.
+- Sprout — Pool nke e chebere echebe mbụ e malitere na Zcash n'afọ 2016.
   
 
 
-Ka Zcash na-agbanwe, enwere ike iwebata ọdọ mmiri ọhụrụ echedoro iji melite nchekwa, nzuzo, ojiji, yana nyocha ma na-ejigide ndakọrịta ya na ego ndị dị ugbu a.
+Ka Zcash na-etolite, a pụrụ iwebata pool ọhụrụ nke e chebere echebe iji meziwanye nchekwa, Nzuzo, ịdị mfe iji, na ikike nyocha, ma na-edobe ndakọrịta na ego dị adị.
 
 <br/>
 
 ![img1](/content-images/4ba8cca2-cea5-42d2-8ec2-2122b26f5144-9db37e245e.webp)
-Fig 1: Ihe osise na-egosi ọdọ mmiri atọ a na-echebe (Sprout, Sapling na Orchard) ruo 29 Ọktọba, 2025, tupu Ironwood amalite ọrụ
+Ọnụ ọgụgụ 1: Chaatị na-egosi pool atọ nke e chebere echebe (Sprout, Sapling na Orchard) ruo 29 Ọktoba 2025, tupu Ironwood arụ ọrụ
 
 <br/>
 
-## Ọdọ Mmiri Ndị E Chebere n'Ime Oké Osimiri 
+## Pool Ndị E Chebere Echebe 
 
 
-1. <h3 id="ironwood" class="text-3xl font-bold my-4">Ironwood Pool</h3>
+1. <h3 id="ironwood" class="text-3xl font-bold my-4">Pool Ironwood</h3>
 
-Ironwood bụ ọdọ mmiri nke a na-echebe ugbu a. Ọ malitere ọrụ n'ụbọchị 28 Julaị 2026 na ngọngọ 3,428,143 dịka akụkụ nke nkwalite netwọk NU6.3, ọ bụkwa ebe uru ọhụrụ echedoro dị ndụ ugbu a .
+Ironwood bụ pool nke e chebere echebe bụ isi ugbu a. Ọ malitere ịrụ ọrụ na 28 Julaị 2026 na block 3,428,143 dị ka akụkụ nke network upgrade NU6.3, ọ bụkwa ebe uru ọhụrụ e chebere echebe bi ugbu a.
 
-It exists because a vulnerability was found in Orchard's proving system in May 2026. There is no evidence it was ever exploited, but the flaw meant the shielded supply could not be proven sound by the proofs alone. Rather than patch in place, the network created a fresh pool with a corrected circuit and moved value across a turnstile that counts every coin in public. That accounting is what restores the guarantee that the shielded supply is fully backed.
+Ọ dị n'ihi na achọpụtara adịghị ike n'usoro proving nke Orchard na Mee 2026. Enweghị akaebe na e jirila ya mee ihe, mana ntụpọ ahụ pụtara na enweghị ike igosi na ọkọnọ nke e chebere echebe ziri ezi site na proofs naanị. Kama idozi ya n'ebe ọ dị, network ahụ kere pool ọhụrụ nwere circuit edoziri wee bugharịa uru gafee turnstile nke na-agụta mkpụrụ ego ọ bụla n'ihu ọha. Ndekọ ego ahụ bụ ihe na-eweghachi nkwa na ọkọnọ nke e chebere echebe nwere nkwado zuru ezu.
 
-Ironwood na-eji ihe ngosi nke Orchard's Action ma gosipụta Halo 2, ya mere ọ na-akpa otu ụzọ ahụ kwa ụbọchị. Ihe abụọ dị ọhụrụ: azụmahịa jiri usoro v6, yana akwụkwọ ego Ironwood bụ ** quantum recoverable ** n'okpuru [ZIP 2005 Ihe ndị dị na peeji nke 3](https://zips.z.cash/zip-2005), nke pụtara na ihe ndekọ ego dị n'elu-agbụ ga-adịgide ma ọ bụrụ na kọmputa kọmpụta ọdịnihu mebie cryptography taa. Nke ahụ bụ ụzọ mgbake, ọ bụghị nguzogide quantum, ọ naghị emetụta ọdọ mmiri ndị okenye.
+Ironwood na-ejikwa ọzọ ụdị Action nke Orchard na proofs Halo 2, ya mere ọ na-arụ ọrụ n'otu ụzọ ahụ kwa ụbọchị. Ihe abụọ dị ọhụrụ: Azụmahia na-eji usoro v6, na note Ironwood bụ **nke enwere ike iweghachite n'oge quantum** n'okpuru [ZIP 2005](https://zips.z.cash/zip-2005), nke pụtara na ndekọ on-chain nke mkpụrụ ego ka ga-enwe ike iweghachite ma ọ bụrụ na kọmputa quantum n'ọdịnihu agbaji cryptography nke taa. Nke a bụ ụzọ mgbake, ọ bụghị mgbochi quantum, ọ naghịkwa emetụta pool ndị ochie.
 
-Ị chọghị adreesị ọhụrụ. Adreesị ndị a na-ejikọta ọnụ bụ ọtụtụ ihe nnata, obere akpa ego ahụ ga-ahọrọkwa ebe kwesịrị ekwesị maka gị.
+Ị chọghị Adreesị akpa ego ọhụrụ. Adreesị jikọtara ọnụ na-achịkọta ọtụtụ receivers, e-akpa ego na-ahọpụtara gị pool ziri ezi.
 
 ____
 
-2. <h3 id="orchard" class="text-3xl font-bold my-4">Orchard Pool</h3>
+2. <h3 id="orchard" class="text-3xl font-bold my-4">Pool Orchard</h3>
 
 
 ![img2](/content-images/a672e001-6dbc-4e76-ab31-0ed7d7d2ff72-93b5a23e5d.webp)
-Fig 2: Ihe osise na-egosi ọdọ mmiri Orchard ruo 29 Ọktọba, 2025, tupu Ironwood amalite ọrụ
+Ọnụ ọgụgụ 2: Chaatị na-egosi pool Orchard ruo 29 Ọktoba 2025, tupu Ironwood arụ ọrụ
 
 <br/>
 
-E mepere Orchard Shielded Pool na Mee 31, 2022 dịka akụkụ nke nkwalite netwọk NU5. Orchard webatara usoro ọhụụ ọhụrụ echekwara nke kpochapụrụ mkpa maka ntọala a tụkwasịrị obi wee bụrụ ọdọ mmiri mbụ echebe eji Unified Addresses (UA).
+E mere ka Pool E Chebere Echebe Orchard rụọ ọrụ na Mee 31, 2022 dị ka akụkụ nke network upgrade NU5. Orchard webatara protocol ọhụrụ e chebere echebe nke wepụrụ mkpa trusted setup ma ghọọ pool e chebere echebe bụ isi Adreesị Jikọtara Ọnụ (UA) na-eji.
 
-Orchard emeela ka o nwekwuo ike, arụmọrụ na nzuzo site n'ibelata mgbapụta metadata azụmahịa ma webata usoro mgbanwe nke dabere na Omume kama itinye ihe ntinye ọdịnala.
+Orchard mere ka ịdị mfe iji, arụmọrụ, na Nzuzo ka mma nke ukwuu site n'ibelata mwepụta metadata Azụmahia na iwebata ụdị Azụmahia na-agbanwe agbanwe karị nke dabere na Actions kama ntinye na mmepụta e chebere echebe ọdịnala.
 
-Since the Ironwood upgrade activated on 28 July 2026, **Orchard is spend-only**. No new value can enter the pool. Funds already held there can still be spent, and are migrating out into Ironwood through the turnstile. Wallets handle this for you, though most give you some control over the pace.
+Kemgbe mmelite Ironwood rụrụ ọrụ na 28 Julaị 2026, **Orchard bụ naanị maka imefu**. Uru ọhụrụ enweghị ike ịbanye na pool ahụ. Ego edeburu n'ebe ahụ ka nwere ike imefu, ma na-esi na turnstile akwaga na Ironwood. E-akpa ego na-ahụ maka nke a maka gị, n'agbanyeghị na ọtụtụ na-enye gị ikike ịchịkwa ọsọ ya. Mbugharị ọ bụla site na Orchard na-egosi ọnụọgụ ya na blockchain, ya mere otu e-akpa ego si ekewa ma hazie oge nkwaga ahụ dị mkpa maka Nzuzo.
 
-Ọ bụrụ na i nwere ego Orchard, lee: [Ironwood](/zcash-tech/ironwood) maka ihe ọpụpụ pụtara n'omume.
+Ọ bụrụ na ị jidere ego Orchard, lee [Ironwood](/zcash-tech/ironwood) maka ihe nkwaga ahụ pụtara n'omume.
 
 ____
 
-3. <h3 id="sapling" class="text-3xl font-bold my-4">Sapling Pool</h3>
+3. <h3 id="sapling" class="text-3xl font-bold my-4">Pool Sapling</h3>
 
 
 ![img3](/content-images/b1c6bb71-9356-45eb-8e4a-19d7cf1790ae-5e3051b082.webp)
-Fig 3: Ihe osise na-egosi ọdọ mmiri Sapling ruo 29 Ọktọba, 2025, tupu Ironwood amalite ọrụ
+Ọnụ ọgụgụ 3: Chaatị na-egosi pool Sapling ruo 29 Ọktoba 2025, tupu Ironwood arụ ọrụ
 
 <br/>
 
-[Zcash Sapling (Nke a bụ ihe e ji mara ya)](https://z.cash/upgrade/sapling) bụ nkwalite na usoro Zcash ewepụtara na 28th nke Ọktọba, 2018. Ọ bụ nnukwu mmelite karịa ụdị mbụ a maara dị ka Sprout nke nwere ụfọdụ njedebe n'ihe gbasara nzuzo, arụmọrụ yana ojiji. 
+[Zcash Sapling](https://z.cash/upgrade/sapling) bụ mmelite na protocol Zcash e webatara na 28 Ọktoba 2018. Ọ bụ nnukwu mmezi karịa ụdị mbụ a maara dị ka Sprout, nke nwere ụfọdụ mmachi gbasara Nzuzo, arụmọrụ na ịdị mfe iji. 
 
-Ụfọdụ n'ime nkwalite ndị ahụ gụnyere arụmọrụ ka mma maka adreesị echedoro, igodo nyocha dị elu iji mee ka ndị ọrụ lelee azụmahịa na-abata ma ọ bụ nke na-apụ apụ na-enweghị ikpughe mkpịsị nzuzo onye ọrụ yana Igodo Independent Zero Knowledge maka obere akpa ngwaike mgbe ịbịanye aka azụmaahịa. 
+Ụfọdụ n'ime mmelite ahụ gụnyere arụmọrụ ka mma maka Adreesị akpa ego e chebere echebe, viewing key ka mma iji mee ka ndị ọrụ hụ Azụmahia na-abata na nke na-apụ apụ n'ekpugheghị private key nke onye ọrụ, na zero-knowledge key nọọrọ onwe ya maka hardware wallet n'oge signature Azụmahia. 
 
-Zcash Sapling na-enyere ndị ọrụ aka ịme azụmahịa nkeonwe n'ime sekọnd ole na ole ma e jiri ya tụnyere ogologo oge ọ were na Sprout Series. 
+Zcash Sapling na-eme ka ndị ọrụ nwee ike ime Azụmahia nzuzo n'ime sekọnd ole na ole, ma e jiri ya tụnyere ogologo oge ọ na-ewe na usoro Sprout. 
 
-Nchedo azụmahịa na-eme ka nzuzo dịkwuo elu, nke mere na ọ gaghị ekwe omume maka ndị ọzọ ijikọ azụmahịa ma chọpụta ego ZEC a ga-ebufe. Sapling na-emekwa ka ojiji rụọ ọrụ site n'ibelata ihe nchọpụta kọmputa iji mepụta azụmahịa onwe onye site n"ịme ya ka ọ dịrị ndị ọrụ mfe ịnweta.
+Ichebe Azụmahia na-eme ka Nzuzo ka mma, na-eme ka ọ ghara ikwe omume ka ndị ọzọ jikọọ Azụmahia ma chọpụta ọnụọgụ ZEC a na-ebufe. Sapling na-emekwa ka ịdị mfe iji ka mma site n'ibelata ihe achọrọ n'akụkụ mgbakọ iji mepụta Azụmahia nzuzo, wee mee ka ọ dịrị ndị ọrụ mfe iru.
 
-Sapling wallet addresses begin with "zs" and this can be observed in all supported Zcash Shielded Wallet (Zkool, Zingo Wallet, Nighthawk etc.) which has built-in Sapling addresses. Zcash Sapling represents a significant development in technology when it comes to privacy and efficiency of transactions which makes Zcash a practical and effective cryptocurrency for users who value privacy and security.
+Adreesị e-akpa ego Sapling na-amalite na "zs", a pụkwara ịhụ nke a na e-akpa ego e chebere echebe Zcash niile akwadoro (Zkool, Zingo Wallet, Nighthawk wdg.) nke nwere Adreesị akpa ego Sapling arụnyere n'ime ya. Zcash Sapling na-anọchite anya nnukwu mmepe teknụzụ gbasara Nzuzo na arụmọrụ Azụmahia, nke na-eme Zcash ka ọ bụrụ cryptocurrency bara uru ma dị irè maka ndị ọrụ ji Nzuzo na nchekwa kpọrọ ihe.
 
 ____
 
-4. <h3 id="sprout" class="text-3xl font-bold my-4">Sprout Pool</h3>
+4. <h3 id="sprout" class="text-3xl font-bold my-4">Pool Sprout</h3>
 
 
 ![img4](/content-images/956eceed-f4d6-4087-99d0-32a770449dda-a3cc45305e.webp)
-Fig 4: Ihe osise na-egosi ọdọ mmiri Sprout ruo 29 Ọktọba, 2025, tupu Ironwood amalite ọrụ
+Ọnụ ọgụgụ 4: Chaatị na-egosi pool Sprout ruo 29 Ọktoba 2025, tupu Ironwood arụ ọrụ
 
-Sprout bụ nke mbụ na-enweghị ikike, Zero Knowledge nzuzo protocol mgbe ọ bụla. Ọ malitere n'ụbọchị 28th October 2016.
+Sprout bụ protocol mbụ nke Nzuzo zero-knowledge mepere emepe na-enweghị ikike a malitere. E malitere ya na 28 Ọktoba 2016.
 
-A na-amata adreesị Sprout site n'akwụkwọ ozi abụọ mbụ ha nke bụ "zc" mgbe niile. E nyere ya aha ahụ maka isi ebumnuche iji mesie ike na ngwanrọ a ka dị ọhụrụ, budding blockchain nwere nnukwu ikike itolite ma mepee mmepe. 
+A na-amata Adreesị akpa ego Sprout site n'akwụkwọ ozi abụọ mbụ ha, nke na-abụkarị "zc". A kpọrọ ya "Sprout" maka ebumnuche bụ isi nke imesi ike na software ahụ bụ blockchain ọhụrụ na-eto eto, nke nwere nnukwu ohere ito ma meghee maka mmepe. 
 
-A na-eji Sprout eme ihe dị ka ngwá ọrụ mbụ maka [Zcash na-amalite ngwa ngwa Mining](https://electriccoin.co/blog/slow-start-and-mining-ecosystem/) nke mere ka e kee ndị na-egwu ọla kọpa ụgwọ ọrụ ZEC na Block. 
+Ejiri Sprout dị ka ngwá ọrụ mbụ maka [Zcash ịgwụputa mmalite nwayọ](https://electriccoin.co/blog/slow-start-and-mining-ecosystem/), nke wetara nkesa ZEC na ụgwọ ọrụ block maka ndị na-egwụputa. 
 
-As the Zcash ecosystem continued  to expand with increasing number of shielded transactions, it was observed that the Zcash Sprout Series became limited and less efficient when it comes to user privacy, transaction scalability and processing. This led to the modification of the network and Sapling Upgrade. 
+Ka ecosystem Zcash na-aga n'ihu na-agbasawanye, ọnụ ọgụgụ Azụmahia e chebere echebe na-abawanye, a hụrụ na usoro Zcash Sprout ghọrọ nke nwere mmachi ma ghara ịdị irè nke ọma gbasara Nzuzo onye ọrụ, scaling Azụmahia na nhazi. Nke a dugara na mgbanwe network na Mmelite Sapling. 
 
 ---
-5. <h3 id="transparent" class="text-3xl font-bold my-4">Transparent Pool</h3>
+5. <h3 id="transparent" class="text-3xl font-bold my-4">Pool Oha</h3>
 <br/>
 
 ![img5](/content-images/01de2907-b62d-4421-83d7-ea4908faa828-6f74b724ed.webp)
-Fig 5: Ihe osise na-egosi Transparent pool ruo 29 Ọktọba, 2025, tupu Ironwood amalite ọrụ
+Ọnụ ọgụgụ 5: Chaatị na-egosi pool Oha ruo 29 Ọktoba 2025, tupu Ironwood arụ ọrụ
 
 <br/>
 
-Zcash Transparent pool bụ nke na-enweghị nchebe ma ọ bụghị nke onwe. Adreesị obere akpa ego doro anya na Zcash malite site na leta "t", nzuzo dị ala n'iji ụdị adreesị a maka azụmahịa.
+Pool Oha Zcash echebeghị, ọ bụghịkwa nke nzuzo. Adreesị e-akpa ego Oha na Zcash na-amalite n'akwụkwọ ozi "t"; Nzuzo dị nnọọ ala mgbe a na-eji ụdị Adreesị akpa ego a eme Azụmahia.
 
-Mmekọrịta ndị na-enweghị ntụpọ n'ime Zcash yiri azụmahịa Bitcoin nke na-akwado ọtụtụ nkwekọrịta ma jiri adreesị ọha.
+Azụmahia Oha na Zcash yiri Azụmahia Bitcoin, nke na-akwado Azụmahia multi-signature ma na-eji Adreesị akpa ego ọha ọkọlọtọ.
 
-The Zcash Transparent are mostly used by centralized exchanges to ensure there's high transparency and network confirmation when sending and receiving ZEC between users.
+Ndị exchange etiti na-ejikarị Oha Zcash iji hụ na e nwere nghọta dị elu na nkwenye network mgbe a na-eziga ma na-anata ZEC n'etiti ndị ọrụ.
 
-Ọ dịkwa mkpa iburu n'uche na ebe adreesị Zcash Shielded na-enye nzuzo dị elu mgbe azụmahịa, ha chọkwara ihe ndị ọzọ iji rụọ ọrụ maka nhazi nke azụmahịa. Ya mere, ụfọdụ ndị ọrụ nwere ike ịnakwere Adreesị Transparent maka azụmahịa ndị anaghị achọ otu ọkwa nchekwa ahụ.
-
-<br/>
-
-## Nhazi Akwadoro maka Ịnyefe Ngwakọta Ngwaọrụ
-
-Mgbe a bịara n'ịtụle ọkwa dị elu nke nzuzo mgbe ị na-eme azụmahịa na Zcash Network, ọ bụ ihe amamihe dị na ya ka ịgbaso usoro ndị a:
-
-Transaction occurring between "z to z" wallets on the Zcash blockchain are mostly shielded and it is sometimes called Private Transaction due to the high level of Privacy generated. This is usually the best and the most recommended way of sending and receiving $ZEC when privacy is required. 
-
----
-
-Mgbe ị na-eziga ZEC site "Z-address" ka "T-adddress", ọ bụ nanị ihe a ụdị nke Deshielding azụmahịa. Na ụdị azụmahịa, nzuzo larịị bụghị mgbe niile elu dị ka ụfọdụ ozi ga-ahụ anya na blockchain n'ihi mmetụta nke izipu ZEC on a Transparent Address. A naghị atụ aro deshielded transaction mgbe achọrọ nnukwu nzuzo. 
-
----
-
-Ịnyefe ZEC site na Adreesị Transparent (T-address) gaa adreesị Z bụ nke a maara dị ka Shielding. N'ụdị azụmahịa a, ọkwa nzuzo adịghị elu mgbe niile ma e jiri ya tụnyere zz transaction mana ọ dịkwa mma mgbe achọrọ nchekwa data. 
-
----
-
-Sending ZEC from a Transparent Address (T-address) to another Transparent Address (T-address) on Zcash Network (T-T transaction) is very similar to that of Bitcoin transaction and this is why T-T transactions on Zcash are always called Public transactions because both the sender and the receiver transaction details becomes visible to the public which makes the level of Privacy very low in such transaction. 
-
-Ọtụtụ Cryptocurrency Centralized exchanges na-eji Adreesị Transparent ("T-address") eme ihe mgbe ọ bịara n'ihe gbasara azụmahịa na Zcash blockchain mana ụdị azụmahịa a (T-T) agaghị enwe akụ nkeonwe.
+Ọ dịkwa mkpa ịmara na ebe Adreesị e chebere echebe Zcash na-enye Nzuzo dị elu n'oge Azụmahia, ha na-achọkwa ihe mgbakọ karịa iji hazie Azụmahia. Ya mere, ụfọdụ ndị ọrụ nwere ike ịhọrọ Adreesị Oha maka Azụmahia na-achọghị otu ọkwa Nzuzo ahụ.
 
 <br/>
 
-## The Orchard to Ironwood Migration
+## Omume Akwadoro Maka Mbufe Pool
 
-Mbugharị ahụ na-eme ugbu a. Orchard ka e mechiri nye nkwụnye ego ọhụrụ, uru nke nọkwa n'ebe ahụ bụ ịkwaga Ironwood otu azụmahịa kwa oge. Ị nwere ike ile ngụkọta ọnụ ọgụgụ dị ebe a: [ironwood. ndụ](https://ironwood.live/).
+Mgbe a na-atụle ọkwa Nzuzo dị elu n'oge Azụmahia na Network Zcash, a na-atụ aro ka ị soro omume ndị a;
 
-Ihe nke a pụtara na-adabere n'ebe ego gị dị:
-
-1. Ihe ọhụrụ a na-eme n'ụlọ mgbochi ga-abanye Ironwood ozugbo. O nweghị ihe ị ga-eme.
-2. ** Ego Orchard dị ugbu a chọrọ ịkwaga. Akpa ego echekwara na-eme nke a maka gị, ọ bụkarị n'usoro kama ịbụ otu oge niile.
-3. **Sapling adịghị emetụta** ma ka na-anabata ego. Naanị Orchard bụ nke e mechiri emechi.
-4. ** The turnstile counts everything** crossing between pools, nke bụ ihe na-egosi dịghị mkpụrụ ego e mepụtara tinyere ụzọ.
-
-> **One privacy caveat worth knowing.** The turnstile publishes the *amount* that crosses between pools, along with the block height. Sender and receiver stay hidden as always, but a distinctive amount can be linked back to you. This is why wallets migrate in stages using standard denominations instead of moving your balance in one recognisable lump. Let your wallet pace itself, and consider using Tor or a VPN so your IP is not tied to the amounts you move.
-
-Lee ya ebe a . [Ironwood](/zcash-tech/ironwood) maka nkwalite ahụ n'onwe ya, na [Ihe A Na-akpọ Turnstile](/zcash-tech/the-turnstile) maka etu akwụkwọ ndekọ ego si arụ ọrụ.
-
-<br/>
-
-## Ihe Ndị A Na-emekarị nke E Kwesịrị Izere
-
-- ** Izipu site na t-adreesị gaa n'adres**  ọha kpamkpam, enweghị nzuzo. Na -echebe ego mgbe niile mbụ.
-- ** Iche na Orchard ka nabatara ego**  ọ bụ naanị mmefu kemgbe 28 Julaị 2026. Uru nwere ike ịpụ, mana onweghị ihe ọhụrụ batara.
-- ** Ịgbagwoju anya na adreesị Sapling na Unified Addresses**  N'adreesị ndị a, ọ ga-amalite site n'akara 'Sapling'. `zs`. Adreesị ndị dị n'otu na-amalite site na `u1` na ikpokọta ọtụtụ ndị nnata, ya mere ọdọ mmiri gị ugwo ala n'ime-adabere nke nnata na adreesị ahụ nwere
-- ** Ịhapụ ego na ọdọ mmiri Sprout**  A kwụsịrị ịba ụba ruo ọtụtụ afọ; wepụ ego ndị ahụ n'èzí.
-- **Expecting a migration to be completely invisible** — the amount crossing the turnstile is public, even though sender and receiver are not
-- ** Iche t → z (shielding) bụ kpamkpam onwe**  ihe omume nke shielding n'onwe ya na-ahụ anya on-chain; ọdịnaya adịghị.
+Azụmahia na-eme n'etiti e-akpa ego "z ruo z" na blockchain Zcash na-adịkarị nke e chebere echebe, a na-akpọkwa ya mgbe ụfọdụ Azụmahia Nzuzo n'ihi ọkwa Nzuzo dị elu ọ na-emepụta. Nke a na-abụkarị ụzọ kacha mma na nke a kacha akwado iji zipu ma nata $ZEC mgbe a chọrọ Nzuzo. 
 
 ---
 
-## Peeji ndị metụtara ya
+Mgbe ị na-eziga ZEC site na "Z-address" gaa na "T-address", ọ pụtara naanị ụdị Azụmahia iwepụ nchebe. N'ụdị Azụmahia a, ọkwa Nzuzo anaghị adị elu mgbe niile, ebe ụfọdụ ozi ga-ahụ na blockchain n'ihi iziga ZEC na Adreesị Oha. A naghị akwado Azụmahia iwepụ nchebe mgbe a chọrọ Nzuzo dị elu. 
 
-- [Ironwood](/zcash-tech/ironwood)  Nwelite nke mepụtara ọdọ mmiri ugbu a
-- [Ihe A Na-akpọ Turnstile](/zcash-tech/the-turnstile)  Olee otú uru na-aga n'etiti ọdọ mmiri a audited
-- [Akpa ego](/using-zcash/wallets)  Kedu obere akpa ego a na-echekwa ma Ironwood dị njikere
-- [Ihe ndị e mere eme](/using-zcash/transactions)  Otu esi eziga azụmahịa echekwara
-- [Ịzụta ZEC](/using-zcash/buying-zec)  Ịzụta ZEC tupu iji ya na ọdọ mmiri.
-- [zk-SNARKs](/zcash-tech/zk-snarks)  Ntọala nzuzo nke ọdọ mmiri ndị e chebere
-- [Gịnị bụ ZEC na Zcash?](/start-here/what-is-zec-and-zcash)  Ndabere na nzuzo Zcash
+---
+
+Ibufe ZEC site na Adreesị Oha (T-address) gaa na Z-address ka a maara naanị dịka Ichebe. N'ụdị Azụmahia a, ọkwa Nzuzo anaghị adị elu mgbe niile ma e jiri ya tụnyere Azụmahia z-z, mana a na-akwadokwa ya mgbe a chọrọ Nzuzo. 
+
+---
+
+Izipu ZEC site na Adreesị Oha (T-address) gaa na Adreesị Oha ọzọ (T-address) na Network Zcash (Azụmahia T-T) yiri Azụmahia Bitcoin nke ukwuu; nke a mere Azụmahia T-T na Zcash ji bụrụ Azụmahia Ọha mgbe niile, n'ihi na nkọwa Azụmahia nke onye zitere na onye natara na-ahụ ọha, nke na-eme ọkwa Nzuzo dị nnọọ ala n'Azụmahia dị otu a. 
+
+Ọtụtụ exchange cryptocurrency etiti na-eji Adreesị Oha ("T-address) eme Azụmahia na blockchain Zcash, mana ụdị Azụmahia a (T-T) agaghị enwe àgwà nzuzo ọ bụla.
+
+<br/>
+
+## Nkwaga Sị Orchard Gaa Ironwood
+
+Nkwaga ahụ na-eme ugbu a. Emechiela Orchard maka nkwụnye ego ọhụrụ, uru ka dị n'ebe ahụ na-akwaga na Ironwood otu Azụmahia n'otu oge. Ị nwere ike ilele mkpokọta na [ironwood.live](https://ironwood.live/).
+
+Ihe nke a pụtara dabere n'ebe ego gị dị:
+
+1. **Ọrụ ọhụrụ e chebere echebe** na-abanye na Ironwood ozugbo. Ọ nweghị ihe ị ga-eme.
+2. **Ego Orchard dị adị** kwesịrị ịkwaga. E-akpa ego a na-elekọta na-eme nke a maka gị, na-adịkarị n'ọkwa kama ime ya niile n'otu oge.
+3. **Sapling anaghị emetụta** ma ka na-anabata ego. Ọ bụ naanị Orchard ka emechiri.
+4. **Turnstile na-agụta ihe niile** na-agafe n'etiti pool, nke na-egosi na ọ nweghị mkpụrụ ego e kere n'ụzọ ahụ.
+
+> **Otu ịdọ aka ná ntị Nzuzo kwesịrị ịma.** Turnstile na-ebipụta *ọnụọgụ* na-agafe n'etiti pool, yana ogo block. Onye zitere na onye natara na-anọgide zoro ezo dị ka mgbe niile, mana ọnụọgụ pụrụ iche nwere ike ijikọta gị azụ. Nke a bụ ihe kpatara e-akpa ego ji akwaga ego n'ọkwa site n'iji denominations ọkọlọtọ kama ibugharị ngụkọta ego gị n'otu nnukwu mkpokọta a ga-amata. Kwe ka e-akpa ego gị hazie ọsọ nke ya, ma tụlee iji Tor ma ọ bụ VPN ka IP gị ghara ijikọta na ọnụọgụ ị na-ebufe.
+
+Lee [Ironwood](/zcash-tech/ironwood) maka mmelite ahụ n'onwe ya, na [The Turnstile](/zcash-tech/the-turnstile) maka otu ndekọ ego si arụ ọrụ.
+
+<br/>
+
+## Njehie Ndị A Na-ahụkarị Ka A Zere
+
+- **Izipu site na t-address gaa na t-address** — ọha kpamkpam, enweghị Nzuzo. Chebe ego mgbe niile tupu ị zipu ya.
+- **Iche na Orchard ka na-anabata ego** — ọ bụ naanị maka imefu kemgbe 28 Julaị 2026. Uru nwere ike ịpụ, mana ọ nweghị uru ọhụrụ na-abanye
+- **Ịgwakọta Sapling na Adreesị Jikọtara Ọnụ** — Adreesị Sapling na-amalite na `zs`. Adreesị Jikọtara Ọnụ na-amalite na `u1` ma na-achịkọta ọtụtụ receivers, ya mere pool Kwụọ ụhwọ gị ga-adaba na-adabere na receivers Adreesị ahụ nwere
+- **Ịhapụ ego na pool Sprout** — ewepụla Sprout n'ọrụ kemgbe ọtụtụ afọ; wepụ ego ahụ
+- **Ịtụ anya na nkwaga agaghị ahụ kpamkpam** — ọnụọgụ na-agafe turnstile bụ nke ọha, n'agbanyeghị na onye zitere na onye natara abụghị
+- **Iche na t → z (ichebe) bụ nke nzuzo kpamkpam** — omume ichebe n'onwe ya na-ahụ on-chain; ọdịnaya ahụ anaghị ahụ
+
+---
+
+## Peeji Ndị Metụtara
+
+- [Ironwood](/zcash-tech/ironwood) — Mmelite nke kere pool ugbu a
+- [The Turnstile](/zcash-tech/the-turnstile) — Otu esi enyocha uru na-agafe n'etiti pool
+- [E-akpa ego](/using-zcash/wallets) — E-akpa ego ndị a na-elekọta na ndị dị njikere Ironwood
+- [Azụmahia](/using-zcash/transactions) — Otu esi eziga Azụmahia e chebere echebe
+- [Ịzụ ZEC](/using-zcash/buying-zec) — Inweta ZEC tupu iji ya na pool
+- [zk-SNARKs](/zcash-tech/zk-snarks) — Ntọala cryptographic nke pool e chebere echebe
+- [Gịnị bụ ZEC na Zcash](/start-here/what-is-zec-and-zcash) — Ndabere gbasara Nzuzo Zcash

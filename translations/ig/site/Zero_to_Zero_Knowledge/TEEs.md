@@ -1,109 +1,109 @@
-# Zero to Zero Knowledge: Ebe A Tụkwasịrị Obi (TEEs)
+# Zero to Zero Knowledge: Mpaghara Mmezu A Tụkwasịrị Obi (Trusted Execution Environments, TEEs)
 
-**Series:** Zero to Zero Knowledge
+**Usoro:** Zero to Zero Knowledge
 
-Zero to Zero Knowledge alọghachila na isiokwu ọhụrụ! 
-N'izu a, anyị na-enyocha gburugburu ebe a tụkwasịrị obi (TEEs) - otu esi eji ha na mkpụrụ ego nzuzo na ngwa blockchain ndị ọzọ.
+Zero to Zero Knowledge alọtala na isiokwu ọhụrụ!  
+N’izu a, anyị na-enyocha **Mpaghara Mmezu A Tụkwasịrị Obi (TEEs)** — otu e si eji ha na mkpụrụ ego Nzuzo [privacy] na ngwa blockchain ndị ọzọ.
 
-![Tụkwasịrị Obi Execution Environments mmeghe](/content-images/Fquj-h2WcAIgSnL-b80c8614cd.webp)
-
----
-
-## TEEs na Blockchains: Njirimara ndị ọzọ
-
-Blockchains na TEEs nwere ike dị iche iche:
-
-- **Blockchains** na-ekwe nkwa nnweta, nkwụsi ike nke steeti, ma kwe ka ọha na eze nyochaa steeti ahụ dum - mana ha nwere ikike ngụkọta oge pere mpe. 
-- **TEEs** nwere ike ịrụ ọrụ mgbagwoju anya na nzuzo - mana enweghị nkwụsi ike nke ala.
-
-Ha niile jikọrọ aka mee ka e nwee usoro dị ike nke na-echebe ihe nzuzo.
+![Trusted Execution Environments intro](/content-images/Fquj-h2WcAIgSnL-b80c8614cd.webp)
 
 ---
 
-## Ntanetị Nzuzo: Nzuzo nke TEE kwadoro
+## TEEs na Blockchain: Njirimara Ndị Na-akwado Onwe Ha
 
-**Secret Network** na-eji teknụzụ TEE (ọkachasị Intel SGX) iji mee ngụkọta na ntinye, mmepụta, na steeti ezoro ezo.
+Blockchain na TEE nwere ike dị iche iche na-akwado ibe ha nke ukwuu:
 
-Onye ọ bụla na-agba ọsọ Intel SGX ibe. A na-ejikọta nkwekọrịta na nhazi ọkwa:
+- **Blockchain** na-ekwe nkwa na ihe ga-adị, ịdịgide nke ọnọdụ, ma na-enye ohere ka ọha nyochaa ọnọdụ dum — mana ha nwere ikike mgbakọ dị ntakịrị.  
+- **TEE** nwere ike ịrụ ọrụ mgbakọ siri ike na nzuzo — mana ha enweghị nchekwa ọnọdụ e wuru n’ime ha.
 
-- A na-edozi azụmahịa n'ime oghere ndị nwere nchebe. 
-- A na-edozi data naanị n'ime TEE.
+Mgbe ejikọtara ha, ha nwere ike ịmepụta usoro dị ike na-echekwa Nzuzo.
 
-This is different from Zcash, which uses **zero-knowledge proofs** for privacy. In Zcash, shielded transactions are broadcast and validated publicly with no additional data revealed to the network. Zcash Shielded Assets follow the same principle.
+---
 
-![Ihe osise nzuzo nke TEE Network](/content-images/FqulPjNX0AEfjRp-c7085732a2.webp)
+## Secret Network: Nzuzo Nke TEE Na-akwado
 
-Maka nkọwa zuru ezu banyere etu esi etinye TEEs na Secret Network, gụọ ọmarịcha edemede a site n'aka @l_woetzel: 
+**Secret Network** na-eji teknụzụ TEE (karịchaa Intel SGX) arụ mgbakọ n’elu ntinye, mmepụta, na ọnọdụ e zoro ezo.
+
+Node validator ọ bụla na-agba mgbawa Intel SGX. A na-ejikọta oyi akwa consensus na mgbakọ:
+
+- A na-ahazi Azụmahia [transaction] n’ime enclaves echekwara.  
+- A na-akọwapụta data naanị **n’ime TEE**.
+
+Nke a dị iche na Zcash, nke na-eji **zero-knowledge proof** maka Nzuzo. Na Zcash, a na-ebipụta Azụmahia nke e chebere echebe [shielded] ma na-akwado ha n’ihu ọha na-enweghị ikpughere netwọkụ data ọzọ. Zcash Shielded Assets na-agbasokwa otu ụkpụrụ ahụ.
+
+![Secret Network TEE diagram](/content-images/FqulPjNX0AEfjRp-c7085732a2.webp)
+
+Maka nkọwa zuru ezu banyere otú e si etinye TEEs n’ọrụ na Secret Network, gụọ edemede a magburu onwe ya nke @l_woetzel:  
 https://carter-woetzel.medium.com/secret-network-tees-lets-talk-fud-vulnerability-33ca94b6df38
 
 ---
 
-## Otú Ntaneti Nzuzo Si Echebe Mkpịsị Ụzọ na Ọnọdụ
+## Otu Secret Network Si Echekwa Igodo na Ọnọdụ
 
-- A na-echekwa **mkpụrụ nzuzo nzuzo nke netwọk ahụ** n'ime TEE nke onye nyocha ọ bụla. 
-- Nkwekọrịta na-eji igodo ezoro ezo pụrụ iche. 
-- Secret contracts run on the Cosmos SDK compute module but support encrypted inputs/outputs and state.
-
----
-
-## Ịgba Àmà Site n'Ebe Dị Anya
-
-**Remote Attestation** bụ usoro nke igosi na ogige na-agba ọsọ na ezigbo nchekwa ngwaike.
-
-Ọ na-enye ohere ka onye dịpụrụ adịpụ nyochaa:
-- Ngwa ziri ezi na-agba ọsọ 
-- A gbanwebeghị ngwa ahụ. 
-- Ọ na-agba ọsọ n'enweghị nsogbu n'ime Intel SGX enclave
-
-![Nkọwapụta Nkwupụta Nkwụsị](/content-images/FqumRjoWwAAeT-M-6eff73af4d.webp)
-
-Enclaves na-enwekwa mbinye aka nke onwe na igodo nkwenye nke na-enweghị ike ịnweta site n'èzí.
-
-![Enclave isi nchedo](/content-images/Fqumv83XoAQq-MO-47c3ab77e0.webp)
+- A na-echekwa **mkpụrụ Nzobe ederede [encryption] consensus** nke netwọkụ n’ime TEE nke validator ọ bụla.  
+- Contracts na-eji igodo Nzobe ederede pụrụ iche nke enweghị ike ịgha.  
+- Secret contracts na-agba n’elu modul mgbakọ SDK nke Cosmos mana ha na-akwado ntinye/mmepụta na ọnọdụ e zoro ezo.
 
 ---
 
-## Ịkpọchi data
+## Nkwenye Ime Obodo
 
-Ebe ọ bụ na enklave enweghị steeti, a ga-echekwa data mgbe ụfọdụ n'èzí na ebe nchekwa a na-atụkwasịghị obi. 
+**Nkwenye Ime Obodo (Remote Attestation)** bụ usoro igosi na enclave na-agba n’ezigbo gburugburu ngwaike echekwara.
 
-**Data Sealing** encrypts data inside the enclave using a key derived from the CPU. The encrypted block can only be unsealed on the **same system**.
+Ọ na-enye akụkụ dị anya ohere ịchọpụta:
+- Na ngwa ziri ezi na-agba  
+- Na emetụbeghị ngwa ahụ n’ụzọ na-adịghị mma  
+- Na ọ na-arụ ọrụ n’enweghị nsogbu n’ime enclave Intel SGX
 
-![Ihe osise data na-emechi emechi](/content-images/FqunBwyWYAA-TR3-933c2b0e6f.webp)
+![Remote Attestation explanation](/content-images/FqumRjoWwAAeT-M-6eff73af4d.webp)
+
+Enclaves nwekwara igodo nzuzo maka ịbịanye aka na nkwenye nke enweghị ike ịnweta site n’èzí.
+
+![Enclave key protection](/content-images/Fqumv83XoAQq-MO-47c3ab77e0.webp)
+
+---
+
+## Ikpuchi Data
+
+Ebe enclaves enweghị ọnọdụ echekwara, mgbe ụfọdụ a ga-echekwa data n’èzí, n’ebe nchekwa a na-apụghị ịtụkwasị obi.  
+
+**Ikpuchi Data (Data Sealing)** na-eji igodo sitere na CPU zochie data n’ime enclave. Enwere ike ikpughe block e zoro ezo naanị n’otu **usoro ahụ**.
+
+![Data Sealing diagram](/content-images/FqunBwyWYAA-TR3-933c2b0e6f.webp)
 
 ---
 
 ## Oasis Network
 
-**Oasis Network** na-ejikwa TEEs site na nzuzo ya ParaTime (dịka Sapphire na Cipher).
+**Oasis Network** na-ejikwa TEEs site na ParaTime nzuzo ya (dịka Sapphire na Cipher).
 
-A na-abanye data ezoro ezo na TEE yana nkwekọrịta smart. A na - agbagha ya, hazie ya, ma degharịa ya tupu ịhapụ ogige ahụ.
+Data e zoro ezo na-abanye na TEE tinyere smart contract. A na-akọwapụta ya, ahazie ya, ma zookwa ya ọzọ tupu ọ hapụ enclave.
 
-![Oasis Network TEE na-agagharị agagharị](/content-images/FqunJRDXwAMt4Ob-0e7969c7a8.webp)
-
----
-
-## TEEs na Proof-of-Stake Networks
-
-Ọtụtụ Proof-of-Stake blockchains (gụnyere Nzuzo na Oasis) jiri **Tendermint** dị ka usoro nkwekọrịta ha.
-
-N'ihi na PoS validators:
-- A ghaghị ijikwa igodo n'ụzọ dị nchebe ma ghara ikpughe na ederede ederede. 
-- Ndị nyocha ga-anọ n'ịntanetị (ụgwọ ntaramahụhụ na-emetụta). 
-- Ịbịanye aka n'akwụkwọ ozi ndị na-emegiderịta onwe ha pụrụ iduga n'igbu mmadụ.
-
-** TEEs ** dị mma maka ịmepụta ma jiri igodo validator rụọ ọrụ nke ọma.
-
-![Tendermint & PoS nchebe](/content-images/Fqun0HEX0AAooxW-7f6163ae1e.webp)
+![Oasis Network TEE flow](/content-images/FqunJRDXwAMt4Ob-0e7969c7a8.webp)
 
 ---
 
-## Zcash na Nnyocha Ihe Akaebe
+## TEEs na Netwọkụ Proof-of-Stake
 
-Zcash na-arụsi ọrụ ike na-enyocha mbugharị na Proof-of-Stake.
+Ọtụtụ blockchain Proof-of-Stake (gụnyere Secret na Oasis) na-eji **Tendermint** dịka usoro consensus ha.
 
-- Gụọ nchọpụta ahụ: https://electriccoin.co/blog/zcash-proof-of-stake-research/  
-- Lelee akụkụ a site na Zcash Foundation Community Call na-akọwa atụmatụ PoS dị iche iche na ihe nzuzo ha:
+Maka validators PoS:
+- A ghaghị ijikwa igodo n’enweghị nsogbu, ghara ikpughe ha n’edemede nkịtị.  
+- Validators ga-anọrịrị n’ịntanetị (ntaramahụhụ maka ịnọghị n’ọrụ na-adị).  
+- Ịbịanye aka n’ozi ndị na-emegiderịta onwe ha nwere ike ibute mwepụ ego.
+
+**TEEs** dị mma maka imepụta na iji igodo validator n’enweghị nsogbu.
+
+![Tendermint & PoS security](/content-images/Fqun0HEX0AAooxW-7f6163ae1e.webp)
+
+---
+
+## Zcash na Nnyocha Proof-of-Stake
+
+Zcash na-eme nnyocha nke ọma gbasara ịkwaga na Proof-of-Stake.
+
+- Gụọ nyocha ahụ: https://electriccoin.co/blog/zcash-proof-of-stake-research/  
+- Lelee ngalaba a sitere na Community Call nke Zcash Foundation nke na-akọwa atụmatụ PoS dị iche iche na mmetụta ha na Nzuzo:
   
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -118,9 +118,9 @@ Zcash na-arụsi ọrụ ike na-enyocha mbugharị na Proof-of-Stake.
 
 ---
 
-**Original Thread by ZecHub (@ZecHub) ** 
+**Eriri Ozi Mbụ nke ZecHub (@ZecHub)**  
 https://x.com/ZecHub/status/1633579659282587651
 
 ---
 
-*A chịkọtara peeji a site na isi mmalite Zero to Zero Knowledge maka wiki ZecHub.*
+*A chịkọtara ibe a site n’eriri ozi mbụ nke Zero to Zero Knowledge maka wiki ZecHub.*

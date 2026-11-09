@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Bipute saịtị na IPFS
+# Bipụta Saịtị na IPFS
 
 <a href="">
     <img src="/content-images/IPFS-40c2e22732.webp" alt="" width="800" height="400"/>
@@ -10,45 +10,45 @@
 
 
 
-## Okwu Mmalite nke IPFS
+## Mmalite maka IPFS
 
-IPFS (InterPlanetary File System) bụ protocol na netwọkụ peer-to-peer e mere iji mepụta usoro enweghị isi nke ịchekwa na ịkekọrịta faịlụ.
+IPFS (InterPlanetary File System) bụ protocol na netwọk ibe-na-ibe e mere iji mepụta ụzọ decentralized [decentralised] maka ịchekwa na ikekọrịta faịlụ.
 
-N'adịghị ka usoro ndị ahịa-server nke ịntanetị, IPFS na-enye ndị ọrụ ohere ịkekọrịta faịlụ ozugbo na ibe ha, kama ịdabere na sava dị n'etiti iji chekwaa ma kesaa ọdịnaya.
+N'adịghị ka usoro client-server ọdịnala nke ịntanetị, IPFS na-enye ndị ọrụ ohere ịkekọrịta faịlụ ozugbo n'etiti onwe ha, kama ịdabere na server etiti iji chekwaa ma kesaa ọdịnaya.
 
-Files in IPFS are addressed using *content-addressing*, meaning each file is given a unique hash or CONTENT IDENTIFIER (CID) based on its content, and this hash is used to retrieve the file from the network.
+A na-enye faịlụ ndị dị na IPFS adreesị site n'iji *adreesị ọdịnaya [content-addressing]*, nke pụtara na a na-enye faịlụ ọ bụla hash pụrụ iche ma ọ bụ NJIRIMARA ỌDỊNAYA (CID) dabere n’ọdịnaya ya, a na-ejikwa hash a weghachite faịlụ ahụ site na netwọk.
 
-When a user adds a file to IPFS, the file is broken up into small pieces called blocks, and each block is given a CID. These blocks are then stored on different nodes in the network, so that the file can be easily retrieved from multiple sources.
+Mgbe onye ọrụ tinyere faịlụ na IPFS, a na-ekewa faịlụ ahụ n'ime obere akụkụ a na-akpọ block [blocks], a na-enyekwa block ọ bụla CID. A na-echekwa block ndị a na node dị iche iche n'ime netwọk, ka e wee nwee ike weghachite faịlụ ahụ n'ụzọ dị mfe site n'ọtụtụ ebe.
 
-This ensures redundancy and fault-tolerance while also making it difficult for any one node to become a single point of failure or control.
+Nke a na-ahụ na e nwere nkwado ndabere na nnagide mmejọ, ma na-emekwa ka o sie ike ka node ọ bụla bụrụ otu ebe ọdịda ma ọ bụ njikwa.
 
-**Gụọ: [Ntinye aka na IPFS](https://blog.infura.io/post/an-introduction-to-ipfs)**
+**Gụọ: [Mmalite maka IPFS](https://blog.infura.io/post/an-introduction-to-ipfs)**
 
-## Ịmepụta saịtị gị
+## Ịmepụta Saịtị Gị
 
-Maka ihe atụ a anyị na-ekebe weebụsaịtị dị mfe.
+Maka ihe atụ a, anyị na-emepụta weebụsaịtị dị mfe.
 
-[Ebe Nlereanya](https://squirrel.surf/)
+[Saịtị Ihe Atụ](https://squirrel.surf/)
 
-**Nzọụkwụ 1:** Ọ bụrụ na ị maghị maka imewe weebụ dee isi ọdịnaya maka ebe nrụọrụ weebụ gị gụnyere Aha, Isi Isi nke ederede, na njikọ ndị ọzọ / saịtị & ụkwụ.
+**Nzọụkwụ 1:** Ọ bụrụ na ị maghị maka imewe weebụ, dee isi ọdịnaya maka weebụsaịtị gị, gụnyere Aha, Isi Ahụ nke ederede, yana njikọ gaa na ibe/saịtị ndị ọzọ na footers.
 
-**Nzọụkwụ 2:** Jiri a [HTML template!](https://nicepage.com/html-templates) Tinye ederede ị dere n'ụzọ kwekọrọ na ya. Nhọrọ iji mepụta .CSS stylesheet maka ebe nrụọrụ weebụ gị.
+**Nzọụkwụ 2:** Jiri [template HTML!](https://nicepage.com/html-templates). Tapawa ederede ị dere n'ime ya dịka o kwesịrị. Ị nwekwara ike ịmepụta akwụkwọ ụdị .CSS maka weebụsaịtị gị.
 
-**Nzọụkwụ 3:** Chekwaa ndekọ gị. All .html peeji nke + ihe oyiyi ga-abụ na otu nchekwa.
+**Nzọụkwụ 3:** Chekwaa directory gị. Ibe .html niile na onyonyo ga-adịrị n'otu Folder.
 
-## Ịtọlite Njikọ
+## Ịhazi Node
 
-Budata ma wụnye IPFS site na [Official website](https://docs.ipfs.tech/install/ipfs-desktop/).
+Budata ma wụnye IPFS site na [weebụsaịtị gọọmenti](https://docs.ipfs.tech/install/ipfs-desktop/).
 
-### Tinye IPFS:
+### Malite IPFS:
 
-Ọ bụrụ na ị na-eji Ngwaọrụ Desktọpụ ị gaghị amalite.
+Ọ bụrụ na ị na-eji Ngwa Desktop, ị gaghị achọ ịmalite ya.
 
-Iji Terminal ma ọ bụ iwu ngwa ngwa, Run command: ipfs init
+N'iji Terminal ma ọ bụ command prompt, gbaa iwu a: ipfs init
 
-### ** Tinye nchekwa saịtị na IPFS**:
+### **Tinye Folder Saịtị na IPFS**:
 
-Họrọ nchekwa na faịlụ weebụsaịtị gị ma gaa na nhọrọ Tinye nchekwa.
+Họrọ folder nwere faịlụ weebụsaịtị gị, gaa na nhọrọ Add Folder.
 
 
 <a href="">
@@ -57,35 +57,35 @@ Họrọ nchekwa na faịlụ weebụsaịtị gị ma gaa na nhọrọ Tinye nc
 
 –
 
-Ọ bụrụ na ị na-eji Terminal, Run command: ipfs add -r folder_name ịgbakwunye nchekwa niile na IPFS.
+Ọ bụrụ na ị na-eji Terminal, gbaa iwu a: ipfs add -r folder_name iji tinye folder niile na IPFS n'usoro recursive.
 
-### Ebe Pin na IPFS:
+### Tụọ Saịtị na IPFS:
 
-Ozugbo agbakwunyere faịlụ weebụsaịtị gị na IPFS, ịkwesịrị ** pin ** ha iji hụ na ha ka dị na netwọkụ.
-
-–
-
-Ọ bụrụ na ị na-eji Terminal, Run command: Ọ bụrụ n'iji Terminal, run command: ipfs pin add **hash**
-
-**hash** = CID nke nchekwa ị gbakwunyere na nzọụkwụ gara aga.
-
-N'aka nke ọzọ, ị nwekwara ike itinye akwụkwọ ndekọ aha site na iji ọrụ dịka [Pinata](https://pinata.cloud/) ma ọ bụ [Dolpin](https://dolpin.io/)
-
-Ọ na-azọpụta anyị oge!
+Ozugbo etinyere faịlụ weebụsaịtị gị na IPFS, ị ga-**pin** ha iji hụ na ha ka dị na netwọk.
 
 –
 
-### Nweta ebe nrụọrụ weebụ gị na IPFS:
+Ọ bụrụ na ị na-eji Terminal, gbaa iwu a: Ọ bụrụ na ị na-eji Terminal, gbaa iwu a: ipfs pin add **hash**
 
-Your website is now published on IPFS and can be accessed using the hash of the folder. To access your website, you can visit https://ipfs.io/ipfs/**hash**
+**hash** = CID nke folder ị tinyere na nzọụkwụ gara aga.
 
-**hash** = CID nke nchekwa ahụ.
+N'aka nke ọzọ, ị nwekwara ike ịpin directory site na ọrụ dịka [Pinata](https://pinata.cloud/) ma ọ bụ [Dolpin](https://dolpin.io/)
 
-N'okwu anyị CID = QmW2UEfap1vrRRvS5H9wed8qmsx4WsvXBk3GPGVVfWx3r3
+Ọ na-echekwa ọtụtụ oge!
+
+–
+
+### Nweta weebụsaịtị gị na IPFS:
+
+E bipụtala weebụsaịtị gị ugbu a na IPFS, ma enwere ike ịnweta ya site n'iji hash nke folder ahụ. Iji nweta weebụsaịtị gị, ị nwere ike ịga na https://ipfs.io/ipfs/**hash**
+
+**hash** = CID nke folder ahụ.
+
+N'ọnọdụ anyị, CID = QmW2UEfap1vrRRvS5H9wed8qmsx4WsvXBk3GPGVVfWx3r3
 
 ## IPNS
 
-Interplanetary Naming System (IPNS) allows you to update the IPFS CIDs associated with your website and still serve a static link. It is provided as a key.
+Interplanetary Naming System (IPNS) na-enye gị ohere imelite IPFS CID ndị ejikọtara na weebụsaịtị gị, ma ka na-enye njikọ static. A na-enye ya dịka key.
 
 
 <a href="">
@@ -93,22 +93,22 @@ Interplanetary Naming System (IPNS) allows you to update the IPFS CIDs associate
 </a>
 
 
-Na menu ntọala maka nchekwa saịtị gị na ngwa desktọọpụ IPFS họrọ Bipute na IPNS.
+N'ime menu ntọala maka folder saịtị gị na ngwa desktop IPFS, họrọ Publish to IPNS.
 
 <a href="">
     <img src="/content-images/IPNS-2fe62cc369.webp" alt="" width="400" height="200"/>
 </a>
 
 
-Key: k51qzi5uqu5di670a6uxywo17b2be1eyhoa2cl0qlwpfxn5p9ypcu8jbzgnj4n
+Key: “k51qzi5uqu5di670a6uxywo17b2be1eyhoa2cl0qlwpfxn5p9ypcu8jbzgnj4n”
 
-Enwekwara ike iji ya lelee saịtị anyị site na ọnụ ụzọ: https://ipfs.io/ipns/k51qzi5uqu5di670a6uxywo17b2be1eyhoa2cl0qlwpfxn5p9ypcu8jbzgnj4n
+A pụkwara iji ya lee saịtị anyị site na gateway: https://ipfs.io/ipns/k51qzi5uqu5di670a6uxywo17b2be1eyhoa2cl0qlwpfxn5p9ypcu8jbzgnj4n
 
 ## Njikọ DNS
 
-E mepụtara saịtị ahụ, ugbu a anyị chọrọ ụzọ iji tụọ URL na ọdịnaya.
+E mepụtala saịtị ahụ; ugbu a, anyị chọrọ ụzọ iji tụọ URL gaa na ọdịnaya ahụ.
 
-If you already own a web address you are able to add a new record using the TXT record _dnslink(your domain). Depending on provider it may auto populate.
+Ọ bụrụ na i nweelarị adreesị weebụ, ị nwere ike itinye record ọhụrụ site n'iji TXT record _dnslink(domain gị). Dabere na provider, ọ nwere ike iji aka ya jupụta.
 
 
 <a href="">
@@ -116,16 +116,16 @@ If you already own a web address you are able to add a new record using the TXT 
 </a>
 
 
-Ọ ga-ewe oge iji gbasaa site na netwọk tupu ị nwee ike ile ya anya.
+Ọ ga-ewe oge ịgbasa n'ime netwọk tupu ị nwee ike ịhụ ya.
 
-*Ekele! Ị nwere ebe nrụọrụ weebụ na-eguzogide ọgwụ.*
+*Ekele! Ị nwere ugbu a weebụsaịtị na-eguzogide censorship.*
 
 ____
 
-** Akụnụba **
+**Akụrụngwa**
 
-[Ihe ndekọ IPFS](https://docs.ipfs.tech/)
+[Dokumenteshọn IPFS](https://docs.ipfs.tech/)
 
-[Ihe ndekọ IPNS](https://docs.ipfs.tech/concepts/ipns/)
+[Dokumenteshọn IPNS](https://docs.ipfs.tech/concepts/ipns/)
 
-[DNS njikọ Docs](https://dnslink.io/#introduction)
+[Docs njikọ DNS](https://dnslink.io/#introduction)

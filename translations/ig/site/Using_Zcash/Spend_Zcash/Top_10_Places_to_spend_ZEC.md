@@ -2,288 +2,288 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Ebe ndị a ga-eji ZEC eme ihe na ha
+# Ebe Ị Ga-emefu ZEC
 
-N'oge a, mgbe nlekota (nke okwu ahụ bụ "nghọta") na-abụ ihe dị mkpa maka ndị ọchịchị na ụwa ego, nzuzo dịka ikike mmadụ yiri ka ọ ga-adị ala.
+N'oge ugbu a, mgbe nlekota (nke okwu *ngosipụta ìhè) anaghị ekpuchi nke ọma*  aghọwo ihe a na-ahụkarị, karịsịa n'aka gọọmenti na ụwa ego, Nzuzo [privacy], dịka ikike mmadụ, yiri ka a naghị ele ya anya nke ọma.
 
-Kaosinadị, gbasara ụzọ ọhụrụ nke ego, enwere ndị mmadụ -dịka Zcash- na arụ ọrụ n'ilekọta nchekwa gị na nzuzo gị, naanị maka ha dị mkpa-.
+Ka o sina dị, n'ihe gbasara ụzọ ego ọhụrụ, e nwere ndị mmadụ—dịka Zcash—na-arụ ọrụ ilekọta nchekwa na Nzuzo gị, naanị n'ihi na ha dị mkpa.
 
-Zcash  with ZEC offers both enhanced privacy and security features. But, as a a very first step for adoption and use starts with the fact that more (real) businesses, stores and people offering services are accepting **ZEC** as a payment option., 
+Zcash  na ZEC na-enye ma Nzuzo ka mma na atụmatụ nchekwa. Ma, nzọụkwụ mbụ maka nnabata na ojiji na-amalite n'eziokwu na ọtụtụ azụmahịa, ụlọ ahịa na ndị na-enye ọrụ na-anabata **ZEC** dịka nhọrọ Kwụọ ụhwọ [payment]., 
 
-## Gịnị mere ị ga-eji nabata ZEC?
+## Gịnị kpatara ịnakwere ZEC?
 
-Ọ bụrụ na ị nwere ụlọ ọrụ ma ọ bụ ree ngwaahịa ma ọ bụkwanụ ọrụ, i nwere ike ịchọ ịnata Zcash. Gịnị kpatara ya? N'ebe a, ụfọdụ n'ime ọtụtụ ihe ndị ahụ mere e ji eji ya eme ihe nakwa uru dị iche iche o nwere ike ịbụ maka iji ya akwụ ụgwọ gị. 
+Ọ bụrụ na ị nwere ụlọọrụ ma ọ bụ na-ere ngwaahịa ma ọ bụ ọrụ ọ bụla, ị nwere ike ịchọ ịnata Zcash. Gịnị kpatara ya? N'ebe a, e nwere ụfọdụ n'ime ọtụtụ ihe kpatara ya na uru ị nwere ike ịtụle ya dịka usoro Kwụọ ụhwọ gị. 
 
-- **Enhance privacy. |** Unlike well-known and traditional payment methods, Zcash, thanks to zk-SNARKs, keeps your transactions safe and private by being shielded (not publicly visible) on the blockchain and data implied in transactions are relevant (and visible) to both, sender and receiver only.
-- **Faster and more cost-effective payment method. |** ZEC transactions are direct and no third parties needed (such as banks), making processing time shorter and fees lower than traditional payment methods, so you can forget about Paypal. Now you know that’s not a *suitable* option.
-- **Mmụba ndị ahịa gị.** Ọ bụrụ na ị nabata ZEC, ụlọ ọrụ / ngwaahịa ma ọ bụ ọrụ gị nwere ike dọta ọtụtụ mmadụ chọrọ iji cryptocurrencies.
-- **Promote and enhance customer loyalty. |** By tapping in this market segment and let people know your place is accepting ZEC, this can give you an advantage and preference among usual and potential customers, who would turn to you any time they need to spend their ZEC.
-- ** Mee ka ihe dị iche na * ọhụrụ.  Mgbe ị na-ekpebi ịnabata ZEC n'ụlọ ahịa gị, azụmahịa ma ọ bụ ọbụna inye ọrụ dịka onye ọkwọ ụgbọala tagzi, ịnwere ike idowe onwe gị n'etiti ndị nwere ụdị ego, ụgwọ na obi ụtọ dịgasị iche.
+- **Mee Nzuzo ka mma. |** N'adịghị ka usoro Kwụọ ụhwọ ndị a ma ama na ndị ọdịnala, Zcash, n'ihi zk-SNARKs, na-edobe Azụmahia [transaction] gị n'enweghị nsogbu na na nzuzo site n'ịbụ nke e chebere echebe [shielded] (nke anaghị apụta n'ihu ọha) na blockchain [blockchain], ebe data dị na Azụmahia ahụ bara uru ma a na-ahụ ya naanị n'aka onye zitere na onye natara ya.
+- **Usoro Kwụọ ụhwọ dị ngwa ma dị ọnụ ala karị. |** Azụmahia ZEC na-aga kpọmkwem, ọ dịghịkwa mkpa ndị ọzọ so na ya (dịka ụlọ akụ), nke na-eme ka oge nhazi dị mkpụmkpụ na ugwo [fee] dị ala karịa usoro Kwụọ ụhgwọ ọdịnala; ya mere, ị nwere ike chefuo Paypal. Ugbu a ị maara na nke ahụ abụghị nhọrọ *kwesịrị ekwesị*.
+- **Mụbaa ọnụ ọgụgụ ndị ahịa gị.** | Site n'ịnara ZEC, ụlọọrụ / ngwaahịa ma ọ bụ ọrụ gị nwere ike ịdọta ọtụtụ ndị mmadụ na-ahọrọ iji cryptocurrency.
+- **Kwalite ma mee ka ntụkwasị obi ndị ahịa sie ike. |** Site n'ịbanye n'akụkụ ahịa a ma mee ka ndị mmadụ mara na ebe gị na-anabata ZEC, nke a nwere ike inye gị uru na mmasị n'etiti ndị ahịa oge niile na ndị nwere ike ịbụ ndị ahịa, ndị ga-abịakwute gị oge ọ bụla ha chọrọ imefu ZEC ha.
+- **Mee ihe dị iche dịka onye *na-emepụta ọhụrụ*. |** Mgbe ị kpebiri ịnakwere ZEC n'ụlọ ahịa, azụmahịa, ma ọ bụ ọbụna n'inye ọrụ dịka onye ọkwọ ụgbọala taksi, ị nwere ike ịnọ n'etiti ndị na-akwado ụdị ego, ịkwụ ụgwọ na ntụrụndụ dị iche iche.
 
-N'iburu n'uche ihe niile dị n'elu, enwere ọtụtụ ebe ị nwere ike iji ZEC mee. Ka anyị nyochaa ihe anyị kpọrọ: 
+N'ịtụle ihe niile dị n'elu, e nwere ọtụtụ ebe ị nwere ike imefu ZEC. Ka anyị nyochaa ihe anyị kpọrọ: 
 
-## Ebe kachasị mma na-anabata ZEC.
+## Ebe kachasị na-anabata ZEC
 
  ****
 
-Karịsịa, na Venezuela, enwere ọtụtụ ebe (ebe anụ ahụ na oghere ntanetị) ebe ị nwere ike nweta ngwaahịa ma ọ bụ ọrụ wee jiri Zcash kwụọ ụgwọ... Ka anyị bido!
+Karịsịa na Venezuela, e nwere ọtụtụ ebe (ebe anụ ahụ na ebe ịntanetị) ị nwere ike nweta ngwaahịa ma ọ bụ ọrụ ma kwụọ na Zcash… Ka anyị bido!
 
-> Edepụtara ha n'usoro ọ bụla, ị ga-achọ obere akpa Zcash na njikọ netwọkụ.
+> E depụtara ha n'enweghị usoro pụrụ iche. Ị chọrọ e-akpa ego [wallet] Zcash na njikọ netwọk.
 
-[** Gastronomy - Bakery & Chocolaterie**] 
+[**Nri - Ebe a na-ere achịcha & Chocolate**] 
 
-1.  **Sheila Vargas** Foodie Blogger Onye ọchụnta ego Mentorship 
+1.  **Sheila Vargas**  | Onye hụrụ nri n'anya | Blogger | Onye ọchụnta ego | Nduzi 
 
-[@SheEmprende_ na Social Media](https://twitter.com/SheEmprende_)Ọ wụliri elu n'elu ebe a na-eme ihe nkiri ahụ site na ya ama (na delicious) **[Galletas de la FeliZidad (Nri nke obi ụtọ)](https://free2z.cash/SheEmprende/zpage/galletas-zcash)**
+[@SheEmprende_ na mgbasa ozi mmekọrịta](https://twitter.com/SheEmprende_). Ọ batara n'ọhịa a n'ihi **[Galletas de la FeliZidad](https://free2z.cash/SheEmprende/zpage/galletas-zcash)** ya ndị a ma ama (ma dị ụtọ).
 
-E wezụga kuki ya, ọ na-enye ọrụ ndị ọzọ ma nke kachasị mma bụ: ị nwere ike iji ZEC kwụọ ụgwọ!
+E wezụga kuki ya, ọ na-enye ọrụ ndị ọzọ, ihe kacha mma bụ na ị nwere ike ịkwụ na ZEC!
 
- N'ihi na ọ bụ ihe dị mkpa, anyị ga-eme ka ndị mmadụ mara banyere ya.
+ Kuki chocolate Crackle | Ebe e si nweta ya: Sheila Vargas Rojas
 
-Oat flakes & raisin cookies Ebe E Si Nweta: Sheila Vargas Rojas
+Kuki flakes oat na vaịn akpọnwụwo | Ebe e si nweta ya: Sheila Vargas Rojas
 
-Donuts na mkpụrụ osisi candied. Ebe e si nweta ya: Sheila Vargas Rojas 
+Doughnut nwere mkpụrụ osisi e mere ka ọ dị ụtọ | Ebe e si nweta ya: Sheila Vargas Rojas | 
 
 [https://twitter.com/Edicksonjga/status/1656458011278204929?t=oRSUKXQ71IsTv0tcqY10tA&s=19](https://twitter.com/Edicksonjga/status/1656458011278204929?t=oRSUKXQ71IsTv0tcqY10tA&s=19)
 
-Ya mere, ọ bụrụ na ị bụ onye kuki anụ ọhịa ..!
+Ya mere, ọ bụrụ na ị hụrụ kuki n'anya nke ukwuu..,
 
 ![https://media.tenor.com/Px4lboKQYbYAAAAC/champagne-barbie-cookie-monster.gif](/content-images/champagne-barbie-cookie-monster-ded97640a2.webp)
 
-Ugbu a ị marala ebe i ga-eji ZEC gị emefu!
+ugbu a ị maara ebe ị ga-emefu ZEC gị!
 
-**Website**: sheemprende.com ewepụla ya ma gharazie idozi ya. Kpọtụrụ ya na [Free2Z (n'asụsụ Bekee)](https://free2z.cash/SheEmprende) | [X Ikpo okwu](https://twitter.com/SheEmprende_)
+**Weebụsaịtị**: sheemprende.com akwụsịla ma anaghị arụzi ọrụ. Kpọtụrụ ya na [Free2Z](https://free2z.cash/SheEmprende) | [Ikpo okwu X](https://twitter.com/SheEmprende_)
 
-**Zcash Unified Address:** Ọ bụrụ na ị chọrọ ka a zụọ gị, biko kpọtụrụ anyị. 
+**Zcash Adreesị akpa ego jikọtara ọnụ [Unified Address]:** 
 
 ```
 u1pu63k8tfcf0v06qr6f9qn3qpfh2hj8wjnc3wchguaqy2jc9xxmf4f424jns282qfwzvs6qq3tcd9erv3udraj435hl7r6pz3q5ehdjnha2ve9c4ley9l0wh8um9s0zlvqungxexjerfkp8gjvemgtp6pgm694txw5p0mw4at49jzwcxygy7c72gceph340zscg7kscqhqw2yzg3alkh
 ```
 
- Caracas - Venezuela 
+📍 Caracas - Venezuela 
 
 ---
 
-1. **Somos Dulceros nke Rosa Rangel** 
+1. **Somos Dulceros |  Nke Rosa Rangel** 
 
-Rosa Ma. Rangel, an Computer engineer  by profession but *chocolatière* by conviction, self-confessed chocolate lover and passionate for bakery and  pastry, offers a wide range of artisanal products from chocolate, traditional venezuelan sweet treats and bakery. 
+Rosa Ma. Rangel bụ injinia kọmputa n'ọrụ, ma *chocolatière* n'ihi nkwenye; ọ hụrụ chocolate n'anya ma nwee mmasị siri ike n'ịme achịcha na pastry, na-enye ọtụtụ ngwaahịa aka e ji mee site na chocolate, nri ụtọ ọdịnala Venezuela na achịcha. 
 
-Mkpụrụ osisi a mịrị amị na chocolate strawberry 
+Mkpụrụ osisi akpọnwụwo & chocolate strawberry 
 
-Rosa ji mpako mụmụọ ọnụ ọchị na-egosi na ọ nabatara **Zcash.**
+Rosa ji ọṅụ na-egosi na ọ na-anabata **Zcash.**
 
-**Website**: somosdulceros.com a lara ezumike nká ma gharazi idozi ya, jiri njikọ ndị dị n'okpuru ebe a na-elekọta mmadụ.
+**Weebụsaịtị**: somosdulceros.com akwụsịla ma anaghị arụzi ọrụ. Jiri njikọ mgbasa ozi mmekọrịta ndị dị n'okpuru.
 
-**Mgbasa mgbasa ozi:** [Instagram](https://www.instagram.com/somos_dulceros) | [X Ikpo okwu](https://twitter.com/RosaMRangel) | [Free2Z (n'asụsụ Bekee)](https://free2z.cash/Criptodulceros/zpage/criptodulceros-01)
+**Mgbasa ozi mmekọrịta:** [Instagram](https://www.instagram.com/somos_dulceros) | [Ikpo okwu X](https://twitter.com/RosaMRangel) | [Free2Z](https://free2z.cash/Criptodulceros/zpage/criptodulceros-01)
 
-**Zcash Unified Address:** Ọ bụrụ na ị chọrọ ka a zụọ gị, biko kpọtụrụ anyị. 
+**Zcash Adreesị akpa ego jikọtara ọnụ:** 
 
 ```
 u12vp85edmrkqy9uvall4wqqn2s9fx8nm5phsxu2nyme5yh8hn5xh8mv3qgunynskjy3t0w89234a83rv8vpy98k7ztghur22z6fdrjpvjscjxtdwfj5w0dfj6jv6pw3ns5lx257lsndfe0ul2mer22kzanphyjvaxgxydfkwm9rvww78gd2n9xadfdyxr50430d3hwz59c4hhjaq5qyh
 ```
 
- Caracas - Venezuela 
+📍 Caracas - Venezuela 
 
 ---
 
-[**Crafting. Design. Ndị na-ahazi oriri]**
+[**Ọrụ aka | Nhazi | Ndị na-ahazi mmemme]**
 
-1. * Akwụkwọ ndị na-acha odo odo site Elizabeth B. SILVER*
+1. **Papeles a Color** | Nke **Elizabeth** **B.**
 
-Elizabeth bụ nne na-eto eto nwere obi ụtọ nke hụrụ ọrụ aka n'anya. O nwere mkpali kachasị maka itinye onwe ya n'ihe ọ bụla o mere: ezinụlọ ya*.💙*
+Elizabeth bụ nne na-eto eto nwere mmasị siri ike n'ọrụ aka na nhazi. O nwere mkpali kachasị mkpa nke na-eme ka ọ raara onwe ya nye n'ihe niile ọ na-eme: ezinụlọ ya*.💙*
 
-**Blọọgụ:** 
+**Blog:** 
 
 [https://papelesacolor.blogspot.com/](https://papelesacolor.blogspot.com/) 
 
-A na-akwalite ụmụ gị? **Papeles a color** nwere ike inyere gị aka ime emume maka ihe ha rụzuru.
+Ụmụ gị hà na-aga n'ọkwa ọzọ? **Papeles a color** nwere ike inyere gị aka ime emume maka mmezu ha.
 
-Ihe dị iche na nke pụrụ iche? ** Zcash** ntọala chaja ekwentị mkpanaaka!
+Ị chọrọ ihe dị iche na nke pụrụ iche? Ntọala chaja ekwentị mkpanaaka **Zcash**!
 
-Ụfọdụ ihe ndị ọzọ mara mma Papeles a Color ji aka ha rụọ.
+Ụfọdụ n'ime ihe ndị ọzọ mara mma Papeles a Color ji aka eme.
 
 ---
 
-**Mgbasa mgbasa ozi** 
+**Mgbasa ozi mmekọrịta** 
 
-[Instagram](https://instagram.com/papelesacolor) | [Free2Z (n'asụsụ Bekee)](https://free2z.cash/PapelesaColor) 
+[Instagram](https://instagram.com/papelesacolor) | [Free2Z](https://free2z.cash/PapelesaColor) 
 
-[Osisi njikọ](https://linktr.ee/Papelesacolor)
+[Linktree](https://linktr.ee/Papelesacolor)
 
-**Zcash Unified Address** (Adreesị ZCash dị n'otu) 
+**Zcash Adreesị akpa ego jikọtara ọnụ** 
 
 ```
 u1u7unmxgr6efh0l94hz0ag6zku4rjeuuarhql5xsnt744e2lu0dsmhrye5a6mlahw067atgh6x0ykaxrsdraepu08qhu5f6e3udmpl72a8vtsclwwvx9ux2mmk5jyy83asu5957pwac07jhmpgn7unz96dljetqylp34l5mvj3grjwqm7wmdxgcyehhnntafrl5r727klaklt29lykvg
 ```
 
- San Juan de los Morros - Venezuela. 
+📍 San Juan de los Morros - Venezuela. 
 
 ---
 
-**[Iwulite obodo  Digital Marketing  Nhazi Weebụ  Vidio [**]
+**[Iwulite Obodo | Mgbasa ozi dijitalụ | Nhazi Weebụ | Vidio]**
 
-1. ** Ndị ọrụ Digitales nke Venezuela**
+1. **Emprendedoras Digitales de Venezuela**
 
-Ị chọrọ inwe mmetụta nke ịbụ onye e nyere ike? Emprendedoras Digitales de Venezuela bụ ebe dị mma ịmalite. Ọ na-esite n'otu ìgwè ụmụ nwanyị mara mma ma nwee ọmarịcha ụlọ ọrụ nwere ebumnuche Aura Brito duziri ya. 
+Ị chọrọ inwe mmetụta na ị *nwere ike?*  **Emprendedoras Digitales de Venezuela** bụ ebe dị mma ịmalite**.** Ọ bụ otu ụmụ nwanyị ọchụnta ego mara mma ma dị ịtụnanya, ndị Aura Brito na-edu n'ebumnuche ha. 
 
-**EDVE,** lekwasịrị anya na ụmụ nwanyị ndị ọchụnta ego,** nyere ọtụtụ ọrụ metụtara:
+**EDVE,** nke na-elekwasị anya n'ụmụ nwanyị ọchụnta ego**,** na-enye ọtụtụ ọrụ metụtara:
 
-• mmepe echiche azụmahịa. 
+• mmepe echiche azụmahịa 
 
-• iwulite akara.., n'etiti ndị ọzọ. Na-eche mgbe niile banyere nwanyị ọ bụla nọ na Venezuela chọrọ ịchịkwa azụmahịa nke aka ha. 
+• iwulite akara azụmahịa..,  tinyere ndị ọzọ. Ha na-eche mgbe niile gbasara nwanyị ọ bụla na Venezuela chọrọ ijikwa azụmahịa nke ya. 
 
 ![https://i0.wp.com/emprendedorasdigitales.org/wp-content/uploads/2020/07/cropped-logo-nuevo_Mesa-de-trabajo-1-scaled-1.jpg?resize=300%2C208&ssl=1](/content-images/cropped-logo-nuevo_Mesa-de-trabajo-1-sca-ba7d9d40e8.webp)
 
-** Ebe nrụọrụ weebụ**: [https://emprendedorasdigitales.org/](https://emprendedorasdigitales.org/) 
+**Weebụsaịtị**: [https://emprendedorasdigitales.org/](https://emprendedorasdigitales.org/) 
 
-**Mgbasa mgbasa ozi:** 
+**Mgbasa ozi mmekọrịta:** 
 
-[Instagram](https://instagram.com/emprendedorasdigitalesve) |  [Ihe nkedo ahụ.](https://twitter.com/EmpreDigiVE) | [Telegram](https://t.me/emprendedorasdigitalesve) | [Njikọ LinkedIn](https://www.linkedin.com/company/emprendedorasdigitalesve/) 
+[Instagram](https://instagram.com/emprendedorasdigitalesve) |  [Ikpo okwu](https://twitter.com/EmpreDigiVE) | [Telegram](https://t.me/emprendedorasdigitalesve) | [LinkedIn](https://www.linkedin.com/company/emprendedorasdigitalesve/) 
 
-**Unified Address:** Onye na-ahụ maka ọrụ ahụ bụ onye isi ụlọọrụ. 
+**Adreesị akpa ego jikọtara ọnụ:** 
 
 ```
 u14g5wzyan35s5fq4glf7hsf0wteuskr3dgfs25wkr2tk5dq6sqrfpq8pqmme5yp7c3eq42tlssgv5hw7def5anezwzgyp857uw2gjjk7zwxdz9p6m8uxg05mhsgwxnxndn42k4mxmxftuqpmvet4vl7uf8a0m5q2e65lwyl8fq0425ys6ny8un6g5j07t0vxlwauhps605zypydl9h44
 ```
 
- San Antonio de los Altos - Venezuela 
+📍 San Antonio de los Altos - Venezuela 
 
 ---
 
-1. **GorBrit Social Media** Ndị na-eme ihe nkiri a bụ ndị otu ya.
+1. **GorBrit Social Media**
 
-Ebe a nke **Roosevelt Gordones na Aura Brito** chịrị, nwere ọrụ ndị metụtara:
+Ebe a nke **Roosevelt Gordones na Aura Brito** na-achị na-enye ọrụ metụtara:
 
-- Ibe weebụ / Nhazi Weebụ
-- Onye na-anabata ndị ọbịa
-- Ịmepụta akara /ịgba ahịa azụmaahịa
-- Atụmatụ mgbasa ozi mmekọrịta mmadụ na ibe ya
+- Ibe weebụ / Nhazi weebụ
+- Hosting
+- Iwulite akara azụmahịa / Ndụmọdụ azụmahịa
+- Atụmatụ mgbasa ozi mmekọrịta
 
-** Ebe nrụọrụ weebụ**: [https://gorbrit.com/](https://gorbrit.com/) 
+**Weebụsaịtị**: [https://gorbrit.com/](https://gorbrit.com/) 
 
-**Mgbasa Ozi Ọha na eze**
+**Mgbasa Ozi Mmekọrịta**
 
-[Telegram](https://t.me/gorbritsm) | [Instagram](https://www.instagram.com/gorbritsm/) |  [X Ihe nkesa](https://twitter.com/GorBritSM) | 
+[Telegram](https://t.me/gorbritsm) | [Instagram](https://www.instagram.com/gorbritsm/) |  [Ikpo okwu X](https://twitter.com/GorBritSM) | 
 
-GorBrit na-anabata usoro ịkwụ ụgwọ dị iche, gụnyere Cryptocurrencies, n'etiti nke ahụ bụ ** Zcash. *
+GorBrit na-anabata usoro Kwụọ ụhwọ dị iche iche, gụnyere Cryptocurrencies, nke otu n'ime ha bụ **Zcash.**
 
-**Adreesị dị n'otu** 
+**Adreesị akpa ego jikọtara ọnụ** 
 
 ```
 u1l2lxdx2en962h3utm24fthm0r9q5cxc4705jeatq4lckm92k06htdk8jear9tsay7w8xz4najnv0mpnngalctdtqnh9dv3d4fsr3lqxk0jhgfukujzca752eqj4pyeklgymk0j72lfs85r3vnpx48jkgk5v0zk5zl7nx4mlyaxq7xm0k7wfjnt9h86d4wxvrm45w358qkd60cdckp4h
 ```
 
- Caracas - Venezuela. 
+📍 Caracas - Venezuela. 
 
-N'onwe ya na ọrụ ntanetị. 
+Ọrụ n'onwe na n'ịntanetị. 
 
 ---
 
-1. **RobmarEscool** Ọ bụ onye na-eme ihe ike. 
+1. **RobmarEscool** 
 
-E wezụga ịbụ onye mmebe dijitalụ, Robmar bụ onye na-ese foto nke na-ewepụtakwa oge iji kụziere **ụlọ ọrụ nkuzi** gbasara **foto na ngwaọrụ metụtara ya**, ma n'oge a ọ gbasawokwa okwu banyere zcash. 
+E wezụga ịbụ onye na-emepụta ihe dijitalụ, Robmar bụ onye na-ese foto nke na-ewekwa oge ịkụzi **workshops** gbasara **fotografi na ngwá ọrụ metụtara ya**, ma n'otu oge ahụ na-agbasakwa ozi gbasara zcash 
 
-A maara ọrụ ya nke ọma na gburugburu ebe obibi Zcash n'ihi onyinye ya maka klọb ZFAV.
+A maara ọrụ ya nke ọma n'ime gburugburu Zcash n'ihi onyinye ya na klọb ZFAV.
 
-• Ime vidio / idezi ya .
+• Ime / idezi vidio
 
-• Ịmepụta akara ngosi & Animation
+• Ịmepụta logo & Animation
 
-• Podcast ọdịyo / video mbipụta 
+•  Idezi ọdịyo/ vidio Podcast 
 
-**Mgbasa mgbasa ozi:**
+**Mgbasa ozi mmekọrịta:**
 
-[Telegram](https://t.me/Robmarn) | [X Ikpo okwu](https://twitter.com/robmarn) | [Free2Z (n'asụsụ Bekee)](https://free2z.cash/robmarn)
+[Telegram](https://t.me/Robmarn) | [Ikpo okwu X](https://twitter.com/robmarn) | [Free2Z](https://free2z.cash/robmarn)
 
-Barquisimeto - Venezuela 
+📍Barquisimeto - Venezuela 
 
-**[Mma  Manịkọl  Aka na Ntu nlekọta  Ihe ndị e ji eme ihe [**] 
+**[Mma | Manicure | Nlekọta Aka & Mkpịsị Aka | Ngwa mma]** 
 
-1. **Karin Beauty Studio nke Karin Gordones**
+1. **Karin Beauty Studio | Nke Karin Gordones**
 
-Mkpịsị ụkwụ mara mma, aka dị mma ekele Karin Beauty Studio.
+Mkpịsị aka mara mma, aka mara mma n'ihi Karin Beauty Studio.
 
-**Mgbasa mgbasa ozi:** 
+**Mgbasa ozi mmekọrịta:** 
 
 [Instagram](https://instagram.com/karinbeautystudio) 
 
-**Unified Address:** Onye na-ahụ maka ọrụ ahụ bụ onye isi ụlọọrụ. 
+**Adreesị akpa ego jikọtara ọnụ:** 
 
 ```
 u1nvhfur5lruk4lzy7v5j4wqs65rvslk7tvgxvcjpe7f8u08vjs98rsg9sralpnwgzzkevtr6k2flh7g9hqqk07m9eff222ljyg9ge2d7upx9ycr9lqzmwmww05npwypmw5t2cvt32tnuylnud4qts3hq2af5w50t3czatklrv5f7spwpfasjdr3rm7qpklpmvv5fc5vpl2spyysvvwra
 ```
 
- El Valle - Caracas - Venezuela 
+📍 El Valle - Caracas - Venezuela 
 
-Ọrụ ụlọ (Caracas; San Antonio de los Altos)
+Ọrụ n'ụlọ (Caracas | San Antonio de los Altos)
 
-Ịkpọ oge ọ ga- abịa . 
+Hazie oge ọhụhụ 
 
 ---
 
-1. **Corona de Brillitos.** Nke Gissell dere. B** 
+1. **Corona de Brillitos.** | Nke **Gissell** **B**. 
 
-Ị ma ihe dị ịtụnanya gbasara Zcash? inwe ndị mmadụ dịka Gissell, nwa agbọghọ gbara afọ iri na isii nke hụrụ ọrụ aka n'anya, imepụta ngwa mma mara mma maka ụmụ nwanyị. ịmara na ọ bụzị ya ka o ji eji Zcash eme ahịa ya a na-aga aga
+Ị maara ihe dị ịtụnanya gbasara Zcash? Inwe ndị dị ka Gissell, nwa agbọghọ dị afọ 16 hụrụ ọrụ aka n'anya, na-eme ngwa mma ụmụ agbọghọ mara mma, ma ịmata na n'oge afọ ya, ọ na-eji Zcash n'azụmahịa ya na-aga nke ọma
 
-Ọmarịcha ihe ngosi mara mma maka scrunchies Corona de brilllitos 
+Ngosipụta mara mma ma dị ọcha maka scrunchies | Corona de brillitos 
 
-**Mgbasa Ozi Ọha na eze**
+**Mgbasa Ozi Mmekọrịta**
 
 [Instagram](https://instagram.com/coronadebrillitos) 
 
-**Zcash Unified Address** (Adreesị ZCash dị n'otu) 
+**Zcash Adreesị akpa ego jikọtara ọnụ** 
 
 ```
 u154h5wxyqf5lr4hdraqzc2n8x8398x6u95km2z7ryx8k5tdpjym59xqvlz54kq6pd96q5xrsxrmtcpl886s3kayxzfy4lhhdegr2a9ahghtuv9gwgc74wc6xf7p48gktq065nxzgvyvt7ka3jm0nzm8skydyjp8n2s47wu769j87f9vk84gz6mxzvrfjzm09m2zew80msv7efueeltfx
 ```
 
- San Juan de los Morros - Venezuela 
+📍 San Juan de los Morros - Venezuela 
 
 ---
 
 **[Ọrụ kọmputa]**
 
-1. ** Teknopapapi** 
+1. **Tecnopapapi** 
 
 Nke ahụ bụ @Lexihel - Alexis López Abreu.
 
-Ị nwere nsogbu ọ bụla na PC gị maọbụ ekwentị Android? 
+Ị nwere nsogbu ọ bụla na PC gị ma ọ bụ ekwentị Android? 
 
 Tecnopapapi bụ onye kwesịrị ekwesị ịkpọtụrụ! 
 
-• Ọrụ Kọmputa (Windows) 
+• Ọrụ kọmputa (Windows) 
 
-• Sistemụ arụmọrụ Android (ekwentị)
+• Sistemụ Ọrụ Android (ekwentị)
 
-** Ebe nrụọrụ weebụ** 
+**Weebụsaịtị** 
 
 [https://tecnopapapi.com](https://tecnopapapi.com/)
 
-**Mgbasa mgbasa ozi** 
+**Mgbasa ozi mmekọrịta** 
 
-Free2Z. (ụda olu) [Telegram](https://t.me/Lexihel) | [YouTube](https://youtube.com/@tecnopapapi) | [X Ikpo okwu](https://twitter.com/tecnopapapi) | [TikTok](https://www.tiktok.com/@lexihel) | [Instagram](https://www.instagram.com/tecnopapapi/) |  [Facebook (ụda)](https://www.facebook.com/tecnopapapi) 
+Free2Z | [Telegram](https://t.me/Lexihel) | [YouTube](https://youtube.com/@tecnopapapi) | [Ikpo okwu X](https://twitter.com/tecnopapapi) | [TikTok](https://www.tiktok.com/@lexihel) | [Instagram](https://www.instagram.com/tecnopapapi/) |  [Facebook](https://www.facebook.com/tecnopapapi) 
 
-Tecnopapapi na-anabata cryptocurrencies (gụnyere 3ZEC) yana usoro ịkwụ ụgwọ ndị ọzọ. 
+Tecnopapapi na-anabata cryptocurrencies (gụnyere 3ZEC) na usoro Kwụọ ụhwọ ndị ọzọ. 
 
-**Unified Address**
+**Adreesị akpa ego jikọtara ọnụ**
 
 ```
 u1sa0tnr9ac7ul8ad3ftdk4pgcxuq8j9vagjwz7apf8lylryhhklu4j68745trlga62a68qtfaqllmmdpv6zghw560qgzgughejre4ekmqvzf6agtu82a8qx2s3nj3gu50ye6r06rce595rvp0k4t28ecn5kzqu53q99guuzmrej94hr4u6l34rctvwsyzdhtq2ap070qrnvcwg4tgj66
 ```
 
- San Juan de los Morros - Venezuela 
+📍 San Juan de los Morros - Venezuela 
 
-1. Jossy Mendoza - Onye ọkwọ ụgbọala.
+1. **Jossy Mendoza - Onye ọkwọ ụgbọala.**
 
-** Ọrụ ịkwọ ụgbọala** site na Caracas na mpaghara ndị ọzọ dịka: 
+**Ọrụ ịkwọ ụgbọala** site na Caracas gaa Caracas na mpaghara ndị ọzọ dịka: 
 
-Altos Mirandinos, Valles. del Tuy, Guarenas, Guatire, La Guaira, Ọdụ Ụgbọelu Mba Nile Simón Bolívar .
+Altos Mirandinos, Valles. del Tuy, Guarenas, Guatire, La Guaira, Simón Bolívar International Airport.
 
-Ọ na-anabata cryptocurrencies, gụnyere ** Zcash**
+Ọ na-anabata cryptocurrencies, gụnyere **Zcash**
 
- Maazị Mendoza na-egosi akpa ego Zango ya. Ebe e si nweta foto: Edickson Gonzalez 
+ Maazị Mendoza na-egosi e-akpa ego zingo ya. | Ebe e si nweta onyonyo: Edickson Gonzalez 
 
-**Zcash Unified Address:** Ọ bụrụ na ị chọrọ ka a zụọ gị, biko kpọtụrụ anyị.
+**Zcash Adreesị akpa ego jikọtara ọnụ:**
 
 ```
 u10jd0tcj24p9rcju047lymtp9nx38h90j09rnr4ru6e8476822saywgn6phe373q78myrf2ew2j6kstdfjnwz2d34w5ahjeae7hvag73mf3t3ect7qcuxd6yycgzwu8pchhqu23m4cmkezrxtcvzdxc7a7n4xkcqqkzwrtudzsmd947dgg0am974me4cwedn0pp7xchpqwr0n6y9uc32
@@ -291,74 +291,74 @@ u10jd0tcj24p9rcju047lymtp9nx38h90j09rnr4ru6e8476822saywgn6phe373q78myrf2ew2j6kst
 
 ---
 
-**[N'ịntanetị. Global. Ngwaahịa dijitalụ, ahịa & VPNs]**
+**[N'ịntanetị | Uwa niile | Ngwaahịa dijitalụ, ahịa & VPN]**
 
-Ihe niile dị n'elu bụ mmadụ ma ọ bụ obere azụmahịa ị nwere ike iru na Venezuela. Mmadụ anọ ndị a nọ n'ịntanetị, megheere onye ọbụla nwere akpa ego na njikọ ya, wee dozie ZEC ozugbo.
+Ihe niile dị n'elu bụ mmadụ ma ọ bụ obere azụmahịa ị nwere ike iru na Venezuela. Anọ ndị a nọ n'ịntanetị, mepere onye ọ bụla nwere e-akpa ego na njikọ, ma na-akwụ ụgwọ na ZEC kpọmkwem.
 
-1. **ZecBuy** Ngwaahịa dijitalụ. eSIM data VPN ohere
+1. **ZecBuy** | Ngwaahịa dijitalụ | Data eSIM | Ịnweta VPN
 
-ZecBuy sells private digital goods for ZEC: eSIM data plans for travel and Mullvad VPN accounts. There is no sign-up and no email address to hand over. You pick the product, pay in ZEC, and get the code.
+ZecBuy na-ere ngwaahịa dijitalụ nzuzo maka ZEC: atụmatụ data eSIM maka njem na akaụntụ Mullvad VPN. Enweghị ndebanye aha ma ọ bụ adreesị email a ga-enye. Ị họrọ ngwaahịa, kwụọ na ZEC, wee nweta koodu ahụ.
 
-** Ebe nrụọrụ weebụ**: [zecbuy.com](https://zecbuy.com/)
+**Weebụsaịtị**: [zecbuy.com](https://zecbuy.com/)
 
- N'ịntanetị. Ụwa dum
-
----
-
-1. **ZEC Market**  Ọhịa ahịa ndị ọgbọ na ibe ha
-
-A non-custodial marketplace where buyers and sellers deal with each other directly. Prices are shown in dollars and settled wallet to wallet in Zcash, shielded by default. The platform charges no fee and never holds anyone's funds, which makes it the place to look when what you want to buy is not on a list like this one.
-
-** Ebe nrụọrụ weebụ**: [zecmarket.org](https://zecmarket.org/)
-
-Ihe oru ngo gburugburu ebe obibi ndị ọzọ dị ka nke a: [Ihe Omume Ndị E Nwere n'Ọgbakọ](/zcash-community/community-projects)
-
- N'ịntanetị. Ụwa dum
+🌐 N'ịntanetị | Uwa niile
 
 ---
 
-1. **NymVPN**  Decentralized VPN na mixnet
+1. **ZEC Market** | Ahịa mmadụ na mmadụ
 
-NymVPN routes traffic through a decentralized network of nodes, with a mixnet mode that adds cover traffic so packet timing and size stop working as a fingerprint. Signing up asks for no personal information, and payment is accepted in privacy coins including Zcash, so paying for the service does not undo the privacy of using it.
+Ahịa na-abụghị nke Onye nlekota [custodial] ebe ndị zụrụ na ndị rere na-emekọrịta ihe kpọmkwem. A na-egosi ọnụ ahịa na dollar ma na-akwụ ya site n'e-akpa ego gaa n'e-akpa ego na Zcash, nke e chebere echebe na ndabara. Ikpo okwu ahụ anaghị akwụ ugwo ma ọ dịghị ejide ego onye ọ bụla, nke na-eme ka ọ bụrụ ebe a ga-achọ mgbe ihe ị chọrọ ịzụta adịghị na ndepụta dịka nke a.
 
-** Ebe nrụọrụ weebụ**: [nym.com - Onye na-eme ihe nkiri](https://nym.com/)
+**Weebụsaịtị**: [zecmarket.org](https://zecmarket.org/)
 
-Ọgụgụ ndabere: [VPNs na dVPNs](/privacy-tools/vpn-and-dvpn)
+Ọrụ gburugburu ọzọ dị ka ya: [Ọrụ Obodo](/zcash-community/community-projects)
 
- N'ịntanetị. Ụwa dum
-
----
-
-1. **Meile dVPN**  Decentralized VPN na netwọk Sentinel
-
-Meile is a dVPN client from the MathNodes team that runs on the Sentinel network, where the nodes are operated by community members rather than by a single company. Subscription plans are paid inside the app, and shielded ZEC payments are handled through BTCPay. Builds are available for Windows, macOS and Linux alongside the mobile client.
-
-** Ebe nrụọrụ weebụ**: [Meile dVPN na MathNodes](https://mathnodes.com/index.php/meile-dvpn-client-linux-os-x/) (mail.app redirects ebe a)
-
- N'ịntanetị. Ụwa dum
+🌐 N'ịntanetị | Uwa niile
 
 ---
 
-**[Nri ngwa-ngwa. [Italian]
+1. **NymVPN** | VPN decentralized na mixnet
 
-Ego: **Allegrini Ristorante** 🇪. Ebe Pizza. Nri Ịtalian. **Nke na-adịghị anya ịnabata Zcash.** 
+NymVPN na-edu okporo ụzọ data site na netwọk decentralized [decentralized] nke nodes, yana ọnọdụ mixnet nke na-agbakwunye okporo ụzọ mkpuchi ka oge na nha packets kwụsị ịrụ ọrụ dịka akara mkpịsị aka. Idenye aha anaghị achọ ozi nkeonwe ọ bụla, a na-anabatakwa Kwụọ ụhwọ na mkpụrụ ego Nzuzo gụnyere Zcash, ya mere ịkwụ ụgwọ maka ọrụ ahụ anaghị emebi Nzuzo nke iji ya.
 
-Ọrụ nnyefe. Were pụọ. Ntinye akwụkwọ
+**Weebụsaịtị**: [nym.com](https://nym.com/)
 
-**Website**: ọ dịghị. Ebe a mara ọkwa na alleginiristorante.com emezughị ma ngalaba ahụ anaghịzi edozi ya. Jiri njikọ mmekọrịta dị n'okpuru ebe a.
+Ihe ọgụgụ ndabere: [VPNs na dVPNs](/privacy-tools/vpn-and-dvpn)
 
-**Mgbasa mgbasa ozi** 
+🌐 N'ịntanetị | Uwa niile
 
-[Instagram](https://instagram.com/allegriniristorante) | [X Ikpo okwu](https://twitter.com/AllegriniRisto) | [Telegram](https://t.me/AllegriniRistorante) | [Pinterest (n'asụsụ Bekee)](https://pin.it/6z8hq6F)
+---
 
-(N'oge na-adịghị anya n'ụlọ ọrụ) [free2z.cash (nkwụnye ego)](http://free2z.cash). )
+1. **Meile dVPN** | VPN decentralized na netwọk Sentinel
 
-**Zcash Unified Address** (Adreesị ZCash dị n'otu) 
+Meile bụ onye ahịa dVPN sitere n'aka otu MathNodes nke na-arụ ọrụ na netwọk Sentinel, ebe ndị obodo na-arụ nodes kama otu ụlọọrụ. A na-akwụ atụmatụ ndebanye aha n'ime app, a na-elekọta Kwụọ ụhgwọ ZEC nke e chebere echebe site na BTCPay. E nwere builds maka Windows, macOS na Linux tinyere onye ahịa mkpanaka.
+
+**Weebụsaịtị**: [Meile dVPN na MathNodes](https://mathnodes.com/index.php/meile-dvpn-client-linux-os-x/) (meile.app na-eduga ebe a)
+
+🌐 N'ịntanetị | Uwa niile
+
+---
+
+**[Nri ngwa ngwa | Italian**]
+
+Onyinye : **Allegrini Ristorante** 🇪🇸 | Ebe Pizza | Nri Italian | **Ga-anabata Zcash n'oge na-adịghị anya.** 
+
+Ọrụ nnyefe | Were gawa | Ndoputa
+
+**Weebụsaịtị**: enweghị. E mechaghị saịtị a mara ọkwa na alleginiristorante.com, domain ahụ anaghị arụzi ọrụ. Jiri njikọ mgbasa ozi mmekọrịta ndị dị n'okpuru.
+
+**Mgbasa ozi mmekọrịta** 
+
+[Instagram](https://instagram.com/allegriniristorante) | [Ikpo okwu X](https://twitter.com/AllegriniRisto) | [Telegram](https://t.me/AllegriniRistorante) | [Pinterest](https://pin.it/6z8hq6F)
+
+(N'oge na-adịghị anya na [free2z.cash](http://free2z.cash). )
+
+**Zcash Adreesị akpa ego jikọtara ọnụ** 
 
 ```
 u10wuf4pauet00u3n4sp7l0jjer28stp5l8q3peq4ffrpvhfm0zn8up3xwewy64fyeps6r6ctv3yfmwvrrnrsseet3ety9aj48kqk52el0m0xee87t87fu86wtxq357gxz2j978rgyy799pex3amwhtc3mt2yz544tn6dcqcq48sy2lvsfp2vqjhe9skchgpgsqzjnhcnflhe2w2l465s
 ```
 
-Ọrụ nnyefe. Wepụ ihe ndị ahụ. Ntinye akwụkwọ.
+Ọrụ nnyefe | Were gawa | Ndoputa.
 
- Madrid - Spain
+📍 Madrid - Spain

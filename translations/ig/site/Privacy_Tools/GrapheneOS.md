@@ -4,106 +4,120 @@
 
 # Graphene OS
 
-GrapheneOS is a non-profit, open-source project dedicated to enhancing privacy and security on mobile devices while maintaining compatibility with Android apps. This Operating system places a strong emphasis on advancing privacy and security technologies, with a particular focus on bolstering sandboxing, exploit mitigations, and refining the permission model. Born in 2014 under the moniker **CopperheadOS**. it has since evolved into the formidable guardian of your digital privacy and security.
+## Na nkenke
 
-Ebumnuche mbụ nke GrapheneOS bụ iji wusie ike nchebe, dị ka ngwa sandbox, na-enweghị emetụta ahụmịhe onye ọrụ. 
+- **GrapheneOS** bụ sistemu arụmọrụ mkpanaka na-enweghị uru, nke mepere emepe, lekwasịrị anya na Nzuzo [privacy] na nchekwa, ma kwekọọ kpamkpam na ngwa Android a na-eji kwa ụbọchị
+- Isi ike ya gụnyere sandbox ngwa e wusiri ike, koodu na-echekwa nchekwa ebe nchekwa na mbelata exploit, verified boot nke hardware kwadoro, ikike ndị e kewara nke ọma, na nchedo ọdụ USB-C mgbe ngwaọrụ akpọchiri
+- A na-etinye ya site na installer **WebUSB gọọmentị** (a tụrụ aro maka ọtụtụ ndị ọrụ) ma ọ bụ **usoro command-line** maka ndị ọrụ nka
+- Maka onye ọrụ Zcash, ọ bụ ntọala siri ike maka njide ego onwe onye na mkpanaka: jikọta ya na e-akpa ego nke e chebere echebe [shielded wallet] nke a na-elekọta nke ọma na omume OPSEC ọkọlọtọ
 
-GrapheneOS nwere ike iwebata toggles dị iche iche maka atụmatụ ụfọdụ, dị ka ikikere Network, ikikere Sensors, ma ọ bụ mgbochi mgbe ngwaọrụ ahụ kpọchiri (na-ekpuchi akụkụ dịka USB peripherals, ịnweta igwefoto, na ngwa ngwa ngwa).
+GrapheneOS bụ oru ngo na-enweghị uru, nke mepere emepe, raara onwe ya nye n'ịkwalite Nzuzo na nchekwa n'ọrụ mkpanaka ebe ọ na-edobe ndakọrịta na ngwa Android. Sistemu arụmọrụ a na-etinye nnukwu uche n'ịkwalite teknụzụ Nzuzo na nchekwa, karịsịa n'ịkwalite sandboxing, mbelata exploit, na imezi ụdị ikike. E bidoro ya na 2014 n'okpuru aha **CopperheadOS**, ma kemgbe ahụ ọ ghọọla onye nche siri ike nke Nzuzo na nchekwa dijitalụ gị.
 
-## ** Njirimara nke GrapheneOS **
+Ebumnuche bụ isi nke GrapheneOS bụ ime ka oke nchekwa, dịka sandbox ngwa, sie ike n'emebighị ahụmịhe onye ọrụ. 
 
-** Nchebe siri ike ** GrapheneOS gụnyere ọtụtụ ndozi nchebe, dịka asụsụ mmemme nchekwa nchekwa na njirimara nchekwa nke dabeere na compiler iji belata adịghị ike nkịtị.
+GrapheneOS nwere ike iwebata switches dị iche iche maka atụmatụ pụrụ iche, dịka ikike netwọk, ikike sensors, ma ọ bụ mmachibido mgbe ngwaọrụ akpọchiri (nke na-ekpuchi ihe dịka USB peripherals, ohere igwefoto, na quick tiles). Ọzọkwa, a na-ahazi atụmatụ Nzuzo na nchekwa ndị dị mgbagwoju anya nke onye ọrụ na-ahụ nke ọma iji debe ahụmịhe dị mfe iji, nke ọ bụla nwekwara mmezi user interface nke ya.
 
-**Sandboxing** Ọ na-eme ka ngwa sandboxing dị ike iji kewapụ ngwa site na ibe, na-egbochi ndị nwere ike ịwakpo.
+## **Atụmatụ nke GrapheneOS**
 
-**Verified Boot** GrapheneOS uses hardware-backed keys and a verifiable boot process to ensure the integrity of the operating system.
+**Ime Ka Nchekwa Sie Ike** GrapheneOS gụnyere ọtụtụ nkwalite nchekwa, dịka asụsụ mmemme na-echekwa nchekwa ebe nchekwa na atụmatụ nchekwa nke compiler dabere na ya iji belata adịghị ike ndị a na-ahụkarị.
 
-**Enhanced Permissions** Ọ na-enye njikwa ka mma na ikikere ngwa, na-ekwe ka ndị ọrụ dozie ma jikwaa data ngwa nwere ike ịnweta.
+**Sandboxing** Ọ na-eme ka sandboxing ngwa sie ike iji kewapụ ngwa n'ebe ibe ha nọ, na-amachi ụzọ mwakpo nwere ike ime.
 
-**Privacy Dashboard** Ndị ọrụ nwere ike nyochaa ma jikwaa omume ngwa site na dashboard nzuzo, na-enye nghọta n'ime ojiji data.
+**Verified Boot** GrapheneOS na-eji igodo hardware kwadoro na usoro boot a pụrụ ịchọpụta iji hụ na sistemu arụmọrụ ahụ zuru oke.
 
-** Mmelite Nchedo Ejiri Mee ** GrapheneOS na-enye mmelite nchedo n'oge, na-eme ka ndị ọrụ nwee nchebe kachasị ọhụrụ megide adịghị ike.
+**Ikike E Melitere** Ọ na-enye njikwa ka mma n'elu ikike ngwa, na-ekwe ka ndị ọrụ hazie nke ọma ma jikwaa data ngwa nwere ike ịnweta.
 
-**Strong Encryption** It employs full-disk encryption by default, safeguarding data stored on the device.
+**Dashboard Nzuzo** Ndị ọrụ nwere ike nyochaa ma jikwaa omume ngwa site na dashboard Nzuzo, nke na-enye nghọta doro anya banyere ojiji data.
 
-**Nchekwa nchọgharị emelitere** A na-ahazi ihe nchọta ndabara maka nchekwa dị elu, gụnyere nchebe megide nsuso.
+**Mmelite Nchekwa Ewuru N'ime Ya** GrapheneOS na-enye mmelite nchekwa n'oge, na-ahụ na ndị ọrụ nwere nchedo kachasị ọhụrụ megide adịghị ike.
 
-**Minimal Pre-installed Apps** GrapheneOS comes with minimal pre-installed apps, reducing potential security and privacy risks.
+**Nzobe Ederede Siri Ike** Ọ na-eji Nzobe ederede [encryption] diski zuru ezu na ndabara, na-echekwa data echekwara na ngwaọrụ.
 
-** USB Hostile Port Protection** Ọ na-enye nchebe megide ịnweta ngwaọrụ site na ọdụ ụgbọ USB mgbe ngwaọrụ ahụ kpọchiri.
+**Nchekwa Browser E Melitere** A haziri browser ndabara maka nchekwa ka mma, gụnyere nchedo megide nleba anya.
 
-**Anti-Malware Protections** GrapheneOS gụnyere atụmatụ iji chọpụta ma gbochie malware a maara.
+**Ngwa Ole Na Ole Ebunyere Tupu Ya** GrapheneOS na-abịa na ngwa ole na ole eburula ụzọ tinye, na-ebelata ihe egwu nchekwa na Nzuzo nwere ike ịdị.
 
-**Focused on Privacy** The OS is designed with a strong emphasis on user privacy, minimizing data collection and exposure.
+**Nchedo Ọdụ USB Megide Ime Ihe Ọjọọ** Ọ na-enye nchedo megide ohere enweghị ikike ịbanye na ngwaọrụ site n'ọdụ USB mgbe ngwaọrụ akpọchiri.
 
-**Open Source** Ọ bụ ọrụ mepere emepe, na-enye ohere maka nghọta na onyinye obodo iji melite nchekwa.
+**Nchedo Megide Malware** GrapheneOS gụnyere atụmatụ iji chọpụta ma gbochie malware ama ama.
 
-**Iwu Nchedo nwere ike ịhazi ya** Ndị ọrụ nwere ikike ịhazi iwu nchekwa dị iche iche iji kwekọọ na mmasị ha.
+**E Lekwasịrị Anya na Nzuzo** E ji nnukwu uche na Nzuzo onye ọrụ hazie OS a, na-ebelata nchịkọta na mkpughe data.
 
-**Compatibility** GrapheneOS strives to maintain compatibility with Android apps, so users can continue using their favorite applications while benefiting from enhanced security and privacy features.
+**Open Source** Ọ bụ oru ngo mepere emepe, na-enye ohere maka nghọta doro anya na onyinye obodo iji melite nchekwa.
+
+**Atumatu Nchekwa A Pụrụ Ịhazigharị** Ndị ọrụ nwere ike ịhazi atumatu nchekwa dị iche iche ka ọ dabara na mmasị ha.
+
+**Ndakọrịta** GrapheneOS na-agbalị idobe ndakọrịta na ngwa Android, ka ndị ọrụ wee gaa n'ihu na-eji ngwa kachasị amasị ha ma na-erite uru n'atụmatụ nchekwa na Nzuzo emelitere.
 
 ## **Ịwụnye GrapheneOS**
 
-Dịka e kwuru na ngalaba omume kachasị mma, a na-atụ aro ka ị jiri ntuziaka nhazi nhazi nke akwadoro. E nwere ụzọ abụọ iji wụnye GrapheneOS nke bụ ma ọ bụ site na iji [WebUSB-based installer](https://grapheneos.org/install/web) ma ọ bụ jiri akwụkwọ ntuziaka ntinye akara iwu](https://grapheneos.org/install/cli)
+Dịka e kwuru na ngalaba omume kacha mma, a tụrụ aro ka e jiri ntuziaka nrụnye gọọmentị a tụrụ aro. E nwere ụzọ abụọ isi wụnye GrapheneOS: iji installer dabere na [WebUSB](https://grapheneos.org/install/web) ma ọ bụ iji [ntuziaka nrụnye command-line](https://grapheneos.org/install/cli)
 
-** Web USB Based Installation ** Iji wụnye GrapheneOS site na iji usoro ntinye weebụ, ị ga-achọkarị ihe ndị na-esonụ na ihe onwunwe:
+**Nrụnye Dabere na Web USB** Iji wụnye GrapheneOS site n'usoro Web installer, ị ga-achọkarị ihe na akụrụngwa ndị a:
 
-- 2GB nke ebe nchekwa efu & 32GB nke ohere nchekwa efu.
-- USB Cable (A ma ọ bụ C)
-- Sistemụ arụmọrụ akwadoro: Windows 10, Windows 11, macOS Big Sur (11 - 13), Arch Linux, Debian (10 - 12), Ubuntu (22.04, 22.10 na 23.04), ChromeOS, GrapheneOS, Google Android (ngwaahịa Pixel OS)
-- Nchọgharị akwado: Chromium (anaghị akwado ya na Ubuntu), Vanadium (GrapheneOS), Google Chrome, Microsoft Edge, Brave Browser.
+- 2GB nke ebe nchekwa efu na 32GB nke ohere nchekwa efu.
+- Eriri USB (A ma ọ bụ C)
+- Sistemu arụmọrụ akwadoro: Windows 10, Windows 11, macOS Big Sur (11 - 13), Arch Linux, Debian (10 - 12), Ubuntu (22.04, 22.10 na 23.04), ChromeOS, GrapheneOS, Google Android (stock Pixel OS)
+- Browsers akwadoro: Chromium (anaghị akwado ya na Ubuntu), Vanadium (GrapheneOS), Google Chrome, Microsoft Edge, Brave Browser.
 
-Lelee Ntuziaka Ntinye site na njikọ dị n'okpuru ma soro usoro ntinye
+Lelee Ntuziaka nrụnye site na njikọ dị n'okpuru ma soro usoro nrụnye ahụ
 
-[GrapheneOS Web Installer Nduzi](https://grapheneos.org/install/web#prerequisites)
+[GrapheneOSNtuziaka Web Installer](https://grapheneos.org/install/web#prerequisites)
 
-**Command Line installation** The command line installation is not recommended for users who are not technically oriented and the below tools and resources are required for the Command Line Installation;
+**Nrụnye Command Line** A naghị atụ aro nrụnye command line maka ndị ọrụ na-enweghị nkà nka, a chọkwara ngwá ọrụ [tools] na akụrụngwa ndị a maka Nrụnye Command Line;
 
-- Ị ga-enwerịrị ma ọ dịkarịa ala 2GB nke ebe nchekwa efu na 32GB nke ohere nchekwa efu
-- USB Cable (A ma ọ bụ C)
-- Sistemụ arụmọrụ akwadoro Windows 10 Windows 11 macOS Big Sur (11) macOS Monterey (12) macOS Ventura (13) Arch Linux Debian 10 (buster) Debian 11 (bullseye) Debian 12 (bookworm) Ubuntu 20.04 LTS Ubuntu 22.04 Lts Ubuntu 22.10 Ubuntu 23.04
-- Web Installer site na Android, ChromeOS ma ọ bụ GrapheneOS
+- Ị kwesịrị ịnwe opekata mpe 2GB nke ebe nchekwa efu na 32GB nke ohere nchekwa efu
+- Eriri USB (A ma ọ bụ C)
+- Sistemu arụmọrụ akwadoro Windows 10 Windows 11 macOS Big Sur (11) macOS Monterey (12) macOS Ventura (13) Arch Linux Debian 10 (buster) Debian 11 (bullseye) Debian 12 (bookworm) Ubuntu 20.04 LTS Ubuntu 22.04 LTS Ubuntu 22.10 Ubuntu 23.04
+- Web Installer sitere na Android, ChromeOS ma ọ bụ GrapheneOS
 
-Lelee Ntuziaka Ntinye site na njikọ dị n'okpuru ma soro usoro ntinye 
+Lelee Ntuziaka nrụnye site na njikọ dị n'okpuru ma soro usoro nrụnye ahụ 
 
-[Ntinye akara iwu](https://grapheneos.org/install/cli#prerequisites)
+[Nrụnye Command Line](https://grapheneos.org/install/cli#prerequisites)
 
-## **Omume Kasị Mma**
+## **Omume Kacha Mma**
 
-**Keep the OS Up to Date** Regularly update GrapheneOS to ensure you have the latest security patches and enhancements.
+**Debe OS Ka Ọ Dị Ugbu A** Na-emelite GrapheneOS mgbe niile iji hụ na i nwere patches nchekwa na nkwalite kachasị ọhụrụ.
 
-**Jiri okwuntughe siri ike** Tinye okwuntughari siri ike, pụrụ iche maka izo ya ezo ngwaọrụ na ngwa nbanye iji gbochie ohere n'enweghị ikike.
+**Jiri Passwords Siri Ike** Tọọ passwords siri ike, pụrụ iche maka Nzobe ederede ngwaọrụ na nbanye ngwa iji gbochie ohere enweghị ikike.
 
-** Ikike Ngwa** Nyochaa ma jikwaa ikikere ngwa nke ọma, na-enye naanị ihe dị mkpa maka ngwa ọ bụla iji rụọ ọrụ.
+**Ikike Ngwa** Jiri nlezianya nyochaa ma jikwaa ikike ngwa, na-enye naanị ihe dị mkpa ka ngwa ọ bụla rụọ ọrụ.
 
-**Nchekwa oge niile** Na-eme nkwado ndabere nke data gị mgbe ọ bụla ngwaọrụ furu efu ma ọ bụ nrụrụ data.
+**Backups Mgbe Nile** Na-eme backups nke data gị mgbe niile ma ọ bụrụ na ngwaọrụ efuo ma ọ bụ data mebie.
 
-** Encrypt Storage** Ọ bụrụ na enweghi ya na ndabara, zoo nchekwa ngwaọrụ gị iji chebe data gị ma ọ bụrụ na ngwaọrụ ahụ furu efu ma ọ bụ zuru ohi.
+**Zoo Ebe Nchekwa** Ọ bụrụ na agbanyụghị ya na ndabara, zoo ebe nchekwa ngwaọrụ gị iji chebe data gị ma ngwaọrụ efuo ma ọ bụ zuo ya.
 
-**Secure Lock Screen** Jiri ihuenyo mkpọchi echedoro, dị ka PIN, paswọọdụ, ma ọ bụ njirimara biometric, iji gbochie ohere n'enweghị ikike.
+**Ihuenyo Mkpọchi Nchekwa** Jiri ihuenyo mkpọchi nchekwa, dịka PIN, password, ma ọ bụ biometric authentication, iji gbochie ohere enweghị ikike.
 
-**Zere ịgbanye mgbọrọgwụ Ngwaọrụ Android gị** Zere ịgbanyụ ma ọ bụ imeghe bootloader, ebe nke a nwere ike imebi nchekwa ngwaọrụ.
+**Zere Rooting Ngwaọrụ Android Gị** Zere rooting ma ọ bụ imeghe bootloader, n'ihi na nke a nwere ike ime ka nchekwa ngwaọrụ daa mbà.
 
-** Nyochaa Isi Iyi Ngwa** Nyochaa izi ezi nke ngwa na isi mmalite ha iji zere ịwụnye ngwanrọ ọjọọ.
+**Nyochaa Ebe Ngwa Si** Nyochaa eziokwu nke ngwa na ebe ha si bịa iji zere ịwụnye software ọjọọ.
 
-**Install a Privacy-Focused Browser** Consider using a privacy-focused browser like Brave browser, Firefox or Bromite for secure browsing.
+**Wụnye Browser Lekwasịrị Anya na Nzuzo** Tụlee iji browser lekwasịrị anya na Nzuzo dịka browser Brave, Firefox ma ọ bụ Bromite maka nchọgharị nchekwa.
 
-**Na-enyocha ngwa mgbe niile** Na-atụle ma wepu ngwa ndị ị na-ejighi ma ọ bụ tụkwasị obi iji belata elu mwakpo.
+**Na-enyocha Ngwa Mgbe Nile** Na-enyocha ma wepụ ngwa ndị ị naghị eji ma ọ bụ tụkwasị obi ọzọ n'oge ụfọdụ iji belata ohere mwakpo.
 
-**Kwado Nkwado Ihe Abụọ (2FA) ** Kwado 2FA maka akaụntụ ịntanetị gị iji gbakwunye nchekwa nchekwa ọzọ.
+**Gbanye Nyocha Ihe Abụọ (2FA)** Gbanye 2FA maka akaụntụ ịntanetị gị iji tinye oyi akwa nchekwa ọzọ.
 
-**Avoid Public Wi-Fi** Be cautious when connecting to public Wi-Fi networks, as they can be less secure. Use a VPN when necessary.
+**Zere Wi-Fi Ọha** Kpachara anya mgbe ị na-ejikọ na netwọk Wi-Fi ọha, n'ihi na ha nwere ike ghara ịdị nchebe nke ọma. Jiri VPN mgbe ọ dị mkpa.
 
-**Kpachara anya na data ọnọdụ** Belata nsuso ọnọdụ maka ngwa ma tụlee iji ngwaọrụ spoofing ọnọdụ ma ọ bụrụ na ị jiri nzuzo kpọrọ ihe.
+**Kpachara Anya na Data Ebe Ị Nọ** Machibido nleba anya ebe ịnọ maka ngwa, ma tụlee iji ngwá ọrụ ịgbanwe ebe ịnọ ma ọ bụrụ na i ji Nzuzo kpọrọ ihe.
 
-**Zere Njikọ na Mgbakwunye Amaghị** Kpachara anya maka njikọ na email na-achọghị, ebe ha nwere ike ịbụ mgbalị phishing ma ọ bụ malware.
+**Zere Njikọ na Attachments Amaghị** Kpachara anya maka njikọ na email attachments a na-achọghị, n'ihi na ha nwere ike ịbụ mgbalị phishing ma ọ bụ malware.
 
-** Nyochaa Ntọala Ntọal ** Jiri nlezianya nyochaa ma gbanwee ntọala ndabara iji kwekọọ na mmasị nzuzo gị.
+**Nyochaa Ntọala Ndabara** Jiri nlezianya nyochaa ma gbanwee ntọala ndabara ka ha kwekọọ na mmasị Nzuzo gị.
 
-**Community Support** Engage with the GrapheneOS community and forums for tips, updates, and security advice. You can contact the team and stay updated clicking [here](https://grapheneos.org/contact) iji chọpụtakwuo ndị ha na ya ga-akpakọrịta.
+**Nkwado Obodo** Soro obodo na forums GrapheneOS kparịta ụka maka ndụmọdụ, mmelite, na ndụmọdụ nchekwa. Ị nwere ike ịkpọtụrụ otu ahụ ma nọrọ na mmelite site n'ịpị [ebe a](https://grapheneos.org/contact) iji chọpụta kọntaktị ndị ọzọ.
 
-** Jiri Usoro Ntinye Ọchịchị ** GrapheneOS na-enye usoro ntinye abụọ akwadoro nke ọma. Ndị ọrụ nwere ike ịhọrọ maka onye nrụnye WebUSB, nke a na-atụ aro maka ọtụtụ ndị mmadụ, ma ọ bụ ha nwere ike ịgbaso ntuziaka ntinye iwu, ahaziri maka ndị ọrụ na-achọkarị ọrụ.
+**Jiri Usoro Nrụnye Gọọmentị** GrapheneOS na-enye ụzọ nrụnye abụọ akwadoro n'ihu ọha. Ndị ọrụ nwere ike ịhọrọ installer dabere na WebUSB, nke a tụrụ aro maka ọtụtụ mmadụ, ma ọ bụ soro ntuziaka nrụnye command-line, nke e mere maka ndị ọrụ nwere mmasị nka karịa.
 
-## ** Mmechi **
+## **Mmechi**
 
-In essence, GrapheneOS is all about providing an alternative mobile operating system that prioritizes the privacy and security of its users, giving them greater control over their digital lives while offering compatibility with the apps they rely on. It is a project that aims to set a high standard for mobile device security and privacy in an age where these concerns are paramount.
+N'isiokwu ya, GrapheneOS bụ maka inye sistemu arụmọrụ mkpanaka ọzọ nke na-ebute Nzuzo na nchekwa nke ndị ọrụ ya ụzọ, na-enye ha njikwa ka ukwuu n'elu ndụ dijitalụ ha ma na-enye ndakọrịta na ngwa ha dabere na ha. Ọ bụ oru ngo chọrọ ịtọ ụkpụrụ dị elu maka nchekwa na Nzuzo ngwaọrụ mkpanaka n'oge nchegbu ndị a kacha dị mkpa.
+
+## Peeji ndị metụtara ya
+
+- [Ndị ozi nchekwa](Secure_Messengers.md) — nkwurịta okwu nzuzo na ngwaọrụ e wusiri ike
+- [Nzobe Ederede PGP](PGP_Encryption.md) — email na mgbanwe faịlụ ezoro ezo
+- [VPN na DVPN](VPN_and_DVPN.md) — Nzuzo n'ogo netwọk na mkpanaka
+- [Web Browsers](Web_Browsers.md) — ịhọrọ ma mee ka browser mkpanaka sie ike

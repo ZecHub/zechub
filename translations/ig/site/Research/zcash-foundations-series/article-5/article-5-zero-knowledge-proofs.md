@@ -1,178 +1,179 @@
-# Ihe Akaebe Na-enweghị Ihe Ọmụma: Igosi na I Kwere Eziokwu n'Ekwughị Ihe Mere I Ji Kwere
-##### Nnyocha mbụ sitere na [Annkkitaaa](https://github.com/Annkkitaaa)
+# Zero-Knowledge Proofs: Igosipụta na Ị Ziri Ezi n'Ekweghị Ihe Mere Ya
+##### Nnyocha Mbụ sitere na [Annkkitaaa](https://github.com/Annkkitaaa)
 
-! ![Alt ederede](/content-images/image-23-71534bece9.webp)
+![alt text](/content-images/image-23-71534bece9.webp)
 
-### Ihe mkpuchi nke na-eme ka ụwa hụ ihe ọ na-apụghị ịhụ
+### Ákwà mgbochi nke na-eme ka ụwa nyochaa ihe ọ na-enweghị ike ịhụ
 
-> **Series:** *Zcash site na First Principles* . **Nkeji edemede 5.
-> Anyị na-adọta na isiokwu ọ bụla gara aga (ubi ndị nwere njedebe, usoro, nkwa, osisi Merkle), mana a na-echeta echiche ọ bụla ka anyị chọrọ ya.
-> **What you'll leave with:** an intuitive, correct understanding of what a zero-knowledge proof is, the three guarantees it makes, how arbitrary statements get proven, and what powers Zcash's Sapling and Orchard.
+> **Usoro:** *Zcash sitere na Ụkpụrụ Mbụ* . **Edemede 5 . Zero-Knowledge Proofs**
+> **Ndị e lekwasịrị anya:** ndị ọhụrụ. Anyị na-adabere n'edemede ọ bụla gara aga (finite fields, curves, commitments, Merkle trees), ma a na-echetara echiche ọ bụla mgbe anyị chọrọ ya.
+> **Ihe ị ga-enweta:** nghọta doro anya, ziri ezi banyere ihe zero-knowledge proof bụ, nkwa atọ ọ na-enye, otu e si egosi nkwupụta dị iche iche, na ihe na-enye Zcash's Sapling na Orchard ike.
 
-Nke a bụ isiokwu usoro isiokwu ahụ dum nọ na-arịgo.](article-0-shielded-transaction.md) onward we kept saying a payment is validated "behind a curtain," proven correct while revealing nothing. A zero-knowledge proof is that curtain. It's the piece that finally resolves the paradox we opened with: *how can the public verify a transaction it isn't allowed to see?*
-
----
-
-## 1. Gịnị mere o ji dị mkpa ka i lebara ha anya?
-
-Cheta nghọtahie dị n'obi Zcash:
-
-- A blockchain bụ ihe a pụrụ ịtụkwasị obi n'ihi na ọ bụ ** ọha verifiable **.
-- Ịkwụ ụgwọ Zcash bụ **n'ụzọ zuru ezu nzuzo**: ego, onye na-ezipụ, onye nnata, niile zoro ezo.
-
-Ihe ndị a yiri ka ha na-ekewapụ ibe ha. Nyocha yiri ka ọ * chọrọ * ịchọ. Nzuzo * machibidoro * ile anya. Ọ bụrụ na ịnweghị ike ime ka ha dị n'otu, ị gaghị enwe ego nke onwe gị nke onye ọ bụla tụkwasịrị obi.
-
-A **zero-knowledge proof (ZKP)** is the reconciliation. It lets a **prover** convince a **verifier** that a statement is true **without revealing anything beyond the fact that it's true.** No amounts. No identities. No note. Just: *"everything here obeys the rules."* Let's build the intuition before any machinery.
+Nke a bụ edemede usoro a dum nọ na-arịgo iru. Site na [Edemede 0](article-0-shielded-transaction.md) gaa n'ihu, anyị nọ na-ekwu na a na-akwado Kwụọ ụhwọ “n'azụ ákwà mgbochi,” na-egosi na ọ ziri ezi ebe ọ naghị ekpughe ihe ọ bụla. Zero-knowledge proof bụ ákwà mgbochi ahụ. Ọ bụ akụkụ nke n'ikpeazụ na-edozi mgbagwoju anya anyị malitere: *kedu ka ọhaneze ga-esi nyochaa Azụmahia a na-ekweghị ka ha hụ?*
 
 ---
 
-## 2. Ọgụgụ isi: ihe akaebe atọ e ji eme ihe kwa ụbọchị
+## 1. Gịnị mere ị ga-eji lekọta nke a?
 
-**Proof you know a password, without saying it.** A website could verify you know your password by watching you unlock something only the password unlocks, never seeing the password itself. You prove *knowledge* without *disclosure*.
+Cheta esemokwu dị n'obi Zcash:
 
-**The colour-blind friend and two balls.** You hold a red ball and a green ball that look identical to your colour-blind friend. You want to convince him they're *different colours* without telling him which is which. He hides both behind his back, optionally swaps them, and shows you one. You say whether he swapped. If the balls really differ, you're always right. If they were identical, you'd be guessing, right only half the time. After 20 rounds, your unbroken streak convinces him they differ, yet he never learns which ball is red. **He's convinced of a fact while learning nothing else.** That is zero knowledge in miniature.
+- Blockchain bụ nke a tụkwasịrị obi n'ihi na ọ bụ **ihe onye ọ bụla nwere ike nyochaa n'ihu ọha**.
+- Zcash Kwụọ ụhwọ bụ **nke Nzuzo kpamkpam**: ego, onye zitere ya, onye natara ya, ha niile zoro ezo.
 
-**The cave.** A ring-shaped cave has a magic door at the back that opens only with a secret word. You claim to know the word. To prove it without revealing it: a verifier waits outside while you walk in and pick the left or right passage at random. The verifier then shouts which side they want you to come *out* of. If you truly know the word, you can always comply (you can open the door to switch sides if needed). If you're bluffing, you can only come out the right side by luck, 50/50 each round. Repeat 20 times and a bluffer's odds of surviving are less than one in a million.
+Ndị a dị ka ha enweghị ike ịdịkọ ọnụ. Nyocha yiri ka ọ *chọrọ* ile anya. Nzuzo *machibidoro* ile anya. Ọ bụrụ na ị nweghị ike ime ka ha kwekọọ, ị gaghị enwe ego Nzuzo nke onye ọ bụla tụkwasịrị obi.
 
-Akụkọ banyere ọgba ahụ na-egosi n'ụzọ dị jụụ ihe atọ a na-aghaghị ime iji gosi na ị maghị ihe ọ bụla.
+**Zero-knowledge proof (ZKP)** bụ ihe na-eme ka ha kwekọọ. Ọ na-eme ka **onye na-egosi [prover]** kwenye **onye na-enyocha [verifier]** na nkwupụta bụ eziokwu **n'ekpugheghị ihe ọ bụla karịrị eziokwu ahụ n'onwe ya.** Enweghị ego. Enweghị njirimara. Enweghị note. Naanị: *“ihe niile ebe a na-agbaso iwu.”* Ka anyị wuo nghọta ahụ tupu usoro mgbagwoju anya ọ bụla.
 
 ---
 
-## 3. Ihe nchebe atọ ahụ
+## 2. Nghọta: proof atọ a na-ahụ kwa ụbọchị
 
-! ![Alt ederede](/content-images/image-24-b559d31849.webp)
+**Proof na ị maara paswọọdụ, n'ekwughị ya.** Weebụsaịtị nwere ike nyochaa na ị maara paswọọdụ gị site n'ile ka ị meghee ihe naanị paswọọdụ ahụ nwere ike imeghe, n'ahụghị paswọọdụ ahụ n'onwe ya. Ị na-egosi *ihe ọmụma* n'enweghị *mkpughe*.
 
-| Nkwa | N'akụkọ ọgba ahụ | Na Zcash |
+**Enyi anaghị ahụ agba nke ọma na bọọlụ abụọ.** Ị ji bọọlụ uhie na bọọlụ ndụ ndụ, nke yiri ibe ha nye enyi gị na-adịghị ahụ agba nke ọma. Ị chọrọ ime ka o kwenye na ha bụ *agba dị iche* n'agwaghị ya nke bụ nke. Ọ na-ezo ha abụọ n'azụ azụ ya, ọ nwere ike gbanwee ha, wee gosi gị otu. Ị na-ekwu ma ọ gbanwere ha. Ọ bụrụ na bọọlụ ndị ahụ dị iche n'ezie, ị na-adị mma mgbe niile. Ọ bụrụ na ha yiri ibe ha, ị ga na-atụrụ anya, ma bụrụ ezi naanị ọkara oge. Mgbe agba 20 gachara, usoro mmeri gị na-adịghị akwụsị na-eme ka o kwenye na ha dị iche, ma ọ ka maghị nke bọọlụ bụ uhie. **O kwenyesiri ike banyere otu eziokwu ebe ọ naghị amụta ihe ọzọ.** Nke ahụ bụ zero knowledge n'obere ihe atụ.
+
+**Ọgba ahụ.** Ọgba dị ka mgbanaka nwere ọnụ ụzọ anwansi n'azụ nke na-emeghe naanị site n'okwu nzuzo. Ị na-ekwu na ị maara okwu ahụ. Iji gosi ya n'ekpugheghị ya: onye na-enyocha na-eche n'èzí ebe ị na-abanye ma họrọ ụzọ aka ekpe ma ọ bụ aka nri na-enweghị usoro. Onye na-enyocha ahụ na-eti mkpu akụkụ ọ chọrọ ka ị *pụta* na ya. Ọ bụrụ na ị maara okwu ahụ n'eziokwu, ị nwere ike irube isi mgbe niile (ị nwere ike imepe ọnụ ụzọ ka ị gbanwee akụkụ ma ọ dị mkpa). Ọ bụrụ na ị na-agha ụgha, ị nwere ike isi n'akụkụ ziri ezi pụta naanị site n'ohere, 50/50 na agba ọ bụla. Tinyegharịa ya ugboro 20, ohere onye na-agha ụgha nwere isi lanarị dị ihe na-erughị otu n'ime nde.
+
+Akụkọ ọgba ahụ na-egosi nwayọọ nwayọọ **nkwa atọ [three guarantees]** zero-knowledge proof ọ bụla ga-enwerịrị.
+
+---
+
+## 3. Nkwa atọ ahụ
+
+![alt text](/content-images/image-24-b559d31849.webp)
+
+| Nkwa | N'akụkọ ọgba | Na Zcash |
 |---|---|---|
-| **Mmezu** | Ọ bụrụ na ị maara okwu ahụ, ị na-apụ n'akụkụ aka nri mgbe niile | Azụmahịa dị irè na-emepụta ihe akaebe a nabatara mgbe niile |
-| **Ịdị mma** | A na-ejide bluffer na nnukwu ihe nwere ike ime | Azụmahịa aghụghọ (ego adịgboroja, mmefu okpukpu abụọ) enweghị ike imepụta ihe akaebe a nabatara |
-| **Ihe ọmụma efu** | Onye nyocha ahụ anaghị anụ okwu nzuzo ahụ | Netwọk ahụ anaghị amụta ọnụọgụgụ, adreesị, ma ọ bụ ndetu nke |
+| **Izu oke [Completeness]** | Ọ bụrụ na ị maara okwu ahụ, ị na-apụta n'akụkụ ziri ezi mgbe niile | Azụmahia ziri ezi na-emepụta proof a nabatara mgbe niile |
+| **Ịdị mma [Soundness]** | A na-ejide onye na-agha ụgha n'ohere dị ukwuu | Azụmahia aghụghọ (ego e mepụtara n'aghụghọ, imefu ugboro abụọ) enweghị ike imepụta proof a nabatara |
+| **Zero-knowledge** | Onye na-enyocha anaghị anụ okwu nzuzo ahụ | Netwọk anaghị amụta ego, Adreesị akpa ego, ma ọ bụ note nke ọ bụ |
 
-If any one of these fails, the system breaks: no completeness and honest users get rejected; no soundness and forgers print money; no zero-knowledge and privacy evaporates.
-
----
-
-## 4. Site n'ọgba gaa *n'okwu ọ bụla*: sekit na ndị akaebe
-
-The cave proves one cute fact. Zcash needs to prove a rich statement: *"I know an unspent note in the tree, I'm authorized to spend it, its nullifier is computed correctly, and my inputs equal my outputs."* How do we get from balls and caves to that?
-
-Ụzọ ahụ bụ echiche nke jikọtara usoro a dum ọnụ:
-
-> **Nkwupụta ọ bụla ị nwere ike nyochaa na ngụkọta oge nwere ike ịdegharị ya dị ka usoro mgbakọ na mwepụ:** netwọk nke mgbakwunye na ịba ụba n'elu mpaghara njedebe (Nkeji edemede 1).
-
-Think of the circuit as a list of arithmetic constraints that are *all satisfied only if the statement is true.* The private inputs that make everything check out, your note, your key, the Merkle path, are called the **witness.**
-
-! ![Alt ederede](/content-images/image-25-2479377e43.webp)
-
-This is why we spent Article 1 on finite fields and Article 3 on ZK-friendly hashes: the circuit speaks field arithmetic, so every operation inside the statement (including hashing and the Merkle climb of Article 4) has to be expressed that way. The cheaper each operation is to express, the smaller and faster the proof.
+Ọ bụrụ na nke ọ bụla n'ime ndị a ada, usoro ahụ agbajiela: enweghị izu oke, a ga-ajụ ndị ọrụ ezi omume; enweghị ịdị mma, ndị aghụghọ ga-ebipụta ego; enweghị zero-knowledge, Nzuzo ga-apụ n'anya.
 
 ---
 
-## 5. Ime ka ọ bụrụ ihe bara uru: enweghị mmekọrịta na nkenke
+## 4. Site n'ọgba ruo na *nkwupụta ọ bụla*: circuits na witnesses
 
-Ọgba ahụ chọrọ ọtụtụ nlọghachi azụ na-aga n'ihu. Nke ahụ adịghị arụ ọrụ maka blockchain, ebe a ga-etinye ihe akaebe otu oge ma onye ọ bụla nyochaa, ruo mgbe ebighị ebi. Nwelite abụọ dozie nke a.
+Ọgba ahụ na-egosi otu eziokwu mara mma. Zcash kwesịrị igosi nkwupụta bara ụba: *“Amaara m note a na-emefubeghị n'ime osisi, enyere m ikike imefu ya, a gụpụtara nullifier ya nke ọma, ihe m tinyere hà na ihe m wepụtara.”* Kedu ka anyị si esi na bọọlụ na ọgba ruo ebe ahụ?
 
-**Non-interactive (the Fiat-Shamir idea).** Instead of a live verifier shouting random challenges, the prover generates the "random challenges" themselves by *hashing* their own proof-so-far. Because a good hash is unpredictable (Article 3), the prover can't cook the challenges in their favour. The chatty conversation collapses into a **single self-contained proof** anyone can check later, with no interaction.
+Bridge bụ echiche jikọtara usoro a dum:
 
-**Succinct.** The best systems make the proof **tiny and fast to verify, no matter how big the statement is.** This is the genuinely astonishing part.
+> **Nkwupụta ọ bụla ị nwere ike nyochaa site na mgbakọ nwere ike idegharịa dịka arithmetic circuit:** netwọk nke mgbakwunye na mmụba n'elu finite field (Edemede 1).
 
-> A Groth16 proof (the system Sapling uses) is roughly **192 bytes** and verifies in milliseconds, *whether the statement it proves is small or enormous.* A few hundred bytes can attest to a computation involving many thousands of constraints.
+Chee na circuit ahụ bụ ndepụta nke mgbochi mgbakọ nke *ha niile na-emezu naanị ma nkwupụta ahụ bụrụ eziokwu.* Ntinye nzuzo na-eme ka ihe niile kwekọọ, note gị, igodo gị, ụzọ Merkle, ka a na-akpọ **witness [witness].**
 
-Tinye ihe ndị ahụ ọnụ, ị ga-enwetakwa aha a na-akpọ ya ebe niile:
+![alt text](/content-images/image-25-2479377e43.webp)
 
-> **zk-SNARK** = **z**ero-k**knowledge **S**uccinct **N**on-interactive **AR**gument of **K**Knowledge. Ọmụma efu (anaghị ekpughe ihe ọ bụla), nkenke (obere na ngwa ngwa), na-enweghị mmekọrịta (otu ogbugba), arụmụka nke ihe ọmụma (onye na-ekwu okwu n'ezie * maara * onye akaebe ziri ezi).
-
----
-
-## 6. Otu ọnyà: ndokwa a tụkwasịrị obi
-
-There's no free lunch. Many SNARKs need a one-time **setup** that produces public parameters for the circuit. The setup generates secret randomness as a byproduct, and that secret must be **destroyed.** If anyone kept it, they could forge proofs, that is, **forge money** (though, crucially, they still could *not* break privacy).
-
-This leftover secret is nicknamed **toxic waste.** To dispose of it safely, Zcash ran elaborate **multi-party ceremonies** where many independent participants each contributed randomness; as long as *even one* destroyed their piece honestly, the toxic waste is unrecoverable.
-
-! ![Alt ederede](/content-images/image-26-cdad6625cd.webp)
-
-Usoro ọhụrụ na-ewepụ ihe a chọrọ kpamkpam, nke bụ otu n'ime isi ihe mere Zcash ji mepụta usoro ihe akaebe ya n'oge.
+Nke a bụ ihe mere anyị ji tinye Edemede 1 na finite fields na Edemede 3 na hashes dabara ZK: circuit ahụ na-ekwu mgbakọ field, ya mere ọrụ ọ bụla n'ime nkwupụta ahụ (gụnyere hashing na ịrịgo Merkle nke Edemede 4) ga-egosipụta otu a. Ka ọrụ ọ bụla dị ọnụ ala n'igosipụta ya, ka proof ahụ na-adị nta ma dị ngwa.
 
 ---
 
-## Ebe nke a bi na Zcash
+## 5. Ime ka ọ baa uru: non-interactive na succinct
 
-| Nhazi | Sistemụ ihe akaebe | Ntọala a tụkwasịrị obi? | E wuru ya na |
+Ọgba ahụ chọrọ ọtụtụ agba nke ịga na ịbịa. Nke ahụ adịghị mma maka blockchain, ebe a ga-ebipụta proof otu ugboro ma onye ọ bụla nyochaa ya, ruo mgbe ebighị ebi. Nkwalite abụọ na-edozi nke a.
+
+**Non-interactive (echiche Fiat-Shamir).** Kama onye na-enyocha dị ndụ na-eti ihe ịma aka na-enweghị usoro, onye na-egosi na-emepụta “ihe ịma aka na-enweghị usoro” ahụ n'onwe ya site na *hashing* proof ya ruo ebe ahụ. N'ihi na hash dị mma enweghị ike ibu amụma (Edemede 3), onye na-egosi enweghị ike ịhazi ihe ịma aka ahụ ka ọ baara ya uru. Mkparịta ụka ahụ nke nwere ọtụtụ okwu na-agbakọta ghọọ **proof otu zuru ezu n'onwe ya** onye ọ bụla nwere ike nyochaa mgbe e mesịrị, na-enweghị mmekọrịta.
+
+**Succinct [Succinct].** Usoro kachasị mma na-eme ka proof ahụ bụrụ **obere nke ukwuu ma dị ngwa inyocha, n'agbanyeghị etu nkwupụta ahụ hà.** Nke a bụ akụkụ dị ịtụnanya n'ezie.
+
+> Groth16 proof (usoro Sapling ji) dị ihe dịka **192 bytes** ma na-enyocha n'ime milliseconds, *ma nkwupụta ọ na-egosi hà obere ma ọ bụ buru ibu nke ukwuu.* Ole na ole nari bytes nwere ike kwado mgbakọ gụnyere ọtụtụ puku mgbochi.
+
+Tinye ndị ahụ ọnụ, ị ga-enweta acronym ị ga-ahụ ebe niile:
+
+> **zk-SNARK** = **z**ero-**k**nowledge **S**uccinct **N**on-interactive **AR**gument of **K**nowledge. Zero-knowledge (adịghị ekpughe ihe ọ bụla), succinct (obere ma dị ngwa), non-interactive (otu oge), argument of knowledge (onye na-egosi maara witness ziri ezi n'ezie).
+
+---
+
+## 6. Otu nsogbu: trusted setup
+
+Enweghị nri efu. Ọtụtụ SNARKs chọrọ **trusted setup** otu ugboro nke na-emepụta public parameters maka circuit ahụ. Setup ahụ na-emepụta randomness nzuzo dị ka ihe so ya, a ga-**ebibikwa** nzuzo ahụ. Ọ bụrụ na onye ọ bụla debe ya, o nwere ike imepụta proofs aghụghọ, ya bụ, **imepụta ego aghụghọ** (ọ bụ ezie na, n'ụzọ dị mkpa, ọ ka gaghị enwe ike imebi Nzuzo).
+
+A na-akpọ nzuzo fọdụrụ a **toxic waste.** Iji kpochapụ ya n'enweghị nsogbu, Zcash mere **emume ọtụtụ ndị sonyere** dị mgbagwoju anya ebe ọtụtụ ndị sonyere nọọrọ onwe ha nyere randomness; ọ bụrụ na *ọbụna otu* bibiri akụkụ ya n'ezi omume, toxic waste ahụ agaghị enwe ike iweghachite.
+
+![alt text](/content-images/image-26-cdad6625cd.webp)
+
+Usoro ọhụrụ na-ewepụ ihe achọrọ a kpamkpam, nke bụ otu n'ime ihe kachasị mere Zcash ji gbanwee usoro proof ya ka oge na-aga.
+
+---
+
+## 7. Ebe nke a dị na Zcash
+
+| Nhazi | Usoro proof | Trusted setup? | Ewubere na |
 |---|---|---|---|
-| **Sprout** (nke mbụ) | mmalite zk-SNARK | Ee | emume mbụ |
-| **Sapling** | **Groth16** | Ee (emume "Ike nke Tau" nke ọtụtụ mmadụ na-eme + emume Sapling) | **BLS12-381** (Isiokwu nke 2) |
-| **Orchard** (ugbu a) | **Halo 2** | **Enweghị ntọala a tụkwasịrị obi** | **Pallas / Vesta** (Isiokwu nke 2) |
+| **Sprout** (nke mbụ) | zk-SNARK mbụ | Ee | emume mbụ |
+| **Sapling** | **Groth16** | Ee (emume ọtụtụ ndị sonyere “Powers of Tau” + emume Sapling) | **BLS12-381** (Edemede 2) |
+| **Orchard** (nke ugbu a) | **Halo 2** | **Enweghị trusted setup** | **Pallas / Vesta** (Edemede 2) |
 
-The march from Sprout to Sapling to Orchard is largely a story about proofs getting smaller, faster, and shedding the trusted setup. **Halo 2**, used by Orchard, needs no ceremony at all and is built to support *recursion* (proofs that verify other proofs), which is why Orchard uses the Pallas/Vesta **cycle** of curves from Article 2: each curve is tuned to verify proofs written over the other.
+Ije site na Sprout gaa Sapling ruo Orchard bụ n'ụzọ dị ukwuu akụkọ banyere proofs na-adị nta, na-adị ngwa, ma na-ahapụ trusted setup. **Halo 2**, nke Orchard ji, anaghị achọ emume ọ bụla ma ewuru ya iji kwado *recursion* (proofs na-enyocha proofs ndị ọzọ), nke mere Orchard ji eji **cycle** curves Pallas/Vesta sitere na Edemede 2: a haziri curve ọ bụla iji nyochaa proofs e dere n'elu nke ọzọ.
 
-This closes the biggest loop from Article 0. The "behind the curtain" magic is a **zk-SNARK**: it proves your transaction satisfies an arithmetic circuit encoding all the rules, while revealing nothing but the single bit "valid."
+Nke a na-emechi nnukwu njikọ sitere na Edemede 0. Anwansi “n'azụ ákwà mgbochi” bụ **zk-SNARK**: ọ na-egosi na Azụmahia gị na-emeju arithmetic circuit nke na-etinye iwu niile, ebe ọ naghị ekpughe ihe ọ bụla ma e wezụga otu bit “ziri ezi.”
 
 ---
 
-## 8. Onye na-ekwu eziokwu
+## 8. Nkwupụta eziokwu
 
-Zero-knowledge proofs are a deep field and we stayed at intuition level on purpose. We didn't define the precise probability bounds in soundness, the exact form of an arithmetic circuit (R1CS, PLONKish, and so on), how polynomials and commitments turn a circuit into a short proof, or the real internals of Groth16 and Halo 2. The cave is an *interactive* proof; production systems are non-interactive and far more intricate. None of that changes the core: prove a circuit is satisfied by a secret witness, completely, soundly, and revealing nothing. The machinery is a whole series of its own.
+Zero-knowledge proofs bụ ngalaba miri emi, anyị kpachaara anya nọrọ n'ogo nghọta. Anyị akọwaghị oke ohere kpọmkwem na soundness, ụdị arithmetic circuit kpọmkwem (R1CS, PLONKish, na ndị ọzọ), otu polynomials na commitments si eme circuit ghọọ proof dị mkpirikpi, ma ọ bụ ihe dị n'ime Groth16 na Halo 2 n'ezie. Ọgba ahụ bụ proof *interactive*; usoro mmepụta bụ non-interactive ma dị mgbagwoju anya karịa. Ọ dịghị nke a gbanwere isi okwu ahụ: gosi na circuit mezuru site na witness nzuzo, n'ụzọ zuru oke, n'ụzọ dị mma, na-enweghị ikpughe ihe ọ bụla. Usoro ahụ n'onwe ya kwesịrị usoro edemede dum.
 
 ---
 
 ## 9. Nchịkọta
 
-- A **zero-knowledge proof** lets a prover convince a verifier a statement is true **while revealing nothing else**, resolving the verify-vs-privacy paradox.
-- Ọ ghaghị imezu nkwa atọ: ** izu ezu ** (eziokwu nkwupụta kwenye), ** ezi uche ** (ụgha nkwupụta enweghị ike), na ** efu-ihe ọmụma ** (onye nyocha na-amụta naanị "ọ bụ eziokwu").
-- Arbitrary statements become **arithmetic circuits** over a finite field; the secret inputs that satisfy the circuit are the **witness**. This is why finite fields and ZK-friendly hashes mattered.
-- **Fiat-Shamir** na-eme ka ihe akaebe **na-abụghị mmekọrịta ** (otu ogbugba); usoro kachasị mma bụkwa **succinct** (ihe akaebe Groth16 bụ ihe dị ka **192 bytes** ma nyochaa na milliseconds n'agbanyeghị nha nkwupụta). Ọnụ: a **zk-SNARK**.
-- Ụfọdụ SNARKs chọrọ ** ntọala a tụkwasịrị obi ** nke fọdụrụnụ ** mkpofu na-egbu egbu ** ga-ebibi (site na ememe ọtụtụ akụkụ); nkwekọrịta ga-ekwe ka ịgha ego ma ** ghara ** imebi nzuzo.
-- **Sapling** na-eji **Groth16** (ntọala a tụkwasịrị obi, BLS12-381); **Orchard** na -eji **Halo 2** (enweghị ntọala tụkwasara obi, Pallas/Vesta, na-eme ka ọ dị mma).
+- **Zero-knowledge proof** na-eme ka onye na-egosi mee ka onye na-enyocha kwenye na nkwupụta bụ eziokwu **ebe ọ naghị ekpughe ihe ọzọ**, na-edozi mgbagwoju anya n'etiti nyocha na Nzuzo.
+- Ọ ga-emezu nkwa atọ: **izu oke** (nkwupụta eziokwu na-ekwenye), **ịdị mma** (nkwupụta ụgha agaghị ekwe omume), na **zero-knowledge** (onye na-enyocha na-amụta naanị “ọ bụ eziokwu”).
+- Nkwupụta dị iche iche na-aghọ **arithmetic circuits** n'elu finite field; ntinye nzuzo na-emeju circuit ahụ bụ **witness**. Nke a bụ ihe mere finite fields na hashes dabara ZK ji dị mkpa.
+- **Fiat-Shamir** na-eme proofs ka ha bụrụ **non-interactive** (otu oge); usoro kacha mma bụkwa **succinct** (Groth16 proof dị ihe dịka **192 bytes** ma na-enyocha n'ime milliseconds n'agbanyeghị nha nkwupụta). Ọnụ: **zk-SNARK**.
+- Ụfọdụ SNARKs chọrọ **trusted setup** nke **toxic waste** fọdụrụ ga-ebibi (site n'emume ọtụtụ ndị sonyere); mmebi ya ga-eme ka e nwee ike imepụta ego aghụghọ ma **ọ bụghị** imebi Nzuzo.
+- **Sapling** ji **Groth16** (trusted setup, BLS12-381); **Orchard** ji **Halo 2** (enweghị trusted setup, Pallas/Vesta, recursion-friendly).
 
 ---
 
-## Okwu
+## Nkọwa okwu
 
-| Oge okwu | Nkọwa Bekee dị mfe |
+| Okwu | Ihe ọ pụtara n'asụsụ dị mfe |
 |---|---|
-| **Zero-knowledge proof** | Mee ka mmadụ kwenye na ihe e kwuru bụ eziokwu ma ghara ikpughe ihe ọ bụla ọzọ |
-| **Prover / Verifier** | Onye na-eme ihe akaebe / onye na-enyocha ya |
-| **Completeness** | A na-anabata eziokwu mgbe niile (site n'aka onye akaebe eziokwu) |
-| **Soundness** | A na-ajụ okwu ụgha (ndị aghụghọ enweghị ike imeri ma ọ bụrụ na chi ọma) |
-| **Witness** | Ihe nzuzo ndị na-eme ka nkwupụta ahụ bụrụ eziokwu |
-| **Arithmetic circuit** | E degharịrị nkwupụta dị ka ihe na-agbakwụnye ma na-amụba n'elu ubi nwere oke njedebe |
-| **Non-interactive (Fiat-Shamir)** | Ihe akaebe otu ugboro nke na-achọghị ka e mee ihe dị ndụ ọzọ |
-| **Succinct** | Ihe akaebe ahụ dị obere ma dịkwa ngwa iji gosi n'agbanyeghị nha nkwupụta ahụ |
-| **zk-SNARK** | Ihe ọmụma efu Succinct Arụmụka ihe ọmụma na-abụghị mmekọrịta |
-| **Trusted setup / toxic waste** | Nhazi paramita otu oge nke a ga-ebibi ihe nzuzo fọdụrụnụ |
+| **Zero-knowledge proof** | Mee ka mmadụ kwenye na nkwupụta bụ eziokwu ebe ị naghị ekpughe ihe ọzọ |
+| **Onye na-egosi / Onye na-enyocha** | Onye na-eme proof / onye na-enyocha ya |
+| **Izu oke** | A na-anabata nkwupụta eziokwu mgbe niile (site n'aka onye na-egosi ezi omume) |
+| **Ịdị mma** | A na-ajụ nkwupụta ụgha (ndị aghụghọ enweghị ike imeri ma e wezụga site n'ohere) |
+| **Witness** | Ntinye nzuzo na-eme nkwupụta ahụ ka ọ bụrụ eziokwu |
+| **Arithmetic circuit** | Nkwupụta e degharịrị dịka mgbakwunye na mmụba n'elu finite field |
+| **Non-interactive (Fiat-Shamir)** | Proof otu oge nke na-adịghị achọ ịga na ịbịa dị ndụ |
+| **Succinct** | Proof ahụ dị nta ma dị ngwa inyocha n'agbanyeghị nha nkwupụta |
+| **zk-SNARK** | Zero-knowledge Succinct Non-interactive ARgument of Knowledge |
+| **Trusted setup / toxic waste** | Ọgbọ parameters otu ugboro nke a ga-ebibi nzuzo fọdụrụ ya |
 
 ---
 
 ## FAQ
 
-** Ọ bụrụ na ihe akaebe ahụ egosighi ihe ọ bụla, olee otu inyocha ya ga-esi pụta ihe ọ bula? **
-N'ihi na a haziri mgbakọ na mwepụ ka *naanị* ezigbo onye akaebe nwere ike iweta ihe akaebe na-agafe agafe. Ịgafe nlele ahụ n'onwe ya bụ ihe àmà, ọ dịghị mkpa ikpughe.
+**Ọ bụrụ na proof anaghị ekpughe ihe ọ bụla, kedu ka inyocha ya si apụta ihe ọ bụla?**
+N'ihi na a haziri mgbakọ ahụ ka naanị witness ziri ezi, nke dị adị, nwere ike imepụta proof na-agafe. Ịgafe nyocha ahụ bụ n'onwe ya ihe akaebe, na-enweghị mkpughe a chọrọ.
 
-**Onye nwere ike ịgha ụgha?**
-Ezi uche na-eme ka nke a ghara ikwe omume. otu ihe dị iche bụ SNARK onye tụkwasịrị obi-mwube nsị na-egbu egbu e chekwara; nke ahụ bụ kpọmkwem ihe mere ememe iji bibie ya mkpa.
+**Mmadụ nwere ike ime proof adịgboroja?**
+Soundness na-eme ka nke a ghara ịdị irè. Otu e wezụga bụ SNARK nke e debere toxic waste trusted setup ya; nke ahụ bụ kpọmkwem ihe mere emume iji bibie ya ji dị mkpa.
 
-**Ọ bụ ntọala a tụkwasịrị obi mebiri emebi na-agbasa data nkeonwe m?**
-Mba. Ọ ga-eme ka onye na-awakpo ya mepụta *ego ọhụrụ*, ma ọ gaghị ekpughe ego ole, adreesị, ma ọ bụ akwụkwọ ego. Ihe nzuzo na ịdị mma bụ ihe abụọ dị iche.
+**Trusted setup mebiri emebi ọ ga-ekpughe data Nzuzo m?**
+Mba. Ọ ga-eme ka onye mwakpo nwee ike imepụta ego *ọhụrụ*, ma ọ **gaghị** ekpughe ego, Adreesị akpa ego, ma ọ bụ notes. Nzuzo na soundness bụ nkwa dị iche.
 
-**Gịnị mere Zcash ji gbanwee usoro ihe akaebe na oge?**
-Iji nweta obere, ngwa ngwa na-egosi na, na Halo 2, iji kpochapụ ntọala a tụkwasịrị obi kpamkpam ma mee ka nlọghachi.
+**Gịnị mere Zcash ji gbanwee usoro proof ka oge na-aga?**
+Iji nweta proofs dị nta, dị ngwa, na, site na Halo 2, iwepụ trusted setup kpamkpam ma kwado recursion.
 
 ---
 
-### Nwalee ihe ndị ị na-aghọta
+### Nwale nghọta gị
 
-N'ime ọgba, gịnị mere o ji dị mkpa ka onye na-enyocha ya họrọ ụzọ ọpụpụ * mgbe* onye nyocha ahụ abanyelarị, kama ịkpọsa ya tupu oge eruo? * (Zaa n'okpuru.) *
+N'ọgba ahụ, gịnị mere o ji dị mkpa na onye na-enyocha họrọ akụkụ ụzọ ọpụpụ *mgbe* onye na-egosi abanyelarị, kama ikwupụta ya tupu oge ahụ? *(Azịza dị n'okpuru.)*
 
-<details><summary>Answer</summary>
+<details><summary>Azịza</summary>
 
-If the verifier announced the side first, a bluffer who doesn't know the word could simply walk into that side from the start and stroll back out, never needing the door. Choosing *after* the prover commits to a passage forces a bluffer to rely on luck (50/50 per round), which is what makes repeated rounds convincing. This "commit first, then be challenged" ordering is exactly what Fiat-Shamir preserves by deriving the challenge from a hash of the prover's already-committed proof.
+Ọ bụrụ na onye na-enyocha ekwupụta akụkụ ahụ mbụ, onye na-agha ụgha nke na-amaghị okwu ahụ nwere ike ịbanye n'akụkụ ahụ site na mmalite ma si na ya jee pụta, n'enweghị mkpa ọnụ ụzọ ahụ. Ịhọrọ *mgbe* onye na-egosi kwere nkwa n'otu ụzọ na-amanye onye na-agha ụgha ịdabere n'ohere (50/50 n'agba ọ bụla), nke bụ ihe na-eme ka ịmegharị agba ahụ kwenye. Usoro a nke “buru ụzọ kwe nkwa, mgbe ahụ nata ihe ịma aka” bụ kpọmkwem ihe Fiat-Shamir na-echekwa site n'ịmepụta ihe ịma aka site na hash nke proof onye na-egosi kwere nkwa na ya.
+
 </details>
 
 ---
 
-### Kedu ihe ọzọ
+### Ihe na-abịa
 
-**Article 6 . The shielded protocol, end to end:** the finale. We take every piece, notes, commitments, the note commitment tree, nullifiers, value balance, and the zero-knowledge proof, and assemble a complete Zcash shielded transaction, closing every single loop opened back in Article 0.
+**Edemede 6 . Shielded protocol, site na mmalite ruo n'isi ngwụcha:** mmechi. Anyị na-ewere akụkụ ọ bụla, notes, commitments, osisi note commitment, nullifiers, value balance, na zero-knowledge proof, wee chịkọta Azụmahia nke e chebere echebe Zcash zuru ezu, na-emechi njikọ ọ bụla e meghere na Edemede 0.
 
-* Akụkụ nke usoro Zcash sitere na First Principles * maka [ZecHub](https://zechub.org)Akwụkwọ ikike CC BY-SA 4.0.*
+*Akụkụ nke usoro* Zcash sitere na Ụkpụrụ Mbụ *maka [ZecHub](https://zechub.org). Ikikere CC BY-SA 4.0.*

@@ -1,97 +1,97 @@
-# Nweta ozi nkeonwe
+# Nnweta ozi nzuzo [Private information retrieval]
 
 ## TL;DR
 
-- Nchịkọta ozi nkeonwe, ma ọ bụ PIR, na-ahapụ ngwaọrụ iji nweta otu ihe site na nchekwa data nkesa n'enweghị onye ọrụ ahụ mụtara ihe a rịọrọ maka ya.
-- Zcash chọrọ nke a n'ihi na obere akpa ego onwe ya enweghị ike ịjụ sava ihe azụmahịa bụ nke aka ya ma ghara igosi onwe ya.
-- Taa obere akpa na-ebudata ma nyochaa ọtụtụ data karịa ka ha chọrọ, nke bụ isi ihe mere syncing ji dị nwayọ
-- PIR ga-ekwe ka obere akpa ego were naanị data nke ya na nzuzo, wepụ ihe mgbochi ahụ ma debe nzuzo dị ọcha.
-- Ọ bụ mpaghara nyocha na-arụsi ọrụ ike maka Zcash, dị ike n'echiche, ma bụrụ nke a ga - eme ka ọ rụọ ọrụ maka ezigbo obere akpa ego.
+- Nnweta ozi nzuzo, ma ọ bụ PIR, na-eme ka ngwaọrụ nweta otu ihe n’ebe nchekwa data sava dị na-enweghị ka sava ahụ mata ihe a rịọrọ
+- Zcash chọrọ nke a n’ihi na e-akpa ego nzuzo [private wallet] enweghị ike ịjụ sava Azụmahia [transaction] ndị bụ nke ya n’emeghị ka a mata ya
+- Taa, e-akpa ego na-ebudata ma na-enyocha data karịrị nke ha chọrọ, nke bụ nnukwu ihe mere mmekọrịta [syncing] ji adị nwayọ
+- PIR ga-eme ka e-akpa ego nweta naanị data nke ya n’enweghị ikpughe ya, wepụ mgbochi ahụ ma debe Nzuzo [privacy] ahụ
+- Ọ bụ mpaghara nyocha na-arụ ọrụ maka Zcash, nwere ike dị ukwuu n’usoro echiche, ma a na-eme ka ọ baa uru maka e-akpa ego n’ezi ndụ
 
 <br/>
 
-## Onye ka nke a bụ maka ya?
+## Ònye ka nke a bụ maka ya
 
-- Onye ọbụla jụrụ etu obere akpa ego si achọta mkpụrụ ego nke ya n'ekwuputaghị ndị ha bụ.
-- Ndị bịara ọhụrụ na-ahụ PIR ka a kpọtụrụ aha n'akụkụ ọrụ Zcash scaling.
-- Ndị na-agụ akwụkwọ chọrọ echiche mbụ ahụ ma jiri ihe nzuzo dị n'okpuru ya nke abụọ.
+- Onye ọ bụla jụrụ onwe ya otú e-akpa ego nwere Nzuzo [privacy] si achọta mkpụrụ ego nke ya n’enweghị ikpughe ndị ha bụ
+- Ndị ọhụrụ na-ahụ PIR ka a na-ekwu maka ya n’akụkụ ọrụ scaling nke Zcash
+- Ndị na-agụ chọrọ ibu ụzọ ghọta echiche ahụ, ma ghọta kriptografi [cryptography] dị n’okpuru ya emechaa
 
 <br/>
 
 ## Nsogbu PIR na-edozi maka Zcash
 
-Zcash na-ezobe onye azụmahịa ahụ bụ maka. Nzuzo nke a na -emepụta ajụjụ dị egwu: ọ bụrụ na netwọk enweghị ike ịhụ ihe ndị ị zụrụ, olee otu obere akpa gị si achọta ha?
+Zcash na-ezo onye Azụmahia bụ maka ya. Nzuzo ahụ na-eweta ajụjụ siri ike: ọ bụrụ na netwọk enweghị ike ịhụ Azụmahia ndị bụ nke gị, kedu ka e-akpa ego nke gị si achọta ha?
 
-Today the answer is blunt. A wallet cannot ask a server which transactions are mine, because that question would reveal exactly what Zcash is trying to hide. So instead the wallet downloads a large amount of data and tests each item locally to see what belongs to it. It works, and it preserves privacy, but it is slow and heavy. This scanning is one of the main reasons wallet syncing can feel sluggish.
+Taa, azịza ya dị kpọmkwem. E-akpa ego enweghị ike ịjụ sava Azụmahia ndị bụ nke m, n’ihi na ajụjụ ahụ ga-ekpughe kpọmkwem ihe Zcash na-achọ izo. Ya mere, e-akpa ego na-ebudata nnukwu data ma na-anwale ihe ọ bụla n’ime ya n’ime ngwaọrụ iji hụ ihe bụ nke ya. Ọ na-arụ ọrụ, ọ na-echebekwa Nzuzo, mana ọ dị nwayọ ma dị arọ. Nnyocha a bụ otu n’ime isi ihe mere mmekọrịta e-akpa ego ji enwe ike ịdị nwayọ.
 
-The ideal would be a way for a wallet to ask a server for precisely its own data, and receive it, without the server ever learning what was requested. That is exactly what private information retrieval provides.
+Ihe kachasị mma ga-abụ ụzọ e-akpa ego ga-eji rịọ sava kpọmkwem data nke ya, nata ya, na-enweghị ka sava ahụ mara ihe a rịọrọ. Nke ahụ bụ kpọmkwem ihe nnweta ozi nzuzo na-enye.
 
 <br/>
 
 ## Ihe PIR bụ
 
-Nchịkọta ozi nkeonwe bụ usoro nzuzo na-eme ka onye ahịa gụọ otu ntinye site na nchekwa data ihe nkesa n'ekpughereghị sava ahụ ụdị ọ gụrụ.
+Nnweta ozi nzuzo bụ usoro cryptography nke na-eme ka client gụọ otu ntinye sitere n’ebe nchekwa data sava dị na-enweghị ikpughe sava ahụ ntinye ọ gụrụ.
 
-Imagine a library where you can receive the exact book you want, but the librarian never learns which book they handed you. You get your item, and your interest stays private. PIR is the mathematical version of that idea, applied to any database.
+Cheedị ọbá akwụkwọ ebe ị nwere ike ịnata kpọmkwem akwụkwọ ịchọrọ, mana onye na-elekọta ọbá akwụkwọ amaghị akwụkwọ o nyere gị. Ị na-enweta ihe gị, mmasị gị akwụgidere na nzuzo. PIR bụ ụdị mgbakọ na mwepụ nke echiche ahụ, etinyere n’ebe nchekwa data ọ bụla.
 
-The concept has been studied in cryptography for decades. It was first introduced in 1995 by Chor, Goldreich, Kushilevitz, and Sudan, who described the multiple server approach, and the first single server version followed in 1997 from Kushilevitz and Ostrovsky. It is not something Zcash invented, it is an established field that Zcash is now applying to a real and stubborn problem.
-
-<br/>
-
-## Olee otú PIR si arụ ọrụ, na ọkwa mbụ
-
-E nwere ụzọ abụọ dị iche iji wuo PIR, na ọdịiche ahụ bụ ihe.
-
-The first uses multiple servers. The client sends each of several servers a piece of the query, and combines their answers locally. No single server sees enough to learn what was requested. This is efficient, but it depends on the servers not colluding with each other, which is hard to guarantee in the real world.
-
-The second uses a single server and clever cryptography instead of multiple parties. Here the client relies on a special tool called homomorphic encryption, and this is the direction most useful for real deployments, because it does not need multiple non-colluding servers.
+A mụọla echiche a na cryptography kemgbe ọtụtụ iri afọ. Ebu ụzọ webata ya na 1995 site n’aka Chor, Goldreich, Kushilevitz, na Sudan, ndị kọwara usoro ọtụtụ sava, ebe ụdị sava otu mbụ sochiri na 1997 site n’aka Kushilevitz na Ostrovsky. Ọ bụghị ihe Zcash chepụtara, ọ bụ mpaghara e guzobeworo nke Zcash na-etinye ugbu a n’ọrụ maka nsogbu dị adị ma sie ike.
 
 <br/>
 
-## Usoro: homomorphic encryption (nhazi nke ihe niile na-eme n'otu ụzọ)
+## Ka PIR si arụ ọrụ, n’ọkwa mbụ
 
-Homomorphic encryption bụ ụdị nke na-eme ka ihe nkesa rụọ ọrụ data mgbe ọ nọgidere na nzuzo. Ihe nkesa ahụ mepụtara azịza ziri ezi ezoro ezo n'enweghị ike ịhụ ụkpụrụ ndị dị mkpa.
+E nwere ụzọ abụọ sara mbara e si ewulite PIR, ọdịiche ha dịkwa mkpa.
 
-Here is the idea behind single-server PIR built this way. The client wants item number three out of a list. It builds a query that is, in effect, an encrypted yes for position three and an encrypted no for every other position. To the server, this query is just meaningless noise, it cannot tell which position holds the yes.
+Nke mbụ na-eji ọtụtụ sava. Client na-eziga sava ọ bụla n’ime ọtụtụ sava otu akụkụ nke ajụjụ ahụ, ma jikọta azịza ha n’ime ngwaọrụ. Ọ nweghị otu sava na-ahụ zuru ezu iji mata ihe a rịọrọ. Nke a na-arụ ọrụ nke ọma, mana ọ dabere n’ịhụ na sava ndị ahụ anaghị arụkọ ọrụ ọnụ, nke siri ike ikwe nkwa n’ụwa n’ezi ndụ.
 
-The server then combines its database with this encrypted query using the special properties of homomorphic encryption, multiplying each stored item by the matching encrypted yes or no and adding the results together. What comes out is a single encrypted package that contains exactly the item the client wanted, and nothing reveals which one it was. The client decrypts that package and reads its item. The server has answered the question without ever knowing the question.
-
-Ụdị siri ike, a na-akpọ symmetric PIR, gbakwunyere ihe nchebe nke abụọ: onye ahịa ahụ maara naanị ihe ọ rịọrọ ma ghara ịma banyere ntinye ọzọ n'ime nchekwa data. Nke ahụ na - echebe ọdụ data yana ndị ahịa.
+Nke abụọ na-eji otu sava na cryptography nwere amamihe kama iji ọtụtụ ndị otu. N’ebe a, client na-adabere na ngwá ọrụ pụrụ iche a na-akpọ homomorphic encryption, nke a bụkwa ntụziaka kasị baa uru maka ntinye n’ọrụ n’ezi ndụ, n’ihi na ọ dịghị achọ ọtụtụ sava ndị na-adịghị arụkọ ọrụ ọnụ.
 
 <br/>
 
-## N'ilebakwu anya maka ndị na-agụ akwụkwọ ọrụaka.
+## Usoro ahụ: homomorphic encryption
 
-Modern single-server schemes are built on lattice cryptography, most commonly the learning with errors assumption. The client's query is a vector of ciphertexts, an encryption of one at the target index and zero elsewhere, and the encryption is additively homomorphic, so the server can add ciphertexts and multiply them by plaintext database entries without decrypting.
+Homomorphic encryption bụ ụdị Nzobe ederede [encryption] nke na-eme ka sava rụọ mgbakọ na data mgbe data ahụ ka zoro ezo. Sava na-emepụta azịza ziri ezi e zoro ezo n’enweghị mgbe ọ bụla ọ hụrụ ụkpụrụ dị n’okpuru ya.
 
-Ihe nkesa ahụ na-emeso nchekwa data dị ka matriks, tinye vector nhọrọ ezoro ezo ma weghachite otu ederede nke decrypts gaa n'ahịrị achọrọ. N'ihi na ajụjụ a enweghị ike ịmata ọdịiche site na mkpọtụ random, ihe nkesa anaghị enweta ozi gbasara ndeksi ahụ.
+Nke a bụ echiche dị n’azụ PIR nke sava otu e ji usoro a wuo. Client chọrọ ihe nọmba atọ n’ime ndepụta. Ọ na-ewulite ajụjụ nke, n’ezie, bụ ee e zoro ezo maka ọnọdụ nke atọ na mba e zoro ezo maka ọnọdụ ọ bụla ọzọ. Nye sava ahụ, ajụjụ a bụ naanị mkpọtụ enweghị isi; ọ nweghị ike ịmata ọnọdụ nke nwere ee ahụ.
 
-The historic obstacle has always been cost. Naively, the server must touch every entry in the database for each query, which is expensive in computation, and the ciphertexts are large, which is expensive in bandwidth. Recent research attacks this with preprocessing, schemes such as SimplePIR and FrodoPIR let the server prepare the database ahead of time and hand each client a small hint, pushing much of the work into an offline phase so that live queries become fast. A useful side benefit is that lattice-based constructions are also considered resistant to quantum attacks, which aligns with Zcash's wider move toward post-quantum privacy.
+Sava ahụ na-ejikọta ebe nchekwa data ya na ajụjụ a e zoro ezo site n’iji njirimara pụrụ iche nke homomorphic encryption, na-amụba ihe ọ bụla echekwara site n’ee ma ọ bụ mba e zoro ezo kwekọrọ na ya ma chịkọta nsonaazụ ahụ ọnụ. Ihe na-apụta bụ otu ngwugwu e zoro ezo nke nwere kpọmkwem ihe client chọrọ, ọ nweghịkwa ihe na-ekpughe nke ọ bụ. Client na-emeghe ngwugwu ahụ ma gụọ ihe ya. Sava azala ajụjụ ahụ n’enweghị mgbe ọ bụla ọ maara ajụjụ ahụ.
+
+Ụdị siri ike karị, nke a na-akpọ symmetric PIR, na-agbakwunye nkwa nke abụọ: client na-amụta naanị ihe ọ rịọrọ, ọ dịghịkwa amụta ihe banyere ntinye ọ bụla ọzọ n’ebe nchekwa data ahụ. Nke ahụ na-echebe ebe nchekwa data ahụ nakwa client.
+
+<br/>
+
+## Ileba anya nke ọma maka ndị na-agụ ọrụ nka
+
+A na-ewulite usoro sava otu nke oge a n’elu lattice cryptography, nke kachasị bụrụ assumption learning with errors. Ajụjụ client bụ vector nke ciphertexts, Nzobe ederede nke otu n’ọkwa ebumnuche na efu n’ebe ndị ọzọ, Nzobe ederede ahụ bụkwa additively homomorphic, ya mere sava nwere ike ịgbakwunye ciphertexts ma mụbaa ha site na ntinye ebe nchekwa data plaintext na-enweghị imeghe ha.
+
+Sava na-ewere ebe nchekwa data ahụ dị ka matrix, tinye vector nhọrọ e zoro ezo, ma weghachite otu ciphertext nke, mgbe emepere ya, na-enye ahịrị achọrọ. N’ihi na ajụjụ ahụ enweghị ọdịiche na mkpọtụ enweghị usoro, sava anaghị enweta ozi ọ bụla banyere index ahụ.
+
+Ihe mgbochi akụkọ ihe mere eme na-adịkarị bụ ọnụ ahịa. N’ụzọ na-enweghị amamihe, sava ga-emetụ ntinye ọ bụla dị n’ebe nchekwa data maka ajụjụ ọ bụla, nke dị ọnụ na mgbakọ, ciphertexts ahụ dịkwa ukwuu, nke dị ọnụ na bandwidth. Nnyocha ọhụrụ na-awakpo nke a site na preprocessing; usoro dịka SimplePIR na FrodoPIR na-eme ka sava kwadebe ebe nchekwa data tupu oge eruo ma nye client ọ bụla obere hint, na-ebuga ọtụtụ ọrụ n’oge offline ka ajụjụ ndị dị ndụ wee dị ngwa. Uru ọzọ bara uru bụ na a na-ewerekwa usoro lattice-based dị ka ndị na-eguzogide mwakpo quantum, nke kwekọrọ na ntụgharị sara mbara nke Zcash gaa na Nzuzo post-quantum.
 
 <br/>
 
 ## PIR na Zcash
 
-PIR bụ akụkụ nke mbọ iji mee ka Zcash bụrụ ihe nzuzo na ngwa ngwa.
+PIR bụ akụkụ nke mbọ ime ka Zcash bụrụ nke nzuzo na nke ngwa ngwa n’ogo buru ibu.
 
-The wallet scanning bottleneck described earlier is the target. Work at the Valar Group is developing private information retrieval techniques so that a wallet can fetch its own data from a server without the server learning which entries were requested. One concrete application is checking nullifiers privately. A nullifier is a unique marker published when a note is spent, which stops the same funds being spent twice. A wallet often needs to check whether a given nullifier has appeared yet, in other words whether a note is still unspent, and doing that through a server today can leak which note is being asked about. Private information retrieval lets the wallet ask that question without revealing which nullifier it cares about. This sits alongside other scaling work, including Project Tachyon and new node software, aimed at removing the performance limits that hold back private wallets today.
+Ihe mgbochi nyocha e-akpa ego a kọwara mbụ bụ ebumnuche ya. Ọrụ na Valar Group na-emepụta usoro nnweta ozi nzuzo ka e-akpa ego wee nwee ike isi n’aka sava nweta data nke ya na-enweghị ka sava mata ntinye ndị a rịọrọ. Otu ngwa a kapịrị ọnụ bụ ilele nullifiers na nzuzo. Nullifier bụ akara pụrụ iche a na-ebipụta mgbe a mefuru note, nke na-egbochi imefu otu ego ugboro abụọ. E-akpa ego na-achọkarị ịlele ma nullifier e nyere apụtala, ya bụ ma note ka emefubeghị, na ime nke ahụ site na sava taa nwere ike ikpughe note a na-ajụ maka ya. Nnweta ozi nzuzo na-eme ka e-akpa ego jụọ ajụjụ ahụ n’enweghị ikpughe nullifier ọ na-echebara echiche. Nke a dị n’akụkụ ọrụ scaling ndị ọzọ, gụnyere Project Tachyon na software node ọhụrụ, nke ebumnuche ha bụ iwepụ oke arụmọrụ na-egbochi e-akpa ego nzuzo taa.
 
-Ọ dị mkpa ikwu eziokwu banyere ọkwa a. Nke a bụ nyocha na injinia, ọ bụghị ihe arụpụtarala ma zipụ ya. Echiche ahụ guzobere nke ọma yana ụzọ e setịpụrụ, mana ịme PIR ka ọ rụọ ọrụ nke ọma maka obere akpa kwa ụbọchị n'ihe ndị nkịtị bụ kpọmkwem akụkụ siri ike a na-arụ ugbu a.
+Ọ dị mkpa ikwu eziokwu banyere ọkwa ya. Nke a bụ nyocha na engineering na-arụ ọrụ, ọ bụghị atụmatụ e mechara ma zipụ. E guzobeworị echiche ahụ nke ọma, e dokwawokwa ntụziaka, mana ime ka PIR rụọ ọrụ nke ọma maka e-akpa ego kwa ụbọchị n’ọrụ ngwaọrụ nkịtị bụ kpọmkwem akụkụ siri ike a na-arụ ọrụ ugbu a.
 
 <br/>
 
-## Ihe ndị mmadụ na-ekwukarị nke bụ́ eziokwu.
+## Echiche hiere ụzọ a na-ahụkarị
 
-- PIR na-ezobe ihe ị rịọrọ, ọ bụchaghị zoo na i kpọtụrụ onye nkesa ahụ ma ọlị, metadata netwọk dị n'ọkwa bụ nchegbu ọzọ.
-- PIR abụghị naanị maka Zcash, ọ bụ ngwa ọrụ cryptographic nke Zcash na-etinye n'ọrụ nzuzo wallet.
-- Ịmekọrịta ngwa ngwa site na PIR bụ ihe mgbaru ọsọ dị n'ihu, ọ bụghị atụmatụ nke adịworị na wallets.
-- Nbudata ihe niile na nyocha mpaghara, usoro dị ugbu a bụ nkeonwe mana nwayọ. PIR chọrọ idobe nzuzo ma wepụ ịdị nwayọọ ahụ
+- PIR na-ezo ihe ị rịọrọ, mana ọ pụtaghị na ọ na-ezo na ị kpọtụrụ sava ma ọlị; metadata nke ọkwa netwọk bụ nchegbu dị iche
+- PIR abụghị naanị nke Zcash, ọ bụ ngwá ọrụ cryptography izugbe nke Zcash na-etinye n’ọrụ maka Nzuzo e-akpa ego
+- Mmekọrịta ngwa ngwa site na PIR bụ ebumnuche a ka na-arụ ọrụ na ya, ọ bụghị atụmatụ dịlarị n’e-akpa ego
+- Ibudata ihe niile na inyocha ha n’ime ngwaọrụ, nke bụ usoro dị ugbu a, bụ nke nzuzo mana ọ dị nwayọ; PIR chọrọ idobe Nzuzo ahụ ma wepụ nwayọ ahụ
 
 <br/>
 
 ## Peeji ndị metụtara ya
 
-- [Nkwekọrịta obere akpa Zcash](https://zechub.wiki/zcash-tech/zcash-wallet-syncing) - ihe mere syncing ji arụ ọrụ taa.
-- [Lightwallet Nodes (Nọmba nke obere akpa ego)](https://zechub.wiki/zcash-tech/lightwallet-nodes) - ìhè ahịa nlereanya PIR ga-mma
-- [zk-SNARKs](https://zechub.wiki/zcash-tech/zk-snarks) - ọzọ isi cryptographic ngwá ọrụ n'azụ Zcash nzuzo
-- [Nchebe Mgbe E Mechara Ihe Ndị Dị n'Eluigwe na Ala](https://zechub.wiki/zcash-tech/post-quantum-security) - ihe mere usoro ndị dabeere na lattice ji dị mkpa maka ọdịnihu.
+- [ZcashMmekọrịta e-akpa ego](https://zechub.wiki/zcash-tech/zcash-wallet-syncing) - ihe mere mmekọrịta ji arụ ọrụ otú ọ dị taa
+- [Lightwallet Nodes](https://zechub.wiki/zcash-tech/lightwallet-nodes) - ụdị light client PIR ga-eme ka ọ ka mma
+- [zk-SNARKs](https://zechub.wiki/zcash-tech/zk-snarks) - ngwá ọrụ cryptography ọzọ bụ isi dị n’azụ Nzuzo Zcash
+- [Nchekwa Post-Quantum](https://zechub.wiki/zcash-tech/post-quantum-security) - ihe mere usoro lattice-based ji dị mkpa maka ọdịnihu

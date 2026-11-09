@@ -2,171 +2,171 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Ihe akaebe nke ịkwụ ụgwọ na mkpughe ịkwụ ụgwọ echekwara
+# Proof nke e chebere echebe [shielded] nke Kwụọ ụhwọ [payment] na mkpughe Kwụọ ụgwọ
 
-## TL;DR
+## Nchịkọta
 
-- NJ azụmahịa na-achọpụta azụmahịa, mana ọ naghị ekpughe onye nnata echekwara, ego, ma ọ bụ ihe edeturu.
-- Emebere mkpughe ịkwụ ụgwọ iji nye onye zitere ya ohere igosi nkọwa ahọpụtara nke otu ịkwụ ụgwọ n'ekpugheghị akụkọ ego ha fọdụrụ.
-- Igodo nlele na-enye ohere ịgụ ihe na-aga n'ihu na adreesị ma ọ bụ akaụntụ. Jiri ya maka nyocha na-aga n'ihu, ọ bụghị maka esemokwu ịkwụ ụgwọ otu ugboro.
-- Ngosipụta ịkwụ ụgwọ enweghị ike igosi nnyefe ngwongwo, ịchọpụta mmadụ n'onwe ya, ịgbanwe ụgwọ, ma ọ bụ dochie akwụkwọ nlele nkwenye.
-- [ZIP 311](https://zips.z.cash/zip-0311) Ọ ka bụ **Draft**. Ederede ya ugbu a na-eme ka nkwado Orchard, nkwado ntinye doro anya, koodu, ụdị, na iwu interface onye ọrụ agwụcha.
+- ID Azụmahia [transaction] na-achọpụta Azụmahia, mana ọ naghị ekpughe onye nnata nke e chebere echebe, ego, ma ọ bụ memo.
+- E mere mkpughe Kwụọ ụgwọ iji mee ka onye zitere ya gosi nkọwa ahọpụtara nke otu Kwụọ ụgwọ na-ekpugheghị akụkọ e-akpa ego [wallet] ya ndị ọzọ.
+- Viewing key [viewing key] na-enye ohere ịgụ na-adịgide adịgide maka Adreesị akpa ego [address] ma ọ bụ akaụntụ. Jiri ya maka nyocha na-aga n'ihu, ọ bụghị maka esemokwu nke otu Kwụọ ụgwọ.
+- Mkpughe Kwụọ ụgwọ enweghị ike igosi na enyere ngwongwo, mata mmadụ n'onwe ya, weghachite Kwụọ ụgwọ, ma ọ bụ dochie nyocha nkwenye.
+- [ZIP 311](https://zips.z.cash/zip-0311) ka bụ **Draft**. Ederede ya ugbu a ahapụghị nkwado Orchard, nkwado ntinye Oha [transparent], nzobe ederede [encryption], ịnye ụdị, na iwu nhụta onye ọrụ ka e mechaa.
 
-## Ihe kpatara njirimara azụmahịa ezughị oke
+## Ihe kpatara ID Azụmahia anaghị ezuru
 
-Onye ọ bụla nwere ike inyocha nkọwa ọha na eze nke ịkwụ ụgwọ Zcash doro anya. Onye na-eme nchọpụta blọk nwere ike igosi adreesị ya, ego ole ọ na-akwụ, na ọnọdụ nkwenye ya.
+Onye ọ bụla nwere ike inyocha nkọwa ọha nke Kwụọ ụgwọ Zcash Oha. Ihe nchọgharị block [block] nwere ike igosi Adreesị akpa ego ya, ego ya, na ọnọdụ nkwenye ya.
 
-Ụgwọ a na-akwụghị ụgwọ na-arụ ọrụ dị iche. Usoro a na-egosi na azụmahịa ahụ gbasoro iwu Zcash, mana ọ naghị ebipụta onye zitere ya, onye nnata, ego, ma ọ bụ ihe ncheta. Ịkekọrịta ID azụmahịa ahụ nwere ike igosi na e gwupụtara azụmahịa, mana ọ nweghị ike igosi onye ahịa ma ọ bụ onye ọzọ ụgwọ nkeonwe dị n'ime ya.
+Kwụọ ụgwọ nke e chebere echebe na-arụ ọrụ n'ụzọ dị iche. Chain [chain] na-egosi na Azụmahia soro iwu Zcash, mana ọ naghị ebipụta onye zitere nke e chebere echebe, onye nnata, ego, ma ọ bụ memo. Ikekọrịta ID Azụmahia nwere ike igosi na a gwupụtara Azụmahia, mana ọ nweghị ike igosi onye ahịa ma ọ bụ onye nke atọ Kwụọ ụgwọ nzuzo dị n'ime ya.
 
-Nke a na-akpata nsogbu bara uru. Onye ahịa nwere ike ịchọ idozi esemokwu onye ahịa, mgbanwe nwere ike ịchọ igosi na ọ haziri mwepụ ego, ma ọ bụ onye na-enye onyinye nwere ike ịchọ igosi otu onyinye. Ịkekọrịta igodo nlele zuru oke ga-ekpughe ihe karịrị ihe ọ bụla n'ime ikpe ndị a chọrọ.
+Nke a na-ebute nsogbu bara uru. Onye ahịa nwere ike ịdị mkpa idozi esemokwu ya na onye na-ere ahịa, exchange [exchange] nwere ike ịdị mkpa igosi na ọ haziri mwepụ ego, ma ọ bụ onye nyere onyinye nwere ike ịchọ igosi otu onyinye. Ikekọrịta viewing key zuru ezu ga-ekpughe karịa ihe nke ọ bụla n'ime ọnọdụ ndị a chọrọ.
 
-[ZIP 311: Nkọwapụta Ịkwụ Ụgwọ Zcash](https://zips.z.cash/zip-0311) na-atụ aro azịza dị warara karị: ikpughe ma kwado ozi ahọpụtara site na otu azụmahịa.
+[ZIP 311: Zcash Mkpughe Kwụọ ụgwọ](https://zips.z.cash/zip-0311) na-atụ aro azịza dị warara karị: kpughee ma kwadoo ozi ahọpụtara sitere n'otu Azụmahia.
 
 ![A transaction ID proves that a transaction exists but does not reveal shielded payment details. A ZIP 311 payment disclosure would let a verifier authenticate only the selected recipient, amount, memo, and optional sender details against the mined transaction.](/content-images/payment-disclosure-proof-flow-208c033e06.webp)
 
-## Otu mkpughe ịkwụ ụgwọ si arụ ọrụ
+## Otu mkpughe Kwụọ ụgwọ si arụ ọrụ
 
 Usoro bụ isi bụ:
 
-1. Onye nyocha ahụ na-enye onye zitere ya ihe ịma aka ma ọ bụ ntụaka pụrụ iche, mgbe ihe akaebe mmekọrịta kwesịrị ekwesị.
-2. Onye zitere ya na-ahọrọ azụmahịa ahụ na mmepụta ma ọ bụ mmepụta echekwara iji kpughee ya.
-3. Ngwanrọ obere akpa dakọtara na-emepụta mkpughe ịkwụ ụgwọ nke jikọtara ya na azụmahịa ahụ, ma ọ bụrụ na ọ dị mkpa, ihe ịma aka ahụ.
-4. Onye zitere ya na-enye onye na-enyocha ihe ngosi ahụ.
-5. Onye nyocha ahụ na-enweta ezigbo azụmahịa ahụ site na Zcash node a pụrụ ịtụkwasị obi, na-enyocha ma e gwupụtara ya, ma na-enyocha ngosipụta megide ya.
-6. Nsonaazụ dị irè na-akwado naanị nkwupụta ndị dị na mkpughe ahụ.
+1. Onye nkwenye na-enye onye zitere ya ihe ịma aka pụrụ iche ma ọ bụ ntụaka, mgbe proof [proof] mmekọrịta dabara adaba.
+2. Onye zitere ya na-ahọrọ Azụmahia na mpụta nke e chebere echebe ma ọ bụ mpụta ndị a ga-ekpughe.
+3. Ngwanrọ e-akpa ego kwekọrọ na-emepụta mkpughe Kwụọ ụgwọ jikọtara na Azụmahia ahụ na, dịka nhọrọ, ihe ịma aka ahụ.
+4. Onye zitere ya na-enye onye nkwenye mkpughe ahụ.
+5. Onye nkwenye na-enweta ezigbo Azụmahia ahụ n'aka node [node] ntụkwasị obi Zcash, na-enyocha na a gwupụtara ya, ma na-akwado mkpughe ahụ megide ya.
+6. Nsonaazụ ziri ezi na-akwado naanị nkwupụta dị na mkpughe ahụ.
 
-Nhazi Sapling nke ZIP na-eji igodo nzuzo na-apụ apụ iji weghachite mmepụta ọ bụla ahọpụtara. Nke a nwere ike ikpughe onye nnata, ego, na ihe ncheta nke mmepụta. Ọ chọkwara ihe akaebe nke ikike mmefu maka opekata mpe otu ntinye azụmahịa, yabụ onye na-ahụ azụmahịa ahụ naanị enweghị ike ịmepụta mkpughe ziri ezi dị ka a ga-asị na o zigara ya.
+Nhazi ZIP nke Sapling na-eji igodo cipher na-apụ apụ weghachite mpụta ọ bụla ahọpụtara. Nke a nwere ike ikpughe onye nnata mpụta ahụ, ego, na memo. Ọ chọkwara proof ikike imefu maka opekata mpe otu ntinye Azụmahia, ya mere onye hụrụ Azụmahia ahụ naanị enweghị ike ịmepụta mkpughe ziri ezi dịka a ga-asị na ọ zitere ya.
 
-Nkpughe ụgwọ Sapling agaghị ekpughe adreesị onye zitere ya. Ikike mmefu nwere ike ijikwa ọtụtụ adreesị dị iche iche, yabụ igosi njikwa mmefu anaghị akọwapụta otu adreesị ozugbo. ZIP 311 gụnyere ihe akaebe adreesị nhọrọ maka ikpe ebe ọ dị mkpa ijikọ ihe akaebe ahụ na adreesị onye zitere ya a maara.
+Mkpughe Kwụọ ụgwọ Sapling agaghị ekpughe Adreesị akpa ego onye zitere ya. Ikike imefu nwere ike ịchịkwa ọtụtụ Adreesị dị iche iche, yabụ igosi njikwa nke mmefu anaghị amata otu Adreesị na-akpaghị aka. ZIP 311 gụnyere proof Adreesị nhọrọ maka ọnọdụ ebe ijikọta proof na Adreesị onye zitere amaara dị mkpa.
 
-## Mkpughe ịkwụ ụgwọ ma ọ bụ igodo nlele?
+## Mkpughe Kwụọ ụgwọ ka ọ bụ viewing key?
 
-| Usoro | Ojiji kacha mma | Ihe ọ na-ekpughe | Ịnweta na-aga n'ihu? | Ejikọtara ya na ịkwụ ụgwọ ahụ n'ụzọ nzuzo? |
+| Usoro | Ojiji [use case] kacha mma | Ihe ọ na-ekpughe | Ohere na-adịgide adịgide? | E jikọtara ya na Kwụọ ụgwọ n'ụzọ cryptographic? |
 | --- | --- | --- | --- | --- |
-| Transaction ID | Ịlele na e gwupụtara azụmahịa | Data na nkwenye azụmahịa ọha | Mba | Ee, mana nkọwa ịkwụ ụgwọ echekwara ka zoro ezo |
-| Screenshot or receipt | Idebe ndekọ na-abụghị nke iwu | Ihe ọ bụla onye zitere ya họọrọ igosi | Mba | Mba; enwere ike dezie onyonyo ahụ |
-| Payment disclosure | Ịgosipụta nkọwa ahọpụtara nke otu ịkwụ ụgwọ | Nsonaazụ azụmahịa ahọpụtara na onye zitere ma ọ bụ ihe akaebe ịma aka ọ bụla gụnyere | Mba, mana enwere ike iṅomi ihe akaebe ekesara | Ee |
-| Incoming Viewing Key | Na-enyocha ụgwọ ndị a natara site na akaụntụ | Ọrụ na-abata nke igodo ahụ kpuchiri | Ee | Ọ na-akọwapụta ụgwọ ndị dakọtara na-abata |
-| Full Viewing Key | Ịgụta ego ma ọ bụ inyocha akaụntụ | Ọrụ na-abata na nke na-apụ apụ, ọnụọgụgụ, ndetu, na nguzozi nke igodo ahụ kpuchiri | Ee | Ọ na-akọwapụta ihe omume akaụntụ dakọtara |
+| Transaction ID | Ịlele na a gwupụtara Azụmahia | Data Azụmahia ọha na nkwenye | Mba | Ee, mana nkọwa Kwụọ ụgwọ nke e chebere echebe na-anọgide zoro ezo |
+| Screenshot or receipt | Idebe ndekọ na-enweghị usoro | Ihe ọ bụla onye zitere ya họọrọ igosi | Mba | Mba; enwere ike dezie onyonyo ahụ |
+| Payment disclosure | Igosi nkọwa ahọpụtara nke otu Kwụọ ụgwọ | Mpụta Azụmahia ahọpụtara na proof onye zitere ma ọ bụ ihe ịma aka ọ bụla etinyere | Mba, mana enwere ike idetuo proof e kesara | Ee |
+| Incoming Viewing Key | Ileba anya na Kwụọ ụgwọ akaụntụ natara | Ọrụ mbata igodo ahụ kpuchiri | Ee | Ọ na-emepe Kwụọ ụgwọ mbata kwekọrọ |
+| Full Viewing Key | Ịza ajụjụ ego ma ọ bụ inyocha akaụntụ | Ọrụ mbata na mpụta, ego, memo, na nguzozi igodo ahụ kpuchiri | Ee | Ọ na-emepe ọrụ akaụntụ kwekọrọ |
 
-Jiri obere mkpughe nke na-aza ajụjụ a. Onye ahịa na-ese okwu gbasara otu ịkwụ ụgwọ anaghị emekarị ka mmadụ nweta ụgwọ ọ bụla dị na akaụntụ. Onye akaụntụ nke ga-enyocha oge akụkọ zuru oke nwere ike ịchọ igodo nlele kama.
+Jiri mkpughe kacha nta na-aza ajụjụ ahụ. Esemokwu onye na-ere ahịa gbasara otu Kwụọ ụgwọ anaghị akwadokarị ohere maka Kwụọ ụgwọ niile dị n'akaụntụ. Onye na-ahụ maka ndekọ ego ga-enyocha oge mkpesa zuru ezu nwere ike ịchọ viewing key kama.
 
-Ọ dịghị ụzọ abụọ a na-enye ikike imefu ego. Etinyela okwu mkpụrụ, igodo mmefu, igodo nzuzo, ma ọ bụ nkwado ego dị ka ihe akaebe nke ịkwụ ụgwọ.
+Ọ dịghị nke ọ bụla n'ime usoro ndị a na-enye ikike imefu ego. Ekekọrịtala Mkpuru mgbake [seed phrase], Igodo ego [spending key], igodo nzuzo, ma ọ bụ ndabere e-akpa ego dịka proof Kwụọ ụgwọ.
 
 ![A transaction record is available today but provides no new third-party proof. A payment disclosure would prove selected details of one payment. A viewing key provides broader, ongoing visibility.](/content-images/payment-disclosure-scope-0585cdc075.webp)
 
-## Gịnị ka m ga-eji taa?
+## Kedu ihe m nwere ike iji taa?
 
-Achọpụtaghị obere akpa ego dị ugbu a ebe a dị ka nke na-eme ka e mepụta ma ọ bụ nyochaa ịkwụ ụgwọ ZIP 311. ZIP ahụ ka bụ ihe e dere ede ma depụta mmejuputa ya dị ka "TBD." Ngwaọrụ ndị a ka nwere ike inyere onye zitere ya, onye nnata, ma ọ bụ onye nyocha ikike aka inyocha ndekọ ndị dị taa:
+Ọ dịghị e-akpa ego ugbu a a kọwara ebe a dịka nke na-emejuputa mmepụta ma ọ bụ nkwenye mkpughe Kwụọ ụgwọ ZIP 311. ZIP ka bụ draft ma depụta mmejuputa ntụaka ya dịka "TBD." Ngwá ọrụ [tools] ndị a a na-elekọta ka nwere ike inyere onye zitere, onye nnata, ma ọ bụ onye nyocha enyere ikike inyocha ndekọ dị taa:
 
-| Ngwa | Bara uru taa maka | Oke dị mkpa |
+| Ngwa | Ihe bara uru taa maka | Oke dị mkpa |
 | --- | --- | --- |
-| [Zkool](https://github.com/hhanh00/zkool2) | Ịlele metadata azụmahịa zuru ezu, ọnụọgụgụ, ntinye na mmepụta n'ime otu, na ndetu; ibubata igodo nlele Unified ma ọ bụ Sapling n'ime akaụntụ nlele naanị | Anaghị akpọsa mmepụta ma ọ bụ nkwenye nke ZIP 311 |
-| [Zingo PC](https://github.com/zingolabs/zingo-pc) | Nyochaa akụkọ ihe mere eme azụmahịa na ihe ncheta echekwara; ibubata Full Viewing Key oke n'ụdị ọgụgụ naanị | Ndekọ obere akpa ma ọ bụ akaụntụ ọgụgụ naanị abụghị mkpughe ịkwụ ụgwọ a na-ahọrọ nke ọma |
-| [Zallet](https://zcash.github.io/zallet/) | Usoro ọrụ nke onye ọrụ na-eji `z_viewtransaction`, `z_exportviewingkey`, na `z_importviewingkey` | Ngwanrọ Beta; igodo nlele ya na RPC azụmahịa ya bụ ndekọ sara mbara ma ọ bụ nke mpaghara, ọ bụghị ihe akaebe ZIP 311 |
+| [Zkool](https://github.com/hhanh00/zkool2) | Ịlele metadata Azụmahia zuru ezu, ego, ntinye na mpụta pool [pool], na memo; ibubata Unified ma ọ bụ Sapling viewing key n'ime akaụntụ naanị-nlele | Ọ naghị akpọsa mmepụta ma ọ bụ nkwenye mkpughe ZIP 311 |
+| [Zingo PC](https://github.com/zingolabs/zingo-pc) | Ịtụle akụkọ Azụmahia nke e chebere echebe na memo; ibubata Unified Full Viewing Key n'ọnọdụ naanị-agụ | Ndekọ e-akpa ego ma ọ bụ akaụntụ naanị-agụ abụghị mkpughe Kwụọ ụgwọ nwere oke ahọpụtara |
+| [Zallet](https://zcash.github.io/zallet/) | Usoro ọrụ onye na-arụ ọrụ jiri `z_viewtransaction`, `z_exportviewingkey`, na `z_importviewingkey` | Ngwanrọ Beta; RPC viewing-key na Azụmahia ya bụ ndekọ sara mbara ma ọ bụ nke mpaghara, ọ bụghị proof ZIP 311 |
 
-Jiri obere akpa ego ahụ zitere ma ọ bụ nata ụgwọ ahụ buru ụzọ. Lelee nkọwa azụmahịa ya, ihe edeturu, njirimara azụmahịa ya, na nkwenye ya, wee gwa onye nke ọzọ ka o jiri nkọwa ndị ahụ tụnyere ndekọ nke ya. Etinyela obere akpa ego ọhụrụ wee tinye mkpụrụ okwu naanị iji gosipụta ihe akaebe. Ọ bụrụ na onye na-enyocha ego chọrọ ịhụ ihe na-aga n'ihu, tụlee akaụntụ naanị echiche dakọtara ma ghọta oke nke igodo nlele tupu ịkekọrịta ya.
+Jiri e-akpa ego zitere ma ọ bụ natara Kwụọ ụgwọ ahụ mbụ. Lelee nkọwa Azụmahia ya, memo, ID Azụmahia, na nkwenye, mesịa gwa akụkụ nke ọzọ ka ọ tụnyere nkọwa ndị ahụ na ndekọ nke ya. Etinyela e-akpa ego ọhụrụ ma tinye Mkpuru mgbake naanị iji mepụta ihe akaebe. Ọ bụrụ na onye nyocha chọrọ ọhụhụ na-adịgide adịgide, tụlee akaụntụ naanị-nlele kwekọrọ ma ghọta oke viewing key tupu ịkekọrịta ya.
 
-Ngwa ndị a bụ ụzọ dị mma isi lelee ndekọ, ọ bụghị ihe akaebe na ngosipụta ịkwụ ụgwọ dị. Foto nwere ike inyere ndị mmadụ aka ịtụle ndekọ, mana enwere ike idezi ya ma ọ bụghị ihe akaebe nzuzo.
+Ngwa ndị a bụ ụzọ ọzọ bara uru maka ịlele ndekọ, ọ bụghị proof na mkpughe Kwụọ ụgwọ ọkọlọtọ dị. Nseta ihuenyo nwere ike inyere ndị mmadụ tụnyere ndekọ, mana a na-edezi ya ma ọ bụghị proof cryptographic.
 
-## Ebe mkpughe ịkwụ ụgwọ dị
+## Ebe mkpughe Kwụọ ụgwọ na-arụ ọrụ
 
-### Esemokwu ndị ahịa
+### Esemokwu onye na-ere ahịa
 
-Onye ahịa nwere ike igosi na ezigara ego kpọmkwem n'adreesị onye ahịa ahụ. Ihe akaebe ahụ egosighi na ebugara ngwongwo ahụ, na a kwụrụ ya ụgwọ, ma ọ bụ na onye na-eweta ya nwere njirimara iwu kpọmkwem. Ajụjụ ndị ahụ ka dabere na ndekọ iwu na nkwekọrịta nke ndị otu ahụ.
+Onye ahịa nwere ike igosi na e zigara ego kpọmkwem na Adreesị akpa ego nke e chebere echebe nke onye na-ere ahịa. Proof ahụ anaghị egosi na enyere ngwongwo, na a ji ụgwọ nkwụghachi, ma ọ bụ na onye na-egosi ya nwere njirimara iwu kpọmkwem. Ajụjụ ndị ahụ ka dabere na ndekọ ịtụ na nkwekọrịta akụkụ ndị ahụ.
 
-### Mwepụ echekwara
+### Mwepụ ego nke e chebere echebe
 
-ZIP 311 depụtara mwepụ ego echekwara dị ka ihe e ji eme ihe mgbaru ọsọ: mgbanwe ego ga-egosi onye natara ya na ego ya na-ebipụtaghị nkọwa ndị ahụ n'usoro. Ihe akaebe ntinye ya nke doro anya ka emechabeghị, yabụ nke a abụghị usoro ọrụ zuru oke. Onye ahịa ga-enyochakwa ọnọdụ nkwenye nke azụmahịa ahụ n'onwe ya.
+ZIP 311 depụtara mwepụ ego nke e chebere echebe dịka Ojiji e lekwasịrị anya: exchange ga-egosi onye nnata na ego na-ebipụtaghị nkọwa ndị ahụ on-chain [on-chain]. Proof ntinye Oha ya ka emechabeghị, yabụ nke a abụghị usoro ọrụ ọkọlọtọ zuru ezu ugbu a. Onye ahịa ga-enyochakwa ọnọdụ nkwenye Azụmahia n'onwe ya.
 
 ### Onyinye
 
-Onye na-enye onyinye ma ọ bụ mkpọsa nwere ike igosi onyinye kpọmkwem ma hapụ ịkwụ ụgwọ ndị na-enweghị njikọ na nzuzo. Mbipụta mkpughe ahụ na-eme ka nkọwa ndị ahọpụtara pụta ìhè nye onye ọ bụla natara otu, yabụ ọwa nkwenye nkeonwe na-adị nchebe karịa mgbe ihe akaebe ọha na eze adịghị mkpa.
+Onye nyere onyinye ma ọ bụ mkpọsa nwere ike igosi otu onyinye kpọmkwem ebe Kwụọ ụgwọ ndị na-enweghị njikọ na-anọgide nzuzo. Ibipụta mkpughe ahụ na-eme ka nkọwa ahọpụtara ya bụrụ ọha nye onye ọ bụla natara otu, yabụ ọwa nkwenye nzuzo dị nchebe karịa mgbe proof ọha adịghị mkpa.
 
-### Akaụntụ
+### Ịza ajụjụ ego
 
-Jiri mkpughe ịkwụ ụgwọ mgbe onye na-ahụ maka akaụntụ chọrọ ihe akaebe maka otu azụmahịa. Jiri igodo nlele kacha dị warara mgbe onye na-ahụ maka akaụntụ chọrọ ịnweta ọtụtụ azụmahịa ma ọ bụ oge akụkọ zuru oke.
+Jiri mkpughe Kwụọ ụgwọ mgbe onye na-ahụ maka ndekọ ego chọrọ ihe akaebe maka otu Azụmahia. Jiri viewing key kacha warara dabara mgbe onye na-ahụ maka ndekọ ego chọrọ ohere na-adịgide adịgide maka ọtụtụ Azụmahia ma ọ bụ oge mkpesa zuru ezu.
 
-## Usoro ọrụ nchekwa nzuzo
+## Usoro ọrụ na-echekwa Nzuzo [privacy]
 
-ZIP 311 abụghị ọkọlọtọ akpa ego emechara, nke a na-etinye n'ọtụtụ ebe. Mgbe ngwaọrụ onye na-eziga na onye na-enyocha ihe dakọtara dị, jiri ndepụta a:
+ZIP 311 abụghị ọkọlọtọ e-akpa ego emechara nke a pụrụ ibuga n'ebe nile. Mgbe ngwá ọrụ onye zitere na onye nkwenye kwekọrọ dị, jiri ndepụta nlele a:
 
-1. **Kwenye na ndakọrịta mbụ.** Ngwaọrụ abụọ a ga-akwado otu usoro mkpughe na ọdọ mmiri a na-echebe nke ụgwọ ahụ ji.
-2. **Dozie nsogbu nkịtị mbụ.** Lelee mmekọrịta akpa ego, njirimara azụmahịa, ọnụọgụ nkwenye, ọnọdụ njedebe, na ndekọ onye nnata tupu i kpughee nkọwa nkeonwe.
-3. **Rịọ maka ihe ịma aka.** Maka esemokwu, onye na-enyocha kwesịrị inye nọmba iwu ọhụrụ ma ọ bụ ihe ịma aka enweghị usoro ka ngosipụta ahụ wee jikọta arịrịọ ahụ.
-4. **Họrọ naanị ihe achọrọ.** Etinyela ihe ndị na-abụghị njikọ sitere na otu azụmahịa ahụ.
-5. **Lelee ebe ọ bụla ekpughere.** Lelee onye nnata, ego ole, ihe edeturu, ihe akaebe nke adreesị onye zitere ya, ma nwalee ya tupu ị na-ebupụ ya.
-6. **Kesaa site na ọwa nkeonwe.** Mkpughe abụghị isi ihe eji emefu ego nzuzo, mana onye ọ bụla natara ya nwere ike idobe ma ọ bụ kesaa ozi ọ na-ekpughe ọzọ.
-7. **Kwado ya n'usoro agbụ ahụ.** Onye nyocha ahụ ga-ebuga azụmahịa ahụ kpọmkwem site na node a tụkwasịrị obi, kwado na ọ dị na netwọk a chọrọ ma gbochie ya, wee kwado ngosipụta ahụ.
-8. **Dekọọ ihe si na ya pụta, ọ bụghị ihe nzuzo ọzọ.** Debe naanị ihe esemokwu, mwepụ ego, inye onyinye, ma ọ bụ usoro akaụntụ chọrọ.
+1. **Kwado ndakọrịta mbụ.** Ngwá ọrụ abụọ ahụ ga-akwado otu usoro mkpughe na pool nke e chebere echebe Kwụọ ụgwọ ji.
+2. **Dozie nsogbu nkịtị mbụ.** Lelee mmekọrịta e-akpa ego, ID Azụmahia, ọnụ ọgụgụ nkwenye, ọnọdụ njedebe oge, na ndekọ onye nnata tupu ikpughe nkọwa nzuzo.
+3. **Rịọ ihe ịma aka.** Maka esemokwu, onye nkwenye kwesịrị inye nọmba ịtụ ọhụrụ ma ọ bụ ihe ịma aka enweghị usoro ka mkpughe ahụ jikọọ na arịrịọ ahụ.
+4. **Họrọ naanị mpụta dị mkpa.** Etinyela mpụta ndị na-enweghị njikọ sitere n'otu Azụmahia.
+5. **Lelee ubi ọ bụla a ga-ekpughe.** Lelee onye nnata, ego, memo, proof Adreesị onye zitere, na ihe ịma aka tupu mbupụ.
+6. **Kekọrịta site n'ọwa nzuzo.** Mkpughe abụghị Igodo ego nzuzo, mana onye ọ bụla natara ya nwere ike idowe ma ọ bụ kesaa ozi ọ na-ekpughe.
+7. **Kwenye megide chain.** Onye nkwenye ga-ebudata Azụmahia ahụ kpọmkwem site na node ntụkwasị obi, kwado na ọ dị na netwọk na block e bu n'obi, mesịa kwado mkpughe ahụ.
+8. **Dekọọ nsonaazụ, ọ bụghị nzuzo ndị ọzọ.** Debe naanị ihe usoro esemokwu, mwepụ ego, onyinye, ma ọ bụ ịza ajụjụ ego chọrọ.
 
-Ọ bụrụ na obere akpa ahụ enweghị ike ime ka a mara ya, etinyela igodo nlele zuru oke n'aghọtaghị oke ya na nke na-adịgide adịgide. Jụọ ma onye nnata ahụ nwere ike ịkwado ụgwọ ahụ site na ndekọ obere akpa ya ma ọ bụ nabata ndekọ na-adịghị mkpa kama.
+Ọ bụrụ na e-akpa ego enweghị ike ịmepụta mkpughe, ejikwala viewing key zuru ezu dochie ya n'agụghị oke ya sara mbara na nke na-adịgide adịgide. Jụọ ma onye nnata nwere ike ikwenye Kwụọ ụgwọ sitere na ndekọ e-akpa ego nke ya ma ọ bụ nabata ndekọ na-adịghị akpata nnukwu ihe ize ndụ kama.
 
 ## Ihe mkpughe ziri ezi anaghị egosi
 
-Nkwenye na-aga nke ọma anaghị egosi:
+Nkwenye gara nke ọma anaghị egosi:
 
-- Na azụmahịa ahụ nwere nkwenye zuru oke maka amụma ihe egwu nke onye nyocha ahụ
-- Na nhazigharị agbụ ígwè enweghị ike iwepụ azụmahịa ọhụrụ
-- E zigara ngwaahịa ma ọ bụ ọrụ ahụ
+- Na Azụmahia nwere nkwenye zuru ezu maka iwu ihe ize ndụ nke onye nkwenye
+- Na nhazigharị chain enweghị ike iwepụ Azụmahia nso nso a
+- Na enyere ngwongwo ma ọ bụ ọrụ
 - Na achọrọ nkwụghachi ma ọ bụ nkwụghachi ụgwọ
-- Na onye zitere ya na-achịkwa otu adreesị kpọmkwem, ọ gwụla ma etinyela ihe akaebe adreesị kwesịrị ekwesị
-- Na onye na-egosi ihe ngosi ahụ nwere njirimara ụwa n'ezie nke a na-ekwu na ọ bụ
-- Na ihe ndị a na-anaghị akọwapụta, azụmahịa ndị ọzọ, ma ọ bụ nguzozi nke obere akpa nwere uru ọ bụla pụrụ iche
-- Na mkpughe ahụ ka bụ nke nzuzo mgbe ekesara ya
+- Na onye zitere ya na-achịkwa Adreesị akpa ego kpọmkwem, ma e wezụga ma ọ bụrụ na etinyere proof Adreesị dabara adaba
+- Na onye na-egosi mkpughe ahụ nwere njirimara e kwuru n'ụwa n'ezie
+- Na mpụta ekpugheghị, Azụmahia ndị ọzọ, ma ọ bụ nguzozi e-akpa ego nwere uru pụrụ iche
+- Na mkpughe ahụ na-anọgide nzuzo mgbe ekesara ya
 
-Onye nyocha ahụ ga-enyocha ọnọdụ nke itinye na nkwenye n'usoro iche iche. Usoro nkwenye nke ZIP 311 na-eche na onye na-akpọ oku enwetala azụmahịa e gwupụtara na ogologo blọk ya.
+Onye nkwenye ga-enyocha nsonye chain na ọnọdụ nkwenye iche. Usoro nkwenye ZIP 311 na-eche na onye kpọrọ ya enwetala Azụmahia a gwupụtara na elu block ya.
 
-## Mmachi dị ugbu a
+## Oke ugbu a
 
-Were ZIP 311 dị ka ọkọlọtọ a tụrụ aro, ọ bụghị dị ka nkwa na obere akpa ego dị ugbu a nwere bọtịnụ **Gosi ụgwọ** na-arụ ọrụ.
+Were ZIP 311 dịka ọkọlọtọ a tụrụ aro, ọ bụghị dịka nkwa na e-akpa ego ugbu a nwere bọtịnụ **Prove payment** na-arụ ọrụ.
 
-Edemede a na-akọwapụta mmefu na mmepụta Sapling ugbu a, mana o nwere ihe ndị a na-emechabeghị maka Orchard, ntinye doro anya, koodu ngosipụta, ụdị, na otu obere akpa ego kwesịrị isi gosipụta ọkwa dị iche iche nke irè. A na-edekwa mmejuputa ya dị ka "TBD." Dịka e dere ya, ọ naghị akọwapụta mkpughe ịkwụ ụgwọ maka ịkwụ ụgwọ Orchard ma ọ bụ Ironwood.
+Draft ahụ ugbu a na-akọwa mmefu na mpụta Sapling, mana ka nwere ihe emechabeghị maka Orchard, ntinye Oha, nzobe ederede mkpughe, ịnye ụdị, na otu e-akpa ego kwesịrị isi gosi ọkwa izi ezi dị iche iche. A na-edepụtakwa mmejuputa ntụaka ya dịka "TBD." Dịka e dere ya, ọ naghị akọwa mkpughe Kwụọ ụgwọ maka Kwụọ ụgwọ Orchard ma ọ bụ Ironwood.
 
-Onye zitere ozi ahụ nwekwara ike ọ gaghị enwe ike ikpughe ihe ọ rụpụtara ma ọ bụrụ na e mebere azụmahịa ahụ n'amaghị ama na-enweghị igodo nlele na-apụ apụ maka ihe ahụ. ZIP 311 na-echekwa nhọrọ nzuzo ahụ kama ịmepụta ụzọ mgbake ọhụrụ.
+Onye zitere ya nwekwara ike ghara ikpughe mpụta ma ọ bụrụ na e jiri ụma mepụta Azụmahia ahụ na-enweghị outgoing viewing key maka mpụta ahụ. ZIP 311 na-echekwa nhọrọ Nzuzo ahụ kama imepụta ụzọ mgbake ọhụrụ.
 
-Akwụkwọ ochie na-akọwa nnwale ahụ `z_getpaymentdisclosure` na `z_validatepaymentdisclosure` iwu dị na `zcashd`Iwu ndị ahụ kwadoro naanị ihe ndị na-apụta na Sprout JoinSplit**, ọ bụghị ihe e ji emepụta Sapling na ZIP 311, a kwụsịkwara iji ya. `zcashd` ruru nkwụsịtụ ikpeazụ ya na Nkwụsị Nkwado na Julaị 2026. Ejila usoro ihe omume ochie ahụ dị ka ntuziaka maka ego dị ugbu a.
+Akwụkwọ ochie na-akọwa iwu nnwale `z_getpaymentdisclosure` na `z_validatepaymentdisclosure` n'ime `zcashd`. Iwu ndị ahụ kwadoro naanị **mpụta Sprout JoinSplit**, ọ bụghị nhazi Sapling dị na ZIP 311, e wepụrụkwa ha. `zcashd` ruru nkwụsị End-of-Support ikpeazụ ya na Julaị 2026. Ejila ntụziaka ochie ahụ dịka ntuziaka maka ego ugbu a.
 
-Oghere ndị a anaghị eme ka echiche ahụ baa uru. Ha na-akọwa ihe mere ntuziaka dị mma ga-eji kewaa ụdị nzuzo ahụ ma jiri ihe ndị dị na ya na ngwanrọ dị njikere maka ndị ọrụ nkịtị.
+Ọghọm ndị a anaghị eme ka echiche ahụ ghara ịba uru. Ha na-akọwa ihe kpatara nduzi nlezianya ga-eji kewaa ụkpụrụ Nzuzo na Ojiji na ngwanrọ dị njikere maka ndị ọrụ nkịtị.
 
-## Ajụjụ Ndị A Na-ajụkarị
+## Ajụjụ a na-ajụkarị
 
-### Enwere m ike igosi na m na-akwụ ụgwọ echekwara naanị na njirimara azụmahịa?
+### Enwere m ike igosi Kwụọ ụgwọ nke e chebere echebe naanị na ID Azụmahia?
 
-Mba. NJ ahụ nwere ike ịchọpụta azụmahịa ahụ na ọnọdụ nkwenye ya, mana onye nnata echekwara, ego, na ihe ncheta abụghị ihe ọha na eze.
+Mba. ID ahụ nwere ike ịchọpụta Azụmahia na ọnọdụ nkwenye ya, mana onye nnata nke e chebere echebe, ego, na memo abụghị ọha.
 
-### Nkpughe ịkwụ ụgwọ ọ bụ otu ihe ahụ dị ka igodo nlele?
+### Mkpughe Kwụọ ụgwọ ọ bụ otu ihe na viewing key?
 
-Mba. A na-akọwapụta mkpughe gaa na nkọwa ahọpụtara nke otu azụmahịa. Igodo nlele nwere ike ikpughe ihe omume kwekọrọ na adreesị ma ọ bụ akaụntụ ka oge na-aga.
+Mba. Mkpughe nwere oke na nkọwa ahọpụtara nke otu Azụmahia. Viewing key nwere ike ikpughe ọrụ kwekọrọ maka Adreesị akpa ego ma ọ bụ akaụntụ ka oge na-aga.
 
-### Onye nnata ọ ga-emepụta ihe akaebe nke onye zitere ya?
+### Onye nnata nwere ike ịmepụta proof onye zitere?
 
-Ọ bụghị n'okpuru atụmatụ ZIP 311. Mkpughe ziri ezi ga-egosi na ikike mmefu ego maka opekata mpe otu ntinye. Onye nnata nwere ike ịkwado ịkwụ ụgwọ site na iji ndekọ akpa ego nke ya, mana nke ahụ bụ nkwupụta dị iche.
+Ọ bụghị n'okpuru nhazi ZIP 311. Mkpughe ziri ezi ga-egosi ikike imefu maka opekata mpe otu ntinye. Onye nnata nwere ike ikwenye Kwụọ ụgwọ site na ndekọ e-akpa ego nke ya, mana nke ahụ bụ nkwupụta dị iche.
 
-### Enwere m ike ịkagbu mkpughe mgbe m kesịrị ya?
+### Enwere m ike ịkagbu mkpughe mgbe ekesara ya?
 
-Mba. Ọ naghị enye ohere ịnweta akaụntụ n'ọdịnihu dị ka igodo nlele, mana enwere ike idetuo data na ihe akaebe ekpughere. Kesaa ya nke ọma dịka ndekọ ego nkeonwe ọ bụla.
+Mba. Ọ naghị enye ohere akaụntụ n'ọdịnihu dịka viewing key, mana enwere ike idetuo data ekpughere na proof. Kekọrịta ya nlezianya dịka ndekọ ego nzuzo ọ bụla.
 
-### Nkwenye ọ na-akwagharị ma ọ bụ na-akpọchi ZEC ọ bụla?
+### Nkwenye ọ na-ebufe ma ọ bụ kpọchie ZEC ọ bụla?
 
-Mba. Imepụta ma ọ bụ inyocha mkpughe anaghị emefu ego, akwụghachi ego, kwụsị, ma ọ bụ tụgharịa ego ahụ.
+Mba. Ịmepụta ma ọ bụ ikwenye mkpughe anaghị emefu, akwụghachi, kpọnwụọ, ma ọ bụ weghachite ego.
 
-### Kedu ihe m ga-eji taa ma ọ bụrụ na obere akpa m enweghị njirimara ngosipụta?
+### Kedu ihe m ga-eji taa ma ọ bụrụ na e-akpa ego m enweghị atụmatụ mkpughe?
 
-Malite site na ndekọ akpa ego nke onye nnata, njirimara azụmahịa na ọnọdụ nkwenye, ntụaka akwụkwọ ọnụahịa dị na memo ezoro ezo, ma ọ bụ nnata ọzọ a nabatara n'otu n'otu. Jiri igodo nlele naanị mgbe achọrọ oke ya nke ọma ma ghọta ya nke ọma.
+Bido na ndekọ e-akpa ego onye nnata, ID Azụmahia na ọnọdụ nkwenye, ntụaka akwụkwọ ọnụahịa dị na memo ezoro ezo, ma ọ bụ nnata ọzọ akụkụ abụọ nabatara. Jiri viewing key naanị mgbe nnukwu oke ya dị mkpa n'ezie ma ghọta ya.
 
-## akụrụngwa
+## Akụrụngwa
 
-- [ZIP 311: Nkọwapụta Ịkwụ Ụgwọ Zcash](https://zips.z.cash/zip-0311) - nhazi atụmatụ, ihe achọrọ, usoro nkwenye, na ihe nzuzo na-atụle
-- [ZIP 310: Njirimara Nchekwa nke Igodo Ilele Sapling](https://zips.z.cash/zip-0310) - ihe igodo nlele na-ekpughe na ihe nkwa ha na-enye
-- [ZIP 304: Mbinye aka na adreesị Sapling](https://zips.z.cash/zip-0304) - usoro nhọrọ nke ZIP 311 zoro aka na ya
-- [Nkọwapụta usoro Zcash](https://zips.z.cash/protocol/protocol.pdf) - Sapling note encryption, outgoing viewing keys, and spend authorization
-- [Akwụkwọ mkpughe ịkwụ ụgwọ zcashd echekwara](https://github.com/zcash/zcash/blob/master/doc/payment-disclosure.md) - mmejuputa akụkọ ihe mere eme naanị maka Sprout, ọ bụghị ntuziaka dị ugbu a
-- [atụmatụ ndị a na-anaghị eji eme ihe na zcashd](https://zcash.github.io/zcash/user/deprecation.html) - ọnọdụ nke iwu mkpughe nnwale ochie
+- [ZIP 311: Zcash Mkpughe Kwụọ ụgwọ](https://zips.z.cash/zip-0311) - nhazi draft, ihe achọrọ, usoro nkwenye, na echiche Nzuzo
+- [ZIP 310: Njirimara Nche nke Sapling Viewing Keys](https://zips.z.cash/zip-0310) - ihe viewing key na-ekpughe na nkwa ha na-enye
+- [ZIP 304: Sapling Signature Adreesị](https://zips.z.cash/zip-0304) - usoro proof Adreesị nhọrọ a kpọtụrụ na ZIP 311
+- [Zcash nkọwapụta protocol](https://zips.z.cash/protocol/protocol.pdf) - Sapling Nzobe ederede note [note], outgoing viewing keys, na ikike imefu
+- [Akwụkwọ mkpughe Kwụọ ụgwọ zcashd echekwara](https://github.com/zcash/zcash/blob/master/doc/payment-disclosure.md) - mmejuputa akụkọ ihe mere eme naanị Sprout, ọ bụghị nduzi ugbu a
+- [zcashd atụmatụ e wepụrụ](https://zcash.github.io/zcash/user/deprecation.html) - ọnọdụ iwu mkpughe nnwale ochie
 
-## Ibe ndị metụtara ya
+## Peeji ndị metụtara
 
-- [Azụmahịa](/using-zcash/transactions) - ịkwụ ụgwọ echekwara, nkwenye, na nsogbu nsogbu azụmahịa
-- [Igodo ndị a na-elele](/zcash-tech/viewing-keys) - ohere ịgụ naanị na-aga n'ihu na nhọrọ mbupụ ugbu a
-- [Ihe onye na-eme nchọpụta blọk nwere ike ịhụ](/zcash-tech/what-a-block-explorer-can-see) - ngalaba azụmahịa ọha na nkeonwe
-- [Idebe ndekọ na ZEC echekwara](/zcash-use-cases/keeping-records-with-shielded-zec) - akaụntụ na-enweghị ebipụta akụkọ obere akpa ego
+- [Azụmahia](/using-zcash/transactions) - Kwụọ ụgwọ nke e chebere echebe, nkwenye, na nchọpụta nsogbu Azụmahia
+- [Viewing keys](/zcash-tech/viewing-keys) - ohere naanị-agụ na-adịgide adịgide na nhọrọ mbupụ ugbu a
+- [Ihe ihe nchọgharị block pụrụ ịhụ](/zcash-tech/what-a-block-explorer-can-see) - ubi Azụmahia ọha na nzuzo
+- [Idobe ndekọ na ZEC nke e chebere echebe](/zcash-use-cases/keeping-records-with-shielded-zec) - ịza ajụjụ ego na-ebipụtaghị akụkọ e-akpa ego

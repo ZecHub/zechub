@@ -1,102 +1,102 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Zcash_Organizations/ZODL.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Dezie Peeji"/>
 </a>
 
 # <img src="/content-images/198608b2-9059-4cb7-aeb8-9354971376fd-d67c2d46f5.webp" alt="ZODL Logo" width="50"/> ZODL (Zcash Open Development Lab)
 
 [Weebụsaịtị](https://zodl.com/) - [GitHub](https://github.com/zodl-inc) - [X/Twitter](https://x.com/zodl_app) - [Discord](https://discord.gg/zodl)
 
-## Nkwupụta Ozi
+## Nkwupụta Ebumnuche
 
-ZODL na-ahụ ụwa nke na-enweghị nnukwu nlekota ego, ebe ndị na-edebe iwu nwere ike ịzụ ahịa n'efu na nkeonwe. Òtù ahụ kwenyere na ọ dịghị ikike ọchịchị na-enweghị nzuzo, nakwa na nzuzo ego kwesịrị ịbụ ikike mmadụ na-enweta site na ndabara.
+ZODL na-ahụ ụwa na-enweghị nlekota ego n'ọtụtụ ebe, ebe ndị na-erube isi n'iwu nwere ike ime azụmahịa n'enweghị mgbochi na na nzuzo. Òtù a kwenyere na e nweghị ọchịchị onwe onye na-enweghị Nzuzo [privacy], nakwa na Nzuzo ego kwesịrị ịbụ ọnọdụ ndabara, ebe ịnweta ahịa bụ ikike mmadụ.
 
-## Ihe ndabere na Akụkọ Ihe Mere Eme
+## Nzụlite na Akụkọ Ihe Mere Eme
 
-Josh Swihart, onye bụbu onye isi oche nke Electric Coin Company (ECC). hiwere ZODL (Zcash Open Development Lab) na mbido afọ 2026. Na Jenụwarị 2026, ndị otu injinia na ngwaahịa ECC niile gbara arụkwaghịm mgbe esemokwu ọchịchị na Bootstrap, bọọdụ 501(c)(3) nke na-ahụ maka ECC. Ndị otu bụ isi nke chepụtara, tinye n'ọrụ, ma lekọta sistemụ kachasị mkpa Zcash's gbanwere gaa na ZODL iji gaa n'ihu na-arụ ọrụ ha n'adabereghị onwe ha.
+ZODL (Zcash Open Development Lab) hiwere na mbido 2026 site n'aka Josh Swihart, onye bụbu CEO nke Electric Coin Company (ECC). Na Jenụwarị 2026, ndị otu injinịa na ngwaahịa nke ECC niile gbara arụkwaghịm mgbe esemokwu Gọọmentị [governance] na Bootstrap gasịrị, bụ bọọdụ enweghị uru 501(c)(3) nke na-ahụ maka ECC. Ndị otu isi bụ ndị haziri, mejuputa, ma lekọta usoro kacha dị mkpa nke Zcash na mbụ kwagara ZODL ka ha gaa n'ihu n'ọrụ ha n'onwe ha.
 
-E weghachiri obere akpa Zashi, nke e mepụtara ma na-elekọta n'okpuru ECC, ka ọ bụrụ ZODL n'okpuru nzukọ ọhụrụ ahụ. Ndị ọrụ achọghị ime ihe ọ bụla, ebe ọ bụ na ngwa ahụ gbanwere aha ya na akpaghị aka na mmelite ọzọ.
+E-akpa ego Zashi, nke e mepụtara ma lekọta n'okpuru ECC na mbụ, gbanwere aha ya ka ọ bụrụ ZODL n'okpuru òtù ọhụrụ ahụ. Ọ dịghị ihe ndị ọrụ kwesịrị ime, ebe ngwa ahụ gbanwere aha ya ozugbo n'oge mmelite sochirinụ.
 
-## Ego enyemaka
+## Ego Nkwado
 
-Na Machị 2026, ZODL chịkọtara ihe karịrị nde $25 na mkpụrụ ego sitere n'aka otu ndị na-etinye ego a ma ama, gụnyere:
+Na Maachị 2026, ZODL nwetara ihe karịrị nde $25 n'ego nkwado mmalite n'aka otu ndị itinye ego a ma ama, gụnyere:
 
 - **Paradigm**
-- **a16z ego dijitalụ**
+- **a16z crypto**
 - **Winklevoss Capital**
 - **Coinbase Ventures**
-- **Cypherpunk Technologies** ($5M itinye ego)
+- **Cypherpunk Technologies** (itinye ego $5M)
 - **Chapter One**
 - **David Friedberg**
 - **Balaji Srinivasan**
-- Ndị ọzọ na-etinye ego n'ime mmụọ ozi sitere na ngalaba crypto na teknụzụ
+- Ndị ọzọ na-etinye ego angel sitere na ngalaba crypto na teknụzụ
 
-A na-eji isi obodo ahụ agbasa mmepe nke usoro Zcash na obere akpa ZODL.
+A na-eji ego a agbasawanye mmepe nke protocol Zcash na e-akpa ego ZODL.
 
-## Ọchịchị
+## Ndị Ndú
 
-- **Josh Swihart** - Onye isi ụlọ ọrụ na onye hiwere (onye bụbu onye isi Electric Coin Company)
+- **Josh Swihart** - CEO & Onye Hibere Ya (onye bụbu CEO nke Electric Coin Company)
 
-Ndị otu ahụ sara mbara bụ ndị mepụtara usoro Zcash mbụ na ndị mmepe bụ ndị wuru ma lekọta Zcash na ECC. Nke a gụnyere ahụmịhe miri emi na cryptography, ihe akaebe enweghị ihe ọmụma, na injinia usoro.
+Ndị otu sara mbara mejupụtara ndị mepụtara protocol Zcash mbụ na ndị onye mmepụta [developer] rụrụ ma lekọta Zcash na ECC na mbụ. Nke a gụnyere nka miri emi n'ihe gbasara cryptography, zero-knowledge proofs, na injinịa protocol.
 
 ## Ngwaahịa
 
-### ZODL Wallet (nke a na-akpọbu Zashi)
+### E-akpa ego ZODL (nke a na-akpọbu Zashi)
 
-ZODL bụ obere akpa ekwentị nkeonwe nke e mere maka azụmahịa Zcash nkeonwe. Ọ na-ejikọta ihe ọmụma miri emi nke ọkwa protocol yana imewe enyi na enyi, na-ezochi mgbagwoju anya ma na-echekwa nchekwa.
+ZODL bụ e-akpa ego mkpanaka onye nwe ya na-achịkwa n'onwe ya, e mere maka Azụmahia [transaction] Zcash nkeonwe. Ọ na-ejikọta ihe ọmụma miri emi nke ọkwa protocol na nhazi dị mfe maka ndị ọrụ, na-ezo mgbagwoju anya ma na-edobe nchekwa.
 
-**Ngwaọrụ:**
-- [iOS (Ụlọ Ahịa Ngwa)](https://apps.apple.com/us/app/zodl-zcash-wallet/id1672392439)
-- [Android (Ụlọ Ahịa Play)](https://play.google.com/store/apps/details?id=co.electriccoin.zcash)
+**Platform:**
+- [iOS (App Store)](https://apps.apple.com/us/app/zodl-zcash-wallet/id1672392439)
+- [Android (Play Store)](https://play.google.com/store/apps/details?id=co.electriccoin.zcash)
 - [F-Droid](https://f-droid.org/en/packages/co.electriccoin.zcash.foss/)
 - [GitHub](https://github.com/zodl-inc)
 
-**Isi Atụmatụ:**
+**Njirimara Ndị Isi:**
 
-- **Ekpuchiri ya site na ndabara:** Azụmahịa niile na-eji ọdọ mmiri ndị e ji echebe Zcash's, onye na-eziga ozi zoro ezo, onye nnata, na ego azụmahịa site na iji cryptography efu
-- **Nchedo Otu Pịa:** Gbanwee ZEC doro anya ka ọ bụrụ ego nkeonwe site na iji otu mgbata
-- **CrossPay:** Zipu ZEC echekwara ebe ndị nnata na-enweta ihe onwunwe ha kacha amasị (BTC, stablecoins, wdg.)
-- **Mgbanwe nkeonwe:** Mgbanwe arụnyere n'ime ya nke NEAR Intents, na-ezere mgbanwe etiti
-- **Keystone:** Nkwado obere akpa ngwaike maka nchekwa oyi nke ZEC echekwara site na mbinye aka azụmahịa nke nwere oghere ikuku
-- **Flexa:** Mefuo ZEC n'ụlọ ahịa ndị a ma ama dịka GameStop, Chipotle, Sheetz, na Barnes & Noble
-- **Coinbase:** Zụta ZEC ozugbo n'ime obere akpa ahụ na-enweghị ndebanye aha mgbanwe dị iche
-- **Izi ozi ezoro ezo:** Nzuzo Zcash-level maka ndetu echekwara yana ma ọ bụ na-adabereghị na azụmahịa
-- **Adreesị Ndị E Jikọtara Ọnụ:** Njikwa adreesị dị mfe n'ofe ọdọ mmiri Transparent, Sapling, na Orchard
-- **Nkwado Tor:** Emelitere nzuzo dị na netwọk maka mgbasa ozi azụmahịa
+- **Nke e chebere echebe [shielded] na Ndabara:** Azụmahia niile na-eji pool nke e chebere echebe nke Zcash, na-ezo onye zitere, onye natara, na ọnụọgụ Azụmahia site n'iji cryptography zero-knowledge
+- **Ichebe n'Otu Pịa:** Jiri otu pịa gbanwee ZEC Oha [transparent] ka ọ bụrụ ego nkeonwe
+- **CrossPay:** Ziga ZEC nke e chebere echebe ebe ndị nnata na-enweta akụ ha họọrọ (BTC, stablecoins, wdg.)
+- **Mgbawe [swap] Nkeonwe:** Mgbawe arụnyere n'ime ya nke NEAR Intents na-akwado, na-ezere exchange etiti
+- **Njikọ Keystone:** Nkwado hardware wallet maka nchekwa oyi nke ZEC nke e chebere echebe site na ịbịanye aka Azụmahia n'enweghị njikọ
+- **Ịkwụ Ụgwọ Flexa:** Jiri ZEC kwụọ ụhwọ [payment] n'ebe ndị na-ere ahịa ukwu gụnyere GameStop, Chipotle, Sheetz, na Barnes & Noble
+- **Njikọ Coinbase:** Zụta ZEC ozugbo n'ime e-akpa ego na-enweghị ndebanye exchange dị iche
+- **Ozi Ezoro Ezo:** Nzuzo nke ọkwa Zcash maka memo nke e chebere echebe n'akụkụ Azụmahia ma ọ bụ n'adabereghị na ya
+- **Adreesị Akpa Ego [address] Ejikọtara Ọnụ:** Nlekọta Adreesị akpa ego dị mfe n'ofe pool Oha, Sapling, na Orchard
+- **Nkwado Tor:** Nzuzo ọkwa netwọk emelitere maka mgbasa Azụmahia
 
-**Nkwa Nzuzo:**
-- Enweghị nleba anya nke ọrụ obere akpa ego, akụkọ ihe mere eme azụmahịa, ma ọ bụ omume onye ọrụ
-- Naanị akụkọ ihe mberede ndị a na-amaghị aha ka a na-anakọta, na-enweghị ike ijikọ data na ndị ọrụ kpọmkwem
+**Nkwenye Nzuzo:**
+- Enweghị nsonye nke ọrụ e-akpa ego, akụkọ Azụmahia, ma ọ bụ omume onye ọrụ
+- Naanị akụkọ ọdịda ezoro aha ka a na-anakọta, na-enweghị ike ijikọ data na ndị ọrụ kpọmkwem
 
-### Arụmọrụ na Mmetụta
+### Ọrụ na Mmetụta
 
-Kemgbe mmalite ya dịka Zashi na 2024, obere akpa ahụ emeela ka ọ too nke ukwuu na usoro Zcash:
+Kemgbe mmalite mbụ ya dịka Zashi na 2024, e-akpa ego ahụ ewetaala uto dị ịrịba ama na gburugburu Zcash:
 
-- Mee ka ọdọ mmiri ahụ kpuchie Orchard si ihe dị ka 1M ZEC ruo 4M ZEC n'oge 2025 (mmụba karịrị 400%)
-- Emechara ihe karịrị nde dọla $600 na mgbanwe ZEC kemgbe Ọktoba 2025
+- Mere ka pool nke e chebere echebe Orchard too site n'ihe dị ka 1M ZEC ruo 4M ZEC n'oge 2025 (mmụba karịrị 400%)
+- Haziela Mgbawe ZEC karịrị nde $600 kemgbe Ọktoba 2025
 
-## Ọrụ na Zcash Ecosystem
+## Ọrụ Ya na Gburugburu Zcash
 
-ZODL na-arụ ọrụ abụọ na usoro Zcash:
+ZODL na-arụ ọrụ abụọ na gburugburu Zcash:
 
-1. **Mmepe Usoro:** Ndị otu ahụ na-aga n'ihu na-akwalite ngwanrọ na ngwaọrụ usoro Zcash dị mkpa, na-arụkọ ọrụ na ndị otu gburugburu ebe obibi ndị ọzọ dịka Zcash Foundation na Zingo Labs
-2. **Ngwaahịa Na-eche Ndị Ọrụ:** Iwuli ma na-edobe obere akpa ego ndị ahịa maka Zcash, lekwasịrị anya n'ime ka ịkwụ ụgwọ dijitalụ nkeonwe dịrị ndị ọrụ nkịtị mfe inweta
-3. **Uto ọdọ mmiri echekwara:** Akọwala ihe ọhụrụ ZODL's mepụtara dịka "ihe kacha mkpa mere Zcash ji laghachi na map ahụ"
-4. **Ebe E Si Emepe:** Ọrụ niile bụ isi mmalite mepere emepe, na-enye onye ọ bụla ohere inyocha koodu protocol, nyochaa obere akpa ahụ, ma nyochaa mmejuputa ya
+1. **Mmepe Protocol:** Ndị otu ahụ na-aga n'ihu n'ịkwalite sọftụwia protocol isi Zcash na ngwá ọrụ [tools], na-arụkọ ọrụ na ndị otu gburugburu ndị ọzọ dịka Zcash Foundation na Zingo Labs
+2. **Ngwaahịa Maka Ndị Ọrụ:** Iwulite ma lekọta e-akpa ego mbụ maka ndị na-azụ ahịa nke Zcash, na-elekwasị anya n'ime ka ịkwụ ụhwọ dijitalụ nkeonwe ruo ndị ọrụ nkịtị
+3. **Uto Pool Nke E Chebere Echebe:** A kọwara ihe ọhụrụ e-akpa ego nke ZODL dịka …otu ihe kacha ukwuu mere ka Zcash laghachi n'ịdị mkpa…
+4. **Ebe Mepere Emepe:** Ọrụ niile bụ open-source, na-enye onye ọ bụla ohere inyocha koodu protocol, nyochaa e-akpa ego, ma kwado mmejuputa
 
-## Nkà Ihe Ọmụma: Onye Nche nke Eze
+## Nkà Ihe ọmụma: Onye Nche nke Onye Nwere Ọchịchị Onwe Ya
 
-Echiche nduzi ZODL's lekwasịrị anya n'echiche nke "Onye Nche nke Onye Ọchịchị" - nkwenye na ndị mmadụ kwesịrị ịnọgide na-achịkwa nzuzo ego ha na ọbụbụeze ha. Òtù ahụ na-ebute ikike onye ọrụ ụzọ karịa njikwa ikpo okwu, na-ewu ngwaọrụ ndị na-enye ndị mmadụ ike karịa ndị ogbugbo.
+Nkà ihe ọmụma nduzi nke ZODL gbadoro ụkwụ n'echiche …Onye Nche nke Onye Nwere Ọchịchị Onwe Ya… -- nkwenkwe na ndị mmadụ kwesịrị ijide nchịkwa zuru ezu n'ebe Nzuzo ego ha na ọchịchị onwe ha dị. Òtù a na-ebute ọchịchị onwe onye ọrụ ụzọ karịa nchịkwa platform n'ebumnobi, na-ewu ngwá ọrụ na-enye ndị mmadụ ike karịa ndị etiti.
 
-## akụrụngwa
+## Akụrụngwa
 
-- [Weebụsaịtị ZODL](https://zodl.com/)
-- [ZODL Gbasara Peeji](https://zodl.com/about/)
+- [ZODL Weebụsaịtị](https://zodl.com/)
+- [ZODL Peeji Banyere Anyị](https://zodl.com/about/)
 - [X/Twitter](https://x.com/zodl_app)
 - [Josh Swihart na X](https://x.com/jswihart)
 
-## Lee kwa
+## Hụkwa
 
 - [Electric Coin Company](Electric_Coin_Company.md)
 - [Zcash Foundation](Zcash_Foundation.md)
 - [Zingo Labs](Zingo_Labs.md)
-- [Ụlọ nyocha echekwara](Shielded_Labs.md)
+- [Shielded Labs](Shielded_Labs.md)

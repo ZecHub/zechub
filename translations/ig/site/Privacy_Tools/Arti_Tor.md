@@ -1,178 +1,178 @@
 ![Tor logo](/content-images/_unavailable.svg)
 
-# **Arti: Onye ahịa Tor na-esote ọgbọ n'ime Rust**
+# **Arti: Onye ahịa Tor Ọgbọ Ọhụrụ na Rust**
 ![Atri Logo](/content-images/_unavailable.svg)
 
-**Arti** is the Tor Project's initiative to build a next-generation **Tor** client using the **Rust** programming language. Arti is designed to be modular, embeddable, and production-ready, providing a more secure and efficient implementation of the **Tor** anonymity protocols. With **Arti version 1.4.0**, several significant updates have been introduced:
+**Arti** bụ atụmatụ Project Tor iji wuo onye ahịa **Tor** ọgbọ ọhụrụ site n'iji asụsụ mmemme **Rust**. E mere Arti ka ọ bụrụ nke a pụrụ ikewaa n’ụdị modul, tinye n'ime ngwa ọzọ, ma dị njikere maka mmepụta, na-enye mmejuputa usoro amaghị aha **Tor** nke dị nchebe ma dị irè karịa. Site na **Arti version 1.4.0**, e webatala ọtụtụ mmelite dị mkpa:
 
-- A ** ọhụrụ RPC interface** maka enwekwukwa mmekọrịta.
-- Ọrụ nkwadebe maka ** nkwado relay.
-- Mma na ** ọrụ-n'akụkụ onion ọrụ jụrụ nke ọrụ iguzogide**.
+- **Njikọ RPC ọhụrụ** maka mmekorita ka mma.
+- Ọrụ nkwadebe maka **nkwado relay**.
+- Mmelite n'ime **mguzogide mwakpo ịgọnarị ọrụ onion service n'akụkụ ọrụ**.
 
-Mgbapụta a na-aga n'ihu mgbalị Tor Project iji nye nchebe, arụmọrụ, na modularity ka mma maka ndị ọrụ Tor na ndị mmepe.
+Ntọhapụ a na-aga n'ihu na mbọ Project Tor ịnye nchekwa, arụmọrụ, na nhazi modul ka mma maka ndị ọrụ na ndị onye mmepụta Tor.
 
 
 ---
 
 
-## ** Ntinye nke Arti Client**
+## **Ịwụnye Onye Ahịa Arti**
 
-Soro usoro ndị a iji wụnye ma na-agba ọsọ ** Arti** dị ka onye nnọchiteanya SOCKS na sistemụ gị.
+Soro usoro ndị a iji wụnye ma gbaa **Arti** dịka SOCKS proxy na sistemụ gị.
 
 ---
 
-### **Nzọụkwụ 1: Mepụta a nchara Development Environment**
+### **Nzọụkwụ 1: Hazie Gburugburu Mmepe Rust**
 
-Tupu ị nwee ike iwulite Arti site na isi mmalite, ịkwesịrị ịnwe ụdị nrụpụta kachasị ọhụrụ nke **Rust** arụnyere.
+Tupu ị nwee ike iwulite Arti site na koodu mmalite, ị ga-enwerịrị ụdị kwụsiri ike kacha ọhụrụ nke **Rust** arụnyere.
 
 #### Iji Wụnye Rust:
 
-1. Gaa na ebe nrụọrụ weebụ gọọmentị [Rust website](https://www.rust-lang.org/).
-2. Soro ntuziaka ntinye maka sistemụ arụmọrụ gị.
-3. Nyochaa nrụnye site na ịgba ọsọ:
+1. Gaa na weebụsaịtị gọọmentị [Rust](https://www.rust-lang.org/).
+2. Soro ntuziaka nrụnye maka sistemụ arụmọrụ gị.
+3. Nyochaa nrụnye ahụ site n'ịgba:
    
    ```sh
    rustc --version
    ```
 
-Nke a ga-egosi na ị nwere ụdị kachasị ọhụrụ nke Rust arụnyere na sistemụ gị.
+Nke a ga-akwado na i nwere ụdị kwụsiri ike kacha ọhụrụ nke Rust arụnyere na sistemụ gị.
 
-#### **Mara maka ndị ọrụ Windows**:
-- Rust nwere ike arụnyere na Windows site [**rustup**](https://rustup.rs/), onye na-arụ ọrụ ngwá ọrụ. Jide n'aka na ị melitela gburugburu ebe obibi dakọtara (ị nwere ike ịchọ ** Visual Studio Build Tools ** na Windows).
+#### **Note maka Ndị Ọrụ Windows**:
+- Enwere ike ịwụnye Rust na Windows site na [**rustup**](https://rustup.rs/), nke bụ onye nrụnye toolchain. Hụ na ị hazikwala gburugburu iwulite dabara adaba (ị nwere ike ịchọ **Visual Studio Build Tools** na Windows).
   
 ---
 
-### **Nzọụkwụ 2: Iṅomi Arti Repository**
+### **Nzọụkwụ 2: Clone Ebe Nchekwa Arti**
 
-Iji nweta ụdị kachasị ọhụrụ nke onye ahịa Arti, ị ga-achọ iṅomi ebe nchekwa ahụ site na [**GitLab**](https://gitlab.torproject.org/tpo/core/arti).
+Iji nweta ụdị onye ahịa Arti kacha ọhụrụ, ị ga-achọ clone ebe nchekwa ahụ site na [**GitLab**](https://gitlab.torproject.org/tpo/core/arti).
 
-#### Nzọụkwụ:
-1. Mepee ọnụ gị (Command Prompt, PowerShell, ma ọ bụ Git Bash na Windows).
-2. Gbaa iwu a iji mepụta ebe nchekwa:
+#### Usoro:
+1. Mepee terminal gị (Command Prompt, PowerShell, ma ọ bụ Git Bash na Windows).
+2. Gbaa iwu na-esonụ iji clone ebe nchekwa ahụ:
    
    ```sh
    git clone https://gitlab.torproject.org/tpo/core/arti.git
    ```
-4. Gaa na ndekọ * arti* e mepụtara ọhụrụ:
+4. Gaa na ndekọ *arti* e mepụtara ọhụrụ:
    
    ```sh
    cd arti
    ```
 
-Nke a ga-adọta koodu isi mmalite nke Arti n'ime igwe gị.
+Nke a ga-ebudata koodu mmalite Arti na igwe mpaghara gị.
 
 ---
 
-### **Nzọụkwụ 3: Wulite Arti Binary**
+### **Nzọụkwụ 3: Wulite Binary Arti**
 
-Ozugbo i mepụtara ihe nchekwa ahụ, ịkwesịrị ịmepụta Arti site na iji ** Cargo ** , nke bụ onye njikwa ngwugwu Rust ma wuo ngwá ọrụ.
+Mgbe i clonechara ebe nchekwa ahụ, ị ga-achọ iwulite Arti site na **Cargo**, nke bụ onye njikwa ngwugwu na ngwá ọrụ iwulite nke Rust.
 
 #### Iji Wulite Arti:
-1. Na njedebe, gbaa iwu a:
+1. Na terminal, gbaa iwu na-esonụ:
    ```sh
    cargo build --release
    ```
 
-Iwu a na-achịkọta koodu Arti ma bulie ya maka mmepụta (ọkọlọtọ *--release*). A ga -emepụta ọnụọgụ abụọ ahụ n'ime ndekọ aha *target/release*.
+Iwu a na-achịkọta koodu Arti ma kwalite ya maka mmepụta (akara *--release*). A ga-emepụta binary ahụ n'ime ndekọ *target/release*.
 
-#### Ebe nke Binary Compiled:
-- Mgbe e wuchara ya, Arti ga-adị n'ebe: 
+#### Ebe Binary A Chịkọtara Dị:
+- Mgbe iwulitechara, binary Arti ga-adị na:  
   ```sh
   target/release/arti
   ```
 
-Ị nwere ike ịgba ọsọ a ọnụọgụ abụọ ozugbo site na njedebe.
+Ị nwere ike ịgba binary a ozugbo site na terminal.
 
 ---
 
 ### **Nzọụkwụ 4: Gbaa Arti SOCKS Proxy**
 
-Iji jiri Arti dị ka onye nnọchi anya SOCKS (nke ga-agagharị okporo ụzọ ịntanetị gị site na netwọk Tor), ịkwesịrị ịmalite proxy.
+Iji Arti dịka SOCKS proxy (nke ga-esi na netwọk Tor duzie okporo ụzọ ịntanetị gị), ị ga-ebido proxy ahụ.
 
-#### Iji Malite Onye nnọchiteanya SOCKS:
-1. Gbaa iwu a:
+#### Iji Malite SOCKS Proxy:
+1. Gbaa iwu na-esonụ:
    ```sh
    ./target/release/arti proxy -p 9150
    ```
 
-Iwu a na-amalite Arti dị ka onye nnọchiteanya ** SOCKS5** n'ọdụ ụgbọ mmiri 9150**, nke bụ ọdụ ụgbọ elu ndabara Tor ji maka okporo ụzọ SOCGS.
+Iwu a na-amalite Arti dịka **SOCKS5 proxy** na **port 9150**, nke bụ port ndabara Tor ji eme okporo ụzọ SOCKS.
 
 ---
 
-### **Nzọụkwụ 5: Hazie Ngwaọrụ Iji Jiri Arti**
+### **Nzọụkwụ 5: Hazie Ngwa Ka Ha Jiri Arti**
 
-Ozugbo Arti na-agba ọsọ dị ka onye nnọchiteanya SOCKS, ịkwesịrị ịhazi ngwa gị iji ya maka okporo ụzọ site na netwọk Tor.
+Ozugbo Arti na-agba dịka SOCKS proxy, ị ga-ahazi ngwa gị ka ha jiri ya duzie okporo ụzọ site na netwọk Tor.
 
-#### Nzọụkwụ:
-1. Na ntọala ngwa gị (dịka, ihe nchọgharị weebụ, ngwa ngwụcha), chọọ ** proxy settings**.
-2. Tinye proxy ** SOCKS5** na * localhost:9150*.
+#### Usoro:
+1. N'ime ntọala ngwa gị (dịka ọmụmaatụ, ihe nchọgharị weebụ ma ọ bụ ngwa terminal), chọọ **ntọala proxy**.
+2. Tọọ **SOCKS5 proxy** ka ọ bụrụ *localhost:9150*.
 
-Nke a ga-eme ka okporo ụzọ niile si na ngwa gị site na netwọkụ ** Tor** jiri Arti dị ka onye etiti.
+Nke a ga-esi n'aka Arti, dịka onye etiti, duzie okporo ụzọ niile sitere na ngwa gị site na **netwọk Tor**.
 
 ---
 
-## **Arti Integration na Tor Network**
+## **Njikọta Arti na Netwọk Tor**
 
-Nke a bụ eserese dị mfe iji gosipụta otú Arti si arụ ọrụ na netwọk Tor:
+Nke a bụ eserese dị mfe iji gosi otú Arti si arụkọ ọrụ na netwọk Tor:
 
 
 ```plaintext
 [Application] --(SOCKS5)--> [Arti SOCKS Proxy] --(Tor Protocol)--> [Tor Network]
 ```
 
-- Ngwaọrụ ahụ jikọtara na Arti SOCKS Proxy site n'iji usoro **SOCKS5**.
-- Arti na-ekwurịta okwu mgbe ahụ ** netwọk Tor, hụ na a naghị akpọ aha okporo ụzọ gị ka ọ gafere n'ime netwọk.
+- **Ngwa** ahụ na-ejikọ na **Arti SOCKS Proxy** site na protokọl **SOCKS5**.
+- Arti na-ekwurịta okwu na **netwọk Tor**, na-ahụ na e zoro okporo ụzọ gị ka ọ na-agafe na netwọk ahụ.
 
 ---
 
-## ** GitLab Ebe nchekwa na Mgbakwunye**
+## **Ebe Nchekwa GitLab na Ntinye Aka**
 
-Ọ bụrụ na ị nwere mmasị inye aka n'ịzụlite Arti, ịnwere ike inyocha koodu ma nye onyinye site na GitLab.
+Ọ bụrụ na ị nwere mmasị itinye aka na mmepe **Arti**, ị nwere ike inyocha koodu ahụ ma tinye aka site na **GitLab**.
 
-- ** Njikọ Ebe nchekwa**: [Arti GitLab Repository](https://gitlab.torproject.org/tpo/core/arti)
-- **Kpọgharia Repo**:
+- **Njikọ Ebe Nchekwa**: [Ebe Nchekwa Arti na GitLab](https://gitlab.torproject.org/tpo/core/arti)
+- **Clone Repo ahụ**:
   ```sh
   git clone https://gitlab.torproject.org/tpo/core/arti.git
   ```
 
-### ** Ịgba na Inye Aka**:
-1. **Fork** ebe nchekwa na GitLab (chọrọ akaụntụ GitLab).
-2. Jikọọ ebe nchekwa gị na ntọala mpaghara:
+### **Ịmepụta Fork na Itinye Aka**:
+1. **Fork** ebe nchekwa ahụ na GitLab (chọrọ akaụntụ GitLab).
+2. Jikọọ ebe nchekwa i forkịrị na nhazi mpaghara gị:
    ```sh
    git remote add _name_ git@gitlab.torproject.org:_name_/arti.git
    git fetch _name_
    ```
    Dochie *_name_* na aha njirimara GitLab gị.
 
-3. **Gbanye mgbanwe** na ndụdụ gị:
+3. **Push mgbanwe** na fork gị:
    ```sh
    git push _name_ main
    ```
 
-4. ** Mepụta arịrịọ ijikọta (MR)** na GitLab:
-   Gaa na ngalaba Merge Request n'ime GitLab gị:
+4. **Mepụta Merge Request (MR)** na GitLab:
+   Gaa na ngalaba Merge Request n'ime fork GitLab gị:
    ```plaintext
    https://gitlab.torproject.org/_name_/arti/-/merge_requests
    ```
 
-### **Ntuziaka maka arịrịọ ijikọta ọnụ**:
-- ** Ejila ihe ndị ọzọ na-eme ka ị ghara imebi iwu mgbe a na-enyocha gị**.
-- Ọ bụrụ na ọ dị mkpa, jiri *fixup!* maọbụ *squash!* maka nkwenye akpaghị aka.
-- Gbalịa ịtinye ihe ọhụrụ kama ịgbachi nkịtị n'oge usoro nyocha.
+### **Ntuziaka Merge Request**:
+- **Emegharịla akụkọ commit ma ọ bụ squash commits n'oge nyocha**.
+- Ọ bụrụ na ọ dị mkpa, jiri *fixup!* ma ọ bụ *squash!* maka commits auto-squashing.
+- Gbalịa **itinye commits ọhụrụ** kama ịme squash n'oge okirikiri nyocha.
 
 ---
 
-### ** Ihe ndetu ndị ọzọ**:
+### **Notes Ndị Ọzọ**:
 
-- **Pre-built Binaries**: Ka ọ dị ugbu a, Arti anaghị enye ndị ọrụ gọọmentị na - arụpụta ihe. Ị ga - ewu onye ahịa ahụ site n'isi mmalite dịka akọwara n'elu.
-- **Rust Knowledge**: If you are contributing to Arti, note that the codebase is still evolving, and there may be changes or refactoring as new features are added.
+- **Binaries Ewubere Tupu Oge**: Ka ọ dị ugbu a, **Arti** anaghị enye binaries ewubere tupu oge n’ọrụ. Ị ga-ewulite onye ahịa ahụ site na koodu mmalite dịka akọwara n'elu.
+- **Ihe Ọmụma Rust**: Ọ bụrụ na ị na-atụnye aka na Arti, mara na koodu ntọala ahụ ka na-etolite, ma mgbanwe ma ọ bụ nhazigharị nwere ike ịdị ka a na-agbakwunye atụmatụ ọhụrụ.
 
 ---
 
 
 
-Ọ bụrụ na ị nwere mmasị inye aka n'ọrụ ahụ, nweere onwe gị ileba anya koodu ahụ, kesaa ebe nchekwa ya ma nyefee arịrịọ njikọta. Maka ozi ndị ọzọ, mmelite, yana nchọpụta nsogbu, lelee [Arti GitLab Repository](https://gitlab.torproject.org/tpo/core/arti). 
+Ọ bụrụ na ị nwere mmasị itinye aka na ọrụ a, nweere onwe gị inyocha koodu ahụ, fork ebe nchekwa ahụ, ma nyefee Merge Request. Maka ozi ndị ọzọ, mmelite, na idozi nsogbu, lee [Ebe Nchekwa Arti na GitLab](https://gitlab.torproject.org/tpo/core/arti). 
 
-Nwee ahụmịhe gị na Arti ma nwee ọ happyụ hacking!
+Nwee ahụmịhe ọma na **Arti**, ma nwee ọṅụ n'ịrụ ọrụ!
 
---- 
+---

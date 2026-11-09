@@ -1,79 +1,79 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Zcash_Tech/What_a_Block_Explorer_Can_See.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Dezie Peeji"/>
 </a>
 
-# Ihe onye na-eme nchọpụta ngọngọ nwere ike ịhụ na Zcash
+# Ihe block explorer pụrụ ịhụ na Zcash
 
-## TL;DR
+## Na nkenke
 
-- Na Bitcoin, ihe nchọgharị blọk na-egosi ihe niile: onye zitere, onye nnata, na ego.
-- Na Zcash, nke ahụ bụ eziokwu naanị maka ọrụ doro anya (adreesị t).
-- Onye na-eme nchọpụta nwere ike ịhụ ego ka ọ na-abata ma na-apụ n'ọdọ mmiri ahụ e ji kpuchie, mana ọ bụghị ihe na-eme n'ime ya.
-- Azụmahịa ndị e ji nchekwa zuru oke (z ruo z) anaghị egosi onye zitere ya, enweghị onye nnata, ma ọ bụ enweghị ego ọ bụla.
-- Ọnụọgụ ọ bụla nke "ọkwa nchekwa" ọha na eze bụ ala, n'ihi na a naghị ahụ ihe omume nkeonwe kpamkpam site n'èzí.
+- Na Bitcoin, block explorer na-egosi ihe niile: onye zitere, onye natara, na ego ole.
+- Na Zcash, nke a bụ naanị eziokwu maka ọrụ Oha [transparent] (t-address).
+- Explorer nwere ike ịhụ ego na-abanye ma na-apụ na pool nke e chebere echebe [shielded], ma ọ pụghị ịhụ ihe na-eme n'ime ya.
+- Azụmahia [transaction] e chebere echebe kpamkpam (z ruo z) anaghị ekpughe onye zitere, onye natara, ma ọ bụ ego ole.
+- Ọnụọgụ ọ bụla ọha nke “shield rate” bụ opekempe, n'ihi na ọrụ nzuzo kpamkpam anaghị ahụ anya site n'èzí.
 
 ---
 
-## Ụdị adreesị abụọ
+## Ụdị Adreesị akpa ego abụọ
 
-Zcash nwere ụdị adreesị abụọ.
+Zcash nwere ụdị Adreesị akpa ego [address] abụọ.
 
-Adreesị doro anya** na-amalite na `t` ma na-arụ ọrụ dị ka adreesị Bitcoin. Nha na ụgwọ bụ ihe ọha na eze.
+**Adreesị akpa ego Oha** na-amalite na `t` ma na-arụ ọrụ dịka Adreesị akpa ego Bitcoin. Balans na Kwụọ ụhwọ [payment] bụ ihe ọha.
 
-Adreesị **ekpuchiri** na-amalite na `z` ma e chebere ya site na ihe akaebe efu nke ihe ọmụma. Netwọk ahụ nwere ike ikwenye na ụgwọ a na-echebe dị irè n'ekpugheghị onye zitere ya, onye nnata, ma ọ bụ ego ole ọ ga-akwụ.
+**Adreesị akpa ego nke e chebere echebe** na-amalite na `z` ma zero-knowledge proofs na-echebe ya. Netwọk ahụ nwere ike ikwenye na Kwụọ ụhwọ e chebere echebe dị irè n'ekpugheghị onye zitere, onye natara, ma ọ bụ ego ole.
 
-Ebe ọ bụ na e nwere ụdị abụọ, uru nwere ike ịkwaga n'ụzọ anọ: ihe doro anya ruo ihe doro anya (t ruo t), ihe doro anya ruo ihe echekwara (t ruo z, nke a na-akpọ ihe nchebe), ihe echekwara ruo ihe doro anya (z ruo t, nke a na-akpọ ihe nchebe), na ihe echekwara ruo ihe echekwara (z ruo z, nkeonwe zuru oke).
+N'ihi na e nwere ụdị abụọ, uru nwere ike ịgagharị n'ụzọ anọ: Oha ruo Oha (t ruo t), Oha ruo nke e chebere echebe (t ruo z, a na-akpọ shielding), nke e chebere echebe ruo Oha (z ruo t, a na-akpọ deshielding), na nke e chebere echebe ruo nke e chebere echebe (z ruo z, nke nzuzo kpamkpam).
 
-## Ihe onye na-eme nchọpụta nwere ike ịhụ
+## Ihe explorer pụrụ ịhụ
 
-Onye na-eme nchọpụta ọha na eze dịka [ZecBlock](https://zecblock.com/) nwere ike ịgụ nke ọma:
+Explorer ọha dịka [ZecBlock](https://zecblock.com/) nwere ike ịgụ nke ọma:
 
-- Ụgwọ ọ bụla doro anya (t ruo t), site na njedebe ruo na njedebe.
-- Ego na-abanye n'ọdọ mmiri ahụ a na-echebe (akụkụ doro anya na ego ahụ).
-- Ego na-ahapụ ọdọ mmiri ahụ a na-echebe (akụkụ doro anya na ego ahụ).
-- ZEC zuru oke dị n'ime ọdọ mmiri ọ bụla nwere ihe nchebe, nke ọha na eze ka netwọk ahụ wee nwee ike igosi na e meghị mkpụrụ ego ọ bụla site na ihe ọ bụla.
+- Kwụọ ụhwọ Oha kpamkpam ọ bụla (t ruo t), site na mmalite ruo na njedebe.
+- Ego na-abanye na pool nke e chebere echebe (akụkụ Oha na ego ole).
+- Ego na-apụ na pool nke e chebere echebe (akụkụ Oha na ego ole).
+- Ngụkọta ZEC a na-edobe na pool nke e chebere echebe ọ bụla, nke bụ ihe ọha ka netwọk wee gosi na e keghị mkpụrụ ego site n'ihe efu.
 
-Na nkenke, a na-ahụ nsọtụ ọdọ mmiri ahụ a na-echebe. I nwere ike ikiri uru na-abata ma na-apụ.
+Na nkenke, a na-ahụ akụkụ mpụta nke pool nke e chebere echebe. Ị nwere ike ile uru ka ọ na-abanye ma na-apụ.
 
-## Ihe onye na-eme nchọpụta na-apụghị ịhụ
+## Ihe explorer na-enweghị ike ịhụ
 
-Onye na-enyocha ọha enweghị ike ịgụ:
+Explorer ọha enweghị ike ịgụ:
 
-- Azụmahịa echekwara nke ọma (z ruo z). Onye zitere ya, onye nnata ya, na ego ya ka na-ezo.
-- Onye zitere ma ọ bụ onye nnata nọ n'azụ ụgwọ ọ bụla a na-echebe.
-- Nguzozi nke adreesị nkeonwe echekwara.
-- Ihe na-eme ego ozugbo ha banyere n'ime ọdọ mmiri ahụ.
+- Azụmahia e chebere echebe kpamkpam (z ruo z). Onye zitere, onye natara, na ego ole na-anọgide zoro ezo.
+- Onye zitere ma ọ bụ onye natara nọ n'azụ Kwụọ ụhwọ e chebere echebe ọ bụla.
+- Balans nke otu Adreesị akpa ego nke e chebere echebe.
+- Ihe na-eme ego ozugbo ha banyere n'ime pool.
 
-Jụọ ajụjụ gbasara data ndị e tinyere na ebe onye na-eziga na onye na-anata ihe e ji kpuchie ga-alaghachi n'efu. Onye na-eme nchọpụta anaghị ezochi nke a site n'ọchịchọ ya. Ọ dịghị mgbe ọ dị n'usoro ọha na eze n'ụdị a pụrụ ịgụ. E zoro ozi ahụ ezoro ezo, naanị onye nwere igodo nlele ziri ezi nwere ike ịgụ ya.
+Jụọ data raw, ubi onye zitere na onye natara e chebere echebe ga-alọghachi na-enweghị ihe ọ bụla. Explorer anaghị ezo nke a n'ihi nhọrọ ya. Ọ dịghị mgbe ọ dị na chain ọha n'ụdị a pụrụ ịgụ. E ji Nzobe ederede [encryption] chekwaa ozi ahụ, ọ bụ naanị onye nwere viewing key ziri ezi nwere ike ịgụ ya.
 
 ## Ihe mere o ji dị mkpa
 
-**Nzuzo gị sitere na nzuzo, ọ bụghị site n'ịtụkwasị ụlọ ọrụ obi.** Onye na-enye data enweghị ike ileba anya n'ime azụmahịa echekwara ọbụlagodi ma ọ chọrọ.
+**Nzuzo [privacy] gị sitere na cryptography, ọ bụghị n'ịtụkwasị ụlọ ọrụ obi.** Onye na-eweta data enweghị ike ileba n'ime Azụmahia e chebere echebe ọbụna ma ọ chọọ.
 
-**Ọnụọgụ ọnụọgụgụ mkpuchi ọha na-egosi na nzuzo adịghị agụnye.** Ndị nchọpụta nwere ike ịtụ naanị ihe gafere ókèala ọha, yabụ oke ọrụ nkeonwe bụ ma ọ dịkarịa ala ihe ha na-akọ, na-abụkarị karịa.
+**Ọnụọgụ shield-rate ọha anaghị agụta Nzuzo niile.** Ndị nchọpụta nwere ike ịtụ naanị ihe na-agafe ókè ọha, yabụ oke ọrụ nzuzo n'ezie dịkarịa ala ihe ha na-akọ, ma na-adịkarị karịa.
 
-**Ọdọ mmiri buru ibu nke nwere ihe mkpuchi na-echebe mmadụ niile.** Ka ọtụtụ mmadụ na-eji adreesị ihe mkpuchi, otú ahụ ka ìgwè mmadụ niile na-ezobe otu ụgwọ nkeonwe. Iji adreesị ihe mkpuchi na-enyere aka ichebe gị na onye ọ bụla ọzọ nọ n'ọdọ mmiri ahụ.
+**Pool nke e chebere echebe buru ibu na-echebe mmadụ niile.** Ka ọtụtụ mmadụ na-eji Adreesị akpa ego nke e chebere echebe, ka igwe mmadụ Kwụọ ụhwọ nzuzo nke otu onye na-ezo n'ime ya na-ebuwanye ibu. Iji Adreesị akpa ego nke e chebere echebe na-enyere ichebe gị na onye ọ bụla ọzọ nọ na pool.
 
 ## Tinye ya n'ọrụ
 
-- Jiri obere akpa ego nke na-agbanwe agbanwe gaa na adreesị echekwara, dịka [ZODL](https://zodl.com) or [Zingo!](https://www.zingolabs.org/).
-- Mgbe ị natara ZEC na adreesị doro anya, bufee ya na adreesị echekwara tupu ị mefuo ya.
-- Kwụọ ụgwọ na adreesị ndị e chebere echebe ebe ọ bụla i nwere ike. Ụgwọ ọ bụla doro anya bụ nke ọha; nke e chebere echebe abụghị nke ọha.
+- Jiri e-akpa ego [wallet] nke na-eji Adreesị akpa ego nke e chebere echebe na ndabara, dịka [ZODL](https://zodl.com) ma ọ bụ [Zingo!](https://www.zingolabs.org/).
+- Mgbe ị natara ZEC na Adreesị akpa ego Oha, bugharịa ya n'ime Adreesị akpa ego nke e chebere echebe tupu i jiri ya.
+- Kwụọ Adreesị akpa ego nke e chebere echebe ebe ị nwere ike. Kwụọ ụhwọ Oha ọ bụla bụ nke ọha kpamkpam; nke e chebere echebe abụghị.
 
-## akụrụngwa
+## Akụrụngwa
 
-- [Zcash: Ndụmọdụ nzuzo na nchekwa](https://z.cash/support/security/privacy-security-recommendations/)
-- [A shielded ecosystem (Electric Coin Company)](https://web.archive.org/web/20260903010654/https://electriccoin.co/blog/shielded-ecosystem/)
+- [Zcash: ndụmọdụ Nzuzo na nchekwa](https://z.cash/support/security/privacy-security-recommendations/)
+- [Ecosystem e chebere echebe (Electric Coin Company)](https://web.archive.org/web/20260903010654/https://electriccoin.co/blog/shielded-ecosystem/)
 - [Otu teknụzụ Zcash si arụ ọrụ](https://z.cash/technology/)
 - [ZecBlock](https://zecblock.com/)
 
-## Ibe ndị metụtara ya
+## Peeji ndị metụtara ya
 
-- [Isi ihe gbasara Zcash](/start-here/what-is-zec-and-zcash)
-- [Obere akpa](/using-zcash/wallets)
-- [Ọdọ mmiri e ji kpuchie echebe](/using-zcash/shielded-pools)
+- [Ihe ndabere Zcash](/start-here/what-is-zec-and-zcash)
+- [E-akpa ego](/using-zcash/wallets)
+- [Pool nke e chebere echebe](/using-zcash/shielded-pools)
 - [zk-SNARKs](/zcash-tech/zk-snarks)
 
 ---
 
-*Ọ bụrụ na ịchọrọ itinye ma ọ bụ tụọ aro maka ndozi na ibe wiki a, biko gaa na [Nchekwa ZecHub GitHub](https://github.com/ZecHub/zechub) ma tinye arịrịọ ịdọrọ.*
+*Ọ bụrụ na ịchọrọ ịgbakwunye ma ọ bụ tụọ aro mgbanwe na peeji wiki a, biko gaa na [ZecHub GitHub repo](https://github.com/ZecHub/zechub) ma nyefee pull request.*

@@ -2,44 +2,44 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Akụ Zcash
+# Zcash Akụrụngwa
 
-Enwere ọtụtụ ihe enyemaka na-enyere ndị ọrụ aka ịghọta Zcash.
+E nwere ọtụtụ akụrụngwa na-enyere ndị ọrụ aka ịghọta Zcash.
 
 **[Zcash Media](https://www.youtube.com/c/ZcashMedia)**
 
-Zcash Media bụ ụlọ ọrụ nọọrọ onwe ha nke na-eme ihe nkiri gbasara agụmakwụkwọ banyere Zcash. Vidio mbụ ha, "E wuru iji dozie ntụpọ dị egwu Bitcoin, Gịnị bụ Zcash (ZEC)?", Bụ nnukwu mmeghe maka Zcash .
+Zcash Media bụ òtù nọọrọ onwe ya nke na-emepụta akwụkwọ ngosi mmụta gbasara Zcash. Vidio mbụ ha, "E wuru Idozi Nnukwu Njehie Bitcoin, Gịnị bụ Zcash (ZEC)?", bụ nnukwu mmalite maka ịghọta Zcash.
 
-**[X (nke bụbu Twitter)](https://x.com)**
+**[X (nke a na-akpọbu Twitter)](https://x.com)**
 
-Twitter bụ de facto nkwurịta okwu maka obodo Zcash, na mbara cryptocurrency ohere dị ka nke ọma. Ọ bụ ebe magburu onwe ya iji nweta a usu-elele ihe niile banyere Zcash ma soro ndị isi obodo ama ama. Lee otu n'ime ha: [akwụkwọ edemede](https://www.notion.so/zechub/Social-Media-Links-05b9df645af54de7a1989d9c4ccc4d05) nke ahụ depụtara ihe ndekọ kachasị elu ịgbaso.
+Twitter bụ ebe nkwukọrịta bụ isi n’eziokwu maka obodo Zcash, nakwa maka mbara cryptocurrency n’ozuzu ya. Ọ bụ ezigbo ebe iji mata ọnọdụ ihe niile gbasara Zcash, nakwa iso ndị a ma ama n’obodo ahụ. Nke a bụ [akwụkwọ](https://www.notion.so/zechub/Social-Media-Links-05b9df645af54de7a1989d9c4ccc4d05) nke depụtara akaụntụ kacha mkpa ịgbaso.
 
-**[Zcash Community - Ndị otu obodo.](https://www.zcashcommunity.com/)**
+**[Zcash Obodo](https://www.zcashcommunity.com/)**
 
-Zcash Community bụ saịtị nke obodo na-agba ọsọ nke gosipụtara ọrụ ndị mmadụ na-akwado usoro okike Zcash. Ọ bụ ụzọ dị mma iji mata mpaghara Zcash yana ngwa ya dị iche iche dịka ego.
+Zcash Community bụ saịtị obodo na-elekọta nke na-egosipụta ọrụ obodo na-elekọta na-akwado ecosystem nke Zcash. Ọ bụ ụzọ dị mma isi malite ịmata obodo Zcash na ngwa ya dị iche iche dị ka ego.
 
-**[Nzukọ Zcash Forum](https://forum.zcashcommunity.com/)**
+**[Ọgbakọ Zcash](https://forum.zcashcommunity.com/)**
 
-Dịka e kwuru na ntuziaka onye ọrụ ọhụrụ, nzukọ Zcash bụ ebe dị mma iji nwee mkparịta ụka ogologo oge gbasara isiokwu Zcash yana echiche ndị a tụrụ aro. Atụmatụ mgbe niile na-eme ya ka ọ bụrụ ọgbakọ nke mere na obodo nwere ohere ịtụle ma tụlee echiche ndị ahụ atụpụtara.
+Dị ka e kwuru na ntuziaka onye ọrụ ọhụrụ, ọgbakọ Zcash bụ ebe dị mma iji nwee mkparịta ụka ogologo gbasara isiokwu Zcash na echiche ndị a tụrụ aro. Atụmatụ na-abata mgbe niile n’ọgbakọ ka obodo wee nwee ohere ịkparịta ụka ma kwurịta echiche ndị a tụrụ aro.
 
-**[Z. ego nkịtị](https://z.cash/)**
+**[Z.cash](https://z.cash/)**
 
-Z.cash bụ ebe nrụọrụ weebụ nke Zcash, ọ na-enye ọdịnaya na akwụkwọ banyere Zcash maka ọtụtụ ndị ọrụ ma nye ohere ka ndị ọhụrụ nwee ike ịbanye n'ime nkọwa gbasara teknụzụ gburugburu Zcash .
+Z.cash bụ weebụsaịtị isi nke Zcash. Ọ na-enye ọdịnaya na akwụkwọ ntụaka gbasara Zcash maka ọtụtụ ụdị ndị ọrụ, ma na-eme ka ndị ọrụ ọhụrụ nwee ike ịbanye omimi n’akọwa teknụzụ gbasara Zcash.
 
 **[Zcash GitHub](https://github.com/zcash/zcash)**
 
-Zcash GitHub Repo bụ ebe nchekwa maka zcashd, mmejuputa iwu mbụ nke node. zcash d ruru njedebe nkwado ya na 18 July 2026 ma anaghịzi edobe ya, a naghịkwa arụ ọrụ ibe nbudata ntinye a iji jikọta njikọ ahụ. A na-echekwa nchịkọta echekwara ka ọ bụrụ ihe nchọgharị weebụ dị mma karịa ndị ọzọ niile nwere ike ịnweta site na ịpị bọtịnụ "Zach". [Zebra](https://github.com/ZcashFoundation/zebra) maka node na [Zallet](https://github.com/zcash/zallet) maka obere akpa  lee akwụkwọ ozi ahụ . [zcashd na Zebra na Zallet ntughari nduzi.](https://zechub.wiki/guides/migration-guide-zcashd-to-zebrad-zallet).
+Ị nwere nkà ide koodu ma chọọ ịbanye omimi n’akụkụ teknụzụ nke Zcash? Zcash GitHub Repo bụ repository maka zcashd, mmejuputa node mbụ nke Zcash. zcashd ruru nkwụsị nkwado akpaaka ya na 18 Julaị 2026, a naghịkwa elekọta ya ọzọ; ibe nbudata nke ntinye a jikọtara na mbụ adịghịzi arụ ọrụ. Stack a ka na-elekọta bụ [Zebra](https://github.com/ZcashFoundation/zebra) maka node na [Zallet](https://github.com/zcash/zallet) maka e-akpa ego — lee [zcashd gaa na Zebra na ntuziaka mbugharị Zallet](https://zechub.wiki/guides/migration-guide-zcashd-to-zebrad-zallet).
 
 **[Zcash Foundation GitHub](https://github.com/ZcashFoundation)**
 
-Ebe nchekwa GitHub ọzọ na-akwado ọrụ nke Zcash Foundation, gụnyere [anụ ọhịa zebra](https://github.com/ZcashFoundation/zebra), mmejuputa nke Zcash node na Rust.
+Repository ọzọ nke GitHub na-akwado ọrụ nke Zcash Foundation, gụnyere [zebra](https://github.com/ZcashFoundation/zebra), mmejuputa node Zcash n’asụsụ Rust.
 
-**[Halo2 (nke a na-akpọ)](https://zcash.github.io/halo2/index.html)**
+**[Halo2](https://zcash.github.io/halo2/index.html)**
 
-Echiche dị n'azụ usoro ihe ọmụma efu.
+Echiche ndị dị n’azụ sistemụ proof zero-knowledge.
 
-**[Zcash RPC Docs](https://zcash.github.io/rpc/)**
+**[Zcash Akwụkwọ RPC](https://zcash.github.io/rpc/)**
 
-Ndepụta nke iwu RPC zcashd kpughere. Maka nchekwa akpa ego RPC, lee ihe ndekọ ahụ na-egosi ebe a: [Akwụkwọ Zallet Book](https://zcash.github.io/zallet/).
+Ndepụta iwu RPC ndị zcashd kpughere. Maka elu RPC e-akpa ego a ka na-elekọta, lee [Zallet Book](https://zcash.github.io/zallet/).
 
-_Nke a bụ akwụkwọ na-agwụbeghị agwụ_
+_Akwụkwọ a ezughị ezu_

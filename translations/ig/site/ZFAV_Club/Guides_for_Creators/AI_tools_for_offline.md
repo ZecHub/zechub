@@ -2,50 +2,50 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Ngwá ọrụ AI (mpaghara, offline)
+# Ngwá ọrụ AI [AI] (nke mpaghara, na-enweghị ịntanetị)
 
 <aside>
 *Ka na-ede ma na-ewu ebe a...*
 
 </aside>
 
-### Ihe na-emepụta ihe oyiyi
+### Ịmepụta onyonyo
 
-Ebee ka m ga-ebudata ụdị maka imepụta ihe oyiyi? 
-Na [**Kugbu Egbugbu**](https://huggingface.co/models?pipeline_tag=text-to-image&sort=trending) na [**Civitai](https://civitai.com/)** bụ ọtụtụ ụdị dị iche iche.
+Ebee ka ị ga-ebudata ụdị nlereanya [models] maka ịmepụta onyonyo? 
+Na [**HuggingFace**](https://huggingface.co/models?pipeline_tag=text-to-image&sort=trending) na [**Civitai](https://civitai.com/)** nwere ọtụtụ ụdị nlereanya dị iche iche.
 
-## Windows - budata ụdị omenala
+## Windows - budata ụdị nlereanya ahaziri
 
-A na-achọkarị GPU kacha nta na 4GB ma ọ bụ ebe nchekwa vidiyo maka ngwaọrụ AI ọ bụla.
+Ọtụtụ mgbe, GPU [GPU] kacha nta nwere 4GB nke ebe nchekwa vidiyo ka achọrọ maka ngwá ọrụ AI ọ bụla.
 
-Nvidas GPUs na-arụ ọrụ nke ọma.
+GPU nke Nvida na-arụ ọrụ kacha mma.
 
-- [Kpọtụrụ AI](https://invoke-ai.github.io/InvokeAI/) (chọrọ 4GB GPU ebe nchekwa)
-- [NMKD Stable mgbasa GUI](https://nmkd.itch.io/t2i-gui)
+- [InvokeAI](https://invoke-ai.github.io/InvokeAI/) (chọrọ 4GB ebe nchekwa GPU)
+- [NMKD Stable Diffusion GUI](https://nmkd.itch.io/t2i-gui)
 - [EasyDiffusion 3.0](https://github.com/easydiffusion/easydiffusion)
 
-### Mac OS - budata ụdị omenala
+### Mac OS - budata ụdị nlereanya ahaziri
 
-- [Draw Ihe: AI Ọgbọ](https://apps.apple.com/ee/app/draw-things-ai-generation/id6444050820) site na AppStore - n'efu
-(Nwere ike iji ọtụtụ ụdị StableDiffusion dị iche iche)
+- [Draw Things: AI Generation](https://apps.apple.com/ee/app/draw-things-ai-generation/id6444050820) site na AppStore - n'efu
+(Nwere ike iji ọtụtụ ụdị nlereanya StableDiffusion dị iche iche)
 - [DiffusionBee](https://diffusionbee.com/) - n'efu
-(Nwere ike iji ọtụtụ ụdị StableDiffusion dị iche iche)
-- [Kpọtụrụ AI](https://invoke-ai.github.io/InvokeAI/) (chọrọ 4GB GPU ebe nchekwa)
+(Nwere ike iji ọtụtụ ụdị nlereanya StableDiffusion dị iche iche)
+- [InvokeAI](https://invoke-ai.github.io/InvokeAI/) (chọrọ 4GB ebe nchekwa GPU)
 
-### Linux - budata ụdị omenala
+### Linux - budata ụdị nlereanya ahaziri
 
-- [Kpọtụrụ AI](https://invoke-ai.github.io/InvokeAI/) (chọrọ 4GB GPU ebe nchekwa)
+- [InvokeAI](https://invoke-ai.github.io/InvokeAI/) (chọrọ 4GB ebe nchekwa GPU)
 
-## Nchịkọta ederede
+## Ịmepụta ederede
 
-### Windows - budata ụdị omenala
+### Windows - budata ụdị nlereanya ahaziri
 
-- [GPT4All](https://gpt4all.io/index.html) (min 8gb RAM chọrọ)
+- [GPT4All](https://gpt4all.io/index.html) (opekata mpe 8gb RAM achọrọ)
 
-### Mac OS - budata ụdị omenala
+### Mac OS - budata ụdị nlereanya ahaziri
 
-- [GPT4All](https://gpt4all.io/index.html) - (na-arụ ọrụ ngwa ngwa na M1 macs, dabere na ụdị GPT eji)
+- [GPT4All](https://gpt4all.io/index.html) - (na-arụ ọrụ ngwa ngwa nke ọma na Mac M1, dabere na ụdị nlereanya GPT ejiri)
 
-## Linux - budata ụdị omenala
+## Linux - budata ụdị nlereanya ahaziri
 
-- [GPT4All](https://gpt4all.io/index.html) (min 8gb RAM chọrọ)
+- [GPT4All](https://gpt4all.io/index.html) (opekata mpe 8gb RAM achọrọ)

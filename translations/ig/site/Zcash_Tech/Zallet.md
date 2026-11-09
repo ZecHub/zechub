@@ -4,67 +4,67 @@
 
 # Zallet
 
-Zallet bụ obere akpa ego Zcash zuru oke nke edere na Rust. Ọ bụ ihe nnọchi maka obere akpa eji etinye ya n'ime `zcashd`Mgbe . `zcashd` ruru njedebe nke nkwado ya na 18 July 2026 na ngọngọ dị elu 3417100, nkwekọrịta na ọrụ obere akpa kewara: ** Zebra** ma ọ bụ ** Zakura** kwadoro agbụ ahụ, yana ** Zallet ** nwere igodo, nyocha ederede, wee kpughee obere akpa JSON-RPC.
+Zallet bụ e-akpa ego [wallet] Zcash nke full node, e dere ya na Rust. Ọ bụ nke dochiri e-akpa ego nke a na-etinyebu n'ime `zcashd`. Mgbe `zcashd` ruru nkwụsị Nkwụsị-Nkwado ya na 18 Julaị 2026, na ogo block 3417100, e kewara ọrụ consensus [consensus] na ọrụ e-akpa ego: **Zebra** ma ọ bụ **Zakura** na-enyocha chain, ebe **Zallet** na-edobe igodo, na-enyocha notes, ma na-enye wallet JSON-RPC.
 
-Zallet dị ugbu a na ** beta**. A nyochabeghị ya nke ọma. Mgbanwe ndị mebiri emebi nwere ike ịchọ ihichapụ ma weghachite obere akpa ahụ. Ejila ya dịka nchekwa mmepụta maka nnukwu ego ZEC n'agụghị ịdọ aka ná ntị nchebe na-esote: [Akwụkwọ Zallet ahụ .](https://zcash.github.io/zallet/).
-
----
-
-## TL;DR
-
-- Zallet bụ **wallet RPC zuru oke**, ọ bụghị obere akpa ọkụ na-agagharị agagharị ma ọ bụghị nkwekọrịta.
-- Ọ na-anọchi akpa ego ọkara nke `zcashd`Ọkara ọnụ bụ . [Zebra](Zebra_Full_Node.md) or [Zakura](Zakura_Node.md).
-- Edere na **Rust**, MIT / Apache-2.0 nwere ikikere abụọ. A na-echekwa ya n'ime [zcash/zallet](https://github.com/zcash/zallet).
-- Mbipụta ikpeazụ e bipụtara na ngwụcha Ọgọstụ 2026: **v0.1.0-beta.3**.
-- Na-ekwu okwu na data agbụ site n'otu abụọ backends: ** zebra -state** (direct `ReadStateService` megide obodo. `zebrad`) ma ọ bụ ** Zaino**.
-- Na-ekpughe ** zcashd - dakọtara JSON-RPC subset. Ụfọdụ usoro gbanwere; ụfọdụ ehichapụla na nzube.
-- A na-eji ihe nchọgharị ahụ eme ka ọ bụrụ mgbe niile site n'iji ** afọ**. Akụkọ azụmahịa, adreesị, na igodo elele nọchiri anya ya `wallet.db`.
-- Na-ebufe atọ ọnụọgụ abụọ n'otu ebe nchekwa edepụtara: `zallet` (onye na-agbapụ), `zallet-zebra`, na `zallet-zaino`.
-- Akwụkwọ ndị gọọmentị: [Akwụkwọ Zallet ahụ .](https://zcash.github.io/zallet/).
+Zallet nọ ugbu a na **beta**. A nyochabeghị ya nke ọma. Mgbanwe na-emebi ndakọrịta nwere ike ịchọ ka ihichapụ ma mepụta e-akpa ego ọzọ. Ewerela ya dịka nchekwa ego nke mmepụta maka nnukwu ọnụọgụ ZEC ma ọ bụrụ na ị gụbeghị ịdọ aka ná ntị nchekwa dị na [Akwụkwọ Zallet](https://zcash.github.io/zallet/).
 
 ---
 
-## Ihe mere Zallet ji dịrị ndụ.
+## Nchịkọta ngwa ngwa
 
-`zcashd` a na-ejikọta Bitcoin Core nke sitere na nkwekọrịta nkwenye na obere akpa n'otu usoro. E meela atụmatụ ahụ.
+- Zallet bụ **e-akpa ego RPC nke full node**, ọ bụghị e-akpa ego light nke ekwentị ma ọ bụghị node consensus.
+- Ọ na-anọchi ọkara e-akpa ego nke `zcashd`. Ọkara node bụ [Zebra](Zebra_Full_Node.md) ma ọ bụ [Zakura](Zakura_Node.md).
+- E dere ya na **Rust**, o nwere ikikere abụọ MIT / Apache-2.0, a na-elekọta ya na [zcash/zallet](https://github.com/zcash/zallet).
+- Mwepụta kacha ọhụrụ e bipụtara ruo ngwụcha Ọgọst 2026: **v0.1.0-beta.3**.
+- Ọ na-enweta data chain site n'otu n'ime backend abụọ: **zebra-state** (RPC kpọmkwem [direct `ReadStateService`] megide `zebrad` dị n'ógbè) ma ọ bụ **Zaino**.
+- Ọ na-enye akụkụ nke **zcashd-dakọtara JSON-RPC**. Ụfọdụ ụzọ gbanwere; a hapụrụ ụfọdụ n'ebumnobi.
+- A na-ezo ihe igodo niile mgbe niile site na **age**. Akụkọ Azụmahia [transaction], adreesị, na viewing key dị n'enweghị nzobe na `wallet.db`.
+- Ọ na-ebunye binary atọ n'otu archive e binyere aka: `zallet` (onye mbido), `zallet-zebra`, na `zallet-zaino`.
+- Akwụkwọ gọọmenti: [Akwụkwọ Zallet](https://zcash.github.io/zallet/).
 
-| Ọrụ | Ogbe ochie | Ọnụọgụ dị ugbu a |
+---
+
+## Ihe kpatara Zallet ji dị
+
+`zcashd` jikọtara node consensus sitere na Bitcoin Core na e-akpa ego n'otu usoro. Nhazi ahụ adịkwaghị.
+
+| Ọrụ | Stack ochie | Stack ugbu a |
 |------|-----------|---------------|
-| Nkwekọrịta / P2P | `zcashd` | Zebra (`zebrad`) ma ọ bụ Zakura |
-| Obere akpa / igodo / nguzozi | `zcashd` `wallet.dat` | **Zallet** (`wallet.db`) |
-| Ihe ngosi ndị ahịa ọkụ | `lightwalletd` | Zaino ma ọ bụ `lightwalletd` |
+| Consensus / P2P | `zcashd` | Zebra (`zebrad`) ma ọ bụ Zakura |
+| E-akpa ego / igodo / nha ego | `zcashd` `wallet.dat` | **Zallet** (`wallet.db`) |
+| Ndekọ light-client | `lightwalletd` | Zaino ma ọ bụ `lightwalletd` |
 
-Ịkewa obere akpa ahụ site na ọnụ pụtara:
+Ikewapụ e-akpa ego n'aka node pụtara:
 
-- Enwere ike ịgbanwere ngwanrọ Node (Zebra vs Zakura) na-enweghị igodo mbugharị.
-- Nnyocha obere akpa ego na ikike imefu ihe bi n'ime usoro enwere ike igbachi iche.
-- RPC semantics nwere ike ịbawanye na akaụntụ ZIP 32, Unified Addresses, na PCZTs kama ịnọ jụụ na `zcashd` ihe ndị na-adịghị mma.
+- Enwere ike ịgbanwe software node (Zebra megide Zakura) n'ebughị igodo.
+- Nyocha e-akpa ego na ikike imefu na-adị n'ime usoro nwere ike ichekwa iche.
+- Nghọta RPC nwere ike ịga n'ihu n'ebe ZIP akaụntụ 32, Adreesị Njikọtara ọnụ, na PCZT dị, kama ịnọgide kpọchiri na agwa pụrụ iche `zcashd`.
 
-Zallet bụ obere akpa ezubere maka ndị ọrụ na-agba ọsọ n'oge gara aga. `zcashd` dị ka obere akpa ego, azụmaahịa mgbanwe, ọkpọkọ mmiri, ma ọ bụ obere akpa ụgwọ ọrụ.
-
----
-
-## Ọnọdụ ya
-
-Zallet nọ na beta.
-
-Ihe nke ahụ pụtara n'omume:
-
-- Mgbanwe mgbanwe nwere ike ịdaba na beta ọ bụla. Ị nwere ike ihichapụ ndekọ data ma malite ọzọ.
-- Ọ bụghị ha niile . `zcashd` e meela ka akpa ego RPC dị.
-- Semantics nke ụfọdụ ụzọ ndị a na-eme ka ha dị iche site n'aka: `zcashd`. Integrations ga-agụ ndị na-esote. [peeji nke gbanwere-semantics](https://zcash.github.io/zallet/zcashd/json_rpc.html).
-- A na-arụpụta igbe ndị ahụ ma e nyochabeghị ha nke ọma.
-- Zallet abụghị ọbá akwụkwọ Rust. Enweghị nkwa ma ị dabere na ya dịka otu.
-
-Nzaghachi na-aga n'ihu. [Okwu GitHub](https://github.com/zcash/zallet/issues/new) ma ọ bụ na- `#wallet-dev` ọwa na-aga n'ihu. [Zcash R&D Discord](https://discord.gg/xpzPR53xtU).
-
-A later stable phase is planned once the intended RPC surface exists. Callers will then be expected to migrate onto Zallet’s methods, including the documented semantic differences.
+Zallet bụ e-akpa ego e bu n'obi maka ndị na-arụ ọrụ bụbu ndị ji `zcashd` eme e-akpa ego na-ekpo ọkụ, backend exchange, faucet, ma ọ bụ e-akpa ego ịkwụ ụgwọ ịgwụputa [mining].
 
 ---
 
-## Ihe owuwu ụlọ
+## Ọnọdụ
 
-Zallet kewara n'ime ebe ọrụ Cargo atọ ka ndị na-azụ azụ abụọ nwere ike soro eserese dị iche iche.
+Zallet nọ na **beta**.
+
+Nke a pụtara n'omume:
+
+- Mgbanwe na-emebi ndakọrịta nwere ike ịpụta na beta ọ bụla. Ị nwere ike ihichapụ ndekọ data ma malite ọzọ.
+- Ọ bụghị RPC e-akpa ego `zcashd` niile ka e bugoro.
+- Nghọta nke ụfọdụ ụzọ e bugoro dị iche na `zcashd`. Ngwakọta ga-agụrịrị ibe [nke nghọta gbanwere](https://zcash.github.io/zallet/zcashd/json_rpc.html).
+- A ka na-emepụta crates ndị a, a nyochabeghịkwa ha nke ọma.
+- Zallet **abụghị** ọbá akwụkwọ Rust. Enweghị nkwa ọ bụla ma ọ bụrụ na ị dabere na ya dị ka otu.
+
+Nzaghachi na-aga na nsogbu [GitHub](https://github.com/zcash/zallet/issues/new) ma ọ bụ ọwa `#wallet-dev` na [Zcash R&D Discord](https://discord.gg/xpzPR53xtU).
+
+A na-eme atụmatụ ọkwa kwụsiri ike n'ọdịnihu mgbe elu RPC e bu n'obi dị. A ga-atụ anya ka ndị na-akpọ ya kwaga n'ụzọ Zallet, tinyere ọdịiche nghọta e depụtara.
+
+---
+
+## Nhazi
+
+Zallet kewara n'ime Cargo workspaces atọ ka backend chain abụọ ahụ nwee ike iso dependency graph dị iche iche.
 
 ```
 zallet            launcher: reads `backend` in zallet.toml (default "zebra")
@@ -74,9 +74,9 @@ zallet-zebra      zebra-state backend (ReadStateService + Zebra JSON-RPC)
 zallet-zaino      Zaino indexer backend
 ```
 
-Ihe atọ ahụ na-emepe otu ụzọ. `wallet.db`. Onye na-ebute ihe ahụ ga - ahọrọ ebe a ga - eme ya n'oge ọ na - agba ọsọ; ị gaghị emegharị ọzọ iji gbanwee.
+Binary atọ ahụ niile na-emeghe **otu** `wallet.db`. Onye mbido na-ahọrọ backend n'oge ọ na-arụ ọrụ; ị gaghị achọ ịchịkọta ya ọzọ iji gbanwee.
 
-Ntinye aka na-adịkarị:
+Ntinye a na-ahụkarị:
 
 ```
 zebrad  (or Zakura)
@@ -88,62 +88,62 @@ Zallet  (zallet-zebra or zallet-zaino)
 Your application, exchange, faucet, or operator scripts
 ```
 
-Zallet bụ **wallet zuru oke**: ọ na-atụ anya ka a kwadoro mpaghara. Ọ bụghị onye ahịa dị mfe. Maka obere akpa ego na kọmpat-ngọngọ sava, lee [Zaino](Zaino.md) na nke a: [Lightwallet Nodes (Nọmba nke obere akpa ego)](Lightwallet_Nodes.md).
+Zallet bụ **e-akpa ego full node**: ọ chọrọ node nyocha dị n'ógbè. Ọ bụghị light client. Maka e-akpa ego light na sava compact-block, lee [Zaino](Zaino.md) na [Nodes Lightwallet](Lightwallet_Nodes.md).
 
-Ụlọ ọrụ Zcash Foundation s [Z3](https://github.com/ZcashFoundation/z3) mepụta nchịkọta na-agba ọsọ Zebra + Zallet ọnụ, yana nhọrọ Zaino kwụ ọtọ maka ndị ahịa ọkụ mpụga.
-
----
-
-## Akaụntụ, adreesị na igodo.
-
-Zallet wuru gburugburu ZIP 32 akaụntụ, ọ bụghị `zcashd` bụ otu akaụntụ doro anya.
-
-- Otu obere akpa nwere ike ijide ọtụtụ BIP 39 mnemonics. Mnemonic ọ bụla bụ mgbọrọgwụ na-akwụ ụgwọ, nke a maara site na mkpịsị aka mkpụrụ osisi (seed fingerprint)`zip32seedfp1…`).
-- ** Akaụntụ** sitere na mkpụrụ nwere ndepụta akaụntụ ZIP 32. N'ime otu Zallet ha nwekwara mpaghara ** UUID. Njirimara nke a ga-ebugharị maka akaụntụ bụ: `(seedfp, account index)`.
-- Adreesị bụ **ZIP 316 Unified Addresses**, nke e dere na `z_getaddressforaccount`Otu akaụntụ nwere ike inwe ọtụtụ adreesị dịgasị iche; ndị na-anata ihe nchebe enweghị njikọ n'elu.
-- Ihe ndị e ji eme ihe n'ime obodo (`z_importkey`) na adreesị ndị e ji elekere anya (`z_importaddress`) na-aghọ akaụntụ UUID nke enweghị mkpuchi mnemonic.
-- Igodo nlele nwere ike ibupụ ma bubata (`z_exportviewingkey`, `z_importviewingkey`), gụnyere n'otu zuru ezu na-ele igodo na esịtidem ele igodo.
-
-`getnewaddress` E tinyeghị ya n'ọrụ. Jiri `z_getnewaccount` na nke a: `z_getaddressforaccount`.
-
-If `keystore.require_backup` bụ na (migrated ụdị nke `zcashd`’s `walletrequirebackup`), Zallet jụrụ inweta ikike mmefu ọhụrụ site na onye ncheta nke nkwado ndabere ya adịghị.
+Stack compose Zcash Foundation nke [Z3](https://github.com/ZcashFoundation/z3) na-agba Zebra + Zallet ọnụ, yana nhọrọ Zaino kwụụrụ onwe ya maka light client ndị dị n'èzí.
 
 ---
 
-## Nkọwapụta na nkwado ndabere
+## Akaụntụ, adreesị, na igodo
 
-Key material is **always** encrypted. There is no unencrypted mode and no `encryptwallet` RPC  na-ekwu na ọ bụ ihe dị mkpa. `zcashd` usoro a enwetaghị nkwado zuru oke.
+Zallet wuru gburugburu akaụntụ ZIP 32, ọ bụghị otu akaụntụ zoro ezo nke `zcashd`.
 
-- Ntọala na-emepụta njirimara ** afọ, ụzọ ndabara `{datadir}/encryption-identity.txt`.
-- A na-echekwa ihe ncheta na igodo mmefu ego dị ka afọ ciphertexts n'ime nchekwa data. `wallet.db`.
-- Ihe ndị ọzọ nke nchekwa data ahụ abụghị ** ezoro ezo. Akụkọ ihe mere eme, adreesị na igodo nlele nwere ike ịgụ ma ọ bụrụ na mmadụ enweta faịlụ ahụ.
-- Enwere ike itinye paswọọdụ na njirimara ahụ (`generate-encryption-identity -p`) Ị kpọghee ekwt na-eji ihe ahụ . `walletpassphrase` RPC; mkpọchi na-eji: `walletlock`.
-- Ịhapụ faịlụ njirimara ma ọ bụ paswọọdụ ya na-eme ka igodo mmefu ghara ịghachite. Zọpụta ihe ncheta, onye ọbụla mnemonic, yana (nkewapụ iche, ezoro ezo) ọ bụla `wallet.db` edetu na-edebe.
+- E-akpa ego nwere ike ijide **mnemonic BIP 39 ọtụtụ**. Mnemonic ọ bụla bụ mgbọrọgwụ imefu nọọrọ onwe ya, nke a na-amata site na **seed fingerprint** (`zip32seedfp1…`).
+- A na-esite na seed mepụta **akaụntụ** site na ndepụta akaụntụ ZIP 32. N'ime otu instance Zallet, ha nwekwara **UUID** mpaghara. Njirimara akaụntụ a pụrụ ibufe bụ `(seedfp, account index)`.
+- Adreesị bụ **Adreesị Njikọtara ọnụ ZIP 316**, nke e ji `z_getaddressforaccount` emepụta. Otu akaụntụ nwere ike inwe ọtụtụ adreesị dịgasị iche; ndị nata nke e chebere echebe [shielded] enweghị ike ijikọ ha on-chain.
+- Igodo ego [spending key] e bubatara (`z_importkey`) na adreesị naanị-ile (`z_importaddress`) na-aghọ akaụntụ UUID nke mnemonic ọ bụla anaghị ekpuchi.
+- Enwere ike ibupụ ma bubata viewing key (`z_exportviewingkey`, `z_importviewingkey`), gụnyere unified full viewing key na incoming viewing key.
 
-Iṅomi Ihe Ndị E Dere na Ya `wallet.db` mgbe Zallet na-agba ọsọ abụghị nchekwa ndabere. SQLite nwere ike ịdọpụ ya. Họrọ usoro kwụsịrị, ma ọ bụ chere maka iwu ntanetị nke ọrụ nkwado.
+`getnewaddress` etinyebeghị ya n'ọrụ. Jiri `z_getnewaccount` na `z_getaddressforaccount`.
+
+Ọ bụrụ na `keystore.require_backup` agbanyere (ụdị e bugoro nke `zcashd` `walletrequirebackup`), Zallet na-ajụ ịmepụta ikike imefu ọhụrụ site na mnemonic nke akwadobeghị backup ya.
+
+---
+
+## Nzobe ederede na backups
+
+A na-enwe **Nzobe ederede [encryption]** maka ihe igodo mgbe niile. Enweghị ọnọdụ enweghị nzobe yana enweghị RPC `encryptwallet` — a kwadobeghị ụzọ `zcashd` ahụ nke ọma.
+
+- Nhazi na-emepụta **age** identity, ụzọ ndabara bụ `{datadir}/encryption-identity.txt`.
+- A na-echekwa mnemonics na igodo ego e bubatara dịka age ciphertext na `wallet.db`.
+- A naghị ezo akụkụ ndị ọzọ nke database. Akụkọ, adreesị, na viewing key nwere ike ịgụ ma ọ bụrụ na mmadụ enweta faịlụ ahụ.
+- Enwere ike iji passphrase kechie identity ahụ (`generate-encryption-identity -p`). Mepee ya site na RPC `walletpassphrase`; kpọchie ya site na `walletlock`.
+- Ịtụfu faịlụ identity ma ọ bụ passphrase ya na-eme ka igodo ego ghara inwetaghachi. Kwado identity, mnemonic ọ bụla, na (nke e zoro iche) mbipụta `wallet.db` ọ bụla ị debere.
+
+Iṅomi `wallet.db` mgbe Zallet na-agba abụghị backup dị nchebe. SQLite nwere ike mebie akụkụ. Họrọ usoro akwụsịrị, ma ọ bụ chere iwu online-backup gọọmenti.
 
 ---
 
 ## JSON-RPC
 
-Zallet na-emejuputa otu akụkụ nke usoro ahụ. `zcashd` obere akpa RPCs n'elu HTTP na Basic auth. Jikọta ya na loopback. Iji dịpụrụ adịpụ kwesịrị ịgafe ọwara ezoro ezo. `rpc.allow_insecure_remote_bind` dị adị ma bụrụkwa ihe na-adịghị nchebe.
+Zallet na-etinye akụkụ nke RPC e-akpa ego `zcashd` n'ọrụ n'elu HTTP na Basic auth. Kechie ya na loopback. Ojiji n'ebe dị anya kwesịrị ịga site na tunnel e zoro ezo. `rpc.allow_insecure_remote_bind` dị ma ọ dịghị nchebe.
 
-Ọdịiche ndị dị ịrịba ama site na nke mbụ. `zcashd`:
+Ọdịiche pụtara ìhè na `zcashd`:
 
-- Uzo ogugu na onodu nke ozo. `getwalletinfo` E nweghị ihe dị na ha. `z_getbalances`, `z_getbalanceforaccount`, `z_gettotalbalance`.
-- Ụgwọ ndị a na-eso **ZIP 317**. Ọ dịghị ụgwọ ọ bụla dịnụ maka ọrụ ahụ ma e wezụga nke mbụ, bụ́ ego ole ha ga-akwụ gị n'ọnwa ọzọ. `settxfee`.
-- Mmefu mmepụta na-agagharị n'ime ** PCZTs** (Nkebi nke Zcash Transactions, ZIP 374). PCZT RPCs rutere na usoro beta.
-- Global ** sync lock** na-egbochi nguzozi ma jiri RPC mgbe obere akpa ahụ na - achọta ma ọ bụ gbakee site na nhazi (`ClientInInitialDownload` / `ForbiddenBySafeMode`).
+- Mpaghara nha ego na `getwalletinfo` tọgbọ chakoo. Jiri `z_getbalances`, `z_getbalanceforaccount`, `z_gettotalbalance`.
+- Ugwo [fee] na-agbaso **ZIP 317**. Enweghị `settxfee`.
+- Iwu imefu na-agakwuru **PCZT** (Azụmahia Zcash e mepụtara akụkụ ụfọdụ, ZIP 374). RPC PCZT rutere na usoro beta.
+- **Sync lock** zuru ụwa ọnụ na-egbochi RPC nha ego na imefu mgbe e-akpa ego na-agbakọ ma ọ bụ na-agbake n'aka reorg (`ClientInInitialDownload` / `ForbiddenBySafeMode`).
 
-Usoro ndị a na-eleghara anya gụnyere: `createrawtransaction`, `fundrawtransaction`, `getnewaddress`, `getrawchangeaddress`, `keypoolrefill`, `importwallet`, na `encryptwallet`A na-edepụta ndị nnọchi anya ha n'akwụkwọ ahụ . [Akwụkwọ Zallet Book](https://zcash.github.io/zallet/zcashd/json_rpc.html).
+Ụzọ a hapụrụ n'ebumnobi gụnyere `createrawtransaction`, `fundrawtransaction`, `getnewaddress`, `getrawchangeaddress`, `keypoolrefill`, `importwallet`, na `encryptwallet`. E depụtara ndị dochiri ha na [Akwụkwọ Zallet](https://zcash.github.io/zallet/zcashd/json_rpc.html).
 
 ---
 
-## Ịmalite amalite .
+## Ịmalite
 
-Official wụnye ụzọ (Debian ngwugwu, Docker, ntọhapụ ọnụọgụ abụọ) na-na nchekwa data. [ntuziaka nwụnye.](https://zcash.github.io/zallet/guide/installation/index.html)A na-akpọ aha nchekwa data ntọhapụ . `zallet-<version>-<arch>.tar.gz` ma nwee ihe atọ ahụ.
+Ụzọ nrụnye gọọmenti (ngwugwu Debian, Docker, binary mwepụta) dị na [ntuziaka nrụnye](https://zcash.github.io/zallet/guide/installation/index.html). A na-akpọ archive mwepụta `zallet-<version>-<arch>.tar.gz`, ha nwekwara binary atọ ahụ niile.
 
-Obere ego ọhụrụ-wallet:
+Usoro kacha nta maka e-akpa ego ọhụrụ:
 
 ```bash
 # data directory; default is $HOME/.zallet
@@ -157,15 +157,15 @@ zallet -d /path/to/zallet/datadir confirm-backup
 zallet -d /path/to/zallet/datadir start
 ```
 
-Isiokwu `[indexer]` n'ụlọ ọrụ dị na mpaghara ahụ. `zebrad` JSON-RPC njedebe. The zebra backend na-achọkwa `[indexer.read_state_service]` na a `zebrad` wuru na njirimara indexer ka Zallet nwee ike ịgụ ọnọdụ agbụ ozugbo.
+Tụọ `[indexer]` gaa na JSON-RPC endpoint `zebrad` dị n'ógbè. Backend zebra chọkwara `[indexer.read_state_service]` na `zebrad` e ji njirimara indexer wuo ka Zallet nwee ike ịgụ ọnọdụ chain kpọmkwem.
 
-Enwere ike ịmepụta ihe oyiyi ndị nwere ike ịmegharị na ya. [Ọkwa X](https://codeberg.org/stagex/stagex/) (Docker 25+, ụlọ ahịa ihe oyiyi containerd, GNU Mee).
+Enwere ike iwulite image ndị enwere ike imegharị site na [StageX](https://codeberg.org/stagex/stagex/) (Docker 25+, containerd image store, GNU Make).
 
 ---
 
 ## Ịkwaga site na zcashd
 
-Debe ihe ochie ahụ . `zcashd` dataadir ruo mgbe ị nwere enen balances na a nwalere weghachi.
+Debe datadir `zcashd` ochie ruo mgbe ị kwadoro nha ego ma nwalee iweghachi ya.
 
 ```bash
 zallet init-wallet-encryption
@@ -174,45 +174,45 @@ zallet migrate-zcash-conf --zcashd-datadir /path/to/zcashd/datadir \
 zallet migrate-zcashd-wallet --zcashd-datadir /path/to/zcashd/datadir
 ```
 
-`migrate-zcashd-wallet` bụ naanị na-ewu ya n'ime ihe ndị a. `zcashd-import` Ịgụ ihe. `wallet.dat` mkpa ndị mmadụ nwere. `db_dump` site na ** Berkeley DB 6.2**, ụdị ahụ `zcashd` eji.
+`migrate-zcashd-wallet` dị naanị na builds nwere njirimara `zcashd-import`. Ịgụ `wallet.dat` chọrọ `db_dump` sitere na **Berkeley DB 6.2**, ụdị `zcashd` ji mee ihe.
 
-Nzọụkwụ site nzọụkwụ onye ọrụ na-ekwu: [Ntuziaka Mbugharị: zcashd na Zebrad/Zallet.](/guides/migration-guide-zcashd-to-zebrad-zallet).
+Ndetu ndị ọrụ nzọụkwụ-nzọụkwụ: [Ntuziaka Ịkwaga: zcashd gaa Zebrad/Zallet](/guides/migration-guide-zcashd-to-zebrad-zallet).
 
 ---
 
-## Olee otú Zallet si emekọrịta na ngwanrọ ndị ọzọ
+## Otu Zallet si emetụta software ndị ọzọ
 
 | | Zallet | zecd | Zashi / ZODL / YWallet | Zebra / Zakura | Zaino |
 |--|--------|------|------------------------|----------------|-------|
-| Gịnị ka ọ bụ | Akpa RPC zuru oke | Ihe nkesa obere akpa nchekwa nke mbụ | Obere akpa ndị ọrụ ikpeazụ | Nọmba nkwekọrịta | Ndochi Indexer / lightwalletd |
-| Na-anọchi | `zcashd` obere akpa ego | Ọ bụghị ihe a ga-atụba n'ime `zcashd` klọn | Ngwa mkpanaka/desktọpụ | `zcashd` ọnụ | `lightwalletd` |
-| Achọrọ ebe nkwado mpaghara | Ee | Ee (Zebra dịka ndabara) | Mba (onye ahịa dị mfe) | Ọ bụ *ngọdụ* ahụ | Ee |
-| nkwekọrịta RPC zcashd | E mere ya dị ka ụzọ mgbakọ ahụ | Naanị obere obere ihe ahọpụtara | N/A | Ụdị nkwekọrịta nke Zakura / Zakura akụkụ | API dị iche |
-| Ụdị nchekwa | Onye ọrụ ahụ jidere igodo n'ime `wallet.db` | Ihe nkesa a na-enweta mkpụrụ | Igodo ngwaọrụ onye ọrụ | Enweghị obere akpa ego | Enweghị igodo |
+| Ihe ọ bụ | E-akpa ego RPC full node | Sava e-akpa ego nke e chebere echebe na-ebute ụzọ | E-akpa ego ndị ọrụ njedebe | Node consensus | Indexer / onye dochiri lightwalletd |
+| Ihe ọ na-anọchi | E-akpa ego `zcashd` | Ọ bụghị clone `zcashd` nke dochiri ozugbo | Ngwa ekwentị/desktop | Node `zcashd` | `lightwalletd` |
+| Ọ chọrọ node mpaghara | Ee | Ee (Zebra site na ndabara) | Mba (light client) | Ọ *bụ* node ahụ | Ee |
+| Ndakọrịta RPC zcashd | E mere ya dịka ụzọ ndakọrịta | Naanị obere akụkụ ahọpụtara | N/A | Ọnọdụ ndakọrịta akụkụ / Zakura | API dị iche |
+| Ụdị nchekwa | Onye na-arụ ọrụ na-edobe igodo na `wallet.db` | Sava enwere ike iweghachi site na seed | Igodo ngwaọrụ onye ọrụ | Enweghị e-akpa ego | Enweghị igodo |
 
-Zallet and **zecd** can both sit in front of Zebra. Pick Zallet when you need the `z_*` obere akpa elu na a Mbugharị ụzọ si `wallet.dat`. Họrọ zecd mgbe ịchọrọ ihe nkesa nke mbụ na-echebe bụ nke doro anya * abụghị* a `zcashd` onye na-eme ka mmadụ.
+Zallet na **zecd** nwere ike ịdị n'ihu Zebra. Họrọ Zallet mgbe ịchọrọ elu e-akpa ego `z_*` na ụzọ isi na `wallet.dat` kwaga. Họrọ zecd mgbe ịchọrọ sava nke e chebere echebe na-ebute ụzọ nke *na-abụghị* clone `zcashd` n'ụzọ doro anya.
 
-E nwere ngwaahịa ndị ọzọ dị iche na nke a. [zallet.io](https://www.zallet.io/) nke na-eji aha ahụ eme ihe. Ngwa a abụghị ọrụ a.
+Enwere ngwaahịa ndị ahịa dị iche na [zallet.io](https://www.zallet.io/) nke na-eji aha ahụ ọzọ. Ngwa ahụ abụghị ọrụ a.
 
 ---
 
-## Peeji ndị metụtara ya
+## Ibe ndị metụtara ya
 
-- [Nọmba zuru ezu](Full_Nodes.md)  Zebra, Zakura na ndị lara ezumike nká `zcashd` ọnụ ụzọ
-- [Zebra Full Node (Nọmba zuru ezu)](Zebra_Full_Node.md)  ọnụ Zallet's ndabara backend na-agụ
-- [Zakura Node (Nọmba nke Zaku)](Zakura_Node.md)  ọzọ na-akwado ọnụ
-- [Zaino](Zaino.md)  backend indexer na ihe nkesa-onye ahịa dị mfe.
-- [zecd (Zụlite ihe ọmụma)](ZECD.md)  ihe ọzọ wallet-server imewe na librustzcash
-- [Nkwekọrịta obere akpa Zcash](Zcash_Wallet_Syncing.md)  otú wallets na-eche nche si enyocha agbụ ahụ.
-- [Igodo Nlele](Viewing_Keys.md)
+- [Full Nodes](Full_Nodes.md) — Zebra, Zakura, na node `zcashd` e lara ezumike
+- [Zebra Full Node](Zebra_Full_Node.md) — node backend ndabara Zallet na-agụ
+- [Zakura Node](Zakura_Node.md) — node nyocha ọzọ
+- [Zaino](Zaino.md) — backend indexer na sava light-client
+- [zecd](ZECD.md) — nhazi sava e-akpa ego ọzọ na librustzcash
+- [Mmekọrịta E-akpa ego Zcash](Zcash_Wallet_Syncing.md) — otu e-akpa ego nke e chebere echebe si enyocha chain
+- [Viewing Keys](Viewing_Keys.md)
 
-## Akụnụba
+## Akụrụngwa
 
-- [Akwụkwọ Zallet ahụ .](https://zcash.github.io/zallet/)
+- [Akwụkwọ Zallet](https://zcash.github.io/zallet/)
 - [zcash/zallet na GitHub](https://github.com/zcash/zallet)
-- [Mgbasa ozi](https://github.com/zcash/zallet/releases)
-- [JSON-RPC gbanwere semantics](https://zcash.github.io/zallet/zcashd/json_rpc.html)
-- [Ntuziaka Mbugharị ZecHub](/guides/migration-guide-zcashd-to-zebrad-zallet)
-- [Ntuziaka ZecHub Raspberry Pi (Zebra + Zallet)](/guides/raspberry-pi-4-full-node)
-- [Z3 (Zebra + Zallet mejupụtara stack)](https://github.com/ZcashFoundation/z3)
+- [Mwepụta](https://github.com/zcash/zallet/releases)
+- [Nghọta JSON-RPC gbanwere](https://zcash.github.io/zallet/zcashd/json_rpc.html)
+- [ntuziaka ịkwaga ZecHub](/guides/migration-guide-zcashd-to-zebrad-zallet)
+- [Ntuziaka Raspberry Pi ZecHub (Zebra + Zallet)](/guides/raspberry-pi-4-full-node)
+- [Z3 (stack compose Zebra + Zallet)](https://github.com/ZcashFoundation/z3)
 - [Zcash R&D Discord](https://discord.gg/xpzPR53xtU) — `#wallet-dev`
