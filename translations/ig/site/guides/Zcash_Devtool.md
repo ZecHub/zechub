@@ -1,11 +1,11 @@
-# Ngwaọrụ Zcash DevTool
+# Ngwá ọrụ Devtool nke Zcash
 
 [Gịnị bụ zcash-devtool?](https://github.com/zcash/zcash-devtool?tab=readme-ov-file) 
 
-Zcash Devtool bụ ikpo okwu maka ịnwa ime ihe na Zcash. Ndị mmepe, maka ndị mmepe, wuru ya maka nnwale na mmepe nke ọrụ Zcash ọhụrụ; ekwesighi iwere ya dị ka nke dị njikere maka mmepụta. API iwu nke ngwaọrụ a na-ekpughe nwere ike ịgbanwe ma ọ bụ ga-agbanwe n'oge ọ bụla na-enweghị ịdọ aka ná ntị. Etinyela nnukwu ego na njikwa obere akpa zcash-devtool.
+Devtool Zcash bụ ikpo okwu maka ịnwale Zcash. Ndị mmepe wuru ya maka ndị mmepe, maka nnwale na mmepe ọrụ ọhụrụ nke Zcash; ekwesịghịkwa ile ya anya dị ka ihe dị njikere maka mmepụta. API ahịrị iwu nke ngwá ọrụ a na-enye nwere ike, ọ ga-agbanwekwa n'oge ọ bụla na-enweghị ịdọ aka ná ntị. ETINYELA nnukwu ego n’ijikwa e-akpa ego [wallet] arụnyere n'ime zcash-devtool.
 
-### Nkuzi vidiyo nke Zcash Devtool:
-Kris Nuttycombe (@nuttycom) gosipụtara ngwaọrụ a n'oge ZconVI.
+### Nkuzi vidio banyere Devtool Zcash:
+Kris Nuttycombe (@nuttycom) gosipụtara ngwá ọrụ a n'oge ZconVI.
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -21,15 +21,15 @@ Kris Nuttycombe (@nuttycom) gosipụtara ngwaọrụ a n'oge ZconVI.
 
 ---
 
-Maka ntuziaka nzọụkwụ site na nzọụkwụ maka otu esi amalite iji ngwaọrụ ndị a, lee [usoro mmụta a](https://github.com/zcash/zcash-devtool/blob/main/doc/walkthrough.md)Ọ na-edekọ usoro zuru oke nke otu esi ahazi ma jiri ngwaọrụ zcash devtool. Ezubere ya ka ọ bụrụ ntuziaka maka otu esi ahazi ya na otu esi agbakwunye ọrụ nke gị na ngwaọrụ ahụ.
+Maka nduzi nzọụkwụ site na nzọụkwụ banyere otu esi amalite iji ngwá ọrụ ndị a, lee [nduzi a](https://github.com/zcash/zcash-devtool/blob/main/doc/walkthrough.md). Ọ na-edekọ nkọwa zuru ezu banyere otu esi ahazi ma jiri ngwá ọrụ zcash devtool. Ebumnuche ya bụ ịbụ nduzi maka otu esi ahazi ya na otu esi agbakwunye ọrụ nke gị na ngwá ọrụ ahụ.
 
 ## Mmalite ngwa ngwa
 
-A lere iwu ndị dị n'okpuru anya megide zcash-devtool `main` (kwere nkwa `5a26ee8`, Ọgọst 2026). Ngwaọrụ ahụ na-agbanwe n'enweghị ọkwa, yabụ gbaa ọsọ `--help` na iwu ọ bụla ma ọ bụrụ na ihe dị ebe a adabaghịzi.
+A nwalere iwu ndị dị n'okpuru megide zcash-devtool `main` (commit `5a26ee8`, Ọgọọst 2026). Ngwá ọrụ ahụ na-agbanwe na-enweghị ọkwa, ya mere jiri `--help` na iwu ọ bụla ma ọ bụrụ na ihe dị ebe a anaghịzi adaba.
 
 ### Wụnye
 
-Enweghị ọnụọgụ abụọ e wurularị. Wụnye [Rust](https://rustup.rs), wee wuo site na isi mmalite:
+Enweghị binary eburula ụzọ wuo. Wụnye [Rust](https://rustup.rs), wee wuo ya site na isi mmalite:
 
 ```bash
 git clone https://github.com/zcash/zcash-devtool.git
@@ -37,11 +37,11 @@ cd zcash-devtool
 cargo run --release -- --help
 ```
 
-Ihe atụ ndị dị n'okpuru na-akpọ ọnụọgụ abụọ arụpụtara, `target/release/zcash-devtool`. `cargo run --release -- ...` na-arụ ọrụ n'otu ụzọ ahụ.
+Ihe atụ ndị dị n'okpuru na-akpọ binary e wuru, `target/release/zcash-devtool`. `cargo run --release -- ...` na-arụkwa ọrụ n'otu ụzọ ahụ.
 
-### Mepụta obere akpa testnet
+### Mepụta e-akpa ego testnet
 
-Malite na testnet. Mkpụrụ ego Testnet (TAZ) enweghị uru ọ bụla.
+Bido na testnet. Mkpụrụ ego testnet (TAZ) enweghị uru.
 
 ```bash
 zcash-devtool wallet -w ./my-wallet init --name demo -i ./my-wallet-identity.txt -n test
@@ -49,13 +49,13 @@ zcash-devtool wallet -w ./my-wallet sync
 zcash-devtool wallet -w ./my-wallet balance
 ```
 
-- `-w` bụ akwụkwọ ndekọ akpa ego. Ọ na-aga n'ihu `wallet` na tupu iwu ala.
-- `-i` is an [afọ](https://age-encryption.org) faịlụ njirimara. A na-ezochi okwu ncheta nke obere akpa ahụ na ya, a na-emepụtakwa faịlụ ahụ ma ọ bụrụ na ọ dịghị. Debe ya: `send`, `shield` na iwu mmefu ndị ọzọ chọrọ ya iji wepụ mkpụrụ ahụ.
-- `-n` bụ netwọk ahụ: `test` or `main`.
-- `-s` na-ahọrọ ihe nkesa obere akpa ego `zecrocks`, na-ejikọ na sava zec.rocks maka netwọk ahọpụtara.
-- Iji weghachi obere akpa dị adị, jiri `restore-mnemonic` n'ọnọdụ nke `init`Ọ na-akpali gị maka okwu ahụ.
+- `-w` bụ ndekọ e-akpa ego. Ọ na-adị mgbe `wallet` gachara ma tupu subcommand.
+- `-i` bụ faịlụ njirimara [age](https://age-encryption.org). A na-eji ya zoo mkpụrụokwu mnemonic nke e-akpa ego, a na-emepụtakwa faịlụ ahụ ma ọ bụrụ na ọ dịghị. Debe ya: `send`, `shield` na iwu mmefu ego ndị ọzọ chọrọ ya iji kpọghee Mkpuru mgbake [seed phrase].
+- `-n` bụ netwọk: `test` ma ọ bụ `main`.
+- `-s` na-ahọrọ sava e-akpa ego ọkụ. Ndabara, `zecrocks`, na-ejikọ na sava zec.rocks maka netwọk ahọpụtara.
+- Iji weghachite e-akpa ego dị adị, jiri `restore-mnemonic` kama `init`. Ọ ga-ajụ gị maka mkpụrụokwu ahụ.
 
-`balance` na-edepụta ọdọ mmiri ọ bụla iche iche, gụnyere Ironwood:
+`balance` na-edepụta pool [pool] ọ bụla iche, gụnyere Ironwood:
 
 ```
     Balance:   0.00000000 TAZ
@@ -65,13 +65,13 @@ zcash-devtool wallet -w ./my-wallet balance
   Unshielded Spendable:   0.00000000 TAZ
 ```
 
-Gbaa ọsọ `zcash-devtool wallet -w ./my-wallet list-addresses` ịhụ adreesị otu akpa ego ahụ, wee ziga ya ego testnet site na [faucet](https://zechub.wiki/using-zcash/faucets).
+Gbaa `zcash-devtool wallet -w ./my-wallet list-addresses` iji hụ Adreesị akpa ego jikọtara ọnụ nke e-akpa ego ahụ, wee ziga ya ego testnet site na [faucet faucet](https://zechub.wiki/using-zcash/faucets).
 
-Maka mainnet, gafere `-n main` to `init`Jiri naanị ego ị nwere ike ịfufu.
+Maka mainnet, tinye `-n main` na `init`. Jiri naanị ego ị nwere ike ịnabata ịla n'iyi.
 
-### Zipụ ma chebe
+### Zipu ma chebe
 
-Ọnụ ego dị na zatoshis (1 ZEC = 100,000,000 zatoshis).
+Ọnụ ego dị na zatoshi (1 ZEC = 100,000,000 zatoshi).
 
 ```bash
 zcash-devtool wallet -w ./my-wallet send -i ./my-wallet-identity.txt \
@@ -79,13 +79,13 @@ zcash-devtool wallet -w ./my-wallet send -i ./my-wallet-identity.txt \
 zcash-devtool wallet -w ./my-wallet shield -i ./my-wallet-identity.txt
 ```
 
-`propose` na-egosi azụmahịa a `send` ga-ewu ụlọ, na-ezigaghị ya. `list-tx` na `list-unspent` Gosi akụkọ ihe mere eme na ihe ndetu nke obere akpa ahụ.
+`propose` na-egosi Azụmahia [transaction] nke `send` ga-ewu, na-eziteghị ya. `list-tx` na `list-unspent` na-egosi akụkọ ihe mere eme na note [note] nke e-akpa ego ahụ.
 
-Iwu ọ bụla nke na-agwa sava okwu na-anabatakwa ya `--connection tor`, nke na-ebuga njikọ ahụ site na onye ahịa Tor arụnyere n'ime ya.
+Iwu ọ bụla na-ekwurịta okwu na sava na-anabatakwa `--connection tor`, nke na-agafe njikọ ahụ site na onye ahịa Tor arụnyere n'ime ya.
 
-### Lelee adreesị, igodo na azụmahịa
+### Nyochaa Adreesị, mkpịsị ugodi na Azụmahia
 
-`inspect` Na-agbanwe data Zcash na-anọghị n'ịntanetị: adreesị, igodo, na azụmahịa ndị a na-anaghị arụ ọrụ. Tinye `--lookup` iji nweta ozi ndị ọzọ site na usoro a, dịka azụmahịa site na njirimara ya.
+`inspect` na-akọwa data Zcash na-enweghị ịntanetị: Adreesị akpa ego, mkpịsị ugodi, na Azụmahia raw. Tinye `--lookup` iji nweta ozi ndị ọzọ site na chain [chain], dịka Azụmahia site na ID ya.
 
 ```
 $ zcash-devtool inspect utest1h55y5z...
@@ -98,11 +98,11 @@ Zcash address
    - Transparent P2PKH (...)
 ```
 
-A na-eziga akwụkwọ ndetu Ironwood na otu onye nnata Orchard n'otu adreesị, yabụ adreesị agbanweghị na NU6.3.
+A na-eziga note Ironwood n'otu onye nnata Orchard n'ime Adreesị akpa ego jikọtara ọnụ, yabụ Adreesị akpa ego agbanweghị na NU6.3.
 
-### Wulite azụmahịa n'usoro site na iji PCZTs
+### Wuo Azụmahia n’usoro nzọụkwụ site na PCZT
 
-PCZT (azụmahịa Zcash e kere n'akụkụ) na-ekewa iwulite azụmahịa n'ime usoro dị iche iche: mepụta, gosi, bịanye aka, na izipu. Nzọụkwụ ọ bụla nwere ike ịgba ọsọ na igwe dị iche, dịka ọmụmaatụ site na iji ihe nrịbama ngwaike dịka Keystone `pczt` iwu na-agụ PCZT site na faịlụ ma ọ bụ stdin wee dee ya na faịlụ (`--output`) ma ọ bụ stdout, yabụ enwere ike ịhazi usoro ndị a:
+PCZT (Azụmahia Zcash e mepụtara naanị akụkụ ya) na-ekewa iwu Azụmahia n'ime usoro dị iche iche: mepụta, gosi, bịanye aka, ma ziga. Usoro ọ bụla nwere ike ịrụ ọrụ n'igwe dị iche, dịka ọmụmaatụ site na onye na-abịanye aka hardware dịka Keystone. Iwu `pczt` ọ bụla na-agụ PCZT site na faịlụ ma ọ bụ stdin ma dee ya na faịlụ (`--output`) ma ọ bụ stdout, ya mere enwere ike ijikọ usoro ndị ahụ:
 
 ```bash
 zcash-devtool pczt -w ./my-wallet create --address <recipient address> --value 100000 \
@@ -111,11 +111,11 @@ zcash-devtool pczt -w ./my-wallet create --address <recipient address> --value 1
   | zcash-devtool pczt -w ./my-wallet send
 ```
 
-`zcash-devtool pczt --help` depụtara usoro ndị ọzọ, gụnyere `inspect`, `redact`, `combine`, `extract` na `shield`.
+`zcash-devtool pczt --help` na-edepụta usoro ndị ọzọ, gụnyere `inspect`, `redact`, `combine`, `extract` na `shield`.
 
-### Bufee ego site na Orchard gaa Ironwood
+### Bugharịa ego site na Orchard gaa Ironwood
 
-Kemgbe NU6.3, ego Orchard nwere ike ibuga naanị na adreesị nke obere akpa ahụ `migration` iwu na-akwaga ha n'ime Ironwood:
+Kemgbe NU6.3, ego Orchard nwere ike ịkwaga naanị na Adreesị akpa ego nke e-akpa ego ahụ n'onwe ya. Iwu `migration` na-ebuga ha n'ime Ironwood:
 
 ```bash
 zcash-devtool migration -w ./my-wallet plan
@@ -124,21 +124,19 @@ zcash-devtool migration -w ./my-wallet status
 zcash-devtool migration -w ./my-wallet advance
 ```
 
-- `plan` na-elele nkewa nke ndetu ahụ na usoro mbufe, ọ dịghịkwa agbanwe ihe ọ bụla.
-- `commit` na-ewulite ma na-abịanye aka na azụmahịa nkwadebe mbụ `--external` ịhapụ ha ka ha ghara ịbanye aka maka onye bịanyere aka n'èzí dịka Keystone.
-- `status` na-egosi ọganihu nke njem na nzọụkwụ ọzọ.
-- `advance` na-egosi azụmahịa ọzọ nke arịlịka ya dị njikere.
+- `plan` na-eleba anya n'ọdịnihu nkewa note na nhazi oge mbufe, ọ naghị agbanwe ihe ọ bụla.
+- `commit` na-ewu ma bịa n'ihu bịanye aka na Azụmahia nkwadebe mbụ. Tinye `--external` iji hapụ ha na-enweghị mbinye aka maka onye na-abịanye aka mpụga dịka Keystone.
+- `status` na-egosi ọganihu mbugharị ahụ na usoro na-esote.
+- `advance` na-egosi Azụmahia na-esote nke anchor ya dị njikere.
 
-A ka na-ewu iwu mbugharị. `advance` kwụsị na azụmahịa mbụ dị njikere ịgbasa, n'ihi na etinyebeghị mgbasa ozi na ngwaọrụ ahụ. Maka ojiji kwa ụbọchị, bufee ego na obere akpa nke na-akwado Ironwood. Lee [Ọdọ Mmiri E Kpuchiri Ekpuchi](https://zechub.wiki/using-zcash/shielded-pools).
-
-
-**Ịdọ Aka Na NchỊta Nche:**
-EJILA NKE A N'IME MMỤTA!!!
-E deghị ngwa a n'uche nchekwa. Agbanyeghị, o nwere ihe ndị dị mkpa dịka izochi okwu mkpụrụ ncheta nke ga-eme ka ọ dị irè maka nnwale obere, n'agbanyeghị ihe ize ndụ nke gị.
-
-### Ọkachamara (librustzcash)
+A ka na-ewu iwu mbugharị ndị a. `advance` na-akwụsị na Azụmahia mbụ dị njikere maka mgbasa ozi, n'ihi na etinyebeghị mgbasa ozi n'ime ngwá ọrụ ahụ. Maka iji kwa ụbọchị, jiri e-akpa ego na-akwado Ironwood bugharịa ego. Lee [Pool E Chebere Echebe](https://zechub.wiki/using-zcash/shielded-pools).
 
 
-[lee vidiyo ebe a](https://free2z.cash/uploadz/public/ZcashTutorial/librustzcash-a-rust-crates.mp4)
+**Ịdọ Aka Ná Ntị Maka Nchekwa:**
+EJIla NKE A NA MMepụta!!!
+Edebeghị ngwa a n'uche nchekwa. Otú ọ dị, o nwere ihe enyemaka dịka Nzobe ederede [encryption] nke mkpụrụokwu mnemonic, nke kwesịrị ime ka ọ kwe omume maka nnwale nta, n'ihe ize ndụ nke gị.
+
+### Nke dị elu (nkuzi librustzcash )
 
 
+[lee vidio ebe a](https://free2z.cash/uploadz/public/ZcashTutorial/librustzcash-a-rust-crates.mp4)

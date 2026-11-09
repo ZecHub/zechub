@@ -2,84 +2,84 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Ihe ncheta
+# Memo
 
-## TL;DR
+## N'okwu nkenke
 
-* Memo bụ obere akwụkwọ ozi ị na-etinye na ụgwọ e zigara na adreesị echekwara. E zoro ya ezoro ezo, ka ndị na-ekiri blockchain ghara ịgụ ya.
-* Ebe ndetu ahụ nwere ike ijide ruo byte 512 nke ederede.
-* Ndị mmadụ na-eji ihe ndetu ekwu onye zitere ụgwọ na ihe ọ bụ maka ya, ma ọ bụ izipu ozi nkeonwe.
-* Ịkwụ ụgwọ nye adreesị doro anya enweghị ike ibu ihe e dere ede.
-* A [njikọ arịrịọ ịkwụ ụgwọ](/using-zcash/payment-request-uris) nwere ike idejupụta ihe ndetu ahụ maka gị ka ụlọ ahịa wee nwee ike itinye akara na iwu ọ bụla.
+* Memo bụ note dị mkpirikpi ị na-etinye na Kwụọ ụhwọ [payment] e zigara na Adreesị akpa ego [address] nke e chebere echebe [shielded]. A na-ezo ya, ya mere ndị na-ekiri blockchain enweghị ike ịgụ ya.
+* Ebe memo na-ejide ihe ederede ruru byte 512.
+* Ndị mmadụ na-eji memo ekwu onye zitere Kwụọ ụhwọ na ihe e ji ya eme, ma ọ bụ izipu ozi nzuzo.
+* Kwụọ ụhwọ gaa na Adreesị akpa ego Oha [transparent] enweghị ike iburu memo.
+* [njikọ arịrịọ Kwụọ ụhwọ](/using-zcash/payment-request-uris) nwere ike dejupụta memo ahụ maka gị ka ụlọ ahịa nwee ike ịkpọpụta usoro ịzụta ọ bụla aha.
 
 ## Nkọwa Isi
 
-### Izipu Ihe Ncheta Ezoro Ezo
+### Izipu Memo Ederede Ezoro Ezo
 
-Mgbe ị na-eziga azụmahịa Z2Z (nke e ji kpuchie ya ruo na nke e ji kpuchie ya), ị nwere ike itinye ozi (ozi) n'azụmahịa ahụ. Enwere ike iji ozi a mee ihe dị iche iche.
+Mgbe ị na-eziga Azụmahia [transaction] Z2Z (nke e chebere echebe gaa na nke e chebere echebe), ị nwere ike itinye memo (ozi) n'ime Azụmahia ahụ. Enwere ike iji memo a mee ọtụtụ ihe dị iche iche.
 
-### Ịbanye aka n'Azụmahịa
+### Ịbanye Aha na Azụmahia
 
-A na-ejikarị akwụkwọ ndetu eme ihe maka ịdenye aka na ịkwụ ụgwọ. Ebe ọ bụ na azụmahịa echekwara na-ezochi data gị, ị gaghị enwe ike ịhụ onye zitere gị ZEC na ihe ZEC nwere ike ịbụ maka ya. Ndị ọrụ nwere ike iji ubi ndetu ahụ bịanye aka n'aha ma ọ bụ aha njirimara ha iji mee ka onye ibe ha mara onye azụmahịa ahụ si. Ha nwekwara ike ịkọwa ihe azụmahịa ahụ bụ maka ya.
+A na-eji memo eme ihe karịsịa n'ịbanye aha na Kwụọ ụhwọ. Ebe Azụmahia nke e chebere echebe na-ezo data gị, ị gaghị ahụ onye zitere gị ZEC na ihe ZEC nwere ike ịbụ maka ya. Ndị ọrụ nwere ike iji ebe memo bịanye aha ha ma ọ bụ aha nzuzo ha ka onye ha na ya na-emekọrịta mara onye Azụmahia ahụ si n'aka ya bịa. Ha nwekwara ike ịkọwa ihe Azụmahia ahụ bụ maka ya.
 
 ### Izipu Ozi
 
-Ihe ọzọ e ji eme ihe maka memo ezoro ezo bụ izipu ozi nye onye nwere z-addr. Ozi ndị a nwere ike ịbụ maka ihe ọ bụla, ma ọ bụ [ihe ncheta nye enyi](https://twitter.com/iansagstette/status/1542142468505870336) or a [ozi dị nro nke kwesịrị ịnọ na nzuzo dịka o kwere mee](https://twitter.com/InsideZcash/status/1545800146352578560).
+Ojiji [use case] ọzọ maka memo ezoro ezo bụ izigara mmadụ nwere z-addr ozi. Ozi ndị a nwere ike ịbụ gbasara ihe ọ bụla, ma ọ bụ [nchetara enyi](https://twitter.com/iansagstette/status/1542142468505870336) ma ọ bụ [ozi dị nzuzo nke kwesịrị ịnọgide bụrụ nke nzuzo nke ukwuu](https://twitter.com/InsideZcash/status/1545800146352578560).
 
-### Ihe ndetu ịhụnanya na Blockchain
+### Akwụkwọ Ịhụnanya na Blockchain
 
-E nwere otu onye zigara onye ya na ya na-akparịta ụka ịhụnanya n'otu n'ime blọk mbụ dị na Zcash blockchain. Mmadụ chọpụtara na onye ha na ya na-akparịta ụka ezitere ha faịlụ site na Zcash memo. Faịlụ a bụ tiketi maka mmemme pụrụ iche dị na mba ofesi nke ya na onye ọ hụrụ n'anya nọ na-ekwu maka ịga ọnụ. Ihe ncheta ahụ bụ ihe ncheta ịhụnanya.
+E nwere otu onye zigara onye ha hụrụ n'anya akwụkwọ ịhụnanya n'otu n'ime block [block] mbụ dị na Zcash blockchain. Otu onye chọpụtara na onye ha hụrụ n'anya zitere ha faịlụ site na Zcash memo. Faịlụ a bụ tiketi maka emume pụrụ iche n'ofesi mba nke ya na onye hụrụ ya n'anya nọ n'ebe dị anya kwurịtara maka ịga ọnụ. Memo ahụ bụ akwụkwọ ịhụnanya.
 
-## Anya / Ihe atụ
+## Ihe Anya / Ntụnyere
 
-Chee echiche banyere ịkwụ ụgwọ a na-ekpuchi ekpuchi dị ka envelopu e mechiri emechi nke nwere ego dị n'ime ya. Akwụkwọ ozi ahụ bụ akwụkwọ ozi e tinyere ego ahụ n'ime ya.
+Chee Kwụọ ụhwọ nke e chebere echebe dịka envelopu e mechiri emechi nke nwere ego n'ime ya. Memo bụ note a pịakọrọ n'ime ya na ego ahụ.
 
-Blockchain bụ ụlọ ọrụ ozi. Ọ na-ebu envelopu ahụ ma dekọọ na ọ bịarutere, ọ naghị emepe ya. Onye meghere envelopu ahụ na-agụ akwụkwọ ozi ahụ. Ụgwọ doro anya bụ kaadị ozi, yabụ enweghị envelopu ị ga-apịachi akwụkwọ ozi ahụ.
+Blockchain bụ ụlọ ọrụ ozi. Ọ na-eburu envelopu ahụ ma dekọọ na ọ rutere, ọ dịghịkwa emeghe ya. Onye meghere envelopu ahụ na-agụ note ahụ. Kwụọ ụhwọ Oha dị ka kaadị ozi, ya mere enweghị envelopu a ga-apịakọta note n'ime ya.
 
-## Mmiri miri emi
+## Nkọwa Miri Emi
 
-### Ihe dabara na ndetu
+### Ihe dabara na memo
 
-Ebe ndetu ahụ na-abụkarị 512 bytes kpọmkwem. A na-etinye ndetu ederede dị mkpụmkpụ na byte efu tupu e zoo ya, yabụ ndetu ọ bụla na-adị ka nha ya na yinye.
+Ebe memo na-adị mgbe niile kpọmkwem byte 512. A na-etinye byte efu na memo ederede dị mkpirikpi tupu ezoo ya, ya mere memo ọ bụla na-adị otu nha on-chain.
 
-Ọtụtụ ndetu bụ ederede UTF-8 nkịtị. [ZIP 302](https://zips.z.cash/zip-0302) na-echekwakwa ihe ndetu nke na-amalite na byte nke `0xF5` ma ọ bụ karịa maka ụdị data ndị ọzọ, yana ndetu nke `0xF6` ihe na-esochi ya bụ efu pụtara "enweghị ihe ncheta".
+Ọtụtụ memo bụ ederede UTF-8 nkịtị. [ZIP 302](https://zips.z.cash/zip-0302) na-edobekwa memo ndị na-amalite site na byte nke `0xF5` ma ọ bụ karịa maka ụdị data ndị ọzọ, memo nke `0xF6` ma byte efu soro ya pụtara …enweghị memo….
 
-Ihe ọ bụla e ji kpuchie n'azụmahịa nwere ihe ncheta nke ya, yabụ otu azụmahịa nke na-akwụ ọtụtụ mmadụ ụgwọ nwere ike itinye akwụkwọ ndetu dị iche maka nke ọ bụla n'ime ha.
+Mpụta nke e chebere echebe ọ bụla n'ime Azụmahia na-ebu memo nke ya, ya mere otu Azụmahia na-akwụ ọtụtụ mmadụ nwere ike ịgụnye note dị iche maka onye ọ bụla n'ime ha.
 
-### Elu
+### Nke Elu
 
-> **Akụkọ ihe mere eme. Ngosipụta a anaghịzi arụ ọrụ dịka e dere ya.**
+> **Nke akụkọ ihe mere eme. Demo a anaghịzi arụ ọrụ dịka e dere ya.**
 >
-> Ngosipụta dị n'okpuru na-eji zcashd, ya na ya [edemede nnata](https://github.com/ZecHub/zechub/blob/main/site/tutorials/ZcashMagicWormhole/receiveOwlsWormhole.sh) na-agụ ihe ndetu site na `zcash-cli`zcashd ruru nkwụsị nke End-of-Support ya na 18 Julaị 2026, nke mere na script ahụ enweghị ike iru node na-agba ọsọ, a pụghịkwa ibugharị ya.
+> Demo dị n'okpuru na-eji zcashd, script [nnata](https://github.com/ZecHub/zechub/blob/main/site/tutorials/ZcashMagicWormhole/receiveOwlsWormhole.sh) ya na-agụ memo site na `zcash-cli`. zcashd ruru nkwụsị End-of-Support akpaka ya na 18 Julaị 2026, ya mere script ahụ enweghị ike iru node na-arụ ọrụ, ebugharịbeghịkwa ya.
 >
-> Ịgụ ihe ncheta echekwara site na ahịrị iwu ka na-arụ ọrụ na Zallet: `zallet rpc z_listunspent` na-eweghachi otu ndetu echekwara ọ bụla enwetara `memoStr` Lee ihe e dere n'akwụkwọ edemede ahụ [Nduzi Ntụaka Ngwa Ngwa Zallet](/using-zcash/zallet-quick-reference-guide) maka iwu ahụ, na [ntuziaka mbugharị gaa Zebra na Zallet](/guides/migration-guide-zcashd-to-zebrad-zallet) ibugharị otu n'ime zcashd. Zallet ka nọ na beta.
+> Ịgụ memo nke e chebere echebe site na akara iwu ka na-arụ ọrụ na Zallet: `zallet rpc z_listunspent` na-eweghachi note ọ bụla nke e chebere echebe natara nwere otu ebe `memoStr` script ahụ na-agụ. Lee [Zallet Nduzi Ntụaka Ngwaahịa](/using-zcash/zallet-quick-reference-guide) maka iwu ahụ, na [nduzi mbufe gaa na Zebra na Zallet](/guides/migration-guide-zcashd-to-zebrad-zallet) iji wepụ node na zcashd. Zallet ka nọ na beta.
 >
-> A na-edebe akụkụ a dị ka ihe ndekọ akụkọ ihe mere eme nke ihe ngosi Magic-Wormhole.
+> Edebe akụkụ a dịka ndekọ akụkọ ihe mere eme nke demo Magic-Wormhole.
 
-Lee otu esi eji Zcash Shielded Memos na Magic-Wormhole CLI na zcashd iji zipu faịlụ site na otu kọmputa gaa na nke ọzọ n'enweghị nsogbu!
+Nke a bụ otu esi eji Zcash Memo nke e chebere echebe na Magic-Wormhole CLI na zcashd iji zipu faịlụ n'enweghị nsogbu site n'otu kọmputa gaa na nke ọzọ!
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
     className="w-full h-full"
     src="https://www.youtube.com/embed/8iqPCza9o6A"
-    title="DEMO: Encrypted File Transfer with Zcash 📁"
+    title="DEMO: Nbufe Faịlụ Ezoro Ezo site na Zcash 📁"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowFullScreen
     loading="lazy"
   />
 </div>
 
-## Peeji ndị metụtara ya
+## Peeji Ndị Metụtara
 
-- [URIs nke arịrịọ ịkwụ ụgwọ](/using-zcash/payment-request-uris): tinye ihe ncheta n'ime `zcash:` njikọ ma ọ bụ koodu QR.
-- [Azụmahịa](/using-zcash/transactions): ụdị azụmahịa echekwara ma doo anya.
-- [Ọdọ Mmiri E Kpuchiri Ekpuchi](/using-zcash/shielded-pools): ebe ndetu e ji ihe nchekwa kpuchie nke na-ebu ihe ncheta dị ndụ.
-- [Obere akpa](/using-zcash/wallets): jiri ihe nzacha Nchedo Memo chọta obere akpa ndị na-akwado ndetu.
-- [Nduzi Ntụaka Ngwa Ngwa Zallet](/using-zcash/zallet-quick-reference-guide): gụọ ihe ndetu enwetara site na ahịrị iwu.
-- [Ngwaọrụ Zcash maka ndị okike](/using-zcash/creators-and-tips): ngwaọrụ ntinye ego nke na-eziga ozi yana ntinye ego.
+- [URI Arịrịọ Kwụọ ụhwọ](/using-zcash/payment-request-uris): tinye memo n'ime njikọ `zcash:` ma ọ bụ koodu QR.
+- [Azụmahia](/using-zcash/transactions): ụdị Azụmahia nke e chebere echebe na Oha.
+- [Pool nke e chebere echebe](/using-zcash/shielded-pools): ebe note nke e chebere echebe na-ebu memo bi.
+- [E-akpa ego](/using-zcash/wallets): jiri nzacha Memo nke e chebere echebe chọta e-akpa ego na-akwado memo.
+- [Zallet Nduzi Ntụaka Ngwaahịa](/using-zcash/zallet-quick-reference-guide): gụọ memo natara site na akara iwu.
+- [Zcash Ngwá ọrụ maka Ndị Okike](/using-zcash/creators-and-tips): ngwá ọrụ inye ego nke na-ezipu ozi yana ego e nyere.
 
-### akụrụngwa
+### Akụrụngwa
 
-[Ubi Ihe Ncheta Ezoro Ezo](https://electriccoin.co/blog/encrypted-memo-field/)
+[Ebe Memo Ezoro Ezo](https://electriccoin.co/blog/encrypted-memo-field/)
 
 **Emelitere ikpeazụ:** Ọktoba 2026

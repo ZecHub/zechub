@@ -1,137 +1,136 @@
 # Grayscale Zcash ETF (ZCSH)
 
-**Zcash ewepụtaghị ETF. Grayscale mere**, site n'ịtụgharị ego o nwere
-na-agba ọsọ kemgbe 2017. Zcash bụ usoro — ọ nweghị ụlọ ọrụ, akụ ma ọ bụ bọọdụ
-nke ahụ nwere ike inye ego. Grayscale bụ onye njikwa akụ nọọrọ onwe ya nke na-azụta ihe
-ZEC dị n'ahịa mepere emepe dịka onye ọ bụla ọzọ.
+**Zcash ebidoghị ETF. Grayscale mere**, site n'ịgbanwe ego nchikota ọ na-elekọta kemgbe 2017. Zcash bụ protocol — o nweghị ụlọ ọrụ, Ebe nchekwa ego ma ọ bụ bọọdụ nke pụrụ iwepụta ego nchikota. Grayscale bụ onye njikwa akụ nọọrọ onwe ya nke na-azụta ZEC n'ahịa mepere emepe dịka onye ọ bụla ọzọ.
 
-Ọdịiche ahụ bụ otu ihe kacha ezighi ezi gbasara ZCSH, ọ bụkwa ebe ahụ ka ọ bụ
-peeji a na-amalite. Na 25 Ọgọst 2026, ego ahụ malitere ịzụ ahịa na NYSE Arca dịka
-*Zcash ETF*, nke bụ mbụ na mba Amerịka hụrụ ngwaahịa Zcash gbanwere agbanwe, ọ bụkwa ya bụ
-ugbu a otu n'ime ndị nwere otu ZEC buru ibu dị adị.
+Ọdịiche ahụ bụ otu ihe ndị mmadụ na-akọwahiekarị gbasara ZCSH, ọ bụkwa ebe ibe a malitere. Na 25 Ọgọọst 2026, ego nchikota ahụ malitere ịzụ ahịa na NYSE Arca dịka *The Zcash ETF*, ngwaahịa mbụ US spot Zcash a na-azụ n'exchange, ma ọ bụzi otu n'ime ndị ji ZEC kacha ukwuu dị.
 
 ![How the Grayscale Zcash ETF works: investors buy ZCSH shares through a brokerage and receive price exposure only, while the trust holds the ZEC at Coinbase Custody in transparent wallets; Authorized Participants create and redeem shares in baskets of 10,000 for cash, and the Sponsor's Fee is paid out of the trust's ZEC, so ZEC per share declines over time](https://raw.githubusercontent.com/ZecHub/zechub/main/assets/ZCSH_ETP_Structure.png)
 
-## Otu ego ahụ, usoro atọ
+## Otu ego nchikota ahụ, ọkwa atọ
 
-| Mgbe ole | Ihe gbanwere |
+| Mgbe | Ihe gbanwere |
 | --- | --- |
-| Ọktoba 2017 | Na-amalite dị ka ebe nkeonwe, naanị ndị na-etinye ego a kwadoro |
-| Ọktoba 2021 | A na-ere òkè na OTCQX n'okpuru akara ZCSH, na mbelata ọnụahịa na NAV |
-| 25 Ọgọst 2026 | Ọ ghọrọ ETP a pụrụ ịgbapụta na NYSE Arca wee wepụ "Trust" na aha ahụ |
+| Ọktoba 2017 | Ebido dịka itinye ego nzuzo, naanị ndị itinye ego akwadoro |
+| Ọktoba 2021 | A kpọrọ mbak ọnụahịa na OTCQX n'okpuru ticker ZCSH, ma na-azụ ahịa n'okpuru NAV |
+| 25 Ọgọọst 2026 | Ọ ghọrọ ETP a pụrụ ịgbapụta na NYSE Arca ma wepụ "Trust" n'aha ya |
 
-Nzọụkwụ nke afọ 2026 abụghị ihe ịchọ mma. Ntụkwasị obi nke OTC kwuru enweghị mgbapụta ọ bụla
-usoro, yabụ òkè ya nwere ike ịdaba na adịchaghị elu ma ọ bụ mbelata megide uru ahụ
-nke akụ dị n'azụ ha, mgbe ụfọdụ nke ukwuu - nke bụ kpọmkwem ihe
-mere n'etiti afọ 2021 na 2026. Ngwaahịa e ji mgbanwe gbanwere ma na-arụ ọrụ
-ihe okike na mgbapụta nwere ụzọ mkpebi nke na-eme ka ọnụ ahịa òkè ahụ dịgide
-ejikọtara na uru akụ net. Ịgbanwe site n'otu gaa na nke ọzọ na-agbanwe otu esi agbanwe
-ihe na-eme dị ka nchekwa.
+Nzọụkwụ nke 2026 abụghị naanị maka ọdịdị. Trust a kpọrọ ọnụahịa na OTC enweghị
+usoro mgbapụta, ya mere mbak ya nwere ike ịkwaga n'elu ma ọ bụ n'okpuru uru
+akụ ndị na-akwado ha, mgbe ụfọdụ nke ukwuu — nke bụ kpọmkwem ihe
+mere n'etiti 2021 na 2026. Ngwaahịa a na-azụ n'exchange nke nwere
+imepụta na mgbapụta na-arụ ọrụ nwere ụzọ arbitrage nke na-eme ka ọnụahịa mbak
+daba n'ọrụ na net asset value. Ịgbanwe site n'otu gaa na nke ọzọ na-agbanwe otú
+ihe ahụ si arụ ọrụ dịka nchekwa ego.
 
-## Ònye na-eme ihe
+## Onye na-eme ihe
 
-| Ọrụ | Oriri |
+| Ọrụ | Ndị otu |
 | --- | --- |
 | Onye nkwado | Grayscale Investments Sponsors, LLC |
-| Onye Nlekọta | CSC Delaware Trust Company |
-| Onye nchịkwa na onye nnọchite anya mbufe | The Bank of New York Mellon |
-| Onye na-ere ahịa kacha elu | Coinbase, Inc. — na-enweta ZEC maka ntụkwasị obi ahụ |
-| Ndị sonyere enyere ikike | Jane Street, Virtu - mepụta ma gbapụta òkè |
-| Onye na-ahụ maka ahịa | Foreside Fund Services |
-| **Onye nlekọta** | **Coinbase Custody Trust Company, LLC** — naanị ebe ZEC dị adị n'ezie |
+| Onye ntụkwasị obi | CSC Delaware Trust Company |
+| Onye nchịkwa na onye nnọchi anya mbufe | The Bank of New York Mellon |
+| Prime broker | Coinbase, Inc. — na-achọta ZEC maka trust |
+| Ndị sonyere enyere ikike | Jane Street, Virtu — na-emepụta ma na-agbapụta mbak |
+| Onye nnọchi anya ahịa | Foreside Fund Services |
+| **Onye nlekota** | **Coinbase Custody Trust Company, LLC** — naanị ebe ZEC n'ezie dị |
 
-Ọ dịghị otu n'ime ndị otu a bụ ego ahụ. Nhazi ya bụ ndokwa ahụ
-n'etiti ha, nke bụ ihe eserese dị n'elu na-egosi. Ọtụtụ n'ime ọrụ ndị a
-enweghị ma ọ bụ gbagwojuru anya na akụkọ n'oge edepụtara; ndepụta dị ebe a
-na-agbaso nkwupụta ndebanye aha Grayscale's Form S-3 na EDGAR.
+Ọ dịghị otu n'ime ndị otu ndị a bụ ego nchikota ahụ. Nhazi ahụ bụ nkwekọrịta
+dị n'etiti ha, nke bụ ihe eserese dị n'elu na-akọwa. Ọtụtụ n'ime ọrụ ndị a
+efuola ma ọ bụ kọrọ n'ụzọ na-ezighị ezi na akụkọ mgbe e depụtara ya; ndepụta
+ebe a na-agbaso nkwupụta ndebanye Form S-3 nke Grayscale na EDGAR.
 
-## Otu esi emepụta ma gbapụta òkè
+## Otu esi emepụta ma gbapụta mbak
 
-Naanị Ndị sonyere nwere ikike — ndị na-ere ahịa edebanyere aha n'okpuru nkwekọrịta na
-Onye Nkwado — nwere ike ịmepụta ma ọ bụ gbapụta òkè, naanị na blọk nke 10,000,
-A na-akpọ ya Nkata. Onye na-etinye ego nkịtị anaghị emetụ igwe a aka; ha na-azụta
-ma ree òkè ndị dị adị na mgbanwe ahụ dịka nchekwa ndị ọzọ edepụtara.
+Naanị Ndị Sonyere Enyere Ikike — ndị broker-dealer e debanyere aha n'okpuru
+nkwekọrịta na Onye Nkwado — nwere ike ịmepụta ma ọ bụ gbapụta mbak, naanị na
+ngọngọ nke 10,000, a na-akpọ Baskets. Onye itinye ego nkịtị anaghị emetụ usoro
+a aka; ọ na-azụta ma na-ere mbak ndị dị adị na exchange dịka nchekwa ego ọ bụla
+e depụtara.
 
-Usoro a bụ **ego** ugbu a, ọ bụghị nke ụdị. Onye so na ya nwere ikike
-itinye ego n'ime, ma ọ bụ nata ego site na akaụntụ ego, na onye nke atọ
-onye na-enye ego mmiri bụ ihe na-enweta ma ọ bụ na-ewepụ ZEC
-nkwupụta ndebanye aha na-akọwakwa usoro dị n'ụdị, nke
-Onye so na ya ga-etinye ZEC ozugbo na Trust ma ọ bụ nata
-ZEC sitere na ya - mana o kwuru hoo haa na "Nkwenye Iwu Dị n'Ụdị emebeghị
-enwetara ya," ọ gaghịkwa adị otú ahụ.
+Usoro ahụ ugbu a bụ **ego**, ọ bụghị in-kind. Onye Sonyere Enyere Ikike
+na-etinye ego n'ime, ma ọ bụ nata ego site na, akaụntụ ego, ma onye na-eweta
+liquidity nke atọ bụ onye n'ezie na-enweta ma ọ bụ na-ewepụ ZEC. Nkwupụta
+ndebanye ahụ kọwakwara usoro in-kind, nke Onye Sonyere Enyere Ikike ga-etinye
+ZEC ozugbo n'aka Trust ma ọ bụ nata ZEC n'aka ya — mana ọ na-ekwu n'ụzọ
+doro anya na "In-Kind Regulatory Approval has not been obtained," ma o nwere
+ike ghara inweta ya.
 
-Ya mere n'okpuru usoro ego, ZEC na-agbanwe aka n'etiti onye na-enye ego mmiri
-na ahịa, ọ dịghị mgbe ọ bụla n'etiti onye na-etinye ego na Trust
-ụzọ ahụ metụrụ adreesị Zcash aka.
+Ya mere, n'okpuru usoro ego, ZEC na-agbanwe aka n'etiti onye na-eweta
+liquidity na ahịa, ọ bụghị n'etiti onye itinye ego na Trust. Ọ dịghị onye
+n'okporo ụzọ retail na-emetụ Adreesị akpa ego Zcash aka.
 
-## A na-akwụ ụgwọ ahụ na ZEC
+## A na-akwụ ugwo ahụ na ZEC
 
-Ụgwọ onye nkwado bụ **2.5% kwa afọ**, dịka ọ dị na ndepụta ahụ. Ọ na-agbakọ kwa ụbọchị dị ka
-pasent nke uru akụ net ma, dịka akwụkwọ ntinye si kwuo, "a ga-akwụ ụgwọ na ZEC "
-nye Onye Nkwado kwa ụbọchị n'ụgwọ
+Ugwo onye nkwado bụ **2.5% kwa afọ**, dịka ọ dị mgbe e depụtara ya. Ọ na-agbakọta
+kwa ụbọchị dịka pasent nke net asset value, ma, n'okwu nkwupụta ndebanye ahụ,
+bụ "payable in ZEC to the Sponsor daily in arrears."
 
-Ihe si na ya pụta bụ nhazi kama ọ bụghị ihe mberede. Ụgwọ ahụ na-esi na ya apụta
-ZEC, yabụ ego ZEC na-akwado òkè ọ bụla na-ebelata obere oge kwa
-ụbọchị. Oke òkè abụghị ọnụọgụgụ a kapịrị ọnụ nke ZEC ejiri ruo mgbe ebighị ebi; ọ bụ nkwupụta
-na nke na-ebelata nwayọ nwayọ. Onye ọ bụla na-atụnyere mkpughe ZCSH ogologo oge megide
-naanị ijide ZEC chọrọ nke ahụ na ntụnyere.
+Ihe si na ya pụta bụ nke nhazi, ọ bụghị ihe ntakịrị. Ugwo ahụ na-esite na
+ZEC ego nchikota ahụ, ya mere ọnụego ZEC na-akwado mbak ọ bụla na-agbada
+ntakịrị kwa ụbọchị. Mba abụghị ọnụọgụ ZEC a kapịrị ọnụ a na-ejide ruo mgbe
+ebighị ebi; ọ bụ ikike n'elu nke na-eji nwayọọ nwayọọ na-ebelata. Onye ọ bụla
+na-atụnyere itinye ego ogologo oge na ZCSH na ijide ZEC ozugbo kwesịrị itinye
+nke a n'ịtụnyere ahụ.
 
-Maka ihe dị na ya, 2.5% bụ ihe dị ka ugboro iri ụgwọ na ETF bitcoin nkịtị.
-Grayscale ekwuola na a ga-akwụghachi ego mbụ sitere na ụgwọ onye nkwado ahụ azụ
-n'ime mmepe gburugburu ebe obibi Zcash.
+Maka nkọwa, 2.5% dị ihe dị ka ugboro iri n'ugwo ETF spot bitcoin a na-ahụkarị.
+Grayscale ekwuola na ego mbido sitere n'ugwo onye nkwado ga-alaghachi n'ime mmepe
+ecosystem Zcash.
 
-## Ihe onye na-eketa òkè nwere n'ezie
+## Ihe onye ji mbak nwere n'ezie
 
-Oke òkè bụ ikpughe ọnụ ahịa ZEC. Ọ bụghị ZEC.
+Mba bụ ikpughe n'ọnụahịa ZEC. Ọ bụghị ZEC.
 
-Onye na-eketa òkè enweghị ike izipu azụmahịa echekwara, enweghị ike itinye ihe edeturu, enweghị ike
-nwere adreesị otu, ọ nweghịkwa ike ilekọta onwe ya
-A na-enweta ọdịiche dị n'etiti Zcash na akụ ndị ọzọ site na ihe mkpuchi -
-Wrapper na-egosi ọnụahịa na ihe ọ bụla ọzọ. Maka onye na-etinye ego nke ebumnuche ya bụ ikpughe ihe
-n'ime akaụntụ ụlọ ọrụ ma ọ bụ nke ezumike nka, nke ahụ bụ kpọmkwem isi ihe dị mkpa
-onye ọ bụla nke mmasị ya na Zcash bụ nzuzo, ETF abụghị ihe nnọchi anya ya
-obere akpa ego, ha abụọ abụghịkwa ihe ọzọ ha ga-eji dochie ibe ha.
+Onye ji mbak enweghị ike izipu Azụmahia nke e chebere echebe [shielded transaction],
+enweghị ike itinye memo, enweghị ike ijide adreesị jikọtara ọnụ, ma enweghị ike
+ilekọta akụ ya n'onwe ya. Ọ dịghị nke ọ bụla n'ime njirimara ndị na-ekewa
+Zcash n'ebe akụ ndị ọzọ dị ka wrapper a na-enye — wrapper ahụ na-ebufe ọnụahịa
+na enweghị ihe ọzọ. Maka onye itinye ego nke ebumnuche ya bụ ikpughe n'ime
+akaụntụ brokerage ma ọ bụ akaụntụ ezumike nka, nke ahụ bụ kpọmkwem isi ihe.
+Maka onye ọ bụla mmasị ya na Zcash bụ Nzuzo [privacy], ETF abụghị ihe nnọchi
+anya e-akpa ego [wallet], ha abụọ abụghịkwa nhọrọ ọzọ n'ezie maka ibe ha.
 
-## A na-eme ZEC n'èzí
+## A na-edobe ZEC n'ihu ọha
 
-E nwekwara ihe ọzọ na-atọ ọchị n'ime usoro ahụ, ọ bụkwa ihe kachasị nkọ na ya
-peeji a. Coinbase Custody nwere ZEC nke Trust n'ụzọ doro anya**
-adreesị, ọ bụghị ndị e chebere. A na-ahụ ihe ndị dị na ego ahụ n'usoro,
-enwere ike ịchọta ya n'aka onye nlekọta, onye ọ bụla nwere mmasị ịhụ ya ozugbo
-lee anya. Ọ dịghị ihe dị na ego a nke na-eji adreesị echekwara.
+E nwere ironị ọzọ na nhazi ahụ, ọ bụkwa ihe kacha doo anya na ibe a. Coinbase Custody
+na-edobe ZEC nke Trust n'ime adreesị **Oha** [transparent], ọ bụghị ndị nke e
+chebere echebe. Ihe ego nchikota ahụ ji dị na chain, a pụrụ ịchọpụta ha ruo
+n'aka onye nlekota, ma onye ọ bụla chọrọ ilele nwere ike ịhụ ha ozugbo. Ọ dịghị
+ihe dị n'ego nchikota a na-eji adreesị nke e chebere echebe.
 
-Nke ahụ abụghị ihe a na-eleghara anya. E wuru akụrụngwa ego a na-achịkwa gburugburu nyocha
-na ihe akaebe, na nguzozi echekwara bụ kpọmkwem ihe onye nyocha na-apụghị ime
-nyochaa onwe ya. Nkwado Coinbase's n'onwe ya na-egosipụta otu asymmetry ahụ: ya
-ga-enweta ZEC ezitere site na adreesị echekwara, mana ọ naghị ezipụ ZEC na
-otu.
+Nke a abụghị nleghara anya. A na-ewu akụrụngwa ego nchikota a na-achịkwa gburugburu
+nyocha na nkwenye, ma nguzozi nke e chebere echebe bụ kpọmkwem ihe onye nyocha
+enweghị ike ikwenye n'onwe ya. Nkwado nke Coinbase n'onwe ya na-egosipụta otu
+enweghị nhata ahụ: ọ ga-anata ZEC ezitere site na adreesị nke e chebere echebe,
+mana ọ naghị eziga ZEC na nke dị otú ahụ.
 
-Ya mere, onye nwere ụlọ ọrụ kachasị ukwuu nke ihe nzuzo na-ejide ya na nke ahụ
-ụdị nke na-enweghị nzuzo. Isi ihe a sitere na akụkọ kama ịbụ maka
-faịlụ ndị ahụ — S-3 na-akọwa njide nke igodo nzuzo nke Trust mana ọ na-eme ya
-anaghị akọwa ụdị adreesị - a na-ekwukwa ya ebe a na ịdọ aka ná ntị ahụ.
+Ya mere, onye ụlọ ọrụ ji akụ Nzuzo kacha ukwuu na-ejide ya n'ụdị nke enweghị
+Nzuzo. E sitere n'akụkọ, ọ bụghị na nkwupụta ndebanye, nweta isi okwu a —
+S-3 na-akọwa njide mkpịsị ugodi nzuzo nke Trust ma ọ naghị akọwa ụdị adreesị —
+ma ejiri ịdọ aka ná ntị ahụ kwuo ya ebe a.
 
-## Ego ole ka ZEC gụnyere
+## Ole ZEC dị n'ime ya
 
-Na ndepụta ahụ na 25 Ọgọst 2026, ego ahụ nwere ihe dị ka **387,000 ZEC**, ya na
-ihe dị ka nde dọla 313** n'okpuru njikwa.
+Mgbe e depụtara ya na 25 Ọgọọst 2026, ego nchikota ahụ ji ihe dị ka
+**387,000 ZEC**, yana ihe dị ka **$313 nde** n'okpuru njikwa.
 
-Maka echiche dị ogologo: dịka ọ dị na 30 Septemba 2025, akwụkwọ ndị ahụ e tinyere na Trust ahụ kwuru
-ihe dị ka **2.4% nke ZEC**. Ọnụọgụgụ abụọ ahụ na-ada ada — nke mbụ nwere
-Ọnụ ego ZEC na ihe okike na mgbapụta, nke abụọ dịka a na-akwụ ụgwọ ahụ
-pụọ na ihe ndị a na-ejide - yabụ were ọnụọgụgụ dị ugbu a site na ntinye akwụkwọ kachasị ọhụrụ ma ọ bụ
-mkpughe nke ego ahụ kwa ụbọchị kama site na peeji a.
+Maka ilele ogologo oge: dịka na 30 Septemba 2025, nkwupụta ndebanye ahụ kwuru
+na Trust ji ihe dị ka **2.4% nke ZEC na-ekesa**. Ọnụọgụ abụọ a na-agbanwe —
+nke mbụ site n'ọnụahịa ZEC na site na imepụta na mgbapụta, nke abụọ kwa
+ka a na-akwụ ugwo site n'ihe ndị e ji — ya mere, nweta ọnụ ọgụgụ dị ugbu a
+site na nkwupụta ndebanye kacha ọhụrụ ma ọ bụ mkpughe ego nchikota ahụ kwa
+ụbọchị, kama site n'ibe a.
 
-## Isi mmalite
+## Ebe mmalite
 
-Ihe niile bụ isi, ha niile dị na EDGAR n'okpuru CIK 1720265 ma ọ gwụla ma akọwapụtara ha.
+Ha niile bụ isi mmalite, ha niile dị na EDGAR n'okpuru CIK 1720265 ma e wezụga
+ebe ekwuru ọzọ.
 
-- [Grayscale Zcash Trust (ZEC) — Ndepụta faịlụ EDGAR](https://www.sec.gov/edgar/browse/?CIK=1720265&owner=exclude)
-- [Nkwupụta ndebanye aha Fọm S-3, Nọvemba 2025](https://www.sec.gov/Archives/edgar/data/1720265/000119312525298561/zcsh-20251126.htm) - ọrụ nke otu ahụ, usoro okike na mgbapụta, Ụgwọ Onye Nkwado, na pasent nke ZEC na-agbasa
-- [Fọm 10-K maka afọ gwụchara na Disemba 31, 2024](https://www.sec.gov/Archives/edgar/data/1720265/000095017025035469/zcsh-20241231.htm)
-- [Zcash ETF ga-amalite ịzụ ahịa na NYSE Arca, 25 Ọgọst 2026](https://www.globenewswire.com/news-release/2026/8/25/3350404/0/en/the-zcash-etf-ticker-zcsh-built-by-grayscale-begins-trading-on-nyse-arca-expanding-investor-access-to-the-leading-privacy-focused-digital-currency.html)
-- [Peeji ego Grayscale Zcash Trust](https://www.grayscale.com/funds/grayscale-zcash-trust) - ụbọchị mmalite na ngosipụta ugbu a
-- [Ego nzuzo mbụ ETF: n'ime akwụkwọ Zcash Grayscale's](https://crypto.news/the-first-privacy-coin-etf-inside-grayscales-zcash-filing/) — isi mmalite nke abụọ; naanị nke a hụrụ na-ekwu na a na-edebe ZEC nke Trust n'adres doro anya
+- [Grayscale Zcash Trust (ZEC) — ndeksi ndebanye EDGAR](https://www.sec.gov/edgar/browse/?CIK=1720265&owner=exclude)
+- [Nkwupụta ndebanye Form S-3, Nọvemba 2025](https://www.sec.gov/Archives/edgar/data/1720265/000119312525298561/zcsh-20251126.htm) — ọrụ ụlọ ọrụ, usoro imepụta na mgbapụta, Ugwo Onye Nkwado, na pasent nke ZEC na-ekesa
+- [Form 10-K maka afọ kwụsịrị na 31 Disemba 2024](https://www.sec.gov/Archives/edgar/data/1720265/000095017025035469/zcsh-20241231.htm)
+- [The Zcash ETF malitere ịzụ ahịa na NYSE Arca, 25 Ọgọọst 2026](https://www.globenewswire.com/news-release/2026/8/25/3350404/0/en/the-zcash-etf-ticker-zcsh-built-by-grayscale-begins-trading-on-nyse-arca-expanding-investor-access-to-the-leading-privacy-focused-digital-currency.html)
+- [Grayscale ibe ego nchikota Zcash Trust](https://www.grayscale.com/funds/grayscale-zcash-trust) — ụbọchị mbido na mkpughe dị ugbu a
+- [ETF mbụ nke mkpụrụ ego Nzuzo: n'ime ndebanye Grayscale nke Zcash](https://crypto.news/the-first-privacy-coin-etf-inside-grayscales-zcash-filing/) — isi mmalite nke abụọ; naanị nke achọtara nke kwuru na ZEC nke Trust ka edobere n'adreesị Oha
 
-Ọnụọgụgụ ndị ahụ dị ka ụbọchị enyere ma ga-adị iche. Lelee ya na Septemba 30, 2026.
-Naanị ojiji agụmakwụkwọ, ọ bụghị ndụmọdụ itinye ego.
+Ọnụọgụ ndị a bụ dịka ụbọchị e nyere ma ga-agbanwe. A nyochara ya na 30 Septemba 2026.
+Maka ebumnuche mmụta naanị, ọ bụghị ndụmọdụ itinye ego.

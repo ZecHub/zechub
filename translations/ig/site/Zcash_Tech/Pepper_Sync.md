@@ -2,153 +2,153 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Zingo 2.0 - Pepper Sync (Nke a bụ ihe ọhụrụ)
+# Zingo 2.0 - Mmekọrịta Pepper
 
-## TL;DR
+## Nchịkọta ngwa ngwa
 
-* Pepper Sync bụ engine synchronization nke e webatara na Zingo! 2.0, obere akpa ego Zcash mepere emepe wuru site na ụlọ ọrụ Zingo Labs.
-* Ọ na-eji usoro nkwekọrịta nke abụghị n'usoro kama inyocha agbụ ahụ site n'ịchịkọta ya, ka ego gị na azụmahịa gị wee pụta ngwa ngwa.
-* A na echekwa ọganihu ahụ mgbe niile. Ọ bụrụ njikọ adaala maọbụ ngwa mechie, syncing ga-amaliteghachi site ebe o kwụsịrị kama ịmalitegharịa ya ọzọ.
-* Ị nwere ike imefu ego tupu oge agwụ.
-* Mmekọrịta echekwara na-anọgide na nzuzo n'oge usoro dum.
+* Mmekọrịta Pepper bụ injin mmekọrịta e webatara na Zingo! 2.0, e-akpa ego (wallet) Zcash nke mepere emepe nke Zingo Labs wuru.
+* Ọ na-eji mmekọrịta na-adịghị agbaso ahịrị kwụ ọtọ kama inyocha chain n'ime nnukwu iberibe n'usoro, ya mere nguzozi na Azụmahia (transaction) gị na-apụta ngwa ngwa karịa.
+* A na-echekwa ọganihu mgbe niile. Ọ bụrụ na njikọ akwụsị ma ọ bụ ngwa ahụ emechie, mmekọrịta ga-aga n'ihu ebe ọ kwụsịrị kama ịmalite ọzọ.
+* Ị nwere ike imefu ego tupu mmekọrịta agwụ.
+* Azụmahia nke e chebere echebe (shielded) na-anọgide na Nzuzo (privacy) n'oge usoro ahụ dum.
 
-## Nkọwa nke isi ihe dị na ya.
+## Nkọwa Isi
 
-Zingo 2.0 bụ ụdị ọhụrụ nke obere akpa ego Zingo! , obere akpa dị mfe, mepere emepe e wuru maka obodo Zcash. Kpakpando nke ntọhapụ a bụ Pepper Sync, nnukwu nkwalite na-echegharị kpamkpam etu wallets si ejikọ ya na blockchain .
+Zingo 2.0 bụ ụdị kachasị ọhụrụ nke e-akpa ego Zingo!, e-akpa ego dị fechaa, nke mepere emepe e wuru maka obodo Zcash. Kpakpando nke mwepụta a bụ Mmekọrịta Pepper, nkwalite dị mkpa nke na-atụgharị kpamkpam otú e-akpa ego si ejikọta na blockchain.
 
-In the past, syncing could feel painfully slow, error-prone, and resource-heavy, sometimes forcing users to restart from scratch. Pepper Sync changes all that. It makes syncing faster, smoother, more reliable, and less demanding on your device, while fully preserving the privacy of shielded transactions.
+N'oge gara aga, mmekọrịta nwere ike ịdị ka nke na-adị nwayọ nke ukwuu, nke njehie na-adịkarị, ma na-achọ nnukwu akụrụngwa, mgbe ụfọdụ na-amanye ndị ọrụ ịmalite site na mbido. Mmekọrịta Pepper na-agbanwe ihe ahụ niile. Ọ na-eme ka mmekọrịta dị ngwa, dị nro, bụrụ nke a pụrụ ịtụkwasị obi karịa, ma na-achọ obere ihe n'aka ngwaọrụ gị, ebe ọ na-echekwa Nzuzo nke Azụmahia nke e chebere echebe nke ọma.
 
-Ma ị bụ onye ọrụ ọhụụ na-anwale Zcash maka oge mbụ, ma ọ bụ otu ndị obodo ogologo oge jikwaa ọtụtụ obere akpa echedoro, Pepper Sync na -eme ka ahụmịhe dịkwuo mma.
+Ma ị bụ onye ọrụ ọhụrụ na-anwale Zcash maka oge mbụ, ma ọ bụ onye otu obodo nọrọla ogologo oge nke na-elekọta ọtụtụ e-akpa ego nke e chebere echebe, Mmekọrịta Pepper na-eme ka ahụmịhe ahụ dịkwuo mfe ma dị ụtọ.
 
-### Njirimara ndị dị mkpa nke Pepper Sync
+### Njirimara isi nke Mmekọrịta Pepper
 
-Pepper Sync na-ewebata ọtụtụ ndozi:
+Mmekọrịta Pepper na-eweta ọtụtụ nkwalite:
 
-- Nkwekọrịta Ngwa - Akpa ego gị dị njikere na nkeji, ọ bụghị awa.
-- Nwelite Smart - A na-edozi data n'obere obere, zere nyocha zuru ezu.
-- Na-eguzogide nkwụsị - Ọ bụrụ na njikọ gị adaa, mmekọrịta ga-amaliteghachi ebe ọ kwụsịrị.
-- Ọ Dị Mfe & Na-arụ Ọrụ nke Ọma - E mere ya maka fon, laptọọpụ na ngwaọrụ ndị ọzọ dị obere.
-- Nkwupụta doro anya - Oge mmelite ọganihu oge na-ebelata mgbagwoju anya.
-- Nzuzo-Idebe - Azụmahịa echekwara na nzuzo n'oge niile.
+- Mmekọrịta Dị Ngwa Karị - E-akpa ego gị na-adị njikere n'ime nkeji ole na ole, ọ bụghị awa.
+- Mmelite Amamihe - A na-ahazi data n'ime obere iberibe, na-ezere nyocha zuru ezu ọzọ.
+- Na-eguzogide Nkwụsị - Ọ bụrụ na njikọ gị akwụsị, mmekọrịta na-aga n'ihu ebe ọ kwụsịrị.
+- Dị Fechaa & Dị Irè - Ahaziri ya maka ekwentị, laptọọpụ, na ngwaọrụ ndị ọzọ na-enweghị nnukwu ike.
+- Nzaghachi Doro Anya Karị - Mmelite ọganihu ozugbo na-ebelata mgbagwoju anya.
+- Na-echekwa Nzuzo - Azụmahia nke e chebere echebe na-anọgide na Nzuzo n'oge usoro ahụ.
 
-### Ihe dị mma karịa na mbụ.
+### Ihe ka mma karịa na mbụ
 
-Ụdị ochie nke Zingo na-emekarị ka ndị ọrụ nwee nkụda mmụọ site n'ogologo oge syncing, njikwa njehie doro anya, na iji ihe onwunwe dị arọ. Pepper Sync edozi nsogbu ndị a:
+Ụdị Zingo ndị ochie na-akụda ndị ọrụ mmụọ mgbe ụfọdụ n'ihi ogologo oge mmekọrịta, ijikwa njehie na-edoghị anya, na iji nnukwu akụrụngwa. Mmekọrịta Pepper na-edozi nsogbu ndị a na-ahụkarị:
 
-| atụmatụ            | Ụdị Zingo gara aga                | Zingo 2.0 na Pepper Sync                   |
+| Njirimara            | Ụdị Zingo Gara Aga                | Zingo 2.0 nwere Mmekọrịta Pepper                   |
 | ------------------ | -------------------------------------- | -------------------------------------------- |
-| Ọsọ Mmekọrịta         | Jiri nwayọ nwayọ, ọkachasị na ntọala mbụ      | Mmekọrịta mbụ na nke na-aga n'ihu ngwa ngwa karịa         |
-| Njikwa Mmejọ     | Nsogbu mgbe ụfọdụ na ọdịda na-edoghị anya | Mbelata nkwụsi ike ka mma site na mgbake akpaka   |
-| Ahụmịhe Onye Ọrụ    | Mmekọrịta ahụ dị ka "ihe na-adịghị ahụkebe" nye ndị bịara ọhụrụ        | Na-edo anya, yana ọnọdụ na mmelite doro anya |
-| Arụmọrụ Ngwaọrụ | Ojiji dị elu nke CPU/ebe nchekwa                  | Emebere maka ojiji akụrụngwa dị mfe            |
+| Ọsọ Mmekọrịta         | Nwayọ karị, ọkachasị na nhazi mbụ      | Mmekọrịta mbụ na nke na-aga n'ihu dị ngwa nke ukwuu         |
+| Ijikwa Njehie     | Ịkwụsị mgbe ụfọdụ na ọdịda na-edoghị anya | Nkwụsi ike ka mma nwere mgbake akpaka   |
+| Ahụmịhe Onye Ọrụ    | Mmekọrịta dị ka …ihe nzuzo… nye ndị mbido        | Oha, nwere ọkwa na mmelite doro anya |
+| Ọrụ Ngwaọrụ | Iji CPU/memory dị elu                  | Ahaziri maka iji akụrụngwa nke ọma            |
 
-Na nkenke: ịmekọrịta ugbu a dị ngwa, ntụkwasị obi karị ma dịkwa mfe nghọta.
+N'ikwu ya nkenke: mmekọrịta dị ugbu a ngwa ngwa, a pụrụ ịtụkwasị ya obi karị, ma dị mfe ịghọta.
 
-## Ihe Anya / Ntụle
+## Anya / Ntụnyere
 
-Chee echiche banyere otu obere akpa ochie dị ka ịgụ akwụkwọ buru ibu site na peeji nke mbụ, n'olu dara ụda, tupu e kwe gị ikwu ihe ọ bụla gbasara ya. Kwụsị etiti ụzọ, ma ị maliteghachi ọzọ site na ibe mbụ Pepper Sync gụrụ otu akwụkwọ ahụ, mana o debere akara ngosi, gụọ isiakwụkwọ ndị kachasị mkpa nye gị, wee hapụ gị ka ị kwuo maka akụkọ a tupu i mechaa peeji ikpeazụ.
+Chee na mmekọrịta e-akpa ego ochie dị ka ịgụ akwụkwọ dị ogologo nke ukwuu site na peeji mbụ, n'olu dara ụda, tupu e kwe ka ị kwuo ihe ọ bụla gbasara ya. Kwụsị n'etiti, ị ga-amalitekwa ọzọ site na peeji mbụ. Mmekọrịta Pepper na-agụ otu akwụkwọ ahụ, mana ọ na-edobe akara akwụkwọ, gụọ isiakwụkwọ ndị dị gị mkpa mbụ, ma kwe ka ị kwuo gbasara akụkọ ahụ tupu ị gụchaa peeji ikpeazụ.
 
-Ihe edeturu bụ akụkụ dị mkpa. Ọ bụla mbipute gara aga na-emeso mmekọrịta a kwụsịrị dịka ọrụ furu efu; Pepper Sync na-eme ya ka ọ bụrụ nkwụsịtụ.
+Akara akwụkwọ ahụ bụ akụkụ dị mkpa. Ụdị ọ bụla gara aga weere mmekọrịta a kwụsịrị dịka ọrụ furu efu; Mmekọrịta Pepper na-ewere ya dịka nkwụsịtụ.
 
-### Ihe ndị na-egosi ihe nkiri
+### Ntuziaka anya
 
-- Nkọwa zuru ezu - Na-egosi usoro dum. ![Detailed Flow](/content-images/119c13ec-76be-42bd-b558-762d09275a1b-8ba7a18302.webp)
+- Usoro Nkọwa Zuru Ezu - Na-egosi usoro ahụ dum. ![Detailed Flow](/content-images/119c13ec-76be-42bd-b558-762d09275a1b-8ba7a18302.webp)
 
-- Mfe Flow - Nlele ngwa maka ndị ọrụ kwa ụbọchị. ![Simplified Flow](/content-images/9b612cbd-f24d-4472-9b87-0f2c908bb368-eb34a722a2.webp)
+- Usoro Dị Mfe - Nlele ngwa ngwa maka ndị ọrụ kwa ụbọchị. ![Simplified Flow](/content-images/9b612cbd-f24d-4472-9b87-0f2c908bb368-eb34a722a2.webp)
 
-## Ịbanye n'Okpuru Mmiri Dị Omimi
+## Nyocha Miri Emi
 
-### Olee otú Pepper Sync si arụ ọrụ (nlele dị mfe)
+### Otu Mmekọrịta Pepper si arụ ọrụ (nlele dị mfe)
 
-Kama inyocha ihe nkesa ahụ n'ọtụtụ nnukwu, nke na-adịghị mma, Pepper Sync na-arụ ọrụ obere oge. Ọ ga-echekwa ebe gị mgbe niile ka ọ na-aga.
+Kama inyocha blockchain ọzọ n'ime nnukwu iberibe na-adịghị mfe, Mmekọrịta Pepper na-arụ ọrụ n'ime obere nzọụkwụ ndị a pụrụ ijikwa—na-echekwa ebe gị mgbe niile ka ọ na-aga.
 
-1. Jikọọ - Akpa ego na-enyocha n'ime netwọkụ.
-2. Bịaruo Blocks - A na-ebudata data n'ụzọ dị elu.
-3. Nyochaa - A na-enyocha azụmahịa.
-4. Jikwaa Ihe Ndetu E Chebere - Nzuzo echekwara n'oge niile.
-5. Melite Balances - Akpa ego na-eme ka nchekwa dị ọhụrụ.
-6. Chekwaa Ọganihu - Kwụsị ma maliteghachi n'enweghị nsogbu.
-7. Emechara - Wallet dị njikere maka azụmahịa.
+1. Jikọọ - E-akpa ego na-enyocha netwọk.
+2. Nweta block - A na-ebudata data nwayọọ nwayọọ.
+3. Nyochaa - A na-akwado Azụmahia.
+4. Jikwaa note ndị E Chebere Echebe - A na-echekwa Nzuzo mgbe niile.
+5. Melite Nguzozi - E-akpa ego na-emelite n'enweghị nsogbu.
+6. Chekwaa Ọganihu - Ọ na-akwụsị ma maliteghachi n'enweghị nsogbu.
+7. Mechaa - E-akpa ego dị njikere ime Azụmahia.
 
-## Ihe Ndị A Pụrụ Ime n'Ọrụ Ahụ
+## Mmetụta Bara Uru
 
-### Ole ndị na-erite uru site n'aka Pepper Sync?
+### Ònye na-erite uru na Mmekọrịta Pepper?
 
-- Ndị ọrụ ọhụrụ - Nwere ike ịtọlite obere akpa ngwa ngwa na-enweghị nkụda mmụọ site na igbu oge.
-- Ndị na-eji kwa ụbọchị - Nkwekọrịta a pụrụ ịdabere na ya na-eme ka ịkwụ ụgwọ echekwara dị irè maka iji kwa ụbọchị.
-- Ndị mmepe & ndị nyocha - Oge mkpirisi oge sync pụtara usoro nnwale ngwa ngwa.
-- Ngwaọrụ Mobile & Light - Zingo na-agba ọsọ ugbu a ọbụna n'ụzọ dị irè na ngwaike nwere oke ego.
+- Ndị Ọrụ Ọhụrụ - Nwere ike ịhazi e-akpa ego ngwa ngwa n'enweghị nkụda mmụọ sitere n'igbu oge.
+- Ndị Ọrụ Kwa Ụbọchị - Mmekọrịta a pụrụ ịtụkwasị obi na-eme Kwụọ ụhwọ (payment) nke e chebere echebe ka ọ baa uru maka iji kwa ụbọchị.
+- Ndị Mmepụta & Ndị Nnwale - Oge mmekọrịta dị mkpirikpi pụtara okirikiri nnwale ngwa ngwa.
+- Ekwentị & Ngwaọrụ Dị Fechaa - Zingo ugbu a na-arụ ọrụ nke ọma ọbụna na ngwaike nwere obere akụrụngwa.
 
-### Ihe mere o ji dị mkpa maka Zcash
+### Ihe mere ọ ji dị mkpa maka Zcash
 
-Zcash wuru gburugburu azụmahịa echekwara, otu n'ime ihe kachasị ike na nzuzo nke cryptocurrency. Ma nzuzo bara uru naanị ma ọ bụrụ na enwere ya.
+Zcash dabere na Azụmahia nke e chebere echebe, otu n'ime ngwá ọrụ Nzuzo kachasị ike na cryptocurrency. Mana Nzuzo bara uru naanị ma ọ bụrụ na mmadụ nwere ike iru ya.
 
-Pepper Sync na-enyere aka site:
+Mmekọrịta Pepper na-enyere aka site na:
 
-- Ibelata ihe mgbochi ịbanye - Ndị ọrụ ọhụrụ nwere ike ịmalite ngwa ngwa.
-- Na-akwado ojiji kwa ụbọchị - Adreesị echedoro na-adị mfe ịtụkwasị obi.
-- Ịgba ume uto nke usoro okike - Ahụmịhe obere akpa ka mma na-eme ka nnabata, ngwa ọdịnala, yana ọrụ.
+- Ibelata ihe mgbochi ịmalite - Ndị ọrụ ọhụrụ nwere ike ịmalite ngwa ngwa.
+- Ịkwado ojiji kwa ụbọchị - Adreesị akpa ego nke e chebere echebe na-adị mfe ịtụkwasị obi.
+- Ịkwalite uto nke gburugburu ebe obibi - Ahụmịhe e-akpa ego ka mma na-akwalite nnabata, ngwa, na ọrụ karịa.
 
-Site na imeziwanye ahụmịhe obere akpa, Pepper Sync na-ewusi usoro okike Zcash dum ike.
+Site n'ịkwalite ahụmịhe e-akpa ego, Mmekọrịta Pepper na-ewusi gburugburu ebe obibi Zcash dum ike.
 
-### Ịmalite: ịbanye na Zingo 2.0
+### Ịmalite: ibido iji Zingo 2.0
 
-1. Budata obere akpa - Nweta ụdị ziri ezi site na [Zingo GitHub releases page](https://github.com/zingolabs/zingolib)
-2. Tọọ obere akpa gị - Mepụta nke ọhụrụ ma ọ bụ weghachite site na mkpụrụ okwu dị. [Zingo 2.0 with Zingo Labs](https://www.youtube.com/watch?v=FREwMzf_LlM)
-3. Ka Pepper Sync Run - Lelee ihe ngosi ọganihu ka obere akpa gị na-emelite. [Pepper Synch Run](https://x.com/ZingoLabs/status/1961871338441724191)
-4. Bido Iji Zcash - Na-ezipụ ma na-anata ZEC echedoro ozugbo syncing zuru ezu.
-5. Na-enwe obi iru ala banyere nkwụsị - Ọ bụrụ na ngwa ahụ mechie ma ọ bụ njikọ adaba, Pepper Sync ga-amaliteghachi akpaghị aka.
+1. Budata E-akpa ego - Nweta ụdị kwesịrị ekwesị site na [Zingo ibe mwepụta GitHub](https://github.com/zingolabs/zingolib)
+2. Hazie E-akpa ego Gị - Mepụta nke ọhụrụ ma ọ bụ weghachi site na Mkpuru mgbake (seed phrase) dị adị. [Zingo 2.0 nwere Zingo Labs](https://www.youtube.com/watch?v=FREwMzf_LlM)
+3. Kwe ka Mmekọrịta Pepper Gbaa Ọrụ - Lelee ihe ngosi ọganihu ka e-akpa ego gị na-emelite. [Mmekọrịta Pepper Gbaa Ọrụ](https://x.com/ZingoLabs/status/1961871338441724191)
+4. Malite Iji Zcash - Zipụ ma nata ZEC nke e chebere echebe ozugbo mmekọrịta zuru.
+5. Echegbula Maka Nkwụsị - Ọ bụrụ na ngwa emechie ma ọ bụ njikọ akwụsị, Mmekọrịta Pepper na-amaliteghachi na-akpaghị aka.
 
-## Ihe Ndị A Na-emekarịhie Emeghị
+## Njehie Ndị A Na-ahụkarị
 
-** Ịgwọ Pepper Sync dị ka obere akpa n'onwe ya.** Pepper sync bụ engine nke na-emekọrịta ihe n'ime Zingo! wallet, ọ bụghị ngwa dị iche.Ị wụnye Zingo; Peppersync bụ ihe na -agba ọsọ n'okpuru ya.
+**Iwere Mmekọrịta Pepper dịka e-akpa ego nke ya**. Mmekọrịta Pepper bụ injin mmekọrịta dị n'ime e-akpa ego Zingo!, ọ bụghị ngwa dị iche. Ị na-etinye Zingo; Mmekọrịta Pepper bụ ihe na-arụ ọrụ n'okpuru ya.
 
-** Iche na ngwa syncing pụtara nzuzo dị ala.** Ọsọ ahụ sitere n'otú e si enweta data, nyere iwu ma debe ya, ọ bụghị site n'ikpughe ozi ndị ọzọ. Azụmahịa echedoro ga-anọgide na nzuzo niile.
+**Iche na mmekọrịta ngwa ngwa pụtara Nzuzo adịghị ike**. Ọsọ ahụ sitere n'otú a na-enweta, ahazi, ma chekwaa data block, ọ bụghị site n'ikpughe ozi karịa. Azụmahia nke e chebere echebe na-anọgide na Nzuzo n'oge niile.
 
-** Iche na ị ga-enwerịrị mmekọrịta zuru oke tupu i nwee ike imefu**. Imefu ego tupu imekọrịta emechaa bụ otu n'ime isi ihe dị iche iche nke Pepper Sync, yabụ ịkwesighi ichere ka obere akpa ahụ rute njedebe agbụ.
+**Iche na ị ga-emecha mmekọrịta kpamkpam tupu i nwee ike imefu ego**. Imefu ego tupu mmekọrịta agwụ bụ otu n'ime njirimara isi Mmekọrịta Pepper, ya mere ị gaghị echere ka e-akpa ego rute n'elu chain.
 
-## Ajụjụ Ndị A Na-ajụkarị - Ọtụtụ mgbe jụrụ ajụjụ.
+## Ajụjụ A Na-ajụkarị - Ajụjụ ndị a na-ahụkarị
 
-Ajụjụ: M ga-eme nyocha ọzọ oge ọ bụla m mepere obere akpa ahụ?
+**Ajụjụ: Ọ dị m mkpa inyocha ọzọ oge ọ bụla m meghere e-akpa ego?**
 
-A: Mba. Pepper Sync na-echekwa ọganihu, yabụ ị ga - emelite naanị site n'oge ikpeazụ.
+Azịza: Mba. Mmekọrịta Pepper na-echekwa ọganihu, ya mere ị na-emelite naanị site n'ebe ikpeazụ.
 
-**Q: Gịnị ga-eme ma ọ bụrụ na ịntanetị m agbapụ?**
+**Ajụjụ: Gịnị na-eme ma ọ bụrụ na ịntanetị m akwụsị?**
 
-A: Sync na-akwụsị ma gaa n'ihu mgbe e mesịrị na -enweghị ịmalitegharịa.
+Azịza: Mmekọrịta na-akwụsịtụ ma na-aga n'ihu mgbe e mesịrị n'enweghị ịmalite ọzọ.
 
-** Ajụjụ: Ọ bụ na nzuzo m dị mma mgbe ịmekọrịta?**
+**Ajụjụ: Nzuzo m ọ dị nchebe mgbe mmekọrịta na-aga?**
 
-Azịza: Ee. azụmahịa ndị e chebere na-anọgide bụrụ ihe nzuzo kpamkpam.
+Azịza: Ee. Azụmahia nke e chebere echebe na-anọgide na Nzuzo zuru oke.
 
-**Q: Ogologo oge ole ka sync mbụ na-ewe?**
+**Ajụjụ: Ogologo oge ole ka mmekọrịta mbụ na-ewe?**
 
-Azịza: Ọ na-abụkarị nkeji ole na ole kama ịbụ awa ole, dabere n'ụdị ngwaọrụ ị ji ma ọ bụ ihe Ịntanet gị.
+Azịza: Ọ na-adịkarị nkeji ole na ole kama awa, dabere na ngwaọrụ na ịntanetị gị.
 
-** Q: Enwere m ike iji obere akpa tupu syncing agwụ?**
+**Ajụjụ: Enwere m ike iji e-akpa ego tupu mmekọrịta agwụ?**
 
-A: Ee. Pepper Sync na-akwado mmefu tupu mmekọrịta ahụ emechaa, yabụ ịkwesighi ichere ka obere akpa ego rute n'isi agbụ.
+Azịza: Ee. Mmekọrịta Pepper na-akwado imefu ego tupu mmekọrịta agwụ, ya mere ị gaghị echere ka e-akpa ego rute n'elu chain.
 
-## Ihe Ndị A Na-ekwu na Ya
+## Mmechi
 
-Site na Zingo 2.0 Pepper Sync, mmekọrịta abụghịzi isi ihe mgbu nke obere akpa echedoro. Ọ bụ ugbu a ngwa ngwa, kwụsie ike ma nwee enyi-enyi, belata ihe mgbochi maka ndị bịara ọhụrụ wee mee ka ojiji kwa ụbọchị dịkwuo mfe karị.
+Site na Mmekọrịta Pepper Zingo 2.0, mmekọrịta abụghịzi nnukwu ihe isi ike nke e-akpa ego nke e chebere echebe. Ọ dị ugbu a ngwa ngwa, kwụsiri ike, ma dị mfe maka onye ọrụ, na-ebelata ihe mgbochi nye ndị ọhụrụ ma na-eme ka ojiji kwa ụbọchị dịkwuo bara uru.
 
-For users, it means less waiting and more privacy. For developers, it means a stronger foundation to build on. For the Zcash ecosystem, it's another step toward making shielded transactions accessible to everyone.
+Maka ndị ọrụ, ọ pụtara ichere obere oge na Nzuzo karịa. Maka ndị mmepụta, ọ pụtara ntọala siri ike karị nke ha ga-ewu n'elu. Maka gburugburu ebe obibi Zcash, ọ bụ nzọụkwụ ọzọ iji mee ka Azụmahia nke e chebere echebe dịrị mmadụ niile mfe iru.
 
-Zingo 2.0 na Pepper Sync abụghị naanị nkwalite; ọ bụ ihe dị elu maka nzuzo, crypto nwere ike iji.
+Zingo 2.0 nwere Mmekọrịta Pepper abụghị naanị nkwalite; ọ bụ nnukwu ịga n'ihu maka crypto nke nwere Nzuzo ma dị mfe iji.
 
-## Peeji ndị metụtara ya
+## Peeji Ndị Metụtara
 
-- [Zcash Wallet Syncing] (Nke a bụ ihe dị mkpa)](/zcash-tech/zcash-wallet-syncing)  etu akpa ego si arụ ọrụ n'ime usoro okike Zcash.
-- [Nọmba Lightwallet Nodes](/zcash-tech/lightwallet-nodes)  ihe owuwu a na-eji obere akpa ego dị ka Zingo eme.
-- [Zaino](/zcash-tech/zaino)  indexer mepụtara site na Zingo otu.
-- [Ebe ego ndị dị na ya](/wallets)  akwụkwọ ndekọ aha zuru ezu nke obere akpa Zcash na atụmatụ ha.
+- [Zcash Mmekọrịta E-akpa ego](/zcash-tech/zcash-wallet-syncing) — otú mmekọrịta e-akpa ego si arụ ọrụ n'ofe gburugburu ebe obibi Zcash.
+- [Lightwallet Nodes](/zcash-tech/lightwallet-nodes) — akụrụngwa e-akpa ego fechaa dịka Zingo na-emekọrịta megide.
+- [Zaino](/zcash-tech/zaino) — indexer nke otu Zingo mepụtara.
+- [E-akpa ego](/wallets) — ndekọ zuru ezu nke e-akpa ego Zcash na njirimara ha.
 
-## Ịmụtakwu Ihe
+## Ịmụtakwu
 
-- [Zingo! GitHub Ebe nchekwa](https://github.com/zingolabs/zingolib)
-- [Zcash Community Forum] Ọ bụ ihe na-atọ ụtọ.](https://forum.zcashcommunity.com/)
-- Nkwupụta Ndị Ọrụ - [Zingo Labs Twitter](https://twitter.com/ZingoLabs)
+- [Zingo! Ebe Nchekwa GitHub](https://github.com/zingolabs/zingolib)
+- [Zcash Ọgbakọ Obodo](https://forum.zcashcommunity.com/)
+- Ọkwa Gọọmenti - [Zingo Labs Twitter](https://twitter.com/ZingoLabs)
 
 ___
 ___

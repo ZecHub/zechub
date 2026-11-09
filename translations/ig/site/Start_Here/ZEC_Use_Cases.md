@@ -1,27 +1,27 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Start_Here/ZEC_Use_Cases.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Dezie Ibe"/>
 </a>
 
-# Ihe ndị bụ isi nke Zcash
+# Zcash Ihe Ndabere
 
-## Ihe eji eme ihe nke ZEC
+## Ojiji ZEC
 
-#### Ịkwụ Ụgwọ
+#### Kwụọ ụhwọ
 
-People use ZEC to transact efficiently and safely with low fees. Shielded Zcash ensures transactions remain confidential, while also giving them the option to share address and transaction information should they choose to. Private, "Z-Z" transactions appear on the public blockchain so it is known that they occurred and that fees were paid. But, the addresses, transaction amount and memo field are all encrypted and not publicly visible. 
+Ndị mmadụ na-eji ZEC eme Azụmahia n'ụzọ dị irè ma dị nchebe, na ugwo [fees] dị ala. Nke e chebere echebe Zcash na-ahụ na Azụmahia [transactions] na-anọgide na Nzuzo [privacy], ma na-enyekwa ha nhọrọ ịkekọrịta Adreesị akpa ego [address] na ozi Azụmahia ma ọ bụrụ na ha họrọ ime otú ahụ. Azụmahia nzuzo, “Z-Z”, na-apụta na blockchain [blockchain] ọhaneze ka a mara na ha mere nakwa na akwụla ugwo. Mana, Adreesị akpa ego, ego Azụmahia na oghere memo bụcha Nzobe ederede [encrypted] ma ọhaneze enweghị ike ịhụ ha. 
 
-#### Ụlọ Ahịa Bara Uru
+#### Nchekwa Uru
 
-Ndị mmadụ nwekwara ike iji ZEC chekwaa akụ na ụba n'ime ihe siri ike, nke na-echebe nzuzo, akụ. A ga-enwe naanị nde 21 nke ZEC, nke pụtara na akụ ahụ nwere onyinye a kapịrị ọnụ. Ozugbo 21 ndeth ZEC bụ [mined into circulation](https://z.cash/mining-zcash/), the asset will become anti-inflationary. Anti-inflationary assets are a good hedge against inflation in the event that centralized gatekeepers inflate national money supplies.
+Ndị mmadụ nwekwara ike iji ZEC chekwaa akụ n'ime akù siri ike nke na-echebe Nzuzo. A ga-enwe naanị nde 21 nkeji ZEC, nke pụtara na akù ahụ nwere ọnụọgụ a kapịrị ọnụ. Ozugbo e tinyere nde 21 nke ZEC n'ime mgbasa site na [ịgwụputa n'ime mgbasa](https://z.cash/mining-zcash/), akù ahụ ga-abụ nke na-emegide mbufụt ego. Akù ndị na-emegide mbufụt ego bụ ezigbo nchekwa pụọ na mbufụt ego ma ọ bụrụ na ndị nche ọnụ ụzọ etiti abawanye ego mba.
 
-#### Izi ozi
+#### Izi Ozi
 
-Ndị mmadụ nwere ike iji mpaghara memo na azụmahịa Z-Z echekwara iji zipu ozi ezoro ezo. Iji zipu memo, ndị ọrụ ga-agba ọsọ azụmahịa ma kwụọ ụgwọ azụmahịa, nke na-erughị $ 0.01.
+Ndị mmadụ nwere ike iji oghere memo dị na Azụmahia Z-Z nke e chebere echebe ziga ozi e ji Nzobe ederede zuru ezu chebe. Iji zipu memo, ndị ọrụ ga-emerịrị Azụmahia ma kwụọ ugwo Azụmahia, nke na-erughị $0.01.
 
-#### Akụnụba
+#### Akụrụngwa
 
-[The ezoro ezo Memo Ubi](https://electriccoin.co/blog/encrypted-memo-field/)
+[Oghere Memo E Ji Nzobe Ederede Chebe](https://electriccoin.co/blog/encrypted-memo-field/)
 
-[Jiri Zcash kwụọ ụgwọ](https://z.cash/pay-with-zcash/)
+[Kwụọ ụhwọ Site na Zcash](https://z.cash/pay-with-zcash/)
 
-[Ebee ka iji Zcash kwụọ ụgwọ](https://paywithz.cash/)
+[Ebe Ị Ga-eji Zcash Kwụọ ụhwọ](https://paywithz.cash/)

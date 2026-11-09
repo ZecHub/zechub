@@ -1,6 +1,6 @@
 # Zenith 0.10 Beta
 
-Ị ga-achọ zebrad na-agba ọsọ na RPC's enyere
+Ị ga-achọ zebrad na-arụ ọrụ nke nwere RPC arụnyere
 
 # Wụnye NIX
 
@@ -11,7 +11,7 @@ sudo chown -R <username> /nix'
 ```
 
 
-Tinye ihe na-esonụ na ~/.config/nix / nix.conf ma ọ bụ /etc/Nix / Nix.Conf:
+Tinye ihe ndị a na ~/.config/nix/nix.conf ma ọ bụ /etc/nix/nix.conf:
 
 `experimental-features = nix-command flakes`
 
@@ -25,12 +25,11 @@ nix profile install git+https://code.vergara.tech/Vergara_Tech/zenith?ref=master
 
 
 
-# Na-agba ọsọ Zenith
+# Gbaa Zenith
 
 
 `zenithgui`
 
-or
+ma ọ bụ
 
 `zenithserver`
-

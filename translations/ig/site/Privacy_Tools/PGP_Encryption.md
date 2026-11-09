@@ -1,65 +1,65 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Privacy_Tools/PGP_Encryption.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Dezie Ibe"/>
 </a>
 
-# Ezigbo Nzuzo (PGP)
+# Nzuzo Dị Mma Nke Ukwuu [Pretty Good Privacy] (PGP)
 
-Pretty Good Privacy (PGP) is a cryptographic software package that provides secure communication over insecure channels. PGP uses a combination of encryption and digital signatures to ensure that only the intended recipient can read a message and that the sender is who they say they are.
+Pretty Good Privacy (PGP) bụ ngwugwu sọftụwia kriptogafik nke na-enye nkwukọrịta echekwara n'elu ọwa na-enweghị nchekwa. PGP na-eji ngwakọta nke Nzobe ederede [encryption] na signature dijitalụ iji hụ na ọ bụ naanị onye e zubere izigara ozi nwere ike ịgụ ya, nakwa na onye zitere ozi bụ onye ọ na-ekwu na ọ bụ.
 
-## Ngwá Ọrụ Ndị E Nwere
+## Ngwá ọrụ Dị
 
-Enwere ọtụtụ ngwaọrụ PGP dị iche iche, mana ụfọdụ n'ime ndị kachasị ewu ewu gụnyere:
+Enwere ọtụtụ ngwá ọrụ PGP dị iche iche, mana ụfọdụ n'ime ndị kacha ewu ewu gụnyere:
 
-* ** [GPG](https://gpgtools.org/)**: GPG bụ mmejuputa iwu PGP n'efu na nke mepere emepe nke dị maka Windows, macOS, na Linux.
-* **[PGPMail](https://www.openpgp.org/software/)**: PGPMail bụ onye ahịa PGP email nke dị maka Windows na macOS.
-* ** [Envelopu ozi](https://www.comparitech.com/blog/information-security/pgp-encryption-gmail/)**: Mailvelope bụ free na-emeghe-isi iyi PGP ndọtị maka Gmail na Thunderbird.
+* **[GPG](https://gpgtools.org/)**: GPG bụ mmejuputa PGP n'efu na nke mepere emepe nke dị maka Windows, macOS, na Linux.
+* **[PGPMail](https://www.openpgp.org/software/)**: PGPMail bụ onye ahịa email PGP azụmahịa nke dị maka Windows na macOS.
+* **[Mailvelope](https://www.comparitech.com/blog/information-security/pgp-encryption-gmail/)**: Mailvelope bụ mgbatị PGP n'efu na nke mepere emepe maka Gmail na Thunderbird.
 
-![Ngwaọrụ PGP](/content-images/44984a75-800a-4f7a-94a5-88827e39b431-c66ef53a2b.webp)
+![PGP Tools](/content-images/44984a75-800a-4f7a-94a5-88827e39b431-c66ef53a2b.webp)
 
-## Ụzọ Isi Mepụta Igodo
+## Otu Esi Emepụta Igodo
 
-Iji jiri PGP, ịkwesịrị ịmepụta ụzọ abụọ nke igodo: Otu esi emepụta igodo PGP:
+Iji PGP, ị ga-emepụta otu ụzọ igodo: Nke a bụ otu esi emepụta igodo PGP:
 
-1. Mepee ngwanrọ PGP gị.
-2. Pịa na bọtịnụ "Generate Key".
-3. Tinye aha gị na adreesị email gị.
-4. Họrọ ogologo mkpịsị ugodi ahụ. Ka ogologo ọ na-adịru, otú ahụ ka ọ ga-esi dịkwuo nchebe.
-5. Pịa na bọtịnụ "Generate".
+1. Mepee sọftụwia PGP gị.
+2. Pịa bọtịnụ “Mepụta Igodo”.
+3. Tinye aha na adreesị email gị.
+4. Họrọ ogologo igodo. Ka ogologo igodo si dị ogologo, ka igodo gị ga-adị nchebe karị.
+5. Pịa bọtịnụ “Mepụta”.
 
-A ga-emepụta PGP gị.
+A ga-emepụta ụzọ igodo PGP gị.
 
-![Mepụta Igodo](/content-images/15721ce1-0a77-4ebe-87f4-33e1455f2a40-7699b1771d.webp)
+![Generate Keys](/content-images/15721ce1-0a77-4ebe-87f4-33e1455f2a40-7699b1771d.webp)
 
-## Otu esi eji PGP maka Email
+## Otu Esi Eji PGP Maka Email
 
-Once you have generated a PGP key pair, you can use it to encrypt and decrypt emails. To encrypt an email, you need to know the public key of the recipient. You can then use your PGP tool to encrypt the email using the recipient's public key.
+Ozugbo i mepụtara ụzọ igodo PGP, ị nwere ike iji ya zoo ma kpọghee email. Iji zoo email, ị ga-amarịrị igodo ọha nke onye nnata. Ị nwere ike iji ngwá ọrụ PGP gị zoo email ahụ site n'iji igodo ọha nke onye nnata.
 
-Email ahụ ezoro ezo agaghị enwe ike ịgụ onye ọ bụla na-enweghị igodo nzuzo nke onye nnata. Iji decrypt email ahụ, onye natara ya nwere ike iji igodo onwe ya mepee email ahụ.
+Email ezoro ezo agaghị ekwe omume ka onye ọ bụla na-enweghị igodo nzuzo nke onye nnata gụọ. Iji kpọghee email ahụ, onye nnata nwere ike iji igodo nzuzo ya kpọghee email ahụ.
 
-![Email PGP](/content-images/dafb761d-f399-40c9-9323-526ba3bd0bc4-98503ad98b.webp)
+![PGP Email](/content-images/dafb761d-f399-40c9-9323-526ba3bd0bc4-98503ad98b.webp)
 
-## Omume Kasị Mma
+## Omume Kachasị Mma
 
-Ndị a bụ ụfọdụ usoro kachasị mma maka iji PGP:
+Ndị a bụ ụfọdụ omume kacha mma maka iji PGP:
 
-* Keep your private key safe. The private key is the most important part of your PGP key pair. If someone gets your private key, they can decrypt any messages that have been encrypted with your public key.
+* Debe igodo nzuzo gị n'enweghị nsogbu. Igodo nzuzo bụ akụkụ kachasị mkpa nke ụzọ igodo PGP gị. Ọ bụrụ na mmadụ enweta igodo nzuzo gị, ọ nwere ike kpọghee ozi ọ bụla e zoro site n'iji igodo ọha gị.
 
-![Ihe Omume Kasị Mma 1](/content-images/39a6fae4-a9a1-4061-a97c-4a9b975f6383-eced005c8b.webp)
+![Best Practices 1](/content-images/39a6fae4-a9a1-4061-a97c-4a9b975f6383-eced005c8b.webp)
 
-![Ihe Ndị Kasị Mma 2](/content-images/6c15d6bb-556b-4ff5-b647-3363c8cbb8fd-50ca49a070.webp)
+![Best Practices 2](/content-images/6c15d6bb-556b-4ff5-b647-3363c8cbb8fd-50ca49a070.webp)
 
-* Kekọrịta igodo ọha gị na ndị ị tụkwasịrị obi. Ị nwere ike ịkekọrịta igodi ọha gị site n'iziga ha ya ozugbo, ma ọ bụ site na ibugo ya na PGP keyserver.
-* Jiri okwuntughe siri ike maka keyring PGP gị. Keyring gị bụ faịlụ nke na-echekwa igodo PPG gị. Ọ dị mkpa iji okwuntughari siri ike iji chebe faịlụ a.
-* Debe ngwanrọ PGP gị ka ọ dị ugbu a. A na-emelite ngwanro PGP mgbe niile iji dozie ahụhụ ma melite nche. Ọ dị mkpa ka ị debe ngwanrọ gị ka oge wee hụ na ị na-eji atụmatụ nchebe kachasị ọhụrụ.
+* Soro ndị ị tụkwasịrị obi kesaa igodo ọha gị. Ị nwere ike kesaa igodo ọha gị site n'izigara ha ya ozugbo, ma ọ bụ site n'ibugo ya na sava igodo PGP.
+* Jiri okwuntughe siri ike maka mgbanaka igodo PGP gị. Mgbanaka igodo PGP gị bụ faịlụ na-echekwa igodo PGP gị. Ọ dị mkpa iji okwuntughe siri ike chebe faịlụ a.
+* Debe sọftụwia PGP gị ka ọ bụrụ nke emelitere. A na-emelite sọftụwia PGP mgbe niile iji dozie njehie ma melite nchekwa. Ọ dị mkpa idobe sọftụwia gị ka ọ bụrụ nke emelitere iji hụ na ị na-eji atụmatụ nchekwa kachasị ọhụrụ.
 
-## Otu esi eji PGP zoo ozi email
+## Otu Esi Zoo Email Site na PGP
 
-* Mepee ngwanrọ PGP gị.
-* Mepee ozi-e ịchọrọ izo ya ezo.
-* Pịa na bọtịnụ "Encrypt".
+* Mepee sọftụwia PGP gị.
+* Mepee email ịchọrọ izo.
+* Pịa bọtịnụ “Zoo”.
 * Tinye igodo ọha nke onye nnata.
-* Pịa na bọtịnụ "Encrypt".
-* E-mail ahụ ga-abụ nke ezoro ezo.
+* Pịa bọtịnụ “Zoo”.
+* A ga-ezo email ahụ.
 
 ![Encrypt Email](/content-images/a06cd9da-8bc8-45e0-ae2b-83e45aa8163e-6edd4a03ea.webp)
 
@@ -67,13 +67,13 @@ Ndị a bụ ụfọdụ usoro kachasị mma maka iji PGP:
 
 ![Encryption Flow](/content-images/da1499e9-fc87-46b2-93ed-28d43cf1fd86-86fdc87d10.webp)
 
-## Otu esi edozi ozi-e na PGP
+## Otu Esi Kpọghee Email Site na PGP
 
-* Mepee ngwanrọ PGP gị.
-* Mepee ozi-e ezoro ezo.
-* Pịa na bọtịnụ "Decrypt".
+* Mepee sọftụwia PGP gị.
+* Mepee email ezoro ezo.
+* Pịa bọtịnụ “Kpọghee”.
 * Tinye igodo nzuzo gị.
-* Pịa na bọtịnụ "Decrypt".
-* A ga-emechi ozi email ahụ.
+* Pịa bọtịnụ “Kpọghee”.
+* A ga-akpọghe email ahụ.
 
-![Kọwaa Email](/content-images/beae714c-020f-4c1e-aa4f-3dd9430670cc-1e9d38f1ef.webp)
+![Decrypt Email](/content-images/beae714c-020f-4c1e-aa4f-3dd9430670cc-1e9d38f1ef.webp)

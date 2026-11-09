@@ -2,90 +2,90 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Ònye Pụrụ Ịhụ Ụgwọ Zcash Gị?
+# Ònye Pụrụ Ịhụ Kwụọ ụhwọ [Payment] Zcash Gị?
 
-## TL;DR
+## Nchịkọta ngwa ngwa
 
-- Zcash na enye gi ** ụdị adreesị abụọ: uzo (`t`) na ndị e chebere (`z` or `u`).
-- Ihe ọha na eze ga-ahụ dabere n'ụdị ego ịkwụ ụgwọ gị si aga.
-- Naanị ịkwụ ụgwọ a na-ekpuchi ekpuchi ka ọ bụrụ nke e kpuchiri ekpuchi ga-ezobe onye zitere ya, onye natara ya nakwa ego ole o ruru.
-- Adreesị echedoro abụghị otu igodo. Ọ bụ obere set nke mkpịsị ugodi, ị nwere ike inye ** naanị-agụ ohere na-enweghị enyefe ikike iji nọrọ**.
-- Igodo nlele ** enweghị ike iweghachite ya** ozugbo ị kesara ya.
+- Zcash na-enye gị **ụdị Adreesị akpa ego [address] abụọ**: Oha [transparent] (`t`) na nke e chebere echebe [shielded] (`z` ma ọ bụ `u`).
+- Ogo ihe ọhaneze na-ahụ dabere n’ụdị ndị Kwụọ ụhwọ gị na-agafe n’etiti ha.
+- Naanị Kwụọ ụhwọ **site na nke e chebere echebe gaa na nke e chebere echebe** na-ezo onye zitere ya, onye natara ya, na ego ole ọ bụ.
+- Adreesị akpa ego nke e chebere echebe abụghị otu igodo. Ọ bụ obere nchịkọta igodo, ị nwekwara ike inye **nnweta naanị ịgụ ihe n’enyeghị ike imefu ego**.
+- Enweghị ike iweghachi viewing key ozugbo ị kesara ya.
 
 ---
 
-## Ihe mbụ ị ga-aghọta bụ:
+## Otu ihe ị ga-ebu ụzọ ghọta
 
-N'ọtụtụ blockchains, ị nweghị nhọrọ ọ bụla. Ihe niile i zipụrụ bụ nke ọha na eze ruo mgbe ebighi ebi nye onye ọbụla lere anya.
+N’ọtụtụ blockchain, enweghị nhọrọ ị ga-eme. Ihe niile ị zitere bụ nke ọhaneze, ruo mgbe ebighị ebi, nye onye ọ bụla lere anya.
 
-Zcash na-enye gị nhọrọ kama. A họọrọ nke ahụ ugboro abụọ: ** otu mgbe ị na - ahọpụta adreesị izipu, yana oge ọzọ mgbe ị kpebiri onye ga - enweta igodo iji gụọ akụkọ ihe mere eme gị.**
+Zcash na-enye gị nhọrọ kama nke ahụ. A na-eme nhọrọ ahụ ugboro abụọ: **otu ugboro mgbe ị họrọ Adreesị akpa ego ị ga-ezigara, otu ugboro ọzọ mgbe ị kpebiri onye ga-enweta igodo iji gụọ akụkọ gị.**
 
-Foto dị n'okpuru ebe a na-egosi ha abụọ.
+Foto dị n’okpuru na-ekpuchi ha abụọ.
 
 ![Zcash key types and what a block explorer can see for each of the four transaction paths](/content-images/who-can-see-your-zcash-payment-04d41ac960.webp)
 
 ---
 
-## Nhọrọ nke mbụ: adreesị dị aṅaa ?
+## Nhọrọ nke mbụ: Adreesị akpa ego nke ị ga-eji
 
-Ịkwụ ụgwọ Zcash ọ bụla na-agagharị n'etiti adreesị abụọ, nke ọbụla nwere ike ịbụ ihe doro anya maọbụ kpuchie ya. Nke ahụ nyere ụzọ anọ, onye ọbụla na-agbapụkwa ego dị iche.
+Kwụọ ụhwọ Zcash ọ bụla na-agagharị n’etiti Adreesị akpa ego abụọ, nke ọ bụla nwekwara ike ịbụ Oha ma ọ bụ nke e chebere echebe. Nke a na-enye ụzọ anọ, nke ọ bụla na-ekpughe ego dị iche.
 
-Ụkpụrụ a dị mfe karịa ka ọ na-adị: **ihe ọbụla metụrụ adreesị doro anya ga-abụ nke ọha.** Ịkwụ ụgwọ n'ime ọdọ mmiri ahụ echekwara ụzọ niile anaghị ekpughe ihe ọzọ ma e wezụga ego.
+Ụkpụrụ ahụ dị mfe karịa ka ọ dị: **ihe ọ bụla metụrụ Adreesị akpa ego Oha aghọọ nke ọhaneze.** Kwụọ ụhwọ nke nọrọ n’ime pool nke e chebere echebe n’ụzọ ya dum anaghị ekpughe ihe ọ bụla ma e wezụga ugwo [fee].
 
-Nke a dị mkpa mgbe ị na-ewepụ ego site n'ịgbanwe. Ọtụtụ mgbanwe naanị zipu ka uzo, ya mere ndọrọ bụ ọha na eze. Chebe onwe gị ozugbo ha rutere, tupu i jiri ha mee ihe.
+Nke a kacha dị mkpa mgbe ị na-ewepụ ego n’ụlọ exchange. Ọtụtụ exchange na-eziga naanị na Adreesị akpa ego Oha, ya mere iwepụ ego ahụ bụ nke ọhaneze. Chebe ego ahụ n’onwe gị ozugbo ọ bịarutere, tupu i mefuo ya.
 
-Maka ileba anya nke ọma n'ihe onye na-eme nchọpụta gụrụ, lee [Ihe onye na-enyocha ogige nwere ike ịhụ](/zcash-tech/what-a-block-explorer-can-see).
-
----
-
-## Nhọrọ nke abụọ: onye ga-enweta mkpịsị ugodi.
-
-Privacy that you can never lift is not useful. Sometimes you need to prove something to an accountant, an auditor, or a tax office. Zcash handles this without asking you to give up control.
-
-**Mkpịsị ugodi mmefu.** Na-ahụ ihe niile ma na-ebugharị ego. Nke a bụ ego ahụ. Ọ ga-anọnyere gị, ọ dịghịkwa onye ọzọ e keere ya n'ihi ihe ọ bụla.
-
-** Igodo nlele zuru oke (Full Viewing Key).** Ọ bụ naanị ịgụ. Na-egosi ọrụ na ihe ndị ọzọ, mana enweghị ike imefu otu zatoshi ọ bụla. Nke a ka ị ga - enye onye nyocha maọbụ akaụntụ gị.
-
-** Igodo nlele na-abata (Incoming Viewing Key). * Nke ka dị warara: ọ na - egosi naanị ịkwụ ụgwọ ndị rutere. Exchange ma ọ bụ onye ahịa nwere ike ịgba ọsọ a iji kwado nkwụnye ego gị, ebe igodo mmefu ahụ nọgidere na ngwaike nke anaghị emetụ ịntanetị aka.
-
-Ihe dị mkpa bụ otú e si hazie ya. Nye mkpịsị ugodi nke kasị dịrị gị nso, ọ bụghị nke kachasị gị obosara.
+Maka ilebakwu anya nke ọma n’ihe kpọmkwem onye nyocha na-agụ, lee [Ihe onye nyocha block pụrụ ịhụ](/zcash-tech/what-a-block-explorer-can-see).
 
 ---
 
-## Akụkụ ndị na-amalite amalite anaghị ahụ anya.
+## Nhọrọ nke abụọ: onye na-enweta igodo
 
-**Enweghị ike iweghachite igodo nlele.** Enweghi bọtịnụ "ịkwụsị ịkekọrịta". Ozugbo mmadụ nwere ya, ha nwere ike ịgụ adreesị ahụ ma ọ bụrụhaala na ọ dị. Ọ bụrụ na ịchọrọ ịkwụsị ịnweta ohere, ị ga-ebufe ego gị gaa na adreesì ọhụrụ.
+Nzuzo [privacy] nke ị na-enweghị ike iwepụ adịghị aba uru. Mgbe ụfọdụ, ị ga-achọ igosi onye na-ahụ maka ndekọ ego, onye nyocha, ma ọ bụ ụlọ ọrụ ụtụ isi ihe. Zcash na-eme nke a n’emeghị ka ị hapụ ikike ịchịkwa ya.
 
-**Akwụ ụgwọ ndị a na-ekpughe n'ihu ọha ọbụna mgbe ị kwụrụ ego zuru ezu.** Ego ahụ zoro ezo; ọ bụghị ego.
+**Igodo ego [spending key].** Ọ na-ahụ ihe niile ma na-ebugharị ego. Nke a bụ ego ahụ. Ọ na-anọnyere gị, a naghị ekesakwa ya onye ọ bụla, n’ihi ihe ọ bụla.
 
-** Ọha bụ ihe na-adịgide adịgide.** Ihe ọ bụla agbụ ahụ gosipụtara taa, ọ ga-egosi n'ime afọ iri abụọ. Ikpebi ichebe ịkwụ ụgwọ * mgbe * i zipụrụ ya abụghị ihe ị nwere ike ime.
+**Full Viewing Key.** Naanị ịgụ ihe. Ọ na-egosi ihe omume nbata na ọpụpụ na nha ego, mana enweghị ike imefu ọbụna otu zatoshi. Nke a bụ ihe ị na-enye onye nyocha ma ọ bụ onye na-ahụ maka ndekọ ego.
 
----
+**Incoming Viewing Key.** Ọ dịkwa warara karịa: ọ na-egosi naanị Kwụọ ụhwọ ndị na-abata. Exchange ma ọ bụ onye ahịa nwere ike iji nke a kwado na nkwụnye ego gị rutere, ebe Igodo ego na-anọ n’akụrụngwa na-adịghị emetụ ịntanetị aka.
 
-## Mee ihe ị mụtara eme .
-
-- Jiri obere akpa ego nke na-echebe site na ndabara, dị ka [ZODL .](https://zodl.com) or [Zingo!](https://www.zingolabs.org/).
-- Chekwa ego ozugbo ha si n'ụlọ ahịa ahụ rute, tupu a na-emefu ya.
-- Na-akwụ ụgwọ na adreesị echedoro mgbe ọ bụla onye natara ya kwadoro otu.
-- Tupu i nye onye ọzọ igodo e ji ele ihe anya, jụọ ya nke kacha obere ma zaa ajụjụ ahụ a jụrụ.
+Usoro ahụ dị mkpa. Nye igodo kacha warara nke na-arụ ọrụ ahụ, ọ bụghị nke kacha sara mbara ị nwere.
 
 ---
 
-## Akụnụba
+## Akụkụ ndị mbido anaghị aghọta
 
-- [Nkọwa igodo nlele (Electric Coin Company)](https://electriccoin.co/blog/explaining-viewing-keys/)
-- [Nhọrọ ngosi na igodo nlele (Electric Coin Company)](https://electriccoin.co/blog/viewing-keys-selective-disclosure/)
-- [ZIP 310: Igodo nlele](https://zips.z.cash/zip-0310)
-- [Etu teknụzụ Zcash si arụ ọrụ](https://z.cash/technology/)
+**Enweghị ike kagbuo viewing key.** Enweghị bọtịnụ “megharịa ikesa”. Ozugbo mmadụ nwetara ya, ọ nwere ike ịgụ Adreesị akpa ego ahụ ogologo oge ọ bụla ọ dị. Ọ bụrụ na ịchọrọ ịkwụsị nnweta, bugharịa ego gị gaa na Adreesị akpa ego ọhụrụ.
+
+**Ugwo bụ nke ọhaneze ọbụna na Kwụọ ụhwọ e chebere echebe kpamkpam.** Ezochiri ego ole ọ bụ; ugwo ahụ anaghị ezo.
+
+**Ihe ọhaneze na-adịgide.** Ihe ọ bụla chain [chain] na-egosi taa, ọ ga-egosi n’ime afọ 20. Ikpebi ichebe Kwụọ ụhwọ *mgbe* izigasịrị ya abụghị ihe ị pụrụ ime.
+
+---
+
+## Tinye ya n’ọrụ
+
+- Jiri e-akpa ego [wallet] na-echebe ego na ndabara, dịka [ZODL](https://zodl.com) ma ọ bụ [Zingo!](https://www.zingolabs.org/).
+- Chebe ego ozugbo ha sitere na exchange bịarute, tupu i mefuo ha.
+- Kwụọ ụhwọ gaa na Adreesị akpa ego nke e chebere echebe mgbe ọ bụla onye nnata na-akwado ya.
+- Tupu ikesa viewing key, jụọ igodo kacha nta nke na-aza ajụjụ a na-ajụ.
+
+---
+
+## Akụrụngwa
+
+- [Nkọwa viewing keys (Electric Coin Company)](https://electriccoin.co/blog/explaining-viewing-keys/)
+- [Mpughe ahọpụtara [selective disclosure] na viewing keys (Electric Coin Company)](https://electriccoin.co/blog/viewing-keys-selective-disclosure/)
+- [ZIP 310: Viewing keys](https://zips.z.cash/zip-0310)
+- [Ka teknụzụ Zcash si arụ ọrụ](https://z.cash/technology/)
 
 ## Peeji ndị metụtara ya
 
-- [Ihe ndị bụ isi nke Zcash](/start-here/what-is-zec-and-zcash)
-- [Zcash ọhụrụ nduzi onye ọrụ](/start-here/new-user-guide)
-- [Ihe onye na-enyocha ogige nwere ike ịhụ](/zcash-tech/what-a-block-explorer-can-see)
-- [Igodo nlele](/zcash-tech/viewing-keys)
-- [Ihe ndị e mere eme](/using-zcash/transactions)
+- [Ntọala Zcash](/start-here/what-is-zec-and-zcash)
+- [Ntuziaka onye ọrụ ọhụrụ Zcash](/start-here/new-user-guide)
+- [Ihe onye nyocha block pụrụ ịhụ](/zcash-tech/what-a-block-explorer-can-see)
+- [Viewing keys](/zcash-tech/viewing-keys)
+- [Azụmahia transactions](/using-zcash/transactions)
 
 ---
 
-*Ọ bụrụ na ịchọrọ ịgbakwunye ma ọ bụ tụọ aro ndezi maka ibe wiki a, biko gaa n'isi nke [ZecHub GitHub repo](https://github.com/ZecHub/zechub) ma nye arịrịọ ịdọrọ.*
+*Ọ bụrụ na ịchọrọ itinye ma ọ bụ tụọ aro mgbanwe na peeji wiki a, biko gaa na repo [ZecHub GitHub](https://github.com/ZecHub/zechub) wee zipụ pull request.*

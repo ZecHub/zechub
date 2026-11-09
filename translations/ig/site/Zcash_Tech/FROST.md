@@ -4,152 +4,151 @@
 # FROST
 
 
-## TL;DR
+## Na nkenke
 
-* FROST (Flexible Round-Optimised Schnorr Threshold Signatures) is a threshold signature and distributed key generation protocol: several signers each hold a share of a common private key, and a threshold number of them must cooperate to produce one signature.
-* N'ihi na nsonaazụ ya bụ otu mbinye aka Schnorr, azụmahịa a mere n'ụzọ dị otú a yiri azụmahịa nkịtị na netwọk.
-* Ọ na-achọ obere mkparịta ụka, nwere ike ịgba ọsọ n'otu oge, ma nwee ike ịchọpụta ma wepụ onye sonyere na-adịghị mma.
-* For Zcash, this means FROST enables multiple, geographically separated parties to control the spend authority of shielded ZEC — useful for custody, escrow, non-custodial services, and Zcash Shielded Assets (ZSA).
-* Ọ bụ Chelsea Komlo (mahadum nke Waterloo, Zcash Foundation) na Ian Goldberg (Mahadum Waterloo) mepụtara ya.
+* FROST (Signature Oke Ọnụọgụ Schnorr Nke Emebere Maka Oge) bụ signature oke ọnụọgụ na usoro imepụta igodo ekesara ekesa: ọtụtụ ndị na-abinye aka n'aka na-ejide òkè nke otu igodo nzuzo, ma ọnụ ọgụgụ a kara aka n'ime ha ga-arụkọ ọrụ iji mepụta otu signature.
+* N'ihi na nsonaazụ ya bụ otu Schnorr signature, Azụmahia e mere n'ụzọ a na-adị ka Azụmahia nkịtị na netwọkụ.
+* Ọ chọrọ obere oge nkwukọrịta, ọ nwere ike ịrụ ọrụ n'otu oge, ma nwee ike ịchọpụta ma wepụ onye sonyere na-adịghị akpa àgwà ọma.
+* Maka Zcash, nke a pụtara na FROST na-enyere ọtụtụ ndị dị n'ebe dị iche iche aka ijikwa ikike imefu nke ZEC nke e chebere echebe — nke bara uru maka nlekọta ego, escrow, ọrụ ndị na-abụghị Onye nlekota, na Zcash Shielded Assets (ZSA).
+* Chelsea Komlo (Mahadum Waterloo, Zcash Foundation) na Ian Goldberg (Mahadum Waterloo) mepụtara ya.
 
-## Isi Nkọwa
+## Nkọwa Isi
 
-### Gịnị bụ akara Schnorr?
+### Gịnị bụ Schnorr signature?
 
-Ntinye aka dijitalụ Schnorr bụ usoro nke algọridim: (KeyGen, Sign, Verify).
+Schnorr signature dijitalụ bụ otu algọridim: (KeyGen, Sign, Verify).
 
-Schnorr signatures have several advantages. One key advantage is that when multiple keys are used to sign the same message, the resulting signatures can be combined into a single signature. This can significantly reduce the size of multisig payments and other multisig-related transactions.
+Schnorr signature nwere ọtụtụ uru. Otu uru dị mkpa bụ na mgbe eji ọtụtụ igodo binye otu ozi aka, enwere ike ijikọta signature ndị si na ya pụta ka ọ bụrụ otu signature. Nke a nwere ike ibelata oke Kwụọ ụhwọ multisig na Azụmahia ndị ọzọ metụtara multisig nke ukwuu.
 
 ### Gịnị bụ FROST?
 
-** Mgbanwe gburugburu-kachasị Schnorr Threshold Signatures ** -
-* Onye mepụtara ya bụ Chelsea Komlo (mahadum nke Waterloo, Zcash Foundation) & Ian Goldberg (Mahadum Waterloo).*
+**Signature Oke Ọnụọgụ Schnorr Nke Emebere Maka Oge** -
+*Chelsea Komlo (Mahadum Waterloo, Zcash Foundation) na Ian Goldberg (Mahadum Waterloo) mepụtara ya.*
 
-FROST bụ mbinye aka na-eme ka a na-ekesa usoro nhazi nke na-achọ obere nkwurịta okwu ma nwee ike ịgba ọsọ n'otu oge. FROST protocol bụ mbipute nke Schnorr signature scheme.
+FROST bụ signature oke ọnụọgụ na usoro imepụta igodo ekesara ekesa nke chọrọ obere oge nkwukọrịta ma nwee ike ịrụ ọrụ n'otu oge. Usoro FROST bụ ụdị oke ọnụọgụ nke atụmatụ signature Schnorr.
 
-N'adịghị ka mbinye aka na ntọala otu-onye, mbinye akwụkwọ ọnụ ụzọ chọrọ nkwado n'etiti ọnụ ọgụgụ ọnụ ọgụgụ nke ndị na-edebanye aha, onye ọ bụla na-ejide òkè nke otu igodo nzuzo.
+N'adịghị ka signature n'ọnọdụ otu onye, signature oke ọnụọgụ chọrọ mmekorita n'etiti ọnụ ọgụgụ a kara aka nke ndị na-abinye aka n'aka, onye ọ bụla na-ejide òkè nke otu igodo nzuzo.
 
-[Gịnị bụ Nkwekọrịta Threshold? Chelsea Komlo - Zcon3](https://youtu.be/cAfTTfblzoU?t=110)
+[Gịnị bụ Signature Oke Ọnụọgụ? Chelsea Komlo - Zcon3](https://youtu.be/cAfTTfblzoU?t=110)
 
-Consequently, generating signatures in a threshold setting incurs overhead due to network rounds among signers, making it costly when secret shares are stored on network-limited devices or when coordination occurs over unreliable networks.
+N'ihi ya, imepụta signature n'ọnọdụ oke ọnụọgụ na-ebute mgbakwunye ọrụ n'ihi oge netwọkụ n'etiti ndị na-abinye aka n'aka, nke na-eme ka ọ dị ọnụ mgbe echekwara òkè nzuzo n'ime ngwaọrụ nwere oke netwọkụ ma ọ bụ mgbe nhazi na-eme n'elu netwọkụ ndị na-enweghị ntụkwasị obi.
 
-Network overhead during signing operations is reduced by employing a novel technique that protects against forgery attacks and is applicable to other schemes as well.
+A na-ebelata mgbakwunye ọrụ netwọkụ n'oge ọrụ ịbanye aka site n'iji usoro ọhụrụ na-echebe megide mwakpo ụgha ma nwekwara ike itinye n'ọrụ n'atụmatụ ndị ọzọ.
 
-FROST improves threshold signature protocols by allowing an unlimited number of signature operations to be performed safely in parallel (concurrency).
+FROST na-eme ka usoro signature oke ọnụọgụ ka mma site n'ikwe ka e rụọ ọnụ ọgụgụ na-enweghị oke nke ọrụ signature n'enweghị nsogbu n'otu oge (concurrency).
 
-It can be used as either a 2-round protocol, where signers send and receive 2 messages in total, or as an optimised single-round signing protocol with a preprocessing stage.
+Enwere ike iji ya dị ka usoro nke oge 2, ebe ndị na-abinye aka n'aka na-eziga ma nata ozi 2 n'ozuzu, ma ọ bụ dị ka usoro ịbanye aka nke otu oge emeziworo nke nwere ọkwa nhazi tupu oge eruo.
 
-FROST achieves its efficiency improvements in part by allowing the protocol to abort in the presence of a misbehaving participant, who is then identified and excluded from future operations.
+FROST na-enweta mmelite arụmọrụ ya n'akụkụ ụfọdụ site n'ikwe ka usoro ahụ kwụsị ma ọ bụrụ na onye sonyere na-adịghị akpa àgwà ọma nọ, nke a na-achọpụta ma wepụ ya n'ọrụ ndị ga-abịa.
 
-Proofs of security demonstrating that FROST is secure against chosen-message attacks, assuming the discrete logarithm problem is hard, and the adversary controls fewer participants than the threshold, are provided [here](https://eprint.iacr.org/2020/852.pdf#page=16).
+A na-enye proofs nchekwa na-egosi na FROST nwere nchekwa megide mwakpo ozi a họọrọ, ma ọ bụrụ na nsogbu logarithm discrete siri ike, na onye mmegide na-achịkwa ndị sonyere dị ole na ole karịa oke ọnụọgụ, [ebe a](https://eprint.iacr.org/2020/852.pdf#page=16).
 
-### How does FROST work?
+### Kedu ka FROST si arụ ọrụ?
 
-Usoro iwu FROST nwere ihe abụọ dị mkpa:
+Usoro FROST nwere akụkụ abụọ dị mkpa:
 
-First, n participants run a distributed key generation (DKG) protocol to generate a common verification key. At the end, each participant obtains a private secret key share and a public verification key share.
+Nke mbụ, ndị sonyere n na-eme usoro imepụta igodo ekesara ekesa (DKG) iji mepụta otu igodo nkwenye. Na ngwụcha, onye sonyere ọ bụla na-enweta òkè igodo nzuzo na òkè igodo nkwenye ọha.
 
-Mgbe nke ahụ gasịrị, onye ọ bụla t-nke-n nwere ike ịgba ọsọ ntinye aka n'ókè iji rụkọta ọrụ wee mepụta mbinye aka Schnorr.
+Mgbe e mesịrị, ndị sonyere t-n'ime-n ọ bụla nwere ike ịme usoro ịbanye aka oke ọnụọgụ iji rụkọọ ọrụ mepụta signature Schnorr ziri ezi.
 
 <a href="">
     <img src="/content-images/1634081807-frost-flexible-round-optimize-3697a713d9.webp" alt="" width="400" height="300"/>
 </a>
 
-## Anya / Nkọwapụta
+## Ihe Nlereanya / Ntụnyere
 
-Think of FROST like a safe-deposit box that opens only when several authorised keyholders turn their keys together — but not every keyholder is required; just a set number (for example, any 3 of 5). Once the box is open, an outside observer cannot tell which keyholders showed up, or even that more than one was involved. In the same way, a group can jointly authorise a Zcash transaction while the network sees only one ordinary-looking signature.
+Chee FROST dịka igbe nchekwa nke na-emeghe naanị mgbe ọtụtụ ndị ejidere igodo nwere ikike tụgharịrị igodo ha ọnụ — mana ọ bụghị onye ọ bụla ji igodo ka achọrọ; naanị ọnụ ọgụgụ e debere (dịka ọmụmaatụ, 3 n'ime 5 ọ bụla). Ozugbo igbe ahụ mepere, onye na-ekiri n'èzí enweghị ike ịmata ndị ji igodo pụtara, ma ọ bụ ọbụna na ihe karịrị otu onye sonyere. N'otu ụzọ ahụ, otu nwere ike ikwenye Azụmahia Zcash ọnụ ebe netwọkụ na-ahụ naanị otu signature dị ka nke nkịtị.
 
-## Ịbanye n'Okpuru Mmiri
+## Nkọwa Miri Emi
 
-** Nkesa isi ọgbọ (DKG) **
+**Imepụta igodo ekesara ekesa (DKG)**
 
-Ebumnuche nke usoro a bụ ịmepụta ihe nzuzo nzuzo na-adịru ogologo oge na igodo nyocha. Nke a na-agba ọsọ site n ndị sonyere.
+Ebumnuche nke ọkwa a bụ imepụta òkè igodo nzuzo na-adịte aka na otu igodo nkwenye. Ndị sonyere n na-eme ọkwa a.
 
-FROST builds its own key generation phase on Pedersen's DKG (GJKR03), which uses both Shamir's secret sharing and Feldman's verifiable secret sharing schemes as subroutines. In addition, each participant must demonstrate knowledge of their own secret by sending a zero-knowledge proof to the other participants, which is itself a Schnorr signature. This additional step protects against rogue-key attacks when t ≥ n/2.
+FROST na-ewu ọkwa imepụta igodo nke ya n'elu DKG Pedersen (GJKR03), nke na-eji ma nkekọrịta nzuzo Shamir na atụmatụ nkekọrịta nzuzo Feldman a na-enyocha anya dịka usoro enyemaka. Tụkwasị na nke ahụ, onye sonyere ọ bụla ga-egosi na ọ maara nzuzo nke ya site n'iziga zero-knowledge proof nye ndị sonyere ndị ọzọ, nke n'onwe ya bụ signature Schnorr. Nzọụkwụ mgbakwunye a na-echebe megide mwakpo igodo aghụghọ mgbe t ≥ n/2.
 
-At the end of the DKG protocol, a joint verification key vk is generated. Each participant Pᵢ holds a value (i, skᵢ ) that is their long-lived secret share and a verification key share vkᵢ = skᵢ *G. Participant Pᵢ's verification key share vkᵢ is used by other participants to verify the correctness of Pᵢ's signature shares during the signing phase, while the verification key vk is used by external parties to verify signatures issued by the group.
+Na ngwụcha usoro DKG, a na-emepụta otu igodo nkwenye vk. Onye sonyere ọ bụla Pᵢ na-ejide uru (i, skᵢ ) nke bụ òkè nzuzo ya na-adịte aka na òkè igodo nkwenye vkᵢ = skᵢ *G. Ndị sonyere ndị ọzọ na-eji òkè igodo nkwenye Pᵢ, vkᵢ, nyochaa izi ezi nke òkè signature Pᵢ n'oge ọkwa ịbanye aka, ebe ndị ọzọ n'èzí na-eji igodo nkwenye vk nyochaa signature otu ahụ nyere.
 
-** Ntinye aka n'ọnụ ụzọ**
+**Ịbanye Aka Oke Ọnụọgụ**
 
-This phase builds upon known techniques that employ additive secret sharing and share conversion to non-interactively generate the nonce for each signature. It also leverages binding techniques to avoid known forgery attacks without limiting concurrency.
+Ọkwa a na-ewu n'elu usoro ndị amaara nke na-eji nkekọrịta nzuzo gbakwunyere na ntụgharị òkè iji mepụta nonce maka signature ọ bụla na-enweghị mmekọrịta. Ọ na-ejikwa usoro njikọta zere mwakpo ụgha ndị amaara n'egbochighị concurrency.
 
-Na preprocessing ogbo, onye ọ bụla so na-akwadebe a ofu ọnụ ọgụgụ nke ụzọ abụọ nke elliptic usoro (EC) ihe maka mgbe e mesịrị ojiji.
+N'ọkwa nhazi tupu oge eruo, onye sonyere ọ bụla na-akwadebe ọnụ ọgụgụ edobere nke ụzọ isi ihe Elliptic Curve (EC) maka iji mee ihe ma emechaa. Ọkwa a na-agba otu ugboro n'ofe ọtụtụ ọkwa ịbanye aka oke ọnụọgụ.
 
 <a href="">
     <img src="/content-images/preprocess-5cbb14f892.webp" alt="" width="400" height="300"/>
 </a>
 
-Signing Round 1: Each participant Pᵢ begins by generating a single private nonce pair (dᵢ, eᵢ) and corresponding pair of EC points (Dᵢ, Eᵢ), then broadcasts this pair of points to all other participants. Each participant stores these pairs of EC points for later use. Signing rounds 2 and 3 are the actual operations in which t-out-of-n participants cooperate to create a valid Schnorr signature.
+Oge Ịbanye Aka 1: Onye sonyere ọ bụla Pᵢ na-amalite site n'imepụta otu ụzọ nonce nzuzo (dᵢ, eᵢ) na ụzọ isi ihe EC kwekọrọ na ya (Dᵢ, Eᵢ), wee gbasaa ụzọ isi ihe a nye ndị sonyere ndị ọzọ niile. Onye sonyere ọ bụla na-echekwa ụzọ isi ihe EC ndị a maka iji mee ihe ma emechaa. Oge ịbanye aka 2 na 3 bụ ọrụ n'ezie ebe ndị sonyere t-n'ime-n na-arụkọ ọrụ imepụta signature Schnorr ziri ezi.
 
-Ntinye aka nke abụọ: Ndị sonyere na-arụkọ ọrụ ọnụ iji mepụta mbinye aka Schnorr dị mma.
+Oge Ịbanye Aka 2: Ndị sonyere na-arụkọ ọrụ imepụta signature Schnorr ziri ezi. Usoro isi dị n'azụ oge a bụ nkekọrịta nzuzo gbakwunyere t-n'ime-t.
 
-This step prevents forgery attacks because attackers cannot combine signature shares across distinct signing operations or permute the set of signers or published points for each signer.
+Nzọụkwụ a na-egbochi mwakpo ụgha n'ihi na ndị mwakpo enweghị ike ijikọta òkè signature n'ọrụ ịbanye aka dị iche iche ma ọ bụ gbanwee usoro ndị na-abinye aka n'aka ma ọ bụ isi ihe e bipụtara maka onye ọ bụla na-abinye aka n'aka.
 
 <a href="">
     <img src="/content-images/sign-402794d36a.webp" alt="" width="400" height="300"/>
 </a>
 
-Having computed the challenge c, each participant can compute the response zᵢ using the single-use nonces and the long-term secret shares, which are t-out-of-n (degree t-1) Shamir secret shares of the group's long-lived key. At the end of signing round 2, each participant broadcasts zᵢ to other participants.
+Mgbe onye sonyere ọ bụla gụchara ihe ịma aka c, ọ nwere ike ịgbakọ nzaghachi zᵢ site n'iji nonce eji otu ugboro na òkè nzuzo ogologo oge, nke bụ òkè nzuzo Shamir t-n'ime-n (ogo t-1) nke igodo otu ahụ na-adịte aka. Na ngwụcha oge ịbanye aka 2, onye sonyere ọ bụla na-agbasa zᵢ nye ndị sonyere ndị ọzọ.
 
-[Gụọ akwụkwọ akụkọ ahụ n'ozuzu ya](https://eprint.iacr.org/2020/852.pdf)
+[Gụọ akwụkwọ zuru ezu](https://eprint.iacr.org/2020/852.pdf)
 
-### Ojiji nke FROST n'ime usoro okike sara mbara
+### Ojiji FROST n'ime gburugburu obibi sara mbara
 
-** FROST na [Coinbase](https://github.com/coinbase/kryptology/tree/master/pkg/dkg/frost)**
+**FROST na [Coinbase](https://github.com/coinbase/kryptology/tree/master/pkg/dkg/frost)**
 
-To improve the efficiency of Coinbase's threshold-signing systems, they developed a version of FROST. This Coinbase implementation makes slight changes from the original FROST draft.
+Iji meziwanye arụmọrụ nke sistemụ ịbanye aka oke ọnụọgụ nke Coinbase, ha mepụtara ụdị FROST. Mmejuputa Coinbase a na-eme obere mgbanwe site na atụmatụ mbụ nke FROST.
 
-They opted not to use the signature aggregator role. Instead, each participant is a signature aggregator. This design is more secure: all participants in the protocol verify others' computations, thereby achieving a higher level of security and reducing risk. The one-time preprocessing stage was also removed to speed up the implementation, with a third signing round used instead.
+Ha họọrọ ịghara iji ọrụ onye nchịkọta signature. Kama nke ahụ, onye sonyere ọ bụla bụ onye nchịkọta signature. Nhazi a nwere nchekwa karịa: ndị sonyere niile n'ime usoro ahụ na-enyocha mgbakọ ndị ọzọ, si otú a enweta ọkwa nchekwa dị elu ma belata ihe ize ndụ. E wepụrụkwa ọkwa nhazi nke otu ugboro iji mee ka mmejuputa ya dị ngwa, jiri oge ịbanye aka nke atọ kama ya.
 
 ---
 
-**[Ejikọtara ọnụ](https://eprint.iacr.org/2022/550.pdf) site na Blockstream**
+**[ROAST](https://eprint.iacr.org/2022/550.pdf) sitere na Blockstream**
 
-A na-atụ aro mmelite ngwa ngwa na FROST maka iji ya na [Blockstream Liquid Sidechain](https://blog.blockstream.com/roast-robust-asynchronous-schnorr-threshold-signatures/) maka Bitcoin.
+A tụrụ aro mmelite kpọmkwem maka ngwa na FROST maka iji na [Blockstream Liquid Sidechain](https://blog.blockstream.com/roast-robust-asynchronous-schnorr-threshold-signatures/) maka Bitcoin.
 
-“ROAST is a simple wrapper around threshold signature schemes like FROST. It guarantees that a quorum of honest signers, e.g., the Liquid functionaries, can always obtain a valid signature even in the presence of disruptive signers when network connections have arbitrarily high latency.”
+“ROAST bụ mkpuchi dị mfe gburugburu atụmatụ signature oke ọnụọgụ dịka FROST. Ọ na-ekwe nkwa na ọnụ ọgụgụ zuru ezu nke ndị na-abinye aka n'aka eziokwu, dịka ọmụmaatụ, ndị ọrụ Liquid, nwere ike inweta signature ziri ezi mgbe niile ọbụna ma ndị na-abinye aka n'aka na-akpaghasị nọ ma njikọ netwọkụ nwere latency dị elu n'ụzọ ọ bụla.”
 
 ---
 
 **FROST na IETF**
 
-The Internet Engineering Task Force, founded in 1986, is the premier standards development organisation for the Internet. The IETF develops voluntary standards that are often adopted by Internet users, network operators, and equipment vendors, helping shape the Internet's trajectory.
+Internet Engineering Task Force, nke e hiwere na 1986, bụ nzukọ kacha elu maka imepụta ụkpụrụ maka Ịntanetị. IETF na-emepụta ụkpụrụ afọ ofufo nke ndị na-eji Ịntanetị, ndị na-arụ ọrụ netwọkụ, na ndị na-ere akụrụngwa na-anabatakarị, na-enyere aka ịkpụzi ụzọ Ịntanetị si aga.
 
-FROST version 11 (abụọ-gburugburu variant) e [nyefere ka IRTF](https://datatracker.ietf.org/doc/draft-irtf-cfrg-frost/11/)Nke a bụ nzọụkwụ dị mkpa maka nyocha zuru ezu nke FROST dị ka ọkọlọtọ usoro ntinye aka ọhụrụ maka iji gafee ịntanetị, na ngwaọrụ ngwaike, yana maka ọrụ ndị ọzọ n'afọ ndị na-abịanụ.
+E tinyela ụdị FROST 11 (ụdị oge abụọ) na [IRTF](https://datatracker.ietf.org/doc/draft-irtf-cfrg-frost/11/). Nke a bụ nzọụkwụ dị mkpa n'ebe nyocha zuru ezu nke FROST dị ka ụkpụrụ atụmatụ signature oke ọnụọgụ ọhụrụ maka iji n'ofe ịntanetị, n'ime ngwaọrụ hardware, na maka ọrụ ndị ọzọ n'afọ ndị na-abịa.
+
+## Ihe Ọ Pụtara N'ọrụ
+
+N'ezie ee. Iwebata FROST na Zcash ga-eme ka ọtụtụ ndị, ndị kewapụrụ n'ebe dị iche iche, chịkwaa ikike imefu nke ZEC nke e chebere echebe. Azụmahia a gbasara site n'iji atụmatụ signature a agaghị enwe ike ịmata ọdịiche ya na Azụmahia ndị ọzọ na netwọkụ, na-edobe nguzogide siri ike megide nsuso Kwụọ ụhwọ ma na-amachi ọnụọgụ data blockchain dị maka nyocha.
+
+N'ọrụ, nke a na-eme ka e nwee ike wuo ọtụtụ ngwa ọhụrụ na netwọkụ, site n'aka ndị na-enye escrow ruo n'ọrụ ndị ọzọ na-abụghị Onye nlekota.
+
+FROST ga-abụkwa akụkụ dị mkpa n'ime inye na ijikwa Zcash Shielded Assets (ZSA) n'enweghị nsogbu, na-eme ka njikwa ikike imefu dị nchebe n'ime òtù mmepe na ndị nlekota ZEC dịka exchanges, ma na-enyekwa ndị ọrụ Zcash ikike a.
+
+## Mmejọ Ndị A Na-ahụkarị
+
+**Ịgwakọta FROST na multisig on-chain ọdịnala**. Multisig ọdịnala nwere ike ikpughe ọtụtụ ndị na-abinye aka n'aka ma ọ bụ ọtụtụ signature on-chain. FROST na-emepụta otu signature Schnorr a chịkọtara, ya mere Azụmahia enweghị ike ịmata ọdịiche ya na Azụmahia nwere otu signature.
+
+**Iche na ndị na-erughị oke ọnụọgụ nwere ike ịbanye aka**. Naanị ọnụ ọgụgụ a kara aka (t-n'ime-n) nke ndị sonyere na-arụkọ ọrụ nwere ike imepụta signature ziri ezi; otu pere mpe enweghị ike.
+
+**Iche na FROST na-ezo ihe niile off-chain**. FROST na-echebe signature on-chain, mana nhazi n'etiti ndị na-abinye aka n'aka ka na-eme off-chain ma chọọ njikwa Nzuzo na nchekwa nke ya.
 
 
-## Mmetụta Ndị Bara Uru
+## Peeji Ndị Metụtara Ya
 
-Absolutely yes. The introduction of FROST to Zcash will allow multiple parties, separated geographically, to control the spend authority of shielded ZEC. Transactions broadcast using this signature scheme will be indistinguishable from other transactions on the network, maintaining strong resistance to payment tracking and limiting the amount of blockchain data available for analysis.
-
-In practice, this enables a wide range of new applications to be built on the network, ranging from escrow providers to other non-custodial services.
-
-FROST will also become an essential component in the secure issuance and management of Zcash Shielded Assets (ZSA), enabling safer management of spend authority within development orgs & ZEC custodians such as exchanges, while also providing this capability to Zcash users.
-
-## Mmehie Ndị A Na-emekarị
-
-**Confusing FROST with traditional on-chain multisig**. Traditional multisig can reveal multiple signers or multiple signatures on-chain. FROST produces a single aggregated Schnorr signature, so a transaction is indistinguishable from a single-signature transaction.
-
-Naanị ọnụ ọgụgụ ọnụ ọgụgụ (t-nke-n) nke ndị sonyere na-arụkọ ọrụ ọnụ nwere ike ịmepụta mbinye aka ziri ezi; obere ìgwè ọ bụla enweghị ike.
-
-**Assuming FROST hides everything off-chain**. FROST protects the on-chain signature, but coordination between signers still occurs off-chain and requires its own privacy and security controls.
-
-
-## Peeji ndị metụtara ya
-
-- [Halo](/zcash-tech/halo)  enweghị ntụkwasị obi, usoro ihe akaebe na-emegharị emegharị nke ejiri na ọdọ mmiri Orchard nke Zcash.
-- [Ịhụ Igodo](/zcash-tech/viewing-keys)  nhọrọ ngosi maka ekpuchi azụmahịa.
-- [Zcash echebe akụ](/zcash-tech/zcash-shielded-assets)  ebe FROST na-enyere aka ijikwa ikike mmefu / mbipụta.
-- [Zcash obere akpa syncing](/zcash-tech/zcash-wallet-syncing)  akụkụ ọzọ dị mkpa nke akụrụngwa nzuzo Zcash.
+- [Halo](/zcash-tech/halo) — usoro proof recursive na-enweghị ntụkwasị obi eji na pool Orchard nke Zcash.
+- [Viewing Keys](/zcash-tech/viewing-keys) — Mpughe ahọpụtara maka Azụmahia nke e chebere echebe.
+- [Zcash Shielded Assets](/zcash-tech/zcash-shielded-assets) — ebe FROST na-enyere aka ijikwa ikike imefu/inye.
+- [Zcash Mmekọrịta e-akpa ego](/zcash-tech/zcash-wallet-syncing) — akụkụ isi ọzọ nke akụrụngwa Nzuzo Zcash.
 
 
 ## Ịmụtakwu Ihe
 
-[Isiokwu Coinbase - Ntinye aka n'ókè](https://www.coinbase.com/blog/threshold-digital-signatures)
+[Coinbase Edemede - Signature Oke Ọnụọgụ](https://www.coinbase.com/blog/threshold-digital-signatures)
 
-[Shamir Secret Sharing - Explainer & Ihe Nlereanya](https://www.geeksforgeeks.org/shamirs-secret-sharing-algorithm-cryptography/)
+[Nkekọrịta Nzuzo Shamir - Nkọwa na Ọmụmaatụ](https://www.geeksforgeeks.org/shamirs-secret-sharing-algorithm-cryptography/)
 
-[Video dị mkpirikpi na Schnorr Digital Signatures](https://youtu.be/r9hJiDrtukI?t=19)
+[Vidiyo Dị Mkpirikpi Banyere Signature Dijitalụ Schnorr](https://youtu.be/r9hJiDrtukI?t=19)
 
 ___
 ___

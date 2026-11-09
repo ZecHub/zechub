@@ -1,6 +1,6 @@
-# Zenith GUI Full Node Wallet Ntinye 
+# Zenith Ntinye GUI full node e-akpa ego [wallet]  
 
-## Nkuzi vidiyo
+## Nkuzi vidio [Video Tutorial]
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -39,28 +39,28 @@
 
 ## Wụnye Zebra
 
-> sudo apt wụnye libclang-dev
+> sudo apt install libclang-dev
 
-> wụnye ibu --git https://github.com/ZcashFoundation/zebra --tag v2.1.0 zebrad
+> cargo install --git https://github.com/ZcashFoundation/zebra --tag v2.1.0 zebrad
 
-> zebrad mepụta -o ~/.config/zebrad.toml
+> zebrad generate -o ~/.config/zebrad.toml
 
 > nano ~/.config/zebrad.toml
 
 
-#### na-ege ntị maka ajụjụ RPC na localhost
+#### gee ntị na ajụjụ RPC na localhost
 
 > listen_addr = "127.0.0.1:8232"
 
-#### na-akpaghị aka na-eji ọtụtụ CPU eri
+#### jiri ọtụtụ CPU threads na-akpaghị aka
 
 parallel_cpu_threads = 0
 
-enable_cookie_auth = ụgha
+enable_cookie_auth = false
 
 ## Wụnye Zenith
 
-**Download tar.gz na untar n'ime gị home directory**
+**Budata tar.gz ma kpọpụta ya n'ime ndekọ ụlọ gị**
 
 > wget https://code.vergara.tech/Vergara_Tech/zenith/archive/0.7.2.0-beta.tar.gz
 
@@ -70,56 +70,56 @@ enable_cookie_auth = ụgha
 
 > rmdir zcash-haskell
 
-> git mmepụta oyiri https://code.vergara.tech/Vergara_Tech/zcash-haskell.git
+> git clone https://code.vergara.tech/Vergara_Tech/zcash-haskell.git
 
 
-### Wụnye Depedencies
+### Wụnye Ndabere [Dependencies]
 
-> sudo apt wụnye libssl-dev libgmp- dev libsecp256k1-dev libtinfo-dev libsdl2-dev libfreetype-dev Libglew-dev gdk-pixbuf-tests raspi-config
+> sudo apt install libssl-dev libgmp-dev libsecp256k1-dev libtinfo-dev libsdl2-dev libfreetype-dev libglew-dev gdk-pixbuf-tests raspi-config
   
-> ibu wụnye ibu-c
+> cargo install cargo-c
 
-> wụnye stack c2hs
+> stack install c2hs
 
 > mousepad ~/.bashrc
 
 > export PATH="/home/zebra5/.local/bin:$PATH"
 
-> isi iyi ~/.bashrc
+> source ~/.bashrc
 
 
-### Gbanwee isi iyi maka aarch64
+### Hazie isi mmalite maka aarch64
 
-> nano nhazi
+> nano configure
 
-**gbanwee okpukpu atọ na: "aarch64-unknown-linux-gnu" na ahịrị abụọ.**
+**gbanwee triple ka ọ bụrụ: "aarch64-unknown-linux-gnu" n'ahịrị abụọ ahụ.**
 
 > nano Setup.hs
  
- ** Gbanwee Setup.hs na ma nchekwa zcash-haskell na nchekwa zenith**
+ **Gbanwee Setup.hs n'ime folda zcash-haskell na folda zenith abụọ ahụ**
 
-### Nchịkọta 
+### Kọmpaịlụ [Compile] 
 
 - ./configure
 
-- ụlọ nkwakọba
+- cabal build
 
 - mkdir ~/Zenith
 
 - cd ~/Zenith
 
-- mkdir akụ 
+- mkdir assets  
 
-- cp ~/zenith/dist-newstyle/build/aarch64-linux/ghc-9.6.5/zenith-0.7.2.0/built/zenithi/zenit ~/Zenith
+- cp ~/zenith/dist-newstyle/build/aarch64-linux/ghc-9.6.5/zenith-0.7.2.0/build/zenith/zenith ~/Zenith
 
-- cp ~/zenith.cfg ~/Zenith
+- cp ~/zenith/zenith.cfg ~/Zenith
 
-- cp -r ~/zenith/assets ~/Zenith/asets
+- cp -r ~/zenith/assets ~/Zenith/assets
 
 
-### Gbanwee zenith.cfg
+### Hazie zenith.cfg
 
-nodeUser = aha njirimara gị
+nodeUser = yourusername
 
 nodePwd = superSecret
 
@@ -136,28 +136,26 @@ zebraPort = 8232
 
 ## Raspi-config
 
-> [Download ọhụrụ gldriver-ule](https://archive.raspberrypi.org/debian/pool/main/g/gldriver-test/)
+> [download latest gldriver-test](https://archive.raspberrypi.org/debian/pool/main/g/gldriver-test/)
   
 > sudo dpkg - gldriver-test_0.15_all.deb
   
 > sudo raspi-config
 
-  **gaa n'ihu ma họrọ opengl => GL (Full KMS) **
+  **gaa na advance ma họrọ opengl => GL (Full KMS)**
 
-  **megharịa**
+  **malitegharịa**
 
 
 
-## Na-agba ọsọ zenith
+## Gbaa zenith
 
  ./zenith gui
  or
- ./Zenith Tui
+ ./zenith tui
  or
- ./ihe nkesa Zenith
+ ./zenithserver
 
-## RPC si
+## RPC's
 
-[otú ị ga-esi](https://github.com/ZecHub/zechub/blob/main/site/tutorials/zenithserver/zenithBeta.md)
-
-
+[howto](https://github.com/ZecHub/zechub/blob/main/site/tutorials/zenithserver/zenithBeta.md)

@@ -1,254 +1,254 @@
-# Otu Azụmaahịa Zcash E Chebere na-arụ ọrụ n'ezie
-##### Nnyocha mbụ sitere na [Annkkitaaa](https://github.com/Annkkitaaa)
+# Otu Azụmahia Zcash Nke E Chebere Echebe Si Arụ Ọrụ N’Ezie
+##### Nnyocha Mbụ sitere n'aka [Annkkitaaa](https://github.com/Annkkitaaa)
 
-! ![Alt ederede](/content-images/image-fedc371488.webp)
+![alt text](/content-images/image-fedc371488.webp)
 
-### Ihe omuma tupu mgbakọ na mwepụ: enweghị usoro nhazi nke ịkwụ ụgwọ onwe onye
+### Nghọta tupu mgbakọ na mwepụ: nkọwa na-enweghị fomula maka ịkwụ ụhwọ nzuzo
 
-> **Series:** *Zcash site na First Principles* . **Nkeji edemede 0.
-> Ọ dịghị cryptography, ọ dịghị blockchain ndabere, na ọ dịghị mgbakọ na mwepụ chere.
-> **What you'll leave with:** a correct mental model of how Zcash hides *who paid whom, and how much*, while still letting the whole world verify that no money was forged or spent twice.
+> **Usoro isiokwu:** *Zcash site na Ụkpụrụ Mbụ* . **Edemede 0 . Arịlịka**
+> **Ndị e dere ya maka ha:** ndị mbido kpamkpam. Ọ dịghị cryptography, ọ dịghị ndabere blockchain, ọ dịghịkwa mgbakọ na mwepụ a na-atụ anya.
+> **Ihe ị ga-enwe mgbe ị gụchara:** nghọta ziri ezi banyere otu Zcash si ezo *onye kwụrụ onye ụhwọ, na ego ole*, ma ka na-ekwe ka ụwa dum nyochaa na e mepụtaghị ego ụgha ma ọ bụ mefuo ego ugboro abụọ.
 
-Every later article in this series zooms into one piece of the machine you're about to meet. So if a word here feels hand-wavy, *good*. That's a promise that we'll come back and earn it properly.
-
----
-
-## 1. Gịnị mere o ji dị mkpa ka i lebara ha anya?
-
-Imagine your bank statement were nailed to a wall in the town square. Forever. Anyone (your landlord, your employer, a stranger, a future employer, a government) could read every rent payment, every medical bill, every donation, every coffee, and trace exactly who you sent money to and who sent money to you.
-
-Nke ahụ abụghị echiche dystopian. ** Nke ahụ bụ ihe dị ka Bitcoin si arụ ọrụ.**
-
-Bitcoin is often called "anonymous," but it isn't. It's *pseudonymous*: your name isn't on the ledger, but every transaction, amount, and link between addresses is public and permanent. The entire field of "chain analysis" exists to peel back that thin pseudonym and tie addresses to real people. Once one of your addresses is linked to you, your financial history unspools.
-
-E wuru Zcash iji zaa ajụjụ siri ike:
-
-> **Can we have money that is completely private, hiding sender, receiver, and amount, while still letting anyone verify that the rules were followed?**
-
-Those two goals fight each other. A public ledger is verifiable *because* everyone can see it. Privacy means nobody can see it. So how can the public verify something it isn't allowed to look at?
-
-Idozi nghọtahie ahụ bụ akụkọ dum nke usoro isiokwu a. Ka anyị malite.
+Edemede ọ bụla na-esote n’usoro isiokwu a ga-elekwasị anya n’otu akụkụ nke igwe ị na-achọ ịmata ugbu a. Ya mere, ọ bụrụ na okwu ọ bụla ebe a dị ka a kọwaghị ya nke ọma, *ọ dị mma*. Nke ahụ bụ nkwa na anyị ga-alọghachi wee kọwaa ya nke ọma.
 
 ---
 
-## 2. E nwere ụwa abụọ n'ime Zcash
+## 1. Gịnị mere ị ga-eji lekọta ya?
 
-Before anything else, clear up a common misconception: **Zcash is not "the private coin." It's a coin that offers privacy as an option.** It actually started life as a fork of Bitcoin, and it carries two parallel systems on the same blockchain.
+Chegodị na a kpọgidere nkọwa akaụntụ ụlọ akụ gị n’ahụ mgbidi n’etiti obodo. Ruo mgbe ebighị ebi. Onye ọ bụla (onye nwe ụlọ gị, onye were gị n’ọrụ, onye ọbịa, onye nwere ike were gị n’ọrụ n’ọdịnihu, gọọmenti) nwere ike ịgụ ụgwọ ụlọ ọ bụla, ụgwọ ọgwụ ọ bụla, onyinye ọ bụla, kọfị ọ bụla, ma chọpụta kpọmkwem onye ị zigara ego na onye zigara gị ego.
 
-| | **Ụwa doro anya** | **Ụwa e ji ọta kpuchie** |
+Nke ahụ abụghị atụmanya dystopia. **Nke ahụ bụ ihe dịka otu Bitcoin si arụ ọrụ.**
+
+A na-akpọkarị Bitcoin “enweghị aha,” mana ọ bụghị. Ọ bụ *pseudonymous*: aha gị anọghị na ledger, mana Azụmahia [transaction] ọ bụla, ego ole, na njikọ dị n’etiti adreesị bụ ihe ọha na eze ma na-adịgide adịgide. Mpaghara dum nke “chain analysis” dị iji wepụ aha nzuzo ahụ dị ntakịrị ma jikọta adreesị na ndị mmadụ n’ezie. Ozugbo ejikọtara otu n’ime adreesị gị na gị, akụkọ ego gị na-emeghe.
+
+Zcash wuru iji zaa ajụjụ siri ike nke na-adị ka ọ dị mfe:
+
+> **Ànyị nwere ike inwe ego nzuzo kpamkpam, nke na-ezo onye zitere ya, onye natara ya, na ego ole, ma ka na-ekwe ka onye ọ bụla nyochaa na a gbasoro iwu?**
+
+Ebumnuche abụọ ahụ na-emegide ibe ha. Ledger ọha bụ ihe a pụrụ nyochaa *n’ihi* na onye ọ bụla na-ahụ ya. Nzuzo [privacy] pụtara na ọ dịghị onye pụrụ ịhụ ya. Ya mere, kedu ka ọha si enyocha ihe a naghị ekwe ka ha lee?
+
+Idozi mgbagwoju anya ahụ bụ akụkọ dum nke usoro isiokwu a. Ka anyị malite.
+
+---
+
+## 2. E nwere ụwa abụọ n’ime Zcash
+
+Tupu ihe ọ bụla ọzọ, ka anyị doo otu nghọtahie a na-ahụkarị anya: **Zcash abụghị “mkpụrụ ego nzuzo.” Ọ bụ mkpụrụ ego na-enye Nzuzo dịka nhọrọ.** Ọ malitere ndụ ya dịka fork nke Bitcoin, ma nwee usoro abụọ na-agakọ n’otu blockchain.
+
+| | **Ụwa Oha** | **Ụwa nke e chebere echebe** |
 |---|---|---|
-| Nzuzo | Ọha, dịka Bitcoin | Nkeonwe |
-| Adreesị na-amalite na | `t...` | `z...` or `u...` |
-| Onye zitere / onye nnata / ego | **A na-ahụ ya** nye mmadụ niile | **Zoro** site n'aka onye ọ bụla |
-| Teknụzụ dị n'okpuru | ledger ọha na eze nke ụdị Bitcoin | Nkwa nzuzo + ihe akaebe na-enweghị ihe ọmụma |
+| Nzuzo | Ọha, dịka Bitcoin | Nzuzo |
+| Adreesị na-amalite na | `t...` | `z...` ma ọ bụ `u...` |
+| Onye zitere / onye natara / ego ole | **Onye ọ bụla na-ahụ** | **Onye ọ bụla anaghị ahụ** |
+| Teknụzụ ndabere | Ledger ọha ụdị Bitcoin | Cryptographic commitments + zero-knowledge proofs |
 
-Ego nwedịrị ike ịgafe ókèala dị n'etiti ha: ịkwaga ego * n'ime * ụwa a na-echebe bụ * mkpuchi *, na ịkwapụ ha bụ * unshielding *.
+Ego pụrụ ọbụna ịgafe ókè dị n’etiti ha: ịkwaga ego *banyere* ụwa nke e chebere echebe a na-akpọ *shielding*, ịkwaga ha pụta azụ a na-akpọkwa *deshielding*.
 
-The transparent world is "Bitcoin you already roughly understand." It's the **shielded world** that contains all the beautiful cryptography, and that's the only world this series cares about.
+Ụwa Oha bụ “Bitcoin nke ị maralarị ihe gbasara ya.” Ọ bụ **ụwa nke e chebere echebe** nwere cryptography niile mara mma, ọ bụkwa naanị ụwa usoro isiokwu a gbasara.
 
-! ![Alt ederede](/content-images/image-1-f821d24c6f.webp)
-
----
-
-## 3. Ọgụgụ isi: envelopu ndị e mechiri emechi n'elu bọọdụ ọha na eze
-
-Nke a bụ otu ihe ị ga-echebara echiche n'isiokwu a. Anyị ga na-echeta ya mgbe niile.
-
-Cheedị banyere otu nnukwu bọọdụ mkpọsa ọha na eze nke onye ọ bụla nọ n'ụwa pụrụ ịhụ mgbe nile.
-
-* **Receiving money** means someone pins a **sealed, opaque envelope** to the board. Inside the envelope is *how much money it holds* and *a secret that only the recipient can read*, because the envelope is locked to that recipient's personal key. The whole world sees that *an envelope appeared*. Nobody but the owner can see what's inside.
-
-* ** The board only ever grows.** Envelopes are never torn down or erased. A na-etinye ndị ọhụrụ n'elu, ruo mgbe ebighị ebi.
-
-* **Spending money** means stepping behind a curtain, proving *"I own one of the unspent envelopes on this board, and I'm allowed to open it"*, then dropping a unique **void token** into a public "spent" bin and pinning **new envelopes** for whoever you're paying.
-
-Obere emume ahụ (tinye akara efu, tinye envelopu ọhụrụ, niile site n'azụ ákwà mgbochi) * bụ* ịkwụ ụgwọ Zcash. Ihe ọ bụla ọzọ bụ nkọwa.
-
-Ugbu a, ka anyị nye ha ezigbo aha ha.
+![alt text](/content-images/image-1-f821d24c6f.webp)
 
 ---
 
-## 4. Aha ise ahụ
+## 3. Nghọta: envelopu e mechiri emechi n’elu bọọdụ ọha
 
-Okwu ise ndị a bụ okwu niile nke Zcash echekwara. Mụta ha dịka akụkọ, ọ bụghị dị ka akwụkwọ ọkọwa okwu, ha ga-arapara.
+Nke a bụ otu onyonyo uche ị ga-eburu n’isiokwu a niile. Anyị ga-alaghachi na ya ugboro ugboro.
 
-| N'akụkọ ahụ | Okwu Zcash n'ezie | Ihe ọ bụ n'ezie |
+Were ya na e nwere otu nnukwu **bọọdụ ọkwa ọha** nke onye ọ bụla n’ụwa na-ahụ oge niile.
+
+* **Inweta ego** pụtara na mmadụ kpọgidere **envelopu e mechiri emechi, nke a na-apụghị ịhụ ihe dị n’ime ya** n’elu bọọdụ ahụ. N’ime envelopu ahụ bụ *ego ole o nwere* na *ihe nzuzo naanị onye nnata nwere ike ịgụ*, n’ihi na e ji igodo nke onye nnata mechie envelopu ahụ. Ụwa dum na-ahụ na *envelopu apụtala*. Ọ dịghị onye ma e wezụga onye nwe ya pụrụ ịhụ ihe dị n’ime.
+
+* **Bọọdụ ahụ na-eto naanị.** A dịghị adọkasị ma ọ bụ hichapụ envelopu. A na-akpọgide ndị ọhụrụ n’elu, ruo mgbe ebighị ebi.
+
+* **Imefu ego** pụtara ịbanye n’azụ ákwà mgbochi, gosi na *“Enwere m otu n’ime envelopu a na-emefubeghị n’elu bọọdụ a, ekwekwara m ka m mepee ya”*, wee tụba **token efu** pụrụ iche n’ime akpa ọha nke “emefuru,” ma kpọgide **envelopu ọhụrụ** maka onye ị na-akwụ ụhwọ.
+
+Emume ahụ nta (kpọgide token efu, kpọgide envelopu ọhụrụ, ihe niile si n’azụ ákwà mgbochi) *bụ* ịkwụ ụhwọ Zcash. Ihe ọ bụla ọzọ bụ nkọwa.
+
+Ugbu a ka anyị nye ihe ndị ahụ aha ha n’ezie.
+
+---
+
+## 4. Aha ise
+
+Okwu ise ndị a bụ okwu nile gbasara Zcash nke e chebere echebe. Mụta ha dịka *akụkọ*, ọ bụghị dịka akwụkwọ nkọwa okwu, ha ga-anọrịrị gị n’uche.
+
+| N’akụkọ ahụ | Okwu Zcash n’ezie | Ihe ọ bụ n’ezie |
 |---|---|---|
-| Ihe dị n'ime envelopu ahụ (ego + onye nwe ya + ihe nzuzo) | **Rịba ama** | "Mkpụrụ ego nkeonwe": obere uru nke onye nwe ya |
-| Envelopu ahụ e mechiri emechi, nke na-adịghị acha ọcha nke dị na bọọdụ ahụ | **Rịba ama nkwa** | Akara nzuzo nke na-egosi na envelopu dị ma na-ezo ihe dị n'ime ya |
-| Akwụkwọ ozi ahụ n'onwe ya | **Rịba ama osisi nkwa** | Ndekọ mgbakwunye naanị nke *ndetu ọ bụla e kere* |
-| Ihe nrịbama efu dị na ihe mkpofu "gbanyụrụ" | **Ihe na-emebi ihe** | Ihe nrịbama pụrụ iche nke pụtara "e mefuru ego a ugbu a" |
-| Anwansi "n'azụ ákwà mgbochi" | **Ihe akaebe na-enweghị ihe ọmụma** | Ihe akaebe na mmefu niile dị irè, ọ dịghịkwa ihe ọ bụla gosiri na o mere |
+| Ihe dị n’ime envelopu (ego ole + onye nwe + ihe nzuzo) | **Note** | “Mkpụrụ ego” nkeonwe: akụkụ uru nke mmadụ nwere |
+| Envelopu e mechiri emechi, nke a na-apụghị ịhụ ihe dị n’ime ya n’elu bọọdụ | **Note commitment** | Akara nzuzo na-egosi na envelopu dị ebe ahụ ma na-ezo ihe dị n’ime |
+| Bọọdụ ọkwa ahụ n’onwe ya | **Note commitment tree** | Ndekọ nke na-anabata naanị mgbakwunye nke *note ọ bụla e mepụtara* |
+| Token efu n’akpa “emefuru” | **Nullifier** | Akara pụrụ iche nke pụtara “a mefuola note a ugbu a” |
+| Ime anwansi “n’azụ ákwà mgbochi” | **Zero-knowledge proof** | Proof na imefu ego ahụ dum ziri ezi, na-ekpugheghị nke ọ bụla n’ime ya |
 
-If you remember nothing else from this article, remember this table. Everything that follows is just *why* each piece has to be shaped the way it is.
-
----
-
-## 5. Ihe mere e ji kpụọ ihe ọ bụla otú e si kpụọ ya
-
-This is the part most explainers skip, and it's exactly the part that separates "I memorized some words" from "I understand the design." Each of the five pieces exists to solve **one specific problem.**
-
-### Nkwekorita ahụ: zoo ihe dị n'ime ya, ma mee ka ịgha ụgha ghara ikwe omume
-
-Enwere ike imepe envelopu nkịtị, mana enweghị ike ịmepe akwụkwọ nzuzo. Chee echiche banyere ya dị ka envelopụ mechiri emechi, nke nwere ikike abụọ:
-
-- **Izobe**: ileba anya n'envelopu ahụ e mechiri emechi anaghị agwa gị *ihe ọ bụla* banyere ego ma ọ bụ onye nwe ya.
-- **Ijikọ**: ozugbo e mechiri ya, enweghi ike ịgbanwe ihe dị n'ime ya. Ị nweghị ike ikwu na envelopu ahụ nwere ego dị iche.
-
-kedu ka akàrà ga-esi mee ihe abụọ a n'otu oge? nke ahụ bụ ezigbo ajụjụ na azịza ya. ọ bụ isiokwu nke edemede 3 (nkwekọrịta) maka ugbu a, nabata envelopu ahụ dị ka anwansi ma gaa n'ihu.
-
-### Ihe na-eme ka ọ ghara ịdị irè: ihe dị mma n'ezie
-
-When you spend a note, you publish its **nullifier**, the "void token." This token is computed from *the note itself* **and** *your secret key*. That recipe buys three properties simultaneously, and each one matters:
-
-1. **Naanị onye nwe ya nwere ike ịmepụta ya.** Ị chọrọ igodo nzuzo iji gbakọọ ya, yabụ na ọ dịghị onye nwere ike imefu ihe ndetu gị maka gị.
-2. **It's always the *same* token for a given note.** Try to spend the same note twice and you'd produce the *identical* void token both times, and the public "spent" bin already contains it. Double-spend rejected. 
-3. ** Ọ dịghị onye nwere ike ịchọpụta ya na envelopu ya.** Ihe akara efu ahụ enweghị ihe jikọrọ ya na Envelopu o si bịa.
-
-Njirimara nke atọ ahụ bụ ** obi nke nzuzo Zcash **, ma ọ kwesịrị ngalaba nke ya n'okpuru.
-
-### Ihe akaebe na-enweghị ihe ọmụma: ákwà mgbochi ahụ n'onwe ya
-
-Everything happens behind a curtain, and what you hand the world afterward is a **zero-knowledge proof**, a kind of unforgeable certificate. It silently attests to all of this at once:
-
-- * envelopu m na-emefu n'ezie na-pinned na osisi * (ọ bụ ezigbo, ẹdude dee),
-- *Ekwere m n'ezie imeghe ya* (Enwere m igodo ziri ezi),
-- *a na-agbakọ akara m na-enweghị isi n'ụzọ ziri ezi* (enweghị ịghọ aghụghọ ule ego okpukpu abụọ),
-- *Envelopu ọhụrụ m nwere ego ha na nke ochie hà nhata*: **ọ dịghị ego e si n'efu kee.**
-
-The miracle is that the proof reveals **none** of those facts. Not the amount, not the addresses, not which envelope. It only convinces you that *every statement above is true*. How that's even possible is **Article 5 (zero-knowledge proofs)**, the crescendo of the series.
+Ọ bụrụ na ị naghị echeta ihe ọzọ n’isiokwu a, cheta tebụl a. Ihe niile na-esote bụ naanị *ihe mere* eji akpụzi akụkụ ọ bụla otú ahụ.
 
 ---
 
-## 6. Ndụ nke otu mkpụrụ ego
+## 5. Ihe mere e ji akpụzi akụkụ ọ bụla otú ahụ
 
-A note is *born*, it *lives* on the board, and eventually it *dies*, and crucially, its birth and its death look unrelated to anyone watching.
+Nke a bụ akụkụ ọtụtụ nkọwa na-awụli, ma ọ bụ kpọmkwem akụkụ na-ekewa “A mụtala ụfọdụ okwu n’isi” na “Aghọtara m nhazi ahụ.” Nke ọ bụla n’ime akụkụ ise a dị iji dozie **otu nsogbu kpọmkwem.**
 
-! ![Alt ederede](/content-images/image-2-0eca0ea4f7.webp)
+### Note commitment: zoo ihe dị n’ime, mana mee ka ịgha ụgha ghara ikwe omume
+
+Envelopu nkịtị nwere ike iji uzuoku meghee. Cryptographic **note commitment** enweghị ike. Chee ya dịka envelopu a mechiri *n’ụzọ anwansi*, nke ihe ọ bụla anaghị apụta ìhè, nwere ike abụọ pụrụ iche:
+
+- **Izo ezo**: ile envelopu e mechiri anya anaghị agwa gị *ihe ọ bụla* banyere ego ole ma ọ bụ onye nwe nọ n’ime ya.
+- **Ijidesi ike**: ozugbo e mechiri ya, a pụghị ịgbanwe ihe dị n’ime. Ị pụghị ikwu mgbe e mesịrị na envelopu ahụ nwere ego ọzọ.
+
+Kedu ka akara mechiri emechi ga-esi mee ihe abụọ ahụ n’otu oge? Nke ahụ bụ ajụjụ dị adị ma nwee azịza. Ọ bụ isiokwu **Edemede 3 (commitments)**. Maka ugbu a, nabata envelopu ahụ dịka anwansi ma gaa n’ihu.
+
+### Nullifier: akụkụ amamihe dị n’ezie
+
+Mgbe ị na-emefu note, ị na-ebipụta **nullifier** ya, ya bụ “token efu.” A na-agbakọ token a site na *note ahụ n’onwe ya* **na** *igodo nzuzo gị*. Usoro ahụ na-eweta njirimara atọ n’otu oge, nke ọ bụla dịkwa mkpa:
+
+1. **Naanị onye nwe ya nwere ike imepụta ya.** Ị chọrọ igodo nzuzo iji gbakọọ ya, ya mere ọ dịghị onye nwere ike imefu note gị n’ọnọdụ gị.
+2. **Ọ bụ otu token ahụ mgbe niile maka note enyere.** Gbalịa imefu otu note ugboro abụọ, ị ga-emepụta token efu ahụ *kwekọrọ kpọmkwem* ugboro abụọ, akpa ọha nke “emefuru” enweelarị ya. A jụrụ imefu ugboro abụọ.
+3. **Ọ dịghị onye pụrụ ịchọpụta envelopu o siri na ya pụta.** Token efu ahụ na-adị ka ọ nweghị njikọ ọ bụla na envelopu o siri na ya pụta.
+
+Njirimara nke atọ ahụ bụ **obi Nzuzo Zcash**, o kwesịkwara inwe ngalaba nke ya n’okpuru.
+
+### Zero-knowledge proof: ákwà mgbochi ahụ n’onwe ya
+
+Ihe niile na-eme n’azụ ákwà mgbochi, ihe ị na-enye ụwa emechaa bụ **zero-knowledge proof**, ụdị asambodo a na-apụghị ịgha ụgha. Ọ na-agba akaebe nwayọọ nwayọọ maka ihe ndị a niile n’otu oge:
+
+- *envelopu m na-emefu dị n’ezie kpọgidere n’elu bọọdụ ahụ* (ọ bụ note dị adị),
+- *a na-ekwe m n’ezie imepe ya* (ejidere m igodo ziri ezi),
+- *a gbakọọla token efu m nke ọma* (enweghị aghụghọ n’ịlele imefu ugboro abụọ),
+- *envelopu ọhụrụ m nwere kpọmkwem otu ego envelopu ochie ahụ nwere*: **e nweghị ego e kere n’enweghị ihe.**
+
+Ọrụ ebube bụ na proof ahụ anaghị ekpughe **nke ọ bụla** n’ime eziokwu ndị ahụ. Ọ bụghị ego ole, ọ bụghị adreesị, ọ bụghịkwa envelopu nke a na-ekwu maka ya. Ọ na-eme ka i kweta naanị na *nkwupụta ọ bụla dị n’elu bụ eziokwu*. Otu nke ahụ si kwe omume bụ **Edemede 5 (zero-knowledge proofs)**, njedebe dị elu nke usoro isiokwu a.
 
 ---
 
-## 7. Ịkwụ Ụgwọ, site ná mmalite ruo ná ngwụsị
+## 6. Ndụ nke otu note
 
-Ka anyị lee ka Alice si kwụọ Bob ụgwọ, ka a na-edepụta nzọụkwụ ọ bụla o mere n'ihu ọha na nke onwe ya.
+A na-*amụ* note, ọ *na-adị ndụ* n’elu bọọdụ, n’ikpeazụ ọ *na-anwụ*, na nke dị mkpa bụ na ọmụmụ ya na ọnwụ ya enweghị njikọ n’anya onye ọ bụla na-ele.
 
-! ![Alt ederede](/content-images/image-4-7af0dfe795.webp)
-
-Rịba ama asymmetry nke na-eme ka nzuzo ọrụ:
-
-- **Alice's old note** na-anwụ site na a *nullifier* na eji bin.
-- A na-amụ akwụkwọ ọhụrụ Bob site na ntinye ọhụrụ na bọọdụ ahụ.
-- Nye onye ọ bụla na-ekiri, ihe omume abụọ a enweghị njikọ ọ bụla a na-ahụ anya.
-
-> **How does Bob even know he was paid?** His note is encrypted *to his key*. He continuously scans the board and only *his* envelopes pop open for him, like having the one key that fits a specific set of locks. The machinery behind this is **viewing keys**, a later topic.
+![alt text](/content-images/image-2-0eca0ea4f7.webp)
 
 ---
 
-## 8. Ihe ụwa na-ahụ vs. ihe zoro ezo
+## 7. Ịkwụ ụhgwọ, site na mmalite ruo na njedebe
 
-| Eziokwu gbasara ịkwụ ụgwọ ahụ | Ọha na eze na-ahụ ya? |
+Ka anyị lee ka Alice si kwụọ Bob, ebe a kpọrọ nzọụkwụ ọ bụla ọha na nkeonwe aha.
+
+![alt text](/content-images/image-4-7af0dfe795.webp)
+
+Rịba ama enweghị nhata na-eme ka Nzuzo rụọ ọrụ:
+
+- **Note ochie Alice** na-anwụ site na *nullifier* n’akpa emefuru.
+- **Note ọhụrụ Bob** na-amụ site na *commitment* ọhụrụ n’elu bọọdụ.
+- Nye onye ọ bụla na-ele, ihe omume abụọ ndị a **enweghị njikọ a na-ahụ anya.** Usoro ego ahụ anaghịzi apụta ìhè.
+
+> **Olee otú Bob si amata na a kwụọla ya?** E ji igodo ya zoo note ya. Ọ na-enyocha bọọdụ ahụ mgbe niile, naanị envelopu *ya* na-emeghere ya, dịka inwe otu igodo dabara n’otu ụdị mkpọchi. Ngwaọrụ dị n’azụ nke a bụ **viewing keys**, isiokwu a ga-atụle mgbe e mesịrị.
+
+---
+
+## 8. Ihe ụwa na-ahụ na ihe na-anọgide na-ezo
+
+| Eziokwu banyere ịkwụ ụhgwọ | Ọha na-ahụ ya? |
 |---|---|
-| Na *a* azụmahịa echekwara mere |  Ee |
-| Na o rubere isi n'iwu niile (anaghị emefu ego, ọ dịghị imefu ego ugboro abụọ) |  Ee (site na ihe akaebe) |
-| **Onye** zitere ego ahụ |  Ezoro ezo |
+| Na Azụmahia nke e chebere echebe mere |  Ee |
+| Na ọ gbasoro iwu niile (enweghị ịgha ụgha, enweghị imefu ugboro abụọ) |  Ee (site na proof) |
+| **Onye** zitere ego |  Ezoro ezo |
 | **Onye** natara ya |  Ezoro ezo |
-| **Ego ole ka e zigara** |  Ezoro ezo |
-| **Nke** e tinyere akwụkwọ ndetu mbụ |  Ezoro ezo |
+| **Ego ole** ezitere |  Ezoro ezo |
+| **Note** nke mbụ e mefuru |  Ezoro ezo |
 
-This is the resolution of the paradox from Section 1. The public verifies the *rules*, not the *contents*. Verification and privacy stop fighting, because the zero-knowledge proof lets you check the former without touching the latter.
-
----
-
-## 9. Ihe kpatara ya: ihe mere envelopu na akara efu enweghị ike ijikọ
-
-Ọ bụrụ na ị ghọta otu echiche a, ị ga-aghọta ihe mere Zcash ji bụrụ nkeonwe. Gụọ ya nwayọ.
-
-- A na-etinye envelopu (nkwekọrịta) na bọọdụ ahụ mgbe edere ederede.
-- A na-atụba akara efu (nullifier) n'ime nkata mgbe a na-emefu ego ahụ, ikekwe ọnwa ole na ole ka e mesịrị.
-- They are produced by **different secret recipes**, and there is **no public math** that turns one into the other.
-
-So an outside observer sees a stream of envelopes appearing and a stream of void tokens appearing, but **cannot match them up**. They can't say "the void token dropped today corresponds to the envelope pinned last March." The link exists *only* inside the secret knowledge of the note's owner, and the zero-knowledge proof confirms the link is valid *without revealing it.*
-
-That broken link is the thing chain-analysis firms feast on in Bitcoin, and the thing Zcash deliberately severs.
-
-> **Test your intuition:** If nullifiers were instead computed *only* from the note (no secret key involved), which of the three properties in Section 5 would break, and why would that quietly destroy privacy? *(Answer at the end.)*
+Nke a bụ idozi mgbagwoju anya sitere na Ngalaba 1. Ọha na-enyocha *iwu*, ọ bụghị *ihe dị n’ime*. Nnyocha na Nzuzo akwụsịla ịlụ ọgụ, n’ihi na zero-knowledge proof na-enye gị ohere ilele nke mbụ na-emetụghị nke ikpeazụ aka.
 
 ---
 
-## 10. Onye na-akwụwa aka ọtọ
+## 9. Obi ya: ihe mere a pụghị ijikọ envelopu na token efu
 
-This is a **mental model**, not the spec. To keep it newcomer-friendly we've quietly simplified several real things: Zcash has had multiple shielded designs (Sprout, then Sapling, now Orchard); real transactions can spend and create *several* notes at once; "the board" is technically a specific kind of tree, not a literal pinboard; and value balance is enforced with some additional cryptographic bookkeeping. None of those details change the story you just learned; they refine it. We'll add the precision back, one article at a time, and flag clearly whenever we do.
+Ọ bụrụ na ị ghọta otu echiche a, ị ghọtara ihe mere Zcash ji bụrụ nkeonwe. Gụọ ya nwayọọ.
 
-Ọdịnaya agụmakwụkwọ dị mma na-enweta ntụkwasị obi site n'ikwu ihe ọ hapụrụ. Akụkụ a bụ nkwa ahụ.
+- A na-akpọgide **envelopu (commitment)** n’elu bọọdụ mgbe a **mụrụ** note.
+- A na-atụba **token efu (nullifier)** n’ime akpa mgbe a **mefuru** otu note ahụ, ikekwe ọnwa ole na ole mgbe e mesịrị.
+- A na-emepụta ha site na **usoro nzuzo dị iche iche**, ọ dịghịkwa **mgbakọ ọha** na-atụgharị otu gaa na nke ọzọ.
+
+Ya mere, onye na-ekiri n’èzí na-ahụ envelopu na-apụta n’usoro na token efu na-apụta n’usoro, mana **ọ pụghị ijikọ ha ọnụ**. Ọ pụghị ikwu na “token efu a tụbara taa dabara na envelopu a kpọgidere n’ọnwa Maachị gara aga.” Njikọ ahụ dị *naanị* n’ihe nzuzo onye nwe note maara, zero-knowledge proof na-ekwenyekwa na njikọ ahụ ziri ezi *na-ekpugheghị ya.*
+
+Njikọ e bipụrụ ahụ bụ ihe ụlọ ọrụ chain-analysis na-erite uru na ya na Bitcoin, na ihe Zcash kpachaara anya bepụ.
+
+> **Nwale nghọta gị:** Ọ bụrụ na a na-agbakọ nullifier naanị *site na note* (na-enweghị igodo nzuzo), olee nke n’ime njirimara atọ dị na Ngalaba 5 ga-emebi, gịnịkwa mere nke ahụ ga-eji bibie Nzuzo nwayọọ nwayọọ? *(Azịza dị na njedebe.)*
 
 ---
 
-## 11. Loops anyị meghere (map gị nke usoro)
+## 10. Nkwupụta eziokwu
 
-"Anyị ga-alaghachi na nke a" ọ bụla dị n'elu bụ eri. Nke a bụ ebe a na-ejikọta nke ọ bụla:
+Nke a bụ **onyonyo uche**, ọ bụghị spec. Iji mee ka ọ dị mfe maka ndị mbido, anyị mere ka ụfọdụ ihe dị adị dị mfe nwayọọ: Zcash enweela nhazi echebere echebe ọtụtụ (Sprout, emesịa Sapling, ugbu a Orchard); Azụmahia n’ezie nwere ike imefu ma mepụta *ọtụtụ* note n’otu oge; “bọọdụ” ahụ bụ n’ụzọ teknụzụ otu ụdị tree kpọmkwem, ọ bụghị bọọdụ a na-akpọgide ihe n’ezie; a na-eme ka nhata uru dịgide site na ụfọdụ ndekọta cryptographic ọzọ. Ọ dịghị otu n’ime nkọwa ndị ahụ gbanwere akụkọ ị mụtara ugbu a; ha na-eme ka ọ dokwuo anya. Anyị ga-eweghachi izi ezi ahụ, otu edemede n’otu oge, ma kọwaa nke ọma oge ọ bụla anyị mere ya.
 
-! ![Alt ederede](/content-images/image-29-27ef4636ff.webp)
+Ezi ọdịnaya nkuzi na-enweta ntụkwasị obi site n’ikwu ihe ọ hapụrụ. Ngalaba a bụ nkwa ahụ.
 
-| Nkọwa zuru oke site n'isiokwu a | Ebe a na-edozi ya |
+---
+
+## 11. Njikọ anyị mepere (maapụ gị nke usoro isiokwu a)
+
+“We’ll come back to this” ọ bụla dị n’elu bụ eriri. Nke a bụ ebe a na-ekechi nke ọ bụla:
+
+![alt text](/content-images/image-29-27ef4636ff.webp)
+
+| Njikọ fọdụrụ n’isiokwu a | Ebe a na-edozi ya |
 |---|---|
-| Kedu ka envelopu e mechiri emechi ga-esi bụrụ ma ihe zoro ezo ma ihe a na-apụghị ịgbanwe agbanwe? | Isiokwu nke atọ: nkwa |
-| Ebee ka igodo na uzommeputa nzuzo si abịa? | Isiokwu nke 1 na nke 2: ubi na usoro |
-| Gịnị bụ *bọdụ ahụ* kpọmkwem? | Isiokwu nke 4: Osisi Merkle |
-| Kedu ka ị ga-esi gosi ihe n'agbanyeghị na ị naghị ekpughe ihe ọ bụla? | Isiokwu nke ise: ihe akaebe na-egosi na enweghị ihe ọmụma |
-| Kedu ka iberibe ise niile si ejikọta ọnụ na ezigbo Zcash? | Nkeji edemede nke isii: usoro nchekwa |
+| Olee ka envelopu e mechiri emechi ga-esi zoo ihe ma bụrụkwa nke a na-apụghị ịgha ụgha? | Edemede 3: commitments |
+| Ebee ka igodo na usoro nzuzo si abịa? | Edemede 1 & 2: fields na curves |
+| Gịnị *bụ* “bọọdụ” ahụ, kpọmkwem? | Edemede 4: Merkle trees |
+| Olee ka ị ga-esi gosi ihe ma ghara ikpughe ihe ọ bụla? | Edemede 5: zero-knowledge proofs |
+| Olee ka akụkụ ise niile si ejikọ ọnụ na Zcash n’ezie? | Edemede 6: protocol nke e chebere echebe |
 
 ---
 
-## 12 Nchịkọta
+## 12. Nchịkọta
 
-- Bitcoin bụ **transparent**; Zcash na-enye ụwa **shielded** ebe onye zitere, onye natara, na ego zoro ezo.
-- Ihe mgbagwoju anya a na-ahụ anya (*onwe ma enwere ike ịchọpụta ya n'ihu ọha*) bụ isi ihe, ọ ga-edozikwa.
-- A shielded payment is five interlocking pieces: a **note** (the coin), a **note commitment** (the sealed envelope), the **note commitment tree** (the public board), a **nullifier** (the void token that prevents double-spends), and a **zero-knowledge proof** (the curtain that proves validity while revealing nothing).
-- Nzuzo na-adabere n'ikpeazụ na ** otu njikọ a gbajiri agbaji **: ọ dịghị onye nọ n'èzí nwere ike ijikọ ọmụmụ (nkwekọrịta) nke akwụkwọ ozi na ọnwụ ya (nullifier).
-- Ndị mmadụ na-enyocha iwu, ọ bụghị ihe dị n'ime ya.
+- Bitcoin bụ **Oha**; Zcash na-enye **ụwa nke e chebere echebe** ebe e zoro onye zitere, onye natara, na ego ole.
+- Mgbagwoju anya ahụ dị ka ọ pụtara ìhè (*nkeonwe ma ka ọha na-enyocha*) bụ isi ihe niile, ma a pụrụ idozi ya.
+- Ịkwụ ụhgwọ e chebere echebe nwere akụkụ ise jikọtara ọnụ: **note** (mkpụrụ ego), **note commitment** (envelopu e mechiri emechi), **note commitment tree** (bọọdụ ọha), **nullifier** (token efu na-egbochi imefu ugboro abụọ), na **zero-knowledge proof** (ákwà mgbochi na-egosi izi ezi ma na-ekpugheghị ihe ọ bụla).
+- Nzuzo dabere n’ikpeazụ n’**otu njikọ e bepụrụ**: ọ dịghị onye n’èzí nwere ike ijikọ ọmụmụ note (commitment) na ọnwụ ya (nullifier).
+- Ọha na-enyocha **iwu**, ọ dịghị mgbe ha na-enyocha **ihe dị n’ime**.
 
-Ugbu a, jide map ahụ. Ndị fọdụrụ n'usoro ahụ na-emejupụta ya.
+Ugbu a ị jidere maapụ ahụ. Usoro isiokwu ndị ọzọ ga-emeju ya.
 
 ---
 
-## Okwu
+## Nkọwa okwu
 
-| Oge okwu | Nkọwa Bekee dị mfe |
+| Okwu | Nkọwa dị mfe n’asụsụ Bekee |
 |---|---|
-| **Note** | Ọnụọgụ uru nkeonwe, Zcash's yiri mkpụrụ ego ma ọ bụ akwụkwọ ego |
-| **Note commitment** | Akara nzuzo nke na-egosi na ndetu dị adị n'ekpugheghị ya |
-| **Note commitment tree** | Ndekọ ọha na eze nke nkwa ndetu niile dị na mgbakwunye |
-| **Nullifier** | Ihe nrịbama "e mefuru" pụrụ iche nke e bipụtara mgbe ejiri akwụkwọ ndetu mee ihe, na-egbochi mmefu okpukpu abụọ |
-| **Zero-knowledge proof** | Ihe akaebe na-egosi na okwu bụ eziokwu ebe ọ na-ekpughe ihe ọ bụla karịrị eziokwu ya |
-| **Shielding / deshielding** | Ịkwaga ego n'ime / n'ime ụwa nkeonwe echekwara |
-| **Viewing Key** | Igodo nke na-enye onye nwe ya ohere ịchọpụta ma gụọ ihe ndetu e degaara ha |
+| **Note** | Otu uru nkeonwe, ihe Zcash ji dochie mkpụrụ ego ma ọ bụ akwụkwọ ego |
+| **Note commitment** | Akara nzuzo na-egosi na note dị adị na-ekpugheghị ya |
+| **Note commitment tree** | Ndekọ ọha nke na-anabata naanị mgbakwunye nke note commitment niile |
+| **Nullifier** | Akara “emefuru” pụrụ iche a na-ebipụta mgbe a na-eji note, na-egbochi imefu ugboro abụọ |
+| **Zero-knowledge proof** | Proof na nkwupụta bụ eziokwu ma na-ekpugheghị ihe ọ bụla karịrị eziokwu ya |
+| **Shielding / deshielding** | Ịkwaga ego banye / pụta n’ụwa nkeonwe e chebere echebe |
+| **Viewing Key** | Igodo na-ekwe ka onye nwe chọpụta ma gụọ note ezigara ya |
 
 ---
 
-## FAQ
+## Ajụjụ a na-ajụkarị
 
-**Zcash ọ na-abụkarị nkeonwe?**
-Mba. Nzuzo metụtara ụwa * a na-echebe * (`z...`/`u...` Adreesị .`t...`) azụmahịa bụ ọha, dị ka Bitcoin.
+**Zcash ọ na-abụ nkeonwe mgbe niile?**
+Mba. Nzuzo metụtara ụwa *nke e chebere echebe* (adreesị `z...`/`u...`). Azụmahia Oha (`t...`) bụ nke ọha, dịka Bitcoin.
 
-** Ọ bụrụ na ihe niile zoro ezo, gịnị na-egbochi mmadụ ibipụta ego n'efu? **
-The zero-knowledge proof. It mathematically forces every transaction's outputs to be backed by real, unspent inputs, *while* keeping the amounts secret.
+**Ọ bụrụ na e zoro ihe niile, gịnị na-egbochi mmadụ ibipụta ego n’efu?**
+Zero-knowledge proof. Ọ na-eme ka mgbakọ na mwepụ manye ihe mmepụta Azụmahia ọ bụla ka ezigbo ihe nbata a na-emefubeghị kwado ha, *mgbe* ọ na-edobe ego ole ahụ na nzuzo.
 
-** Enwere ike iji otu akwụkwọ ahụ emefu ugboro abụọ? **
-Mba, itinye ego n'akwụkwọ na-ebipụta ihe na-eme ka ọ ghara ịdị irè; ịnwale nke ugboro abụọ ga-ewepụta otu ihe ahụ, nke dịlarị na "eji" bin, ya mere netwọkụ ahụ jụrụ ya.
+**Enwere ike imefu otu note ugboro abụọ?**
+Mba. Imefu note na-ebipụta nullifier ya; mgbalị nke abụọ ga-ebipụta otu nullifier ahụ, nke dịlarị n’ime akpa “emefuru,” ya mere netwọk jụrụ ya.
 
-** Ndị ọzọ nwere ike ijikọ onye zitere ozi na onye natara ya?**
-No. The commitment (note's birth) and the nullifier (note's death) can't be matched by anyone without the owner's secret knowledge.
-
----
-
-### Azịza nke ule nghọta (Nkebi nke 9)
-
-If the nullifier were computed *only* from the note, with no secret key, then **anyone** could compute it, breaking property #1 (only the owner can spend). Worse, the nullifier would now be derivable straight from public information about the note, which could let observers **link the nullifier back to its commitment**, breaking property #3 and quietly unravelling the privacy of the whole system. The secret key is what makes the void token both *exclusively yours* and *unlinkable.*
+**Ndị nọ n’èzí hà pụrụ ijikọ onye zitere ya na onye natara ya?**
+Mba. Ọ dịghị onye na-enweghị ihe nzuzo onye nwe maara nwere ike ijikọ commitment (ọmụmụ note) na nullifier (ọnwụ note).
 
 ---
 
-### Kedu ihe ọzọ
+### Azịza nke nnwale nghọta (Ngalaba 9)
 
-**Article 1 . Finite fields:** the strange, beautiful number system where arithmetic "wraps around," and the reason every piece of cryptography in this series lives there. We'll start, as always, with intuition, no formulas until they're earned.
+Ọ bụrụ na a na-agbakọ nullifier *naanị* site na note, na-enweghị igodo nzuzo, mgbe ahụ **onye ọ bụla** ga-enwe ike ịgbakọọ ya, nke ga-emebi njirimara #1 (naanị onye nwe nwere ike imefu). Nke ka njọ, nullifier ga-adịzi mfe isi n’ihe ọha maara banyere note nweta, nke pụrụ ikwe ka ndị na-ekiri **jikọọ nullifier ahụ azụ na commitment ya**, mebie njirimara #3 ma bibie Nzuzo nke usoro ahụ dum nwayọọ nwayọọ. Igodo nzuzo bụ ihe na-eme token efu ahụ ka ọ bụrụ ma *nke gị naanị* ma *Ihe na-apughi ijikọ ọnụ.*
 
-* Akụkụ nke usoro Zcash sitere na First Principles * maka [ZecHub](https://zechub.org)Akwụkwọ ikike CC BY-SA 4.0.*
+---
+
+### Ihe na-esote
+
+**Edemede 1 . Finite fields:** usoro ọnụọgụ pụrụ iche ma mara mma ebe mgbakọ na mwepụ “na-agbagharị azụ,” na ihe mere akụkụ cryptography ọ bụla n’usoro isiokwu a ji biri ebe ahụ. Anyị ga-amalite, dịka mgbe niile, site na nghọta, na-enweghị fomula ruo mgbe ha dị mkpa.
+
+*Akụkụ nke usoro isiokwu* Zcash site na Ụkpụrụ Mbụ *maka [ZecHub](https://zechub.org). Ikikere CC BY-SA 4.0.*

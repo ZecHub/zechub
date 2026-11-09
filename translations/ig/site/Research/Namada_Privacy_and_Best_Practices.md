@@ -8,95 +8,95 @@ published: 2025-08-02
 
 ![Namada Logo](/content-images/nam-078c7b6883.webp)
 
-# Omume Kasị Mma nke Nzuzo Namada
+# Namada Ụzọ Kachasị Mma Maka Nzuzo [Privacy]
 
-> Nduzi bara uru, nke a pụrụ itinye n'ọrụ maka inweta nzuzo kachasị na Namada - nakwa ịghọta kpọmkwem ebe nchebe ya gwụrụ.
+> Ntụziaka bara uru, nke a pụrụ ime iji nweta Nzuzo kacha elu na Namada — ma ghọtakwa kpọmkwem ebe nchebe ya kwụsịrị.
 
-** Nzuzo bụ ikike dị mkpa.** E wuru Namada iji chebe ya site na nzuzo nke ihe ọmụma efu. Ntuziaka a na-ewepụta usoro kachasị mma ndị ọrụ na ndị mmepe nwere nchegbu banyere nzuzo ji eme ihe.
-
----
-
-## Otú Namada Si Echebe Nzuzo Gị
-
-Namada bụ ihe dị iche, nke nzuzo-mbụ blockchain na-ezochi adreesị wallet, ego azụmahịa, na nguzozi site n'iji **ihe akaebe efu (zk-SNARKs) **.
-
-### Ihe Ndị Dị Mkpa Banyere Nzuzo
-
-- **Shielded Transactions** - Zoro kpamkpam onye na-ezipụ, onye nnata, yana ego.
-- **Multi-Asset Shielded Pool (MASP)** - Nyefe onwe, swaps na bridging n'ofe akụ ọ bụla.
-- ** Cross-Chain Privacy** - Shielded bridging via IBC (Ethereum na Solana nkwado ga-abịa n'oge adịghị anya).
-- **Ebe E Si Nweta Ihe Na-enye Ụgwọ Ọrụ** - Kpatara tokens nke NAM nanị site na ịchekwa azụmahịa.
-- ** Ọnụ ego dị ala** - Nnukwu nzuzo na-enweghị ịchụ àjà ojiji.
+**Nzuzo bụ ikike dị mkpa.** Namada ka e wuru kpọmkwem iji chebe ya site na kriptografị zero-knowledge dị elu. Ntuziaka a chịkọtara ụzọ kachasị dị irè ndị ọrụ na ndị onye mmepụta na-atụle Nzuzo ji arụ ọrụ.
 
 ---
 
-## Ihe Ndị Dị Mkpa A Na-agaghị Emeli
+## Otu Namada Si Echebe Nzuzo Gị
 
-Ọbụna nzuzo kachasị ike na-agbanye n'ime agbụ nwere ike imebi site na omume onye ọrụ ma ọ bụ ihe ndị dịpụrụ adịpụ.
+Namada bụ blockchain nwere onwe ya nke Nzuzo bụ isi ya, na-ezobe Adreesị akpa ego [wallet addresses], ego Azụmahia [transaction], na fọdụ ego site n'iji **proof zero-knowledge (zk-SNARKs)**.
+
+### Njirimara Nzuzo Ndị Isi
+
+- **Azụmahia nke e chebere echebe [Shielded Transactions]** - Na-ezobe kpamkpam onye zitere, onye natara, na ego.
+- **Pool Nke E Chebere Echebe Maka Ọtụtụ Akụ [Multi-Asset Shielded Pool] (MASP)** - Nbufe nzuzo, Mgbawe [swap], na ijikọ bridge n'ofe akụ ọ bụla.
+- **Nzuzo Cross-Chain [Cross-Chain Privacy]** - Ijikọ bridge nke e chebere echebe site na IBC (nkwado Ethereum na Solana ga-abịa n'oge na-adịghị anya).
+- **Ụgwọ Mmasị Nke E Chebere Echebe [Shielded Yield Rewards]** - Nweta token NAM naanị site n'ichebe Azụmahia.
+- **Ugwo Dị Ala [Low Fees]** - Nzuzo siri ike na-enweghị ịhapụ ịdị mfe iji ya.
+
+---
+
+## Mmachi Ndị Dị Mkpa
+
+Ọbụna Nzuzo on-chain kachasị sie ike nwere ike imebi site n'omume onye ọrụ ma ọ bụ ihe ndị na-eme n'èzí chain.
 
 <div class="border-l-4 border-yellow-400 bg-yellow-400/10 p-6 my-8 rounded-r-xl text-sm">
 
-** Namada adịghị echebe megide:**
+**Namada ANAGHỊ echebe megide:**
 
-- Njikọ na-enweghị VPN ma ọ bụ Tor (adreesị IP gị dị)
-- Ịghaghachi adreesị echekwara ugboro ugboro
-- Ime azụmahịa ndị na-enweghị ihe ọ bụla (ndị a na-adịghị ahụ anya)
-- Ijikọta adreesị Namada gị na mgbasa ozi mmekọrịta ma ọ bụ njirimara ụwa n'ezie
-- Iji KYC centralized mgbanwe maka ego ma ọ bụ withdrawals.
+- Ijikọ na-enweghị VPN ma ọ bụ Tor (a ga-ahụ Adreesị IP gị)
+- Ijigharị Adreesị akpa ego nke e chebere echebe ugboro ugboro
+- Ime Azụmahia Oha [transparent] (nke anaghị echebe echebe)
+- Ijikọta Adreesị akpa ego Namada gị na mgbasa ozi mmekọrịta ma ọ bụ njirimara gị n'ezi ụwa
+- Iji exchange KYC etiti maka itinye ego ma ọ bụ iwepụ ego
 
 </div>
 
 ---
 
-## Omume Kasị Mma Maka Nzuzo Kachasị Elu
+## Ụzọ Kachasị Mma Maka Nzuzo Kacha Elu
 
-### 1. Ụkpụrụ Ndị Zuru Ezu
-- Ndabara na **shielded azụmahịa** maka ihe ọ bụla edinam.
-- Ejila adreesị ndị e chebere maka nzube dị iche.
-- Zere ịgwakọta ọrụ a na-ekpuchi ekpuchi na nke doro anya n'otu nnọkọ.
+### 1. Ụkpụrụ Izugbe
+- Họrọ **Azụmahia nke e chebere echebe** maka omume ọ bụla.
+- Ejigharịla Adreesị akpa ego nke e chebere echebe maka ebumnuche dị iche iche.
+- Zere ịgwakọta ọrụ nke e chebere echebe na nke Oha n'otu oge.
 
-### 2. Ihe Ndị E Ji Eme Ka Mmadụ Dị Ndụ
-- Jiri adreesị doro anya raara onwe ya nye ** naanị** maka ọwa na-abata.
-- Ngwa ngwa kpuchie akụ mgbe ị na-emechi.
-- Kwụsịlata ịpụ na Namada mgbe o kwere mee.
+### 2. Ijikọ Akụ Site na Bridge
+- Jiri Adreesị akpa ego Oha pụrụ iche **naanị** maka bridge ndị na-abata.
+- Chebe akụ ozugbo mgbe e jikọchara ha site na bridge bata.
+- Belata ijikọ akụ site na bridge pụọ na Namada mgbe o kwere omume.
 
-### 3. MASP (Multi-Asset Shielded Pool) - Nchịkọta ego na ihe ndị ọzọ.
-- Debe akụ niile n'ime MASP dịka ndabara.
-- Were ego MASP gị dị ka akpa ego nkeonwe gị.
+### 3. MASP (Pool Nke E Chebere Echebe Maka Ọtụtụ Akụ)
+- Debe akụ niile n'ime MASP site na ndabara.
+- Were fọdụ ego MASP gị dịka e-akpa ego [wallet] nzuzo gị bụ isi.
 
-### 4. Igodo Nlele
-- Kekọrịta igodo nlele **naanị** na ndị ị tụkwasịrị obi kpamkpam.
-- Ejila igodo nlele eme ihe ma ọ bụ bipụta ya.
+### 4. Viewing Key
+- Kesaa viewing key **naanị** ndị ị tụkwasịrị obi kpamkpam.
+- Ebipụtala ma ọ bụ bipụta viewing key n'ihu ọha.
 
-### 5. Ịdị ọcha azụmahịa
-- Na-eme ka oge na ego dị n'etiti azụmahịa.
-- Na-eme ọtụtụ azụmahịa mgbe o kwere omume.
-- Zere iziga ego na-agagharị agagharị ma ọ bụ nke a pụrụ ịmata n'ụzọ dị mfe.
+### 5. Ịdị Ọcha N'Azụmahia
+- Gbanwee oge na ego n'etiti Azụmahia n'enweghị usoro a na-ahụ anya.
+- Jikọta ọtụtụ Azụmahia n'otu oge mgbe o kwere omume.
+- Zere izipu ego zuru gburugburu ma ọ bụ ego a pụrụ ịmata ngwa ngwa.
 
-### 6. Nchebe Ọrụ
-- Jiri **VPN** (nke kachasị mma Tor) mgbe ị na-emekọrịta ihe n'akpa ma ọ bụ dApps.
-- Enwetala ihe onyonyo nke nwere adreesị maọbụ ego ole ha fọdụrụ.
-- Jiri obere akpa ego dị iche maka ihe ndị ị na-eme (ịzụ ahịa, inye onyinye, ma ọ bụ iji aka gị eme ha).
-
----
-
-## Ndepụta Nchekwa Nzuzo agbatịwo
-
-1. ** Na-echebe mgbe niile** - na-ebufe akụ n'ime MASP tupu ịmekọrịta.
-2. ** Gbanwee adreesị ndị e chebere** mgbe niile maka iji okwu dị iche.
-3. ** Wepụ ozugbo na adreesị echedoro** site n'ọgbanwe mgbe o kwere mee.
-4. ** Gbanwee oge azụmahịa** iji mebie usoro a na-achọpụta.
-5. **Jiri obere akpa ngwaike** maka nnukwu ụlọ ọrụ.
-6. **Na-emelite ngwanrọ** - na-agba ọsọ ahịa Namada kachasị ọhụrụ.
-7. ** Chekwaa ngwaọrụ gị** na ihe nzuzo siri ike na njikwa okwuntughe.
-8. **Kpachara anya nke ukwuu** gbasara metadata leaks na nkata ma ọ bụ ndekọ ọha.
+### 6. Nchekwa Ọrụ
+- Jiri **VPN** mgbe niile (ọkachasị Tor) mgbe ị na-arụ ọrụ na e-akpa ego ma ọ bụ dApps.
+- Ekekọrịtala onyonyo ihuenyo nwere Adreesị akpa ego ma ọ bụ fọdụ ego.
+- Jiri e-akpa ego dị iche iche maka ọrụ dị iche iche (ịzụ ahịa, onyinye, ojiji onwe onye).
 
 ---
 
-## Na-enye aka
+## Ndepụta Nlele Nzuzo Gbasapụrụ Agbasapụ
 
-Nwere usoro kachasị mma ma ọ bụ nzaghachi ọzọ? 
-[Jikọọ na mkparịta ụka n'elu Discord](https://discord.gg/srC76aE6)
+1. **Chebe mbụ mgbe niile** - bugharịa akụ n'ime MASP tupu ịme Azụmahia.
+2. **Gbanwee Adreesị akpa ego nke e chebere echebe** mgbe niile maka Ojiji dị iche iche.
+3. **Wepụ ego ozugbo gaa na Adreesị akpa ego nke e chebere echebe** site na exchange mgbe o kwere omume.
+4. **Gbanwee oge Azụmahia** iji kwụsị usoro a pụrụ ịmata.
+5. **Jiri hardware wallet** maka akụ buru ibu.
+6. **Debe sọftụwia ka ọ dị ọhụrụ** - jiri client Namada kachasị ọhụrụ mgbe niile.
+7. **Chebe ngwaọrụ gị** site na Nzobe ederede [encryption] siri ike na ndị njikwa okwuntughe.
+8. **Kpachara anya nke ukwuu** banyere mwepụta metadata na nkata ma ọ bụ ndekọ ọha.
 
 ---
-*Emelitere ikpeazụ: Machị 2026*
+
+## Nye Aka
+
+Ị nwere ụzọ kachasị mma ndị ọzọ ma ọ bụ nzaghachi?  
+[Soro na mkparịta ụka na Discord](https://discord.gg/srC76aE6)
+
+---
+*Emelitere ikpeazụ: Maachị 2026*

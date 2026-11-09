@@ -1,35 +1,35 @@
-# Zero to Zero Knowledge: Transparent vs Chebed Azụmahịa & Njikota Ọnụ
+# Zero to Zero Knowledge: Azụmahia Oha vs Nke e chebere echebe na Adreesị akpa ego e jikọtara ọnụ
 
 **Usoro:** Zero to Zero Knowledge
 
-Ọ bụrụ na ị na-amụta maka Zcash maka oge mbụ ị ga-achọpụta na e nwere ụdị azụmahịa abụọ dị: **Transparent** na **Shielded**. 
+Ọ bụrụ na ị na-amụta banyere Zcash na nke mbụ, ị ga-achọpụta na e nwere ụdị Azụmahia (transaction) abụọ dị: **Oha (Transparent)** na **nke e chebere echebe (Shielded)**.  
 
-Taa, anyị na-amụta maka ha ma na-ekpuchi otu n'ime atụmatụ ọhụrụ dị na usoro #Zcash, **Adreesị Ndị Dị n'Otu**.
+Taa, anyị ga-amụta gbasara ha ma kpuchie otu n'ime atụmatụ ọhụrụ dị na gburugburu #Zcash, **Adreesị akpa ego e jikọtara ọnụ (Unified Addresses)**.
 
 ---
 
-## Azụmahịa ndị a na-ahụ anya na ndị a na-echebe
+## Azụmahia Oha vs Nke e chebere echebe
 
-- **Azụmahịa doro anya** na-eji **adreesị t** (E tinyere koodu Base58). Ihe niile na-apụta ìhè n'ihu ọha - dịka Bitcoin. 
-- **Azụmahịa echekwara** na-eji adreesị e dere maka ọdọ mmiri **Sapling** ma ọ bụ **Orchard**. Ndị a na-ezochi onye zitere, onye nnata, na ego site na iji ihe akaebe na-enweghị ihe ọmụma.
+- **Azụmahia Oha** na-eji **t-addresses** (nke Base58 koodu kpuchiri). Ihe niile pụtara n'ihu ọha — dịka Bitcoin.  
+- **Azụmahia nke e chebere echebe** na-eji adreesị e koodu kpuchiri maka pool Sapling ma ọ bụ Orchard. Ndị a na-ezo onye zitere ya, onye natara ya, na ọnụ ego site n'iji zero-knowledge proofs.
 
-**Azụmahịa echekwara** na-ezo aka na azụmahịa ọ bụla nwere adreesị e tinyere koodu maka ọdọ mmiri Sapling/Orchard.
+**Azụmahia nke e chebere echebe** na-ezo aka n'Azụmahia ọ bụla nwere adreesị e koodu kpuchiri maka pool Sapling/Orchard.
 
 ![Transparent vs Shielded intro](/content-images/FpmW00HWIAIZpQD-a244cfd85d.webp)
 
-**Emebere Adreesị Ndị Dị n'Otu (UA)** iji **jikọta** azụmahịa ndị a na-echebe ma ọ bụ ndị doro anya n'ime otu adreesị.
+**Adreesị akpa ego e jikọtara ọnụ (UAs)** ka e mere iji **jikọta ọnụ** Azụmahia nke e chebere echebe ma ọ bụ nke Oha n'ime otu adreesị.
 
 ---
 
-## Ụdị Adreesị na Zcash
+## Ụdị Adreesị akpa ego na Zcash
 
-E nwere ụdị adreesị atọ a na-eji:
+E nwere ụdị Adreesị akpa ego 3 a na-eji:
 
-1. **(T) Ihe doro anya** – Isi ala 58 
-2. **(Z) Sapling** – Bech32 
-3. **(UA) Unified Address** – Bech32m 
+1. **(T) Oha** – Base58  
+2. **(Z) Sapling** – Bech32  
+3. **(UA) Adreesị akpa ego e jikọtara ọnụ** – Bech32m  
 
-Ọnụọgụ mkpụrụedemede (ya mere nha koodu QR) na-abawanye ka ụdị ọ bụla si dị.
+Ọnụọgụ mkpụrụedemede (ya mere nha koodu QR) na-abawanye n'ụdị nke ọ bụla.
 
 ![Address types comparison](/content-images/FpmXe5bXsAEFeLY-704048927f.webp)
 
@@ -37,44 +37,44 @@ E nwere ụdị adreesị atọ a na-eji:
 
 ---
 
-## Otu Adreesị Ndị Dị n'Otu Si Arụ Ọrụ
+## Otu Adreesị akpa ego e jikọtara ọnụ Si Arụ Ọrụ
 
-A na-etinye adreesị na igodo dị ka usoro byte (**Encoding Raw**). 
-Ndekọ ihe nnata **Ndekọ ihe nnata** gụnyere ozi niile dị mkpa iji nyefee ihe onwunwe site na iji usoro akọwapụtara.
+A na-ekodu adreesị na igodo dị ka usoro byte (**Raw Encoding**).  
+**Receiver Encoding** gụnyere ozi niile dị mkpa iji bufere akụ site n'iji otu protocol kpọmkwem.
 
-Usoro nhazi nke Unified Address bụ njikọta nke koodu (ụdị koodu, ogologo, addr) nke ndị nnata:
+Raw encoding nke Adreesị akpa ego e jikọtara ọnụ bụ ngwakọta encoding (typecode, length, addr) nke ndị nnata:
 
 - UA: `0x03`  
 - Sapling: `0x02`  
-- Ihe doro anya: `0x01`  
+- Oha: `0x01`  
 
-**Dị Mkpa**: A ga-enwerịrị **opekata mpe otu adreesị ịkwụ ụgwọ echekwara** na UA ọ bụla. (Sprout ọzọ mgbe emelitere Canopy.)
+**Dị mkpa**: A ghaghị inwe **opekata mpe otu adreesị Kwụọ ụhwọ (payment) nke e chebere echebe** n'ime UA ọ bụla. (A naghị akwado adreesị Sprout ọzọ mgbe nkwalite Canopy gasịrị.)
 
 ![UA encoding structure](/content-images/FpmYW1ZXgAAvALT-70903e29c6.webp)
 
-Nkọwapụta zuru oke: **[ZIP-316: Adreesị Ndị E Jikọtara Ọnụ](https://zips.z.cash/zip-0316)**
+Nkọwapụta zuru ezu: **[ZIP-316: Adreesị akpa ego e jikọtara ọnụ](https://zips.z.cash/zip-0316)**
 
 ---
 
-## Uru nke Adreesị Ndị Dị n'Otu
+## Uru Adreesị akpa ego e jikọtara ọnụ Bara
 
-- **Ọ dị mfe maka mgbanwe ego** - Ha nwere ike ịkwado nkwụnye ego/mwepụ ego echekwara nke ọma. 
-- **Agaghị echekwa ọdịnihu** - Enwere ike itinye ọdọ mmiri ndị e ji ihe nchebe kpuchie ọhụrụ n'emebighị obere akpa ego. 
-- **Echebere site na ndabara** - UA ọ bụla nwere opekata mpe otu adreesị echekwara, yabụ nzuzo dị mgbe niile.
+- **Ọ dịrị exchange mfe** — Ha nwere ike ugbu a ịkwado nkwụnye ego/mwepụ ego nke e chebere echebe n'enweghị ihe ize ndụ karịa.  
+- **Nke a kwadebere maka ọdịnihu** — Enwere ike ịgbakwunye pool ọhụrụ nke e chebere echebe na-enweghị imebi e-akpa ego (wallet).  
+- **Nke e chebere echebe na ndabara** — UA ọ bụla nwere opekata mpe otu adreesị nke e chebere echebe, yabụ Nzuzo (privacy) na-adị mgbe niile.
 
-Nke a bụ mgbanwe dị mkpa nke na-enyere ọtụtụ ZEC aka ịbanye n'ime ọdọ mmiri a na-echebe.
+Nke a bụ mgbanwe bụ isi nke na-enyelarị ọtụtụ ZEC aka ịbanye na pool nke e chebere echebe.
 
 ---
 
-## Azụmahịa na Ihe Omume Orchard
+## Azụmahia Orchard na Omume
 
-Orchard webatara echiche ọhụrụ akpọrọ **Ihe Omume**:
+Orchard webatara echiche ọhụrụ a kpọrọ **Omume (Actions)**:
 
-- Ha na-ebelata ntapu nke metadata site na iji **otu anchor** maka ihe niile emere na azụmahịa. 
-- Ha na-ejikọta ubi nke (V4) Mmefu + Mmepụta n'ime nkwa uru otu. 
-- Nke a na-eme ka sistemụ ihe akaebe Halo2 dịkwuo mma.
+- Ha na-ebelata mpụta metadata site n'iji **otu anchor** maka Omume niile dị n'Azụmahia.  
+- Ha na-ejikọta ubi nke (V4) Spend + Output n'ime otu value commitment.  
+- Nke a na-eme ka o kwe omume ịkwalite arụmọrụ nke usoro proof Halo2.
 
-Daira kọwara ọnọdụ Anchor (zcon3):
+Daira na-akọwa ọnọdụ Anchor (zcon3):
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -89,31 +89,31 @@ Daira kọwara ọnọdụ Anchor (zcon3):
 
 ---
 
-## Nhazi Uru na Nzuzo
+## Ntụle Uru na Nzuzo
 
-N'ọnọdụ ụfọdụ (dịka azụmahịa ndị a na-eme n'etiti ọdọ mmiri) ego nwere ike ịpụta ìhè nye onye na-ahụ ihe na-eme n'èzí. Agbanyeghị, `valueBalanceSapling` na `valueBalanceOrchard` jiri **nkwa ndị na-abụghị nke otu ihe** gosi na ZEC zuru oke dị n'ime ọdọ mmiri ndị a na-echebe ma gbochie ire ere.
+N'ọnọdụ ụfọdụ (dịka ọmụmaatụ, Azụmahia n'etiti pool), onye na-ekiri nọ n'èzí nwere ike ịhụ ọnụ ego. Otú ọ dị, `valueBalanceSapling` na `valueBalanceOrchard` na-eji **homomorphic commitments** gosi mkpokọta ZEC dị na pool nke e chebere echebe ma gbochie nṅomi ego.
 
-GỤKWUO: [ZIP 209: Machibido Nhazi Uru Agbụ Azụ nke Na-abụghị nke Oke](https://zips.z.cash/zip-0209)
-
----
-
-## Mmezi n'ọdịnihu
-
-Ndị otu ECC na-arụ ọrụ na usoro RPC ọhụrụ na `zcashd` (na-anọchi anya `z_sendmany`) nke ga-enye ndị ọrụ ohere ịlele ma nabata/jụ azụmahịa a tụrụ aro dabere na njirimara nzuzo ya.
+Gụkwuo: [ZIP 209: Machibido Ntụle Uru Pool Chain Nke Anọghị n'Udi](https://zips.z.cash/zip-0209)
 
 ---
 
-## Nkwanye
+## Mmelite N'ọdịnihu
 
-Eriri a pụtara na **YWallet**, maka atụmatụ azụmahịa o gosiri tupu ị pịa izipu. A naghịzi elekọta YWallet, a gaghịkwa emelite ya maka Ironwood, yabụ na ọ gaghịzi eso usoro a. Họrọ obere akpa ego echekwara site na [Obere akpa](https://zechub.wiki/wallets) kama, họrọ nke ga-agwa gị ihe azụmahịa ga-ekpughe tupu ọ pụọ.
-
-Edemede dị mma gbasara nzuzo azụmahịa: https://medium.com/@hanh.huynh/
+Otu ECC na-arụ ọrụ na ụzọ RPC ọhụrụ na `zcashd` (nke ga-anọchi `z_sendmany`) nke ga-eme ka ndị ọrụ nwee ike ịhụ tupu oge eruo ma nabata/jụ Azụmahia a tụrụ aro dabere na njirimara Nzuzo ya.
 
 ---
 
-**Edemede mbụ nke ZecHub (@ZecHub)** 
+## Nkwado
+
+Eriri okwu a na mbụ rụtụrụ aka na **YWallet**, maka atụmatụ Azụmahia ọ gosiri tupu ịpịa zitere. A naghị edozi YWallet ọzọ, a gaghịkwa emelite ya maka Ironwood, yabụ o nweghịzi ike iso chain. Họrọ e-akpa ego a na-elekọta site na ibe [Wallets](https://zechub.wiki/wallets) kama, ma họrọ nke na-agwa gị ihe Azụmahia ga-ekpughe tupu e ziga ya.
+
+Ederede magburu onwe ya gbasara Nzuzo Azụmahia: https://medium.com/@hanh.huynh/
+
+---
+
+**Eriri okwu mbụ sitere n'aka ZecHub (@ZecHub)**  
 https://x.com/ZecHub/status/1628498645627666432
 
 ---
 
-*E si na eriri Zero to Zero Knowledge nke mbụ chịkọta ibe a maka wiki ZecHub.*
+*E jikọtara ibe a site na eriri okwu mbụ Zero to Zero Knowledge maka wiki ZecHub.*

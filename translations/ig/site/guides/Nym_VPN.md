@@ -1,16 +1,16 @@
 # Nym VPN 
 
-Nym is an evolving mix network (mixnet), a type of computer network infrastructure for privacy that masks user metadata, separating source and destination IP addresses. It anonymizes various types of communication, including messaging, files transfers, payments transactions, and web browsing on basic websites. The project is built on free and open-source software and is decentralized, maintained by a distributed set of independent nodes worldwide.Nym VPN & Mixnet accepts payment in shielded ZEC! 
+Nym bụ netwọk ngwakọta (mixnet) na-agbanwe agbanwe, ụdị akụrụngwa netwọk kọmputa maka Nzuzo [privacy] nke na-ezobe metadata onye ọrụ, ma kewaa adreesị IP mmalite na nke njedebe. Ọ na-eme ka ụdị nkwukọrịta dị iche iche ghara ịmata onye nwe ha, gụnyere izi ozi, nnyefe faịlụ, Azụmahia [transaction] Kwụọ ụhwọ [payment], na nchọgharị weebụ n'ebe nrụọrụ weebụ ndị bụ isi. Ewubere ọrụ a n'elu sọftụwia n'efu ma mepere emepe, ọ bụkwa decentralized, nke otu node ndị nọọrọ onwe ha kesara n'ụwa niile na-elekọta.Nym VPN & Mixnet na-anabata Kwụọ ụhwọ na ZEC nke e chebere echebe [shielded]! 
 
-[Nym Blog Post](https://nym.com/blog/nymvpn-with-zcash) [Download Nym VPN](https://nym.com)
+[Nym Edemede Blọọgụ](https://nym.com/blog/nymvpn-with-zcash) | [Budata Nym VPN](https://nym.com)
 
-## Nkuzi nkuzi
+## Nkuzi
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
     className="w-full h-full"
     src="https://www.youtube.com/embed/gSeECj4ddYA"
-    title="How to Buy NymVPN with Zcash (ZEC)"
+    title="Otu esi eji Zcash zụta NymVPN (ZEC)"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowFullScreen
     loading="lazy"
@@ -18,54 +18,53 @@ Nym is an evolving mix network (mixnet), a type of computer network infrastructu
 </div>
    
 
-### Ịnweta ọdịnaya geo-egbochi
+### Nweta ọdịnaya nwere mmachi mpaghara
 
-Na-agafe geo-mmachibido iji nweta ọrụ ntanetị, weebụsaịtị, ma ọ bụ ọdịnaya adịghị na mpaghara gị.
+Gafee mmachi mpaghara iji nweta ọrụ nkwanye, ebe nrụọrụ weebụ, ma ọ bụ ọdịnaya adịghị na mpaghara gị.
 
 ### Mee ka nchekwa gị dịkwuo elu na WiFi ọha
 
-Chebe data gị site n'aka ndị hacker mgbe ị na-eji Wi-Fi ọha na eze na kọfị, ọdụ ụgbọelu, ma ọ bụ họtel.
+Chebe data gị pụọ n'aka ndị ohi kọmputa mgbe ị na-eji Wi-Fi ọha n'ụlọ kọfị, ọdụ ụgbọelu, ma ọ bụ ụlọ nkwari akụ.
 
-### Nzuzo dị elu n'otu 
+### Nzuzo Dị Elu N'Otu 
 
-Chebe ihe nzuzo gị
-Encrypt your internet connection to hide your online activities from ISPs, advertisers, and data trackers.
+Chebe Nzuzo gị  
+Zoo njikọ ịntanetị gị ka i wee zoo ọrụ ịntanetị gị n'aka ISP, ndị mgbasa ozi, na ndị na-enyocha data.
 
-### Ejila aha gị eme ihe n'Ịntanet
+### Ghara ịmata onye ị bụ n'ịntanetị
 
-Na-ekpuchi adreesị IP gị ka ị ghara ịma aha gị mgbe ị na-eme nchọgharị, na-ezere profaịlụ ma ọ bụ mgbasa ozi ezubere iche.
+Zoo adreesị IP gị ka ị nọrọ n'amaghị aha mgbe ị na-achọgharị, ma zere ịmepụta profaịlụ ma ọ bụ mgbasa ozi a na-elekwasị anya.
 
-### Zere bandwidth throttling
+### Zere ibelata bandwit
 
-Gbochie ndị na-enye ọrụ ịntanetị ịbelata njikọ ịntanetị gị mgbe ị na-egwu egwu ma ọ bụ na egwuregwu.
+Gbochie ISP ibelata ọsọ njikọ ịntanetị gị mgbe ị na-ekiri ihe nkwanye ma ọ bụ na-egwu egwuregwu.
 
-### Gbochie nlekota na nnyocha
+### Gbochie nlekọta na mmachi
 
-Bypass censorship and access blocked websites or social media in restrictive countries.
+Gafee mmachi ma nweta ebe nrụọrụ weebụ ma ọ bụ mgbasa ozi mmekọrịta egbochiri na mba nwere mmachi.
 
-### Ịntanetị na-echekwa ego n'ịntanetị
+### Bankị n'ịntanetị echekwara
 
-Protect sensitive financial information when accessing online banking or making payments.
+Chebe ozi ego dị mkpa mgbe ị na-enweta bankị n'ịntanetị ma ọ bụ na-akwụ ụgwọ.
 
-### Zere ịnye ọnụahịa dị egwu
+### Zere ọnụahịa na-agbanwe agbanwe
 
-Zoo ọnọdụ gị iji zere ịkpa oke ọnụahịa dabere na ọnọdụ maka ụgbọ elu, ụlọ oriri na nkwari akụ, ma ọ bụ ngwaahịa.
+Zoo ebe ị nọ iji zere ịkpa ókè n'ọnụahịa dabere na ebe maka ụgbọ elu, ụlọ nkwari akụ, ma ọ bụ ngwaahịa.
 
-### Chebe azụmahịa gị crypto
+### Chebe azụmahịa crypto gị
 
-Chebe ọrụ cryptocurrency gị na NymVPN's unlinkable ịkwụ ụgwọ na nchekwa metadata dị elu.
+Chebe ọrụ cryptocurrency gị site na NymVPN's Ihe na-apughi ijikọ ọnụ [unlinkable] Kwụọ ụhwọ na nchedo metadata dị elu.
 
 
-## Ntuziaka Ntinye Nym VPN:
+## Nduzi Ntinye VPN Nym:
 
 [iOS](https://vimeo.com/1083490444/81e95709b0) 
 
 [MacOS](https://vimeo.com/1080779573/78844dc8db)
 
-[Windo](https://vimeo.com/1085710809/52876930a6)
+[Windows](https://vimeo.com/1085710809/52876930a6)
 
 [Android](https://vimeo.com/1096218590?share=copy)
 
 
-Mụta maka [Nym x Zcash integration](https://nym.com/blog/zcash-ltgt-nym)
- 
+Mụta maka njikọta [Nym x Zcash](https://nym.com/blog/zcash-ltgt-nym)

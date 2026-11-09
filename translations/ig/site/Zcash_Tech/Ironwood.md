@@ -1,134 +1,138 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Zcash_Tech/Ironwood.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Dezie Peeji"/>
 </a>
 
 # Ironwood
 
-> Ironwood arụ ọrụ na Zcash mainnet na ngọngọ 3,428,143 na July 28, 2026 UTC, ọ nọkwa ndụ kemgbe.
+> Ironwood rụrụ ọrụ na Zcash mainnet na block 3,428,143 n'ụbọchị Julaị 28, 2026 UTC, ma ọ nọgidela na-arụ ọrụ kemgbe ahụ.
 
-Ihe ị ga-ewepụ: ihe Ironwood gbanwere, gịnị mere ahụhụ dị na ego zoro ezo ji bụrụ nke siri ike, nakwa etu turnstile si eme ka onye ọ bụla kwenye na e meghị ZEC.
+Ihe ị ga-amụta: ihe Ironwood gbanwere, ihe mere ahụhụ dị n'ego zoro ezo ji dị njọ, na otú turnstile si eme ka onye ọ bụla kwado na ọ nweghị ZEC e mepụtara n'ụzọ aghụghọ.
 
-Ironwood bụ Zcash. [nkwalite netwọkụ.](../start-here/network-upgrades), nke a na-akpọ NU6.3, bụ ebe e debere ọdọ mmiri ọhụrụ nwere otu aha ahụ. A [ọdọ mmiri e chebere echebe.](../using-zcash/shielded-pools) bụ nchịkọta ego nke ọnụ ọgụgụ na ndị nwe ya zoro ezo site n'aka onye ọrụ. [ihe nzuzo na-enweghị isi.](../zcash-tech/zk-snarks)Ironwood dị iji gbochie ma nyochaa ihe mgbochi ahụike achọtara na ọdọ mmiri echedoro Orchard ugbu a, yana inye obodo ụzọ siri ike karị inyocha na ngụkọta nke ZEC bụ eziokwu. A kọwapụtara iwu nkwekọrịta ya n'ime [ZIP 258  Ihe e dere n'ala ala peeji](https://zips.z.cash/zip-0258).
+Ironwood bụ Zcash [network upgrade](../start-here/network-upgrades), nke a na-akpọ n’ụzọ iwu NU6.3, nke na-ewebata pool ọhụrụ nke e chebere echebe nwere otu aha ahụ. A [pool nke e chebere echebe](../using-zcash/shielded-pools) bụ nchịkọta ego ndị ọnụego ha na ndị nwe ha na-adị ezoro ezo site na [zero-knowledge cryptography](../zcash-tech/zk-snarks). Ironwood dị iji gbochie ma nyochaa mmejọ soundness achọpụtara na pool nke e chebere echebe Orchard dị ugbu a, ma nye obodo ụzọ siri ike karị isi lelee na mkpokọta ọkọnọ nke ZEC bụ eziokwu. Edepụtara iwu consensus ya na [ZIP 258](https://zips.z.cash/zip-0258).
 
-Why this matters. With transparent money like Bitcoin, anyone can check that no coins were forged by reading the public ledger. Shielded money hides the amounts, so you cannot just look. Instead the cryptography itself has to guarantee that no one can create money in secret. Ironwood matters because a bug was found in that guarantee for the Orchard pool. The upgrade closes the gap and gives anyone a way to confirm that the total supply of ZEC is still honest.
+Ihe mere nke a ji dị mkpa. N'ego Oha dịka Bitcoin, onye ọ bụla nwere ike nyochaa na a kpaghị ego n'ụzọ aghụghọ site n'ịgụ ledger ọha. Ego e chebere echebe na-ezo ego ole dị, ya mere ị pụghị ile anya naanị. Kama nke ahụ, cryptography n'onwe ya aghaghị ikwe nkwa na ọ dịghị onye nwere ike imepụta ego na nzuzo. Ironwood dị mkpa n'ihi na achọtara ahụhụ n'ime nkwa ahụ maka pool Orchard. Upgrade ahụ mechiri oghere ahụ ma nye onye ọ bụla ụzọ isi kwado na mkpokọta ọkọnọ ZEC ka bụ eziokwu.
 
-Ọhụrụ na Zcash? Bido site n'ịmalite. [Gịnị bụ ZEC na Zcash?](../start-here/what-is-zec-and-zcash) na nke a: [Ọdọ Mmiri Ndị E Chebere Echiche Ha Na Ya](../using-zcash/shielded-pools), mgbe ahụ, laghachi ebe a.
+Ị dị ọhụrụ na Zcash? Bido na [Gịnị bụ ZEC na Zcash](../start-here/what-is-zec-and-zcash) na [Shielded Pools](../using-zcash/shielded-pools), wee laghachi ebe a.
 
 ![Ironwood value migration flow: value leaves the Orchard pool, passes through the turnstile checkpoint, and enters the new Ironwood pool](/content-images/ironwood-flow-8af7a58b99.webp)
 
-## Ihe Mere Osisi Ironwood Ji Dị Mkpa
+## Ihe mere e ji chọọ Ironwood
 
-Na ngwụcha ọnwa Mee 2026, onye nyocha nchekwa onwe ya Taylor Hornby, n'oge nyochaa usoro maka [Ụlọ nyocha echekwara](../zcash-organizations/shielded-labs), responsibly disclosed a soundness bug in the Orchard shielded pool. Orchard was Zcash's newest shielded pool at the time, and the flaw sat in an elliptic-curve part of its zero-knowledge circuit, which uses the [Halo](../zcash-tech/halo) 2 na-egosi usoro.
+N'ọgwụgwụ Mee 2026, onye nyocha nchekwa onwe ya bụ Taylor Hornby, mgbe ọ na-eme nyocha protocol maka [Shielded Labs](../zcash-organizations/shielded-labs), kpughere n'ụzọ kwesịrị ekwesị ahụhụ soundness dị na pool nke e chebere echebe Orchard. Orchard bụ pool ọhụrụ kachasị ọhụrụ nke e chebere echebe nke Zcash n'oge ahụ, mmejọ ahụ dịkwa n'akụkụ elliptic-curve nke circuit zero-knowledge ya, nke ji [Halo](../zcash-tech/halo) 2 proving system.
 
-1. Ihe na-egosi na azụmahịa bụ nke ziri ezi abụghị ihe ga-eme ka o doo anya.
-2. Na usoro iwu, onye na-awakpo nwere ike iji ntụpọ ahụ mepụta uru adịghị mma n'ime ọdọ mmiri Orchard ma jiri ego ndị na - abụghị nke ha mee ihe, hapụ enweghị akara ọ bụla node nkịtị ga - ejide.
-3. Zcash's turnstile ka na-emebi ego ole uru nwere ike ịhapụ Orchard, yabụ enweghị ike ịgbagha ngụkọta ahụ, mana cryptography nke ọdọ mmiri anaghịzi ekwe nkwa na mkpụrụ ego ọ bụla zoro ezo n'ime ya bụ ezigbo.
+1. Ahụhụ soundness pụtara na mgbakọ na mwepụ nke na-egosi na Azụmahia dị irè anaghị ekwe nkwa ya nke ọma n'ụzọ zuru oke.
+2. N'echiche, onye mwakpo nwere ike iji mmejọ ahụ mepụta uru na-adịghị irè n'ime pool Orchard ma mefuo ego na-abụghị nke ya n'ezie, n'enweghị akara node nkịtị ga-ahụ.
+3. Turnstile nke Zcash ka machibidoro uru ole nwere ike isi na Orchard pụọ, ya mere a pụghị ịbawanye mkpokọta ọkọnọ, mana cryptography nke pool ahụ n'onwe ya anaghịzi ekwe nkwa na mkpụrụ ego niile zoro ezo dị n'ime ya bụ eziokwu.
 
 ![The bug explained: a transaction puts in 5 ZEC, but the flawed proof still passes when 7 ZEC come out, creating 2 ZEC from nothing](/content-images/ironwood-bug-8f689d6f61.webp)
 
-The numbers above are a simplified picture. The real flaw was in a specific piece of the circuit's math, not a literal count of coins going in and out. The point to take away is only that a soundness bug can let value be created inside the pool without detection.
+Ọnụọgụ ndị dị n'elu bụ nkọwa dị mfe. Mmejọ n'ezie dị n'otu akụkụ kpọmkwem nke mgbakọ na mwepụ circuit ahụ, ọ bụghị ọnụ ọgụgụ mkpụrụ ego na-abanye na ndị na-apụ n'ezie. Naanị isi ihe ị ga-amụta bụ na ahụhụ soundness nwere ike ikwe ka e mepụta uru n'ime pool n'enweghị nchọpụta.
 
-Importantly, there is no evidence the bug was ever exploited, no evidence of impact to user funds, and no evidence that the total supply of ZEC changed. It was found through security research and fixed before any known harm.
+N'ụzọ dị mkpa, ọ nweghị ihe akaebe na e jirila ahụhụ ahụ mee ihe, ọ nweghị ihe akaebe na ego ndị ọrụ metụtara, ọ nweghịkwa ihe akaebe na mkpokọta ọkọnọ ZEC gbanwere. Achọpụtara ya site na nyocha nchekwa ma dozie ya tupu mmerụ ọ bụla a maara.
 
-## Ihe Ndị Mmadụ Mere Mgbe A Chọrọ Ya
+## Nzaghachi
 
-Ndị obodo Zcash zigara ndozi na nkebi kama ịbụ otu oge.
+Obodo Zcash wepụtara mmezi n'ọkwa dị iche iche kama ime ha niile n'otu oge.
 
 ![Ironwood response timeline: the Orchard bug is found in May 2026, the pool is paused in June 2026, the circuit is fixed in NU6.2, and Ironwood activated at block 3,428,143 on July 28, 2026](/content-images/ironwood-timeline-36243f0cd7.webp)
 
-1. Na mbido June 2026, ihe na-adịru nwa oge gbanyụrụ ọdọ mmiri Orchard ka a kwadebere idozi ya.
-2. Nwelite NU6.2 doziri usoro Orchard n'onwe ya, na-emechi nsogbu ahụ dị mkpa.
-3. Nwelite NU6.3, Ironwood, na-ewebata ọdọ mmiri ọhụrụ a kpuchiri ekpuchi yana ebe nlele ọha ka uru ahụ wee pụọ na olulu ochie Orchard n'okpuru nyocha zuru oke.
+1. Ná mmalite Juun 2026, usoro nwa oge kwụsịrị pool Orchard mgbe a na-akwado mmezi zuru oke.
+2. Upgrade NU6.2 doziri circuit Orchard n'onwe ya, mechie adịghị ike soundness dị n'okpuru.
+3. Upgrade NU6.3, Ironwood, na-ewebata pool ọhụrụ nke e chebere echebe na ebe nlele ọha ka uru wee si n'ọdọ pool Orchard pụọ n'okpuru nyocha zuru oke.
 
 ![The fix in NU6.2: the corrected proof requires inputs to equal outputs, so a valid 5 ZEC output passes while an attempt to output 7 ZEC is rejected](/content-images/ironwood-fix-bb4f70ddc9.webp)
 
-## Ihe ọdọ mmiri Ironwood na-eme
+## Ihe pool Ironwood na-eme
 
-NU6.2 nwetara usoro Orchard maka azụmahịa ọhụrụ niile, mana uru e mepụtara n'okpuru iwu ochie ka na-anọdụ na ọdọ mmiri nke Orchard. Ironwood nyere uru ahụ ebe dị ọcha yana ụzọ iji nyochaa ya mgbe ọ na-agagharị.
+NU6.2 chebere circuit Orchard maka Azụmahia ọhụrụ niile, mana uru e mepụtara n'okpuru iwu ochie ka nọ na pool Orchard. Ironwood na-enye uru ahụ ebe ọhụrụ dị ọcha na ụzọ isi nyochaa ya ka ọ na-agagharị.
 
-Ogwe Ironwood bụ oghere ego echekwara nke NU6.3 mepụtara na ngọngọ 3,428,143. Ọ wuru n'elu usoro a gbaziri agbazi ma jiri ụdị mpempe akwụkwọ nwere ike weghachite (atụmatụ nke ga-eme ka eweghachi ego ọ bụrụhaala na ị nweta ya) [kọmputa quantum](../zcash-tech/post-quantum-security) mgbe ọ bụla mebie cryptography nke taa), akọwapụtara na [ZIP 2005 Ihe ndị dị na peeji nke 3](https://zips.z.cash/zip-2005).
+Pool Ironwood bụ pool uru e chebere echebe nke NU6.3 mepụtara na block 3,428,143. Ewubere ya n'elu circuit a doziri ma jiri ụdị note nke enwere ike iweghachite mgbe quantum (nhazi nke na-eme ka e nwee ike iweghachite ego ma ọ bụrụ na [quantum computers](../zcash-tech/post-quantum-security) emebie cryptography nke taa) kọwara na [ZIP 2005](https://zips.z.cash/zip-2005).
 
-1. Mgbe arụ ọrụ, ọdọ mmiri ochie Orchard na-aghọ naanị mmefu ego, yabụ enweghị uru ọhụụ nwere ike ịbanye n'ime ya.
-2. Uru ọhụrụ a na-echebe gafere n'ime Ironwood kama.
-3. ZEC echekwara na-echekwa otu ihe ahụ siri ike nke nzuzo dị ka onye zitere, nnata, na ego.
+1. Mgbe arụchara ya, pool ochie Orchard na-adị naanị maka mmefu, ya mere uru ọhụrụ enweghị ike ịbanye na ya.
+2. Uru ọhụrụ e chebere echebe na-abanye na Ironwood kama.
+3. N'ime Ironwood, Azụmahia e chebere echebe ZEC na-edobe Nzuzo nke na-ezo onye zitere, onye natara, na ego ole. Ịkwaga ZEC site na Orchard banye na Ironwood na-egosi ego ole a kwagara.
 
-## Ihe na-eme ka ọ dị mma.
+## Turnstile
 
-Echiche bụ isi dị na Ironwood bụ turnstile, ebe a ga-enyocha ego nke mkpụrụ ego ọ bụla aghaghị ịgafe mgbe ha si n'ọdọ mmiri ochie Orchard banye Ironwood.
+Echiche bụ isi na Ironwood bụ turnstile, ebe nlele ndekọ ego nke mkpụrụ ego ọ bụla ga-agafe mgbe ọ na-esi na pool ochie Orchard abanye na Ironwood.
 
-> Ọ bụrụ na e jiri ọnụ ụzọ dị n'ime ụlọ akụ̀ mee ihe, ọ ga-eme ka ego ndị zoro ezo dịrị otú ha si adịrị. Ị gaghị ahụcha ebe ha nọ ma ị ga-enwe ike ịgụ kpọmkwem ihe niile batara n'ụlọ akụ̀ nakwa nke pụrụ isi na ya pụta.
+> Turnstile na-eme maka ego zoro ezo ihe ọnụ ụzọ iko na-eme maka ebe nchekwa ego ụlọ akụ. Ị ka pụghị ịhụ ihe dị n'ime, mana ị nwere ike ịgụta kpọmkwem ihe na-abanye na ihe na-apụta.
 
-1. A na-agụta ego ndị si n'Orchard pụọ n'ebe ọha mmadụ ga-enyocha tupu ha abanye Ironwood.
-2. Nke a na-enye onye ọ bụla ohere inyocha etu ZEC si akwaga, na-ewusi ntụkwasị obi n'ezi ọkọnọ.
-3. Ọ bụrụ na e mepụtala ZEC adịgboroja site n'ihe ahụ mere tupu mgbe a, ọ bụ ebe a ka ha ga-apụta.
+1. A na-agụta ego na-apụ na Orchard n'ebe nkwado ọha tupu ha abanye na Ironwood.
+2. Nke a na-eme ka onye ọ bụla nwee ike nyochaa ego ole ZEC na-akwaga, na-eme ka ntụkwasị obi n'ọkọnọ dị n'ezi mgbasa sie ike.
+3. Ọ bụrụ na e mepụtara ZEC adịgboroja ọ bụla site n'ahụhụ mbụ ahụ, ebe ndekọ mbugharị a bụ ebe ọ ga-apụta.
 
-Turnstiles are not new to Zcash. The network has used them before, at the boundaries between the Sprout, Sapling, and Orchard pools, so that value moving between pools stays auditable and no pool can release more than legitimately entered it.
+Turnstile abụghị ihe ọhụrụ nye Zcash. Network ejirila ha mbụ, n'ókè dị n'etiti pool Sprout, Sapling, na Orchard, ka uru na-agagharị n'etiti pool wee nọgide bụrụ nke a pụrụ inyocha, ma pool ọ bụla ghara ịhapụ karịa ihe batara na ya n'ụzọ ziri ezi.
 
-Iwu nkwekọrịta na-eme ka ego ọ bụla bara uru, gụnyere Ironwood, n'ime oke ego kachasị nke netwọkụ ahụ. Ya mere nguzozi ọdọ mmiri enweghị ike ịbaghị uru.
+Iwu consensus na-edobe pool uru ọ bụla, gụnyere Ironwood, n'ime oke ego kachasị elu nke network, ya mere nguzozi pool enweghị ike ịda n'okpuru efu.
 
 ## Ihe ndị ọrụ kwesịrị ime
 
-Wallets and node software handle most of this automatically, but the practical shift is simple: over time, move shielded holdings from the old Orchard pool through the turnstile into the Ironwood pool. Follow the guidance from your wallet provider, and always update to a supported release before the activation block.
+E-akpa ego na ngwanrọ node na-ejikwa ọtụtụ nke a n'onwe ha, mana mgbanwe bara uru dị mfe: ka oge na-aga, bugharịa ego e chebere echebe site na pool ochie Orchard gafee turnstile banye na pool Ironwood. Mbugharị ọ bụla na-egosi ego ole ya na blockchain, ya mere e-akpa ego ndị na-eso [ZIP 318](https://zips.z.cash/zip-0318) na-ekewa ya n'ogo ọkọlọtọ ma ziga ha ka oge na-aga. Soro ntụziaka sitere n'aka onye na-enye gị e-akpa ego, ma debe ngwanrọ gị n'ụdị a na-akwado.
 
-## Akwụkwọ ọkọwa okwu
+## Nkọwa okwu
 
-| Oge okwu | Nkọwa Bekee dị mfe |
+| Okwu | Nkọwa dị mfe n'Igbo |
 |---|---|
-| Shielded pool | Nchịkọta ego nke ego na ndị nwe ya zoro ezo site na nzuzo efu |
-| Soundness bug | Njehie nke na-ekwe ka azụmahịa na-ezighi ezi gafere nyocha akaebe dị ka a ga-asị na ọ dị irè |
-| Turnstile | Ebe nlele ọha nke na-agụta uru na-agagharị n'etiti ọdọ mmiri ka ọkọnọ ahụ wee nọgide na-enyocha ya |
-| Spend-only | Ọdọ mmiri ị nwere ike iji, mana ị gaghị etinye uru ọhụrụ na ya |
-| Network upgrade (NU) | Mgbanwe nhazi na iwu nkwekọrịta Zcash's, nke a na-arụ ọrụ na elu blọk edobere |
-| Quantum-recoverable note | E mere usoro ndetu ka e wee nweta ego ma ọ bụrụ na kọmputa quantum emebie ihe ndekọ ego nke oge a |
+| Shielded pool | Nchịkọta ego nke zero-knowledge cryptography na-ezo ego ole dị na ndị nwe ha |
+| Soundness bug | Mmejọ nke na-eme ka Azụmahia na-adịghị irè gafee nlele proof dịka a ga-asị na ọ dị irè |
+| Turnstile | Ebe nlele ọha nke na-agụta uru na-agagharị n'etiti pool ka ọkọnọ wee nọgide bụrụ nke a pụrụ inyocha |
+| Spend-only | Pool ị nwere ike isi mefuo ego, mana ị pụghị itinye uru ọhụrụ n'ime ya |
+| Network upgrade (NU) | Mgbanwe ahaziri ahazi n'iwu consensus nke Zcash, nke a na-arụ ọrụ n'ogo block e setịpụrụ |
+| Quantum-recoverable note | Ụdị note e mere ka e wee nwee ike iweghachite ego ma ọ bụrụ na quantum computers emebie cryptography nke taa |
 
-## Ajụjụ ndị a na-ajụkarị
+## Ajụjụ Ndị A Na-ajụkarị
 
-Ọ̀ bụ na ZEC m emetụtaghị ya? Mba. O nweghị ihe akaebe ọ bụla gosiri na e ji nje ahụ mee ihe, o metụtaghị ego ndị ọrụ ha nwere ma ọ bụkwanụ ngụkọta nke ngwá ahịa nile dị n'ụlọ akụ̀.
+Ego ZEC m ọ metụtara? Mba. Ọ nweghị ihe akaebe na e jiri ahụhụ ahụ mee ihe, ọ nweghị mmetụta n'ego ndị ọrụ, ọ nweghịkwa mgbanwe n'ọkọnọ mkpokọta.
 
-Do I need to do anything? Keep your wallet and node software updated to a supported release before the activation block. Your wallet moves funds into Ironwood over time as you spend, so there is nothing manual to rush. Follow your wallet provider's guidance.
+Ọ dị ihe m kwesịrị ime? Debe e-akpa ego gị na ngwanrọ node n'ụdị a na-akwado. Imefu ego Orchard na-ebuga ha na Ironwood, ego ole na-agafe bụkwa nke ọha. Ụfọdụ e-akpa ego na-enye mbugharị nke na-eziga ego n'ogo ọkọlọtọ ka oge na-aga, ka o siere ike ijikọ nguzozi gị. Soro ntụziaka onye na-enye gị e-akpa ego.
 
-Is Zcash still private? Yes. Ironwood keeps the same shielded privacy that hides sender, receiver, and amount. This upgrade is about supply integrity, not privacy.
+Zcash ka nwere Nzuzo? Ee. Kwụọ ụhwọ n'ime Ironwood na-ezo onye zitere, onye natara, na ego ole, dịka Kwụọ ụhwọ Orchard na-eme. Ego ole na-agagharị n'etiti pool, dịka site na Orchard gaa na Ironwood, bụ nke ọha. Upgrade a gbasara izi ezi ọkọnọ.
 
-Ọ bụ site na nchọpụta nchekwa, ekpughere ya n'ụzọ dị mkpa ma dozie tupu ọ bụla amara ihe ọjọọ.
+E jirila ahụhụ ahụ mee ihe? Ọ nweghị ihe akaebe na e jiri ya mee ihe. Achọpụtara ya site na nyocha nchekwa, kpughere ya n'ụzọ kwesịrị ekwesị, ma dozie ya tupu mmerụ ọ bụla a maara.
 
-Gịnị na-eme ochie Orchard ọdọ mmiri? Ọ ghọrọ emefu naanị. Enweghị ọhụrụ uru nwere ike tinye ya, na ẹdude uru aga Ironwood site turnstile, ebe Mbugharị a n'ihu ọha audited.
+Gịnị na-eme pool ochie Orchard? Ọ na-adị naanị maka mmefu. Uru ọhụrụ enweghị ike ịbanye na ya, uru dị ugbu a na-abanyekwa na Ironwood site na turnstile, ebe a na-enyocha mbugharị ahụ n'ihu ọha.
 
-## Nwalee nghọta gị .
+## Nwale nghọta gị
 
-Ọ bụrụ na ZEC dị n'ime ọdọ mmiri ndị e chebere, olee otú mmadụ pụrụ isi kwado na nje Orchard ahụ emeghị ka ngụkọta nke ihe onwunwe ya buo ibu?
+Ọ bụrụ na ezo uru ZEC dị n'ime pool e chebere echebe, kedu ka onye ọ bụla ga-esi kwado na ahụhụ Orchard abawanyebeghị mkpokọta ọkọnọ na nzuzo?
 
 <details>
-<summary>Answer</summary>
+<summary>Azịza</summary>
 
-Site na turnstile. A na-agụta mkpụrụ ego ọ bụla nke si n'ọdọ mmiri ochie Orchard pụta mgbe a ga-enyocha ya ka ọ banye Ironwood ma ọ bụrụ na uru dị ukwuu gbalịrị ịpụ karịa ihe e debere iwu, akwụkwọ ndekọ ahụ agaghị edozi, yabụ aghụghọ ọbụla ahụhụ nwere ike ịmepụta ga-apụta n'ọnụ ụzọ ámá ahụ.
+Site na turnstile. A na-agụta mkpụrụ ego ọ bụla na-apụ na pool ochie Orchard n'ebe nlele ọha ka ọ na-abanye na Ironwood. Ọ bụrụ na uru karịrị nke batara n'ụzọ ziri ezi anwaa ịpụ, ndekọ ego agaghị ahazi, ya mere adịgboroja ọ bụla ahụhụ ahụ nwere ike imepụta ga-apụta n'ọnụ ụzọ ahụ.
 </details>
 
-### Akụnụba
+### Akụrụngwa
 
-[ZIP 258: Ịmepụta NU6.3 Network Upgrade](https://zips.z.cash/zip-0258)
+[ZIP 258: Ntinye n'ọrụ nke NU6.3 Network Upgrade](https://zips.z.cash/zip-0258)
 
-[ZIP 257: Deployment of the Orchard Temporary Vulnerability Mitigation and NU6.2 Network Upgrade](https://zips.z.cash/zip-0257)
+[ZIP 257: Ntinye n'ọrụ nke Orchard Mbelata Adịghị Ike Nwa Oge na NU6.2 Network Upgrade](https://zips.z.cash/zip-0257)
 
-[ZIP 2005: Ironwood Quantum Recoverability (Igwe eji eme ihe maka igwe na-eme ka mmiri dị n'ime ala)](https://zips.z.cash/zip-2005)
+[ZIP 2005: Ironwood Iweghachite Mgbe Quantum](https://zips.z.cash/zip-2005)
 
-[Ironwood: Ọdọ Mmiri ọhụrụ maka Zcash](https://zodl.com/ironwood-a-new-shielded-pool-for-zcash/)
+[ZIP 229: Usoro Azụmahia Ụdị 6](https://zips.z.cash/zip-0229)
 
-### Lee kwa nke a.
+[ZIP 318: Mbugharị site na Orchard gaa na Ironwood](https://zips.z.cash/zip-0318)
 
-[Nwelite netwọk Zcash](../start-here/network-upgrades)
+[Ironwood: Pool Ọhụrụ E Chebere Echebe Maka Zcash](https://zodl.com/ironwood-a-new-shielded-pool-for-zcash/)
 
-[Ọdọ Mmiri Ndị E Chebere Echiche Ha Na Ya](../using-zcash/shielded-pools)
+### Hụkwa
+
+[Zcash Network Upgrades](../start-here/network-upgrades)
+
+[Shielded Pools](../using-zcash/shielded-pools)
 
 [Halo](../zcash-tech/halo)
 
 [zk-SNARKs](../zcash-tech/zk-snarks)
 
-[Nchebe nke Post Quantum](../zcash-tech/post-quantum-security)
+[Nchekwa Mgbe Quantum](../zcash-tech/post-quantum-security)
 
-[Ụlọ nyocha echekwara](../zcash-organizations/shielded-labs)
+[Shielded Labs](../zcash-organizations/shielded-labs)
 
-[Gịnị bụ ZEC na Zcash?](../start-here/what-is-zec-and-zcash)
+[Gịnị bụ ZEC na Zcash](../start-here/what-is-zec-and-zcash)
 
 ---
 
-Usoro: [Nhazi nke netwọkụ na-emelite.](../start-here/network-upgrades) · Nke gara aga: [NU6.2](../zcash-tech/nu6-2)
+Usoro: [Ndepụta Network Upgrades](../start-here/network-upgrades) · Nke gara aga: [NU6.2](../zcash-tech/nu6-2)

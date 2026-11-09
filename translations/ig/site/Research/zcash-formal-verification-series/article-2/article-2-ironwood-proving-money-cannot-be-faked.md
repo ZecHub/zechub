@@ -1,197 +1,197 @@
 ![alt text](image-1.png)
-# Osisi Ironwood: Igosi na A Pụghị Ịrụgharị Ego Ọ Bụla E Ji Eme Ihe n'Ụzọ Ụgha
+# Ironwood: Ịgosipụta na Enweghị Ike Ịmepụta Ego Adịgboroja
 
-### Otu Zcash si zaghachi njehie site na iji igwe nyocha nke ọma.
+### Otu Zcash si zaa ahụhụ site na proof igwe nyochara
 
-> **Series:** *Formal Verification* · **Part 3 of 3** Ihe ndị a bụ ihe dị mkpa iji hụ na e nwere ezigbo usoro.
-> ** Ndị na-ege ntị:** ndị ọhụrụ. Akụkụ 1 na 2 setịpụrụ nkwenye ziri ezi na ahụhụ Orchard; njedebe a gosipụtara echiche abụọ ahụ zutere n'ime usoro dị adị. Ihe niile achọrọ ka anyị cheta mgbe anyị gara.
-> Ihe ị ga-ahapụ: nghọta ziri ezi nke ihe Zcash gosipụtara n'ezie banyere ọdọ mmiri "Ironwood" ọhụrụ ya, otu esi edozi nkwenye ahụ, ihe ọ na - eme ma ghara ikpuchi, etu e si laa ezumike nka ochie ahụ n'enweghị nsogbu, yana gịnị kpatara nke a ji atụ aka maka ụkpụrụ ọhụụ iji wuo ego crypto.
+> **Usoro isiokwu:** *Nyocha Ọdịdị* · **Nkebi 3 n'ime 3**
+> **Ndị e lekwasịrị anya:** ndị ọhụrụ. Nkebi 1 na 2 kọwara nyocha ọdịdị na ahụhụ Orchard; mmechi a na-egosi ka echiche abụọ ahụ si zukọta n'ime usoro dị adị. A ga-echetara ihe niile dị mkpa ka anyị na-aga.
+> **Ihe ị ga-enweta:** nghọta ziri ezi banyere ihe Zcash gosipụtara n'ezie gbasara pool ọhụrụ ya nke “Ironwood”, otú e si hazie proof ahụ, ihe ọ gụnyere na ihe ọ naghị agụnye, otú e si kwụsị pool ochie n'enweghị nsogbu, na ihe mere nke a ji egosi ụkpụrụ ọhụrụ maka iwulite ego cryptographic.
 
-In Part 1 we learned what it means to *prove* a system correct. In Part 2 we saw a real flaw that testing missed for four years, an under-constrained elliptic-curve multiplication that could have allowed unlimited invisible counterfeiting. This article is the resolution: how Zcash responded not merely with a patch, but with a machine-checked proof that the entire class of bug is gone.
-
----
-
-## 1. Gịnị mere o ji dị mkpa ka ị mata?
-
-When a bug threatens money, the usual response is to patch it and move on. Zcash did something more ambitious. Alongside a new shielded pool called **Ironwood**, activated on July 28, 2026, its engineers published a **machine-checked mathematical proof**, over **2,700 theorems** written in the **Lean** proof assistant, establishing that the new pool cannot create counterfeit coins under its stated assumptions. The proof is public, in the open-source `ironwood` ebe nchekwa, ma were ndị otu atọ nke ndị nchọpụta na cryptographers ihe karịrị ọnwa iji mezue.
-
-Nke a dị mkpa karịa Zcash. Ọ bụ otu n'ime ihe ngosi ụwa kachasị anya na ị nwere ike were usoro ego ndụ, dee kpọmkwem ihe "enweghị aghụghọ" pụtara ma * gosipụta ya,* kama ịtụ anya ule gị nke ọma. O mere nkwa ka ọ bụrụ nkwupụta okwu.
+Na Nkebi 1, anyị mụtara ihe ọ pụtara *igosipụta* na usoro ziri ezi. Na Nkebi 2, anyị hụrụ ezigbo ntụpọ nke ule achọpụtaghị ruo afọ anọ, ịba ụba elliptic-curve nke enweghị mgbochi zuru ezu nke gaara ekwe ka e mepụta ego adịgboroja na-adịghị ahụ anya n'enweghị njedebe. Isiokwu a bụ ihe ngwọta ya: otu Zcash si zaghachi ọ bụghị naanị site na mmezi, kama site na proof igwe nyochara na ụdị ahụhụ ahụ dum apụọla.
 
 ---
 
-## 2. The isi echiche: gosi nkọwapụta, igbu klas nke ahụhụ
+## 1. Gịnị mere ị ga-eji lekọta nke a?
 
-Akụkụ nke 2 kwụsịrị na nghọta mere ka ihe a kwe omume. Cheta ya, n'ihi na ihe nile dị ebe a dabeere na ya:
+Mgbe ahụhụ na-etinye ego n'ihe ize ndụ, azịza a na-ahụkarị bụ idozi ya ma gaa n'ihu. Zcash mere ihe karịrị nke ahụ. N'akụkụ pool nke e chebere echebe [shielded] ọhụrụ a kpọrọ **Ironwood**, nke malitere ọrụ na Julaị 28, 2026, ndị injinia ya bipụtara **proof mgbakọ na mwepụ igwe nyochara**, nke nwere **theorem karịrị 2,700** e dere n'ime onye enyemaka proof [proof assistant] **Lean**, na-egosi na pool ọhụrụ ahụ enweghị ike ịmepụta mkpụrụ ego adịgboroja n'okpuru echiche e kwuru. Proof ahụ bụ nke ọha, dị na ebe nchekwa open-source `ironwood`, ma were ndị otu atọ nke ndị nchọpụta na ndị cryptographer ihe karịrị otu ọnwa imecha.
 
-> A * undetectable * counterfeiting ahụhụ nwere ike na-ebi ndụ protocol si nkọwapụta, mgbakọ na mwepụ nkọwa nke ihe ndị circuit ga enforce. Ihe ọ bụla achọpụtara ga-egosi elu ke ọha aza ajụjụ. Ya mere egosi na specification ụda eliminates dum klas zoro ezo-counterfeiting bug ozugbo.
+Nke a dị mkpa karịa Zcash. Ọ bụ otu n'ime ngosipụta kacha doo anya n'ụwa n'ezie na ị nwere ike iwere usoro ego na-arụ ọrụ, dee kpọmkwem ihe “enweghị ego adịgboroja” pụtara, ma *gosipụta* ya, kama ịtụ anya na ule gị zuru oke. Ọ na-eme nkwa ka ọ bụrụ theorem.
 
-Why "only in the specification"? Because every block permanently records the full contents of every transaction, including its proofs. If the *software* wrongly accepted a bad transaction, anyone could replay history through corrected software and see it. That evidence is permanent and public. Only a flaw in the underlying *math* can hide forever, because there is no "correct version" to replay against. That is the flaw formal verification is aimed at.
+---
 
-Nnyocha nyocha *omume na ntinye nlele*, ma Orchard bug zoro kpọmkwem n'ihi na ọ dịghị ihe ntinye nke atụpụtara ya. Ihe akaebe banyere nkọwa ahụ kpuchitere ** niile** ntinye ozugbo, gụnyere ikpe ndị dịpụrụ adịpụ onye ọ bụla agaghị eche ịnwale. Nke a bụ naanị ụdị nkwa siri ike iji nwee obi ike ịla ezumike nká afọ anọ nwere nsogbu anya.
+## 2. Echiche bụ isi: gosi nkọwapụta ahụ, kpochapụ ụdị ahụhụ ahụ
+
+Nkebi 2 kwụsịrị n'echiche mere ka nke a kwe omume. Cheta ya, n'ihi na ihe niile ebe a dabere na ya:
+
+> Ahụhụ imepụta ego adịgboroja nke *a na-enweghị ike ịchọpụta* nwere ike ịdị naanị n'ime **nkọwapụta [specification]** protocol, bụ nkọwa mgbakọ na mwepụ nke ihe circuit ga-amanye. Ihe ọ bụla a pụrụ ịchọpụta ga-apụta n'ịza ajụjụ ọha. Ya mere, igosipụta na nkọwapụta ahụ ziri ezi na-ekpochapụ ụdị ahụhụ imepụta ego adịgboroja zoro ezo dum n'otu oge.
+
+Gịnị mere ọ bụ “naanị n'ime nkọwapụta”? N'ihi na block [block] ọ bụla na-edekọ ọdịnaya zuru ezu nke Azụmahia [transaction] ọ bụla ruo mgbe ebighị ebi, tinyere proof ya. Ọ bụrụ na *software* nabatara Azụmahia ọjọọ n'ụzọ na-ezighị ezi, onye ọ bụla nwere ike iji software e doziri megharịa akụkọ gara aga wee hụ ya. Ihe akaebe ahụ na-adịgide adịgide ma bụrụ nke ọha. Naanị ntụpọ dị na *mgbakọ na mwepụ* dị n'okpuru nwere ike izo ruo mgbe ebighị ebi, n'ihi na enweghị “ụdị ziri ezi” a ga-eji tụnyere ya ọzọ. Nke ahụ bụ ntụpọ nyocha ọdịdị lekwasịrị anya.
+
+Ule na-enyocha *omume n'itinye atụ*, ahụhụ Orchard zoro onwe ya kpọmkwem n'ihi na enweghị input atụ rutere ya. Proof gbasara nkọwapụta ahụ na-ekpuchi input **niile** n'otu oge, tinyere ọnọdụ nsọtụ ndị mmadụ agaghị eche ịnwale. Nke ahụ bụ naanị ụdị nkwa siri ike ga-ezuru iji jiri obi ike kwụsị ntụpọ na-adịghị ahụ anya dị afọ anọ.
 
 ![alt text](image-2.png)
 
 ---
 
-## 3. Ihe e gosiri n'ezie bụ na a ga-eme ya.
+## 3. Ihe kpọmkwem egosipụtara
 
-Ihe akaebe ahụ na-egosipụta otu isi ihe onwunwe, nke e wuru site n'okpuru ya.
+Proof ahụ na-eguzobe otu njirimara bụ isi, nke ewuru n'elu njirimara miri emi dị n'okpuru ya.
 
-### Iguzosi ike n'ezi ihe nke nguzozi (isi okwu)
+### Izu oke nguzozi [Balance integrity] (isi okwu)
 
-> ** Balance ike:** zoro ezo uru echekwara na kpuchie ọdọ mmiri mgbe gafere net ọha uru nke a wụpụwo n'ime ya.
+> **Izu oke nguzozi:** uru zoro ezo echekwara na pool nke e chebere echebe anaghị agafe uru ọha net nke batara na ya.
 
-Nke a bụ ihe mgbochi ịgha ụgha n'ụdị nkịtị. Ego nwere ike ịbanye na ọdọ mmiri ahụ echedoro (nke ọha na eze hụrụ) ma hapụ ya (n'ihu ọha), mana n'ime, ebe ego zoro ezo, enweghị uru ọ bụla enwere ike ịkọwapụta. Ka anyị mee ka o doo anya site na obere akwụkwọ ndekọ (arithmetic enyocha):
+Nke a bụ njirimara mgbochi imepụta ego adịgboroja n'asụsụ dị mfe. Ego nwere ike ịbanye na pool nke e chebere echebe (nke a na-ahụ n'ihu ọha) wee pụta na ya (nke a na-ahụ n'ihu ọha), mana n'ime ya, ebe e zoro ego, enweghị uru a ga-akpọpụta n'enweghị ihe. Ka anyị jiri obere ledger [ledger] (mgbakọ egosiri) mee ka ọ doo anya:
 
-- **Ezi azụmahịa:** ntinye uru `5 + 3 = 8` na-emepụta ihe ndị dị oké ọnụ ahịa `4 + 4 = 8`. Uru n'ime hà uru si. nguzozi iguzosi ike na-ejide ✓
-- ** Mgbalị ịgha ụgha:** otu ihe ntinye uru. `8`, ma outputs nke `4 + 4 + 2 = 10`Nke ahụ ga-abụ ihe na-atọ ụtọ. `2` Nhazi nke nguzozi ** na-egbochi** nke a: ọdọ mmiri ahụ enweghị ike ịkwụ ụgwọ karịa ihe ọ batara. 
+- **Azụmahia eziokwu:** input ruru `5 + 3 = 8` na-emepụta output ruru `4 + 4 = 8`. Uru batara hà uru pụtara. Izu oke nguzozi dị. ✓
+- **Mgbalị imepụta ego adịgboroja:** otu input ahụ ruru `8`, mana output nke `4 + 4 + 2 = 10`. Nke ahụ ga-emepụta nkeji `2` n'enweghị ihe. Izu oke nguzozi **machibidoro** nke a: pool ahụ agaghị akwụpụta karịa ihe batara na ya. ✗
 
-Nhazi nke nguzozi bụ nkwupụta mgbakọ na mwepụ na ọnọdụ nke abụọ enweghị ike ịmepụta azụmahịa ziri ezi.
+Izu oke nguzozi bụ nkwupụta mgbakọ na mwepụ na ọnọdụ nke abụọ enweghị ike ịmepụta Azụmahia bara uru.
 
-### Ihe ọmụma siri ike (igwe dị n'okpuru)
+### Izu oke ihe ọmụma [Knowledge soundness] (igwe dị n'okpuru)
 
-To guarantee balance integrity, the researchers first had to prove a deeper and subtler property about the zero-knowledge proof system itself. Ordinary soundness (Part 2's "only true statements have a witness") turns out to be *not enough* for a shielded pool, for a fascinating reason: because a hidden transaction can contain anything, almost every statement technically *has* some witness. So the researchers proved a stronger property:
+Iji kwe nkwa izu oke nguzozi, ndị nchọpụta ga-ebu ụzọ gosi njirimara miri emi ma dị aghụghọ gbasara usoro zero-knowledge proof n'onwe ya. Izu oke nkịtị (nke Nkebi 2 kwuru dịka “naanị nkwupụta eziokwu nwere witness”) ghọrọ na ọ *ezughị* maka pool nke e chebere echebe, n'ihi ihe na-adọrọ mmasị: ebe Azụmahia zoro ezo nwere ike ịnwe ihe ọ bụla, ihe fọrọ nke nta ka ọ bụrụ nkwupụta niile n'ụzọ teknụzụ *nwere* witness. Ya mere, ndị nchọpụta gosipụtara njirimara siri ike karị:
 
-> **Otu ihe ọmụma: onye ọ bụla nwere ike igosi ezigbo akaebe azụmahịa ga-enwerịrị * ezi àmà, ya bụ mkpụrụ ego n'ezie, nke ziri ezi na adreesị kwesịrị ekwesị.
+> **Izu oke ihe ọmụma:** onye ọ bụla nwere ike imepụta proof Azụmahia bara uru ga-enwe *n'ezie* witness bara uru, ya bụ, mkpụrụ ego n'ezie, ewepụtara n'ụzọ ziri ezi, n'ebe Adreesị akpa ego [address] ziri ezi.
 
-The formal tool for this is an **extractor**: a procedure that, given any prover who can convince the verifier, can pull the actual witness out of them. If a witness can always be extracted, then a convincing prover must really have had one. In the language of Part 2, knowledge soundness is the formal promise that there is **no soundness gap**, no missing constraint that would let a false statement slip through. It is the exact property whose *absence* was the Orchard bug. Proving it present, for all possible provers, is what slams that door shut.
+Ngwá ọrụ [tools] ọdịdị eji eme nke a bụ **extractor**: usoro nke, e nyere prover ọ bụla nwere ike ime ka verifier kweta, nwere ike ịpụta witness n'ezie n'aka ya. Ọ bụrụ na e nwere ike ịpụta witness mgbe niile, prover na-eme ka e kweta ga-enwerịrị nke ahụ n'ezie. N'asụsụ Nkebi 2, izu oke ihe ọmụma bụ nkwa ọdịdị na **enweghị oghere izu oke [soundness gap]**, enweghị mgbochi furu efu nke ga-ekwe ka nkwupụta ụgha gafee. Ọ bụ kpọmkwem njirimara nke *enweghị ya* bụ ahụhụ Orchard. Igosipụta na ọ dị, maka prover niile nwere ike ịdị, bụ ihe na-emechi ụzọ ahụ kpamkpam.
 
 ![alt text](image-3.png)
 
 ---
 
-## 4. Otú e si wuo ihe àmà ahụ
+## 4. Otu e si wuo proof ahụ
 
-Nnyocha ahụ bụ ezigbo mbọ mmadụ, ọ bụghị nsonaazụ bọtịnụ:
+Nyocha ahụ bụ nnukwu mgbalị mmadụ, ọ bụghị nsonaazụ ịpị otu bọtịnụ:
 
-- Edere ya na onye enyemaka nyocha ** Lean** (site n'akụkụ 1: igwe nke nyochaa usoro ezi uche ọ bụla).
-- Na-agụnye **karịa 2,700 theorems**, ọha na eze dị n'ime akwụkwọ ahụ aja. `ironwood` ebe nchekwa.
-- Produced by **three teams** of researchers and cryptographers over **more than a month**, including work led by Project Tachyon's Tal Derei, with contributions from Gregor Mitscha-Baude of zkSecurity and Daira-Emma Hopwood of the Zcash Open Development Lab, plus an independent parallel soundness proof by other cryptographers.
+- E dere ya n'ime onye enyemaka proof **Lean** (site na Nkebi 1: igwe na-enyocha nzọụkwụ ezi uche ọ bụla).
+- O nwere **theorem karịrị 2,700**, nke ọha nwere ike ịhụ na ebe nchekwa `ironwood`.
+- Ndị otu **atọ** nke ndị nchọpụta na ndị cryptographer mepụtara ya n'ime **ihe karịrị otu ọnwa**, tinyere ọrụ Project Tachyon's Tal Derei duru, na onyinye Gregor Mitscha-Baude nke zkSecurity na Daira-Emma Hopwood nke Zcash Open Development Lab, yana proof izu oke yiri ya nọọrọ onwe ya nke ndị cryptographer ndị ọzọ mere.
 
-To reason about the property, the Lean model describes an entire **ledger** as a list of transactions, each carrying its actions, its declared public value, and its signatures. A predicate the researchers call **ValidLedger** transcribes the network's consensus rules directly: every action's witness must satisfy the required conditions, no spend-marker (nullifier) may appear twice, every referenced tree state must be one the system genuinely reached, and every signature must verify. The theorems then quantify over **every** valid ledger. That phrase, "every valid ledger," is the whole point: not a sample, but all of them, a superset of anything a real attacker could ever assemble.
+Iji tụlee njirimara ahụ, ụdị Lean ahụ na-akọwa **ledger** zuru ezu dịka ndepụta Azụmahia, nke ọ bụla na-ebu omume ya, uru ọha ọ kwupụtara, na signature [signature] ya. Predicate ndị nchọpụta kpọrọ **ValidLedger** na-edegharị iwu consensus [consensus] nke network ozugbo: witness nke omume ọ bụla ga-emezu ọnọdụ achọrọ, spend-marker (nullifier [nullifier]) ọ bụla agaghị apụta ugboro abụọ, ọnọdụ osisi ọ bụla e zoro aka na ya ga-abụrịrị nke usoro ahụ rutere n'eziokwu, na signature ọ bụla ga-enwerịrị nkwenye. Theorem ndị ahụ na-atụle **ledger niile** bara uru. Ahịrị ahụ, “ledger niile bara uru,” bụ isi ihe: ọ bụghị atụ, kama ha niile, set buru ibu nke ihe ọ bụla onye mwakpo n'ezie nwere ike ikpokọta.
 
-The balance-integrity result is assembled from several ledger-level theorems, each proving one route to counterfeiting is closed: that every spend corresponds to a real earlier output, that total value is conserved, that a received note stays spendable and cannot be stolen, and that spending requires proper authorization. A separate piece, the **binding signature**, ties each transaction's hidden values to the public amount it declares, so hidden and public accounting cannot silently disagree.
-
----
-
-## 5. Ebe mgbakọ na mwepụ zutere ngwanrọ ahụ
-
-Ajụjụ dị nro ma bụrụ eziokwu: ihe akaebe ahụ bụ maka usoro mgbakọ na mwepụ, mana netwọkụ na-agba ọsọ * koodu nchara. * Olee otu anyị si mara koodu kwekọrọ na ụdị?
-
-The team drew a careful boundary they call the verifier's **fingerprint**. Above the boundary, the Lean proofs reason about the verifier as a precise mathematical object. Below it sits the ordinary Rust implementation. The key argument is the same one from Part 2:
-
-> Ụzọ ọbụla ezigbo sọftụwia nwere ike isi pụọ na ihe atụ egosipụtara ga-abụ * mmejuputa* njehie, yana mmejupụta mmemme naanị nwere ike ịmepụta * ịgha ụgha a pụrụ ịchọpụta*, n'ihi na edepụtara nkwenye ọ bụla anabatara kpamkpam ma nwee ike igwu ya site na ngwanrọ edozi.
-
-So the proof handles the undetectable class (the specification), and the permanent public record handles the detectable class (the implementation). Between them, there is no place for an *undetectable* counterfeiting bug to hide. The team also cross-checked, by running the real verifier and confirming it reproduces the fingerprint exactly on captured cases.
+A na-achịkọta nsonaazụ izu oke nguzozi site na theorem dị iche iche nke ọkwa ledger, nke nke ọ bụla na-egosi na e mechiela otu ụzọ isi emepụta ego adịgboroja: na spend ọ bụla kwekọrọ na output dị adị gara aga, na a na-echekwa uru zuru ezu, na note [note] anataara na-anọgide na-enwe ike ime spend ma enweghị ike izuru ya, nakwa na spending chọrọ ikike kwesịrị ekwesị. Otu akụkụ dị iche, **binding signature**, na-ejikọta uru zoro ezo nke Azụmahia ọ bụla na ego ọha ọ kwupụtara, ya mere ịza ajụjụ zoro ezo na nke ọha enweghị ike ịdị iche nwayọọ nwayọọ.
 
 ---
 
-## 6. Ihe kachasị mkpa: "n'okpuru nkwupụta ndị e kwuru"
+## 5. Ebe mgbakọ na mwepụ zutere software
 
-Akụkụ 1 siri ọnwụ na ihe akaebe gosipụtara usoro ahụ ga-emezu nkọwapụta * n'okpuru nkwupụta ekwuru, ma ọ dịghị mgbe ọ pụtara "enweghị ahụhụ". Ndị otu Zcash bụ ndị ziri ezi nke ọma banyere kpọmkwem nke a, yana ederede agụmakwụkwọ kwesịrị ịdịkwa.
+Ajụjụ aghụghọ ma kwụ ọtọ bụ nke a: proof ahụ gbasara ụdị mgbakọ na mwepụ, mana network na-agba code Rust. Kedu ka anyị si mara na code ahụ kwekọrọ na ụdị ahụ?
 
-The proof reduces the security of Ironwood down to a small set of standard, clearly named assumptions. In particular, its soundness rests on the hardness of the **discrete logarithm problem** on the elliptic curve Ironwood uses (a well-studied assumption, where the best known attack would take on the order of `2^126` arụmọrụ, nke karịrị ihe ọ bụla nwere ike ime), tinyere ụkpụrụ ịme ngosi uwe maka ọrụ hash. Ihe abụọ dị mkpa na-ekwu okwu n'ụzọ doro anya:
+Ndị otu ahụ sere oke nlezianya ha kpọrọ **fingerprint** verifier. N'elu oke ahụ, proof Lean na-atụle verifier dịka ihe mgbakọ na mwepụ ziri ezi. N'okpuru ya ka implementation Rust nkịtị dị. Arụmụka bụ isi ahụ dị ka nke Nkebi 2:
 
-- ** Ọ na-adabere n'echiche ndị ahụ.** Ọ bụrụ na a gbajiri ntọala, nkwa ga-akwụsị. Nke a bụ ọkọlọtọ ma ọ gaghị ekwe omume; ihe niile eji emepụta cryptography dabeere na echiche dị otú ahụ.
-- ** Ọ na-ekpuchi iguzosi ike n'ezi ihe, ọ bụghị nzuzo.** Ihe akaebe ahụ bụ maka inye ego (enweghị ego adịgboroja). * Ọ naghị ekwu iji gosipụta nkwa dị iche nke nchekwa nzuzo, nke bụ akụ dị iche nwere arụmụka dị iche.
+> Ụzọ ọ bụla software n'ezie nwere ike isi dị iche na ụdị egosipụtara ga-abụ ahụhụ *implementation*, ahụhụ implementation nwekwara ike ịmepụta naanị imepụta ego adịgboroja *a pụrụ ịchọpụta*, n'ihi na a na-edekọ proof ọ bụla anabatara ruo mgbe ebighị ebi ma enwere ike iji software e doziri megharịa ya.
 
-Kama imebi ihe a rụzuru, ịkpọ aha ókèala ndị a bụ ihe na-eme ka ọ bụrụ onye a pụrụ ịtụkwasị obi. Nkwupụta ahụ ziri ezi: * n'okpuru echiche nzuzo ọkọlọtọ, ọdọ mmiri a enweghị ike ịmepụta mkpụrụ ego adịgboroja nke a na-apụghị ịchọpụta.* Nke ahụ bụ nkwuputa, ọ bụghị olileanya, ma ekwuputara ya kpọmkwem.
+Ya mere, proof na-ahụ maka ụdị a na-enweghị ike ịchọpụta (nkọwapụta), ndekọ ọha na-adịgide adịgide na-ahụkwa maka ụdị a pụrụ ịchọpụta (implementation). N'etiti ha, enweghị ebe ahụhụ imepụta ego adịgboroja *a na-enweghị ike ịchọpụta* ga-ezo. Ndị otu ahụ nyochakwara ya, site n'ịgba verifier n'ezie ma kwado na ọ na-emepụta fingerprint ahụ kpọmkwem n'ọnọdụ e jidere.
+
+---
+
+## 6. Ịdọ aka ná ntị kacha mkpa: “n'okpuru echiche e kwuru”
+
+Nkebi 1 kwusiri ike na proof na-ekwe nkwa na usoro ahụ na-emezu nkọwapụta *n'okpuru echiche e kwuru*, ọ pụtaghịkwa “enweghị ahụhụ ọ bụla mgbe ọ bụla.” Ndị otu Zcash kọwara nke a n'ụzọ ziri ezi nke ukwuu, akwụkwọ mmụta kwụ ọtọ kwesịkwara ime otu ahụ.
+
+Proof ahụ na-ebute nchekwa Ironwood n'otu obere set nke echiche ọkọlọtọ, akpọrọ aha nke ọma. Karịsịa, izu oke ya dabere na isi ike nke **nsogbu logarithm pụrụ iche [discrete logarithm problem]** na elliptic curve Ironwood ji (echiche a mụọla nke ọma, ebe mwakpo kacha mma a maara ga-achọ ihe dịka arụmọrụ `2^126`, nke karịrị mgbakọ ọ bụla a pụrụ ime), tinyere echiche nhazi ọkọlọtọ maka hash function. Oke abụọ kwesịrị ikwu n'ụzọ doro anya:
+
+- **Ọ dị irè n'okpuru echiche cryptographic ndị ahụ.** Ọ bụrụ na e bibie echiche bụ isi, nkwa ahụ ga-akwụsị. Nke a bụ ihe a na-ahụkarị ma a pụghị izere ya; ihe fọrọ nke nta ka ọ bụrụ cryptography niile a na-eji dabere n'echiche ndị dị otú ahụ.
+- **Ọ na-ekpuchi izu oke nguzozi, ọ bụghị Nzuzo [privacy].** Proof ahụ gbasara izu oke supply (enweghị ego adịgboroja). Ọ naghị ekwu na ọ gosipụtara nkwa Nzuzo pụrụ iche nke pool ahụ, nke bụ njirimara dị iche nwere arụmụka dị iche.
+
+Kama ime ka ihe rụpụtara ghara ịdị ike, ịkpọ oke ndị a aha bụ ihe na-eme ka a tụkwasị ya obi. Nkwupụta ahụ ziri ezi: *n'okpuru echiche cryptographic ọkọlọtọ, pool a enweghị ike ịmepụta mkpụrụ ego adịgboroja a na-enweghị ike ịchọpụta.* Nke a bụ theorem, ọ bụghị olileanya, a na-ekwupụtakwa oke ya n'ihu ọha.
 
 ![alt text](image-4.png)
 
 ---
 
-## 7. Ịkwụsị ime ihe ochie n'enweghị nsogbu: ụlọ ahụ na-emegharị emegharị nke e ji ígwè rụọ.
+## 7. Ịkwụsị pool ochie n'enweghị nsogbu: turnstile
 
-Ịnwale ụda ọdọ mmiri ọhụrụ ahụ ka na-emepe ajụjụ: gịnị banyere olulu Orchard ochie, ebe ntụpọ biri afọ anọ? I nweghị ike ikpughe ihe gara aga ya. Ma ị nwere ike ijikọ ọdịnihu ya.
+Igosipụta na pool *ọhụrụ* ziri ezi ka na-ahapụ ajụjụ: gịnị gbasara pool Orchard *ochie*, ebe ntụpọ ahụ biri afọ anọ? Ị nweghị ike ikpughe akụkọ gara aga zoro ezo. Mana ị nwere ike ịmachi ọdịnihu ya.
 
-Zcash webatara usoro a na-akpọ **turnstile**. Iwu ahụ dị mfe ma dịkwa ike:
+Zcash webatara usoro a kpọrọ **turnstile**. Iwu ahụ dị mfe ma dị ike:
 
-> Uru nwere ike ịhapụ naanị ọdọ mmiri ochie ruo ego ole abanye na ya.
+> Uru nwere ike isi na pool ochie pụta naanị ruo n'ogo uru e kwadoro na ọ batara na ya.
 
-Because money moving into and out of a shielded pool is publicly visible (only the activity *inside* is hidden), the turnstile lets the whole network check that no more comes out than ever went in. If counterfeit coins had been created inside the old pool, they would hit this cap and fail to exit. And as honest funds migrate out and no excess appears, the community gains strong public evidence that the flaw was never exploited. It is the closest thing to auditing a private pool's supply without breaking its privacy, and it brings supply integrity closer to the transparent model of a chain like Bitcoin while preserving Zcash's privacy.
+Ebe ọ bụ na ego na-abanye ma na-apụta n'ime pool nke e chebere echebe na-ahụ anya n'ihu ọha (naanị ọrụ *n'ime* ya ka zoro ezo), turnstile na-ahapụ network dum ileba anya na ọ dịghị ihe na-apụta karịa ihe ọ bụla batara. Ọ bụrụ na e mepụtara mkpụrụ ego adịgboroja n'ime pool ochie, ha ga-erute oke a ma ghara ịpụta. Ka ego eziokwu na-apụ ma enweghị oke uru apụta, obodo na-enweta nnukwu ihe akaebe ọha na-egosi na ejighị ntụpọ ahụ eme ihe. Ọ bụ ihe kacha nso na nyocha supply pool nzuzo n'emebighị Nzuzo ya, ọ na-emekwa ka izu oke supply dịkwuo nso na ụdị Oha [transparent] nke chain dịka Bitcoin, mgbe ọ na-echekwa Nzuzo Zcash.
 
 ![alt text](image-5.png)
 
-Ironwood itself reuses the *corrected* proof circuit, starts fresh with an empty pool, and adds forward-looking protections (including provisions so funds could remain recoverable if future quantum computers ever threaten today's cryptography). New shielded activity now flows through Ironwood, while the old Orchard pool is restricted to withdrawals.
+Ironwood n'onwe ya na-ejikwa circuit proof e doziri, na-amalite ọhụrụ na pool efu, ma na-agbakwụnye nchedo maka ọdịnihu (tinyere ndokwa ka ego nọgide nwee ike ịnapụta ma ọ bụrụ na kọmputa quantum n'ọdịnihu eyie cryptography taa egwu). Ọrụ ọhụrụ nke e chebere echebe na-agafe ugbu a na Ironwood, ebe a machibidoro pool Orchard ochie naanị na withdrawals.
 
 ---
 
-## 8. Ihe ka ukwuu: ihe nzuzo dị elu nke na-eme ka e jide n'aka
+## 8. Nnukwu foto: cryptography nwere nnukwu nkwenye
 
-Ironwood bụ akụkụ nke mgbanwe sara mbara n'otú Zcash si ewu. A na-eme mgbalị ọganihu ya (ihe owuwu a kpọrọ ** Tachyon, wuru na ihe akaebe ndị ọzọ ma kpọọ ngwá ọrụ aha ya ** Ragu**) ka e mepụtara n'okpuru nkà ihe ọmụma mgbe ụfọdụ akpọ ** elu obi ike cryptography: ịgwọ nyocha igwe enyochaghị dị ka echiche ikpeazụ, kama dịka usoro ọkọlọtọ maka izipu sistemụ nzuzo ọhụrụ.
+Ironwood bụ akụkụ nke mgbanwe sara mbara n'otú Zcash si ewu. Mgbalị scaling [scaling] ọgbọ ọzọ ya (nhazi a kpọrọ **Tachyon**, nke ewuru n'elu proof recursive na toolkit a kpọrọ **Ragu**) na-etolite n'okpuru nkà ihe ọmụma a na-akpọ mgbe ụfọdụ **cryptography nwere nnukwu nkwenye [high-assurance cryptography]**: ile nyocha ọdịdị igwe nyochara anya ọ bụghị dị ka ihe a ga-eme emechaa, kama dị ka akụkụ ọkọlọtọ nke iwepụta usoro cryptographic ọhụrụ.
 
-The logic is compelling. Cutting-edge cryptography is exactly where human intuition is weakest and where a subtle, untested edge case can hide for years, as Orchard showed. Proving the specification is the one technique that scales to "all possible inputs" and closes those gaps by construction. The team has signaled it intends to extend this scrutiny further over time, toward the implementation and beyond. Expect to see this bar adopted more widely, in and beyond Zcash.
-
----
-
-## 9. Onye na-ekwu eziokwu mgbe ọ bụla o kwuru ihe ga-eme ka a ghara ijide ya.
-
-We simplified for clarity. The real Lean development is far more detailed than the sketch here, with precise definitions of actions, statements, commitments, nullifiers, and signatures; "balance integrity" and "knowledge soundness" have exact formal definitions we stated only in words; the reduction to discrete-log hardness passes through several intermediate models (an algebraic model of the prover and a random-oracle model of the hash) that we compressed into "standard assumptions"; and we described the fingerprint and turnstile at a conceptual level. None of this changes the essential story: a specification of "no counterfeiting," a machine-checked proof over all valid ledgers, an explicit and honest statement of scope and assumptions, and a safe retirement of the flawed pool. For the authoritative account, consult Project Tachyon's published verification writeups and the `ironwood` ebe nchekwa ihe akaebe.
+Ezi uche ya na-adọrọ mmasị. Cryptography dị n'ọkpụkpụ teknụzụ bụ kpọmkwem ebe nghọta mmadụ na-esighi ike, ebe ọnọdụ nsọtụ dị aghụghọ a na-anwalebeghị nwere ike zoo ọtụtụ afọ, dịka Orchard gosiri. Igosipụta nkọwapụta ahụ bụ otu usoro nwere ike iru “input niile kwere omume” ma mechie oghere ndị ahụ site n'ọrụ owuwu. Ndị otu ahụ egosila na ha bu n'obi ịgbatị nyocha a n'ihu ka oge na-aga, ruo implementation na karịa ya. Tụọ anya ịhụ ka a nabata ọkwa a n'ọtụtụ ebe, n'ime na karịa Zcash.
 
 ---
 
-## 10. Nchịkọta nke Ihe Ndị E Dere na Ya
+## 9. Nkwupụta ịdọ aka ná ntị kwụ ọtọ
 
-- Zcash zara ahụhụ Orchard ọ bụghị naanị site na iji ihe mgbochi kamakwa site na **ihe akaebe nke igwe nyochachara** (ihe karịrị **theorems 2,700** na **Lean**, nke dị n'ihu ọha) maka ọdọ mmiri **Ironwood** ọhụrụ ya.
-- Ihe akaebe ahụ na-egosi ** nguzozi iguzosi ike n'ezi ihe** (olulu mmiri anaghị akwụ ụgwọ karịa ka ọha mmadụ banyere ya), nke e wuru na ** ezi uche nke ọmụma ** (ihe àmà dị mma chọrọ onye nyocha iji jide ezigbo onye akaebe, nyochaa site na extractor). Eziokwu bụ kpọmkwem akụnụba nke oghere Orchard bug.
-- Ọ na-atụle maka **akwụkwọ ndekọ ọ bụla dị mma**, ọ bụghị ikpe ndị a họpụtara ahọpụta, nke bụ ihe mechiri klas nke njehie aghụghọ zoro ezo ule ahụ.
-- A na-ejikwa oghere mgbakọ na mwepụ nke ngwanrọ site n'aka mkpịsị aka: a naghị achọpụta njehie ndị e gosipụtara, ma ọ bụla mmejuputa iwu ga - abụ ** achọpụtara ** na ndekọ ọha.
-- A na-ekwupụta nkwa ahụ n'ụzọ doro anya: ọ dị n'okpuru ** discrete - log hardness and standard hash assumptions, ma kpuchie ịgha ụgha, ọ bụghị nzuzo. Eziokwu a bụ njirimara, ọ dịghị ike.
-- ** turnstile** na-ewepụ ọdọ mmiri ochie ahụ n'enweghị nsogbu site na ịhapụ ụzọ ọ ga - esi pụọ na nkwụnye ego ya, gosipụta ihe adịgboroja ma wuo ihe akaebe ọha nke iguzosi ike n'ezi ihe.
-- Ironwood na-egosipụta ịkwaga n'ebe **nchekwa nzuzo dị elu**, ebe nkwenye ziri ezi bụ akụkụ ọkọlọtọ nke iwulite ego crypto ọhụrụ.
+Anyị mere ka ihe dị mfe iji mee ka ọ doo anya. Mmepe Lean n'ezie zuru ezu karịa eserese ebe a, nwere nkọwa ziri ezi nke omume, nkwupụta, commitment [commitment], nullifier, na signature; “izu oke nguzozi” na “izu oke ihe ọmụma” nwere nkọwa ọdịdị kpọmkwem anyị kwuru naanị n'okwu; mbelata gaa n'isi ike discrete-log na-agafe ọtụtụ ụdị etiti (ụdị algebraic nke prover na ụdị random-oracle nke hash) anyị chịkọtara dị ka “echiche ọkọlọtọ”; anyị kọwakwara fingerprint na turnstile n'ọkwa echiche. Ọ dịghị nke ọ bụla n'ime nke a na-agbanwe akụkọ bụ isi: nkọwapụta nke “enweghị imepụta ego adịgboroja,” proof igwe nyochara gbasara ledger niile bara uru, nkwupụta doro anya na kwụ ọtọ banyere oke na echiche, yana ịkwụsị pool nwere ntụpọ n'enweghị nsogbu. Maka nkọwa nwere ikike, lelee akwụkwọ nyocha Project Tachyon bipụtara na ebe nchekwa proof `ironwood`.
 
 ---
 
-## Akwụkwọ ọkọwa okwu
+## 10. Nchịkọta
 
-| Oge okwu | Nkọwa Bekee dị mfe |
+- Zcash zara ahụhụ Orchard ọ bụghị naanị site na mmezi kama site na **proof igwe nyochara** (theorem **karịrị 2,700** n'ime **Lean**, nke ọha nwere ike ịhụ) maka pool **Ironwood** ọhụrụ ya.
+- Proof ahụ na-eguzobe **izu oke nguzozi** (pool anaghị akwụpụta uru karịa ihe batara na ya n'ihu ọha), nke e wuru n'elu **izu oke ihe ọmụma** (proof bara uru chọrọ ka prover nwee witness n'ezie, nke a na-ekwenye site na **extractor**). Izu oke ihe ọmụma bụ kpọmkwem njirimara nke oghere ya bụ ahụhụ Orchard.
+- Ọ na-atụle **ledger niile bara uru**, ọ bụghị ọnọdụ atụpụtara, nke bụ ihe na-emechi ụdị ahụhụ imepụta ego adịgboroja zoro ezo nke ule na-ahụghị.
+- A na-eji oke **fingerprint** elekọta oghere mgbakọ na mwepụ-na-software: proof na-ewepụ ahụhụ ndị a na-enweghị ike ịchọpụta, ọpụpụ implementation ọ bụla ga-abụkwa nke **a pụrụ ịchọpụta** n'ime ndekọ ọha na-adịgide adịgide.
+- A kọwara nkwa ahụ kpọmkwem: ọ dị irè n'okpuru **isi ike discrete-log na echiche hash ọkọlọtọ**, ọ na-ekpuchikwa **imepụta ego adịgboroja, ọ bụghị Nzuzo**. Ịkwụ ọtọ a bụ uru, ọ bụghị adịghị ike.
+- **Turnstile** na-akwụsị pool ochie n'enweghị nsogbu site n'ịmachi ihe na-apụta na deposit e nwere ike ikwenye, na-ekpughe ego adịgboroja ọ bụla ma na-ewulite ihe akaebe ọha nke izu oke supply.
+- Ironwood na-egosipụta ntụgharị gaa na **cryptography nwere nnukwu nkwenye**, ebe nyocha ọdịdị bụ akụkụ ọkọlọtọ nke iwulite ego cryptographic ọhụrụ.
+
+---
+
+## Nkọwa okwu
+
+| Okwu | Nkọwa dị mfe n'asụsụ Bekee |
 |---|---|
-| **Ironwood** | Ọdọ mmiri ọhụrụ Zcash's nke e ji ihe nchebe kpuchie (2026), nke na-anọchi ọdọ mmiri Orchard nke nwere ntụpọ |
-| **Balance integrity** | Ọdọ mmiri ahụ anaghị akwụ ụgwọ karịa ka ọ na-akwụ n'ihu ọha na eze |
-| **Knowledge soundness** | Ihe akaebe dị irè chọrọ ka onye akaebe jide ezigbo onye akaebe |
-| **Extractor** | Usoro nke na-adọpụ onye akaebe ahụ n'ime onye akaebe ọ bụla na-eme ka mmadụ kwenye |
-| **Lean** | Onye enyemaka akaebe ejiri igwe lelee nkwenye ahụ |
-| **ValidLedger** | Ụdị nkwekọrịta nkịtị na-achịkwa echiche ndị ahụ |
-| **Fingerprint** | Ókè dị n'etiti mgbakọ na mwepụ a nwapụtara na ngwanrọ Rust na-agba ọsọ |
-| **Under stated assumptions** | Ihe akaebe ahụ na-ejide echiche nzuzo akpọrọ aha ya |
-| **Turnstile** | Iwu na-egbochi ụzọ ọpụpụ ọdọ mmiri na ebe a na-edebe ego ya |
-| **High-assurance cryptography** | Iwuli crypto site na nkwenye iwu dịka usoro ọkọlọtọ |
+| **Ironwood** | pool ọhụrụ nke e chebere echebe Zcash (2026), nke dochiri pool Orchard nwere ntụpọ |
+| **Balance integrity** | Pool anaghị akwụpụta uru karịa uru batara na ya n'ihu ọha |
+| **Knowledge soundness** | Proof bara uru chọrọ ka prover nwee witness n'ezie |
+| **Extractor** | Usoro na-ewepụta witness n'aka prover ọ bụla na-eme ka e kweta |
+| **Lean** | Onye enyemaka proof ejiri igwe nyochaa nyocha ahụ |
+| **ValidLedger** | Ụdị ọdịdị nke iwu consensus theorem na-atụle |
+| **Fingerprint** | Oke dị n'etiti mgbakọ na mwepụ egosipụtara na software Rust na-arụ ọrụ |
+| **Under stated assumptions** | Proof ahụ dị irè ma ọ bụrụ na echiche cryptographic akpọrọ aha dị irè |
+| **Turnstile** | Iwu na-amachi ihe na-apụta na pool na deposit e nwere ike ikwenye |
+| **High-assurance cryptography** | Iwulite crypto na nyocha ọdịdị dịka nzọụkwụ ọkọlọtọ |
 
 ---
 
-## Ajụjụ ndị a na-ajụkarị
+## Ajụjụ a na-ajụkarị
 
-** Ihe akaebe ahụ ọ pụtara na Ironwood enweghị ahụhụ?**
-Mba, ọ sịghịkwa na ya bụ. Ọ gosipụtara otu ihe doro anya nke ọma, nguzozi iguzosi ike n'ezi ihe, n'okpuru nkwupụta ndị e kwuru okwu ha. Nke ahụ ewepụla ịgha ụgha a na-apụghị ịchọpụta achọta, ọ bụghị njehie niile enwere ike ichepụta echiche.
+**Proof ahụ ọ pụtara na Ironwood enweghị ahụhụ?**
+Mba, ọ naghị ekwukwa nke ahụ. Ọ na-egosi otu njirimara kpọmkwem, izu oke nguzozi, n'okpuru echiche e kwuru. Nke ahụ na-ewepụ imepụta ego adịgboroja a na-enweghị ike ịchọpụta, ọ bụghị ahụhụ niile a pụrụ iche n'echiche.
 
-** Ihe akaebe ahụ ọ̀ na-ekwe nkwa azụmahịa m bụ nke nzuzo?**
-Mba. Nyocha ahụ na-ekpuchi nkwado nke ọkọnọ (enweghị ego adịgboroja), ọ bụghị nkwa nzuzo dị iche iche nke ọdọ mmiri ahụ. Ndị a rụrụ ụka n'ụzọ dị iche.
+**Proof ahụ ọ na-ekwe nkwa na Azụmahia m bụ nke Nzuzo?**
+Mba. Nyocha ahụ na-ekpuchi izu oke supply (enweghị ego adịgboroja), ọ bụghị nkwa Nzuzo pụrụ iche nke pool ahụ. A na-arụrịta ụka maka ndị ahụ n'ụzọ dị iche.
 
-**Gịnị mere ị ga-eji tụkwasị obi na ihe akaebe nke mmadụ (na AI) dere?**
-Because it is machine-checked. The Lean proof assistant verifies every step mechanically, so trust rests on the specification and the named assumptions, not on any human's or AI's care in each step.
+**Gịnị mere a ga-eji tụkwasị proof mmadụ (na AI) dere obi?**
+N'ihi na igwe nyochara ya. Onye enyemaka proof Lean na-ekwenye nzọụkwụ ọ bụla n'ụzọ igwe, ya mere ntụkwasị obi dabere na nkọwapụta na echiche akpọrọ aha, ọ bụghị na nlekọta mmadụ ma ọ bụ AI n'ime nzọụkwụ ọ bụla.
 
-**Kedu ihe na-eme mkpụrụ ego ka dị n'ọdọ mmiri ochie nke Orchard?**
-Enwere ike iwepụ ha, mana naanị ruo ego ole etinyere n'ụzọ ziri ezi site na turnstile. Nke a ma chebe iguzosi ike n'ezi ihe nke ọkọnọ ahụ wee nyere aka gosipụta adịghị mma ochie emeghị ka ọ ghara imebi ya.
+**Gịnị na-eme mkpụrụ ego ka dị na pool Orchard ochie?**
+Enwere ike ịwepụ ha, mana naanị ruo n'ogo ego batara na ya nke a pụrụ ikwenye, nke turnstile na-amanye. Nke a na-echekwa ma izu oke supply ma na-enye aka igosi na ejighị ntụpọ ochie ahụ eme ihe.
 
-** Nke a ọ bụ njedebe nke akụkọ ahụ?**
-Ọ bụ ihe dị mkpa, ọ bụghị njedebe. A na-ewu ụlọ ọrụ Zcash n'ọdịnihu (Tachyon, ya na ngwaọrụ Ragu) site na nyocha nke ọma dịka usoro ọkọlọtọ, ịgbasawanye ụzọ a ọzọ.
+**Nke a ọ bụ njedebe nke akụkọ a?**
+Ọ bụ nnukwu nzọụkwụ, ọ bụghị akara njedebe. A na-ewu nhazi ọdịnihu Zcash (Tachyon, ya na toolkit Ragu) na nyocha ọdịdị dịka omume ọkọlọtọ, na-agbatị ụzọ a n'ihu.
 
 ---
 
-### Nwalee ihe ị ma banyere ya .
+### Nwalee nghọta gị
 
-Onye na-ekwu: "Ebe ọ bụ na a kwadoro Ironwood n'ụzọ iwu, ugbu a agaghị ekwe omume maka ihe ọ bụla ga - emejọ Zcash. " Iji echiche sitere n'akụkụ atọ ahụ niile, nye ụzọ abụọ dị iche iche nke nkwupụta siri ike. * ((Zaa ebe a.)) *
+Onye kwuru, sị: “Ebe ọ bụ na Ironwood enyochala n'ụdị ọdịdị, ugbu a ọ gaghị ekwe omume ka ihe ọ bụla mebie Zcash.” N'iji echiche sitere na akụkụ atọ niile, nye ihe abụọ dị iche mere nkwupụta ahụ ji sie ike karịa ka o kwesịrị. *(Azịza dị n'okpuru.)*
 
-<details><summary>Answer</summary>
+<details><summary>Azịza</summary>
 
-First, the proof covers a *specific* property (balance integrity) under *stated assumptions* (discrete-log hardness and standard hash modeling). If a cryptographic assumption were broken, or if a problem arose outside what was specified (for example in privacy, in wallet software, or in some unproven component), the proof says nothing about it. Second, formal verification guarantees the system meets *the specification that was written*; if that specification itself failed to capture some real requirement, the proof would faithfully certify the wrong thing. Both points are the Part 1 caveat restated: a proof is exact and bounded, powerful precisely because its scope is honest, not a blanket guarantee that nothing can ever go wrong.
+Nke mbụ, proof ahụ na-ekpuchi otu njirimara *kpọmkwem* (izu oke nguzozi) n'okpuru *echiche e kwuru* (isi ike discrete-log na nhazi hash ọkọlọtọ). Ọ bụrụ na e bibie echiche cryptographic, ma ọ bụ ọ bụrụ na nsogbu bilitere n'èzí ihe e kwuru (dịka ọmụmaatụ na Nzuzo, na software e-akpa ego [wallet], ma ọ bụ n'ime akụkụ a na-egosibeghị), proof ahụ anaghị ekwu ihe ọ bụla gbasara ya. Nke abụọ, nyocha ọdịdị na-ekwe nkwa na usoro ahụ na-emezu *nkọwapụta e dere*; ọ bụrụ na nkọwapụta ahụ n'onwe ya ejighị otu ezigbo mkpa, proof ahụ ga-eji ntụkwasị obi kwado ihe na-ezighi ezi. Isi abụọ ahụ bụ ịdọ aka ná ntị Nkebi 1 ekwughachiri: proof ziri ezi ma nwere oke, dị ike kpọmkwem n'ihi na oke ya kwụ ọtọ, ọ bụghị nkwa zuru ebe niile na ọ dịghị ihe ga-emebi mgbe ọ bụla.
 </details>
 
 ---
 
-### Usoro ahụ, zuru ezu.
+### Usoro isiokwu ahụ, zuru ezu
 
-N'akụkụ atọ anyị si n'echiche izugbe gaa na ngwa dị ndụ: ihe ọ pụtara iji ** gosipụta** sọftụwia ziri ezi kama ịnwale ya (Nkebi nke 1), otu ezigbo okirikiri nwere ike isi nweta ego a na-adịghị ahụ anya (Akụkụ 2), yana etu esi enyocha igwe nyocha maka ịdị ọcha nguzozi lara ezumike nká ụdị ahụhụ ahụ ruo mgbe ebighi ebi (Agba 3). Usoro gafere bụ nkwa, eziokwu doro anya: ọbụghị "enweghị nsogbu", mana "ihe ngosi a zuru oke maka ikpe niile, n'okpuru nkwupụta ekwuputara. "Maka ego zoro ezo ọnụ ọgụgụ nke aka ya, nkwa ahụ bụ kpọmkwem onye kwesịrị igosipụta.
+N'ime akụkụ atọ, anyị si n'echiche zuru ụwa ọnụ gaa n'ọrụ dị ndụ: ihe ọ pụtara **igosipụta** na software ziri ezi kama ịnwale ya (Nkebi 1), otú circuit enweghị mgbochi zuru ezu n'ezie gaara esi mepụta ego na-adịghị ahụ anya (Nkebi 2), na otú proof igwe nyochara nke **izu oke nguzozi** si kwụsị ụdị ahụhụ ahụ kpamkpam (Nkebi 3). Ihe jikọrọ ha bụ otu nkwa kwụ ọtọ: ọ bụghị “enweghị ahụhụ mgbe ọ bụla,” kama “njirimara a kpọmkwem dị n'ọnọdụ ọ bụla, n'okpuru echiche e kwuru.” Maka ego na-ezo ego nke ya, nkwa ahụ bụ kpọmkwem nke kwesịrị igosipụta.
 
-*Akụkụ nke usoro nyocha ọfụma maka* [ZecHub](https://zechub.org).*
+*Akụkụ nke* Formal Verification  *usoro isiokwu maka [ZecHub](https://zechub.org).*

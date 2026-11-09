@@ -1,20 +1,20 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Using_Zcash/DEX.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Dezie Peeji"/>
 </a>
 
-# Mgbanwe Ndị A Na-agbanweghị Echichi
+# decentralized Exchanges
 
-ZecHub anaghị akwado ọrụ mgbanwe Decentralized ọ bụla, biko mee nyocha nke gị.
+ZecHub anaghị akwado ọrụ decentralized Exchange ọ bụla kpọmkwem, biko mee nchọpụta nke gị.
 
-Nke ọ bụla `###` isi okwu dị n'okpuru bụ otu kaadị dị na ya https://zechub.wiki/dex.
-Tinye, dezie, ma ọ bụ wepụ ngọngọ ebe a; wiki ahụ na-ewepụta ya na faịlụ a.
+Isiokwu `###` ọ bụla dị n'okpuru bụ otu kaadị na https://zechub.wiki/dex.
+Tinye, dezie, ma ọ bụ wepụ block ebe a; wiki na-enweta ya site na faịlụ a.
 
 ### NEAR Intents
 
 <img src="/nearintents.png" alt="NEAR Intents" width="200" height="100"/>
 
 - Weebụsaịtị: https://near.com/
-- Nkọwa: Mgbanwe ngwa ngwa site na nkwado nke NEAR. Mee ego, ree, gbanwee, tinyere TRUMP, MELANIA, BERA na memes ndị ọzọ ama ama
+- Nkọwa: exchange ngwa ngwa nke NEAR na-akwado. Tinye ego, ree, Mgbawe gụnyere TRUMP, MELANIA, BERA ndị a ma ama na memes ndị ọzọ
 
 ___
 
@@ -23,7 +23,7 @@ ___
 <img src="/nativeswap.png" alt="Nativeswap" width="200" height="100"/>
 
 - Weebụsaịtị: https://nativeswap.io/
-- Nkọwa: Azụmaahịa Native Cross-Chain Na-enweghị Ihe Mgbochi site na Maya Protocol. Azụmaahịa ozugbo na agbụ ígwè na-enweghị àkwà mmiri ma ọ bụ ihe mkpuchi - nweta obere ụgwọ ụlọ ọrụ na njikwa akụ zuru oke.
+- Nkọwa: Azụmahia cross-chain nke ala na-enweghị ihe mgbochi site na Maya Protocol. Zụọ ahịa ozugbo on-chain na-enweghị bridges ma ọ bụ tokens a fụchiri—nwee ugwo ụlọ ọrụ dị ala na njikwa akụ zuru oke.
 
 ___
 
@@ -32,7 +32,7 @@ ___
 <img src="/content-images/firodex-beta-release-b1958c5adc.webp" alt="Firo DEX" width="200" height="100"/>
 
 - Weebụsaịtị: https://github.com/firoorg/FiroDEX-Desktop
-- Nkọwa: Mgbanwe ndị a na-enweghị ntụkwasị obi site na iji mgbanwe atọm na FiroDEX!.
+- Nkọwa: Mgbawe decentralized enweghị ntụkwasị obi site n'iji atomic swaps na FiroDEX!.
 
 ___
 
@@ -41,7 +41,7 @@ ___
 <img src="/leodex-logo.png" alt="LeoDex" width="200" height="100"/>
 
 - Weebụsaịtị: https://leodex.io
-- Nkọwa: Mgbanwe Crosschain na-abanye ma na-apụ na ZEC, nke a na-agafe na THORChain, Maya Protocol, Chainflip, NEAR Intents, Relay na Rango. Achọghị akaụntụ, KYC, na njikọ obere akpa ego na ụzọ ndị akwadoro.
+- Nkọwa: Mgbawe Crosschain banye na pụọ na ZEC, nke e si na THORChain, Maya Protocol, Chainflip, NEAR Intents, Relay na Rango ziga. Enweghị akaụntụ, enweghị KYC, ọ dịghịkwa mkpa ijikọ e-akpa ego n’ụzọ ndị a na-akwado.
 
 ___
 
@@ -50,7 +50,7 @@ ___
 <img src="/bisonwallet-logo.png" alt="Bison Wallet" width="200" height="100"/>
 
 - Weebụsaịtị: https://dex.decred.org/
-- Nkọwa: Zụta ego dijitalụ peer-to-peer. Enweghị ụgwọ azụmaahịa. Enweghị KYC.
+- Nkọwa: Zụọ ahịa crypto n'etiti mmadụ na mmadụ. Enweghị ugwo azụmahịa. Enweghị KYC.
 
 ___
 
@@ -59,7 +59,7 @@ ___
 <img src="/thorswapLogo.png" alt="THORSwap" width="200" height="100"/>
 
 - Weebụsaịtị: https://app.thorswap.finance/
-- Nkọwa: DEX nke THORChain, na-eme ka mgbanwe obodo dị n'etiti Bitcoin, Ethereum, na akụ ndị ọzọ dị mkpa na-enweghị ihe mkpuchi.
+- Nkọwa: DEX cross-chain nke THORChain na-enye ike, na-eme ka Mgbawe nke ala dị n'etiti Bitcoin, Ethereum, na akụ ndị ọzọ dị mkpa kwe omume na-enweghị tokens a fụchiri.
 
 ___
 
@@ -68,16 +68,16 @@ ___
 <img src="/routerProtocolLogo.png" alt="Router Protocol" width="200" height="100"/>
 
 - Weebụsaịtị: https://www.routerprotocol.com/
-- Nkọwa: Okpokoro njem mmiri mmiri nke na-enye ohere maka mbufe akụ na data n'etiti ọtụtụ blockchains.
+- Nkọwa: Oyi akwa ibufe liquidity cross-chain nke na-enye ohere maka mbufe akụ na data na-enweghị nkwụsị n'etiti ọtụtụ blockchains.
 
 ___
 
-### Ndị ọgbọ
+### Peer
 
 <img src="/peer-logo.jpg" alt="Peer" width="200" height="100"/>
 
 - Weebụsaịtị: https://peer.xyz/
-- Nkọwa: Mgbanwe ndị ọgbọ na ndị ọgbọ nke e kewapụrụ ekewa nke na-eme ka azụmahịa crypto ozugbo nwee ike ime ka nzuzo na njikwa onye ọrụ ka mma.
+- Nkọwa: exchange decentralized n'etiti mmadụ na mmadụ nke na-enye Azụmahia crypto kpọmkwem, yana Nzuzo na njikwa onye ọrụ ka mma.
 
 ___
 
@@ -86,7 +86,7 @@ ___
 <img src="/rocketx-logo.jpg" alt="RocketX" width="200" height="100"/>
 
 - Weebụsaịtị: https://rocketx.exchange/
-- Nkọwa: Ngwakọta DEX na-enye ohere ịgbanwe mgbanwe n'ọtụtụ blockchains na nhazi kacha mma na ọnụego asọmpi.
+- Nkọwa: Onye nchịkọta DEX ngwakọ nke na-enye Mgbawe cross-chain gafee ọtụtụ blockchains site n'iji ụzọ kacha mma na ọnụego asọmpi.
 
 ___
 
@@ -95,7 +95,7 @@ ___
 <img src="/thorchain-logo.jpg" alt="THORChain" width="200" height="100"/>
 
 - Weebụsaịtị: https://swap.thorchain.org/
-- Nkọwa: Mgbanwe nke Layer 1 nke e kewapụrụ ekewa. Gbanwee ihe onwunwe obodo dịka ZEC, BTC, na ETH ozugbo na-enweghị àkwà mmiri, ihe mkpuchi, ma ọ bụ ndị nnọchi anya.
+- Nkọwa: exchange cross-chain decentralized Layer 1. Mgbawe akụ nke ala dịka ZEC, BTC, na ETH ozugbo na-enweghị bridges, tokens a fụchiri, ma ọ bụ ndị etiti.
 
 ___
 
@@ -104,7 +104,7 @@ ___
 <img src="/loofta-logo.svg" alt="Loofta" width="200" height="100"/>
 
 - Weebụsaịtị: https://loofta.xyz/
-- Nkọwa: Ikpo okwu ịkwụ ụgwọ nkeonwe na mgbanwe nke na-abụghị nke nchekwa. Zipu ma nata crypto n'onwe gị n'ofe agbụ, yana Zcash dị ka akwa nhazi maka nchekwa nzuzo ego ka mma.
+- Nkọwa: Ikpo okwu Kwụọ ụhwọ na Mgbawe nke Nzuzo na-enweghị Onye nlekota. Ziga ma nata crypto na Nzuzo gafee chains, ebe Zcash bụ oyi akwa mmezi maka Nzuzo ego ka mma.
 
 
 ___
@@ -117,5 +117,4 @@ ___
 
 
 - Weebụsaịtị: https://zcashto.cash/
-- Nkọwa: Mgbazinye ego ZEC-to-fiat nke na-abụghị nke nchekwa site na Peer. Zipu ZEC echekwara ma nata ụgwọ ọrụ na ngwa ịkwụ ụgwọ kwa ụbọchị dịka Venmo, Cash App, Revolut, Zelle, Chime, na Monzo n'ofe mpaghara 100+. Achọghị akaụntụ CEX; escrow na-agwụcha mgbe akaebe nke ịkwụ ụgwọ fiat gasịrị.
-
+- Nkọwa: Iwepụta ego ZEC gaa fiat na-enweghị Onye nlekota site na Peer. Ziga ZEC nke e chebere echebe ma nata ego a kwụrụ na ngwa Kwụọ ụhwọ kwa ụbọchị dịka Venmo, Cash App, Revolut, Zelle, Chime, na Monzo gafee mpaghara karịrị 100. Ọ dịghị mkpa akaụntụ CEX; escrow na-emecha mgbe proof nke Kwụọ ụhwọ fiat gasịrị.
