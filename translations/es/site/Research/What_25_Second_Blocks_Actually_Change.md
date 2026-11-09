@@ -127,4 +127,4 @@ También hay dos costes menores. Las billeteras ligeras descargan unos 200 KB m�
 - [Foro: La reducción del tiempo de bloque de Zcash parece segura para NU7 con una devnet exclusiva de Zebra](https://forum.zcashcommunity.com/t/zcash-block-time-reduction-appears-safe-for-nu7-w-zebra-only-devnet/55586)
 - [Incidencia n.º 11463 de Zebra](https://github.com/ZcashFoundation/zebra/issues/11463), intervalo de halving y subsidio posteriores a NU7
 - [Incidencia n.º 11440 de Zebra](https://github.com/ZcashFoundation/zebra/issues/11440), seguimiento de la implementación de ZIP 218
-- NU7Resultados de la consulta y calendario, según informó Bitcoin.com News, crypto.news y KuCoin (16–19 de septiembre de 2026)
+- NU7 Resultados de la consulta y calendario, según informó Bitcoin.com News, crypto.news y KuCoin (16–19 de septiembre de 2026)
