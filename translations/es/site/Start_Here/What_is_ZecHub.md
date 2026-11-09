@@ -6,26 +6,26 @@
 # ¿Qué es ZecHub?
 ---
 
-ZecHub es un centro educativo descentralizado para Zcash. El objetivo de [ZecHub](http://zechub.xyz) es proporcionar una plataforma educativa donde los miembros de la comunidad puedan trabajar juntos en la creación, validación y promoción de contenido que apoye el ecosistema de Zcash. Hacemos esto a través de algunos mecanismos.
+ZecHub es un centro educativo descentralizado [decentralized education hub] para Zcash. El objetivo de [ZecHub](http://zechub.xyz) es proporcionar una plataforma educativa donde los miembros de la comunidad puedan colaborar en la creación, validación y promoción de contenido que respalde el ecosistema de Zcash. Lo hacemos mediante algunos mecanismos.
 
 1. [Tutoriales](https://www.youtube.com/playlist?list=PL6_epn0lASLFF28ePj7P5TvtMG_WE7p3O)
-2. [Wiki-docs](https://zechub.wiki/)
+2. [Documentación wiki](https://zechub.wiki/)
 3. [Un pódcast que entrevista a miembros de la comunidad](https://www.youtube.com/playlist?list=PL6_epn0lASLHlNCMtUErX8UfaJK6N9K5O).
 4. [Un boletín semanal de Zcash.](https://zechub.substack.com/)
 
-Los tutoriales, los blogs de formato corto y el boletín son de código abierto y están alojados en GitHub, lo que significa que cualquier persona de la comunidad puede contribuir. Esto es para garantizar que el contenido sea preciso y que el canal en sí no sufra de un único punto de fallo.
+Los tutoriales, los blogs breves y el boletín son de código abierto y están alojados en GitHub, lo que significa que cualquier persona de la comunidad puede contribuir. Esto garantiza que el contenido sea preciso y que el propio canal no tenga un único punto de fallo.
 
-Si eres nuevo en Zcash, usa [esta guía](/start-here/new-user-guide).****
+Si eres nuevo en Zcash, utiliza [esta guía](/start-here/new-user-guide).****
 
-## Cómo hacer cambios en ZecHub
+## Cómo realizar cambios en ZecHub
 
 ---
 
-1. Ve al [repositorio de GitHub de ZecHub](https://github.com/ZecHub/zechub)
+1. Ve al repositorio de [ZecHub en GitHub](https://github.com/ZecHub/zechub)
    
 2. Crea una nueva cuenta de GitHub o inicia sesión con la tuya
    
-3. Sigue esta guía para aprender a hacer un pull request:
+3. Sigue esta guía para aprender a realizar una solicitud de extracción [pull request]:
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -39,11 +39,11 @@ Si eres nuevo en Zcash, usa [esta guía](/start-here/new-user-guide).****
 </div>
 
 
-## Pautas para contribuidores
+## Directrices para colaboradores
 
 ---
 
-Con el interés de mantener una apariencia uniforme en ZecHub, hay una plantilla que puedes usar al agregar páginas al repositorio.
+Para mantener una apariencia uniforme en ZecHub, hay una plantilla que puedes utilizar al añadir páginas al repositorio.
 
 ```markdown
 1. All pages should have additional resources (ie. links to z.cash) to support content
@@ -59,8 +59,8 @@ Donaciones: [aquí](https://mainnet.zcashexplorer.app/ua/u17sawf3pdh7z6tsy83vhjd
 
 
 
-**DESCARGO DE RESPONSABILIDAD: ZecHub es una iniciativa completamente independiente y de código abierto fundada por miembros de la comunidad de Zcash. Nada de lo contenido en este repositorio de GitHub debe considerarse asesoramiento financiero o de inversión; es solo para fines informativos.**
+**DESCARGO DE RESPONSABILIDAD: ZecHub es una iniciativa completamente independiente y de código abierto fundada por miembros de la comunidad de Zcash. Nada de lo contenido en este repositorio de GitHub debe considerarse asesoramiento financiero o de inversión; es únicamente para fines informativos.**
 
 ---
 
-*Si deseas agregar o sugerir ediciones a esta página de la wiki, dirígete al [repositorio de github de ZecHub](https://github.com/ZecHub/zechub) y envía un pull request.*
+*Si deseas añadir o sugerir cambios a esta página wiki, dirígete al repositorio de github de [ZecHub](https://github.com/ZecHub/zechub) y envía una solicitud de extracción.*

@@ -1,31 +1,31 @@
-# Zero to Zero Knowledge: Funciones hash
+# Zero to Zero Knowledge: Funciones hash [Hash Functions]
 
 **Introducción de la serie**  
-¡Bienvenidos a una nueva serie: **Zero to Zero Knowledge**!  
+¡Te damos la bienvenida a una nueva serie: **Zero to Zero Knowledge**!  
 
-En esta serie aprenderemos los fundamentos de una amplia gama de tecnologías que forman parte de nuestros protocolos de preservación de la privacidad.
+En esta serie aprenderemos los fundamentos de una amplia variedad de tecnologías que forman parte de nuestros protocolos que preservan la privacidad.
 
 ---
 
 ## Parte 1: Funciones hash
 
-Hoy comenzamos con las **Funciones hash**, una pieza clave de la criptografía utilizada en las blockchains. Más adelante en esta serie cubriremos algunos temas que dependen de sus propiedades.
+Hoy comenzamos con las **Funciones hash**: una pieza clave de la criptografía utilizada en las blockchains. Más adelante en esta serie abordaremos algunos temas que dependen de sus propiedades.
 
 ### ¿Qué es una función hash?
 
 Las funciones hash toman una entrada de cualquier longitud y producen una salida de longitud fija.
 
-- **Mensaje al que se le aplicará hash** = Entrada  
+- **Mensaje que se va a hashear** = Entrada  
 - **El algoritmo que se utiliza** = Función hash  
 - **Salida resultante** = Valor hash  
 
 
-![Diagrama de función hash](/content-images/Fn_NkFHXgAEtgse-474c24c373.webp)
+![Hash Function diagram](/content-images/Fn_NkFHXgAEtgse-474c24c373.webp)
 
 ### ¡Pruébalo tú mismo!
 
-¡Vamos a entenderlo de forma práctica usando esta herramienta!  
-Introduce cualquier texto arbitrario para producir una salida de longitud fija. Observa cómo varía la salida según el diferente algoritmo de hash.
+¡Obtengamos una comprensión práctica utilizando esta herramienta!  
+Introduce cualquier texto arbitrario para producir una salida de longitud fija. Observa cómo varía la salida según el algoritmo de hashing utilizado.
 
 **Pruébalo:** https://cryptii.com/pipes/hash-function
 
@@ -35,9 +35,9 @@ Introduce cualquier texto arbitrario para producir una salida de longitud fija. 
 
 Las funciones hash criptográficas deben tener estas **3 propiedades**:
 
-1. **Unidireccionales** - Debe ser inviable revertir una función hash  
-2. **Resistentes a colisiones** - Dos entradas diferentes no deben producir la misma salida hash  
-3. **Determinísticas** - Para cualquier entrada, una función hash siempre debe dar el mismo resultado
+1. **Unidireccional**: debería ser inviable revertir una función hash  
+2. **Resistente a colisiones**: dos entradas diferentes no deben hashearse en la misma salida  
+3. **Determinista**: para cualquier entrada, una función hash siempre debe dar el mismo resultado
 
 ---
 
@@ -45,55 +45,55 @@ Las funciones hash criptográficas deben tener estas **3 propiedades**:
 
 Existen varias clases de funciones hash. Algunos ejemplos:
 
-- Secure Hashing Algorithm (**SHA-3**)  
-- Message Digest Algorithm 5 (**MD5**)  
-- **BLAKE2b** - Utilizada en la derivación de claves de Zcash
+- Algoritmo de hashing seguro (**SHA-3**)  
+- Algoritmo de resumen de mensajes 5 (**MD5**)  
+- **BLAKE2b**: utilizado en la derivación de claves de Zcash
 
 **Una introducción a BLAKE2**: https://www.blake2.net
 
 ---
 
-### Usos reales de las funciones hash
+### Usos de las funciones hash en el mundo real
 
-#### 1. Hash de integridad (comprobaciones de integridad de datos)
-Las comprobaciones de integridad de datos son un ejemplo de "Hash de integridad". Se utilizan para generar sumas de verificación en archivos de datos y proporcionar al usuario una garantía de corrección.
+#### 1. Hashing de integridad (comprobaciones de integridad de datos)
+Las comprobaciones de integridad de datos son un ejemplo de «hashing de integridad». Se utilizan para generar sumas de verificación en archivos de datos y proporcionar garantía de corrección a un usuario.
 
-![Ejemplo de hash de integridad](/content-images/Fn_Or0MWIAI6sgx-9aab89b808.webp)
+![Integrity Hashing example](/content-images/Fn_Or0MWIAI6sgx-9aab89b808.webp)
 
 #### 2. Árboles de Merkle (árboles hash)
 Un **árbol hash** o **árbol de Merkle** está compuesto por ramas y nodos hoja que están etiquetados con el hash criptográfico de un bloque de datos.
 
-![Diagrama de árbol de Merkle](/content-images/Fn_O7ndWIAY5PA-8e30e442ed.webp)
+![Merkle Tree diagram](/content-images/Fn_O7ndWIAY5PA-8e30e442ed.webp)
 
 Los árboles de Merkle son un ejemplo de un **esquema de compromiso criptográfico**. La raíz del árbol se considera un compromiso y se demuestra que los nodos hoja forman parte del compromiso original.
 
-Verifican los datos almacenados o transferidos en redes P2P, garantizando que los datos recibidos de los pares no hayan sido alterados.
+Verifican los datos almacenados o transferidos en redes P2P, asegurando que los datos recibidos de pares no hayan sido alterados.
 
-#### 3. Árbol de compromiso de notas en Zcash
-En los pools blindados de Zcash **Sapling** y **Orchard**, el **Árbol de compromiso de notas** se utiliza para verificar que las transacciones sean válidas según el consenso mientras oculta perfectamente el remitente, el destinatario y las cantidades consumidas.
+#### 3. Árbol de compromisos de notas en Zcash
+En los pools blindados **Sapling** y **Orchard** de Zcash, el **Árbol de compromisos de notas** se utiliza para verificar que las transacciones sean válidas según el consenso, mientras oculta perfectamente al remitente, al destinatario y los importes utilizados.
 
-#### 4. Hash de firma (bloques al estilo Bitcoin)
-**SHA256** es un ejemplo de "Hash de firma" utilizado para hacer cumplir la inmutabilidad de cada bloque en la cadena de Bitcoin. Los mineros utilizan el hash del bloque anterior + un hash de todas las transacciones del bloque actual (`hashMerkleRoot`) + marca de tiempo + valor aleatorio / dificultad de la red para los nuevos bloques.
+#### 4. Hash de firma (bloques al estilo de Bitcoin)
+**SHA256** es un ejemplo de un «hash de firma» utilizado para imponer la inmutabilidad de cada bloque en la cadena de Bitcoin. Los mineros utilizan el hash del bloque anterior + un hash de todas las transacciones del bloque actual (hashMerkleRoot) + marca de tiempo + valor aleatorio / dificultad de red para bloques nuevos.
 
-![Diagrama de bloque SHA256](/content-images/Fn_PaVZXoAApHPf-936e479067.webp)
+![SHA256 block diagram](/content-images/Fn_PaVZXoAApHPf-936e479067.webp)
 
-#### 5. Equihash (minería de Zcash)
-**Equihash** es el algoritmo hash utilizado en la minería de Zcash. También lo utilizan redes como Komodo y Horizen.
+#### 5. Equihash (minado de Zcash)
+**Equihash** es el algoritmo de hashing utilizado en el minado de Zcash. También lo utilizan redes como Komodo y Horizen.
 
-**Equihash: prueba de trabajo asimétrica basada en el problema generalizado del cumpleaños** (Biryukov y Khovratovich): https://eprint.iacr.org/2015/946
+**Equihash: Prueba de trabajo asimétrica basada en el problema generalizado del cumpleaños** (Biryukov y Khovratovich): https://eprint.iacr.org/2015/946
 
 ---
 
-### Lectura adicional
+### Lecturas adicionales
 
-Para desarrollar una mayor comprensión de los diferentes tipos de funciones hash y sus usos asociados, este es un recurso excelente:  
+Para comprender mejor los diferentes tipos de funciones hash y sus usos asociados, este es un excelente recurso:  
 https://en.wikipedia.org/wiki/Hash_function
 
 ---
 
 **Hilo de ZecHub (@ZecHub)**  
-Hilo original en X: https://x.com/ZecHub/status/1621240109663227906  
+Hilo original de X: https://x.com/ZecHub/status/1621240109663227906  
 
 ---
 
-*Esta página fue compilada a partir del hilo original de Zero to Zero Knowledge para la wiki de ZecHub.*
+*Esta página fue recopilada a partir del hilo original de Zero to Zero Knowledge para la wiki de ZecHub.*
