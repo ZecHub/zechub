@@ -10,7 +10,7 @@
   <iframe
     className="w-full h-full"
     src="https://www.youtube.com/embed/FfH5jiX8pT0"
-    title="Uso de un nodo Zcash Zebra con lightwalletd: TUTORIAL"
+    title="Uso de Zcash Zebra Node con lightwalletd: TUTORIAL"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowFullScreen
     loading="lazy"
@@ -27,13 +27,13 @@ sudo apt install libclang-dev clang pkg-config openssl protobuf-compiler npm
 
 ## Compilar Zebra
 
-[GitHub de Zebra](https://github.com/ZcashFoundation/zebra)
+[Zebra GitHub](https://github.com/ZcashFoundation/zebra)
 
 * `time cargo install --git https://github.com/ZcashFoundation/zebra --tag v3.1.0 zebrad`
 
 ## Configurar zebrad.toml
 
-añade:
+Añade:
 
 `listen_addr = '127.0.0.1:8232'`
 
@@ -45,7 +45,7 @@ añade:
 
 ## Compilar lightwalletd
 
-* instala Go
+* Instalar go
 
 ```bash
 wget https://go.dev/dl/go1.25.5.linux-arm64.tar.gz
@@ -53,7 +53,7 @@ sudo rm -rf /usr/local/go && sudo tar -C /usr/local -xzf go1.25.5.linux-arm64.ta
 export PATH=$PATH:/usr/local/go/bin
 ```
 
-* instala lightwalletd
+* Instalar lightwalletd
 
 ```bash
 git clone https://github.com/zcash/lightwalletd
@@ -65,7 +65,7 @@ export PATH=$PATH:~/go/bin
 
 ## Sincronizar lightwalletd
 
-* ten en cuenta el cambio de `data-dir`
+* Observa el cambio del directorio de datos
 
   `lightwalletd --zcash-conf-path ~/.config/zcash.conf --data-dir /media/zebra5/zebra/.cache/lightwalletd --log-file /dev/stdout --no-tls-very-insecure`
 
@@ -78,7 +78,7 @@ export PATH=$PATH:~/go/bin
  sudo apt update
  sudo apt install nodejs
 ```
-Si experimentas algún error, [aquí](https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-22-04) tienes algunas formas alternativas de instalar NodeJS.
+Si experimentas algún error, [aquí](https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-22-04) hay algunas formas alternativas de instalar NodeJS.
 
 ## Instalar Yarn
 
@@ -98,7 +98,7 @@ yarn dist:linux
 
 ## Iniciar Zingo-PC
 
-* Puedes usar AppImage, o el binario en la carpeta descomprimida
+* Puedes usar appimage o el binario en la carpeta descomprimida
 * ¡Disfruta! :)
 
 # Fuentes

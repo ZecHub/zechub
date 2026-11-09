@@ -1,4 +1,4 @@
-# <img src="/content-images/journalist-host-profession-interview-svg-2eb63ae5c9.svg" width="24" height="24" alt="Icono de periodista"/> Configuración de privacidad para periodistas con Zcash
+# <img src="/content-images/journalist-host-profession-interview-svg-2eb63ae5c9.svg" width="24" height="24" alt="Journalist icon"/> Configuración de privacidad [Privacy] para periodistas con Zcash
 
 <span className="inline-flex items-center gap-[6px]">
   <span className="inline-block w-[12px] h-[12px] bg-green-500 rounded-full"></span>
@@ -7,73 +7,73 @@
 
 ## TL;DR
 
-- Usa direcciones blindadas para todas las transacciones
-- Nunca expongas públicamente la identidad de la billetera
-- Protege tus fuentes evitando pagos rastreables
-- Usa los memos con cuidado para una comunicación segura
+- Utiliza direcciones [addresses] blindadas [shielded] para todas las transacciones [transactions]
+- Nunca expongas públicamente la identidad de la billetera [wallet]
+- Protege las fuentes evitando pagos [payments] rastreables
+- Utiliza los memos [memos] con cuidado para una comunicación segura
 
 <br/>
 
-## <img src="/content-images/user-svgrepo-com-21adf62b7c.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="icono de usuario"/> ¿Para quién es esto?
+## <img src="/content-images/user-svgrepo-com-21adf62b7c.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="user icon"/> ¿Para quién es esto?
 
 - Periodistas
 - Investigadores
 - Activistas
-- Personas de alto riesgo que manejan pagos sensibles
+- Personas de alto riesgo que gestionan pagos sensibles
 
 
 <br/>
 
-## <img src="/content-images/warning-error-svgrepo-com-b7ea8a50da.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="icono de advertencia"/> El problema
+## <img src="/content-images/warning-error-svgrepo-com-b7ea8a50da.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="warning icon"/> El problema
 
 Los periodistas enfrentan:
 - Vigilancia
-- Riesgos de exposición de las fuentes
-- Seguimiento financiero por parte de adversarios
+- Riesgos de exposición de fuentes
+- Rastreo financiero por parte de adversarios
 
-Usar criptomonedas transparentes puede revelar:
+El uso de criptomonedas transparentes [transparent] puede revelar:
 - Quién te pagó
 - A quién pagaste
 - Cuándo y cuánto
 
 <br/>
 
-## <img src="/content-images/icons8-lock-2f8e221321.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="icono de caja de herramientas"/> ¿Por qué Zcash?
+## <img src="/content-images/icons8-lock-2f8e221321.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> ¿Por qué Zcash?
 
 
-Zcash ofrece:
-- Fuerte privacidad financiera
+Zcash proporciona:
+- Sólida privacidad financiera
 - Protección para transacciones sensibles
 - Menor riesgo de vincular a periodistas con sus fuentes
 
 <br/>
 
-## <img src="/content-images/icons8-toolbox-9bebbb1619.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="icono de caja de herramientas"/> Lo que necesitas
+## <img src="/content-images/icons8-toolbox-9bebbb1619.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> Lo que necesitas
 
-- Una billetera de Zcash con soporte para blindaje
-- Canal de comunicación seguro (fuera de la blockchain)
+- Una billetera Zcash con soporte para transacciones blindadas
+- Un canal de comunicación seguro (fuera de la blockchain)
 - Disciplina operativa
 
 <br/>
 
-## <img src="/content-images/ladder-svgrepo-com-7232bf46ed.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="icono de paso"/> Guía paso a paso
+## <img src="/content-images/ladder-svgrepo-com-7232bf46ed.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="step icon"/> Guía paso a paso
 
 
-### Paso 1: Crea una billetera dedicada
+### Paso 1: Crea una billetera exclusiva
 
-- Usa una billetera solo para trabajo sensible
+- Utiliza una billetera solo para trabajo sensible
 - No la mezcles con transacciones personales
 
-### Paso 2: Usa solo direcciones blindadas
+### Paso 2: Utiliza solo direcciones blindadas
 
-- Realiza siempre transacciones usando z-addresses
+- Realiza siempre transacciones con direcciones z
 - Evita por completo las transacciones transparentes
 
 
 ### Paso 3: Protege los pagos a las fuentes
 
 Si pagas a fuentes:
-- Usa transacciones blindadas (z → z)
+- Utiliza transacciones blindadas (z → z)
 - Evita patrones de tiempo predecibles
 - No reutilices direcciones
 
@@ -81,28 +81,28 @@ Si pagas a fuentes:
 ### Paso 4: Ten cuidado con los memos
 
 - NO incluyas información sensible en los memos
-- Usa referencias neutrales o codificadas si es necesario
+- Utiliza referencias neutrales o codificadas si es necesario
 
 
 ### Paso 5: Mantén la seguridad operativa
 
 - Evita vincular la billetera con tu identidad
 - No confirmes públicamente las transacciones
-- Usa canales separados para la comunicación
+- Utiliza canales separados para la comunicación
 
 
 <br/>
 
-## <img src="/content-images/icons8-cancel-7f786be3c1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="icono de cancelar"/> Errores comunes que debes evitar
+## <img src="/content-images/icons8-cancel-7f786be3c1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="cancel icon"/> Errores comunes que debes evitar
 
-- Usar direcciones transparentes  
-- Reutilizar direcciones entre distintas fuentes  
+- Utilizar direcciones transparentes  
+- Reutilizar direcciones entre fuentes  
 - Incluir datos sensibles en los memos  
-- Vincular la billetera con una identidad pública  
+- Vincular la billetera con la identidad pública  
 
 <br/>
 
-## <img src="/content-images/checked-checkbox-svgrepo-com-7ea19022da.svg" width="28" height="28" className="inline-block align-middle mr-1 p-[2px]" alt="icono de hecho"/> Resultado
+## <img src="/content-images/checked-checkbox-svgrepo-com-7ea19022da.svg" width="28" height="28" className="inline-block align-middle mr-1 p-[2px]" alt="done icon"/> Resultado
 
 Puedes:
 - Proteger tus fuentes
@@ -111,30 +111,30 @@ Puedes:
 
 <br/>
 
-## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="icono de enlaces en cadena"/> Relacionado
+## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="chain-links icon"/> Relacionado
 
-- [Quién puede ver tu pago de Zcash](/start-here/who-can-see-your-zcash-payment)
-- [Enviar dinero sin vincular la identidad](/zcash-use-cases/send-money-without-linking-identity)
+- [Quién puede ver tu pago Zcash](/start-here/who-can-see-your-zcash-payment)
+- [Envía dinero sin vincular tu identidad](/zcash-use-cases/send-money-without-linking-identity)
 
  <br/>
 
-## <img src="/content-images/celebration-spark-svgrepo-com-bc98dec7c1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="icono de celebración"/> Finalización
+## <img src="/content-images/celebration-spark-svgrepo-com-bc98dec7c1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="celebration icon"/> Finalización
 
 **Paso 6 de 6 — Completado**
 
 Has alcanzado el nivel más avanzado de uso de Zcash.
 
-Ahora entiendes:
+Ahora comprendes:
 - Transacciones privadas
-- Protección de la identidad
+- Protección de identidad
 - Seguridad operativa
 
 <br/> 
 
 ## ¿Qué sigue?
 
-- [Ir a la página principal](/)
-- [Explorar rutas para desarrolladores](/developers)
+- [Ir a la página de inicio](/)
+- [Explorar rutas para desarrolladores developer](/developers)
 - [Contribuir a ZecHub](/contribute/help-build-zechub)
 
 <br/>

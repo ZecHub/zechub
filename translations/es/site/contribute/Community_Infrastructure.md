@@ -1,29 +1,29 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/contribute/Community_Infrastructure.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Editar página"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Marco de infraestructura comunitaria de ZecHub
+# Marco de infraestructura comunitaria de ZecHub [Community Infrastructure Framework]
 
 
-### Infraestructura comunitaria 
+### Infraestructura comunitaria [Community Infrastructure]
 
-El programa de recompensas de ZecHub es la vía remunerada para este trabajo: [ZEC Bounties](https://bounties.zechub.wiki/). Cómo elegir un número de ZEC: [política sobre los importes de las recompensas](https://bounties.zechub.wiki/docs/bounty-amounts). Flujo de trabajo del colaborador: [Cómo contribuir a ZecHub](https://zechub.wiki/contribute/contributing-guide).
+El programa de recompensas [bounty] de ZecHub es la vía remunerada para este trabajo: [ZEC Bounties](https://bounties.zechub.wiki/). Cómo elegir un número de ZEC: [política de montos de recompensas](https://bounties.zechub.wiki/docs/bounty-amounts). Flujo de trabajo para colaboradores: [Contribuir a ZecHub](https://zechub.wiki/contribute/contributing-guide). 
 
 
-## Guías útiles 
+## Guías útiles [Useful Guides]
 
-- [Guía para desarrolladores de ZecHub](https://zechub.wiki/developers)
+- [ZecHub Guía del desarrollador Developer Guide](https://zechub.wiki/developers)
 
-- [Documentación de Zcash](https://zcash.readthedocs.io/en/latest/)
+- [Zcash Documentación](https://zcash.readthedocs.io/en/latest/)
 
 - [El libro de Zebra](https://zebra.zfnd.org)
 
 - [Documentación de Akash Network](https://akash.network/docs/)
 
-- [Configuración de Zebrad en Akash Network](https://zechub.wiki/guides/akash-network-zebra#content)
+- [Configurar Zebrad en Akash Network](https://zechub.wiki/guides/akash-network-zebra#content)
 
-- [Explicación de las solicitudes de pago de Zcash (video)](https://www.youtube.com/watch?v=l5auYQIzYsQ)
+- [Zcash Solicitudes de pago explicadas (video)](https://www.youtube.com/watch?v=l5auYQIzYsQ)
 
-- [Especificación ZIP-321](https://zips.z.cash/zip-0321)
+- [ZIP-321 Especificación](https://zips.z.cash/zip-0321)
 
 Si necesitas asesoramiento detallado de desarrolladores de Zcash, puedes publicar una entrada en el [Foro de la comunidad](https://forum.zcashcommunity.com).

@@ -1,10 +1,10 @@
 <a href="https://github.com/Zechub/zechub/edit/main/site/ZFAV_Club/Guides_for_Creators.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Editar página"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
 ![](/content-images/image-2023-11-18-152209271-6bea8ac30e.webp)
 
-# Guías para creadores
+# Guías para creadores [Creators]
 
 <a href="/ZFAV-Club/Guides-for-Creators/AI_tools">
     <img src="/content-images/aitools-e218ab1d0f.webp" alt="" width="400" height="200"/>
@@ -12,8 +12,8 @@
 
 <aside>
   
-#### Tiempo de lectura
-| 2 mins |
+#### Tiempo de lectura [Read time]
+| 2 min |
 
 </aside>
 
@@ -26,7 +26,7 @@
 <aside>
   
 #### Tiempo de lectura
-| 2 mins |
+| 2 min |
 
 </aside>
 
@@ -39,7 +39,7 @@
 <aside>
   
 #### Tiempo de lectura
-| 2 mins |
+| 2 min |
 
 </aside>
 
@@ -52,7 +52,7 @@
 <aside>
   
 #### Tiempo de lectura
-| 2 mins |
+| 2 min |
 
 </aside>
 
@@ -65,7 +65,7 @@
 <aside>
   
 #### Tiempo de lectura
-| 2 mins |
+| 2 min |
 
 </aside>
 
@@ -78,7 +78,7 @@
 <aside>
   
 #### Tiempo de lectura
-| 2 mins |
+| 2 min |
 
 </aside>
 
@@ -91,7 +91,7 @@
 <aside>
   
 #### Tiempo de lectura
-| 2 mins |
+| 2 min |
 
 </aside>
 
@@ -104,7 +104,7 @@
 <aside>
   
 #### Tiempo de lectura
-| 2 mins |
+| 2 min |
 
 </aside>
 
@@ -117,7 +117,7 @@
 <aside>
   
 #### Tiempo de lectura
-| 2 mins |
+| 2 min |
 
 </aside>
 

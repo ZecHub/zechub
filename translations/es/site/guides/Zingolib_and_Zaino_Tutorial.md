@@ -1,10 +1,10 @@
 # Z3: (zebrad)(zaino)(zingo-cli)
 
-**zebrad**    : nodo completo de Zcash
+**zebrad**    : nodo completo de zcash [zcash full node]
 
-**zaino**     : indexador de la blockchain de Zcash
+**zaino**     : indexador de blockchain de zcash [zcash blockchain indexer]
 
-**zingo-cli** : cliente zaino-proxy de línea de comandos de Zcash (subconjunto de Zingolib)
+**zingo-cli** : cliente de línea de comandos zaino-proxy de zcash [zcash command line zaino-proxy client] (subconjunto de Zingolib)
 
 ## Video
 
@@ -12,7 +12,7 @@
   <iframe
     className="w-full h-full"
     src="https://www.youtube.com/embed/b5dIuGstMvI"
-    title="Una introducción a Zingolib + Zaino"
+    title="An introduction to Zingolib + Zaino"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowFullScreen
     loading="lazy"
@@ -22,19 +22,19 @@
 
 ## Panorama general
 
-[Arquitectura del sistema](https://github.com/zingolabs/zaino/blob/dev/docs/zaino_live_system_architecture.pdf)
+[Arquitectura del sistema System Architecture](https://github.com/zingolabs/zaino/blob/dev/docs/zaino_live_system_architecture.pdf)
 
 
-- El usuario de Zcash instala/compila Zingolib, lo que da acceso a zingo-cli. Puede enviar/recibir ZEC según lo necesite.
-- zingo-cli se conecta a zaino ya sea localmente o a través de un canal seguro en línea (¡al usuario de Zcash no le importa cómo funciona esto!)
-- Zaino permite el acceso tanto a zebrad como a zcashd            
-- zebrad completamente sincronizado es la fuente de verdad (¡ya no hay más billeteras aquí!)
+- Zcash El usuario instala/compila Zingolib, lo que da acceso a zingo-cli. Puede enviar/recibir ZEC según sea necesario.
+- zingo-cli se conecta a zaino, ya sea localmente o mediante un canal seguro en línea (¡al usuario de Zcash no le importa cómo funciona esto!)
+- Zaino permite acceder a zebrad o zcashd            
+- zebrad completamente sincronizado es la fuente de verdad (¡ya no hay más billeteras [wallets] aquí!)
 
 
 
 ## Instalación
 
-Necesitarás instalar 3 cosas para que esto funcione correctamente. También recomiendo screen o algo similar para ayudar con la gestión de pantallas
+Necesitarás instalar 3 cosas para que esto funcione correctamente. También recomiendo screen o algo similar para ayudar con la gestión de pantallas.
 
 `sudo apt install screen`
 
@@ -54,7 +54,7 @@ screen -S zebra
 zebrad start
 ```
 
-nota: ¡esto tendrá que sincronizarse por completo! 
+nota [note]: ¡esto deberá sincronizarse por completo!
 
 ### zaino
 
@@ -71,7 +71,7 @@ PATH=$PATH:~/Desktop/zaino/target/release/
 ```
 screen -S zaino
 cd ~/zaino/zainod
-nano zindexer.toml  => Ajustar el puerto a 8232 para mainnet
+nano zindexer.toml  => Adjust port to 8232 for mainnet
 zainod --config zindexer.toml
 ```
 
@@ -91,9 +91,9 @@ screen -S zingo
 ./zingo-cli --server http://127.0.0.1:8137 --data-dir /media/zebra5/zebra/.cache/lightwalletd
 ```
 
-nota: esto tendrá que sincronizarse por completo, igual que lightwalletd. Recomiendo usar una unidad externa para ahorrar tiempo :)
+nota: esto deberá sincronizarse por completo, tal como lo hizo lightwalletd. Recomiendo usar una unidad externa para ahorrar tiempo :)
 
 
 ## Ejecución
 
-Si estás ejecutando esto en screens, `screen -r` enumerará cada screen para que puedas cambiar a la que necesites
+Si estás ejecutando estos en screens, `screen -r` enumerará cada pantalla para que puedas moverte entre ellas según sea necesario
