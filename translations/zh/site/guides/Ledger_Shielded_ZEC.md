@@ -29,9 +29,9 @@
 **3. 启用私密余额**
 - 点击 **Enable shielded**。**Enable Zcash private balance** 窗口有四个步骤：Birthday、UFVK、Device 和 Confirmation。
 - **Birthday：** 对于新账户，保持生日高度为今天的日期。仅在您确定账户曾接收过隐蔽 ZEC 时才勾选 "This account received shielded ZEC in the past"，因为从区块 0 开始扫描可能需要很长时间。
-- **UFVK 和 Device：** Ledger Wallet 请求您的 Ledger 导出统一完整查看密钥（UFVK）。阅读设备上的屏幕并批准。如果看到 "Device connection lost"，请确保 Zcash 应用已打开，及时批准并点击 **Retry**。
+- **UFVK 和 Device：** Ledger Wallet 请求您的 Ledger 导出统一 Full Viewing Key（UFVK）。阅读设备上的屏幕并批准。如果看到 "Device connection lost"，请确保 Zcash 应用已打开，及时批准并点击 **Retry**。
 - 当您看到 **UFVK successfully imported** 时，点击 **Start sync**。同步完成后，按钮变为带有 "Last sync" 时间的 **Update balance**。
-- 查看密钥保存在您的计算机上。它可以找到您的隐蔽资金但无法花费它们。
+- Viewing Key 保存在您的计算机上。它可以找到您的隐蔽资金但无法花费它们。
 
 ![Enable Zcash private balance 窗口，显示 UFVK 已成功导入和 Start sync 按钮](https://raw.githubusercontent.com/ZecHub/zechub/main/site/guides/assets/ledger-zec-02-ufvk-imported.png)
 
@@ -70,7 +70,7 @@
 
 - Ledger 上的隐蔽 ZEC 目前仅限桌面端（检查日期为 2026 年 10 月 15 日）。
 - Ledger Wallet 的私密余额使用 Ironwood 池。
-- Ledger 表示您可以与税务顾问共享交易历史的只读访问权限。任何拥有您查看密钥的人都可以看到您的隐蔽历史，因此请仅在有意时分享。
+- Ledger 表示您可以与税务顾问共享交易历史的只读访问权限。任何拥有您 Viewing Key 的人都可以看到您的隐蔽历史，因此请仅在有意时分享。
 - 本指南中的设备屏幕使用 Ledger 的 Speculos 模拟器（Nano S Plus）捕获，运行 Zcash 应用 3.9.4，连接到 Zcash 主网上的 Ledger Wallet Desktop 4.24.0。物理 Ledger 运行相同的应用并显示相同的屏幕。
 
 ## 更多帮助
@@ -78,5 +78,5 @@
 - [Ledger Wallet 新功能：原生隐蔽 Zcash 支持](https://www.ledger.com/blog-native-shielded-zcash-support)（Ledger 的公告）
 - [Ledger 帮助中心](https://support.ledger.com)
 - [ZecHub 钱包页面](/using-zcash/wallets)
-- ZecHub 上的[隐蔽池](/using-zcash/shielded-pools)和[查看密钥](/zcash-tech/viewing-keys)
+- ZecHub 上的[Shielded Pools](/using-zcash/shielded-pools)和[Viewing Keys](/zcash-tech/viewing-keys)
 - 另一个硬件钱包选择：[Keystone Zashi 用户指南](/guides/keystone-zashi)
