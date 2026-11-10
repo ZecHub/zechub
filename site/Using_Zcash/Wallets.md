@@ -1,3 +1,4 @@
+
 # Wallets
 
 ## [ZODL](https://zodl.com)
@@ -396,7 +397,7 @@
 - Features: Multi Coin
 - NU7: Not Ready
 
---- 
+---
 
 ## [Freedom Wallet](https://www.freedomwallet.com/)
 ![logo](/content-images/wallets/freedom-wallet.webp "Freedom Wallet")
@@ -416,5 +417,5 @@
 - Wallet Support: Seed Phrase | Wallet Import | Viewing Keys | Cold Signing
 - Pools: Transparent | Orchard (Legacy) | Ironwood | Penumbra Shielded
 - Features: Multi-Chain | Shielded Transactions | Swaps | FROST Multisig | Cold Signing
-- NU7: Not Ready 
-- Status: Beta (Continuous Development)
+- NU7: Not Ready
+- Status: Beta 
