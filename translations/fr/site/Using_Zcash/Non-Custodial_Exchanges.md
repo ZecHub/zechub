@@ -4,6 +4,16 @@
 
 # <img src="/content-images/ZEC-USD-a2189a84b9.webp" alt="Alt Text" width="50"/>   Échanges non dépositaires
 
+## En bref
+
+* Un échange non dépositaire vous permet d’échanger des coins depuis votre propre wallet. Vous conservez vos clés privées et aucun compte sur une plateforme d’échange ne détient vos fonds.
+* Garder vos clés vous protège des piratages et des défaillances des plateformes d’échange. La confidentialité est une question distincte.
+* Le dépôt que vous envoyez depuis une autre chaîne, comme Solana ou Ethereum, est public sur cette chaîne. Le service de swap voit également vos adresses et vos données de connexion.
+* Certaines routes de swap livrent ZEC à une adresse transparente, qui est publique.
+* Vos ZEC deviennent privés une fois qu’ils se trouvent dans une adresse blindée. Protégez-les dans votre propre wallet avant de les dépenser.
+
+## Explication fondamentale
+
 [Zcash Échanges non dépositaires](/dex)
 
 Dans le monde en constante évolution du trading de cryptomonnaies, les échanges non dépositaires, également appelés échanges décentralisés ou DEX, permettent aux utilisateurs d’échanger sans confier leurs fonds à un compte sur une plateforme d’échange. Vous conservez vos propres clés, mais cela ne signifie pas que personne d’autre n’est impliqué. Selon l’itinéraire, un swap peut passer par un site web ou une application de wallet, un service de routage, des smart contracts, des solveurs et des bridges.
@@ -12,21 +22,21 @@ Les échanges répertoriés ci-dessus vous permettent d’obtenir et d’échang
 
 ### **Comprendre les échanges non dépositaires**
 
-Les échanges non dépositaires, également appelés échanges décentralisés (DEX), sont des plateformes qui facilitent le trading de cryptomonnaies sans demander aux utilisateurs de déposer leurs fonds auprès de l’échange lui-même. Les utilisateurs gardent plutôt le contrôle de leurs clés privées et effectuent des échanges depuis leurs propres wallets. Les swaps inter-chaînes s’appuient toujours sur d’autres parties pour établir le prix, acheminer et finaliser l’échange (voir ci-dessous).
+Les échanges non dépositaires, également appelés échanges décentralisés (DEX), sont des plateformes qui facilitent le trading de cryptomonnaies sans exiger des utilisateurs qu’ils déposent leurs fonds sur l’échange lui-même. Les utilisateurs gardent plutôt le contrôle de leurs clés privées et effectuent des transactions depuis leurs propres wallets. Les swaps inter-chaînes dépendent toujours d’autres parties pour coter, acheminer et régler la transaction (voir ci-dessous).
 
 Cela peut améliorer la sécurité, car les utilisateurs ne dépendent pas de l’échange pour détenir leurs actifs, ce qui réduit le risque de piratage ou de mauvaise gestion. Cela ne rend pas un swap privé à lui seul. Les transactions sur les échanges non dépositaires utilisent souvent des smart contracts, qui sont publics, et le service que vous utilisez peut toujours voir vos adresses et les détails de votre connexion.
 
 Un avantage essentiel des échanges de cryptomonnaies non dépositaires réside dans le contrôle accru qu’ils offrent aux utilisateurs sur leurs actifs. Puisque ces échanges ne conservent pas les actifs, les utilisateurs bénéficient d’une propriété et d’une autorité complètes sur leurs monnaies numériques.
 
-### **Échanges non dépositaires contre échanges dépositaires**
+### **Échanges non dépositaires vs échanges dépositaires**
 
 **#1 Sécurité**: Les échanges non dépositaires éliminent la nécessité de conserver des fonds dans un compte centralisé sur une plateforme d’échange. Les utilisateurs gardent le contrôle de leurs clés privées, réduisant le risque de piratage, d’attaques internes et de défaillances de plateforme que peuvent connaître les échanges dépositaires. Les swaps inter-chaînes peuvent néanmoins conserver temporairement des fonds dans une adresse de dépôt ou un bridge pendant la finalisation de l’échange.
 
-**#2 Confidentialité**: Les swaps non dépositaires ne nécessitent généralement pas de compte sur une plateforme d’échange ; vous évitez donc souvent de vous inscrire avec une adresse e-mail ou une pièce d’identité. Cela n’équivaut pas à l’anonymat. Le dépôt que vous envoyez sur le réseau source (par exemple Solana ou Ethereum) est public sur cette chaîne, et le service peut toujours voir les adresses de votre wallet, votre adresse IP et les détails du swap. La confidentialité du côté Zcash dépend de l’endroit où vos ZEC arrivent (voir ci-dessous).
+**#2 Confidentialité**: Les swaps non dépositaires ne nécessitent généralement pas de compte sur une plateforme d’échange, vous évitant ainsi souvent de vous inscrire avec une adresse e-mail ou une pièce d’identité. Cela ne signifie pas la même chose que l’anonymat. Le dépôt que vous envoyez sur le réseau source (par exemple, Solana ou Ethereum) est public sur cette chaîne, et le service peut toujours voir les adresses de votre wallet, votre adresse IP et les détails du swap. La confidentialité du côté de Zcash dépend de l’endroit où arrivent vos ZEC (voir ci-dessous).
 
 **#3 Décentralisation**: Les échanges non dépositaires correspondent davantage à l’éthique décentralisée des cryptomonnaies. Les utilisateurs disposent d’une plus grande autonomie et d’un meilleur contrôle de leurs activités de trading, conformément aux principes plus larges de la technologie blockchain.
 
-En ce qui concerne les échanges dépositaires, le niveau de décentralisation est souvent très faible dans la plupart des échanges centralisés, où l’équipe ou les responsables de l’échange gèrent les données ou informations des utilisateurs.
+En ce qui concerne les échanges dépositaires, le niveau de décentralisation est souvent très faible dans la plupart des échanges centralisés, ce qui permet à l’équipe ou aux responsables de l’échange de gérer les données ou informations des utilisateurs sur l’échange.
 
 **#4 Adaptabilité face à l’évolution des réglementations**: Les échanges non dépositaires sont souvent plus adaptables aux évolutions réglementaires. Comme ils ne détiennent pas les fonds des utilisateurs, ils peuvent rencontrer moins de difficultés de conformité que les échanges dépositaires.
 
@@ -67,6 +77,16 @@ NEAR Intents [contrôle également les flux de devis intégrés](https://docs.ne
 - Les données de connexion. Les conditions de 1Click indiquent qu’Intents Technology peut collecter les métadonnées des requêtes, les adresses IP et les adresses de wallet, et la politique de confidentialité de near.com répertorie l’adresse IP, la localisation, les informations sur le navigateur et l’appareil.
 - Tout ce que l’application ajoute par-dessus, comme d’autres adresses de wallet connectées. Les applications peuvent également soumettre votre wallet à leurs propres contrôles de conformité.
 
+## Visuel / Analogie
+
+Un exchange custodial fonctionne comme une banque. Vous ouvrez un compte, laissez votre argent dans son coffre-fort et demandez à la banque d’effectuer des échanges pour vous.
+
+Un swap non dépositaire fonctionne comme un guichet de change dans une rue animée. Vous passez des espèces par la fenêtre, recevez une autre devise en retour et ne laissez jamais d’argent au guichetier. Les passants peuvent vous voir vous approcher et remettre vos espèces, tout comme n’importe qui peut voir votre dépôt sur la chaîne source. Le guichetier voit votre visage et le montant.
+
+Ce qui se passe une fois la période écoulée dépend de vous. Placez les nouvelles pièces dans une enveloppe scellée, utilisez une adresse protégée, et personne ne pourra les suivre à partir de là.
+
+## Implications pratiques
+
 ### **Où consulter les conditions et obtenir de l’assistance**
 
 Les conditions changent ; consultez les versions actuelles avant un swap important.
@@ -85,3 +105,23 @@ Les échanges non dépositaires, ou DEX, vous permettent d’échanger depuis vo
 Bien que les échanges non dépositaires offrent des avantages intéressants, il est important de reconnaître qu’ils peuvent présenter des inconvénients, tels que des problèmes potentiels de liquidité et une courbe d’apprentissage plus abrupte pour les utilisateurs moins expérimentés.
 
 Comme pour toute décision financière, les traders doivent évaluer attentivement leurs priorités, leur tolérance au risque et leur familiarité avec la technologie avant de choisir entre des options d’échange non dépositaire et dépositaire.
+
+## Erreurs courantes
+
+- **Considérer « non-custodial » comme « privé ».** Conserver vos clés protège vos fonds en cas de défaillance d’un exchange. Le dépôt sur la chaîne source est public, et le service voit vos adresses et votre adresse IP.
+- **Laisser des ZEC échangés sur une adresse transparente.** Si l’itinéraire verse les fonds sur une adresse t1 ou t3, déplacez les ZEC vers une adresse protégée dans votre propre wallet avant de les dépenser.
+- **Ne pas vérifier l’adresse de remboursement.** Un swap échoué peut être renvoyé à l’adresse de remboursement que vous avez fournie, et les remboursements ne sont pas garantis. Vérifiez cette adresse avant d’envoyer.
+- **Interpréter « sans KYC » comme « sans vérifications ».** La plupart des services vérifient les adresses de wallet dans des bases de données de conformité ; un swap signalé peut donc être retardé ou bloqué.
+
+## Pages connexes
+
+- [DEX](/using-zcash/dex) : des échanges non dépositaires qui prennent en charge ZEC.
+- [Swaps centralisés](/using-zcash/centralized-swaps) : des services de swap instantané qui fonctionnent sans compte sur un échange.
+- [Échanges dépositaires](/using-zcash/custodial-exchanges) : des échanges qui conservent vos fonds sur un compte.
+- [Pools blindés](/using-zcash/shielded-pools) : où vos ZEC deviennent privés après un swap.
+- [Adresses unifiées](/using-zcash/unified-addresses) : l’adresse `u1` que la plupart des wallets vous fournissent pour recevoir des ZEC.
+- [Solana ZEC vers Shielded](/using-zcash/solana-zec-to-shielded) : transférer des ZEC depuis Solana vers une adresse blindée.
+- [Utiliser ZEC de manière privée](/guides/using-zec-privately) : que faire de vos ZEC une fois qu’ils sont arrivés.
+- [Qui peut voir votre paiement Zcash](/start-here/who-can-see-your-zcash-payment) : ce qui reste visible de chaque côté d’un paiement.
+
+**Dernière mise à jour :** octobre 2026

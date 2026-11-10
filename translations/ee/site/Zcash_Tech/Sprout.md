@@ -6,7 +6,7 @@
 
 > Zcash dze egɔme le October 28, 2016, kple Sprout ɣaɣla [shielded] gaƒuƒoƒo [pool].
 
-> **Nuxlɔ̃ame:** Ne NU7 dze egɔme la, eana be ZEC siwo gale Sprout gaƒuƒoƒo me la mate ŋu wɔ fexexe o (mainnet dze egɔme le teƒe 3,543,405, woɖo ŋgɔ be anɔ le 5 November 2026; kpɔ [ZIP 259](https://zips.z.cash/zip-0259)). Ne èle Sprout ga siwo ŋu la, xlẽ [Gaxɔ ga siwo](../using-zcash/recovering-funds) eye nàtrɔ wo gbã.
+> **Nuxlɔ̃ame:** Ne NU7 dze egɔme la, eana be ZEC siwo gale Sprout gaƒuƒoƒo me la mate ŋu wɔ fexexe o (mainnet ƒe dzeɖeɖe ƒe teƒe le 3,543,405, woɖo ŋgɔ be anɔ le 5 November 2026; kpɔ [ZIP 259](https://zips.z.cash/zip-0259)). Ne èle Sprout ga siwo ŋu la, xlẽ [Gaxɔ ga siwo](../using-zcash/recovering-funds) eye nàtrɔ wo gbã.
 
 Nu si nàkpɔe: Sprout nye afi si Zcash dze egɔme le, esi wòwɔ ga si le ɣaɣla me eye wòate ŋu aɖe eɖokui fia le gaɖoɖowo ƒuƒoƒo ƒe ɖoɖonu si le agbe dzi me zi gbã.
 

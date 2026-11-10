@@ -80,6 +80,8 @@ Nu si wòanye be nàtsɔ ayi: ɣaɣla ƒoa ɖe ga ƒe nɔnɔ ɖe ɣaɣla me ƒe 
 
 
 
+- [ZecZcash Didiwɔla](https://zeczcash.com/explorer)
+
 ### Mɔkpɔkpɔ Ƒe Kplɔɖeŋu
 
 Afi sia la medekpɔ nyui ene le gaɖoɖowo ƒuƒoƒo ƒe ɖoɖonu ƒe kpɔla vovovowo ŋu:

@@ -81,6 +81,8 @@ Zcash 有不止一种地址类型，浏览器对待它们的方式也截然不�
 
 
 
+- [ZecZcash浏览器](https://zeczcash.com/explorer)
+
 ### 视觉指南
 
 以下是 4 个不同区块链浏览器的优秀示例：

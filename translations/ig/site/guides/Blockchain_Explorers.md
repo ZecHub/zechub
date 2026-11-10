@@ -82,6 +82,8 @@ Ihe e kwesịrị iburu n’obi: Nzuzo dabere n’ịnọgide n’ime pool ndị
 
 
 
+- [ZecZcash Nchọgharị](https://zeczcash.com/explorer)
+
 ### Ntuziaka Anya
 
 Nke a bụ ezi ihe atụ anọ nke ndị nchọgharị blockchain dị iche iche:

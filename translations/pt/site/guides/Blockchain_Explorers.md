@@ -81,6 +81,8 @@ A conclusão: a privacidade depende de permanecer dentro dos pools blindados. As
 
 - [SoChain](https://sochain.com/zec) ([rede de teste](https://sochain.com/zectest))
 
+- [ZecZcash Explorador](https://zeczcash.com/explorer)
+
 ### Guia visual
 
 Aqui estão quatro bons exemplos de diferentes exploradores de blockchain:

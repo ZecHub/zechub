@@ -82,6 +82,8 @@ La conclusión: la privacidad depende de permanecer dentro de los pools blindado
 
 
 
+- [ZecZcash Explorador](https://zeczcash.com/explorer)
+
 ### Guía visual
 
 Aquí hay cuatro buenos ejemplos de diferentes exploradores de blockchain:

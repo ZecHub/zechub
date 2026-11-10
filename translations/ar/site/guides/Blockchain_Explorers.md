@@ -81,6 +81,8 @@
 
 - [SoChain](https://sochain.com/zec) ([شبكة الاختبار](https://sochain.com/zectest))
 
+- [ZecZcash مستكشف](https://zeczcash.com/explorer)
+
 ### دليل مرئي
 
 إليك أربعة أمثلة جيدة لمستكشفات بلوكشين مختلفة:

@@ -4,6 +4,16 @@
 
 # <img src="/content-images/ZEC-USD-a2189a84b9.webp" alt="Alt Text" width="50"/>   Corretoras não custodiantes
 
+## Resumo
+
+* Uma corretora não custodiante permite que você faça conversões de moedas a partir da sua própria carteira. Você mantém suas chaves privadas, e nenhuma conta em corretora detém seus fundos.
+* Manter suas chaves protege você contra hacks e falhas de corretoras. A privacidade é uma questão separada.
+* O depósito que você envia de outra chain, como Solana ou Ethereum, é público nessa chain. O serviço de conversão também vê seus endereços e dados de conexão.
+* Algumas rotas de conversão entregam ZEC a um endereço transparente, que é público.
+* Seu ZEC se torna privado quando fica em um endereço blindado. Blinde-o na sua própria carteira antes de gastá-lo.
+
+## Explicação principal
+
 [Corretoras não custodiantes de Zcash](/dex)
 
 No mundo em constante evolução do trading de criptomoedas, as corretoras não custodiantes, também conhecidas como Corretoras Descentralizadas ou DEXs, permitem que os usuários negociem sem entregar seus fundos a uma conta em uma corretora. Você mantém suas próprias chaves, mas isso não significa que ninguém mais esteja envolvido. Dependendo da rota, uma conversão pode passar por um site ou app de carteira, um serviço de roteamento, contratos inteligentes, solucionadores e pontes.
@@ -12,7 +22,7 @@ As corretoras listadas acima permitem que você obtenha e negocie Zcash a partir
 
 ### **Entendendo as corretoras não custodiantes**
 
-As corretoras não custodiantes, também conhecidas como Corretoras Descentralizadas (DEXs), são plataformas que facilitam o trading de criptomoedas sem exigir que os usuários depositem seus fundos na própria corretora. Em vez disso, os usuários mantêm o controle de suas chaves privadas e negociam a partir de suas próprias carteiras. Conversões cross-chain ainda dependem de outras partes para cotar, rotear e liquidar a negociação (veja abaixo).
+Corretoras não custodiantes, também conhecidas como corretoras descentralizadas (DEXs), são plataformas que facilitam a negociação de criptomoedas sem exigir que os usuários depositem seus fundos na própria corretora. Em vez disso, os usuários mantêm o controle de suas chaves privadas e negociam a partir de suas próprias carteiras. As conversões cross-chain ainda dependem de outras partes para cotar, rotear e liquidar a negociação (veja abaixo).
 
 Isso pode melhorar a segurança, pois os usuários não dependem da corretora para guardar seus ativos, reduzindo o risco de ataques ou má gestão. Isso não torna uma conversão privada por si só. As transações em corretoras não custodiantes frequentemente usam contratos inteligentes, que são públicos, e o serviço que você usa ainda pode ver seus endereços e detalhes de conexão.
 
@@ -22,11 +32,11 @@ Uma vantagem fundamental das corretoras de criptomoedas não custodiantes reside
 
 **#1 Segurança**: As corretoras não custodiantes eliminam a necessidade de manter fundos em uma conta central de corretora. Os usuários mantêm o controle de suas chaves privadas, reduzindo o risco de ataques, ataques internos e falhas de plataforma que corretoras custodiantes podem sofrer. Conversões cross-chain ainda podem reter fundos por pouco tempo em um endereço de depósito ou ponte enquanto a negociação é liquidada.
 
-**#2 Privacidade**: As conversões não custodiantes geralmente não precisam de uma conta em corretora, portanto você frequentemente não precisa se registrar com um e-mail ou documento de identificação. Isso não é o mesmo que anonimato. O depósito que você envia na rede de origem (por exemplo, Solana ou Ethereum) é público nessa chain, e o serviço ainda pode ver os endereços da sua carteira, endereço IP e detalhes da conversão. A privacidade no lado do Zcash depende de onde o seu ZEC chega (veja abaixo).
+**#2 Privacidade**: As conversões não custodiantes geralmente não exigem uma conta em corretora, então você muitas vezes evita se cadastrar com um e-mail ou documento de identidade. Isso não é o mesmo que anonimato. O depósito que você envia na rede de origem (por exemplo, Solana ou Ethereum) é público nessa chain, e o serviço ainda pode ver os endereços da sua carteira, endereço IP e detalhes da conversão. A privacidade no lado do Zcash depende de onde o seu ZEC chega (veja abaixo).
 
 **#3 Descentralização**: As corretoras não custodiantes se alinham mais estreitamente ao espírito descentralizado das criptomoedas. Os usuários têm maior autonomia e controle sobre suas atividades de trading, em conformidade com os princípios mais amplos da tecnologia blockchain.
 
-Quando se trata de Corretoras Custodiantes, o nível de descentralização costuma ser bastante reduzido na maioria das corretoras centralizadas, nas quais a equipe ou os responsáveis pela corretora gerenciam os dados ou informações dos usuários.
+Quando se trata de corretoras custodiantes, o nível de descentralização costuma ser bastante mínimo na maioria das corretoras centralizadas, o que leva a equipe ou funcionários da corretora a gerenciarem dados ou informações dos usuários na corretora.
 
 **#4 Adaptabilidade a regulamentações em mudança**: As corretoras não custodiantes são frequentemente mais adaptáveis a ambientes regulatórios em mudança. Como não detêm fundos dos usuários, podem ter menos desafios de conformidade em comparação com as corretoras custodiantes.
 
@@ -67,6 +77,16 @@ O NEAR Intents também [verifica fluxos de cotações integrados](https://docs.n
 - Dados de conexão. Os termos do 1Click dizem que a Intents Technology pode coletar metadados de solicitações, endereços IP e endereços de carteira, e a política de privacidade em near.com lista endereço IP, localização, informações do navegador e do dispositivo.
 - Tudo o que o app adicionar, como outros endereços de carteira conectados. Os apps também podem submeter sua carteira às próprias verificações de conformidade.
 
+## Visual / Analogia
+
+Uma corretora custodiante funciona como um banco. Você abre uma conta, deixa seu dinheiro no cofre dela e pede ao banco que negocie por você.
+
+Uma conversão não custodiante funciona como um guichê de câmbio em uma rua movimentada. Você passa dinheiro em espécie pelo guichê, recebe outra moeda de volta e nunca deixa dinheiro com o atendente. As pessoas na rua podem ver você se aproximar e entregar seu dinheiro, assim como qualquer pessoa pode ver seu depósito na chain de origem. O atendente vê seu rosto e o valor.
+
+O que acontece depois que a janela se encerra depende de você. Coloque as novas moedas em um envelope lacrado, use um endereço blindado e ninguém poderá rastreá-las a partir dali.
+
+## Implicações práticas
+
 ### **Onde consultar termos e suporte**
 
 Os termos mudam, portanto leia as versões atuais antes de fazer uma conversão de grande valor.
@@ -85,3 +105,23 @@ As corretoras não custodiantes, ou DEXs, permitem que você negocie a partir da
 Embora as corretoras não custodiantes ofereçam vantagens atraentes, é importante reconhecer que podem apresentar desvantagens, como possíveis problemas de liquidez e uma curva de aprendizado mais acentuada para usuários menos experientes.
 
 Como em qualquer decisão financeira, os traders devem avaliar cuidadosamente suas prioridades, tolerância ao risco e familiaridade com a tecnologia antes de escolher entre opções de corretoras não custodiantes e custodiantes.
+
+## Erros comuns
+
+- **Tratar "não custodiante" como "privado".** Manter suas chaves protege seus fundos contra uma falha da corretora. O depósito na chain de origem é público, e o serviço vê seus endereços e endereço IP.
+- **Deixar ZEC convertidos em um endereço transparente.** Se a rota pagar para um endereço t1 ou t3, mova os ZEC para um endereço blindado na sua própria carteira antes de gastá-los.
+- **Pular a verificação do endereço de reembolso.** Uma conversão que falhou pode voltar para o endereço de reembolso fornecido por você, e os reembolsos não são garantidos. Verifique esse endereço antes de enviar.
+- **Interpretar "sem KYC" como "sem verificações".** A maioria dos serviços verifica endereços de carteiras em bancos de dados de conformidade, portanto, uma conversão sinalizada pode ser atrasada ou bloqueada.
+
+## Páginas relacionadas
+
+- [DEX](/using-zcash/dex): corretoras não custodiantes que oferecem suporte a ZEC.
+- [Conversões centralizadas](/using-zcash/centralized-swaps): serviços de conversão instantânea que funcionam sem uma conta em corretora.
+- [Corretoras custodiantes](/using-zcash/custodial-exchanges): corretoras que mantêm seus fundos em uma conta.
+- [Pools blindados](/using-zcash/shielded-pools): onde seu ZEC se torna privado após uma conversão.
+- [Endereços unificados](/using-zcash/unified-addresses): o endereço `u1` que a maioria das carteiras fornece para você receber ZEC.
+- [Solana ZEC para blindado](/using-zcash/solana-zec-to-shielded): movendo ZEC de Solana para um endereço blindado.
+- [Usando ZEC de forma privada](/guides/using-zec-privately): o que fazer com seu ZEC quando ele chegar.
+- [Quem pode ver seu pagamento em Zcash](/start-here/who-can-see-your-zcash-payment): o que permanece visível em cada lado de um pagamento.
+
+**Última atualização:** outubro de 2026
