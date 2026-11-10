@@ -8625,11 +8625,11 @@
       "edited": false
     },
     "Using_Zcash/Non-Custodial_Exchanges.md": {
-      "src": "sha256:a95f6dc76ae0306783e31c3ca23d1c454b865ea7fbd9716dbdb73d5e03f22888",
-      "src_commit": "861d6584cc8095af8af59e1f11508992e35f7c40",
+      "src": "sha256:283146b48f2277652fe059f196e5b57be1f49656456bd1e6221835321854bbf5",
+      "src_commit": "c9913ba0882b6e6420fd5016f24ece80c3e2ac22",
       "engine": "llm",
-      "mode": "full",
-      "tool": "codex/gpt-5.6-terra+handfix+panos-b3",
+      "mode": "diff",
+      "tool": "codex/gpt-5.6-terra+handfix",
       "edited": false
     },
     "Using_Zcash/Payment_Processors.md": {
