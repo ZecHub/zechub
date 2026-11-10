@@ -1,6 +1,6 @@
-# Zcash 壁紙ギャラリー
+# Zcash 壁紙ギャラリー（Wallpaper Gallery）
 
-[インフォグラフィック](/glossary-and-faqs/gallery/infographics)
+[インフォグラフィック（Infographics）](/glossary-and-faqs/gallery/infographics)
 
 <Gallery />
 

@@ -1,26 +1,26 @@
 <a href="https://github.com/Zechub/zechub/edit/main/site/ZFAV_Club/Guides_for_Creators/Video_Subtitle_Generation_with_Translation.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="ページを編集"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# ビデオの字幕生成と翻訳
+# 動画（Video）字幕（subtitle）の生成と翻訳（translation）
 
-本ガイドで使用するツール:
+このガイドで使用するツール（Tools）：
 
 1. CapCut
-2. [CapCut SRTエクスポート](https://www.biyaoyun.com/capcutsrt)
-3. テキストエディタ
-4. [オンライン字幕翻訳＆編集ツール](https://www.syedgakbar.com/projects/dst)
+2. [CapCut SRT エクスポート](https://www.biyaoyun.com/capcutsrt)
+3. テキストエディター
+4. [オンライン字幕翻訳・編集ツール](https://www.syedgakbar.com/projects/dst)
 
-ビデオの最終編集版をCapCutにインポートして開始してください。または、このプロセスを続ける前にCapCutでビデオを編集することもできます。
+まず、動画の最終編集版をCapCutにインポートします。あるいは、この作業を続ける前にCapCutで動画を編集することもできます。
 
-CapCutに最終的なビデオが読み込まれたら、[CapCut SRTエクスポート](https://www.biyaoyun.com/capcutsrt)を使用してCapCutプロジェクトからタイムスタンプ付きの字幕ファイルを取得してください。
+最終版の動画をCapCutに読み込んだら、[CapCut SRT エクスポート](https://www.biyaoyun.com/capcutsrt)を使用して、CapCutプロジェクトからタイムスタンプ付きの字幕ファイルを取得します。
 
-SRTファイルをテキストエディタで開き、ビデオを視聴しながらSRTファイルを読みながら、誤りを見つけたときにSRTファイルを編集してください。検索と置換を使用して**すべて**の間違いを修正してください。
+SRTファイルをテキストエディターで開き、SRTファイルを読みながら動画を視聴し、誤りが見つかったらSRTファイルを修正します。各誤りについて検索と置換を使用し、**すべて置換**を実行します。
 
-ヒント: 字幕を確認する際は、ビデオを2倍速で視聴することをお勧めします
+ヒント：字幕を確認する際は、動画を2倍速で視聴してください。
 
-オリジナルのテキストがチェックされ、修正された後、SRTファイルを[オンライン字幕翻訳＆編集ツール](https://www.syedgakbar.com/projects/dst)にアップロードして、わずかな料金でSRTファイルを他の言語に翻訳してください。
+元の文字起こしを確認して修正したら、SRTファイルを[オンライン字幕翻訳・編集ツール](https://www.syedgakbar.com/projects/dst)にアップロードし、少額の手数料でSRTファイルを他の言語に翻訳します。
 
-翻訳されたSRTファイルは、その翻訳された言語を理解する人物がビデオ編集ソフトウェアを使用して確認する必要があります。
+翻訳されたSRTファイルは、翻訳先の言語を理解できる人が動画編集ソフトウェアを使用して確認する必要があります。
 
-翻訳されたSRTファイルでは、タイムコードの調整が必要な場合があります。これはほとんどのビデオ編集ソフトウェアで簡単に見つけることができ、修正可能です。
+翻訳されたSRTファイルでは、タイムコードの調整が必要になることがありますが、ほとんどの動画編集ソフトウェアで簡単に見つけて修正できます。

@@ -1,49 +1,51 @@
 <a href="https://github.com/Zechub/zechub/edit/main/site/ZFAV_Club/Guides_for_Creators/AI_tools_for_offline.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="ページを編集"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# AIツール（ローカル、オフライン）
+# AIツール（AI tools）（ローカル、オフライン）
 
 <aside>
-*まだ執筆中で構築途中です...*
+*ここでも引き続き執筆・制作中です...*
 
 </aside>
 
 ### 画像生成
 
-画像生成用のモデルはどこからダウンロードできますか？
-[**HuggingFace**](https://huggingface.co/models?pipeline_tag=text-to-image&sort=trending)や[**Civitai**](https://civitai.com/)には、さまざまなモデルがたくさんあります。
+画像生成用モデルはどこでダウンロードできますか？
+[**HuggingFace**](https://huggingface.co/models?pipeline_tag=text-to-image&sort=trending) と [**Civitai](https://civitai.com/)** には、多種多様なモデルがあります。
 
-## Windows - カスタムモデルのダウンロード
+## Windows - カスタムモデルをダウンロード
 
-通常、どのAIツールでも4GB以上のGPUメモリまたはビデオメモリが必要です。
+通常、AIツールには最低でも4GBのGPUまたはビデオメモリが必要です。
 
-Nvidia GPUは最も最適に動作します。
+NvidaのGPUが最も適しています。
 
-- [InvokeAI](https://invoke-ai.github.io/InvokeAI/)（4GB GPUメモリが必要）
+- [InvokeAI](https://invoke-ai.github.io/InvokeAI/)（4GBのGPUメモリが必要です）
 - [NMKD Stable Diffusion GUI](https://nmkd.itch.io/t2i-gui)
 - [EasyDiffusion 3.0](https://github.com/easydiffusion/easydiffusion)
 
-### Mac OS - カスタムモデルのダウンロード
+### Mac OS - カスタムモデルをダウンロード
 
-- AppStoreから[Draw Things: AI Generation](https://apps.apple.com/ee/app/draw-things-ai-generation/id6444050820)を無料でダウンロード（さまざまなStableDiffusionモデルを使用可能）
-- [DiffusionBee](https://diffusionbee.com/) - 無料（さまざまなStableDiffusionモデルを使用可能）
-- [InvokeAI](https://invoke-ai.github.io/InvokeAI/)（4GB GPUメモリが必要）
+- AppStoreの[Draw Things: AI Generation](https://apps.apple.com/ee/app/draw-things-ai-generation/id6444050820) - 無料
+（さまざまなStableDiffusionモデルを使用できます）
+- [DiffusionBee](https://diffusionbee.com/) - 無料
+（さまざまなStableDiffusionモデルを使用できます）
+- [InvokeAI](https://invoke-ai.github.io/InvokeAI/)（4GBのGPUメモリが必要です）
 
-### Linux - カスタムモデルのダウンロード
+### Linux - カスタムモデルをダウンロード
 
-- [InvokeAI](https://invoke-ai.github.io/InvokeAI/)（4GB GPUメモリが必要）
+- [InvokeAI](https://invoke-ai.github.io/InvokeAI/)（4GBのGPUメモリが必要です）
 
 ## テキスト生成
 
-### Windows - カスタムモデルのダウンロード
+### Windows - カスタムモデルをダウンロード
 
-- [GPT4All](https://gpt4all.io/index.html)（8GB RAM以上が必要）
+- [GPT4All](https://gpt4all.io/index.html)（最低8GBのRAMが必要です）
 
-### Mac OS - カスタムモデルのダウンロード
+### Mac OS - カスタムモデルをダウンロード
 
-- [GPT4All](https://gpt4all.io/index.html) - M1マックでは、使用するGPTモデルによりかなり高速に動作します。
+- [GPT4All](https://gpt4all.io/index.html) - （使用するGPTモデルによりますが、M1 Macではかなり高速に動作します）
 
-## Linux - カスタムモデルのダウンロード
+## Linux - カスタムモデルをダウンロード
 
-- [GPT4All](https://gpt4all.io/index.html)（8GB RAM以上が必要）
+- [GPT4All](https://gpt4all.io/index.html)（最低8GBのRAMが必要です）

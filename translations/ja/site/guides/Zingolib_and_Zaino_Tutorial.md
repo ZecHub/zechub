@@ -1,10 +1,10 @@
 # Z3: (zebrad)(zaino)(zingo-cli)
 
-**zebrad**    : zcash フルノード
+**zebrad**    : zcashフルノード（full node）
 
-**zaino**     : zcash ブロックチェーンインデクサー
+**zaino**     : zcashブロックチェーン（blockchain）インデクサー
 
-**zingo-cli** : zcash コマンドライン zaino-proxy クライアント（Zingolib のサブセット）
+**zingo-cli** : zcashコマンドラインzaino-proxyクライアント（Zingolibのサブセット）
 
 ## 動画
 
@@ -12,7 +12,7 @@
   <iframe
     className="w-full h-full"
     src="https://www.youtube.com/embed/b5dIuGstMvI"
-    title="An introduction to Zingolib + Zaino"
+    title="Zingolib + Zainoの紹介"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowFullScreen
     loading="lazy"
@@ -25,16 +25,16 @@
 [システムアーキテクチャ](https://github.com/zingolabs/zaino/blob/dev/docs/zaino_live_system_architecture.pdf)
 
 
-- Zcash ユーザーは Zingolib をインストールまたはコンパイルし、zingo-cli へのアクセスを得ます。必要に応じて ZEC を送受信できます。
-- zingo-cli は、ローカルまたはオンラインの安全なチャネル経由で zaino に接続します（Zcash ユーザーはその仕組みを気にする必要はありません！）
-- Zaino は zebrad または zcashd のいずれかへのアクセスを可能にします            
-- 完全に同期された zebrad が信頼できる唯一の情報源です（ここにはもうウォレットはありません！）
+- Zcash ユーザーはZingolibをインストール／コンパイルし、zingo-cliにアクセスできます。必要に応じてZECを送受信できます。
+- zingo-cliは、ローカルまたはオンラインの安全なチャネルを通じてzainoに接続します（Zcashのユーザーは、この仕組みを気にする必要はありません！）
+- Zainoにより、zebradまたはzcashdのいずれかにアクセスできます。            
+- 完全に同期されたzebradが信頼できる情報源です（ここにはもうウォレット（wallet）はありません！）
 
 
 
 ## インストール
 
-これを正しく動作させるには、3 つのものをインストールする必要があります。画面管理をしやすくするために、screen または類似のものもおすすめします
+これを正しく動作させるには、3つのものをインストールする必要があります。また、画面管理のためにscreenまたは類似のものを使用することをお勧めします。
 
 `sudo apt install screen`
 
@@ -47,14 +47,14 @@ cargo install --git https://github.com/ZcashFoundation/zebra --tag v2.0.1 zebrad
 ```
 
  
-*任意*（zebrad 用の screen セッションを作成）
+*任意*（zebrad用のscreenセッションを作成します）
 
 ```
 screen -S zebra
 zebrad start
 ```
 
-注: これが完全に同期するまで待つ必要があります！ 
+注: これを完全に同期する必要があります！ 
 
 ### zaino
 
@@ -66,7 +66,7 @@ PATH=$PATH:~/Desktop/zaino/target/release/
 ```
 
 
-*任意*（zaino 用の screen セッションを作成）
+*任意*（zaino用のscreenセッションを作成します）
 
 ```
 screen -S zaino
@@ -84,16 +84,16 @@ cd zingolib
 cargo build --release --package zingo-cli
 ```
 
-*任意*（zingo-cli 用の screen セッションを作成）
+*任意*（zingo-cli用のscreenセッションを作成します）
 
 ```
 screen -S zingo
 ./zingo-cli --server http://127.0.0.1:8137 --data-dir /media/zebra5/zebra/.cache/lightwalletd
 ```
 
-注: これも lightwalletd と同様に完全に同期する必要があります。時間短縮のため、外付けドライブの使用をおすすめします :)
+注: lightwalletdと同様に、これも完全に同期する必要があります。時間を節約するために外付けドライブを使用することをお勧めします :)
 
 
 ## 実行
 
-これらを screen で実行している場合は、`screen -r` を使うと、必要に応じて移動できる各 screen の一覧が表示されます
+これらをscreenで実行している場合は、`screen -r`によって必要に応じて移動できる各screenが一覧表示されます

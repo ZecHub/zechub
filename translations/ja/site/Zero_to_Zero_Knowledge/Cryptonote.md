@@ -1,9 +1,9 @@
-# Zero to Zero Knowledge：CryptoNoteプロトコル
+# Zero to Zero Knowledge: CryptoNoteプロトコル（Protocol）
 
-**シリーズ:** Zero to Zero Knowledge
+**シリーズ：** Zero to Zero Knowledge
 
-今日は興味深い話題です！  
-**CryptoNote** プロトコルは、強力なオンチェーンプライバシーを実現します。今日はその主な特徴と、いくつかの著名なプライバシープロジェクトでどのように実装されているかについて学びましょう。
+今日は興味深い内容です！  
+**CryptoNote**プロトコルは、強力なオンチェーン（on-chain）のプライバシー（privacy）を実現します。本日は、その主要な機能のすべてと、複数の著名なプライバシープロジェクトによってどのように実装されてきたかを学びます。
 
 ![CryptoNote intro](/content-images/FrXr5P8WIAAvx36-88db0c8250.webp)
 
@@ -11,99 +11,99 @@
 
 ## 背景
 
-オリジナルのCryptoNoteホワイトペーパーは、**"Nicolas van Saberhagen"**という仮名で発表されました。  
+CryptoNoteのオリジナルホワイトペーパーは、**「Nicolas van Saberhagen」**という仮名で公開されました。  
 
-**Bytecoin** が最初にこのプロトコルを実装した暗号資産です。今日最もよく知られているプロジェクトは **Monero (XMR)** です。また、TurtleCoinやAeonなどにも使用されています。
+**Bytecoin**は、このプロトコルを最初に実装した暗号通貨です。現在これを利用している最も有名なプロジェクトは**Monero（XMR）**です。TurtleCoin、Aeon、その他いくつかでも使用されています。
 
 ---
 
-## CryptoNoteの主要な特徴
+## CryptoNoteの主要機能
 
-CryptoNoteプロトコルには以下の3つの主な特徴があります：
+CryptoNoteプロトコルは、主に3つの機能を提供します。
 
-1. **取引のトレース不能性とリンク不能性**
-2. **平等なプルーフ・オブ・ワーク**（ASIC耐性） 
+1. トランザクション（transaction）の**追跡不能性と関連付け不能（unlinkable）**
+2. **公平なProof of Work**（ASIC耐性） 
 3. **動的な発行量**
 
 ---
 
-## 1. トレース不能性 - リング署名
+## 1. 追跡不能性 - リング署名（Ring Signatures）
 
-トレース不能性は主に **リング署名** を使用して実現されます。
+追跡不能性は、主に**リング署名（Ring Signatures）**によって実現されます。
 
-取引を送る際、あなたの本当の公開鍵はいくつかの偽装鍵（「リング」）と混ぜられ、すべて同じ金額のコインを含んでいます。これにより、実際にコインを送った人物が誰であるかを特定するのが極めて困難になります。
+トランザクションを送信する際、実際の公開鍵は、同じコイン額を含む複数のおとり鍵（「リング」）と混合されます。これにより、実際にコインを送った人物を特定することが極めて困難になります。
 
-**リングサイズ** は匿名セットに大きな影響を与えます。より大きいリングほどプライバシーが向上します。
+**リングサイズ**は匿名性セットに大きく影響します。リングが大きいほど、より優れたプライバシーが得られます。
 
-![リング署名の説明](/content-images/FrXteGHXgAANE0F-f11593a0d9.webp)
+![Ring Signatures explanation](/content-images/FrXteGHXgAANE0F-f11593a0d9.webp)
 
-**Zcashとの比較**:  
-Zcashの匿名セットは、特定されたシールドプール内で*これまでに*行われた取引の総数（通常のCryptoNoteリングサイズよりはるかに大きい）です。
+**Zcashとの比較**：  
+Zcashの匿名性セットは、特定のシールドされた（shielded）プール（pool）で*これまでに*行われたトランザクションの総数です（一般的なCryptoNoteのリングサイズよりはるかに大きいです）。
 
 ---
 
-## リングCT（Confidential Transactions）
+## Ring CT（コンフィデンシャル・トランザクション）
 
-**リングCT**モデルは、CryptoNoteベースのコインにおけるプライバシーを大幅に向上させました。
+**Ring CT**モデルは、CryptoNoteベースのコインにおけるプライバシーを大幅に改善しました。
 
-送信者だけでなく、リングCTは**送信者と受取人間の取引金額も曖昧化**します。
+Ring CTは送信者を隠すだけでなく、送信者と受取人の間の**トランザクション額も難読化します**。
 
-![リングCT図解](/content-images/FrXuivgWYAAze7B-260071c1b3.webp)
+![Ring CT diagram](/content-images/FrXuivgWYAAze7B-260071c1b3.webp)
 
-使用される技術:
+以下を使用します。
 - 楕円曲線暗号
-- ペダーセンコミットメント
-- 同型暗号
+- ペダーセン・コミットメント
+- 準同型暗号化（encryption）
 
-**証明**は、金額が0より大きく有効な範囲内であることを示しますが、**実際の値を明らかにしません**。
+**Proofs**は、実際の値を**明らかにせずに**、金額が0より大きく有効な範囲内にあることを示すために使用されます。
 
-**ステルスアドレス**も受取人に一時的な使用アドレスを追加します。
+**ステルスアドレス（Stealth Addresses）**も、受取人向けに1回限りの使用アドレスを追加します。
 
-![ステルスアドレス + 証明](/content-images/FrXut5aWAAMhuRb-f3ce8ea3fd.webp)
-
----
-
-## 2. 平等なプルーフ・オブ・ワーク（ePoW）
-
-CryptoNoteはASICに耐性を持つことで、より公平なマイニングシステムを実現することを目指しています。
-
-**CryptoNight**アルゴリズム（メモリハード関数）を使用します。ビットコインのSHA256とは異なり、CryptoNightはCPU、GPU、ASICマイナー間のギャップを縮小するように設計されています。
-
-**CryptoNightの手順:**
-1. 仮想的にランダムなデータで大きなメモリ領域（スクラッチパッド）を初期化
-2. スクラッチパッドに対して多数の読み書き操作を行う
-3. 全体のスクラッチパッドをハッシュし、最終的な値を生成
-
-![CryptoNightマイニング](/content-images/FrXvNs3XsAA37LG-5779657f5c.webp)
-
-（注: Moneroはその後CryptoNightから他のアルゴリズムに移行しました。）
+![Stealth Addresses + Proofs](/content-images/FrXut5aWAAMhuRb-f3ce8ea3fd.webp)
 
 ---
 
-## 3. 動的発行量
+## 2. 公平なProof of Work（ePoW）
 
-ビットコインのように突然の半減イベントではなく、CryptoNoteは**滑らかに減少するブロック報酬**を使用します。
+CryptoNoteは、ASICへの耐性を持つことで、より公平なマイニング（mining）システムの構築を目指しています。
 
-これにより、時間経過とともに発行曲線がずっと滑らかになります。
+これは、メモリ負荷の高い関数である**CryptoNight**アルゴリズムを使用します。BitcoinのSHA256とは異なり、CryptoNightはCPU、GPU、ASICマイナー（miner）間の差を縮めるよう設計されています。
 
-![動的発行曲線](/content-images/FrXv8wpXoAEjUxW-e2bbaebced.webp)
+**CryptoNightの手順：**
+1. 擬似ランダムデータで大きなメモリ領域（スクラッチパッド）を初期化する
+2. スクラッチパッド上で多数の読み書き操作を実行する
+3. スクラッチパッド全体をハッシュ化して最終値を生成する
 
-**Zcashとの関連**:  
-Zcash開発者たちは将来的に、より滑らかな発行曲線を実装する可能性について議論しており、その方法として「Zcash後継基金（Zcash Posterity Fund）」が検討されています。
+![CryptoNight mining](/content-images/FrXvNs3XsAA37LG-5779657f5c.webp)
+
+（注：Moneroはその後、CryptoNightから他のアルゴリズムへ移行しています。）
+
+---
+
+## 3. 動的な発行量
+
+CryptoNoteは、Bitcoinのような突発的な半減期（halving）イベントではなく、**滑らかに減少するブロック（block）報酬**を使用します。
+
+これにより、時間の経過に伴ってはるかに滑らかな発行曲線が作られます。
+
+![Dynamic emission curve](/content-images/FrXv8wpXoAEjUxW-e2bbaebced.webp)
+
+**Zcashとの関連：**  
+Zcashのdeveloperは、将来的に、場合によっては「Zcash Posterity Fund」を通じて、より滑らかな発行曲線を実装することについて議論してきました。
 
 ---
 
 ## 結論
 
-CryptoNoteはオンチェーンプライバシーにおいて強力で、実戦的にテストされたアプローチを証明しています。その多くのイノベーションは、プライバシーコインエコシステム全体に影響を与えています。
+CryptoNoteは、オンチェーンのプライバシーに対する強力かつ実戦で検証されたアプローチであることを証明してきました。その多くの革新は、より広いプライバシーコインのエコシステムに影響を与えてきました。
 
-一部の研究者は、将来的には信頼性のあるゼロ知識シールドプールとCryptoNoteの機能を組み合わせることも可能になると考えています。
+一部の研究者は、CryptoNoteの機能が最終的にトラストレスなゼロ知識（zero-knowledge）のシールドされたプールと組み合わせられる可能性があると考えています。
 
 ---
 
-**ZecHub (@ZecHub)によるオリジナルスレッド**  
+**ZecHub（@ZecHub）によるオリジナルスレッド**  
 https://x.com/ZecHub/status/1636473585781948416
 
 ---
 
-*このページは、ZecHub Wikiのためにオリジナルの「Zero to Zero Knowledge」スレッドから作成されました。*
+*このページは、ZecHub wiki向けに、オリジナルのZero to Zero Knowledgeスレッドから作成されました。*
