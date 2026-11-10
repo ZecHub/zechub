@@ -281,7 +281,7 @@
 - Wallet Support: MPC Vault
 - Pools: Transparent
 - Features: Multi Coin
-- NU7: Compatible for Transparent Zec
+- NU7: Compatible for Transparent ZEC
 
 ---
 
