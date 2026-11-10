@@ -82,6 +82,8 @@ Hitimisho: faragha hutegemea kubaki ndani ya mabwawa ya faragha. Fedha zinapogus
 
 
 
+- [ZecZcash Kichunguzi](https://zeczcash.com/explorer)
+
 ### Mwongozo wa Taswira
 
 Hapa kuna mifano minne mizuri ya vichunguzi tofauti vya blockchain:

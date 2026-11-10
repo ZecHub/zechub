@@ -3,101 +3,101 @@
 </a>
 
 
-# Nu Ka Ta Ƒe Vevi
+# Nu si ta ɣaɣla [Privacy] Le Vevɛ
 
-## TL;DR
+## Nya Veviwo
 
-- **Tor** kplɔa wò ƒe kadodoa to kadodonu atọ me eye wòate ŋu awɔ dɔ kple web normali kple onion subɔsubɔwo siaa — egbe la, eyae nye mɔ si wozãna kpuie be woaɣla gakotoku ƒe kadodo kple web dzi dzidodo
-- **I2P** nye peer-to-peer kɔkɔe si woɣla blibo la ƒe network si wode be wòawɔ dɔ na eya ŋutɔ ƒe meɖeɖeawo; **Zcash ɣaɣla dzesi ŋɔŋlɔ aɖeke si li fifia meƒoa I2P le dzɔdzɔe me o**
-- **Le mobile dzi:** Ɖo Zcash gakotoku to Tor me kple asiƒoƒo ʋee aɖewo kple Orbot ("Tor Enabled Apps")
-- **Ʋu Zcash ɣaɣla dzesi ŋɔŋlɔ to Tor me mele ŋu fifia o:** `zcashd` va seƒoƒoƒe le 18 July 2026, eye Zebra ƒe Tor ŋutinya gale dzadzraƒeƒe me le upstream
-- Tor ɣla *afi si nèle*, ke menye *nu si wɔm nèle ɖoɖonu dzi* o — nuwo ƒe ʋuʋuɖi gaɖoɖowo gale ŋkeke me
+- **Tor** naɖo wò network ƒe zɔzɔ to relay etɔ̃ dzi eye wòwɔ dɔ na web normali kple onion services siaa — egbe la, eyae nye mɔ si wɔa dɔ nyuie na gakotoku ƒe kadodo kple browsing ƒe mɔɣaɣla
+- **I2P** nye peer-to-peer overlay network si woŋlɔ ɣaɣla na blibo, eye wotu wo na eya ŋutɔ ƒe me ƒe servicewo; **Zcash ɣaɣla dzesi ŋɔŋlɔ aɖeke menoa I2P dzɔdzɔe o**
+- **Le mobile dzi:** Naɖo Zcash gakotoku to Tor me kple asiƒoƒo ʋɛ aɖewo to Orbot ("Tor Enabled Apps") dzi
+- **Ɖe Zcash ɣaɣla dzesi ŋɔŋlɔ to Tor me mele bɔbɔe fifia o:** `zcashd` ƒe kpekpeɖeŋu va ɖo nuwuwu le 18 July 2026, eye Zebra ƒe Tor feature gale disabled upstream
+- Tor ɣla *afi si nèle*, ke menaɣla *nu si nèwɔ ɖoɖonu dzi* o — nuwo ƒe ʋuʋuɖi gaɖoɖowo gale duame
 
-Le digital ƒe ƒomevi me la, wò ƒe [ɣaɣla privacy](https://www.privacyguides.org/en/) ɖe ɖe edzi vevie wu. Togbɔ be ame aɖewo ate ŋu abui be ɣaɣla nye nu si woɖe asi le, menye nenema o. Wò ƒe ɣaɣla le afɔku me eye ele be nàtsɔe anɔ dzodzro me. Ɣaɣla ƒe asixɔxɔ gã le, elabena eƒoa nu kple ŋusẽ, eye vevie be woazã ŋusẽ ma le mɔ nyui nu.
+Le digital ƒe ɣeyiɣi me la, wò [ɣaɣla](https://www.privacyguides.org/en/) ƒe dzadzra ɖe asi zu vevitɔ wu. Ne ame aɖewo bu be ɣaɣla le bubu ge, menye nenema o. Wò ɣaɣla le afɔku me eye ele be nàbu eŋu. Ɣaɣla xɔ asi le ŋusẽ me, eye edze vevie be woazã ŋusẽ ma le mɔ nyui nu.
 
-## Tor kple I2P Ƒe Teknolodziwo
+## Tor kple I2P ƒe Teknoloɖiwo
 
 ## Tor
 
-[Tor](https://www.privacyguides.org/en/tor/?h=tor) nye proxy dɔwɔnu si zãna Tor network be wòawɔ kadodo na applicationwo. Tor wɔa esia to woƒe kadodo kplɔkplɔ to Tor me, eye esia naa [ɣaɣla kple ame manyamanyam privacy and anonymity](https://www.torproject.org/) ƒe ŋusẽ sɔe na application siawo.
+[Tor](https://www.privacyguides.org/en/tor/?h=tor) nye proxy dɔwɔnu si zãa Tor network be wòawɔ kadodo na applicationwo. Tor wɔe to wo ƒe zɔzɔ ƒe mɔ nàna to Tor me, eye wòtsɔ ɖo [ɣaɣla kple anonymity](https://www.torproject.org/) ɖe applicationwo siawo ŋu.
 
 ## I2P Network
 
-I2P network, si woyɔna hã be [Invisible Internet Project](https://geti2p.net/en/about/intro), nye peer-to-peer kɔkɔe si woɣla blibo la ƒe network. Ena be woaɣla mesajewo ƒe emenyawo, afi si wotso kple afi si woyia na amesiwo le kpɔm. Le nya bubu me la, ame aɖeke mate ŋu akpɔ afi si kadodoa tsoa, afi si wòyia loo, alo mesaj siwo wom le ɖom ƒe emenyawo o. Ɣaɣlaŋlɔŋlɔ si I2P zãna naa ɣaɣla kple ame manyamanyam ƒe ƒomevi si le dziƒo na ezãlawo.
+I2P network, si woyɔ hã be [Invisible Internet Project](https://geti2p.net/en/about/intro), nye peer-to-peer overlay network si woŋlɔ ɣaɣla na blibo. Eɖoa eŋu be mesedina ge kpɔ nyadzɔdzɔwo ƒe emenyawo, afi si wotso, kple afi si wole yi o. Ɖe mɔ bubu nu la, ame aɖeke mate ŋu akpɔ afi si zɔzɔa tso, afi si wòle yi, alo nyadzɔdzɔwo ƒe emenyawo o. Ɣaɣlaŋlɔŋlɔ si I2P zãa naa ɣaɣla kple anonymity ƒe nɔnɔ aɖaŋu na ezãlawo.
 
-### I2P Ƒe Ɖoɖo
+### I2P ƒe Ɖoɖo
 
-Wɔwɔ ƒomevi eve le. [Java I2P](https://geti2p.net/en/download) si nye gɔmedzedzea wɔa dɔ le Windows, macOS, Linux kple Android dzi. [i2pd](https://i2pd.website/), si wòŋlɔ le C++ me la, le bɔbɔe eye eyae wonaa be wozãna le server alo mɔ̃ si ŋusẽ me le sue dzi.
+Wɔwɔ ƒe mɔ eve li. [Java I2P](https://geti2p.net/en/download), si nye gɔmedzedze ƒe version, wɔa dɔ le Windows, macOS, Linux kple Android dzi. [i2pd](https://i2pd.website/), si woŋlɔ le C++ me, le bɔbɔe wu eye nye ti si wozãna le server alo mɔ aɖe si me ŋusẽ menɔa o dzi.
 
-Ne wòle dɔ wɔm la, I2P ɖea local console aɖe fia le `127.0.0.1:7657` eye proxywo le `127.0.0.1:4444` (HTTP) kple `127.0.0.1:4447` (SOCKS). Ele be nàlala miniti aɖewo le gɔmedzedze gbãtɔ me: I2P fanele be wòatu tunnelwo to network la me hafi nu aɖeke awɔ dɔ, eye ewɔa dɔ kabakaba nenɔ online ɣe didi wu.
+Ne wòle dɔ wɔm vɔ la, I2P ɖea local console ɖe asi le `127.0.0.1:7657` kple proxies le `127.0.0.1:4444` (HTTP) kple `127.0.0.1:4447` (SOCKS). Wòle be nàlala miniti aɖewo le wòƒe dɔwɔ ƒe gɔmedzedze: I2P ele tunnels wɔm to network la me hafi nu aɖeke adze dɔ, eye wòzu kabakaba wu ne wòle online ɣeyiɣi didi.
 
-### I2P Ƒe Zã kple Zcash
+### I2P ƒe Zãzã kple Zcash
 
-Ɖo ŋku edzi be **Zcash ɣaɣla dzesi ŋɔŋlɔ aɖeke si li fifia meƒoa I2P le dzɔdzɔe me o.** Zebra mekpɔ I2P ƒe kpekpeɖeŋu o, eye zcashd hã mekpɔe o. Ne nèkpɔ mɔfiame aɖe si gblɔna be woɖua Zcash ɣaɣla dzesi ŋɔŋlɔ to I2P me la, ele nu si software la mewɔna o ŋutɔ gblɔm.
+Mìnya be **Zcash ɣaɣla dzesi ŋɔŋlɔ aɖeke menoa I2P dzɔdzɔe o.** Zebra mewɔ I2P ƒe dɔ o, eye zcashd hã mewɔe o. Ne nèkpɔ mɔfiame aɖe si gblɔ be woate ŋu aɖe Zcash ɣaɣla dzesi ŋɔŋlɔ to I2P me la, eƒe nyateƒe nye be software la menɔa nu ma wɔm o.
 
-Nu si I2P nyateƒeŋutɔ wɔna nyuie le afi sia la nye nu sia nu si le gakotoku la ƒe xlã: site, forum alo subɔsubɔ aɖe gbɔ vaɖoɖo ne mèdia be woanya wò gaɖoƒe ƒe dzesi o. Na gakotoku ƒe kadodo ŋutɔ ƒe manyamanyam la, Tor nye mɔ si wɔnɔa dɔ nyuie egbe, eye akpa siwo le afisia megbe la ƒoa nu tsoe.
+Nu si I2P wɔa dɔ nyuie na le afisiae nye nu sia nu si le gakotoku la ƒe xexlẽa me: site, forum alo service aɖe ƒe gbɔɖoɖo ne mèdi be woanya wò gaɖoƒe ƒe dzesi o. Na gakotoku ƒe kadodo ŋutɔ ƒe mɔɣaɣla la, Tor nye ti si wɔa dɔ egbe, eye akpa siwo gbɔna la ƒo nu tsoe.
 
-## Tor kple I2P le nɔnɔme siwo wɔnɔa ɖeka, gake vovototo gãwo hã le wo dome. 
+## Tor kple I2P le nɔnɔ ɖeka aɖewo me, ke vovototo gãwo hã le wo dome. 
 
-Tor kple I2P siaa nye ha nuɖo agni kple ame manyamanyam peer-to-peer networkwo, gake I2P nana dedienɔnɔ ƒe ƒomevi si le dziƒo wu Tor. Ke I2P wowɔe vevie be wòanɔ subɔsubɔwo abe email, chat, kple torrenting le eƒe network me, eye womate ŋu azãe avaɖo internet normali dzi o. Ke le akpa bubu la, Tor naa ezãlawo ŋu vaɖo deep web, abe ale si I2P wɔna ene, gake ewɔa dɔ hã abe browser normali na websitewo siwo le surface web dzi.
+Tor kple I2P siaa nye decentralized kple anonymous peer-to-peer networkwo, ke I2P naa dedienɔnɔ ƒe nɔnɔ kɔkɔ wu Tor. Ke hã, I2P wotu vevie na servicewo ƒe zãzã le eya ŋutɔ ƒe network me, abe email, chat, kple torrenting ene, eye womate ŋu azãe akpɔ internet normali o. Le upande bubu nu la, Tor naa ezãlawo mɔ be woakpɔ deep web, abe I2P ene, ke wòwɔ dɔ hã abe browser normali na websitewo ƒe kpɔkpɔ le surface web dzi.
 
-*Ŋkuɖoɖo: Ne nàdi nyatakaka bubu tso Tor kple I2P ƒe nɔnɔme siwo wɔnɔa ɖeka kple woƒe vovototowo ŋu la, yi [afisia](https://geti2p.net/en/comparison/tor)*
+*Didi: Na nàkpɔ nyawo tso Tor kple I2P ƒe nɔnɔ ɖeka kple vovototowo ŋu la, yi [afia](https://geti2p.net/en/comparison/tor)*
 
 ## Ɖo mobile gakotoku to Tor me kple Orbot
 
-Orbot nye virtual private network (VPN) si womebia ga ɖe eŋu o, si wowɔ na smartphonewo, eye wòkplɔa kadodo si tsoa applicationwo katã le wò mɔ̃ dzi to Tor network la me.
+Orbot nye virtual private network (VPN) si mexɔa ga o, wo wɔe na smartphonewo, eye wònaa applicationwo katã ƒe zɔzɔ le wò device dzi to Tor network me.
 
-Dze ɖoɖo siawo yome be nàɖo Zcash gakotoku to Tor me. Ɖo ŋku edzi be YWallet, si mɔfiame sia ƒe version xoxoawo zãna la, womelẽe ɖe edzi o azɔ eye wòmeadzɔ network la yome le Ironwood megbe o, eya ta tia gakotoku si wolẽ ɖe edzi tso [Gakotokowo](/using-zcash/wallets) axa dzi.
+Ɖo mɔfiame siawo ɖe eŋu be nàɖo Zcash gakotoku to Tor me. Mìnya be YWallet, si mɔfiame sia ƒe version xoxowo zã, womagale kpɔa dzi o eye wòmatsɔ ɖo network la yina le Ironwood megbe o, eyata tia gakotoku si wogale kpɔa dzi le [Gakotokuwò](/using-zcash/wallets) axa dzi.
 
-1.  Download eye nàɖo *Orbot* tso app store.
+1.  Ɖe *Orbot* ɖe eŋu eye nàɖoe tso app store me.
 
-2.  Le ɖoɖo megbe la, greetings mesaj aɖe ava. Yi edzi vaɖo *Orbot* ƒe home page dzi eye nàzi *'Tor Enabled Apps'.*              
+2.  Ne èɖoe vɔ la, greeting message aɖe ava. Yi edzi va ɖo *Orbot* ƒe home page dzi eye nàzi *'Tor Enabled Apps'.*              
 
-3. Esia ana axa aɖe ava le screen la dzi si fia applicationwo si sɔ kple Tor. Di wò Zcash gakotoku le list la me eye nàkpɔe be wotia e.
+3. Eya atsɔ page aɖe ava ɖe screen la dzi si fia applicationwo siwo dzea Tor. Di wò Zcash gakotoku le list la me eye nàkpɔ be wotia e.
 
-4. Kadodo ƒe biabia aɖe ava be woaɖo VPN, si ana *Orbot* ŋu akpɔ network ƒe kadodo. *Orbot* adze egɔme awɔ dɔ ne woɖe mɔ na esia vɔ.
+4. Kadodo ƒe biabia aɖe ava be woaɖo VPN, si ana mɔ *Orbot* be wòatsɔ kpɔ network ƒe zɔzɔ. *Orbot* adze dɔ ne woaɖe mɔ na e vɔ. 
 
-5. Kpɔ taskbar la alo Orbot ƒe homepage be nàkpe ɖe edzi be Tor le dɔ wɔm; woakpe ɖe edzi ne nàkpɔ 'Connected to the Tor network'.
+5. Kpɔ taskbar alo Orbot ƒe homepage be nàkpɔ be Tor le dɔ wɔm; woakpɔe ne nèkpɔ 'Connected to the Tor network'.
 
-*Ŋkuɖoɖo: Ne wò mobile network ƒe mɔxɔxɔ ɖe Tor tɔ la, àte ŋu azã Bridge Server abe mɔ bubu be nàwɔ kadodo ene.*
+*Didi: Ne wò mobile network ƒe mɔ tsia Tor la, àte ŋu azã Bridge Server abe mɔ bubu be nàwɔ kadodo ene.*
 
 
 ## Ɖo Tor le PC alo desktop dzi
 
-* Tor browser la, àte ŋu aɖe tso official website; àte ŋu akpɔ link la [afisia](https://download.torproject.org/).
+* Àte ŋu aɖe Tor browser tso official website la dzi; àte ŋu akpɔ link la [afia](https://download.torproject.org/).
 
- Mɔ si le bɔbɔe wu na Tor ƒe ɖoɖo nye be nàzãe to Tor Browser Bundle me. Ne nèdi headless ɖoɖowo la, àte ŋu atia be nàɖo Tor daemon la vovo. 
+ Mɔ si le bɔbɔe wu na Tor ƒe ɖoɖo nye be nàzã Tor Browser Bundle. Ne èdi headless installation la, àte ŋu aɖo Tor daemon la ƒe asi le eŋutɔ. 
 
-*Ŋkuɖoɖo: Le gɔmedzedze me la, Tor Browser bundle naa SOCKS listener le tcp/9150, eye Tor daemon la naa SOCKS listener le tcp/9050.*
+*Didi: Le gɔmedzedze me la, Tor Browser bundle ɖea SOCKS listener ɖe asi le tcp/9150, eye Tor daemon ɖea SOCKS listener ɖe asi le tcp/9050.*
 
-* Kpɔ ɖoɖo ƒe [mɔfiamewo](https://support.torproject.org/little-t-tor/getting-started/installing/) si sɔ kple wò operating system, abe ale si Tor Project la de asi le wo ŋu ene.
+* Kpɔ installation [mɔfiamewo](https://support.torproject.org/little-t-tor/getting-started/installing/) si wotu na wò operating system, abe Tor Project la na ene.
 
-## Ʋu ɣaɣla dzesi ŋɔŋlɔ to Tor me
+## Ɣa ɣaɣla dzesi ŋɔŋlɔ to Tor me
 
-Eyae nye akpa si tɔtrɔ geɖe wu, eye ɖeɖeŋutɔ ƒe ŋuɖoɖo la nye be fifia ewɔa dɔ vɔ̃ wu tsã.
+Esi nye akpa si trɔ le ŋutɔ, eye ŋuɖoɖo nyateƒe la nye be ezu kpekpeɖeŋu wu egbe.
 
-**zcashd megale o.** Eva seƒoƒoƒe eye wòtsi le 18 July 2026 le gaɖoɖowo ƒuƒoƒe 3,417,100. Womagbugbɔ adze egɔme o, eƒe download page trɔ ɖo 404, eye womagale apt repository la subɔm o. Mɔfiame aɖeke si gblɔ be nàƒu `zcashd -proxy=127.0.0.1:9050` megale be wòawɔ dɔ na nu aɖeke o.
+**zcashd mele o.** Eƒe kpekpeɖeŋu va ɖo nuwuwu eye wòtsi le 18 July 2026 le gaɖoɖowo ƒuƒoƒe 3,417,100 dzi. Wòmagadze gɔme o, eƒe download page trɔ zu 404, eye womagale na apt repository la o. Mɔfiame sia mɔfiame si gblɔ be nàɖe `zcashd -proxy=127.0.0.1:9050` menɔa nu aɖeke wɔm o.
 
-**Zebra hã mate ŋu awɔe haɖe o.** Zebra nye ɣaɣla dzesi ŋɔŋlɔ si wolẽ ɖe edzi, eye eƒe network crate la me le isolated-connection code na Tor, gake woŋlɔe ɖe anyi le `zebra-network/Cargo.toml` me:
+**Zebra mate ŋu awɔe haɖe o.** Zebra nye ɣaɣla dzesi ŋɔŋlɔ si wogale kpɔa dzi, eye eƒe network crate me la, isolated-connection code na Tor le eme, ke woɖe comment ɖe feature la ŋu le `zebra-network/Cargo.toml` me:
 
 ```
 # tor = ["arti-client", "tor-rtcompat"]
 ```
 
-Crate ƒe documentation la gblɔe kpuie hã: *"Tor ƒe kadodowo gale dzadzraƒeƒe me vaseɖe esime woatrɔ `arti-client` ƒe dependency `x25519-dalek v1.2.0`."* Woŋlɔ `connect_isolated_tor` function la hã ɖe anyi kplii. Eya ta, mɔ si wodzɔna be woaƒu Zcash ɣaɣla dzesi ŋɔŋlɔ to Tor me mele o egbe.
+Crate ƒe documentation hã gblɔe kpuie: *"Tor connections gale disabled va se ɖe esime `arti-client` ƒe dependency `x25519-dalek v1.2.0` atrɔ."* Woɖe comment ɖe `connect_isolated_tor` function hã ŋu kplee. Eyata mɔ si woɖo kpeɖeŋu na be woaɖe Zcash ɣaɣla dzesi ŋɔŋlɔ to Tor me mele egbe o.
 
-Ne nèhia manyamanyam le ɣaɣla dzesi ŋɔŋlɔ ƒe nudzraɖoƒe me fifia la, mɔ si wɔnɔa dɔ nye be nàɖo mɔ̃ blibo la ɖe Tor alo VPN megbe le operating-system ƒe nudzraɖoƒe me, le teƒe be nàɖo ɣaɣla dzesi ŋɔŋlɔ la ŋutɔ. Esia ɣla wò network ƒe nɔƒe manɔa ɖe ɣaɣla dzesi ŋɔŋlɔ ƒe ŋutinya si wometu o ŋu o.
+Ne èhiã ɣaɣla na ɣaɣla dzesi ŋɔŋlɔ ƒe nɔnɔ fifia la, mɔ si wɔa dɔ nye be nàɖo mɔtrɔtrɔ katã le Tor alo VPN megbe le operating-system ƒe nɔnɔ me, le ɣaɣla dzesi ŋɔŋlɔ la ŋutɔ ƒe ɖoɖo teƒe. Ema ɣlã wò network ƒe nɔƒe, eye mètsɔa ɖe ɣaɣla dzesi ŋɔŋlɔ ƒe feature siwo womede o ŋu o.
 
-### Nu si àte ŋu awɔ ha egbe
+### Nu si àte ŋu awɔ haɖe egbe
 
-- **Ɖo wò gakotoku to Tor me** kple Orbot le mobile dzi, abe ale si woƒo nu tsoe le afi sia megbe ene. Eyae nye mɔ si wɔnɔa dɔ na ame geɖe, eye wòɣla wò IP tso lightwalletd server si wò gakotoku doa gbe na la gbɔ
-- **Zã Tor Browser** na gaɖoɖowo ƒuƒoƒe ƒe didimekpɔlawo, forumwo kple nu bubu sia nu si nèdi be woagatsɔ gaɖoƒe ƒe dzesi aɖo wò ŋu o
-- **Ɖo ŋku edzi be nu si Tor meɣlana o.** Enaa wò network ƒe nɔƒe manyamanyam, ke menye wò ɖoɖonu dzi ƒe dɔwɔwɔ o. Dɔɖoɖo tso nuwo ƒe ʋuʋuɖi gaɖoƒe ƒe dzesi me gale ŋkeke me, eye asixɔxɔ si tso ɣaɣla gaƒuƒoƒowo dome va la ɖe fiaa ga home. Kpɔ [Ɣaɣla Gaƒuƒoƒowo](/using-zcash/shielded-pools) be nànya nu si gale ŋkeke me
+- **Ɖo wò gakotoku to Tor me** kple Orbot le mobile dzi, abe woɖe egɔme yi doŋgɔ ene. Eyae nye ti si wɔa dɔ na amehawo geɖe, eye wòɣlã wò IP na lightwalletd server si wò gakotoku doa nu kple
+- **Zã Tor Browser** na gaɖoɖowo ƒuƒoƒe ƒe explorers, forums kple nu bubu sia nu si mèdi be woaɖe wò gaɖoƒe ƒe dzesi kplee o
+- **Ɖo ŋku edzi be nu si Tor megaɣla o.** Wònaa wò network ƒe nɔƒe ƒe anonymity, menye wò ɖoɖonu dzi ƒe dɔwɔwɔ o. Dɔɖoɖo tso nuwo ƒe ʋuʋuɖi gaɖoƒe ƒe dzesi me gale duame, eye asigbalẽ si to ɣaɣla gaƒuƒoƒowo dome gale ɖe gaƒe la fia. Kpɔ [Ɣaɣla Gaƒuƒoƒowo](/using-zcash/shielded-pools) be nànya nu siwo gale fia
 
-## Axawo si kplɔe ɖo
+## Axawo si do ŋgɔ
 
-- [VPN kple DVPN](VPN_and_DVPN.md) — VPN ƒe mɔ bubuwo kple ale si woƒoa vovototo
-- [Web Browserwo](Web_Browsers.md) — browser ƒe sesẽwɔwɔ na ɣaɣla le ŋkeke sia ŋkeke
-- [Mesadɔlawo siwo le Dedie](Secure_Messengers.md) — kadodo ƒe dɔwɔnu siwo le ɣaɣla me
-- [Nu Si Gaɖoɖowo Ƒuƒoƒe ƒe Didimekpɔla Aɖe Ate Ŋu Akpɔ](../Zcash_Tech/What_a_Block_Explorer_Can_See.md) — nu si wò ɣaɣla dzesi ŋɔŋlɔ ƒe ɣaɣla kpɔa ɖeŋu kple nu si wòmekpɔa ɖeŋu o
-- [Ɣaɣla Gaƒuƒoƒowo](/using-zcash/shielded-pools) — nu si gale ŋkeke me ɖoɖonu dzi, togbɔ be network ƒe nudzraɖoƒe ƒe manyamanyam le hã
+- [VPN kple DVPN](VPN_and_DVPN.md) — VPN ƒe mɔ bubuwo kple ale si wotsɔ sɔ wo
+- [Web Browsers](Web_Browsers.md) — browser ƒe sesẽwɔwɔ na ɣaɣla le gbe sia gbe
+- [Secure Messengers](Secure_Messengers.md) — ɣaɣla ƒe kadodo dɔwɔnuwo
+- [Nu si gaɖoɖowo ƒuƒoƒe ƒe Explorer Aɖe Ate Ŋu Akpɔ](../Zcash_Tech/What_a_Block_Explorer_Can_See.md) — nu si wò ɣaɣla dzesi ŋɔŋlɔ ƒe ɣaɣla ɣlãa kple nu si wòmegaɣla o
+- [Ɣaɣla Gaƒuƒoƒowo](/using-zcash/shielded-pools) — nu siwo gale fia ɖoɖonu dzi, togbɔ be network ƒe nɔnɔ ƒe anonymity le eme hã

@@ -1,171 +1,171 @@
-# <img src="/content-images/money-business-and-finance-svgrepo-com-eac0e054bd.svg" width="24" height="24" alt="finance icon"/> Ɖe ZEC ƒe nunana siwo le ɣaɣla me dzi abe US ƒe habɔbɔ si mele dzidzedzi ƒe ta me ene
+# <img src="/content-images/money-business-and-finance-svgrepo-com-eac0e054bd.svg" width="24" height="24" alt="finance icon"/> Xɔ ɣaɣla [privacy] ZEC ƒe nunana siwo wotsɔ na US habɔbɔ si menye gaɖeɖeƒe o
 
 <span className="inline-flex items-center gap-[6px]">
   <span className="inline-block w-[12px] h-[12px] bg-green-500 rounded-full"></span>
-  Ƒomevi dometɔ - 10 min
+  Ɖe le titina - Minute 10
 </span>
 
-> Axa sia nye nyatakaka gbogblɔ, menye se alo tax ƒe aɖaŋu o. US tax ƒe sewo trɔna, eyata kpɔ afɔɖe sia afɔɖe ɖe wò akontablɔla alo tax ƒe aɖaŋudela gbɔ. Se siawo katã ƒe IRS dzɔdzɔƒe wodo ɖe eŋu, eye wotsɔ wo sɔ kple Publication 526 (na 2025 ƒe returns) kple Form 8283 (December 2025 ƒe tɔtrɔ) le October 2026 me. IRS ƒe virtual currency FAQ woŋlɔ na gaɖoɖowo siwo va do ŋgɔ na 2025, eyata tsɔe sɔ kple fiƒeɖoɖo yeyewo.
+> Axa sia nye nyatakaka gbogblɔ, menye se alo takisi ƒe aɖaŋu o. US ƒe takisi ƒe sewo trɔna, eyata kpɔ afɔ sia afɔ kple wò akɔntabɔbɔla alo takisi ƒe aɖaŋudela. Se siawo katã ƒe IRS gbɔgbɔtɔ le eme, eye woɖe kpe ɖe wo ŋu le October 2026 me kple Publication 526 (na 2025 ƒe returns) kple Form 8283 (December 2025 ƒe revizyon). IRS ƒe virtual currency FAQ la ŋlɔna na gaɖoɖowo siwo va do ŋgɔ na 2025, eyata kpɔe kple fiƒe aɖaŋu si le fifia.
 
-## Ɖe nyagbegbe me
+## TL;DR
 
-- Dzra nunanawo ɖe ɣaɣla [shielded] gakotoku [wallet] si wò habɔbɔ le dzi kpɔm me, menye dɔwɔla aɖe ƒe gakotoku ŋutɔ tɔ me o
-- IRS bua ZEC abe nudzɔdzɔ ene, eyata ZEC ƒe nunana nye nunana si menye ga le asi me o
-- Na nunana si wɔ $250 alo wu la, ɖo agbalẽŋlɔ si de dzesi na nuxɔla la, si gblɔ ZEC ƒe nɔnɔ gake mede dollar ƒe asixɔxɔ ɖe eŋu o
-- Na nunana siwo wu $5,000 la, ele be nuxɔla la nakpɔ nudzɔdzɔ ƒe asixɔxɔ si wode dzesi ɖo, eye nàde asi ɖe wo ƒe Form 8283 te
-- Ne èdzra ZEC o ɖe ƒe etɔ̃ ƒe me le eƒe xɔxɔ megbe, eye nède asi ɖe nuxɔla la ƒe Form 8283 ƒe Section B te la, naɖo Form 8282
-- Nuxɔla si ƒe ŋkɔ menya na wò o la medi be wòate ŋu abia tax ƒe ɖeɖe le $250 alo wu ŋu o
+- Dzra nunanawo ɖe ɣaɣla [shielded] gakotoku [wallet] me si wò habɔbɔ la wɔ dzikpɔɖeɖe le, menye dɔwɔla aɖe tɔe ŋu o
+- IRS bua ZEC abe nu si le ame ƒe asi ene, eyata ZEC ƒe nunana nye nunana si menye ga o
+- Na nunana si dze $250 alo wu la, ɖo agbalẽ ƒe nyagblɔɖi na nunala la si ɖea ZEC me, gake meɖea dollar ƒe asixɔxɔ na ea o
+- Na nunana siwo wu $5,000 la, nunala la hia xexlẽkplɔla si woɖo ƒe nyagblɔɖi, eye nàde asi ɖe woƒe Form 8283 ŋu
+- Ne nètsɔ ZEC aɖe ade asi le ƒe etɔ̃ me le esime nèxɔe megbe, eye nède asi ɖe nunala la ƒe Form 8283 ƒe Section B ŋu la, ɖo Form 8282
+- Nunala si wɔa be womeka eƒe ŋkɔ na wò o mate ŋu abia takisi ƒe ɖeɖe le $250 alo wu ŋu o
 
 <br/>
 
-## <img src="/content-images/user-svgrepo-com-21adf62b7c.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="user icon"/> Ame kawoe wòŋlɔe na?
+## <img src="/content-images/user-svgrepo-com-21adf62b7c.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="user icon"/> Ame ka ta wotu esia ɖe?
 
-- US 501(c)(3) ƒe dɔwɔhawo, hamexɔwo kple dukɔ ƒe ƒomeviwo siwo di be yewoaxɔ ZEC
-- Gadɔdzilawo, akontabukplɔlawo kple kplɔlawo siwo ɖoe be woawɔ crypto ƒe nunana xɔxɔ
-- Nunanalawo siwo di be woanya nu si habɔbɔ si mele dzidzedzi ƒe ta me hia tso wo gbɔ
+- US 501(c)(3) ƒe dɔmenyawo, hameawo kple nuto ƒe habɔbɔwo siwo di be yewoaxɔ ZEC
+- Gadzikpɔlawo, akɔntabɔbɔlawo kple board ƒe membawo siwo le crypto nunana ƒe ɖoɖo wɔm
+- Nunalawo siwo di be yewoanya nu si habɔbɔ aɖe hia tso wo gbɔ
 
-Na amewo kple nuwɔlawo, kpɔ [Xɔ Nunanawo Le Ɣaɣla Me](/zcash-use-cases/receive-donations-privately).
+Na ame ɖeka kple nuwɔlawo, kpɔ [Xɔ Nunanawo ƒe Ɖoɖeɖe ɣaɣla me](/zcash-use-cases/receive-donations-privately).
 
 <br/>
 
 ## <img src="/content-images/warning-error-svgrepo-com-b7ea8a50da.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="warning icon"/> Kuxi la
 
-Crypto nunana ƒe subɔsubɔ geɖewo siwo le US habɔbɔwo ƒe ta la naa gaɖoƒe ƒe dzesi [address] si le nuwo ƒe ʋuʋuɖi [transparent] me na mi, alo wotrɔa nunana la ɖe ga bubu me na mi to esia ƒe mɔ dzi. Le gaɖoƒe ƒe dzesi si le nuwo ƒe ʋuʋuɖi me la, ame sia ame ate ŋu akpɔ nunana sia ame si, eƒe asime kple miaƒe ga si le asi. Nuxɔla si na nunana le ɣaɣla me hena ta aɖe la bu ɣaɣla ma enumake ne nunana la ɖo.
+Crypto-nunana ƒe dɔwɔƒe geɖewo siwo na US ƒe dɔmenyawo naa gaɖoƒe ƒe dzesi [address] si ƒe nuwo ƒe ʋuʋuɖi [transparent] le, alo woatrɔ nunana la na wò to esia me. Le gaɖoƒe ƒe dzesi si ƒe nuwo ƒe ʋuʋuɖi le dzi la, ame sia ame ate ŋu akpɔ nunana sia ame, eƒe asixɔxɔ kple wò balance. Nunala si naa nunana ɣaɣla me le ta me la bu ɣaɣla ma enumake ne nunana la ɖo.
 
-Habɔbɔ si mele dzidzedzi ƒe ta me hã le agbalẽwo ƒe dɔ si ame ɖeka mele o: nunana ƒe kpeɖodziwo, IRS ƒe formwo na nunana gãwo, kple ƒe sia ƒe agbalẽŋlɔ. Ɣaɣla kple agbalẽwo ƒe dɔ sia ate ŋu awɔ dɔ ɖekae, ne miɖoe ɖe ɖoɖo me hafi nunana gbãtɔ va.
+Hame si menye gaɖeɖeƒe o hã le agbalẽwo si ame ɖeka manɔa o: nunala ƒe receipt, IRS ƒe form na nunana gãwo, kple ƒe sia ƒe return. Ɣaɣla kple agbalẽwo ma ate ŋu awɔ dɔ ɖekae, ne nàɖo ɖe wo ŋu hafi nunana gbãtɔ va.
 
 <br/>
 
-## <img src="/content-images/icons8-lock-2f8e221321.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="lock icon"/> Nu si le ɣaɣla me, kple nu si mele ɣaɣla me o
+## <img src="/content-images/icons8-lock-2f8e221321.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="lock icon"/> Nu siwo nɔa ɣaɣla me, kple nu siwo menɔa ɣaɣla me o
 
-| | Nunana ɣaɣla si yi ɖe wò gaɖoƒe ƒe dzesi ɣaɣla |
+| | Ɣaɣla ƒe nunana na wò ɣaɣla ƒe gaɖoƒe ƒe dzesi |
 |---|---|
-| Dukɔ blibo | Mate ŋu akpɔ nuxɔla la, wò gaɖoƒe ƒe dzesi alo asime la o |
-| Wò habɔbɔ | Ekpɔ asime la kple nya kpui [memo] ɖe sia ɖe; ekpɔ nuxɔla la ko ne eya ŋutɔ gblɔe |
-| Wò akontablɔla | Ekpɔ nu si nàmae, abe [nukpɔsafui](/zcash-tech/viewing-keys) ene |
-| Ne nèdzrae | Ne wò gatrɔƒe [exchange] xɔa nuwo ƒe ʋuʋuɖi ƒe deposits ko la, asime si nèna tso ɣaɣla gaƒuƒoƒo [pool] me la ado go (kpɔ [gaɖoɖowo ƒe xexlẽdzikpɔɖeƒe](/zcash-tech/the-turnstile)) |
+| Dukɔ blibo | Womate ŋu akpɔ nunala la, wò gaɖoƒe ƒe dzesi alo asixɔxɔ o |
+| Wò habɔbɔ | Ekpɔ asixɔxɔ kple nya kpui [memo] aɖe sia aɖe; ekpɔ nunala la ko ne eya ŋutɔ gblɔe |
+| Wò akɔntabɔbɔla | Ekpɔ nu siwo nèma e, abe kpɔɖe ene kple [nukpɔsafui](/zcash-tech/viewing-keys) |
+| Ne nètsɔe ade asi | Ne wò gatrɔƒe [exchange] xɔa deposit siwo ƒe nuwo ƒe ʋuʋuɖi le ko la, asixɔxɔ si nètsɔ va tso ɣaɣla ƒe gaƒuƒoƒo [pool] me la ava dze dukɔ blibo ƒe ŋkume (kpɔ [gaɖoɖowo ƒe xexlẽdzikpɔɖeƒe](/zcash-tech/the-turnstile)) |
 
 <br/>
 
-## <img src="/content-images/icons8-toolbox-9bebbb1619.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> Nu si miehia
+## <img src="/content-images/icons8-toolbox-9bebbb1619.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> Nu siwo nèhia
 
-- Nunana xɔxɔ ƒe ɖoɖo, si miaƒe kplɔlawo da dzesi ɖo, si wɔ crypto ƒe nya hã
-- [gakotoku](/using-zcash/wallets) si le gaɖoƒe ƒe dzesi ɣaɣla, si habɔbɔ la le dzi kpɔm
-- Gatrɔƒe ƒe akonta le habɔbɔ la ƒe ŋkɔ me, ne miedi be miatrɔ ZEC ɖe dollars me
-- Akontablɔla si wɔ nunana si menye ga le asi me o ƒe dɔ kpɔ
-
-<br/>
-
-## <img src="/content-images/ladder-svgrepo-com-7232bf46ed.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="step icon"/> Mɔfiame-ɖe-mɔfiame ƒe mɔfiafia
-
-### Mɔfiame 1: Tia miaƒe ɖoɖo
-
-Ŋlɔe ɖe agbalẽ dzi, eye na miaƒe kplɔlawo nàda dzesi ɖo:
-- Ame kawoe ate ŋu aɖe ga, eye nenye be ame eve wòle be woada dzesi ɖe gaɖeɖe sia ame sia te
-- Ne miedzraa nunana sia ame sia enumake alo miedzea ZEC aɖewo
-- Ne mixɔa nunana siwo ƒe wɔnawo menya o, kple asime kae va se
-
-### Mɔfiame 2: Ɖo gakotoku si habɔbɔ la le dzi kpɔ
-
-- Wɔ gakotoku la ɖe habɔbɔ la ƒe mɔ̃dɔŋu dzi, menye telefon si nye ame ɖeka tɔ dzi o
-- Dzra gadzraɖoɖi nya [seed phrase] la ɖe internet me o, kple dɔwɔla gã eve si ame sia ame ate ŋu aɖo afi si wodzii
-- Na hadzedze ƒe kplɔɖeɖe, kpɔ [Wɔ Dukɔ ƒe Gadzraɖoƒe Ɣaɣla](/zcash-use-cases/private-community-treasury)
-
-### Mɔfiame 3: Ɖe gaɖoƒe ƒe dzesi ɣaɣla afia
-
-- Ma gaɖoƒe ƒe dzesi si le ɣaɣla ko me ɖe wò nunana ƒe axa dzi. [gaɖoƒe ƒe dzesi si wowɔ ɖekae](/using-zcash/unified-addresses) dzea egɔme kple `u1`, gake ate ŋu akpɔ gaɖoƒe ƒe dzesi si le nuwo ƒe ʋuʋuɖi me hã ɖe eme, eye nunana si tso gakotoku si le nuwo ƒe ʋuʋuɖi ko me la ado go. Zã wò gakotoku ƒe gaɖoƒe ƒe dzesi si le ɣaɣla ko me, ne elea.
-- Migaɖe gaɖoƒe ƒe dzesi si le nuwo ƒe ʋuʋuɖi me afia o (edzea egɔme kple `t1` alo `t3`)
-- Ɖe kuku na nunanalawo siwo di kpeɖodzi be woaŋlɔ woƒe email ɖe [nya kpui](/using-zcash/memos) me. Woɣaɣla nya kpui la, eyata miaƒe habɔbɔ ko ate ŋu axlẽe.
-
-### Mɔfiame 4: Ŋlɔ nunana sia ame sia ɖe agbalẽ dzi
-
-Na nunana sia ame sia, ŋlɔ:
-- Ŋkeke kple gaƒoƒo si woxɔe
-- Asime le ZEC me
-- Asixɔxɔ le US dollars me le ɣeyiɣi ma me, kple asixɔxɔ ƒe dzɔdzɔƒe si nèzã
-- Gaɖoɖo [transaction] ID kple nya kpui
-
-IRS bua ZEC abe nudzɔdzɔ ene ([Notice 2014-21](https://www.irs.gov/pub/irs-drop/n-14-21.pdf)), eyata esia nye nunana si menye ga le asi me o le miaƒe agbalẽwo me. Be nàna wò akontablɔla nuxlẽm ko ƒe mɔ, kpɔ [Agbalẽwo ƒe dzadzra kple ɣaɣla ZEC](/zcash-use-cases/keeping-records-with-shielded-zec).
-
-### Mɔfiame 5: De dzesi na nunana siwo le $250 alo wu
-
-Nuxɔla mate ŋu aɖe nunana ɖeka si le $250 alo wu le tax me o ne agbalẽŋlɔ ƒe dzesiɖeɖe menye tso mia gbɔ o ([Publication 1771](https://www.irs.gov/pub/irs-pdf/p1771.pdf)). Na ZEC ƒe nunana, tsɔ esiawo kpee:
-- Miaƒe habɔbɔ la ƒe ŋkɔ
-- Ŋkeke si mixɔe
-- Nunana la ƒe nɔnɔ, abe "1.5 ZEC" ene. Migade dollar ƒe asixɔxɔ ɖe eŋu o: nunana la ƒe asixɔxɔ ɖoɖo nye nuxɔla la ƒe dɔ.
-- Ne miena nu aɖe ɖe eteƒe, abe "Womena nudzɔdzɔ alo subɔsubɔ aɖeke ɖe nunana sia teƒe o."
-
-Ele be nuxɔla la nanɔ kplee hafi wòɖo eƒe tax return ([Publication 526](https://www.irs.gov/pub/irs-pdf/p526.pdf)). Habɔbɔwo dea edzi zi geɖe le ƒe yeyea ƒe January 31 dzi; ne miede edzi enumake la, eyae le bɔbɔe.
-
-### Mɔfiame 6: De asi ɖe Form 8283 te na nunana siwo wu $5,000
-
-Ne nuxɔla aɖe bia nu si wu $5,000 la, ele be nakpɔ nudzɔdzɔ ƒe asixɔxɔ si wode dzesi ɖo. Crypto menye dɔwɔwɔ ƒe asidede si wotrɔna le ame gbogbo ƒe asime o, eyata asixɔxɔ ɖoɖo la wɔa dɔ na e ([Publication 526](https://www.irs.gov/pub/irs-pdf/p526.pdf), [CCA 202302012](https://www.irs.gov/pub/irs-wd/202302012.pdf)). Nuxɔla la tsɔa [Form 8283](https://www.irs.gov/pub/irs-pdf/f8283.pdf) naa mi, eye miede asi ɖe Section B ƒe ame si xɔ nunana la ƒe akpa te. Miaƒe asidede agbalẽ te [signature] ɖe kpe edzi be mixɔ ZEC le ŋkeke ma dzi; mede kpe nuxɔla la ƒe asixɔxɔ edzi o ([IRS FAQ, Q36](https://www.irs.gov/individuals/international-taxpayers/frequently-asked-questions-on-virtual-currency-transactions)).
-
-### Mɔfiame 7: Trɔe ɖe dollars me, ne miehiae
-
-- Kpɔ gatrɔƒe kawoe xɔa deposits ɣaɣla le [Asikplɔ-dzralá Gatrɔƒewo](/using-zcash/custodial-exchanges). Geɖewo xɔa deposits siwo le nuwo ƒe ʋuʋuɖi me ko.
-- Ne wòtɔ nye si le nuwo ƒe ʋuʋuɖi ko me la, na ZEC nawɔ mɔ ɖeka tso wò gakotoku ɣaɣla me ayi gatrɔƒe la dzi le ɣeyiɣi si nèdzrae. Asime ma ado go, gake wò nunana bubuwo kple wò balance anɔ ɣaɣla me.
-- Ne nèdzra ZEC o ɖe ƒe etɔ̃ ƒe me le eƒe xɔxɔ megbe, eye nède asi ɖe nuxɔla la ƒe Form 8283 ƒe Section B te la, ɖo [Form 8282](https://www.irs.gov/pub/irs-pdf/f8282.pdf) le ŋkeke 125 ƒe me tso dzadzra la ŋu, eye nàɖo kɔpi na nuxɔla la ([IRS FAQ, Q37](https://www.irs.gov/individuals/international-taxpayers/frequently-asked-questions-on-virtual-currency-transactions)).
-
-### Mɔfiame 8: Ɖo nyawo ɖe miaƒe ƒe sia ƒe return me
-
-Ɖo ZEC ƒe nunanawo ɖe miaƒe Form 990-series return me abe nunana si menye ga le asi me o, kple [Schedule M](https://www.irs.gov/forms-pubs/about-schedule-m-form-990) ne ewɔ dɔ na mi. Ɖe kuku na wò akontablɔla be wòagblɔ ale si woaɖo nunana siwo ƒe wɔnawo menya o.
+- Nunana ƒe xɔxɔ ɖoɖo, si wò board da asi ɖo, si ƒe cryptocurrency hã le eme
+- [gakotoku](/using-zcash/wallets) si me ɣaɣla ƒe gaɖoƒe ƒe dzesiwo le, eye habɔbɔ la wɔa dzikpɔɖeɖe le eŋu
+- Gatrɔƒe ƒe akɔnt si le habɔbɔ la ƒe ŋkɔ me, ne èdi be nàtrɔ ZEC na dollar
+- Akɔntabɔbɔla si wɔ dɔ kple nunana siwo menye ga o kpɔ
 
 <br/>
 
-## <img src="/content-images/user-svgrepo-com-21adf62b7c.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="user icon"/> Nunanalawo siwo ƒe wɔnawo menya o: nu si woate ŋu abia kple nu si mate ŋu abia o
+## <img src="/content-images/ladder-svgrepo-com-7232bf46ed.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="step icon"/> Aƒe sia aƒe ƒe mɔfia
 
-- Ɣaɣla tso dukɔ blibo gbɔ menye be wɔnawo menya na wò o. Nuxɔla ate ŋu ana nunana le ɣaɣla me eye wòama eƒe email ɖe nya kpui me be wòaxɔ kpeɖodzi.
-- Nuxɔla si ƒe ŋkɔ menya na wò o mate ŋu axɔ dzesiɖeɖe agbalẽŋlɔ o, eyata mate ŋu aɖe nunana ɖeka si le $250 alo wu le tax me o.
-- Ne ewɔ $5,000 wu la, nuxɔla la hã hia nudzɔdzɔ ƒe asixɔxɔ kple miaƒe asidede agbalẽ te ɖe Form 8283 te, si fia be ele be wòagblɔ ame si ye nye na mi.
-- Na nuxɔla la, ZEC ƒe nunana si wòdzra ƒe ɖeka wu la, zi geɖe woate ŋu aɖe eƒe asixɔxɔ le fiƒe me le tax me, eye capital gains tax mele nunana la ŋu o ([IRS FAQ, Q34–Q35](https://www.irs.gov/individuals/international-taxpayers/frequently-asked-questions-on-virtual-currency-transactions)).
+### Aƒe 1: Ɖo wò ɖoɖo
 
-Gblɔ esia ɖe miaƒe nunana ƒe axa dzi, be nunanalawo nate ŋu atia hafi woana nunana.
+Ŋlɔ esiawo ɖi, eye na wò board nàda asi ɖo:
+- Ame ka ate ŋu aɖe ga, eye ne ame eve hia be woada asi ɖe gaɖeɖe sia ame ŋu
+- Ne nètsɔ nunana sia ame ade asi enumake, alo nàdzra ZEC aɖe
+- Ne nèxɔa nunana siwo meka wɔnala ƒe ŋkɔ o, kple asixɔxɔ si va se afi ka
+
+### Aƒe 2: Ɖo gakotoku si habɔbɔ la wɔa dzikpɔɖeɖe le eŋu
+
+- Wɔ gakotoku la le habɔbɔ ƒe mɔ̃ si dzi, menye telefon si nye ame ɖeka tɔ o
+- Dzra gadzraɖoɖi nya [seed phrase] la le afisia afisia si mele internet dzi o, kple dɔlame eve si ate ŋu akpɔe
+- Na dzikpɔɖeɖe si woama, kpɔ [Wɔ Nuto ƒe Ɣaɣla Gadzraɖoƒe](/zcash-use-cases/private-community-treasury)
+
+### Aƒe 3: Ɖe ɣaɣla ƒe gaɖoƒe ƒe dzesi fia
+
+- Ma ɣaɣla-ko ƒe gaɖoƒe ƒe dzesi le wò donate page dzi. [unified address](/using-zcash/unified-addresses) dzea egɔme kple `u1`, gake ate ŋu akpɔ transparent receiver hã, eye nunana tso gakotoku si xɔa transparent ko me ava dze dukɔ blibo ƒe ŋkume. Zã wò gakotoku ƒe ɣaɣla-ko ƒe gaɖoƒe ƒe dzesi ne ele asiwò.
+- Mègblɔ gaɖoƒe ƒe dzesi si ƒe nuwo ƒe ʋuʋuɖi le o (edzea egɔme kple `t1` alo `t3`)
+- Ɖe kuku na nunalawo siwo di receipt be woatsɔ wɔnɔ ƒe email ade [nya kpui](/using-zcash/memos) me. Nya kpui la me ɣaɣlaŋlɔŋlɔ [encryption] le, eyata wò habɔbɔ ko ate ŋu axlee.
+
+### Aƒe 4: Ŋlɔ nunana sia ame ɖi
+
+Na nunana sia ame, ŋlɔ esiawo ɖi:
+- Ƒe keke kple gaƒoƒo si nèxɔe
+- Asixɔxɔ le ZEC me
+- Asixɔxɔ le US dollar me le ɣeyiɣi ma me, kple asixɔxɔ ƒe gbɔgbɔtɔ si nèzã
+- Gaɖoɖo [transaction] ƒe ID kple nya kpui
+
+IRS bua ZEC abe nu si le ame ƒe asi ene ([Notice 2014-21](https://www.irs.gov/pub/irs-drop/n-14-21.pdf)), eyata esia nye nunana si menye ga o le wò agbalẽwo me. Na wò akɔntabɔbɔla nàkpɔ nuwo ko, kpɔ [Agbalẽwo ƒe dzadzra kple ɣaɣla ƒe ZEC](/zcash-use-cases/keeping-records-with-shielded-zec).
+
+### Aƒe 5: Ɖe nunana siwo dze $250 alo wu la ƒe nyagblɔɖi
+
+Nunala mate ŋu aɖe nunana ɖeka si dze $250 alo wu le takisi me o ne agbalẽ ƒe nyagblɔɖi tso wò gbɔ mele asi o ([Publication 1771](https://www.irs.gov/pub/irs-pdf/p1771.pdf)). Na ZEC ƒe nunana, tsɔ esiawo ade eme:
+- Wò habɔbɔ la ƒe ŋkɔ
+- Ƒe keke si nèxɔe
+- Nunana la ƒe nɔnɔme, abe "1.5 ZEC" ene. Mègblɔ dollar ƒe asixɔxɔ na ea o: nunana la ƒe asixɔxɔ ƒe wɔwɔ nye nunala la ƒe dɔ.
+- Ne nèna nu aɖe le eteƒe, abe "Womena nudzɔdzɔ alo dɔwɔwɔ aɖeke le nunana sia ƒe teƒe o."
+
+Nunala la hia be yeanye agbalẽ la hafi yeɖo yeƒe takisi ƒe return ([Publication 526](https://www.irs.gov/pub/irs-pdf/p526.pdf)). Hamewo deŋu ɖoa e ɖe January 31 le ƒe si gbɔna me; eƒe ɖoɖe enumake nye mɔ bɔbɔe.
+
+### Aƒe 6: De asi ɖe Form 8283 ŋu na nunana siwo wu $5,000
+
+Ne nunala aɖe bia wu $5,000 la, ehiã xexlẽkplɔla si woɖo ƒe nyagblɔɖi. Crypto menye dukɔ ƒe asiwo me ƒe security si woatrɔa ne ame di o, eyata xexlẽkplɔla ƒe nyagblɔɖi la dze eŋu ([Publication 526](https://www.irs.gov/pub/irs-pdf/p526.pdf), [CCA 202302012](https://www.irs.gov/pub/irs-wd/202302012.pdf)). Nunala la tsɔa [Form 8283](https://www.irs.gov/pub/irs-pdf/f8283.pdf) vɛ na wò, eye nàde asi ɖe donee ƒe akpa le Section B me. Wò asidede agbalẽ te [signature] ƒe fia be nèxɔ ZEC le ŋkeke ma dzi; menye nunala la ƒe asixɔxɔ ƒe ƒoƒoɖeɖe o ([IRS FAQ, Q36](https://www.irs.gov/individuals/international-taxpayers/frequently-asked-questions-on-virtual-currency-transactions)).
+
+### Aƒe 7: Trɔe na dollar, ne nèhia
+
+- Kpɔ gatrɔƒewo siwo xɔa ɣaɣla ƒe deposit le [Asikplɔ-dzralá ƒe Gatrɔƒewo](/using-zcash/custodial-exchanges). Geɖewo xɔa deposit siwo ƒe nuwo ƒe ʋuʋuɖi le ko.
+- Ne wòtɔ nye transparent-ko la, tsɔ ZEC tso wò ɣaɣla gakotoku me yi gatrɔƒe la me le afɔ ɖeka me, le esime nètsɔe ade asi. Asixɔxɔ ma ava dze dukɔ blibo ƒe ŋkume, gake wò nunana bubuwo kple wò balance anɔ ɣaɣla me.
+- Ne nètsɔ ZEC ade asi le ƒe etɔ̃ me le esime nèxɔe megbe, eye nède asi ɖe nunala la ƒe Form 8283 ƒe Section B ŋu la, ɖo [Form 8282](https://www.irs.gov/pub/irs-pdf/f8282.pdf) le ŋkeke 125 me le asitsɔɖe megbe, eye nàɖo eƒe kopi na nunala la ([IRS FAQ, Q37](https://www.irs.gov/individuals/international-taxpayers/frequently-asked-questions-on-virtual-currency-transactions)).
+
+### Aƒe 8: Ɖe nyagblɔɖi le wò ƒe sia ƒe return me
+
+Ɖe ZEC ƒe nunanawo fia abe nunana siwo menye ga o le wò Form 990-series return me, kple [Schedule M](https://www.irs.gov/forms-pubs/about-schedule-m-form-990) ne edze wò ŋu. Ɖe biabia na wò akɔntabɔbɔla be alekee woaŋlɔ nunana siwo meka wɔnala ƒe ŋkɔ o ɖi.
 
 <br/>
 
-## <img src="/content-images/icons8-cancel-7f786be3c1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="cancel icon"/> Vodada siwo wòle be mieɖe le ŋu
+## <img src="/content-images/user-svgrepo-com-21adf62b7c.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="user icon"/> Nunalawo siwo meka wɔnɔ ƒe ŋkɔ o: Nu siwo woate ŋu abia kple nu siwo womate ŋu abia o
 
-- Nunanawo dzadzra ɖe dɔwɔla aɖe ƒe gakotoku ŋutɔ tɔ me
-- Gaɖoƒe ƒe dzesi si le nuwo ƒe ʋuʋuɖi me, alo gatrɔƒe ƒe deposit address, ƒe ɖeɖe afia abe miaƒe nunana ƒe gaɖoƒe ƒe dzesi ene
-- Dollar ƒe asixɔxɔ ƒe deɖe dzesiɖeɖe agbalẽŋlɔ la me
-- Dzadzra le ƒe etɔ̃ ƒe me eye mieŋlɔ Form 8282 o
-- Tax ƒe ɖeɖe ƒe ŋugbedodo na nunanalawo siwo ƒe wɔnawo menya o
+- Ɣaɣla tso dukɔ blibo gbɔ menye be womeka wò ŋkɔ na wò o. Nunala ate ŋu ana nunana ɣaɣla me eye wòama yeƒe email le nya kpui me be yeaxɔ receipt.
+- Nunala si meka eƒe ŋkɔ na wò o mate ŋu axɔ nyagblɔɖi o, eyata mate ŋu aɖe nunana ɖeka si dze $250 alo wu le takisi me o.
+- Ne eƒe asixɔxɔ wu $5,000 la, nunala la hia xexlẽkplɔla ƒe nyagblɔɖi kple wò asidede agbalẽ te le Form 8283 ŋu hã, si fia be wòagblɔ ame si wònye na wò.
+- Na nunala la, ZEC ƒe nunana si woɖe asi le ƒe ɖeka wu me deŋu ate ŋu woaɖe le takisi me le asixɔxɔ nyui si le market me nu, eye capital gains tax mele nunana la ŋu o ([IRS FAQ, Q34–Q35](https://www.irs.gov/individuals/international-taxpayers/frequently-asked-questions-on-virtual-currency-transactions)).
 
-<br/>
-
-## <img src="/content-images/checked-checkbox-svgrepo-com-7ea19022da.svg" width="28" height="28" className="inline-block align-middle mr-1 p-[2px]" alt="done icon"/> Nuku
-
-Miate ŋu:
-- Axɔ ZEC ne mieɖe miaƒe nunanalawo alo miaƒe balance afia o
-- Ana agbalẽwo si nunanalawo hia be woabia tax ƒe ɖeɖe
-- Adzra agbalẽwo siwo miaƒe akontablɔla kple audit wɔla ate ŋu akpɔ
+Gblɔ esia le wò donate page dzi, ale be nunalawo ate ŋu atia nu hafi woana nunana.
 
 <br/>
 
-## Dzɔdzɔƒewo
+## <img src="/content-images/icons8-cancel-7f786be3c1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="cancel icon"/> Vodada siwo nàdzɔ
 
-- [IRS: Nyabiase siwo wobia zi geɖe tso virtual currency ƒe gaɖoɖowo ŋu](https://www.irs.gov/individuals/international-taxpayers/frequently-asked-questions-on-virtual-currency-transactions) (Q34–Q37 wɔ habɔbɔwo ƒe nya)
+- Dzadzra nunanawo le dɔwɔla aɖe ƒe gakotoku me
+- Ɖe gaɖoƒe ƒe dzesi si ƒe nuwo ƒe ʋuʋuɖi le, alo gatrɔƒe ƒe deposit ƒe gaɖoƒe ƒe dzesi, fia abe wò nunana ƒe gaɖoƒe ƒe dzesi ene
+- De dollar ƒe asixɔxɔ le nyagblɔɖi la me
+- Ɖe asi le ƒe etɔ̃ me eye nèŋlɔ Form 8282 ɖe megbe
+- Do takisi ƒe ɖeɖe na nunalawo siwo meka wɔnɔ ƒe ŋkɔ o
+
+<br/>
+
+## <img src="/content-images/checked-checkbox-svgrepo-com-7ea19022da.svg" width="28" height="28" className="inline-block align-middle mr-1 p-[2px]" alt="done icon"/> Ƒometɔ
+
+Àte ŋu:
+- Xɔ ZEC ne mègblɔ wò nunalawo alo wò balance na dukɔ blibo o
+- Na nunalawo agbalẽwo siwo wo hia be woabia takisi ƒe ɖeɖe
+- Dzra agbalẽwo siwo wò akɔntabɔbɔla kple xexlẽla ate ŋu akpɔ ɖe wo ŋu
+
+<br/>
+
+## Gbɔgbɔtɔwo
+
+- [IRS: Biabia siwo wodzia gbesiagbe tso virtual currency gaɖoɖowo ŋu](https://www.irs.gov/individuals/international-taxpayers/frequently-asked-questions-on-virtual-currency-transactions) (Q34–Q37 le dɔmenyawo ŋu)
 - [IRS Notice 2014-21](https://www.irs.gov/pub/irs-drop/n-14-21.pdf)
-- [IRS Publication 1771: Dɔmenyonyo ƒe nunanawo, kpeɖodzi kple nyagblɔɖe](https://www.irs.gov/pub/irs-pdf/p1771.pdf)
-- [IRS Publication 526: Dɔmenyonyo ƒe nunanawo](https://www.irs.gov/pub/irs-pdf/p526.pdf)
-- [IRS Publication 561: Nunana ƒe nudzɔdzɔ ƒe asixɔxɔ ƒe ɖoɖo](https://www.irs.gov/pub/irs-pdf/p561.pdf)
-- [IRS Chief Counsel Advice 202302012: asixɔxɔ ɖoɖowo na crypto ƒe nunanawo](https://www.irs.gov/pub/irs-wd/202302012.pdf)
+- [IRS Publication 1771: Nunana na dɔmenyawo, kpekpeɖeŋu kple nyagblɔɖeɖe](https://www.irs.gov/pub/irs-pdf/p1771.pdf)
+- [IRS Publication 526: Nunana na dɔmenyawo](https://www.irs.gov/pub/irs-pdf/p526.pdf)
+- [IRS Publication 561: Nunana ƒe nu ƒe asixɔxɔ ƒe ƒoƒoɖeɖe](https://www.irs.gov/pub/irs-pdf/p561.pdf)
+- [IRS Chief Counsel Advice 202302012: Xexlẽkplɔla ƒe nyagblɔɖiwo na crypto nunanawo](https://www.irs.gov/pub/irs-wd/202302012.pdf)
 - [Form 8283](https://www.irs.gov/pub/irs-pdf/f8283.pdf) kple [Form 8282](https://www.irs.gov/pub/irs-pdf/f8282.pdf)
 
 <br/>
 
-## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="chain-links icon"/> Nu siwo tsɔ ɖe eŋu
+## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="chain-links icon"/> Nu siwo kplɔe ɖo
 
-- [Xɔ Nunanawo Le Ɣaɣla Me](/zcash-use-cases/receive-donations-privately) - susu ma ke na amewo
-- [Agbalẽwo ƒe dzadzra kple ɣaɣla ZEC](/zcash-use-cases/keeping-records-with-shielded-zec) - nya kpuiawo kple nukpɔsafuiwo na miaƒe agbalẽwo
-- [Nukpɔsafuiwo](/zcash-tech/viewing-keys) - nuxlẽm ko ƒe mɔ na akontablɔla alo audit wɔla
-- [Gaɖoɖowo ƒe Xexlẽdzikpɔɖeƒe](/zcash-tech/the-turnstile) - nu si ado go ne ZEC le ɣaɣla gaƒuƒoƒo me
+- [Xɔ Nunanawo ƒe Ɖoɖeɖe ɣaɣla me](/zcash-use-cases/receive-donations-privately) - susu ma ke na ame ɖekawo
+- [Agbalẽwo ƒe dzadzra kple ɣaɣla ƒe ZEC](/zcash-use-cases/keeping-records-with-shielded-zec) - nya kpuiewo kple nukpɔsafuiwo na wò agbalẽwo
+- [Nukpɔsafuiwo](/zcash-tech/viewing-keys) - nu ƒe kpɔkpɔ ko na akɔntabɔbɔla alo xexlẽla
+- [Gaɖoɖowo ƒe Xexlẽdzikpɔɖeƒe](/zcash-tech/the-turnstile) - nu si ava dze dukɔ blibo ƒe ŋkume ne ZEC doa tso ɣaɣla ƒe gaƒuƒoƒo me
 
 <br/>
 
-## Mɔfiame si kplɔe ɖo
+## Afɔ si gbɔna
 
-- [Wɔ Dukɔ ƒe Gadzraɖoƒe Ɣaɣla](/zcash-use-cases/private-community-treasury)
+- [Wɔ Nuto ƒe Ɣaɣla Gadzraɖoƒe](/zcash-use-cases/private-community-treasury)
 
 <br/>
