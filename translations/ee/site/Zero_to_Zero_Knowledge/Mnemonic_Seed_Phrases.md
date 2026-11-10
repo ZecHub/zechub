@@ -1,105 +1,105 @@
-# Zero to Zero Knowledge: Nuku ƒe Nyagbe Siwo Wotsɔna Ŋkuɖoa Nui
+# Zero to Zero Knowledge: Nunya ƒe Gadzraɖoɖi Nyawo
 
 **Series:** Zero to Zero Knowledge
 
-Mnemonic nuku nyagbewo ɖo kpe cryptocurrency ƒe akpa vevitɔwo dometɔ ɖeka dzi - **ɖokuidzikpɔkpɔ**. 
-Egbea míesrɔ̃a alesi wowɔa nuku ƒe nyagbe aɖe eye wozãnɛ le gakotokuwo me.
+Nunya ƒe gadzraɖoɖi nyawo [Mnemonic seed phrases] doa alɔ na cryptocurrency ƒe akpa vevi aɖe — **ɖokui ƒe asikplɔwɔwɔ [self-custody]**.  
+Egbe míesrɔ ale si wogbea gadzraɖoɖi nya ɖe eme eye wozae le gakotoku [wallet]wo me.
 
 ---
 
-## Nukae nye Nuku ƒe Nyagbe Siwo Wotsɔna Ŋkuɖoa Nui?
+## Nukae Nye Nunya ƒe Gadzraɖoɖi Nyawo?
 
-Woɖea hayahaya ƒe nyagbewo gɔme to **BIP-39** ƒe nɔnɔmetata si nye hayahaya ƒe nyagbe ƒomevi si wozãna wu egbea dzi.
+Wode gagbɔɖoɖi nyawo [Recovery phrases] ƒe gɔme le **BIP-39** ƒe ɖoɖowɔwɔ nu, si nye gagbɔɖoɖi nya ƒome si wozã wu egbe.
 
-Nyagbe siwo woatsɔ agbugbɔ axɔe ƒe wɔwɔ dzea egɔme kple **randomness** wɔwɔ. Entropy geɖe wu fia be dedienɔnɔ si lolo wu. Wobua entropy ƒe **128 bits** be esɔ gbɔ na ezãla akpa gãtɔ.
+Gagbɔɖoɖi nyawo ƒe wɔwɔ dzea egɔme kple **dzodzro [randomness]** ƒe dzidzenu. Entropy geɖe fia dedienyenye geɖe. Wobu be **128 bits** ƒe entropy de na zãlawo ƒe akpa gãtɔ.
 
-![Nuku ƒe nyagbe ƒe nukpɔsusu](/content-images/FooM3qWWACgrwzn-f222c4081f.webp)
+![Seed phrase concept](/content-images/FooM3qWWACgrwzn-f222c4081f.webp)
 
-Le entropy gbãtɔ ƒe didime nu la, nyagbɔgblɔ si woatsɔ agbugbɔ axɔe la didi **nya 12 va ɖo 24**.
-
----
-
-## Afɔɖeɖe ɖesiaɖe: Alesi Wowɔa Nuku ƒe Nyagbe si me Nya 12 Le
-
-### 1. Dzra Entropy
-Míedzea egɔme kple **128 bits** ƒe entropy wɔwɔ.
-
-### 2. Tsɔ Checksum kpee
-Míewɔa hash na entropy la to **SHA256** zazã me. Hash sia ƒe akpa ʋee gbãtɔwo va zua checksum. 
-Esia naa asibidɛ tɔxɛ aɖe mí na míaƒe entropy.
-
-![Entropy + Checksum ƒe nɔnɔmetata](/content-images/FooNoOEXgAAu-g6-613238fa7e.webp)
-
-### 3. Mae ɖe akpa 11-bit me
-Woma bit 132 (entropy 128 + checksum 4) katã ɖe akpa siwo nye bit 11 me.
-
-### 4. Anyigbatata yi Nyawo ƒe Ŋkɔwo ƒe Ŋkɔwo dzi
-Wotrɔa bit 11 ƒe ɖoɖo ɖesiaɖe wòzua xexlẽdzesi ewolia (0-2047). 
-BIP-39 nyawo ƒe xexlẽdzesiwo me **nya 2048 pɛpɛpɛ** (Eŋlisigbe, Spaingbe, Chinagbe, kple bubuawo).
-
-Wozãa xexlẽdzesi siawo tsɔ dia nya si sɔ ɖe enu le nyawo ƒe xexlẽdzesiwo me.
-
-![Nyawo ƒe nɔnɔmetata ƒe kpɔɖeŋu](/content-images/FooN9rfXEBoQuU2-d11331fc0a.webp)
-
-**Emetsonu:** Nya 12 gbugbɔgawɔ ƒe nyagbɔgblɔ si le dedie, si amegbetɔ ate ŋu axlẽ la le mía si fifia!
+Le entropy gɔmedzeƒe ƒe didime nu la, gagbɔɖoɖi nya la anɔ nya **12 va se ɖe 24** ƒe didime.
 
 ---
 
-## Tso Gbugbɔgaxɔ ƒe Nyagbe -> Nuku -> Fexexe ƒe Adrɛswo
+## Ɖoɖoɖo Kple Ɖoɖoɖo: Ale Si Wogbea Nya 12 ƒe Gadzraɖoɖi Nya
 
-Ne gakotoku zã nyagbɔgblɔ si nye be woagbugbɔ ga axɔ la, ate ŋu awɔ safuiwo atsɔ awɔ fexexe ƒe adrɛswo kple gakotoku ƒe akɔntabubu vovovowo.
+### 1. Gbe Entropy
+Míedzea egɔme kple entropy **128 bits** ƒe gbegbe.
 
-Safui siwo wowɔ la nye **deterministic** - input ɖeka ma ke wɔa output ɖeka ɣesiaɣi.
+### 2. Tsɔ Checksum Kpee
+Míetsɔ **SHA256** hea entropy la. Hash sia ƒe bits gbãtɔ aɖewo zu checksum la.  
+Esia na dzesi si nye tɔxɛ na míawo ƒe entropy.
 
-### Nukuwo Dzidzime
-Woɖe gakotoku ƒe nukua tso ŋkuɖodzinyagbe me to **Key Derivation Function (KDF)** zazã me:
+![Entropy + Checksum diagram](/content-images/FooNoOEXgAAu-g6-613238fa7e.webp)
 
-- Le **Bitcoin** me la: PBKDF2 
-- Le **Zcash** me la: Blake2b-256/512
+### 3. Ma Ƒe Akpa 11-bitwo
+Bits 132 blibo la (entropy 128 kple checksum 4) mae ɖe akpa 11 bits ƒe akpa-akpa me.
 
-Esia naa **64-byte (512-bit)** nuku.
+### 4. Ɖe Nya Ƒe Ƒomea Ɖo
+11-bit ƒe ƒoƒo siawo dometɔ ɖe sia ɖe trɔna zu decimal xexlẽme (0-2047).  
+BIP-39 ƒe nya ƒomeawo me nya **2048** koe le tututu (English, Spanish, Chinese, kple bubuawo).
 
-![Nuku be woabi ɖe safuiwo me](/content-images/FooOuumXEAgcBm1-dc7c66b84a.webp)
+Wozã xexlẽme siawo be woakpɔ nya si sɔ kple wo le nya ƒomea me.
 
-### Aƒetɔ Safuiwo
-Woma nukua ɖe ɖoɖo eve siwo ƒe didime nye byte 32 me:
-- **Aƒetɔ Gazazã ƒe Safui**
-- **Aƒetɔ Kɔsɔkɔsɔ ƒe Sedede**
+![Word mapping example](/content-images/FooN9rfXEBoQuU2-d11331fc0a.webp)
 
-Wozãa esiawo le **Hierarchical Deterministic (HD) Walets** me hena ɖeviwo ƒe safui ɖeɖe.
+**Nɔnɔmetata:** Fifia míexɔ gagbɔɖoɖi nya 12 si wɔ dzodzro eye amegbetɔ ate ŋu axlẽ!
 
 ---
 
-## Zcash ƒe Nɔnɔme Tɔxɛwo (ZIP-32) .
+## Tso Gagbɔɖoɖi Nya Me -> Seed -> Fexexe ƒe Gaɖoƒe Ƒe Dzesiawo
 
-Le Zcash me la, woateŋu atsɔ **kpɔ ŋusẽ** alo **zazã ƒe ŋusẽ** ade asi na ame bubuwo le wo ɖokui si na ati suewo evɔ womagblẽ nu le nuku gã la ŋu o.
+Kple gagbɔɖoɖi nya la, gakotoku atee agbe safuiwo be woawɔ fexexe [payment] ƒe gaɖoƒe ƒe dzesiwo [addresses] kple gakotoku ƒe akonta vovovowo.
 
-**ZIP-32** ɖe hierarchical deterministic key generation standard si wotrɔ asi le na Zcash ƒe adzamenyawo ƒe nɔnɔmewo gɔme.
+Safui siwo wogbe la nye **deterministic** — gbedodonu ma ke ɣeaɣi kpɔa dzenu ma ke.
 
-Tso **Gazazã ƒe Safui si Wokeke** me la, míekpɔa:
+### Seed Ƒe Gbebetata
+Wokpɔ gakotoku ƒe seed la tso nunya ƒe nya la me kple **Key Derivation Function (KDF)**:
+
+- Le **Bitcoin** me: PBKDF2  
+- Le **Zcash** me: Blake2b-256/512
+
+Esia doa **64-byte (512-bit)** ƒe seed.
+
+![Seed to master keys](/content-images/FooOuumXEAgcBm1-dc7c66b84a.webp)
+
+### Afi Ƒe Safuiwo
+Womaa seed la ɖe 32-byte ƒe ƒoƒo eve me:
+- **Afi Ƒe Gazazãsafui [Master Spending Key]**
+- **Afi Ƒe Ɖoɖonu ƒe Kode [Master Chain Code]**
+
+Wozã esiawo le **Hierarchical Deterministic (HD) Wallets** me be woakpɔ vi safuiwo.
+
+---
+
+## Zcash Ƒe Tɔxɛwo (ZIP-32)
+
+Le Zcash me la, woate ŋu ade **nukpɔsafui [viewing] ƒe mɔɖeɖe** alo **gazazãsafui [spending] ƒe mɔɖeɖe** ɖe asi ɖeɖe na ati ƒe akpa suewo me tɔwo, eye esia magblẽ afi ƒe seed la o.
+
+**ZIP-32** ɖe hierarchical deterministic safui ƒe gbebetata ƒe ɖoɖowɔwɔ si wotrɔ be wanasɔ kple Zcash ƒe ɣaɣla [privacy] ƒe tɔxɛwo gɔme.
+
+Tso **Expanded Spending Key** me la, míekpɔ:
 - Full Viewing Key
 - Incoming Viewing Key
-- Fexexe ƒe adrɛswo ƒe ɖoɖo
+- Fexexe ƒe gaɖoƒe ƒe dzesiwo ƒe ƒoƒo
 
-Derivation mɔnu vovovowo wɔa gotagome adrɛs siwo sɔ na nunana na amedɔdɔwo to shielded pools (Sapling & Orchard).
+Safui ƒe gbebetata ƒome vovovowo wɔa gota ƒe gaɖoƒe ƒe dzesiwo siwo dze be woana na dɔlilawo le ɣaɣla [shielded] ƒe gaƒuƒoƒo [pools]wo katã me (Sapling kple Orchard).
 
-![Zcash safui ƒe dzɔtsoƒe ƒe ɖoɖo](/content-images/FooPKd4XEBUQhJ6-af133c01bf.webp)
+![Zcash key derivation hierarchy](/content-images/FooPKd4XEBUQhJ6-af133c01bf.webp)
 
-Zcash hã doa alɔ **adrɛs ememetɔwo** na gakotoku ƒe dɔwɔwɔwo abe Auto-Shielding ene.
-
----
-
-## Nunɔamesiwo
-
-- [ZIP-32: Gakotoku Siwo Woɖo Ðe Ðoɖo Nu si Woɖo Ðe Ðoɖo Nu](https://zips.z.cash/zip-0032)  
-- [Zcash ƒe Ðoɖowɔɖi ƒe Nyatakaka (NU5) .](https://zips.z.cash/protocol/protocol.pdf)  
-- [Gakotoku siwo wokpɔ ta na le gɔmedzedzea me ƒe wɔwɔfia](https://zechub.wiki)
+Zcash hã dea **emexɔ ƒe gaɖoƒe ƒe dzesiwo** alɔ na gakotoku ƒe dɔwɔwɔwo abe Auto-Shielding ene.
 
 ---
 
-**Ka gbãtɔ si ZecHub (@ZecHub) ŋlɔ** 
+## Nuƒoƒowo
+
+- [ZIP-32: Ɣaɣla ƒe Hierarchical Deterministic Gakotokuwo](https://zips.z.cash/zip-0032)  
+- [Zcash Protocol Ƒe Ɖoɖowɔwɔ (NU5)](https://zips.z.cash/protocol/protocol.pdf)  
+- [Ɣaɣla-le-gɔmedze me gakotokuwo ƒe nukpɔkpɔ](https://zechub.wiki)
+
+---
+
+**Ɖeɖefɔ ƒe Dzetugbe Tso ZecHub (@ZecHub) Gbɔ**  
 https://x.com/ZecHub/status/1624125037945946145
 
 ---
 
-*Woƒo axa sia nu ƒu tso Zero to Zero Knowledge ƒe ka gbãtɔ me na ZecHub wiki.*
+*Wotsɔ ɖeɖefɔ ƒe Zero to Zero Knowledge dzetugbe la ƒe nya wɔ axa sia na ZecHub wiki la.*

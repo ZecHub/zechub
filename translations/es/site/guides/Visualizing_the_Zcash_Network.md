@@ -3,9 +3,9 @@
 </a>
 
 
-#  Visualización de la red de Zcash
+#  Visualización de la red [Network] Zcash
 
-La siguiente es una guía sobre cómo ejecutar el Crawler de Ziggurat 3.0 para Zcash, así como los programas asociados Crunchy y P2P-Viz en Ubuntu 22.04 para recopilar y visualizar información de la red de Zcash.  
+La siguiente es una guía sobre cómo ejecutar el Crawler Ziggurat 3.0 para Zcash, así como los programas asociados Crunchy y P2P-Viz en Ubuntu 22.04, para recopilar y visualizar información de la red Zcash.  
 El video enlazado a continuación sigue el mismo proceso.
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
@@ -26,13 +26,13 @@ Rust -> [https://rustup.rs/](https://rustup.rs/)
 
 ## Opcional:
 jq -> [https://jqlang.github.io/jq/download/](https://jqlang.github.io/jq/download/)
-(para mostrar información json en la terminal)
+(Para mostrar información json en la terminal)
 
 curl -> [https://everything.curl.dev/install/linux.html](https://everything.curl.dev/install/linux.html)
-(para consultar el RPC del rastreador)
+(Para consultar el RPC del crawler)
 
 npm (con nvm) -> [https://medium.com/@iam_vinojan/how-to-install-node-js-and-npm-using-node-version-manager-nvm-143165b16ce1](https://medium.com/@iam_vinojan/how-to-install-node-js-and-npm-using-node-version-manager-nvm-143165b16ce1)
-(para mostrar P2P-Viz en el navegador)
+(Para mostrar P2P-Viz en el navegador)
 
 ----------------
 
@@ -40,7 +40,7 @@ npm (con nvm) -> [https://medium.com/@iam_vinojan/how-to-install-node-js-and-npm
 ----------------
 Repositorio de Ziggurat 3.0 | [https://github.com/runziggurat](https://github.com/runziggurat)
 
-Repositorio del Crawler | [https://github.com/runziggurat/zcash.git](https://github.com/runziggurat/zcash.git)
+Repositorio del crawler | [https://github.com/runziggurat/zcash.git](https://github.com/runziggurat/zcash.git)
 
 Repositorio de Crunchy | [https://github.com/runziggurat/crunchy.git](https://github.com/runziggurat/crunchy.git)
 
@@ -48,7 +48,7 @@ Repositorio de P2P-Viz | [https://github.com/runziggurat/p2p-viz.git](https://gi
 
 ----------------
 
-Comienza aplicando las actualizaciones normales.
+Comienza aplicando las actualizaciones habituales.
 
 >  Ejecuta los siguientes comandos:
 ```bash
@@ -58,9 +58,9 @@ sudo apt upgrade
 
 ----------------
 
-## Crawler de la red de Zcash
+## Crawler de red Zcash
 
-El Crawler de Zcash se encuentra dentro de una carpeta llamada 'zcash', por lo que puede ser recomendable crear un nuevo directorio antes de clonar el crawler (repositorio runziggurat/zcash).
+El Crawler de Zcash se encuentra dentro de una carpeta llamada «zcash», por lo que puede ser aconsejable crear un nuevo directorio antes de clonar el crawler (repositorio runziggurat/zcash).
 
 
 >  Desde el directorio /Home, ejecuta los siguientes comandos:
@@ -77,7 +77,7 @@ Navega en el navegador a
 O abre el readme en 
 '/runziggurat/zcash/src/tools/crawler/README.md'
 
-Esta página contiene información sobre el uso específico. 
+Esta página contiene información sobre usos específicos. 
 
 ----------------
 
@@ -105,13 +105,13 @@ OPTIONS:
             Print version information
 ```
 
-`--seed-addrs` \ `--dns-seed` es el único argumento requerido y necesita al menos una dirección especificada para poder ejecutarse.
+`--seed-addrs` \ `--dns-seed` es el único argumento obligatorio y necesita al menos una dirección especificada para ejecutarse.
 
 
 
 ----------------
 
-El comando 'cargo run --release --features crawler --bin crawler -- --help' es el comando literal de ejecución e imprimirá el menú de ayuda mostrado.
+El comando «cargo run --release --features crawler --bin crawler -- --help» es el comando literal de ejecución e imprimirá el menú de ayuda mostrado.
 
 
 >  Ejecuta el comando
@@ -120,11 +120,11 @@ cargo run --release --features crawler --bin crawler -- --help
 ```
 
 
-Esto compilará el programa y garantizará que todo esté funcionando correctamente.
+Esto compilará el programa y garantizará que todo funcione correctamente.
 
-Para ejecutar el Crawler, es necesario añadir una bandera `--seed-addrs` al comando de inicio, que contenga al menos una dirección IP válida de un nodo de Zcash. Se debe permitir que el crawler se ejecute durante un tiempo razonable para obtener un resultado preciso. Algunas direcciones IP de nodos de ejemplo se pueden encontrar en [https://mainnet.zcashexplorer.app/nodes](https://mainnet.zcashexplorer.app/nodes).
+Para ejecutar el Crawler, es necesario añadir una bandera «--seed-addrs» al comando de inicio, que contenga al menos una dirección IP de nodo [node] Zcash válida. Debe permitirse que el crawler se ejecute durante un período razonable para obtener un resultado preciso. Algunas direcciones IP de nodo de ejemplo se pueden encontrar en  [https://mainnet.zcashexplorer.app/nodes](https://mainnet.zcashexplorer.app/nodes).
 
-Para obtener información del Crawler mientras se está ejecutando, es necesario añadir la bandera `--rpc-addr` al comando de inicio. Esto no es obligatorio para ejecutar únicamente el crawler, pero de lo contrario será necesario detenerlo (`ctrl+c` o `SIGKILL`) para mostrar cualquier información.
+Para obtener información del Crawler mientras se está ejecutando, es necesario añadir la bandera «--rpc-addr» al comando de inicio. Esto no es necesario para ejecutar solo el crawler, pero de lo contrario será necesario detenerlo (ctrl+c o SIGKILL) para mostrar cualquier información.
 
 
 >  Ejecuta el comando
@@ -132,9 +132,9 @@ Para obtener información del Crawler mientras se está ejecutando, es necesario
 cargo run --release --features crawler --bin crawler -- --seed-addrs 157.245.172.190:8233 194.135.81.61:8233 35.233.224.178:8233 --rpc-addr 127.0.0.1:54321
 ```
 
-El crawler comenzará a comunicarse con la red (por defecto cada 20 segundos) y a recopilar datos de la red. 
-La información del Crawler se puede mostrar usando curl para consultar el nodo (esto requiere jq para mostrar esa información). 
-La dirección RPC del Crawler en este ejemplo está configurada como '127.0.0.1:54321'
+El crawler comenzará a comunicarse con la red (por defecto, cada 20 segundos) y a recopilar datos de red. 
+La información del Crawler puede mostrarse mediante curl para consultar el nodo (esto requiere jq para mostrar esa información). 
+La dirección RPC del Crawler en este ejemplo está configurada como «127.0.0.1:54321».
 
 
 >  En otra terminal, ejecuta el comando
@@ -142,13 +142,13 @@ La dirección RPC del Crawler en este ejemplo está configurada como '127.0.0.1:
 curl --data-binary '{"jsonrpc": "2.0", "id":0, "method": "getmetrics", "params": [] }' -H 'content-type: application/json' http://127.0.0.1:54321/ | jq .result.protocol_versions
 ```
 
-Esto mostrará los datos actuales recopilados de '.protocol_version' contenidos dentro del campo '.result'. El campo '.result' es muy grande, por lo que resulta útil invocar porciones específicas del mismo. Otros tipos de datos útiles son '.num_known_nodes', '.num_good_nodes', '.user_agents', etc. Consulta la sección de métricas [Aquí](https://github.com/runziggurat/zcash/tree/main/src/tools/crawler#metrics)
+Esto mostrará los datos «.protocol_version» recopilados actualmente y contenidos dentro del campo «.result». El campo «.result» es muy grande, por lo que es útil llamar a partes específicas de este en su lugar. Otros tipos de datos útiles son «.num_known_nodes», «.num_good_nodes», «.user_agents», etc. Consulta la sección de métricas [Aquí](https://github.com/runziggurat/zcash/tree/main/src/tools/crawler#metrics)
 
 ----------------
 
 
 ----------------
-Para ejecutar Crunchy y P2P-Viz, es necesario canalizar `.result` a un archivo `.json`. 
+Para ejecutar Crunchy y P2P-Viz, es necesario canalizar «.result» a un archivo .json. 
 
 
 >  Ejecuta el comando
@@ -156,33 +156,33 @@ Para ejecutar Crunchy y P2P-Viz, es necesario canalizar `.result` a un archivo `
 curl --data-binary '{"jsonrpc": "2.0", "id":0, "method": "getmetrics", "params": [] }' -H 'content-type: application/json' http://127.0.0.1:54321/ > latest.json
 ```
 
-Esto creará un archivo 'latest.json' en el directorio actual. Este archivo 'latest.json' se utilizará con Crunchy. 
+Esto creará un archivo «latest.json» en el directorio actual. Este archivo «latest.json» se utilizará con Crunchy. 
 
-En este punto, el Crawler puede detenerse con 'ctrl+c' si no se requieren más datos. El Crawler mostrará en la terminal un informe con información útil.
+En este punto, el Crawler puede detenerse con «ctrl+c» si no se requieren más datos. El Crawler mostrará en la terminal un informe con información útil.
 
 
 ----------------
 
 ## Crunchy
 
-Crunchy es necesario para agregar el archivo json de salida para su uso con P2P-Viz.
+Crunchy es necesario para agregar el archivo json de salida para usarlo con P2P-Viz.
 
 
-Para compilar Crunchy, navega a tu carpeta '/runziggurat' 
+Para compilar Crunchy, navega a tu carpeta «/runziggurat». 
 
 >  Para clonar el repositorio de Crunchy, ejecuta los siguientes comandos
 ```bash
 git clone https://github.com/runziggurat/crunchy.git
 cd crunchy
 ```
-Copia y pega el archivo 'latest.json' en la carpeta 'crunchy/testdata/'.
+Copia y pega el archivo «latest.json» en la carpeta «crunchy/testdata/».
 
 >  Ejecuta los siguientes comandos 
 ```bash
 cargo run --release -- -i testdata/latest.json -o testdata/state.json -g testdata/geoip-cache.json -f Zcash
 ```
 
-Esto creará un archivo 'state.json' filtrado por nodos de Zcash en la carpeta 'crunchy/testdata/' para ser utilizado con P2P-Viz.
+Esto creará un archivo «state.json» filtrado por nodo Zcash en la carpeta «crunchy/testdata/» para usarlo con P2P-Viz.
 
 ----------------
 
@@ -204,7 +204,7 @@ Cierra y reinicia la terminal.
 nvm install --lts
 ```
 
-navega a tu carpeta '/runziggurat'
+Navega a tu carpeta «/runziggurat».
 
 
 >  Para clonar el repositorio de P2P-Viz e iniciarlo, ejecuta los siguientes comandos
@@ -220,18 +220,18 @@ npm run start http
 
 Abre un navegador en [http://localhost:3000](http://localhost:3000). 
 
-Selecciona 'Geolocation' y luego selecciona 'Choose state file'.
+Selecciona «Geolocation» y luego selecciona «Choose state file».
 
-En la ventana emergente del explorador de archivos, selecciona el archivo 'state.json'. 
+En la ventana emergente del explorador de archivos, selecciona el archivo «state.json». 
 
-El mapa mundial del explorador de nodos se llenará con los datos del archivo. Consulta el readme [Aquí](https://github.com/runziggurat/p2p-viz#build-and-run-the-app) para más detalles sobre opciones de uso y configuración.
+El mapa mundial del explorador de nodos se completará con los datos del archivo. Consulta el readme [Aquí](https://github.com/runziggurat/p2p-viz#build-and-run-the-app) para obtener más detalles sobre las opciones de uso y la configuración.
 
 
 ----------------
 ¡CONSEJOS! 
 
-Puedes configurar el Crawler para un rastreo temporizado simplemente con el comando 'timeout', que emitirá una orden de finalización específica después de un tiempo establecido. Ejecuta 'timeout --help' para más información.
-El siguiente comando iniciará el crawler y también lo detendrá automáticamente después de 50 minutos.
+Puedes configurar el Crawler para realizar un rastreo temporizado simplemente con el comando «timeout», que emitirá un comando de finalización específico tras un período establecido. Ejecuta «timeout --help» para obtener más información.
+El siguiente comando iniciará y también detendrá automáticamente el crawler después de 50 minutos.
 
 >  Ejecuta el comando
 ```bash
@@ -241,9 +241,9 @@ timeout --signal=2 50m cargo run --release --features crawler --bin crawler -- -
 ----------------
 ¡CONSEJOS! 
 
-Se puede invocar y escribir `latest.json` directamente en `/testdata` para no tener que copiarlo y pegarlo manualmente.
+Se puede llamar a «latest.json» y escribirlo en «/testdata» para no tener que copiarlo y pegarlo manualmente.
 
 ----------------
 ¡CONSEJOS! 
 
-La información de direcciones IP puede recopilarse a partir de la salida y luego usarse para volver a sembrar el Crawler al inicio (`--seed-addrs`). ¡Esto reducirá el tiempo necesario para realizar un rastreo completo!
+La información de direcciones IP puede recopilarse de la salida y luego utilizarse para volver a sembrar el Crawler al inicio (--seed-addrs). ¡Esto reducirá el tiempo necesario para realizar un rastreo completo!

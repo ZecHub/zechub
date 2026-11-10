@@ -2,27 +2,27 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Akwụkwọ Ozi Ekpuchiri
+# Akwụkwọ Akụkọ nke e chebere echebe [Shielded Newsletter]
 
-> Zipu akwụkwọ ndetu akara na ndepụta adreesị echekwara dị ka ndetu Zcash, site na iji Zallet. Ndepụta onye nnata na akwụkwọ ndetu ahụ anaghị anọchi anya adreesị doro anya.
+> Jiri Zallet ziga note markdown ndepụta Adreesị akpa ego nke e chebere echebe [shielded addresses] dị ka memo Zcash. Ndepụta ndị nnata na note ahụ anaghị anọ na Adreesị akpa ego Oha [transparent addresses].
 
-Akwụkwọ ozi nchekwa bụ usoro azụmahịa echekwara. Mbupụ ọ bụla na-akwụ obere ego nye onye nnata Unified Address ma na-ebu akụkụ ọzọ nke akwụkwọ ozi ahụ n'ọhịa memo. Zallet na-ewulite ma na-eziga azụmahịa ndị ahụ. Zebra na Zaino na-enye naanị data yinye.
+Akwụkwọ Akụkọ nke e chebere echebe bụ usoro Azụmahia nke e chebere echebe [shielded transactions]. Mpụta ọ bụla na-akwụ obere ego nye Adreesị Ejikọrọ ọnụ nke onye nnata ma buru akụkụ ọzọ nke note ahụ n’oghere memo. Zallet na-ewu ma na-eziga Azụmahia ndị ahụ. Zebra na Zaino na-enye naanị data chain.
 
-Akwụkwọ edemede ndị ahụ dị ndụ na [`site/tutorials/shieldedNewsletter`](https://github.com/ZecHub/zechub/tree/main/site/tutorials/shieldedNewsletter). E dere ha maka Zallet mbụ ma ha adịghị mma ịgba ọsọ dịka ọ dị megide mwepụta dị ugbu a. Peeji a bụ usoro emelitere. A lere ya anya na Zallet `v0.1.0-beta.3` na akwụkwọ Zallet dịka nke 7 Ọktoba 2026.
+Script ndị ahụ dị na [`site/tutorials/shieldedNewsletter`](https://github.com/ZecHub/zechub/tree/main/site/tutorials/shieldedNewsletter). Edere ha maka Zallet mbụ, ọ dịghịkwa mma ịgba ha otu ha dị megide mwepụta ugbu a. Ibe a bụ usoro emelitere. Enyochara ya megide akwụkwọ Zallet `v0.1.0-beta.3` na Zallet dịka ọ dị na 7 Ọktoba 2026.
 
 ## Ihe ị chọrọ
 
-- Zebra emekọrịtara nke ọma, e jikwa RPC jikọọ na localhost.
-- Zaino jikọtara ọnụ megide ebe Zebra ahụ.
-- Zallet `v0.1.0-beta.3` ma ọ bụ nke ọhụrụ, ihe e ji arụ obere akpa ego, nke nwere njikọ RPC ya na localhost. Ndepụta akwụkwọ ahụ `z_sendmany` dịka e tinyere ya n'ọrụ. A na-ajụ ụgwọ ọnụọgụgụ: ọ bụrụ na ị gafere `fee`, ọ ghaghị ịbụ `null`, n'ihi na Zallet na-eji ụgwọ ZIP 317 mgbe niile.
-- Akaụntụ egosiri nke Unified Address nwere ike imefu ego echekwara.
-- Adreesị Ndị Nnata Jikọtara. Ihe e dere na adreesị doro anya bụ njehie.
+- Zebra emekọrịtala kpamkpam, RPC ejikọkwara na localhost.
+- Zaino emekọrịtara megide node Zebra ahụ.
+- Zallet `v0.1.0-beta.3` ma ọ bụ nke ka ọhụrụ, wallet build, RPC ya ejikọkwara na localhost. Akwụkwọ ahụ depụtara `z_sendmany` dịka nke etinyerela n’ọrụ. A na-ajụ ugwo [fee] ọnụọgụ: ọ bụrụ na ị gafee `fee`, ọ ga-abụrịrị `null`, n’ihi na Zallet na-eji ugwo ZIP 317 mgbe niile.
+- Akaụntụ nwere ego nke Adreesị Ejikọrọ ọnụ ya nwere ike imefu ego nke e chebere echebe.
+- Adreesị Ejikọrọ ọnụ nke ndị nnata. memo dị na Adreesị akpa ego Oha bụ njehie.
 
-Etinyela adreesị ego ma ọ bụ kuki n'ime wiki ma ọ bụ n'ime edemede e tinyere n'ọrụ `txBuilderFromFile.sh` nwere Unified Address e tinyere koodu ya. Dochie ya n'ógbè gị ma emekwala ya.
+Etinyela Adreesị akpa ego nwere ego ma ọ bụ cookie na wiki ma ọ bụ na script a tinyere na commit. `txBuilderFromFile.sh` ugbu a nwere Adreesị Ejikọrọ ọnụ etinyere n’ime ya kpọmkwem. Dochie ya n’ime mpaghara gị, etinyekwala ya na commit.
 
 ## Hazie Zallet
 
-Mepụta nhazi site na iji Zallet ị na-agba, wee tụọ ya na Zebra na Zaino. Ihe atụ dị na nkuzi ochie ahụ na-eji `as_of_version = "0.0.0"` na ụzọ obibi nkeonwe. Were faịlụ ahụ dị ka foto nta, ọ bụghị ihe nlereanya.
+Mepụta config site na Zallet ị na-agba, emesịa tụọ ya aka na Zebra na Zaino. Ihe atụ dị na tutorial ochie na-eji `as_of_version = "0.0.0"` na ụzọ home nke onwe. Were faịlụ ahụ dị ka snapshot, ọ bụghị template.
 
 ```bash
 zallet init
@@ -30,22 +30,22 @@ zallet -c ~/.zallet/zallet.toml start
 zallet -c ~/.zallet/zallet.toml rpc help
 ```
 
-`rpc help` ga-edepụtarịrị `z_sendmany`, `z_getoperationstatus`, na `z_getoperationresult`. Jikọọ RPC na `127.0.0.1` naanị.
+`rpc help` ga-edepụtarịrị `z_sendmany`, `z_getoperationstatus`, na `z_getoperationresult`. Jikọọ RPC naanị na `127.0.0.1`.
 
 ## Ndepụta ndị nnata
 
-Otu Unified Address Ọnụ n'otu ahịrị, enweghị nhota okwu, enweghị ahịrị efu. Ederede ahụ na-agụ `daoAddresses.md`. Akwụkwọ ochie ahụ kwuru `daoAddress.md`. Faịlụ ahụ adịghị na repo ahụ, aha ya adabaghịkwa.
+Otu Adreesị Ejikọrọ ọnụ n’ahịrị ọ bụla, enweghị quote, enweghị ahịrị tọgbọ chakoo. Script ahụ na-agụ `daoAddresses.md`. readme ochie kwuru `daoAddress.md`. Faịlụ ahụ adịghị na repo, aha ndị ahụ adịghịkwa dakọrịta.
 
 ```text
 u1...
 u1...
 ```
 
-## Zipu otu ozi ederede
+## Ziga otu memo
 
-`z_sendmany` ọ bụ ihe na-adịghị agbanwe agbanwe. Ọ na-eweghachi njirimara ọrụ. Ntụle `z_getoperationstatus` ruo mgbe ọnọdụ ahụ dị `success` ma ọ bụ njehie. Ụra nke sekọnd 5 edobere, nke bụ ihe edemede ahụ na-eme, na-efunahụ nsonaazụ ya mgbe nrụpụta ahụ were ogologo oge. `z_getoperationresult` na-eri ọrụ ahụ, yabụ akpọla ya ruo mgbe ọnọdụ ahụ ga-abụ njedebe.
+`z_sendmany` anaghị arụ ọrụ ozugbo. Ọ na-eweghachi id arụmọrụ. Na-enyocha `z_getoperationstatus` ruo mgbe ọkwa ahụ ga-abụ `success` ma ọ bụ njehie. Ihi ụra sekọnd 5 nke a kara aka, nke bụ ihe script ahụ na-eme, na-atụfu nsonaazụ mgbe iwu ahụ na-ewe ogologo oge. `z_getoperationresult` na-eri arụmọrụ ahụ, ya mere akpọla ya ruo mgbe ọkwa ahụ ga-adị n’ikpeazụ.
 
-A naghị akwụ ụgwọ. Zallet na-agbakọ ZIP 317. Agafela nọmba.
+Ewepụla ugwo. Zallet na-agbakọ ZIP 317. Agafela ọnụọgụ.
 
 ```bash
 MEMO_HEX=$(printf '%s' "$NOTE" | xxd -p -c 9999)
@@ -54,29 +54,29 @@ zallet -c ~/.zallet/zallet.toml rpc z_sendmany \
   "[{\"address\":\"$TO_UA\",\"amount\":0.0001,\"memo\":\"$MEMO_HEX\"}]"
 ```
 
-Ebe ndetu ahụ bụ hex nkịtị, oke kachasị bụ 512 bytes. `ascii2hex` na-agbanwe naanị ASCII. Ndetu nwere mkpụrụedemede na-abụghị ASCII agaghị arụ ọrụ nke ọma. `xxd` ma ọ bụ `python3 -c 'import sys; sys.stdout.write(sys.stdin.buffer.read().hex())'` na-eji UTF-8 arụ ọrụ.
+Ogige memo bụ hex raw, byte 512 kachasị. `ascii2hex` na-edepụta naanị ASCII. note nwere mkpụrụedemede ọ bụla na-abụghị ASCII ga-ada. `xxd` ma ọ bụ `python3 -c 'import sys; sys.stdout.write(sys.stdin.buffer.read().hex())'` na-ejikwa UTF-8.
 
-Iwu nzuzo na-adabere na `FullPrivacy`. Nke ahụ bụ ndabara ziri ezi maka onye nnata echekwara. Agafeela `AllowFullyTransparent`.
+Ndabara iwu Nzuzo [Privacy policy] bụ `FullPrivacy`. Nke ahụ bụ ndabara kwesịrị ekwesị maka onye nnata nke e chebere echebe. Agafela `AllowFullyTransparent`.
 
-## Mmejọ ederede
+## Nrụrụ script
 
-Ndị a dị n'osisi ahụ dịka ọ dị na 8 Ọktoba 2026. Agbakwala ọsọ `shieldNewsletter.sh` ruo mgbe ha ga-edozi.
+Ndị a dị na tree dịka ọ dị na 8 Ọktoba 2026. Agbala `shieldNewsletter.sh` ruo mgbe edozi ha.
 
-- `[[ bytesInFile -lt 512 ]]` na-efu efu `$`. Alaka otu ihe ncheta anaghị agba ọsọ.
-- Mkpọchi chunk na-echekwa hex, mgbe ahụ `hex2ascii` depụta ya, mgbe ahụ `txBuilderFromFile.sh` na-agbanwe ya ọzọ. A naghị ehichapụ akụkụ ikpeazụ ma ọ bụrụ na ahịrị nke ọzọ agafee 512. A naghị ekewa ahịrị ogologo. A na-eziga ya dum ma nwee ike ịgafe ihe ndetu 512-byte.
-- `txBuilderFromFile.sh` oku `./zallet rpc` na-enweghị ụzọ nhazi, ma na-atụ anya ọnụọgụ abụọ dị na ndekọ dị ugbu a. Jiri `zallet -c <config> rpc`.
-- `toCurl.sh` na Zebra na-agwa okwu na ọdụ ụgbọ mmiri 8232 site na iji kuki, wee kpọọ oku `getinfo` na `sendmany`. Zallet anaghị enye `sendmany`. Mkpọchi nchere nke igwe na-ejikwa `[[ chainHeight -gt temp ]]` na-enweghị `$`, yabụ ọ naghị echere.
-- `z_gettotalbalance 0 true` a na-agafe dị ka arụmụka ọnọdụ mgbakwunye. Lelee `rpc help z_gettotalbalance` na binary ị na-agba ọsọ tupu i jiri oku ahụ.
-- Iberibe ọ bụla na-eziga `0.0001` ZEC nye onye ọ bụla natara ya. Ụgwọ ZIP 317 dị n'elu. Ihe dị ogologo maka ọtụtụ adreesị na-efu ihe karịrị uzuzu ahụ.
+- `[[ bytesInFile -lt 512 ]]` enweghị `$`. Alaka memo otu anaghị agba ọsọ.
+- Loop chunk ahụ na-echekwa hex, mgbe ahụ `hex2ascii` na-edepụta ya, emesịa `txBuilderFromFile.sh` edepụta ya ọzọ. A naghị ezipụ chunk ikpeazụ ma ọ bụrụ na ahịrị ọzọ esote ejupụtachaghị byte 512. A naghị ekewa ahịrị ogologo. A na-eziga ya dum, ọ nwere ike ịgafe memo byte 512.
+- `txBuilderFromFile.sh` na-akpọ `./zallet rpc` na-enweghị ụzọ config, ma na-atụ anya binary ahụ n’akwụkwọ ndekọ ugbu a. Jiri `zallet -c <config> rpc`.
+- `toCurl.sh` na-ekwu okwu na Zebra n’ọdụ ụgbọ mmiri 8232 jiri cookie, ma kpọọ `getinfo` na `sendmany`. Zallet anaghị enye `sendmany`. Loop ichere ịgwụputa [mining] na-ejikwa `[[ chainHeight -gt temp ]]` na-enweghị `$`, ya mere ọ naghị echere.
+- A na-agafe `z_gettotalbalance 0 true` dịka arụmụka positional ndị ọzọ. Lelee `rpc help z_gettotalbalance` na binary ị na-agba tupu iji oku ahụ.
+- Chunk ọ bụla na-eziga `0.0001` ZEC nye onye nnata ọ bụla. Ugwo ZIP 317 dị n’elu ya. note ogologo nye ọtụtụ Adreesị akpa ego na-emefu karịa ego dust.
 
-## Mgbe emechara ndozi
+## Mgbe emezichara
 
-Onye na-agba ọsọ agbaziri kwesịrị:
+Onye na-agba script edoziworo kwesịrị:
 
-1. Gụọ ihe ndetu ahụ dị ka byte wee kewaa ya na ókè 512-byte, ọ bụghị na ahịrị.
-2. Hex-encode nkebi ọ bụla otu ugboro.
-3. Kpọọ oku `zallet -c <config> rpc z_sendmany` na UA enyere ego, usoro onye nnata, na arụmụka enweghị ụgwọ.
-4. Ntuli aka `z_getoperationstatus` maka ọrụ ahụ id.
-5. Dekọọ txid ahụ naanị mgbe emechara `success`.
+1. Gụọ note ahụ dị ka bytes ma kewaa ya n’ókè byte 512, ọ bụghị n’ahịrị.
+2. Depụta hex nke chunk ọ bụla otu ugboro.
+3. Kpọọ `zallet -c <config> rpc z_sendmany` site na UA nwere ego, array ndị nnata, na-enweghị arụmụka ugwo.
+4. Nyochaa `z_getoperationstatus` maka id arụmọrụ ahụ.
+5. Dekọọ txid naanị mgbe `success` gasịrị.
 
-Ibe nkuzi ochie ahụ ka dị na [Ederede Akwụkwọ Ozi Ekpuchiri Echekwara](https://github.com/ZecHub/zechub/blob/main/site/tutorials/shieldedNewsletter/readme.md). Jiri ibe a mee ihe maka usoro a.
+Ibe tutorial ochie ahụ ka dị na [Script Akwụkwọ Akụkọ nke e chebere echebe](https://github.com/ZecHub/zechub/blob/main/site/tutorials/shieldedNewsletter/readme.md). Jiri ibe a maka usoro ahụ.

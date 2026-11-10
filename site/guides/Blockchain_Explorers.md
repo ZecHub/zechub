@@ -80,6 +80,8 @@ The takeaway: privacy depends on staying inside the shielded pools. Once funds t
 
 - [SoChain](https://sochain.com/zec) ([testnet](https://sochain.com/zectest))
 
+- [ZecZcash Explorer](https://zeczcash.com/explorer)
+
 
 
 ### Visual Guide

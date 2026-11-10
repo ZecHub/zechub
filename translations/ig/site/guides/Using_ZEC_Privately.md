@@ -1,47 +1,47 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/guides/Using_ZEC_Privately.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Dezie Peeji"/>
 </a>
 
-# Iji ZEC, na nzuzo.
+# Iji ZEC n'ụzọ nzuzo
 
-#### Echebe (Nkeonwe) vs. Nkọwapụta
+#### Nke e chebere echebe [Shielded] (Nke Nzuzo [Private]) na Oha [Transparent]
 
-As it currently stands, there are two addresses and transaction types in Zcash, shielded and transparent. The difference between shielded and transparent ZEC is very simple. Shielded ZEC keeps your money and your transactions private, as where transparent ZEC operates like Bitcoin, completely transparent. This means that someone can view your balance and all of your transactions if they know your address.
+Dịka ọ dị ugbu a, e nwere ụdị Adreesị akpa ego [address] na Azụmahia [transaction] abụọ na Zcash: nke e chebere echebe na Oha. Ihe dị iche n'etiti ZEC nke e chebere echebe na nke Oha dị mfe nke ukwuu. ZEC nke e chebere echebe na-edobe ego gị na azụmaahịa gị na nzuzo, ebe ZEC nke Oha na-arụ ọrụ dịka Bitcoin, n'ụzọ ghere oghe kpamkpam. Nke a pụtara na mmadụ nwere ike ịhụ nguzozi gị na azụmaahịa gị niile ma ọ bụrụ na ha maara Adreesị akpa ego gị.
 
-Mgbe ndị mmadụ bidoro iji ZEC, ha nwere ike ghara ịghọta ụdị adreesị ha na-eji. Nke a bụ n'ihi na ọ bụghị mgbanwe niile kwadoro ZEC echekwara ma / ma ọ bụ wepụ nke ZEC echebe. 
+Mgbe ndị mmadụ malitere iji ZEC nke mbụ, ha nwere ike ghara ịmata ụdị Adreesị akpa ego ha na-eji. Nke a bụ n'ihi na ọ bụghị exchange niile na-akwado ZEC nke e chebere echebe na/ma ọ bụ iwepụ ZEC nke e chebere echebe. 
 
-Ya mere, dịka ọmụmaatụ, ọ bụrụ na mmadụ ejiri Coinbase ma ha zụta ZEC, ha ga-azụta ZCE nke ọma wee nwee ike ịdọrọ naanị ZEC ahụ gaa adreesị doro anya n'ime obere akpa. Wallets dị ka [Zodl .](https://zodl.com/) nwere ike ichebe ego ezigara na adreesị doro anya iji dozie nke a, mana ọ bụghị mmadụ niile maara nke ahụ. Ọtụtụ ndị mmadụ, n'ikwu ya n'ụzọ dị mfe, jiri ZEC mee ihe dịka mgbanwe ha ma ọ bụ obere akpa mbụ ha kwere ka ha mee.
+Ya mere, dịka ọmụmaatụ, ọ bụrụ na mmadụ ejiri Coinbase zụta ZEC, ha ga-azụta ZEC nke Oha ma nwee ike iwepụ naanị ZEC ahụ gaa na Adreesị akpa ego nke Oha dị na e-akpa ego [wallet]. E-akpa ego dịka [Zodl](https://zodl.com/) nwere ike ichebe ego ezitere na Adreesị akpa ego nke Oha iji dozie nke a, mana ọ bụghị onye ọ bụla maara nke ahụ. N'ikwu ya n'ụzọ dị mfe, ọtụtụ mmadụ na-eji ZEC n'ụzọ exchange ha ma ọ bụ e-akpa ego ha bụ isi kwere ha.
 
-#### Ijide n'aka na ZEC gị dị mma.
+#### Ijide n'aka na ZEC gị bụ nke e chebere echebe
 
-We recommend that everyone self-custodies their ZEC. Meaning, move your ZEC from an exchange to a wallet. The best way to know if you're using shielded, a.k.a private, ZEC is by looking at the address the balance sits in. If the address starts with a "z" or "u1" , then your balance is shielded. If the address starts with a "t", then the balance is transparent.
+Anyị na-atụ aro ka onye ọ bụla jide ZEC nke ya n'onwe ya. Nke ahụ pụtara ibugharị ZEC gị site na exchange gaa na e-akpa ego. Ụzọ kacha mma isi mata ma ị na-eji ZEC nke e chebere echebe, ya bụ nke nzuzo, bụ ilele Adreesị akpa ego nguzozi ahụ dị na ya. Ọ bụrụ na Adreesị akpa ego ahụ amalite na "z" ma ọ bụ "u1", nguzozi gị bụ nke e chebere echebe. Ọ bụrụ na Adreesị akpa ego ahụ amalite na "t", nguzozi ahụ bụ nke Oha.
 
-There are generally two paths to get to shielded ZEC.
+N'ozuzu, e nwere ụzọ abụọ isi nweta ZEC nke e chebere echebe.
 
-Site na mgbanwe nke kwadoro **shielded** withdrawals:
+Site na exchange na-akwado iwepụ ego **nke e chebere echebe**:
 
-  1. Zụta ZEC na mgbanwe.
-  2. Malite usoro iwepụ na mgbanwe ahụ.
-  3. Mepee obere akpa ZEC gị echekwara ma hụ na adreesị nnata ahụ malitere site "u1" ma ọ bụ "z"
-  4. Gbaa ịdọrọ ego site na mgbanwe gị.
+  1. Zụta ZEC na exchange
+  2. Malite usoro iwepụ ego na exchange
+  3. Mepee e-akpa ego ZEC gị nke e chebere echebe ma jide n'aka na Adreesị akpa ego nnata amalite na "u1" ma ọ bụ "z"
+  4. Mee iwepụ ego ahụ site na exchange gị
 
-Site na mgbanwe nke kwadoro ịdọrọ ** nghọta:
-
-
-  1. Zụta ZEC na mgbanwe.
-  2. Malite usoro iwepụ na mgbanwe ahụ.
-  3. Mepee akpa ego ZEC gị na-emechi onwe ya ma jiri adreesị nnata doro anya
-  4. Gbaa ịdọrọ ego site na mgbanwe gị.
-  5. Chere iri nkwenye, na mgbe ahụ echebe ZEC si gị uzo address ka kpuchie adreesị
+Site na exchange na-akwado iwepụ ego **nke Oha**:
 
 
-Nke a bụ nkuzi maka otu esi ewepụ ZEC site na mgbanwe. Rịba ama na nke a bụ iwepu ihe echekwara.
+  1. Zụta ZEC na exchange
+  2. Malite usoro iwepụ ego na exchange
+  3. Mepee e-akpa ego ZEC gị nke na-echebe ego na-akpaghị aka ma jiri Adreesị akpa ego nnata nke Oha
+  4. Mee iwepụ ego ahụ site na exchange gị
+  5. Chere nkwenye iri, wee chebe ZEC site na Adreesị akpa ego nke Oha gị gaa na Adreesị akpa ego nke e chebere echebe
+
+
+Nke a bụ nkuzi maka otu esi ewepụ ZEC na exchange. Rịba ama na nke a bụ iwepụ ego nke e chebere echebe.
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
     className="w-full h-full"
     src="https://www.youtube.com/embed/REUbkLzK7J4"
-    title="Buy and withdraw ZEC to a shielded wallet from Gemini"
+    title="Zụta ma wepụ ZEC gaa na e-akpa ego nke e chebere echebe site na Gemini"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowFullScreen
     loading="lazy"
@@ -50,13 +50,13 @@ Nke a bụ nkuzi maka otu esi ewepụ ZEC site na mgbanwe. Rịba ama na nke a b
     
 
 ---
-Nke a bụ nkuzi maka otu esi echebe ZEC gị site na adreesị doro anya gaa na adres echekwara.
+Nke a bụ nkuzi maka otu esi echebe ZEC gị site na Adreesị akpa ego nke Oha gaa na Adreesị akpa ego nke e chebere echebe.
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
     className="w-full h-full"
     src="https://www.youtube.com/embed/W2msuzrxr3s"
-    title="Shield your ZEC from a transparent to shielded address"
+    title="Chebe ZEC gị site na Adreesị akpa ego nke Oha gaa na nke e chebere echebe"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowFullScreen
     loading="lazy"
@@ -65,13 +65,13 @@ Nke a bụ nkuzi maka otu esi echebe ZEC gị site na adreesị doro anya gaa na
 
 
 ---
-Nke a bụ nkuzi maka otu esi azụta ZEC na Coinbase ma zigara ya Zodl.
+Nke a bụ nkuzi maka otu esi azụ ZEC na Coinbase ma ziga ya na Zodl.
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
     className="w-full h-full"
     src="https://www.youtube.com/embed/Avweu5V9QRc"
-    title="Coinbase + Zashi: Buy Zcash & Shield Instantly"
+    title="Coinbase + Zashi: Zụta Zcash ma chebe ya ozugbo"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowFullScreen
     loading="lazy"
@@ -79,18 +79,18 @@ Nke a bụ nkuzi maka otu esi azụta ZEC na Coinbase ma zigara ya Zodl.
 </div>
 
 
-#### Ihe ndị e mere eme
+#### Azụmaahịa
 
-After ensuring that your ZEC is in a shielded wallet that supports shielded addresses, you can now decide if you'd like to transact with that ZEC. Transacting with ZEC is super easy. You can send ZEC to either shielded or transparent addresses depending on the person's preference. As with any monetary transaction, there are small chances that people can leak data. ZEC is the best at fighting against data leakeage, but that doesn't mean you should use it care free. Here are some things you'll want to avoid when transacting with ZEC.
+Mgbe ijidechara n'aka na ZEC gị dị na e-akpa ego nke e chebere echebe na-akwado Adreesị akpa ego nke e chebere echebe, ị nwere ike ikpebi ma ịchọrọ iji ZEC ahụ mee azụmaahịa. Iji ZEC eme azụmaahịa dị nnọọ mfe. Ị nwere ike iziga ZEC gaa na Adreesị akpa ego nke e chebere echebe ma ọ bụ nke Oha dabere na mmasị onye ahụ. Dịka ọ dị na azụmaahịa ego ọ bụla, e nwere obere ohere na mmadụ nwere ike ikpughe data. ZEC kacha mma n'ịlụso mwepụta data ọgụ, mana nke ahụ apụtaghị na ị ga-eji ya n'echeghị echiche. Ndị a bụ ụfọdụ ihe ị ga-achọ izere mgbe ị na-eji ZEC eme azụmaahịa.
 
-- Ịkwupụta adreesị gị ezoro ezo
-- Iji adreesị echedoro dị ka ụzọ maka t-adreesị (aka "mgwakọta")
-- Na-agba ọsọ, na ikpughe gị ịgba nke, ọnụ ọgụgụ dị elu nke mkpuchi ka azụmahịa ndị doro anya.
-- Na-eme ka ndị mmadụ mara mgbe niile ebe ị na-eji ZEC echekwa.
+- Ikpughe Adreesị akpa ego gị nke e chebere echebe
+- Iji Adreesị akpa ego nke e chebere echebe dị ka ụzọ gafere maka t-addresses (ya bụ, "mixing")
+- Ịme, na ikpughe na ị na-eme, ọnụ ọgụgụ dị ukwuu nke azụmaahịa site na nke e chebere echebe gaa na nke Oha
+- Ịgwa ndị mmadụ mgbe niile ebe ị na-emefu ZEC nke e chebere echebe
 
 
-N'ụzọ bụ isi, ihe kachasị mma iji ZEC gị mee bụ ijide ya na obere akpa echedoro, azụmahịa n'etiti adreesị ezere, ma kpachara anya banyere otu ị si eji ZEC eme ihe n'ihu ọha (ntụgharị ụlọ ahịa kọfị). Ịhụ na nzuzo nwere ọkwa nke ibu ọrụ. 
+N'ikpeazụ, ihe kacha mma ime na ZEC gị bụ ijide ya na e-akpa ego nke e chebere echebe, ime azụmaahịa n'etiti Adreesị akpa ego nke e chebere echebe, ma kpachara anya n'otú i si eji ZEC n'ihu ọha (ya bụ, n'ụlọ ahịa kọfị). Idozi Nzuzo [privacy] chọrọ oke ọrụ dịịrị mmadụ. 
 
-#### Akụnụba
+#### Akụrụngwa
 
-[Azụmahịa Zcash](https://zechub.wiki/using-zcash/transactions)
+[Zcash azụmaahịa](https://zechub.wiki/using-zcash/transactions)

@@ -1,158 +1,158 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Zcash_Tech/FROST_Threshold_Custody.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Dezie Peeji"/>
 </a>
 
-# FROST & Nchebe nke Threshold maka ZEC Shielded
+# FROST & Nlekọta Nchekwa Nso Maka ZEC Nke E Chebere Echebe
 
-> Maka nkọwa zuru ezu nke usoro nzuzo FROST, lee akwụkwọ ozi ahụ. [Ibe akwukwo nke FROST](FROST.md).
+> Maka nkọwa zuru ezu gbasara cryptography nke protocol FROST, lee peeji teknụzụ [FROST](FROST.md).
 
-FROST na-echekwa ihe n'elu mkparịta ụka Zcash  ọ bụ ụzọ kachasị elu na ZecHub Hackathon 2026  mana a naghị akọwa echiche ahụ mgbe niile. Peeji a kpuchitere ihe ọ pụtara, mgbe ịchọrọ ya n'ezie, azụmahịa azụmaahịa, yana ngwaọrụ ndị kwadoro ya taa.
-
----
-
-## TL;DR
-
-- ** FROST** na-enye otu ndị nwere igodo ohere ịchịkwa ọnụ ọgụgụ Zcash echekwara n'enweghị onye ọ bụla nwere isi nzuzo zuru ezu.
-- A **t-nke n** ọnụ ụzọ pụtara: t ndị mmadụ ga-co-ịbịanye aka na-emefu; ọ bụla t-1 ma ọ bụ obere enweghị ike ịkwaga ego naanị.
-- Azụmahịa dị ka azụmahịa ọ bụla ọzọ echekwara  enweghị akara ụkwụ na-ekpughe na ejirila mbinye aka.
-- Nke a dị iche na multisig nke ọma (nke bụ ọha mmadụ n'elu-agbụ ma Zcash akwadowo ogologo oge)  FROST ọrụ n'ime ọdọ mmiri ahụ.
-- Ọ bara uru maka DAOs, mgbanwe, ọrụ nchekwa, ego nkwụnye ego na akụnụba otu  ebe ọ bụla isi ihe dị mkpa nke ọdịda adịghị anabata.
+Nlekọta nchekwa nso [threshold custody] nke FROST na-apụta ugboro ugboro na mkparịta ụka Zcash — ọ bụ ụzọ kacha elu na Hackathon 2026 nke ZecHub — mana anaghị akọwa echiche a mgbe niile n'asụsụ dị mfe. Peeji a na-akọwa ihe ọ pụtara, mgbe ị chọrọ ya n'ezie, uru na ọghọm ya, yana ngwá ọrụ ndị na-akwado ya taa.
 
 ---
 
-## Gịnị bụ FROST n'asụsụ nkịtị?
+## Na nkenke
 
-Imagine three business partners each hold a piece of a key. To spend from their shared wallet, any two of the three must agree and co-sign. The resulting transaction looks identical to a regular individual send — no observer can tell from the blockchain that multiple people were involved.
-
-FROST (**Flexible Round-Optimized Schnorr Threshold Signatures **) bụ usoro nzuzo nke na -eme ka nke a kwe omume maka Zcash echekwara. Ọ bụ Chelsea Komlo (Mahadum Waterloo / Zcash Foundation) na Ian Goldberg mepụtara ya.
-
-Ihe ndị bụ isi:
-
-- **Obere ọnụego**: naanị t-nke-n ndị na-edebanye aha kwesịrị isonye (dịka 2-nke-3, 3-nke-5)
-- **Shielded**: na-arụ ọrụ n'ime ogige nzuzo Orchard  ego, onye zitere ya, na onye natara ya nọgidere onwe ha
-- **Amaghị ihe dị iche**: mbinye aka ikpeazụ yiri ka azụmahịa ọ bụla ọzọ Zcash kpuchiri.
-- ** Non-nchekwa**: ọ dịghị otu onye na mgbe esetịpụ zuru ezu isi  ọbụna ndị nhazi
+- **FROST** na-enye ìgwè ndị ji mkpịsị ugodi ohere ijikọ ọnụ chịkwaa Adreesị akpa ego [address] Zcash nke e chebere echebe, na-enweghị onye ọ bụla ijide mkpịsị ugodi nzuzo zuru ezu.
+- Nso **t-n'ime-n** [t-of-n] pụtara: mmadụ t ga-ebinye signature ọnụ iji mefu ego; mmadụ t-1 ma ọ bụ ole na ole karịa nke ahụ enweghị ike ịkwaga ego ahụ naanị ha.
+- Azụmahia [transaction] ndị ahụ dị ka Azụmahia ọ bụla ọzọ nke e chebere echebe — enweghị akara on-chain na-egosi na ejiri mbinye signature nọ nso mee ya.
+- Nke a dị iche kpamkpam na multisig Oha [transparent] (nke bụ nke ọha on-chain ma Zcash akwadowo ya ogologo oge) — FROST na-arụ ọrụ n'ime pool nke e chebere echebe.
+- Ọ bara uru maka DAO, exchange, ọrụ nlekọta nchekwa, nchekwa ego jikọtara ọnụ, na Ebe nchekwa ego [treasury] nke otu — ebe ọ bụla ọdịda nke otu mkpịsị ugodi na-adịghị anabata.
 
 ---
 
-## Olee mgbe i kwesịrị iji ikike a mee ihe?
+## Gịnị bụ FROST n'asụsụ dị mfe?
 
-Nchebe nke oke nwere ezi uche mgbe **ịtụfu otu igodo ma ọ bụ onye ekwesịghị ịpụta ịtụfu ego ahụ**.
+Chee na ndị mmekọ azụmahịa atọ ji nke ọ bụla n'ime ha otu akụkụ nke mkpịsị ugodi. Iji mefu ego sitere na e-akpa ego ha jikọtara ọnụ, mmadụ abụọ ọ bụla n'ime ha atọ ga-ekwenye ma binye signature ọnụ. Azụmahia ga-esi na ya pụta yiri izipu ego nke onye ọ bụla mgbe niile — onye na-ekiri enweghị ike ịmata site na blockchain na ọtụtụ mmadụ sonyere.
 
-| Ọnọdụ | Ihe mere njide oke ji enyere aka |
+FROST (**Flexible Round-Optimized Schnorr Threshold Signatures**) bụ protocol cryptography na-eme ka nke a kwe omume maka Zcash nke e chebere echebe. Chelsea Komlo (Mahadum Waterloo / Zcash Foundation) na Ian Goldberg mepụtara ya.
+
+Njirimara ndị bụ isi:
+
+- **Nso [Threshold]**: naanị ndị binye signature t-n'ime-n kwesịrị isonye (dịka 2-n'ime-3, 3-n'ime-5)
+- **Nke e chebere echebe [Shielded]**: ọ na-arụ ọrụ n'ime pool Nzuzo [privacy] nke Orchard — ọnụọgụ ego, onye zitere, na onye natara na-anọgide na nzuzo
+- **Enweghị ike ịmata ọdịiche [Indistinguishable]**: signature ikpeazụ yiri Azụmahia Zcash nke e chebere echebe ọ bụla ọzọ
+- **Na-enweghị onye nlekota [Non-custodial]**: ọ dịghị otu akụkụ ọ bụla na-ejide mkpịsị ugodi zuru ezu — ọbụnadị onye nhazi
+
+---
+
+## Kedu mgbe ị kwesịrị iji nlekọta nchekwa nso?
+
+Nlekọta nchekwa nso bara uru mgbe **ịla n'iyi otu mkpịsị ugodi ma ọ bụ otu onye ekwesịghị ịpụta ịla n'iyi ego ahụ**.
+
+| Ọnọdụ | Ihe mere nlekọta nchekwa nso ji enyere aka |
 |-----------|----------------------------|
-| **DAO ma ọ bụ akụ otu** | Ọ dịghị onye nchịkwa nwere ike ịpụpụ ego n'otu aka; ọ chọrọ nkwenye |
-| **Onye mgbanwe ma ọ bụ onye nlekọta** | Na-ekesa ihe egwu dị mkpa n'ofe mpaghara nchekwa ma ọ bụ ndị ọrụ |
-| **Ebe nchekwa oyi nkeonwe (ya na ezinụlọ a pụrụ ịtụkwasị obi)** | Mmadụ abụọ n'ime mmadụ atọ n'etiti unu na mmadụ abụọ n'ezinụlọ unu — nwụọ ma ọ bụ tụfuo ohere, ego agaghị efu |
-| **Escrow** | Onye zụrụ ihe, onye na-ere ihe, na onye na-ekpe ikpe nwere òkè; ego ewepụtara mgbe mmadụ abụọ kwekọrịtara |
-| **Ntinye ego enyemaka dị oke ọnụ ahịa** | ZCG-style: chọrọ ọtụtụ ndị bịanyere aka n'akwụkwọ nkwado onwe ha tupu ịkwụ ụgwọ |
-| **Njikwa isi ihe onye nrụpụta** | Gbochie ihe iyi egwu dị n'ime ụlọ ọrụ - ọ dịghị otu onye injinia nwere ike iwepụ ego usoro ọrụ |
+| **DAO ma ọ bụ Ebe nchekwa ego otu** | Ọ dịghị otu admin nwere ike ịwepụ ego naanị ya; ọ chọrọ consensus [consensus] |
+| **Exchange ma ọ bụ onye nlekota** | Ọ na-ekesa ihe ize ndụ mkpịsị ugodi n'etiti mpaghara nchekwa ma ọ bụ ndị ọrụ |
+| **Nchekwa oyi nke onwe (ya na ezinụlọ ntụkwasị obi)** | 2-n'ime-3 n'etiti gị na ndị ezinụlọ abụọ — ọ bụrụ na ị nwụọ ma ọ bụ tufuo ohere, ego ahụ agaghị efu |
+| **Escrow** | Onye zụrụ, onye rere, na onye ikpe nke ọ bụla ji otu òkè; a na-ahapụ ego mgbe mmadụ abụọ kwenyere |
+| **Nkesa ikike [grant] bara nnukwu uru** | Ụdị ZCG: ọ chọrọ ọtụtụ ndị binye signature nọọrọ onwe ha tupu a kwụọ ụgwọ |
+| **Nlekọta mkpịsị ugodi onye mmepụta [developer]** | Gbochie egwu sitere n'ime — ọ dịghị otu injinia nwere ike ịwepụ ego protocol naanị ya |
 
-Ikekwe **ị chọghị** nlekọta oke maka obere akpa ego nke ị na-achịkwa naanị, obere ego ma ọ bụ ọnọdụ ebe mgbakwunye nhazi gbakwunyere karịa mbelata ihe egwu.
+O yikarịrị ka ị **anaghị** achọ nlekọta nchekwa nso maka e-akpa ego nke onwe ị na-achị naanị gị, ego ole na ole, ma ọ bụ ọnọdụ ebe mgbakwunye nhazi karịrị mbelata ihe ize ndụ.
 
 ---
 
-## Kedu ka o si dị iche na multisig?
+## Kedu ka ọ si dị iche na multisig Oha?
 
-Zcash akwadowo ogologo oge igodo multisig na-agbanwe agbanwe  ọtụtụ mkpịsị ugodi achọrọ iji mefuo site na adreesị t. Mana multisig nwere ihe nzuzo dị mkpa: ** usoro ntinye aka, isi okwu ọha niile, yana ndị mbinye aka niile pụtara ìhè na blockchain**.
+Zcash akwadowo multisig Oha ogologo oge — ọtụtụ mkpịsị ugodi chọrọ iji mefu ego sitere na t-address. Mana multisig Oha nwere nnukwu ụgwọ Nzuzo: **usoro multisig, mkpịsị ugodi ọha niile, na ndị binye signature niile na-ahụ anya na blockchain**.
 
-FROST na-edozi nke a site n'ịrụ ọrụ n'ime ọdọ mmiri ahụ e chebere:
+FROST na-edozi nke a site n'ịrụ ọrụ n'ime pool nke e chebere echebe:
 
-| | Transparent multisig | Oke FROST (ekpuchiri) |
+| | Multisig Oha | Nso FROST (nke e chebere echebe) |
 |--|---------------------|--------------------------|
-| Ọdọ mmiri | Transparent (ọha) | Orchard (nke e ji ihe nchekwa kpuchie) |
-| A na-ahụ ihe nrịbama n'usoro | Ee — igodo ọha niile ekpughere | Mba — a naghị amata ihe dị iche na mmefu onye bịanyere aka na ya |
-| Ọnụọgụ ndị a na-ahụ anya | Ee | No |
-| A chọrọ nhazi dị mkpa | Ederede dị n'ime yinye | Usoro nkwukọrịta dị n'èzí |
-| Nzuzo | Ọ dịghị | Nzuzo zuru oke nke kpuchiri ekpuchi |
+| Pool | Oha (nke ọha) | Orchard (nke e chebere echebe) |
+| Ndị binye signature na-ahụ anya on-chain | Ee — mkpịsị ugodi ọha niile pụtara ìhè | Mba — enweghị ike ịmata ọdịiche ya na mmefu ego nke onye binye signature otu |
+| Ọnụọgụ ego na-ahụ anya | Ee | Mba |
+| Nhazi a chọrọ | Script on-chain | Oge nkwurịta okwu off-chain |
+| Nzuzo | Ọ dịghị | Nzuzo zuru ezu nke e chebere echebe |
 
 ---
 
-## Mgbanwe na mgbochi
+## Uru na ọghọm na mmachi
 
-FROST dị ike, mana ọ na-abịa n'ezi ahia ị kwesịrị ịghọta tupu iji ya:
+FROST dị ike, mana ọ nwere ezi uru na ọghọm ị kwesịrị ịghọta tupu i jiri ya:
 
-### Nchịkọta n'elu elu
-Signers must be online simultaneously (or nearly so) to complete a signing round. If your t signers are spread across time zones or unreliable connections, spending requires coordination that a solo wallet doesn't.
+### Mgbalị nhazi
+Ndị binye signature ga-anọ n'ịntanetị n'otu oge (ma ọ bụ ihe fọrọ nke nta ka ọ bụrụ otu oge) iji mezue oge mbinye signature. Ọ bụrụ na ndị binye signature t gị gbasara na mpaghara oge dị iche iche ma ọ bụ njikọ anaghị atụkwasị obi, imefu ego chọrọ nhazi nke e-akpa ego otu anaghị achọ.
 
-### Enweghị mbinye aka ma ọ bụrụ na ọnụọgụ mmadụ adịghị.
-Ọ bụrụ na ndị nwere igodo ezughi oke (ọrịa, njem, enweghị nzaghachi), ego anaghị adịte aka. Họrọ ọnụego gị ma kesaa ọnụọgụ nke ọma  2-nke-3 dị ike karịa 2-nke-2.
+### Enweghị mbinye signature ma ọ bụrụ na quorum adịghị
+Ọ bụrụ na ndị ji mkpịsị ugodi ezughị ezu adịghị (na-arịa ọrịa, na-eme njem, anaghị aza), ego ahụ agaghị enwe ike imefu nwa oge. Họrọ nso gị na ọnụ ọgụgụ òkè gị nke ọma — 2-n'ime-3 na-adịgide adịgide karịa 2-n'ime-2.
 
-### Emume inye mkpịsị ugodi.
-Ịtọlite FROST chọrọ usoro nkesa igodo (DKG) ebe ndị niile n sonyere na ntanetị. Nke a bụ ihe omume otu oge, mana ọ ga-akpachara anya  ma ọ bụrụ na etinye aka na DKG, nchekwa dị ala.
+### Emume imepụta mkpịsị ugodi
+Ịtọlite FROST chọrọ emume imepụta mkpịsị ugodi ekesara (DKG) ebe ndị sonyere n niile nọ n'ịntanetị ọnụ. Nke a bụ ihe a na-eme otu ugboro, mana a ghaghị iji nlezianya mee ya — ọ bụrụ na e mebie ndị sonyere n'oge DKG, nchekwa ga-emebi.
 
-### Ngwá ọrụ ka na-etolite.
-FROST maka Zcash echedoro bụ ihe ọhụrụ. IETF ọkọlọtọ (draft-irtf-cfrg-frost) tozuru oke, mana ntinye akpa ego dị ntakịrị. Na-atụ anya ụfọdụ ihu na mkpanaka ma e jiri ya tụnyere obere akpa otu igodo.
+### Ngwá ọrụ ka na-etolite
+FROST maka Zcash nke e chebere echebe dị ọhụrụ n'ụzọ dịtụ ukwuu. Ụkpụrụ IETF (draft-irtf-cfrg-frost) etoola nke ọma, mana njikọ e-akpa ego pere mpe. Tụrụ anya ụfọdụ ihe siri ike ma e jiri ya tụnyere e-akpa ego mkpịsị ugodi otu nke ọkọlọtọ.
 
 ### Mgbagwoju anya nke mgbake
-Ịhapụ shard abụghị njedebe nke ụwa (nke ahụ bụ isi ihe dị n'ọnụ ụzọ), mana a ga-edepụta atụmatụ mgbake tupu oge eruo. Onye na - ejide nkwado ndabere? Kedu ihe ga - eme ma ọ bụrụ na ehichapụ abụọ n'otu oge?
+Ịla n'iyi otu shard abụghị njedebe ụwa (nke ahụ bụ ebumnuche nke nso ahụ), mana a ga-edepụta atụmatụ mgbake tupu oge eruo. Ònye na-ejide ndabere? Gịnị na-eme ma ọ bụrụ na shard abụọ efuo n'otu oge?
 
 ---
 
-## Onye na-eji FROST arụ ọrụ n'elu Zcash?
+## Ònye na-eji FROST ewu ihe na Zcash?
 
 ### Zcash Foundation — frost.zfnd.org
-Zcash Foundation ebuputara mmejuputa FROST na ebe ngosi. Nke a bụ ntinye aka eji eme ihe maka ule na mmepe.
+Zcash Foundation ewepụtala implementation FROST na-arụ ọrụ na saịtị ngosi. Nke a bụ implementation ntụaka eji maka nnwale na mmepe.
 
-### Ywallet FROST Ihe ngosi
-Ywallet nwere mmalite FROST demo mwekota, na-aga site n'ime ihe ndị dị ka afọ iri abụọ gara aga. [Ywallet FROST Ntuziaka ngosi](/guides/Ywallet_FROST_Demo). Ywallet anaghịzi edobe ya ma agaghị emelite maka Ironwood, n'ihi ya gụọ ntuziaka ahụ dị ka ndabere kama ịbụ ihe ị ga-agba ọsọ taa. Zkool, site na otu onye mmepe ahụ, bụ onye nọchiri anya echekwara yana depụtara FROST multisig n'etiti atụmatụ ya.
+### Ngosi Ywallet FROST
+Ywallet nwere njikọ ngosi FROST mbụ, nke akọwara na ntuziaka ngosi [Ywallet FROST](/guides/Ywallet_FROST_Demo). A naghị elekọta Ywallet ọzọ, a gaghị emelitekwa ya maka Ironwood, ya mere gụọ ntuziaka ahụ dị ka ndabere kama ịbụ ihe ị ga-agba taa. Zkool, sitere n'aka otu onye mmepụta ahụ, bụ onye nọchiri ya a na-elekọta ma depụta multisig FROST n'etiti atụmatụ ya.
 
-### ZecHub Hackathon 2026 — FROST Track Projects
+### Hackathon 2026 nke ZecHub — Ọrụ ụzọ FROST
 
-Usoro FROST bụ nke kachasị asọmpi na ZecHub Hackathon 2026. Ọrụ ndị a ma ama:
+Ụzọ FROST bụ nke asọmpi ya kacha sie ike na Hackathon 2026 nke ZecHub. Ọrụ ndị a ma ama:
 
-- ** ZecVault**  2-nke-3 echekwara escrow biri na mainnet (FROST ọnụ ụzọ)
-- **Onye nlekọta**  nchebe maka Zcash kpuchiri ekpuchi na UX gbadoro anya mgbake.
+- **ZecVault** — escrow e chebere echebe 2-n'ime-3 edoziri na mainnet (nso FROST)
+- **Steward** — nlekọta nchekwa nso maka Zcash nke e chebere echebe, nke UX lekwasịrị anya na mgbake
 
 ### Coinbase
-Coinbase wuru mmejuputa FROST maka usoro ntinye aka ha (maka Bitcoin), na mgbanwe ndị wepụrụ ọkwa nhazi ma kesaa ọrụ nchịkọta n'etiti ndị niile sonyere. Ahụmịhe ha kwadoro ihe nchebe nke Frost na oke nrụpụta.
+Coinbase wuru implementation FROST maka mmepụta maka usoro mbinye signature nso ha (maka Bitcoin), nwere mgbanwe na-ewepụ ọkwa nhazi mbụ ma kesaa ọrụ aggregator n'etiti ndị sonyere niile. Ahụmịhe ha na-akwado ụdị nchekwa FROST n'ọkwa mmepụta.
 
 ---
 
-## Otu oge ị na-eji asụsụ ogbi eme ihe si arụ ọrụ (n'ụzọ dị mfe)
+## Ka oge mbinye signature si arụ ọrụ (nke a dị mfe)
 
-1. ** Ntọala (otu oge):** Ndị niile n na-eme ihe omume a na - eme ka ha nwee ike ịmepụta isi okwu. Onye ọ bụla nwere onwe ya; igodo ọha mmadụ dị iche iche sitere na nke ahụ. Ọ dịghị onye maara mkpịsị nzuzo zuru ezu.
+1. **Nhazi (otu ugboro):** Ndị sonyere n niile na-agba emume imepụta mkpịsị ugodi ekesara (DKG). Onye ọ bụla na-enweta shard nzuzo; a na-emepụta mkpịsị ugodi ọha jikọtara ọnụ. Ọ dịghị akụkụ ọ bụla maara mkpịsị ugodi nzuzo zuru ezu.
 
-2. **Kpọkọtara ndị bịanyere aka na ya:** Mgbe a chọrọ mmefu, onye nhazi (onye nwere ike ịbụ otu n'ime ndị debanyere aha) na-anakọta nkwa site n'aka t sonyere bụ ndị dị njikere ịbịanye.
+2. **Hazie ndị binye signature:** Mgbe achọrọ mmefu ego, onye nhazi (onye nwere ike ịbụ otu n'ime ndị binye signature) na-anakọta commitment [commitment] sitere n'aka ndị sonyere t dị njikere ibinye signature.
 
-3. **Round 1:** Onye ọ bụla na-esonye n'akwụkwọ ahụ mepụtara nonce ma gbasaa nkwa (ọha, enweghị mmetụta).
+3. **Oge nke 1:** Onye binye signature ọ bụla sonyere na-emepụta nonce ma gbasaa commitment (nke ọha, na-adịghị emetụta nchekwa).
 
-4. ** Round 2:** Onye ọ bụla na-etinye aka n'akwụkwọ ga-eji shard nke ha wee gbasaa ya.
+4. **Oge nke 2:** Onye binye signature ọ bụla sonyere na-agbakọ signature akụkụ ya site n'iji shard nzuzo ya ma gbasaa ya.
 
-5. ** Nchịkọta:** Onye nhazi na-ejikọta t mbinye aka nke akụkụ n'ime otu akara Schnorr ikpeazụ  enweghị ike ịmata ihe dị iche na ntinye site na nkwekọrịta naanị.
+5. **Nchịkọta:** Onye nhazi na-ejikọta signature akụkụ t n'ime otu signature Schnorr ikpeazụ — nke na-enweghị ike ịmata ọdịiche ya on-chain na signature nke otu akụkụ.
 
-6. **Mgbasa ozi:** A na-agbasa azụmahịa ahụ n'ime netwọk Zcash dị ka ọ dị.
+6. **Mgbasa:** A na-agbasa Azụmahia ahụ na netwọk Zcash dịka ọ dị na mbụ.
 
-Ọ bụrụ na onye ọbụla bịanyere aka n'akwụkwọ zigara ya ihe ọjọọ, usoro ahụ ga-amata ha ma kwụsị (a gaghị etinye ha na nnọkọ ndị ọzọ). Nchịkọta a na - emepụtaghi agbụ  blockchain naanị hụrụ azụmahịa ikpeazụ.
+Ọ bụrụ na onye binye signature ọ bụla eziga signature akụkụ na-adịghị mma, protocol ahụ na-achọpụta ya ma kwụsị (a na-ewepụ ha n'oge ndị ọzọ n'ọdịnihu). Nhazi na-eme off-chain — blockchain na-ahụ naanị Azụmahia ikpeazụ.
 
 ---
 
-## Ịhọrọ ihe ndị ị chọrọ ime na-aga n'ihu.
+## Ịhọrọ paramita nso gị
 
-| Melite | Nkwụsi ike | Ihe egwu |
+| Nhazi | Nkwụsi ike | Ihe ize ndụ |
 |-------|-----------|------|
-| 1-of-1 | Enweghị ike iguzogide - otu isi ihe na-ada ada | Mfu isi = mfu na-adịgide adịgide |
-| 2-of-2 | Ga-enwerịrị ndị bịanyere aka abụọ ahụ — enweghị ndidi maka mmejọ | Otu adịghị = ego akpọchiri akpọchi |
-| 2-of-3 | Otu iberibe nwere ike ịla n'iyi ma ọ bụ enweghị ya | Oke nchekwa dị ala karịa 3-nke-5 |
-| 3-of-5 | Enwere ike ịlafu ihe abụọ; nchekwa siri ike | Ọnụ ego nhazi ọzọ |
-| 3-of-7 | Ọkwa ụlọ ọrụ; na-anabata ọdịda abụọ | Ọnụ ego nhazi dị elu |
+| 1-n'ime-1 | Enweghị nkwụsi ike — otu ebe ọdịda | Ịla n'iyi mkpịsị ugodi = ịla n'iyi na-adịgide adịgide |
+| 2-n'ime-2 | A ghaghị inwe ndị binye signature abụọ ahụ — enweghị nnagide ọdịda | Otu onye adịghị = ego akpọchiri |
+| 2-n'ime-3 | Otu shard nwere ike ifu ma ọ bụ ghara ịdị | Oke nchekwa dị ala karịa 3-n'ime-5 |
+| 3-n'ime-5 | Shard abụọ nwere ike ifu; nchekwa siri ike | Mgbalị nhazi ka ukwuu |
+| 3-n'ime-7 | Ọkwa ụlọọrụ; na-anagide ọdịda abụọ | Ọnụ nhazi dị elu |
 
-Ebe mmalite dị irè maka ọtụtụ ìgwè: **2-nke-3** (na-eguzogide, nhazi nke nta) ma ọ bụ **3-nke-5** (ụlọ ọrụ, nchebe ka elu).
+Ebe mmalite bara uru maka ọtụtụ otu: **2-n'ime-3** (na-adịgide adịgide, nhazi pere mpe) ma ọ bụ **3-n'ime-5** (ụlọọrụ, nchekwa ka elu).
 
 ---
 
-## Peeji ndị metụtara ya
+## Peeji Metụtara
 
-- [FROST  Ntinye miri emi nke teknụzụ.](FROST.md)  nkọwapụta nke usoro (DKG, agba akaebe, ihe nchedo)
-- [Ywallet FROST Ntuziaka Nlele](/guides/Ywallet_FROST_Demo)  ndabere, Ywallet anaghịzi edobe ya.
-- [Igodo Nlele](Viewing_Keys.md)  naanị-agụ ohere na ezoro ezo adreesị (complementary ka ịgba njide)
-- [Akụ Zcash Echebe](Zcash_Shielded_Assets.md)  FROST bụkwa isi ihe eji emepụta ZSA
+- [FROST — Nnyocha Teknụzụ Miri Emi](FROST.md) — nkọwa cryptography nke protocol (DKG, oge mbinye signature, proof nchekwa)
+- [Ywallet Ntuziaka Ngosi FROST](/guides/Ywallet_FROST_Demo) — ndabere, anaghị elekọta Ywallet ọzọ
+- [Viewing Keys](Viewing_Keys.md) — ohere ịgụ naanị maka Adreesị akpa ego ndị e chebere echebe (nke na-akwado nlekọta nchekwa nso)
+- [Zcash Akụ Nke E Chebere Echebe](Zcash_Shielded_Assets.md) — FROST bụkwa akụrụngwa dị mkpa maka mwepụta ZSA
 
-## Akụnụba
+## Akụrụngwa
 
-- [Akwụkwọ nyocha FROST (Komlo & Goldberg, 2020)](https://eprint.iacr.org/2020/852.pdf)
-- [IETF FROST ọkọlọtọ draft (draft-irtf-cfrg-frost)](https://datatracker.ietf.org/doc/draft-irtf-cfrg-frost/)
-- [Zcash Foundation mmejuputa FROST](https://frost.zfnd.org)
-- [Chelsea Komlo  Gịnị bụ Nkwekọrịta? (Zcon3)](https://youtu.be/cAfTTfblzoU?t=110)
-- [Coinbase  Ntinye aka dijitalụ nke threshold](https://www.coinbase.com/blog/threshold-digital-signatures)
-- [ROAST  Async Schnorr Threshold Signatures siri ike (Blockstream)](https://eprint.iacr.org/2022/550.pdf)
+- [akwụkwọ nyocha FROST (Komlo & Goldberg, 2020)](https://eprint.iacr.org/2020/852.pdf)
+- [ụkpụrụ draft IETF FROST (draft-irtf-cfrg-frost)](https://datatracker.ietf.org/doc/draft-irtf-cfrg-frost/)
+- [implementation Zcash Foundation FROST](https://frost.zfnd.org)
+- [Chelsea Komlo — Gịnị bụ Threshold Signatures? (Zcon3)](https://youtu.be/cAfTTfblzoU?t=110)
+- [Coinbase — Threshold Digital Signatures](https://www.coinbase.com/blog/threshold-digital-signatures)
+- [ROAST — Robust Async Schnorr Threshold Signatures (Blockstream)](https://eprint.iacr.org/2022/550.pdf)

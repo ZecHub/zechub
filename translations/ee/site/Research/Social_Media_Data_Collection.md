@@ -7,79 +7,77 @@ published: 2023-10-23
 </a>
 
 
-# Hadomegbenɔnɔ Ŋuti Nyatakakawo Nuƒoƒoƒu
+# Social media ƒe nyadzɔdzɔ ƒoƒo
 
-Fifia la, esesẽna be woake ɖe ame aɖe si ŋu hadomenyatakakadzraɖoƒewo mate ŋu aɖo o la ŋu. Wova xɔ ŋkɔ le alesi wo zazã le bɔbɔe kple alesi wokakaa gbedasi kabakaba hewɔa dɔ nyuie ta.
+Egbe la, xɔxɔe be nàkpɔ ame si social network ƒe ɖoɖo mekpɔ o. Wozu be ame geɖe lɔ̃ wo, elabena wozɔna bɔbɔe eye wotsɔna kabakaba kple ŋusẽ ƒoa gbeɖeɖe.
 
-Nublanuitɔe la, alesi wòanɔ bɔbɔe sia ke na mí, abe ezãlawo ene hã, míetsɔ ɖeke le nyatakaka agbɔsɔsɔme si hadomenyatakakadzraɖoƒewo ƒoa ƒu tso mía ŋu kple nusi woate ŋu awɔ kplii, alo nusi ame etɔ̃lia si ƒe susu vɔ̃ ate ŋu awɔ ne wodi be yewoakpɔ wo ŋu o.
+Le gbɔgbɔ me la, esia ƒe bɔbɔe hã wɔ be mí, abe zazãlawo ene, mímeɖe ŋku le nyadzɔdzɔ si social media ƒe platformwo ƒoa tso mí ŋu kple nu si woate ŋu awɔ kpli o, alo nu si ame etɔ̃ vɔ̃ aɖe ate ŋu awɔ ne wòkpɔ mɔ ge ɖe eme.
 
-Eyome, míagblɔ nyatakaka siwo mɔ̃ siawo dometɔ aɖewo ƒo ƒu tso mía ŋu, nu siwo wowɔna kplii, kple nusita esia ate ŋu ade míaƒe adzamenyawo kple, ate ŋu anye míaƒe ame ŋutɔ alo míaƒe ƒomea ƒe dedienɔnɔ afɔku me.
+Azɔ la, míagblɔ nyadzɔdzɔ si platform siawo ƒoa tso mí ŋu, nu si wowɔ kpli, kple nu ka ta esia ate ŋu azu afɔku na mí ƒe ɣaɣla [privacy] kple, ɖewohĩ, míƒe ame ŋutɔ alo ƒome ƒe dedienɔnɔ.
 
 Discord
 -------
 
-Ele be míadze egɔme kple Discord elabena enye kadodomɔnu si míezãna "le aƒeme."
+Ele be míadzi gɔme kple Discord elabena enye gbeɖeɖe ƒe app si mízãna "le aƒeme."
 
-Discord ɖea vi ŋutɔ le nuto gã aɖe dzi kpɔkpɔ me le nyati vovovowo ŋu, gake eɖi fɔ abe ame bubu geɖewo ene be míekpɔ viɖe tso míaƒe nyatakakawo me.
+Discord ɖe vi na kpekpeɖeŋu be nàkpɔ community gã aɖe le nya vovovowo ŋu, ke boŋ wòwɔ vodada abe bubu geɖe ene le míƒe ame ŋutɔ ƒe nyadzɔdzɔ ƒe vi kpɔkpɔ me.
 
-### Nyatakakawo Discord Dzraɖoƒewo
+### Nyadzɔdzɔ Si Discord Ɖona ɖe
 
-Le eƒe ameŋunyatakakawo ŋuti ɖoɖoa nu la, Discord ƒoa nyatakaka siwo gbɔna nu ƒu tso mía ŋu:
+Le eƒe ɣaɣla ƒe ɖoɖo nu la, Discord ƒoa nyadzɔdzɔ siawo tso mí ŋu:
 
--   Text messages (siwo dome drafts hã le), gbeɖiɖi me gbedasiwo, cover images na live streams, xɔ̃wò siwo nètsɔ kpe ɖe eŋu alo zãla siwo nèwɔa nu kplii, fefe siwo nèwɔna, server alo nuto siwo me nèŋlɔ ŋkɔ ɖo, nuƒle alo nudzadzra siwo nèwɔna to app la dzi, kple nyametsotso siwo nèwɔna ne èle nyatakakawo dzi kpɔm.
+-   Agbalẽ ƒe gbeɖeɖewo (kple draftwo), gbe ƒe gbeɖeɖewo, foto siwo ana be live streamwo ƒe aʋawɔwɔ nadze anyi, xɔlɔ siwo nàtsɔ kpe ɖe eŋu alo zazãla siwo kplɔ wò nàwɔ nu kpli, fefewo siwo nèle fiam, serverwo alo community siwo me wòŋlɔ ɖe, nu siwo nèle fle alo dzra to app la me, kple ŋuɖoɖo siwo nèwɔ ne nèle content kpɔm ɖe asi.
 
-Womedzraa wò videowo alo wò video si woɖena ɖe go le agbe me ɖo o, togbɔ be wogblẽa ʋɔtrua ɖi be woatrɔ nyametsotso sia le etsɔme hã.
+Wometsɔa wò video alo wò live stream ƒe video ɖea anyi o, ke woɖe mɔ ɖi be woatrɔ ŋuɖoɖo sia le ŋgɔ.
 
-Woƒoa nyatakaka aɖewo hã nu ƒu le wo ɖokui si, abe IP adrɛs si dzi nèdoa ka ɖo, web-browser si nèzãna, kple wò dɔwɔɖoɖo ene.
+Wofɔa nyadzɔdzɔ aɖewo hã le wo ŋutɔ ƒe mɔ nu, abe IP address si dzi nèle kadom, browser si nèzãna, kple wò operating system ene.
 
-### Ale Si Wozãnɛ
+### Ale Si Wozãna E
 
-Woate ŋu abu nusiwo wowɔna kple míaƒe nyatakakawo ƒe akpa gãtɔ be wosɔ, abe alesi woana ezãlawo ƒe nuteƒekpɔkpɔ nanyo ɖe edzi, woana nuteƒekpɔkpɔ si sɔ na ame ŋutɔ wu, kple nutoa me ƒe dzidzenuwo me léle ɖe asi ene. Gake woate ŋu azã wò nyatakakawo hã atsɔ ado woƒe dɔwɔnawo ɖe ŋgɔ, eye woate ŋu ama wo dometɔ aɖewo na ame bubuwo gɔ̃ hã atsɔ ado woƒe dɔwɔnawo ɖe ŋgɔ alo adzro dɔwɔƒea ƒe dzidziɖedzi me.
+Nu geɖe si wowɔ kple míƒe nyadzɔdzɔ la, ame ate ŋu akpɔ be wòle eteƒe, abe zazãla ƒe nɔnɔ nyui wɔwɔ, nɔnɔ si wotu ɖe ame ƒe hiãhiã ŋu ƒe nana, kple community ƒe sewo ƒe dzadzra ene. Ke hã, woate ŋu azã wò nyadzɔdzɔ be woado woƒe subɔsubɔwo ɖe ŋgɔ, eye woate ŋu ama eƒe aƒe aɖe na ame etɔ̃wo be woado woƒe subɔsubɔwo ɖe ŋgɔ alo woakpɔ company la ƒe tsitsi ɖa.
 
-Wogblɔna hã be yewoate ŋu azã nyatakakaawo atsɔ ana dziɖuɖumegã ɖesiaɖe si ate ŋu abiae to ʋɔnudrɔ̃ƒe ƒe sedede dzi.
+Wogblɔ hã be woate ŋu azã nyadzɔdzɔ la be woana wo authority siawo katã si ate ŋu abiae to court ƒe se aɖe dzi.
 
 Twitter
 -------
 
-Abe Discord ene la, Twitter dzraa nyatakaka gbogbo aɖewo ɖo ɖe eƒe dɔwɔƒewo. Edzraa gbedasi siwo nèɖona tẽ, amesiwo nèdzena, kple amesiwo nèwɔa nu kplii hã ɖo (nyatakaka siwo nèdzra ɖo, nusiwo nèlɔ̃na), eye le nyateƒe me la, woƒe ɖoɖowo ɖi wo nɔewo kura, eye wo dometɔ aɖewoe nye wò nyatakakawo mama na ame bubuwo kple dziɖuɖumegãwo.
+Abe Discord ene la, Twitter hã ɖona nyadzɔdzɔ geɖe ɖe eƒe serverwo dzi. Ekpɔa direct messagewo, ame siwo nèkplɔna, kple ame siwo kplɔ wò nàwɔ nu kpli hã (post siwo wòɖoa ɖe asi, nu siwo nèlɔ̃), eye le nyateƒe me la, woƒe ɖoɖowo sɔ gbeɖeka, kple wò nyadzɔdzɔ mamama na ame etɔ̃wo kple authoritywo.
 
 Meta
 ----
 
-Meta ƒe dɔwɔɖoɖowo ƒe ƒuƒoƒoa, si me Facebook, Instagram, kple fifia Threads hã le, yi ŋgɔ wu ema, kple xexlẽdzesi didi ale gbegbe, nyatakaka siwo nèna ko, ale gbegbe be adidi akpa be woagblɔ wo tsitotsito. Elɔ wò nyawo katã ɖe eme, siwo dometɔ aɖewoe nye gbe me nuŋlɔɖiwo, foto siwo nèɖe to wò mɔ̃a ƒe "fotoɖemɔ̃" ƒe nɔnɔme alo eƒe nutatawo zazã me, boblododo siwo nèkpɔna, ɣeyiɣi si nèzãna tsɔ kpɔa wo, kple esiwo nètia be yeaŋe aɖaba aƒui gɔ̃ hã. Elɔ metadata siwo tso wò gbedasiwo me, abe teƒe si nèle, ŋkeke, gaƒoƒo, kple mɔ̃ ene ɖe eme. Elɔ ɣeyiɣi si nèzãna ɖe dɔwɔnua ƒe dɔwɔwɔ vovovoawo dometɔ ɖesiaɖe ŋu hã ɖe eme, eye ne sea mekpɔ tawò o la, wò mawusubɔsubɔdzixɔsewo, xexemenunya dzixɔsewo, gbɔdɔdɔ ƒe dzodzro, kple dɔwɔha me nɔnɔ gɔ̃ hã.
+Meta ƒe appwo ƒe ha, si me Facebook, Instagram, kple Threads le fifia, yi ɖe ŋgɔ wu, elabena lista si me nyadzɔdzɔ si nàna wo le la ŋu kekeake be ame mate ŋu aɖe eƒe nyawo katã ɖe eme o. Eme le wò postwo katã, kple gbe ƒe didienuwo, foto siwo nèɖe kple wò device ƒe "camera" dɔwɔwɔ alo eƒe gallery, ad siwo nèkpɔna, ɣeyiɣi si nèzãna kple wo kpɔkpɔ, eye va se ɖe esiwo nètsɔa ɖe aga o. Eme le metadata tso wò messagewo me, abe teƒe, ŋkeke, gaƒoƒo, kple device ene. Eme le ɣeyiɣi si nèzãna le app la ƒe dɔwɔwɔ vovovowo katã ŋu hã, eye ne se mele wò ƒom o la, wò subɔsubɔ ƒe xɔsewo, filosofia ƒe xɔsewo, ame siwo nèlɔ̃na kple wò sex ƒe ɖoɖo, eye va se ɖe union ƒe habɔbɔ me nɔnɔ.
 
-Gake woyi ŋgɔ wu ema, to woƒe Pixel xɔŋkɔa dzi la, Meta te ŋu nya nusi nèwɔna **le Facebook godo**: nyatakakadzraɖoƒe siwo nèʋuna, ɣeyiɣi agbɔsɔsɔme si nèzãna ɖe wo ŋu, fefe siwo nèwɔna, nusiwo nèƒlena, kple nyatakakawo abe wò sukudede ƒe seƒe ene gɔ̃ hã. Azɔ hã, le nyateƒe me la, mɔ̃ɖaŋununya ŋuti nyatakaka siwo ku ɖe wò mɔ̃a ŋu, abe IP adrɛs, dɔwɔɖoɖo, web-browser, kple bubuawo ene, eɖanye be ège ɖe Facebook alo mège ɖe eme o.
+Ke woɖo ŋgɔ wu, to woƒe Pixel si amewo de ŋkɔ na la dzi, Meta ate ŋu anya nu si nèwɔ **le Facebook ƒe gota**: website siwo nèyina, ɣeyiɣi si nèzãna le wo dzi, fefe siwo nèle fiam, nu siwo nèflea, eye va se ɖe nyadzɔdzɔ siwo sɔ abe wò sukukpɔkpɔ ƒe level ene. Eye hã, nyadzɔdzɔ siwo ku ɖe wò device ƒe teknik me, abe IP address, operating system, browser, kple bubuwo ene, ne wòɖo ɖe Facebook me alo mèɖo ɖe eme o.
 
-Nukatae Wòle Be Matsɔ Ðe Le Eme?
+Nu Ka Ta Melesi Be Maxɔ Ʌe?
 ------------------
 
-"Naneke mele asinye maɣla o" nye nyaʋiʋli si bɔ wu tsɔ ɖea nyatakaka siwo katã mɔ̃ siawo ƒoa ƒu tso mía ŋu ƒe vevienyenye dzi kpɔtɔna. Gake ne nusi wɔm nèle menye sedzidada o gɔ̃ hã la, susu nyuiwo li siwo ta nàtsi dzi ɖe nusi dɔwɔƒe siawo nya tso ŋuwò ŋu.
+"Menye nu aɖeke si matso ɖeɖe" nye nya si amewo gblɔna tsã be woagblẽ nyadzɔdzɔ sia katã ƒe vevi si platform siawo ƒoa tso mí ŋu la. Ke hã, ne nu si nèle wɔm mele se vɔ̃ o la, nyateƒeɖeɖe nyuiwo li be nàxɔ nublanui na nu si company siawo nya tso wò ŋu.
 
-Dunyahela aɖe ateŋu akpɔ ŋusẽ ɖe edzi vevie ne habɔbɔ sẽŋu ɖesiaɖe si wotsi tre ɖe eŋu tso nya me be nusi yewowɔna la "mesɔ o" eye wòbia nyatakaka tso ame sia ŋu tso dɔwɔƒe siawo dometɔ aɖe gbɔ, [si woatsɔ ana heheɖemegbe manɔmee](https://gizmodo.com/twitter-saudi-arabia-x-jack-dorsey-areej-al-sadhan-abdu-1850805085).
+Political activist aɖe ate ŋu akpɔ veve gã ne organization sesẽ aɖe si wòtsɔa eɖokui ɖe anyi tsɔa nu si wòwɔna be enye "nu vɔ̃" eye wobia nyadzɔdzɔ tso ame sia ŋu le company siawo dometɔ aɖe gbɔ, [si woana kplɔkplɔ manɔmee](https://gizmodo.com/twitter-saudi-arabia-x-jack-dorsey-areej-al-sadhan-abdu-1850805085).
 
-Kpɔɖeŋu siwo me kɔ hã li siwo me wò nyatakakawo ate ŋu ava nɔ amedzrowo, dɔwɔƒewo, alo kɔmpiutadzidzelawo si me, amesiwo ate ŋu azã wo hena taɖodzinu gbegblẽwo, abe ame ƒe ŋkɔ fifi, wò akɔntabubuwo me yiyi, boblododo siwo mèdi o ɖoɖo ɖe wò, gaxɔgbalẽviwo xɔxɔ le asiwò, alo [awɔ asitɔtrɔ le ŋuwò ene](https://en.wikipedia.org/wiki/Facebook%E2%80%93Cambridge_Analytica_data_scandal).
+Aƒeɖeɖe kɔkɔewo hã li si me wò ame ŋutɔ ƒe nyadzɔdzɔ ate ŋu ayi amedzrowo, companywo, alo hackerwo ƒe asi me, siwo ate ŋu azãa e na nu vɔ̃, abe ame ƒe identity fiafiam, mɔ kpɔkpɔ ɖe wò accountwo me, ad si womebia o ƒoƒo, wò vavã, alo [wò ɖoɖowɔwɔ](https://en.wikipedia.org/wiki/Facebook%E2%80%93Cambridge_Analytica_data_scandal) ene.
 
-Nenema ke àte ŋu abu wò nyatakakawo dzi ɖuɖu. Ðewohĩ mànya ale si wodzraa wò nyatakakawo ɖo, wɔa dɔ tso wo ŋu, alo tsɔa wo naa ame bubuwo o, alo màte ŋu atutu wo alo atrɔ asi le wo ŋu ne ètrɔ susu o. Esia ate ŋu ade wò afɔku me hã ne dɔwɔƒe si dzi nèka ɖo [mekpɔ wò nyatakakawo ta nyuie o](https://www.iotworldtoday.com/security/duolingo-data-breach-exposes-3-million-user-emails) [esɔ pɛpɛpɛ](https://edition.cnn.com/2023/01/05/tech/twitter-data-email-addresses/index.html).
+Nenema ke, nàte ŋu aɖe asi le wò nyadzɔdzɔ ŋu. Ðewohĩ mànya ale si wò nyadzɔdzɔ le ɖoɖe, wɔwɔ, alo mamam na ame etɔ̃wo, alo màte ŋu atutu alo atrɔe ne wò trɔ wò susu. Esia hã ate ŋu atsɔ afɔku ava wò dzi ne service provider si nèxɔ dzi se le eŋu la [meɣlã wò nyadzɔdzɔ nyuie o](https://www.iotworldtoday.com/security/duolingo-data-breach-exposes-3-million-user-emails) [le mɔ si sɔ o](https://edition.cnn.com/2023/01/05/tech/twitter-data-email-addresses/index.html).
 
-Ðe Mɔnu Bubuwo Lia?
+Mɔ Bubuwo Lia?
 -----------------------
 
-Togbɔ be amewo mexɔ ŋkɔ nenema gbegbe o hã la, mɔnu bubuwo li siwo woate ŋu azã ɖe hadomenyatakakadzraɖoƒe siwo ame geɖe lɔ̃a zazã wu ƒe akpa gãtɔ ya teti teƒe. Mina míalé ŋku ɖe ɖewo ŋu:
+Togbɔ be womeɖe ŋkɔ na wo abe bubu siwo ŋu amewo nya geɖe ene o la, mɔ bubuwo li na social network siwo ŋu amewo nya geɖe la ƒe akpa gã aɖe. Míakpɔ wo dometɔ aɖewo:
 
-### Matrix, abe Discord ene gake ame ŋutɔ tɔ wu
+### Matrix, abe Discord ene ke boŋ eƒe ɣaɣla sɔ wu
 
-Matrix nye mɔnu bubu si te ɖe Discord kple Telegram ŋu wu, ema woƒe nɔnɔme geɖe gake wòtsɔa ameŋunyatakakawo ƒe nyonyo abe nuwuwu vaseɖe nuwuwu ene kpena ɖe eŋu, mewɔa asitsadɔ tso nyatakakawo me o, eye wònana eƒe kɔpiwo nɔa ʋuʋu ɖi. Femaxee kura ne ètso nya me be yeawɔ ye ŋutɔ yeƒe server dzi, togbɔ be àte ŋu axe fe ɖe server tɔxɛ aɖe ta le internet dzi alo adzɔ nu na dɔa hã. Enye cross-platform eye wòɖea mɔ gɔ̃ hã be woawɔ ɖeka kple Discord, Telegram, kple dɔwɔnu xɔŋkɔ bubuwo.
+Matrix nye mɔ bubu si sɔ ɖe Discord kple Telegram ŋu wu, eye wòma woƒe dɔwɔwɔ geɖewo le, ke wòtsɔ ɣaɣla ƒe nyuieɖoɖowo kpe ɖe eŋu abe end-to-end encryption, data ƒe dzidzedze mekpɔkpɔ, kple eƒe code ƒe open source nɔnɔ ene. Enye ablɔɖe blibo ne wòɖo ŋku be yé nàwɔ wò ŋutɔ ƒe server, togbɔ be ɖewohĩ wòadi be yeaxe ga na server si wotu ɖe esia ta le internet dzi alo wòatsɔ kpekpeɖeŋu na project la. Ewɔa dɔ le platform vovovowo dzi eye wòna mɔ be woaɖo eɖokui kple Discord, Telegram, kple app siwo ŋu amewo nya geɖe bubuwo hã.
 
-### Mastodon ƒe ŋkɔ
+### Mastodon
 
-Twitter teƒe siwo ame geɖe lɔ̃a zazã wu dometɔ ɖeka, togbɔ be menye eya ɖeka koe o hã. Mastodon to vovo le esi wònye decentralized ta, si fia be ame ɖekaɖeka alo habɔbɔ ɖesiaɖe si di be yeadze yewo ŋutɔ ƒe kpɔɖeŋu alo "server" gɔme na amesiwo ƒe didi alo nɔnɔme ɖeka, gake woateŋu awɔ nu kple instance bubu siwo le wo ɖokui si.
+Enye mɔ bubu si ŋu amewo nya geɖe na Twitter, togbɔ be menye ɖeka pɛe o. Mastodon ƒe tɔxɛ nye be wòle ha nuɖo agni [decentralized], si fia be ame sia ame alo organization sia organization si di la ate ŋu adze eƒe instance alo "server" ŋu na ame siwo ƒe hiãhiã alo nɔnɔ sɔ, ke woate ŋu awɔ nu kple instance siwo le wo ŋutɔ ƒe mɔ nu.
 
-Le Mastodon la, dɔdzikpɔla ɖesiaɖe ɖoa eya ŋutɔ ƒe sewo, eye esi womeƒoa wo ɖokui ɖe nyatakakawo ƒe asitsatsa me o ta la, womeƒoa nyatakaka geɖe nu ƒu tso wo zãlawo, amewo ƒe xexlẽme, alo nusiwo wolɔ̃ ŋu o, eye wometsɔa wo naa ame bubuwo hã o.
+Le Mastodon me la, administrator sia administrator dea eƒe sewo, eye elabena wometsɔa nyadzɔdzɔ wɔa asitsɔdzi o la, wometsɔa nyadzɔdzɔ geɖe tso woƒe zazãlawo, amewo ƒe ƒome kple nɔnɔ, alo woƒe lɔlɔnuwo ŋu o, eye womemana e na ame etɔ̃wo o.
 
-Nublanuitɔe la, womewɔa nya ɣaɣla tso nuwuwu vaseɖe nuwuwu ŋudɔ le woƒe gbedasiwo me o, si nye nusi wòle be wòanɔ susu me na wo.
+Le gbɔgbɔ me la, wometsɔa end-to-end encryption dea woƒe messagewo me o, si nye nu si wòle be nàɖe ŋku ɖe eŋu.
 
-### Dzesi ƒe dzesi
+### Signal
 
-Wogblɔe tsitotsito le míaƒe gbedasiwo ɖoɖoɖa ƒe asitsalawo ƒe wiki me, Signal nye mɔnu si nye ame ŋutɔ tɔ eye wòle dedie wu ɖe Telegram kple WhatsApp teƒe, si ma nɔnɔme siwo hea ame ŋutɔ eye wodoa dzidzɔ na ame
-
-
+Wogblɔe ɖe míƒe messaging clients ƒe wiki me, Signal nye mɔ bubu si eƒe ɣaɣla kple dedienɔnɔ nyo wu na Telegram kple WhatsApp, eye wòma dɔwɔwɔ nyuitɔ kple dzidzɔnu geɖewo

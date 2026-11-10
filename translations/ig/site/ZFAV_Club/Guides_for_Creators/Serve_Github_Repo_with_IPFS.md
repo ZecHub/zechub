@@ -1,67 +1,67 @@
 <a href="https://github.com/Zechub/zechub/edit/main/site/ZFAV_Club/Guides_for_Creators/Serve_Github_Repo_with_IPFS.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Dezie Peeji"/>
 </a>
 
-# Na-eje ozi GitHub Repo na IPFS
+# Jiri IPFS nye Repo GitHub
 
-## Okwu Mmalite
+## Mmalite
 
-N'ime ntuziaka a, anyị na-amụta otu esi emepụta git cloneable URL maka ebe nchekwa GitHub gị na-eji IPFS CID. 
+N'ime nduzi a, anyị ga-amụta otu esi emepụta URL a pụrụ iji git clone maka ebe nchekwa GitHub gị nke eji IPFS CID enye ọrụ. 
 
-Nke a bara uru iji hụ na ọdịnaya dị n'agbanyeghị mpaghara mpaghara, nkwụsị nke censorship na dịka nkwado ndabere na-adịgide adịgide nke ozi bara uru!
+Nke a bara uru iji hụ na ọdịnaya dị mgbe niile n'agbanyeghị mpaghara ala, iguzogide mmachi, nakwa dịka nkwado ndabere na-adịgide adịgide maka ozi bara uru!
 
-Rịba ama: Data ebugote na IPFS dị maka ndị ọrụ netwọk niile. Ị nwere ike ịchọrọ izo ya ezo data / data nzuzo.
+Note: Data ebugoro na IPFS dịrị ndị ọrụ netwọk niile. Ị nwere ike ịchọ izobe ederede data nkeonwe/nwere mmetụta n'ime ngwaọrụ gị.
 
 ## Wụnye IPFS Kubo
 
-Soro ntuziaka ntinye nyere [ebe a](https://docs.ipfs.tech/install/command-line/#install-official-binary-distributions)
+Soro ntuziaka nrụnye enyere [ebe a](https://docs.ipfs.tech/install/command-line/#install-official-binary-distributions)
 
-N'ihe atụ a, anyị na-eji Linux, nsụgharị OS ndị ọzọ dị.
+N'ihe atụ a, anyị na-eji Linux, ụdị OS ndị ọzọ dịkwa.
 
-Lelee nrụnye gara nke ọma site na iji ipfs version
+Lelee na nrụnye gara nke ọma site n'iji   ipfs –version
 
-## Ebe nchekwa clone
+## Detuo Ebe Nchekwa
 
-Iji malite, họrọ ebe nchekwa Git ịchọrọ ịnabata & mepụta ya:
+Iji malite, họrọ ebe nchekwa Git ịchọrọ ịnabata ma detuo ya:
 
-Gbaa Iwu: git clone https://github.com/zechub/zechub”
+Gbaa iwu a: …git clone https://github.com/zechub/zechub”
 
-![/content-images/Screenshot-from-2023-05-20-14-14-46-8503afccc3.webp](/content-images/Screenshot-from-2023-05-20-14-14-46-8503afccc3.webp)
+![https://i.ibb.co/HxFX37b/Screenshot-from-2023-05-20-14-14-46.png](/content-images/Screenshot-from-2023-05-20-14-14-46-8503afccc3.webp)
 
-Ugbu a, iji nweta ya njikere ka cloned site IPFS.
+Ugbu a, iji kwadebe ya ka e nwee ike idetu ya site na IPFS.
 
 cd zechub git update-server-info
 
-Wepụ ihe Gits:
+Kwụpụta ihe Git nwere:
 
 ![](/content-images/image-2024-04-20-175848513-2ceb90dd7b.webp)
 
-Ime nke a ga-ekwe ka IPFS wepụ ihe ndị ahụ ma ọ bụrụ na ị melite ebe nchekwa Git mgbe e mesịrị.
+Ime nke a ga-ekwe IPFS ikpochapụ ihe ndị yiri ibe ha ma ọ bụrụ na ị melite ebe nchekwa Git ma emechaa.
 
 ## Tinye na IPFS
 
-Ozugbo i mere nke ahụ, ebe nchekwa ahụ dị njikere ka a na-eje ozi. Ihe niile fọdụrụ ime bụ ịgbakwunye ya na IPFS:
+Mgbe ị mechara nke ahụ, ebe nchekwa ahụ adịla njikere ka e nye ya ọrụ. Ihe fọdụrụ ime bụ itinye ya na IPFS:
 
 $ pwd
 
 /code/myrepo
 
-$ ipfs gbakwunye -r 
+$ ipfs add -r 
 
-![/content-images/Screenshot-from-2023-05-20-14-22-38-3fc2f72d91.webp](/content-images/Screenshot-from-2023-05-20-14-22-38-3fc2f72d91.webp)
+![https://i.ibb.co/LJgK1q3/Screenshot-from-2023-05-20-14-22-38.png](/content-images/Screenshot-from-2023-05-20-14-22-38-3fc2f72d91.webp)
 
-Ihe si na CID pụta: Qmbgqox5g3614gjTb43s5mdSmmk95aGWWA9EHksL2T91A2
+CID e nwetara: Qmbgqox5g3614gjTb43s5mdSmmk95aGWWA9EHksL2T91A2
 
-![/content-images/Screenshot-from-2023-05-20-14-26-34-6e00fee828.webp](/content-images/Screenshot-from-2023-05-20-14-26-34-6e00fee828.webp)
+![https://i.ibb.co/GvhCLwn/Screenshot-from-2023-05-20-14-26-34.png](/content-images/Screenshot-from-2023-05-20-14-26-34-6e00fee828.webp)
 
-Ọmarịcha! Ugbu a, a na-ebugote ebe nchekwa gị na netwọkụ.
+Ọ dị mma! Ugbu a, ebugola ebe nchekwa gị na netwọk.
 
-## Klọọ iji IPFS
+## Detuo site na IPFS
 
-Ị ga-enwe ike ugbu a iji weghachite ebe nchekwa GitHub site na iji:
+Ugbu a, ị ga-enwe ike weghachite ebe nchekwa GitHub site n'iji:
 
-git mmepụta oyiri http://ipfs.io/ipfs/yourCID
+git clone http://ipfs.io/ipfs/yourCID
 
-N'aka nke ọzọ ị nwere ike ịchọ & weghachite site na iji mpaghara IPFS gị.
+N'aka nke ọzọ, ị nwere ike ịchọ ma weghachite ya site na node IPFS dị n'ime ngwaọrụ gị.
 
-Nkọwa ikpeazụ: nchekwa nchekwa na IPFS anaghị enweta mmelite n'akụkụ ezigbo ụlọ nkwakọba ihe github. A na-atụ aro ka ị weghachite nchekwa ahụ mgbe niile.
+Note Ikpeazụ: Folda repo dị na IPFS anaghị enweta mmelite tinyere ebe nchekwa github n'eziokwu. A na-atụ aro ka ebugharịa folda ahụ ọzọ n'oge oge niile.

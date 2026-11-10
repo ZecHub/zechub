@@ -1,29 +1,29 @@
-# Zebra Sesẽe Blibo Node
+# Zebra Ɣaɣla dzesi ŋɔŋlɔ blibo [Full Node] si wolé ɖe asi
 
-- Zãa zãla si tsɔ eɖokui na si si mɔnukpɔkpɔ mele o + kernel-level systemd sandboxing (ɖekaɖeka ma ke abe Docker ene). 
-- RPC nye localhost-ko kple dedie cookie auth (default & recommended). 
-
-
----
-
-## Nusiwo hiã do ŋgɔ
-
-- distro ɖesiaɖe si wotu ɖe Ubuntu dzi
-- Rust dɔwɔnuwo ƒe kɔsɔkɔsɔ si woda ɖe eme (`rustup` + `cargo`)
-- Ne mede ɖeke o la, 300 GB ya teti ƒe disk ƒe teƒe si woate ŋu akpɔ faa (`/var` mama) .
+- Etsɔ zãla si mekpɔ mɔ tɔxɛ kple systemd sandboxing si le kernel ƒe haxɔ me (mamã tɔxɛ abe Docker ene).  
+- RPC le localhost ko dzi kple cookie auth si le dedie (enye default eye woɖo eŋu).  
 
 
 ---
 
-## Zi Ðeka ƒe Ðoɖowɔwɔ (Du du abe wò zãla si nèzãna ɖaa ene) .
+## Nusiwo hiã
 
-### 1. Trɔ asi le ɖoɖo & install xɔ dependencies
+- Ubuntu-based distro ɖe sia ɖe
+- Rust toolchain si wode (`rustup` kple `cargo`)
+- Disk ƒe teƒe blibo si ƒe GB 300 le xɔxɔ me (`/var` partition)
+
+
+---
+
+## Teƒeɖoɖo Ƒe Ɣeyiɣi Ɖeka (Wɔe abe wò zãla kawaida ene)
+
+### 1. Trɔ system la eye nàde build ƒe dependency-wo
 
 ```
 sudo apt update && sudo apt install -y build-essential pkg-config libclang-dev clang libssl-dev protobuf-compiler
 ```
 
-## Trɔ asi le Rust ŋu eye nàda zebrad yeyetɔ (v4.3.0+) ɖe wò kɔmpiuta dzi.
+## Trɔ Rust eye nàde zebrad si yeyee (v4.3.0+)
 
 ```
 rustup update
@@ -34,14 +34,14 @@ sudo chmod 755 /usr/local/bin/zebrad
 zebrad --version
 ```
 
-## Wɔ zebra zãla si si mɔnukpɔkpɔ mele o si tsɔ eɖokui na
+## Wɔ zebra zãla tɔxɛ si mekpɔ mɔ
 
 ```
 sudo adduser --system --group --no-create-home --shell /usr/sbin/nologin zebra
 ```
 
 
-## Wɔ nyatakakadzraɖoƒe si le dedie
+## Wɔ data ƒe fiẽƒe dedie
 
 ```
 sudo mkdir -p /var/lib/zebrad
@@ -49,7 +49,7 @@ sudo chown zebra:zebra /var/lib/zebrad
 sudo chmod 700 /var/lib/zebrad
 ```
 
-## Wɔ ɖoɖo si le dedie (/etc/zebrad/zebrad.toml) .
+## Wɔ configuration dedie (/etc/zebrad/zebrad.toml)
 
 ```
 sudo mkdir -p /etc/zebrad
@@ -73,7 +73,7 @@ sudo chown zebra:zebra /etc/zebrad/zebrad.toml
 sudo chmod 600 /etc/zebrad/zebrad.toml
 ```
 
-## Wɔ systemd subɔsubɔdɔ sesẽ
+## Wɔ systemd service si wolé ɖe asi
 
 ```
 sudo tee /etc/systemd/system/zebrad.service > /dev/null <<EOF
@@ -110,17 +110,17 @@ EOF
 sudo systemctl daemon-reload
 ```
 
-## Gbesiagbe Zazã - Sedede Ðeka ƒe Dɔwɔwɔ
+## Dzidzɔ ƒe Zãzã - Dɔwɔwɔ kple command Ɖeka
 
-| Nuwɔna | Sedede | De dzesiiwo |
+| Nuwɔna                  | Command                                      | Nudzɔdzɔ |
 |-------------------------|----------------------------------------------|-------|
-| **Dze egɔme** | `sudo systemctl start zebrad` | Sedede ɖeka |
-| **Dzudzɔ** | `sudo systemctl stop zebrad` | Sedede ɖeka |
-| **Nɔnɔme** | `sudo systemctl status zebrad` | Fia ne ele du dzi |
-| **Agbe nuŋlɔɖiwo** | `journalctl -u zebrad -f -o short-precise` | Exɔ ɖe eteƒe `screen -r` |
-| **Xɔ RPC kuki** | `sudo cat /var/lib/zebrad/.cookie` | Ne èle du dzi ko |
+| **Dze egɔme**               | `sudo systemctl start zebrad`                | Command ɖeka |
+| **Tsi**                | `sudo systemctl stop zebrad`                 | Command ɖeka |
+| **Nɔnɔme**              | `sudo systemctl status zebrad`               | Efia ne ele dɔ wɔm |
+| **Log-wo si le dzɔdzɔm**           | `journalctl -u zebrad -f -o short-precise`  | Etɔ ɖe `screen -r` teƒe |
+| **Xɔ RPC cookie**      | `sudo cat /var/lib/zebrad/.cookie`           | Ne ele dɔ wɔm ko |
 
-**Aliases siwo sɔ** (tsɔ kpe ɖe... `~/.bashrc` or `~/.zshrc`):
+**Alias-wo si ƒe zãzã bɔbɔe** (tsɔ kpe ɖe `~/.bashrc` alo `~/.zshrc` ŋu):
 ```
 alias zebra-start='sudo systemctl start zebrad'
 alias zebra-stop='sudo systemctl stop zebrad'

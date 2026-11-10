@@ -2,57 +2,57 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Teƒe Siwo Woazã ZEC Le
+# Teƒewo Nàtsɔ ZEC Aƒle Nu Le
 
-Egbea, esi amewo ƒe ŋkuwo (si nya *aʋatsotso* le tsyɔm na) va zu nusi dzi dziɖuɖu kple gadzraɖoƒedzikpɔlawo wɔna la, edze abe womedea asixɔxɔ ame ɖokui ŋu o ene.
+Egbe, esi ŋkulélelé (woyɔe be *transparency*) zu nu si dzi woƒoa asi le dzikpɔlawo kple ganyawo me la, ɣaɣla [privacy], abe amegbetɔ ƒe gomeɖokpe ene la, abe be womebugbɔa ŋku edzi o.
 
-Ke hã, le ga ƒe mɔnu yeyewo gome la, ame aɖewo - abe Zcash ene - li siwo le agbagba dzem be yewoakpɔ wò dedienɔnɔ kple ŋuwò nya ta. Elabena nu veviwoe wonye vavã.
+Gake le ganyanya ƒe mɔ yeyeawo ŋu la, ame siwo le dɔ wɔm abe Zcash ene be woakpɔ wò dedienɔnɔ kple ɣaɣla ta, elabena wole vevi.
 
-Zcash kple ZEC na ame ƒe dedienɔnɔ kpakple eƒe dedienɔnyawo me va le kɔkɔm. Gake, abe afɔɖeɖe gbãtɔ ene la woxɔa edzi eye wozãnɛ tso esi wònye be asitsatsa (nyateƒesi) geɖewo, fiasewo kple amesiwo naa kpekpeɖeŋu xɔna **ZEC** abe fexeɖoɖo aɖe ko ene ta. 
+Zcash kple ZEC na ɣaɣla kple dedienɔnɔ ƒe nɔnɔme siwo sɔ wu. Ke hã, afɔgbã gbãtɔ le woƒe zazã kple wɔwɔ me nye be bizinis, afitsɔƒe, kple ame geɖe wu nabia be woawɔ **ZEC** abe fexexe [payment] ƒe mɔ ene.
 
-## Nukatae wòle be nàxɔ ZEC?
+## Nu ka ta wòaxɔ ZEC?
 
-Ne dɔwɔƒe aɖe le asiwò alo èdzraa nu si nèwɔ la, ɖewohĩ àdi be yeaxɔ Zcash. Nu ka tae? Le afi sia me la, susu kple viɖe gbogbo siwo ta nàkpɔe abe wò fefenu ene dometɔ aɖewo dze le eme. 
+Ne asitsɔƒe le asiwò alo nèle nu alo dɔ geɖe dzram la, àdi be nàxɔ Zcash. Nu ka ta? Le afisia la, míeɖe susu geɖe kple viɖe siwo ta nàtsɔe awɔ wò fexexe ƒe mɔ la fia.
 
-- ** Ɖo ame ƒe nu ɣaɣla dzi. ◯** To vovo na gaxe fefe si amewo nya nyuie kple esi bɔ la, Zcash ya kpɔa wò asitsatsawo ta to zk-SNARKs zazã me le mɔ aɖe nu be woagava dze go o (eye womate ŋu akpɔe adze sii) eye nyatakaka siwo ku ɖe asitsatsotsoa ŋu hã nɔa vevie (henye ŋkuagbãnya), ne amea nye amesi ɖo asi eŋu alo ame bubu ko wònye.
-- **Fastest and more cost-effective payment method. ◯** ZEC ƒe nuxexlẽwo yia edzi tẽe eye womebia ame etɔ̃lia (abe gadzraɖoƒewo ene) o, si wɔe be woɖɔli ɣeyiɣi kpui aɖe wu kple fe siwo dzi wotua la le sue wu esi wozãna na ga home zazã to mɔnu bubuwo me ta, eya ta àte ŋu aŋlɔ Paypal ya ɖi azɔ. Fifia ènya be menye tiatia * nyuitɔ* ye wònye o.
-- **Ðe wò asisiwo dzi.**. Ne èxɔ ZEC la, amewo ƒe ƒuƒoƒo si lɔ̃a ga siwo wotsɔ wɔa adzɔnuwo alo dɔwoe ate ŋu ava xɔ ɖe dziwò wu.
-- ** Do ŋusẽ kple do ame ƒe dzi ɖe edzi. ◯** Ne èna amewo nya be wò dɔwɔƒe le ZEC xɔm la, esia ate ŋu ana nàkpɔ viɖe eye woalɔ̃ faa axɔe tso asisiwo gbɔ alo esiwo ava nyea asitɔtɔ siwo adi be yewoazã woƒe ZEC ɣesiaɣi si dze ŋuwò.
-- **Ðe vovototo le nu yeyewo me.*. Esi nèɖoe be yeaxɔ ZEC ɖe wò fiase, asitsatsa alo taxi-mɔa dzi gɔ̃ hã la, àte ŋu anɔ amesiwo lɔ ga kple fexeɖeta kpakple dzidzɔdonamenu vovovowo ƒe akpa aɖe dome.
+- **Nàsɔ ɣaɣla gbɔ. |** To vovototo na fexexe ƒe mɔ xɔasiwo kple blema mɔwo, Zcash, le zk-SNARKs ta la, dea wò gaɖoɖowo [transaction] dzi ɣaɣla to ɣaɣla (womakpɔe kple amewo katã o) le gaɖoɖowo ƒuƒoƒo ƒe ɖoɖonu [blockchain] dzi, eye nyatakakawo siwo le gaɖoɖowo me la le vevi na, eye woƒe nɔnɔme kple, ame si dɔ ga ɖa kple ame si xɔe koe.
+- **Fexexe ƒe mɔ si wɔna kaba kple asɔ gbɔ wu. |** ZEC gaɖoɖowo nye tete ɖe ame si xɔe la gbɔ, eye ame etɔ̃ manɔa titina o (abe bankiwo ene), eyata wɔwɔ ƒe gaƒoƒo kpui wu eye adzɔ [fee] hã bɔbɔ wu na fexexe ƒe mɔ blemawo. Ale nàte ŋu nàŋlɔ Paypal ɖi. Azɔ nènya be menye tiɖo ƒe mɔ aɖeke o.
+- **Nàna wò asitsɔlawo nasɔ gbɔ.** | Ne èxɔ ZEC la, wò asitsɔƒe / nu alo dɔ ate ŋu ahe ame geɖe siwo lɔ̃a be yewoatsɔ cryptocurrencies azã ava.
+- **Nàdo asitsɔla ƒe nɔviɖoɖo kple dzidzɔ kpɔtɔ. |** Ne ège ɖe asitsɔla ƒe ha sia me eye nàna amewo nanya be wò teƒe la xɔa ZEC la, ate ŋu ana wòakpɔ wò ati na asitsɔla xɔasiwo kple siwo ate ŋu ava, siwo ava gbɔwò ɣesiaɣi si woahiã be woatsɔ woƒe ZEC aƒle nu la.
+- **Nàwɔ vovototo abe nu yeyewo ƒe wɔnɔla ene. |** Ne èɖo ŋku be nàxɔ ZEC le wò afitsɔƒe, bizinis, alo ne èle taxi ƒe dɔ wɔm hã la, àte ŋu nàɖo wò ɖe ame siwo lɔ̃a ganyanya, fexexe kple vivina ƒe mɔ bubuwo ƒe dome.
 
-Ne èbu nu siwo katã míeyɔ va yi ŋu la, teƒe geɖe li si nàte ŋu azã ZEC le. Na míakpɔ nusi míeyɔ be: 
+Ne míetsɔ nu siwo katã woŋlɔ yi ŋgɔ la ɖe ŋku me la, teƒe geɖe li si wòate ŋu nàtsɔ ZEC aƒle nu le. Mina míakpɔ nu si míeyɔ be:
 
-## Teƒe siwo xɔ ZEC wu la le ŋgɔ.
+## Teƒe siwo xɔa ZEC wu
 
  ****
 
-Le Venezuela la, teƒe gbogbo aɖewo li (ƒe ŋutɔŋutɔ kple internet dzi) siwo nàte ŋu akpɔ nu alo awɔ dɔ le ahazã Zcash atsɔ axe fewo... Mina míadze egɔme!
+Veve la, le Venezuela la, teƒe geɖe (teƒe siwo nèate ŋu ayi kple online teƒewo) li si wòate ŋu nàxɔ nu alo dɔ le eye nàtsɔ Zcash axɔe… Mina míadze egɔme!
 
-> Womewɔ ɖoɖo aɖeke o. Èhiã Zcash gaɖaka kple internet-kadodo aɖe ko.
+> Womede wo ɖe ɖoɖo aɖeke nu o. Èhiã Zcash gakotoku [wallet] kple network ƒe kadodo.
 
-[** Nutovɛ - Abolomeleƒe Kple Suklidzraɖoƒe**] 
+[**Nudzadza - Aboloƒe & Chocolaterie**] 
 
-1.  **Sheila Vargas** Nutritionist Blogger Dzɔdzɔmeŋutinunyala Mentorship 
+1.  **Sheila Vargas**  | Nudzala | Blogger | Bizinis-dzidzɔla | Nufiame
 
-[@SheEmprende_ le Social Media dzi.](https://twitter.com/SheEmprende_)Eʋã ɖe fefewɔƒea le eƒe nu vivi (kple esi nya kpɔ ŋutɔ) ta. **[Galletas de la FeliZidad (Fɔtrɔ̃ ƒe Abolo)](https://free2z.cash/SheEmprende/zpage/galletas-zcash)**
+[@SheEmprende_ le Social Media dzi](https://twitter.com/SheEmprende_). Eɖo ŋgɔ le ŋkeke siawo me to eƒe **[Galletas de la FeliZidad](https://free2z.cash/SheEmprende/zpage/galletas-zcash)** si xɔa ŋkɔ kple vivi la ta.
 
-Tsɔ kpe ɖe eƒe kukuawo ŋu la, enaa nu bubuwo hã eye nusi nyo wu enye si: àte ŋu atsɔ ZEC axe fe!
+To eƒe cookies gbɔ la, ena dɔ bubuwo hã, eye nu nyuitɔ wu nye esi: àte ŋu atsɔ ZEC axɔe!
 
- Akɔbli kpluwo. Sheila Vargas Rojas ƒe nuŋlɔɖi:
+Crackle chocolate cookies | Credit: Sheila Vargas Rojas
 
-Oat flakes kple raisin cookies. Sheila Vargas Rojas ƒe nuŋlɔɖi
+Oat flakes & raisin cookies | Credit: Sheila Vargas Rojas
 
-Donuts kple atikutsetse siwo wotsɔ nu ʋeʋĩ wɔ. Sheila Vargas Rojas ye ŋlɔ agbalẽa na mí. 
+Doughnuts kple kandied fruits | Credit: Sheila Vargas Rojas | 
 
 [https://twitter.com/Edicksonjga/status/1656458011278204929?t=oRSUKXQ71IsTv0tcqY10tA&s=19](https://twitter.com/Edicksonjga/status/1656458011278204929?t=oRSUKXQ71IsTv0tcqY10tA&s=19)
 
-Eyata ne ènye biskɔt-nuvɔ̃la la, ekema...
+Ale ne ènye cookie monster aɖe la..,
 
 ![https://media.tenor.com/Px4lboKQYbYAAAAC/champagne-barbie-cookie-monster.gif](/content-images/champagne-barbie-cookie-monster-ded97640a2.webp)
 
-azɔ ènya afisi nàzã wò ZEC le!
+azɔ nènya afi si nàtsɔ wò ZEC aƒle nu le!
 
-Woɖe sheemprende.com ɖa le Internet dzi eye megale dɔ wɔm o. Dze agbagba nàkpɔe to eƒe telefon la dzi [Free2Z](https://free2z.cash/SheEmprende) | [X-Taflatsɛdeƒe](https://twitter.com/SheEmprende_)
+**Website**: sheemprende.com wogblẽe eye megava ɖoa afi aɖeke o. Nàkpɔe le [Free2Z](https://free2z.cash/SheEmprende) | [X Platform](https://twitter.com/SheEmprende_) dzi.
 
 **Zcash Unified Address:** 
 
@@ -60,21 +60,21 @@ Woɖe sheemprende.com ɖa le Internet dzi eye megale dɔ wɔm o. Dze agbagba nà
 u1pu63k8tfcf0v06qr6f9qn3qpfh2hj8wjnc3wchguaqy2jc9xxmf4f424jns282qfwzvs6qq3tcd9erv3udraj435hl7r6pz3q5ehdjnha2ve9c4ley9l0wh8um9s0zlvqungxexjerfkp8gjvemgtp6pgm694txw5p0mw4at49jzwcxygy7c72gceph340zscg7kscqhqw2yzg3alkh
 ```
 
- Caracas - Venezuela (Venezuela) 
+📍 Caracas - Venezuela 
 
 ---
 
-1. Míenye Dulceros, Rosa Rangel ye ŋlɔe. 
+1. **Somos Dulceros |  By Rosa Rangel** 
 
-Rosa Ma. Rangel, si nye kɔmpiutaɖaŋuwɔla le dɔ me gake wònye *chocolatière* tso dzi blibo me eye wòlɔ̃a tsokolate kple abolomeme kpakple nuɖunuwo wɔwɔ vevie la ƒlea atikutsetse vovovo siwo wotsɔna wɔa wo ɖokui tɔe - tso chocolate ŋu yi ɖe Venezuelan-kɔmiamenuɖuɖu kple abolokpo ŋutidɔwɔƒewo gbɔ. 
+Rosa Ma. Rangel nye Computer engineer le eƒe dɔ me, gake *chocolatière* le eƒe dzi me. Ele chocolate lɔ̃m ŋutɔ, eye abolo kple pastry wɔwɔ dzɔe ŋutɔ. Ena asi ƒe nu geɖe siwo wowɔ kple chocolate, Venezuelan ƒe vivi blemawo, kple abolo.
 
-Atiku ƒuƒu kple tsokoladze si me atikutsetsewo le 
+Kuƒoƒo wɔmewo kple strawberry chocolate
 
-Rosa ko alɔgbɔnu kple dada tsɔ ɖee fia be yeaxɔ Zcash. *
+Rosa nɔ kum ƒe dzidzɔ me esi wofiae be exɔa **Zcash.**
 
-**Website**: somosdulceros.com megale dɔ wɔm o eye megate ŋu le nu ƒom azɔ hã o. Zã social link siwo dze le ete la nàtsɔ akpɔ egbɔe.
+**Website**: somosdulceros.com wogblẽe eye megava ɖoa afi aɖeke o. Tsɔ social links siwo le ete la azã.
 
-** Hadomegbenɔnɔ ŋuti nyatakakadzraɖoƒewo:** [Instagram](https://www.instagram.com/somos_dulceros) | [X-Taflatsɛdeƒe](https://twitter.com/RosaMRangel) | [Free2Z](https://free2z.cash/Criptodulceros/zpage/criptodulceros-01)
+**Social media:** [Instagram](https://www.instagram.com/somos_dulceros) | [X Platform](https://twitter.com/RosaMRangel) | [Free2Z](https://free2z.cash/Criptodulceros/zpage/criptodulceros-01)
 
 **Zcash Unified Address:** 
 
@@ -82,29 +82,29 @@ Rosa ko alɔgbɔnu kple dada tsɔ ɖee fia be yeaxɔ Zcash. *
 u12vp85edmrkqy9uvall4wqqn2s9fx8nm5phsxu2nyme5yh8hn5xh8mv3qgunynskjy3t0w89234a83rv8vpy98k7ztghur22z6fdrjpvjscjxtdwfj5w0dfj6jv6pw3ns5lx257lsndfe0ul2mer22kzanphyjvaxgxydfkwm9rvww78gd2n9xadfdyxr50430d3hwz59c4hhjaq5qyh
 ```
 
- Caracas - Venezuela (Venezuela) 
+📍 Caracas - Venezuela 
 
 ---
 
-[[Nɔnɔmetatawo le axa 27]
+[**Asi ƒe Wɔwɔ | Design | Kpekpe ƒe Dɔdzikpɔlawo]**
 
 1. **Papeles a Color** | By **Elizabeth** **B.**
 
-Elizabeth nye vidada ɖekakpui si lɔ̃a asinudɔwɔwɔ kple wɔwɔfia. Eƒe nu vevitɔe ʋãae wòtsɔa eɖokui nana le nusianu si wòwɔ me: eƒe ƒomea.*💙*
+Elizabeth nye dada suŋu aɖe si lɔ̃a asi ƒe wɔwɔ kple design. Esi nudzodzro vevitɔ wu na esi wònɔ dɔ wɔm vevie ɣesiaɣi la nye eƒe ƒome*.💙*
 
-**Blog:** Eʋegbe me tɔwoe nye: 
+**Blog:** 
 
 [https://papelesacolor.blogspot.com/](https://papelesacolor.blogspot.com/) 
 
-Ðe wole viwòwo dom ɖe dzi le dɔ me? Papeles a color ate ŋu akpe ɖe ŋuwò nàɖu woƒe dzidzedzekpɔkpɔa ƒe azã.
+Wò viwo le ɖoƒe yeye xɔm? **Papeles a color** ate ŋu akpe ɖe ŋuwò be nàɖu woƒe dzidzedze ŋu.
 
-Nu bubu aɖe si to vovo eye etɔxɛe? Zcash* asitelefon ƒe agbaɖakaƒe!
+Nu bubu kple nu si mewɔna o? **Zcash** mobile phone ƒe charger teƒe!
 
-Nu nyui bubu siwo Papeles a Color wɔ kple asi.
+Nu siwo Papeles a Color wɔna kple asi la ƒe aɖewo.
 
 ---
 
-** Hadomegbenɔnɔ ŋuti nyatakakadzraɖoƒewo** 
+**Social media** 
 
 [Instagram](https://instagram.com/papelesacolor) | [Free2Z](https://free2z.cash/PapelesaColor) 
 
@@ -116,29 +116,29 @@ Nu nyui bubu siwo Papeles a Color wɔ kple asi.
 u1u7unmxgr6efh0l94hz0ag6zku4rjeuuarhql5xsnt744e2lu0dsmhrye5a6mlahw067atgh6x0ykaxrsdraepu08qhu5f6e3udmpl72a8vtsclwwvx9ux2mmk5jyy83asu5957pwac07jhmpgn7unz96dljetqylp34l5mvj3grjwqm7wmdxgcyehhnntafrl5r727klaklt29lykvg
 ```
 
- San Juan de los Morros - Venezuela. 
+📍 San Juan de los Morros - Venezuela. 
 
 ---
 
-**[[Ƒomegbenɔnɔ] Digital Marketing Web Design Video[**
+**[Community Ƒe Tututu | Digital Marketing | Web Design | Video]**
 
-1. ** Venezuela Ƒe Dzɔdzɔmeŋutinunyalawo**
+1. **Emprendedoras Digitales de Venezuela**
 
-Èdi be yease le ɖokuiwò me *be ŋusẽ ɖo yea?* **Emprendedoras Digitales de Venezuela** nye teƒe nyui aɖe si nàdze egɔme tso.** Ameha sia enye nyɔnu dɔwɔla bibi siwo ƒe susuwo wɔ ɖeka eye Aura Britoe nɔ ŋgɔ na wo. 
+Èdi be nàse be wòte ŋu awɔ nu geɖe? **Emprendedoras Digitales de Venezuela** nye teƒe nyui aɖe si nàdze egɔme le**.** Ha sia ƒe ame siwo nye nyɔnuwo, siwo le bizinis dzidzedze me kple taɖodzinuwo, Aura Brito kplɔ wo.
 
-EDVE,** si nye nyɔnu siwo wɔa dɔ le asitsatsa me ƒe dɔwɔƒe la na kpekpeɖeŋu geɖe:
+**EDVE,** si ɖo ŋku ɖe nyɔnu bizinis-dzralawo ŋu la, tsɔ dɔ geɖe si do ŋu ɖe:
 
-• dɔwɔɖui ŋuti nukpɔsusuwo tutuɖo 
+• bizinis ƒe susuwo ƒe dzidzedze
 
-• ŋkɔwo ɖoɖo ɖe amewo ŋu, kple bubuwo. . . , eye míebua nyɔnu ɖesiaɖe si le Venezuela la ƒe didi be ye ŋutɔ yeaɖu yeƒe dɔ dzi ɣesiaɣi. 
+• branding ƒe tutu.., kple bubuwo. Woɖea ŋku ɣesiaɣi ɖe nyɔnu ɖe sia ɖe si le Venezuela si di be yeakplɔ eya ŋutɔ ƒe bizinis la ŋu.
 
 ![https://i0.wp.com/emprendedorasdigitales.org/wp-content/uploads/2020/07/cropped-logo-nuevo_Mesa-de-trabajo-1-scaled-1.jpg?resize=300%2C208&ssl=1](/content-images/cropped-logo-nuevo_Mesa-de-trabajo-1-sca-ba7d9d40e8.webp)
 
-Nyatakakadzraɖoƒe: [https://emprendedorasdigitales.org/](https://emprendedorasdigitales.org/) 
+**Website**: [https://emprendedorasdigitales.org/](https://emprendedorasdigitales.org/) 
 
-** Hadomegbenɔnɔ ŋuti nyatakakadzraɖoƒewo:** 
+**Social media:** 
 
-[Instagram](https://instagram.com/emprendedorasdigitalesve) |  [Ʋuɖoƒea dzi nɔnɔ](https://twitter.com/EmpreDigiVE) | [Telegram](https://t.me/emprendedorasdigitalesve) | [LinkedIn ƒe kadodowo](https://www.linkedin.com/company/emprendedorasdigitalesve/) 
+[Instagram](https://instagram.com/emprendedorasdigitalesve) |  [Platform](https://twitter.com/EmpreDigiVE) | [Telegram](https://t.me/emprendedorasdigitalesve) | [LinkedIn](https://www.linkedin.com/company/emprendedorasdigitalesve/) 
 
 **Unified Address:** 
 
@@ -146,64 +146,64 @@ Nyatakakadzraɖoƒe: [https://emprendedorasdigitales.org/](https://emprendedoras
 u14g5wzyan35s5fq4glf7hsf0wteuskr3dgfs25wkr2tk5dq6sqrfpq8pqmme5yp7c3eq42tlssgv5hw7def5anezwzgyp857uw2gjjk7zwxdz9p6m8uxg05mhsgwxnxndn42k4mxmxftuqpmvet4vl7uf8a0m5q2e65lwyl8fq0425ys6ny8un6g5j07t0vxlwauhps605zypydl9h44
 ```
 
- San Antonio de los Altos - Venezuela 
+📍 San Antonio de los Altos - Venezuela 
 
 ---
 
-1. **GorBrit Social Media** Eʋegbe Nyatakakawo:
+1. **GorBrit Social Media**
 
-Dɔwɔƒe sia si dzi **Roosevelt Gordones kple Aura Brito** le la na nu siwo do ƒome kple:
+Teƒe sia si **Roosevelt Gordones kple Aura Brito** kplɔna la na dɔ siwo do ŋu ɖe:
 
-- Internet dzi axawo / Eʋewɔƒe ƒe wɔwɔme
-- Xɔxɔdɔwɔƒe
-- Dzesiwo dodo ɖe ŋgɔ / Dɔwɔƒe ƒe aɖaŋuɖoɖowɔwɔ
-- Hadomegbenɔnɔ ŋuti mɔnuɖoɖowo
+- Web axa / Web design
+- Hosting
+- Branding /Bizinis ƒe fiame
+- Social media ƒe mɔnuwo
 
-Nyatakakadzraɖoƒe: [https://gorbrit.com/](https://gorbrit.com/) 
+**Website**: [https://gorbrit.com/](https://gorbrit.com/) 
 
-** Hadomegbenɔnɔ Ŋuti Nyatakakadzraɖoƒewo**
+**Social Media**
 
-[Telegram](https://t.me/gorbritsm) | [Instagram](https://www.instagram.com/gorbritsm/) |  [X Mɔ̃ɖonuwo](https://twitter.com/GorBritSM) | 
+[Telegram](https://t.me/gorbritsm) | [Instagram](https://www.instagram.com/gorbritsm/) |  [X Plataform](https://twitter.com/GorBritSM) | 
 
-GorBrit lɔ̃na ɖe fexexenu vovovowo dzi, siwo dometɔ aɖewoe nye Cryptocurrencies. Woƒe ɖeka enye Zcash.**
+GorBrit xɔa fexexe ƒe mɔ vovovowo, cryptocurrencies hã le wo dome, eye enye **Zcash.**
 
-** Adrɛs Ðekae** 
+**Unified Address** 
 
 ```
 u1l2lxdx2en962h3utm24fthm0r9q5cxc4705jeatq4lckm92k06htdk8jear9tsay7w8xz4najnv0mpnngalctdtqnh9dv3d4fsr3lqxk0jhgfukujzca752eqj4pyeklgymk0j72lfs85r3vnpx48jkgk5v0zk5zl7nx4mlyaxq7xm0k7wfjnt9h86d4wxvrm45w358qkd60cdckp4h
 ```
 
- Caracas - Venezuela. 
+📍 Caracas - Venezuela. 
 
-Ame ŋutɔ kple Internet dzi. 
+Dɔ siwo wowɔna le ame ŋkume kple online.
 
 ---
 
-1. ** RobmarEscool** (Aƒenɔvi ƒe Ha) 
+1. **RobmarEscool** 
 
-Tsɔ kpe ɖe alesi Robmar nye digital designer la ŋu, enye fotowɔla si hã zãa ɣeyiɣi tsɔ fiaa nu le dɔwɔƒewo tso nɔnɔmetata kple dɔwɔnu siwo do ƒome kplii ŋuti eye fifia ele nya sia kaka ge tso zcash ŋu. 
+To nye digital designer gbɔ la, Robmar nye fotoɖela si hã tsɔa gaƒoƒo aɖe fiaa **workshops** ku ɖe **fotowo kple dɔwɔnu [tools] siwo do ŋu ɖe eŋu** ŋu, eye le esime ma me hã la, ena amewo nanya zcash.
 
-Eƒe dɔwo nya nu le Zcash ƒe nutoa me nyuie to eƒe kpekpeɖeŋu si wòna na ZFAV kluboa dzi.
+Eƒe dɔ xɔa ŋkɔ le Zcash ecosystem me to eƒe kpekpeɖeŋu na ZFAV club ta.
 
-• Videowo wɔwɔ / wo tata
+• Video wɔwɔ / trɔtrɔ
 
-• Logo wɔwɔ kple Animation
+• Logo wɔwɔ & Animation
 
-• Podcast ƒe gbeɖiɖi/video tatawo 
+• Podcast ƒe audio/ video trɔtrɔ
 
-** Hadomegbenɔnɔ ŋuti nyatakakadzraɖoƒewo:**
+**Social media:**
 
-[Telegram](https://t.me/Robmarn) | [X-Taflatsɛdeƒe](https://twitter.com/robmarn) | [Free2Z](https://free2z.cash/robmarn)
+[Telegram](https://t.me/Robmarn) | [X Platform](https://twitter.com/robmarn) | [Free2Z](https://free2z.cash/robmarn)
 
- Barquisimeto - Venezuela 
+📍Barquisimeto - Venezuela 
 
-**[[Nyonyo  Manicure  Asiwo Kple Tedzi Dzadzɛdzedze  Nu bubuwo]** 
+**[Nyonu | Manicure | Asi & Nɔvi ƒe Dzodzro | Accessories]** 
 
-1. Karin Gordones ƒe nuwɔwɔdɔwɔƒe si nye KARIN BEAUTY STUDIO.
+1. **Karin Beauty Studio | By Karin Gordones**
 
-Dzedze kple asi dzeaniwo le Karin Beauty Studio.
+Nɔvi nyuiwo, asi nyuiwo le Karin Beauty Studio ta.
 
-** Hadomegbenɔnɔ ŋuti nyatakakadzraɖoƒewo:** 
+**Social media:** 
 
 [Instagram](https://instagram.com/karinbeautystudio) 
 
@@ -213,21 +213,21 @@ Dzedze kple asi dzeaniwo le Karin Beauty Studio.
 u1nvhfur5lruk4lzy7v5j4wqs65rvslk7tvgxvcjpe7f8u08vjs98rsg9sralpnwgzzkevtr6k2flh7g9hqqk07m9eff222ljyg9ge2d7upx9ycr9lqzmwmww05npwypmw5t2cvt32tnuylnud4qts3hq2af5w50t3czatklrv5f7spwpfasjdr3rm7qpklpmvv5fc5vpl2spyysvvwra
 ```
 
- El Valle - Caracas - Venezuela 
+📍 El Valle - Caracas - Venezuela 
 
-Aƒemedɔwɔƒe (Caracas; San Antonio de los Altos)
+Dɔ wɔwɔ le aƒeme (Caracas | San Antonio de los Altos)
 
-Ɣeyiɣi si woade ame dɔ ge la ɖoɖowɔɖi me. 
+Ɖo ɣeyiɣi na dɔwɔwɔ
 
 ---
 
-1. Gissell B. ƒe agbalẽ si nye Corona de Brillitos* la me nyawo le eme be: "Míaƒe nuxaxawo katã tso míaƒe dɔwɔna siwo gblẽa ame dome". 
+1. **Corona de Brillitos.** | By **Gissell** **B**. 
 
-Ènya nusi wɔ nuku le Zcash ŋua? be amewo abe Gissell, nyɔnuvi ƒe 16 vi si lɔ̃a asinudɔwɔwɔ kple nu nyui siwo nyɔnuviawo wɔna eye wònyae be ne etsi la ezãa Zcash ɖe eƒe dɔwɔɖui si nɔ dzidzedze kpɔm ŋu.
+Ènya nu si wɔ ŋutɔ le Zcash ŋu oa? Nye ame abe Gissell ene, si nye ɣletivi 16 ƒe nyɔnuvi, si lɔ̃a asi ƒe wɔwɔ, nyɔnuvi ƒe accessories nyuiwo wɔwɔ, eye wònya be le eƒe ƒe sia me la etsɔa Zcash le eƒe bizinis si le dzidzem me.
 
-Nuwɔwɔ si me atsyɔ̃ le nyuie na nutatawo. Corona de brilllitos 
+Nɔnɔme nyui kple dzesi nyui na scrunchies | Corona de brillitos 
 
-** Hadomegbenɔnɔ Ŋuti Nyatakakadzraɖoƒewo**
+**Social Media**
 
 [Instagram](https://instagram.com/coronadebrillitos) 
 
@@ -237,33 +237,33 @@ Nuwɔwɔ si me atsyɔ̃ le nyuie na nutatawo. Corona de brilllitos
 u154h5wxyqf5lr4hdraqzc2n8x8398x6u95km2z7ryx8k5tdpjym59xqvlz54kq6pd96q5xrsxrmtcpl886s3kayxzfy4lhhdegr2a9ahghtuv9gwgc74wc6xf7p48gktq065nxzgvyvt7ka3jm0nzm8skydyjp8n2s47wu769j87f9vk84gz6mxzvrfjzm09m2zew80msv7efueeltfx
 ```
 
- San Juan de los Morros - Venezuela 
+📍 San Juan de los Morros - Venezuela 
 
 ---
 
-**[Kɔmpiuta ƒe dɔwo]**
+**[Kɔmputa ƒe dɔwo]**
 
-1. Tecnopapapi (Adzigbɔɖi ƒe Dzesi) 
+1. **Tecnopapapi** 
 
-@Lexihel - Alexis López Abreu ye.
+Eyae nye @Lexihel - Alexis López Abreu.
 
-Ðe kuxi aɖe le wò kɔmpiuta alo Android-telefona ŋua? 
+Kuxi aɖe le wò PC alo Android phone ŋu oa? 
 
-Tecnopapapi ye nye amesi wòle be nàƒo ka kplii! 
+Tecnopapapi nye ame si wòele be nàdo gbe ɖae!
 
-• Kɔmpiuta ƒe dɔwɔƒewo (Windows) 
+• Kɔmputa ƒe dɔwo (Windows) 
 
-• Android dɔwɔɖoɖo (telefonawo)
+• Android Operating System (phonewo)
 
-** Internet dzi nyatakakadzraɖoƒe** 
+**Website** 
 
 [https://tecnopapapi.com](https://tecnopapapi.com/)
 
-** Hadomegbenɔnɔ ŋuti nyatakakadzraɖoƒewo** 
+**Social media** 
 
-Free2Z. [Telegram](https://t.me/Lexihel) | [YouTube](https://youtube.com/@tecnopapapi) | [X-Taflatsɛdeƒe](https://twitter.com/tecnopapapi) | [TikTok](https://www.tiktok.com/@lexihel) | [Instagram](https://www.instagram.com/tecnopapapi/) |  [Facebook dzi nyatakakawo](https://www.facebook.com/tecnopapapi) 
+Free2Z | [Telegram](https://t.me/Lexihel) | [YouTube](https://youtube.com/@tecnopapapi) | [X Platform](https://twitter.com/tecnopapapi) | [TikTok](https://www.tiktok.com/@lexihel) | [Instagram](https://www.instagram.com/tecnopapapi/) |  [Facebook](https://www.facebook.com/tecnopapapi) 
 
-Tecnopapapi lɔ̃na ɖe ga siwo wotsɔ wɔa adzɔnu le Internet dzi (siwo dometɔ aɖewoe nye 3ZEC) kple nuxexlẽ ƒe mɔnuwo bubuwo hã ŋu. 
+Tecnopapapi xɔa cryptocurrecies (3ZEC hã le wo dome) kple fexexe ƒe mɔ bubuwo.
 
 **Unified Address**
 
@@ -271,17 +271,17 @@ Tecnopapapi lɔ̃na ɖe ga siwo wotsɔ wɔa adzɔnu le Internet dzi (siwo domet�
 u1sa0tnr9ac7ul8ad3ftdk4pgcxuq8j9vagjwz7apf8lylryhhklu4j68745trlga62a68qtfaqllmmdpv6zghw560qgzgughejre4ekmqvzf6agtu82a8qx2s3nj3gu50ye6r06rce595rvp0k4t28ecn5kzqu53q99guuzmrej94hr4u6l34rctvwsyzdhtq2ap070qrnvcwg4tgj66
 ```
 
- San Juan de los Morros - Venezuela 
+📍 San Juan de los Morros - Venezuela 
 
-1. Jossy Mendoza - Ʋukula.
+1. **Jossy Mendoza - Ɖelala.**
 
-** Ʋukuku tso Caracas kple teƒe bubuwo abe: 
+**Ɖeɖe ƒe dɔwo** tso Caracas yi kple tso teƒe bubuwo abe:
 
-Altos Mirandinos, Valles. del Tuy, Guarenas, Guatire, La Guaira Simón Bolívar Dukɔwo Dome Ʋudzeƒe .
+Altos Mirandinos, Valles. del Tuy, Guarenas, Guatire, La Guaira, Simón Bolívar International Airport.
 
-Elɔ̃na be woaxɔ ga siwo wotsɔ wɔ gadzraɖoƒewoe, eye esia lɔ Zcash hã ɖe eme.
+Exɔa cryptocurrecies, **Zcash** hã le wo dome.
 
- Aƒetɔ Mendoza le eƒe gakotoku si me ga mele la ɖem fia. Foto: Edickson Gonzalez 
+Mr. Mendoza fia eƒe zingo gakotoku. | Nɔnɔmetata ƒe credit: Edickson Gonzalez 
 
 **Zcash Unified Address:**
 
@@ -291,67 +291,67 @@ u10jd0tcj24p9rcju047lymtp9nx38h90j09rnr4ru6e8476822saywgn6phe373q78myrf2ew2j6kst
 
 ---
 
-**[Internet dzi. Xexea me katã ƒe asitelefonwo, internet kple kɔmpiuta siwo le tẽe la zazã]**
+**[Online | Xexea Katã | Digital ƒe Nunuwo, Markets kple VPNs]**
 
-Ame alo dɔwɔƒe sue siwo katã le afisia nye amesiwo nàte ŋu aɖo ɖe Venezuela. Eneawo dometɔ ene nɔa Internet dzi, eye amesiame si ƒe ga kple kadodo aɖe li kplii ate ŋu awɔ wo ŋuti dɔ tẽe to ZEC me.
+Nu siwo katã le ete la nye ame alo bizinis sue si nàte ŋu nàkpɔ le Venezuela. Esiwo nye ene siawo le online, woʋu na ame sia ame si si gakotoku kple kadodo le, eye woxɔa fexexe le ZEC me tete.
 
-1. **ZecBuy** Digital goods eSIM data VPN access Ðeƒle Eʋegbe nuwo le Internet dzi.
+1. **ZecBuy** | Digital ƒe nunuwo | eSIM data | VPN ƒe mɔ
 
-ZecBuy dzraa digital goods na ZEC: eSIM data plans for travel kple Mullvad VPN accounts. Eʋe meŋlɔ ŋkɔ alo e-mail address be woana o. Ètia nu si nèdi, xe fe le ZEC dzi eye nàxɔ eƒe code la.
+ZecBuy dzra digital ƒe nunu ɣaɣlawo na ZEC: eSIM data ƒe ɖoɖowo na mɔzɔzɔ kple Mullvad VPN accounts. Womebia be nàŋlɔ ŋkɔ o, eye email gaɖoƒe ƒe dzesi [address] hã mele be nàna o. Ètia nu si nèdi, ètsɔ ZEC xɔe, eye nèxɔ code la.
 
-Nyatakakadzraɖoƒe: [zecbuy.com](https://zecbuy.com/)
+**Website**: [zecbuy.com](https://zecbuy.com/)
 
- Le Internet Dzi. Xexea Me Katã
-
----
-
-1. ZEC Market. Ðeka-to-Ðeka ƒe asitsatsaƒe
-
-Enyea asitsaƒe si me wometɔa asi le o, afisi nudzrala kple nuƒlelawo wɔa dɔ kpli wo nɔewo tẽe. Woɖea ga siwo wokpɔna la fiana ɖe dolar me eye wotsɔnɛ ɖoa kotoku na kotokua to Zcash dzii, evɔ womexea fe aɖeke hã ɖe edzi gbeɖe o. Esia wɔe be enye teƒe nyuitɔ kekeake ne nusi nèdi be yeadzra mele ŋkɔgbalẽvi sia tɔgbi dzi o.
-
-Nyatakakadzraɖoƒe: [zecmarket.org](https://zecmarket.org/)
-
-Nutowo me ɖoɖo bubuwo abe esia ene: [Dukɔ Ƒoƒuawo ƒe Dɔwɔnawo](/zcash-community/community-projects)
-
- Le Internet Dzi. Xexea Me Katã
+🌐 Online | Xexea Katã
 
 ---
 
-1. **NymVPN**  Decentralized VPN kple mixnet
+1. **ZEC Market** | Peer-to-peer market
 
-NymVPN trɔa mɔ to nodwo ƒe network dzi, eye mixnet mode si tsɔna dea cover traffic nu ale be pakɛawo me ɣeyiɣi kple lolome meganɔa dɔ wɔm abe asibidɔ ene o. Ne ame de dzesi wo la womebiaa nyatakaka aɖeke tso eɖokui ŋu o, eye wobua fe na amewo le adzame ga siwo nye Zcash hã me, eyata ne wole fe xem ɖe dɔa ta la menana wonyaa eƒe dɔwɔwɔ nyuie o.
+Market si menye asikplɔ-dzralá [custodial] o, afi si nuƒlela kple nudzelawo wɔa nu kple wo nɔewo tete. Woɖea asi ƒe xexewo fia le dollars me, eye wotsɔa gakotoku nana gakotoku le Zcash me, le ɣaɣla me le gɔmedzedze me. Platform la mexɔa adzɔ o, eye mekpena ame aɖeke ƒe ga ɖe asi o. Esia tae wòele be nàkplɔe ne nu si nèdi be nàƒle mele list abe sia ene me o.
 
-Nyatakakadzraɖoƒe: [nym.com](https://nym.com/)
+**Website**: [zecmarket.org](https://zecmarket.org/)
 
-Ŋgɔdonya: [VPN kple dVPNwo](/privacy-tools/vpn-and-dvpn)
+Ecosystem ƒe project bubuwo siwo sɔ abe eya ene: [Community Projects](/zcash-community/community-projects)
 
- Le Internet Dzi. Xexea Me Katã
-
----
-
-1. **Meile dVPN**  Decentralized VPN le Sentinel network dzi
-
-Meile nye dVPN client tso MathNodes team si le Sentinel network dzi, afisi nodeswo ƒe dɔlawo enye community members ke menye company ɖeka o. Woxea fe na subscription plans to app la me eye woxe ZEC ga siwo wodzra ɖo ɖe edzi to BTCPay dzi. Egble li be Windows, macOS kple Linux hã nanɔ mobile client sia ŋu.
-
-Nyatakakadzraɖoƒe: [Meile dVPN le MathNodes dzi](https://mathnodes.com/index.php/meile-dvpn-client-linux-os-x/) (mail.app trɔ asi le afi sia ŋu)
-
- Le Internet Dzi. Xexea Me Katã
+🌐 Online | Xexea Katã
 
 ---
 
-**[Nuɖuɖu kpatawo. [Italian]
+1. **NymVPN** | Ha nuɖo agni [decentralized] VPN kple mixnet
 
-Bonus: Allegrini Ristorante 🇪 Pizzaƒe Italiatɔwo ƒe nuɖuɖuwo Zcash ava kpuie. 
+NymVPN tsɔa traffic to ha nuɖo agni ƒe ɣaɣla dzesi ŋɔŋlɔ [node] network aɖe me. Eƒe mixnet ƒe mɔ la kpea traffic bubu ɖe eŋu, ale be packet ƒe ɣeyiɣi kple lolome megava wɔa dɔ abe ame ƒe dzesi ene o. Ŋkɔŋlɔɖeɖe mebiaa ame ŋutɔ ƒe nyatakaka aɖeke o, eye woxɔa fexexe le privacy coins siwo me Zcash hã le, ale be fexexe na dɔ la megbãa ɣaɣla si wòle VPN la zazã me o.
 
-Nuɖuvɔsa. Kplɔ wo yi aƒe me. Nudzraɖoƒewo
+**Website**: [nym.com](https://nym.com/)
 
-**Website**: ɖeke meli o. Womewu nyatakakadzraɖoƒe si woɖe gbeƒãe le alleginiristorante.com nu gbeɖe eye domen la megale dɔ wɔm azɔ o. Zã social link siwo dze le ete.
+Nuxlẽxɛ ŋuɖoɖo: [VPNs and dVPNs](/privacy-tools/vpn-and-dvpn)
 
-** Hadomegbenɔnɔ ŋuti nyatakakadzraɖoƒewo** 
+🌐 Online | Xexea Katã
 
-[Instagram](https://instagram.com/allegriniristorante) | [X-Taflatsɛdeƒe](https://twitter.com/AllegriniRisto) | [Telegram](https://t.me/AllegriniRistorante) | [Pinterest ƒe ŋkɔwo](https://pin.it/6z8hq6F)
+---
 
-(Eteƒe madidi o) [free2z.cash (Frize 2Z) ga me](http://free2z.cash). )
+1. **Meile dVPN** | Ha nuɖo agni VPN le Sentinel network dzi
+
+Meile nye dVPN client tso MathNodes team gbɔ si wɔa dɔ le Sentinel network dzi, afi si community ƒe membrewo kplɔa ɣaɣla dzesi ŋɔŋlɔwo ɖo, menye company ɖeka ko o. Woƒea subscription plans le app la me, eye ɣaɣla ZEC fexexewo wɔna to BTCPay dzi. Woɖo builds ɖe asi na Windows, macOS kple Linux kpe ɖe mobile client la ŋu.
+
+**Website**: [Meile dVPN on MathNodes](https://mathnodes.com/index.php/meile-dvpn-client-linux-os-x/) (meile.app trɔa yi afisia)
+
+🌐 Online | Xexea Katã
+
+---
+
+**[Nuƒuƒu Kaba | Italian**]
+
+Nukpɔkpɔ : **Allegrini Ristorante** 🇪🇸 | Pizza Teƒe | Italian nuɖuɖu | **Adze Zcash xɔm le ete o.** 
+
+Nunu ɖe aƒeme | Nu tsɔtsɔ yi aƒeme | Teƒe ɖoɖo
+
+**Website**: meli o. Website si wogblɔ be woadzra le alleginiristorante.com la womewu wɔwɔ o, eye domain la megava ɖoa afi aɖeke o. Tsɔ social links siwo le ete la azã.
+
+**Social media** 
+
+[Instagram](https://instagram.com/allegriniristorante) | [X Platform](https://twitter.com/AllegriniRisto) | [Telegram](https://t.me/AllegriniRistorante) | [Pinterest](https://pin.it/6z8hq6F)
+
+(Le ete le [free2z.cash](http://free2z.cash). )
 
 **Zcash Unified Address** 
 
@@ -359,6 +359,6 @@ Nuɖuvɔsa. Kplɔ wo yi aƒe me. Nudzraɖoƒewo
 u10wuf4pauet00u3n4sp7l0jjer28stp5l8q3peq4ffrpvhfm0zn8up3xwewy64fyeps6r6ctv3yfmwvrrnrsseet3ety9aj48kqk52el0m0xee87t87fu86wtxq357gxz2j978rgyy799pex3amwhtc3mt2yz544tn6dcqcq48sy2lvsfp2vqjhe9skchgpgsqzjnhcnflhe2w2l465s
 ```
 
-Nuɖuvɔsa. Kplɔ wo yi aƒe me. Nudzraɖoƒewo.
+Nunu ɖe aƒeme | Nu tsɔtsɔ yi aƒeme | Teƒe ɖoɖo.
 
- Madrid - Spain
+📍 Madrid - Spain

@@ -1,126 +1,126 @@
-# Ʋuʋu ƒe Mɔfiame: Tso zcashd dzi yi Zebrad/Zallet dzi
+# Ɖeɖe mɔfia: Tso zcashd yi Zebrad/Zallet
 
-Wotsɔ Zebra kple Zallet ɖɔ li zcashd blibo node si wozãna tsã, si *Electric Coin Company (ECC)* / *Zodl* léa be na. zcashd ɖo eƒe kpekpeɖeŋunana ƒe nuwuwu le 18 July 2026 dzi eye megale dɔ wɔm o.
+Nusi wɔna tsã zcashd ɣaɣla dzesi ŋɔŋlɔ blibo [full node], si *Electric Coin Company (ECC)* / *Zodl* kpɔa dzi la, Zebra kple Zallet wɔ ɖe eteƒe. zcashd ƒe kpekpeɖeŋu ƒe nuwuwu va 18 July 2026, eye wòmegale dɔ wɔm o.
 
-- Zebra nye egbegbe Rust ƒe Zcash ɖoɖowɔɖi si Zcash Foundation wɔ la ƒe dɔwɔwɔ
-- Zallet nye gakotoku si le bɔbɔe si wotu be wòawɔ ɖeka kple Zebra nodes siwo Zodl to vɛ la nyuie
+- Zebra nye Rust ƒe ɖeɖeɖoɖo yeye si wɔ Zcash ƒe mɔɖoɖo, si Zcash Foundation wɔ
+- Zallet nye gakotoku [wallet] fafã si wotu be wòawɔ dɔ kple Zebra ƒe ɣaɣla dzesi ŋɔŋlɔwo hãlii, si Zodl wɔ
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
 ![Diagram: zcashd splitting into zebrad for node duties and Zallet for wallet duties](/content-images/SJNBsSYTel-dfd19f34e4.webp)
 </div>
 
-Mɔfiame sia kplɔ wò to ʋuʋu tso **zcashd** yi **Zebrad** kple **Zallet** me, si me ɖoɖowɔwɔ, gakotoku ƒe tsɔtsɔ yi, kple ʋuʋu ƒe kuxi siwo bɔ gbɔ kpɔkpɔ hã le.
+Mɔfia sia akplɔ wò to ɖeɖe tso **zcashd** yi **Zebrad** kple **Zallet** me, eye wòaxɔ ɖoɖo, gakotoku ƒe kpekpeɖeŋu, kple ɖeɖe na ɖeɖe ƒe kuxi siwo dzɔna zi geɖe.
 
 ---
 
-## zcashd dzudzɔ duƒuƒu le 18 July 2026 dzi
+## zcashd tɔ dɔwɔwɔ le 18 July 2026
 
 **Nusi esia fia**
 
-- zcashd ɖo eƒe kpekpeɖeŋunana ƒe nuwuwu le 18 July 2026. Magawɔ ɖeka kple kɔsɔkɔsɔa ƒe nugbɔ ake o, eye mate ŋu aɖo ga alo axɔe o. Esia wu enu, ke menye ɖoɖoe o.
-- zcashd ƒe dɔ eveawo ma fifia: **zebrad** nye node bliboa, eye **Zallet** nye gakotoku.
-- Zallet le **beta** me. Tɔtrɔ siwo gblẽ ateŋu adzɔ le asiɖeɖe le wo ŋu dome, eye womewɔ zcashd JSON-RPC mɔnu aɖewo haɖe o. Kpɔe ɖa be [mɔnu ƒe nɔnɔme matriki](https://zcash.github.io/zallet/) hafi nànɔ te ɖe kaƒoƒo aɖe koŋ dzi.
-- Ne ègalé **Sprout** ga ɖe asi la, xlẽ nuxlɔ̃ame si le afɔɖeɖe 6 lia me gbã. Zallet medoa alɔ Sprout ƒe ta la o, eye mɔ si dzi woato aʋu ga mawo zi geɖe la bia be woawɔ zcashd si le du dzi.
+- zcashd ƒe kpekpeɖeŋu ƒe nuwuwu va le 18 July 2026. Wòmagale asɔ ɖo ɖoɖonu [chain] ƒe dzogbe o, eye wòmate ŋu aɖo ga alo axɔ ga o. Esia wu vavã, menye nu si wole ɖoɖom be woawɔ o.
+- zcashd ƒe dɔ eve la mama ƒe te: **zebrad** nye ɣaɣla dzesi ŋɔŋlɔ blibo, eye **Zallet** nye gakotoku.
+- Zallet le **beta** me. Tso ɖeɖe aɖe me yi bubu me la, tɔtrɔ siwo gbãa nu ate ŋu ava, eye zcashd ƒe JSON-RPC mɔnu aɖewo mede bɔ o haɖe. Kpɔ [mɔnu ƒe nɔnɔ ƒe kpekpeɖeŋu ƒe kɔkɔe](https://zcash.github.io/zallet/) hafi nàtsɔ yɔyɔ aɖe si tututu na wò.
+- Ne **Sprout** ƒe ga le asiwo haɖe la, xlẽ nyagblɔɖi si le afɔ 6 me gbã. Zallet mekplɔa Sprout gaƒuƒoƒo [pool] o, eye mɔ si woɖua zi geɖe be woatsɔ ga mawo ayi la bia be zcashd nanɔ dɔ wɔm.
 
-**Nukatae Woaʋu - Beyond Deprecation**
+**Nu ka ta wòawɔ ɖeɖe - Le Ɖeɖeɖeƒeƒe wu**
 
-Ne míeɖe asi le ameŋugblẽnyawo ŋu gɔ̃ hã la, susu sẽŋuwo li siwo tae wòle be míaʋu:
-- Dedienɔnɔ & Sesẽme: Rust ƒe ŋkuɖodzinu-dedienɔnɔ kple egbegbe dɔwɔnuwo ɖea afɔku siwo le afɔkuwo me dzi kpɔtɔna.
-- Dɔwɔwɔ & Dɔwɔwɔ Nyuie: Wotrɔ asi le Zebrad ŋu na parallelism, nunɔamesiwo zazã nyuie wu, kple sync kabakaba wu.
-- Modular Architecture: Node logic (Zebrad) mama tso gakotoku UI (Zallet) gbɔ naa liƒo siwo me kɔ wu kple ŋgɔyiyimɔ nyuitɔwo.
-- Etsɔme ƒe lãwo ƒe agbenɔnɔ ƒe ɖekawɔwɔ: Dɔwɔnuwo, ŋgɔyiyiwo, kple Zcash ƒe lãwo ƒe agbenɔnɔ ƒe akpa mamlɛa aɖo taɖodzinu na Zebrad/Zallet geɖe wu.
-- Susu ƒe Ŋutifafa: Ƒo asa na be nàtsi akpa aɖe si megahiã o, si ŋu womedo alɔe o la dzi.
+Ne míede ɖeɖeɖeƒeƒe ɖa la gɔ̃ hã, tata siwo sesẽ le eŋu be wòatso ayi:
+- Dedie Kple Sesẽ: Rust ƒe ŋkuɖododze ɖe memory dedie kple dɔwɔnu yeye woaɖe afɔ le kuxi ƒe mɔwo ŋu.
+- Wɔwɔ Nyui Kple Dzedze: Woɖo Zebrad ɖeɖeɖe be wòawɔ dɔ geɖe ɖe ƒeɖeɖe me, wòatsɔ nu siwo le asi nɛ awɔ dɔ nyuie, eye wòawɔ sync kabakaba.
+- Ɖoɖoƒe Ƒe Nɔnɔ Ƒe Mama: Ɖeɖe ɣaɣla dzesi ŋɔŋlɔ ƒe dɔ (Zebrad) tso gakotoku ƒe UI (Zallet) gbɔ na dzidzime ƒe towo kɔ nyuie eye wòana mɔ nyuie na ɖeɖe.
+- Mɔ Si Ɖo Kple Ecosystem Ƒe Mawuɖoɖo: Dɔwɔnu, nyonyo, kple Zcash ƒe ecosystem ƒe akpa bubuwo aɖe ŋku ɖe Zebrad/Zallet ŋu geɖe.
+- Dziɖoɖo: Mègaxɔ mɔ be nàle component si woɖe ɖa eye womakplɔa dzi o ƒe dɔwɔwɔ me o.
 
-### Azɔ mina míage ɖe Ʋuʋu ƒe mɔfiamegbalẽa me
+### Azɔ míayi ɖe Ɖeɖe mɔfia me
 
-**1. Backup Nusianu**
-* Wɔ wò wallet.dat (alo gakotoku ƒe faɛl / safuidzraƒe bubu ɖesiaɖe) ƒe kɔpi tso wò zcashd node me.
+**1. Wɔ backup na nu sia nu**
+* Wɔ backup na wò wallet.dat (alo gakotoku ƒe faɛl bubu aɖe / safui ƒe nudzraɖoƒe) tso wò zcashd ƒe ɣaɣla dzesi ŋɔŋlɔ me.
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
 ![bash (1)](/content-images/SJ_0mUtTxg-1441185a72.svg)
 </div>
 
-* Dzra wò zcash.conf kple ɖoɖo ɖesiaɖe si nèwɔ ɖe ɖoɖo nu ɖo.
-* Tsɔ RPC ŋɔŋlɔdzesiwo alo automation ɖesiaɖe si nèzãna ƒe kɔpi ɖo ɖe duta.
-* Kpɔ egbɔ be wò backups sɔ (e.g. le nɔnɔme bubu me la, dze agbagba nàʋu wo alo alé ŋku ɖe wo ŋu).
-* Dzro JSON-RPC mɔnu siwo dzi nèle ŋu ɖom ɖo fifia la me.
-* Tsɔe sɔ kple ɖoɖowɔɖi ƒe kplɔ̃ si dzi wolé be na le [Zcash ƒe kpekpeɖeŋunaƒe](https://z.cash/support/zcashd-deprecation/) 
-* Dzra ɖo ɖe tɔtrɔwo alo mɔnu siwo bu ŋu (ɖewo ate ŋu ahiã be woakpɔ wo gbɔ alo atrɔ asi le wo ŋu).
+* Dzra wò zcash.conf kple ɖoɖo siwo nèwɔ ɖe wò ŋutɔ ŋu ɖo.
+* Ɖe RPC script alo automation si nètsɔna ƒe kopi aɖe ɖa.
+* Kpɔ be wò backupwo le nyuie (kpɔe le nɔnɔ bubu aɖe me, abe be nàte ŋu aʋu alo akpɔ wo me ene).
+* Kpɔ JSON-RPC mɔnu siwo nèle tsɔm fifia.
+* Sɔ kple mɔɖoɖo ƒe kpekpeɖeŋu si [Zcash ƒe kpekpeɖeŋu ƒe asiti](https://z.cash/support/zcashd-deprecation/) dzra ɖo  
+* Dzra ɖo na tɔtrɔwo alo mɔnu siwo mele o (aɖewo ate ŋu ahia mɔ bubu alo trɔtrɔ).
 
-**2. System ƒe Nudidiwo & Disk ƒe Teƒe**
-* Disk ƒe teƒee nye nudidi si amewo bua nu tsɛe. Zcash kɔsɔkɔsɔa to **270 GB** le August 2026 me, eyata ɖe mɔ na **300 GB** ya teti ƒe teƒe faa, le SSD dzi ne àte ŋui.
-* Kpɔ egbɔ be wò mɔ̃a ƒe network, CPU, RAM li ke.
-* Internet dzi kadodo aɖe 
-* Ne èɖoe be yeaƒoe nu ƒu tso dzɔtsoƒe la, na woatsɔ Rust & Cargo ade eme.
+**2. System ƒe Hiãhiãwo Kple Disk Ƒe Teƒe**
+* Disk ƒe teƒe nye hiãhiã si amewo mekɔna ɖe eŋu o. Zcash ƒe ɖoɖonu va le **270 GB** wu le August 2026 me, eyata na teƒe blibo **300 GB** le asiwo, le SSD dzi ne nàte ŋu.
+* Kpɔ be network, CPU, kple RAM si le wò mɔkeke dzi la le sesĩe.
+* Internet ƒe kadodo aɖe 
+* Ne èɖo ɖe edzi be yòawɔ compilation tso source me la, na Rust kple Cargo nanɔ asiwo.
 
-**3. De / Ðoɖowɔwɔ Zebrad** .
-Àte ŋu awɔ binary si wotu do ŋgɔ ƒe kɔpi alo atu tso dzɔtsoƒe.
-* Zcash Foundation taa nusiwo woɖe ɖe go kple binaries na Zebra. E.g. àte ŋu azã install script alo awɔ binary si sɔ na wò OS la ƒe kɔpi.
+**3. Ɖo / Ɖoɖo Zebrad**
+Àte ŋu aɖe binary si woɖo ɖo xoxo alo nawɔe tso source me.
+* Zcash Foundation dea releases kple binaries ɖe go na Zebra. Abe kpɔɖeŋu ene la, àte ŋu atsɔ install script alo aɖe binary si dze wò OS ŋu.
 
-* De dzesii be le Zebra ƒe tata siwo wota nyitsɔ laa me la, . [RPC ƒe nuwuƒea megale dɔ wɔm le gɔmedzedzea me le Docker me o.](https://zfnd.org/zebra-2-3-0-release/)
+* Ɖo ŋku edzi be le Zebra ƒe versions yeyewo me la, [RPC endpoint la mele enabled le Docker me le gɔmedzedze o.](https://zfnd.org/zebra-2-3-0-release/)
 
-**Tiatia A: Dee to binary si wotu do ŋgɔ dzi** 
-Le **Linux**/**macOS** dzi la:
+**Mɔ A: Ɖo to binary si woɖo ɖo xoxo me**  
+Le **Linux**/**macOS** dzi:
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
 ![bash (2)](/content-images/HJhYu8Y6el-d2198f22c9.svg)
 </div>
 
-Esia dea zebrad ƒe tɔtrɔ yeyetɔ si li ke la wò kɔmpiuta dzi.
+Esia doa zebrad ƒe version sesẽ si yeyee ɖe mɔ.
 
-**Tiatia B: Tu tso dzɔtsoƒe**
+**Mɔ B: Wɔe tso source me**
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
 ![bash (3)](/content-images/Syg8FUK6eg-b4557e52e0.svg)
 </div>
 
-Ne ètu vɔ la, tsɔ binary la yi wò mɔ dzi:
+Le wɔwɔ megbe la, tsɔ binary la de wò path me:
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
 ![migration 11](/content-images/BJ0zjLY6ll-f77354d701.webp)
 </div>
 
-**4. Ðoɖowɔwɔ & Gɔmedzedze** 
-Wɔ ɖoɖowɔɖi si woɖo ɖi:
+**4. Ɖoɖo Kple Dɔ Ƒe Gɔmedzedze**  
+Wɔ config si le gɔmedzedze ɖe mɔ:
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
 ![migration2](/content-images/HJV1C8tTxx-5823395651.webp)
 </div>
 
-Trɔ asi le **zebrad.toml** ŋu ɖe wò didiwo nu (se adrɛs, melidzeƒewo, nɔnɔme ƒe nuŋlɔɖi, caching).
+Trɔ **zebrad.toml** ɖe wò dɔmenyui nu (mɔ si wòasẽ to, ports, state ƒe teƒe, caching).
 
-**Dze node la gɔme:**
+**Dze ɣaɣla dzesi ŋɔŋlɔ la gɔme:**
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
 ![image](/content-images/H1KPkvt6gl-864c48ca40.webp)
 </div>
 
-Node la adze syncing gɔme tso genesis - kpɔ mɔ na gaƒoƒo geɖe (alo esi wu nenema) le hardware kple network nu.
+Ɣaɣla dzesi ŋɔŋlɔ la adze sync wɔwɔ gɔme tso genesis me - eƒe wɔwɔ ate ŋu axɔ gaƒoƒo geɖe (alo wu nenema) le hardware kple network nu.
 
-**5. De / Ðoɖo Zallet (Gakotoku)**
+**5. Ɖo / Ɖoɖo Zallet (Gakotoku)**
 
-Wotrɔ asi le Zallet ŋu be wòaɖɔli zcashd ƒe gakotoku ƒe akpa.
+Zallet wotu be wòaxɔ zcashd ƒe gakotoku ƒe akpa ƒe teƒe.
 
-Kpɔ Zallet GitHub / release ƒe axaa ɖa hena binaries.
+Kpɔ Zallet ƒe GitHub / release axa na binaries.
 
-**Alo tu tso dzɔtsoƒe:**
+**Alo wɔe tso source me:**
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
 ![image](/content-images/SyUFxvFTex-5bb10ee1d3.webp)
 </div>
 
-* Dze GUI alo CLI gɔme (abe alesi wò ɖoɖowɔɖia na ene).
-* Trɔ asi le eŋu be wòado ka kple wò teƒea ƒe Zebrad node to RPC alo API nuwuƒe dzi.
+* Dze GUI alo CLI gɔme (abe ale si wò ƒe ɖoɖo na wɔm ene).
+* Ɖoɖoe be wòakado ɖe wò Zebrad ƒe ɣaɣla dzesi ŋɔŋlɔ si le afi sia to RPC alo API endpoint me.
 
-**6. Wò zcashd Gakotokua Tsɔtsɔ Va Zallet**
+**6. Ɖe Wò zcashd ƒe Gakotoku Ɖe Zallet Me**
 
-Miehiã zcashd si le du dzi na esia o. Zallet xlẽa nya sia `wallet.dat` file tẽ, si le vevie elabena womate ŋu adze zcashd gɔme o.
+Mèhia zcashd si le dɔ wɔm o na esia. Zallet xlea `wallet.dat` faɛl la tẽ, si le vevie elabena zcashd magate ŋu adze gɔme o.
 
-> **Le aɖe asi `wallet.dat`.** Ʋuʋua ka nya ta tso nusianu si mateŋu atsi tre ɖi na le Zallet gakotoku me tsɔ wu be wòatsɔe avae, eye emegbe nu vevi ma nɔa anyi le `wallet.dat`. Mègatutui le ʋuʋu vɔ megbe o.
+> **Dzra `wallet.dat` ɖo.** Ɖeɖe la aɖe nya si wòmate ŋu aɖo le Zallet ƒe gakotoku me la afia, le esime wòmaɖee me o, eye safui ƒe nu mawo anɔ `wallet.dat` me ɖeɖeka. Mègbugbɔ tutui le ɖeɖe megbe o.
 
-Ƒu du `zallet init-wallet-encryption` gbã. Zallet tsɔa nya veviwo ɣlana ɖe ƒexɔxɔ ƒe dzesidenu aɖe me, eye ele be dzesidenu ma nanɔ anyi hafi woatsɔ safui aɖeke avae.
+Wɔ `zallet init-wallet-encryption` gbã. Zallet tsɔ age identity ɣaɣlaŋlɔŋlɔa safui ƒe nuwo, eye identity ma nanɔ anyi hafi woaɖe safui aɖeke aɖo eme.
 
-Emegbe trɔ wò config kple wò gakotokua:
+Emegbe la, trɔ wò config kple wò gakotoku:
 
 ```bash
 # translate zcash.conf into zallet.toml
@@ -130,91 +130,91 @@ zallet migrate-zcash-conf --zcashd-datadir /path/to/zcashd/datadir -o /path/to/z
 zallet migrate-zcashd-wallet --zcashd-datadir /path/to/zcashd/datadir
 ```
 
-`migrate-zcashd-wallet` le xɔ siwo wotu kple la me ko `zcashd-import` feature, kple nuxexlẽ `wallet.dat` hiã na `db_dump` utility tso Berkeley DB 6.2, si nye tɔtrɔ si zcashd zã. Ne gakotoku ƒe faɛl wu ɖeka le asiwò la, wɔ sededea zi ɖeka le faɛl ɖesiaɖe me eye nàtsɔe akpe ɖe eŋu `--allow-multiple-wallet-imports` le duƒuƒu siwo va emegbe dzi; wo dometɔ ɖesiaɖe va zua eya ŋutɔ ƒe akɔntabubuwo. Wò `rpcuser` kple `rpcpassword` wometsɔa wo yia edzi o, elabena Zallet ƒe JSON-RPC zãa cookie ƒe kpeɖodzinana le gɔmedzedzea me; tsɔ ɖaseɖigbalẽwo kpee kple `zallet add-rpc-user` ne èhiã wo.
+`migrate-zcashd-wallet` le builds siwo me `zcashd-import` feature le ko, eye `wallet.dat` ƒe xexlẽ bia `db_dump` dɔwɔnu tso Berkeley DB 6.2 me, si nye version si zcashd tsɔ. Ne gakotoku ƒe faɛl geɖe le asiwo la, wɔ command la ɖeka ɖeka na faɛl siawo, eye de `--allow-multiple-wallet-imports` le wɔwɔ mamlɛtɔwo me; ɖeka sia ɖeka azu accounts ƒe ha ɖeɖeka. Wò `rpcuser` kple `rpcpassword` mele vɛm o, elabena Zallet ƒe JSON-RPC tsɔa cookie authentication le gɔmedzedze; de credentials kple `zallet add-rpc-user` ne èhia wo.
 
-**Nusi va dzea ŋgɔ**
+**Nusi vɛna**
 
-* Mnemonic nukuwo kple safui siwo wokpɔ tso wo me, kple akɔntabubu siwo wogbugbɔ tu be woasɔ kple zcashd gakotokua
-* Standalone tsɔ Sapling gazazã ƒe safuiwo kple safui siwo me kɔ la tso duta vɛ
-* Dzesi siwo me kɔ siwo woate ŋu akpɔ le gakpɔkpɔ ɖeɖeko me siwo me woƒe dutoƒo safui alo redeem script le
-* Akɔntabubu dzigbezãwo, eyata kɔsɔkɔsɔ scanning dzea egɔme tso kɔkɔƒe nyuitɔ
+* Mnemonic ƒe seedwo kple safui siwo wodze tso wo me, eye woagbugbɔ atu accounts la be wòasɔ kple zcashd ƒe gakotoku
+* Sapling ƒe gazazãsafui siwo wotsɔ va ɖe eŋu ɖeɖeka kple transparent ƒe safuiwo
+* Transparent ƒe nukpɔsafui ƒe entries siwo me public key alo redeem script le
+* Account birthdays, ale be ɖoɖonu ƒe scanning nadze gɔme le height si dze
 
-**Nusi meva dze o.** Wotsɔa xexlẽdzesiwo ka nya ta le esiawo ŋu tsɔ wu be woatsɔ wo tso duta vɛ:
+**Nusi mevɛ o.** Woafia esiawo kple xexlẽƒe, menye be woaɖe wo aɖo me o:
 
-* **Sprout gazazã ƒe safuiwo kple ga.** Zallet medoa alɔ Sprout ƒe ta o. Mɔ si woŋlɔ ɖi enye be woaɖe Sprout ƒe ga ado goe to zcashd zazã me hafi axɔ dzudzɔ le dɔ me, eye ema megate ŋu dzɔna o. Ne esia kpɔ ŋusẽ ɖe dziwò la, bia le... [Zcash Numekuku Kple Dɔwɔnawo Discord](https://discord.gg/xpzPR53xtU) alo be [nutoa me ƒe nyamedzroƒe](https://forum.zcashcommunity.com/) hafi awɔ nu bubu aɖe.
-* Adrɛsgbalẽa me nyawo
-* Watch-only nuŋɔŋlɔ siwo wodzra ɖo dutoƒo safui alo redeem script manɔmee, kple nya siwo me dutoƒo safui siwo womeƒo o
-* Regtest gakotokuwo kpɔ
+* **Sprout ƒe gazazãsafuiwo kple ga.** Zallet mekplɔa Sprout gaƒuƒoƒo o. Mɔ si woɖe fia la nye be woatsɔ Sprout ƒe ga aɖe tso eme kple zcashd hafi woaɖe eɖa, eye esia megate ŋu awɔ o azɔ. Ne esia ku ɖe wò ŋu la, bia nya le [Zcash R&D Discord](https://discord.gg/xpzPR53xtU) alo le [community forum](https://forum.zcashcommunity.com/) hafi nàwɔ nu bubu aɖeke.
+* Gaɖoƒe ƒe dzesi ƒe agbalẽ ƒe entries
+* Nukpɔsafui ƒe entries siwo wodzra ɖo manɔ public key alo redeem script o, kple entries siwo me public key si womecompress o le
+* Regtest ƒe gakotokuwɔwo
 
-**Backing up afterwards.** Mnemonic le eɖokui si menye backup blibo o, elabena safui siwo wotsɔ tso duta vɛ la le gakotoku ƒe nyatakakadzraɖoƒea ko. Dzra eƒe kɔpiwo ɖo dedie `wallet.db`, ƒexɔxɔ ƒe nya ɣaɣla ƒe dzesidegbalẽvi si wotsɔ ŋkɔ na `keystore.encryption_identity` tiatia, kple wò ŋkuɖodzinyagbɔgblɔ, eye nàlé gbãtɔa ɖe asi `wallet.dat`. De dzesii be `wallet.db` menye eya ŋutɔe wotsɔ nya ɣaɣlawo ŋlɔe o: eléa wò asitsatsa ŋutinya kple nukpɔkpɔ ƒe safuiwo ɖe eme kɔ, eyata dzra backup la ɖo ɖe teƒe aɖe si le dedie.
+**Backup wɔwɔ le megbe.** Mnemonic ɖeka mewɔa backup blibo o, elabena safui siwo wotsɔ va ɖe eŋu la le gakotoku ƒe database me ɖeɖeka. Dzra kopi dedie siwo le `wallet.db`, age ɣaɣlaŋlɔŋlɔ ƒe identity faɛl si `keystore.encryption_identity` ƒe option la ƒo ŋkɔ na, kple wò mnemonic ƒe nyagbalẽ la ɖo, eye dzra `wallet.dat` si le gɔmedzedze la hã ɖo. Ɖo ŋku edzi be `wallet.db` ŋutɔ menye ɣaɣlaŋlɔŋlɔ nane o: gaɖoɖo ƒe ŋutinya kple nukpɔsafuiwo le eme kɔ, eyata dzra backup la ɖo le afi dedie aɖe.
 
-**Gakotoku Gbugbɔgawɔ & Ðekawɔwɔ**
+**Gakotoku ƒe Rescan Kple Synchronization**
 
-* Ne wonya xɔ safuiawo ko la, Zallet aʋu kɔsɔkɔsɔa gbugbɔgakpɔ to Zebrad dzi.
-* Na ɣeyiɣi aɖe Zallet be wòagbugbɔ wò ga si susɔ kple asitsatsa ŋutinya atu.
+* Ne woɖe safuiwo ɖo me vɔ la, Zallet adze ɖoɖonu ƒe rescan gɔme to Zebrad me.
+* Na ɣeyiɣi aɖe na Zallet be wòagbugbɔ atu wò balance kple gaɖoɖo ƒe ŋutinya.
 
-**7. Kpɔ Dadaɖeanyiwo Kple Sync** .
+**7. Kpɔ Balances Kple Sync Ƒe Nyateƒe**
 
-Ne wonya tsɔe vɛ ko la, Zallet aƒo ka na wò Zebrad node eye wòagbugbɔ akpɔ blockchain la.
-Ne wowu nuwɔwɔ ɖekae nu la, ele be wò ga si susɔ kple wò asitsatsa nadze abe tsã ene pɛpɛpɛ.
+Ne woɖe wo ɖo me vɔ la, Zallet akado ɖe wò Zebrad ƒe ɣaɣla dzesi ŋɔŋlɔ dzi eye wòawɔ blockchain ƒe rescan.
+Ne synchronization wu la, wò balancewo kple gaɖoɖowo anɔ afi ma ke abe tsã ene.
 
-Àte ŋu aɖo kpe wò node ƒe sync nɔnɔme dzi to duƒuƒu:
+Àte ŋu akpɔ wò ɣaɣla dzesi ŋɔŋlɔ ƒe sync ƒe nɔnɔ ƒe nyateƒe to esia wɔwɔ me:
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
 ![image](/content-images/SyIyVDY6xl-10d6bed7b8.webp)
 </div>
 
-Alo lé ŋku ɖe nuŋlɔɖiwo ŋu.
+Alo kpɔ logs.
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
 ![image](/content-images/r1HfVPF6gg-b6b76e9907.webp)
 </div>
 
-**8. Kuxiwo gbɔ kpɔkpɔ**
+**8. Kuxi Ƒe Ɖeɖe**
 
 <div className="overflow-x-auto my-8 rounded-2xl border border-slate-200 dark:border-slate-700">
   <table className="w-full min-w-full border-collapse text-sm">
     <thead className="bg-slate-100 dark:bg-slate-800">
       <tr>
-        <th className="px-6 py-4 text-left font-semibold text-slate-900 dark:text-white">Issue</th>
-        <th className="px-6 py-4 text-left font-semibold text-slate-900 dark:text-white">Possible Cause</th>
-        <th className="px-6 py-4 text-left font-semibold text-slate-900 dark:text-white">Solution</th>
+        <th className="px-6 py-4 text-left font-semibold text-slate-900 dark:text-white">Kuxi</th>
+        <th className="px-6 py-4 text-left font-semibold text-slate-900 dark:text-white">Nu Si Ate Ŋu Anye Eƒe Ta</th>
+        <th className="px-6 py-4 text-left font-semibold text-slate-900 dark:text-white">Ɖeɖe</th>
       </tr>
     </thead>
     <tbody>
       <tr className="border-b border-slate-200 dark:border-slate-700 hover:bg-slate-50 dark:hover:bg-slate-900/50">
-        <td className="px-6 py-4">Zebrad won't start</td>
-        <td className="px-6 py-4">Port in use or bad config</td>
-        <td className="px-6 py-4">Check **zebrad.toml** and use a free port</td>
+        <td className="px-6 py-4">Zebrad mate ŋu adze gɔme o</td>
+        <td className="px-6 py-4">Wole port la tsɔm alo config la menyo o</td>
+        <td className="px-6 py-4">Kpɔ **zebrad.toml** eye tsɔ port si wɔa dɔ o</td>
       </tr>
       <tr className="border-b border-slate-200 dark:border-slate-700 hover:bg-slate-50 dark:hover:bg-slate-900/50">
-        <td className="px-6 py-4">Slow sync</td>
-        <td className="px-6 py-4">Network congestion</td>
-        <td className="px-6 py-4">Ensure stable internet, restart Zebrad</td>
+        <td className="px-6 py-4">Sync blewu</td>
+        <td className="px-6 py-4">Network ƒe ƒoƒoɖoƒo</td>
+        <td className="px-6 py-4">Kpɔ be internet la le sesĩe, gbugbɔ dze Zebrad gɔme</td>
       </tr>
       <tr className="border-b border-slate-200 dark:border-slate-700 hover:bg-slate-50 dark:hover:bg-slate-900/50">
-        <td className="px-6 py-4">Wallet missing transactions</td>
-        <td className="px-6 py-4">Partial key import</td>
-        <td className="px-6 py-4">Re-import keys or rescan in Zallet</td>
+        <td className="px-6 py-4">Gaɖoɖo aɖewo mele gakotoku me o</td>
+        <td className="px-6 py-4">Safui ƒe ɖeɖe si meblibo o</td>
+        <td className="px-6 py-4">Ɖe safuiwo ɖo eme ake alo wɔ rescan le Zallet me</td>
       </tr>
       <tr className="border-b border-slate-200 dark:border-slate-700 hover:bg-slate-50 dark:hover:bg-slate-900/50">
-        <td className="px-6 py-4">Zallet can't connect to node</td>
-        <td className="px-6 py-4">Node not running or wrong endpoint</td>
-        <td className="px-6 py-4">Start Zebrad and verify correct RPC port</td>
+        <td className="px-6 py-4">Zallet mate ŋu akado ɖe ɣaɣla dzesi ŋɔŋlɔ la dzi o</td>
+        <td className="px-6 py-4">Ɣaɣla dzesi ŋɔŋlɔ la mele dɔ wɔm o alo endpoint la menyo o</td>
+        <td className="px-6 py-4">Dze Zebrad gɔme eye kpɔ be RPC port si le eteƒe la sɔ</td>
       </tr>
       <tr className="border-b border-slate-200 dark:border-slate-700 hover:bg-slate-50 dark:hover:bg-slate-900/50">
-        <td className="px-6 py-4">Zallet crashes</td>
-        <td className="px-6 py-4">Outdated build</td>
-        <td className="px-6 py-4">Update to latest release from GitHub</td>
+        <td className="px-6 py-4">Zallet dzra</td>
+        <td className="px-6 py-4">Build xoxo</td>
+        <td className="px-6 py-4">Yɔ ɖe release si yeyee tso GitHub gbɔ</td>
       </tr>
     </tbody>
   </table>
 </div>
 
-**9. Nyanuwuwuw**
+**9. Nuwuwu**
 
-Ʋuʋu tso zcashd yi Zebrad kple Zallet naa Zcash nuteƒekpɔkpɔ si le kabakaba wu, si le dedie wu, eye wònye egbegbe tɔ.
-Le Rust-dzi dedienɔnɔ, modular wɔwɔme, kple dɔwɔnu nyuitɔwo, ɖoɖo sia kpɔa egbɔ be wò node kple gakotoku gakpɔtɔ le dzadzraɖoɖi na etsɔme esime Zcash ecosystem yi edzi le tɔtrɔm.
+Ɖeɖe tso zcashd yi Zebrad kple Zallet na wò Zcash ƒe nunya si kabakaba, le dedie, eye yeyee wu.
+Kple dedie si tso Rust me, ɖoɖo si mama, kple dɔwɔnu nyuitɔwo, ɖoɖo sia ana wò ɣaɣla dzesi ŋɔŋlɔ kple gakotoku nanɔ ŋgɔ ɖo le etsɔme, le esime Zcash ƒe ecosystem gale ɖeɖem.
 
-Kpekpeɖeŋu: Na wò gakotoku ƒe safuiwo nanɔ Internet dzi eye nàwɔ wò Zallet nyatakakawo ƒe kɔpi edziedzi.
-Sasrã [zebra.zfnd.org ƒe nyatakakadzraɖoƒea](https://zebra.zfnd.org) na Zebra, kple [Zallet ƒe Agbalẽa](https://zcash.github.io/zallet/) alo be [Zallet ƒe nudzraɖoƒe](https://github.com/zcash/zallet) na Zallet. The [Ʋuʋu tso zcashd](https://zcash.github.io/zallet/) ta si le The Zallet Book mee nye afɔɖeɖe 6 lia ƒe numekugbalẽ si ŋu ŋusẽ le.
+Nuxlɔ̃ame: Dzra wò gakotoku ƒe safuiwo ɖo le internet me o, eye wɔ backup na wò Zallet ƒe data zi sia zi.
+Yi [zebra.zfnd.org](https://zebra.zfnd.org) na Zebra, eye yi [The Zallet Book](https://zcash.github.io/zallet/) alo [Zallet repository](https://github.com/zcash/zallet) na Zallet. The [Migrating from zcashd](https://zcash.github.io/zallet/) ƒe ta le The Zallet Book me nye mɔɖoɖo si le dziɖuɖu na afɔ 6.

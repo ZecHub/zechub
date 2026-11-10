@@ -1,129 +1,129 @@
-# Zero to Zero Knowledge: Lelantus ƒe Ðoɖowɔɖi
+# Zero to Zero Knowledge: Lelantus Protocol
 
-**Series:** Zero to Zero Knowledge
+**Ƒoƒo:** Zero to Zero Knowledge
 
-Egbea míelé ŋku ɖe **Lelantus** ŋu!
+Egbe míele **Lelantus** kpɔm!
 
-Woɖee ɖe go le ƒe 2019 me, ɖoɖowɔɖi sia tu ɖe Zerocoin dzi. Wozãnɛ le **Firo** ga (si woyɔna tsã be Zcoin) me tsɔ naa ame ŋutɔ ƒe asitsatsa le kɔsɔkɔsɔ dzi. Eɖi Zcash le mɔ aɖewo nu gake eto vovo kura le go akpa gãtɔ me.
+Wodo go le 2019 me, eye mɔɖa sia tso Zerocoin dzi. Wozãa esia le **Firo** ga ƒe ƒomea me (xoxo Zcoin) be woawɔ ɣaɣla [privacy] ɖoɖonu dzi [on-chain] gaɖoɖo [transaction]wo. Ele abe Zcash ene le mɔ aɖewo nu, gake wòto vovo le eƒe akpa geɖewo me.
 
-![Lelantus ƒe ŋgɔdonya](/content-images/Fsk18DgXsAEc0Ob-a8cd9a85d1.webp)
-
----
-
-## Zcash vs Firo ƒe Ðoɖowɔɖi ƒe Gɔmeɖoanyiwo
-
-- **Zcash** - Tu ɖe **Zerocash** ƒe ɖoɖowɔɖia dzi 
-- **Firo (Zcoin)** - Tu ɖe **Zerocoin** ƒe ɖoɖowɔɖia dzi
-
-![Zerocash vs Zerocoin tsɔtsɔ sɔ kple wo nɔewo](/content-images/Fsk2Fk7WcAA81ty-92158edf6b.webp)
+![Lelantus intro](/content-images/Fsk18DgXsAEc0Ob-a8cd9a85d1.webp)
 
 ---
 
-## Firo ƒe Ameŋunyatakakawo Ŋuti Ðoɖowo ƒe Nɔnɔmetɔtrɔ
+## Zcash kple Firo Ƒe Mɔɖa Ƒe Gɔmeɖoƒewo
 
-Abe alesi wòle le Zcash gome ene la, Firo zãa adrɛs siwo wokpɔ ta na tsɔ xea fe siwo womeyɔ o.
+- **Zcash** - Wotu eƒe mɔɖa ɖe **Zerocash** dzi  
+- **Firo (Zcoin)** - Wotu eƒe mɔɖa ɖe **Zerocoin** dzi
 
-**Ɣeyiɣi ƒe ɖoɖowɔɖi:**
-- **Zerocoin** - Gbeɖiɖi si gblẽ
-- **Sigma** - Subɔsubɔhawo ƒe ɖoɖo si woɖo ɖi
-- **Lelantus 1.0** - Dedienɔnɔ ƒe kpeɖodzi nyui aɖeke mele eme o
-
-![Protocol ƒe nɔnɔmetɔtrɔ](/content-images/Fsk2NdaWAAAKVgH-f84ae27c48.webp)
+![Zerocash vs Zerocoin comparison](/content-images/Fsk2Fk7WcAA81ty-92158edf6b.webp)
 
 ---
 
-## Seɖoƒe siwo le Sigma ƒe Ðoɖowɔɖia ŋu
+## Firo Ƒe ɣaɣla Mɔɖawo ƒe Dzidzime
 
-Seɖoƒe gã aɖe nɔ Σ (Sigma) ɖoɖowɔɖi si wozã le Zcoin/Firo ƒe tɔtrɔ siwo do ŋgɔ me: subɔsubɔha siwo woɖo ɖi koe ezãlawo ate ŋu awɔ mint.
+Abe Zcash ene, Firo zãa ɣaɣla [shielded] gaɖoƒe ƒe dzesi [address]wo be wòawɔ fexexe [payment] si me ame ƒe ŋkɔ menye.
 
-Esia na ŋkɔmaɖemaɖe ƒe hatsotso suewo eye wòʋu ʋɔtru na ɣeyiɣi ƒe amedzidzedze le mint kple redeem dɔwɔwɔwo dome (kple "tainted change" kuxia).
+**Ɣeyiɣi ƒe ƒoƒo:**
+- **Zerocoin** - Ɖaseɖigbalɛ [proof] ƒe ŋusẽ gbã
+- **Sigma** - Ga ƒe ƒome si wode asi ɖo
+- **Lelantus 1.0** - Menye dzidzɔ ɖaseɖigbalɛwo o
 
-![Sigma subɔsubɔhawo](/content-images/Fsk2fxfWcAMUBDo-333a8f9df3.webp)
-
----
-
-## Alesi Lelantus Naa Ameŋunyatakakawo Nanyo Ðe Edzie
-
-**Lelantus** kpɔa denomination si woɖo ɖi ƒe nya la gbɔ to mɔɖeɖe na mints tso ƒuƒoƒo ɖeka si lolo wu me.
-
-Viɖe vevi siwo dona tso eme:
-- Eɖea subɔsubɔha si woɖo ɖi ƒe ŋkɔmaɖemaɖe ƒe hatsotsowo ɖa
-- Eɖea ɣeyiɣi ƒe amedzidzedzewo dzi kpɔtɔna le dzobibi/xɔxlɔ̃ dome
-- Eɖea tɔtrɔ si ŋu ɖiƒoƒo le ƒe kuxia ɖa
-
-**Seɖoƒe**: Set ƒe lolome ƒe seɖoƒe le **gaku 65,000** fifia.
-
-![Lelantus ƒe viɖewo](/content-images/Fsk2wK3X0AA6MEe-06f29b3621.webp)
+![Protocol evolution](/content-images/Fsk2NdaWAAAKVgH-f84ae27c48.webp)
 
 ---
 
-## Gaku ƒe Ŋugbedodowo
+## Sigma Protocol ƒe Kpɔɖeŋuwo
 
-**gaku ƒe adzɔgbeɖeɖe** nye adzɔgbeɖeɖe si wogbã ŋku eve si ŋlɔa gaku ƒe xexlẽdzesi kple gaku ƒe asixɔxɔ.
+Σ (Sigma) mɔɖa si wonɔ zãm le Zcoin/Firo ƒe version xoxoawo me la, exɔ kpɔɖeŋu gã aɖe: Ezɔla be zazãlawo nɔa ŋu tsɔa ga ƒe ƒome si wode asi ɖo ko wɔa mint.
 
-Esiawo wɔa dɔ abe **Notes** le Zcash me ene.
+Esia wɔ be ame siwo ŋu woate ŋu aɖe asi le wo dzi la ƒe hae sue, eye wɔ mɔ na ɣeyiɣi ƒe attackwo le mint kple redeem ƒe dɔwɔwɔwo dome (kpe ɖe "ga si wogbɔ ɖe agbagba me" ƒe kuxi la ŋu).
 
-Wotaa gaku ƒe ŋugbedodoa eye wodzraae ɖo ɖe agbalẽ gã la dzi ne wowɔ gaku la (to Mint alo Spend ƒe asitsatsa dzi).
-
-![Gaku ƒe ɖokuitsɔtsɔna ƒe nɔnɔmetata](/content-images/Fsk3AWNX0AIHya8-0ed01a73c1.webp)
+![Sigma denominations](/content-images/Fsk2fxfWcAMUBDo-333a8f9df3.webp)
 
 ---
 
-## Basecoin ƒe agbalẽ < - > Zerocoin ƒe Kpɔɖeŋu
+## Ale Si Lelantus Naa ɣaɣla Nyɔ Nu Wu
 
-Lelantus zãa **basecoin si wonya nyuie < - > zerocoin** ƒe kpɔɖeŋu.
+**Lelantus** ɖe fixed denomination ƒe kuxi sia ɖa, to mɔ na mintwo tso ƒuƒo gã ɖeka me.
 
-**Nɔnɔme vevi aɖe**: Woate ŋu axɔ akpa aɖewo azɔ esime wole susɔea kple ga homewo ɣla.
+Nɔnɔme veviwo:
+- Eɖea fixed denomination ƒe ame siwo ŋu woate ŋu aɖe asi le wo dzi ƒe ƒuƒowo ɖa
+- Enɔa ɣeyiɣi ƒe attackwo le burn/redeem dome ɖe anyigba
+- Eɖea ga si wogbɔ ɖe agbagba me ƒe kuxi la ɖa
 
-Abe Zcash ene la, ele be ezãla natia asitsatsa siwo me kɔ la tẽ.
+**Kpɔɖeŋu**: Ƒuƒo la ƒe lolome ƒe sedzidzɔ fifia le **65,000 coins**.
 
-![Lelantus ƒe sisi](/content-images/Fsk3HrjXgAMgqmX-4d727febf5.webp)
-
----
-
-## Kpeɖodzi Geɖeawo Dome Ðeka
-
-Lelantus zãa **Ðeka-ɖe-Kpeɖodzi Geɖe** tsɔ ɖea nyawo tsɔtsɔ de eme ƒe asixɔxɔ siwo hiã hena kpeɖodzi dadasɔ evɔ meɖea nyawo ƒe gɔmedzedze fiana o - eye mehiã be woawɔ ɖoɖo si dzi woka ɖo o.
-
-Wozãa kpeɖodzi siawo le **Triptych** (si woyɔ le míaƒe CryptoNote ka me) hã me.
-
-![Kpeɖodzi Geɖeawo dometɔ Ðeka](/content-images/Fsk3Z0nWIAAPD4k-b76f087018.webp)
+![Lelantus advantages](/content-images/Fsk2wK3X0AA6MEe-06f29b3621.webp)
 
 ---
 
-## Network Layer ƒe Nyatakakawo: Dandelion++
+## Ga ƒe Adzɔgbeɖeɖewo
 
-Firo nodes zãa Network Magic ma ke abe Zcash ƒe Magicbean ene.
+**Ga ƒe adzɔgbeɖeɖe [commitment]** nye adzɔgbeɖeɖe si wogbe ɣa le mɔ eve me, si me ga ƒe serial number kple ga la ƒe asime le.
 
-Abe Monero ene la, Firo wɔ **Dandelion++** tsɔ tsɔ adzamenyawo kpee to asitsatsa ƒe nyadzɔdzɔgblɔla ƒe IP adrɛs ƒe blukɔ me.
+Esiawo wɔa dɔ abe **Didienuwo [Notes]** le Zcash me ene.
 
-**Dandelion++ ƒe akpawo:**
-- **Stem phase** - Wotsɔa asitsatsa yia random node ɖeka dzi ɖe hatiwo katã teƒe
-- **Fluff phase** - Wodze egɔme le vome, emegbe wòtrɔna ɖe nyatoƒoetoto ƒe nɔnɔme si sɔ ŋu
+Woaɖe ga ƒe adzɔgbeɖeɖe la ɖe go eye wowɔa eƒe nudzraɖoƒe le ledger la dzi ne wowɔ ga la (to Mint alo Spend gaɖoɖowo me).
 
-Esia wɔnɛ be esesẽna ŋutɔ be woadi afisi asitsatsa aɖe dzɔ tso to network numekuku me.
-
-![Dandelion++ numeɖeɖe](/content-images/Fsk4A8VWcAU84MR-538b054cab.webp)
+![Coin commitment diagram](/content-images/Fsk3AWNX0AIHya8-0ed01a73c1.webp)
 
 ---
 
-## Etsɔme: Lelantus-Spark
+## Basecoin < - > Zerocoin Ƒe Model
 
-**Lelantus-Spark** (wowɔ ɖoɖo ɖe eŋu le ƒe 2023 ƒe nuwuwu) to tiatiawɔblɔɖe ƒe dzedzeme ƒe ɖoɖo eve vɛ to **ZIP-32 ƒe atsyã ƒe dzɔtsoƒe** kple adrɛs vovovowo zazã me.
+Lelantus zãa **basecoin < - > zerocoin** ƒe model xoxo la.
 
-Atsɔ kpekpeɖeŋu hã akpe ɖe eŋu na:
+**Nɔnɔme vevi**: Fifia, amewo ate ŋu axɔ ga ƒe akpa aɖe azɔ, eye ga si gblẽ la kple eƒe asimewo nanɔ ɣa.
+
+Abe Zcash ene, ele be zazãla la natia nuwo ƒe ʋuʋuɖi [transparent] gaɖoɖowo kple asi.
+
+![Lelantus flow](/content-images/Fsk3HrjXgAMgqmX-4d727febf5.webp)
+
+---
+
+## One-of-Many Ɖaseɖigbalɛwo
+
+Lelantus zãa **One-of-Many Ɖaseɖigbalɛwo [Proofs]** be wòaxɔ input ƒe asime siwo hiã be woaɖe balance ƒe ɖaseɖigbalɛ, esi wometsɔ inputwo ƒe tsoƒewo ɖe fia o — eye womehia mɔ̃ ƒe ɖoɖo xexlẽnuwo [trusted setup] o.
+
+Wozãa ɖaseɖigbalɛ siawo hã le **Triptych** me (si míegblɔ le míatɔ CryptoNote thread me).
+
+![One-of-Many Proofs](/content-images/Fsk3Z0nWIAAPD4k-b76f087018.webp)
+
+---
+
+## Network Layer Ƒe ɣaɣla: Dandelion++
+
+Firo ƒe ɣaɣla dzesi ŋɔŋlɔwo [nodes] zãa Network Magic ma ke abe Zcash ƒe Magicbean ene.
+
+Abe Monero ene, Firo wɔ **Dandelion++** be wòatsɔ ɣaɣla akpe ɖe eŋu to gaɖoɖo ƒe broadcaster la ƒe IP address ƒe tsitretsitretso me.
+
+**Dandelion++ ƒe akpaewo:**
+- **Stem phase** - Wotsɔa gaɖoɖo la ɖe ɣaɣla dzesi ŋɔŋlɔ maɖe ko gbɔ le ale si wotsɔe ɖe peerwo katã gbɔ o
+- **Fluff phase** - Wodzea egɔme le mɔ aɖe nu ko, eye emegbe wotsɔa eɖokui yina gossip mode gbɔ
+
+Esia naa be gaɖoɖo aɖe ƒe tsoƒe dzi ƒe didi to network analysis me nakpe ŋu na ame ŋutɔ.
+
+![Dandelion++ explanation](/content-images/Fsk4A8VWcAU84MR-538b054cab.webp)
+
+---
+
+## Etsɔƒe: Lelantus-Spark
+
+**Lelantus-Spark** (si wode asi be woawɔ le 2023 ƒe megbe) atsɔ mɔ eve na ame be wòatia nusi wòadi be woakpɔ, to **ZIP-32 style derivation** kple gaɖoƒe ƒe dzesi vovovowo me.
+
+Etsɔ akpeɖeŋu hã akpe ɖe eŋu na:
 - Multisig
-- Adzamenuwo Si Zãla Ðe Gɔme
+- User Defined Confidential Assets
 
 Nɔnɔme siawo sɔ kple Zcash Shielded Assets.
 
-![Lelantus-Spark ƒe gbeƒãɖeɖe](/content-images/Fsk4jXeXsAACQ3h-b53294b16e.webp)
+![Lelantus-Spark announcement](/content-images/Fsk4jXeXsAACQ3h-b53294b16e.webp)
 
 ---
 
-**Ka gbãtɔ si ZecHub (@ZecHub) ŋlɔ** 
+**Thread Gbãtɔ Tso ZecHub (@ZecHub) Gbɔ**  
 https://x.com/ZecHub/status/1641902859800150017
 
 ---
 
-*Woƒo axa sia nu ƒu tso Zero to Zero Knowledge ƒe ka gbãtɔ me na ZecHub wiki.*
+*Wowɔ axa sia tso Zero to Zero Knowledge ƒe thread gbãtɔ la me na ZecHub wiki la.*

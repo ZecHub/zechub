@@ -2,44 +2,44 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Zcash Dɔwɔnuwo
+# Zcash Ɖeviwo
 
-Dɔwɔnu geɖewo li siwo kpena ɖe ezãlawo ŋu be woase Zcash gɔme.
+Ɖevi geɖe li siwo kpena ɖe amedzrowo ŋu be woase Zcash gɔme.
 
-**[Zcash Nyadzɔdzɔgblɔmɔnuwo](https://www.youtube.com/c/ZcashMedia)**
+**[Zcash Media](https://www.youtube.com/c/ZcashMedia)**
 
-Zcash Media nye habɔbɔ si le eɖokui si si wɔa nufiame nuŋlɔɖiwo tso Zcash ŋu. Woƒe video gbãtɔ, "Wotu be woatsɔ aɖɔ Bitcoin ƒe vodada si wua ame ɖo, Nukae nye Zcash (ZEC)?", nye ŋgɔdonya gã aɖe na Zcash.
+Zcash Media nye ɖeɖe ƒe habɔbɔ si ƒe nusrɔ̃lɛ ƒe video-dokumentriwo le Zcash ŋu. Woƒe video gbãtɔe, "Built to Fix Bitcoin's Fatal Flaw, What is Zcash (ZEC)?", nye ŋgɔdonya nyui na Zcash.
 
-**[X (si woyɔna tsã be Twitter) .](https://x.com)**
+**[X (tsã woyɔna be Twitter)](https://x.com)**
 
-Twitter nye de facto kadodoƒe na Zcash nutoa, kple cryptocurrency teƒe si keke ta wu hã. Enye teƒe nyui aɖe si woawɔ pulse check le nusianu Zcash ŋu, eye nàdze nutoa me tɔ xɔŋkɔwo hã yome. Esiae nye a [agbalẽ](https://www.notion.so/zechub/Social-Media-Links-05b9df645af54de7a1989d9c4ccc4d05) si yɔa akɔntabubu siwo le ŋgɔ wu siwo dzi woazɔ ɖo.
+Twitter nye kadodo ƒe teƒe vevi na Zcash ƒe hadome, eye wòanye nenema hã na cryptocurrency ƒe teƒe gã la. E nye teƒe nyui be nànya nu siwo katã le Zcash ŋu yim, eye nàte ŋu ade dzoku le hadome ƒe amedzro veviwo yome. Ɛnye [dokument](https://www.notion.so/zechub/Social-Media-Links-05b9df645af54de7a1989d9c4ccc4d05) si xlɔ account siwo wòle be nàdze yome ƒe xexlẽme.
 
-**[Zcash Habɔbɔa ƒe Habɔbɔ](https://www.zcashcommunity.com/)**
+**[Zcash Hadome](https://www.zcashcommunity.com/)**
 
-Zcash Community nye nutoa me tɔwo ƒe nyatakakadzraɖoƒe si tea gbe ɖe nutoa me tɔwo ƒe dɔ siwo doa alɔ Zcash ƒe lãwo ƒe agbenɔnɔ ƒe ɖoɖoa dzi. Enye mɔnu nyui aɖe si dzi nàto anya Zcash habɔbɔa kple eƒe dɔwɔwɔ vovovoawo abe ga ene.
+Zcash Community nye hadome ƒe nudzraɖoƒe si hadome ŋutɔ kpɔna, eye wòfia hadome ƒe dɔwo siwo kpena ɖe Zcash ƒe ecosystem ŋu. E nye mɔ nyui be nànya Zcash ƒe hadome kple eƒe dɔ vovovowo abe ga ene.
 
-**[Zcash ƒe Nyamedzroƒea](https://forum.zcashcommunity.com/)**
+**[Zcash Ƒe Nyadzɔdzɔƒe](https://forum.zcashcommunity.com/)**
 
-Abe alesi míegblɔe le zãla ƒe mɔfiame yeyea me ene la, Zcash ƒe nyamedzroƒea nye teƒe nyui aɖe si woawɔ numedzodzro didiwo tso Zcash ƒe nyatiwo kple susu siwo wodo ɖa hã ŋu. Dodokpɔwo ɖoa nyamedzroƒea ɣesiaɣi ale be mɔnukpɔkpɔ sua nutoa me tɔwo si be woadzro susu siwo wodo ɖa la me ahahe nya le wo ŋu.
+Abe ale si woegblɔe le amedzro yeyewo ƒe mɔfiame la me ene, Zcash ƒe nyadzɔdzɔƒe nye teƒe nyui be woawɔ nyadzedze didi le Zcash ƒe nyawo kple susu siwo wometsɔ va la ŋu. Woɖena susu yeyewo katã ɖe nyadzɔdzɔƒe la dzi be hadome la nakpɔ mɔ na woƒe nyadzedze kple medeasi.
 
-**[Z.ga si woatsɔ awɔ dɔe](https://z.cash/)**
+**[Z.cash](https://z.cash/)**
 
-Z.cash nye Zcash ƒe nyatakakadzraɖoƒe vevitɔ. Enaa Zcash ƒe nyatakakawo kple nuŋlɔɖiwo zãla vovovowo eye wònaa zãla yeyewo be woage ɖe mɔ̃ɖaŋununya me numeɖeɖe siwo ƒo xlã Zcash me goglo wu.
+Z.cash nye Zcash ƒe website vevi. Etsɔ Zcash ƒe emenyawo kple dokumentwo na amedzro ƒe ƒomevi vovovo, eye ena mɔ amedzro yeyewo be woage ɖe Zcash ƒe teknikal gɔmeseseawo me wu.
 
-**[Zcash GitHub ƒe mɔnu](https://github.com/zcash/zcash)**
+**[Zcash GitHub](https://github.com/zcash/zcash)**
 
-Got coding chops eye nèdi be yeaƒu tsi ayi goglo wu le mɔ̃ɖaŋununya ƒe akpa si le Zcash mea? Zcash GitHub Repo nye nudzraɖoƒe na zcashd, Zcash node ƒe dɔwɔwɔ gbãtɔ. zcashd ɖo eƒe kpekpeɖeŋunana ƒe nuwuwu le eɖokui si le July 18, 2026 dzi eye womegakpɔa edzi o, eye womegawɔa kɔpi ƒe axa si dzi nya sia zã tsɔ doa ka kplii o. Stack si wodzra ɖo lae nye [Zebra](https://github.com/ZcashFoundation/zebra) na node la kple [Zallet](https://github.com/zcash/zallet) na gakotokua — kpɔ [zcashd na Zebra kple Zallet ʋuʋu ƒe mɔfiame](https://zechub.wiki/guides/migration-guide-zcashd-to-zebrad-zallet).
+Ènya code ŋutɔ eye nèle didim be nàge ɖe Zcash ƒe teknikal akpa me wu oa? Zcash GitHub Repo nye repository na zcashd, si nye Zcash ƒe ɣaɣla dzesi ŋɔŋlɔ [node] ƒe dɔwɔwɔ gbãtɔ. zcashd va ɖo eƒe kpekpeɖeŋu ƒe nuwuwu le 18 July 2026, eye womakpɔa eŋu o azɔ; download axa si nyawo sia tsɔna ƒe kadodo ɖo ɖe eme tsã la hã menoa dɔ o. Ɖoɖo si wokpɔna fifia enye [Zebra](https://github.com/ZcashFoundation/zebra) na ɣaɣla dzesi ŋɔŋlɔ la kple [Zallet](https://github.com/zcash/zallet) na gakotoku [wallet] la — kpɔ [zcashd be nàva ɖe Zebra kple Zallet ƒe migration guide](https://zechub.wiki/guides/migration-guide-zcashd-to-zebrad-zallet) ŋu.
 
 **[Zcash Foundation GitHub](https://github.com/ZcashFoundation)**
 
-GitHub nudzraɖoƒe bubu si xɔa Zcash Foundation ƒe dɔwo, siwo dometɔ aɖewoe nye [zebra](https://github.com/ZcashFoundation/zebra), Zcash node ƒe dɔwɔwɔ le Rust me.
+Repository bubu si le GitHub ƒe dɔwo ŋu, si me Zcash Foundation le, eye woɖe [zebra](https://github.com/ZcashFoundation/zebra) hã ɖe eme; esia nye Zcash ƒe ɣaɣla dzesi ŋɔŋlɔ ƒe dɔwɔwɔ le Rust me.
 
 **[Halo2](https://zcash.github.io/halo2/index.html)**
 
-Nukpɔsusu siwo le megbe na sidzedze zero-sidzedze ƒe kpeɖodziɖoɖowo.
+Nunya siwo le zero-knowledge ɖaseɖigbalɛ [proof] ƒe ɖoɖowo megbe.
 
-**[Zcash RPC ƒe Nuŋlɔɖiwo](https://zcash.github.io/rpc/)**
+**[Zcash RPC Dokumentwo](https://zcash.github.io/rpc/)**
 
-RPC sedede siwo zcashd siwo woɖe ɖe go la ƒe xexlẽdzesi. Ne èdi gakotoku RPC ƒe anyigba si wodzra ɖo la, kpɔ [Zallet ƒe Agbalẽ](https://zcash.github.io/zallet/).
+RPC se siwo zcashd fia ƒe xexlẽme. Na gakotoku RPC ƒe teƒe si wokpɔna fifia, kpɔ [Zallet Book](https://zcash.github.io/zallet/).
 
-_Esia nye nuŋlɔɖi si womewu enu haɖe o_ .
+_Dokument sia menuwɔ o_

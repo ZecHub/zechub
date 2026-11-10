@@ -1,26 +1,26 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/guides/Zcash_Improvement_Proposals.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Dezie Peeji"/>
 </a>
 
-# Nkwupụta Mmezi Zcash
+# Zcash Ntụnye Maka Nkwalite
 
 <img width="672" height="378" alt="1" src="/content-images/fbce4a28-585b-4caa-b306-4cf06bcb5977-0b61791008.webp" />
 
 
 
-# Gịnị bụ ZIP?
-Zcash Improvement Proposal (ZIP) bụ akwụkwọ eji emepụta ihe na-enye ozi nye obodo Zcash, ma ọ bụ kọwaa atụmatụ ọhụrụ maka Zcash ma ọ bụkwanụ usoro ya. Ihe a ga-eme n'ime ZIP kwesịrị inye nkọwa dị nkenke gbasara njirimara ahụ nakwa ezi uche nke njirimara.
+# Gịnị bụ ZIP
+Ntụnye Maka Nkwalite [Improvement Proposal] nke Zcash (ZIP) bụ akwụkwọ nhazi nke na-enye obodo Zcash ozi, ma ọ bụ nke na-akọwa atụmatụ ọhụrụ maka Zcash ma ọ bụ usoro ya ma ọ bụ gburugburu ya. ZIP kwesịrị inye nkọwapụta nka dị mkpirikpi banyere atụmatụ ahụ na ihe kpatara atụmatụ ahụ.
 
-Anyị bu n'obi na ZIPs ga-abụ isi usoro maka ịtụ aro atụmatụ ọhụrụ, iji nakọta ntinye obodo banyere okwu a, yana ịdekọ mkpebi imewe nke abanyela na Zcash. Onye nwe (nke) nke ZIP (na - abụkarị ndị edemede)) bụ ọrụ maka iwulite nkwekọrịta n'ime obodo ma dekọọ echiche dị iche iche.
+Anyị bu n'obi ka ZIP bụrụ usoro bụ isi maka ịtụpụta atụmatụ ọhụrụ, maka ịnakọta ntinye obodo banyere otu okwu, na maka idekọ mkpebi nhazi ndị e tinyegoro na Zcash. Onye nwe ZIP (na-abụkarị onye odee ma ọ bụ ndị odee) nwere ọrụ iwulite consensus [consensus] n'ime obodo na idekọ echiche ndị na-ekwenyeghị.
 
-Ebe ọ bụ na a na-edebe ZIPs dị ka faịlụ ederede n'ime ebe nchekwa nke mbipute, akụkọ mgbanwe ha bụ ihe ndekọ akụkọ banyere atụmatụ ahụ.
+Ebe a na-edobe ZIP dị ka faịlụ ederede n'ime ebe nchekwa nwere ụdị nsụgharị, akụkọ nsụgharị ha bụ ndekọ akụkọ ihe mere eme nke atụmatụ a tụrụ aro.
 
--> [zip.z.cash (ego)](https://zips.z.cash)
+-> [zips.z.cash](https://zips.z.cash)
 
 
-## Ndị nchịkọta ZIP
+## Ndị nchịkọta akụkọ ZIP
 
-Maka ZIP ọ bụla na-abata, a ga-enyocha ya. Ndị nchịkọta akụkọ nke ZIP nwere ọrụ iji hụ usoro na ọdịnaya nke Zip ọ bụla akọwapụtara n'ụzọ zuru oke okwu, ezi uche na mgbanwe teknụzụ emere. 
+Maka ZIP ọ bụla na-abata, ọ ga-agabiga usoro nyocha. Ndị nchịkọta akụkọ ZIP nwere ọrụ ịhụ na usoro na ọdịnaya nke ZIP ọ bụla kọwara nke ọma okwu, ihe kpatara ya, na mgbanwe nka ndị e mere. 
 
 ```markdown
 * Jack Grigg, Kris Nuttycombe and Daira-Emma Hopwood associated with the ECC.
@@ -28,46 +28,46 @@ Maka ZIP ọ bụla na-abata, a ga-enyocha ya. Ndị nchịkọta akụkọ nke 
 * Sam and Mark, associated with SL.
 ```
 
-## ZIP ndị a ma ama ugbu a
+## ZIP ndị dị mkpa ugbu a
 
-A na-enyocha ọnọdụ ndị dị n'okpuru ebe a megide ZIP index at [zip.z.cash (ego)](https://zips.z.cash/#index-of-zips) na 18 Ọgọst 2026. Ọnọdụ ZIP gbanwere oge, yabụ were ndeksi ahụ dịka isi iyi nke eziokwu.
+A nyochara ọnọdụ na aha ndị dị n'okpuru megide ndepụta ZIP na [zips.z.cash](https://zips.z.cash/#index-of-zips) n'ụbọchị 18 Ọgọst 2026. Ọnọdụ ZIP na-agbanwe ka oge na-aga, ya mere were ndepụta ahụ dị ka isi iyi nke eziokwu.
 
-> Ihe e dere: [Mgbatị Zcash na-enweghị ntụpọ.](https://zips.z.cash/zip-0222)
+> Ndepụta mbụ: [Mgbatị Zcash Oha](https://zips.z.cash/zip-0222)
 
-> Ihe e dere: [Nyefee na Ọkụ nke Akụrụngwa Zcash Echebe](https://zips.z.cash/zip-0226)
+> Ndepụta mbụ: [Mbufe na Ọkụ nke Akụ Zcash nke e chebere echebe](https://zips.z.cash/zip-0226)
 
-> Ihe e dere: [Ntinye nke Akụrụngwa Zcash Echebe](https://zips.z.cash/zip-0227)
+> Ndepụta mbụ: [Mwepụta nke Akụ Zcash nke e chebere echebe](https://zips.z.cash/zip-0227)
 
-> E wepụrụ: [Nwepu nke Version 6 Transaction Format](https://zips.z.cash/zip-0230)  nke ZIP 229 na-akọwaghị, nke ugbu a kọwara ụdị azụmahịa 6. Lee ndepụta NU6.3 n'okpuru.
+> Ewepụrụ: [Ụdị Azụmahia Version 6 Ewepụrụ](https://zips.z.cash/zip-0230) — ZIP 229 emeela ka ọ gharazie ịdị mkpa, nke na-akọwa ugbu a ụdị azụmaahịa 6. Lee ndepụta NU6.3 dị n'okpuru.
 
-> Ihe e dere: [Nchịkọta Njirimara azụmahịa & Nyocha mbinye aka maka Mgbatị Zcash na-enweghị ntụpọ.](https://zips.z.cash/zip-0245)
+> Ndepụta mbụ: [Nchịkọta Onye Nkọwa Azụmahia na Nkwado signature Maka Mgbatị Zcash Oha](https://zips.z.cash/zip-0245)
 
-> Ihe e dere: [Ụdị Memo Field Format](https://zips.z.cash/zip-0302)
+> Ndepụta mbụ: [Usoro Memo Ahaziri Ahazi](https://zips.z.cash/zip-0302)
 
-> Ihe e dere: [Adreesị Sapling Mbinye aka](https://zips.z.cash/zip-0304)
+> Ndepụta mbụ: [Sapling Signature Adreesị akpa ego](https://zips.z.cash/zip-0304)
 
-> Ihe e dere: [Usoro Nkwado Onye Ahịa Dị Mfe maka Nchọpụta Ịkwụ Ụgwọ](https://zips.z.cash/zip-0307)
+> Ndepụta mbụ: [Usoro Light Client Maka Nchọpụta Kwụọ ụhwọ](https://zips.z.cash/zip-0307)
 
-> Ihe e dere: [Njirimara Nchedo nke Igodo Nlele Sapling](https://zips.z.cash/zip-0310)
+> Ndepụta mbụ: [Njirimara Nchekwa nke Viewing Key Sapling](https://zips.z.cash/zip-0310)
 
-> Ihe na-arụ ọrụ: [Ịkọwa Adreesị Ụdị nke a pụrụ iziga ego site na adreesị Transparent naanị](https://zips.z.cash/zip-0320)
+> Na-arụ ọrụ: [Ịkọwa Ụdị Adreesị akpa ego nke a pụrụ iziga ego na ya naanị site na Adreesị akpa ego Oha](https://zips.z.cash/zip-0320)
 
-> Ihe e dere: [Ụdị Wallet.dat](https://zips.z.cash/zip-0400)
+> Ndepụta mbụ: [Usoro Wallet.dat](https://zips.z.cash/zip-0400)
 
-## NU6.3 (Ironwood) ZIPs
+## ZIP NU6.3 (Ironwood)
 
-A kọwara NU6.3 na ZIP 258, tinyere ndị ọzọ ZIPs depụtara ebe a. The zuru ezu nwa akwukwo set e bipụtara na website nke National Geographic Society . [Nkọwapụta ZIP](https://zips.z.cash/#nu6-3-candidate-zips).
+A kọwara NU6.3 na ZIP 258, tinyere ZIP ndị ọzọ edepụtara ebe a. E bipụtara usoro ndị a na-atụle zuru ezu na ndepụta [ZIP](https://zips.z.cash/#nu6-3-candidate-zips).
 
-> Ihe e dere: [Ntinye nke NU6.3 Network Upgrade](https://zips.z.cash/zip-0258)
+> Ndepụta mbụ: [Mbugharị Network Upgrade NU6.3](https://zips.z.cash/zip-0258)
 
-> Ihe e dere: [Ụdị Usoro 6 Transaction Format](https://zips.z.cash/zip-0229)
+> Ndepụta mbụ: [Ụdị Azụmahia Version 6](https://zips.z.cash/zip-0229)
 
-> Ihe e dere: [Orchard to Ironwood Migration](https://zips.z.cash/zip-0318)
+> Ndepụta mbụ: [Mbugharị Orchard gaa Ironwood](https://zips.z.cash/zip-0318)
 
-> Ihe e dere: [NU6.3 Nsonaazụ maka Wallets](https://zips.z.cash/zip-0326)
+> Ndepụta mbụ: [Nsonaazụ NU6.3 Maka E-akpa ego](https://zips.z.cash/zip-0326)
 
-> Ihe a tụrụ aro ya: [Ironwood Quantum Recoverability (Igwe eji eme ihe maka igwe na-eme ka ọ dị ọhụrụ)](https://zips.z.cash/zip-2005)
+> Atụpụtara: [Iweghachite Quantum nke Ironwood](https://zips.z.cash/zip-2005)
 
-> E debere: [Ịmachibido ịnyefe n'ime ọdọ mmiri Orchard](https://zips.z.cash/zip-2006)
+> Edebela: [Ibelata Mbufe n'ime Pool Orchard](https://zips.z.cash/zip-2006)
 
-A na-emelite ZIP atọ gara aga maka NU6.3: [ZIP 209  Ihe e dere n'asụsụ Bekee](https://zips.z.cash/zip-0209), [ZIP 213 (mkpọka)](https://zips.z.cash/zip-0213) na nke a: [ZIP 317 (Ụlọ ọrụ na-ede akwụkwọ)](https://zips.z.cash/zip-0317).
+A na-emelitekwa ZIP atọ gara aga maka NU6.3: [ZIP 209](https://zips.z.cash/zip-0209), [ZIP 213](https://zips.z.cash/zip-0213) na [ZIP 317](https://zips.z.cash/zip-0317).

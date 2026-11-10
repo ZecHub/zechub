@@ -1,12 +1,12 @@
-# Pools de minería de Zcash
+# Zcash Pools de minado [Mining Pools]
 
-## ¿Qué son los pools de minería de Zcash?
+## ¿Qué son los pools de minado de Zcash?
 
-Los pools de minería de Zcash son servicios que permiten a los mineros individuales combinar su poder de cómputo (hashrate). Al agrupar recursos, los participantes aumentan sus probabilidades de resolver bloques de la red y obtienen pagos más pequeños pero constantes, en lugar de depender del impredecible sistema de lotería de la minería en solitario.
+Los pools de minado de Zcash son servicios que permiten a los mineros individuales combinar su potencia de cálculo (hashrate). Al agrupar recursos, los participantes aumentan sus probabilidades de resolver bloques de la red y obtienen pagos más pequeños y constantes, en lugar de depender del impredecible sistema de lotería del minado en solitario.
 
 ---
 
-## Lista de pools de minería de Zcash:
+## Lista de pools de minado de Zcash:
 
 ---
 
@@ -19,7 +19,7 @@ Los pools de minería de Zcash son servicios que permiten a los mineros individu
 - Sitio web: [Slush Pool (Braiins Pool)](https://braiins.com/pool)
 - Pagos privados: SÍ
 - Tipo de pool: Pago por participación
-- Comisión del pool: 2%
+- Tarifa del pool: 2%
 
 ---
 
@@ -32,7 +32,7 @@ Los pools de minería de Zcash son servicios que permiten a los mineros individu
 - Sitio web: [Luxor](https://luxor.tech/)
 - Pagos privados: SÍ
 - Tipo de pool: Pago por participación
-- Comisión del pool: 3%
+- Tarifa del pool: 3%
 
 ---
 
@@ -45,7 +45,7 @@ Los pools de minería de Zcash son servicios que permiten a los mineros individu
 - Sitio web: [Flypool](https://zcash.flypool.org/)
 - Pagos privados: SÍ
 - Tipo de pool: Pago por las últimas N 
-- Comisión del pool: 1%
+- Tarifa del pool: 1%
 
 ---
 
@@ -58,7 +58,7 @@ Los pools de minería de Zcash son servicios que permiten a los mineros individu
 - Sitio web: [2Miners](https://zec.2miners.com/)
 - Pagos privados: No
 - Tipo de pool: Pago por las últimas N 
-- Comisión del pool: 1%
+- Tarifa del pool: 1%
 
 ---
 
@@ -71,7 +71,7 @@ Los pools de minería de Zcash son servicios que permiten a los mineros individu
 - Sitio web: [Nanopool](https://zec.nanopool.org/)
 - Pagos privados: No
 - Tipo de pool: Pago por las últimas N 
-- Comisión del pool: 1%
+- Tarifa del pool: 1%
 
 ---
 
@@ -84,7 +84,7 @@ Los pools de minería de Zcash son servicios que permiten a los mineros individu
 - Sitio web: [Poolin](https://www.poolin.com/)
 - Pagos privados: No
 - Tipo de pool: Pago por participación
-- Comisión del pool: 3%
+- Tarifa del pool: 3%
 
 ---
 
@@ -97,7 +97,7 @@ Los pools de minería de Zcash son servicios que permiten a los mineros individu
 - Sitio web: [Antpool](https://v3.antpool.com/home)
 - Pagos privados: No
 - Tipo de pool: Pago por participación
-- Comisión del pool: 3%
+- Tarifa del pool: 3%
 
 ---
 
@@ -110,20 +110,20 @@ Los pools de minería de Zcash son servicios que permiten a los mineros individu
 - Sitio web: [ViaBTC](https://www.viabtc.com/en/)
 - Pagos privados: No
 - Tipo de pool: Pago por participación+
-- Comisión del pool: 4%
+- Tarifa del pool: 4%
 
 ---
 
-### [Foundry Zcash Mining Pool](https://foundrydigital.com/foundry-zcash-pool/)
+### [Foundry Zcash Pool de minado](https://foundrydigital.com/foundry-zcash-pool/)
 
 <a href="https://foundrydigital.com/foundry-zcash-pool/">
     <img src="/content-images/Foundry-3f33346374.webp" alt="Foundry Zcash Mining Pool Logo" width="200" height="100"/>
 </a>
 
-- Sitio web: [Foundry Zcash Mining Pool](https://foundrydigital.com/foundry-zcash-pool/)
+- Sitio web: [Foundry Zcash Pool de minado](https://foundrydigital.com/foundry-zcash-pool/)
 - Pagos privados: No
 - Tipo de pool: Pago por las últimas N participaciones
-- Comisión del pool: No pública
+- Tarifa del pool: No pública
 
 ---
 
@@ -136,7 +136,7 @@ Los pools de minería de Zcash son servicios que permiten a los mineros individu
 - Sitio web: [suprnova](https://zec.suprnova.cc/)
 - Pagos privados: No
 - Tipo de pool: Pago por las últimas N participaciones
-- Comisión del pool: 0,5% - 1%
+- Tarifa del pool: 0,5% - 1%
 
 ---
 
@@ -147,19 +147,19 @@ Los pools de minería de Zcash son servicios que permiten a los mineros individu
 </a>
 
 - Sitio web: [NiceHash](https://www.nicehash.com/blog/post/how-to-start-mining-zec-equihash-on-nicehash)
-- Pagos privados: se paga en Bitcoin (BTC)
+- Pagos privados: Recibe pagos en Bitcoin (BTC)
 - Tipo de pool: Mercado de hashrate / pool proxy
-- Comisión del pool: 0,5% - 1%
+- Tarifa del pool: 0,5% - 1%
 
 ---
 
-### [Sovright Mining Pool](https://mining.sovright.com/)
+### [Sovright Pool de minado](https://mining.sovright.com/)
 
 <a href="https://mining.sovright.com/">
     <img src="/content-images/-qOtwa1p_400x400-fce1523375.webp" alt="Sovright Logo" width="200" height="100"/>
 </a>
 
-- Sitio web: [Sovright Mining Pool](https://mining.sovright.com/)
+- Sitio web: [Sovright Pool de minado](https://mining.sovright.com/)
 - Pagos privados: SÍ
 - Tipo de pool: Pago por las últimas N participaciones (PPLNS)
-- Comisión del pool: 1%
+- Tarifa del pool: 1%

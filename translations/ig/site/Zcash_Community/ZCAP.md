@@ -7,34 +7,34 @@
 
 
 
-# Zcash Community Advisory Panel 
+# Zcash Ogwe Ndụmọdụ Obodo [Community Advisory Panel]
 
-Zcash Community Advisory Panel, ma ọ bụ ZCAP, bụ panel nke ndị otu Zcash mejupụtara, nke e guzobere dị ka ụzọ iji tinye aka na obodo ma rịọ maka ndụmọdụ ha mgbe ọ bụla Zcash Foundation chọrọ ime mkpebi metụtara ma ọ bụkwanụ na-emetụta obodo ahụ. Kemgbe e kere ya na 2018, panel ahụ enyerela aka kọwaa ụzọ a ga-esi gaa maka ntọala Zcash n'ọtụtụ mkpebi dị mkpa, ụfọdụ n'ime ha gụnyere:
+Ogwe Ndụmọdụ Obodo Zcash, ma ọ bụ ZCAP, bụ ogwe nke ndị otu Obodo Zcash mejupụtara, nke e guzobere iji tinye obodo ahụ aka ma rịọ ndụmọdụ ha mgbe ọ bụla Zcash Foundation chọrọ ime mkpebi gbasara ma ọ bụ nke na-emetụta obodo ahụ. Kemgbe e guzobere ya na 2018, ogwe ahụ enyela aka ịkọwa ụzọ a ga-esi aga n’ọtụtụ mkpebi dị mkpa maka Zcash Foundation, ụfọdụ n’ime ha gụnyere:
 
-[Zcash Trademark](https://github.com/ZcashFoundation/Elections/blob/master/2018-Q2/General-Measures/monetary-policy.md): Ntuliaka a bụ maka ma Zcash Foundation kwesiri ịchụso nkwekọrịta iwu na Electric Coin Company (ECC) iji kesaa ikike na njikwa nke akara azụmaahịa Zcash
+[Akara ahịa Zcash](https://github.com/ZcashFoundation/Elections/blob/master/2018-Q2/General-Measures/monetary-policy.md): Ntuliaka a gbasara ma Zcash Foundation kwesịrị ịchọ nkwekọrịta iwu na Electric Coin Company (ECC) iji kesaa nwe na njikwa akara ahịa Zcash
 
-[Iwu Ego](https://github.com/ZcashFoundation/Elections/blob/master/2018-Q2/General-Measures/monetary-policy.md): Ntuliaka a bụ maka ma Zcash Foundation kwesiri ịkwado mgbanwe ọ bụla na usoro ego Zcash, dịka ọnụego mbipụta, usoro mmefu ego, ma ọ bụ ọnụego mmụba
+[Amụma ego Monetary Policy](https://github.com/ZcashFoundation/Elections/blob/master/2018-Q2/General-Measures/monetary-policy.md): Ntuliaka a gbasara ma Zcash Foundation kwesịrị ịkwado mgbanwe ọ bụla n’amụma ego Zcash, dịka ọnụego mbupụta, usoro halving, ma ọ bụ ọnụego mbuli ọnụ ahịa
 
-[ASIC Nguzogide](https://github.com/ZcashFoundation/Elections/blob/master/2018-Q2/General-Measures/asicresistance_ballot.md): Ntuliaka a bụ maka ma Zcash Foundation kwesiri ibute nguzogide ASIC dị ka uru na ihe mgbaru ọsọ maka netwọk Zcash
+[Nguzogide ASIC ASIC Resistance](https://github.com/ZcashFoundation/Elections/blob/master/2018-Q2/General-Measures/asicresistance_ballot.md): Ntuliaka a gbasara ma Zcash Foundation kwesịrị ibute nguzogide ASIC ụzọ dị ka uru na ebumnuche maka netwọk Zcash
 
-[Zcash Community Grants Committee Election](https://zfnd.org/zcg-election-june-2023/): Ntuliaka a bụ banyere ịhọrọ ndị otu abụọ nke kọmitii Zcash Community Grants (ZCG), nke bụ ọrụ maka inyocha na ịkwado onyinye onyinye maka ọrụ metụtara Zcash.
+[Ntuliaka Kọmitii Zcash Community Grants](https://zfnd.org/zcg-election-june-2023/): Ntuliaka a gbasara ịhọpụta mmadụ abụọ so na kọmitii Zcash Community Grants (ZCG), nke ọrụ ya bụ inyocha ma kwado ego maka atụmatụ ikike maka ọrụ metụtara Zcash
 
-[Ihe omume Zcash Minor Grants Program](https://zfnd.org/launching-the-zcash-minor-grants-program/): Ntuliaka a bụ maka ịnakwere maọbụ ịjụ arịrịọ onyinye maka obere ọrụ Zcash nke rịọrọ maka ego site na Zcash Foundation
+[Mmemme Ikike Obere Zcash](https://zfnd.org/launching-the-zcash-minor-grants-program/): Ntuliaka a gbasara ịnakwere ma ọ bụ ịjụ arịrịọ ikike maka obere ọrụ Zcash ndị rịọrọ ego n’aka Zcash Foundation
 
-[Nkwado na mmepe nke Zcash Shielded Assets](https://vote.heliosvoting.org/helios/elections/5dd57b92-01ed-11ec-a0a8-ae3066fac55d/view), nke na-enye ohere iji akụ ndị ọzọ DeFi n'ime ihe okike Zcash nkeonwe.
+[Ịnakwere na mmepe Akụ nke e chebere echebe [Shielded Assets] Zcash](https://vote.heliosvoting.org/helios/elections/5dd57b92-01ed-11ec-a0a8-ae3066fac55d/view), nke na-eme ka e jiri akụ DeFi izugbe n’ime gburugburu Zcash nke nzuzo bụ ọnọdụ ndabara.
 
-[Nhọrọ nke ndị otu Zcash Foundation Board of Directors](https://vote.heliosvoting.org/helios/elections/960b8832-60f9-11ed-b96e-ee6991044d9e/view)
+[Ntuliaka ndị otu Kọmitii Ndị Isi Zcash Foundation](https://vote.heliosvoting.org/helios/elections/960b8832-60f9-11ed-b96e-ee6991044d9e/view)
 
 
-The idea behind ZCAP is that it is formed by a diverse group of community members with different nationalities, roles and opinions, to guarantee it remains comitted to its goal of representing the voice and interest of Zcash users and stake holders, while maintining an open and diverse network.
+Echiche dị n’azụ ZCAP bụ na ndị otu obodo dị iche iche, nwere mba, ọrụ na echiche dị iche iche, mejupụtara ya, iji hụ na ọ na-anọgide na-agbaso ebumnuche ya nke ịnọchite anya olu na mmasị ndị ọrụ na ndị nwere oke na Zcash, ebe ọ na-edobe netwọk mepere emepe ma dị iche iche.
 
-Site na Ọktọba 2023, ZCAP mejupụtara [ndị otu 188](https://docs.google.com/spreadsheets/d/1Y-GbVFA1csIgPbvHOR-1ruOlh7YdA-CHvMtd6R8iSdY/edit#gid=0)Ọzọkwa, Zcash Foundation "agbasawo njirisi iru eru maka ndị otu ZCAP, gụnyere njirisi nke ndị otu obodo Zcash tụrụ aro".
+Ruo Ọktoba 2023, mmadụ [188](https://docs.google.com/spreadsheets/d/1Y-GbVFA1csIgPbvHOR-1ruOlh7YdA-CHvMtd6R8iSdY/edit#gid=0) mejupụtara ZCAP, a na-agbasakwa ya ugboro ugboro. Ọzọkwa, Zcash Foundation “agbasawanyela ụkpụrụ ntozu maka isonye na ZCAP, gụnyere ụkpụrụ ndị ndị otu obodo Zcash tụrụ aro”.
 
-## Ndị otu a ma ama
+## Ndị Otu A Ma Ama
 - Ian Miers
 - Vitalik Buterin
 - Michelle Lai 
 - Naomi Brockwell 
 - Michae2xl
-- Ogige Madison
+- Madison Parks
 - Chris Burniske

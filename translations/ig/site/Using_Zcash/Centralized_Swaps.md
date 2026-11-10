@@ -2,19 +2,19 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Ikpo okwu mgbanwe etiti
+# Ikpo okwu Mgbawe [Swap] ndị a na-achịkwa n’etiti
 
-ZecHub anaghị akwado ọrụ mgbanwe ọ bụla, biko mee nyocha nke gị.
+ZecHub anaghị akwado ọrụ exchange ọ bụla kpọmkwem, biko mee nchọpụta nke gị.
 
-Nke ọ bụla `###` isi okwu dị n'okpuru bụ otu kaadị dị na ya https://zechub.wiki/using-zcash/centralizedswaps.
-Tinye, dezie, ma ọ bụ wepụ ngọngọ ebe a; wiki ahụ na-ewepụta ya na faịlụ a.
+Isiokwu `###` ọ bụla dị n'okpuru bụ otu kaadị na https://zechub.wiki/using-zcash/centralizedswaps.
+Tinye, dezie, ma ọ bụ wepụ block ebe a; wiki ga-enweta ya site na faịlụ a.
 
 ### LetsExchange
 
 <img src="/content-images/1500x500-1-9d3b008870.webp" alt="LetsExchange" width="200" height="100"/>
 
 - Weebụsaịtị: https://letsexchange.io/
-- Nkọwa: Ebe mgbanwe ego crypto nwere ihe karịrị ego dijitalụ 4,500, mmiri mmiri dị omimi, mgbanwe mgbanwe n'ime usoro, na-aga n'ihu na n'èzí, DEX, azụmahịa ngwa ngwa na nchekwa.
+- Nkọwa: Ebe etiti crypto exchange nwere cryptocurrency karịrị 4,500, nnukwu liquidity, Mgbawe cross-chain, on- & off-ramp, DEX, na Azụmahia [transactions] ngwa ngwa ma dị nchebe.
 
 ___
 
@@ -23,7 +23,7 @@ ___
 <img src="/nearintents.png" alt="NEAR Intents" width="200" height="100"/>
 
 - Weebụsaịtị: https://app.near-intents.org/
-- Nkọwa: Mgbanwe ngwa ngwa site na nkwado nke NEAR. Mee ego, ree, gbanwee, tinyere TRUMP, MELANIA, BERA na memes ndị ọzọ ama ama
+- Nkọwa: exchange ngwa ngwa nke NEAR na-akwado. Tinye ego, ree, ma ọ bụ gbanwee, gụnyere TRUMP, MELANIA, BERA ndị a ma ama na memes ndị ọzọ
 
 ___
 
@@ -32,7 +32,7 @@ ___
 <img src="/content-images/shapeshift-27053ae96b.webp" alt="ShapeShift" width="200" height="100"/>
 
 - Weebụsaịtị: https://private.shapeshift.com/
-- Nkọwa: Akpa gị. Otu ngwa. Ohere Na-adịghị Agwụ Agwụ · Zụọ ahịa Bitcoin, Ethereum na ndị ọzọ site na ọnụego kacha mma n'ofe DEX na ndị nchịkọta kachasị elu
+- Nkọwa: E-akpa ego [Wallet] gị. Otu App. Ohere na-enweghị ngwụcha · Zụọ Bitcoin, Ethereum na ndị ọzọ na ọnụego kacha mma n'ofe DEX na aggregators ndị isi
 
 ___
 
@@ -41,7 +41,7 @@ ___
 <img src="/stealth_ex.png" alt="Stealth EX" width="200" height="100"/>
 
 - Weebụsaịtị: https://stealthex.io/
-- Nkọwa: StealthEX bụ mgbanwe ego dijitalụ ozugbo maka mgbanwe ego na-enweghị njedebe nke ọrụ ya bụ n'efu na ndebanye aha ma anaghị echekwa ego onye ọrụ na ikpo okwu ahụ. StealthEX bụ ebe kacha mma ịzụta ego dijitalụ.
+- Nkọwa: StealthEX bụ cryptocurrency exchange ozugbo maka Mgbawe na-enweghị oke, nke ọrụ ya anaghị achọ ndebanye aha ma ghara idowe ego ndị ọrụ n'elu ikpo okwu ahụ. StealthEX bụ ebe kacha mma ịzụta cryptocurrency.
 
 ___
 
@@ -50,7 +50,7 @@ ___
 <img src="/changelly.png" alt="Changelly" width="200" height="100"/>
 
 - Weebụsaịtị: https://changelly.com/
-- Nkọwa: Changelly bụ mgbanwe ego crypto nke a maara nke ọma maka obere ụgwọ ya nke ruru 0.25% na mgbanwe ego crypto. Ọ na-emezukwa nkọwa nke mgbanwe ego crypto kachasị mma.
+- Nkọwa: Changelly bụ crypto coin exchange na-emezu ozugbo, nke a ma ama n'ụzọ dị ukwuu maka ugwo [fees] ya dị ala n’ọrụ a, ruru 0.25% n'ahịa crypto. Ọ na-emezukwa nkọwa nke crypto exchange kacha nwee ọtụtụ ọrụ.
 
 ___
 
@@ -59,7 +59,7 @@ ___
 <img src="/flyp.me.png" alt="flyp.me" width="200" height="100"/>
 
 - Weebụsaịtị: https://flyp.me/en/#/
-- Nkọwa: A mụrụ flyp.me na-enweghị akaụntụ exchanger na FYP Token iji chebe nzuzo, kwalite nkewa ọchịchị, kwado ikike inwe ihe onwunwe na ịzụlite obodo ikwere na nkwekọrịta.
+- Nkọwa: flyp.me exchanger na-enweghị akaụntụ na FYP Token ka e kere iji chebe Nzuzo [privacy], kwalite decentralized [decentralized], kwado inwe site n'aka ndị obodo, ma zụlite obodo kwenyere na consensus [consensus].
 
 ___
 
@@ -68,7 +68,7 @@ ___
 <img src="/exolix.png" alt="Exolix" width="200" height="100"/>
 
 - Weebụsaịtị: https://exolix.com
-- Nkọwa: Gbanwee 1311+ crypto ozugbo, na ọnụego kacha mma na enweghị ndebanye aha
+- Nkọwa: Gbanwee crypto karịrị 1311 ozugbo, na ọnụego kacha mma na-enweghị ndebanye aha
 
 ___
 
@@ -77,7 +77,7 @@ ___
 <img src="/Trocodor.png" alt="Trocodor" width="200" height="100"/>
 
 - Weebụsaịtị: https://trocador.app/
-- Nkọwa: Azụmaahịa ego Crypto n'amaghị aha. Ngwa ngwa. Nchekwa. Enweghị ọrụ gọọmentị. Kaadị Debit akwụgoro ụgwọ tupu oge eruo dị.
+- Nkọwa: Zụọ Cryptocurrency n’amaghị aha. Ngwa ngwa. Nchebe. Enweghị birokrasi. Kaadị debit akwụgoro ụgwọ dị.
 
 ___
 
@@ -86,7 +86,7 @@ ___
 <img src="/DCRDEX.jpg" alt="Bison Wallet" width="200" height="100"/>
 
 - Weebụsaịtị: https://dex.decred.org/
-- Nkọwa: Zụta ego dijitalụ site na onye na-azụ ahịa. Enweghị ụgwọ azụmaahịa. Enweghị KYC. Mgbanwe Decentralized nke Decred Project wuru.
+- Nkọwa: Zụọ crypto site n'aka mmadụ ruo n'aka mmadụ. Enweghị ugwo azụmahịa. Enweghị KYC. Decentralised Exchange nke Decred Project wuru.
 
 ___
 
@@ -95,7 +95,7 @@ ___
 <img src="/content-images/firodex-beta-release-b1958c5adc.webp" alt="Firo DEX" width="200" height="100"/>
 
 - Weebụsaịtị: https://github.com/firoorg/FiroDEX-Desktop
-- Nkọwa: Mgbanwe ndị a na-enweghị ntụkwasị obi site na iji mgbanwe atọm na FiroDEX!.
+- Nkọwa: Mgbawe decentralized enweghị mkpa ntụkwasị obi site n'iji atomic swaps na FiroDEX!.
 
 ___
 
@@ -104,7 +104,7 @@ ___
 <img src="/Changenow.png" alt="Changenow" width="200" height="100"/>
 
 - Weebụsaịtị: https://changenow.io/?from=usdterc20&to=zec
-- Nkọwa: Mgbanwe Crypto WEB 3 Na-enweghị Akwụsị - Dị Mfe, Ngwa ngwa, Enweghị Nchekwa.
+- Nkọwa: Crypto Exchange WEB 3 na-enweghị oke – Dị mfe, Ngwa ngwa, Enweghị njide ego.
 
 ___
 
@@ -113,7 +113,7 @@ ___
 <img src="/FixedFloat.jpg" alt="Fixed Float" width="200" height="100"/>
 
 - Weebụsaịtị: https://ff.io
-- Nkọwa: Mgbanwe ego dijitalụ ozugbo, nke zuru oke na Lightning Network.
+- Nkọwa: Cryptocurrency exchange ozugbo, nke zuru oke na-akpaghị aka, nwere Lightning Network.
 
 ___
 
@@ -122,7 +122,7 @@ ___
 <img src="/xchange.png" alt="Xchange" width="200" height="100"/>
 
 - Weebụsaịtị: https://xchange.me/
-- Nkọwa: Mgbanwe Ego Cryptocurrency Amaghị aha, dị ọnụ ala, a pụrụ ịtụkwasị obi, AlwaysOnTime na enweghị ndebanye aha ọ bụla. Enwere ike iji enyo Tor raara onwe ya nye.
+- Nkọwa: Cryptocurrency Exchange n’amaghị aha, dị ọnụ ala, a pụrụ ịtụkwasị obi, AlwaysOnTime na-enweghị ndebanye aha ọ bụla. Mirror pụrụ iche nke Tor dị.
 
 ___
 
@@ -131,7 +131,7 @@ ___
 <img src="/Bitcoinvn.png" alt="BitcoinVN" width="200" height="100"/>
 
 - Weebụsaịtị: https://bitcoinvn.io/?deposit=xmr&settle=zec/
-- Nkọwa: Mgbanwe Bitcoin na Cryptocurrency ozugbo na Vietnam. Zụta, ree ma ọ bụ gbanwee n'etiti akụ 80 gụnyere VND, BTC, XMR, USDT, ETH, BCH, SOL
+- Nkọwa: Bitcoin & Cryptocurrency Exchange ozugbo na Vietnam. Zụta, ree ma ọ bụ gbanwee n'etiti akụ 80 gụnyere VND, BTC, XMR, USDT, ETH, BCH, SOL
 
 ___
 
@@ -140,5 +140,4 @@ ___
 <img src="/leodex-logo.png" alt="LeoDex" width="200" height="100"/>
 
 - Weebụsaịtị: https://leodex.io/
-- Nkọwa: Mgbanwe Crosschain na-enweghị akaụntụ na enweghị KYC. Ziga BTC, ETH na ihe ndị ọzọ site na obere akpa ọ bụla, mgbanwe ma ọ bụ nchekwa oyi gaa na adreesị nkwụnye ego otu oge wee nata ZEC - ọ dịghị mkpa njikọ obere akpa.
-
+- Nkọwa: Mgbawe cross-chain na-enweghị akaụntụ na-enweghị KYC. Zipu BTC, ETH na ndị ọzọ site na e-akpa ego ọ bụla, exchange ma ọ bụ nchekwa oyi gaa na Adreesị akpa ego [address] nkwụnye ego otu oge ma nata ZEC — njikọ e-akpa ego adịghị mkpa.

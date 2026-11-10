@@ -1,6 +1,6 @@
-# Zenith GUI Blibo Node Gakotoku ƒe Ðoɖowɔwɔ 
+# Zenith GUI ɣaɣla dzesi ŋɔŋlɔ blibo [full node] gakotoku [wallet] ƒe ɖoɖo  
 
-## Video ƒe Nufiame
+## Video ƒe Nufiafia
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -27,137 +27,135 @@
   />
 </div>
 
-## De Haskell ƒe mɔ̃a me
+## Ɖo Haskell
 
-> ʋuʋudedi --proto '=https' --tlsv1.2 -sSf https://get-ghcup.haskell.org | sh
-
-
-## De Rust ɖe wò kɔmpiuta dzi
-
-> ʋuʋudedi --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+> curl --proto '=https' --tlsv1.2 -sSf https://get-ghcup.haskell.org | sh
 
 
-## De Zebra wò mɔ̃a dzi
+## Ɖo Rust
 
-> sudo apt tsɔ libclang-dev ɖoe
-
-> agbawo ɖoɖo --git https://github.com/ZcashFoundation/zebra --tag v2.1.0 zebrad
-
-> zebrad dzi -o ~/.config/zebrad.toml
-
-> nano ~/.ɖoɖo/zebrad.toml ƒe ƒuƒoƒo
+> curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
 
-#### se RPC biabiawo le localhost dzi
+## Ɖo Zebra
 
-> toɖoɖo_addr = "127.0.0.1:8232"
+> sudo apt install libclang-dev
 
-#### zã CPU ka geɖe le eɖokui si
+> cargo install --git https://github.com/ZcashFoundation/zebra --tag v2.1.0 zebrad
 
-parallel_cpu_kawo = 0
+> zebrad generate -o ~/.config/zebrad.toml
 
-enable_cookie_auth = alakpa
+> nano ~/.config/zebrad.toml
 
-## De Zenith wò kɔmpiuta dzi
 
-**Tsɔ tar.gz eye nàɖe tar ɖa le wò aƒeme nyatakakadzraɖoƒe**
+#### Lele RPC ƒe biabiawo ŋu le localhost dzi
+
+> listen_addr = "127.0.0.1:8232"
+
+#### Zã CPU ƒe akpa geɖe le ɣeyiɣi ɖeka me le eɖokui si
+
+parallel_cpu_threads = 0
+
+enable_cookie_auth = false
+
+## Ɖo Zenith
+
+**Wɔ tar.gz ƒe download eye nàtae ɖe wò home directory me**
 
 > wget https://code.vergara.tech/Vergara_Tech/zenith/archive/0.7.2.0-beta.tar.gz
 
 > tar -C ~ -xvzf 0.7.2.0-beta.tar.gz
 
-> cd zenith ƒe xexlẽme
+> cd zenith
 
-> rmdir zcash-haskell ƒe ƒuƒoƒo
+> rmdir zcash-haskell
 
-> git ƒe nɔnɔmetata https://code.vergara.tech/Vergara_Tech/zcash-haskell.git
+> git clone https://code.vergara.tech/Vergara_Tech/zcash-haskell.git
 
 
-### De Depedencies (Nu Siwo Dzi Wonɔ te ɖo) de eme
+### Ɖo Nusiwo Hiã
 
-> sudo apt ɖo libssl-dev libgmp-dev libsecp256k1-dev libtinfo-dev libsdl2-dev libfreetype-dev libglew-dev gdk-pixbuf-doa raspi-ɖoɖo kpɔ
+> sudo apt install libssl-dev libgmp-dev libsecp256k1-dev libtinfo-dev libsdl2-dev libfreetype-dev libglew-dev gdk-pixbuf-tests raspi-config
   
-> agbawo install agbawo-c
+> cargo install cargo-c
 
 > stack install c2hs
 
-> mousepad ~/.bashrc ƒe nɔnɔmetata
+> mousepad ~/.bashrc
 
 > export PATH="/home/zebra5/.local/bin:$PATH"
 
-> dzɔtsoƒe ~/.bashrc
+> source ~/.bashrc
 
 
-### Trɔ asi le dzɔtsoƒe ŋu na aarch64
+### Trɔ asi le source ŋu na aarch64
 
-> nano ƒe ɖoɖowɔwɔ
+> nano configure
 
-**trɔ etɔ̃ ɖe: "aarch64-unknown-linux-gnu" le fli eveawo dzi.**
+**Trɔ triple la ɖe: "aarch64-unknown-linux-gnu" le fli evea siaa dzi.**
 
-> nano Ðoɖowɔwɔ.hs
+> nano Setup.hs
  
- **Trɔ asi le Setup.hs ŋu le zcash-haskell ƒe agbalẽdzraɖoƒe kple zenith agbalẽdzraɖoƒe siaa**
+ **Trɔ asi le Setup.hs ŋu le zcash-haskell ƒe folder kple zenith ƒe folder me siaa**
 
-### Nuƒoƒoƒu 
+### Ƒo ƒu 
 
-- ./wɔ ɖoɖo ɖe eŋu
+- ./configure
 
-- cabal xɔtutu
+- cabal build
 
-- mkdir ~/Zenith ƒe ŋkɔ
+- mkdir ~/Zenith
 
-- cd ~/Zenith ƒe ŋkɔ
+- cd ~/Zenith
 
-- mkdir nunɔamesiwo 
+- mkdir assets  
 
-- cp ~/zenith/dist-newstyle/tu/aarch64-linux/ghc-9.6.5/zenith-0.7.2.0/tu/zenith/zenith ~/Zenith
+- cp ~/zenith/dist-newstyle/build/aarch64-linux/ghc-9.6.5/zenith-0.7.2.0/build/zenith/zenith ~/Zenith
 
 - cp ~/zenith/zenith.cfg ~/Zenith
 
-- cp -r ~/zenith/nunɔamesiwo ~/Zenith/nunɔamesiwo
+- cp -r ~/zenith/assets ~/Zenith/assets
 
 
 ### Trɔ asi le zenith.cfg ŋu
 
-nodeUser = wò zãla ƒe ŋkɔ
+nodeUser = yourusername
 
-nodePwd = Nya ɣaɣla gã aɖe
+nodePwd = superSecret
 
-nodePort = 8234 ƒe ƒuƒoƒo
+nodePort = 8234
 
-dbFileŊkɔ = zenith.db
+dbFileName = zenith.db
 
 zebraHost = 127.0.0.1
 
-zebraMelidzeƒe = 8232
+zebraPort = 8232
 
 
-> cd ~/Zenith ƒe ŋkɔ
+> cd ~/Zenith
 
-## Raspi-ɖoɖowɔɖi
+## Raspi-config
 
-> [download gldriver-dodokpɔ yeyetɔ kekeake](https://archive.raspberrypi.org/debian/pool/main/g/gldriver-test/)
+> [download latest gldriver-test](https://archive.raspberrypi.org/debian/pool/main/g/gldriver-test/)
   
-> sudo dpkg - gldriver-dodokpɔ_0.15_katã.deb
+> sudo dpkg - gldriver-test_0.15_all.deb
   
-> sudo raspi-ɖoɖowɔɖi
+> sudo raspi-config
 
-  **yi ŋgɔ eye nàtia opengl => GL (Full KMS)**
+  **Yi ɖe advance eye nàtia opengl => GL (Full KMS)**
 
-  **gbugbɔ dze egɔme**
+  **Gbugbɔ mɔ**
 
 
 
-## Du zenith ƒe duƒuƒu
+## Ƒo zenith du
 
- ./zenith ƒe gui
+ ./zenith gui
  or
- ./zenith tui ƒe ƒuƒoƒo
+ ./zenith tui
  or
- ./zenithserver ƒe dɔwɔnu
+ ./zenithserver
 
-## RPC ƒe
+## RPC-wo
 
-[alesi woawɔe](https://github.com/ZecHub/zechub/blob/main/site/tutorials/zenithserver/zenithBeta.md)
-
-
+[howto](https://github.com/ZecHub/zechub/blob/main/site/tutorials/zenithserver/zenithBeta.md)

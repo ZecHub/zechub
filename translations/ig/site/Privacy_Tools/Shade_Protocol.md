@@ -6,36 +6,36 @@
 
 ## Gịnị bụ Shade Protocol?
 
-Shade Protocol bụ usoro nchekwa nzuzo nke DeFi (Ego Decentralized) nke na-achọ inye ọtụtụ ngwaahịa ego ebe ọ na-ahụ na onye ọrụ nwere nzuzo na nchekwa. E wuru ya na Nzuzo Network, Shade Protocol na-elekwasị anya n'ịmepụta gburugburu ego nke lekwasịrị anya na nzuzo, na-enye ndị ọrụ ngwaọrụ dị ka stablecoins, akụ sịntetik, ikpo okwu mbinye ego, na ihe ndị ọzọ. Ngwaahịa kachasị elu nke Shade Protocol bụ Silk Stablecoin, nke na-ejikọta atụmatụ nzuzo na nkwụsi ike ọnụahịa.
+Shade Protocol bụ usọ DeFi (Ego decentralized [Decentralized Finance]) nke na-echekwa Nzuzo, nke chọrọ ịnye ọtụtụ ngwaahịa ego ma na-ahụ na Nzuzo na nchekwa ndị ọrụ dị. E wuru ya n’elu Secret Network, Shade Protocol na-elekwasị anya n’ịmepụta gburugburu ego nke Nzuzo bụ isi ya, na-enye ndị ọrụ ngwá ọrụ [tools] dịka stablecoin, akụ synthetic, ikpo okwu mgbazinye ego, na ndị ọzọ. Ngwaahịa bụ isi nke Shade Protocol bụ Silk Stablecoin, nke na-ejikọta atụmatụ Nzuzo na ịdịgide ọnụahịa.
 
-## Teknụzụ ejiri mee ihe 
+## Teknụzụ Ejiri 
 
-**Netwọk Nzuzo**
+**Secret Network**
 
-E wuru Shade Protocol na Nzuzo Network, blockchain oyi akwa 1 nke na-enye nkwekọrịta smart nchekwa nzuzo. Nzuzo Network na-eji ntinye ezoro ezo, mmepụta, na steeti iji hụ na nzuzo azụmahịa, na-echebe data onye ọrụ ka ọ ghara ikpughe na ndekọ ọha.
+E wuru Shade Protocol n’elu Secret Network, blockchain oyi akwa 1 nke na-enye smart contract na-echekwa Nzuzo. Secret Network na-eji ntinye, mmepụta, na ọnọdụ e zoro ezo mee ka Nzuzo Azụmahia [transaction] dịrị, na-echebe data ndị ọrụ ka a ghara ikpughe ya n’akwụkwọ ndekọ ọha.
 
 ![Secret Network Diagram](/content-images/1-yyZ5hFOw6z8zXX_rgJn5iw-9091067aa1.webp)
 
-Nzuzo Network na-enye ndị mmepe ohere ịmepụta ngwa ndị na-enweghị usoro site na iji data ezoro ezo, ma na Secret na blockchain ndị ọzọ site na nkwukọrịta crosschain, na-emepe usoro ojiji ọhụrụ dị ike maka Web3.
+Secret Network na-enyere onye mmepụta [developer] aka iwulite ngwa decentralized nwere data e zoro ezo, ma n’ime Secret n’onwe ya ma n’elu blockchain ndị ọzọ site na nkwurịta okwu cross-chain, na-emepe Ojiji [use case] ọhụrụ dị ike maka Web3.
 
 **Cosmos SDK na Tendermint Core**
 
-E kere Cosmos iji jikọta blockchains dị iche iche site n'ịkọwapụta ụzọ ka mma na nke ọgbara ọhụrụ iji wuo blockchains ndị a site na iji ngwaọrụ ọhụrụ dịka Tendermint na Cosmos SDK. 
-Usoro a na-eji Cosmos SDK, usoro nhazi modular maka iwulite ngwa blockchain a na-agbanwe agbanwe ma na-arụkọ ọrụ. Nke a na-enye ohere ka Shade Protocol rite uru site na ike na njikọta nke usoro Cosmos.
+E kere Cosmos iji jikọọ blockchain dị iche iche site n’ịkọwa ụzọ ka mma na nke ọgbara ọhụrụ isi ewu blockchain ndị a, na-eji ngwá ọrụ ọhụrụ dịka Tendermint na Cosmos SDK.  
+Protocol ahụ na-eji Cosmos SDK, framework modular maka iwulite ngwa blockchain nke nwere ike ito ma na-arụkọ ọrụ ọnụ. Nke a na-enye Shade Protocol ohere irite uru n’ịdị ike na ike ịrụkọ ọrụ ọnụ nke usọ Cosmos.
 
 ![Cosmos SDK and Tendermint Core Diagram](/content-images/83dfbb311bfd6ce22d1c9468160d8e33b4c5ce8e-ed16bb7658.webp)
 
-Maka nkwekọrịta na nchekwa netwọk, Shade Protocol na-eji Tendermint Core, nke na-enye nkwekọrịta Byzantine Fault Tolerant (BFT), na-ahụ na nchekwa dị elu na njedebe ngwa ngwa.
+Maka consensus [consensus] na nchekwa netwọk, Shade Protocol na-eji Tendermint Core, nke na-enye consensus Byzantine Fault Tolerant (BFT), na-ahụ na nchekwa dị elu na mmechi ngwa ngwa.
 
-**Ichekwa Nzuzo Ego Ezubere Ezu**
+**Ego Decentralized Na-echekwa Nzuzo**
 
-Nchekwa nzuzo DeFi na-eji usoro nzuzo dị elu dịka azụmahịa ezoro ezo, enweghị ihe akaebe ihe ọmụma, na nkwekọrịta smart nkeonwe iji nọgide na-enwe nzuzo na nzuzo nke onye ọrụ na netwọk blockchain. Site na iji teknụzụ dịka nkwekọrịta nzuzo nke Secret Network na Cosmos SDK maka njikọta, ngwọta ndị a na-eme ka azụmahịa nzuzo, njikwa akụ nkeonwe, na ikpughe nhọrọ, na-eme ka ihe omume ego nọgide na-adị nchebe ma na-agbaso iwu nzuzo. Ụzọ a na-echebe ndị ọrụ site na nledo na aghụghọ, na-enye nnwere onwe ego na-enweghị usoro ebe ọ na-agbaso ụkpụrụ nzuzo.
+DeFi na-echekwa Nzuzo na-eji usoro cryptographic dị elu dịka Azụmahia e zoro ezo, proof zero-knowledge, na smart contract nzuzo iji debe Nzuzo onye ọrụ na nzuzo data n’elu netwọk blockchain. Site n’iji teknụzụ dịka secret contract nke Secret Network na Cosmos SDK maka mmekọrịta, azịza ndị a na-enyere Azụmahia nzuzo, njikwa akụ nzuzo, na Mpughe ahọpụtara [selective disclosure] aka, na-ahụ na ọrụ ego na-adị nchebe ma na-agbaso iwu Nzuzo. Usoro a na-echebe ndị ọrụ pụọ n’ịsochi na aghụghọ, na-enye nnwere onwe ego decentralized ma na-agbaso ụkpụrụ Nzuzo.
 
 ## Ngwa
 
-**Ihe ngosi ndò na silk**
+**Shade na Silk Tokens**
 
-Shade Protocol na-eji igodo nlele maka ihe ngosi abụọ ya bụ isi: Shade ($SHD) na Silk ($SILK). Shade ($SHD) na-arụ ọrụ dị iche iche, na-arụ ọrụ dị ka ihe nnọchianya ego, ọchịchị, na nkesa ego n'ime gburugburu ebe obibi. A na-eji ya eme ihe na staking, atụmatụ ọchịchị, inye ego mmiri, azụmahịa, na bonds. N'aka nke ọzọ, Silk ($SILK) bụ stablecoin nke usoro ahụ lekwasịrị anya na nzuzo, nke e tinyere na nkata dị iche iche nke ego ụwa na ngwaahịa dị ka ọlaedo, Bitcoin, USD, Euro, na Yen.
+Shade Protocol na-eji viewing key maka token abụọ bụ isi ya: Shade ($SHD) na Silk ($SILK). Shade ($SHD) na-arụ ọtụtụ ọrụ, dịka token Ebe nchekwa ego [treasury], Gọọmentị [governance], na ikesa ego enwetara n’ime usọ ahụ. A na-eji ya na Mkpọchi ego dijitalụ [staking], aro Gọọmentị, inye liquidity, Azụmahia, na bond. Silk ($SILK), n’aka nke ọzọ, bụ stablecoin protocol ahụ lekwasịrị anya na Nzuzo, nke ejikọtara na nkata dịgasị iche iche nke ego na ngwa ahịa ụwa dịka ọlaedo, Bitcoin, USD, Euro, na Yen.
 
 ![Shade and Silk Tokens - Part 1](/content-images/9wTrxCdx8AoRcCwsGub13QXuY-807ed3b400.webp)
 
@@ -43,31 +43,31 @@ Shade Protocol na-eji igodo nlele maka ihe ngosi abụọ ya bụ isi: Shade ($S
 
 ### Nzuzo
 
-Otu n'ime isi ihe mere ndị ọrụ ji ahọrọ Shade Protocol bụ nzuzo ọ na-enye. A na-echebe azụmahịa na Shade pụọ na anya ọha, na-eme ka data ego bụrụ ihe nzuzo. N'adịghị ka blockchain ọha na eze ọdịnala ebe nkọwa azụmahịa na-apụta ìhè nye mmadụ niile, ihe nrịbama Shade Protocol na-eji ntinye ezoro ezo, mmepụta, na steeti, nke pụtara na ozi dị nro ka zoro ezo pụọ na anya ndị na-amaghị ama. Nke a na-eme ka nzuzo na nchekwa onye ọrụ ka mma, na-enye ndị mmadụ ohere itinye aka na ihe omume ego na-ekpugheghị ozi nkeonwe ha ma ọ bụ akụkọ azụmahịa ha, si otú a na-echebe megide ihe iyi egwu nwere ike ime ma na-echekwa nzuzo ego.
+Otu n’ime isi ihe mere ndị ọrụ ji ahọrọ Shade Protocol bụ Nzuzo ọ na-enye. Azụmahia na Shade bụ nke e chebere echebe [shielded] ka ọhaneze ghara ịhụ ya, na-ahụ na data ego na-anọgide nzuzo. N’adịghị ka blockchain ọha ọdịnala ebe nkọwa Azụmahia pụtara ìhè nye mmadụ niile, token Shade Protocol na-eji ntinye, mmepụta, na ọnọdụ e zoro ezo, nke pụtara na ozi dị mkpa na-anọgide zoro ezo n’anya ndị na-achọ ịmata ihe. Nke a na-eme ka Nzuzo na nchekwa onye ọrụ ka mma, na-enye mmadụ ohere ịrụ ọrụ ego n’ekpugheghị ozi nke onwe ha ma ọ bụ akụkọ Azụmahia ha, si otú a na-echebe ha pụọ n’ihe iyi egwu nwere ike ime ma na-edobe nzuzo ego.
 
-### Uru kwụsiri ike
+### Uru Kwụsiri Ike
 
-Silk Stablecoin na-enye nkwụsi ike ọnụahịa, nke dị oke mkpa maka ndị ọrụ chọrọ izere mgbanwe a na-ejikarị na ego dijitalụ. A na-etinye silk na nkata akụ, nke na-enyere aka ịnọgide na-enwe uru ya ka oge na-aga. Coin stable ọ bụla na-enweta uru ya site na isi mmalite kpọmkwem, nke a na-ejikarị na dollar US. Agbanyeghị, ụzọ a nwere nnukwu ihe egwu, nke a na-amaghịkarị. Silk na-ebelata ihe egwu ndị a site n'ịnọgide na-enwe nkwụsi ike n'etiti mgbanwe ụwa na-enweghị ịdabere na otu peg uru dị ka dollar US. Kama, uru Silk dabere na ndeksi dị arọ a maara dị ka Silk Currency Basket. Nkata a gụnyere nhọrọ nke ego ụwa (USD, CAD, EUR, JPY) na ngwaahịa dị ka Bitcoin na ọlaedo. Site na itinye ọtụtụ ego na akụ, Silk na-enweta nkwụsi ike peg ka ukwuu ma e jiri ya tụnyere ego nkeonwe. Nnyocha na nnwale sara mbara egosila na ọlaedo na Bitcoin, dị ka ụlọ ahịa bara uru a pụrụ ịtụkwasị obi, na-eme ka ego ọdịnala dị mma, na-akwado itinye ha na nkata ahụ.
+Silk Stablecoin na-enye nkwụsi ike ọnụahịa, nke dị mkpa maka ndị ọrụ chọrọ izere mgbanwe ọnụahịa a na-ahụkarị na cryptocurrency. A jikọtara Silk na nkata akụ, nke na-enyere ya aka idobe uru ya ka oge na-aga. Stablecoin ọ bụla na-enweta uru ya site n’ebe a kapịrị ọnụ, nke na-abụkarị ijikọta ya na dollar US. Agbanyeghị, usoro a nwere nnukwu ihe ize ndụ ndị a na-amataghịkarị. Silk na-ebelata ihe ize ndụ ndị a site n’ịdebe nkwụsi ike n’etiti mgbanwe ụwa n’enweghị ịdabere na otu njikọ uru dịka dollar US. Kama nke ahụ, uru Silk dabere n’index a tụtara arọ nke a maara dị ka Silk Currency Basket. Nkata a gụnyere nhọrọ ego ụwa (USD, CAD, EUR, JPY) na ngwa ahịa dịka Bitcoin na ọlaedo. Site n’itinye ọtụtụ ego na akụ, Silk na-enweta nkwụsi ike njikọ ka ukwuu ma e jiri ya tụnyere ego nke ọ bụla. Nnyocha na ule sara mbara egosila na ọlaedo na Bitcoin, dịka ebe nchekwa uru a pụrụ ịdabere na ya, na-akacha ego ọdịnala mma, nke na-akwado itinye ha n’ime nkata ahụ.
 
-### Ikewapụ nkewa
+### Decentralization
 
-Dịka ikpo okwu DeFi, Shade Protocol na-arụ ọrụ na-enweghị njikwa etiti, na-enye ndị ọrụ nnwere onwe ego. Ọchịchị na-enweghị usoro Shade Protocol's na-enye obodo ndị nwere akara ngosi ohere isonye ozugbo na usoro mkpebi. Ndị nwere akara ngosi nwere ike ịtụ aro mgbanwe, votu na atụmatụ, ma tinye aka na mmepe na ntụziaka nke usoro ahụ. Nke a na-eme ka a hụ na a na-ekesa njikwa n'ofe otu dị iche iche nke ndị nwere mmasị kama ịbụ ndị ọchịchị etiti na-ejide. Site na iji teknụzụ blockchain eme ihe, usoro ọchịchị ahụ doro anya, nchekwa, na enweghị mgbanwe, na-akwalite usoro gburugburu ebe obibi nke na-agụnye ihe niile ma na-eguzogide nrụgide.
+Dịka ikpo okwu DeFi, Shade Protocol na-arụ ọrụ n’enweghị njikwa etiti, na-enye ndị ọrụ nnwere onwe ego. Gọọmentị decentralized nke Shade Protocol na-enye obodo ndị ji token ya ohere isonye kpọmkwem n’usoro ime mkpebi. Ndị ji token nwere ike ịtụ aro mgbanwe, ịtụ vootu n’ọrụ atụmatụ, ma nye aka na mmepe na ntụziaka protocol ahụ. Nke a na-ahụ na a kesara njikwa n’ofe otu ndị nwere mmasị dị iche iche kama ka ọchịchị etiti jide ya. Site n’iji teknụzụ blockchain, usoro Gọọmentị ahụ bụ Oha [transparent], echekwara, na enweghị ike ịgbanwe agbanwe, na-akwalite usọ nke gụnyere mmadụ karịa ma sie ike karị.
 
-### Mmekọrịta
+### Ikike Ịrụkọ Ọrụ Ọnụ
 
-Ịbụ akụkụ nke usoro Cosmos pụtara na Shade Protocol nwere ike imekọrịta ihe ngwa ngwa na blockchain ndị ọzọ, na-eme ka mmiri dị n'ime ya dịkwuo mma ma na-enye ndị ọrụ ohere karịa iji akụ ha mee ihe na netwọk dị iche iche. Site na iji teknụzụ nchekwa nzuzo sitere na Netwọk Nzuzo, Shade Protocol na-ahụ na ọrụ ndị a na-eme ka nzuzo na iguzosi ike n'ezi ihe dị. Mmekọrịta a abụghị naanị na ọ na-eme ka mgbanwe na ọrụ nke ngwa ndị a na-agbasaghị agbanwe dịkwuo mma kamakwa ọ na-akwalite usoro blockchain jikọtara ọnụ ma sie ike karị, na-ebelata ntụkwasị obi na netwọk ndị dịpụrụ adịpụ ma na-akwalite nnabata sara mbara nke ngwọta ego na-agbasaghị agbanwe.
+Ịbụ akụkụ nke usọ Cosmos pụtara na Shade Protocol nwere ike iso blockchain ndị ọzọ rụkọọ ọrụ n’ụzọ dị mfe, na-eme liquidity ka mma ma na-enye ndị ọrụ ohere ndị ọzọ iji akụ ha n’ofe netwọk dị iche iche. Site n’iji teknụzụ na-echekwa Nzuzo sitere na Secret Network, Shade Protocol na-ahụ na ọrụ cross-chain ndị a na-edobe nzuzo na iguzosi ike n’ezi ihe. Ikike ịrụkọ ọrụ ọnụ a ọ bụghị naanị na-eme ka mgbanwe na arụmọrụ nke ngwa decentralized ka mma, kama ọ na-akwalitekwa usọ blockchain jikọrọ ọnụ ma sie ike karị, na-ebelata ịdabere na netwọk ndị kewapụrụ iche ma na-akwalite nnabata sara mbara nke azịza ego decentralized.
 
 ![Interoperability Diagram](/content-images/3zIwSJHEwP9tkn4aI0do0lhgFTE-2aed930de0.webp)
 
 ## Mmechi
 
-Shade Protocol bụ ọrụ na-aga n'ihu n'ime oghere DeFi, na-enye ngwọta ego lekwasịrị anya na nzuzo nke e wuru na teknụzụ siri ike. Site n'inye stablecoin nwere atụmatụ nzuzo na ịmepụta usoro zuru oke nke ngwaọrụ ego, Shade Protocol na-achọ inyere ndị ọrụ aka bụ ndị ji nchekwa, nkwụsi ike, na ikewapụ ọchịchị kpọrọ ihe.
+Shade Protocol bụ ọrụ ọsụ ụzọ n’ọhịa DeFi, na-enye azịza ego lekwasịrị anya na Nzuzo nke e wuru n’elu teknụzụ siri ike. Site n’inye stablecoin nwere atụmatụ Nzuzo na ịmepụta ọtụtụ ngwá ọrụ ego zuru ezu, Shade Protocol chọrọ ilekọta ndị ọrụ ji nchekwa, nkwụsi ike, na decentralization kpọrọ ihe.
 
-Ụkpụrụ Shade Protocol's nke njikọta na ijide uru na-enye ntọala siri ike maka nkwụsi ike na ahụmịhe onye ọrụ na-enweghị nsogbu, na-etinye ya dị ka onye ndu n'ọdịnihu na usoro DeFi. Site na ọchịchị na-agbanwe agbanwe, nke a na-agbanwe agbanwe na usoro nhazi nke ọma maka iwebata usoro Shade Protocol ọhụrụ, enweghị mgbagha na ikike maka uto ngwa ngwa dị ukwuu.
+Ụkpụrụ Shade Protocol nke ịdị n’otu na ijide uru na-enye ntọala siri ike maka nkwụsi ike na ahụmịhe onye ọrụ na-enweghị nkebi, na-edobe ya dịka onye ndu n’ọdịnihu n’etiti protocol DeFi. Site na Gọọmentị nwere ike ime mgbanwe, nke nwere ike ito, na atụmatụ ụzọ doro anya maka iwebata primitives Shade Protocol ọhụrụ, ohere maka uto ngwa ngwa buru oke ibu n’enweghị mgbagha.
 
-#### Njikọ Ntụaka
+#### Njikọ Ntụtụaka
  
-[Weebụsaịtị Shade Protocol](https://shadeprotocol.io/)
+[Shade Protocol weebụsaịtị](https://shadeprotocol.io/)
 
 [Medium (Shade Protocol) ](https://medium.com/@shadeprotocoldevs/what-is-shade-protocol-efc1ef7aeabf)
 

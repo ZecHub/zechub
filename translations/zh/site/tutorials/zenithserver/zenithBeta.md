@@ -1,6 +1,6 @@
-# Zenith 0.10 测试版
+# Zenith 0.10 Beta
 
-你需要一个正在运行且已启用 RPC 的 zebrad
+您需要一个已启用 RPC [RPC] 的正在运行的 zebrad
 
 # 安装 NIX
 

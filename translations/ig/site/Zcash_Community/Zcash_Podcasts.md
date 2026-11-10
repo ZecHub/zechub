@@ -2,40 +2,39 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Podcasts ndị ọzọ
-Ịchọrọ ịmụtakwu banyere usoro okike Zcash? Nke a bụ ndepụta nke pọdkastị ị nwere ike ịgbaso:
+# Pọdkastị [Podcasts]
+Ị chọrọ ịmụtakwu gbasara usoro gburugburu [ecosystem] nke Zcash? Nke a bụ ndepụta pọdkastị ị nwere ike iso:
 
 <ul class="podcast-list grid grid-cols-1 imd:grid-cols-2 md:grid-cols-3 gap-6">
 <li>
-<a href="https://www.youtube.com/playlist?list=PL8avDn0zigvoWqj_f7MrO5mx8JhsLY4kT"><img class="podcast-img" src="/content-images/_unavailable.svg" alt="" width="40" height="41" />Zcast Podcast Playlist</a>
+<a href="https://www.youtube.com/playlist?list=PL8avDn0zigvoWqj_f7MrO5mx8JhsLY4kT"><img class="podcast-img" src="/content-images/_unavailable.svg" alt="" width="40" height="41" />Ndepụta egwu Pọdkastị Zcast</a>
 <iframe width="320" height="200" src="https://www.youtube.com/embed/videoseries?si=vG5H6UhCHpS0r546&amp;list=PL8avDn0zigvoWqj_f7MrO5mx8JhsLY4kT" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </li>
 
 <li>
-<a href="https://www.youtube.com/playlist?list=PL6_epn0lASLHlNCMtUErX8UfaJK6N9K5O"><img class="podcast-img" src="/content-images/_unavailable.svg" alt="" width="40" height="41" />The ZecHub Podcast Playlist</a>
+<a href="https://www.youtube.com/playlist?list=PL6_epn0lASLHlNCMtUErX8UfaJK6N9K5O"><img class="podcast-img" src="/content-images/_unavailable.svg" alt="" width="40" height="41" />Ndepụta egwu Pọdkastị ZecHub</a>
 <iframe width="320" height="200" src="https://www.youtube.com/embed/videoseries?si=QE_B4lmB49YseOjy&amp;list=PL6_epn0lASLHlNCMtUErX8UfaJK6N9K5O" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </li>
 
 <li>
-<a href="https://www.youtube.com/playlist?list=PLBFOSRGoT80W5EAebpT9zwXu6OTS1mq8w"><img class="podcast-img" src="/content-images/https-3A-2F-2Fs3-us-west-2.amazonaws.com-44af5f0fcf.webp" alt="" width="40" height="41" />The Zcash Podcast Playlist</a>
+<a href="https://www.youtube.com/playlist?list=PLBFOSRGoT80W5EAebpT9zwXu6OTS1mq8w"><img class="podcast-img" src="/content-images/https-3A-2F-2Fs3-us-west-2.amazonaws.com-44af5f0fcf.webp" alt="" width="40" height="41" />Ndepụta egwu Pọdkastị Zcash</a>
 <iframe width="320" height="200" src="https://www.youtube.com/embed/videoseries?si=oNBNYZP0gkA96Iwl&amp;list=PLBFOSRGoT80W5EAebpT9zwXu6OTS1mq8w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </li>
 
 <li>
-<a href="https://www.youtube.com/playlist?list=PLWmtTg-WFLv7ONEIgDk4E6POEvi8hKPhq"><img class="podcast-img" src="/content-images/https-3A-2F-2Fs3-us-west-2.amazonaws.com-5ae3f48687.webp" alt="" width="40" height="41" />PGP* For Crypto</a>
+<a href="https://www.youtube.com/playlist?list=PLWmtTg-WFLv7ONEIgDk4E6POEvi8hKPhq"><img class="podcast-img" src="/content-images/https-3A-2F-2Fs3-us-west-2.amazonaws.com-5ae3f48687.webp" alt="" width="40" height="41" />PGP* Maka Crypto</a>
 <iframe width="320" height="200" src="https://www.youtube.com/embed/videoseries?si=5wgdhsq7sDxdosGt&amp;list=PLWmtTg-WFLv7ONEIgDk4E6POEvi8hKPhq" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </li>
 
 <li>
-<a href="https://www.youtube.com/playlist?list=PLH78wfbGI1x2Rj7tLp1RCG68wNvKqCT74"><img class="podcast-img" src="/content-images/https-3A-2F-2Fs3-us-west-2.amazonaws.com-d965cb4785.webp" alt="" width="40" height="41" />Shielded Transactions Playlist</a>
+<a href="https://www.youtube.com/playlist?list=PLH78wfbGI1x2Rj7tLp1RCG68wNvKqCT74"><img class="podcast-img" src="/content-images/https-3A-2F-2Fs3-us-west-2.amazonaws.com-d965cb4785.webp" alt="" width="40" height="41" />Ndepụta egwu Azụmahia nke e chebere echebe</a>
 <iframe width="320" height="200" src="https://www.youtube.com/embed/videoseries?si=MXbM7LrvNJBm9uM5&amp;list=PLH78wfbGI1x2Rj7tLp1RCG68wNvKqCT74" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </li>
 
 <li>
-<a href="https://www.youtube.com/playlist?list=PLj80z0cJm8QEUVSlofe1Zd7wyaoZrixFM"><img class="podcast-img" src="/content-images/https-3A-2F-2Fs3-us-west-2.amazonaws.com-4931488273.webp" alt="" width="40" height="41" />The ZK Podcast Playlist</a>
+<a href="https://www.youtube.com/playlist?list=PLj80z0cJm8QEUVSlofe1Zd7wyaoZrixFM"><img class="podcast-img" src="/content-images/https-3A-2F-2Fs3-us-west-2.amazonaws.com-4931488273.webp" alt="" width="40" height="41" />Ndepụta egwu Pọdkastị ZK</a>
 <iframe width="320" height="200" src="https://www.youtube.com/embed/videoseries?si=TxOfv39hKdL4X7S3&amp;list=PLj80z0cJm8QEUVSlofe1Zd7wyaoZrixFM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </li>
 </ul>
 
-Ọ bụrụ na anyị nwere ike ịnye gị ihe ọ bụla, biko kpọtụrụ [Discord](https://discord.gg/zcash) anyị ga-agbakwunye ya na ndepụta ahụ.
-
+Ọ nwere pọdkastị ọma anyị hapụrụ? Kpọtụrụ anyị na [Discord](https://discord.gg/zcash), anyị ga-agbakwunye ya na ndepụta ahụ.

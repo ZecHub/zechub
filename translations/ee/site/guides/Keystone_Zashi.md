@@ -1,10 +1,10 @@
-# Keystone Zashi Zãla ƒe Mɔfiame
+# Keystone Zashi Ƒe Zazã Ƒe Mɔfia
 
-Twitter Mɔfiame: => [Zashi x Keystone Hardware Gakotoku ƒe Ðekawɔwɔ Twitter Mɔfiame](https://x.com/zashi_app/status/1869793574880973144) 
+Twitter Mɔfia:  => [Zashi x Keystone Asikplɔwo dzra mɔ [Hardware Wallet] ƒe ɖekawɔwɔ Twitter Mɔfia](https://x.com/zashi_app/status/1869793574880973144)
 
-Ðekawɔwɔ sia de dzesi tɔtrɔ gã aɖe le Zcash zazã me to ZEC si wokpɔ ta na ƒe nudzraɖoƒe le fafa me. Zcash nutoa do go kuxiwo le hardware wallet platform bubuwo ŋu va yi, gake Keystone do abe hadɔwɔla si wɔa dɔ aduadu si lɔ̃ be yeatutu liƒowo ahawɔ nu yeyewo kpe ɖe Electric Coin Company ŋu. Keystone ƒe ƒuƒoƒoa xɔ ZCG ƒe gakpekpeɖeŋu be woatsɔ ado dzo ɖe woƒe akpa dzi le dɔa me.
+Ƒoƒo sia de tɔtrɔ gã aɖe Zcash ƒe bɔbɔe me, elabena ewɔ be woate ŋu adzra ɣaɣla [shielded] ZEC le vuvɔ me. Zcash ƒe ƒomea kpɔ dzɔgbeɖeŋuwo le asikplɔwo dzra mɔ bubuwo ƒe platformwo me kpɔ, ke hã Keystone do go eme abe hadede ƒe zɔlɔ̃ aɖe ene si lɔ̃ be yeadze mɔwo katã ŋu eye wòawɔ nu yeye kple Electric Coin Company. Keystone ƒe ha xɔ ga ƒe kpekpeɖeŋu [grant] tso ZCG gbɔ be wòana woƒe dɔa nayi edzi.
 
-## Keystone X Zashi ƒe Nufiame
+## Keystone X Zashi Ƒe Mɔfia
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -18,63 +18,63 @@ Twitter Mɔfiame: => [Zashi x Keystone Hardware Gakotoku ƒe Ðekawɔwɔ Twitter
 </div>
     
 
-## Dzadzraɖo
-[Ðo Ðoɖo & Xɔ Wò Keystone 3 Pro alo Keystone 3](https://keyst.one) 
+## Ŋgɔdonya
+[Ðo oda eye nàxɔ wò Keystone 3 Pro alo Keystone 3](https://keyst.one) 
 
-Battery Level: Kpɔ egbɔ be wò keystone device la ƒe battery level wu 20%.
+Battery ƒe Nɔnɔme: Kpɔ be wò Keystone mɔ nu wɔwɔ ƒe battery ƒe ŋusẽ le 20% wu.
 
-USB Ka alo SD Kaɖi:
+USB Kabel alo SD Kadzi:
 
-- USB ka na firmware Update (wole eme).
-- Micro SD card (si le 1 TB te) na asitɔtrɔwo (ƒlee ɖe vovo).
+- USB kabel na firmware ƒe yeyeɖoɖo (wotsɔe va).
+- Micro SD kadzi (si meganɔ 1 TB wu o) na yeyeɖoɖo (wòle be nàƒle tɔe).
 
-Keystones ƒe nyatakakadzraɖoƒe si dziɖuɖua ɖo la yiyi hena Kpeɖodzi kple Firmware Update.
+Mɔ na Keystone ƒe nyatakakadzraƒe si nye ofisial be nàwɔ kpekpeɖeŋu eye nàwɔ Firmware ƒe Yeyeɖoɖo.
 
-Zashi app ɖoɖo ɖe wò asitelefon dzi.
+Zashi app ƒe ɖoɖo le wò mobi ƒe mɔ nu wɔwɔ dzi.
 
-## [Afɔɖeɖe ɖesiaɖe Mɔfiame(Keystone Device)](https://keyst.one/get-started) 
+## [Afɔ kple Afɔ Ƒe Mɔfia (Keystone Mɔ Nu Wɔwɔ)](https://keyst.one/get-started) 
 
 
-**Tia Wò Gbegbɔgblɔ**
--Device Verification(to QR): Device Verification le vevie ŋutɔ be woakpɔ ɖiƒoƒo si ate ŋu anɔ ʋuɖoɖo me, axe mɔ ɖe nuzazãwo ƒe kɔsɔkɔsɔ ƒe amedzidzedze nu, eye woakpɔ egbɔ be firmware si woda ɖe eme la le dedie.
-  - Yi Device Verification ƒe axa si le Keystone ƒe nyatakakadzraɖoƒea.
-  - Zi Scan QR Code dzi le nyatakakadzraɖoƒe si dziɖuɖua da asi ɖo.
-  - Zã wò Keystone fotoɖemɔ̃ nàtsɔ awɔ QR-dzesi si woɖe fia le nyatakakadzraɖoƒea la ƒe scan.
-  - Kpeɖodzinya aɖe adze le wò Keystone ƒe screen dzi.
-  - Ŋlɔ kɔda sia ɖe nyatakakadzraɖoƒea be nàwu kpeɖodzinana ƒe ɖoɖoa nu.
+**Tia Wò Gbɔgblɔ**
+-Mɔ Nu Wɔwɔ Ƒe Kpekpeɖeŋu (to QR dzi): Mɔ nu wɔwɔ ƒe kpekpeɖeŋu le vevi na be woakpɔ nugbɔgbɔ si ate ŋu ava le mɔdzi tsɔtsɔ me, awɔ mɔ ƒe kpekpeɖeŋu ƒe aʋawɔwɔwo ƒe dzidzi, eye woakpɔ firmware si wotsɔ ɖo la ƒe dedie.
+  - Yi Mɔ Nu Wɔwɔ Ƒe Kpekpeɖeŋu ƒe axa dzi le Keystone ƒe nyatakakadzraƒe dzi.
+  - Zi Scan QR Code le nyatakakadzraƒe ofisial la dzi.
+  - Zã wò Keystone ƒe kamera be nàscan QR code si wofia le nyatakakadzraƒea dzi.
+  - Kpekpeɖeŋu ƒe kode aɖe ava dze le wò Keystone ƒe screen dzi.
+  - Ŋlɔ kode sia ɖe nyatakakadzraƒea dzi be nàwu kpekpeɖeŋu ƒe ɖoɖo la nu.
 
-- **Firmware ƒe yeyewɔwɔ:**
-  - Trɔ asi le eŋu to MicroSD kaɖi dzi
-    - Kpɔ egbɔ be batri ƒe charge 20% ya teti le wò Keystone gakotokua me.
-    - De SD card la wò kɔmpiuta me eye nàwɔe abe FAT32 ene.
-    - Wɔ Cypherpunk ƒe firmware ƒe tɔtrɔ yeyetɔ ƒe kɔpi tso [Keystone Firmware Update ƒe axaa dzi](https://keyst.one/firmware) eye nàdzra keystone3.bin faɛl la ɖo ɖe wò MicroSD kaɖi ƒe ke me.
-    - De SD kaɖi si me dɔwɔnua le la wò Keystone gakotokua me.
-    - Yi "Upgrade" tiatia si le wò Keystone gakotokua dzi, emegbe nàwɔ ɖe mɔfiame siwo le screen dzi dzi nàtsɔ adze ɖɔɖɔɖodɔa gɔme.
-  - **Tsɔ yeye to USB Cable dzi**
-    - Ne wò firmware ƒe tɔtrɔ le 1.0.4 te la, ahiã be nàwɔ asitɔtrɔ gbãtɔa to MicroSD kaɖi zazã me hafi nàte ŋu ayi USB ƒe tɔtrɔwo dzi.
-    - Kpɔ egbɔ be batri ƒe charge 20% ya teti le wò Keystone gakotokua me.
-    - Zi edzi to USB dzi eye nàzã USB ka la atsɔ aƒo wò Keystone gakotokua ɖe wò kɔmpiuta ŋu. Zi [Approve] dzi be nàna wò Keystone gakotokua ƒe USB nate ŋu age ɖe eme, elabena ne menye nenema o la, ate ŋu aɖe mɔ na charge ko.
-    - Ʋu wò kɔmpiutawo ƒe nyatakakadzraɖoƒe eye nàyi [Keystone Firmware Update ƒe axaa dzi](https://keyst.one/firmware)
-    - Le update ƒe axaa dzi la, zi Install Update ƒe dzesi dzi eye nàwɔ ɖe mɔfiame siwo wona dzi be nàda firmware yeyetɔ ɖe wò kɔmpiuta dzi.
+- **Firmware Ƒe Yeyeɖoɖo:**
+  - Yeyeɖoɖo to MicroSD kadzi dzi
+    - Kpɔ be wò Keystone gakotoku [wallet] ƒe battery ƒe ŋusẽ le 20% yi.
+    - Ɖe SD kadzia ɖe wò kɔmputa me eye nàformat e le FAT32 me.
+    - Ɖe Cypherpunk firmware ƒe version yeyeŋutɔ tso [Keystone Firmware Update ƒe axa dzi](https://keyst.one/firmware) eye nàdzra keystone3.bin faela ɖe wò MicroSD kadzi ƒe gɔmedzeƒe.
+    - Ɖe SD kadzi si firmware le la ɖe wò Keystone gakotoku.
+    - Ge ɖe "Upgrade" tiatia me le wò Keystone gakotoku dzi, eye nàdze mɔfia siwo le screen dzi la yome be nàdze yeyeɖoɖo ƒe ɖoɖo gɔme.
+  - **Yeyeɖoɖo To USB Kabel Dzi**
+    - Ne wò firmware ƒe version le 1.0.4 te la, ele be nàwɔ gɔmedze yeyeɖoɖo la kple MicroSD kadzi hafi nàte ŋu ayi edzi kple USB ƒe yeyeɖoɖowo.
+    - Kpɔ be wò Keystone gakotoku ƒe battery ƒe ŋusẽ le 20% yi.
+    - Tɔ asi ɖe via USB dzi eye nàzã USB kabel la atsɔ akɔ wò Keystone gakotoku ɖe wò kɔmputa ŋu. Tɔ asi ɖe [Approve] dzi be nàna wò Keystone gakotoku mɔ na USB, elabena ne menye nenema o la, ate ŋu aɖe mɔ na hãhã ko.
+    - Ʋu wò kɔmputa ƒe web browser eye nàyi [Keystone Firmware Update ƒe axa dzi](https://keyst.one/firmware)
+    - Le yeyeɖoɖo ƒe axa la dzi, zi Install Update button eye nàdze mɔfia siwo wotsɔ na la yome be nàtsɔ firmware yeyeŋutɔ la aɖo.
 - **Wɔ Gakotoku:**
-    - Nyagbe si Le Dedie: Tia PIN alo nyagbe sesẽ aɖe si nàtsɔ akpɔ wò gakotokua ta.
-    - Ŋkɔ Wò Gakotoku (Ne èdi): Ne èdi la, tsɔ ŋkɔ na wò gakotokua be wòate ŋu ade dzesii bɔbɔe alo nàdzo le afɔɖeɖe sia dzi.
-    - Tia Wɔ Gakotoku Yeye ne èle gakotoku ɖom zi gbãtɔ.
-    - Wò mɔ̃a awɔ nuku ƒe nyagbe si me nya 24 le.
-    - Ŋlɔ nuku ƒe nyagbe sia ɖi eye nàdzrae ɖo nyuie.
-    - Ðo kpe nuku ƒe nyagbea dzi to nyawo me toto ɖe ɖoɖo nyuitɔ nu abe alesi woɖee fia le screen la dzi ene.
-- **Do ka Zashi + Keystone Gakotoku:**
-    - Le Keystone mɔ̃a dzi: Zi ... dzi le axa vevitɔ dzi
-    - Zi Connect Software Wallet dzi eye nàtia Zashi. QR-dzesi si woatsɔ aɖo kadodo kple Zashi la adze.
-    - Le Zashi App me la: Zi zashi ƒe nyatakakadzraɖoƒea (dzi le screen la ƒe miame) .
-    - Zi Connect Hardware Wallet dzi
-    - Zi Dzra Ðo Be Nàwɔ Scan dzi
-    - Scan QR si woɖe fia le Keystone Device dzi
-    - Le Zashi App me la: Ðo kpe Keystone Wallet Account dzi to asiƒoƒo ɖe akɔnta si woɖe fia dzi
-    - Zi Connect dzi le screen la te
+    - Dedie ƒe Nyagblɔɖi: Tia PIN alo nyagblɔɖi sesẽ aɖe be nàdzra wò gakotoku ƒe dedie.
+    - Na Wò Gakotoku Ŋkɔ (Emeɖeɖe): Ne èdi la, na wò gakotoku ŋkɔ be nàte ŋu ade dzesi le bɔbɔe me, alo nàto afɔ sia nu.
+    - Tia Create New Wallet ne èle gakotoku aɖe ɖom ɖe teƒe gbãtɔ.
+    - Wò mɔ nu wɔwɔ la awɔ gadzraɖoɖi nya [seed phrase] si nye nya 24.
+    - Ŋlɔ gadzraɖoɖi nya sia ɖe teƒe aɖe eye nàdzrae ɖe teƒe dedie.
+    - Ɖo gadzraɖoɖi nya la ƒe nyateƒe kple nyaawo ƒe kpekpeɖeŋu le woƒe ɖoɖo nyuitɔ me, abe ale si woefia le screen dzi ene.
+- **Ɖo Zashi + Keystone Gakotoku Ƒo:**
+    - Le Keystone mɔ nu wɔwɔ la dzi: Tɔ asi ɖe … le axa gã la dzi
+    - Tɔ asi ɖe Connect Software Wallet dzi eye nàtia Zashi. QR code na kadodo kple Zashi ava dze.
+    - Le Zashi App me: Tɔ asi ɖe zashi dropdown (le screen ƒe miaƒe ƒe dzi)
+    - Tɔ asi ɖe Connect Hardware Wallet dzi
+    - Tɔ asi ɖe Ready to Scan dzi
+    - Scan QR si woefia le Keystone Mɔ Nu Wɔwɔ la dzi
+    - Le Zashi App me: Ɖo Keystone Gakotoku ƒe Akawunt ƒe nyateƒe kple asiƒoƒo ɖe akawunt si woefia la dzi
+    - Tɔ asi ɖe Connect le screen ƒe gɔmedze
 
 
-## Kpekpeɖeŋu Bubuwo
+## Kpekpeɖeŋu Bubu
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -98,7 +98,3 @@ Zashi app ɖoɖo ɖe wò asitelefon dzi.
     loading="lazy"
   />
 </div>
-
-
-
-

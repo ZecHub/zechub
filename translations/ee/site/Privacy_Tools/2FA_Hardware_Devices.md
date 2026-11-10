@@ -1,98 +1,98 @@
-[![Trɔ Asi Le Axaa Ŋu](https://img.shields.io/badge/Edit-blue)](https://github.com/zechub/zechub/edit/main/site/Privacy_Tools/2FA_Hardware_Devices.md)
+[![Edit Page](https://img.shields.io/badge/Edit-blue)](https://github.com/zechub/zechub/edit/main/site/Privacy_Tools/2FA_Hardware_Devices.md)
 
-# 2FA Hardware Dɔwɔnuwo
+# 2FA Ƒe Mɔxɔxɔ Dɔwɔnuwo
 
-Nyatakakawo ƒe dedienɔnɔ kple ameŋunyatakakawo nye nu vevi siwo ŋu ame ɖekaɖekawo kple dɔwɔƒewo siaa tsi dzi ɖo. Internet dzi amedzidzedze kple nyatakakawo dzi dada va le bɔbɔm ɖe edzi, eye ele vevie be nàwɔ afɔɖeɖe siwo do ŋgɔ atsɔ akpɔ nyatakaka veviwo ta ahalé wò nyatakakawo ta. Afɔɖeɖe mawo dometɔ ɖekae nye hardware security keys zazã, siwo naa ametakpɔnu bubu aɖe tsɔ kpɔa wò mɔ̃wo kple nyatakakawo ta.
+Nyatakakadzraɖoɖo kple ɣaɣla [privacy] nye nu vevi na amesiwo katã kple asitsotsowo. Mɔ̃ dzi aɖawɔwɔ kple nyatakaka ƒe fɔfɔwo le dzidzime ge ɖe edzi, eye ele be nàtsɔ mɔ̃ siwo nèle ŋgɔ na wò awɔ dɔ be nàxɔ nyatakaka siwo le vevie kple wò ɣaɣla. Mɔ aɖeka le esia ŋu nye be nàzã mɔxɔxɔ ƒe dɔwɔnu ƒe kplɔ̃wo, esiwo naa dodokpɔ bubu aɖe be wòanɔ wò dɔwɔnuwo kple nyatakakawo xɔxɔ me.
 
-## Nukae nye hardware dedienɔnɔ ƒe safuiwo?
+## Nu kae nye mɔxɔxɔ ƒe dɔwɔnu ƒe kplɔ̃wo?
 
-Hardware security key nye mɔ̃ ŋutɔŋutɔ si wozãna hena nu eve ƒe kpeɖodzi (2FA) tsɔ kpɔa wò akɔntabubuwo kple mɔ̃wo ta. Ewɔa dɔ aduadu kple wò ŋkɔ kple nyagbe si nèzãna tsɔ kpɔa egbɔ be ame siwo ŋu woɖe mɔ ɖo koe ate ŋu akpɔ wò akɔntabubuwo kple nyatakakawo.
+Mɔxɔxɔ ƒe dɔwɔnu ƒe kplɔ̃ nye nu si wòate ŋu akpɔ ɖe asi, eye wozãnae na ame eve ƒe kpekpeɖeŋu [two-factor authentication] (2FA) be woaxɔ wò konto kple dɔwɔnuwo. Wɔwɔ dɔ kple wò ŋkɔ si nèzã kple wò nyagbe si nètsɔ ɖea eŋu be ame siwo woɖe mɔ na koe ate ŋu age ɖe wò kontowo kple nyatakakawo me.
 
-Wotrɔ asi le safui siawo ŋu be woawɔ dɔ aduadu kple wò ŋkɔ kple nyagbe si nàzã atsɔ akpɔ egbɔ be ame siwo ŋu woɖe mɔ ɖo koe ate ŋu akpɔ wò akɔntabubuwo kple nyatakakawo. Wole nɔnɔme vovovowo me abe pen drive, NFC card alo Bluetooth dɔwɔnuwo ene.
+Woɖo kplɔ̃ siawo be woawɔ dɔ kple wò ŋkɔ si nèzã kple wò nyagbe be ame siwo woɖe mɔ na koe ate ŋu age ɖe wò kontowo kple nyatakakawo me. Woaɖe wo le nɔnɔme vovovowo me abe pen drive, NFC kadi alo Bluetooth dɔwɔnu ene.
 
-![Hardware Dedienɔnɔ ƒe Safui ƒe Kpɔɖeŋu](/content-images/1dff66a4-d8e6-483f-9a1e-065d3974d665-a4c6c73e00.webp)
+![Hardware Security Key Example](/content-images/1dff66a4-d8e6-483f-9a1e-065d3974d665-a4c6c73e00.webp)
 
-## Alesi hardware security key wɔa dɔe
+## Ale si mɔxɔxɔ ƒe dɔwɔnu ƒe kplɔ̃ wɔa dɔ
 
-Ele be nàna 2FA nawɔ dɔ to xɔtunuwo ƒe dedienɔnɔ safuiwo dzi le nyatakakadzraɖoƒe alo mɔ̃ si doa alɔ mɔ̃ɖaŋununya sia dzi, le kpɔɖeŋu me, Binance kple Coinbase ƒe asitɔtrɔwo.
+Ele be nàdzu 2FA dzi to mɔxɔxɔ ƒe dɔwɔnu ƒe kplɔ̃wo dzi le nyatakakadzraƒe alo nɔnɔƒe si ƒe mɔ̃a ɖe mɔ na teknolodʒi sia ŋu, abe Binance kple Coinbase gatrɔƒewo ene.
 
-Ne èzã xɔtunu ƒe dedienɔnɔ safuiwo abe YubiKey ene la, ɖeko nètsɔa xɔtunu ƒe safuia dea USB alo Type-C ʋɔtru si le wò kɔmpiuta/kɔmpiutadzi alo asitelefon dzi la me, eye safuia wua kpeɖodzia nu na wò.
+Kple mɔxɔxɔ ƒe dɔwɔnu ƒe kplɔ̃wo abe YubiKey ene, nàtsɔ dɔwɔnu ƒe kplɔ̃a atɔ ɖe USB alo Type-C ƒe teƒe le wò desktop/laptop alo smartphone dzi ko, eye kplɔ̃a awu kpekpeɖeŋua na wò.
 
-## Viɖe kawoe le hardware security key zazã me?
+## Viɖe kaewo le mɔxɔxɔ ƒe dɔwɔnu ƒe kplɔ̃ zazã me?
 
-Hardware dedienɔnɔ ƒe safuiwo naa viɖe geɖe wu ɖaseɖiɖimɔnu xoxo siwo wotu ɖe nyagbe ɣaɣla dzi. Wo dzi dzedze sesẽ wu nyagbe ɣaɣlawo, siwo woate ŋu agblẽ bɔbɔe to ŋutasẽnuwɔwɔ, hadome mɔ̃ɖaŋununya alo amedzidzedze le ameflunyawo me. Dedienɔnɔ ƒe safuiwo wɔa kɔpi tɔxɛ aɖe ɣesiaɣi si wozã wo, si wɔnɛ be manya wɔ kloe be amedzidzelawo nagblɔ kɔdasia ɖi alo agbugbɔe awɔ o. Wo zazã kple ɖoɖowɔwɔ hã le bɔbɔe eye mehiã be nàde kɔmpiutadziɖoɖo alo ʋukula bubu aɖeke wò mɔ̃a dzi o.
+Mɔxɔxɔ ƒe dɔwɔnu ƒe kplɔ̃wo naa viɖe geɖe wu mɔ siwo zãna nyagbewo ko be woakpɔ ame dzi. Woɖe to dzi na wo be woaɖe aɖawɔ na wo wu nyagbewo, esi woate ŋu aɖu dzi le wɔnɔaƒe me to brute force, social engineering alo phishing ƒe aɖawɔwo dzi bɔbɔe. Mɔxɔxɔ ƒe kplɔ̃wo wɔa kode tɔxɛ aɖe ɣesiaɣi si wozã wo, eye esia wɔe be aɖawɔlawo makpɔ mɔ be woagblɔ ŋgɔ alo akpɔ kodea ƒe nɔnɔme bubu. Woɖe to dzi na wo be woazã wo kple woaɖo wo, eye womehia be nàtsɔ software alo driver bubu aɖe aɖo ɖe wò dɔwɔnu dzi o.
 
-## Ðe hardware dedienɔnɔ ƒe safuiwo sɔ kple mɔ̃wo kple dɔwɔɖoɖowo katãa?
+## Mɔxɔxɔ ƒe dɔwɔnu ƒe kplɔ̃wo sɔ kple dɔwɔnu kple dɔwɔwɔ ƒe ƒoƒowo katãa?
 
-Ao, hardware dedienɔnɔ ƒe safuiwo le nɔnɔme vovovowo me eye ɖewohĩ womawɔ ɖeka kple mɔ̃wo kple dɔwɔɖoɖowo katã o. Hafi nàƒle safui aɖe la, kpɔ egbɔ be esɔ kple wò mɔ̃a kple dɔwɔɖoɖoa.
+Ao, mɔxɔxɔ ƒe dɔwɔnu ƒe kplɔ̃wo le nɔnɔme geɖe me, eye womate ŋu asɔ kple dɔwɔnu kple dɔwɔwɔ ƒe ƒoƒo katã o. Hafi nàƒle kplɔ̃ aɖe la, kpɔ edzi be esɔ kple wò dɔwɔnu kple dɔwɔwɔ ƒe ƒoƒoa.
 
-![Hardware Dedienɔnɔ ƒe Nɔnɔme Veviwo](/content-images/a830c435-ad20-4183-b381-475afe1089b3-5537cd7388.webp)
+![Hardware Security Key Form Factors](/content-images/a830c435-ad20-4183-b381-475afe1089b3-5537cd7388.webp)
 
-## Ðe woate ŋu azã hardware security key kple akɔntabubu geɖea?
+## Ate ŋu azã mɔxɔxɔ ƒe dɔwɔnu ƒe kplɔ̃ aɖe kple kontowo sɔa?
 
-Ẽ, woate ŋu azã xɔtunu ƒe dedienɔnɔ ƒe safui ɖeka atsɔ akpɔ akɔntabubu geɖe ta le nyatakakadzraɖoƒe kple dɔwɔƒe vovovowo.
+Ɛ̃, woate ŋu azã mɔxɔxɔ ƒe dɔwɔnu ƒe kplɔ̃ ɖeka be woaxɔ kontowo geɖe le nyatakakadzraƒe kple subɔsubɔ vovovowo ŋu.
 
-## Nukae adzɔ ne nye hardware security key bu?
+## Nu kae ava dzɔ ne metsi mɔxɔxɔ ƒe dɔwɔnu ƒe kplɔ̃ nye?
 
-Ne wò hardware security key bu la, àde afɔku me be woaxe mɔ ɖe wò akɔntabubuwo nu. Wokafui be safui si woatsɔ adzrae ɖo alo kpeɖodzimɔnu bubu aɖe nanɔ asiwò be nàƒo asa na nɔnɔme sia.
+Ne nètsi wò mɔxɔxɔ ƒe dɔwɔnu ƒe kplɔ̃ la, nàle afɔku me be woatɔ wò kontowo. Wogblɔ be nànɔ kple kplɔ̃ bubu aɖe alo mɔ bubu si woatsɔ akpɔ ame dzi, be nàsi nu sia ƒe nɔnɔme nu o.
 
-## 2FA Hardware ƒe kpɔɖeŋuwo
+## 2FA Ƒe Mɔxɔxɔ Dɔwɔnuwo Ƒe Medɔmedɔwo
 
-2FA Hardware si le asi me ƒe kpɔɖeŋu aɖewoe nye esi.
+Míeɖe 2FA ƒe Mɔxɔxɔ Dɔwɔnu siwo le asitsotsome la ƒe medɔmedɔ aɖewo fia afii.
 
-**Yubico YubiKey 5 NFC ** Ƒe 1999 ƒe ɣleti gbãtɔ me.
+**Yubico YubiKey 5 NFC**
 
-![Yubico YubiKey 5 NFC ƒe ƒuƒoƒo](/content-images/bf1ac95e-7277-4559-b5ef-63117b66971b-3aa542aba7.webp)
+![Yubico YubiKey 5 NFC](/content-images/bf1ac95e-7277-4559-b5ef-63117b66971b-3aa542aba7.webp)
 
-Yubico, si nye FIDO U2F ƒe ɖaseɖiɖi ƒe dzidzenu si le ʋuʋu ɖi si dedienɔnɔ ƒe safui geɖe zãna ƒe kpeɖeŋutɔ wɔe, eye YubiKey 5 NFC le asi dedie me be wòakpɔ wò mɔ̃wo ta. Abe alesi eƒe ŋkɔa ɖee fia ene la, ewɔa dɔ to USB A (alo USB C si zãa adapter) alo NFC zazã me. 
-Enaa out of the box compatability kple subɔsubɔdɔ geɖe siwo dometɔ aɖewoe nye Google Chrome, Facebook, Dropbox, LastPass, 1Password kple bubuwo. YubiKey 5 la le sue, enɔa anyi didina eye eƒe kpekpeme le bɔbɔe - eye tsi gɔ̃ hã mate ŋu age ɖe eme o. 
-Àte ŋu aɖo YubiKey la abe U2F factor evelia ene kuxi aɖeke manɔmee to subɔsubɔ ƒe mɔfiamewo dzi wɔwɔ kple safuia dede USB ƒe ʋɔtrua me ne wobia tso asiwò. Ne èzi sika ƒe nutome si le safuia dzi alo te edzi la, ana nàŋlɔ wò safuia ŋkɔ, eyata ɣebubuɣi si nàge ɖe eme la, ɖeko nàŋlɔ nyagbea, ade safuia eme, eye nàzi edzi.
+Yubico, ame si kpe ɖe FIDO U2F ƒe ame katã ƒe kpekpeɖeŋu ƒe se si mɔxɔxɔ ƒe kplɔ̃ geɖe zãna la ŋu, wɔ YubiKey 5 NFC; eyata le asi dedie me be wòaxɔ wò dɔwɔnuwo. Abe ale si ŋkɔa gblɔe ene la, ewɔa dɔ kple USB A (alo USB C to adapter dzi) alo NFC.  
+Ena kpekpeɖeŋu tso gɔme me kple subɔsubɔ geɖe, siwo ƒe Google Chrome, Facebook, Dropbox, LastPass, 1Password kple bubuwo le eme. YubiKey 5 nye nu sue, sesẽ, kple fɔ kpuie — eye tsi mate ŋu awɔe nu o.  
+Àte ŋu aɖo YubiKey abe U2F ƒe faktɔ evelia ene bɔbɔe to subɔsubɔa ƒe fiƒiawo yometɔtɔ kple kplɔ̃a detɔtɔ ɖe USB ƒe teƒea me ne woɖe wò. Ne nètɔ alo nète asi ɖe sikawo ƒe xɔxɔsi le kplɔ̃a dzi la, woaŋlɔ wò kplɔ̃a ɖe eme; eyata ne nège ɖe eme zi si gbɔna la, ge ɖe eme kple nyagbea, de kplɔ̃a, eye nàte asi ɖe eŋu.
 
-**Thetis Fido U2F Dedienɔnɔ ƒe Safui**
+**Thetis Fido U2F Security Key**
 
-![Thetis Fido U2F Dedienɔnɔ ƒe Safui](/content-images/b83e42e5-bba6-4175-ad6c-d64972ef54ef-a2ef17a10d.webp)
+![Thetis Fido U2F Security Key](/content-images/b83e42e5-bba6-4175-ad6c-d64972ef54ef-a2ef17a10d.webp)
 
-Ne èle bang-for-buck nyuitɔ dim le dedienɔnɔ ƒe safui me la, ele be mɔ̃ sia si tso Thetis nanɔ wò xexlẽdzesiwo me. Bluetooth aɖeke mele ʋua me o (ele mɔ̃ si xɔ asi wu dzi), eye FIDO U2F ƒe dzidzenu koe wòdoa alɔ eyata UAF alo OTP ƒe ɖekawɔwɔ aɖeke mele eme o. Gake ana nàge ɖe nyatakakadzraɖoƒea dedie ne èzã Chrome alo Opera abe web-browser ene le Windows, macOS, alo Linux dzi. 
-Le asi me la, dedienɔnɔ ƒe safui sia si ƒe asi bɔbɔ la wɔa kamedefefe si ƒe nɔnɔme le bɔbɔe si woate ŋu abla kple aluminum-nutunu si le tɔtrɔm si xea mɔ na kadodoa be wòagagblẽ nu le eŋu ne ele etsɔm o. Amadede dzeani etɔ̃e le eŋu: Yevu, Sika, kple Klosalo. 
-Plastik-nutunua sena le eɖokui me be esẽ eye wònɔa anyi didina vie, gake àdi be yeaƒo asa na etsɔtsɔ de nu kpekpewo me le wò akplo me. Do si wotsɔ ƒoa safuiae la melolo o, eyata tiatia ʋɛ aɖewo anɔ asiwò nàtsɔ abla safui alo ka.
+Ne èdi mɔxɔxɔ ƒe kplɔ̃ si naa nu nyui geɖe na wò ga la, ele be Thetis ƒe model sia nanɔ wò ƒe xexle me. Bluetooth mele eme o (woɖe eɖe le model si xɔ asi wu), eye wòkpe ɖe FIDO U2F ƒe se ko ŋu, eyata UAF alo OTP ƒe kpekpeɖeŋu mele o. Ke hã, ana nyatakakadzraƒe ƒe gege dedie na wò ne èzã Chrome alo Opera abe browser ene le Windows, macOS, alo Linux.  
+Esi woɖo mɔxɔxɔ ƒe kplɔ̃ si xɔ asi sia wɔe be woate ŋu akɔ eƒe akpa aɖe la, eye aluminum ƒe agbalẽ si trɔna le eŋu kpɔa connector la ɖe gbegblẽ si ate ŋu ava ne woatsɔe le mɔ dzi. Wova kple amadede nyui etɔ: Black, Gold, kple Silver.  
+Plastic ƒe agbalẽa sese abe nu sesẽ kple nu si le te ŋu ene, ke nàdze agbagba be màtsɔe ade kple nu kpekpeawo le wò kotoku me o. Ŋɔŋlɔƒe si le kplɔ̃a me la meganɔ te ŋutɔ o, eyata mɔ geɖe manɔ asiwò be nàtsɔ keychain alo lanyard aɖe akakae o.
 
-**CryptoTrust Ko Safui**
+**CryptoTrust OnlyKey**
 
-![CryptoTrust Ko ƒe Safui](/content-images/13be6ecc-227e-498c-8a36-6d52c023cd78-06e3e924dc.webp)
+![CryptoTrust OnlyKey](/content-images/13be6ecc-227e-498c-8a36-6d52c023cd78-06e3e924dc.webp)
 
-Abe alesi eƒe ŋkɔa ɖee fia ene la, OnlyKey ƒe nɔnɔme nyui aɖewo mele eƒe hoʋlilawo si o. Akpe na keypad si le ʋua me si ate ŋu ato keyloggers siwo dia mɔ ɖe kɔmpiutawo dzi ŋu ta la, ate ŋu ana Internet dzi akɔntabubuwo nanɔ dedie ne kɔmpiuta alo nyatakakadzraɖoƒe aɖe gblẽ. Edoa alɔ 2FA ƒe mɔnu geɖewo, siwo dometɔ aɖewoe nye FIDO 2 U2F, Yubico OTP, kple TOTP. 
-Togbɔ be menye nyagbewo dzikpɔla nyuitɔ kekeake na taɖodzinu veviwo o hã la, OnlyKey ateŋu adzra OTP akɔnta 24, nyagbe 24, kple zãla ƒe ŋkɔ/URL 24 ɖo, ɖe safui ɖeka dzi. Nɔnɔme sia le asiwò ŋutɔ ne mèdi vevie be yealé nyagbe geɖe ɖe susu me o eye nèdi be safuia nakpɔ egbɔ na ye. 
-Enaa nu aɖewo abe encrypted backup, self-trustruct (si tutua mɔ̃a le agbagbadzedze masɔmasɔ xexlẽme aɖewo megbe), kple ŋutete be woawɔ firmware la yeyee be wòakpɔ nu yeyewo. Nusi gblẽ le eŋue nye be eƒe zazã ƒe mɔnu mesɔ kura o.
+Abe ale si eƒe ŋkɔa gblɔe ene la, OnlyKey le nɔnɔme nyui aɖewo siwo eƒe toƒomeviwo mele o. Akpe na keypad si le eme, si ate ŋu ato keylogger siwo ge ɖe kɔmpiutawo me la ŋu, eye ate ŋu axɔ internet ƒe kontowo ne kɔmpiuta alo nyatakakadzraƒe aɖe ƒe dzidzedze me. Wòkpe ɖe 2FA ƒe mɔ geɖe ŋu, siwo ƒe FIDO 2 U2F, Yubico OTP, kple TOTP le eme.  
+Esi wòmenye password manager nyuitɔ na amewo katã ƒe dɔwɔwɔ o hã la, OnlyKey ate ŋu adzra OTP konto 24, nyagbe 24, kple zãla ƒe ŋkɔ/URL 24 le kplɔ̃ ɖeka dzi. Nɔnɔme sia le viɖe ŋutɔ ne mèdi be nàɖo nyagbe geɖe ɖe ta me o eye nèdi be kplɔ̃a na wɔe na wò.  
+Ena nɔnɔme siwo ƒe backup si woŋlɔ ɖe ɣaɣla me, self-destruct (si tsɔa dɔwɔnu la ɖea le agbagba siwo menyo o ƒe xexle aɖe megbe), kple mɔ be nàtrɔ firmware la be nàkpɔ nɔnɔme yeyeawo. Le akpa vɔ̃ aɖe dzi la, eƒe zãla ƒe nɔnɔme menyo o.
 
-## Wò 2FA Hardware Key babla ɖe wò Google akɔnta ŋu
+## Wò 2FA Ƒe Mɔxɔxɔ Dɔwɔnu ƒe Kplɔ̃ Ƒɔƒɔ ɖe wò Google konto ŋu
 
-Fifia si nènya nusi 2FA Hardware safuiwo nye kple alesi wowɔa dɔe la, alesi nàtsɔ wò safuia aƒo ƒu ɖe wò Google akɔnta ŋue nye esi.
+Azɔ esi nènya nu si 2FA ƒe Mɔxɔxɔ dɔwɔnu ƒe kplɔ̃wo nye kple ale si wowɔa dɔ la, esi nye ale si nàƒo wò kplɔ̃a ɖe wò Google konto ŋu.
 
-**Afɔɖeɖe 1** 
-Ge ɖe wò Gmail akɔnta me eye nàzi **Manage Your Google Account** dzi.
+**Afɔ 1**  
+Ge ɖe wò Gmail konto me eye nàzi **Manage Your Google Account** dzi
 
-![Google Akɔntabubu - Dzra Akɔntabubu Dzi](/content-images/995fc955-791a-4456-9218-7e5964da48b5-31c64640b2.webp)
+![Google Account - Manage Account](/content-images/995fc955-791a-4456-9218-7e5964da48b5-31c64640b2.webp)
 
-**Afɔɖeɖe 2 lia** 
-Zi **Dedienɔnɔ** dzi.
+**Afɔ 2**  
+Zi **Security** dzi
 
-![Google ƒe Dedienɔnɔ ƒe Ðoɖowo](/content-images/246db235-6596-41ff-bd7a-f8ee4f80962b-340193c2c3.webp)
+![Google Security Settings](/content-images/246db235-6596-41ff-bd7a-f8ee4f80962b-340193c2c3.webp)
 
-**Afɔɖeɖe 3 lia** 
-Zi **Afɔɖeɖe 2 ƒe Kpeɖodzi** dzi.
+**Afɔ 3**  
+Zi **2-Step Verification** dzi
 
-![2-Afɔɖeɖewo ƒe Dzesidede Dzeside](/content-images/19cd202a-1a70-47e6-a02a-aa24f6e199fa-a9fcb911ce.webp)
+![2-Step Verification Screen](/content-images/19cd202a-1a70-47e6-a02a-aa24f6e199fa-a9fcb911ce.webp)
 
-**Afɔɖeɖe 4 lia** 
-Tia **Fia Tiatia Bubuwo**
+**Afɔ 4**  
+Tia **Show More Options**
 
-![Fia Tiatia Bubuwo](/content-images/2ade9531-1cf6-48e8-b9a8-178d41a4cd30-b1e9ea1400.webp)
+![Show More Options](/content-images/2ade9531-1cf6-48e8-b9a8-178d41a4cd30-b1e9ea1400.webp)
 
-**Afɔɖeɖe 5 lia** 
-Azɔ tia **Security Key** eye emegbe nàzi **Advance** dzi.
+**Afɔ 5**  
+Azɔ tia **Security Key** eye nàzi **Advance** dzi
 
-**Afɔɖeɖe 6 lia** 
-Do ka kple wò 2FA dedienɔnɔ ƒe safuia
+**Afɔ 6**  
+Ƒo wò 2FA ƒe mɔxɔxɔ kplɔ̃a
 
-**Afɔɖeɖe 7 lia** 
-Ŋlɔ ŋkɔ si nèdi na mɔ̃a eye nàzi **Done** dzi.
+**Afɔ 7**  
+Ŋlɔ ŋkɔ si nèdi na dɔwɔnu la eye nàzi **Done** dzi

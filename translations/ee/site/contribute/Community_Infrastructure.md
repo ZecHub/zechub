@@ -2,29 +2,28 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# ZecHub Nutome Dɔwɔƒewo ƒe Dɔwɔɖoɖo
+# ZecHub Hamea ƒe Nudzraɖoɖo ƒe Ɖoɖo
 
 
-### Nutoa me Dɔwɔƒewo ƒe Dɔwɔɖoɖowo 
+### Hamea ƒe Nudzraɖoɖo 
 
-ZecHub bounty program ye nye mɔ si woxea fe na na dɔ sia: [ZEC Bounties](https://bounties.zechub.wiki/). Ale si nàtia ZEC xexlẽdzesi: [bounty amounts ƒe ɖoɖo](https://bounties.zechub.wiki/docs/bounty-amounts). Nudzɔla ƒe dɔwɔwɔ ƒe ɖoɖo: [Nudzɔdzɔ na ZecHub](https://zechub.wiki/contribute/contributing-guide). 
+ZecHub bounty ƒe kekeɖeɖe nye mɔ si me woaxe fe na dɔ sia ta: [ZEC Bounties](https://bounties.zechub.wiki/). Ale si nàtia ZEC ƒe xexlẽme: [bounty ƒe ga siwo ƒe ɖoɖo](https://bounties.zechub.wiki/docs/bounty-amounts). Amesi doa asi le eŋu ƒe dɔwɔwɔ mɔ: [Ale si nàdo asi le ZecHub ŋu](https://zechub.wiki/contribute/contributing-guide). 
 
 
-## Mɔfiame Siwo Ŋu Viɖe Le 
+## Kplɔɖoɖowo siwo ƒe vi na mí 
 
-- [ZecHub Dɔwɔlawo ƒe Mɔfiame](https://zechub.wiki/developers)
+- [ZecHub Mɔ̃ ƒe ɖoɖoŋlɔla ƒe Kplɔɖoɖo](https://zechub.wiki/developers)
 
-- [Zcash Xlẽ agbalẽwo](https://zcash.readthedocs.io/en/latest/)
+- [Zcash Readthedocs](https://zcash.readthedocs.io/en/latest/)
 
-- [Zebra ƒe Agbalẽa](https://zebra.zfnd.org)
+- [Zebra ƒe Agbalẽ](https://zebra.zfnd.org)
 
-- [Akash Network ƒe Nuŋlɔɖiwo](https://akash.network/docs/)
+- [Akash Network ƒe Nuxlɔ̃amewo](https://akash.network/docs/)
 
-- [Zebrad ɖoɖo ɖe Akash Network dzi](https://zechub.wiki/guides/akash-network-zebra#content)
+- [Ale si nàɖo Zebrad ɖe Akash Network dzi](https://zechub.wiki/guides/akash-network-zebra#content)
 
-- [Woɖe Zcash Fexexe ƒe Biabiawo Me (video)](https://www.youtube.com/watch?v=l5auYQIzYsQ)
+- [Zcash Fexexe ƒe Biabiawo Ƒe Gɔmesese (video)](https://www.youtube.com/watch?v=l5auYQIzYsQ)
 
-- [ZIP-321 nɔnɔmetatawo](https://zips.z.cash/zip-0321)
+- [ZIP-321 ƒe Ɖoɖoɖo](https://zips.z.cash/zip-0321)
 
-Ne èhiã aɖaŋuɖoɖo deto tso Zcash dɔwɔlawo gbɔ la, àte ŋu awɔ nya aɖe tso.. [Nutoa me Nyamedzroƒe](https://forum.zcashcommunity.com).
-
+Ne èhia aɖaŋu si le nyuie tso Zcash mɔ̃ ƒe ɖoɖoŋlɔla siwo gbɔ la, àte ŋu aŋlɔ nu ɖe [Hamea ƒe Ɖoƒe](https://forum.zcashcommunity.com) dzi.

@@ -1,4 +1,4 @@
-# Zenith GUI 全节点钱包安装  
+# Zenith GUI 全节点钱包 [wallet] 安装  
 
 ## 视频教程
 
@@ -6,7 +6,7 @@
   <iframe
     className="w-full h-full"
     src="https://www.youtube.com/embed/zu8nvr4FlXE"
-    title="Zenith 全节点钱包安装与演示"
+    title="Zenith Full Node Wallet Installation & Demo"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowFullScreen
     loading="lazy"
@@ -20,7 +20,7 @@
   <iframe
     className="w-full h-full"
     src="https://www.youtube.com/embed/-gawirv0L_U"
-    title="在 Zebrad + Zenith 中使用 RPC"
+    title="Using RPC's with Zebrad + Zenith"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowFullScreen
     loading="lazy"
@@ -73,7 +73,7 @@ enable_cookie_auth = false
 > git clone https://code.vergara.tech/Vergara_Tech/zcash-haskell.git
 
 
-### 安装依赖
+### 安装依赖项
 
 > sudo apt install libssl-dev libgmp-dev libsecp256k1-dev libtinfo-dev libsdl2-dev libfreetype-dev libglew-dev gdk-pixbuf-tests raspi-config
   
@@ -88,15 +88,15 @@ enable_cookie_auth = false
 > source ~/.bashrc
 
 
-### 为 aarch64 调整源码
+### 为 aarch64 调整源代码
 
 > nano configure
 
-**将两行中的 triple 都改为：`"aarch64-unknown-linux-gnu"`。**
+**将两行中的 triple 更改为: "aarch64-unknown-linux-gnu"。**
 
 > nano Setup.hs
  
- **在 `zcash-haskell` 文件夹和 `zenith` 文件夹中都修改 `Setup.hs`**
+ **在 zcash-haskell 文件夹和 zenith 文件夹中均修改 Setup.hs**
 
 ### 编译 
 
@@ -136,13 +136,13 @@ zebraPort = 8232
 
 ## Raspi-config
 
-> [下载最新版 gldriver-test](https://archive.raspberrypi.org/debian/pool/main/g/gldriver-test/)
+> [下载最新的 gldriver-test](https://archive.raspberrypi.org/debian/pool/main/g/gldriver-test/)
   
 > sudo dpkg - gldriver-test_0.15_all.deb
   
 > sudo raspi-config
 
-  **进入 advance 并选择 opengl => GL (Full KMS)**
+  **前往 advance 并选择 opengl => GL (Full KMS)**
 
   **重启**
 
@@ -151,11 +151,11 @@ zebraPort = 8232
 ## 运行 zenith
 
  ./zenith gui
- or
+ 或
  ./zenith tui
- or
+ 或
  ./zenithserver
 
 ## RPC
 
-[操作说明](https://github.com/ZecHub/zechub/blob/main/site/tutorials/zenithserver/zenithBeta.md)
+[操作指南](https://github.com/ZecHub/zechub/blob/main/site/tutorials/zenithserver/zenithBeta.md)

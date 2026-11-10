@@ -2,153 +2,153 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Ntuli Aka Onye Ji Ego Echebere
+# Ntuli Aka Ndị Nwere Ego Nke E Chebere Echebe
 
-> N'ọnwa Ọgọst afọ 2026, Zcash mere ntuli aka nke ndị ji ego echekwa ego, ebe a na-ezochi ntuli aka ahụ, naanị ngụkọta ikpeazụ ka ekpughere, site na iji usoro ntuli aka nke Valar Group.
+> N’Ọgọọst 2026, Zcash mere ntuli aka ndị nwere ego nke edobere akwụkwọ ntuli aka ya na nzobe ederede, naanị mkpokọta ikpeazụ ka e kpughere, site n’iji usorontuli aka nke e chebere echebe nke Valar Group wuru.
 
-Ihe ị ga-ewepụ: otu esi atụ votu site na ego ZEC ị nwere, debe ya na nzuzo, ma ka gụọ ya nke ọma, ihe niile na-enweghị onye maara etu ị si tụọ vootu ma ọ bụ ego ole ị nwere.
+Ihe ị ga-amụta: otu esi eji ego ZEC ị nwere tụọ ibu ntuli aka, debe ya na nzuzo, ma ka gụọ ya nke ọma, na-enweghị onye ọ bụla ịmata otu ị si tụọ aka ma ọ bụ ego ị nwere.
 
-Ntuli aka onye ji ego echekwa ihe na-eme ka ndị ji Zcash votu maka ajụjụ gbasara gburugburu ebe obibi site na iji ZEC. Ọ dịghị onye na-amụta ihe onye ọ bụla tụrụ vootu ma ọ bụ ego ole ZEC ha nwere, mana onye ọ bụla nwere ike inyocha na mkpokọta ahụ ziri ezi. Ọ na-agba ọsọ na usoro ntuli aka raara onwe ya nye nke Valar Group, dị iche na Zcash mainnet, yabụ ezigbo ego gị agaghị aga n'ihu. Maka otu Zcash si eme mkpebi n'ụzọ sara mbara karị, lee [Nchịkọta Ego na Ọchịchị Zcash](../zcash-community/zcash-governance). Peeji a bụ naanị gbasara usoro ntuli aka nzuzo.
+Ntuli aka ndị nwere ego nke e chebere echebe na-enye ndị ji Zcash ohere ịtụ aka n’ajụjụ gbasara gburugburu obibi ha site n’iji ZEC nke e chebere echebe ha. Ọ dịghị onye na-amụta ihe onye ọ bụla tụrụ aka ma ọ bụ ego ZEC ole ha nwere, ma onye ọ bụla ka nwere ike nyochaa na mkpokọta ahụ ziri ezi. Ọ na-arụ ọrụ na chain ntuli aka pụrụ iche nke Valar Group wuru, dị iche na mainnet Zcash, ya mere ego gị n’ezie anaghị agagharị. Maka otu Zcash si eme mkpebi n’ụzọ sara mbara, lee nkọwa [Zcash Banyere Ego na Gọọmentị](../zcash-community/zcash-governance). Ibe a bụ naanị maka usorontuli aka cryptographic.
 
-Ọhụrụ na Zcash? Malite na [Kedu ihe bụ ZEC na Zcash](../start-here/what-is-zec-and-zcash), [Ọdọ Mmiri E Kpuchiri Ekpuchi](../using-zcash/shielded-pools), na [zk-SNARKs](../zcash-tech/zk-snarks), wee laghachi ebe a.
+Ị bụ onye ọhụrụ na Zcash? Malite na [Gịnị bụ ZEC na Zcash](../start-here/what-is-zec-and-zcash), [Pool Ndị E Chebere Echebe](../using-zcash/shielded-pools), na [zk-SNARKs](../zcash-tech/zk-snarks), ma lọghachi ebe a.
 
 ![Shielded voting flow: a voter proves their Ironwood balance at a snapshot, casts an encrypted ballot split into shares, which are homomorphically tallied and then threshold-decrypted into totals only](/content-images/shielded-voting-flow.webp)
 
-## Ihe mere ntuli aka nkeonwe ji sie ike
+## Ihe mere ntuli aka nzuzo ji sie ike
 
-Votu onye ji ego achụ ego chọrọ ihe anọ n'otu oge, na ụzọ doro anya isi mee ka ha lụọ ọgụ.
+Ezigbo ntuli aka ndị nwere ego chọrọ ihe anọ n’otu oge, ụzọ doro anya isi nweta ha na-emegidekwa ibe ha.
 
-1. Ibu ibu site n'otu ebe ruo n'ọzọ, yabụ ijide ọtụtụ ZEC na-ebu ibu ibu karịa.
-2. Nzuzo nke nhọrọ, ka onye ọ bụla ghara ịmụta otu esi eme ntuli aka.
-3. Nzuzo nke nguzozi, yabụ na ọ dịghị onye na-amụta ego ole ị nwere ZEC.
-4. Ọnụọgụgụ ziri ezi, nke onye ọ bụla nwere ike ịlele.
+1. Tụọ ibu site na ego ejidere, nke mere na ịnwe ZEC karịa na-enye ibu karịa.
+2. Nzuzo nke nhọrọ, ka onye ọ bụla ghara ịma otu ị tụrụ aka.
+3. Nzuzo nke nguzo ego, ka onye ọ bụla ghara ịma ego ZEC ole i nwere.
+4. Ọgụgụ ziri ezi, a ga-enyochakwa ya, nke onye ọ bụla nwere ike ilele.
 
-Iji tụọ aro ihe niile, o yiri ka ị chọrọ nguzozi nke onye ọ bụla. Iji gụọ akwụkwọ ntuli aka, o yiri ka ị ga-emepe ha. Ime ụzọ ọ bụla n'amaghị ama na-ewepụta ozi nkeonwe kpọmkwem [ọdọ mmiri echebe](../using-zcash/shielded-pools) dị iji chebe, votu mkpụrụ ego ndị gara aga ewepụtakwara ozi nguzozi maka nke a. Ntuli aka nchekwa na-edozi esemokwu ahụ site na otu ngwaọrụ ndị na-akwado ịkwụ ụgwọ: [ihe akaebe efu nke ihe ọmụma](../zcash-tech/zk-snarks), ihe ndị na-emebi ihe, na ihe nzuzo.
+Iji ego ejidere tụọ ibu, o yiri ka ị ga-achọ nguzo ego onye ọ bụla. Iji gụọ akwụkwọ ntuli aka, o yiri ka ị ga-achọ imeghe ha. Ime nke ọ bụla n’ụzọ dị mfe na-ekpughe kpọmkwem ozi nzuzo pool [nke e chebere echebe](../using-zcash/shielded-pools) dị iji chebe, ntuli aka ego ndị gara aga kpugherekwa ozi nguzo ego n’ihi nke a. Ntuli aka e chebere echebe na-edozi esemokwu ahụ site n’otu ngwá ọrụ na-akwado ịkwụ ụhwọ nke e chebere echebe: [proof zero-knowledge](../zcash-tech/zk-snarks), nullifier, na nzobe ederede.
 
-## Echiche: igbe ntuli aka nke na-agụ onwe ya
+## Echiche ahụ: igbe akwụkwọ ntuli aka na-agụ onwe ya
 
-> Ogwe ntụpụ aka na-enye gị ohere ịgụta ihe gafere n'ime ebe a na-echekwa ego n'ụlọ akụ n'amaghị ihe dị n'ime ya. Igbe ntuli aka e ji ihe mkpuchi kpuchie na-aga n'ihu: ọ na-agbakwụnye votu emechiri emechi n'emegheghị ha.
+> Turnstile na-eme ka i nwee ike ịgụta ihe na-agafe n’ụlọ nchekwa akụ na-ahụghị ihe dị n’ime. Igbe akwụkwọ ntuli aka e chebere echebe na-aga n’ihu otu nzọụkwụ ọzọ: ọ na-agbakọta votu ndị e mechiri emechi n’emeghịghe ha.
 
-Were anya gị hụ igbe ntuli aka nwere ike atọ pụrụ iche. Ọ nwere ike itinye envelopu emechiri emechi na ngụkọta na-agba ọsọ na-emepeghị ya. Otu ndị ọrụ, ọ dịghị onye jidere mkpịsị ugodi ahụ, mechara kpughee naanị ngụkọta ikpeazụ. Tupu ị tinye envelopu, ị na-egosi nwayọ na i jidere ZEC n'oge gara aga a kapịrị ọnụ ma ị tụbabeghị votu, na-egosighi mkpụrụ ego nke gị. Ihe niile dị n'okpuru bụ otu esi ewu igbe ahụ n'ezie.
+Cheedị igbe akwụkwọ ntuli aka nwere ikike atọ pụrụ iche. Ọ nwere ike itinye envelopu e mechiri emechi na mkpokọta na-aga n’ihu n’emeghịghe ya. Otu ìgwè ndị ọrụ, nke ọ dịghị onye ọ bụla n’ime ha ji igodo ahụ naanị ya, mechaa kpughee naanị mkpokọta ikpeazụ. Tupu e kwe ka ị tụba envelopu n’ime ya, ị na-egosi nwayọọ na i nwere ZEC n’oge gara aga a kara aka nakwa na ịtụbeghị aka mbụ, n’egosịghị mkpụrụ ego nke bụ nke gị. Ihe niile dị n’okpuru bụ otu esi ewu igbe ahụ n’ezie.
 
-## Ntozu oke na foto ahụ
+## Ikike itinye aka na snapshot
 
-Agba ntuli aka na-edozi elu foto, otu ngọngọ Zcash dị mkpa, ibu gị bụkwa nguzozi nchekwa gị nke a ga-emefu na ya na [Ironwood](../zcash-tech/ironwood) ọdọ mmiri dị na blọk ahụ. Iwu ahụ bụ naanị otu Ironwood ZEC na foto ahụ hà nhata otu votu. Maka nyocha NU7 foto ahụ bụ blọk mainnet 3,459,350, gburugburu Ọgọst 24, 2026 na elekere 19:00 UTC, yana ntuli aka mepere ruo Septemba 14, 2026 na elekere 19:00 UTC. A na-ejikwa ZEC transparent iche iche site na usoro ochie, ọ bụghị site na usoro a.
+Oge ntuli aka na-edobe elu snapshot, otu block mainnet Zcash, ibu gị bụkwa nguzo ego nke e chebere echebe ị nwere ike imefu n’ime pool [Ironwood](../zcash-tech/ironwood) n’oge block ahụ. Iwu a dị mfe: otu Ironwood ZEC na snapshot hà otu votu. Maka ntuli aka gbasara oke ọrụ NU7, snapshot bụ mainnet block 3,459,350, ihe dị ka Ọgọọst 24, 2026 na 19:00 UTC, ebe ntuli aka meghere ruo Septemba 14, 2026 na 19:00 UTC. A na-elekọta ZEC Oha iche site n’ụzọ ochie, ọ bụghị site na protocol a.
 
-1. Ego gị anaghị agagharị ma ọ dịghị mgbe a ga-akpọchi ya. A na-ekpebi ihe ị ga-eme na foto ahụ, yabụ ị nwere ike imefu ma ọ bụ bufee ZEC ozugbo emechara ya n'enweghị mmetụta na ntuli aka gị.
-2. Enweghị usoro ndebanye aha. Ogologo foto dị elu bụ naanị ihe dị mkpa, nke na-eme ka usoro ahụ dị mfe ma zere ikpughe onye chọrọ ịtụ vootu.
+1. Ego gị anaghị agagharị ma ọ bụ kpọchie. A na-edobe ikike na snapshot, ya mere ị nwere ike imefu ma ọ bụ bugharịa ZEC ozugbo e mesịrị na-enweghị imetụta votu gị.
+2. Enweghị usoro ndebanye aha. Elu snapshot bụ naanị ihe a chọrọ, nke na-eme ka usoro ahụ dị mfe ma zere ikpughe onye bu n’obi ịtụ aka.
 
-## Ịgosipụta nguzozi gị n'ekpugheghị ya
+## Igosi nguzo ego gị n’ekpugheghị ya
 
-Mgbe ị na-eme ntuli aka, obere akpa gị na-egosi na ị na-achịkwa ụfọdụ ZEC. Ọ na-edobe nguzozi ziri ezi na nha ya na igwe na-agụta ihe nkeonwe, mana ọ naghị egosi ihe ndetu ọ bụla ma ọ naghị emepụta azụmahịa na Zcash mainnet.
+Mgbe ị tụrụ aka, e-akpa ego gị na-emepụta proof zero-knowledge na-egosi na na snapshot, ị na-achịkwa ụfọdụ ZEC nke e chebere echebe a na-emefubeghị. Ọ na-egosi igwe ọgụgụ nzuzo nguzo ego ziri ezi na oke ya, mana ọ naghị ekpughe note ọ bụla ma ọ naghị emepụta azụmahia na mainnet Zcash.
 
-Ihe akaebe ahụ na-egosi na a na-enye gị ohere ịtụ vootu n'usoro ntuli aka nke nha nha foto gị, nke nwere mkpịsị ugodi ntuli aka ọhụrụ nke obere akpa gị na-emepụta maka agba a. Ebe ọ bụ na mkpịsị ugodi ahụ bụ ihe ọhụrụ ma enweghị njikọ na adreesị Zcash gị, ọ dịghị ihe dị na usoro ntuli aka a ga-achọpụta na ihe ndetu gị dị adị. A naghị ejikọta njirimara gị na ntuli aka gị site na owuwu.
+Proof ahụ na-emepụta kredit ntuli aka na chain ntuli aka hà nguzo ego gị na snapshot, nke igodo ntuli aka ọhụrụ e-akpa ego gị mepụtara maka oge a naanị ya nwe. Ebe igodo ahụ dị ọhụrụ ma ejikọghị ya na Adreesị akpa ego Zcash gị, ọ dịghị ihe dị na chain ntuli aka nwere ike ịchọpụta laghachi na note gị n’ezie. Aha njirimara gị on-chain na akwụkwọ ntuli aka gị bụ Ihe na-apughi ijikọ ọnụ site n’ụzọ e wuru ya.
 
-## Na-egbochi ntuli aka ugboro abụọ, n'onwe
+## Igbochi ịtụ aka ugboro abụọ, na nzuzo
 
-Iji gbochie onye ọ bụla ịtụ vootu ugboro abụọ site n'otu mkpụrụ ego ahụ, sistemụ ahụ ga-ekwenye na ego ndị dị n'azụ gị emeghị na foto ahụ. Na mainnet, a na-eme nke a site n'ikpughe ihe na-emebi ihe na ndetu, ihe pụrụ iche e tinyere na ya, nke nodes zuru ezu na-enyocha maka iji ya eme ihe. Mana ikpughe ihe na-emebi ihe gị ebe a ga-ejikọ vootu gị ozugbo na ndetu gị.
+Iji kwụsị onye ọ bụla ịtụ aka ugboro abụọ site n’otu mkpụrụ ego, usoro ahụ ga-ekwenye na note ndị dị n’azụ nguzo ego gị emefubeghị na snapshot. Na mainnet, a na-eme nke a site n’ikpughe nullifier note, akara pụrụ iche na-egosi na e mefuru ya, nke full node na-enyocha maka iji ọzọ. Mana ikpughe nullifier gị ebe a ga-ejikọ akwụkwọ ntuli aka gị kpọmkwem na note gị.
 
 ![Private double-vote prevention: instead of revealing a nullifier, the wallet uses Private Information Retrieval to fetch proof material while hiding which nullifier it asked about, then proves the note was unspent](/content-images/shielded-voting-pir.webp)
 
-Ya mere, usoro a na-egosi ihe dị iche n'onwe ya. Ọ na-ewulite ndepụta nke ihe mkpofu ọ bụla ejirila dịka foto ahụ si dị, obere akpa gị na-egosikwa na ihe mkpofu nke akwụkwọ ndetu gị adịghị na ndepụta ahụ, na-egosi na e mefurughị akwụkwọ ndetu ahụ n'ekpugheghị akwụkwọ ndetu ọ bụ.
+Ya mere protocol ahụ na-egosi ihe dị iche na nzuzo. Ọ na-ewu ndepụta nullifier ọ bụla ejirila ruo snapshot, e-akpa ego gị na-egosikwa na zero-knowledge na nullifier note gị adịghị na ndepụta ahụ, na-egosi na emefubeghị note ahụ n’ekpugheghị note ọ bụ.
 
-Otu nsogbu ka dị. Ịweta akụkụ dị mkpa nke ndepụta ahụ site na sava ga-ekpughe ihe mkpofu gị nye sava ahụ, ndepụta zuru ezu dịkwa oke, ihe dị ka 2 GB maka data Orchard-era ma buru ibu karịa ka Zcash na-eto. [Iweghachite Ozi nkeonwe](../zcash-tech/private-information-retrieval) (PIR) na-edozi ha abụọ: obere akpa gị na-ewepụta kpọmkwem data ọ chọrọ ebe ọ na-ezochi data ọ rịọrọ n'ụzọ nzuzo. A na-enyocha nsonaazụ ya site na nchịkọta ebipụtara nke ndepụta ihe na-emebi ihe, yabụ sava na-anaghị eme ihe n'eziokwu enweghị ike ịmepụta nsonaazụ adịgboroja.
+Otu nsogbu ka fọdụrụ. Ịnweta akụkụ achọrọ nke ndepụta ahụ site na sava ga-ekpughe nullifier gị na sava ahụ, ndepụta niile dịkwa nnukwu, ihe dị ka 2 GB maka data oge Orchard ma buru ibu karịa ka Zcash na-eto. [Ịchọgharị Ozi Nkeonwe](../zcash-tech/private-information-retrieval) (PIR) na-edozi ha abụọ: e-akpa ego gị na-enweta kpọmkwem data ọ chọrọ ebe ọ na-ezo na cryptographic data ọ rịọrọ. A na-enyocha nsonaazụ ahụ megide nchịkọta e bipụtara nke ndepụta nullifier, ya mere sava akwụwaghị ọtọ enweghị ike ịmepụta nsonaazụ ụgha.
 
-## Ịtụ vootu ezoro ezo
+## Ịtụ akwụkwọ ntuli aka e tinyere na nzobe ederede
 
-Maka ajụjụ ọ bụla, obere akpa gị na-eme ihe atọ.
+Maka ajụjụ ọ bụla, e-akpa ego gị na-eme ihe atọ.
 
-1. Ọ na-ezochi oke votu gị nye kọmitii na-agụta ihe site na iji homomorphic encryption, ụdị encryption nke enwere ike ịgbakwunye ederede nzuzo ya ọnụ na-enweghị decryption. Nke a bụ ihe na-eme ka igbe ahụ nwee votu niile ọ na-enweghị ike ịgụ.
-2. Ọ na-ekewa votu gị ụzọ iri na isii dị iche iche, nke mere na ọbụna kọmitii na-eme nkwekọrịta zuru oke ga-esiri ike ịchịkọta ego ole otu onye ji vootu.
-3. Ọ na-eziga òkè ndị ahụ n'oge dị iche iche site na ọtụtụ sava, yabụ onye na-ekiri ihe na-emenụ enweghị ike ịmata na òkè ndị ahụ bụ nke otu onye ntuli aka ahụ mgbe ha rutere.
+1. Ọ na-etinye ibu votu gị na nzobe ederede maka kọmitii ọgụgụ, site na homomorphic encryption, ụdị nzobe ederede nke enwere ike ịgbakọta ciphertext ya ọnụ n’emepeghị ya. Nke a bụ ihe na-eme ka igbe ahụ nwee ike ịchịkọta votu ọ na-apụghị ịgụ.
+2. Ọ na-ekewa votu gị n’òkè 16 dị iche, nke mere na ọbụna kọmitii jikọtara ọnụ kpamkpam ga-esiri ya ike ikpokọta ego onye ọbụla ji tụọ aka.
+3. Ọ na-eziga òkè ndị ahụ n’oge a haziri n’enweghị usoro site na ọtụtụ sava, ka onye na-ekiri ghara ịmata na òkè ndị ahụ bụ nke otu onye tụrụ aka dabere n’oge ha rutere.
 
-Oke ọ bụla nwere ihe akaebe nke enweghị ihe ọmụma nke ya na ọ bụ mpempe akwụkwọ ntuli aka ziri ezi, yabụ na ọ dịghị onye nwere ike itinye votu na-enweghị nkwado. A na-agbakwụnye òkè ndị a kwadoro na ngụkọta agba ọsọ ezoro ezo maka azịza ị họọrọ.
+Òkè ọ bụla nwere proof zero-knowledge nke ya na-egosi na ọ bụ akụkụ ziri ezi nke akwụkwọ ntuli aka bara uru, ya mere ọ dịghị onye nwere ike itinye votu na-enweghị nkwado. A na-agbakọta òkè ndị a kwadoro n’ụzọ homomorphic na mkpokọta e tinyere na nzobe ederede na-aga n’ihu maka azịza ị họrọ.
 
-## Ịgụta ihe n'emegheghị ntuli aka ọ bụla
+## Ịgụ na-emegheghị akwụkwọ ntuli aka ọ bụla
 
-Ndị otu na-ahụ maka ntuli aka kesara na-agba ọnụọgụgụ ndị a: opekata mpe ndị na-akwado ntuli aka iri, ọ dịghị onye n'ime ha nwere ike ịchọpụta ihe ọ bụla. Ná mmalite nke agba, ha na-eme emume imepụta isi ihe nke na-emepụta igodo nzuzo nke kewara igodo nkọwapụta ya niile ma ghara ịchịkọta ya n'otu ebe.
+Otu ọchịchị ntuli aka kesara ekesa na-eme ọgụgụ ahụ: opekempe validator chain ntuli aka 10, nke ọ dịghị otu n’ime ha nwere ike iwepu nzobe ederede nke ihe ọ bụla. Na mmalite oge ntuli aka, ha na-eme mmemme imepụta igodo ọnụ nke na-emepụta igodo nzobe ederede nke a na-ekewa igodo iwepu nzobe ederede kwekọrọ na ya n’etiti ha niile, a naghị achịkọta ya n’otu ebe.
 
-> Ọ dịghị onye ọrụ ọ bụla ji mkpịsị ugodi ahụ. Igbe ahụ na-emepe naanị mgbe ụzọ abụọ n'ime atọ nke ha tụgharịrị mkpịsị ugodi ha ọnụ, ọbụnadị mgbe ahụ ọ na-ekpughe naanị mkpokọta.
+> Ọ dịghị otu onye ọrụ ji igodo ahụ. Igbe ahụ na-emeghe naanị mgbe ụzọ abụọ n’ime ụzọ atọ n’ime ha ji igodo ha arụkọ ọrụ, ọbụna mgbe ahụ ọ na-ekpughe naanị mkpokọta.
 
-Mgbe agba ahụ mechiri, ngụkọta ezoro ezo dịlarị site na mgbakwunye homomorphic dị n'elu. Onye nyocha ọ bụla na-ebipụta akụkụ nkebi nke nkọwapụta yana ihe akaebe o decryption nke ọma. Ozugbo opekata mpe ụzọ abụọ n'ụzọ atọ tinyere, akụkụ ha na-agwakọta na nchịkọta ederede ikpeazụ maka ajụjụ ọ bụla, a gaghịkwa ewepụ ihe ọ bụla ọzọ. Nọdụ zuru oke ọ bụla nwere ike ịlele ihe akaebe ziri ezi ejikọtara ọnụ, ka ọha na eze wee nwee ike ịlele ọnụọgụgụ ahụ na-enweghị ịtụkwasị ndị na-akwado ya obi.
+Mgbe oge ntuli aka mechiri, mkpokọta e tinyere na nzobe ederede adịla site na mgbakọta homomorphic dị n’elu. Validator ọ bụla na-ebipụta iwepu nzobe ederede akụkụ ya yana proof na o wepụrụ nzobe ederede nke ọma. Ozugbo opekempe ụzọ abụọ n’ime ụzọ atọ nyere aka, akụkụ ha na-ejikọta ka ha bụrụ ọnụ ọgụgụ doro anya ikpeazụ maka ajụjụ ọ bụla, ọ dịghịkwa ihe ọzọ a na-ewepụ nzobe ederede. Full node ọ bụla nwere ike inyocha proof ziri ezi jikọtara ọnụ, ya mere ọha nwere ike ikwenye na ọgụgụ ahụ ziri ezi na-enweghị ịtụkwasị validator obi.
 
-## Onye na-agba ya, na ihe ha na-enweghị ike ime
+## Onye na-agba ya, na ihe ha enweghị ike ime
 
-Nhazi ahụ kewara ọrụ abụọ ka ọ ghara inwe otu nwere ike gabiga ókè.
+Nhazi ahụ na-ekewa ọrụ abụọ ka otu ìgwè ghara inwe ike karịrị akarị.
 
 ![Separation of powers: a coordinator multisig sets which questions appear but cannot see votes, while a validator set counts but cannot read individual ballots or forge a tally](/content-images/shielded-voting-roles.webp)
 
-Onye nhazi multisig bụ otu mmadụ abụọ n'ime mmadụ ise nwere ndị nnọchi anya Project Tachyon, [Zcash Foundation](../zcash-organizations/zcash-foundation), ZODL, [Shielded Labs](../zcash-organizations/shielded-labs), na Valar Group. Ọ na-ekpebi ajụjụ ndị ga-eru n'usoro ahụ ma na-agba akaebe na igodo nzuzo nke agba ọ bụla, mana ọ nweghị ike ịhụ, gbanwee, ma ọ bụ gbochie ntuli aka nke ọ bụla. Onye ọ bụla na-anaghị amasị ajụjụ ndị a nwere ike ịgba ọsọ usoro ntuli aka nke ya, ebe ọ bụ na ngwanrọ ahụ mepere emepe ma enweghị ikike.
+Coordinator multisig bụ ìgwè 2-n’ime-5 nwere ndị nnọchite anya sitere na Project Tachyon, [Zcash Foundation](../zcash-organizations/zcash-foundation), ZODL, [Shielded Labs](../zcash-organizations/shielded-labs), na Valar Group. Ọ na-ekpebi ajụjụ ndị ga-eru chain ma na-agba akaebe maka igodo nzobe ederede nke oge ọ bụla, mana ọ nweghị ike ịhụ, gbanwee, ma ọ bụ gbochie votu onye ọ bụla. Onye ọ bụla na-enweghị mmasị n’ajụjụ ndị ahụ nwere ike ịgba chain ntuli aka nke ya, ebe software ahụ mepere emepe ma bụrụ permissionless.
 
-Ndị na-akwado ya bụ ma ọ dịkarịa ala nodes iri nke nwere igodo nkewa nkewa ma na-eme nkewa nkewa. Ha enweghị ike ịchọpụta vootu nke ọ bụla ma ọ bụ mepụta ọnụọgụgụ ụgha, n'ihi na nkọwapụta ọ bụla na-ebu ihe akaebe ziri ezi n'ihu ọha.
+Validator bụ node opekempe 10 na-ejide igodo iwepu nzobe ederede ekewara ekewa ma na-eme iwepu nzobe ederede n’ogo a kara aka. Ha enweghị ike iwepu nzobe ederede akwụkwọ ntuli aka onye ọ bụla ma ọ bụ mepụta ọnụ ọgụgụ ụgha, n’ihi na iwepu nzobe ederede ọ bụla nwere proof ziri ezi ọhaneze.
 
-## Ihe bụ maka quorum ahụ
+## Ihe quorum ji dị
 
-Ndị nhazi na-etinye oke isonye: a na-ewere nsonaazụ ntuli aka ahụ dị ka ihe nnọchianya nke ndị ji ego naanị ma ọ bụrụ na opekata mpe 1,000,000 ZEC sonyere na opekata mpe otu ajụjụ, gụnyere ndị jụrụ. Ọnụọgụgụ ndị ahụ na-ekpebi ajụjụ ọ bụla, a naghịkwa etinye ya n'ọrụ maka ajụjụ ọ bụla. Ọ bụ otu nyocha na ntuli aka ahụ dum, yabụ a na-ewere nsonaazụ ahụ dị ka ihe dị mkpa naanị mgbe nnukwu ZEC pụtara. N'okpuru ọkwa ahụ, a naghị ewere nsonaazụ ahụ dị ka ihe mgbaàmà bara uru.
+Ndị nhazi na-edobe oke òkè ndị sonyere: a na-ewere nsonaazụ ntuli aka dị ka nke na-anọchite ndị nwere ego naanị ma ọ bụrụ na opekempe ZEC 1,000,000 sonyere n’opekempe otu ajụjụ, tinyere ndị jụrụ itinye aka. Quorum anaghị ekpebi ajụjụ ọ bụla, anaghị etinyekwa ya n’ajụjụ ọ bụla iche. Ọ bụ otu nyocha maka ntuli aka niile, ya mere a na-ewere nsonaazụ dị mkpa naanị mgbe nnukwu ego ZEC pụtara. N’okpuru ọkwa ahụ, a naghị ewere nsonaazụ ahụ dị ka akara bara uru.
 
-## Ihe usoro a anaghị echebe megide
+## Ihe protocol a anaghị echebe megide
 
-Ịghọta ihe dị n'akụkụ ya doro anya bụ akụkụ nke nghọta nke imewe ahụ.
+Ido anya banyere ókè ya bụ akụkụ nke ịghọta nhazi ahụ.
 
-1. Ọ bụ ihe mgbaàmà, ọ bụghị mkpebi siri ike. Ntụle onye ji ego na-atụle mmetụta nke osisi ma na-emetụta ihe Zcash's na-eme [usoro ọchịchị](../zcash-community/zcash-governance) kama ịnọchi ya.
-2. Ọ na-adị ka mkpụrụ ego, yabụ mmetụta na-esochi njide. Nsogbu dị ala nwere ike ime ka ndị mmadụ bata mana ọ naghị agbanwe mkpokọta ZEC.
-3. Onye nhazi multisig na-ahazi agenda ahụ, nke na-ahọrọ ajụjụ ndị pụtara. Ọ nweghị ike imetụ votu aka, onye ọ bụla nwekwara ike ịgba ọsọ n'usoro asọmpi, mana ịtọ usoro agenda ka bụ isi ihe na-emetụta ya.
-4. Ịgụta ihe chọrọ ndị na-eme nchọpụta n'ịntanetị. Imepụta ọnụọgụgụ ahụ chọrọ ma ọ dịkarịa ala abụọ n'ime atọ nke ha iji kwado, yabụ nnukwu nkwụsị ma ọ bụ ịjụ nhazi nwere ike igbu oge nsonaazụ.
-5. Nhazi nzuzo n'okpuru nkwekọrịta zuru oke bụ nchekwa miri emi, ọ bụghị echiche. Ọ bụrụ na kọmitii ahụ dum arụgharịrị igodo ahụ na nzuzo, nkewa òkè na nnyefe oge bụ ihe na-echebe nguzozi gị, ndị na-emepụta ihe na-ekweta na ha adịghị ike n'okpuru nkwekọrịta. Nyocha okporo ụzọ dị nkọ bụ ihe egwu fọdụrụnụ.
-6. Akụkụ ndị na-agagharị agagharị karịa nhazi ochie. Sava PIR, sava ntinye, igodo ntuli aka ọhụrụ, na ihe akaebe dị iche iche bụ ebe njehie ma ọ bụ nhazi na-ezighi ezi nwere ike ịpụta. Sistemụ ahụ bụ isi mmalite mepere emepe ma enyochala akụkụ ndị ahụ n'onwe ha, nke na-achịkwa ihe egwu ahụ kama iwepụ ya.
+1. Ọ bụ akara echiche, ọ bụghị mkpebi nke na-adịgide. Ntuli aka ndị nwere ego na-atụ mmetụta uche a tụrụ site na ego ejidere ma na-enye aka n’usoro Gọọmentị Zcash nkịtị [](../zcash-community/zcash-governance) kama dochie ya.
+2. A tụrụ ya site na mkpụrụ ego, ya mere mmetụta na-eso ego ejidere. Mbelata mgbochi nwere ike ịbawanye ọnụ ọgụgụ ndị sonyere mana ọ naghị agbanwe mkpokọta ZEC.
+3. Coordinator multisig na-edobe atụmatụ, nke na-ahọrọ ajụjụ ndị pụtara. Ọ nweghị ike imetụ votu aka, onye ọ bụla nwekwara ike ịgba chain asọmpi, mana ịtọ atụmatụ ka bụ ebe mmetụta dị.
+4. Ọgụgụ chọrọ validator nọ n’ịntanetị. Ịmepụta ọnụ ọgụgụ chọrọ opekempe ụzọ abụọ n’ime ụzọ atọ n’ime ha ịrụkọ ọrụ, ya mere nnukwu nkwụsị ọrụ ma ọ bụ ịjụ imekọrịta ọnụ pụrụ igbu oge nsonaazụ.
+5. Nzuzo nguzo ego n’okpuru njikọ aka zuru ezu bụ nchedo agbakwunyere, ọ bụghị theorem. Ọ bụrụ na kọmitii niile weghachiri igodo ahụ na nzuzo, ikewa òkè na iziga n’oge dị iche bụ ihe na-echebe nguzo ego gị, ndị mmebe kwetakwara na ndị a adịghị ike nke ukwuu n’okpuru njikọ aka. Nyocha okporo ụzọ dị mgbagwoju anya bụ ihe ize ndụ fọdụrụ.
+6. Enwere akụkụ na-agagharị karịa nhazi ochie. Sava PIR, sava izipu, igodo ntuli aka ọhụrụ, na proof ọtụtụ ogbo bụ nke ọ bụla ebe njehie ma ọ bụ nhazi ezighi ezi nwere ike ịpụta. Usoro ahụ bụ open source, a nyochakwara akụkụ ụfọdụ n’onwe ha, nke na-achịkwa ihe ize ndụ ahụ kama iwepụ ya.
 
-Ihe ọ na-echebe, nke ọma ma bụrụkwa nke e ji n'aka, bụ ihe abụọ kacha mkpa: enweghị ike ijikọ ntuli aka gị na njirimara gị, naanị ngụkọta ikpeazụ ka a na-ekpughe.
+Ihe ọ na-echebe, n’ụzọ siri ike ma nwee ike ikwenye, bụ ihe abụọ kacha mkpa: enweghị ike ijikọ akwụkwọ ntuli aka gị na aha njirimara gị, naanị mkpokọta ikpeazụ ka a na-ekpughe.
 
-## Nkọwa Okwu
+## Nkọwa okwu
 
-| Oge okwu | Nkọwa Bekee dị mfe |
+| Okwu | Nkọwa dị mfe n’Bekee |
 |---|---|
-| Voting chain | Blockchain dị iche, nke Valar Group, nke na-eme ntuli aka; ndetu Zcash gị anaghị aga na ya ma ọlị |
-| Snapshot height | Blọk bụ isi nke nha ya na-edobe ibu ntuli aka (blọk 3,459,350 maka ntuli aka NU7) |
-| Nullifier | Ihe pụrụ iche e ji meefu ego na ndetu ego; ikpughe na ọ ga-ejikọta ntuli aka na ndetu ego, yabụ ịtụ vootu na-egosi na ọ bụghị onye otu |
-| Private Information Retrieval (PIR) | Ịna-eweta data site na sava mgbe ị na-ezo data ị rịọrọ |
-| Homomorphic encryption | Nzochi nzuzo nke enwere ike itinye ederede nzuzo ya ọnụ na-enweghị nkọwapụta ya |
-| Coordinator multisig | Otu abụọ n'ime mmadụ ise nke na-enye ikike ịjụ ajụjụ na igodo gburugburu, mana enweghị ike ịhụ ma ọ bụ gbanwee votu |
-| Election authority | Ndị na-akwado ihe ruru iri ma ọ bụ karịa nke jikọtara igodo decryption nkewa ma na-ekpughe naanị ngụkọta ikpeazụ |
-| Threshold decryption | Nweta nsonaazụ naanị mgbe ndị ji igodo òkè zuru oke, ebe a ụzọ abụọ n'ụzọ atọ, jikọrọ aka |
-| Quorum | A ga-ewere ya dị ka onye nnọchi anya opekata mpe 1,000,000 ZEC maka ntuli aka ahụ |
+| Voting chain | Blockchain dị iche, nke Valar Group wuru, na-agba ntuli aka; note Zcash gị anaghị agagharị n’ime ya |
+| Snapshot height | Block mainnet nke nguzo ego ya na-edobe ibu ntuli aka (block 3,459,350 maka ntuli aka NU7) |
+| Nullifier | Akara pụrụ iche note na-egosi na e mefuru ya; ikpughe ya ga-ejikọ akwụkwọ ntuli aka na note, ya mere ntuli aka na-egosi na ọ nọghị na ndepụta kama |
+| Private Information Retrieval (PIR) | Ịnweta data n’aka sava ebe ị na-ezo data ị rịọrọ |
+| Homomorphic encryption | Nzobe ederede nke enwere ike ịgbakọta ciphertext ya ọnụ n’emepeghị ya |
+| Coordinator multisig | Ìgwè 2-n’ime-5 na-enye ikike maka ajụjụ na igodo oge ntuli aka, mana enweghị ike ịhụ ma ọ bụ gbanwee votu |
+| Election authority | Validator 10 ma ọ bụ karịa na-ejide ọnụ igodo iwepu nzobe ederede ekewara ekewa ma kpughee naanị ọnụ ọgụgụ ikpeazụ |
+| Threshold decryption | Ịnweta nsonaazụ naanị mgbe ndị na-ejide òkè igodo zuru ezu, ebe a ụzọ abụọ n’ime ụzọ atọ, rụkọrọ ọrụ |
+| Quorum | Opekempe òkè ZEC 1,000,000 maka ka ewere ntuli aka ahụ dị ka nke na-anọchite anya mmadụ |
 
-## Ajụjụ Ndị A Na-ajụkarị
+## Ajụjụ a na-ajụkarị
 
-Mkpụrụ ego m ọ̀ na-agagharị ma ọ bụ na-akpọchi mgbe m na-eme ntuli aka? Mba. A na-atụ ihe ruru eru na snapshot block, ya mere ZEC gị ga-anọgide na-adị njikere ma dị mfe imefu. Ntuli aka na-emepụta ihe akaebe na agbụ dị iche, ọ bụghị azụmahịa Zcash.
+Mkpụrụ ego m ọ na-agagharị ma ọ bụ kpọchie mgbe m tụrụ aka? Mba. A na-atụ ikike na block snapshot, ya mere ZEC gị na-anọ ebe ọ dị ma nwee ike imefu. Ntuli aka na-emepụta proof na chain dị iche, ọ bụghị azụmahia Zcash.
 
-Ò nwere onye nwere ike ịkọ etu m si tụọ vootu ma ọ bụ ego ole m nwere? Mba. A na-ezochi ntuli aka, naanị ngụkọta nke ndị mmadụ ka a na-akọwapụta. A naghị ejikọta votu gị na njirimara gị, a na-ekewakwa nguzozi gị n'ime òkè iri na isii e kenyere oge iji chebe ya ọbụna megide kọmitii na-eme nkwekọrịta.
+Onye ọ bụla ọ nwere ike ịma otu m tụrụ aka ma ọ bụ ego ole m ji? Mba. A na-etinye akwụkwọ ntuli aka na nzobe ederede, naanị mkpokọta ọnụ ka a na-ewepụ nzobe ederede. Votu gị bụ Ihe na-apughi ijikọ ọnụ na aha njirimara gị, a na-ekewakwa nguzo ego gị n’òkè 16 ezitere n’oge dị iche iji chebe ya ọbụna megide kọmitii jikọtara ọnụ.
 
-Gịnị na-egbochi mmadụ ịtụ vootu ugboro abụọ, ma ọ bụ ịtụ vootu na mkpụrụ ego ha na-enweghị? Ntuli aka ọ bụla nwere ihe akaebe na-enweghị ihe ọmụma na-egosi na e ji ezigbo foto ego emefughị emefu kwado ya, ihe akaebe na-abụghị nke ndị otu dabere na PIR na-egosikwa na e mefubeghị ego dị n'okpuru ya, na-ekpugheghị ihe ọ bụ.
+Gịnị na-egbochi onye ịtụ aka ugboro abụọ, ma ọ bụ iji mkpụrụ ego ọ na-enweghị tụọ aka? Akwụkwọ ntuli aka ọ bụla nwere proof zero-knowledge na-egosi na ezigbo nguzo ego snapshot a na-emefubeghị kwadoro ya, proof enweghị ịnọ na ndepụta dabere na PIR na-egosikwa na emefubeghị note dị n’azụ ya, n’ekpugheghị note ọ bụ.
 
-Ònye na-agụ votu ahụ? Otu nke kesara nke nwere opekata mpe ihe nyocha iri, onye ọ bụla n'ime ha enweghị ike ịchọpụta ihe ọ bụla nanị ya. Mmadụ abụọ n'ime atọ ga-arụkọ ọrụ iji kpughee mkpokọta ahụ, nkọwapụta ọ bụla na-abịa na ihe akaebe ziri ezi ọha.
+Ònye na-agụ votu? Otu validator kesara ekesa nke opekempe 10, nke ọ dịghị onye n’ime ha nwere ike iwepu nzobe ederede nke ihe ọ bụla naanị ya. Ụzọ abụọ n’ime ụzọ atọ ga-arụkọ ọrụ iji kpughee mkpokọta, iwepu nzobe ederede ọ bụla nwekwara proof ziri ezi ọhaneze.
 
-À ga-asị na ihe si na ya pụta bụ ihe a ga-eji dochie anya ya? Ọ bụ ihe ngosi mmetụta uche nke onye ji ego na-atụnye ụtụ. Ọ na-agwa ọchịchị nkịtị Zcash's kama ime mgbanwe ozugbo.
+Nsonaazụ ọ bụ nke na-adịgide? Ọ bụ akara mmetụta uche ndị nwere ego a tụrụ site na ego ejidere. Ọ na-agwa Gọọmentị nkịtị Zcash kama itinye mgbanwe n’ọrụ ozugbo.
 
-Enwere m ike ịgba ọsọ ma ọ bụ nyochaa nke a n'onwe m? Ee. Valar Group bipụtara ngwanrọ a na-akpọ votu, sekit, sistemụ PIR, na onye na-enyocha ọnụọgụgụ ka onye ọ bụla lelee ma gbaa ọsọ.
+Enwere m ike ịgba ma ọ bụ nyochaa nke a n’onwe m? Ee. Software chain ntuli aka, circuit, usoro PIR, na onye na-enyocha ọnụ ọgụgụ bụcha nke Valar Group bipụtara ka onye ọ bụla nyochaa ma gbaa.
 
 ## Nwalee nghọta gị
 
-Ọ bụrụ na e zoro akwụkwọ ntuli aka ọ bụla ezoro ezo, onye ọ bụla na-eme ntuli aka enweghịkwa aha ya, kedu ka onye ọ bụla ga-esi jide n'aka na ngụkọta e bipụtara ziri ezi nakwa na ọ dịghị onye tụrụ vootu ugboro abụọ?
+Ọ bụrụ na a na-etinye akwụkwọ ntuli aka ọ bụla na nzobe ederede ma onye ọ bụla tụrụ aka amaghị aha ya, olee otu onye ọ bụla ga-esi jide n’aka na mkpokọta e bipụtara ziri ezi nakwa na ọ dịghị onye tụrụ aka ugboro abụọ?
 
 <details>
-<summary>Answer</summary>
+<summary>Azịza</summary>
 
-Ihe akaebe atọ na-arụ ọrụ ahụ. Ntuli aka ọ bụla nwere ihe akaebe na-enweghị ihe ọmụma na-egosi na e ji ezigbo nguzozi foto kwado ya, yabụ na a naghị agụta votu ndị a na-akwadoghị. Ihe akaebe na-abụghị nke ndị otu dabere na PIR na-egosi na e mefurughị ihe ndetu dị n'azụ ya, na-egbochi ntuli aka ugboro abụọ na-ekpugheghị ndetu ahụ. Mgbe ndị na-akwado nyocha na-ewepụ mkpokọta ahụ, nke ọ bụla na-ebipụta ihe akaebe ziri ezi, yabụ node zuru oke ọ bụla nwere ike ikwenye na e dekọrọ ọnụọgụgụ ikpeazụ n'eziokwu site na votu ezoro ezo.
+Proof atọ na-arụ ọrụ ahụ. Akwụkwọ ntuli aka ọ bụla nwere proof zero-knowledge na-egosi na ezigbo nguzo ego snapshot kwadoro ya, ya mere a naghị agụta votu na-enweghị nkwado. Proof enweghị ịnọ na ndepụta dabere na PIR na-egosi na emefubeghị note dị n’azụ ya, na-egbochi ịtụ aka ugboro abụọ n’ekpugheghị note ahụ. Mgbe validator wepụrụ nzobe ederede mkpokọta ahụ, onye ọ bụla na-ebipụta proof ziri ezi, ya mere full node ọ bụla nwere ike ikwenye na ewepụrụ nzobe ederede nọmba ikpeazụ n’eziokwu site n’akwụkwọ ntuli aka e tinyere na nzobe ederede.
 </details>
 
-## akụrụngwa
+## Akụrụngwa
 
-- [Nkwupụta votu NU7 nke onye ji ego Coin (Valar Group na Project Tachyon)](https://forum.zcashcommunity.com/t/nu7-coinholder-vote/56912) - mkparịta ụka ahụ na-enyocha ntuli aka ahụ, ogologo foto, na usoro iheomume
-- [Usoro ntuli aka nke onye ji ego: imewe teknụzụ](https://forum.zcashcommunity.com/t/the-coinholder-voting-chain/56925) - ide ihe gbasara usoro a dabere na ibe a
-- [Akwụkwọ ntuli aka nke Valar Group kpuchiri](https://valargroup.gitbook.io/shielded-vote-docs) - ntụaka edobere maka usoro ntuli aka
-- [Koodu ntuli aka na nyocha Valar Group (GitHub)](https://github.com/valargroup/vote-sdk) - mmejuputa ihe mepere emepe na nyocha ya
+- [NU7 Ọkwa Ntuli Aka Ndị Nwere Ego (Valar Group na Project Tachyon)](https://forum.zcashcommunity.com/t/nu7-coinholder-vote/56912) - ọkwa forum na-akọwa oke ntuli aka, elu snapshot, na nhazi oge
+- [Chain Ntuli Aka Ndị Nwere Ego: nhazi teknụzụ](https://forum.zcashcommunity.com/t/the-coinholder-voting-chain/56925) - nkọwa protocol ibe a dabere na ya
+- [Valar Group akwụkwọ ntuziaka ntuli aka e chebere echebe](https://valargroup.gitbook.io/shielded-vote-docs) - ebe nrụtụaka a na-elekọta maka chain ntuli aka
+- [Valar Group koodu ntuli aka na nyocha (GitHub)](https://github.com/valargroup/vote-sdk) - mmejuputa open-source na nyocha ya
 
-## Ibe ndị metụtara ya
+## Ibe ndị metụtara
 
-- [Iweghachite Ozi nkeonwe](../zcash-tech/private-information-retrieval) - usoro nkwenye na-abụghị nke otu n'azụ mgbochi ntuli aka nkeonwe okpukpu abụọ
-- [Ironwood](../zcash-tech/ironwood) - ọdọ mmiri a na-echebe nke nguzozi ya na-edobe ibu votu
-- [zk-SNARKs](../zcash-tech/zk-snarks) - usoro ihe akaebe dị n'azụ ihe akaebe nguzozi na ntozu oke
-- [Ọdọ Mmiri E Kpuchiri Ekpuchi](../using-zcash/shielded-pools) - kedu ihe nguzozi echekwara bụ na ihe kpatara o ji nọrọ na-ezo ezo
-- [Nchịkọta Ego na Ọchịchị Zcash](../zcash-community/zcash-governance) - otu mgbaàmà mmetụta a si metụta usoro mkpebi sara mbara Zcash's
-- [Shielded Labs](../zcash-organizations/shielded-labs) - otu n'ime mmadụ ise so na ndị nhazi multisig
+- [Ịchọgharị Ozi Nkeonwe](../zcash-tech/private-information-retrieval) - usoro proof enweghị ịnọ na ndepụta n’azụ mgbochi ịtụ aka ugboro abụọ na nzuzo
+- [Ironwood](../zcash-tech/ironwood) - pool e chebere echebe nke nguzo ego ya na-edobe ibu votu
+- [zk-SNARKs](../zcash-tech/zk-snarks) - usoro proof n’azụ proof nguzo ego na ikike itinye aka
+- [Pool Ndị E Chebere Echebe](../using-zcash/shielded-pools) - ihe nguzo ego e chebere echebe bụ na ihe mere o ji anọgide na nzuzo
+- [Zcash Nkọwa Banyere Ego na Gọọmentị](../zcash-community/zcash-governance) - otu akara mmetụta uche a si enye aka na usoro mkpebi sara mbara nke Zcash
+- [Shielded Labs](../zcash-organizations/shielded-labs) - otu n’ime ndị otu ise nke coordinator multisig

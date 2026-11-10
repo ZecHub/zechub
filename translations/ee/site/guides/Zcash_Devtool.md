@@ -1,11 +1,11 @@
-# Zcash Devtool ƒe dɔwɔnua
+# Zcash Devtool
 
-[Nukae nye zcash-devtool?](https://github.com/zcash/zcash-devtool?tab=readme-ov-file) 
+[Nu ka nye zcash-devtool?](https://github.com/zcash/zcash-devtool?tab=readme-ov-file) 
 
-Zcash Devtool nye mɔnu si dzi woato adze Zcash. Wotue to developers, na developers, na dodokpɔ & ŋgɔyiyi le Zcash dɔwɔwɔ yeyewo; eye mele be woabui be woate ŋu awɔe o. Sedede ƒe API si dɔwɔnu sia ɖe ɖe go ateŋu & atrɔ ɣesiaɣi eye nuxlɔ̃ame manɔmee. MÈGADE ga gã aɖe asi na zcash-devtool embedded wallet la dzikpɔkpɔ o.
+Zcash Devtool nye platform si wozãna be woawɔ dɔ le Zcash ŋu. Mɔ̃ ƒe ɖoɖoŋlɔlawoe wɔe na mɔ̃ ƒe ɖoɖoŋlɔlawo, be woaɖe kpɔ eye woatsɔ aɖa Zcash ƒe dɔwɔwɔ yeye; eye womele be woatsɔe awɔ dɔ le production me o. Command line API si dɔwɔnu sia doa fia la ate ŋu atrɔ eye wòatrɔ ɣe sia ɣe manɔ woɖeŋugbeɖeŋu o. MEGATSƆ ga gã aɖo zcash-devtool gakotoku si le eme la ƒe dzikpɔkpɔ me o.
 
-### Video nufiame si nye Zcash Devtool:
-Kris Nuttycombe (@nuttycom) tsɔ dɔwɔnu sia ɖe go le ZconVI ƒe ɣeyiɣia me.
+### Video fiala tso Zcash Devtool ŋu:
+Kris Nuttycombe (@nuttycom) fia dɔwɔnu sia le ZconVI me.
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -21,15 +21,15 @@ Kris Nuttycombe (@nuttycom) tsɔ dɔwɔnu sia ɖe go le ZconVI ƒe ɣeyiɣia me.
 
 ---
 
-Ne èdi afɔɖeɖe ɖesiaɖe ƒe mɔfiame si ku ɖe alesi nàdze dɔwɔnu siawo zazã gɔme ŋu la, kpɔ [azɔlizɔzɔ sia](https://github.com/zcash/zcash-devtool/blob/main/doc/walkthrough.md). Eŋlɔa azɔlizɔzɔ blibo aɖe ɖi le alesi woaɖo zcash devtool dɔwɔnuwo ahazãe ŋu. Woɖoe be wòanye mɔfianu na alesi nàwɔ aɖoe kple alesi nàtsɔ wò ŋutɔ wò dɔwɔwɔ akpe ɖe dɔwɔnua ŋu.
+Ne woaɖo ɖoɖoɖoɖo me fiafia tso ale si nàdze egɔme atsɔ dɔwɔnu siawo azã la ta, kpɔ [fiafia sia](https://github.com/zcash/zcash-devtool/blob/main/doc/walkthrough.md). Eɖe mɔ blibo fia ale si woaɖo zcash devtool tooling eye woazãe. Wode eŋu be wòanye fiafia na ale si nàɖo wò ɖokui eye nàtsɔ wò ŋutɔ ƒe dɔwɔwɔ akpe ɖe dɔwɔnu la ŋu.
 
-## Dze egɔme kaba
+## Gɔmedzedze kabakaba
 
-Wolé ŋku ɖe sedede siwo le ete ŋu le zcash-devtool me `main` (tsɔ na `5a26ee8`, Afɔfiɛ 2026). Dɔwɔnua trɔna ɣeyiɣi aɖeke maxɔmaxɔe, eyata ƒu du `--help` le sedede ɖesiaɖe dzi ne nane megasɔ le afisia o.
+Woɖe kpɔ sededewo siwo le ete la kple zcash-devtool `main` (commit `5a26ee8`, August 2026). Dɔwɔnu la trɔna manɔ woɖeŋugbeɖeŋu o, eyata wɔ `--help` le sedede aɖeke ŋu ne nu si le afisia megale ɖe sia ɖe kplee o.
 
-### Ɖoe anyi
+### Ɖo
 
-Binaries siwo wotu do ŋgɔ aɖeke meli o. Ɖoe anyi [Rust](https://rustup.rs), emegbe nàtu tso dzɔtsoƒe:
+Binary si woɖo ɖe ŋgɔgɔme mele o. Ɖo [Rust](https://rustup.rs), eye nàtu tso source me:
 
 ```bash
 git clone https://github.com/zcash/zcash-devtool.git
@@ -37,11 +37,11 @@ cd zcash-devtool
 cargo run --release -- --help
 ```
 
-Kpɔɖeŋu siwo le ete yɔ binary si wotu, `target/release/zcash-devtool`. `cargo run --release -- ...` wɔa dɔ le mɔ ma ke nu.
+Ŋutinya siwo le ete la yɔ binary si woɖo, `target/release/zcash-devtool`. `cargo run --release -- ...` hã wɔ dɔ ale kee.
 
-### Wɔ testnet gakotoku aɖe
+### Wɔ testnet gakotoku
 
-Dze egɔme tso testnet dzi. Asixɔxɔ aɖeke mele Testnet gaku (TAZ) ŋu o.
+Dzɔ le testnet dzi. Testnet coins (TAZ) me xɔasi aɖeke mele o.
 
 ```bash
 zcash-devtool wallet -w ./my-wallet init --name demo -i ./my-wallet-identity.txt -n test
@@ -49,13 +49,13 @@ zcash-devtool wallet -w ./my-wallet sync
 zcash-devtool wallet -w ./my-wallet balance
 ```
 
-- `-w` nye gakotokua ƒe nyatakakadzraɖoƒe. Eyina ɖe eyome `wallet` kple do ŋgɔ na sedede suea.
-- `-i` is an [ƒe](https://age-encryption.org) amenyenye ƒe faɛl. Wotsɔa gakotokua ƒe ŋkuɖodzinyagbɔgblɔa dea nyagbewo me, eye wowɔa faɛl la ne meli o. Dzrae ɖo: `send`, `shield` kple gazazã ƒe sedede bubuwo hiãe be woatsɔ aɖe nukua gɔme.
-- `-n` nye network la: `test` or `main`.
-- `-s` tiaa kekeli gakotoku ƒe dɔwɔƒea. Nusi woɖo ɖi, `zecrocks`, doa ka kple zec.rocks dɔdzikpɔla na network si nètia.
-- Be nàgbugbɔ gakotoku si li xoxo aɖo anyi la, zãe `restore-mnemonic` ɖe eteƒe `init`. Eʋãa ame be woagblɔ nyagbɔgblɔa.
+- `-w` nye gakotoku ƒe directory. Etsi le `wallet` megbe eye le subcommand la ŋgɔ.
+- `-i` nye [age](https://age-encryption.org) ƒe identity file. Woɣaɣla gakotoku la ƒe mnemonic phrase na e, eye woawɔ file la ne menɔ o. Ɖe asi ɖe eŋu: `send`, `shield` kple spending ƒe sedede bubuwo hia e be woaɖe seed la ƒe ɣaɣlaŋlɔŋlɔ.
+- `-n` nye network la: `test` alo `main`.
+- `-s` tia light wallet server la. Default la, `zecrocks`, ƒoa ɖe zec.rocks server la ŋu na network si wotia.
+- Be nàtrɔ gakotoku si le asiwò xoxo la, zã `restore-mnemonic` ɖe `init` teƒe. Ebi phrase la tso asiwò.
 
-`balance` ŋlɔ ta ɖesiaɖe ɖe vovo, eye Ironwood:
+`balance` ɖe gaƒuƒoƒo sia sia fia le eɖokui me, kple Ironwood:
 
 ```
     Balance:   0.00000000 TAZ
@@ -65,13 +65,13 @@ zcash-devtool wallet -w ./my-wallet balance
   Unshielded Spendable:   0.00000000 TAZ
 ```
 
-Ƒu du `zcash-devtool wallet -w ./my-wallet list-addresses` be nàkpɔ gakotokua ƒe adrɛs si wowɔ ɖekae, eye nàɖo testnet ga ɖee tso a [faucet si wotsɔna ƒoa ʋu](https://zechub.wiki/using-zcash/faucets).
+Wɔ `zcash-devtool wallet -w ./my-wallet list-addresses` be nàkpɔ gakotoku la ƒe unified address, eye nàtsɔ testnet funds nadzoe tso [ga suewo nanaƒe](https://zechub.wiki/using-zcash/faucets) aɖe gbɔ.
 
-Le mainnet gome la, to eme `-n main` to `init`. Ga home siwo nàte ŋu abu koe nàzã.
+Na mainnet, tsɔ `-n main` na `init`. Zã ga si nàte ŋu abu ne wòbu ko.
 
-### Midɔ ɖa eye miakpɔ akpoxɔnu ɖa
+### Do ga eye nàɣaɣlae
 
-Agbɔsɔsɔmeawo le zatoshi me (ZEC 1 = zatoshi 100,000,000).
+Gaƒeƒewo le zatoshis me (1 ZEC = 100,000,000 zatoshis).
 
 ```bash
 zcash-devtool wallet -w ./my-wallet send -i ./my-wallet-identity.txt \
@@ -79,13 +79,13 @@ zcash-devtool wallet -w ./my-wallet send -i ./my-wallet-identity.txt \
 zcash-devtool wallet -w ./my-wallet shield -i ./my-wallet-identity.txt
 ```
 
-`propose` fia asitsatsa la a `send` atu, evɔ maɖoe ɖa o. `list-tx` kple `list-unspent` fia gakotokua ƒe ŋutinya kple nuŋlɔɖiwo.
+`propose` fia gaɖoɖo si `send` aɖo, ke wòmeɖoa eɖa o. `list-tx` kple `list-unspent` fia gakotoku la ƒe ŋutinya kple didienuwo.
 
-Sedede ɖesiaɖe si ƒo nu kple server hã xɔa edzi `--connection tor`, si kplɔa kadodoa to Tor asitsala si wotu ɖe eme la dzi.
+Sedede aɖeke si ƒoa nu kple server hã xɔ `--connection tor`, si tsɔa kadodo la to Tor client si le eme la me.
 
-### Lé ŋku ɖe adrɛswo, safuiwo kple asitsatsa ŋu
+### Kpɔ gaɖoƒe ƒe dzesiwo, keys kple gaɖoɖowo me nyuie
 
-`inspect` decodes Zcash data offline: adrɛswo, safuiwo, kple asitsatsa xoxowo. Kpee ɖe eŋu `--lookup` be woaxɔ nyatakaka geɖe tso kɔsɔkɔsɔa me, abe asitsatsa to eƒe ID dzi ene.
+`inspect` gɔmeɖea Zcash ƒe data le offline: gaɖoƒe ƒe dzesiwo, keys, kple raw transactions. Tsɔ `--lookup` kpee be nàxɔ nyatakaka geɖe tso ɖoɖonu la me, abe gaɖoɖo aɖe le eƒe ID nu ene.
 
 ```
 $ zcash-devtool inspect utest1h55y5z...
@@ -98,11 +98,11 @@ Zcash address
    - Transparent P2PKH (...)
 ```
 
-Woɖoa Ironwood ƒe nuŋlɔɖiwo ɖe Orchard nuxɔla ɖeka ma ke le adrɛs ɖeka dzi, eyata adrɛswo metrɔ kple NU6.3.
+Ironwood didienuwo wodɔa wo ɖe Orchard receiver ma ke gbɔ le unified address me, eyata gaɖoƒe ƒe dzesiwo metrɔ kple NU6.3 o.
 
-### Tu asitsatsa le afɔɖeɖewo me kple PCZTwo
+### Tu gaɖoɖowo le afɔɖeɖewo me kple PCZTs
 
-PCZT (Zcash asitsatsa si wowɔ ƒe akpa aɖe) ma asitsatsa tutu ɖe afɔɖeɖe vovovowo me: wɔ, ɖo kpe edzi, de asi ete, eye nàɖoe ɖa. Afɔɖeɖe ɖesiaɖe ateŋu awɔ dɔ le mɔ̃ vovovo dzi, le kpɔɖeŋu me kple hardware signer abe Keystone. Ɖe sia ɖe `pczt` sedede xlẽa PCZT tso faɛl alo stdin me eye wòŋlɔnɛ ɖe faɛl me (`--output`) alo stdout, ale be woate ŋu atsɔ pɔmpi awɔ afɔɖeɖeawo:
+PCZT (Zcash gaɖoɖo si wo wɔ ƒe akpa) maa gaɖoɖo tutu la yi afɔɖeɖe vovovo me: wɔe, ɖe kpeɖeŋu fia, de asi ɖe eŋu, eye nàdɔe. Afɔɖeɖe sia sia ate ŋu adzɔ le mɔ̃ aɖe ŋu, abe hardware signer si lɔ̃ Keystone ene. `pczt` ƒe sedede sia sia xlẽa PCZT tso file aɖe alo stdin me eye wòŋlɔa e ɖe file aɖe (`--output`) alo stdout me, eyata woate ŋu aɖo afɔɖeɖewo ɖe pipe me:
 
 ```bash
 zcash-devtool pczt -w ./my-wallet create --address <recipient address> --value 100000 \
@@ -111,11 +111,11 @@ zcash-devtool pczt -w ./my-wallet create --address <recipient address> --value 1
   | zcash-devtool pczt -w ./my-wallet send
 ```
 
-`zcash-devtool pczt --help` yɔ afɔɖeɖe bubuawo, siwo dometɔ aɖewoe nye `inspect`, `redact`, `combine`, `extract` kple `shield`.
+`zcash-devtool pczt --help` ƒoa afɔɖeɖe bubuwo hã, kple `inspect`, `redact`, `combine`, `extract` kple `shield`.
 
 ### Tsɔ ga tso Orchard yi Ironwood
 
-Tso NU6.3, Orchard ga ate ŋu aʋu ayi gakotokua ŋutɔ ƒe adrɛswo dzi ko. The `migration` sededewo ʋu wo yi Ironwood:
+Tso NU6.3 dzi, Orchard ƒe gawo ate ŋu ayi gakotoku la ŋutɔ ƒe gaɖoƒe ƒe dzesiwo ko gbɔ. `migration` ƒe sededewo tsɔa wo yi Ironwood me:
 
 ```bash
 zcash-devtool migration -w ./my-wallet plan
@@ -124,21 +124,19 @@ zcash-devtool migration -w ./my-wallet status
 zcash-devtool migration -w ./my-wallet advance
 ```
 
-- `plan` kpɔa nuŋlɔɖiawo ƒe mamawo kple asitɔtrɔ ƒe ɖoɖowɔɖia do ŋgɔ, eye metrɔa naneke o.
-- `commit` tua dzadzraɖo ƒe asitsatsa gbãtɔwo eye wòdea asi wo te do ŋgɔ. Kpee ɖe eŋu `--external` be woagblẽ wo ɖi womade asi ete na gotagome amesi de asi ete abe Keystone.
-- `status` fia ʋuʋua ƒe ŋgɔyiyi kple afɔɖeɖe si kplɔe ɖo.
-- `advance` ɖo kpe asitsatsa si kplɔe ɖo si ƒe seke le klalo dzi.
+- `plan` fia didienu ƒe mamawo kple transfer ƒe ɣeyiɣiɖoɖo ɖe ŋgɔ, eye metrɔa naneke o.
+- `commit` tua eye wòde asi ɖe preparation gaɖoɖo gbãtɔwo ŋu ɖe ŋgɔ. Tsɔ `--external` kpee be nàɖe wo ƒe asiɖeɖe le aƒe me na signer bubu aɖe abe Keystone ene.
+- `status` fia migration la ƒe ŋgɔyiyi kple afɔɖeɖe si kplɔe ɖo.
+- `advance` dea kpeɖeŋu fia na gaɖoɖo si kplɔe ɖo, si ƒe anchor le dzadzɛ.
 
-Wogale ʋuʋu ƒe sededeawo tum kokoko. `advance` tɔ ɖe asitsatsa gbãtɔ si le klalo be woaɖe gbeƒãe, elabena womewɔ gbeƒãɖeɖedɔa ŋudɔ le dɔwɔnua me haɖe o. Le gbesiagbe zazã gome la, tsɔ gakotoku si doa alɔ Ironwood. Kpɔ [Ta Siwo Wotsɔ Akpoxɔnu Wɔe](https://zechub.wiki/using-zcash/shielded-pools).
-
-
-**Dedienɔnɔ Ŋuti Nuxlɔ̃amewo:**
-MÈGAZÃ SIA LE NUWƆWƆ ME O!!!
-Womeŋlɔ dɔwɔnua kple dedienɔnɔ le susu me o. Gake ŋutetewo le esi abe ŋkuɖodzinu nuku ƒe nyagbewo ƒe nya ɣaɣlawo ɣla ene si wòle be wòana wòate ŋu awɔ dodokpɔ suewo, le wò ŋutɔ wò afɔku me.
-
-### Deŋgɔ (librustzcash ƒe nufiame )
+Migration ƒe sededewo li ɖe tutum dzi ha. `advance` tɔ le gaɖoɖo gbãtɔ si dzadzɛ be woaɖe afia me la ŋu, elabena womewɔ broadcasting ɖe dɔwɔnu la me ha o. Na zãzã le ŋkeke sia ŋkeke me, tsɔ gakotoku si tše Ironwood na be nàtsɔ ga. Kpɔ [Ɣaɣla Gaƒuƒoƒowo](https://zechub.wiki/using-zcash/shielded-pools).
 
 
-[kpɔ video le afisia](https://free2z.cash/uploadz/public/ZcashTutorial/librustzcash-a-rust-crates.mp4)
+**Dedienɔnɔ ƒe Kunyawo:**
+MEGATSƆ ESIA AWƆ DƆ LE PRODUCTION ME O!!!
+Womeŋlɔ app la be woaɖe dzidzɔ na dedienɔnɔ o. Ke hã, exɔ mɔnuwo abe mnemonic seed phrases ƒe ɣaɣlaŋlɔŋlɔ ene, siwo ate ŋu ana wòanyo na dodokpɔ sue aɖe, le wò ŋutɔ ƒe afɔku dzi.
+
+### Advanced (librustzcash tutorial )
 
 
+[kpɔ video la afisia](https://free2z.cash/uploadz/public/ZcashTutorial/librustzcash-a-rust-crates.mp4)

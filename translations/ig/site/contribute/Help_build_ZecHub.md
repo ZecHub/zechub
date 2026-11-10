@@ -2,34 +2,34 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Nyere aka wulite ZecHub 
+# Nyere Aka Wulite ZecHub 
 
-Ọ bụrụ na ị bụ onye otu Zcash, ma chọọ itinye aka na iwulite ZecHub, e nwere ihe ole na ole bara uru nke ukwuu.
+Ọ bụrụ na ị bụ onye òtù obodo Zcash, ma chọọ itinye aka n'ịwulite ZecHub, e nwere ihe ole na ole bara ezigbo uru.
 
-Hazie njikọ maka akwụkwọ ozi ahụ wee tinye ha na ibe GitHub nke akwụkwọ ozi ahụ: -> [Pịa ebe a maka ntuziaka](https://github.com/ZecHub/zechub/blob/main/site/contribute/ZecWeekly_Newsletter.md)
+Họrọ njikọ maka Akwụkwọ Akụkọ [newsletter] ma tinye ha na ibe GitHub nke Akwụkwọ Akụkọ ahụ: -> [Pịa ebe a maka ntụziaka](https://github.com/ZecHub/zechub/blob/main/site/contribute/ZecWeekly_Newsletter.md)
 
-Lelee eziokwu wiki docs, tụọ aro ndozi, ma tụọ aro peeji ọhụrụ na GitHub
+Nyochaa eziokwu dị na akwụkwọ wiki, tụọ aro maka ndezi, ma tụọ aro maka ibe ọhụrụ na GitHub
 
-Mepụta ọdịnaya vidiyo n'ime edemede ndị a:
+Mepụta ọdịnaya vidio n'ụdị ndị a:
 ```
 * Zcash explainer videos
 * Zcash wallet guide/tutorials
 * Third-party application demos
 ```
 
-Mepụta atụmatụ dịka akwụkwọ mmado/eserese/ihe ngosi maka usoro Zcash & Nzuzo. 
+Mepụta nhazi dịka pósta/ese ihe/ngagharị maka Zcash & gburugburu ebe obibi Nzuzo [Privacy] 
 
-Tụgharịa peeji wiki ọ bụla dị adị.
+Tụgharịa ibe wiki ọ bụla dị ugbu a.
 
-Ịkọpụta nsogbu
+Ịkọ nsogbu
 
 ### Ụgwọ ọrụ
 
-A naghị edozi ego na ZEC. Jiri ya [amụma ego onyinye](https://bounties.zechub.wiki/docs/bounty-amounts): họrọ oge USD maka klaasị ọrụ ahụ, tụgharịa n'ebe ahụ, tinye ZEC na bọọdụ ahụ. Amụma ahụ bụ isi iyi nke eziokwu.
+Ọnụ ego anaghị adịgide na ZEC. Jiri amụma ọnụọgụ ego ụgwọ ọrụ [](https://bounties.zechub.wiki/docs/bounty-amounts): họrọ oke USD maka ụdị ọrụ ahụ, gbanwee ya n'ọnụ ahịa ugbu a, tinye ZEC na bọọdụ ahụ. Amụma ahụ bụ ebe a na-adabere n'eziokwu.
 
-Usoro ọrụ nke onye na-enye onyinye na ụdị ọrụ ya: [Inye aka na ZecHub](https://zechub.wiki/contribute/contributing-guide).
+Usoro ọrụ onye ntinye aka na ụdị ọrụ: [Itinye Aka na ZecHub](https://zechub.wiki/contribute/contributing-guide).
 
-Usoro ikpo okwu:
+Nkọwa maka iji ikpo okwu:
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -42,7 +42,7 @@ Usoro ikpo okwu:
   />
 </div>
 
-Anyị na-etinye ọrụ mepere emepe na [ZEC Bounties](https://bounties.zechub.wiki/). I nwekwara ike ịtụ aro ihe nrite n'ebe ahụ. Njikọta PR abụghị otu ihe ahụ dị ka ụgwọ ọrụ akwadoro ma ọ bụ nke a kwụrụ.
+Anyị na-ebipụta ọrụ mepere emepe na [ZEC Bounties](https://bounties.zechub.wiki/). Ị nwekwara ike tụọ aro maka ụgwọ ọrụ ebe ahụ. PR ejikọtala abụghị otu ihe na ụgwọ ọrụ akwadoro ma ọ bụ akwụgoro.
 
 ![zecbounties](/content-images/0e4f5109-c0c9-4a0a-8d71-8172e36b9726-1a94469edf.webp)
 
@@ -50,19 +50,19 @@ Anyị na-etinye ọrụ mepere emepe na [ZEC Bounties](https://bounties.zechub.
 
 [ZEC Bounties](https://bounties.zechub.wiki/)
 
-[Okwu ZecHub GitHub](https://github.com/ZecHub/zechub/issues)
+[ZecHub Nsogbu GitHub](https://github.com/ZecHub/zechub/issues)
 
-[Okwu ZecHub-Wiki GitHub](https://github.com/ZecHub/zechub-wiki/issues)
+[ZecHub-Wiki GitHub Nsogbu](https://github.com/ZecHub/zechub-wiki/issues)
 
 
 
-Ọ bụrụ na enwere ụzọ ndị ọzọ ịchọrọ isi nye aka, biko zitere ZecHub ozi ([@ZecHub](https://twitter.com/zechub)) na Twitter ma ọ bụ Soro anyị [Discord](https://discord.gg/zcash).
+Ọ bụrụ na e nwere ụzọ ndị ọzọ ị ga-achọ isi tinye aka, biko ziga ZecHub ([@ZecHub](https://twitter.com/zechub)) ozi na Twitter ma ọ bụ sonye na [Discord](https://discord.gg/zcash) anyị.
 
 ____
 
-**Iji kwụọ ụgwọ, ZecHub chọrọ ka ndị niile nyere aka dejupụta fọm nkwupụta na Aha & Nchedo ha:**
+**Iji kwụọ ụgwọ, ZecHub chọrọ ka ndị ntinye aka niile dejupụta fọm nkwupụta nwere Aha ha na nke e chebere echebe [Shielded]:**
 
-**( Zcash | Namada | Penumbra | Ycash ) adreesị**
+**( Zcash | Namada | Penumbra | Ycash ) Adreesị akpa ego**
 
 ____
 

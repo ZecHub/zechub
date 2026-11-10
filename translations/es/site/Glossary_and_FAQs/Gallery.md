@@ -1,4 +1,4 @@
-# Galería de fondos de pantalla de Zcash
+# Zcash Galería de fondos de pantalla
 
 [Infografías](/glossary-and-faqs/gallery/infographics)
 

@@ -1,6 +1,6 @@
 [![Edit Page](https://img.shields.io/badge/Edit-blue)](https://github.com/zechub/zechub/edit/main/site/Privacy_Tools/Namada_Protocol.md)
 
-# Namada ƒe Ðoɖowɔɖi
+# Namada Ɖoɖoɖo
 
 ![Namada Logo](/content-images/logo-2067e2533d.webp)
 
@@ -11,56 +11,56 @@
   <iframe
     className="w-full h-full"
     src="https://www.youtube.com/embed/Wg_WtPdBig0"
-    title="Zcash Explained: Namada-Zcash Strategic Alliance"
+    title="Zcash Woɖe Egɔme: Namada-Zcash Ƒomevi Ƒe Kadodo"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowFullScreen
     loading="lazy"
   />
 </div>
 
-Namada Protocol subɔna abe Layer 1 ƒe mɔnu si wotu ɖe kpeɖodzi-of-stake ƒe nukpɔsusu ɖeka dzi, si wowɔ be wòana interchain asset-agnostic privacy. To Inter-Blockchain Communication (IBC) ɖoɖowɔɖi dzi la, Namada wɔa ɖeka kple kɔsɔkɔsɔ siwo ƒe nuwuwu kabakaba, si wɔnɛ be woate ŋu awɔ dɔ ɖekae nyuie. Tsɔ kpe ɖe eŋu la, Namada ɖo mɔ eve ƒe tɔdzisasrã si dzi womate ŋu aka ɖo o kple Ethereum, si naa kadodo si le dedie eye kakaɖedzi le kadodo eveawo dome la nɔa bɔbɔe.
+Namada Protocol nye Layer 1 ƒe nɔnɔme si wotu ɖe proof-of-stake gbegbɔgblɔ ɖi [consensus] dzi, eye woɖe eŋu be wòana ɣaɣla [privacy] na nunɔamesiwo siwo tso ɖoɖonu vovovowo me. Tso Inter-Blockchain Communication (IBC) protocol me la, Namada ƒoa eɖokui kple ɖoɖonu siwo wɔnɔƒe gbɔna kaba, eye wòna woƒe dɔwɔwɔ kple wo nɔewo zɔ nyuie. Kpe ɖe eŋu la, Namada ƒo ga ƒe lẽ [bridge] eve si me dzixɔse mele o kple Ethereum, si wɔ be kadodo si le network eveawo dome nanye dedie eye wòanyo.
 
-Namada tsɔa adzamenyawo ɖoa nɔƒe gbãtɔ to Multi-Asset Shielded Pool (MASP) nutome suea ƒe gbugbɔgawɔ si wodo ɖe ŋgɔ la wɔwɔ me. Trɔtrɔ sia si wodo ɖe ŋgɔ la na be nunɔamesi ƒomevi ɖesiaɖe, siwo dome dzesi siwo woate ŋu atrɔ kple esiwo womate ŋu atrɔ o siaa hã le, te ŋu zãa ƒuƒoƒo si wotsɔ akpoxɔnu wɔe si woama abe Zcash. Esia wɔe be nuwɔna si nye be woatsɔ nunɔamesi siwo ŋu wodo alɔe la ayi Namada dzi la va to vovo esi wòva sesẽna be woade dzesii le adzamenyawo gbɔ kpɔkpɔ ƒe ɖoɖo gã si le eme ta. Azɔ hã, tɔtrɔ yeyetɔ kekeake si wowɔ le Multi Asset Shielded Pool nutome la na be woate ŋu axɔ shielded set rewards si nye nu yeye alo dzideƒoname si ma nunɔamesiwo be woado ame ŋutɔ ƒe nyawo ɖe ŋgɔ abe dutoƒonu nyui ene.
+Namada na ɣaɣla ŋgɔgbɔgblɔ to Multi-Asset Shielded Pool (MASP) circuit ƒe ɖoɖo si wotsɔ nyuie wu me. Version yeye sia na nunɔamesi ƒomevi katã, si me token siwo ƒe asixɔxɔ sɔ kple token siwo ƒe asixɔxɔ mesɔ hã le, be woazã ɣaɣla [shielded] set ɖeka, abe Zcash tɔ ene. Eya ta, nunɔamesi siwo woɖe mɔ na le Namada dzi ƒe gaɖoɖo [transaction] na vovototo eye wòzu sesẽ be ame nadze sii, elabena ɣaɣla le eme ŋutɔ. Hã, Multi Asset Shielded Pool circuit ƒe update yeye na ɣaɣla set ƒe fetuɖeɖe, si nye nu yeye aɖe alo dzidzedze si maa nuwo be woakpe ɖe ɣaɣla ŋu abe dukɔ ƒe nyui ene.
 
-## Ethereum Tɔdzisasrã + IBC si sɔ kple wo nɔewo
+## Ethereum Ga Ƒe Lẽ + IBC Si Wòate Ŋu Awɔ Dɔ Kplii
 
-Ethereum tɔdzisasrãa ƒe ɖekawɔwɔ ɖe Namada me ɖea alesi wòhiã be woawɔ ɖoɖo ɖe vovo, elabena eva zua Namada lãwo ƒe agbenɔnɔ ƒe akpa vevi aɖe. Wode dɔ asi na kpeɖodzidɔwɔla siwo le Namada me be woawɔ tɔdzisasrãa ɖe Namada ɖoɖowɔɖi vevitɔa xa. Validator siawo hã nyea relayers ne wole nunɔamesiwo tsɔm na Namada, si wɔnɛ be nuwɔla bubuwo ƒe gomekpɔkpɔ le eme mehiã o. Le go bubu me la, ne wole nunɔamesiwo tsɔm na Ethereum la, gotagometɔwo (siwo woyɔna be relayers) kpɔa gome le eme, togbɔ be agba aɖeke mele wo dzi be woada asi ɖe tɔdzisasrãa dzi alo akpɔ eta o hã.
+Ethereum ga ƒe lẽ ƒe tsɔtsɔ ɖe Namada me la, meehiã be protocol bubu nanɔ o, elabena wòzu Namada ecosystem ƒe akpa vevi. Validators siwo le Namada me la, wode wɔnuku na wo be woawɔ ga ƒe lẽ la kple Namada protocol gɔme. Validators siawo hã wɔa dɔ abe relayers ene ne wole nunɔamesiwo ɖo ɖe Namada, eye esia meehiã be ame bubuwo hã nanɔ eme o. Ke ne wole nunɔamesiwo ɖo ɖe Ethereum la, amedzrowo, si woayɔ be relayers, nɔa eme, togbɔ be wometsɔ wɔnuku de ga ƒe lẽ la ƒe asixɔxɔ alo dedienɔnɔ me o.
 
 ![Ethereum Bridge Diagram](/content-images/image-0fd8f754ba.webp)
 
-Namada Protocol hã ƒe ŋutete le be wòado ka kple kɔsɔkɔsɔ ɖesiaɖe si ƒe nuwuwu kabakaba si doa alɔ Inter-Blockchain Communication (IBC) protocol la nyuie. Ne míeƒo nu tso nuwɔwɔ aduadu kple Ethereum ŋu la, Namada wɔa Ethereum tɔdzisasrã tɔxɛ aɖe si le dedie si wɔa dɔ le mɔ si dzi womate ŋu aka ɖo o nu. Wotrɔ asi le tɔdzisasrã sia ŋu nyuie be wòatsɔ dedienɔnɔ aɖo nɔƒe gbãtɔ to sisi dzi kpɔkpɔ dzi wɔwɔ na tɔdzisasrã ƒe kadodowo katã me eye woawɔ nu ɖe Ethereum ƒe asitɔtrɔ ɖesiaɖe si gblẽ ŋu be enye nuvlowɔwɔ gã aɖe si ate ŋu ana woaɖe tohehewo dzi akpɔtɔ.
+Namada Protocol hã ate ŋu aƒo eɖokui kple ɖoɖonu si wɔnɔƒe gbɔna kaba, si de mɔ na Inter-Blockchain Communication (IBC) protocol, eye wòawɔ dɔ kplii nyuie. Ne woɖe eƒe dɔwɔwɔ kple Ethereum la, Namada zã Ethereum ga ƒe lẽ si wotu ɖe eŋu tɔxɛ eye wòle dedie, si wɔa dɔ me dzixɔse o. Woɖo ga ƒe lẽ sia ɖe mɔ si de asi ɖe dedienɔnɔ ŋu, to flow controls ƒe wɔwɔ na ga ƒe lẽ ƒe kadodo katã me, eye wòbu Ethereum gaɖoɖo siwo gblẽa be wonye nu vevi si ate ŋu ahia be woatso adzɔ.
 
-## Shielded Set Teƒeɖoɖowo
+## Ɣaɣla Set Ƒe Fetuɖeɖe
 
-Le nyatakaka yeyetɔ kekeake si wowɔ le.. [Namada ƒe Ðoɖowɔɖi](https://namada.net/blog/what-is-namada), wodea dzi ƒo na ezãla siwo si nunɔamesi siwo wokpɔ ta na la be woakpɔ gome vevie le ƒuƒoƒo si woma la me. Esia te ŋu dzɔna to MASP nutome yeye si wowɔ yeyee ƒe ƒoƒo ƒu ɖekae me, si me Convert Circuit si woto vɛ fifia hã le. To nɔnɔme yeye sia zazã me la, Namada dea dzi ƒo na ezãlawo be woawɔ akpa aɖe le shared shielded set la me to shielded assets léle ɖe asi me.
+Le [Namada Protocol](https://namada.net/blog/what-is-namada) ƒe update yeye me la, woɖe dzidzedze na zãlawo siwo ƒe ɣaɣla nunɔamesiwo le, be woakpɔ gome vevie le ɣaɣla set sia me. Esia dzɔ to MASP circuit si woɖo ɖe eme la me, si me Convert Circuit yeye le fifia. To feature yeye sia ƒe zazã me la, Namada de dzidzedze na zãlawo be woatsɔ ɣaɣla nunɔamesiwo awɔ ɣaɣla set sia ƒe akpa.
 
-Le Namada, wobua ƒuƒoƒo si ŋu akpoxɔnu le be enye dutoƒonu nyui si menye ame ɖekaɖekawo tɔ o eye wòtsi tre ɖe hoʋlila ŋu. Esia fia be ne ame geɖe wu zãa ga si wotsɔ yia teƒe bubuwo si wokpɔ ta na la, ameŋunyatakakawo ƒe kakaɖedzi ƒe seƒe nyona ɖe edzi na gomekpɔla ɖesiaɖe. Ðoɖoa de dzesii be ele vevie be woaxɔ wo ɖekae eye woakpɔ gome le ameŋunyatakakawo dodo ɖe ŋgɔ me na ezãlawo katã. Eyata to dzidedeƒo na ezãlawo be woalé nunɔamesi siwo ŋu wokpɔ ta na eye woawɔ akpa aɖe le akpoxɔnu ƒe hatsotso si woama me la, Namada doa ameŋunyatakakawo ŋuti ɖoɖo si sẽ wu eye wòsẽ wu la ɖe ŋgɔ.
+Le Namada me la, wobu ɣaɣla set la be nye dukɔ ƒe nyui si ame ɖeka meɖe eɖokui le eŋu o eye ame aɖe ƒe zazã medzea eƒe asixɔxɔ ɖe bubuawo ŋu o. Esia fia be ne amewo geɖe zã ɣaɣla gaɖoɖowo la, ɣaɣla ƒe wɔnuku sɔ gbɔ wu na ame sia ame si le eme. Protocol la kpɔ be dukɔ bliboa ƒe xɔse kple gomekpɔkpɔ le vevie be ɣaɣla nanɔ nyuie na zãla katã. Eya ta, to dzidzedze ƒe nana na zãlawo be woalé ɣaɣla nunɔamesiwo eye woakpe ɖe ɣaɣla set sia ŋu me la, Namada wɔa ɣaɣla ecosystem si sesẽ wu eye wònɔ anyi nyuie.
 
-## Nunɔamesiwo ƒe Asitsatsa
+## Ɣaɣla Nunɔamesiwo Ƒe Gaɖoɖo
 
-Ne míeƒo nu tso shielded transfers ŋu la, eɖanye Ethereum non-fungible token (NFT), ATOM, alo NAM ɖe eme o, womate ŋu ade vovototo wo dome o. Esia fia be ameŋunyatakakawo takpɔkpɔ ƒe mɔnu siwo MASP (Modified Accumulator Sapling Protocol), si nye Zcash Sapling nutome suea ƒe tɔtrɔ si wodo ɖe ŋgɔ na la, wɔa dɔ ɖekae na nunɔamesi ƒomevi ɖesiaɖe. MASP nutome suea naa nunɔamesi siwo katã le Namada lãwo ƒe agbenɔnɔ ƒe ɖoɖoa me be woama ƒuƒoƒo ɖeka si wokpɔ ta na. Mɔnu sia kpɔa egbɔ be ameŋunyatakakawo ƒe kakaɖedziwo mema ɖe nunɔamesi ɖekaɖekawo dome o. Aleke kee asitsatsa agbɔsɔsɔme kae do ƒome kple nunɔamesi aɖe koŋ o, ameŋunyatakakawo takpɔkpɔ gakpɔtɔ nɔa anyi ɖaa eye wònɔa eɖokui si.
+Ne wòva ɖe ɣaɣla gaɖoɖowo ŋu la, ne nye Ethereum non-fungible token (NFT), ATOM, alo NAM la, womate ŋu aɖe wɔnɔewo dome o. Esia fia be ɣaɣla siwo naa mɔ be woagblɔ nu le MASP (Modified Accumulator Sapling Protocol) me, si nye Zcash Sapling circuit ƒe version si woɖo ɖe eŋu wu, wɔa dɔ ɖeka pɛ na nunɔamesi ƒomevi katã. MASP circuit la na nunɔamesi katã siwo le Namada ecosystem me la be woama ɣaɣla set ɖeka. Mɔ sia wɔ be ɣaɣla ƒe wɔnukuwo magbã agbã na nunɔamesi ɖeka ɖeka o. Ne gaɖoɖo ƒe lolome le nunɔamesi aɖe ŋu hã, ɣaɣla ƒe dedienɔnɔ nɔa ɖeka eye meɖo asi ɖe eŋu o.
 
 ![Shielded Assets Transaction Diagram](/content-images/image-1-512c639d56.webp)
 
-To ƒuƒoƒo si wotsɔ akpoxɔnuwo wɔ ɖekae le nunɔamesi vovovowo me la, Namada kpɔa egbɔ be wolé ame ŋutɔ ƒe nyawo me ɖe asi sɔsɔe, eɖanye nunɔamesi ƒomevi tɔxɛ si le ga si wotsɔ ɖo ame ŋu me o. Mɔnu sia doa ameŋunyatakakawo ŋuti ɖoɖo si wɔ ɖeka ɖe ŋgɔ le ɖoɖowɔɖia me eye wòdoa asitsatsa siwo ku ɖe Ethereum NFTs, ATOM, NAM, kple nunɔamesi bubu siwo wodo alɔe ŋu ƒe nya ɣaɣlawo ɖe ŋgɔ. Namada hã na be woate ŋu atsɔ dzesi siwo woate ŋu atrɔ kple esiwo womate ŋu atrɔ o ƒe asitɔtrɔ le ame ŋutɔ si to zk-SNARKs, si kpɔa egbɔ be nya ɣaɣlawo le native kple esiwo menye dukɔa me tɔ o ƒe dzesiwo abe alesi wowɔna le Zcash.
+To ɣaɣla set la ƒe wɔwɔ ɖeka na nunɔamesi vovovowo me la, Namada wɔa be ɣaɣla nanɔ ɖeka, ne nunɔamesi ƒomevi kae le ɣaɣla gaɖoɖo me hã. Mɔ sia dea asi ɖe ɣaɣla ƒe ɖoɖo ɖeka le protocol la me eye wòdoa gaɖoɖowo siwo me Ethereum NFTs, ATOM, NAM, kple nunɔamesi bubu siwo woɖe mɔ na le la ƒe gbesɔsɔ ɖe dzi. Namada hã na mɔ be woawɔ fungible kple non-fungible tokens ƒe gaɖoɖo le ɣaɣla me to zk-SNARKs yeye ƒe zazã me, eye wòwɔ be native kple non-native tokens ƒe gbesɔsɔ nanɔ abe ale si wowɔnɛ le Zcash dzi ene.
 
-## Fetu Siwo Mesɔ O Kple Asitsatsa Kabakaba
+## Adzɔ Sue Kple Gaɖoɖowo Siwo Kabaa
 
-Namada ƒoa nu vevi eve nu ƒu tsɔ naa asitsatsa ƒe duƒuƒu kabakaba kple nuwuwu: dzidzime si ŋu kpeɖodzi le kabakaba kple egbegbe Byzantine Fault Tolerant (BFT) ƒe nukpɔsusu ɖeka. Nɔnɔme eve siawo nana Namada te ŋu kpɔa asitsatsa ŋuti dɔwɔwɔ ƒe agbɔsɔsɔme si sɔ kple Visa, si nye fexexe ƒe mɔnu xɔŋkɔ aɖe si wonya ɖe eƒe dɔwɔwɔ ƒe ŋutete gã aɖe ta. Fast-proof dzidzime fia cryptographic proofs wɔwɔ nyuie si ɖoa kpe asitsatsa siwo le Blockchain dzi ƒe dzɔdzɔenyenye kple blibonyenye dzi. To mɔnu deŋgɔwo kple asitɔtrɔ le wo ŋu zazã me la, Namada ƒe Ðoɖowɔɖia ɖea akɔntabubu ƒe gazazã si hiã be woatsɔ awɔ kpeɖodzi siawo dzi kpɔtɔna, si wɔnɛ be woɖoa kpe asitsatsaawo dzi kabakaba heɖoa kpe wo dzi.
+Namada ƒoa nu vevi eve siwo na gaɖoɖo ƒe kabakaba kple wɔnɔƒe gbɔna: ɖaseɖigbalɛ [proof] si wogbɔna kaba kple Byzantine Fault Tolerant (BFT) gbegbɔgblɔ ɖi. Features eve siawo na Namada be wòakpɔ gaɖoɖowo wɔwɔ ƒe lolome si sɔ kple Visa tɔ, si nye fexexe [payment] network si amewo ka ɖe eŋu be eƒe dɔwɔwɔ ƒe lolome le dzi. Ɖaseɖigbalɛ si wogbɔna kaba fia cryptographic ɖaseɖigbalɛwo ƒe gbɔgbɔ kaba siwo doa go be gaɖoɖowo le gaɖoɖowo ƒuƒoƒo ƒe ɖoɖonu [Blockchain] dzi la le nyateƒe eye womegblẽ o. To mɔ siwo le ŋgɔ kple ɖoɖo nyuitɔwo ƒe zazã me la, Namada Protocol dzia computation ƒe dɔ si hiã be woagbɔ ɖaseɖigbalɛwo siawo ɖe, eye esia wɔa be gaɖoɖowo ƒe kpekpeɖeŋu kple wɔnɔƒe nyanyui nanɔ kaba.
 
-Tsɔ kpe ɖe eŋu la, Namada zãa egbegbe BFT ƒe nukpɔsusu ɖeka ƒe mɔnuwo, siwo kpɔa egbɔ be asitsatsa ƒe blibonyenye kple ɖekawɔwɔ le network la katã me. Mɔnu siawo siwo dzi woda asi ɖo la wɔnɛ be Namada te ŋu wɔa ɖeka le asitsatsa ƒe ɖoɖo kple woƒe nyonyo ŋu, si naa kakaɖedzi sẽŋu be woawɔ nu mamlɛtɔ. Ne wowu asitsatsaawo nu mlɔeba la, wobua wo be womate ŋu atrɔ wo o, si wɔnɛ be afɔku si le gazazã zi eve alo asitsatsa ƒe tɔtrɔ yi megbe dzi ɖena kpɔtɔna. Namada zɔna ɖe mɔnu ma tɔgbe dzi na Anoma, si nye ɖoɖowɔɖi bubu si wonya ɖe eƒe scalability solutions ta. Namada xɔa fractal instances, si ɖea mɔ be woawɔ kɔsɔkɔsɔ siwo wotsɔ atɔ wɔe le blockchain vevitɔa me. Fractal structure sia na be woate ŋu awɔ horizontal scaling to agbaa mama ɖe nɔnɔme geɖewo me, si naa network la ƒe ŋutete bliboa kple dɔwɔwɔ nyona ɖe edzi.
+Kpe ɖe eŋu la, Namada zã BFT gbegbɔgblɔ ɖi algorithms yeye, siwo wɔa be gaɖoɖowo ƒe nyateƒe kple ɖoɖo ɖeka nanɔ network la katã me. Gbegbɔgblɔ ɖi ƒe mɔ siawo naa Namada be wòakpɔ gbegbɔgblɔ ɖi ɖe gaɖoɖowo ƒe ɖoɖo kple wɔnɔnyateƒe ŋu, eye wònaa wɔnɔƒe gbɔna ƒe wɔnuku sesẽ. Ne gaɖoɖo de wɔnɔƒe gbɔ la, wòzu nu si womate ŋu atrɔ o, eye esia dzia gaɖoɖo eve ƒe wɔwɔ alo gaɖoɖo ƒe gɔmedzedze ɖe megbe ƒe afɔku. Namada zã mɔ si sɔ kple Anoma tɔ, protocol bubu si amewo ka ɖe eŋu be wòna nu ƒe dziyiyi [scaling] ƒe λύσεις. Namada zã fractal instances, siwo de mɔ na ɖoɖonu siwo nɔ eme na woawɔ wo le blockchain gã la me. Fractal ƒe ɖoɖo sia na nu ƒe dziyiyi le gbɔgbɔ me to dɔ ƒe mama ɖe instances geɖe dzi me, eye wòdoa network la ƒe ŋusẽ kple dɔwɔwɔ ɖe dzi.
 
-## Namada kple Zcash ƒe Aɖaŋuɖoɖo ƒe Nubabla
+## Namada Kple Zcash Ƒe Kadodo Ƒe Ƒomevi
 
-Le agbalẽ aɖe si wota nyitsɔ laa si woate ŋu ake ɖo nu [Namada ƒe Ðoɖowɔɖi ƒe Blog](https://namada.net/blog/rfc-proposal-for-a-strategic-alliance-between-namada-and-zcash), edzɔ dzi na ƒuƒoƒo si le megbe na Namada Nubabla la be yewoatsɔ aɖaŋuɖoɖo kple biabia be woagblɔ nya aɖe (RFC) ɖe ŋgɔ hena aɖaŋuɖoɖo ƒe kadodo si anɔ Namada kple Zcash ƒe nunɔamesiwo, kɔsɔkɔsɔwo, kple nutoawo dome.
+Le nyadzɔdzɔ yeye aɖe si wòate ŋu akpɔ le [Namada Protocol Blog](https://namada.net/blog/rfc-proposal-for-a-strategic-alliance-between-namada-and-zcash) me nu la, Namada Protocol ƒe team la dzɔa ɖe eŋu be yewoatsɔ proposal kple request-for-comment (RFC) aɖe ava, si nye kadodo ƒe ƒomevi na Namada kple Zcash nunɔamesiwo, ɖoɖonuwo, kple communities.
 
 ![Namada-Zcash Strategic Alliance Diagram](/content-images/image-2-68804c60f3.webp)
 
-Nubabla si wodo ɖa la lɔ nu vevi etɔ̃ ɖe eme. Gbã la, kpekpeɖeŋunana ƒe ha aɖe li si woawɔ be wòana gakpekpeɖeŋu dɔ siwo ahe viɖe vɛ na Zcash kple Namada. Evelia, woama NAM ƒe dzesiwo ƒe yameʋuɖoɖo na ZEC xɔlawo. Mlɔeba la, wole ɖoɖo aɖe wɔm be woaɖo tɔdzisasrã si dzi kakaɖedzi mele o si aƒo Zcash kple Namada. Ne wonya wɔ tɔdzisasrã sia ŋudɔ ko la, ana ZEC xɔlawo, siwo woyɔna be Zolders, nate ŋu azã woƒe ZEC le Namada. Gawu la, mɔnukpɔkpɔ asu Zolders si be woakpɔ Cosmos kple Ethereum ƒe lãwo ƒe agbenɔnɔ ƒe ɖoɖo siwo keke ta wu to Namada. Àte ŋu asrɔ̃ nu geɖe tso aɖaŋuɖoɖo ƒe nubabla la ŋu le [Zcash Nutome Takpekpe](https://forum.zcashcommunity.com/t/rfc-proposal-for-a-strategic-alliance-between-namada-and-zcash/44372)
+Kadodo si wotsɔ do ŋgɔ la ƒe akpa vevi atọ le eme. Gbãtɔ la, woawɔ ga ƒe kpekpeɖeŋu [grant] gaƒuƒoƒo [pool] aɖe be wòana ga na dɔwo siwo ava na Zcash kple Namada evea siaa vi. Evelia, woama NAM tokens le airdrop me na ZEC holders. Etɔlia, ɖoɖo aɖe le be woawɔ ga ƒe lẽ si me dzixɔse sue le, si aƒo Zcash kple Namada. Ne woɖo ga ƒe lẽ sia ɖe anyi vɔ la, anana ZEC holders, si woyɔ be Zolders, be woazã wɔnɔ ZEC le Namada dzi. Kpe ɖe eŋu la, Zolders akpɔ mɔ ayi Cosmos kple Ethereum ecosystems si lolo wu la to Namada. Àte ŋu asrɔ̃ nu geɖe tso kadodo ƒe ƒomevi sia ŋu le [Zcash Community Forum](https://forum.zcashcommunity.com/t/rfc-proposal-for-a-strategic-alliance-between-namada-and-zcash/44372)
 
-## Numekugbalẽwo ƒe Kadodowo
+## Ɖeɖefia Ƒe Kadodowo
 
-- [Namada Protocol ƒe Video Dziɖuɖua](https://www.youtube.com/watch?v=Wg_WtPdBig0)
-- [Namada Protocol ƒe Nyatakakadzraɖoƒe](https://namada.net/)
+- [Namada Protocol ƒe Video Nyateƒetɔ](https://www.youtube.com/watch?v=Wg_WtPdBig0)
+- [Namada Protocol ƒe Website Nyateƒetɔ](https://namada.net/)
 - [Namada Blog](https://namada.net/blog)
-- [Namada ƒe Nuŋlɔɖiwo](https://docs.namada.net/)
+- [Namada Docs](https://docs.namada.net/)

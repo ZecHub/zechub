@@ -2,25 +2,25 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Zcash ƒe Ŋgɔyiyi ƒe Aɖaŋuɖoɖowo
+# Zcash ƒe nuɖoɖo ƒe ɖeɖe gbedasiwo
 
 <img width="672" height="378" alt="1" src="/content-images/fbce4a28-585b-4caa-b306-4cf06bcb5977-0b61791008.webp" />
 
 
 
-# Nukae nye ZIP
-Zcash ƒe Ŋgɔyiyi ƒe Aɖaŋuɖoɖo (ZIP) nye aɖaŋuwɔgbalẽ si naa nyatakaka Zcash habɔbɔa, alo ɖɔa nɔnɔme yeye aɖe na Zcash alo eƒe dɔwɔwɔwo alo nutoa me. Ele be ZIP la nagblɔ mɔ̃ɖaŋununya ŋuti nyatakaka kpui aɖe tso nɔnɔmea ŋu kple susu si tae wowɔ nɔnɔmea ɖo.
+# Nu ka nye ZIP
+Zcash ƒe nuɖoɖo ƒe ɖeɖe gbedasi (ZIP) nye aɖaŋu ƒe agbalẽ si na nyatakaka Zcash ƒe hadome, alo si ɖe ŋutinya yeye aɖe ƒe nɔnɔme fia na Zcash kple eƒe wɔwɔwo alo eƒe nɔƒe. ZIP la ele be wòana ŋutinya la ƒe teknikal ƒe nyatakaka kpui aɖe kple ta si ta woɖo ŋutinya la.
 
-Míeɖoe be ZIPwo nanye mɔnu vevitɔ si dzi míato ado susu yeyewo ɖa, atsɔ aƒo nutoa me tɔwo ƒe susuwo nu ƒu le nya aɖe ŋu, eye míaŋlɔ aɖaŋuwɔwɔ ŋuti nyametsotso siwo yi Zcash me la ɖi. ZIP (zi geɖe la, eŋlɔla(wo)) ƒe agbanɔamedzie wònye be woatu nukpɔsusu ɖeka ɖo le nutoa me eye wòaŋlɔ nukpɔsusu siwo to vovo na wo nɔewo la ɖi.
+Míedi be ZIPs nanye mɔ vevi si me woaɖo ŋutinya yeyewo ƒe gbedasi, woaƒo hadome la ƒe nyawo nu le nya aɖe ŋu, eye woaŋlɔ aɖaŋu ƒe nyadzɔdzɔwo siwo woɖo le Zcash ŋu. ZIP ƒe Owner(s) (zi geɖe la, eƒe ŋlɔla(s)) wɔnawo nye be woatu gbegbɔgblɔ ɖi le hadome la me eye woaŋlɔ susu siwo wometsɔ ɖo.
 
-Esi wònye be wodzraa ZIP-awo ɖo abe nuŋɔŋlɔ ƒe faɛlwo ene le nudzraɖoƒe si woɖe ɖe go me ta la, woƒe gbugbɔgaɖɔɖo ŋutinyae nye ŋutinya me nuŋlɔɖi si ku ɖe nɔnɔme ƒe aɖaŋuɖoɖoa ŋu.
+Elabena woɖea ZIPs ɖe le nyagbalẽwo me le nudzraɖoƒe si me versionwo li, woƒe tɔtrɔ ƒe ŋutinyawo nye ŋutinya la ƒe gbedasi ƒe blema ŋutinyawo.
 
--> [zips.z.ga si wotsɔna xɔa gae](https://zips.z.cash)
+-> [zips.z.cash](https://zips.z.cash)
 
 
-## ZIP ƒe Nuŋlɔlawo
+## ZIP ƒe Nudzɔla
 
-Le ZIP ɖesiaɖe si ava la, ele be wòato ŋkuléleɖenuŋu ƒe ɖoɖoa me. Wode dɔ asi na ZIP nuŋlɔlawo be woakpɔ egbɔ be ZIP ɖesiaɖe ƒe ɖoɖo kple emenyawo ɖɔ nyawo, susu kple mɔ̃ɖaŋununya ƒe tɔtrɔ siwo wowɔ nyuie. 
+Na ZIP sia sia si va la, ele be wòato dzodzro ƒe mɔnu me. ZIP ƒe nuŋlɔlawo ƒe dɔe nye be woaɖe ŋku le ZIP sia sia ƒe nɔnɔme kple emenyawo ŋu, be wòana nyagblɔɖiwo, susu si ta wòwɔe, kple teŋuŋutinya ƒe tɔtrɔwo ƒe nudzɔdzɔ fia nyuie.
 
 ```markdown
 * Jack Grigg, Kris Nuttycombe and Daira-Emma Hopwood associated with the ECC.
@@ -28,46 +28,46 @@ Le ZIP ɖesiaɖe si ava la, ele be wòato ŋkuléleɖenuŋu ƒe ɖoɖoa me. Wode
 * Sam and Mark, associated with SL.
 ```
 
-## ZIP siwo Ðe dzesi Fifia
+## ZIP siwo ƒe ŋutinya le vevie fifia
 
-Wolé ŋku ɖe nɔnɔme kple tanya siwo le ete ŋu tsɔ sɔ kple ZIP index le [zips.z.ga si wotsɔna xɔa gae](https://zips.z.cash/#index-of-zips) le 18 August 2026. ZIP ƒe nɔnɔme trɔna le ɣeyiɣi aɖe megbe, eyata bu index la be enye nyateƒetsoƒe.
+Wokpɔ nɔnɔme kple tanya siwo le ete la ɖe ZIP ƒe index le [zips.z.cash](https://zips.z.cash/#index-of-zips) le 18 August 2026. ZIP ƒe nɔnɔme trɔna le ɣeyiɣi me, eyata wɔ index la abe nyateƒe ƒe dzɔƒe ene.
 
-> Tata gbãtɔ: [Zcash ƒe Kekeɖenudɔwɔwɔ siwo me kɔ](https://zips.z.cash/zip-0222)
+> Draft: [Nuwo ƒe ʋuʋuɖi ƒe Zcash ƒe tsɔtsɔ kpeɖeŋuwo](https://zips.z.cash/zip-0222)
 
-> Tata gbãtɔ: [Zcash Shielded Assets ƒe Asitɔtrɔ Kple Wo Dzodzo](https://zips.z.cash/zip-0226)
+> Draft: [Zcash ɣaɣla ƒe assetwo ƒe trɔtrɔ kple dzadzra](https://zips.z.cash/zip-0226)
 
-> Tata gbãtɔ: [Zcash Shielded Assets ƒe Nana](https://zips.z.cash/zip-0227)
+> Draft: [Zcash ɣaɣla ƒe assetwo ƒe nana](https://zips.z.cash/zip-0227)
 
-> Woɖe asi le eŋu: [Woɖe asi le Version 6 ƒe Asitsatsa ƒe Nɔnɔme ŋu](https://zips.z.cash/zip-0230) — ZIP 229, si ɖe asitsatsa ƒe tɔtrɔ 6 gɔme fifia. Kpɔ NU6.3 ƒe xexlẽdzesi si le ete.
+> Withdrawn: [Woɖe gaɖoɖo ƒe nɔnɔme ƒe version 6 ɖa](https://zips.z.cash/zip-0230) — ZIP 229 ɖe eƒe teƒe, si fifia gblɔa gaɖoɖo ƒe version 6 ƒe nɔnɔme. Kpɔ NU6.3 ƒe xexlẽ si le ete la.
 
-> Tata gbãtɔ: [Asitsatsa ƒe Dzesidenu Digests & Asidede Asi ƒe Dzesidede na Transparent Zcash Extensions](https://zips.z.cash/zip-0245)
+> Draft: [Gaɖoɖo ƒe dzesi ƒe digestwo kple asidede agbalẽ te ƒe kpekpeɖeŋu na nuwo ƒe ʋuʋuɖi ƒe Zcash ƒe tsɔtsɔ kpeɖeŋuwo](https://zips.z.cash/zip-0245)
 
-> Tata gbãtɔ: [Memo Field Format si Woɖo Ðe Ðoɖo Nu](https://zips.z.cash/zip-0302)
+> Draft: [Nya kpui ƒe field ƒe nɔnɔme si woɖo ɖeɖe](https://zips.z.cash/zip-0302)
 
-> Tata gbãtɔ: [Sapling Adrɛs ƒe Asidede Asi](https://zips.z.cash/zip-0304)
+> Draft: [Sapling ƒe gaɖoƒe ƒe dzesi ƒe asidede agbalẽ tewo](https://zips.z.cash/zip-0304)
 
-> Tata gbãtɔ: [Light Client Protocol na Fexexe ƒe Deteksi](https://zips.z.cash/zip-0307)
+> Draft: [Nyatakaka si hiã ƒe mɔ ƒe protocol na fexexe ƒe dzedze](https://zips.z.cash/zip-0307)
 
-> Tata gbãtɔ: [Dedienɔnɔ ƒe Nɔnɔmewo le Sapling Viewing Keys ŋu](https://zips.z.cash/zip-0310)
+> Draft: [Sapling ƒe nukpɔsafuiwo ƒe dedienɔnɔme ƒe nɔnɔmewo](https://zips.z.cash/zip-0310)
 
-> Le dɔwɔm: [Adrɛs Ƒomevi si gbɔ woate ŋu aɖo ga tso Adrɛs siwo me kɔ ko dzi la gɔmeɖeɖe](https://zips.z.cash/zip-0320)
+> Active: [Gaɖoƒe ƒe dzesi ƒe ƒome aɖe ƒe gblɔɖoɖo, si me woate ŋu aɖo ga ɖo le nuwo ƒe ʋuʋuɖi ƒe gaɖoƒe ƒe dzesiwo ko me](https://zips.z.cash/zip-0320)
 
-> Tata gbãtɔ: [Wallet.dat ƒe nɔnɔme](https://zips.z.cash/zip-0400)
+> Draft: [Gakotoku.dat ƒe nɔnɔme](https://zips.z.cash/zip-0400)
 
-## NU6.3 (Ironwood) ƒe ZIP-wo
+## NU6.3 (Ironwood) ƒe ZIPs
 
-Woɖe NU6.3 me le ZIP 258 me, tsɔ kpe ɖe ZIP bubu siwo woŋlɔ ɖe afisia ŋu. Wotaa ame siwo di be yewoaxɔ ɖoƒea ƒe hatsotso bliboa ɖe... [ZIP ƒe dzesi](https://zips.z.cash/#nu6-3-candidate-zips).
+Woɖe NU6.3 ƒe nyatakaka ɖe ZIP 258 me, kple ZIP bubu siwo woƒe xexlẽ le afisia. Woɖe candidate ƒe ƒuƒo blibo la ɖe [ZIP ƒe index](https://zips.z.cash/#nu6-3-candidate-zips) dzi.
 
-> Tata gbãtɔ: [NU6.3 Network Upgrade ƒe dɔwɔwɔ](https://zips.z.cash/zip-0258)
+> Draft: [NU6.3 ƒe mɔ̃ ƒe sewo trɔtrɔ ƒe dzeɖoɖo](https://zips.z.cash/zip-0258)
 
-> Tata gbãtɔ: [Version 6 Asitsatsa ƒe Nɔnɔme](https://zips.z.cash/zip-0229)
+> Draft: [Gaɖoɖo ƒe version 6 ƒe nɔnɔme](https://zips.z.cash/zip-0229)
 
-> Tata gbãtɔ: [Orchard to Ironwood Migration](https://zips.z.cash/zip-0318)
+> Draft: [Orchard yi Ironwood ƒe trɔtrɔ](https://zips.z.cash/zip-0318)
 
-> Tata gbãtɔ: [NU6.3 Emetsonuwo na Gakotokuwo](https://zips.z.cash/zip-0326)
+> Draft: [NU6.3 ƒe ƒometɔwo na gakotokuwo](https://zips.z.cash/zip-0326)
 
-> Wodo susua ɖa be: [Ironwood ƒe Agbɔsɔsɔme Gbugbɔgaxɔ](https://zips.z.cash/zip-2005)
+> Proposed: [Ironwood ƒe quantum ƒe agbɔgbɔɖeŋu](https://zips.z.cash/zip-2005)
 
-> Reserved: [Restricting Transfers into the Orchard Pool](https://zips.z.cash/zip-2006)
+> Reserved: [Gaɖoɖowo ƒe dede ɖe Orchard gaƒuƒoƒo me ƒe xexlẽ](https://zips.z.cash/zip-2006)
 
-Wowɔ ZIP etɔ̃ siwo do ŋgɔ hã yeyee na NU6.3: [ZIP 209 ƒe xexlẽdzesi](https://zips.z.cash/zip-0209), [ZIP 213 ƒe xexlẽdzesi](https://zips.z.cash/zip-0213) kple [ZIP 317 ƒe xexlẽdzesi](https://zips.z.cash/zip-0317).
+ZIP etɔ siwo va do ŋgɔ la hã wɔ tɔtrɔ na NU6.3: [ZIP 209](https://zips.z.cash/zip-0209), [ZIP 213](https://zips.z.cash/zip-0213) kple [ZIP 317](https://zips.z.cash/zip-0317).

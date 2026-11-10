@@ -2,10 +2,10 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Ego Mmepe Zcash
+# Zcash Ego Mmepe
 
-Zcash bụ usoro blockchain pụrụ iche n'ihi na ọ bụ nke aka ya na-akwụ ụgwọ. Nke a pụtara na ndị otu na-arụ ọrụ na Zcash achọghị ịnara ego n'aka ndị na-etinye ego n'èzí, ha nwekwara ike ilekwasị anya n'ịkwado nnabata ma na-agbaso ụkpụrụ na ebumnuche sara mbara Zcash's.
+Zcash bụ protocol blockchain pụrụ iche n'ihi na ọ na-akwado onwe ya [self-funded]. Nke a pụtara na ndị otu na-arụ ọrụ na Zcash anaghị achọ ịnara ego n'aka ndị na-etinye ego n'èzí, ma nwee ike ịnọgide na-elekwasị anya n'ịkwalite nnabata ya ebe ha na-anọgidekwa kwekọọ na ụkpụrụ na ebumnuche sara mbara nke Zcash.
 
-## Ọchịchị Zcash
+## Zcash Gọọmentị
 
 https://zechub.wiki/zcash-community/zcash-governance

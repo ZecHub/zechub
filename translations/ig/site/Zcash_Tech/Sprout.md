@@ -4,89 +4,89 @@
 
 # Sprout
 
-> Zcash malitere na Ọktoba 28, 2016, ya na ọdọ mmiri Sprout nke nwere ihe nchebe.
+> Zcash malitere na Ọktoba 28, 2016, site na Sprout nke e chebere echebe pool.
 
-> **Ịdọ Aka Ná Ntị:** NU7 na-eme ka ZEC ka dị na ọdọ mmiri Sprout ghara imefu ego ozugbo ọ malitere (mainnet ezubere maka 5 Nọvemba 2026, mkpebi ikpeazụ 20 Ọktoba 2026; lee [ZIP 259](https://zips.z.cash/zip-0259)) Ọ bụrụ na ị nwere ego Sprout, gụọ [Ịnata ego](../using-zcash/recovering-funds) ma buru ụzọ kwaga ha.
+> **Ịdọ aka ná ntị:** NU7 na-eme ka ego ZEC ka nọ na Sprout pool ghara inwe ike imefu ozugbo ọ malitere ịrụ ọrụ (ogo mmegharị na mainnet bụ 3,543,405, a tụrụ anya ya maka 5 Nọvemba 2026; lee [ZIP 259](https://zips.z.cash/zip-0259)). Ọ bụrụ na ị nwere ego Sprout, gụọ [Ịweghachi ego](../using-zcash/recovering-funds) ma bugharịa ha mbụ.
 
-Ihe ị ga-ewepụ: Sprout bụ ebe Zcash malitere, nke mbụ ego nkeonwe, nke a pụrụ ịtụkwasị obi na-agba ọsọ na blockchain dị ndụ.
+Ihe ị ga-amụta: Sprout bụ ebe Zcash malitere, oge mbụ ego nzuzo [private], nke a pụrụ ịkwado, ji arụ ọrụ na blockchain dị ndụ.
 
-Sprout bụ mmalite mbụ nke netwọkụ Zcash, ọ bụghị nke mechara [mmelite netwọk](../start-here/network-upgrades)Ọ malitere ịpụta ìhè na ngalaba mmalite na Ọktoba 28, 2016. Enweghị ZIP nọmba na-akọwa Sprout: usoro ZIP malitere mgbe e mesịrị na Overwinter, yabụ nkọwapụta Zcash Protocol mbụ na owuwu Zerocash e wuru ya kọwara Sprout [Electric Coin Company](../zcash-organizations/electric-coin-company) (ụlọ ọrụ Zerocoin Electric Coin Company), nke Zooko Wilcox duziri, wuru ma ziga ya. Sprout webatara azụmahịa mbụ bara uru zk-SNARK kpuchiri na ọdọ mmiri mbụ ahụ e ji kpuchie, ka ndị mmadụ wee nwee ike izipu ZEC na onye zitere ya, onye nnata, na ego zoro ezo ebe netwọk ahụ ka na-enyocha ma nguzozi ahụ agbakọtala. Aha ahụ gosiri otu ụlọ ọrụ na-eto eto nke otu ahụ tụrụ anya na ọ ga-eto.
+Sprout bụ mwepụta mbụ nke netwọk Zcash, ọ bụghị [network upgrade](../start-here/network-upgrades) nke mechara. Ọ malitere ịrụ ọrụ na genesis block n’Ọktoba 28, 2016. Ọ nweghị ZIP nwere nọmba nke na-akọwa Sprout: usoro ZIP malitere mgbe e mesịrị na Overwinter, ya mere a kọwara Sprout site na Nkọwapụta Usoro Zcash mbụ na usoro Zerocash nke e wuru ya n’elu ya. [Electric Coin Company](../zcash-organizations/electric-coin-company) (nke bụ Zerocoin Electric Coin Company n’oge ahụ), nke Zooko Wilcox duziri, wuru ma wepụta ya. Sprout webatara Azụmahia nke e chebere echebe [shielded transactions] mbụ bara uru nke zk-SNARK na pool nke e chebere echebe [shielded pool] mbụ, ka ndị mmadụ nwee ike izipu ZEC ebe ezoro onye zitere, onye natara, na ego, ma netwọk ka na-enyocha na ngụkọta itule ha ziri ezi. Aha ahụ gosiri chain na-eto eto nke otu ahụ tụrụ anya na ọ ga-eto.
 
-Ihe kpatara nke a ji dị mkpa. Blockchain ọha niile tupu Sprout egosipụtara ịkwụ ụgwọ gị: onye ọ bụla nwere ike ịhụ onye kwụrụ onye na ego ole. Sprout bụ netwọk mbụ dị ndụ, nke na-enweghị ikike izochi nkọwa ndị ahụ ma ka gosi na ọ dịghị onye na-aghọ aghụghọ. Nke ahụ dị mkpa maka nzuzo ego nkịtị, ụdị ị na-atụ anya ya site na ego ma ọ bụ akwụkwọ ego ụlọ akụ nke onye ọzọ na-agaghị agụ. O gosikwara na nzuzo siri ike dị n'usoro nwere ike ịrụ ọrụ n'ọrụ, karịa imewe akwụkwọ. Ememme ntọala a tụkwasịrị obi nke mere ka o kwe omume ghọrọ ebe ntụaka maka ọrụ nzuzo mgbe e mesịrị, sistemụ Sprout nke na-egosi nwayọ, nke na-echekwa ihe bụ kpọmkwem ihe kpaliri ndị otu ahụ iwu Sapling afọ abụọ ka e mesịrị.
+Ihe mere nke a ji dị mkpa. Blockchain ọha niile tupu Sprout na-egosi Kwụọ ụhwọ gị n'ihu ọha: onye ọ bụla pụrụ ịhụ onye kwụrụ onye na ego ole. Sprout bụ netwọk permissionless mbụ dị ndụ nke zoro nkọwa ndị ahụ ma ka na-egosi na ọ dịghị onye na-aghọ aghụghọ. Nke a dị mkpa maka Nzuzo ego nkịtị, ụdị Nzuzo ị na-atụ anya n'aka ego nkịtị ma ọ bụ nkwupụta ụlọ akụ onye ọzọ na-enweghị ike ịgụ. Ọ gosikwara na Nzuzo on-chain siri ike pụrụ ịrụ ọrụ n'ezi ndụ, karịa atụmatụ dị na akwụkwọ. Emume trusted setup nke mere ka o kwe omume ghọrọ ebe nrụtụ aka maka ọrụ cryptography ndị mechara, na usoro proof dị nwayọ ma na-achọ ebe nchekwa ukwuu nke Sprout wepụtara bụ kpọmkwem ihe kpaliri ndị otu ahụ iwulite Sapling afọ abụọ ka e mesịrị.
 
-## Ọdọ mmiri mbụ e ji echebe ihe
+## Nke e chebere echebe pool mbụ
 
-Sprout mepụtara ụdị adreesị abụọ. Adreesị doro anya (adreesị t) na-arụ ọrụ dị ka Bitcoin, nkọwa ndị a na-ahụkwa na akwụkwọ ndekọ ọha. Adreesị echekwara (adreesị z) na-eziga ego na Sprout [ọdọ mmiri echebe](../using-zcash/shielded-pools), ebe onye zitere ya, onye nnata, na ego ole ahụ na-ezo. Aghụghọ bụ [zk-SNARKs](../zcash-tech/zk-snarks), ihe akaebe efu nke na-eme ka azụmahịa gosi na ọ dị irè, na-enweghị mmefu okpukpu abụọ na nguzozi nke na-agbakọta, na-ekpugheghị nkọwa ọ bụla. Sprout bụ oge mbụ a na-emepụta nke a na cryptocurrency dị ndụ.
+Sprout mepụtara ụdị Adreesị akpa ego abụọ. Adreesị Oha (t-addresses) na-arụ ọrụ dịka Bitcoin, ebe nkọwa ya na-apụta ìhè na ledger ọha. Adreesị nke e chebere echebe (z-addresses) na-eziga ego n'ime Sprout [nke e chebere echebe pool](../using-zcash/shielded-pools), ebe onye zitere ya, onye natara ya, na ego ole ka na-ezo. Ihe nzuzo ya bụ [zk-SNARKs](../zcash-tech/zk-snarks), zero-knowledge proofs nke na-ekwe ka Azụmahia gosi na ọ dị irè, na-enweghị mmefu ugboro abụọ na ngụkọta ego ziri ezi, n'ekpugheghị nkọwa ọ bụla. Sprout bụ oge mbụ nke a ji arụ ọrụ n'ahịa na cryptocurrency dị ndụ.
 
 ![Transparent transactions expose sender, receiver, and amount, while Sprout shielded transactions hide all three yet stay verifiable](/content-images/sprout-shielded-vs-transparent-61d3b1980c.webp)
 
-## Ememme ahụ
+## Emume ahụ
 
-zk-SNARKs dị na Sprout chọrọ usoro paramita ọha, imepụta ha n'enweghị nsogbu chọrọ nhazi otu oge a na-akpọ Ememme. Ndị sonyere isii nọ n'ebe dị iche iche, nke ọ bụla n'ime ha mepụtara ihe nzuzo, nke a na-akpọ ihe mkpofu na-egbu egbu. Ọ bụrụ na onye ọ bụla chịkọta ihe niile ahụ ọzọ, ha nwere ike ịmepụta ZEC site na ihe ọ bụla. Nhazi ahụ gbanwere ihe egwu ahụ ka ọ bụrụ iwu dị mfe: ọ bụrụhaala na ọ dịkarịa ala otu onye sonyere bibiri ihe ha, enweghị ike iwughachi ihe nzuzo ahụ zuru oke, yabụ imepụta ihe adịgboroja ka agaghị ekwe omume. Ndị sonyere a kpọrọ aha n'ihu ọha gụnyere Zooko Wilcox, Andrew Miller, Peter Van Valkenburgh, Peter Todd, na Derek Hinch nke NCC Group. Otu onye sonyere họọrọ ịnọ na-amaghị aha ya.
+zk-SNARKs dị na Sprout chọrọ otu mkpụrụọdụ ọha, ma imepụta ha n'enweghị nsogbu chọrọ nhazi otu ugboro a kpọrọ Emume ahụ. Ndị sonyere isii nọ n'ebe dị iche iche, ndị dị anya n'ebe ibe ha nọ, nke ọ bụla mepụtara mpempe nzuzo a kpọrọ toxic waste. Ọ bụrụ na onye ọ bụla achịkọta mpempe niile ọzọ, ha nwere ike ịmepụta ZEC n'enweghị ihe ọ bụla. Nhazi ahụ gbanwere ihe egwu ahụ ka ọ bụrụ iwu dị mfe: ọ bụrụhaala na opekata mpe otu onye sonyere bibiri mpempe ya, a pụghị iwughachi nzuzo zuru oke, ya mere ime ego adịgboroja agaghị ekwe omume. Ndị sonyere a kpọrọ aha n'ihu ọha gụnyere Zooko Wilcox, Andrew Miller, Peter Van Valkenburgh, Peter Todd, na Derek Hinch nke NCC Group. Otu onye sonyere họọrọ ịnọ n'amaghị aha.
 
 ![The Ceremony: six participants generate private shards, then destroy the toxic waste, leaving only the public Sprout parameters](/content-images/sprout-ceremony-flow-ae16f6282a.webp)
 
 ## Mmalite
 
-Sprout bụ ntọala nke mgbanwe ọ bụla na-abịa na-ewulite. Mgbe usoro nkwalite netwọkụ rutere na Overwinter, o kpọrọ iwu mbụ dị ka ngalaba nkwenye ID 0, nke pụtara na etinyebeghị mmelite ọ bụla. Ihe niile kemgbe ahụ (Overwinter, Sapling, Blossom, Heartwood, Canopy, NU5, NU6, na-aga n'ihu) dị na usoro Sprout malitere. A mara ọkwa mmalite ahụ na Ọgọst 2016 maka mmalite Ọktoba 28, emume ahụ mere n'izu ndị gara aga, akara oge nke ngalaba genesis ahụ na-agụ Ọktoba 28, 2016, na 07:56 UTC.
+Sprout bụ ntọala nke mgbanwe ọ bụla mechara na-ewukwasị. Mgbe usoro network upgrade bịara na Overwinter, ọ kpọrọ iwu mbụ ahụ consensus branch id 0, nke pụtara naanị na etinyebeghị network upgrade ọ bụla. Ihe niile kemgbe ahụ (Overwinter, Sapling, Blossom, Heartwood, Canopy, NU5, NU6, na ihe ndị ọzọ) dị n'elu chain Sprout malitere. A mara ọkwa mmalite ahụ na Ọgọọst 2016 maka genesis n'Ọktoba 28, Emume ahụ mere n'izu ndị bu ya ụzọ, na timestamp e tinyere kpọmkwem na genesis block na-agụ Ọktoba 28, 2016, na 07:56 UTC.
 
 ![Timeline from the August 2016 announcement through the parameter Ceremony to the October 28, 2016 Sprout launch](/content-images/sprout-timeline-348766352a.webp)
 
-## Nkọwa Okwu
+## Nkọwa okwu
 
-| Oge okwu | Nkọwa Bekee dị mfe |
+| Okwu | Nkọwa dị mfe n'asụsụ Bekee |
 |---|---|
-| zk-SNARK | Ihe akaebe efu nke na-egosi na azụmahịa dị irè n'ekpugheghị onye zitere ya, onye nnata, ma ọ bụ ego ole ọ chọrọ |
-| Shielded pool | Akụkụ nkeonwe nke Zcash ebe a na-ezobe ego na oriri. Ọdọ mmiri Sprout bụ nke mbụ |
-| z-address and t-address | A na-echekwa adreesị z ma na-edebe nkọwa nzuzo. Adreesị t na-edo anya ma na-egosi nkọwa na akwụkwọ ndekọ ọha |
-| The Ceremony | Nhazi nke ọtụtụ ndị otu nke afọ 2016 nke mepụtara paramita ọha Sprout's wee tụfuo ihe mkpofu na-egbu egbu |
-| Toxic waste | Isi ihe nzuzo sitere na emume ahụ nke a ga-ebibi ka e wee ghara imepụta ZEC |
-| Consensus branch id 0 | Akara maka iwu Sprout's, nke pụtara ntọala tupu mmelite netwọkụ ọ bụla |
+| zk-SNARK | Zero-knowledge proof nke na-egosi na Azụmahia dị irè n'ekpugheghị onye zitere ya, onye natara ya, ma ọ bụ ego ole |
+| Shielded pool | Akụkụ nzuzo nke Zcash ebe ego ole na ndị metụtara ya zoro ezo. Sprout pool bụ nke mbụ |
+| z-address and t-address | z-address bụ nke e chebere echebe ma na-edobe nkọwa na nzuzo. t-address bụ Oha ma na-egosi nkọwa na ledger ọha |
+| The Ceremony | Nhazi nke ọtụtụ ndị mere na 2016 nke mepụtara mkpụrụọdụ ọha nke Sprout ma mesịa tufuo toxic waste |
+| Toxic waste | Mpempe igodo nzuzo sitere na Emume ahụ a ga-ebibi ka a ghara inwe ike ịmepụta ZEC adịgboroja |
+| Consensus branch id 0 | Aha e nyere iwu Sprout, nke pụtara ntọala tupu network upgrade ọ bụla |
 
-## Ajụjụ Ndị A Na-ajụkarị
+## Ajụjụ ndị a na-ajụkarị
 
-Sprout ọ̀ na-agbanwe ZEC m ka ọ bụ nzuzo m taa? Mba. Sprout bụ akụkọ ihe mere eme, mmalite nke malitere usoro ZEC gị na-ebi ndụ. Mkpụrụ ego gị na nzuzo gị taa dabere na obere akpa ego na ọdọ mmiri a na-echebe nke ị na-eji ugbu a, ọ bụghị n'ihe ọ bụla ị chọrọ ime gbasara Sprout.
+Sprout ọ na-agbanwe ZEC m ma ọ bụ Nzuzo m taa? Mba. Sprout bụ akụkọ ihe mere eme, mmalite nke malitere chain e-akpa ego ZEC gị bi n'elu. Ego gị na Nzuzo gị taa dabere na e-akpa ego na nke e chebere echebe pool ị na-eji ugbu a, ọ bụghị n'ihe ọ bụla ị ga-eme gbasara Sprout.
 
-Gịnị mere na enweghị nọmba ZIP maka Sprout? Usoro ZIP ahụ malitere mgbe e mesịrị, site na mmelite Overwinter. Sprout bụ mmalite mbụ, nke nkọwapụta Zcash Protocol na owuwu Zerocash ya kọwara. ZIP 200 na-ekwu naanị Sprout n'azụ, dị ka ngalaba nkwenye ID 0, ntọala tupu mmelite ọ bụla.
+Gịnị mere na enweghị nọmba ZIP maka Sprout? Usoro ZIP malitere ka e mesịrị, site na upgrade Overwinter. Sprout bụ mmalite mbụ, nke akọwara site na nkọwapụta Protocol nke Zcash na usoro Zerocash e mere ka ọ dabere na ya. ZIP 200 na-ekwu naanị banyere Sprout mgbe e mesịrị, dịka consensus branch id 0, ntọala tupu upgrade ọ bụla.
 
-Ò kwesịrị ka m tụkwasị mmadụ isii nọ n'emume ahụ obi? E wuru ntọala ahụ ka naanị otu n'ime ha wee kwuo eziokwu. Onye ọ bụla nwere otu ihe nzuzo, ma ọ bụrụhaala na otu onye so na ya bibie nke ha, a gaghị enwe ike iwughachi ihe nzuzo ahụ kpamkpam, ọ dịghịkwa onye nwere ike ịmepụta ZEC. A kpọpụtala aha mmadụ ise so na ya n'ihu ọha, otu ka na-amaghị aha ya.
+Ọ dị m mkpa ịtụkwasị ndị mmadụ isii nọ na Emume ahụ obi? A rụrụ nhazi ahụ ka ị chọọ naanị otu n'ime ha ka ọ bụrụ onye eziokwu. Onye ọ bụla jidere mpempe nzuzo, ma ọ bụrụhaala na otu onye sonyere bibiri nke ya, a pụghị iwughachi nzuzo zuru oke ma ọ nweghị onye pụrụ ịmepụta ZEC adịgboroja. A kpọrọ aha ndị sonyere ise n'ihu ọha, otu nọgidere n'amaghị aha.
 
-Ọdọ mmiri Sprout ọ̀ bụ nke obere akpa m na-eji ugbu a? O nwere ike ọ bụghị. Sprout bụ ọdọ mmiri mbụ e ji kpuchie, mana mmelite ndị e mechara dịka Sapling webatara nhazi nchekwa ngwa ngwa, ọtụtụ obere akpa na-ejikwa ọdọ mmiri ọhụrụ taa. Sprout ka dị mkpa n'ihi na ọrụ nke gosipụtara azụmahịa nkeonwe, nke a pụrụ ịtụkwasị obi nwere ike ịgba ọsọ na netwọk dị ndụ.
+Sprout pool ọ bụ nke e-akpa ego m na-eji ugbu a? Eleghị anya ọ bụghị. Sprout bụ nke e chebere echebe pool mbụ, mana upgrades ndị mechara dịka Sapling webatara nhazi nke e chebere echebe ngwa ngwa, ọtụtụ e-akpa ego na-ejikwa pool ọhụrụ taa. Sprout ka dị mkpa dịka ọrụ gosiri na Azụmahia nzuzo, nke a pụrụ ịkwado, nwere ike ịrụ ọrụ na netwọk dị ndụ.
 
-Gịnị mere Sprout ji dị iche na Bitcoin? Bitcoin na-etinye ụgwọ ọ bụla n'akwụkwọ ndekọ ọha ebe a na-ahụ ọnụọgụ na adreesị. Sprout tinyere azụmahịa echekwara nke na-ezochi onye zitere ya, onye nnata, na ego ebe ọ ka na-ekwe ka netwọk ahụ gosi na azụmahịa ahụ dị irè. O debekwara adreesị doro anya, yabụ ụdị abụọ ahụ na-ebi n'otu usoro.
+Gịnị mere Sprout ji dị iche na Bitcoin? Bitcoin na-etinye Kwụọ ụhwọ ọ bụla na ledger ọha ebe ego ole na Adreesị akpa ego pụtara ìhè. Sprout gbakwụnyere Azụmahia nke e chebere echebe nke na-ezo onye zitere ya, onye natara ya, na ego ole, ebe ọ ka na-ekwe netwọk ịkwado na Azụmahia ahụ dị irè. Ọ jigidere Adreesị akpa ego Oha kwa, ya mere ụdị abụọ ahụ bi n'otu chain.
 
 ## Nwalee nghọta gị
 
-A na-akpọkarị Sprout nkwalite netwọk nwere oke ọrụ. Gịnị mere na nke ahụ ezighi ezi?
+A na-akpọkarị Sprout network upgrade nke nwere ogo mmegharị. Gịnị mere nke ahụ ji bụrụ na ọ naghị ezucha oke?
 
 <details>
-<summary>Answer</summary>
+<summary>Azịza</summary>
 
-Sprout bụ mmalite mbụ nke Zcash, ọ bụghị mmelite emechara. Ọ nọwo na-arụ ọrụ kemgbe ngọngọ genesis (block 0) na Ọktoba 28, 2016, yabụ enweghị elu mmalite iji tụọ aka na ya. Usoro nkwalite netwọkụ bịara mgbe e mesịrị wee kpọọ iwu Sprout's dị ka ngalaba nkwenye ID 0, ntọala tupu mmelite ọ bụla.
+Sprout bụ mmalite mbụ nke Zcash, ọ bụghị upgrade mechara mee. Ọ nọ na-arụ ọrụ kemgbe genesis block (block 0) na Ọktoba 28, 2016, ya mere enweghị ogo mmegharị a pụrụ ịrụtụ aka na ya. Usoro network upgrade bịara ka e mesịrị ma kpọọ iwu Sprout consensus branch id 0, ntọala tupu upgrade ọ bụla.
 </details>
 
-### akụrụngwa
+### Akụrụngwa
 
-[ZIP 200: Usoro Mmelite Netwọk](https://zips.z.cash/zip-0200)
+[ZIP 200: Usoro Network Upgrade](https://zips.z.cash/zip-0200)
 
-[Mmelite netwọkụ Zcash](https://z.cash/upgrade/)
+[Zcash network upgrades](https://z.cash/upgrade/)
 
 [Electric Coin Company: Mmalite Zcash Sprout](https://electriccoin.co/blog/zcash-sprout-launch/)
 
-[Electric Coin Company: Nhazi nke Ememme ahụ](https://electriccoin.co/blog/the-design-of-the-ceremony/)
+[Electric Coin Company: Nhazi Emume ahụ](https://electriccoin.co/blog/the-design-of-the-ceremony/)
 
-### Leekwa
+### Hụ kwa
 
-[Ọdọ Mmiri E Kpuchiri Ekpuchi](../using-zcash/shielded-pools)
+[Nke e chebere echebe Pools](../using-zcash/shielded-pools)
 
 [zk-SNARKs](../zcash-tech/zk-snarks)
 
-[Mmelite netwọkụ Zcash](../start-here/network-upgrades)
+[Zcash Network Upgrades](../start-here/network-upgrades)
 
-[Kedu ihe bụ ZEC na Zcash](../start-here/what-is-zec-and-zcash)
+[Gịnị bụ ZEC na Zcash](../start-here/what-is-zec-and-zcash)
 
 [Electric Coin Company](../zcash-organizations/electric-coin-company)
 
 ---
 
-Usoro: [Ndepụta Mmelite Netwọk](../start-here/network-upgrades) · Osote: [Overwinter](../zcash-tech/overwinter)
+Usoro: [Ndepụta Network Upgrades](../start-here/network-upgrades) · Nke na-esote: [Overwinter](../zcash-tech/overwinter)

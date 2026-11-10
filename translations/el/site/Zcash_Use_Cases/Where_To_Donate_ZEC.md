@@ -11,7 +11,7 @@
 
 - Εννέα μη κερδοσκοπικοί οργανισμοί δημοσιεύουν μια διεύθυνση ZEC. Πέντε από αυτούς χρησιμοποιούν θωρακισμένη διεύθυνση, ώστε η δωρεά σου να παραμένει ιδιωτική on-chain
 - Τέσσερις γνωστοί μη κερδοσκοπικοί οργανισμοί δέχονται ZEC μόνο σε διαφανή διεύθυνση: EFF, Freedom of the Press Foundation, το Project Tor και το Internet Archive
-- Πλατφόρμες δωρεών όπως το Giving Block και το Every.org δέχονται ZEC για χιλιάδες φιλανθρωπικές οργανώσεις, αλλά καμία δεν αναφέρει ότι υποστηρίζει θωρακισμένο ZEC
+- Πλατφόρμες δωρεών όπως The Giving Block και το Every.org δέχονται ZEC για χιλιάδες φιλανθρωπικές οργανώσεις, αλλά καμία δεν αναφέρει ότι υποστηρίζει θωρακισμένο ZEC
 - Αν χρειάζεσαι φορολογική απόδειξη, έλεγξε τη σημείωση κάθε οργανισμού παρακάτω πριν κάνεις τη δωρεά
 
 <br/>
@@ -65,9 +65,9 @@
 
 | Πλατφόρμα | Τι είναι | ZEC |
 |---|---|---|
-| [Το Giving Block](https://thegivingblock.com/resources/cryptocurrency-we-accept/) | Υπηρεσία δωρεών crypto που χρησιμοποιείται από πολλούς μη κερδοσκοπικούς οργανισμούς στις ΗΠΑ | Αναφέρεται |
+| [The Giving Block](https://thegivingblock.com/resources/cryptocurrency-we-accept/) | Υπηρεσία δωρεών crypto που χρησιμοποιείται από πολλούς μη κερδοσκοπικούς οργανισμούς στις ΗΠΑ | Αναφέρεται |
 | [Every.org](https://support.every.org/hc/en-us/articles/1500007829861-What-cryptocurrencies-coins-and-exchanges-does-Every-org-support) | Πλατφόρμα δωρεών για φιλανθρωπικές οργανώσεις στις ΗΠΑ | Αναφέρεται |
-| [Το Signatry](https://thesignatry.com/asset-giving/cryptocurrency/) | Χριστιανικό donor-advised fund | Αναφέρεται στη σελίδα crypto του· ρώτησέ τους πρώτα |
+| [The Signatry](https://thesignatry.com/asset-giving/cryptocurrency/) | Χριστιανικό donor-advised fund | Αναφέρεται στη σελίδα crypto του· ρώτησέ τους πρώτα |
 
 <br/>
 

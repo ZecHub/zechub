@@ -3,27 +3,27 @@
 </a>
 
 
-# Zcash Podcast na Digital Cash Network
-![Nseta ihuenyo_2023-01-22_21-50-14](/content-images/213973803-b0629c92-08d4-459b-99f1-594854-6272d02af6.webp)
+# Pọdkastị Zcash na Digital Cash Network
+![Screenshot_2023-01-22_21-50-14](/content-images/213973803-b0629c92-08d4-459b-99f1-594854-6272d02af6.webp)
 
-Zcash Podcast na-akwado ọdịnaya dị ka mmelite, isiokwu miri emi miri emi, wdg maka obodo Zcash dị ugbu a iji rie ma kesaa, yana inye ohere maka ndị debanyere aha ọwa Digital Cash Network dị adị ịmatakwu nke ọma na Zcash. 
+Pọdkastị Zcash na-akwado ọdịnaya dịka mmelite, nchọpụta miri emi banyere isiokwu kpọmkwem, wdg., ka obodo Zcash dị ugbu a rie ma kesaa, nakwa inye ndị debanyere aha na ọwa Digital Cash Network ohere ịmatakwu Zcash nke ọma.
 
-Kpọmkwem, ọwa a lekwasịrị anya na:
+Kpọmkwem, ọwa a na-elekwasị anya na:
 
-* atụmanya nke ibi ndụ na-enweghị akụ na cryptocurrency na decentralizing ndụ gị dum.
-* ịhazi obodo nke nwere ike ịmasị ụkpụrụ na teknụzụ Zcash ma e jiri ya tụnyere ndị na-ege ntị crypto.
+* echiche banyere ibi ndụ n’enweghị ụlọ akụ site n’iji mkpụrụ ego kripto [cryptocurrency], yana ime ka ndụ gị dum bụrụ nke a na-achịkwaghị achịkwa.
+* ịhazi obodo nwere ohere ka ukwuu inwe mmasị n’ụkpụrụ na teknụzụ Zcash karịa ndị na-ege ntị kripto nkịtị.
 
-Additionally, the live format creates a sense of connection with the audience, who are able to participate and ask questions live of the host and guests, ideal for reaching new fans, while still allowing the long-form content to be consumed later.
-
-
-[Aha egwu dị ugbu a](https://youtube.com/playlist?list=PLBFOSRGoT80W5EAebpT9zwXu6OTS1mq8w)
+Na mgbakwunye, usoro mgbasa ozi dị ndụ na-emepụta mmetụta njikọ na ndị na-ege ntị, ndị nwere ike isonye ma jụọ onye na-akwado ya na ndị ọbịa ajụjụ ozugbo, nke dị mma maka iru ndị na-akwado ọhụrụ, ma ka na-enye ohere ka e rie ọdịnaya ogologo oge ma emechaa.
 
 
-  * Zcash Podcast 1 na Nathan Wilcox: Zcash's Evolution Past to Present [YouTube](https://youtu.be/tCrFmK-5Enc) [Odysee](https://odysee.com/@DigitalCashNetwork:c/Zcash-Podcast-2:a) |
-  * Zcash Podcast 2 na Aditya Bharadwaj: Ngwa ndị ọrụ njedebe na nnabata Zcash [YouTube](https://youtu.be/sK13gwtTaCQ) [Odysee](https://odysee.com/@DigitalCashNetwork:c/Zcash-Podcast-1:8) |
-  * Zcash Podcast 3 na Ian Sagstetter: ZecHub na Zcash's Growing Community Initiatives [YouTube](https://www.youtube.com/watch?v=0tIK6vBM3-s) [Odysee](https://odysee.com/@DigitalCashNetwork:c/Zcash-Podcast-3:a) |
-  * Zcash Podcast 4 na Seth Maka Nzuzo: Echiche mpụga na Zcash na Nzuzo [YouTube](https://www.youtube.com/watch?v=C8ItmDFjczQ&list=PLBFOSRGoT80W5EAebpT9zwXu6OTS1mq8w&index=4) [Odysee](https://odysee.com/@DigitalCashNetwork:c/Zcash-Podcast-4:3) |
+[Ndepụta egwu dị ugbu a](https://youtube.com/playlist?list=PLBFOSRGoT80W5EAebpT9zwXu6OTS1mq8w)
 
-  * Zcash Podcast 5 na Naomi Brockwell: Otu esi ebi ndụ nke oge a na-echebara ndụ nzuzo echiche. [YouTube](https://www.youtube.com/watch?v=GpZAY5O2nJQ&list=PLBFOSRGoT80W5EAebpT9zwXu6OTS1mq8w&index=6) [Odysee](https://odysee.com/@DigitalCashNetwork:c?view=content) |
-  * Zcash Podcast 6 na Zooko Wilcox: Ọchịchị na Zcash's Path Ahead [YouTube](https://www.youtube.com/watch?v=VZeM7bvWWPg&list=PLBFOSRGoT80W5EAebpT9zwXu6OTS1mq8w&index=6&pp=iAQB) [Odysee](https://t.co/MDW7FoXgxm)|
-  * Zcash Podcast 7 na Jake nke ZecSpends: Iji Zcash dị ka Digital Cash Taa [YouTube](https://www.youtube.com/live/yZ1Y1qMu3UE) [Odysee](https://odysee.com/@DigitalCashNetwork:c/Zcash-Podcast-7:0)|
+
+  * Zcash Pọdkastị 1 na Nathan Wilcox: Mgbanwe Zcash site n’oge gara aga ruo ugbu a | [YouTube](https://youtu.be/tCrFmK-5Enc) | [Odysee](https://odysee.com/@DigitalCashNetwork:c/Zcash-Podcast-2:a) |
+  * Zcash Pọdkastị 2 na Aditya Bharadwaj: Ngwa ndị ọrụ ikpeazụ na nnabata Zcash | [YouTube](https://youtu.be/sK13gwtTaCQ) | [Odysee](https://odysee.com/@DigitalCashNetwork:c/Zcash-Podcast-1:8) |
+  * Zcash Pọdkastị 3 na Ian Sagstetter: ZecHub na atụmatụ obodo Zcash na-eto eto | [YouTube](https://www.youtube.com/watch?v=0tIK6vBM3-s) | [Odysee](https://odysee.com/@DigitalCashNetwork:c/Zcash-Podcast-3:a) |
+  * Zcash Pọdkastị 4 na Seth For Privacy: Echiche sitere n’èzí gbasara Zcash na Nzuzo [Privacy] | [YouTube](https://www.youtube.com/watch?v=C8ItmDFjczQ&list=PLBFOSRGoT80W5EAebpT9zwXu6OTS1mq8w&index=4) | [Odysee](https://odysee.com/@DigitalCashNetwork:c/Zcash-Podcast-4:3) |
+
+  * Zcash Pọdkastị 5 na Naomi Brockwell: Otu esi ebi ndụ ọgbara ọhụrụ nke na-elebara Nzuzo anya | [YouTube](https://www.youtube.com/watch?v=GpZAY5O2nJQ&list=PLBFOSRGoT80W5EAebpT9zwXu6OTS1mq8w&index=6) | [Odysee](https://odysee.com/@DigitalCashNetwork:c?view=content) |
+  * Zcash Pọdkastị 6 na Zooko Wilcox: Gọọmentị [Governance] na ụzọ Zcash ga-esi gaa n’ihu | [YouTube](https://www.youtube.com/watch?v=VZeM7bvWWPg&list=PLBFOSRGoT80W5EAebpT9zwXu6OTS1mq8w&index=6&pp=iAQB) | [Odysee](https://t.co/MDW7FoXgxm)|
+  * Zcash Pọdkastị 7 na Jake nke ZecSpends: Iji Zcash dị ka ego dijitalụ taa | [YouTube](https://www.youtube.com/live/yZ1Y1qMu3UE) | [Odysee](https://odysee.com/@DigitalCashNetwork:c/Zcash-Podcast-7:0)|

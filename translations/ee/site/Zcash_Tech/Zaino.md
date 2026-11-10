@@ -1,93 +1,93 @@
-# Zaino Indexɔla
+# Zaino Nyatakaka ƒe Xexlẽla
 
-Zaino nye Rust ƒe indexɔ na Zcash blockchain. Exlẽa nu tso kadodo me datawo ŋu le Zebra full node eye wònaa nyatakaka siwo gaɖaba, explorer, faucets kple dɔ bubuwo hiãna evɔ megana be Zebra ŋutɔ nanɔ te ɖe client-facing Index ɖesiaɖe dzi o.
+Zaino nye Rust nyatakaka ƒe xexlẽla na Zcash gaɖoɖowo ƒuƒoƒo ƒe ɖoɖonu [blockchain]. Etsɔ ɖoɖonu [chain] ƒe nyatakakawo xlea tso Zebra ɣaɣla dzesi ŋɔŋlɔ blibo [full node] me, eye wòtsɔ nyatakaka si gakotokuwɔ [wallet], explorers, ga suewo nanaƒewo [faucet], kple dɔwɔƒe bubuwo hia naa wo, menye be Zebra ŋutɔ nanɔ agbagba be yea wòanɔ client ƒe ŋgɔ ƒe xexlẽwo katã wɔ.
 
-## TL;DR
+## Nyatakaka Kpuie
 
-* Zebra ɖo kpe Zcash ƒe kɔsɔkɔsɔ dzi.
-* **Zaino** fiaa Zebra ƒe nudzroƒe ŋuti nyatakakawo eye wòɖea client-facing API la fiana.
-* Zallet nye gaɖabaƒle ƒe akpa le Z3 la me. Le default Z3 setup, Zallet ƒoa nu kple Zebra tẽe eye medina Zaino si nɔa eɖokui dzi o.
-* Zaino ƒe dɔwɔwɔ si le eɖokui si la nyo ne dɔwɔlawo hiã gRPC nuƒleƒe siwo wɔ ɖeka kple lightwalletd, JSON-RPC amedɔdɔ alo mɔ̃ɖaŋunuwo na gaɖigbalẽvi suewo (light wallets), numekulawo, tsimɔwo kpakple dɔ bubuwo.
-* Zaino nye mɔ̃ɖaŋunu si le dɔ wɔm, gake ele be dɔwɔlawo nakpɔ nyatakaka siwo ku ɖe eƒe dɔwɔwɔ ŋu la tso Zaino kple Z3 ƒe agbalẽwo me hafi wòate eŋu ɖoɖo.
+* **Zebra** dea Zcash ƒe ɖoɖonu dzi.
+* **Zaino** xlea Zebra ƒe ɖoɖonu ƒe nyatakakawo eye wòna API siwo le client ƒe ŋgɔ.
+* **Zallet** nye gakotoku ƒe akpa le Z3 ƒe ɖoɖo me. Le Z3 ƒe ɖoɖo si wowɔ do ŋgɔ la me, Zallet ƒoa nu kple Zebra tẽ, eye wòmehia be woawɔ Zaino dɔwɔƒe si le eƒe ŋutɔ.
+* Zaino dɔwɔƒe si le eƒe ŋutɔ la wɔnɛ na dɔwɔlawo ne wohia gRPC ƒe teƒe si sɔ kple lightwalletd, JSON-RPC ƒe proxy, alo ɖoɖo na gakotoku siwo me, explorers, ga suewo nanaƒewo, kple dɔwɔƒe siwo sɔ kple wo.
+* Zaino nye ɖoɖo si le dɔ wɔm fifia, gake dɔwɔlawo ele be woakpɔ Zaino kple Z3 ƒe nyatakaka si le zãm fifia hafi woawɔe le production me.
 
-## Nusi Zaino Wɔna
+## Nu Si Zaino Wɔna
 
-Zaino nɔa Zebra kple client software dome. Zebra nye consensus node: eɖea Zcash blockchain la, edzroa eme eye wònɔa eyome. Zaino zãa Zebra abe eƒe chain data ƒe tsotso ene, emegbe eɖea indexed views siwo dzi client applications ate ŋu abia nyawo le nyuie.
+Zaino nɔa Zebra kple client ƒe mɔ̃wo dome. Zebra nye gbegbɔgblɔ ɖi [consensus] ƒe ɣaɣla dzesi ŋɔŋlɔ [node]: ewɔ download, ekpɔ ɖoɖonu ƒe nyateƒe, eye wòzɔ ɖe Zcash gaɖoɖowo ƒuƒoƒo ƒe ɖoɖonu dzi. Zaino zãa Zebra abe eƒe ɖoɖonu ƒe nyatakaka ƒe teƒe ene, eye wòdzra nyatakaka si woexlẽ ɖo be client ƒe applicationwo ate ŋu abiabia wo bɔbɔe.
 
-Woƒe akpa vovovoawo me mama alea nana dɔdeasiwo nɔa bɔbɔe:
+Mama wɔnɛ be dɔwɔƒeawo ƒe dɔwo nɔ kɔ:
 
-| Kpeɖeŋutɔ | Wɔƒe |
+| Akpa | Eƒe Dɔ |
 |:--|:--|
-| Zebra | Node blibo kple validator |
-| Zaino | Indexer kple asisiwo-dze ŋgɔ API subɔsubɔdɔ |
-| Zallet | Gakotoku ƒe subɔsubɔdɔ |
-| lightwalletd | Kekeli gakotoku ƒe dɔwɔƒe xoxo si wowɔ Zaino be wòaɖɔli alo akpe ɖe eŋu |
+| Zebra | Ɣaɣla dzesi ŋɔŋlɔ blibo kple nyateƒe ƒe kpɔla |
+| Zaino | Nyatakaka ƒe xexlẽla kple API dɔwɔƒe si le client ƒe ŋgɔ |
+| Zallet | Gakotoku ƒe dɔwɔƒe |
+| lightwalletd | Gakotoku si me ƒe server xoxotɔ si Zaino woɖoe be wòatsɔ teƒe na alo wòakpe ɖe eŋu |
 
-Zaino naa dɔwɔwɔ na light clients, full clients alo wallets kple block explorers. Ena mɔɖeɖe be woaɖo kpe edzi le kɔsɔkɔsɔ si ŋu wowɔ ɖoɖo ɖo la dzi, kɔsɔkpo nyuitɔ siwo womewɔe haɖe o kpakple mempool data siwo Zebra lé ɖe asi me.
+Zaino naa dɔwɔnu na nyatakaka si hiã ƒe mɔwo [light client], client blibowo alo gakotokuwɔ, kple gaɖoɖowo ƒuƒoƒe [block] ƒe explorers. Ena mɔ woakpɔ ɖoɖonu si wowɔ ɖo, ɖoɖonu nyuitɔ si womede ɖo haɖe o, kple mempool ƒe nyatakaka si Zebra le ɖasi.
 
-## Alesi Wòsɔ Ðe Zcash-Gazã Si Li Egbea Nue
+## Ale Si Wòle Le Zcash Ƒe Ɖoɖo Si Le Zãm Fifi La Me
 
-Z3 ƒe nuɖoanyi si li fifia la ku ɖe Zebra, Zallet kple Zaino ŋu.
+Z3 ƒe ɖoɖo si le zãm fifia tu ɖe Zebra, Zallet, kple Zaino si wòate ŋu anya la dzi.
 
-Le Z3 ƒe ɖoɖowɔɖi me la, Zebra kple Zallet wɔa dɔ ɖekae. Zallet yia Zebra tẽe, eyata ne ame aɖe le gaɖabawo dzi ko la mahiã be wòadze Zaino si nɔa eɖokui si ɖeɖe gɔme o.
+Le Z3 ƒe ɖoɖo si wowɔ do ŋgɔ la me, Zebra kple Zallet wɔa dɔ ɖekae. Zallet va ɖe Zebra tẽ, eyata dɔwɔla si le gakotoku ƒe ɖoɖo le eƒe teƒe ko wɔm la mehia be wòadzɔ Zaino dɔwɔƒe si le eƒe ŋutɔ o.
 
-Woɖoa Zaino ɖe edzi ne dɔwɔlaa di be yeasubɔ ame bubuwo. Le Z3 me la, enɔa megbe na dɔdzikpɔlawo ƒe asitelefonwo le Internet dzi. `indexer` Ŋlɔ wò nyatakakawo ɖi eye nàgblɔ be:
+Woɖea Zaino kpe ɖe eŋu ne dɔwɔla di be yeana dɔ na client siwo le afima. Le Z3 me, wɔa dɔ le `indexer` Compose profile megbe eye wòkpea ɖe eŋu be:
 
-* lightwalletd-sɔna kple gRPC nuƒleƒe na gaƒoɖokuisi siwo me nya aɖeke mele o, eye wo ŋu dɔ le bɔbɔe.
-* JSON-RPC ƒe amedɔdɔ na explorerwo, faucets kple service backends
-* indexer database si le vovo tso Zebra ƒe chain state gbɔ.
+* GRPC ƒe teƒe si sɔ kple lightwalletd na gakotoku si me ƒe clientwo
+* JSON-RPC ƒe proxy na explorers, ga suewo nanaƒewo, kple service backendwo
+* Xexlẽla ƒe database si to vovo na Zebra ƒe ɖoɖonu ƒe nɔnɔme
 
-Esia na Zaino wɔa dɔ nyuie le gaɖakawo, dugã me mɔ̃ɖaŋudɔwɔlawo, tsaɖilawo kple nuƒlela siwo doa Zcash ƒe nyatakakadzraɖoƒewo kpɔna la dome.
+Eya ta Zaino le vevie na gakotoku ƒe backendwo, dɔwɔla siwo le dukɔ blibo ƒe ɖoɖo wɔm, explorers, ga suewo nanaƒewo, kple mɔ̃ ƒe ɖoɖoŋlɔlawo [developer] siwo le dɔwɔƒe siwo hia Zcash ƒe ɖoɖonu nyatakaka si woexlẽ ɖo la dometɔwo kpɔm.
 
-## Zaino kple lightwalletd
+## Zaino Kple lightwalletd
 
-lightwalletd nye Light Wallet Server gbãtɔ. Zaino enye Rust-based successor path na dɔ sia wɔwɔ. Eƒe taɖodzinu enye be wòana API siwo sɔ le afisiwo woate ŋui alebe gaɖigbalẽ kple dɔwɔƒewo ate ŋu atrɔ ayi teƒe bubu evɔ womagate ŋu aŋlɔ wo katã ɖe ɖekaɖeka o.
+lightwalletd nye gakotoku si me ƒe server gãtɔ. Zaino nye mɔ si doa ɖe Rust dzi na dɔ sia. Eƒe taɖodzinu nye be wòana API siwo sɔ kple wo le afi si wòate ŋu, ale be gakotokuwɔ kple dɔwɔƒeawo nate ŋu atrɔ va eŋu mekpɔ be woagblẽ wo katã gake ɖe kɔkɔe.
 
-ema mefia be lightwalletd ƒe dɔwɔnawo katã va le Zaino. Ele na dɔwɔlawo be woabu Zaino abe woƒe Zebra-dɔwɔƒe si li fifia la tɔ ene eye woalé ŋku ɖe ɖoɖo yeyeawo, agbalẽ siwo woɖe asi le eŋu kple nuɖoɖonuƒo ŋu hafi atso nya me le nusi woawɔ ŋu.
+Esia mefia be lightwalletd ƒe ɖoɖowo katã trɔ va Zaino dzi xoxo o. Dɔwɔlawo ele be woakpɔ Zaino abe Zebra-based ɖoɖo si le zãm fifia ƒe akpa ene, eye woakpɔ project ƒe nyatakaka yeyewo, releases, kple service ɖoɖowo ƒe ɖoɖowo ƒuƒopé [dashboard] hafi woatia nu si woawɔ.
 
-## Dɔwɔla Ƒe Ŋkuɖodzinyawo
+## Dɔwɔla Ƒe Nɔteƒe Nyatakakawo
 
-Mɔ bɔbɔe si dzi woato awɔ dɔe nye Z3 ƒe nudzraɖoƒe. Z3 lɔ Zaino ɖe eme abe tiatiawɔƒe ene:
+Mɔ bɔbɔe si wɔa dɔ le authority me na deployment nye Z3 ƒe repository. Z3 tsɔa Zaino dea eme abe service si wòate ŋu anya ene:
 
 ```bash
 docker compose --env-file .env.<network> --profile indexer up -d
 ```
 
-Zã Z3 ƒe ɖoɖowɔɖi si sɔ gbã eye nàlala Zebra nawɔ ɖeka hafi adze dɔwɔƒe siwo ŋu wòle te ɖo la gɔme le mainnet alo testnet dzi.
+Wɔ Z3 ƒe ɖoɖo si wozãa ɣea gbã do ŋgɔ, eye nɔ anyi ne Zebra ade sync hafi nàdzɔ dɔwɔƒe siwo ɖe eŋu le mainnet alo testnet dzi.
 
-Zaino ɖe network service eve fia. gRPC nye lightwallet-facing API la. JSON-RPC ƒe ɖoɖo le loopback alo trusted private networks dzi negbe ne external layer na protection o ko. Don't expose an unauthenticated or unencrypted JSON RPC endpoint to the public internet.
+Zaino ɖea network dɔwɔƒe ƒomevi eve fia. GRPC ƒe dɔwɔƒe nye API si le lightwallet ƒe ŋgɔ. JSON-RPC ƒe dɔwɔƒe la wotu eɖe loopback alo private network siwo wobɔ ŋu ko, negbe be akpa bubu nana dzɔdzɔe. Mègana JSON-RPC ƒe teƒe si me authentication alo encryption mele o nado go ɖe public internet dzi o.
 
-## Nɔnɔmetata aɖewo siwo fia alesi Zaino wɔa dɔe
+## Nɔnɔmetata Aɖewo Siwo Fia Ale Si Zaino Wɔa Dɔ
 
-### Zaino Gɔmeɖeɖewo ƒe Atikewɔwɔ
+### Zaino Ƒe Nɔnɔme Le Eme
 
 ![Zaino Internal Architecture](/content-images/image-2025-01-02-190143429-3f3cc78fa5.webp)
 
-### Zaino Live Service Architecture (Zainɔ Agbe Kpekpeɖeŋunaƒe ƒe Aɖaŋuɖoɖoa)
+### Zaino Ƒe Dɔwɔƒe Nɔnɔme Si Le Agbe
 
 ![Zebra Live Service Architecture](/content-images/image-2025-01-02-190349017-892cb409ea.webp)
 
-### Zaino System Architecture (Zainɔ Ðoɖo ƒe Aɖaŋuɖoɖo)
+### Zaino Ƒe System Nɔnɔme
 
 ![Zaino System Architecture](/content-images/image-2025-01-02-190448037-1e4e675ccb.webp)
 
-## Vodada Siwo Dzɔna Zi Geɖe La
+## Vodada Siwo Dzɔna Zi Geɖe
 
-**Etsɔ Zaino wɔ nu abe nudɔ blibo ene.** Menye Zaino ye nye validator o. Zebra dea dzesi kɔsɔkɔsɔa; Zaino hea nyatakakawo tso Zebra gbɔ.
+**Be woatrɔ Zaino abe ɣaɣla dzesi ŋɔŋlɔ blibo ene.** Zaino menye nyateƒe ƒe kpɔla o. Zebra kpɔa ɖoɖonu ƒe nyateƒe; Zaino xlea nyatakaka tso Zebra me.
 
-**Ne míebuna be Z3 ƒe dɔwɔna ɖesiaɖe hiã Zaino si le eɖokui si.** Zallet ate ŋu aɖo Zebra gbɔ tẽe tso default Z3 stack me. Dze Zaino gɔme ne èhiã indexer-dɔwɔƒe siwo li wo ɖokui ɖeɖeko na ame bubuwo la.
+**Be woabu be Z3 ƒe ɖoɖo sia sia hia Zaino si le eƒe ŋutɔ.** Zallet ate ŋu ava ɖe Zebra tẽ le Z3 ƒe ɖoɖo si wowɔ do ŋgɔ la me. Dzɔ Zaino ne wòhia xexlẽla ƒe dɔwɔƒe si le eƒe ŋutɔ na client siwo le afima.
 
-**Etsɔ nuŋɔŋlɔ siwo woɖo ɖi la le alesi wowɔe xoxo me.** Zaino li eye wole etum, eyata kpɔ nyatakakawo kple agbalẽvi si wota fifia ƒe nyawo ɖa hafi nàgblɔ be nane li.
+**Be woagblɔ nu si woɖoe be woawɔ la abe nu si wode dɔm xoxo ene.** Zaino le mɔ̃ ƒe ɖoɖo me sesĩe, eyata kplɔ release ƒe nyatakakawo kple docs si le zãm fifia ɖo hafi nàgblɔ be feature aɖe li.
 
-** JSON-RPC ɖeɖe fia le ŋuɖɔɖotɔe me.** Zaino ƒe JSON RPC interface nye loopback alo trusted private networks negbe ɖe wole dedem kple layer bubu.
+**Be woaɖe JSON-RPC fia keŋkeŋ.** Zaino ƒe JSON-RPC ƒe interface nye loopback alo private network siwo wobɔ ŋu ko, negbe be akpa bubu aɖe le eŋu dom.
 
-## Afi kae magate ŋu asrɔ̃ nu geɖe le?
+## Afika Nɔate Ŋu Asrɔ̃ Nu Geɖe?
 
-* [Zaino GitHub ƒe nudzraɖoƒe](https://github.com/zingolabs/zaino)
-* [Zaino ƒe nuƒowo](https://github.com/zingolabs/zaino/releases)
-* [Zaino ƒe agbalẽwo](https://zingolabs.github.io/zaino/)
-* [Z3 ƒe dɔwɔƒe si woazã na ame bubuwo.](https://github.com/ZcashFoundation/z3)
-* [Zebra ƒe agbalẽwo](https://zebra.zfnd.org/)
-* [Zaino ƒe gakpekpeɖeŋu kple ɖoɖowo me dzodzro](https://forum.zcashcommunity.com/t/zingo-labs-accelerates-zcashd-deprecation-with-zaino/48545)
+* [Zaino GitHub ƒe repository](https://github.com/zingolabs/zaino)
+* [Zaino ƒe releases](https://github.com/zingolabs/zaino/releases)
+* [Zaino ƒe nyatakaka si wowɔ](https://zingolabs.github.io/zaino/)
+* [Z3 ƒe deployment repository](https://github.com/ZcashFoundation/z3)
+* [Zebra ƒe nyatakaka](https://zebra.zfnd.org/)
+* [Zaino ƒe ga ƒe kpekpeɖeŋu [grant] kple project ƒe ƒoƒo](https://forum.zcashcommunity.com/t/zingo-labs-accelerates-zcashd-deprecation-with-zaino/48545)
 
-** Wowɔ tɔtrɔ mamlɛtɔ le:** August 2026
+**Wotrɔe zi mamlɛtɔ:** August 2026
