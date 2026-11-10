@@ -69,6 +69,7 @@
 
 ## [eZcash](https://play.google.com/store/apps/details?id=com.Nerdbank.eZcash.App)
 ![logo](/content-images/wallets/ezcash.webp "eZcash")
+- Status: Deprecated
 - Devices: Mobile | Desktop
 - Operating System: Android | iOS | Windows
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address
@@ -185,7 +186,7 @@
 - Wallet Support: Seed Phrase | Unified Address | Hardware
 - Pools: Transparent | Sapling | Ironwood
 - Features: Multi Account | Payment Links | Pool Transfer | Shielded Memo
-- NU7: In Progress
+- NU7: Compatible
 
 ---
 
@@ -293,7 +294,7 @@
 - Wallet Support: Seed Phrase | Unified Address | Hardware
 - Pools: Transparent | Sapling | Ironwood
 - Features: Gift Cards | NEAR Intents | Shielded Memo | Testnet Support | Voting
-- NU7: In Progress
+- NU7: Compatible
 
 ---
 
@@ -361,7 +362,7 @@
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address | Spending Key | Full Node
 - Pools: Ironwood
 - Features: Address Book | I2P Support | Shielded Memo | Tor Support | Transaction Export
-- NU7: In Progress
+- NU7: Compatible
 
 ---
 
@@ -384,7 +385,7 @@
 - Wallet Support: Seed Phrase | Spending Key | Private Key
 - Pools: Transparent | Sprout | Sapling | Ironwood
 - Features: Command Line Interface | Shielded Memo | Testnet Support | Wallet Recovery
-- NU7: In Progress
+- NU7: Compatible
 
 ---
 
