@@ -6535,11 +6535,11 @@
       "edited": false
     },
     "Zcash_Tech/Ironwood.md": {
-      "src": "sha256:7fc583d7f103ebd4be135146f25fcc4e5563a4702d43eba320af538ba20d87b0",
-      "src_commit": "4278910bf8dd3f4ccc522204674bebe2839d960b",
-      "engine": "gt",
+      "src": "sha256:a0db636cfc7c45103d9b8f5dcc5d2d10f30e6cf16056461ac37be1de9193b40c",
+      "src_commit": "be6691c2f96da7ad65e8c50a35cdeb4e3bba7a1a",
+      "engine": "llm",
       "mode": "full",
-      "tool": "codex-regen+handfix",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "Zcash_Tech/Is_Zcash_Post_Quantum.md": {
@@ -16659,6 +16659,14 @@
     "Zcash_Use_Cases/Where_To_Donate_ZEC.md": {
       "src": "sha256:45d7f6a6946f7d534acadcea2b9e1e006ea5e6c038d51d3f02538064cb22b6a3",
       "src_commit": "a838aa063bd26f2f850a41f850ce05902ee209cd",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
+    },
+    "Zcash_Tech/Outgoing_View_Keys.md": {
+      "src": "sha256:37d531d73c53b1a9c10e5bc4d630d595ff57a568e5bbf2e1d4341648d3f543c0",
+      "src_commit": "be6691c2f96da7ad65e8c50a35cdeb4e3bba7a1a",
       "engine": "llm",
       "mode": "full",
       "tool": "codex/gpt-5.6-terra",
