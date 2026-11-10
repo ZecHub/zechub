@@ -4,91 +4,91 @@
 
 # Blossom
 
-> Blossom はブロック 653,600（2019年12月11日 UTC）で Zcash メインネット上で稼働を開始しました。
+> Blossom は、Zcash のメインネットでブロック653,600（UTC 2019年12月11日）に稼働を開始しました。
 
-ここでわかること: Blossom が、ネットワークが時間の経過とともに生成する ZEC の量を変えずに、Zcash のブロック到着をどのようにして約2倍高速化したのか。
+ここで学べること：Blossomが、ネットワークが時間の経過とともに生成するZECの量を変えずに、Zcashのブロックを約2倍速く到着させた仕組みです。
 
-Blossom は Zcash の[ネットワークアップグレード](../start-here/network-upgrades)です。[ZIP 206](https://zips.z.cash/zip-0206) によって導入され、主なコンセンサス変更は [ZIP 208](https://zips.z.cash/zip-0208) で定義されています。Blossom はスケーラビリティ向上のためのアップグレードであり、ブロック間の目標時間を150秒から75秒に短縮し、その結果ブロックは約2倍の頻度で到着するようになりました。Blossom は Electric Coin Company が主導し、発表しました。
+Blossomは、Zcashの[ネットワークアップグレード（network upgrade）](../start-here/network-upgrades)です。[ZIP 206](https://zips.z.cash/zip-0206)によって導入され、その主要なコンセンサス（consensus）の変更は[ZIP 208](https://zips.z.cash/zip-0208)で定義されています。Blossomはスケーラビリティのアップグレードでした。ブロック間の目標時間を150秒から75秒に短縮し、ブロックが約2倍の頻度で到着するようにしました。Electric Coin CompanyがBlossomを主導し、発表しました。
 
-これが重要な理由。ZEC を送るとき、あなたはそれがブロックに取り込まれてネットワークに承認されるのを待ちます。ブロックが遅ければ、待ち時間も長くなります。Blossom 以前は、新しいブロックは約150秒ごとに生成されることが想定されていました。Blossom はその目標を半分の75秒に短縮したため、承認はより早く到着し、チェーンは同じ時間内により多くのトランザクションを処理できるようになりました。しかも、これによって ZEC の生成量が増えたり、将来の半減期のタイミングが前倒しになったりすることはありませんでした。
+これが重要である理由。ZECを送信すると、ネットワークがブロック内でそれを確認するまで待つ必要があります。ブロックが遅ければ、待ち時間も長くなります。Blossom以前は、新しいブロックは約150秒ごとに生成されることが想定されていました。Blossomはこの目標を半分の75秒にしたため、確認がより早くなり、チェーン（chain）は同じ時間内により多くのトランザクション（transaction）を処理できるようになりました。これは、より多くのZECを生成したり、将来の半減期（halving）の時期をずらしたりすることなく実現されました。
 
 ## より高速なブロック
 
-Blossom の中核となる変更はシンプルです。Zcash の目標ブロック間隔、つまりネットワークがあるブロックから次のブロックまでに目指す時間は、150秒から75秒に短縮されました（[ZIP 208](https://zips.z.cash/zip-0208)）。ブロックはプルーフ・オブ・ワークによって見つかるため、実際の間隔は変動しますが、ネットワークは今や150秒ごとではなく約75秒ごとに1つのブロックを目指しています。
+Blossomの中核となる変更は単純です。Zcashの目標ブロック間隔、すなわちネットワークが1つのブロックから次のブロックまでに目指す時間は、150秒から75秒へ短縮されました（[ZIP 208](https://zips.z.cash/zip-0208)）。ブロックはCorrected from 証明 per reviewer request of workによって見つかるため、実際の間隔は変動しますが、ネットワークは150秒ごとではなく約75秒ごとにブロックを生成することを目指すようになりました。
 
-ここから2つのことが導かれます。
+これにより、次の2点が生じます。
 
-1. ブロックは約2倍の頻度で到着するため、チェーンは時間あたりおよそ2倍のトランザクションを処理できます。
-2. 次のブロックを待つ時間が短くなるため、あなたのトランザクションは最初の承認をより早く得られます。
+1. ブロックは約2倍の頻度で到着するため、チェーンは単位時間あたりおよそ2倍のトランザクションを処理できます。
+2. 次のブロックを待つ時間が短くなるため、トランザクションの最初の確認をより早く得られます。
 
-![Blossom 前はブロック目標が150秒で、承認は遅く、スループットも低かった。Blossom 後は目標が75秒となり、承認は速くなり、スループットはおよそ2倍になった](/content-images/blossom-block-spacing-50b6bfbacc.webp)
+![Before Blossom the block target was 150 seconds with slower confirmations and lower throughput. After Blossom the target is 75 seconds with faster confirmations and roughly double the throughput](/content-images/blossom-block-spacing-50b6bfbacc.webp)
 
 ## 発行量を一定に保つ
 
-ブロックが速くなると、ある疑問が生じます。もし Zcash が2倍のブロックを生成し、しかも各ブロックが同じ報酬を払い続けるなら、ネットワークは2倍の速さで ZEC を生み出すことになります。Blossom はそれを回避します。各ブロックで支払われる報酬を半分にし、ブロック報酬の半減間隔を840,000ブロックから1,680,000ブロックへと2倍にしました（[ZIP 208](https://zips.z.cash/zip-0208)）。2倍のブロック数があり、それぞれの支払い額が半分になることで、時間あたりに生成される ZEC の総量は同じになります。総供給スケジュールと、将来の半減期のタイミングを実時間で見た場合、変化はありませんでした。
+ブロックの高速化には疑問が生じます。Zcashによってブロック数が2倍になり、各ブロックが同じ報酬を支払い続けた場合、ネットワークはZECを2倍の速さで生成することになります。Blossomはこれを回避します。ブロックごとの報酬を半分にし、ブロック報酬の半減期間隔を840,000ブロックから1,680,000ブロックへ2倍にしました（[ZIP 208](https://zips.z.cash/zip-0208)）。ブロック数が2倍になっても、それぞれの支払い額が半分であれば、単位時間あたりに生成されるZECの量は同じになります。総供給スケジュールと、実時間で測定した将来の半減期の時期は変わりませんでした。
 
-![Blossom がどのように発行量を一定に保つか: 75秒ブロックは2倍の頻度で到着し、1ブロックあたりの報酬は半減し、半減間隔は2倍になるため、時間の経過に伴う総発行量は同じままになる](/content-images/blossom-emission-balance-f2443e29ab.webp)
+![How Blossom keeps issuance steady: 75 second blocks arrive twice as often, the per-block reward is halved, the halving interval is doubled, so total emission over time stays the same](/content-images/blossom-emission-balance-f2443e29ab.webp)
 
 ## 必須のアップグレード
 
-Blossom は双方向のコンセンサス変更でした。これは、すべてのノードがチェーンを追従し続けるためにアップグレードしなければならなかったことを意味します（[ZIP 206](https://zips.z.cash/zip-0206)）。同期を維持したいノード運用者にとって、これは任意ではありませんでした。Blossom はメインネットのブロック 653,600 で有効化され、独自のコンセンサス branch id を持っています。これは、ノードやトランザクションが Blossom のルール上にいることを確認できるようにするタグです。このアップグレードには、Zcash の標準的なネットワークアップグレード機構が使われました（[ZIP 200](https://zips.z.cash/zip-0200)）。
+Blossomは双方向のコンセンサス変更であり、チェーンを追跡し続けるにはすべてのノード（node）がアップグレードする必要がありました（[ZIP 206](https://zips.z.cash/zip-0206)）。同期状態を維持したいノード運用者にとって、これは任意ではありませんでした。Blossomはメインネットのブロック653,600で有効化され、独自のコンセンサスブランチIDを持ちます。これは、ノードとトランザクションがBlossomのルールに従っていることを確認できるタグです。このアップグレードでは、Zcashの標準ネットワークアップグレード機構が使用されました（[ZIP 200](https://zips.z.cash/zip-0200)）。
 
-## Blossom の位置づけ
+## Blossomの位置付け
 
-Blossom は Zcash における3番目のネットワークアップグレードでした。Overwinter と Sapling に続き、その後に Heartwood と Canopy が来ました。Zcash の shielded 暗号技術を作り直した Sapling とは異なり、Blossom はスケールと速度に重点を置いていました。その主な役割はブロックのタイミングであり、新しいプライバシー機能ではありませんでした。
+Blossomは、Zcashにとって3番目のネットワークアップグレードでした。OverwinterおよびSaplingに続き、HeartwoodおよびCanopyより前に実施されました。SaplingがZcashのシールドされた（shielded）暗号技術を再構築したのとは異なり、Blossomは規模と速度に焦点を当てていました。主な目的は、新しいプライバシー（privacy）機能ではなく、ブロックのタイミングでした。
 
 ## 用語集
 
-| 用語 | 平易な意味 |
+| 用語 | 平易な説明 |
 |---|---|
-| Block target spacing | あるブロックから次のブロックまでにネットワークが目指す時間 |
-| Block reward | 各ブロックが採掘されるたびに新たに生成され支払われる ZEC |
-| Halving interval | ブロック報酬が半減するたびに経過するブロック数 |
-| Consensus branch id | ノードまたはトランザクションがどのネットワークルールの集合に従っているかを示すタグ |
-| Bilateral consensus change | ネットワークにとどまるためにすべてのノードが採用しなければならないルール変更 |
-| Network upgrade (NU) | 設定されたブロック高で有効化される、Zcash のコンセンサスルールへの協調的な変更 |
+| Block target spacing | ネットワークが1つのブロックから次のブロックまでに目指す時間 |
+| Block reward | 各ブロックがマイニング（mining）される際に、新たに生成され支払われるZEC |
+| Halving interval | ブロック報酬が半減するたびに通過するブロック数 |
+| Consensus branch id | ノードまたはトランザクションが従っているネットワークルールの組を示すタグ |
+| Bilateral consensus change | ネットワークにとどまるために、すべてのノードが採用しなければならないルール変更 |
+| Network upgrade (NU) | 所定のブロック高で有効化される、Zcashのコンセンサスルールに対する協調的な変更 |
 
-## FAQ
+## よくある質問
 
-Blossom は存在する ZEC の総量や半減期の時期を変えますか？ いいえ。1ブロックあたりの報酬は半減される一方で、半減間隔は同時に2倍になったため、時間あたりに生成される ZEC の量と、将来の半減期のタイミングは同じままでした。
+Blossomは、存在するZECの量や半減期が起きる時期を変えますか？ いいえ。ブロックごとの報酬は半分に、半減期間隔は同時に2倍になったため、単位時間あたりに生成されるZECの量と将来の半減期の時期は同じままでした。
 
-Blossom は私の ZEC やプライバシーに影響しますか？ いいえ。Blossom が変更したのはブロックのタイミングと報酬計算です。あなたの残高や shielded トランザクションには手を加えていません。
+Blossomは私のZECやプライバシーを変えますか？ いいえ。Blossomはブロックのタイミングと報酬計算を変更しました。残高やシールドされたトランザクションには影響しませんでした。
 
-75秒とは実際にはどういう意味ですか？ それは保証ではなく目標です。ブロックはプルーフ・オブ・ワークによって見つかるため、実際のブロック間隔は変動します。ネットワークは150秒ごとではなく、約75秒ごとに1ブロックを目指しています。
+75秒は実際には何を意味しますか？ これは保証ではなく目標です。ブロックはCorrected from 証明 per reviewer request of workによって見つかるため、ブロック間の実際の間隔は変動します。ネットワークは150秒ごとではなく、約75秒ごとに1つのブロックを生成することを目指しています。
 
-Blossom が有効化されたとき、私は何かする必要がありましたか？ フルノードを運用していたなら、Blossom は必須だったためアップグレードが必要でした。ウォレットを使っていたなら、新しいルールに対応したバージョンが必要でした。
+Blossomが有効化されたとき、何かする必要はありましたか？ フルノード（full node）を稼働させていた場合、Blossomは必須だったため、アップグレードする必要がありました。ウォレット（wallet）を使用していた場合は、新しいルールをサポートするバージョンが必要でした。
 
-なぜブロック報酬を半減させる必要があったのですか？ ブロックが今や2倍の速さで到着するからです。1ブロックあたりの報酬を半減させることで、ネットワークが2倍の速さで ZEC を生成してしまうのを防ぎます。
+なぜブロック報酬を半分にしたのですか？ ブロックが2倍の速さで到着するようになったためです。ブロックごとの報酬を半分にすることで、ネットワークがZECを2倍の速さで生成するのを防ぎます。
 
-Blossom はいつ有効化されましたか？ メインネットのブロック 653,600、2019年12月11日 UTC です。
+Blossomはいつ有効化されましたか？ 2019年12月11日 UTC、メインネットのブロック653,600です。
 
-## 理解度チェック
+## 理解度を確認する
 
-Blossom によって Zcash のブロックは約2倍の頻度で到着するようになりました。では、なぜ新しい ZEC が生成される速度は2倍にならなかったのでしょうか？
+Blossomにより、Zcashのブロックは約2倍の頻度で到着するようになりました。なぜ新しいZECが生成される速度は2倍にならなかったのでしょうか？
 
 <details>
-<summary>答え</summary>
+<summary>回答</summary>
 
-Blossom は1ブロックあたりの報酬も半減し、さらに半減間隔を840,000ブロックから1,680,000ブロックへと2倍にしたからです。ブロック数が2倍になっても、それぞれの支払い額が半分であれば、時間あたりの ZEC 総量は同じになります。したがって、実時間で見た発行スケジュールは変わりませんでした。
+Blossomが、ブロックごとに支払われる報酬を半分にし、半減期間隔を840,000ブロックから1,680,000ブロックへ2倍にしたためです。ブロック数が2倍になっても、それぞれの支払い額が半分であれば、単位時間あたりのZECは同じ量になります。そのため、実時間で測定した発行スケジュールは変わりませんでした。
 </details>
 
 ### リソース
 
-[ZIP 208: より短い目標ブロック間隔](https://zips.z.cash/zip-0208)
+[ZIP 208：より短い目標ブロック間隔](https://zips.z.cash/zip-0208)
 
-[ZIP 206: Blossom ネットワークアップグレードの展開](https://zips.z.cash/zip-0206)
+[ZIP 206：Blossomネットワークアップグレードの導入](https://zips.z.cash/zip-0206)
 
-[Blossom ネットワークアップグレード](https://z.cash/upgrade/blossom/)
+[Blossomネットワークアップグレード](https://z.cash/upgrade/blossom/)
 
-[Blossom アップグレードが速度、スケーラビリティ、処理能力を改善（Electric Coin Company）](https://electriccoin.co/blog/blossom-upgrade-improves-speed-scalability-capacity/)
+[Blossomアップグレードによる速度、スケーラビリティ、容量の改善（Electric Coin Company）](https://electriccoin.co/blog/blossom-upgrade-improves-speed-scalability-capacity/)
 
 ### 関連項目
 
-[Zcash ネットワークアップグレード](../start-here/network-upgrades)
+[Zcashネットワークアップグレード](../start-here/network-upgrades)
 
-[Zcash の金融政策](../start-here/zcash-monetary-policy)
+[Zcash金融政策](../start-here/zcash-monetary-policy)
 
-[ZEC と Zcash とは何か](../start-here/what-is-zec-and-zcash)
+[ZECとは何か、そしてZcash](../start-here/what-is-zec-and-zcash)
 
 [フルノード](../zcash-tech/full-nodes)
 
@@ -96,4 +96,4 @@ Blossom は1ブロックあたりの報酬も半減し、さらに半減間隔�
 
 ---
 
-シリーズ: [ネットワークアップグレード索引](../start-here/network-upgrades) · 前: [Sapling](../zcash-tech/sapling) · 次: [Heartwood](../zcash-tech/heartwood)
+シリーズ：[ネットワークアップグレード索引](../start-here/network-upgrades) · 前へ：[Sapling](../zcash-tech/sapling) · 次へ：[Heartwood](../zcash-tech/heartwood)

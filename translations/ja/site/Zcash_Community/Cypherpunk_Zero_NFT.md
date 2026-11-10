@@ -7,15 +7,15 @@
 
 # Cypherpunk Zero
 
-Cypherpunk Zeroは、若きサイファーパンクのハッカーであり自由の闘士であるZeroを中心としたストーリーシリーズです。Zeroは現在、ディストピアの悪夢の中で暮らしており、社会を縛る中央集権的な門番たちに対抗するためコードを使っています。この物語はZcashとHalo暗号技術から着想を得ました。このクリエイティブ作品は、ECC、Stranger World、Might Jaxx、および一部のエコシステムパートナーによる共同制作です。クリエイティブ作品は特に[NFTシリーズ](https://opensea.io/collection/cypherpunk-zero)に焦点を当てており、[コレクティブルトイ](https://mightyjaxx.com/products/cypherpunk-zero)もリリースされています。主にTwitterで活動するNFTコミュニティは、このキャンペーンと、より広範なZcashコミュニティを支援するプロジェクトを組織・遂行するため、[分散型組織（DAO）](https://twitter.com/CypherpunkDAO)まで設立しました。
+Cypherpunk Zeroは、若きサイファーパンク（Cypherpunk）のハッカーであり自由の闘士であるZeroを中心としたストーリーテリングシリーズです。Zeroは現在、ディストピアの悪夢の中で暮らしており、社会を束縛する中央集権的な門番たちに対抗するため、コードを用いています。この物語は、ZcashとHaloの暗号技術（cryptography）から着想を得ています。このクリエイティブ作品は、ECC、Stranger World、Might Jaxx、および選ばれたエコシステムパートナーによる共同制作です。クリエイティブ作品は主に、[NFTシリーズ](https://opensea.io/collection/cypherpunk-zero)に焦点を当てており、[コレクティブルトイ](https://mightyjaxx.com/products/cypherpunk-zero)もリリースされています。主にTwitterで活動するNFTコミュニティは、キャンペーンおよびより広範なZcashコミュニティを支援するプロジェクトを組織・完了するため、[分散型組織（decentralized organization、DAO）](https://twitter.com/CypherpunkDAO)も設立しています。
 
 ## アンチロードマップ・ロードマップ
 
-NFTのロードマップで過剰に約束し、十分に実行しないプロジェクトをあまりにも多く見てきました。そのため、正式なロードマップはありません。NFT保有者向けに、予想できるものも予想外のものも含め、素晴らしい限定特典を準備中であることを信じてください。シートベルトを締めて、私たちと一緒にこの旅を楽しみましょう。
+NFTロードマップにおいて、過剰な約束をしながら十分に実現できないプロジェクトをあまりにも多く見てきました。そのため、正式なロードマップはありません。NFT保有者向けに、予想されるものも予想外のものも含め、素晴らしい限定特典を多数準備していることを信じてください。しっかり準備をして、私たちとともにこの旅に参加してください。
 
-## ガバナンス
+## ガバナンス（Governance）
 
-[Snapshot](https://snapshot.box/#/s:cypherpunkzerodao.eth) — DAOのカスタムポータル vote.cypherpunkzero.com は廃止され、そのドメインは現在解決されません。これは残存しているSnapshotスペースです。
+[Snapshot](https://snapshot.box/#/s:cypherpunkzerodao.eth) — DAO専用ポータルのvote.cypherpunkzero.comは廃止され、そのドメインは現在解決されません。こちらが残存するSnapshotスペースです。
 
 [Guild](https://guild.xyz/cypherpunkzerodao)
 
@@ -35,29 +35,29 @@ NFTのロードマップで過剰に約束し、十分に実行しないプロ�
 </div>
 
 
-## NFTはどのチェーン上にありますか？
+## NFTはどのチェーン（chain）にありますか？
 
 [Ethereum](https://etherscan.io/address/0x3e86d6cf041b719c575f57050697c115f0a53758)
 
-## トークンの配分は？
+## トークン配分（token allocations）は？
 
-*総供給量*: Ethereum Mainnet上のユニークなジェネラティブNFT 10,000点  
-供給量の4%（最初の400 NFT）は、Zcash X Mighty Jaxx: Cypherpunk Zero Genesis Edition Toy 59を購入したプロジェクトの初期支援者にエアドロップされました。
+*総供給量*: Ethereum Mainnet上の10,000点のユニークなジェネレーティブNFT
+供給量の4%（最初の400 NFT）は、Zcash X Mighty Jaxx: Cypherpunk Zero Genesis Edition Toy 59を購入したプロジェクトの初期サポーターにエアドロップされました。
 
-供給量の72%（7,200 NFT）は、暗号化メモに対応するZcashウォレットの使用を必要とする新しいホワイトリスト方式で一般公開されます（詳細は下記）。
+供給量の72%（7,200 NFT）は、暗号化されたメモ（memos）をサポートするZcashウォレット（wallet）の利用を必要とする新しいホワイトリスト方式によって、一般向けに公開されます（詳細は以下を参照してください）。
 
-供給量の24%（2,400 NFT）は、ECCによりCypherpunk Reserveで保有され、ZcashとWeb3領域におけるプライバシーを前進させる今後の取り組みに使用されます。
+供給量の24%（2,400 NFT）は、ECCがCypherpunk Reserveで保有し、ZcashおよびWeb3領域におけるプライバシー（privacy）を推進する将来の取り組みに使用されます。
 
 
 # Cypherpunk Zero v2 ホワイトリスト
 
-はい、元のコレクションはハッキングされました。未来はまだ書かれていません。
+はい、オリジナルコレクションはハッキングされました。未来はまだ決まっていません。
 
 ## リソース
 
 [Cypherpunk Zero Twitter](https://twitter.com/cypherpunkZero)
 
-[Cypherpunk Zero OpenSea コレクション](https://opensea.io/collection/cypherpunk-zero)
+[Cypherpunk Zero OpenSeaコレクション](https://opensea.io/collection/cypherpunk-zero)
 
 [Cypherpunk Zero DAO Twitter](https://twitter.com/CypherpunkDAO)
 

@@ -9,18 +9,18 @@
 
 
 # ZIPとは
-Zcash Improvement Proposal（ZIP）は、Zcashコミュニティに情報を提供したり、Zcashまたはそのプロセスや環境の新機能を説明したりするための設計文書です。ZIPは、その機能の簡潔な技術仕様と、その機能の根拠を提供する必要があります。
+Zcash 改善提案（ZIP）は、Zcashコミュニティに情報を提供する、またはZcashもしくはそのプロセスや環境の新機能を説明する設計文書です。ZIPには、機能の簡潔な技術仕様と、その機能の根拠を記載する必要があります。
 
-私たちは、ZIPが新機能を提案するための主要な仕組みであり、ある課題に関するコミュニティからの意見を集めるための仕組みであり、Zcashに反映されてきた設計上の意思決定を文書化するための仕組みであることを意図しています。ZIPのOwner（通常は著者）は、コミュニティ内でコンセンサスを形成し、反対意見を文書化する責任を負います。
+ZIPを、新機能を提案するため、問題に対するコミュニティの意見を集めるため、そしてZcashに至った設計上の決定を文書化するための主要な仕組みとすることを意図しています。ZIPの所有者（通常は著者）は、コミュニティ内でコンセンサス（consensus）を形成し、異論を文書化する責任を負います。
 
-ZIPはバージョン管理されたリポジトリ内のテキストファイルとして維持されるため、その改訂履歴は機能提案の歴史的記録になります。
+ZIPはバージョン管理されたリポジトリ内でテキストファイルとして管理されているため、その改訂履歴は機能提案の歴史的記録となります。
 
 -> [zips.z.cash](https://zips.z.cash)
 
 
 ## ZIP編集者
 
-提出されたすべてのZIPは、レビュー・プロセスを経る必要があります。ZIP編集者は、あらゆるZIPの形式と内容が、用語、根拠、および行われた技術的変更を適切に説明していることを確認する役割を担います。 
+提出されるすべてのZIPは、レビュー工程を受ける必要があります。ZIP編集者は、すべてのZIPの形式と内容が、用語、根拠、および行われた技術的変更を十分に説明していることを確認する任務を担います。 
 
 ```markdown
 * Jack Grigg, Kris Nuttycombe and Daira-Emma Hopwood associated with the ECC.
@@ -30,44 +30,44 @@ ZIPはバージョン管理されたリポジトリ内のテキストファイ�
 
 ## 注目すべき現在のZIP
 
-以下のステータスとタイトルは、2026年8月18日に [zips.z.cash](https://zips.z.cash/#index-of-zips) のZIPインデックスに照らして確認しました。ZIPのステータスは時間とともに変化するため、インデックスを信頼できる情報源として扱ってください。
+以下のステータスとタイトルは、2026年8月18日にZIPインデックス（[zips.z.cash](https://zips.z.cash/#index-of-zips)）と照合しました。ZIPのステータスは時間とともに変化するため、インデックスを信頼できる情報源として扱ってください。
 
-> Draft: [Transparent Zcash Extensions](https://zips.z.cash/zip-0222)
+> 草案: [公開型（Transparent）Zcash拡張](https://zips.z.cash/zip-0222)
 
-> Draft: [Zcash Shielded Assetsの転送とバーン](https://zips.z.cash/zip-0226)
+> 草案: [Zcashシールドされた資産の転送および焼却](https://zips.z.cash/zip-0226)
 
-> Draft: [Zcash Shielded Assetsの発行](https://zips.z.cash/zip-0227)
+> 草案: [Zcashシールドされた資産の発行](https://zips.z.cash/zip-0227)
 
-> Withdrawn: [撤回されたバージョン6トランザクション形式](https://zips.z.cash/zip-0230) — これは現在トランザクション・バージョン6を定義しているZIP 229によって廃止されました。以下のNU6.3一覧を参照してください。
+> 取り下げ済み: [取り下げられたバージョン6トランザクション（Transaction）形式](https://zips.z.cash/zip-0230) — 現在トランザクションバージョン6を定義しているZIP 229により廃止されました。以下のNU6.3リストを参照してください。
 
-> Draft: [Transparent Zcash Extensionsのためのトランザクション識別子ダイジェストと署名検証](https://zips.z.cash/zip-0245)
+> 草案: [公開型Zcash拡張のためのトランザクション識別子ダイジェストおよび署名（signature）検証](https://zips.z.cash/zip-0245)
 
-> Draft: [標準化されたメモ欄フォーマット](https://zips.z.cash/zip-0302)
+> 草案: [標準化されたメモ（memo）フィールド形式](https://zips.z.cash/zip-0302)
 
-> Draft: [Saplingアドレス署名](https://zips.z.cash/zip-0304)
+> 草案: [Saplingアドレス（address）署名](https://zips.z.cash/zip-0304)
 
-> Draft: [支払い検出のためのライトクライアント・プロトコル](https://zips.z.cash/zip-0307)
+> 草案: [支払い（payment）検出のためのライトクライアント（light client）プロトコル](https://zips.z.cash/zip-0307)
 
-> Draft: [Sapling Viewing Keyのセキュリティ特性](https://zips.z.cash/zip-0310)
+> 草案: [Saplingビューイングキー（viewing key）のセキュリティ特性](https://zips.z.cash/zip-0310)
 
-> Active: [透明アドレスからのみ資金を送信できるアドレスタイプの定義](https://zips.z.cash/zip-0320)
+> 有効: [公開型アドレスからのみ資金を送信できるアドレスタイプの定義](https://zips.z.cash/zip-0320)
 
-> Draft: [Wallet.dat形式](https://zips.z.cash/zip-0400)
+> 草案: [ウォレット.dat形式](https://zips.z.cash/zip-0400)
 
-## NU6.3 (Ironwood) のZIP
+## NU6.3（Ironwood）ZIP
 
-NU6.3はZIP 258で説明されており、ここに記載された追加のZIPとあわせて構成されます。完全な候補セットは [ZIP index](https://zips.z.cash/#nu6-3-candidate-zips) で公開されています。
+NU6.3は、ここに一覧する追加ZIPとともにZIP 258で説明されています。候補の完全なセットは、[ZIPインデックス](https://zips.z.cash/#nu6-3-candidate-zips)で公開されています。
 
-> Draft: [NU6.3ネットワークアップグレードの展開](https://zips.z.cash/zip-0258)
+> 草案: [NU6.3ネットワークアップグレード（network upgrade）の展開](https://zips.z.cash/zip-0258)
 
-> Draft: [バージョン6トランザクション形式](https://zips.z.cash/zip-0229)
+> 草案: [バージョン6トランザクション形式](https://zips.z.cash/zip-0229)
 
-> Draft: [OrchardからIronwoodへの移行](https://zips.z.cash/zip-0318)
+> 草案: [OrchardからIronwoodへの移行](https://zips.z.cash/zip-0318)
 
-> Draft: [ウォレットに対するNU6.3の影響](https://zips.z.cash/zip-0326)
+> 草案: [NU6.3がウォレット（Wallet）にもたらす影響](https://zips.z.cash/zip-0326)
 
-> Proposed: [Ironwoodの量子回復可能性](https://zips.z.cash/zip-2005)
+> 提案済み: [Ironwood量子回復可能性](https://zips.z.cash/zip-2005)
 
-> Reserved: [Orchardプールへの送金の制限](https://zips.z.cash/zip-2006)
+> 予約済み: [Orchardプール（pool）への転送の制限](https://zips.z.cash/zip-2006)
 
-さらに、以前の3つのZIPもNU6.3向けに更新されています: [ZIP 209](https://zips.z.cash/zip-0209), [ZIP 213](https://zips.z.cash/zip-0213) and [ZIP 317](https://zips.z.cash/zip-0317).
+以前の3つのZIPもNU6.3向けに更新されています: [ZIP 209](https://zips.z.cash/zip-0209)、[ZIP 213](https://zips.z.cash/zip-0213)、および[ZIP 317](https://zips.z.cash/zip-0317)。

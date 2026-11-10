@@ -2,9 +2,9 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# <img src="/content-images/image-2024-02-03-173258092-a5440e5ee2.webp" alt="Alt Text" width="50"/>   カストディアル取引所
+# <img src="/content-images/image-2024-02-03-173258092-a5440e5ee2.webp" alt="Alt Text" width="50"/>   カストディアル取引所（Custodial Exchanges）
 
-Ironwoodは、2026年7月のネットワークアップグレードで導入されたシールドプールです。透明なtアドレスのみを扱う取引所はこれに関与しないため、該当なしと記載されています。取引所がシールドアドレスを扱う一方で、使用するプールを明らかにしていない場合は、推測せずその旨を記載しています。
+Ironwood は、2026年7月のネットワークアップグレード（network upgrade）で導入されたシールドされたプール（shielded pool）です。公開型（transparent）のtアドレスのみを扱う取引所はこれに関与しないため、該当なしと記載されています。取引所がシールドされたアドレスを扱っていても、どのプールを使用しているかを公表していない場合は、推測せずにその旨を記載しています。
 
 ---
 
@@ -15,8 +15,8 @@ Ironwoodは、2026年7月のネットワークアップグレードで導入さ�
 </a>
 
 - ウェブサイト: [Backpack](https://backpack.exchange)
-- 取引ペア: ZEC/USDC | ZEC-PERP
-- 対応: 入金および出金が有効。アドレスの種類は明記されていません
+- ペア: ZEC/USDC | ZEC-PERP
+- 対応: 入金と出金が有効です。アドレスの種類（Address types）は明記されていません
 - 入金時間: 明記されていません
 - Ironwood: 明記されていません
 ___
@@ -28,10 +28,10 @@ ___
 </a>
 
 - ウェブサイト: [Binance](https://binance.com)
-- 取引ペア: ALL/ZEC
-- 対応: 透明（TEXアドレス入金）
+- ペア: ALL/ZEC
+- 対応: 公開型（TEX Address Deposit）
 - 入金時間: 20分
-- Ironwood: 透明アドレスのみのため該当なし
+- Ironwood: 該当なし、公開型アドレスのみ
 ___
 
 ### [BitcoinVN](https://bitcoinvn.io)
@@ -41,9 +41,9 @@ ___
 </a>
 
 - ウェブサイト: [BitcoinVN](https://bitcoinvn.io)
-- 取引ペア: BTC/ZEC, ETH/ZEC, USDT/ZEC, XMR/ZEC, LTC/ZEC, DASH/ZEC
-- 対応: 透明 | シールド（zアドレスへの入金・出金）
-- 入金時間: 即時（ノンカストディアルスワップ）
+- ペア: BTC/ZEC, ETH/ZEC, USDT/ZEC, XMR/ZEC, LTC/ZEC, DASH/ZEC
+- 対応: 公開型 | シールドされた（zアドレスへの入金・出金）
+- 入金時間: 即時（ノンカストディアル・スワップ）
 - Ironwood: 明記されていません
 ___
 
@@ -54,10 +54,10 @@ ___
 </a>
 
 - ウェブサイト: [Bitfinex](https://bitfinex.com)
-- 取引ペア: ALL/ZEC
-- 対応: 透明
+- ペア: ALL/ZEC
+- 対応: 公開型
 - 入金時間: 25分 
-- Ironwood: 透明アドレスのみのため該当なし
+- Ironwood: 該当なし、公開型アドレスのみ
 ___
 
 ### [Coinbase](https://coinbase.com)
@@ -67,10 +67,10 @@ ___
 </a>
 
 - ウェブサイト: [Coinbase](https://coinbase.com)
-- 取引ペア: ALL/ZEC
-- 対応: 透明
+- ペア: ALL/ZEC
+- 対応: 公開型
 - 入金時間: 150分
-- Ironwood: 透明アドレスのみのため該当なし
+- Ironwood: 該当なし、公開型アドレスのみ
 ___
 
  ### [Gemini](https://gemini.com)
@@ -80,10 +80,10 @@ ___
 </a>
 
 - ウェブサイト: [Gemini](https://gemini.com)
-- 取引ペア: ALL/ZEC
-- 対応: 透明 | シールドおよび統合型出金、2025年11月以降はOrchard
+- ペア: ALL/ZEC
+- 対応: 公開型 | シールドされたおよび統合型出金、2025年11月以降のOrchard
 - 入金時間: 50分 
-- Ironwood: シールド出金に対応、プールは明記されていません
+- Ironwood: シールドされた出金に対応、プールは明記されていません
 ___
 
 ### [Huobi](https://huobi.com)
@@ -93,10 +93,10 @@ ___
 </a>
 
 - ウェブサイト: [Huobi](https://huobi.com)
-- 取引ペア: ALL/ZEC
-- 対応: 透明
+- ペア: ALL/ZEC
+- 対応: 公開型
 - 入金時間: 35分 
-- Ironwood: 透明アドレスのみのため該当なし
+- Ironwood: 該当なし、公開型アドレスのみ
 ___
 
 ### [Kraken](https://kraken.com)
@@ -106,10 +106,10 @@ ___
 </a>
 
 - ウェブサイト: [Kraken](https://kraken.com)
-- 取引ペア: ALL/ZEC
-- 対応: 透明
+- ペア: ALL/ZEC
+- 対応: 公開型
 - 入金時間: 60分
-- Ironwood: 透明アドレスのみのため該当なし
+- Ironwood: 該当なし、公開型アドレスのみ
 ___
 
 ### [KuCoin](https://kucoin.com)
@@ -119,23 +119,23 @@ ___
 </a>
 
 - ウェブサイト: [KuCoin](https://kucoin.com)
-- 取引ペア: ALL/ZEC
-- 対応: 透明
+- ペア: ALL/ZEC
+- 対応: 公開型
 - 入金時間: 20分 
-- Ironwood: 透明アドレスのみのため該当なし
+- Ironwood: 該当なし、公開型アドレスのみ
 ___
 
-## [OKX（旧称OKEx）](https://www.okx.com)
+## [OKX（旧称 OKEx）](https://www.okx.com)
 
 <a href="https://www.okx.com">
     <img src="https://upload.wikimedia.org/wikipedia/commons/8/89/Official_logo_of_OKEx.png" alt="OKX logo (shown under its former OKEx branding)" width="200" height="100"/>
 </a>
 
 - ウェブサイト: [OKX](https://www.okx.com)
-- 取引ペア: ALL/ZEC
-- 対応: 透明
+- ペア: ALL/ZEC
+- 対応: 公開型
 - 入金時間: 25分 
-- Ironwood: 透明アドレスのみのため該当なし
+- Ironwood: 該当なし、公開型アドレスのみ
 ___
 
 ### [Robinhood](https://robinhood.com)
@@ -145,8 +145,8 @@ ___
 </a>
 
 - ウェブサイト: [Robinhood](https://robinhood.com)
-- 取引ペア: USD/ZEC | EUR/ZEC
-- 対応: 透明なtアドレスへの出金のみ。ZECの入金には対応していません
+- ペア: USD/ZEC | EUR/ZEC
+- 対応: 公開型tアドレスへの出金のみ。ZECへの入金には対応していません
 - 入金時間: 入金には対応していません
-- Ironwood: 透明アドレスのみのため該当なし
+- Ironwood: 該当なし、公開型アドレスのみ
 ___
