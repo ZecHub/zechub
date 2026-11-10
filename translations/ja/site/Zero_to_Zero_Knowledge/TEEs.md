@@ -1,110 +1,110 @@
-# Zero to Zero Knowledge：信頼された実行環境（TEE）
+# Zero to Zero Knowledge: 信頼実行環境（Trusted Execution Environments、TEEs）
 
-**シリーズ:** Zero to Zero Knowledge
+**シリーズ：** Zero to Zero Knowledge
 
-「Zero to Zero Knowledge」が新テーマで戻ってきました！  
-今回は **信頼された実行環境（Trusted Execution Environments、TEE）** について掘り下げます。TEEはプライバシー硬貨やその他のブロックチェーンアプリケーションでどのように使用されているかを説明します。
+Zero to Zero Knowledge が新しいトピックとともに戻ってきました！  
+今週は、**信頼実行環境（Trusted Execution Environments、TEEs）**について、プライバシーコインやその他のブロックチェーンアプリケーションでどのように使用されているかを探ります。
 
-![信頼された実行環境の紹介](/content-images/Fquj-h2WcAIgSnL-b80c8614cd.webp)
+![Trusted Execution Environments intro](/content-images/Fquj-h2WcAIgSnL-b80c8614cd.webp)
 
 ---
 
-## TEEとブロックチェーン：補完的な特性
+## TEEsとブロックチェーン：相補的な特性
 
-ブロックチェーンとTEEは非常に補完的な強みを持っています：
+ブロックチェーンとTEEsには、非常に相補的な強みがあります。
 
-- **ブロックチェーン** は可用性、状態の永続性を保証し、全体の状態の公開検証が可能ですが、計算能力に限界があります。  
-- **TEE** は暗号化された入力、出力、状態に対して強力な計算処理を行うことが可能ですが、ネイティブな状態永続性を欠いています。
+- **ブロックチェーン（Blockchains）**は、可用性、状態の永続性を保証し、状態全体の公開検証を可能にしますが、計算能力には限りがあります。  
+- **TEEs**は、負荷の高い計算タスクをプライベートに実行できますが、ネイティブな状態の永続性を持ちません。
 
-これらは一緒に強力なプライバシー保護システムを作り出すことができます。
+両者を組み合わせることで、強力なプライバシー保護システムを構築できます。
 
 ---
 
 ## Secret Network：TEEによるプライバシー
 
-**Secret Network** はTEE技術（特にIntel SGX）を利用して、暗号化された入力、出力、状態に対して計算を行います。
+**Secret Network**は、TEE技術（具体的にはIntel SGX）を活用し、暗号化された入力、出力、状態に対する計算を実行します。
 
-すべてのバリデータノードがIntel SGXチップを実行しています。コンセンサス層と計算層は統合されています：
+すべてのバリデータノードはIntel SGXチップを実行します。コンセンサス層と計算層は統合されています。
 
-- トランザクションはセキュアなエンクローズ内（secure enclave）で処理されます。  
-- データは **TEE内でしか** 複号化されません。
+- トランザクションは安全なエンクレーブ内で処理されます。  
+- データは**TEE内でのみ**復号されます。
 
-これはZcashのプライバシー実現方法とは異なります。Zcashでは、**ゼロ知識証明** を使用してプライバシーを確保しています。Zcashでは、シールドされたトランザクションがネットワークに公開され、追加データはネットワークに明らかにされることなく検証されます。Zcashのシールド資産も同様の原則に従います。
+これは、プライバシーのために**ゼロ知識プルーフ（zero-knowledge proofs）**を使用するZcashとは異なります。Zcashでは、シールドされたトランザクションがブロードキャストされ、ネットワークに追加データを公開することなく公に検証されます。Zcash Shielded Assetsも同じ原則に従います。
 
-![Secret Network TEE図](/content-images/FqulPjNX0AEfjRp-c7085732a2.webp)
+![Secret Network TEE diagram](/content-images/FqulPjNX0AEfjRp-c7085732a2.webp)
 
-Secret NetworkにおけるTEEの実装方法について詳しく知りたい場合は、@l_woetzelによるこの優れた記事を参照してください：  
+Secret NetworkでTEEsがどのように実装されているかの詳しい説明については、@l_woetzelによるこの優れた記事をお読みください。  
 https://carter-woetzel.medium.com/secret-network-tees-lets-talk-fud-vulnerability-33ca94b6df38
 
 ---
 
-## Secret Networkが鍵と状態をどのように保護しているか
+## Secret Networkがキーと状態を保護する仕組み
 
-- ネットワークの **コンセンサス暗号シード** は各バリデータのTEE内に保存されています。  
-- コントラクトは、偽造不可能な暗号化鍵を使用します。  
-- SecretコントラクトはCosmos SDKの計算モジュール上で実行されますが、暗号化された入力/出力と状態をサポートしています。
+- ネットワークの**コンセンサス暗号化シード**は、各バリデータのTEE内に保存されます。  
+- コントラクトは一意で偽造不可能な暗号化キーを使用します。  
+- シークレットコントラクトはCosmos SDKのコンピュートモジュール上で実行されますが、暗号化された入力、出力、状態をサポートします。
 
 ---
 
-## リモート認証（Remote Attestation）
+## リモートアテステーション（Remote Attestation）
 
-**リモート認証** とは、エンクローズが本物のセキュアハードウェア環境で動作していることを証明するプロセスです。
+**リモートアテステーション（Remote Attestation）**は、エンクレーブが本物の安全なハードウェア環境で実行されていることをプルーフするプロセスです。
 
-これにより、リモート側は以下を確認できます：
-- 正しいアプリケーションが実行されている  
-- アプリケーションに改ざんされていない  
-- Intel SGXエンクローズ内で安全に実行されている
+これにより、リモートの当事者は以下を検証できます。
+- 正しいアプリケーションが実行されていること  
+- アプリケーションが改ざんされていないこと  
+- Intel SGXエンクレーブ内で安全に実行されていること
 
-![リモート認証の説明](/content-images/FqumRjoWwAAeT-M-6eff73af4d.webp)
+![Remote Attestation explanation](/content-images/FqumRjoWwAAeT-M-6eff73af4d.webp)
 
-エンクローズ内には、外部からアクセスできないプライベートな署名と認証鍵も含まれています。
+エンクレーブには、外部からアクセスできない秘密の署名キーとアテステーションキーも含まれています。
 
-![エンクローズの鍵保護](/content-images/Fqumv83XoAQq-MO-47c3ab77e0.webp)
+![Enclave key protection](/content-images/Fqumv83XoAQq-MO-47c3ab77e0.webp)
 
 ---
 
 ## データシーリング（Data Sealing）
 
-エンクローズは状態を持たないため、データを信頼できないメモリに外部に保存する必要がある場合があります。
+エンクレーブはステートレスであるため、データを信頼できないメモリの外部に保存しなければならない場合があります。  
 
-**データシーリング** では、CPUから導出された鍵を使用して、エンクローズ内でデータが暗号化されます。この暗号化ブロックは **同じシステム** でのみ復号可能です。
+**データシーリング（Data Sealing）**は、CPUから導出されたキーを使用してエンクレーブ内のデータを暗号化します。暗号化されたブロックは、**同じシステム上でのみ**アンシールできます。
 
-![データシーリング図](/content-images/FqunBwyWYAA-TR3-933c2b0e6f.webp)
+![Data Sealing diagram](/content-images/FqunBwyWYAA-TR3-933c2b0e6f.webp)
 
 ---
 
 ## Oasis Network
 
-**Oasis Network** も、その機密性のあるParaTime（例：SapphireおよびCipher）を通じてTEEを使用しています。
+**Oasis Network**も、機密ParaTime（例：SapphireおよびCipher）を通じてTEEsを使用しています。
 
-暗号化されたデータはスマートコントラクトとともにTEEに送信され、エンクローズ内で復号され、処理され、再度暗号化されてからエンクローズを出ます。
+暗号化されたデータは、スマートコントラクトとともにTEEに入ります。エンクレーブを出る前に、復号、処理、再暗号化されます。
 
-![Oasis Network TEEフロー](/content-images/FqunJRDXwAMt4Ob-0e7969c7a8.webp)
-
----
-
-## Proof-of-StakeネットワークにおけるTEE
-
-多くのProof-of-Stakeブロックチェーン（SecretおよびOasisを含む）は、**Tendermint** をコンセンサスフレームワークとして使用しています。
-
-PoSバリデータについて：
-- 鍵は常にセキュアに管理され、平文で暴露されることがありません。  
-- バリデータはオンラインでいなければなりません（ダウンタイムにはペナルティが適用されます）。  
-- 矛盾したメッセージの署名はスラッシングにつながります。
-
-**TEE** はバリデータ鍵を安全に生成および使用するために理想的です。
-
-![Tendermint & PoSセキュリティ](/content-images/Fqun0HEX0AAooxW-7f6163ae1e.webp)
+![Oasis Network TEE flow](/content-images/FqunJRDXwAMt4Ob-0e7969c7a8.webp)
 
 ---
 
-## ZcashとProof-of-Stake研究
+## プルーフ・オブ・ステークネットワークにおけるTEEs
 
-Zcashは現在、Proof-of-Stakeへの移行について積極的に研究しています。
+多くのプルーフ・オブ・ステークブロックチェーン（SecretやOasisを含む）は、コンセンサスフレームワークとして**Tendermint**を使用しています。
 
-- 研究内容はこちら：https://electriccoin.co/blog/zcash-proof-of-stake-research/  
-- Zcash Foundationコミュニティコールから、さまざまなPoS設計とそのプライバシーへの影響について説明するセグメントを視聴してください：
+PoSバリデータでは、以下が求められます。
+- キーを安全に管理し、平文で公開しないこと。  
+- バリデータがオンライン状態を維持すること（ダウンタイムにはペナルティが適用されます）。  
+- 競合するメッセージに署名すると、スラッシングにつながる可能性があること。
 
+**TEEs**は、バリデータキーを安全に生成・使用するのに理想的です。
+
+![Tendermint & PoS security](/content-images/Fqun0HEX0AAooxW-7f6163ae1e.webp)
+
+---
+
+## Zcashとプルーフ・オブ・ステークの研究
+
+Zcashは、プルーフ・オブ・ステークへの移行を積極的に研究しています。
+
+- 研究を読む：https://electriccoin.co/blog/zcash-proof-of-stake-research/  
+- さまざまなPoS設計とそのプライバシーへの影響を説明するZcash Foundation Community Callのこのセグメントをご覧ください。
+  
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
     className="w-full h-full"
@@ -118,9 +118,9 @@ Zcashは現在、Proof-of-Stakeへの移行について積極的に研究して�
 
 ---
 
-**ZecHub（@ZecHub）によるオリジナルスレッド**  
+**ZecHub（@ZecHub）による元のスレッド**  
 https://x.com/ZecHub/status/1633579659282587651
 
 ---
 
-*このページは、ZecHub Wikiのためにオリジナルの「Zero to Zero Knowledge」スレッドから作成されました。*
+*このページは、ZecHub wiki向けに元のZero to Zero Knowledgeスレッドから編集されました。*

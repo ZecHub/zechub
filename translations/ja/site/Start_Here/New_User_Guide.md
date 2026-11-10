@@ -1,44 +1,44 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Start_Here/New_User_Guide.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="ページを編集"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Zcash 新規ユーザーのガイド
+# Zcash 新規ユーザーガイド
 
-## TL;DR
+## 要約
 
-- サポートされている取引所（Gemini、BitcoinVN など）で**ZECを購入**
-- **shieldedウォレットを設定**（Zodl、Zingo、または Zkool を推奨）
-- 取引所から shieldedウォレットに ZEC を**出金**
-- **shieldedトランザクションを送信** — Zcash での最初のプライベートな支払い
-- フォーラムや Discord で**コミュニティに参加**
-
----
-
-Zcash が初めてですか？このガイドでは、Zcashユーザーとして、および *ZEC* の保有者として登録する手順を説明します。
+- 対応している取引所（exchange）（Gemini、BitcoinVNなど）で **ZEC を購入します**
+- **シールドされた（shielded）ウォレット（wallet）を設定します**（Zodl、Zingo、またはZkoolを推奨）
+- 取引所からシールドされたウォレットへ ZEC を**出金します**
+- **シールドされたトランザクション（transaction）を送信します** — Zcashで初めてプライベートな支払い（payment）を行います
+- フォーラムまたはDiscordで**コミュニティに参加します**
 
 ---
 
-**ZECを購入**
-
-Zcashネットワークを使用するには、その通貨である *ZEC* を購入する必要があります。
-
-ZECを入手する最も簡単な方法は、[Geminiで購入](https://www.gemini.com/prices/zcash) または [これらの取引所のいずれかで購入](https://zechub.wiki/using-zcash/custodial-exchanges) することです。
-
-重要な点として、1つの *ZEC* を完全に購入する必要があるわけではありません。
-
-*ZEC* は分割可能であり、コインの一部だけを購入して始めることもできます。
+Zcashは初めてですか？このガイドでは、Zcashのユーザーおよび*ZEC*の保有者として利用を始める方法をご案内します。
 
 ---
 
-**ウォレットを設定**
+**ZECを購入する**
 
-いくつかの *ZEC* を購入した後、それを Zcash ウォレットに移動したいと思うかもしれません。
+Zcashネットワークを利用するには、その通貨である*ZEC*を購入する必要があります。
 
-この[記事](https://www.ledger.com/academy/not-your-keys-not-your-coins-why-it-matters)では、*ZEC* をウォレットで保持する理由を説明しています。
+ZECを入手する最も簡単な方法は、[Geminiで購入する](https://www.gemini.com/prices/zcash)か、[これらの取引所で購入する](https://zechub.wiki/using-zcash/custodial-exchanges)ことです。
 
-[暗号化されたウォレット](https://zechub.wiki/wallets)を使用することをお勧めします。これらのウォレットは、*ZEC* が独自に提供するプライバシー機能を備えています。
+重要な点として、*ZEC*を1枚丸ごと購入する必要はありません。
 
-現代の暗号化ウォレットについての動画はこちらです：
+*ZEC*は分割可能であり、コインのほんの一部から購入を始められます。
+
+---
+
+**ウォレットを設定する**
+
+*ZEC*を購入した後は、Zcashウォレットへ移したくなるかもしれません。 
+
+この[記事では](https://www.ledger.com/academy/not-your-keys-not-your-coins-why-it-matters)、ウォレットで*ZEC*を保有することが重要である理由を説明しています。 
+
+これらのウォレットは*ZEC*をユニークにしているプライバシー（privacy）機能を提供するため、[シールドされたウォレット](https://zechub.wiki/wallets)の使用をおすすめします。 
+
+以下は、最新のシールドされたウォレットをレビューした動画です。
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -51,13 +51,15 @@ ZECを入手する最も簡単な方法は、[Geminiで購入](https://www.gemin
   />
 </div>
 
+
+
 ---
 
-**ZECを引き出す**
+**ZECを出金する**
 
-ウォレットを作成した後、そのウォレットに ZEC を引き出したいと思うでしょう。
+ウォレットを作成したら、ZECをそのウォレットに出金します。 
 
-それを行う方法のチュートリアルはこちらです。
+その方法に関するチュートリアルをご紹介します。
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -70,11 +72,12 @@ ZECを入手する最も簡単な方法は、[Geminiで購入](https://www.gemin
   />
 </div>
 
+
 ---
 
-**暗号化されたトランザクションを送信**
+**シールドされたトランザクションを送信する**
 
-ウォレットにいくつかの ZEC を預け入れた後、完全に暗号化され、プライベートなトランザクションを送信する準備が整います。暗号化されたトランザクションとは、参加者のプライバシーを完全に保護するZECの交換です。暗号化された ZEC を使用する際には以下のヒントが役立ちます。
+ウォレットにZECを入金したら、完全にシールドされ、プライベートなトランザクションを送信する準備が整います。シールドされたトランザクションは、各参加者のプライバシーを完全に保護するZECの交換です。シールドされたZECを使用する際に役立つヒントをご紹介します。
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -89,13 +92,13 @@ ZECを入手する最も簡単な方法は、[Geminiで購入](https://www.gemin
 
 ---
 
-**フォーラムに参加**
+**フォーラムに参加する**
 
-Zcash コミュニティ フォーラムは、Zcash コミュニティのメンバーが Zcash 関連のすべてについて議論する場です。また、Discord サーバーもあります。
+Zcashコミュニティフォーラムは、ZcashコミュニティのメンバーがZcashに関するあらゆることを議論する場です。Discordサーバーもあります。
 
-[Zcash コミュニティ フォーラム](https://forum.zcashcommunity.com/) | [Zcash Global](https://discord.gg/zcash)
+[Zcashコミュニティフォーラム](https://forum.zcashcommunity.com/) | [Zcashグローバル](https://discord.gg/zcash)。
 
-コミュニティは情熱的で、新規メンバーも歓迎しています。時折会話が技術的な内容になることもありますが、心配しないでください！何か質問があればいつでも尋ねてください。
+コミュニティは情熱的で、新しいメンバーをとても歓迎しています。会話が技術的になることもありますが、ご心配はいりません。質問があれば、いつでも尋ねられます。
 
 <a href="">
     <img width="auto" height="200" alt="zcash-logo-horizontal-transparent" src="/content-images/c1d40441-4336-4754-b3bf-5a746b19a9d5-6d2eca6cbf.webp" />
@@ -105,8 +108,8 @@ Zcash コミュニティ フォーラムは、Zcash コミュニティのメン�
 
 ## 関連ページ
 
-- [ZECとZcashとは](/start-here/what-is-zec-and-zcash) — 始める前に基本を理解
-- [ZECの購入](/using-zcash/buying-zec) — シールドされた引き出しをサポートする取引所の一覧
-- [ウォレット](/using-zcash/wallets) — プラットフォームと機能ですべてのZcashウォレットを比較
-- [シールドプール](/using-zcash/shielded-pools) — シールドされたトランザクションがなぜ重要なのか学ぶ
-- [トランザクション](/using-zcash/transactions) — ZECをプライベートに送金・受信する方法
+- [ZECとは何か、そしてZcash](/start-here/what-is-zec-and-zcash) — 始める前に基本を理解しましょう
+- [ZECの購入](/using-zcash/buying-zec) — シールドされた出金に対応する取引所の完全な一覧
+- [ウォレット](/using-zcash/wallets) — 機能とプラットフォーム別にすべてのZcashウォレットを比較します
+- [シールドされたプール（pool）](/using-zcash/shielded-pools) — シールドされたトランザクションが重要である理由を学びます
+- [トランザクション](/using-zcash/transactions) — ZECをプライベートに送受信する方法

@@ -1,129 +1,129 @@
 # Zero to Zero Knowledge：Lelantusプロトコル
 
-**シリーズ:** Zero to Zero Knowledge
+**シリーズ：** Zero to Zero Knowledge
 
-今日は **Lelantus** について見てみましょう！
+本日は**Lelantus**を見ていきます！
 
-2019年にリリースされたこのプロトコルは、Zerocoinに基づいています。**Firo**通貨（かつてはZcoin）で使用されており、オンチェーンでのプライベートな取引を可能にしています。Zcashといくつかの点では似ていますが、多くの面では明確に異なります。
+2019年にリリースされたこのプロトコルは、Zerocoinを基盤としています。これは、プライベートなオンチェーントランザクションを可能にするため、**Firo**通貨（旧Zcoin）で使用されています。いくつかの点でZcashに似ていますが、ほとんどの側面で明確に異なります。
 
 ![Lelantus intro](/content-images/Fsk18DgXsAEc0Ob-a8cd9a85d1.webp)
 
 ---
 
-## Zcash vs Firo プロトコルの基礎
+## ZcashとFiroのプロトコル基盤
 
-- **Zcash** - **Zerocash**プロトコルに基づく  
-- **Firo (Zcoin)** - **Zerocoin**プロトコルに基づく
+- **Zcash** - **Zerocash**プロトコルを基盤としています  
+- **Firo（Zcoin）** - **Zerocoin**プロトコルを基盤としています
 
-![Zerocash vs Zerocoin 比較](/content-images/Fsk2Fk7WcAA81ty-92158edf6b.webp)
-
----
-
-## Firo プライバシー・プロトコルの進化
-
-Zcashと同様に、Firoはシールドされたアドレスを使用して匿名的な支払いを実現しています。
-
-**タイムライン:**
-- **Zerocoin** - 安全性が破られた  
-- **Sigma** - 定額システムが修正された  
-- **Lelantus 1.0** - 正しいセキュリティ証明が欠如していた
-
-![プロトコルの進化](/content-images/Fsk2NdaWAAAKVgH-f84ae27c48.webp)
+![Zerocash vs Zerocoin comparison](/content-images/Fsk2Fk7WcAA81ty-92158edf6b.webp)
 
 ---
 
-## Sigma プロトコルの制限
+## Firoプライバシープロトコルの進化
 
-以前のバージョンのZcoin/Firoで使用されていたΣ（Sigma）プロトコルには、大きな制限がありました：ユーザーは固定額のみを発行できました。
+Zcashと同様に、Firoは匿名の支払いを実現するためにシールドされた（shielded）アドレスを使用します。
 
-これにより、匿名性のセットが小さくなり、発行と引き換え操作間でのタイミング攻撃の可能性が開かれました（また、「汚染された変更」問題も生じました）。
+**タイムライン：**
+- **Zerocoin** - 健全性が破綻
+- **Sigma** - 固定額面システム
+- **Lelantus 1.0** - 正しいセキュリティプルーフを欠いていました
 
-![Sigma 定額](/content-images/Fsk2fxfWcAMUBDo-333a8f9df3.webp)
+![Protocol evolution](/content-images/Fsk2NdaWAAAKVgH-f84ae27c48.webp)
 
 ---
 
-## Lelantus によるプライバシーの改善
+## Sigmaプロトコルの制限
 
-**Lelantus**は、固定額の問題を解決するために、単一のより大きなセットから発行できるようにしています。
+Zcoin/Firoの初期バージョンで使用されていたΣ（Sigma）プロトコルには、大きな制限がありました。ユーザーは固定された額面しかミントできなかったのです。
 
-主な利点:
-- 固定額の匿名性セットを排除
-- 燃焼/引き換え間でのタイミング攻撃を減少
-- 汚染された変更の問題を除去
+これにより匿名性セットが小さくなり、ミント操作と償還操作の間でタイミング攻撃（および「汚染されたお釣り」の問題）が可能になりました。
 
-**制限**: セットサイズは現在 **65,000コイン**に上限されています。
+![Sigma denominations](/content-images/Fsk2fxfWcAMUBDo-333a8f9df3.webp)
 
-![Lelantus の利点](/content-images/Fsk2wK3X0AA6MEe-06f29b3621.webp)
+---
+
+## Lelantusがプライバシーを改善する仕組み
+
+**Lelantus**は、1つの大きなセットからミントを可能にすることで、固定額面の問題を解決します。
+
+主な利点：
+- 固定額面の匿名性セットを排除します
+- バーンと償還の間のタイミング攻撃を減らします
+- 汚染されたお釣りの問題を解消します
+
+**制限**：セットサイズは現在、**65,000コイン**に制限されています。
+
+![Lelantus advantages](/content-images/Fsk2wK3X0AA6MEe-06f29b3621.webp)
 
 ---
 
 ## コインコミットメント
 
-**コインコミットメント**とは、コインのシリアル番号と価値を二重にブレインドして符号化したコミットメントです。
+**コインコミットメント（coin commitment）**は、コインのシリアル番号とコインの価値をエンコードする二重盲検コミットメントです。
 
-これはZcashの **Notes** と同様に機能します。
+これらはZcashの**ノート**と同様に機能します。
 
-コインが作成されたとき（MintまたはSpendトランザクションを通じて）、このコミットメントは公開され、帳簿に保存されます。
+コインコミットメントは、コインの作成時（MintまたはSpendトランザクションを通じて）に公開され、台帳に保存されます。
 
-![コインコミットメント図](/content-images/Fsk3AWNX0AIHya8-0ed01a73c1.webp)
-
----
-
-## Basecoin < - > Zerocoin モデル
-
-Lelantusは古典的な **basecoin < - > zerocoin** モデルを使用しています。
-
-**重要な特徴**: 一部の引き換えが可能になり、残額と金額を隠したままです。
-
-Zcashと同様に、透明なトランザクションはユーザーによって明示的に選択される必要があります。
-
-![Lelantus フロー](/content-images/Fsk3HrjXgAMgqmX-4d727febf5.webp)
+![Coin commitment diagram](/content-images/Fsk3AWNX0AIHya8-0ed01a73c1.webp)
 
 ---
 
-## One-of-Many 証明
+## Basecoin < - > Zerocoinモデル
 
-Lelantusは **One-of-Many 証明** を使用して、入力値を証明するために必要なものを抽出しますが、入力の起源を明らかにすることなく、信頼されたセットアップも必要ありません。
+Lelantusは、従来の**basecoin < - > zerocoin**モデルを使用します。
 
-これらの証明はまた、**Triptych**（私たちのCryptoNoteスレッドで言及）でも使用されています。
+**重要な機能**：残高と金額を隠したまま、部分的な償還が可能になりました。
 
-![One-of-Many 証明](/content-images/Fsk3Z0nWIAAPD4k-b76f087018.webp)
+Zcashと同様に、公開型トランザクションはユーザーが明示的に選択する必要があります。
 
----
-
-## ネットワークレイヤーのプライバシー: Dandelion++
-
-Firoノードは、ZcashのMagicbeanと同じ **Network Magic** を使用しています。
-
-Moneroと同様に、Firoでは **Dandelion++** が実装されており、トランザクションを放送するユーザーのIPアドレスを隠してプライバシーを向上させています。
-
-**Dandelion++ のフェーズ:**
-- **Stem フェーズ** - トランザクションはすべてのピアではなく、単一のランダムなノードにリレーされる
-- **Fluff フェーズ** - ランダムに開始され、その後通常のゴシップモードに切り替わる
-
-これにより、ネットワーク分析を通じてトランザクションの起源をたどるのがはるかに難しくなります。
-
-![Dandelion++ 説明](/content-images/Fsk4A8VWcAU84MR-538b054cab.webp)
+![Lelantus flow](/content-images/Fsk3HrjXgAMgqmX-4d727febf5.webp)
 
 ---
 
-## 未来: Lelantus-Spark
+## One-of-Manyプルーフ
 
-**Lelantus-Spark**（2023年後半に計画されている）は、**ZIP-32スタイルの導出**と分散アドレスを使用して、2つのレベルのオプトイン可視性を導入します。
+Lelantusは、入力元を明かすことなく、またトラステッドセットアップを必要とせずに、残高の証明に必要な入力値を抽出するために**One-of-Manyプルーフ（One-of-Many Proofs）**を活用します。
 
-また、以下もサポートする予定です:
+これらのプルーフは**Triptych**（CryptoNoteスレッドで言及）でも使用されています。
+
+![One-of-Many Proofs](/content-images/Fsk3Z0nWIAAPD4k-b76f087018.webp)
+
+---
+
+## ネットワークレイヤーのプライバシー：Dandelion++
+
+Firoノードは、ZcashのMagicbeanと同じNetwork Magicを使用します。
+
+Moneroと同様に、Firoはトランザクション送信者のIPアドレスを難読化することでプライバシーを追加する**Dandelion++**を実装しました。
+
+**Dandelion++のフェーズ：**
+- **Stemフェーズ** - トランザクションはすべてのピアではなく、単一のランダムなノードへ中継されます
+- **Fluffフェーズ** - ランダムに開始され、その後通常のゴシップモードに切り替わります
+
+これにより、ネットワーク分析を通じてトランザクションの送信元を追跡することがはるかに困難になります。
+
+![Dandelion++ explanation](/content-images/Fsk4A8VWcAU84MR-538b054cab.webp)
+
+---
+
+## 将来：Lelantus-Spark
+
+**Lelantus-Spark**（2023年後半に予定）は、**ZIP-32スタイルの導出**と多様化アドレスを使用して、オプトインによる可視性を2段階で導入します。
+
+また、以下のサポートも追加されます：
 - マルチシグ
-- ユーザー定義の秘密資産
+- ユーザー定義の機密資産
 
-これらの機能はZcashのShielded Assetsと類似しています。
+これらの機能は、Zcashのシールドされた資産と並行するものです。
 
-![Lelantus-Spark 公表](/content-images/Fsk4jXeXsAACQ3h-b53294b16e.webp)
+![Lelantus-Spark announcement](/content-images/Fsk4jXeXsAACQ3h-b53294b16e.webp)
 
 ---
 
-**オリジナルスレッド: ZecHub (@ZecHub)**  
+**ZecHub（@ZecHub）による元スレッド**  
 https://x.com/ZecHub/status/1641902859800150017
 
 ---
 
-*このページは、ZecHubウィキ用にオリジナルのZero to Zero Knowledgeスレッドから編集されたものです。*
+*このページは、ZecHubウィキのために元のZero to Zero Knowledgeスレッドから編集されました。*

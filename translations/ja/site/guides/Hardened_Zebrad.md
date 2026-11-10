@@ -1,27 +1,29 @@
-# ハードニングされたZebraフルノード
+# 強化された Zebra フルノード
 
-- 特定の非特権ユーザー + カーネルレベルのsystemdサンドボックスを使用（Dockerと同じ分離）。  
-- RPCはlocalhost限定で、セキュアなクッキー認証を使用（デフォルト＆推奨）。
+- 専用の非特権ユーザーとカーネルレベルのsystemdサンドボックス化を使用します（Dockerと同じ分離です）。  
+- RPCはローカルホスト限定で、安全なクッキー認証を使用します（デフォルトかつ推奨）。  
+
 
 ---
 
-## 事前条件
+## 前提条件
 
-- Ubuntuベースのディストリビューション
+- Ubuntuベースの任意のディストリビューション
 - Rustツールチェーンがインストール済み（`rustup` + `cargo`）
-- 至少300 GBの空きディスク容量（`/var`パーティション）
+- 少なくとも300 GBの空きディスク容量（`/var`パーティション）
+
 
 ---
 
-## 一回限りのセットアップ（通常ユーザーとして実行）
+## 1回限りのセットアップ（通常のユーザーとして実行）
 
-### 1. システムを更新し、ビルド依存関係をインストール
+### 1. システムを更新し、ビルド依存関係をインストールする
 
 ```
 sudo apt update && sudo apt install -y build-essential pkg-config libclang-dev clang libssl-dev protobuf-compiler
 ```
 
-## Rustを更新し最新のzebradをインストール（v4.3.0+）
+## Rustを更新し、最新のzebrad（v4.3.0+）をインストールする
 
 ```
 rustup update
@@ -32,14 +34,14 @@ sudo chmod 755 /usr/local/bin/zebrad
 zebrad --version
 ```
 
-## 特定の非特権ユーザーzebraを作成
+## 専用の非特権zebraユーザーを作成する
 
 ```
 sudo adduser --system --group --no-create-home --shell /usr/sbin/nologin zebra
 ```
 
 
-## セキュアなデータディレクトリを作成
+## 安全なデータディレクトリを作成する
 
 ```
 sudo mkdir -p /var/lib/zebrad
@@ -47,7 +49,7 @@ sudo chown zebra:zebra /var/lib/zebrad
 sudo chmod 700 /var/lib/zebrad
 ```
 
-## セキュアな設定ファイルを作成（`/etc/zebrad/zebrad.toml`）
+## 安全な設定を作成する（/etc/zebrad/zebrad.toml）
 
 ```
 sudo mkdir -p /etc/zebrad
@@ -60,18 +62,18 @@ listen_addr = "0.0.0.0:8233"
 cache_dir = "/var/lib/zebrad"
 
 [rpc]
-# localhostのみでRPCを有効化（インターネットに公開しない！）
+# Enable RPC on localhost only (never expose to the internet!)
 listen_addr = "127.0.0.1:8232"
 
-# クッキー認証
-enable_cookie_auth = true     # ← 明示するためにコメント解除
+# Cookie authentication 
+enable_cookie_auth = true     # ← uncomment to be explicit
 EOF
 
 sudo chown zebra:zebra /etc/zebrad/zebrad.toml
 sudo chmod 600 /etc/zebrad/zebrad.toml
 ```
 
-## ハードニングされたsystemdサービスを作成
+## 強化されたsystemdサービスを作成する
 
 ```
 sudo tee /etc/systemd/system/zebrad.service > /dev/null <<EOF
@@ -89,7 +91,7 @@ UMask=0027
 ExecStartPost=/bin/chmod 750 /var/lib/zebrad-rpc
 ExecStartPost=/bin/chmod 640 /var/lib/zebrad-rpc/.cookie
 
-# カーネルレベルのサンドボックス（ネイティブなzebradをDockerと同じくらい分離）
+# Kernel-level sandboxing (makes native zebrad as isolated as Docker)
 ProtectSystem=strict
 ProtectHome=yes
 PrivateTmp=yes
@@ -108,15 +110,15 @@ EOF
 sudo systemctl daemon-reload
 ```
 
-## 日常的な使用 - 単一コマンドワークフロー
+## 日常的な使用方法 - 単一コマンドのワークフロー
 
-| アクション                  | コマンド                                      | メモ |
+| 操作                  | コマンド                                      | 注記 |
 |-------------------------|----------------------------------------------|-------|
 | **開始**               | `sudo systemctl start zebrad`                | 1つのコマンド |
 | **停止**                | `sudo systemctl stop zebrad`                 | 1つのコマンド |
-| **ステータス確認**      | `sudo systemctl status zebrad`               | 実行中かどうかを表示 |
-| **ライブログの取得**    | `journalctl -u zebrad -f -o short-precise`  | `screen -r`の代替 |
-| **RPCクッキーの取得**   | `sudo cat /var/lib/zebrad/.cookie`           | 実行中のみ有効 |
+| **ステータス**              | `sudo systemctl status zebrad`               | 実行中かどうかを表示します |
+| **ライブログ**           | `journalctl -u zebrad -f -o short-precise`  | `screen -r`の代わりになります |
+| **RPCクッキーを取得**      | `sudo cat /var/lib/zebrad/.cookie`           | 実行中の場合のみ |
 
 **便利なエイリアス**（`~/.bashrc`または`~/.zshrc`に追加）:
 ```

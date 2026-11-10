@@ -2,41 +2,44 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# <img src="/content-images/ZCG-Circle-Logo-10-f41b8229ca.webp" alt="Alt Text" width="50"/> Zcash Community Grants
+# <img src="/content-images/ZCG-Circle-Logo-10-f41b8229ca.webp" alt="Alt Text" width="50"/>  Zcash Community Grants
 
 ## ミッションステートメント
 
-Zcash Community Grants（ZCG）プログラムは、独立したチームがZcashエコシステムに参入し、Zcashエコシステムの公共利益のために重要な継続的な開発（またはその他の作業）を行うことを支援します。
+Zcash Community Grantsプログラムは、Zcashエコシステムに参入する独立チームに資金を提供し、Zcashエコシステムの公共の利益のために、大規模かつ継続的な開発（またはその他の活動）を行えるようにします。 
 
-## 人物とチーム
+## 人々とチーム
 
-Zcash Community Grantsは、現在5人のメンバーで構成される委員会によって管理されています。このコミュニティは、Zcashプロトコル上で構築したいという意欲のある第三者のチームからの助成金申請を審査し、承認します。[Team](https://zcashcommunitygrants.org/committee/)に詳しい情報があります。
+Zcash Community Grantsは委員会によって運営されており、現在は5名で構成されています。このコミュニティは、Zcashプロトコル上で構築したいサードパーティチームからの助成金（grant）申請を審査し、承認します。[Team](https://zcashcommunitygrants.org/committee/)で詳細をご覧いただけます。
 
-最近、ZCGによって承認されたプロジェクトには、QEDITチームがリードするZcash Shielded Assets（ZSA）があります。これは、新たな支払いプロトコルを導入し、Zcashメインネットに追加の機能をもたらすことで、DeFiをZECに持ち込むものです。
+ZCGが最近承認したプロジェクトには、QEDITチームが主導するZcash Shielded Assets（ZSA）があります。Zcashメインネットに追加機能を加える新しい支払い（payment）プロトコルであるZcashにより、ZECにDeFiをもたらします。 
 
-Zcash Mediaによる短編ドキュメンタリーは、エドワード・スノーデンやズーコー、デイレッド・コノリーなどの著名なZcash関係者を特集し、幅広く共有される関連性があり、面白く、教育的なビデオを作成することを目的としています。
+Zcash Mediaによる短編ドキュメンタリーは、Edward Snowden、Zooko、Deirdre Connollyなどの著名なZcashユーザーを取り上げ、広く共有される、関連性が高く、楽しく、教育的な動画を制作することを目的としています。 
 
-ハードウェアウォレットのLedgerとの統合により、Sapling暗号化取引を完全にサポートすることができ、これによりZcashはプライバシーとセキュリティが確保された状態で保管できるようになりました。これはZondaxチームによって実施されました。
+Ledgerのハードウェアウォレット（hardware wallet）統合により、Saplingのシールドされた（shielded）トランザクション（transaction）を完全にサポートし、Zcashをプライベートかつ安全に保管できるようになります。これはZondax Teamによって実施されました。 
 
-ZGoが担当している、店舗向けのワンクリック式の暗号化支払いおよびポイントオブセールシステムのSDKです。
+ZGoが、実店舗向けの簡単なワンクリック式シールドされた支払いおよびPOSシステムSDKに取り組んでいます。 
 
-グローバルアンバサダープログラムは、Zcashが国際的により幅広く代表されるよう支援し、世界中の対面型コミュニティイベントにも貢献します。
+グローバルアンバサダープログラムは、Zcashが国際的により幅広い代表性を獲得し、世界各地で対面コミュニティイベントを開催することを支援します。 
 
-Zcash Grants Committeeによっていくつかのプロジェクトが審査されており、提出されたプロジェクトの一覧については[Full, Updated List](https://docs.google.com/spreadsheets/d/1FQ28rDCyRW0TiNxrm3rgD8ai2KGUsXAjPieQmI1kKKg/edit?gid=135980745#gid=135980745)をご覧ください。
+さらに複数のプロジェクトがZcash助成金委員会によって審査されています。提出済みプロジェクトの[完全な最新リスト](https://docs.google.com/spreadsheets/d/1FQ28rDCyRW0TiNxrm3rgD8ai2KGUsXAjPieQmI1kKKg/edit?gid=135980745#gid=135980745)をご覧ください。
 
 ## 組織構造
 
-Zcash Community Grantsは、Electric Coin CompanyおよびZcash Foundationとは独立した組織です。
+Zcash Community Grantsは、Electric Coin CompanyおよびZcash Foundationから独立した組織です。 
 
-## 資金
+## 資金調達
 
-Zcash Community Grantsは、[ZIP 1016](https://zips.z.cash/zip-1016)によってNU6.1で確立された資金調達モデルのもと、ブロック補助金の8%を受け取っています。この資金ストリームは、以前の[ZIP 1015](https://zips.z.cash/zip-1015)によるストリームの期限が切れた時点で開始され、現在のブロック間隔ではブロック4,406,400にあたるZcashの3回目の半減期まで続きます。ZCGはこれらの資金を、Zcashエコシステム全体の独立したチームの支援に活用しています。
+Zcash Community Grantsは、NU6.1で[ZIP 1016](https://zips.z.cash/zip-1016)によって確立された資金調達モデルのもと、ブロック（block）補助金の8%を受け取ります。このストリームは、以前の[ZIP 1015](https://zips.z.cash/zip-1015)ストリームが終了した時点で開始され、現在のブロック間隔では、ブロック4,406,400におけるZcashの3回目の半減期（halving）まで続きます。ZCGはこれらの資金を使用して、Zcashエコシステム全体の独立チームを支援します。
 
 ## リソース
 
-[Zcash開発およびガバナンス](https://z.cash/zcash-development-and-governance/)
+[Zcash開発とガバナンス（governance）](https://z.cash/zcash-development-and-governance/)
 
-## ZCGを通じて助成金申請を提出する方法（GitHub + コミュニティフォーラム）
+
+
+
+## ZCG（GitHub + コミュニティフォーラム）を介した助成金申請の提出方法
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -49,49 +52,45 @@ Zcash Community Grantsは、[ZIP 1016](https://zips.z.cash/zip-1016)によって
   />
 </div>
 
-### ステップ1：提案書の準備
 
-以下の内容を含む明確な提案を作成してください：
-- プロジェクトタイトルと申請者情報
-- 問題文および提案された解決策
-- 配信物、スケジュール、マイルストーン
-- 予算と資金要求
+### ステップ1: 提案書を準備する
+以下を含む明確な提案書を作成してください。
+- プロジェクト名と申請者の詳細
+- 問題の説明と提案する解決策
+- 成果物、スケジュール、マイルストーン
+- 予算と資金提供の申請額
 - 関連する経験とリスク
 
 ---
 
-### ステップ2：GitHubでの提出
+### ステップ2: GitHubで提出する
+1. **Zcash Community Grants GitHubリポジトリ**にアクセスします
+2. **Issues**タブを開き、**New Issue**をクリックします
+3. 適切な**助成金申請テンプレート**を選択します
+4. 必須項目をすべて入力して提出します
 
-1. **Zcash Community Grants GitHubリポジトリ**にアクセスしてください。
-2. **Issuesタブを開き、「New Issue」をクリック**してください。
-3. 適切な**助成金申請テンプレートを選択**してください。
-4. 必要なすべてのフィールドを入力し、提出してください。
-
-GitHubのIssueは**公式な申請記録**です。
-
----
-
-### ステップ3：コミュニティフォーラムでの投稿作成
-
-1. **Zcash Community Forumにアクセス**してください。
-2. **Zcash Community Grantsカテゴリで新しいスレッドを作成**してください。
-3. GitHub Issueと同じタイトルを使用してください。
-4. 簡潔な要約を追加し、**GitHub Issueへのリンク**を含めてください。
+GitHubのissueが、**公式な申請記録**です。
 
 ---
 
-### ステップ4：審査への参加
-
-- GitHubのIssueとフォーラムスレッドを監視してください
-- ZCG委員会およびコミュニティからの質問やフィードバックに応答してください
-
----
-
-### ステップ5：結果
-
-- 承認された提案は資金調達および報告へ進みます。
-- 承認されなかった提案は**修正し再提出することができる場合があります**。
+### ステップ3: コミュニティフォーラムの投稿を作成する
+1. **Zcash Community Forum**にアクセスします
+2. **Zcash Community Grants**カテゴリーで新しいスレッドを作成します
+3. GitHubのissueと同じタイトルを使用します
+4. 短い要約を追加し、**GitHubのissueへのリンク**を含めます
 
 ---
 
-**注意:** GitHubが記録の元であり、フォーラムは公開討論のために使用されます。
+### ステップ4: 審査に参加する
+- GitHubのissueとフォーラムスレッドを確認します
+- ZCG委員会およびコミュニティからの質問とフィードバックに回答します
+
+---
+
+### ステップ5: 結果
+- 承認された提案は、資金提供と報告に進みます
+- 承認されなかった提案は、**再検討して再提出できる場合があります**
+
+---
+
+**注:** GitHubが正式な記録の情報源であり、フォーラムは公開討論のためのものです。

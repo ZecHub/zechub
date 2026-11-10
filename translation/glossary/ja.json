@@ -1,6 +1,6 @@
 {
   "locale": "ja",
-  "version": 1,
+  "version": 2,
   "meta": {
     "language_name": "Japanese",
     "native_name": "日本語",
@@ -8,13 +8,108 @@
     "script": "Jpan",
     "dir": "ltr",
     "language_lead": [],
-    "last_review": null
+    "last_review": "2026-11-09"
   },
   "style": {
     "variety": "natural, fluent Japanese",
-    "loanwords_text": "Technical loanwords may be rendered in katakana or left in Latin script where that is natural Japanese usage."
+    "register": "formal",
+    "english_in_brackets": "first-use",
+    "loanwords": "translate",
+    "loanwords_text": "Render technical loanwords in katakana where that is natural Japanese usage. The terminology list below wins over this rule.",
+    "capitalise_kept_english_at_sentence_start": false,
+    "numerals": "western",
+    "decimal_separator": ".",
+    "quotes": "「」",
+    "abbreviations_with_full_stop": [],
+    "writing_rules": [
+      "Use polite です・ます register throughout all pages.",
+      "On first use of a translated term, add the English original in parentheses: ウォレット（Wallet）.",
+      "Render crypto loanwords in katakana, not in Latin script: ブロックチェーン not blockchain.",
+      "Use western digits 0-9, not CJK numerals, for all numbers.",
+      "Use 「」 for quotation marks, not “” or ‘’.",
+      "Never put English in brackets inside a Markdown link label: [日本語テキスト](url) is correct, [日本語テキスト [English]](url) is wrong and breaks the link."
+    ]
   },
   "terms": {
+    "wallet": {
+      "target": "ウォレット",
+      "forms": [
+        "ウォレット"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "glossary-review-ja.md#terms-1"
+    },
+    "shielded": {
+      "target": "シールドされた",
+      "forms": [
+        "シールドされた"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "glossary-review-ja.md#terms-2"
+    },
+    "transaction": {
+      "target": "トランザクション",
+      "forms": [
+        "トランザクション"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "glossary-review-ja.md#terms-3"
+    },
+    "privacy": {
+      "target": "プライバシー",
+      "forms": [
+        "プライバシー"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "glossary-review-ja.md#terms-5"
+    },
+    "pool": {
+      "target": "プール",
+      "forms": [
+        "プール"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "glossary-review-ja.md#terms-6"
+    },
+    "proof": {
+      "target": "Corrected from 証明 per reviewer request.",
+      "forms": [
+        "Corrected from 証明 per reviewer request."
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "\"証明\" is more appropriate than \"証拠\" because it refers to a mathematical proof in cryptography.",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "glossary-review-ja.md#terms-10"
+    },
     "node": {
       "target": "ノード",
       "forms": [
@@ -40,6 +135,1904 @@
       ],
       "reviewed_at": "2026-10-10",
       "source": "prompt_head_ja.txt"
+    },
+    "transparent": {
+      "target": "公開型",
+      "forms": [
+        "公開型"
+      ],
+      "rejected": [
+        {
+          "text": "透明"
+        }
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "\"公開型\" makes it clearer that transaction details are publicly visible on the blockchain, rather than simply being transparent.",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "glossary-review-ja.md#terms-12"
+    },
+    "exchange": {
+      "target": "取引所",
+      "forms": [
+        "取引所"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "glossary-review-ja.md#terms-16"
+    },
+    "memo": {
+      "target": "メモ",
+      "forms": [
+        "メモ"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "glossary-review-ja.md#terms-19"
+    },
+    "viewing-key": {
+      "target": "ビューイングキー",
+      "forms": [
+        "ビューイングキー"
+      ],
+      "rejected": [
+        {
+          "text": "Viewing Key"
+        }
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "\"ビューイングキー\" is the commonly used Japanese rendering of this Zcash technical term.",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "glossary-review-ja.md#terms-26"
+    },
+    "fee": {
+      "target": "手数料",
+      "forms": [
+        "手数料"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "glossary-review-ja.md#terms-22"
+    },
+    "swap": {
+      "target": "スワップ",
+      "forms": [
+        "スワップ"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "glossary-review-ja.md#terms-27"
+    },
+    "custodial": {
+      "target": "カストディアル",
+      "forms": [
+        "カストディアル"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "\"カストディアル\" is commonly used in the Japanese crypto industry, but \"第三者管理型\" could be a more accessible alternative for general audiences.",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "glossary-review-ja.md#terms-18"
+    },
+    "zero-knowledge": {
+      "target": "ゼロ知識",
+      "forms": [
+        "ゼロ知識"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "glossary-review-ja.md#terms-23"
+    },
+    "network-upgrade": {
+      "target": "ネットワークアップグレード",
+      "forms": [
+        "ネットワークアップグレード"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "glossary-review-ja.md#terms-32"
+    },
+    "mining": {
+      "target": "マイニング",
+      "forms": [
+        "マイニング"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "glossary-review-ja.md#terms-20"
+    },
+    "miner": {
+      "target": "マイナー",
+      "forms": [
+        "マイナー"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "glossary-review-ja.md#terms-39"
+    },
+    "full-node": {
+      "target": "フルノード",
+      "forms": [
+        "フルノード"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "glossary-review-ja.md#terms-34"
+    },
+    "turnstile": {
+      "target": "ターンスタイル",
+      "forms": [
+        "ターンスタイル"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "\"ターンスタイル\" is appropriate as a Japanese technical term. Adding the original English term in parentheses on first use, as in \"ターンスタイル（Turnstile）\", would help readers connect it to the original Zcash terminology.",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "glossary-review-ja.md#terms-37"
+    },
+    "spending-key": {
+      "target": "支出鍵",
+      "forms": [
+        "支出鍵"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "glossary-review-ja.md#terms-38"
+    },
+    "seed-phrase": {
+      "target": "シードフレーズ",
+      "forms": [
+        "シードフレーズ"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "glossary-review-ja.md#terms-50"
+    },
+    "light-client": {
+      "target": "ライトクライアント",
+      "forms": [
+        "ライトクライアント"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "glossary-review-ja.md#terms-55"
+    },
+    "token": {
+      "target": "トークン",
+      "forms": [
+        "トークン"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "glossary-review-ja.md#terms-28"
+    },
+    "chain": {
+      "target": "チェーン",
+      "forms": [
+        "チェーン"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "glossary-review-ja.md#terms-11"
+    },
+    "cross-chain": {
+      "target": "クロスチェーン",
+      "forms": [
+        "クロスチェーン"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "glossary-review-ja.md#terms-52"
+    },
+    "faucet": {
+      "target": "フォーセット",
+      "forms": [
+        "フォーセット"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "glossary-review-ja.md#terms-49"
+    },
+    "developer": {
+      "target": "Corrected from 開発者 per reviewer request.",
+      "forms": [
+        "Corrected from 開発者 per reviewer request."
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "\"開発者\" refers to a person who develops software, while \"開発\" refers to the activity of development.",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "glossary-review-ja.md#terms-33"
+    },
+    "dashboard": {
+      "target": "ダッシュボード",
+      "forms": [
+        "ダッシュボード"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "glossary-review-ja.md#terms-51"
+    },
+    "visualizer": {
+      "target": "ビジュアライザー",
+      "forms": [
+        "ビジュアライザー"
+      ],
+      "rejected": [
+        {
+          "text": "Visualizer"
+        }
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "A generic word, so katakana, the same as in the menus.   Adding \"Visualizer\" in parentheses on first use would help readers recognize the original term.",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "glossary-review-ja.md#terms-62"
+    },
+    "use-case": {
+      "target": "ユースケース",
+      "forms": [
+        "ユースケース"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "glossary-review-ja.md#terms-53"
+    },
+    "brand": {
+      "target": "ブランド",
+      "forms": [
+        "ブランド"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "glossary-review-ja.md#terms-61"
+    },
+    "treasury": {
+      "target": "トレジャリー",
+      "forms": [
+        "トレジャリー"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "glossary-review-ja.md#terms-57"
+    },
+    "top-up": {
+      "target": "チャージ",
+      "forms": [
+        "チャージ"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "glossary-review-ja.md#terms-58"
+    },
+    "tools": {
+      "target": "ツール",
+      "forms": [
+        "ツール"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "glossary-review-ja.md#terms-25"
+    },
+    "newsletter": {
+      "target": "ニュースレター",
+      "forms": [
+        "ニュースレター"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "glossary-review-ja.md#terms-45"
+    },
+    "address": {
+      "target": "アドレス",
+      "forms": [
+        "アドレス"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "glossary-review-ja.md#terms-4"
+    },
+    "block": {
+      "target": "ブロック",
+      "forms": [
+        "ブロック"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "glossary-review-ja.md#terms-7"
+    },
+    "blockchain": {
+      "target": "ブロックチェーン",
+      "forms": [
+        "ブロックチェーン"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "glossary-review-ja.md#terms-15"
+    },
+    "signature": {
+      "target": "署名",
+      "forms": [
+        "署名"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "glossary-review-ja.md#terms-17"
+    },
+    "commitment": {
+      "target": "Corrected from コミットメント per reviewer request.",
+      "forms": [
+        "Corrected from コミットメント per reviewer request."
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "In cryptography, \"commitment\" refers to a value that binds hidden data without revealing it. \"約束\" means a promise and is misleading in this context.",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "glossary-review-ja.md#terms-21"
+    },
+    "nullifier": {
+      "target": "ヌリファイア",
+      "forms": [
+        "ヌリファイア"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "\"ヌリファイア\" is suitable as a technical term in Japanese, but including \"nullifier\" in parentheses on first use would help readers connect it to the original terminology.  ヌリファイア（nullifier）",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "glossary-review-ja.md#terms-40"
+    },
+    "note": {
+      "target": "ノート",
+      "forms": [
+        "ノート"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "glossary-review-ja.md#terms-13"
+    },
+    "trusted-setup": {
+      "target": "トラステッドセットアップ",
+      "forms": [
+        "トラステッドセットアップ"
+      ],
+      "rejected": [
+        {
+          "text": "信頼できるセットアップ"
+        }
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "\"トラステッドセットアップ\" is more appropriate as a cryptographic term than the literal translation \"信頼できるセットアップ\". Adding \"Trusted Setup\" in parentheses on first use would help readers recognize the original term.",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "glossary-review-ja.md#terms-46"
+    },
+    "consensus": {
+      "target": "コンセンサス",
+      "forms": [
+        "コンセンサス"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "glossary-review-ja.md#terms-29"
+    },
+    "governance": {
+      "target": "ガバナンス",
+      "forms": [
+        "ガバナンス"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "glossary-review-ja.md#terms-36"
+    },
+    "grant": {
+      "target": "助成金",
+      "forms": [
+        "助成金"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "glossary-review-ja.md#terms-24"
+    },
+    "halving": {
+      "target": "半減期",
+      "forms": [
+        "半減期"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "glossary-review-ja.md#terms-43"
+    },
+    "staking": {
+      "target": "ステーキング",
+      "forms": [
+        "ステーキング"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "glossary-review-ja.md#terms-30"
+    },
+    "finalizer": {
+      "target": "ファイナライザー",
+      "forms": [
+        "ファイナライザー"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "glossary-review-ja.md#terms-44"
+    },
+    "bond": {
+      "target": "ボンド",
+      "forms": [
+        "ボンド"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "glossary-review-ja.md#terms-47"
+    },
+    "encryption": {
+      "target": "暗号化",
+      "forms": [
+        "暗号化"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "glossary-review-ja.md#terms-14"
+    },
+    "decentralized": {
+      "target": "分散型",
+      "forms": [
+        "分散型"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "glossary-review-ja.md#terms-31"
+    },
+    "on-chain": {
+      "target": "オンチェーン",
+      "forms": [
+        "オンチェーン"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "glossary-review-ja.md#terms-35"
+    },
+    "bridge": {
+      "target": "ブリッジ",
+      "forms": [
+        "ブリッジ"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "glossary-review-ja.md#terms-42"
+    },
+    "payment": {
+      "target": "支払い",
+      "forms": [
+        "支払い"
+      ],
+      "context": "General payment action (支払い); Zgo Payment Processor uses 決済 for payment processing.",
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "glossary-review-ja.md#terms-8"
+    },
+    "smart-contract": {
+      "target": "スマートコントラクト",
+      "forms": [
+        "スマートコントラクト"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "glossary-review-ja.md#terms-54"
+    },
+    "unlinkable": {
+      "target": "関連付け不能",
+      "forms": [
+        "関連付け不能"
+      ],
+      "rejected": [
+        {
+          "text": "リンク不可能"
+        }
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "\"関連付け不能\" more clearly expresses that transactions or addresses cannot be linked to the same person, while \"リンク不可能\" may be confused with hyperlinks.",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "glossary-review-ja.md#terms-60"
+    },
+    "permissionless": {
+      "target": "パーミッションレス",
+      "forms": [
+        "パーミッションレス"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "glossary-review-ja.md#terms-59"
+    },
+    "scaling": {
+      "target": "スケーリング",
+      "forms": [
+        "スケーリング"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "glossary-review-ja.md#terms-48"
+    },
+    "selective-disclosure": {
+      "target": "選択的開示",
+      "forms": [
+        "選択的開示"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "glossary-review-ja.md#terms-56"
+    },
+    "hardware-wallet": {
+      "target": "ハードウェアウォレット",
+      "forms": [
+        "ハードウェアウォレット"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "glossary-review-ja.md#terms-41"
+    }
+  },
+  "phrases": {
+    "Accept Payments": {
+      "target": "支払いを受け付ける",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ja.md#navigation-32"
+    },
+    "Akash Network": {
+      "target": "Akash Network",
+      "keep_english": true,
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ja.md#navigation-60"
+    },
+    "Akash Network Zebra": {
+      "target": "Akash Network Zebra",
+      "keep_english": true,
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ja.md#menuLabels-2"
+    },
+    "Avalanche RedBridge": {
+      "target": "Avalanche RedBridge",
+      "keep_english": true,
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ja.md#navigation-61"
+    },
+    "Block Explorers": {
+      "target": "ブロックエクスプローラー",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ja.md#navigation-20"
+    },
+    "Blockchain Explorers": {
+      "target": "ブロックチェーンエクスプローラー",
+      "forms": [
+        "ブロックチェーンエクスプローラー"
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ja.md"
+    },
+    "Brand": {
+      "target": "ブランド",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ja.md#navigation-50"
+    },
+    "BTCPayServer Plugin": {
+      "target": "BTCPayServer プラグイン",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ja.md#navigation-65"
+    },
+    "BTCPayServer Zcash Plugin": {
+      "target": "BTCPayServer Zcash Plugin",
+      "keep_english": true,
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ja.md#menuLabels-4"
+    },
+    "Buying ZEC": {
+      "target": "ZECの購入",
+      "forms": [
+        "ZECの購入"
+      ],
+      "context": "Navigation label (noun form); menuLabels variant ZECを購入する is verb form.",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ja.md"
+    },
+    "Community": {
+      "target": "コミュニティ",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ja.md#navigation-11"
+    },
+    "Community Blogs": {
+      "target": "コミュニティブログ",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ja.md#navigation-40"
+    },
+    "Community Building": {
+      "target": "コミュニティビルディング",
+      "rejected": [
+        {
+          "text": "Community Building"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "Translated from untranslated English to \"コミュニティビルディング\" (standard industry loanword in Web3) for consistency with the Japanese UI.",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ja.md#menuLabels-80"
+    },
+    "Community Forum": {
+      "target": "コミュニティフォーラム",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ja.md#navigation-42"
+    },
+    "Community Links": {
+      "target": "コミュニティリンク",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ja.md#navigation-41"
+    },
+    "Community Projects": {
+      "target": "コミュニティプロジェクト",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ja.md#navigation-43"
+    },
+    "Contribute": {
+      "target": "貢献する",
+      "forms": [
+        "貢献する"
+      ],
+      "inflection": "Verb call to action.",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ja.md"
+    },
+    "Custodial Exchanges": {
+      "target": "カストディアル取引所",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ja.md#menuLabels-74"
+    },
+    "Cypherpunk Zero NFT": {
+      "target": "Cypherpunk Zero NFT",
+      "keep_english": true,
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ja.md#navigation-47"
+    },
+    "DAO": {
+      "target": "DAO",
+      "keep_english": true,
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ja.md#navigation-6"
+    },
+    "Dashboard": {
+      "target": "ダッシュボード",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ja.md#navigation-13"
+    },
+    "Developers": {
+      "target": "開発者",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ja.md#navigation-10"
+    },
+    "Donate": {
+      "target": "寄付する",
+      "forms": [
+        "寄付する"
+      ],
+      "inflection": "Verb call to action; the noun page name is 寄付 (Donations).",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ja.md"
+    },
+    "Donations": {
+      "target": "寄付",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ja.md#navigation-37"
+    },
+    "Ecosystem": {
+      "target": "エコシステム",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ja.md#navigation-39"
+    },
+    "Exchanges": {
+      "target": "取引所",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ja.md#navigation-19"
+    },
+    "Explore": {
+      "target": "探索",
+      "forms": [
+        "探索"
+      ],
+      "context": "Navigation verb; Full Explore keeps English as a UI element name.",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ja.md"
+    },
+    "Extras": {
+      "target": "追加機能",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ja.md#menuLabels-18"
+    },
+    "Faucets": {
+      "target": "フォーセット",
+      "rejected": [
+        {
+          "text": "蛇口"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "Faucet is the standard crypto term. The literal translation sounds unnatural.",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ja.md#navigation-17"
+    },
+    "For Forks & Maintainers": {
+      "target": "フォークとメンテナー向け",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ja.md#exploreMenu-13"
+    },
+    "Free2z Live": {
+      "target": "Free2z Live",
+      "keep_english": true,
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ja.md#navigation-53"
+    },
+    "Freelance Privacy": {
+      "target": "フリーランスのプライバシー",
+      "forms": [
+        "フリーランスのプライバシー"
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ja.md"
+    },
+    "Full Explore": {
+      "target": "Full Explore",
+      "keep_english": true,
+      "forms": [
+        "Full Explore"
+      ],
+      "rejected": [
+        {
+          "text": "完全ガイド"
+        }
+      ],
+      "context": "keep English in UI menu label; exploratory site index/directory.",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ja.md"
+    },
+    "Glossary & FAQ's": {
+      "target": "用語集 & FAQ",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ja.md#menuLabels-78"
+    },
+    "Glossary & FAQs": {
+      "target": "用語集とFAQ",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ja.md#exploreMenu-11"
+    },
+    "Governance": {
+      "target": "ガバナンス",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ja.md#navigation-4"
+    },
+    "Guides": {
+      "target": "ガイド",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ja.md#navigation-2"
+    },
+    "How to Participate": {
+      "target": "参加方法",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ja.md#menuLabels-24"
+    },
+    "Journalist Privacy": {
+      "target": "ジャーナリストのプライバシー",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ja.md#navigation-34"
+    },
+    "Keeping Records": {
+      "target": "記録の保管",
+      "forms": [
+        "記録の保管"
+      ],
+      "context": "Noun form for menu label.",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ja.md"
+    },
+    "Memos": {
+      "target": "メモ",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ja.md#navigation-24"
+    },
+    "More": {
+      "target": "その他",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ja.md#navigation-14"
+    },
+    "Navigation": {
+      "target": "ナビゲーション",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ja.md#sideMenu-1"
+    },
+    "Newsletter": {
+      "target": "ニュースレター",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ja.md#navigation-7"
+    },
+    "Nym Mixnet Wallet Setup": {
+      "target": "Nym Mixnet ウォレットのセットアップ",
+      "rejected": [
+        {
+          "text": "Nym Mixnet Wallet Setup"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "Kept the protocol brand name \"Nym Mixnet\" in English while translating \"Wallet Setup\" into Japanese (\"ウォレットのセットアップ\") for UI clarity.",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ja.md#menuLabels-81"
+    },
+    "Nym VPN": {
+      "target": "Nym VPN",
+      "keep_english": true,
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ja.md#navigation-54"
+    },
+    "Organizations": {
+      "target": "組織",
+      "forms": [
+        "組織"
+      ],
+      "context": "Generic organizations label; Zcash Organizations uses 関連団体 for affiliated entities.",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ja.md"
+    },
+    "Overview": {
+      "target": "概要",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ja.md#navigation-72"
+    },
+    "Pay for AI": {
+      "target": "AI利用料を支払う",
+      "forms": [
+        "AI利用料を支払う"
+      ],
+      "inflection": "Clarified from AIの支払い to mean paying for AI services/usage.",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ja.md"
+    },
+    "Payment Request URIs": {
+      "target": "支払いリクエストURI",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ja.md#navigation-26"
+    },
+    "Podcast": {
+      "target": "ポッドキャスト",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ja.md#menuLabels-33"
+    },
+    "Privacy Tools": {
+      "target": "プライバシーツール",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ja.md#menuLabels-77"
+    },
+    "Private Community Treasury": {
+      "target": "プライベートなコミュニティトレジャリー",
+      "rejected": [
+        {
+          "text": "プライベートなコミュニティ財務"
+        },
+        {
+          "text": "プライベート・コミュニティ・トレジャリー"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "Matches the glossary term treasury \\= トレジャリー; 財務 means finance or accounting, not the pool of shared funds. Matched phrasing with navigation item 36 and removed unnecessary middle dots.",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ja.md#navigation-36"
+    },
+    "Raspberry Pi 4 Full Node": {
+      "target": "Raspberry Pi 4 フルノード",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ja.md#menuLabels-35"
+    },
+    "Raspberry pi 4 Zebra Node": {
+      "target": "Raspberry pi 4 Zebra ノード",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ja.md#menuLabels-36"
+    },
+    "Raspberry Pi Zcashd Node": {
+      "target": "Raspberry Pi Zcashd ノード",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ja.md#navigation-57"
+    },
+    "Raspberry Pi Zebra Node": {
+      "target": "Raspberry Pi Zebra ノード",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ja.md#navigation-59"
+    },
+    "Raspberry pi5 Zebra Lightwalletd Zingo": {
+      "target": "Raspberry pi5 Zebra Lightwalletd Zingo",
+      "keep_english": true,
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ja.md#navigation-58"
+    },
+    "Recovering Funds": {
+      "target": "資金の復元",
+      "rejected": [
+        {
+          "text": "資金の回復"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "\"復元\" is more appropriate for wallet and cryptocurrency contexts than \"回復\".",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ja.md#navigation-28"
+    },
+    "Research": {
+      "target": "リサーチ",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ja.md#menuLabels-39"
+    },
+    "Send Money Privately": {
+      "target": "プライベートに送金する",
+      "forms": [
+        "プライベートに送金する"
+      ],
+      "inflection": "Verb ending する for action-oriented menu phrasing.",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ja.md"
+    },
+    "Shop": {
+      "target": "ショップ",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ja.md#navigation-73"
+    },
+    "Sitemap": {
+      "target": "サイトマップ",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ja.md#menuLabels-42"
+    },
+    "Start Here": {
+      "target": "ここから始める",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ja.md#navigation-31"
+    },
+    "Store": {
+      "target": "ストア",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ja.md#menuLabels-44"
+    },
+    "Tools": {
+      "target": "ツール",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ja.md#navigation-29"
+    },
+    "Transactions": {
+      "target": "トランザクション",
+      "rejected": [
+        {
+          "text": "取引"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "Use the same translation as the glossary for consistency.",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ja.md#navigation-23"
+    },
+    "Transparent Exchange Addresses": {
+      "target": "公開型取引所アドレス",
+      "rejected": [
+        {
+          "text": "透明な取引所アドレス"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "\"公開型\" is consistent with the glossary translation of \"transparent\". \"取引所アドレス\" is kept because it refers to addresses associated with exchanges. Aligned with glossary translation of \"transparent\" as \"公開型\" and matched navigation item 22\\.",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ja.md#navigation-22"
+    },
+    "Tutorials": {
+      "target": "チュートリアル",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ja.md#navigation-3"
+    },
+    "Use Cases": {
+      "target": "ユースケース",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ja.md#navigation-30"
+    },
+    "Use Zcash": {
+      "target": "Zcashを使う",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ja.md#navigation-15"
+    },
+    "Using Zcash": {
+      "target": "Zcashを使う",
+      "rejected": [
+        {
+          "text": "Zcash の使い方"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "Aligned with navigation (item 15\\) and menuLabels (item 52\\) to maintain consistent phrasing across the entire site.",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ja.md#menuLabels-52"
+    },
+    "Using ZEC in DeFi": {
+      "target": "DeFiでZECを使う",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ja.md#navigation-55"
+    },
+    "Using ZEC Privately": {
+      "target": "プライバシーを守ってZECを使う",
+      "rejected": [
+        {
+          "text": "ZECをプライベートに使う"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "\"プライベートに\" can read as “for personal use”; this states that privacy is protected. Matched navigation item 56 to emphasize privacy protection and avoid ambiguity.",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ja.md#navigation-56"
+    },
+    "Visual Identity": {
+      "target": "ビジュアルアイデンティティ",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ja.md#menuLabels-53"
+    },
+    "Visualizer": {
+      "target": "ビジュアライザー",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ja.md#navigation-5"
+    },
+    "Visualizing the Zcash Network": {
+      "target": "Zcashネットワークを可視化",
+      "forms": [
+        "Zcashネットワークを可視化"
+      ],
+      "inflection": "Concise noun form for UI menu list consistency.",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ja.md"
+    },
+    "Visualizing Zcash Addresses": {
+      "target": "Zcashアドレスを可視化",
+      "forms": [
+        "Zcashアドレスを可視化"
+      ],
+      "inflection": "Concise noun form for UI menu list consistency.",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ja.md"
+    },
+    "Wallets": {
+      "target": "ウォレット",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ja.md#navigation-1"
+    },
+    "Ywallet FROST Demo": {
+      "target": "Ywallet FROSTデモ",
+      "forms": [
+        "Ywallet FROSTデモ"
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ja.md"
+    },
+    "Zcash Community": {
+      "target": "Zcash コミュニティ",
+      "rejected": [
+        {
+          "text": "Zcashコミュニティ"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "Added a half-width space (\"Zcash コミュニティ\") to maintain typographical consistency with neighboring menu items like \"Zcash メディア\" and \"Zcash ガバナンス\".",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ja.md#menuLabels-60"
+    },
+    "Zcash Ecosystem Security": {
+      "target": "Zcashエコシステムのセキュリティ",
+      "forms": [
+        "Zcashエコシステムのセキュリティ"
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ja.md"
+    },
+    "Zcash Governance": {
+      "target": "Zcash ガバナンス",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ja.md#menuLabels-62"
+    },
+    "Zcash Improvement Proposals": {
+      "target": "Zcash改善提案",
+      "forms": [
+        "Zcash改善提案"
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ja.md"
+    },
+    "Zcash Media": {
+      "target": "Zcash メディア",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ja.md#navigation-44"
+    },
+    "Zcash Organizations": {
+      "target": "Zcash 関連団体",
+      "forms": [
+        "Zcash 関連団体"
+      ],
+      "rejected": [
+        {
+          "text": "Zcash 組織"
+        }
+      ],
+      "context": "Zcash-specific affiliated organizations (ECC, ZF, ZCG); 関連団体 more natural than literal 組織.",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ja.md"
+    },
+    "Zcash Podcasts": {
+      "target": "Zcash ポッドキャスト",
+      "rejected": [
+        {
+          "text": "Zcashのポッドキャスト"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "Removed particle \"の\" to align with menu item conventions like \"Zcash メディア\" (item 44\\)",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ja.md#navigation-45"
+    },
+    "Zcash Tech": {
+      "target": "Zcash 技術",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ja.md#menuLabels-76"
+    },
+    "Zcash Use Cases": {
+      "target": "Zcash のユースケース",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ja.md#menuLabels-75"
+    },
+    "Zcon Archive": {
+      "target": "Zconアーカイブ",
+      "forms": [
+        "Zconアーカイブ"
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ja.md"
+    },
+    "Zcon Vozes Archive": {
+      "target": "Zcon Vozes アーカイブ",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ja.md#menuLabels-68"
+    },
+    "Zenith Installation": {
+      "target": "Zenith のインストール",
+      "rejected": [
+        {
+          "text": "Zenith インストール"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "Added particle \"の\" to align with navigation item 70 and improve readability as an installation guide.",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ja.md#navigation-70"
+    },
+    "Zero Knowledge vs Decoy Systems": {
+      "target": "ゼロ知識とデコイシステムの比較",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ja.md#navigation-71"
+    },
+    "Zero-Knowledge vs Decoys": {
+      "target": "ゼロ知識 vs デコイ",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ja.md#menuLabels-70"
+    },
+    "Zgo Payment Processor": {
+      "target": "Zgo 決済プロセッサー",
+      "forms": [
+        "Zgo 決済プロセッサー"
+      ],
+      "context": "Product name with 決済プロセッサー for payment processing; the base term payment uses 支払い for general payments.",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ja.md"
+    },
+    "Zingolib and Zaino Tutorial": {
+      "target": "Zingolib と Zaino のチュートリアル",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ja.md#navigation-69"
+    },
+    "ZIPs & Grants": {
+      "target": "ZIPと助成金",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ja.md#menuLabels-59"
+    },
+    "Zkool Multisig": {
+      "target": "Zkool マルチシグ",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@PythonRysh"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ja.md#navigation-62"
     }
   },
   "changelog": [
@@ -51,6 +2044,174 @@
       ],
       "phrases": [],
       "summary": "Imported from the runner's hand-written prompt_head_ja.txt: language variety, loanword rule and the node rendering, approved by the steward as legacy prompt-head rules."
+    },
+    {
+      "version": 2,
+      "date": "2026-11-09",
+      "terms": [
+        "address",
+        "block",
+        "blockchain",
+        "bond",
+        "brand",
+        "bridge",
+        "chain",
+        "commitment",
+        "consensus",
+        "cross-chain",
+        "custodial",
+        "dashboard",
+        "decentralized",
+        "developer",
+        "encryption",
+        "exchange",
+        "faucet",
+        "fee",
+        "finalizer",
+        "full-node",
+        "governance",
+        "grant",
+        "halving",
+        "hardware-wallet",
+        "light-client",
+        "memo",
+        "miner",
+        "mining",
+        "network-upgrade",
+        "newsletter",
+        "note",
+        "nullifier",
+        "on-chain",
+        "payment",
+        "permissionless",
+        "pool",
+        "privacy",
+        "proof",
+        "scaling",
+        "seed-phrase",
+        "selective-disclosure",
+        "shielded",
+        "signature",
+        "smart-contract",
+        "spending-key",
+        "staking",
+        "swap",
+        "token",
+        "tools",
+        "top-up",
+        "transaction",
+        "transparent",
+        "treasury",
+        "trusted-setup",
+        "turnstile",
+        "unlinkable",
+        "use-case",
+        "viewing-key",
+        "visualizer",
+        "wallet",
+        "zero-knowledge"
+      ],
+      "phrases": [
+        "Accept Payments",
+        "Akash Network",
+        "Akash Network Zebra",
+        "Avalanche RedBridge",
+        "BTCPayServer Plugin",
+        "BTCPayServer Zcash Plugin",
+        "Block Explorers",
+        "Blockchain Explorers",
+        "Brand",
+        "Buying ZEC",
+        "Community",
+        "Community Blogs",
+        "Community Building",
+        "Community Forum",
+        "Community Links",
+        "Community Projects",
+        "Contribute",
+        "Custodial Exchanges",
+        "Cypherpunk Zero NFT",
+        "DAO",
+        "Dashboard",
+        "Developers",
+        "Donate",
+        "Donations",
+        "Ecosystem",
+        "Exchanges",
+        "Explore",
+        "Extras",
+        "Faucets",
+        "For Forks & Maintainers",
+        "Free2z Live",
+        "Freelance Privacy",
+        "Full Explore",
+        "Glossary & FAQ's",
+        "Glossary & FAQs",
+        "Governance",
+        "Guides",
+        "How to Participate",
+        "Journalist Privacy",
+        "Keeping Records",
+        "Memos",
+        "More",
+        "Navigation",
+        "Newsletter",
+        "Nym Mixnet Wallet Setup",
+        "Nym VPN",
+        "Organizations",
+        "Overview",
+        "Pay for AI",
+        "Payment Request URIs",
+        "Podcast",
+        "Privacy Tools",
+        "Private Community Treasury",
+        "Raspberry Pi 4 Full Node",
+        "Raspberry Pi Zcashd Node",
+        "Raspberry Pi Zebra Node",
+        "Raspberry pi 4 Zebra Node",
+        "Raspberry pi5 Zebra Lightwalletd Zingo",
+        "Recovering Funds",
+        "Research",
+        "Send Money Privately",
+        "Shop",
+        "Sitemap",
+        "Start Here",
+        "Store",
+        "Tools",
+        "Transactions",
+        "Transparent Exchange Addresses",
+        "Tutorials",
+        "Use Cases",
+        "Use Zcash",
+        "Using ZEC Privately",
+        "Using ZEC in DeFi",
+        "Using Zcash",
+        "Visual Identity",
+        "Visualizer",
+        "Visualizing Zcash Addresses",
+        "Visualizing the Zcash Network",
+        "Wallets",
+        "Ywallet FROST Demo",
+        "ZIPs & Grants",
+        "Zcash Community",
+        "Zcash Ecosystem Security",
+        "Zcash Governance",
+        "Zcash Improvement Proposals",
+        "Zcash Media",
+        "Zcash Organizations",
+        "Zcash Podcasts",
+        "Zcash Tech",
+        "Zcash Use Cases",
+        "Zcon Archive",
+        "Zcon Vozes Archive",
+        "Zenith Installation",
+        "Zero Knowledge vs Decoy Systems",
+        "Zero-Knowledge vs Decoys",
+        "Zgo Payment Processor",
+        "Zingolib and Zaino Tutorial",
+        "Zkool Multisig"
+      ],
+      "summary": "Imported 61 terms + 8 style rules + 98 menu phrases from Ryu's native review (PR #2632). Key corrections: proof→証明, commitment→コミットメント, developer→開発者, transparent→公開型, Faucets→フォーセット, trusted setup→トラステッドセットアップ. Style: polite です・ます, first-use English brackets, katakana loanwords, western 0-9, 「」 quotes."
     }
   ]
 }

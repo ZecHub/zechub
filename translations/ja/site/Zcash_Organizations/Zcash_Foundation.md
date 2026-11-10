@@ -2,41 +2,42 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# <img src="/content-images/image-2024-02-03-165803028-2532c6c3ac.webp" alt="Alt Text" width="50"/> Zcash Foundation
+# <img src="/content-images/image-2024-02-03-165803028-2532c6c3ac.webp" alt="Alt Text" width="50"/>  Zcash Foundation
 
-## ミッションステートメント
+## ミッション声明
 
-ZFの目標は、オープンネットワークを維持するためのツールを作成し、誰もが自分自身のプライバシーを自分の条件で保護できるようにすることです。プライバシーの本質は、他人と共有するかしないかを選択できることです。プライバシーとは自己決定権と同意を含み、人間の尊厳および市民社会の健全な継続にとって不可欠です。
+ZFの目標は、誰もが自らの条件で自身のプライバシー（privacy）を守れるように、オープンネットワークを維持する助けとなるツール（tools）を作ることです。プライバシーそのものの本質は、他者と何を共有するか、または共有しないかを選択できることです。プライバシーは自律性と同意の両方から成り、人間の尊厳および市民社会の健全な継続に不可欠です。
 
-## 人物とチーム
+## 人々とチーム
 
-Zcash Foundationには世界中で約12人の従業員がいます。彼らはプロトコル開発、プロトコルセキュリティ、プロトコルガバナンス、インフラストラクチャの開発およびZcashコミュニティイベントの管理に注力しています。Zcash FoundationはZcashだけでなく、[人道支援](https://zfnd.org/sai/)や一般市民のためのプライバシー保護技術の開発にも取り組んでいます。
+Zcash Foundationには世界各地に分散している約12名の従業員がいます。彼らはプロトコル（protocol）の開発、プロトコルのセキュリティ、プロトコルのガバナンス（governance）、インフラストラクチャ開発、およびZcashコミュニティイベントの運営に注力しています。Zcash FoundationはZcashのみでの活動に限定されておらず、[人道支援](https://zfnd.org/sai/)や公益のためのプライバシー保護技術の開発にも取り組んでいます。
 
-Zcash Foundation Grantsは、プライバシーエコシステムに貢献するプロジェクトを資金提供する手段としてエコシステムに提供しています。例として、[Zebra](https://zebra.zfnd.org/)（Zcash用独立ノード実装）、[FROST](https://frost.zfnd.org/)および[Zcash Community Grants Committee](https://zcashcommunitygrants.org/)を通じて[様々なプロジェクト](https://www.coindesk.com/tech/2021/06/08/tor-project-receives-670k-from-zcash-open-major-grants-for-coding-language-upgrade/)が資金提供されています。
+Zcash Foundation Grantsは、[Zebra](https://zebra.zfnd.org/)（Zcash向けの独立したノード実装）および[FROST](https://frost.zfnd.org/)など、プライバシーエコシステム（ecosystem）に貢献するプロジェクトを資金提供する手段をエコシステムに提供しています。また、[Zcash Community Grants Committee](https://zcashcommunitygrants.org/)を通じて、[さまざまな](https://www.coindesk.com/tech/2021/06/08/tor-project-receives-670k-from-zcash-open-major-grants-for-coding-language-upgrade/)その他のプロジェクトにも助成金（grant）を提供しています。 
 
-Foundationは、Zcashエコシステムに焦点を当てた年次対面式カンファレンスである[Zcon](https://zfnd.org/zcon/)を開催し、[Zcon Vozes](https://zfnd.org/zcon-voices/)のような地域特化型の[カンファレンス](https://zfnd.org/zcash-dev-summits/)や、Zcash Foundation A/V [クラブ](https://forum.zcashcommunity.com/t/the-zero-knowledge-audiovisual-club/43733)（現在はZero Knowledge Audio Visual [クラブ](https://zkav.club/)）および各種オープンコミュニティ[calls](https://zfnd.org/arborist-calls/)、コミュニティ[event](https://zfnd.org/zf-events/#:~:text=Zcomm)や[AMA](https://forum.zcashcommunity.com/t/community-call-with-the-zcg-candidates-december-2024/49707)を支援しています。
+財団はまた、Zcashエコシステムを中心とする年1回の対面カンファレンスである[Zcon](https://zfnd.org/zcon/)を開催し、[Zcon Vozes](https://zfnd.org/zcon-voices/)、地域別の[カンファレンス](https://zfnd.org/zcash-dev-summits/)、Zcash Foundation A/V [Club](https://forum.zcashcommunity.com/t/the-zero-knowledge-audiovisual-club/43733)（現在はZero Knowledge Audio Visual [Club](https://zkav.club/)）、その他さまざまなオープンコミュニティの[コール](https://zfnd.org/arborist-calls/)、コミュニティ[イベント](https://zfnd.org/zf-events/#:~:text=Zcomm)、[AMA](https://forum.zcashcommunity.com/t/community-call-with-the-zcg-candidates-december-2024/49707)といった草の根のコミュニティ活動を支援しています。
 
-Zcash FoundationはElectric Coin Co.からの寄付条件に従って、[Zcash Trademark policy](https://zfnd.org/new-zcash-trademark-policy/)を実施しています。これにより、「Zcashおよび関連するエンティティ、Zcashコミュニティの評判を保護」し、「公式情報源を特定して詐欺や誤った情報を減らす」こと、「公式アプリとサービスを特定して詐欺活動の可能性を減らす」ことが可能になります。
+Zcash Foundationは、Electric Coin Coによる寄付条件の更新に従い、[Zcash Trademark policy](https://zfnd.org/new-zcash-trademark-policy/)を施行しています。これは、「Zcash、その関連組織、およびZcashコミュニティの評判を保護する」ことに役立ち、「公式の情報源を特定し、不正または誤った情報の可能性を低減する」こと、ならびに「公式アプリおよびサービスを特定し、不正行為の可能性を低減する」ことを目的としています。 
 
 ## 組織構造
 
-Zcash Foundationは[501(c)(3)](https://projects.propublica.org/nonprofits/organizations/820707962)に基づく免税非営利団体であり、[慈善事業](https://zfnd.org/#:~:text=Committed%20to%20Transparency)です。彼らの[チーム](https://zfnd.org/#:~:text=Our%20Team)に加えて、[取締役会](https://zfnd.org/#:~:text=Board%20of%20Directors)を持ち、Zcash Community Advisory [パネル](https://zfnd.org/zcash-community-advisory-panel/)による投票を通じてコミュニティガバナンス選挙を実施しています。
+Zcash Foundationは、[501(c)(3)](https://projects.propublica.org/nonprofits/organizations/820707962)の免税対象となる非営利[慈善団体](https://zfnd.org/#:~:text=Committed%20to%20Transparency)です。[Team](https://zfnd.org/#:~:text=Our%20Team)に加え、[Directors](https://zfnd.org/#:~:text=Board%20of%20Directors)の理事会を擁し、Zcash Community Advisory [Panel](https://zfnd.org/zcash-community-advisory-panel/)への投票を通じてコミュニティガバナンス選挙を促進しています。
 
 ## 資金
 
-2024年11月以降、Zcash FoundationはZcash開発[基金](https://zips.z.cash/zip-1014)から資金を受け取らなくなりました。現在のFoundationの資金は伝統的な税額控除可能な[寄付](https://www.jotform.com/form/251874383638065)を通じて提供されています。財務の使用状況は彼らの四半期ごとの[透明性レポート](https://zfnd.org/category/transparency-reports/)で確認できます。
+Zcash Foundationは、2024年11月以降、Zcash開発[基金](https://zips.z.cash/zip-1014)からの資金提供を受けていません。現在、財団への資金は、従来型の税控除対象となる[寄付](https://www.jotform.com/form/251874383638065)を通じて配分されています。資金の使用状況は、四半期ごとの[透明性レポート](https://zfnd.org/category/transparency-reports/)で確認できます。
 
-## Zcash Community Grants Program
+## Zcash Community Grants プログラム
 
 <image src="https://zcashcommunitygrants.org/images/logos/yellow/ZCG%20Circle%20Logo-10.png" height="100" width="100" />
   
 [https://zcashcommunitygrants.org/](https://zcashcommunitygrants.org/)
 
-このプログラムは、Zcashエコシステムに利益をもたらす主要な継続的な開発（またはその他の作業）を行う独立チームを支援します。寄付金の選定は、Zcash Community Advisory Panelによって選出された5人からなる委員会が行います。Zcashの使いやすさ、セキュリティ、プライバシーおよび採用促進に貢献したいチームや組織は、Zcash Community Grantの申請を強くお勧めします！
+このプログラムは、Zcashエコシステムに利益をもたらす大規模かつ継続的な開発（またはその他の活動）を行う独立チームに資金を提供します。助成金は、Zcash Community Advisory Panelによって選出された5人の委員会が選定します。Zcashの使いやすさ、セキュリティ、プライバシー、採用の推進に関心があるチームや組織は、Zcash Community Grantへの応募を強く推奨します！
 
-## Zcash Foundationのハイライト動画
 
-**Zebrad for Linux Tutorials**
+## 注目のZcash Foundation動画
+  
+**Zebrad向けのLinuxチュートリアル**
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -49,7 +50,7 @@ Zcash Foundationは[501(c)(3)](https://projects.propublica.org/nonprofits/organi
   />
 </div>
     
-**How to Zcash**
+**Zcashの方法**
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -77,7 +78,7 @@ Zcash Foundationは[501(c)(3)](https://projects.propublica.org/nonprofits/organi
 </div>
 
 
-**Zcash Foundation Board of Directors Members: Marta Belcher & J.W. Verret**
+**Zcash Foundation理事会メンバー: Marta Belcher & J.W. Verret**
 
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
@@ -91,7 +92,7 @@ Zcash Foundationは[501(c)(3)](https://projects.propublica.org/nonprofits/organi
   />
 </div>
 
-**Arti: ZF + ZCG Call w/ the Tor Project**
+**Arti: ZF + ZCG コール、Tor Projectとともに**
 
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
@@ -106,7 +107,7 @@ Zcash Foundationは[501(c)(3)](https://projects.propublica.org/nonprofits/organi
 </div>
 
 
-**Community Calls for ZCAP Votes**
+**ZCAP投票のためのコミュニティコール**
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -120,7 +121,7 @@ Zcash Foundationは[501(c)(3)](https://projects.propublica.org/nonprofits/organi
 </div>
 
 
-**AMA with ZF Executive Director Jack Gavigan**
+**ZFエグゼクティブディレクター、Jack GaviganとのAMA**
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -135,4 +136,4 @@ Zcash Foundationは[501(c)(3)](https://projects.propublica.org/nonprofits/organi
 
 ## リソース
 
-[Zcash開発とガバナンス](https://z.cash/zcash-development-and-governance/)
+[Zcashの開発とガバナンス](https://z.cash/zcash-development-and-governance/)
