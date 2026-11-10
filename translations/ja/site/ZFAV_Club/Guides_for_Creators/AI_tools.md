@@ -2,87 +2,88 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# AIツール: テキスト、画像、動画、音声生成（オンライン）
+# AIツール（tools）：テキスト、画像、動画、音声の生成（オンライン）
 
-ここにリストを掲載しています。これらを使用する方法はまた別の話です。
+生活を楽にするためのリストです。使い方はまた別の話です。
 
-最適なプロンプトを作成するには学習曲線がありますが、基本的な部分は比較的早く習得可能です。
+最高のプロンプトを書くには学習曲線があります。基本はかなり早く習得できます。
 
-## テキスト生成/アシスタント
+## テキスト生成／アシスタント
 
-[プロンプト解析ツール](https://novelai.net/tokenizer)（トークナイザー）でプロンプトの仕組みや使用するトークン数を学ぶことができます。
+[プロンプトアナライザー](https://novelai.net/tokenizer)（トークナイザー）を使って、プロンプトの仕組みや使用するトークン（token）数を学べます。
 
-いつでもチャットボットアシスタントに、良いプロンプトを作成してもらうように頼ることができます。
+チャットボットアシスタントに、良いプロンプトの作成を手伝ってもらうこともできます。
 
-### 無料ツール:
+### 無料ツール：
 
-- [AnthropicのClaude](https://claude.ai/) - 登録にはVPNが必要かもしれません（米国限定）
-- [ChatGPT 3.5](https://chat.openai.com/) - 電話番号を要求されます
-- [Bing Chat (GPT4)](https://www.bing.com/search?q=Bing+AI&showconv=1&FORM=hpcodx) - 日に提示されるプロンプト数が限定されています
-- [Llama 2 - 70B](https://www.llama2.ai/) - ウェブサイト上で無料提供
+- [Anthropic's Claude](https://claude.ai/) - 登録にはVPNが必要な場合があります（米国のみ）
+- [ChatGPT 3.5](https://chat.openai.com/) - 電話番号の入力が必要です
+- [Bing Chat (GPT4)](https://www.bing.com/search?q=Bing+AI&showconv=1&FORM=hpcodx) - 1日のプロンプト数に制限があります
+- [Llama 2 - 70B](https://www.llama2.ai/) - ウェブサイトで無料です
 
-### 有料ツール:
+### 有料ツール：
 
-- [Free2Z Chat2Z](https://free2z.com/ai) - ZEC / 2Zsで支払う（GPT-3.5およびGPT-4のペイセントごとのプロンプト）
+- [Free2Z Chat2Z](https://free2z.com/ai) - ZECで支払い可能／GPT-3.5およびGPT-4は1プロンプトあたり2Zsセント
 - [Chat GPT-4](https://chat.openai.com/auth/login) - 月額$20。
 
 ## 画像生成
 
-### 無料ツール:
+### 無料ツール：
 
-- [ImgnAI](https://imgnai.com/) DiscordまたはTelegramのボット - [開始ガイド](https://imgnai.gitbook.io/imgnai/)および
-また、[Webアプリ ImgnAI](https://app.imgnai.com/home) が利用可能で、別アカウントでのログインが必要です。
-X, Google, Discord, Telegramでログイン可能です。
+- [ImgnAI](https://imgnai.com/) ボット（bot）、DiscordまたはTelegram上 - [はじめにガイド](https://imgnai.gitbook.io/imgnai/)、および
+現在は[ウェブアプリ ImgnAI](https://app.imgnai.com/home)も利用可能で、別アカウントへのログインが必要です
+X、Google、Discord、Telegramでログインできます
 - [Bing Dalle3](https://www.bing.com/create) - 無料版は遅い場合があります
-- [Adobe Firefly](https://www.adobe.com/ee/sensei/generative-ai/firefly.html) - 無料では限定された量のみ提供されます
-- [Ideogram](https://ideogram.ai/login) - 画像上に現実的で読みやすいテキストを生成するのに優れています
-- [Playground AI](https://playgroundai.com/) - 無料モードあり、月額$15からのサブスクリプション
-- [Clipdrop by stability.ai](https://clipdrop.co/stable-diffusion)
-- [StarryAI](https://www.starryai.com) - 日に5作品
-- [Dream by wombo](https://dream.ai/)
-- [Craiyon](https://www.craiyon.com/) (DALL-E miniのクローン) - 有料サブスクリプションで$5から速度が向上します
-- [DALL-E mini](https://huggingface.co/spaces/dalle-mini/dalle-mini) - 古く、基本的なもの
+- [Adobe Firefly](https://www.adobe.com/ee/sensei/generative-ai/firefly.html) - 無料で使える量には制限があります
+- [Ideogram](https://ideogram.ai/login) - 画像内に現実的で読みやすいテキストを生成するのが得意です
+- [Playground AI](https://playgroundai.com/) - 無料モード、月額$15からのサブスクリプション
+- [Clipdrop、stability.ai提供](https://clipdrop.co/stable-diffusion)
+- [StarryAI](https://www.starryai.com) - 1日5作品
+- [Dream、wombo提供](https://dream.ai/)
+- [Craiyon](https://www.craiyon.com/)（DALL-E miniのクローン）- 月額$5からの有料サブスクリプションで速度が向上します
+- [DALL-E mini](https://huggingface.co/spaces/dalle-mini/dalle-mini) - 古く基本的です
 
-### 有料ツール:
+### 有料ツール：
 
-- [Midjourney Bot](https://discord.com/invite/midjourney) Discord内に存在 - 月額$10から - [開始ガイド](https://docs.midjourney.com/docs/quick-start)
-他者の画像を評価することで約100回の無料生成が可能 [ここ](https://www.midjourney.com/app/rank-pairs/)（上位2000人になる必要がある - 約15分間画像を評価する必要があります）
-- [DALL-E 2](https://web.archive.org/web/20250601174514/https://labs.openai.com/) [](https://openai.com/dall-e-2) - $15/115生成 - (月額無料で15回)
-- [DALL-E 3](https://openai.com/dall-e-3/) - ChatGPT-4に含まれています - 月額$20
-- [Nightcafe Creator](https://creator.nightcafe.studio/) (4生成無料、有料は$6/月から)
+- [Midjourney ボット](https://discord.com/invite/midjourney)、Discord内 - 月額$10から - [はじめにガイド](https://docs.midjourney.com/docs/quick-start)
+ここで[画像](https://www.midjourney.com/app/rank-pairs/)を多数評価すると、約100回の無料生成を得られます
+（上位2,000人の評価者に入る必要があります。画像の評価には約15分かかります）
+- [DALL-E 2](https://web.archive.org/web/20250601174514/https://labs.openai.com/) [](https://openai.com/dall-e-2)- $15で115回生成 - （毎月15回の無料生成）
+- [DALL-E 3](https://openai.com/dall-e-3/) - ChatGPT-4に含まれます - 月額$20
+- [Nightcafe Creator](https://creator.nightcafe.studio/)（4回の生成は無料、有料版は月額$6から）
 
 ## 動画生成
 
-### ツール（通常無料トライアルあり）:
+### ツール（通常は無料トライアル）：
 
-- [RunwayML GEN-2](https://runwayml.com/) （無料トライアルあり、サブスクリプションは月額$15から）
-- [Pika labs Discord Bot](https://www.pika.art/) (現在無料？)
-- [Elai](https://elai.io/) (サブスクリプションは月額$23から)
+- [RunwayML GEN-2](https://runwayml.com/)（無料トライアル、サブスクリプションは月額$15から）
+- [Pika labs Discord ボット](https://www.pika.art/)（現在は無料？）
+- [Elai](https://elai.io/)（サブスクリプションは月額$23から）
 
-### 動画/音声翻訳ツール:
+### 動画／音声翻訳ツール：
 
-- [HeyGen Labs](https://labs.heygen.com/guest/video-translate) - 動画の翻訳、吹き替え、口の動きを合わせるツール
-- [Ezdubs Bot on X](https://twitter.com/ezdubs_bot) - 動画の翻訳、吹き替え、口の動きを合わせるツール
+- [HeyGen Labs](https://labs.heygen.com/guest/video-translate) 動画翻訳、吹き替え、リップシンクツール
+- [Ezdubs Bot on X](https://twitter.com/ezdubs_bot) 動画翻訳、吹き替え、リップシンクツール
 
 ## 音声関連
 
 ### 音声修正
 
-- [Adobe AI 音声クリーンアップ](https://podcast.adobe.com/enhance#): (無料アカウントで利用可能)
+- [Adobe AI Clean up audio](https://podcast.adobe.com/enhance#)：（無料のAdobeアカウントで無料です）
 
 ### 音楽生成
 
-- [Soundraw](https://soundraw.io/) - 無料で試用可能 - （サブスクリプションは月額$16.99から）
-- [beatoven.ai](https://www.beatoven.ai/) - 無料で試用可能 - （サブスクリプションは月額$3または生成時間あたり$1から）
-- [soundful.com](https://soundful.com/) - 無料で試用可能 - （サブスクリプションは月額$59.99または年間$29.99から）
-- [boomy](https://boomy.com/) - 無料で試用可能 - （サブスクリプションは月額$9.99から）
-- [Loudly](https://www.loudly.com/) - 無料で試用可能 - （サブスクリプションは月額$7.99から）
-- [Mubert](https://mubert.com/) - 無料で試用可能 - （サブスクリプションは月額$14から）
+- [Soundraw](https://soundraw.io/) - 無料で試せます - （サブスクリプションは月額$16.99から）
+- [beatoven.ai](https://www.beatoven.ai/) - 無料で試せます - （サブスクリプションは月額$3から、または生成1分あたり$1）
+- [soundful.com](https://soundful.com/) - 無料で試せます - （サブスクリプションは月額$59.99から、または年間29.99/m）
+- [boomy](https://boomy.com/) - 無料で試せます - （サブスクリプションは月額$9.99から）
+- [Loudly](https://www.loudly.com/) - 無料で試せます - （サブスクリプションは月額$7.99から）
+- [Mubert](https://mubert.com/) - 無料で試せます - （サブスクリプションは月額$14から）
 
 ### 音声生成
 
 - [play.ht](https://web.archive.org/web/20260310162301/https://play.ht/) - 無料 - （サブスクリプションは月額$39から）
 - [ElevenLabs](https://elevenlabs.io/) - 無料 - （サブスクリプションは月額$5から）
 - [Murf](https://murf.ai/) - 無料 - （サブスクリプションは月額$29から）
-- [Resemble](https://www.resemble.ai/) - 無料で試用可能（0.006ドル/秒の費用が発生します）
+- [Resemble](https://www.resemble.ai/) - 無料で試せます（その後は1秒あたり$0.006）
 - [Synthesia](https://www.synthesia.io/) - （サブスクリプションは月額$22.5から）

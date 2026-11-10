@@ -2,69 +2,69 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="ページを編集"/>
 </a>
 
-# Crosslink Feature Net に参加する
+# Crosslink Feature Netに参加する
 
 ## 要約
 
-- Feature Net は、Zcash のプルーフ・オブ・ワークにステーキングを加える、提案中のファイナリティ層である [Crosslink](/zcash-tech/crosslink-protocol) のための Shielded Labs の公開テストネットです。
-- これはテストコイン cTAZ 上で動作します。ここで何をしても、メインネットの ZEC が動いたり危険にさらされたりすることはありません。
-- 1つのデスクトップアプリが、ノード、マイナー、ウォレット、ファイナライザーを兼ねます。デフォルトで cTAZ をマイニングし、フォーセット用ボタンもあります。
-- ステーキング、アンステーキング、出金は、3日に1度の「Staking Day」にのみ可能です。逃すと次の開催日まで待つ必要があります。
-- ステーキングするには、ファイナライザーの識別情報を貼り付けて金額をクリックします。このガイドでは、例として ZecHub のファイナライザーを使用します。
-- 現在の状態は、2つの RPC 呼び出し、`wallet_staking_positions` と `get_tfl_recency_status` で確認できます。
+- Feature Netは、Zcashのプルーフ・オブ・ワークにステーキングを追加する、提案中のファイナリティ層である[Crosslink](/zcash-tech/crosslink-protocol)のための、Shielded Labsの公開テストネットワークです。
+- このネットワークはテストコインのcTAZで動作します。ここで何をしても、メインネットのZECが移動したり危険にさらされたりすることはありません。
+- 1つのデスクトップアプリが、ノード（node）、マイナー（miner）、ウォレット（wallet）、ファイナライザー（finalizer）のすべてを担います。デフォルトでcTAZをマイニングし、フォーセット（faucet）ボタンも備えています。
+- ステーキング、アンステーキング、出金は、3日に1度ある「ステーキングデイ」の間にのみ行えます。逃した場合は、次のステーキングデイまで待つ必要があります。
+- ステーキングするには、ファイナライザーのIDを貼り付け、金額をクリックします。このガイドでは、例としてZecHubのファイナライザーを使用します。
+- 2つのRPC呼び出しで現在の状況を確認できます。`wallet_staking_positions`と`get_tfl_recency_status`です。
 
-*2026年10月8日から10日にかけて、Feature Net バージョン14を Windows 11（バージョン10.0.26200.9550）でテストしました。このソフトウェアはプロトタイプであり、リリースごとに変わります。表示内容がこのページと異なる場合は、ご自身の実行結果を信頼し、PRを作成してください。*
+*Feature Netバージョン14をWindows 11（バージョン10.0.26200.9550）で使用し、2026年10月8日から10日にテストしました。このソフトウェアはプロトタイプであり、リリースごとに変更されます。表示内容がこのページと異なる場合は、ご自身の実行結果を信頼し、PRを作成してください。*
 
-## Feature Net とは
+## Feature Netとは
 
-Crosslink は提案であり、現在は Zcash の一部ではありません。Shielded Labs の [Crosslink FAQ](https://shieldedlabs.net/crosslink-faq/) には、メインネットに到達するには「標準的な Zcash ガバナンスプロセスを経る必要がある」とあります。[Crosslink Protocol](/zcash-tech/crosslink-protocol) のページで設計が説明されています。
+Crosslinkは提案であり、現時点ではZcashの一部ではありません。Shielded Labsの[Crosslink FAQ](https://shieldedlabs.net/crosslink-faq/)には、メインネットに到達する前に「標準のZcashガバナンス（governance）プロセスを通過する必要がある」と記されています。[のCrosslink Protocol](/zcash-tech/crosslink-protocol)ページでは設計を説明しています。
 
-実際のユーザーとともに設計を試すため、Shielded Labs は [incentivized feature nets](https://shieldedlabs.net/crosslink-incentivized-feature-nets/)、すなわち「インセンティブ付きテストネットのシリーズ」と呼ぶものを運用しています。ネットワークには3つの役割があり、デスクトップアプリはそのすべてを担えます。
+実際のユーザーとともに設計を試すため、Shielded Labsは[インセンティブ付きフィーチャーネット](https://shieldedlabs.net/crosslink-incentivized-feature-nets/)と呼ぶもの、すなわち「一連のインセンティブ付きテストネット」を運用しています。ネットワークには3つの役割があり、デスクトップアプリはそのすべてを担えます。
 
-| 役割 | 行うこと |
+| 役割 | 内容 |
 |---|---|
-| マイナー | 現在の Zcash と同様に、プルーフ・オブ・ワークのブロックを生成する |
-| ステーカー | cTAZ をデリゲーションボンドにロックし、ファイナライザーに委任する |
-| ファイナライザー | ブロックの確定に投票する。投票力は委任されたステークで決まる |
+| マイナー | 現在のZcashと同様に、プルーフ・オブ・ワークのブロック（block）を生成します |
+| ステーカー | cTAZを委任ボンド（bond）にロックし、ファイナライザーを指定します |
+| ファイナライザー | ブロックを確定するために投票します。投票力は委任されたステークです |
 
-これを支えるリポジトリは、何かをインストールする前に読む価値のある免責事項で始まります。そこには「本番環境のエンジニアリングを示すためではなく、アイデアを証明するために存在する」ものであり、「本番環境対応のコードではない」とあります（[README](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/README.md)）。それが許容できるマシンで実行してください。
+その背後にあるリポジトリは、インストール前に読むべき免責事項から始まります。これは「プロダクションエンジニアリングを示すためではなく、アイデアを実証するために存在する」もので、「本番環境対応のコードではない」とされています（[README](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/README.md)）。それを許容できるマシンで実行してください。
 
-### バージョン14で変わったこと
+### バージョン14で変更されたこと
 
-[Version 14](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v14) は2026年10月1日に公開されました。このネットワークは通常のプルーフ・オブ・ワークとして始まり、3段階で Crosslink を有効にします（[source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/librustzcash/zcash_primitives/src/bft.rs#L546-L555)、[ctaz.cash](https://ctaz.cash/v14) にも表示されています）。
+[バージョン14](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v14)は2026年10月1日に公開されました。このネットワークは通常のプルーフ・オブ・ワークとして始まり、Crosslinkを3段階で有効にします（[source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/librustzcash/zcash_primitives/src/bft.rs#L546-L555)。[ctaz.cash](https://ctaz.cash/v14)にも表示されています）。
 
-| ブロック | 発生すること |
+| ブロック | 起きること |
 |---|---|
-| 20,736 | ステーキング開始 |
-| 34,560 | チェーン上のステークから、最初のファイナライザーロスターが作成される |
-| 36,288 | BFTファイナリティと、ステーキング報酬が始まる |
+| 20,736 | ステーキングが開始されます |
+| 34,560 | 最初のファイナライザー名簿が、チェーン上のステークから作成されます |
+| 36,288 | BFTファイナリティが開始し、同時にステーキング報酬も始まります |
 
-ステーキング報酬は最後のブロックから始まります。それより前に作られたボンドは、それまでは何も獲得しません（[source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebra-chain/src/parameters/network/subsidy.rs#L487-L508)）。
+ステーキング報酬は、これらのうち最後のブロックから始まります。それ以前に作成されたボンドは、それまでは何も獲得しません（[source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebra-chain/src/parameters/network/subsidy.rs#L487-L508)）。
 
-同じリリースでは、アクティブなロスターをステーク上位12名のファイナライザーに限定し（[source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/librustzcash/zcash_primitives/src/bft.rs#L884)）、リリースノートの表現では、それらにコミッションを与えました。「ブロック内のすべての PoS Rewards の10%がこれらのコミッションに充てられ、90%がすべてのステーキングボンドに分配されます」。
+同じリリースでは、アクティブな名簿をステークが最も多い12人のファイナライザーに絞りました（[source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/librustzcash/zcash_primitives/src/bft.rs#L884)）。また、リリースノートの表現では、彼らにコミッションを与えました。「ブロック内のすべてのPoS報酬の10%がこれらのコミッションに割り当てられ、90%はすべてのステーキングボンドに分配されます」。
 
-### cTAZ と実際の ZEC
+### cTAZと実際のZEC
 
-cTAZ（「Crosslink TAZ」）は Feature Net のテストコインです。ステーキングするのは cTAZ であり、ZEC ではありません。
+cTAZ（「Crosslink TAZ」）は、Feature Netのテストコインです。ステーキングするのはcTAZであり、ZECではありません。
 
-実際の ZEC が関係するのは最後だけです。Shielded Labs はフィーチャーネット用に [500 ZEC](https://shieldedlabs.net/crosslink-incentivized-feature-nets/) を確保しており、[release notes](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v14) には、「各参加者がマイニングまたはステーキングを通じて得た cTAZ の量だけに基づき、比例配分で」支払われるとあります。そこから2つのことが分かります。
+実際のZECが登場するのは最後だけです。Shielded Labsはフィーチャーネット用に500 [ZEC](https://shieldedlabs.net/crosslink-incentivized-feature-nets/)を確保しており、[release notes](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v14)では、「各参加者がマイニングまたはステーキングを通じて獲得したcTAZの量のみに基づき、比例配分で」支払われると記されています。結果として、次の2点があります。
 
-- **フォーセットのコインは対象になりません。** フォーセットまたは他人から受け取った cTAZ は、ウォレットに置いているだけでは何も獲得しません。対象となるのは、マイニングとステーキングによるブロック報酬だけです。
-- **支払いは請求制であり、自動ではありません。** Shielded Labs は各ラウンドを [forum thread](https://forum.zcashcommunity.com/t/crosslink-incentivized-feature-net/55210) で発表します。Round 2 では、参加者に対し、2026年10月4日までにウォレットの Viewing Key とメインネットアドレスを送るよう求めました（[post 94](https://forum.zcashcommunity.com/t/crosslink-incentivized-feature-net/55210/94)）。バージョン14が動作する、このガイドで参加するネットワークは、Round 3 として発表されました（[post 101](https://forum.zcashcommunity.com/t/crosslink-incentivized-feature-net/55210/101)）。
+- **フォーセットのコインはカウントされません。** フォーセットまたは他者から受け取ったcTAZは、ウォレットに置いておいても何も獲得しません。カウントされるのは、マイニングとステーキングによるブロック報酬だけです。
+- **支払いは自動ではなく請求します。** Shielded Labsは各ラウンドを[forum thread](https://forum.zcashcommunity.com/t/crosslink-incentivized-feature-net/55210)で発表します。ラウンド2では、参加者に対し、2026年10月4日までにウォレットのビューイングキー（viewing key）とメインネットアドレスを送るよう求めました（[post 94](https://forum.zcashcommunity.com/t/crosslink-incentivized-feature-net/55210/94)）。バージョン14が動作するネットワーク、すなわちこのガイドで参加するネットワークは、ラウンド3として発表されました（[post 101](https://forum.zcashcommunity.com/t/crosslink-incentivized-feature-net/55210/101)）。
 
 ## 始める前に
 
-- **動かしたままにできるコンピューター。** リリースには、Windows、macOS、Ubuntu、Arch Linux 向けのビルドがあります。このガイドは、Intel Core i5-8350U プロセッサ搭載PCの Windows で実行しました。
-- **Staking Day。** 何かを計画する前に、次回の開始時刻を確認してください。[Staker Space's dashboard](https://crosslink.staker.space/) でカウントダウンを確認できます。
-- **ほかには不要です。** ZEC も、アカウントも、登録も必要ありません。
+- **稼働させたままにできるコンピューター。** リリースにはWindows、macOS、Ubuntu、Arch Linux向けのビルドがあります。このガイドは、Intel Core i5-8350Uプロセッサーを搭載したPCのWindowsで実行しました。
+- **ステーキングデイ。** 何かを計画する前に、次回の開始時刻を確認してください。[Staker Space's dashboard](https://crosslink.staker.space/)でカウントダウンを確認できます。
+- **それ以外は不要です。** ZECも、アカウントも、登録も不要です。
 
 ## ステップ1：アプリをダウンロードしてファイルを確認する
 
-1. [version 14 release](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v14) を開き、**Assets** までスクロールします。
-2. 使用するシステム向けのファイルをダウンロードします。Windows では `zebrad_v14_win32.exe` です。
-3. ファイルの SHA-256 を、GitHub がそのアセットの横に表示するダイジェストと比較します。
+1. [version 14 release](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v14)を開き、**Assets**までスクロールします。
+2. お使いのシステム向けのファイルをダウンロードします。Windowsでは`zebrad_v14_win32.exe`です。
+3. ファイルのSHA-256を、GitHubがそのアセットの横に表示するダイジェストと比較します。
 
-Windows では、PowerShell で次を実行します。
+Windowsでは、PowerShellで次を実行します。
 
 ```powershell
 Get-FileHash .\zebrad_v14_win32.exe -Algorithm SHA256 | Format-List
@@ -76,7 +76,7 @@ Hash      : 1D464E31CCC110E175D45E3EDC0B7FB0B9583ACC996E99F4398F390EC111297E
 Path      : C:\crosslink\zebrad_v14_win32.exe
 ```
 
-そのファイルに対して GitHub が示すダイジェストは `1d464e31ccc110e175d45e3edc0b7fb0b9583acc996e99f4398f390ec111297e` です。16進数では大文字・小文字は区別されないため、上記の大文字でも問題ありません。目視ではなくシェルに比較させるには、次を実行します。
+そのファイルについてGitHubが表示するダイジェストは`1d464e31ccc110e175d45e3edc0b7fb0b9583acc996e99f4398f390ec111297e`です。16進数には大文字と小文字の区別がないため、上記の大文字でも問題ありません。目視ではなくシェルに比較させるには、次を実行します。
 
 ```powershell
 $expected = "1d464e31ccc110e175d45e3edc0b7fb0b9583acc996e99f4398f390ec111297e"
@@ -88,29 +88,29 @@ if ($actual -eq $expected) { "OK" } else { "MISMATCH" }
 OK
 ```
 
-このチェックの意味を理解しておいてください。リリースには署名がないため、ハッシュが一致しても、ダウンロードが完全で、GitHub が提供しているファイルであることしか分かりません。誰がビルドしたかは分かりません。[Verifying Zcash Releases](/guides/verifying-zcash-releases) では、この違いを説明しています。
+この確認にどの程度の価値があるかを理解してください。リリースには署名がないため、ハッシュが一致しても、ダウンロードが完全であり、GitHubが配信しているファイルであることしか分かりません。誰がビルドしたかは分かりません。[Verifying Zcash Releases](/guides/verifying-zcash-releases)では違いを説明しています。
 
-## ステップ2：ノードを起動して同期を待つ
+## ステップ2：ノードを起動して同期させる
 
-起動メッセージを画面に残せるよう、ターミナルからアプリを起動します。「管理者として実行」で開いたものではなく、通常の PowerShell ウィンドウを使用してください。これは署名なしのプロトタイプソフトウェアであり、管理者権限は必要ありません。
+起動メッセージが画面に残るよう、ターミナルからアプリを起動します。「管理者として実行」で開いたものではなく、通常のPowerShellウィンドウを使用してください。これは署名されていないプロトタイプソフトウェアであり、管理者権限は必要ありません。
 
 ```powershell
 .\zebrad_v14_win32.exe
 ```
 
-「Zcash Crosslink Visualizer」というタイトルのウィンドウが開きます。左側に **Your Wallet** と **Faucet Wallet** タブを持つウォレット、中央に描画されたチェーン、右側にファイナライザー一覧が表示されます。ターミナルにはノードのログが出力され続けます。ネットワークを使う間は両方を開いたままにしてください。
+「Zcash Crosslink Visualizer」というタイトルのウィンドウが開きます。左側には**Your Wallet**と**Faucet Wallet**タブがあるウォレット、中ほどにはチェーン、右側にはファイナライザーの一覧が表示されます。ターミナルにはノードのログが引き続き出力されます。ネットワークを使用している間は、両方を開いたままにしてください。
 
-リリースノートには、[video of the Windows install](https://www.youtube.com/watch?v=cO-5Oa4B1Tk) へのリンクがあります。
+リリースノートには、[によるWindowsのインストール動画](https://www.youtube.com/watch?v=cO-5Oa4B1Tk)へのリンクがあります。
 
-リリースノートによると、アプリはキャッシュフォルダーにデータを保存します。Windows では `%LOCALAPPDATA%\zebra`、Linux では `~/.cache/zebra`、macOS では `~/Library/Caches/zebra` です。
+リリースノートによると、アプリはキャッシュフォルダーにデータを保存します。Windowsでは`%LOCALAPPDATA%\zebra`、Linuxでは`~/.cache/zebra`、macOSでは`~/Library/Caches/zebra`です。
 
-**秘密は自分だけのものにしてください。** そのフォルダーには `secret.seed` というファイルがあります。アプリは最初の起動時にこれを作成し（[source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebrad/src/commands/start.rs#L280-L305)）、これからウォレットとファイナライザー識別情報を導出します（[source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebrad/src/commands/start.rs#L625-L626)）。アプリには、同じ秘密をクリップボードに入れる **Copy Seed** ボタンもあります。どちらかを持つ者はウォレットを操作できます。チャット、フォーラム投稿、スクリーンショットに貼り付けないでください。
+**秘密は自分だけのものにしてください。** そのフォルダーには`secret.seed`という名前のファイルがあります。アプリは初回起動時にこれを作成し（[source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebrad/src/commands/start.rs#L280-L305)）、そこからウォレットとファイナライザーIDを導出します（[source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebrad/src/commands/start.rs#L625-L626)）。アプリには、同じ秘密をクリップボードへ置く**Copy Seed**ボタンもあります。いずれかを持つ人は、あなたのウォレットを操作できます。チャット、フォーラム投稿、スクリーンショットに絶対に貼り付けないでください。
 
-### 同期済みかどうかを判断する方法
+### 同期済みかどうかを確認する方法
 
-リリースノートには、「ネットワークの先端までどれほど同期できているかを確認する組み込み監視機能はない」とあります。バージョン14には多少あります。ウィンドウ上部の **Network Info** ドロップダウンには、PoW Height、Wallet Sync、Blocks Behind Known PoW の行があります（[source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-gui/src/ui.rs#L4362-L4373)）。自分の高さを [Staker Space](https://crosslink.staker.space/) または [ctaz.cash](https://ctaz.cash/) のものと比較してください。
+リリースノートには、「ネットワーク先端への同期の近さを監視する機能は組み込まれていない」とあります。バージョン14にはある程度の機能があります。ウィンドウ上部の**Network Info**ドロップダウンには、PoW Height、Wallet Sync、Blocks Behind Known PoWの行があります（[source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-gui/src/ui.rs#L4362-L4373)）。自分の高さを、[Staker Space](https://crosslink.staker.space/)または[ctaz.cash](https://ctaz.cash/)の高さと比較してください。
 
-ノードは RPC 経由でも応答します。
+ノードはRPC経由でも応答します。
 
 ```powershell
 Invoke-RestMethod -Uri http://127.0.0.1:8232 -Method Post -ContentType 'application/json' -Body '{"jsonrpc":"2.0","method":"getblockcount","params":[],"id":1}' | ConvertTo-Json -Depth 20
@@ -124,28 +124,28 @@ Invoke-RestMethod -Uri http://127.0.0.1:8232 -Method Post -ContentType 'applicat
 }
 ```
 
-このビルドでは、RPC ポート `127.0.0.1:8232` はデフォルトで開いており、パスワードは不要です（[source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebrad/src/config.rs#L333-L337)）。自身のマシン上でのみ待ち受けますが、そのマシン上で動作するものは何でも呼び出せます。
+このビルドでは、RPCポート`127.0.0.1:8232`はデフォルトで開いており、パスワードも必要ありません（[source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebrad/src/config.rs#L333-L337)）。自分のマシン上でのみ待ち受け、そのマシン上で動作するものは何でも呼び出せます。
 
-この実行では、ブロック0から約28,400の先端までの初回同期に、およそ50分かかりました。
+この実行では、ブロック0から約ブロック28,400の先端までの最初の同期に、およそ50分かかりました。
 
-**再起動後、しばらくの間は残高がゼロと表示されます。** アプリは起動のたびに、`secret.seed` からウォレットを再構築し、ブロック0から再びチェーンをスキャンします（[source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/wallet/src/lib.rs#L3609-L3623)）。スキャンが自分のトランザクションに達するまで、残高とステークは0と表示されます。この実行では、再起動から約15分後に戻りました。フォーセットのウォレットも同様に再スキャンされ（[source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/wallet/src/lib.rs#L3588)）、スキャン中は Faucet Wallet タブに非常に大きな残高が表示されました。Wallet Sync が完了するまで、どちらも無視してください。
+**再起動後は、しばらく残高がゼロと表示されます。** アプリは起動するたびに、`secret.seed`からウォレットを再構築し、ブロック0からチェーンを再スキャンします（[source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/wallet/src/lib.rs#L3609-L3623)）。スキャンが自分のトランザクションに到達するまで、残高とステークは0と表示されます。この実行では、再起動から約15分後に戻りました。フォーセットのウォレットも同様に再スキャンされ（[source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/wallet/src/lib.rs#L3588)）、スキャン中はFaucet Walletタブに非常に大きな残高が表示されました。Wallet Syncが完了するまで、どちらも無視してください。
 
-## ステップ3：cTAZ を入手する
+## ステップ3：cTAZを入手する
 
 ### マイニングする
 
-リリースノートによると、アプリは同期が完了すると、自分のウォレットに向けてCPUマイニングを開始します。何かを有効にする必要はありません。マイニングされたコインは、自分のウォレットの透明アドレスに入ります（[source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebrad/src/commands/start.rs#L349-L355)）。
+リリースノートによると、アプリは同期後、自己のウォレット宛てにCPUマイニングを開始します。何かを有効にする必要はありません。マイニングしたコインは、自己のウォレットの公開型アドレス（transparent address）へ送られます（[source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebrad/src/commands/start.rs#L349-L355)）。
 
-ブロックを見つけられるかは別問題です。ノートには、「より速くマイニングする他者に競り負ける可能性があり、成功は保証されない」と警告されています。デフォルトでは、内蔵マイナーは1つのCPUスレッドを使用します（[source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebra-rpc/src/config/mining.rs#L97-L100)）。
+ブロックを見つけられるかどうかは別の問題です。ノートには、「より速くマイニングする他者に負ける可能性があるため、成功は保証されない」と警告されています。デフォルトでは、組み込みマイナーはCPUスレッドを1つ使用します（[source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebra-rpc/src/config/mining.rs#L97-L100)）。
 
-より多くのスレッドを使うには、アプリを起動する前に、同じ PowerShell ウィンドウで環境変数を設定します（[source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebrad/src/config.rs#L109-L128)）。この実行では4つ使用しました。
+より多くのスレッドを使用するには、アプリを起動する前に、同じPowerShellウィンドウで環境変数を設定します（[source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebrad/src/config.rs#L109-L128)）。この実行では4つ使用しました。
 
 ```powershell
 $env:ZEBRA_MINING__INTERNAL_MINER_THREADS = "4"
 .\zebrad_v14_win32.exe
 ```
 
-この変数は、そのウィンドウが開いている間だけ有効です。設定すると、Windows のプロセッサカウンターでは、ノードが論理プロセッサ1個を100%とした割合で、4～5個分のプロセッサ時間を使っていると表示されました。
+この変数は、そのウィンドウが開いている間だけ有効です。設定すると、Windowsのプロセッサーカウンターでは、ノードが論理プロセッサー1基分の割合として、4～5基分の時間を使用していることが示されました。
 
 ```powershell
 (Get-Counter '\Process(zebrad_v14_win32)\% Processor Time' -SampleInterval 2 -MaxSamples 3).CounterSamples.CookedValue
@@ -157,15 +157,15 @@ $env:ZEBRA_MINING__INTERNAL_MINER_THREADS = "4"
 505.957457577538
 ```
 
-結果として、Intel Core i5-8350U が4スレッドで10月8日早朝から10月9日午後までマイニングしましたが、ブロックは見つかりませんでした。
+結果として、10月8日早朝から10月9日午後にかけて4スレッドでマイニングしたIntel Core i5-8350Uは、ブロックを1つも見つけませんでした。
 
-### またはフォーセットを使う
+### またはフォーセットを使用する
 
-アプリの右下には **Receive cTAZ** ボタンがあります。バージョン14のソースでは、1回押すとフォーセットのウォレットから自分のウォレットへ0.5 cTAZが送られます（[amount](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/wallet/src/lib.rs#L3073)、[send](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/wallet/src/lib.rs#L5018-L5021)）。フォーセットはアプリのすべてのコピーに含まれる単一のウォレットであり（[source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/wallet/src/lib.rs#L3579-L3583)）、**Faucet Wallet** タブにはその残高が表示されます。
+アプリ右下には**Receive cTAZ**ボタンがあります。バージョン14のソースでは、1回押すとフォーセットのウォレットから自分のウォレットへ0.5 cTAZが送られます（[amount](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/wallet/src/lib.rs#L3073)、[send](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/wallet/src/lib.rs#L5018-L5021)）。フォーセットはアプリのすべてのコピーに含まれる単一のウォレットであり（[source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/wallet/src/lib.rs#L3579-L3583)）、**Faucet Wallet**タブにはその残高が表示されます。
 
-フォーセットにシールドされたコインが5.01 cTAZより多くなければ、ボタンは無効になります（[source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-gui/src/ui.rs#L3975-L3989)）。タブはフォーセットがマイニングしたコインも数えますが、それらはちょうど10 cTAZと手数料単位でしかシールドされません（[source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/wallet/src/lib.rs#L4880-L4884)）。そのため、タブには十分な残高が表示されていても、ボタンがグレーのままであることがあります。この実行では、タブに14.74695 cTAZが表示されていたにもかかわらず、10月8日と9日はグレーのままで、ホバーすると「The faucet is mining more funds.」と表示されました。
+フォーセットがシールドされたコインで5.01 cTAZを超えていない限り、ボタンは無効です（[source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-gui/src/ui.rs#L3975-L3989)）。このタブはフォーセットがマイニングしたコインも数えますが、それらは10 cTAZちょうどに手数料を加えた単位でのみシールドされます（[source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/wallet/src/lib.rs#L4880-L4884)）。そのため、タブに十分な額が表示されていても、ボタンはグレーのままの場合があります。この実行では、タブに14.74695 cTAZと表示されていたにもかかわらず、10月8日と9日はグレーのままで、ホバーすると「The faucet is mining more funds.」と表示されました。
 
-**ボタンがグレーの場合は、自分のノードに問い合わせてください。** ノードには、ボタンの5.01 cTAZルールを適用しないフォーセット要求メソッド `requestfaucetdonation` があります（[source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebra-rpc/src/methods.rs#L314-L315)）。`YOUR_ADDRESS` の位置に自分のアドレスを入れてください（下記の `wallet_spendable_funds` の `address` フィールドです）。
+**ボタンがグレーの場合は、自分のノードに問い合わせてください。** ノードには、ボタンの5.01 cTAZルールを適用しないフォーセット要求メソッド`requestfaucetdonation`があります（[source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebra-rpc/src/methods.rs#L314-L315)）。`YOUR_ADDRESS`の代わりに自分のアドレスを入力します（下記の`wallet_spendable_funds`の`address`フィールドです）。
 
 ```powershell
 Invoke-RestMethod -Uri http://127.0.0.1:8232 -Method Post -ContentType 'application/json' -Body '{"jsonrpc":"2.0","method":"requestfaucetdonation","params":[{"address":"YOUR_ADDRESS"}],"id":1}' | ConvertTo-Json -Depth 20
@@ -181,13 +181,13 @@ Invoke-RestMethod -Uri http://127.0.0.1:8232 -Method Post -ContentType 'applicat
 }
 ```
 
-この応答は、送信されたのではなく要求がキューに入ったことを意味します。この実行では、フォーセットの0.5 cTAZはブロック33,306でマイニングされ、ブロック33,322で使用可能になりました。フォーセットは共有されており、最初の要求が保留中は同じアドレスへの2回目の要求が拒否されるため、要求は1回だけにしてください（[source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/wallet/src/lib.rs#L3553)）。
+この応答は、送信済みではなく、要求がキューに入ったことを意味します。この実行では、フォーセットの0.5 cTAZはブロック33,306でマイニングされ、ブロック33,322で使用可能になりました。フォーセットは共有されており、最初の要求が保留中は同じアドレスへの2回目の要求が拒否されるため、要求は1回だけにしてください（[source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/wallet/src/lib.rs#L3553)）。
 
 ### または別の参加者に頼む
 
-ネットワーク上の誰でも、アプリの **Send** ボタンで cTAZ を送れます。この実行では、別の参加者が31 cTAZを送ってくれました。「send from user wallet」というメモ付きで「Received」として到着しました。これはアプリ自身の Send が付けるメモです（[source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/wallet/src/lib.rs#L5036)）。[forum thread](https://forum.zcashcommunity.com/t/crosslink-incentivized-feature-net/55210) で依頼し、伝えるのは自分のアドレスだけにしてください。
+ネットワーク上の誰でも、アプリの**Send**ボタンを使ってcTAZを送れます。この実行では、別の参加者から31 cTAZが送られました。「Received」として届き、ノートには「send from user wallet」と表示されました。これはアプリ自身のSendが付加するノートです（[source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/wallet/src/lib.rs#L5036)）。[forum thread](https://forum.zcashcommunity.com/t/crosslink-incentivized-feature-net/55210)で頼み、渡すのはアドレスだけにしてください。
 
-フォーセットのコインや贈与されたコインは、ステーキングを学ぶには十分です。ZEC の報酬には算入されません。
+フォーセットのコインと贈与されたコインだけでも、ステーキングを学ぶには十分です。これらはZECの報酬にはカウントされません。
 
 ### 使用可能な残高を確認する
 
@@ -195,7 +195,7 @@ Invoke-RestMethod -Uri http://127.0.0.1:8232 -Method Post -ContentType 'applicat
 Invoke-RestMethod -Uri http://127.0.0.1:8232 -Method Post -ContentType 'application/json' -Body '{"jsonrpc":"2.0","method":"wallet_spendable_funds","params":[],"id":1}' | ConvertTo-Json -Depth 20
 ```
 
-フォーセットの0.5 cTAZが到着後、アドレスを短縮して表示した応答は次のとおりでした。
+これは、フォーセットの0.5 cTAZが到着した後の応答です。アドレスは短縮しています。
 
 ```text
 {
@@ -212,13 +212,13 @@ Invoke-RestMethod -Uri http://127.0.0.1:8232 -Method Post -ContentType 'applicat
 }
 ```
 
-金額の単位は zatoshi で、100,000,000 zatoshi が1 cTAZです。シールドされたコインは、使用可能になるまでに3承認が必要です（[source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebra-rpc/src/methods.rs#L621-L634)）。フォーセットや他の参加者からのコインは `spendable_zats` に入ります。マイニングされたコインは透明なので、`unshielded_zats` に入ります（[source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/wallet/src/lib.rs#L4659)）。
+金額の単位はザトシです。100,000,000ザトシで1 cTAZになります。シールドされたコインは、使用可能な残高に含まれるまでに3回の承認が必要です（[source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebra-rpc/src/methods.rs#L621-L634)）。フォーセットや他の参加者からのコインは`spendable_zats`に入ります。マイニングしたコインは公開型なので、`unshielded_zats`に入ります（[source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/wallet/src/lib.rs#L4659)）。
 
-この実行で2回目のステークを行った1ブロック後、残りの残高は `pending_zats` の下に表示されました。数ブロック後には再び使用可能になりました。
+この実行で2回目のステークを行った1ブロック後、残りの残高は`pending_zats`の下に表示されました。数ブロック後には再び使用可能になりました。
 
-## ステップ4：ファイナライザーへステーキングする
+## ステップ4：ファイナライザーにステーキングする
 
-### Staking Day を待つ
+### ステーキングデイを待つ
 
 ステーキング、アンステーキング、出金が受け付けられるのは、次の期間だけです。
 
@@ -226,40 +226,40 @@ Invoke-RestMethod -Uri http://127.0.0.1:8232 -Method Post -ContentType 'applicat
 block height mod 10,368 < 3,456
 ```
 
-これは10,368ブロックごとの最初の3,456ブロックのウィンドウです。ネットワークのブロック目標時間が25秒であるため、3日に1日となります（[source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/librustzcash/zcash_primitives/src/transaction/mod.rs#L1540-L1547)）。バージョン14の最初のウィンドウは、ブロック20,736、31,104、41,472、51,840で始まります。
+これは、10,368ブロックごとの開始時から3,456ブロックのウィンドウです。ネットワークのブロック目標時間25秒では、3日に1日となります（[source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/librustzcash/zcash_primitives/src/transaction/mod.rs#L1540-L1547)）。バージョン14の最初のウィンドウは、ブロック20,736、31,104、41,472、51,840で開始します。
 
-リリースノートによると、アプリは各 Staking Day の開始と終了を通知します。この実行では、ブロック一覧にブロック34,559と34,560の間で赤い「* STAKING DAY END *」行が表示されました。
+リリースノートによると、アプリは各ステーキングデイの開始と終了を通知します。この実行では、ブロック一覧にブロック34,559と34,560の間で、赤い「* STAKING DAY END *」行が表示されました。
 
-**リリースノートには2つの異なる記述があります。** 変更一覧には「Staking Day は約1日、Staking Cycle は約3日」とあり、これはコードと一致します。さらに下には、Season 1から引き継がれた、Staking Day は150ブロックごとに始まり70ブロック続くという記述が残っています。前者に従ってください。上記の終了行は、最初のルールがウィンドウを閉じる位置にあります（34,560 mod 10,368 = 3,456）。2つ目のルールでは、ブロック34,560はウィンドウ内に入ります。
+**リリースノートには2つの異なる記述があります。** 変更一覧には「ステーキングデイは約1日、ステーキングサイクルは約3日」とあり、これはコードと一致します。下の方にあるSeason 1から引き継がれた節には、ステーキングデイは150ブロックごとに始まり70ブロック続くと、今も記されています。前者に従ってください。上記の終了行は、最初のルールでウィンドウが閉じる位置にあります（34,560 mod 10,368 = 3,456）。2番目のルールでは、ブロック34,560はウィンドウ内に入るはずです。
 
 ### ファイナライザーを選ぶ
 
-ファイナライザーは、`zfinv1` で始まる文字列である識別情報によって指定されます。ZecHub は、運用しているファイナライザーの識別情報を [`zechub_validator_crosslink.json`](https://github.com/ZecHub/zechub/blob/main/zechub_validator_crosslink.json) に公開しています。
+ファイナライザーは、`zfinv1`で始まる文字列であるIDによって指定されます。ZecHubは、自身が運用するファイナライザーのIDを[`zechub_validator_crosslink.json`](https://github.com/ZecHub/zechub/blob/main/zechub_validator_crosslink.json)で公開しています。
 
 ```text
 zfinv1j65qJgeSId7ssZk6a71NvQG2KjD5hfJCYxWkCSPvQSmwibffVw52UYU72wKbrEL0-cw-C4PQoO5IlLgbsgA3q_Gf1mzYIKcnixNP9XXVgphIDuLI6RBMhjFfYWyzp4YN
 ```
 
-信頼できるソースから識別情報をコピーしてください。リリースノートによると、アプリの右側パネルにもファイナライザーが一覧表示され、それぞれの左にコピーアイコンがあります。
+信頼できるソースからIDをコピーしてください。リリースノートによると、アプリも右側のパネルにファイナライザーを一覧表示し、それぞれの左側にコピーアイコンを表示します。
 
-ステーキング後、ウォレット履歴とRPCは、識別情報の代わりに16進キーでファイナライザーを示します。ZecHub のファイナライザーでは、そのキーは `2941ef23...266aae8f` です。
+ステーキング後、ウォレット履歴とRPCでは、IDではなく16進キーでファイナライザーが示されます。ZecHubのファイナライザーの場合、そのキーは`2941ef23...266aae8f`です。
 
-信頼できるファイナライザーを選んでください。この設計には自動スラッシングはありませんが、「特定のファイナライザーに委任されたすべてのステークを焼却する、ユーザー協調型のハードフォーク」を許容しています（[Crosslink book, design overview](https://shieldedlabs.github.io/crosslink_book/branches/main/crosslink-design-overview-20260914.html)）。
+信頼できるファイナライザーを選んでください。この設計に自動スラッシングはありませんが、「指定されたファイナライザーに委任されたすべてのステークを焼却する、ユーザーが協調したハードフォーク」を可能にしています（[Crosslink book, design overview](https://shieldedlabs.github.io/crosslink_book/branches/main/crosslink-design-overview-20260914.html)）。
 
-選択は誰が投票するかも決めます。アクティブなボンドはすべて、ステーキング報酬の分け前を得ます。ファイナライザーがロスターの12名に入っている場合、その分け前の10分の1がコミッションとしてファイナライザーに渡ります。12名以外のファイナライザーに向けたボンドは分け前をすべて保持しますが、そのファイナライザーは投票しません（[source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebra-state/src/service.rs#L2063-L2079)）。
+選択は誰が投票するかも決めます。アクティブな各ボンドは、ステーキング報酬の配分を獲得します。そのファイナライザーが名簿上の12人に含まれる場合、その配分の10分の1がコミッションとしてファイナライザーに渡ります。12人以外のファイナライザーを指定したボンドは配分全体を保持しますが、そのファイナライザーは投票しません（[source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebra-state/src/service.rs#L2063-L2079)）。
 
 ### ステーキングする
 
-1. ファイナライザーの識別情報をコピーします。
-2. **Your Wallet** タブで **Stake** を押します。
-3. **Paste Identity** を押します。ボタンの上の行が識別情報の最初と最後の文字に変わります。ZecHub の場合は `[zfinv1j6..YWyzp4YN]` です。続ける前に確認してください。
-4. 金額をクリックします。金額は固定の刻みで、最小は0.01 cTAZです。残高でカバーできる金額だけが点灯します。0.5 cTAZの場合、+0.01 cTAZ と +0.1 cTAZ が点灯しました。
+1. ファイナライザーIDをコピーします。
+2. **Your Wallet**タブで、**Stake**を押します。
+3. **Paste Identity**を押します。ボタン上の行がIDの先頭と末尾の文字に変わります。ZecHubの場合は`[zfinv1j6..YWyzp4YN]`です。続ける前に確認してください。
+4. 金額をクリックします。金額は固定の刻みで、最小額は0.01 cTAZです。残高でカバーできる金額だけが点灯します。0.5 cTAZでは、+0.01 cTAZと+0.1 cTAZが点灯しました。
 
-**確認を求められることはなく、何も起きていないように見えます。** この実行でテスターは「一度クリックしたけれど何も起きず、グレーになってまた点灯しただけだった」と表現しました。しかしステークは通っていました。ウォレット履歴には「Staked @ 33334 to 2941ef23..266aae8f」と表示され、手数料は0.00015 cTAZ、ウォレットには0.010 cTAZ Stakedと表示されました。数分後の2回目のステークでは、ブロック33,348に2つ目のボンドが作成されました。
+**確認を求められることはなく、何も起きていないように見えます。** この実行では、テスターの言葉を借りると、「1回クリックしても何も起きず、グレーになってからまた点灯しただけでした」。ステークは通っていました。ウォレット履歴には「Staked @ 33334 to 2941ef23..266aae8f」と表示され、手数料は0.00015 cTAZ、ウォレットには0.010 cTAZ Stakedと表示されました。数分後の2回目のステークでは、ブロック33,348で2つ目のボンドが作成されました。
 
-ステークを行うたびに、別個のデリゲーションボンドが作成されます。固定金額と Staking Day はどちらもプライバシーのために存在します。これにより、ある人のステークを別の人のものと区別しにくくなります。
+各ステークは、それぞれ独自の委任ボンドを作成します。固定金額とステーキングデイはいずれもプライバシーのために存在します。これらにより、ある人のステークを別の人のものと見分けにくくなります。
 
-## ステップ5：自分の状況を確認する
+## ステップ5: 自分のポジションを確認する
 
 ### 自分のボンド
 
@@ -267,7 +267,7 @@ zfinv1j65qJgeSId7ssZk6a71NvQG2KjD5hfJCYxWkCSPvQSmwibffVw52UYU72wKbrEL0-cw-C4PQoO
 Invoke-RestMethod -Uri http://127.0.0.1:8232 -Method Post -ContentType 'application/json' -Body '{"jsonrpc":"2.0","method":"wallet_staking_positions","params":[],"id":1}' | ConvertTo-Json -Depth 20
 ```
 
-これは、ステーキングから2日後のブロック36,490での応答です。
+これは、ステーキングから2日後のブロック36,490での応答でした。
 
 ```text
 {
@@ -299,11 +299,11 @@ Invoke-RestMethod -Uri http://127.0.0.1:8232 -Method Post -ContentType 'applicat
 }
 ```
 
-この呼び出しにパラメーターはありません。アクティブなボンドを、各ボンドが支援するファイナライザーのキーごとにまとめて返し、アンステーキングが完了して出金可能なボンドも返します。各ボンドには、ステーク額（`initial_val`）、現在価値（`latest_val`）、作成したトランザクションとブロック高が表示されます。報酬はボンド自体に加算されます。ブロック36,490までに、1,000,000 zatoshi の各ボンドは1,003,451に増加していました。
+この呼び出しにパラメータは必要ありません。各ボンドが支援するファイナライザー（finalizer）のキーごとにグループ化された有効なボンドと、アンステーキングが完了して引き出せるボンドが返されます。各ボンドには、ステーキングされた額（`initial_val`）、現在の値（`latest_val`）、および作成元のトランザクションとブロック高が表示されます。報酬はボンド自体に加算されます。ブロック36,490までに、1,000,000 zatoshisの各ボンドは1,003,451まで増加していました。
 
-**Edit Stake ウィンドウでは、各ボンドが10倍大きく表示されます。** この実行では、各0.01 cTAZボンドが各行で0.100 cTAZと表示され、報酬開始後は0.1003536 cTAZと表示されました。一方、行の上にある合計（0.020 cTAZ、その後0.02007 cTAZ）はRPCと一致していました。合計とRPCを基準にしてください。
+**Edit Stakeウィンドウでは、各ボンドが10倍大きく表示されます。** この実行では、各0.01 cTAZボンドは単独の行で0.100 cTAZと表示され、報酬が始まると0.1003536 cTAZと表示されました。一方、行の上にある合計（0.020 cTAZ、後に0.02007 cTAZ）はRPCと一致していました。合計とRPCを基準にしてください。
 
-同じウィンドウでは、ファイナリティ開始前後とも、ファイナライザーの横に警告三角形が表示されました。ソースでは、この三角形はアプリがそのファイナライザーをオンラインと数えていないことを意味し、オンラインなら代わりにWi-Fiアイコンが表示されます（[source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-gui/src/ui.rs#L2646-L2648)）。それでもボンドは報酬を獲得しました。
+同じウィンドウでは、ファイナリティが始まる前後とも、ファイナライザーの横に警告三角形が表示されました。ソースでは、この三角形はアプリがそのファイナライザーをオンラインと見なしていないことを意味し、オンラインの場合は代わりにWi-Fiアイコンが表示されます（[source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-gui/src/ui.rs#L2646-L2648)）。それでもボンドは報酬を獲得していました。
 
 ### ファイナライザー
 
@@ -311,9 +311,9 @@ Invoke-RestMethod -Uri http://127.0.0.1:8232 -Method Post -ContentType 'applicat
 Invoke-RestMethod -Uri http://127.0.0.1:8232 -Method Post -ContentType 'application/json' -Body '{"jsonrpc":"2.0","method":"get_tfl_recency_status","params":[],"id":1}' | ConvertTo-Json -Depth 20
 ```
 
-リリースノートによると、これは自分のノードが投票プロセスのどこにいるか、また各ファイナライザーについて、ノードが最後にいつそのファイナライザーから情報を受け取ったか、その投票状況を報告します。
+リリースノートによると、これはノードが投票プロセスのどこにいるかと、各ファイナライザーについてノードが最後にいつ通信を受け取り、どのように投票してきたかを報告します。
 
-ブロック36,288以前は、すべてのフィールドがゼロで、リストは空です。これはブロック33,354での応答です。
+ブロック36,288より前は、すべてのフィールドが0で、リストは空です。これはブロック33,354での応答でした。
 
 ```text
 {
@@ -333,7 +333,7 @@ Invoke-RestMethod -Uri http://127.0.0.1:8232 -Method Post -ContentType 'applicat
 }
 ```
 
-ファイナリティが始まると、リストにはロスター上のファイナライザーが入ります。ブロック36,490では12名が含まれ、その中に ZecHub の `2941ef23...` があり、ロスター上限の12と一致していました。以下は、その応答の先頭部分で、最初のエントリーの後で切っています。
+ファイナリティ開始後、リストにはロスター上のファイナライザーが表示されます。ブロック36,490では12件があり、そのうちZecHubの`2941ef23...`も含まれていました。これはロスター上限の12と一致します。以下は、その応答の先頭部分を最初のエントリの後で切り取ったものです。
 
 ```text
 {
@@ -369,9 +369,9 @@ Invoke-RestMethod -Uri http://127.0.0.1:8232 -Method Post -ContentType 'applicat
 
 数分後、アプリの右側パネルには「Finalizers (23)」と表示されました。
 
-### Linux と macOS では
+### LinuxとmacOSについて
 
-[source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebra-rpc/src/methods.rs#L602-L610) はこの呼び出しを `curl` 形式で示しています。他の呼び出しではメソッド名を変更してください。この形式は、このガイドでは実行していません。
+[source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebra-rpc/src/methods.rs#L602-L610)には、`curl`形式での呼び出しが示されています。他の呼び出しについては、メソッド名を変更してください。この形式は本ガイドでは実行していません。
 
 ```bash
 curl -X POST -H "Content-Type: application/json" -d \
@@ -379,11 +379,11 @@ curl -X POST -H "Content-Type: application/json" -d \
 http://127.0.0.1:8232
 ```
 
-Linux では、リリースノートによると、アプリでコピー＆ペーストを機能させる前に `xclip` をインストールする必要がある可能性があります。
+Linuxでは、リリースノートにより、アプリでコピー＆ペーストを機能させるには、おそらく`xclip`を事前にインストールする必要があるとされています。
 
 ### 注意すべきRPC名
 
-バージョン14のリリースノートでは、オブジェクトを受け取る `wallet_staking_action` というステーキング呼び出しを説明しています。バージョン14のソースコードにはその名前のメソッドはなく、この実行ではノードは次のように応答しました。
+バージョン14のリリースノートでは、オブジェクトを受け取る`wallet_staking_action`というステーキング呼び出しが説明されています。バージョン14のソースコードにはその名前のメソッドはなく、この実行ではノードは次のように応答しました。
 
 ```text
 {
@@ -396,53 +396,53 @@ Linux では、リリースノートによると、アプリでコピー＆ペ�
 }
 ```
 
-登録されているステーキングメソッドは [`staking_command`](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebra-rpc/src/methods.rs#L418-L420) であり、リクエストをJSONとして保持する1つの文字列を受け取り、ファイナライザーはその `zfinv1` 識別情報で指定します（[source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebra-crosslink/src/lib.rs#L750-L760)）。このガイドでは試していません。
+登録されているステーキングメソッドは[`staking_command`](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebra-rpc/src/methods.rs#L418-L420)です。これはリクエストをJSONとして保持する1つの文字列を受け取り、ファイナライザーは`zfinv1`アイデンティティで指定します（[source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebra-crosslink/src/lib.rs#L750-L760)）。本ガイドでは試していません。
 
-## アンステーキングと出金
+## アンステークと引き出し
 
-ボンドは作成した当日に取り消すことはできません。開始から終了までに3回の Staking Day が必要です。1回目にステークし、後の回にアンステークし、3回目に出金します。リリースノートには、1つのボンドは同じ Staking Day に2つのステーキング操作を行えないともあります。
+ボンドは作成したその日に取り消すことはできません。開始から完了までに3つのステーキング日が必要です。1つ目でステークし、後のステーキング日でアンステークし、3つ目で引き出します。リリースノートでは、1つのボンドは同じステーキング日に2つのステーキング操作を実行できないことも追記されています。
 
-*このガイドでは実行していません。バージョン14のリリースノートによると、アンステーキングするには、**Edit Stake** を押し、Staked Bonds リストからボンドを選び、チェーンリンクアイコンをクリックします。後の Staking Day に出金するには、**Edit Stake** を押し、Withdrawable Bonds リストからボンドを選び、金銭アイコンをクリックします。ボンドを別のファイナライザーに移すことは、ノートではリターゲティングと呼ばれ、いつでも可能です。*
+*本ガイドでは実行していません。バージョン14のリリースノートによると、*アンステークするには、**Edit Stake**を押し、Staked Bondsリストからボンドを選んでチェーンリンクアイコンをクリックします。後のステーキング日に引き出すには、**Edit Stake**を押し、Withdrawable Bondsリストからボンドを選んでお金のアイコンをクリックします。リリースノートでリターゲティングと呼ばれる、ボンドを別のファイナライザーへ移す操作はいつでも許可されています。
 
 ## ネットワークを確認する場所
 
-[Crosslink tab on ZecHub Tools](https://zechub.wiki/tools?tool=crosslink) は、「このネットワークでのステーキングは ZEC を動かしません」という注意書きの下に、ツールを1か所に集めています。
+[Crosslinkタブは、ZecHub Tools](https://zechub.wiki/tools?tool=crosslink)において、「このネットワークでのステーキングではZECは移動しません」という通知の下にツールを集約しています。
 
-- ノード不要のホスト型：[Staker Space](https://crosslink.staker.space/)。これは高さ、マイナー、ソリューションレート、Staking Dayのカウントダウン、ファイナリティを備えた「現在の cTAZ テストネットのライブダッシュボード」です。もう1つは [ctaz.cash](https://ctaz.cash/) で、マイニング生産量、ファイナライザーロスター、ピア、ステーキングアドレス名の請求を表示します。
-- 自分のマシン上：`zcash-explorer`。その `/live/crosslink` ページには有効化、ファイナリティ遅延、ロスター、ステーキングポジションが表示されます。もう1つは `crosslink_indexer` で、Crosslink ノードのSQLiteインデックスです。
+- ノード不要のホスト型: [Staker Space](https://crosslink.staker.space/)。これはブロック高、マイナー、ソリューションレート、ステーキング日のカウントダウン、ファイナリティを表示する「現在のcTAZテストネット向けライブダッシュボード」です。[ctaz.cash](https://ctaz.cash/)では、マイニング生産量、ファイナライザーのロスター、ピア、ステーキングアドレス名の請求を確認できます。
+- 自分のマシン上: `zcash-explorer`。その`/live/crosslink`ページでは、アクティベーション、ファイナリティ遅延、ロスター、ステーキングポジションを表示します。もう1つは`crosslink_indexer`で、CrosslinkノードのSQLiteインデックスです。
 
 ## よくある間違い
 
-**ブロック高ではなく時計を基準に計画すること。** Staking Day はブロック数で数えられます。カレンダーではなく、ダッシュボードのカウントダウンを見てください。
+**ブロック高ではなく時計を基準に計画すること。** ステーキング日はブロック単位で数えられます。カレンダーではなく、ダッシュボードのカウントダウンを確認してください。
 
-**ウィンドウ終了直前にステーキングすること。** ルールはトランザクションを含むブロックに対してチェックされます（[source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebra-consensus/src/transaction.rs#L941-L953)）。そのため、ステークは送信されるだけでなく、ウィンドウが閉じる前にマイニングされなければなりません。
+**ウィンドウ終了直前にステーキングすること。** ルールはトランザクションを含むブロックに対して確認されます（[source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebra-consensus/src/transaction.rs#L941-L953)）。そのため、ステークは単に送信するだけでなく、ウィンドウが閉じる前にマイニングされなければなりません。
 
-**ステークをマイニングで得られると期待すること。** Intel Core i5-8350U の4スレッドCPUマイナーは、10月8日から9日の間にブロックを1つも見つけませんでした。最初のcTAZは、フォーセットまたは別の参加者から得てください。
+**自分のステークをマイニングできると期待すること。** Intel Core i5-8350Uの4スレッドCPUマイナーでは、10月8日から9日の間にブロックは見つかりませんでした。最初のcTAZはフォーセットまたは別の参加者から入手してください。
 
-**何も起きなかったように見えて再度クリックすること。** 金額をクリックするたびに新しいボンドが作られます。先にウォレット履歴または `wallet_staking_positions` を確認してください。
+**何も起きなかったように見えて、もう一度クリックすること。** 金額をクリックするたびに新しいボンドが作成されます。まずウォレット履歴または`wallet_staking_positions`を確認してください。
 
-**再起動後に慌てること。** ウォレットの再スキャンが完了するまで、残高とステークはゼロと表示されます。Wallet Sync の完了を待ってください。
+**再起動後に慌てること。** ウォレットの再スキャンが完了するまで、残高とステークは0と表示されます。Wallet Syncが完了するまで待ってください。
 
-**cTAZをただの遊び金、または秘密を無害なものとして扱うこと。** cTAZはテストコインですが、獲得したcTAZが実際の ZEC の取り分を決めます。`secret.seed` はウォレットと同じように守ってください。
+**cTAZを遊びのお金、またはシークレットを無害なものとして扱うこと。** cTAZはテストコインですが、獲得したcTAZは実際のZECにおける自分の取り分を決定します。`secret.seed`はウォレットと同じように保護してください。
 
-**古い説明を読むこと。** リリースノートには、新しいルールと並んで以前のシーズンからの文面が残っています。自分のノードの動作と矛盾する場合は、ノードが正しいです。
+**古い手順を読むこと。** リリースノートには、新しいルールの隣に以前のシーズンからの文章が残っています。ノードの動作と矛盾する場合は、ノードが正しいです。
 
 ## 関連ページ
 
 - [Crosslink Protocol](/zcash-tech/crosslink-protocol) - このネットワークがテストする設計
-- [Shielded Labs](/zcash-organizations/shielded-labs) - Crosslink の背後にあるチーム
+- [Shielded Labs](/zcash-organizations/shielded-labs) - Crosslinkの背後にいるチーム
 - [Verifying Zcash Releases](/guides/verifying-zcash-releases) - チェックサムが証明することと証明しないこと
-- [Zebra Full Node](/zcash-tech/zebra-full-node) - Feature Net アプリの基盤となるノード
-- [Zcash Testnet](/using-zcash/testnet) - 通常の Zcash テストネット。これは別のネットワークです
+- [Zebra Full Node](/zcash-tech/zebra-full-node) - Feature Netアプリの基盤となるノード
+- [Zcash Testnet](/using-zcash/testnet) - 別ネットワークである通常のZcashテストネットワーク
 
 ## 情報源
 
-- [Version 14 release notes](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v14)、Shielded Labs、2026年10月1日
-- [Crosslink: Incentivized Feature Nets](https://shieldedlabs.net/crosslink-incentivized-feature-nets/)、Shielded Labs、2026年4月2日
-- [Crosslink: Incentivized Feature Net](https://forum.zcashcommunity.com/t/crosslink-incentivized-feature-net/55210)、Zcash Community Forum
+- [バージョン14リリースノート](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v14)、Shielded Labs、2026年10月1日
+- [Crosslink: インセンティブ付きFeature Nets](https://shieldedlabs.net/crosslink-incentivized-feature-nets/)、Shielded Labs、2026年4月2日
+- [Crosslink: インセンティブ付きFeature Net](https://forum.zcashcommunity.com/t/crosslink-incentivized-feature-net/55210)、Zcash Community Forum
 - [Crosslink FAQ](https://shieldedlabs.net/crosslink-faq/)、Shielded Labs
-- [The Crosslink book](https://shieldedlabs.github.io/crosslink_book/)、Shielded Labs
+- [Crosslinkブック](https://shieldedlabs.github.io/crosslink_book/)、Shielded Labs
 
 ---
 
-*このページの手順は、2026年10月8日から10日にかけて、Feature Net バージョン14を Windows 11（バージョン10.0.26200.9550）で実行したものです。リリースノートまたはソースコードを引用する記述は、それらから取られています。「not run」と記されたものは試していません。*
+*このページの手順は、2026年10月8日から10日にかけて、Feature Netバージョン14をWindows 11（バージョン10.0.26200.9550）で実行したものです。リリースノートまたはソースコードを引用する記述は、それらから引用されています。「not run」と記されたものは試していません。*

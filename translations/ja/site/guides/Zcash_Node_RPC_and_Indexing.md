@@ -2,43 +2,43 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# 実践ガイド：Zcash ノード RPC とブロックチェーンのインデックス作成
+# 実践ガイド：Zcash ノード（Node）RPCとブロックチェーン（Blockchain）インデックス作成
 
-このページは、稼働中のZcashフルノードと JSON-RPC 経由でやり取りし、ライトウォレットやエクスプローラーから照会できるインデクサーを接続するためのレシピ集です。2つ目のインストールガイドでは**ありません**。
+このページは、稼働中のZcashフルノード（full node）とJSON-RPC経由で通信し、ライトウォレットやエクスプローラーが照会できるインデクサーを接続するための手引きです。これは別のインストールガイドでは**ありません**。
 
-`zcashd`以降のスタック（Zebra + Zallet、任意のZaino、ポート、ボリューム、2段階起動）の立ち上げ方については、[Z3 Stack](/zcash-tech/z3-stack)ページおよび[Z3 repository](https://github.com/ZcashFoundation/z3)を参照してください。コンセンサスノードの背景情報については、[Full Nodes](/zcash-tech/full-nodes)および[Zebra Full Node](/zcash-tech/zebra-full-node)を参照してください。
+`zcashd`後のスタックを起動する方法（Zebra + Zallet、任意のZaino、ポート、ボリューム、2段階起動）については、[Z3スタック](/zcash-tech/z3-stack)ページおよび[Z3リポジトリ](https://github.com/ZcashFoundation/z3)を参照してください。コンセンサスノードの背景情報については、[フルノード](/zcash-tech/full-nodes)および[Zebraフルノード](/zcash-tech/zebra-full-node)を参照してください。
 
-`zcashd`は2026年7月18日にサポート終了となりました。新たな運用作業では、`zcashd`ではなく、Zebra（または[Zakura](/zcash-tech/zakura-node)）とウォレット／インデクサーを対象にしてください。
-
----
-
-## 要約
-
-* **JSON-RPC** は、運用者やウォレットがノードにチェーン先端、ピア、そして（ウォレットプロセス上では）残高を問い合わせる方法です。Z3 では、Zebraがノード RPC を提供し、Zalletがウォレット RPC を提供します。
-* **Regtest** は呼び出しを学ぶのに適した場所です。`http://127.0.0.1:8181`上の Z3 の rpc-router は`zebra` / `zebra`を受け付け、ノードメソッドをZebraへ、ウォレットメソッドをZalletへ転送します。
-* **Mainnet と testnet** では、Zebra上で Cookie 認証を使用します。regtest のユーザー名／パスワードをパブリックノードへコピーしないでください。
-* **インデックス作成**は検証とは別の仕事です。Zebraが検証します。[Zaino](/zcash-tech/zaino)（Z3 `--profile indexer`）はlightwalletd互換の gRPC を提供します。[Ztreamer](https://github.com/distractedm1nd/ztreamer)はZakuraをバックエンドとするインデクサーであり、Z3 に同梱されるものではありません。
-* Zaino JSON-RPC およびZebraの任意のインデクサー gRPC は、ループバックまたは信頼できるネットワーク向けです。認証なしでパブリックインターネットに公開しないでください。
+`zcashd`は2026年7月18日にサポート終了となりました。新規の運用作業では、Zebra（または[Zakura](/zcash-tech/zakura-node)）とウォレット（Wallet）／インデクサーを対象とし、`zcashd`を対象にしないでください。
 
 ---
 
-## どのプロセスがどの呼び出しに応答するか
+## 要点
 
-| 必要なもの | 接続先 | Z3 mainnet ホストポート | 注記 |
+* **JSON-RPC**は、運用者やウォレットがノードに対してチェーン（chain）の先端、ピア、（ウォレットプロセス上の）残高を問い合わせる方法です。Z3では、ZebraがノードRPCを提供し、ZalletがウォレットRPCを提供します。
+* **Regtest**は、呼び出しを学ぶのに適した場所です。`http://127.0.0.1:8181`上のZ3のrpc-routerは、`zebra`／`zebra`を受け付け、ノードメソッドをZebraへ、ウォレットメソッドをZalletへ転送します。
+* **メインネットとテストネット**では、Zebra上でCookie認証を使用します。Regtestのユーザー名／パスワードを公開ノードにコピーしないでください。
+* **インデックス作成**は検証とは別の作業です。Zebraが検証を行います。[Zaino](/zcash-tech/zaino)（Z3の`--profile indexer`）はlightwalletd互換のgRPCを提供します。[Ztreamer](https://github.com/distractedm1nd/ztreamer)はZakuraをバックエンドとするインデクサーであり、Z3が提供するものではありません。
+* ZainoのJSON-RPCおよびZebraの任意のインデクサーgRPCは、ループバックまたは信頼できるネットワーク用です。認証なしで公開インターネットに公開しないでください。
+
+---
+
+## 各呼び出しを処理するプロセス
+
+| 必要なもの | 接続先 | Z3メインネットのホストポート | 注記 |
 | --- | --- | --- | --- |
-| チェーン先端、ピア、`getblockchaininfo` | Zebra JSON-RPC | 8232 | Cookie 認証 |
-| ウォレット残高、アドレス、送信 | Zallet RPC | 28232 | 別プロセス、ベータソフトウェア |
-| ライトウォレット向けコンパクトブロック | Zaino gRPC | 8137 | `--profile indexer`使用時のみ、プレーンテキスト h2c |
-| エクスプローラー／フォーセットの JSON-RPC プロキシ | Zaino JSON-RPC | 8237 | 信頼できるネットワークのみ |
-| 同期なしで上記すべてを練習 | Z3 regtest rpc-router | 8181 | ユーザー名 `zebra` / パスワード `zebra` |
+| チェーン先端、ピア、`getblockchaininfo` | Zebra JSON-RPC | 8232 | Cookie認証 |
+| ウォレット残高、アドレス（address）、送信 | Zallet RPC | 28232 | 別プロセス、ベータソフトウェア |
+| ライトウォレット向けコンパクトブロック（block） | Zaino gRPC | 8137 | `--profile indexer`を使用する場合のみ。平文h2c |
+| エクスプローラー／フォーセット（faucet）JSON-RPCプロキシ | Zaino JSON-RPC | 8237 | 信頼できるネットワークのみ |
+| 同期なしで上記すべてを練習 | Z3 regtest rpc-router | 8181 | ユーザー名`zebra`／パスワード`zebra` |
 
-ポート一覧と Compose プロジェクト名：[Z3 Stack](/zcash-tech/z3-stack)および[`z3-contract.yaml`](https://github.com/ZcashFoundation/z3/blob/main/z3-contract.yaml)。
+ポート一覧とComposeプロジェクト名：[Z3スタック](/zcash-tech/z3-stack)および[`z3-contract.yaml`](https://github.com/ZcashFoundation/z3/blob/main/z3-contract.yaml)。
 
 ---
 
-## まず regtest で練習する
+## まずRegtestで練習する
 
-Z3 のチェックアウト環境で、`./scripts/regtest-init.sh`と`docker compose --env-file .env.regtest up -d`の後に実行します。
+Z3チェックアウトで、`./scripts/regtest-init.sh`および`docker compose --env-file .env.regtest up -d`の後に実行します。
 
 ```bash
 # Node method (Zebra)
@@ -52,17 +52,17 @@ curl -s -X POST -H "Content-Type: application/json" \
   http://127.0.0.1:8181
 ```
 
-正常な`getblockchaininfo`の結果には、`"blocks"`と`"upgrades"`マップが含まれます。curl が停止する場合はルーターが起動していません。`401`が表示される場合は、ルーターではなくZebraに直接接続しています（regtest 上の直接Zebraは`29232`であり、変更していない限りルーターの認証情報を引き続き要求します）。
+正常な`getblockchaininfo`の結果には、`"blocks"`と`"upgrades"`マップが含まれます。curlが停止する場合はルーターが起動していません。`401`が返る場合は、ルーターではなくZebraを直接呼び出しています（Regtest上の直接Zebraは`29232`であり、変更していない限りルーターの認証情報を引き続き要求します）。
 
-アクティベーションブロックの採掘を含む完全な regtest ワークフロー：[Z3 `docs/regtest.md`](https://github.com/ZcashFoundation/z3/blob/main/docs/regtest.md)。
+有効化ブロックのマイニング（mining）を含む完全なRegtestワークフロー：[Z3 `docs/regtest.md`](https://github.com/ZcashFoundation/z3/blob/main/docs/regtest.md)。
 
 ---
 
-## Mainnet / testnet JSON-RPC（Cookie 認証）
+## メインネット／テストネットJSON-RPC（Cookie認証）
 
-mainnet および testnet では、Zalletと任意のZainoサービスが**共有 Cookie ボリューム**を読み取ります。この Cookie は起動時に再生成されるため、バックアップ対象ではありません。
+メインネットおよびテストネットでは、Zalletと任意のZainoサービスが**共有Cookieボリューム**を読み取ります。このCookieは起動時に再生成され、バックアップ対象ではありません。
 
-Zebra JSON-RPC をパブリックインターネットに公開**しないでください**。Compose ネットワーク（`zebra:8232`）から呼び出すか、ループバックにバインドした場合に限りホストから呼び出してください。
+ZebraのJSON-RPCを公開インターネットに公開**しないでください**。Composeネットワーク（`zebra:8232`）から呼び出すか、ループバックにバインドした場合に限りホストから呼び出してください。
 
 Zebraが`/ready`になった後の一般的な運用確認：
 
@@ -74,25 +74,25 @@ Zebraが`/ready`になった後の一般的な運用確認：
 docker compose --env-file .env.mainnet up -d
 ```
 
-`getblocktemplate` / `getmininginfo`は採掘 RPC です。単一の`zcashd`プロセスを想定していたプールには、テンプレート用としてZebra（またはZakura）に加え、coinbase 用に使用するウォレットが必要です。[Zcash Mining Pools](/using-zcash/zcash-mining-pools)および[migration guide](/guides/migration-guide-zcashd-to-zebrad-zallet)を参照してください。
+`getblocktemplate`／`getmininginfo`はマイニングRPCです。単一の`zcashd`プロセスを想定していたプール（pool）は、テンプレート用にZebra（またはZakura）と、コインベース用に使用するウォレットを必要とします。[Zcashマイニングプール](/using-zcash/zcash-mining-pools)および[移行ガイド](/guides/migration-guide-zcashd-to-zebrad-zallet)を参照してください。
 
 ---
 
 ## インデクサーを接続する
 
-検証とインデックス作成は異なる仕事です。
+検証とインデックス作成は異なる作業です。
 
-### Zaino（Z3 に同梱）
+### Zaino（Z3が提供するもの）
 
-ZainoはZebraを読み取り、lightwalletd互換の gRPC API と JSON-RPC プロキシを提供します。ZalletにはスタンドアロンのZainoコンテナは不要です。Zainoライブラリを組み込み、JSON-RPC 経由でZebraと通信します。外部ライトウォレット、エクスプローラー、またはフォーセットを利用したい場合は、スタンドアロンのZainoを起動してください。
+ZainoはZebraを読み取り、lightwalletd互換のgRPC APIとJSON-RPCプロキシを提供します。ZalletはスタンドアロンのZainoコンテナを必要とせず、Zainoライブラリを組み込み、JSON-RPC経由でZebraと通信します。外部ライトウォレット、エクスプローラー、またはフォーセット向けには、スタンドアロンのZainoを起動してください。
 
 ```bash
 docker compose --env-file .env.mainnet --profile indexer up -d
 ```
 
-クライアントをZainoへ接続する前に、Zebraが同期されるまで待ってください。高いフェッチ並行数で追いつこうとする一括インデクサーは、Zebraの検証器を遅くする可能性があります。インデクサーが追いつくまで、`fetch_concurrency`は一桁台前半に保ってください。
+クライアントをZainoに接続する前に、Zebraが同期されるまで待ってください。高いフェッチ並行性で追いつこうとする一括インデクサーはZebraの検証器を遅くする可能性があるため、インデクサーが追いつくまで`fetch_concurrency`を低い1桁に保ってください。
 
-Regtest gRPC（プレーンテキスト、ポート`28137`）：
+Regtest gRPC（平文、ポート`28137`）：
 
 ```bash
 # From the Z3 repo, after: scripts/vendor.sh zaino
@@ -112,50 +112,50 @@ grpcurl -plaintext \
   cash.z.wallet.sdk.rpc.CompactTxStreamer/GetLatestBlock
 ```
 
-Zaino gRPC は、すべてのネットワークでプレーンテキスト h2c です。ホスト外から接続する場合は、リバースプロキシで TLS を終端してください。詳細：[Zaino](/zcash-tech/zaino)および[Z3 `docs/regtest.md`](https://github.com/ZcashFoundation/z3/blob/main/docs/regtest.md)。
+ZainoのgRPCは、すべてのネットワークで平文h2cです。ホスト外部から接続するものがある場合は、リバースプロキシでTLSを終端してください。詳細：[Zaino](/zcash-tech/zaino)および[Z3 `docs/regtest.md`](https://github.com/ZcashFoundation/z3/blob/main/docs/regtest.md)。
 
-### その他のインデクサー（Z3 以外）
+### その他のインデクサー（Z3以外）
 
-* **lightwalletd** — 旧式のコンパクトブロックサーバー。現在も広く導入されていますが、この役割の後継経路はZainoです。
-* **Ztreamer** — Zakuraをバックエンドとするインデクサーおよび`CompactTxStreamer`実装です。Z3 のサービスではありません。[Ztreamer repository](https://github.com/distractedm1nd/ztreamer)を参照してください。
-* **Zebra `rpc.indexer_listen_addr`** — Zebra内部の任意の gRPC リスナーです。Z3 はこれを必要とせず、ホストにも公開しません。
+* **lightwalletd** — 旧式のコンパクトブロックサーバーです。現在も広く導入されていますが、この役割の後継経路はZainoです。
+* **Ztreamer** — Zakuraをバックエンドとするインデクサーおよび`CompactTxStreamer`実装です。Z3サービスではありません。[Ztreamerリポジトリ](https://github.com/distractedm1nd/ztreamer)を参照してください。
+* **Zebra `rpc.indexer_listen_addr`** — Zebra内部の任意のgRPCリスナーです。Z3はこれを必要とせず、ホストにも公開しません。
 
 ---
 
 ## よくある間違い
 
-**Zebraでウォレットメソッドを呼び出す。** `getwalletinfo`および送信 RPC は、コンセンサスノードではなくZallet（または別のウォレット）に属します。
+**Zebraでウォレットメソッドを呼び出すこと。** `getwalletinfo`および送信RPCは、コンセンサスノードではなく、Zallet（または別のウォレット）に属します。
 
-**Zebraが`/ready`になる前にZalletを起動する。** Zalletは再起動ループに入ります。mainnet/testnet では`scripts/check-zebra-readiness.sh`を使用してください。
+**Zebraが`/ready`になる前にZalletを起動すること。** Zalletは再起動ループに入ります。メインネット／テストネットでは`scripts/check-zebra-readiness.sh`を使用してください。
 
-**regtest の`zebra`/`zebra`を mainnet にコピーする。** Cookie 認証が mainnet/testnet のデフォルトであるのには理由があります。
+**Regtestの`zebra`／`zebra`をメインネットへコピーすること。** Cookie認証がメインネット／テストネットのデフォルトであるのには理由があります。
 
-**Zainoをフルノードとして扱う。** Zebra（またはZakura）が検証します。Zainoがインデックスを作成します。
+**Zainoをフルノードとして扱うこと。** Zebra（またはZakura）が検証を行います。Zainoがインデックス作成を行います。
 
-**Zaino JSON-RPC またはZebraインデクサー gRPC を公開する。** これらのエンドポイントは、ループバックまたは信頼できるプライベートネットワーク向けです。
+**ZainoのJSON-RPCまたはZebraのインデクサーgRPCを公開すること。** これらのエンドポイントは、ループバックまたは信頼できるプライベートネットワーク用です。
 
-**すべてのライトウォレットがすでにZainoを利用できると想定する。** ウォレットの現在のリリースと、実際に実装しているプロトコルを照合してください。
+**すべてのライトウォレットがすでにZainoを使用すると想定すること。** ウォレットの現在のリリースが実際に実装しているプロトコルを確認してください。
 
 ---
 
 ## 関連ページ
 
-* [Z3 Stack](/zcash-tech/z3-stack) — インストール、ポート、ボリューム、2段階起動
+* [Z3スタック](/zcash-tech/z3-stack) — インストール、ポート、ボリューム、2段階起動
 * [Zaino](/zcash-tech/zaino) — インデクサーの役割と運用者向け注記
-* [Full Nodes](/zcash-tech/full-nodes)
-* [Zebra Full Node](/zcash-tech/zebra-full-node)
-* [Lightwallet Nodes](/zcash-tech/lightwallet-nodes)
-* [Migration Guide: zcashd から Zebrad/Zallet](/guides/migration-guide-zcashd-to-zebrad-zallet)
-* [ZingolibおよびZaino Tutorial](/guides/zingolib-and-zaino-tutorial)
+* [フルノード](/zcash-tech/full-nodes)
+* [Zebraフルノード](/zcash-tech/zebra-full-node)
+* [ライトウォレットノード](/zcash-tech/lightwallet-nodes)
+* [移行ガイド：zcashdからZebrad／Zallet](/guides/migration-guide-zcashd-to-zebrad-zallet)へ
+* [ZingolibおよびZainoチュートリアル](/guides/zingolib-and-zaino-tutorial)
 
 ## リソース
 
-* [Z3 repository](https://github.com/ZcashFoundation/z3)
-* [Z3 regtest cookbook（curl / grpcurl）](https://github.com/ZcashFoundation/z3/blob/main/docs/regtest.md)
+* [Z3リポジトリ](https://github.com/ZcashFoundation/z3)
+* [Z3 Regtestクックブック（curl／grpcurl）](https://github.com/ZcashFoundation/z3/blob/main/docs/regtest.md)
 * [Z3 FAQ](https://github.com/ZcashFoundation/z3/blob/main/docs/faq.md)
 * [Zebra](https://zebra.zfnd.org/)
 * [Zaino](https://github.com/zingolabs/zaino)
-* [Zallet Book](https://zcash.github.io/zallet/)
+* [Zalletブック](https://zcash.github.io/zallet/)
 * [Ztreamer](https://github.com/distractedm1nd/ztreamer)
 
-**最終更新：** 2026年9月
+**最終更新：**2026年9月

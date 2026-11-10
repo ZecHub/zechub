@@ -1,130 +1,139 @@
-# <img src="/content-images/shopping-cart-free-15-svgrepo-com-991c5b52e9.svg" width="24" height="24" alt="finance icon"/> 商家としてZcashで支払いを受け取る
+# <img src="/content-images/shopping-cart-free-15-svgrepo-com-991c5b52e9.svg" width="24" height="24" alt="finance icon"/> Zcashで加盟店として支払いを受け付ける
 
 <span className="inline-flex items-center gap-[6px]">
   <span className="inline-block w-[12px] h-[12px] bg-green-500 rounded-full"></span>
-  初心者 - 5分
+  初級 - 5分
 </span>
 
-## TL;DR
+## 要約
 
-- シールドされたアドレスを使用して支払いを受け取る
-- 顧客の取引データを公開しないようにする
-- メモまたはオフチェーンシステムを使って注文を追跡する
-- 事業収益をプライベートに保つ
+- シールドされたアドレス（shielded address）を使って支払いを受け付けます
+- 顧客のトランザクション（transaction）データの公開を避けます
+- 注文追跡にはメモ（memo）またはオフチェーンシステムを使用します
+- ビジネス収益を非公開に保ちます
 
 <br/>
 
-## <img src="/content-images/user-svgrepo-com-21adf62b7c.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="user icon"/> これは誰向けですか？
+## <img src="/content-images/user-svgrepo-com-21adf62b7c.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="user icon"/> これは誰のためのものですか？
 
-- オンラインの商人
+- オンライン加盟店
 - サービス提供者
-- 小規模な事業主
-- クリプトフレンドリーなショップ
+- 中小企業
+- 暗号資産に対応した店舗
 
 <br/>
 
 ## <img src="/content-images/warning-error-svgrepo-com-b7ea8a50da.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="warning icon"/> 問題点
 
-伝統的な暗号資産支払いでは以下が公開される：
+従来の暗号資産による支払いでは、以下が公開されます。
 - 顧客の購入行動
-- 商人の収益
-- 取引履歴
+- 加盟店の収益
+- トランザクション履歴
 
-これにより以下の問題が生じる：
-- 顧客プライバシーの喪失
+これは以下につながります。
+- 顧客のプライバシー（privacy）の喪失
 - 競合情報の漏洩
-- 欲しくない財務透明性
+- 望まない財務情報の公開
 
 <br/>
 
-## <img src="/content-images/icons8-lock-2f8e221321.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> なぜZcashなのか？
+## <img src="/content-images/icons8-lock-2f8e221321.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> Zcashを使う理由
 
-Zcashは以下を可能にする：
-- 個人の支払いのプライバシー保護
-- 収益の機密的な追跡
-- 事業活動の保護
+Zcashにより、以下が可能になります。
+- 非公開の顧客支払い
+- 機密性の高い収益追跡
+- ビジネス活動の保護
+
 
 <br/>
 
 ## <img src="/content-images/icons8-toolbox-9bebbb1619.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> 必要なもの
 
-- シールド取引をサポートするZcashウォレット
-- 簡単な支払いフロー（手動または統合）
+- シールドされたトランザクションに対応するZcashウォレット（wallet）
+- シンプルな支払いフロー（手動または統合型）
 - 任意：注文追跡システム
+
 
 <br/>
 
 ## <img src="/content-images/ladder-svgrepo-com-7232bf46ed.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="step icon"/> ステップバイステップガイド
 
-### ステップ1：支払いアドレスの設定
+### ステップ1：支払い用アドレスを設定する
 
-- シールドされた（z）アドレスを生成する
-- 支払いを受け取るためこのアドレスを使用する
+- シールドされた（z）アドレス（address）を生成します
+- 支払いの受取にはこのアドレスを使用します
 
-### ステップ2：支払い手順の表示
 
-各取引に対して：
-- あなたのzアドレスを表示する
-- 支払金額を提供する
-- 必要に応じてメモ参照を含める
+### ステップ2：支払い手順を表示する
 
-### ステップ3：注文の追跡
+各トランザクションについて、以下を行います。
+- zアドレスを表示します
+- 支払い金額を提示します
+- 任意でメモの参照情報を含めます
 
-使用方法：
+### ステップ3：注文を追跡する
+
+以下を使用します。
 - メモ（例：注文ID）
-- オフチェーン追跡（データベース、スプレッドシート）
+- またはオフチェーン追跡（データベース、スプレッドシート）
+
 
 例：
 - 注文 #4821
 
-### ステップ4：支払いの確認
 
-- 受け取ったシールドされた取引を監視する
-- メモまたは金額を注文と照合する
+### ステップ4：支払いを確認する
 
-### ステップ5：プライバシーの維持
+- 受信したシールドされたトランザクションを監視します
+- メモまたは金額を注文と照合します
 
-- 公開でアドレスを再利用しないようにする（可能な限り）
-- トランザクション履歴を公開しない
-- 必要に応じて、異なる事業部門ごとにウォレットを分離する
+
+### ステップ5：プライバシー保護を維持する
+
+- 可能であれば、アドレスを公開の場で再利用しないでください
+- トランザクション履歴を公開しないでください
+- 必要に応じて、異なる事業部門ごとにウォレットを分けてください
+
 
 <br/>
 
-## <img src="/content-images/icons8-cancel-7f786be3c1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="cancel icon"/> 避けたい一般的なミス
+## <img src="/content-images/icons8-cancel-7f786be3c1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="cancel icon"/> 避けるべきよくある間違い
 
-- 透明アドレスを使用して支払いを受け取る  
-- トランザクション証明を公開する  
-- 顧客の身元をブロックチェーンデータと関連付ける  
+- 支払いに公開型（transparent）アドレスを使用する  
+- トランザクションのプルーフ（proof）を公開する  
+- 顧客の身元をブロックチェーン（blockchain）データに結び付ける  
 - 支払いを適切に追跡しない  
+
 
 <br/>
 
 ## <img src="/content-images/checked-checkbox-svgrepo-com-7ea19022da.svg" width="28" height="28" className="inline-block align-middle mr-1 p-[2px]" alt="done icon"/> 結果
 
-あなたは以下ができるようになる：
-- プライベートに支払いを受け取る
+以下が可能になります。
+- 非公開で支払いを受け付ける
 - 顧客を保護する
-- 事業データを機密保持できる
+- ビジネスデータの機密性を保つ
+
 
 <br/>
 
-## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="chain-links icon"/> 関連情報
+## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="chain-links icon"/> 関連
 
 
 - [ウォレット](/wallets)
-- [あなたのZcash支払い](/start-here/who-can-see-your-zcash-payment)を閲覧できるのは誰ですか
+- [あなたのZcash支払いを閲覧できる人](/start-here/who-can-see-your-zcash-payment)
 
 <br/>
 
-## <img src="/content-images/progress-arrows-svgrepo-com-aad76739e5.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="progress icon"/> 進行状況
+## <img src="/content-images/progress-arrows-svgrepo-com-aad76739e5.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="progress icon"/> 進捗
 
-**6ステップ中の第4ステップ**
+**6ステップ中のステップ4**
 
-今や、ビジネス向けのプライベートな支払いフローを実行できるようになりました。
+これで、ビジネス向けの非公開支払いフローを実行できます。
 
 <br/>
 
 ## 次のステップ
 
-- [プライベートコミュニティ財産を運用する](/zcash-use-cases/private-community-treasury)
+- [非公開のコミュニティトレジャリーを運営する](/zcash-use-cases/private-community-treasury)
 <br/>

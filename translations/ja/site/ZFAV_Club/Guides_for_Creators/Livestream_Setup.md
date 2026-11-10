@@ -1,22 +1,22 @@
 <a href="https://github.com/Zechub/zechub/edit/main/site/ZFAV_Club/Guides_for_Creators/Livestream_Setup.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="ページを編集"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# ライブ配信のセットアップ
+# ライブストリーム（Livestream）のセットアップ
 
-**必要なもの:**
+**必要なもの：**
 
-- オーバーレイがなくHDMI出力のあるビデオカメラ
+- オーバーレイなしでHDMI出力できるビデオカメラ
 - 三脚
-- HDMIからUSBへの動画キャプチャデバイス（2台）
-- スライドやデモをキャプチャするためのHDMI（無線が最適）
-- ミキサーからの音声入力（無線が最適）
-- OBSや類似ソフトウェアを実行できるノートPC（有線LANが最適）
+- HDMI-USBビデオキャプチャーデバイス（2台）
+- プレゼンテーションスライド／デモをキャプチャーするためのHDMI（ワイヤレスが最適です）
+- ミキサーからのオーディオフィード（ワイヤレスが最適です）
+- OBSまたは同様のソフトウェアを実行できるノートパソコン（イーサネット接続が最適です）
 
-*このキットの目的は、品質と携帯性です。*
+*このキットの目的は、品質と携帯性を両立させることです。*
 
-この機材の一部をより手に入りやすい代替品で置き換える方法もあります（例：カメラではなくスマートフォンを使うなど）が、それは別のWiki投稿で説明します。
+カメラの代わりにスマートフォンを使用するなど、この機材の一部をより入手しやすいソリューションに置き換える方法もあります。これについては、別のウィキ投稿で説明します。
 
-![ライブ配信に必要なすべてのデバイスを接続する例。著者: [decentralistdan](https://twitter.com/decentralistdan)](Livestream%20Setup%2078cbdbd99e4a42d7b5565978aa5e4488/stream-cable-setup.jpg)
+![Example scheme how to connect all devices for streaming. Author: [decentralistdan](https://twitter.com/decentralistdan)](Livestream%20Setup%2078cbdbd99e4a42d7b5565978aa5e4488/stream-cable-setup.jpg)
 
-ライブ配信に必要なすべてのデバイスを接続する例。著者: [decentralistdan](https://twitter.com/decentralistdan)
+ストリーミング用にすべてのデバイスを接続する方法の例です。著者：[decentralistdan](https://twitter.com/decentralistdan)

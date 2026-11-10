@@ -1,80 +1,80 @@
 <a href="https://github.com/henryquincy/zechub/edit/main/site/guides/Raspberry_pi_4_Zebra_Node.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="ページを編集"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Raspberry Pi 4 上での Zebra の実行ガイド
+# Zebraを実行するためのRaspberry Pi 4ガイド
 
 <img src="/content-images/image-2023-11-28-172907488-e7e9fd4ac5.webp" alt="raspberry pi" width="300" height="300"/>
 
-Raspberry Pi 4 上で Zebra ノードソフトウェアを実行することで、Zcash ネットワークに独立したコンセンサス互換ノードとして参加できます。このガイドでは、Raspberry Pi 4 上で Zebra をセットアップして実行する手順について説明します。
+Raspberry Pi 4でZebraノード（node）ソフトウェアを実行すると、独立したコンセンサス（consensus）互換ノードとしてZcashネットワークに参加できます。このガイドでは、Raspberry Pi 4でZebraをセットアップして実行する手順を説明します。
 
 ## 前提条件
 
-1. Raspberry Pi 4 (2GB RAM 以上が推奨されます)。
+1. Raspberry Pi 4（2GB RAM以上を推奨）。
 
-2. Raspberry Pi OS (Raspbian) がインストールされた microSD カード (16GB 以上が推奨されます)。
+2. Raspberry Pi OS（Raspbian）がインストールされたMicroSDカード（16GB以上を推奨）。
 
 3. 安定したインターネット接続。
 
-4. 初期設定用のキーボード、マウス、ディスプレイ。
+4. キーボード、マウス、モニター（初期セットアップ用）。
 
-5. SSHクライアント (リモートアクセスのためにオプション)。
+5. SSHクライアント（任意、リモートアクセス用）。
 
 ## インストール
 
-1. __システムを更新__
-   テルミナルを開くか、Raspberry Pi に SSH 接続し、次のコマンドでシステムが最新状態であることを確認してください:
+1. __システムを更新する__
+   ターミナルを開くか、SSHでRaspberry Piに接続し、以下を実行してシステムが最新の状態であることを確認します。
 
    __sudo apt update__
 
    __sudo apt upgrade__
 
-2. __依存関係のインストール__
-   Zebra の構築および実行のために必要な依存関係をインストールします:
+2. __依存関係をインストールする__
+   Zebraをビルドして実行するには、必要な依存関係をいくつかインストールする必要があります。
 
    __sudo apt install build-essential cmake git clang libssl-dev pkg-config__
 
-3. __Zebra リポジトリのクローン__
-   テルミナルを開き、Raspberry Pi に Zebra リポジトリをクローンしてください:
+3. __Zebraリポジトリをクローンする__
+   ターミナルを開き、ZebraリポジトリをRaspberry Piにクローンします。
 
    __git clone https://github.com/ZcashFoundation/zebra.git__
 
    __cd zebra__
 
-4. __Zebra の構築__
-   次のコマンドを使用して Zebra を構築します:
+4. __Zebraをビルドする__
+   Zebraをビルドするには、以下のコマンドを使用します。
 
    __cargo build --release__
 
-   この処理には時間がかかる場合があります。Raspberry Pi が十分に冷却されていることを確認してください、コンパイル中に熱を発生する可能性があります。
+   このプロセスには時間がかかる場合があります。コンパイルでは熱が発生する可能性があるため、Raspberry Piが適切に冷却されていることを確認してください。
 
 5. __設定__
-   Zebra のための設定ファイルを作成します。デフォルト設定を使用して開始できます:
+   Zebra用の設定ファイルを作成します。まずはデフォルト設定を出発点として使用できます。
 
    __cp zcash.conf.example zcash.conf__
 
-   zcash.conf ファイルを編集し、ノードの設定をカスタマイズしてください。ネットワークを指定したり、採掘を有効化したり、ピア接続を設定したりすることが可能です。
+   zcash.confファイルを編集して、ノードの設定をカスタマイズします。ネットワークの指定、マイニング（mining）の有効化、ピア接続の設定などを行えます。
 
-6. __Zebra の起動__
-   今やカスタム設定を使用して Zebra を起動できます:
+6. __Zebraを開始する__
+   これで、カスタム設定を使用してZebraを開始できます。
 
    __./target/release/zebrad -c zcash.conf__
 
    __git comment__ 
 
-   このコマンドで Zebra ノードが起動し、Zcash ブロックチェーンと同期を開始します。
+   このコマンドによりZebraノードが起動し、Zcashブロックチェーン（blockchain）との同期が開始されます。
 
-7. __モニタリング__
-   Webブラウザを開き、__http://127.0.0.1:8233/status__ にアクセスして、Zebra ノードの進捗状況やステータスを確認できます。
+7. __監視__
+   ウェブブラウザを開き、__http://127.0.0.1:8233/status__.に移動すると、Zebraノードの進行状況とステータスを監視できます。
 
 <img src="/content-images/image-2023-11-28-173024853-99540511cf.webp" alt="zebra logo" width="200" height="200"/>
 
 ## トラブルシューティング
 
-Zebra の構築または実行中に問題が発生した場合は、[Zebra ドキュメント](https://zebra.zfnd.org/user/troubleshooting.html)でトラブルシューティングのヒントや追加情報を見つけてください。
+Zebraのビルドまたは実行中に問題が発生した場合は、トラブルシューティングのヒントや追加情報について[Zebraドキュメント](https://zebra.zfnd.org/user/troubleshooting.html)を確認してください。
 
-Raspberry Pi が熱を発生する可能性があるため、ノードを実行している間は冷却対策を講じてください。ファンやヒートシンクなどの冷却ソリューションを使用することをお勧めします。
+ノードの実行では熱が発生する可能性があるため、Raspberry Piを低温に保つようにしてください。ファンやヒートシンクなどの冷却ソリューションを使用するとよいでしょう。
 
 ## 結論
 
-このガイドに従うことで、Raspberry Pi 4 上で Zebra を成功裏にセットアップし実行できたはずです。これにより、Zcash ネットワークに独立したノードとして参加し、Zcash トランザクションのプライバシーを保護する役割を果たしています。
+このガイドに従うことで、Raspberry Pi 4でZebraを正常にセットアップして実行できたはずです。これで独立したノードとしてZcashネットワークに貢献し、Zcashトランザクション（transaction）のプライバシー（privacy）保護に役立てています。

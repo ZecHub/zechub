@@ -1,8 +1,8 @@
-# Zenith 0.10 ベータ版
+# Zenith 0.10 ベータ
 
-動作中の zebrad が必要で、RPC が有効になっている必要があります。
+RPC が有効な状態で実行中の zebrad が必要です
 
-# NIX のインストール
+# NIX をインストール
 
 ```bash
 sh <(curl --proto '=https' --tlsv1.2 -L https://nixos.org/nix/install) --no-daemon
@@ -11,12 +11,12 @@ sudo chown -R <username> /nix'
 ```
 
 
-以下の内容を ~/.config/nix/nix.conf または /etc/nix/nix.conf に追加してください：
+以下を ~/.config/nix/nix.conf または /etc/nix/nix.conf に追加してください。
 
 `experimental-features = nix-command flakes`
 
 
-# Zenith のインストール
+# Zenith をインストール
 
 ```bash
 nix profile install git+https://code.vergara.tech/Vergara_Tech/zenith?ref=master#gui --impure
@@ -25,7 +25,7 @@ nix profile install git+https://code.vergara.tech/Vergara_Tech/zenith?ref=master
 
 
 
-# Zenith の実行
+# Zenith を実行
 
 
 `zenithgui`

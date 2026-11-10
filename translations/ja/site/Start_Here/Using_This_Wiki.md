@@ -2,28 +2,29 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# このWikiの使い方
 
-ここに書かれている内容が少し複雑に感じられるかもしれません。ご理解いただけますように、ここには多くの情報があります。このWikiをどのようにナビゲートすべきかを示した簡単なステップバイステップガイドをご用意しました。
+# このウィキの使い方
 
-## Zcash初心者の方へ
+一部の内容は圧倒されるかもしれません。その気持ちはわかります！ここには多くの情報があります。ウィキ（Wiki）の進め方をわかりやすく示す、簡単なステップごとのガイドです。
 
-Zcashに初めて触れる方は、ここがとても役立ちます。まず最初に確認していただきたいページは以下の通りです：
+## Zcashを初めて使う方へ
 
-[Zcash 新規ユーザー向けガイド](https://zechub.wiki/start-here/new-user-guide#content)
+Zcashを初めて使う場合は、ここから理解を深めるのがおすすめです。まずは、以下のページをご覧ください。
 
-[Zcash リソース](https://zechub.wiki/start-here/zcash-resources#content)
+[Zcash新規ユーザーガイド](https://zechub.wiki/start-here/new-user-guide#content)
 
-[Zcashの基礎知識](https://zechub.wiki/start-here/what-is-zec-and-zcash#content)
+[Zcashリソース](https://zechub.wiki/start-here/zcash-resources#content)
 
-## Zcashを使用する準備ができたら
+[Zcash基礎](https://zechub.wiki/start-here/what-is-zec-and-zcash#content)
 
-紹介資料と関連リソースを読んだ後は、[ZECのプライベートな使用方法](https://zechub.wiki/guides/using-zec-privately#content)および[Tutorials](https://youtube.com/playlist?list=PL6_epn0lASLFF28ePj7P5TvtMG_WE7p3O&si=4vleWUbCGbNJu1-M)動画を見て、ZECの使用方法を学んでください。
+## Zcashを使用する準備ができた方へ
 
-## Zcashコミュニティの一員である場合
+導入ドキュメントと関連リソースを読んだ後は、[ZECの使用方法](https://zechub.wiki/guides/using-zec-privately#content)と[チュートリアル](https://youtube.com/playlist?list=PL6_epn0lASLFF28ePj7P5TvtMG_WE7p3O&si=4vleWUbCGbNJu1-M)動画をご覧いただき、ZECの使い方を学んでください。
 
-ご協力ありがとうございます！最新情報に常にアクセスするためには、[Zcashエコシステムダイジェスト](https://zechub.substack.com/s/zcash-ecosystem-digest)という週刊ニュースレターを購読し、[Zcashコミュニティページ一覧](https://zechub.wiki/zcash-community/community-links#content)に掲載されているすべてのアカウントをフォローしてください。
+## Zcashコミュニティのメンバーです
 
-## ZecHubへの貢献がしたい場合
+コミュニティメンバーの方、素晴らしいです！最新情報を把握するには、毎週のニュースレター [Zcashエコシステムダイジェスト](https://zechub.substack.com/s/zcash-ecosystem-digest)をフォローし、[Zcashコミュニティページ一覧](https://zechub.wiki/zcash-community/community-links#content)にあるすべてのアカウントをフォローすることが最善です。
 
-素晴らしいです！まずは[ZecHubとは何か](https://zechub.wiki/start-here/what-is-zechub#content)をご覧ください。その後、[ZecHubの構築にご協力ください](https://zechub.wiki/contribute/help-build-zechub)ページで、どのように貢献できるかを学んでください。
+## ZecHubに貢献したいです
+
+素晴らしいです！まず[ZecHubとは何か](https://zechub.wiki/start-here/what-is-zechub#content)をお読みいただき、その後、貢献方法を学ぶために[ZecHubの構築を支援する](https://zechub.wiki/contribute/help-build-zechub)をご覧ください。
