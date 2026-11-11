@@ -1521,11 +1521,11 @@
       "edited": false
     },
     "guides/Blockchain_Explorers.md": {
-      "src": "sha256:f8500932f7778912ab74e8d7922b29bcf615327c8c2f37fa4e9b025665d6fbf5",
-      "src_commit": "4278910bf8dd3f4ccc522204674bebe2839d960b",
+      "src": "sha256:577301ffa61ee5c1e6f85036fdb964769134d204f7835150310376ced733c1a1",
+      "src_commit": "c9913ba0882b6e6420fd5016f24ece80c3e2ac22",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static+gloss-restore+linkrepair",
+      "tool": "gt-static+handfix",
       "edited": false
     },
     "guides/Brave_Wallet_Guide.md": {
@@ -35290,6 +35290,14 @@
       "engine": "gt",
       "mode": "full",
       "tool": "gt-static",
+      "edited": false
+    },
+    "guides/Ledger_Shielded_ZEC.md": {
+      "src": "sha256:f5f05cf9d501d89d1a8c5e02dc36b9de8b055c77c9adf5cfbb5d921454a5c366",
+      "src_commit": "b17ac4673559794b4f8ee0c9d6fb26a076a5a95f",
+      "engine": "gt",
+      "mode": "full",
+      "tool": "gt-static+handfix",
       "edited": false
     }
   },
