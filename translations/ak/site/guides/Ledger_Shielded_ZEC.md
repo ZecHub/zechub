@@ -14,19 +14,19 @@ Wɔ 23 September 2026 Ledger de native shielded ZEC kaa Ledger Wallet Desktop ho
 
 ## Anamɔn biara akwankyerɛ (Ledger Wallet Desktop)
 
-**1.1. Install anaa update Zcash app no**
+**1. Install anaa update Zcash app no**
 - Bue Ledger Wallet, fa bata na bue wo Ledger, na bue **Me Ledger**. Ma kwan ma nkitahodi no nkɔ afiri no so.
 - Hwehwɛ **Zcash** wɔ app catalog no mu, afei klik **Install**, anaa **Update** sɛ wɔahyɛ no dedaw a.
 - Bue Zcash app no wɔ wo Ledger. Screen no kenkan sɛ "Zcash app no ayɛ krado". Scroll nifa kɔ **App info** na hwɛ version no.
 
-**2.1. Fa Zcash akontaabu bi ka ho**
+**2. Fa Zcash akontaabu bi ka ho**
 - Wɔ Ledger Wallet mu no, paw **Fa akontaabu ka ho**. Wɔ **Paw agyapade** mu no, hwehwɛ Zcash na paw **Zcash (ZEC)**, ɛnyɛ token a wɔabɔ ho ban te sɛ Binance-Peg Zcash Token.
 - Sɛ Zcash app no abue wɔ wo Ledger, Ledger Wallet hwehwɛ wo akonta. Tick no wɔ **Paw akontaabu a wopɛ sɛ wode ka ho** ase na klik **Confirm**.
 - Akontaabu krataafa no kyerɛ **Nka a ɛwɔ hɔ**, **Nka a ɛda adi pefee** ne **Private balance**, ne **Enable shielded** button.
 
 ![Zcash account in Ledger Wallet Desktop showing the desktop-only notice, transparent and private balances, and the Enable shielded button](https://raw.githubusercontent.com/ZecHub/zechub/main/site/guides/assets/ledger-zec-01-account-desktop-only.png)
 
-**3.1. Ma private balance no nyɛ adwuma**
+**3. Ma private balance no nyɛ adwuma**
 - Klik **Ma shielded** nyɛ adwuma. **Enable Zcash private balance** mfɛnsere no wɔ anammɔn anan: Awoda, UFVK, Device ne Confirmation.
 - **Awoda:** sɛ wopɛ akontaabu foforo a, fa awoda no sorokɔ sie nnɛ da. Tick "This account received shielded ZEC in the past" nko ara sɛ wunim sɛ ɛyɛɛ saa a, efisɛ scanning fi block 0 betumi agye bere tenten.
 - **UFVK ne Mfiri:** Ledger Wallet bisa wo Ledger sɛ ɔmfa wo Unified Full Viewing Key (UFVK) nkɔ amannɔne. Kenkan screens a ɛwɔ device no so na pene so. Sɛ wohu sɛ "Device connection ayera" a, hwɛ sɛ Zcash app no abue, pene so ntɛm ara na klik **Retry**.
@@ -35,7 +35,7 @@ Wɔ 23 September 2026 Ledger de native shielded ZEC kaa Ledger Wallet Desktop ho
 
 ![Enable Zcash private balance window showing UFVK successfully imported and the Start sync button](https://raw.githubusercontent.com/ZecHub/zechub/main/site/guides/assets/ledger-zec-02-ufvk-imported.png)
 
-**4.1. Gye ZEC na hwɛ sɛ address abien no nyinaa yɛ nokware wɔ wo Ledger**
+**4. Gye ZEC na hwɛ sɛ address abien no nyinaa yɛ nokware wɔ wo Ledger**
 - Klik **Gye** na paw wo Zcash akontaabu. Ledger Wallet kyerɛ **Address ma Zcash 1** (a ɛda adi pefee, ɛfiri aseɛ wɔ t1) ne **Private address ma Zcash 1** (ɛfiri aseɛ wɔ u1). Address ahorow a edi kan no kɔ so yɛ adwuma.
 - Wo Ledger kyerɛ "Verify Zcash addresses", **Private address** wɔ nkratafa abien so, afei **Public Address**. Fa nkyerɛwde biara toto screen no ho ansa na woakyɛ address no mu biara, afei si so dua wɔ afiri no so.
 - Pɛ kokoam address no; fa nea ɛda adi pefee no di dwuma bere a nea ɔde kɔmaa no no mmoa biribi foforo biara nkutoo.
@@ -44,7 +44,7 @@ Wɔ 23 September 2026 Ledger de native shielded ZEC kaa Ledger Wallet Desktop ho
 
 ![Ledger device screens: Verify Zcash addresses, Private address in two pages, then Public Address](https://raw.githubusercontent.com/ZecHub/zechub/main/site/guides/assets/ledger-zec-04-device-verify-addresses.png)
 
-**5.1. Fa ZEC a ɛda adi pefee no kɔ wo private balance mu**
+**5. Fa ZEC a ɛda adi pefee no kɔ wo private balance mu**
 - Klik **Send** so na hwɛ. Wɔ **Self transfer** ase no, paw **Send to private balance**.
 - Hyehyɛ sika bi anaa fa 25%, 50%, 75% anaa **Max** di dwuma. Hwɛ network fee no, afei klik **Review** so.
 - Wɔ wo Ledger, fa anammɔn fa: "Hwɛ asɛm no mu na fa ZEC", "Transfer from public to private address", sika dodow, output address wɔ nkratafa abien mu, sika a wɔbɔ ne bere a etwa to no sorokɔ. Hwɛ sɛ output address no ne wo private address no hyia fi anammɔn 4, afei mia button abien no nyinaa wɔ **Sign transaction** so.

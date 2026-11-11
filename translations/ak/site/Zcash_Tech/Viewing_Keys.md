@@ -15,7 +15,7 @@ Hwɛ safoa ma **akenkan nko ara** kwan kɔ Zcash address anaa akontaabu a wɔab�
 - **Nea ɛyɛ:** adwinnade a wɔde paw-da no adi a ɛwɔ atare a wɔabɔ ho ban no mu. Wɔde bae wɔ [ZIP 310 na ɛwɔ hɔ](https://zips.z.cash/zip-0310), a wɔde kaa protocol no ho wɔ Sapling network upgrade no mu.
 - **Nea ɛma ma:** detection of deposits (`uivk…` incoming keys) anaasɛ in/out visibility a edi mũ ma akontaabu bi (`uview…` nkabom safe a wɔde hwɛ ade nyinaa), ne agyapade Sapling `zxviews…` safe ahorow.
 - **Nea ɛmma:** sɛe tumidi. Biribiara nni hɔ a obi a ɔwɔ safe a ɔde hwɛ ade yɛ a ebetumi atu sika.
-- **Baabi a ɛyɛ adwuma nnɛ:** export/import in [Zallet](https://github.com/zcash/zallet) (v0.1.0-beta.2+, 1999 mu no `z_exportviewingkey` / `z_importviewingkey`) ne watch-only akontaabu a ɛwɔ sika kotoku te sɛ Zkool; hwɛ [Sika kotoku](/using-zcash/wallets) kratafa a ɛfa mprempren mmoa matrix no ho.
+- **Baabi a ɛyɛ adwuma nnɛ:** export/import in [Zallet](https://github.com/zcash/zallet) (v0.1.0-beta.2+, `z_exportviewingkey` / `z_importviewingkey`) ne watch-only akontaabu a ɛwɔ sika kotoku te sɛ Zkool; hwɛ [Sika kotoku](/using-zcash/wallets) kratafa a ɛfa mprempren mmoa matrix no ho.
 - **Mmara a wɔde di dwuma:** pɛ safoa a ɛyɛ teateaa a ɛbua asɛmmisa a wɔrebisa no, na kae sɛ wontumi nkae safe a wɔde ama no — ɛtra ase kyɛ sen sika no nkutoo.
 
 ---

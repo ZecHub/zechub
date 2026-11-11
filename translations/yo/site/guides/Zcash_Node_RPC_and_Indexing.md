@@ -6,9 +6,9 @@
 
 Ojú ìwé yìí jẹ́ ìwé oúnjẹ fún bíbá Zcash tó ń ṣiṣẹ́ lórí JSON-RPC sọ̀rọ̀ àti fún fífi àmì ìtọ́kasí kan so mọ́ àwọn àpò ìpamọ́ àti àwọn olùṣàwárí tí wọ́n lè béèrè. **kì í ṣe** ìtọ́sọ́nà ìfisẹ́lé kejì ni.
 
-Fún bí a ṣe lè mú ìwé ìròyìn náà wá-`zcashd` stack up (Zebra + Zallet, iyan Zaino, awọn ibudo, awọn iwọn didun, bata ipele meji), lo [Ìdìpọ̀ Z3](/zcash-tech/z3-stack) ojú ìwé àti [Ibi ipamọ Z3](https://github.com/ZcashFoundation/z3)Fún àgbékalẹ̀ ìfohùnṣọ̀kan-nọ́ńbà, wo [Àwọn Nódù Kíkún](/zcash-tech/full-nodes) àti [Kún Node Àmì Zebra](/zcash-tech/zebra-full-node).
+Fún bí a ṣe lè mú ìwé ìròyìn náà wá-`zcashd` stack up (Zebra + Zallet, iyan Zaino, awọn ibudo, awọn iwọn didun, bata ipele meji), lo [Ìdìpọ̀ Z3](/zcash-tech/z3-stack) ojú ìwé àti [Ibi ipamọ Z3](https://github.com/ZcashFoundation/z3). Fún àgbékalẹ̀ ìfohùnṣọ̀kan-nọ́ńbà, wo [Àwọn Nódù Kíkún](/zcash-tech/full-nodes) àti [Kún Node Àmì Zebra](/zcash-tech/zebra-full-node).
 
-`zcashd` dé òpin ayé ní ọjọ́ kejìdínlógún oṣù keje ọdún 2026. Iṣẹ́ oníṣẹ́ tuntun yẹ kí ó fojú sí Zebra (tàbí [Zakura](/zcash-tech/zakura-node)) pẹ̀lú àpò owó/àmì ìtọ́kasí, kìí ṣe `zcashd`.
+`zcashd` dé òpin ayé ní ọjọ́ 18 oṣù keje ọdún 2026. Iṣẹ́ oníṣẹ́ tuntun yẹ kí ó fojú sí Zebra (tàbí [Zakura](/zcash-tech/zakura-node)) pẹ̀lú àpò owó/àmì ìtọ́kasí, kìí ṣe `zcashd`.
 
 ---
 

@@ -14,7 +14,7 @@ Pẹ̀lú ìṣòwò Zcash tí ó ṣe kedere, àwọn ìwífún bíi:
 
 a le ṣe akiyesi lori blockchain naa.
 
-Tí o bá dáàbò bo ZEC, owó rẹ yóò wọ inú adágún ìkọ̀kọ̀ kan (bíi Ironwood). Blockchain náà lè fìdí rẹ̀ múlẹ̀ pé ìṣòwò kan wúlò láìsí àwọn àlàyé ìṣòwò ìkọ̀kọ̀ rẹ. Láti ìgbà tí a ti ṣe àtúnṣe NU6.3 ní ọjọ́ kejìdínlọ́gbọ̀n oṣù Keje ọdún 2026, owó tuntun tí a fi ààbò pamọ́ wọ inú adágún Ironwood nítorí pé adágún Orchard àtijọ́ kò gba àwọn ìdókòwò tuntun mọ́ ṣùgbọ́n ó ṣì ń gba àwọn ìyọkúrò lọ́wọ́.
+Tí o bá dáàbò bo ZEC, owó rẹ yóò wọ inú adágún ìkọ̀kọ̀ kan (bíi Ironwood). Blockchain náà lè fìdí rẹ̀ múlẹ̀ pé ìṣòwò kan wúlò láìsí àwọn àlàyé ìṣòwò ìkọ̀kọ̀ rẹ. Láti ìgbà tí a ti ṣe àtúnṣe NU6.3 ní ọjọ́ 28 oṣù Keje ọdún 2026, owó tuntun tí a fi ààbò pamọ́ wọ inú adágún Ironwood nítorí pé adágún Orchard àtijọ́ kò gba àwọn ìdókòwò tuntun mọ́ ṣùgbọ́n ó ṣì ń gba àwọn ìyọkúrò lọ́wọ́.
 
 ### Àwọn Ẹ̀yà Ìṣòwò Tí A Dáàbòbò
 
@@ -460,7 +460,7 @@ Lẹ́yìn náà, ipò náà yí padà pẹ̀lú ìtújáde Zcash Shielded Ledge
 
 Ipele ti o tẹle ni idagbasoke ohun elo tuntun Ledger's Rust-based Zcash. Ni oṣu kẹfa ọdun 2026, Ledger royin pe pinpin UFVK ati iṣelọpọ adirẹsi Orchard Unified ti waye, lakoko ti ibuwọlu iṣowo Orchard ati ClearSign si tun wa labẹ idagbasoke. Ledger tun sọ pe iṣẹ naa yoo tẹsiwaju si ipa ọna Ironwood bi ilana naa ṣe yipada.
 
-Lẹ́yìn náà, Ironwood nílò àwọn àtúnṣe lórí ètò àpò ìpamọ́ Zcash. Zkool fi àtìlẹ́yìn sílẹ̀ fún ìṣíkiri Orchard sí Ironwood bẹ̀rẹ̀ pẹ̀lú ẹ̀yà 6.24.0, ó sì tẹ̀síwájú láti tún ọ̀nà ìṣíkiri àti ìṣòwò ṣe ní àwọn ìtújáde tó tẹ̀lé e. Ledger, lọ́tọ̀ọ̀tọ̀, da PCZT v2 ìfọwọ́sowọ́pọ̀ pọ̀ mọ́ ìforúkọsílẹ̀ tuntun rẹ̀ ní ọjọ́ kẹtàdínlógún oṣù Keje, bó tilẹ̀ jẹ́ pé ìfilọ́lẹ̀ náà kò tí ì parí àtúnyẹ̀wò Ledger's àti ìtújáde Ledger Live ní ọjọ́ ogún oṣù Kẹjọ, ìṣẹ̀lẹ̀ pàtàkì kan tí ó ti wà níbẹ̀ láti ìgbà náà, pẹ̀lú Ledger Wallet Desktop 4.21+ tí ń fúnni ní àtìlẹ́yìn Ironwood ní tààrà.
+Lẹ́yìn náà, Ironwood nílò àwọn àtúnṣe lórí ètò àpò ìpamọ́ Zcash. Zkool fi àtìlẹ́yìn sílẹ̀ fún ìṣíkiri Orchard sí Ironwood bẹ̀rẹ̀ pẹ̀lú ẹ̀yà 6.24.0, ó sì tẹ̀síwájú láti tún ọ̀nà ìṣíkiri àti ìṣòwò ṣe ní àwọn ìtújáde tó tẹ̀lé e. Ledger, lọ́tọ̀ọ̀tọ̀, da PCZT v2 ìfọwọ́sowọ́pọ̀ pọ̀ mọ́ ìforúkọsílẹ̀ tuntun rẹ̀ ní ọjọ́ 27 oṣù Keje, bó tilẹ̀ jẹ́ pé ìfilọ́lẹ̀ náà kò tí ì parí àtúnyẹ̀wò Ledger's àti ìtújáde Ledger Live ní ọjọ́ 20 oṣù Kẹjọ, ìṣẹ̀lẹ̀ pàtàkì kan tí ó ti wà níbẹ̀ láti ìgbà náà, pẹ̀lú Ledger Wallet Desktop 4.21+ tí ń fúnni ní àtìlẹ́yìn Ironwood ní tààrà.
 
 https://forum.zcashcommunity.com/t/a-path-forward-for-ledger-and-zcash/50951/177
 
@@ -475,7 +475,7 @@ Atilẹyin Zcash lori Ledger da lori
 - Pẹpẹ tí a lò láti ṣàkóso rẹ̀ àti,
 - Yálà ìṣòwò náà ṣe kedere tàbí ó ní ààbò.
 
-Ní ọjọ́ kọkànlélógún oṣù keje ọdún 2026 (Ledger's), a ṣe àtìlẹ́yìn fún àpù Zcash Shielded lórí Nano S Plus, Stax, àti Flex, ṣùgbọ́n kò tíì sí lórí Nano X tàbí Nano Gen5.
+Ní ọjọ́ 21 oṣù keje ọdún 2026 (àtúnṣe tó kẹ́yìn Ledger), a ṣe àtìlẹ́yìn fún àpù Zcash Shielded lórí Nano S Plus, Stax, àti Flex, ṣùgbọ́n kò tíì sí lórí Nano X tàbí Nano Gen5.
 
 Nano X àti àwọn àwòṣe mìíràn yàtọ̀ sí Nano S àtilẹ̀wá náà ṣì lè lo àpù Zcash àtijọ́, èyí tí ó ń ṣe àtìlẹ́yìn fún àwọn ìṣòwò tí ó ṣe kedere àti ìnáwó owó tí a fi ààbò pamọ́ sí àwọn àdírẹ́sì tí ó ṣe kedere (deshielding), ṣùgbọ́n kìí ṣe ìfọwọ́sowọ́pọ̀ tí a fi ààbò pamọ́ sí ààbò. Nano S àtilẹ̀wá náà kò ṣe àtìlẹ́yìn fún àpù náà, nítorí pé Ledger ń dín àtìlẹ́yìn fún ẹ̀rọ náà kù àti pé àpù Zcash tuntun rẹ̀ kò sí lórí rẹ̀. Àwọn ẹ̀rọ náà ń so pọ̀ mọ́ Ledger Wallet (tí a mọ̀ sí Ledger Live tẹ́lẹ̀), àpù Ledger's tí ó jẹ́ alábáṣiṣẹpọ̀, èyí tí ó wà lórí kọ̀ǹpútà fún Windows, macOS àti Linux àti lórí fóònù alágbèéká fún iOS àti Android.
 
@@ -623,16 +623,16 @@ Ironwood ní igi ìdúróṣinṣin àkọsílẹ̀ tirẹ̀, ètò ìtúpalẹ�
 
 A ṣe apẹrẹ rẹ ni ọna yii lati:
 
-1. **Iduroṣinṣin ipese.** Ní ọjọ́ kọkàndínlọ́gbọ̀n oṣù karùn-ún ọdún 2026, olùwádìí ààbò Taylor Hornby fi àbùkù ìlera tó lágbára hàn nínú ètò ìdánilójú ìmọ̀ òdo Orchard's, èyí tí ó lè jẹ́ kí a ṣẹ̀dá ZEC èké láìfi àmì ìtọ́kasí sílẹ̀. Nítorí pé ìwádìí ìṣòwò Orchard's jẹ́ ti àdáni, kò sí ẹni tí ó lè fìdí rẹ̀ múlẹ̀ fúnra rẹ̀ pé kò sí ZEC èké tí a ṣẹ̀dá ṣáájú àtúnṣe náà. Fífi dí adágún àtijọ́ àti bíbẹ̀rẹ̀ tuntun ní òdo yanjú ìṣòro náà lọ́nà tí kò fi lè tún Orchard ṣe.
+1. **Iduroṣinṣin ipese.** Ní ọjọ́ 29 oṣù karùn-ún ọdún 2026, olùwádìí ààbò Taylor Hornby fi àbùkù ìlera tó lágbára hàn nínú ètò ìdánilójú ìmọ̀ òdo Orchard's, èyí tí ó lè jẹ́ kí a ṣẹ̀dá ZEC èké láìfi àmì ìtọ́kasí sílẹ̀. Nítorí pé ìwádìí ìṣòwò Orchard's jẹ́ ti àdáni, kò sí ẹni tí ó lè fìdí rẹ̀ múlẹ̀ fúnra rẹ̀ pé kò sí ZEC èké tí a ṣẹ̀dá ṣáájú àtúnṣe náà. Fífi dí adágún àtijọ́ àti bíbẹ̀rẹ̀ tuntun ní òdo yanjú ìṣòro náà lọ́nà tí kò fi lè tún Orchard ṣe.
 2. **Rí i dájú pé a lè gba Quantum padà.** A ṣe Ironwood kí owó rẹ̀ lè kópa nínú ètò ìgbàpadà lọ́jọ́ iwájú tí àwọn àbá ìkọ̀kọ̀ tí ó wà lábẹ́ rẹ̀ bá bàjẹ́.
 3. **Dín ìyípadà ìgbésẹ̀ kù.** Dípò ṣíṣe àgbékalẹ̀ ìlànà tuntun tí a dáàbò bò pátápátá, wọ́n tún lo ìlànà ìṣẹ̀dá tí a ti fìdí rẹ̀ múlẹ̀ Orchard's. Èyí túmọ̀ sí pé kò sí ìdí láti kọ kódì àpò ìṣúra tuntun, ẹ̀rí, àpò ìṣúra, àti àpò ìṣúra láti ìbẹ̀rẹ̀.
 
 ### Àkókò àkókò gbogbogbòò
 
-- Ọjọ́ kọkàndínlọ́gbọ̀n oṣù karùn-ún: Àìlera Orchard ni a tú síta.
-- Oṣù Kẹfà: Àwọn ìṣòwò Orchard ni a dínkù fún ìgbà díẹ̀ nígbà tí àtúnṣe àkọ́kọ́ kan bá ń lọ sí NU6.2. Ní ọjọ́ Kejìlá oṣù Kẹfà, olùgbékalẹ̀ pàtàkì kan fojú sọ́nà ní ọjọ́ Kejìlá oṣù Keje fún àtúnṣe náà; ó máa ń lọ ní ọ̀sẹ̀ kan lẹ́yìn náà. Àníyàn àwùjọ kan dìde pé àwọn onílé Keystone ni yóò kẹ́yìn láti ṣí lọ, olùgbékalẹ̀ pàtàkì kan sì dáhùn pé Keystone yóò ṣètìlẹ́yìn fún Ironwood láti ọjọ́ kìíní, pẹ̀lú firmware tí a fojú sọ́nà fún ní ọjọ́ kẹta oṣù Keje, títí di àkókò tí a ó fi parí ìfọwọ́sowọ́pọ̀ àti àwọn àyípadà API Orchard láti inú Zcash core.
+- ọjọ́ 29 oṣù karùn-ún: Àìlera Orchard ni a tú síta.
+- Oṣù Kẹfà: Àwọn ìṣòwò Orchard ni a dínkù fún ìgbà díẹ̀ nígbà tí àtúnṣe àkọ́kọ́ kan bá ń lọ sí NU6.2. Ní ọjọ́ 12 oṣù Kẹfà, olùgbékalẹ̀ pàtàkì kan fojú sọ́nà ní ọjọ́ 21 oṣù Keje fún àtúnṣe náà; ó máa ń lọ ní ọ̀sẹ̀ kan lẹ́yìn náà. Àníyàn àwùjọ kan dìde pé àwọn onílé Keystone ni yóò kẹ́yìn láti ṣí lọ, olùgbékalẹ̀ pàtàkì kan sì dáhùn pé Keystone yóò ṣètìlẹ́yìn fún Ironwood láti ọjọ́ kìíní, pẹ̀lú firmware tí a fojú sọ́nà fún ní ọjọ́ 3 oṣù Keje, títí di àkókò tí a ó fi parí ìfọwọ́sowọ́pọ̀ àti àwọn àyípadà API Orchard láti inú Zcash core.
 - Ní ìbẹ̀rẹ̀ oṣù Keje: NU6.3 dé testnet; Zebra 6.0.0 ń gbéra ní ọjọ́ kẹwàá oṣù Keje.
-- Ọjọ́ kẹtàdínlógún sí ọjọ́ kejìdínlọ́gbọ̀n oṣù Keje: Iṣẹ́ ìfọwọ́sowọ́pọ̀ Ledger's Ironwood PCZT v2 parapọ̀ di ẹ̀ka ìṣọ̀kan kan. Ironwood (NU6.3) mú kí ọjọ́ kejìdínlọ́gbọ̀n oṣù Keje ṣiṣẹ́ ní block 3,428,143, ó sì fi dí adágún Orchard àtilẹ̀wá lẹ́yìn títì kan tí ó dín iye tí ZEC lè fi Orchard sílẹ̀ ní iye tí a fi sínú rẹ̀ lọ́nà tí ó tọ́, ó sì ṣe àgbékalẹ̀ ọ̀nà ìṣòwò tuntun kan.
+- Ọjọ́ kẹtàdínlógún sí ọjọ́ 28 oṣù Keje: Iṣẹ́ ìfọwọ́sowọ́pọ̀ Ledger's Ironwood PCZT v2 parapọ̀ di ẹ̀ka ìṣọ̀kan kan. Ironwood (NU6.3) mú kí ọjọ́ 28 oṣù Keje ṣiṣẹ́ ní block 3,428,143, ó sì fi dí adágún Orchard àtilẹ̀wá lẹ́yìn títì kan tí ó dín iye tí ZEC lè fi Orchard sílẹ̀ ní iye tí a fi sínú rẹ̀ lọ́nà tí ó tọ́, ó sì ṣe àgbékalẹ̀ ọ̀nà ìṣòwò tuntun kan.
 
 Zebra di node tí a nílò, nítorí pé zcashd kò ṣe àtìlẹ́yìn fún àwọn òfin ìfohùnṣọ̀kan tuntun. Àwọn àdírẹ́sì kò yípadà nítorí pé Ironwood tún lo ètò olùgbà Orchard's, nítorí náà àwọn àpò ìwé ń darí àwọn àdírẹ́sì tí ó wà tẹ́lẹ̀ sínú adágún tuntun láìfọwọ́sí. Ohun tí àwọn àpò ìwé nílò ni iṣẹ́ ìṣíkiri, nítorí pé àwọn olówó Orchard gbọ́dọ̀ kó owó Orchard sínú Ironwood nígbẹ̀yìn gbẹ́yín, àti àwọn àbájáde tuntun tí ó gba Orchard ti dí mọ́lẹ̀ nípa ìfohùnṣọ̀kan pátápátá.
 
@@ -655,7 +655,7 @@ Mímú kí ìṣirò owó adágún náà dára ṣe pàtàkì ní ìṣe, kìí 
 
 ### Ibi tí olùfọwọ́sí kọ̀ọ̀kan dúró sí
 
-**Ledger ṣẹ̀ṣẹ̀ yí gbogbo àwòrán náà padà.** Ní ọjọ́ kẹtàlélógún oṣù kẹsàn-án ọdún 2026, Ledger fi ìrànlọ́wọ́ Zcash tí a fi ààbò ṣe ránṣẹ́ sí inú Ledger Wallet Desktop, kò sí ohun èlò ìbáṣepọ̀ mìíràn mọ́. Kọ́kọ́rọ́ ìnáwó rẹ dúró lórí ẹ̀rọ náà, kọ̀ǹpútà náà ń ṣe ìṣirò ìṣòwò náà, o sì fọwọ́ sí gbogbo ohun tó wà lórí ìbòjú kí ó tó di pé o fọwọ́ sí i. Ó ń ṣètìlẹ́yìn fún Ironwood, kì í ṣe àwọn adágún Orchard tàbí Sapling àtijọ́. Àbùkù náà ni pé àpù "Zcash Shielded" tí Zondax, èyí tí ó nílò àpùrọ́ bíi Zkool láti ṣiṣẹ́, ni wọ́n ń dá dúró. Ledger ń fa àpù àtijọ́ yẹn kúrò ní wíwà ní ọjọ́ karùn-ún oṣù kọkànlá, nítorí náà ẹnikẹ́ni tí ó bá ń lò ó gbọ́dọ̀ gbé owó rẹ̀ lọ kí ó tó di ìgbà náà.
+**Ledger ṣẹ̀ṣẹ̀ yí gbogbo àwòrán náà padà.** Ní ọjọ́ 23 oṣù kẹsàn-án ọdún 2026, Ledger fi ìrànlọ́wọ́ Zcash tí a fi ààbò ṣe ránṣẹ́ sí inú Ledger Wallet Desktop, kò sí ohun èlò ìbáṣepọ̀ mìíràn mọ́. Kọ́kọ́rọ́ ìnáwó rẹ dúró lórí ẹ̀rọ náà, kọ̀ǹpútà náà ń ṣe ìṣirò ìṣòwò náà, o sì fọwọ́ sí gbogbo ohun tó wà lórí ìbòjú kí ó tó di pé o fọwọ́ sí i. Ó ń ṣètìlẹ́yìn fún Ironwood, kì í ṣe àwọn adágún Orchard tàbí Sapling àtijọ́. Àbùkù náà ni pé àpù "Zcash Shielded" tí Zondax, èyí tí ó nílò àpùrọ́ bíi Zkool láti ṣiṣẹ́, ni wọ́n ń dá dúró. Ledger ń fa àpù àtijọ́ yẹn kúrò ní wíwà ní ọjọ́ 5 oṣù kọkànlá, nítorí náà ẹnikẹ́ni tí ó bá ń lò ó gbọ́dọ̀ gbé owó rẹ̀ lọ kí ó tó di ìgbà náà.
 
 **Keystone wà ní ipò tó dára.** Firmware 3.0.2 fi kún àtìlẹ́yìn Ironwood ní oṣù Keje, ìyẹn sì ni ohun tí a nílò lọ́wọ́lọ́wọ́, tí ó dúró ṣinṣin. Àmọ́, irú rẹ̀ tàbí èyí tó ṣẹ̀ṣẹ̀ jáde ni a nílò láti fọwọ́ sí ohunkóhun.
 

@@ -7,7 +7,7 @@
 ## TL;DR
 
 - Zcash ní **àwọn adágún iye 5** lọ́wọ́lọ́wọ́: Sprout (àtijọ́), Sapling, Orchard (ìnáwó nìkan), Ironwood, àti Transparent.
-- **Ironwood** ni adágún ààbò àkọ́kọ́ lọ́wọ́lọ́wọ́, tí a ti gbé kalẹ̀ láti ìgbà tí a ti ṣe àtúnṣe NU6.3 ní ọjọ́ kejìdínlọ́gbọ̀n oṣù Keje ọdún 2026.
+- **Ironwood** ni adágún ààbò àkọ́kọ́ lọ́wọ́lọ́wọ́, tí a ti gbé kalẹ̀ láti ìgbà tí a ti ṣe àtúnṣe NU6.3 ní ọjọ́ 28 oṣù Keje ọdún 2026.
 - **Orchard** ti di **inawo-nikan** bayi: ko si iye tuntun ti o le wọle si i, ati pe awọn owo ti o wa tẹlẹ n lọ si Ironwood.
 - **Sapling** (àdírẹ́sì z tí ó bẹ̀rẹ̀ pẹ̀lú `zs`) ṣì ń tẹ̀síwájú láti gba àtìlẹ́yìn fún gbogbo ènìyàn, ó sì ń tẹ̀síwájú láti rí iye ZEC.
 - **Àdírẹ́sì tí ó ṣe kedere** (t...) kò fúnni ní ìpamọ́ ìṣòwò kankan, wọ́n sì ń ṣiṣẹ́ gẹ́gẹ́ bí Bitcoin.
@@ -46,7 +46,7 @@ Bí Zcash ṣe ń yípadà, a lè ṣe àgbékalẹ̀ àwọn adágún tuntun t�
 
 1. <h3 id="ironwood" class="text-3xl font-bold my-4">Ironwood Pool</h3>
 
-Ironwood ni adágún ààbò àkọ́kọ́ lọ́wọ́lọ́wọ́. Ó ṣiṣẹ́ ní ọjọ́ kejìdínlọ́gbọ̀n oṣù Keje ọdún 2026 ní block 3,428,143 gẹ́gẹ́ bí apá kan nínú àtúnṣe nẹ́tíwọ́ọ̀kì NU6.3, ó sì wà níbi tí ìníyelórí ààbò tuntun wà báyìí.
+Ironwood ni adágún ààbò àkọ́kọ́ lọ́wọ́lọ́wọ́. Ó ṣiṣẹ́ ní ọjọ́ 28 oṣù Keje ọdún 2026 ní block 3,428,143 gẹ́gẹ́ bí apá kan nínú àtúnṣe nẹ́tíwọ́ọ̀kì NU6.3, ó sì wà níbi tí ìníyelórí ààbò tuntun wà báyìí.
 
 Ó wà nítorí pé wọ́n rí àìlera kan nínú ètò ìdánilójú Orchard's ní oṣù karùn-ún ọdún 2026. Kò sí ẹ̀rí pé wọ́n ti lò ó rí, ṣùgbọ́n àbùkù náà túmọ̀ sí pé a kò le fi ẹ̀rí ìdánilójú náà hàn pé ó dára. Dípò kí wọ́n fi àtúnṣe sí ipò wọn, nẹ́tíwọ́ọ̀kì náà ṣẹ̀dá adágún tuntun kan pẹ̀lú àyíká tí a ti ṣàtúnṣe, ó sì gbé iye rẹ̀ kọjá ibi tí a ti ń yí i padà tí ó ka gbogbo owó ní gbangba. Ìṣirò yẹn ni ó ń mú ìdánilójú padà pé a ti fi àtìlẹ́yìn gbogbo rẹ̀ sílẹ̀.
 
@@ -60,15 +60,15 @@ ____
 
 
 ![img2](/content-images/a672e001-6dbc-4e76-ab31-0ed7d7d2ff72-93b5a23e5d.webp)
-Àwòrán 2: Àtẹ àwòrán tó fi adágún Orchard hàn títí di ọjọ́ kọkàndínlọ́gbọ̀n oṣù kẹwàá ọdún 2025, kí Ironwood tó ṣiṣẹ́
+Àwòrán 2: Àtẹ àwòrán tó fi adágún Orchard hàn títí di ọjọ́ 29 oṣù kẹwàá ọdún 2025, kí Ironwood tó ṣiṣẹ́
 
 <br/>
 
-Wọ́n ṣiṣẹ́ Orchard Shielded Pool ní ọjọ́ kọkànlélọ́gbọ̀n oṣù karùn-ún ọdún 2022 gẹ́gẹ́ bí apá kan nínú àtúnṣe nẹ́tíwọ́ọ̀kì NU5. Orchard ṣe àgbékalẹ̀ ìlànà tuntun kan tí ó mú àìní fún ètò tí a gbẹ́kẹ̀lé kúrò, ó sì di adágún ààbò àkọ́kọ́ tí àwọn Unified Addresses (UAs) ń lò.
+Wọ́n ṣiṣẹ́ Orchard Shielded Pool ní ọjọ́ 31 oṣù karùn-ún ọdún 2022 gẹ́gẹ́ bí apá kan nínú àtúnṣe nẹ́tíwọ́ọ̀kì NU5. Orchard ṣe àgbékalẹ̀ ìlànà tuntun kan tí ó mú àìní fún ètò tí a gbẹ́kẹ̀lé kúrò, ó sì di adágún ààbò àkọ́kọ́ tí àwọn Unified Addresses (UAs) ń lò.
 
 Orchard mu ilo lilo, ṣiṣe, ati ikọkọ dara si ni pataki nipa idinku jijo metadata iṣowo ati iṣafihan awoṣe iṣowo ti o rọrun diẹ sii ti o da lori Awọn iṣe dipo awọn igbewọle ati awọn abajade ti a daabobo ibile.
 
-Láti ìgbà tí ìgbéga Ironwood ti ṣiṣẹ́ ní ọjọ́ kejìdínlọ́gbọ̀n oṣù Keje ọdún 2026, **Orchard jẹ́ ìnáwó nìkan**. Kò sí iye tuntun tó lè wọ inú adágún náà. Owó tí wọ́n ti kó síbẹ̀ ṣì lè ná, wọ́n sì ń kó lọ sí Ironwood nípasẹ̀ ìyípo. Àwọn àpò owó ló ń bójú tó èyí fún ọ, bó tilẹ̀ jẹ́ pé ọ̀pọ̀lọ́pọ̀ ènìyàn ló ń fún ọ ní agbára láti ṣàkóso iyàrá náà. Ìgbésẹ̀ kọ̀ọ̀kan láti Orchard fi iye owó rẹ̀ hàn lórí blockchain, nítorí náà bí àpò owó ṣe ń pín sí méjì àti bí ìṣípò náà ṣe ń ṣe pàtàkì fún ìpamọ́.
+Láti ìgbà tí ìgbéga Ironwood ti ṣiṣẹ́ ní ọjọ́ 28 oṣù Keje ọdún 2026, **Orchard jẹ́ ìnáwó nìkan**. Kò sí iye tuntun tó lè wọ inú adágún náà. Owó tí wọ́n ti kó síbẹ̀ ṣì lè ná, wọ́n sì ń kó lọ sí Ironwood nípasẹ̀ ìyípo. Àwọn àpò owó ló ń bójú tó èyí fún ọ, bó tilẹ̀ jẹ́ pé ọ̀pọ̀lọ́pọ̀ ènìyàn ló ń fún ọ ní agbára láti ṣàkóso iyàrá náà. Ìgbésẹ̀ kọ̀ọ̀kan láti Orchard fi iye owó rẹ̀ hàn lórí blockchain, nítorí náà bí àpò owó ṣe ń pín sí méjì àti bí ìṣípò náà ṣe ń ṣe pàtàkì fún ìpamọ́.
 
 Tí o bá ní owó Orchard, wo [Ironwood](/zcash-tech/ironwood) fún ohun tí ìṣíkiri túmọ̀ sí ní ìṣe.
 
@@ -78,11 +78,11 @@ ____
 
 
 ![img3](/content-images/b1c6bb71-9356-45eb-8e4a-19d7cf1790ae-5e3051b082.webp)
-Àwòrán 3: Àtẹ àwòrán tó fi adágún Sapling hàn títí di ọjọ́ kọkàndínlọ́gbọ̀n oṣù kẹwàá ọdún 2025, kí Ironwood tó ṣiṣẹ́
+Àwòrán 3: Àtẹ àwòrán tó fi adágún Sapling hàn títí di ọjọ́ 29 oṣù kẹwàá ọdún 2025, kí Ironwood tó ṣiṣẹ́
 
 <br/>
 
-[Zcash Sapling](https://z.cash/upgrade/sapling) jẹ́ àtúnṣe sí ìlànà Zcash tí a gbé kalẹ̀ ní ọjọ́ kejìdínlọ́gbọ̀n oṣù kẹwàá, ọdún 2018. Ó jẹ́ àtúnṣe pàtàkì ju ti ìṣáájú ti a mọ̀ sí Sprout lọ tí ó ní àwọn ààlà díẹ̀ ní ti ìpamọ́, ìṣeéṣe àti lílo. 
+[Zcash Sapling](https://z.cash/upgrade/sapling) jẹ́ àtúnṣe sí ìlànà Zcash tí a gbé kalẹ̀ ní ọjọ́ 28 oṣù kẹwàá, ọdún 2018. Ó jẹ́ àtúnṣe pàtàkì ju ti ìṣáájú ti a mọ̀ sí Sprout lọ tí ó ní àwọn ààlà díẹ̀ ní ti ìpamọ́, ìṣeéṣe àti lílo. 
 
 Àwọn àtúnṣe díẹ̀ lára wọn ni iṣẹ́ tó dára jù fún àwọn àdírẹ́sì tó ní ààbò, àwọn kọ́kọ́rọ́ ìwòran tó dára jù láti jẹ́ kí àwọn olùlò wo àwọn ìṣòwò tó ń wọlé àti èyí tó ń jáde láìsí pé wọ́n ń fi àwọn kọ́kọ́rọ́ ìkọ̀kọ̀ olùlò hàn àti àwọn kọ́kọ́rọ́ Independent Zero Knowledge fún àpò ìpamọ́ ohun èlò nígbà tí wọ́n bá ń fìmọ̀ sí ìṣòwò náà. 
 
@@ -98,7 +98,7 @@ ____
 
 
 ![img4](/content-images/956eceed-f4d6-4087-99d0-32a770449dda-a3cc45305e.webp)
-Àwòrán 4: Àtẹ àwòrán tó fi adágún Sprout hàn títí di ọjọ́ kọkàndínlọ́gbọ̀n oṣù kẹwàá ọdún 2025, kí Ironwood tó ṣiṣẹ́
+Àwòrán 4: Àtẹ àwòrán tó fi adágún Sprout hàn títí di ọjọ́ 29 oṣù kẹwàá ọdún 2025, kí Ironwood tó ṣiṣẹ́
 
 Sprout ni ilana ikọkọ Zero Knowledge akọkọ ti a ṣe ifilọlẹ laisi aṣẹ. A ṣe ifilọlẹ rẹ ni ọjọ 28 Oṣu Kẹwa, ọdun 2016.
 
@@ -113,7 +113,7 @@ Bí ètò ìṣẹ̀dá Zcash ṣe ń tẹ̀síwájú láti gbòòrò sí i pẹ
 <br/>
 
 ![img5](/content-images/01de2907-b62d-4421-83d7-ea4908faa828-6f74b724ed.webp)
-Àwòrán 5: Àtẹ àwòrán tó fi adágún tó ń tànmọ́lẹ̀ hàn títí di ọjọ́ kọkàndínlọ́gbọ̀n oṣù kẹwàá ọdún 2025, kí Ironwood tó ṣiṣẹ́
+Àwòrán 5: Àtẹ àwòrán tó fi adágún tó ń tànmọ́lẹ̀ hàn títí di ọjọ́ 29 oṣù kẹwàá ọdún 2025, kí Ironwood tó ṣiṣẹ́
 
 <br/>
 
@@ -169,8 +169,8 @@ Wo [Ironwood](/zcash-tech/ironwood) fun igbesoke funrararẹ, ati [Ìyípadà n�
 ## Àṣìṣe Tó Wà Lára Láti Yẹra Fún
 
 - **Fifiranṣẹ lati adirẹsi t si adirẹsi t** — gbogbo eniyan ni gbangba patapata, ko si ikọkọ. Maa daabobo owo ni akọkọ.
-- **Mo gbà pé Orchard ṣì ń gba owó** — ó ti jẹ́ ìnáwó-láti ọjọ́ kejìdínlọ́gbọ̀n oṣù keje ọdún 2026. Iye owó lè lọ, ṣùgbọ́n kò sí ohun tuntun tó ń wọlé
-- **Sapling àti Àdírẹ́sì Ìṣọ̀kan** — Àdírẹ́sì Sapling bẹ̀rẹ̀ pẹ̀lú `zs`Àwọn àdírẹ́sì ìṣọ̀kan bẹ̀rẹ̀ pẹ̀lú `u1` kí o sì kó àwọn olugba púpọ̀ jọ, kí adágún ìsanwó rẹ lè dé orí àwọn olugba tí ó ní àdírẹ́sì náà
+- **Mo gbà pé Orchard ṣì ń gba owó** — ó ti jẹ́ ìnáwó-láti ọjọ́ 28 oṣù keje ọdún 2026. Iye owó lè lọ, ṣùgbọ́n kò sí ohun tuntun tó ń wọlé
+- **Sapling àti Àdírẹ́sì Ìṣọ̀kan** — Àdírẹ́sì Sapling bẹ̀rẹ̀ pẹ̀lú `zs`. Àwọn àdírẹ́sì ìṣọ̀kan bẹ̀rẹ̀ pẹ̀lú `u1` kí o sì kó àwọn olugba púpọ̀ jọ, kí adágún ìsanwó rẹ lè dé orí àwọn olugba tí ó ní àdírẹ́sì náà
 - **Fi owó sílẹ̀ nínú adágún Sprout** — Wọ́n ti pa Sprout run fún ọ̀pọ̀ ọdún; gbé àwọn owó wọ̀nyẹn jáde
 - **Mo n reti pe iṣipopada yoo ma han patapata** — iye ti o kọja tile naa jẹ ti gbogbo eniyan, botilẹjẹpe oluranṣẹ ati olugba ko ṣe bẹẹ
 - **Bí a bá gbà pé t → z (àbò) jẹ́ àdáni pátápátá** — ìṣe ààbò fúnra rẹ̀ hàn lórí ẹ̀wọ̀n; àwọn ohun tí ó wà nínú rẹ̀ kò hàn gbangba

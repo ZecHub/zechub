@@ -50,7 +50,7 @@ Gbogbo ohun tí a fi ààbò pamọ́ nínú ìṣòwò kan ní àkọsílẹ̀ 
 
 > **Ìtàn. Àfihàn yìí kò ṣiṣẹ́ mọ́ bí a ṣe kọ ọ́.**
 >
-> Àfihàn tó wà ní ìsàlẹ̀ yìí ń lo zcashd, àti pé ó jẹ́ [ìwé àfọwọ́kọ gbígbà](https://github.com/ZecHub/zechub/blob/main/site/tutorials/ZcashMagicWormhole/receiveOwlsWormhole.sh) ń ka àwọn àkọsílẹ̀ láti inú `zcash-cli`zcashd dé ìdádúró End-of-Support rẹ̀ láìfọwọ́sí ní ọjọ́ kejìdínlógún oṣù Keje ọdún 2026, kí ìkọ̀wé náà má baà dé ibi tí ó ń ṣiṣẹ́, a kò sì tíì gbé e síta.
+> Àfihàn tó wà ní ìsàlẹ̀ yìí ń lo zcashd, àti pé ó jẹ́ [ìwé àfọwọ́kọ gbígbà](https://github.com/ZecHub/zechub/blob/main/site/tutorials/ZcashMagicWormhole/receiveOwlsWormhole.sh) ń ka àwọn àkọsílẹ̀ láti inú `zcash-cli`. zcashd dé ìdádúró End-of-Support rẹ̀ láìfọwọ́sí ní ọjọ́ 18 oṣù Keje ọdún 2026, kí ìkọ̀wé náà má baà dé ibi tí ó ń ṣiṣẹ́, a kò sì tíì gbé e síta.
 >
 > Kíkà àwọn àkọsílẹ̀ tí a dáàbò bo láti ìlà àṣẹ ṣì ń ṣiṣẹ́ lórí Zallet: `zallet rpc z_listunspent` padà gbogbo àkọsílẹ̀ ààbò tí a gbà pẹ̀lú irú kan náà `memoStr` tẹ ìwé àkọsílẹ̀ náà. Wo [Ìtọ́sọ́nà Ìtọ́kasí Kíákíá Zallet](/using-zcash/zallet-quick-reference-guide) fún àṣẹ, àti [ìtọ́sọ́nà ìrìnàjò sí Zebra àti Zallet](/guides/migration-guide-zcashd-to-zebrad-zallet) láti gbé nódù kan kúrò lórí zcashd. Zallet ṣì wà ní beta.
 >

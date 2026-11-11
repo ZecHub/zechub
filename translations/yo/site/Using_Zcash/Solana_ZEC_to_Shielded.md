@@ -68,7 +68,7 @@ Fi àpò owó náà sínú àpò owó náà láti inú ìjápọ̀ lórí káàd
 | `u1` | Àdírẹ́sì Ìṣọ̀kan | Kò sí ohunkóhun nípa rẹ, ṣùgbọ́n nígbà tí ìsanwó bá dé sínú adágún ààbò kan nìkan |
 | `t1` | Àdírẹ́sì tí ó ṣe kedere | Àdírẹ́sì rẹ àti iye owó náà, títí láé, bíi lórí Solana |
 
-Lo a `u1` pé àwọn àmì àpò rẹ jẹ́ ààbò `u1` jẹ́ àkójọ àwọn olùgbà, àwọn àpò owó kan sì fi olùgbà tí ó hàn gbangba sí i lẹ́gbẹ̀ẹ́ èyí tí a dáàbò bò. Olùránṣẹ́ tí ó lè san àdírẹ́sì tí ó hàn gbangba nìkan ni yóò lo èyí náà, ìsanwó rẹ yóò sì hàn gbangba bí ó tilẹ̀ jẹ́ pé o fi `u1`Àdírẹ́sì àpò ìdánwò wa kò ní olùgbà tí ó hàn gbangba, nítorí náà èyí kò lè ṣẹlẹ̀. [Àwọn adágún adágún tí a dáàbò bò](/using-zcash/shielded-pools) bo awọn olugba ni alaye diẹ sii. Awọn apamọwọ kan fihan tuntun kan `u1` Nígbàkúgbà tí o bá ṣí Gba; ìyẹn jẹ́ déédé, gbogbo wọn sì jẹ́ ti rẹ. Àwòrán gbígbà àti pápá olùgbà near.com lórí ojú ìwé yìí lo ọ̀nà ọ̀tọ̀ọ̀tọ̀ `u1` àwọn ìṣáájú fún ìdí yẹn.
+Lo a `u1` pé àwọn àmì àpò rẹ jẹ́ ààbò `u1` jẹ́ àkójọ àwọn olùgbà, àwọn àpò owó kan sì fi olùgbà tí ó hàn gbangba sí i lẹ́gbẹ̀ẹ́ èyí tí a dáàbò bò. Olùránṣẹ́ tí ó lè san àdírẹ́sì tí ó hàn gbangba nìkan ni yóò lo èyí náà, ìsanwó rẹ yóò sì hàn gbangba bí ó tilẹ̀ jẹ́ pé o fi `u1` Àdírẹ́sì àpò ìdánwò wa kò ní olùgbà tí ó hàn gbangba, nítorí náà èyí kò lè ṣẹlẹ̀. [Àwọn adágún adágún tí a dáàbò bò](/using-zcash/shielded-pools) bo awọn olugba ni alaye diẹ sii. Awọn apamọwọ kan fihan tuntun kan `u1` Nígbàkúgbà tí o bá ṣí Gba; ìyẹn jẹ́ déédé, gbogbo wọn sì jẹ́ ti rẹ. Àwòrán gbígbà àti pápá olùgbà near.com lórí ojú ìwé yìí lo ọ̀nà ọ̀tọ̀ọ̀tọ̀ `u1` àwọn ìṣáájú fún ìdí yẹn.
 
 A lo ZODL fún ìdánwò wa nítorí pé àpò owó tí a ṣètò ni. Àwọn àpò owó tí àkójọ ìwé àmì **Ironwood: Ready** nìkan ló lè gba iye tuntun tí a dáàbò bò.
 
@@ -185,7 +185,7 @@ A kò fi ránṣẹ́ sí ọ̀kan, ṣùgbọ́n àbájáde rẹ̀ ṣeé sọt
 
 Àwọn tó ṣẹ̀ṣẹ̀ di ẹni tí wọ́n ń ta ọjà ni wọ́n máa ń fojú sí. Ó fẹ́rẹ̀ẹ́ jẹ́ pé gbogbo ẹ̀tàn tí o máa rí ló jẹ́ ọ̀kan lára àwọn wọ̀nyí:
 
-- **Irú àdírẹ́sì tí kò tọ́.** Àdírẹ́sì Zcash bẹ̀rẹ̀ pẹ̀lú `u1`, `t1`, `zs` or `tex1`Àdírẹ́sì Solana kò ní èyíkéyìí nínú àwọn àmì ìṣáájú wọ̀nyẹn. Má ṣe fi ZEC ìbílẹ̀ ránṣẹ́ sí àdírẹ́sì Solana, má sì ṣe fi àmì Solana ránṣẹ́ sí àdírẹ́sì Zcash.
+- **Irú àdírẹ́sì tí kò tọ́.** Àdírẹ́sì Zcash bẹ̀rẹ̀ pẹ̀lú `u1`, `t1`, `zs` or `tex1`. Àdírẹ́sì Solana kò ní èyíkéyìí nínú àwọn àmì ìṣáájú wọ̀nyẹn. Má ṣe fi ZEC ìbílẹ̀ ránṣẹ́ sí àdírẹ́sì Solana, má sì ṣe fi àmì Solana ránṣẹ́ sí àdírẹ́sì Zcash.
 - **Awọn iṣẹ ti o han gbangba nikan.** Diẹ ninu awọn afárá, awọn aaye iyipada ati awọn paṣipaarọ le firanṣẹ si nikan `t1` Àwọn àdírẹ́sì. Èyí ṣeé ṣe tí o bá dáàbò bo ZEC ní kété tí ó bá dé. Má ṣe fi sílẹ̀ níbẹ̀.
 - **Àwọn àpò ìfowópamọ́ èké.** Fi sori ẹrọ láti inú ìjápọ̀ lórí ẹ̀rọ náà nìkan [àkójọ àpò owó](/wallets) káàdì tàbí àkójọ àwọn ohun èlò ìṣàfilọ́lẹ̀ tí ó tọ́ka sí. Àwọn ohun èlò ìpamọ́ owó ìpamọ́ èké máa ń wọ inú àwọn ohun èlò ìṣàfilọ́lẹ̀, wọ́n sì máa ń dà bí ohun gidi gan-an.
 - **Àpótí ìfọ́mọ́ra gbólóhùn irúgbìn.** Kò sí àpò owó, afárá, ojú òpó ìyípadà, aṣojú ìrànlọ́wọ́, olùdarí tàbí airdrop tí ó nílò gbólóhùn irúgbìn rẹ. Wíwọlé sí ìránṣẹ́ kan kò níí ṣe pẹ̀lú títẹ̀ ẹ́. Ẹnikẹ́ni tí ó bá béèrè fún un ń gbìyànjú láti jí nǹkan lọ́wọ́ rẹ. [Gbigba awọn owo pada](/using-zcash/recovering-funds) bo abala “a ó gba àpò owó rẹ padà” ti ìtànjẹ yìí.
@@ -198,7 +198,7 @@ A kò fi ránṣẹ́ sí ọ̀kan, ṣùgbọ́n àbájáde rẹ̀ ṣeé sọt
 ## Àwọn Àṣìṣe Tó Wọ́pọ̀
 
 - **Lílo bọ́tìnì Swap Phantom's** dípò ìsanwó ìdókòwò. O ti di àmì náà mú — pààrọ̀ kan máa ń pààrọ̀ ZEC fún àmì mìíràn, kò sì ní jẹ́ kí o sún mọ́ ZEC.
-- **Lílo ohun kan `t1` àdírẹ́sì**, tàbí a `u1` tí ó ń fi olugba tí ó hàn gbangba pamọ́, nígbà tí àpò rẹ bá ní ààbò nìkan `u1`Idókòwò náà máa ń dé sí gbogbo ènìyàn, ó sì máa ń so ó pọ̀ mọ́ àpò owó rẹ títí láé.
+- **Lílo ohun kan `t1` àdírẹ́sì**, tàbí a `u1` tí ó ń fi olugba tí ó hàn gbangba pamọ́, nígbà tí àpò rẹ bá ní ààbò nìkan `u1` Idókòwò náà máa ń dé sí gbogbo ènìyàn, ó sì máa ń so ó pọ̀ mọ́ àpò owó rẹ títí láé.
 - **Mo gbà pé owó ti di** nígbà tí ojú ìwé yíyọ owó ti solswap fi hàn pé "–". Ìwọ̀n tó kù náà tẹ̀lé kọ́kọ́rọ́ Phantom rẹ, kìí ṣe ojú òpó wẹ́ẹ̀bù náà — parí yíyọ owó náà lórí near.com.
 - **Wíwọlé sí ìránṣẹ́ láìṣàyẹ̀wò rẹ̀.** Ojú òpó wẹ́ẹ̀bù tó jọra lè sọ ìwọ́n NEAR Intents rẹ di òfo pẹ̀lú àmì kan ṣoṣo. Ojú òpó wẹ́ẹ̀bù náà gbọ́dọ̀ jẹ́ `near.com` àti pé ìránṣẹ́ náà gbọ́dọ̀ ní `"verifying_contract": "intents.near"`.
 - **Ìdàrúdàpọ̀ àwọn àmì "ZEC" méjì.** Àmì Solana àti Zcash ZEC ìbílẹ̀ ní orúkọ kan ṣùgbọ́n kìí ṣe nẹ́tíwọ́ọ̀kì — fífiránṣẹ́ sí ẹ̀wọ̀n kejì pàdánù rẹ̀.

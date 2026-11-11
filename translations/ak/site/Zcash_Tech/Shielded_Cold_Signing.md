@@ -48,7 +48,7 @@ Safe yɛ ade titiriw wɔ abusuabɔ a ɛda ɔhokafo sika kotoku ne hardware sika 
 
 ### Nneɛma titiriw a wɔde di dwuma wɔ ɔkwan a ɛkɔ soro so
 
-**1.1. Sika a wɔsɛe no key**
+**1. Sika a wɔsɛe no key**
 
 Eyi ne safe a ɛfa ahobammɔ ho sen biara. Ɛma cryptographic tumi a ɛma kwan ma wɔsɛe sika wɔ ZEC.
 
@@ -65,7 +65,7 @@ Saa nhyehyeɛ mu mpaapaemu yi ma cryptographic fapem a ɛyɛ mmara kwan so ma ha
 
 Key derivation yɛ ɔkwan biako so katee. Eyi kyerɛ sɛ wontumi nsakra safe a wɔde hwɛ ade no mfa nsan nkyekye tumi a wɔde di dwuma wɔ sika a wɔsɛe no mu. Cryptographic a wontumi nsakra no ma Unified Full Viewing Key (UFVK) a wɔde kɔ amannɔne no yɛ ahobammɔ efisɛ ɛma wotumi hu sika kotoku no koraa a ɛnda ahintasɛm a ɛfa sika a wɔsɛe no ho adi wɔ mfiri so.
 
-**2.1. Nsafoa a wɔhwɛ**
+**2. Nsafoa a wɔhwɛ**
 
 Zcash tetew tumi a wɔde hu dwumadi a wɔabɔ ho ban no fi tumi a wɔde di dwuma no ho. Safoa a wɔde hwɛ nneɛma ma sika kotoku anaa obi foforo a wɔama no tumi hwɛ nsɛm a ɛfa nnwuma a wɔabɔ ho ban ho a ɛmma tumi sɛ wɔmfa sika nni dwuma.
 
@@ -379,7 +379,7 @@ Ledger's signer betumi de FVK/UFVK no akɔ amannɔne bere a ɔde ne ho reyɛ at�
 
 ### Dɛn na ɛno kyerɛ wɔ nneyɛe mu?
 
-Fa no sɛ wo Ledger kura ZEC.
+Fa no sɛ wo Ledger kura ZEC 10.
 
 Ɔhokafoɔ sika kotokuo no tumi nya UFVK na ɛno nti ɛkyerɛ: "Saa sika kotokuo yi anya 10 ZEC." Etumi scan na ɛkyerɛ nnwuma ne sika a aka.
 

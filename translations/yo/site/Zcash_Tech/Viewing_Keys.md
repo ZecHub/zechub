@@ -102,7 +102,7 @@ Tí a bá fi àdírẹ́sì Sapling sílẹ̀, a ó máa rí kọ́kọ́rọ́ 
 zallet rpc z_importviewingkey '"<zxviews… key>"' '"whenkeyisnew"' 0
 ```
 
-Àríyànjiyàn kejì ni ìlànà àtúnyẹ̀wò: `"whenkeyisnew"` (àìyípadà), `"yes"` or `"no"`Ẹkẹta ni gíga bulọọki lati tun ṣe ayẹwo lati. Zallet gbe bọtini naa wọle gẹgẹbi akọọlẹ wiwo-nikan o si tọpa awọn iṣowo ti nwọle ati ti njade fun awọn adirẹsi rẹ laisi aṣẹ inawo.
+Àríyànjiyàn kejì ni ìlànà àtúnyẹ̀wò: `"whenkeyisnew"` (àìyípadà), `"yes"` or `"no"`. Ẹkẹta ni gíga bulọọki lati tun ṣe ayẹwo lati. Zallet gbe bọtini naa wọle gẹgẹbi akọọlẹ wiwo-nikan o si tọpa awọn iṣowo ti nwọle ati ti njade fun awọn adirẹsi rẹ laisi aṣẹ inawo.
 
 **Zallet gbé àwọn kọ́kọ́rọ́ ìwòran gígùn Sapling wọlé nìkan.** Kò ní gbé wọlé `uview…` Kọ́kọ́rọ́ ìwòye pípé, bó tilẹ̀ jẹ́ pé ó lè kó ọ̀kan jáde. Láti fi ààyè ìkawọ́lé sí àkọọ́lẹ̀ àpapọ̀ kan, kó UFVK jáde láti Zallet kí o sì kó o wọlé sínú àpò tí ó gba àwọn kọ́kọ́rọ́ àpapọ̀, bíi Zkool.
 
@@ -112,7 +112,7 @@ Láti yí kọ́kọ́rọ́ tí a kó wọlé padà sí fáìlì ìtàn ìṣò
 
 Tí o bá tẹ̀lé àtúnṣe àtijọ́ ti ojú ìwé yìí, tàbí ìtumọ̀ rẹ̀, ọ̀nà mẹ́ta kò ní ṣiṣẹ́ mọ́.
 
-- **`zcash-cli z_exportviewingkey` àti `z_importviewingkey`.** zcashd dé ìdádúró ìdúró-ìdúró-ìdúró rẹ̀ ní ọjọ́ kejìdínlógún oṣù keje ọdún 2026, kò sì ṣiṣẹ́ mọ́. Àwọn ọ̀nà tí a dárúkọ Zallet's ni a fi ń rọ́pò rẹ̀; wo [itọsọna iṣilọ](/guides/migration-guide-zcashd-to-zebrad-zallet).
+- **`zcash-cli z_exportviewingkey` àti `z_importviewingkey`.** zcashd dé ìdádúró ìdúró-ìdúró-ìdúró rẹ̀ ní ọjọ́ 18 oṣù keje ọdún 2026, kò sì ṣiṣẹ́ mọ́. Àwọn ọ̀nà tí a dárúkọ Zallet's ni a fi ń rọ́pò rẹ̀; wo [itọsọna iṣilọ](/guides/migration-guide-zcashd-to-zebrad-zallet).
 - **Ìlànà Ywallet.** Ojú ìwé àwọn Wallets ni Ywallet **Ironwood: Kò Ṣetán**, nítorí náà kì í ṣe àpò owó láti tọ́ka sí àwọn ènìyàn fún àwọn kọ́kọ́rọ́ ìwòran Ironwood-era. Zkool, láti ọ̀dọ̀ olùgbékalẹ̀ kan náà, gba irú àwọn kọ́kọ́rọ́ kan náà, a sì fi àmì náà hàn án.
 - **zcashblockexplorer.com/vk.** Iṣẹ́ náà dá HTTP 503 padà pẹ̀lú ìwé ẹ̀rí tí kò tọ́, a sì ti fi sílẹ̀ dípò kí a yípadà. Lílo kọ́kọ́rọ́ ìwòran sínú ojú òpó wẹ́ẹ̀bù kan fi gbogbo ìtàn ìṣòwò rẹ fún ẹnikẹ́ni tí ó bá ń lo ojú òpó wẹ́ẹ̀bù náà, èyí tí ó jẹ́ èyí tí ó lágbára jùlọ nínú àwọn àṣàyàn mẹ́ta lórí ojú ìwé àtijọ́. Gbé kọ́kọ́rọ́ náà sínú àpò owó tí o ń lò dípò rẹ̀.
 
@@ -162,7 +162,7 @@ Nítorí pé [ZIP 318](https://zips.z.cash/zip-0318) ìṣíkiri jẹ́ ìtòl�
 | "Kọ́kọ́rọ́ wíwo kan lè ná owó náà tí ó bá ń jó." | Kò lè ṣe bẹ́ẹ̀. Wíwo àwọn kọ́kọ́rọ́ kò ní agbára láti náwó; ohun tó burú jùlọ tí ìjádelọ bá ṣe ni láti tú ìtàn payá. |
 | "Mo le fagilee bọtini wiwo nigbamii." | O kò le ṣe bẹ́ẹ̀. Kọ́kọ́rọ́ tí a fi fúnni yóò ṣiṣẹ́ títí tí owó náà yóò fi lọ sí àkọ́ọ́lù tí kọ́kọ́rọ́ ẹni kejì kò ní. |
 | "Gbígbé UIVK jáde fún àdírẹ́sì kan ṣoṣo fi àdírẹ́sì yẹn hàn." | A máa ń lo àkọọ́lẹ̀ láti wo àwọn kọ́kọ́rọ́ tó wà níbẹ̀. UIVK máa ń fi iṣẹ́ tó ń wọlé hàn fún gbogbo adágún tó wà nínú àkọọ́lẹ̀ náà. |
-| "`zcash-cli z_exportviewingkey` ó ṣì ń ṣiṣẹ́.” | Nọ́mbà zcashd dé òpin ìdúró ìtìlẹ́yìn rẹ̀ ní ọjọ́ kejìdínlógún oṣù keje ọdún 2026; lo Zallet's `z_exportviewingkey` / `z_importviewingkey` dípò bẹ́ẹ̀. |
+| "`zcash-cli z_exportviewingkey` ó ṣì ń ṣiṣẹ́.” | Nọ́mbà zcashd dé òpin ìdúró ìtìlẹ́yìn rẹ̀ ní ọjọ́ 18 oṣù keje ọdún 2026; lo Zallet's `z_exportviewingkey` / `z_importviewingkey` dípò bẹ́ẹ̀. |
 | "Lílo kọ́kọ́rọ́ ìwojú sínú ohun èlò ìkànnì ayélujára jẹ́ ààbò nítorí pé ó jẹ́ kíkà-nìkan." | Kíkà-nìkan ṣì túmọ̀ sí wípé gbogbo ìtàn ìṣòwò rẹ fún àkọọ́lẹ̀ yẹn ni a fi lé ẹnikẹ́ni tó bá ń ṣiṣẹ́ ojú òpó wẹ́ẹ̀bù náà lọ́wọ́. Gbé kọ́kọ́rọ́ náà wọlé sínú àpò owó tí o ń lò. |
 | "Zallet le gbe eyikeyi bọtini wiwo wọle Zallet le gbe jade." | Rárá. Zallet kó àwọn kọ́kọ́rọ́ ìwòran Sapling wọlé nìkan; `uview…` Àwọn kọ́kọ́rọ́ gbọ́dọ̀ wọ inú àwọn àpò tí ó gba àwọn kọ́kọ́rọ́ ìṣọ̀kan, bíi Zkool. |
 

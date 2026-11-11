@@ -6,7 +6,7 @@ tí ó lè fúnni ní owó. Grayscale jẹ́ olùṣàkóso dúkìá olómìnira
 ZEC wà ní ọjà gbangba bíi ti ẹnikẹ́ni mìíràn.
 
 Iyatọ yẹn ni ohun ti ko tọ julọ nipa ZCSH, ati pe o wa ni ibiti o ti jẹ pe iyatọ yẹn jẹ ohun ti ko tọ julọ nipa ZCSH, ati pe o wa ni ibiti o ti wa
-Ojú ìwé yìí bẹ̀rẹ̀. Ní ọjọ́ kẹẹ̀ẹ́dọ́gbọ̀n oṣù kẹjọ ọdún 2026, owó náà bẹ̀rẹ̀ sí í ṣòwò lórí NYSE Arca gẹ́gẹ́ bí
+Ojú ìwé yìí bẹ̀rẹ̀. Ní ọjọ́ 25 oṣù kẹjọ ọdún 2026, owó náà bẹ̀rẹ̀ sí í ṣòwò lórí NYSE Arca gẹ́gẹ́ bí
 * Zcash ETF*, àkọ́kọ́ ní Amẹ́ríkà tí ó rí ọjà tí wọ́n ń tà Zcash, ó sì jẹ́
 nísinsìnyí, ọ̀kan lára àwọn olùgbéjà ńlá ti ZEC tí ó wà.
 
@@ -113,7 +113,7 @@ kìí ṣe àmì àwọn irú àdírẹ́sì — a sì sọ ọ́ níbí pẹ̀l
 
 ## Elo ni ZEC ṣe alabapin
 
-Ní àkójọ ní ọjọ́ kẹẹ̀ẹ́dọ́gbọ̀n oṣù kẹjọ ọdún 2026, owó náà ní nǹkan bí **387,000 ZEC**, pẹ̀lú
+Ní àkójọ ní ọjọ́ 25 oṣù kẹjọ ọdún 2026, owó náà ní nǹkan bí **387,000 ZEC**, pẹ̀lú
 ní nǹkan bí **$313 mílíọ̀nù** lábẹ́ ìṣàkóso.
 
 Fún ìwòran gígùn: ní ọjọ́ 30 oṣù kẹsàn-án ọdún 2025, àwọn ìfisílẹ̀ náà ni Trust gbé kalẹ̀
@@ -128,8 +128,8 @@ Gbogbo rẹ̀ jẹ́ àkọ́kọ́, gbogbo rẹ̀ wà lórí EDGAR lábẹ́ CI
 
 - [Grayscale Zcash Trust (ZEC) — Àtòjọ ìforúkọsílẹ̀ EDGAR](https://www.sec.gov/edgar/browse/?CIK=1720265&owner=exclude)
 - [Àkọsílẹ̀ ìforúkọsílẹ̀ Fọ́ọ̀mù S-3, Oṣù kọkànlá ọdún 2025](https://www.sec.gov/Archives/edgar/data/1720265/000119312525298561/zcsh-20251126.htm) — ipa ti ohun-ini naa, awọn ọna ṣiṣe ẹda ati irapada, Owo Onigbowo, ati ipin ogorun ti ZEC ti n kaakiri
-- [Fọ́ọ̀mù 10-K fún ọdún tó parí ní ọjọ́ kọkànlélọ́gbọ̀n oṣù Kejìlá ọdún 2024](https://www.sec.gov/Archives/edgar/data/1720265/000095017025035469/zcsh-20241231.htm)
-- [ETF Zcash bẹ̀rẹ̀ sí í ṣòwò lórí NYSE Arca, ọjọ́ kẹẹ̀ẹ́dọ́gbọ̀n oṣù kẹjọ ọdún 2026](https://www.globenewswire.com/news-release/2026/8/25/3350404/0/en/the-zcash-etf-ticker-zcsh-built-by-grayscale-begins-trading-on-nyse-arca-expanding-investor-access-to-the-leading-privacy-focused-digital-currency.html)
+- [Fọ́ọ̀mù 10-K fún ọdún tó parí ní ọjọ́ 31 oṣù Kejìlá ọdún 2024](https://www.sec.gov/Archives/edgar/data/1720265/000095017025035469/zcsh-20241231.htm)
+- [ETF Zcash bẹ̀rẹ̀ sí í ṣòwò lórí NYSE Arca, ọjọ́ 25 oṣù kẹjọ ọdún 2026](https://www.globenewswire.com/news-release/2026/8/25/3350404/0/en/the-zcash-etf-ticker-zcsh-built-by-grayscale-begins-trading-on-nyse-arca-expanding-investor-access-to-the-leading-privacy-focused-digital-currency.html)
 - [Ojú ìwé owó ìfowópamọ́ Grayscale Zcash Trust](https://www.grayscale.com/funds/grayscale-zcash-trust) - Awọn ọjọ ibẹrẹ ati ifihan lọwọlọwọ
 - [Owó ìpamọ́ àkọ́kọ́ ETF: nínú ìforúkọsílẹ̀ Zcash Grayscale's](https://crypto.news/the-first-privacy-coin-etf-inside-grayscales-zcash-filing/) — orísun kejì; ọ̀kan ṣoṣo tí a rí tí ó sọ pé a gbé ZEC ti Trust náà sí àdírẹ́sì tí ó ṣe kedere
 

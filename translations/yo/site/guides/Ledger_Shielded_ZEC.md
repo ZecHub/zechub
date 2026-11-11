@@ -1,6 +1,6 @@
 # Itọsọna Olumulo ZEC ti a fi Ledger ṣe aabo
 
-Ní ọjọ́ kẹtàlélógún oṣù kẹsàn-án ọdún 2026, Ledger fi ZEC tí a fi ààbò ìbílẹ̀ ṣe kún Ledger Wallet Desktop. Àkọọ́lẹ̀ Zcash kan báyìí ní ìwọ́ntúnwọ̀nsì tí ó ṣe kedere àti ìwọ́ntúnwọ̀nsì ìkọ̀kọ̀ nínú adágún Ironwood Zcash's. Àwọn kọ́kọ́rọ́ ìkọ̀kọ̀ rẹ dúró lórí Ledger, gbogbo ìṣòwò ni a sì ń ṣe àtúnyẹ̀wò àti ìfọwọ́sowọ́pọ̀ lórí ẹ̀rọ náà.
+Ní ọjọ́ 23 oṣù kẹsàn-án ọdún 2026, Ledger fi ZEC tí a fi ààbò ìbílẹ̀ ṣe kún Ledger Wallet Desktop. Àkọọ́lẹ̀ Zcash kan báyìí ní ìwọ́ntúnwọ̀nsì tí ó ṣe kedere àti ìwọ́ntúnwọ̀nsì ìkọ̀kọ̀ nínú adágún Ironwood Zcash's. Àwọn kọ́kọ́rọ́ ìkọ̀kọ̀ rẹ dúró lórí Ledger, gbogbo ìṣòwò ni a sì ń ṣe àtúnyẹ̀wò àti ìfọwọ́sowọ́pọ̀ lórí ẹ̀rọ náà.
 
 **Ojú-iṣẹ́ kọ̀ǹpútà nìkan.** Ìkéde Ledger's sọ pé ZEC tí a dáàbò bo “wà lórí Ledger Wallet Desktop nìkan. Àtìlẹ́yìn fóònù kò sí ní àkókò yìí, ṣùgbọ́n ó ń bọ̀ láìpẹ́.” Àpù kọ̀ǹpútà náà fi àkíyèsí kan náà hàn. A ṣàyẹ̀wò rẹ̀ ní ọjọ́ 15 Oṣù Kẹ̀wàá 2026.
 

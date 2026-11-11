@@ -84,7 +84,7 @@ Tẹ̀lé àwọn ìtọ́ni wọ̀nyí láti darí àpò Zcash kan gba Tor. Ṣ
 # tor = ["arti-client", "tor-rtcompat"]
 ```
 
-Ìwé àkọsílẹ̀ àpótí náà sọ ohun kan náà ní kedere: *"Tor mọ́ títí di ìgbà tí `arti-client`ìgbẹ́kẹ̀lé `x25519-dalek v1.2.0` ti ṣe àtúnṣe."* `connect_isolated_tor` A ṣe àkíyèsí iṣẹ́ náà pẹ̀lú rẹ̀. Nítorí náà, kò sí ọ̀nà tí a lè gbà láti lo nódù Zcash lórí Tor lónìí.
+Ìwé àkọsílẹ̀ àpótí náà sọ ohun kan náà ní kedere: *"Tor mọ́ títí di ìgbà tí `arti-client` ìgbẹ́kẹ̀lé `x25519-dalek v1.2.0` ti ṣe àtúnṣe."* `connect_isolated_tor` A ṣe àkíyèsí iṣẹ́ náà pẹ̀lú rẹ̀. Nítorí náà, kò sí ọ̀nà tí a lè gbà láti lo nódù Zcash lórí Tor lónìí.
 
 Tí o bá nílò àìdánimọ̀ ìpele node nísinsìnyí, ọ̀nà tó ṣeé ṣe ni láti fi gbogbo ẹ̀rọ náà sí ìpele Tor tàbí VPN ní ìpele ìṣiṣẹ́ dípò ṣíṣe àtúnṣe node náà fúnra rẹ̀. Èyí ń dáàbò bo ibi tí nẹ́tíwọ́ọ̀kì rẹ wà láìgbára lé àwọn ẹ̀yà node tí a kò kọ́.
 

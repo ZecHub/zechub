@@ -7,8 +7,8 @@
 ## TL;DR
 
 - Zallet jẹ́ àpò Zcash tí a kọ pẹ̀lú Rust. Ó rọ́pò àpò tí ó ń gbé inú zcashd.
-- zcashd dé ìdádúró End-of-Support rẹ̀ ní ọjọ́ kejìdínlógún oṣù keje ọdún 2026, kò sì ṣiṣẹ́ mọ́. Zebra ti ń ṣe àkóso ẹ̀gbẹ́ node báyìí; Zallet ti ń ṣe àkóso ẹ̀gbẹ́ àpò owó náà.
-- O wakọ Zallet lati laini aṣẹ pẹlu `zallet rpc <command>`gẹ́gẹ́ bí o ti lò ó `zcash-cli` ṣáájú.
+- zcashd dé ìdádúró End-of-Support rẹ̀ ní ọjọ́ 18 oṣù keje ọdún 2026, kò sì ṣiṣẹ́ mọ́. Zebra ti ń ṣe àkóso ẹ̀gbẹ́ node báyìí; Zallet ti ń ṣe àkóso ẹ̀gbẹ́ àpò owó náà.
+- O wakọ Zallet lati laini aṣẹ pẹlu `zallet rpc <command>`, gẹ́gẹ́ bí o ti lò ó `zcash-cli` ṣáájú.
 - Gbogbo ariyanjiyan lẹhin orukọ aṣẹ gbọdọ jẹ JSON to wulo, eyi ti o tumọ si pe awọn iye okun n pa awọn agbasọ ọrọ meji wọn mọ.
 - Zallet wa ni beta. Awọn aṣẹ le yipada laarin awọn idasilẹ, ati pe kii ṣe gbogbo RPC zcashd ni a ti gbe kọja sibẹsibẹ.
 

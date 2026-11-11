@@ -31,7 +31,7 @@ Ibi ipamọ ti o wa lẹhin rẹ ṣii pẹlu ikilọ ti o yẹ ki o ka ṣaaju 
 
 ### Ẹ̀yà 14 wo ló yípadà?
 
-[Ẹ̀yà 14](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v14) Wọ́n jáde ní ọjọ́ kìíní oṣù kẹwàá ọdún 2026. Nẹ́tíwọ́ọ̀kì rẹ̀ bẹ̀rẹ̀ gẹ́gẹ́ bí ẹ̀rí iṣẹ́ tó ṣe kedere, ó sì ń tan Crosslink ní ìgbésẹ̀ mẹ́ta ([orisun](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/librustzcash/zcash_primitives/src/bft.rs#L546-L555), tun fihan lori [cash](https://ctaz.cash/v14)):
+[Ẹ̀yà 14](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v14) Wọ́n jáde ní ọjọ́ 1 oṣù kẹwàá ọdún 2026. Nẹ́tíwọ́ọ̀kì rẹ̀ bẹ̀rẹ̀ gẹ́gẹ́ bí ẹ̀rí iṣẹ́ tó ṣe kedere, ó sì ń tan Crosslink ní ìgbésẹ̀ mẹ́ta ([orisun](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/librustzcash/zcash_primitives/src/bft.rs#L546-L555), tun fihan lori [cash](https://ctaz.cash/v14)):
 
 | Àkọsílẹ̀ | Ki ni o sele |
 |---|---|
@@ -41,7 +41,7 @@ Ibi ipamọ ti o wa lẹhin rẹ ṣii pẹlu ikilọ ti o yẹ ki o ka ṣaaju 
 
 Àwọn èrè tí a fi ń kó jọ bẹ̀rẹ̀ ní ìgbẹ̀yìn àwọn bulọọki wọ̀nyẹn. Ìdókòwò tí a ṣe tẹ́lẹ̀ kò ní jẹ́ kí ó rí èrè kankan títí di ìgbà náà ([orisun](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebra-chain/src/parameters/network/subsidy.rs#L487-L508)).
 
-Ìtẹ̀jáde kan náà ló mú kí àkójọ àwọn tó ń ṣe àṣeyọrí náà di méjìlá tó ní ìpín tó pọ̀ jùlọ ([orisun](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/librustzcash/zcash_primitives/src/bft.rs#L884)) àti, gẹ́gẹ́ bí àkọsílẹ̀ ìtújáde rẹ̀, ó fún wọn ní iṣẹ́ kan: "10% gbogbo PoS Rewards ní bulọ́ọ̀kì kan lọ sí àwọn iṣẹ́ wọ̀nyí, nígbà tí 90% ni a pín sí gbogbo àwọn ìwé ìforúkọsílẹ̀ staking".
+Ìtẹ̀jáde kan náà ló mú kí àkójọ àwọn tó ń ṣe àṣeyọrí náà di 12 tó ní ìpín tó pọ̀ jùlọ ([orisun](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/librustzcash/zcash_primitives/src/bft.rs#L884)) àti, gẹ́gẹ́ bí àkọsílẹ̀ ìtújáde rẹ̀, ó fún wọn ní iṣẹ́ kan: "10% gbogbo PoS Rewards ní bulọ́ọ̀kì kan lọ sí àwọn iṣẹ́ wọ̀nyí, nígbà tí 90% ni a pín sí gbogbo àwọn ìwé ìforúkọsílẹ̀ staking".
 
 ### cTAZ ati ZEC gidi
 
@@ -50,7 +50,7 @@ cTAZ ("Crosslink TAZ") ni owó ìdánwò Feature Net's. O fi cTAZ ṣe àfikún,
 ZEC gidi kan n wọlé ní ìparí nìkan. Shielded Labs ti [ya 500 ZEC si apakan](https://shieldedlabs.net/crosslink-incentivized-feature-nets/) fún àwọn àwọ̀n ẹ̀yà ara, àti [àwọn àkọsílẹ̀ ìtújáde](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v14) sọ pé a san án “ní ìbámu pẹ̀lú iye ctAZ tí olúkúlùkù olùkópa rí gbà nípasẹ̀ iwakusa tàbí ìfipámúni.” Àbájáde méjì:
 
 - **Àwọn owó fáìpù kò ka.** cTAZ tí wọ́n fún ọ, nípasẹ̀ páìpù tàbí láti ọ̀dọ̀ ẹlòmíràn, kò ní rí èrè kankan gbà nípa jíjókòó sínú àpò owó rẹ. Kìkì dí àwọn èrè láti inú ìwakùsà àti iye owó tí a fi ń tà á.
-- **A n beere fun awọn isanwo, kii ṣe laifọwọyi.** Shielded Labs n kede iyipo kọọkan ninu [ọ̀rọ̀ ìfọ̀rọ̀wérọ̀ lórí ìtàkùn àpérò](https://forum.zcashcommunity.com/t/crosslink-incentivized-feature-net/55210)Fún ìpele kejì, ó ní kí àwọn olùkópa fi kọ́kọ́rọ́ ìwòye àpò owó wọn àti àdírẹ́sì pàtàkì ránṣẹ́ kí ó tó di ọjọ́ kẹrin oṣù kẹwàá ọdún 2026 ([ifiranṣẹ 94](https://forum.zcashcommunity.com/t/crosslink-incentivized-feature-net/55210/94)) Nẹ́tíwọ́ọ̀kì tí ẹ̀yà 14 ń ṣiṣẹ́, èyí tí ìtọ́sọ́nà yìí dara pọ̀ mọ́, ni a kéde gẹ́gẹ́ bí Ìpele 3 ([ifiranṣẹ 101](https://forum.zcashcommunity.com/t/crosslink-incentivized-feature-net/55210/101)).
+- **A n beere fun awọn isanwo, kii ṣe laifọwọyi.** Shielded Labs n kede iyipo kọọkan ninu [ọ̀rọ̀ ìfọ̀rọ̀wérọ̀ lórí ìtàkùn àpérò](https://forum.zcashcommunity.com/t/crosslink-incentivized-feature-net/55210). Fún Ìpele 2, ó ní kí àwọn olùkópa fi kọ́kọ́rọ́ ìwòye àpò owó wọn àti àdírẹ́sì pàtàkì ránṣẹ́ kí ó tó di ọjọ́ 4 oṣù kẹwàá ọdún 2026 ([ifiranṣẹ 94](https://forum.zcashcommunity.com/t/crosslink-incentivized-feature-net/55210/94)) Nẹ́tíwọ́ọ̀kì tí ẹ̀yà 14 ń ṣiṣẹ́, èyí tí ìtọ́sọ́nà yìí dara pọ̀ mọ́, ni a kéde gẹ́gẹ́ bí Ìpele 3 ([ifiranṣẹ 101](https://forum.zcashcommunity.com/t/crosslink-incentivized-feature-net/55210/101)).
 
 ## Ṣaaju ki o to bẹrẹ
 
@@ -128,7 +128,7 @@ Ibudo RPC `127.0.0.1:8232` Ó ṣí sílẹ̀ láìṣeéṣe nínú ìkọ́lé
 
 Ní ìṣiṣẹ́ yìí, ìṣiṣẹ́ àkọ́kọ́, láti block 0 sí end ní about block 28,400, gba tó ìṣẹ́jú 50.
 
-**Lẹ́yìn tí o bá ti bẹ̀rẹ̀ iṣẹ́, ìwọ̀n rẹ yóò máa jẹ́ òdo fún ìgbà díẹ̀.** Nígbàkigbà tí ohun èlò náà bá bẹ̀rẹ̀, ó máa ń tún àpò owó náà kọ́ láti `secret.seed` ó sì tún wo ẹ̀wọ̀n náà láti inú block 0 ([orisun](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/wallet/src/lib.rs#L3609-L3623)Títí tí fọ́tò náà yóò fi dé àwọn ìṣòwò rẹ, ìwọ̀n owó rẹ àti ìpín rẹ yóò hàn gẹ́gẹ́ bí 0. Ní ìṣẹ́jú mẹ́ẹ̀ẹ́dógún lẹ́yìn tí wọ́n tún bẹ̀rẹ̀ iṣẹ́ náà. A tún ṣe àtúnyẹ̀wò àpò ìfọ́mọ́ra náà ní ọ̀nà kan náà ([orisun](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/wallet/src/lib.rs#L3588)), àti nígbà tí wọ́n ń ṣe àyẹ̀wò náà, taabu Faucet Wallet fi hàn pé ìwọ̀nba tó pọ̀ gan-an. Má ṣe gbàgbé méjèèjì títí tí Wallet Sync yóò fi parí.
+**Lẹ́yìn tí o bá ti bẹ̀rẹ̀ iṣẹ́, ìwọ̀n rẹ yóò máa jẹ́ òdo fún ìgbà díẹ̀.** Nígbàkigbà tí ohun èlò náà bá bẹ̀rẹ̀, ó máa ń tún àpò owó náà kọ́ láti `secret.seed` ó sì tún wo ẹ̀wọ̀n náà láti inú block 0 ([orisun](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/wallet/src/lib.rs#L3609-L3623)). Títí tí fọ́tò náà yóò fi dé àwọn ìṣòwò rẹ, ìwọ̀n owó rẹ àti ìpín rẹ yóò hàn gẹ́gẹ́ bí 0. Ní nǹkan bí ìṣẹ́jú 15 lẹ́yìn tí wọ́n tún bẹ̀rẹ̀ iṣẹ́ náà. A tún ṣe àtúnyẹ̀wò àpò ìfọ́mọ́ra náà ní ọ̀nà kan náà ([orisun](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/wallet/src/lib.rs#L3588)), àti nígbà tí wọ́n ń ṣe àyẹ̀wò náà, taabu Faucet Wallet fi hàn pé ìwọ̀nba tó pọ̀ gan-an. Má ṣe gbàgbé méjèèjì títí tí Wallet Sync yóò fi parí.
 
 ## Igbesẹ 3: Gba diẹ ninu cTAZ
 
@@ -157,7 +157,7 @@ Onírúurú náà yóò wà fún ìgbà pípẹ́ bíi ti fèrèsé yẹn. Pẹ�
 505.957457577538
 ```
 
-Àbájáde rẹ̀: Intel Core i5-8350U kan tí wọ́n ń wakọ̀ lórí àwọn okùn mẹ́rin, láti ìbẹ̀rẹ̀ ọjọ́ kẹjọ oṣù kẹwàá sí ọ̀sán ọjọ́ kẹsàn-án oṣù kẹwàá, kò rí ohunkóhun.
+Àbájáde rẹ̀: Intel Core i5-8350U kan tí wọ́n ń wakọ̀ lórí àwọn okùn mẹ́rin, láti ìbẹ̀rẹ̀ ọjọ́ 8 oṣù kẹwàá sí ọ̀sán ọjọ́ 9 oṣù kẹwàá, kò rí ohunkóhun.
 
 ### Tabi lo faucet
 
@@ -212,9 +212,9 @@ Invoke-RestMethod -Uri http://127.0.0.1:8232 -Method Post -ContentType 'applicat
 }
 ```
 
-Iye owo naa wa ninu zatoshis: 100,000,000 ṣe cTAZ kan. Awọn owó ti a fi pamọ nilo awọn ijẹrisi mẹta ṣaaju ki wọn to ka bi a le lo ([orisun](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebra-rpc/src/methods.rs#L621-L634)) Àwọn owó láti inú páìpù omi àti láti ọ̀dọ̀ àwọn olùkópa mìíràn máa ń gúnlẹ̀ sí `spendable_zats`Àwọn owó tí a ń wa ní a máa ń rí kedere, nítorí náà wọ́n máa ń gúnlẹ̀ sí i `unshielded_zats` ([orisun](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/wallet/src/lib.rs#L4659)).
+Iye owo naa wa ninu zatoshis: 100,000,000 ṣe cTAZ kan. Awọn owó ti a fi pamọ nilo awọn ijẹrisi mẹta ṣaaju ki wọn to ka bi a le lo ([orisun](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebra-rpc/src/methods.rs#L621-L634)) Àwọn owó láti inú páìpù omi àti láti ọ̀dọ̀ àwọn olùkópa mìíràn máa ń gúnlẹ̀ sí `spendable_zats`. Àwọn owó tí a ń wa ní a máa ń rí kedere, nítorí náà wọ́n máa ń gúnlẹ̀ sí i `unshielded_zats` ([orisun](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/wallet/src/lib.rs#L4659)).
 
-Àkọsílẹ̀ kan lẹ́yìn ìpín kejì lórí ìsáré yìí, ìyókù ìwọ̀n náà hàn lábẹ́ `pending_zats`Lẹ́yìn díẹ̀, ó tún ṣeé lò.
+Àkọsílẹ̀ kan lẹ́yìn ìpín kejì lórí ìsáré yìí, ìyókù ìwọ̀n náà hàn lábẹ́ `pending_zats`. Lẹ́yìn díẹ̀, ó tún ṣeé lò.
 
 ## Igbese 4: Lọ si ohun elo ipari
 
@@ -226,7 +226,7 @@ Gbigbe, tu silẹ ati yiyọ kuro ni a gba nikan lakoko ti
 block height mod 10,368 < 3,456
 ```
 
-èyí tí ó jẹ́ fèrèsé tí ó ní àwọn bulọ́ọ̀kì 3,456 ní ìbẹ̀rẹ̀ gbogbo 10,368. Ní ibi tí bulọ́ọ̀kì ìṣẹ́jú-àáyá 25 ti nẹ́tíwọ́ọ̀kì náà wà ní ọjọ́ kan nínú gbogbo mẹ́ta ([orisun](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/librustzcash/zcash_primitives/src/transaction/mod.rs#L1540-L1547)Àwọn fèrèsé àkọ́kọ́ ti ẹ̀yà 14 ṣí ní àwọn blocks 20,736, 31,104, 41,472 àti 51,840.
+èyí tí ó jẹ́ fèrèsé tí ó ní àwọn bulọ́ọ̀kì 3,456 ní ìbẹ̀rẹ̀ gbogbo 10,368. Ní ibi tí bulọ́ọ̀kì ìṣẹ́jú-àáyá 25 ti nẹ́tíwọ́ọ̀kì náà wà ní ọjọ́ kan nínú gbogbo mẹ́ta ([orisun](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/librustzcash/zcash_primitives/src/transaction/mod.rs#L1540-L1547)). Àwọn fèrèsé àkọ́kọ́ ti ẹ̀yà 14 ṣí ní àwọn blocks 20,736, 31,104, 41,472 àti 51,840.
 
 Gẹ́gẹ́ bí àkọsílẹ̀ ìtújáde náà, àpù náà ń kéde ìbẹ̀rẹ̀ àti òpin ọjọ́ Staking kọ̀ọ̀kan. Ní àkókò yìí, àkójọ àwọn bulọọki rẹ̀ fi ìlà pupa kan hàn láàárín àwọn bulọọki 34,559 àti 34,560.
 
@@ -234,7 +234,7 @@ Gẹ́gẹ́ bí àkọsílẹ̀ ìtújáde náà, àpù náà ń kéde ìbẹ̀
 
 ### Yan ohun tí yóò parí
 
-A máa ń pe ẹni tó parí ìdánilẹ́kọ̀ọ́ ní orúkọ nípasẹ̀ ìdámọ̀ rẹ̀, okùn kan tó bẹ̀rẹ̀ pẹ̀lú `zfinv1`ZecHub ṣe àtẹ̀jáde ìdámọ̀ olùṣe ìparí tí ó ń ṣiṣẹ́ nínú rẹ̀ [`zechub_validator_crosslink.json`](https://github.com/ZecHub/zechub/blob/main/zechub_validator_crosslink.json):
+A máa ń pe ẹni tó parí ìdánilẹ́kọ̀ọ́ ní orúkọ nípasẹ̀ ìdámọ̀ rẹ̀, okùn kan tó bẹ̀rẹ̀ pẹ̀lú `zfinv1`. ZecHub ṣe àtẹ̀jáde ìdámọ̀ olùṣe ìparí tí ó ń ṣiṣẹ́ nínú rẹ̀ [`zechub_validator_crosslink.json`](https://github.com/ZecHub/zechub/blob/main/zechub_validator_crosslink.json):
 
 ```text
 zfinv1j65qJgeSId7ssZk6a71NvQG2KjD5hfJCYxWkCSPvQSmwibffVw52UYU72wKbrEL0-cw-C4PQoO5IlLgbsgA3q_Gf1mzYIKcnixNP9XXVgphIDuLI6RBMhjFfYWyzp4YN
@@ -303,7 +303,7 @@ Invoke-RestMethod -Uri http://127.0.0.1:8232 -Method Post -ContentType 'applicat
 
 **Fèrèsé Edit Stake fi hàn pé owó ìdókòwò kọ̀ọ̀kan tóbi ju ní ìlọ́po mẹ́wàá lọ.** Ní ìsáré yìí, owó ìdókòwò cTAZ kọ̀ọ̀kan ka 0.100 cTAZ ní ìlà tirẹ̀, àti 0.1003536 cTAZ nígbà tí ẹ̀bùn bá ti bẹ̀rẹ̀, nígbà tí iye owó tí ó wà lókè àwọn ìlà náà (0.020 cTAZ, nígbà tí ó yá 0.02007 cTAZ) bá RPC mu. Tẹ̀lé iye owó àti RPC.
 
-Fèrèsé kan náà fi onígun mẹ́ta ìkìlọ̀ sí ẹ̀gbẹ́ olùṣe ìparí, kí ó tó bẹ̀rẹ̀ àti lẹ́yìn tí ìparí bẹ̀rẹ̀. Nínú orísun náà, onígun mẹ́ta náà túmọ̀ sí pé ohun èlò rẹ kò ka olùṣe ìparí náà sí orí ayélujára, àti pé èyí lórí ayélujára yóò gba àmì Wi-Fi dípò ([orisun](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-gui/src/ui.rs#L2646-L2648)Àwọn ìwé-ẹ̀rí náà gba èrè kan náà.
+Fèrèsé kan náà fi onígun mẹ́ta ìkìlọ̀ sí ẹ̀gbẹ́ olùṣe ìparí, kí ó tó bẹ̀rẹ̀ àti lẹ́yìn tí ìparí bẹ̀rẹ̀. Nínú orísun náà, onígun mẹ́ta náà túmọ̀ sí pé ohun èlò rẹ kò ka olùṣe ìparí náà sí orí ayélujára, àti pé èyí lórí ayélujára yóò gba àmì Wi-Fi dípò ([orisun](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-gui/src/ui.rs#L2646-L2648)). Àwọn ìwé-ẹ̀rí náà gba èrè kan náà.
 
 ### Àwọn olùparí
 

@@ -28,7 +28,7 @@ FPF X FPF Dwumadie no ho nsɛm FPF wɔ nsɛm pii wɔ ne dwumadie no mu a ɛne:
 
 ## Grant Akwammisa Nhyehyɛe 
 
-FPF X FPF mmoa akwammisa nhyehyɛe no ka akwan horow pii ho. Nea edi kan no, ɛsɛ sɛ wɔn a wɔrehwehwɛ mmoa no nam kratasin a ahobammɔ wom a wɔde ama no so bisa mmoa no. Afei, FPF bɛhwɛ akwammisa krataa no mu ahwɛ sɛ ɛfata, na wɔbɛbɔ akwammisafoɔ no amanneɛ wɔ wɔn tebea ho wɔ kalenda nnafua 5 akyi wɔ akwammisa no da a ɛtwa toɔ no akyi. Afei, adhoc nhwehwɛmu boayikuo bi bɛhwɛ na wɔasi gyinaeɛ wɔ mmoa a wɔde bɛma no ho wɔ kalenda nnafua aduonu akyi wɔ da a ɛtwa toɔ a wɔde bɛma no akyi. Wɔbɛtintim mmoa a wɔde ama no ho nsɛm wɔ FPF wɛbsaet no so ama ayɛ nea ɛda adi pefee na wɔabu akontaa.
+FPF X FPF mmoa akwammisa nhyehyɛe no ka akwan horow pii ho. Nea edi kan no, ɛsɛ sɛ wɔn a wɔrehwehwɛ mmoa no nam kratasin a ahobammɔ wom a wɔde ama no so bisa mmoa no. Afei, FPF bɛhwɛ akwammisa krataa no mu ahwɛ sɛ ɛfata, na wɔbɛbɔ akwammisafoɔ no amanneɛ wɔ wɔn tebea ho wɔ kalenda nnafua 5 akyi wɔ akwammisa no da a ɛtwa toɔ no akyi. Afei, adhoc nhwehwɛmu boayikuo bi bɛhwɛ na wɔasi gyinaeɛ wɔ mmoa a wɔde bɛma no ho wɔ kalenda nnafua 20 akyi wɔ da a ɛtwa toɔ a wɔde bɛma no akyi. Wɔbɛtintim mmoa a wɔde ama no ho nsɛm wɔ FPF wɛbsaet no so ama ayɛ nea ɛda adi pefee na wɔabu akontaa.
 
 ## Nsɛm pii fa FPF X FPF ho 
 

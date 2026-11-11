@@ -75,7 +75,7 @@ Kọ sílẹ̀, kí o sì jẹ́ kí ìgbìmọ̀ rẹ fọwọ́ sí i:
 
 - Pin adirẹsi ti a fi aabo pamọ nikan lori oju-iwe ẹbun rẹ [adirẹsi iṣọkan](/using-zcash/unified-addresses) bẹ̀rẹ̀ pẹ̀lú `u1`, ṣùgbọ́n ó tún lè ní olugba tí ó hàn gbangba, ẹ̀bùn láti inú àpò tí ó hàn gbangba nìkan sì máa ń dé sí gbangba. Lo àdírẹ́sì àpamọ́ àpò rẹ tí ó bá ní ọ̀kan.
 - Má ṣe tẹ àdírẹ́sì tí ó ṣe kedere jáde (ó bẹ̀rẹ̀ pẹ̀lú `t1` or `t3`)
-- Beere lọwọ awọn olufunni ti wọn fẹ iwe-ẹri isanwo lati fi imeeli wọn sinu [àkọsílẹ̀](/using-zcash/memos)Àkọsílẹ̀ náà jẹ́ ti ìkọ̀kọ̀, nítorí náà àjọ rẹ nìkan ló lè kà á.
+- Beere lọwọ awọn olufunni ti wọn fẹ iwe-ẹri isanwo lati fi imeeli wọn sinu [àkọsílẹ̀](/using-zcash/memos). Àkọsílẹ̀ náà jẹ́ ti ìkọ̀kọ̀, nítorí náà àjọ rẹ nìkan ló lè kà á.
 
 ### Igbesẹ 4: Gba gbogbo ẹbun silẹ
 
@@ -89,13 +89,13 @@ IRS ṣe itọju ZEC gẹgẹbi ohun-ini ([Àkíyèsí 2014-21](https://www.irs.
 
 ### Igbese 5: Gba ẹbun ti $250 tabi diẹ sii
 
-Olùfúnni kò le yọ owó ẹ̀bùn kan ṣoṣo ti $250 tàbí jù bẹ́ẹ̀ lọ kúrò láìsí ìfọwọ́sowọ́pọ̀ ìkọ̀wé láti ọ̀dọ̀ rẹ ([Àtẹ̀jáde 1771](https://www.irs.gov/pub/irs-pdf/p1771.pdf)Fún ẹ̀bùn ZEC kan, fi kún un:
+Olùfúnni kò le yọ owó ẹ̀bùn kan ṣoṣo ti $250 tàbí jù bẹ́ẹ̀ lọ kúrò láìsí ìfọwọ́sowọ́pọ̀ ìkọ̀wé láti ọ̀dọ̀ rẹ ([Àtẹ̀jáde 1771](https://www.irs.gov/pub/irs-pdf/p1771.pdf)). Fún ẹ̀bùn ZEC kan, fi kún un:
 - Orúkọ àjọ rẹ
 - Ọjọ́ tí o gbà á
 - Àpèjúwe ẹ̀bùn náà, fún àpẹẹrẹ "1.5 ZEC". Má ṣe fi iye owó dọ́là kan sí i: iṣẹ́ olùfúnni ni ṣíṣe iye owó ẹ̀bùn náà.
 - Yálà o fún ni ohunkóhun ní pàṣípààrọ̀, fún àpẹẹrẹ "A kò pèsè ọjà tàbí iṣẹ́ kankan ní pàṣípààrọ̀ fún owó yìí."
 
-Olùfúnni náà gbọ́dọ̀ ní i kí ó tó fi àkọsílẹ̀ owó orí rẹ̀ sílẹ̀ ([Ìtẹ̀jáde 526](https://www.irs.gov/pub/irs-pdf/p526.pdf)Àwọn àjọ sábà máa ń fi ránṣẹ́ kí ó tó di ọjọ́ kọkànlélọ́gbọ̀n oṣù kìíní ọdún tó ń bọ̀; fífi ránṣẹ́ lẹ́sẹ̀kẹsẹ̀ ló rọrùn jù.
+Olùfúnni náà gbọ́dọ̀ ní i kí ó tó fi àkọsílẹ̀ owó orí rẹ̀ sílẹ̀ ([Ìtẹ̀jáde 526](https://www.irs.gov/pub/irs-pdf/p526.pdf)). Àwọn àjọ sábà máa ń fi ránṣẹ́ kí ó tó di ọjọ́ 31 oṣù kìíní ọdún tó ń bọ̀; fífi ránṣẹ́ lẹ́sẹ̀kẹsẹ̀ ló rọrùn jù.
 
 ### Igbesẹ 6: Fi ọwọ si Fọọmu 8283 fun awọn ẹbun ti o ju $5,000 lọ
 
@@ -103,7 +103,7 @@ Tí olùfúnni bá béèrè fún ohun tó ju $5,000 lọ, ó nílò àyẹ̀wò 
 
 ### Igbese 7: Yipada si awọn dọla, ti o ba nilo lati
 
-- Ṣàyẹ̀wò àwọn pàṣípààrọ̀ tí ó gba àwọn ìdókòwò ààbò lórí [Àwọn Pípàṣípààrọ̀ Ààbò](/using-zcash/custodial-exchanges)Ọpọlọpọ gba awọn idogo ti o han gbangba nikan.
+- Ṣàyẹ̀wò àwọn pàṣípààrọ̀ tí ó gba àwọn ìdókòwò ààbò lórí [Àwọn Pípàṣípààrọ̀ Ààbò](/using-zcash/custodial-exchanges). Ọpọlọpọ gba awọn idogo ti o han gbangba nikan.
 - Tí tìrẹ bá jẹ́ ohun tí ó ṣe kedere nìkan, gbé ZEC láti inú àpò ìpamọ́ rẹ sí ibi ìtajà náà ní ìgbésẹ̀ kan, ní àkókò tí o bá tà á. Iye yẹn yóò di ti gbogbo ènìyàn, ṣùgbọ́n àwọn ẹ̀bùn mìíràn àti owó rẹ yóò wà ní ìkọ̀kọ̀.
 - Tí o bá ta ZEC láàrín ọdún mẹ́ta lẹ́yìn tí o gbà á, tí o sì fọwọ́ sí Apá B ti Fọ́ọ̀mù 8283 ti olùfúnni, fi fáìlì náà sílẹ̀ [Fọ́ọ̀mù 8282](https://www.irs.gov/pub/irs-pdf/f8282.pdf) láàrín ọjọ́ 125 lẹ́yìn títà náà, kí o sì fi ẹ̀dà kan ránṣẹ́ sí olùfúnni náà ([Awọn ibeere IRS beere, Q37](https://www.irs.gov/individuals/international-taxpayers/frequently-asked-questions-on-virtual-currency-transactions)).
 

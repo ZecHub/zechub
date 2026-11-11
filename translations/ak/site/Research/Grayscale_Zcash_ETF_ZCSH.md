@@ -67,7 +67,7 @@ kwan no ka Zcash address bi.
 ## Wɔtua sika no wɔ ZEC mu
 
 Sponsor fee yɛ **2.5% afe biara**, sɛnea wɔkyerɛw no. Ɛboaboa ano da biara da sɛ a
-ɔha biara mu nkyem 100 wɔ agyapade bo a ɛyɛ pɛpɛɛpɛ mu na wɔ filing no nsɛm mu no, "wɔtua wɔ ZEC mu."
+ɔha biara mu nkyem wɔ agyapade bo a ɛyɛ pɛpɛɛpɛ mu na wɔ filing no nsɛm mu no, "wɔtua wɔ ZEC mu."
 de kɔma Sponsor no da biara da wɔ akatua mu."
 
 Nea efi mu ba no yɛ nea ɛfa nhyehyɛe ho mmom sen sɛ ɛbɛyɛ nea ɛbae ara kwa. Fee no fi..
