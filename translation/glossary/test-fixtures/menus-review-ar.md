@@ -1,6 +1,6 @@
 # ZecHub glossary review: Arabic (`ar`)
 
-Glossary version 1. Kit: ui.
+Glossary version 1. Kit: pages.
 
 **طريقة التعبئة**
 - **عمود ✅:** اكتب `OK` إذا كانت الترجمة المعروضة صحيحة، أو `keep English` للإبقاء على الكلمة الإنجليزية، أو الترجمة التي تستخدمها أنت. ترجمة واحدة في كل خانة. اترك الخانة فارغة إذا لم تكن متأكدًا. لا تعدّل عمود ID.
@@ -11,203 +11,92 @@ Glossary version 1. Kit: ui.
 - **✅ column:** write `OK` if the shown rendering is right, `keep English` to keep the English word, or the rendering you would use. One rendering per cell. Leave it empty if you are not sure. Do not edit the ID column.
 - **Notes column (important):** for every row you change or mark `keep English`, write one short line in your own words saying why, for example "this is what local exchanges and wallets use" or "this word means a street address". Also use Notes when the right word depends on the context (verb or noun, menu or page), or when a row is unclear. Changes without a note may not be accepted.
 
+**Proposed column:** for rows the glossary had no proposal for, it now shows the word our `ar` pages use today, and "Seen today" shows the counts behind it. Please check whether it is right.
+
 Names that stay in English in every language (brands, products, programmes) are not in these tables; they are listed in `translation/protected-terms.json`.
 
 ## Conflicts to decide first
 
 No conflicts.
 
-## Top menu (header) and its submenus
-(`navigation`: 73 labels)
+## Terms in wiki pages
+(`terms`: 62 rows)
 
-| # | ID | English | Arabic | ✅ Confirmed | Notes |
-|---:|---|---|---|---|---|
-| 1 | navigation.wallets | Wallets | المحافظ |  |  |
-| 2 | navigation.guides | Guides | الأدلة |  |  |
-| 3 | navigation.tutorials | Tutorials | الدروس |  |  |
-| 4 | navigation.governance | Governance | الحوكمة |  |  |
-| 5 | navigation.visualizer | Visualizer | أداة التصور |  |  |
-| 6 | navigation.dao | DAO | DAO |  |  |
-| 7 | navigation.newsletter | Newsletter | النشرة البريدية |  |  |
-| 8 | navigation.donate | Donate | تبرع |  |  |
-| 9 | navigation.explore | Explore | استكشف |  |  |
-| 10 | navigation.developers | Developers | المطورون |  |  |
-| 11 | navigation.community | Community | المجتمع |  |  |
-| 12 | navigation.contribute | Contribute | اشترك |  |  |
-| 13 | navigation.dashboard | Dashboard | لوحة التحكم |  |  |
-| 14 | navigation.more | More | المزيد |  |  |
-| 15 | navigation.usingZcash.label | Use Zcash | استخدام Zcash |  |  |
-| 16 | navigation.usingZcash.buyingZec | Buying ZEC | شراء ZEC |  |  |
-| 17 | navigation.usingZcash.faucets | Faucets | الحنفيات |  |  |
-| 18 | navigation.usingZcash.wallets | Wallets | المحافظ |  |  |
-| 19 | navigation.usingZcash.exchanges | Exchanges | البورصات |  |  |
-| 20 | navigation.usingZcash.blockExplorers | Block Explorers | مستكشفات الكتل |  |  |
-| 21 | navigation.usingZcash.shieldedPools | Shielded Pools | المجمعات المحمية |  |  |
-| 22 | navigation.usingZcash.transparentExchangeAddresses | Transparent Exchange Addresses | عناوين البورصات الشفافة |  |  |
-| 23 | navigation.usingZcash.transactions | Transactions | المعاملات |  |  |
-| 24 | navigation.usingZcash.memos | Memos | المذكرات |  |  |
-| 25 | navigation.usingZcash.mobileTopUps | Mobile Top Ups | شحن رصيد الهاتف |  |  |
-| 26 | navigation.usingZcash.paymentRequestUris | Payment Request URIs | معرّفات URI لطلبات الدفع |  |  |
-| 27 | navigation.usingZcash.paymentProcessors | Payment Processors | معالجات الدفع |  |  |
-| 28 | navigation.usingZcash.recoveringFunds | Recovering Funds | استرداد الأموال |  |  |
-| 29 | navigation.usingZcash.tools | Tools | الأدوات |  |  |
-| 30 | navigation.usingZcash.useCases | Use Cases | حالات الاستخدام |  |  |
-| 31 | navigation.usingZcash.useCasesSubmenu.startHere | Start Here | ابدأ هنا |  |  |
-| 32 | navigation.usingZcash.useCasesSubmenu.acceptPayments | Accept Payments | قبول المدفوعات |  |  |
-| 33 | navigation.usingZcash.useCasesSubmenu.freelancePrivacy | Freelance Privacy | الخصوصية للعاملين المستقلين |  |  |
-| 34 | navigation.usingZcash.useCasesSubmenu.journalistPrivacy | Journalist Privacy | خصوصية الصحفيين |  |  |
-| 35 | navigation.usingZcash.useCasesSubmenu.keepingRecords | Keeping Records | حفظ السجلات |  |  |
-| 36 | navigation.usingZcash.useCasesSubmenu.privateCommunityTreasury | Private Community Treasury | خزانة مجتمع خاصة |  |  |
-| 37 | navigation.usingZcash.useCasesSubmenu.donations | Donations | التبرعات |  |  |
-| 38 | navigation.usingZcash.useCasesSubmenu.sendMoneyPrivately | Send Money Privately | إرسال الأموال بشكل خاص |  |  |
-| 39 | navigation.zcashCommunity.label | Ecosystem | النظام البيئي |  |  |
-| 40 | navigation.zcashCommunity.communityBlogs | Community Blogs | مدونات المجتمع |  |  |
-| 41 | navigation.zcashCommunity.communityLinks | Community Links | روابط المجتمع |  |  |
-| 42 | navigation.zcashCommunity.communityForum | Community Forum | منتدى المجتمع |  |  |
-| 43 | navigation.zcashCommunity.communityProjects | Community Projects | مشاريع المجتمع |  |  |
-| 44 | navigation.zcashCommunity.zcashMedia | Zcash Media | إعلام Zcash |  |  |
-| 45 | navigation.zcashCommunity.zcashPodcasts | Zcash Podcasts | بودكاست Zcash |  |  |
-| 46 | navigation.zcashCommunity.ecosystemSecurity | Zcash Ecosystem Security | أمن نظام Zcash البيئي |  |  |
-| 47 | navigation.zcashCommunity.cypherpunkZeroNFT | Cypherpunk Zero NFT | Cypherpunk Zero NFT |  |  |
-| 48 | navigation.zcashCommunity.zconArchive | Zcon Archive | أرشيف Zcon |  |  |
-| 49 | navigation.organizations.label | Organizations | المنظمات |  |  |
-| 50 | navigation.organizations.brand | Brand | العلامة التجارية |  |  |
-| 51 | navigation.organizations.coinholderDirectedRetroactiveGrants | CoinHolder Directed Retroactive Grants | منح بأثر رجعي موجهة من CoinHolder |  |  |
-| 52 | navigation.guidesSubmenu.zgoPaymentProcessor | Zgo Payment Processor | معالج الدفع Zgo |  |  |
-| 53 | navigation.guidesSubmenu.free2zLive | Free2z Live | Free2z Live |  |  |
-| 54 | navigation.guidesSubmenu.nymVpn | Nym VPN | Nym VPN |  |  |
-| 55 | navigation.guidesSubmenu.usingZecInDefi | Using ZEC in DeFi | استخدام ZEC في DeFi |  |  |
-| 56 | navigation.guidesSubmenu.usingZecPrivately | Using ZEC Privately | استخدام ZEC بشكل خاص |  |  |
-| 57 | navigation.guidesSubmenu.raspberryPiZcashdNode | Raspberry Pi Zcashd Node | عقدة Raspberry Pi Zcashd |  |  |
-| 58 | navigation.guidesSubmenu.raspberryPi5ZebraLightwalletdZingo | Raspberry pi5 Zebra Lightwalletd Zingo | Raspberry pi5 Zebra Lightwalletd Zingo |  |  |
-| 59 | navigation.guidesSubmenu.raspberryPiZebraNode | Raspberry Pi Zebra Node | عقدة Raspberry Pi Zebra |  |  |
-| 60 | navigation.guidesSubmenu.akashNetwork | Akash Network | Akash Network |  |  |
-| 61 | navigation.guidesSubmenu.avalancheRedbridge | Avalanche RedBridge | Avalanche RedBridge |  |  |
-| 62 | navigation.guidesSubmenu.zkoolMultisig | Zkool Multisig | Zkool Multisig |  |  |
-| 63 | navigation.guidesSubmenu.ywalletFrostDemo | Ywallet FROST Demo | عرض YWallet FROST |  |  |
-| 64 | navigation.guidesSubmenu.blockchainExplorers | Blockchain Explorers | مستكشفات البلوكشين |  |  |
-| 65 | navigation.guidesSubmenu.btcPayServerPlugin | BTCPayServer Plugin | إضافة BTCPayServer |  |  |
-| 66 | navigation.guidesSubmenu.visualizingZcashNetwork | Visualizing the Zcash Network | تصور شبكة Zcash |  |  |
-| 67 | navigation.guidesSubmenu.visualizingZcashAddresses | Visualizing Zcash Addresses | تصور عناوين Zcash |  |  |
-| 68 | navigation.guidesSubmenu.zcashImprovementProposals | Zcash Improvement Proposals | مقترحات تحسين Zcash |  |  |
-| 69 | navigation.guidesSubmenu.zingolibAndZainoTutorial | Zingolib and Zaino Tutorial | دليل Zingolib و Zaino |  |  |
-| 70 | navigation.guidesSubmenu.zenithInstallation | Zenith Installation | تثبيت Zenith |  |  |
-| 71 | navigation.guidesSubmenu.zeroKnowledgeVsDecoys | Zero Knowledge vs Decoy Systems | إثباتات المعرفة الصفرية مقابل أنظمة الطُعم |  |  |
-| 72 | navigation.overview | Overview | نظرة عامة |  |  |
-| 73 | navigation.shop | Shop | المتجر |  |  |
+| # | ID | English | Meaning | Occurrences | Seen today in `ar` pages | Proposed | ✅ Confirmed | Notes |
+|---|---|---|---|---:|---|---|---|---|
+| 1 | wallet | wallet | App or device that holds the keys to your coins and lets you send and receive them. | 1,694 | محفظة ×437, wallet ×198 | محفظة | OK |  |
+| 2 | shielded | shielded | Protected by Zcash's zero-knowledge encryption: a shielded address, transaction or pool hides sender, receiver and amount. Not: encrypted (generic). Translate 'encrypted' normally. | 1,433 | المحمية ×541, محمي ×195 | محمي | OK |  |
+| 3 | transaction | transaction | A transfer of coins recorded on the blockchain. | 1,281 | المعاملات ×465, معاملة ×214 | معاملة | OK |  |
+| 4 | address | address | A string that identifies where to send coins (shielded z-address, unified address, transparent t-address). Not: a street address, or 'to address' (speak to, deal with). | 1,140 | عنوان ×436, address ×127 | عنوان | OK |  |
+| 5 | privacy | privacy | Keeping your financial information hidden from others; the core value of Zcash. | 844 | الخصوصية ×440, privacy ×12 | الخصوصية | OK |  |
+| 6 | pool | pool | A bucket of coins sharing one privacy technology (the shielded Orchard pool, the transparent pool); also a mining pool. Suggestion: keep English. | 732 | pool (English) ×46, pools (English) ×40 | المجمع (Pool) | OK |  |
+| 7 | block | block | A batch of transactions added to the blockchain; block height is its position in the chain. Not: 'to block' (prevent, stop). | 657 | block (English) ×117, blocks (English) ×5 | الحظر | كتلة | «الحظر» تعني منع الشيء (to block)، أما «كتلة» فهي دفعة المعاملات المضافة إلى السلسلة وتتسق مع «سلسلة الكتل». |
+| 8 | payment | payment | Sending coins to pay someone. | 607 | المدفوعات ×119, دفع ×104 | دفع | OK |  |
+| 9 | node | node | A computer running Zcash software that stores and checks the blockchain. Forms: It is NOT a loanword: use the translated term in compounds and plurals too. | 600 | عقدة ×168, node (English) ×60, node (rejected) ×60, عقد ×50, nodes (English) ×32, nodes (rejected) ×32 | عقدة | OK |  |
+| 10 | proof | proof | Cryptographic proof: mathematical evidence that a statement is true (for example that a transaction is valid) without showing the data. Not: proof as general evidence in a non-cryptographic sense. Suggestion: keep English. | 569 | proof (English) ×41, proofs (English) ×7 | إثبات (Proof) | OK |  |
+| 11 | chain | chain | Short for blockchain. | 476 | السلسلة ×319, سلسلة ×171 | سلسلة | OK |  |
+| 12 | transparent | transparent | The public, Bitcoin-like part of Zcash where addresses and amounts are visible to everyone. | 455 | الشفافة ×140, شفاف ×123 | شفاف | OK |  |
+| 13 | note | note | In Zcash, a shielded unit of value (like a private coin) held by a shielded address. Not: a written note or remark, and 'to note' (to notice); translate those normally. | 411 | ملاحظة ×91, الملاحظات ×63 | ملاحظة | keep English | «ملاحظة» تعني تعليقًا مكتوبًا، وهذا مستبعد صراحةً في التعريف، وليس لوحدة القيمة المحمية مقابل عربي متداول، فيبقى المصطلح Note بالإنجليزية. |
+| 14 | encryption | encryption | Scrambling data so only holders of the right key can read it; 'encrypted' describes such data. | 309 | التشفير ×140, تشفير ×109 | تشفير | OK |  |
+| 15 | blockchain | blockchain | The shared public record of all transactions, built from linked blocks. Suggestion: keep English. | 296 | blockchain ×134, بلوكشين ×10 | blockchain | سلسلة الكتل | هذا هو المصطلح العربي المفهوم للقارئ، ويصف السلسلة المكوّنة من كتل مترابطة. |
+| 16 | exchange | exchange | A business or service where people buy, sell or trade cryptocurrencies (a crypto exchange). Not: the verb 'to exchange' (to swap one thing for another). Suggestion: keep English. | 281 | منصات التداول ×52, منصة التداول ×25 | منصة التداول | OK |  |
+| 17 | signature | signature | Cryptographic proof that the holder of a key approved a transaction or message. Not: a handwritten signature. | 213 | signature (English) ×31, signatures (English) ×8 | التوقيع اليدوي | التوقيع الرقمي | «التوقيع اليدوي» يعني التوقيع بخط اليد، أما المقصود هنا إثبات تشفيري بأن صاحب المفتاح وافق على المعاملة. |
+| 18 | custodial | custodial | Who holds the keys: custodial means a company holds your coins for you; non-custodial or self-custody means you hold them. | 212 | حاضنة ×34, وصائية ×17 | حاضنة | OK |  |
+| 19 | memo | memo | A short private message attached to a shielded transaction. | 208 | memo (English) ×30, memos (English) ×11 | المذكرة (Memo) | OK |  |
+| 20 | mining | mining | Using computers to add new blocks to the blockchain and earn newly created coins. Not: 'determining' and other words that merely contain the letters. | 208 | mining (English) ×36, mined (English) ×1 | التعدين | OK |  |
+| 21 | commitment | commitment | A cryptographic value that binds to hidden data (e.g. a note commitment) without revealing it. Not: a promise or pledge. Suggestion: keep English. | 202 | التزام ×196, commitment ×22 | التزام | OK |  |
+| 22 | fee | fee | The small amount paid to the network to process a transaction. | 199 | رسوم ×79, fee ×14 | رسوم | OK |  |
+| 23 | zero-knowledge | zero-knowledge | Cryptography that proves something is true without revealing the underlying information. Suggestion: keep English. | 197 | معرفة صفرية ×15, zero-knowledge ×7 | المعرفة الصفرية | OK |  |
+| 24 | grant | grant | Money awarded to fund a project or contributor (e.g. Zcash Community Grants). Not: 'to grant' (to allow, give). | 191 | المنح ×35, منحة ×22 | منحة | OK |  |
+| 25 | tools | tools | Software or services that help do something (privacy tools, developer tools). | 184 | أدوات ×81, الأدوات ×32 | أدوات | OK |  |
+| 26 | viewing-key | viewing key | A key that lets someone see, but not spend, the transactions of a wallet. Capitalised 'Viewing Key' is already a protected name. Suggestion: keep English. | 179 | مفتاح العرض ×67, viewing key ×49 | مفتاح العرض | OK |  |
+| 27 | swap | swap | Exchanging one cryptocurrency directly for another. Suggestion: keep English. | 178 | مبادلة ×51, swap ×20 | مبادلة | OK |  |
+| 28 | token | token | A digital asset created on a blockchain, other than the chain's own coin. Suggestion: keep English. | 173 | رمز ×109, الرموز ×29 | رمز | OK |  |
+| 29 | consensus | consensus | The rules and process by which nodes agree on the state of the blockchain. | 159 | consensus (English) ×14 | الإجماع | OK |  |
+| 30 | staking | staking | Locking coins to help secure a proof-of-stake network and earn rewards; 'stake' is the amount locked. Not: a wooden stake, or a stake in a bet; never translate as a tree, post or field. | 139 | التخزين ×69, staking ×7 | staking | التخزين | هذا هو المصطلح الذي تستخدمه الصفحات العربية حاليًا (×69) ويدل على تجميد العملات لتأمين الشبكة. |
+| 31 | decentralized | decentralized | Run by many independent participants rather than one company or server. | 136 | اللامركزية ×44, لامركزي ×13 | لامركزي | OK |  |
+| 32 | network-upgrade | network upgrade | A scheduled change to Zcash's rules that all nodes adopt at a set block height (NU5, NU6 and so on). | 128 | ترقية الشبكة ×32, network upgrade ×9 | ترقية الشبكة | OK |  |
+| 33 | developer | developer | A person who writes software, here usually for Zcash or a Zcash wallet. Not: development (the activity), which is usually translated. | 126 | المطورين ×27, مطور ×6 | مطور | OK |  |
+| 34 | full-node | full node | A node that downloads and verifies the entire blockchain. Suggestion: keep English. | 120 | عقدة كاملة ×42, full node ×6 | عقدة كاملة | OK |  |
+| 35 | on-chain | on-chain | Recorded on the blockchain itself; off-chain means outside it. Suggestion: keep English. | 119 | على السلسلة ×127, on-chain ×5 | على السلسلة | OK |  |
+| 36 | governance | governance | How decisions about Zcash (funding, upgrades) are made and by whom. | 103 | الحوكمة ×46, governance ×2 | الحوكمة | OK |  |
+| 37 | turnstile | turnstile | Zcash mechanism that checks the total coins leaving a pool never exceed what entered it. Suggestion: keep English. | 97 | البوابة الدوارة ×25, turnstile ×18 | البوابة الدوارة | OK |  |
+| 38 | spending-key | spending key | The secret key that authorises spending coins; whoever has it controls the funds. Suggestion: keep English. | 94 | مفتاح الإنفاق ×33, spending key ×6 | مفتاح الإنفاق | OK |  |
+| 39 | miner | miner | A person or machine that does mining. | 92 | المُعدّن ×17, المُعدّنين ×21 | مُعدّن | OK |  |
+| 40 | nullifier | nullifier | A unique value published when a shielded note is spent, so the same note cannot be spent twice, without revealing which note it was. Suggestion: keep English. | 88 | nullifier ×50 | nullifier | قيمة مانع التكرار | الترجمة تشرح وظيفته: قيمة تمنع إنفاق نفس الملاحظة مرتين. |
+| 41 | hardware-wallet | hardware wallet | A small device that stores keys offline and signs transactions (e.g. Ledger, Keystone). Suggestion: keep English. | 76 | محفظة الأجهزة ×29, hardware wallet ×2 | محفظة الأجهزة | محفظة مادية | «مادية» تصف الجهاز الفعلي الملموس (بدلًا من «محفظة الأجهزة» غير الواضحة)؛ اخترت كلمة واحدة بين «مادية/ملموسة». |
+| 42 | bridge | bridge | A service that moves assets between two different blockchains. Not: a physical bridge. | 68 | جسر ×17, bridge ×12 | جسر | OK |  |
+| 43 | halving | halving | The scheduled event that cuts the block reward in half, about every four years. | 61 | التنصيف ×28, halving ×10 | التنصيف | OK |  |
+| 44 | finalizer | finalizer | A participant in Zcash's proof-of-stake layer that votes to make blocks final; stakers delegate to a finalizer. Not: anything to do with a final match or contest. Suggestion: keep English. | 58 | المُنهي ×18, finalizer ×2 | المُنهي | OK |  |
+| 45 | newsletter | newsletter | A regular email or post that collects ZecHub and Zcash news. | 50 | النشرة الإخبارية ×13, newsletter ×9 | النشرة الإخبارية | OK |  |
+| 46 | trusted-setup | trusted setup | A one-time ceremony that generates public parameters for a proof system; its secret must be destroyed. | 50 | trusted setup ×18, الإعداد الموثوق ×15 | trusted setup | إعداد موثوق | الترجمة العربية مفهومة وتصف إجراء التهيئة الموثوق لنظام الإثبات؛ اخترت «إعداد» (البديل: إجراء). |
+| 47 | bond | bond | Stake locked and delegated to a finalizer for a period; unbonding releases it. Not: a financial bond (debt security) or a personal bond. | 46 | سند ×13, bond ×3 | bond | سند ضمان | كلمة «سند» وحدها تعني سندًا ماليًا (دين)، وإضافة «ضمان» توضح أنه مبلغ مجمّد كضمان. |
+| 48 | scaling | scaling | Increasing how many transactions a network can handle. Not: shrinking or resizing. | 46 | التوسع ×23, scaling ×1 | التوسع | OK |  |
+| 49 | faucet | faucet | A website that gives away tiny amounts of (often test) coins for free. Suggestion: keep English. | 43 | صنبور ×6, faucet ×6 | faucet | صنبور | الترجمة الحرفية معروفة وتدل على موقع «يسكب» عملات صغيرة مجانًا. |
+| 50 | seed-phrase | seed phrase | A list of 12 to 24 words that backs up and restores a wallet. | 41 | عبارة البذور ×6, seed phrase ×2 | عبارة البذور | OK |  |
+| 51 | dashboard | dashboard | A page that shows live figures and charts at a glance. | 41 | dashboard ×5, لوحة التحكم ×4 | dashboard | لوحة تحكم | المصطلح العربي الشائع لصفحة تعرض الأرقام والرسوم؛ اخترت «لوحة تحكم» (البديل: واجهة تحكم). |
+| 52 | cross-chain | cross-chain | Working across two or more different blockchains. Suggestion: keep English. | 39 | عبر السلاسل ×26 | عبر السلاسل | OK |  |
+| 53 | use-case | use case | A concrete way people use Zcash (payments, donations, records). | 31 | حالة الاستخدام ×4 | حالة الاستخدام | OK |  |
+| 54 | smart-contract | smart contract | A program stored on a blockchain that runs automatically when its conditions are met. Suggestion: keep English. | 25 | العقود الذكية ×12, عقد ذكي ×1 | عقد ذكي | OK |  |
+| 55 | light-client | light client | Wallet software that does not download the full blockchain but asks a server for the data it needs. Suggestion: keep English. | 24 | العميل الخفيف ×6, عميل خفيف ×3 | عميل خفيف | OK |  |
+| 56 | selective-disclosure | selective disclosure | Showing chosen transaction details to a chosen party (e.g. with a viewing key) while keeping the rest private. | 19 | الإفصاح الانتقائي ×19, selective disclosure ×1 | الإفصاح الانتقائي | OK |  |
+| 57 | treasury | treasury | Money held by a community or organisation to fund shared work. | 18 | خزينة ×18, treasury ×4 | خزينة | OK |  |
+| 58 | top-up | top up | Adding credit to a prepaid phone or account, paid with ZEC. | 14 | شحن ×2, إعادة شحن ×1 | شحن | OK |  |
+| 59 | permissionless | permissionless | Open to anyone without asking for approval. | 13 | دون إذن ×7, لا تتطلب إذنًا ×3 | دون إذن | OK |  |
+| 60 | unlinkable | unlinkable | Impossible to connect to each other: an observer cannot tell that two items belong to the same person. Not: 'disconnected' or 'detachable'; the meaning is 'cannot be linked'. | 12 |  | غير متصل | غير قابل للربط | «غير متصل» تعني منفصلًا أو دون اتصال، أما المقصود أن المراقب لا يستطيع ربط عنصرين ببعضهما. |
+| 61 | brand | brand | ZecHub or Zcash brand material: logos, colours, visual identity. Not: trademark (a legal term). | 4 | العلامة التجارية ×12 | العلامة التجارية | OK |  |
+| 62 | visualizer | visualizer | A tool that draws Zcash network or address data as pictures. Not: visualizing / visualization (the activity), which is usually translated. | 1 | visualizer ×1 | visualizer | أداة العرض | الكلمة تصف أداة ترسم بيانات الشبكة والعناوين كصور؛ اخترت «أداة العرض» (البديل: جهاز العرض/الرؤية). |
 
-## Submenu entries (page names in the menus)
-(`menuLabels`: 81 labels)
+## General style questions
+(`style`: 8 questions)
 
-| # | ID | English | Arabic | ✅ Confirmed | Notes |
-|---:|---|---|---|---|---|
-| 1 | menuLabels.Accept Payments | Accept Payments | قبول المدفوعات |  |  |
-| 2 | menuLabels.Akash Network Zebra | Akash Network Zebra | Zebra على شبكة Akash |  |  |
-| 3 | menuLabels.Avalanche RedBridge | Avalanche RedBridge | RedBridge على Avalanche |  |  |
-| 4 | menuLabels.BTCPayServer Zcash Plugin | BTCPayServer Zcash Plugin | إضافة Zcash لـ BTCPayServer |  |  |
-| 5 | menuLabels.Blockchain Explorers | Blockchain Explorers | كشافة البلوكشين |  |  |
-| 6 | menuLabels.Brand | Brand | العلامة التجارية |  |  |
-| 7 | menuLabels.Buying ZEC | Buying ZEC | شراء ZEC |  |  |
-| 8 | menuLabels.Community Blogs | Community Blogs | مدونات المجتمع |  |  |
-| 9 | menuLabels.Community Forum | Community Forum | منتدى المجتمع |  |  |
-| 10 | menuLabels.Community Links | Community Links | روابط المجتمع |  |  |
-| 11 | menuLabels.Community Projects | Community Projects | مشاريع المجتمع |  |  |
-| 12 | menuLabels.Contribute | Contribute | ساهم |  |  |
-| 13 | menuLabels.Cypherpunk Zero NFT | Cypherpunk Zero NFT | Cypherpunk Zero NFT |  |  |
-| 14 | menuLabels.DAO | DAO | DAO |  |  |
-| 15 | menuLabels.Developers | Developers | المطورون |  |  |
-| 16 | menuLabels.Donations | Donations | التبرعات |  |  |
-| 17 | menuLabels.Exchanges | Exchanges | منصات التداول |  |  |
-| 18 | menuLabels.Extras | Extras | إضافات |  |  |
-| 19 | menuLabels.Faucets | Faucets | صنابير |  |  |
-| 20 | menuLabels.Free2z Live | Free2z Live | Free2z Live |  |  |
-| 21 | menuLabels.Freelance Privacy | Freelance Privacy | الخصوصية للعمل الحر |  |  |
-| 22 | menuLabels.Governance | Governance | الحوكمة |  |  |
-| 23 | menuLabels.Guides | Guides | أدلة |  |  |
-| 24 | menuLabels.How to Participate | How to Participate | كيفية المشاركة |  |  |
-| 25 | menuLabels.Journalist Privacy | Journalist Privacy | خصوصية الصحفيين |  |  |
-| 26 | menuLabels.Keeping Records | Keeping Records | حفظ السجلات |  |  |
-| 27 | menuLabels.Memos | Memos | المذكرات |  |  |
-| 28 | menuLabels.Mobile Top Ups | Mobile Top Ups | شحن رصيد الهاتف |  |  |
-| 29 | menuLabels.Newsletter | Newsletter | النشرة البريدية |  |  |
-| 30 | menuLabels.Nym VPN | Nym VPN | Nym VPN |  |  |
-| 31 | menuLabels.Payment Processors | Payment Processors | معالجات الدفع |  |  |
-| 32 | menuLabels.Payment Request URIs | Payment Request URIs | معرّفات URI لطلبات الدفع |  |  |
-| 33 | menuLabels.Podcast | Podcast | بودكاست |  |  |
-| 34 | menuLabels.Private Community Treasury | Private Community Treasury | خزانة المجتمع الخاصة |  |  |
-| 35 | menuLabels.Raspberry Pi 4 Full Node | Raspberry Pi 4 Full Node | عقدة كاملة على Raspberry Pi 4 |  |  |
-| 36 | menuLabels.Raspberry pi 4 Zebra Node | Raspberry pi 4 Zebra Node | عقدة Zebra على Raspberry pi 4 |  |  |
-| 37 | menuLabels.Raspberry pi5 Zebra Lightwalletd Zingo | Raspberry pi5 Zebra Lightwalletd Zingo | Raspberry pi5 Zebra Lightwalletd Zingo |  |  |
-| 38 | menuLabels.Recovering Funds | Recovering Funds | استرداد الأموال |  |  |
-| 39 | menuLabels.Research | Research | الأبحاث |  |  |
-| 40 | menuLabels.Send Money Privately | Send Money Privately | إرسال الأموال بشكل خاص |  |  |
-| 41 | menuLabels.Shielded Pools | Shielded Pools | المجموعات المحمية |  |  |
-| 42 | menuLabels.Sitemap | Sitemap | خريطة الموقع |  |  |
-| 43 | menuLabels.Start Here | Start Here | ابدأ من هنا |  |  |
-| 44 | menuLabels.Store | Store | المتجر |  |  |
-| 45 | menuLabels.Tools | Tools | الأدوات |  |  |
-| 46 | menuLabels.Transactions | Transactions | المعاملات |  |  |
-| 47 | menuLabels.Transparent Exchange Addresses | Transparent Exchange Addresses | عناوين الصرافة الشفافة |  |  |
-| 48 | menuLabels.Tutorials | Tutorials | دروس تعليمية |  |  |
-| 49 | menuLabels.Use Cases | Use Cases | حالات الاستخدام |  |  |
-| 50 | menuLabels.Using ZEC Privately | Using ZEC Privately | استخدام ZEC بشكل خاص |  |  |
-| 51 | menuLabels.Using ZEC in DeFi | Using ZEC in DeFi | استخدام ZEC في DeFi |  |  |
-| 52 | menuLabels.Using Zcash | Using Zcash | استخدام Zcash |  |  |
-| 53 | menuLabels.Visual Identity | Visual Identity | الهوية البصرية |  |  |
-| 54 | menuLabels.Visualizer | Visualizer | أداة التصور |  |  |
-| 55 | menuLabels.Visualizing Zcash Addresses | Visualizing Zcash Addresses | تصور عناوين Zcash |  |  |
-| 56 | menuLabels.Visualizing the Zcash Network | Visualizing the Zcash Network | تصور شبكة Zcash |  |  |
-| 57 | menuLabels.Wallets | Wallets | المحافظ |  |  |
-| 58 | menuLabels.Ywallet FROST Demo | Ywallet FROST Demo | عرض Ywallet FROST |  |  |
-| 59 | menuLabels.ZIPs & Grants | ZIPs & Grants | ZIPs والمنح |  |  |
-| 60 | menuLabels.Zcash Community | Zcash Community | مجتمع Zcash |  |  |
-| 61 | menuLabels.Zcash Ecosystem Security | Zcash Ecosystem Security | أمن منظومة Zcash |  |  |
-| 62 | menuLabels.Zcash Governance | Zcash Governance | حوكمة Zcash |  |  |
-| 63 | menuLabels.Zcash Improvement Proposals | Zcash Improvement Proposals | مقترحات تحسين Zcash |  |  |
-| 64 | menuLabels.Zcash Media | Zcash Media | إعلام Zcash |  |  |
-| 65 | menuLabels.Zcash Organizations | Zcash Organizations | منظمات Zcash |  |  |
-| 66 | menuLabels.Zcash Podcasts | Zcash Podcasts | بودكاست Zcash |  |  |
-| 67 | menuLabels.Zcon Archive | Zcon Archive | أرشيف Zcon |  |  |
-| 68 | menuLabels.Zcon Vozes Archive | Zcon Vozes Archive | أرشيف Zcon Vozes |  |  |
-| 69 | menuLabels.Zenith Installation | Zenith Installation | تثبيت Zenith |  |  |
-| 70 | menuLabels.Zero-Knowledge vs Decoys | Zero-Knowledge vs Decoys | إثباتات المعرفة الصفرية مقابل الطعوم |  |  |
-| 71 | menuLabels.Zgo Payment Processor | Zgo Payment Processor | معالج الدفع Zgo |  |  |
-| 72 | menuLabels.Zingolib and Zaino Tutorial | Zingolib and Zaino Tutorial | دليل Zingolib و Zaino |  |  |
-| 73 | menuLabels.Zkool Multisig | Zkool Multisig | تعدد التواقيع في Zkool |  |  |
-| 74 | menuLabels.Custodial Exchanges | Custodial Exchanges | منصات تداول وصائية |  |  |
-| 75 | menuLabels.Zcash Use Cases | Zcash Use Cases | حالات استخدام Zcash |  |  |
-| 76 | menuLabels.Zcash Tech | Zcash Tech | تقنيات Zcash |  |  |
-| 77 | menuLabels.Privacy Tools | Privacy Tools | أدوات الخصوصية |  |  |
-| 78 | menuLabels.Glossary & FAQ's | Glossary & FAQ's | مسرد المصطلحات والأسئلة الشائعة |  |  |
-| 79 | menuLabels.Pay for AI | Pay for AI | الدفع مقابل الذكاء الاصطناعي |  |  |
-| 80 | menuLabels.Community Building | Community Building | Community Building |  |  |
-| 81 | menuLabels.Nym Mixnet Wallet Setup | Nym Mixnet Wallet Setup | Nym Mixnet Wallet Setup |  |  |
-
-## Yellow coin menu (bottom right)
-(`exploreMenu`: 15 labels)
-
-| # | ID | English | Arabic | ✅ Confirmed | Notes |
-|---:|---|---|---|---|---|
-| 1 | exploreMenu.Full Explore | Full Explore | استكشاف كامل |  |  |
-| 2 | exploreMenu.Start Here | Start Here | ابدأ هنا |  |  |
-| 3 | exploreMenu.Tutorials | Tutorials | الدروس |  |  |
-| 4 | exploreMenu.Using Zcash | Using Zcash | استخدام Zcash |  |  |
-| 5 | exploreMenu.Guides | Guides | الأدلة |  |  |
-| 6 | exploreMenu.Zcash Tech | Zcash Tech | تقنيات Zcash |  |  |
-| 7 | exploreMenu.Zcash Organizations | Zcash Organizations | منظمات Zcash |  |  |
-| 8 | exploreMenu.Zcash Community | Zcash Community | مجتمع Zcash |  |  |
-| 9 | exploreMenu.Privacy Tools | Privacy Tools | أدوات الخصوصية |  |  |
-| 10 | exploreMenu.Research | Research | الأبحاث |  |  |
-| 11 | exploreMenu.Glossary & FAQs | Glossary & FAQs | مسرد المصطلحات والأسئلة الشائعة |  |  |
-| 12 | exploreMenu.Contribute | Contribute | ساهم |  |  |
-| 13 | exploreMenu.For Forks & Maintainers | For Forks & Maintainers | للتفريعات والمشرفين |  |  |
-| 14 | exploreMenu.Fork zechub-wiki | Fork zechub-wiki | Fork zechub-wiki |  |  |
-| 15 | exploreMenu.Fork zechub | Fork zechub | Fork zechub |  |  |
-
-## Side menu on article pages
-(`sideMenu`: 2 labels)
-
-| # | ID | English | Arabic | ✅ Confirmed | Notes |
-|---:|---|---|---|---|---|
-| 1 | sideMenu.navigation | Navigation | التنقّل |  |  |
-| 2 | sideMenu.explore | Explore | استكشاف |  |  |
+| # | ID | Question | Current | ✅ Answer | Notes |
+|---|---|---|---|---|---|
+| A | register | How to address the reader (formal or informal 'you'), and does it differ between tutorials and technical pages? |  | informal (أنت) everywhere | Arabic has no separate formal and informal "you", and ZecHub's tone is friendly, so the reader is addressed in the singular in both tutorials and technical pages. |
+| B | english_in_brackets | When an English term is kept, add the English in brackets: never / first-use / always? |  | first-use | The English word is added in brackets only the first time, e.g. «المجمع (Pool)», so readers can recognise the original term. |
+| C | loanwords | Crypto loanwords (blockchain, token, smart contract): keep English / translate? |  | translate | Use the Arabic term confirmed in this table (سلسلة الكتل, رمز, عقد ذكي); keep English only where a row says `keep English`. |
+| D | capitalise_kept_english_at_sentence_start | Capitalise a kept English term at the start of a sentence (yes / no)? |  | yes | Arabic has no capital letters, but a kept English term is capitalised when it starts a sentence, e.g. Note. |
+| E | numerals | Digits: western (0-9) only, or native digits allowed? |  | western (0-9) only | Our current pages already use western digits, and they are clearest next to code, addresses and amounts. |
+| F | decimal_separator | Decimal separator (0.5 or 0,5)? |  | 0.5 | Matches western digits, wallets and the English pages; a comma is used for thousands (1,000.5). |
+| G | quotes | Quotation marks? |  | «» | Standard quotation marks in Arabic typography. |
+| H | abbreviations_with_full_stop | Abbreviations written with a full stop that do not end a sentence? |  | no | «إلخ» and similar are written without a full stop; it stays only on single-letter titles such as «د.». |
