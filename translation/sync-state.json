@@ -34309,11 +34309,11 @@
       "edited": false
     },
     "Zcash_Organizations/Zingo_Labs.md": {
-      "src": "sha256:770e1173bb65a3b4d5f82f3bab1c0e8cb69850e889670e2e9f5205c6b564d0cd",
-      "src_commit": "7f2ae6404e4de308386122dcfd0ef3c1d490735a",
-      "engine": "nllb",
-      "mode": "seed",
-      "tool": "nllb-200-3.3B+linkrepair+gloss-restore+handfix",
+      "src": "sha256:27dd0b5bea57435e61b620784f6c618d711b69e53d11f652d50b5fd441b4508a",
+      "src_commit": "45bf9bad053e2227c25d8ab4aef19c0f22792bc3",
+      "engine": "gt",
+      "mode": "full",
+      "tool": "gt-static+handfix",
       "edited": false
     },
     "Zcash_Tech/Blossom.md": {
