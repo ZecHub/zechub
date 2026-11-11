@@ -10,9 +10,23 @@ A ṣe gbogbo ìgbésẹ̀ ní ìsàlẹ̀ pẹ̀lú ìgbésẹ̀ gidi ní ọj�
 
 ---
 
+## TL;DR
+
+- ZEC nínú àpò ìpamọ́ Solana rẹ jẹ́ àmì **Solana** (mint `A7bd…QXaS`) ti a fi 1:1 ṣe àtìlẹ́yìn fún láti ọwọ́ ZEC gidi tí NEAR OmniBridge di mú lórí ẹ̀wọ̀n Zcash — “ìwé ZEC" tí ó wà lórí ìwé àkọsílẹ̀ gbogbogbò Solana's tí a kò sì le dáàbò bò níbẹ̀.
+- Ọ̀nà náà jẹ́ ìgbésẹ̀ méjì: **fi owó pamọ́** àmì ìdánimọ̀ náà lórí solswap.org (NEAR Intents), lẹ́yìn náà **fi owó pamọ́ lórí near.com sí àpò ìpamọ́ rẹ `u1` Àdírẹ́sì. Má ṣe lo bọ́tìnì Swap Phantom's fúnra rẹ̀ — kò lè ràn ọ́ lọ́wọ́.
+- Lo àpò owó kan [Àkójọ ìtọ́sọ́nà ZecHub](/wallets) àmì **Ironwood: Ṣetán**, kí o sì pa SOL díẹ̀ mọ́ nínú Phantom fún owó Solana.
+- Idanwo gidi wa (27 Oṣù Kẹsàn 2026, 0.00266336 ZEC): idogo ti de ni iṣẹju-aaya 9, yiyọkuro gba to iṣẹju 8, iye owo apapọ ~0.00025 ZEC + 0.0016 SOL.
+- Laini aabo: fi ọwọ si awọn ibeere ifiranṣẹ nikan lori `near.com`/`solswap.org` pẹlu `intents.near` nínú ìránṣẹ́ náà, má ṣe tẹ gbólóhùn irugbin rẹ, kí o sì lẹẹ mọ́ `u1`, kìí ṣe `t1`.
+
+## Àfiwé ojú
+
+ZEC lórí Solana ń ṣiṣẹ́ bí **ẹ̀rún casino**. Ó gbówó bíi owó, àti casino — NEAR OmniBridge — ń ṣèlérí owó banknotes gidi (ZEC) fún ẹnikẹ́ni tí ó bá dá ërún náà padà. Ṣùgbọ́n ërún náà jẹ́ ìlà kan nínú ìwé àkọsílẹ̀ casino náà: gbogbo ènìyàn lè rí ẹni tí ó mú un, àti pé ìníyelórí rẹ̀ sinmi lórí àwọn ètò casino náà tí ó dúró ṣinṣin. Jíjáde kúrò nínú near.com jẹ́ rírìn lọ sí àgọ́ náà kí o sì gba ërún náà. Nígbà tí àwọn banknotes bá wà nínú adágún tí a dáàbò bò, wọ́n wà nínú àpò owó rẹ tí kò ní ìbòjú — kò sí ẹni tí ó lè rí iye owó náà tàbí ẹni tí ó mú un mọ́.
+
+---
+
 ## Ohun tí o ní ní gidi mú
 
-ZEC tí ó wà nínú àpò ìpamọ́ Solana rẹ jẹ́ àmì lórí Solana, kìí ṣe owó lórí nẹ́tíwọ́ọ̀kì Zcash. NEAR OmniBridge ló ń fúnni ní ìwé náà, ó sì ní ZEC gidi lórí ẹ̀wọ̀n Zcash láti ṣètìlẹ́yìn fún un; afárá náà ti wà lórí Solana láti oṣù kẹwàá ọdún 2025. Ẹ̀gbẹ́ Solana rẹ̀ ń ṣiṣẹ́ lórí àwọn ìránṣẹ́ Wormhole àti NEAR Chain Signatures, kìí ṣe lórí ẹ̀rọ Zcash light client, nítorí náà ẹ̀gbẹ́ Solana jẹ́ ohun tí ó dára bí àwọn ẹ̀rọ méjèèjì wọ̀nyẹn. Àwọn ènìyàn ń pè é ní "paper ZEC". Ó ń tọ́pasẹ̀ iye owó ZEC, ṣùgbọ́n gbogbo ìwọ́ntúnwọ̀nsì àti gbogbo ìṣípò wà lórí ìwé àkọsílẹ̀ gbogbogbò Solana lábẹ́ àdírẹ́sì àpò ìpamọ́ rẹ, a kò sì lè dáàbò bò ó nígbà tí ó bá dúró síbẹ̀.
+ZEC tí ó wà nínú àpò ìpamọ́ Solana rẹ jẹ́ àmì lórí Solana, kìí ṣe owó lórí nẹ́tíwọ́ọ̀kì Zcash. NEAR OmniBridge ló ń fúnni ní ìwé náà, ó sì ní ZEC gidi lórí ẹ̀wọ̀n Zcash láti ṣètìlẹ́yìn fún un; afárá náà ti wà lórí Solana láti oṣù kẹwàá ọdún 2025. Ẹ̀gbẹ́ Solana rẹ̀ ń ṣiṣẹ́ lórí àwọn ìránṣẹ́ Wormhole àti NEAR Chain Signatures, kìí ṣe lórí ẹ̀rọ Zcash light client, nítorí náà ẹ̀gbẹ́ Solana jẹ́ ohun tí ó dára bí àwọn ẹ̀rọ méjèèjì wọ̀nyẹn. Àwọn ènìyàn ń pè é ní "paper ZEC". Ó ń tọ́pasẹ̀ iye owó ZEC, ṣùgbọ́n gbogbo ìwọ́ntúnwọ̀nsì àti gbogbo ìṣípò wà lórí ìwé àkọsílẹ̀ gbogbogbò Solana's lábẹ́ àdírẹ́sì àpò ìpamọ́ rẹ, a kò sì lè dáàbò bò ó nígbà tí ó bá dúró síbẹ̀.
 
 Ṣàyẹ̀wò pé tìrẹ ni àmì gidi náà. Nínú Phantom, tẹ **ZEC** kí o sì yí lọ sí **About Zcash**. Àdírẹ́sì àdéhùn náà gbọ́dọ̀ jẹ́:
 
@@ -40,7 +54,7 @@ O ti di ZEC. Gbígbé e sínú àpò Zcash mú kí o ní ipa tó sọ ọ́ di Z
 
 ZecHub kò yan ọ̀kan fún ọ. Yan lára [Àkójọ àpò owó ZecHub](/wallets), kí o sì ṣàyẹ̀wò àwọn àmì méjì lórí káàdì àpò owó náà kí o tó fi sínú rẹ̀:
 
-- **Ironwood: Ṣetán.** Ironwood ni adágún tuntun ti a fi ààbò bo ZEC wọ inu rẹ̀ lati ìgbà tí [Ìmúdàgbàsókè Ironwood](/zcash-tech/ironwood) ní ọjọ́ kejìdínlọ́gbọ̀n oṣù keje ọdún 2026. Adágún Orchard àtijọ́ kò gba owó tuntun mọ́.
+- **Ironwood: Ṣetán.** Ironwood ni adágún tuntun ti a fi ààbò bo ti ZEC wọ inu lati igba ti [Ìmúdàgbàsókè Ironwood](/zcash-tech/ironwood) ní ọjọ́ kejìdínlọ́gbọ̀n oṣù keje ọdún 2026. Adágún Orchard àtijọ́ kò gba owó tuntun mọ́.
 - **Ààbò Àìfọwọ́sí.** Wúlò tí ìsanwó bá hàn gbangba: àpò owó náà gbé ZEC náà sínú adágún ààbò fún ọ. Má ṣe lo àmì yìí gẹ́gẹ́ bí àfikún fún **Ironwood: Ṣetán**. Àpò owó lè ní Ààbò Àìfọwọ́sí láìfọwọ́sí síbẹ̀ kí ó má sì ní adágún Ironwood (Edge wà ní ipò yẹn lórí àkójọ ìwé lónìí). Ọ̀pọ̀lọpọ̀ àpò owó mìíràn fi bọ́tìnì **Shield** hàn dípò.
 
 Fi àpò owó náà sínú àpò owó náà láti inú ìjápọ̀ lórí káàdì ìtọ́sọ́nà rẹ̀, kìí ṣe láti inú àbájáde ìwárí tàbí ìpolówó. Kọ gbólóhùn náà sí orí ìwé kí o sì pa á mọ́ láìsí ìkànnì ayélujára.
@@ -51,10 +65,10 @@ Fi àpò owó náà sínú àpò owó náà láti inú ìjápọ̀ lórí káàd
 
 | Bẹ̀rẹ̀ pẹ̀lú | Irú | Ohun tí gbogbo ènìyàn rí |
 |---|---|---|
-| `u1` | Unified Address | Kò sí ohunkóhun nípa rẹ, ṣùgbọ́n nígbà tí ìsanwó bá dé sínú adágún ààbò kan nìkan |
+| `u1` | Àdírẹ́sì Ìṣọ̀kan | Kò sí ohunkóhun nípa rẹ, ṣùgbọ́n nígbà tí ìsanwó bá dé sínú adágún ààbò kan nìkan |
 | `t1` | Àdírẹ́sì tí ó ṣe kedere | Àdírẹ́sì rẹ àti iye owó náà, títí láé, bíi lórí Solana |
 
-Lo a `u1` pé àwọn àmì àpò rẹ jẹ́ ààbò `u1` jẹ́ àkójọ àwọn olùgbà, àwọn àpò owó kan sì fi olùgbà tí ó hàn gbangba sí i lẹ́gbẹ̀ẹ́ èyí tí a dáàbò bò. Olùránṣẹ́ tí ó lè san àdírẹ́sì tí ó hàn gbangba nìkan ni yóò lo èyí náà, ìsanwó rẹ yóò sì hàn gbangba bí ó tilẹ̀ jẹ́ pé o fi `u1`Àdírẹ́sì àpò ìdánwò wa kò ní olùgbà tí ó hàn gbangba, nítorí náà èyí kò lè ṣẹlẹ̀. [Àwọn adágún adágún tí a dáàbò bò](/using-zcash/shielded-pools) bo awọn olugba ni alaye diẹ sii. Awọn apamọwọ kan fihan tuntun kan `u1` Nígbàkúgbà tí o bá ṣí Gba; ìyẹn jẹ́ déédé, gbogbo wọn sì jẹ́ ti rẹ. Àwòrán gbígbà àti pápá olùgbà near.com lórí ojú ìwé yìí lo ọ̀nà ọ̀tọ̀ọ̀tọ̀ `u1` àwọn ìṣáájú fún ìdí yẹn.
+Lo a `u1` pé àwọn àmì àpò rẹ jẹ́ ààbò `u1` jẹ́ àkójọ àwọn olùgbà, àwọn àpò owó kan sì fi olùgbà tí ó hàn gbangba sí i lẹ́gbẹ̀ẹ́ èyí tí a dáàbò bò. Olùránṣẹ́ tí ó lè san àdírẹ́sì tí ó hàn gbangba nìkan ni yóò lo èyí náà, ìsanwó rẹ yóò sì hàn gbangba bí ó tilẹ̀ jẹ́ pé o fi `u1` Àdírẹ́sì àpò ìdánwò wa kò ní olùgbà tí ó hàn gbangba, nítorí náà èyí kò lè ṣẹlẹ̀. [Àwọn adágún adágún tí a dáàbò bò](/using-zcash/shielded-pools) bo awọn olugba ni alaye diẹ sii. Awọn apamọwọ kan fihan tuntun kan `u1` Nígbàkúgbà tí o bá ṣí Gba; ìyẹn jẹ́ déédé, gbogbo wọn sì jẹ́ ti rẹ. Àwòrán gbígbà àti pápá olùgbà near.com lórí ojú ìwé yìí lo ọ̀nà ọ̀tọ̀ọ̀tọ̀ `u1` àwọn ìṣáájú fún ìdí yẹn.
 
 A lo ZODL fún ìdánwò wa nítorí pé àpò owó tí a ṣètò ni. Àwọn àpò owó tí àkójọ ìwé àmì **Ironwood: Ready** nìkan ló lè gba iye tuntun tí a dáàbò bò.
 
@@ -62,7 +76,7 @@ A lo ZODL fún ìdánwò wa nítorí pé àpò owó tí a ṣètò ni. Àwọn �
 
 ## Gbé e
 
-Ọ̀nà náà ní apá méjì: fi ZEC rẹ sínú NEAR Intents láti Phantom, lẹ́yìn náà fi ránṣẹ́ sí àdírẹ́sì Zcash rẹ [solswap.org](https://solswap.org), ojú-òpó wẹ́ẹ̀bù tí a kọ́ ní ìtòsí fún àwọn olùlò Solana, fún apá àkọ́kọ́ àti [near.com](https://near.com), àpù NEAR fúnra rẹ̀, fún ìgbà kejì. ZecHub's [Bii o ṣe le ṣe paṣipaarọ fun ZEC ni Phantom Wallet](/using-zcash/solswap) ìtọ́sọ́nà bo àwọn ìbòjú solswap ní àlàyé síi. Má ṣe lo bọ́tìnì **Swap** Phantom's fún èyí: o ti di àmì náà mú, tí o bá sì pààrọ̀ rẹ̀, kò ní jẹ́ kí o rí ibi kankan.
+Ọ̀nà náà ní apá méjì: fi ZEC rẹ sínú NEAR Intents láti Phantom, lẹ́yìn náà fi ránṣẹ́ sí àdírẹ́sì Zcash rẹ [solswap.org](https://solswap.org), ojú NEAR-built fún àwọn olùlò Solana, fún apá àkọ́kọ́ àti [near.com](https://near.com), àpù NEAR's fúnra rẹ̀, fún ìgbà kejì. ZecHub's [Bii o ṣe le ṣe paṣipaarọ fun ZEC ni Phantom Wallet](/using-zcash/solswap) ìtọ́sọ́nà bo àwọn ìbòjú solswap ní àlàyé síi. Má ṣe lo bọ́tìnì **Swap** Phantom's fún èyí: o ti di àmì náà mú, tí o bá sì pààrọ̀ rẹ̀, kò ní jẹ́ kí o rí ibi kankan.
 
 Pa SOL diẹ ninu Phantom fun owo Solana.
 
@@ -129,13 +143,13 @@ Tí èyí bá ṣẹlẹ̀ sí ọ, ZEC rẹ kò ní dúró. Ìwọ̀n owó ná�
 
 Àkọsílẹ̀: Ifipamọ́ Solana [5ijsgRrh…AjLkx](https://solscan.io/tx/5ijsgRrhViNTtFMmnsfJDSo3HhRmt3Ri7WB513oBoQLxfGNswDxvHnakwW1yyqXznTTCSxnUkooAHDKowz9AjLkx), NEAR Intents [79c23cfd…a405a9](https://explorer.near-intents.org/transactions/79c23cfd43928de5522c182e26f8f052dc9c43d53430ca497b40e016a6a405a9), Zcash [28d6da27…481034](https://mainnet.zcashexplorer.app/transactions/28d6da27d74dc91e45175a7aff6023bc85578603dd77f1b49782a28f8f481034) nínú block 3,498,141. Owó àti àkókò máa ń yípadà pẹ̀lú ẹrù nẹ́tíwọ́ọ̀kì, nítorí náà, ìbòjú àtúnyẹ̀wò ni ọ̀rọ̀ ìkẹyìn nígbà tí o bá ṣe é.
 
-NEAR’s Bridge ṣe atẹjade iye owo ZEC ti o kere ju 0.01 ati 0.00047 ZEC fun awọn yiyọkuro Zcash deede rẹ. near.com ko kan si 0.0026 ZEC. Ti app kan ba kọ iye owo kekere kan, gbiyanju near.com ṣaaju ki o to fi sii.
+NEAR's Bridge ṣe atẹjade iye owo ZEC ti o kere ju 0.01 ati 0.00047 ZEC fun awọn yiyọkuro Zcash deede rẹ. near.com ko kan si 0.0026 ZEC. Ti app kan ba kọ iye owo kekere kan, gbiyanju near.com ṣaaju ki o to fi sii.
 
 ### Àwọn ọ̀nà míràn àti ohun tí olúkúlùkù gbẹ́kẹ̀lé
 
 Gbogbo ipa ọ̀nà tí ó jáde láti Solana gbẹ́kẹ̀lé OmniBridge, nítorí pé afárá náà di ZEC tí ó ń ṣe àtìlẹ́yìn fún àmì ìdánimọ̀ rẹ mú. Lókè èyí:
 
-- **Ọ̀nà tí ó wà lókè** gbẹ́kẹ̀lé NEAR Intents. Ìfọwọ́sowọ́pọ̀ rẹ fún àṣẹ láti gbé ìgbésẹ̀ náà, àwọn olùdáhùn fi ZEC ránṣẹ́ ní ẹ̀gbẹ́ Zcash, NEAR Intents sì lè gba owó fún àtúnyẹ̀wò ìlànà; ní ọdún 2026, ẹni tí ó ni Zcash [royin paṣipaarọ nla kan ti o waye fun awọn ọsẹ](https://www.cryptotimes.io/2026/09/11/zcash-holder-says-589k-usdt-stuck-on-near-intents-50-days-after-zodl-swap/)O tun so apamọwọ rẹ pọ mọ awọn oju opo wẹẹbu meji, nitorinaa ṣayẹwo ọpa adirẹsi ni gbogbo igba.
+- **Ọ̀nà tí ó wà lókè** gbẹ́kẹ̀lé NEAR Intents. Ìfọwọ́sowọ́pọ̀ rẹ fún àṣẹ láti gbé ìgbésẹ̀ náà, àwọn olùdáhùn fi ZEC ránṣẹ́ ní ẹ̀gbẹ́ Zcash, NEAR Intents sì lè gba owó fún àtúnyẹ̀wò ìlànà; ní ọdún 2026, ẹni tí ó ni Zcash [royin paṣipaarọ nla kan ti o waye fun awọn ọsẹ](https://www.cryptotimes.io/2026/09/11/zcash-holder-says-589k-usdt-stuck-on-near-intents-50-days-after-zodl-swap/). O tun so apamọwọ rẹ pọ mọ awọn oju opo wẹẹbu meji, nitorinaa ṣayẹwo ọpa adirẹsi ni gbogbo igba.
 - **Àwọn àpò ìfowópamọ́ pẹ̀lú NEAR Intents tí a kọ́ sínú** (wá ẹ̀yà NEAR Intents nínú [àkójọ ìwé àkójọ](/wallets)) lo eto kanna lati inu apamọwọ Zcash. Igbẹkẹle kanna, awọn oju opo wẹẹbu diẹ. A ko ṣe idanwo eyi pẹlu ZEC lori Solana.
 - **Paṣipaarọ**, kìkì tí ó bá gba owó ìdókòwò àmì yìí lórí nẹ́tíwọ́ọ̀kì Solana, èyí tí ọ̀pọ̀lọpọ̀ kò gbà. O fi ìtọ́jú àti ìdámọ̀ rẹ sílẹ̀, àti pé ọ̀pọ̀lọpọ̀ àwọn paṣipaaro nìkan ni o fi ZEC ránṣẹ́ sí `t1` Àwọn àdírẹ́sì. Wo [awọn paṣipaarọ abojuto](/using-zcash/custodial-exchanges).
 
@@ -171,9 +185,9 @@ A kò fi ránṣẹ́ sí ọ̀kan, ṣùgbọ́n àbájáde rẹ̀ ṣeé sọt
 
 Àwọn tó ṣẹ̀ṣẹ̀ di ẹni tí wọ́n ń ta ọjà ni wọ́n máa ń fojú sí. Ó fẹ́rẹ̀ẹ́ jẹ́ pé gbogbo ẹ̀tàn tí o máa rí ló jẹ́ ọ̀kan lára àwọn wọ̀nyí:
 
-- **Irú àdírẹ́sì tí kò tọ́.** Àdírẹ́sì Zcash bẹ̀rẹ̀ pẹ̀lú `u1`, `t1`, `zs` or `tex1`Àdírẹ́sì Solana kò ní èyíkéyìí nínú àwọn àmì ìṣáájú wọ̀nyẹn. Má ṣe fi ZEC ìbílẹ̀ ránṣẹ́ sí àdírẹ́sì Solana, má sì ṣe fi àmì Solana ránṣẹ́ sí àdírẹ́sì Zcash.
+- **Irú àdírẹ́sì tí kò tọ́.** Àdírẹ́sì Zcash bẹ̀rẹ̀ pẹ̀lú `u1`, `t1`, `zs` or `tex1`. Àdírẹ́sì Solana kò ní èyíkéyìí nínú àwọn àmì ìṣáájú wọ̀nyẹn. Má ṣe fi ZEC ìbílẹ̀ ránṣẹ́ sí àdírẹ́sì Solana, má sì ṣe fi àmì Solana ránṣẹ́ sí àdírẹ́sì Zcash.
 - **Awọn iṣẹ ti o han gbangba nikan.** Diẹ ninu awọn afárá, awọn aaye iyipada ati awọn paṣipaarọ le firanṣẹ si nikan `t1` Àwọn àdírẹ́sì. Èyí ṣeé ṣe tí o bá dáàbò bo ZEC ní kété tí ó bá dé. Má ṣe fi sílẹ̀ níbẹ̀.
-- **Àwọn àpò ìfowópamọ́ èké.** Fi sori ẹrọ láti inú ìjápọ̀ lórí ẹ̀rọ náà nìkan [àkójọ àpò owó](/wallets) káàdì tàbí àkójọ àwọn ohun èlò ìpamọ́ tí ó tọ́ka sí. Àwọn ohun èlò ìpamọ́ owó crypto èké máa ń wọ inú àwọn ohun èlò ìpamọ́, wọ́n sì máa ń dà bí ohun gidi gan-an.
+- **Àwọn àpò ìfowópamọ́ èké.** Fi sori ẹrọ láti inú ìjápọ̀ lórí ẹ̀rọ náà nìkan [àkójọ àpò owó](/wallets) káàdì tàbí àkójọ àwọn ohun èlò ìṣàfilọ́lẹ̀ tí ó tọ́ka sí. Àwọn ohun èlò ìpamọ́ owó ìpamọ́ èké máa ń wọ inú àwọn ohun èlò ìṣàfilọ́lẹ̀, wọ́n sì máa ń dà bí ohun gidi gan-an.
 - **Àpótí ìfọ́mọ́ra gbólóhùn irúgbìn.** Kò sí àpò owó, afárá, ojú òpó ìyípadà, aṣojú ìrànlọ́wọ́, olùdarí tàbí airdrop tí ó nílò gbólóhùn irúgbìn rẹ. Wíwọlé sí ìránṣẹ́ kan kò níí ṣe pẹ̀lú títẹ̀ ẹ́. Ẹnikẹ́ni tí ó bá béèrè fún un ń gbìyànjú láti jí nǹkan lọ́wọ́ rẹ. [Gbigba awọn owo pada](/using-zcash/recovering-funds) bo abala “a ó gba àpò owó rẹ padà” ti ìtànjẹ yìí.
 - **Àwọn àmì ẹ̀tàn àti àwọn ojú òpó "ẹ̀tọ́".** Àwọn àmì tí a ń pè ní ZEC, Zcash tàbí ohun kan tí ó sún mọ́ ara wọn máa ń hàn nínú àwọn àpò Solana láìbéèrè, nígbà míìrán pẹ̀lú ìjápọ̀ láti "béèrè" sí i. Síso àpò rẹ pọ̀ mọ́ ìjápọ̀ yẹn lè mú kí ó bàjẹ́. Ṣàyẹ̀wò àdírẹ́sì àdéhùn láti òkè ojú ìwé yìí kí o sì fojú fo gbogbo nǹkan mìíràn.
 - **Àwọn ìbéèrè ìfọwọ́sowọ́pọ̀ búburú.** Ìbéèrè "Wọlé Ìránṣẹ́" lè gbé ìwọ́ntúnwọ̀nsì NEAR Intents rẹ lọ láìsí owó SOL kankan. Wọlé nìkan `near.com` or `solswap.org`, àti nígbà tí ìránṣẹ́ náà bá pe orúkọ rẹ̀ nìkan `intents.near` (igbesẹ 5 loke fihan ohun ti o yẹ ki o ṣayẹwo).
@@ -181,9 +195,28 @@ A kò fi ránṣẹ́ sí ọ̀kan, ṣùgbọ́n àbájáde rẹ̀ ṣeé sọt
 
 ---
 
+## Àwọn Àṣìṣe Tó Wọ́pọ̀
+
+- **Lílo bọ́tìnì Swap Phantom's** dípò ìsanwó ìdókòwò. O ti di àmì náà mú — pààrọ̀ kan máa ń pààrọ̀ ZEC fún àmì mìíràn, kò sì ní jẹ́ kí o sún mọ́ ZEC.
+- **Lílo ohun kan `t1` àdírẹ́sì**, tàbí a `u1` tí ó ń fi olugba tí ó hàn gbangba pamọ́, nígbà tí àpò rẹ bá ní ààbò nìkan `u1` Idókòwò náà máa ń dé sí gbogbo ènìyàn, ó sì máa ń so ó pọ̀ mọ́ àpò owó rẹ títí láé.
+- **Mo gbà pé owó ti di** nígbà tí ojú ìwé yíyọ owó ti solswap fi hàn pé "–". Ìwọ̀n tó kù náà tẹ̀lé kọ́kọ́rọ́ Phantom rẹ, kìí ṣe ojú òpó wẹ́ẹ̀bù náà — parí yíyọ owó náà lórí near.com.
+- **Wíwọlé sí ìránṣẹ́ láìṣàyẹ̀wò rẹ̀.** Ojú òpó wẹ́ẹ̀bù tó jọra lè sọ ìwọ́n NEAR Intents rẹ di òfo pẹ̀lú àmì kan ṣoṣo. Ojú òpó wẹ́ẹ̀bù náà gbọ́dọ̀ jẹ́ `near.com` àti pé ìránṣẹ́ náà gbọ́dọ̀ ní `"verifying_contract": "intents.near"`.
+- **Ìdàrúdàpọ̀ àwọn àmì "ZEC" méjì.** Àmì Solana àti Zcash ZEC ìbílẹ̀ ní orúkọ kan ṣùgbọ́n kìí ṣe nẹ́tíwọ́ọ̀kì — fífiránṣẹ́ sí ẹ̀wọ̀n kejì pàdánù rẹ̀.
+
 ## Kini lati ṣe pẹlu ZEC ti a daabobo
 
 - Pa a mọ́ nígbà tí o bá ń ná an: [Lilo ZEC ni ikọkọ](/guides/using-zec-privately)
 - Wa awọn ibi ti o gba: [Awọn ibi lati lo ZEC](/using-zcash/spend-zcash/top-10-places-to-spend-zec)
 - Firanṣẹ́ pẹ̀lú ìránṣẹ́ ìkọ̀kọ̀ tí a so mọ́ ọn: [Àwọn Àkọsílẹ̀](/using-zcash/memos)
 - San owo fun ẹnikan laisi asopọ idanimọ rẹ: [Fi owo ranṣẹ laisi asopọ idanimọ](/zcash-use-cases/send-money-without-linking-identity)
+
+---
+
+## Àwọn ojú ìwé tó jọra
+
+- [Bii o ṣe le ṣe paṣipaarọ fun ZEC ni Phantom Wallet](/using-zcash/solswap) - awọn iboju solswap ni awọn alaye diẹ sii
+- [Àwọn adágún adágún tí a dáàbò bò](/using-zcash/shielded-pools) — àwọn adágún Ironwood/Orchard wo ni àti bí àwọn olùgbàṣe ṣe ń ṣiṣẹ́
+- [Ta ló lè rí ìsanwó Zcash rẹ?](/start-here/who-can-see-your-zcash-payment) — ohun tí ààbò fi pamọ́ gan-an
+- [Àwọn Àpò Ìpamọ́](/wallets) — àkójọ ìwé náà; ṣàyẹ̀wò àmì **Ironwood: Ready**
+- [Àwọn pàṣípààrọ̀ àkóso](/using-zcash/custodial-exchanges) — ipa-ipa ọna yii yẹra fun
+- [Gbigba awọn owo pada](/using-zcash/recovering-funds) — àwọn ohun tí ó yẹ kí o pa mọ́ kí o má ba pàdánù ìwọlé rẹ

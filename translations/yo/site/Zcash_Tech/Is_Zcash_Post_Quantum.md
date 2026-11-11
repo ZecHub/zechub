@@ -56,22 +56,22 @@ Táblì yìí ṣàlàyé ìlànà náà bí ó ṣe ń ṣiṣẹ́ nísinsìny
 
 ## Ohun ti Ironwood yipada
 
-Ironwood ni àtúnṣe nẹ́tíwọ́ọ̀kì NU6.3. Ó ṣiṣẹ́ lórí Mainnet ní block 3,428,143 ní ọjọ́ kejìdínlọ́gbọ̀n oṣù keje ọdún 2026. Ète pàtàkì rẹ̀ ni ìdúróṣinṣin ìpèsè lẹ́yìn ìṣòro ìlera Orchard (wo [Ironwood](/zcash-tech/ironwood) ojú ìwé), àti agbára ìtúnpadà kuatomu láti ZIP 2005 tí a fi ránṣẹ́ gẹ́gẹ́ bí apá kan rẹ̀.
+Ironwood ni igbesoke nẹtiwọọki NU6.3. O ṣiṣẹ lori Mainnet ni bulọọki 3,428,143 ni ọjọ 28 Oṣu Keje ọdun 2026. Idi akọkọ rẹ ni iduroṣinṣin ipese lẹhin aṣiṣe ilera Orchard (wo [Ironwood](/zcash-tech/ironwood) ojú ìwé), àti agbára ìtúnpadà kuatomu láti ZIP 2005 tí a fi ránṣẹ́ gẹ́gẹ́ bí apá kan rẹ̀.
 
-- **Ìrísí àkọsílẹ̀ tuntun kan.** Gbogbo àkọsílẹ̀ ìjáde Ironwood lo ìrísí tí a lè gbà padà (ṣàkíyèsí byte ìtọ́kasí lásán `0x03`). Àìròtẹ́lẹ̀ tí àkọsílẹ̀ náà ní ni a ti mú wá láti inú gbogbo àwọn pápá rẹ̀ báyìí, nítorí náà, a so àkọsílẹ̀ náà mọ́ àwọn ohun tó wà nínú rẹ̀ pẹ̀lú hash dípò mathimatiki elliptic-curve nìkan.
+- **Ìrísí àkọsílẹ̀ tuntun kan.** Gbogbo àkọsílẹ̀ ìjáde Ironwood ló ń lo ìrísí tí a lè gbà padà (kíyèsí byte ìkọ̀wé lásán `0x03`). Àìròtẹ́lẹ̀ tí àkọsílẹ̀ náà ní ni a ti mú wá láti inú gbogbo àwọn pápá rẹ̀ báyìí, nítorí náà, a so àkọsílẹ̀ náà mọ́ àwọn ohun tó wà nínú rẹ̀ pẹ̀lú hash dípò mathimatiki elliptic-curve nìkan.
 - **Ọ̀nà ìgbàpadà fún àwọn àkọsílẹ̀ Ironwood nìkan.** ZIP 326 hàn gbangba pé gbogbo àkọsílẹ̀ Ironwood ni a lè gbà padà àti pé kò sí àkọsílẹ̀ Orchard kankan. Ètò àpò owó kò yí ìyẹn padà.
 - **Orchard dẹ́kun gbígbà iye tuntun.** Àwọn èrè Coinbase kò le lọ sí Orchard, Orchard kò sì le fi ránṣẹ́ sí àdírẹ́sì Orchard mìíràn mọ́, nítorí náà iye tuntun tí a dáàbò bò yóò dé sí Ironwood.
 - **A sọ fún àwọn àpò owó láti gbé gbogbo nǹkan.** ZIP 2005 sọ pé àwọn àpò owó gbọ́dọ̀ gbé gbogbo owó tí wọ́n ń ṣàkóso, títí kan owó Sprout àti Sapling, sínú ìwé owó Ironwood ní kété tí ó bá ti ṣeé ṣe, kí wọ́n sì máa ṣe bẹ́ẹ̀ bí owó tuntun bá dé.
 
-Ohun tí Ironwood kò yí padà: ìkọ̀kọ̀ tí a lò fún ìnáwó àti ìfìdí múlẹ̀ lónìí, àkíyèsí ìkọ̀kọ̀, àti ohunkóhun nípa ZEC.
+Ohun tí Ironwood kò yí padà: ìkọ̀kọ̀ tí a lò fún ìnáwó àti ìfìdí múlẹ̀ lónìí, kíkọ ìkọ̀kọ̀ sílẹ̀, àti ohunkóhun nípa ZEC.
 
 <br/>
 
 ## Àwọn ààlà tó kù
 
-**Fèrèsé ìfarahàn kan wà.** Láti ìgbà Ironwood's ti ń ṣiṣẹ́ títí di ìgbà tí a bá pa àwọn ìlànà àtijọ́, apànìyàn quantum ṣì lè jí, gbé owó sókè tàbí dí owó ní gbogbo adágún tí a dáàbò bò. ZIP 2005 pe èyí ní "àkókò ìfarahàn pàtàkì" ó sì kìlọ̀ pé ìkọlù nígbà tí ó bá ṣẹlẹ̀ lè ba agbára ẹni tí ó ni ín jẹ́ láti padà bọ̀ sípò nígbà tí ó bá yá. Ìdí nìyí tí ó fi sọ pé Zcash gbọ́dọ̀ pa Orchard, Sapling àti Sprout **kí ó tó** di pé àwọn ìkọlù quantum di ohun tí ó ṣeé ṣe.
+**Fèrèsé ìfarahàn kan wà.** Láti ìgbà Ironwood's ti ń ṣiṣẹ́ títí di ìgbà tí a bá pa àwọn ìlànà àtijọ́, apànìyàn quantum ṣì lè jí, gbé owó sókè tàbí dí owó ní gbogbo adágún tí a dáàbò bò. ZIP 2005 pe èyí ní "àkókò ìfarahàn pàtàkì" ó sì kìlọ̀ pé ìkọlù nígbà tí ó bá ṣẹlẹ̀ lè ba agbára ẹni tí ó ni ín jẹ́ láti padà bọ̀ sípò nígbà tí ó bá yá. Ìdí nìyí tí ó fi sọ pé Zcash gbọ́dọ̀ pa Orchard, Sapling àti Sprout **kí ó tó di pé àwọn ìkọlù quantum di ohun tí ó ṣeé ṣe.
 
-**A kò ní ọjọ́ tí a ó pa á, àyàfi Sprout.** Kò sí ìtòlẹ́sẹẹsẹ ZIP tí a ó pa Orchard tàbí Sapling. Sprout yàtọ̀: [ZIP 259](https://zips.z.cash/zip-0259) Àkójọ ZIP 2003 lára àwọn àyípadà tí NU7 ń gbé jáde, nítorí náà àwọn ìṣòwò ẹ̀yà 4 yóò di aláìlágbára nígbà tí NU7 bá ṣiṣẹ́, àti pé èyíkéyìí ZEC tí ó bá kù nínú adágún Sprout kò ní náwó. Ìmúṣiṣẹ́ Mainnet yóò wáyé ní ọjọ́ karùn-ún oṣù kọkànlá ọdún 2026, pẹ̀lú ìpinnu ìkẹyìn tí a ó ṣe ní ọjọ́ ogún oṣù kẹwàá ọdún 2026 ([ìkéde àpérò](https://forum.zcashcommunity.com/t/nu7-timeline/57655)) Ìjíròrò ìyọkúrò Sapling nìkan bẹ̀rẹ̀ ní orí ìtàkùn náà ní oṣù kẹrin ọdún 2026.
+**A kò ní ọjọ́ tí a ó pa á, àyàfi Sprout.** Kò sí ìtòlẹ́sẹẹsẹ ZIP tí a ó pa Orchard tàbí Sapling. Sprout yàtọ̀: [ZIP 259](https://zips.z.cash/zip-0259) ṣe àkójọ ZIP 2003 lára àwọn àyípadà tí NU7 ń gbé jáde, nítorí náà àwọn ìṣòwò ẹ̀yà 4 yóò di aláìlágbára nígbà tí NU7 bá ṣiṣẹ́, àti pé èyíkéyìí ZEC tí ó bá kù nínú adágún Sprout kò ní lè náwó. A ṣètò ìṣiṣẹ́ Mainnet fún block 3,543,405, tí a fojú sí fún 5 Oṣù Kọkànlá 2026 ([ZIP 259](https://zips.z.cash/zip-0259), [ìkéde àpérò](https://forum.zcashcommunity.com/t/nu7-timeline/57655)) Ìjíròrò ìyọkúrò Sapling nìkan bẹ̀rẹ̀ ní orí ìtàkùn náà ní oṣù kẹrin ọdún 2026.
 
 **Ìlànà Ìgbàpadà kò parí.** ZIP 2005 kàn ṣàlàyé rẹ̀ nìkan, ó sì sọ pé àwọn kúlẹ̀kúlẹ̀ náà “lè yípadà”. Kò sí ohunkóhun nípa rẹ̀.
 
@@ -88,7 +88,7 @@ Ohun tí Ironwood kò yí padà: ìkọ̀kọ̀ tí a lò fún ìnáwó àti ìf
 Kò sí ọ̀kan lára àwọn wọ̀nyí tí ó wà láàyè.
 
 - **Ìlànà Ìgbàpadà.** Ọ̀nà tí yóò jẹ́ kí a ná owó Ironwood lẹ́yìn ìyípadà náà. A ṣe àkọsílẹ̀ rẹ̀ nínú ZIP 2005, a kò sọ ọ́ ní pàtó.
-- **ZIP 2007, a lè gbà á padà fún àwọn àdírẹ́sì tó ṣe kedere.** Nọ́mbà ZIP tí a fipamọ́ nìkan pẹ̀lú ìjíròrò nínú [àwọn ìfìwéránṣẹ́ #1302](https://github.com/zcash/zips/issues/1302)Èrò náà ni pé àwọn ìjáde P2PKH àti P2SH tí a kò tíì fi àwọn kọ́kọ́rọ́ gbogbogbò hàn rí lè ṣeé gbà padà, pẹ̀lú àwọn ìdánilójú tí kò lágbára ju Ironwood.
+- **ZIP 2007, a lè gbà á padà fún àwọn àdírẹ́sì tó ṣe kedere.** Nọ́mbà ZIP tí a fipamọ́ nìkan pẹ̀lú ìjíròrò nínú [àwọn ìfìwéránṣẹ́ #1302](https://github.com/zcash/zips/issues/1302). Èrò náà ni pé àwọn ìjáde P2PKH àti P2SH tí a kò tíì fi àwọn kọ́kọ́rọ́ gbogbogbò hàn rí lè ṣeé gbà padà, pẹ̀lú àwọn ìdánilójú tí kò lágbára ju Ironwood.
 - **Ìpamọ́ lẹ́yìn-ìwọ̀n fún àwọn àdírẹ́sì tí a mọ̀.** Ṣí sílẹ̀ láti ọdún 2022 ní [àwọn ìfìwéránṣẹ́ #1133](https://github.com/zcash/zips/issues/1133), èyí tí ó sọ pé Zcash ti “ṣe àṣírí lẹ́yìn ìsanwó” nígbà tí a bá pa àwọn àdírẹ́sì mọ́ ní ìkọ̀kọ̀, tí ó sì béèrè bí a ṣe lè fa èyí sí àwọn àdírẹ́sì tí a mọ̀, fún àpẹẹrẹ pẹ̀lú ètò ìdènà bọtini post-quantum bíi Kyber (tí ó jẹ́ ML-KEM báyìí). Ní oṣù kẹfà ọdún 2026 [àwọn ìfìwéránṣẹ́ #1307](https://github.com/zcash/zips/issues/1307) dábàá ZIP kan láti ṣàkọsílẹ̀ àwọn ohun ìní ìpamọ́ lọ́wọ́lọ́wọ́ àti àwọn àtúnṣe tó ṣeé ṣe.
 - **Iṣẹ́ Tachyon.** Ìgbéga ìwọ̀n tí a dámọ̀ràn. Ojú òpó wẹ́ẹ̀bù rẹ̀ sọ pé yóò gba "ìpamọ́ post-quantum kíkún" gẹ́gẹ́ bí àbájáde ẹ̀gbẹ́, nípa gbígbé ìsanwó kúrò ní ẹ̀wọ̀n àti lílo post-quantum key pàṣípààrọ̀. A ṣe àpèjúwe ìkàwé dátà tí ó ń gbé ẹ̀rí rẹ̀, Ragu, gẹ́gẹ́ bí "ó ṣì wà lábẹ́ ìkọ́lé". Wo [Iṣẹ́ Tachyon](/zcash-tech/project-tachyon).
 - **A fully post-quantum Zcash.** Post-quantum proofs, signatures and commitments together. Tracked in [àwọn ìfìwéránṣẹ́ #1134](https://github.com/zcash/zips/issues/1134), ti a ti ṣii lati ọdun 2016. Ko si alaye tabi akoko kan pato.
@@ -101,16 +101,16 @@ Kò sí ọ̀kan lára àwọn wọ̀nyí tí ó wà láàyè.
 
 | Ohun kan | ZIP status | Ipò nẹ́tíwọ́ọ̀kì | Déètì | Orísun |
 |---|---|---|---|---|
-| Adágún Ironwood pẹ̀lú àwọn àkọsílẹ̀ tí a lè gbà padà (NU6.3) | Àgbékalẹ̀ ZIP 2005, ZIP 229 àti ZIP 258 | **Ṣiṣẹ́** lórí Mainnet | Ọjọ́ Kejìdínlọ́gbọ̀n oṣù Keje ọdún 2026, ìdìpọ̀ 3,428,143 | [ZIP 2005](https://zips.z.cash/zip-2005), [ZIP 258](https://zips.z.cash/zip-0258) |
-| Orchard ti pari si iye tuntun | ZIP 2006 Ti wa ni ipamọ, awọn ofin ni ZIP 258 | **Ṣiṣẹ́** lórí Mainnet | Ọjọ́ Kejìdínlọ́gbọ̀n oṣù Keje ọdún 2026 | [ZIP 258](https://zips.z.cash/zip-0258) |
-| Àwọn àpò owó tí ń gbé owó lọ sí Ironwood | Ìtọ́sọ́nà nínú ZIP 2005, ZIP 318 àti ZIP 326 (Àkọsílẹ̀) | Ṣeduro, da lori apamọwọ rẹ | Láti ọjọ́ kejìdínlọ́gbọ̀n oṣù Keje ọdún 2026 | [ZIP 318](https://zips.z.cash/zip-0318), [ZIP 326](https://zips.z.cash/zip-0326) |
+| Adágún Ironwood pẹ̀lú àwọn àkọsílẹ̀ tí a lè gbà padà (NU6.3) | Àgbékalẹ̀ ZIP 2005, ZIP 229 àti ZIP 258 | **Ṣiṣẹ́** lórí Mainnet | ọjọ́ 28 oṣù Keje ọdún 2026, ìdìpọ̀ 3,428,143 | [ZIP 2005](https://zips.z.cash/zip-2005), [ZIP 258](https://zips.z.cash/zip-0258) |
+| Orchard ti pari si iye tuntun | ZIP 2006 Ti wa ni ipamọ, awọn ofin ni ZIP 258 | **Ṣiṣẹ́** lórí Mainnet | ọjọ́ 28 oṣù Keje ọdún 2026 | [ZIP 258](https://zips.z.cash/zip-0258) |
+| Àwọn àpò owó tí ń gbé owó lọ sí Ironwood | Ìtọ́sọ́nà nínú ZIP 2005, ZIP 318 àti ZIP 326 (Àkọsílẹ̀) | Ṣeduro, da lori apamọwọ rẹ | Láti ọjọ́ 28 oṣù Keje ọdún 2026 | [ZIP 318](https://zips.z.cash/zip-0318), [ZIP 326](https://zips.z.cash/zip-0326) |
 | Ìlànà Ìgbàpadà | A ṣe àkọsílẹ̀ rẹ̀ nínú ZIP 2005 nìkan | **A ko ṣe imuse** | Ko si ọjọ | [ZIP 2005](https://zips.z.cash/zip-2005) |
 | Pa Orchard ati Sapling | Ko si ZIP | **A ko ti ṣeto eto naa** | Ìjíròrò nípa Sapling láti oṣù kẹrin ọdún 2026 | [Àpérò](https://forum.zcashcommunity.com/t/sapling-withdraw-only-discussion-kickoff/55223) |
-| Dídínà ìnáwó Sprout (ZIP 2003) | Àkọsílẹ̀, tí NU7 gbé kalẹ̀ fún ZIP 259 (Àkọsílẹ̀) | **A ko mu ṣiṣẹ** | Mainnet ni a fojusi ni ọjọ 5 Oṣu kọkanla ọdun 2026, ipinnu ikẹhin ni ọjọ 20 Oṣu Kẹwa ọdun 2026 | [ZIP 2003](https://zips.z.cash/zip-2003), [ZIP 259](https://zips.z.cash/zip-0259) |
+| Dídínà ìnáwó Sprout (ZIP 2003) | A gbé kalẹ̀, NU7 ló gbé kalẹ̀ fún ZIP 259 (A gbé kalẹ̀) | **A ko mu ṣiṣẹ** | Gíga Mainnet 3,543,405, tí a fojú sí ní 5 Oṣù Kọkànlá 2026 | [ZIP 2003](https://zips.z.cash/zip-2003), [ZIP 259](https://zips.z.cash/zip-0259) |
 | Àtúnṣe tó ṣe kedere (ZIP 2007) | Ti wa ni ipamọ | **Ìdámọ̀ràn** | Àkójọ ìfìwéránṣẹ́ ZIP ti pamọ́ ní ọjọ́ karùn-ún oṣù Keje ọdún 2025, ìjíròrò náà sì bẹ̀rẹ̀ ní ọjọ́ kẹtàdínlógún oṣù kẹfà ọdún 2026 | [àwọn ìfìwéránṣẹ́ #1302](https://github.com/zcash/zips/issues/1302) |
-| Ìpamọ́ lẹ́yìn-ìwọ̀n fún àwọn àdírẹ́sì tí a mọ̀ | Àwọn ìṣòro ṣíṣí sílẹ̀, kò sí ZIP | **Ìwádìí** | #1133 ṣí ní ọjọ́ kejìdínlógún oṣù kẹjọ ọdún 2022, #1307 ṣí ní ọjọ́ kẹtàlélógún oṣù kẹfà ọdún 2026 | [àwọn ìfìwéránṣẹ́ #1133](https://github.com/zcash/zips/issues/1133), [àwọn ìfìwéránṣẹ́ #1307](https://github.com/zcash/zips/issues/1307) |
+| Ìpamọ́ lẹ́yìn-ìwọ̀n fún àwọn àdírẹ́sì tí a mọ̀ | Àwọn ìṣòro ṣíṣí sílẹ̀, kò sí ZIP | **Ìwádìí** | #1133 ṣí ní ọjọ́ 18 oṣù kẹjọ ọdún 2022, #1307 ṣí ní ọjọ́ 23 oṣù kẹfà ọdún 2026 | [àwọn ìfìwéránṣẹ́ #1133](https://github.com/zcash/zips/issues/1133), [àwọn ìfìwéránṣẹ́ #1307](https://github.com/zcash/zips/issues/1307) |
 | Iṣẹ́ Tachyon | Ko si ZIP | **Ìdámọ̀ràn**, lábẹ́ ìdàgbàsókè | Àkọ́kọ́ tí a tẹ̀ jáde ní oṣù kẹrin ọdún 2025 | [tachyon.z.cash](https://tachyon.z.cash/roadmap/) |
-| Ilana lẹhin-kuatomu ni kikun | Ìṣòro ṣíṣí, kò sí ZIP | **Iṣẹ́ ọjọ́ iwájú** | #1134 ṣí ní ọjọ́ kejìdínlọ́gbọ̀n oṣù kẹta ọdún 2016 | [àwọn ìfìwéránṣẹ́ #1134](https://github.com/zcash/zips/issues/1134) |
+| Ilana lẹhin-kuatomu ni kikun | Ìṣòro ṣíṣí, kò sí ZIP | **Iṣẹ́ ọjọ́ iwájú** | #1134 ṣí ní ọjọ́ 28 oṣù kẹta ọdún 2016 | [àwọn ìfìwéránṣẹ́ #1134](https://github.com/zcash/zips/issues/1134) |
 
 Nínú ìwádìí ìròhìn ìròhìn ìròhìn NU7 Zcash Foundation's (February 2026), ìròhìn ìròhìn ìròhìn ìròhìn ní 90.5% láti ọ̀dọ̀ ZCAP àti 94.6% láti ọ̀dọ̀ àwọn oní-ìròhìn, Tachyon sì ní ìtìlẹ́yìn tó fẹ́rẹ̀ẹ́ jẹ́ ti gbogbo àgbáyé. Àwọn ìwádìí ìròhìn NU7.
 

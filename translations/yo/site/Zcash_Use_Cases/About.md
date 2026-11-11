@@ -1,50 +1,56 @@
-# Lo Zcash ní Ayé Òtítọ́
+# Lo Zcash ni Agbaye Gidi
 
-Zcash kì í ṣe nípa ìpamọ́ ní èrò orí nìkan  ó jẹ̀ nipa **ìṣe, òmìnira owó ojoojúmọ**.
+Zcash kìí ṣe nípa ìpamọ́ nìkan ní ìlànà — ó jẹ́ nípa **òmìnira owó ojoojúmọ́**.
 
-Abala yii fihan ọ **ni pato bi o ṣe le lo Zcash ni awọn oju iṣẹlẹ igbesi aye gidi**, pẹlu awọn itọnisọna igbesẹ-nipasẹ ati awọn iṣe ti o dara julọ.
+Apá yìí fi bí a ṣe lè lo Zcash ní àwọn ìṣẹ̀lẹ̀ gidi hàn ọ́**, pẹ̀lú àwọn ìtọ́sọ́nà ìgbésẹ̀-sí-ìgbésẹ̀ àti àwọn ìṣe tó dára jùlọ.
 
-## Ohun Tó O Máa Kọ́
+## Ohun tí ìwọ yóò kọ́
 
-- Bó o ṣe lè dáàbò bo ìfọ̀kànbalẹ̀ nípa owó rẹ
-- Bii o ṣe le yago fun awọn aṣiṣe ti o wọpọ ti o fi data rẹ han
+- Bii o ṣe le daabobo aṣiri inawo rẹ
+- Bii o ṣe le yẹra fun awọn aṣiṣe ti o wọpọ ti o n ṣafihan data rẹ
 - Bii o ṣe le lo Zcash ni awọn ipo gidi-aye
 
-## Bó O Ṣe Lè Lo Àwọn Ìwé Ìtọ́ni Náà
+## Bii o ṣe le Lo Awọn Itọsọna wọnyi
 
 Ìwé ìṣeré kọ̀ọ̀kan ni:
-- Ìrọ̀lẹ́ (5-7 ìṣẹ́jú)
-- Ìgbésẹ̀-ìgbésẹ̀
-- Ó dá lórí ayé gidi. 
+- Kúrú (ìṣẹ́jú 5-7)
+- Igbesẹ-ni-igbesẹ
+- Fojusi lori aye gidi 
 
 
-Tó bá jẹ́ pé o ṣẹ̀ṣẹ̀ dé, bèèrè níbí: [Kí ni Zcash?](/start-here/what-is-zec-and-zcash)
+Tí o bá jẹ́ tuntun, bẹ̀rẹ̀ níbí: [Kí ni Zcash](/start-here/what-is-zec-and-zcash)
 
 
-##  Ọ̀nà tí a dámọ̀ràn
+##  Ọ̀nà tí a dámọ̀ràn
 
-Tẹle ìrìn àjò ìgbésẹ̀-lé-ìgbésè̀ yìí láti mọ bí a ṣe ń lo Zcash nínú ayé gidi:
+Tẹle irin-ajo igbese-nipasẹ-igbesẹ yii lati ṣakoso lilo Zcash gidi-aye:
 
-###  [Gba Ọrẹ Ní Ìkọ̀kọ̀](/zcash-use-cases/receive-donations-privately)
-Kọ́ bó o ṣe lè gba owó láìjẹ́ kí ẹnikẹ́ni mọ ẹni tó ò ń jẹ́ tàbí bí wọ́n ṣe máa rí owó rẹ gbà.
-
-
-###  [Fi Owó Ránṣẹ́ Láìjẹ́ Pé Ìwọ Ni Ẹni Náà](/zcash-use-cases/send-money-without-linking-identity) 
-Má ṣe fi àpamọ́wọ́ rẹ, ìwé ìdánimọ tàbí àwòrán ìnájà hàn nígbà tó o bá ń rán owó.
+###  [Gba Awọn ẹbun ni ikọkọ](/zcash-use-cases/receive-donations-privately)
+Kọ́ bí a ṣe ń gba owó láìsí pé a fi ìdánimọ̀ tàbí ìtàn ìnáwó rẹ hàn.
 
 
-###  [Àkójọ Ìpamọ́ fún Òṣìṣẹ́-Afẹ̀ẹ́lẹ̀](/zcash-use-cases/freelance-privacy-setup)
-Wá owó rẹ gbà ní Zcash, kó o sì máa fi àwọn oníbàárà àti èrè tó ń wọlé fún ẹ pa mọ́.
+###  [Fi owo ranṣẹ laisi asopọ idanimọ](/zcash-use-cases/send-money-without-linking-identity) 
+Yẹra fún fífi àpò owó rẹ, ìdánimọ̀ rẹ, tàbí àwòrán ìṣòwò rẹ hàn nígbà tí o bá ń fi owó ránṣẹ́.
 
 
-###  [Máa Gba Owó Gẹ́gẹ́ Bí Oníṣòwò](/zcash-use-cases/accept-payments-as-a-merchant)
-Gba owo sisan nipa lilo adirẹsi ti a fi pamọ ati yago fun fifihan data iṣowo alabara
+###  [Eto Aṣiri Ominira](/zcash-use-cases/freelance-privacy-setup)
+Gba owo sisan ni Zcash lakoko ti o n tọju awọn alabara rẹ ati owo-wiwọle rẹ ni ikọkọ.
 
 
-###  [Ṣíṣètò Ìpamọ́ Owó Àkànṣe fún Àwọn Èèyàn](/zcash-use-cases/private-community-treasury)
-Lo àwọn àdírésì tí a fi ààbò bo láti tọ́jú owó ti wọ̀nyí àti dídènà wíwo ìdìpọ̀-ìṣòro àti ìṣòwò.
+###  [Gba Awọn Isanwo bi Onisowo](/zcash-use-cases/accept-payments-as-a-merchant)
+Gba awọn sisanwo nipa lilo adirẹsi ti a daabobo ki o yago fun ifihan data iṣowo alabara
 
-###  [Àkójọ Ìpamọ́ fún Oníròyìn](/zcash-use-cases/journalist-privacy-setup)   
-Lo àwọn àdírẹ́sì tí a fi ààbò bo fún gbogbo ìsòwò àti dáàbò bò orísun nípa yíyẹra sí owó-ìsanwó tó ṣeé tọpinpin. Ṣọjú lo ìwé ìránnilétí láti lè ní ìbánisọ̀rọ̀ aláìséwu
+
+###  [Ṣíṣe Ìṣúra Àwùjọ Àdáni kan](/zcash-use-cases/private-community-treasury)
+Lo awọn adirẹsi ti a daabobo lati mu awọn owo ti a pin ati idinku hihan awọn iwọntunwọnsi ati awọn iṣowo
+
+###  [Gba Awọn ẹbun ikọkọ gẹgẹbi Alaiṣẹ-èrè AMẸRIKA](/zcash-use-cases/accept-private-donations-as-a-us-nonprofit)
+Gba ZEC ti a daabobo gẹgẹ bi 501(c)(3) ki o si tun fun awọn olufunni ni awọn iwe-ẹri ati awọn fọọmu IRS ti wọn nilo
+
+###  [Ibi ti a le fi owo fun ZEC](/zcash-use-cases/where-to-donate-zec)
+Wa awọn ajọ ti kii ṣe ti ko ni anfani ti o gba ZEC, ati tani ninu wọn gba awọn ẹbun aabo
+
+###  [Eto Aṣiri Oniroyin](/zcash-use-cases/journalist-privacy-setup)   
+Lo àwọn àdírẹ́sì ààbò fún gbogbo ìṣòwò kí o sì dáàbò bo àwọn orísun nípa yíyẹra fún àwọn ìsanwó tí a lè tọ́pasẹ̀. Lo àwọn àkọsílẹ̀ pẹ̀lú ìṣọ́ra fún ìbánisọ̀rọ̀ tó ní ààbò
 
 <br/>
