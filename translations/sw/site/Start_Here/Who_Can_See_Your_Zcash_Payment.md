@@ -2,90 +2,90 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Ni Nani Anayeweza Kuona Malipo Yako ya Zcash?
+# Ni Nani Anaweza Kuona Malipo Yako ya Zcash?
 
-## TL;DR
+## Kwa Ufupi
 
-- Zcash inakupa ** aina mbili za anwani**: uwazi (`t`) na kulindwa (`z` or `u`).
-- Kiasi cha umma kuona inategemea ambayo aina ya malipo yako huenda kati.
-- Malipo ya **shielded to shielded** pekee ndiyo huficha mtumaji, mpokeaji na kiasi cha pesa.
-- Anwani ya ulinzi si ufunguo mmoja. Ni seti ndogo ya funguo, na unaweza kutoa ** read-tu kupata bila kutoa mbali uwezo wa kutumia**.
-- Funguo ya kutazama ** haiwezi kuchukuliwa nyuma** mara tu unapoishiriki.
+- Zcash hukupa **aina mbili za anwani [address]**: za uwazi [transparent] (`t`) na za faragha [shielded] (`z` au `u`).
+- Kiasi ambacho umma unaweza kuona hutegemea aina za anwani ambazo malipo yako hupitia.
+- Malipo ya **kutoka ya faragha hadi ya faragha** pekee huficha mtumaji, mpokeaji, na kiasi.
+- Anwani ya faragha si ufunguo mmoja. Ni mkusanyiko mdogo wa funguo, na unaweza kutoa **ufikiaji wa kusoma pekee bila kutoa uwezo wa kutumia pesa**.
+- Ufunguo wa kutazama [viewing key] **hauwezi kurejeshwa** baada ya kuushiriki.
 
 ---
 
-## Jambo moja kuelewa kwanza
+## Jambo moja la kuelewa kwanza
 
-Katika blockchains nyingi hakuna chaguo la kufanya. Kila kitu unachotuma ni umma, milele, kwa mtu yeyote ambaye anaangalia.
+Kwenye blockchain nyingi hakuna chaguo la kufanya. Kila kitu unachotuma huwa wazi kwa umma, milele, kwa yeyote anayetazama.
 
-Zcash inakupa uchaguzi badala yake. Uchaguzi huo ni kufanywa mara mbili: ** Mara moja wakati kuchagua ambayo anwani ya kutuma, na mara nyingine unapokubali ambaye anapata ufunguo wa kusoma historia yako.**
+Badala yake, Zcash hukupa chaguo. Chaguo hilo hufanywa mara mbili: **mara moja unapochagua anwani ya kutuma, na mara moja unapoamua ni nani anayepata ufunguo wa kusoma historia yako.**
 
-Picha iliyo chini inaonyesha mambo hayo mawili.
+Picha iliyo hapa chini inahusu yote mawili.
 
 ![Zcash key types and what a block explorer can see for each of the four transaction paths](/content-images/who-can-see-your-zcash-payment-04d41ac960.webp)
 
 ---
 
-## Chaguo la kwanza: anwani ipi?
+## Chaguo la kwanza: anwani ipi
 
-Kila malipo ya Zcash huenda kati ya anwani mbili, na kila moja inaweza kuwa wazi au kulindwa. Hiyo inatoa njia nne, na kwa kila kuvuja kiasi tofauti.
+Kila malipo ya Zcash husafiri kati ya anwani mbili, na kila moja inaweza kuwa ya uwazi au ya faragha. Hilo huleta njia nne, na kila moja hufichua kiasi tofauti.
 
-Mfano ni rahisi kuliko inaonekana: ** chochote kugusa anwani uwazi inakuwa ya umma.** Malipo ambayo hukaa ndani ya bwawa kulindwa njia yote anaonyesha kitu lakini ada.
+Muundo wake ni rahisi kuliko unavyoonekana: **chochote kinachogusa anwani ya uwazi huwa wazi kwa umma.** Malipo yanayobaki ndani ya bwawa la faragha [shielded pool] kwa njia yote hayafichui chochote isipokuwa ada [fee].
 
-Hii ni muhimu zaidi wakati wewe kujiondoa kutoka kubadilishana. Kubadilishani wengi tu kutuma kwa anwani uwazi, hivyo kuondoka ni ya umma. kulinda fedha mwenyewe mara moja wao kuwasili, kabla ya kutumia yao.
+Hili ni muhimu zaidi unapotoa fedha kutoka kwenye soko la kubadilishana sarafu [exchange]. Masoko mengi ya kubadilishana sarafu hutuma tu kwa anwani za uwazi, hivyo utoaji huo huwa wazi kwa umma. Fanya fedha ziwe za faragha mwenyewe mara tu zinapowasili, kabla hujazitumia.
 
-Kwa kuangalia kina hasa kile mtafiti anasoma, angalia [Nini block Explorer unaweza kuona](/zcash-tech/what-a-block-explorer-can-see).
-
----
-
-## Chaguo la pili: nani anapata ufunguo?
-
-Usiri kwamba unaweza kamwe kuondoa si muhimu. Wakati mwingine unahitaji kuthibitisha kitu kwa mhasibu, mkaguzi wa fedha au ofisi ya kodi. Zcash kushughulikia hii bila kukuuliza kutoa udhibiti.
-
-**Ufungashaji wa matumizi.** Huona kila kitu na kuhamisha fedha. Hii ni pesa. Inakaa nawe na kamwe haishirikiwi na mtu yeyote, kwa sababu yoyote ile.
-
-** Full Viewing Key.** Soma tu. Inaonyesha shughuli zinazoingia na zinazotoka na mizani, lakini hawezi kutumia zatoshi moja. Hii ni nini wewe mkono kwa mkaguzi au mhasibu.
-
-** Incoming Viewing Key.** Narrower bado: inaonyesha tu malipo kuwasili. kubadilishana au mfanyabiashara anaweza kukimbia hii kuthibitisha amana yako kutua, wakati matumizi muhimu anakaa juu ya vifaa kwamba kamwe kugusa mtandao.
-
-Funguo iliyo nyembamba zaidi ndiyo inayohitajika, si ile pana unayoweza kutumia.
+Kwa uchambuzi wa kina wa kile ambacho kichunguzi cha block husoma hasa, tazama [Kile ambacho kichunguzi cha block kinaweza kuona](/zcash-tech/what-a-block-explorer-can-see).
 
 ---
 
-## Sehemu ya Kompyuta miss
+## Chaguo la pili: nani anapata ufunguo
 
-**Ufungashaji wa kuona hauwezi kuondolewa.** Hakuna kitufe cha "kufuta kushiriki". Mara mtu anapoipata, anaweza kusoma anwani hiyo kwa muda mrefu kama ipo. Ikiwa unahitaji kukata ufikiaji, unasafirisha pesa zako kwenye anwani mpya.
+Faragha ambayo huwezi kuiondoa kamwe haina manufaa. Wakati mwingine unahitaji kuthibitisha jambo kwa mhasibu, mkaguzi, au ofisi ya kodi. Zcash hushughulikia hili bila kukuomba uache udhibiti.
 
-** Ada ni ya umma hata katika malipo kamili ulinzi.** Kiasi imefichwa; ada si.
+**Ufunguo wa kutumia pesa [spending key].** Huona kila kitu na kuhamisha fedha. Hizi ndizo pesa. Hubaki kwako na haushirikiwi na mtu yeyote, kwa sababu yoyote.
 
-** Umma ni wa kudumu. * Chochote mlolongo inaonyesha leo, itaonekana katika miaka ishirini. Kuamua kulinda malipo baada ya kutuma si kitu unaweza kufanya.
+**Full Viewing Key.** Wa kusoma pekee. Huonyesha shughuli za kuingia na kutoka pamoja na salio, lakini hauwezi kutumia zatoshi hata moja. Huu ndio unaompa mkaguzi au mhasibu.
+
+**Incoming Viewing Key.** Ni mwembamba zaidi: huonyesha malipo yanayowasili pekee. Soko la kubadilishana sarafu au mfanyabiashara anaweza kuutumia kuthibitisha kwamba amana yako imewasili, huku ufunguo wa kutumia pesa ukibaki kwenye hardware wallet ambayo haigusi mtandao kamwe.
+
+Mpangilio huu ni muhimu. Toa ufunguo mwembamba zaidi unaotekeleza kazi hiyo, si ulio mpana zaidi ulio nao.
 
 ---
 
-## Tumia shauri hilo maishani mwako.
+## Sehemu ambayo wanaoanza huikosa
 
-- Tumia mkoba kwamba shields default, kama vile [ZODL](https://zodl.com) or [Zingo!](https://www.zingolabs.org/).
-- Kuhifadhi fedha mara tu wanapowasili kutoka kubadilishana, kabla ya matumizi.
-- Kulipa kwa anwani ulinzi wakati wowote mpokeaji inasaidia moja.
-- Kabla ya kushiriki ufunguo wa kutazama, uliza ni ipi iliyo ndogo zaidi inayojibu swali linaloulizwa.
+**Ufunguo wa kutazama hauwezi kufutwa.** Hakuna kitufe cha “tendua ushirikishaji”. Mtu akishaupata, anaweza kusoma anwani hiyo kwa muda wote inapoendelea kuwepo. Ikiwa unahitaji kukatisha ufikiaji, hamisha fedha zako kwenda kwenye anwani mpya.
+
+**Ada huwa wazi kwa umma hata katika malipo ya faragha kabisa.** Kiasi hufichwa; ada haifichwi.
+
+**Kuwa wazi kwa umma ni kwa kudumu.** Chochote ambacho mnyororo [chain] unaonyesha leo, utaonyesha baada ya miaka ishirini. Kuamua kufanya malipo yawe ya faragha *baada* ya kuyatuma si jambo unaloweza kufanya.
+
+---
+
+## Tumia kwa vitendo
+
+- Tumia pochi [wallet] inayofanya miamala kuwa ya faragha kwa chaguo-msingi, kama vile [ZODL](https://zodl.com) au [Zingo!](https://www.zingolabs.org/).
+- Fanya fedha ziwe za faragha mara tu zinapowasili kutoka kwenye soko la kubadilishana sarafu, kabla ya kuzitumia.
+- Lipa kwa anwani za faragha wakati wowote mpokeaji anapokubali anwani hiyo.
+- Kabla ya kushiriki ufunguo wa kutazama, uliza ni ufunguo upi mdogo zaidi unaojibu swali linaloulizwa.
 
 ---
 
 ## Rasilimali
 
-- [Kueleza viewing funguo (Electric Coin Company)](https://electriccoin.co/blog/explaining-viewing-keys/)
-- [Ufafanuzi wa kuchagua na viewing funguo (Electric Coin Company)](https://electriccoin.co/blog/viewing-keys-selective-disclosure/)
-- [ZIP 310: Kuangalia funguo](https://zips.z.cash/zip-0310)
+- [Maelezo ya funguo za kutazama (Electric Coin Company)](https://electriccoin.co/blog/explaining-viewing-keys/)
+- [Selective disclosure na funguo za kutazama (Electric Coin Company)](https://electriccoin.co/blog/viewing-keys-selective-disclosure/)
+- [ZIP 310: Funguo za kutazama](https://zips.z.cash/zip-0310)
 - [Jinsi teknolojia ya Zcash inavyofanya kazi](https://z.cash/technology/)
 
-## Kurasa zinazohusiana na makala hii
+## Kurasa zinazohusiana
 
-- [Zcash misingi ya msingi](/start-here/what-is-zec-and-zcash)
-- [Zcash mwongozo mpya wa mtumiaji](/start-here/new-user-guide)
-- [Nini block Explorer unaweza kuona](/zcash-tech/what-a-block-explorer-can-see)
-- [Kuangalia funguo za kuvinjari](/zcash-tech/viewing-keys)
-- [Shughuli za biashara](/using-zcash/transactions)
+- [Misingi ya Zcash](/start-here/what-is-zec-and-zcash)
+- [Mwongozo wa mtumiaji mpya wa Zcash](/start-here/new-user-guide)
+- [Kile ambacho kichunguzi cha block kinaweza kuona](/zcash-tech/what-a-block-explorer-can-see)
+- [Funguo za kutazama](/zcash-tech/viewing-keys)
+- [Miamala](/using-zcash/transactions)
 
 ---
 
-*Kama ungependa kuongeza au kupendekeza mabadiliko ya ukurasa huu wa wiki, tafadhali nenda kwa: [ZecHub GitHub repo](https://github.com/ZecHub/zechub) na kuwasilisha ombi la kuvuta.*
+*Ikiwa ungependa kuongeza au kupendekeza marekebisho kwenye ukurasa huu wa wiki, tafadhali nenda kwenye repo ya [ZecHub GitHub](https://github.com/ZecHub/zechub) na utume pull request.*

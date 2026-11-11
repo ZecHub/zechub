@@ -1,130 +1,148 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Zcash_Tech/Halo.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Hariri Ukurasa"/>
 </a>
 
 # Halo
 
+## Kwa ufupi
 
-## Halo ni nini?
+Halo ni mfumo wa thibitisho la maarifa sifuri [zero-knowledge proof (ZKP)] usiohitaji uaminifu na unaojirudia, uliogunduliwa na Sean Bowe katika Electric Coin Co. Huondoa hitaji la usanidi unaoaminika [trusted setup] na kufanya utungaji wa thibitisho unaojirudia utekelezeke kwa vitendo, ambacho ni msingi wa ramani ya sasa ya Zcash ya kupanua uwezo na usalama.
 
-Halo ni trustless, recursive zero-ujuzi ushahidi (ZKP) aligundua na Sean Bowe katika Electric Coin Co. Inaondoa kuaminiwa kuweka na inaruhusu scalability zaidi ya Zcash blockchain. Halo ilikuwa kwanza sifuri maarifa uthibitisho mfumo kwamba wote ufanisi & recursive sana kuchukuliwa kama mafanikio kisayansi.
+- **Ni nini:** Muundo wa zk-SNARK wenye ujirudiaji wenye ufanisi na usio na sherehe ya usanidi unaoaminika.
+- **Kwa nini ni muhimu:** Bwawa la faragha [shielded pool] la Zcash la Orchard, lililoamilishwa pamoja na NU5 mwaka 2022, hutumia Halo 2 — utekelezaji wa uzalishaji wa utafiti huu.
+- **Sifa kuu:** Hakuna “taka zenye sumu” kutoka kwenye sherehe za usanidi, na mathibitisho yanayoweza kuthibitisha karibu idadi isiyo na kikomo ya mathibitisho mengine.
+- **Leseni:** Halo 2 ni chanzo huria chini ya [MIT na Apache 2.0](https://github.com/zcash/halo2#readme), hivyo mtu yeyote katika mfumo ikolojia anaweza kujenga juu yake.
+
+---
+
+## Maelezo ya Msingi
+
+Halo ni mfumo wa thibitisho la maarifa sifuri usiohitaji uaminifu na unaojirudia, uliogunduliwa na Sean Bowe katika Electric Coin Co. Huondoa usanidi unaoaminika na kuruhusu kupanua uwezo zaidi wa blockchain ya Zcash. Halo ulikuwa mfumo wa kwanza wa thibitisho la maarifa sifuri ambao ni wenye ufanisi na unaojirudia — unaotambuliwa kwa mapana kama mafanikio ya kisayansi.
 
 ![halo](/content-images/_unavailable.svg "halo")
 
+### Vipengele viwili
 
-** Viungo**
+- **Mpango Mfupi wa Commitment za Polinomu.** Humruhusu mtendaji wa commitment kuweka commitment kwa polinomu kwa mfuatano mfupi unaoweza kutumiwa na mthibitishaji kuthibitisha tathmini zinazodaiwa za polinomu iliyowekewa commitment.
+- **Thibitisho Shirikishi la Oracle la Polinomu.** Mthibitishaji humwomba mtoa thibitisho (algoriti) afungue commitment zote katika pointi anazochagua, kwa kutumia mpango wa commitment za polinomu, na hukagua kwamba utambulisho ni sahihi kati yazo.
 
-Muhtasari Polynomial Commitment Scheme: Inaruhusu committer kujitolea kwa polynomials na mkondo mfupi ambayo inaweza kutumika na kuthibitisha ili kuhakikisha tathmini alidai ya waliojitoa polynominal.
+### Hakuna usanidi unaoaminika
 
-Polynomial Interactive Oracle Proof: Verifier anauliza prover (algoritm) kufungua ahadi zote katika pointi mbalimbali ya uchaguzi wao kwa kutumia polynomials mpango wa dhamira na hundi utambulisho inashikilia kweli kati yao. 
+zk-SNARKs hutegemea mfuatano wa pamoja wa marejeleo (CRS) kama kigezo cha umma cha kuthibitisha na kuhakiki. CRS hii lazima itengenezwe mapema na mhusika anayeaminika. Hadi hivi karibuni, ukokotoaji tata salama wa wahusika wengi (MPC) — kama ule uliofanywa na mtandao wa Aztec na Zcash — ulikuwa muhimu kupunguza hatari iliyohusika wakati wa [sherehe ya usanidi unaoaminika](https://zkproof.org/2021/06/30/setup-ceremonies/amp/).
 
+Mabwawa ya faragha ya awali ya Zcash ya Sprout na Sapling yalitumia mifumo ya kuthibitisha ya zk ya BCTV14 na Groth16. Ingawa hii ilikuwa salama, ilikuwa na vikwazo: haikuweza kupanua uwezo kwa sababu ilifungwa kwenye programu moja, “taka zenye sumu” (mabaki ya nyenzo za kificho zilizotengenezwa wakati wa sherehe ya mwanzo) zingeweza kubaki, na kulikuwa na kipengele cha uaminifu (japokuwa kidogo sana) katika kuamua kwamba sherehe ilikubalika.
 
-### Hakuna Confidence Setup
+Halo huondoa usanidi unaoaminika kwa kuunganisha mara kwa mara vielelezo vingi vya matatizo magumu pamoja katika mizunguko ya mikunjo ya eliptiki, ili mathibitisho ya ukokotoaji yaweze kutumiwa kujielezea kwa ufanisi (ugawaji wa gharama uliopachikwa). Athari ya pembeni ni kwamba mfuatano wa marejeleo uliopangiliwa (matokeo ya sherehe) unaweza kuboreshwa, na hivyo kuwezesha programu kama mikataba mahiri [smart contracts].
 
-zkSNARKs kutegemea kawaida rejea string (CRS) kama parameter umma kwa kuthibitisha & kuangalia. CRS hii lazima yanayotokana mapema na chama cha kuaminiwa. Hadi hivi karibuni, elaborate salama mahesabu ya pande nyingi (MPC) kama wale uliofanywa na Aztec mtandao & Zcash walikuwa muhimu ili kupunguza hatari inayohusika wakati huu [kuaminika sherehe setup](https://zkproof.org/2021/06/30/setup-ceremonies/amp/). 
+Halo huwapa watumiaji uhakikisho mbili muhimu kuhusu usalama wa mfumo mkubwa wa thibitisho la maarifa sifuri. Kwanza, huwawezesha watumiaji kuthibitisha kwamba hakuna yeyote aliyehusika katika sherehe ya mwanzo aliyeunda njia ya siri ya kutekeleza miamala ya udanganyifu. Pili, huwaruhusu watumiaji kuonyesha kwamba mfumo umeendelea kuwa salama kadiri muda ulivyopita, hata baada ya kufanyiwa masasisho na mabadiliko.
 
-Zcash's Sprout & Sapling shielded pools utilized the BCTV14 & Groth 16 zk-proving systems. Wakati hizi zilikuwa salama kulikuwa na mapungufu. Hazikupangwa kama walivyofungwa kwa programu moja, "takataka za sumu" (mabaki kutoka nyenzo ya cryptographic iliyotengenezwa wakati wa sherehe ya genesis) inaweza kuendelea, na kuna kipengele cha uaminifu (ingawa dakika) kwa watumiaji kuamua sherehe inakubalika.
+[Sean Bowe's maelezo katika Dystopia Labs](https://www.youtube.com/watch?v=KdkVTEHUxgo)
 
-By repeatedly collapsing multiple instances of hard problems together over cycles of elliptic curves so that computational proofs can be used to reason about themselves efficiently (Nested amortization) the need for a trusted setup is eliminated. This also means that the structured reference string (output from ceremony) is upgradeable enabling applications such as smart contracts.
+---
 
-Halo hutoa watumiaji na uhakikisho mbili muhimu kuhusu usalama wa kiwango kikubwa cha zero-ujuzi uthibitishaji mfumo. Kwanza, inaruhusu watumiaje kuthibitisha kwamba hakuna mtu ambaye alikuwa kushiriki katika sherehe genesis imeunda siri backdoor kutekeleza shughuli za udanganyifu. Pili, inaruhusu watumiaja kuonyesha kuwa mfumo umebaki salama kwa muda mrefu, hata kama imekuwa kupitia updates na mabadiliko. Tatu, ni uwezo wake kuimarisha utetezi ya data yake juu ya uendeshaji wa mali isiyohamishika (kama vile usiri) wakati wote. Tano la tatu, inatoa huduma ambayo inaweza kuhakikisha kwamba mchakato huo unaendelea vizuri zaidi kuliko ile iliyopo sasa.
+## Taswira / Mfano
 
-[Sean Bowes Mfafanuzi juu ya Dystopia Labs](https://www.youtube.com/watch?v=KdkVTEHUxgo) 
- 
+### Mnyororo wa mthibitishaji wa nyaraka
 
+Fikiria thibitisho la kawaida la zk-SNARK kama hati iliyothibitishwa na mthibitishaji wa nyaraka: muhuri mmoja, uhakiki mmoja, imekamilika. Sasa fikiria unahitaji kuthibitisha kwamba rundo la hati elfu kumi ni halisi. Bila ujirudiaji, mthibitishaji angelazimika kukagua kila muhuri.
 
-### Ushuhuda wa Recursive
+Halo hugeuza kila hati iliyohakikiwa kuwa muhuri kwenye hati *inayofuata*, hadi rundo lote linapounganishwa kuwa hati moja yenye muhuri mmoja. Kukagua hati ya mwisho kunatosha kuamini mnyororo wote — na muhimu zaidi, mthibitishaji wa nyaraka wa Halo (mfumo wa kutoa thibitisho) hutengeneza mihuri yake mwenyewe bila kuhitaji mamlaka ya nje kuweka muhuri wake.
 
-Utungaji wa uthibitisho recursive inaruhusu ushahidi moja kuthibitisha usahihi wa karibu ukomo ushuhuda wengine, kuruhusu kiasi kikubwa cha hesabu (na habari) kuwa compressed. Hii ni sehemu muhimu kwa scalability, si angalau kwa sababu inatuwezesha horizontally kiwango mtandao wakati bado kuruhusu mifuko ya washiriki kuamini uadilifu wa mapumziko ya mtandao.
+### Kwa nini kuondoa usanidi unaoaminika ni muhimu
 
-Prior to Halo, achieving recursive proof composition required large computational expense and a trusted setup. One of the main discoveries was a technique called **nested amortization**. This technique allows for recursive composition using the polynomial commitment scheme based on inner product argument, massively improving on performance and avoiding the trusted setup.
+Katika mifumo ya zamani, “muhuri” (CRS) ulitokana na sherehe. Washiriki walipaswa kuharibu nyenzo za kati, na kila mtu alipaswa kuamini kwamba walifanya hivyo. Muhuri wa Halo hutengenezwa na hisabati pekee: hakuna cha kuharibu, hakuna cha kuvuja, na hakuna sherehe ya kuamini.
 
-Katika [Halo karatasi](https://eprint.iacr.org/2019/1021.pdf), sisi kikamilifu ilivyoelezwa mpango huu ahadi polynomial na kugundua mpya mkusanyiko mbinu zipo ndani yake. Mbinu inaruhusu idadi kubwa ya ushahidi kujitegemea kuundwa kuthibitishwa karibu kwa haraka kama kuangalia uthibitisho moja. Hii peke yake ingekuwa kutoa njia bora badala ya zk-SNARKs mapema kutumika katika Zcash.
+---
 
+## Uchambuzi wa Kina
+
+### Mathibitisho yanayojirudia
+
+Utungaji wa thibitisho unaojirudia huruhusu thibitisho moja kuthibitisha usahihi wa karibu idadi isiyo na kikomo ya mathibitisho mengine, huku ikibana kiwango kikubwa cha ukokotoaji (na taarifa). Hiki ni kipengele muhimu kwa kupanua uwezo, kwa sababu huruhusu mtandao kupanuka kwa mlalo huku makundi ya washiriki yakiweza bado kuamini uadilifu wa sehemu iliyosalia ya mtandao.
+
+Kabla ya Halo, kufanikisha utungaji wa thibitisho unaojirudia kulihitaji gharama kubwa ya ukokotoaji na usanidi unaoaminika. Moja ya uvumbuzi mkuu ulikuwa mbinu iitwayo **ugawaji wa gharama uliopachikwa**: utungaji unaojirudia kwa kutumia mpango wa commitment za polinomu unaotegemea hoja ya zao la ndani, ukiboresha utendaji kwa kiasi kikubwa huku ukiepuka usanidi unaoaminika.
+
+Makala ya [Halo](https://eprint.iacr.org/2019/1021.pdf) yanaeleza kikamilifu mpango huu wa commitment za polinomu na kugundua kwamba mbinu mpya ya ujumlishaji ilikuwepo ndani yake. Mbinu hii huruhusu idadi kubwa ya mathibitisho yaliyoundwa kwa kujitegemea kuhakikiwa karibu kwa kasi sawa na kuhakiki thibitisho moja. Peke yake, tayari ilitoa mbadala bora wa zk-SNARKs wa awali uliotumika katika Zcash.
 
 ### Halo 2
 
-Halo 2, ni high-utendaji zk-SNARK utekelezaji imeandikwa katika kutu ambayo huondoa haja ya kuaminika usanidi wakati kuweka hatua kwa scalability katika Zcash. 
+Halo 2 ni utekelezaji wa utendaji wa juu wa zk-SNARK ulioandikwa kwa Rust ambao huondoa hitaji la usanidi unaoaminika huku ukiweka msingi wa kupanua uwezo katika Zcash.
 
 <a href="">
     <img src="/content-images/Halo-puzzle-03-1024x517-e034023d10.webp" alt="" width="500" height="300"/>
 </a>
 
-It includes a generalization of our approach called an **accumulation scheme**. This new formalization exposes how our nested amortization technique actually works; by adding proofs to an object called an **accumulator,** where the proofs reason about the previous state of the accumulator, we can check that all previous proofs were correct (by induction) simply by checking the current state of the accumulator.
+Unajumuisha ujumuishaji wa jumla wa mbinu iitwayo **mpango wa mkusanyiko**. Urasimishaji huu unaonyesha jinsi ugawaji wa gharama uliopachikwa unavyofanya kazi kwa kweli: kwa kuongeza mathibitisho kwenye kitu kinachoitwa **kikusanyaji**, ambapo kila thibitisho huelezea hali ya awali ya kikusanyaji, mathibitisho yote ya awali yanaweza kukaguliwa (kwa induksheni) kwa kukagua tu hali ya sasa ya kikusanyaji.
 
 <a href="">
     <img src="/content-images/l4HrYgE-1ea7bc32f7.webp" alt="" width="500" height="300"/>
 </a>
 
+Sambamba na hilo, timu nyingine nyingi zilikuwa zikigundua Polynomial IOP zenye ufanisi zaidi kuliko Sonic (iliyotumika katika Halo 1), kama Marlin. Itifaki yenye ufanisi zaidi kati ya hizi ni PLONK, ambayo hutoa unyumbufu mkubwa katika kubuni utekelezaji wenye ufanisi unaotegemea mahitaji mahususi ya programu na hutoa muda wa mtoa thibitisho ulio bora mara 5 kuliko Sonic.
 
+[Muhtasari wa PLONK](https://www.youtube.com/watch?v=P1JeN30RdwQ)
 
-Kwa sambamba, timu nyingine nyingi walikuwa kugundua mpya Polynomial IOPs kwamba walikuwa ufanisi zaidi kuliko Sonic (kutumika katika Halo 1), kama vile Marlin. 
+### Halo katika mfumo mpana wa ikolojia
 
-ufanisi zaidi ya hizi itifaki mpya ni PLONK, ambayo inaruhusu kubadilika kubwa katika kubuni utekelezaji wa ufanisi kulingana na mahitaji maalum maombi na kutoa 5x bora wakati prover kutoka Sonic.
+Electric Coin Company iliingia katika makubaliano na Protocol Labs, Foundation ya Filecoin, na Ethereum Foundation kuchunguza Utafiti na Maendeleo wa Halo, ikijumuisha jinsi teknolojia hiyo inavyoweza kutumiwa katika mitandao yao husika. Makubaliano hayo yanalenga kutoa kupanua uwezo bora, uwezo wa kushirikiana, na faragha katika mifumo ikolojia na kwa Web 3.0.
 
-[Mtazamo wa PLONK](https://www.youtube.com/watch?v=P1JeN30RdwQ)
+Aidha, Halo 2 iko chini ya leseni za chanzo huria za [MIT na Apache 2.0](https://github.com/zcash/halo2#readme), ikimaanisha kwamba mtu yeyote katika mfumo ikolojia anaweza kujenga kwa kutumia mfumo wa kuthibitisha.
 
+**Filecoin.** Tangu kutumwa kwake, maktaba ya halo2 imekubaliwa katika miradi kama zkEVM, na kuna uwezekano wa kuunganisha Halo 2 katika mfumo wa uthibitisho wa Virtual Machine ya Filecoin. Filecoin huhitaji mathibitisho mengi ya gharama kubwa ya muda wa nafasi na mathibitisho ya urudufu; Halo 2 ni muhimu katika kubana matumizi ya nafasi na kupanua uwezo wa mtandao vyema zaidi. [Filecoin Video ya Foundation yenye Zooko](https://www.youtube.com/watch?v=t4XOdagc9xw). Pia mifumo ikolojia yote miwili ingenufaika ikiwa malipo ya hifadhi ya Filecoin yangeweza kufanywa kwa ZEC, yakitoa faragha sawa kwa ununuzi wa hifadhi inayopatikana katika uhamisho wa faragha wa Zcash — ikijumuisha kusimba fiche faili katika hifadhi ya Filecoin na kusaidia wateja wa simu wanaoambatanisha media kwenye ujumbe uliosimbwa fiche wa Zcash. [ECC × Filecoin chapisho la blogu](https://electriccoin.co/blog/ethereum-zcash-filecoin-collab/)
 
-### Hii inafaidi Zcash vipi?
+**Ethereum.** Thibitisho la Halo 2 kwa ajili ya Verifiable Delay Function (VDF) yenye ufanisi linaendelezwa. VDF ni kijenzi cha kificho chenye matumizi mengi yanayoweza kutokea, yakiwemo nasibu ya madhumuni ya jumla kwa mikataba mahiri na uchaguzi wa kiongozi katika Proof of Stake. ECC, Foundation ya Filecoin, Protocol Labs, na Ethereum Foundation pia zinafanya kazi na [SupraNational](https://www.supranational.net/), muuzaji aliyebobea katika usimbaji fiche unaoharakishwa kwa vifaa, kwa ajili ya maendeleo yanayoweza kutokea ya GPU na ASIC ya VDF. Kikundi cha [Privacy and Scaling Explorations](https://appliedzkp.org/) kinatafiti njia za ziada ambazo mathibitisho ya Halo 2 yanaweza kuboresha faragha na kupanua uwezo kwa Ethereum.
 
-The Orchard Shielded pool activated with NU5 & is the implementation of this new proof system on the Zcash Network. Guarded by the same turnstile design as used between Sprout and Sapling with the intent to gradually retire the older shielded pools. This encourages migration to a fully trustless proof system, reinforcing confidence in the soundness of the monetary base, and reducing the implementation complexity and attack surface of Zcash overall. Following the activation of NU5 mid 2022, integration of recursive proofs became possible (although this is not complete). Several privacy enhancements were also made tangentially. The introduction of 'Actions' to replace inputs/outputs helped reducing the amount of transaction metadata. 
+### Miradi mingine inayotumia Halo
 
-Kuaminiwa kuanzisha ni kwa ujumla vigumu kuratibu & aliwasilisha hatari ya mfumo. Itakuwa muhimu ili kurudiwa yao kila kuu upgrading itifaki. Kuondoa wao inatoa kuboresha kubwa kwa usalama kutekeleza mpya protocol upgrades. 
+- [Anoma](https://anoma.net/blog/hash-functions-in-plonkup) — itifaki ya kubadilisha atomiki ya minyororo mingi inayohifadhi faragha
+- [Orbis](https://docs.orbisprotocol.com/orbis/technology/halo-2) — zkRollup ya L2 kwenye Cardano
+- [DarkFi](https://dark.fi/book/arch/arch.html) — blockchain ya faragha ya L1 zkEVM
+- [Scroll](https://scroll.mirror.xyz/nDAbJbSIJdQIWqp9kn8J0MVS4s6pYBwHmK7keidQs-k) — zkRollup ya L2 kwenye Ethereum
 
-Recursive proof composition holds the potential for compressing unlimited amounts of computation, creating auditable distributed systems, making Zcash highly capable particularly with the shift to Proof of Stake. This is also useful for extensions such as Zcash Shielded Assets and improving Layer 1 capacity at the higher end of full node usage in the coming years for Zcash.
+---
 
+## Athari za Kivitendo
 
-## Halo katika mazingira ya jumla 
+**Kwa Zcash yenyewe**
 
-The Electric Coin Company has entered into an agreement with Protocol Labs, the Filecoin Foundation, and the Ethereum Foundation to explore Halo R&D, including how the technology might be used in their respective networks. The agreement aims to provide better scalability, interoperability and privacy across ecosystems and for Web 3.0.
+- Bwawa la faragha la Orchard, lililoamilishwa pamoja na NU5, ni utekelezaji wa mfumo huu mpya wa thibitisho kwenye mtandao wa Zcash. Linalindwa na muundo huohuo wa turnstile unaotumiwa kati ya Sprout na Sapling, kwa nia ya kuondoa hatua kwa hatua mabwawa ya faragha ya zamani.
+- Kufuatia NU5 (katikati ya 2022), ujumuishaji wa mathibitisho yanayojirudia uliwezekana, na maboresho kadhaa ya faragha yalikuja nao — hasa kuanzishwa kwa “Actions” badala ya ingizo/toleo, ambako hupunguza kiasi cha metadata ya muamala.
+- Kuondoa usanidi unaoaminika huondoa hatari ya kimfumo ambayo vinginevyo ingehitajika kurudiwa kwa kila uboreshaji mkubwa wa itifaki.
 
-Aidha, Halo 2 ni chini ya [MIT na Apache 2.0 wazi chanzo leseni](https://github.com/zcash/halo2#readme), maana mtu yeyote katika mazingira unaweza kujenga na kuthibitisha mfumo.
+**Kwa wamiliki na waendeshaji**
 
-### Filecoin
+- Utungaji wa thibitisho unaojirudia una uwezo wa kubana kiasi kisicho na kikomo cha ukokotoaji, kuunda mifumo iliyosambazwa inayoweza kukaguliwa, na kuboresha uwezo wa Layer 1 kwa waendeshaji wa full node — muhimu kwa viendelezi kama Zcash Shielded Assets na miundo ya muda mrefu ya Zcash.
 
-Since its deployment, the halo2 library has been adopted in projects like the zkEVM, there is potential integration of Halo 2 into the proof system for the Filecoin Virtual Machine. Filecoin requires numerous costly proofs of spacetime / proofs of replication. Halo2 will be pivotal in compressing the space usage, better scaling the network.
+---
 
-[Filecoin Foundation video na Zooko](https://www.youtube.com/watch?v=t4XOdagc9xw)
+## Makosa ya Kawaida
 
-Aidha, itakuwa yenye manufaa kwa wote Filecoin na Zcash mazingira kama malipo ya kuhifadhi Filecoin inaweza kufanywa katika ZEC, kutoa kiwango sawa cha faragha kwa ajili ya ununuzi wa hifadhi kwamba ipo katika uhamisho Zcash ulinzi. msaada huu kuongeza uwezo encrypt files katika Hifadhi Filecoins na kuongeza msaada kwa wateja mkononi ili waweze **attach** vyombo vya habari au faili za memo Zcash encryption. 
+| Imani ya kawaida | Hali halisi ni ipi |
+| --- | --- |
+| “Halo ni uboreshaji wa baadaye ambao Zcash inasubiri.” | Orchard, inayotumika kwenye mainnet tangu NU5 (2022), tayari hutumia Halo 2. |
+| “Kutokuwa na usanidi unaoaminika kunamaanisha kutokuwa na vigezo kabisa.” | Halo bado hutumia vigezo vilivyopangiliwa; tofauti ni kwamba havina taka zenye sumu na vinaweza kutengenezwa na kuboreshwa bila sherehe ambayo washiriki wanapaswa kuiamini. |
+| “Halo 2 na makala ya Halo ni kitu kimoja.” | [makala](https://eprint.iacr.org/2019/1021.pdf) yanaeleza mpango wa commitment za polinomu na ugawaji wa gharama uliopachikwa; Halo 2 ni utekelezaji wa uzalishaji wa Rust wenye mpango wa mkusanyiko na arithmetization ya PLONKish. |
+| “Ujirudiaji husaidia tu kupanua uhakiki wa block.” | Ujirudiaji pia hubana ukokotoaji wa kiwango cha programu — tazama mathibitisho ya Filecoin ya muda wa nafasi/urudufu na kazi ya VDF kwa Ethereum. |
 
-[ECC x Filecoin Blog Post] Kuweka na kuhamisha fedha kutoka kwa akaunti yako ya benki.](https://electriccoin.co/blog/ethereum-zcash-filecoin-collab/)
+---
 
-### Ethereum (Ethereum)
+## Kurasa Zinazohusiana
 
-Utekelezaji wa Halo 2 uthibitisho kwa ufanisi Verifiable Delay Kazi (VDF) kuwa maendeleo. VDF ni cryptographic primitive kwamba ina kesi nyingi matumizi ya uwezo. 
+- [zk-SNARKs](/zcash-tech/zk-snarks) — kategoria ya jumla ya teknolojia ambayo Halo inahusishwa nayo
+- [Halo (makala ya utafiti)](https://eprint.iacr.org/2019/1021.pdf) — chapisho la awali
+- [Ironwood](/zcash-tech/ironwood) na [The Turnstile](/zcash-tech/the-turnstile) — jinsi mabwawa ya faragha yanavyohama huku yale ya zamani yakiondolewa
+- [Zcash Shielded Assets](/zcash-tech/zcash-shielded-assets) — kiendelezi kinachonufaika na mathibitisho yanayojirudia
+- [Zebra Full Node](/zcash-tech/zebra-full-node) — utekelezaji wa node unaothibitisha mathibitisho kwenye mnyororo
 
-Inaweza kutumika kama chanzo cha kusudi la jumla randomness ikiwa ni pamoja na matumizi katika maombi smart mkataba kama vile kiongozi uchaguzi katika uthibitisho wa hisa juu ya Ethereum & itifaki nyingine.
+## Mafunzo Zaidi
 
-ECC, Filecoin Foundation, Protocol Labs na Ethereum Foundation pia watafanya kazi pamoja [SupraNational](https://www.supranational.net/), muuzaji maalumu katika vifaa-haraka encryption, kwa uwezo GPU na ASIC kubuni na maendeleo ya VDF.
+- [Utangulizi wa ZKP na Halo 2 — Hanh Huynh Huu](https://www.youtube.com/watch?v=jDHWJLjQ9oA)
+- [Halo 2 pamoja na Daira & Str4d — ZK Podcast](https://www.youtube.com/watch?v=-lZH8T5i-K4)
+- [Blogu ya maelezo ya kiufundi](https://electriccoin.co/blog/technical-explainer-halo-on-zcash/)
+- [Halo 2 Community Showcase — Ying Tong @ Zcon3](https://www.youtube.com/watch?v=JJi2TT2Ahp0)
 
-[Usiri na Scaling Utafiti Group](https://appliedzkp.org/) Pia ni kutafiti njia tofauti Halo 2 uthibitisho unaweza kuboresha faragha na scalability kwa Ethereum mazingira. kundi hili rolls up ya msingi Ethereum, na ina lengo pana juu zero-ujuzi ushahidi na cryptographic primitives. 
+**Nyaraka**
 
-## Miradi mingine kutumia Halo
-
-+ [Anoma, faragha kuhifadhi multichain atomic kubadilishana itifaki](https://anoma.net/blog/hash-functions-in-plonkup)
-
-+ [Oribis, L2 zkRollup juu ya Cardano](https://docs.orbisprotocol.com/orbis/technology/halo-2)
-
-+ [DarkFi, binafsi L1 zkEVM blockchain](https://dark.fi/book/arch/arch.html)
-
-+ [Scroll, L2 zkRollup juu ya Ethereum](https://scroll.mirror.xyz/nDAbJbSIJdQIWqp9kn8J0MVS4s6pYBwHmK7keidQs-k)
-
-
-**Kujifunza zaidi**:
-
-[Kuanzishwa kwa ZKP na Halo 2 - Hanh Huynh Huu](https://www.youtube.com/watch?v=jDHWJLjQ9oA)
-
-[Halo 2 na Daira & Str4d - ZKPodcast](https://www.youtube.com/watch?v=-lZH8T5i-K4)
-
-[Technical Explainer Blog] (Kifungu cha Maelezo ya Ufundi)](https://electriccoin.co/blog/technical-explainer-halo-on-zcash/)
-
-[Halo 2 Jumuiya ya kuonyesha - Ying Tong @ Zcon3](https://www.youtube.com/watch?v=JJi2TT2Ahp0)
-
-** Nyaraka**
-
-[Halo 2 rasilimali](https://github.com/mhchia/awesome-halo2)
-
-[Halo 2 docs](https://zcash.github.io/halo2/)
-
-[Halo 2 github](https://github.com/zcash/halo2)
+- [Rasilimali za Halo 2](https://github.com/mhchia/awesome-halo2)
+- [Nyaraka za Halo 2](https://zcash.github.io/halo2/)
+- [Halo 2 GitHub](https://github.com/zcash/halo2)

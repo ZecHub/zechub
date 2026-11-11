@@ -3,160 +3,160 @@
 </a>
 
 
-# Zcash Lightwallet Nodes (Nọmba nke obere akpa ego)
+# Zcash Lightwallet Nodes
 
-## TL;DR
+## Na nkenke
 
-* Ọtụtụ ndị mmadụ na-eji Zcash site n'akpa ego dị mfe, nke anaghị ebudata ngọngọ niile. Kama, ọ na -agwa onye sava arụworị ọrụ ahụ okwu.
-* Akụkụ abụọ nke ngwanrọ na-eje ozi obere akpa taa: **lightwalletd**, ọrụ mbụ e dere na Go, yana **Zaino**, ihe ndebanye ọhụrụ edere na Rust.
-* Igodo gị anaghị ahapụ ngwaọrụ gị, na sava ahụ enweghị ike imefu ego gị ma ọ bụ gụọ ọnụọgụ na memos n'ime azụmahịa echekwara kpamkpam.
-* Ihe ihe nkesa ahụ dị mma iji mụta bụ adreesị IP gị na oge nke ọrụ gị  azụmahịa echekwara chebe ihe na-aga n'elu blockchain, ọ bụghị njikọ gị na sava.
-* Tor na-ewepu njirimara IP; ọ dị n'ime wallets wuru na ya. `zcash_client_backend`, na ZODL ọ bụ ntọala dị na Ntọala Ọganihu.
-* Ị nwere ike ịgbanwe nke ihe nkesa gị obere akpa na-eji, ma ọ bụ na-agba ọsọ onwe gị  ma lightwalletd na Zaino bụ oghe isi.
+* Ọtụtụ ndị na-eji Zcash site n’e-akpa ego [wallet] dị mfe, nke na-adịghị ebudata blockchain dum. Kama nke ahụ, ọ na-agwa sava nke rụgoro ọrụ ahụ.
+* Akụrụngwa abụọ na-eje ozi e-akpa ego dị mfe taa: **lightwalletd**, ọrụ mbụ e dere na Go, na **Zaino**, indexer ọhụrụ e dere na Rust.
+* Igodo gị anaghị ahapụ ngwaọrụ gị, sava ahụ enweghị ike imefu ego gị ma ọ bụ gụọ ọnụego na memo ndị dị n’ime Azụmahia [transaction] nke e chebere echebe [shielded] kpamkpam.
+* Ihe sava ahụ nwere ọnọdụ ọma iji mata bụ adreesị IP gị na oge ọrụ gị — Azụmahia nke e chebere echebe na-echebe ihe na-eme na blockchain, ọ bụghị njikọ gị na sava ahụ.
+* Tor na-ewepụ njirimara IP; ọ dị na e-akpa ego ndị e wuru na `zcash_client_backend`, ma na ZODL ọ bụ ntọala dị na Advanced Settings.
+* Ị nwere ike ịgbanwe sava e-akpa ego gị ji, ma ọ bụ mee nke gị — ma lightwalletd na Zaino bụ open source.
 
-## Nkọwa nke isi ihe dị na ya.
+## Nkọwa Isi
 
-Ọtụtụ ndị mmadụ na-eji Zcash site n'akpa ego dị mfe, nke anaghị ebudata blockchain dum. Kama nke ahụ, ọ na -agwa onye nkesa arụworị ọrụ ahụ. Peeji a kọwara ihe sava ndị ahụ bụ, ihe ha nwere ike ịhụ ma enweghị ike ịhụ gbasara gị, otu esi agagharị njikọ gị karịa Tor, yana etu ị ga -esi gbanwee sava akpa ego gị ji eme ihe.
+Ọtụtụ ndị na-eji Zcash site n’e-akpa ego dị mfe, nke na-adịghị ebudata blockchain dum. Kama nke ahụ, ọ na-agwa sava nke rụgoro ọrụ ahụ. Peeji a na-akọwa ihe sava ndị ahụ bụ, ihe ha nwere na enweghị ike ịhụ gbasara gị, otu esi agafe njikọ gị n’elu Tor, na otu esi agbanwe sava e-akpa ego gị ji.
 
-Mpempe abụọ nke ngwanrọ na-eje ozi obere akpa taa. **lightwalletd** bụ ọrụ mbụ, edere ya na Go. **Zaino** bụ ihe ọhụrụ indexer e dere na Rust, wuru dị ka akụkụ nke zcashd deprecation work.
+Akụrụngwa abụọ na-eje ozi e-akpa ego dị mfe taa. **lightwalletd** bụ ọrụ mbụ, e dere na Go. **Zaino** bụ indexer ọhụrụ e dere na Rust, e wuru dịka akụkụ nke ọrụ ịkwụsị zcashd.
 
-### Ihe ihe nkesa obere akpa na-eme
+### Ihe sava e-akpa ego dị mfe na-eme
 
-Ihe nkesa obere akpa dị n'etiti obere akpa gị na Zcash blockchain ma nye ya echiche bandwidth-arụ ọrụ nke agbụ. Ọ na - eme ihe atọ maka gị.
+Sava e-akpa ego dị mfe na-anọdụ n’etiti e-akpa ego gị na blockchain Zcash ma nye ya nlele chain [chain] na-eji bandwidth rụọ ọrụ nke ọma. Ọ na-emere gị ihe atọ.
 
-It serves compact blocks. Rather than whole blocks, it sends a compact form carrying only what a wallet needs to detect a payment to its shielded address, detect a spend of its notes, and update its witnesses.
+Ọ na-eje ozi block [block] kọmpat. Kama block dum, ọ na-eziga ụdị kọmpat nke na-ebu naanị ihe e-akpa ego chọrọ iji chọpụta Kwụọ ụhwọ [payment] na Adreesị akpa ego nke e chebere echebe ya, chọpụta mmefu note [note] ya, ma melite ndị akaebe ya.
 
-Ọ na-ebugharị azụmahịa gị. Mgbe ị zipụrụ, obere akpa gị nyefere ihe nkesa ahụ emechara ya nke ga-agbasa ozi n'elu netwọkụ ahụ.
+Ọ na-ebufe Azụmahia gị. Mgbe ị zitere, e-akpa ego gị na-enye sava ahụ Azụmahia emechara, sava ahụ ebusaa ya na netwọk.
 
-Ọ na-aza ajụjụ ndị dị ka, ogo gị ugbu a nakwa ozi gbasara ego ole ị ga-akwụ n'ụgwọ ahụ.
+Ọ na-aza ajụjụ chain, dịka elu ugbu a na ozi ugwo [fee] e-akpa ego gị chọrọ.
 
-Your wallet still does the private work locally. It holds your keys, trial-decrypts blocks to find your notes, and builds and signs transactions on your device.
+E-akpa ego gị ka na-arụ ọrụ nzuzo ahụ na mpaghara. Ọ na-edobe igodo gị, na-anwale izopụ block iji chọta note gị, ma na-ewu ma bịanye aka na Azụmahia n’ọrụ ngwaọrụ gị.
 
-### Ihe onye nkesa nwere ike ma ghara ịhụ
+### Ihe sava ahụ nwere na enweghị ike ịhụ
 
-Nke a bụ akụkụ nke dị mfe ịghọtahie. Igodo gị anaghị ahapụ ngwaọrụ gị, mana ọ bụghị otu ihe ahụ dịka sava na-amụtaghị banyere gị.
+Nke a bụ akụkụ dị mfe ịghọtahie. Igodo gị anaghị ahapụ ngwaọrụ gị, mana nke ahụ apụtaghị na sava ahụ amụghị ihe ọ bụla gbasara gị.
 
-Ihe e zoro aka na ya ebe a bụ ihe ahụ . [Zcash wallet ngwa egwu ihe atụ](https://zcash.readthedocs.io/en/latest/rtd_pages/wallet_threat_model.html), which is worth reading in full if you care about this. It sets out several kinds of adversary. The one that matters for this page is an adversary who can watch traffic between your wallet and the internet, and between the server and the internet. Whoever runs the server is inherently in part of that position, because your wallet connects to them directly.
+Ntụaka ebe a bụ ụdị egwu nke ngwa e-akpa ego [Zcash](https://zcash.readthedocs.io/en/latest/rtd_pages/wallet_threat_model.html), nke kwesịrị ka ị gụọ ya dum ma ọ bụrụ na nke a dị gị mkpa. Ọ na-akọwa ụdị ndị mmegide dị iche iche. Nke dị mkpa na peeji a bụ onye mmegide nwere ike ilele okporo data dị n’etiti e-akpa ego gị na ịntanetị, yana n’etiti sava ahụ na ịntanetị. Onye ọ bụla na-agba sava ahụ nọ n’ọnọdụ a n’otu akụkụ, n’ihi na e-akpa ego gị na-ejikọ ha ozugbo.
 
-Malite na ihe echedoro. megide onye ọ bụla mmegide n'ụdị, gụnyere otu nke mebiri sava ahụ, "enweghị ike ịmụta ihe ọ bụla nke igodo nzuzo nke onye ọrụ (igodo mmefu ego, igodo elele, mkpụrụ okwu, wdg) ", enweghị ike izu ohi gị ego, ma ghara ime ka ị zipụ ego ị bu n'obi iziga. Ọnụ ọgụgụ na memos dị n'ime azụmahịa ndị a kpuchiri kpamkpam ga-anọgide na-ezoro ezo.
+Bido n’ihe echebere. Megide onye mmegide ọ bụla dị na ụdị ahụ, gụnyere onye mebiri sava ahụ, ọ “enweghị ike ịmụta ihe ọ bụla gbasara ihe igodo kriptografik onye ọrụ nwere (igodo ego, viewing key, Mkpuru mgbake [seed phrase], na ihe ndị ọzọ)”, enweghị ike izuru ego gị, ọ pụghịkwa ime ka ị ziga ego ị na-achọghị iziga. Ọnụego na memo dị n’ime Azụmahia nke e chebere echebe kpamkpam na-anọgide na Nzobe ederede [encryption].
 
-Mgbe ahụ enwere ihe a na-echedobeghị. Ihe nlereanya iyi egwu depụtara ndị a dị ka adịghị ike mara megide onye iro nke na-eleba anya n'okporo ụzọ:
+Mgbe ahụ, e nwere ihe ndị na-adịghị echebe. Ụdị egwu ahụ depụtara ndị a dịka adịghị ike amaara megide onye mmegide na-ekiri okporo data:
 
-| Adịghị ike | Kedu |
+| Adịghị ike | Otu o si eme |
 |:--|:--|
-| Ịgwa onye ị bụ | "Onye mmegide maara adreesị IP nke onye ọrụ, nke nwere ike iduga ha n'ezi njirimara onye ọrụ" |
-| Na-ekwu ebe ị nọ n'ụzọ dị mkpirikpi | Ịchọta IP gị "na nchekwa data geolocation iji mee ka ha mara ebe ha nọ" |
-| Ịkọ nke ahụ na mgbe ị zigara ma ọ bụ nata azụmahịa echekwara | Izipu "na-eji ọtụtụ bandwit, nke a na-ahụ anya ọbụlagodi na njikọ ahụ ezoro ezo". Ụdị ihe nlereanya ahụ na-ekwu na ihe nkesa ahụ na-ahụ ihe nkesa ahụ n'onwe ya |
-| Ịgụta ọnụọgụ azụmahịa ị mere ka oge na-aga | Ụdị bandwit ahụ, a hụrụ ya ruo ogologo oge |
-| Ịchọpụta usoro ịkwụ ụgwọ ugboro ugboro | Ịhụ mgbe ihe omume mere |
-| Ịchọpụta ma adreesị ọ bụ nke gị | Onye iro nke maara adreesị "nwere ike izipu ego na adreesị ahụ ma lezie anya iji hụ ma enwere mmụba bandwit" site na obere akpa gị iji nweta ya |
+| Ịmata onye ị bụ | “Onye mmegide maara adreesị IP onye ọrụ, nke nwere ike iduga ha n’ezi njirimara onye ọrụ” |
+| Ịmata ebe ị nọ n’ụdị mkpokọta | Ịchọ IP gị “n’ebe nchekwa data geolocation iji tụọ ebe ha nọ” |
+| Ịmata na mgbe ị zitere ma ọ bụ natara Azụmahia nke e chebere echebe | Izipu “na-eji bandwidth karịa, nke a na-ahụ anya ọbụna ma njikọ ahụ ezoro ezo”. Ụdị ahụ kwuru na sava n’onwe ya na-ahụ omume izipu na ịnata |
+| Ịgụ ọnụ ọgụgụ Azụmahia i meela ka oge na-aga | Otu ụkpụrụ bandwidth ahụ, a hụrụ n’oge dị ogologo |
+| Ịhụ ụkpụrụ Kwụọ ụhwọ na-eme ugboro ugboro | Ileba anya mgbe ọrụ na-eme |
+| Ịchọpụta ma Adreesị akpa ego bụ nke gị | Onye mmegide maralarị Adreesị akpa ego nwere ike “iziga ego na Adreesị akpa ego ahụ wee lelee ma e nwere mmụba bandwidth” sitere n’e-akpa ego gị mgbe ọ na-ebudata ya |
 
-The nlereanya na-egosikwa na nkịtị ikpe assumes "a ntụkwasị obi mmekọrịta n'etiti onye ọrụ na lightwalletd nkesa ọrụ".
+Ụdị ahụ kwukwara na ọnọdụ nkịtị na-eche “mmekọrịta ntụkwasị obi dị n’etiti onye ọrụ na onye na-arụ sava lightwalletd”.
 
-So the honest summary is this. A light wallet server cannot spend your money, and it cannot read the amounts or memos in your shielded transactions. What it is well placed to learn is your IP address and the timing of your activity, and those two together can say a lot about a person. Shielded transactions protect what goes on the blockchain. They do not, on their own, hide your connection to the server.
+Ya mere nchịkọta eziokwu bụ nke a. Sava e-akpa ego dị mfe enweghị ike imefu ego gị, ọ nweghịkwa ike ịgụ ọnụego ma ọ bụ memo dị na Azụmahia gị nke e chebere echebe. Ihe o nwere ọnọdụ ọma iji mata bụ adreesị IP gị na oge ọrụ gị, na ha abụọ ọnụ nwere ike ikwu ọtụtụ ihe gbasara mmadụ. Azụmahia nke e chebere echebe na-echebe ihe na-eme na blockchain. Ha anaghị, n’onwe ha, ezobe njikọ gị na sava ahụ.
 
-## Ihe Anya / Ntụle
+## Ihe Nlereanya / Ule
 
-Think of a public library that holds every newspaper ever printed. A full node is a reader who takes home the entire archive. A light wallet is a reader who asks the librarian for a daily digest instead — a thin sheet carrying just enough to spot whether anything concerns them.
+Chee echiche maka ọbá akwụkwọ ọha nke na-edobe akwụkwọ akụkọ ọ bụla e bipụtarala. Full node [full node] bụ onye na-agụ akwụkwọ na-eburu ebe nchekwa dum laa ụlọ. E-akpa ego dị mfe bụ onye na-agụ akwụkwọ na-arịọ onye na-elekọta ọbá akwụkwọ maka nchịkọta kwa ụbọchị kama — obere akwụkwọ dị gịrịgịrị nke na-ebu naanị ihe ga-ezuru iji hụ ma ihe ọ bụla metụtara ya.
 
-A na-emechi akwụkwọ nchịkọta: onye ọbá akwụkwọ ahụ chịkọtara ya n'enweghị ike ịgụ ihe ndị dị gị mkpa, ị mepee ya n"ụlọ site na igodo nke aka gị. Nke a bụ kọmpụta mkpokọta, ma mmeghe ahụ bụ nnwale decryption na ngwaọrụ gị.
+A na-emechi nchịkọta ahụ: onye na-elekọta ọbá akwụkwọ na-achịkọta ya n’enweghị ike ịgụ ihe ndị dị gị mkpa, ma ị na-emeghe ya n’ụlọ site n’igodo nke gị. Nke ahụ bụ block kọmpat, mmeghe ahụ bụkwa nnwale izopụ na ngwaọrụ gị.
 
-But the librarian still sees which reader walked in, at what time, and how thick a bundle they carried out. That is the IP address and the timing — visible from the desk, no matter how well sealed the envelope is. Tor is the equivalent of sending an anonymous courier: the librarian still hands over the same bundle, but no longer knows whose house it goes to.
+Mana onye na-elekọta ọbá akwụkwọ ahụ ka na-ahụ onye na-agụ akwụkwọ batara, oge ọ batara, na ịdị arọ ngwugwu ọ bu pụọ. Nke ahụ bụ adreesị IP na oge — a na-ahụ ha site n’oche ọrụ, n’agbanyeghị etu e si mechie envelopu ahụ nke ọma. Tor yiri izipu onye ozi na-amaghị aha: onye na-elekọta ọbá akwụkwọ ka na-enye otu ngwugwu ahụ, mana ọ maghịzi ụlọ onye ọ na-aga.
 
-## Ịbanye n'Okpuru Mmiri Dị Omimi
+## Nnyocha Miri Emi
 
-### Ịgagharị na Tor
+### Ịgafe n’elu Tor
 
-Tor na-agbaji njikọ dị n'etiti adreesị IP gị na okporo ụzọ obere akpa, nke wepụrụ njirimara kachasị ike na tebụl dị n 'elu.
+Tor na-agbaji njikọ dị n’etiti adreesị IP gị na okporo data e-akpa ego gị, nke na-ewepụ njirimara kasị ike dị na tebụl dị n’elu.
 
-Nkwado dị na ọba akwụkwọ Rust nke ọtụtụ obere akpa Zcash wuru. zcash_client_backend gụnyere modul Tor e wuru n'elu ya . [Arti na-ekwu, sị:](https://tpo.pages.torproject.net/core/arti/), mmejuputa Rust nke Tor, yabụ obere akpa nwere ike ịhazi mmekọrịta, mgbasa ozi azụmahịa na nyocha ọnụahịa site na Tor n'ebughị onye ahịa Tor dị iche.
+Nkwado dị na ọba akwụkwọ Rust nke ọtụtụ e-akpa ego Zcash na-ewu n’elu ha. zcash_client_backend nwere modul Tor e wuru na [Arti](https://tpo.pages.torproject.net/core/arti/), mmejuputa Rust nke Tor, yabụ e-akpa ego nwere ike iduzi mmekọrịta sync, mgbasa Azụmahia, na ọchụchọ ọnụahịa site na Tor n’ebughị client Tor dị iche.
 
-Ndị mmepe Zaino na-eme otu arụmụka ahụ, na-ekwu maka ụdị iyi egwu ozugbo: enwere "mkpa iji usoro mbufe amaghị aha (dị ka Nym ma ọ bụ Tor) iji kpuchie njirimara ndị ahịa site na sava ndeksi Zcash".
+Ndị onye mmepụta Zaino na-arụ otu arụmụka ahụ, na-ezo aka n’ụdị egwu ahụ kpọmkwem: e nwere “mkpa iji usoro mbufe na-amaghị aha (dịka Nym ma ọ bụ Tor) iji mee ka njirimara clients ghara ịpụta ìhè n’ebe sava indexing nke Zcash nọ”.
 
-In **ZODL**, Tor is a setting in Advanced Settings. The wallet's release notes point users to manual connection mode "plus enabling Tor in Advanced Settings" if they "prefer to reduce metadata exposure", and the app offers to turn Tor on before you restore a wallet, which is the moment a fresh IP would otherwise be tied to a whole wallet history.
+Na **ZODL**, Tor bụ ntọala dị na Advanced Settings. Ihe ndetu mbipụta e-akpa ego ahụ na-atụ ndị ọrụ aka na ọnọdụ njikọ aka “tinyere ịgbanye Tor na Advanced Settings” ma ọ bụrụ na ha “họrọ ibelata ikpughe metadata”, ngwa ahụ na-enyekwa ịgbanye Tor tupu ị weghachi e-akpa ego, nke bụ oge IP ọhụrụ ga-enwe njikọ na akụkọ e-akpa ego dum ma ọ bụghị ya.
 
-Two caveats. Tor hides your IP from the server, but it does not change what the server learns from the requests you make. And onion routing adds latency, so syncing takes longer. Running your own server avoids the trust question differently, since then the operator is you.
+Ihe ịdọ aka ná ntị abụọ. Tor na-ezobe IP gị n’aka sava ahụ, mana ọ naghị agbanwe ihe sava ahụ na-amụta site n’arịrịọ ị na-eme. Ịgafe site na onion na-agbakwụnye latency, yabụ syncing na-ewe ogologo oge. Ịgba sava nke gị na-ezere ajụjụ ntụkwasị obi n’ụzọ ọzọ, n’ihi na mgbe ahụ, onye na-arụ ya bụ gị.
 
-### Zaino, onye na-enyocha ihe ndị e ji eme nchara.
+### Zaino, indexer Rust
 
-[Zaino](/zcash-tech/zaino) bụ indexer e dere na Rust site Zingo otu, wuru iji dochie lightwalletd dị ka akụkụ nke zcashd deprecation ọrụ. Ọ na-eje ozi ìhè ahịa, zuru ahịa, na ngọngọ explorers, ịgụ ihe n'usoro data ẹkenịmde "ma a Zebra ma ọ bụ zcashd full validator".
+[Zaino](/zcash-tech/zaino) bụ indexer e dere na Rust site n’otu Zingo, e wuru iji dochie lightwalletd dịka akụkụ nke ọrụ ịkwụsị zcashd. Ọ na-eje ozi light client, client zuru oke, na block explorer, na-agụ data chain nke a na-edobe na “ma ọ bụ Zebra ma ọ bụ full validator zcashd”.
 
-It is under active development, with version 0.8.0 released in August 2026. It aims to stay backward compatible with lightwalletd where possible, so wallets can point at it without being rewritten.
+Ọ nọ n’okpuru mmepe na-arụsi ọrụ ike, ebe ewepụtara ụdị 0.8.0 n’August 2026. Ọ na-achọ ịnọgide na-adaba azụ na lightwalletd ebe o kwere omume, ka e-akpa ego nwee ike ịtụ aka na ya n’edeghachighị ha.
 
-Zaino nwere ibe nke ya na eserese ihe owuwu, yabụ peeji a kpuchitere naanị ọrụ ya dị ka sava obere akpa.
+Zaino nwere peeji nke ya nwere eserese nhazi, yabụ peeji a na-ekpuchi naanị ọrụ ya dịka sava e-akpa ego dị mfe.
 
-### Ịrụ ọrụ nke aka gị .
+### Ịgba nke gị
 
-Nhọrọ kachasị ike bụ ịbụ onye ọrụ gị, nke na-ewepụ ajụjụ ntụkwasị obi kpamkpam. Ihe nkesa abụọ ahụ mepere emepe: [lightwalletd](https://github.com/zcash/lightwalletd) na-aga ma [Zaino](https://github.com/zingolabs/zaino) na nchara. Ma agụ site a zuru validator, otú ị ga-achọkwa [Zebra](/zcash-tech/zebra-full-node).
+Nhọrọ kasị ike bụ ịbụ onye na-arụ nke gị, nke na-ewepụ ajụjụ ntụkwasị obi kpamkpam. Sava abụọ ahụ bụ open source: [lightwalletd](https://github.com/zcash/lightwalletd) na Go na [Zaino](https://github.com/zingolabs/zaino) na Rust. Ha abụọ na-agụ site na full validator, yabụ ị ga-achọkwa [Zebra](/zcash-tech/zebra-full-node).
 
-## Ihe Ndị A Pụrụ Ime n'Ọrụ Ahụ
+## Mmetụta Bara Uru
 
-### Ndepụta ihe nkesa
+### Ndepụta sava
 
-Ihe ahụ bụ: [hosh.zec.rocks Ihe ndị dị na peeji nke 2](https://hosh.zec.rocks/zec) dashboard na-enyocha ndị ọrụ ọha na eze na ahụike ha, ọ bụkwa ebe ị ga-elele ihe dị n'ezie. [ọnọdụ.zec.rocks](https://status.zec.rocks/) na-egosi ọnọdụ ọrụ.
+Dashboard [hosh.zec.rocks](https://hosh.zec.rocks/zec) na-enyocha sava ọha na ahụike ha, ọ bụkwa ebe a ga-enyocha ihe na-arụ ọrụ n’ezie. [status.zec.rocks](https://status.zec.rocks/) na-egosi ọnọdụ ọrụ.
 
-Ndị sava edepụtara na dashboard ahụ n'oge edere ederede:
+Sava ndị edepụtara na dashboard ahụ n’oge edere ihe a:
 
-| Sava | Ihe ndetu |
+| Sava | Ihe edeturu |
 |:--|:--|
-| zec.rocks:443 | E depụtara njedebe mpaghara n'akụkụ ya na na.zec.rocks, eu.zec.rocks, ap.zec.rocks na sa.zec.rocks |
-| zec-node.cakewallet.com:443 | Na ngalaba Cake Wallet |
-| zec.0xrpc.io:443 | 0xRPC, nke na-enye njedebe ọha na eze n'efu maka ọtụtụ agbụ ma na-arịọ maka onyinye iji kpuchie ikike |
-| zaino.unsafe.zec.rocks:443 | Ihe atụ Zaino. Rịba ama aha onye nnabata ahụ, were ya dị ka nnwale |
-| testnet.zec.rocks:443 | Testnet, yana ihe atụ Zaino testnet edepụtara na zaino.testnet.unsafe.zec.rocks |
+| zec.rocks:443 | Edepụtara endpoints mpaghara n’akụkụ ya na na.zec.rocks, eu.zec.rocks, ap.zec.rocks na sa.zec.rocks |
+| zec-node.cakewallet.com:443 | Na domain Wallet Cake |
+| zec.0xrpc.io:443 | 0xRPC na-agba ya, nke na-enye endpoints ọha n’efu maka ọtụtụ chain ma na-arịọ onyinye iji kpuchie ike ọrụ |
+| zaino.unsafe.zec.rocks:443 | Oge Zaino. Rịba ama hostname ahụ, were ya dị ka ihe nnwale |
+| testnet.zec.rocks:443 | Testnet, nwere oge testnet Zaino edepụtara na zaino.testnet.unsafe.zec.rocks |
 
-Lelee dashboard kama ịtụkwasị ndepụta a obi. Ndị na-arụ ọrụ na-abịa ma laa, ibe dị ka nke a ga-aka nká.
+Lelee dashboard kama ịtụkwasị ndepụta a obi. Ndị na-arụ sava na-abịa ma na-apụ, peeji dị ka nke a na-akakarị nká.
 
-### Ịgbanwe sava na akpa gị
+### Ịgbanwe sava n’e-akpa ego gị
 
-Ọ bara uru ime ma ọ bụrụ na ịchọrọ ịhọrọ onye ọrụ ị tụkwasịrị obi, gbasaa ihe omume n'etiti ndị ọrụ, ma ọ bụ gosi gị onwe gị.
+Ọ bara uru ime ma ọ bụrụ na ịchọrọ ịhọrọ onye na-arụ ọrụ ị tụkwasịrị obi, kesaa ọrụ n’etiti ndị na-arụ ọrụ, ma ọ bụ tụọ aka na nke gị.
 
-Ụzọ menu dị n'okpuru bụ nke ziri ezi mgbe emelitere ibe a, mana wallet interfaces na-agagharị agagharị, yabụ were ha dịka ihe ngosi kama ịbụ ụzọ. Chọọ maka Ntọala di elu ma ọ bụ nhọrọ nkesa.
+Ụzọ menu ndị dị n’okpuru ziri ezi mgbe emelitere peeji a, mana interface e-akpa ego na-agagharị, yabụ were ha dịka ntụaka karịa ụzọ kpọmkwem. Chọọ Advanced Settings ma ọ bụ nhọrọ sava.
 
 #### ZODL
 
-ZODL na-enye a Gbanye nkesa shortcut mgbe sync ọdịda kpatara site ihe nkesa ịbụ nke ụbọchị.
+A na-akpọbu ya Zashi. Cog dị n’akụkụ aka nri elu, emesia Advanced Settings. Tor dị n’otu ihuenyo ahụ. ZODL na-enyekwa ụzọ mkpirisi Switch server mgbe ọdịda sync sitere na sava na-adịghị emelite.
 
 #### Ywallet
 
-Ngwunye na akuku aka nri elu, mgbe ahụ Zcash tab.
+Cog dị n’akụkụ aka nri elu, emesia tab Zcash.
 
 ![Ywallet server settings](/content-images/b0a2910b-dbdf-4292-8e69-af5a386aa183-f51f098d19.webp)
 
 #### Zingo
 
-Nchịkọta hamburger dị n'akụkụ aka ekpe elu, mgbe ahụ Ntọala, wee gbadaa.
+Menu hamburger dị n’akụkụ aka ekpe elu, emesia Settings, wee pịgharịa ala.
 
 ![Zingo server settings](/content-images/ea8f7672-e644-41a5-a422-db131740404a-2626f5fa79.webp)
 
 #### eZcash
 
-Nchịkọta nri hamburger dị n'akụkụ aka ekpe elu, mgbe ahụ Ntọala, wee nwee ọganihu.
+Menu hamburger dị n’akụkụ aka ekpe elu, emesia Settings, emesia Advanced.
 
 ![eZcash server settings](/content-images/655c0172-61a0-4322-b8cf-4eee4bb53b51-0b93df2e71.webp)
 
-E sere nseta ihuenyo ndị ahụ na Machị 2025, ma ngwa ọdịnala ebupụla mbipụta kemgbe, yabụ bọtịnụ nwere ike ịkwaga.
+Ewere screenshot ndị ahụ na March 2025, ngwa ndị ahụ ewepụtakwala mbipụta kemgbe ahụ, yabụ bọtịnụ nwere ike ịbụla ebe ọzọ.
 
-## Ihe Ndị A Na-emekarịhie Emeghị
+## Mmejọ A Na-ahụkarị
 
-**Iche na ihe nkesa nwere ike ịgụ azụmahịa gị** Ọ pụghị. Igodo gị nọ n'ime ngwaọrụ gị, ego na memos dị n'etiti azụmahịa echekwara kpamkpam ka ezoro ezo  ọbụlagodi onye iro nke mebiri sava ahụ.
+**Iche na sava ahụ nwere ike ịgụ Azụmahia gị**. Ọ nweghị ike. Igodo gị na-anọ na ngwaọrụ gị, ọnụego na memo dị n’ime Azụmahia nke e chebere echebe kpamkpam na-anọgide na Nzobe ederede — ọbụna megide onye mmegide mebiri sava ahụ.
 
-** Ịgụ "nchekwa" dị ka "njikọ na-enweghị aha".** Azụmahịa echekwara chebe ihe ọ bụla na blockchain. Adreesị IP gị na oge nke ọrụ gị bụ akwa dị iche, ma ọkwa ahụ bụ kpọmkwem ihe nkesa hụrụ.
+**Ịgụ “shielded” dịka “njikọ na-amaghị aha”**. Azụmahia nke e chebere echebe na-echebe ihe na-eme na blockchain. Adreesị IP gị na oge ọrụ gị bụ oyi akwa dị iche, oyi akwa ahụ bụkwa kpọmkwem ihe sava ahụ na-ahụ.
 
-** Iche na Tor wepụrụ ihe niile**. Tor zoro IP gị site n'aka sava ahụ, mana ọ naghị agbanwe ihe nkesa mụtara site na arịrịọ ị mere, ma gbakwunye oge iji mekọrịta ya.
+**Iche na Tor na-ewepụ akara ọ bụla**. Tor na-ezobe IP gị n’aka sava ahụ, mana ọ naghị agbanwe ihe sava ahụ na-amụta site n’arịrịọ ị na-eme, ọ na-agbakwụnyekwa latency na syncing.
 
-** Ịtụkwasị obi na ndepụta sava dị na ibe wiki** Ndị ọrụ abịa ma laa. Lelee [hosh.zec.rocks Ihe ndị dị na peeji nke 2](https://hosh.zec.rocks/zec) maka ihe na-agba ọsọ n'ezie tupu ị tụọ aka gị obere akpa na ihe ọ bụla.
+**Ịtụkwasị ndepụta sava dị na peeji wiki obi**. Ndị na-arụ sava na-abịa ma na-apụ. Lelee [hosh.zec.rocks](https://hosh.zec.rocks/zec) maka ihe na-arụ ọrụ n’ezie tupu ị tụọ e-akpa ego gị aka n’ihe ọ bụla.
 
-## Nchịkọta nke ihe ndị a na-ekwu
+## Nchịkọta
 
-Light wallets give you the shielded pool without the disk space, which is a good trade. Just be clear about what you are trading. The server cannot take your funds or read your shielded amounts, but it is well placed to see your IP address and when you transact. Route over Tor, choose your operator deliberately, or run your own.
+E-akpa ego dị mfe na-enye gị pool nke e chebere echebe na-enweghị oghere diski, nke bụ ezigbo mgbanwe. Naanị ghọta nke ọma ihe ị na-agbanwe. Sava ahụ enweghị ike ịnara ego gị ma ọ bụ gụọ ọnụego gị nke e chebere echebe, mana ọ nọ n’ọnọdụ ọma ịhụ adreesị IP gị na mgbe ị na-eme Azụmahia. Gafee n’elu Tor, họrọ onye na-arụ sava gị n’amụma, ma ọ bụ gbaa nke gị.
 
-## Peeji ndị metụtara ya
+## Peeji Ndị Metụtara
 
-- [Onye nwere ike ịhụ ụgwọ Zcash gị?](/start-here/who-can-see-your-zcash-payment)  echiche onye mbido nke otu ajụjụ ahụ.
-- [Ihe Onye Na-enyocha Mpaghara Pụrụ Ịhụ](/zcash-tech/what-a-block-explorer-can-see)  ihe a na-ahụ anya n'elu agbụ, ma ọ bụghị nke dị na sava ahụ.
-- [Zaino](/zcash-tech/zaino)  ihe osise usoro na ọrụ sara mbara nke Rust indexer.
-- [Zebra Full Node (Nọmba zuru ezu)](/zcash-tech/zebra-full-node)  onye nyocha nke ihe nkesa obere akpa na-agụ site.
-- [Nkwekọrịta obere akpa Zcash](/zcash-tech/zcash-wallet-syncing)  etu esi eme ka obere akpa ego gị rụọ ọrụ kọmpat nke ihe nkesa na-eziga.
+- [Onye Pụrụ Ịhụ Kwụọ ụhwọ Zcash Gị](/start-here/who-can-see-your-zcash-payment) — nlele ọkwa mmalite nke otu ajụjụ ahụ.
+- [Ihe Block Explorer Pụrụ Ịhụ](/zcash-tech/what-a-block-explorer-can-see) — ihe a na-ahụ on-chain, n’adịghị ka n’ebe sava nọ.
+- [Zaino](/zcash-tech/zaino) — eserese nhazi na ọrụ sara mbara nke indexer Rust.
+- [Zebra Full Node](/zcash-tech/zebra-full-node) — validator nke sava e-akpa ego dị mfe na-agụ site na ya.
+- [Zcash Wallet Syncing](/zcash-tech/zcash-wallet-syncing) — otu e-akpa ego gị si ahazi block kọmpat sava na-eziga.
 
-**Emelitere ikpeazụ:** Ọgọstụ 2026
+**Emelitere ikpeazụ:** August 2026

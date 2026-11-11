@@ -1,28 +1,29 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Zero_to_Zero_Knowledge/Podcasts/The_Zcash_Podcast.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="ページを編集"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# デジタルキャッシュネットワークにおけるZcashポッドキャスト
+
+# デジタルキャッシュネットワークにおけるZcashポッドキャスト（Podcast）
 ![Screenshot_2023-01-22_21-50-14](/content-images/213973803-b0629c92-08d4-459b-99f1-594854-6272d02af6.webp)
 
-Zcashポッドキャストは、既存のZcashコミュニティが消費し共有できるようなアップデートや特定のトピックに関する詳細な解説などのコンテンツを提供します。また、デジタルキャッシュネットワークのチャネル登録者にとって、Zcashについてより深く理解する機会も提供しています。
+Zcashポッドキャストでは、既存のZcashコミュニティが視聴・共有できるよう、最新情報、特定テーマの詳細な解説などのコンテンツを配信しています。また、既存のデジタルキャッシュネットワークチャンネル登録者がZcashについてより深く知る機会も提供しています。 
 
-具体的には、このチャンネルは以下の点に焦点を当てています：
+具体的に、このチャンネルは以下に焦点を当てています。
 
-* クリプト通貨を使って銀行口座を持たずに生活し、人生全体を分散化することに関する視点。
-* 一般的なクリプト通貨の聴衆と比較して、Zcashの原則や技術に関心を持つ可能性が高いコミュニティの構築。
+* 暗号資産で銀行口座なしの生活を送り、人生全体を分散化するという視点です。
+* 平均的な暗号資産の視聴者と比べて、Zcashの原則と技術に関心を持つ可能性がより高いコミュニティを厳選することです。
 
-さらに、ライブ形式は聴衆とのつながりを感じさせるもので、参加者たちはホストやゲストにリアルタイムで質問を投げかけることができます。これは新規ファンへのリーチに最適でありながら、長文コンテンツも後から消費可能になります。
+さらに、ライブ形式により視聴者とのつながりが生まれ、視聴者はホストやゲストにライブで参加し質問できます。これは新しいファンを獲得するのに理想的である一方、長尺コンテンツを後から視聴することも可能にします。
 
 
 [現在のプレイリスト](https://youtube.com/playlist?list=PLBFOSRGoT80W5EAebpT9zwXu6OTS1mq8w)
 
 
-  * Zcashポッドキャスト1：Nathan Wilcox氏との対談｜Zcashの過去から現在までの進化 | [YouTube](https://youtu.be/tCrFmK-5Enc) | [Odysee](https://odysee.com/@DigitalCashNetwork:c/Zcash-Podcast-2:a) |
-  * Zcashポッドキャスト2：Aditya Bharadwaj氏との対談｜エンドユーザー向けアプリとZcashの採用 | [YouTube](https://youtu.be/sK13gwtTaCQ) | [Odysee](https://odysee.com/@DigitalCashNetwork:c/Zcash-Podcast-1:8) |
-  * Zcashポッドキャスト3：Ian Sagstetter氏との対談｜ZecHubとZcashの拡大するコミュニティ活動 | [YouTube](https://www.youtube.com/watch?v=0tIK6vBM3-s) | [Odysee](https://odysee.com/@DigitalCashNetwork:c/Zcash-Podcast-3:a) |
-  * Zcashポッドキャスト4：Seth for Privacy氏との対談｜Zcashとプライバシーに関する外部の視点 | [YouTube](https://www.youtube.com/watch?v=C8ItmDFjczQ&list=PLBFOSRGoT80W5EAebpT9zwXu6OTS1mq8w&index=4) | [Odysee](https://odysee.com/@DigitalCashNetwork:c/Zcash-Podcast-4:3) |
+  * Zcash Nathan Wilcoxとのポッドキャスト 1：Zcashの過去から現在までの進化 | [YouTube](https://youtu.be/tCrFmK-5Enc) | [Odysee](https://odysee.com/@DigitalCashNetwork:c/Zcash-Podcast-2:a) |
+  * Zcash Aditya Bharadwajとのポッドキャスト 2：エンドユーザーアプリとZcashの採用 | [YouTube](https://youtu.be/sK13gwtTaCQ) | [Odysee](https://odysee.com/@DigitalCashNetwork:c/Zcash-Podcast-1:8) |
+  * Zcash Ian Sagstetterとのポッドキャスト 3：ZecHubとZcashの成長するコミュニティの取り組み | [YouTube](https://www.youtube.com/watch?v=0tIK6vBM3-s) | [Odysee](https://odysee.com/@DigitalCashNetwork:c/Zcash-Podcast-3:a) |
+  * Zcash Seth For Privacyとのポッドキャスト 4：Zcashとプライバシー（Privacy）に関する外部からの視点 | [YouTube](https://www.youtube.com/watch?v=C8ItmDFjczQ&list=PLBFOSRGoT80W5EAebpT9zwXu6OTS1mq8w&index=4) | [Odysee](https://odysee.com/@DigitalCashNetwork:c/Zcash-Podcast-4:3) |
 
-  * Zcashポッドキャスト5：Naomi Brockwell氏との対談｜現代的なプライバシー意識の高いライフスタイルの実現方法 | [YouTube](https://www.youtube.com/watch?v=GpZAY5O2nJQ&list=PLBFOSRGoT80W5EAebpT9zwXu6OTS1mq8w&index=6) | [Odysee](https://odysee.com/@DigitalCashNetwork:c?view=content) |
-  * Zcashポッドキャスト6：Zooko Wilcox氏との対談｜ガバナンスとZcashの今後の道筋 | [YouTube](https://www.youtube.com/watch?v=VZeM7bvWWPg&list=PLBFOSRGoT80W5EAebpT9zwXu6OTS1mq8w&index=6&pp=iAQB) | [Odysee](https://t.co/MDW7FoXgxm)|
-  * Zcashポッドキャスト7：ZecSpendsのJake氏との対談｜今日、Zcashをデジタル通貨として使う方法 | [YouTube](https://www.youtube.com/live/yZ1Y1qMu3UE) | [Odysee](https://odysee.com/@DigitalCashNetwork:c/Zcash-Podcast-7:0)|
+  * Zcash Naomi Brockwellとのポッドキャスト 5：現代的でプライバシーを意識したライフスタイルの送り方 | [YouTube](https://www.youtube.com/watch?v=GpZAY5O2nJQ&list=PLBFOSRGoT80W5EAebpT9zwXu6OTS1mq8w&index=6) | [Odysee](https://odysee.com/@DigitalCashNetwork:c?view=content) |
+  * Zcash Zooko Wilcoxとのポッドキャスト 6：ガバナンス（Governance）とZcashの今後の道筋 | [YouTube](https://www.youtube.com/watch?v=VZeM7bvWWPg&list=PLBFOSRGoT80W5EAebpT9zwXu6OTS1mq8w&index=6&pp=iAQB) | [Odysee](https://t.co/MDW7FoXgxm)|
+  * Zcash ZecSpendsのJakeとのポッドキャスト 7：今日、Zcashをデジタルキャッシュとして使用する | [YouTube](https://www.youtube.com/live/yZ1Y1qMu3UE) | [Odysee](https://odysee.com/@DigitalCashNetwork:c/Zcash-Podcast-7:0)|

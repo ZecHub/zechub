@@ -1,25 +1,25 @@
-# Mabwawa ya Uchimbaji Madini ya Zcash
+# Mabwawa ya uchimbaji [Mining Pools] ya Zcash
 
-## Mabwawa ya Uchimbaji Madini ya Zcash ni nini?
+## Bwawa la uchimbaji la Zcash ni nini?
 
-Mabwawa ya uchimbaji wa Zcash ni huduma zinazowaruhusu wachimbaji binafsi kuchanganya nguvu zao za kompyuta (hashrate). Kwa kuunganisha rasilimali, washiriki huongeza uwezekano wao wa kutatua vizuizi vya mtandao na kupata malipo thabiti na madogo badala ya kutegemea mfumo wa bahati nasibu usiotabirika wa uchimbaji wa pekee.
-
----
-
-## Orodha ya Mabwawa ya Uchimbaji wa Zcash:
+Mabwawa ya uchimbaji ya Zcash ni huduma zinazowaruhusu wachimbaji [miners] binafsi kuunganisha nguvu yao ya kompyuta (hashrate). Kwa kuunganisha rasilimali, washiriki huongeza uwezekano wao wa kutatua block [blocks] za mtandao na kupata malipo madogo lakini thabiti badala ya kutegemea mfumo wa bahati nasibu usiotabirika wa uchimbaji wa binafsi [solo mining].
 
 ---
 
-### [Bwawa la Kuogelea (Braiins Pool)](https://braiins.com/pool)
+## Orodha ya mabwawa ya uchimbaji ya Zcash:
+
+---
+
+### [Slush Pool (Braiins Pool)](https://braiins.com/pool)
 
 <a href="https://braiins.com/pool">
     <img src="/content-images/braiins_logo-dce5130f46.webp" alt="Slush Pool (Braiins Pool) Logo" width="200" height="100"/>
 </a>
 
-- Tovuti: [Bwawa la Kuogelea (Braiins Pool)](https://braiins.com/pool)
-- Malipo ya Kibinafsi: NDIYO
-- Aina ya Bwawa la Kuogelea: Lipa kwa Kila Hisa
-- Ada ya bwawa la kuogelea: 2%
+- Tovuti: [Slush Pool (Braiins Pool)](https://braiins.com/pool)
+- Malipo ya faragha: NDIYO
+- Aina ya bwawa: Malipo kwa kila hisa
+- Ada [fee] ya bwawa: 2%
 
 ---
 
@@ -30,9 +30,9 @@ Mabwawa ya uchimbaji wa Zcash ni huduma zinazowaruhusu wachimbaji binafsi kuchan
 </a>
 
 - Tovuti: [Luxor](https://luxor.tech/)
-- Malipo ya Kibinafsi: NDIYO
-- Aina ya Bwawa la Kuogelea: Lipa kwa Kila Hisa
-- Ada ya bwawa la kuogelea: 3%
+- Malipo ya faragha: NDIYO
+- Aina ya bwawa: Malipo kwa kila hisa
+- Ada ya bwawa: 3%
 
 ---
 
@@ -43,9 +43,9 @@ Mabwawa ya uchimbaji wa Zcash ni huduma zinazowaruhusu wachimbaji binafsi kuchan
 </a>
 
 - Tovuti: [Flypool](https://zcash.flypool.org/)
-- Malipo ya Kibinafsi: NDIYO
-- Aina ya Bwawa la Kuogelea: Lipa kwa Nambari ya Mwisho 
-- Ada ya bwawa la kuogelea: 1%
+- Malipo ya faragha: NDIYO
+- Aina ya bwawa: Malipo kwa hisa N za mwisho 
+- Ada ya bwawa: 1%
 
 ---
 
@@ -55,10 +55,10 @@ Mabwawa ya uchimbaji wa Zcash ni huduma zinazowaruhusu wachimbaji binafsi kuchan
     <img src="/content-images/2Miners-3c99609047.webp" alt="2Miners Logo" width="200" height="100"/>
 </a>
 
-- Tovuti: [Wachimbaji 2](https://zec.2miners.com/)
-- Malipo ya Kibinafsi: Hapana
-- Aina ya Bwawa la Kuogelea: Lipa kwa Nambari ya Mwisho 
-- Ada ya bwawa la kuogelea: 1%
+- Tovuti: [2Miners](https://zec.2miners.com/)
+- Malipo ya faragha: Hapana
+- Aina ya bwawa: Malipo kwa hisa N za mwisho 
+- Ada ya bwawa: 1%
 
 ---
 
@@ -69,9 +69,9 @@ Mabwawa ya uchimbaji wa Zcash ni huduma zinazowaruhusu wachimbaji binafsi kuchan
 </a>
 
 - Tovuti: [Nanopool](https://zec.nanopool.org/)
-- Malipo ya Kibinafsi: Hapana
-- Aina ya Bwawa la Kuogelea: Lipa kwa Nambari ya Mwisho 
-- Ada ya bwawa la kuogelea: 1%
+- Malipo ya faragha: Hapana
+- Aina ya bwawa: Malipo kwa hisa N za mwisho 
+- Ada ya bwawa: 1%
 
 ---
 
@@ -82,9 +82,9 @@ Mabwawa ya uchimbaji wa Zcash ni huduma zinazowaruhusu wachimbaji binafsi kuchan
 </a>
 
 - Tovuti: [Poolin](https://www.poolin.com/)
-- Malipo ya Kibinafsi: Hapana
-- Aina ya Bwawa la Kuogelea: Lipa kwa Kila Hisa
-- Ada ya bwawa la kuogelea: 3%
+- Malipo ya faragha: Hapana
+- Aina ya bwawa: Malipo kwa kila hisa
+- Ada ya bwawa: 3%
 
 ---
 
@@ -95,9 +95,9 @@ Mabwawa ya uchimbaji wa Zcash ni huduma zinazowaruhusu wachimbaji binafsi kuchan
 </a>
 
 - Tovuti: [Antpool](https://v3.antpool.com/home)
-- Malipo ya Kibinafsi: Hapana
-- Aina ya Bwawa la Kuogelea: Lipa kwa Kila Hisa
-- Ada ya bwawa la kuogelea: 3%
+- Malipo ya faragha: Hapana
+- Aina ya bwawa: Malipo kwa kila hisa
+- Ada ya bwawa: 3%
 
 ---
 
@@ -108,22 +108,22 @@ Mabwawa ya uchimbaji wa Zcash ni huduma zinazowaruhusu wachimbaji binafsi kuchan
 </a>
 
 - Tovuti: [ViaBTC](https://www.viabtc.com/en/)
-- Malipo ya Kibinafsi: Hapana
-- Aina ya Bwawa la Kuogelea: Lipa kwa Kila Hisa+
-- Ada ya bwawa la kuogelea: 4%
+- Malipo ya faragha: Hapana
+- Aina ya bwawa: Malipo kwa kila hisa+
+- Ada ya bwawa: 4%
 
 ---
 
-### [Foundry Zcash Mining Pool](https://foundrydigital.com/foundry-zcash-pool/)
+### [Foundry Zcash Bwawa la uchimbaji](https://foundrydigital.com/foundry-zcash-pool/)
 
 <a href="https://foundrydigital.com/foundry-zcash-pool/">
     <img src="/content-images/Foundry-3f33346374.webp" alt="Foundry Zcash Mining Pool Logo" width="200" height="100"/>
 </a>
 
-- Tovuti: [Bwawa la Uchimbaji wa Zcash la Uchimbaji Madini](https://foundrydigital.com/foundry-zcash-pool/)
-- Malipo ya Kibinafsi: Hapana
-- Aina ya Bwawa: Lipa kwa Hisa N za Mwisho
-- Ada ya bwawa la kuogelea: Sio Hadharani
+- Tovuti: [Foundry Zcash Bwawa la uchimbaji](https://foundrydigital.com/foundry-zcash-pool/)
+- Malipo ya faragha: Hapana
+- Aina ya bwawa: Malipo kwa hisa N za mwisho
+- Ada ya bwawa: Haijawekwa wazi
 
 ---
 
@@ -134,9 +134,9 @@ Mabwawa ya uchimbaji wa Zcash ni huduma zinazowaruhusu wachimbaji binafsi kuchan
 </a>
 
 - Tovuti: [suprnova](https://zec.suprnova.cc/)
-- Malipo ya Kibinafsi: Hapana
-- Aina ya Bwawa: Lipa kwa Hisa N za Mwisho
-- Ada ya bwawa la kuogelea: 0.5% - 1%
+- Malipo ya faragha: Hapana
+- Aina ya bwawa: Malipo kwa hisa N za mwisho
+- Ada ya bwawa: 0.5% - 1%
 
 ---
 
@@ -147,21 +147,19 @@ Mabwawa ya uchimbaji wa Zcash ni huduma zinazowaruhusu wachimbaji binafsi kuchan
 </a>
 
 - Tovuti: [NiceHash](https://www.nicehash.com/blog/post/how-to-start-mining-zec-equihash-on-nicehash)
-- Malipo ya Kibinafsi: kulipwa kwa Bitcoin (BTC)
-- Aina ya Bwawa: Soko la Hashrate / Bwawa la Wakala
-- Ada ya bwawa la kuogelea: 0.5% - 1%
+- Malipo ya faragha: Hulipwa kwa Bitcoin (BTC)
+- Aina ya bwawa: Soko la hashrate / bwawa wakala
+- Ada ya bwawa: 0.5% - 1%
 
 ---
 
-### [Bwawa la Uchimbaji Madini la Sovright](https://mining.sovright.com/)
+### [Sovright Bwawa la uchimbaji](https://mining.sovright.com/)
 
 <a href="https://mining.sovright.com/">
     <img src="/content-images/-qOtwa1p_400x400-fce1523375.webp" alt="Sovright Logo" width="200" height="100"/>
 </a>
 
-- Tovuti: [Bwawa la Uchimbaji Madini la Sovright](https://mining.sovright.com/)
-- Malipo ya Kibinafsi: NDIYO
-- Aina ya Bwawa: Hisa za Malipo kwa Kila Hisa za Mwisho N (PPLNS)
-- Ada ya Bwawa la Kuogelea: 1%
-
-
+- Tovuti: [Sovright Bwawa la uchimbaji](https://mining.sovright.com/)
+- Malipo ya faragha: NDIYO
+- Aina ya bwawa: Malipo kwa hisa N za mwisho (PPLNS)
+- Ada ya bwawa: 1%

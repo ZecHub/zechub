@@ -1,164 +1,164 @@
 # Zcash Testnet
 
-## Kedu ihe bụ Zcash Testnet?
+## Gịnị Bụ Zcash Testnet?
 
-**Zcash Testnet** bụ blockchain yiri nke ahụ na netwọk isi Zcash (Mainnet) nke na-emegharị usoro, iwu, na usoro azụmahịa kpọmkwem - mana nwere ọdịiche abụọ dị mkpa:
+**Zcash Testnet** bụ blockchain [blockchain] nke na-agba n'akụkụ netwọkụ bụ isi (Mainnet) Zcash n'ezie, nke na-emegharị kpọmkwem protocol, iwu, na mgbagha Azụmahia [transaction] — mana o nwere ọdịiche abụọ dị mkpa:
 
-1. **Mkpụrụ ego enweghị ezigbo uru ego** - a na-akpọ ha **TAZ**, ọ bụghị ZEC, a na-ejikwa ha naanị maka nnwale. 
-2. **A na-anwale mmelite netwọk, ngwaọrụ, na ngwanrọ ebe a mbụ** tupu etinye ya na ezigbo Zcash blockchain. 
+1. **Ego anaghị enwe ezigbo uru ego** — a na-akpọ ha **TAZ**, ọ bụghị ZEC, a na-ejikwa ha naanị maka nnwale.  
+2. **A na-ebu ụzọ nwalee network upgrade [network upgrade], ngwá ọrụ [tools], na sọftụwia ebe a** tupu ebuga ha na blockchain Zcash n'ezie.  
 
-N'ikwu ya n'ụzọ ọzọ, Testnet dị ka **sandbox ma ọ bụ gburugburu nnwale** ebe ndị mmepe, ndị nyocha, na ndị na-ewu ụlọ nwere ike ịnwale echiche n'etinyeghị ezigbo ego n'ihe ize ndụ.
-
-
-## Gịnị mere Testnet ji dị?
-
-Testnet dị oke mkpa maka mmepe blockchain n'ihi na **ezigbo blockchains dịka Zcash anaghị agbanwe agbanwe** - ozugbo ekwenyechara azụmahịa na netwọk bụ isi, enweghị ike iwepụ ha. Testnet na-enye **nchekwa oyiri** iji nwalee, nwalee, na idozi atụmatụ tupu ebuga ya na Mainnet.
-
-### Ojiji nke Testnet
-
-#### 1. Mmepe na Njikọta Ngwanrọ
-
-Ndị nrụpụta na-ewu obere akpa ego, mgbanwe, ngwanrọ igwu ala, ma ọ bụ ngwaọrụ nzuzo nwere ike ịnwale ha n'enweghị nsogbu na Testnet. Ike ndị a gụnyere:
-
-- Izipu na ịnata azụmahịa 
-- Ịgwupụta blọk ọhụrụ na mkpụrụ ego TAZ efu 
-- Iwuli interface ndị ọrụ na API 
-- Nnwale atụmatụ nzuzo azụmahịa (nke doro anya na nke echekwara) 
-
-**Ọmụmaatụ:** 
-Ngwaọrụ dịka [`zcash_tx_tool`](https://github.com/QED-it/zcash_tx_tool) jiri Testnet mepụta azụmahịa ma nwalee ọrụ akụ Zcash nke echekwara. 
-
-**Ọdịdị ụwa n'ezie:** 
-Onye na-emepụta obere akpa ego nwere ike ijikọ ngwanrọ na njedebe Testnet RPC ma mee ka usoro ndụ zuru oke dị ka ihe nlereanya - ịmepụta adreesị, izipu azụmahịa echekwara, na ịkwado nguzozi - tupu ọ malite na Mainnet.
-
-#### 2. Nnwale Mmelite Netwọk
-
-Zcash na-emelite usoro isi ya mgbe niile (dịka ọmụmaatụ, NU6.1, NU6.2 na Ironwood). Testnet na-eme ka mmelite ọhụrụ rụọ ọrụ **tupu Mainnet**, na-enye ndị mmepe na obodo ohere ịchọpụta ma dozie nsogbu.
-
-**Ọmụmaatụ:** 
-A na-ebu ụzọ tinye iwu nkwekọrịta ma ọ bụ ụdị azụmahịa ọhụrụ na Testnet. Mgbe nnwale gara nke ọma gasịrị, ọ na-arụ ọrụ na Mainnet na elu blọk a kara aka.
-
-#### 3. Nnwale Mmejuputa Node
-
-Oghere Zcash na-elekọta bụ **Zebra** (ebe a na-ahụ maka Rust nke Zcash Foundation na-elekọta) ma obere akpa ego a na-ahụ maka ya bụ [Zallet](https://github.com/zcash/zallet). `zcashd`, mmejuputa node mbụ ahụ, ruru nkwụsị ya na-akpaghị aka na njedebe nkwado na 18 Julaị 2026 ma anaghịzi echekwa ya - lee [Ntuziaka mbugharị zcashd gaa na Zebra na Zallet](https://zechub.wiki/guides/migration-guide-zcashd-to-zebrad-zallet)Testnet na-enye ohere ịnwale n'ọnọdụ dị adị n'ezie na-enweghị ihe egwu ego.
-
-Ndị mmepe node nwere ike:
-
-- Kwado mgbasa nke ngọngọ 
-- Nwalee njikọ RPC 
-- Lee omume node dị n'okpuru ibu 
-- Nwalee mmekọrịta ngwanrọ ngwuputa 
-
-#### 4. Mmụta na Mmụta
-
-Ndị mbido nwere ike ịmụta atụmatụ Zcash dịka igwu ala, ịmepụta azụmahịa echekwara, na iji Adreesị Ndị Dị n'Otu. 
-Nkuzi na akwụkwọ obodo na-enye ohere ịnweta **Testnet faucets, ndị nchọpụta, na ndị nduzi**.
+N'ikwu ya n'ụzọ ọzọ, Testnet dị ka **ebe nchekwa ma ọ bụ gburugburu nnwale** ebe ndị mmepụta, ndị nyocha, na ndị na-ewu ihe nwere ike ịnwale echiche n'etinyeghị ego n'ezie n'ihe ize ndụ.
 
 
-## Nnwale Ojiji nke Testnet n'ezie
+## Gịnị Mere Testnet Ji Dị?
 
-### 1. Nnwale Onye Mmepụta (Aka Obere Ego / Ngwa)
+Testnet dị oke mkpa maka mmepe blockchain n'ihi na **blockchain dị adị dịka Zcash anaghị agbanwe agbanwe** — ozugbo akwadoro Azụmahia na netwọkụ bụ isi, a pụghị imegharị ha azụ. Testnet na-enye **oyiri nchekwa** iji nwalee, lelee, ma dozie atụmatụ tupu ebuga ha na Mainnet.
 
-- Jikọọ na Zcash Testnet 
-- Rịọ TAZ site na faucet 
-- Zipu azụmahịa echekwara 
-- Nyochaa nzuzo na nkwụsi ike UI 
+### Ojiji Testnet
 
-Ọ dịghị ezigbo ZEC furu efu ọbụlagodi na mmejọ emee.
+#### 1. Mmepe na Njikọta Sọftụwia
 
-### 2. Nnwale Njikọta Mgbanwe
+Ndị mmepụta na-ewu e-akpa ego [wallet], exchange [exchange], sọftụwia ịgwụputa [mining], ma ọ bụ ngwá ọrụ Nzuzo [privacy] nwere ike nwalee ha n'enweghị nsogbu na Testnet. Ike ndị dị na ya gụnyere:
 
-- Gbaa n'ime Testnet 
-- Jiri ebe njedebe Zebrad JSON-RPC hazie azụmahịa 
-- Nwalee usoro nkwụnye ego/mwepụ ego akpaghị aka 
+- Izipu na ịnata Azụmahia  
+- Ịgwụputa block [block] ọhụrụ site n'ego TAZ na-enweghị uru  
+- Iwu ihe ngosi onye ọrụ na API  
+- Ịnwale atụmatụ Nzuzo Azụmahia (Oha [transparent] megide nke e chebere echebe [shielded])  
 
-Na-ahụ na koodu mmepụta dị nchebe ma na-egbochi mfu ego.
+**Ọmụmaatụ:**  
+Ngwá ọrụ dịka [`zcash_tx_tool`](https://github.com/QED-it/zcash_tx_tool) na-eji Testnet emepụta Azụmahia ma nwalee ọrụ akụ nke e chebere echebe Zcash.  
 
-### 3. Nnwale Ntọala Ngwuputa
+**Ọnọdụ ụwa n'ezie:**  
+Onye mmepụta e-akpa ego nwere ike ijikọ sọftụwia na RPC endpoint Testnet ma mee ka usoro ndụ zuru ezu pụta — ịmepụta Adreesị akpa ego [address], izipu Azụmahia nke e chebere echebe, na ikwenye nguzozi — tupu ọ banye na Mainnet.
 
-- Jiri ndebiri ngwuputa ihe 
-- Nnwale ngọngọ ule 
-- Lelee ụgwọ ọrụ nke igwu ala (naanị TAZ) 
-- Gbanwee arụmọrụ nke mining 
+#### 2. Ịnwale Network Upgrade
 
-Na-egbochi oge ezumike ma ọ bụ ego furu efu mgbe ị na-akwaga na Mainnet.
+Zcash na-eme network upgrade na protocol isi ya kwa oge (dịka NU6.1, NU6.2 na Ironwood). Testnet na-eme ka upgrade ọhụrụ rụọ ọrụ **tupu Mainnet**, na-enye ndị mmepụta na obodo ohere ịchọpụta ma dozie ahụhụ.
 
-### 4. Nnyocha Agụmakwụkwọ / Usoro Iwu
+**Ọmụmaatụ:**  
+A na-ebu ụzọ tinye iwu consensus [consensus] ọhụrụ ma ọ bụ ụdị Azụmahia ọhụrụ na Testnet. Mgbe nnwale gachara nke ọma, ọ na-arụ ọrụ na Mainnet n'ogologo block ekpebiri tupu oge eruo.
 
-Ndị nchọpụta nwere ike ịnwale ihe ọhụrụ dịka **nkwenye enweghị steeti**, **nhazi ihe akaebe efu**, ma ọ bụ nnwale usoro ndị ọzọ site na iji Testnet. 
-Ndị ọrụ dị elu nwekwara ike ịgba ọsọ **Testnets omenala ma ọ bụ gburugburu ule regtest** maka nnwale pụrụ iche.
+#### 3. Ịnwale Mmejuputa Node
+
+Node Zcash a na-elekọta bụ **Zebra** (node sitere na Rust nke Zcash Foundation na-elekọta) na e-akpa ego a na-elekọta bụ [Zallet](https://github.com/zcash/zallet). `zcashd`, mmejuputa node mbụ, rutere nkwụsị nkwado akpaka ya na 18 Julaị 2026, a naghịkwa elekọta ya ọzọ — lee [zcashd maka Zebra na ntuziaka mbufe Zallet](https://zechub.wiki/guides/migration-guide-zcashd-to-zebrad-zallet). Testnet na-eme ka o kwe omume ịnwale node n'ọnọdụ n'ezie n'enweghị ihe ize ndụ ego.
+
+Ndị mmepụta node nwere ike:
+
+- Ikwado mgbasa block  
+- Ịnwale interface RPC  
+- Ileba omume node anya mgbe ibu ọrụ dị elu  
+- Ịnwale mmekọrịta sọftụwia ịgwụputa  
+
+#### 4. Ịmụ na Mmụta
+
+Ndị mbido nwere ike ịmụ atụmatụ Zcash dịka ịgwụputa, ịmepụta Azụmahia nke e chebere echebe, na iji Unified Addresses.  
+Nkuzi na akwụkwọ obodo na-enye ohere ịnweta **faucet Testnet, explorer, na ntuziaka**.
 
 
-## Isi ihe dị iche n'etiti Mainnet na Testnet
+## Ojiji Testnet N'eziokwu
 
-| Njirimara | Mainnet | Testnet |
+### 1. Nnwale Onye Mmepụta (E-akpa Ego / Ngwa)
+
+- Jikọọ na Testnet Zcash  
+- Rịọ TAZ n'aka faucet  
+- Zipu Azụmahia nke e chebere echebe  
+- Kwenye Nzuzo na nkwụsi ike UI  
+
+Ọ dịghị ezigbo ZEC na-efu ọbụlagodi ma ọ bụrụ na mmejọ emee.
+
+### 2. Nnwale Njikọta Exchange
+
+- Gbaa node Testnet  
+- Jiri JSON-RPC endpoint Zebrad hazie Azụmahia  
+- Nwale mgbagha nkwụnye ego/wepụ ego akpaka  
+
+Nke a na-ahụ na koodu mmepụta dị nchebe ma na-egbochi mfu ego.
+
+### 3. Nnwale Nhazi Ịgwụputa
+
+- Jiri template ịgwụputa  
+- Nwale nkwado block  
+- Leruo ụgwọ ọrụ ịgwụputa anya (naanị TAZ)  
+- Hazie arụmọrụ ịgwụputa  
+
+Nke a na-egbochi oge nkwụsị ma ọ bụ ego enwetaghị mgbe a na-akwaga na Mainnet.
+
+### 4. Nnyocha Agụmakwụkwọ / Protocol
+
+Ndị nyocha nwere ike iji Testnet nwalee mmepụta ọhụrụ dịka **nkwenye na-enweghị steeti**, **nkwalite zero-knowledge proof**, ma ọ bụ nnwale protocol ndị ọzọ.  
+Ndị ọrụ dị elu nwekwara ike ịgba **Testnet omenala ma ọ bụ gburugburu regtest** maka nnwale pụrụ iche.
+
+
+## Ọdịiche Ndị Dị Mkpa N'agbata Mainnet na Testnet
+
+| Atụmatụ               | Mainnet           | Testnet                  |
 |-----------------------|-----------------|--------------------------|
-| Uru mkpụrụ ego | Ezigbo ZEC | TAZ (anaghị akwụ ụgwọ) |
-| Ihe Ize Ndụ | Ihe Ize Ndụ Ego | Nchekwa maka nnwale |
-| Mmelite usoro | Mmepụta | Mmelite mbụ |
-| Ụgwọ ọrụ n'ịgwupụta ihe | Nwepụta ezigbo | Ụgwọ ọrụ nnwale naanị |
-| Ọrụ netwọk | Azụmahịa dị ndụ | Nnwale na mmepe |
+| Uru ego               | ZEC n'ezie         | TAZ (enweghị uru ego)  |
+| Ihe ize ndụ           | Ihe ize ndụ ego   | Nchekwa maka nnwale         |
+| Mmelite protocol     | Mmepụta       | Ịrụ ọrụ n'isi         |
+| Ụgwọ ọrụ ịgwụputa        | Mwepụta n'ezie    | Naanị ụgwọ ọrụ nnwale         |
+| Uru netwọkụ       | Azụmahia na-arụ ọrụ| Nnwale na mmepe  |
 
-## Echiche na-ezighị ezi a na-ahụkarị
+## Nghọta Ezighị Ezi A Na-ahụkarị
 
-- **Mkpụrụ ego Testnet bara uru ihe** -> Ụgha, TAZ enweghị uru ọ bụla. 
-- **Ịfu mkpụrụ ego Testnet dị mkpa** -> Ụgha, ọ dịghị ezigbo uru efuola. 
-- **Testnet na Mainnet bụ otu** -> Ụgha, Testnet na-amalitegharị mgbe mgbe, ọ dịghịkwa echekwa ego dịka Mainnet.
+- **Ego Testnet bara uru** -> Ezighị ezi, TAZ enweghị uru.  
+- **Ọ dị mkpa ma ego Testnet efuo** -> Ezighị ezi, ọ dịghị uru n'ezie furu efu.  
+- **Testnet na Mainnet bụ otu** -> Ezighị ezi, Testnet na-amaliteghachi ugboro ugboro, nchekwa akụ na ụba ya adịghịkwa ka nke Mainnet.
 
 ---
 
-## Gịnị bụ TAZ?
+## Gịnị Bụ TAZ?
 
-**TAZ** bụ ụdị Testnet nke mkpụrụ ego Zcash: 
+**TAZ** bụ ụdị Testnet nke ego Zcash:  
 
-- Ọ bụghị ezigbo ego; enweghị ike ịgbanwe maka ZEC ma ọ bụ fiat 
-- A na-eji ya maka nnwale, mmepe, na mmụta 
-- Na-agbaso iwu Zcash niile: enwere ike izipu ya, gwupụta ya, ma jiri ya na adreesị echekwara 
+- Ọ bụghị ezigbo ego; enweghị ike ịgbanwe ya maka ZEC ma ọ bụ ego fiat  
+- A na-eji ya maka nnwale, mmepe, na mmụta  
+- Ọ na-agbaso iwu Zcash niile: enwere ike izipu ya, ịgwụputa ya, ma jiri ya na Adreesị akpa ego nke e chebere echebe  
 
-**Ọmụmaatụ:** 
-Onye nrụpụta nwere ike izipu 100 TAZ site na otu adreesị Testnet gaa na nke ọzọ iji nwalee atụmatụ obere akpa ego na-enweghị itinye ezigbo ZEC n'ihe egwu. 
+**Ọmụmatụ:**  
+Onye mmepụta nwere ike izipu 100 TAZ site na otu Adreesị akpa ego Testnet gaa na ọzọ iji nwalee atụmatụ e-akpa ego na-etinyeghị ezigbo ZEC n'ihe ize ndụ.  
 
-Chee echiche banyere TAZ dị ka ** "ego egwuregwu" maka Zcash Testnet**.
-
-
-## Gịnị Bụ Paụpụ?
-
-Ọkpọkọ mmiri ** bụ ọrụ nke na-enye mkpụrụ ego TAZ n'efu maka nnwale:
-
-- Ọtụtụ mgbe, weebụsaịtị ma ọ bụ API 
-- Ndị ọrụ na-enye adreesị Testnet; faucet ahụ na-eziga obere TAZ 
-- Na-ezere mkpa ọ dị igwupụta TAZ n'aka 
-
-**Ọmụmaatụ:** 
-1. Gaa na paịpụ Testnet (dịka ọmụmaatụ, [fauzec.com](https://fauzec.com/) | [zcashfaucet.jinolabs.xyz](https://zcashfaucet.jinolabs.xyz/))  
-2. Tinye adreesị Testnet gị 
-3. Rịọ maka TAZ 
-4. Nata TAZ ozugbo iji malite nnwale 
-
-**Ihe mere o ji dị mkpa:** 
-- Nnwale nchekwa na-enweghị ihe egwu ZEC 
-- Nnweta maka ndị mbido na ndị mmepe 
-- Nhazi ngwa ngwa maka obere akpa ego, mgbanwe, na ngwa
+Chee TAZ dịka **“ego egwuregwu” maka Testnet Zcash**.
 
 
+## Gịnị Bụ Faucet?
 
-## Zkool na Zingo! obere akpa
+**Faucet** bụ ọrụ na-enye ego TAZ n'efu maka nnwale:
+
+- Ọ na-abụkarị weebụsaịtị ma ọ bụ API  
+- Ndị ọrụ na-enye Adreesị akpa ego Testnet; faucet na-eziga obere TAZ  
+- Ọ na-ewepụ mkpa ịgwụputa TAZ n'onwe gị  
+
+**Ọmụmatụ:**  
+1. Gaa na faucet Testnet (dịka [fauzec.com](https://fauzec.com/) | [zcashfaucet.jinolabs.xyz](https://zcashfaucet.jinolabs.xyz/))  
+2. Tinye Adreesị akpa ego Testnet gị  
+3. Rịọ TAZ  
+4. Nata TAZ ozugbo iji malite nnwale  
+
+**Ihe kpatara o ji dị mkpa:**  
+- Nnwale nchekwa na-etinyeghị ZEC n'ihe ize ndụ  
+- Nnweta maka ndị mbido na ndị mmepụta  
+- Ime ihe nlereanya ngwa ngwa maka e-akpa ego, exchange, na ngwa
+
+
+
+## E-akpa ego Zkool na Zingo!
 
 ### Zkool
 
-- Akpa akaụntụ dị iche iche maka ndị ọrụ Zcash dị elu 
-- Na-akwado mkpụrụokwu mkpụrụ, igodo nlele, adreesị doro anya na nke echekwara 
-- Nwere ike ijikọ na Mainnet, Testnet, ma ọ bụ Regtest site na sava zuru oke ma ọ bụ lightwallet
+- E-akpa ego ọtụtụ akaụntụ maka ndị ọrụ Zcash dị elu  
+- Na-akwado Mkpuru mgbake [seed phrase], viewing key [viewing key], Adreesị akpa ego Oha na nke e chebere echebe  
+- Ọ nwere ike ijikọ na Mainnet, Testnet, ma ọ bụ Regtest site na full node [full node] ma ọ bụ sava lightwallet
 
 ### Zingo!
 
-- Akpa mkpanaaka lekwasịrị anya na nzuzo na mfe 
-- Na-akwado adreesị echekwara ma dịrị n'otu 
-- Emelitere iji kwado usoro Testnet (gụnyere NU6 Testnet)
+- E-akpa ego mkpanaka nke lekwasịrị anya na Nzuzo na ịdị mfe  
+- Na-akwado Adreesị akpa ego nke e chebere echebe na unified  
+- Emelitela ya iji kwado protocol Testnet (gụnyere Testnet NU6)
 
-## Na-eme ka Testnet dị na obere akpa
+## Ịgbanye Testnet na E-akpa Ego
 
-### Obere akpa Zkool
+### E-akpa ego Zkool
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -171,12 +171,12 @@ Chee echiche banyere TAZ dị ka ** "ego egwuregwu" maka Zcash Testnet**.
   />
 </div>
 
-**Ndụmọdụ:** 
-- Obere akpa nwere ike ịmalitegharịa mgbe ọ na-agbanwe netwọk 
-- Akaụntụ Mainnet ZEC anaghị emetụta ya 
-- Jiri sava Testnet lightwallet ma ọ bụrụ na a gwa gị ya
+**Ndụmọdụ:**  
+- E-akpa ego nwere ike ịmaliteghachi mgbe a na-agbanwe netwọkụ  
+- Akaụntụ Mainnet ZEC anaghị emetụta  
+- Jiri sava lightwallet Testnet ma ọ bụrụ na a gwa gị
 
-### Akpa Zingo!
+### E-akpa ego Zingo!
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -190,19 +190,19 @@ Chee echiche banyere TAZ dị ka ** "ego egwuregwu" maka Zcash Testnet**.
 </div>
 
 
-Ozugbo enyere ya aka, obere akpa ego nwere ike izipu ma nata TAZ, nwalee azụmahịa echekwara, ma nwalee ya n'enweghị nsogbu.
+Ozugbo agbanyere ya, e-akpa ego nwere ike izipu ma nata TAZ, nwalee Azụmahia nke e chebere echebe, ma mee nnwale n'enweghị nsogbu.
 
 
-## Mgbe Itinyechara Testnet
+## Mgbe Ị Gbanyere Testnet
 
-- Azụmahịa na-akpa àgwà dị ka Mainnet mana na **efu-uru TAZ** 
-- Enwere ike ịnwale azụmahịa echekwara, ọtụtụ adreesị, na atụmatụ nzuzo 
-- Ndị mmepe nwere ike idozi ma nwalee atụmatụ na-enweghị itinye ezigbo ZEC n'ihe egwu
+- Azụmahia na-arụ ọrụ dịka na Mainnet mana ha nwere **TAZ na-enweghị uru**  
+- Enwere ike ịnwale Azụmahia nke e chebere echebe, ọtụtụ Adreesị akpa ego, na atụmatụ Nzuzo  
+- Ndị mmepụta nwere ike idozi ahụhụ ma nwalee atụmatụ n'etinyeghị ezigbo ZEC n'ihe ize ndụ
 
 
 ## Nchịkọta Ngwa Ngwa
 
-- **Zcash Testnet** bụ ebe nchekwa igbe ájá maka iwu ụlọ, nnwale, na nnwale 
-- Usoro ojiji: nnwale ndị nrụpụta, nnwale node, njikọta mgbanwe, nyocha, na agụmakwụkwọ 
-- A na-eji mkpụrụ ego TAZ** kama iji ZEC eme ihe, ha enweghịkwa ezigbo uru. 
-- Testnet dị mkpa tupu e tinye atụmatụ dị na Mainnet
+- **Testnet Zcash** bụ gburugburu nchekwa maka iwu, nnwale, na ime nnwale  
+- Ojiji: nnwale onye mmepụta, nnwale node, njikọta exchange, nnyocha, na mmụta  
+- A na-eji **ego TAZ** kama ZEC, ha enweghịkwa uru n'ezie  
+- Testnet dị mkpa tupu ebuga atụmatụ ka ha rụọ ọrụ na Mainnet

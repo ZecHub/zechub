@@ -1,92 +1,92 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Zcash_Tech/Sapling.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Dezie Peeji"/>
 </a>
 
 # Sapling
 
-> Sapling gara ndụ na Zcash mainnet na ngọngọ 419,200 (Ọktoba 29, 2018, 02:15 UTC).
+> Sapling malitere ịrụ ọrụ na mainnet Zcash na block 419,200 (Ọktoba 29, 2018, 02:15 UTC).
 
-Ihe ị ga-ewepụ: Sapling mere ka ego Zcash nkeonwe dị ngwa ma dịkwa mfe iji rụọ ọrụ na ekwentị ma ọ bụ obere akpa akụrụngwa.
+Ihe ị ga-amụta: Sapling mere ka ịkwụ ụgwọ Zcash nke onwe bụrụ nke dị ngwa ma dị mfe nke ga-arụ ọrụ na ekwentị ma ọ bụ hardware wallet.
 
-Sapling was the second major Zcash network upgrade, activating on Zcash's second anniversary. It was a consensus hard fork that rebuilt how shielded (private) transactions are put together. The deployment is defined by ZIP 205, the new transaction signature rules by ZIP 243, and both build on ZIP 200, the network upgrade mechanism. The full details live in the Zcash Protocol Specification. Electric Coin Company built the upgrade and shipped the first version that supported it, zcashd 2.0.0, in August 2018. On chain, the network identifies the Sapling rules by its consensus branch id.
+Sapling bụ network upgrade Zcash nke abụọ dị mkpa, nke malitere n'emume ncheta afọ abụọ nke Zcash. Ọ bụ consensus hard fork nke wughachiri otu e si ejikọta Azụmahia (transaction) nke e chebere echebe. A kọwara mwepụta ya site na ZIP 205, iwu signature Azụmahia ọhụrụ site na ZIP 243, ha abụọ dabere na ZIP 200, usoro network upgrade. Nkọwa zuru ezu dị na Protocol Specification nke Zcash. Electric Coin Company wuru upgrade ahụ wee wepụta ụdị mbụ kwadoro ya, zcashd 2.0.0, n'Ọgọọst 2018. Na chain, network na-eji consensus branch id ya amata iwu Sapling.
 
-Why this matters. Before Sapling, making a truly private payment meant waiting minutes while your computer chewed through gigabytes of memory to build the proof. That was too slow and too heavy for most people, so a lot of users, exchanges, and shops skipped shielded transactions and sent ZEC in the open instead. Sapling cut the work down to a few seconds and about 40 megabytes of memory. That single change is what made shielded ZEC practical to use in everyday life, on ordinary phones and on hardware wallets.
+Ihe mere nke a ji dị mkpa. Tupu Sapling, ime Kwụọ ụhwọ nkeonwe n'ezie pụtara ichere ọtụtụ nkeji ebe kọmputa gị ji gigabyte ọtụtụ nke ebe nchekwa rụọ proof (proof). Nke ahụ dị nwayọ ma dị arọ nke ukwuu maka ọtụtụ mmadụ, ya mere ọtụtụ ndị ọrụ, exchange, na ụlọ ahịa ahapụ Azụmahia nke e chebere echebe ma ziga ZEC n'ihu ọha kama. Sapling belatara ọrụ ahụ ruo sekọnd ole na ole na ihe dị ka megabyte 40 nke ebe nchekwa. Mgbanwe ahụ naanị ya mere ZEC nke e chebere echebe bụrụ ihe bara uru iji na ndụ kwa ụbọchị, na ekwentị nkịtị na hardware wallet.
 
 ## Ihe gbanwere
 
-The heart of Sapling is a faster way to build the zero-knowledge proof that keeps a shielded transaction private. The original Sprout design used a single proving circuit (the JoinSplit circuit) that was slow and memory-hungry. Sapling replaced it with two purpose-built circuits, a Spend circuit and an Output circuit, described in the Zcash Protocol Specification. The result is a large drop in cost. Per Electric Coin Company, a shielded transaction can be built in as little as a few seconds using about 40 megabytes of memory. The pre-Sapling Sprout baseline was far heavier, on the order of minutes and several gigabytes of memory (these Sprout-side figures are the widely cited approximate baseline).
+Obi Sapling bụ ụzọ ngwa ngwa iji wuo zero-knowledge proof nke na-eme ka Azụmahia nke e chebere echebe bụrụ nkeonwe. Nhazi mbụ Sprout ji otu proving circuit (JoinSplit circuit) nke dị nwayọ ma na-achọ ebe nchekwa dị ukwuu. Sapling jiri circuit abụọ e wuru maka ọrụ kpọmkwem dochie ya, Spend circuit na Output circuit, dịka akọwara na Protocol Specification nke Zcash. Ihe si na ya pụta bụ mbelata ọnụ ahịa dị ukwuu. Maka Electric Coin Company ọ bụla, enwere ike iwulite Azụmahia nke e chebere echebe n'ime sekọnd ole na ole site n'iji ihe dị ka megabyte 40 nke ebe nchekwa. Ntọala Sprout tupu Sapling dị arọ karịa nke ukwuu, ihe dị ka nkeji na gigabyte ọtụtụ nke ebe nchekwa (ọnụọgụ ndị a nke akụkụ Sprout bụ ntọala atụ a na-ekwukarị).
 
 ![Sprout versus Sapling shielded transaction cost](/content-images/sapling-before-after-a045b0b48f.webp)
 
-## Igodo ọhụrụ .
+## Igodo ọhụrụ
 
-Sapling webatara usoro ọhụrụ nke adreesị na igodo echekwara. Otu isi nwere ike nweta ọtụtụ adres dị iche, bụ ndị a pụrụ ịkwụ ụgwọ ha n'otu oge ahụ onye nyocha si n'èzí enweghị ike ijikọ ibe ya ọzọ. Sapling gbakwunyere igodo elele: Igodo zuru ezu ma ọ bụ ntinye ọhụụ na-enye gị ohere ikesa ikike ịhụ nkọwa azụmahịa obere akpa ego na-enweghị inyefe ikike iji mefuo ego ya. Nke ahụ bara uru maka nyochaa, ndekọ ego, ma ọ bụkwanụ naanị gosipụta ka akwụgoro ụgwọ.
+Sapling webatakwara usoro ọhụrụ nke Adreesị akpa ego na igodo nke e chebere echebe. Otu igodo nwere ike ịmepụta ọtụtụ Adreesị akpa ego dị iche iche, bụ Adreesị akpa ego Kwụọ ụhwọ dị iche iche nke onye na-ekiri n'èzí enweghị ike ijikọghachi ibe ha. Sapling gbakwụnyere viewing key kwa: viewing key zuru ezu ma ọ bụ nke na-abata na-enye gị ohere ịkekọrịta ike ịhụ nkọwa Azụmahia e-akpa ego na-enweghị inye ikike iji ego dị n'ime ya. Nke a bara uru maka nyocha, idekọ ego, ma ọ bụ naanị igosi na e mere Kwụọ ụhwọ.
 
-A related change is that Sapling separated the job of building the proof from the job of signing the transaction. The device that constructs the zero-knowledge proof no longer has to be the device that holds spend authority. This decoupling is what lets a hardware wallet keep your spending key isolated while a separate device does the heavier proving work.
+Mgbanwe metụtara ya bụ na Sapling kewapụrụ ọrụ iwulite proof na ọrụ ịbịanye signature na Azụmahia. Ngwaọrụ nke na-arụ zero-knowledge proof adịghịzi mkpa ịbụ ngwaọrụ jidere ikike imefu ego. Nkewa a bụ ihe na-eme ka hardware wallet debe Igodo ego gị iche, ebe ngwaọrụ ọzọ na-arụ ọrụ proof dị arọ karị.
 
 ![Proving device hands the proof to a separate signing device](/content-images/sapling-decoupled-spend-6fceca13a2.webp)
 
-## Nhazi a tụkwasịrị obi.
+## Trusted setup
 
-Sapling's circuits rely on a set of public parameters that had to be generated carefully. If a single party had produced them alone and kept the leftover secret data (the "toxic waste"), that party could have forged proofs. To avoid this, the parameters came from a two-phase, multi-party ceremony. Phase 1, called Powers of Tau, was circuit-agnostic, meaning it was not tied to Sapling's specific circuits. Phase 2, the Sapling MPC, was circuit-specific. Each phase stays secure as long as at least one participant was honest and destroyed their toxic waste, so the ceremony only fails if every single participant colludes.
+Circuit nke Sapling dabere na otu public parameters a ga-eji nlezianya mepụta. Ọ bụrụ na otu onye mepụtara ha naanị ya ma debe data nzuzo fọdụrụnụ (…toxic waste…), onye ahụ nwere ike ịmepụta proof aghụghọ. Iji zere nke a, parameters sitere na emume nke akụkụ ọtụtụ, nke nwere ọkwa abụọ. Ọkwa 1, nke a na-akpọ Powers of Tau, enweghị njikọ na circuit, nke pụtara na ejikọtaghị ya na circuit kpọmkwem nke Sapling. Ọkwa 2, Sapling MPC, bụ nke kpọmkwem maka circuit. Ọkwa ọ bụla na-adị nchebe ma ọ bụrụhaala na opekata mpe otu onye sonyere bụ onye eziokwu ma bibie toxic waste ya, ya mere emume ahụ na-ada naanị ma ọ bụrụ na ndị sonyere niile na-arụkọ ọrụ aghụghọ.
 
-## Otú e si rụọ ya .
+## Otu o siri malite
 
-Sapling followed Overwinter, the June 2018 upgrade that prepared the network's upgrade mechanism. Electric Coin Company set the mainnet activation height in zcashd 2.0.0, released in August 2018, and the network switched to the Sapling rules when block 419,200 was mined. On chain, that moment is marked by the Sapling consensus branch id.
+Sapling soro Overwinter, upgrade June 2018 nke kwadebere usoro upgrade nke network. Electric Coin Company setịpụrụ ogo mmalite mainnet na zcashd 2.0.0, nke ewepụtara n'Ọgọọst 2018, network wee gbanwee gaa n'iwu Sapling mgbe a gwupụtara block 419,200. Na chain, a na-eji consensus branch id Sapling akara oge ahụ.
 
 ![Timeline from Zcash launch to Sapling activation](/content-images/sapling-timeline-6cad184c30.webp)
 
-## Akwụkwọ ọkọwa okwu
+## Nkọwa okwu
 
-| Oge okwu | Nkọwa Bekee dị mfe |
+| Okwu | Ihe ọ pụtara n'asụsụ dị mfe |
 |---|---|
-| Shielded transaction | Azụmahịa Zcash nkeonwe nke na-ezochi onye zitere ya, onye nnata, na ego ole ọ na-enweta. |
-| Sprout | Usoro nchekwa mbụ nke Zcash malitere site na, nwayọ ma dị arọ karịa Sapling. |
-| Spend and Output circuits | Sekit abụọ ọhụrụ Sapling proof nke nọchiri sekit JoinSplit Sprout's. |
-| Diversified address | Otu n'ime ọtụtụ adreesị ịkwụ ụgwọ na-enweghị njikọ ị nwere ike nweta site na otu igodo. |
-| Viewing Key | Mkpịsị ugodi nke na-eme ka mmadụ hụ azụmahịa obere akpa ego n'enweghị ike imefu ego na ya. |
-| Consensus branch id | Koodu dị mkpirikpi nke na-agwa netwọk iwu nkwalite azụmahịa na-eso. |
+| Shielded transaction | Azụmahia Zcash nkeonwe nke na-ezo onye zitere, onye natara, na ego ya. |
+| Sprout | Usoro izizi nke e chebere echebe nke Zcash malitere, nke dị nwayọ ma dị arọ karịa Sapling. |
+| Spend and Output circuits | Circuit proof ọhụrụ abụọ nke Sapling nke dochiri otu JoinSplit circuit nke Sprout. |
+| Diversified address | Otu n'ime ọtụtụ Adreesị akpa ego Kwụọ ụhwọ Ihe na-apughi ijikọ ọnụ ị nwere ike ịmepụta site n'otu igodo. |
+| Viewing Key | Igodo nke na-enye mmadụ ohere ịhụ Azụmahia e-akpa ego, na-enweghị ike imefu ego sitere na ya. |
+| Consensus branch id | Koodu dị mkpirikpi nke na-agwa network iwu upgrade Azụmahia na-agbaso. |
 
-## Ajụjụ ndị a na-ajụkarị
+## Ajụjụ a na-ajụkarị
 
-Sapling gbanwere otú e si arụ azụmahịa ndị a na-echebe, ọ bụghị ego ole ZEC onye ọbụla nwere maọbụ ngụkọta ọkọnọ. Ọ dịghị emetụta nguzo gị.
+Sapling gbanwere ole ZEC m nwere? Mba. Sapling gbanwere otu e si arụ Azụmahia nke e chebere echebe, ọ bụghị ego ZEC onye ọ bụla jidere ma ọ bụ mkpokọta mbupụta. Balance gị agbanweghị.
 
-ZEC m ka bụ nkeonwe mgbe Sapling? Ee, na ihe ọzọ usable. Sapling nọgidere ike nzuzo nke kpuchie azụmahịa ma mee ha ngwa ngwa na ọnụ ala iji n'ezie-eji. Echebe ego ịnọgide zoro ezo otu ụzọ ahụ.
+ZEC m ka bụ nkeonwe mgbe Sapling gasịrị? Ee, ma ọ dịkwuo mfe iji. Sapling chebere Nzuzo siri ike nke Azụmahia e chebere echebe ma mee ka ha dị ngwa ma dị ọnụ ala nke ga-ekwe omume iji n'ezie. Ego e chebere echebe na-anọgide na-ezo otu ụzọ ahụ.
 
-Enwere m ihe ọ bụla? Ọ dịghị mkpa ka ị mee ya dịka onye nwe. Sapling bụ nkwalite netwọk nke obere akpa na sọftụwia node nakweere. Akpa ego ndị dị ugbu a akwadolarị adreesị Sapling.
+Ò kwesịrị ime ihe ọ bụla? Ọ dịghị ihe a chọrọ n'aka gị dị ka onye jidere ya. Sapling bụ network upgrade nke ngwanrọ e-akpa ego na node nakweere. E-akpa ego nke oge a akwadolarị Adreesị akpa ego Sapling.
 
-What is the difference between Sprout and Sapling? Sprout was the first shielded protocol and used one slow, memory-heavy proving circuit. Sapling replaced it with faster Spend and Output circuits, added viewing keys and diversified addresses, and made shielded transactions light enough for phones and hardware wallets.
+Kedu ihe dị iche n'etiti Sprout na Sapling? Sprout bụ usoro mbụ nke e chebere echebe ma jiri otu proving circuit dị nwayọ nke chọrọ ebe nchekwa dị ukwuu. Sapling jiri Spend na Output circuits dị ngwa dochie ya, gbakwụnyere viewing key na Adreesị akpa ego dị iche iche, wee mee Azụmahia e chebere echebe ka ọ dị mfe iji na ekwentị na hardware wallet.
 
-N'ihi gịnị ka ụfọdụ isi mmalite na-ekwu October 28 ma ndị ọzọ Ọkt 29? E setịpụrụ ịdị elu nke ọrụ ahụ tupu oge eruo iji lekwasị anya n'Ọktoba 28, 2018. A tụpụtara ngọngọ nke kpatara mgbanwe, ogige 419,200, n'isi ụtụtụ nke October 29 UTC. Na ọtụtụ mpaghara mpaghara ebe ọ bụ October 28. Ọ bụ otu ihe mgbochi ahụ na otu oge ahụ kwa ụzọ.
+Gịnị mere ụfọdụ ebe ji asị Ọktoba 28 ebe ndị ọzọ na-ekwu Ọktoba 29? E setịpụrụ ogo mmalite ahụ n'ihu oge iji lekwasị Ọktoba 28, 2018 anya. A gwupụtara block nke butere mgbanwe ahụ n'ezie, block 419,200, n'isi ụtụtụ Ọktoba 29 UTC. N'ọtụtụ mpaghara oge obodo, ọ ka bụ Ọktoba 28. Ọ bụ otu block na otu oge n'agbanyeghị ụzọ e si ele ya.
 
-Kedu ihe bụ igodo nlele? Igodo nlekota na-ahapụ gị ka ịkekọrịta ohere ịgụ akwụkwọ maka obere akpa echedoro. Onye nwere mkpịsị ugodi zuru ezu ma ọ bụ nke na - abata nwere ike ịhụ nkọwa azụmahịa nke obere akpa ahụ mana enweghị ike iji ego ya mee ihe. Lee [Igodo Nlele](../zcash-tech/viewing-keys) maka ihe ndị ọzọ.
+Gịnị bụ viewing key? Viewing key na-enye gị ohere ịkekọrịta ikike ịgụ e-akpa ego e chebere echebe. Onye nwere viewing key zuru ezu ma ọ bụ nke na-abata nwere ike ịhụ nkọwa Azụmahia e-akpa ego ahụ mana enweghị ike imefu ego ya. Lee [Viewing Keys](../zcash-tech/viewing-keys) maka ihe ndị ọzọ.
 
-## Nwalee nghọta gị .
+## Nwalee nghọta gị
 
-N'okpuru Sprout, gịnị mere ọtụtụ ndị ji ezere azụmahịa e chebere echebe, oleekwa otú Sapling si dozie ya?
+N'okpuru Sprout, gịnị mere ọtụtụ mmadụ ji zere Azụmahia e chebere echebe, oleekwa otú Sapling si dozie ya?
 
 <details>
-<summary>Answer</summary>
-Under Sprout, building a shielded transaction took minutes and used gigabytes of memory, so it was too slow and heavy for most users, exchanges, and shops. Sapling introduced faster Spend and Output circuits that cut the work to a few seconds and about 40 megabytes, making shielded transactions practical on everyday phones and hardware wallets.
+<summary>Azịza</summary>
+N'okpuru Sprout, iwulite Azụmahia e chebere echebe were nkeji ma jiri gigabyte ọtụtụ nke ebe nchekwa, ya mere ọ dị nwayọ ma dị arọ nke ukwuu maka ọtụtụ ndị ọrụ, exchange, na ụlọ ahịa. Sapling webatara Spend na Output circuits ngwa ngwa nke belatara ọrụ ahụ ruo sekọnd ole na ole na ihe dị ka megabyte 40, mee Azụmahia e chebere echebe ka ọ baa uru na ekwentị kwa ụbọchị na hardware wallet.
 </details>
 
-### Akụnụba
+### Akụrụngwa
 
-- [ZIP 205: Ịmepụta nkwalite netwọkụ Sapling](https://zips.z.cash/zip-0205)
-- [ZIP 243: Nkwado nkwekọrịta azụmahịa maka Sapling](https://zips.z.cash/zip-0243)
-- [Zcash Sapling mmelite peeji nke](https://z.cash/upgrade/sapling/)
-- [Electric Coin Company: Sapling announcement](https://electriccoin.co/blog/sapling/)
-- [Electric Coin Company: Announcing the Sapling MPC](https://electriccoin.co/blog/sapling-mpc/)
+- [ZIP 205: Mwepụta nke Network Upgrade Sapling](https://zips.z.cash/zip-0205)
+- [ZIP 243: Nkwado Transaction Signature maka Sapling](https://zips.z.cash/zip-0243)
+- [Zcash Peeji upgrade Sapling](https://z.cash/upgrade/sapling/)
+- [Electric Coin Company: Ọkwa ọkwa Sapling](https://electriccoin.co/blog/sapling/)
+- [Electric Coin Company: Ịkpọsa MPC Sapling](https://electriccoin.co/blog/sapling-mpc/)
 
-### Lee kwa nke a.
+### Hụkwa
 
-- [Ọdọ Mmiri Ndị E Chebere Echiche Ha Na Ya](../using-zcash/shielded-pools)
-- [Igodo Nlele](../zcash-tech/viewing-keys)
+- [Shielded Pools](../using-zcash/shielded-pools)
+- [Viewing Keys](../zcash-tech/viewing-keys)
 - [zk-SNARKs](../zcash-tech/zk-snarks)
-- [Nwelite netwọk Zcash](../start-here/network-upgrades)
-- [Akpa ego](../using-zcash/wallets)
+- [Zcash Network Upgrades](../start-here/network-upgrades)
+- [Wallets](../using-zcash/wallets)
 - [Electric Coin Company](../zcash-organizations/electric-coin-company)
 
 ---
 
-Usoro: [Nhazi nke netwọkụ na-emelite.](../start-here/network-upgrades) · Nke gara aga: [Overwinter](../zcash-tech/overwinter) · Nke ọzọ: [Blossom](../zcash-tech/blossom)
+Usoro: [Ndepụta Network Upgrades](../start-here/network-upgrades) · Nke gara aga: [Overwinter](../zcash-tech/overwinter) · Nke na-esote: [Blossom](../zcash-tech/blossom)

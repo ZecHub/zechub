@@ -1,140 +1,140 @@
-# <img src="/content-images/journalist-host-profession-interview-svg-2eb63ae5c9.svg" width="24" height="24" alt="Journalist icon"/> Journalist Privacy Setup with Zcash
+# <img src="/content-images/journalist-host-profession-interview-svg-2eb63ae5c9.svg" width="24" height="24" alt="Journalist icon"/> Mipangilio ya Faragha kwa Waandishi wa Habari kwa kutumia Zcash
 
 <span className="inline-flex items-center gap-[6px]">
   <span className="inline-block w-[12px] h-[12px] bg-green-500 rounded-full"></span>
-  Mwanzoni - dakika 7
+  Anayeanza - Dakika 7
 </span>
 
-## TL;DR
+## Kwa ufupi
 
-- Matumizi ya anwani za ulinzi kwa shughuli zote
-- Kamwe kufichua kitambulisho cha mkoba hadharani.
-- Kulinda vyanzo kwa kuepuka malipo traceable
-- Tumia memos kwa uangalifu kwa mawasiliano salama
+- Tumia anwani za faragha [shielded addresses] kwa miamala yote
+- Kamwe usifichue utambulisho wa pochi hadharani
+- Linda vyanzo kwa kuepuka malipo yanayoweza kufuatiliwa
+- Tumia jumbe [memos] kwa uangalifu kwa mawasiliano salama
 
 <br/>
 
-## <img src="/content-images/user-svgrepo-com-21adf62b7c.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="user icon"/> Who is this for?
+## <img src="/content-images/user-svgrepo-com-21adf62b7c.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="user icon"/> Hii ni kwa ajili ya nani?
 
 - Waandishi wa habari
-- Wachunguzi wa Uchunguzi
-- Wanaharakati wa haki za binadamu
-- High hatari ya watu binafsi kushughulikia malipo nyeti
+- Wachunguzi
+- Wanaharakati
+- Watu walio katika hatari kubwa wanaoshughulikia malipo nyeti
 
 
 <br/>
 
-## <img src="/content-images/warning-error-svgrepo-com-b7ea8a50da.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="warning icon"/> The Problem
+## <img src="/content-images/warning-error-svgrepo-com-b7ea8a50da.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="warning icon"/> Tatizo
 
-Waandishi wa habari wanakabiliwa na:
+Waandishi wa habari hukabiliwa na:
 - Ufuatiliaji
-- Chanzo cha hatari ya mfiduo
-- Ufuatiliaji wa kifedha na wapinzani
+- Hatari za kufichuliwa kwa vyanzo
+- Ufuatiliaji wa kifedha unaofanywa na wapinzani
 
-Kutumia crypto uwazi inaweza kufunua:
-- Ni nani aliyekupa pesa?
-- Ulimlipa nani?
-- Wakati na kiasi cha pesa kinachohitajika
+Kutumia sarafu za kidijitali za uwazi [transparent] kunaweza kufichua:
+- Nani aliyekulipa
+- Nani uliyemlipa
+- Lini na kiasi gani
 
 <br/>
 
-## <img src="/content-images/icons8-lock-2f8e221321.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> Why Zcash?
+## <img src="/content-images/icons8-lock-2f8e221321.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> Kwa nini Zcash?
 
 
 Zcash hutoa:
-- Usiri mkubwa wa kifedha
-- Ulinzi kwa ajili ya shughuli nyeti
-- Kupunguza hatari ya kuunganisha waandishi kwa vyanzo.
+- Faragha thabiti ya kifedha [financial privacy]
+- Ulinzi kwa miamala nyeti
+- Hatari iliyopunguzwa ya kuwaunganisha waandishi wa habari na vyanzo
 
 <br/>
 
-## <img src="/content-images/icons8-toolbox-9bebbb1619.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> What You Need
+## <img src="/content-images/icons8-toolbox-9bebbb1619.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> Unachohitaji
 
-- Zcash mkoba na msaada shielded
-- Salama mawasiliano channel (nje blockchain)
-- Utaratibu wa uendeshaji
+- Pochi [wallet] ya Zcash inayotumia anwani za faragha
+- Njia salama ya mawasiliano (nje ya blockchain)
+- Nidhamu ya kiutendaji
 
 <br/>
 
-## <img src="/content-images/ladder-svgrepo-com-7232bf46ed.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="step icon"/> Step-by-Step Guide
+## <img src="/content-images/ladder-svgrepo-com-7232bf46ed.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="step icon"/> Mwongozo wa Hatua kwa Hatua
 
 
-### Hatua ya 1: Kujenga Wallet Dedicated
+### Hatua ya 1: Unda Pochi Maalumu
 
-- Tumia pochi tu kwa ajili ya kazi nyeti.
-- Usichanganyike na shughuli za kibinafsi.
+- Tumia pochi kwa kazi nyeti pekee
+- Usiichanganye na miamala ya kibinafsi [personal transactions]
 
-### Hatua ya 2: Tumia anwani Shielded tu
+### Hatua ya 2: Tumia Anwani za Faragha Pekee
 
-- Daima transact kutumia z-maelekezo
-- Epuka shughuli uwazi kabisa
-
-
-### Hatua ya 3: Kulinda Malipo Chanzo
-
-Kama kulipa vyanzo:
-- Matumizi ya shughuli shielded (z → z)
-- Epuka ratiba za muda zinazotarajiwa.
-- Usitumie tena anwani
+- Daima fanya miamala kwa kutumia anwani za z
+- Epuka kabisa miamala ya uwazi
 
 
-### Hatua ya 4: Uwe Mwangalifu Kuhusu Maandishi Yako
+### Hatua ya 3: Linda Malipo kwa Vyanzo
 
-- Usiweke habari nyeti katika kumbukumbu za kazi.
-- Tumia marejeo ya upande wowote au yaliyofichwa ikiwa ni lazima.
+Ikiwa unawalipa vyanzo:
+- Tumia miamala ya faragha (z → z)
+- Epuka mifumo ya muda inayotabirika
+- Usitumie anwani tena
 
 
-### Hatua ya 5: Kudumisha Usalama wa Uendeshaji
+### Hatua ya 4: Kuwa Makini na Jumbe
+
+- USIJUMUISHE taarifa nyeti katika jumbe
+- Tumia marejeleo yasiyoegemea upande wowote au yenye msimbo ikihitajika
+
+
+### Hatua ya 5: Dumisha Usalama wa Kiutendaji
 
 - Epuka kuunganisha pochi na utambulisho wako
-- Je, si kuthibitisha shughuli hadharani
-- Tumia njia tofauti za mawasiliano
+- Usithibitishe miamala hadharani
+- Tumia njia tofauti kwa mawasiliano
 
 
 <br/>
 
-## <img src="/content-images/icons8-cancel-7f786be3c1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="cancel icon"/> Common Mistakes to Avoid
+## <img src="/content-images/icons8-cancel-7f786be3c1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="cancel icon"/> Makosa ya Kawaida ya Kuepuka
 
-- Kutumia anwani uwazi 
-- Kutumia tena anwani katika vyanzo mbalimbali 
-- Ikiwa ni pamoja na data nyeti katika memos 
-- Kuunganisha mkoba kwa utambulisho wa umma 
+- Kutumia anwani za uwazi  
+- Kutumia anwani tena kwa vyanzo tofauti  
+- Kujumuisha data nyeti katika jumbe  
+- Kuunganisha pochi na utambulisho wa umma  
 
 <br/>
 
-## <img src="/content-images/checked-checkbox-svgrepo-com-7ea19022da.svg" width="28" height="28" className="inline-block align-middle mr-1 p-[2px]" alt="done icon"/> Result
+## <img src="/content-images/checked-checkbox-svgrepo-com-7ea19022da.svg" width="28" height="28" className="inline-block align-middle mr-1 p-[2px]" alt="done icon"/> Matokeo
 
 Unaweza:
-- Linda vyanzo vyako vya habari
+- Kulinda vyanzo vyako
 - Kupunguza hatari za ufuatiliaji
 - Kudumisha faragha ya kifedha katika kazi nyeti
 
 <br/>
 
-## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="chain-links icon"/> Related
+## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="chain-links icon"/> Yanayohusiana
 
-- [Faragha - Mazoea Bora](/start-here/who-can-see-your-zcash-payment)
-- [Tuma fedha bila kuunganisha utambulisho](/zcash-use-cases/send-money-without-linking-identity)
+- [Nani anaweza kuona malipo yako ya Zcash](/start-here/who-can-see-your-zcash-payment)
+- [Tuma pesa bila kuunganisha utambulisho wako](/zcash-use-cases/send-money-without-linking-identity)
 
  <br/>
 
-## <img src="/content-images/celebration-spark-svgrepo-com-bc98dec7c1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="celebration icon"/> Completion
+## <img src="/content-images/celebration-spark-svgrepo-com-bc98dec7c1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="celebration icon"/> Kukamilisha
 
-** Hatua ya 6 kati ya 6  Imekamilika**
+**Hatua ya 6 kati ya 6 — Imekamilika**
 
-Umefikia kiwango cha juu zaidi ya matumizi Zcash.
+Umefikia kiwango cha juu zaidi cha matumizi ya Zcash.
 
 Sasa unaelewa:
-- Shughuli za kibinafsi
-- Usalama wa utambulisho
-- Usalama wa uendeshaji
+- Miamala ya faragha
+- Ulinzi wa utambulisho
+- Usalama wa kiutendaji
 
 <br/> 
 
-## Ni Nini Kinachofuata?
+## Nini Kinafuata?
 
 - [Nenda kwenye ukurasa wa nyumbani](/)
-- [Kuchunguza njia ya developer](/developers)
-- [Kuchangia ZecHub](/contribute/help-build-zechub)
+- [Chunguza njia za wasanidi programu](/developers)
+- [Changia kwa ZecHub](/contribute/help-build-zechub)
 
-<br/> 
+<br/>

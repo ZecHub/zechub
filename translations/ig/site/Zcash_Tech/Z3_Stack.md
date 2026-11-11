@@ -2,38 +2,38 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Z3 Stack (Nke dị n'ime)
+# Z3 Stack
 
-**Z3 Stack** bụ ntọala nke Zcash Foundation: **Zebra** (nkwụnye zuru ezu) + **Zallet** (akpa ego na-ejupụta ọnụ), yana nhọrọ **Zaino** indexer. Ọ bụ ihe a chọrọ iji dochie anya onye kwụụrụ onwe ya `zcashd` usoro, nke jikọtara nkwekọrịta na obere akpa n'otu ọnụọgụ abụọ wee ruo njedebe ndụ ya na 18 Julaị 2026.
+**Z3 Stack** bụ ikpo okwu node nke Zcash Foundation chịkọtara: **Zebra** (full node) + **Zallet** (e-akpa ego full-node), yana indexer **Zaino** nhọrọ. Ọ bụ ihe e bu n'obi iji dochie usoro `zcashd` kwụụrụ onwe ya, nke jikọtara consensus na e-akpa ego n'otu binary ma kwụsị ndụ ya na 18 Julaị 2026.
 
-Ntughari mmejuputa iwu bu oru Docker Compose na ụlọ ọrụ. [github.com/ZcashFoundation/z3 (Nke a bụ ebe e si nweta ego)](https://github.com/ZcashFoundation/z3).
-
----
-
-## TL;DR
-
-* Z3 abụghị onye ahịa ọhụrụ. Ọ bụ otu ị si agba post-`zcashd` kpokọta: Zebra na-akwado agbụ, Zallet nwere igodo ma jee ozi obere akpa RPC, yana Zaino (nhọrọ) na -ekwu okwu protocol gRPC lightwalletd.
-* `zcashd` agwakọta ọnụ + obere akpa. Z3 ** na-ekewa ọrụ ndị ahụ** . Mgbanwe, ọdọ mmiri igwupụta akụ, yana ndị ọzọ nwere oghere zuru oke nke onye ọ bụla na - agagharị n'ụdị a karịa Zebra naanị ya.
-* Atọ dị iche iche mejupụtara oru ngo nwere ike na-agba ọsọ n'otu usu: ** mainnet, * testnet, na regtest.
-* Mainnet mbụ sync bụ na iji nke ** 24  72 awa** na banyere ** 300 GB. Regtest abịa elu n'ime sekọnd ma ọ bụ nri ebe ịmụta tojupụtara.
-* Zallet na-etinye akwụkwọ ọgụgụ indexer Zaino ma gwa Zebra okwu site na JSON-RPC. Ọrụ Zaino kwụ ọtọ dị mkpa naanị ma ọ bụrụ na ịchọrọ njedebe lightwalletd dakọtara maka obere akpa mpụga.
-* Zallet nọ na ** beta. Mgbanwe ndị a nwere ike ịchọ ihichapụ ma mepụta akpa ego ahụ ọzọ. Elela ya anya dị ka ngwanrọ nchekwa zuru ezu maka nnukwu ego.
+Mmejuputa ntụaka bụ ọrụ Compose nke Docker dị na [github.com/ZcashFoundation/z3](https://github.com/ZcashFoundation/z3).
 
 ---
 
-## Ihe mere Z3 ji dịrị ndụ
+## Na nkenke
 
-N'ihe ka ukwuu ná ndụ Zcash, `zcashd` bụ ma ntụle zuru oke na naanị mmepụta akpa ego nke nwere ọnụ. Ọdịdị ahụ bụ ihe mgbanwe, ọdọ mmiri, na ndị nlekọta jikọtara ya.
-
-`zcashd` a na-enye ya ezumike nká. Nkwenye gbanwere gaa n'ọkwá dị elu karịa nke mbụ ahụ. [Zebra](/zcash-tech/zebra-full-node) (Ugbu a kwa) [Zakura](/zcash-tech/zakura-node)) A na-ebugharị obere akpa ahụ n'ime ya. [Zallet](https://github.com/zcash/zallet). Light-wallet na-eje ozi si n'ebe a pụọ. [lightwalletd](/zcash-tech/lightwallet-nodes) to [Zaino](/zcash-tech/zaino).
-
-Akụkụ atọ ndị ahụ bụ ebe nchekwa dị iche, ụgbọ oloko ntọhapụ dị iche na nhazi nkewa. Z3 bụ ihe mkpuchi: eserese ejiri mee ya, nyocha nlekọta ahụike nke na-eme ka obere akpa ego ruo mgbe a ga - emezi ọnụ ọgụgụ ahụ, ọdụ ụgbọ mmiri ọ bụla na olu netwọkụ, yana ụzọ onye ọrụ edere ederede.
-
-Aha ahụ bụ ihe na-abụghị usoro nhazi nke ọma  Zebra, Zaino, Zallet  ọ bụ ezie na faịlụ compose ndabara naanị amalitela zebra na zallet. zaino bu profaịlụ mejupụtara, obughi oru ndi ozo choro.
+* Z3 **abụghị onye ahịa consensus ọhụrụ**. Ọ bụ ụzọ ị si agbaa stack mgbe-`zcashd` ọnụ: Zebra na-enyocha chain, Zallet na-edobe igodo ma na-enye wallet RPC, ebe Zaino (nhọrọ) na-ekwu protocol gRPC nke lightwalletd.
+* `zcashd` jikọtara node + e-akpa ego. Z3 **na-ekewa ọrụ ndị a**. Exchanges, pool ịgwụputa, na ndị ọrụ e-akpa ego full node ndị ọzọ na-akwaga na njikọta a kama na Zebra naanị.
+* Ọrụ Compose atọ kewapụrụ iche nwere ike ịgba n'otu host: **mainnet**, **testnet**, na **regtest**.
+* Mmekọrịta mbụ nke mainnet na-ewe ihe dịka **awa 24–72** ma chọọ ihe dịka **300 GB**. Regtest na-ebili n'ime sekọnd ma bụrụ ebe kwesịrị ekwesị iji mụta stack ahụ.
+* Zallet na-etinye ọba akwụkwọ indexer nke Zaino ma soro Zebra kparịta ụka site na JSON-RPC. A chọrọ ọrụ Zaino kwụụrụ onwe ya naanị ma ọ bụrụ na ịchọrọ endpoint kwekọrọ na lightwalletd maka e-akpa ego mpụta.
+* Zallet nọ na **beta**. Mgbanwe na-akụda ndakọrịta nwere ike ịchọ ka ihichapụ ma mepụta e-akpa ego ọzọ. Ewerekwala ya dị ka sọftụwia nlekọta ego zuru oke maka nnukwu ego.
 
 ---
 
-## Ihe owuwu ụlọ
+## Ihe mere Z3 ji dị
+
+N'ọtụtụ ndụ Zcash, `zcashd` bụ ma full node ntụaka ma naanị e-akpa ego full node mmepụta. Nhazi ahụ bụ nke exchanges, pools, na ndị nlekota jikọtara megide.
+
+`zcashd` alala ezumike nka. Consensus kwagara na [Zebra](/zcash-tech/zebra-full-node) (ma ugbu a kwa na [Zakura](/zcash-tech/zakura-node)). E-akpa ego agbakwunyere kwagara na [Zallet](https://github.com/zcash/zallet). Ijere e-akpa ego light ozi na-apụ na [lightwalletd](/zcash-tech/lightwallet-nodes) gaa na [Zaino](/zcash-tech/zaino).
+
+Akụkụ atọ ahụ bụ repository dị iche iche, usoro ntọhapụ dị iche iche, na config dị iche iche. Z3 bụ gluu: image akpọchiri, nyocha ahụike nke na-eme ka e-akpa ego ghara ịmalite ruo mgbe node mekọrịtara, ports na volumes maka netwọkụ nke ọ bụla, yana ụzọ onye ọrụ edere n'akwụkwọ.
+
+Aha ahụ bụ mkpirisi okwu nkịtị n'ọrụ gburugburu ebe obibi — Zebra, Zaino, Zallet — n'agbanyeghị na faịlụ Compose ndabara na-amalite naanị Zebra na Zallet. Zaino bụ profile Compose, ọ bụghị usoro nke atọ a chọrọ.
+
+---
+
+## Nhazi
 
 ```
                     ┌──────────────────────── Z3 (per network) ────────────────────────┐
@@ -51,88 +51,88 @@ Aha ahụ bụ ihe na-abụghị usoro nhazi nke ọma  Zebra, Zaino, Zallet  �
                         light wallets / explorers
 ```
 
-| Akụkụ | Ọrụ na Z3 | A chọrọ ya? |
+| Akụkụ | Ọrụ ya na Z3 | A chọrọ ya? |
 | --- | --- | --- |
-| **Zebra** | Mmekọrịta ma kwado usoro agbụ, asịrị, JSON-RPC, njedebe ahụike | Ee |
-| **Zallet** | Akpa ego zuru oke. Na-etinye ọbá akwụkwọ Zaino. Na-ejikọ ozugbo na Zebra JSON-RPC. Anaghị akpọ akpa Zaino nke nọọrọ onwe ya | Ee |
-| **Zaino** | Ihe ndeksi nke na-anọpụ iche. gRPC lightwalletd-compatible maka ndị ahịa ọkụ mpụga, tinyere ihe nnọchiteanya JSON-RPC maka ndị na-eme nchọpụta na faucets | No — `--profile indexer` |
+| **Zebra** | Na-emekọrịta ma na-enyocha chain, gossip, JSON-RPC, endpoint ahụike | Ee |
+| **Zallet** | E-akpa ego full node. Na-etinye ọba akwụkwọ Zaino. Na-ejikọ ozugbo na JSON-RPC nke Zebra. Ọ **dịghị** akpọ container Zaino kwụụrụ onwe ya | Ee |
+| **Zaino** | Indexer kwụụrụ onwe ya. gRPC kwekọrọ na lightwalletd maka ndị ahịa light mpụta, tinyere proxy JSON-RPC maka explorers na faucets | Mba — `--profile indexer` |
 
-Z3 pin oyiyi nsụgharị na- `docker-compose.yml`. Gbanwee na-eji `Z3_ZEBRA_IMAGE`, `Z3_ZAINO_IMAGE`, or `Z3_ZALLET_IMAGE` ma ọ bụrụ na ịchọrọ mkpado dị iche.
+Z3 na-akpọchi nsụgharị image na `docker-compose.yml`. Jiri `Z3_ZEBRA_IMAGE`, `Z3_ZAINO_IMAGE`, ma ọ bụ `Z3_ZALLET_IMAGE` dochie ya ma ọ bụrụ na ịchọrọ tag ọzọ.
 
 ---
 
-## Kedu ka nke a si dị iche na zcashd?
+## Otu nke a si dị iche na zcashd
 
 | | zcashd | Z3 |
 | --- | --- | --- |
-| Asụsụ | C++ (Ndụdụ Bitcoin) | Ọrụ nchara, nke Docker Compose haziri |
-| Ụdị usoro | Otu ọnụọgụ abụọ: node + obere akpa | Kewapụ oghere na akpa akpa iche |
-| Nkwekọrịta | Ezumike ezumike nká (EOS 18 Julaị 2026) | Zebra (ma ọ bụ ihe ọzọ dakọtara) |
-| Obere akpa | E wuru n'ime ya `wallet.dat` | Zallet, datadir ezoro ezo nke afọ |
-| Ndị ahịa dị mfe | Ọtụtụ mgbe, a na-eji lightwalletd dị iche | Profaịlụ Zaino nhọrọ |
-| Nhazi | `zcash.conf` | Faịlụ kwa netwọk dị n'okpuru `config/<network>/` gbakwunyere Dee faịlụ env |
-| Netwọk dị n'otu ebe | Nsogbu ọdụ ụgbọ mmiri na-egbu mgbu | Klas nke mbụ: `z3-mainnet`, `z3-testnet`, `z3-regtest` |
+| Asụsụ | C++ (fork Bitcoin) | Ọrụ Rust, nke Docker Compose na-ahazi |
+| Ụdị usoro | Otu binary: node + e-akpa ego | Containers node na e-akpa ego dị iche |
+| Consensus | Alala ezumike nka (EOS 18 Julaị 2026) | Zebra (ma ọ bụ node ọzọ kwekọrọ) |
+| E-akpa ego | `wallet.dat` arụnyere n'ime ya | Zallet, datadir e ji age zoo |
+| Ndị ahịa light | Ọtụtụ mgbe lightwalletd dị iche | Profile Zaino nhọrọ |
+| Config | `zcash.conf` | Faịlụ maka netwọkụ ọ bụla n'okpuru `config/<network>/` tinyere faịlụ env Compose |
+| Netwọkụ n'otu host | Mkpọkọta port na-esiri ike | Ọkwa mbụ: `z3-mainnet`, `z3-testnet`, `z3-regtest` |
 
-Ọ bụrụ na ị ka nwere otu . `zcashd` wallet, use ZecHub’s [ntuziaka mbugharị](/guides/migration-guide-zcashd-to-zebrad-zallet) and Zallet’s `migrate-zcashd-wallet` iwu kama idetuo ya `wallet.dat` n'ime olu Z3.
+Ọ bụrụ na ị ka nwere e-akpa ego `zcashd`, jiri ndu mbufe nke ZecHub [migration guide](/guides/migration-guide-zcashd-to-zebrad-zallet) na iwu `migrate-zcashd-wallet` nke Zallet kama idetuo `wallet.dat` n'ime volume Z3.
 
 ---
 
-## Netwọk ndị ọzọ
+## Netwọkụ
 
-Z3 bụ ọrụ atọ dị iche iche na-arụ. Ha anaghị ekekọrịta ọdụ ụgbọ mmiri ma ọ bụ olu.
+Z3 bụ ọrụ Compose atọ nọọrọ onwe ha. Ha anaghị ekerịta ports ma ọ bụ volumes.
 
-| Netwọk | Aha ọrụ | Jiri ya maka | Mmekọrịta mbụ | Ezigbo ego |
+| Netwọkụ | Aha ọrụ | Jiri ya maka | Mmekọrịta mbụ | Ezigbo ego |
 | --- | --- | --- | --- | --- |
-| **netịịntị** | `z3-mainnet` | Mmepụta | Awa 24–72 | Ee |
-| **net ule** | `z3-testnet` | Ịkwado netwọk ule ọha na eze | Awa 2–12 | Mba (nwale ZEC) |
-| **ndebanye aha** | `z3-regtest` | Omume mpaghara: mgbochi ozugbo, enweghị ndị ọgbọ | Sekọnd | No |
+| **mainnet** | `z3-mainnet` | Mmepụta | awa 24–72 | Ee |
+| **testnet** | `z3-testnet` | Nhazi tupu mmepụta na netwọkụ ule ọha | awa 2–12 | Mba (ule ZEC) |
+| **regtest** | `z3-regtest` | Omume mpaghara: blocks ozugbo, enweghị peers | Sekọnd | Mba |
 
-Ndị ọrụ ọhụrụ kwesịrị ịmalite na ** regtest**, kwado RPC na wallet flows, wee gaa testnet ma ọ bụ mainnet.
+Ndị ọrụ ọhụrụ kwesịrị ịmalite na **regtest**, gosi na RPC na usoro e-akpa ego na-arụ ọrụ, wee kwaga na testnet ma ọ bụ mainnet.
 
 ---
 
-## Port ndị a na-ahụkarị maka ọdụ ụgbọ mmiri.
+## Ports host ndabara
 
-A na-eme atụmatụ netwọk atọ ahụ ka ha dịrị n'otu igwe. Ụkpụrụ ndị dị n'okpuru bụ ndabara a bipụtara; onye ọ bụla nwere ike ịfe site na nkwekọrịta nke otu ngwaọrụ (ma ọ bụrụ na e jiri ya tụnyere ihe ọzọ). `Z3_*` Env var. The canonical matriks bụ [`z3-contract.yaml`](https://github.com/ZcashFoundation/z3/blob/main/z3-contract.yaml).
+E bu n'obi ka netwọkụ atọ ahụ biri n'otu igwe. Uru ndị dị n'okpuru bụ ndabara e bipụtara; nke ọ bụla nwere ike dochie ya site na mgbanwe env `Z3_*` kwekọrọ. Matrix iwu bụ [`z3-contract.yaml`](https://github.com/ZcashFoundation/z3/blob/main/z3-contract.yaml).
 
-| Ọrụ | Mainnet | Netwọk Nnwale | Ndebanye aha |
+| Ọrụ | Mainnet | Testnet | Regtest |
 | --- | --- | --- | --- |
-| Zebra JSON-RPC | 8232 | 18232 | 29232 |
-| Zebra P2P | 8233 | 18233 | (ebipụtaghị ya) |
+| JSON-RPC nke Zebra | 8232 | 18232 | 29232 |
+| P2P nke Zebra | 8233 | 18233 | (ebipụtabeghị) |
 | Ahụike Zebra (`/ready`) | 8080 | 18080 | 28080 |
-| Zaino gRPC (profaịlụ indexer) | 8137 | 18137 | 28137 |
-| Zaino JSON-RPC (profaịlụ indexer) | 8237 | 18237 | 28237 |
-| Zallet RPC | 28232 | 40232 | 50232 |
+| gRPC nke Zaino (profile indexer) | 8137 | 18137 | 28137 |
+| JSON-RPC nke Zaino (profile indexer) | 8237 | 18237 | 28237 |
+| RPC nke Zallet | 28232 | 40232 | 50232 |
 
-N'ime netwọk Compose, ọrụ na-edozi aha (`zebra`, `zaino`, `zallet`).
+N'ime netwọkụ Compose, ọrụ na-achọta ibe ha site n'aha (`zebra`, `zaino`, `zallet`).
 
 ---
 
 ## Data na nkwado ndabere
 
-| Olu | Ihe ọ na-ejide | Kwado ya? |
+| Volume | Ihe ọ na-edobe | Kwado ya? |
 | --- | --- | --- |
-| `z3-<network>-chain` | Ọnọdụ agbụ Zebra (~ 300 GB nke isi netwọk) | Nhọrọ — enwere ike ịmekọrịta ọzọ |
-| `z3-<network>-zallet` | Nchekwa data akpa ego ezoro ezo **na** njirimara afọ nke na-emeghe ya | **Ee — nke a bụ naanị olu a ga-akwadoro** |
-| `z3-<network>-zaino` | Ọnọdụ Indexer (naanị na profaịlụ indexer) | Nhọrọ — enwere ike iwughachi ya |
-| `z3-<network>-cookie` | Kuki RPC Zebra | Mba — emegharịrị ọhụrụ |
+| `z3-<network>-chain` | Ọnọdụ chain Zebra (~300 GB mainnet) | Nhọrọ — enwere ike imekọrịta ya ọzọ |
+| `z3-<network>-zallet` | Database e-akpa ego ezoro ezo **na** njirimara age na-emeghe ya | **Ee — nke a bụ naanị volume a ga-akwado** |
+| `z3-<network>-zaino` | Ọnọdụ indexer (naanị na profile indexer) | Nhọrọ — enwere ike iwughachi ya |
+| `z3-<network>-cookie` | Kuki RPC nke Zebra | Mba — a na-emepụta ya ọzọ |
 
-Iji tinye ọnọdụ nke agbụ na diski ọzọ tupu ịmalite mbụ:
+Iji tinye ọnọdụ chain na disk ọzọ tupu mmalite mbụ:
 
 ```bash
 export Z3_CHAIN_DATA_PATH=/mnt/ssd/zebra-state
 ./scripts/fix-permissions.sh zebra /mnt/ssd/zebra-state
 ```
 
-`docker compose --env-file .env.<network> --profile "*" down` Na-akwụsị nchịkọta ma na-edebe mpịakọta. Ịgbakwunye `-v` na-ehichapụ ha ma mee ka a rụgharịa ya. Gụnye `--profile "*"` ya mere, profaịlụ-gated ọrụ (indexers, nlekota) na-n'ezie etisasịwo.
+`docker compose --env-file .env.<network> --profile "*" down` na-akwụsị stack ma debe volumes. Ịgbakwunye `-v` na-ehichapụ ha ma manye mmekọrịta zuru ezu ọzọ. Tinye `--profile "*"` ka e wee kwatuo n'ezie ọrụ ndị profile na-achịkwa (indexer, nlekota).
 
 ---
 
-## Ịmalite amalite .
+## Ịmalite
 
-Ihe ndị dị mkpa: Docker Engine, Docker Compose v2.24.4+, Git. `openssl` a chọrọ naanị maka regtest.
+Ihe a chọrọ tupu amalite: Engine Docker, Compose Docker v2.24.4+, Git. A chọrọ `openssl` naanị maka regtest.
 
-### Regtest (ụzọ kachasị ọsọ iji hụ nchịkọta)
+### Regtest (ụzọ kacha ọsọ iji hụ stack ahụ)
 
 ```bash
 git clone https://github.com/ZcashFoundation/z3 && cd z3
@@ -140,11 +140,11 @@ git clone https://github.com/ZcashFoundation/z3 && cd z3
 docker compose --env-file .env.regtest up -d
 ```
 
-Lee ya ebe a . [docs/regtest.md](https://github.com/ZcashFoundation/z3/blob/main/docs/regtest.md) maka iwu ule.
+Lee [docs/regtest.md](https://github.com/ZcashFoundation/z3/blob/main/docs/regtest.md) maka iwu ule.
 
-### Mainnet (ọkwa abụọ)
+### Mainnet (mbido nkeji abụọ)
 
-Zebra ga-emecha syncing tupu Zallet bara uru. Ịmalite Zallet n'oge na - eme ka ọ malitegharịa ruo mgbe a kwụsịrị ya ma mezie usoro ahụ site na iji bọtịnụ "Stop" (Kwụsị) wee pịa OK . `/ready` bụ eziokwu.
+Zebra ga-emecharịrị mmekọrịta tupu Zallet aba uru. Ịmalite Zallet n'isi na-eme ka ọ banye na loop ịmalitegharịa ruo mgbe `/ready` bụ eziokwu.
 
 ```bash
 git clone https://github.com/ZcashFoundation/z3 && cd z3
@@ -160,11 +160,11 @@ docker compose --env-file .env.mainnet up -d zebra
 docker compose --env-file .env.mainnet up -d
 ```
 
-Testnet bụ otu eruba na `.env.testnet` na nke a: `./scripts/check-zebra-readiness.sh 18080`.
+Testnet bụ otu usoro ahụ na `.env.testnet` na `./scripts/check-zebra-readiness.sh 18080`.
 
-Edits n'okpuru `config/<network>/` nọrọ n'obodo ma lanarị. `git pull`.
+Ndozi n'okpuru `config/<network>/` na-anọgide na mpaghara ma dịgide mgbe `git pull` gachara.
 
-### Ihe ndị na-adịghị mkpa
+### Profiles nhọrọ
 
 ```bash
 # Lightwalletd-compatible gRPC + JSON-RPC proxy
@@ -174,59 +174,58 @@ docker compose --env-file .env.mainnet --profile indexer up -d
 docker compose --env-file .env.mainnet --profile monitoring up -d
 ```
 
-Ihe ndabara Grafana ports bụ 3000 (mainnet), 13000 (testnet), 23000 (regtest).
+Ports Grafana ndabara bụ 3000 (mainnet), 13000 (testnet), 23000 (regtest).
 
 ---
 
-## Ihe ndị na-arụ ọrụ kwuru
+## Ihe ndị onye ọrụ kwesịrị ịma
 
-* ** Ihe oyiyi ndị a na-agbanye.** Z3 anaghị eji nwayọọ efefe n'elu igwe. `:latest`. Bump a pin na-enyocha mgbanwe, ma ọ bụ setịpụrụ `Z3_<SERVICE>_IMAGE`.
-* ** Non-root containers.** A na-atụfu ikike Linux. Nnyocha ahụike jidere obere akpa azụ ruo mgbe Zebra dị njikere. Iwu ịmalitegharịa bụ nke ndabara.
-* ** Logs.** Z3 anaghị agbanye ọkwọ ụgbọala ndekọ. Debe oke nha na nhazi daemon Docker ma ọ bụ logs etolite n'enweghị nkwụsịtụ na 24/7 node.
-* **P2P.** Mainnet na testnet bipụtara Zebra's P2P ọdụ ụgbọ mmiri. N'azụ NAT, setịpụrụ `ZEBRA_NETWORK__EXTERNAL_ADDR` na adreesị ndị ọgbọ kwesịrị ịpịa. Regtest enweghị ndị ibe ya.
-* **Zaino na ARM.** Ihe oyiyi Zaino dị n'elu bụ: `linux/amd64` Na Apple Silicon ọ na-agba ọsọ n'okpuru emulation ma ị wuru site isi iyi. Zebra na Zallet bụ multi-arch.
-* ** Ndị na-ekerịta ihe.** Enweghị CPU ma ọ bụ ebe nchekwa edobere site na ndabara. Tinye `deploy.resources.limits` na faịlụ override ma ọ bụrụ na igbe ahụ abụghị nke a raara nye node.
+* **Images akpọchiri.** Z3 anaghị eji nwayọọ kwaga na `:latest`. Gbanwee pin n'ime mgbanwe enyochara, ma ọ bụ setịpụ `Z3_<SERVICE>_IMAGE`.
+* **Containers na-abụghị root.** A na-ewepụ capabilities Linux. Nnyocha ahụike na-egbochi e-akpa ego ruo mgbe Zebra dị njikere. Atumatu ịmalitegharịa dị na ndabara.
+* **Logs.** Z3 anaghị akpọchi logging driver. Setịpụ oke nha na config daemon Docker ma ọ bụghị ya logs ga-eto enweghị oke na node na-arụ ọrụ awa 24/7.
+* **P2P.** Mainnet na testnet na-ebipụta port P2P nke Zebra. N'azụ NAT, setịpụ `ZEBRA_NETWORK__EXTERNAL_ADDR` na adreesị ndị peers kwesịrị ịkpọ. Regtest enweghị peers.
+* **Zaino na ARM.** Image Zaino nke upstream bụ naanị `linux/amd64`. Na Apple Silicon ọ na-agba n'okpuru emulation belụsọ ma i wuo ya site na source. Zebra na Zallet bụ multi-arch.
+* **Hosts ekekọrịtara.** E nweghị oke CPU ma ọ bụ memory edobere na ndabara. Tinye `deploy.resources.limits` n'ime faịlụ override ma ọ bụrụ na igbe ahụ abụghị nke a raara nye node.
 
-Ndepụta nyocha nke mmepụta na FAQ: [docs/faq.md](https://github.com/ZcashFoundation/z3/blob/main/docs/faq.md), [docs/docker-architecture.md](https://github.com/ZcashFoundation/z3/blob/main/docs/docker-architecture.md).
-
----
-
-## Onye kwesịrị ị na-agba ọsọ Z3
-
-**O dabara gị nke ọma**
-
-* Mgbanwe, ndị na-echekwa ya, na ọdọ mmiri nke igwe eji eme ihe. `zcashd` dị ka node-plus-wallet
-* Ndị na-arụ ọrụ chọrọ nkwado zuru oke akpa ego RPC megide Zebra synced
-* Ndị mmepe chọrọ mainnet, testnet na regtest n'akụkụ ibe ha.
-* Anyone standing up a private lightwalletd-compatible endpoint via the Zaino profile
-
-**Ọ na-abụkarị ngwá ọrụ ezighi ezi**
-
-* Ndị ọrụ njedebe ndị chọrọ naanị izipu ma nata ZEC  jiri obere akpa ego dị ka ZODL / Zashi, Zingo, ma ọ bụ YWallet
-* Ndị chọrọ naanị ikwenye na agbụ  agba ọsọ Zebra (ma ọ bụ Zakura) n'onwe ya
-* Ndị chọrọ naanị ijere kọmpat blocks  na-agba ọsọ Zebra + Zaino, ma ọ bụ Zebra plus lightwalletd, n'enweghị Zallet
+Ndepụta nyocha na FAQ maka mmepụta: [docs/faq.md](https://github.com/ZcashFoundation/z3/blob/main/docs/faq.md), [docs/docker-architecture.md](https://github.com/ZcashFoundation/z3/blob/main/docs/docker-architecture.md).
 
 ---
 
-## Peeji ndị metụtara ya
+## Onye kwesịrị ịgba Z3
 
-* [Zebra Full Node (Nọmba zuru ezu)](/zcash-tech/zebra-full-node)  nkwekọrịta ọnụ Z3 na-ekpuchi ya.
-* [Zaino](/zcash-tech/zaino)  nhọrọ indexer profaịlụ
-* [Nọmba zuru ezu](/zcash-tech/full-nodes)  Zebra, Zakura na ndị ezumike nká zcashd
-* [Lightwallet Nodes (Nọmba nke obere akpa ego)](/zcash-tech/lightwallet-nodes)  onye ndị ahịa na-agwa okwu ọkụ.
-* [Zakura Node (Nọmba nke Zaku)](/zcash-tech/zakura-node)  ngbanwe zuru oke; ọ bụghị ihe Z3 na-ebu taa.
-* [Ntuziaka Mbugharị: zcashd na Zebrad/Zallet.](/guides/migration-guide-zcashd-to-zebrad-zallet)
+**Dabara nke ọma**
+
+* Exchanges, ndị nlekota, na pools ịgwụputa jiri `zcashd` dịka node-na-e-akpa ego
+* Ndị ọrụ chọrọ RPC e-akpa ego full node akwadoro megide Zebra emekọrịtara
+* Ndị mmepụta chọrọ mainnet, testnet, na regtest n'akụkụ ibe ha
+* Onye ọ bụla na-ebulite endpoint nkeonwe kwekọrọ na lightwalletd site na profile Zaino
+
+**Ọtụtụ mgbe ọ bụghị ngwá ọrụ ziri ezi**
+
+* Ndị ọrụ njedebe chọrọ naanị izipu na ịnara ZEC — jiri e-akpa ego light dịka ZODL / Zashi, Zingo, ma ọ bụ YWallet
+* Ndị chọrọ naanị inyocha chain — gbaa naanị Zebra (ma ọ bụ Zakura)
+* Ndị chọrọ naanị ije ozi compact blocks — gbaa Zebra + Zaino, ma ọ bụ Zebra + lightwalletd, na-enweghị Zallet
+
+---
+
+## Peeji metụtara ya
+
+* [Zebra Full Node](/zcash-tech/zebra-full-node) — node consensus Z3 na-ekpuchi
+* [Zaino](/zcash-tech/zaino) — profile indexer nhọrọ
+* [Full Nodes](/zcash-tech/full-nodes) — Zebra, Zakura, na zcashd lara ezumike nka
+* [Lightwallet Nodes](/zcash-tech/lightwallet-nodes) — ihe ndị ahịa light na-ekwu okwu na ya
+* [Zakura Node](/zcash-tech/zakura-node) — full node ọzọ; ọ bụghị ihe Z3 na-ebunye taa
+* [Ndu Mbufe: zcashd gaa Zebrad/Zallet](/guides/migration-guide-zcashd-to-zebrad-zallet)
 * [Akụrụngwa Onye Mmepụta](/start-here/developer-resources)
 
 ---
 
-## Akụnụba
+## Akụrụngwa
 
-* [Ebe nchekwa Z3](https://github.com/ZcashFoundation/z3)
-* [Z3 nkwekọrịta (ọdụ ụgbọ mmiri, mpịakọta, aha oru ngo)](https://github.com/ZcashFoundation/z3/blob/main/z3-contract.yaml)
-* [Zebra](https://github.com/ZcashFoundation/zebra) · [Akwụkwọ Zebra ahụ](https://zebra.zfnd.org/)
+* [Repository Z3](https://github.com/ZcashFoundation/z3)
+* [Nkwekọrịta Z3 (ports, volumes, aha ọrụ)](https://github.com/ZcashFoundation/z3/blob/main/z3-contract.yaml)
+* [Zebra](https://github.com/ZcashFoundation/zebra) · [Akwụkwọ Zebra](https://zebra.zfnd.org/)
 * [Zaino](https://github.com/zingolabs/zaino)
-* [Zallet](https://github.com/zcash/zallet) · [Akwụkwọ Zallet ahụ .](https://zcash.github.io/zallet/)
-* [Zcash Community Forum  mmelite nke Z3](https://forum.zcashcommunity.com/t/zcash-z3-updates-formerly-zcashd-deprecation/48965)
-* [Z3 Launcher (Onye na-ebupụta ihe)](https://github.com/Jubrilabdulazeez/z3-launcher)  ụgbọelu nchịkwa obodo n'elu ụlọ ọrụ na-ede akwụkwọ (ZecHub Hackathon)
-
+* [Zallet](https://github.com/zcash/zallet) · [Akwụkwọ Zallet](https://zcash.github.io/zallet/)
+* [Zcash Community Forum — mmelite Z3](https://forum.zcashcommunity.com/t/zcash-z3-updates-formerly-zcashd-deprecation/48965)
+* [Z3 Launcher](https://github.com/Jubrilabdulazeez/z3-launcher) — control plane obodo n'elu stack Compose gọọmentị (ZecHub Hackathon)

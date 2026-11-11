@@ -1,29 +1,28 @@
-
-[![ページを編集](https://img.shields.io/badge/Edit-blue)](https://github.com/Zechub/zechub/edit/main/site/Zcash_Community/Community_Blogs.md)
+[![Edit Page](https://img.shields.io/badge/Edit-blue)](https://github.com/Zechub/zechub/edit/main/site/Zcash_Community/Community_Blogs.md)
 
 # コミュニティブログ
 
-コミュニティメンバーが、Zcashやプライバシー、暗号通貨および関連するトピックについて多くの優れたブログを運営しています。
+コミュニティメンバーは、Zcash、プライバシー（privacy）、暗号資産、ならびに関連トピックを扱う優れたブログを数多く運営しています。
 
-以下はその中でも活発なブログです：
+現在も活動しているブログの一部をご紹介します。
 
-| ブログ / 著者              | 説明                                              | リンク |
-|----------------------------|--------------------------------------------------|------|
-| How Zcash works            | Zcashの動作モデルを構築する                      | [アクセス ->](https://community.pgpz.org/zec-shelf/how-zcash-works.html#top) |
-| Max Desalle                | Zcashを極める                                    | [アクセス ->](https://maxdesalle.com/mastering-zcash/) |
-| Mike Rosulek               | 暗号学の喜び                                      | [アクセス ->](https://joyofcryptography.com/) |
-| James Katz                 | Zcashとプライバシーに関する個人的な書き込みや考え      | [アクセス ->](https://free2z.cash/James_Katz/) |
-| Thumbs' Update             | エコシステムの定期的なアップデートと洞察            | [アクセス ->](https://thumbsup.substack.com) |
-| roomatemusing              | 考え事やコミュニティコンテンツ                      | [アクセス ->](https://free2z.cash/roommatemusing) |
-| NerdBank Blog              | Zcash開発およびツールに焦点を当てた技術ブログ        | [アクセス ->](https://blog.nerdbank.net/) |
-| ZecMec                     | Medium上でのZcashに特化した記事                   | [アクセス ->](https://zecmec21.medium.com/) |
-| Naomi Brockwell (NBTV)     | プライバシーに関する著名なインタビューおよびコンテンツ | [アクセス ->](https://naomibrockwell.com/highprofileinterviews) |
-| Sqribbles                  | 創造的でコミュニティ主導型のZcashコンテンツ          | [アクセス ->](https://free2z.cash/sqribbles) |
-| Str4d                      | Zcashコア開発者による技術的な書き込み               | [アクセス ->](https://words.str4d.xyz/) |
-| CipherScan Weekly          | Zcashブロックチェーン解析を扱う週次ブログ投稿        | [アクセス ->](https://zecblock.com/) |
-| Zcash Shielded News        | プライバシーおよびエコシステムに関する週次ニュースダイジェスト | [アクセス ->](https://zechub.substack.com/) |
-| ZecHub DAO Blog            | ZecHub DAOコミュニティからの記事および教育コンテンツ  | [アクセス ->](https://zechub.wiki) |
+| ブログ / 著者              | 説明                                                     | リンク |
+|----------------------------|----------------------------------------------------------|------|
+| Zcashの仕組み            | Zcashの動作モデルを構築します                           | [訪問 ->](https://community.pgpz.org/zec-shelf/how-zcash-works.html#top) |
+| Max Desalle                | Zcashを習得します                                        | [訪問 ->](https://maxdesalle.com/mastering-zcash/) |
+| Mike Rosulek               | 暗号学の喜び                                            | [訪問 ->](https://joyofcryptography.com/) |
+| James Katz                 | Zcashとプライバシーに関する個人的な文章と思索      | [訪問 ->](https://free2z.cash/James_Katz/) |
+| Thumbs' Update             | 定期的なエコシステムの更新と洞察                       | [訪問 ->](https://thumbsup.substack.com) |
+| roomatemusing              | 考察およびコミュニティコンテンツ                       | [訪問 ->](https://free2z.cash/roommatemusing) |
+| NerdBank Blog              | Zcashの開発とツール（tools）に焦点を当てた技術ブログ    | [訪問 ->](https://blog.nerdbank.net/) |
+| ZecMec                     | Zcashに焦点を当てたMediumの記事                         | [訪問 ->](https://zecmec21.medium.com/) |
+| Naomi Brockwell (NBTV)     | プライバシーに関する著名なインタビューとコンテンツ       | [訪問 ->](https://naomibrockwell.com/highprofileinterviews) |
+| Sqribbles                  | 創造的でコミュニティ主導のZcashコンテンツ              | [訪問 ->](https://free2z.cash/sqribbles) |
+| Str4d                      | Zcashのコアdeveloperによる技術的な文章                  | [訪問 ->](https://words.str4d.xyz/) |
+| CipherScan Weekly          | Zcashのブロックチェーン（blockchain）分析を扱う週刊ブログ記事    | [訪問 ->](https://zecblock.com/) |
+| Zcash Shielded News        | 週刊のプライバシーおよびエコシステムニュースのダイジェスト                 | [訪問 ->](https://zechub.substack.com/) |
+| ZecHub DAO Blog            | ZecHub DAOコミュニティによる記事と教育コンテンツ | [訪問 ->](https://zechub.wiki) |
 
 ---
 
-以下はコミュニティが投稿したブログです。ご自身のブログ投稿をZecHubで紹介してもらうか、またはこのリストに掲載してもらう場合は、詳細情報を含むプルリクエストを作成してください！
+コミュニティから投稿されたブログをご紹介します。ZecHubにあなたのブログ記事を掲載したい場合や、ご自身のブログをここに追加したい場合は、詳細を添えてプルリクエストを作成してください！

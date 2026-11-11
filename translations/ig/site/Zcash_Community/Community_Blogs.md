@@ -1,28 +1,28 @@
 [![Edit Page](https://img.shields.io/badge/Edit-blue)](https://github.com/Zechub/zechub/edit/main/site/Zcash_Community/Community_Blogs.md)
 
-# Blọọgụ obodo
+# Blọgụ Obodo
 
-Ndị otu obodo na-agba ọtụtụ blọgụ mara mma gbasara Zcash, nzuzo, ego dijitalụ, na isiokwu ndị metụtara ya.
+Ndị otu obodo na-ede ọtụtụ blọgụ magburu onwe ha gbasara Zcash, Nzuzo [privacy], ego mkpụrụ dijitalụ [cryptocurrency], na isiokwu ndị metụtara ya.
 
-Lee ụfọdụ n'ime ndị na-arụ ọrụ:
+Ndị a bụ ụfọdụ ndị ka na-arụ ọrụ:
 
-| Blọọgụ / Onye dere ya              | Nkọwa                                              | Njikọ |
+| Blọgụ / Onye odee          | Nkọwa                                                    | Njikọ |
 |----------------------------|----------------------------------------------------------|------|
-| Otu Zcash si arụ ọrụ            | Mepụta usoro ọrụ nke Zcash                           | [Gaa leta ->](https://community.pgpz.org/zec-shelf/how-zcash-works.html#top) |
-| Max Desalle                | Ịmụta Zcash                                          | [Gaa leta ->](https://maxdesalle.com/mastering-zcash/) |
-| Mike Rosulek               | Ọṅụ nke Cryptography                                  | [Gaa leta ->](https://joyofcryptography.com/) |
-| James Katz                 | Ihe odide na echiche nkeonwe gbasara Zcash na nzuzo      | [Gaa leta ->](https://free2z.cash/James_Katz/) |
-| Mmelite nke Mkpisi Aka             | Mmelite na nghọta gburugburu ebe obibi oge niile                   | [Gaa leta ->](https://thumbsup.substack.com) |
-| ime ụlọ na-atọ ọchị              | Echiche na ihe dị na obodo                            | [Gaa leta ->](https://free2z.cash/roommatemusing) |
-| Blọọgụ NerdBank              | Blọọgụ teknụzụ lekwasịrị anya na mmepe na ngwaọrụ Zcash    | [Gaa leta ->](https://blog.nerdbank.net/) |
-| ZecMec                     | Edemede Zcash-focused na Medium                         | [Gaa leta ->](https://zecmec21.medium.com/) |
-| Naomi Brockwell (NBTV)     | Ajụjụ ọnụ dị elu na ọdịnaya gbasara nzuzo           | [Gaa leta ->](https://naomibrockwell.com/highprofileinterviews) |
-| Sqribbles                  | Ọdịnaya Zcash nke obodo na-emepụta ihe na nke okike              | [Gaa leta ->](https://free2z.cash/sqribbles) |
-| Str4d                      | Ihe odide teknụzụ sitere n'aka onye mmepe Zcash isi             | [Gaa leta ->](https://words.str4d.xyz/) |
-| CipherScan kwa izu          | Ọkwa blọgụ kwa izu na-ekpuchi nyocha Zcash blockchain    | [Gaa leta ->](https://zecblock.com/) |
-| Akụkọ Zcash Ekpuchiri        | Nchịkọta akụkọ nzuzo na gburugburu ebe obibi kwa izu                 | [Gaa leta ->](https://zechub.substack.com/) |
-| Blọọgụ ZecHub DAO            | Edemede na ihe mmụta sitere na obodo ZecHub DAO | [Gaa leta ->](https://zechub.wiki) |
+| Otu Zcash si arụ ọrụ       | Wuo ihe nlereanya na-arụ ọrụ nke Zcash                    | [Gaa leta ->](https://community.pgpz.org/zec-shelf/how-zcash-works.html#top) |
+| Max Desalle                | Ịmụcha Zcash                                              | [Gaa leta ->](https://maxdesalle.com/mastering-zcash/) |
+| Mike Rosulek               | Ọṅụ nke kriptụọgrafi [Cryptography]                      | [Gaa leta ->](https://joyofcryptography.com/) |
+| James Katz                 | Ihe odide na echiche nke onwe gbasara Zcash na Nzuzo    | [Gaa leta ->](https://free2z.cash/James_Katz/) |
+| Mmelite Thumbs             | Mmelite na nghọta oge niile gbasara gburugburu usoro     | [Gaa leta ->](https://thumbsup.substack.com) |
+| roomatemusing              | Echiche na ọdịnaya obodo                                 | [Gaa leta ->](https://free2z.cash/roommatemusing) |
+| Blọgụ NerdBank             | Blọgụ teknụzụ lekwasịrị anya na mmepe Zcash na ngwá ọrụ [tools] | [Gaa leta ->](https://blog.nerdbank.net/) |
+| ZecMec                     | Isiokwu lekwasịrị anya na Zcash gbasara Medium           | [Gaa leta ->](https://zecmec21.medium.com/) |
+| Naomi Brockwell (NBTV)     | Ajụjụ ọnụ na ọdịnaya a ma ama gbasara Nzuzo              | [Gaa leta ->](https://naomibrockwell.com/highprofileinterviews) |
+| Sqribbles                  | Ọdịnaya Zcash nke okike ma obodo na-edu                 | [Gaa leta ->](https://free2z.cash/sqribbles) |
+| Str4d                      | Ihe odide teknụzụ sitere n'aka onye mmepụta [developer] bụ isi nke Zcash | [Gaa leta ->](https://words.str4d.xyz/) |
+| CipherScan Kwa Izu              | Edemede blọgụ kwa izu na-ekpuchi nyocha blockchain nke Zcash | [Gaa leta ->](https://zecblock.com/) |
+| Akụkọ Zcash Nke E Chebere Echebe [Shielded] | Nchịkọta akụkọ kwa izu gbasara Nzuzo na gburugburu usoro | [Gaa leta ->](https://zechub.substack.com/) |
+| Blọgụ DAO nke ZecHub       | Isiokwu na ọdịnaya mmụta sitere n'obodo DAO nke ZecHub    | [Gaa leta ->](https://zechub.wiki) |
 
 ---
 
-Lee ụfọdụ blọgụ ndị obodo tinyere. Ọ bụrụ na ịchọrọ ka ZecHub gosipụta otu n'ime blọgụ gị ma ọ bụ tinye blọgụ nke gị ebe a, biko mepụta arịrịọ ịdọta uche nke nwere nkọwa ndị ahụ!
+Ndị a bụ blọgụ obodo nyefere. Ọ bụrụ na ị chọrọ ka ZecHub gosipụta otu n'ime edemede blọgụ gị ma ọ bụ tinye blọgụ nke gị ebe a, biko mepụta Pull Request nwere nkọwa ndị ahụ!

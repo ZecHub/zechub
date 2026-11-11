@@ -1,50 +1,56 @@
-# Jiri Zcash na Real World
+# Jiri Zcash n’Ụwa N’ezie
 
-Zcash abụghị naanị maka nzuzo na usoro iwu  ọ bụ ihe gbasara ** nnwere onwe ego kwa ụbọchị.
+Zcash abụghị naanị maka Nzuzo [privacy] n’echiche — ọ bụ maka **nnwere onwe ego bara uru kwa ụbọchị**.
 
-Akụkụ a na-egosi gị ** kpọmkwem otu esi eji Zcash n'ọnọdụ ndụ dị adị, yana ntuziaka nzọụkwụ site na usoro kachasị mma.
+Akụkụ a na-egosi gị **otu esi eji Zcash eme ihe n’ọnọdụ ndụ n’ezie**, site na ntuziaka nzọụkwụ site na nzọụkwụ na usoro omume kacha mma.
 
 ## Ihe Ị Ga-amụta
 
-- Otú ị ga-esi chebe ego gị ka ọ ghara imebi
-- Otu esi zere mmejọ ndị a na-ahụkarị nke gosipụtara data gị
-- Etu esi etinye Zcash n'ọnọdụ ụwa dị adị
+- Otu esi echekwa Nzuzo ego gị
+- Otu esi ezere mmejọ ndị a na-ahụkarị nke na-ekpughe data gị
+- Otu esi etinye Zcash n’ọrụ n’ọnọdụ ụwa n’ezie
 
-## Otú E Si Eji Ihe Ndị A Eme Ihe
+## Otu Esi Eji Ntuziaka Ndị A
 
-Akwụkwọ ọ bụla bụ:
-- Nkeji ise ruo asaa .
+Akwụkwọ nduzi ọ bụla bụ:
+- Nke dị mkpirikpi (nkeji 5-7)
 - Nzọụkwụ site na nzọụkwụ
-- E lekwasịrị anya n'ụwa nke dị adị. 
+- Nke lekwasịrị anya n’ụwa n’ezie 
 
 
-Ọ bụrụ na ị bụ onye ọhụrụ, bido ebe a: [Gịnị bụ Zcash?](/start-here/what-is-zec-and-zcash)
+Ọ bụrụ na ị bụ onye ọhụrụ, malite ebe a: [Gịnị bụ Zcash](/start-here/what-is-zec-and-zcash)
 
 
-##  Ụzọ A Na-atụ aro Ya
+##  Ụzọ Akwadoro
 
-Soro njem a site na nzọụkwụ iji nweta njikwa ụwa nke Zcash:
+Soro njem a nke nzọụkwụ site na nzọụkwụ iji mụta nke ọma iji Zcash n’ụwa n’ezie:
 
-###  [Na-anara Onyinye n'Ụzọ Zuru Okè](/zcash-use-cases/receive-donations-privately)
-Mụta otú ị ga-esi na-anata ego n'agwaghị onye ọ bụla banyere onwe gị ma ọ bụ ihe ndị i meworo ná ndụ.
-
-
-###  [Ziga Ego n'Ejighị Ihe Ndị Na-egosi na Ị Bụ Onye A Chọpụtara Achọpụta](/zcash-use-cases/send-money-without-linking-identity) 
-Zere igosipụta obere akpa ego gị, njirimara gị ma ọ bụ ihe osise azụmahịa mgbe ị na-ezipụ ego.
+###  [Nata Onyinye N’enweghị Ikpughe Nzuzo](/zcash-use-cases/receive-donations-privately)
+Mụta otu esi anabata ego na-ekpugheghị njirimara gị ma ọ bụ akụkọ ego gị.
 
 
-###  [Ntọala Nzuzo nke Freelancer](/zcash-use-cases/freelance-privacy-setup)
-A na-akwụ gị ụgwọ n'ụdị Zcash ma hapụ ndị ahịa gị nakwa ego ị na-akpata ka ha ghara ịma.
+###  [Zipu Ego N’enweghị Ịjikọta Ya na Njirimara](/zcash-use-cases/send-money-without-linking-identity) 
+Zere ikpughe e-akpa ego [wallet] gị, njirimara gị, ma ọ bụ graf Azụmahia [transaction] gị mgbe ị na-eziga ego.
 
 
-###  [Ịnabata Ụgwọ Dị Ka Onye Na-ere Ahịa](/zcash-use-cases/accept-payments-as-a-merchant)
-Nabata ịkwụ ụgwọ site na iji adreesị echekwara ma zere ikpughe data azụmahịa ndị ahịa
+###  [Nhazi Nzuzo Maka Onye Ọrụ Nwere Onwe](/zcash-use-cases/freelance-privacy-setup)
+Nata ụgwọ na Zcash ka ị na-edobe ndị ahịa gị na ego ị na-enweta na nzuzo.
 
 
-###  [Na-elekọta Akụ̀ Ndị Dị n'Ụlọ Gị nke Onwe Ya](/zcash-use-cases/private-community-treasury)
-Jiri adreesị echekwara iji jide ego na-ekerịta ma belata visibiliti nke nguzozi na azụmahịa.
+###  [Nabata Kwụọ ụhwọ Dị ka Onye Ahịa](/zcash-use-cases/accept-payments-as-a-merchant)
+Nabata Kwụọ ụhwọ [payment] site n’iji Adreesị akpa ego nke e chebere echebe [shielded address] ma zere ikpughe data Azụmahia ndị ahịa
 
-###  [Ntọala Nzuzo Onye nta akụkọ](/zcash-use-cases/journalist-privacy-setup)   
-Jiri adreesị echedoro maka azụmahịa niile ma chebe isi mmalite site na izere ịkwụ ụgwọ ndị a pụrụ ịchọpụta. jiri nlezianya mee ihe iji nweta nkwukọrịta dị nchebe
+
+###  [Run a Private Community Treasury](/zcash-use-cases/private-community-treasury)
+Jiri Adreesị akpa ego nke e chebere echebe jide ego a na-ekekọrịta ma belata ohere ịhụ balans na Azụmahia
+
+###  [Nabata Onyinye Nzuzo Dị ka Òtù Na-adịghị Erite Uru na US](/zcash-use-cases/accept-private-donations-as-a-us-nonprofit)
+Nabata ZEC nke e chebere echebe dịka 501(c)(3) ma ka na-enye ndị na-enye onyinye risiti na fọm IRS ha chọrọ
+
+###  [Ebe A Ga-enye Onyinye ZEC](/zcash-use-cases/where-to-donate-zec)
+Chọta òtù na-adịghị erite uru ndị na-anabata ZEC, na ndị n’ime ha na-anabata onyinye nke e chebere echebe
+
+###  [Nhazi Nzuzo Maka Onye Odeakụkọ](/zcash-use-cases/journalist-privacy-setup)   
+Jiri Adreesị akpa ego nke e chebere echebe maka Azụmahia niile ma chekwaa ndị isi mmalite site n’izere Kwụọ ụhwọ a pụrụ ịchọpụta. Jiri memo nke ọma maka nkwukọrịta echekwara
 
 <br/>

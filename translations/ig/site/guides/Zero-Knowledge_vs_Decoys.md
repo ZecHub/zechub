@@ -2,11 +2,11 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Sistemụ dabere na ihe ọmụma efu vs Decoy
+# Sistem zero-knowledge [Zero Knowledge] megide Sistem Dabere na Decoy
 
-"Ego dijitalụ na-ekpughe ihe niile ị na-emefu n'ihu ọha ebe ọ bụ na ọ dị ka Twitter na akaụntụ ụlọ akụ gị, nke a bụkwa nnukwu nsogbu nke a ga-edozi site na iji nzuzo nke usoro a." - Ian Miers na [Devcon4](https://youtube.com/watch?v=9s3EbSKDA3o&feature=share9).
+…Cryptocurrency na-ekpughere ọha ihe niile ị na-emefu ebe ọ dị ka Twitter na akaụntụ ụlọ akụ gị, nke a bụkwa nnukwu nsogbu a ga-edozi site n'ịnakwere Nzuzo [privacy] on-chain.… - Ian Miers na [Devcon4](https://youtube.com/watch?v=9s3EbSKDA3o&feature=share9).
 
-Ụfọdụ ọrụ crypto enwetala amara maka ụzọ ha si elekwasị anya na nzuzo. A maara Zcash maka iji Zero Knowledge Proofs (ZK) echebe ọnụọgụ na adreesị azụmahịa. Monero pụtara ìhè maka ojiji nke Decoy-based sender obfuscation yana atụmatụ nzuzo ndị ọzọ iji nweta nzuzo onye ọrụ na blockchain.
+Ụfọdụ ọrụ crypto enwetala amara maka ụzọ ha si etinye Nzuzo n'isi. Zcash bụ onye a ma ama maka iji Zero Knowledge Proofs (ZK) chebe ego Azụmahia [transaction] na Adreesị akpa ego [address]. Monero pụtara ìhè n'ihi iji ya mee ka onye na-ezipụ ego ghara ịmata nke ọma dabere na Decoy, tinyere atụmatụ Nzobe ederede [encryption] ndị ọzọ iji nweta Nzuzo onye ọrụ na blockchain [blockchain].
 
 
 <a href="">
@@ -14,28 +14,28 @@
 </a>
 
 
-## Ịghọta ZK Proofs na Sistemụ Dabere na Decoy
+## Ịghọta ZK Proofs na Sistem Dabere na Decoy
 
-Ihe akaebe ihe ọmụma efu bụ sistemụ nzuzo nke na-enye otu onye (onye akaebe) ohere igosi onye ọzọ (onye nyocha) izi ezi nke nkwupụta na-ekpugheghị *ozi ọ bụla dị n'okpuru gbasara nkwupụta ahụ n'onwe ya*. N'ihe gbasara Zcash, a na-eji ihe akaebe ZK iji chọpụta izi ezi nke azụmahịa na-ekpugheghị nkọwa azụmahịa dịka onye zitere, onye nnata ma ọ bụ ego azụmahịa. 
+Zero Knowledge Proofs bụ sistem cryptographic nke na-enye otu akụkụ (onye na-egosi proof) ohere igosi akụkụ ọzọ (onye na-enyocha ya) na okwu bụ eziokwu n'ekpugheghị *ozi ọ bụla dị n'okpuru banyere okwu ahụ n'onwe ya*. N'ọnọdụ Zcash, a na-eji ZK proofs chọpụta na Azụmahia ziri ezi n'ekpugheghị nkọwa Azụmahia dịka ONYE ZIGARA, ONYE NATABARA, ma ọ bụ EGO Azụmahia. 
 
-**Nke a na-eme ka a hụ na a na-echekwa nzuzo onye ọrụ ka azụmahịa ahụ na-abụ ihe nzuzo ma a ka na-enyocha ya. Emebere teknụzụ a iji hụ na nzuzo nke azụmahịa ego na netwọk Zcash.**
+**Nke a na-eme ka Nzuzo onye ọrụ dịgide, n'ihi na Azụmahia na-anọgide na nzuzo ma a ka na-akwado na ọ ziri ezi. E mepụtara teknụzụ a iji hụ na Azụmahia ego na netwọk Zcash na-adị nzuzo.**
 
-N'ime sistemụ Decoy dịka [RingCT](https://twitter.com/ZecHub/status/1636473585781948416), a na-ejikọta ọtụtụ azụmahịa na-eme ka ọ sie ike ma ọ bụ sie ike ịchọpụta ebe ego si na ebe ego ahụ si. Algọridim ahụ na-ewebata ntinye na mmepụta aghụghọ na azụmahịa yana iji nzuzo nke adreesị eji dị ka ntinye & iji ihe akaebe Range iji gosi na ego e zigara bụ ihe a ga-emefu. 
+Na sistem dabere na Decoy dịka [RingCT](https://twitter.com/ZecHub/status/1636473585781948416), a na-ejikọta ọtụtụ Azụmahia ọnụ, nke na-eme ka ịchọpụta ezigbo ebe ego si na ebe ọ na-aga sie ike. Algorithm ahụ na-etinye input na output Decoy n'ime Azụmahia, ma na-ejikwa Nzobe ederede nke Adreesị akpa ego eji eme input na Range proofs iji kwado na ego ebufere nwere ike imefu. 
 
-Ụzọ a na-egbochi ụzọ azụmahịa. Ojiji nke ntinye aghụghọ na-eme ka ọ sie ike nye onye ọ bụla na-enyocha blockchain ịchọpụta ezigbo onye zitere ya, onye nnata, ma ọ bụ ego azụmahịa. 
+Ụzọ a na-eme ka ụzọ Azụmahia ghara ịdị mfe ịmata. Iji input Decoy na-eme ka ọ sie onye ọ bụla na-enyocha blockchain ike ịchọpụta ezigbo onye zigara, onye natara, ma ọ bụ ego Azụmahia. 
 
-**Ihe Dị Mkpa**: Ụzọ a nke ịchekwa nzuzo n'usoro azụmahịa ka na-ekpughe nke ọma ntinye (ezoro ezo) na azụmahịa ndị ọrụ niile. Enwere ike ịchịkọta metadata dị ka *ỌRỤ N'ỤZỌ AGBANWE* n'etiti ndị ọrụ dị iche iche na netwọk ahụ. Ọ bụrụ na onye mmegide esonye na imepụta azụmahịa na netwọk ahụ, ọ na-ewepụ aha ndị ọrụ ndị ọzọ. 
+**Ihe Dị Mkpa A Ga-Ama**: Usoro a nke ichekwa Nzuzo Azụmahia on-chain ka na-ekpughere input e zoro ezo nke Azụmahia ndị ọrụ niile. A ka nwere ike ịchịkọta metadata dịka *MBUFỤT AZỤMAHIA* n'etiti ndị ọrụ dị iche iche na netwọk. Ọ bụrụ na onye mmegide sonye n'ịmepụta Azụmahia na netwọk, nke ahụ na-eme ka input Decoy nke ndị ọrụ ndị ọzọ ghara inwe aha nzuzo. 
 
 
-## Uru nke Sistemụ Dabere na ZK Over Decoy
+## Uru ZK Nwere Karịa Sistem Dabere na Decoy
 
-Ma Zcash na Monero bụ ego dijitalụ lekwasịrị anya na nzuzo, mana ha na-enweta nzuzo n'ụzọ dị iche iche. 
+Ma Zcash na Monero bụ cryptocurrency lekwasịrị anya na Nzuzo, mana ha na-enweta Nzuzo n'ụzọ dị iche iche. 
 
-Lee ụfọdụ uru nke ihe akaebe efu Zcash's (ZK) karịa sistemụ aghụghọ nke Monero:
+Ndị a bụ ụfọdụ uru zero-knowledge proofs (ZK) nke Zcash nwere karịa sistem Decoy nke Monero:
 
-1) **Ngosipụta Nhọrọ**: Site na atụmatụ Zcash ZK, ndị ọrụ nwere nhọrọ ikpughe nkọwa azụmahịa nye ndị otu akọwapụtara [Gụọ blọgụ ECC na Nkọwapụta Nhọrọ](https://electriccoin.co/blog/viewing-keys-selective-disclosure/)Na Zcash, ihe dị n'ime azụmahịa echekwara na-enye ndị mmadụ ohere ikpughe data site na mbufe kpọmkwem. Na mgbakwunye, enwere ike inye igodo nlele iji kpughee azụmahịa niile metụtara adreesị echekwara kpọmkwem. Njirimara a na-enye ohere maka nnabata iwu na nyocha na-enweghị imebi nzuzo zuru oke nke netwọk ahụ. 
+1) **Mpughe ahọpụtara [Selective Disclosure]**: Site na atụmatụ ZK nke Zcash, ndị ọrụ nwere nhọrọ ikpughere ndị otu kpọmkwem nkọwa Azụmahia [Gụọ ECC blọọgụ gbasara Mpughe ahọpụtara](https://electriccoin.co/blog/viewing-keys-selective-disclosure/). Na Zcash, ọdịnaya e zoro ezo nke Azụmahia nke e chebere echebe na-enye ndị mmadụ ohere ikpughe data sitere na mbufe kpọmkwem n'ụzọ ahọpụtara. Ọzọkwa, enwere ike inye viewing key [viewing key] iji kpughee Azụmahia niile metụtara otu Adreesị akpa ego nke e chebere echebe. Njirimara a na-enye ohere irubere ụkpụrụ iwu isi na inyocha Azụmahia na-emebighị Nzuzo nke netwọk n'ozuzu ya. 
 
-Ọ bụ ezie na algọridim aghụghọ nke Monero (mbinye aka mgbanaka) na-enyere aka n'inye nzuzo, ọ naghị enye *nhọrọ* ngosipụta n'otu ụzọ ahụ.
+Ọ bụ ezie na algorithm Decoy nke Monero (ring signature) na-enyere aka inye Nzuzo, ọ naghị enye *Mpughe ahọpụtara* n'otu ụzọ ahụ.
 
 
 <a href="">
@@ -43,21 +43,21 @@ Lee ụfọdụ uru nke ihe akaebe efu Zcash's (ZK) karịa sistemụ aghụgh�
 </a>
 
 
-2) **Nhọrọ Nhụpụta**: Zcash na-enye ndị ọrụ ohere ịhọrọ n'etiti azụmahịa doro anya (nke na-abụghị nkeonwe) na azụmahịa echekwara (nkeonwe). Nke a na-egosi na Zcash na-enye ndị ọrụ ohere idobe ozi ego ha n'onwe (n'ebe a na-echebe ya) ma ọ bụ mee ka ọ doo anya ma dịrị n'ihu ọha dịka ọtụtụ blockchain ndị ọzọ dịka akọwara na ya [Ebe nrụọrụ weebụ gọọmentị Zcash](https://z.cash/learn/what-is-the-difference-between-shielded-and-transparent-zcash/)Nzuzo a maka nhọrọ na-enye ohere maka mgbanwe ka ukwuu na okwu ojiji azụmaahịa/òtù, ebe ụfọdụ azụmahịa nwere ike ịchọ obere nzuzo maka nyocha ọha, ebe ndị ọzọ na-erite uru site na nchekwa ka mma.
+2) **Nlele Nhọrọ**: Zcash na-enye ndị ọrụ ohere ịhọrọ n'etiti Azụmahia Oha [transparent] (nke na-adịghị na nzuzo) na Azụmahia nke e chebere echebe (nke dị na nzuzo). Nke a pụtara na Zcash na-enye ndị ọrụ mgbanwe ịhọrọ idobe ozi ego ha na nzuzo (nke e chebere echebe) ma ọ bụ ime ka ọ bụrụ Oha ma onye ọ bụla hụ ya, dịka ọtụtụ blockchain ndị ọzọ, dịka akọwara na [Zcash weebụsaịtị gọọmenti](https://z.cash/learn/what-is-the-difference-between-shielded-and-transparent-zcash/). Nzuzo a a na-ahọrọ itinye na-enye mgbanwe ka ukwuu na Ojiji [use case] metụtara azụmahịa/nzukọ, ebe ụfọdụ Azụmahia nwere ike ịchọ Nzuzo dị ntakịrị maka nyocha ọha, ebe ndị ọzọ na-erite uru na Nzuzo ka mma.
 
 
-3) **Nhazi Amaghị Aha**: The [aha njirimara](https://docs.wasabiwallet.io/FAQ/FAQ-UseWasabi.html#what-is-the-difference-between-anonymity-set-and-anonymity-score) nke ọdọ mmiri ihe ọmụma efu nwere ihe niile emerela. Nke a buru ibu karịa ọtụtụ usoro ndị ọzọ dị n'usoro iji nweta njikọ na-enweghị njikọ. Rịba ama: nke a metụtara naanị azụmahịa dị n'ime otu ọdọ mmiri ahụ.
+3) **Ntọala Amaghị Aha**: [ntọala amaghị aha](https://docs.wasabiwallet.io/FAQ/FAQ-UseWasabi.html#what-is-the-difference-between-anonymity-set-and-anonymity-score) nke pool nke e chebere echebe nke zero knowledge nwere Azụmahia niile meworo *mgbe ọ bụla*. Nke a dị ukwuu karịa ọtụtụ usoro on-chain ndị ọzọ maka ime ka Azụmahia bụrụ Ihe na-apughi ijikọ ọnụ [unlinkable]. Rịba ama: nke a na-emetụta naanị Azụmahia dị n'ime otu pool nke e chebere echebe.
 
-Ojiji nke aghụghọ na-eme ka njirimara nzuzo dịkwuo elu. Agbanyeghị, ụzọ a dabere kpamkpam na ọnụọgụgụ *ezigbo* ndị ọrụ na netwọk ahụ. 
+Iji Decoy na-eme ka ntọala amaghị aha bawanye. Agbanyeghị, ụzọ a dabere kpamkpam na ọnụ ọgụgụ ndị ọrụ *ezigbo* nọ na netwọk. 
 
-4) **Enweghị Ntọala A Tụkwasara Obi**: Nhazi Sprout & Sapling Zcash's jiri mgbakọta ọtụtụ mmadụ nke a maara dị ka "ememe ntọala a tụkwasịrị obi". Mmelite NU5 nke na-adịbeghị anya achọghị ntụkwasị obi na iguzosi ike n'ezi ihe nke ntọala sekit ihe ọmụma efu. [Gụọ blọgụ ECC na NU5](https://electriccoin.co/blog/nu5-activates-on-mainnet-eliminating-trusted-setup-and-launching-a-new-era-for-zcash/).
+4) **Enweghị Trusted Setup**: Setup nke Zcash Sprout na Sapling jiri mgbakọ ọtụtụ akụkụ a maara dịka …emume trusted setup [trusted setup]…. Nkwalite NU5 ọhụrụ achọghị ntụkwasị obi ọ bụla n'ịdị mma nke setup circuit zero knowledge. [Gụọ ECC blọọgụ gbasara NU5](https://electriccoin.co/blog/nu5-activates-on-mainnet-eliminating-trusted-setup-and-launching-a-new-era-for-zcash/).
 
-5) **Nzuzo Data**: Nke [teknụzụ zk-SNARK](https://zechub.wiki/zcash-tech/zk-snarks) eji ya na ọdọ mmiri ndị e ji kpuchie Zcash's na-enye ohere maka nchekwa dị ukwuu maka ndị ọrụ. Mbelata ntapụ metadata na-apụta na ndị ọrụ nwere nchebe pụọ n'aka ndị iro dịka ndị nwere ike ịghọgbu ndị ọzọ ma ọ bụ ndị otu steeti na-emegbu. 
+5) **Nzuzo Data**: Teknụzụ [zk-SNARK](https://zechub.wiki/zcash-tech/zk-snarks) eji na pool nke e chebere echebe nke Zcash na-enye nchekwa ka mma nke ukwuu maka ndị ọrụ. Mbelata mwepụta metadata on-chain pụtara na ndị ọrụ nọ na nchekwa pụọ n'aka ndị mmegide dịka ndị ohi kọmputa nwere ike ịdị ma ọ bụ òtù ọchịchị na-emegbu mmadụ. 
 
-E nwere ọtụtụ ihe atụ ebe achọpụtara njehie na algọridim nhọrọ decoy nke Monero. Nsogbu ndị a nwere ike ikpughe mmefu ndị ọrụ dịka akụkọ si kwuo [CoinDesk](https://coindesk.com/markets/2021/07/27/bug-found-in-decoy-algorithm-for-privacy-coin-monero). 
+E nwere ọtụtụ ọnọdụ ebe achọpụtara ntụpọ n'ime algorithm ịhọrọ Decoy nke Monero. Ntụpọ ndị a nwere ike ikpughe ego ndị ọrụ mefuru, dịka akụkọ sitere na [CoinDesk](https://coindesk.com/markets/2021/07/27/bug-found-in-decoy-algorithm-for-privacy-coin-monero) siri kwuo. 
 
 
-Na nchịkọta, ihe kacha mkpa bụ ibelata ma ọ bụ wepụ mmịpụta nke ozi na data onye ọrụ dịka Zooko kọwara na [Oge ndụ nke Orchid (priv8) AMA](https://youtube.com/watch?v=XpRzKqEfpP4&feature=share9) 
+Na nchịkọta, ihe kacha mkpa bụ ibelata ma ọ bụ iwepụ mwepụta ozi na data onye ọrụ, dịka Zooko kọwara na nnọkọ AMA dị ndụ [Orchid (priv8)](https://youtube.com/watch?v=XpRzKqEfpP4&feature=share9) 
 
 
 <a href="">
@@ -67,7 +67,7 @@ Na nchịkọta, ihe kacha mkpa bụ ibelata ma ọ bụ wepụ mmịpụta nke 
 
 ____
 
-***Njikọ ntụaka***
+***Njikọ Ntụtụaka***
 
 https://z.cash/learn/
 
@@ -83,6 +83,3 @@ https://electriccoin.co/blog/zcash-evolution/
 
 https://web.archive.org/web/20240327000137/https://electriccoin.co/zcash-metrics/
 https://electriccoin.co/blog/viewing-keys-selective-disclosure/
-
-
-

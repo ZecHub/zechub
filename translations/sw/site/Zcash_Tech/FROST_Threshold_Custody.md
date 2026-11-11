@@ -2,157 +2,157 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# FROST & Kiwango cha Kuweka kwa ZEC Shielded
+# FROST & Uhifadhi wa Kizingiti kwa ZEC za Faragha
 
-> Kwa maelezo kamili ya cryptographic wa itifaki FROST, angalia makala. [Ukurasa wa kiufundi FROST](FROST.md).
+> Kwa maelezo kamili ya kisiri ya protokali ya FROST, tazama ukurasa wa kiufundi wa [FROST](FROST.md).
 
-Ulinzi wa kizingiti cha FROST unaendelea kuja katika mazungumzo ya Zcash  ilikuwa wimbo bora kwenye ZecHub Hackathon 2026  lakini dhana hiyo haijaelezewa kila wakati kwa lugha rahisi. Ukurasa huu unashughulikia inamaanisha nini, unapohitaji kweli, biashara-offs, na ni zana zipi zinaunga mkono leo.
-
----
-
-## TL;DR
-
-- ** FROST** inaruhusu kundi la wamiliki wa ufunguo kudhibiti pamoja anwani ya Zcash iliyohifadhiwa bila mtu yeyote mmoja anayemiliki kitufe cha kibinafsi kamili.
-- Kiwango cha **t-ya n** kinamaanisha: watu t lazima watumie saini kutumia; yoyote ya 1 au chini haiwezi kuhamisha fedha peke yake.
-- Shughuli kuangalia kama yoyote nyingine kulindwa shughuli  hakuna on-mnyororo alama ya kuashiria kwamba kizingiti kusaini ilitumika.
-- Hii ni tofauti kabisa na wazi multisig (ambayo ni ya umma kwenye mnyororo na Zcash kwa muda mrefu imekuwa ikiunga mkono)  FROST inafanya kazi ndani ya dimbwi la kulindwa.
-- Ni muhimu kwa DAOs, kubadilishana, huduma za uhifadhi wa mali, akiba ya pamoja na hazina timu  popote hatua moja kuu kushindwa ni kukubalika.
+Uhifadhi wa kizingiti wa FROST hujitokeza mara kwa mara katika mazungumzo ya Zcash — ulikuwa mkondo mkuu katika Hackathon ya ZecHub 2026 — lakini dhana hii haielezwi kila mara kwa lugha rahisi. Ukurasa huu unaeleza maana yake, wakati unapouhitaji kweli, manufaa na hasara zake, na vifaa vinavyouhimili leo.
 
 ---
 
-## FROST ni nini katika lugha ya kawaida?
+## Kwa Ufupi
 
-Fikiria washirika watatu wa biashara kila kushikilia kipande cha ufunguo. Kutumia kutoka mkoba wao pamoja, yoyote mbili ya tatu lazima kukubaliana na co-kutia saini. shughuli yanayotokana inaonekana sawa kwa mtu binafsi kawaida kutuma  hakuna mtazamaji anaweza kusema kutokana blockchain kwamba watu wengi walikuwa kushiriki.
-
-FROST (**Flexible Round-Optimized Schnorr Threshold Signatures**) is the cryptographic protocol that makes this possible for shielded Zcash. It was created by Chelsea Komlo (University of Waterloo / Zcash Foundation) and Ian Goldberg.
-
-Mali muhimu:
-
-- **Threshold**: only t-of-n signers need to participate (e.g. 2-of-3, 3-of-5)
-- ** Shielded**: kazi ndani ya Orchard faragha pool  kiasi, mtumaji na mpokeaji kukaa binafsi
-- ** Haiwezi kutofautishwa**: saini ya mwisho inaonekana kama shughuli nyingine yoyote iliyohifadhiwa na Zcash.
-- **Non-matayarisho**: hakuna chama moja milele ana ufunguo kamili  hata mratibu
+- **FROST** huruhusu kundi la wamiliki wa funguo kudhibiti kwa pamoja anwani ya Zcash ya faragha bila mtu mmoja kushikilia ufunguo kamili wa faragha.
+- Kizingiti cha **t-kati-ya-n** kinamaanisha: watu t lazima watie sahihi pamoja ili kutumia; watu t-1 au wachache hawawezi kuhamisha fedha peke yao.
+- Miamala huonekana kama muamala mwingine wowote wa faragha — hakuna alama on-chain inayoonyesha kwamba utiaji sahihi wa kizingiti ulitumika.
+- Hii ni tofauti kimsingi na multisig ya uwazi (ambayo ni ya umma on-chain na Zcash imehimili kwa muda mrefu) — FROST hufanya kazi ndani ya bwawa la faragha.
+- Ni muhimu kwa DAO, masoko ya kubadilishana sarafu, huduma za uhifadhi, akiba za pamoja, na hazina za timu — mahali popote ambapo hitilafu ya ufunguo mmoja haikubaliki.
 
 ---
 
-## Ni wakati gani unapaswa kutumia haki ya kulea watoto?
+## FROST ni nini kwa lugha rahisi?
 
-Kiwango cha kuhifadhi ina maana wakati ** kupoteza ufunguo mmoja au mtu mmoja haipaswi kumaanisha kupoteza fedha**.
+Fikiria washirika watatu wa biashara ambao kila mmoja anashikilia sehemu ya ufunguo. Ili kutumia kutoka kwenye pochi yao ya pamoja, wawili wowote kati ya hao watatu lazima wakubaliane na watie sahihi pamoja. Muamala unaotokana huonekana sawa kabisa na utumaji wa kawaida wa mtu binafsi — hakuna mtazamaji anayeweza kutambua kutoka kwenye blockchain kwamba watu wengi walihusika.
 
-| Hali | Kwa nini utunzaji wa kizingiti husaidia |
+FROST (**Sahihi za Kizingiti za Schnorr Zilizoboreshwa kwa Mizunguko na Zinazonyumbulika**) ni protokali ya kisiri inayowezesha hili kwa Zcash za faragha. Iliundwa na Chelsea Komlo (Chuo Kikuu cha Waterloo / Zcash Foundation) na Ian Goldberg.
+
+Sifa kuu:
+
+- **Kizingiti**: watiaji sahihi t-kati-ya-n pekee wanahitaji kushiriki (kwa mfano, 2-kati-ya-3, 3-kati-ya-5)
+- **Ya faragha**: hufanya kazi ndani ya bwawa la faragha la Orchard — kiasi, mtumaji na mpokeaji hubaki siri
+- **Isiyotofautishika**: sahihi ya mwisho huonekana kama muamala mwingine wowote wa Zcash wa faragha
+- **Isiyohifadhiwa na mtu mwingine**: hakuna mhusika mmoja anayewahi kushikilia ufunguo kamili — hata mratibu
+
+---
+
+## Ni lini unapaswa kutumia uhifadhi wa kizingiti?
+
+Uhifadhi wa kizingiti unafaa wakati **kupoteza ufunguo mmoja au mtu mmoja hakupaswi kumaanisha kupoteza fedha**.
+
+| Hali | Kwa nini uhifadhi wa kizingiti husaidia |
 |-----------|----------------------------|
-| **DAO au hazina ya timu** | Hakuna msimamizi mmoja anayeweza kutoa pesa peke yake; inahitaji makubaliano |
-| **Mbadilishaji au mlinzi** | Husambaza hatari kuu katika maeneo ya usalama au wafanyakazi |
-| **Hifadhi ya kibinafsi ya baridi (pamoja na familia inayoaminika)** | 2 kati ya 3 kati yenu + wanafamilia wawili — kufa au kupoteza ufikiaji, fedha hazipotei |
-| **Escrow** | Mnunuzi, muuzaji, na msuluhishi kila mmoja ana hisa; fedha hutolewa wakati wawili wanapokubaliana |
-| **Utoaji wa ruzuku yenye thamani kubwa** | ZCG-style: unahitaji watia saini wengi huru kabla ya kulipa |
-| **Usimamizi wa ufunguo wa msanidi programu** | Zuia tishio la ndani - hakuna mhandisi hata mmoja anayeweza kuondoa mfuko wa itifaki |
+| **DAO au hazina ya timu** | Hakuna msimamizi mmoja anayeweza kuondoa fedha peke yake; huhitaji makubaliano |
+| **Soko la kubadilishana sarafu au mhifadhi** | Husambaza hatari ya ufunguo katika maeneo ya usalama au kati ya wafanyakazi |
+| **Hifadhi binafsi ya baridi (pamoja na familia inayoaminika)** | 2-kati-ya-3 kati yako na wanafamilia wawili — ukifa au kupoteza ufikiaji, fedha hazipotei |
+| **Escrow** | Mnunuzi, muuzaji na mwamuzi kila mmoja hushikilia sehemu; fedha hutolewa wawili wanapokubaliana |
+| **Utoaji wa ruzuku wa thamani kubwa** | Mtindo wa ZCG: huhitaji watiaji sahihi wengi huru kabla ya kulipa |
+| **Usimamizi wa funguo za wasanidi programu** | Huzuia tishio la ndani — hakuna mhandisi mmoja anayeweza kuondoa fedha za protokali |
 
-Labda ** hauitaji** uhifadhi wa kizingiti kwa mkoba wa kibinafsi unaodhibiti peke yako, kiasi kidogo, au hali ambapo usimamizi ulioongezwa juu ya gharama huzidi kupunguza hatari.
+Huenda **huhitaji** uhifadhi wa kizingiti kwa pochi binafsi unayoidhibiti peke yako, kiasi kidogo, au hali ambazo uratibu wa ziada unazidi manufaa ya kupunguza hatari.
 
 ---
 
-## Inatofautianaje na ishara nyingi zenye kuonekana wazi?
+## Inatofautianaje na multisig ya uwazi?
 
-Zcash kwa muda mrefu imekuwa ikiunga mkono ishara nyingi za uwazi  funguo kadhaa zinazohitajika kutumia kutoka anwani ya t. Lakini saini nyeti ina gharama kubwa ya faragha: ** muundo wa saini, ufunguo wote wa umma na wasaini wote wanaonekana kwenye blockchain**.
+Zcash imehimili kwa muda mrefu multisig ya uwazi — funguo nyingi zinazohitajika kutumia kutoka kwenye t-anwani. Lakini multisig ya uwazi ina gharama kubwa ya faragha: **muundo wa multisig, funguo zote za umma, na watiaji sahihi wote huonekana kwenye blockchain**.
 
-FROST hutatua hili kwa kufanya kazi ndani ya bwawa la ulinzi:
+FROST hutatua hili kwa kufanya kazi ndani ya bwawa la faragha:
 
-| | Ishara nyingi za uwazi | Kizingiti cha FROST (kilichofunikwa) |
+| | Multisig ya uwazi [transparent] | Kizingiti cha FROST (cha faragha [shielded]) |
 |--|---------------------|--------------------------|
-| Bwawa la kuogelea | Uwazi (umma) | Orchard (iliyofunikwa) |
-| Wasaini wanaonekana kwenye mnyororo | Ndiyo — funguo zote za umma zimefichuliwa | Hapana — haitofautiani na matumizi ya mtu mmoja aliyesaini |
-| Kiasi kinachoonekana | Ndiyo | No |
-| Uratibu unahitajika | Hati ya mnyororo | Duru ya mawasiliano nje ya mnyororo |
-| Faragha | Hakuna | Faragha iliyolindwa kikamilifu |
+| Bwawa [pool] | Ya uwazi (hadharani) | Orchard (ya faragha) |
+| Watia sahihi wanaoonekana on-chain | Ndiyo — funguo zote za umma zimefichuliwa | Hapana — haiwezi kutofautishwa na matumizi ya mtia sahihi mmoja |
+| Kiasi kinachoonekana | Ndiyo | Hapana |
+| Uratibu unaohitajika | Script on-chain | Mzunguko wa mawasiliano off-chain |
+| Faragha [privacy] | Hakuna | Faragha kamili ya miamala ya faragha |
 
 ---
 
-## Mabadilishano na vizuizi
+## Manufaa na hasara pamoja na vikwazo
 
-FROST ni nguvu, lakini inakuja na biashara halisi-offs unapaswa kuelewa kabla ya kutumia:
+FROST ina nguvu, lakini ina manufaa na hasara halisi unazopaswa kuelewa kabla ya kuitumia:
 
-### Ushirikiano juu ya gharama za nje
-Signers lazima kuwa online wakati huo huo (au karibu hivyo) kukamilisha kusaini raundi. Kama t signers yako ni kuenea katika maeneo ya muda au uhusiano unreliable, matumizi inahitaji uratibu kwamba mkoba solo haina.
+### Mzigo wa uratibu
+Watiaji sahihi lazima wawe mtandaoni kwa wakati mmoja (au karibu hivyo) ili kukamilisha mzunguko wa utiaji sahihi. Ikiwa watiaji wako sahihi t wamesambaa katika kanda za saa au wana miunganisho isiyotegemewa, matumizi yanahitaji uratibu ambao pochi ya mtu mmoja haihitaji.
 
-### Hakuna kusaini kama quorum haipatikani
-Kama kutosha keyholders ni unaopatikana (mgonjwa, kusafiri, unresponsive), fedha ni muda usioweza kutumika. Chagua kizingiti yako na kushiriki hesabu kwa makini  2-ya-3 ni zaidi ya kuhimili kuliko 2-ya-2.
+### Hakuna utiaji sahihi ikiwa akidi haipatikani
+Ikiwa wamiliki wa funguo wa kutosha hawapatikani (wagonjwa, wanasafiri, hawajibu), fedha haziwezi kutumika kwa muda. Chagua kizingiti chako na idadi ya sehemu kwa uangalifu — 2-kati-ya-3 ina ustahimilivu zaidi kuliko 2-kati-ya-2.
 
-### Sherehe ya kizazi cha ufunguo
-Kuanzisha FROST inahitaji kusambazwa muhimu kizazi (DKG) sherehe ambapo washiriki wote n ni online pamoja. Hii ni tukio moja, lakini lazima kufanyika kwa makini  kama washiriki wanahatarishwa wakati DKG, usalama umeharibiwa.
+### Sherehe ya uundaji wa funguo
+Kusanidi FROST kunahitaji sherehe ya uundaji wa funguo uliosambazwa (DKG) ambapo washiriki wote n wako mtandaoni pamoja. Hili ni tukio la mara moja, lakini lazima lifanywe kwa uangalifu — ikiwa washiriki wataathiriwa wakati wa DKG, usalama hudhoofishwa.
 
-### Vifaa vya kazi bado vinaendelea kukomaa.
-FROST kwa Zcash ulinzi ni mpya. IETF kiwango (rasimu-irtf-cfrg-baridi) ni kukomaa, lakini mkoba ushirikiano ni mdogo. Kutarajia baadhi makali mbaya ikilinganishwa na standard moja muhimu mfuko wa fedha.
+### Vifaa bado vinakomaa
+FROST kwa Zcash za faragha ni mpya kwa kiasi. Kiwango cha IETF (draft-irtf-cfrg-frost) kimekomaa, lakini ujumuishaji wa pochi ni mdogo. Tarajia changamoto fulani ikilinganishwa na pochi ya kawaida ya ufunguo mmoja.
 
-### Ugumu wa kufufua
-Kupoteza shard si mwisho wa dunia (hiyo ni hatua ya kizingiti), lakini mipango ahueni lazima kumbukumbu mapema. Nani ana backups? Nini kinatokea kama vipande mbili kupotea wakati huo huo? Je, kuna mtu yeyote ambaye anaweza kufanya Backup kwa ajili yake mwenyewe na kupata data kutoka kwenye kompyuta yako?
+### Utata wa urejeshaji
+Kupoteza sehemu si mwisho wa dunia (hiyo ndiyo hoja ya kizingiti), lakini mipango ya urejeshaji lazima iandikwe mapema. Nani anashikilia nakala za akiba? Nini hutokea ikiwa sehemu mbili zitapotea kwa wakati mmoja?
 
 ---
 
-## Nani ni kujenga na FROST juu ya Zcash?
+## Ni nani anayejenga kwa kutumia FROST kwenye Zcash?
 
-### Zcash Foundation  frost.zfnd.org
-Zcash Foundation imewasilisha uanzishaji wa kazi ya FROST na tovuti ya onyesho. Hii ni utekelezaji wa kumbukumbu uliotumiwa kwa upimaji na maendeleo.
+### Zcash Foundation — frost.zfnd.org
+Zcash Foundation imetoa utekelezaji unaofanya kazi wa FROST na tovuti ya majaribio. Huu ni utekelezaji rejeleo unaotumika kwa majaribio na maendeleo.
 
-### Ywallet FROST Demo
-Ywallet alikuwa mapema FROST demo ushirikiano, kutembea kwa njia ya katika [Ywallet FROST Demo mwongozo](/guides/Ywallet_FROST_Demo). Ywallet ni tena iimarishwe na haitakuwa updated kwa Ironwood, hivyo kusoma mwongozo kama background badala ya kitu cha kukimbia leo. Zkool, kutoka developer huo, ni mrithi kudumishwa na orodha FROST multisig kati ya makala yake.
+### Onyesho la Ywallet FROST
+Ywallet ilikuwa na ujumuishaji wa awali wa onyesho la FROST, ulioelezwa katika Mwongozo wa Onyesho la [Ywallet FROST](/guides/Ywallet_FROST_Demo). Ywallet haitunzwa tena na haitasasishwa kwa Ironwood, kwa hiyo soma mwongozo huu kama maelezo ya usuli badala ya kitu cha kuendesha leo. Zkool, kutoka kwa msanidi programu huyo huyo, ndiyo mrithi unaotunzwa na huorodhesha multisig ya FROST miongoni mwa vipengele vyake.
 
-### ZecHub Hackathon 2026  Miradi ya Barabara za FROST
+### Hackathon ya ZecHub 2026 — Miradi ya Mkondo wa FROST
 
-Uwanja wa FROST ulikuwa na ushindani mkubwa katika ZecHub Hackathon 2026. Miradi mashuhuri:
+Mkondo wa FROST ulikuwa wenye ushindani mkubwa zaidi katika Hackathon ya ZecHub 2026. Miradi inayojulikana:
 
-- ** ZecVault**  2-ya-3 kulindwa escrow iliyotatuliwa kwenye mainnet (kiwango cha FROST)
-- ** Msimamizi**  kizingiti cha ulinzi kwa Zcash iliyohifadhiwa na UX inayoelekezwa kwenye urejeshaji.
+- **ZecVault** — escrow ya faragha ya 2-kati-ya-3 iliyokamilishwa kwenye mainnet (kizingiti cha FROST)
+- **Steward** — uhifadhi wa kizingiti kwa Zcash za faragha wenye UX inayolenga urejeshaji
 
 ### Coinbase
-Coinbase kujengwa uzalishaji FROST utekelezaji kwa mifumo yao ya saini kizingiti (kwa Bitcoin), na marekebisho ambayo kuondoa hatua preprocessing na kusambaza aggregator jukumu kati ya washiriki wote. uzoefu wao inathibitisha Frost usalama mfano katika kiwango cha uzalishi.
+Coinbase ilijenga utekelezaji wa FROST wa uzalishaji kwa mifumo yao ya utiaji sahihi wa kizingiti (kwa Bitcoin), ukiwa na marekebisho yanayoondoa hatua ya uchakataji awali na kusambaza jukumu la mkusanyaji miongoni mwa washiriki wote. Uzoefu wao unathibitisha muundo wa usalama wa FROST katika kiwango cha uzalishaji.
 
 ---
 
-## Jinsi kikao cha ishara kinavyofanya kazi (kiliyorahisishwa)
+## Jinsi kipindi cha utiaji sahihi kinavyofanya kazi (kwa ufupi)
 
-1. ** Kuweka (mara moja):** Washiriki wote n kukimbia kusambazwa muhimu kizazi (DKG) sherehe. Kila anapata binafsi Shard; umegawanyika ufunguo wa umma ni inayotokana na hakuna chama anajua kamili ya siri.
+1. **Usanidi (mara moja):** Washiriki wote n huendesha sherehe ya uundaji wa funguo uliosambazwa (DKG). Kila mmoja hupata sehemu binafsi; ufunguo wa umma wa pamoja hutolewa. Hakuna mhusika anayejua ufunguo kamili wa faragha.
 
-2. ** Kuratibu wa saini:** Wakati matumizi inahitajika, mratibu (ambaye anaweza kuwa mmoja wa wasaini) hukusanya ahadi kutoka kwa washiriki ambao wako tayari kusaini.
+2. **Ratibu watiaji sahihi:** Matumizi yanapohitajika, mratibu (ambaye anaweza kuwa mmoja wa watiaji sahihi) hukusanya commitment kutoka kwa washiriki t walio tayari kutia sahihi.
 
-3. **Round 1:** Kila saini kushiriki inazalisha nonce na matangazo ya ahadi (umma, si nyeti).
+3. **Mzunguko wa 1:** Kila mtiaji sahihi anayeshiriki hutengeneza nonce na kutangaza commitment (ya umma, isiyo nyeti).
 
-4. ** raundi ya 2:** Kila saini kushiriki mahesabu yao sehemu sahihi kwa kutumia shard zao binafsi na matangazo yake.
+4. **Mzunguko wa 2:** Kila mtiaji sahihi anayeshiriki hukokotoa sahihi yake sehemu kwa kutumia sehemu yake binafsi na kuitangaza.
 
-5. ** Jumla:** Mratibu huunganisha saini za sehemu katika moja ya mwisho Schnorr signature  indistinguishable on-mnyororo kutoka kwa saini single-party.
+5. **Ujumuishaji:** Mratibu huunganisha sahihi t za sehemu kuwa sahihi moja ya mwisho ya Schnorr — isiyotofautishika on-chain na sahihi ya mhusika mmoja.
 
-6. ** Broadcast:** shughuli ni matangazo kwa mtandao Zcash kama kawaida.
+6. **Utangazaji:** Muamala hutangazwa kwa mtandao wa Zcash kama kawaida.
 
-Kama signature yoyote hutuma sahihi mbaya sehemu, itifaki huwatambua na mimba (wao ni kutengwa kutoka vikao baadaye). uratibu kinachotokea nje ya mnyororo  blockchain anaona tu shughuli mwisho.
+Ikiwa mtiaji sahihi yeyote atatuma sahihi mbaya ya sehemu, protokali humtambua na kusitisha shughuli (hutengwa katika vipindi vya baadaye). Uratibu hufanyika off-chain — blockchain huona muamala wa mwisho pekee.
 
 ---
 
-## Kuchagua vigezo yako kizingiti
+## Kuchagua vigezo vyako vya kizingiti
 
 | Usanidi | Ustahimilivu | Hatari |
 |-------|-----------|------|
-| 1-of-1 | Hakuna ustahimilivu — sehemu moja ya kushindwa | Hasara ya ufunguo = hasara ya kudumu |
-| 2-of-2 | Lazima uwe na watia saini wote wawili — hakuna uvumilivu wa makosa | Moja haipatikani = fedha zilizogandishwa |
-| 2-of-3 | Kipande kimoja kinaweza kupotea au kutopatikana | Kiwango cha chini cha usalama kuliko 3 kati ya 5 |
-| 3-of-5 | Vipande viwili vinaweza kupotea; usalama imara | Uratibu zaidi wa gharama za uendeshaji |
-| 3-of-7 | Daraja la kitaasisi; huvumilia kushindwa mara mbili | Gharama kubwa ya uratibu |
+| 1-kati-ya-1 | Hakuna ustahimilivu — sehemu moja ya kushindwa | Kupoteza ufunguo = kupoteza kudumu |
+| 2-kati-ya-2 | Lazima uwe na watiaji sahihi wote wawili — hakuna ustahimilivu wa hitilafu | Mmoja asipopatikana = fedha zimegandishwa |
+| 2-kati-ya-3 | Sehemu moja inaweza kupotea au kutopatikana | Upeo mdogo wa usalama kuliko 3-kati-ya-5 |
+| 3-kati-ya-5 | Sehemu mbili zinaweza kupotea; usalama imara | Mzigo mkubwa zaidi wa uratibu |
+| 3-kati-ya-7 | Kiwango cha taasisi; huvumilia hitilafu mbili | Gharama kubwa ya uratibu |
 
-hatua ya kuanzia vitendo kwa timu zaidi: ** 2-ya-3** (kuweza kukabiliana, ushirikiano mdogo) au ** 3-ya-5** (taasisi, usalama wa juu).
+Mwanzo wa vitendo kwa timu nyingi: **2-kati-ya-3** (ustahimilivu, uratibu mdogo) au **3-kati-ya-5** (wa taasisi, usalama wa juu zaidi).
 
 ---
 
 ## Kurasa Zinazohusiana
 
-- [FROST  Ufundi wa Kuzama kwa Kina](FROST.md)  maelezo ya usiri wa itifaki (DKG, saini raundi, uthibitisho usalama)
-- [Ywallet FROST Demo Mwongozo](/guides/Ywallet_FROST_Demo)  background, Ywallet ni tena iimarishwe
-- [Kuangalia funguo za kuvinjari](Viewing_Keys.md)  kusoma tu kupata anwani za ulinzi (mchanganyiko wa kuhifadhi kizingiti)
-- [Zcash Shielded Mali za fedha](Zcash_Shielded_Assets.md)  FROST pia ni muhimu miundombinu kwa ajili ya ZSA utoaji
+- [FROST — Ufafanuzi wa Kina wa Kiufundi](FROST.md) — maelezo ya kisiri ya protokali (DKG, mizunguko ya utiaji sahihi, mathibitisho ya usalama)
+- [Ywallet Mwongozo wa Onyesho la FROST](/guides/Ywallet_FROST_Demo) — maelezo ya usuli, Ywallet haitunzwa tena
+- [Funguo za kutazama](Viewing_Keys.md) — ufikiaji wa kusoma pekee kwa anwani za faragha (unaokamilisha uhifadhi wa kizingiti)
+- [Mali za Faragha za Zcash](Zcash_Shielded_Assets.md) — FROST pia ni miundombinu muhimu kwa utoaji wa ZSA
 
 ## Rasilimali
 
-- [Karatasi ya utafiti wa FROST (Komlo & Goldberg, 2020)](https://eprint.iacr.org/2020/852.pdf)
-- [IETF FROST rasimu ya kiwango (rasimu-irtf-cfrg-frozen)](https://datatracker.ietf.org/doc/draft-irtf-cfrg-frost/)
-- [Zcash Foundation FROST utekelezaji](https://frost.zfnd.org)
-- [Chelsea Komlo  Nini ni Saini ya Kiwango cha Threshold? (Zcon3)](https://youtu.be/cAfTTfblzoU?t=110)
-- [Coinbase  Threshold Digital Signatures (Signature za Kijitabu cha Simu ya Mlango)](https://www.coinbase.com/blog/threshold-digital-signatures)
-- [ROAST  imara Async Schnorr Threshold Signatures (Blockstream)](https://eprint.iacr.org/2022/550.pdf)
+- [Karatasi ya utafiti ya FROST (Komlo & Goldberg, 2020)](https://eprint.iacr.org/2020/852.pdf)
+- [Kiwango rasimu cha IETF FROST (draft-irtf-cfrg-frost)](https://datatracker.ietf.org/doc/draft-irtf-cfrg-frost/)
+- [Utekelezaji wa Zcash Foundation FROST](https://frost.zfnd.org)
+- [Chelsea Komlo — Sahihi za Kizingiti ni Nini? (Zcon3)](https://youtu.be/cAfTTfblzoU?t=110)
+- [Coinbase — Sahihi za Kidijitali za Kizingiti](https://www.coinbase.com/blog/threshold-digital-signatures)
+- [ROAST — Sahihi za Kizingiti za Schnorr Imara na Asinkroni (Blockstream)](https://eprint.iacr.org/2022/550.pdf)

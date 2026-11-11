@@ -4,7 +4,7 @@
 
 ## TL;DR
 
-- Bere nyinaa fi **address a wɔabɔ ho ban** so mena.
+- Bere nyinaa fi **address a wɔabɔ ho ban** so mena
 - Kwati direct t to t nkitahodi ahorow
 - Break linkability a ɛda identities ntam
 - Ma w’adwene nkɔ bere ne nhwɛso ahorow so
@@ -82,7 +82,7 @@ Afotu a ɛkɔ akyiri:
 - Sɛ wode address ahorow a ɛda adi pefee so mena tẽẽ 
 - Address ahorow a wɔsan de di dwuma wɔ nnipa pii mu 
 - Nnwuma a wɔasi so dua wɔ baguam 
-- Metadata a wobu ani gu so (bere, mpɛn dodow) .
+- Metadata a wobu ani gu so (bere, mpɛn dodow)
 
 <br/>
 
@@ -96,7 +96,7 @@ Wobɛtumi:
 <br/>
 
 ## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="chain-links icon"/> Related
-- [Kokoamsɛm - Shielded vs Transparent](/zcash-tech/what-a-block-explorer-can-see)
+- [Nea Block Explorer Betumi Ahu](/zcash-tech/what-a-block-explorer-can-see)
 
 <br/>
 

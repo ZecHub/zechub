@@ -4,127 +4,145 @@
 
 # Halo
 
+## TL;DR
 
-## Dɛn ne Halo?
+Halo yɛ ahotosoɔ, recursive zero-knowledge proof (ZKP) system a Sean Bowe hunuu wɔ Electric Coin Co. Ɛyi hia a ɛhia sɛ wɔde ahotosoɔ nhyehyɛeɛ fi hɔ na ɛma recursive proof composition yɛ adwuma, a ɛyɛ Zcash's mprempren scalability ne ahobanbɔ kwankyerɛ no fapem.
 
-Halo yɛ ahotoso, recursive zero-nimdeɛ adanse (ZKP) a Sean Bowe hui wɔ Electric Coin Co. Ɛyi nhyehyɛe a wogye di no fi hɔ na ɛma kwan ma Zcash blockchain no scalability kɛse. Halo yɛ zero-nimdeɛ adanseɛ nhyehyɛeɛ a ɛdi kan a ɛyɛ adwuma yie & recursive a wɔbu no kɛseɛ sɛ nyansahu mu nkɔsoɔ.
+- **Nea ɛyɛ:** zk-SNARK adansi a ɛwɔ recursion a etu mpɔn na enni nhyehyɛe guasodeyɛ a wogye di.
+- **Nea enti a ɛho hia:** Zcash's Orchard shielded pool, a wɔde NU5 yɛɛ adwuma wɔ afe 2022 mu no, tu mmirika wɔ Halo 2 — nhwehwɛmu yi a wɔde di dwuma no so.
+- **Agyapade titiriw:** "awuduru nwura" biara nni hɔ a efi nhyehyɛe guasodeyɛ ahorow mu, ne adanse a ebetumi adi adanse afoforo a ɛkame ayɛ sɛ anohyeto nni mu ho adanse.
+- **Tumi krataa:** Halo 2 yɛ open source ase [MIT ne Apache 2.0](https://github.com/zcash/halo2#readme), enti obiara a ɔwɔ abɔde a nkwa wom mu no betumi de asi so.
+
+---
+
+## Nkyerɛkyerɛmu Titiriw
+
+Halo yɛ ahotoso, recursive zero-nimdeɛ adanse nhyehyɛe a Sean Bowe hui wɔ Electric Coin Co. Ɛyi nhyehyɛe a wogye di no fi hɔ na ɛma kwan ma Zcash blockchain no scalability kɛse. Halo yɛ zero-nimdeɛ adanseɛ nhyehyɛeɛ a ɛdi kan a ɛyɛ adwuma yie na ɛsan yɛ bio — a wɔbu no kɛseɛ sɛ nyansahu mu nkɔsoɔ.
 
 ![halo](/content-images/_unavailable.svg "halo")
 
+### Nneɛma abien a ɛwɔ mu no
 
-**Nneɛma a ɛwɔ mu**
+- **Succinct Polynomial Commitment Scheme.** Ɛma committer kwan ma ɔde ne ho to polynomial a ɛwɔ ahama tiawa a verifier betumi de adi dwuma de asi nhwehwɛmu a wɔakyerɛ sɛ wɔayɛ wɔ committed polynomial no so dua.
+- **Polynomial Interactive Oracle Proof.** Verifier no srɛ prover (algorithm bi) sɛ ɔmmue commitments nyinaa wɔ mmeae a ɔpɛ, de polynomial commitment scheme no di dwuma, na ɔhwɛ sɛ identity no kura nokware wɔ wɔn ntam.
 
-Succinct Polynomial Commitment Scheme: Ɛma committer kwan ma ɔde ne ho to polynomial a ɛwɔ ahama tiawa a verifier betumi de adi dwuma de asi nhwehwɛmu a wɔakyerɛ sɛ wɔayɛ wɔ committed polynomial no so dua.
+### Nsiesiei biara nni hɔ a wotumi de ho to so
 
-Polynomial Interactive Oracle Proof: Verifier bisa prover (algorithm) sɛ ɔmmue bɔhyɛ nyinaa wɔ mmeae ahorow a wɔpɛ denam polynomial commitment scheme & checks identity holds true between them. 
+zk-SNARKs de wɔn ho to common reference string (CRS) so sɛ ɔmanfoɔ parameter a wɔde bɛdi adanseɛ na wɔadi ho adanseɛ. Ɛsɛ sɛ obi a wogye no di di kan yɛ saa CRS yi. Ɛde besi nnansa yi no, na ɛho hia sɛ wɔyɛ akontaabu a ahobammɔ wom a ɛkɔ akyiri a ɛfa nnipa pii ho (MPC) — sɛnea Aztec ntam nkitahodi ne Zcash yɛ no — na ama asiane a ɛwɔ mu wɔ eyi mu no so atew [setup guasodeyɛ a wogye di](https://zkproof.org/2021/06/30/setup-ceremonies/amp/).
 
+Zcash's kan Sprout ne Sapling shielded pools no de BCTV14 ne Groth16 zk-proving nhyehyɛe ahorow no dii dwuma. Bere a na eyinom yɛ ahobammɔ no, na wɔwɔ anohyeto ahorow: na wontumi nsɛe no efisɛ na wɔakyekyere no wɔ dwumadie baako ho, "awuduru nwura" (nwura a awuduru wom" (cryptographic nneɛma nkaeɛ a wɔyɛeɛ wɔ genesis guasodeyɛ no mu) tumi kɔ so, na na ahotosoɔ bi wɔ hɔ (ɛwom sɛ ɛyɛ simma ketewaa bi de) a ɛbɛma wɔabu guasodeyɛ no sɛ ɛyɛ nea wɔgye tom.
 
-### Nsiesiei a Wogye Di Biara Nni Hɔ
+Halo yi nhyehyɛe a wogye di no fi hɔ denam ɔhaw ahorow pii a ɛbɔ bom mpɛn pii wɔ elliptic curves kyinhyia so, sɛnea ɛbɛyɛ a wobetumi de akontaabu adanse adi dwuma de asusuw wɔn ho yiye (nested amortization). Nsunsuansoɔ bɔne ne sɛ structured reference string (asɛm a ɛfiri guasodeɛ bi mu ba) no bɛyɛ upgradeable, na ɛma applications te sɛ smart contracts tumi yɛ adwuma.
 
-zkSNARKs de wɔn ho to common reference string (CRS) so sɛ ɔmanfoɔ parameter a wɔde di adanseɛ & di adanseɛ. Ɛsɛ sɛ obi a wogye no di di kan yɛ saa CRS yi. Ɛde besi nnansa yi no, na ɛho hia sɛ wɔyɛ akontaabu a ahobammɔ wom a ɛkɔ akyiri a ɛfa nnipa pii ho (MPC) te sɛ nea Aztec network & Zcash yɛ no na ama asiane a ɛwɔ mu wɔ eyi mu no so atew [setup guasodeyɛ a wogye di](https://zkproof.org/2021/06/30/setup-ceremonies/amp/). 
+Halo ma wɔn a wɔde di dwuma no awerɛhyem abien a ɛho hia fa ahobammɔ a ɛwɔ nimdeɛ a enni adanse nhyehyɛe kɛse bi mu. Nea edi kan no, ɛma wɔn a wɔde di dwuma no tumi kyerɛ sɛ obiara nni hɔ a ɔde ne ho hyɛɛ genesis guasodeyɛ no mu a wayɛ kokoam akyi pon bi a wɔde bɛyɛ nnaadaa nnwuma. Nea ɛto so abien no, ɛma wɔn a wɔde di dwuma no tumi kyerɛ sɛ bere kɔ so no, nhyehyɛe no akɔ so ayɛ nea ahobammɔ wom, bere mpo a wɔayɛ no foforo na wɔayɛ nsakrae wom no.
 
-Kane no na Zcash Sprout & Sapling shielded pools no de BCTV14 & Groth 16 zk-proving nhyehyɛe ahorow no di dwuma. Bere a na eyinom yɛ nea ahobammɔ wom no, na anohyeto ahorow wɔ hɔ. Na wɔnyɛ scalable sɛnea na wɔakyekyere wɔn wɔ application biako ho no, "awuduru nwura" (nkae a efi cryptographic nneɛma a wɔyɛe wɔ genesis guasodeyɛ no mu) betumi atra hɔ, na na ahotoso bi wɔ hɔ (ɛwom sɛ ɛyɛ simma kakraa bi de) ma wɔn a wɔde di dwuma no sɛ wobebu guasodeyɛ no sɛ ɛyɛ nea wogye tom.
+[Sean Bowe's nkyerɛkyerɛmufo a ɔwɔ Dystopia Labs](https://www.youtube.com/watch?v=KdkVTEHUxgo)
 
-Ɛdenam ɔhaw ahorow a emu yɛ den a wɔsɛe no mpɛn pii wɔ elliptic curves kyinhyia ahorow so sɛnea ɛbɛyɛ a wobetumi de akontaabu mu adanse adi dwuma de asusuw wɔn ho yiye (Nested amortization) so no, hia a ehia sɛ wɔyɛ nhyehyɛe a wotumi de ho to so no fi hɔ. Wei nso kyerɛ sɛ structured reference string (output from ceremony) no yɛ upgradeable a ɛma applications te sɛ smart contracts tumi yɛ adwuma.
+---
 
-Halo ma wɔn a wɔde di dwuma no awerɛhyem abien a ɛho hia a ɛfa ahobammɔ a ɛwɔ nimdeɛ a enni adanse nhyehyɛe kɛse no mu. Nea edi kan no, ɛma wɔn a wɔde di dwuma no tumi kyerɛ sɛ obiara nni hɔ a ɔde ne ho hyɛɛ genesis guasodeyɛ no mu a wayɛ kokoam akyi pon a ɔde bɛyɛ nnaadaa nnwuma. Nea ɛto so abien no, ɛma wɔn a wɔde di dwuma no tumi kyerɛ sɛ nhyehyɛe no akɔ so ayɛ ahobammɔ bere tenten, bere mpo a wɔayɛ no foforo ne nsakrae no.
+## Aniwa so / Nsɛso
 
-[Sean Bowes Ɔkyerɛkyerɛfo a ɔhwɛ Dystopia Labs so](https://www.youtube.com/watch?v=KdkVTEHUxgo) 
- 
+### Notary nkɔnsɔnkɔnsɔn no
 
+Susuw zk-SNARK a ɛyɛ daa ho sɛ krataa a wɔakyerɛw so: stamp biako, nokwaredi biako, wɔayɛ. Afei fa no sɛ ɛsɛ sɛ wokyerɛ sɛ nkrataa mpem du a wɔaboaboa ano no yɛ nokware. Sɛ ɛnyɛ recursion a, anka ɛsɛ sɛ verifier hwɛ stamp biara.
 
-### Adanse a Wɔsan De Di Dwuma
+Halo dane krataa biara a wɔagye atom no yɛ no stamp wɔ *next* krataa no so, kɔsi sɛ stack no nyinaa bɛbubu ayɛ no krataa baako a stamp baako na ɛwɔ mu. Sɛ wohwɛ krataa a etwa to no mu a, ɛdɔɔso sɛ wubenya nkɔnsɔnkɔnsɔn no nyinaa mu ahotoso — na nea ɛho hia titiriw no, Halo's notary (proving system) yɛ n’ankasa stamps a enhia abɔnten so tumidi da sɛ ɔde ne nsɔano besi hɔ.
 
-Adanse a wɔhyehyɛ no mpɛn pii no ma adanse biako di adanse sɛ ɛkame ayɛ sɛ adanse afoforo a anohyeto nnim no teɛ, na ɛma wotumi mia akontaabu (ne nsɛm) pii so. Eyi yɛ ade a ɛho hia ma scalabilty, ɛnyɛ nea ɛsua koraa efisɛ ɛma yetumi yɛ horizontally scale network no bere a ɛda so ara ma kotoku ahorow a wɔde wɔn ho hyɛ mu no nya ahotoso wɔ network no nkae no mudi mu kura mu.
+### Nea enti a nhyehyɛe a wogye di no a wobeyi afi hɔ no ho hia
 
-Ansa na Halo reba no, na sɛ wobenya recursive proof composition a, na ɛhwehwɛ sɛ wɔbɔ ka kɛse wɔ kɔmputa so ne nhyehyɛe a wotumi de ho to so. Nneɛma titiriw a wohui no mu biako ne ɔkwan bi a wɔfrɛ no **nested amortization**. Saa kwan yi ma kwan ma wɔde polynomial commitment scheme a egyina inner product argument so yɛ recursive composition, ɛma adwumayɛ tu mpɔn kɛse na ɛkwati nhyehyɛe a wogye di no.
+Wɔ nhyehyɛe dedaw mu no, "nsɔano" (CRS) no fi guasodeyɛ bi mu. Na ɛsɛ sɛ wɔn a wɔde wɔn ho hyɛɛ mu no sɛe nneɛma a ɛwɔ ntam no, na na ɛsɛ sɛ obiara nya ahotoso sɛ wɔyɛ saa. Nkontaabu nkutoo na ɛyɛ Halo's nsɔano no: biribiara nni hɔ a ɛsɛe, biribiara nni hɔ a ɛbɛtwetwe, na guasodeyɛ biara nni hɔ a ɛsɛ sɛ wɔde wɔn ho to so.
 
-Wɔ [Halo krataa](https://eprint.iacr.org/2019/1021.pdf), yɛkyerɛkyerɛɛ saa polynomial commitment nhyehyɛe yi mu yiye na yehui sɛ aggregation technique foforo bi wɔ mu. Ɔkwan a wɔfa so yɛ no ma wotumi di adanse dodow bi a wɔde wɔn ho ayɛ a ɛkame ayɛ sɛ ɛyɛ nokware ntɛmntɛm te sɛ nea wɔde di adanse biako ho adanse. Eyi nkutoo bɛma woanya ɔkwan foforo a eye sen zk-SNARKs a atwam a wɔde dii dwuma wɔ Zcash.
+---
 
+## Deep Dive a Wɔde Nsu Gu Mu
 
-### Halo 2. Nsɛm a wɔka kyerɛ
+### Adanse a wɔsan de di dwuma bio
 
-Halo 2, yɛ zk-SNARK dwumadie a ɛyɛ adwuma yie a wɔatwerɛ wɔ Rust mu a ɛyi hia a ɛhia sɛ wɔnya nhyehyɛɛ a wɔgye di berɛ a ɛresiesie stage ama scalability wɔ Zcash mu. 
+Recursive proof composition ma adanse biako di adanse sɛ ɛkame ayɛ sɛ adanse afoforo a anohyeto nnim no teɛ, na ɛhyɛ akontaabu (ne nsɛm) pii mu. Eyi yɛ ade titiriw ma scalability, efisɛ ɛma network no tumi scale horizontally bere a kotoku ahorow a wɔde wɔn ho hyɛ mu no da so ara tumi de wɔn ho to network no nkae no mudi mu kura so.
+
+Ansa na Halo, na sɛ wobenya recursive proof composition a, na ɛhwehwɛ sɛ wɔbɔ ka kɛse wɔ kɔmputa so ne nhyehyɛe a wotumi de ho to so. Nneɛma titiriw a wohui no mu biako ne ɔkwan bi a wɔfrɛ no **nested amortization**: recursive composition a wɔde polynomial commitment scheme a egyina inner product argument so di dwuma, ɛma adwumayɛ tu mpɔn kɛse bere a wɔkwati nhyehyɛe a wogye di no.
+
+No [Halo krataa](https://eprint.iacr.org/2019/1021.pdf) kyerɛkyerɛ saa polynomial commitment nhyehyɛe yi mu yiye na ohui sɛ aggregation technique foforo bi wɔ mu. Ɔkwan a wɔfa so yɛ no ma wotumi di adanse dodow bi a wɔde wɔn ho ayɛ a ɛkame ayɛ sɛ ɛyɛ nokware ntɛmntɛm te sɛ nea wɔde di adanse biako ho adanse. Wɔ n’ankasa mu no, ɛno de ɔkwan foforo a eye sen biara mae dedaw sen zk-SNARKs a edi kan a wɔde dii dwuma wɔ Zcash.
+
+### Halo 2. Ɔde ne nsa kyerɛɛ ne so
+
+Halo 2 yɛ zk-SNARK dwumadie a ɛyɛ adwuma yie a wɔatwerɛ wɔ Rust mu a ɛyi hia a ɛhia sɛ wɔnya nhyehyɛɛ a wɔgye di berɛ a ɛresiesie stage ama scalability wɔ Zcash.
 
 <a href="">
     <img src="/content-images/Halo-puzzle-03-1024x517-e034023d10.webp" alt="" width="500" height="300"/>
 </a>
 
-Ɛka yɛn kwan a yɛfa so yɛ adwuma no nyinaa a wɔfrɛ no **accumulation scheme** ho. Saa formalization foforo yi da sɛnea yɛn nested amortization technique no yɛ adwuma ankasa adi; denam adanse a yɛde bɛka ade bi a wɔfrɛ no **accumulator,** a adanse ahorow no susuw accumulator no tebea a atwam no ho so no, yebetumi ahwɛ sɛ adanse a atwam no nyinaa teɛ (ɛnam induction so) denam mprempren tebea a accumulator no wom a yɛbɛhwɛ ara kwa so.
+Ɛka ɔkwan a wɔfa so yɛ no nyinaa a wɔfrɛ no **accumulation scheme** ho. Saa formalization yi da sɛnea nested amortization yɛ adwuma ankasa adi: denam adanse a wɔde bɛka ade bi a wɔfrɛ no **accumulator** ho, baabi a adanse biara susuw accumulator no tebea a atwam no ho no, wobetumi ahwɛ adanse a atwam nyinaa (denam induction so) denam accumulator no tebea a ɛwɔ hɔ mprempren a wɔbɛhwɛ ara kwa so.
 
 <a href="">
     <img src="/content-images/l4HrYgE-1ea7bc32f7.webp" alt="" width="500" height="300"/>
 </a>
 
-
-
-Nea ɛne eyi di nsɛ no, na akuw afoforo pii rehu Polynomial IOP foforo a ɛyɛ adwuma yiye sen Sonic (a wɔde dii dwuma wɔ Halo 1 mu), te sɛ Marlin. 
-
-Nea ɛyɛ adwuma yiye wɔ saa protocol foforo yi mu ne PLONK, a ɛma nsakrae kɛse wɔ nhyehyɛe a etu mpɔn a wɔde di dwuma a egyina application-specific ahiade so na ɛma 5x prover bere a eye sen biara fi Sonic.
+Nea ɛne eyi di nsɛ no, na akuw afoforo pii rehu Polynomial IOP ahorow a ɛyɛ adwuma yiye sen Sonic (a wɔde di dwuma wɔ Halo 1 mu), te sɛ Marlin. Nea ɛyɛ adwuma yiye wɔ saa protocols yi mu ne PLONK, a ɛma nsakrae kɛse wɔ nhyehyɛe a etu mpɔn a wɔde di dwuma a egyina application-specific ahiade so na ɛma 5× prover bere a eye sen Sonic.
 
 [PLONK ho nsɛm a wɔaka abom](https://www.youtube.com/watch?v=P1JeN30RdwQ)
 
+### Halo wɔ abɔde a nkwa wom a ɛtrɛw no mu
 
-### Ɔkwan bɛn so na eyi so ba Zcash so mfaso?
-
-Orchard Shielded pool a wɔde NU5 & ayɛ adwuma no ne adanseɛ nhyehyɛeɛ foforɔ yi a wɔde bedi dwuma wɔ Zcash Network so. Wɔde turnstile nhyehyɛe koro no ara a wɔde dii dwuma wɔ Sprout ne Sapling ntam a adwene a ɛne sɛ wɔde nkakrankakra bɛma atare dedaw a wɔabɔ ho ban no akɔ pɛnhyen na ɛbɔ ho ban. Eyi hyɛ atutra a wɔde kɔ adansedi nhyehyɛe a wontumi mfa wɔn ho nto so koraa ho nkuran, ɛhyɛ ahotoso a wɔwɔ wɔ sikasɛm mu nnyinaso no mu den, na ɛtew dwumadie a ɛyɛ den ne ntua a ɛwɔ Zcash nyinaa so. NU5 a wɔde yɛɛ adwuma wɔ afe 2022 mfinimfini akyi no, adanse a wɔsan de di dwuma no a wɔde bɛka abom no bɛyɛɛ yiye (ɛwom sɛ eyi nwie pɛyɛ de). Wɔyɛɛ kokoam nsɛm mu nkɔso pii nso wɔ tangentially. ‘Nneyɛe’ a wɔde bae sɛ wɔde besi nneɛma a wɔde ba/nneɛma a wɔde ba ananmu no boa ma wɔtew ayɔnkofa metadata dodow so. 
-
-Trusted setups yɛ mpɛn pii no ɛyɛ den sɛ wɔbɛyɛ nhyehyɛe & ɛde nhyehyɛe mu asiane bae. Ɛbɛyɛ nea ɛho hia sɛ wɔsan yɛ wɔn bio ma protocol upgrade titiriw biara. Wɔn a woyi fi hɔ no de nkɔso kɛse ba ma wɔde protocol foforo a wɔayɛ no foforo bedi dwuma dwoodwoo. 
-
-Recursive adanseɛ composition kura tumi a ɛbɛma compressing anohyetoɔ dodoɔ a anohyetoɔ nni mu, ayɛ auditable distributed systems, a ɛma Zcash tumi kɛseɛ titire ne nsakraeɛ a ɛkɔ Proof of Stake. Eyi nso ho wɔ mfaso ma ntrɛwmu te sɛ Zcash Shielded Assets ne Layer 1 tumi a ɛbɛma atu mpɔn wɔ node a wɔde di dwuma nyinaa awiei a ɛkorɔn wɔ mfe a ɛreba no mu ama Zcash.
-
-
-## Halo wɔ abɔde a nkwa wom a ɛtrɛw no mu 
-
-Electric Coin Company ne Protocol Labs, Filecoin Foundation, ne Ethereum Foundation ayɛ apam sɛ wɔbɛhwehwɛ Halo R&D mu, a sɛnea wobetumi de mfiridwuma no adi dwuma wɔ wɔn ntam nkitahodi mu ka ho. Apam no botae ne sɛ ɛbɛma scalability, adwumayɛ ne kokoamsɛm a eye wɔ abɔdeɛ a nkwa wom nyinaa ne Web 3.0.
+Electric Coin Company ne Protocol Labs, Filecoin Foundation, ne Ethereum Foundation yɛɛ apam sɛ wɔbɛhwehwɛ Halo R&D mu, a sɛnea wobetumi de mfiridwuma no adi dwuma wɔ wɔn ntam nkitahodi mu ka ho. Apam no botae ne sɛ ɛbɛma scalability, adwumayɛ, ne kokoamsɛm a eye wɔ abɔdeɛ a nkwa wom nyinaa ne Web 3.0.
 
 Bio nso, Halo 2 wɔ ase [MIT ne Apache 2.0 tumi krataa a wɔabue ano](https://github.com/zcash/halo2#readme), a ɛkyerɛ sɛ obiara a ɔwɔ abɔde a nkwa wom mu no betumi de nhyehyɛe a ɛkyerɛ sɛ ɛyɛ nokware no asi.
 
-### Faelcoin a wɔde yɛ adwuma
+**Filecoin.** Efi bere a wɔde sii hɔ no, wɔagye halo2 nhomakorabea no atom wɔ nnwuma te sɛ zkEVM mu, na ebetumi aba sɛ wɔde Halo 2 bɛka adanse nhyehyɛe no ho ama Filecoin Virtual Machine no. Filecoin hwehwɛ adanse pii a ne bo yɛ den a ɛfa ahunmu bere ne adanse a ɛkyerɛ sɛ wɔayɛ no sɛnea ɛte; Halo 2 yɛ ade titiriw wɔ compressing space dwumadie ne yie scaling network no. [Filecoin Fapem video a ɛne Zooko](https://www.youtube.com/watch?v=t4XOdagc9xw). Ɛbɛsan nso aboa ecosystems mmienu no nyinaa sɛ wobetumi atua Filecoin storage payments wɔ ZEC, ama kokoamsɛm koro no ara ama storage adetɔ a ɛwɔ Zcash shielded transfers mu — a fael ahorow a wɔde encrypt wɔ Filecoin storage mu ne mobile clients a wɔboa a wɔde media bata Zcash encrypted memo ho ka ho. [ECC × Filecoin blog asɛm a wɔakyerɛw](https://electriccoin.co/blog/ethereum-zcash-filecoin-collab/)
 
-Efi bere a wɔde sii hɔ no, wɔagye halo2 nhomakorabea no atom wɔ nnwuma te sɛ zkEVM mu no, ebetumi aba sɛ wɔde Halo 2 bɛka adanse nhyehyɛe no ho ama Filecoin Virtual Machine no. Filecoin hwehwɛ adanse pii a ne bo yɛ den a ɛfa ahunmu bere / adanse a ɛkyerɛ sɛ wɔyɛ nsɛso. Halo2 bɛyɛ pivotal wɔ compressing ahunmu dwumadie, yie scaling network no.
+**Ethereum.** Wɔreyɛ Halo 2 adanseɛ a ɛbɛma Verifiable Delay Function (VDF) a ɛyɛ adwuma yie. VDF yɛ cryptographic primitive a ɛwɔ nsɛm pii a ebetumi de adi dwuma, a nea ɛka ho ne general-purpose randomness ma smart contracts ne akannifo a wɔpaw wɔ Proof of Stake mu. ECC, Filecoin Fapem, Protocol Labs, ne Ethereum Fapem nso ne wɔn reyɛ adwuma [SupraNational](https://www.supranational.net/), adetɔnfo a ne ho akokwaw wɔ hardware-accelerated cryptography mu, ma GPU ne ASIC nkɔso a ebetumi aba wɔ VDF no mu. No [Kokoamsɛm ne Scaling Nhwehwɛmu kuw](https://appliedzkp.org/) reyɛ nhwehwɛmu wɔ akwan foforo a Halo 2 adanse betumi ama kokoamsɛm ne scalability atu mpɔn ama Ethereum.
 
-[Filecoin Fapem video a ɛne Zooko](https://www.youtube.com/watch?v=t4XOdagc9xw)
+### Nnwuma afoforo a wɔde Halo di dwuma
 
-Bio nso, ɛbɛyɛ mfasoɔ kɛseɛ ama Filecoin ne Zcash abɔdeɛ a nkwa wom nyinaa sɛ wɔbɛtumi atua Filecoin akoraeɛ ho ka wɔ ZEC mu, a ɛma kokoamsɛm a ɛte saa ara ma akoraeɛ atɔ a ɛwɔ hɔ wɔ Zcash shielded transfers mu. Saa mmoa yi de tumi a wɔde bɛbɔ fael a ɛwɔ Filecoin storage mu no aka ho na ɛde mmoa aka mobile clients ho sɛnea ɛbɛyɛ a wobetumi **abata** media anaa fael ahorow ho wɔ Zcash encrypted memo ho. 
+- [Anoma](https://anoma.net/blog/hash-functions-in-plonkup) — a ɛyɛ kokoam nsɛm a ɛkora multichain atom swap protocol
+- [Orbis](https://docs.orbisprotocol.com/orbis/technology/halo-2) — a ɛyɛ L2 zkRollup wɔ Cardano so
+- [DarkFi](https://dark.fi/book/arch/arch.html) — a ɛyɛ kokoam L1 zkEVM blockchain
+- [Scroll no mu](https://scroll.mirror.xyz/nDAbJbSIJdQIWqp9kn8J0MVS4s6pYBwHmK7keidQs-k) — a ɛyɛ L2 zkRollup wɔ Ethereum so
 
-[ECC x Faelcoin Blog Nsɛm a Wɔakyerɛw](https://electriccoin.co/blog/ethereum-zcash-filecoin-collab/)
+---
 
-### Ethereum a wɔde yɛ adwuma
+## Nkyerɛkyerɛmu a mfaso wɔ so
 
-Halo 2 adanseɛ a wɔde bedi dwuma ama Verifiable Delay Function (VDF) a ɛyɛ adwuma yie a wɔreyɛ no. VDF yɛ cryptographic primitive a ɛwɔ nsɛm pii a ebetumi de adi dwuma. 
+**Ma Zcash ankasa**
 
-Wobetumi de adi dwuma sɛ fibea a atirimpɔw nyinaa randomness a nea ɛka ho ne dwumadie wɔ smart contract applications ne saa ara nso na ɔkannifo paw wɔ Proof of Stake wɔ Ethereum & protocols afoforo.
+- Orchard shielded pool, a wɔde NU5, ne adanseɛ nhyehyɛeɛ foforɔ yi a wɔde bedi dwuma wɔ Zcash ntwamutam no so. Wɔde afiri a wɔde dannan nneɛma a wɔde di dwuma wɔ Sprout ne Sapling, a adwene no ne sɛ wɔde nkakrankakra bɛma atare dedaw a wɔabɔ ho ban no akɔ pɛnhyen.
+- NU5 (2022 mfimfini) akyi no, adanseɛ a wɔsan de di dwuma no a wɔde bɛka abom no bɛyɛɛ yie, na kokoamsɛm mu nkɔsoɔ pii kaa ho — nea ɛda nsow kɛseɛ ne sɛ wɔde ‘Nneyɛeɛ’ a ɛbɛsi nneɛma a wɔde ba/nneɛma a ɛfiri mu ba ananmu, a ɛtew ayɔnkofa metadata dodoɔ so.
+- Sɛ woyi nhyehyɛe a wogye di fi hɔ a, eyi nhyehyɛe mu asiane a anka ɛsɛ sɛ wɔsan yɛ bio ma protocol upgrade kɛse biara no fi hɔ.
 
-ECC, Filecoin Fapem, Protocol Labs, ne Ethereum Fapem nso ne wɔn bɛyɛ adwuma [SupraNational](https://www.supranational.net/), adetɔnfo a ne ho akokwaw wɔ hardware-accelerated cryptography mu, ma GPU ne ASIC nhyehyɛe a ebetumi aba ne VDF no nkɔso.
+**Ma wɔn a wokurakura ne wɔn a wɔyɛ adwuma wɔ hɔ**
 
-No [Kokoamsɛm ne Scaling Nhwehwɛmu kuw](https://appliedzkp.org/) nso reyɛ nhwehwɛmu wɔ akwan ahodoɔ a Halo 2 adanseɛ bɛtumi ama kokoamsɛm ne scalability atu mpɔn ama Ethereum ecosystem. Saa kuw yi roll up kɔ Ethereum fapem no so, na ɛwɔ adwene a ɛtrɛw wɔ zero-nimdeɛ adanse ne cryptographic primitives so. 
+- Recursive adanseɛ composition kura tumi a ɛde compressing akontabuo dodoɔ a anohyetoɔ nni mu, ayɛ auditable distributed systems, na ama Layer 1 tumi atu mpɔn ama full-node operators — a ɛfa ntrɛmu te sɛ Zcash Shielded Assets ne Zcash's longer-term designs.
 
-## Nnwuma afoforo a wɔde Halo di dwuma
+---
 
-+ [Anoma, kokoam nsɛm a wɔkora so multichain atom swap protocol](https://anoma.net/blog/hash-functions-in-plonkup)
+## Mfomso a Ɛtaa Tu
 
-+ [Oribis, a ɛyɛ L2 zkRollup a ɛwɔ Cardano so](https://docs.orbisprotocol.com/orbis/technology/halo-2)
+| Gyidi a wɔtaa nya | Nea ɛte ankasa |
+| --- | --- |
+| "Halo yɛ daakye upgrade Zcash retwɛn." | Orchard, te ase wɔ mainnet so fi NU5 (2022), tu mmirika wɔ Halo 2 so dedaw. |
+| "No trusted setup kyerɛ sɛ parameters biara nni hɔ koraa." | Halo da so ara de parameters a wɔahyehyɛ di dwuma; nsonsonoe no ne sɛ wɔmfa nwura a awuduru wom biara nkɔ na wobetumi ayɛ na wɔayɛ no foforo a ɛsɛ sɛ guasodeyɛ biara nni guasodeyɛ bi a ɛsɛ sɛ wɔn a wɔde wɔn ho hyɛ mu no de wɔn ho to so. |
+| "Halo 2 ne Halo krataa no yɛ ade koro." | No [krataa](https://eprint.iacr.org/2019/1021.pdf) kyerɛkyerɛ polynomial commitment nhyehyɛe ne nested amortization mu; Halo 2 yɛ adeyɛ Rust dwumadie a ɛwɔ akoraeɛ nhyehyɛeɛ ne PLONKish akontabuo. |
+| "Recursion boa wɔ scaling block verification nkutoo mu." | Recursion nso mia application-level akontabuo — hwɛ Filecoin's adanseɛ a ɛfa spacetime/replication ne VDF adwuma ma Ethereum. |
 
-+ [DarkFi, a ɛyɛ kokoam L1 zkEVM blockchain](https://dark.fi/book/arch/arch.html)
+---
 
-+ [Scroll, L2 zkRollup a ɛwɔ Ethereum so](https://scroll.mirror.xyz/nDAbJbSIJdQIWqp9kn8J0MVS4s6pYBwHmK7keidQs-k)
+## Nkratafa a Ɛfa Ho
 
+- [zk-SNARKs](/zcash-tech/zk-snarks) — mfiridwuma kuw a ɛwɔ hɔ nyinaa Halo yɛ ne dea
+- [Halo (nhwehwɛmu krataa)](https://eprint.iacr.org/2019/1021.pdf) — mfitiase nhoma no
+- [Ironwood](/zcash-tech/ironwood) ne [Turnstile a ɛwɔ hɔ no](/zcash-tech/the-turnstile) — sɛnea atare a wɔabɔ ho ban no tu bere a wɔn a wɔn mfe akɔ anim kɔ pɛnhyen no
+- [Zcash Shielded Agyapadeɛ](/zcash-tech/zcash-shielded-assets) — ntrɛwmu a wonya mfaso fi adanse a wɔsan de di dwuma mu
+- [Zebra Full Node a Ɛyɛ Fɛ](/zcash-tech/zebra-full-node) — node dwumadie a ɛma adanseɛ a ɛwɔ nkɔnsɔnkɔnsɔn so no yɛ nokware
 
-**Adesua Foforo**:
+## Adesua a Ɛkɔ Akyiri
 
-[Nnianim asɛm bi a ɛfa zkp ne halo 2 ho - Hanh Huynh Huu](https://www.youtube.com/watch?v=jDHWJLjQ9oA)
-
-[Halo 2 a ɛwɔ Daira & Str4d - ZKPodcast](https://www.youtube.com/watch?v=-lZH8T5i-K4)
-
-[Mfiridwuma mu Nkyerɛkyerɛmu Blog](https://electriccoin.co/blog/technical-explainer-halo-on-zcash/)
-
-[Halo 2 Mpɔtam Hɔ Nneɛma a Wɔde Kyerɛkyerɛ - Ying Tong @Zcon3](https://www.youtube.com/watch?v=JJi2TT2Ahp0)
+- [Nnianim asɛm bi a ɛfa ZKP ne Halo 2 ho — Hanh Huynh Huu](https://www.youtube.com/watch?v=jDHWJLjQ9oA)
+- [Halo 2 a ɛwɔ Daira & Str4d — ZK Podcast](https://www.youtube.com/watch?v=-lZH8T5i-K4)
+- [Mfiridwuma ho nkyerɛkyerɛmufo blog](https://electriccoin.co/blog/technical-explainer-halo-on-zcash/)
+- [Halo 2 Mpɔtam Hɔ Nneɛma a Wɔde Kyerɛkyerɛ — Ying Tong @ Zcon3](https://www.youtube.com/watch?v=JJi2TT2Ahp0)
 
 **Nwoma a wɔakyerɛw**
 
-[Halo 2 nneɛma a wɔde yɛ adwuma](https://github.com/mhchia/awesome-halo2)
-
-[Halo 2 ho nsɛm a wɔakyerɛw](https://zcash.github.io/halo2/)
-
-[Halo 2 na ɛyɛ github](https://github.com/zcash/halo2)
+- [Halo 2 nneɛma a wɔde yɛ adwuma](https://github.com/mhchia/awesome-halo2)
+- [Halo 2 ho nsɛm a wɔakyerɛw](https://zcash.github.io/halo2/)
+- [Halo 2 GitHub](https://github.com/zcash/halo2)

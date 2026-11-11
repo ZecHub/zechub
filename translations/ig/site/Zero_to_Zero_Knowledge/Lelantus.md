@@ -1,129 +1,129 @@
 # Zero to Zero Knowledge: Usoro Lelantus
 
-**Series:** Zero to Zero Knowledge
+**Usoro:** Zero to Zero Knowledge
 
-Taa, anyị ga-eleba anya na **Lelantus**!
+Taa, anyị na-eleba anya na **Lelantus**!
 
-Released in 2019, this protocol builds upon Zerocoin. It is used in the **Firo** currency (formerly Zcoin) to enable private on-chain transactions. It resembles Zcash in some ways but is distinctly different in most aspects.
+E wepụtara ya na 2019, usoro a gbadoro ụkwụ na Zerocoin. A na-eji ya na ego **Firo** (nke a na-akpọbu Zcoin) mee ka Azụmahia [transaction] on-chain [on-chain] bụrụ nke nzuzo. Ọ yitere Zcash n’ụfọdụ ụzọ, mana ọ dị nnọọ iche n’ọtụtụ akụkụ.
 
-![Lelantus mmeghe](/content-images/Fsk18DgXsAEc0Ob-a8cd9a85d1.webp)
-
----
-
-## Zcash vs Firo Protocol Foundations
-
-- **Zcash** - Na-ewulite na **Zerocash** protocol 
-- **Firo (Zcoin) ** - Wuru na **Zerocoin** protocol
-
-![Zerocash vs Zerocoin ntụnyere](/content-images/Fsk2Fk7WcAA81ty-92158edf6b.webp)
+![Lelantus intro](/content-images/Fsk18DgXsAEc0Ob-a8cd9a85d1.webp)
 
 ---
 
-## Mmepe nke Firo Privacy Protocols
+## Ntọala Usoro Zcash na Firo
 
-Yiri Zcash, Firo na-eji adreesị echedoro iji nweta ịkwụ ụgwọ na-enweghị aha.
+- **Zcash** - Ọ gbadoro ụkwụ na usoro **Zerocash**  
+- **Firo (Zcoin)** - Ọ gbadoro ụkwụ na usoro **Zerocoin**
 
-**Oge ihe a mere:**
-- **Zerocoin** - Ọdịdị dara ada
-- ** Sigma ** - Atụmatụ ahaziri ahazi
-- **Lelantus 1.0** - Enweghị ihe akaebe nchekwa ziri ezi
-
-![Nkwekọrịta evolushọn](/content-images/Fsk2NdaWAAAKVgH-f84ae27c48.webp)
+![Zerocash vs Zerocoin comparison](/content-images/Fsk2Fk7WcAA81ty-92158edf6b.webp)
 
 ---
 
-## Ihe mgbochi nke Sigma Protocol
+## Mmepe nke Usoro Nzuzo [privacy] nke Firo
 
-Usoro Σ (Sigma) eji mee ihe na nsụgharị mbụ nke Zcoin / Firo nwere oke njedebe: ndị ọrụ nwere ike ịkpụ mkpụrụ ego edoziri.
+Dị ka Zcash, Firo na-eji Adreesị akpa ego nke e chebere echebe [shielded addresses] eme ka Kwụọ ụgwọ na-enweghị aha kwe omume.
 
-Nke a kere obere amaghị aha setịpụrụ ma mepee ụzọ maka oge mwakpo n'etiti mint na mgbapụta arụmọrụ (gbakwunyere nsogbu "mgbanwe gbanwere").
+**Usoro oge:**
+- **Zerocoin** - Agbajiela izi-ezi ya
+- **Sigma** - Usoro ọnụ ego edoziri
+- **Lelantus 1.0** - Enweghị proof nchekwa ziri ezi
 
-![Nkọwapụta Sigma](/content-images/Fsk2fxfWcAMUBDo-333a8f9df3.webp)
-
----
-
-## Otú Lelantus Si Eme Ka E Nwekwuo Nzuzo
-
-**Lelantus** na-edozi nsogbu nke nkwụsi ike site na ikwe ka mint si otu nnukwu set.
-
-Isi uru:
-- Na-ewepụ usoro ahaghị aha ahaziri ahazi
-- Na-ebelata oge mwakpo n'etiti ọkụ / mgbapụta
-- Na-ewepụ nsogbu mgbanwe na-adịghị mma
-
-**Ibelata**: Oke setịpụrụ ugbu a na ** mkpụrụ ego 65,000 **.
-
-![Ihe ndị dị na Lenantus](/content-images/Fsk2wK3X0AA6MEe-06f29b3621.webp)
+![Protocol evolution](/content-images/Fsk2NdaWAAAKVgH-f84ae27c48.webp)
 
 ---
 
-## Mkpụrụ ego nkwa
+## Njedebe nke Usoro Sigma
 
-A **mkpụrụ ego nkwa** bụ a abụọ-kpuo ìsì nkwa encoding mkpụrụ ego Oghere Usoro ọgụgụ na mkpụrụ ego uru.
+Usoro Σ (Sigma) e ji na nsụgharị mbụ nke Zcoin/Firo nwere nnukwu njedebe: ndị ọrụ nwere ike ịmepụta naanị ọnụ ego edoziri.
 
-Ndị a na-arụ ọrụ yiri ** Notes ** na Zcash.
+Nke a mepụtara obere òtù amaghị aha ma meghee ụzọ maka mwakpo oge n'etiti ọrụ ịmepụta na ịgbapụta (tinyere nsogbu “mgbanwe emerụrụ emerụ”).
 
-A na-ebipụta nkwekọrịta mkpụrụ ego ma chekwaa ya na akwụkwọ ndekọ mgbe e kere mkpụrụ ego ahụ (site na Mint ma ọ bụ Spend azụmahịa).
-
-![Ihe osise nke mkpụrụ ego](/content-images/Fsk3AWNX0AIHya8-0ed01a73c1.webp)
+![Sigma denominations](/content-images/Fsk2fxfWcAMUBDo-333a8f9df3.webp)
 
 ---
 
-## Basecoin < - > Ụdị Zerocoin
+## Otu Lelantus Si Akwalite Nzuzo
 
-Lelantus na-eji kpochapụwo **basecoin < - > ihe nlereanya zerocoin**.
+**Lelantus** na-edozi nsogbu ọnụ ego edoziri site n’ikwe ka e si n’otu nnukwu otu mepụta mkpụrụ ego.
 
-** Ihe dị mkpa **: Enwere ike ịkwụghachi ụgwọ ugbu a ma na-edebe ego fọdụrụnụ na ego zoro ezo.
+Uru ndị bụ isi:
+- Ọ na-ewepụ òtù amaghị aha nke ọnụ ego edoziri
+- Ọ na-ebelata mwakpo oge n’etiti ịkụ ọkụ/ịgbapụta
+- Ọ na-ewepụ nsogbu mgbanwe emerụrụ emerụ
 
-Dị ka Zcash, azụmahịa ndị doro anya ga-ahọrọ nke ọma site n'aka onye ọrụ.
+**Njedebe**: A na-egbochi nha otu ugbu a na **65,000 mkpụrụ ego**.
 
-![Lelantus na-agafe](/content-images/Fsk3HrjXgAMgqmX-4d727febf5.webp)
-
----
-
-## Otu n'Ime Ọtụtụ Ihe Àmà
-
-Lelantus na-eji ** One-of-Many Proofs ** ewepụta ụkpụrụ ntinye dị mkpa iji gosipụta nguzozi na-enweghị ekpughe mmalite ntinye - na-achọghị ntọala a tụkwasịrị obi.
-
-A na-ejikwa ihe akaebe ndị a na **Triptych** (nke a kpọtụrụ aha na isiokwu CryptoNote anyị).
-
-![Otu n'ime ọtụtụ ihe akaebe](/content-images/Fsk3Z0nWIAAPD4k-b76f087018.webp)
+![Lelantus advantages](/content-images/Fsk2wK3X0AA6MEe-06f29b3621.webp)
 
 ---
 
-## Nzuzo nke netwọk netwọk: Dandelion++
+## Commitment Mkpụrụ Ego
 
-Firo nodes na-eji otu Network Magic dị ka Zcash's Magicbean.
+Otu **commitment mkpụrụ ego [coin commitment]** bụ commitment a kpochiri ugboro abụọ nke na-edobe nọmba usoro mkpụrụ ego na uru mkpụrụ ego.
 
-Dị ka Monero, Firo mejuputara **Dandelion++** iji gbakwunye nzuzo site na ikpuchi adreesị IP nke onye mgbasa ozi azụmahịa.
+Ndị a na-arụ ọrụ yiri **note** dị na Zcash.
 
-**Dandelion++ nkebi:**
-- **Stem phase** - A na-ebufe azụmahịa ahụ na otu n'ime ihe ndị ọzọ na-abụghị ndị ọgbọ
-- **Fluff phase** - Randomly initiated, then switches to normal gossip mode
+A na-ebipụta ma debe commitment mkpụrụ ego na ledger mgbe e mepụtara mkpụrụ ego ahụ (site na Azụmahia Mint ma ọ bụ Spend).
 
-Nke a na-eme ka o sie ike ịchọpụta mmalite nke azụmahịa site na nyocha netwọk.
+![Coin commitment diagram](/content-images/Fsk3AWNX0AIHya8-0ed01a73c1.webp)
 
-![Nkọwa nke Dandelion++](/content-images/Fsk4A8VWcAU84MR-538b054cab.webp)
+---
+
+## Ụdị Basecoin < - > Zerocoin
+
+Lelantus na-eji ụdị **basecoin < - > zerocoin** oge gboo.
+
+**Njirimara dị mkpa**: Ịgbapụta akụkụ ụfọdụ kwe omume ugbu a ebe a na-ezo akụkụ fọdụrụ na ọnụ ego.
+
+Dị ka Zcash, onye ọrụ ga-ahọrọrịrị Azụmahia Oha [transparent transactions] n’ụzọ doro anya.
+
+![Lelantus flow](/content-images/Fsk3HrjXgAMgqmX-4d727febf5.webp)
+
+---
+
+## Proof Otu-n’ime-Ọtụtụ
+
+Lelantus na-eji **Proof Otu-n’ime-Ọtụtụ [One-of-Many Proofs]** wepụta uru ntinye dị mkpa iji gosi nguzozi na-enweghị ikpughe ebe ntinye si bịa — na-enweghịkwa trusted setup.
+
+A na-ejikwa proof ndị a na **Triptych** (a kpọrọ aha ya na eri CryptoNote anyị).
+
+![One-of-Many Proofs](/content-images/Fsk3Z0nWIAAPD4k-b76f087018.webp)
+
+---
+
+## Nzuzo Ọkwa Netwọk: Dandelion++
+
+node Firo na-eji otu Network Magic nke Magicbean nke Zcash.
+
+Dị ka Monero, Firo tinyere **Dandelion++** iji gbakwunye Nzuzo site n’izo Adreesị IP nke onye na-agbasa Azụmahia.
+
+**Usoro Dandelion++:**
+- **Oge Stem** - A na-ebufe Azụmahia gaa na otu node enweghị usoro kama ndị ọgbọ niile
+- **Oge Fluff** - A na-amalite ya n’enweghị usoro, mgbe ahụ ọ gbanwee gaa n’ụdị nkwusa nkịtị
+
+Nke a na-eme ka ịchọpụta ebe Azụmahia si bịa site na nyocha netwọk sie ike karịa.
+
+![Dandelion++ explanation](/content-images/Fsk4A8VWcAU84MR-538b054cab.webp)
 
 ---
 
 ## Ọdịnihu: Lelantus-Spark
 
-**Lelantus-Spark** (planned for later 2023) introduces two levels of opt-in visibility using **ZIP-32 style derivation** and diversified addresses.
+**Lelantus-Spark** (e mere atụmatụ maka mgbe e mesịrị na 2023) na-ewebata ọkwa abụọ nke nhụta onye ọrụ họọrọ site n’iji **ZIP-32 style derivation** na Adreesị akpa ego dịgasị iche.
 
-Ọ ga-etinyekwa nkwado maka:
-- Ntinye aka
-- Onye ọrụ akọwapụtara akụ nzuzo
+Ọ ga-agbakwụnyekwa nkwado maka:
+- Multisig
+- Akụrụngwa Nzuzo Onye Ọrụ Kọwara
 
-Njirimara ndị a yiri Zcash Shielded Assets.
+Njirimara ndị a kwekọrọ na Shielded Assets nke Zcash.
 
-![Mgbasa ozi nke Lelantus-Spark](/content-images/Fsk4jXeXsAACQ3h-b53294b16e.webp)
+![Lelantus-Spark announcement](/content-images/Fsk4jXeXsAACQ3h-b53294b16e.webp)
 
 ---
 
-**Original Thread by ZecHub (@ZecHub) ** 
+**Eri mbụ sitere n’aka ZecHub (@ZecHub)**  
 https://x.com/ZecHub/status/1641902859800150017
 
 ---
 
-*A chịkọtara peeji a site na isi mmalite Zero to Zero Knowledge maka wiki ZecHub.*
+*E chikọtara ibe a site na eri mbụ nke Zero to Zero Knowledge maka wiki ZecHub.*

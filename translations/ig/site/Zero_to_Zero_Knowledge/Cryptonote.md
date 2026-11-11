@@ -1,109 +1,109 @@
-# Zero to Zero Knowledge: Usoro CryptoNote
+# Zero to Zero Knowledge: Usoro CryptoNote [CryptoNote Protocol]
 
-**Series:** Zero to Zero Knowledge
+**Usoro:** Zero to Zero Knowledge
 
-Taa bụ ụbọchị na-adọrọ mmasị! 
-The **CryptoNote** protocol enables strong on-chain privacy. Today we learn all of its key features and how it has been implemented by several notable privacy projects.
+Nke na-atọ ụtọ taa!  
+Usoro **CryptoNote** na-eme ka Nzuzo on-chain [on-chain privacy] sie ike. Taa, anyị ga-amụta atụmatụ ya niile bụ isi na otú ọtụtụ ọrụ Nzuzo a ma ama siri tinye ya n'ọrụ.
 
-![CryptoNote mmeghe](/content-images/FrXr5P8WIAAvx36-88db0c8250.webp)
-
----
-
-## Ihe Ndị E Merela
-
-E bipụtara akwụkwọ ọcha CryptoNote mbụ n'okpuru aha nzuzo **"Nicolas van Saberhagen"**. 
-
-**Bytecoin** was the first cryptocurrency to implement the protocol. The most well-known project using it today is **Monero (XMR)**. It has also been used in TurtleCoin, Aeon, and several others.
+![CryptoNote intro](/content-images/FrXr5P8WIAAvx36-88db0c8250.webp)
 
 ---
 
-## Njirimara nke CryptoNote
+## Ndabere
 
-Usoro CryptoNote na-enye isi ihe atọ:
+E bipụtara akwụkwọ ọcha CryptoNote mbụ n'okpuru aha nzuzo **"Nicolas van Saberhagen"**.  
 
-1. ** Untraceability na Unlinkablity ** nke azụmahịa
-2. **Egalitarian Proof of Work** (ASIC resistant) 
-3. ** Dynamic emission** (Mgbasa ozi na-agbanwe agbanwe)
+**Bytecoin** bụ cryptocurrency mbụ tinyere usoro a n'ọrụ. Ọrụ a kacha mara amara na-eji ya taa bụ **Monero (XMR)**. Ejikwala ya na TurtleCoin, Aeon, na ọtụtụ ndị ọzọ.
 
 ---
 
-## 1. Untraceability - Mbinye aka mgbaaka
+## Atụmatụ Isi nke CryptoNote
 
-Untraceability na-enweta isi site na iji ** Ring Signatures **.
+Usoro CryptoNote na-enye atụmatụ atọ bụ isi:
 
-When sending a transaction, your real public key is mixed with several decoy keys (the "ring") - all containing the same amount of coins. This makes it extremely difficult to determine who actually sent the coins.
-
-**Ogo mgbanaka** na-emetụta ihe a na-akpọghị aha. Mgbaaka buru ibu na-enye nzuzo ka mma.
-
-![Mgbaaka Signatures nkọwa](/content-images/FrXteGHXgAANE0F-f11593a0d9.webp)
-
-**Nkọwa na Zcash**: 
-Zcash's anonymity set bụ ngụkọta ọnụ ọgụgụ nke azụmahịa * mgbe ọ bụla * emere na ọdọ mmiri echedoro (nke buru ibu karịa nha mgbanaka CryptoNote).
+1. **Enweghị ike ịchọpụta na Ihe na-apughi ijikọ ọnụ [Untraceability and Unlinkability]** nke Azụmahia [transactions]
+2. **Proof Ọrụ Nhata [Egalitarian Proof of Work]** (na-eguzogide ASIC) 
+3. **Mwepụta na-agbanwe agbanwe [Dynamic emission]**
 
 ---
 
-## Mgbanaka CT (Mmekọrịta Nzuzo)
+## 1. Enweghị ike ịchọpụta - signature Mgbanaka [Ring Signatures]
 
-Ụdị ** Ring CT ** emeela ka nzuzo dịkwuo mma na mkpụrụ ego CryptoNote.
+A na-enweta enweghị ike ịchọpụta n'ụzọ bụ isi site n'iji **signature Mgbanaka**.
 
-Kama izochi onye zitere ya, Ring CT na-ekpuchikwa ego azụmahịa dị n'etiti onye na-ezigara ya na onye natara ya.
+Mgbe ị na-eziga Azụmahia, a na-agwakọta igodo ọha gị n'ezie na ọtụtụ igodo aghụghọ (nke a na-akpọ "mgbanaka") - ha niile nwere otu ọnụ ọgụgụ mkpụrụ ego. Nke a na-eme ka ọ sie ezigbo ike ịchọpụta onye zigara mkpụrụ ego ahụ n'ezie.
 
-![Ihe osise CT nke mgbanaka](/content-images/FrXuivgWYAAze7B-260071c1b3.webp)
+**Ogo mgbanaka [Ring size]** na-emetụta usoro enweghị aha [anonymity set] nke ukwuu. Mgbanaka buru ibu na-enye Nzuzo ka mma.
+
+![Ring Signatures explanation](/content-images/FrXteGHXgAANE0F-f11593a0d9.webp)
+
+**Ntụnyere na Zcash**:  
+Usoro enweghị aha nke Zcash bụ ọnụ ọgụgụ Azụmahia niile a *metụrụla* n'ime pool nke e chebere echebe [shielded pool] nyere (nke buru ibu karịa ogo mgbanaka CryptoNote a na-ahụkarị).
+
+---
+
+## Ring CT (Azụmahia Nzuzo)
+
+Ụdị **Ring CT** mere ka Nzuzo dị na mkpụrụ ego dabere na CryptoNote ka mma nke ukwuu.
+
+Kama izochi naanị onye zitere ya, Ring CT na-**eme ka ọnụ ọgụgụ Azụmahia ghara ịdị doo anya** n'etiti onye zitere ya na onye natara ya.
+
+![Ring CT diagram](/content-images/FrXuivgWYAAze7B-260071c1b3.webp)
 
 Ọ na-eji:
-- Elliptic Curve Cryptography
-- Pedersen nkwa
-- Nkọwapụta Homomorphic
+- Kriptogafị Curve Elliptic
+- commitment Pedersen
+- Nzobe ederede Homomorphic [Homomorphic Encryption]
 
-**A na-eji ihe akaebe** egosi na ego ahụ karịrị 0 ma dị n'ime oke ziri ezi **na-enweghị igosipụta ụkpụrụ ndị dị adị**.
+A na-eji **proof** egosi na ọnụ ọgụgụ ahụ karịrị 0 ma dị n'ime oke ziri ezi **na-enweghị ikpughe ụkpụrụ ndị ahụ n'ezie**.
 
-** Stealth Addresses ** na-agbakwunye adreesị eji otu oge maka onye nnata.
+**Adreesị Nzuzo [Stealth Addresses]** na-agbakwụnyekwa Adreesị akpa ego eji otu ugboro maka onye natara ya.
 
-![Adreesị Stealth + Ihe Akaebe](/content-images/FrXut5aWAAMhuRb-f3ce8ea3fd.webp)
-
----
-
-## 2. Ihe akaebe nke ọrụ (ePoW)
-
-CryptoNote na-achọ imepụta usoro igwupụta akụ ziri ezi site na iguzogide ASICs.
-
-It uses the **CryptoNight** algorithm (a memory-hard function). Unlike Bitcoin’s SHA256, CryptoNight is designed to close the gap between CPU, GPU, and ASIC miners.
-
-** Nzọụkwụ CryptoNight: **
-1. Na-amalite nnukwu ebe nchekwa (scratchpad) na data pseudorandom
-2. Na-eme ọtụtụ ọgụgụ / dee arụmọrụ na scratchpad
-3. Hash dum scratchpad iji mepụta uru ikpeazụ
-
-![Mgbapụta CryptoNight](/content-images/FrXvNs3XsAA37LG-5779657f5c.webp)
-
-(Mara: Monero esila na CryptoNight pụọ gaa na algọridim ndị ọzọ.)
+![Stealth Addresses + Proofs](/content-images/FrXut5aWAAMhuRb-f3ce8ea3fd.webp)
 
 ---
 
-## 3. Mgbasa Ozi Na-agbanwe Agbanwe
+## 2. Proof Ọrụ Nhata (ePoW)
 
-Kama ịbelata ihe omume na mberede (dịka Bitcoin), CryptoNote na-eji ** ụgwọ ọrụ ngọngọ na-ebelata nwayọ **.
+CryptoNote chọrọ ịmepụta usoro ịgwụputa ka nha karịa site n'iguzogide ASIC.
 
-Nke a na-eme ka usoro mmepụta ihe dị nro karịa oge.
+Ọ na-eji algọridim **CryptoNight** (ọrụ siri ike n'ihe gbasara ebe nchekwa). N'adịghị ka SHA256 nke Bitcoin, e mere CryptoNight ka ọ belata ọdịiche dị n'etiti ndị na-egwụputa CPU, GPU, na ASIC.
+
+**Nzọụkwụ CryptoNight:**
+1. Jiri data pseudorandom malite nnukwu mpaghara ebe nchekwa (scratchpad)
+2. Mee ọtụtụ arụmọrụ ịgụ/ide na scratchpad
+3. Hash scratchpad dum iji mepụta ụkpụrụ ikpeazụ
+
+![CryptoNight mining](/content-images/FrXvNs3XsAA37LG-5779657f5c.webp)
+
+(Rịba ama: Monero esila na CryptoNight pụọ gaa na algọridim ndị ọzọ.)
+
+---
+
+## 3. Mwepụta na-agbanwe agbanwe
+
+Kama ihe omume halving mberede (dị ka Bitcoin), CryptoNote na-eji **ụgwọ ọrụ block nke na-ebelata nwayọọ nwayọọ**.
+
+Nke a na-emepụta usoro mwepụta dị nnọọ nro karịa ka oge na-aga.
 
 ![Dynamic emission curve](/content-images/FrXv8wpXoAEjUxW-e2bbaebced.webp)
 
-** Njikọ Zcash **: 
-Ndị mmepe Zcash atụlewo itinye usoro nkwụsị nke ọma n'ọdịnihu, ikekwe site na "Zcash Posterity Fund".
+**Njikọ Zcash**:  
+Ndị onye mmepụta Zcash atụlewo itinye usoro mwepụta dị nro karịa n'ọrụ n'ọdịnihu, ikekwe site na "Zcash Posterity Fund".
 
 ---
 
 ## Mmechi
 
-CryptoNote egosila na ọ bụ ụzọ siri ike na nke a nwalere agha maka nzuzo na-agbụ. Ọtụtụ n'ime ihe ọhụrụ ya emetụtala usoro okike ego nzuzo sara mbara.
+CryptoNote egosila na ọ bụ usoro siri ike, nke a nwalere nke ọma, maka Nzuzo on-chain. Ọtụtụ ihe ọhụrụ ya emetụtala gburugburu ebe obibi mkpụrụ ego Nzuzo sara mbara.
 
-Some researchers believe CryptoNote features could eventually be combined with trustless zero-knowledge shielded pools.
+Ụfọdụ ndị nyocha kwenyere na a pụrụ ijikọta atụmatụ CryptoNote na pool nke e chebere echebe zero-knowledge na-enweghị ntụkwasị obi n'ikpeazụ.
 
 ---
 
-**Original Thread by ZecHub (@ZecHub) ** 
+**Eriri Ozi Mbụ nke ZecHub (@ZecHub)**  
 https://x.com/ZecHub/status/1636473585781948416
 
 ---
 
-*A chịkọtara peeji a site na isi mmalite Zero to Zero Knowledge maka wiki ZecHub.*
+*A chịkọtara ibe a site na eriri ozi Zero to Zero Knowledge mbụ maka wiki ZecHub.*

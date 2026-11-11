@@ -1,10 +1,10 @@
-# Z3: (zebrad) ((zaino) ((zingo-cli)
+# Z3: (zebrad)(zaino)(zingo-cli)
 
-**zebrad**: Zcash zuru ọnụ
+**zebrad**    : zcash full node
 
-**zaino**: Zcash blockchain indexer
+**zaino**     : onye na-edepụta blockchain zcash
 
-**zingo-cli**: zcash akara iwu zaino-proxy ahịa (subset nke Zingolib)
+**zingo-cli** : onye ahịa zaino-proxy nke ahịrị iwu zcash (subset nke Zingolib)
 
 ## Vidio
 
@@ -20,21 +20,21 @@
 </div>
 
 
-## Echiche Zuru Ezu
+## Nchịkọta Ukwa
 
-[Nhazi usoro](https://github.com/zingolabs/zaino/blob/dev/docs/zaino_live_system_architecture.pdf)
+[System Architecture](https://github.com/zingolabs/zaino/blob/dev/docs/zaino_live_system_architecture.pdf)
 
 
-- Zcash Onye ọrụ wụnye / Compiles Zingolib Nke na-enye ohere maka zingo-cli. Ha nwere ike izipu / nata ZEC dị ka mkpa.
-- zingo-cli connects to zaino either locally or via a secure channel online (Zcash user doesnt care how this works!)
-- Zaino na-enye ohere ịbanye ma zebrad ma ọ bụ zcashd 
-- Fully synced zebrad is source of truth (no more wallets here!)
+- Zcash Onye ọrụ na-etinye/na-achịkọta Zingolib nke na-enye ohere ịnweta zingo-cli. Ha nwere ike izipu/nata ZEC dịka achọrọ.
+- zingo-cli na-ejikọ na zaino ma n’ime mpaghara ma ọ bụ site na ọwa nchekwa n’ịntanetị (Zcash onye ọrụ anaghị eche maka otú nke a si arụ ọrụ!)
+- Zaino na-enye ohere ịnweta ma zebrad ma ọ bụ zcashd            
+- zebrad emekọrịtara kpamkpam bụ isi iyi eziokwu (e-akpa ego ọzọ adịghị ebe a!)
 
 
 
 ## Ntinye
 
-You will need to intall 3 things for this to work correctly. I also recommend screen or something similar to help with screen management
+Ị ga-achọ itinye ihe 3 ka nke a rụọ ọrụ nke ọma. Ana m akwado screen ma ọ bụ ihe yiri ya iji nyere aka na njikwa ihuenyo
 
 `sudo apt install screen`
 
@@ -47,16 +47,16 @@ cargo install --git https://github.com/ZcashFoundation/zebra --tag v2.0.1 zebrad
 ```
 
  
-* nhọrọ* (mepụta oge ihuenyo maka zebrad)
+*nhọrọ* (mepụta nnọkọ screen maka zebrad)
 
 ```
 screen -S zebra
 zebrad start
 ```
 
-mara: nke a ga-achọ ka ejikọta ya n'ụzọ zuru oke! 
+note: nke a ga-adị mkpa ka emekọrịta ya kpamkpam! 
 
-### nwa ehi
+### zaino
 
 ```
 git clone https://github.com/zingolabs/zaino.git
@@ -66,7 +66,7 @@ PATH=$PATH:~/Desktop/zaino/target/release/
 ```
 
 
-* nhọrọ* (mepụta oge ihuenyo maka zaino)
+*nhọrọ* (mepụta nnọkọ screen maka zaino)
 
 ```
 screen -S zaino
@@ -84,16 +84,16 @@ cd zingolib
 cargo build --release --package zingo-cli
 ```
 
-* nhọrọ* (mepụta oge ihuenyo maka zingo-cli)
+*nhọrọ* (mepụta nnọkọ screen maka zingo-cli)
 
 ```
 screen -S zingo
 ./zingo-cli --server http://127.0.0.1:8137 --data-dir /media/zebra5/zebra/.cache/lightwalletd
 ```
 
-edeturu: nke a ga-achọ ka ejikọta ya kpamkpam, dịka lightwalletd mere. Ana m akwado iji ụgbọala mpụga iji chekwaa oge :)
+note: nke a ga-adị mkpa ka emekọrịta ya kpamkpam, dịka lightwalletd mere. Ana m akwado iji draịvụ mpụga chekwaa oge :)
 
 
-## Ịgba ọsọ
+## Ịgba Ọrụ
 
-Ọ bụrụ na ị na-agba ọsọ ndị a na ákwà, `screen -r` ga-edepụta ihuenyo ọ bụla ka ị gaa dịka ọ dị mkpa
+Ọ bụrụ na ị na-agba ihe ndị a na screens, `screen -r` ga-edepụta screen ọ bụla ka ị gaa na ya dịka achọrọ

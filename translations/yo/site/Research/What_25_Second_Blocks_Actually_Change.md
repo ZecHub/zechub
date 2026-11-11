@@ -12,9 +12,9 @@ Ojú ìwé yìí ṣàlàyé ZIP 218 láti inú ìwé tirẹ̀: ohun tí ó yíp
 | Àwọn bulọọki fún ọjọ́ kan | 1,152 | 3,456 |
 | Ìrànlọ́wọ́ Àkọsílẹ̀ (àkókò ìdajì ìdajì lọ́wọ́lọ́wọ́) | 1.5625 ZEC | 0.52083333 ZEC |
 | ZEC tuntun fun ọjọ kan | yiyipada | yiyipada |
-| Ààlà ìdajì | Àwọn búlọ́ọ̀kù 1,680,000 | Àwọn búlọ́ọ̀kì 5,040,000 |
+| Àárín ìdajì àkókò | Àwọn búlọ́ọ̀kù 1,680,000 | Àwọn búlọ́ọ̀kì 5,040,000 |
 | Àwọn ààlà lórí àwọn ìgbésẹ̀ ààbò fún gbogbo búlọ́ọ̀kì | kò sí (ààlà iwọn 2 MB nìkan) | Lapapọ 330, pẹlu awọn ideri fun adagun-odo kọọkan |
-| Àṣeyọrí sí Orchard (àwọn ìṣòwò ìgbésẹ̀ méjì) | nípa 2.9 fún ìṣẹ́jú-àáyá kan | nípa 6.6 fún ìṣẹ́jú-àáyá kan |
+| Àkójọpọ̀ iṣẹ́ Orchard (àwọn ìṣòwò ìgbésẹ̀ méjì) | nípa 2.9 fún ìṣẹ́jú-àáyá kan | nípa 6.6 fún ìṣẹ́jú-àáyá kan |
 
 ![ZIP 218 cuts block target spacing from 75 seconds to 25, tripling daily blocks from 1,152 to 3,456, while dividing the per-block subsidy by the same factor of three from 1.5625 to 0.52083333 ZEC, so daily issuance stays at 1,800 ZEC and the halving interval stretches from 1,680,000 to 5,040,000 blocks to hold halving dates fixed](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/nu7-block-timing.png)
 
@@ -85,7 +85,7 @@ Lẹ́yìn tí a bá ti mú un ṣiṣẹ́ tán, àkókò ìdènà yóò gba à
 
 - **Ìparí ìṣòwò:** Ìparí àìṣeédáádáá máa ń ga láti 40 sí 120 blocks, èyí tó máa ń jẹ́ ìṣẹ́jú 50 kan náà.
 - **Ijinle atunṣe to pọ julọ:** Ààlà Zebra's ga soke lati 99 si 600 bulọọki, nipa wakati 4.2 ni iṣẹju-aaya 25, ferese kanna ti o bo nigba ifilọlẹ.
-- **Jinlẹ̀ ìdákọ́ró fún àwọn ìṣòwò tí a dáàbò bò:** dúró ní àwọn bulọọki mẹ́ta, nítorí náà ìdádúró náà dínkù láti ìṣẹ́jú 3.75 sí ìṣẹ́jú 1.25. ZIP náà tẹ̀lé àpẹẹrẹ Blossom níbí.
+- **Jinlẹ̀ ìdákọ́ró fún àwọn ìṣòwò tí a dáàbò bò:** dúró ní àwọn búlọ́ọ̀kì mẹ́ta, nítorí náà ìdádúró náà dínkù láti ìṣẹ́jú 3.75 sí ìṣẹ́jú 1.25. ZIP náà tẹ̀lé àpẹẹrẹ Blossom níbí.
 - **Ọ̀pọ̀ àwọn ohun tí a lè ṣe pẹ̀lú nẹ́tíwọ́ọ̀kì** ni a fi mẹ́ta ṣe ìwọ̀n rẹ̀, nítorí náà wọ́n máa ń bo àkókò kan náà.
 
 ## Kí ló dúró bákan náà
@@ -108,10 +108,10 @@ Awọn iye owo kekere meji lo wa pelu. Awọn apamọwọ ina gba nipa 200 KB di
 
 ## Ipo ati Ago
 
-- **ZIP:** Àkọsílẹ̀. Àwọn onílé Dev Ojha àti Evan Forbes; tí a dá sílẹ̀ ní ọjọ́ kẹtàlá oṣù kẹta ọdún 2026.
+- **ZIP:** A gbero. Awọn oniwun Dev Ojha ati Evan Forbes; a ṣẹda ni ọjọ 13 Oṣu Kẹta ọdun 2026.
 - **Ìdìbò olùní owó:** ti parí ní ọjọ́ kẹrìnlá oṣù kẹsàn-án ọdún 2026, pẹ̀lú ìtìlẹ́yìn 99.9%. Ìdìbò náà fi hàn pé ó wù ú; kò yí àwọn òfin ìfohùnṣọ̀kan padà fúnra rẹ̀.
-- **Àkókò Ìlànà:** Nínú ìkéde Zcash Community Forum ní ọjọ́ kẹtàdínlógún oṣù kẹsàn-án, àwọn àjọ ìdàgbàsókè gbà láti ṣe àkójọ ìlànà kódì tí a parí ní ọjọ́ ọgbọ̀n oṣù kẹsàn-án, NU7 lórí testnet ní ọjọ́ kẹfà oṣù kẹwàá, ìpinnu ìkẹyìn àti gíga ìṣiṣẹ́ mainnet ní ọjọ́ ogún oṣù kẹwàá, àti ìṣiṣẹ́ mainnet tí a fojú sí fún nǹkan bí ọjọ́ karùn-ún oṣù kọkànlá ọdún 2026. Oṣù kọkànlá ọjọ́ karùn-ún jẹ́ àfojúsùn, kì í ṣe ọjọ́ tí a yàn, títí tí a ó fi yan gíga náà.
-- **Imuṣe:** a tọ́pasẹ̀ rẹ̀ nínú Zebra ([#11440](https://github.com/ZcashFoundation/zebra/issues/11440)) àti ní Zakura ([PR #1066](https://github.com/zakura-core/zakura/pull/1066)).
+- **Àkókò Ìlànà:** Nínú ìkéde Zcash Community Forum ní ọjọ́ kẹtàdínlógún oṣù kẹsàn-án, àwọn àjọ ìdàgbàsókè gbà láti parí ìtòlẹ́sẹẹsẹ kódì náà ní ọjọ́ ọgbọ̀n oṣù kẹsàn-án, NU7 lórí testnet ní ọjọ́ kẹfà oṣù kẹwàá, àti ìpinnu ìkẹyìn ní ọjọ́ ogún oṣù kẹwàá. Gíga ìṣiṣẹ́ mainnet ti wà ní 3,543,405 báyìí ([ZIP 259](https://zips.z.cash/zip-0259)), ti a pinnu fun nnkan bi 5 Oṣù Kọkànlá 2026.
+- **Imuse:** a tọ́pasẹ̀ rẹ̀ nínú Zebra ([#11440](https://github.com/ZcashFoundation/zebra/issues/11440)) àti ní Zakura ([PR #1066](https://github.com/zakura-core/zakura/pull/1066)).
 
 ## Kí ni èyí túmọ̀ sí fún ọ
 

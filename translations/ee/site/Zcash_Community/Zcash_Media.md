@@ -2,25 +2,23 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Zcash Nyadzɔdzɔgblɔmɔnuwo
+# Zcash Media
 
-"Míaƒe akpa si míewɔna le nuwɔwɔ aduadu ƒe agbagbadzedze sia me enye be míafia nu, ade dzo eme, eye míado dzidzɔ na Zcashers siwo li fifia kple esiwo ava va, atu kpeɖeŋutɔwo ƒe ƒuƒoƒo si aʋli ho kple dɔ gãtɔwo kple esiwo wu nenema."
+"Mía ƒe akpa le ɖoɖo sia me be míana nu le Zcash ƒe susu xɔlawo tso fifia kple etsɔme, míade wɔn ƒe dzi ɖe edzi, eye míana woanɔ dzidzɔ me, eye míatu kpekpeɖeŋuxɔlawo ƒe teƒe si anɔ sɔ kple dɔ gãtɔwo kple esia wu."
 
+## Gbɔgbɔgblɔ
 
-## Nu si de megbe
+[37 LAINES](https://www.37laines.com/) wɔe na amegbetɔwo ƒe nyuie ta, Zcash Media ƒe nufialewo ƒe videoawo katã ku ɖe Zcash kple crypto ŋu. [Zcash Community Grants](https://x.com/ZcashCommGrants) ƒe ɖoɖo nana ga na e, eye wòzu ame vevi le Zcash ƒe habɔbɔ me.
 
-[37 LAINES ye wɔe](https://www.37laines.com/) le dukɔa ƒe nyonyo ta la, Zcash Media ƒe hehenana videowo katã ku ɖe Zcash kple crypto ŋu. Wokpɔa ga tso [Zcash Community Grants](https://x.com/ZcashCommGrants) ɖoɖowɔɖi, eye wòva zu fefewɔla vevi aɖe le Zcash ƒe lãwo ƒe agbenɔnɔ ƒe ɖoɖoa me.
-
-## Videowo
+## Videoawo
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
     className="w-full h-full"
     src="https://www.youtube.com/embed/videoseries?si=e8-nsKxIHdk9YGY2&amp;list=PLCBF_Zq-SbAL19zav5LPfNzXNPNP9IOeb"
-    title="Zcash Media Playlist"
+    title="Zcash Media ƒe hadodo ƒe xexlẽme"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowFullScreen
     loading="lazy"
   />
 </div>
-    

@@ -112,14 +112,47 @@ export function isNameOnly(label, names) {
 // ---- parsing a filled kit --------------------------------------------------
 
 /**
- * Find every review table (one with a ✅ column) in a kit.
+ * Mark the lines inside fenced code blocks (``` or ~~~), fences included.
+ * A table in a fenced example is not a reviewer's answer, so the parser and
+ * markAllOk skip these lines. Follows CommonMark: a fence closes on the same
+ * character, at least as long, with nothing but spaces after it; a backtick
+ * opener has no backtick in its info string; an unclosed fence runs to the
+ * end. Indentation and blockquote/list-item prefixes are tolerated on purpose,
+ * so an example nested in a list or quote is skipped too. A closer must sit at
+ * the opener's blockquote depth and carry no list marker ("- ```" inside a
+ * fence is content). A trailing \r (CRLF kit) is ignored.
+ * @returns {{fenced: boolean[], unclosedAt: number|null}} unclosedAt is the
+ *   1-based line of a fence that never closes.
+ */
+export function fencedLines(lines) {
+  const fenced = new Array(lines.length).fill(false);
+  let open = null; // {ch, len, depth, line}
+  for (let i = 0; i < lines.length; i++) {
+    const m = lines[i].match(/^(\s*(?:>\s*|(?:[-*+]|\d+[.)])\s+)*)(`{3,}|~{3,})([^\r]*)\r?$/);
+    const depth = m ? (m[1].match(/>/g) ?? []).length : 0;
+    if (open) {
+      fenced[i] = true;
+      if (m && m[2][0] === open.ch && m[2].length >= open.len && !m[3].trim() && depth === open.depth && !/[-*+]|\d[.)]/.test(m[1])) open = null;
+    } else if (m && !(m[2][0] === "`" && m[3].includes("`"))) {
+      fenced[i] = true;
+      open = { ch: m[2][0], len: m[2].length, depth, line: i + 1 };
+    }
+  }
+  return { fenced, unclosedAt: open ? open.line : null };
+}
+
+/**
+ * Find every review table (one with a ✅ column) in a kit. Tables inside
+ * fenced code blocks are examples and are ignored.
  * @returns {{kind: "pages"|"ui"|"style", section: string, rows: object[]}[]}
  */
 export function parseKit(md) {
   const lines = md.split(/\r?\n/);
+  const { fenced } = fencedLines(lines);
   const tables = [];
   let marker = null;
   for (let i = 0; i < lines.length; i++) {
+    if (fenced[i]) continue;
     const line = lines[i];
     if (/^#{1,6}\s/.test(line)) marker = null;
     const m = line.match(/^\(`([A-Za-z]+)`/);
@@ -259,6 +292,8 @@ export function importKit({ glossary, termsEn, md, reviewer, date, sourceName, p
   const report = { new: [], changed: [], unchanged: [], notReviewed: [], needsMaintainer: [], skippedNames: [], errors: [], style: [] };
   const tables = parseKit(md);
   if (!tables.length) report.errors.push("no table with a \u2705 column found");
+  const { unclosedAt } = fencedLines(md.split(/\r?\n/));
+  if (unclosedAt) report.errors.push(`code fence opened at line ${unclosedAt} is never closed; every table after it was ignored`);
 
   // Pass 1: one decision per row, grouped by the entry it targets, so rows
   // that name the same label in two menus are reconciled before anything is
@@ -744,10 +779,11 @@ export function exportKit({ glossary, termsEn, kit, termIds = null, evidence = n
 /** Fill every empty ✅ cell with OK (the round-trip test and a quick re-confirm). */
 export function markAllOk(md) {
   const lines = md.split("\n");
+  const { fenced } = fencedLines(lines);
   let confirm = -1;
   for (let i = 0; i < lines.length; i++) {
     const l = lines[i];
-    if (!l.startsWith("|")) { confirm = -1; continue; }
+    if (fenced[i] || !l.startsWith("|")) { confirm = -1; continue; }
     if (/^\|[\s:|-]+\|$/.test(l)) continue;
     const cells = splitRow(l);
     if (cells.some((c) => c.includes("\u2705"))) { confirm = cells.findIndex((c) => c.includes("\u2705")); continue; }

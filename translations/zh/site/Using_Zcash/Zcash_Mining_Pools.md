@@ -1,25 +1,25 @@
-# Zcash 矿池
+# Zcash 挖矿池 [Mining Pools]
 
-## 什么是 Zcash 矿池？
+## 什么是 Zcash 挖矿池？
 
-Zcash 矿池是一种服务，允许个人矿工组合他们的计算能力（hashrate）。通过汇集资源，参与者可以提高解出网络区块的几率，并获得稳定但较小的收益，而不是依赖单独挖矿那种不可预测的抽奖式系统。
-
----
-
-## Zcash 矿池列表：
+Zcash 挖矿池是允许个人矿工结合其计算能力（算力 [hashrate]）的服务。通过汇集资源，参与者能提高解决网络区块的概率，并获得稳定但较小的支付，而非依赖单独挖矿不可预测的抽奖系统。
 
 ---
 
-### [Slush Pool（Braiins Pool）](https://braiins.com/pool)
+## Zcash 挖矿池列表：
+
+---
+
+### [Slush Pool (Braiins Pool)](https://braiins.com/pool)
 
 <a href="https://braiins.com/pool">
     <img src="/content-images/braiins_logo-dce5130f46.webp" alt="Slush Pool (Braiins Pool) Logo" width="200" height="100"/>
 </a>
 
-- 网站：[Slush Pool（Braiins Pool）](https://braiins.com/pool)
-- 隐私支付：是
-- 矿池类型：按份额支付
-- 矿池手续费：2%
+- 网站：[Slush Pool (Braiins Pool)](https://braiins.com/pool)
+- 私密支付 [Private Payouts]：是
+- pool 类型：按份额支付 [Pay Per Share]
+- pool 手续费：2%
 
 ---
 
@@ -30,9 +30,9 @@ Zcash 矿池是一种服务，允许个人矿工组合他们的计算能力（ha
 </a>
 
 - 网站：[Luxor](https://luxor.tech/)
-- 隐私支付：是
-- 矿池类型：按份额支付
-- 矿池手续费：3%
+- 私密支付：是
+- pool 类型：按份额支付
+- pool 手续费：3%
 
 ---
 
@@ -43,9 +43,9 @@ Zcash 矿池是一种服务，允许个人矿工组合他们的计算能力（ha
 </a>
 
 - 网站：[Flypool](https://zcash.flypool.org/)
-- 隐私支付：是
-- 矿池类型：按最近 N 份额支付 
-- 矿池手续费：1%
+- 私密支付：是
+- pool 类型：按最后 N 份额支付 [Pay Per Last N]
+- pool 手续费：1%
 
 ---
 
@@ -56,9 +56,9 @@ Zcash 矿池是一种服务，允许个人矿工组合他们的计算能力（ha
 </a>
 
 - 网站：[2Miners](https://zec.2miners.com/)
-- 隐私支付：否
-- 矿池类型：按最近 N 份额支付 
-- 矿池手续费：1%
+- 私密支付：否
+- pool 类型：按最后 N 份额支付
+- pool 手续费：1%
 
 ---
 
@@ -69,9 +69,9 @@ Zcash 矿池是一种服务，允许个人矿工组合他们的计算能力（ha
 </a>
 
 - 网站：[Nanopool](https://zec.nanopool.org/)
-- 隐私支付：否
-- 矿池类型：按最近 N 份额支付 
-- 矿池手续费：1%
+- 私密支付：否
+- pool 类型：按最后 N 份额支付
+- pool 手续费：1%
 
 ---
 
@@ -82,9 +82,9 @@ Zcash 矿池是一种服务，允许个人矿工组合他们的计算能力（ha
 </a>
 
 - 网站：[Poolin](https://www.poolin.com/)
-- 隐私支付：否
-- 矿池类型：按份额支付
-- 矿池手续费：3%
+- 私密支付：否
+- pool 类型：按份额支付
+- pool 手续费：3%
 
 ---
 
@@ -95,9 +95,9 @@ Zcash 矿池是一种服务，允许个人矿工组合他们的计算能力（ha
 </a>
 
 - 网站：[Antpool](https://v3.antpool.com/home)
-- 隐私支付：否
-- 矿池类型：按份额支付
-- 矿池手续费：3%
+- 私密支付：否
+- pool 类型：按份额支付
+- pool 手续费：3%
 
 ---
 
@@ -108,22 +108,22 @@ Zcash 矿池是一种服务，允许个人矿工组合他们的计算能力（ha
 </a>
 
 - 网站：[ViaBTC](https://www.viabtc.com/en/)
-- 隐私支付：否
-- 矿池类型：按份额支付+
-- 矿池手续费：4%
+- 私密支付：否
+- pool 类型：按份额支付+
+- pool 手续费：4%
 
 ---
 
-### [Foundry Zcash 矿池](https://foundrydigital.com/foundry-zcash-pool/)
+### [Foundry Zcash 挖矿池](https://foundrydigital.com/foundry-zcash-pool/)
 
 <a href="https://foundrydigital.com/foundry-zcash-pool/">
     <img src="/content-images/Foundry-3f33346374.webp" alt="Foundry Zcash Mining Pool Logo" width="200" height="100"/>
 </a>
 
-- 网站：[Foundry Zcash 矿池](https://foundrydigital.com/foundry-zcash-pool/)
-- 隐私支付：否
-- 矿池类型：按最近 N 份额支付
-- 矿池手续费：未公开
+- 网站：[Foundry Zcash 挖矿池](https://foundrydigital.com/foundry-zcash-pool/)
+- 私密支付：否
+- pool 类型：按最后 N 份额支付
+- pool 手续费：未公开
 
 ---
 
@@ -134,9 +134,9 @@ Zcash 矿池是一种服务，允许个人矿工组合他们的计算能力（ha
 </a>
 
 - 网站：[suprnova](https://zec.suprnova.cc/)
-- 隐私支付：否
-- 矿池类型：按最近 N 份额支付
-- 矿池手续费：0,5% - 1%
+- 私密支付：否
+- pool 类型：按最后 N 份额支付
+- pool 手续费：0.5% - 1%
 
 ---
 
@@ -147,19 +147,19 @@ Zcash 矿池是一种服务，允许个人矿工组合他们的计算能力（ha
 </a>
 
 - 网站：[NiceHash](https://www.nicehash.com/blog/post/how-to-start-mining-zec-equihash-on-nicehash)
-- 隐私支付：以 Bitcoin (BTC) 支付
-- 矿池类型：Hashrate 市场 / 代理矿池
-- 矿池手续费：0,5% - 1%
+- 私密支付：以 Bitcoin (BTC) 支付
+- pool 类型：算力市场 / 代理 pool
+- pool 手续费：0.5% - 1%
 
 ---
 
-### [Sovright Mining Pool](https://mining.sovright.com/)
+### [Sovright 挖矿池](https://mining.sovright.com/)
 
 <a href="https://mining.sovright.com/">
     <img src="/content-images/-qOtwa1p_400x400-fce1523375.webp" alt="Sovright Logo" width="200" height="100"/>
 </a>
 
-- 网站：[Sovright Mining Pool](https://mining.sovright.com/)
-- 隐私支付：是
-- 矿池类型：按最近 N 份额支付（PPLNS）
-- 矿池手续费：1%
+- 网站：[Sovright 挖矿池](https://mining.sovright.com/)
+- 私密支付：是
+- pool 类型：按最后 N 份额支付 (PPLNS)
+- pool 手续费：1%

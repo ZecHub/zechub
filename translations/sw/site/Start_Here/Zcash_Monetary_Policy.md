@@ -4,12 +4,12 @@
 
 # Misingi ya Zcash
 
-## Je, uchumi wa Zcash?
+## Uchumi wa Zcash ni upi?
 
-Msingi wa fedha Zcash's ni sawa na usambazaji usiobadilika Bitcoin's wa vipande milioni 21 vya sarafu ZEC. Kila baada ya sekunde 75, mpya [kizuizi](https://zcash.readthedocs.io/en/latest/rtd_pages/glossary.html#:~:text=Block,mempool%20in%20an%20unconfirmed%20state.) inachimbwa kwa kutumia blockchain Zcash na zawadi ya blockchain ya 1.5625 ZEC inaanza kutumika. Zawadi hii ya blockchain inasambazwa kwa wachimbaji na [Mfuko wa maendeleo Zcash](https://zips.z.cash/zip-1014).
+Msingi wa fedha wa Zcash ni sawa na ugavi usiobadilika wa Bitcoin wa vitengo vya sarafu (currency units) vya ZEC milioni 21. Kila sekunde 75, [block](https://zcash.readthedocs.io/en/latest/rtd_pages/glossary.html#:~:text=Block,mempool%20in%20an%20unconfirmed%20state.) mpya huchimbwa kwenye blockchain ya Zcash na zawadi ya block (block reward) ya ZEC 1.5625 huingizwa katika mzunguko. Zawadi hii ya block hugawanywa kwa wachimbaji (miners) na mfuko wa maendeleo (development fund) wa [Zcash](https://zips.z.cash/zip-1014).
 
-Kiasi cha zawadi ya block hupunguzwa kwa nusu kila baada ya miaka minne hadi ZEC zote milioni 21 zitakapokuwa zikitumika. Mfumuko wa bei Zcash karibu unafanana kabisa na ule wa Bitcoin. Ni muhimu kutambua kwamba kadri sarafu mpya zinavyoundwa mfumuko wa bei hupungua, na kila baada ya nusu kiwango hupungua sana.
+Kiasi cha zawadi ya block hupunguzwa kwa nusu takribani kila baada ya miaka minne hadi ZEC zote milioni 21 ziwe katika mzunguko. Mfumuko wa sarafu (inflation) wa Zcash karibu unaiga kwa usahihi ule wa Bitcoin. Ni muhimu kutambua kwamba kadiri sarafu mpya zinavyoundwa, mfumuko wa sarafu hupungua, na katika kila upunguzaji nusu (halvening) kiwango hupungua kwa kiasi kikubwa.
 
 ## Rasilimali
 
-[Je, uchumi wa Zcash?](https://z.cash/support/faq/#:~:text=Zcash's%20monetary%20base%20is%20the,3.125%20ZEC%20comes%20into%20circulation.)
+[Uchumi wa Zcash ni upi?](https://z.cash/support/faq/#:~:text=Zcash's%20monetary%20base%20is%20the,3.125%20ZEC%20comes%20into%20circulation.)

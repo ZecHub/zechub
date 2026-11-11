@@ -1,10 +1,10 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/guides/Raspberry_pi5_Zebra_Lightwalletd_Zingo.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="ページを編集"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# RPi5 Zebra lightwalletd with Zingo
+# RPi5 Zebra lightwalletd と Zingo
 
-## ビデオチュートリアル
+## 動画チュートリアル
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -17,6 +17,7 @@
   />
 </div>
 
+
 ## 依存関係
 
 ```bash
@@ -24,27 +25,27 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 sudo apt install libclang-dev clang pkg-config openssl protobuf-compiler npm
 ```
 
-## Zebraのコンパイル
+## Zebra をコンパイルします
 
 [Zebra GitHub](https://github.com/ZcashFoundation/zebra)
 
 * `time cargo install --git https://github.com/ZcashFoundation/zebra --tag v3.1.0 zebrad`
 
-## zebrad.tomlの設定
+## zebrad.toml を設定します
 
-追加:
+追加します:
 
 `listen_addr = '127.0.0.1:8232'`
 
 `cache_dir = "/media/zebra5/zebra/"`
 
-## Zebraの同期
+## Zebra を同期します
 
 * `zebrad start`
 
-## lightwalletdのコンパイル
+## lightwalletd をコンパイルします
 
-* Goをインストール
+* Goをインストールします
 
 ```bash
 wget https://go.dev/dl/go1.25.5.linux-arm64.tar.gz
@@ -52,7 +53,7 @@ sudo rm -rf /usr/local/go && sudo tar -C /usr/local -xzf go1.25.5.linux-arm64.ta
 export PATH=$PATH:/usr/local/go/bin
 ```
 
-* lightwalletdをインストール
+* lightwalletd をインストールします
 
 ```bash
 git clone https://github.com/zcash/lightwalletd
@@ -62,14 +63,14 @@ make install
 export PATH=$PATH:~/go/bin
 ```
 
-## lightwalletdの同期
+## lightwalletd を同期します
 
-* データディレクトリの変更に注意
+* データディレクトリの変更に注意してください
 
   `lightwalletd --zcash-conf-path ~/.config/zcash.conf --data-dir /media/zebra5/zebra/.cache/lightwalletd --log-file /dev/stdout --no-tls-very-insecure`
 
 
-## NodeJSのインストール
+## NodeJS をインストールします
 
 ```bash
  curl -fsSL https://deb.nodesource.com/setup_23.x -o nodesource_setup.sh
@@ -77,13 +78,13 @@ export PATH=$PATH:~/go/bin
  sudo apt update
  sudo apt install nodejs
 ```
-エラーが発生した場合は、[ここ](https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-22-04)に代替のNodeJSインストール方法があります。
+エラーが発生した場合は、[こちら](https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-22-04)にNodeJSをインストールする別の方法があります。
 
-## Yarnのインストール
+## Yarnをインストールします
 
 `corepack enable`
 
-## Zingoのインストール
+## Zingo をインストールします
 
 ```bash
 git clone https://github.com/zingolabs/zingo-pc.git
@@ -95,12 +96,12 @@ sudo apt-get install ruby-dev build-essential && sudo gem i fpm -f
 yarn dist:linux
 ```
 
-## Zingo-PCの起動
+## Zingo-PC を起動します
 
-* AppImageを使用するか、解凍フォルダ内のバイナリを使用できます。
-* お楽しみください! :)
+* AppImage、または展開したフォルダ内のバイナリを使用できます
+* お楽しみください！ :)
 
-# 参考資料
+# 情報源
 
 ```markdown
 https://github.com/ZcashFoundation/zebra

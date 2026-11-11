@@ -64,6 +64,99 @@ test("parse: escaped pipes stay inside a cell", () => {
   assert.equal(t.rows[0].proposed, "X | Y");
 });
 
+// ---- fenced examples (issue #2565) -----------------------------------------
+
+const FENCE_HEAD = "| # | ID | English | Proposed | \u2705 Confirmed | Notes |\n|---|---|---|---|---|---|\n";
+const fencedRow = (target) => `| 1 | wallet | wallet | ${target} | OK | |\n`;
+const realTable = FENCE_HEAD + "| 1 | wallet | wallet | Dompet | OK | |\n";
+
+test("fences: a review table inside ``` or ~~~ is an example, not an answer", () => {
+  for (const f of ["```", "~~~", "````", "~~~~~"]) {
+    const md = `Example:\n\n${f}markdown\n${FENCE_HEAD}${fencedRow("FENCED")}${f}\n`;
+    assert.deepEqual(parseKit(md), [], f);
+    const { report } = run(skeleton(), md);
+    assert.ok(report.errors.includes("no table with a \u2705 column found"), f);
+    assert.deepEqual(report.new, [], f);
+  }
+});
+
+test("fences: a real table after a closed example is still parsed, the example is not", () => {
+  const md = `\`\`\`\n${FENCE_HEAD}${fencedRow("FENCED")}\`\`\`\n\n${realTable}`;
+  const tables = parseKit(md);
+  assert.equal(tables.length, 1);
+  assert.deepEqual(tables[0].rows.map((r) => [r.id, r.proposed]), [["wallet", "Dompet"]]);
+  const { glossary } = run(skeleton(), md);
+  assert.equal(glossary.terms.wallet.target, "Dompet");
+});
+
+test("fences: a fence closes only on the same character, at least as long, with nothing after", () => {
+  for (const [open, notClose] of [["```", "~~~"], ["````", "```"], ["~~~", "```"], ["```", "``` text"]]) {
+    const md = `${open}\n${notClose}\n${FENCE_HEAD}${fencedRow("FENCED")}${open}\n`;
+    assert.deepEqual(parseKit(md), [], `${open} / ${notClose}`);
+  }
+});
+
+test("fences: an unclosed fence hides everything after it, and the import reports it", () => {
+  assert.deepEqual(parseKit(`\`\`\`\n${realTable}`), []);
+  const { report } = run(skeleton(), `\`\`\`\n${realTable}`);
+  assert.ok(report.errors.some((e) => e.startsWith("code fence opened at line 1 is never closed")), JSON.stringify(report.errors));
+});
+
+test("fences: a fence left open between two tables is an import error, not a silent loss", () => {
+  // Opened with four backticks, "closed" with three: still open (length rule).
+  const md = `${realTable}\n\`\`\`\`\nsnippet\n\`\`\`\n\n${FENCE_HEAD}| 1 | shielded | shielded | Terlindungi | OK | |\n`;
+  assert.equal(parseKit(md).length, 1);
+  const { report } = run(skeleton(), md);
+  assert.ok(report.errors.some((e) => e.startsWith("code fence opened at line 5 is never closed")), JSON.stringify(report.errors));
+});
+
+test("fences: CRLF kits are handled by parseKit and markAllOk", () => {
+  const ex = "```\r\n| # | ID | English | Proposed | \u2705 Confirmed | Notes |\r\n|---|---|---|---|---|---|\r\n| 1 | wallet | wallet | X |  | |\r\n```\r\n";
+  assert.deepEqual(parseKit(ex), []);
+  assert.equal(markAllOk(ex), ex);
+});
+
+test("fences: a closer must sit at the opener's blockquote depth", () => {
+  // CommonMark: inside a top-level fence, "> ```" is content, not a closer.
+  assert.deepEqual(parseKit(`\`\`\`\n> \`\`\`\n${realTable}\`\`\`\n`), []);
+  assert.equal(parseKit(`> \`\`\`\n> example\n> \`\`\`\n\n${realTable}`).length, 1);
+});
+
+test("fences: a list-item fence line inside an open fence is content, not a closer", () => {
+  // Balanced afterwards, so a wrong close would import the example silently.
+  const md = `\`\`\`\n- \`\`\`\n${FENCE_HEAD}${fencedRow("FENCED")}\`\`\`\ncode\n\`\`\`\n`;
+  assert.deepEqual(parseKit(md), []);
+  // A list-item example still closes on its indented closer.
+  assert.equal(parseKit(`- \`\`\`\n  example\n  \`\`\`\n\n${realTable}`).length, 1);
+});
+
+test("fences: indented, quoted and list-item fences count; inline code and a backtick info string do not", () => {
+  for (const f of ["   ```", "  ~~~", "> ```", "- ```", "1. ```"]) {
+    assert.deepEqual(parseKit(`${f}\n${FENCE_HEAD}${fencedRow("FENCED")}${f}\n`), [], f);
+  }
+  // Not fences: inline code, a ``` line whose info string has a backtick, and
+  // a list marker without the space after it.
+  for (const pre of ["Use `OK` in the \u2705 column.", "``` a`b", "-```"]) {
+    const tables = parseKit(`${pre}\n\n${realTable}`);
+    assert.equal(tables.length, 1, pre);
+  }
+});
+
+test("fences: headings and section markers inside a fence do not change the section", () => {
+  const md = "(`menuLabels`: 1 labels)\n\n```\n# Heading\n(`terms`: 1)\n```\n\n| # | English | Indonesian | \u2705 Confirmed | Notes |\n|---|---|---|---|---|\n| 1 | Wallets | Dompet | OK | |\n";
+  const [t] = parseKit(md);
+  assert.equal(t.kind, "ui");
+  assert.equal(t.section, "menuLabels");
+});
+
+test("fences: markAllOk leaves example tables untouched", () => {
+  const ex = `\`\`\`\n| # | ID | English | Proposed | \u2705 Confirmed | Notes |\n|---|---|---|---|---|---|\n| 1 | wallet | wallet | X |  | |\n\`\`\`\n`;
+  const real = "| # | ID | English | Proposed | \u2705 Confirmed | Notes |\n|---|---|---|---|---|---|\n| 1 | wallet | wallet | Dompet |  | |\n";
+  const out = markAllOk(ex + "\n" + real);
+  assert.ok(out.startsWith(ex), "fenced example changed");
+  assert.equal(parseKit(out)[0].rows[0].confirmed, "OK");
+});
+
 // ---- cell rules (design section 2.2) --------------------------------------
 
 test("cells: OK, keep English, keep \"x\", a single rendering, empty", () => {

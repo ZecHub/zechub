@@ -1,9 +1,9 @@
-# 屏蔽新闻简报
+# 屏蔽[Shielded]新闻简报[Newsletters]
 
 
-## 设置
+## 设置[Setup]
 
- * Zebrad 节点正在运行，且已完全同步，已启用 RPC 并配置为使用 cookies
+ * Zebrad 节点正在运行、已完全同步，并且已启用 RPC 且配置为使用 cookies
  * zainod 已完全同步
  * Zallet 已设置为运行 RPC
 
@@ -12,9 +12,9 @@
 
 `./target/release/zallet -c /home/zktails/.zallet/zallet.toml start`
 
-使用已配置好的 zallet.toml 文件
+使用已配置的 zallet.toml 文件
 
-toml 示例：
+示例 TOML：
 
 ```markdown
 [builder]
@@ -72,7 +72,7 @@ bind = ["127.0.0.1:8237"]
 
 `chmod +x toCurl.sh`
 
-修改正确的 zebrad RPC（8232）端口，并填入 zebrad cookie 中的用户名和密码
+修改正确的 zebrad RPC (8232) 端口，并包含来自 zebrad cookie 的用户名和密码
 
 
 `__cookie__:yourpasswordhere`
@@ -107,15 +107,15 @@ z_recoveraccounts
 z_sendmany
 z_viewtransaction
 ```
-注意：请确保你在运行脚本的文件夹中有一份 zallet 可执行文件副本
+注意：请确保在运行脚本的文件夹中有一份 zallet 可执行文件
 
 ### 运行脚本
 
 `chmod +x ascii2hex hex2ascii shieldNewsletter.sh txBuilderFromFile.sh toCurl.sh`
 
-更新 daoAddress.md，填入你想使用的 UA
+使用您想要使用的 UA 更新 daoAddress.md
 
-打开 txBuilderFromFile.sh，并将 `from` 变量更新为你 zallet 钱包中已有资金的 UA
+打开 txBuilderFromFile.sh，并将 "from" 变量更新为您 zallet 钱包中有资金的 UA
 
 然后，
 

@@ -1,58 +1,58 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/guides/Verifying_Zcash_Releases.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Hariri Ukurasa"/>
 </a>
 
-# Kuthibitisha Zcash Releases
+# Kuthibitisha Matoleo ya Zcash
 
-## TL;DR
+## Kwa ufupi
 
-- Kupakua Zcash binary si sawa na kupata moja mradi kuchapishwa. uthibitishaji ni jinsi gani unaweza kusema tofauti.
-- Checksum inathibitisha faili aliwasili intact. ** saini** inathibitisha ambaye kuzalishwa yake. Unahitaji wote wawili, na checksum peke yake inaonyesha kidogo sana.
-- Zebra kuchapisha a `SHA256SUMS` faili pamoja na ** Sigstore** kifungu kwamba vifungo kutolewa kwa maalum GitHub vitendo workflow, tag na kuagiza  hakuna usimamizi muhimu required.
-- Zallet kuchapisha detached ** GPG** saini (`.asc`) pamoja na SLSA provenance and a SBOM.
-- Zcash kusaini ufunguo rotated katika 2026 kutoka Electric Coin Company kwa Zcash Open Development Lab (ZODL). Kama kuthibitishwa releases zamani, unahitaji mpya muhimu  na handover taarifa ni saini na funguo zote mbili, hivyo unaweza kudhibitisha mzunguko yenyewe.
-- `gpg` ripoti ya ** subkey** kwamba saini faili, si muhimu msingi aitwaye katika matangazo. fingerprint ambayo inaonekana makosa ni kawaida subkey, sio mashambulizi.
-- Kama uthibitisho inashindwa, wala kukimbia binary.
+- Kupakua faili ya binary ya Zcash si sawa na kupata ile iliyochapishwa na mradi. Uthibitishaji ndio unavyotofautisha kati ya hizo mbili.
+- Checksum inathibitisha kuwa faili ilifika ikiwa kamili. **Sahihi [signature]** inathibitisha aliyeitengeneza. Unahitaji vyote viwili, na checksum peke yake inathibitisha mambo machache sana.
+- Zebra huchapisha faili ya `SHA256SUMS` pamoja na kifurushi cha **Sigstore** kinachounganisha toleo na mtiririko mahususi wa kazi wa GitHub Actions, tagi na commit — hakuna usimamizi wa funguo unaohitajika.
+- Zallet huchapisha sahihi za **GPG** zilizotenganishwa (`.asc`) pamoja na asili ya SLSA na SBOM.
+- Ufunguo wa kutia sahihi wa Zcash ulibadilishwa mwaka 2026 kutoka Electric Coin Company hadi Zcash Open Development Lab (ZODL). Ikiwa ulithibitisha matoleo ya zamani, unahitaji ufunguo mpya — na taarifa ya makabidhiano imetiwa sahihi kwa funguo zote mbili, hivyo unaweza kuthibitisha mabadiliko yenyewe.
+- `gpg` huripoti **subkey** iliyotia sahihi faili, si ufunguo mkuu unaotajwa kwenye matangazo. Alama ya kidole inayoonekana kuwa si sahihi kwa kawaida ni subkey, si shambulio.
+- Ikiwa uthibitishaji unashindwa, usiendeshe binary.
 
-*Imethibitishwa dhidi ya Zebra. `v6.3.0` na Zallet `v0.1.0-beta.2` on 2026-08-18.*
+*Imethibitishwa dhidi ya Zebra `v6.3.0` na Zallet `v0.1.0-beta.2` tarehe 2026-08-18.*
 
-## Kwa nini hii ni muhimu zaidi kwa Zcash
+## Kwa nini hili ni muhimu zaidi kwa Zcash
 
-Binary ya mkoba iliyobadilishwa inaweza kuondoa ufunguo wa matumizi au ufunguoo wa kutazama. Tofauti na nywila iliyovunjika, upotezaji huo ni wa kudumu: hakuna kurudi nyuma, hakuna malipo tena wala dawati la msaada. Shughuli zilizohifadhiwa hulinda kile kinachotokea * kwenye mnyororo*  haitoi ulinzi wowote wakati programu unayoendesha imebadilishwa kabla haijafika kwako.
+Binary ya pochi iliyohujumiwa inaweza kutoa kwa siri ufunguo wa kutumia pesa au ufunguo wa kutazama. Tofauti na nenosiri lililoathiriwa, hasara hiyo ni ya kudumu: hakuna kurejesha hali ya nyuma, hakuna kurejeshewa malipo na hakuna dawati la usaidizi. Miamala ya faragha hulinda kinachotokea *on chain* — haitoi ulinzi wowote pale programu unayoendesha ilipobadilishwa kabla hata haijakufikia.
 
-Hii ni moja ya njia chache mashambulizi ambapo dhamana faragha wa itifaki tu si muhimu. uthibitisho ni safu kwamba inashughulikia yake.
+Hii ni mojawapo ya njia chache za mashambulizi ambapo dhamana za faragha za itifaki hazihusiki kabisa. Uthibitishaji ndio safu inayolinda dhidi yake.
 
-## Mtindo wa tishio  nini uthibitisho hufanya na haupati
+## Muundo wa tishio — uthibitishaji hugundua na hauchunguzi nini
 
-**Vitu vya samaki:**
+**Hugundua:**
 
-- Kioo tampered au faili iliyopita kutumika kutoka mahali pengine kuliko ukurasa wa kutolewa mradi.
-- Mtu-katikati kubadilishana wakati wa kupakua.
-- CDN walioathirika au uhamisho wa usambazaji mwenyeji.
-- Ufisadi wa ajali katika usafirishaji.
+- Nakala mbadala iliyohujumiwa au faili iliyobadilishwa inayotolewa kutoka mahali pasipo ukurasa wa matoleo wa mradi.
+- Ubadilishaji wa mtu-katikati wakati wa kupakua.
+- CDN iliyoathiriwa au seva ya usambazaji iliyotekwa.
+- Uharibifu wa kimakosa wakati wa uhamishaji.
 
-** Haupati:**
+**Haugundui:**
 
-- Mhifadhi ambaye anasaini nambari mbaya. Saini itathibitisha kwa usahihi; inathibitisha asili, sio nia.
-- Kujenga kuathirika mwenyeji wa uzalishaji saini-lakini-mbaya artifact. Hii ni nini kujenga reproducible na uthibitisho provenance zipo kwa finyu.
-- ufunguo wewe got kutoka chanzo sawa compromised kama binary. mshambuliaji udhibiti wote faili na muhimu kuangalia dhidi yake, uthibitisho anasema chochote kwako.
+- Mtunza mradi anayetia sahihi msimbo hasidi. Sahihi itathibitishwa ipasavyo; inathibitisha chanzo, si nia.
+- Seva ya ujenzi iliyoathiriwa inayotoa artifact iliyotiwa sahihi lakini hasidi. Hiki ndicho ambacho ujenzi unaoweza kuzalishwa upya na uthibitisho wa asili vimekusudiwa kupunguza.
+- Ufunguo ulioupata kutoka chanzo kilekile kilichoathiriwa kama binary. Ikiwa mshambulizi anadhibiti faili na ufunguo unaoulinganisha nao, uthibitishaji haukuambii chochote.
 
-Hiyo hatua ya mwisho ni moja viongozi wengi ruka. ** Ambapo kupata muhimu mambo kama vile kuendesha amri.**
+Jambo hilo la mwisho ndilo miongozo mingi huliruka. **Mahali unapopata ufunguo ni muhimu sawa na kuendesha amri.**
 
 ---
 
-## Sehemu ya 1  Zebra: checksums na Sigstore
+## Sehemu ya 1 — Zebra: checksum na Sigstore
 
-Zebra kuchapisha mali hizi kwa kila kutolewa:
+Zebra huchapisha assets hizi kwa kila toleo:
 
-| Mali | Kusudi |
+| Asset | Kusudi |
 |---|---|
-| `zebrad-<version>-<arch>.tar.gz` | kumbukumbu ya jozi |
-| `zebrad-<version>-<arch>.tar.gz.sha256` | ukaguzi wa kila faili |
-| `SHA256SUMS` | checksums kwa usanifu wote |
-| `SHA256SUMS.sigstore.json` | Usaini wa kifurushi cha Sigstore `SHA256SUMS` |
+| `zebrad-<version>-<arch>.tar.gz` | kumbukumbu ya binary |
+| `zebrad-<version>-<arch>.tar.gz.sha256` | checksum ya kila faili |
+| `SHA256SUMS` | checksum za usanifu wote |
+| `SHA256SUMS.sigstore.json` | kifurushi cha Sigstore kinachotia sahihi `SHA256SUMS` |
 
-### Hatua ya 1  Pakua
+### Hatua ya 1 — Pakua
 
 ```bash
 BASE=https://github.com/ZcashFoundation/zebra/releases/download/v6.3.0
@@ -61,21 +61,21 @@ curl -sLO $BASE/SHA256SUMS
 curl -sLO $BASE/SHA256SUMS.sigstore.json
 ```
 
-### Hatua ya 2  Angalia checksum
+### Hatua ya 2 — Angalia checksum
 
 ```bash
 sha256sum -c --ignore-missing SHA256SUMS
 ```
 
-pato halisi:
+Matokeo halisi:
 
 ```
 zebrad-6.3.0-x86_64-unknown-linux-gnu.tar.gz: OK
 ```
 
-`--ignore-missing` inahitajika hapa kwa sababu `SHA256SUMS` inashughulikia kila usanifu na wewe tu kupakuliwa moja. Bila hiyo, `sha256sum` ripoti ya kukosa aarch64 archive kama kushindwa na unaweza misread kupita kama kushinda.
+`--ignore-missing` inahitajika hapa kwa sababu `SHA256SUMS` inajumuisha kila usanifu na ulipakua mmoja tu. Bila hiyo, `sha256sum` huripoti kumbukumbu ya aarch64 isiyopo kama hitilafu na unaweza kusoma kimakosa ufaulu kama kushindwa.
 
-Tofauti ya faili pia inafanya kazi:
+Toleo la kila faili pia linafanya kazi:
 
 ```bash
 sha256sum -c zebrad-6.3.0-x86_64-unknown-linux-gnu.tar.gz.sha256
@@ -85,17 +85,17 @@ sha256sum -c zebrad-6.3.0-x86_64-unknown-linux-gnu.tar.gz.sha256
 zebrad-6.3.0-x86_64-unknown-linux-gnu.tar.gz: OK
 ```
 
-**Hii hatua peke yake haitoshi.** You kupakuliwa checksum kutoka sehemu moja kama binary. Mtu yeyote ambaye anaweza kuchukua nafasi ya mmoja angeweza kuchukua nafasi nyingine. Checksum inathibitisha uadilifu; Hatua inayofuata inathibitisha asili.
+**Hatua hii pekee haitoshi.** Ulipakua checksum kutoka mahali pamoja na binary. Mtu yeyote aliyeweza kubadilisha moja angeweza kubadilisha nyingine. Checksum inathibitisha ukamilifu; hatua inayofuata inathibitisha chanzo.
 
-### Hatua 2b  Same kuangalia kwenye Windows
+### Hatua ya 2b — Ukaguzi huo huo kwenye Windows
 
-PowerShell hana yoyote ya `-c` kuthibitisha mode, hivyo kulinganisha manually:
+PowerShell haina modi ya uthibitishaji ya `-c`, hivyo unalinganisha mwenyewe:
 
 ```powershell
 Get-FileHash .\zebrad-6.3.0-x86_64-unknown-linux-gnu.tar.gz -Algorithm SHA256 | Format-List
 ```
 
-pato halisi:
+Matokeo halisi:
 
 ```
 Algorithm : SHA256
@@ -103,19 +103,19 @@ Hash      : 86326F5324F4E59CC2008C15F94407CC8D5FEACF75D64942164BB5F08ECA8C5E
 Path      : \\wsl$\Ubuntu\home\briefking\verify\zebrad-6.3.0-x86_64-unknown-linux-gnu.tar.gz
 ```
 
-Linganisha na matokeo ya Linux mapema katika ukurasa huu:
+Linganisha hiyo na matokeo ya Linux mapema katika ukurasa huu:
 
 ```
 86326f5324f4e59cc2008c15f94407cc8d5feacf75d64942164bb5f08eca8c5e
 86326F5324F4E59CC2008C15F94407CC8D5FEACF75D64942164BB5F08ECA8C5E
 ```
 
-**Identical values.** Hex hubeba hakuna kesi, na hii ni moja ya kawaida kengele bandia juu ya Windows.
+**Thamani zinazofanana.** Hex haina herufi kubwa au ndogo, na hili ndilo tahadhari ya uongo inayotokea mara nyingi zaidi kwenye Windows.
 
-Mtego mwingine wa Windows:
+Mitego miwili zaidi maalumu kwa Windows:
 
-- ** Hakuna msimbo wa kuondoka kuangalia.** On Linux, `sha256sum -c` anarudi 1 juu ya kushindwa na script inaweza kutenda kwa hilo. `Get-FileHash` tu prints hash  kulinganisha ni yako kufanya, na wako kupata makosa kwa skimming.
-- ** Kusoma 64 hex wahusika kwa jicho ni unreliable.** Acha shell kufanya hivyo:
+- **Hakuna msimbo wa kutoka wa kukagua.** Kwenye Linux, `sha256sum -c` hurejesha 1 inaposhindwa na script inaweza kuchukua hatua kulingana nayo. `Get-FileHash` huchapisha hash pekee — ni wajibu wako kufanya ulinganisho, na wajibu wako kukosea kwa kusoma kwa juu juu.
+- **Kusoma vibambo 64 vya hex kwa macho si kutegemewa.** Acha shell ifanye hivyo:
 
 ```powershell
 $expected = "86326f5324f4e59cc2008c15f94407cc8d5feacf75d64942164bb5f08eca8c5e"
@@ -123,13 +123,13 @@ $actual = (Get-FileHash .\zebrad-6.3.0-x86_64-unknown-linux-gnu.tar.gz -Algorith
 if ($actual -eq $expected) { "OK" } else { "MISMATCH" }
 ```
 
-> ** On MacOS:** kazi ni sawa, lakini BSD userland meli `shasum` badala ya kuwa na `sha256sum`  matumizi `shasum -a 256 -c --ignore-missing SHA256SUMS`. Mwandishi wa ukurasa huu hakuwa na mashine ya macOS inapatikana, hivyo amri hiyo ni kumbukumbu kutoka zana Apple badala ya kukimbia. Kama kuthibitisha juu ya MacOS, tafadhali kufungua PR uthibitisho au kusahihisha yake.
+> **Kwenye macOS:** mtiririko wa kazi ni uleule, lakini BSD userland huja na `shasum` badala ya `sha256sum` — tumia `shasum -a 256 -c --ignore-missing SHA256SUMS`. Mwandishi wa ukurasa huu hakuwa na mashine ya macOS, hivyo amri hiyo imeandikwa kwa kutegemea zana za Apple badala ya kuendeshwa. Ikiwa unathibitisha kwenye macOS, tafadhali fungua PR inayothibitisha au kusahihisha amri hiyo.
 
-### Hatua 3  Angalia mfuko Sigstore
+### Hatua ya 3 — Thibitisha kifurushi cha Sigstore
 
-Sigstore inachukua nafasi ya funguo za kusaini kwa muda mrefu na vyeti vya muda mfupi vinavyounganishwa na kitambulisho cha CI, vilivyorekodiwa kwenye kumbukumbu ya uwazi wa umma. Hakuna mtu anayemiliki ufunguo wa kutolewa ambao unaweza kuibiwa.
+Sigstore hubadilisha funguo za muda mrefu za kutia sahihi kwa vyeti vya muda mfupi vinavyofungwa kwa utambulisho wa CI, vilivyorekodiwa katika logi ya uwazi ya umma. Hakuna anayeshikilia ufunguo wa toleo unaoweza kuibiwa.
 
-Njia moja kwa moja inatumia `cosign`:
+Njia ya moja kwa moja hutumia `cosign`:
 
 ```bash
 cosign verify-blob \
@@ -139,21 +139,21 @@ cosign verify-blob \
   SHA256SUMS
 ```
 
-Wale wawili `--certificate-*` bendera ni hatua nzima. ** Bila yao wewe tu kuthibitisha kwamba mtu, mahali fulani saini faili.** Pamoja nao unathibitisha ilikuwa kusainiwa na workflow katika hazina Zebra, authenticated kwa GitHub ya OIDC mtoa.
+Bendera mbili za `--certificate-*` ndizo kiini cha jambo. **Bila hizo unathibitisha tu kwamba mtu fulani, mahali fulani alitia sahihi faili.** Nazo zinathibitisha kuwa ilitiwa sahihi na mtiririko wa kazi katika hifadhi ya Zebra, ulioidhinishwa na mtoaji wa OIDC wa GitHub.
 
-> ️ **Matatizo ya toleo.** Wazee cosign kujenga hawezi kusoma sasa Sigstore kifungu format. Running hapo juu na cosign `v2.4.1` hutengeneza:
+> ⚠️ **Toleo ni muhimu.** Matoleo ya zamani ya cosign hayawezi kusoma umbizo la sasa la kifurushi cha Sigstore. Kuendesha yaliyo hapo juu kwa cosign `v2.4.1` hutoa:
 >
 > ```
-> Kosa: kifungu haina vyeti kwa ajili ya uthibitisho, tafadhali kutoa ufunguo wa umma
+> Error: bundle does not contain cert for verification, please provide public key
 > ```
 >
-> mfuko * haina* vyenye cheti  ni anakaa chini ya `verificationMaterial.certificate.rawBytes`, ambayo releases zamani si kuangalia kwa. Hii ni mteja mapungufu, sio kutolewa kuvunjwa. Kama hit it, kuboresha cosign badala ya kuhitimisha download mbaya. usambazaji-packaged cosign mara nyingi vizuri nyuma upstream.
+> Kifurushi *kina* cheti — kiko chini ya `verificationMaterial.certificate.rawBytes`, ambako matoleo ya zamani hayatafuti. Hiki ni kizuizi cha mteja, si toleo lililoharibika. Ukikumbana nacho, sasisha cosign badala ya kuhitimisha kuwa upakuaji ni mbaya. Cosign iliyofungwa katika usambazaji mara nyingi iko nyuma sana ya upstream.
 
-Hatua mbili zifuatazo kuonyesha jinsi ya kuthibitisha mfuko huo kwa mkono, ambayo ni thamani ya kuelewa bila kujali  na ni workable fallback wakati yako cosign kujenga si kushirikiana.
+Hatua mbili zinazofuata zinaonyesha jinsi ya kuthibitisha kifurushi kilekile kwa mkono, jambo linalofaa kuelewa bila kujali hali yako — na ni mbadala unaotekelezeka wakati muundo wako wa cosign haukubaliani.
 
-### Hatua ya 4  Soma kile cheti kweli anasema
+### Hatua ya 4 — Soma cheti kinachodai hasa nini
 
-Unaweza kukagua kifungu bila `cosign`, ambayo ni muhimu kwa ajili ya kuelewa nini wewe kuamini. Extract hati:
+Unaweza kukagua kifurushi bila `cosign`, jambo linalofaa kuelewa unachoamini. Toa cheti:
 
 ```bash
 python3 -c "
@@ -164,7 +164,7 @@ open('cert.der','wb').write(base64.b64decode(d['verificationMaterial']['certific
 openssl x509 -in cert.der -inform DER -noout -issuer -ext subjectAltName
 ```
 
-pato halisi kwa Zebra v6.3.0:
+Matokeo halisi ya Zebra v6.3.0:
 
 ```
 issuer=O = sigstore.dev, CN = sigstore-intermediate
@@ -172,9 +172,9 @@ X509v3 Subject Alternative Name: critical
     URI:https://github.com/ZcashFoundation/zebra/.github/workflows/zfnd-release-binaries.yml@refs/tags/v6.3.0
 ```
 
-Subject jina mbadala ni utambulisho. Inaita hazina, faili halisi ya mtiririko wa kazi na tag. Sigstore inajumuisha zaidi kujenga metadata katika upanuzi desturi:
+Subject Alternative Name ndio utambulisho. Hutaja hifadhi, faili mahususi ya mtiririko wa kazi, na tagi. Sigstore hujumuisha metadata zaidi ya ujenzi katika viendelezi maalumu:
 
-| Field | Thamani ya v6.3.0 |
+| Sehemu | Thamani ya v6.3.0 |
 |---|---|
 | OIDC issuer | `https://token.actions.githubusercontent.com` |
 | Source repository | `https://github.com/ZcashFoundation/zebra` |
@@ -184,11 +184,11 @@ Subject jina mbadala ni utambulisho. Inaita hazina, faili halisi ya mtiririko wa
 | Workflow run | `.../actions/runs/31424510487/attempts/1` |
 | Repository visibility | `public` |
 
-Kila moja ya haya ni checkable. commit hash lazima mechi tag katika hazina; kazi mtiririko kukimbia lazima kuwepo na kuwa umma.
+Kila moja kati ya haya inaweza kukaguliwa. Hash ya commit inapaswa kufanana na tagi katika hifadhi; uendeshaji wa mtiririko wa kazi unapaswa kuwepo na kuwa wa umma.
 
-### Hatua 5  Thibitisha saini kwa njia ya cryptographically
+### Hatua ya 5 — Thibitisha sahihi kwa kriptografia
 
-Unaweza kuthibitisha saini moja kwa moja na OpenSSL:
+Unaweza kuthibitisha sahihi moja kwa moja kwa OpenSSL:
 
 ```bash
 python3 -c "
@@ -200,57 +200,57 @@ openssl x509 -in cert.der -inform DER -pubkey -noout > pub.pem
 openssl dgst -sha256 -verify pub.pem -signature sig.bin SHA256SUMS
 ```
 
-pato halisi:
+Matokeo halisi:
 
 ```
 Verified OK
 ```
 
-Kifurushi pia kumbukumbu digest ni saini. kuthibitisha inalingana faili yako ya ndani:
+Kifurushi pia hurekodi digest iliyotiwa sahihi. Thibitisha kuwa inalingana na faili yako ya ndani:
 
 ```
 bundle digest : 3eb5de0634f637e793d0411b6c7108802a36e1219f9151803ecc6108fd0f59f6
 local  digest : 3eb5de0634f637e793d0411b6c7108802a36e1219f9151803ecc6108fd0f59f6
 ```
 
-### Hatua ya 6  Upatikanaji wa rekodi za uwazi
+### Hatua ya 6 — Ingizo la logi ya uwazi
 
-kifungu hubeba Rekor kuingia kuthibitisha saini ilichapishwa kwa umma, kiambatisho tu logi:
+Kifurushi hubeba ingizo la Rekor linalothibitisha kuwa sahihi ilichapishwa katika logi ya umma isiyoongezwa upya:
 
-| Field | Thamani |
+| Sehemu | Thamani |
 |---|---|
 | Rekor log index | `2412071838` |
 | Entry type | `hashedrekord v0.0.1` |
 | Integrated at | 2026-08-10 19:43:09 UTC |
 
-Hii ni nini hufanya kimya muhimu matumizi mabaya detectable. saini kwamba kamwe alionekana katika kumbukumbu, au ilionekana wakati implausible, ni ishara ya thamani kutenda juu ya. kulinganisha muda wa ushirikiano dhidi kutolewa tangazo.
+Hiki ndicho kinachofanya matumizi mabaya ya ufunguo kwa siri yaweze kugundulika. Sahihi ambayo haikuonekana kamwe kwenye logi, au ilionekana kwa wakati usioaminika, ni ishara inayostahili kuchukuliwa hatua. Linganisha muda wa ujumuishaji na tangazo la toleo.
 
-> ** Kumbuka juu ya OpenSSL njia:** ni kuthibitisha saini dhidi ufunguo wa umma cheti, lakini si yenyewe kuhalalisha mlolongo hati kwa mizizi Sigstore au kuangalia kuingia kumbukumbu ya ushirikishwaji ushahidi. `cosign verify-blob` Inafanya wote watatu. Matumizi OpenSSL kuelewa utaratibu; matumizi ya `cosign` kama hundi yako halisi.
+> **Dokezo kuhusu njia ya OpenSSL:** huthibitisha sahihi dhidi ya ufunguo wa umma wa cheti, lakini yenyewe haithibitishi mnyororo wa cheti hadi mzizi wa Sigstore wala hukagua uthibitisho wa ujumuishaji wa ingizo la logi. `cosign verify-blob` hufanya yote matatu. Tumia OpenSSL kuelewa utaratibu; tumia `cosign` kama ukaguzi wako halisi.
 
 ---
 
-## Sehemu ya 2  Zallet: saini GPG
+## Sehemu ya 2 — Zallet: sahihi za GPG
 
-Zallet kuchapisha seti tofauti ya mali:
+Zallet huchapisha seti tofauti ya assets:
 
-| Mali | Kusudi |
+| Asset | Kusudi |
 |---|---|
-| `zallet-<version>-<platform>.tar.gz` | kumbukumbu ya jozi |
-| `.tar.gz.asc` | Saini ya GPG iliyotenganishwa |
-| `.tar.gz.intoto.jsonl` | Uthibitisho wa asili ya SLSA |
+| `zallet-<version>-<platform>.tar.gz` | kumbukumbu ya binary |
+| `.tar.gz.asc` | sahihi ya GPG iliyotenganishwa |
+| `.tar.gz.intoto.jsonl` | uthibitisho wa asili wa SLSA |
 | `.tar.gz.provenance.json` | metadata ya asili |
-| `.tar.gz.sbom.spdx` | bili ya vifaa vya programu |
+| `.tar.gz.sbom.spdx` | muswada wa vifaa vya programu |
 
-### Hatua ya 1  Tambua ufunguo wa kutia sahihi kabla hujautafuta
+### Hatua ya 1 — Tambua ufunguo wa kutia sahihi kabla hujauanza kuutafuta
 
-Run uthibitishaji * kwanza*, bila muhimu kuingizwa:
+Endesha uthibitishaji *kwanza*, bila kuingiza ufunguo:
 
 ```bash
 gpg --verify zallet-v0.1.0-beta.2-linux-amd64.tar.gz.asc \
              zallet-v0.1.0-beta.2-linux-amd64.tar.gz
 ```
 
-pato halisi:
+Matokeo halisi:
 
 ```
 gpg: Signature made Tue Jul 28 19:18:44 2026 WAT
@@ -259,11 +259,11 @@ gpg:                issuer "sysadmin@zodl.com"
 gpg: Can't check signature: No public key
 ```
 
-Hii si kushindwa. Inakuambia saini ipo na majina hasa ambayo ufunguo unahitaji, ** kabla ya** kuanza kutafuta. Kumbuka alama za vidole na mtoaji, kisha kupata muhimu kutoka chanzo huru wa download.
+Hii si kushindwa. Inakuambia sahihi ipo na kutaja kwa usahihi ufunguo unaohitaji, **kabla** ya kuanza kutafuta. Zingatia alama ya kidole na mtoaji, kisha pata ufunguo kutoka chanzo kisichotegemea upakuaji.
 
-> `gpg` prints timestamps katika eneo lako wakati. pato juu inaonyesha `WAT` (UTC+1); saini hiyo husoma hivi: `18:18:44 UTC` Wakati mwingine, wakati huohuo. Usione tofauti ya mzunguko wa saa kama kutofautisha.
+> `gpg` huchapisha mihuri ya muda katika saa za eneo lako. Matokeo hapo juu yanaonyesha `WAT` (UTC+1); sahihi ileile husomeka `18:18:44 UTC` mahali pengine. Ni wakati uleule. Usichukulie tofauti ya saa za eneo kama kutolingana.
 
-### Hatua 2  Ingiza ufunguo na kuthibitisha
+### Hatua ya 2 — Ingiza ufunguo na uthibitishe
 
 ```bash
 curl -sL https://apt.z.cash/zodl.asc -o zodl.asc
@@ -272,7 +272,7 @@ gpg --verify zallet-v0.1.0-beta.2-linux-amd64.tar.gz.asc \
              zallet-v0.1.0-beta.2-linux-amd64.tar.gz
 ```
 
-pato halisi:
+Matokeo halisi:
 
 ```
 gpg: Signature made Tue Jul 28 19:18:44 2026 WAT
@@ -285,19 +285,19 @@ Primary key fingerprint: 0338 34DD 49DE CF9D BB99  34BC 6C93 CA8E 58E2 6AB1
      Subkey fingerprint: 1FE9 9324 758F 2967 18B4  5706 7F4B BBBA 23F0 617F
 ```
 
-`Good signature` Ni nini alitaka. Mambo mawili katika pato kwamba kuchanganya watu, na wote ni ya kawaida.
+`Good signature` ndicho ulichotaka. Mambo mawili katika matokeo hayo huwachanganya watu, na yote mawili ni ya kawaida.
 
-### Kwa nini alama ya vidole hailingani na tangazo hilo?
+### Kwa nini alama ya kidole hailingani na tangazo
 
-ZODL muhimu ya mabadiliko taarifa majina alama za vidole `0338 34DD 49DE CF9D BB99 34BC 6C93 CA8E 58E2 6AB1`Lakini . `gpg --verify` taarifa ya `1FE9 9324 …  23F0 617F`Hiyo inaonekana kama kutofautisha na sivyo.
+Taarifa ya mabadiliko ya ufunguo wa ZODL hutaja alama ya kidole `0338 34DD 49DE CF9D BB99 34BC 6C93 CA8E 58E2 6AB1`. Lakini `gpg --verify` iliripoti `1FE9 9324 …  23F0 617F`. Hilo linaonekana kama kutolingana, lakini sivyo.
 
-`gpg` ripoti ya ** subkey** kwamba alifanya saini. tangazo majina ya ** msingi muhimu.* kuthibitisha uhusiano mwenyewe:
+`gpg` huripoti **subkey** iliyotengeneza sahihi. Tangazo hutaja **ufunguo mkuu**. Thibitisha uhusiano mwenyewe:
 
 ```bash
 gpg --list-keys --with-subkey-fingerprints sysadmin@zodl.com
 ```
 
-pato halisi:
+Matokeo halisi:
 
 ```
 pub   rsa4096 2026-03-23 [SCEA]
@@ -307,39 +307,39 @@ sub   rsa4096 2026-03-23 [SEA]
       1FE99324758F296718B457067F4BBBBA23F0617F
 ```
 
-Makala ya kwanza. `sub` line ni kusaini subkey; the `pub` Hii ni kwa nini uthibitishaji pato prints ** zote mbili** alama za vidole  kulinganisha * msingi* dhidi ya tangazo lolote kuchapishwa, na kutibu subkey mstari kama kukuambia ambayo sehemu ya ufunguo alifanya kazi.
+Mstari wa `sub` ni subkey ya kutia sahihi; mstari wa `pub` ni ufunguo mkuu. Utambulisho mmoja, kifurushi kimoja cha ufunguo. Hii ndiyo sababu matokeo ya uthibitishaji huchapisha alama za kidole **zote mbili** — linganisha *ufunguo mkuu* na tangazo lolote lililochapishwa, na uchukulie mstari wa subkey kama unaokuambia ni sehemu gani ya ufunguo iliyofanya kazi.
 
-Kugawanya funguo kwa njia hii ni makusudi: saini ya msingi inaweza kuzungushwa au kuondolewa bila kutupa utambulisho wa kimsingi na uaminifu wake uliokusanywa.
+Kugawanya funguo kwa njia hii ni kwa makusudi: subkey ya kutia sahihi inaweza kubadilishwa au kubatilishwa bila kutupa utambulisho mkuu na uaminifu wake uliokusanywa.
 
-### Nini ... ? `[unknown]` onyo maana
+### Maana ya onyo la `[unknown]`
 
 ```
 gpg: WARNING: The key's User ID is not certified with a trusted signature!
 ```
 
-Hii ni **not** tatizo na saini. Saini ni cryptographically halali  kwamba nini `Good signature` Onyo anasema kitu tofauti: wewe si aliiambia GnuPG yako ya ndani kwamba unaamini ufunguo huu ni mali yake ambaye inadai.
+Hili **si** tatizo la sahihi. Sahihi ni halali kwa kriptografia — hilo ndilo `Good signature` linasema. Onyo linasema jambo tofauti: hujaiambia GnuPG yako ya ndani kwamba unaamini ufunguo huu unamilikiwa na anayesema unamilikiwa naye.
 
 GnuPG hutenganisha maswali mawili:
 
-1. ** Je, hii muhimu saini faili hili?**  alijibu kwa `Good signature`. Cryptographic, hakuna hukumu ya binadamu.
-2. ** Je, ufunguo huu ni mali ya ZODL?**  si jibu kwa njia ya cryptography wakati wote. Unaweza kuanzisha yake na kuangalia alama za vidole dhidi chanzo huru.
+1. **Je, ufunguo huu ulitia sahihi faili hii?** — yanajibiwa na `Good signature`. Ya kriptografia, bila uamuzi wa kibinadamu.
+2. **Je, ufunguo huu ni wa ZODL?** — hayajibiwi na kriptografia kabisa. Unathibitisha hilo kwa kulinganisha alama ya kidole na chanzo huru.
 
-Utaona onyo hili juu ya karibu kila uthibitisho isipokuwa wewe wazi saini muhimu ndani. Je, si kutibu kama kushindwa ** Do** matibabu kukosa `Good signature` kama kushindwa.
+Utaona onyo hili kwenye karibu kila uthibitishaji isipokuwa utie sahihi ufunguo ndani ya nchi yako waziwazi. Usilichukulie kama kushindwa. **Lichukulie** kutokuwepo kwa `Good signature` kama kushindwa.
 
-### Hatua 3  Kuthibitisha muhimu mpito yenyewe
+### Hatua ya 3 — Thibitisha mabadiliko ya ufunguo yenyewe
 
-Zcash release signing moved from Electric Coin Company to Zcash Open Development Lab in 2026, after ZODL was formed in January 2026 by the former ECC engineering and product team.
+Uwekaji sahihi wa matoleo ya Zcash ulihama kutoka Electric Coin Company hadi Zcash Open Development Lab mwaka 2026, baada ya ZODL kuundwa Januari 2026 na timu ya zamani ya uhandisi na bidhaa ya ECC.
 
 | | Ufunguo wa zamani | Ufunguo mpya |
 |---|---|---|
-| Alama ya vidole | `B1C9 095E AA18 48DB B54D 9DDA 1D05 FDC6 6B37 2CFE` | `0338 34DD 49DE CF9D BB99 34BC 6C93 CA8E 58E2 6AB1` |
-| UID | Ufunguo Mkuu wa Kusaini wa Zcash (ECC) `<sysadmin@z.cash>` | Maabara Huria ya Maendeleo ya Zcash (ZODL) `<sysadmin@zodl.com>` |
-| Aina | RSA 3072-bit, iliyoundwa 2023-06-19 | RSA 4096-bit, iliyoundwa 2026-03-23, inaisha 2028-03-22 |
-| Imechapishwa katika | `https://apt.z.cash/zcash.asc` | `https://apt.z.cash/zodl.asc` |
+| Alama ya kidole | `B1C9 095E AA18 48DB B54D 9DDA 1D05 FDC6 6B37 2CFE` | `0338 34DD 49DE CF9D BB99 34BC 6C93 CA8E 58E2 6AB1` |
+| UID | Zcash Master Signing Key (ECC) `<sysadmin@z.cash>` | Zcash Open Development Lab (ZODL) `<sysadmin@zodl.com>` |
+| Aina | RSA 3072-bit, iliundwa 2023-06-19 | RSA 4096-bit, iliundwa 2026-03-23, inaisha 2028-03-22 |
+| Ilichapishwa saa | `https://apt.z.cash/zcash.asc` | `https://apt.z.cash/zodl.asc` |
 
-Imechapishwa ratiba ya muda: ufunguo mpya uliotengenezwa 2026-03-23, ilitangazwa 20 26-03-27, saini pekee kutoka 2026- 04-23, kufutwa kwa kifungo cha zamani cha ECC iliyopangwa 2026- 06-23.
+Ratiba iliyochapishwa: ufunguo mpya ulitengenezwa 2026-03-23, ukatangazwa 2026-03-27, uwekaji sahihi wa kipekee ukaanza 2026-04-23, ubatilishaji wa ufunguo wa zamani wa ECC ukapangwa 2026-06-23.
 
-Tangazo la mzunguko kwenye tovuti ni ya kuaminika tu kama wavuti. utaratibu sahihi ni taarifa ** wazi-saini na funguo zote mbili, hivyo muhimu zamani vouches kwa ajili mpya moja. ZODL kuchapisha hasa kwamba:
+Tangazo la mabadiliko kwenye tovuti linaaminika kwa kiwango kilekile cha tovuti yenyewe. Utaratibu sahihi ni taarifa **iliyotiwa sahihi waziwazi na funguo zote mbili**, ili ufunguo wa zamani udhamini ule mpya. ZODL huchapisha jambo hilo hasa:
 
 ```bash
 curl -sL https://zodl.com/security/key-transition.txt.asc -o key-transition.txt.asc
@@ -348,7 +348,7 @@ gpg --import zcash.asc
 gpg --verify key-transition.txt.asc
 ```
 
-pato halisi (abbreviated  saini mbili juu ya hati moja):
+Matokeo halisi (yaliyofupishwa — sahihi mbili kwenye hati moja):
 
 ```
 gpg: Signature made Fri Mar 27 01:11:14 2026 WAT
@@ -365,22 +365,22 @@ Primary key fingerprint: 0338 34DD 49DE CF9D BB99  34BC 6C93 CA8E 58E2 6AB1
      Subkey fingerprint: 1FE9 9324 758F 2967 18B4  5706 7F4B BBBA 23F0 617F
 ```
 
-Mbili. `Good signature` matokeo juu ya hati moja, kutoka muhimu zamani na mpya. Kama wewe kuamini ECC ufunguo kwa releases mapema, kwamba imani sasa unaendelea mbele ZODL key bila kuwa na uaminifu wa `zodl.com`, `apt.z.cash`Hii ni mali ya kuangalia kwa wakati wowote mradi rotates funguo  na kukosekana kwake ni thamani kuuliza kuhusu.
+Matokeo mawili ya `Good signature` kwenye hati moja, kutoka kwa ufunguo wa zamani na mpya. Ikiwa uliamini ufunguo wa ECC kwa matoleo ya awali, uaminifu huo sasa unaendelea hadi ufunguo wa ZODL bila wewe kuhitaji kuamini `zodl.com`, `apt.z.cash`, au chapisho la jukwaa. Hii ndiyo sifa ya kutafuta mradi unapobadilisha funguo — na kutokuwepo kwake kunastahili kuulizwa.
 
-### Ambapo kupata ufunguo  na ambapo si kwa
+### Mahali pa kupata ufunguo — na mahali pa kutochukua
 
-Imepangwa kutoka bora hadi mbaya zaidi:
+Yaliyopangwa kutoka bora hadi mabaya zaidi:
 
-1. ** Taarifa saini na muhimu uliopita**, kama hapo juu. Chaguo nguvu baada ya mzunguko wa.
-2. ** Chanzo huru ya download.** binary alikuja kutoka GitHub; muhimu alitoka `apt.z.cash`Mshambuliaji anahitaji yote mawili.
-3. **Keyserver, cross-checked dhidi ya kuchapishwa fingerprint.** Mtu yeyote anaweza upload muhimu kudai utambulisho wowote kwa wengi keyservers. kulinganisha kidole ni nini hufanya hii salama  si keyserver.
-4. ** Ukurasa huo kama binary.** Karibu hakuna uhakika. Yeyote anaweza kuchukua nafasi ya moja inaweza kuchukua nafasi nyingine.
+1. **Taarifa iliyotiwa sahihi na ufunguo uliotangulia**, kama ilivyo hapo juu. Chaguo imara zaidi baada ya mabadiliko.
+2. **Chanzo kisichotegemea upakuaji.** Binary ilitoka GitHub; ufunguo ulitoka `apt.z.cash`. Mshambulizi anahitaji kudhibiti vyote.
+3. **Keyserver, ikikaguliwa kwa alama ya kidole iliyochapishwa.** Mtu yeyote anaweza kupakia ufunguo unaodai utambulisho wowote kwenye keyserver nyingi. Ulinganisho wa alama ya kidole ndilo linalofanya hili liwe salama — si keyserver.
+4. **Ukurasa uleule wenye binary.** Karibu hakuna uhakikisho. Anayeweza kubadilisha moja anaweza kubadilisha nyingine.
 
-Daima kulinganisha ** full * alama ya vidole dhidi ya muhimu. IDs short ufunguo ni trivially collidable na wamekuwa kutumika katika mashambulizi halisi.
+Daima linganisha alama ya kidole **kamili** na ufunguo **mkuu**. Vitambulisho vifupi vya ufunguo vinaweza kugongana kwa urahisi na vimetumika katika mashambulizi halisi.
 
-## Sehemu ya 3  Ukaguzi ambao haufanikiwi
+## Sehemu ya 3 — Uthibitishaji unaoshindwa
 
-Ukaguzi ni muhimu tu kama unajua nini kushindwa inaonekana. Hapa ni moja ya kweli, zinazozalishwa kwa kuongeza byte null single archive halali:
+Uthibitishaji una manufaa tu ikiwa unajua kushindwa kunaonekanaje. Huu hapa ni mfano halisi, uliotengenezwa kwa kuongeza byte moja tupu kwenye kumbukumbu halali:
 
 ```bash
 cp zebrad-6.3.0-x86_64-unknown-linux-gnu.tar.gz tampered.tar.gz
@@ -389,16 +389,16 @@ printf '\x00' >> tampered.tar.gz
 sha256sum -c tampered.sha256
 ```
 
-pato halisi:
+Matokeo halisi:
 
 ```
 tampered.tar.gz: FAILED
 sha256sum: WARNING: 1 computed checksum did NOT match
 ```
 
-Kutoka code: `1`.
+Msimbo wa kutoka: `1`.
 
-Weka digests mbili kando na upande:
+Weka digest mbili kando kwa kando:
 
 ```bash
 sha256sum zebrad-6.3.0-x86_64-unknown-linux-gnu.tar.gz tampered.tar.gz
@@ -409,54 +409,54 @@ sha256sum zebrad-6.3.0-x86_64-unknown-linux-gnu.tar.gz tampered.tar.gz
 8d4e2e22adcb014e006fafc71a974f987ba11297587f593cf89eb9bb1feff0b5  tampered.tar.gz
 ```
 
-Byte moja appended kwa faili ya 66,992,676-byte. hashes mbili kushiriki kitu chochote  si kiambishi, wala muundo. Hakuna mechi sehemu na hakuna "karibu kutosha": checksum ama inaendana kabisa au faili ni si file alitaka.
+Byte moja imeongezwa kwenye faili ya byte 66,992,676. Hash hizo mbili hazishiriki chochote — si mwanzo, wala mchoro. Hakuna ulinganifu wa sehemu wala “karibu inatosha”: checksum ama inalingana hasa au faili si faili uliyotaka.
 
-### Nini cha kufanya wakati hii hutokea
+### Cha kufanya hili linapotokea
 
-1. ** Je, si kukimbia binary.** Si kuchimba ni, wala `chmod +x` it.
-2. ** Jaribu tena kutoka ukurasa rasmi kutolewa.** Wengi kushindwa ni kupakuliwa truncated.
-3. ** Kama inashindwa mara ya pili, kubadilisha njia mtandao.** tofauti uhusiano, au VPN. Kushindwa kwamba anafuata wewe katika mitandao ni tofauti na moja ambayo haina.
-4. ** Kuthibitisha una faili sahihi checksum kwa toleo haki.** Kulinganisha v6.3.0 dhidi ya jumla v6.2.3 kushindwa usahihi.
-5. ** Kama bado inashindwa, ripoti yake.** Fungua suala katika hazina mradi wa, au kutumia usalama kuwasiliana na `SECURITY.md` kwa chochote unachofikiri ni makusudi. Angalia [Zcash Ecosystem Usalama](/zcash-community/zcash-ecosystem-security) ukurasa kwa ajili ya njia za kutoa taarifa.
-6. ** Weka artifact.** Binary tampered ni ushahidi. Je, si kufuta kabla ya kuripoti.
+1. **Usiendeshe binary.** Usiitoe, usiifanyie `chmod +x`.
+2. **Jaribu tena kutoka ukurasa rasmi wa matoleo.** Kushindwa kwingi hutokana na upakuaji uliokatika.
+3. **Ikiwa inashindwa mara ya pili, badilisha njia ya mtandao.** Muunganisho tofauti, au VPN. Kushindwa kunakokufuata katika mitandao mbalimbali ni tofauti na kusikokufuata.
+4. **Thibitisha kuwa una faili sahihi ya checksum kwa toleo sahihi.** Kulinganisha jumla za v6.3.0 na v6.2.3 kutashindwa ipasavyo.
+5. **Ikiwa bado inashindwa, ripoti.** Fungua issue katika hifadhi ya mradi, au tumia anwani ya usalama katika `SECURITY.md` kwa jambo lolote unaloshuku ni la makusudi. Tazama ukurasa wa [Usalama wa Mfumo wa Ikolojia wa Zcash](/zcash-community/zcash-ecosystem-security) kwa njia za ufichuzi.
+6. **Hifadhi artifact.** Binary iliyohujumiwa ni ushahidi. Usiifute kabla ya kuripoti.
 
-Kushindwa kwa saini ni mbaya zaidi kuliko kushindwa kwa checksum. Ukosefu wa usawazishaji kawaida huwa ufisadi; faili halali-lakini -saini mbaya sio kitu kinachotokea kwa bahati mbaya.
+Kushindwa kwa sahihi ni kubwa zaidi kuliko kushindwa kwa checksum. Kutolingana kwa checksum kwa kawaida ni uharibifu; faili halali lakini sahihi mbaya si jambo linalotokea kwa bahati mbaya.
 
 ---
 
-## Sehemu ya 4  Jedwali la kumbukumbu
+## Sehemu ya 4 — Jedwali la marejeleo
 
-| Mradi | Matoleo yaliyochapishwa katika | Method | Ufunguo unatoka wapi |
+| Mradi | Matoleo yamechapishwa katika | Mbinu | Mahali ufunguo unatoka |
 |---|---|---|---|
-| **Zebra** | `github.com/ZcashFoundation/zebra/releases` | `SHA256SUMS` + Sigstore bundle | Hakuna ufunguo — utambulisho wa CI kupitia GitHub OIDC |
-| **Zallet** | `github.com/zcash/zallet/releases` | Detached GPG `.asc`, SLSA provenance, SBOM | `apt.z.cash/zodl.asc` — msingi `0338 34DD…58E2 6AB1`, ufunguo mdogo wa kusaini `1FE9 9324…23F0 617F` |
-| **zcashd** | *mstaafu* | — | Imesimamishwa kwenye kitalu namba 3,417,100 mnamo 2026-07-18. Usisakinishe. |
-| **Zodl** (zamani Zashi) | Duka la Programu / Google Play; `zodl-inc` kwenye GitHub | Store signing; standalone Android binaries GPG-signed | Taarifa ya ufunguo wa ZODL kwa kila mpito |
+| **Zebra** | `github.com/ZcashFoundation/zebra/releases` | `SHA256SUMS` + Sigstore bundle | Hakuna ufunguo — utambulisho wa CI kupitia OIDC ya GitHub |
+| **Zallet** | `github.com/zcash/zallet/releases` | Detached GPG `.asc`, SLSA provenance, SBOM | `apt.z.cash/zodl.asc` — msingi `0338 34DD…58E2 6AB1`, subkey ya kutia sahihi `1FE9 9324…23F0 617F` |
+| **zcashd** | *imestaafishwa* | — | Ilisitishwa kwenye block 3,417,100 tarehe 2026-07-18. Usiisakinishe. |
+| **Zodl** (zamani Zashi) | App Store / Google Play; `zodl-inc` kwenye GitHub | Store signing; standalone Android binaries GPG-signed | Ufunguo wa ZODL kulingana na taarifa ya mabadiliko |
 
-> ** Nukuu ya jina: Zashi ilibadilishwa kuwa *Zodl** mnamo 2026  kwanza kwenye Duka la App, kisha kwenye Google Play. Miongozo ya zamani inayotaja "Zashi" inaelezea nasaba sawa ya mkoba.
-
----
-
-## Sehemu ya 5  Wallets za simu na vifaa vya umeme
-
-Uthibitishaji kazi tofauti mara moja kuondoka downloads ya moja kwa moja.
-
-**App stores.** You cannot check a signature yourself. The store signs the package and you are trusting the store's review and the developer account's integrity. What you *can* verify is that you have the right app: confirm the publisher name and the package identifier against the project's official site, not against search results. Impersonation apps are common, and a store listing is not evidence of authenticity.
-
-**Standalone Android APKs.** Hizi *can* kuthibitishwa. ZODL kuchapisha GPG-saini standalone binaries Android kupitia GitHub Releases, hivyo sehemu ya 2 workflow inatumika. Kipaumbele njia hii kama unataka mlolongo checkable.
-
-**Hardware pochi.** Kifaa atathibitisha firmware yake mwenyewe, hivyo kuamini nanga ni vifaa vya ujenzi wa kompyuta yako. Angalia [Zashi ya Jiwe la Muhimu (Keystone)](/guides/keystone-zashi) kununua moja kwa moja kutoka mtengenezaji  usumbufu wa ugavi hutokea kati ya kiwanda na mnunuzi.
+> **Dokezo la majina:** Zashi ilibadilishwa chapa kuwa **Zodl** mwaka 2026 — kwanza kwenye App Store, kisha kwenye Google Play. Miongozo ya zamani inayorejelea “Zashi” inaeleza nasaba ileile ya pochi.
 
 ---
 
-## Kusoma zaidi
+## Sehemu ya 5 — Pochi za simu na hardware wallet
 
-- [Zcash Ecosystem Usalama](/zcash-community/zcash-ecosystem-security)  sera ya kutoa taarifa na mawasiliano usalama
-- [Zebra Full Node (Njia ya Kuunganisha)](/zcash-tech/zebra-full-node)  Kuweka Zebra baada ya kuthibitisha ni
-- [Mwongozo wa Marejeo ya Haraka wa Zallet](/using-zcash/zallet-quick-reference-guide)  kutumia Zallet
-- [Sigstore nyaraka](https://docs.sigstore.dev/)
-- [Viwango vya SLSA kutoka kwa chanzo](https://slsa.dev/)
+Uthibitishaji hufanya kazi tofauti baada ya kuondoka kwenye upakuaji wa moja kwa moja.
+
+**Maduka ya programu.** Huwezi kukagua sahihi mwenyewe. Duka hutia sahihi kifurushi na unaliamini duka kuhusu ukaguzi wake na uadilifu wa akaunti ya msanidi programu. Kile *unachoweza* kuthibitisha ni kuwa una programu sahihi: thibitisha jina la mchapishaji na kitambulisho cha kifurushi dhidi ya tovuti rasmi ya mradi, si dhidi ya matokeo ya utafutaji. Programu za kuiga ni za kawaida, na orodha ya duka si ushahidi wa uhalisi.
+
+**APK za kujitegemea za Android.** Hizi *zinaweza* kuthibitishwa. ZODL huchapisha binary za kujitegemea za Android zilizo na sahihi ya GPG kupitia Matoleo ya GitHub, hivyo mtiririko wa kazi wa Sehemu ya 2 unatumika. Pendelea njia hii ikiwa unataka mnyororo unaoweza kukaguliwa.
+
+**Hardware wallets.** Kifaa huthibitisha firmware yake yenyewe, hivyo msingi wa uaminifu ni vifaa, si faili kwenye mashine yako. Tazama [Keystone Zashi](/guides/keystone-zashi) kwa mtiririko wa uthibitishaji wa kifaa. Nunua moja kwa moja kutoka kwa mtengenezaji — uharibifu wa mnyororo wa ugavi hutokea kati ya kiwanda na mnunuzi.
 
 ---
 
-* Amri katika ukurasa huu walikuwa kukimbia dhidi Zebra `v6.3.0` na Zallet `v0.1.0-beta.2` 2026-08-18. Release tooling changes: kama pato inatofautiana na kile kilichoonyeshwa hapa, imani mbio yako mwenyewe na tafadhali kufungua PR.*
+## Usomaji zaidi
+
+- [Usalama wa Mfumo wa Ikolojia wa Zcash](/zcash-community/zcash-ecosystem-security) — sera ya ufichuzi na anwani za usalama
+- [Zebra Full Node](/zcash-tech/zebra-full-node) — kusakinisha Zebra baada ya kuithibitisha
+- [Zallet Mwongozo wa Marejeleo ya Haraka](/using-zcash/zallet-quick-reference-guide) — kutumia Zallet
+- [Nyaraka za Sigstore](https://docs.sigstore.dev/)
+- [Viwango vya asili vya SLSA](https://slsa.dev/)
+
+---
+
+*Amri katika ukurasa huu ziliendeshwa dhidi ya Zebra `v6.3.0` na Zallet `v0.1.0-beta.2` tarehe 2026-08-18. Zana za matoleo hubadilika: ikiwa matokeo yanatofautiana na yaliyoonyeshwa hapa, amini uendeshaji wako mwenyewe na tafadhali fungua PR.*

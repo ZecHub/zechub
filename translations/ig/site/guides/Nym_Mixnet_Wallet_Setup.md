@@ -1,54 +1,54 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/guides/Nym_Mixnet_Wallet_Setup.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edihttps://github.com/ZecHub/zechub/pull/2238t Page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Dezie https://github.com/ZecHub/zechub/pull/2238t Ibe"/>
 </a>
 
-# Ụzọ Zcash Wallet Traffic Gafee Nym Mixnet
+# Duga Okporo ụzọ e-akpa ego Zcash Gafee Mixnet Nym
 
-> Nnwale ikpeazụ: Septemba 29, 2026
+> E nyochara ikpeazụ: Septemba 29, 2026
 
-Azụmahịa Zcash echekwara na-echebe data azụmahịa n'usoro, mana obere akpa ego ka na-ekwurịta okwu na ịntanetị. Ndị na-ahụ maka netwọk nwere ike ịmụta metadata dị ka adreesị IP gị, mgbe obere akpa ego gị jikọtara, na akụrụngwa ọ na-akpakọrịta.
+Azụmahia [transaction] nke e chebere echebe [shielded] nke Zcash na-echekwa data azụmahia on-chain, mana e-akpa ego ka na-ekwurịta okwu n'ịntanetị. Ndị na-ekiri netwọk nwere ike ịmata metadata dịka adreesị IP gị, oge e-akpa ego gị jikọtara, na akụrụngwa ọ na-akpọtụrụ.
 
-Nym na-agbakwụnye oyi akwa nzuzo netwọk dị iche. Dịka ọ dị na Septemba 2026, ụzọ kachasị mma dabere na obere akpa:
+Nym na-agbakwunye ọkwa Nzuzo [privacy] netwọk dị iche. Ruo Septemba 2026, ụzọ kacha mma dabere n'e-akpa ego ahụ:
 
-1. **Họrọ njikọta Nym nke obere akpa ego mgbe ọ dị.**
-2. Ma ọ bụghị ya, jiri **usoro NymVPN Mixnet mode** ka okporo ụzọ netwọk nke obere akpa ahụ wee gafere na Nym na-adabereghị na nkwado proxy kpọmkwem maka obere akpa.
+1. **Họrọ njikọta Nym nke e-akpa ego nwere n'onwe ya mgbe ọ dị.**
+2. Ma ọ bụghị ya, jiri **ụdị Mixnet NymVPN n'ọkwa sistemụ** ka e wee duzie okporo ụzọ netwọk e-akpa ego ahụ site na Nym n'ịdabereghị na nkwado proxy pụrụ iche nke e-akpa ego.
 
-Maka ndabere VPN na dVPN izugbe, lee [VPN na dVPN](./VPN_and_DVPN.md).
+Maka nkọwa izugbe gbasara VPN na dVPN, lee [VPN & dVPN](./VPN_and_DVPN.md).
 
-## Ihe Nym na-agbakwụnye - na ihe ọ na-anaghị eme
+## Ihe Nym na-agbakwunye — na ihe ọ na-adịghị eme
 
-Ịkwụ ụgwọ Zcash echekwara na ngwaọrụ nzuzo netwọk na-edozi nsogbu dị iche iche:
+Kwụọ ụhwọ [payment] nke e chebere echebe Zcash na ngwá ọrụ Nzuzo netwọk na-edozi nsogbu dị iche iche:
 
-- **Zcash** na-echebe nkọwa azụmahịa n'usoro.
-- E mere nhazi **Nym mixnet** iji belata njikọ dị n'etiti njirimara netwọk gị na okporo ụzọ obere akpa ọrụ.
-- Ebe a na-aga site na ọwara NymVPN nke dị n'usoro kwesịrị ịhụ ụzọ ọpụpụ Nym kama ịhụ IP ụlọ/mkpanaka gị.
+- **Pool [pool] nke e chebere echebe Zcash** na-echebe nkọwa azụmahia on-chain.
+- **Nduzi mixnet Nym** ka e mere iji belata ike ijikọ njirimara netwọk gị n'ezie na ọrụ na-anata okporo ụzọ e-akpa ego.
+- Ebe a na-aga nke a kpọtụrụ site n'ọdụ NymVPN n'ọkwa sistemụ kwesịrị ịhụ ọpụpụ Nym kama IP ụlọ/gị mkpanaka.
 
-Ngwakọta Nym's na-eji ọtụtụ hops, ngwakọta ngwugwu, igbu oge na-enweghị usoro, mkpuchi okporo ụzọ, na izochi yabasị iji belata ntapu netwọk-metadata.
+Mixnet Nym na-eji ọtụtụ hops, ịgwakọta packet, oge igbu oge a họpụtara n'enweghị usoro, cover traffic, na Nzobe ederede [encryption] onion iji belata mwepụ metadata netwọk.
 
-Nym anaghị echebe megide ngwaọrụ mebiri emebi, ngwanrọ obere akpa ọjọọ, okwu mgbake ekpughere, njirimara ị na-ekpughe site na akaụntụ mgbanwe, ma ọ bụ mfu nzuzo nke ọrụ Zcash doro anya kpatara.
+Nym **adịghị** echebe megide ngwaọrụ emebiela, sọftụwia e-akpa ego ọjọọ, mkpụrụokwu mgbake ekpughere, njirimara ị na-ekpughe site n'akaụntụ exchange, ma ọ bụ mfu Nzuzo sitere n'ọrụ Azụmahia Oha [transparent] Zcash.
 
-## Nkwado Native Nym: jiri nke a buru ụzọ mee ihe mgbe ọ dị
+## Nkwado Nym nke dị n'ime: jiri nke a buru ụzọ mgbe ọ dị
 
-Nym kwupụtara na Septemba 24, 2026 na ọrụ Zcash Community Grant ha agwụla, a na-ebugakwa nkwado mixnet n'ime obere akpa Zcash.
+Nym kwupụtara na Septemba 24, 2026 na ọrụ Ikike [grant] Community nke Zcash ya ezuola nakwa na a na-ewepụta nkwado mixnet nke dị n'ime n'e-akpa ego Zcash n'ezie.
 
-### Akpa Zingo!
+### E-akpa ego Zingo!
 
-Zingo PC nwere ụgbọ njem Nym nke obodo. Zingo Mobile na-ebugakwa Mixnet Mode na iOS na Android site na iji ihe nnọchiteanya Nym dị n'ime ngwa.
+Zingo PC nwere mbufe Nym nke dị n'ime. Zingo Mobile na-ewepụtakwa Mixnet Mode na iOS na Android site na proxy Nym dị n'ime ngwa.
 
-Omume dị ugbu a nke Zingo:
+Omume ugbu a nke Zingo depụtara:
 
-- Njikwa Nym dị n'okpuru **Ntọala → Nym Mixnet**.
-- A na-eziga ịkwụ ụgwọ site na mixnet.
-- Nzipu njem Ironwood na-eso otu ụzọ izipu echekwara.
-- A na-ejikwa mixnet eziga arịrịọ ọnụahịa ZEC.
-- Izipu agaghị arụ ọrụ nke ọma mgbe Nym na-arụ ọrụ: ọ bụrụ na njem mixnet adịghị, a naghị ezipụ ụgwọ ahụ n'ime obi site na clearnet.
-- **A naghị agagharị na njikọ chain ugbu a site na mixnet** na Zingo PC. Blọk dị obere, ajụjụ ndị na-emebi ihe, ihe ndị a na-achọ ịzụta, okporo ụzọ mempool, na nlele ahụike sava ka na-eji njikọ sava nkịtị.
+- Njikwa Nym dị n'okpuru **Settings → Nym Mixnet**.
+- A na-eduga izipu Kwụọ ụhwọ site na mixnet.
+- Mbufe mbugharị Ironwood na-eso otu ụzọ izipu echebere.
+- A na-edugakwa arịrịọ ọnụahịa ZEC site na mixnet.
+- Iziga na-emechi n'enweghị ohere mgbe Nym enyere aka: ọ bụrụ na mbufe mixnet adịghị, a naghị eziga Kwụọ ụhwọ ahụ nwayọọ nwayọọ site na clearnet.
+- **A naghị eduga mmekọrịta chain ugbu a site na mixnet** na Zingo PC. Compact blocks, ajụjụ nullifier, ịnweta Azụmahia, okporo ụzọ mempool, na nyocha ahụike sava ka na-eji njikọ sava nkịtị.
 
-Ihe dị iche dị mkpa: Njikọta Zingo's obodo na-echebe ụzọ mgbasa ozi njikọ kachasị elu, mana ọ ka bụ ọwara netwọk ngwaọrụ zuru oke.
+Ọdịiche ahụ dị mkpa: njikọta dị n'ime nke Zingo na-echebe ụzọ mgbasa ozi nwere njikọ kacha elu, mana ọ bụghị ọdụ netwọk zuru ngwaọrụ ka.
 
-Ọ bụrụ na ụdị ihe iyi egwu gị chọkwara izochi okporo ụzọ mmekọrịta site na sava ahụ, jiri ọwara nzuzo dị larịị sistemụ dịka NymVPN na mgbakwunye na ịghọta latency na mgbagwoju anya ọzọ nke a na-ewebata.
+Ọ bụrụ na usoro egwu gị chọkwara izochi okporo ụzọ mmekọrịta site na sava, jiri ọdụ Nzuzo n'ọkwa sistemụ dịka NymVPN na mgbakwunye n'ịghọta oge igbu oge na mgbagwoju anya ọzọ nke nke a na-eweta.
 
-Isi mmalite:
+Ebe mmalite:
 
 - https://github.com/zingolabs/zingo-pc#the-nym-mixnet
 - https://github.com/zingolabs/zingo-mobile
@@ -56,22 +56,22 @@ Isi mmalite:
 
 ### Zkool
 
-Nym kọrọ na **Zkool** na-akwado ugbu a ijikọ na akụrụngwa Zcash RPC site na iji Nym mixnet site na iji toggle nke obodo.
+Nym na-akọ na **Zkool** na-akwado ugbu a ijikọ na akụrụngwa RPC Zcash site na mixnet Nym site na toggle nke dị n'ime.
 
-Zkool bụ onye nọchiri YWallet. Ọrụ ya na-akwadokwa ọrụ proxying na yabasị Tor maka njikọ sava Zcash.
+Zkool bụ onye nọchiri YWallet nke a na-elekọta nke ọma. Ọrụ ya na-akwado proxying Tor na ọrụ onion maka njikọ sava Zcash.
 
-Họrọ nhọrọ Nym Zkool's kama ịnwa ịmanye YWallet ochie site na ụzọ proxy na-enweghị akwụkwọ ikike.
+Họrọ nhọrọ Nym nke dị n'ime Zkool karịa ịnwa ịmanye ụdị YWallet ochie site n'okporo ụzọ proxy enweghị akwụkwọ.
 
-Isi mmalite:
+Ebe mmalite:
 
 - https://nym.com/blog/nym-mixnet-zcash-wallets
 - https://github.com/hhanh00/zkool2
 
-### Nwayo na-agbagharị agbagharị
+### Nozy
 
-NozyWallet nwekwara ụzọ njem Nym-aware. Mmejuputa ya ugbu a na-akwado nhazi nnyefe azụmahịa na-apụ apụ site na mixnet Nym na ụzọ Nym dVPN dị iche maka njikọta obere ngọngọ. Were ndị a dị ka ihe nchebe pụrụ iche kama iche na arịrịọ obere akpa ọ bụla na-eji mixnet na akpaghị aka.
+NozyWallet nwekwara ụzọ mbufe maara Nym. Mmejuputa ya ugbu a na-akwado iduzi nnyefe Azụmahia na-apụ apụ site na mixnet Nym na ụzọ dVPN Nym dị iche maka mmekọrịta compact-block. Were ndị a dịka nchedo dị iche iche kama iche na arịrịọ e-akpa ego ọ bụla na-eji mixnet ozugbo.
 
-Isi mmalite:
+Ebe mmalite:
 
 - https://github.com/LEONINE-DAO/Nozy-wallet
 - https://github.com/LEONINE-DAO/Nozy-wallet/blob/master/docs/reference/NYM_SEND_EGRESS_CASE_BREAKDOWN.md
@@ -79,33 +79,33 @@ Isi mmalite:
 
 ### Zodl
 
-Zodl nwere **Tor Protection** arụnyere n'ime ya ugbu a, ọ bụghị otu njikọta Nym nke akọwara n'elu maka Zingo, Zkool, na Nozy.
+Zodl nwere ugbu a **Nchedo Tor** e wuru n'ime, ọ bụghị otu njikọta Nym nke dị n'ime akọwara n'elu maka Zingo, Zkool, na Nozy.
 
-Atụmatụ Tor Zodl's nwere ike ibugharị nnyefe azụmahịa, weghachite data azụmahịa, arịrịọ ọnụego mgbanwe, na oku API nke ndị ọzọ site na Tor. Nym kwuru na Septemba 24, 2026 na ọ ka nọ na mkparịta ụka na-arụsi ọrụ ike na ndị otu Zodl gbasara njikọta mixnet sara mbara.
+Njirimara Tor nke Zodl nwere ike iduzi nnyefe Azụmahia, ịnweta data Azụmahia, arịrịọ ọnụego exchange, na oku API ndị ọzọ site na Tor. Nym kwuru na Septemba 24, 2026 na ya ka na-ekwurịta okwu nke ọma na otu Zodl gbasara njikọta mixnet sara mbara.
 
-Maka Zodl taa, jiri nke ọ bụla n'ime ha:
+Maka Zodl taa, jiri otu n'ime ndị a:
 
-- Nchekwa Tor Zodl's dere, ma ọ bụ
-- NymVPN nke dị n'ọkwa sistemụ ma ọ bụrụ na ebumnuche gị bụ ibugharị okporo ụzọ ngwaọrụ n'ozuzu nke obere akpa ahụ site na Nym.
+- Nchedo Tor nke Zodl depụtara, ma ọ bụ
+- NymVPN n'ọkwa sistemụ ma ọ bụrụ na ebumnuche gị bụ iduzi okporo ụzọ ngwaọrụ izugbe e-akpa ego ahụ site na Nym.
 
-Echela na Tor na Nym bụ ụzọ ndị ọzọ a ga-esi na-ebuga n'ime obere akpa ego n'ihi na ha abụọ bụ netwọk nzuzo.
+Echekwala na Tor na Nym bụ mbufe a pụrụ iji dochie ibe ha n'ime e-akpa ego naanị n'ihi na ha abụọ bụ netwọk Nzuzo.
 
 Ntọala Zodl Tor:
 
-**Ọzọ → Atụmatụ Dị Elu → Beta: Nchedo Tor → Kwado → Chekwaa mgbanwe**
+**More → Advanced Features → Beta: Tor Protection → Enable → Save changes**
 
-Isi mmalite:
+Ebe mmalite:
 
 - https://support.zodl.com/article/17-enabling-tor-protection
 - https://nym.com/blog/nym-mixnet-zcash-wallets
 
-## Ọdịda: NymVPN dị larịị sistemụ
+## Nhọrọ ndabere: NymVPN n'ọkwa sistemụ
 
-Nke a bụ nhọrọ Nym kachasị dakọtara n'ọtụtụ ebe n'ihi na ọ chọghị obere akpa iji ghọta ntọala proxy Nym-specific.
+Nke a bụ nhọrọ Nym dakọtara n'ọtụtụ ebe n'ihi na ọ chọghị ka e-akpa ego ghọta ntọala proxy pụrụ iche nke Nym.
 
 ### 1. Wụnye NymVPN
 
-Budata NymVPN naanị site na weebụsaịtị gọọmentị Nym's ma ọ bụ ụlọ ahịa ikpo okwu gọọmentị:
+Budata NymVPN naanị site na weebụsaịtị gọọmentị Nym ma ọ bụ ụlọ ahịa gọọmentị nke ikpo okwu:
 
 - https://nym.com/
 - https://nym.com/blog/nymvpn-v2026.12
@@ -114,102 +114,102 @@ NymVPN na-akwado Android, iOS, Linux, Windows, na macOS.
 
 ### 2. Họrọ ụdị Mixnet
 
-NymVPN na-ekpughe **Ụdị ngwa ngwa**, ụzọ dVPN 2-hop nke e mere ka ọ dị mfe ịla n'iyi, na **Ụdị Mixnet**, ụzọ mixnet 5-hop nke e mere ka ọ dị mma maka nchekwa netwọk-metadata siri ike. Maka ọrụ obere akpa ego dị nro, họrọ ụdị Mixnet ma chere ruo mgbe onye ahịa ga-akọ na njikọ ahụ amalitela tupu emepee ma ọ bụ mee ka obere akpa ahụ dị ọhụrụ.
+NymVPN na-enye **Fast mode**, ụzọ dVPN 2-hop emebere maka latency dị ala, na **Mixnet mode**, ụzọ mixnet 5-hop emebere maka nchedo metadata netwọk siri ike karị. Maka ọrụ e-akpa ego nwere mmetụta, họrọ Mixnet mode ma chere ruo mgbe onye ahịa ga-akọ na njikọ ahụ eguzobela tupu imepe ma ọ bụ ime ka e-akpa ego dị ọhụrụ.
 
-### 3. Hapụ obere akpa ahụ na ntọala netwọk nkịtị
+### 3. Hapụ e-akpa ego na ntọala netwọk nkịtị
 
-Mgbe sistemụ arụmọrụ na-agbanwe okporo ụzọ site na NymVPN, ọtụtụ obere akpa anaghị achọ ntọala proxy omenala.
+Mgbe sistemụ arụmọrụ na-edugalarị okporo ụzọ site na NymVPN, ọtụtụ e-akpa ego anaghị achọ ntọala proxy ahaziri iche.
 
-Mepee obere akpa ahụ dịka ọ dị na mbụ ma kwe ka ọ dakọọ.
+Mepee e-akpa ego ahụ n'ụzọ nkịtị ma kwe ka ọ mekọọrịta.
 
-Ọ bụrụ na NymVPN ekpughee oghere gbawara agbawa n'elu ikpo okwu gị, gosi na akpa ahụ dị n'ime ọwara echekwara**, ọ bụghị na ndepụta nke gafere ma ọ bụ mwepụ.
+Ọ bụrụ na NymVPN na-enye split tunneling n'elu ikpo okwu gị, gosi na e-akpa ego ahụ **so na ọdụ echebere**, ọ bụghị na e tinyere ya n'ndepụta bypass ma ọ bụ mwepu.
 
-### 4. Lelee ọwara ahụ tupu i jiri obere akpa ahụ
+### 4. Nyochaa ọdụ ahụ tupu iji e-akpa ego
 
-Nlele dị mfe nke ọkwa sistemụ:
+Nyocha dị mfe n'ọkwa sistemụ:
 
-1. Gbanyụọ NymVPN.
-2. Gaa na ọrụ nyocha IP ọha, ma ọ bụ na desktọpụ na-agba ọsọ:
+1. Kwụsị NymVPN.
+2. Gaa n'ọrụ nyocha IP ọha, ma ọ bụ na desktọpụ gbaa:
 
    ```bash
    curl https://api.ipify.org
    ```
 
-3. Dekọọ IP a na-ahụ anya.
-4. Jikọọ NymVPN na ọnọdụ Mixnet.
-5. Megharịa nlele ahụ.
+3. Detuo IP a na-ahụ anya.
+4. Jikọọ NymVPN na Mixnet mode.
+5. Megharịa nyocha ahụ.
 
 IP ọha a na-ahụ anya kwesịrị ịgbanwe.
 
-Nke a na-akwado ọwara sistemụ ahụ. Ọ naghị egosi na arịrịọ ọ bụla nke obere akpa ego mere na-agbaso otu ụzọ ahụ ma ọ bụrụ na ngwa ma ọ bụ OS nwere iwu nhazi pụrụ iche.
+Nke a na-akwado ọdụ sistemụ. Ọ **dịghị** egosi na arịrịọ ọ bụla e-akpa ego kpọmkwem na-eme na-eso otu ụzọ ma ọ bụrụ na ngwa ahụ ma ọ bụ OS nwere iwu nduzi pụrụ iche.
 
-Maka nkọwa ndị ọzọ gbasara otu esi etinye na desktọọpụ:
+Maka nkwa karịrị akarị na desktọpụ:
 
-- lelee usoro obere akpa ego site na iji ihe nlekota netwọk nke sistemụ arụmọrụ,
-- hụ na enweghị mwepu ọwara nkewa,
-- gosi mgbanwe omume akpa ego a na-atụ anya ya ma ọ bụrụ na ewepụghị NymVPN.
+- nyochaa usoro e-akpa ego ahụ site na network monitor nke sistemụ arụmọrụ,
+- gosi na enweghị mwepu split-tunnel,
+- kwado na omume e-akpa ego a tụrụ anya ya na-agbanwe ma ọ bụrụ na akwụsịrị NymVPN.
 
-Etinyela foto ndị nwere adreesị obere akpa ego, nguzozi, njirimara azụmahịa, adreesị IP, ma ọ bụ ihe mgbake mgbe ị na-edozi nsogbu.
+Edebela nseta ihuenyo nwere adreesị akpa ego, nguzo ego, ID Azụmahia, adreesị IP, ma ọ bụ ihe mgbake mgbe ị na-achọpụta nsogbu.
 
-## Ọnọdụ proxy NymVPN dApp / obere akpa
+## Ụdị proxy dApp / e-akpa ego NymVPN
 
-NymVPN na-ekpughekwa ụdị proxy ngwa-na-wallet site na iji SOCKS5 / RPC na-agagharị na mixnet.
+NymVPN na-enyekwa ụdị proxy ngwa-na-e-akpa ego site na SOCKS5 / nduzi RPC site na mixnet.
 
-Akwụkwọ ntọala ọha Nym's gosiri nke a karịsịa site na nhazi RPC nke ụdị Ethereum. Ọ bara uru maka ngwanrọ nke na-akwado ụzọ proxy/RPC nke ọma, mana ekwesighi iche na ọ ga-arụ ọrụ na obere akpa Zcash ọ bụla.
+Akwụkwọ ntọala ọha Nym na-egosi nke a ọkachasị site na nhazi RPC ụdị Ethereum. Ọ bara uru maka sọftụwia na-akwado kpọmkwem ụzọ proxy/RPC izugbe dakọtara, mana ekwesịghị iche na ọ ga-arụ ọrụ na e-akpa ego Zcash ọ bụla.
 
-Jiri ụzọ a naanị mgbe akwụkwọ nke obere akpa ahụ kwadoro nkwado proxy ma ọ bụ RPC dakọtara.
+Jiri ụzọ a naanị mgbe akwụkwọ nke e-akpa ego ahụ n'onwe ya na-akwado proxy ma ọ bụ nkwado RPC dakọtara.
 
 Ma ọ bụghị ya, họrọ:
 
-- njikọta Nym nke obere akpa ahụ, ma ọ bụ
-- system-level NymVPN.
+- njikọta Nym nke e-akpa ego nwere n'onwe ya, ma ọ bụ
+- NymVPN n'ọkwa sistemụ.
 
-## Mmekọrịta arụmọrụ na oge ezumike
+## Mmekọrịta arụmọrụ na timeout
 
-Mixnets na-azụ ahịa ọsọ ọsọ maka nchekwa metadata siri ike.
+Mixnet na-agbanwe ụma ọsọ maka nchedo metadata siri ike karị.
 
-Atụ anya mmetụta nwere ike inwe na:
+Tụọ anya mmetụta nwere ike ịpụta na:
 
-- mmekọrịta akpa ego mbụ,
-- nnukwu njikọta njide,
-- ajụjụ akụkọ ihe mere eme azụmahịa,
-- Oge nkwụsị oge RPC,
-- Oku API nke ndị ọzọ.
+- mmekọrịta e-akpa ego mbụ,
+- mmekọrịta catch-up buru ibu,
+- ajụjụ akụkọ Azụmahia,
+- timeout RPC,
+- oku API ndị ọzọ.
 
 Nduzi bara uru:
 
-- Malite na ntọala Nym ndabara.
-- Atụla anya na mmekọrịta mbụ ma ọ bụ mmekọrịta ogologo oge ga-ewe ogologo oge.
-- Nwaa ọzọ oge ezumike tupu ntọala nzuzo adịghị ike.
-- Zere ịgbanwe ụdị nzuzo ugboro ugboro ozugbo tupu azụmahịa dị mkpa.
-- Ọ bụrụ na ị jiri ụzọ dị ngwa maka mmekọrịta buru ibu, ghọta na akụrụngwa kọntaktị nwere ike ịhụ njirimara netwọk gị n'ezie n'oge ahụ.
-- Maka Zingo PC kpọmkwem, cheta na njem Nym nke obodo ya na-echebe izipu na ịchọ ọnụahịa ugbu a, ebe njikọta ka bụ kpọmkwem.
+- Bido na ntọala ndabara Nym.
+- Tụọ anya na mmekọrịta mbụ ma ọ bụ mmekọrịta catch-up ogologo ga-ewe ogologo oge.
+- Nwalee ọzọ mgbe timeout mere tupu ime ka ntọala Nzuzo daa mbà.
+- Zere ịgbanwe ụdị Nzuzo ugboro ugboro ozugbo tupu Azụmahia nwere mmetụta.
+- Ọ bụrụ na ị na-eji ụzọ ọsọ ọsọ maka mmekọrịta nnukwu, ghọta na akụrụngwa a kpọtụrụ nwere ike ịhụ njirimara netwọk gị n'ezie n'oge ahụ.
+- Maka Zingo PC kpọmkwem, cheta na mbufe Nym nke dị n'ime ya na-echebe izipu na nyocha ọnụahịa ugbu a, ebe mmekọrịta na-anọgide kpọmkwem.
 
-## Ihe ndị a ga-atụle na mkpanaka
+## Ihe gbasara mkpanaka
 
-Na Android na iOS, oghere VPN sistemụ arụmọrụ na-abụkarị ụzọ kachasị mfe isi zipu okporo ụzọ obere akpa izugbe site na NymVPN: jikọọ NymVPN mbụ, wee mepee obere akpa ahụ.
+Na Android na iOS, oghere VPN nke sistemụ arụmọrụ na-abụkarị ụzọ kacha mfe isi duzie okporo ụzọ e-akpa ego izugbe site na NymVPN: buru ụzọ jikọọ NymVPN, wee mepee e-akpa ego.
 
-Ọ bụrụ na VPN ọzọ, firewall, ma ọ bụ ihe mgbochi mgbasa ozi nke dabere na VPN dị na mpaghara eburula ụzọ VPN sistemụ ahụ, ngwaahịa abụọ ahụ nwere ike ọ gaghị enwe ike ịrụ ọrụ n'otu oge. Kwenye ọnọdụ VPN nke sistemụ arụmọrụ tupu i chee na e nwere obere akpa ahụ.
+Ọ bụrụ na VPN ọzọ, firewall, ma ọ bụ ad blocker dabere na VPN mpaghara ejirila interface VPN sistemụ, ngwaahịa abụọ ahụ nwere ike ghara ịrụ ọrụ n'otu oge. Gosi ọnọdụ VPN nke sistemụ arụmọrụ tupu iche na echebere e-akpa ego ahụ.
 
-## Ndepụta ihe atụ iyi egwu
+## Ndepụta nyocha usoro egwu
 
-Tupu ị dabere na ntọala ahụ, jụọ:
+Tupu ịdabere na ntọala ahụ, jụọ:
 
-- M na-eji adreesị Zcash echekwara ebe ọ dị mkpa?
-- Akpa m ọ nwere nkwado Nym nke obodo?
-- Ọ bụrụ otu a, kpọmkwem okporo ụzọ dị aṅaa ka njikọta obodo ahụ na-echebe?
-- Ọ bụrụ na m chọrọ mkpuchi sara mbara, ọ dị na NymVPN ejikọtara tupu obere akpa amalite ọrụ netwọk?
-- Iwu nkewa nkewa ọ na-ewepụ obere akpa ego ahụ?
-- M̀ na-adabere na ụdị proxy nke obere akpa ahụ na-ede n'ezie?
-- M̀ na-agbapụta njirimara site na mgbanwe, nnọkọ ihe nchọgharị, API nke ndị ọzọ, ma ọ bụ adreesị doro anya?
-- M dị njikere maka mmekọrịta dị nwayọ na oge ụfọdụ?
+- Ana m eji adreesị akpa ego Azụmahia nke e chebere echebe Zcash ebe o kwesịrị ekwesị?
+- E-akpa ego m ò nwere nkwado Nym nke dị n'ime?
+- Ọ bụrụ otu a, kedu kpọmkwem okporo ụzọ njikọta nke dị n'ime ahụ na-echebe?
+- Ọ bụrụ na achọrọ m mkpuchi sara mbara, NymVPN ejikọtala tupu e-akpa ego amalite ọrụ netwọk?
+- E wepụrụ e-akpa ego ahụ site n'iwu split-tunneling?
+- Ana m adabere n'ụdị proxy nke e-akpa ego depụtara n'ezie?
+- Ana m ewepụ njirimara site na exchange, oge nchọgharị, API ndị ọzọ, ma ọ bụ adreesị Oha?
+- Adịla m njikere maka mmekọrịta nwayọọ nwayọọ na timeout mgbe ụfọdụ?
 
-## Isi mmalite
+## Ebe mmalite
 
-- Nym: Nym mixnet dị ugbu a na obere akpa Zcash, Septemba 24, 2026: https://nym.com/blog/nym-mixnet-zcash-wallets
+- Nym: mixnet Nym dị ndụ ugbu a n'e-akpa ego Zcash, Septemba 24, 2026: https://nym.com/blog/nym-mixnet-zcash-wallets
 - Omume Zingo PC Nym: https://github.com/zingolabs/zingo-pc#the-nym-mixnet
-- Zingo Mobile Nym njem: https://github.com/zingolabs/zingo-mobile
+- Mbufe Zingo Mobile Nym: https://github.com/zingolabs/zingo-mobile
 - Ebe nchekwa Zkool: https://github.com/hhanh00/zkool2
-- Ọrụ njem NozyWallet Nym: https://github.com/LEONINE-DAO/Nozy-wallet
+- Ọrụ mbufe NozyWallet Nym: https://github.com/LEONINE-DAO/Nozy-wallet
 - NymVPN v2026.12: https://nym.com/blog/nymvpn-v2026.12
 - Nchedo Zodl Tor: https://support.zodl.com/article/17-enabling-tor-protection

@@ -1,10 +1,10 @@
-# Z3: (zebrad) ((zaino) ((zingo-cli)
+# Z3: (zebrad)(zaino)(zingo-cli)
 
-** zebrad **: zcash full node
+**zebrad**    : full node ya Zcash
 
-** zaino **: zcash blockchain indexer
+**zaino**     : kiashiria cha blockchain ya Zcash
 
-** zingo-cli **: Zcash amri line zaino-proxy mteja (subset ya Zingolib)
+**zingo-cli** : mteja wa mstari wa amri wa zaino-proxy wa Zcash (kijisehemu cha Zingolib)
 
 ## Video
 
@@ -12,7 +12,7 @@
   <iframe
     className="w-full h-full"
     src="https://www.youtube.com/embed/b5dIuGstMvI"
-    title="An introduction to Zingolib + Zaino"
+    title="Utangulizi wa Zingolib + Zaino"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowFullScreen
     loading="lazy"
@@ -20,21 +20,21 @@
 </div>
 
 
-## Mfano Mkubwa
+## Mtazamo mpana
 
-[Mfumo usanifu](https://github.com/zingolabs/zaino/blob/dev/docs/zaino_live_system_architecture.pdf)
-
-
-- Zcash User Installs/Compiles Zingolib Which gives access to zingo-cli. Wanaweza kutuma/kupokea ZEC kama inahitajika.
-- zingo-cli inaunganisha na zaino ama ndani ya nchi au kupitia njia salama mtandaoni (mtumiaji wa Zcash hajali jinsi hii inavyofanya kazi!)
-- Zaino inaruhusu upatikanaji wa ama zebrad au zcashd 
-- Fully synced zebrad is source of truth (no more wallets here!)
+[Usanifu wa mfumo](https://github.com/zingolabs/zaino/blob/dev/docs/zaino_live_system_architecture.pdf)
 
 
+- Zcash Mtumiaji husakinisha/hukusanya Zingolib, jambo linalotoa ufikiaji wa zingo-cli. Anaweza kutuma/kupokea ZEC inapohitajika.
+- zingo-cli huunganishwa na zaino ama ndani ya mfumo au kupitia njia salama mtandaoni (Zcash mtumiaji hajali jinsi hili linavyofanya kazi!)
+- Zaino huruhusu ufikiaji wa ama zebrad au zcashd            
+- zebrad iliyosawazishwa kikamilifu ndiyo chanzo cha ukweli (hakuna pochi tena hapa!)
 
-## Ufungaji
 
-Itabidi intall 3 mambo kwa ajili ya hii kazi kwa usahihi. Mimi pia kupendekeza screen au kitu kama kusaidia na screen usimamizi
+
+## Usakinishaji
+
+Utahitaji kusakinisha vitu 3 ili hili lifanye kazi ipasavyo. Pia ninapendekeza screen au kitu kinachofanana ili kusaidia katika usimamizi wa skrini
 
 `sudo apt install screen`
 
@@ -47,14 +47,14 @@ cargo install --git https://github.com/ZcashFoundation/zebra --tag v2.0.1 zebrad
 ```
 
  
-* hiari * (kuunda kikao screen kwa zebrad)
+*hiari* (unda kipindi cha screen kwa ajili ya zebrad)
 
 ```
 screen -S zebra
 zebrad start
 ```
 
-Kumbuka: hii itahitaji kabisa kulandanisha! 
+Dokezo: Hiki kitahitaji kusawazishwa kikamilifu! 
 
 ### zaino
 
@@ -66,7 +66,7 @@ PATH=$PATH:~/Desktop/zaino/target/release/
 ```
 
 
-* hiari * (kuunda kikao screen kwa zaino)
+*hiari* (unda kipindi cha screen kwa ajili ya zaino)
 
 ```
 screen -S zaino
@@ -84,16 +84,16 @@ cd zingolib
 cargo build --release --package zingo-cli
 ```
 
-* hiari * (kuunda kikao screen kwa ajili ya zingo-cli)
+*hiari* (unda kipindi cha screen kwa ajili ya zingo-cli)
 
 ```
 screen -S zingo
 ./zingo-cli --server http://127.0.0.1:8137 --data-dir /media/zebra5/zebra/.cache/lightwalletd
 ```
 
-Kumbuka: hii itahitaji kabisa kulandanisha, tu kama lightwalletd alifanya. Mimi kupendekeza kutumia gari nje ya kuokoa muda :)
+Dokezo: Hiki kitahitaji kusawazishwa kikamilifu, kama vile lightwalletd ilivyofanya. Ninapendekeza kutumia hifadhi ya nje ili kuokoa muda :)
 
 
-## Kukimbia
+## Kuendesha
 
-Kama yako kuendesha hizi katika skrini, `screen -r` itakuwa orodha kila screen kwa ajili ya wewe hoja kama inahitajika
+Ikiwa unaviendesha hivi katika screen, `screen -r` itaorodhesha kila skrini ili uweze kuhamia kwa kila moja inapohitajika

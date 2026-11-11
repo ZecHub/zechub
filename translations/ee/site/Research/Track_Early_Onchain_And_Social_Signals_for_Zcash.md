@@ -2,106 +2,107 @@
 published: 2025-08-19 
 ---
 
-# Tracking Gbãtɔ On-kɔsɔkɔsɔ & Hadome Dzesiwo na Zcash (ZEC) .
+# Ɖoɖonu Dzi [On-chain] Kple Hamea ƒe Dzesi Gbãtɔwo ƒe Ŋkuléle na Zcash (ZEC)
 
-### Kpɔkplɔyiɖeme 
+### Gɔmedzedze 
 
-Numekuku nyati sia ku alesi kɔsɔkɔsɔ ƒe dzesi gbãtɔwo na Zcash, vevietɔ tɔmelãwo ƒe ʋuʋu kple hadome seselelãme ƒe dzesi siwo le mɔ̃wo abe X ene kpɔa ŋusẽ vevi aɖe ɖe ZEC ƒe ʋuʋu dzii me. Zcash nye cryptocurrency si léa fɔ ɖe ame ŋutɔ ƒe nyawo ŋu si wokpɔ tso Bitcoin ƒe codebase me, kple nu yeye gãtɔ si nye be woatsɔ nya ɣaɣlawo ƒe agbalẽ gã aɖe akpe ɖe eŋu to zero-knowledge proofs zazã me. 
+Nunyaŋlɔɖi sia le eme be wòle dzodzro wɔm tso ɖoɖonu dzi [on-chain] dzesi gbãtɔwo ƒe nu, na Zcash, vevietɔ tɔxɛwo ƒe zɔzɔ kple hamea ƒe susu dzesiwo le mɔwo dzi abe X ene, siwo wɔnɔa ŋusẽ gã aɖe ɖe ZEC ƒe dzodzro dzi. Zcash nye crypto ga si ɣaɣla [privacy] le eme, eye wòdze Bitcoin ƒe code ƒe gɔme, kple eƒe yame tɔxɛ vevi si nye ɣaɣlaŋlɔŋlɔ [encryption] ƒe ledger si wotsɔ zero-knowledge ɖaseɖigbalɛwo [proofs] kpe ɖe eŋu.
 
-Messari ZEC Dashboard kple X numedzodzrowo me dzodzro nye dɔwɔnu siwo wozãna tsɔ kpɔnɛ ɖa be Zcash ƒe ʋuʋu gãwo do ƒome kple tweet geɖe wu kple ɖetsɔleme si le dzidzim ɖe edzi le internet dzi hã la dometɔ ɖeka. Nu bubu si me wotsɔ ɖe le enye alesi Zcash habɔbɔa ƒe dɔwɔnawo abe gakotokuwo, wɔnawo kple ŋgɔyiyi kpɔa ŋusẽ ɖe Zcash ƒe ʋuʋu le asi me dzii.
+Messari ZEC Ɖoɖowo ƒuƒopé [Dashboard] kple X me ƒe dzeɖeɖeawo ƒe dzodzro nye dɔwɔnu [tools] si wozãna be woakpɔe be Zcash ƒe zɔzɔ gãwo ɖe ka kple tweet geɖe kple amewo ƒe dzidzɔ ɖe internet dzi. Nusi bubu siwo hia lae nye ale si Zcash ƒe hamea ƒe dɔwɔwɔwo, abe gakotokuwo [wallets], nudzɔdzɔwo kple mɔ̃ ƒe ɖoɖoŋlɔla [developer] ƒe dɔwɔwɔ ene, wɔnɔa ŋusẽ ɖe Zcash ƒe zɔzɔ le asime dzi.
 
-Woléa ŋku ɖe ZEC ƒe nɔnɔme siwo va yi hã ŋu eye wotsɔa wo sɔna kple ameŋunyatakakawo ŋuti gaku bubuwo; alesi akpa vovovowo kple asitsahabɔbɔwo dea dzesi wo eye woxɔa wo dzii kpena ɖe ame ŋu be woana nya siwo ƒo xlã wo be woatu ŋusẽkpɔɖeamedziawo ɖe edzi. Menye akɔntabubu gbegblẽwo wɔwɔ tso ZEC ƒe asi ŋu alo nyagblɔɖi siwo me agbagbadzedze aɖeke mele o ŋue wòku ɖo o ke boŋ dzesiwo me dzodzro kaba be woaɖe ɖetsɔleme si le dzidzim ɖe edzi, tɔtrɔ gãwo alo nutoa me dɔwɔnawo afia hafi dukɔmeviwo katã nakpɔ wo.
+Wole ZEC ƒe nuŋlɔɖiwo siwo va yi la ŋkɔm hã eye wonoa tsitre kple ɣaɣla ga bubuwo; ale si ame vovovowo kple asitsotsoƒewo wɔnɔa esia dzi kple woƒe dzixɔse le eme la naa nɔnɔme na asime ƒe zɔzɔwo. Menye ɖe amegbe bubuwo ƒe ZEC ƒe asiga ƒe nudzɔdzɔ ɖe nutome o alo be woawɔ nyagblɔɖi bɔbɔe o, ke boŋ dzesiwo ƒe dzodzro gbãtɔ be woafia dzidzɔ si le dzidzɔm, tɔtrɔ gãwo alo hamea ƒe dɔwɔwɔ hafi amehawo akpɔ wo.
 
-Blockchain mɔ̃ɖaŋununya wɔa dɔ le mɔ yeye nu eye dɔwɔwɔ le cryptocurrency me hea nuteƒekpɔkpɔ geɖe vɛ. Tso alesi asitsatsa dzɔnae dzi va ɖo alesi wòhea tɔtrɔ gãwo vaa asitsalawo ƒe nuwɔna kple seselelãme me dzi la, woate ŋu asrɔ̃ nu tso asitsatsa ƒe ŋusẽkpɔɖeamedzi dodzidzɔnamewo ŋu; viɖe kple nusiwo bu la nye nuteƒekpɔkpɔ gbãtɔwo. 
+Gaɖoɖowo ƒuƒoƒo ƒe ɖoɖonu [blockchain] ƒe mɔ̃nana wɔa dɔ le mɔ yeyee me, eye dɔwɔwɔwo le crypto ga me naa nusrɔ̃ɖi si dzi. Tso ale si gaɖoɖowo [transactions] wɔna va se ɖe ale si wɔnaa tɔtrɔ gãwo le asime ƒe nɔnɔme kple amewo ƒe susu me la, womate ŋu asrɔ asime ƒe dzodzro nyuiwo; gaƒoƒo kple gaɖeɖe ƒe nusrɔ̃ɖiwo nye nusi amewo kpɔna kple wo ŋutɔ woƒe ŋkuwo.
 
-Kɔsɔkɔsɔ ƒe xexlẽdzesi gbãtɔwo le dɔwɔna me tsi tre abe dɔwɔna gbãtɔwo dometɔ ɖeka kple xexlẽdzesi sesẽ siwo ɖea asi ƒe mɔfiame kple ʋuʋu kpakple gadelawo ƒe dɔwɔnawo kple tɔtrɔ siwo ate ŋu ava le etsɔ si gbɔna kpuie me le crypto xexeame fiana. Gawu la, ne wokpɔ dzesi siawo ɖe game dzi la, ate ŋu akpe ɖe gadelawo ŋu woakpɔ viɖe, vevietɔ ne wotsɔ wo kpe ɖe nusiwo mele kɔsɔkɔsɔ me o abe hadomenyatakakadzraɖoƒewo ƒe seselelãmewo me dzodzro ene ŋu. 
-Le Messari ZEC Dashboard, Coin Metrics kple Blockchair ƒe nya nu la, numekuku le ZEC ƒe network dɔwɔnawo ŋu naa gɔmesese si woate ŋu awɔ le nenye be tɔmelã gãwo ƒe ʋuʋu sɔ kple hadomenuwɔnawo ƒe dzidziɖedzi abe tweet ƒe agbɔsɔsɔ kple ɖetsɔleme si keke ta wu le Internet dzi ene. Etɔxɛe la, Messari ƒe nɔnɔmetatawo ɖe dzidziɖedzi si dze ƒã fia le gbesiagbe kɔsɔkɔsɔ dzi asitsatsa ƒe agbɔsɔsɔ kple asitɔtrɔ ƒe ga si va le ɣeyiɣi si tso July 1 va ɖo 22, 2025 me, eye wòɖo eƒe kɔkɔƒe le July 22 lɔƒo; si sɔ kple hadomenuƒoƒo kple asixɔxɔ ƒe ʋuʋu si dzi ɖe edzi .
-Blockchair nyatakakawo ɖee fia be ZEC ƒe akpa si le adrɛs siwo wokpɔ ta na me dzi ɖe edzi tso abe 18 % va ɖo 20 % le fesre ma ke me, si fia be ame ŋutɔ ƒe nyatakakawo takpɔkpɔ ƒe asitsatsa le dzidzim ɖe edzi.  (Kpɔ Nɔnɔmetata 1 lia)
+Ɖoɖonu dzi ƒe metriksi gbãtɔwo le dɔwɔwɔ me nye dzesi gbãtɔwo kple metriksi ŋusẽtɔwo dome, si fiaa asime ƒe mɔ kple zɔzɔ, kple asigaɖola ƒe dɔwɔwɔwo kple tɔtrɔ siwo ate ŋu ava le crypto xexeame me enumake. Azɔ hã, ne wokpɔ dzesi siawo le ɣeyiɣi nyui me la, wòate ŋu akpe ɖe asigaɖolawo ŋu be woaxɔ vi, vevietɔ ne wotsɔ wo kpe ɖe ɖoɖonu me menɔ [off-chain] nuwo abe hamea ƒe media me susu dzodzro ene ŋu.
+Le Messari ZEC Ɖoɖowo ƒuƒopé nu, Coin Metrics kple Blockchair, ZEC ƒe network dɔwɔwɔ ƒe dzodzro naa numeɖeɖe si wòate ŋu wɔe be woakpɔe be tɔxɛwo ƒe zɔzɔ gãwo ɖe ka kple hamea ƒe dɔwɔwɔ ƒe keke le tweet ƒe xexlẽ kple dzidzɔ le internet dzi. Tɔtrɔtɔe la, Messari ƒe chartwo fiaa dzedze gã le gaɖoɖo ƒe xexlẽ le ɖoɖonu dzi kple gatrɔƒe [exchange] ƒe ga gege le ŋkeke sia ŋkeke me tso July 1 va se ɖe 22, 2025, eye wòva se ɖe eƒe dzidzenu le July 22; eya de ɣeyiɣi ma ke me kple hamea ƒe dzeɖeɖe kple asiga ƒe zɔzɔ.
+Blockchair ƒe data fia be ZEC si le ɣaɣla gaɖoƒe ƒe dzesiwo me ƒe akpa dzi tso 18 % kple 20 % le ɣeyiɣi ma me, si fia be amewo le ɣaɣla [privacy] ƒe gaɖoɖowo zãm geɖe. (Kpɔ Nɔnɔnɔ 1)
 
-# Figure 1. ZEC ƒe akpa si le Shielded Address - July 2025 me
-(Dzɔtsoƒe: Blockchair (2025). Akpoxɔnu nana ƒe alafa memamã na July 1-22, 2025.)
+# Nɔnɔnɔ 1. ZEC Ƒe Akpa Si Le Ɣaɣla Gaɖoƒe Ƒe Dzesiwo Me - July 2025
+(Dzɔɖoƒe: Blockchair (2025). Ɣaɣla ƒe supply ƒe percentage na July 1-22, 2025.)
 
-Tsɔ kpe ɖe eŋu la, Coin Metrics dutoƒo network series ɖo kpe edzi be gbesiagbe adrɛs siwo le dɔ wɔm kple shielded-supply metrics siaa yi dzi le July ƒe domedome, si na be woate ŋu atsɔ agbɔsɔsɔme asɔ kple wo nɔewo le kɔsɔkɔsɔ me nuwɔna kple hadome dzesiwo dome.  (Kpɔ Nɔnɔmetata 2 lia)
-
-
-# Figure 2. Zcash Gbesiagbe Adrɛs siwo le dɔ wɔm kple Shielded Supply - Mid July 2025
-(Dzɔtsoƒe: Coin Metrics (2025). Gbesiagbe adrɛs siwo le dɔ wɔm na July 1-22, 2025.)
-
-Nyatakaka siawo katã ɖea gaku ƒe ʋuʋu, ame ŋutɔ ƒe nyatakakawo xɔxɔ kple ezãlawo ƒe gomekpɔkpɔ le eme fiana; agbɔsɔsɔ gã siwo le kɔsɔkɔsɔwo me ƒe dzidziɖedzi kple ga si wotsɔ ɖɔa li gae ɖee fia be tɔmelã siwo woyɔna be whale nɔ dɔ dzi, ɖewohĩ wonɔ ga ʋum alo nɔ dzadzram ɖo ɖe ŋusẽ si wòakpɔ ɖe asitsatsa dzi ŋu; shielded-supply ƒe dzidziɖedzi ɖee fia be woyi edzi lɔ̃a asitsatsa siwo ŋu ame ŋutɔ ƒe nyatakakawo nyona ɖe edzi, le ɣeyiɣi siwo me amewo ƒe susu le nu ŋu geɖe wu eye adrɛs siwo le dɔ wɔm ƒe xexlẽme si le dzidzim ɖe edzi gɔ̃ hã ɖee fia be network zazã nɔ ta kekem ɖe edzi kpe ɖe whale siawo ƒe ʋuʋu kple ame ŋutɔ ƒe nyatakakawo didi ŋu.  (Kpɔ Nɔnɔmetata 3 lia)
+Azɔ hã, Coin Metrics ƒe dukɔ network ƒe serieswo ɖe gbeɖe be gaɖoƒe ƒe dzesi siwo wɔ dɔ le ŋkeke sia ŋkeke me kple ɣaɣla-supply ƒe metriksiwo katã dzedza yi dzi le July ƒe titina, si na wòate ŋu anoe tsitre ɖe ɖoɖonu dzi ƒe nɔnɔme kple hamea ƒe dzesiwo ŋu le xexlẽ me. (Kpɔ Nɔnɔnɔ 2)
 
 
-# Figure 3. ZEC ƒe akpa si le Shielded Address - July 2025 me
-(Dzɔtsoƒe: ZecHub (2025). ZecHub ƒe dashboard ƒe nɔnɔmetata na ƒe 2016- 2025)
+# Nɔnɔnɔ 2. Zcash Ƒe Gaɖoƒe Ƒe Dzesi Siwo Wɔ Dɔ Le Ŋkeke Sia Ŋkeke Me Kple Ɣaɣla Supply - July Ƒe Titina 2025
+(Dzɔɖoƒe: Coin Metrics (2025). Gaɖoƒe ƒe dzesi siwo wɔ dɔ le ŋkeke sia ŋkeke me na July 1-22, 2025.)
 
-### Zcash abe ame ŋutɔ ƒe gaku ene
-
-Zcash nye cryptocurrencies siwo wowɔ kple zãla ƒe adzamenyawo le susu me dometɔ ɖeka si zãa zero sidzedze kpeɖodziwo (zk-SNARKs) eye woɖee tso Bitcoin code me abe fork ene; ezãlawo ate ŋu awɔ asitsatsa siwo me kɔ kple esiwo ŋu wokpɔ ta na siaa fifia. Togbɔ be taɖodzinuae nye be woakpe asi ɖe ezãlawo ƒe nyatakakawo ta kpɔkpɔ ŋu hã la, eƒe agbɔsɔsɔ fũ nana wòsesẽna be woalé ŋku ɖe dzesi siwo ate ŋu ana asitsatsa kple gadede asi nanɔ bɔbɔe wu la ŋu. Gake menye nusi mate ŋu adzɔ o ye wònye o. 
-
-To vovo na Monero kple DASH, siwo woƒoa ƒu zi geɖe be “adzamegakuwo,” DASH ʋu le se nu tso adzame gaku ƒe hatsotsowo me le nɔnɔme ƒe tɔtrɔwo kple sedede ƒe gɔmesese siwo le tɔtrɔm megbe (Cointelegraph, 2024) . ZEC gakpɔtɔ dze ŋgɔ hoʋiʋli kple ŋkuléle ɖe eŋu, gake woate ŋu adzidze eƒe ŋusẽ to kɔsɔkɔsɔwo ƒe dɔwɔnawo, tɔmelãwo ƒe ʋuʋu ƒe kadodo, tweet ƒe agbɔsɔsɔ, kple kadodo kple Internet dzi kadodo me evɔ womaɖo ŋu ɖe asixɔxɔ ŋuti nususugblɔ ɖeɖeko ŋu o.
-
-On-chain activity fia kadodo siwo katã dzɔna tẽ le blockchain dzi, abe gakotoku ƒe asitɔtrɔ yi gakotoku me, dzesiwo ƒe asitɔtrɔ, smart contract ƒe kadodowo, gadede asi kple gaɖeɖe le asitɔtrɔwo me, NFT minting alo transfers kple staking/unlocking events. Woate ŋu aƒo nya ta le nuwɔna ƒe nɔnɔme siwo le akpa veviwo, vevietɔ tɔmelã siwo woyɔna be whale, asitsahabɔbɔwo, dɔwɔƒewo, alo dɔwɔƒewo ƒe gakotokuwo ŋu ne wole nyatakaka siawo me dzrom eye woate ŋu ase alesi wodo ƒome le asitsatsa ƒe nyametsotso me gɔme bliboe.
-
-Le Messari ZEC Dashboard (Messari) ƒe nya nu la, le July 1 kple July 22, 2025 dome la, asitsatsa 12 nɔ anyi siwo wu ZEC 1,000, gãtɔ kekeake sɔ kple ZEC 5,200 (Coin Metrics, 2025). ZEC ƒe agbɔsɔsɔ siawo siwo woɖo seɖoƒe na la kpe ɖe asitɔtrɔ ƒe gadede ƒe dɔwɔna ɖedzesi aɖe ŋu, si fia be woate ŋu adzra nu alo asitɔtrɔ le gaxɔmenu ŋu ƒe dɔwɔna.
-
-Le ɣeyiɣi ma ke me la, asitsatsa siwo wokpɔ ta na, siwo nye Zcash ƒe ameŋunyatakakawo takpɔkpɔ ƒe ɖoɖoa ƒe akpa vevi aɖe, gakpɔtɔ nɔ ekpɔm be gɔmesese le wo ŋu. Kaka July naɖo la, ZEC ƒe nuzazãwo katã ƒe 20% lɔƒo nɔ adrɛs siwo wokpɔ ta na me. (Blockchair 2025) (kpɔ Nɔnɔmetata 4 lia) 
+Data siawo katã fia ga ƒe zɔzɔ, ɣaɣla ƒe xɔxɔ kple ezãla ƒe dɔwɔwɔ; ɖoɖonu dzi ƒe volume gãwo kple gatrɔƒe ƒe ga gege ƒe keke fia be tɔxɛwo le dɔ wɔm, ɖewohĩ wole ga yɔm ɖe teƒe bubu alo womuna ɣeyiɣi si asime ƒe tɔtrɔ ava; ɣaɣla-supply ƒe sɔdzi fia be amewo gale ɣaɣla ƒe gaɖoɖowo dim, hã le ɣeyiɣi si amewo ƒe susu le nudzɔdzɔ dzi, eye gaɖoƒe ƒe dzesi siwo wɔ dɔ ƒe xexlẽ si le dzi yim fia be network ƒe zazã le sɔdzi kple tɔxɛwo ƒe zɔzɔwo kple ɣaɣla ƒe hiahiã. (Kpɔ Nɔnɔnɔ 3)
 
 
-# Figure 4. Adzɔnuwo ƒe dzidziɖedzi si wokpɔ ta na - July 2025
-(Dzɔtsoƒe: Blockchair (2025). Wokpɔ nuzazãwo ƒe alafa memamã ta tso July 1-22, 2025, si ɖe dzidziɖedzi fia tso ~18% va ɖo ~20%.)
+# Nɔnɔnɔ 3. ZEC Ƒe Akpa Si Le Ɣaɣla Gaɖoƒe Ƒe Dzesiwo Me - July 2025
+(Dzɔɖoƒe: ZecHub (2025). ZecHub ƒe dashboard chart na 2016- 2025)
+
+### Zcash abe ɣaɣla ga ene
+
+Zcash nye crypto gawo dome ɖeka si wowɔ kple ezãla ƒe ɣaɣla le susu me, si zãa zero-knowledge ɖaseɖigbalɛwo [proofs] (zk-SNARKs), eye wòdze Bitcoin ƒe code ƒe gɔme abe fork ene; azɔ ezãlawo ate ŋu awɔ nuwo ƒe ʋuʋuɖi [transparent] kple ɣaɣla gaɖoɖowo. Eƒe tame nye be yeakpe ɖe ezãla ƒe ɣaɣla ŋu, gake ne ezu geɖe akpa aɖe la, ekɔna be wòakpɔ dzesiwo siwo ate ŋu ana trading kple asigaɖoɖo nɔ bɔbɔe. Ke hã, menye nu si womate ŋu awɔ o.
+
+Vovotɔ na Monero kple DASH, siwo amewo ƒoa ƒu zi geɖe be "ɣaɣla gawo," DASH tso ɣaɣla ga ƒe ƒome dzi le nyateƒe me le nɔnɔme ƒe tɔtrɔwo kple se ƒe gɔmesese siwo le tɔtrɔm ta (Cointelegraph, 2024). ZEC gale tsɔtsɔ kple ameƒoƒo ƒe nukpɔkpɔ kpɔm, gake wòate ŋu amee eƒe dzodzro to ɖoɖonu dzi dɔwɔwɔ, tɔxɛ ƒe zɔzɔ ƒe kaɖeɖe, tweet ƒe xexlẽ, kple network ƒe dɔwɔwɔ me, tsã asiga ƒe nudzɔdzɔ ɖe eɖokui ko dzi o.
+
+Ɖoɖonu dzi dɔwɔwɔ nye nuƒoƒo katã siwo dzɔa tẽ ɖe gaɖoɖowo ƒuƒoƒo ƒe ɖoɖonu dzi, abe gakotoku me tso gakotoku me ƒe ga yɔyɔ, token ɖɔli ɖɔli [swaps], mɔ̃ŋlɔ ƒe dɔwɔwɔ [smart contract] ƒe nuƒoƒo, gaɖeɖe kple gaɖeɖe tso gatrɔƒewo me, NFT ƒe wɔwɔ alo yɔyɔ, kple ga ƒuƒoƒo [staking]/ga ʋuʋuɖe ƒe nudzɔdzɔwo. Ne wodzro data sia me la, wòate ŋu akpɔ dɔwɔwɔ ƒe mɔwo le ame veviwo, vevietɔ tɔxɛwo, ame bubu ƒe ƒuƒowo, mɔ̃ ƒe ɖoɖoŋlɔlawo, alo gakotokuwo siwo dukɔwo zãna, eye wòate ŋu ase ale si woƒe ka le asime ƒe nudzɔdzɔ me nyuie.
+
+Le Messari ZEC Ɖoɖowo ƒuƒopé (Messari) nu, le July 1 kple July 22, 2025 dome la, gaɖoɖo 12 nɔ anyi siwo wu ZEC 1,000, eye si gãtɔ sɔ kple ZEC 5,200 (Coin Metrics, 2025). ZEC ƒe volume siwo wokpɔ ɖe dzenu la de ɣeyiɣi ma ke me kple gatrɔƒe ƒe ga gege si nɔ ŋusẽ me, si fia be ɖewohĩ gaɖeɖe alo asiga ƒe tɔtrɔwɔ nɔ dzɔm.
+
+Le ɣeyiɣi ma ke me la, ɣaɣla gaɖoɖowo, si nye akpa vevi aɖe le Zcash ƒe ɣaɣla ƒe ɖoɖo me, gale xɔxɔ nyui kpɔm. Va se ɖe July la, ZEC ƒe supply katã ƒe 20% ƒe ŋu le ɣaɣla gaɖoƒe ƒe dzesiwo me. (Blockchair 2025) (kpɔ Nɔnɔnɔ 4)
 
 
-Enyo be míade dzesii be asitsatsa siwo wokpɔ ta na ƒe agbɔsɔsɔme dzi ɖe edzi 8% tso ɣleti si va yi me, si ɖee fia be ganyawo ƒe adzamenyawo gbɔ kpɔkpɔ geɖe wu dim ɣesiaɣi. Le wo katã me la, nɔnɔme siawo fia asi lãwo ƒe agbenɔnɔ ƒe ɖoɖo si le dzidzim ɖe edzi si wotu ɖe ame ŋutɔ ƒe nyawo gbɔ kpɔkpɔ dzi, afisi asitsalawo kple ame siwo tsia dzi ɖe ame ŋutɔ ƒe nyawo ŋu siaa le ŋusẽ kpɔm ɖe alesi kɔmpiutadziɖoɖoa wɔa dɔe dzi vevie le.
-
-## Dutoƒo Seselelãme 
-
-Le July 2025 me la, Tweet Volume si ƒo nu tso ZEC ŋu le mama dedie nu anɔ abe 450 ene gbesiagbe eye eƒe kɔkɔƒe nye 1,200 le July 22, si nye ŋkeke si dzi wowɔ whale ƒe asitsatsa gãtɔ kekeake. ZEC ƒe mɔ̃ɖaŋununya ƒe tɔtrɔwo kple ameŋunyatakakawo ƒe nɔnɔmewo he seselelãme nyuiwo vɛ, abe alesi ŋusẽkpɔɖeamedzilawo ƒe akɔntabubuwo abe @MarcoPoloMaps ene gblɔe ene. Nyatakaka sia ɖo kpe edzi be tɔmelã siwo woyɔna be whale ƒe dɔwɔna ate ŋu ana nutoa me tɔwo nawɔ nu aduadu le Internet dzi. 
-
-Ameŋunyatakakawo ƒe nɔnɔmewo kple mɔ̃ɖaŋununya ƒe tɔtrɔ siwo wowɔ nyitsɔ laa, si nye Zcash 6.2.0 ƒe ɖoɖowɔɖi ƒe tɔtrɔ kple Zashi 2.0 gakotoku ƒe dodo (Zcash Foundation Blog, Electric Coin Co. Release Notes), he seselelãme nyui aɖe va 55% le tweet 13,500 siwo ŋu wodzro la me. 30% le tweetawo me mede akpa aɖeke dzi o, eye woƒe susu nɔ nyadzɔdzɔwo alo mɔ̃ɖaŋununya me dzodzro ŋu, esime 15% nye nya manyomanyowo, wobla ɖe nususugblɔ ƒe ɖoɖowɔwɔ ƒe nɔnɔme abe alesi EU do susua ɖa be woaxe mɔ ɖe ame ŋutɔ ƒe gaku nu le ƒe 2027 me ene. 
-
-Esi eyomedzela siwo wu 10,000 ta la, akɔntabubuwo abe @MarcoPoloMaps ene kpe asi ɖe tweet ƒe agbɔsɔsɔ bliboa ƒe akpa enelia ŋu, eye to esia me la, woɖe dzesi le nɔnɔmea me. Esi Zcash ƒe 6.2.0 ƒe tɔtrɔ kple Zashi 2.0 ƒe dodo va nɔ amewo ƒe susu hem yi edzi la, woƒe numedzodzro ƒo xlã wɔna siawo do ŋusẽ nutoa me tɔwo ƒe nu nyuiwo. Nyatakaka siwo le kɔsɔkɔsɔwo dzi ɖo kpe edzi be ezãlawo ƒe dɔwɔnawo dzi ɖe edzi, eye adrɛs siwo le dɔ wɔm gbesiagbe ƒe xexlẽme ɖo 3,200; dzidziɖedzi 15% si sɔ kple ɣeyiɣi siwo me tɔmelã siwo woyɔna be whale ƒe asitsatsa dzi ɖe edzi ŋutɔ.
-
-Wolé ŋku ɖe mɔ̃ bubuwo abe Discord, Reddit, kple Zcash Community Hub ene ŋu be woase ezãlawo ƒe seselelãme kple alesi amewo doa vevie nui gɔme. How merchants are adopting ZEC were checked out , vevietɔ kple eƒe zazã le fexexe ƒe kuxiwo gbɔkpɔnu abe Brave Wallet kple Zashi ene. Tsɔ kpe ɖe eŋu la, wolé ŋku ɖe dɔa ƒe ŋgɔyiyi ƒe ŋgɔyiyi to GitHub ƒe nudzɔdzɔwo kple asitɔtrɔ siwo wowɔ nyitsɔ laa le network la ŋu, siwo dome Zcash v6.2.0 ƒe dodo hã le, ŋu. 
-
-## Kadodo Siwo Le On-Chain Kple Hadome Dzesiwo Dome
-
-Wode dzesi kadodo sesẽ aɖe ŋutɔ le asitsatsa gãwo kple tweet-dɔwɔwɔ ƒe dzidziɖedzi dome. Edze abe esia ɖee fia be ne tɔmelã siwo woyɔna be whale le ʋuʋum la, ehea ame geɖe ƒe susu le asi me ene. Kadodo si sɔ hã nɔ anyi si ɖee fia be ne hadome seselelãme nyo la, asitsatsa siwo wokpɔ ta na ƒe xexlẽme te ŋu dzina ɖe edzi, si fia be dzeɖoɖo siwo ku ɖe ame ŋutɔ ƒe nyawo ŋu ate ŋu ado kɔsɔkɔsɔ ƒe dɔwɔna ŋutɔŋutɔ ɖe ŋgɔ ŋutɔŋutɔ.
+# Nɔnɔnɔ 4. Ɣaɣla Gaɖoɖowo ƒe Sɔdzi - July 2025
+(Dzɔɖoƒe: Blockchair (2025). Ɣaɣla supply ƒe percentage tso July 1-22, 2025, si fia sɔdzi tso ~18% va se ɖe ~20%.)
 
 
-Ne míelé ŋku ɖe Nutoa, Vixɔxɔnyi, kple Ŋgɔyiyi ŋu la, Zcash Nutome Dɔwɔƒea te gbe ɖe dzidzɔkpɔkpɔ si le gbe me ƒe dzidziɖedzi dzi, eye hamevi siwo wu 2,800 siwo doa vevie nu le Discord eye ame 2,000 siwo ŋlɔ ŋkɔ ɖe Reddit dzi. Enyo be míade dzesii be nutoa me tɔwo ƒe gomekpɔkpɔ le eme dzi ɖe edzi 12% le Zashi 2.0 ƒe dodo megbe, eye numedzodzro geɖe ku ɖe ameŋunyatakakawo ŋuti nu yeyewo kple alesi woawɔ akpɔ sedede ƒe mɔxenuwo gbɔe ŋu. (Kpɔ Nɔnɔmetata 5 lia)
+Eŋutinutɔe la, ɣaɣla gaɖoɖowo ƒe volume yi dzi kple 8% tso ƒe sia ƒe me, si fia be ga ƒe ɣaɣla gã hiaa amewo ɣeyiɣi sia ɣeyiɣi. Le nu katã me la, dzodzro siawo fia ɣaɣla-ƒeɖoɖo si le dzodzrom, afi si asitsotsoƒeawo kple ezãla siwo dinɔa ɣaɣla me katã le dɔ wɔm be woaɖo network ƒe dɔwɔwɔ ɖe mɔ bubu dzi.
 
-# Figure 5. Zcash Forum Traffic and Signups Snapshot tso esime woɖe Zashi 2.0 ɖe go le April 28, 2025 dzi. 
-(Dzɔtsoƒe : Shawn; Zcash Community Forum (ƒe 2025) ƒe ŋgɔdola. Tabla si ƒo nu tso April 9 vaseɖe May 9, 2025. )
+## Dukɔ ƒe Susu
 
-Nutoa, Vixɔxɔnyi, kple Ŋgɔyiyi si me Zcash Nutome Dɔwɔƒea ɖe dzonɔameme si le dzidzim ɖe edzi le gbemelãwo dome fia le. Le vixɔxɔnyi gome la, asitsalawo ƒe ɖekawɔwɔ gakpɔtɔ le sue gake eɖe dzesi ŋutɔ. Togbɔ be zazã le xexeame katã ƒe asitsalawo dome le sue, wobu akɔnta be enye 120 hã la, ZEC ƒe tsɔtsɔ de Brave Wallet me kple zk-proof dodokpɔ le Google Wallet me le April kple May 2025 me, na amewo ƒe nukpɔkpɔ dzi ɖe edzi. 
-Electric Coin Company kple Zcash Foundation ƒe dɔwɔwɔ siwo woɖe fia le ƒe 2025 ƒe ɣleti ene evelia me ɖe dɔwɔwɔ si nɔa anyi ɖaa fia. GitHub ƒe adzɔgbeɖeɖe siwo wu 350 ɖe nuwɔwɔ aduadu vevi aɖe fia le xɔtuɖoɖo veviwo abe Zedrab codebase kple Zallet wallet ene me, si ɖe Zcash ecosystem ƒe mɔ̃ɖaŋuha si le dɔ dzi kple amesiwo kpe asi ɖe eŋu ƒe nɔnɔmetatawo hã fia.
+Le July 2025 me la, Tweet ƒe Volume ƒe avɔmetɔ si me wome ZEC ƒe ŋkɔ o la nɔ posts 450 kple ŋkeke ɖeka, eye wòva se ɖe 1,200 le July 22, si nye ŋkeke si tɔxɛ ƒe gaɖoɖo gãtɔ dzɔ. ZEC ƒe mɔ̃ ƒe tɔtrɔwo kple ɣaɣla ƒe nɔnɔmewo he susu nyui va, abe influencer accountwo siwo abe @MarcoPoloMaps ene gblɔe. Data sia naa ɖaseɖigbalɛ be tɔxɛ ƒe dɔwɔwɔ ate ŋu ayɔ hamea ƒe nuƒoƒo le internet dzi.
 
+Ɣaɣla ƒe nɔnɔmewo kple mɔ̃ ƒe tɔtrɔ yeyeawo, vevietɔ Zcash 6.2.0 protocol ƒe tɔtrɔ kple Zashi 2.0 gakotoku ƒe taɖeɖe (Zcash Foundation Blog, Electric Coin Co. Release Notes), he susu nyui va na tweet 13,500 siwo wodzro me la ƒe 55%. Tweetwo ƒe 30% menɔ afima alo afima o, eye wonɔ nyadzɔdzɔ alo mɔ̃ ƒe dzodzro dzi; tweetwo ƒe 15% menɔ nyuie o, eye eƒe gɔme nɔ se ƒe nɔnɔme si amewo le buabua, abe EU ƒe ɣaɣla ga ƒe mɔxexe na 2027 ene.
 
-Be woaku Zcash ƒe fifia ƒe ŋusẽkpɔɖeamedziwo me ŋutɔŋutɔ la, anyo wu be nàlé ŋku ɖe ezãla ƒe nukpɔsusu ŋu le ɣeyiɣi aɖe megbe eye nàtsɔ Zcash ƒe ŋutinya me nyawo asɔ kple ameŋunyatakakawo ƒe gaku bubuwo. Kukuɖenuŋu sia aɖe gbeƒã ZEC ƒe ŋutinya me asixɔxɔ ƒe ʋuʋu, abe asi ƒe kɔkɔƒe tso ƒe 2017 kple block afã ƒe nudzɔdzɔ si dzɔ le ƒe 2020 me ene, kple kɔsɔkɔsɔ kple hadome dzesiwo tsɔtsɔ sɔ kple Monero (XMR) kple DASH (DASH) (ex., asitsatsa ƒe agbɔsɔsɔ, asi ƒe ɖoƒe, kple hadome dɔwɔna). 
+Accountwo siwo ƒe followers wu 10,000, abe @MarcoPoloMaps ene, wɔ tweet ƒe volume katã ƒe akpa ene, eye wonye ame veviwo le dzodzro ma me. Ne Zcash ƒe 6.2.0 tɔtrɔ kple Zashi 2.0 taɖeɖe xɔ amewo ƒe susu la, woƒe nuƒoƒo tso nudzɔdzɔ siawo ŋu na hamea ƒe dzidzɔ sɔ dzi. Ɖoɖonu dzi data de asitsotso si wokpɔ la ɖe dzenu, eye gaɖoƒe ƒe dzesi siwo wɔ dɔ le ŋkeke sia ŋkeke me ƒe xexlẽ va se ɖe 3,200; sɔdzi 15% si de ɣeyiɣi si tɔxɛ ƒe gaɖoɖowo le dzedzem gã la ŋu vevie.
 
-Asi ƒe asiwo ƒe kɔkɔƒe si woŋlɔ ɖi le ƒe 2017 ƒe nuwuwu sɔ kple asi ƒe dzidziɖedzi le xexeame katã le crypto asiwo me, eye Zcash ƒe ƒe 2020 ƒe afã dzi ɖeɖe kpɔtɔ ƒe nudzɔdzɔa nye nu vevi aɖe si xe mɔ na ZEC ƒe nuzazãwo. Le tɔmelã aɖewo ƒe ʋuʋu le July ƒe 2025 me gome la, mesɔ gbɔ o ne wotsɔe sɔ kple asitsatsa ƒe tsatsam siwo va yi le kɔsɔkɔsɔ dzi dɔwɔna siwo wokpɔna gome (i.e., edze ƒã be woɖɔli asixɔxɔ, ɖeko míate ŋu akpɔ nusi wole wɔwɔm to hadome dzeɖoɖo alo ɣleti sia ɣleti ƒe dziɖuɖu ƒe nuŋlɔɖi me). Le ameŋunyatakakawo dome la, Monero le nugbɔ kple zãlawo ƒe habɔbɔ si me dzo le si me zãlawo ƒe kadodo si me dzidzeme le gbesiagbe. Zcash le nyanya xɔm to dzidziɖedzi gã aɖe le asitsatsa siwo wotsɔ akpoxɔnu wɔe me.
+Wokpɔ mɔ bubuwo abe Discord, Reddit, kple Zcash Community Hub hã be woase ezãla ƒe susu kple ale si amewo le dɔ wɔm. Wodzro ale si asitsotsoƒeawo le ZEC xɔm la me, vevietɔ kple ezãzã le fexexe [payment] ƒe ɖoɖowo abe Brave Wallet kple Zashi ene me. Tsɔkpe ɖe eŋu la, wowɔ ŋkuléle ɖe project ma ƒe mɔ̃ ƒe dzodzro dzi to GitHub ƒe dɔwɔwɔawo kple network ƒe tɔtrɔ yeyeawo me, si me Zcash v6.2.0 ƒe taɖeɖe le.
 
-## Cross-Chain Attention: NEAR kple Maya
-Nusi te amewo ƒe susu hehe va Zcash dzi geɖe wu le ɣleti siwo va yi nyitsɔ laa me menye tɔmelã siwo woyɔna be whale ƒe asitsatsa ƒe dzidziɖedzi alo Internet dzi habɔbɔwo ƒe nyaʋiʋli koe o, ke boŋ alesi ZEC ɖe afɔ yi ŋgɔ wu eya ŋutɔ ƒe liƒowo hã. Ðekawɔwɔ kple NEAR ƒe Intents xɔtuɖoɖowo ʋu ʋɔtruwo na asitɔtrɔ siwo me kuxi aɖeke mele o eye mɔɖeɖe manɔmee le ZEC kple nunɔamesiwo abe Bitcoin, Ethereum, kple NEAR ŋutɔ dome. Zi gbãtɔe nye sia si ame ŋutɔ ƒe nyatakakawo ta kpɔkpɔ ƒe asitsatsa ate ŋu ato kɔsɔkɔsɔwo me evɔ womatsɔ asitɔtrɔ le wo nɔewo ŋu ƒe masɔmasɔ alo fe gbogbo aɖewo mahe ɖe megbe o. Le Zcash zãlawo gome la, esia fia nu geɖe wu alesi wòanɔ bɔbɔe; enye amekpekpe kpoo na dzeɖoɖo si keke ta wu afisi ɖoɖo siwo wotu ɖe tameɖoɖo dzi kple ame ŋutɔ ƒe ga ƒoa ƒu ɖo. Menye mɔ̃ɖaŋununya ƒe wɔna aɖe koe hackathon si de dzesi nuwɔwɔ aduadu sia nye o ke boŋ enye tameɖoɖo ƒe dzesi. Dɔwɔlawo kple ameŋunyatakakawo taʋlilawo ƒo ƒu be yewoakpɔ alesi ZEC ate ŋu anɔ le etsɔme si me kɔsɔkɔsɔ vovovowo le la le susu me. Seselelãme si nɔ nyamedzroƒewo emegbe la tsɔ ŋusẽ ƒe seselelãme aɖe ɖe asi. Amewo ƒo nu tso esia ŋu be enye nusiwo ate ŋu adzɔ ƒe hatsotso yeye ƒe gɔmedzedze kple mɔnukpɔkpɔ na Zcash be wòadzudzɔ nuwɔwɔ ɖe eŋu abe dodokpɔ si woɖe ɖe aga ene. Enɔ ga si ate ŋu aʋu ayi afisiafi si gazazã le la zum boŋ.
-Maya Protocol ƒe vava na ZEC ƒe susu gadze le mɔ bubu nu. Le afisia la, womete gbe ɖe AI ƒe asitsatsa siwo le blɔ dzi o ke boŋ ŋugbe si wodo be woawɔ gazazã ɖe ɖoɖo nu ŋu. To Zcash seke tsɔtsɔ de Maya ƒe cross-chain AMM me la, amesiwo si le wo si ate ŋu adzra le wo ɖokui si evɔ womatsɔ ɖokuisinɔnɔ ade asi na asitsahabɔbɔ siwo le titina o. Le ɣeyiɣi si me sedzikpɔlawo le tsatsam le ameŋunyatakakawo ŋuti gakuwo ŋu eye wo ɖeɖeɖa le woƒe ŋkɔwo me va zu nusi wowɔna edziedzi me la, esia le vevie ŋutɔ. Le nutoa me tɔ geɖe gome la, Maya mese le eɖokui me be yenye ɖekawɔwɔ boo o ke boŋ abe agbemeka ene. Enye ŋkuɖodzinya be ZEC ate ŋu anɔ asi me kokoko evɔ womade ta agu na nudzralawo o. Mɔfiame la fia asi ZEC ƒe gege ɖe Maya ƒe lãwo ƒe agbenɔnɔ me goglo wu, eye ezãlawo ƒo nu tso eŋu xoxo be enye mɔ si dzi woato ana woƒe ganyawo nanɔ anyi eɖanye dunyahehe ƒe nɔnɔme ka kee ɖale o.
-Ne wotsɔ ɖekawɔwɔ siawo ƒo ƒu wɔ nane si menya kpɔna dzea sii bɔbɔe o gake wòde to ŋutɔ. Wohe Zcash yi dzeɖoɖowo kple nuto bubuwo me. NEAR dɔwɔla siwo ɖewohĩ womelé ŋku ɖe ame ŋutɔ ƒe gaku ŋu zi eve kpɔ o la kpɔe fifia be enye hadɔwɔla le aɖaŋuwɔwɔ si wotu ɖe tameɖoɖo dzi me. Maya zãla siwo nya gbe si wozãna le gazazã kple asitɔtrɔ le nu ŋu nyuie la le go dom adrɛs siwo ŋu wokpɔ ta na kple xexemenunya si nye sidzedze zero ƒe xexemenunya zi gbãtɔ. ZEC megale nu ƒom na eya ŋutɔ ƒe xɔsetɔwo ɖeɖeko o. Edze egɔme le ɖiɖim le nutome yeye siwo me menye ɖeko ame ŋutɔ ƒe nyawo tsɔtsɔ aɣla nye nusi wowɔna ko o ke boŋ enye tɔdzisasrã si le networkwo, ɖoɖowɔɖiwo, kple ame siwo zãa wo dome.
+## Kadodo Le Ɖoɖonu Dzi Kple Hamea Ƒe Dzesiwo Dome
 
-# Nyanuwuwuw
-Be woatsɔ wo katã aƒo ƒui la, numekuku sia ɖee fia be Zcash ƒe kɔsɔkɔsɔ kple hadome dzesiwo, togbɔ be womenya kpɔna dzea sii bɔbɔe o hã la, woɖea lãwo ƒe agbenɔnɔ ƒe ɖoɖo si le tɔtrɔm eye wòle tɔtrɔm la fiana.
-Seɖoƒe li na wo; ŋkɔmaɖemaɖe si ƒo xlã tɔmelãwo ƒe gakotoku siwo na wòsesẽna be woanya nenye be asitsatsa gã siwo wowɔ le kɔsɔkɔsɔ me nye asi dzadzra alo asi ƒe ʋuʋu ko alo menyee o kple sedede ƒe ɖoɖo si le tɔtrɔm, abe EU ƒe ameŋunyatakakawo ŋuti gaku ƒe mɔxexe ɖe enu na ƒe 2027 ene, si ate ŋu anɔ ŋusẽ kpɔm ɖe ezãlawo ƒe seselelãme dzi xoxo; hekpe ɖe eŋu la, ŋuɖoɖo ɖe hadomehabɔbɔwo abe X ene ŋu ɖewohĩ ema meƒo ame siwo tsia dzi ɖe ame ŋutɔ ƒe nyawo ŋu o, amesiwo ate ŋu adi be yewoatia kadodomɔnu bubu siwo wotu ɖe woƒe ŋkɔmaɖemaɖe dzi alo esiwo le dedie la ƒe nukpɔsusuwo nu ƒu o.
+Wokpɔ kadodo sesĩe aɖe le gaɖoɖo gãwo kple tweet dɔwɔwɔ ƒe keke dome. Esia fia be ne tɔxɛwo wɔ zɔzɔ la, ehea amewo geɖe ƒe susu le asime me. Kadodo ƒe ŋusẽ le titina hã fia be ne hamea ƒe susu nyo la, ɣaɣla gaɖoɖowo ƒe xexlẽ dzena yi dzi, si fia be nyawo tso ɣaɣla ŋu ate ŋu ana ɖoɖonu dzi ƒe dɔwɔwɔ vavã sɔ dzi.
 
 
-Ðewohĩ Zcash maƒo adegbe le nuto si lolo abe Monero ene alo asitsala gã aɖe ŋu haɖe o gake eƒe mɔ̃ɖaŋununya ƒe ŋgɔyiyi siwo yi edzi; abe v6.2.0 ƒe ɖoɖowɔɖi ƒe ɖɔɖɔɖo si na asitsatsa ƒe dɔwɔwɔ nyuie si wokpɔ ta na la nyo ɖe edzi, Zashi 2.0 gakotoku si woɖe ɖe go si me asitelefon zazã nyuie wu kple kpekpeɖeŋu si wokpɔ ta na le gɔmedzedzea me, kple kɔsɔkɔsɔwo ƒe ƒoƒo ɖekae to NEAR Intents kple Maya Protocol dzi na wòto vovo abe gaku si wotsɔ kpɔa ame ŋutɔ ƒe nyawo ta si le eƒe xɔtuɖoɖowo me goglom vivivi eye wòkeke eƒe asiɖoɖoanyi ɖe enu ene. Edze be míade dzesii be July 2025 nye Zcash, si na dzeɖoɖowo le X dzi kple tɔmelã siwo woyɔna be whale ƒe asitsatsa gãwo. Tsɔ kpe ɖe eŋu la, asitsatsa siwo wokpɔ ta na ƒe dzidziɖedzi ɣesiaɣi ɖee fia be asixɔxɔ gã aɖe gakpɔtɔ le ameŋunyatakakawo ŋu na ezãlawo. Kadodo tɔxɛ aɖe le kɔsɔkɔsɔ me nudzɔdzɔwo kple hadomenuƒoƒo dome, si ɖe alesi nuto eveawo siaa kpɔa ŋusẽ ɖe wo nɔewo dzii fia. Togbɔ be sedede ƒe mɔxenuwo dzi zɔzɔ gakpɔtɔ nye kuxi hã la, ŋkuléle ɖe dzesi gbãtɔ siawo ŋu ana míase mɔ si dzi ZEC's ate ŋu ato la gɔme nyuie wu, eye mahiã be míagblɔ nuwo ƒe asiwo ɖi o.
+Ne míele Hamea, Xɔxɔ, kple Mɔ̃ ƒe Ɖoɖoŋlɔ ŋu kpɔm la, Zcash Community Hub fia hamea ƒe dzidzɔ si tsoa amewo ŋutɔ gbɔ dzedze, kple active members 2,800 wu le Discord kple subscribers 2,000 le Reddit. Eŋutinutɔe la, hamea ƒe dɔwɔwɔ sɔ dzi kple 12% le Zashi 2.0 ƒe taɖeɖe megbe, eye dzeɖeɖe geɖewo nɔ ɣaɣla ƒe nɔnɔme yeyeawo kple ale si woanɔ se ƒe fukpekpewo ŋu dzi. (Kpɔ Nɔnɔnɔ 5)
+
+# Nɔnɔnɔ 5. Zcash Forum Ƒe Traffic kple Signups ƒe Nɔnɔnɔ Tso Zashi 2.0 Taɖeɖe Le April 28, 2025.
+(Dzɔɖoƒe : Shawn; Lead moderator Zcash Community Forum (2025). Chart si kpɔ April 9 va se ɖe May 9, 2025.)
+
+Hamea, Xɔxɔ, kple Mɔ̃ ƒe Ɖoɖoŋlɔ me la, Zcash Community Hub fia hamea ƒe dzidzɔ si tsoa amewo ŋutɔ gbɔ le dzedzem. Le xɔxɔ ƒe akpa la, asitsotsoƒe ƒe ƒomeɖeɖe gale sue gake wonoa eŋku dzi. Togbɔ be zazã le xexeame ƒe asitsotsoƒeawo dome sue, si wokaka be eƒe xexlẽ nye 120, ZEC ƒe gege ɖe Brave Wallet me kple zk-proof ƒe dodokpɔ le Google Wallet me le April kple May 2025 me, na amewo kpɔe geɖe.
+Electric Coin Company kple Zcash Foundation ƒe dɔ si wofia le 2025 ƒe afã evelia me fia be dɔwɔwɔ gale edzi. GitHub ƒe commits 350 wu fia dɔwɔwɔ ɖeka gã le infrastructure project veviwo dzi abe Zedrab codebase kple Zallet gakotoku ene, si fia Zcash ƒe ecosystem ƒe mɔ̃ ƒe hamea si le dɔ wɔm kple contributorwo ƒe chartwo hã.
 
 
-# Nusiwo ŋu woke ɖo
-- Blockchair ƒe zikpui. (ƒe 2025). Zcash kpɔ asitsatsa ŋuti nyatakakawo ta. https://blockchair.com/zcash/charts/shielded-supply
-- Gaku ƒe Metrics. (ƒe 2025). Zcash network data ƒe xexlẽdzesiwo. https://coinmetrics.io/
-- Cointelegraph ƒe agbalẽ. (ƒe 2024). Dash meganye ameŋunyatakakawo ŋuti gaku le se siwo le tɔtrɔm nu o. https://cointelegraph.com/news/dash-no-longer-privacy-coin
-- Electric Coin Company. (2025). Zcash 6.2.0 release notes. https://electriccoin.co/blog/
-- Messari ƒe agbalẽ. (ƒe 2025). Messari ZEC ƒe ʋuƒo. https://messari.io/asset/zcash
-- Shawn, kple srɔ̃a; Zcash Community Forum ƒe ŋgɔdola. (ƒe 2025). 
-- X Nuƒolanɔƒe ƒe Seselelãmewo Ŋuti Numekuku. (ƒe 2025, July). Nyatakakadzraɖoƒe si le ememe. 
-- Zcash Nutome Dɔwɔƒe. (ƒe 2025). Nutoa me nyatakaka yeyewo kple nuwɔwɔ aduadu ƒe akɔntabubuwo. https://z.cash
-- Zcash Foundation. (2025). Zashi 2.0 wallet release. https://zcashfoundation.org/blog/
-- ZecHub. (ƒe 2025).  ZecHub ƒe dashboard ƒe nɔnɔmetata.
+Be woadzro Zcash ƒe nɔnɔme fifia nyuie la, enyo be woakpɔ ezãla ƒe nukpɔkpɔ le ɣeyiɣi me eye woano Zcash ƒe nuŋlɔɖi tsitre kple ɣaɣla ga bubuwo. Dzodzro sia agblɔ ZEC ƒe asiga ƒe zɔzɔ siwo va yi, abe asime ƒe dzenu le 2017 kple gaɖoɖowo ƒuƒoƒe [block] ƒe fetu ƒe afãmama [halving] ƒe nudzɔdzɔ le 2020 ene, kple ɖoɖonu dzi kple hamea ƒe dzesiwo ƒe tsitreɖoɖo kple Monero (XMR) kple DASH (DASH) (abe, gaɖoɖo ƒe volume, market cap ƒe rank, kple hamea ƒe dɔwɔwɔ ene).
 
+Asime ƒe asiga ƒe dzenu le 2017 ƒe nuwuwu de crypto asimewo ƒe sɔdzi gbogblɔ la ŋu, eye Zcash ƒe 2020 fetu ƒe afãmama ƒe nudzɔdzɔ nye nu vevi si wɔnɔ ŋusẽ ɖe ZEC ƒe supply ŋu. Le tɔxɛ ƒe zɔzɔ aɖe si dzɔ le July 2025 ƒe ŋu la, esue na asime ƒe ƒomeɣeyiɣi siwo va yi le ɖoɖonu dzi dɔwɔwɔ si woate ŋu akpɔ la ŋu (e.g., woɖɔli value le nyateƒe me, gake nusi wòate ŋu akpɔ tso woƒe dɔwɔwɔ ŋu nye hamea ƒe dzeɖeɖe alo ƒe ƒe nɔnɔme ƒe ŋlɔɖi ko). Le ɣaɣla gawo dome la, Monero le ŋgɔ kple ezãla ƒe hamea si le agbe me, si ƒe ŋkeke sia ŋkeke ƒe amewo ƒe nuƒoƒo le nyuie. Zcash le amewo ƒe susu yɔm to ɣaɣla gaɖoɖowo ƒe sɔdzi sesĩe me.
+
+## Ɖoɖonu Geɖe Dome [Cross-Chain] Ƒe Ŋkuléle: NEAR kple Maya
+Nusi de be amewo le ɖe ŋku geɖe ɖe Zcash ŋu le ƒe siawo me menye tɔxɛ ƒe gaɖoɖo ƒe keke alo hamea ƒe dzeɖeɖe le internet dzi ko o, ke boŋ ale si ZEC do go tso eya ŋutɔ ƒe toƒe me. Ƒomeɖeɖe kple NEAR ƒe Intents infrastructure ʋu mɔ na ɖɔli ɖɔli zãzã faa [permissionless] kple bɔbɔe le ZEC kple assetwo abe Bitcoin, Ethereum, kple NEAR ŋutɔ ene dome. Zi gbãtɔ la, ɣaɣla ƒe gaɖoɖowo ate ŋu azɔ le ɖoɖonuwo [chains] dome, eye gatrɔƒewo ƒe fukpekpe alo adzɔ [fee] gãwo menɔ mɔ la dzi o. Na Zcash ezãlawo la, esia fia nu geɖe wu bɔbɔe; enye yɔyɔ ɖe dzeɖeɖe gã aɖe me, afi si intent-based systemwo kple ga si le ɣaɣla me wɔa ɖeka. Hackathon si de dzesi ɖe dɔwɔwɔ sia ŋu menye mɔ̃ ƒe nudzɔdzɔ ko o, ke boŋ enye tame ƒe dzesi. Mɔ̃ ƒe ɖoɖoŋlɔlawo kple ɣaɣla ƒe akpɔɖelawo va ƒu be woabu nusi ZEC ate ŋu anɔ le ɖoɖonu geɖe dome ƒe etsɔme. Hamea ƒe mood le forumwo me megbe fia dzodzro ƒe seselelãme. Amewo gblɔ be esia nye mɔnu yeye geɖewo ƒe ƒomeɖeɖe ƒe gɔmedzedze kple mɔnu na Zcash be wòagale experiment si woɖe ɖe agbe me ɖeka o. Ke boŋ wòzu ga si ate ŋu azɔ afi sia afi si liquidity le.
+
+Maya Protocol ƒe vaɖo na ZEC ŋkuléle ƒome bubu aɖe. Le afisia la, menye AI gaɖoɖo nyuitɔwo ŋu wɔa numeɖeɖe o, ke boŋ le ha nuɖo agni [decentralized] liquidity ƒe ŋgɔgblɔ dzi. Ne wowɔ Zcash ɖe Maya ƒe ɖoɖonu geɖe dome AMM me la, eƒe holderwo ate ŋu aɖɔli le ɣaɣla me, eye womatsɔ woƒe dzikpɔkpɔ ana gatrɔƒe siwo dzi ame ɖeka le o. Le ɣeyiɣi si se ɖoɖolawo le ɣaɣla gawo ƒe to xlém, eye list me tɔtɔtɔ zu nu si dzɔna ɣeyiɣi sia ɣeyiɣi la, esia le vevie ŋutɔ. Na hamea me amewo geɖe la, Maya menɔ abe ƒomeɖeɖe ko ene o, ke boŋ wònɔ abe agbeɖela ene. Enye ŋkuɖoɖo be ZEC ate ŋu anɔ asime aɖe me, eye wòmatsɔ eɖokui akɔ na custodianwo o. Roadmap la fia be ZEC ana eɖokui anɔ Maya ƒe ecosystem me kplikplikpli, eye fifia hã ezãlawo le gblɔm be enye mɔnu si ate ŋu ana woƒe ga ƒe dɔkplɔɖeƒe anɔ anyi, togbɔ be politik ƒe nɔnɔme nɔ aleke hã.
+
+Ƒomeɖeɖe siawo katã wɔ nu aɖe si le gbɔgbɔ me gake le vevie. Woyɔ Zcash ɖe nyawo me kple hamea bubuwo. NEAR mɔ̃ ƒe ɖoɖoŋlɔlawo siwo ɖewohĩ womakpɔ ɣaɣla ga zi eve o la le ekpɔm fifia abe hadɔwɔƒe le intent-driven design me ene. Maya ezãlawo siwo le liquidity kple ɖɔli ɖɔli ƒe nyawo me, le ɣaɣla gaɖoƒe ƒe dzesiwo kple zero-knowledge ƒe filosofi kpɔm zi gbãtɔ. ZEC megale nu fiam na eya ŋutɔ ƒe amesiwo xɔe se ko o. Ele gɔmeɖeɖe wɔm le hame yeyeawo me, afi si ɣaɣla menye nɔnɔme ko o, ke boŋ enye ga ƒe lẽ [bridge] le networkwo, protocolwo, kple amesiwo zã wo la dome.
+
+# Nuƒoƒo ƒe Nuwuwu
+Be míafɔ nuwo katã ƒu la, nusrɔ̃ɖi sia fia be Zcash ƒe ɖoɖonu dzi kple hamea ƒe dzesiwo, togbɔ be wole gbɔgbɔ me zi aɖewo hã, fia ecosystem si le agbe me eye wòle tɔtrɔm.
+Fukpekpewo le eme; tɔxɛ gakotokuwo ƒe mameɣa si naa wòsesẽ be woanya be ɖoɖonu dzi gaɖoɖo gãwo nye asime ƒe gaɖeɖe alo asime ƒe zɔzɔ ko, kple se ƒe ɖoɖo si le tɔtrɔm, abe EU ƒe ɣaɣla ga ƒe mɔxexe na 2027 ene, si ɖewohĩ xɔe ŋusẽ le ezãla ƒe susu ŋu xoxo; kple ɖeɖekpɔkpɔ ɖe hamea ƒe mediawo abe X ene, si ɖewohĩ mekpe ɖe amesiwo tsɔ ɣaɣla wɔ nu vevie ƒe nukpɔkpɔwo katã ŋu o, elabena woate ŋu atia mɔ bubuwo siwo me mameɣa le alo woƒe dzeɖeɖe le dedie.
+
+
+Zcash ɖewohĩ meƒo aɖaŋu kple hamea si sɔ kple Monero alo asitsotsoƒe geɖe xoxo o, gake eƒe mɔ̃ ƒe dzodzro si gale edzi; abe v6.2.0 protocol tɔtrɔ si naa ɣaɣla gaɖoɖo ƒe dɔwɔwɔ nyo wu, Zashi 2.0 gakotoku ƒe taɖeɖe kple mobile ƒe zazã nyuitɔ kple ɣaɣla-by-default ƒe kpekpeɖeŋu, kple ɖoɖonu geɖe dome ƒe ƒomeɖeɖe to NEAR Intents kple Maya Protocol me la, ɖe eƒe vovotɔtɔ fia abe ɣaɣla ga si le eƒe infrastructure ɖem ɖe eme kplikplikpli kple eƒe mɔ ɖem ɖe eme ene. Ele vevie be woanya be July 2025 nye dzedze gake na Zcash, eye wòhe dzeɖeɖe va le X me kple tɔxɛ ƒe gaɖoɖo gãwo. Azɔ hã, ɣaɣla gaɖoɖowo ƒe sɔdzi si le edzi ɣeyiɣi sia ɣeyiɣi fia be ɣaɣla gale asixɔxɔ gã wɔm na ezãlawo. Kadodo kɔkɔe le ɖoɖonu dzi ƒe nudzɔdzɔwo kple hamea ƒe nyawo dome, si fia ale si xexeame evea siawo wɔnɔa ŋusẽ ɖe wo nɔewo ŋu. Togbɔ be se ƒe fukpekpewo ƒe to me zɔzɔ gale fukpekpe ene hã, dzesi gbãtɔ siawo ƒe ŋkuléle ana míase ZEC ƒe mɔ si wòate ŋu azɔ me nyuie, eye míagate ŋu agblɔ asiga ƒe nudzɔdzɔ ɖi o.
+
+
+# Dzɔɖoƒewo
+- Blockchair. (2025). Zcash ƒe ɣaɣla gaɖoɖowo ƒe data. https://blockchair.com/zcash/charts/shielded-supply
+- Coin Metrics. (2025). Zcash ƒe network data ƒe metriksiwo. https://coinmetrics.io/
+- Cointelegraph. (2024). Dash meganye ɣaɣla ga le se siwo le tɔtrɔm te o. https://cointelegraph.com/news/dash-no-longer-privacy-coin
+- Electric Coin Company. (2025). Zcash ƒe 6.2.0 ƒe taɖeɖe ƒe nɔtiwo. https://electriccoin.co/blog/
+- Messari. (2025). Messari ZEC ƒe Ɖoɖowo ƒuƒopé. https://messari.io/asset/zcash
+- Shawn; Lead moderator Zcash Community Forum. (2025). 
+- X Platform Sentiment Analysis. (2025, July). Internal dataset. 
+- Zcash Community Hub. (2025). Hamea ƒe updatewo kple dɔwɔwɔ ƒe statisticwo. https://z.cash
+- Zcash Foundation. (2025). Zashi ƒe 2.0 gakotoku ƒe taɖeɖe. https://zcashfoundation.org/blog/
+- ZecHub. (2025). ZecHub ƒe dashboard chart.

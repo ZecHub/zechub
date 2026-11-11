@@ -1,140 +1,138 @@
-# Alesi woawɔ Zebra le Akash Network dzi
+# Aleke nàwɔ Zebra le Akash Network dzi
 
-Afɔɖeɖe ɖesiaɖe ƒe mɔfiame na Zebra Zcash full node zazã zazã [Akash ƒe Aɖaŋuɖotakpekpe](https://console.akash.network).
+Mɔfiame kple mɔfiame ƒe mɔfiame na Zebra Zcash ɣaɣla dzesi ŋɔŋlɔ blibo kple [Akash Console](https://console.akash.network).
 
-### Nusi Nèle Dɔ wɔm
+### Nusi Nèle Aɖoƒe
 
-Zebra node blibo aɖe si awɔe be:
+Zebra ɣaɣla dzesi ŋɔŋlɔ blibo aɖe si ana:
 
--> Zcash blockchain bliboa wɔ ɖeka (100GB+ na mainnet, ~40GB na testnet)
+-> Wòaɖo ɖe Zcash gaɖoɖowo ƒuƒoƒo ƒe ɖoɖonu [blockchain] blibo dzi (100GB+ na mainnet, ~40GB na testnet)
 
--> Ga home si ade $15/ɣleti le AKT ƒe dzesi ƒe asiwo nu
+-> Wòaxɔ dɔlawo ƒe $15 le ƒeɖeɖe me, le AKT token ƒe asiwo nu
 
--> Xɔ gaƒoƒo geɖe va ɖo ŋkeke geɖe hafi wòawɔ ɖeka bliboe
+-> Wòaxɔ gaƒoƒo geɖe alo ŋkeke geɖe be wòaɖo blibo
 
--> Zã vCPU 4, 16GB RAM, 350GB nudzraɖoƒe (mainnet) alo 2 vCPU, 8GB RAM, 50GB (testnet)
-
-
-### Vevietɔ: Melidzeƒea ƒe Nɔnɔmetatawo wɔwɔ le Akash
-
-Ne èɖe ʋɔtru aɖe ɖe go le Akash dzi (e.g., ʋɔtru 8233 na Zebra P2P), **mebla ɖe ʋɔtru ma tututu ŋu** le dɔwɔƒea ƒe dutoƒo IP dzi o. Ke boŋ, dɔwɔƒea dea ʋɔtru kɔkɔ si wowɔ le vome (abe 31234 alo 42567 ene) eye wòtrɔa eƒe teƒenɔla ɖe wò nugoe ƒe ʋɔtru 8233 dzi.
-
-Esia nye to ɖoɖowɔwɔ me - dɔwɔƒewo wɔa dɔ geɖewo, eye masɔmasɔwo anɔ wo dome ne amesiame dze agbagba be yeazã ʋudzeƒe 8233 tẽ.
-
-**Nusi esia fia na wò:**
-
--> Èɖoa ʋudzeƒe 8233 le SDL (Zebra ƒe P2P ʋɔtru si wozãna ɖaa) me .
-
--> Akash naa URI wò abe *provider.com:31234* ene.
-
--> Zcash node bubuwo doa ka kpli wò le *provider.com:31234*
-
--> Le wò nugoe me la, Zebra gakpɔtɔ le to ɖom le 8233 dzi
+-> Wòawɔ dɔ kple 4 vCPU, 16GB RAM, 350GB nudzraɖoƒe na mainnet, alo 2 vCPU, 8GB RAM, 50GB na testnet
 
 
-Wokpɔa esia gbɔ le wo ɖokui si. Ðeko nàzã URI si Akash na wò.
+### Vevi: Port ƒe Ɖoɖo le Akash Dzi
 
-### Nusiwo hiã do ŋgɔ
+Ne nàɖe port aɖe fia le Akash dzi (kpɔe be, port 8233 na Zebra P2P), **womakplɔe ɖe port ma tututɔ dzi le provider ƒe public IP dzi o.** Le esime ma ƒe teƒe la, provider la ana port didi maʋɛ aɖe (abe 31234 alo 42567 ene) eye wòawɔ reverse-proxy kple eya ɖe wò container ƒe port 8233 dzi.
 
-1. **Keplr Wallet** woda web-browser ƒe kpeɖeŋutɔ ɖe wò kɔmpiuta dzi (Chrome/Brave/Firefox)
-2. **AKT dzesiwo** - Xɔ 50-100 AKT tso asitɔtrɔ (Coinbase, Kraken, Osmosis)
-3. **Aɖabaƒoƒo 5** be nàzi edzi to Console UI la me
+Wowɔ esia le ɖoɖo me - providers wɔa deployments geɖe, eye nuɖeɖe ava wɔn dome ne ame sia ame nadi be yeazã port 8233 tɔxɛ.
 
-#### Afɔɖeɖe 1: Do ka kple Wò Gakotokua
+**Nusi esia fia wòe nye:**
 
--> Go to [https://console.akash.network](https://console.akash.network)
+-> Nàɖo port 8233 le SDL me (Zebra ƒe P2P port si wozãna)
 
--> Zi **"Connect Wallet"** dzi le etame le ɖusime
+-> Akash ana URI si le abe *provider.com:31234* ene wò
 
--> Tia **Keplr** (alo Cosmos gakotoku si nèlɔ̃ wu)
+-> Zcash ɣaɣla dzesi ŋɔŋlɔ bubuwo akplɔ ɖe eŋu le *provider.com:31234*
 
--> Da asi ɖe kadodoa dzi ne Keplr do
+-> Le wò container me, Zebra gale 8233 ƒe nuteƒe
 
 
-Ele be wò AKT ƒe dadasɔ nadze le ɖusime le etame. Ne zero ye la, yi ɖadzɔ ga na wò gakotokua gbã.
+Wotsɔ mɔ si wɔ esia le eɖokui si. Zã URI si Akash na wò ko.
 
-#### Afɔɖeɖe 2: Wɔ Deployment
+### Nuwo Si Wòele Be Nàxɔ Do Ŋgɔ
 
--> Zi **"Deploy"** ƒe dzesi dzi (aɖaka gã blɔ, axa ƒe titina)
+1. **Keplr Wallet** browser extension si wode le Chrome/Brave/Firefox me
+2. **AKT tokens** - Xɔ AKT 50-100 tso gatrɔƒe [exchange] aɖe gbɔ (Coinbase, Kraken, Osmosis)
+3. **Minuti 5** be nàzi Console UI la me
 
--> Tia **"Tu wò template"** (alo ti kpo tẽe yi SDL dada dzi)
+#### Afɔ 1: Ɖe Wò Gakotoku Kple Eŋu
+
+-> Yi [https://console.akash.network](https://console.akash.network)
+
+-> Zi **"Connect Wallet"** le dziƒe ƒe ɖeɖeƒe
+
+-> Tia **Keplr** (alo wò Cosmos gakotoku)
+
+-> Ɖe mɔ na kadodo la ne Keplr do ɖa
 
 
-##### Tiatia A: Tsɔ SDL Faɛl (Wokafui) .
+Wò AKT ƒe balance ava dze le dziƒe ƒe ɖeɖeƒe. Ne eƒe asixɔxɔ nye zero la, yi nàɖo ga ɖe wò gakotoku me gbã.
+
+#### Afɔ 2: Wɔ Deployment
+
+-> Zi **"Deploy"** button (button gã blu si le axɔa ƒe titina)
+
+-> Tia **"Build your template"** (alo yi ɖe SDL ƒe upload dzi tẽ)
+
+##### Ɖoƒe A: Ɖe SDL File Ɖo (Wòle Be Nàtia)
 
 [![Deploy on Akash](/content-images/deploy-with-akash-btn-74abb88d44.svg)](https://console.akash.network/new-deployment?step=edit-deployment&templateId=akash-network-awesome-akash-zcash-zebra)
 
-##### Tiatia B: Zã SDL Editor
+##### Ɖoƒe B: Zã SDL Editor
 
-Ne èdi be yeatsɔ asi atsɔ ablae [si nye SDL la](https://github.com/akash-network/awesome-akash/blob/master/zcash-zebra/deploy.yaml):
+Ne èdi be nàtsɔ asi aɖe [the SDL](https://github.com/akash-network/awesome-akash/blob/master/zcash-zebra/deploy.yaml):
 
--> Kpɔ *zebra-akash.yml* me nyawo ɖa.
+-> Kopi *zebra-akash.yml* ƒe emenyawo
 
--> Kpe ɖe SDL ƒe nuŋlɔla la me
+-> Ɖe ewo ɖe SDL editor la me
 
--> Trɔ asi le eŋu alesi wòhiã (kpɔ ɖoɖowɔɖi ƒe akpa si le ete)
+-> Trɔe le esi wòhiã (kpɔ configuration ƒe akpa si le ete)
 
--> Zi **"Wɔ Dɔwɔwɔ"** dzi.
+-> Zi **"Create Deployment"**
 
 
-#### Afɔɖeɖe 3: Dzro Ga si Woda Ðe Gadzraɖoƒea Me eye nàda asi ɖe edzi
+#### Afɔ 3: Kpɔ Deposit La Ɖa Eye Nàɖe Mɔ Nɛ
 
 Console la afia wò:
 
--> **Deployment deposit**: ~5 AKT (ègaxɔ esia ne ètu deployment la)
+-> **Deployment deposit**: ~5 AKT (wòaɖo esia ɖe wò gbɔ ne nètsɔ deployment la ɖe aga)
 
--> **Ga si wobu**: Wotue ɖe wò SDL ƒe asixɔxɔ dzi
+-> **Ƒe asi si wole be nàxɔ**: Wole wò SDL ƒe asiwo nu
 
-Zi **"Approve"** dzi eye nàde asi asitsatsa la te le Keplr me.
+Zi **"Approve"** eye nàde asi ɖe gaɖoɖo [transaction] la ŋu le Keplr me.
 
-#### Afɔɖeɖe 4: Tia Dɔwɔƒe si Naa Dɔa
+#### Afɔ 4: Tia Provider Aɖe
 
-Le ~ sɛkɛnd 30 megbe la, àkpɔ adzɔnuwo tso dɔwɔƒe siwo naa kpekpeɖeŋu gbɔ. Dodo ɖesiaɖe ɖee fia be:
+Le sekondi 30 ƒe me la, nàkpɔ bids siwo tso providers gbɔ. Bid ɖesiaɖe afia:
 
--> **Asi si woaxe ɖe block ɖeka ta** (le AKT alo USDC me)
+-> **Asi na gaɖoɖowo ƒuƒoƒe [block] ɖeka** (le AKT alo USDC me)
 
--> **Ɣleti sia ɣleti ƒe gazazã si wobu**
+-> **Ƒe asi si wole be nàxɔ le ƒeɖeɖe me**
 
--> **Nunana ƒe nyatakakawo** (dɔwɔwɔ ƒe ɣeyiɣi, nuto, kple bubuawo)
-
-
-**Mègatia esiwo ƒe asi bɔbɔ wu ko o.** Kpɔe ɖa be:
-
--> Uptime % (taɖodzinu na > 95%) .
-
--> Nuto (si te ɖe ŋuwò wu = latency nyo wu, gake mehiã boo na blockchain nodes o)
-
--> Nɔnɔme si wodzro (dzesi dama = kakaɖedzi le eŋu wu)
+-> **Provider ƒe nyawo** (dɔwɔƒe ƒe ɣeyiɣi, nutome, kple bubuwo)
 
 
-Zi **"Accept Bid"** dzi le wò dɔwɔƒe si nètia dzi eye nàde asi Keplr me.
+**Mègatia esi mexɔ asi o ko.** Kpɔ:
 
-#### Afɔɖeɖe 5: Lala be Woawɔ Dɔa
+-> Dɔwɔƒe ƒe ɣeyiɣi % (to 95% dzi alo wu)
 
-Console awɔ:
+-> Nutome (esi le te ɖe ŋuwò la ana kadodo ƒe gaƒoƒo nyo, gake emexɔ vevie na blockchain ƒe ɣaɣla dzesi ŋɔŋlɔwo o)
 
--> Wɔ hayahaya ƒe ɖoɖoa kple dɔwɔƒe si nètia
+-> Audited ƒe nɔnɔ (dzesi gbɔdzɔ = wòle be wòakpɔ dzi ɖe eŋu wu)
 
--> Ðo manifest la ɖa (egblɔ nusi wòle be wòaƒu du na dɔwɔƒea)
+Zi **"Accept Bid"** le provider si nètia la ŋu eye nàde asi le Keplr me.
 
--> Dze wò nugoe gɔme
+#### Afɔ 5: Lala Na Deployment La
 
-Esia xɔa miniti 1-2. Àkpɔ nɔnɔme yeyewo le UI la me.
+Console la awɔ:
 
-#### Afɔɖeɖe 6: Kpɔe ɖa be Ele Dum
+-> Wòawɔ lease kple provider si nètia
 
-Ne wonya de dɔwɔwɔ me ko la, àkpɔe be:
+-> Wòaɖo manifest la ɖa (esi gblɔ na provider la nusi wòawɔ)
 
--> **Services** tab: Fia wò *zebra* subɔsubɔdɔ kple nɔnɔme
+-> Wòadze wò container la
 
--> **Nuŋlɔɖiwo** tab: Nugoe me nuŋlɔɖi siwo le agbe
+Esia xɔ minuti 1-2. Nàkpɔ nɔnɔ ƒe yeyeɖeɖewo le UI la me.
 
--> **Leases** tab: Nyatakaka tso wò dɔwɔwɔ ŋu (DSEQ, dɔwɔƒe si naa, gazazã)
+#### Afɔ 6: Ɖe Kpɔ Be Ele Dɔ Wɔm
+
+Ne woɖo eƒe teƒe vɔ la, nàkpɔ:
+
+-> **Services** tab: Efia wò *zebra* service kple eƒe nɔnɔ
+
+-> **Logs** tab: Container ƒe logs si wole dɔ me
+
+-> **Leases** tab: Nyawo ku ɖe wò deployment ŋu (DSEQ, provider, asi)
 
 
-##### Kpɔ Logs la ɖa
+##### Kpɔ Logs Lɔ
 
-Zi **Logs** dzi eye ele be nàkpɔ Zebra wòadze egɔme:
+Zi **Logs** eye ele be nàkpɔ Zebra le dɔ gɔme:
 
 ```bash
 Loading config from environment variables
@@ -143,52 +141,52 @@ Listening for peer connections on [::]:8233
 Starting initial sync...
 ```
 
-Sync la axɔ **gaƒoƒo va ɖo ŋkeke** le network la nu. Kpɔ nyuie le:
+Ɖoɖoɖo la axɔ **gaƒoƒo geɖe va se ɖe ŋkeke geɖe** le network la nu. Lé ŋku ɖe:
 
--> Block ƒe kɔkɔme dzi ɖeɖe kpɔtɔ
+-> Gaɖoɖowo ƒuƒoƒe ƒe kɔkɔe siwo gbedze yi dzi
 
--> Hatiwo ƒe kadodowo (ele be wòanye hati 10-30)
+-> Kadodo kple peers (ele be peers 10-30 nanɔ)
 
--> Vodada aɖeke megawɔna enuenu o
+-> Vodada siwo megatrɔ ɖo o
 
 
-#### Afɔɖeɖe 7: Xɔ Wò Node ƒe Adrɛs
+#### Afɔ 7: Xɔ Wò Ɣaɣla Dzesi Ŋɔŋlɔ Ƒe Gaɖoƒe Ƒe Dzesi
 
-Zi **Leases** ƒe tab dzi, emegbe **URIs**.
+Zi **Leases** tab, eye yi **URIs**.
 
-Àkpɔ nane abe:
+Nàkpɔ nane abe:
 
 ```bash
 zebra-8233: provider-hostname.com:31234
 ```
 
-Esia nye wò node ƒe **dutoƒo P2P nuwuƒe**. Zcash node bubuwo aƒo ka na wò le adrɛs sia dzi.
+Esia nye wò ɣaɣla dzesi ŋɔŋlɔ ƒe **public P2P endpoint**. Zcash ɣaɣla dzesi ŋɔŋlɔ bubuwo akplɔ ɖe ŋuwò le gaɖoƒe ƒe dzesi sia dzi.
 
-**De dzesi ʋudzeƒe ƒe nɔnɔmetata:** Èɖo ʋudzeƒe 8233 le SDL me, gake Akash tsɔe de dutoƒo ʋɔtru bubu (31234 le kpɔɖeŋu sia me). Esia sɔ - kpɔ "Port Mapping on Akash" ƒe akpa si le etame ne esia tɔtɔ wò. Wò node la ateŋu aɖo ʋɔtru ɖesiaɖe si Akash ɖe fia le afisia, menye 8233 kokoko o.
+**De dzesi port ƒe ɖoɖo la ŋu:** Nèɖo port 8233 le SDL me, gake Akash na port public bubu (31234 le kpɔɖeŋu sia me). Esia menye nuku o - kpɔ akpa "Port ƒe Ɖoɖo le Akash Dzi" si le dzi ne esia mekɔ na wò o. Wò ɣaɣla dzesi ŋɔŋlɔ ŋuɖoɖo anɔ port sia sia si Akash fia le afisia, menye be 8233 koe o.
 
-Ne èwɔ RPC ŋudɔ (wogblɔ nya tso eŋu le gɔmedzedzea me le SDL me) la, àkpɔ RPC ƒe nuwuƒe hã le afisia kple eya ŋutɔ ƒe ʋudzeƒe si wowɔ nɔnɔmetata na.
+Ne nèɖe mɔ na RPC (wode comment ɖe eŋu le SDL me le gɔmedzedze), nàkpɔ RPC endpoint la hã afisia kple eƒe port si wowɔ mapping nɛ.
 
-### Ðoɖowɔwɔ ƒe Tiatiawɔblɔɖe
+### Ɖoɖoɖo Ƒe Tiatiawo
 
-#### Trɔtrɔ ɖe Testnet ŋu
+#### Trɔ Yi Testnet Dzi
 
-SDL la nye Mainnet. Be nàzã Testnet ɖe eteƒe la:
+SDL ƒe gɔmedzedze nye Mainnet. Be nàzã Testnet ɖe eƒe teƒe:
 
--> **Nyaŋuɖoɖo tso Mainnet config** le *env* ƒe akpaa dzi:
+-> **Ɖe comment ɖe Mainnet ƒe config ŋu** le *env* ƒe akpa me:
 
    ```yaml
    # - "ZEBRA_NETWORK__NETWORK=Mainnet"
    # - "ZEBRA_NETWORK__LISTEN_ADDR=[::]:8233"
    ```
 
--> **Tsi nyaŋuɖoɖo ɖa le Testnet ƒe ɖoɖowɔɖi ŋu**:
+-> **Ɖe comment le Testnet ƒe config ŋu ɖa**:
 
    ```yaml
    - "ZEBRA_NETWORK__NETWORK=Testnet"
    - "ZEBRA_NETWORK__LISTEN_ADDR=[::]:18233"
    ```
 
--> **Trɔ asi le ʋudzeƒe si woɖe ɖe go** ŋu le *ɖee ɖe go* ƒe akpaa dzi:
+-> **Trɔ port si wòɖe fia** le *expose* ƒe akpa me:
 
    ```yaml
    # Comment out Mainnet port:
@@ -206,7 +204,7 @@ SDL la nye Mainnet. Be nàzã Testnet ɖe eteƒe la:
      proto: tcp
    ```
 
--> **Tiatia: Ðe nunɔamesiwo** dzi kpɔtɔ na Testnet le *profiles.compute.zebra.resources*:
+-> **Ne èdi la: Gbɔ resources ɖe megbe** na Testnet le *profiles.compute.zebra.resources*:
 
    ```yaml
    cpu:
@@ -217,26 +215,26 @@ SDL la nye Mainnet. Be nàzã Testnet ɖe eteƒe la:
      - size: 50Gi  # Down from 150Gi
    ```
 
--> **Ne èdi: Asixɔxɔ si bɔbɔ ɖe anyi** le *profiles.placement.akash.pricing* me:
+-> **Ne èdi la: Gbɔ asiwo ɖe megbe** le *profiles.placement.akash.pricing*:
 
    ```yaml
    amount: 5000  # Down from 10000
    ```
 
-#### Na RPC Mɔɖeɖe nawɔ dɔ
+#### Ɖe Mɔ Na RPC Ƒe Mɔzɔzɔ
 
-RPC nye nuwɔametɔ le gɔmedzedzea me hena dedienɔnɔ. Be wòana wòawɔ dɔ la:
+Womede mɔ na RPC le gɔmedzedze o ɖe dedienɔnɔ ta. Be nàɖe mɔ nɛ:
 
 **Na Mainnet:**
 
--> Ðe nyaŋuɖoɖo le *env* ƒe akpaa me:
+-> Ɖe comment le *env* ƒe akpa me ɖa:
 
    ```yaml
    - "ZEBRA_RPC__LISTEN_ADDR=0.0.0.0:8232"
    - "ZEBRA_RPC__COOKIE_DIR=/home/zebra/.cache/zebra"
    ```
 
--> Ðe nya le Mainnet RPC ʋɔtrua ŋu le *expose* me:
+-> Ɖe comment le Mainnet RPC ƒe port si le *expose* me ɖa:
 
    ```yaml
    - port: 8232
@@ -248,14 +246,14 @@ RPC nye nuwɔametɔ le gɔmedzedzea me hena dedienɔnɔ. Be wòana wòawɔ dɔ l
 
 **Na Testnet:**
 
--> Ðe nyaŋuɖoɖo le *env* ƒe akpaa me:
+-> Ɖe comment le *env* ƒe akpa me ɖa:
 
    ```yaml
    - "ZEBRA_RPC__LISTEN_ADDR=0.0.0.0:18232"
    - "ZEBRA_RPC__COOKIE_DIR=/home/zebra/.cache/zebra"
    ```
 
--> Ðe nya le Testnet RPC ʋɔtrua ŋu le *expose* me:
+-> Ɖe comment le Testnet RPC ƒe port si le *expose* me ɖa:
 
    ```yaml
    - port: 18232
@@ -265,21 +263,21 @@ RPC nye nuwɔametɔ le gɔmedzedzea me hena dedienɔnɔ. Be wòana wòawɔ dɔ l
      proto: tcp
    ```
 
-**Nuxlɔ̃ame**: Ne èɖo *global: true* na RPC la, ke èle eɖem ɖe go ɖe internet dzi. Zebra zãa cookie auth le gɔmedzedzea me, gake kokoko - mègawɔ esia o negbe ɖe nènya nusi wɔm nèle hafi.
+**Nuxlɔ̃ame**: Ne nàɖo *global: true* na RPC la, nèle eɖem fia na internet. Zebra zãa cookie auth le gɔmedzedze, gake hã - mèwɔ esia o ne menye be nènya nusi nèle wɔm o.
 
-**Melidzeƒe ƒe nɔnɔmetata ƒe ŋkuɖodzinya**: Ne èɖe RPC ɖe go le xexeame katã hã la, Akash awɔ nɔnɔmetata nɛ ɖe melidzeƒe kɔkɔ si woɖo le vome (menye 8232/18232 o). Kpɔ URI siwo le wò dɔwɔwɔ me be nàkpɔ dutoƒonuwuƒe ŋutɔŋutɔ. Le *global: false* (wokafui) gome la, Akash ƒe dɔwɔwɔ ƒe network me koe woateŋu akpɔ RPC ƒe nuwuƒe, ke menye tso dutoƒo internet dzi o.
+**Nuɖeɖe na port mapping**: Ne hã nàɖe RPC fia le xexeme blibo, Akash awɔ mapping nɛ ɖe port didi maʋɛ aɖe (menye 8232/18232 o). Kpɔ URIs siwo le wò deployment me be nàkpɔ public endpoint vavã. Na *global: false* (esia wɔ nyuie wu), RPC endpoint la ƒe mɔ le Akash deployment network la me ko, menye le public internet dzi o.
 
-#### Na Metrix (Prometheus) nawɔ dɔ .
+#### Ɖe Mɔ Na Metrics (Prometheus)
 
-Be nàɖe metriks hena ŋkuléle ɖe nu ŋu:
+Be nàxɔ metrics na monitoring:
 
--> Ðe nyaŋuɖoɖo ɖa le *env* me:
+-> Ɖe comment le *env* me ɖa:
 
    ```yaml
    - "ZEBRA_METRICS__ENDPOINT_ADDR=0.0.0.0:9999"
    ```
 
--> Ðe nyawo ɖa le metrics port ŋu le *expose* me:
+-> Ɖe comment le metrics ƒe port si le *expose* me ɖa:
 
    ```yaml
    - port: 9999
@@ -289,130 +287,130 @@ Be nàɖe metriks hena ŋkuléle ɖe nu ŋu:
      proto: tcp
    ```
 
-#### Trɔ Asi le Dɔwɔnuwo/Asixɔxɔ Ŋu
+#### Trɔ Resources/Asiwo
 
-Ne mèle asi xɔm o alo nèdi be yeawɔ gazazã ŋudɔ nyuie wu la:
+Ne bids mele vɛm o alo èdi be nàwɔ asi ƒe nutrenu:
 
-**Na lower-spec providers**, ɖe edzi le *profiles.compute.zebra.resources* ƒe akpaa dzi:
+**Na providers siwo ƒe ŋusẽ menɔ te o**, gbɔe ɖe megbe le *profiles.compute.zebra.resources* ƒe akpa me:
 
--> CPU: *units: 2* (nu suetɔ kekeake na sync duƒuƒu si sɔ)
+-> CPU: *units: 2* (esi le be wòazɔ na sync ƒe mɔzɔzɔ nyuie)
 
--> Ŋkuɖodzinu: *lolome: 12Gi* (nu suetɔ kekeake na liƒo)
+-> Memory: *size: 12Gi* (esi le be wòazɔ na nɔnɔ ɖe anyi)
 
--> Nudzraɖoƒe: *lolome: 120Gi* (nu suetɔ kekeake na mainnet)
+-> Nudzraɖoƒe: *size: 120Gi* (esi le be wòazɔ na mainnet)
 
-**Be nàhe asi geɖe vɛ** la, dzi *profiles.placement.akash.pricing* ɖe edzi:
+**Be nàhe bids geɖe vɛ**, dzi asiwo ɖo le *profiles.placement.akash.pricing*:
 
--> Mainnet: Te *agbɔsɔsɔ: 1000000* uakt/block kpɔ
+-> Mainnet: Ɖe agbagba kple *amount: 1000000* uakt/block
 
--> Testnet: Te *agbɔsɔsɔ: 1000000* uakt/block kpɔ
+-> Testnet: Ɖe agbagba kple *amount: 1000000* uakt/block
 
-### Wò Dɔwɔɖoɖoa ƒe Tɔtrɔwɔwɔ
+### Trɔ Wò Deployment
 
-Ehiã be nàtrɔ ɖoɖowɔwɔ le eɖoɖo vɔ megbea?
+Èhiã be nàtrɔ configuration le deploy mentɔ?
 
--> Yi **Nye Dɔwɔwɔwo** le Console me
+-> Yi **My Deployments** le Console me
 
--> Di wò Zebra ƒe dɔwɔwɔ
+-> Di wò Zebra deployment
 
--> Zi **"Tsɔ Ðe Dɔwɔwɔ Ŋu"** dzi.
+-> Zi **"Update Deployment"**
 
--> Trɔ asi le SDL la ŋu
+-> Trɔ SDL la
 
--> Zi **"Update"** dzi eye nàda asi ɖe edzi le Keplr me
+-> Zi **"Update"** eye nàɖe mɔ nɛ le Keplr me
 
-**De dzesii**: Trɔtrɔ agbugbɔ adze wò nugoe gɔme. Node la agadze egɔme tso eƒe nɔnɔme si wodzra ɖo (nudzraɖoƒe si nɔa anyi ɖaa), gake kpɔ mɔ na miniti 1-2 ƒe dɔmawɔmawɔ.
+**De dzesi**: Trɔtrɔ la adze wò container la gɔme. Ɣaɣla dzesi ŋɔŋlɔ la agayi edzi tso eƒe nɔnɔ si wòɖe ɖo (nudzraɖoƒe si mele te), gake kpɔe be dɔwɔƒe manɔ te na minuti 1-2.
 
-### Kpɔkpɔ le ŋkuléle ɖe nu ŋu
+### Kpɔ Nɔnɔ
 
-#### To Console dzi
+#### To Console Mɔ Nu
 
--> **Nuŋlɔɖiwo ƒe tab**: Nugoe me nuŋlɔɖi siwo le agbe
+-> **Logs tab**: Container ƒe logs si wole dɔ me
 
--> **Shell tab**: Na shell le nugoe la me (eɖea vi na vodadawo ɖeɖeɖa)
+-> **Shell tab**: Xɔ shell le container la me (ewɔ na debugging)
 
--> **Nudzɔdzɔwo ƒe tab**: Kubernetes nudzɔdzɔwo (wo dometɔ akpa gãtɔ meɖea vi o negbe ɖe nane gblẽ hafi)
+-> **Events tab**: Kubernetes ƒe nudzɔdzɔwo (eƒe vi mele o gbɔna ne nane mesrɔ̃ o)
 
 
-#### To RPC dzi (ne wowɔe) .
+#### To RPC Mɔ Nu (ne nèɖe mɔ nɛ)
 
-Ne èwɔ RPC ŋudɔ la, àteŋu abia wò node abe zebrad full node si sɔ ene (elabena ele nenema!) .
+Ne nèɖe mɔ na RPC la, àte ŋu abia wò ɣaɣla dzesi ŋɔŋlɔ abe zebrad ɣaɣla dzesi ŋɔŋlɔ blibo [full node] si dzi wozãna ene (elabena eyae nye!)
 
-### Wò Dɔwɔɖoɖoa Nuwuwu
+### Tu Wò Deployment
 
-Ne èwu fexexe nu alo nèdi be yeadzudzɔ:
+Ne èwu vɔ alo mèdi be nàgaɖe asi o:
 
--> Yi **Nye Dɔwɔwɔwo**
+-> Yi **My Deployments**
 
--> Di wò Zebra ƒe dɔwɔwɔ
+-> Di wò Zebra deployment
 
--> Zi **"Close Deployment"** dzi.
+-> Zi **"Close Deployment"**
 
--> Ðo kpe edzi eye nàde asi ete le Keplr
+-> Ɖo kpe ɖe eŋu eye nàde asi le Keplr me
 
-Woagbugbɔ wò 5 AKT ga si nède la ana wò. **Nudzraɖoƒe si nɔa anyi ɖaa** ele be dɔwɔƒea nakpɔ eta, gake mègaɖo ŋu ɖe eŋu o - wɔ nu ɖe ​​eŋu abe alilikpo me dɔwɔƒe bubu ɖesiaɖe ene.
+Woatrɔ wò AKT 5 deposit la ade wò. Provider la ele be wòakpɔ **nudzraɖoƒe si mele te** ɖa, gake mèkplɔ ɖe eŋu o - wɔe abe cloud provider bubu sia bubu ene.
 
-### Kuxiwo gbɔ kpɔkpɔ
+### Kpekpeɖeŋu Na Fiafitɔwo
 
-#### "Ga si mesɔ gbɔ o" ƒe vodada
+#### Vodada "Insufficient funds"
 
-Èhiã AKT geɖe wu. Ga na wò Keplr gakotokua.
+Èhiã AKT geɖe. Ɖo ga ɖe wò Keplr gakotoku me.
 
-#### Dɔbiagbalẽvi aɖeke mele ɖeɖefiam o
+#### Bids aɖeke mele dzem o
 
-Eya loo:
+Ɖeka le esiawo dome:
 
--> Wò asixɔxɔ le sue akpa (dzi *ga home* ɖe edzi le SDL me)
+-> Wò asiwo le te akpa (dzi *amount* le SDL me)
 
--> Wò nunɔamesiwo ƒe hiahiãwo lolo akpa na dɔwɔƒe siwo li (ɖe CPU/ŋkuɖodzinu/nudzraɖoƒe dzi kpɔtɔ)
+-> Wò resources si wòbia le dzi akpa na providers siwo li (gbɔ CPU/memory/nudzraɖoƒe ɖe megbe)
 
--> Lala ɣeyiɣi didi wu (ɣeaɖewoɣi exɔa sɛkɛnd 60-90 hafi dɔbiagbalẽviwo nadze)
+-> Lala ɣeyiɣi didi wu (ɣeaɣi aɖewo la, sekondi 60-90 xɔna be bids nadze)
 
 
-#### Deployment tsi "pending" me.
+#### Deployment la tsi le "pending"
 
-Ðewohĩ nyawo le amesi naa kpekpeɖeŋua ŋu. Do dɔwɔwɔa eye nàte dɔwɔƒe bubu kpɔ.
+Ɖewohĩ provider la le kuxi me. Tu deployment la eye nàɖe agbagba kple provider bubu.
 
-#### Zebra ƒe nuŋlɔɖiwo ɖee fia be "Hati aɖeke mele kadodo me o".
+#### Zebra ƒe logs fia "No peers connected"
 
-Esia sɔ le aɖabaƒoƒo ʋɛ gbãtɔawo me. Zebra ake ɖe ehatiwo ŋu le eɖokui si. Ne egakpɔtɔ le miniti 10+ megbe la, àte ŋu akpɔ kadodo ƒe kuxi aɖe (manɔ eme be le Akash dzi o).
+Esia nye nu si dzɔna le minuti muamua aɖewo me. Zebra adi peers le eɖokui si. Ne egayi edzi le minuti 10+ megbe la, ɖewohĩ network ƒe kuxi le asiwò (esiamenɔa Akash dzi o).
 
-#### "Out of memory" vodadawo le nuŋlɔɖiwo me
+#### Vodada "Out of memory" le logs me
 
-Èƒle RAM ƒe asi bɔbɔe. Do dɔwɔwɔa eye nàgbugbɔe aɖoe kple ŋkuɖodzinu 12Gi ya teti (wokafu 16Gi).
+Nètsɔ asi megbe le RAM ŋu. Tu deployment la eye nàɖo eƒe teƒe ake kple memory 12Gi le esi me (16Gi nyo wu).
 
-#### Sync le xɔm tegbee
+#### Sync la le ɣeyiɣi didi geɖe
 
-Ðe "tegbee" gɔme:
+Ɖe "ɣeyiɣi didi geɖe" ƒe gɔme:
 
--> **Gaƒoƒo**: Esɔ
+-> **Gaƒoƒo geɖe**: Enye nu si dzɔna
 
--> **Ŋkekewo**: Azɔ hã esɔ na mainnet tso gɔmedzedzea me
+-> **Ŋkeke geɖe**: Esia hã nye nu si dzɔna na mainnet tso gɔmedzedze
 
--> **Kwasiɖa**: Nane gblẽ, lé ŋku ɖe nuŋlɔɖiwo ŋu be vodadawo le eme hã
+-> **Kwasiɖa geɖe**: Nane mesɔ o, kpɔ logs la me be vodadawo le eme
 
 
-### Gazazãwo Dzikpɔkpɔ
+### Asi Ƒe Dzidzime
 
-Lé ŋku ɖe wò gazazã ŋu le Console la me:
+Kpɔ asi si nèle zãm le Console me:
 
--> **Nye Dɔwɔwɔwo** -> Wò dɔwɔwɔ -> Fia "Gazazã le ɣleti ɖeka me" ƒe akɔntabubu
+-> **My Deployments** -> Wò deployment -> Efia "Cost per month" ƒe asi si wole be nàxɔ
 
--> Wò Keplr gakotoku ƒe ga si susɔ la dzi aɖe akpɔtɔ le ɣeyiɣi aɖe megbe
+-> Wò Keplr gakotoku ƒe balance agɔme ɖeɖem le ɣeyiɣi me
 
 
-Ne wò ga si susɔ la vɔ la, Akash axe wò dɔwɔwɔ le eɖokui si. **Tsɔ wò gakotokua de eme ɣeaɖewoɣi** alo nàɖo nuxlɔ̃amewo.
+Ne wò balance le te ɖeɖem la, Akash atu wò deployment le eɖokui si. **Ɖo kaƒomɔ ƒe gaɖoɖo [top up] ɖe wò gakotoku me le ɣeyiɣi sia ɣeyiɣi** alo wɔ alerts.
 
-#### Gazazãwo Dzi Ðeɖe Akpɔtɔ
+#### Aleke Nàgbɔ Asiwo Ɖe Megbe
 
--> **Zã Testnet** na dodokpɔ si menye nuwɔwɔ o (50% ƒe asi bɔbɔ)
+-> **Zã Testnet** na non-production ƒe dodokpɔ (exɔ asi 50% ɖe megbe)
 
--> **Ðe CPU/memory** ɖe anyi ne mèhiã be nàwɔ ɖeka kabakaba o
+-> **Gbɔ CPU/memory ɖe megbe** ne mèhiã sync kabakaba o
 
--> **Tia dɔwɔƒe siwo ƒe asi bɔbɔ wu** (menye ɣesiaɣie nunya le eme o - dɔwɔwɔ ƒe ɣeyiɣi le vevie)
+-> **Tia providers siwo xɔ asi megbe** (menye ɣesiaɣi be esia nyo o - dɔwɔƒe ƒe ɣeyiɣi le vevie)
 
 
-### Mainnet kple Testnet domee
+### Mainnet Kple Testnet
 
 ```markdown
 ----------------------------------------------------------------------------------
@@ -429,17 +427,16 @@ Ne wò ga si susɔ la vɔ la, Akash axe wò dɔwɔwɔ le eɖokui si. **Tsɔ wò 
 ----------------------------------------------------------------------------------
 ```
 
-Dze egɔme kple Testnet nenye be ɖeko nèle dɔwɔwɔ ƒe ɖoɖoa dom kpɔ. Kpɔ "Trɔtrɔ yi Testnet" ƒe akpa si le etame hena ɖoɖowɔwɔ.
+Dze egɔme kple Testnet ne nèle deployment ƒe wɔwɔ ƒe mɔ dodom kpɔm ko. Kpɔ akpa "Trɔ Yi Testnet Dzi" si le dzi na configuration.
 
-### Dɔwɔnu Bubuwo
+### Nu Bubuwo Siwo Nàte Ŋu Azã
 
-**Akash ƒe Kɔnsole**: [https://console.akash.network](https://console.akash.network)
+**Akash Console**: [https://console.akash.network](https://console.akash.network)
 
-**Akash ƒe Nuŋlɔɖiwo**: [https://akash.network/docs/](https://akash.network/docs/)
+**Akash Docs**: [https://akash.network/docs/](https://akash.network/docs/)
 
-**Zebra ƒe Nuŋlɔɖiwo**: [https://zebra.zfnd.org/](https://zebra.zfnd.org/)
+**Zebra Docs**: [https://zebra.zfnd.org/](https://zebra.zfnd.org/)
 
-**Zcash Nukulawo**: [https://zechub.wiki/guides/blockchain-explorers](https://zechub.wiki/guides/blockchain-explorers)
+**Zcash Explorers**: [https://zechub.wiki/guides/blockchain-explorers](https://zechub.wiki/guides/blockchain-explorers)
 
-**Akash Discord**: [https://discord.akash.network](https://discord.akash.network) (na dɔwɔƒe si naa kpekpeɖeŋu ƒe nyawo)
-
+**Akash Discord**: [https://discord.akash.network](https://discord.akash.network) (na provider ƒe kuxiwo)

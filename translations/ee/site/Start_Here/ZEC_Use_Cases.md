@@ -2,26 +2,26 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Zcash ƒe Gɔmeɖosewo
+# Zcash Ƒe Gɔmedzedze
 
-## ZEC Zazã ƒe Nɔnɔmewo
+## ZEC Ƒe Zã nyawo [use case]
 
-#### Fexexewo
+#### Fexexewo [payment]
 
-Amewo zãa ZEC tsɔ wɔa asitsadɔ nyuie eye wole dedie eye woxea fe sue aɖe ko. Shielded Zcash kpɔa egbɔ be asitsatsaawo nye nya ɣaɣlawo, eye wònaa mɔnukpɔkpɔ wo hã be woama adrɛs kple asitsatsa ŋuti nyatakakawo ne wodi. Ame ŋutɔ tɔ, "Z-Z" ƒe asitsatsa dzena le dutoƒo blockchain dzi eyata wonya be wodzɔ eye woxe fewo. Gake, adrɛswo, asitsatsa ƒe ga home kple memo field la katã nye nya ɣaɣlawo eye womekpɔnɛ le dutoƒo o. 
+Ameawo zã ZEC be woawɔ gaɖoɖo [transaction] le mɔ nyui kple dedie me, eye adzɔ [fee] sue koe woaxe. Ɣaɣla [shielded] Zcash na gaɖoɖowo nakpɔa ɣaɣla [privacy], eye wòna wo hã mɔ be woama gaɖoƒe ƒe dzesi [address] kple gaɖoɖo ƒe nyawo ne woedi. Ŋutinya, "Z-Z" gaɖoɖowo doa le gaɖoɖowo ƒuƒoƒo ƒe ɖoɖonu [blockchain] si le duma me, ale be woanya be wowɔe eye woxe adzɔwo. Ke hã, gaɖoƒe ƒe dzesiwo, gaɖoɖo ƒe asime kple nya kpui [memo] ƒe afi la katã woɣlaŋlɔ [encryption] eye amewo mate ŋu akpɔ wo le duma me o. 
 
-#### Asixɔxɔ ƒe Fiase
+#### Nudzraƒe si ƒe Asime Le Anyi
 
-Amewo ate ŋu azã ZEC hã atsɔ adzra kesinɔnuwo ɖo ɖe nunɔamesi sesẽ aɖe si kpɔa ame ŋutɔ ƒe nyawo ta me. ZEC unit miliɔn 21 koe anɔ anyi gbeɖeka, si fia be nunɔamesi la ƒe agbɔsɔsɔme si woɖo ɖi. Ne wonya [ku ZEC miliɔn 21 lia be woatsɔ awɔ dɔe ko](https://z.cash/mining-zcash/), nunɔamesi la ava zu nusi tsi tre ɖe ga ƒe asixɔxɔ ŋu. Nu siwo tsi tre ɖe ga ƒe asixɔxɔ ŋu nye mɔxenu nyui aɖe tso ga ƒe asixɔxɔ nu nenye be agbonudzɔla siwo le titina na dukɔa ƒe ga ƒe asixɔxɔ dzi ɖe edzi.
+Ameawo ate ŋu azã ZEC hã be woaɖo nunɔamesiwo ɖe nudzraƒe sesẽ, si doa ɣaɣla ɖa, me. ZEC ƒe unit miliyoni 21 koe akpɔ gbeɖe, esia fia be nudzraƒe la ƒe asime le anyi. Ne woɖe ZEC ƒe milionitɔ 21 la le [nukuku [mining] me va dze mɔ me](https://z.cash/mining-zcash/) la, nudzraƒe la ava zu nusi tsia nu ƒe asiwo o. Nudzraƒe siwo tsia nu ƒe asiwo o nye agbalẽ nyui tsɔ ɖa ŋgɔ na asime ƒe dzidzi ne dzikpɔlawo katãwo tsia dukɔ ƒe ga ƒe asime.
 
-#### Gbedasɛwo ɖoɖo ɖe amewo
+#### Nyaɖoɖo
 
-Amewo ateŋu azã nuŋlɔɖi ƒe akpaa le Z-Z ƒe asitsatsa si wokpɔ ta na me atsɔ aɖo gbedasi siwo wotsɔ nya ɣaɣlawo ŋlɔ bliboe. Be woaɖo nuŋlɔɖi aɖe ɖa la, ele be ezãlawo nawɔ asitsatsa aɖe eye woaxe asitsatsa ƒe fe, si mede dɔlar 0.01 o.
+Ameawo ate ŋu azã nya kpui ƒe afi le ɣaɣla Z-Z gaɖoɖo me be woaɖo nyawo siwo woɣlaŋlɔ blibo. Be wòaɖo nya kpui, ele be zãlawo nawɔ gaɖoɖo eye woaxe gaɖoɖo ƒe adzɔ, si le $0.01 te.
 
-#### Nunɔamesiwo
+#### Nuɖoɖowo
 
-[Nyatakaka ƒe Agble si Wotsɔ Nya Ɣla Ðo](https://electriccoin.co/blog/encrypted-memo-field/)
+[Nya Kpui ƒe Afi si Woɣlaŋlɔ](https://electriccoin.co/blog/encrypted-memo-field/)
 
-[Xe Fe Kple Zcash](https://z.cash/pay-with-zcash/)
+[Fa Zcash Ƒe Fexexe](https://z.cash/pay-with-zcash/)
 
-[Afisi Nàxe Fe Kple Zcash](https://paywithz.cash/)
+[Afisi Wòate Ŋu Afa Zcash Ƒe Fexexe](https://paywithz.cash/)

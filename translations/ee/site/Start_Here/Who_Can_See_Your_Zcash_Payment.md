@@ -2,23 +2,23 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Amekae Ate Ŋu Akpɔ Wò Zcash Fexexe?
+# Ame kae ate ŋu akpɔ wò Zcash Fexexe?
 
 ## TL;DR
 
-- Zcash naa **adrɛs ƒomevi eve wò**: transparent (`t`) kple akpoxɔnu (`z` or `u`).
-- Ga home si dukɔa akpɔ la nɔ te ɖe ƒomevi siwo wò fexexea aʋu le wo dome dzi.
-- **shielded to shielded** ƒe fexexe koe ɣlaa amesi ɖoe ɖa, amesi xɔe, kple ga homea.
-- Adrɛs si wokpɔ ta na menye safui ɖeka o. Enye safui sue aɖe, eye àte ŋu ama **nuxexlẽ ɖeɖeko ƒe mɔɖeɖe evɔ màna gazazã ƒe ŋutete o**.
-- Nukpɔkpɔ ƒe safui **womateŋu agbugbɔe axɔ o** ne ènya mae ko.
+- Zcash na wò **gaɖoƒe ƒe dzesi ƒomevi eve**: nuwo ƒe ʋuʋuɖi [transparent] (`t`) kple ɣaɣla [shielded] (`z` alo `u`).
+- Nu si amewo kpɔ le dodoa me la ɖe gaɖoƒe ƒomevi siwo dome wò fexexe lia la ŋu.
+- ɣaɣla yi ɣaɣla fexexe koe ɣla dɔlila, xɔla, kple ga ƒe home.
+- Ɣaɣla gaɖoƒe ƒe dzesi menye safui ɖeka ko o. Eya nye safuiwo ƒe ƒuƒoƒo sue, eye nàte ŋu na ame aɖe nukpɔm ko ƒe mɔ ne nèle gazã ƒe ŋusẽ nam o.
+- Ne nèma nukpɔsafui na ame aɖe vɔ la, mègale ŋu ate ŋu xɔe megbe o.
 
 ---
 
-## Nu ɖeka si gɔme wòle be nàse gbã
+## Nu ɖeka si wòse egɔme gbã
 
-Le blockchain akpa gãtɔ dzi la, tiatia aɖeke meli woawɔ o. Nusianu si nèɖo ɖa la nye dutoƒo, tegbee, na amesiame si akpɔe.
+Le gaɖoɖowo ƒuƒoƒo ƒe ɖoɖonu geɖewo dzi la, tiaɖe mele o. Nu sia nu si nèdo ɖa la nye dukɔme nu tegbee, tegbee na ame sia ame si le kpɔm.
 
-Zcash naa tiatia aɖe wò boŋ. Wowɔa tiatia ma zi eve: **zi ɖeka ne ètia adrɛs si dzi nàɖo ɖee, eye zi ɖeka ne ètso nya me le amesi axɔ safui si axlẽ wò ŋutinya ŋu.**
+Zcash na wò tiaɖe le ema teƒe. Wòwɔ tiaɖe sia zi eve: **zi ɖeka ne nètia gaɖoƒe ƒe dzesi si nàdo ɖa na, eye zi ɖeka ne nèɖo ta ame kae anɔ safui si ate ŋu axle wò ɖeɖeƒome.**
 
 Nɔnɔmetata si le ete la ƒo nu tso evea siaa ŋu.
 
@@ -26,66 +26,66 @@ Nɔnɔmetata si le ete la ƒo nu tso evea siaa ŋu.
 
 ---
 
-## Tiatia gbãtɔ: adrɛs si
+## Tiaɖe gbã: gaɖoƒe ƒe dzesi ka
 
-Zcash ƒe fexexe ɖesiaɖe zɔna le adrɛs eve dome, eye wo dometɔ ɖesiaɖe ateŋu anye esi me kɔ alo akpɔ eta. Ema naa mɔ ene, eye wo dometɔ ɖesiaɖe tsia agbɔsɔsɔ vovovo.
+Zcash fexexe sia fexexe lia le gaɖoƒe ƒe dzesi eve dome, eye ɖeka sia ɖeka ate ŋu anye nuwo ƒe ʋuʋuɖi alo ɣaɣla. Esia nana mɔ ene, eye ɖeka sia ɖeka ɖe nyatakaka ƒe akpa vovovo fia.
 
-Kpɔɖeŋua le bɔbɔe wu alesi wòdzenae: **nusianu si ka adrɛs si me kɔ la va zua dutoƒo.** Fexexe si nɔa ta si ŋu wokpɔ akpoxɔnu le la me le mɔ bliboa dzi la meɖea naneke fiana o negbe fe si woaxe la ko.
+Nuƒoƒo la bɔbɔe wu ale si wòbu ene: **nu sia nu si de nuwo ƒe ʋuʋuɖi gaɖoƒe ƒe dzesi ŋu la zu dukɔme nu.** Fexexe si nɔ ɣaɣla gaƒuƒoƒo [pool] me le mɔ blibo la me la, meɖe nu bubu aɖeke fia o negbe adzɔ ko.
 
-Esia le vevie wu ne èɖe asi le asitɔtrɔ aɖe ŋu. Adrɛs siwo me kɔ koe woɖona ɖe ame geɖe siwo woɖɔlia wo nɔewo ɖo, eyata ga si woɖe le eme la nyea dutoƒo. Wò ŋutɔ kpɔ ga la ta ne wonya ɖo ko, hafi nàzãe.
+Esia le vevie wu ne nèle ga xɔm tso gatrɔƒe me. Gatrɔƒe geɖewo doa ga ɖa na nuwo ƒe ʋuʋuɖi gaɖoƒe ƒe dzesiwo ko, ale be gaɖeɖa la nye dukɔme nu. Ɣla ga la wò ŋutɔ enumake wòva ɖo, hafi nàzãe.
 
-Ne èdi be yealé ŋku ɖe nusi tututu anyigbayeyedila xlẽna ŋu tsitotsito la, kpɔ [Nusi block explorer ate ŋu akpɔ](/zcash-tech/what-a-block-explorer-can-see).
-
----
-
-## Tiatia evelia: amesi axɔ safui
-
-Adzamenyawo si màte ŋu akɔ gbeɖe o la meɖea vi o. Ɣeaɖewoɣi la, ehiãna be nàɖo kpe nane dzi na akɔntanyala, agbalẽdzikpɔla, alo adzɔxedɔwɔƒe aɖe. Zcash kpɔa esia gbɔ evɔ mebia tso asiwò be nàɖe asi le dziɖuɖu ŋu o.
-
-**Gazazã ƒe safui.** Ekpɔa nusianu eye wòʋua ga. Esiae nye ga la. Enɔa gbɔwò eye womegblɔnɛ na ame aɖeke gbeɖe o, le susu aɖeke ta.
-
-**Full Viewing Key.** Nuxexlẽ ɖeɖeko. Fia dɔwɔna si va kple esi dona kple dadasɔ, gake mate ŋu azã zatoshi ɖeka pɛ hã o. Esiae nye nusi nètsɔ dea asi na agbalẽdzikpɔla alo akɔntanyala.
-
-**Incoming Viewing Key.** Narrower still: fexexe siwo va ɖo koe wòɖena fiana. Exchange alo asitsala ate ŋu awɔ esia atsɔ aɖo kpe edzi be wò ga si nède la ɖi, evɔ gazazã ƒe safuia ya nɔa xɔtunu siwo meka asi internet ŋu gbeɖe o dzi.
-
-Sededea le vevie. Na safui si le gbadzaa wu si wɔa dɔa, ke menye esi keke wu si le asiwò le vome o.
+Ne nàdi be nàkpɔ ale si dzadzraƒe xle nu le nyateƒe la me, kpɔ [Nu si gaɖoɖowo ƒuƒoƒe ƒe dzadzraƒe ate ŋu akpɔ](/zcash-tech/what-a-block-explorer-can-see).
 
 ---
 
-## Akpa si gɔmedzelawo to
+## Tiaɖe evelia: ame kae axɔ safui
 
-**Womateŋu ate fli ɖe nukpɔkpɔ ƒe safui me o.** "Undo share" ƒe dzesi aɖeke meli o. Ne enya le ame aɖe si ko la, ate ŋu axlẽ adrɛs ma ɣeyiɣi didi si wòle. Ne ehiã be nàtso mɔɖeɖe ɖe nu ŋu la, ètsɔa wò ga yia adrɛs yeye dzi.
+Ɣaɣla si nègate ŋu asi le gbe maɖe o la meɖe vi o. Ɣeaɖewo la, ele na wò be nàɖe nu aɖe fia na akɔntabula, kpekpeaɖela, alo tax ƒe dɔwɔƒe. Zcash wɔ esia ne wòmebia be nàɖe asi le ŋusẽ ƒe nudzɔdzɔ ŋu o.
 
-**Fewo nyea dutoƒo le fexexe si wokpɔ ta na bliboe gɔ̃ hã me.** Woɣla ga homea; fe si woxena la menye nenema o.
+**Gazazãsafui [Spending key].** Ekpɔ nu sia nu eye wòzãa ga. Eyae nye ga la. Enɔ kplii na wò, eye womama na ame aɖeke o, le ta aɖeke nu o.
 
-**Dutoƒo nye nusi nɔa anyi ɖaa.** Nusianu si kɔsɔkɔsɔa ɖena fiana egbea la, eɖenɛ fiana le ƒe blaeve me. Nyametsotso be yeakpɔ fetu aɖe ta *le* esi nèɖoe ɖa vɔ megbe la menye nusi nàte ŋu awɔ o.
+**Full Viewing Key.** Nukpɔm ko. Efia ga si ge ɖe eme kple ga si doa ɖa ƒe nudzɔdzɔwo kple balansewo, gake mate ŋu azã zatoshi ɖeka pɛ o. Esiae nàma na kpekpeaɖela alo akɔntabula.
 
----
+**Incoming Viewing Key.** Eme keke wu esia hã: efia fexexewo siwo va ɖo ko. Gatrɔƒe alo asitsɔla ate ŋu awɔ esia be wòaɖe kpe edzi be wò gaɖoɖo va ɖo, esi gazazãsafui la ganɔ hardware si mekpena internet ŋu o.
 
-## Tsɔe de dɔwɔwɔ me
-
-- Zã gakotoku si kpɔa ame ta le gɔmedzedzea me, abe [ZODL](https://zodl.com) or [Zingo!](https://www.zingolabs.org/).
-- Akpoxɔnu gawo ne wonya tso gaɖɔliƒe aɖe ko, hafi nàzãe.
-- Fe na adrɛs siwo wokpɔ ta na ɣesiaɣi si amesi xɔe la do alɔ ɖeka.
-- Hafi nàma nukpɔkpɔ ƒe safui la, bia be safui kae nye suetɔ kekeake si ɖoa nya si wobia la ŋu.
+Ɖoɖoɖo la le vevie. Na safui si me keke wu si wɔ dɔ la, menye si hã la si nèkpɔ le asiwò la o.
 
 ---
 
-## Nunɔamesiwo
+## Akpa si amesiaminɔwo mekpena o
 
-- [Nukpɔkpɔ ƒe safuiwo me ɖeɖe (Electric Coin Company) .](https://electriccoin.co/blog/explaining-viewing-keys/)
-- [Nyawo ɖeɖe ɖe go kple ekpɔkpɔ ƒe safui siwo woate ŋu atia (Electric Coin Company) .](https://electriccoin.co/blog/viewing-keys-selective-disclosure/)
-- [ZIP 310: Safuiwo kpɔkpɔ](https://zips.z.cash/zip-0310)
-- [Alesi Zcash mɔ̃ɖaŋununya wɔa dɔe](https://z.cash/technology/)
+**Womate ŋu aɖe nukpɔsafui ɖa o.** "Matrɔ mama la megbe" ƒe dzesi aɖeke mele o. Ne ame aɖe xɔe vɔ la, ate ŋu axle gaɖoƒe ƒe dzesi ma le esi wònɔ anyi la blibo. Ne wòhia be nàtɔ mɔ na ame ma o la, nàtsɔ wò ga yi gaɖoƒe ƒe dzesi yeye aɖe dzi.
 
-## Axa siwo do ƒome kplii
+**Adzɔwo nye dukɔme nu hã le ɣaɣla fexexe blibo me.** Woɣla ga ƒe home la; womɣla adzɔ la o.
 
-- [Zcash ƒe gɔmedzenufiafiawo](/start-here/what-is-zec-and-zcash)
-- [Zcash yeye zãla ƒe mɔfiame](/start-here/new-user-guide)
-- [Nusi block explorer ate ŋu akpɔ](/zcash-tech/what-a-block-explorer-can-see)
-- [Safuiwo kpɔkpɔ](/zcash-tech/viewing-keys)
-- [Adzɔnuwo ƒe asitsatsa](/using-zcash/transactions)
+**Dukɔme nu nye tegbee.** Nu sia nu si ɖoɖonu la fia egbe la, afia le ƒe 20 megbe hã. Ɖoɖo be nàɣla fexexe aɖe *le* wòdoe ɖa megbe la menye nu si nàte ŋu awɔ o.
 
 ---
 
-*Ne èdi be yeatsɔ ɖɔɖɔɖowo akpe ɖe wiki ƒe axa sia ŋu alo aɖo aɖaŋu na wò la, taflatse yi ɖe... [ZecHub GitHub ƒe nuŋlɔɖi](https://github.com/ZecHub/zechub) eye nàtsɔ hehe ƒe biabiawo aɖo ɖa.*
+## Wɔe le nɔnɔme me
+
+- Zã gakotoku [wallet] si wɔa ɣaɣla le gɔmedzedze me, abe [ZODL](https://zodl.com) alo [Zingo!](https://www.zingolabs.org/) ene.
+- Ɣla ga enumake wòva tso gatrɔƒe me, hafi nàzãe.
+- Xe fexexe na ɣaɣla gaɖoƒe ƒe dzesiwo ɣe sia ɣe si xɔla la kpena eŋu.
+- Hafi nàma nukpɔsafui, bia safui kae me keke wu si ɖo biabia si wobia la ŋu.
+
+---
+
+## Nuɖoɖowo
+
+- [Nukpɔsafuiwo ƒe nyagblɔɖe (Electric Coin Company)](https://electriccoin.co/blog/explaining-viewing-keys/)
+- [Nyatakaka tɔxɛ ɣaɣla [selective disclosure] kple nukpɔsafuiwo (Electric Coin Company)](https://electriccoin.co/blog/viewing-keys-selective-disclosure/)
+- [ZIP 310: Nukpɔsafuiwo](https://zips.z.cash/zip-0310)
+- [Ale si Zcash teknolojia wɔa dɔ](https://z.cash/technology/)
+
+## Axewo si kpena eŋu
+
+- [Zcash ƒe gɔmedzedze nuwo](/start-here/what-is-zec-and-zcash)
+- [Zcash ƒe mɔfia na zazãla yeye](/start-here/new-user-guide)
+- [Nu si gaɖoɖowo ƒuƒoƒe ƒe dzadzraƒe ate ŋu akpɔ](/zcash-tech/what-a-block-explorer-can-see)
+- [Nukpɔsafuiwo](/zcash-tech/viewing-keys)
+- [Gaɖoɖowo](/using-zcash/transactions)
+
+---
+
+*Ne wòdi be nàtsɔ nu kpe ɖe wiki axa sia ŋu alo nàɖo asaɖaɖa aɖe ɖa la, medekuku yi [ZecHub GitHub repo](https://github.com/ZecHub/zechub) eye nàɖo pull request aɖe ɖa.*

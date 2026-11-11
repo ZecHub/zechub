@@ -1,183 +1,183 @@
-[![ページを編集](https://img.shields.io/badge/Edit-blue)](https://github.com/zechub/zechub/edit/main/site/guides/Free2z_Live.md)
+[![Edit Page](https://img.shields.io/badge/Edit-blue)](https://github.com/zechub/zechub/edit/main/site/guides/Free2z_Live.md)
 
-# Free2Z: アカウントの作成＋ライブ配信チュートリアル
+# Free2Z：アカウント設定 + ライブ配信チュートリアル
 
 ## はじめに
 
-Free2Zは、クリエイターとサポーターがつながり、目標を達成するためのプラットフォームです。Free2Zは、プライバシーを犠牲にすることなく、クリエイターが自分の才能を披露し、プロジェクトのために資金を集めるためのツールを提供します。サポーターは、自分に信じる活動や目的を探して支援できます。
+Free2Zは、クリエイターと支援者がつながり、目標を達成するためのプラットフォーム（platform）です。Free2Zは、プライバシーを損なうことなく、クリエイターが才能を披露し、プロジェクトの資金を集めるためのツール（tools）を提供します。支援者は、自分が信じる活動を見つけて支援できます。
 
 ## アカウントを作成する
 
-現在、Free2Zでアカウントを作成する方法は以下の2つがあります：  
-1. ユーザー名とパスワードを選択する。  
-2. Twitterアカウントを接続する。  
+現在、Free2Zでアカウントを作成する方法は2つあります。  
+1. ユーザー名とパスワードを選択します。  
+2. Twitterアカウントを連携します。  
 
-アカウントの作成またはログインを行うには、https://free2z.cash/ にアクセスし、「CREATE（作成）」ボタンをクリックしてください。
+アカウントを作成またはログインするには、https://free2z.cash/にアクセスして「CREATE」ボタンをクリックします。
 
-![ログイン／サインアップフォーム](/content-images/image-2023-11-19-133101013-3ee51e3b6f.webp)
+![Login/signup form](/content-images/image-2023-11-19-133101013-3ee51e3b6f.webp)
 
-ブラウザにログイン／サインアップフォームが表示されます。ユーザー名と強力なパスワードを選びましょう。これはあなたのログイン情報になります。CAPTCHAを解いて「Enter（入力）」ボタンをクリックしてアカウントを作成してください。
+ログイン／登録フォームがブラウザに表示されます。ユーザー名と強力なパスワードを選択してください。これらがログイン情報になります。キャプチャを解き、「Enter」ボタンをクリックしてアカウントを作成します。
 
-![ユーザー名とパスワードの入力フォーム](/content-images/image-2023-11-19-133141052-0387984be1.webp)
+![Username and password entry form](/content-images/image-2023-11-19-133141052-0387984be1.webp)
 
-または、Twitterアカウントを接続してFree2Zのアカウントを作成することもできます。これを行うには、「Login With（ログイン）」の隣にあるTwitterロゴをクリックし、Twitterアカウントを接続するように求められます。
+または、Twitterアカウントを連携してFree2Zアカウントを作成することもできます。これを行うには、「Login With」の横にあるTwitterロゴをクリックします。すると、Twitterアカウントの連携を求められます。
 
-![Twitterログインオプション](/content-images/image-2023-11-19-133210103-f65246bbee.webp)
+![Twitter login option](/content-images/image-2023-11-19-133210103-f65246bbee.webp)
 
-**アプリに認可する** をクリックして、TwitterアカウントをFree2Zと接続してください。
+**Authorize app**をクリックして、TwitterアカウントをFree2Zに連携します。
 
 ## プロフィールをカスタマイズする
 
-アカウントが作成されると、Free2Zのプロフィールページにリダイレクトされます。Twitterアカウントでアカウントを作成した場合、多くの項目は自動的に埋められます。ユーザー名とパスワードでアカウントを作成した場合は、ここで情報を入力する必要があります。本名ではなく、ペンネームを使用することもできます。
+アカウントが作成されると、Free2Zのプロフィールページにリダイレクトされます。Twitterを連携してアカウントを作成した場合、ほとんどの項目は自動的に入力されます。ユーザー名とパスワードを入力してアカウントを作成した場合は、ここで情報を入力してください。本名の代わりに仮名を使用できます。
 
-![デフォルトの空のプロフィールヘッダー](/content-images/default-header-a11eb8328f.webp)
+![Default empty profile header](/content-images/default-header-a11eb8328f.webp)
 
-現在は非常に退屈ですが、アバターとバナーを設定することでより面白くしましょう。Free2Zインターフェースでは、アップロードボタン（右側の上向き矢印）を使用してこのステップが非常に簡単に実行できます。
+現時点ではかなり地味なので、アバターとバナーを設定して、より魅力的にしてみましょう。Free2Zのインターフェース（interface）では、アップロードボタン（右側の上向き矢印）を使って簡単に設定できます。
 
-![アバターおよびバナーのアップロードボタン](/content-images/avatar-and-banner-bd20d0bbfb.webp)
+![Avatar and banner upload buttons](/content-images/avatar-and-banner-bd20d0bbfb.webp)
 
-ページの上部で結果を確認できます。
+ページ上部で結果を確認できます。
 
-![カスタマイズ後のプロフィールページ](/content-images/resultatpage-f4ddacb8b8.webp)
+![Profile page after customization](/content-images/resultatpage-f4ddacb8b8.webp)
 
-ああ、ずっとよくなった！アートのスキルがある場合は、Free2Zのプロフィールページをとても素晴らしいものに仕上げることができます。ページ用の説明文を書きましょう。自分について話したり、他人が期待できるコンテンツの種類を記述したりできます。（ヒント：マークダウン構文を使用して説明文をカスタマイズしましょう！）
+ああ、ずっと良くなりました！芸術的なスキルがあれば、Free2Zのプロフィールページを素晴らしい見た目にできます。ページに魅力的な説明を書きましょう。自分について紹介したり、他の人が期待できるコンテンツの種類を説明したりできます。（ヒント：説明を個性豊かにするには、Markdown構文を使用してください！）
 
-![説明文フィールドの編集](/content-images/edit-description-b52afabec1.webp)
+![Editing the description field](/content-images/edit-description-b52afabec1.webp)
 
-Zcashのshieldedアドレスを提供することを忘れないでください。これにより、サポーターが直接あなたに寄付できます！
+支援者があなたへ直接寄付できるよう、Zcashのシールドされたアドレス（shielded address）を忘れずに入力してください！
 
-![Zcash shieldedアドレスフィールド](/content-images/p2p-address-b89f035bd9.webp)
+![Zcash shielded address field](/content-images/p2p-address-b89f035bd9.webp)
 
-ページ設定を完了する最後のステップは、「Member Price（会員価格）」を設定することです。これは、他のユーザーがあなたのページにサブスクライブするために支払う必要がある2Zs（Tuzies）の価格です。（後のセクションで2Zsについて詳しく説明します。）
+ページ設定を完了する最後の手順は、「Member Price」を設定することです。これは、他のユーザーがあなたのページを購読するために支払う2Zs（Tuzies）の価格です！（2Zsについては後ほど詳しく説明します。）
 
-![会員価格設定](/content-images/member-price-2dafd7e399.webp)
+![Member price setting](/content-images/member-price-2dafd7e399.webp)
 
-最後に、「Update Profile（プロフィールを更新）」ボタンをクリックして、プロフィールの設定を完了してください！
+最後に、「Update Profile」ボタンをクリックしてプロフィール設定を完了します！
 
-## サブスクリプションと2Zs
+## 購読と2Zs
 
-Free2Zは、ユーザーが好きなクリエイターにサブスクライブし、エクスクルーシブな機能や会員限定コンテンツにアクセスできるようにします。クリエイターはサブスクリプションの最小金額を設定する必要があります。
+Free2Zでは、ユーザーがお気に入りのクリエイターを購読し、限定機能やメンバー限定コンテンツにアクセスできます。クリエイターは、購読に必要な2Zsの最低額を設定する必要があります。  
 
-2ZsまたはTuziesは、Free2Zで使用されるインアプリのデジタルポイントであり、以下の目的に使用されます：  
-1. クリエイターへのサブスクライブ  
-2. Free2Zページの可視性向上  
+2ZsまたはTuziesは、Free2Z内で使用されるアプリ内デジタルクレジットで、以下を含むさまざまな目的に利用されます。  
+1. クリエイターの購読  
+2. Free2Zページの可視性を高めること  
 3. クリエイターへの寄付  
 
-プロフィールページのヘッダーで自分の2Zsの残高を確認できます。
+プロフィールページのヘッダーで2Zsクレジットを確認できます。
 
-![ヘッダー内の2Zs / Tuzies残高](/content-images/tuzis-balance-9d6a9eff7f.webp)
+![2Zs / Tuzies balance in header](/content-images/tuzis-balance-9d6a9eff7f.webp)
 
-Zcashを使用して、自分の2Zs残高をクリックすることで、さらに多くの2Zsを購入できます。最低購入額は0.05 ZECで、現在の変換レートは0.05 ZEC = 10 2Zsです。
+2Zs残高をクリックすると、Zcashでさらに2Zsを購入できます。購入の最低額は0.05 ZECで、現在の換算レートは0.05 ZEC = 10 2Zsです。
 
-![2Zsを購入するインターフェース](/content-images/buy-tuzies-e82c626047.webp)
+![Buying 2Zs interface](/content-images/buy-tuzies-e82c626047.webp)
 
-## 寄付とサブスクリプション
+## 寄付と購読
 
-好きなクリエイターを見つけたら、寄付やサブスクライブによってその評価を示すことができます。すべての寄付は直接クリエイターのウォレットに送られます。例として、[Free2Z公式ページ](https://free2z.cash/free2z)にサブスクライブしてみましょう。
+気に入ったクリエイターを見つけたら、寄付や購読によって感謝を示せます。すべての寄付はクリエイターのウォレット（wallet）へ直接送られます。例として、[Free2Z自身のページ](https://free2z.cash/free2z)を購読してみましょう。
 
-![Free2Z公式ページ](/content-images/free2z-page-94c5fd5f4f.webp)
+![Free2Z official page](/content-images/free2z-page-94c5fd5f4f.webp)
 
-ページにサブスクライブするには、ページヘッダーにあるサブスクライボタンをクリックするだけです。
+ページを購読するには、ページヘッダーの購読アイコンをクリックするだけです。
 
-![クリエイターのページ上のサブスクライブボタン](/content-images/subscribe-to-creator-76c306d924.webp)
+![Subscribe button on creator page](/content-images/subscribe-to-creator-76c306d924.webp)
 
-サブスクライブの最小金額が表示されます。十分なTuziesを持っているか確認し、「サブスクライブ」をクリックしてください。
+購読に必要な最低額が表示されます。十分なtuzisがあることを確認し、購読をクリックしてください。
 
-![サブスクライブ確認ポップアップ](/content-images/confirm-subscribe-7381923e36.webp)
+![Confirm subscription popup](/content-images/confirm-subscribe-7381923e36.webp)
 
-### 2ZsまたはZcashで寄付
+### 2ZsまたはZcashを使って寄付する
 
-彼らのページ上で直接寄付するには、Fund creator（クリエイター支援）アイコンをクリックしてください。
+ページ上の「Fund creator」アイコンをクリックすると、直接寄付できます。
 
-![Fund creatorボタン](/content-images/fund-creator-ac59aee7bf.webp)
+![Fund creator button](/content-images/fund-creator-ac59aee7bf.webp)
 
-または、投稿内から浮動する＋ボタンを探してください。ここから、クリエイターに寄付したり、Free2Z上で投稿を宣伝したりできます。
+または、投稿内にあるフローティングプラスボタンを探してください。ここから、クリエイターに寄付するか、Free2Z上で投稿を宣伝できます。
 
-![投稿内の浮動アクションボタン](/content-images/post-floating-buttons-a1e2ef1102.webp)
+![Floating action buttons inside a post](/content-images/post-floating-buttons-a1e2ef1102.webp)
 
 ## ライブ配信
 
-Free2Zプラットフォームは、Free2Z Liveという素晴らしい機能を提供しています。このツールを使用して、サブスクライバーが参加できるライブストリームを開始できます。Free2Z Liveの主な特徴には以下があります：  
+Free2Zプラットフォームには、Free2Z Liveという素晴らしい機能があります。このツールにより、クリエイターは購読メンバー向けにライブ配信を開始できます。Free2Z Liveの主な機能は次のとおりです。  
 - 音声と動画  
-- スクリーン共有  
-- コラボレーションコード編集  
+- 画面共有  
+- 共同コード編集  
 - チャット  
-- 白板  
+- ホワイトボード  
 - その他多数！
 
-### Free2Z Liveで何ができるか
+### Free2Z Liveでできること
 
-Free2Z Liveは強力なツールであり、クリエイターがどんな種類のコンテンツを配信するにも対応可能です。以下にいくつかの例を示します：  
-- チュートリアルやデモンストレーション  
-- 演出やイベント  
-- コラボプロジェクト  
-- ライブ報道やジャーナリズム  
-- あなたの創造性が限界です！
+Free2Z Liveは強力なツールであり、クリエイターはあらゆる種類のコンテンツを配信できます。Free2Z Liveで配信できるコンテンツの例をいくつか紹介します。  
+- チュートリアルとデモンストレーション  
+- パフォーマンスとイベント  
+- 共同プロジェクト  
+- ライブ報道とジャーナリズム  
+- 創造性だけが限界です！
 
-### ライブ配信の開始方法
+### ライブ配信を開始する方法
 
-Free2Z Liveを使用してライブ配信を開始するのは非常に簡単ですが、配信を開始する前にいくつかの要件があります。  
-1. クリエイターは**最低でも10 2Zs（Tuzies）の会員価格**を持つ必要があります。  
-2. クリエイターのアカウントには**少なくとも150 2Zs（Tuzies）の残高**が必要です。  
+Free2Z Liveでライブ配信を開始するのはとても簡単です。ただし、配信を開始する前にいくつかの要件があります。  
+1. クリエイターは、最低**メンバー価格**を10 2Zsに**設定する必要があります**。  
+2. クリエイターは、アカウント内に少なくとも150 2Zsの残高を**保有している必要があります**。  
 
-クリエイターが上記の**両方の条件を満たしている場合**、プロフィールページに「Go Live（ライブ配信開始）」というアイコンが表示されます。
+クリエイターが上記の**両方**の条件を満たす場合、プロフィールページで**Go Live**というアイコンを利用できます。
 
-![Go Liveボタン](/content-images/go-live-4c8ac67505.webp)
+![Go Live button](/content-images/go-live-4c8ac67505.webp)
 
-ライブ配信を開始するには、「Go Live（ライブ配信開始）」ボタンをクリックし、Free2Zアプリはマイクとウェブカメラ（もしあれば）の使用を許可するために確認を求めます。必要な権限を付与した後、Free2Zはライブ配信中に使用したいニックネームを入力するように求めます。ニックネームを選択したら、「Join（参加）」をクリックしてライブ配信を開始してください。
+ライブ配信を開始するには、**Go Live**ボタンをクリックするだけです。Free2Zアプリは、マイクとウェブカメラ（お持ちの場合）の使用許可を求めます。必要な許可を付与すると、Free2Zはライブ配信中に使用するニックネームの入力を求めます。ニックネームを選択したら、**Join**をクリックしてライブ配信を開始します。
 
-![ライブ配信用のニックネーム選択](/content-images/select-nickname-414444b992.webp)
+![Select nickname for live stream](/content-images/select-nickname-414444b992.webp)
 
-完了です！ライブ配信を開始すると、プロフィールにライブ中であることを示すアイコンが表示されるため、サブスクライバーはライブ配信に参加できます。
+これで完了です！ライブ配信を開始すると、プロフィールにライブ中であることを示すアイコンが表示され、購読者はライブ配信に参加できます。
 
-![ライブストリームへの参加](/content-images/join-livestream-679334ba53.webp)
+![Joining a livestream](/content-images/join-livestream-679334ba53.webp)
 
-人々がライブ配信に参加すると、チャットしたり、ステージに参加を依頼したり、投票によるインタラクションなどを行えます。
+ライブ配信に参加した人は、チャットしたり、ステージへの参加をリクエストしたり、投票に参加したりできます。
 
-![Free2Z Liveセッションの例](/content-images/free2z-live-example-eecb2ae553.webp)
+![Example of a Free2Z Live session](/content-images/free2z-live-example-eecb2ae553.webp)
 
-_(Free2Z Liveセッションの例)_
+_（Free2Z Liveセッションの例）_
 
-Free2Z Liveは多機能で強力です。次のセクションでは、その機能とツールの概要を提供します。
+Free2Z Liveは多用途で強力です。次のセクションでは、その機能とツールの概要を説明します。
 
-### Free2Z Liveの探索
+### Free2Z Liveを探索する
 
-このWikiドキュメントは、Free2ZまたはFree2Z Liveに関する詳しいガイドではありませんが、ここにいくつかの主要なツールの概観を示します。
+このウィキ文書は、Free2ZまたはFree2Z Liveの詳細なガイドを目的としたものではありません。しかし、ここではツールの概要を紹介します。
 
-画面の左下にはいくつかのボタンがあります。
+画面の左下には、いくつかのボタンがあります。
 
-![左下コントロール](/content-images/free2z-live-left-60b450b01c.webp)
+![Bottom left controls](/content-images/free2z-live-left-60b450b01c.webp)
 
-ここにある素晴らしい機能は、スクリーン共有ができることです。他のユーザーが何をしているかを見ることができます。
+ここで便利な機能の1つは、画面を共有して、他のユーザーがあなたの作業内容を見られるようにすることです。
 
-下部にはライブ配信オプションが見つかります。
+下部にはライブ配信のオプションがあります。
 
-![ボトムツールバー](/content-images/free2z-live-bottom-ae64a6960c.webp)
+![Bottom toolbar](/content-images/free2z-live-bottom-ae64a6960c.webp)
 
-ここにある主なオプションは以下の通りです：  
-- マイクをミュート／解除  
-- ウェブカメラを有効／無効  
-- ステージから離脱  
-- すべてのスピーカーをミュート  
-- 離脱  
+ここでの主なオプションは次のとおりです。  
+- マイクをミュート／ミュート解除する  
+- ウェブカメラを有効／無効にする  
+- ステージから退出する  
+- すべてのスピーカーをミュートする  
+- 退出する  
 
-ライブ配信を終了するには、「Leave（離脱）」ボタンをクリックし、その後「End meeting for all（全員に会議を終了）」をクリックして、全参加者に対して会議を終了します。
+ライブ配信を終了するには、「Leave」ボタンをクリックし、その後「End meeting for all」をクリックして、すべての参加者の会議を停止してください。
 
-![右下のインタラクションパネル](/content-images/free2z-live-right-c83cb6d209.webp)
+![Bottom right interaction panel](/content-images/free2z-live-right-c83cb6d209.webp)
 
-右下のボタンには、ライブ配信のインタラクションに関連する機能が含まれています。例えば：  
-- **Chat（チャット）**：これは、参加者とホストがライブ配信中にチャットできるようにします。  
-- **Polls（投票）**：これは、ホストが投票を作成し、参加者からフィードバックを収集できるようにします。  
-- **参加者リスト**：これは、ライブ配信中の参加者の一覧を表示します。  
-- **Plugins（プラグイン）**：これは、ホストがプラグインや拡張機能を追加して、ライブ配信体験を向上させられるようにします。
+右下のボタンには、次のようなライブ配信での交流に関する機能があります。  
+- **Chat**：参加者がライブ配信中に互いに、またホストとチャットできます。  
+- **Polls**：ホストが投票を作成し、参加者からフィードバックを集められます。  
+- **List of participants**：ライブ配信の参加者リストを表示します。  
+- **Plugins**：ホストがプラグインや拡張機能を追加し、ライブ配信体験を向上させられます。
 
-![プラグインパネル](/content-images/free2z-live-plugins-e9a30ee355.webp)
+![Plugins panel](/content-images/free2z-live-plugins-e9a30ee355.webp)
 
-このWikiドキュメントの目的はすべてのプラグインを説明することではありませんが、本当にすべてのプラグインを使ってみてください。それらはクリエイターと視聴者との間で素晴らしいインタラクション価値を提供します。プラグインを起動するには、右側にある「rocket（ロケット）」ボタンをクリックしてください。
+このウィキ文書の目的はすべてのプラグインを説明することではありませんが、クリエイターと視聴者の間に大きな交流価値をもたらすため、ぜひすべて試してみてください。プラグインを起動するには、右側の「rocket」ボタンをクリックするだけです。
 
-## 結論
+## まとめ
 
-結論として、Free2Zは、クリエイターが自分の能力を披露し、知識を共有し、プロジェクトのために資金を集めるための多機能なプラットフォームであり、強力なツールであるFree2Z Liveを通じてサポーターと関与できます。
+結論として、Free2Zは、クリエイターが能力を披露し、知識を共有し、プロジェクトの資金を集め、Free2Z Liveという強力なツールを通じて支援者と交流できる多用途なプラットフォームです。
 
 ----
 
@@ -185,11 +185,11 @@ Free2Z Liveは多機能で強力です。次のセクションでは、その機
 
 [Free2Z](https://free2z.cash/)  
 [Free2Zドキュメント](https://free2z.cash/docs/)  
-[2Z概要](https://free2z.cash/docs/getting-started/tuzis)  
+[2Zの概要](https://free2z.cash/docs/getting-started/tuzis)  
 [プロフィールの作成](https://free2z.cash/docs/for-creators/creating-a-profile)  
 [Free2Z Liveとは？](https://free2z.cash/docs/for-creators/free2z-live)  
-[サポーター向けFree2Z](https://web.archive.org/web/20260118172223/https://free2z.cash/docs/category/for-supporters/)
+[支援者向けFree2Z](https://web.archive.org/web/20260118172223/https://free2z.cash/docs/category/for-supporters/)
 
 ---
 
-_ZecHubのためにJames Katzが書きました。_
+_ZecHubのためにJames Katzが執筆。_

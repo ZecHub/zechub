@@ -3,30 +3,29 @@
 </a>
 
 
-# Nyatakakadzraɖoƒewo ƒe Nyatakakadzraɖoƒewo
+# Web ƒe Browsers
 
-1. **Brave:** Browser xɔŋkɔ siwo le dedie wu le asi me egbea dometɔ ɖeka. Exea mɔ na boblododo & trackers siwo xɔa ame ŋutɔ ƒe nyawo me. Exea mɔ na ame bubuwo ƒe nyatakakawo dzraɖoƒe. 
+1. **Brave:** Eyae nye browser siwo ƒe ŋkɔ dze ŋgɔ na, eye wòle dedie ŋutɔ le ahịa me egbe. Etsɔa asi dea advertaisment kple tracker siwo wɔnɔa ame ƒe ɣaɣla [privacy] ŋu o. Etsɔa asi dea data si tso ame bubu gbɔ ƒe dzadzra o. 
 
-2. **Mulvad:** Nyatakakadzraɖoƒe si léa ŋku ɖe ame ŋutɔ ƒe nyawo ŋu si wowɔ le Mullvad VPN kple Tor Dɔwɔɖoɖoa ƒe nuwɔwɔ aduadu me. Wowɔe be woaɖe asibidɛwo yometiti kple asibidɛwo ƒe dzesiwo xɔxɔ dzi akpɔtɔ
+2. **Mulvad:** Eya nye web ƒe browser si wotu be wòanɔ ɣaɣla ŋu, si Mullvad VPN kple Tor Project wɔ ɖe asi. Wotu e be wòaɖe tracking kple fingerprinting dzi le anyi nu.
 
-3. **Tor:** Browser sia xea mɔ na plugins abe Flash, RealPlayer, QuickTime, kple bubuawo: woateŋu atrɔ asi le wo ŋu be woaɖe wò IP adrɛs afia. Míeɖo aɖaŋu be nàde kpeɖeŋutɔ alo kpeɖeŋutɔ bubuwo Tor Browser me o
+3. **Tor:** Browser sia dea asi pluginwo abe Flash, RealPlayer, QuickTime, kple bubuwo ene ŋu; woate ŋu akplɔ wo be woaɖe wò IP gaɖoƒe ƒe dzesi [address] afia. Míele aɖeɖe me be wòagblɔ add-on alo plugin bubuwo kple Tor Browser o.
 
 
-## Nukawoe Nye Dedienɔnɔ Ŋu Bubu Ne Èle Nyatakakadzraɖoƒe Tiam?
+## Nu Kawoe Nye Dedie ƒe Nudzodzro Nenatia Web Ƒe Browser?
 
-Ne èle nyatakakadzraɖoƒe tiam la, nu ʋɛ aɖewo li siwo wòle be wòanɔ susu me na wò: Zi geɖe la, wokea ɖe dedienɔnɔ ƒe gbɔdzɔgbɔdzɔwo kple wo zazã ŋu edziedzi. Woate ŋu akpɔ web-browser aɖewo le mɔ aɖe nu, gake, web-browser aɖewo li siwo ɖea mɔ na ezãlawo be woate ŋu aʋu woƒe ŋkɔ manɔmee - [Tor nyatakakadzraɖoƒe](https://download.torproject.org/) Le kpɔɖeŋu me. 
+Ne wòle web ƒe browser tiam la, nu ɖewo li si wòle be nàɖo ŋku edzi: Wokpɔa dedie ƒe gbɔdzɔdzɔwo kple exploitwo zi geɖe. Browser aɖewo ƒe mɔ̃woe woate ŋu akpɔ, ke browser aɖewo li siwo na users ate ŋu anɔ internet dzi kple ɣaɣla - [Tor browser](https://download.torproject.org/) le kpɔɖeŋu me. 
 
-**Asibidɛwo ƒe dzesidede**: Ne èdi be yeana nuwo nanɔ ɣaɣla abe, kɔmpiutadziɖoɖo siwo woda ɖe wò mɔ̃a dzi, kɔmpiutadziɖoɖowo ƒe ɖoɖowɔwɔ, kple bubuwo ene la, bu eŋu kpɔ be yealé ŋku ɖe nyatakakadzraɖoƒe si doa alɔ asibidɛwo ƒe tsitretsitsi ƒe nɔnɔme ŋu. 
+**Fingerprinting**: Ne wòdi be yèatsɔ nuwo anɔ ɣaɣla me, abe software siwo wòɖo ɖe wò machine dzi, hardware ƒe ɖoɖo, kple bubuwo ene la, kpɔ web ƒe browser si tšea fingerprinting ƒe tsitretsi ƒe nɔnɔme.
 
-**HTTPS Dodokpɔ**: Dedienɔnɔ ƒe nu bubu si ŋu wòle be nàlé ŋku ɖo ne èle nyatakakadzraɖoƒe tiam enye HTTPS Dodokpɔ ƒe ɖoɖo si kpena ɖe ame ŋu be wòaɣla nyatakakadzraɖoƒe ƒe kadodo eye wòɣlaa cookies, URL kple metadata vevi ƒomevi bubuwo. Le HTTPS me la, wotsɔa nya ɣaɣlawo dea kadodoa me eye ame bubu aɖeke si le network la dzi mate ŋu axlẽ nyatakaka siwo wotsɔ yina ɖe server la kple wò browser dome o. 
+**HTTPS Test**: Dedie ƒe nudzodzro bubu si wòle be nàkpɔ ne wòle web ƒe browser tiam lae nye HTTPS Test protocol, si kpena ɣaɣlaŋlɔŋlɔ [encryption] na website ƒe kadodo, eye wòɣla cookies, URLs, kple metadata siwo hiã ŋutɔ ƒe ƒomevi bubuwo. Kple HTTPS, wokplɔ kadodoa ɖe ɣaɣlaŋlɔŋlɔ me, eye ame etɔ aɖeke si le networka dzi mate ŋu axle nu siwo wole tsɔm tso server la gbɔ yi wò browser me o. 
 
-**Kuki Takpɔkpɔ Kpɔkpɔ**: Gawu la, nyatakakadzraɖoƒe ƒe akpa gã aɖe le xexeame katã ƒe nyatakakadzraɖoƒea ɣla ame etɔ̃lia ƒe mɔ̃ siwo léa ŋku ɖe wo ŋu; tracker siawo xlẽa cookies heŋlɔa wo le wò web-browser me. Cookie siawo ate ŋu ana woawɔ nu gbegblẽwo elabena woate ŋu azã wo atsɔ akpɔ ale si nèzãa nyatakakadzraɖoƒewoe; be nàxe mɔ ɖe kplɔkplɔ sia nu la, tia nyatakakadzraɖoƒe aɖe si xea mɔ na nyatakakadzraɖoƒe ƒe cookies siwo mènya o.
+**Tracking Cookie Ƒe Mɔxɔxɔ**: Kpe ɖe eŋu la, web ƒe axa geɖe siwo le world wide web me la, tracker siwo tso ame etɔ gbɔ le wo me kple ɣaɣla; tracker siawo xlea cookies, eye wogblɔa cookies ɖe wò browser me. Cookie siawo ate ŋu anye nu vɔ̃, elabena woate ŋu azã wo akpɔ wò browsing le website vovovowo dzi; be nàxɔ tracking sia mɔ la, tia web ƒe browser si dea asi cookie si wòme nya o ŋu.
 
-**Navigation Test**: Ne èle tsatsam tso nyatakakadzraɖoƒe ɖeka yi bubu dzi la, àva do go kadodo geɖewo (ɖewo nye kadodo ememetɔwo esime bubuwo le kadodo me kple nyatakakadzraɖoƒe bubu). Ne èzi kadodo siawo dzi la, browser API aɖewo ɖea mɔ na nyatakakadzraɖoƒe gbãtɔ be wòaɖo dze kple nyatakakadzraɖoƒe evelia. Be nàkpɔ esia gbɔ la, tia nyatakakadzraɖoƒe aɖe si axe mɔ na nyatakakadzraɖoƒewo be woagama nyatakaka siwo léa ŋku ɖe wo ŋu ne èzi kadodo aɖe dzi o. Ne èle web-browser ma si nèsusu be ate ŋu asɔ na wò tiam la, kpɔ egbɔ be ena ameŋunyatakakawo takpɔkpɔ ƒe mɔnu sesẽwo kple nu veviwo abe boblododo mɔxenu siwo wotu ɖe eme kple nusiwo mele eme o ene. Tsɔ kpe ɖe eŋu la, nyatakakadzraɖoƒe siawo dometɔ geɖe doa alɔ kekeɖenudɔwɔwɔwo kpe ɖe kpeɖeŋutɔ bubuwo ŋu eye ɣeaɖewoɣi la, kekeɖenudɔ siawo ate ŋu ahe dedienɔnɔ ƒe afɔkuwo vɛ, kpɔ egbɔ be yeda kekeɖenudɔ siawo ɖe wò kɔmpiuta dzi ɣesiaɣi tso lãwo ƒe agbenɔnɔ ƒe ɖoɖo si le dedie alo teƒe siwo dzi nèka ɖo.
- 
-## Brave Browser Zcash Gakotoku ƒe Ðekawɔwɔ
+**Navigation Test**: Ne wòle azɔm tso web ƒe axa ɖeka dzi yi bubu dzi la, àkpɔ link geɖe (aɖewo nye internal links, eye bubuwo gblɔa mɔ yi website bubu dzi). Ne wòzi link siawo la, browser API aɖewo na website gbãtɔ la ate ŋu adzro nya kple website evelia. Be wòaɖɔ nya sia ɖo la, tia web ƒe browser si na websitewo mate ŋu ama tracking data wo nɔewo o ne wòzi link dzi. Ne wòle browser si nèbu be anɔ wò hiahiã nu tiam la, kpɔ be ɣaɣla ƒe nɔnɔme sesĩe kple nɔnɔme veviwo abe ad blocker si le eme kple bubuwo le eŋu. Kpe ɖe eŋu la, web ƒe browser siawo dometɔ geɖe tšea extensionwo kple add-onwo, eye zi aɖewo extension siawo ate ŋu ahe dedie ƒe afɔku vɛ; ɖo extension siawo ɖe wò browser me tso ecosystem si le dedie me alo mɔƒe si wòka ɖe edzi ko.
 
-Brave browser le mɔ ʋum na web3 ecosystem. Alekee? Woate ŋu azã domenyiŋusẽfianu siwo wu miliɔn 2 siwo womate ŋu atɔ te o fifia atsɔ aɖe nyatakakadzraɖoƒe siwo woɖe ɖe vovo la afia. Esi Brave Browsers ƒe dedienɔnɔ ƒe mɔnu sesẽwo li ta la, amewo ate ŋu adzro internet dzi evɔ womalé ŋku ɖe wo ŋu o. Brave kple Zcash le ɖeka wɔm be yewoatsɔ ameŋunyatakakawo ŋuti dɔwɔnu yeyewo ava Web3 ecosysem. Le viɖe geɖe wu ta la, Brave awɔ ɖeka kabakaba kple Zcash ɖoɖowɔɖi to Brave's crypto gakotoku si wotu ɖe eme dzi be wòatrɔ asi le crypto asitsatsa ŋu - Ðekawɔwɔ sia ana ezãlawo nadzra ZEC ɖo dedie, aɖoe ɖa, eye woaxɔ ZEC bɔbɔe ŋutɔ kpe ɖe crypto ga bubuwo hã ŋu. Brave web browser kple Zcash ƒe nuwɔwɔ aduadu atrɔ fefea vavã elabena ezãlawo akpɔ ŋusẽ geɖe ɖe woƒe Web3 activiy dzi. 
+## Brave Browser Zcash Gakotoku [wallet] Ƒe Kadodo
 
-Nyateƒenya dodzidzɔname bubu si ku ɖe Brave browser kple Zcash ƒe ƒoƒo ɖekae ŋue nye gbedasiɖoɖo ƒe nɔnɔme si nye ame ŋutɔ tɔ kple esi woɖe ɖe vovo; Brave, ECC, kple Filecoin Foundation ƒe ƒuƒoƒoa le mɔ ʋum na nɔnɔme si wotu ɖe adzamenyawo dzi le Brave web-browser la me - nuwɔwɔ aduadu sia ƒe taɖodzinue nye be yeana ame ŋutɔ ƒe gbedasiwo kple nyadzɔdzɔgblɔmɔnuwo ƒe gbeƒãɖeɖe to Zcash ɖoɖowɔɖi dzi. Le afisia la, Interplanetary File System (IPFS) awɔ akpa vevi aɖe le nudzraɖoƒe ƒe ŋutete nana me na nyatakaka siwo wotsɔ nya ɣaɣlawo ŋlɔ.
+Brave browser le mɔ dzram na web3 ecosystem. Aleke? Unstoppable domains wu million 2 ate ŋu azã fifia be woafia website siwo ha nuɖo agni [decentralized]. Kple Brave Browser ƒe dedie ƒe nɔnɔme sesĩewo, amewo ate ŋu adzro internet me ne womekpɔ woƒe mɔ̃ o. Brave kple Zcash le wɔm ɖekae be woahe ɣaɣla ƒe dɔwɔnu [tools] yeye vɛ na Web3 ecosystem. Be viɖe geɖe nanɔ la, Brave aɖo eɖokui kple Zcash protocol kaba to Brave ƒe crypto gakotoku si le eme, be wòaɖe crypto gaɖoɖo [transaction]wo ƒe nɔnɔme tɔxɛ. Kadodo sia ana users ate ŋu adzra, adɔ, eye woaxɔ ZEC kple bubu crypto currencies hɔ̃ kple bɔbɔe. Kadodo si le Brave web ƒe browser kple Zcash dome la ava trɔ nuwo vavã, elabena users anɔ ŋusẽ gã wu le woƒe Web3 ƒe dɔwɔwɔ ŋu. 
 
+Nya si dze ame ŋu bubu tso Brave browser kple Zcash ƒe kadodo me nye message ƒe nɔnɔme si le ɣaɣla me eye wò ha nuɖo agni; Brave, ECC, kple Filecoin Foundation ƒe team le mɔ dzram na nɔnɔme si ɖo ɣaɣla ŋu le Brave browser me - kadodo sia ƒe ta nye be wòana private messages kple media ƒe ɖoɖo to Zcash protocol. Afisia, Interplanetary File System (IPFS) awɔ dɔ vevi ŋutɔ be wòahe mɔ na encrypted content ƒe dzadzra dedie.

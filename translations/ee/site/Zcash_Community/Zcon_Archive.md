@@ -2,16 +2,16 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-Nusiwo gbɔna nye nyadzɔdzɔgblɔmɔ̃ siwo do ƒome kple Zcon ƒe akpa gãtɔ nuƒoƒoƒu le teƒe si woate ŋu akpɔ bɔbɔe.
+Esia nye Zcon ƒe media geɖewo ƒe ƒoƒo le teƒe si dzi wòate ŋu akpɔ wo bɔbɔe.
 
 # Zcon
-Zcon nye ƒe sia ƒe takpekpe si [Zcash Foundation](https://zfnd.org/).
+Zcon nye ƒe sia ƒe takpekpe si [Zcash Foundation](https://zfnd.org/) wɔna.
 
-## Zcon0: Adzamenyawo tso A dzi va ɖo Zcon dzi
+## Zcon0: Ɣaɣla [Privacy] tso A va Zcon
 
-Zcon0 nye míaƒe ƒe sia ƒe takpekpe gbãtɔ, eye wòyi edzi nyuie ŋutɔ. Míezã June 26-28th 2018 le Montreal dzeani la me
+Zcon0 nye míatɔ ƒe sia ƒe takpekpe gbãtɔ, eye wòdze edzi ŋutɔ. Míenɔ Montreal nyui la me tso June 26 va yi 28, 2018.
 
-[Zcon0 ƒe Haƒoƒo ƒe Ŋkɔwo](https://www.youtube.com/playlist?list=PL40dyJ0UYTLK507afWUMgzUYeh-i4qQWS)
+[Zcon0 ƒe Hadzrawo ƒe Xexlẽme](https://www.youtube.com/playlist?list=PL40dyJ0UYTLK507afWUMgzUYeh-i4qQWS)
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -25,11 +25,11 @@ Zcon0 nye míaƒe ƒe sia ƒe takpekpe gbãtɔ, eye wòyi edzi nyuie ŋutɔ. Mí
 </div>
 
 
-## Zcon1: Zero na Adzamenyawo ƒe Kalẽtɔ
+## Zcon1: Zero to Privacy Hero
 
-ƒe sia ƒe ƒe ameŋunyatakakawo kple mɔ̃ɖaŋununya takpekpe evelia si Zcash Foundation wɔ, le Split, Croatia le June 22 vaseɖe 24th 2019 dzi.
+Ɣaɣla kple teknoloji ƒe ƒe sia ƒe takpekpe evelia, si Zcash Foundation wɔ la, wɔe le Split, Croatia le June 22 va yi 24, 2019.
 
-[Zcon1 ƒe Haƒoƒo ƒe Ŋkɔwo](https://www.youtube.com/playlist?list=PL40dyJ0UYTLLjPZaKjdhMoCNanb77_Ztj)
+[Zcon1 ƒe Hadzrawo ƒe Xexlẽme](https://www.youtube.com/playlist?list=PL40dyJ0UYTLLjPZaKjdhMoCNanb77_Ztj)
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -43,11 +43,11 @@ Zcon0 nye míaƒe ƒe sia ƒe takpekpe gbãtɔ, eye wòyi edzi nyuie ŋutɔ. Mí
 </div>
 
 
-## Zcon2: Adzamenyawo Vaseɖe Anyi
+## Zcon2: Ɣaɣla le Mɔ Katã Dzi
 
-Zcon2 dzɔ le Kuɖa, June 8th kple Braɖa, June 9th 2021. Zcon2 nye virtual conference
+Zcon2 wɔe le Tuesday, June 8 kple Wednesday, June 9, 2021. Zcon2 nye takpekpe si wòwɔ le internet dzi.
 
-[Zcon2 ƒe Haƒoƒo ƒe Ŋkɔwo](https://www.youtube.com/playlist?list=PL40dyJ0UYTLLa68H9ibpiSZqeevqKizg4)
+[Zcon2 ƒe Hadzrawo ƒe Xexlẽme](https://www.youtube.com/playlist?list=PL40dyJ0UYTLLa68H9ibpiSZqeevqKizg4)
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -61,11 +61,11 @@ Zcon2 dzɔ le Kuɖa, June 8th kple Braɖa, June 9th 2021. Zcon2 nye virtual conf
 </div>
 
 
-## Zcon3: Code Ðeka Metsoe O
+## Zcon3: Code Ɖeka Ko Méde Egbe O
 
-Zcon3 dzɔ le Las Vegas tso August 7-9th 2022.
+Zcon3 wɔe le Las Vegas tso August 7 va yi 9, 2022.
 
-[Zcon3 ƒe Haƒoƒo ƒe Ŋkɔwo](https://www.youtube.com/playlist?list=PL40dyJ0UYTLJm-Cl7ez3UXp8R4IuUNDfb)
+[Zcon3 ƒe Hadzrawo ƒe Xexlẽme](https://www.youtube.com/playlist?list=PL40dyJ0UYTLJm-Cl7ez3UXp8R4IuUNDfb)
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -79,11 +79,11 @@ Zcon3 dzɔ le Las Vegas tso August 7-9th 2022.
 </div>
 
 
-## Zcon4: Womeŋlɔ Etsɔme O
+## Zcon4: Woŋlɔ Tsɔme Ƒe Me Hã O
 
-Takpekpe si woawɔ le ame ŋutɔ ŋkume la le Barcelona, ​​Spain July 30-31, 2023 eye woaɖee afia le teƒea. 
+Takpekpe si wòwɔ le ameŋutilã me la le Barcelona, Spain le July 30-31, 2023, eye woadzra wo tso afi ma le live.
 
-[Zcon4 ƒe Haƒoƒo ƒe Ŋkɔwo](https://www.youtube.com/playlist?list=PL40dyJ0UYTLII7oQRQmNOFf0d2iKT35tL)
+[Zcon4 ƒe Hadzrawo ƒe Xexlẽme](https://www.youtube.com/playlist?list=PL40dyJ0UYTLII7oQRQmNOFf0d2iKT35tL)
 
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
@@ -97,11 +97,11 @@ Takpekpe si woawɔ le ame ŋutɔ ŋkume la le Barcelona, ​​Spain July 30-31,
   />
 </div>
 
-## ZconV: Zcash Ðekawɔwɔ
+## ZconV: Zcash Ɖekawɔwɔ
 
-ZconV dzɔ le May 6th-10th, 2024. ZconV nye virtual conference
+ZconV wɔe le May 6-10, 2024. ZconV nye takpekpe si wòwɔ le internet dzi.
 
-[ZconV ƒe Haƒoƒo ƒe Ŋkɔwo](https://www.youtube.com/playlist?list=PL40dyJ0UYTLJ41e2uSOJItvbW1YVR49aR)
+[ZconV ƒe Hadzrawo ƒe Xexlẽme](https://www.youtube.com/playlist?list=PL40dyJ0UYTLJ41e2uSOJItvbW1YVR49aR)
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -114,11 +114,11 @@ ZconV dzɔ le May 6th-10th, 2024. ZconV nye virtual conference
   />
 </div>
 
-## ZconVI: Nuwɔwɔ aduadu To Decentralization me
+## ZconVI: Dɔwɔwɔ ƒe Ɖekawɔwɔ To Ha Nuɖo Agni [Decentralization] Me
 
-ZconVI dzɔ le March 4th-7th, 2025. ZconVI nye takpekpe vevi aɖe
+ZconVI wɔe le March 4-7, 2025. ZconVI nye takpekpe si wòwɔ le internet dzi.
 
-[ZconVI ƒe Haƒoƒo ƒe Ŋkɔwo](https://www.youtube.com/playlist?list=PL40dyJ0UYTLIIhRk8vu2hkPL_q7OWO7wk)
+[ZconVI ƒe Hadzrawo ƒe Xexlẽme](https://www.youtube.com/playlist?list=PL40dyJ0UYTLIIhRk8vu2hkPL_q7OWO7wk)
 
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
@@ -131,6 +131,3 @@ ZconVI dzɔ le March 4th-7th, 2025. ZconVI nye takpekpe vevi aɖe
     loading="lazy"
   />
 </div>
-
-
-

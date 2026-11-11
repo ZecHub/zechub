@@ -1,192 +1,189 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Zcash_Organizations/Valar_Group.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Atria ƒe Axɔ"/>
 </a>
 
-# Valar Ƒuƒoƒo la
+# Valar Group
 
-[Yi nyatakakadzraɖoƒe la dzi.](https://valargroup.dev/)
+[Yi nàkpɔ website](https://valargroup.dev/)
 
 <img width="200" height="200" alt="254678133" src="/content-images/0dc8c697-bcad-492a-b024-89b502d27af4-4c0d4552c2.webp" />
 
 
-## Dɔ si Wodɔna ƒe Nyagbɔgblɔ
+## Dɔ ƒe Ɖeɖefia
 
-Valar Group nye mɔ̃ɖaŋudɔwɔƒe si le eɖokui si, eye eƒe dɔe nye be wòana Zcash naxɔ asi wu tsã; ado ŋusẽ gaƒolawo ƒe dziɖuɖumɔnuwo ahado ameŋkumekpɔkpɔ kple dɔwɔwɔ ɖe ŋgɔ. Edzroa ɖoɖo sia ŋu vevie hena ɣeyiɣi didi aɖe.
+Valar Group nye engineering ƒe ha si tsitre ɖe eɖokui ŋu, eye wòƒe ŋkuléle le nu ƒe dziyiyi [scaling] na Zcash, ga ƒe tɔxɛlawo ƒe dziɖuɖu [governance] ƒe sesẽ wɔwɔ, kple protocol la ƒe ɣaɣla [privacy], dɔwɔwɔ ŋusẽ, kple dzidzime ƒe sesẽ ƒe nyonyo dzi.
 
-Eƒe dɔwo katã ku ɖe ɖoɖowɔɖi ƒe kadodo ŋu: adzame token-tɔlawo ƒe akɔdada, dɔwɔɖoɖo siwo wɔa nu gã ŋutɔ le woƒe mɔ̃ dzi la, gaƒoɖonu (wallet) -mɔnuwɔwɔ kple kɔmpiuta si me wotrɔ asi le be wòana Zcash nanɔ dedie wu.
+Eƒe dɔ le protocol ƒe teƒe me ƒe infrastructure dzi: token ƒe tɔxɛlawo ƒe ƒoƒoɖoɖo ɣaɣla, ɣaɣla dzesi ŋɔŋlɔ blibo [full node] ƒe software si wɔ dɔ kaba, gakotoku [wallet] ƒe sync ƒe mɔ̃nu, kple mɔ̃ ƒe sewo trɔtrɔ [network upgrades] si wɔe be ɣaɣla Zcash nazu nu si woate ŋu azã le teƒe gã wu me.
 
-Habɔbɔa ƒe taɖodzinue nye be yeana ZEC-tɔwo nakpɔ mɔ aɖe atsɔ agblɔ woƒe didi le adzame, ana kɔmpiuta si ŋu ŋutete geɖe wu nanɔ dɔwɔlawo si eye wòana gaɖigbalẽvi siwo akpɔ ame ŋutɔ tɔ ta ahade asixɔxɔ gome nɔnɔ le kadodo me kple amewo dzi la.
+Ha la ƒe taɖodzinu nye be wòana ZEC ƒe tɔxɛlawo mɔ̃ aɖe be woatsɔ woƒe didiwo afia le ɣaɣla me, ana ɣaɣla dzesi ŋɔŋlɔ ƒe dɔwɔlawo software si wɔ dɔ kaba wu eye wòte ŋu awɔ nu geɖe, eye wana gakotokuwo dɔwɔnu [tools] siwo katã ƒe ɣaɣla ɖe asi na zãlawo, eye woaɖe network la me ƒe tɔxɛ dzudzɔ.
 
-## Ŋutinyawo
+## Gbegbe
 
-Valar Group ƒe ŋgɔnɔla enye Dev Ojha (ValarDragon), Osmosis-dɔwɔla kple Cosmos dɔlawo dometɔ ɖeka. Le ƒe ewo siwo va yi me la, ewɔ dɔ le zk-SNARKs, BFT consensus, kple DeFi dɔwɔɖoɖowo dzi.
+Valar Group ƒe kplɔla nye Dev Ojha (ValarDragon), si nye Osmosis ƒe hadzila aɖe kple team si wɔ Cosmos ƒe gɔmedzedze la ƒe membre. Le ƒe eveawo me, ewɔ dɔ le zk-SNARKs, BFT consensus, kple DeFi ƒe system siwo wɔ dɔ le amewo ƒe ŋkume la me.
 
-Valar Group ƒe dɔ si wowɔna le Zcash me va xɔ ŋkɔ esi nuɖoanyi la trɔ ɖe ɖoɖowɔha siwo nɔ wo ɖokui dzi ŋu, esime wogbugbɔ ɖo woƒe dɔwɔƒe gbãtɔa anyi le 2026 megbe. Valar Ƒuƒoƒo nye habɔbɔ aɖe si wɔ akpa vevi aɖe be yewoatu dzidzime yeyewo na zcash gɔmeɖoɖoame kpe ɖe Project Tachyon, Shielded Labs, ZODL kple Zcash Foundation ŋu.
+Group la ƒe dɔ siwo woɖe fia le Zcash me zu nyuie le amewo dome esi ecosystem la trɔ yi protocol ƒe team siwo tsitre ɖe woawo ŋu me, le core development ƒe 2026 ƒe woɖo ɖe aga bubu me megbe. Valar Group ɖe eƒe ŋku me abe ha siwo le Zcash infrastructure ƒe dzidzime ƒe mama wɔm kple Project Tachyon, Shielded Labs, ZODL, kple Zcash Foundation ene.
 
-A recurring theme in its work is that Zcash’s privacy properties should extend beyond payments. If holders are asked to vote on issuance, block times, or network-upgrade scope, they should be able to do so from shielded balances without revealing identities, balances, or individual votes. That requirement led Valar Group to design and ship a dedicated coinholder voting chain.
+Nusi va yina le eƒe dɔ me zi geɖe nye be Zcash ƒe ɣaɣla ƒe nɔnɔwo nakpe ɖe fexexe [payment] ko ŋu o. Ne wokɔa tɔxɛlawo be woanɔ vote ɖe issuance, gaɖoɖowo ƒuƒoƒe [block] ƒe gaƒoƒo, alo mɔ̃ ƒe sewo trɔtrɔ ƒe teƒe ŋu la, ele be woate ŋu awɔe tso ɣaɣla ƒe balances me, eye womagblɔ woƒe ŋkɔ, balance, alo ame ɖeka ƒe vote o. Hiãhiã sia wɔe be Valar Group naɖo coinholder voting ɖoɖonu aɖe si woɖe ɖe eŋu ko eye wòɖe asi.
 
-Dzidzenu kple nugbegblẽ ƒe nɔnɔme ma ke hãe na eƒe nuɖoanyiwo kpakple dɔwɔwɔ le ɖekawɔwɔ me. Wowɔa blɔki siwo gbɔ ɖe edzi, gaɖaka si dzi wotrɔ asi le bɔbɔe wu, kple mɔ̃ aɖe si ŋu ŋutete geɖe wu la ŋudɔ abe nusi hiã hafi woate ŋu azã gadzraɖoƒefexeɖoɖo alo adzɔha bubuwo tɔ ene tsɔ wu be woazãe ko wòanye asixɔxɔdzraƒe.
+Nu ƒe dziyiyi kple cryptography ƒe gbeɖa sia ke wɔ node kple sync ƒe dɔ si wòwɔ la hã. Gaɖoɖowo ƒuƒoƒe siwo wɔ kaba, gakotoku ƒe synchronization si le bɔbɔe, kple ɣaɣla dzesi ŋɔŋlɔ blibo si te ŋu wɔ nu geɖe la nye nusiwo wole be wòanɔ hafi woate ŋu azã ga ɣaɣla le fexexe network ƒe teƒe me, menye be woazãe abe nu si wokpɔna ko ene o.
 
-## Ŋkuɖodziawo
+## Nukpɔkpɔ
 
-Valar Group ƒe agbalẽwo kple dɔ siwo wowɔna le woƒe dɔwɔƒewo fia be Zcash-mɔ̃ aɖe li si ate ŋu:
+Valar Group ƒe nu siwo woɖe fia kple project ƒe dɔ fia Zcash network aɖe si ate ŋu:
 
-- Kpekpe ɖe ame siwo si ga le eye woate ŋu adzra wo ɖo la ƒe akɔdada be wòanye dziɖuɖu aɖe si dzi woanɔ te ɖo.
-- Na woaxe fe siwo woatsɔ aɖo kpe dɔ wɔwɔ dzi la le ɖoɖo si nu woatsri ame ɖokui ƒe nya ɣaɣla ɖo me.
-- Woana ga si le kotoku me kple nu siwo gbɔ wòtsona la dzi naɖe akpɔtɔ to PIR, tsotso ɖe akpawo ŋu, kpakple blɔka ƒe dodo kabakaba.
-- Ne woana nu vovovo siwo le eme la nasɔ gbɔ wu to mɔ̃ ɖeka aɖe si me nuwo katã anɔ ƒe ɖoɖowo wɔwɔ dzi.
-- Kpekpeɖeŋu nana le ɖoɖo siwo wowɔ ɖe nu gbagbewo ŋu kple esiwo dzi wotrɔ asi le la me.
+- Ade asi ɖe coinholder voting ɣaɣla si woate ŋu akpɔe ɖe asi kple si woate ŋu awɔ zi geɖe abe dziɖuɖu ƒe mɔ̃nu ene.
+- Ana proof-of-work ƒe fexexewo nakpɔ nu ƒe dziyiyi me, eye wòakpɔ ɣaɣla ƒe ɣaɣla ɖe asi.
+- Aɖe gakotoku kple ɣaɣla dzesi ŋɔŋlɔ ƒe nusiwo ɖom mɔ̃ kpɔtɔ le PIR, pruning, kple gaɖoɖowo ƒuƒoƒe ƒe kakaƒoƒo kaba me.
+- Asɔ implementation ƒe vovototo dzi to ɣaɣla dzesi ŋɔŋlɔ blibo ƒe stack si tsitre ɖe eŋu ŋu.
+- Akpe ɖe post-quantum ƒe dzadzraɖoɖo kple protocol ƒe mɔ̃ ƒe sewo trɔtrɔ siwo woakpɔ ɖe asi nyuie me ŋu.
 
-Valar Group ƒe dɔ enye be wòatu, awɔ nu eye woaʋu nyatakakadzraɖo siwo nana wowɔa ɖoɖo siawo la. Ewɔe hã be ewɔa asitɔtrɔ le eƒe mɔ̃ɖaŋununyawo ŋu to ZIP-awo dzi kple woƒe dɔwɔwɔ me kpakple amewo dome nyagbɔgblɔwo me.
+Ha la wɔ dɔ abe contributor si tsitre ɖe eŋu ŋu ene, menye protocol la ƒe owner ene o. Protocol ƒe trɔtrɔwo gale ZIPs, implementation, review, kple community ƒe dzesiɖeɖe me. Valar Group ƒe dɔe nye be wòaɖo, awɔ, adzra, eye wòaɖe systems siwo wɔe be mɔ̃nu siawo nakpɔ dzi la ɖe open-source me.
 
-## Nuto Siwo Me Ŋusẽ Le Wu
+## Strategic Areas
 
-Valar Group ƒe dɔwo le te ɖe akpa ene dzi.
+Valar Group ƒe dɔwo ƒo ƒu le teƒe ene me.
 
-### Ame Siwo Nɔa Ga Xɔm le Ðokuisi Me ƒe Dziɖuɖu
+### Coinholder Ƒe Dziɖuɖu Ɣaɣla
 
-Zcash mezãa mɔ̃ɖaŋununya si le kɔsɔkɔsɔ me ƒe ɖoɖowɔɖi o. Kɔsiƒolawo ŋuti numekuku nye aɖaŋuɖonamenya siwo naa nuwɔwɔ ɖeka kple amewo va nɔa anyi ɖaa. Valar Group wɔ Tokenholder Voting Chain ale be woate ŋu axlẽ dzesi siawo tso akpoxɔnu dedzilawo gbɔ evɔ womana ame aɖeke nanya amesiwo tɔe wotia alo woƒe xexlẽme o.
+Zcash mezã automatic on-chain [ɖoɖonu dzi] protocol ƒe control o. Coinholder polls nye dzesi siwo nye advisor, eye wodea asi le rough-consensus ƒe mɔ̃nu gã aɖe ŋu. Valar Group tu Tokenholder Voting Chain la be woate ŋu axɔ dzesi siawo tso ɣaɣla ƒe balances me, eye womagblɔ voter ƒe ameŋkɔ alo ame ɖeka ƒe vote ƒe gãme o.
 
-Wozãa:
+Nɔnɔ si wozã fifia la zãa:
 
-- Cosmos SDK dɔwɔƒe si wotsɔ ɖo anyi be woaɖo akɔdadawo teƒe.
-- Woate ŋu atsɔe asɔ kple ga si Ironwood zãna.
-- Akpa siwo le ƒuƒoƒo me ƒe xexlẽdzesi si sɔ.
-- Ame Ŋutɔ ƒe Nyatakakawo Gbɔ Kpɔkpɔ hena ame siwo menye hameviwo o la ŋu kpeɖodzi si dzi woada asi ɖo.
-- Woɖo ɖoɖowɔha si me ame geɖe le kple dukɔ siwo katã kpɔa gome le tiatiawo wɔwɔ me.
+- Cosmos SDK ƒe application chain aɖe si wòle voting rounds ƒe ɖoɖo wɔm.
+- Snapshot ƒe ɖaseɖigbalɛ [proof] siwo tsɔ ɖe Ironwood didienu [note] siwo woate ŋu azã ga le ŋu.
+- Vote ƒe amount ƒe homomorphic encryption [ɣaɣlaŋlɔŋlɔ].
+- Private Information Retrieval na gaɣaɣla ɖeɖe dzesi [nullifier] ƒe non-membership ƒe ɖaseɖigbalɛwo.
+- Coordinator multisig aɖe kple election authority si woamama le teƒe vovovowo.
 
-Taɖodzinua nye be woatsɔ ɖoɖo si dzi woate ŋu ato awɔ gaƒlegbalẽvi ƒe dɔ le ɣeyiɣi aɖe megbe, eye habɔbɔ bubuwo ate ŋu azãe ahakpɔ egbɔ hã la aɖo teƒe na esiwo nɔ anyi tsã siwo me wozãa token-tɔlawo tsɔ ɖoa akɔta.
+Taɖodzinu la nye be woatsɔ system si woate ŋu azã zi geɖe, woakpɔ ɖe asi, eye woate ŋu akafu ɖe gakotoku me la atrɔ token-holder voting ƒe mɔ̃nu xoxowo, be ha bubuwo hã nate ŋu adzra wo eye woaxle vote ƒe xexlẽ woawo ŋutɔ.
 
-### Node Software Kple Network Scaling
+### Node Software Kple Network Ƒe Nu Ƒe Dziyiyi
 
-Valar Group wɔ dɔ kple Project Tachyon le Zakura, si nye Zcash ƒe nuwɔƒe blibo aɖe si wotu tso Zebra codebase la dzi. Wotsɔ Zakura ɖo afisi wònyea nuwɔwɔ nyuie teƒe na dɔwɔlawo siwo hiã ŋgɔdzedze me ɖekaɖeɖewo wɔwɔ kabakaba wu, wo gbɔlɔm ɖe megbe, foto kpata dodo ɖa kpakple mɔ̃ɖoɖoɖi hena tsã asitelefon-dɔwɔlawo (eɖanye Xexlẽgbalẽvi alo Eʋegbevu o) be woate ŋu awɔ woƒe dɔwɔnu bubuwo hã bɔbɔe eye wòana ame geɖe nakpɔ gome le Internet zazã me kaba. `zcashd` amewo.
+Valar Group wɔ ɖekawɔwɔ kple Project Tachyon le Zakura ŋu, si nye Zcash ɣaɣla dzesi ŋɔŋlɔ blibo si wotu tso Zebra ƒe codebase me. Zakura nye node si wɔ dɔ kaba na dɔwɔlawo siwo hia initial sync si wɔ kaba, pruning, snapshot bootstrapping, kple compatibility mɔ̃nu na `zcashd` ƒe zãla xoxowo.
 
-Dɔ siwo ku ɖe ɖoɖowɔwɔ ŋu dometɔ aɖewoe nye:
+Nu ƒe dziyiyi ƒe dɔ bubuwo wɔ:
 
-- Wowɔ ɖoɖo be woatu nu siwo katã hiã la ɖo kaba, eye wowɔ sekɛnd 25 ƒe numekuku le NU7 nudzidzenuwo me.
-- Wowɔ ɖoɖo be woagate ŋu aɖe mɔ̃ siwo le abe ɖeka ene la ɖa.
-- Wowɔ ɖoɖo be woazã Zcash le mɔ si dzi nuwuƒewo to la nu ne dɔ siwo ŋu wotrɔ asi le ƒe ɖevime va yi.
+- Target block ƒe gaƒoƒo siwo wɔ kaba, eye 25-second block ƒe experiment le NU7 ƒe testnets dzi.
+- Peer-to-peer block ƒe kakaƒoƒo si nyo wu.
+- Full-node ƒe nɔnɔwo siwo woɖo be woaɖe asi ɖe Zcash ŋu be wòanɔ zãm esi ɣaɣla ƒe activity le dzidzim.
 
-### Gaƒoɖokuigbalẽvi kple Nuƒomɔ̃ ƒe Mɔzɔzɔnɔnɔ Ŋuti Ðoɖowo
+### Gakotoku Kple Sync Infrastructure
 
-Le blema la, ele be gaɖaka siwo ŋu wotrɔ asi le naɖe nyatakakadzraɖoƒe gãwo me. Valar Group wɔ PIR-mɔ̃ si dzi woazãna atsɔ axɔ kpeɖodzi siwo hiãe evɔ womagadze nulifier set bliboawo ɖe anyi alo aɖe dzesi agbalẽvi siwo gbɔ wodina vevie o.
+Ɣaɣla gakotokuwɔwo va yi le ɖoɖonu ƒe data geɖe scan wɔm. Valar Group le PIR ƒe systems wɔm be gakotokuwo nate ŋu axɔ ɖaseɖigbalɛ siwo woahiam, eye womaxɔ gaɣaɣla ɖeɖe dzesi ƒe sets blibo alo womagblɔ didienu siwo wole ŋku le o.
 
-Dɔ sia dze le voting stack kple wallet-sync numekuku me. Ewɔ akpa aɖe hã le gaƒoɖokuigbalẽ ƒe nu ŋu, si lɔ multi-server transaction submission kpakple server-selection improvements siwo wozãna na ZODL's mobile stack ɖe eme.
+Dɔ sia le voting stack la me kple gakotoku-sync ƒe research gã wu hã. Group la kpe ɖe gakotoku ƒe reliability ƒe dɔwo ŋu hã, siwo ƒe multi-server gaɖoɖo ƒe ɖoɖo kple server ƒe tiatia ƒe nyonyo, siwo wozã le ZODL ƒe mobile stack me.
 
-### Ðoɖowɔɖi ƒe Ŋgɔyiyi Kple Anyigbadzinuwo Ƒe Ðɔɖɔɖotaʋiwɔwɔ
+### Protocol Ƒe Mɔ̃ Ƒe Sewo Trɔtrɔ Kple Ecosystem Ƒe Ɖekawɔwɔ
 
-Valar Group nye habɔbɔ siwo do dzi le Ironwood ƒe nyaŋuɖoɖo me la dometɔ ɖeka. Wowɔ nubabla yeye si wotsɔ xe mɔ̃e, eye woxe mɔ ɖe Orchard tɔa ŋu to takpoƒe aɖe megbe heɖo asi ale be woate ŋu akpɔ egbɔ be nuwo nɔ dzadzram ɖo nyuie hã gbɔ. Valar wɔ dɔ kple Project Tachyon, Shielded Labs, ZODL kpakple Zcash Foundation ku ɖe ɖoɖowɔwɔ ŋuti, woƒe nugɔmesesewo wɔwɔ kple alesi woawɔ na nutoa me tɔwo ƒe dɔwɔwɔ ŋu.
+Valar Group nye ha siwo do ŋugbe le amewo ŋkume na Ironwood ƒe ŋuɖoɖo megbe, le Orchard circuit ƒe kwetsɔkpe megbe. Ironwood wɔ ɣaɣla gaƒuƒoƒo [pool] yeyee, tu Orchard ƒe gaƒuƒoƒo gbãtɔ la ɖe turnstile [gaɖoɖowo ƒe xexlẽdzikpɔɖeƒe] megbe, eye wògbugbɔ ɖe mɔ̃ aɖe si me woate ŋu akpɔ circulating supply ɖe asi woawo ŋutɔ. Valar Group wɔ ɖekawɔwɔ kple Project Tachyon, Shielded Labs, ZODL, kple Zcash Foundation le architecture, consensus ƒe se ƒe implementation, kple ecosystem ƒe ɖekawɔwɔ ŋu.
 
-Ƒuƒoƒo la kpɔa gome le NU7 ƒe dɔwo wɔwɔ me, kple ZIP tata. Dev Ojha nye agbalẽŋlɔla si wɔa nu tso eƒe dɔwɔɖui ŋu.
+Group la hã kpena ɖe NU7 ƒe scope ƒe ɖoɖo, testnet ƒe dɔwɔwɔ, kple ZIP ƒe ŋlɔŋlɔ ŋu. Woŋlɔ Dev Ojha be enye ZIP ƒe editor.
 
-## Dɔ Siwo Wole Wɔm Fifia
+## Initiatives Siwo Le Dzi Fifia
 
-### Token Holder Voting Chain / Shielded Vote (Aʋatɔŋutɔ ƒe Akɔsɔkɔsɔ)
+### Tokenholder Voting Chain / Shielded Vote
 
-Shielded Vote nye Valar Group ƒe ɖoɖo si dzi woato akpɔ Zcash ta. Ame siwo le edzi la zãa eƒe ga homewo tsɔ daa akɔ, eye womegblɔa ame ɖekaɖekawo ƒe agbɔsɔsɔme alo dea dzesi woƒe ŋkɔ o.
+Shielded Vote nye Valar Group ƒe dziɖuɖu ƒe protocol ɣaɣla na Zcash. Tɔxɛlawo wɔa vote kple ɣaɣla ƒe balances, eye womagblɔ ame ɖeka ƒe amount alo womatsi voteawo kple ameŋkɔwo ƒu o.
 
-Eƒe nɔnɔme vevitɔwo dometɔ aɖewoe nye:
+Eƒe nɔnɔ veviwo wɔ:
 
-- Internet dzi takpekpe ɖeka si me woaɖo to le, tsɔ wu be woazã ŋkeke geɖe atsɔ aɖo kpe edzi alo aɖe nya la afia.
-- Enye Keystone-dɔwɔƒe si wɔa nu kpata siwo nana be ame ƒe mɔɖeɖe na amewo le dɔ aɖe wɔwɔ me la nɔa anyi eye megblẽa ga aɖeke ɖe eme o.
-- Wozã ElGamal si nye ameƒomevi ɖeka ƒe xexlẽdzesi tsɔ de dzesi woƒe akɔdada.
-- PIR ƒe nyawo be nu siwo me womezã o nagage le ɣeyiɣi kpui aɖe si woazã atsɔ akpɔ egbɔe la me.
-- Wole akɔlɔ̃e dzi be woaƒo nya ta le mɔ si mesɔ o nu.
-- Woate ŋu adzro agbalẽ siwo dzi woŋlɔ nu ɖo la me.
+- Online session ɖeka be woawɔ vote, menye commit/reveal ƒe mɔ̃nu si xɔ ŋkeke geɖe ene o.
+- Keystone-compatible snapshot asidede agbalẽ te [signature] si de voting ƒe mɔ̃nu ɖe hotkey aɖe ŋu, eye wòmetsɔa funds ɖoa afɔku me o.
+- Vote ƒe amount siwo wotsɔ homomorphic ElGamal wɔ ɣaɣlaŋlɔŋlɔ.
+- PIR ƒe queries be gaɣaɣla ɖeɖe dzesiwo magblɔ le snapshot ƒe ɖaseɖigbalɛwo me o.
+- Vote ƒe mama ɖe akpa vovovowo me kple relay submission si woɖo ɖe megbe, be woaɖe timing ƒe correlation ɖa.
+- Xexlẽ siwo woate ŋu akpɔ ɖe asi le amewo ŋkume.
 
-In August 2026, Valar Group and Project Tachyon used this stack for the NU7 coinholder vote. Eligibility required spendable shielded ZEC in Ironwood at mainnet height 3,459,350. Voting ran from August 25 through September 14, 2026, with a 1,000,000 ZEC participation threshold for the result to be treated as representative. Questions covered NSM issuance smoothing, reissuance timing, Sprout/v4 deprecation, 25-second block times, and NU7 scope/readiness.
+Le August 2026 me la, Valar Group kple Project Tachyon zã stack sia na NU7 ƒe coinholder vote. Eligibility hia be ZEC ɣaɣla si woate ŋu azã ga le eŋu nanɔ Ironwood me le mainnet ƒe height 3,459,350. Vote wɔ tso August 25 va se ɖe September 14, 2026, eye ZEC ƒe participation ƒe teƒe 1,000,000 hia be woabu result la be wòfia amewo ƒe nukpɔkpɔ. Biabiawo ƒo ŋu NSM issuance smoothing, reissuance ƒe gaƒoƒo, Sprout/v4 ƒe deprecation, 25-second block ƒe gaƒoƒo, kple NU7 ƒe scope/readiness.
 
-Default-chain coordination zãa 2-of-5 multisig le Project Tachyon, Valar Group, Zcash Foundation, ZODL kple Shielded Labs dome. Validator set si to vovo la léna de dzi ɖe decryption key ƒe gomewo ŋu na ame sia ame ɖekaɖekae. validator aɖeke mate ŋu axɔ eƒe gbe o; ele be woaxɔ amesiwo katã wòdi hafi woate ŋu akpɔ dzidzedze mlɔeba.
+Default-chain ƒe ɖekawɔwɔ zãa 2-of-5 multisig le Project Tachyon, Valar Group, Zcash Foundation, ZODL, kple Shielded Labs dome. Validator ƒe set bubu aɖe lé decryption-key ƒe shares na round ɖe sia ɖe. Validator ɖeka medzɔa ŋusẽ be wòaɖe ame ɖeka ƒe voteɖe fia o; validatorwo ƒe threshold aɖe hia be woawɔ xexlẽ mamlɛtɔ.
 
-Amesiwo wɔa dɔ le dutoƒo kple dzikpɔla siwo kpɔa dɔwɔƒewo ƒe nyawo gbɔ dometɔ aɖewoe nye:
+Public operator kple auditor ƒe surfaces wɔ:
 
-- [Akɔdada ƒe ɖoɖowɔɖi](https://setup.valargroup.org)
-- [Numetolawo ƒe akɔntabubu](https://tally.valargroup.org)
-- [Dɔwɔƒe ƒe Ŋutifafala UI](https://svote.valargroup.org/)
-- [PIR server ƒe ɖoɖowɔɖi](https://setup-pir.valargroup.org)
-- [Akpa si Woawɔ le Numetotowo me dzi kpɔkpɔ ŋuti nuŋlɔɖi](https://valargroup.gitbook.io/shielded-vote-docs)
+- [Voting chain ƒe ɖoɖo](https://setup.valargroup.org)
+- [Xexlẽ ƒe auditor](https://tally.valargroup.org)
+- [Coordinator UI](https://svote.valargroup.org/)
+- [PIR server ƒe ɖoɖo](https://setup-pir.valargroup.org)
+- [Shielded Vote ƒe documentation](https://valargroup.gitbook.io/shielded-vote-docs)
 
 ### Zakura
 
-Zakura nye Zcash ƒe nu blibo si Valar Group kple Project Tachyon wɔ ɖekae. Eɖe Zebra me eye wòde sync, native pruning, snapshot bootstrapping, and faster syncing to the clouds of Java dzii. `zcashd` kple nuwɔwɔ le ame nɔewo dome ƒe mɔwo dzi, eye wowɔa P2P dɔ gã siwo me nunya mele o.
+Zakura nye Zcash ɣaɣla dzesi ŋɔŋlɔ blibo si Valar Group kple Project Tachyon wɔ ƒe ɖekawɔwɔ. Wotsɔe tso Zebra me, eye wòtsɔ sync si wɔ kaba, native pruning, snapshot bootstrapping, `zcashd` compatibility ƒe mɔ̃nuwo, kple P2P ƒe dɔ siwo wɔ dɔ kaba ƒe experiment vɛ.
 
-Zcash Foundation da akpe na dɔa le dutoƒo, eye wohe susu yi edzi be woɖe Zebra ɖe go to mɔɖeɖeɖegbalẽwo dzi ale be dɔwɔha siwo li faa ate ŋu awɔ eƒe dɔ nyuie wu, kple Zakura-dɔwɔla geɖe hã wɔ woƒe akpa aɖe xoxo.
+Zcash Foundation xɔ project la dzi le amewo ŋkume, eye wògblɔ be woɖe Zebra ɖe permissive licenses te be team siwo tsitre ɖe woawo ŋu nate ŋu afɔe eye woanyoe, eye be Zakura ƒe contributors geɖe kpe ɖe upstream Zebra ŋu xoxo.
 
-### Ame Ŋutɔ Ƒe Nyatakakawo Gbɔ Kpɔkpɔ
+### Private Information Retrieval
 
-Valar Group wɔa PIR ƒe dɔwo kple agbalẽdzraɖoƒe siwo ku ɖe kuxi eve aɖewo ŋu:
+Valar Group dzraa PIR ƒe services kple libraries na nyatakakawo eve siwo katã wɔ ɖeka:
 
-- Efia be wometsɔ ga si wotsɔ ɖo agbalẽvia me la zã o le ɣeyiɣi kpui aɖe ko megbe evɔ womaɖe nusi na wòzu dzodzro fiae o.
-- Ele be woada dɔdzesi siwo le ga me la ɖe akpa si dzi nyatakakawo anɔ hafi woate ŋu adae alo ade asi akɔta.
+- Ɖaseɖe be didienu aɖe menye ga si wozã le snapshot ƒe height aɖe me o, eye womagblɔ eƒe gaɣaɣla ɖeɖe dzesi o.
+- Data si gakotokuwo hia be woaxɔ be woawɔ sync alo vote ƒe ɖeɖe.
 
-Esia nye Shielded Vote ƒe nu vevi aɖe kple xɔ si wotsɔna tua gaɖabawo ŋu kaba.
+Esia nye Shielded Vote ƒe dependency vevi aɖe kple xɔtunu na gakotoku ƒe UX ɣaɣla si wɔ dɔ kaba.
 
-### Ironwood kple NU7 Engineering
+### Ironwood Kple NU7 Engineering
 
-Valar Group nye Ironwood ƒe June 2026 ɖekawɔwɔa me tɔ eye wòkpe asi ɖe ɖoɖo si dzi wowɔ ɖo be woaɖo to kple dɔwɔƒe siwo le dɔ wɔm na amewo ŋu. Ewɔ NU7 testnet gɔmeɖoɖoanyiwo hã, tsɔ kpe ɖe nuŋɔŋlɔdzesi vovovoawo kpakple teƒe gbogbo aɖewo siwo woxɔna le Internet la teƒeteƒewo ŋuti dɔwɔwɔ ŋu. `nu7.valargroup.dev`.
+Valar Group nye June 2026 ƒe joint commitment na Ironwood ƒe akpa aɖe, eye wòkpe ɖe consensus ƒe se ƒe implementation kple client ƒe dɔwo siwo ƒo xlã gaƒuƒoƒo yeye la ŋu. Wòdɔwɔ NU7 ƒe testnet infrastructure hã, si join scripts kple public nodes siwo wode asi le `nu7.valargroup.dev` te.
 
-### Open-Source Protocol Librarywo
+### Open-Source Protocol Ƒe Libraries
 
-Ŋkɔa enye: `valargroup` GitHub habɔbɔa ɖea gbe ɖi kple nuƒolanɔƒewo ɖe go abe dutoƒoɖokuisi ene, siwo dometɔ aɖewoe nye:
+`valargroup` ƒe GitHub organization ɖea voting kple node stack la ɖe public repositories me, eye woƒo:
 
-- [`vote-sdk`](https://github.com/valargroup/vote-sdk)  dɔwɔnu si koŋ wozãna le adzame ƒe kɔmpiuta dzi dede na amewo to mɔ sia dzi la ŋuti nyatakakawo
-- [`zcash_voting`](https://github.com/valargroup/zcash_voting)  Kɔmpiuta si dzi woɖena le, esiwo me wodzrana ɖo kple FFI siwo ŋu wotrɔ asi le na ame bubuwo.
-- [`voting-circuits`](https://github.com/valargroup/voting-circuits)  Halo2 ƒe dɔdzikpɔlawo kple woƒe tiatiawo
-- [`vote-nullifier-pir`](https://github.com/valargroup/vote-nullifier-pir)  PIR na ame si ƒe ŋkɔ mele agbalẽ me o la ŋuti kpeɖodzi siwo dzi woato abui be enye aʋatsoɖase
-- [`token-holder-voting-config`](https://github.com/valargroup/token-holder-voting-config)  gaɖakawo didi ƒe ɖoɖowɔɖi
-- [`zebra`](https://github.com/valargroup/zebra)  Valar Group's Zebra/Zakura development fork (Agble kple Zakura ƒe ŋgɔyiyi)
+- [`vote-sdk`](https://github.com/valargroup/vote-sdk) — application-specific chain na private on-chain voting
+- [`zcash_voting`](https://github.com/valargroup/zcash_voting) — client-side shielded voting ƒe library, ɖaseɖigbalɛwo, storage, kple FFI
+- [`voting-circuits`](https://github.com/valargroup/voting-circuits) — Halo2 delegation kple vote ƒe circuits
+- [`vote-nullifier-pir`](https://github.com/valargroup/vote-nullifier-pir) — PIR na gaɣaɣla ɖeɖe dzesi ƒe non-membership ƒe ɖaseɖigbalɛwo
+- [`token-holder-voting-config`](https://github.com/valargroup/token-holder-voting-config) — gakotoku ƒe service-discovery ƒe configuration
+- [`zebra`](https://github.com/valargroup/zebra) — Valar Group ƒe Zebra/Zakura development fork
 
-## Kpovitɔwo ƒe Hatsotsowo
+## Teamwo
 
-Valar Group ƒe ŋgɔnɔla enye Dev Ojha (ValarDragon). Public team pages associated with Zakura list the following Valar-affiliated engineers:
+Valar Group ƒe kplɔla nye **Dev Ojha** (ValarDragon). Public team ƒe aƒe siwo ƒo xlã Zakura la ƒea Valar ƒe engineers siawo:
 
-- **Dev Ojha**  Edzraa nuwo ɖo; Ekplɔa Valar Group. Eƒe nu vevitɔwo dometɔ aɖewoe nye token-holder voting, post quantum work, Zakura kple PIR.
-- Roman Akhtariev  Dzɔdzɔmeŋutinunyala Gã. Tsã la, enye Osmosis ƒe dɔwɔla; eƒe dɔa lɔ PIR gaɖakawo dzi dɔwɔwɔ kple wo nɔewo le ɣeyiɣi ɖeka me ŋu nyawo gbɔ kpɔkpɔ ɖe ame si tɔa token na ta eye Zakura hã wɔa nu ɖekae kpli amewo.
-- **Evan Forbes**  Dzɔdzɔmeŋutinunyala Gã. Celestia ƒe nuɖoanyiwo kple aɖaŋuwɔla si ɖo wo anyi; dɔ siwo wowɔna la dometɔ aɖewoe nye be, wodzrana ɖoa ɣeyiɣi dzi le ɖoɖowɔɖi me eye QUIC P2P stack hã li.
-- Adam Tucker  Dzɔdzɔmeŋutinunyala Gã. Osmosis ƒe aɖaŋuwɔla tsãtɔ; dɔ siwo wòwɔ la dometɔ aɖewoe nye tokenilawo ƒe akɔdada kple Roman Akhtariev, gaɖakawo ŋu kakaɖedzi, kpakple Ironwood-dɔwɔƒe si le akpa sia akpa me dede nu ɖeka dzi.
+- **Dev Ojha** — Maintainer; ekplɔa Valar Group. Eƒe dɔ ƒe teƒewo ƒo ŋu token-holder voting, post-quantum ƒe dɔ, Zakura, kple PIR.
+- **Roman Akhtariev** — Principal engineer. Tsã la, enye principal engineer le Osmosis; eƒe dɔwo ƒo ŋu PIR gakotoku sync, token-holder voting, kple Zakura ƒe sync ƒe dɔwɔwɔ kaba.
+- **Evan Forbes** — Principal engineer. Tsã la, enye Celestia consensus ƒe kplɔla kple founding engineer; eƒe dɔwo ƒo ŋu block-time ƒe dzadzraɖoɖo si wɔ kaba kple QUIC P2P ƒe stack.
+- **Adam Tucker** — Principal engineer. Tsã la, enye Osmosis engineer; eƒe dɔwo ƒo ŋu token-holder voting kple Roman Akhtariev, gakotoku ƒe reliability, kple Ironwood ƒe integration le stack la katã me.
 
-Zakura ŋutɔ hã nye dɔwɔƒe si wowɔna ɖekae kple Takyon Dɔwɔƒea, eye Sean Bowe ye le ŋgɔ xɔm. Habɔbɔ eveawo wɔa dɔ aduadu gake womegade ha o.
+Zakura ŋutɔ wɔ maintenance ɖeka kple Project Tachyon, si ƒe kplɔla nye Sean Bowe. Ha eveawo wɔa ɖekawɔwɔ ɖe asi, gake woate ɖe wo nɔewo ŋu.
 
-## Ðoɖowɔɖi si Le Wo Si
+## Organization Ƒe Ɖoɖoɖo
 
-Valar Group wɔa dɔ abe mɔ̃ɖaŋudɔwɔƒe si le eɖokui si ene. Menye Zcash Foundation, ZODL, Shielded Labs alo Zcash Community Grants ƒe akpa aɖeke o.
+Valar Group wɔa dɔ abe engineering ƒe ha si tsitre ɖe eŋu ŋu ene. Menye Zcash Foundation, ZODL, Shielded Labs, alo Zcash Community Grants ƒe akpa o.
 
-In the voting-chain design, Valar Group is one of five coordinator organizations. That role is a parameter of the voting system, not a claim of exclusive control over Zcash governance. Other teams can run validators, stand up alternative voting chains, or audit published tallies from the public tooling.
+Le voting-chain ƒe design me la, Valar Group nye coordinator ƒe ha atɔ̃awo dome tɔ aɖe. Role sia nye voting system la ƒe parameter, menye be wòfia be eya ko wòle Zcash ƒe dziɖuɖu katã dzim o. Team bubuwo hã ate ŋu adɔ validatorwo, atsa voting chains bubuwo, alo akpɔ xexlẽ siwo woɖe fia tso public tooling me ɖe asi.
 
-Womeɖe nyatakaka bubuwo ɖe go le se si dzi wowɔa asi ɖo, dɔdzikpɔha me tɔwo kple dukɔmeviwo ƒe ɖoɖowo ŋu abe ale si wònɔ le Zcash habɔbɔ xoxoawo gome ene o.
+Woɖe nyatakaka bubu tso legal entity ƒe type, board ƒe composition, kple internal dziɖuɖu ŋu fia o le nyanyui si sɔ kple Zcash ƒe organizations xoxowo tɔ ene me.
 
-## Ga si Woxɔna ɖe eta
+## Funding
 
-Le ƒe 2026 me la, Valar Group kple Project Tachyon xɔ ga tso ame bubuwo gbɔ. Gake le ZODL alo Shielded Labs gome la, womeɖe gbeƒã nudzɔdzɔ siwo katã wona wo o.
+Forum ƒe nyatakakawo tso 2026 ƒe titina ɖea fia be Valar Group kple Project Tachyon kpɔ funding tso private donations me. Sɔ kple ZODL ƒe venture round si woɖe fia alo Shielded Labs ƒe public donation ƒe announcements o, Valar Group mede donor ƒe list blibo alo ga ƒe kpekpeɖeŋu [grant] ƒe ɖoɖo fia o.
 
-Ga ƒe ɖoɖo sia nana be ƒuƒoƒo la nɔa eɖokui si tso Development Fund / block-reward mɔ dzi, gake egana hã be amewo megakpɔa ga agbɔsɔsɔme kple teƒeɖoɖowo o.
+Funding ƒe model sia ɖea team la ɖa tso Development Fund / block-reward ƒe mɔ̃ xoxo la ŋu, gake ewɔ hã be amewo me kpɔa budget ƒe gãme kple funding ƒe teƒewo ƒe nyatakaka geɖe o.
 
-## Dɔwɔƒe si le Zcash Habɔbɔa me
+## Eƒe Teƒe Le Zcash Ecosystem Me
 
-Valar Group nye ɖoɖowɔha siwo le wo ɖokui si la dometɔ ɖeka, eye wowɔa dɔ tso Zcash ƒe 2026 ŋgɔyiyi ŋu. Le nɔnɔme ma me:
+Valar Group nye protocol ƒe ha siwo tsitre ɖe woawo ŋu, siwo ƒo ƒu ɖe Zcash ƒe 2026 development ƒe nɔnɔwo ŋu dome tɔ aɖe. Le nɔnɔ ma me:
 
-- Zcash Foundation yi edzi le hadome kple Zebra dzi kpɔm.
-- **ZODL** ƒe susu le gaɖakawo kple ɖoɖowɔɖi siwo woazã ne ECC la me mama vɔ megbe ŋu.
-- **Shielded Labs** ƒe susu katã le nu siwo ŋu wowɔ numekuku ɖo, abe dedienɔnɔ kple ɖekawɔwɔ ene la dzi.
-- **Project Tachyon** ƒe susu le nu siwo woagate ŋu awɔ atsɔ adzro nuwo me, ale si woawɔ akpɔe be wole eteƒe la kple alesi woate ŋu aɖo nɔnɔmeawo gbɔ didi.
-- **Valar Group** ƒe susu katã le gadzraɖoƒe siwo me ga nɔa ame si la ŋu, woƒe dɔwɔwɔ nyuie, PIR kple mɔ̃ɖaŋununya si hiã be woatsɔ awɔ ɖoɖo mawo dzii.
+- **Zcash Foundation** gale community ƒe dɔdzikpɔ kple Zebra wɔm.
+- **ZODL** ɖoa eƒe ŋku le gakotoku ƒe product kple protocol ƒe dɔ ƒe yiyiyi dzi, le ECC ƒe split megbe.
+- **Shielded Labs** ɖoa eƒe ŋku le sustainability, security, kple consensus ƒe research dzi.
+- **Project Tachyon** ɖoa eƒe ŋku le recursion, formal verification, kple scalability ƒe adzɔ ɖe didime dzi.
+- **Valar Group** ɖoa eƒe ŋku le coinholder voting ɣaɣla, node ƒe dɔwɔwɔ, PIR, kple engineering si hia be woawɔ systems siawo le production me dzi.
 
-Its distinctive contribution is making shielded governance operational. The NU7 vote is the first major use of that stack: holders prove Ironwood balances, wallets such as ZODL and Vizor can integrate the flow, and anyone can audit the tally without learning how a particular holder voted.
+Eƒe kpekpeɖeŋu si le vovo nye be wòwɔ ɣaɣla ƒe dziɖuɖu be wòate ŋu awɔ dɔ. NU7 ƒe vote nye stack sia ƒe zãzã gã gbãtɔ: tɔxɛlawo ɖea Ironwood ƒe balances fia, gakotokuwo abe ZODL kple Vizor ene ate ŋu akafu flow la, eye ame sia ame ate ŋu akpɔ xexlẽ la ɖe asi, eye wòmaɖe fia be tɔxɛla aɖe wɔ vote aleke o.
 
-Valar Group bua dziɖuɖumɔnu, nugbɔdɔwɔɖoɖowo kple gaɖaka ƒe ɖoɖo abe kuxi ɖeka ene: be woana Zcash nanɔ bɔbɔe na amewo le teƒe geɖe evɔ womagatsɔ dɔwɔŋusẽ ade habɔbɔ ɖeka me o.
+Team sia ke ƒe node kple sync ƒe dɔ la ƒe ta nye be wòakpe ɖe picture ma ƒe akpa bubu la ŋu. Vote ɣaɣla me wɔa dɔ vevie o ne gakotokuwo mate ŋu awɔ sync o, nodewo mate ŋu awɔ dɔ sɔ o, alo woate ŋu awɔ upgrades kaba o. Valar Group kpɔ dziɖuɖu, node software, kple gakotoku infrastructure abe problem ɖeka ene: wɔ be Zcash ɣaɣla nate ŋu azã le teƒe gã me, eye operational power maƒo ƒu le organization ɖeka ƒe asi o.
 
-## Ganyawo ƒe Kpekpeɖeŋu
+## Resources
 
-- [Valar Group ƒe nyatakakadzraɖoƒe](https://valargroup.dev/)
-- [Valar Group GitHub me tɔwoe nye:](https://github.com/valargroup)
-- [Akpa si Woawɔ le Numetotowo me dzi kpɔkpɔ ŋuti nuŋlɔɖi](https://valargroup.gitbook.io/shielded-vote-docs)
-- [Akɔdada ƒe ɖoɖowɔɖi](https://setup.valargroup.org)
-- [Numetolawo ƒe akɔntabubu](https://tally.valargroup.org)
-- [Dɔwɔƒe ƒe Ŋutifafala UI](https://svote.valargroup.org/)
+- [Valar Group website](https://valargroup.dev/)
+- [Valar Group GitHub](https://github.com/valargroup)
+- [Shielded Vote ƒe documentation](https://valargroup.gitbook.io/shielded-vote-docs)
+- [Voting chain ƒe ɖoɖo](https://setup.valargroup.org)
+- [Xexlẽ ƒe auditor](https://tally.valargroup.org)
+- [Coordinator UI](https://svote.valargroup.org/)
 - [Zakura](https://zakura.com/)
-- [Zakura le / ƒuƒoƒo la ŋu](https://zakura.com/about/)
-- [NU7 gaxɔla ƒe akɔdada forum me nyawo](https://forum.zcashcommunity.com/t/nu7-token-holder-vote/56912)
-- [Coinholder Voting Chain forum thread (Nudzroƒe ƒe kɔpi)](https://forum.zcashcommunity.com/t/the-coinholder-voting-chain/56925)
-
-
-
+- [Zakura ŋu nyatakaka / team](https://zakura.com/about/)
+- [NU7 coinholder vote ƒe forum ƒe thread](https://forum.zcashcommunity.com/t/nu7-token-holder-vote/56912)
+- [Coinholder Voting Chain ƒe forum ƒe thread](https://forum.zcashcommunity.com/t/the-coinholder-voting-chain/56925)

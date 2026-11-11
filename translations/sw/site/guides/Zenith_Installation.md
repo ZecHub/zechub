@@ -1,6 +1,6 @@
-# Zenith GUI Full Node Wallet Ufungaji 
+# Usakinishaji wa pochi [wallet] ya full node ya Zenith GUI  
 
-## Video Tutorial
+## Mafunzo ya Video
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -32,7 +32,7 @@
 > curl --proto '=https' --tlsv1.2 -sSf https://get-ghcup.haskell.org | sh
 
 
-## Kuweka kutu
+## Sakinisha Rust
 
 > curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
@@ -41,85 +41,85 @@
 
 > sudo apt install libclang-dev
 
-> mzigo install --git https://github.com/ZcashFoundation/zebra --tag v2.1.0 zebrad
+> cargo install --git https://github.com/ZcashFoundation/zebra --tag v2.1.0 zebrad
 
-> zebrad kuzalisha -o ~/.config/zebrad.toml
+> zebrad generate -o ~/.config/zebrad.toml
 
 > nano ~/.config/zebrad.toml
 
 
-#### kusikiliza kwa maswali RPC juu ya localhost
+#### Sikiliza maombi ya RPC kwenye localhost
 
-> kusikiliza_addr = "127.0.0.1:8232"
+> listen_addr = "127.0.0.1:8232"
 
-#### moja kwa moja kutumia nyuzi nyingi CPU
+#### Tumia nyuzi nyingi za CPU kiotomatiki
 
-sambamba_cpu_threads = 0
+parallel_cpu_threads = 0
 
-enable_cookie_auth = uongo
+enable_cookie_auth = false
 
 ## Sakinisha Zenith
 
-** Download tar.gz na untar katika directory yako nyumbani **
+**Pakua tar.gz na ifungue kwenye saraka yako ya nyumbani**
 
 > wget https://code.vergara.tech/Vergara_Tech/zenith/archive/0.7.2.0-beta.tar.gz
 
 > tar -C ~ -xvzf 0.7.2.0-beta.tar.gz
 
-> cd kilele
+> cd zenith
 
 > rmdir zcash-haskell
 
-> kit clone https://code.vergara.tech/Vergara_Tech/zcash-haskell.git
+> git clone https://code.vergara.tech/Vergara_Tech/zcash-haskell.git
 
 
-### Weka Depedencies
+### Sakinisha vitegemezi
 
-> sudo apt install libssl-dev libgmp-dev Libsecp256k1-dev libtinfo-dev libsdl2-dev libfreetype-devlibglew-dev gdk-pixbuf-tests raspi-config
+> sudo apt install libssl-dev libgmp-dev libsecp256k1-dev libtinfo-dev libsdl2-dev libfreetype-dev libglew-dev gdk-pixbuf-tests raspi-config
   
-> mzigo install mzigo-c
+> cargo install cargo-c
 
-> stack kufunga c2hs
+> stack install c2hs
 
 > mousepad ~/.bashrc
 
 > export PATH="/home/zebra5/.local/bin:$PATH"
 
-> chanzo ~/.bashrc
+> source ~/.bashrc
 
 
-### Kurekebisha chanzo kwa ajili ya aarch64
+### Rekebisha chanzo kwa aarch64
 
-> nano Configure
+> nano configure
 
-**badilisha tatu kwa: "aarch64-unknown-linux-gnu" kwenye mistari yote miwili.**
+**Badilisha triple kuwa: "aarch64-unknown-linux-gnu" kwenye mistari yote miwili.**
 
 > nano Setup.hs
  
- ** Kurekebisha Setup.hs katika wote folder zcash-haskell na zenith folder**
+ **Rekebisha Setup.hs katika folda zote mbili za zcash-haskell na zenith**
 
-### Tayarisha 
+### Kusanya 
 
-- . / Configure
+- ./configure
 
-- ujenzi wa njama
+- cabal build
 
 - mkdir ~/Zenith
 
 - cd ~/Zenith
 
-- mkdir mali 
+- mkdir assets  
 
 - cp ~/zenith/dist-newstyle/build/aarch64-linux/ghc-9.6.5/zenith-0.7.2.0/build/zenith/zenith ~/Zenith
 
-- cp ~/Zenith/zenith.cfg ~/ Zenith
+- cp ~/zenith/zenith.cfg ~/Zenith
 
-- cp -r ~/zenith/assets ~/Zenith/asets
+- cp -r ~/zenith/assets ~/Zenith/assets
 
 
-### Kurekebisha zenith.cfg
+### Rekebisha zenith.cfg
 
-nodeUser = jina lako la mtumiaji
+nodeUser = yourusername
 
 nodePwd = superSecret
 
@@ -136,28 +136,26 @@ zebraPort = 8232
 
 ## Raspi-config
 
-> [Download karibuni gldriver-mtihani](https://archive.raspberrypi.org/debian/pool/main/g/gldriver-test/)
+> [pakua gldriver-test ya hivi karibuni](https://archive.raspberrypi.org/debian/pool/main/g/gldriver-test/)
   
 > sudo dpkg - gldriver-test_0.15_all.deb
   
 > sudo raspi-config
 
-  ** kwenda mbele na kuchagua opengl => GL (Full KMS) **
+  **Nenda kwenye advance na uchague opengl => GL (Full KMS)**
 
-  ** kuanzisha upya **
+  **Anzisha upya**
 
 
 
-## Kukimbia zenith
+## Endesha zenith
 
- ./Zenith gui
+ ./zenith gui
  or
- ./Zenith tui
+ ./zenith tui
  or
- . / seva zenith
+ ./zenithserver
 
-## RPC ya
+## RPC's
 
-[jinsi ya](https://github.com/ZecHub/zechub/blob/main/site/tutorials/zenithserver/zenithBeta.md)
-
-
+[howto](https://github.com/ZecHub/zechub/blob/main/site/tutorials/zenithserver/zenithBeta.md)

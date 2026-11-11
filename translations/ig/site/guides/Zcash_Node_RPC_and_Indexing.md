@@ -1,44 +1,44 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/guides/Zcash_Node_RPC_and_Indexing.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Dezie Ibe"/>
 </a>
 
-# Nduzi Bara Uru: Zcash Node RPC na Blockchain Indexing
+# Ntuziaka Bara Uru: Zcash Node RPC na Ndepụta Blockchain
 
-Ibe a bụ akwụkwọ nri maka ịgwa Zcash zuru oke okwu site na JSON-RPC yana maka itinye ihe ndeksi nke obere akpa na ndị na-eme nchọpụta nwere ike ịjụ. Ọ bụghị **ọ bụ ntuziaka nrụnye nke abụọ.
+Ibe a bụ akwụkwọ ntuziaka maka ịgwa Zcash full node na-arụ ọrụ okwu site na JSON-RPC na maka ijikọ indexer nke e-akpa ego dị mfe na ndị nchọgharị nwere ike ịjụ ajụjụ n'aka ya. Ọ **bụghị** ntuziaka nrụnye nke abụọ.
 
-Maka otu esi eweta ozi-`zcashd` tinye ihe ndị a (Zebra + Zallet, Zaino, ọdụ ụgbọ mmiri, olu, buut nke nwere usoro abụọ), jiri ya [Z3 Stack](/zcash-tech/z3-stack) peeji na [Ebe nchekwa Z3](https://github.com/ZcashFoundation/z3)Maka ndabere nke nkwekọrịta, lee [Ọnụ zuru ezu](/zcash-tech/full-nodes) na [Zebra zuru oke](/zcash-tech/zebra-full-node).
+Maka otu esi amalite stack mgbe-`zcashd` (Zebra + Zallet, Zaino nhọrọ, ports, volumes, mbido nke usoro abụọ), jiri ibe [Stack Z3](/zcash-tech/z3-stack) na ebe nchekwa [Z3](https://github.com/ZcashFoundation/z3). Maka ndabere gbasara consensus node, lee [Full Nodes](/zcash-tech/full-nodes) na [Zebra Full Node](/zcash-tech/zebra-full-node).
 
-`zcashd` ruo ọgwụgwụ ndụ na 18 Julaị 2026. Ọrụ ọhụrụ nke ndị ọrụ kwesịrị ilekwasị anya na Zebra (ma ọ bụ [Zakura](/zcash-tech/zakura-node)) tinyere obere akpa/indexer, ọ bụghị `zcashd`.
-
----
-
-## TL;DR
-
-* **JSON-RPC** bụ otu ndị ọrụ na obere akpa si ajụ otu n'ime ha gbasara ntụnye aka nke yinye, ndị ọgbọ, na nhazi (na usoro obere akpa). Na Z3, Zebra na-enye node RPC; Zallet na-enye obere akpa RPC.
-* **Regtest** bụ ebe kwesịrị ekwesị ịmụta oku. Z3's rpc-rauter dị na ya `http://127.0.0.1:8181` na-anabata `zebra` / `zebra` ma ziga ụzọ n'ime oghere gaa na Zebra na ụzọ obere akpa gaa na Zallet.
-* **Mainnet na testnet** jiri kuki auth na Zebra. Edetuola aha njirimara/paswọọdụ regtest na node ọha.
-* **Ịdepụta ihe dị iche** bụ ọrụ dị iche na nkwenye. Zebra na-akwado. [Zaino](/zcash-tech/zaino) (Z3 `--profile indexer`) na-enye gRPC lightwalletd-compatible. [Ztreamer](https://github.com/distractedm1nd/ztreamer) bụ ihe ngosi Zakura-backed; ọ bụghị ihe Z3 na-ebuga.
-* A na-eji gRPC nke Zaino JSON-RPC na Zebra's maka loopback ma ọ bụ netwọk a pụrụ ịtụkwasị obi. Ekpughela ha na ịntanetị ọha na eze na-enweghị nkwenye.
+`zcashd` ruru njedebe ndụ ya n'ụbọchị 18 Julaị 2026. Ọrụ onye na-arụ ọrụ ọhụrụ kwesịrị ilekwasị anya na Zebra (ma ọ bụ [Zakura](/zcash-tech/zakura-node)) yana e-akpa ego/indexer, ọ bụghị `zcashd`.
 
 ---
 
-## Kedu usoro na-aza oku nke na-aza oku
+## Na nkenke
 
-| Ị chọrọ | Gwa ya okwu | Ọdụ ụgbọ mmiri nnabata Z3 bụ isi | Ihe ndetu |
+* **JSON-RPC** bụ ụzọ ndị na-arụ ọrụ na e-akpa ego si ajụ node gbasara chain tip, peers, na (n'ime usoro e-akpa ego) ego fọdụrụ. Na Z3, Zebra na-enye node RPC; Zallet na-enye wallet RPC.
+* **Regtest** bụ ebe kwesịrị ekwesị iji mụta calls ndị a. Rpc-router Z3 dị na `http://127.0.0.1:8181` na-anabata `zebra` / `zebra` ma na-ebufe ụzọ node gaa Zebra na ụzọ wallet gaa Zallet.
+* **Mainnet na testnet** na-eji cookie auth na Zebra. Edegharịla aha njirimara/password regtest n'elu node ọha.
+* **Ndepụta [Indexing]** bụ ọrụ dị iche na nkwado iwu [validation]. Zebra na-akwado iwu. [Zaino](/zcash-tech/zaino) (Z3 `--profile indexer`) na-enye gRPC kwekọrọ na lightwalletd. [Ztreamer](https://github.com/distractedm1nd/ztreamer) bụ indexer dabere na Zakura; ọ bụghị ihe Z3 na-ebunye.
+* JSON-RPC Zaino na indexer gRPC nhọrọ nke Zebra bụ maka loopback ma ọ bụ netwọk a tụkwasịrị obi. Ewepụla ha n'enweghị nkwenye na ịntanetị ọha.
+
+---
+
+## Usoro nke ọ bụla na-aza call nke ọ bụla
+
+| Ihe ị chọrọ | Gwa | Port onye nnabata Z3 mainnet | Ihe edeturu |
 | --- | --- | --- | --- |
-| Ndụmọdụ maka ndị ọgbọ, `getblockchaininfo` | Zebra JSON-RPC | 8232 | Onye dere kuki |
-| Ọnụ ego akpa ego, adreesị, izipu | Zallet RPC | 28232 | Usoro dị iche; ngwanrọ beta |
-| Blọk dị obere maka obere akpa | Zaino gRPC | 8137 | Naanị na `--profile indexer`; ederede doro anya h2c |
-| Ihe nnọchiteanya JSON-RPC nke Explorer / faucet | Zaino JSON-RPC | 8237 | Naanị netwọk a tụkwasịrị obi |
-| Mee ihe niile dị n'elu na-enweghị mmekọrịta | Z3 regtest rpc-rawụta | 8181 | Aha njirimara `zebra` / paswọọdụ `zebra` |
+| Chain tip, peers, `getblockchaininfo` | Zebra JSON-RPC | 8232 | Cookie auth |
+| Ego fọdụrụ n'e-akpa ego, adreesị, izipu | Zallet RPC | 28232 | Usoro dị iche; sọftụwia beta |
+| Compact blocks maka e-akpa ego dị mfe | Zaino gRPC | 8137 | Naanị ya na `--profile indexer`; plaintext h2c |
+| Explorer / faucet JSON-RPC proxy | Zaino JSON-RPC | 8237 | Naanị netwọk a tụkwasịrị obi |
+| Mee ihe niile dị n'elu n'enweghị sync | Z3 regtest rpc-router | 8181 | Aha njirimara `zebra` / password `zebra` |
 
-Matrix Port na Dee aha ọrụ: [Z3 Stack](/zcash-tech/z3-stack) na [`z3-contract.yaml`](https://github.com/ZcashFoundation/z3/blob/main/z3-contract.yaml).
+Mgbakọ port na aha ọrụ Compose: [Stack Z3](/zcash-tech/z3-stack) na [`z3-contract.yaml`](https://github.com/ZcashFoundation/z3/blob/main/z3-contract.yaml).
 
 ---
 
-## Mee ihe omume na regtest mbụ
+## Buru ụzọ mụọ na regtest
 
-Site na ndenye ego Z3, mgbe emechara `./scripts/regtest-init.sh` na `docker compose --env-file .env.regtest up -d`:
+Site na checkout Z3, mgbe `./scripts/regtest-init.sh` na `docker compose --env-file .env.regtest up -d` gachara:
 
 ```bash
 # Node method (Zebra)
@@ -52,19 +52,19 @@ curl -s -X POST -H "Content-Type: application/json" \
   http://127.0.0.1:8181
 ```
 
-Ahụ́ dị mma `getblockchaininfo` ihe si na ya pụta gụnyere `"blocks"` na `"upgrades"` maapụ. Ọ bụrụ na mkpọchi ahụ kwụgidere, rawụta ahụ agaghị agba; ọ bụrụ na ị nweta ya `401`, ị na-akụ Zebra ozugbo kama ịpịa rawụta (Zebra ozugbo na regtest bụ `29232` ma ka na-atụ anya nzere rawụta ahụ ọ gwụla ma ị gbanwere ha).
+Nsonaazụ `getblockchaininfo` dị mma gụnyere `"blocks"` na map `"upgrades"`. Ọ bụrụ na curl kwụgidere, router amalitebeghị; ọ bụrụ na ị nweta `401`, ị na-akpọ Zebra ozugbo kama router (Zebra kpọmkwem na regtest bụ `29232` ma ka na-atụ anya nzere router ma ọ bụrụ na ị gbanweghị ha).
 
-Usoro ọrụ nyocha zuru oke, gụnyere igwupụta ihe mgbochi mmalite: [Z3 `docs/regtest.md`](https://github.com/ZcashFoundation/z3/blob/main/docs/regtest.md).
+Usoro regtest zuru ezu, gụnyere ịgwụputa blocks mmalite: [Z3 `docs/regtest.md`](https://github.com/ZcashFoundation/z3/blob/main/docs/regtest.md).
 
 ---
 
-## Mainnet/ testnet JSON-RPC (kuki auth)
+## Mainnet / testnet JSON-RPC (cookie auth)
 
-Na mainnet na testnet, Zallet na ọrụ Zaino nhọrọ gụrụ olu kuki nke a na-ekerịta**. A na-emegharị kuki ahụ mgbe ebidochara ya; ọ bụghị ihe mgbaru ọsọ ndabere.
+Na mainnet na testnet, Zallet na ọrụ Zaino nhọrọ na-agụ **shared cookie volume**. A na-emepụta cookie ahụ ọzọ mgbe a malitere usoro; ọ bụghị ebe nchekwa ndabere.
 
-E bipụtala Zebra JSON-RPC na ịntanetị ọha. Kpọọ ya site na netwọk Compose (`zebra:8232`) ma ọ bụ site na onye nnabata naanị ma ọ bụrụ na ị kegidere ya na loopback.
+**Ewepụla** Zebra JSON-RPC na ịntanetị ọha. Kpọọ ya site na netwọk Compose (`zebra:8232`) ma ọ bụ site n'aka onye nnabata naanị ma ọ bụrụ na ị kegidere ya na loopback.
 
-Ndị ọrụ nkịtị na-enyocha Zebra mgbe emechara `/ready`:
+Nlele ndị onye na-arụ ọrụ na-emekarị mgbe Zebra bụ `/ready`:
 
 ```bash
 # Wait until Zebra is synced (Z3 helper)
@@ -74,25 +74,25 @@ Ndị ọrụ nkịtị na-enyocha Zebra mgbe emechara `/ready`:
 docker compose --env-file .env.mainnet up -d
 ```
 
-`getblocktemplate` / `getmininginfo` na-egwupụta RPC. Ọdọ mmiri ndị ka na-atụ anya otu `zcashd` Usoro chọrọ Zebra (ma ọ bụ Zakura) maka ndebiri tinyere obere akpa ọ bụla ha ji eme coinbase [Ọdọ Mmiri Ngwuputa Zcash](/using-zcash/zcash-mining-pools) na [ntuziaka mbugharị](/guides/migration-guide-zcashd-to-zebrad-zallet).
+`getblocktemplate` / `getmininginfo` bụ mining RPCs. Pools ka na-atụ anya otu usoro `zcashd` chọrọ Zebra (ma ọ bụ Zakura) maka templates yana e-akpa ego ọ bụla ha ji maka coinbase. Lee [Zcash Mining Pools](/using-zcash/zcash-mining-pools) na [ntụziaka mbugharị](/guides/migration-guide-zcashd-to-zebrad-zallet).
 
 ---
 
-## Tinye ihe ndeksi
+## Jikọọ indexer
 
-Nkwenye na nhazi ọkwa bụ ọrụ dị iche iche.
+Nkwado iwu na ndepụta bụ ọrụ dị iche.
 
-### Zaino (ihe Z3 na-ebuga)
+### Zaino (ihe Z3 na-ebunye)
 
-Zaino na-agụ Zebra ma na-enye API gRPC lightwalletd-compatible yana proxy JSON-RPC. Zallet achọghị akpa Zaino nke nọọrọ onwe ya; ọ na-etinye ọbá akwụkwọ Zaino ma na-agwa Zebra okwu site na JSON-RPC. Malite Zaino nke nọọrọ onwe ya mgbe ịchọrọ obere akpa ọkụ mpụga, ndị nchọpụta, ma ọ bụ faucets:
+Zaino na-agụ Zebra ma na-enye API gRPC kwekọrọ na lightwalletd yana JSON-RPC proxy. Zallet **achọghị** container Zaino kwụụrụ onwe ya; ọ na-etinye libraries Zaino n'ime ya ma na-agwa Zebra okwu site na JSON-RPC. Malite Zaino kwụụrụ onwe ya mgbe ịchọrọ e-akpa ego dị mfe nke mpụga, explorers, ma ọ bụ faucets:
 
 ```bash
 docker compose --env-file .env.mainnet --profile indexer up -d
 ```
 
-Chere ruo mgbe Zebra ga-arụkọ ọrụ tupu ị tụọ ndị ahịa aka na Zaino. Ihe na-egosi ọnụọgụgụ mmadụ na-ejide ya na oge a na-enweta ya nwere ike ime ka ihe nyocha Zebra's ghara ịdị ngwa ngwa; debe ya `fetch_concurrency` na obere ọnụọgụgụ otu ruo mgbe indexer ahụ gwụchara.
+Chere ruo mgbe Zebra mechara sync tupu i duzie clients gaa Zaino. Indexer nnukwu nke na-agbalị iru ọnọdụ ugbu a ma nwee fetch concurrency dị elu nwere ike ime ka verifier nke Zebra jiri nwayọọ; debe `fetch_concurrency` n'ime obere ọnụọgụ otu-digit ruo mgbe indexer ruru ọnọdụ ugbu a.
 
-Nnwale Reg GRPC (ederede doro anya; ọdụ ụgbọ mmiri `28137`):
+Regtest gRPC (plaintext; port `28137`):
 
 ```bash
 # From the Z3 repo, after: scripts/vendor.sh zaino
@@ -112,50 +112,50 @@ grpcurl -plaintext \
   cash.z.wallet.sdk.rpc.CompactTxStreamer/GetLatestBlock
 ```
 
-Zaino gRPC bụ ederede nkịtị h2c na netwọk niile. Kwụsị TLS na proxy azụ ma ọ bụrụ na ihe ọ bụla dị n'èzí onye nnabata ahụ ga-ejikọ. Nkọwa: [Zaino](/zcash-tech/zaino) na [Z3 `docs/regtest.md`](https://github.com/ZcashFoundation/z3/blob/main/docs/regtest.md).
+gRPC Zaino bụ plaintext h2c na netwọk niile. Kwụsị TLS na reverse proxy ma ọ bụrụ na ihe ọ bụla na-abụghị onye nnabata ga-ejikọ. Nkọwa: [Zaino](/zcash-tech/zaino) na [Z3 `docs/regtest.md`](https://github.com/ZcashFoundation/z3/blob/main/docs/regtest.md).
 
-### Ndepụta ndị ọzọ (ọ bụghị Z3)
+### Indexers ndị ọzọ (ọ bụghị Z3)
 
-* **lightwalletd** — sava obere ngọngọ ochie. Ka dị n'ọhịa; Zaino bụ onye ga-anọchi ọrụ a.
-* **Ztreamer** — ihe ngosi Zakura-backed na `CompactTxStreamer` Mmejuputa. Ọ bụghị ọrụ Z3. Lee [Ebe nchekwa Ztreamer](https://github.com/distractedm1nd/ztreamer).
-* **Zebra `rpc.indexer_listen_addr`** — onye na-ege ntị gRPC nhọrọ *n'ime* Zebra. Z3 achọghị ya ma ọ naghị ebipụta ya nye onye na-akwado ya.
+* **lightwalletd** — sava compact-block ochie. A ka na-ebuga ya n'ebe ụfọdụ; Zaino bụ ụzọ nnọchi maka ọrụ a.
+* **Ztreamer** — indexer dabere na Zakura na mmejuputa `CompactTxStreamer`. Ọ bụghị ọrụ Z3. Lee ebe nchekwa [Ztreamer](https://github.com/distractedm1nd/ztreamer).
+* **Zebra `rpc.indexer_listen_addr`** — gRPC listener nhọrọ *n'ime* Zebra. Z3 anaghị achọ ya, ọ dịghịkwa ebipụta ya nye onye nnabata.
 
 ---
 
-## Mmejọ ndị a na-emekarị
+## Mmejọ ndị a na-ahụkarị
 
-**Ịkpọ ụzọ obere akpa na Zebra.** `getwalletinfo` ma zipu RPCs bụ nke Zallet (ma ọ bụ obere akpa ego ọzọ), ọ bụghị na nkwekọ nkwekọrịta.
+**Ịkpọ wallet methods na Zebra.** `getwalletinfo` na send RPCs bụ nke Zallet (ma ọ bụ e-akpa ego ọzọ), ọ bụghị nke consensus node.
 
-**Malite Zallet tupu Zebra amalite `/ready`.** Zallet ga-amalitegharị ọzọ. Jiri `scripts/check-zebra-readiness.sh` na mainnet/testnet.
+**Ịmalite Zallet tupu Zebra abụrụ `/ready`.** Zallet ga-amalitegharịa ugboro ugboro. Jiri `scripts/check-zebra-readiness.sh` na mainnet/testnet.
 
-**Nyocha regtest na-edegharị `zebra`/`zebra` na mainnet.** Kuki auth bụ ntọala mainnet/testnet maka ihe kpatara ya.
+**Idetuo `zebra`/`zebra` regtest na mainnet.** Cookie auth bụ ndabara mainnet/testnet n'ihi ezi ihe kpatara ya.
 
-**Ịnagide Zaino dị ka ebe zuru oke.** Zebra (ma ọ bụ Zakura) na-akwado. Ndepụta Zaino.
+**Iwere Zaino dịka full node.** Zebra (ma ọ bụ Zakura) na-akwado iwu. Zaino na-edepụta.
 
-**Ikpughe Zaino JSON-RPC ma ọ bụ Zebra indexer gRPC n'ihu ọha.** Isi njedebe ndị ahụ bụ maka loopback ma ọ bụ netwọk nkeonwe a pụrụ ịtụkwasị obi.
+**Iwepụta Zaino JSON-RPC ma ọ bụ Zebra indexer gRPC n'ihu ọha.** Endpoints ndị ahụ bụ maka loopback ma ọ bụ netwọk nkeonwe a tụkwasịrị obi.
 
-**Echere na obere akpa ọ bụla na-asụ Zaino.** Lelee mwepụta nke obere akpa ahụ site na usoro ọ na-eji eme ihe n'ezie.
+**Iche na e-akpa ego dị mfe niile ekwuola Zaino.** Lelee release e-akpa ego ugbu a megide protocol ọ na-emejuputa n'ezie.
 
 ---
 
 ## Ibe ndị metụtara ya
 
-* [Z3 Stack](/zcash-tech/z3-stack) - ntinye, ọdụ ụgbọ mmiri, olu, buut nke usoro abụọ
-* [Zaino](/zcash-tech/zaino) - ọrụ indexer na ndetu onye ọrụ
-* [Ọnụ zuru ezu](/zcash-tech/full-nodes)
-* [Zebra zuru oke](/zcash-tech/zebra-full-node)
-* [Ọnụọgụ obere akpa](/zcash-tech/lightwallet-nodes)
-* [Nduzi Mbugharị: zcashd gaa Zebrad/Zallet](/guides/migration-guide-zcashd-to-zebrad-zallet)
-* [Zingolib na Zaino](/guides/zingolib-and-zaino-tutorial)
+* [Stack Z3](/zcash-tech/z3-stack) — nrụnye, ports, volumes, mbido nke usoro abụọ
+* [Zaino](/zcash-tech/zaino) — ọrụ indexer na ndetu onye na-arụ ọrụ
+* [Full Nodes](/zcash-tech/full-nodes)
+* [Zebra Full Node](/zcash-tech/zebra-full-node)
+* [Lightwallet Nodes](/zcash-tech/lightwallet-nodes)
+* [Ntuziaka Mbugharị: zcashd gaa Zebrad/Zallet](/guides/migration-guide-zcashd-to-zebrad-zallet)
+* [Zingolib na Zaino Nkuzi](/guides/zingolib-and-zaino-tutorial)
 
-## akụrụngwa
+## Akụrụngwa
 
 * [Ebe nchekwa Z3](https://github.com/ZcashFoundation/z3)
-* [Akwụkwọ nri Z3 regtest (gbagọọ agbagọ / grpcurl)](https://github.com/ZcashFoundation/z3/blob/main/docs/regtest.md)
-* [Ajụjụ Ndị A Na-ajụkarị Z3](https://github.com/ZcashFoundation/z3/blob/main/docs/faq.md)
+* [Akwụkwọ nri regtest Z3 (curl / grpcurl)](https://github.com/ZcashFoundation/z3/blob/main/docs/regtest.md)
+* [Ajụjụ a na-ajụkarị banyere Z3](https://github.com/ZcashFoundation/z3/blob/main/docs/faq.md)
 * [Zebra](https://zebra.zfnd.org/)
 * [Zaino](https://github.com/zingolabs/zaino)
-* [Akwụkwọ Zallet](https://zcash.github.io/zallet/)
+* [Zallet Akwụkwọ](https://zcash.github.io/zallet/)
 * [Ztreamer](https://github.com/distractedm1nd/ztreamer)
 
 **Emelitere ikpeazụ:** Septemba 2026

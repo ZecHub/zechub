@@ -2,19 +2,19 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Nuwo Trɔtrɔ ƒe Nuƒolanɔƒe Siwo Woɖo Ðe Titina
+# Ɖɔli ɖɔli ƒe Platform siwo Wotsɔe Ɖo Ƒe Dzi
 
-ZecHub meda asi ɖe asitɔtrɔ ƒe dɔwɔƒe aɖeke koŋ dzi o, taflatse wɔ wò ŋutɔ wò numekuku.
+ZecHub menoa gome na gatrɔƒe [exchange] ƒe subɔsubɔ aɖeke o, taflatse wɔ wò ŋutɔ ƒe didi nyuie.
 
-Ɖe sia ɖe `###` tanya si le ete la nye agbalẽvi ɖeka le https://zechub.wiki/using-zcash/centralizedswaps.
-Tsɔ mɔxenu aɖe kpee, trɔ asi le eŋu, alo ɖee ɖa le afisia; wiki la fɔe tso faɛl sia me.
+Taŋɔdzinu `###` sia sia si le ete la nye kadidi ɖeka le https://zechub.wiki/using-zcash/centralizedswaps. dzi.
+Tsɔ gaɖoɖowo ƒuƒoƒe [block] aɖe kpe ɖe eŋu, trɔe, alo ɖe ɖa le afisia; wiki la akpɔe tso faɛl sia me.
 
 ### LetsExchange
 
 <img src="/content-images/1500x500-1-9d3b008870.webp" alt="LetsExchange" width="200" height="100"/>
 
-- Nyatakakadzraɖoƒe: https://letsexchange.io/
-- Numeɖeɖe: A crypto exchange hub kple 4,500 + cryptocurrencies, goglo liquidity, cross-kɔsɔkɔsɔ swaps, le- & off-ramp, DEX, kabakaba kple dedienɔnɔ ƒe asitsatsa.
+- Nudzɔdzɔƒe si le Internet dzi: https://letsexchange.io/
+- Ɖeɖeŋugbe: Crypto gatrɔƒe ƒe nudzɔdzɔƒe kple crypto ga 4,500+; tsi sesẽ le ga ƒe asɔle; ɖoɖonu geɖe dome [cross-chain] ɖɔli ɖɔli; mɔ si dzi wòate ŋu aɖo ga ɖe eme alo aɖe ga le eme; DEX; kple gaɖoɖo [transaction] siwo wɔ kaba eye wodea ta dzɔdzɔ.
 
 ___
 
@@ -22,8 +22,8 @@ ___
 
 <img src="/nearintents.png" alt="NEAR Intents" width="200" height="100"/>
 
-- Nyatakakadzraɖoƒe: https://app.near-intents.org/
-- Numeɖeɖe: Nuwo ɖɔliɖɔli kabakaba kple NEAR ƒe kpekpeɖeŋu. Wɔ deposits, dzra, swap siwo dometɔ aɖewoe nye TRUMP, MELANIA, BERA kple meme xɔŋkɔwo
+- Nudzɔdzɔƒe si le Internet dzi: https://app.near-intents.org/
+- Ɖeɖeŋugbe: Gatrɔƒe si wɔa dɔ kaba kple NEAR ƒe kpekpeɖeŋu. Ɖo ga ɖe eme, dzra, ɖɔli ɖɔli, si me TRUMP, MELANIA, BERA kple meme bubuwo siwo amewo lɔ̃na le.
 
 ___
 
@@ -31,8 +31,8 @@ ___
 
 <img src="/content-images/shapeshift-27053ae96b.webp" alt="ShapeShift" width="200" height="100"/>
 
-- Nyatakakadzraɖoƒe: https://private.shapeshift.com/
-- Numeɖeɖe: Wò Gakotoku. App Ðeka. Mɔnukpɔkpɔ si nuwuwu meli na o · Asitsatsa Bitcoin, Ethereum kple bubuwo kple asixɔxɔ nyuitɔwo kekeake le ŋgɔdonyawo DEXs kple aggregators
+- Nudzɔdzɔƒe si le Internet dzi: https://private.shapeshift.com/
+- Ɖeɖeŋugbe: Wò gakotoku [wallet]. App ɖeka. Mɔ geɖe siwo menɔ nuwuwu o · Ɖo asi le Bitcoin, Ethereum kple bubuwo ŋu kple asiƒoƒo nyuitɔ siwo tso DEX siwo kplɔa ŋgɔ kple wɔnɔƒe siwo ƒoa nu ƒu me.
 
 ___
 
@@ -40,8 +40,8 @@ ___
 
 <img src="/stealth_ex.png" alt="Stealth EX" width="200" height="100"/>
 
-- Nyatakakadzraɖoƒe: https://stealthex.io/
-- Numeɖeɖe: StealthEX nye cryptocurrency exchange enumake na swaps seɖoƒemanɔsitɔ siwo ƒe subɔsubɔdɔa nye femaxee tso ŋkɔ ŋɔŋlɔ me eye medzraa zãla ƒe ga ɖo ɖe mɔ̃a dzi o. StealthEX nye teƒe nyuitɔ si nàƒle cryptocurrency le.
+- Nudzɔdzɔƒe si le Internet dzi: https://stealthex.io/
+- Ɖeɖeŋugbe: StealthEX nye crypto gatrɔƒe si wɔa dɔ enumake na ɖɔli ɖɔli siwo menɔ nuwuwu o, si ƒe subɔsubɔ mehia be wòana wò ŋkɔ o eye womeɖea ezãla ƒe ga ɖe eƒe platform dzi o. StealthEX nye teƒe nyuitɔ si wòate ŋu aƒle crypto le.
 
 ___
 
@@ -49,8 +49,8 @@ ___
 
 <img src="/changelly.png" alt="Changelly" width="200" height="100"/>
 
-- Nyatakakadzraɖoƒe: https://changelly.com/
-- Numeɖeɖe: Changelly nye enumake-wuwu crypto gaku ɖɔliɖɔli si wonya ŋutikɔkɔetɔe ɖe eƒe dɔwɔƒe-fetu sue siwo ade 0.25% le crypto ɖɔliɖɔli. Ewɔ ɖeka kple gɔmesese si nye crypto exchange si woate ŋu azã le mɔ vovovowo nu wu hã.
+- Nudzɔdzɔƒe si le Internet dzi: https://changelly.com/
+- Ɖeɖeŋugbe: Changelly nye crypto coin gatrɔƒe si wɔa dɔ enumake, si amewo nya nyuie le eƒe adzɔ [fee] siwo le dɔwɔƒe sia me wɔwɔtɔ, siwo va se 0.25% le crypto gatrɔƒewo me. Eya hã wɔ nu si crypto gatrɔƒe si ƒe mɔwo sɔ gbɔ wu la gɔme.
 
 ___
 
@@ -58,8 +58,8 @@ ___
 
 <img src="/flyp.me.png" alt="flyp.me" width="200" height="100"/>
 
-- Nyatakakadzraɖoƒe: https://flyp.me/en/#/
-- Numeɖeɖe: Wodzi flyp.me accountless exchanger kple FYP Token be woatsɔ akpɔ ame ŋutɔ ƒe nyawo ta, ado decentralisation ɖe ŋgɔ, ado alɔ grassroot ownership eye woado nuto si xɔe se be nukpɔsusu ɖeka nawɔ ɖeka.
+- Nudzɔdzɔƒe si le Internet dzi: https://flyp.me/en/#/
+- Ɖeɖeŋugbe: flyp.me gatrɔƒe si me akawunt aɖeke mele o kple FYP Token wodzi wo be woakpɔ ɣaɣla [privacy] dzi, ado ŋusẽ ha nuɖo agni [decentralized] ƒe nɔnɔ, akpe ɖe amesiame ƒe aƒetɔnyenye ŋu, eye woana hadome si xɔ gbegbɔgblɔ ɖi [consensus] se nakpɔ nu.
 
 ___
 
@@ -67,8 +67,8 @@ ___
 
 <img src="/exolix.png" alt="Exolix" width="200" height="100"/>
 
-- Nyatakakadzraɖoƒe: https://exolix.com
-- Numeɖeɖe: Trɔ 1311+ crypto enumake, kple asi nyuitɔ kekeake eye ŋkɔ ŋɔŋlɔ manɔmee
+- Nudzɔdzɔƒe si le Internet dzi: https://exolix.com
+- Ɖeɖeŋugbe: Ɖɔli crypto 1311+ enumake, kple asiƒoƒo nyuitɔ eye mehia be wòawɔ ŋkɔŋlɔɖi o.
 
 ___
 
@@ -76,8 +76,8 @@ ___
 
 <img src="/Trocodor.png" alt="Trocodor" width="200" height="100"/>
 
-- Nyatakakadzraɖoƒe: https://trocador.app/
-- Numeɖeɖe: Asitsa Cryptocurrency Le Ŋkɔmaɖemaɖee. Kabakaba. Le dedie. Dɔdzikpɔha aɖeke meli o. Debit Card siwo Woxe Do Ŋgɔ Na li.
+- Nudzɔdzɔƒe si le Internet dzi: https://trocador.app/
+- Ɖeɖeŋugbe: Ɖo asi le Cryptocurrency ŋu le ɣaɣla me. Kaba. Dedie. Burokrasi aɖeke mele o. Debit kadidi siwo wòxɔa ga ɖe edzi hafi wozãe li.
 
 ___
 
@@ -85,8 +85,8 @@ ___
 
 <img src="/DCRDEX.jpg" alt="Bison Wallet" width="200" height="100"/>
 
-- Nyatakakadzraɖoƒe: https://dex.decred.org/
-- Numeɖeɖe: Asi crypto hati kple hati. Asitsafe aɖeke meli o. KYC aɖeke meli o. Decentralized Exchange si Decred Project tu.
+- Nudzɔdzɔƒe si le Internet dzi: https://dex.decred.org/
+- Ɖeɖeŋugbe: Ɖo asi le crypto ŋu ametsɔametsi dome. Asiɖoɖo ƒe adzɔ aɖeke mele o. KYC aɖeke mele o. Ha nuɖo agni ƒe gatrɔƒe si Decred Project tu.
 
 ___
 
@@ -94,8 +94,8 @@ ___
 
 <img src="/content-images/firodex-beta-release-b1958c5adc.webp" alt="Firo DEX" width="200" height="100"/>
 
-- Nyatakakadzraɖoƒe: https://github.com/firoorg/FiroDEX-Desktop
-- Numeɖeɖe: Kakaɖedzimanɔmee decentralized swaps zãa atɔm swaps kple FiroDEX!.
+- Nudzɔdzɔƒe si le Internet dzi: https://github.com/firoorg/FiroDEX-Desktop
+- Ɖeɖeŋugbe: Haɖeɖe aɖeke manye mɔfiame o me ɖɔli ɖɔli si wotsɔ atomic swaps kple FiroDEX! wɔ.
 
 ___
 
@@ -103,8 +103,8 @@ ___
 
 <img src="/Changenow.png" alt="Changenow" width="200" height="100"/>
 
-- Nyatakakadzraɖoƒe: https://changenow.io/?from=usdterc20&to=zec
-- Numeɖeɖe: Seɖoƒemanɔsitɔ WEB 3 Crypto Exchange – Blewu, Kabakaba, Vidzikpɔkpɔ-maɖemaɖe.
+- Nudzɔdzɔƒe si le Internet dzi: https://changenow.io/?from=usdterc20&to=zec
+- Ɖeɖeŋugbe: WEB 3 Crypto Gatrɔƒe si menɔ nuwuwu o – Eŋɔ, Ewɔa dɔ kaba, eye menye asikplɔ-dzralá [custodial] o.
 
 ___
 
@@ -112,8 +112,8 @@ ___
 
 <img src="/FixedFloat.jpg" alt="Fixed Float" width="200" height="100"/>
 
-- Nyatakakadzraɖoƒe: https://ff.io
-- Numeɖeɖe: Enumake, bliboe le eɖokui si cryptocurrency asitɔtrɔ kple Lightning Network.
+- Nudzɔdzɔƒe si le Internet dzi: https://ff.io
+- Ɖeɖeŋugbe: Cryptocurrency gatrɔƒe si wɔa dɔ enumake eye wòwɔa nu katã le eɖokui si, kple Lightning Network.
 
 ___
 
@@ -121,8 +121,8 @@ ___
 
 <img src="/xchange.png" alt="Xchange" width="200" height="100"/>
 
-- Nyatakakadzraɖoƒe: https://xchange.me/
-- Numeɖeɖe: Anonymous Cryptocurrency Exchange, si ƒe asi bɔbɔ, kakaɖedzi le eŋu, AlwaysOnTime eye ŋkɔ aɖeke manɔmee. Tor ahuhɔ̃e si wotsɔ ɖe adzɔgbee li.
+- Nudzɔdzɔƒe si le Internet dzi: https://xchange.me/
+- Ɖeɖeŋugbe: Cryptocurrency Gatrɔƒe le ɣaɣla me, si me gaƒoƒo le o, si dzi wòate ŋu aka ɖo, eye wòwɔa dɔ ɣe sia ɣe, eye mehia ŋkɔŋlɔɖi aɖeke o. Tor ƒe mɔnu bubu li.
 
 ___
 
@@ -130,8 +130,8 @@ ___
 
 <img src="/Bitcoinvn.png" alt="BitcoinVN" width="200" height="100"/>
 
-- Nyatakakadzraɖoƒe: https://bitcoinvn.io/?deposit=xmr&settle=zec/
-- Numeɖeɖe: Enumake Bitcoin & Cryptocurrency Exchange le Vietnam. Ƒle, dzra alo trɔ asi le nunɔamesi 80 dome siwo dometɔ aɖewoe nye VND, BTC, XMR, USDT, ETH, BCH, SOL
+- Nudzɔdzɔƒe si le Internet dzi: https://bitcoinvn.io/?deposit=xmr&settle=zec/
+- Ɖeɖeŋugbe: Bitcoin kple Cryptocurrency Gatrɔƒe si wɔa dɔ enumake le Vietnam. Ƒle, dzra alo ɖɔli ɖɔli le nu 80 dome, si me VND, BTC, XMR, USDT, ETH, BCH, SOL le.
 
 ___
 
@@ -139,6 +139,5 @@ ___
 
 <img src="/leodex-logo.png" alt="LeoDex" width="200" height="100"/>
 
-- Nyatakakadzraɖoƒe: https://leodex.io/
-- Numeɖeɖe: Crosschain swaps siwo me akɔntabubu aɖeke mele o eye KYC aɖeke mele wo ŋu o. Ðo BTC, ETH kple bubuwo tso gakotoku, asitɔtrɔ alo nudzraɖoƒe ɖesiaɖe me ɖe adrɛs si dzi nàde ga ɖo zi ɖeka eye nàxɔ ZEC — gakotoku ƒe kadodo aɖeke mehiã o.
-
+- Nudzɔdzɔƒe si le Internet dzi: https://leodex.io/
+- Ɖeɖeŋugbe: ɖoɖonu geɖe dome ƒe ɖɔli ɖɔli si me akawunt kple KYC aɖeke mele o. Ɖo BTC, ETH kple bubuwo ɖa tso gakotoku aɖeke, gatrɔƒe aɖeke alo gaɖoƒe si me wogbɔa ga ɖo le ɣeyiɣi didi me, yi gaɖoƒe ƒe dzesi [address] si wokpɔna zi ɖeka koe dzi, eye nàxɔ ZEC — gakotoku ƒe kadodo mehia o.

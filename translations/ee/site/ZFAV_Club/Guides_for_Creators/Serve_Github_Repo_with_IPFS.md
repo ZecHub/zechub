@@ -2,66 +2,66 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Subɔ GitHub Repo kple IPFS
+# Ɖe GitHub Repo Dɔ Kple IPFS
 
-## Kpɔkplɔyiɖeme
+## Gɔmedzedze
 
-Le mɔfiame sia me la míesrɔ̃ alesi woawɔ git cloneable URL na wò GitHub nudzraɖoƒe si wosubɔ to IPFS CID zazã me. 
+Le mɔfiafia sia me la, míesrɔ ale si nàwɔ URL si woate ŋu awɔ git clone kple na wò GitHub repository si woɖe dɔe kple IPFS CID.
 
-Esia ɖea vi be woakpɔ egbɔ be nyatakakawo li metsɔ le nuto si me wole me o, tsitretsitsi ɖe mɔxexeɖedɔléle nu ŋu eye abe nyatakaka veviwo ƒe kpekpeɖeŋunanu si nɔa anyi ɖaa ene!
+Esia wɔ dɔ na emetɔnu be nusiwo le eme nali sɔ gbɔna togbɔ be afi kae wònɔ, be wòakpɔ tso ƒomevi ƒe xexlẽ ɖe eŋu, eye wòanye nuteƒe si me xɔasi le na nyatakakadzɔdzɔe!
 
-De dzesii: Nyatakaka siwo woda ɖe IPFS dzi la li na network zãlawo katã. Àdi be yeatsɔ ame ŋutɔ ƒe nyatakaka/nya veviwo aɣla le mia gbɔ.
+Didienu [Note]: Nyatakaka si woɖo ɖe IPFS la le network la ƒe zazãla katãwo ƒe asime. Èate ŋu adi be nàwɔ ɣaɣlaŋlɔŋlɔ [encryption] na wò ŋutɔ ƒe nyatakaka alo nyatakaka si le vevie le afi sia.
 
-## De IPFS Kubo ɖe wò kɔmpiuta dzi
+## Ɖo IPFS Kubo
 
-Wɔ ɖe ɖoɖo ƒe mɔfiame siwo wona dzi [le afisia](https://docs.ipfs.tech/install/command-line/#install-official-binary-distributions)
+Dze installation ƒe mɔfiafia si woɖo ɖe [afi sia](https://docs.ipfs.tech/install/command-line/#install-official-binary-distributions) yome.
 
-Le kpɔɖeŋu sia me la míezãa Linux, OS ƒe tɔtrɔ bubuwo li.
+Le kpɔɖeŋu sia me la, míezã Linux, OS ƒe version bubuwo hã le mɔ.
 
-Kpɔe ɖa be ɖoɖoa kpɔ dzidzedze to ipfs –version zazã me
+Kpɔ be installation la dzɔ edzi kple   ipfs –version
 
-## Clone Nudzraɖoƒe
+## Wɔ Repository ƒe Clone
 
-Be nàdze egɔme la, tia Git nudzraɖoƒe si nèdi be yeaxɔ & awɔ eƒe nɔnɔmetata:
+Be nàdze egɔme la, tia Git repository si nèdi be nàhost eye nàwɔ clone na:
 
-Duƒuƒu ƒe Sedede: “git clone https://github.com/zechub/zechub”
+Wɔ sedede sia: "git clone https://github.com/zechub/zechub”
 
-![/content-images/Screenshot-from-2023-05-20-14-14-46-8503afccc3.webp](/content-images/Screenshot-from-2023-05-20-14-14-46-8503afccc3.webp)
+![https://i.ibb.co/HxFX37b/Screenshot-from-2023-05-20-14-14-46.png](/content-images/Screenshot-from-2023-05-20-14-14-46-8503afccc3.webp)
 
-Fifia, be woadzrae ɖo be woawɔ eƒe nɔnɔmetata to IPFS dzi.
+Fifia, be wòanɔ klalo be woawɔ clone nae to IPFS dzi.
 
-cd zechub git yeye-subɔla-nyatakaka
+cd zechub git update-server-info
 
-Ðe Gits ƒe nuwo ɖa:
+Ʋu Git ƒe objects:
 
 ![](/content-images/image-2024-04-20-175848513-2ceb90dd7b.webp)
 
-Esia wɔwɔ ana IPFS naɖe nuwo ɖa ne èwɔ Git ƒe nudzraɖoƒea yeyee emegbe.
+Esia awɔ be IPFS nate ŋu awɔ objects deduplication ne nàle Git repository la yɔm le megbe.
 
-## Tsɔe kpe ɖe IPFS ŋu
+## Tsɔe Ɖe IPFS
 
-Ne èwɔe vɔ ko la, nudzraɖoƒe ma sɔ gbe be woasubɔe. Nusi susɔ be nàwɔ koe nye be nàtsɔe akpe ɖe IPFS ŋu:
+Ne wowɔ esia vɔ la, repository ma le klalo be woaɖe dɔe. Nusi koe gale na wòawɔ lae nye be nàtsɔe aɖo ɖe IPFS:
 
 $ pwd
 
-/kɔda/myrepo
+/code/myrepo
 
-$ ipfs tsɔ -r kpee 
+$ ipfs add -r 
 
-![/content-images/Screenshot-from-2023-05-20-14-22-38-3fc2f72d91.webp](/content-images/Screenshot-from-2023-05-20-14-22-38-3fc2f72d91.webp)
+![https://i.ibb.co/LJgK1q3/Screenshot-from-2023-05-20-14-22-38.png](/content-images/Screenshot-from-2023-05-20-14-22-38-3fc2f72d91.webp)
 
-CID si do tso eme: Qmbgqox5g3614gjTb43s5mdSmmk95aGWWA9EHksL2T91A2
+CID si tsoa eme lae nye: Qmbgqox5g3614gjTb43s5mdSmmk95aGWWA9EHksL2T91A2
 
-![/content-images/Screenshot-from-2023-05-20-14-26-34-6e00fee828.webp](/content-images/Screenshot-from-2023-05-20-14-26-34-6e00fee828.webp)
+![https://i.ibb.co/GvhCLwn/Screenshot-from-2023-05-20-14-26-34.png](/content-images/Screenshot-from-2023-05-20-14-26-34-6e00fee828.webp)
 
-Si nya nu! Fifia wotsɔ wò nudzraɖoƒea da ɖe network la dzi.
+Enyo ŋutɔ! Fifia la, wò repository la le network la dzi.
 
-## Kloe to IPFS zazã me
+## Wɔ Clone Kple IPFS
 
-Ele be nàte ŋu axɔ GitHub nudzraɖoƒea azɔ to:
+Fifia la, ele be nàte ŋu axɔ GitHub repository la kple:
 
-git ƒe nɔnɔmetata http://ipfs.io/ipfs/yourCID
+git clone http://ipfs.io/ipfs/yourCID
 
-Alo àte ŋu adi & axɔe to wò IPFS node si le mia gbɔ zazã me.
+Le mɔ bubu nu la, àte ŋu adi eye nàxɔe kple wò ŋutɔ ƒe IPFS ɣaɣla dzesi ŋɔŋlɔ [node].
 
-De dzesii Mamlɛtɔ: Repo agbalẽdzraɖoƒe si le IPFS dzi mexɔa yeyewo kpe ɖe github nudzraɖoƒe ŋutɔŋutɔ ŋu o. Wokafui be nàgbugbɔ akɔ agbalẽdzraɖoƒea ɖe edzi le ɣeyiɣi aɖewo me.
+Didienu Mlɔeba: Repo folder si le IPFS dzi la mexɔa updatewo ɖe GitHub repository ŋutɔ la ƒe updatewo kplii o. Woɖe aɖaŋu be nàtsɔ folder la aɖo ake le ɣeyiɣi siwo ɖoɖo me.

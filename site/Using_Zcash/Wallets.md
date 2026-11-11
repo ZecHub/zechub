@@ -1,3 +1,4 @@
+
 # Wallets
 
 ## [ZODL](https://zodl.com)
@@ -7,7 +8,7 @@
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address | Hardware
 - Pools: Transparent | Sapling | Ironwood
 - Features: Address Book | CrossPay | Flexa Payments | NEAR Intents | Payment Request | Shielded Memo | Spend before Sync | TEX Address | Tor Support | Voting
-- Ironwood: Ready
+- NU7: Compatible
 
 ---
 
@@ -29,7 +30,7 @@
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address
 - Pools: Sapling | Ironwood
 - Features: Discord Bot
-- Ironwood: Ready
+- NU7: Not Verified
 
 ---
 
@@ -40,7 +41,7 @@
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address
 - Pools: Transparent | Sapling | Ironwood
 - Features: Address Book | Financial Insights | Payment Request | PepperSync | Shielded Memo | Testnet Support
-- Ironwood: Ready
+- NU7: Compatible
 
 ---
 
@@ -51,7 +52,7 @@
 - Wallet Support: Seed Phrase | Unified Address
 - Pools: Transparent | Sapling | Ironwood
 - Features: Automatic Shielding | Multi Coin | Shielded Memo | Spend before Sync | Swaps | ZNS Names
-- Ironwood: Ready
+- NU7: Compatible
 
 ---
 
@@ -62,18 +63,19 @@
 - Wallet Support: Seed Phrase | Unified Address
 - Pools: Transparent | Sapling | Ironwood
 - Features: CrossPay | Multi Coin | Spend before Sync | Swaps
-- Ironwood: Ready
+- NU7: Not Ready
 
 ---
 
 ## [eZcash](https://play.google.com/store/apps/details?id=com.Nerdbank.eZcash.App)
 ![logo](/content-images/wallets/ezcash.webp "eZcash")
+- Status: Deprecated
 - Devices: Mobile | Desktop
 - Operating System: Android | iOS | Windows
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address
 - Pools: Transparent | Sapling
 - Features: Address Book | Address Check | Address Rotation | Automatic Shielding | Payment Request | Shielded Memo | TEX Address | Testnet Support
-- Ironwood: Not Ready
+- NU7: Not Ready
 
 ---
 
@@ -84,7 +86,7 @@
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address | Hardware
 - Pools: Transparent | Sapling | Ironwood
 - Features: Address Rotation | Encrypted Backup | FROST Multisig | Multi Account | Offline Signing | Shielded Memo | Testnet Support | Tor Support | Voting
-- Ironwood: Ready
+- NU7: Compatible
 
 ---
 
@@ -95,7 +97,7 @@
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address
 - Pools: Transparent | Sapling | Ironwood
 - Features: Address Book | Address Rotation | Automatic Shielding | Multi Coin | Shielded Memo | Swaps | Tor Support
-- Ironwood: Ready
+- NU7: Compatible
 
 ---
 
@@ -106,7 +108,7 @@
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address | Full Node
 - Pools: Transparent | Sapling
 - Features: Address Book | RPC Interface | Shielded Memo | Testnet Support
-- Ironwood: Not Ready
+- NU7: Not Ready
 
 ---
 
@@ -117,7 +119,7 @@
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address
 - Pools: Transparent | Sapling | Ironwood
 - Features: Command Line Interface | PepperSync | Shielded Memo | Testnet Support
-- Ironwood: Ready
+- NU7: Compatible
 
 ---
 
@@ -129,7 +131,7 @@
 - Pools: Transparent | Sapling | Ironwood
 - Features: RPC Interface | Shielded Memo | Testnet Support
 - Stage: Beta
-- Ironwood: Ready
+- NU7: Compatible
 
 ---
 
@@ -151,7 +153,7 @@
 - Wallet Support: Seed Phrase | Unified Address
 - Pools: Transparent
 - Features: Shielded Memo | Testnet Support
-- Ironwood: In Progress
+- NU7: Not Ready
 
 ---
 
@@ -162,7 +164,7 @@
 - Wallet Support: Seed Phrase | Unified Address
 - Pools: Transparent | Sapling
 - Features: Multi Coin
-- Ironwood: Not Ready
+- NU7: Not Verified
 
 ---
 
@@ -173,7 +175,7 @@
 - Wallet Support: Seed Phrase | Unified Address
 - Pools: Transparent | Sapling
 - Features: Swaps | ZNS Names
-- Ironwood: Not Ready
+- NU7: Compatible
 
 ---
 
@@ -184,7 +186,7 @@
 - Wallet Support: Seed Phrase | Unified Address | Hardware
 - Pools: Transparent | Sapling | Ironwood
 - Features: Multi Account | Payment Links | Pool Transfer | Shielded Memo
-- Ironwood: Ready
+- NU7: Compatible
 
 ---
 
@@ -195,7 +197,7 @@
 - Wallet Support: Seed Phrase
 - Pools: Transparent
 - Features: Multi Coin | Multisig
-- Ironwood: Transparent only
+- NU7: Not Ready
 
 ---
 
@@ -206,7 +208,7 @@
 - Wallet Support: Seed Phrase
 - Pools: Transparent
 - Features: Multi Coin
-- Ironwood: Not Ready
+- NU7: Not Ready
 
 ---
 
@@ -217,7 +219,7 @@
 - Wallet Support: Seed Phrase | Hardware
 - Pools: Transparent
 - Features: Multi Coin | Swaps
-- Ironwood: Transparent only
+- NU7: Not Ready
 
 ---
 
@@ -228,7 +230,7 @@
 - Wallet Support: Seed Phrase
 - Pools: Transparent
 - Features: Multi Coin
-- Ironwood: Transparent only
+- NU7: Not Ready
 
 ---
 
@@ -238,7 +240,7 @@
 - Wallet Support: Hardware | Unified Address
 - Pools: Transparent | Ironwood
 - Features: Multi Coin
-- Ironwood: Ready
+- NU7: Not Ready
 
 ---
 
@@ -249,7 +251,7 @@
 - Wallet Support: Hardware
 - Pools: Transparent | Ironwood
 - Features: Multi Coin
-- Ironwood: Ready
+- NU7: Not Ready
 
 ---
 
@@ -260,7 +262,7 @@
 - Wallet Support: Seed Phrase | Hardware
 - Pools: Transparent
 - Features: Multi Coin
-- Ironwood: Not Ready
+- NU7: Not Ready
 
 ---
 
@@ -270,7 +272,7 @@
 - Wallet Support: Hardware
 - Pools: Transparent
 - Features: Multi Coin
-- Ironwood: Not Ready
+- NU7: Not Ready
 
 ---
 
@@ -281,7 +283,7 @@
 - Wallet Support: MPC Vault
 - Pools: Transparent
 - Features: Multi Coin
-- Ironwood: Not Ready
+- NU7: Compatible for Transparent ZEC
 
 ---
 
@@ -292,7 +294,7 @@
 - Wallet Support: Seed Phrase | Unified Address | Hardware
 - Pools: Transparent | Sapling | Ironwood
 - Features: Gift Cards | NEAR Intents | Shielded Memo | Testnet Support | Voting
-- Ironwood: Ready
+- NU7: Compatible
 
 ---
 
@@ -303,7 +305,7 @@
 - Wallet Support: Seed Phrase | Unified Address | Hardware
 - Pools: Transparent | Ironwood
 - Features: DApp Connections | Lending & Borrowing | Swaps | ZNS Names
-- Ironwood: Ready
+- NU7: Compatible
 
 ---
 
@@ -315,7 +317,7 @@
 - Pools: Transparent | Sapling | Ironwood
 - Features: Multi Coin | NEAR Intents | No KYC | Swaps
 - Stage: Beta
-- Ironwood: Ready
+- NU7: Compatible
 
 ---
 
@@ -326,7 +328,7 @@
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address | Hardware
 - Pools: Transparent | Sapling | Ironwood
 - Features: Fiat Off-ramp | Messenger | NEAR Intents | P2P Payments | P2P Trading | Shielded Memo | Tor Support | Voting
-- Ironwood: Ready
+- NU7: Not Ready
 
 ---
 
@@ -337,7 +339,7 @@
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address | Spending Key | Full Node
 - Pools: Transparent | Sapling | Ironwood
 - Features: Encrypted Backup | RPC Interface | Shielded Memo
-- Ironwood: Ready
+- NU7: Compatible
 
 ---
 
@@ -349,7 +351,7 @@
 - Pools: Transparent | Sapling
 - Features: No KYC | Shielded Memo
 - Stage: Beta
-- Ironwood: Not Ready
+- NU7: Not Ready
 
 ---
 
@@ -360,7 +362,7 @@
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address | Spending Key | Full Node
 - Pools: Ironwood
 - Features: Address Book | I2P Support | Shielded Memo | Tor Support | Transaction Export
-- Ironwood: Ready
+- NU7: Compatible
 
 ---
 
@@ -372,7 +374,7 @@
 - Pools: Transparent | Sapling
 - Features: AI Agent (MCP) | CipherPay | Command Line Interface | FROST Multisig | NEAR Intents | Payment Request | Shielded Memo | Testnet Support
 - Stage: Beta
-- Ironwood: In Progress
+- NU7: Not Ready
 
 ---
 
@@ -383,7 +385,7 @@
 - Wallet Support: Seed Phrase | Spending Key | Private Key
 - Pools: Transparent | Sprout | Sapling | Ironwood
 - Features: Command Line Interface | Shielded Memo | Testnet Support | Wallet Recovery
-- Ironwood: Ready
+- NU7: Compatible
 
 ---
 
@@ -394,9 +396,9 @@
 - Wallet Support: Seed Phrase
 - Pools: Transparent
 - Features: Multi Coin
-- Ironwood: Transparent only
+- NU7: Not Ready
 
---- 
+---
 
 ## [Freedom Wallet](https://www.freedomwallet.com/)
 ![logo](/content-images/wallets/freedom-wallet.webp "Freedom Wallet")
@@ -405,7 +407,7 @@
 - Wallet Support: Seed Phrase
 - Pools: Transparent
 - Features: Multi Coin | Swaps
-- Ironwood: Transparent only
+- NU7: Not Ready
 
 ---
 
@@ -416,5 +418,5 @@
 - Wallet Support: Seed Phrase | Wallet Import | Viewing Keys | Cold Signing
 - Pools: Transparent | Orchard (Legacy) | Ironwood | Penumbra Shielded
 - Features: Multi-Chain | Shielded Transactions | Swaps | FROST Multisig | Cold Signing
-- Ironwood: Shielded and Transparent
-- Status: Beta (Continuous Development)
+- NU7: Not Ready
+- Status: Beta 

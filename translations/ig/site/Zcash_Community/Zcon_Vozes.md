@@ -2,17 +2,17 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-Ihe na-esote bụ nchịkọta nke ọtụtụ Zcon Vozes metụtara mgbasa ozi na ebe dị mfe ịchọta.
+Ihe ndị a bụ nchịkọta nke mgbasa ozi metụtara Zcon Vozes, n’ebe dị mfe ịchọta.
 
-# Zcon Ụda olu
-Zcon Vozes bụ nzukọ kwa afọ nke [Zcash Brazil](https://zcashbr.com/) [Zcashbrasil.com.br](https://zcashbrasil.com.br/).
+# Zcon Vozes
+Zcon Vozes bụ ọgbakọ a na-eme kwa afọ nke [Zcash Brazil](https://zcashbr.com/) | [zcashbrasil.com.br](https://zcashbrasil.com.br/) na-ahazi.
 
-## Zcon Vozes Brasil
+## Zcon  Vozes Brasil
 
-Ihe omume Zcash mbụ na mpụga United States, nke Zcash Foundation kwadoro, mere na Machị 18, 2023.
-Emere ya na Museum of Tomorrow, na-egosi kọntinenti ahụ dị ka ebe obibi nke abụọ kachasị ukwuu nke Zcash n'ụwa. 
+Emume Zcash mbụ e mere n’èzí United States, nke Zcash Foundation kwadoro, mere na Machị 18, 2023.
+E mere ya na Museum of Tomorrow a ma ama, nke mere ka kọntinent ahụ bụrụ ebe obibi nke obodo Zcash nke abụọ kachasị ukwuu n’ụwa. 💛
 
-[Zcon Olu 1 Playlist](https://www.youtube.com/playlist?list=PLez2pAhViAI2KiXyPtcXIfmC5FQ-ozrPf)
+[Ndepụta egwu Zcon Vozes 1](https://www.youtube.com/playlist?list=PLez2pAhViAI2KiXyPtcXIfmC5FQ-ozrPf)
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -26,13 +26,13 @@ Emere ya na Museum of Tomorrow, na-egosi kọntinenti ahụ dị ka ebe obibi nk
 </div>
 
 
-## Zcon Olu 2
+## Zcon Vozes 2
 
-Ihe omume a raara nye ịtụle teknụzụ, nzuzo, blockchain, akụ crypto, akụrụngwa ego, ihe ọhụrụ, na ọdịnihu nke ịntanetị mepere emepe.
-We bring together conversations with experts, professors, developers, researchers, and community members to explore topics such as Zcash, financial privacy, RWAs (Real-World Assets), asset tokenization, Web3, security, digital sovereignty, and new applications of blockchain technology.
-The goal of Zcon Vozes is to bridge technical knowledge, market insights, and accessible education, bringing the Brazilian community closer to the most important debates regarding privacy, decentralization, and the future of digital finance.
+Emume a raara nye ikwurịta teknụzụ, Nzuzo [privacy], blockchain [blockchain], akụ crypto, akụrụngwa ego, mmepụta ọhụrụ, na ọdịnihu nke ịntanetị mepere emepe.
+Anyị na-akpọkọta mkparịta ụka na ndị ọkachamara, ndị prọfesọ, ndị onye mmepụta [developer], ndị nchọpụta, na ndị otu obodo iji nyochaa isiokwu dịka Zcash, Nzuzo ego, RWAs (Akụ Ezi Ụwa), itinye token n’akụ, Web3, nchekwa, ọchịchị dijitalụ, na ngwa ọhụrụ nke teknụzụ blockchain.
+Ebumnuche Zcon Vozes bụ ịbụ bridge [bridge] n’etiti ọmụma teknụzụ, nghọta ahịa, na agụmakwụkwọ dị mfe inweta, na-eme ka obodo Brazil bịaruo nso na arụmụka kachasị mkpa gbasara Nzuzo, decentralization, na ọdịnihu ego dijitalụ.
 
-[Zcon Olu 2 Playlist](https://www.youtube.com/playlist?list=PLez2pAhViAI1S5fJwhJa9g91x3io4NLTz)
+[Ndepụta egwu Zcon Vozes 2](https://www.youtube.com/playlist?list=PLez2pAhViAI1S5fJwhJa9g91x3io4NLTz)
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -44,6 +44,3 @@ The goal of Zcon Vozes is to bridge technical knowledge, market insights, and ac
     loading="lazy"
   />
 </div>
-
-
-

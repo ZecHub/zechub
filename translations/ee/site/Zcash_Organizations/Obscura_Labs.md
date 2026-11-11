@@ -1,212 +1,212 @@
 # Obscura Labs
 <img width="369" height="434" alt="obscuralabs" src="/content-images/5fda3e74-750c-487e-92e9-3cacc15f9b4b-b41e98d3e5.webp" />
 
-[Yi Nyatakakadzraɖoƒe](https://www.obscuralabs.org/)
+[Yi website](https://www.obscuralabs.org/)
 
-## Dɔ Siwo Woɖo Ðe Amewo Ŋu
+## Dɔwɔwɔ ƒe Nyagblɔɖi
 
-Obscura Labs nye habɔbɔ si le eɖokui si si woɖo ɖe Nigeria eye eƒe susu katã le Afrika kple dukɔ siwo le ŋgɔ yim la ŋu.
+Obscura Labs nye ɖokuia ƒe habɔbɔ si wo ŋlɔ ɖe Nigeria, eye wò ƒe ɖoɖo vevi le Afrika kple asi le dzadzɛ ƒe asimewo bubuwo dzi.
 
-Eƒe dɔe nye be wòatu nuɖoanyiwo, dɔwɔnuwo, kple mɔnu siwo dzi woato awɔ dɔe siwo ana Zcash-mɔ̃a ƒe dɔwɔwɔ, eƒe viɖe, eƒe akpaɖekedzimademade, kple alesi wòate ŋu anɔ te ɖe enu le ɣeyiɣi didi aɖe me la nanyo ɖe edzi le Afrika katã.
+Eƒe dɔwɔwɔe nye be wòatu nɔnɔme, dɔwɔnu [tools], kple mɔ siwo ana woawɔe le ŋutilã me, siwo ana Zcash ƒe habɔbɔ nakpɔe bɔbɔe, anɔ kɔkɔe, anɔ ha nuɖo agni [decentralized], eye wòanye sesĩe ɣeyiɣi didi me le Afrika katã.
 
-Habɔbɔa ƒe taɖodzinue nye be yeakpe asi ɖe gadzraɖoƒomɔ̃ siwo kpɔa amewo ƒe agbe ta la zazã ŋu to mɔ̃ɖaŋunu siwo dzi woate ŋu aka ɖo la zazã me, kpekpeɖeŋu nana dɔwɔla kple asitsalawo, hehe nana ame siwo zãa Zcash, kple ŋusẽdodo nutoa me tɔwo.
+Habɔbɔa di be yeaƒo asi na ɣaɣla [privacy] si le ga ƒe dɔwɔwɔ me ƒe mɔ̃ ƒe zazã, to mɔ siwo ana amewo nakpɔ nɔnɔme nyui, kpe ɖe mɔ̃ ƒe ɖoɖoŋlɔla [developer]wo kple asiwo ŋu, fia nu zãlawo, eye wòasesẽ Zcash ƒe habɔbɔwo le teƒea me.
 
-## Ŋutinya
+## Gɔmedzedze ƒe Nyawo
 
-Chidi Olisa, si nye Zcash Nigeria ƒe amegã ye ɖo Obscura Labs.
+Obscura Labs ye Chidi Olisa, Zcash Nigeria ƒe kplɔla, wɔ.
 
-Before establishing Obscura Labs, Chidi contributed to the Zcash ecosystem through community building, education, advocacy, localized content creation, user support, and initiatives designed to introduce people in Nigeria and other parts of Africa to financial privacy and Zcash.
+Hafi yeatu Obscura Labs la, Chidi de asi Zcash ƒe habɔbɔa ƒe dɔ me to habɔbɔwo tutu, nusɔsrɔ, ɖeɖefia, nyawo ŋlɔŋlɔ ɖe teƒea ƒe gbe me, zãla ƒe kpekpeɖeŋu, kple dɔwɔwɔ siwo ƒe ta nye be woaɖe amewo le Nigeria kple Afrika ƒe teƒewo bubuwo me akpɔ ga ƒe ɣaɣla kple Zcash.
 
-Engagement with users, students, developers, businesses, and community members highlighted several barriers to broader Zcash adoption across Africa. These included limited infrastructure, difficulty accessing ZEC through local currencies, insufficient developer support, a shortage of localized educational resources, and limited integration with everyday payment systems.
+Nukpekpe kple zãlawo, nusrɔlawo, mɔ̃ ƒe ɖoɖoŋlɔlawo, asiwo, kple habɔbɔa ƒe amewo fia ƒomevi geɖe siwo do mɔ na Zcash ƒe zazã le Afrika katã. Esiawoe nye nɔnɔme ƒe sue, sukɔkɔe si le be woakpɔ ZEC to teƒea ƒe ga me, kpekpeɖeŋu si mesɔ na mɔ̃ ƒe ɖoɖoŋlɔlawo o, nusɔsrɔ ƒe nuŋlɔɖi siwo woɖe ɖe teƒea ƒe gbe me ƒe sue, kple kadodo sue kple fexexe [payment] ƒe ɖoɖowo siwo wozã gbe sia gbe.
 
-Wowɔ Obscura Labs le kuxi siawo gbɔ kpɔkpɔ ta.
+Obscura Labs dzɔ ɖe kuxi siawo ŋu.
 
-Habɔbɔa nɔ te ɖe nukpɔsusu si nye be amewo nyanya ɖeɖe mesɔ gbɔ o hena wo xɔxɔ le mɔ nyuitɔ nu o dzi. Ƒomewo hã hiã gɔmeɖoanyi si dzi woate ŋu aka ɖo, nu siwo woate ŋu azã, dɔwɔnu siwo nana wowɔa nuwo, ga ƒe amesinɔnɔ, hehexɔxɔ, kple ɣeyiɣi didi ƒe kpekpeɖeŋu tso habɔbɔwo gbɔ.
+Habɔbɔa tsi tre ɖe susu sia dzi be nyanya ɖeka menya o ne wodi be zazã nasɔ ɣeyiɣi didi. Habɔbɔwo hã hiã nɔnɔme si wòle dzi, nuƒoƒo si woate ŋu akpɔ bɔbɔe, dɔwɔnu na mɔ̃ ƒe ɖoɖoŋlɔlawo, ga ƒe mɔnu, nusɔsrɔ, kple habɔbɔ ƒe kpekpeɖeŋu si asɔ ɣeyiɣi didi.
 
-## Ŋutega
+## Nukpɔkpɔ
 
-Obscura Labs ƒe taɖodzinue nye be yeakpe ɖe Afrika ŋu wòava zu nuto siwo me Zcash-mɔ̃wo, eƒe zazã, kple nutoa me nuwo ƒe tsitsi le sesẽ wu la dometɔ ɖeka.
+Obscura Labs ƒe nukpɔkpɔe nye be yeaƒo asi na Afrika wòazu teƒe sesĩe aɖe le Zcash ƒe nɔnɔme, zazã, kple habɔbɔa ƒe tsitsi me.
 
-Habɔbɔa di be yeanye Afrika dukɔ si ƒe akpa gãtɔ le asi kpem ɖe Zcash ƒe nutoa me ŋu to:
+Habɔbɔa di be yeazu Afrika ƒe amedzro vevi aɖe si ana Zcash ƒe habɔbɔa nakpɔ nu nyui to:
 
-* Wole Zcash gɔmeɖoanyi si dzi woate ŋu aka ɖo zãm.
-* Wole asi trɔm le ZEC ŋu eye wole ga si woaxe ɖe ame ŋu ta kpɔm.
-* Kpekpeɖeŋunana amesiwo zãa mɔnu sia, dɔwɔƒewo, kple habɔbɔ siwo le nutoa me.
-* Wole dɔwɔnu kple subɔsubɔdɔ siwo sɔ la wɔm.
-* Woade dzi ƒo na amewo be woazã Zcash le mɔ si sɔ nu.
-* Zcash ƒe gɔmeɖoanyiwo kple nutoa me tɔwo ƒe gomekpɔkpɔ le nu gbagbewo me ƒe agbɔsɔsɔ si le anyigba dzi la dzi ɖe edzi.
+* Zcash ƒe nɔnɔme si wòle dzi ƒe dɔwɔwɔ.
+* Mɔ siwo ana woakpɔ ZEC kple fexexe siwo dzra ɣaɣla ɖo ƒe nyonyo.
+* Kpekpeɖeŋu na zãlawo, mɔ̃ ƒe ɖoɖoŋlɔlawo, asiwo, kple habɔbɔ ƒe ɖoɖowo.
+* Dɔwɔnu kple subɔsubɔ siwo ana woawɔe le ŋutilã me ƒe tutu.
+* Zcash ƒe habɔbɔ siwo anɔ anyi ɣeyiɣi didi ƒe dziɖoɖo.
+* Teƒe ƒe vovototo ƒe tsitsi le Zcash ƒe nɔnɔme kple habɔbɔa ƒe amedede me.
 
-## Teƒe Siwo Ŋu Ŋusẽ Le
+## Dɔwɔwɔ ƒe Teƒe Veviwo
 
-Le gɔmedzedzea me la, Obscura Labs ɖoe be yeatsɔ yeƒe dɔa aɖo nɔƒe vevi ene.
+Obscura Labs ɖo eƒe ŋku ɖe dɔwɔwɔ ƒe teƒe vevi ene dzi gbã.
 
-### Mɔ̃ɖaŋudɔwɔƒewo
+### Nɔnɔme ƒe Tutu
 
-Ehiã be mɔ̃ɖaŋunu siwo dzi woate ŋu aka ɖo la nanɔ anyi na gakpɔwo, dɔwɔnuwo, dɔwɔƒewo, gadzraɖoƒewo, kple nuƒlelawo be woate ŋu awɔ nu kple Zcash ƒe kadodoa.
+Nɔnɔme si wòle dzi hiã na gakotoku [wallet]wo, applicationwo, mɔ̃ ƒe ɖoɖoŋlɔlawo, gatrɔƒe [exchange]wo, fexexe ƒe subɔsubɔwo, kple zãlawo be woate ŋu ado go kple Zcash ƒe network.
 
-Obscura Labs operates and develops Zcash infrastructure within Africa to improve network accessibility, geographic diversity, reliability, and resilience. This work is intended to reduce reliance on a small number of infrastructure operators and provide dependable services for users and developers in African markets.
+Obscura Labs wɔna eye wòtu Zcash ƒe nɔnɔme le Afrika me be networka ƒe nyonyo, teƒe ƒe vovototo, dzidzedze, kple sesẽ nasɔ. Dɔ sia ƒe ta nye be yeaɖe nɔnɔme ƒe dɔwɔlawo ƒe sue ƒe dziɖoɖo ɖa eye wòana subɔsubɔ si wòle dzi na zãlawo kple mɔ̃ ƒe ɖoɖoŋlawo le Afrika ƒe asimewo.
 
-Mɔ̃ɖaŋudɔwɔƒewo ƒe ɖoɖowo ate ŋu anye:
+Nɔnɔme ƒe dɔwɔwɔwo ate ŋu akpɔe le:
 
-* Amegbetɔwo ƒe Zcash mainnet RPC nuƒleƒewo.
-* Amegbetɔwo ƒe Zcash testnet RPC nuƒleƒewo.
-* Zebra full nodes.
-* lightwalletd ƒe dɔwɔƒewo.
-* DNS-dzidzelawo.
-* Dukɔa ƒe mɔ̃ɖaŋunuwo dzikpɔkpɔ.
-* Developer-focused APIs.
-* Dɔwɔgbalẽviwo kple agbalẽwo.
-* Subɔsubɔdɔ bubu siwo ɖea mɔxeɖenuwo dzi kpɔtɔna le Zcash dzi tutu me.
+* Zcash ƒe mainnet RPC ƒe teƒe si amewo katã ate ŋu azã.
+* Zcash ƒe testnet RPC ƒe teƒe si amewo katã ate ŋu azã.
+* Zebra ƒe ɣaɣla dzesi ŋɔŋlɔ blibo [full node]wo.
+* lightwalletd ƒe subɔsubɔwo.
+* DNS seederwo.
+* Nɔnɔme ƒe ŋkɔkpɔkpɔ si amewo katã ate ŋu akpɔ.
+* APIwo siwo woɖo ɖe mɔ̃ ƒe ɖoɖoŋlɔlawo ŋu.
+* Kadodo ƒe dɔwɔnuwo kple nuŋlɔɖiwo.
+* Subɔsubɔ bubuwo siwo ana nu si do mɔ na tutu le Zcash dzi nasue.
 
-To mɔ̃ɖaŋunuwo zazã le mɔ bɔbɔe nu me la, Obscura Labs ƒe taɖodzinue nye be yeakpe ɖe dɔwɔƒewo, dɔwɔɖuiwo, kple dɔwɔƒe bubuwo ŋu be woawɔ ɖeka kple Zcash ƒe nutoa me.
+To nɔnɔme ƒe nyonyo nazu bɔbɔe wu me la, Obscura Labs di be yeaƒo asi na mɔ̃ ƒe ɖoɖoŋlɔlawo, gakotokuwo, applicationwo, asiwo, kple subɔsubɔwo siwo le kadodo wɔm kple Zcash ƒe habɔbɔa.
 
-### Amesiwo Dzea Vivi Eye Wotea Ŋu Kpɔa Ganyawo Gbɔ
+### Zazã kple Ga Ƒe Mɔnu
 
-Be Zcash naɖe vi le gbesiagbe nuwɔnawo me la, ele be amewo nate ŋu aƒle ZEC, adzrae, azãe, ahazãe le mɔ si maɖe fu na wo o nu.
+Ne Zcash ado ŋusẽ le gbe sia gbe ƒe nɔnɔme me la, ele be amewo nakpɔe, adzra ɖo, azãe, eye woatrɔ ZEC manɔ kuxi si mehiã o.
 
-Obscura Labs le asi kpem ɖe ɖoɖo siwo wowɔ be woana:
+Obscura Labs kpena ɖe dɔwɔwɔwo ŋu siwo ƒe ta nye be woana nyuie le:
 
-* ZEC kple Afrika dukɔ me gawo dome kadodo.
-* Fiat ƒe ʋuʋu kple ʋuʋu ƒe mɔwo.
-* Asitsala aɖe ƒe viwoe woxɔ.
-* Fetuwo tsɔtsɔ wɔ ɖeka.
-* Gbegbexefewo.
-* Ameƒolawo ƒe ʋuʋu.
-* Ga si le ame si ƒe kotoku me.
-* Ame ɖekaɖekawo kple dɔwɔƒewo ƒe ZEC zazã le dɔwɔwɔ me.
+* Mɔ si le ZEC kple Afrika ƒe teƒea ƒe gaawo dome.
+* Fiat ƒe gege ƒe mɔwo kple dodo ƒe mɔwo.
+* Asime ƒe zazã.
+* Fexexe ƒe kadodowo.
+* Fexexe siwo atravɔ dukɔ ƒe liƒo.
+* Zãla ƒe gbedede.
+* Gakotoku ƒe nyonyo.
+* ZEC ƒe zazã si le ŋutilã me na amesiame kple asiwo.
 
-Particular attention is given to services that address challenges commonly experienced in African markets, including currency instability, financial exclusion, expensive cross-border transfers, limited access to global payment systems, and increasing financial surveillance.
+Woƒoa ŋku tɔxɛ na subɔsubɔ siwo ɖea kuxi siwo wodea ŋu kpɔna le Afrika ƒe asimewo me, abe ga ƒe meliƒo, ga ƒe mɔnu ƒe megakpɔkpɔ, ga si xɔ asi le dukɔ ƒe liƒo vɔlɔ, mɔ si sue le dukɔ blibo ƒe fexexe ƒe ɖoɖowo gbɔ, kple ga ƒe ŋkɔkpɔkpɔ si le tsitsim ene.
 
-### Ƒomewo ƒe Dzidziɖedzi Kple Ŋkuɖoɖo Wo Dzi
+### Habɔbɔ ƒe Tsitsi kple Nyanya
 
-Obscura Labs le asi kpem ɖe Zcash-ha siwo li ɖaa la tutu ŋu le Afrika katã.
+Obscura Labs ƒoa asi na Zcash ƒe habɔbɔ siwo anɔ anyi ɣeyiɣi didi le Afrika katã ƒe tutu.
 
-Eƒe habɔbɔa ƒe ɖoɖowo dometɔ aɖewoe nye:
+Eƒe habɔbɔ ƒe dɔwɔwɔwo ate ŋu akpɔe le:
 
-* Nusɔsrɔ̃ ƒe dɔwɔƒewo.
-* Kɔledziwo ƒe kpekpeɖeŋunana amewo.
-* Hadomenuwɔnawo.
-* Nyatakaka siwo le teƒe ɖeka.
-* Gbegɔmeɖeɖewo.
-* Wole hehe nam xɔtulawo.
-* Ameƒolawo ƒe ʋuʋu.
-* Ƒuƒoƒowo dome kadodo.
-* Ðoɖowɔɖi siwo dzi wowɔna ɖo be woakpe ɖe amesiwo le dɔ wɔm ŋu.
-* Kpekpeɖeŋu na Zcash-ha siwo le nutoa me.
+* Nusɔsrɔ ƒe workshopwo.
+* Yunivesiti ƒe kadodo.
+* Habɔbɔ ƒe nudzɔdzɔwo.
+* Nuŋlɔɖi siwo woɖe ɖe teƒea ƒe gbe me.
+* Gbe trɔtrɔ.
+* Mɔ̃ ƒe ɖoɖoŋlɔla ƒe hehe.
+* Zãla ƒe gbedede.
+* Habɔbɔ ƒe hadede.
+* Dɔmedelawo ƒe dzidzime ƒe ɖoɖowɔwɔwo.
+* Kpekpeɖeŋu na Zcash ƒe habɔbɔwo le nutomewo me.
 
-The organizations objective is not limited to increasing general awareness. It also seeks to help communities develop the knowledge and resources needed to educate users, support local adoption, train developers, and produce future advocates and ecosystem contributors.
+Habɔbɔa ƒe ta menye be yeaɖe nyanya gbogblobo ɖe dzi ko o. Edi hã be yeakpe ɖe habɔbɔwo ŋu be woatsɔ nyanya kple nu siwo woahiã aƒia nu zãlawo, akpe ɖe teƒea ƒe zazã ŋu, ahe mɔ̃ ƒe ɖoɖoŋlɔlawo, eye woawɔ ɖeɖefialawo kple habɔbɔa ƒe dɔmedelawo siwo ava le yame.
 
-### Agbewo Kple Wo Nɔƒewo Dome Ƒuƒoƒo
+### Habɔbɔa Ƒe Hadede
 
-Obscura Labs wɔa dɔ kple habɔbɔwo, nufialawo, numekulawo, dɔwɔƒewo, mɔ̃ɖaŋudɔwɔlawo, kple nutoa me tɔwo ƒe kplɔlawo le Zcash ƒe nutoa katã me.
+Obscura Labs wɔa dɔ kple habɔbɔwo, mɔ̃ ƒe ɖoɖoŋlɔlawo, nufialawo, numekpɔlawo, asiwo, nɔnɔme ƒe dɔwɔlawo, kple habɔbɔ ƒe kplɔlawo le Zcash ƒe habɔbɔa katã.
 
-Wodi be woawɔ dɔ aduadu sia atsɔ akpe asi ɖe ɖoɖo siwo gbɔna ŋu:
+Hadede sia ƒe ta nye be yeaƒo asi na dɔwɔwɔwo siwo:
 
-* Ganyawo ŋuti nya ɣaɣla.
-* Do ŋusẽ Zcash ƒe kadodoa.
-* Na ZEC ƒe dɔwɔwɔ nanyo ɖe edzi.
-* Keke ɖe Zcash-mɔ̃wo ŋu.
-* De dzi ƒo na amewo be woazã dɔwɔnu siwo me mɔɖeɖe le.
-* Kpe asi ɖe Zcash hame siwo le dzidzim ɖe edzi la ŋu.
-* Be Afrika kple dukɔ siwo le ŋgɔ yim la ƒe akpaɖekedzimɔnuwo naɖe vi na wo.
+* Atsɔ ga ƒe ɣaɣla ava ŋgɔ.
+* Asesẽ Zcash ƒe network.
+* Ana ZEC ƒe zazã nasɔ nyuie.
+* Atsɔ mɔ nu na Zcash ƒe nɔnɔme.
+* Ado ŋusẽ na open-source ƒe mɔ̃ ƒe tutu.
+* Akpe ɖe Zcash ƒe habɔbɔ siwo le dzadzɛ ŋu.
+* Atsɔ Afrika kple asi le dzadzɛ ƒe asimewo bubuwo ƒe amedede ava habɔbɔa me.
 
-Obscura Labs wɔa dɔ le wo ɖokui si eye wowɔa dɔ aduadu kple Zcash ƒe dɔwɔha bubuwo.
+Obscura Labs wɔa dɔ le eɖokui ƒe mɔ nu, gake wòwɔa dɔ ɖe ta siwo wòma kple Zcash ƒe habɔbɔa ƒe amedzrowo.
 
-## Dɔ Siwo Wole Nu Wɔm Fifia
+## Dɔwɔwɔ Siwo Le Dzɔm Fifia
 
-Togbɔ be Obscura Labs le eƒe ŋgɔyiyi ƒe gɔmedzedze hã la, wodze ɖoɖo geɖe gɔme xoxo.
+Esi Obscura Labs le eƒe dzidzime ƒe akpa me hã la, dɔwɔwɔ geɖe de asi xoxo.
 
-### Afrikatɔwo ƒe DNS Seeder Mɔ̃wo
+### Afrika Ƒe DNS Seeder Ƒe Nɔnɔme
 
-Dzɔdzɔmeŋutinunyalawo ƒe dɔwɔƒe si nye Obscura Labs zãa DNS-dɔwɔƒe siwo le Afrika.
+Obscura Labs wɔa DNS seeder ƒe nɔnɔme tso Afrika.
 
-DNS seeders kpena ɖe Zcash nodes yeyewo ŋu wodzea si woƒe haxɔsetɔwo ne wole kadodo me kple kadodoa.
+DNS seederwo kpena ɖe Zcash ƒe ɣaɣla dzesi ŋɔŋlɔ [node] yeyeawo ŋu be woakpɔ woƒe haxɔlawo ne wole networka ƒe kadodo wɔm. Seederwo ƒe mama le teƒe vovovowo me dzea ha nuɖo agni kple Zcash ƒe peer-to-peer networka ƒe sesẽ dzi.
 
-### Zebra Node Gɔmeɖoanyiwo
+### Zebra Ƒe Node Ƒe Nɔnɔme
 
-Habɔbɔa wɔa dɔ le Zebra-wɔƒe siwo le Afrika la me.
+Habɔbɔa wɔa Zebra ƒe ɣaɣla dzesi ŋɔŋlɔwo le Afrika.
 
-Zebra nye Zcash consensus protocol ƒe dɔwɔwɔ le eɖokui si. Zebra ƒe dɔwɔwɔ kpe ɖe network accessibility, implementation diversity, kple Zcash nodes ƒe anyigbadzikɔntabubu ŋu.
+Zebra nye ɖokuia ƒe ɖoɖo si wɔ Zcash ƒe gbegbɔgblɔ ɖi [consensus] protocol. Zebra ƒe nɔnɔme ƒe dɔwɔwɔ dzea networka ƒe nyonyo, ɖoɖo ƒe vovototo, kple Zcash ƒe ɣaɣla dzesi ŋɔŋlɔwo ƒe mama le teƒe vovovowo me dzi.
 
-### lightwalletd Subɔsubɔdɔwo
+### lightwalletd Ƒe Subɔsubɔwo
 
-Obscura Labs wɔa lightwalletd ƒe ɖoɖowo ŋu dɔ tsɔ doa alɔ Zcash gakpɔtɔ ƒe kadodo.
+Obscura Labs wɔa lightwalletd ƒe nɔnɔme be yeaƒo asi na Zcash gakotoku ƒe kadodo.
 
-lightwalletd naa blockchain ŋuti nyatakakawo na light-client walletwo evɔ mebia be wallet ɖe sia ɖe zãlawo nawɔ Zcash node blibo o. Eyata LightWalletd ƒe dɔwɔwɔ siwo dzi woate ŋu aka ɖo la le vevie na mobile wallets kple Zcash ƒe dɔwɔna siwo me nu le bɔbɔe.
+lightwalletd naa gaɖoɖowo ƒuƒoƒo ƒe ɖoɖonu [blockchain] ƒe data na gakotokuwo siwo zãa nyatakaka si hiã ƒe mɔ [light client], esi menye be gakotoku zãla sia sia nakpe ɖe Zcash ƒe ɣaɣla dzesi ŋɔŋlɔ blibo aƒe dɔwɔwɔ ŋu o. Eya ta lightwalletd ƒe subɔsubɔ siwo wòle dzi le vevie na mobile gakotokuwo kple Zcash ƒe application bubuwo siwo mekpɔa nudzɔdzɔ geɖe o.
 
-### Mɔ̃ɖaŋudɔdzraɖowo Dzikpɔkpɔ
+### Nɔnɔme Ƒe Ŋkɔkpɔkpɔ
 
-Obscura Labs le ɖoɖowo wɔm be amewo nakpɔ alesi nuwo le le woƒe dɔwɔƒewo.
+Obscura Labs le ŋkɔkpɔkpɔ si amewo katã ate ŋu akpɔ kple nɔnɔme ƒe status ƒe ɖoɖowo tutu na eƒe nɔnɔme.
 
-Woɖoe be woana dɔwɔwɔ me nakɔ nyuie wu to mɔ sia dzi be amesiwo zãa mɔnu siawo kple esiwo zãm wole la ate ŋu akpɔ nyatakaka siwo amewo zãna kple alesi nuwo le.
+Ɖoɖo siawo ƒe ta nye be woana dɔwɔwɔ ƒe nublanui nakpɔ nyonyo, esi woana zãlawo kple mɔ̃ ƒe ɖoɖoŋlɔlawo ate ŋu akpɔ subɔsubɔ siwo amewo katã ate ŋu azã ƒe meli kple nɔnɔme.
 
 ### ZecFiat
 
-ZecFiat nye ɖoɖo aɖe si Obscura Labs wɔ be yeatsɔ ana ZEC kple Afrika dukɔmeviwo ƒe ga nanɔ bɔbɔe wu.
+ZecFiat nye Obscura Labs ƒe dɔwɔwɔ aɖe si ƒo ŋku ɖe mɔ si le ZEC kple Afrika ƒe teƒea ƒe gaawo dome ƒe nyonyo ŋu.
 
-Eɖoe be yeaɖe mɔxenuwo dzi akpɔtɔ na ame ɖekaɖekawo kple asisi siwo le didim be yewoaƒle, azã, alo adzra ZEC. Eƒe taɖodzinu si lolo wu enye be yeana Zcash nanɔ bɔbɔe wu le asitsatsa siwo me cryptocurrency ƒe dɔwɔwɔ kple dukɔwo dome gadzraɖoƒewo ate ŋu anɔ sue la me.
+Dɔa ƒe ta nye be yeaɖe nu siwo doa mɔ na amesiame kple asiwo siwo di be woakpɔ, azã, alo atrɔ ZEC la ɖa. Eƒe ta gaƒã wu nye be yeaƒo asi na Zcash wòazu nu si woate ŋu azã le asimewo siwo me mɔ si le cryptocurrency ƒe subɔsubɔwo kple dukɔ blibo ƒe ga ƒe ɖoɖowo gbɔ ate ŋu asue me.
 
-Wole mɔ kpɔm na nyatakaka bubuwo tso ZecFiat ƒe ɖoɖowɔɖi, asitsatsa siwo dzi wokpɔa mɔ ɖo, kple eƒe dɔwɔwɔ ƒe mɔnu ŋu ne ɖoɖowɔɖia le ŋgɔ yim.
+Woele mɔ kpɔm be nyatakaka bubu tso ZecFiat ƒe ɖoɖo, asiwo siwo wòdea asi le, eƒe meli, kple dɔwɔwɔ ƒe mɔ nu afia esi dɔwɔwɔa le tsitsim.
 
-## Ƒuƒoƒoawo
+## Dɔwɔlawo
 
-Chidi Olisa, si hã nye Zcash Nigeria habɔbɔa ƒe ŋgɔnɔla la,e ɖo Obscura Labs, eye Gentle Fox nye mɔ̃ɖaŋudɔwɔla kple dɔwɔla le Obscure Labs, si le asi kpem ɖe ɖoɖowo wɔwɔ, wo dzi kpɔkpɔ, kple habɔbɔa me mɔ̃wo kple dɔwɔƒewo ƒe dɔwɔwɔ ŋu.
+Obscura Labs ye Chidi Olisa, si kplɔa Zcash Nigeria ƒe habɔbɔa hã, wɔ, eye Gentle Fox nye nɔnɔme ƒe engineer kple dɔmede le Obscura Labs, si kpena ɖe habɔbɔa ƒe nɔnɔme kple subɔsubɔwo ƒe ɖoɖo, kpɔkpɔ, kple dzidzedze ŋu.
 
-Habɔbɔa le eƒe ŋgɔyiyi ƒe gɔmedzedze fifia. Esi wòle tsitsim la, Obscura Labs ɖoe be yeaɖo ɣeyiɣi aɖe ƒe dɔwɔla siwo si nuteƒekpɔkpɔ le le dɔ siwo dometɔ aɖewoe nye:
+Habɔbɔa le eƒe dzidzime ƒe akpa me fifia. Ne wòle tsitsim la, Obscura Labs di be yeatu dɔmede siwo wɔa dɔ ɣeyiɣi aɖe ko ƒe ha sue aɖe, siwo ƒe nunya le teƒe siawo me:
 
-* Mɔ̃ɖaŋudɔwɔwɔ.
-* Mɔ̃ɖaŋunuwo kple nuwo wɔwɔ.
-* Sukudede.
-* Dukɔ me ƒe ŋgɔyiyi.
-* Dɔwɔƒewo kple fexexeɖoɖowo ƒe ɖekawɔwɔ.
-* Nu gbagbewo kple wo nɔlawo ƒe gomenɔamesi.
-* Dzeɖoɖowo.
-* Dziɖuɖu kple habɔbɔa ƒe dɔwɔnawo.
+* Nɔnɔme ƒe dɔwɔwɔ.
+* Software kple product ƒe tutu.
+* Nusɔsrɔ.
+* Habɔbɔ ƒe tutu.
+* Asime kple fexexe ƒe kadodowo.
+* Habɔbɔa ƒe kpekpeɖeŋu.
+* Nyanyaɖeɖe.
+* Dziɖuɖu [governance] kple habɔbɔ ƒe dɔwɔwɔ.
 
-Obscura Labs hã le dɔ wɔm kple dɔwɔla bibiwo, dɔwɔƒe ƒe aɖaŋuɖolawo, kple Zcash nutoa me nɔlawo siwo ate ŋu ana mɔfiamewo alo awɔ nu abe aɖaŋuxɔlawo kple dɔdzikpɔha me tɔwo ene.
+Obscura Labs hã le dɔwɔm kple amedzro siwo wɔnɔ dɔ nyuie, industry ƒe nunyalawo, kple Zcash ƒe habɔbɔa ƒe dɔmedelawo siwo ate ŋu ana mɔfiame si le dzidzime alo awɔ dɔ abe advisorwo kple board ƒe amewo ene.
 
-## Habɔbɔ ƒe Ðoɖowɔɖi
+## Habɔbɔa Ƒe Ɖoɖo
 
-Obscura Labs nye habɔbɔ aɖe si le eɖokui si si woɖo ɖe Nigeria.
+Obscura Labs nye ɖokuia ƒe habɔbɔ si wo ŋlɔ ɖe Nigeria.
 
-Wole habɔbɔa tum kple susu be woaɖo dziɖuɖu, aɖaŋu, kple dɔwɔwɔ ƒe ŋutete si hiã be woatsɔ akpe asi ɖe dzidzedze si anɔ anyi ɖaa kple ɣeyiɣi didi ƒe viɖewo ŋu na Zcash ƒe nutoa me.
+Woele habɔbɔa tutu kple ŋkuƒoƒo ɖe dziɖuɖu, nunya, kple dɔwɔwɔ ƒe ŋusẽ siwo hiã be woaƒo asi na tsitsi si anɔ anyi ɣeyiɣi didi kple dɔmedede siwo anɔ anyi ɣeyiɣi didi na Zcash ƒe habɔbɔa.
 
-Eƒe ɖoɖowɔɖi si ŋu wowɔ ɖoɖo ɖo la ate ŋu anye:
+Eƒe habɔbɔ ƒe ɖoɖo si woɖo ɖe ŋgɔ ate ŋu akpɔe le:
 
-* Eyae nye habɔbɔa ɖola kple eƒe dɔdzikpɔlawo dometɔ ɖeka.
-* Dɔwɔha sue aɖe.
-* Subɔsubɔdɔwɔla siwo wɔa dɔ le dɔwɔƒe sia ɣeyiɣi aɖe ko.
-* Dɔdzikpɔha alo dɔdzikpɔƒe si de sɔsɔ ge kplii.
-* Aɖaŋuɖola siwo le wo ɖokui si.
-* Hadede kple nutoa me tɔwo kple nudzraɖoƒewo.
+* Fiaɖu kple dɔwɔlawo ƒe kplɔla.
+* Dɔwɔwɔ ƒe ha sue aɖe.
+* Technical kple habɔbɔ ƒe dɔmedelawo siwo wɔa dɔ ɣeyiɣi aɖe ko.
+* Board alo dziɖuɖu ƒe ŋutilã si sɔe.
+* Advisorwo siwo le wo ɖokui ƒe mɔ nu.
+* Hadede kple habɔbɔ ƒe ɖoɖowo kple teƒea ƒe habɔbɔwo.
 
-Ne habɔbɔa le ŋgɔ yim la, woate ŋu aɖe nyatakaka bubuwo ɖe go ku ɖe eƒe dziɖuɖu ƒe ɖoɖowo, ɖoƒe si wòle le senyawo me, ame siwo le dɔdzikpɔhaa me, kple habɔbɔa ƒe dzidzenuwo ŋu.
+Woate ŋu aɖe nyatakaka bubu tso eƒe dziɖuɖu ƒe ɖoɖo, legal status, board ƒe amewɔwɔ, kple habɔbɔ ƒe ɖoɖowo me esi habɔbɔa le tsitsim.
 
-## Gadzikpɔkpɔ
+## Ga Ƒe Kpekpeɖeŋu
 
-Ne wodze dɔ gɔme la, wokpɔa mɔ be ga si woazã na Obscura Labs la anye:
+Le gɔmedzedze me la, woele mɔ kpɔm be Obscura Labs akpɔ ga ƒe kpekpeɖeŋu vevietɔ tso:
 
-* Nunanawo.
-* Ŋutifafa ƒe kadodowo.
-* Nunanawo.
-* Gadzraɖowɔƒe siwo kpɔa ganyawo gbɔ.
-* Kpekpeɖeŋu na mɔ̃ɖaŋunuwo, nuwo, alo kɔmitia ƒe ɖoɖo aɖewo koŋ.
+* Nunana.
+* Hadede siwo le dzidzime.
+* Ga ƒe kpekpeɖeŋu [grant]wo.
+* Ga ƒe kpekpeɖeŋu ƒe mɔnuwo siwo sɔ kple habɔbɔa ƒe ta.
+* Kpekpeɖeŋu na nɔnɔme, product, alo habɔbɔ ƒe dɔwɔwɔ tɔxɛwo.
 
-Woazã gadzɔdzɔ gbãtɔwo atsɔ akpe asi ɖe mɔ̃ɖaŋudɔwɔƒewo ŋu, adzɔnu siwo woatu, habɔbɔwo ƒe ɖoɖowo, ɖoɖowo kple dɔwɔla yeyewo xɔxɔ ŋu.
+Woazã ga ƒe kpekpeɖeŋu siwo gbã la akpe ɖe nɔnɔme ƒe dɔwɔwɔ, product ƒe tutu, habɔbɔ ƒe dɔwɔwɔwo, habɔbɔa ƒe fexewo, kple dɔmedelawo ƒe didi ŋu.
 
-Le ɣeyiɣi aɖe megbe la, Obscura Labs ɖoe be yeawɔ ɖoɖo si dzi yewoato akpɔ ga si yeate ŋu azã atsɔ adzra ɖo ɖe Zcash ƒe nudzraɖoƒea ŋu eye wòanɔ eɖokui si.
+Le ɣeyiɣi me la, Obscura Labs di be yeatu ga ƒe kpekpeɖeŋu ƒe mɔnu si anɔ anyi ɣeyiɣi didi, si ana yeate ŋu aɖe dzesi ƒe nyui si woate ŋu akpɔ ɣeyiɣi sia ɣeyiɣi na Zcash ƒe habɔbɔa, eye wòalé eƒe ɖokui ƒe mɔ nu.
 
-## Dɔwɔƒe si le Zcash Habɔbɔa me
+## Teƒe Le Zcash Ƒe Habɔbɔa Me
 
-Obscura Labs nye habɔbɔ siwo le gadzraɖoƒewo ƒe ƒuƒoƒo si le dzidzim ɖe edzi la me tɔ siwo le asi kpem ɖe Zcash ŋu to mɔ̃ɖaŋunuwo, kɔmpiutaɖoɖowo wɔwɔ, hehexɔxɔ, hadome kpeɖeŋunana, kple ɖoɖowo dzi wɔwɔ me.
+Obscura Labs le habɔbɔ siwo le tsitsim, siwo le wɔnɔ ɖokui ƒe mɔ nu eye wodea asi Zcash ƒe dɔ me to nɔnɔme, software ƒe tutu, nusɔsrɔ, habɔbɔ ƒe kpekpeɖeŋu, kple zazã ƒe dɔwɔwɔwo.
 
-Eɖoe be yeƒe dɔwo nana anyigbadzinuwo kple habɔbɔwo ƒe vovototo le nutoa me nanɔ dzidzim ɖe edzi to Zcash ƒe gɔmeɖoanyi kple ŋgɔyiyi ƒe ŋutete bubuwo ɖoɖo anyi le Afrika dzi.
+Eƒe dɔwɔwɔwo ƒe ta nye be woana teƒe ƒe kple habɔbɔ ƒe vovototo nasɔ le habɔbɔa me, to Zcash ƒe nɔnɔme kple mɔ̃ ƒe tutu ƒe ŋusẽ bubuwo ƒe tutu le Afrika.
 
-Habɔbɔa ƒe dɔwɔnawo kpena ɖe wo ŋu wowɔa nu geɖe siwo gbɔ eme le nutoa me la ŋu:
+Habɔbɔa ƒe dɔwɔwɔwo dea asi ta gaƒã geɖe siwo le habɔbɔa katã me ŋu:
 
-* Wole Zcash gɔmeɖoanyiwo ƒe anyinɔnɔ dzi ɖem ɖe edzi.
-* Wole asi trɔm le Zcash ƒe dɔwɔwɔ ŋu le nuto siwo me womewɔa dɔ le tututu o.
-* Kpekpeɖeŋu nana be woatu aɖaŋu le mɔ̃ɖaŋununya me ɖo le nutoa me.
-* Woana nu gbagbewo kple wo nɔƒewo nanɔ dedie wu.
-* Mɔ̃ɖaŋununya siwo kpɔa amewo ƒe gomenɔamesiwo ta la zazã nyuie.
-* Kpekpe ɖe ZEC zazã le dɔwɔwɔ me ŋu le dɔwɔƒewo kple asitsalawo si.
+* Zcash ƒe nɔnɔme ƒe ha nuɖo agni ƒe nyonyo.
+* Mɔ ƒe nyonyo na Zcash ƒe subɔsubɔwo le nutomewo siwo me woɖe amewo ɖa.
+* Teƒea ƒe technical nunya ƒe tsitsi ƒe kpekpeɖeŋu.
+* Habɔbɔa ƒe dɔmedelawo siwo wɔnɔ ɖokui ƒe mɔ nu ƒe xexlẽme ƒe tsitsi.
+* Mɔ ƒe nyonyo na ga ƒe mɔ̃ siwo dzra ɣaɣla ɖo.
+* ZEC ƒe zazã si le ŋutilã me ƒe kpekpeɖeŋu na zãlawo kple asiwo.

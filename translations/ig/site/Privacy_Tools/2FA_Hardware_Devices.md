@@ -1,98 +1,98 @@
-![!Edit Page](https://img.shields.io/badge/Edit-blue)](https://github.com/zechub/zechub/edit/main/site/Privacy_Tools/2FA_Hardware_Devices.md)
+[![Edit Page](https://img.shields.io/badge/Edit-blue)](https://github.com/zechub/zechub/edit/main/site/Privacy_Tools/2FA_Hardware_Devices.md)
 
-# 2FA Ngwaọrụ Ngwaọrụ
+# Ngwaike 2FA
 
-Data security and privacy are critical concerns for individuals and businesses alike. Cyberattacks and data breaches are becoming more and more common, and it is essential to take proactive steps to protect sensitive data and maintain your privacy. One such measure is using hardware security keys, which provide an extra layer of protection to protect your devices and data.
+Nchedo data [data security] na Nzuzo [privacy] bụ nchegbu dị oke mkpa nye ndị mmadụ n'otu n'otu na azụmahịa. Mwakpo ịntanetị na mmebi data na-adịwanye ọtụtụ, ọ dịkwa mkpa ime ihe n'ọdịnihu iji chekwaa data dị nlezianya ma jigide Nzuzo gị. Otu n'ime ihe ndị dị otú ahụ bụ iji igodo nchekwa ngwaike, nke na-enye oyi akwa nchebe ọzọ iji chekwaa ngwaọrụ na data gị.
 
 ## Gịnị bụ igodo nchekwa ngwaike?
 
-A hardware security key is a physical device used for two-factor authentication (2FA) to protect your accounts and devices. It works in conjunction with your username and password to ensure that only authorized users can access your accounts and data.
+Igodo nchekwa ngwaike bụ ngwaọrụ anụ ahụ e ji eme nkwenye ihe abụọ (2FA) iji chekwaa akaụntụ na ngwaọrụ gị. Ọ na-arụkọ ọrụ na aha njirimara na paswọọdụ gị iji hụ na naanị ndị ọrụ enyere ikike nwere ike ịnweta akaụntụ na data gị.
 
-These keys are designed to work in conjunction with your username and password to ensure that only authorized users can access your accounts and data. They come in various forms such as pen drives, NFC cards or Bluetooth devices.
+E mere igodo ndị a ka ha soro aha njirimara na paswọọdụ gị rụọ ọrụ iji hụ na naanị ndị ọrụ enyere ikike nwere ike ịnweta akaụntụ na data gị. Ha na-adị n'ụdị dị iche iche dịka pen drive, kaadị NFC, ma ọ bụ ngwaọrụ Bluetooth.
 
-![Ihe Nlereanya Nchekwa Hardware](/content-images/1dff66a4-d8e6-483f-9a1e-065d3974d665-a4c6c73e00.webp)
+![Hardware Security Key Example](/content-images/1dff66a4-d8e6-483f-9a1e-065d3974d665-a4c6c73e00.webp)
 
-## Olee otu igodo nchedo ngwaike si arụ ọrụ
+## Otu igodo nchekwa ngwaike si arụ ọrụ
 
-You must enable 2FA via hardware security keys on the website or platform that supports this technology, for example Binance and Coinbase exchanges.
+Ị ga-enyerịrị 2FA site na igodo nchekwa ngwaike na weebụsaịtị ma ọ bụ ikpo okwu na-akwado teknụzụ a, dịka ọmụmaatụ Binance na Coinbase exchange.
 
-With hardware security keys like the YubiKey, you simply plug the hardware key into the USB or Type-C port on your desktop/laptop or smartphone, and the key completes the verification for you.
+Site na igodo nchekwa ngwaike dịka YubiKey, naanị tinye igodo ngwaike ahụ n'ọdụ USB ma ọ bụ Type-C dị na desktọpụ/laptọọpụ ma ọ bụ smartphone gị, igodo ahụ ga-emecha nkwenye ahụ maka gị.
 
-## Kedụ uru dị n'iji igodo nchekwa ngwaike?
+## Gịnị bụ uru dị n'iji igodo nchekwa ngwaike?
 
-Hardware security keys offer several advantages over traditional password-based authentication methods. They are much more difficult to attack than passwords, which can easily be compromised through brute force, social engineering or phishing attacks. Security keys generate a unique code each time they are used, making it nearly impossible for attackers to predict or replicate the code. They are also easy to use and configure and do not require any additional software or drivers to be installed on your device.
+Igodo nchekwa ngwaike na-enye ọtụtụ uru karịa ụzọ nkwenye ọdịnala dabere na paswọọdụ. Ọ na-esiri ike ịwakpo ha karịa paswọọdụ, ndị enwere ike imebi ngwa ngwa site na mwakpo ike mmanye, injinia mmekọrịta, ma ọ bụ phishing. Igodo nchekwa na-emepụta koodu pụrụ iche oge ọ bụla eji ha, nke na-eme ka ọ fọrọ nke nta ka ọ ghara ikwe omume ka ndị mwakpo buo amụma ma ọ bụ mepụtaghachi koodu ahụ. Ha dịkwa mfe iji na ịhazi, ha anaghị achọ ka etinye software ma ọ bụ drivers ndị ọzọ n'ime ngwaọrụ gị.
 
-## Igodo nchedo akụrụngwa ha na ngwaọrụ na sistemụ arụmọrụ niile?
+## Igodo nchekwa ngwaike hà dakọtara na ngwaọrụ na sistemụ arụmọrụ niile?
 
-No, hardware security keys come in many formats and may not be compatible with all devices and operating systems. Before purchasing a key, make sure it is compatible with your device and operating system.
+Mba, igodo nchekwa ngwaike na-adị n'ụdị ọtụtụ ma o nwere ike ha agaghị adaba na ngwaọrụ na sistemụ arụmọrụ niile. Tupu ịzụta igodo, gbaa mbọ hụ na ọ dabara na ngwaọrụ na sistemụ arụmọrụ gị.
 
-![Nchekwa Akụrụngwa Key Form Factors](/content-images/a830c435-ad20-4183-b381-475afe1089b3-5537cd7388.webp)
+![Hardware Security Key Form Factors](/content-images/a830c435-ad20-4183-b381-475afe1089b3-5537cd7388.webp)
 
-## Enwere ike iji igodo nchekwa ngwaike na ọtụtụ akaụntụ?
+## Enwere ike iji igodo nchekwa ngwaike n'ọtụtụ akaụntụ?
 
-Ee, enwere ike iji otu igodo nchekwa ngwaike iji kpuchido ọtụtụ akaụntụ na weebụsaịtị na ọrụ dị iche iche.
+Ee, enwere ike iji otu igodo nchekwa ngwaike chekwaa ọtụtụ akaụntụ na weebụsaịtị na ọrụ dị iche iche.
 
-## Gịnị ga-eme ma m tufuo igodo nchekwa ngwaike m?
+## Gịnị na-eme ma ọ bụrụ na igodo nchekwa ngwaike m efuo?
 
-Ọ bụrụ na ị tufuo igodo nchekwa ngwaike gị, ị nwere ike ịnwe akaụntụ gị egbochi. A na-atụ aro ka ị nwee igodo nkwado ma ọ bụ usoro nkwenye ọzọ iji zere ọnọdụ a.
+Ọ bụrụ na igodo nchekwa ngwaike gị efuo, ị nọ n'ihe ize ndụ nke igbochi akaụntụ gị. A na-atụ aro ka ịnwe igodo ndabere ma ọ bụ ụzọ nkwenye ọzọ iji zere ọnọdụ a.
 
-## Ihe Nlereanya nke 2FA Hardware
+## Ihe atụ nke Ngwaike 2FA
 
-Ndị a bụ ụfọdụ ihe atụ nke 2FA Hardware dị na ahịa.
+Ndị a bụ ụfọdụ ihe atụ nke Ngwaike 2FA dị n'ahịa.
 
-** Yubico YubiKey 5 NFC **
+**Yubico YubiKey 5 NFC**
 
 ![Yubico YubiKey 5 NFC](/content-images/bf1ac95e-7277-4559-b5ef-63117b66971b-3aa542aba7.webp)
 
-Manufactured by Yubico, co-developer of the FIDO U2F open authentication standard used by many security keys, the YubiKey 5 NFC is in safe hands to protect your devices. As its name suggests, it works using USB A (or USB C using an adapter) or NFC.  
-It offers out of the box compatibility with many services including Google Chrome, Facebook, Dropbox, LastPass, 1Password and more. The YubiKey 5 is compact, durable and lightweight - and it is even waterproof.  
-Ị nwere ike ịhazi YubiKey dị ka ihe nke abụọ U2F n'enweghị nsogbu ọ bụla site na ịgbaso ntuziaka ọrụ ma tinye igodo ahụ n'ime oghere USB mgbe a gwara gị. Ịpị ma ọ bụ ịpị gburugburu ọla edo na igodo ga-edebanye igodo gị, yabụ oge ọzọ ị banyere, tinye paswọọdụ, tinye igodi ahụ, ma pịa ya.
+Yubico, onye rụpụtara ya, bụkwa onye mepụtara FIDO U2F open authentication standard nke ọtụtụ igodo nchekwa na-eji; ya mere YubiKey 5 NFC nọ n'aka nchekwa maka ichekwa ngwaọrụ gị. Dị ka aha ya na-egosi, ọ na-arụ ọrụ site na USB A (ma ọ bụ USB C site n'iji adapter) ma ọ bụ NFC.  
+Ọ na-enye ndakọrịta ozugbo na ọtụtụ ọrụ gụnyere Google Chrome, Facebook, Dropbox, LastPass, 1Password na ndị ọzọ. YubiKey 5 dị obere, na-adịgide adịgide ma dị fechaa — ọ naghịkwa atụ mmiri.  
+Ị nwere ike ịhazi YubiKey dị ka ihe U2F nke abụọ n'enweghị nsogbu site n'ịgbaso ntuziaka ọrụ ahụ ma tinye igodo ahụ n'oghere USB mgbe a gwara gị. Ịpị ma ọ bụ ịpịgide okirikiri ọlaedo dị na igodo ahụ ga-edebanye igodo gị, yabụ oge ọzọ ị banyere, naanị tinye paswọọdụ, tinye igodo ahụ, ma pịa ya.
 
-** Thetis Fido U2F Nchekwa Igodo **
+**Thetis Fido U2F Security Key**
 
-![Thetis Fido U2F Nchekwa Igodo](/content-images/b83e42e5-bba6-4175-ad6c-d64972ef54ef-a2ef17a10d.webp)
+![Thetis Fido U2F Security Key](/content-images/b83e42e5-bba6-4175-ad6c-d64972ef54ef-a2ef17a10d.webp)
 
-If you are looking for the best bang-for-buck in a security key, this model from Thetis should be on your list. There is no Bluetooth onboard (it is available on a more expensive model), and it only supports the FIDO U2F standard so there is no UAF or OTP compatibility. However, it will provide secure website access if you use Chrome or Opera as a browser on Windows, macOS, or Linux.  
-Handily, this affordable security key sports a compact folding design with a rotating aluminum casing that prevents the connector from being exposed to potential damage while transporting. It comes in three attractive colors: Black, Gold, and Silver.  
-Ihe mkpuchi plastik ahụ siri ike ma dịtụ ike, mana ị ga-achọ izere itinye ya na ihe ndị dị arọ n'akpa gị. Oghere oghere na igodo ahụ abụghị nnukwu, yabụ ị ga - enwe nhọrọ ole na ole maka itinye keychains ma ọ bụ lanyards.
+Ọ bụrụ na ị na-achọ igodo nchekwa kacha baa uru maka ego ya, ụdị a sitere na Thetis kwesịrị ịdị na ndepụta gị. Enweghị Bluetooth n'ime ya (ọ dị na ụdị dị ọnụ karịa), ọ na-akwado naanị ọkọlọtọ FIDO U2F, yabụ enweghị ndakọrịta UAF ma ọ bụ OTP. Otú ọ dị, ọ ga-enye ohere weebụsaịtị echekwara ma ọ bụrụ na ị na-eji Chrome ma ọ bụ Opera dịka ihe nchọgharị na Windows, macOS, ma ọ bụ Linux.  
+N'ụzọ bara uru, igodo nchekwa a dị ọnụ ala nwere nhazi mpịachi kọmpat nke nwere mkpuchi aluminum na-agbagharị agbagharị, nke na-egbochi njikọ ahụ ikpughe na mmebi nwere ike ime n'oge njem. Ọ na-adị n'agba atọ mara mma: Oji, Ọlaedo, na Ọlaọcha.  
+Mkpuchi plastik ya na-adị ka ọ siri ike ma na-adịgide adịgide nke ọma, mana ị ga-achọ izere itinye ya n'akpa gị na ihe dị arọ. Oghere dị na igodo ahụ ezughị oke, yabụ nhọrọ gị maka itinye keychain ma ọ bụ lanyard ga-adị ntakịrị.
 
-**CryptoTrust NaanịKey**
+**CryptoTrust OnlyKey**
 
 ![CryptoTrust OnlyKey](/content-images/13be6ecc-227e-498c-8a36-6d52c023cd78-06e3e924dc.webp)
 
-As its name suggests, OnlyKey has some nifty features its rivals lack. Thanks to an onboard keypad that can bypass keyloggers that find their way onto computers, it can keep online accounts safe if a computer or website is compromised. It supports multiple methods of 2FA, including FIDO 2 U2F, Yubico OTP, and TOTP.  
-While it is not the best password manager for mainstream purposes, OnlyKey can store 24 OTP accounts, 24 passwords, and 24 usernames/URLs, on a single key. This feature is pretty handy if you're not keen on memorizing multiple passwords and want the key to handle it for you.  
-It offers features such as encrypted backup, self-destruct (which wipes the device after a certain number of incorrect attempts), and the ability to update the firmware to access new features. On the downside, its user interface is far from ideal.
+Dị ka aha ya na-egosi, OnlyKey nwere ụfọdụ atụmatụ mara mma ndị asọmpi ya enweghị. N'ihi keypad dị n'ime ya nke nwere ike izere keylogger ndị na-abanye na kọmpụta, ọ nwere ike ichekwa akaụntụ ịntanetị ma ọ bụrụ na emebiela kọmpụta ma ọ bụ weebụsaịtị. Ọ na-akwado ọtụtụ ụzọ 2FA, gụnyere FIDO 2 U2F, Yubico OTP, na TOTP.  
+Ọ bụ ezie na ọ bụghị password manager kacha mma maka ebumnuche ndị a na-ahụkarị, OnlyKey nwere ike ịchekwa akaụntụ OTP 24, paswọọdụ 24, na aha njirimara/URL 24, n'otu igodo. Atụmatụ a bara ezigbo uru ma ọ bụrụ na ị chọghị iburu ọtụtụ paswọọdụ n'isi ma chọọ ka igodo ahụ lekọta ya maka gị.  
+Ọ na-enye atụmatụ dịka nkwado ndabere ezoro ezo, mbibi onwe ya (nke na-ehichapụ ngwaọrụ ahụ mgbe ọnụọgụ ụfọdụ nke mbọ ezighi ezi gasịrị), na ike imelite firmware iji nweta atụmatụ ọhụrụ. N'akụkụ ọjọọ, interface onye ọrụ ya adịghị mma nke ukwuu.
 
-## Ijikọta 2FA Hardware Key gị na akaụntụ Google gị
+## Ijikọta Igodo Ngwaike 2FA gị na akaụntụ Google gị
 
-Ugbu a ị maara ihe igodo 2FA Hardware bụ na otu ha si arụ ọrụ, lee otu esi ejikọ igodo gị na akaụntụ Google gị.
+Ugbu a ị matala ihe igodo Ngwaike 2FA bụ na otu ha si arụ ọrụ, nke a bụ otu esi ejikọta igodo gị na akaụntụ Google gị.
 
-**Nzọụkwụ 1** 
-Banye na akaụntụ Gmail gị wee pịa **Jikwaa Akaụntụ Google gị**
+**Nzọụkwụ 1**  
+Banye na akaụntụ Gmail gị wee pịa **Jikwaa Akaụntụ Google Gị**
 
-![Akaụntụ Google - Jikwaa Akaụntụ](/content-images/995fc955-791a-4456-9218-7e5964da48b5-31c64640b2.webp)
+![Google Account - Manage Account](/content-images/995fc955-791a-4456-9218-7e5964da48b5-31c64640b2.webp)
 
-**Nzọụkwụ 2** 
-Pịa na ** Nchebe **
+**Nzọụkwụ 2**  
+Pịa **Nchedo**
 
 ![Google Security Settings](/content-images/246db235-6596-41ff-bd7a-f8ee4f80962b-340193c2c3.webp)
 
-**Nzọụkwụ 3** 
-Pịa na ** Nyocha Nzọụkwụ Abụọ **
+**Nzọụkwụ 3**  
+Pịa **Nkwenye Nzọụkwụ Abụọ**
 
-![Ihe Nyocha Nzọụkwụ Abụọ](/content-images/19cd202a-1a70-47e6-a02a-aa24f6e199fa-a9fcb911ce.webp)
+![2-Step Verification Screen](/content-images/19cd202a-1a70-47e6-a02a-aa24f6e199fa-a9fcb911ce.webp)
 
-**Nzọụkwụ 4** 
-Họrọ ** Gosi Nhọrọ Ndị Ọzọ **
+**Nzọụkwụ 4**  
+Họrọ **Gosi Nhọrọ Ndị Ọzọ**
 
-![Gosi Nhọrọ Ndị Ọzọ](/content-images/2ade9531-1cf6-48e8-b9a8-178d41a4cd30-b1e9ea1400.webp)
+![Show More Options](/content-images/2ade9531-1cf6-48e8-b9a8-178d41a4cd30-b1e9ea1400.webp)
 
-**Nzọụkwụ 5** 
-Ugbu a họrọ ** Nchekwa Key ** wee pịa na ** Advance **
+**Nzọụkwụ 5**  
+Ugbu a họrọ **Igodo Nchedo** wee pịa **Gaa n'Ihu**
 
-**Nzọụkwụ 6** 
+**Nzọụkwụ 6**  
 Jikọọ igodo nchekwa 2FA gị
 
-**Nzọụkwụ 7** 
-Dee aha ị chọrọ maka ngwaọrụ ahụ wee pịa ** Emechara **
+**Nzọụkwụ 7**  
+Dee aha ịchọrọ maka ngwaọrụ ahụ wee pịa **Emecha**

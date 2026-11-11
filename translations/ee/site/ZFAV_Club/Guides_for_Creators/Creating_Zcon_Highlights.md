@@ -1,21 +1,21 @@
 <a href="https://github.com/Zechub/zechub/edit/main/site/ZFAV_Club/Guides_for_Creators/Creating_Zcon_Highlights.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Aŋlɔ Axɔ̃"/>
 </a>
 
-# Dzedze Kaba: Zcon ƒe Nya Veviwo Wɔwɔ
+# Dze Egɔme Kabakaba: Zcon Highlights Ɖoɖo
 
-Mɔfiame sia akplɔ wò to alesi nàtrɔ asi le video kpuiwo ŋu ahata wo to ŋutinya me Zcon videowo zazã abe nyatakakatsoƒe ene me.
+Mafiɖa sia akplɔ wò to videokpuiwo ƒe tata kple tata ɖe go, esi woatsɔ Zcon videowo ƒe xoxo abe emetsonu ene.
 
-**Zcon video ƒe haƒoƒo ƒe xexlẽdzesiwo:**
+**Zcon video ƒe playlistwo:**
 
-- [Zcon0 - Adzamenyawo: Tso A dzi va ɖo Zcon (2018)](https://www.youtube.com/playlist?list=PL40dyJ0UYTLK507afWUMgzUYeh-i4qQWS)
-- [Zcon1: Zero na Ameŋunyatakakawo Ŋuti Kalẽtɔ (2019)](https://www.youtube.com/playlist?list=PL40dyJ0UYTLLjPZaKjdhMoCNanb77_Ztj)
-- [Zcon2 Lite - Adzamenyawo katã vaseɖe anyime (2021)](https://www.youtube.com/playlist?list=PL40dyJ0UYTLLa68H9ibpiSZqeevqKizg4)
-- [Zcon3: Code Ðeka Metsoe O (2022)](https://www.youtube.com/playlist?list=PL40dyJ0UYTLJm-Cl7ez3UXp8R4IuUNDfb)
-- [Zcon4: Womeŋlɔ Etsɔme O (2023)](https://www.youtube.com/playlist?list=PL40dyJ0UYTLII7oQRQmNOFf0d2iKT35tL)
+- [Zcon0 - Ɣaɣla [Privacy]: Tso A yi Zcon (2018)](https://www.youtube.com/playlist?list=PL40dyJ0UYTLK507afWUMgzUYeh-i4qQWS)
+- [Zcon1: Tso Nunya si meɣanɔ o yi Ɣaɣla ƒe Hero (2019)](https://www.youtube.com/playlist?list=PL40dyJ0UYTLLjPZaKjdhMoCNanb77_Ztj)
+- [Zcon2 Lite - Ɣaɣla va se ɖe gɔme tututu (2021)](https://www.youtube.com/playlist?list=PL40dyJ0UYTLLa68H9ibpiSZqeevqKizg4)
+- [Zcon3: Code Ɖeka Koe Meɖe Asi O (2022)](https://www.youtube.com/playlist?list=PL40dyJ0UYTLJm-Cl7ez3UXp8R4IuUNDfb)
+- [Zcon4: Manya Meŋlɔ Va Se O (2023)](https://www.youtube.com/playlist?list=PL40dyJ0UYTLII7oQRQmNOFf0d2iKT35tL)
 
-**Zcon Te gbe ɖe haƒoƒo ƒe xexlẽdzesiwo dzi:**
+**Zcon Highlights ƒe playlistwo:**
 
-- [Zcon0 ƒe Nya Veviwo (2018)](https://www.youtube.com/playlist?list=PL9eB_cR4oMej_GykkZnQg0zH1SbZ9S67O)
+- [Zcon0 Highlights (2018)](https://www.youtube.com/playlist?list=PL9eB_cR4oMej_GykkZnQg0zH1SbZ9S67O)
 
-Zcon Highlights ƒe didime si woɖo taɖodzinu na la mede miniti ɖeka o be wòawɔ ɖeka kple YouTube Shorts ƒe nudidiwo.
+Zcon Highlights ƒe didime ƒe didimekɔkɔe nye be wòanɔ miniti ɖeka megbe, be wòawɔ ɖe YouTube Shorts ƒe hiahiãwo nu.

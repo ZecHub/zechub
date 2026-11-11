@@ -1,20 +1,20 @@
-# シールドされたニュースレター
+# シールドされたニュースレター（Shielded Newsletters）
 
 
-## 設定
+## セットアップ
 
- * Zebradノードが実行されており、RPCが有効になっていて、クッキーを使用するように設定されていること
- * zainodが同期済みであること
- * ZalletがRPCを実行できるように設定されていること
+ * Zebrad ノード（node）が稼働しており、完全に同期済みで、RPC が有効になっており、Cookie を使用するように設定されていること
+ * zainod が完全に同期済みであること
+ * Zallet が RPC を実行するよう設定されていること
 
 
-### Zalletの起動
+### Zallet を開始する
 
 `./target/release/zallet -c /home/zktails/.zallet/zallet.toml start`
 
-構成されたzallet.tomlファイルを使用して実行します。
+設定済みの zallet.toml ファイルを使用します
 
-例: toml:
+TOML の例:
 
 ```markdown
 [builder]
@@ -47,10 +47,10 @@ as_of_version = "0.0.0"
 
 validator_address = "127.0.0.1:8232"
 
-# バリデーターRPCクッキー認証を有効にする。
+# Enable validator RPC cookie authentication.
 validator_cookie_auth = true
 
-# バリデータークッキーのファイルへのパス。
+# Path to the validator cookie file.
 validator_cookie_path = "/home/zktails/.cache/zebra/.cookie"
 
 
@@ -72,16 +72,17 @@ bind = ["127.0.0.1:8237"]
 
 `chmod +x toCurl.sh`
 
-正しいzebrad RPCポート（8232）を変更し、zebradクッキーのユーザー名とパスワードを含めます。
+正しい zebrad RPC（8232）ポートを変更し、zebrad Cookie のユーザー名とパスワードを含めます
+
 
 `__cookie__:yourpasswordhere`
 
 
-### RPCテスト
+### RPC をテストする
 
 `./target/release/zallet -c /home/zktails/.zallet/zallet.toml rpc help`
 
-出力されるべき内容:
+次が出力されるはずです
 
 ```bash
 getrawtransaction
@@ -106,15 +107,15 @@ z_recoveraccounts
 z_sendmany
 z_viewtransaction
 ```
-注意: スクリプトを実行するフォルダにzalletの実行ファイルがあることを確認してください。
+注: スクリプトを実行するフォルダーに zallet 実行ファイルのコピーがあることを確認してください
 
-### スクリプトの実行
+### スクリプトを実行する
 
 `chmod +x ascii2hex hex2ascii shieldNewsletter.sh txBuilderFromFile.sh toCurl.sh`
 
-daoAddress.mdを編集し、使用したいUAを指定します。
+使用したい統合アドレス（UA）で daoAddress.md を更新します
 
-txBuilderFromFile.shを開き、「from」変数をあなたのzalletウォレットにある資金があるUAに更新してください。
+txBuilderFromFile.sh を開き、「from」変数を zallet ウォレット内の資金が入った UA に更新します
 
 その後、
 

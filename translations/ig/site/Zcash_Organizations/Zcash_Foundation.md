@@ -4,40 +4,40 @@
 
 # <img src="/content-images/image-2024-02-03-165803028-2532c6c3ac.webp" alt="Alt Text" width="50"/>  Zcash Foundation
 
-## Nkwupụta Ozi
+## Nkwupụta Ebumnuche
 
-Our goal at ZF is to create tools that help sustain open networks, enabling anyone and everyone to protect their own privacy on their own terms. The essence of privacy itself is being able to choose what is or isn't shared with others. Privacy comprises both autonomy and consent; it is essential to human dignity and the healthy continuation of civil society.
+Ebumnuche anyị na ZF bụ imepụta ngwá ọrụ [tools] ndị na-enyere aka ịkwado netwọk mepere emepe, na-eme ka onye ọ bụla nwee ike ichekwa Nzuzo [privacy] nke ya n’usoro nke aka ya. Ihe bụ isi nke Nzuzo n’onwe ya bụ inwe ike ịhọrọ ihe a ga-ekekọrịta ma ọ bụ nke a gaghị ekekọrịta ndị ọzọ. Nzuzo gụnyere ma nnwere onwe ime mkpebi na nkwenye; ọ dị mkpa maka ugwu mmadụ na ịdịgide nke ọma nke ọha mmadụ.
 
-## Ndị Mmadụ na Ìgwè Ndị Ọrụ
+## Ndị mmadụ na Otu
 
-The Zcash Foundation has ~12 employees that are distributed across the world. They focus on protocol development, protocol security, protocol governance, infrastructure development and managing Zcash community events. The Zcash Foundation is not restricted to only working on Zcash and so also engages in developing privacy preserving technologies for [humanitarian aid](https://zfnd.org/sai/) nakwa maka ọdịmma ọha na eze.
+Zcash Foundation nwere ihe dị ka ndị ọrụ 12 ndị gbasara n’ụwa niile. Ha na-elekwasị anya na mmepe protocol, nchekwa protocol, Gọọmentị [governance] protocol, mmepe akụrụngwa na ịhazi mmemme obodo Zcash. Zcash Foundation ejedebeghị n’ịrụ ọrụ naanị na Zcash, ya mere ọ na-etinyekwa aka n’ịmepụta teknụzụ na-echekwa Nzuzo maka [enyemaka mmadụ](https://zfnd.org/sai/) na maka ọdịmma ọha n’ozuzu.
 
-Zcash Foundation Grants na-enye usoro okike ahụ ụzọ iji kwụọ ụgwọ ọrụ ndị na-atụnye ụtụ na usoro ihe omume nzuzo dị ka [Zebra](https://zebra.zfnd.org/) (ntinye n'ọrụ nke onwe ya maka Zcash) & [FROST](https://frost.zfnd.org/) nakwa [ụdị dị iche iche](https://www.coindesk.com/tech/2021/06/08/tor-project-receives-670k-from-zcash-open-major-grants-for-coding-language-upgrade/) oru ngo ndi ozo site na [Zcash Community Grants Committee](https://zcashcommunitygrants.org/). 
+Ikike [grant] Zcash Foundation na-enye ecosystem ụzọ isi kwado ego maka oru ngo ndị na-atụnye aka na ecosystem Nzuzo, dị ka [Zebra](https://zebra.zfnd.org/) (mmejuputa node onwe ya maka Zcash) & [FROST](https://frost.zfnd.org/), yana [ọrụ ngo dị iche iche](https://www.coindesk.com/tech/2021/06/08/tor-project-receives-670k-from-zcash-open-major-grants-for-coding-language-upgrade/) ọzọ site na Kọmitii [Zcash Community Grants](https://zcashcommunitygrants.org/). 
 
-Ntọala ahụ nwekwara [Zcon](https://zfnd.org/zcon/), a kwa afọ na onye ogbako lekwasịrị anya na Zcash ilekota na-akwado grassroots, obodo atumatu dị ka [Zcon Vozes](https://zfnd.org/zcon-voices/), mpaghara pụrụ iche [nzukọ](https://zfnd.org/zcash-dev-summits/), ndị Zcash Foundation A/V [Club](https://forum.zcashcommunity.com/t/the-zero-knowledge-audiovisual-club/43733), ugbu a Zero Knowledge Audio Visual [Klọb](https://zkav.club/) na ọtụtụ obodo ndị ọzọ a na-akpọ [ọkpụkpọ oku](https://zfnd.org/arborist-calls/), obodo [ihe omume](https://zfnd.org/zf-events/#:~:text=Zcomm) na [AMA si](https://forum.zcashcommunity.com/t/community-call-with-the-zcg-candidates-december-2024/49707).
+Foundation na-emekwa [Zcon](https://zfnd.org/zcon/), ogbako ihu-na-ihu kwa afọ nke lekwasịrị anya na ecosystem Zcash, ma na-akwado atụmatụ obodo sitere n’ala, dịka [Zcon Vozes](https://zfnd.org/zcon-voices/), [ogbako](https://zfnd.org/zcash-dev-summits/) kpọmkwem maka mpaghara, Zcash Foundation A/V [Club](https://forum.zcashcommunity.com/t/the-zero-knowledge-audiovisual-club/43733), nke ugbu a bụ Zero Knowledge Audio Visual [Club](https://zkav.club/), yana [oku](https://zfnd.org/arborist-calls/) obodo mepere emepe dị iche iche, [mmemme](https://zfnd.org/zf-events/#:~:text=Zcomm) obodo na [AMA's](https://forum.zcashcommunity.com/t/community-call-with-the-zcg-candidates-december-2024/49707).
 
-Zcash Foundation na-akwado [Zcash Trademark iwu](https://zfnd.org/new-zcash-trademark-policy/) per the updated conditions of it's donation by the Electric Coin Co. which helps "Protect the reputation of Zcash, its associated entities, and the Zcash community" by "identify(ing) official sources of information, reducing the likelihood of fraudulent or incorrect information" and "Identify(ing) official apps and services, reducing the likelihood of fraudulent activities." 
+Zcash Foundation na-ahụ na a na-emezu iwu ụghalaahịa [Zcash](https://zfnd.org/new-zcash-trademark-policy/) dịka ọnọdụ emelitere nke onyinye ya sitere n’aka Electric Coin Co. Nke a na-enyere aka “ichekwa aha ọma nke Zcash, ụlọ ọrụ ndị metụtara ya, na obodo Zcash” site n’“ịchọpụta isi mmalite ozi gọọmentị, na ibelata ohere nke ozi aghụghọ ma ọ bụ nke ezighi ezi” na “ịchọpụta ngwa na ọrụ gọọmentị, na ibelata ohere nke ọrụ aghụghọ.” 
 
-## Otú E Si Hazie Ọgbakọ
+## Nhazi Òtù
 
-The Zcash Foundation bụ a [501c) (3) ](https://projects.propublica.org/nonprofits/organizations/820707962) tax-exempt, non-profit [charity](https://zfnd.org/#:~:text=Committed%20to%20Transparency). Na mgbakwunye na ha [Otu](https://zfnd.org/#:~:text=Our%20Team), ha nwere Board of [Directors](https://zfnd.org/#:~:text=Board%20of%20Directors) na-eme ka ntuli aka ọchịchị obodo dị mfe site na ịtụle Zcash Community Advisory [Panel](https://zfnd.org/zcash-community-advisory-panel/).
+Zcash Foundation bụ ọrụ ebere [501(c)(3)](https://projects.propublica.org/nonprofits/organizations/820707962) na-adịghị akwụ ụtụ isi, nke anaghị achọ uru [ọrụ ebere](https://zfnd.org/#:~:text=Committed%20to%20Transparency). Na mgbakwunye na [Otu](https://zfnd.org/#:~:text=Our%20Team) ha, ha nwere Kọmitii Ndị Isi [Ndị nduzi](https://zfnd.org/#:~:text=Board%20of%20Directors) ma na-eme ka ntuli aka Gọọmentị obodo kwe omume site n’ịjụ Zcash Otu Ndụmọdụ [Obodo](https://zfnd.org/zcash-community-advisory-panel/).
 
-## Nkwado ego
+## Ego
 
-Zcash Foundation anaghịzi enweta ego site na mmepe Zcash [ego](https://zips.z.cash/zip-1014) site na November, 2024. A na-enye ego maka Foundation ugbu a site na onyinye ọdịnala, ụtụ isi [](https://www.jotform.com/form/251874383638065)A pụrụ ịhụ ojiji ha ji ego eme ihe n'akụkọ ha na - ebipụta kwa ọnwa [ Transparency Reports](https://zfnd.org/category/transparency-reports/).
+Zcash Foundation anaghịzi enweta ego site na Zcash ego mmepe [](https://zips.z.cash/zip-1014) kemgbe Nọvemba, 2024. A na-enweta ego maka Foundation ugbu a site n’onyinye [](https://www.jotform.com/form/251874383638065) ọdịnala nke a pụrụ iwepụ n’ụtụ isi. A pụrụ ịhụ otu ha si eji ego ha eme ihe na akụkọ [Ngosipụta](https://zfnd.org/category/transparency-reports/) nke ha kwa nkeji afọ.
 
-## Zcash Community Grants Program
+## Mmemme Zcash Community Grants
 
 <image src="https://zcashcommunitygrants.org/images/logos/yellow/ZCG%20Circle%20Logo-10.png" height="100" width="100" />
   
 [https://zcashcommunitygrants.org/](https://zcashcommunitygrants.org/)
 
-This program funds independent teams to perform major ongoing development (or other work) that benefits the Zcash ecosystem. Grants are chosen by a five-person committee elected by the Zcash Community Advisory Panel. Teams and organizations that are interested in advancing the usability, security, privacy and adoption of Zcash are strongly encouraged to apply for a Zcash Community Grant!
+Mmemme a na-enye ndị otu nọọrọ onwe ha ego iji rụọ nnukwu mmepe na-aga n’ihu (ma ọ bụ ọrụ ọzọ) nke na-abara ecosystem Zcash uru. Kọmitii mmadụ ise nke Otu Ndụmọdụ Obodo Zcash họpụtara na-ahọrọ ikike ndị a. A na-agba ndị otu na òtù nwere mmasị ịkwalite mfe iji, nchekwa, Nzuzo na nnabata nke Zcash ume ka ha tinye akwụkwọ maka Ikike Obodo Zcash!
 
 
-## Vidio Zcash Foundation ndị a kpọtụrụ aha
+## Vidio Ndị E Gosipụtara Zcash Foundation
   
-** Zebrad maka Linux Nkuzi **
+**Zebrad maka Nkuzi Linux**
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -50,7 +50,7 @@ This program funds independent teams to perform major ongoing development (or ot
   />
 </div>
     
-**Otu esi eji Zcash**
+**Otu esi Zcash**
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -64,7 +64,7 @@ This program funds independent teams to perform major ongoing development (or ot
 </div>
 
 
-**Zcon Vozes: Brazil 2023**
+**Zcon Vozes: Brasil 2023**
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -78,7 +78,7 @@ This program funds independent teams to perform major ongoing development (or ot
 </div>
 
 
-** Ndị otu Zcash Foundation Board of Directors: Marta Belcher & J.W. Verret**
+**Zcash Foundation Ndị òtù Kọmitii Ndị Nduzi: Marta Belcher & J.W. Verret**
 
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
@@ -92,8 +92,7 @@ This program funds independent teams to perform major ongoing development (or ot
   />
 </div>
 
-**Arti: ZF + ZCG Kpọtụrụ w/ Tor Project**
-
+**Arti: ZF + ZCG Oku ya na Ọrụ Tor**
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -107,7 +106,7 @@ This program funds independent teams to perform major ongoing development (or ot
 </div>
 
 
-**Ọha na-akpọ oku maka ntuliaka ZCAP**
+**Oku Obodo maka Ntuli Aka ZCAP**
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -121,7 +120,7 @@ This program funds independent teams to perform major ongoing development (or ot
 </div>
 
 
-**AMA na ZF Executive Director Jack Gavigan**
+**AMA ya na Onye Nduzi Isi ZF, Jack Gavigan**
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -134,8 +133,6 @@ This program funds independent teams to perform major ongoing development (or ot
   />
 </div>
 
-## Akụnụba
+## Akụrụngwa
 
-[Zcash mmepe na ọchịchị](https://z.cash/zcash-development-and-governance/)
-
-
+[Zcash mmepe na Gọọmentị](https://z.cash/zcash-development-and-governance/)

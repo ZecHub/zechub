@@ -1,130 +1,130 @@
-# ZIP 218: Nusiwo Sekɛnd 25 ƒe Blockwo Trɔna Ŋutɔŋutɔ
+# ZIP 218: Nu siwo Gaɖoɖowo Ƒuƒoƒe Ƒe Sekondi 25 Ƒe Ɣeyiɣi Trɔna Ŋutɔ
 
-Le NU7 ƒe gakuxɔlawo ƒe numekuku si wu enu le September 14, 2026 dzi la, ZEC siwo ade 2,397,669 da asi ɖe ZIP 218 dzi eye ZEC 141.6 da asi ɖe edzi, si nye 99.9% ƒe emetsonu. Nyatakaka akpa gãtɔ gblɔe kpuie be "Zcash blocks get faster." Nyateƒee, gake egblẽa nusiwo aɖaŋuɖoɖoa wɔna ƒe akpa gãtɔ kple nusiwo wòɖo koŋ léna ɖe te la ƒe akpa gãtɔ ɖi.
+Le NU7 gaƒeɖila ƒe akɔɖeɖe si wòwu le 14 September 2026 la me, ame 2,397,669 ZEC kloe na ZIP 218, eye ame 141.6 ZEC kloe ɖe eŋu, si nye 99.9% ƒe nuxɔxɔ. Nyadzɔdzɔ geɖe ɖo eŋu kple nya sia: "Zcash gaɖoɖowo ƒuƒoƒe [blocks] wɔna kabakaba." Esia nye nyateƒe, gake eɖe nu geɖe si ɖoɖo sia wɔna kple nu geɖe si wòle be wòanɔ ale kee la ɖa.
 
-Axa sia ɖe ZIP 218 me tso eya ŋutɔ ƒe nuŋɔŋlɔ me: nusiwo trɔna, nusiwo metrɔna o, kple nusiwo wòxɔna.
+Axa sia me ɖe ZIP 218 ƒe gɔme le eŋutɔ ƒe nuŋɔŋlɔ me: nu si trɔna, nu si menɔa trɔm o, kple nɔnɔme si wòxɔna.
 
-## Kpuie la
+## Nya kpui aƒe tata
 
-| | Egbe | ZIP 218 megbe |
+| | Egbe | Le ZIP 218 megbe |
 |---|---|---|
-| Xe mɔ ɖe taɖodzinu ƒe dometsotso nu | sɛkɛnd 75 sɔŋ | sɛkɛnd 25 sɔŋ |
-| Blocks gbesiagbe | 1,152 | 3,456 |
-| Block subsidy (fifia ƒe afã dzi ɖeɖe kpɔtɔ ƒe ɣeyiɣi) | 1.5625 ZEC | 0.52083333 ZEC |
-| ZEC yeye gbesiagbe | metrɔ o | metrɔ o |
-| Afã ƒe dometsotso | 1,680,000 ƒe xɔtunuwo | 5,040,000 ƒe xɔtunuwo |
-| Seɖoƒe li na nuwɔna siwo wokpɔ ta na le block ɖesiaɖe me | ɖeke meli o (2 MB ƒe lolome ƒe seɖoƒe koe) | 330 le wo katã me, kple ta ɖeka ƒe nutrenuwo |
-| Atikutsetsebɔwo Orchard (2-action transactions) | abe 2.9 ene le sɛkɛnd ɖeka me | abe 6.6 ene le sɛkɛnd ɖeka me |
+| Gaɖoɖowo ƒuƒoƒe ƒe Ɣeyiɣi ƒe taɖodzinu | Sekondi 75 | Sekondi 25 |
+| Gaɖoɖowo ƒuƒoƒe le ŋkeke ɖeka me | 1,152 | 3,456 |
+| Gaɖoɖowo ƒuƒoƒe ƒe kpekpeɖeŋu (fetu ƒe afãmama [halving] ƒe ɣeyiɣi si li fifia) | 1.5625 ZEC | 0.52083333 ZEC |
+| ZEC yeye le ŋkeke ɖeka me | Metɔ o | Metɔ o |
+| Fetu ƒe afãmama ƒe mama | Gaɖoɖowo ƒuƒoƒe 1,680,000 | Gaɖoɖowo ƒuƒoƒe 5,040,000 |
+| Ɣaɣla [shielded] nudzɔdzɔwo ƒe katã si ate ŋu anɔ gaɖoɖowo ƒuƒoƒe ɖeka me | Aɖeke mele o (2 MB ƒe lolome ƒe se koe li) | Katã 330, kple gaƒuƒoƒo siawo ƒe sewo |
+| Orchard ƒe nudzɔdzɔ ƒe agbɔsɔsɔ (gaɖoɖo si me nudzɔdzɔ 2 le) | Ƒo abe 2.9 le sekondi ɖeka me ene | Ƒo abe 6.6 le sekondi ɖeka me ene |
 
 ![ZIP 218 cuts block target spacing from 75 seconds to 25, tripling daily blocks from 1,152 to 3,456, while dividing the per-block subsidy by the same factor of three from 1.5625 to 0.52083333 ZEC, so daily issuance stays at 1,800 ZEC and the halving interval stretches from 1,680,000 to 5,040,000 blocks to hold halving dates fixed](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/nu7-block-timing.png)
 
-Block siwo sɔ gbɔ wu zi gbɔ zi etɔ̃, eye wo dometɔ ɖesiaɖe xea ga home si sɔ gbɔ wu ema ƒe akpa etɔ̃lia. Nusiwo woatsɔ ana ƒe ɖoɖowɔɖia nɔa afisi wònɔ.
+Gaɖoɖowo ƒuƒoƒe teƒe etɔ̃e sɔgbɔ, eye ɖeka ɖe sia ɖe xɔ fetu ƒe akpa etɔ̃ lia. Gaƒe ƒe ɖoɖo nɔ teƒe si wònɔ ɖaa.
 
-## Nukatae nàtrɔ block ƒe ɣeyiɣia
+## Nu ka ta woatrɔ gaɖoɖowo ƒuƒoƒe ƒe ɣeyiɣi
 
-Taɖodzinu vevitɔe nye **ɣeyiɣi si woatsɔ alalae**. Egbea la, fexexe aɖe lalana sɛkɛnd 75 le mamã dedie nu hafi woaɖo kpe edzi zi gbãtɔ, eɖanye agba ka kee le network dzi o. Le sɛkɛnd 25 me la, ema ɖiɖina va ɖoa sɛkɛnd 25 le mamã dedie nu. ZIP la yɔ fexexe le teƒe si wodzraa nu le, ga si wodzrana ɖo kple tɔdzisasrã siwo wotsɔa kɔsɔkɔsɔwo toa mɔ dzi be wonye zazã siwo sea esia le wo ɖokui me wu.
+Ta vevitɔtɔe nye **lalaɣeyiɣi ƒe ɖeɖe kpui**. Egbe, fexexe [payment] ɖeka lana sekondi 75 le avɔme be wòaxɔ eƒe kpeɖeŋu gbãtɔ, network ƒe kɔkɔme menye nu o. Le sekondi 25 me la, esia ɖea ɖe sekondi 25 le avɔme. ZIP yɔ afi si woƒlea nu, gatrɔƒe [exchange] ƒe gaɖekpɔkpɔwo kple ɖoɖonu geɖe dome [cross-chain] ga ƒe lẽwo [bridges] be wonye nusiwo sese esia wu.
 
-Nya eve siwo tso ZIP la me nyo be woanɔ susu me na mí:
+Nu eve si tso ZIP me hia be nàɖo ŋku edzi:
 
-- **Megblɔna na ame aɖeke be wòazã kpeɖodzinya ʋɛ aɖewo o.** Le ezãla siwo léa mɔɖeɖe ɖe afɔku si nye rollback ŋu abe egbea ene gome la, ZIP le mɔ kpɔm be kpeɖodziɣia anyo ɖe edzi vie wu zi gbɔ zi etɔ̃.
-- **Menye nusi woatsɔ aɖo dɔ mamlɛtɔ teƒe o.** ZIP la ɖɔ eɖokui be enye kpeɖeŋutɔ na nuwuwu ƒe mɔnuwo abe Crosslink. Base-layer block siwo le kabakaba wu kpena ɖe ame ŋu ne wotsɔ finality layer kpee emegbe alo wometsɔe kpe ɖe eŋu o.
+- **Emegblɔ be ame aɖeke nana kpeɖeŋu vɛvi o.** Na zazãlawo siwo le wɔnɔƒe ma ke le nuɖeɖe megbe trɔtrɔ ƒe afɔku ŋu abe egbe ene la, ZIP bua be kpeɖeŋu ƒe ɣeyiɣi nanyo dze le etɔ̃ te vɛ.
+- **Menye teƒeɖeɖe na nuwuwu ƒe dɔ o.** ZIP ƒo eɖokui be wòle dɔ wɔm kple nuwuwu ƒe mɔwo abe Crosslink ene. Gaɖoɖowo ƒuƒoƒe siwo wɔna kabakaba le gɔmeɖoƒe me kpena ɖeŋu, ne woatsɔ nuwuwu ƒe akpa aɖe kpe ɖe eŋu emegbe alo o.
 
-ZIP la de dzesii hã be woate ŋu akpɔ throughput si lolo wu ɖeɖeko ne block ƒe lolome lolo wu. Latency ye nye susu si ta wotia block kpuiwo ɖe eteƒe.
+ZIP hã gblɔ be wònye be woate ŋu akpɔ nudzɔdzɔ ƒe agbɔsɔsɔ dzɔtɔ kple gaɖoɖowo ƒuƒoƒe ƒe lolome gãtɔ. Lalaɣeyiɣi tae woatia gaɖoɖowo ƒuƒoƒe siwo ɣeyiɣi kpui.
 
-## Nukae trɔna
+## Nu siwo trɔna
 
-### Eɖeɖe: ZEC ɖeka ma ke gbesiagbe
+### Gaƒe tata: ZEC nenɔ te le ŋkeke ɖeka me
 
-Block ƒe xexlẽme dzi ɖeɖe kpɔtɔ zi gbɔ zi etɔ̃ ana gbesiagbe ƒe tata nadzi ɖe edzi zi gbɔ zi etɔ̃ ne naneke metrɔ o. ZIP 218 xe mɔ ɖe ema nu to gakpekpeɖeŋu si woxɔna le xɔtuƒe ɖesiaɖe mama me zi gbɔ zi etɔ̃ bubu ne NU7 nya le dɔ wɔm ko.
+Ne gaɖoɖowo ƒuƒoƒe ƒe nọmba teƒe etɔ̃e la, gaƒe tata le ŋkeke ɖeka me ate ŋu ateƒe etɔ̃e ne nu bubu aɖeke metɔ o. ZIP 218 ƒoa nu ma tɔ le gaɖoɖowo ƒuƒoƒe ɖeka ƒe kpekpeɖeŋu mama le etɔ̃ me bubu ne NU7 dze egɔme.
 
-Le afã dzi ɖeɖe kpɔtɔ ƒe ɣeyiɣi si li fifia me la, ema tsɔa block subsidy tso **1.5625 ZEC va ɖo 0.52083333 ZEC** (52,083,333 zatoshi). Esi wònye be zatoshi 156,250,000 mema etɔ̃ sɔsɔe o ta la, xɔtunu ɖesiaɖe ƒoa xlãe zitoshi ɖeka ƒe akpa etɔ̃lia. Le 5,040,000-block afã ƒe dometsotso blibo si ade 0.0168 ZEC le wo katã me la me.
+Le fetu ƒe afãmama ƒe ɣeyiɣi si li fifia me la, esia trɔ gaɖoɖowo ƒuƒoƒe ƒe kpekpeɖeŋu tso **1.5625 ZEC yi 0.52083333 ZEC** (zatoshi 52,083,333). Esi zatoshi 156,250,000 mate ŋu mama nyuie le etɔ̃ me o ta la, gaɖoɖowo ƒuƒoƒe ɖeka ɖe sia ɖe ƒe xexlẽna ɖea ɖe zatoshi ƒe akpa etɔ̃. Le gaɖoɖowo ƒuƒoƒe 5,040,000 ƒe fetu ƒe afãmama ƒe mama blibo me la, esia nye ZEC 0.0168 le katã me.
 
-Kpekpeɖeŋua nye ZEC yeye siwo katã wowɔ le block ɖeka me. Wogaxɔa ga si wozãna ɖe ŋgɔyiyidɔwo ŋu ƒe akpa si li fifia le esi kokoko, eyata tomenukulawo xɔa ga si mede xexlẽme bliboa nu o, abe alesi wòle egbea ene.
+Kpekpeɖeŋu la nye ZEC yeye katã si wowɔna le gaɖoɖowo ƒuƒoƒe ɖeka me. Woɖea ŋgɔɖoɖo ƒe gaɖeɖe ƒe akpa si li xoxo la tso eŋu hã, eya ta nukulawo [miners] xɔa ga si le xexlẽ bliboa nu vɛ, abe ale si wònɔ egbe ene.
 
-> **Nuŋlɔɖi aɖe le 0.26041666 ZEC xexlẽme ŋu.** ZIP's numeɖeɖe ƒe nuŋlɔɖi si wowɔ la ta gakpekpeɖeŋu si post-NU7 la be anyigba(156250000 / 6) = 0.26041666 ZEC, eye nyadzɔdzɔ aɖewo gbugbɔ gblɔe ake. Nuŋlɔɖi ma mesɔ o to xexlẽme eve me: zatoshi 156,250,000 nye gakpekpeɖeŋu si post-Blossom xoxo, eyata ne womae ɖe ade me la, wozãa Blossom ƒe xexlẽme si nye eve zi evelia ɖe NU7 ƒe xexlẽme si nye etɔ̃ dzi. Normative formula la naa floor(1,250,000,000 / (2 · 3 · 4)) = 52,083,333 zatoshi le fifi afã ƒe dzesi me. Zebra's dɔwɔwɔ ƒe nya na tɔtrɔ sia ([#11463](https://github.com/ZcashFoundation/zebra/issues/11463)) ŋlɔa nuŋlɔɖia be exlẽ Blossom factor la zi gbɔ zi eve, egblɔna na edzikpɔlawo be "woawɔ mɔfiame la ŋudɔ, ke menye nuŋlɔɖia o," eye wògblɔ be wotsɔ ɖɔɖɔɖo aɖe de ZIP. Xexlẽme nyuitɔ le dɔwɔwɔ me enye **0.52083333 ZEC**.
+> **Nya aɖe tso ZEC 0.26041666 ƒe xexlẽ ŋu.** ZIP ƒe ɖoɖo gbãtɔ ƒe gɔmeɖeɖe ƒe nyagblɔdzedze la ŋlɔ kpekpeɖeŋu si le NU7 megbe be enye floor(156250000 / 6) = 0.26041666 ZEC, eye nyadzɔdzɔ aɖewo gblɔ esia hã. Nyagblɔdzedze ma menyo o le eve ƒe asime: zatoshi 156,250,000 nye kpekpeɖeŋu si le Blossom megbe xoxo, eyata mama le ade me wɔa Blossom ƒe eve ƒe asime teƒe bubu le NU7 ƒe etɔ̃ ƒe asime ŋu. Mɔɖoɖo si nye se la na floor(1,250,000,000 / (2 · 3 · 4)) = zatoshi 52,083,333 le fetu ƒe afãmama ƒe index si li fifia. Zebra ƒe dɔwɔwɔ ƒe nya tso tɔtrɔ sia ŋu ([#11463](https://github.com/ZcashFoundation/zebra/issues/11463)) ƒoa nyagblɔdzedze la be wòbua Blossom ƒe asime le zi eve, eye wògblɔ na dɔwɔlawo be "wɔ mɔɖoɖo la, menye nyagblɔdzedze la o," eye wògblɔ be woɖo nuɖɔɖɔ ɖe ZIP ŋu. Xexlẽ nyuitɔ le dɔwɔwɔ ƒe gɔmedzedze nye **0.52083333 ZEC**.
 
-### Halvings léa woƒe ɣeyiɣi dzi
+### Fetu ƒe afãmamawo ƒe ɣeyiɣi menɔa trɔm o
 
-Afã ƒe dometsotsoa dzina ɖe edzi zi gbɔ zi etɔ̃ tso 1,680,000 blocks va ɖo 5,040,000 blocks. Esi wònye be blɔwo va ɖona zi gbɔ zi etɔ̃ ta la, halvings gakpɔtɔ ɖiɖina le ɣeyiɣi si me woadze anyi ne tɔtrɔa manɔ o la ke kloe. Womekpɔa ŋusẽ ɖe nusiwo woatsɔ ana ƒe agbɔsɔsɔme bliboa dzi o.
+Fetu ƒe afãmama ƒe mama ateƒe etɔ̃e tso gaɖoɖowo ƒuƒoƒe 1,680,000 yi gaɖoɖowo ƒuƒoƒe 5,040,000. Esi gaɖoɖowo ƒuƒoƒe vaa zi etɔ̃e sɔgbɔ ta la, fetu ƒe afãmamawo dzena le ɣeyiɣi ma ke ƒe afi abe ne tɔtrɔ aɖeke menɔ o ene. Gaƒe ƒe teƒeƒe blibo menɔa tɔtrɔm o.
 
-Esia to vovo na gadodo ŋuti nyabiase bubu si le NU7 numekukua me, afisi gakuxɔlawo da asi ɖe edzi be woalé ga si woɖe ɖe afã me ɖe asi tsɔ wu be woatsɔ ga si woɖe ɖe go si le gbadzaa aɖo wo teƒe. ZIP 218 wɔa dɔ kple afã ɖeɖe ƒe kpɔɖeŋu si li fifia eye metrɔnɛ o.
+Esia le vovo na gaƒe tata ƒe biabia bubu si le NU7 ƒe akɔɖeɖe me, afi si gaƒeɖilawo kloe be fetu ƒe afãmamawo nanɔ te ɖe woawɔ ɖoɖo si woɖe nyuie tɔ o. ZIP 218 wɔa dɔ kple fetu ƒe afãmama ƒe mɔ si li fifia, eye metrɔa e o.
 
-### Seɖoƒe yeyewo na nuwɔna siwo wokpɔ ta na le block ɖesiaɖe me
+### Se yeye siwo le ɣaɣla nudzɔdzɔwo ŋu le gaɖoɖowo ƒuƒoƒe ɖeka me
 
-ZIP 218 tsɔa nutrenu kpena ɖe dɔwɔwɔ si wokpɔ ta na si block ɖeka ate ŋu alé ŋu:
+ZIP 218 tsɔ sewo de ɣaɣla nudzɔdzɔ siwo ate ŋu anɔ gaɖoɖowo ƒuƒoƒe ɖeka me ƒe agbɔsɔsɔ ŋu:
 
-| Seɖoƒe li na | Maximum le block ɖeka me |
+| Se | Agbɔsɔsɔ si ŋu wòate ŋu anɔ le gaɖoɖowo ƒuƒoƒe ɖeka me |
 |---|---|
-| Ta siwo katã wokpɔ ta na la ƒo ƒu | 330 (Sprout JoinSplit ɖesiaɖe xɔa 2) |
-| Orchard nuwɔnawo | 330 |
-| Sapling inputs kpe ɖe outputs ŋu | 300 |
-| Sprout JoinMamãwo | 25 |
+| Ɣaɣla gaƒuƒoƒowo katã | 330 (Sprout JoinSplit ɖeka ɖe sia ɖe xexlẽna abe 2 ene) |
+| Orchard ƒe nudzɔdzɔwo | 330 |
+| Sapling ƒe geɖewo kple emetɔwo | 300 |
+| Sprout ƒe JoinSplits | 25 |
 
-Womekpɔa ŋusẽ ɖe asitsatsa ƒe akpa siwo me kɔ la dzi o, eye 2 MB block ƒe lolome ƒe seɖoƒea gakpɔtɔ le dɔ wɔm.
+Gaɖoɖowo ƒe nuwo ƒe ʋuʋuɖi [transparent] akpawo mele se siawo te o, eye gaɖoɖowo ƒuƒoƒe ƒe 2 MB ƒe lolome ƒe se la gale anyi.
 
-Seɖoƒeawo li elabena ne menye nenema o la, block geɖe wu afia be gakotokuwo kple nodewo nawɔ dɔ geɖe wu. Ne kpoawo le teƒea la, nɔnɔme vɔ̃ɖitɔ kekeake va **nyona wu** ŋutɔŋutɔ wu egbea, ne wotsɔ blɔ siwo sɔ gbɔ wu zi gbɔ zi etɔ̃ gɔ̃ hã:
+Sewo siawo li elabena gaɖoɖowo ƒuƒoƒe geɖe ate ŋu ava na dɔ geɖe na gakotokulawo [wallets] kple ɣaɣla dzesi ŋɔŋlɔwo [nodes]. Ne sewo le te la, afɔku ƒe teƒe gãtɔ va **nyo wu** egbe, esi gaɖoɖowo ƒuƒoƒe teƒe etɔ̃e le o hã:
 
-- **Wallet sync:** nyatakaka gbogbotɔ kekeake si woate ŋu azi gakotoku si me kɔ dzi be wòaɖe le ŋkeke ɖeka me la ɖiɖi tso abe 271 MB va ɖo abe 169 MB ene, si nye 38% ƒe ɖiɖi teti. Dodokpɔ ƒe nya ɣaɣlawo ɖeɖeɖa le nɔnɔme vɔ̃ɖitɔ kekeake me dzi ɖena kpɔtɔna tso abe miliɔn 4.8 ene va ɖo abe miliɔn 2.3 ene gbesiagbe.
-- **Block ƒe kpeɖodzi:** ZIP's dzidzenuwo tsɔ Orchard block si gblẽ wu la da ɖe abe 432 ms ene le seɖoƒe yeyeawo te, tsɔ wu abe 770 ms ene na egbe ƒe nɔnɔme vɔ̃ɖitɔ. Le Sapling gome la, tsidzadzaa lolo wu, tso abe 3,175 ms ene va ɖo abe 272 ms ene.
+- **Gakotoku ƒe sync:** Nyatakakadzraɖoƒe gãtɔ si woate ŋu atsɔ adze gakotoku le kekeli me be wòaɖe le ŋkeke ɖeka me tso MB 271 va MB 169, si nye ɖeɖe le 38% ƒe akpa me. Ɖasekpɔkpɔ ƒe nusɔsrɔ̃ siwo dzena le agbagba me ɖea tso miliɔn 4.8 va miliɔn 2.3 le ŋkeke ɖeka me.
+- **Gaɖoɖowo ƒuƒoƒe ƒe kpekpɔkpɔ:** ZIP ƒe dodokpɔwo de asi le gaɖoɖowo ƒuƒoƒe Orchard si ƒe afɔku gãtɔ le ms 432 le se yeyewo te, esime egbe ƒe afɔku gãtɔ nye ms 770. Na Sapling la, ɖeɖe la gã wu, tso ms 3,175 yi ms 272.
 
-Sapling kple Sprout nutrenuawo ɖoe koŋ sesẽ. Le May 2026 me la, Orchard xɔ ZEC, Sapling 11.6% kple Sprout 0.5%, eyata ta sueawo kpɔa teƒe si sɔ na woƒe zazã ŋutɔŋutɔ esime wonaa amedzidzela si mebɔ o be wòawɔ ŋlɔmi le eŋu. Esi wònye be ZIP 317 ƒe fewo xɔa ga ɖeka le afɔɖeɖe si me susu le ɖesiaɖe me le ta ɖesiaɖe me ta la, amedzidzela mekpɔa viɖe aɖeke to spam ɖoɖo ɖe ta ɖeka me ɖe bubu teƒe o.
+Sapling kple Sprout ƒe sewo sesẽ le ta me. Le May 2026 me la, Orchard xɔ ɣaɣla ZEC ƒe 87.9%, Sapling xɔ 11.6%, eye Sprout xɔ 0.5%, eyata gaƒuƒoƒo sueawo xɔ teƒe si sɔ na woƒe zazã vavã, esi wònaa teƒe vɛ na ame vɔ̃ aɖe be wòazã. Esi ZIP 317 ƒe adzɔwo [fees] xɔa adzɔ ma ke na nudzɔdzɔ ƒe mɔnu ɖeka ɖe sia ɖe le gaƒuƒoƒo sia ɖe sia ɖe me ta la, ame vɔ̃ aɖe mate ŋu axɔ viɖe aɖeke to gaƒuƒoƒo ɖeka ƒe spam wɔwɔ ŋu o.
 
-### Nusiwo wowɔna tsɔ wɔa dɔe
+### Nudzɔdzɔ ƒe agbɔsɔsɔ
 
-Ne Orchard nuwɔna 330 le block ɖeka me la, Orchard asitsatsa si me nuwɔna 2 le si sɔ la sɔ na ⌊330 / 2⌋ = zi 165 le block ɖeka me. Le block ɖeka le sɛkɛnd 25 ɖesiaɖe me si nye abe **6.6 asitsatsa le sɛkɛnd ɖeka me**, dzi tso abe 2.9 egbea — ZIP yɔe be 2.3× dzidziɖedzi le Orchard dɔwɔwɔ si sɔ me. Sapling dona le sɛkɛnd ɖeka me abe 3.0 ene, si gakpɔtɔ wu alesi Orchard kpɔa edzi egbea.
+Ne Orchard ƒe dɔwɔwɔ 330 le gaɖoɖowo ƒuƒoƒe [block] ɖeka me la, dɔwɔwɔ 2 ƒe Orchard gaɖoɖo [transaction] ɖeka ate ŋu anɔ eme zi ⌊330 / 2⌋ = 165. Ne gaɖoɖowo ƒuƒoƒe ɖeka va le sekondi 25 siaa me la, ekema enye gaɖoɖowo 6.6 le sekondi ɖeka me, si dze ɖe 2.9 le egbe ŋu — ZIP yɔe be 2.3× ƒe dzidzɔ le Orchard ƒe dɔwɔwɔ ƒe ŋusẽ me. Sapling va do go abe 3.0 le sekondi ɖeka me ene, eye wòganɔ ete ŋu le nu si Orchard ate ŋu wɔ le egbe la ŋu.
 
-### Asitɔtrɔ le nɔnɔme sesẽwo ŋu
+### Kɔkɔme ƒe nɔnɔme ƒe tɔtrɔ
 
-Sesẽme ƒe akɔntabubua le mamã dedie nu le fesre aɖe dzi le nyitsɔ laa ƒe blɔkawo me. ZIP 218 doa fesre ma ɖe dzi tso block 17 va ɖo 102, eyata egaxɔa ɣeyiɣi ŋutɔŋutɔ si ade sɛkɛnd 2,550, si nye ɣeyiɣi ma ke si wòxɔ esime Zcash dze egɔme kple sɛkɛnd 150 ƒe blockwo. ZIP la gblɔ susu eve: be woaƒo asa na sesẽ-trɔtrɔ ƒe amedzidzedzewo wɔwɔ bɔbɔe (eyɔ Litecoin ƒe April 2026 MWEB nudzɔdzɔa), kple be woawɔ ɣeyiɣi kpui aɖe ƒe tɔtrɔ le mɔxexeɖedɔa nu ƒe ɣeyiɣiwo me wòanɔ bɔbɔe.
+Kɔkɔme ƒe nɔnɔme ƒe algorithm bua gaɖoɖowo ƒuƒoƒe siwo va va yi me. ZIP 218 tsɔ fenɛtra ma tso gaɖoɖowo ƒuƒoƒe 17 yi 102, ale be wòakpɔ ɣeyiɣi vavã ƒe sekondi 2,550, si nye mama ma ke si wòkpɔ esi Zcash dze egɔme kple gaɖoɖowo ƒuƒoƒe ƒe sekondi 150. ZIP na ta eve: be woagblɔ kɔkɔme ƒe nɔnɔme ƒe numanumanuka ƒe bɔbɔe (wòyɔ Litecoin ƒe April 2026 ƒe MWEB ƒe nɔnɔme), kple be wòana gaɖoɖowo ƒuƒoƒe ƒe ɣeyiɣi ƒe tɔtrɔwo ƒe nu nakpɔ ɖo.
 
-Le dɔwɔwɔ vɔ megbe teti la, block times axɔ ɣeyiɣi aɖe hafi aɖo taɖodzinu yeyea gbɔ. Ema nye nusi wokpɔ mɔ na eye wòɖe nusi dzɔ le Blossom, esime Zcash tso sɛkɛnd 150 va ɖo 75 la fia.
+Le dɔwɔwɔ ƒe gɔmedzedze megbe enumake la, gaɖoɖowo ƒuƒoƒe ƒe ɣeyiɣiwo axɔ ɣeyiɣi aɖe hafi woanɔ te le taɖodzinu yeye la dzi. Woele esia ŋu, eye wòle abe nu si dzɔ le Blossom ene, esi Zcash tso sekondi 150 va sekondi 75.
 
-### Defaults na nodes kple gakotokuwo
+### Ɖoɖoɖo siwo woɖoa na ɣaɣla dzesi ŋɔŋlɔwo kple gakotokulawo
 
-Esiawo nye aɖaŋuɖoɖo siwo ku ɖe dɔwɔwɔ ŋu tsɔ wu be woanye se siwo dzi woda asi ɖo:
+Esiawo nye aɖaŋu siwo woɖoa na dɔwɔƒewo to wu gbegbɔgblɔ ɖi [consensus] ƒe sewo:
 
-- **Adzɔnu ƒe nuwuwu:** ɣeyiɣi si woɖo ɖi la dzina ɖe edzi tso 40 va ɖo 120 blocks, si nɔa abe miniti 50 ene teti.
-- **Maximum reorg depth:** Zebra's seɖoƒe dzina ɖe edzi tso 99 va ɖo 600 blocks, abe gaƒoƒo 4.2 le sɛkɛnd 25 me, fesre ma ke si wòtsyɔ le eƒe dodo me.
-- **Anchor depth for shielded transactions:** nɔa 3 blocks, eyata megbededea dzi ɖena kpɔtɔna tso miniti 3.75 va ɖo miniti 1.25. ZIP la kplɔ Blossom kpɔɖeŋu si wowɔ le afisia ɖo.
-- **Wodzi networking constants geɖe** siwo wodzidze le blocks me ɖe edzi zi etɔ̃ ale be woxɔa ɣeyiɣi ma ke.
+- **Gaɖoɖo ƒe nuwuwu:** Ɖoɖoɖo si li le gɔmedzeƒe la tso gaɖoɖowo ƒuƒoƒe 40 yi 120, eye wòléa ƒo abe minuti 50 ene.
+- **Reorg ƒe doƒe gãtɔ:** Zebra ƒe se tso gaɖoɖowo ƒuƒoƒe 99 yi 600, si nye ƒo abe hora 4.2 ene le sekondi 25 me, eye wòle mama ma ke si wòkpɔ esi wòdze egɔme.
+- **Anchor ƒe doƒe na ɣaɣla gaɖoɖowo:** Enɔa gaɖoɖowo ƒuƒoƒe 3, ale be lalaɣeyiɣi ɖea tso minuti 3.75 va minuti 1.25. ZIP dzɔa ɖe Blossom ƒe kpɔɖeŋu dzi le afisia.
+- **Kadodo ƒe nɔnɔme geɖewo** si woɖena le gaɖoɖowo ƒuƒoƒe me la wòateƒe etɔ̃e be woakpɔ ɣeyiɣi ma ke.
 
-## Nusi nɔa anyi nenema ke
+## Nu siwo nɔa ale kee
 
-- ZEC na gbesiagbe, afã dzi ɖeɖe kpɔtɔ ƒe ɖoɖowɔɖi kple nusiwo woatsɔ ana ƒe seɖoƒe
-- Seɖoƒe si woɖo na 2 MB block ƒe lolome
-- Asitsatsa siwo me kɔ, siwo ŋu afɔɖeɖe yeyea ƒe seɖoƒewo meka asi o
-- Coinbase tsitsi le 100 blocks. De dzesii be fifia esia fia abe miniti 42 ene tsɔ wu be wòanɔ abe miniti 125 ene, elabena xexlẽmea le blɔka me, ke menye ɣeyiɣi o.
+- ZEC si wowɔna le ŋkeke ɖeka me, fetu ƒe afãmama ƒe ɖoɖo kple gaƒe ƒe teƒeƒe blibo
+- Gaɖoɖowo ƒuƒoƒe ƒe 2 MB ƒe lolome ƒe se
+- Nuwo ƒe ʋuʋuɖi gaɖoɖowo, si nudzɔdzɔ ƒe se yeyewo mekpɔ o
+- Coinbase ƒe nyɔnyrɔ̃ le gaɖoɖowo ƒuƒoƒe 100. Ɖo ŋku edzi be esia fia minuti 42 ko fifia, menye minuti 125 o, elabena xexlẽ la le gaɖoɖowo ƒuƒoƒe me, menye ɣeyiɣi me o.
 
-## Asitsatsa: block siwo tsi wu
+## Tɔtrɔƒe la: gaɖoɖowo ƒuƒoƒe siwo meɖoɖo o geɖe
 
-Block siwo zɔna kabakaba wu la menye femaxee o. Block xoxo nye block si sɔ si bu duɖimekeke be woatsɔe ade kɔsɔkɔsɔa me elabena block bubu ɖo network la gbɔ gbã. Zi alesi dometsotso si le blockwo dome le kpuie la, zi nenemae esia dzɔna zi geɖe, eye ZIP blaa stale rate la ɖe block kaka, kpeɖodzi ɣeyiɣi kple tomenukuƒewo ƒe titina ƒe afɔku ŋu.
+Gaɖoɖowo ƒuƒoƒe siwo wɔna kabakaba menye ablɔɖe o. Gaɖoɖowo ƒuƒoƒe si meɖoɖo o nye gaɖoɖowo ƒuƒoƒe si nye nyateƒe, gake wòbu fiƒa be woatsɔe akpe ɖe ɖoɖonu [chain] la ŋu, elabena gaɖoɖowo ƒuƒoƒe bubu va network la me gbã. Ne mama si le gaɖoɖowo ƒuƒoƒewo dome kpui wu la, esia dzena zi geɖe, eye ZIP ka gaɖoɖowo ƒuƒoƒe siwo meɖoɖo o ƒe rate ɖe gaɖoɖowo ƒuƒoƒe ƒe kadodo, kpekpɔkpɔ ƒe ɣeyiɣi kple nukuku [mining] ƒe nuƒoƒo ƒe afɔku ŋu.
 
-- **Egbea:** abe 0.4% ene, si ZIP de dzesii ate ŋu aɖiɖi agbɔsɔsɔ si le ete la nu tsɛe elabena hashpower le tadeaguƒewo me.
-- **Nukpɔsusu le sɛkɛnd 25 me:** abe 3.26% ene, si wotu ɖe Zcash kaka ƒe megbetsitsi siwo wodzidze dzi.
-- **Devnet dodokpɔ:** Zebra node 99 siwo woma ɖe anyigba ƒe nɔnɔme nu siwo wɔa 2 MB block blibowo le sɛkɛnd 25 ƒe dometsotso me dzidze 4.86% ƒe stale rate kple 0.37% fork rate. Tuning ɖeka si hiãe nye TCP ƒe ɖoɖowɔwɔ. Esi wònye be devnet ma nɔ decentralized wu egbegbe mainnet ta la, ZIP bua amesiawo be wogogo xexlẽme vɔ̃ɖitɔwo.
-- **Nufiame teƒe:** ZIP zãa Ethereum ƒe ŋutinya me kpeɖodzi-ɖe-dɔwɔwɔ ƒe stale rate si nye 5.4% abe eƒe dedienɔnɔ ƒe dzidzenu ene. Devnet ƒe xexlẽdzesi eveawo siaa bɔbɔ nɔ ete.
+- **Egbe:** Ƒo abe 0.4% ene, si ZIP gblɔ be ate ŋu anɔ vɛ na rate si le eme vavã, elabena hashpower ƒo ɖe gaƒuƒoƒowo me.
+- **Nyadzɔdzɔ le sekondi 25 me:** Ƒo abe 3.26% ene, si woɖoa le Zcash ƒe kadodo ƒe ɣeyiɣi siwo woɖe ta me.
+- **Devnet ƒe dodokpɔ:** Zebra ƒe ɣaɣla dzesi ŋɔŋlɔ 99 siwo nɔ afi vovovowo me, eye wonɔa gaɖoɖowo ƒuƒoƒe 2 MB blibo wɔm le sekondi 25 sia 25 me, kpɔ gaɖoɖowo ƒuƒoƒe siwo meɖoɖo o ƒe rate 4.86% kple fork ƒe rate 0.37%. Ɖoɖoɖo ɖeka pɛ si hia nye TCP ƒe nɔnɔme. Esi devnet ma nye ha nuɖo agni [decentralized] wu mainnet si li egbe ta la, ZIP bua esiawo be wonye xexlẽ siwo te ɖe afɔku gãtɔ ŋu.
+- **Nudziɖoƒe:** ZIP zã Ethereum ƒe proof-of-work ƒe gaɖoɖowo ƒuƒoƒe siwo meɖoɖo o ƒe rate xoxo, 5.4%, abe eƒe dedienɔnɔ ƒe se ene. Devnet ƒe xexlẽ eveawo le eƒe te.
 
-Gazazã sue eve hã li. Gakotoku siwo me kɔ la wɔa compact block headers siwo ade 200 KB geɖe wu gbesiagbe. Eye esi wònye be blockwo sɔ gbɔ wu zi gbɔ zi etɔ̃ ta la, block geɖe le node blibo si menɔ Internet dzi o si ŋu wòle be wòawɔ dɔ le ne eɖo eŋu, togbɔ be block ɖesiaɖe ƒe asi bɔbɔ wu be woaɖo kpe edzi hã. ZIP la xɔa evea siaa.
+Gaƒe sue eve hã li. Gakotoku siwo le kekeli me ƒe download nɔa ɖe KB 200 le ŋkeke ɖeka me tso gaɖoɖowo ƒuƒoƒe ƒe taŋlɔkpuiwo me. Eye esi gaɖoɖowo ƒuƒoƒe teƒe etɔ̃e le ta la, ɣaɣla dzesi ŋɔŋlɔ blibo [full node] si nɔ offline la axɔ gaɖoɖowo ƒuƒoƒe geɖe akpɔ ne wòle wo kpɔm, esi gaɖoɖowo ƒuƒoƒe ɖeka ɖe sia ɖe ƒe kpekpɔkpɔ ɖiŋi vɛ hã. ZIP xɔ wo eve siawo.
 
 ## Nɔnɔme kple ɣeyiɣi ƒe ɖoɖo
 
-- **ZIP nɔnɔme:** Draft. Aƒetɔ Dev Ojha kple Evan Forbes; wowɔe le 13 March 2026 dzi.
-- **Coinholder poll:** wu enu le 14 September 2026, kple 99.9% ƒe kpekpeɖeŋu. Numekukua ɖee fia be amewo lɔ̃e; metrɔa se siwo dzi woda asi ɖo le eɖokui si o.
-- **Ɣeyiɣi ƒe ɖoɖo:** le Zcash Community Forum ƒe gbeƒãɖeɖe aɖe me le September 17 lia dzi la, ŋgɔyiyihabɔbɔwo da asi ɖe ɖoɖowɔɖi si dzi woawu kɔda nu hafi September 30, NU7 le testnet dzi le October 6 lia dzi, nyametsotso mamlɛtɔ kple mainnet ƒe dɔwɔwɔ ƒe kɔkɔme le October 20 lia dzi, kple mainnet ƒe dɔwɔwɔ si woɖo taɖodzinu na abe November 5, 2026. November 5 nye taɖodzinu, menye ŋkeke si woɖo ɖi o, vaseɖe esime woaɖo kɔkɔme.
-- **Dɔwɔwɔ:** wokplɔe ɖo le Zebra ([#11440](https://github.com/ZcashFoundation/zebra/issues/11440)) kple le Zakura ([PR #1066](https://github.com/zakura-core/zakura/pull/1066)).
+- **ZIP ƒe nɔnɔme:** Wotsɔe do ŋgɔ. Tɔdziɖilae nye Dev Ojha kple Evan Forbes; wo wɔe le 13 March 2026.
+- **Gaƒeɖila ƒe akɔɖeɖe:** Wòwu le 14 September 2026, kple 99.9% ƒe kpekpeɖeŋu. Akɔɖeɖe la fia ameƒe dzidzɔ; metrɔa gbegbɔgblɔ ɖi ƒe sewo le eɖokuiŋu o.
+- **Ɣeyiɣi ƒe ɖoɖo:** Le Zcash Community Forum ƒe gbeɖeɖe aɖe me le 17 September la, ŋgɔɖoɖo ƒe haawo wɔ ɖoɖo be code nanɔ blibo le 30 September, NU7 le testnet dzi le 6 October, eye woawɔ nya mamlɛtɔ le 20 October. Mainnet ƒe dɔwɔwɔ ƒe teƒe ƒe xexlẽ fifia nye 3,543,405 ([ZIP 259](https://zips.z.cash/zip-0259)), si woɖo be wòadzɔ le 5 November 2026 ƒe ɣeyiɣi me.
+- **Dɔwɔwɔ:** Wole eƒe dɔ kpɔm le Zebra ([#11440](https://github.com/ZcashFoundation/zebra/issues/11440)) kple le Zakura ([PR #1066](https://github.com/zakura-core/zakura/pull/1066)).
 
-## Nusi esia fia na wò
+## Nu si esia fia na wò
 
-- **ZEC:** naneke meli woawɔ o. Wò ga si susɔ kple nuzazãwo ƒe ɖoɖowɔɖia mekpɔa ŋusẽ ɖe edzi o.
-- **Gakotoku zazã:** ɖɔɖɔɖo ne wò gakotokua ɖo NU7 kpekpeɖeŋu ɖa. Kpeɖodzi gbãtɔwo ava abe zi etɔ̃ ene kaba.
-- **Node, exchange alo service ƒe dɔwɔwɔ:** wɔ ɖoɖo be yeadoe ɖe ŋgɔ hafi awɔ dɔ, eye nàto ɖoɖo ɖesiaɖe si wodzidze le block me me, elabena block xexlẽme si woɖo ɖi la xɔa ɣeyiɣi si wònɔ tsã ƒe akpa etɔ̃lia fifia.
+- **ZEC dzidzɔ:** Dɔ aɖeke mele be nàwɔ o. Wò balance kple gaƒe ƒe ɖoɖo metrɔa o.
+- **Gakotoku ƒe zazã:** Trɔ wò gakotoku ne wòtsɔ NU7 ƒe kpekpeɖeŋu do go. Kpeɖeŋu gbãtɔwo ava kabakaba le zi etɔ̃e.
+- **Ɣaɣla dzesi ŋɔŋlɔ, gatrɔƒe alo subɔsubɔ ƒe dɔwɔwɔ:** Ɖoɖo be nàtrɔe hafi dɔwɔwɔ ƒe gɔmedzedze, eye nàkpɔ nɔnɔme siawo katã si woɖena le gaɖoɖowo ƒuƒoƒe me, elabena gaɖoɖowo ƒuƒoƒe ƒe xexlẽ si menɔa trɔm o kpɔa ɣeyiɣi ƒe akpa etɔ̃ ko fifia.
 
-## Dzɔtsoƒewo
+## Nusiwo tsoe
 
-- [ZIP 218: Sɛkɛnd 25 ƒe Block Taɖodzinu ƒe Dometsotso](https://zips.z.cash/zip-0218)
-- [ZIP 208: Block Taɖodzinu ƒe Dometsotso Kpuie wu](https://zips.z.cash/zip-0208), si nye Blossom ŋgɔdonya
-- [Forum: Aɖaŋuɖoɖo — Ðe Zcash Block Taɖodzinu ƒe dometsotso dzi kpɔtɔ va ɖo 25s](https://forum.zcashcommunity.com/t/proposal-lower-zcash-block-target-spacing-to-25s/54577)
-- [Forum: Zcash Block Ɣeyiɣi Ðeɖekpɔkpɔ Edze abe Dedie na NU7 w / Zebra-only Devnet](https://forum.zcashcommunity.com/t/zcash-block-time-reduction-appears-safe-for-nu7-w-zebra-only-devnet/55586)
-- [Zebra ƒe tata #11463](https://github.com/ZcashFoundation/zebra/issues/11463), post-NU7 afã ƒe dometsotso kple kpekpeɖeŋunana
-- [Zebra ƒe tata #11440](https://github.com/ZcashFoundation/zebra/issues/11440), ZIP 218 ƒe dɔwɔwɔ yometiti
-- NU7 ƒe numekuku me tsonu kple ɣeyiɣi ƒe ɖoɖo, abe alesi Bitcoin.com News, crypto.news kple KuCoin (16–19 September 2026) ka nya tae ene
+- [ZIP 218: Gaɖoɖowo Ƒuƒoƒe Ƒe Sekondi 25 ƒe Ɣeyiɣi ƒe Taɖodzinu](https://zips.z.cash/zip-0218)
+- [ZIP 208: Gaɖoɖowo Ƒuƒoƒe Ƒe Ɣeyiɣi Ƒe Taɖodzinu Kpui](https://zips.z.cash/zip-0208), Blossom ƒe kpɔɖeŋu
+- [Forum: Ɖoɖoɖo — Ɖe Zcash ƒe Gaɖoɖowo Ƒuƒoƒe Ƒe Ɣeyiɣi ƒe Taɖodzinu ɖe 25s](https://forum.zcashcommunity.com/t/proposal-lower-zcash-block-target-spacing-to-25s/54577)
+- [Forum: Zcash ƒe Gaɖoɖowo Ƒuƒoƒe Ɣeyiɣi ƒe Ɖeɖe Kpɔ be Enye Dedienɔ Na NU7 kple Zebra-ko ƒe Devnet](https://forum.zcashcommunity.com/t/zcash-block-time-reduction-appears-safe-for-nu7-w-zebra-only-devnet/55586)
+- [Zebra ƒe nya #11463](https://github.com/ZcashFoundation/zebra/issues/11463), fetu ƒe afãmama ƒe mama kple kpekpeɖeŋu le NU7 megbe
+- [Zebra ƒe nya #11440](https://github.com/ZcashFoundation/zebra/issues/11440), ZIP 218 ƒe dɔwɔwɔ ƒe tracking
+- NU7 ƒe akɔɖeɖe ƒe nusiwo do go kple ɣeyiɣi ƒe ɖoɖo, abe Bitcoin.com News, crypto.news kple KuCoin gblɔe ene (16–19 September 2026)

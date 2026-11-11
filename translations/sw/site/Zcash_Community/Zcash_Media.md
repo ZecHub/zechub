@@ -1,15 +1,14 @@
 <a href="https://github.com/Zechub/zechub/edit/main/site/Zcash_Community/Zcash_Media.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Hariri ukurasa"/>
 </a>
 
 # Zcash Media
 
-"Our role in this collaborative effort is to educate, inspire, and excite current and future Zcashers, building a base of supporters that rivals the largest projects and beyond."
+“Jukumu letu katika juhudi hii ya ushirikiano ni kuelimisha, kuhamasisha, na kuwachangamsha watumiaji wa sasa na wa baadaye wa Zcash, huku tukijenga msingi wa wafuasi unaoshindana na miradi mikubwa zaidi na hata kuzidi.”
 
+## Usuli
 
-## Historia
-
-Imetengenezwa na [37 LAINES](https://www.37laines.com/) kwa ajili ya manufaa ya umma, Zcash Media ya video za elimu ni wote kuhusu Zcash na crypto. Ni unafadhiliwa na [Zcash Community Grants](https://x.com/ZcashCommGrants) mpango, na imekuwa mchezaji muhimu katika mazingira Zcash.
+Ikiwa imetayarishwa na [37 LAINES](https://www.37laines.com/) kwa manufaa ya umma, video za elimu za Zcash Media zinahusu Zcash na sarafu za kidijitali. Inafadhiliwa na programu ya [Zcash Community Grants](https://x.com/ZcashCommGrants), na imekuwa mhusika muhimu katika mfumo wa ikolojia wa Zcash.
 
 ## Video
 
@@ -17,10 +16,9 @@ Imetengenezwa na [37 LAINES](https://www.37laines.com/) kwa ajili ya manufaa ya 
   <iframe
     className="w-full h-full"
     src="https://www.youtube.com/embed/videoseries?si=e8-nsKxIHdk9YGY2&amp;list=PLCBF_Zq-SbAL19zav5LPfNzXNPNP9IOeb"
-    title="Zcash Media Playlist"
+    title="Orodha ya uchezaji ya Zcash Media"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowFullScreen
     loading="lazy"
   />
 </div>
-    

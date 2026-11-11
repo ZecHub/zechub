@@ -21,6 +21,7 @@ on:
       - "translation/protected-terms.json"
       - "translation/menu-titles/en.json"
       - "scripts/check-brand-drift.mjs"
+      - "scripts/check-brand-drift.test.mjs"
       - "translation/brand-drift-baseline.txt"
       - ".github/workflows/brand-drift.yml"
   schedule:
@@ -47,5 +48,7 @@ jobs:
       # No install step: the checker is dependency-free Node, reading the repo
       # off disk. Keeping it that way is what lets it run on a schedule without
       # a lockfile or a token.
+      - name: Test the checker
+        run: node --test scripts/check-brand-drift.test.mjs
       - name: Check for unprotected brand names
         run: node scripts/check-brand-drift.mjs

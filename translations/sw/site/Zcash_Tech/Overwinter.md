@@ -4,105 +4,105 @@
 
 # Overwinter
 
-> Overwinter alienda kuishi juu ya Zcash mainnet katika block 347,500 (Juni 26, 2018 UTC).
+> Overwinter ilianza kutumika kwenye mainnet ya Zcash katika block 347,500 (Juni 26, 2018 UTC).
 
-Nini utachukua mbali: jinsi Zcash kujifunza kubadilisha sheria zake mwenyewe salama, na kwa nini kwamba groundwork alifanya kila baadaye upgrades, kuanzia na Sapling, inawezekana.
+Utakachojifunza: jinsi Zcash ilivyojifunza kubadilisha kanuni zake yenyewe kwa usalama, na kwa nini msingi huo uliwezesha kila uboreshaji uliofuata, kuanzia na Sapling.
 
-Overwinter ni Zcash [kuboresha mtandao](../start-here/network-upgrades), ya kwanza baada ya mtandao ilizinduliwa. Ni ilivyoainishwa katika mapendekezo kadhaa Zcash Uboreshaji: [ZIP 200 - Ujumbe wa posta.](https://zips.z.cash/zip-0200), [ZIP 201](https://zips.z.cash/zip-0201), [ZIP 202 - Ujumbe wa posta.](https://zips.z.cash/zip-0202), [ZIP 203 - Ujumbe wa posta.](https://zips.z.cash/zip-0203), na [ZIP 143 - Ujumbe wa posta.](https://zips.z.cash/zip-0143)Overwinter hakuwa na kuongeza yoyote vipengele mpya ulinzi. Badala yake ni hardened itifaki ili upgrades baadaye inaweza meli salama. kuboresha imeandikwa kwa njia ya programu za kompyuta, kama vile Windows 10 au Mac OS X. [Electric Coin Company](../zcash-organizations/electric-coin-company) kwenye ukurasa rasmi wa kuboresha Zcash.
+Overwinter ni Zcash [uboreshaji wa mtandao](../start-here/network-upgrades) [network upgrade] wa kwanza baada ya mtandao kuanzishwa. Umefafanuliwa katika Mapendekezo kadhaa ya Uboreshaji ya Zcash: [ZIP 200](https://zips.z.cash/zip-0200), [ZIP 201](https://zips.z.cash/zip-0201), [ZIP 202](https://zips.z.cash/zip-0202), [ZIP 203](https://zips.z.cash/zip-0203), na [ZIP 143](https://zips.z.cash/zip-0143). Overwinter haikuongeza vipengele vipya vya faragha. Badala yake, iliimarisha itifaki ili maboresho ya baadaye yaweze kutolewa kwa usalama. Uboreshaji huo umeandikwa na [Electric Coin Company](../zcash-organizations/electric-coin-company) kwenye ukurasa rasmi wa maboresho wa Zcash.
 
-Why this matters. Changing the rules of a live blockchain is dangerous. Get it wrong and two versions of the network can disagree, or a transaction meant for one chain can be copied onto another. Before Overwinter, Zcash had no standard, replay-safe way to coordinate a rule change. Overwinter fixed that. It gave Zcash a formal process for upgrades and, just as important, two-way replay protection, so a transaction that is valid under one set of rules cannot be replayed under another. That groundwork is what made Sapling, and every upgrade after it, possible to activate cleanly.
+Kwa nini hili ni muhimu. Kubadilisha kanuni za blockchain inayotumika ni hatari. Ukikosea, matoleo mawili ya mtandao yanaweza kutokubaliana, au muamala [transaction] uliokusudiwa kwa mnyororo [chain] mmoja unaweza kunakiliwa kwenye mwingine. Kabla ya Overwinter, Zcash haikuwa na njia ya kawaida iliyo salama dhidi ya urudiaji ya kuratibu mabadiliko ya kanuni. Overwinter ilirekebisha hilo. Iliipa Zcash mchakato rasmi wa maboresho na, muhimu vilevile, ulinzi wa urudiaji wa pande mbili, hivyo muamala ambao ni halali chini ya seti moja ya kanuni hauwezi kurudiwa chini ya nyingine. Msingi huo ndio uliowezesha Sapling, na kila uboreshaji baada yake, kuanzishwa bila matatizo.
 
 ![Before and after Overwinter: before, no standard upgrade path and no replay protection. After, a network upgrade mechanism with two-way replay protection and safe future upgrades](/content-images/overwinter-before-after-acf4f5d283.webp)
 
-## Utaratibu wa kuboresha
+## Utaratibu wa uboreshaji
 
-Overwinter ilianzisha Network Upgrade utaratibu, ilivyoelezwa katika [ZIP 200 - Ujumbe wa posta.](https://zips.z.cash/zip-0200). Every upgrade now defines two things: a consensus branch id that names the current set of rules, and an activation height, the block at which the new rules take effect. This gives everyone running Zcash software a clear window to update before the switch.
+Overwinter ilianzisha Utaratibu wa Uboreshaji wa Mtandao, uliofafanuliwa katika [ZIP 200](https://zips.z.cash/zip-0200). Kila uboreshaji sasa hufafanua mambo mawili: kitambulisho cha tawi la makubaliano [consensus] kinachotaja seti ya sasa ya kanuni, na kimo cha uanzishaji, yaani block ambamo kanuni mpya zinaanza kutumika. Hii huwapa wote wanaoendesha programu ya Zcash muda wazi wa kusasisha kabla ya mabadiliko.
 
-Overwinter yenyewe kuanzishwa kwenye mainnet katika block 347.500.
+Overwinter yenyewe ilianza kutumika kwenye mainnet katika block 347,500.
 
-[ZIP 201](https://zips.z.cash/zip-0201) kushughulikia jinsi nodes kutibu kila mmoja karibu kuboresha. Kabla ya uanzishaji, nodes wanapendelea kuungana na wenzao mbio toleo moja. Wakati wa uanzishwaji, node disconnects kutoka kwa wenzake kwamba ni juu ya tawi tofauti makubaliano, hivyo mtandao hugawanyika safi pamoja sheria mpya badala ya kupata kuchanganyikiwa.
+[ZIP 201](https://zips.z.cash/zip-0201) hushughulikia jinsi node zinavyoshughulikia nyingine karibu na uboreshaji. Kabla ya uanzishaji, node hupendelea kuunganishwa na washirika wanaoendesha toleo lilelile. Wakati wa uanzishaji, node hukata muunganisho na washirika walio kwenye tawi tofauti la makubaliano, hivyo mtandao hugawanyika kwa uwazi kulingana na kanuni mpya badala ya kuchanganyikiwa.
 
-## Kucheza tena ulinzi
+## Ulinzi wa urudiaji
 
-Replay ni wakati mtu inachukua shughuli ambayo ilikuwa halali juu ya mlolongo mmoja na rebroadcasts yake kwenye mwingine. Overwinter kufunga kwamba mlango kwa mpango mpya saini, ilivyoelezwa katika [ZIP 143 - Ujumbe wa posta.](https://zips.z.cash/zip-0143)Wakati mkoba saini shughuli, sahihi sasa ahadi kwa mlolongo wa mkataba id ya. Shughuli iliyosainiwa kwa ajili ya tawi moja ni tu si halali juu ya matawi mengine yoyote, katika mwelekeo wowote. Hiyo ndiyo maana mbili-njia replay ulinzi ina maana.
+Urudiaji hutokea mtu anapochukua muamala uliokuwa halali kwenye mnyororo mmoja na kuutangaza tena kwenye mwingine. Overwinter hufunga uwezekano huo kwa mfumo mpya wa sahihi [signature], uliofafanuliwa katika [ZIP 143](https://zips.z.cash/zip-0143). Pochi [wallet] inapotia sahihi muamala, sahihi sasa huhusisha kitambulisho cha tawi la makubaliano cha mnyororo wa sasa. Muamala uliotiwa sahihi kwa tawi moja kwa urahisi si halali kwenye tawi lingine lolote, katika mwelekeo wowote. Hiyo ndiyo maana ya ulinzi wa urudiaji wa pande mbili.
 
-Hii kazi mkono kwa mkono na toleo jipya 3 shughuli format kutoka [ZIP 202 - Ujumbe wa posta.](https://zips.z.cash/zip-0202), wakati mwingine huitwa Overwintered format. Inaongeza fOverwintered bendera na toleo kundi id ambayo kufanya wazi ni seti ya makubaliano sheria shughuli anamilikiwa kwa. Kama faida upande, mpango mpya saini pia kuboreshwa jinsi haraka manunuzi uwazi ni kuthibitishwa.
+Hili hufanya kazi sambamba na muundo mpya wa muamala wa toleo la 3 kutoka [ZIP 202](https://zips.z.cash/zip-0202), unaoitwa wakati mwingine muundo wa Overwintered. Unaongeza alama ya fOverwintered na kitambulisho cha kundi la toleo vinavyoweka wazi seti ya kanuni za makubaliano ambayo muamala unahusiana nayo. Kama faida ya ziada, mfumo mpya wa sahihi pia uliimarisha kasi ya uthibitishaji wa miamala ya uwazi [transparent].
 
 ![How replay protection works: a wallet signs a transaction that commits to the current consensus branch id, so the transaction cannot be replayed on any other branch](/content-images/overwinter-replay-flow-754ec8578a.webp)
 
-## Mpango wa kumalizika muda wake
+## Kuisha kwa muda kwa muamala
 
-[ZIP 203 - Ujumbe wa posta.](https://zips.z.cash/zip-0203) added transaction expiry. A transaction can now set an expiration block height. If it has not been mined by that height, nodes drop it from the mempool, the waiting room of unconfirmed transactions. Before this, a transaction could sit unconfirmed for a long time. Expiry means a stuck transaction eventually clears on its own, which reduces uncertainty for you and keeps the mempool from filling up with old, unmined transactions.
+[ZIP 203](https://zips.z.cash/zip-0203) iliongeza kuisha kwa muda kwa muamala. Muamala sasa unaweza kuweka kimo cha block cha kuisha muda. Ikiwa haujachimbwa kufikia kimo hicho, node huutoa kutoka mempool, chumba cha kusubiri cha miamala ambayo haijathibitishwa. Kabla ya hili, muamala ungeweza kukaa bila kuthibitishwa kwa muda mrefu. Kuisha kwa muda kunamaanisha muamala uliokwama hatimaye huondoka wenyewe, jambo linalopunguza kutokuwa na uhakika kwako na kuzuia mempool kujazwa na miamala ya zamani ambayo haijachimbwa.
 
-## Mahali panapofaa
+## Nafasi yake
 
-Overwinter ilikuwa ya kwanza Zcash mtandao kuboresha baada ya Oktoba 2016 mainnet uzinduzi, na ni kusafirishwa makusudi mbele Sapling. kazi yake alikuwa miundombinu, si makala. Kwa kufunga upgrading utaratibu na mashine replay-ulinzi wa kwanza, alitoa kila baadaye kuongeza (Sapling, Blossom, Heartwood, Canopy, NU5, na wale baada) njia salama kuamsha.
+Overwinter ulikuwa uboreshaji wa kwanza wa mtandao wa Zcash baada ya uzinduzi wa mainnet wa Oktoba 2016, na ulitolewa kimakusudi kabla ya Sapling. Kazi yake ilikuwa miundombinu, si vipengele. Kwa kusakinisha utaratibu wa uboreshaji na mfumo wa ulinzi wa urudiaji kwanza, ulipa kila uboreshaji wa baadaye (Sapling, Blossom, Heartwood, Canopy, NU5, na ule uliofuata) njia salama ya kuanzishwa.
 
 ![Timeline from the October 2016 Sprout launch, through the 2016 to 2018 stretch with no upgrade framework, to Overwinter in June 2018](/content-images/overwinter-timeline-689d9bcf20.webp)
 
-## Orodha ya maneno
+## Fahirisi ya istilahi
 
-| Muhula | Maana ya Kiingereza cha kawaida |
+| Istilahi | Maana kwa lugha rahisi |
 |---|---|
-| Network upgrade (NU) | Mabadiliko yaliyoratibiwa kwa sheria za makubaliano Zcash's, yaliyoamilishwa kwa urefu wa block uliowekwa |
-| Consensus branch id | Kitambulisho kifupi kinachotaja seti ya sasa ya sheria za makubaliano |
-| Activation height | Kizuizi ambacho sheria mpya za uboreshaji wa mtandao huanza kutumika |
-| Replay protection | Sheria inayozuia muamala halali kwenye mnyororo mmoja kutumiwa tena kwenye mwingine |
-| Mempool | Dimbwi la miamala ambayo imetangazwa lakini bado haijachimbwa kwenye kizuizi |
-| Transaction expiry | Urefu wa kizuizi cha kumalizika muda ambao baada ya muamala ambao haujachimbwa hupunguzwa |
+| Network upgrade (NU) | Mabadiliko yaliyoratibiwa kwa kanuni za makubaliano za Zcash, yanayoanzishwa katika kimo mahususi cha block |
+| Consensus branch id | Kitambulisho kifupi kinachotaja seti ya sasa ya kanuni za makubaliano |
+| Activation height | Block ambamo kanuni mpya za uboreshaji wa mtandao zinaanza kutumika |
+| Replay protection | Kanuni inayozuia muamala halali kwenye mnyororo mmoja kutumika tena kwenye mwingine |
+| Mempool | Bwawa [pool] la miamala iliyotangazwa lakini ambayo bado haijachimbwa kwenye block |
+| Transaction expiry | Kimo cha block cha kuisha muda ambacho baada yake muamala ambao haujachimbwa huondolewa |
 
-## FAQs
+## Maswali yanayoulizwa mara kwa mara
 
-Overwinter iliyopita ZEC yangu au faragha? No. Overwinters aliongeza hakuna makala mpya na wala kugusa shughuli ulinzi. Ilikuwa mabomba kwa ajili ya upgrades salama baadaye. fedha yako na faragha walikuwa unaffected.
+Je, Overwinter ilibadilisha ZEC yangu au faragha yangu? Hapana. Overwinter haikuongeza vipengele vipya na haikugusa miamala ya faragha. Ilikuwa miundombinu ya maboresho salama ya baadaye. Fedha na faragha yako havikuathiriwa.
 
-Je, Overwinter kuongeza Sapling au anwani ulinzi? La. Overwinters aliongeza hakuna vipengele kulindwa. Ni tayari ardhi ili Sapling inaweza kuamsha salama baadaye.
+Je, Overwinter iliongeza Sapling au anwani za faragha? Hapana. Overwinter haikuongeza vipengele vya faragha. Iliandaa msingi ili Sapling iweze kuanzishwa kwa usalama baadaye.
 
-Ni nini id ya tawi la makubaliano? Ni lebo fupi ambayo inataja seti ya sasa ya sheria. Shughuli zinajitolea wakati zinasainiwa, na ndio inayompa Zcash ulinzi wake wa kurudia.
+Kitambulisho cha tawi la makubaliano ni nini? Ni lebo fupi inayotaja seti ya sasa ya kanuni. Miamala huihusisha inapotiwa sahihi, na hilo ndilo huipa Zcash ulinzi wake wa urudiaji.
 
-Kwa nini baadhi ya vyanzo vinasema Juni 25 na wengine 26? Overwinter ilianzishwa saa 01:37 UTC mnamo Juni 26, 2018. Hiyo ni baada tu ya usiku wa manane UTC, hivyo katika maeneo mengi ya Magharibi wakati wa mitaa bado kusoma Juni 25. Ni block moja na muda huo.
+Kwa nini vyanzo vingine vinasema Juni 25 na vingine Juni 26? Overwinter ilianza kutumika saa 01:37 UTC tarehe Juni 26, 2018. Hiyo ni baada kidogo ya saa sita usiku UTC, kwa hivyo katika maeneo mengi ya saa ya Magharibi saa za eneo bado zilionyesha Juni 25. Ni block ileile na wakati uleule.
 
-Nini ni shughuli ya kumalizika muda mzuri kwa ajili? Ina maana biashara ambayo kamwe anapata kuchimbwa si linger milele. Baada urefu wake wa mwisho, nodes kuacha yake, hivyo wewe hawako kushoto nadhani kuhusu malipo kukwama.
+Kuisha kwa muda kwa muamala kuna faida gani? Kunamaanisha kuwa muamala ambao hauchimbwi kamwe hautabaki kwa muda usio na kikomo. Baada ya kimo chake cha kuisha muda, node huutoa, hivyo hutabaki ukikisia kuhusu malipo yaliyokwama.
 
-Je, ninahitaji kufanya kitu chochote? Hapana. Overwinter ulioamilishwa mwaka 2018. yoyote ya sasa Zcash mkoba au node tayari ifuatavyo sheria hizi.
+Je, ninahitaji kufanya chochote? Hapana. Overwinter ilianza kutumika mwaka 2018. Pochi au node yoyote ya sasa ya Zcash tayari hufuata kanuni hizi.
 
-## Jaribu uelewevu wako
+## Pima uelewa wako
 
-Overwinter aliongeza hakuna vipengele mpya ulinzi. Hivyo kwa nini ni kuchukuliwa moja ya upgrades muhimu zaidi katika historia Zcash?
+Overwinter haikuongeza vipengele vipya vya faragha. Basi kwa nini inachukuliwa kuwa mojawapo ya maboresho muhimu zaidi katika historia ya Zcash?
 
 <details>
-<summary>Answer</summary>
+<summary>Jibu</summary>
 
-Kwa sababu ilijenga mashine ambayo kila upgrades baadaye inategemea. Overwinter alianzisha Network Upgrade utaratibu na pande mbili replay ulinzi, kutoa Zcash kiwango cha juu, njia salama ya kubadilisha makubaliano yake sheria. Bila kwamba groundwork, Sapling na upgrads baada hawezi kuwa ulioamilishwa safi.
+Kwa sababu ilijenga mfumo ambao kila uboreshaji wa baadaye unautegemea. Overwinter ilianzisha Utaratibu wa Uboreshaji wa Mtandao na ulinzi wa urudiaji wa pande mbili, ikiipa Zcash njia ya kawaida na salama ya kubadilisha kanuni zake za makubaliano. Bila msingi huo, Sapling na maboresho yaliyofuata yasingeweza kuanzishwa bila matatizo.
 </details>
 
 ### Rasilimali
 
-[ZIP 200: Network Upgrade utaratibu](https://zips.z.cash/zip-0200)
+[ZIP 200: Utaratibu wa Uboreshaji wa Mtandao](https://zips.z.cash/zip-0200)
 
-[ZIP 201: Mtandao Peer Management kwa Overwinter](https://zips.z.cash/zip-0201)
+[ZIP 201: Usimamizi wa Washirika wa Mtandao kwa Overwinter](https://zips.z.cash/zip-0201)
 
-[ZIP 202: Toleo 3 Transaction Format kwa Overwinter](https://zips.z.cash/zip-0202)
+[ZIP 202: Muundo wa Muamala wa Toleo la 3 kwa Overwinter](https://zips.z.cash/zip-0202)
 
-[ZIP 203: Transaction Mwisho wa muda.](https://zips.z.cash/zip-0203)
+[ZIP 203: Kuisha kwa Muda kwa Muamala](https://zips.z.cash/zip-0203)
 
-[ZIP 143: Transaction Signature Validation kwa ajili ya Overwinter](https://zips.z.cash/zip-0143)
+[ZIP 143: Uthibitishaji wa Sahihi ya Muamala kwa Overwinter](https://zips.z.cash/zip-0143)
 
-[Overwinter Mtandao Upgrade](https://z.cash/upgrade/overwinter/)
+[Overwinter Uboreshaji wa Mtandao](https://z.cash/upgrade/overwinter/)
 
-### Angalia pia:
+### Tazama pia
 
-[Zcash Network Upgrades (Ubadilishaji wa Mtandao)](../start-here/network-upgrades)
+[Maboresho ya Mtandao wa Zcash](../start-here/network-upgrades)
 
-[Vidimbwi Vilivyohifadhiwa kwa Kifaa cha Kuzuia Mlipuko](../using-zcash/shielded-pools)
+[Mabwawa ya Faragha](../using-zcash/shielded-pools)
 
-[Nodes kamili](../zcash-tech/full-nodes)
+[Full Nodes](../zcash-tech/full-nodes)
 
 [NU6.1](../zcash-tech/nu6-1)
 
 [Electric Coin Company](../zcash-organizations/electric-coin-company)
 
-[ZEC na Zcash ni nini?](../start-here/what-is-zec-and-zcash)
+[Je, ZEC ni nini na Zcash](../start-here/what-is-zec-and-zcash)
 
 ---
 
-Mfululizo: [Kiwango cha Upgrades Network](../start-here/network-upgrades) · Zamani: [Sprout](../zcash-tech/sprout) · Kisha: [Sapling](../zcash-tech/sapling)
+Mfululizo: [Faharasa ya Maboresho ya Mtandao](../start-here/network-upgrades) · Iliyotangulia: [Sprout](../zcash-tech/sprout) · Inayofuata: [Sapling](../zcash-tech/sapling)

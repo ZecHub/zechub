@@ -2,9 +2,9 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# <img src="/content-images/image-2024-02-03-173258092-a5440e5ee2.webp" alt="Alt Text" width="50"/>   托管式交易所
+# <img src="/content-images/image-2024-02-03-173258092-a5440e5ee2.webp" alt="Alt Text" width="50"/>   托管交易所[Custodial Exchanges]
 
-Ironwood 是随 2026 年 7 月网络升级推出的屏蔽资金池。仅处理透明 t-address 的交易所不会涉及它，因此标注为不适用。若某交易所支持屏蔽地址但未说明其使用的是哪个资金池，则会如实注明，而不作猜测。
+Ironwood 是随 2026 年 7 月网络升级[network upgrade]而来的屏蔽 pool。仅处理透明 t 地址的交易所从不涉及它，因此标注为不适用。若交易所处理屏蔽地址但未说明使用哪个 pool，则会如实注明，而非猜测。
 
 ---
 
@@ -31,7 +31,7 @@ ___
 - 交易对：ALL/ZEC
 - 支持：透明（TEX 地址充值）
 - 充值时间：20 分钟
-- Ironwood：不适用，仅支持透明地址
+- Ironwood：不适用，仅限透明地址
 ___
 
 ### [BitcoinVN](https://bitcoinvn.io)
@@ -42,7 +42,7 @@ ___
 
 - 网站：[BitcoinVN](https://bitcoinvn.io)
 - 交易对：BTC/ZEC、ETH/ZEC、USDT/ZEC、XMR/ZEC、LTC/ZEC、DASH/ZEC
-- 支持：透明 | 屏蔽（z-address 充值和提现）
+- 支持：透明 | 屏蔽（z 地址充值与提现）
 - 充值时间：即时（非托管兑换）
 - Ironwood：未说明
 ___
@@ -57,7 +57,7 @@ ___
 - 交易对：ALL/ZEC
 - 支持：透明
 - 充值时间：25 分钟 
-- Ironwood：不适用，仅支持透明地址
+- Ironwood：不适用，仅限透明地址
 ___
 
 ### [Coinbase](https://coinbase.com)
@@ -70,7 +70,7 @@ ___
 - 交易对：ALL/ZEC
 - 支持：透明
 - 充值时间：150 分钟
-- Ironwood：不适用，仅支持透明地址
+- Ironwood：不适用，仅限透明地址
 ___
 
  ### [Gemini](https://gemini.com)
@@ -81,9 +81,9 @@ ___
 
 - 网站：[Gemini](https://gemini.com)
 - 交易对：ALL/ZEC
-- 支持：透明 | 屏蔽和统一地址提现，自 2025 年 11 月起Orchard
+- 支持：透明 | 屏蔽和统一地址提现，自 2025 年 11 月起支持 Orchard
 - 充值时间：50 分钟 
-- Ironwood：支持屏蔽提现，未说明资金池
+- Ironwood：支持屏蔽提现，未说明 pool
 ___
 
 ### [Huobi](https://huobi.com)
@@ -96,7 +96,7 @@ ___
 - 交易对：ALL/ZEC
 - 支持：透明
 - 充值时间：35 分钟 
-- Ironwood：不适用，仅支持透明地址
+- Ironwood：不适用，仅限透明地址
 ___
 
 ### [Kraken](https://kraken.com)
@@ -109,7 +109,7 @@ ___
 - 交易对：ALL/ZEC
 - 支持：透明
 - 充值时间：60 分钟
-- Ironwood：不适用，仅支持透明地址
+- Ironwood：不适用，仅限透明地址
 ___
 
 ### [KuCoin](https://kucoin.com)
@@ -122,10 +122,10 @@ ___
 - 交易对：ALL/ZEC
 - 支持：透明
 - 充值时间：20 分钟 
-- Ironwood：不适用，仅支持透明地址
+- Ironwood：不适用，仅限透明地址
 ___
 
-## [OKX（原 OKEx）](https://www.okx.com)
+## [OKX（原为 OKEx）](https://www.okx.com)
 
 <a href="https://www.okx.com">
     <img src="https://upload.wikimedia.org/wikipedia/commons/8/89/Official_logo_of_OKEx.png" alt="OKX logo (shown under its former OKEx branding)" width="200" height="100"/>
@@ -135,7 +135,7 @@ ___
 - 交易对：ALL/ZEC
 - 支持：透明
 - 充值时间：25 分钟 
-- Ironwood：不适用，仅支持透明地址
+- Ironwood：不适用，仅限透明地址
 ___
 
 ### [Robinhood](https://robinhood.com)
@@ -146,7 +146,7 @@ ___
 
 - 网站：[Robinhood](https://robinhood.com)
 - 交易对：USD/ZEC | EUR/ZEC
-- 支持：仅可提现至透明 t-address。ZEC充值不受支持
+- 支持：仅可提现至透明 t 地址。不支持 ZEC 充值
 - 充值时间：不支持充值
-- Ironwood：不适用，仅支持透明地址
+- Ironwood：不适用，仅限透明地址
 ___

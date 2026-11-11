@@ -2,34 +2,34 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Kpe asi ɖe ZecHub Tutu Ŋu 
+# Kpe ɖe ZecHub tutu ŋu 
 
-Ne ènye Zcash habɔbɔa me tɔ, eye nèdi be yeawɔ akpa aɖe le ZecHub tutu me la, nu ʋee aɖewo li siwo kpena ɖe ame ŋu ŋutɔ.
+Ne ènye Zcash ƒe hadome ƒe amesi, eye nèdi be yèakpe ɖe ZecHub tutu ŋu la, nu aɖewo le siwo akpe ŋutɔ.
 
-Dzra kadodowo ɖo na nyadzɔdzɔgbalẽa eye nàtsɔ wo akpe ɖe nyadzɔdzɔgbalẽa ƒe GitHub axa ŋu: -> [Zi afisia dzi be nàkpɔ mɔfiamewo](https://github.com/ZecHub/zechub/blob/main/site/contribute/ZecWeekly_Newsletter.md)
+Xɔ linkwo na nyadzɔdzɔgbalẽ [newsletter] la eye nàtsɔ wo akpe ɖe nyadzɔdzɔgbalẽ la ƒe GitHub axa dzi: -> [Zi afi sia be nàkpɔ fiƒodewo](https://github.com/ZecHub/zechub/blob/main/site/contribute/ZecWeekly_Newsletter.md)
 
-Nyateƒenyawo lé ŋku ɖe wiki docs ŋu, do susu ɖa be woatrɔ asi le wo ŋu, eye nàdo axa yeyewo ɖe ŋgɔ le GitHub me
+Ɖe nya siwo le wiki docs me kpuie, sɔ asitɔtrɔwo, eye nàɖo axa yeyewo ɖe GitHub me
 
-Wɔ video me nyawo le hatsotso siwo gbɔna me:
+Wɔ video ƒe emenyawo le hatsotso siwo gbɔna me:
 ```
 * Zcash explainer videos
 * Zcash wallet guide/tutorials
 * Third-party application demos
 ```
 
-Wɔ aɖaŋuwo abe posters/graphics/animations na Zcash & Privacy ecosystem 
+Wɔ aɖaŋuwo abe posters/graphics/animations ene na Zcash kple ɣaɣla [Privacy] ƒe nuto 
 
-Gblɔ wiki ƒe axa siwo li la dometɔ ɖesiaɖe.
+Ɖe wiki axa siwo li xoxo la ɖe Ewe me.
 
-Nyatakaka tso vodadawo ŋu
+Ɖo nyawo tso bugwo ŋu
 
-### Teƒeɖoɖowo
+### Fetɔwo
 
-Womeɖoa ga homewo ɖe ZEC. Zã nya sia [bounty amounts ƒe ɖoɖo](https://bounties.zechub.wiki/docs/bounty-amounts): tia USD dometsotso na dɔwɔwɔ ƒe hatsotso, trɔ le teƒea, ŋlɔ ZEC ɖe board la dzi. Ðoɖo ma gbɔe nyateƒea tso.
+Ga ƒe homewo menye nu si woɖo ɖe edzi le ZEC me o. Zɔ [bounty amounts policy](https://bounties.zechub.wiki/docs/bounty-amounts): tia USD ƒe teƒe na dɔ ƒe ƒomekuku la, trɔe ɖe spot ƒe home nu, eye nàŋlɔ ZEC ɖe board la dzi. Ɖoɖo siae nye nyateƒe ƒe teƒe.
 
-Nudzɔla ƒe dɔwɔwɔ ƒe ɖoɖo kple dɔ ƒomeviwo: [Nudzɔdzɔ na ZecHub](https://zechub.wiki/contribute/contributing-guide).
+Nusɔsrɔ̃ ƒe mɔ kple dɔ ƒomewo: [Nusɔsrɔ̃ na ZecHub](https://zechub.wiki/contribute/contributing-guide).
 
-Nuƒolanɔƒea ƒe azɔlizɔzɔ:
+Platform la ƒe mɔ ƒe numekpɔkpɔ:
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -42,27 +42,27 @@ Nuƒolanɔƒea ƒe azɔlizɔzɔ:
   />
 </div>
 
-Míeɖoa dɔ siwo woʋu ɖi la ɖe [ZEC Bounties](https://bounties.zechub.wiki/). Àte ŋu aɖo aɖaŋu le nunanawo ŋu le afima hã. PR si wotsɔ ƒo ƒui mesɔ kple fetu si dzi woda asi ɖo alo si woxe o.
+Míetsɔ dɔ siwo ʋu na amewo ɖe [ZEC Bounties](https://bounties.zechub.wiki/) dzi. Àte ŋu aɖo bountywo ɖe afi ma hã. PR si woɖe kpe ɖe eŋu la menye fetɔ si woɖe kpe ɖe eŋu alo woƒo na ame o.
 
 ![zecbounties](/content-images/0e4f5109-c0c9-4a0a-8d71-8172e36b9726-1a94469edf.webp)
 
 
 
-[ZEC ƒe Bounties](https://bounties.zechub.wiki/)
+[ZEC Bounties](https://bounties.zechub.wiki/)
 
-[ZecHub GitHub Nyawo](https://github.com/ZecHub/zechub/issues)
+[ZecHub GitHub ƒe nyawo](https://github.com/ZecHub/zechub/issues)
 
-[ZecHub-Wiki GitHub Nyawo](https://github.com/ZecHub/zechub-wiki/issues)
+[ZecHub-Wiki GitHub ƒe nyawo](https://github.com/ZecHub/zechub-wiki/issues)
 
 
 
-Ne mɔ bubu aɖewo li siwo dzi nàto akpe asi ɖe eŋu la, taflatse ŋlɔ gbedasi ɖe ZecHub ([@ZecHub ƒe nyawo](https://twitter.com/zechub)) le Twitter alo Wɔ ɖeka kple míaƒe [Discord](https://discord.gg/zcash).
+Ne mɔ bubuwo li si dzi nàdi be yèatsɔ akpe ɖe dɔ la ŋu la, taflatse na aɖo gbe ɖe ZecHub ([@ZecHub](https://twitter.com/zechub)) to Twitter dzi alo nàɖo kpekpe ɖe mía ƒe [Discord](https://discord.gg/zcash) ŋu.
 
 ____
 
-**Be woateŋu axe fewo la, ZecHub bia tso nudzɔlawo katã si be woakpe gbeƒãɖeɖe ƒe agbalẽvi ɖo kple woƒe Name & Shielded:**
+**Be woate ŋu afɔ fetɔwo la, ZecHub bia be nusɔsrɔ̃wo katã nàwoawɔ gbeɖeɖe ƒe fɔmu kple woƒe Ŋkɔ kple ɣaɣla [Shielded]:**
 
-**( Zcash | Namada | Penumbra | Ycash ) ƒe adrɛs**
+**( Zcash | Namada | Penumbra | Ycash ) gaɖoƒe ƒe dzesi [address]**
 
 ____
 
