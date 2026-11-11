@@ -4,29 +4,39 @@
 
 # <img src="/content-images/ZEC-USD-a2189a84b9.webp" alt="Alt Text" width="50"/>   Exchange Non-Kustodial
 
+## Ringkasan
+
+* Exchange non-kustodial memungkinkan kamu melakukan swap coin dari dompetmu sendiri. Kamu memegang private key milikmu, dan tidak ada akun exchange yang menyimpan danamu.
+* Menyimpan kuncimu sendiri melindungimu dari peretasan dan kegagalan exchange. Privasi adalah hal yang terpisah.
+* Setoran yang kamu kirim dari chain lain, seperti Solana atau Ethereum, bersifat publik di chain tersebut. Layanan swap juga melihat alamat dan data koneksimu.
+* Beberapa rute swap mengirimkan ZEC ke alamat transparan, yang bersifat publik.
+* ZEC milikmu menjadi privat setelah berada di alamat terlindungi. Jadikan terlindungi di dompetmu sendiri sebelum kamu membelanjakannya.
+
+## Penjelasan Inti
+
 [Zcash Exchange Non-Kustodial](/dex)
 
 Dalam dunia perdagangan cryptocurrency yang terus berkembang, exchange non-kustodial, yang juga dikenal sebagai Decentralized Exchanges atau DEX, memungkinkan pengguna untuk berdagang tanpa menyerahkan dana mereka ke akun exchange. Kamu memegang kunci milikmu sendiri, tetapi itu tidak berarti tidak ada pihak lain yang terlibat. Bergantung pada rutenya, sebuah swap dapat melewati situs web atau aplikasi dompet, layanan routing, smart contract, solver, dan bridge.
 
 Exchange yang terdaftar di atas memungkinkan kamu untuk mendapatkan dan memperdagangkan Zcash dari dompet milikmu sendiri. Seberapa privat sebuah swap bergantung pada layanan tersebut, jaringan yang kamu gunakan untuk membayar, dan apakah ZEC kamu berakhir di alamat terlindungi. Bagian di bawah ini akan menjelaskan perbedaannya.
 
-### **Memahami Exchange Non Kustodial**
+### **Memahami Exchange Non-Kustodial**
 
-Exchange non-kustodial, yang juga dikenal sebagai Decentralized Exchanges (DEXs), adalah platform yang memfasilitasi perdagangan cryptocurrency tanpa mengharuskan kamu menyetorkan dana ke dalam exchange itu sendiri. Sebaliknya, pengguna tetap memegang kendali atas private key mereka dan berdagang dari dompet mereka sendiri. Cross-chain swap masih mengandalkan pihak lain untuk memberikan penawaran (quote), rute, dan menyelesaikan transaksi tersebut (lihat di bawah).
+Exchange non-kustodial, yang juga dikenal sebagai Decentralized Exchanges (DEX), adalah platform yang memfasilitasi perdagangan cryptocurrency tanpa mengharuskan pengguna menyetor dana mereka ke exchange itu sendiri. Sebagai gantinya, pengguna tetap mengendalikan private key mereka dan berdagang dari dompet mereka sendiri. Swap lintas-chain masih bergantung pada pihak lain untuk memberikan kuotasi, merutekan, dan menyelesaikan perdagangan (lihat di bawah).
 
 Hal ini dapat meningkatkan keamanan, karena kamu tidak bergantung pada exchange untuk menyimpan asetmu, yang mana mengurangi risiko peretasan atau salah kelola. Ini tidak membuat sebuah swap menjadi privat dengan sendirinya. Transaksi pada exchange non-kustodial sering kali menggunakan smart contract, yang bersifat publik, dan layanan yang kamu gunakan masih dapat melihat alamat serta detail koneksi kamu.
 
 Keuntungan utama dari exchange cryptocurrency non-kustodial terletak pada peningkatan kontrol yang mereka berikan kepada pengguna atas aset mereka. Karena exchange ini tidak menyimpan aset tersebut, pengguna menikmati kepemilikan dan otoritas penuh atas mata uang digital mereka.
 
-### **Exchange Non Kustodial vs Exchange Kustodial**
+### **Exchange Non-Kustodial Vs Exchange Kustodial**
 
 **#1 Keamanan**: exchange non-kustodial menghilangkan kebutuhan untuk menyimpan dana dalam akun exchange terpusat. Pengguna tetap memegang kendali atas private key mereka, sehingga mengurangi risiko peretasan, serangan orang dalam, dan kegagalan platform yang mungkin dialami oleh exchange kustodial. Cross-chain swap masih dapat menahan dana untuk waktu singkat di alamat deposit atau bridge selama transaksi diselesaikan.
 
-**#2 Privasi**: Swap non-kustodial biasanya tidak memerlukan akun exchange, sehingga kamu sering kali bisa melewati proses pendaftaran menggunakan email atau ID. Hal tersebut tidak sama dengan anonimitas. Deposit yang kamu kirim di jaringan sumber (misalnya Solana atau Ethereum) bersifat publik di chain tersebut, dan layanan tersebut masih dapat melihat alamat dompet, alamat IP, serta detail swap milikmu. Privasi pada sisi Zcash bergantung pada ke mana ZEC kamu mendarat (lihat di bawah).
+**#2 Privasi**: Swap non-kustodial biasanya tidak memerlukan akun exchange, sehingga kamu sering kali tidak perlu mendaftar menggunakan email atau ID. Hal itu tidak sama dengan anonimitas. Setoran yang kamu kirim di jaringan sumber (misalnya, Solana atau Ethereum) bersifat publik di chain tersebut, dan layanan tersebut masih dapat melihat alamat dompet, alamat IP, serta detail swap kamu. Privasi di sisi Zcash bergantung pada tempat ZEC kamu masuk (lihat di bawah).
 
 **#3 Desentralisasi**: exchange non-kustodial lebih selaras dengan etos desentralisasi mata uang kripto. Pengguna memiliki otonomi dan kendali yang lebih besar atas aktivitas perdagangan mereka, sejalan dengan prinsip-prinsip teknologi blockchain yang lebih luas.
 
-Dalam hal Exchange Kustodial, tingkat Desentralisasi sering kali sangat minim di sebagian besar exchange terpusat, yang menyebabkan tim atau pejabat exchange mengelola data atau informasi pengguna di dalam exchange tersebut.
+Dalam hal exchange kustodial, tingkat desentralisasi sering kali sangat rendah pada sebagian besar exchange terpusat, sehingga tim atau pejabat exchange mengelola data atau informasi pengguna di exchange.
 
 **#4 Adaptabilitas terhadap Perubahan Regulasi**: Exchange non-kustodial sering kali lebih adaptabel terhadap perubahan lingkungan regulasi. Karena mereka tidak menyimpan dana pengguna, mereka mungkin memiliki tantangan kepatuhan yang lebih sedikit dibandingkan dengan exchange kustodial.
 
@@ -67,6 +77,16 @@ NEAR Intents juga [memeriksa alur kutipan yang terintegrasi](https://docs.near-i
 - Data koneksi. Ketentuan 1Click menyatakan bahwa Intents Technology dapat mengumpulkan metadata permintaan, alamat IP, dan alamat dompet, dan kebijakan privasi di near.com mencantumkan alamat IP, lokasi, browser, dan informasi perangkat.
 - Apa pun yang ditambahkan oleh aplikasi, seperti alamat dompet terhubung lainnya. Aplikasi juga dapat menjalankan pemeriksaan kepatuhan mereka sendiri terhadap dompet kamu.
 
+## Visual / Analogi
+
+Exchange kustodial bekerja seperti bank. Kamu membuka akun, menyimpan uangmu di brankasnya, dan meminta bank untuk melakukan perdagangan atas namamu.
+
+Swap non-kustodial bekerja seperti loket penukaran mata uang di jalan yang ramai. Kamu menyerahkan uang tunai melalui loket, menerima mata uang yang berbeda, dan tidak pernah meninggalkan uang kepada petugas. Orang-orang di jalan dapat melihat kamu mendekat dan menyerahkan uang tunai, sebagaimana siapa pun dapat melihat deposit kamu di chain sumber. Petugas tersebut melihat wajah kamu dan jumlahnya.
+
+Apa yang terjadi setelah jendela itu berakhir terserah kamu. Masukkan koin baru ke dalam amplop tersegel, gunakan alamat terlindungi, dan tidak seorang pun dapat mengikuti jejaknya dari sana.
+
+## Implikasi Praktis
+
 ### **Di Mana Memeriksa Ketentuan dan Dukungan**
 
 Ketentuan dapat berubah, jadi bacalah versi terbaru sebelum melakukan swap besar.
@@ -85,3 +105,23 @@ Exchange non-kustodial, atau DEX, memungkinkan kamu untuk berdagang dari dompet 
 Meskipun exchange non-kustodial menawarkan keuntungan yang menarik, penting untuk mengakui bahwa hal tersebut mungkin disertai dengan kekurangan, seperti potensi masalah likuiditas dan kurva pembelajaran yang lebih curam bagi pengguna yang kurang berpengalaman.
 
 Seperti halnya keputusan finansial lainnya, trader harus menilai prioritas, toleransi risiko, dan pemahaman mereka terhadap teknologi secara saksama sebelum memilih antara opsi exchange non-kustodial dan kustodial.
+
+## Kesalahan Umum
+
+- **Menganggap "non-kustodial" sebagai "pribadi".** Menyimpan kunci kamu melindungi dana kamu dari kegagalan exchange. Deposit pada chain sumber bersifat publik, dan layanan tersebut melihat alamat serta alamat IP kamu.
+- **Meninggalkan ZEC hasil swap pada alamat transparan.** Jika rute membayarkan ke alamat t1 atau t3, pindahkan ZEC ke alamat terlindungi di dompet kamu sendiri sebelum membelanjakannya.
+- **Melewatkan pemeriksaan alamat pengembalian dana.** Swap yang gagal dapat kembali ke alamat pengembalian dana yang kamu berikan, dan pengembalian dana tidak dijamin. Periksa alamat tersebut sebelum kamu mengirim.
+- **Membaca "tanpa KYC" sebagai "tanpa pemeriksaan".** Sebagian besar layanan memeriksa alamat dompet terhadap database kepatuhan, sehingga swap yang ditandai dapat tertunda atau diblokir.
+
+## Halaman Terkait
+
+- [DEX](/using-zcash/dex): exchange non-kustodial yang mendukung ZEC.
+- [Swap Terpusat](/using-zcash/centralized-swaps): layanan swap instan yang bekerja tanpa akun exchange.
+- [Exchange Kustodial](/using-zcash/custodial-exchanges): exchange yang menyimpan dana kamu dalam sebuah akun.
+- [Pool Terlindungi](/using-zcash/shielded-pools): tempat ZEC kamu menjadi privat setelah swap.
+- [Alamat Terpadu](/using-zcash/unified-addresses): alamat `u1` yang diberikan sebagian besar dompet kepada kamu untuk menerima ZEC.
+- [Solana ZEC ke Terlindungi](/using-zcash/solana-zec-to-shielded): memindahkan ZEC dari Solana ke alamat terlindungi.
+- [Menggunakan ZEC Secara Privat](/guides/using-zec-privately): hal yang perlu dilakukan dengan ZEC kamu setelah tiba.
+- [Siapa yang Dapat Melihat Pembayaran Zcash Kamu](/start-here/who-can-see-your-zcash-payment): hal yang tetap terlihat di setiap sisi pembayaran.
+
+**Terakhir diperbarui:** Oktober 2026

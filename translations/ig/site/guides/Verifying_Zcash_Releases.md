@@ -2,57 +2,57 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Nyochaa Zcash Releases
+# Ịkwado [Verifying] Mwepụta Zcash
 
-## TL;DR
+## Na nkenke
 
-- Ibudata Zcash ọnụọgụ abụọ abụghị otu ihe ahụ dị ka ịnweta nke ọrụ a bipụtara. Nyocha bụ otú ị si amata ọdịiche.
-- Nchịkọta ego na-egosi faịlụ ahụ erutela nke ọma. ** mbinye aka** gosipụtara onye mepụtara ya ị chọrọ ha abụọ, ma nchịkọta ego n'onwe ya egosila obere ihe.
-- Zebra na-ebipụta akwụkwọ akụkọ. `SHA256SUMS` faịlụ tinyere ** Sigstore** ngwugwu nke na-ejikọta ntọhapụ ahụ n'otu ọrụ GitHub Actions, mkpado ma tinye  enweghị njikwa igodo achọrọ.
-- Zallet na-ebipụta akwụkwọ mmado ** GPG** (`.asc`) tinyere SLSA provenance na SBOM.
-- The Zcash signing key rotated in 2026 from Electric Coin Company to Zcash Open Development Lab (ZODL). If you verified older releases, you need the new key — and the handover statement is signed by both keys, so you can verify the rotation itself.
-- `gpg` na-akọ ** subkey** nke bịanyere aka n'akwụkwọ, ọ bụghị isi ihe a kpọrọ aha na ọkwa. Mkpịsị aka mkpịsị ụkwụ dị njọ bụkarị igodo ọzọ, ọ dịghị ọgụ.
-- Ọ bụrụ na nyocha ahụ adaghị, agbapụla ọnụọgụ abụọ.
+- Ịbudata ọnụọgụ abụọ [binary] Zcash abụghị otu ihe dịka inweta nke ọrụ ahụ bipụtara. Nkwado bụ otú ị ga-esi amata ihe dị iche.
+- Checksum na-egosi na faịlụ bịarutere n'enweghị mmebi. **signature** na-egosi onye mepụtara ya. Ị chọrọ ha abụọ, checksum naanị ya na-egosikwa ntakịrị ihe.
+- Zebra na-ebipụta faịlụ `SHA256SUMS` tinyere ngwugwu **Sigstore** nke jikọtara mwepụta ahụ na workflow GitHub Actions, tag na commit kpọmkwem — enweghị mkpa ijikwa igodo.
+- Zallet na-ebipụta **GPG** signature ndị e kewapụrụ (`.asc`) n'akụkụ SLSA provenance na SBOM.
+- Igodo mbinye-aka Zcash gbanwere na 2026 site na Electric Coin Company gaa na Zcash Open Development Lab (ZODL). Ọ bụrụ na ị kwadoro mwepụta ochie, ị chọrọ igodo ọhụrụ ahụ — nkwupụta nnyefe ahụ ka igodo abụọ ahụ bịanyekwara aka, ya mere ị nwere ike ịkwado ntụgharị ahụ n'onwe ya.
+- `gpg` na-akọpụta **subkey** bịanyere faịlụ aka, ọ bụghị igodo isi a kpọrọ aha n'ịkpọsa. Fingerprint nke yiri ihe na-ezighi ezi na-abụkarị subkey, ọ bụghị mwakpo.
+- Ọ bụrụ na nkwado adaada, agbagbula ọnụọgụ abụọ ahụ.
 
-*A na-enyocha ya megide Zebra. `v6.3.0` na Zallet . `v0.1.0-beta.2` on 2026-08-18.*
+*E kwadoro megide Zebra `v6.3.0` na Zallet `v0.1.0-beta.2` na 2026-08-18.*
 
-## Ihe mere nke a ji dị mkpa karịa maka Zcash
+## Gịnị mere nke a ji dị mkpa karịa maka Zcash
 
-A tampered wallet binary can exfiltrate a spending key or a viewing key. Unlike a compromised password, that loss is permanent: there is no rollback, no chargeback and no support desk. Shielded transactions protect what happens *on chain* — they offer no protection at all when the software you are running was replaced before it ever reached you.
+Ọnụọgụ abụọ e-akpa ego nke emebiri emebi nwere ike izipu Igodo ego ma ọ bụ viewing key gị pụọ. N'adịghị ka paswọọdụ e mebiri, mfu ahụ na-adịgide: enweghị rollback, enweghị chargeback, ọ nweghịkwa desk nkwado. Azụmahia nke e chebere echebe na-echebe ihe na-eme *on-chain* — ha anaghị enye nchebe ọbụla mgbe e dochiri software ị na-agba tupu ọ rute gị.
 
-Nke a bụ otu n'ime ụzọ ọgụ ole na ole ebe nkwa nzuzo nke usoro ahụ adịghị mkpa. Nyocha bụ oyi akwa kpuchiri ya.
+Nke a bụ otu n'ime ụzọ mwakpo ole na ole ebe nkwa Nzuzo nke protocol na-adịghị emetụta nnọọ. Nkwado bụ oyi akwa na-ekpuchi ya.
 
-## Ihe atụ iyi egwu  ihe nyocha ahụ na-eme ma ghara ijide ya.
+## Ụdị egwu — ihe nkwado na-achọpụta na ihe ọ na-adịghị achọpụta
 
-** Ihe a na-egbute:**
+**Na-achọpụta:**
 
-- Ihe onyonyo a gbanwere ma ọ bụ faịlụ e mezigharịrị site na ebe ọzọ karịa ibe ntọhapụ nke ọrụ ahụ.
-- Mgbanwe nwoke-n'etiti n'oge ibudata.
-- CDN mebiri emebi ma ọ bụ onye na-ekesa nkesa.
-- Nrụrụ aka na mberede n'oge njem.
+- Mirror e mebiri emebi ma ọ bụ faịlụ agbanwere e si ebe ọzọ na-abụghị peeji mwepụta ọrụ ahụ nye.
+- Mgbanwe man-in-the-middle n'oge nbudata.
+- CDN e mebiri ma ọ bụ host nkesa a hijackara.
+- Mmebi mberede n'oge mbufe.
 
-** Ọ naghị ejide:**
+**Anaghị achọpụta:**
 
-- Onye na-eme ihe n'ọrụ nke bịanyere aka n'akwụkwọ koodu ọjọọ. Mbinyeaka ahụ ga-enyocha ya; ọ gosipụtara mmalite, ọ bụghị ebumnobi.
-- Onye na-ewu ewu nke mebiri emebi na -emepụta ihe eji arụ ọrụ ma ọ bụ ihe ọjọọ. Nke a bụ ihe ndị nwere ike ịmepụta ọzọ na nkwenye sitere n'aka dị adị iji belata.
-- Igodo ị nwetara site n'otu ebe ahụ mebiri emebi dị ka ọnụọgụ abụọ. Ọ bụrụ na onye mwakpo achịkwa ma faịlụ ahụ yana igodo ị nyochara ya, nkwenye anaghị agwa gị ihe ọ bụla.
+- Onye na-elekọta ọrụ nke bịanyere koodu ọjọọ aka. signature ahụ ga-akwado nke ọma; ọ na-egosi ebe o siri bịa, ọ bụghị ebumnuche.
+- Host owuwu e mebiri nke na-emepụta artifact nwere signature ma dịkwa njọ. Nke a bụ ihe reproducible builds na provenance attestation dị iji belata.
+- Igodo i nwetara n'otu ebe e mebiri emebi e si nwetakwa ọnụọgụ abụọ ahụ. Ọ bụrụ na onye mwakpo na-achịkwa faịlụ ahụ na igodo ị jiri elele ya, nkwado anaghị agwa gị ihe ọ bụla.
 
-Nke ikpeazụ ahụ bụ nke ọtụtụ ndị nduzi na-atụfu. ** Ebe ị nwetara igodo dị mkpa dịka ịme iwu.**
+Isi okwu ikpeazụ ahụ bụ nke ọtụtụ nduzi na-awụli elu. **Ebe ị nwetara igodo ahụ dịkwa mkpa dịka ịgba iwu ahụ.**
 
 ---
 
-## Nkebi nke 1  Zebra: checksums na Sigstore
+## Akụkụ 1 — Zebra: checksum na Sigstore
 
-Zebra na-ebipụta ihe ndị a maka mbipute ọ bụla:
+Zebra na-ebipụta assets ndị a maka mwepụta ọ bụla:
 
-| Akụrụngwa | Ebumnuche |
+| Asset | Ebumnuche |
 |---|---|
-| `zebrad-<version>-<arch>.tar.gz` | ebe nchekwa abụọ |
+| `zebrad-<version>-<arch>.tar.gz` | archive ọnụọgụ abụọ |
 | `zebrad-<version>-<arch>.tar.gz.sha256` | checksum kwa-faịlụ |
-| `SHA256SUMS` | checksums maka ihe owuwu niile |
-| `SHA256SUMS.sigstore.json` | Mbinye aka n'akwụkwọ Sigstore `SHA256SUMS` |
+| `SHA256SUMS` | checksum maka architectures niile |
+| `SHA256SUMS.sigstore.json` | ngwugwu Sigstore na-abịanye `SHA256SUMS` aka |
 
-### Nzọụkwụ 1  Download
+### Nzọụkwụ 1 — Budata
 
 ```bash
 BASE=https://github.com/ZcashFoundation/zebra/releases/download/v6.3.0
@@ -61,21 +61,21 @@ curl -sLO $BASE/SHA256SUMS
 curl -sLO $BASE/SHA256SUMS.sigstore.json
 ```
 
-### Nzọụkwụ 2  Lelee checksum
+### Nzọụkwụ 2 — Lelee checksum
 
 ```bash
 sha256sum -c --ignore-missing SHA256SUMS
 ```
 
-Ezi mmepụta:
+Mwepụta n'ezie:
 
 ```
 zebrad-6.3.0-x86_64-unknown-linux-gnu.tar.gz: OK
 ```
 
-`--ignore-missing` a chọrọ ebe a n'ihi na: `SHA256SUMS` na-ekpuchi ọ bụla ije ma ị naanị ebudatara otu. Na-enweghị ya, `sha256sum` na-akọ akụkọ aarch64 dị ka ọdịda ma ị nwere ike ịkọhie ihe gafere dịka ọdịda.
+A chọrọ `--ignore-missing` ebe a n'ihi na `SHA256SUMS` na-ekpuchi architecture ọ bụla ma ị budatara naanị otu. Enweghị ya, `sha256sum` na-akọpụta archive aarch64 na-adịghị dịka ọdịda, ị nwekwara ike ịghọta nnabata dịka ọdịda.
 
-Ụdị faịlụ nke ọ bụla na-arụkwa ọrụ:
+Ụdị kwa-faịlụ na-arụkwa ọrụ:
 
 ```bash
 sha256sum -c zebrad-6.3.0-x86_64-unknown-linux-gnu.tar.gz.sha256
@@ -85,17 +85,17 @@ sha256sum -c zebrad-6.3.0-x86_64-unknown-linux-gnu.tar.gz.sha256
 zebrad-6.3.0-x86_64-unknown-linux-gnu.tar.gz: OK
 ```
 
-**Nke a naanị nzọụkwụ bụ ezughị.** Ị ebudatara checksum si n'otu ebe dị ka ọnụọgụ abụọ. Onye ọ bụla nwere ike dochie otu nwere ike dozie nke ọzọ. Checksum na-egosi iguzosi ike n'ezi ihe; usoro ọzọ gosipụtara mmalite.
+**Nzọụkwụ a naanị ya ezughị.** Ị budatara checksum ahụ n'otu ebe ahụ ọnụọgụ abụọ ahụ si. Onye ọ bụla nwere ike dochie otu nwere ike dochie nke ọzọ. Checksum na-egosi izi ezi; nzọụkwụ sochirinụ na-egosi ebe o siri bịa.
 
-### Nzọụkwụ 2b  Otu nlele na Windows
+### Nzọụkwụ 2b — Otu nlele ahụ na Windows
 
-PowerShell enweghị ihe ọ bụla . `-c` nyochaa ọnọdụ, yabụ ị jiri aka tụnyere:
+PowerShell enweghị ọnọdụ verify nke `-c`, ya mere ị ga-atụnyere aka:
 
 ```powershell
 Get-FileHash .\zebrad-6.3.0-x86_64-unknown-linux-gnu.tar.gz -Algorithm SHA256 | Format-List
 ```
 
-Ezi mmepụta:
+Mwepụta n'ezie:
 
 ```
 Algorithm : SHA256
@@ -103,19 +103,19 @@ Hash      : 86326F5324F4E59CC2008C15F94407CC8D5FEACF75D64942164BB5F08ECA8C5E
 Path      : \\wsl$\Ubuntu\home\briefking\verify\zebrad-6.3.0-x86_64-unknown-linux-gnu.tar.gz
 ```
 
-Tụlee nke ahụ na nsonaazụ Linux tupu oge a:
+Tụnyere nke ahụ na nsonaazụ Linux dị n'ihu na peeji a:
 
 ```
 86326f5324f4e59cc2008c15f94407cc8d5feacf75d64942164bb5f08eca8c5e
 86326F5324F4E59CC2008C15F94407CC8D5FEACF75D64942164BB5F08ECA8C5E
 ```
 
-** Ụkpụrụ ndị yiri.** Hex anaghị ebute ikpe, nke a bụ otu mkpu ụgha kachasị na Windows.
+**Ụkpụrụ ndị ahụ yitere kpamkpam.** Hex enweghị mkpụrụedemede ukwu ma ọ bụ nta, nke a bụkwa mkpu ụgha a na-ahụkarị na Windows.
 
-Ugboro abụọ ọzọ Windows-kpọmkwem ọnyà:
+Ọnyà abụọ ọzọ kpọmkwem maka Windows:
 
-- **Enweghị koodu ọpụpụ iji lelee.** Na Linux, `sha256sum -c` na-alaghachi 1 mgbe ọdịda ma edemede nwere ike ime ya. `Get-FileHash` naanị na-ebipụta hash  ntụnyere bụ nke gị ime, ma bụrụkwa nke gị iji mebie site n'ịgbagharị.
-- **Ịgụ mkpụrụ edemede 64 hex site na anya bụ ihe a na-apụghị ịdabere.** Ka shei mee ya:
+- **Enweghị exit code ị ga-enyocha.** Na Linux, `sha256sum -c` na-eweghachi 1 mgbe ọ dara, script nwekwara ike ime ihe dabere na ya. `Get-FileHash` na-ebipụta naanị hash — ntụnyere bụ nke gị ime, nke gị kwa imehie site n'ile anya ngwa ngwa.
+- **Iji anya gụọ mkpụrụedemede hex 64 anaghị atụkwasị obi.** Ka shell mee ya:
 
 ```powershell
 $expected = "86326f5324f4e59cc2008c15f94407cc8d5feacf75d64942164bb5f08eca8c5e"
@@ -123,11 +123,11 @@ $actual = (Get-FileHash .\zebrad-6.3.0-x86_64-unknown-linux-gnu.tar.gz -Algorith
 if ($actual -eq $expected) { "OK" } else { "MISMATCH" }
 ```
 
-> ** Na macOS:** usoro ọrụ bụ otu ihe ahụ, ma BSD userland ụgbọ mmiri `shasum` kama nke ahụ. `sha256sum`  iji mee ihe `shasum -a 256 -c --ignore-missing SHA256SUMS`. Onye edemede nke ibe a enweghị igwe MacOS dị, yabụ iwu ahụ ka edere site na ngwa ọrụ Apple kama ịgba ọsọ. Ọ bụrụ n'ịkwado na macOS, biko mepee PR iji kwado ma ọ bụ dozie ya.
+> **Na macOS:** usoro ọrụ ahụ bụ otu, mana BSD userland na-abịa na `shasum` kama `sha256sum` — jiri `shasum -a 256 -c --ignore-missing SHA256SUMS`. Onye dere peeji a enweghị igwe macOS, ya mere e depụtara iwu ahụ site na tooling Apple kama ịgba ya. Ọ bụrụ na ị kwadoro na macOS, biko mepee PR iji kwado ma ọ bụ mezie ya.
 
-### Nzọụkwụ 3  Nyochaa Sigstore ngwugwu
+### Nzọụkwụ 3 — Kwado ngwugwu Sigstore
 
-Sigstore na-eji akwụkwọ ikike dị mkpirikpi dochie anya igodo mbinye aka ogologo oge ejikọtara ya na njirimara CI, edekọ n'ime ndekọ nghọta ọha. Ọ dịghị onye nwere mkpịsị ugodi ntọhapụ nke enwere ike izu ohi.
+Sigstore na-edochi igodo mbinye-aka na-adị ogologo oge site na certificates dị mkpụmkpụ ejikọtara na njirimara CI, nke e dekọrọ na transparency log ọhaneze. Ọ dịghị onye na-ejide igodo mwepụta a pụrụ izuru.
 
 Ụzọ kwụ ọtọ na-eji `cosign`:
 
@@ -139,21 +139,21 @@ cosign verify-blob \
   SHA256SUMS
 ```
 
-Ha abụọ . `--certificate-*` flags are the whole point. **Without them you are only confirming that somebody, somewhere signed the file.** With them you are confirming it was signed by a workflow in the Zebra repository, authenticated by GitHub's OIDC issuer.
+Flags `--certificate-*` abụọ bụ isi ihe niile. **Enweghị ha, ị na-akwado naanị na mmadụ, n'ebe ụfọdụ, bịanyere faịlụ ahụ aka.** Site na ha, ị na-akwado na workflow dị na repository Zebra bịanyere ya aka, nke OIDC issuer nke GitHub kwadoro.
 
-> ️ **Ọdịiche dị iche.** Ọhụrụ cosign na-ewu enweghị ike ịgụ usoro Sigstore ugbu a. Na -agba ọsọ n'elu ya na cosign `v2.4.1` na-emepụta:
+> ⚠️ **Ụdị version dị mkpa.** Cosign ochie enweghị ike ịgụ usoro ngwugwu Sigstore dị ugbu a. Ịgba nke dị n'elu na cosign `v2.4.1` na-emepụta:
 >
 > ```
-> Njehie: ụyọkọ enweghị cert maka nkwenye, biko nye igodo ọha na eze (Public key)
+> Error: bundle does not contain cert for verification, please provide public key
 > ```
 >
-> Ngwongwo ahụ * nwere* akwụkwọ ikike  ọ na-anọdụ n'okpuru ya. `verificationMaterial.certificate.rawBytes`, nke ochie releases adịghị achọ. Nke a bụ onye ahịa mmachi, ọ bụghị agbajikwa ntọhapụ. Ọ bụrụ na ị kụrụ ya, kwalite cosign kama ikwubi nbudata dị njọ. Nkesa-packaged cosign bụ mgbe anya n'azụ elu mmiri.
+> Ngwugwu ahụ *nwere* certificate — ọ dị n'okpuru `verificationMaterial.certificate.rawBytes`, ebe mwepụta ochie anaghị achọ. Nke a bụ mmachi client, ọ bụghị mwepụta mebiri emebi. Ọ bụrụ na nke a emee gị, kwalite cosign kama ikpebi na nbudata ahụ adịghị mma. Cosign etinyere site na distribution na-anọkarị ọtụtụ oge n'azụ upstream.
 
-Nzọụkwụ abụọ na-esote ga-egosi otu esi enyocha otu ngwugwu ahụ site n'aka, nke bara uru ịghọta agbanyeghị  ma bụrụ ihe ndabere dị mma mgbe ụlọ ọrụ gị agaghị arụkọ ọrụ.
+Nzọụkwụ abụọ sochirinụ na-egosi otu esi eji aka kwado otu ngwugwu ahụ, nke bara uru ịghọta n'agbanyeghị ihe ọ bụla — ọ bụkwa ụzọ ọzọ na-arụ ọrụ mgbe cosign build gị ekweghị imekọrịta.
 
-### Nzọụkwụ 4  Gụọ ihe akwụkwọ ahụ kwuru n'ezie.
+### Nzọụkwụ 4 — Gụọ ihe certificate ahụ na-ekwu n'ezie
 
-Ị nwere ike inyocha ụyọkọ ahụ n'enweghị ihe ọ bụla. `cosign`, nke bara uru maka ịghọta ihe ị tụkwasịrị obi. Wepụ akwụkwọ ahụ:
+Ị nwere ike inyocha ngwugwu ahụ na-enweghị `cosign`, nke bara uru maka ịghọta ihe ị na-atụkwasị obi. Wepụ certificate:
 
 ```bash
 python3 -c "
@@ -164,7 +164,7 @@ open('cert.der','wb').write(base64.b64decode(d['verificationMaterial']['certific
 openssl x509 -in cert.der -inform DER -noout -issuer -ext subjectAltName
 ```
 
-Nrụpụta nke Zebra v6.3.0:
+Mwepụta n'ezie maka Zebra v6.3.0:
 
 ```
 issuer=O = sigstore.dev, CN = sigstore-intermediate
@@ -172,7 +172,7 @@ X509v3 Subject Alternative Name: critical
     URI:https://github.com/ZcashFoundation/zebra/.github/workflows/zfnd-release-binaries.yml@refs/tags/v6.3.0
 ```
 
-Aha ọzọ nke isiokwu bụ njirimara. Ọ na-akpọ aha nchekwa, faịlụ ọrụ kpọmkwem, yana mkpado ahụ. Sigstore agbakwunye mgbakwunye metadata ndị ọzọ n'ime ndọtị omenala:
+Subject Alternative Name bụ njirimara ahụ. Ọ na-akpọ repository, faịlụ workflow kpọmkwem, na tag. Sigstore na-etinye metadata owuwu ọzọ na custom extensions:
 
 | Field | Uru maka v6.3.0 |
 |---|---|
@@ -184,11 +184,11 @@ Aha ọzọ nke isiokwu bụ njirimara. Ọ na-akpọ aha nchekwa, faịlụ ọ
 | Workflow run | `.../actions/runs/31424510487/attempts/1` |
 | Repository visibility | `public` |
 
-Onye ọ bụla n'ime ndị a nwere ike ịlele. hash ahụ kwesịrị ikwekọ na mkpado dị na ebe nchekwa; usoro ọrụ ga-adị adị ma bụrụ ọha mmadụ.
+A pụrụ inyocha nke ọ bụla n'ime ndị a. Hash commit kwesịrị ikwekọ na tag dị na repository; workflow run kwesịrị ịdị ma bụrụ nke ọha.
 
-### Nzọụkwụ 5  Nyochaa mbinye aka na cryptographically
+### Nzọụkwụ 5 — Jiri cryptography kwado signature
 
-Ị nwere ike ikwenye mbinye aka ahụ ozugbo na OpenSSL:
+Ị nwere ike iji OpenSSL kwado signature ozugbo:
 
 ```bash
 python3 -c "
@@ -200,22 +200,22 @@ openssl x509 -in cert.der -inform DER -pubkey -noout > pub.pem
 openssl dgst -sha256 -verify pub.pem -signature sig.bin SHA256SUMS
 ```
 
-Ezi mmepụta:
+Mwepụta n'ezie:
 
 ```
 Verified OK
 ```
 
-Ihe ngwugwu ahụ na-edekọkwa nchịkọta nke ọ bịanyere aka. Nyochaa ya kwekọrọ na faịlụ mpaghara gị:
+Ngwugwu ahụ dekọkwara digest ọ bịanyere aka. Kwenye na ọ kwekọrọ na faịlụ mpaghara gị:
 
 ```
 bundle digest : 3eb5de0634f637e793d0411b6c7108802a36e1219f9151803ecc6108fd0f59f6
 local  digest : 3eb5de0634f637e793d0411b6c7108802a36e1219f9151803ecc6108fd0f59f6
 ```
 
-### Nzọụkwụ 6  Ihe ndekọ akwụkwọ nghọta
+### Nzọụkwụ 6 — Ntinye transparency log
 
-Ngwongwo ahụ nwere ndekọ Rekor na-egosi mbinye aka a bipụtara ya n'akwụkwọ ọha, tinye naanị log:
+Ngwugwu ahụ nwere ntinye Rekor nke na-egosi na e bipụtara signature ahụ na log ọhaneze, append-only:
 
 | Field | Uru |
 |---|---|
@@ -223,34 +223,34 @@ Ngwongwo ahụ nwere ndekọ Rekor na-egosi mbinye aka a bipụtara ya n'akwụk
 | Entry type | `hashedrekord v0.0.1` |
 | Integrated at | 2026-08-10 19:43:09 UTC |
 
-Nke a bụ ihe na-eme ka igodo dị jụụ jiri mee ihe n'ụzọ ziri ezi. Nkwekọrịta nke ahụ apụtaghị na ndekọ, ma ọ bụ pụtara na oge adịghị mma, bụ akara bara uru ime ihe. Tụlee oge mwekota megide ọkwa ntọhapụ.
+Nke a bụ ihe na-eme ka iji igodo eme ihe n'enweghị onye maara bụrụ nke a pụrụ ịchọpụta. Signature nke na-apụtaghị na log, ma ọ bụ pụtara n'oge na-adịghị ezi uche, bụ akara kwesịrị ime ka ị mee ihe. Tụnyere oge integration ahụ na ọkwa mwepụta.
 
-> ** Nkọwa na ụzọ OpenSSL:** ọ nyochaa mbinye aka megide igodo ọha nke asambodo ahụ, mana ya onwe ya anaghị enyocha usoro akwụkwọ ikike maka mgbọrọgwụ Sigstore ma ọ bụ lelee ihe ngosi ntinye ndekọ. `cosign verify-blob` na-eme ihe atọ ahụ. Jiri OpenSSL iji ghọta usoro; jiri `cosign` dị ka ego ị na-akwụ.
+> **Rịba ama banyere ụzọ OpenSSL:** ọ na-akwado signature ahụ megide public key certificate ahụ, mana ọ naghị eji onwe ya kwado certificate chain gaa na root Sigstore ma ọ bụ lelee inclusion proof nke ntinye log ahụ. `cosign verify-blob` na-eme ha atọ. Jiri OpenSSL ghọta usoro ahụ; jiri `cosign` mee nlele gị n'ezie.
 
 ---
 
-## Akụkụ 2  Zallet: GPG signatures
+## Akụkụ 2 — Zallet: GPG signature
 
-Zallet na-ebipụta ihe dị iche:
+Zallet na-ebipụta ụdị assets dị iche:
 
-| Akụrụngwa | Ebumnuche |
+| Asset | Ebumnuche |
 |---|---|
-| `zallet-<version>-<platform>.tar.gz` | ebe nchekwa abụọ |
-| `.tar.gz.asc` | Mbinye aka GPG nkewapụrụ |
-| `.tar.gz.intoto.jsonl` | Ihe akaebe sitere na SLSA |
-| `.tar.gz.provenance.json` | metadata mmalite |
-| `.tar.gz.sbom.spdx` | akwụkwọ ngwanrọ nke ihe |
+| `zallet-<version>-<platform>.tar.gz` | archive ọnụọgụ abụọ |
+| `.tar.gz.asc` | GPG signature e kewapụrụ |
+| `.tar.gz.intoto.jsonl` | attestation SLSA provenance |
+| `.tar.gz.provenance.json` | metadata provenance |
+| `.tar.gz.sbom.spdx` | bill of materials software |
 
-### Nzọụkwụ 1  Chọpụta igodo mbinye aka tupu ị gawa ịchọ ya .
+### Nzọụkwụ 1 — Chọpụta igodo mbinye-aka tupu ịmalite ịchọ ya
 
-Gbaa nyocha * mbụ, na-enweghị igodo ebubata:
+Buru ụzọ gbaa nkwado ahụ *mbụ*, na-enweghị igodo ebubatara:
 
 ```bash
 gpg --verify zallet-v0.1.0-beta.2-linux-amd64.tar.gz.asc \
              zallet-v0.1.0-beta.2-linux-amd64.tar.gz
 ```
 
-Ezi mmepụta:
+Mwepụta n'ezie:
 
 ```
 gpg: Signature made Tue Jul 28 19:18:44 2026 WAT
@@ -259,11 +259,11 @@ gpg:                issuer "sysadmin@zodl.com"
 gpg: Can't check signature: No public key
 ```
 
-Nke a abụghị ọdịda. Ọ na-agwa gị mbinye aka dị adị ma aha kpọmkwem igodo ị chọrọ, ** tupu** ịmalite ịchọ. Rịba ama mkpisiaka ahụ na onye nyere ya, wee nweta isi ihe site n'ebe ọzọ nke nweere onwe ha maka ibudata.
+Nke a abụghị ọdịda. Ọ na-agwa gị na signature dị ma kpọọ kpọmkwem igodo ị chọrọ, **tupu** ịmalite ịchọ. Rịba ama fingerprint na issuer, wee nweta igodo ahụ site n'ebe na-adabereghị na nbudata ahụ.
 
-> `gpg` na-ebipụta akara oge n'oge mpaghara gị. Ihe dị elu gosipụtara `WAT` (UTC+1); otu mbinye aka ahụ na-agụ: `18:18:44 UTC` N'otu oge ahụ. Elela ọdịiche nke mpaghara oge anya dị ka ihe na-ekwekọghị ekwekọ.
+> `gpg` na-ebipụta timestamps na timezone mpaghara gị. Mwepụta dị n'elu na-egosi `WAT` (UTC+1); otu signature ahụ na-agụ `18:18:44 UTC` ebe ọzọ. Otu oge ahụ. Ewerela ihe dị iche timezone dịka enweghị nkwekọrịta.
 
-### Nzọụkwụ 2  Bubata igodo ma nyochaa ya .
+### Nzọụkwụ 2 — Bubata igodo ahụ ma kwado
 
 ```bash
 curl -sL https://apt.z.cash/zodl.asc -o zodl.asc
@@ -272,7 +272,7 @@ gpg --verify zallet-v0.1.0-beta.2-linux-amd64.tar.gz.asc \
              zallet-v0.1.0-beta.2-linux-amd64.tar.gz
 ```
 
-Ezi mmepụta:
+Mwepụta n'ezie:
 
 ```
 gpg: Signature made Tue Jul 28 19:18:44 2026 WAT
@@ -285,19 +285,19 @@ Primary key fingerprint: 0338 34DD 49DE CF9D BB99  34BC 6C93 CA8E 58E2 6AB1
      Subkey fingerprint: 1FE9 9324 758F 2967 18B4  5706 7F4B BBBA 23F0 617F
 ```
 
-`Good signature` Ihe abụọ dị na mpụta ahụ gbagwojuru ndị mmadụ anya, ha abụọ bụkwa ihe nkịtị.
+`Good signature` bụ ihe ị chọrọ. Ihe abụọ dị na mwepụta ahụ na-agbagwoju ndị mmadụ anya, ha abụọ bụkwa ihe nkịtị.
 
-### Ihe mere na mkpisiaka ahụ adabaghị n'ihe e dere ná mkpọsa ngwá ahịa ahụ.
+### Gịnị mere fingerprint anaghị ekwekọ na ọkwa ahụ
 
-ZODL isi mgbanwe iwu aha mkpisiaka akara aka `0338 34DD 49DE CF9D BB99 34BC 6C93 CA8E 58E2 6AB1`Ma . `gpg --verify` e kwuru na ọ bụ `1FE9 9324 …  23F0 617F`Nke ahụ yiri ka ọ bụ enweghị nkwekọ ma o meghị.
+Nkwupụta mgbanwe igodo ZODL na-akpọ fingerprint `0338 34DD 49DE CF9D BB99 34BC 6C93 CA8E 58E2 6AB1`. Mana `gpg --verify` kọrọ `1FE9 9324 …  23F0 617F`. Nke ahụ yiri enweghị nkwekọrịta, mana ọ bụghị ya.
 
-`gpg` na-akọ ** subkey** nke mere mbinye aka. Nkwupụta ahụ aha ya bụ isi ihe mbụ. Kwado mmekọrịta gị onwe gị:
+`gpg` na-akọpụta **subkey** mere signature ahụ. Ọkwa ahụ na-akpọ **igodo isi**. Kwenye mmekọrịta ahụ n'onwe gị:
 
 ```bash
 gpg --list-keys --with-subkey-fingerprints sysadmin@zodl.com
 ```
 
-Ezi mmepụta:
+Mwepụta n'ezie:
 
 ```
 pub   rsa4096 2026-03-23 [SCEA]
@@ -307,39 +307,39 @@ sub   rsa4096 2026-03-23 [SEA]
       1FE99324758F296718B457067F4BBBBA23F0617F
 ```
 
-Ihe ahụ bụ: `sub` ahịrị bụ subkey mbinye aka; na-eme ka a mara ihe dị n'ime ya. `pub` ahịrị bụ isi. Otu njirimara, otu ngwugwu igodo. Nke a mere na nyocha mmepụta mbipụta ** ma** mkpisiaka  tụnyere * isi* megide ọkwa ọ bụla e bipụtara, wee mesoo subkey akara dị ka ịgwa gị akụkụ nke igodo ahụ rụrụ ọrụ ahụ.
+Ahịrị `sub` bụ signing subkey; ahịrị `pub` bụ isi. Otu njirimara, otu package igodo. Nke a bụ ihe mere mwepụta nkwado ji ebipụta fingerprints **ha abụọ** — tụnyere nke *isi* na ọkwa ọ bụla e bipụtara, ma were ahịrị subkey dịka nke na-agwa gị akụkụ igodo rụrụ ọrụ ahụ.
 
-Ịkewa igodo n'ụzọ dị otú a bụ ihe e bu n'uche: enwere ike ịgbanwere ma ọ bụ kagbuo subkey na-edebanye aha ya n'ebughị ụzọ wepụ njirimara mbụ ahụ.
+Ikewa igodo n'ụzọ a bụ ebumnobi: a pụrụ ịtụgharị ma ọ bụ kagbuo signing subkey na-enweghị ịtụfu njirimara isi na ntụkwasị obi ọ chịkọtara.
 
-### Gịnị na- `[unknown]` ịdọ aka ná ntị pụtara
+### Ihe ịdọ aka ná ntị `[unknown]` pụtara
 
 ```
 gpg: WARNING: The key's User ID is not certified with a trusted signature!
 ```
 
-Nke a abụghị nsogbu na mbinye aka. Mbinye aka ahụ bụ ihe ziri ezi nke ọma  ọ bụ ya mere `Good signature` ịdọ aka na ntị ahụ kwuru ihe dị iche: Ị gwaghị GnuPG mpaghara gị na i kwenyere igodo a bụ onye ọ na-ekwu.
+Nke a **abụghị** nsogbu na signature ahụ. Signature ahụ dị mma n'ụzọ cryptographic — nke ahụ bụ ihe `Good signature` na-ekwu. Ịdọ aka ná ntị ahụ na-ekwu ihe ọzọ: ị gwabeghị GnuPG mpaghara gị na ị kwenyere na igodo a bụ nke onye ọ sịrị na ọ bụ.
 
-GnuPG na-ekewapụ ajụjụ abụọ:
+GnuPG na-ekewa ajụjụ abụọ:
 
-1. **Kedụ ka igodo a si bịanye aka na faịlụ a?**  zara site n'aka: `Good signature`Ọ bụ ihe nzuzo, ọ bụghị mmadụ.
-2. **Key a ọ bụ nke ZODL?**  enweghị azịza site na nzuzo ma. Ị ga-achọpụta ya site n'iji akara mkpịsị aka ahụ tụnyere isi mmalite dị iche.
+1. **Igodo a ọ bịanyere faịlụ a aka?** — `Good signature` na-aza ya. Ọ bụ cryptographic, enweghị mkpebi mmadụ.
+2. **Igodo a ọ bụ nke ZODL?** — cryptography anaghị aza nke a ma ọlị. Ị na-eguzobe ya site n'ịlele fingerprint megide ebe onwe ya.
 
-Ị ga-ahụ ịdọ aka ná ntị a na ihe fọrọ nke nta ka ọ bụrụ nkwenye niile ma ọ gwụla ma i doro anya ịbanye igodo ahụ n'ógbè. Elela ya dị ka ọdịda. ** Do** dozie isi okwu efu `Good signature` dị ka ọdịda.
+Ị ga-ahụ ịdọ aka ná ntị a n'ihe fọrọ nke nta ka ọ bụrụ nkwado niile ma ọ bụrụ na ị banyeghị igodo ahụ aka na mpaghara. Ewerela ya dịka ọdịda. **Were** enweghị `Good signature` dịka ọdịda.
 
-### Nzọụkwụ 3  Nyochaa isi mgbanwe onwe ya
+### Nzọụkwụ 3 — Kwado mgbanwe igodo ahụ n'onwe ya
 
-Zcash release signing moved from Electric Coin Company to Zcash Open Development Lab in 2026, after ZODL was formed in January 2026 by the former ECC engineering and product team.
+Mbinye aka mwepụta Zcash si na Electric Coin Company kwaga Zcash Open Development Lab na 2026, mgbe e hiwere ZODL na Jenụwarị 2026 site na engineering na product team mbụ nke ECC.
 
 | | Igodo ochie | Igodo ọhụrụ |
 |---|---|---|
-| Mkpisiaka | `B1C9 095E AA18 48DB B54D 9DDA 1D05 FDC6 6B37 2CFE` | `0338 34DD 49DE CF9D BB99 34BC 6C93 CA8E 58E2 6AB1` |
-| UID | Igodo Mbinye Aka Zcash Master (ECC) `<sysadmin@z.cash>` | Zcash Open Development Lab (ZODL) `<sysadmin@zodl.com>` |
-| Ụdị | RSA 3072-bit, e kere ya na 2023-06-19 | RSA 4096-bit, e kere ya na 2026-03-23, ọ ga-akwụsị na 2028-03-22 |
-| Ebipụtara na | `https://apt.z.cash/zcash.asc` | `https://apt.z.cash/zodl.asc` |
+| Fingerprint | `B1C9 095E AA18 48DB B54D 9DDA 1D05 FDC6 6B37 2CFE` | `0338 34DD 49DE CF9D BB99 34BC 6C93 CA8E 58E2 6AB1` |
+| UID | Zcash Master Signing Key (ECC) `<sysadmin@z.cash>` | Zcash Open Development Lab (ZODL) `<sysadmin@zodl.com>` |
+| Type | RSA 3072-bit, emepụtara 2023-06-19 | RSA 4096-bit, emepụtara 2026-03-23, ga-ekubi 2028-03-22 |
+| Published at | `https://apt.z.cash/zcash.asc` | `https://apt.z.cash/zodl.asc` |
 
-Oge e bipụtara: igodo ọhụrụ emere 2026-03-23, mara ọkwa na 2026- 03-27, ịbịanye aka naanị site na 20 26-4-23, iweghachi nke isi ECC ochie emebere maka 2026-6-23 .
+Usoro oge e bipụtara: e mepụtara igodo ọhụrụ 2026-03-23, e kwupụtara ya 2026-03-27, mbinye aka naanị ya malitere 2026-04-23, e mere atụmatụ kagbuo igodo ochie ECC na 2026-06-23.
 
-Nkwupụta ntụgharị na webụsaịtị bụ naanị ntụkwasị obi dịka weebụsaịtị. Usoro ziri ezi bụ nkwupụta ** nke ejiri mkpịsị ugodi abụọ bịanye aka, yabụ igodo ochie ahụ kwadoro maka ọhụrụ. ZODL bipụtara kpọmkwem:
+Ọkwa ntụgharị na website bụ naanị nke a pụrụ ịtụkwasị obi dịka website ahụ. Usoro ziri ezi bụ nkwupụta **igodo abụọ ahụ clear-signere**, ka igodo ochie wee kwado nke ọhụrụ. ZODL na-ebipụta nke ahụ kpọmkwem:
 
 ```bash
 curl -sL https://zodl.com/security/key-transition.txt.asc -o key-transition.txt.asc
@@ -348,7 +348,7 @@ gpg --import zcash.asc
 gpg --verify key-transition.txt.asc
 ```
 
-Nrụpụta n'ezie (abbreviated  abụọ signatures on one document):
+Mwepụta n'ezie (e belatara — signature abụọ n'otu akwụkwọ):
 
 ```
 gpg: Signature made Fri Mar 27 01:11:14 2026 WAT
@@ -365,22 +365,22 @@ Primary key fingerprint: 0338 34DD 49DE CF9D BB99  34BC 6C93 CA8E 58E2 6AB1
      Subkey fingerprint: 1FE9 9324 758F 2967 18B4  5706 7F4B BBBA 23F0 617F
 ```
 
-Abụọ . `Good signature` na-arụpụta otu akwụkwọ, site na isi ochie ahụ ma nke ọhụrụ. Ọ bụrụ na ị tụkwasịrị obi igodo ECC maka mbipute ndị gara aga, ntụkwasị obi a gafere ugbu a gaa ZODL key n'enweghị mkpa ịtụkwasị gị obi ọzọ `zodl.com`, `apt.z.cash`, ma ọ bụ post forum. Nke a bụ ihe onwunwe ị ga-achọ mgbe ọ bụla ọrụ na -atụgharị igodo  yana enweghị ya bara uru ịjụ maka ya.
+Nsonaazụ `Good signature` abụọ n'otu akwụkwọ, sitere na igodo ochie na igodo ọhụrụ. Ọ bụrụ na ị tụkwasịrị igodo ECC obi maka mwepụta mbụ, ntụkwasị obi ahụ na-aga ugbu a n'ihu na igodo ZODL n'enweghị ịtụkwasị `zodl.com`, `apt.z.cash`, ma ọ bụ post forum obi. Nke a bụ njirimara ị ga-achọ mgbe ọrụ na-atụgharị igodo — enweghị ya kwesịkwara ka a jụọ ajụjụ.
 
-### Ebe ị ga-enweta igodo  na ebe ọ bụghị.
+### Ebe a ga-enweta igodo — na ebe a na-agaghị enweta ya
 
-E si n'onye kasị mma ruo onye nke kachasị njọ:
+E si nke kacha mma ruo nke kacha njọ:
 
-1. ** Nkwupụta nke igodo gara aga bịanyere aka na ya, dị ka n'elu. Nhọrọ kachasị ike mgbe a gbanwere ya.
-2. **Isi mmalite nke na-enweghị ihe ọ bụla n'ime ibudata.** Ihe ọnụọgụ abụọ ahụ sitere na GitHub; igodo si `apt.z.cash`Onye na-awakpo mmadụ chọrọ ha abụọ.
-3. **Onye na-ejide mkpịsị aka, nke a nyochara ya site n'akara akara mkpịkpọaka e bipụtara.** Onye ọ bụla nwere ike bulite igodo na-ekwu maka njirimara onye ọbụla ka ọtụtụ ndị na - ejide mkpịrịka. Ntụle mkpịkpọrọ ahụ bụ ihe mere nchekwa  abụghị keyserver.
-4. **Otu peeji ahụ dị ka ọnụọgụ abụọ.** Ọ fọrọ nke nta ka ọ bụrụ na e nweghị nkwa. Onye nwere ike dochie otu onye nwekwara ike dochia ibe ya.
+1. **Nkwupụta igodo gara aga bịanyere aka**, dịka n'elu. Nhọrọ kacha ike mgbe ntụgharị gasịrị.
+2. **Ebe na-adabereghị na nbudata ahụ.** Ọnụọgụ abụọ si na GitHub bịa; igodo si na `apt.z.cash` bịa. Onye mwakpo ga-achọ ha abụọ.
+3. **Keyserver, nke a jiri fingerprint e bipụtara nyochaa ọzọ.** Onye ọ bụla nwere ike ibugo igodo na-ekwu njirimara ọ bụla n'ọtụtụ keyserver. Ntụnyere fingerprint bụ ihe na-eme nke a dị nchebe — ọ bụghị keyserver.
+4. **Otu peeji ahụ ọnụọgụ abụọ dị.** Ihe fọrọ nke nta ka ọ bụrụ enweghị mmesi obi ike. Onye ọ bụla nwere ike dochie otu nwere ike dochie nke ọzọ.
 
-Na-atụle mkpịsị aka ** zuru ezu** na igodo isi. Igodo ID dị mkpirikpi bụ ihe a pụrụ iji mee ka ọ bụrụ nke ọma ma jiri ya mee ihe n'ezie mwakpo .
+Na-atụnyere **fingerprint zuru ezu** mgbe niile megide igodo **isi**. Short key ID na-adị mfe ịkpakọta, ejirila ha mee mwakpo n'ezie.
 
-## Nkebi nke 3  Nnyocha na-ada ada
+## Akụkụ 3 — Nkwado dara ada
 
-Nyocha bụ naanị uru ma ọ bụrụ na ị maara ihe ọdịda dị ka. Nke a bụ ezigbo, mepụtara site n'ịgbakwunye otu byte efu na nchekwa data ziri ezi:
+Nkwado bara uru naanị ma ọ bụrụ na ị maara ụdị ọdịda ya dị. Nke a bụ nke dị n'ezie, e mepụtara ya site n'itinye naanị null byte otu na archive dị mma:
 
 ```bash
 cp zebrad-6.3.0-x86_64-unknown-linux-gnu.tar.gz tampered.tar.gz
@@ -389,16 +389,16 @@ printf '\x00' >> tampered.tar.gz
 sha256sum -c tampered.sha256
 ```
 
-Ezi mmepụta:
+Mwepụta n'ezie:
 
 ```
 tampered.tar.gz: FAILED
 sha256sum: WARNING: 1 computed checksum did NOT match
 ```
 
-Koodu ọpụpụ: `1`.
+Exit code: `1`.
 
-Tinye ihe abụọ ahụ n'akụkụ ibe ha:
+Debe digests abụọ ahụ n'akụkụ ibe ha:
 
 ```bash
 sha256sum zebrad-6.3.0-x86_64-unknown-linux-gnu.tar.gz tampered.tar.gz
@@ -409,54 +409,54 @@ sha256sum zebrad-6.3.0-x86_64-unknown-linux-gnu.tar.gz tampered.tar.gz
 8d4e2e22adcb014e006fafc71a974f987ba11297587f593cf89eb9bb1feff0b5  tampered.tar.gz
 ```
 
-Otu byte agbakwunyere na faịlụ 66,992,676-byte. Ihe abụọ ahụ enweghị ihe ọ bụla  abụghị prefix, ọ bụghị ụkpụrụ. Enweghị nkwekọrịta akụkụ ma ọ bụ "dị nso": nchịkọta nyocha dabara kpọmkwem maọbụ faịlụ adịghị faịlụ ịchọrọ.
+Otu byte ka etinyere na faịlụ 66,992,676-byte. Hash abụọ ahụ enweghị ihe ha na-ekekọrịta — ọbụghị prefix, ọbụghị pattern. Enweghị partial match ma ọ bụ “nso zuru ezu”: checksum na-ekwekọ kpọmkwem ma ọ bụ faịlụ ahụ abụghị faịlụ ị chọrọ.
 
-### Ihe ị ga-eme ma nke a mee.
+### Ihe ị ga-eme mgbe nke a mere
 
-1. ** Ejila ọnụọgụ abụọ ahụ.** Ewepụla ya, emela. `chmod +x` it.
-2. ** Gbalịa ọzọ site na peeji ntọhapụ.** Ọtụtụ ọdịda bụ nbudata ebudatara.
-3. ** Ọ bụrụ na ọ daa nke ugboro abụọ, gbanwee ụzọ netwọk.** Njikọ dị iche ma ọ bụ VPN. Nsogbu ndị na-eso gị n'ofe netwọk dị iche site na otu nke anaghị eme ya.
-4. ** Gosi na ị nwere faịlụ nchịkọta ego ziri ezi maka nsụgharị kwesịrị ekwesị.** Ịtụle v6.3.0 megide v6.2.3 ga-adaba.
-5. ** Ọ bụrụ na ọ ka dara, kọọ ya.** Mepee nsogbu n'ụlọ nkwakọba ihe nke ọrụ ahụ, ma ọ bụ jiri kọntaktị nchebe dị na `SECURITY.md` maka ihe ọbụla ị na-eche bụ nke e bu n'obi. Lee akwụkwọ a: [Zcash Ecosystem Security (Nchebe nke Ebe Ihe Dị Ndụ)](/zcash-community/zcash-ecosystem-security) peeji maka ọwa nkwupụta.
-6. **Kebere ihe ahụ.** Ihe abụọ a na-agbanwe agbanwe bụ akaebe. Ehichapụla ya tupu ị kọọ akụkọ.
+1. **Agbagbula ọnụọgụ abụọ ahụ.** Ewepụtala ya, ejikwala `chmod +x` ya.
+2. **Nwaa ọzọ site na peeji mwepụta gọọmentị.** Ọtụtụ ọdịda bụ nbudata e bepụrụ.
+3. **Ọ bụrụ na ọ daa nke ugboro abụọ, gbanwee ụzọ netwọk.** Njikọ ọzọ, ma ọ bụ VPN. Ọdịda na-eso gị gafee netwọk dị iche na nke na-adịghị.
+4. **Kwenye na ị nwere faịlụ checksum ziri ezi maka version ziri ezi.** Iji sums v6.3.0 tụnyere v6.2.3 ga-ada n'ụzọ ziri ezi.
+5. **Ọ bụrụ na ọ ka daa, kọọ ya.** Mepee issue na repository ọrụ ahụ, ma ọ bụ jiri kọntaktị nchekwa dị na `SECURITY.md` maka ihe ọ bụla ị chere bụ nke e kpachaara anya. Lee peeji [Zcash Ecosystem Security](/zcash-community/zcash-ecosystem-security) maka channels ikpughe.
+6. **Debe artifact ahụ.** Ọnụọgụ abụọ e mebiri emebi bụ ihe akaebe. Ehichapụla ya tupu ị kọọ ya.
 
-Ọdịda mbinye aka dị njọ karịa ọdịda checksum. A na-enwekarị nrụrụ; faịlụ ziri ezi ma ọ bụ ihe ọjọọ abụghị ihe na - eme site n'ihe mberede .
+Ọdịda signature dị njọ karịa ọdịda checksum. Enweghị nkwekọrịta checksum na-abụkarị mmebi; faịlụ dị mma mana signature ọjọọ abụghị ihe na-eme na mberede.
 
 ---
 
-## Akụkụ 4  Tebụl ntụaka
+## Akụkụ 4 — Tebụl ntụaka
 
-| ọrụ | Mbipụta ndị e bipụtara na | Method | Ebe igodo ahụ si abịa |
+| Project | Ebe e bipụtara mwepụta | Usoro | Ebe igodo si abịa |
 |---|---|---|---|
-| **Zebra** | `github.com/ZcashFoundation/zebra/releases` | `SHA256SUMS` + Sigstore bundle | Enweghị igodo — njirimara CI site na GitHub OIDC |
-| **Zallet** | `github.com/zcash/zallet/releases` | Detached GPG `.asc`, SLSA provenance, SBOM | `apt.z.cash/zodl.asc` - isi `0338 34DD…58E2 6AB1`, mbinye aka subkey `1FE9 9324…23F0 617F` |
-| **zcashd** | *ezumike nká* | — | Akwụsịla na blọk 3,417,100 na 2026-07-18. Etinyela ya. |
-| **Zodl** (onye bụbu Zashi) | Ụlọ Ahịa Ngwa / Google Play; `zodl-inc` na GitHub | Store signing; standalone Android binaries GPG-signed | Igodo ZODL kwa nkwupụta mgbanwe ọ bụla |
+| **Zebra** | `github.com/ZcashFoundation/zebra/releases` | `SHA256SUMS` + Sigstore bundle | Enweghị igodo — njirimara CI site na OIDC GitHub |
+| **Zallet** | `github.com/zcash/zallet/releases` | Detached GPG `.asc`, SLSA provenance, SBOM | `apt.z.cash/zodl.asc` — isi `0338 34DD…58E2 6AB1`, signing subkey `1FE9 9324…23F0 617F` |
+| **zcashd** | *larala ezumike* | — | Kwụsịrị na block 3,417,100 na 2026-07-18. Etinyela ya. |
+| **Zodl** (nke a na-akpọbu Zashi) | App Store / Google Play; `zodl-inc` na GitHub | Store signing; standalone Android binaries GPG-signed | Igodo ZODL kwa nkwupụta mgbanwe |
 
-> **Naming note:** Zashi was rebranded to **Zodl** in 2026 — first on the App Store, then on Google Play. Older guides referring to "Zashi" describe the same wallet lineage.
-
----
-
-## Nkebi nke 5  Mobile na ngwaike wallets
-
-Nyocha na-arụ ọrụ dị iche mgbe ị hapụrụ nbudata kpọmkwem.
-
-**App stores.** You cannot check a signature yourself. The store signs the package and you are trusting the store's review and the developer account's integrity. What you *can* verify is that you have the right app: confirm the publisher name and the package identifier against the project's official site, not against search results. Impersonation apps are common, and a store listing is not evidence of authenticity.
-
-**Standalone Android APKs.** Ndị a *nwere ike nyochaa. ZODL na-ebipụta GPG bịanyere aka n'akwụkwọ nke onwe ha gam akporo binaries site GitHub Releases, ya mere akụkụ 2 workflow metụtara. Họrọ ụzọ a ma ọ bụrụ na ịchọrọ usoro nyocha.
-
-** Ngwá ọrụ ngwaike.** Ngwaọrụ ahụ na-egosi ihe ngwanrọ ya, n'ihi ya ntụkwasị obi bụ akụrụngwa, ọ bụghị faịlụ dị na igwe gị. Lee [Keystone Zashi (Onye na-eme ihe nkiri)](/guides/keystone-zashi) maka usoro nyocha ngwaọrụ. Zụta kpọmkwem site n'aka onye nrụpụta  mmebi nke ọkọnọ na-eme n'etiti ụlọ ọrụ mmepụta ihe na onye zụrụ ya.
+> **Rịba ama maka aha:** Zashi gbanwere aha ya ka ọ bụrụ **Zodl** na 2026 — mbụ na App Store, emesịa na Google Play. Nduzi ochie na-ekwu maka “Zashi” na-akọwa otu usoro e-akpa ego ahụ.
 
 ---
 
-## Ịgụ ihe ọzọ
+## Akụkụ 5 — E-akpa ego mobile na hardware
 
-- [Zcash Ecosystem Security (Nchebe nke Ebe Ihe Dị Ndụ)](/zcash-community/zcash-ecosystem-security)  amụma nkwupụta na kọntaktị nchebe
-- [Zebra Full Node (Nọmba zuru ezu)](/zcash-tech/zebra-full-node)  ịwụnye Zebra mgbe nyochachara ya
-- [Akwụkwọ Ntuziaka Ọsọ Zallet](/using-zcash/zallet-quick-reference-guide)  iji Zallet eme ihe
+Nkwado na-arụ ọrụ n'ụzọ dị iche mgbe ị hapụrụ nbudata kpọmkwem.
+
+**Ụlọ ahịa app.** Ị pụghị inyocha signature n'onwe gị. Store na-abịanye package aka, ma ị na-atụkwasị ntụle store na izi ezi akaụntụ onye mmepụta obi. Ihe ị *nwere ike* ikwenye bụ na ị nwere app ziri ezi: kwado aha publisher na package identifier megide website gọọmentị nke ọrụ ahụ, ọ bụghị megide nsonaazụ ọchụchọ. Apps nṅomi na-adịkarị, listing store abụghịkwa ihe akaebe nke eziokwu.
+
+**APKs standalone Android.** Ndị a *nwere ike* ịkwado. ZODL na-ebipụta binaries standalone Android GPG-signed site na Releases GitHub, ya mere usoro ọrụ Akụkụ 2 na-emetụta. Họrọ ụzọ a ma ọ bụrụ na ịchọrọ chain a pụrụ inyocha.
+
+**Hardware wallets.** Ngwaọrụ ahụ na-akwado firmware nke ya, ya mere trust anchor bụ hardware, ọ bụghị faịlụ dị n'igwe gị. Lee [Keystone Zashi](/guides/keystone-zashi) maka usoro nkwado ngwaọrụ. Zụta kpọmkwem n'aka onye nrụpụta — mmebi supply-chain na-eme n'etiti factory na onye zụrụ ya.
+
+---
+
+## Ịgụkwu
+
+- [Zcash Ecosystem Security](/zcash-community/zcash-ecosystem-security) — policy ikpughe na kọntaktị nchekwa
+- [Zebra Full Node](/zcash-tech/zebra-full-node) — itinye Zebra mgbe ị kwadoro ya
+- [Zallet Quick Reference Guide](/using-zcash/zallet-quick-reference-guide) — iji Zallet
 - [Akwụkwọ Sigstore](https://docs.sigstore.dev/)
-- [SLSA ebe ọkwa si abịa](https://slsa.dev/)
+- [Ọkwa SLSA provenance](https://slsa.dev/)
 
 ---
 
-*Iwu ndị dị na ibe a gbara ọsọ megide Zebra `v6.3.0` na Zallet `v0.1.0-beta.2` na 2026-08-18. Mgbanwe ngwá ọrụ ntọhapụ: ọ bụrụ na mmepụta dị iche site n'ihe e gosipụtara ebe a, tụkwasị obi gị onwe gị ma biko mepee PR.*
+*E gbara iwu ndị dị na peeji a megide Zebra `v6.3.0` na Zallet `v0.1.0-beta.2` na 2026-08-18. Tooling mwepụta na-agbanwe: ọ bụrụ na mwepụta dị iche na nke egosiri ebe a, tụkwasị n'ọsọ nke gị obi ma biko mepee PR.*

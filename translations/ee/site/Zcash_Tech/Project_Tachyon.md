@@ -2,135 +2,135 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Dɔwɔɖoɖo si nye Tachyon
+# Project Tachyon
 
 ## TL;DR
 
-- Tachyon nye alesi wodoe ɖa be woatrɔ asi le alesi Zcash gakotokuwo dia ga siwo wokpɔ ta na hezãa wo ŋu, si woɖo be woana network la natsi va ɖo ezãla gbogbo aɖewo ŋutɔ gbɔ
-- Egbea ele be gakotoku nadze agbagba aɖe blockchain ƒe akpa gã aɖe gɔme be yeake ɖe fexexe siwo nye eya ŋutɔ tɔ ŋu, eye ema koŋ tae shielded syncing se le eɖokui me be yele blewu ɖo
-- Tachyon tsɔa **oblivious synchronization** ɖɔlia ema, eyata gakotoku xɔa nusi wòhiã evɔ meléa ŋku ɖe nusianu ŋu o eye megblɔa akpa siwo wòdi na server aɖeke o
-- Eɖea fexexe ŋuti nyatakakawo hã doa goe le blockchain la me yia fexexe ƒe biabiaa ŋutɔ me, si wɔnɛ be ɖoɖowɔɖia nɔa bɔbɔe gake wòtrɔa agbanɔamedzia ɖe gakotokuwo dzi
-- Enye aɖaŋuɖoɖo, si wota zi gbãtɔ le April 2025. **menye NU7** eye **meɖoe ɖee o**, eye ehiã be woawɔ mɔ̃ɖaŋudɔ le Sapling ƒe ɖɔɖɔɖo ƒe lolome nu
+- Tachyon nye ɖoɖo yeye si woɖoe be wòatrɔ ale si Zcash gakotokuwo [wallets] di eye wotsãa ga ɣaɣla [shielded] le eme, be network la ate ŋu akuku va se ɖe zãlawo ƒe xexlẽ gã aɖe dzi
+- Egbea la, gakotoku aɖe ele be wòage ɣaɣlaŋlɔŋlɔ [encryption] ƒe gagbã agateŋu le gaɖoɖowo ƒuƒoƒo ƒe ɖoɖonu [blockchain] la ƒe akpa gã aɖe ŋu, be wòanya fexexewo [payments] siwo nye etɔ, eye esia nye ta vevi si ta ɣaɣla ƒe syncing dzea le dzodzoe
+- Tachyon trɔa esia kple **nunya-menya syncɖoɖo**, ale be gakotoku aɖe axɔ nu si wòhia, le esi me wòmele nu katã lekpɔm o, eye wòmegblɔna na server aɖe akpa siwo wòdi o
+- Eya hã tsɔa fexexe ƒe nyatakakawo doa tso gaɖoɖowo ƒuƒoƒo ƒe ɖoɖonu la me yi fexexe ƒe biabia la me, si wɔa be protocol la nasẽ gɔme, gake etsɔ dzikpɔkpɔ ƒe agbalẽ doa ɖe gakotokuwɔlawo dzi
+- Enye ɖoɖo aɖe si woɖe gbe dzi zi gbãtɔ le April 2025. Menye NU7 ƒe akpa o eye **womeɖoe va dze dzi o**, eye ehiã mɔ̃ ƒe ɖoɖoŋlɔla [developer] ƒe dɔ sesẽ si sɔ kple Sapling mɔ̃ ƒe sewo trɔtrɔ [network upgrade]
 
 <br/>
 
-## Ameka tae esia nye
+## Ame kae wòwɔe na
 
-- Amesiame si kpɔ gakotoku si ŋu akpoxɔnu le ƒe ɖekawɔwɔ kpɔ eye wòbia eɖokui be nukatae wòxɔa ɣeyiɣi didi nenema gbegbe ɖo hã
-- Ame yeye siwo yia edzi kpɔa Tachyon si woyɔ le NU7 kple Zcash scaling xa
-- Nuxlẽla siwo di susua gbã eye nya ɣaɣlawo ƒe nuŋɔŋlɔ evelia
+- Ame sia ame si kpɔ ɣaɣla gakotoku aɖe ƒe syncɖoɖo kpɔ eye wòbia be nukatae wòɖea ƒeɖe nenema
+- Ame yeye siwo kpɔa Tachyon ƒe nya le NU7 kple Zcash ƒe nu ƒe dziyiyi [scaling] gbɔ zi geɖe
+- Nuxlalawo siwo di be woase susu la gɔme tsã hafi woava ɖe cryptography ŋu
 
 <br/>
 
-## Kuxi si gbɔ Tachyon kpɔna
+## Kuxi si Tachyon solve
 
-Zcash ɣlaa amesiwo ƒe fetu aɖe nye na. Emae nye nya bliboa, eye wòhea kuxi si mebɔ o vɛ: ne ame aɖeke mate ŋu anya amesi tɔ fetu aɖe nye o la, aleke wò ŋutɔ wò gakotokua awɔ ake ɖe tɔwò ŋu?
+Zcash ɣlaa ame si wode fexexe na la. Eyae nye ta katã, eye ewɔa kuxi aɖe si me nyuie o: ne ame aɖeke mate ŋu anya ame si fexexe la le etɔ o la, aleke wò ŋutɔ ƒe gakotoku ate ŋu afi wòtɔwo?
 
-Le Bitcoin me la, esia le bɔbɔe. Adrɛswo nye dutoƒo, eyata gakotoku ateŋu abia server "nukae woɖo ɖe adrɛs sia?" eye nàxɔ ŋuɖoɖo. Zcash gakotoku mateŋu abia nya ma o, elabena ne wobiae la, aɖe nusi tututu wowɔ be woatsɔ aɣla ta si wotsɔ akpoxɔnu wɔe la afia.
+Le Bitcoin me la, esia bɔbɔe. Gaɖoƒe ƒe dzesiwo [addresses] nye dukɔme, eyata gakotoku aɖe ate ŋu abia server aɖe be "Nu kae wode ɖe gaɖoƒe ƒe dzesi sia ŋu?" eye wòaxɔ ŋuɖoɖo. Zcash ɣaɣla gakotoku mate ŋu abia biabia ma o, elabena ne wòbiae la, emafia nu si ɣaɣla gaƒuƒoƒo [pool] la wɔna be wòaɣlae tututu.
 
-Eyata Zcash wɔa nu bubu aɖe si to vovo. Amesi ɖoe ɖa la tsɔa ga si woxe la ƒe nyatakakawo ɣla eye wòtsɔa wo ɣlana ɖe asitsatsa la ŋutɔ me. Emegbe wò gakotokua wɔa dɔ to asitsatsa siwo le kɔsɔkɔsɔa dzi me eye wòdzea agbagba be yeaɖe wo dometɔ ɖesiaɖe gɔme. Agbagba ɖesiaɖe kloe doa kpo nu. Ame ʋɛ siwo kpɔa dzidzedzee nye wò fexexe. Woyɔa esia be **trial decryption**, eye wònye ame ŋutɔ tɔ, esɔ, eye wòwɔa blewu.
+Eyata Zcash wɔa nu bubu. Dɔla la ɣlaa fexexe ƒe nyatakakawo kple ɣaɣlaŋlɔŋlɔ eye wòtsɔe ɖe gaɖoɖo [transaction] la ŋutɔ me. Emegbe wò gakotoku la doa dɔ le ɖoɖonu la dzi ƒe gaɖoɖowo ŋu eye wòɖea ŋku be yeadze ɣaɣlaŋlɔŋlɔ le ɖe sia ɖe ŋu. Zaza geɖe be esia ƒe dɔwɔwɔwo katã medzea dzi o. Vi siwo dzea dzi lae nye wò fexexewo. Woyɔ esia be **dodokpɔ ɣaɣlaŋlɔŋlɔ ƒe gagbã**, eye enye ɣaɣla, tso ete ŋu, eye wòlea ɣeyiɣi.
 
 ![Today a Zcash wallet downloads every shielded transaction and tries to decrypt each one, with almost every attempt failing, to find the few payments that belong to it](/content-images/tachyon-scanning-today.svg)
 
-Nusi dzi dɔa nɔ te ɖoe nye nusi dzi woalé. Agbagba si wò gakotokua zãna la nɔa te ɖe alesi kɔsɔkɔsɔa loloe dzi, ke menye ga agbɔsɔsɔme si nèxe ŋutɔŋutɔ o. Ame aɖe si mexɔ fetu ɖeka pɛ hã o la wɔa dɔ si sɔ kple ame si xɔa wo gbesiagbe kloe. Esi Zcash le tsitsim la, ema va gblẽna ɖe edzi na amesiame. Le aɖaŋuɖoɖoa ƒe nya nu la, "ɖeko medzidzea nu o."
+Nu si le eme lae nye nu si dɔ la tɔ ɖe edzi. Dɔ si wò gakotoku wɔna ƒe sesẽ ɖe ɖoɖonu la ƒe lolome ŋu, menye fexexe siwo wòxɔ vavã ƒe xexlẽ ŋu o. Ame si mexɔ fexexe ɖeka gɔ̃ hãkpɔ o wɔa dɔ sɔ kple ame si xɔa wo gbe sia gbe. Ne Zcash ƒe lolome le dzidzime la, esia vɔ̃a ɖe ame sia ame ŋu. Le ɖoɖo la ƒe nyawo me la, "eɖe be menye nu si ate ŋu akuku o."
 
 <br/>
 
-## Nusi Tachyon trɔna
+## Nu si Tachyon trɔna
 
-Tachyon dze kuxia dzi le eƒe ke me: edzudzɔ blockchain zazã abe fexexe ƒe nya ɣaɣlawo ɖoɖoɖa mɔnu ene.
+Tachyon wɔa kuxi la ɖe eƒe ke me: etsɔa nu nu tsia blockchain la ƒe zazã be wòanye fexexe ƒe ɣaɣlawo ƒe mɔ doɖa.
 
-Ke boŋ, nyatakaka siwo nèhiã la zɔ mɔ kple fexexe ƒe biabiaa ŋutɔ, le ha me. Fexexe ƒe biabiawo, URI, alo QR-kɔda tsɔa nyatakaka siwo wotsɔa nyatakaka ɣaɣlawo dea asitsatsa la me tsã. Sean Bowe ɖɔ esia be exɔ **fexexe le haƒoha godo** zi gbãtɔ le Zcash shielded protocol me.
+Le esia ƒe teƒe la, nyatakaka siwo wòhia la zɔa kple fexexe ƒe biabia la ŋutɔ, le mɔ bubu dzi. Fexexe ƒe biabia, URI, alo QR code aɖe tsɔa nyatakaka siwo woɣla le gaɖoɖo la me tsã la. Sean Bowe gblɔa be esia nye **fexexewo siwo mele mɔ la me o** ƒe zazã gbãtɔ le Zcash ɣaɣla protocol aɖe me.
 
-Ne kɔsɔkɔsɔa megale nyatakaka mawo tsɔm o ko la, susu aɖeke meganɔa wò gakotokua me be wòadi wo o, eye dodokpɔ ƒe nya ɣaɣlawo ɖeɖeɖa ƒe kuxia nu yina.
+Ne ɖoɖonu la megale nyatakaka mawo tsɔm o la, ta aɖeke megale na wò gakotoku be wòadi wo le eme o, eye dodokpɔ ɣaɣlaŋlɔŋlɔ ƒe gagbã ƒe kuxi la bu.
 
-Gake egahiã kokoko be wò gakotokua nanya kɔsɔkɔsɔ ƒe nɔnɔme si li fifia hafi nàte ŋu azãe. Emae nye aɖaŋua ƒe afã evelia, **oblivious synchronization**: mɔnu si dzi gakotoku aɖe ato axɔ nu tɔxɛ siwo wòhiã evɔ maɖe nusiwo wòbia la afia server la o.
+Ke hã, wò gakotoku hia be wòanya ɖoɖonu la ƒe nɔnɔme fifia be yeate ŋu atsã ga. Eyae nye ɖoɖo la ƒe akpa evelia, **nunya-menya syncɖoɖo**: mɔ aɖe si ana gakotoku aɖe nakpɔ nu siwo wòhia le esi me wòmefia na server la nu siwo wòbia o.
 
 ![With Tachyon the sender passes payment details to the recipient out of band, and the wallet uses oblivious synchronization to retrieve only the data it needs instead of scanning the whole chain](/content-images/tachyon-oblivious-sync.svg)
 
 <br/>
 
-## Nusi wòafia na amesi le gakotoku zãm
+## Nu si esia anɔe na ame si le gakotoku zazãm
 
-- **Syncing dzudzɔ tsitsi kple kɔsɔkɔsɔa.** Ɣeyiɣi si wò gakotokua zãna tsɔ léa wòe la alé ŋku ɖe wò ŋutɔ wò dɔwɔna ŋu tsɔ wu be wòalé ŋku ɖe Zcash.
-- **Fexexe va zua abe gaxɔgbalẽvi tsɔtsɔ de asi na ame aɖe ene.** Fexexe ƒe biabiaa tsɔa nusi amesi xɔe hiã, eyata asitɔtrɔ le amesi ɖoe ɖa kple amesi xɔe dome le vevie wu alesi wòle egbea.
-- **Gakotokuwo tsɔa agbanɔamedzi geɖe wu.** Esi kɔsɔkɔsɔa megaléa wò fexexe ŋuti nyatakakawo ƒe kɔpi si wotsɔ nya ɣaɣlawo ŋlɔ ɖe asi o ta la, wò gakotoku ŋuti nyatakakawo ƒe bu le vevie wu. Backup kple recovery ʋuna tso protocol feature nyenye dzi va zua nane si gakotoku software nawɔ nyuie.
-- **Akpa nyanyɛ aɖewo ʋuna alo buna.** Tachyon ɖea safuiwo ƒe vovototodedeameme, safuiwo kpɔkpɔ, kple fexexe ƒe adrɛswo ɖa le ɖoɖowɔɖi vevitɔa me, eye wògblẽa wo ɖe gakotokua ƒe ƒuƒoƒoa me. Esia nye aɖaŋuɖoɖoa ƒe akpa siwo do tso eme wu la dometɔ ɖeka eye wogale dɔ wɔm tso eŋu kokoko.
-
-<br/>
-
-## Mɔ̃ɖaŋunuxlẽlawo ƒe ŋkuléle ɖe nu ŋu nyuie wu
-
-Wogblɔ tso Tachyon be enye tɔtrɔ si sɔ ɖe megbe na Orchard ƒe ɖoɖowɔɖia. Woate ŋu azãe abe tɔtrɔ ɖe Orchard ta si li fifia ŋu alo abe ta si ŋu wokpɔ akpoxɔnu le si le vovo si gbɔ woɖo to a [turnstile ƒe ʋuƒo](https://zechub.wiki/zcash-tech/the-turnstile), si nye mɔ̃ ma ke si Zcash zã na Ironwood. Tiatia la kpɔa ŋusẽ ɖe dɔwɔwɔ dzi, ke menye alesi woawɔe o.
-
-Edzraa nu geɖe ɖo tso Orchard: RedPallas safui gbugbɔgawɔ le vome, homomorphic asixɔxɔ ƒe ŋugbedodowo kple asidede agbalẽ te siwo blaa nu, kple safui ƒe ɖoɖo si woma si naa mɔ̃ aɖe tsɔa ame de asi na kpeɖodzi evɔ metsɔa gazazã ƒe ŋusẽ dea asi o.
-
-Dzesidedɔa nɔa te ɖe **nyatakaka siwo tsɔa kpeɖodzinyawo** dzi, si nye mɔnu si me nyatakakawo zɔna kpena ɖe kpeɖodzi si ɖee fia be esɔ la xa, ale be ne wotsɔe ƒo ƒu kple nyatakaka bubu siwo tsɔa kpeɖodziwo la, nane si nyia kpeɖodzi mawo ƒe dome eye wòkekea wo ɖe enu la dona. Esiae na be woate ŋu aƒo dɔ gbogbo aɖe si ŋu woɖo kpee nu ƒu wòazu nu sue aɖe si woate ŋu akpɔ kabakaba. Halo, si ŋu ƒuƒoƒo si le megbe na Zcash, ke ɖo lae na be kpeɖodzinyawo tsɔtsɔ yi teƒe bubuwo wɔ dɔ ale gbegbe be woate ŋu atu wo ɖo.
-
-Ka etɔ̃lia enye **shielded transaction aggregates**, si trɔa alesi wogblɔa shielded state ƒe tɔtrɔwo eye wòkpɔa ŋusẽ ɖe alesi asidede agbalẽ te wɔa dɔe dzi.
+- **Syncɖoɖo ƒe lolome magblẽ kple ɖoɖonu la o.** Ɣeyiɣi si wò gakotoku atsɔ akpɔ nu siwo dzɔ la adze wò ŋutɔ ƒe dɔwɔwɔ ɖo, menye Zcash ƒe lolome o.
+- **Fexexewo anɔ abe ne wòle asi tsɔa fexexe ƒe agbale na ame aɖe ene.** Fexexe ƒe biabia la tsɔa nu si xɔla la hia, eyata dzodzro si le dɔla kple xɔla dome la le vevie wu ale si wònɔ egbea.
+- **Gakotokuwɔlawo atsɔ dzikpɔkpɔ geɖe.** Elabena ɖoɖonu la megale wò fexexe ƒe nyatakakawo ƒe ɣaɣlaŋlɔŋlɔ ƒe kɔpi aɖe dzɔm o la, wò gakotoku ƒe data gbuƒe le vevie wu. Backup kple gbugbɔxɔxɔ tso protocol ƒe nɔnɔme me yi nu si gakotoku ƒe software lae wòle be wòawɔe nyuie.
+- **Nu siwo míaɖo ŋku na va trɔ alo abu.** Tachyon doa key diversification, nukpɔsafui [viewing keys], kple fexexe ƒe gaɖoƒe ƒe dzesiwo ɖe core protocol la me, eye wòle wo deŋgɔ ɖe gakotoku ƒe layer la dzi. Esia nye ɖoɖo la ƒe akpa siwo wɔnɛ vevie ŋutɔ dometɔ aɖe, eye wogale dɔ wɔm ɖe edzi ha.
 
 <br/>
 
-## Afisi dɔa le
+## Nukpɔkpɔ tsitotsito na technical nuxlalawo
 
-Tachyon nye **ɖoɖo, menye nɔnɔme si woɖo ɖa o** o. Wotae le April 2025 me, eye nyatakaka aɖe si kplɔe ɖo le May 2025 me wɔ dɔ to nusiwo dzi woda asi ɖo la me. Woyɔe be enye amesi di be yeaxɔ NU7, si nye ŋgɔyiyi si kplɔe ɖo le Ironwood, gake NU7 ƒe kekeme si dzi wolɔ̃ ɖo le 17 September 2026 dzi la melɔe ɖe eme o: [ZIP 259 ƒe xexlẽdzesi](https://zips.z.cash/zip-0259) ŋlɔ nusiwo NU7 dea dɔwɔwɔ me, eye [forum ƒe gbeƒãɖeɖe](https://forum.zcashcommunity.com/t/nu7-timeline/57655) gblɔ be asitsatsa ƒe ɖoɖo yeye aɖeke medze le eme o. Womeɖo ŋkeke aɖeke be woawɔ dɔ na Tachyon.
+Tachyon wogblɔe be enye tɔtrɔ si sɔ kple nu si le megbe na Orchard protocol la. Woate ŋu aɖoe va dze dzi abe mɔ̃ ƒe sewo trɔtrɔ na Orchard gaƒuƒoƒo si le afi ma ene, alo abe ɣaɣla gaƒuƒoƒo bubu si woɖo to [gaɖoɖowo ƒe xexlẽdzikpɔɖeƒe](https://zechub.wiki/zcash-tech/the-turnstile) me ene; eyae nye mɔ ɖeka ma si Zcash zã na Ironwood. Tiaɖoɖo la doa asi ɖe ɖoɖe dzi, menye design la ŋu o.
 
-Agbalẽŋlɔla ŋutɔ ƒe ɖoɖoe nye be esia nye ɖoɖo si ŋu woate ŋu awɔ nu le tsɔ wu be wòanye numekuku si wowɔ le nususugblɔ me, gake esi hiã mɔ̃ɖaŋudɔwɔwɔ si sɔ kple Sapling, eye woɖoe koŋ gblẽ nyabiase sesẽ aɖewo ɖi na emegbe.
+Ewɔa nu geɖe tso Orchard me: RedPallas key re-randomization, value commitmentwo siwo le homomorphic, binding signaturewo, kple key ƒe ɖoɖo si woɖe mama, si naa device aɖe ate ŋu ana ɖaseɖigbalɛ [proof] ƒe wɔwɔ ame bubu hafi wòtsɔ tsã ga ƒe mɔɖeke nɛ o.
 
-Dɔ siwo do ƒome kplii la dzena xoxo. [Zakura](https://zechub.wiki/zcash-tech/zakura-node), si nye node blibo si woɖe ɖe go le July 2026 me, nye agbagbadzedze ɖekae le Project Tachyon kple Valar Group dome eye wòkpɔa tɔtrɔ siawo dometɔ aɖewo le network-level me do ŋgɔ. [Ame ŋutɔ ƒe nyatakakawo xɔxɔ](https://zechub.wiki/zcash-tech/private-information-retrieval) numekuku ƒe taɖodzinue nye be woawɔ scanning bottleneck ɖeka ma ke tso dzogoe bubu dzi.
+Nu ƒe dziyiyi ƒe dɔ la ɖe asi ɖe **ɖaseɖigbalɛ-tsɔ data** ŋu, si nye mɔ aɖe me data zɔa kple eŋutɔ ƒe nyateƒe ƒe ɖaseɖigbalɛ, ale be ne woƒo eya kple ɖaseɖigbalɛ-tsɔ data bubu la, nu aɖe ava dzɔ si xɔa eye wòɖea ɖaseɖigbalɛ mawo dzi. Eyae naa dɔ si woɖe kpee eye woɖe ƒo kple dada gã aɖe nɔa ƒeŋu abe nu sue si woate ŋu akpɔ le kaba me ene. Halo, si team si le Zcash megbe kpɔ la, eyae wɔ be ɖaseɖigbalɛ-tsɔ data la nɔ ŋutɔ be woate ŋu atu nu ɖe edzi.
 
-<br/>
-
-## Nukpɔsusu totro siwo bɔ
-
-- **Tachyon mele agbe o.** Gakotoku aɖeke mezãnɛ egbea o, eye tɔtrɔ aɖeke hã mewɔe dɔ o.
-- **Tachyon menye nu ɖeka kple Ironwood.** Ironwood wɔ dɔ le July 2026 me eye wòwɔ nu ɖe Orchard ta kple turnstile ŋu. Tachyon nye aɖaŋuɖoɖo si to vovo, si wodo emegbe ku ɖe scaling ŋu.
-- **Tachyon menye adzamenyawo dzi ɖeɖe kpɔtɔ o.** Taɖodzinuae nye be woana ledger ƒe vovototodedeameme nanɔ anyi esime wole scaling cost ɖem ɖa, ke menye be woatsɔ adzamenyawo aɖɔli duƒuƒu o.
-- **zk-SNARK kpeɖodzinana menye nusi xe mɔ nɛ gbeɖe o.** Aɖaŋuɖoɖoa gblɔe kɔte be akpa si le blewu enye alesi gakotokuwo kea ɖe nɔnɔme ŋu eye wowɔa ɖoɖo ɖe nɔnɔme ŋu, ke menye ga si woatsɔ alé ŋku ɖe kpeɖodziwo ŋu o.
-- **Tachyon mele NU7.** Wotsɔ ŋkɔ nɛ tsã be enye ame si di be yeaxɔ ɖoƒea, gake afisi wolɔ̃ ɖo le September 2026 me la ku ɖe sɛkɛnd 25 ƒe blocks, fetu gbugbɔgawɔ kple version 4 ƒe asitsatsa ƒe nuwuwu ŋu, eye asitsatsa ƒe ɖoɖo yeye aɖeke mele eme o ([ZIP 259 ƒe xexlẽdzesi](https://zips.z.cash/zip-0259)).
+Akpa etɔe nye **ɣaɣla gaɖoɖo ƒe ƒoƒo**, si trɔa ale si ɣaɣla ƒe nɔnɔme ƒe tɔtrɔwo zɔna, eye wòwɔa tɔtrɔwo le ale si wòle be woana asidede agbalẽ te [signature] la hã ŋu.
 
 <br/>
 
-## Nyagɔmeɖegbalẽ
+## Afisi dɔ la tɔ
 
-| Nya | Gɔmeɖeɖe |
+Tachyon nye **ɖoɖo, menye nu si woɖo va dze dzi o**. Woɖe gbe dzi le April 2025, eye nuŋlɔŋlɔ si dze edzi le May 2025 wɔ dɔ le consensus [gbegbɔgblɔ ɖi] ƒe emetsonuwo ŋu. Woyɔe be candidate na NU7, si nye mɔ̃ ƒe sewo trɔtrɔ si dze Ironwood yome, gake NU7 ƒe scope si woɖo ɖe 17 September 2026 la me melé eme o: [ZIP 259](https://zips.z.cash/zip-0259) xlɔ nu siwo NU7 ɖoa va dzea, eye [forum ƒe gbeɖeɖe](https://forum.zcashcommunity.com/t/nu7-timeline/57655) gblɔ be gaɖoɖo ƒe format yeye aɖeke mele eme o. Wometsɔ ɣeyiɣi aɖeke de be Tachyon adze dzi o.
+
+Nuŋlɔla la ŋutɔ ƒe gɔmesesee nye be esia nye ɖoɖo si woate ŋu awɔ va dzɔ, menye research ƒe susuɖeɖe aɖe o, gake ehiã mɔ̃ ƒe ɖoɖoŋlɔla ƒe dɔ sɔ kple Sapling, eye wotsɔ biabia sesẽ aɖewo de megbe kple ta.
+
+Dɔ siwo ɖe tsiem kpɔ la le afi ma xoxo. [Zakura](https://zechub.wiki/zcash-tech/zakura-node), ɣaɣla dzesi ŋɔŋlɔ blibo [full node] si woɖe gbe dzi le July 2026, nye dɔ si Project Tachyon kple Valar Group wɔ ɖekae eye wòfia network ƒe tɔtrɔ siawo ƒe akpa aɖewo. [Private information retrieval](https://zechub.wiki/zcash-tech/private-information-retrieval) research le dɔ wɔm ɖe scanning ƒe kuxi ma ŋu tso mɔ bubu aɖe nu.
+
+<br/>
+
+## Gɔmesese vɔ̃vɔ̃ siwo bɔbɔe
+
+- **Tachyon mele dzi o.** Gakotoku aɖeke mezãa egbegbe o, eye mɔ̃ ƒe sewo trɔtrɔ aɖeke metsɔe va dze dzi o.
+- **Tachyon menye Ironwood ene o.** Ironwood dze dzi le July 2026 eye wòwɔ dɔ kple Orchard gaƒuƒoƒo kple gaɖoɖowo ƒe xexlẽdzikpɔɖeƒe. Tachyon nye ɖoɖo bubu si va emegbe ku ɖe nu ƒe dziyiyi ŋu.
+- **Tachyon menye ɣaɣla ƒe ɖeɖe kpɔ o.** Ta lae nye be woanɔ ledger indistinguishability dzi le esi woate ɖe nu ƒe dziyiyi ƒe gaƒoƒo ɖa, menye be woatsɔ ɣaɣla aɖe kpea tsɔ axɔ kabakaba o.
+- **zk-SNARK ƒe verification menye bottleneck la kpɔ gbeɖeka o.** Ɖoɖo la gblɔ kpuie be akpa si lea ɣeyiɣi lae nye ale si gakotokuwɔlawo kpɔa eye wole state la ƒe dɔwo ɖom, menye ɖaseɖigbalɛwo ƒe kpɔkpɔ ƒe gaƒoƒo o.
+- **Tachyon mele NU7 me o.** Woyɔe be candidate kpɔ, gake scope si woɖo le September 2026 la kpɔ block ƒe sekond 25, fee ƒe gbugbɔzazã, kple version 4 gaɖoɖowo ƒe nuwuwu, si me gaɖoɖo ƒe format yeye aɖeke mele o ([ZIP 259](https://zips.z.cash/zip-0259)).
+
+<br/>
+
+## Nyagbalẽ
+
+| Nyagbalẽ | Gɔmesese |
 |---|---|
-| Trial decryption | Agbagbadzedze be woaɖe asitsatsa ƒe nya ɣaɣlawo me ɖekaɖeka be nàke ɖe esiwo woɖo ɖe wò ŋu |
-| In-band secret distribution | Fexexe ƒe nya ɣaɣla la dede asitsatsa la me le blockchain la dzi, abe alesi Zcash wɔnɛ egbea ene |
-| Out-of-band payment | Fexexe ŋuti nyatakakawo tsɔtsɔ yi ame si ɖoe ɖa kple amesi xɔe dome tẽ tsɔ wu be woato kɔsɔkɔsɔa dzi |
-| Oblivious synchronization | Kɔsɔkɔsɔ ŋuti nyatakaka siwo gakotoku hiã la xɔxɔ evɔ womaɖe nyatakaka siwo wobia la afia o |
-| Proof-carrying data (PCD) | Nyatakaka siwo zɔa mɔ kple kpeɖodzi si ɖee fia be eya ŋutɔ sɔ, eyata woate ŋu aƒo kpeɖodziwo nu ƒu ahaƒo wo nu ƒu |
-| Shielded transaction aggregate | Tachyon's mɔ si dzi wòtona blaa shielded state trɔna, etrɔa alesi wogblɔa woe kple alesi wodea asi wo te |
-| ledger indistinguishability | Womate ŋu agblɔ nunɔamesi siwo kpɔ asitsatsa ta la ɖe vovo tso wo nɔewo gbɔ o |
+| Trial decryption | Ɣeɣeɣe le gaɖoɖowo ƒe ɣaɣlaŋlɔŋlɔ ƒe gagbã ŋu be woakpɔ siwo woɖo ɖe wò ŋu |
+| In-band secret distribution | Fexexe ƒe sirinunu la ɖo ɖe gaɖoɖo la me le blockchain la dzi, abe ale si Zcash wɔna egbea ene |
+| Out-of-band payment | Fexexe ƒe nyatakakawo zɔa to dɔla kple xɔla dome tẽ, menye to ɖoɖonu la me o |
+| Oblivious synchronization | Ɖoɖonu ƒe data si gakotoku aɖe hia ƒe xɔxɔ le esi me wòmefia data si wobia o |
+| Proof-carrying data (PCD) | Data si zɔa kple eŋutɔ ƒe nyateƒe ƒe ɖaseɖigbalɛ, ale be woate ŋu aƒo ɖaseɖigbalɛwo eye woatsɔ wo awɔ nu sue |
+| Shielded transaction aggregate | Tachyon ƒe mɔ si wòtsɔa ɣaɣla ƒe nɔnɔme ƒe tɔtrɔwo ƒoa nu ɖekae, eye wòtrɔa ale si woɖea gbe tso wo ŋu eye wole asidede agbalẽ te wo ŋu |
+| ledger indistinguishability | Nɔnɔme si wɔa be womate ŋu ade vovototo le ɣaɣla gaɖoɖowo dome o |
 
 <br/>
 
-## Nyabiasewo ƒe Nyabiasewo
+## FAQ
 
-**Ðe esia ana nye gakotokua nawɔ ɖeka kabakabaa?** Emae nye taɖodzinua. Ɣeyiɣi ƒe ɖoɖowɔwɔ ɖekae akplɔ wò ŋutɔ wò dɔwɔna ɖo ɖe kɔsɔkɔsɔa ƒe lolome teƒe. Naneke meɖo ɖa o, eyata xexlẽme aɖeke meli si wodzidze si woayɔ haɖe o.
+**Esia awɔ be nye gakotoku ƒe syncɖoɖo anɔ kaba wu oa?** Eyae nye ta la. Syncɖoɖo ƒe ɣeyiɣi adze wò ŋutɔ ƒe dɔwɔwɔ ɖo, menye ɖoɖonu la ƒe lolome o. Womeɖo nu aɖeke va dze dzi ha o, eyata xexlẽ si woɖe kpɔ aɖeke mele be woagblɔ o.
 
-**Ðe wòhiã be mawɔ nane fifiaa?** Ao, Tachyon nye aɖaŋuɖoɖo. Ne woxɔe la, ava to network upgrade dzi kple gbeƒãɖeɖe si wozãna ɖaa.
+**Ele be mawɔ nu aɖeke fifia oa?** Ao. Tachyon nye ɖoɖo. Ne woɖo eƒe dzi la, ava to mɔ̃ ƒe sewo trɔtrɔ me kple gbeɖeɖe si wònɔa zi sia zi.
 
-**Ðe nukpɔkpɔ ƒe safuiwo ɖeɖeɖa fia be ŋutete si le asiwò be woama nuxexlẽ ƒe mɔɖeɖea bu?** Aɖaŋuɖoɖoa ʋu ŋutete ma do goe le ɖoɖowɔɖi vevitɔa me yi ɖe gakotoku ƒe ƒuƒoƒoa me. Alesi ema le le nuwɔna me nye nyabiase siwo wobia faa la dometɔ ɖeka.
+**Nukpɔsafuiwo ƒe ɖeɖe fia be maɖe mɔ na ame bubu be wòakpɔ nyatakaka oa?** Ɖoɖo la tsɔa mɔ ma doa tso core protocol la me yi gakotoku ƒe layer la me. Ale si esia anɔa le vavã me nye biabia siwo ƒe ŋuɖoɖo mede o dometɔ aɖe.
 
-**Ðe nye ga le afɔku me ne Tachyon ɖo meliwoa?** Deployment azã Orchard upgrade alo turnstile, wo ame evea siaa wowɔ ale be asixɔxɔ naʋuʋu le dukɔa ƒe akɔntabubu sewo nu. Ironwood ƒe axaa ɖe alesi ʋuƒo si wotsɔ trɔa asi le nu ŋu wɔa dɔe me.
-
-<br/>
-
-## Axa siwo do ƒome kplii
-
-- [Ame ŋutɔ ƒe Nyatakakawo Xɔxɔ](https://zechub.wiki/zcash-tech/private-information-retrieval) - mɔnu bubu si dzi woato awɔ gakotoku ƒe scanning bottleneck ma ke
-- [Zakura Node ƒe ŋkɔ](https://zechub.wiki/zcash-tech/zakura-node) - node si wotu ƒe akpa aɖe tso Tachyon's mɔ̃ɖaŋudɔwɔwɔ ƒe agbagbadzedze me
-- [Ironwood](https://zechub.wiki/zcash-tech/ironwood) - ɖɔɖɔɖo si wɔ dɔ le July 2026 me, si wotɔtɔna zi geɖe kple Tachyon
-- [Turnstile ƒe ʋuƒoa](https://zechub.wiki/zcash-tech/the-turnstile) - mɔ̃ si Tachyon ateŋu azã ne woɖoe abe eya ŋutɔ ƒe ta ene
-- [Dedienɔnɔ le Quantum megbe](https://zechub.wiki/zcash-tech/post-quantum-security) - afisi Tachyon nɔa anyi ɖe ɖoɖowɔɖi ƒe dɔwɔwɔ si xɔa ɣeyiɣi didi wu xa
-- [Alesi Wowɔ Ðoɖo Ðe Zcash Ŋui](https://zechub.wiki/start-here/how-zcash-is-organized) - ame si le dɔ sia wɔm kple alesi lãwo ƒe agbenɔnɔ ƒe ɖoɖoa wɔ ɖeka
+**Nye ga le afɔku me ne Tachyon dze dzi oa?** Woatsɔ ɖoɖo va dze dzi to Orchard mɔ̃ ƒe sewo trɔtrɔ alo gaɖoɖowo ƒe xexlẽdzikpɔɖeƒe aɖe me; wo katã woɖoe be ga ƒe zãzã nadzɔ le dukɔme ƒe xexlẽɖoɖowo te. Ironwood ƒe axa la gblɔ ale si gaɖoɖowo ƒe xexlẽdzikpɔɖeƒe aɖe wɔa dɔe.
 
 <br/>
 
-## Nunɔamesiwo
+## Axawo siwo ƒe kadodo le eme
 
-- [Tachyon: Zcash ƒe dzidzeme kple Oblivious Synchronization](https://seanbowe.com/blog/tachyon-scaling-zcash-oblivious-synchronization/) - Sean Bowe, 2 April 2025, aɖaŋuɖoɖo gbãtɔ
-- [Tachyaction le Adzɔge ʋĩi](https://seanbowe.com/blog/tachyaction-at-a-distance/) - Sean Bowe, 15 May 2025, nukpɔsusu ɖeka kple ɖoɖowɔɖi ƒe gɔmesesewo, woŋlɔe na ɖoɖowɔɖi wɔlawo
-- [Sean Bowe's blog](https://seanbowe.com/blog/) - afisi wota Tachyon ƒe agbalẽ siwo kplɔ wo nɔewo ɖo le
-- [tachyon.z.ga si wotsɔna xɔa gae](https://tachyon.z.cash/) - dɔa ƒe teƒe
+- [Private Information Retrieval](https://zechub.wiki/zcash-tech/private-information-retrieval) - mɔ bubu aɖe na gakotoku ƒe scanning ƒe bottleneck ma
+- [Zakura Node](https://zechub.wiki/zcash-tech/zakura-node) - ɣaɣla dzesi ŋɔŋlɔ aɖe si wotu eƒe akpa aɖe tso Tachyon ƒe mɔ̃ ƒe ɖoɖoŋlɔla ƒe dɔ me
+- [Ironwood](https://zechub.wiki/zcash-tech/ironwood) - mɔ̃ ƒe sewo trɔtrɔ si dze dzi le July 2026, ame geɖewo bui be enye Tachyon
+- [The Turnstile](https://zechub.wiki/zcash-tech/the-turnstile) - mɔ si Tachyon ate ŋu azã ne woɖo eƒe dzi abe gaƒuƒoƒo tɔxɛ ene
+- [Post-Quantum Security](https://zechub.wiki/zcash-tech/post-quantum-security) - afi si Tachyon le le protocol ƒe dɔ siwo le ɣeyiɣi didi me gbɔ
+- [How Zcash Is Organized](https://zechub.wiki/start-here/how-zcash-is-organized) - ame siwo wɔ dɔ sia kple ale si ecosystem la ƒe akpawoe ƒoa nu ɖekae
+
+<br/>
+
+## Nudzɔdzɔwo
+
+- [Tachyon: Scaling Zcash with Oblivious Synchronization](https://seanbowe.com/blog/tachyon-scaling-zcash-oblivious-synchronization/) - Sean Bowe, 2 April 2025, ɖoɖo gbãtɔ
+- [Tachyaction at a Distance](https://seanbowe.com/blog/tachyaction-at-a-distance/) - Sean Bowe, 15 May 2025, consensus kple protocol ƒe emetsonuwo, woŋlɔe na protocol ƒe mɔ̃ ƒe ɖoɖoŋlɔlawo
+- [Sean Bowe's blog](https://seanbowe.com/blog/) - afi si woɖea Tachyon ƒe series la gbe dzi
+- [tachyon.z.cash](https://tachyon.z.cash/) - project ƒe site

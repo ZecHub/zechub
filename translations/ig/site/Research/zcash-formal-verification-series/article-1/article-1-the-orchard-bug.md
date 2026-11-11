@@ -1,208 +1,208 @@
 ![alt text](image-1.png)
-# Ọrịa Bekee a na-akpọ Orchard Bug: Mgbe Ihe Ndị E Ji Eme Nchọpụta Na-adịghị Mma n'Ọnụ
+# Njehie Orchard: Mgbe Sistemụ Proof Nwere Oghere
 
-### Otu esi eme ka usoro mgbakọ na mwepụ dị ntakịrị nwere ike ịmepụta ego a na-adịghị ahụ anya.
+### Otu ahịrị mgbakọ na mwepụ nke e mechiri emechi ezughị ezu pụrụ isi mepụta ego a na-adịghị ahụ anya na-enweghị oke
 
-> **Series:** *Formal Verification Series* · **Part 2 of 3** Ihe ndị a bụ ihe e dere na ya.
-> **Ndị na-ege ntị:** ndị bịara ọhụrụ. Akụkụ 1 webatara nyocha nke ọma; ebe a anyị zutere ezigbo ahụhụ mere ka ọ dị ngwa. A kọwara ihe niile achọrọ site na ncha.
-> **What you'll leave with:** an intuitive but accurate picture of how a cryptographic proof system can contain a soundness hole, exactly what the 2026 Zcash "Orchard" bug was, why this class of bug can hide for years, and why it has happened before.
+> **Usoro isiokwu:** *Usoro Nyocha Nhazi* · **Akụkụ 2 n'ime 3**
+> **Ndị e dere ya maka:** ndị mbido. Akụkụ 1 kọwara nyocha nhazi; ebe a, anyị zutere ezigbo njehie nke mere ka ọ dị ngwa ngwa. A kọwara ihe niile dị mkpa site na mmalite.
+> **Ihe ị ga-enweta:** nghọta dị mfe ma zie ezi banyere otu sistemụ cryptographic proof nwere ike isi nwee oghere na soundness, ihe njehie "Orchard" nke Zcash bụ kpọmkwem, ihe mere ụdị njehie a ji nwee ike izo ọtụtụ afọ, na ihe mere o ji mee na mbụ.
 
-In Part 1 we said testing can show the presence of bugs but never their absence, and that the most dangerous bugs live in a system's *specification*, its underlying math. This article is the case study. In 2026 a flaw was found in Zcash's Orchard shielded pool that could have let an attacker create unlimited counterfeit money invisibly. It had survived four years and repeated audits. Understanding it, and its predecessors, is the clearest possible motivation for proving systems correct.
-
----
-
-## 1. Gịnị mere o ji dị mkpa ka ị mata?
-
-Zcash is a cryptocurrency with a private mode. In its shielded pool, the amounts, senders, and receivers of transactions are **hidden**. This privacy is created using **zero-knowledge proofs**: cryptographic proofs that a transaction obeys all the rules, without revealing the transaction's contents.
-
-That design has a double edge. On a transparent ledger like Bitcoin's, if someone conjured coins from nothing, the inflated numbers would be visible to everyone, and the network could catch it and roll it back. In a shielded pool, the numbers are hidden by design. So if the proof system itself had a flaw that let an invalid transaction look valid, the counterfeiting would be **undetectable**. You could not spot it by inspecting the ledger, because the ledger is deliberately opaque.
-
-Nke ahụ bụ kpọmkwem ihe ize ndụ nke pụtara ìhè n'Orchard. Iji ghọta ya, ọ dị anyị mkpa ileba anya n'ime ihe a na-enyocha nyocha efu.
+N’Akụkụ 1, anyị kwuru na ule nwere ike igosi ịdị adị nke njehie ma ọ dịghị mgbe ọ pụrụ igosi enweghị ha, nakwa na njehie kachasị ize ndụ na-adị n’ime *nkowapụta* sistemụ, ya bụ, mgbakọ na mwepụ dị n’okpuru ya. Edemede a bụ ọmụmụ ikpe. N’afọ 2026, a chọpụtara ntụpọ n’ime pool nke e chebere echebe Orchard nke Zcash nke pụrụ ikwe ka onye mwakpo mepụta ego adịgboroja na-enweghị oke n’uzo a na-adịghị ahụ anya. Ọ lanarịrị afọ anọ na nyocha ugboro ugboro. Ịghọta ya, na ndị bu ya ụzọ, bụ mkpali kacha doo anya maka igosi na sistemụ ziri ezi.
 
 ---
 
-## 2. Ihe ọmụma: ihe akaebe dị mma nanị ma ọ bụrụ na o nwere ndepụta ndị a ga-eji chọpụta ya
+## 1. Gịnị mere ị ga-eji lekọta ya?
 
-Ọ bụrụ na onye ọrụ gọọmenti ahụ chọrọ ka e nye ya ikike ịgafe, ọ ga-eji aka ya mee ihe ndị a: Onye nlekọta nke ụlọ mkpọrọ nwere ike inye iwu n'ebe dị iche iche. O nweghịkwa akwụkwọ o ji edebanye aha mmadụ ma ọ bụ ebe ọzọ ha kwesịrị ịnọ tupu ya enwee ohere ime otú ahụ.
+Zcash bụ cryptocurrency nwere usoro nzuzo. N’ime pool ya nke e chebere echebe, a na-ezo ego, ndị zitere, na ndị natara Azụmahia. A na-emepụta Nzuzo a site n’iji **zero-knowledge proofs**: cryptographic proofs na-egosi na Azụmahia na-erube isi n’iwu niile, n’enweghị ikpughe ọdịnaya Azụmahia ahụ.
 
-Now suppose the checklist is missing one crucial box, say, "the passport is not expired." Almost everyone still fills it out honestly and nothing seems wrong. But a person with an expired passport can *also* tick every remaining box and sail through. The system looks fine in everyday use. The hole only matters to someone who goes looking for it.
+Nhazi ahụ nwere akụkụ abụọ. N’akwụkwọ ndekọ Oha dịka nke Bitcoin, ọ bụrụ na mmadụ eme ego site n’ihe efu, ọnụọgụ ndị toro eto ga-ahụ mmadụ niile, network ahụ nwekwara ike ijide ya ma weghachite ya azụ. N’ime pool nke e chebere echebe, a na-ezo ọnụọgụ ndị ahụ n’ụzọ e ji mee ya. Ya mere, ọ bụrụ na sistemụ proof n’onwe ya nwere ntụpọ nke na-ekwe ka Azụmahia na-adịghị irè yie nke irè, ịmepụta ego adịgboroja ahụ ga-abụ **ihe a na-apụghị ịchọpụta**. Ị pụghị ịhụ ya site n’ile akwụkwọ ndekọ ahụ, n’ihi na e mere ka akwụkwọ ndekọ ahụ ghara ido anya n’amaghị ama.
 
-A zero-knowledge proof works like that checklist. It does not reveal the private details; it checks that they satisfy a fixed set of conditions. And if one necessary condition is accidentally left out, then some invalid inputs can *also* pass, while everything continues to look normal.
-
-Ka anyị mee ka "ndepụta ọnọdụ" nke ọma, n'ihi na ọ bụ ebe ahụ kpọmkwem ahụhụ bi.
+Nke ahụ bụ kpọmkwem ihe ize ndụ nke pụtara n’ime Orchard. Iji ghọta ya, anyị kwesịrị ileba anya n’ihe zero-knowledge proof na-enyocha n’ezie.
 
 ---
 
-## 3. Mgbakọ na mwepụ: usoro ihe, nrụgide, na ịdị ike nke ngwá ọrụ ahụ
+## 2. Nghọta: proof dị naanị mma dịka ndepụta nlele ya
 
-Under the hood, the statement "this transaction is valid" is encoded as a **circuit**: a fixed collection of arithmetic conditions, called **constraints**, written as equations over numbers. To make a valid proof, the prover must supply secret values (the **witness**) that satisfy *every* constraint. The proof convinces a verifier that such a witness exists, without revealing it.
+Chee onye ọrụ ókèala nke ga-anabata ndị njem n’enweghị ịhụ akwụkwọ ha kpọmkwem. Kama nke ahụ, onye njem ọ bụla na-ejuputa **ndepụta nlele**, onye ọrụ ahụ na-anabatakwa onye ọ bụla akararị ihe niile dị na ndepụta ahụ. A haziri ndepụta ahụ ka *naanị onye njem ziri ezi nwere ike ịkara igbe ọ bụla.*
 
-Ihe onwunwe anyị chọrọ site na usoro a nwere aha:
+Ugbu a, were ya na otu igbe dị mkpa efu n’ime ndepụta ahụ, dịka, “paspọtụ agwụbeghị.” Ihe fọrọ nke nta ka ọ bụrụ mmadụ niile ka na-ejuputa ya n’eziokwu, ọ dịghịkwa ihe dị ka ọ dị njọ. Ma onye nwere paspọtụ agwụla nwekwara ike ịkara igbe niile fọdụrụ wee gafee nke ọma. Sistemụ ahụ dị ka ọ dị mma n’iji ya eme ihe kwa ụbọchị. Oghere ahụ dị mkpa naanị nye onye chọrọ ya kpọmkwem.
 
-> **Ike:** ọ ga-abụ ihe na agaghị ekwe omume inye ezigbo akaebe maka nkwupụta * ụgha. Naanị ezi okwu kwesịrị inwe ndị akaebe nke mejupụtara mgbochi niile.
+Zero-knowledge proof na-arụ ọrụ dịka ndepụta nlele ahụ. Ọ naghị ekpughe nkọwa nzuzo; ọ na-enyocha na ha mezuru otu ọnọdụ ndị e debere. Ọ bụrụkwa na ahapụrụ otu ọnọdụ dị mkpa n’amaghị ama, ụfọdụ ntinye na-adịghị irè nwekwara ike ịgafe, ebe ihe niile na-adịgide ka ọ na-adị.
 
-Eziokwu bụ ihe na-egbochi ịgha ụgha. Ọ bụrụ n'ezi okwu, ezigbo akaebe pụtara "ezigbo azụmahịa nke iwu kwadoro mere". Ọ bụrụ na ezi uche nwere oghere, ezigbo ihe àmà enweghị ike ịbụ ihe ọ bụla ma ọlị.
+Ka anyị mee ka “ndepụta ọnọdụ” doo anya, n’ihi na ebe ahụ bụ kpọmkwem ebe njehie ahụ dị.
 
-### Ihe mgbochi na-efu (ihe atụ a kwadoro)
+---
 
-Ihe mgbochi na-achọkarị ịmanye uru ka ọ dị mfe. Otu ihe atụ a ma ama: mee ka ọnụ ahịa sie ike `b` ịbụ otu ** bit**, ma ọ bụ `0` or `1`Ụzọ a na-eme nke a bụ otu ihe mgbochi:
+## 3. Mgbakọ na mwepụ: circuits, constraints, na soundness
+
+N’okpuru ihe niile, a na-etinye okwu “Azụmahia a ziri ezi” n’ime **circuit**: nchịkọta ọnọdụ mgbakọ na mwepụ a kapịrị ọnụ, nke a na-akpọ **constraints**, ndị e dere dịka arụmarụ n’elu ọnụọgụ. Iji mee proof ziri ezi, prover ga-enye ụkpụrụ nzuzo (nke a na-akpọ **witness**) na-emezu *constraint* ọ bụla. Proof ahụ na-eme ka verifier kwenye na witness dị otu a dị, n’enweghị ikpughe ya.
+
+Njirimara anyị chọrọ n’aka sistemụ a nwere aha:
+
+> **Soundness:** ọ ga-abụrịrị ihe na-agaghị ekwe omume ime proof ziri ezi maka okwu *ụgha*. Naanị okwu eziokwu kwesịrị inwe witnesses na-emezu constraints niile.
+
+Soundness bụ nkwa megide ime ego adịgboroja. Ọ bụrụ na soundness dị, proof ziri ezi pụtara n’ezie na “Azụmahia dị adị nke na-erube iwu isi emeela.” Ọ bụrụ na soundness nwere oghere, proof ziri ezi nwere ike ọ gaghị apụta ihe ọ bụla.
+
+### Ihe constraint furu efu na-eme (ihe atụ enyochala)
+
+Constraints na-achọkarị ịmanye uru ka ọ dị mfe. Otu ihe atụ a na-ahụkarị: ịmanye uru `b` ka ọ bụrụ naanị **bit** otu, ya bụ, `0` ma ọ bụ `1`. Ụzọ ọkọlọtọ e si eme nke a bụ otu constraint:
 
 ```
 b × (b − 1) = 0
 ```
 
-Ihe kpatara ya bụ na ọnụọgụ nke otu n'ime ihe ndị ọ ga-eji mụbaa ọnụ ọgụgụ ahụ, ma bụrụkwa naanị zero. `b × (b − 1) = 0` ike ndị ọzọ. `b = 0` or `b = 1`, and nothing else. Checking every value from 0 to 16 (in arithmetic that wraps around at 17), the *only* values satisfying it are exactly **0 and 1**. ✓
+Gịnị mere o ji arụ ọrụ? Ngwaahịa bụ efu naanị mgbe otu n’ime ihe mejupụtara ya bụ efu. Ya mere `b × (b − 1) = 0` na-amanye `b = 0` ma ọ bụ `b = 1`, ọ dịghịkwa ihe ọzọ. Mgbe a nyochara uru ọ bụla site na 0 ruo 16 (na mgbakọ na mwepụ nke na-alaghachi n’azụ na 17), *naanị* uru ndị na-emezu ya bụ **0 na 1** kpọmkwem. ✓
 
-Ugbu a chee na ahịrị ahụ bụ ** accidentally hapụrụ si** nke circuit. mberede `b` Onye na-adịghị akwụwa aka ọtọ nwere ike itinye ihe ọ chọrọ n'ọrụ. `b` to `5`, or `9`, ma ọ bụ ihe ọbụla, ma ka na-emeju iwu ndị fọdụrụnụ. Otu ahịrị ahụ furu efu bụ ọdịiche nke ezi uche: nkwupụta ụgha ugbu a nwere ndị akaebe dị mma.
+Ugbu a, were ya na ahapụrụ ahịrị ahụ n’ime circuit **n’amaghị ama**. Na mberede, `b` enweghị constraint. Prover na-adịghị akwụwa aka ọtọ nwere ike idobe `b` ka ọ bụrụ `5`, ma ọ bụ `9`, ma ọ bụ ihe ọ bụla, ma ka na-emezu constraints ndị fọdụrụ. Otu ahịrị ahụ furu efu bụ **oghere soundness**: okwu ụgha enweela witnesses na-emezu ihe achọrọ.
 
-This is not a hypothetical. A missing boolean constraint of exactly this kind was found in Zcash's very first shielded design, Sprout, during development, and fixed before launch. Under-constraining is one of the most common and dangerous mistakes in building these circuits.
+Nke a abụghị echiche efu. A chọpụtara constraint boolean furu efu nke ụdị a kpọmkwem n’ime nhazi mbụ nke e chebere echebe nke Zcash, Sprout, n’oge mmepe, e dozikwara ya tupu mmalite. Ịhapụ constraints ezughị ezu bụ otu n’ime mmejọ a na-ahụkarị ma dị ize ndụ n’iwulite circuits ndị a.
 
 ![alt text](image-2.png)
 
-Nke a bụ ụdị ahụhụ Orchard n'ozuzu ya, na obere nha. Ugbu a ọ bụ ezigbo ihe ahụ.
+Nke a bụ ọdịdị niile nke njehie Orchard, n’ọ̀tụ̀tụ̀ dị nta. Ugbu a, ka anyị gaa n’ihe mere n’eziokwu.
 
 ---
 
-## 4. Ihe ahụhụ Orchard bụ n'ezie
+## 4. Ihe njehie Orchard bụ n’ezie
 
-Ihe akaebe nke Zcash na-ewulite ** elliptic curves, ihe ndị nwere ike ijikọta ọnụ ọgụgụ ha ma "ba ụba" site n'ọnụ ọgụgụ, arụmọrụ sekit ahụ ga - eme ka ọ bụrụ nkwụsị. Ọdịiche dị iche iche gụnyere ngwaọrụ ndị na - arụ ọrụ mmụba elu elu (elliptic) wee chọpụta na e mere ya n'ụzọ ziri ezi.
+A na-ewu proofs nke e chebere echebe nke Zcash n’elu **elliptic curves**, ihe mgbakọ na mwepụ nke enwere ike ijikọta isi ihe ha na “ịmụba” ha site n’ọnụọgụ, arụmọrụ ndị circuit kwesịrị iji constraints manye. Circuit ahụ nwere ngwaọrụ na-eme **elliptic-curve multiplication** ma na-enyocha na e mere ya nke ọma.
 
-Dabere na nkwupụta nke Shielded Labs na onye nyocha Taylor Hornby, ntụpọ Orchard bụ kpọmkwem:
+Dịka mkpughe nke Shielded Labs na onye nyocha Taylor Hornby siri kwuo, ntụpọ Orchard bụ kpọmkwem nke a:
 
-> Ihe na-ejighi oke nke Orchard circuit mere ka o kwe omume inye ** ntinye ụgha n'ime mmụba elliptic curve ma nwee akara nyocha ọnụọgụ.**
+> Otu **element nke circuit Orchard nke constraint ya ezughị ezu** mere ka o kwe omume itinye **ntinye ụgha ọ bụla n’ime elliptic-curve multiplication, ma mee ka nlele multiplication ahụ ka gafee.**
 
-In plain terms, the circuit's checklist was missing the boxes that should have pinned down that multiplication. Because of the gap, a sufficiently expert attacker could construct a transaction proof that the system would accept even though the transaction created value from nothing. That is **counterfeiting**, and because amounts in the shielded pool are hidden, it would have been **undetectable** from the ledger. The Tachyon team later described the same flaw at the code level as missing lines in the circuit that quietly scrambled the underlying equations.
+N’okwu dị mfe, ndepụta nlele nke circuit ahụ enweghị igbe ndị kwesịịrị ịkpọchi multiplication ahụ n’ọnọdụ ya. N’ihi oghere ahụ, onye mwakpo maara nke ọma pụrụ iwulite proof Azụmahia nke sistemụ ga-anabata n’agbanyeghị na Azụmahia ahụ kere uru site n’ihe efu. Nke ahụ bụ **ime ego adịgboroja**, ma n’ihi na a na-ezo ego dị n’ime pool nke e chebere echebe, ọ ga-abụ **ihe a na-apụghị ịchọpụta** site n’akwụkwọ ndekọ ahụ. Ndị otu Tachyon mechara kọwaa otu ntụpọ ahụ n’ọkwa koodu dịka ahịrị furu efu n’ime circuit nke ji nwayọọ gbaghaa arụmarụ ndị dị n’okpuru.
 
-Ihe yiri akụkọ anyị na-ekwu banyere ndepụta ndị a bụ eziokwu:
+Myirịta dị n’etiti ya na akụkọ ndepụta nlele anyị bụ nke ziri ezi:
 
-| Akụkọ ndepụta ihe nlele | Ahụhụ Orchard |
+| Akụkọ ndepụta nlele | Njehie Orchard |
 |---|---|
-| Igbe "paspọtụ ahụ agwụbeghị" furu efu | Mmachi na-efu na mmụba nke usoro elliptic-curve |
-| Onye njem paspọtụ ochie gafere | Ntinye ụgha na-enweghị aka na-agafe nyocha mmụba |
-| Mmadụ niile enweghị mmetụta ọ bụla, yabụ ọ dịghị ihe dị njọ | Azụmahịa nkịtị rụrụ ọrụ nke ọma, na-ezochi ntụpọ ahụ |
-| Naanị onye na-achọ ya na-achọta oghere ahụ | Ọ chọrọ ọkachamara inyocha mgbakọ na mwepụ nke sekit ahụ nke ọma |
+| Igbe “paspọtụ agwụbeghị” furu efu | Constraint furu efu n’elu elliptic-curve multiplication |
+| Onye njem nwere paspọtụ agwụla gafere agbanyeghị | Ntinye ụgha ọ bụla na-agafe nlele multiplication |
+| Ọ dịghị ihe metụtara ndị ọzọ, yabụ ihe ọ bụla adịghị ka ọ dị njọ | Azụmahia nkịtị rụrụ ọrụ nke ọma, na-ezo ntụpọ ahụ |
+| Naanị onye na-achọ ya ka na-achọta oghere ahụ | Ọ chọrọ ka ọkachamara kpachaara anya nyochaa mgbakọ na mwepụ circuit ahụ |
 
-Iji mee ka o doo anya etu nke a siri dị njọ: onye nyocha ahụ, site na enyemaka AI, dere * ọrụ zuru oke* ma kwado ya n'ime netwọkụ nnwale mpaghara ọ mepụtara mkpụrụ ego adịgboroja enweghị njedebe. Nke a bụ ezigbo ntụpọ nwere ike ịkpafu, ọ bụghị nchegbu echiche.
+Iji mee ka ịdị njọ ya doo anya: onye nyocha ahụ, site n’enyemaka AI, dere *exploit zuru ezu na-arụ ọrụ* ma kwado n’ime network ule dị n’ógbè na ọ mepụtara mkpụrụ ego adịgboroja na-enweghị oke, nke a na-apụghị ịchọpụta. Nke a bụ ntụpọ dị adị ma nwee ike irigbu, ọ bụghị naanị nchegbu echiche.
 
 ---
 
-## 5. Ihe mere o ji zoo ruo afọ anọ
+## 5. Ihe mere o ji zoo afọ anọ
 
-The bug lived in Orchard from its activation in **May 2022** until the emergency fix in **June 2026**, through repeated professional audits by some of the world's best cryptographers. How?
+Njehie ahụ biri n’ime Orchard site n’oge e mere ka ọ rụọ ọrụ n’ime **Mee 2022** ruo mmezi mberede n’ime **Juun 2026**, gafee nyocha ọkachamara ugboro ugboro nke ụfọdụ cryptographers kacha mma n’ụwa. Olee otu?
 
-Because, as Part 1 warned, **testing samples cases, and this flaw lived in a case nobody sampled.** Ordinary transactions never exercised the missing constraint, so every test passed and every day of normal operation looked flawless. The flaw was reachable only by deliberately constructing an unusual witness aimed squarely at the gap. It was ultimately found not by running tests but by *reasoning about the circuit's mathematics*.
+N’ihi na, dịka Akụkụ 1 dọrọ aka ná ntị, **ule na-ahọrọ ụfọdụ ikpe, ebe ntụpọ a biri n’ime ikpe onye ọ bụla na-ahọrọghị.** Azụmahia nkịtị anaghị eji constraint furu efu ahụ, yabụ ule ọ bụla gafere, ụbọchị ọ bụla nke ọrụ nkịtị yikwara enweghị ntụpọ. Enwere ike iru ntụpọ ahụ naanị site n’ịkpacha anya wulite witness pụrụ iche kpọmkwem maka oghere ahụ. N’ikpeazụ, a chọpụtara ya ọ bụghị site n’ịgba ule kama site n’*ịtụgharị uche banyere mgbakọ na mwepụ circuit ahụ*.
 
-The discovery itself is a sign of where security is heading. In April 2026, Shielded Labs engaged security researcher **Taylor Hornby** specifically to hunt for exactly this kind of flaw. Shortly after a new frontier AI model (Anthropic's Claude Opus 4.8) was released in late May 2026, Hornby used it, together with a custom analysis harness and traditional methods, in a targeted review of the Orchard circuit. On **May 29, 2026**, the review found the vulnerability.
+Nchọpụta ahụ n’onwe ya bụ ihe ịrịba ama nke ebe nchekwa na-aga. N’Ọnwa Eprel 2026, Shielded Labs kpọrọ onye nyocha nchekwa **Taylor Hornby** kpọmkwem ka ọ chọọ ụdị ntụpọ a. N’oge na-adịghị anya mgbe e wepụtara frontier AI model ọhụrụ (Anthropic's Claude Opus 4.8) n’ikpeazụ Mee 2026, Hornby jiri ya, tinyere harness nyocha omenala na usoro ọdịnala, mee nyocha lekwasịrị anya na circuit Orchard. N’ụbọchị **Mee 29, 2026**, nyocha ahụ chọpụtara vulnerability ahụ.
 
-Eziokwu abụọ dị mkpa site na mkpughe ahụ kwesịrị ka ekwupụta ya n'ụzọ doro anya:
+Eziokwu abụọ doro anya sitere na mkpughe ahụ kwesịịrị ikwupụta n’ụzọ kwụ ọtọ:
 
-- Ndi otu achoputaghi **ihe akaebe** na emebipu nje a, ma chee na odighi ike ime ihe tupu ya (o ghagburu afọ nke nyocha ndị ọkachamara, wee chọta site n'ịgba mbọ ọcha). Ma ọdịdị dị iche iche nke * adịghị ahụ anya pụtara na akwụkwọ ndekọ naanị enweghị ike igosi kpamkpam ọ dịghị mgbe ọ mere.
-- Nchọpụta ahụ kpatara ọgba aghara dị ukwuu, gụnyere ọdịda siri ike na ọnụahịa nke akụ ahụ, kpọmkwem n'ihi * ohere * nke ịgha ụgha zoro ezo bụ ihe dị njọ maka ego.
+- Ndị otu ahụ ahụghị **ihe akaebe** na e jirila njehie ahụ mee ihe, ha weere na o yighị ka e jirila ya mee ihe na mbụ (ọ gabigala ọtụtụ afọ nke nyocha ọkachamara, a chọpụtakwara ya site n’ọrụ white-hat kpachaara anya). Ma ọdịdị nke ntụpọ *a na-apụghị ịchọpụta* pụtara na akwụkwọ ndekọ naanị ya enweghị ike igosi kpamkpam na ọ dịghị mgbe o mere.
+- Nchọpụta ahụ kpatara nnukwu ọgba aghara, tinyere ọdịda dị nkọ n’ọnụ ahịa akụ ahụ, kpọmkwem n’ihi na *ohere* nke ime ego adịgboroja ezoro ezo dị oke njọ nye ego.
 
 ![alt text](image-3.png)
 
 ---
 
-## Nke a abụghị nke mbụ.
+## 6. Nke a abụghị oge mbụ
 
-The Orchard bug belongs to a recurring family, and seeing that family is what makes formal verification feel not optional but inevitable. A counterfeiting flaw always traces to one of three sources (the taxonomy from Part 1): the **specification** (the math itself), the **implementation** (code failing to follow correct math), or a **broken assumption**. And crucially:
+Njehie Orchard so n’ezinụlọ njehie na-alaghachi ugboro ugboro, ịhụ ezinụlọ ahụ bụ ihe na-eme ka nyocha nhazi ghara ịdị ka nhọrọ kama ihe a na-apụghị izere. Njehie ime ego adịgboroja na-esite mgbe niile n’otu n’ime ebe atọ (taxonomi sitere n’Akụkụ 1): **nkowapụta** (mgbakọ na mwepụ n’onwe ya), **mmejuputa** (koodu anaghị eso mgbakọ na mwepụ ziri ezi), ma ọ bụ **echiche dara ada**. Nke kachasị mkpa:
 
-> A counterfeiting bug is **undetectable** only if it lives in the **specification**. Implementation bugs leave permanent public evidence, because every block records the full contents of every transaction, so replaying history through corrected software would expose any transaction the buggy code wrongly accepted.
+> Njehie ime ego adịgboroja bụ **ihe a na-apụghị ịchọpụta** naanị ma ọ bụrụ na ọ dị n’ime **nkowapụta**. Njehie mmejuputa na-ahapụ ihe akaebe ọha na-adịgide adịgide, n’ihi na block ọ bụla na-edekọ ọdịnaya zuru ezu nke Azụmahia ọ bụla, yabụ ịgaghachi akụkọ ihe mere eme site na software e deziri ga-ekpughe Azụmahia ọ bụla koodu nwere njehie nakweere n’ụzọ na-ezighị ezi.
 
-Akụkọ nke Zcash n'onwe ya na-egosi usoro a:
+Akụkọ nke Zcash n’onwe ya na-egosi usoro a:
 
-| Ahụhụ (afọ) | Isi mmalite | A na-achọpụta ya? |
+| Njehie (afọ) | Ebe o si | A pụrụ ịchọpụta? |
 |---|---|---|
-| Enweghị ntụpọ nkwa efu (2016, tupu mmalite) | Nkọwapụta (hash e gbubiri agbajiela ihe onwunwe njikọ) | Apụghị ịchọpụta |
-| Nkwụsị ịdị mma nke ntọala a tụkwasịrị obi (2018) | Nkọwapụta (mmejọ dị na akwụkwọ zk-SNARK dị n'okpuru) | Apụghị ịchọpụta |
-| Nsogbu ajụjụ sistemụ na-egosi (2025) | Nkọwapụta (nlele na-efu na sistemụ nnwale) | A pụrụ ịchọpụta |
-| Nsogbu nkwenye nke otu obere-uwe (2016) | Mmejuputa (nlele obere otu na-efu) | A pụrụ ịchọpụta |
-| **Orchard anaghị achịkwa (2026)** | **Nkọwapụta (sekit ahụ)** | **Achọpụtaghị** |
+| Njehie Zerocash commitment (2016, tupu mmalite) | Nkowapụta (hash e belatara mebiri njirimara binding) | Enweghị ike ịchọpụta |
+| Njehie soundness trusted setup (2018) | Nkowapụta (mmejọ dị n’akwụkwọ zk-SNARK dị n’okpuru) | Enweghị ike ịchọpụta |
+| Nkukota query sistemụ proving (2025) | Nkowapụta (nlele furu efu n’ime sistemụ proof) | Enwere ike ịchọpụta |
+| Njehie validation curve-subgroup (2016) | Mmejuputa (nlele subgroup furu efu) | Enwere ike ịchọpụta |
+| **Multiplication Orchard nke constraint ya ezughị ezu (2026)** | **Nkowapụta (circuit)** | **Enweghị ike ịchọpụta** |
 
-The through-line is stark: the flaws that could hide forever are the ones in the math. That is precisely the class a machine-checked proof of the specification can eliminate, all cases at once. Testing and auditing sample; only proving the math covers every input.
-
----
-
-## 7. Ihe ndị mmadụ mere mgbe ha nụrụ ozi ọma ahụ.
-
-Ndị mmepe nke Zcash na-aga ngwa ngwa ma n'usoro:
-
-1. **Mgbasa ozi mberede (site na June 1-2, 2026).** N'ime ụbọchị ole ekpughere ya, nkwalite netwọkụ nke ihe mberede mechiri windo adịghị ike ahụ, tinye mgbochi ndị a na-efu ka mgbakọ sekit wee bụrụ ụda ọzọ.
-2. ** Mmalite ọhụrụ, nke a pụrụ igosi ("Ironwood", arụ ọrụ July 28, 2026).** Kama ịtụkwasị obi na mbipute ochie ahụ echekwara ruo mgbe ebighi ebi, obodo bidoro ọdọ mmiri ọhụụ kpuchiri ekpuchi, Ironwood, dabere na sekit e mezigharịrị mana ịmalite dị ọcha, yana ihe ngosi nyocha igwe.
-
-Nzọụkwụ nke abụọ ahụ bụ ebe nyocha akwụkwọ na-abanye n'akụkọ, ọ bụkwa isiokwu nke Nkebi 3. Ọfụma ndị otu a mere ihe kwesịrị ịlele anya, n'ihi na ọ jikọtara usoro niile ọnụ:
-
-> An *undetectable* counterfeiting flaw can only live in the protocol's **specification**. So if you can **prove the specification** rules out counterfeiting, you eliminate the entire class of bug that hid here for four years.
-
-Nke ahụ bụ kpọmkwem ogidi-otu echiche si Part 1: nyochaa nkọwapụta, na ị mechie ọdịiche na ule nwere ike mgbe.
+Ihe jikọrọ ha pụtara ìhè: ntụpọ ndị nwere ike izo ruo mgbe ebighị ebi bụ ndị dị n’ime mgbakọ na mwepụ. Nke ahụ bụ kpọmkwem ụdị proof igwe nyochara nke nkowapụta nwere ike iwepu, maka ikpe niile n’otu mgbe. Ule na nyocha na-ahọrọ ihe atụ; naanị igosi mgbakọ na mwepụ na-ekpuchi ntinye ọ bụla.
 
 ---
 
-## 8. Onye na-ekwu eziokwu mgbe ọ bụla o kwuru ihe ga-eme ka a ghara ijide ya.
+## 7. Nzaghachi
 
-We simplified deliberately. The real circuit involves hundreds of regions and many thousands of constraints, and the actual flaw is more technically intricate than a single missing bit-check; we used the bit-check because it shows the *shape* of an under-constrained circuit exactly, and because that exact mistake is real in Zcash's history. The precise Orchard flaw was an under-constrained elliptic-curve multiplication, as stated in the official disclosure. We also compressed the disclosure and remediation timeline. For the authoritative technical account, consult the Shielded Labs disclosure and the Project Tachyon writeups.
+Ndị onye mmepụta nke Zcash mere ngwa ngwa n’usoro:
 
----
+1. **Mmezi mberede (ka ọ na-erule Juun 1-2, 2026).** N’ime ụbọchị ole na ole mgbe mkpughe gasịrị, network upgrade mberede mechiri oge vulnerability ahụ, tinye constraints furu efu ka mgbakọ na mwepụ circuit ahụ dịzie na soundness ọzọ.
+2. **Mmalite ọhụrụ, a pụrụ igosi (“Ironwood,” nke arụpụtara na Julaị 28, 2026).** Kama ịtụkwasị ụdị pool ochie e meziri obi ruo mgbe ebighị ebi, obodo ahụ malitere pool ọhụrụ nke e chebere echebe, Ironwood, dabere na circuit e deziri ma malite n’ụzọ dị ọcha, tinyere proof ziri ezi nke igwe nyochara.
 
-## 9. Nchịkọta nke Ihe Ndị E Dere na Ya
+Nzọụkwụ nke abụọ ahụ bụ ebe nyocha nhazi batara n’akụkọ a, ọ bụkwa isiokwu Akụkụ 3. Nghọta ndị otu ahụ tinyere n’ọrụ kwesịrị ka e buru ụzọ hụ, n’ihi na ọ na-ejikọta usoro isiokwu a niile:
 
-- Ebe nchekwa Zcash na-ezobe ego site n'iji ihe akaebe nke enweghị ihe ọmụma, yabụ ntụpọ dị na ihe àmà ndị ahụ nwere ike ime ka ịgha ụgha a na-adịghị ahụ anya.
-- Usoro nkwenye na-enyocha **circuit** nke **constraints**; ihe dị mkpa ya bụ **ike: naanị ezi nkwupụta kwesịrị inwe afọ ojuju ***.
-- **Missing constraint** na-eme ka a ghara inwe ezi okwu, nke mere ka nkwupụta ụgha gafere. (Ejiri ihe eji egwuri egwu: `b(b−1)=0` ike ndị ọzọ. `b` gaa na 0 ma ọ bụ 1; dobe ya, wee wụnye. `b` nwere ike ịbụ ihe ọ bụla. Ụdị nke a bụ eziokwu na akụkọ Zcash.)
-- **Orchard bug** bụ ihe a na-ejighị n'aka elliptic curve multiplication: ntinye ụgha nwere ike ịgafe nyocha ịba ụba, na -eme ka enweghị njedebe, mmebi iwu. A gosipụtara ọrụ arụ ọrụ na netwọkụ nnwale.
-- It hid for **four years** (May 2022 to June 2026) because testing samples cases and never sampled it; it was found by reasoning about the math, with AI assistance, on May 29, 2026.
-- Nkọwapụta a na-enweghị ike ịchọta naanị nwere ike ibi n'ime nkọwa, Zcash ahụla ezinụlọ nke ahụhụ tupu. Zcash zara ya site na ndozi mberede yana ọdọ mmiri ọhụrụ, ** Ironwood ** , isiokwu nke Nkebi 3.
+> Njehie ime ego adịgboroja *a na-apụghị ịchọpụta* nwere ike ịdị naanị n’ime **nkowapụta** protocol. Ya mere, ọ bụrụ na ị pụrụ **igosi na nkowapụta ahụ** ewepụla ime ego adịgboroja, ị na-ewepu ezinụlọ njehie niile zoro ebe a afọ anọ.
+
+Nke ahụ bụ kpọmkwem echiche ogidi nke mbụ sitere n’Akụkụ 1: nyochaa nkowapụta ahụ, ị mechiekwa oghere nke ule enweghị ike imechi.
 
 ---
 
-## Akwụkwọ ọkọwa okwu
+## 8. Nkwupụta eziokwu
 
-| Oge okwu | Nkọwa Bekee dị mfe |
+Anyị mere ka ihe dị mfe n’amaghị ama. Circuit nke bụ eziokwu nwere ọtụtụ narị mpaghara na ọtụtụ puku constraints, ntụpọ n’ezie dịkwa mgbagwoju anya karịa otu nlele bit furu efu; anyị jiri nlele bit n’ihi na ọ na-egosi *ụdị* circuit constraint ya ezughị ezu kpọmkwem, nakwa n’ihi na mmejọ ahụ kpọmkwem dị adị n’akụkọ Zcash. Njehie Orchard kpọmkwem bụ elliptic-curve multiplication nke constraint ya ezughị ezu, dịka e kwuru n’ime mkpughe gọọmenti. Anyị mekwara ka usoro oge mkpughe na mmezi dị mkpirikpi. Maka nkọwa teknụzụ nwere ikike, lee mkpughe Shielded Labs na ederede Project Tachyon.
+
+---
+
+## 9. Nchịkọta
+
+- Pool nke e chebere echebe nke Zcash na-ezo ego site n’iji **zero-knowledge proofs**, yabụ ntụpọ n’ime proofs ndị ahụ pụrụ ime ka **ime ego adịgboroja a na-adịghị ahụ anya** kwe omume.
+- Sistemụ proof na-enyocha **circuit** a kapịrị ọnụ nke **constraints**; njirimara ya dị oke mkpa bụ **soundness**: naanị okwu eziokwu kwesịrị inwe **witness** na-emezu ihe achọrọ.
+- **Constraint furu efu** na-emepụta **oghere soundness**, na-ekwe ka okwu ụgha gafee. (Ihe egwuregwu enyochala: `b(b−1)=0` na-amanye `b` ka ọ bụrụ 0 ma ọ bụ 1; hapụ ya, `b` nwekwara ike ịbụ ihe ọ bụla. Otu ụdị njehie a kpọmkwem dị adị n’akụkọ Zcash.)
+- **Njehie Orchard** bụ **elliptic-curve multiplication nke constraint ya ezughị ezu**: ntinye ụgha ọ bụla nwere ike ịgafe nlele multiplication ahụ, na-eme ka ime ego adịgboroja na-enweghị oke, nke a na-apụghị ịchọpụta kwe omume. E gosipụtara exploit na-arụ ọrụ n’ime network ule.
+- Ọ zoro **afọ anọ** (Mee 2022 ruo Juun 2026) n’ihi na ule na-ahọrọ ikpe ma ọ dịghị mgbe ha họọrọ ya; a chọpụtara ya site n’ịtụgharị uche banyere mgbakọ na mwepụ, site n’enyemaka AI, n’ụbọchị Mee 29, 2026.
+- Ime ego adịgboroja a na-apụghị ịchọpụta nwere ike ịdị naanị n’ime **nkowapụta**, Zcash ahụla ezinụlọ njehie a na mbụ. Zcash zara ya site na mmezi mberede na pool ọhụrụ e nyochara n’usoro nhazi, **Ironwood**, nke bụ isiokwu Akụkụ 3.
+
+---
+
+## Nkọwa okwu
+
+| Okwu | Ihe ọ pụtara n’asụsụ dị mfe |
 |---|---|
-| **Shielded pool** | Ụdị Zcash nkeonwe ebe a na-ezobe ego na oriri |
-| **Zero-knowledge proof** | Ihe akaebe na nkwupụta zoro ezo dị irè, na-ekpughe ihe ọ bụla ọzọ |
-| **Circuit** | Ntọala ọnọdụ mgbakọ na mwepụ edobere nke azụmahịa ziri ezi ga-emezurịrị |
-| **Constraint** | Otu ọnọdụ (nha nhata) n'ime sekit ahụ |
-| **Witness** | Ụkpụrụ nzuzo ndị na-emezu ihe mgbochi ndị ahụ |
-| **Soundness** | Nkwa na naanị eziokwu nwere ike imepụta ihe akaebe ziri ezi |
-| **Soundness gap** | Mmachi na-efu efu nke na-ekwe ka okwu ụgha gafere |
-| **Under-constrained** | Sekit na-efu ọnọdụ ọ chọrọ, mgbọrọgwụ nke ahụhụ Orchard |
-| **Detectable / undetectable** | Ma mmegbu ọ ga-ahapụ ihe akaebe ledger ọha |
+| **Shielded pool** | Usoro nzuzo nke Zcash ebe a na-ezo ego na ndị so na ya |
+| **Zero-knowledge proof** | Proof na-egosi na okwu zoro ezo ziri ezi, n’ekpugheghị ihe ọzọ |
+| **Circuit** | Nchịkọta ọnọdụ mgbakọ na mwepụ a kapịrị ọnụ nke Azụmahia ziri ezi ga-emezurịrị |
+| **Constraint** | Otu ọnọdụ (arụmarụ) dị n’ime circuit |
+| **Witness** | Uru nzuzo ndị na-emezu constraints |
+| **Soundness** | Nkwa na naanị okwu eziokwu nwere ike ịmepụta proof ziri ezi |
+| **Soundness gap** | Constraint furu efu nke na-ekwe ka okwu ụgha gafee |
+| **Under-constrained** | Circuit nke ọnọdụ dị mkpa furu efu, mgbọrọgwụ njehie Orchard |
+| **Detectable / undetectable** | Ma irigbu ya ga-ahapụ ihe akaebe n’akwụkwọ ndekọ ọha ma ọ bụ na ọ gaghị ahapụ |
 
 ---
 
-## Ajụjụ ndị a na-ajụkarị
+## Ajụjụ a na-ajụkarị
 
-**Ejirila Zcash adịgboroja?**
-No evidence of exploitation was found, and the team considers it unlikely. But because the flaw would have been undetectable from the ledger, the ledger alone cannot fully prove it never happened, which is why the response was so thorough.
+**E mepụtara Zcash adịgboroja n’ezie?**  
+Ahụghị ihe akaebe na e jirila ya mee ihe, ndị otu ahụ weere na o yighị ka e jiri ya mee ihe. Ma ebe ntụpọ ahụ agaghị enwe ike ịchọpụta site n’akwụkwọ ndekọ, akwụkwọ ndekọ naanị ya enweghị ike igosi kpamkpam na ọ dịghị mgbe o mere, nke mere nzaghachi ahụ ji zuo oke.
 
-**Gịnị mere izochi ego ji eme ka ahụhụ dị njọ?**
-Mgbe e zoro ego ndị dị n'ime ya maka ihe nzuzo, nje na-emepụta mkpụrụ ego adịgboroja adịghị emepụta nsogbu ọ bụla a pụrụ ịhụ anya, nke mere o ji anọgide bụrụ onye a na-adịghị ahụ.
+**Gịnị mere izo ego ji eme ka njehie ka njọ?**  
+N’ime chain Oha, mkpụrụ ego e mepụtara na-apụta ìhè, a pụkwara ijide ma weghachite ha azụ. Mgbe e zoro ego maka Nzuzo, njehie ime ego adịgboroja anaghị emepụta ihe ọ bụla a na-ahụ anya na-adịghị nkịtị, yabụ o nwere ike ịdịgide n’enweghị onye hụrụ ya.
 
-** Gịnị mere ọtụtụ afọ nke nyocha ejideghị ya?**
-Nyocha na ule n'ụzọ dị ukwuu nyochaa omume na ezigbo ikpe. Nke a ntụpọ naanị pụtara ìhè n'okpuru ụma crafted, pụrụ iche ọsọ ọsọ ezubere iji mgbakọ na mwepụ ihu ikpe, nke usoro nnyocha e mere adịghị egosipụta. Ọ chọpụtara site lekwasịrị echiche banyere circuit, ọ bụghị site ule.
+**Gịnị mere ọtụtụ afọ nke nyocha anaghị ejide ya?**  
+Nnyocha na ule na-enyochakarị omume n’ime ikpe ndị yiri nke eziokwu. Njehie a pụtara naanị n’okpuru ntinye a kpachaara anya rụọ, pụrụ iche, nke lekwasịrị anya n’ọnọdụ mgbakọ na mwepụ pụrụ iche, nke nyocha nkịtị anaghị eji. A chọpụtara ya site n’ịtụgharị uche lekwasịrị anya n’ime circuit, ọ bụghị site n’ule.
 
-** Ọ bụ n'ezie ihe na-efu mgbochi niile ọ chọrọ?**
-Ee. usoro ihe akaebe siri ike dịka oke mgbochi ya zuru ezu otu ọnọdụ dị mkpa a hapụrụ ezuru iji mee ka nkwupụta na-abaghị uru gafere.
+**Otu constraint furu efu ò zuru ezu n’ezie?**  
+Ee. Sistemụ proof dị naanị ike dịka constraints ya zuru ezu. Otu ọnọdụ dị mkpa ahapụrụ ezuru iji kwe ka okwu na-adịghị irè gafee.
 
-**Kedu ihe AI mere?**
-A researcher used a frontier AI model together with a custom harness and traditional methods to review the circuit's math and find the flaw. AI is increasingly used on both sides of security, which is part of why proving systems correct now matters so much.
+**Kedu ọrụ AI rụrụ?**  
+Onye nyocha jiri frontier AI model, tinyere harness omenala na usoro ọdịnala, nyochaa mgbakọ na mwepụ circuit ahụ ma chọta ntụpọ ahụ. A na-eji AIwanye eme ihe n’akụkụ abụọ nke nchekwa, nke bụ akụkụ nke ihe mere igosi na sistemụ ziri ezi ji dị oke mkpa ugbu a.
 
 ---
 
-### Nwalee ihe ị ma banyere ya .
+### Nwale nghọta gị
 
-Were ya na azụmahịa echekwara ga-egosi "ego n'ime ego", mana okirikiri ahụ echefuru igbochi otu uru mmepụta. Kedu ihe onye nyocha aghụghọ nwere ike ime, gịnịkwa mere akwụkwọ ndekọ ọha mmadụ ji dị ka nke nkịtị? * (Zaa ajụjụ a.) *
+Were ya na Azụmahia e chebere echebe kwesịịrị igosi “ego batara hà ego pụtara,” ma circuit chefuo itinye constraint n’otu uru mmepụta. Gịnị ka prover na-adịghị akwụwa aka ọtọ nwere ike ime, gịnịkwa mere akwụkwọ ndekọ ọha ga-adị ka ọ dị nkịtị kpamkpam? *(Azịza dị n’okpuru.)*
 
-<details><summary>Answer</summary>
+<details><summary>Azịza</summary>
 
-With that output unconstrained, the prover could set it larger than the real inputs allow, creating value from nothing, a counterfeit. The proof would still verify, because the missing constraint is the only thing that would have caught the imbalance. And since the shielded pool hides amounts, the ledger shows only that "a valid transaction occurred," with no visible imbalance to raise an alarm. The forgery is real but invisible, which is exactly why soundness of the circuit matters so much, and exactly why it must be proven rather than tested.
+Ebe output ahụ enweghị constraint, prover ahụ nwere ike idobe ya ka ọ karịa ka ntinye dị adị nwere ike ikwe, ma si otú a kee uru site n’ihe efu, ya bụ ego adịgboroja. Proof ahụ ka ga-enyocha nke ọma, n’ihi na constraint furu efu bụ naanị ihe gaara ejide enweghị nha ahụ. Ma ebe pool nke e chebere echebe na-ezo ego, akwụkwọ ndekọ ahụ na-egosi naanị na “Azụmahia ziri ezi emeela,” na-enweghị enweghị nha a na-ahụ anya iji kpalite mkpu. Aghụghọ ahụ dị adị ma a naghị ahụ ya, nke bụ kpọmkwem ihe mere soundness nke circuit ji dị oke mkpa, na ihe mere a ga-eji gosi ya kama ịnwale ya.
 </details>
 
 ---
 
-### Gịnị na-esote?
+### Ihe na-esote
 
-**Part 3 · Ironwood:** the fix was not just a patch. Zcash's engineers built a new shielded pool and accompanied it with a machine-checked mathematical proof, over 2,700 theorems written in the Lean proof assistant, that it cannot create counterfeit money under its stated assumptions. We will see what "balance integrity" and "knowledge soundness" mean, exactly what the proof does and does not cover, and how the old pool was safely retired.
+**Akụkụ 3 · Ironwood:** mmezi ahụ abụghị naanị patch. Ndị injinia Zcash wuru pool ọhụrụ nke e chebere echebe wee tinye ya proof mgbakọ na mwepụ igwe nyochara, karịrị theorems 2,700 e dere n’ime Lean proof assistant, na ọ nweghị ike ịmepụta ego adịgboroja n’okpuru echiche ndị e kwuru. Anyị ga-ahụ ihe “balance integrity” na “knowledge soundness” pụtara, ihe proof ahụ na-ekpuchi na ihe ọ na-adịghị ekpuchi, na otu e si kwụsị pool ochie n’enweghị nsogbu.
 
-*Akụkụ nke usoro nyocha ọfụma maka* [ZecHub](https://zechub.org).*
+*Akụkụ nke usoro* Formal Verification *maka [ZecHub](https://zechub.org).*

@@ -23,7 +23,7 @@
 | Benchmarking | Àwọn awakùsà lè fi àwọn ìwọ̀n tí a lè lò láti fi ṣe iṣẹ́ wọn hàn lórí bí àwọn ohun èlò tí a lò láti wakùsà Zcash. [Wo ibi](https://zcashbenchmarks.info) |
 | Block | Àkọsílẹ̀ kan jẹ́ àkọsílẹ̀ nínú blockchain Zcash tí ó ní àkójọ àwọn ìṣòwò tí a fi ránṣẹ́ sí nẹ́tíwọ́ọ̀kì. Ní gbogbo ìṣẹ́jú-àáyá 75, ní àròpín, Àkọsílẹ̀ tuntun ni a fi kún blockchain náà. |
 | Block Explorer | Ohun èlò lórí ayélujára láti wo gbogbo ìṣòwò, àtijọ́ àti lọ́wọ́lọ́wọ́, lórí blockchain. [Olùṣàwárí Àkọsílẹ̀ Zcash](https://zcashexplorer.app/) |
-| Blogs | [Bulọọgi ZODL (tí a mọ̀ sí Electric Coin Co tẹ́lẹ̀)](https://zodl.com/blog/) / [Bulọọgi Zcash Foundation](https://zfnd.org/blog/) / [Ìwé Ìròyìn ZecHub](https://zechub.substack.com/) |
+| Blogs | [Bulọọgi ZODL (tí a mọ̀ sí Electric Coin Co)](https://zodl.com/blog/) / [Bulọọgi Zcash Foundation](https://zfnd.org/blog/) / [Ìwé Ìròyìn ZecHub](https://zechub.substack.com/) |
 | Blossom | Igbesoke Nẹtiwọọki Pataki Kẹta fun Zcash. [Ìwífún Síi](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html?highlight=orchard#blossom) |
 
 ## C
@@ -90,7 +90,7 @@
 | Integrations | O le gba awọn sisanwo Zcash nipasẹ ọpọlọpọ awọn olupese ẹgbẹ kẹta. [Àwọn Olùṣètò Ìsanwó](https://z.cash/zcash-for-business/) |
 | Interactive Proof System | Ẹ̀rọ àkójọpọ̀ kan tí ó ń ṣe àwòkọ́ṣe ìṣirò gẹ́gẹ́ bí ìpàṣípààrọ̀ àwọn ìránṣẹ́ láàrín àwọn ẹgbẹ́ méjì: Prover àti Verifier kan. |
 | Investment | Ọpọlọpọ awọn aṣayan inawo wa fun awọn oludokoowo ile-iṣẹ tabi awọn ọfiisi idile ti o fẹ lati ni ifihan si Zcash. [Àkójọ ni kikun](https://z.cash/investors/) |
-| Ironwood | Àtúnṣe nẹ́tíwọ́ọ̀kì NU6.3, wà lórí mainnet láti ìgbà tí block 3,428,143 wà ní ọjọ́ kejìdínlọ́gbọ̀n oṣù keje ọdún 2026. Ironwood fi adágún tuntun tí a dáàbò bo tí a kọ́ sórí ìtòsí Orchard tí a túnṣe kún un, ó sì ti dì adágún Orchard àtilẹ̀wá náà, kí ẹnikẹ́ni lè ṣàyẹ̀wò pé ìpèsè tí ń yíká náà jẹ́ òótọ́. Àwọn òfin ìfohùnṣọ̀kan rẹ̀ ni a sọ ní [ZIP 258](https://zips.z.cash/zip-0258). [Ironwood](/zcash-tech/ironwood) |
+| Ironwood | Àtúnṣe nẹ́tíwọ́ọ̀kì NU6.3, wà lórí mainnet láti ìgbà tí block 3,428,143 wà ní ọjọ́ 28 oṣù keje ọdún 2026. Ironwood fi adágún tuntun tí a dáàbò bo tí a kọ́ sórí ìtòsí Orchard tí a túnṣe kún un, ó sì ti dì adágún Orchard àtilẹ̀wá náà, kí ẹnikẹ́ni lè ṣàyẹ̀wò pé ìpèsè tí ń yíká náà jẹ́ òótọ́. Àwọn òfin ìfohùnṣọ̀kan rẹ̀ ni a sọ ní [ZIP 258](https://zips.z.cash/zip-0258). [Ironwood](/zcash-tech/ironwood) |
 
 ## J
 
@@ -131,7 +131,7 @@
 | Noir Wallet | Àpò ìfàsẹ́yìn ẹ̀rọ ìṣàfilọ́lẹ̀ ẹ̀rọ ìṣàfilọ́lẹ̀ Zcash tí Zcash Community Grants, tí a ṣe láti so ZEC tí a dáàbò bo mọ́ àwọn ohun èlò ìṣàfilọ́lẹ̀ náà tààrà dípò gbígbára lé àwọn kódù QR àti àwọn ìfiránṣẹ́ ọwọ́. [zknoir.com](https://www.zknoir.com/) |
 | NU5 | Igbesoke Nẹtiwọọki Pataki kẹfa fun Zcash, ti a ṣe afihan adagun-odo Orchard ti a daabobo ati Awọn adirẹsi Apapọ. [Ìwífún Síi](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#nu5) |
 | NU6 | Ìgbéga Nẹ́tíwọ́ọ̀kì Ńlá keje fún Zcash, ṣíṣe àtúnṣe ìrànlọ́wọ́ ìdènà láti fi ṣe ìnáwó fún ètò Zcash Community Grants àti Deferred Dev Fund Lockbox. A ti ṣiṣẹ́ ní ìparí ọdún 2024. [Ìwífún Síi](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#nu6) |
-| NU7 | Àtúnṣe nẹ́tíwọ́ọ̀kì pàtàkì tó tẹ̀lé lẹ́yìn Ironwood. Àwọn ohun pàtàkì tó wà nínú àwọn olùdíje ni iṣẹ́ ìṣàyẹ̀wò Project Tachyon's, Zcash Shielded Assets, àti Network Sustainability Mechanism. |
+| NU7 | Àtúnṣe nẹ́tíwọ́ọ̀kì lẹ́yìn Ironwood, tí a fojú sí fún mainnet ní ọjọ́ karùn-ún oṣù kọkànlá ọdún 2026 [ZIP 259](https://zips.z.cash/zip-0259) Ó mú àwọn búlọ́ọ̀kù ìṣẹ́jú àáyá mẹ́ẹ̀ẹ́dọ́gbọ̀n wá (ZIP 218), Ọ̀nà Àtìlẹ́yìn Àjọṣepọ̀ pẹ̀lú àtúnlo owó (ZIPs 235 àti 237), àti òpin àwọn ìṣòwò ẹ̀yà 4, èyí tí ó mú kí owó Sprout má ṣeé náwó (ZIP 2003). Kò fi ọ̀nà ìṣòwò tuntun kún un; Tachyon àti Zcash Shielded Assets kì í ṣe ara rẹ̀. |
 
 ## O
 
@@ -181,7 +181,7 @@
 
 | Àkókò ìgba | Ìtumọ̀ |
 |------|-----------|
-| Tachyon | Ètò ìṣàyẹ̀wò Zcash's. Kì í ṣe ara NU7 ([ZIP 259](https://zips.z.cash/zip-0259)) kò sì ní ọjọ́ ìṣiṣẹ́ kankan. Ó ń gbé àwọn àpò owó kúrò láti máa wo gbogbo ìdènà sí ipò àpò owó tí a lè fi ẹ̀rí hàn, ìṣọ̀kan àìmọ̀ àti ipò nódù tí a lè fi prunable ṣe, ó ń gbìyànjú láti rí ààbò nínú ẹgbẹẹgbẹ̀rún àwọn ìṣòwò ní ìṣẹ́jú-àáyá kan. [Ojú òpó iṣẹ́ náà](https://tachyon.z.cash/overview/) |
+| Tachyon | Ètò ìṣàyẹ̀wò Zcash's. Kì í ṣe ara NU7 ([ZIP 259](https://zips.z.cash/zip-0259)) kò sì ní ọjọ́ ìṣiṣẹ́ kankan. Ó ń gbé àwọn àpò owó kúrò láti máa wo gbogbo ìdènà sí ipò àpò owó tí a lè fi ẹ̀rí hàn, ìṣiṣẹ́pọ̀ àìmọ̀ àti ipò nódù tí a lè prunable, ó ń gbìyànjú láti rí ààbò nínú ẹgbẹẹgbẹ̀rún àwọn ìṣòwò ní ìṣẹ́jú-àáyá kan. [Ojú òpó iṣẹ́ náà](https://tachyon.z.cash/overview/) |
 | TAZ | Testnet Zcash (owó ìdánwò tí kò níye lórí). |
 | Testnet | Blockchain lọtọ fun idanwo awọn igbesoke ati awọn ẹya ara ẹrọ ṣaaju mainnet. |
 | Trailing Finality Layer (TFL) | Ṣe ìwádìí lórí fífi ìpele ìparí kún ẹ̀wọ̀n ẹ̀rí iṣẹ́ Zcash's kí a lè parí àwọn búlọ́ọ̀kù tuntun láìsí àyípadà sí iwakusa. Crosslink ni àwòrán tí ó jáde láti inú rẹ̀. |
@@ -229,7 +229,7 @@
 | Àkókò ìgba | Ìtumọ̀ |
 |------|-----------|
 | Zcash | Ìṣúnà owó aládàáni tí a fojú sí nípa lílo zk-SNARKs. Àwọn ìsanwó tí ó ṣe kedere (bíi ti Bitcoin) àti tí a dáàbò bò pátápátá. |
-| Zcash Foundation | Àjọ tí kìí ṣe ti èrè tí ó ń ṣe àtìlẹ́yìn fún ètò ìṣẹ̀dá Zcash, tí ó ń ṣe owó fún ìdàgbàsókè, tí ó sì ń gbé ìpamọ́ lárugẹ. |
+| Zcash Foundation | Àjọ tí kìí ṣe ti èrè tí ó ń ṣe àtìlẹ́yìn fún ètò ìṣẹ̀dá Zcash, tí ó ń ṣe ìnáwó fún ìdàgbàsókè, tí ó sì ń gbé ìpamọ́ lárugẹ. |
 | Zcash Network | Nẹ́tíwọ́ọ̀kì ẹgbẹ́-sí-ẹgbẹ́ ti àwọn nódù tí ó ń fìdí àwọn ìṣòwò múlẹ̀ àti tí ó ń tọ́jú blockchain náà. |
 | ZEC | Kóòdù owó tí a fọwọ́ sí fún Zcash (àwọn pàṣípààrọ̀ kan ṣì ń fi XZC hàn). |
 | Z3 stack | Àwọn ètò mẹ́ta tí wọ́n papọ̀ rọ́pò zcashd: Zebra fún nódù náà, Zaino fún títọ́kasí, Zallet fún àpò owó. [Àkójọpọ̀ Z3](/zcash-tech/z3-stack) |
@@ -238,11 +238,11 @@
 | Zakura | Nọ́mbà Zcash tó wà ní ẹ̀gbẹ́ kan tí a ṣe fún ìwọ̀n, tí Sean Bowe àti Dev Ojha ń darí. Ó máa ń ṣọ̀kan ní kíákíá, ó máa ń dí àwọn ohun èlò ìtọ́jú ara rẹ̀, ó sì lè ṣiṣẹ́ zcashd lórí ara rẹ̀ fún sọ́fítíwọ́ọ̀dù tó ṣì gbára lé e. [Zakura ipade](/zcash-tech/zakura-node) |
 | Zallet | Àpò owó tí ó rọ́pò àpò owó zcashd. Gbé èyí tí ó wà tẹ́lẹ̀ `wallet.dat` kọja dipo ki o bẹrẹ lẹẹkansi. [Zallet](/zcash-tech/zallet) àti [Ìtọ́kasí kíákíá Zallet](/using-zcash/zallet-quick-reference-guide) |
 | Zebra | Nọ́mbà gbogbo tí ó rọ́pò zcashd, tí Zcash Foundation. Ṣí i bí o bá nílò nọ́mbà ìfìdí múlẹ̀. [Kún ojú òpó Zebra](/zcash-tech/zebra-full-node) |
-| zcashd | Àkójọpọ̀ Zcash àtilẹ̀wá àtilẹ̀wá náà, tí ó ti fẹ̀yìntì báyìí. Ẹ̀yà 6.20.0 ti pa ara rẹ̀ ní block 3417100 ní ọjọ́ kejìdínlógún oṣù keje ọdún 2026, kò sì ṣe àtìlẹ́yìn fún NU6.3. Ṣí àkójọpọ̀ Z3 tàbí Zakura dípò rẹ̀. [Ìtọ́sọ́nà ìṣíkiri](/guides/migration-guide-zcashd-to-zebrad-zallet) |
+| zcashd | Àkójọpọ̀ Zcash àtilẹ̀wá àtilẹ̀wá náà, tí ó ti fẹ̀yìntì báyìí. Ẹ̀yà 6.20.0 ti pa ara rẹ̀ ní block 3417100 ní ọjọ́ 18 oṣù keje ọdún 2026, kò sì ṣe àtìlẹ́yìn fún NU6.3. Ṣí àkójọpọ̀ Z3 tàbí Zakura dípò rẹ̀. [Ìtọ́sọ́nà ìṣíkiri](/guides/migration-guide-zcashd-to-zebrad-zallet) |
 | ZIP | Ìdámọ̀ràn Ìdàgbàsókè Zcash - ìlànà ìṣàkóso àwùjọ tí a lò láti dábàá àti láti fọwọ́ sí àwọn àyípadà ìlànà. [Ibi ìpamọ́ ZIP](https://github.com/zcash/zips) |
 | ZODL | Zcash Open Development Lab. Àjọ olómìnira náà ni Josh Swihart àti ẹgbẹ́ onímọ̀ ẹ̀rọ Electric Coin Company tẹ́lẹ̀ dá sílẹ̀ ní ìbẹ̀rẹ̀ ọdún 2026 lẹ́yìn tí wọ́n fi ipò wọn sílẹ̀ nítorí àríyànjiyàn ìṣàkóso pẹ̀lú Bootstrap. Ó kó owó tó lé ní $25 mílíọ̀nù jọ ní oṣù kẹta ọdún 2026, ó sì ń tọ́jú àpò ZODL, èyí tí wọ́n yí orúkọ rẹ̀ padà sí Zashi ní oṣù kejì ọdún 2026. [zodl.com](https://zodl.com) |
 | zk-SNARKs | Àwọn Àríyànjiyàn Ìmọ̀ Tí Kò Ní Ìbáṣepọ̀ Pẹ̀lú Òye — ìkọ̀kọ̀ tí ó ń fún Zcash ní agbára láti fi àwọn ìṣòwò tí ó ní ààbò. Ó ń jẹ́ kí a fi ẹ̀rí hàn gbólóhùn kan (fún àpẹẹrẹ, ìnáwó tí ó wúlò) láìsí ìfipamọ́ ìkọ̀kọ̀ kankan. |
-| ZSA (Zcash Shielded Assets) | Àwọn àmì tí olùlò fúnni tí ó jogún ìpamọ́ Zcash's tí a dáàbò bò, tí ó ń jẹ́ kí àwọn dúkìá mìíràn yàtọ̀ sí ZEC gbé lọ sí ìkọ̀kọ̀ lórí nẹ́tíwọ́ọ̀kì náà [ZIP 226](https://zips.z.cash/zip-0226)Kìí ṣe ara NU7 ([ZIP 259](https://zips.z.cash/zip-0259)) kò sì ní ọjọ́ ìṣiṣẹ́ kankan. |
+| ZSA (Zcash Shielded Assets) | Àwọn àmì tí olùlò fúnni tí ó jogún ìpamọ́ Zcash's tí a dáàbò bò, tí ó ń jẹ́ kí àwọn dúkìá mìíràn yàtọ̀ sí ZEC gbé lọ sí ìkọ̀kọ̀ lórí nẹ́tíwọ́ọ̀kì náà [ZIP 226](https://zips.z.cash/zip-0226). Kìí ṣe ara NU7 ([ZIP 259](https://zips.z.cash/zip-0259)) kò sì ní ọjọ́ ìṣiṣẹ́ kankan. |
 
 ---
 

@@ -2,9 +2,9 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Editar página"/>
 </a>
 
-# Podcast de Zcast
+# Pódcast Zcast
 
-[Zcast - Zcash en Español](https://zcashesp.com/zcast/)
+[Zcast - Zcash en español](https://zcashesp.com/zcast/)
 
 
 

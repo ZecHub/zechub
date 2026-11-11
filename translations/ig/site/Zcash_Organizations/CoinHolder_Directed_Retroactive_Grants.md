@@ -1,103 +1,103 @@
-# Onyinye Ego Na-eduzi Ndị Na-ahụ Maka Mkpụrụ ego
+# Ikike [Grants] Nlaghachi Azụ nke Ndị Jidere Mkpụrụ Ego Na-eduzi
 
-The **Coinholder-Directed Retroactive Grants Program** funds completed work that has delivered verifiable value to the Zcash ecosystem.
+**Mmemme Ikike Nlaghachi Azụ nke Ndị Jidere Mkpụrụ Ego Na-eduzi** na-akwado ọrụ e mechara nke wetaworo uru a pụrụ ịchọpụta n'ime usoro gburugburu ebe obibi Zcash.
 
-It draws from the **Coinholder-Controlled Fund** (12% of block rewards + Deferred Dev Fund Lockbox seed), established by ZIP 1016 and activated in NU6.1 (November 2025). 
+Ọ na-enweta ego site na **Ego Ndị Jidere Mkpụrụ Ego Na-achịkwa** (12% nke ụgwọ ọrụ block + mkpụrụ nchekwa Deferred Dev Fund Lockbox), nke ZIP 1016 hibere ma rụọ ọrụ na NU6.1 (Nọvemba 2025). 
 
-The program runs quarterly until the 3rd halving (~2028). Funds are held in multisig by Key-Holder Organizations (e.g., Shielded Labs, FPF).
-
----
-
-Onyinye ego bụ **retroactive naanị** - na-akwụghachi ụgwọ onyinye gara aga (dịka, mmepe, njikọta, ụlọ obodo). Ọrụ ga-eme n'ọdịnihu kwesịrị itinye aka na Zcash Community Grants (ZCG, 8% nke ụgwọ ọrụ).
+Mmemme a na-agba kwa nkeji afọ ruo halving nke 3 (~2028). A na-edobe ego ahụ na multisig site n'aka Otu Ndị Ji Igodo (dịka, Shielded Labs, FPF).
 
 ---
 
-## Ngwa ndị ruru eru
+Ikike ndị a bụ **naanị nke nlaghachi azụ** - ha na-akwụghachi onyinye emere n'oge gara aga (dịka, mmepe, njikọta, iwulite obodo). Ọrụ a ga-arụ n'ọdịnihu kwesịrị itinye akwụkwọ na Zcash Community Grants (ZCG, 8% nke ụgwọ ọrụ).
 
-** Ilekwasị anya **:
+---
 
-Emechara, ọrụ nyocha nke ọha na eze na-erite uru na Zcash (nzuzo, nkuchi, ngwá ọrụ, nchekwa).
+## Ngwa Ndị Tozuru Ezu
 
-**Usoro** (ndị na-ejide mkpụrụ ego na-enyocha):
+**Nlebara anya**:
 
-  - E gosipụtara mmetụta na uru e nyefere.
-  - Nkwekọrịta na ụkpụrụ Zcash (nzuzo, decentralization).
-  - Ihe akaebe doro anya (koodu, akụkọ, metrics).
+Ọrụ e mechara, nke ọha nwere ike ịchọpụta, nke na-abara Zcash uru (Nzuzo [privacy], nnabata, ngwaọrụ ọrụ, nchekwa).
+
+**Ụkpụrụ** (ndị jidere mkpụrụ ego na-enyocha):
+
+  - Mmetụta egosipụtara na uru e wetara.
+  - Nkwado ụkpụrụ Zcash (Nzuzo, decentralization [decentralization]).
+  - Ihe akaebe doro anya (koodu, akụkọ, metrik).
 
 
-**Enweghị mgbochi**: 
+**Enweghị mmachi**: 
 
-Onye ọ bụla (ndị mmadụ, ìgwè, òtù) nwere ike itinye akwụkwọ ma ọ bụ bụrụ onye a họpụtara.
+Onye ọ bụla (ndị mmadụ n'otu n'otu, otu, òtù) nwere ike itinye akwụkwọ ma ọ bụ ka a họpụta ya.
 
-**Nkwupụta ndị na-asọmpi**: 
+**Atụmatụ na-asọ mpi**: 
 
-E mere ntuliaka iche iche; nkwado kachasị elu nke ZEC meriri.
+A na-atụ vootu maka nke ọ bụla iche; nkwado ZEC kachasị elu na-emeri.
 
-** Enwere ike ịme veto **: 
+**Enwere ike ịjụ**: 
 
-Site na Key-Holders maka okwu iwu ma ọ bụ mmerụ ahụ ndị ọrụ / obodo (dị ụkọ, na ezi uche).
+Ndị Ji Igodo nwere ike ịjụ maka okwu iwu ma ọ bụ mmerụ nye ndị ọrụ/obodo (nke a na-adịkarị ụkọ, yana ihe kpatara ya).
 
-## Otú E Si Edejupụta Akwụkwọ
+## Otu Esi Eziga Akwụkwọ Ngwa
 
-**Dị njikere na-atụ aro**:
+**Kwadebe Atụmatụ**:
 
-- Kọwaa ọrụ a rụzuru, mmetụta, ihe akaebe (njikọ, nnyefe).
-- Kwuo ego a rịọrọ (ZEC/USD equivalent) na ihe kpatara ya.
-- Gụnye adreesị ịkwụ ụgwọ na kọntaktị.
+- Kọwaa ọrụ e mechara, mmetụta, ihe akaebe (njikọ, ihe e nyere).
+- Kọwaa ego a rịọrọ (ZEC/nha USD) na ihe kpatara ya.
+- Tinye Adreesị akpa ego maka ịkwụ ụgwọ na kọntaktị.
 
 
 **Nyefee**:
 
 
-- Post na Zcash Community Forum (forum.zcashcommunity.com) na ngalaba onyinye.
-- Aha: "[Retroactive Grant] - [Aha oru ngo]".
-- Jiri usoro akara akara doro anya.
+- Bipụta na Zcash Community Forum (forum.zcashcommunity.com) n'ime ngalaba Ikike.
+- Aha: "[Ikike Nlaghachi Azụ] - [Aha Ọrụ]".
+- Jiri usoro markdown doro anya.
 
 
 **Oge Ikpeazụ**:
 
 
-- Kwa ọnwa; ekwuputara na forum/X (dịka, Q4 2025: Ọktọba 12, 2025, 11:59 PM UTC).
-- Ntinye mbubreyo: Nyeghachi ya ọzọ ma ọ bụ tinye aka na ZCG.
+- Kwa nkeji afọ; a na-ekwupụta ya na forum/X (dịka, Q4 2025: Ọktoba 12, 2025, 11:59 PM UTC).
+- Akwụkwọ ezitere n'azụ oge: Zigharịa ya na okirikiri ọzọ ma ọ bụ tinye akwụkwọ na ZCG.
 
 
-**Nkwekọrịta**:
+**Soro na Mkparịta ụka**:
 
-Zaa ajụjụ ndị obodo jụrụ n'oge nyocha ụbọchị iri atọ.
+Zaa ajụjụ obodo n'oge nyocha ụbọchị 30.
 
-#### edeturu: FPF na-achịkwa ya (nkwekọrịta, nkwukọrịta); a chịkọtara atụmatụ na GitHub maka visibiliti.
+#### note: FPF na-ahụ maka nchịkwa (nnabata iwu, nkwurịta okwu); a na-achịkọta atụmatụ na GitHub maka ịhụ ha n'ụzọ doro anya.
 
-## Usoro Voting na Cadence
+## Usoro na Oge Ntuli Vootu
 
-**Quarterly Cadence** (dịka, Q4 2025, Q1 2026):
+**Oge Kwa Nkeji Afọ** (dịka, Q4 2025, Q1 2026):
 
-**Oge Ikpeazụ maka ntinye akwụkwọ**: 
+**Oge Ikpeazụ Maka Nyefe**: 
 
-N'etiti nkeji iri na ise (a mara ọkwa).
+N'etiti nkeji afọ (a na-ekwupụta ya).
 
-** Nnyocha ụbọchị 30 **: 
+**Nyocha Ụbọchị 30**: 
 
-Starts post-deadline; discuss/feedback in forum threads (summary thread often created).
+Ọ na-amalite mgbe oge ikpeazụ gachara; mkparịta ụka/nzaghachi na eriri forum (a na-emekarị eriri nchịkọta).
 
-**Oge ịtụ vootu**: 
+**Oge Ntuli Vootu**: 
 
-Na-esote nyochaa (dịka, ~1-2 izu na November maka Q4).
+Ọ na-esote nyocha (dịka, ~izu 1-2 na Nọvemba maka Q4).
 
-** Nsonaazụ & Mmefu **: 
+**Nsonaazụ na Ịkwụ Ego**: 
 
-N'oge na-adịghị anya mgbe; akwado onyinye akwụ ụgwọ kwa okwu (KYC maka > $ 50k).
+N'oge na-adịghị anya mgbe e mesịrị; a na-akwụ ikike akwadoro dịka usoro si dị (KYC maka >$50k).
 
-** Ntuliaka**:
+**Ntuli Vootu**:
 
-  - Coinholders vote with ZEC holdings (no lockup; Orchard pool eligible).
-  - Usoro: Ntuliaka a na-etinyeghị aka na ya (dịka ọmụmaatụ, site n'aka ndị isi ntuli aka).
-  - **Nkwado**: opekata mpe 420,000 ZEC quorum + ọnụ ọgụgụ ka ukwuu ee.
-  - Ntuliaka ndị nweere onwe ha; mkpụrụ ego ndị a pụrụ iji mee ihe ọzọ n'ime atụmatụ dị iche iche.
-  - Nsonaazụ ọha na eze, nghọta.
+  - Ndị jidere mkpụrụ ego na-eji njide ZEC ha atụ vootu (enweghị mkpọchi; pool Orchard tozuru eru).
+  - Usoro: Ntuli nke decentralized (dịka, site n'aka ndị ikike ntuli vootu).
+  - **Nkwado**: opekata mpe mmadụ 420,000 ZEC maka quorum [quorum] + ọtụtụ dị mfe kweta.
+  - Ntuli vootu onwe ha; enwere ike iji mkpụrụ ego ọzọ n'ofe atụmatụ.
+  - Nsonaazụ ọha na eze, doro anya.
 
 
-#### ndetu: **Oge a (nke dị na Jenụwarị 5, 2026) **: Q4 2025 emechara (votu Nọvemba); Q1 2026 ntinye akwụkwọ na-atụ anya n'oge na-adịghị anya - nyochaa forum maka ọkwa.
+#### note: **Okirikiri Ugbu a (ka ọ dị na Jenụwarị 5, 2026)**: Q4 2025 akwụsịla (ntuli vootu Nọvemba); a na-atụ anya ngwa Q1 2026 n'oge adịghị anya - na-enyocha forum maka ọkwa.
 
-## Akụkọ kacha ọhụrụ: 
+## Mmelite Kacha Ọhụrụ: 
 
-Lelee [Zcash Community Forum Onyinye Akụkụ](https://forum.zcashcommunity.com/c/grants/32). Usoro nwere ike ịmalite na nzaghachi obodo.
+Lelee ngalaba Ikike nke [Zcash Community Forum](https://forum.zcashcommunity.com/c/grants/32). Usoro a nwere ike ịgbanwe dabere na nzaghachi obodo.

@@ -1,144 +1,144 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/guides/ShapeShift_Zcash.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Hariri Ukurasa"/>
 </a>
 
-# ShapeShift na Zcash: Faragha-Kwanza Decentralized Trading
+# ShapeShift na Zcash: Biashara Iliyogatuliwa Inayoweka Faragha Kwanza
 
 ---
 
-## Utangulizi wa Kitabu cha Mwanzo
+## Utangulizi
 
-Privacy and self-custody are foundational principles of cryptocurrency, yet many users still rely on centralized exchanges that require identity verification and hold user funds. The integration between ShapeShift and Zcash brings together a fully decentralized exchange platform and one of the most advanced privacy-preserving cryptocurrencies, giving users a way to trade ZEC without sacrificing privacy or control of their assets.
+Faragha [privacy] na uhifadhi binafsi ni kanuni za msingi za sarafu za kidijitali, ilhali watumiaji wengi bado wanategemea masoko ya kubadilishana sarafu ya kati ambayo yanahitaji uthibitishaji wa utambulisho na kuhifadhi fedha za watumiaji. Muunganisho kati ya ShapeShift na Zcash unaunganisha jukwaa la soko la kubadilishana sarafu lililogatuliwa kikamilifu na mojawapo ya sarafu za kidijitali zilizoendelea zaidi katika kuhifadhi faragha, ukiwapa watumiaji njia ya kubadilisha ZEC bila kuacha faragha au udhibiti wa mali zao.
 
-Makala hii inaelezea nini ShapeShift ni, jinsi Zcash kazi, jinsi gani unaweza kubadilishana ZEC juu ya Shape Shift, na kwa nini ushirikiano huu mambo kwa ajili ya baadaye ya binafsi, madeni desentralised.
+Makala haya yanaeleza ShapeShift ni nini, jinsi Zcash inavyofanya kazi, jinsi unavyoweza kubadilisha ZEC kwenye ShapeShift, na kwa nini ushirikiano huu ni muhimu kwa mustakabali wa fedha za faragha zilizogatuliwa.
 
 ---
 
 ## ShapeShift ni nini?
 
-[ShapeShift](https://shapeshift.com/) ni jukwaa la cryptocurrency lisilo na usimamizi, ambalo linaruhusu watumiaji kufanya biashara, kufuatilia, na kusimamia mali za dijiti katika blockchains nyingi bila kuunda akaunti, kuwasilisha hati za kitambulisho, au kutoa utunzaji wa fedha zao.
+[ShapeShift](https://shapeshift.com/) ni jukwaa la sarafu za kidijitali lililogatuliwa na lenye msimbo huria, linalowawezesha watumiaji kubadilisha, kufuatilia, na kusimamia mali za kidijitali kwenye blockchain nyingi bila kufungua akaunti, kuwasilisha hati za utambulisho, au kukabidhi uhifadhi wa fedha zao.
 
 ### Historia Fupi
 
-ShapeShift awali ilianzishwa mwaka 2014 na Erik Voorhees kama centralized cryptocurrency kubadilishana makao yake makuu katika Uswisi. jukwaa haraka akawa maarufu kwa interface wake rahisi kwamba kuruhusiwa watumiaji swap moja cryptocurrency kwa mwingine bila kujenga akaunti.
+ShapeShift ilianzishwa awali mwaka 2014 na Erik Voorhees kama soko la kubadilishana sarafu za kidijitali la kati lenye makao yake Uswisi. Jukwaa hili lilipata umaarufu haraka kutokana na kiolesura chake rahisi kilichowawezesha watumiaji kubadilisha sarafu moja ya kidijitali kwa nyingine bila kufungua akaunti.
 
-In 2021, ShapeShift underwent a radical transformation. The company dissolved its corporate structure and transitioned into a **Decentralized Autonomous Organization (DAO)**, governed by holders of the **FOX token**. As part of this transition, approximately 340 million FOX tokens were airdropped to over one million users, making it one of the largest airdrops in crypto history. From that point forward, all major decisions about the platform have been made through community governance proposals and votes.
+Mwaka 2021, ShapeShift ilipitia mabadiliko makubwa. Kampuni ilivunja muundo wake wa shirika na kubadilika kuwa **Shirika Huru Lililogatuliwa (DAO)**, linalotawaliwa na wamiliki wa **tokeni ya FOX**. Kama sehemu ya mpito huu, takriban tokeni milioni 340 za FOX zilitolewa kwa njia ya airdrop kwa zaidi ya watumiaji milioni moja, na kuifanya kuwa mojawapo ya airdrop kubwa zaidi katika historia ya crypto. Kuanzia wakati huo, maamuzi yote makuu kuhusu jukwaa yamefanywa kupitia mapendekezo na kura za utawala wa jamii.
 
-### Sifa Muhimu za Mfano wa Yesu
+### Vipengele Muhimu
 
-- **Non-Custodial**: Watumiaji biashara moja kwa moja kutoka pochi zao. ShapeShift kamwe ana fedha yako.
-- **No KYC Required**: No identity verification, no account creation, and no personal data collection.
-- **Msaada wa Mfululizo**: Ufikiaji wa mali zaidi ya 10,000 katika blockchains 15+, pamoja na Bitcoin, Ethereum, Cosmos, na Zcash.
-- ** DEX Aggregation**: ShapeShift njia biashara kupitia itifaki madaraka kama THORChain, 0x, na wengine kupata viwango bora.
-- ** Cross-Chain Swaps**: Swap mali natively kati ya blockchains tofauti bila kutumia vifungo wrapped au madaraja centralized.
-- **Fully Open-Source**: Jukwaa nzima, ikiwa ni pamoja na programu ya simu, ni chanzo wazi bila backend wamiliki zaidi data blockchain.
+- **Isiyohifadhiwa na Mtu Mwingine**: Watumiaji hubadilisha moja kwa moja kutoka pochi zao wenyewe. ShapeShift haihifadhi kamwe fedha zako.
+- **Hakuna KYC Inayohitajika**: Hakuna uthibitishaji wa utambulisho, ufunguzi wa akaunti, wala ukusanyaji wa data binafsi.
+- **Usaidizi wa Minyororo Mingi**: Ufikiaji wa mali zaidi ya 10,000 kwenye blockchain 15+, ikijumuisha Bitcoin, Ethereum, Cosmos, na Zcash.
+- **Ujumuishaji wa DEX**: ShapeShift huelekeza biashara kupitia itifaki zilizogatuliwa kama THORChain, 0x, na nyinginezo ili kupata viwango bora zaidi.
+- **Ubadilishaji wa Cross-Chain**: Badilisha mali kienyeji kati ya blockchain tofauti bila kutumia tokeni zilizofungwa au madaraja ya kati.
+- **Msimbo Huria Kikamilifu**: Jukwaa lote, ikijumuisha programu ya simu, lina msimbo huria bila mfumo wa nyuma wa umiliki zaidi ya data ya blockchain.
 
 ---
 
 ## Jinsi Zcash Inavyofanya Kazi
 
-[Zcash](https://z.cash/) (ZEC) is a cryptocurrency built on strong cryptographic foundations that give users the ability to transact privately. Launched in 2016, Zcash is a fork of Bitcoin that adds advanced privacy technology while retaining Bitcoin's fixed supply of 21 million coins and proof-of-work consensus.
+[Zcash](https://z.cash/) (ZEC) ni sarafu ya kidijitali iliyojengwa juu ya misingi thabiti ya kriptografia inayowapa watumiaji uwezo wa kufanya miamala kwa faragha. Ilizinduliwa mwaka 2016, Zcash ni fork ya Bitcoin inayoongeza teknolojia ya juu ya faragha huku ikihifadhi ugavi usiobadilika wa Bitcoin wa sarafu milioni 21 na makubaliano ya proof-of-work.
 
-### Shielded Transactions na Zero-Ujuzi Ushuhuda
+### Miamala ya Faragha na Mathibitisho ya Maarifa Sifuri
 
-The core innovation of Zcash is its use of **zero-knowledge proofs** (specifically, a form called **zk-SNARKs**). These cryptographic proofs allow one party to prove to another that a statement is true without revealing any information beyond the validity of the statement itself.
+Ubunifu mkuu wa Zcash ni matumizi yake ya **mathibitisho ya maarifa sifuri** (hasa aina inayoitwa **zk-SNARKs**). Mathibitisho haya ya kriptografia huwezesha upande mmoja kuthibitisha kwa mwingine kwamba kauli ni kweli bila kufichua taarifa zozote zaidi ya uhalali wa kauli yenyewe.
 
-Katika mazoezi, hii ina maana Zcash shughuli inaweza kuwa kikamilifu ** shielded: anwani ya mtumaji, mpokeaji anwani na kiasi manunuzi ni wote encrypted juu blockchain. mtandao bado unaweza kuthibitisha kwamba mpango huo ni halali (hakuna matumizi mara mbili, mizani sahihi) bila kuona maelezo hayo.
+Kwa vitendo, hii inamaanisha miamala ya Zcash inaweza kuwa **ya faragha**: anwani ya mtumaji, anwani ya mpokeaji, na kiasi cha muamala vyote husimbwa fiche kwenye blockchain. Mtandao bado unaweza kuthibitisha kwamba muamala ni halali (hakuna matumizi mara mbili, salio sahihi) bila kuona maelezo hayo kamwe.
 
-### Aina ya shughuli
+### Aina za Miamala
 
 Zcash inasaidia aina mbili za anwani:
 
-- **Anwani za uwazi** (anwani-t): Hizi zinafanya kazi kama anwani ya Bitcoin, ambapo maelezo ya shughuli yanaonekana kwa umma kwenye blockchain.
-- **Anwani za kulindwa** (anwani-z): Hizi hutumia uthibitisho wa maarifa ya sifuri kuweka maelezo ya shughuli kuwa faragha.
+- **Anwani za uwazi** (t-anwani): Hizi hufanya kazi kama anwani za Bitcoin, ambapo maelezo ya muamala yanaonekana hadharani kwenye blockchain.
+- **Anwani za faragha** (z-anwani): Hizi hutumia mathibitisho ya maarifa sifuri kuweka maelezo ya muamala kuwa ya faragha.
 
-Watumiaji wanaweza kutuma ZEC kati ya anwani uwazi na walinzi. Kwa faragha upeo, shughuli kutoka moja ulinzi wa anwani nyingine si kuonyesha taarifa kwa umma.
+Watumiaji wanaweza kutuma ZEC kati ya anwani za uwazi na za faragha. Kwa faragha ya juu zaidi, miamala kutoka anwani moja ya faragha hadi nyingine haifichui taarifa zozote hadharani.
 
-### Anwani za Umoja wa Mataifa
+### Anwani Zilizounganishwa
 
-Kisasa Zcash pochi kama [Zodl](https://zodl.com) kutumia ** Unified Anwani, ambayo kuchanganya wote wazi na walinzi wapokeaji katika anwani moja. Hii rahisi user uzoefu wakati defaulting kwa kiwango cha juu ya faragha inapatikana.
+Pochi za kisasa za Zcash kama [Zodl](https://zodl.com) hutumia **Anwani Zilizounganishwa**, ambazo huunganisha vipokezi vya uwazi na vya faragha katika anwani moja. Hii hurahisisha matumizi kwa mtumiaji huku ikitumia kwa chaguo-msingi kiwango cha juu zaidi cha faragha kinachopatikana.
 
-### Kwa Nini Ni Muhimu Kuweka Faragha Yako Yenyewe Hasa?
+### Kwa Nini Faragha Ni Muhimu
 
-Ulinzi wa kifedha si kuhusu kuficha makosa. Inalinda watu binafsi kutoka kwa ufuatiliaji, kukusanya data ya kampuni na mashambulizi yaliyolengwa. Kama vile usingependa salio la akaunti yako ya benki ionekane kwa umma, shughuli za cryptocurrency zinastahili kiwango sawa cha siri. Zcash hutoa hii kwa muundo.
+Faragha ya kifedha si kuficha makosa. Inawalinda watu dhidi ya ufuatiliaji, uvunaji wa data wa kampuni, na mashambulizi yanayolengwa. Kama vile ambavyo hungetaka salio la akaunti yako ya benki lionekane kwa umma, miamala ya sarafu za kidijitali inastahili kiwango sawa cha usiri. Zcash hutoa hili kwa usanifu.
 
 ---
 
-## Jinsi ya kubadilishana ZEC juu ShapeShift
+## Jinsi ya Kubadilisha ZEC kwenye ShapeShift
 
-ShapeShift jukwaa inaruhusu watumiaji kupata na biashara ZEC kupitia mchakato kikamilifu madaraka. Hapa ni jinsi inavyofanya kazi.
+Jukwaa la ShapeShift linawawezesha watumiaji kupata na kubadilisha ZEC kupitia mchakato uliogatuliwa kikamilifu. Hivi ndivyo unavyofanya kazi.
 
 ### Hatua ya 1: Tembelea ShapeShift
 
-Nenda kwa [app.shapeshift.com](https://app.shapeshift.com/) katika kivinjari chako cha wavuti au pakua programu ya simu ya ShapeShift. Hakuna uundaji akaunti au uthibitisho wa utambulisho unaohitajika.
+Nenda kwenye [app.shapeshift.com](https://app.shapeshift.com/) katika kivinjari chako cha wavuti au pakua programu ya simu ya ShapeShift. Hakuna ufunguzi wa akaunti au uthibitishaji wa utambulisho unaohitajika.
 
-### Hatua ya 2: Kuunganisha mkoba wako
+### Hatua ya 2: Unganisha Pochi Yako
 
-Kuunganisha sambamba binafsi kuhifadhi mkoba. ShapeShift inasaidia mbalimbali ya pochi ikiwa ni pamoja na:
+Unganisha pochi inayooana ya uhifadhi binafsi. ShapeShift inasaidia pochi mbalimbali, zikiwemo:
 
-- ** KeepKey** (mkoba vifaa)
+- **KeepKey** (hardware wallet)
 - **MetaMask**
-- **XDEFI / Ctrl Kifurushi**
-- ** Keplr** (kwa ajili ya mali Cosmos makao)
-- ** WalletConnect-ambatana na pochi**
+- **XDEFI / Ctrl Wallet**
+- **Keplr** (kwa mali zinazotegemea Cosmos)
+- **Pochi zinazoendana na WalletConnect**
 
-Kwa kuwa unabadilisha kutoka au kwenda ZEC, hakikisha una mkoba unaoendana na Zcash (kama vile Zodl) tayari kupokea pesa zako.
+Kwa kuwa unabadilisha kwenda au kutoka ZEC, hakikisha una pochi inayoendana na Zcash (kama Zodl) tayari kupokea fedha zako.
 
-### Hatua 3: Chagua yako Swap jozi
+### Hatua ya 3: Chagua Jozi Yako ya Ubadilishaji
 
-Tumia interface swap kuchagua mali unataka biashara kutoka (kwa mfano, BTC, ETH, au ERC-20 ishara) na kuweka ZEC kama mali ya marudio. ShapeShift ni iliyoundwa katika safi, Uniswap-style layout optimized kwa ajili ya wote desktop na simu za mkononi.
+Tumia kiolesura cha kubadilisha kuchagua mali unayotaka kubadilisha kutoka kwayo (kwa mfano, BTC, ETH, au tokeni ya ERC-20) na uweke ZEC kama mali lengwa. Kiolesura cha ShapeShift kimeundwa kwa mpangilio safi wa mtindo wa Uniswap, ulioboreshwa kwa kompyuta za mezani na simu.
 
-### Hatua 4: Ingiza kiasi na Mapitio
+### Hatua ya 4: Weka Kiasi na Kagua
 
-Ingiza kiasi unataka kubadilishana. ShapeShift itaelekeza biashara kupitia bora inapatikana protocol madaraka (kama vile THORChain kwa swaps msalaba-chain) na kuonyesha kiwango cha makadirio, ada, na pato kiasi.
+Weka kiasi unachotaka kubadilisha. ShapeShift itaelekeza biashara kupitia itifaki bora zaidi iliyogatuliwa inayopatikana (kama THORChain kwa ubadilishaji wa cross-chain) na kuonyesha kiwango kinachokadiriwa, ada, na kiasi cha matokeo.
 
-### Hatua ya 5: Thibitisha na Utekeleze
+### Hatua ya 5: Thibitisha na Tekeleza
 
-Tathmini maelezo ya manunuzi na kuthibitisha. kubadilishana ni kutekelezwa juu-chain kupitia itifaki madaraka. ZEC yako itatolewa kwa anwani uliyoainisha. Hakuna mpatanishi kamwe ana fedha zako.
+Kagua maelezo ya muamala na uthibitishe. Ubadilishaji unatekelezwa on-chain kupitia itifaki zilizogatuliwa. ZEC yako itawasilishwa kwenye anwani uliyobainisha. Hakuna mpatanishi anayehifadhi fedha zako kamwe.
 
-### Hatua ya 6: Linda ZEC Yako
+### Hatua ya 6: Weka ZEC Yako Katika Bwawa la Faragha
 
-Mara tu ZEC yako itakapofika, tumia kazi ya **shield** kwenye pochi zako za Zcash (inapatikana katika pochi kama vile Zodl) kuhamisha fedha hizo ndani ya hifadhi iliyohifadhiwa. Hii inahakikisha kuwa salio lako na shughuli za baadaye zitabaki siri kabisa.
+Baada ya ZEC yako kuwasili, tumia kipengele cha **shield** cha pochi yako ya Zcash (kinachopatikana katika pochi kama Zodl) kuhamisha fedha kwenye bwawa la faragha. Hii huhakikisha kwamba salio lako na miamala ya baadaye hubaki ya faragha kikamilifu.
 
-### Supported Msalaba-Mnyororo Pairs
+### Jozi za Cross-Chain Zinazosaidiwa
 
-ShapeShift inawezesha ZEC kubadilishana katika mifumo mbalimbali blockchain, ikiwa ni pamoja na:
+ShapeShift huwezesha ubadilishaji wa ZEC kwenye mazingira mengi ya blockchain, ikijumuisha:
 
-- ** Bitcoin** (BTC) &lt;-&gt; ZEC
-- ** Ethereum** (ETH) &lt;-&gt; ZEC
-- ** Arbitrum** mali &lt;-&gt; ZEC
-- ** Cosmos** ishara mazingira &lt;-&gt; ZEC
+- **Bitcoin** (BTC) &lt;-&gt; ZEC
+- **Ethereum** (ETH) &lt;-&gt; ZEC
+- Mali za **Arbitrum** &lt;-&gt; ZEC
+- Tokeni za mfumo ikolojia wa **Cosmos** &lt;-&gt; ZEC
 
 ---
 
-## Kwa Nini Kuunganishwa Huku Ni Jambo la Maana?
+## Kwa Nini Muunganisho Huu Ni Muhimu
 
-### Kudai Usiri katika DeFi
+### Kurejesha Faragha Katika DeFi
 
-Kubadilishana zaidi ya madaraka kutibu faragha kama afterthought. shughuli juu Ethereum-msingi DEXs, kwa mfano, ni uwazi kabisa: mtu yeyote anaweza kufuatilia historia yako mkoba, mizani ishara, na mifano biashara. ShapeShift-Zcash ushirikiano changamoto hii kanuni kwa kutoa upatikanaji wa walled ZEC kupitia decentralized, hakuna KYC jukwaa.
+Masoko mengi ya kubadilishana sarafu yaliyogatuliwa huchukulia faragha kama jambo la ziada. Miamala kwenye DEX zinazotegemea Ethereum, kwa mfano, iko wazi kikamilifu: mtu yeyote anaweza kufuatilia historia ya pochi yako, salio la tokeni, na mifumo ya biashara. Muunganisho wa ShapeShift-Zcash unapinga desturi hii kwa kutoa ufikiaji wa ZEC ya faragha kupitia jukwaa lililogatuliwa lisilohitaji KYC.
 
-Kama Houston Morgan, ukuaji wa ShapeShift na jamii ya kazi mtiririko kuongoza, alisema: * "Usiri haipaswi kuwa inatisha, lakini biashara ZEC juu ya kubadilishana centralized mara nyingi ni. muundo wao wenyewe na hatari za kisheria kuua faragha kweli".*
+Kama Houston Morgan, kiongozi wa mtiririko wa kazi wa ukuaji na jamii wa ShapeShift, alivyoeleza: *“Faragha haipaswi kuogopesha, lakini kubadilisha ZEC kwenye masoko ya kubadilishana sarafu ya kati mara nyingi huogopesha. Muundo wao wenyewe na hatari za kisheria huua faragha ya kweli.”*
 
-### Kutoka Kuondolewa Kwenye Orodha Hadi Kukosa Kuwa na Faida za Msingi
+### Kutoka Kuondolewa kwenye Orodha Hadi Chaguo-msingi
 
-Historia inafanya ujumuishaji huu kuwa muhimu zaidi. Mnamo 2020, wakati ShapeShift bado ilikuwa kampuni ya katikati, iliondoa sarafu za faragha ikiwa ni pamoja na Zcash chini ya shinikizo la udhibiti. Mpito wa muundo wa DAO uliweka huru Shapeshift kutoka kwa vizuizi hivyo. Sasa, kama itifaki inayoongozwa na jamii, Shape Shift haijaorodhesha tu Zcash lakini imeifanya sehemu kuu ya mkakati wake wa faragha.
+Historia hufanya muunganisho huu kuwa muhimu zaidi. Mwaka 2020, wakati ShapeShift ilikuwa bado kampuni ya kati, **iliondoa sarafu za faragha kwenye orodha** zikiwemo Zcash kwa shinikizo la udhibiti. Mpito hadi muundo wa DAO uliikomboa ShapeShift kutoka kwa vikwazo hivyo. Sasa, kama itifaki inayotawaliwa na jamii, ShapeShift haijaorodhesha tena tu Zcash bali pia imeifanya kuwa sehemu kuu ya mkakati wake wa faragha.
 
-With the release of **ShapeShift v4.0** in December 2025, Zcash became the platform's **primary privacy-preserving payment and routing asset**. Privacy is now positioned as a default feature, not an optional add-on, with ZEC integrated directly into ShapeShift's wallet and routing stack.
+Kwa kutolewa kwa **ShapeShift v4.0** mnamo Desemba 2025, Zcash ikawa **mali kuu ya jukwaa ya malipo na uelekezaji inayohifadhi faragha**. Faragha sasa imewekwa kama kipengele chaguo-msingi, si nyongeza ya hiari, huku ZEC ikiunganishwa moja kwa moja kwenye pochi na mfumo wa uelekezaji wa ShapeShift.
 
-### Zcash Community Grants Support Msaada wa Kijamii
+### Usaidizi wa Zcash Community Grants
 
-Makala ya kwanza. [Zcash Misaada ya Jumuiya](https://zcashcommunitygrants.org/) program allocated **$50,000** to support ShapeShift's technical infrastructure and marketing efforts for the Zcash integration. This funding helped the ShapeShift team partner with **Liquify**, a Web3 infrastructure provider supporting 90+ blockchains, to handle remote procedure call (RPC) endpoints for faster execution and improved network reliability.
+Mpango wa [Zcash Community Grants](https://zcashcommunitygrants.org/) ulitenga **$50,000** kusaidia miundombinu ya kiufundi na juhudi za uuzaji za ShapeShift kwa muunganisho wa Zcash. Ufadhili huu uliisaidia timu ya ShapeShift kushirikiana na **Liquify**, mtoa huduma wa miundombinu ya Web3 anayesaidia blockchain zaidi ya 90, kushughulikia miisho ya remote procedure call (RPC) kwa utekelezaji wa haraka zaidi na utegemevu ulioboreshwa wa mtandao.
 
-### Kuendeleza Fedha Zisizohamasishwa
+### Kuendeleza Fedha Zilizogatuliwa
 
-Ushirikiano huu unaonyesha kuwa faragha na utengamano vinaweza kufanya kazi pamoja katika DeFi. Watumiaji wanaweza:
+Muunganisho huu unaonyesha kwamba faragha na ugatuzi vinaweza kufanya kazi pamoja katika DeFi. Watumiaji wanaweza:
 
-- ** Kubadilishana** mali katika minyororo bila waamuzi centralized
-- ** Kudumisha kujitegemea kamili ya fedha zao katika mchakato wote**
-- ** Access shielded ZEC** bila KYC au ukusanyaji wa data
-- ** Kushiriki katika utawala wa** kupitia ishara ya FOX ili kuunda mustakabali wa jukwaa hilo.
+- **Kubadilisha** mali kwenye minyororo bila wapatanishi wa kati
+- **Kudumisha uhifadhi binafsi kamili** wa fedha zao katika mchakato wote
+- **Kufikia ZEC ya faragha** bila KYC au ukusanyaji wa data
+- **Kushiriki katika utawala** kupitia tokeni ya FOX ili kuunda mustakabali wa jukwaa
 
-Kadiri mazingira ya udhibiti yanavyozidi kuwa magumu duniani kote, na maeneo kama vile EU ikichunguza vizuizi kwa teknolojia za kuhifadhi faragha, majukwaa kama ShapeShift hutoa miundombinu mbadala muhimu kwa faragha ya kifedha.
+Kadiri mazingira ya udhibiti yanavyozidi kuwa makali duniani kote, huku maeneo kama EU yakichunguza vikwazo vya teknolojia zinazohifadhi faragha, majukwaa kama ShapeShift hutoa miundombinu mbadala muhimu kwa faragha ya kifedha.
 
 ---
 
@@ -146,33 +146,33 @@ Kadiri mazingira ya udhibiti yanavyozidi kuwa magumu duniani kote, na maeneo kam
 
 | Kipengele | Maelezo |
 |---|---|
-| **Jukwaa** | ShapeShift DAO (iliyogatuliwa, chanzo huria) |
-| **Utawala** | Vishikilia tokeni vya FOX |
-| **Zcash Support** | Biashara kamili ZEC yenye usaidizi wa miamala iliyolindwa |
-| **KYC Inahitajika** | No |
-| **Uangalizi** | Hairuhusiwi (watumiaji huweka funguo zao wenyewe) |
-| **Mabadiliko ya Minyororo Mtambuka** | BTC, ETH, Arbitrum, Cosmos, na zaidi |
-| **Miundombinu** | Inaendeshwa na Liquify (usaidizi wa zaidi ya 90 wa blockchain RPC) |
-| **Zcash Community Grants Funding** | $50,000 kwa usaidizi wa kiufundi na uuzaji |
+| **Jukwaa** | ShapeShift DAO (lililogatuliwa, msimbo huria) |
+| **Utawala** | Wamiliki wa tokeni ya FOX |
+| **Usaidizi wa Zcash** | Biashara kamili ya ZEC yenye usaidizi wa miamala ya faragha |
+| **KYC Inahitajika** | Hapana |
+| **Uhifadhi** | Isiyohifadhiwa na mtu mwingine (watumiaji huhifadhi funguo zao wenyewe) |
+| **Ubadilishaji wa Cross-Chain** | BTC, ETH, Arbitrum, Cosmos, na zaidi |
+| **Miundombinu** | Inaendeshwa na Liquify (usaidizi wa RPC wa blockchain 90+) |
+| **Ufadhili wa Zcash Community Grants** | $50,000 kwa usaidizi wa kiufundi na uuzaji |
 
-ShapeShift na Zcash ushirikiano inawakilisha hatua ya maana mbele kwa faragha katika fedha madaraka. Kwa kuchanganya si custodial, multichain biashara miundombinu ya Shapeshift na zero-maarifa ushahidi teknolojia Zcash wa, watumiaji kupata upatikanaji wa kweli binafsi, ruhusa cryptocurrency biashara. Kwa mtu yeyote ambaye thamani siri za kifedha na uhuru kujitegemea, ujumuishaji huu hutoa njia rahisi, kupatikana kutumia ZEC bila maelewano.
+Muunganisho wa ShapeShift na Zcash unawakilisha hatua muhimu mbele kwa faragha katika fedha zilizogatuliwa. Kwa kuunganisha miundombinu ya biashara ya ShapeShift isiyohifadhiwa na mtu mwingine, ya minyororo mingi, na teknolojia ya thibitisho la maarifa sifuri ya Zcash, watumiaji wanapata ufikiaji wa biashara ya sarafu za kidijitali yenye faragha ya kweli na bila ruhusa. Kwa yeyote anayethamini faragha ya kifedha na mamlaka binafsi, muunganisho huu hutoa njia ya vitendo na inayofikika ya kutumia ZEC bila maelewano.
 
 ---
 
 ### Rasilimali
 
-[ShapeShift Jukwaa la](https://shapeshift.com/)
+[ShapeShift Jukwaa](https://shapeshift.com/)
 
-[Zcash Tovuti rasmi ya Mtandao](https://z.cash/)
+[Tovuti Rasmi ya Zcash](https://z.cash/)
 
-[Zodl Wallet](https://zodl.com)
+[Zodl Pochi](https://zodl.com)
 
-[ShapeShift DAO Utawala (FOX Token)](https://web.archive.org/web/20210126180411/https://shapeshift.com/fox-token)
+[ShapeShift Utawala wa DAO (Tokeni ya FOX)](https://web.archive.org/web/20210126180411/https://shapeshift.com/fox-token)
 
-[Zcash Misaada ya Jumuiya](https://zcashcommunitygrants.org/)
+[Zcash Community Grants](https://zcashcommunitygrants.org/)
 
-[ShapeShift inajumuisha Zcash kuimarisha faragha ya onchain (crypto.news)](https://crypto.news/shapeshift-integrates-zcash-to-enable-true-onchain-privacy/)
+[ShapeShift inaunganisha Zcash ili kuimarisha faragha ya onchain (crypto.news)](https://crypto.news/shapeshift-integrates-zcash-to-enable-true-onchain-privacy/)
 
-[ShapeShift inafunua v4.0, ikizingatia upya faragha na kujilinda katika DeFi (Invezz)](https://invezz.com/news/2025/12/18/shapeshift-unveils-version-4-0-re-centering-privacy-and-self-custody-in-defi/)
+[ShapeShift yazindua v4.0, ikiweka tena faragha na uhifadhi binafsi katikati ya DeFi (Invezz)](https://invezz.com/news/2025/12/18/shapeshift-unveils-version-4-0-re-centering-privacy-and-self-custody-in-defi/)
 
-[ShapeShift inazindua msaada kwa ajili ya shughuli za Zcash walinzi (Cointelegraph)](https://cointelegraph.com/news/shapeshift-rolls-out-support-for-shielded-zcash-transactions-for-true-privacy)
+[ShapeShift yazindua usaidizi wa miamala ya Zcash ya faragha (Cointelegraph)](https://cointelegraph.com/news/shapeshift-rolls-out-support-for-shielded-zcash-transactions-for-true-privacy)

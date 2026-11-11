@@ -7,7 +7,7 @@
 
 ## NEAR Intents 
 
-Zcash na NEAR Intents zimeunganishwa, na kuruhusu watumiaji kubadilishana Zcash (ZEC) na sarafu zingine bora, ikiwa ni pamoja na Bitcoin, Solana, NEAR, na XRP, bila kulipa ada yoyote. Muunganisho huu ni sehemu ya juhudi za NEAR Protocol za kuunda miundombinu ya roboti za AI zinazojitegemea na zinazoweza kuthibitishwa, ambazo pia huleta faida kwa Zcash kwa kuwezesha reli za malipo zinazoendeshwa na AI. Watumiaji wa Zcash sasa wana uwezo wa kufikia mikataba mahiri na pana zaidi [Programu za DeFi](https://nym.com/blog/what-is-defi) huku wakihifadhi faragha yao kupitia [NEAR Intents](https://app.near-intents.org).
+Zcash na NEAR Intents zimeunganishwa, zikiruhusu watumiaji kubadilisha Zcash (ZEC) kwa altcoin nyingine kuu, ikiwemo Bitcoin, Solana, NEAR, na XRP, bila kulipa ada. Muunganisho huu ni sehemu ya juhudi za Itifaki ya NEAR za kuunda miundombinu ya boti za AI zinazojitegemea na zinazoweza kuthibitishwa, ambayo pia huleta manufaa kwa Zcash kwa kuwezesha njia za malipo zinazoendeshwa na AI. Watumiaji wa Zcash sasa wanaweza kufikia mikataba mahiri [smart contracts] na programu pana za [DeFi](https://nym.com/blog/what-is-defi) huku wakihifadhi faragha yao kupitia [NEAR Intents](https://app.near-intents.org).
 
 <div class="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -24,7 +24,7 @@ Zcash na NEAR Intents zimeunganishwa, na kuruhusu watumiaji kubadilishana Zcash 
 
 ## Maya Protocol 
 
-Maya Protocol imeunganisha Zcash ili kuboresha ugatuzi wake, ukwasi, na faragha ya miamala. Ujumuishaji huu unaruhusu watumiaji wa Zcash kufaidika na ubadilishaji wa ugatuzi, na kuwapa unyumbufu zaidi na ukwasi huku wakihifadhi faragha. Pata Maelezo Zaidi: [https://www.mayaprotocol.com/blog-maya-academy/zcash-integrates-maya](https://www.mayaprotocol.com/blog-maya-academy/zcash-integrates-maya)
+Maya Protocol imeunganisha Zcash ili kuboresha ugatuzi wake, ukwasi, na faragha ya miamala. Muunganisho huu unaruhusu watumiaji wa Zcash kunufaika na ubadilishaji uliogatuliwa, ukiwapa unyumbufu na ukwasi zaidi huku ukihifadhi faragha. Jifunze Zaidi: [https://www.mayaprotocol.com/blog-maya-academy/zcash-integrates-maya](https://www.mayaprotocol.com/blog-maya-academy/zcash-integrates-maya)
 
 
 <div class="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
@@ -39,22 +39,22 @@ Maya Protocol imeunganisha Zcash ili kuboresha ugatuzi wake, ukwasi, na faragha 
 </div>
 
 
-**Kumbuka**: Pia inawezekana kuunganisha ETH yoyote ambayo tayari unayo ili kuhifadhi kama Shielded Zcash kwa kutumia Kichupo cha "Release" na kuingiza anwani yako ya Transparent. Kisha unaweza kutumia 'Autoshield' kwenye pochi yako ya simu/desktop. Ili programu hii ibaki ya faragha inashauriwa kutobadilisha kutoka ZEC > ETH na kurudi kutoka ETH > ZEC. 
+**Dokezo**: Pia inawezekana kuhamisha ETH yoyote uliyo nayo tayari kwa daraja hadi hifadhi ya faragha kama Zcash ya faragha kwa kutumia kichupo cha “Release” na kuingiza anwani yako ya uwazi. Kisha unaweza kutumia ‘Autoshield’ katika pochi yako ya simu ya mkononi/kompyuta ya mezani. Ili programu hii ibaki ya faragha, inashauriwa kutobadilisha kutoka ZEC > ETH na kurejea kutoka ETH > ZEC. 
 
 ---
 
 ## Kamino
 
-[Kamino](https://kamino.com/earn/lend) ni mojawapo ya itifaki zinazoongoza za DeFi katika mfumo ikolojia Solana, ikitoa huduma kama vile kukopesha, kukopa, kuhifadhi ukwasi, na usimamizi otomatiki wa ukwasi. Kupitia ujumuishaji na mfumo ikolojia Solana, watumiaji wa Zcash (ZEC) wanaweza kutumia mali za Wrapped ZEC Solana-based kuingiliana na programu mbalimbali za DeFi.
+[Kamino](https://kamino.com/earn/lend) ni mojawapo ya itifaki kuu za DeFi katika mfumo ikolojia wa Solana, ikitoa huduma kama vile ukopeshaji, ukopaji, hifadhi za ukwasi, na usimamizi wa ukwasi wa kiotomatiki. Kupitia muunganisho na mfumo ikolojia wa Solana, watumiaji wa Zcash (ZEC) wanaweza kutumia mali za Wrapped ZEC zinazotegemea Solana kuingiliana na programu mbalimbali za DeFi.
 
-Kwa kutumia Solana Wrapped ZEC, watumiaji wanaweza kufikia vipengele Kamino's vya Kulipwa na Kukopa, na hivyo kuruhusu ZEC kutumika kama mali yenye tija kupitia utoaji wa ukwasi uliogatuliwa na mifumo ya ukopeshaji. Hii inapanua utendaji Zcash's kutoka mali ya malipo ya kibinafsi hadi ile inayoweza kushiriki katika shughuli za kifedha zilizogatuliwa.
+Kwa kutumia Wrapped ZEC ya Solana, watumiaji wanaweza kufikia vipengele vya Earn na Lending vya Kamino, kuruhusu ZEC kutumika kama mali yenye tija kupitia utoaji wa ukwasi uliogatuliwa na mifumo ya ukopeshaji. Hii hupanua utendaji wa Zcash kutoka mali ya malipo ya faragha hadi mali inayoweza kushiriki katika shughuli za kifedha zilizogatuliwa.
 
-Kuunganishwa na Kamino kunafungua fursa kwa Zcash kuingia katika mfumo ikolojia wa Solana DeFi, ambao una miamala ya haraka, ada za chini, na matumizi mbalimbali ya kifedha yanayotegemea mikataba mahiri.
+Muunganisho na Kamino hufungua fursa kwa Zcash kuingia katika mfumo ikolojia wa DeFi wa Solana, unaojumuisha miamala ya haraka, ada za chini, na anuwai pana ya programu za kifedha zinazotegemea mikataba mahiri.
 
-Jifunze Zaidi: [Jifunze Kamino](https://kamino.com/docs/learn/guides)
+Jifunze Zaidi: [Kamino Jifunze](https://kamino.com/docs/learn/guides)
 
 
-> Pata mkopo ZEC-backed kwenye Solana. Soko la Zcash kwenye Kamino limekua hadi zaidi ya $2M, na kuwapa wamiliki wa ZEC ufikiaji wa ukwasi USDC dhidi ya $ZEC katika soko lililotengwa kikamilifu lililosimamiwa na @AllezLabs.
+> Fikia mkopo unaoungwa mkono na ZEC kwenye Solana. Soko la Zcash kwenye Kamino limekua hadi zaidi ya $2M, likiwapa wamiliki wa ZEC ufikiaji wa ukwasi wa USDC dhidi ya $ZEC katika soko lililotengwa kikamilifu lililoratibiwa na @AllezLabs.
 >
 > — [Kamino kwenye X](https://x.com/kamino/status/2098485250816946322)
 
@@ -63,13 +63,13 @@ Jifunze Zaidi: [Jifunze Kamino](https://kamino.com/docs/learn/guides)
 
 ## Daraja la ZenRock
 
-[Daraja la ZenRock](https://zenrocklabs.io/) hutoa suluhisho la utendakazi wa blockchain linalowezesha uhamishaji salama na mzuri wa mali kwenye mitandao.
+Daraja la [ZenRock](https://zenrocklabs.io/) hutoa suluhisho la ushirikiano kati ya blockchain linalowezesha uhamishaji salama na wenye ufanisi wa mali katika mitandao mbalimbali.
 
-Katika muktadha wa Zcash, teknolojia za daraja kama ZenRock huruhusu mali za ZEC kuungana na mifumo mingine ya blockchain inayounga mkono mikataba mahiri na programu za DeFi. Hii inawawezesha watumiaji kuleta thamani ya Zcash kwenye mitandao mbalimbali bila kupoteza kubadilika katika jinsi wanavyotumia mali zao.
+Katika muktadha wa Zcash, teknolojia za daraja kama ZenRock huruhusu mali za ZEC kuunganishwa na mifumo mingine ikolojia ya blockchain inayounga mkono mikataba mahiri na programu za DeFi. Hii huwawezesha watumiaji kuleta thamani ya Zcash kwenye mitandao mbalimbali bila kupoteza unyumbufu wa jinsi wanavyotumia mali zao.
 
-Ushirikiano ni sehemu muhimu katika ukuzaji wa DeFi kwa sababu inaruhusu mali kutoka kwa blockchain maalum kushiriki katika uchumi wa kidijitali wa mtandao mtambuka. 
+Ushirikiano ni sehemu muhimu katika maendeleo ya DeFi kwa sababu unaruhusu mali kutoka blockchain mahususi kushiriki katika uchumi wa kidijitali wa mitandao mbalimbali. 
 
-Jifunze Zaidi Kwenye: [Daraja la ZenRock Jifunze](https://docs.zenrocklabs.io/)
+Jifunze Zaidi Katika : [ZenRock Bridge Jifunze](https://docs.zenrocklabs.io/)
 
 <div class="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/GUczWBmO74M?si=fzuxS1HzshFqxNHc" title="ZR Talks Ep.10, ZenRock co-founders Aditya Dave and Jack Krevitt discuss Zcash on Solana." allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -77,22 +77,22 @@ Jifunze Zaidi Kwenye: [Daraja la ZenRock Jifunze](https://docs.zenrocklabs.io/)
 
 ---
 
-## Mfumo Ekolojia ZEC Solana Uliofungwa (Meteora, Orca, na Raydium)
+## Mfumo Ikolojia wa Wrapped ZEC wa Solana (Meteora, Orca, na Raydium)
 
-Solana Wrapped ZEC huwezesha Zcash kutumika ndani ya mfumo ikolojia Solana kupitia uwakilishi wa mali unaoendana na kiwango cha mtandao Solana.
+Wrapped ZEC ya Solana huwezesha Zcash kutumika ndani ya mfumo ikolojia wa Solana kupitia uwakilishi wa mali unaooana na kiwango cha mtandao wa Solana.
 
-Kwa kutumia Wrapped ZEC, watumiaji wanaweza kuingiliana na itifaki mbalimbali za DeFi kama vile:
+Kwa Wrapped ZEC, watumiaji wanaweza kuingiliana na itifaki mbalimbali za DeFi kama vile:
 
-- Mabwawa ya kioevu
-- Mabadilishano yaliyogatuliwa (DEX)
+- Mabwawa ya ukwasi
+- Masoko ya kubadilishana sarafu yaliyogatuliwa (DEX)
 - Kilimo cha mavuno
-- Uundaji wa soko kiotomatiki
+- Utengenezaji wa soko wa kiotomatiki
 
-Itifaki kama vile [Meteora](https://www.meteora.ag/), [Orca](https://www.orca.so/)na [Raydium](https://raydium.io/swap/?inputMint=sol&outputMint=4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R) kutoa miundombinu ya ukwasi inayowezesha ZEC kushiriki katika shughuli za biashara na utoaji wa ukwasi.
+Itifaki kama [Meteora](https://www.meteora.ag/), [Orca](https://www.orca.so/), na [Raydium](https://raydium.io/swap/?inputMint=sol&outputMint=4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R) hutoa miundombinu ya ukwasi inayowezesha ZEC kushiriki katika shughuli za biashara na utoaji wa ukwasi.
 
-Muunganisho huu unachanganya faida za faragha Zcash's na kasi na ufanisi wa mtandao Solana, na kuunda matumizi mapya ya mali binafsi ndani ya mfumo ikolojia wa kisasa wa DeFi.
+Muunganisho huu unaunganisha faida za faragha za Zcash na kasi pamoja na ufanisi wa mtandao wa Solana, na kuunda matumizi mapya ya mali za faragha ndani ya mfumo wa kisasa wa DeFi.
 
-Jifunze Zaidi Kwenye: <br /> 1. [Meteora Jifunze](https://docs.meteora.ag/get-started). <br />
+Jifunze Zaidi Katika: <br /> 1. [Meteora Jifunze](https://docs.meteora.ag/get-started). <br />
                2. [Orca Jifunze](https://docs.orca.so/developers/overview). <br />
                3. [Raydium Jifunze](https://docs.raydium.io/).
 
@@ -100,43 +100,43 @@ Jifunze Zaidi Kwenye: <br /> 1. [Meteora Jifunze](https://docs.meteora.ag/get-st
 
 ## THORChain / THORSwap
 
-[THORChain](https://thorchain.org/) ni itifaki ya ukwasi wa mnyororo mtambuka ambayo inaruhusu watumiaji kubadilishana mali asilia kutoka kwa blockchains mbalimbali bila kutegemea tokeni za kawaida zilizofungwa.
+[THORChain](https://thorchain.org/) ni itifaki ya ukwasi ya cross-chain inayowaruhusu watumiaji kubadilisha mali asili kutoka blockchain mbalimbali bila kutegemea tokeni za wrapped za jadi.
 
-Kupitia [THORChain](https://thorchain.org/) na [THORSwap](https://thorswap.finance/), watumiaji wanaweza kubadilishana mali katika blockchains, ikiwa ni pamoja na Zcash (ZEC). Muunganisho huu unaipa Zcash ufikiaji wa moja kwa moja wa ukwasi uliogatuliwa kupitia mtandao wa THORChain, na kuruhusu watumiaji kudumisha sifa za mali asili bila kulazimika kutumia wapatanishi wa kati.
+Kupitia [THORChain](https://thorchain.org/) na [THORSwap](https://thorswap.finance/), watumiaji wanaweza kubadilisha mali katika blockchain mbalimbali, ikiwemo Zcash (ZEC). Muunganisho huu huipa Zcash ufikiaji wa moja kwa moja wa ukwasi uliogatuliwa kupitia mtandao wa THORChain, ukiwaruhusu watumiaji kudumisha sifa za mali asili bila kutumia wapatanishi wa kati.
 
-Kwa kuanzishwa kwa bwawa la ZEC [THORChain](https://thorchain.org/), the [THORChain](https://thorchain.org/) mtandao sasa unaunga mkono shughuli za ukwasi Zcash bila ruhusa. [THORChain](https://thorchain.org/) nodi zinaweza kufuatilia blockchain Zcash na kutoa miundombinu ya biashara ya mnyororo mtambuka kati ya ZEC na mali zingine za blockchain.
+Kwa kuanzishwa kwa bwawa la ZEC kwenye [THORChain](https://thorchain.org/), mtandao wa [THORChain](https://thorchain.org/) sasa unaunga mkono shughuli za ukwasi za Zcash bila ruhusa. Node za [THORChain](https://thorchain.org/) zinaweza kufuatilia blockchain ya Zcash na kutoa miundombinu ya biashara ya cross-chain kati ya ZEC na mali nyingine za blockchain.
 
-Muunganisho huu hutoa faida kadhaa kwa mfumo ikolojia Zcash:
+Muunganisho huu hutoa manufaa kadhaa kwa mfumo ikolojia wa Zcash:
 
-- Upatikanaji wa ukwasi wa mnyororo mtambuka;
-- biashara ya ZEC bila kutegemea masoko ya kati;
-- Uwezekano wa kuingiliana na mali zingine za blockchain umeimarishwa;
+- Ufikiaji wa ukwasi wa cross-blockchain;
+- Biashara ya ZEC bila kutegemea masoko ya kubadilishana sarafu ya kati;
+- Ushirikiano ulioimarishwa na mali nyingine za blockchain;
 - Matumizi yaliyopanuliwa ya ZEC ndani ya mfumo ikolojia wa DeFi wa minyororo mingi.
 
-Jifunze Zaidi kuhusu: <br /> 1. [Maono ya THORChain](https://thorchain.org/vision) <br />
-               2. [Jifunze kuhusu THORSwap](https://docs.thorswap.finance/thorswap)
+Jifunze Zaidi katika: <br /> 1. [THORChain Dira](https://thorchain.org/vision) <br />
+               2. [THORSwap Jifunze](https://docs.thorswap.finance/thorswap)
 
 ---
 
-## Itifaki Templar
+## Itifaki ya Templar
 
-[Itifaki Templar](https://www.templarfi.org/) ni itifaki ya DeFi inayolenga kutengeneza suluhisho za kifedha zinazohifadhi faragha.
+Itifaki ya [Templar](https://www.templarfi.org/) ni itifaki ya DeFi inayolenga kutengeneza suluhisho za kifedha zinazohifadhi faragha.
 
-Kwa kuchanganya dhana za DeFi na teknolojia ya faragha ya blockchain, Itifaki ya Templar inalenga kuunda programu za kifedha ambazo hubaki wazi huku zikilinda data nyeti ya watumiaji.
+Kwa kuunganisha dhana za DeFi na teknolojia ya faragha ya blockchain, Itifaki ya Templar inalenga kuunda programu za kifedha ambazo zinabaki wazi huku zikilinda data nyeti ya watumiaji.
 
-Kwa mfumo ikolojia Zcash, mbinu hii inaendana na maono ya kukuza fedha zinazohifadhi faragha kulingana na teknolojia isiyo na ujuzi wowote. Ujumuishaji wa teknolojia ya faragha na DeFi huwezesha uundaji wa huduma za kifedha ambazo ni salama zaidi, za faragha, na zinazolenga watumiaji.
+Kwa mfumo ikolojia wa Zcash, mbinu hii inaendana na dira ya kuendeleza fedha zinazohifadhi faragha kwa msingi wa teknolojia ya maarifa sifuri [zero-knowledge]. Muunganisho wa teknolojia ya faragha na DeFi huwezesha uundaji wa huduma za kifedha zilizo salama zaidi, za faragha zaidi, na zinazowalenga watumiaji.
 
-Jifunze Zaidi kuhusu: [Itifaki ya Templar Jifunze](https://docs.templarfi.org/guide/)
+Jifunze Zaidi katika : [Templar Protocol Jifunze](https://docs.templarfi.org/guide/)
 
 ---
 
-## Kutumia cbZEC kwenye DeFi Base
+## Kutumia cbZEC kwenye DeFi ya Base
 
-cbZEC huleta ukwasi wa Zcash katika mfumo ikolojia Base kwa kuruhusu watumiaji wa ZEC kuingiliana na programu mbalimbali za fedha zilizogatuliwa (DeFi) bila kulazimika kuacha kuathiriwa na mfumo ikolojia Zcash.
+cbZEC huleta ukwasi wa Zcash katika mfumo ikolojia wa Base kwa kuruhusu watumiaji wa ZEC kuingiliana na programu mbalimbali za fedha zilizogatuliwa (DeFi) bila kuacha ushiriki wao katika mfumo ikolojia wa Zcash.
 
-Kupitia [Mtandao Base](https://www.base.org/), cbZEC hutumika kama uwakilishi wa ZEC ambayo inaweza kutumika ndani ya mazingira ya Ethereum Layer-2. Hii inaruhusu watumiaji kubadilishana mali, kutoa ukwasi, kufikia masoko ya mikopo, na kutumia huduma mbalimbali za DeFi zenye ada za chini za miamala na uthibitisho wa haraka ikilinganishwa na mtandao mkuu wa Ethereum.
+Kupitia mtandao wa [Base](https://www.base.org/), cbZEC hutumika kama uwakilishi wa ZEC unaoweza kutumika ndani ya mazingira ya Ethereum Layer-2. Hii huwaruhusu watumiaji kubadilisha mali, kutoa ukwasi, kufikia masoko ya ukopeshaji, na kutumia huduma mbalimbali za DeFi kwa ada za chini za miamala na uthibitisho wa haraka zaidi ikilinganishwa na mtandao mkuu wa Ethereum.
 
-[Ujumuishaji](https://x.com/base/status/2094848959986409953?s=20) Kuongeza matumizi ya cbZEC katika mifumo mbalimbali Base DeFi hupanua matumizi Zcash's kutoka mali ya malipo tu hadi ile inayoweza kutumika katika shughuli mbalimbali za kifedha zilizogatuliwa.
+[Muunganisho](https://x.com/base/status/2094848959986409953?s=20) wa cbZEC katika majukwaa mbalimbali ya DeFi ya Base hupanua matumizi ya Zcash kutoka kuwa mali ya malipo pekee hadi mali inayoweza kutumika katika anuwai pana ya shughuli za kifedha zilizogatuliwa.
 
 <div class="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   
@@ -144,59 +144,59 @@ Kupitia [Mtandao Base](https://www.base.org/), cbZEC hutumika kama uwakilishi wa
 
 </div>
 
-Hapa chini kuna mifumo ya DeFi kwenye Base inayounga mkono cbZEC 
+Hapa chini kuna majukwaa ya DeFi kwenye Base yanayounga mkono cbZEC 
 
 ---
 
-### Slipstream Aerodrome
+### Aerodrome Slipstream
 
-[Slipstream Aerodrome](https://aerodrome.finance/) ni mojawapo ya mabwawa makubwa zaidi ya ukwasi kwenye mtandao wa Base. Aerodrome hutumia mfumo wa ve(3,3) unaochanganya mifumo ya upigaji kura wa escrow na motisha za ukwasi ili kuunda soko lenye ufanisi.
+[Aerodrome Slipstream](https://aerodrome.finance/) ni mojawapo ya mabwawa makubwa zaidi ya ukwasi kwenye mtandao wa Base. Aerodrome hutumia modeli ya ve(3,3) inayounganisha mifumo ya upigaji kura kwa escrow na vivutio vya ukwasi ili kuunda soko lenye ufanisi.
 
-Aerodrome Slipstream inaleta dhana ya ukwasi uliojilimbikizia, sawa na Uniswap V3, ikiruhusu watoa huduma za ukwasi kutaja kiwango maalum cha bei ili mtaji uweze kutumika kwa ufanisi zaidi.
+Aerodrome Slipstream huanzisha dhana ya ukwasi uliokolezwa, sawa na Uniswap V3, ikiruhusu watoa ukwasi kubainisha kiwango mahususi cha bei ili mtaji utumike kwa ufanisi zaidi.
 
-Kwa usaidizi wa cbZEC, watumiaji wanaweza:
+Kwa msaada wa cbZEC, watumiaji wanaweza:
 
-- Badilisha cbZEC kwa mali zingine kwenye mtandao Base.
-- Toa ukwasi cbZEC ili kupata ada za miamala.
-- Shiriki katika mfumo mkuu wa ukwasi Base's.
+- Kubadilisha cbZEC kwa mali nyingine kwenye mtandao wa Base.
+- Kutoa ukwasi wa cbZEC ili kupata ada za miamala.
+- Kushiriki katika mfumo mkuu wa ukwasi wa Base.
 
-Muunganisho huu unaifanya Aerodrome kuwa mojawapo ya njia kuu kwa watumiaji wa Zcash kufikia soko la Base DeFi.
+Muunganisho huu hufanya Aerodrome kuwa mojawapo ya njia kuu za watumiaji wa Zcash kufikia soko la DeFi la Base.
 
-Jifunze Zaidi: [Slipstream Aerodrome](https://aerodrome.finance/swap?from=0x833589fcd6edb6e08f4c7c32d4f71b54bda02913&to=0xb2000000000000000000008501b13360000cb2ec&chain0=8453&chain1=8453)
+Jifunze Zaidi : [Aerodrome Slipstream](https://aerodrome.finance/swap?from=0x833589fcd6edb6e08f4c7c32d4f71b54bda02913&to=0xb2000000000000000000008501b13360000cb2ec&chain0=8453&chain1=8453)
 
 ---
 
 ### Uniswap V3 (Base)
 
-[Uniswap V3](https://app.uniswap.org/?intro=true) ni mojawapo ya itifaki kubwa zaidi za ubadilishaji wa fedha zilizogatuliwa zinazotumia mfumo wa mtengenezaji wa soko otomatiki (AMM).
+[Uniswap V3](https://app.uniswap.org/?intro=true) ni mojawapo ya itifaki kubwa zaidi za soko la kubadilishana sarafu lililogatuliwa zinazotumia modeli ya mtengenezaji soko wa kiotomatiki (AMM).
 
-Kwenye mtandao Base, Uniswap V3 hutoa mfumo wa ukwasi uliojikita unaoruhusu watoa huduma za ukwasi kutenga mtaji ndani ya safu maalum ya bei.
+Kwenye mtandao wa Base, Uniswap V3 hutoa mfumo wa ukwasi uliokolezwa unaoruhusu watoa ukwasi kutenga mtaji ndani ya kiwango mahususi cha bei.
 
-Usaidizi wa cbZEC kwenye Uniswap V3 Base huruhusu watumiaji:
+Msaada kwa cbZEC kwenye Uniswap V3 Base huwaruhusu watumiaji:
 
-- Fanya biashara cbZEC bila ruhusa.
-- Toa ukwasi kwa jozi za cbZEC.
-- Fikia miundombinu ya ukwasi inayotumiwa na programu nyingi za DeFi.
+- Kufanya biashara ya cbZEC bila ruhusa.
+- Kutoa ukwasi kwa jozi za cbZEC.
+- Kufikia miundombinu ya ukwasi inayotumiwa na programu nyingi za DeFi.
 
-Mfano wa ukwasi uliojilimbikizia huboresha ufanisi wa mtaji ikilinganishwa na mifumo ya kawaida ya AMM.
+Modeli ya ukwasi uliokolezwa huboresha ufanisi wa mtaji ikilinganishwa na modeli za jadi za AMM.
 
-Jifunze Zaidi: [Uniswap V3](https://app.uniswap.org/swap)
+Jifunze Zaidi : [Uniswap V3](https://app.uniswap.org/swap)
 
 ---
 
 ### Uniswap V4 (Base)
 
-[Uniswap V4](https://app.uniswap.org/?intro=true) ni kizazi kipya zaidi cha itifaki ya Uniswap, inayoanzisha usanifu unaotegemea "ndoano".
+[Uniswap V4](https://app.uniswap.org/?intro=true) ni kizazi cha hivi karibuni zaidi cha itifaki ya Uniswap, kinachoanzisha usanifu unaotegemea “hooks”.
 
-Hooks huruhusu wasanidi programu kuunda vipengele vya ziada ndani ya mabwawa ya ukwasi, kama vile mikakati ya biashara otomatiki, mifumo ya ada maalum, na mantiki ya mabwawa yanayoweza kubadilishwa.
+Hooks huwaruhusu wasanidi programu kuunda vipengele vya ziada ndani ya mabwawa ya ukwasi, kama vile mikakati ya biashara ya kiotomatiki, mifumo maalum ya ada, na mantiki ya bwawa inayoweza kubadilishwa.
 
-Kwa cbZEC, kuunganishwa na Uniswap V4 kunafungua fursa kwa:
+Kwa cbZEC, muunganisho na Uniswap V4 hufungua fursa za:
 
-- Mabwawa ya kioevu yenye mifumo inayonyumbulika zaidi.
-- Mikakati tata zaidi ya DeFi.
-- Ujumuishaji na matumizi ya fedha ya kizazi kijacho yaliyogatuliwa.
+- Mabwawa ya ukwasi yenye mifumo inayonyumbulika zaidi.
+- Mikakati changamano zaidi ya DeFi.
+- Muunganisho na programu za fedha zilizogatuliwa za kizazi kijacho.
 
-Uniswap V4 hutoa msingi unaoweza kubadilishwa kwa urahisi kwa mali kama vile cbZEC kustawi ndani ya mfumo ikolojia Base.
+Uniswap V4 hutoa msingi unaoweza kubadilishwa zaidi kwa mali kama cbZEC kustawi ndani ya mfumo ikolojia wa Base.
 
 Jifunze Zaidi:[Uniswap V4](https://app.uniswap.org/swap)
 
@@ -204,17 +204,17 @@ Jifunze Zaidi:[Uniswap V4](https://app.uniswap.org/swap)
 
 ### Hydrex Integral
 
-[Hydrex Integral](https://www.hydrex.fi/) ni jukwaa la kubadilishana lililogatuliwa linalolenga kuboresha uelekezaji wa miamala.
+[Hydrex Integral](https://www.hydrex.fi/) ni jukwaa la soko la kubadilishana sarafu lililogatuliwa linalolenga kuboresha uelekezaji wa miamala.
 
-Jukwaa hili huwasaidia watumiaji kufikia utekelezaji bora wa ubadilishaji kwa kupata vyanzo bora vya ukwasi vinavyopatikana.
+Jukwaa hili huwasaidia watumiaji kutekeleza ubadilishaji kwa ufanisi zaidi kwa kutafuta vyanzo bora zaidi vya ukwasi vinavyopatikana.
 
-Kwa usaidizi wa cbZEC, watumiaji wanaweza:
+Kwa msaada wa cbZEC, watumiaji wanaweza:
 
-- Badilisha cbZEC kwa mali zingine Base.
-- Pata bei bora zaidi za biashara.
-- Fikia vyanzo mbalimbali vya ukwasi kupitia kiolesura kimoja.
+- Kubadilisha cbZEC kwa mali nyingine za Base.
+- Kupata bei bora zaidi za biashara.
+- Kufikia vyanzo mbalimbali vya ukwasi kupitia kiolesura kimoja.
 
-Hydrex hupanua ufikiaji wa cbZEC kwa kurahisisha mchakato wa biashara ndani ya mfumo ikolojia Base.
+Hydrex hupanua ufikiaji wa cbZEC kwa kurahisisha mchakato wa biashara ndani ya mfumo ikolojia wa Base.
 
 Jifunze Zaidi: [Hydrex Integral](https://www.hydrex.fi/swap?inputCurrency=0xb2000000000000000000008501b13360000cb2ec&outputCurrency=0x833589fcd6edb6e08f4c7c32d4f71b54bda02913&tokenIn=0x833589fcd6edb6e08f4c7c32d4f71b54bda02913&tokenOut=0xb2000000000000000000008501b13360000cb2ec)
 
@@ -222,17 +222,17 @@ Jifunze Zaidi: [Hydrex Integral](https://www.hydrex.fi/swap?inputCurrency=0xb200
 
 ### Curve (Base)
 
-[Fedha Curve](https://www.curve.finance/dex/base/swap) ni soko la hisa lililotengwa kwa ajili ya biashara ya mali zenye sifa zinazofanana kwa kutumia utaratibu wa AMM ulioboreshwa ili kupunguza kuteleza.
+[Curve Finance](https://www.curve.finance/dex/base/swap) ni soko la kubadilishana sarafu lililogatuliwa lililoundwa kwa biashara ya mali zenye sifa zinazofanana kwa kutumia utaratibu wa AMM ulioboreshwa kupunguza slippage.
 
-Kwenye mtandao Base, Curve hutoa miundombinu ya ukwasi ambayo inaweza kutumika na mali mbalimbali za DeFi.
+Kwenye mtandao wa Base, Curve hutoa miundombinu ya ukwasi inayoweza kutumiwa na mali mbalimbali za DeFi.
 
-Ujumuishaji wa cbZEC na Curve huwezesha:
+Muunganisho wa cbZEC na Curve huwezesha:
 
-- Mabadiliko ya mali yenye mteremko mdogo.
+- Ubadilishaji wa mali wenye slippage ndogo.
 - Utoaji wa ukwasi wenye ufanisi zaidi.
-- Maendeleo ya soko la cbZEC lenye utulivu zaidi.
+- Maendeleo ya soko thabiti zaidi la cbZEC.
 
-Curve husaidia kuimarisha ukwasi wa cbZEC ndani ya mfumo ikolojia Base DeFi.
+Curve husaidia kuimarisha ukwasi wa cbZEC ndani ya mfumo ikolojia wa DeFi wa Base.
 
 Jifunze Zaidi: [Curve (Base)](https://www.curve.finance/dex/base/pools/0xDEcb02dbB077a21C91CA122B97FeC756c1bBbB04)
 
@@ -240,53 +240,53 @@ Jifunze Zaidi: [Curve (Base)](https://www.curve.finance/dex/base/pools/0xDEcb02d
 
 ### DZap
 
-[DZap](https://www.dzap.io/) ni jukwaa la mkusanyiko wa DeFi ambalo hutoa ufikiaji rahisi wa shughuli mbalimbali za biashara na usimamizi wa mali za kidijitali.
+[DZap](https://www.dzap.io/) ni jukwaa la kijumlishi la DeFi linalotoa ufikiaji rahisi wa shughuli mbalimbali za biashara na usimamizi wa mali za kidijitali.
 
-Pamoja na [usaidizi cbZEC](https://x.com/dzap_io/status/2095199808177021031?s=20), watumiaji wanaweza kutekeleza miamala bila kulazimika kubadili kati ya mifumo ya kubadilishana iliyogawanywa.
+Kwa msaada wa [cbZEC](https://x.com/dzap_io/status/2095199808177021031?s=20), watumiaji wanaweza kutekeleza miamala bila kubadili kati ya majukwaa ya masoko ya kubadilishana sarafu yaliyogatuliwa.
 
 Vipengele vinavyopatikana:
 
-- Badilisha cbZEC kupitia mkusanyiko wa ukwasi.
-- Upatikanaji wa vyanzo mbalimbali vya biashara.
-- Uzoefu rahisi wa miamala kwa watumiaji.
+- Kubadilisha cbZEC kupitia ujumuishaji wa ukwasi.
+- Ufikiaji wa vyanzo mbalimbali vya biashara.
+- Uzoefu rahisi zaidi wa miamala kwa watumiaji.
 
-Ujumuishaji DZap husaidia kupanua utumiaji wa cbZEC kwa kutoa ufikiaji rahisi kwa watumiaji wa DeFi.
+Muunganisho wa DZap husaidia kupanua matumizi ya cbZEC kwa kutoa ufikiaji rahisi zaidi kwa watumiaji wa DeFi.
 
 Jifunze Zaidi: [Dzap](https://app.dzap.io/trade?fromChain=8453&fromToken=0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913&toChain=8453&toToken=0xB2000000000000000000008501b13360000cb2EC)
 
 ---
 
-### Clearstar cbAssets Vault on Morpho
+### Clearstar cbAssets Vault kwenye Morpho
 
-[Morpho](https://markets.morpho.org/fixed) ni itifaki ya utoaji mikopo yenye mamlaka ya serikali ambayo hutoa soko la utoaji mikopo lenye ufanisi mkubwa wa mtaji.
+[Morpho](https://markets.morpho.org/fixed) ni itifaki ya ukopeshaji iliyogatuliwa inayotoa soko la ukopeshaji lenye ufanisi mkubwa wa mtaji.
 
-[Maabara ya Clearstar](clearstar.xyz) inaanzisha cbAssets Vault kupitia Morpho, na kuwezesha mali kama vile cbZEC kutumika katika soko la mikopo.
+[Clearstar Labs](clearstar.xyz) huanzisha cbAssets Vault kupitia Morpho, ikiruhusu mali kama cbZEC kutumika katika soko la ukopeshaji.
 
 Kupitia hifadhi hii, watumiaji wanaweza:
 
-- Toa cbZEC kama ukwasi wa kukopesha.
-- Pata mavuno kutokana na shughuli za mikopo.
-- Tumia cbZEC kama sehemu ya soko la mikopo lililogatuliwa.
+- Kutoa cbZEC kama ukwasi wa ukopeshaji.
+- Kupata mapato kutokana na shughuli za ukopeshaji.
+- Kutumia cbZEC kama sehemu ya soko la mikopo lililogatuliwa.
 
-[Muunganisho huu](https://x.com/ClearstarLabs/status/2102035274096361747?s=20) ni hatua muhimu kwa sababu inafanya cbZEC si tu kuwa mali ya biashara, bali pia kuwa mali yenye tija ndani ya mfumo ikolojia wa DeFi.
+[Muunganisho huu](https://x.com/ClearstarLabs/status/2102035274096361747?s=20) ni hatua muhimu kwa sababu hufanya cbZEC isiwe mali ya biashara pekee, bali pia mali yenye tija ndani ya mfumo ikolojia wa DeFi.
 
-Jifunze Zaidi: [Clearstar cbAssets Vault on Morpho](https://app.morpho.org/base/variable/0xe458a501c1103ca3b256f2bcb45d223263fb34b6349d82675494ce3a94ce1327/usdc-cbzec)
+Jifunze Zaidi: [Clearstar cbAssets Vault kwenye Morpho](https://app.morpho.org/base/variable/0xe458a501c1103ca3b256f2bcb45d223263fb34b6349d82675494ce3a94ce1327/usdc-cbzec)
 
 ---
 
 ### Bankr
 
-[Bankr](https://bankr.bot/terminal) ni jukwaa la biashara ya crypto linalochanganya teknolojia ya AI na ufikiaji wa DeFi.
+[Bankr](https://bankr.bot/terminal) ni jukwaa la biashara ya crypto linalounganisha teknolojia ya AI na ufikiaji wa DeFi.
 
-[Kwa usaidizi wa cbZEC](https://x.com/bankrbot/status/2094853589546258776?s=20), watumiaji wanaweza kubadilishana cbZEC kupitia kiolesura rahisi zaidi.
+[Kwa msaada wa cbZEC](https://x.com/bankrbot/status/2094853589546258776?s=20), watumiaji wanaweza kufanya biashara ya cbZEC kupitia kiolesura rahisi zaidi.
 
 Vipengele muhimu:
 
-- Biashara inayoendeshwa na akili bandia (AI).
+- Biashara inayoendeshwa na AI.
 - Utekelezaji rahisi wa ubadilishaji.
-- Ufikiaji wa moja kwa moja kwenye soko la Base.
+- Ufikiaji wa moja kwa moja wa soko la Base.
 
-Bankr huwasaidia watumiaji wapya na wenye uzoefu kuingiliana na cbZEC bila kulazimika kupitia michakato tata ya DeFi.
+Bankr huwasaidia watumiaji wapya na wenye uzoefu kuingiliana na cbZEC bila kuhitaji kupitia michakato changamano ya DeFi.
 
 Jifunze Zaidi: [Bankr](https://bankr.bot/terminal/trade?in=0x833589fcd6edb6e08f4c7c32d4f71b54bda02913&out=0xb2000000000000000000008501b13360000cb2ec&chain=base)
 
@@ -294,17 +294,17 @@ Jifunze Zaidi: [Bankr](https://bankr.bot/terminal/trade?in=0x833589fcd6edb6e08f4
 
 ### Matcha
 
-[Matcha](https://matcha.xyz/) ni kikusanyaji cha ubadilishaji kilichogawanywa kinachotumia teknolojia ya Itifaki ya 0x ili kupata bei bora zaidi kutoka kwa vyanzo mbalimbali vya ukwasi.
+[Matcha](https://matcha.xyz/) ni kijumlishi cha masoko ya kubadilishana sarafu yaliyogatuliwa kinachotumia teknolojia ya 0x Protocol kupata bei bora zaidi kutoka vyanzo mbalimbali vya ukwasi.
 
-[Kwa usaidizi wa cbZEC](https://x.com/matchaxyz/status/2094870175313281203?s=20), Matcha huwawezesha watumiaji kufurahia uzoefu wa kubadilishana wenye ufanisi zaidi.
+[Kwa msaada wa cbZEC](https://x.com/matchaxyz/status/2094870175313281203?s=20), Matcha huwawezesha watumiaji kufurahia uzoefu wa ubadilishaji wenye ufanisi zaidi.
 
 Faida za kutumia Matcha:
 
-- Mkusanyiko wa vyanzo mbalimbali vya ukwasi.
-- Uboreshaji wa bei ya miamala.
+- Ujumuishaji wa vyanzo mbalimbali vya ukwasi.
+- Uboreshaji wa bei za miamala.
 - Hupunguza hitaji la kutafuta mabwawa kwa mikono.
 
-Muunganisho huu unapanua ufikiaji cbZEC's kwa mtandao mpana wa biashara wa DeFi.
+Muunganisho huu hupanua ufikiaji wa cbZEC kwa mtandao mpana zaidi wa biashara ya DeFi.
 
 Jifunze Zaidi: [Matcha](https://matcha.xyz/swap/base/0xb2000000000000000000008501b13360000cb2ec?buyAddress=0xb2000000000000000000008501b13360000cb2ec&buyChain=8453&sellAddress=0x833589fcd6edb6e08f4c7c32d4f71b54bda02913&sellChain=8453)
 
@@ -312,66 +312,66 @@ Jifunze Zaidi: [Matcha](https://matcha.xyz/swap/base/0xb200000000000000000000850
 
 ### Banana Gun
 
-[Banana Gun](https://bananagun.io/) ni jukwaa la biashara linalotegemea roboti linaloruhusu watumiaji kutekeleza miamala ya crypto kupitia Telegram.
+[Banana Gun](https://bananagun.io/) ni jukwaa la biashara linalotegemea boti linalowaruhusu watumiaji kutekeleza miamala ya crypto kupitia Telegram.
 
-[Kwa usaidizi wa cbZEC](https://x.com/bananagun/status/2094898512676991129?s=20), watumiaji wanaweza kufikia biashara ya cbZEC kupitia mfumo otomatiki.
+[Kwa msaada wa cbZEC](https://x.com/bananagun/status/2094898512676991129?s=20), watumiaji wanaweza kufikia biashara ya cbZEC kupitia mfumo wa kiotomatiki.
 
 Vipengele:
 
-- Kubadilishana kwa tokeni haraka.
-- Biashara otomatiki.
-- Ushirikiano na jumuiya za biashara Telegram-based.
+- Ubadilishaji wa tokeni wa haraka.
+- Biashara ya kiotomatiki.
+- Muunganisho na jumuiya za biashara zinazotegemea Telegram.
 
-Muunganisho wa Banana Gun huleta cbZEC karibu na watumiaji wanaotumia zana za biashara otomatiki.
+Muunganisho wa Banana Gun huleta cbZEC karibu zaidi na watumiaji wanaotumia vifaa vya biashara vya kiotomatiki.
 
 Jifunze Zaidi: [Banana Gun](https://pro.bananagun.io/app)
 
 ---
 
-### Pochi Bitget
+### Pochi ya Bitget
 
-[Pochi Bitget](https://web3.bitget.com/) ni pochi ya Web3 yenye minyororo mingi ambayo hutoa hifadhi ya mali, ubadilishaji wa tokeni, na ufikiaji wa programu za fedha zilizotengwa (DeFi).
+Pochi ya [Bitget](https://web3.bitget.com/) ni pochi ya Web3 ya minyororo mingi inayotoa uhifadhi wa mali, ubadilishaji wa tokeni, na ufikiaji wa programu za fedha zilizogatuliwa (DeFi).
 
-[Kwa usaidizi wa cbZEC](https://x.com/BitgetWallet/status/2095375820772815248?s=20), watumiaji wanaweza:
+[Kwa msaada wa cbZEC](https://x.com/BitgetWallet/status/2095375820772815248?s=20), watumiaji wanaweza:
 
-- Duka la cbZEC.
-- Fanya ubadilishaji wa moja kwa moja kupitia pochi.
-- Fikia programu ya DeFi Base.
+- Kuhifadhi cbZEC.
+- Kufanya ubadilishaji wa moja kwa moja kupitia pochi.
+- Kufikia programu ya DeFi ya Base.
 
-Muunganisho huu unapanua ufikiaji cbZEC's kwa watumiaji wa Web3 duniani kote.
+Muunganisho huu hupanua ufikiaji wa cbZEC kwa watumiaji wa Web3 duniani kote.
 
-Jifunze Zaidi: [Pochi Bitget](https://web3.bitget.com/)
+Jifunze Zaidi: [Bitget Wallet](https://web3.bitget.com/)
 
 
 ---
 
-## Ubunifu kuhusu Zcash DeFi 
+## Ubunifu unaohusu DeFi ya Zcash 
 
-**Suluhisho la Tabaka 1**
+**Suluhisho la Layer 1**
 
-Chaguzi zinachunguzwa kwa sasa ili kuwezesha programu za DeFi ndani ya mfumo ikolojia Zcash kwa kutumia Tabaka la 1 la sasa. Hili linaweza kuwezekana kwa kuhamisha shughuli nyingi za mkataba nje ya mnyororo kwa kutumia mpangilio na kuhakikisha kuwa vitendo hivyo vinafanywa kwenye mnyororo. Toleo la hili liliundwa kwa ushirikiano na JP Morgan kwenye blockchain yao ya biashara. Kufikia NU5 kuna utaratibu (TZE) wa kuongeza aina hii ya kiendelezi kwenye Zcash. 
+Chaguo kwa sasa zinachunguzwa ili kuwezesha programu za DeFi ndani ya mfumo ikolojia wa Zcash kwa kutumia Layer 1 ya sasa. Hili linaweza kuwezekana kwa kutekeleza shughuli nyingi za mkataba off-chain kwa sequencer na kufanya uthibitishaji wa vitendo hivyo on-chain. Toleo la hili liliundwa kwa ushirikiano na JP Morgan kwenye blockchain yao ya biashara. Kufikia NU5, utaratibu (TZE) upo wa kuongeza aina hii ya upanuzi kwenye Zcash. 
 
 **zkEVM**
 
-Hii ingeleta uwezo asilia wa programu kwa Zcash kwa kutumia mashine pepe inayoendana na EVM ambayo inasaidia hesabu isiyo na ushahidi wa maarifa. Hii ingeruhusu Zcash kupata ukuaji kupitia jumuiya ya wasanidi programu wenye utofauti zaidi na kukuza mfumo ikolojia wa programu na tokeni zinazohifadhi faragha. Hii ingeifanya ifanane na suluhisho zingine zilizopo za faragha za L2. 
+Hii ingeleta uwezo wa programu asili kwa Zcash kupitia mashine pepe inayooana na EVM inayounga mkono ukokotoaji wa thibitisho la maarifa sifuri. Hii ingeruhusu Zcash kupata ukuaji kupitia jumuiya tofauti zaidi ya wasanidi programu na kukuza mfumo ikolojia wa programu na tokeni zinazohifadhi faragha. Hii ingeifanya ilingane na suluhisho nyingine zilizopo za faragha za L2. 
 
-Utafiti unaoendelea kuhusu Uthibitisho wa Hisa na Itifaki ya Mawasiliano ya Cosmos Interblockchain unaongozwa na ECC. Hatua zinazofuata zinatathminiwa pamoja na mafanikio ya Muunganiko wa Ethereum hadi PoS kwa masuala yoyote yanayoweza kutokea. 
+Utafiti unaoendelea kuhusu Proof-of-Stake na Itifaki ya Interblockchain Communication ya Cosmos unaongozwa na ECC. Hatua zinazofuata zinatathminiwa pamoja na mafanikio ya Ethereum Merge kwenda PoS na masuala yoyote yanayoweza kujitokeza. 
 
-**ZSA/UDA**
+**ZSA/UDA's**
 
-Mali Zilizolindwa za Zcash / Mali Zilizoainishwa na Mtumiaji zimekuwa zikitengenezwa kwa usaidizi wa timu iliyojitolea. Kufuatia uboreshaji wa itifaki NU5, ziko karibu sana kufanikiwa. Mbinu za kuunganisha mali hizi bila uaminifu na za kibinafsi zinazowezesha ushirikiano zinaendelea kwa sasa. Kiungo cha uwasilishaji wa Zcon3 kuhusu hili hapa chini. 
+Mali za Faragha za Zcash / Mali Zinazobainishwa na Mtumiaji zimekuwa zikiendelezwa kwa msaada wa timu maalumu. Kufuatia uboreshaji wa itifaki ya NU5, ziko karibu zaidi kwa kiwango kikubwa kufikiwa. Taratibu za kuunganisha kwa daraja cross-chain mali hizi bila kuhitaji uaminifu na kwa faragha, zinazowezesha ushirikiano, kwa sasa zinaandaliwa. Kiungo cha wasilisho la Zcon3 kuhusu hili kipo hapa chini. 
 
 
 ### Rasilimali:
 
-[Uhamisho wa Minyororo ya Kibinafsi Zcon3](https://youtu.be/vCvMk2-CJN8)
+[Zcon3 Uhamishaji wa Faragha wa Cross-Chain](https://youtu.be/vCvMk2-CJN8)
 
-[Uwasilishaji wa Zcon3 QEDIT kwenye Defi](https://youtu.be/EGjcYhovty0) / [Ubao wa Kuchora](https://miro.com/app/board/uXjVOhuveHo=/)
+[Zcon3 QEDIT Wasilisho kuhusu Defi](https://youtu.be/EGjcYhovty0) / [Ubao wa Michoro](https://miro.com/app/board/uXjVOhuveHo=/)
 
-[Ian Miers kwenye ZSA's & Stablecoins](https://www.youtube.com/watch?v=hJMWE3zLIcs)
+[Ian Miers kuhusu ZSA's na Stablecoins](https://www.youtube.com/watch?v=hJMWE3zLIcs)
 
-[Utafiti wa Uthibitisho wa Hisa](https://electriccoin.co/blog/proof-of-stake-research-overview-1/)
+[Utafiti wa Proof-of-Stake](https://electriccoin.co/blog/proof-of-stake-research-overview-1/)
 
 __
 
-Faida isiyo na shaka ambayo Zcash ina dhidi ya mifumo mingine ya mikataba mahiri iliyopo ni kwamba ni Tabaka la 1 la kibinafsi. Hii huondoa kabisa uwezekano wowote wa uvujaji wa taarifa wakati wa kutumia programu zozote za Tabaka la 2. Kuruhusu safu ya programu rahisi na salama zaidi ambayo inaweza kuruhusu ufikiaji wa taarifa kwa urahisi zaidi. 
+Faida isiyoweza kukanushwa ambayo Zcash ina juu ya majukwaa mengine yaliyopo ya mikataba mahiri ni Layer 1 yake ya asili ya faragha. Hii huondoa kabisa uwezekano wowote wa uvujaji wa taarifa wakati wa kutumia programu zozote za Layer 2. Hii huruhusu safu ya programu iliyo rahisi kimsingi na salama zaidi inayoweza kuruhusu ufikiaji wa taarifa kwa urahisi zaidi.

@@ -2,87 +2,99 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Igodo Ilele
+# Igodo nlele [Viewing Keys]
 
-Adreesị e ji kpuchie ekpuchi na-enye gị ohere ịzụ ahịa ma na-ekpughe obere ihe o kwere mee na Zcash blockchain. Yabụ gịnị na-eme ma ọ bụrụ na ịchọrọ igosi otu onye kpọmkwem ihe ị nwere, ma ọ bụ ihe i zigara? Adreesị ọ bụla e ji kpuchie ekpuchi nwere igodo ikiri nke na-enye ohere ịnweta ọgụgụ na-enweghị inye ikike imefu ego. E tinyere igodo ikiri na [ZIP 310](https://zips.z.cash/zip-0310) ma tinye ya na protocol na nkwalite netwọkụ Sapling.
+Adreesị akpa ego nke e chebere echebe na-enye gị ohere ịzụmahia ebe ị na-ekpughe ntakịrị o kwere mee na Zcash blockchain. Ya mere, gịnị na-eme mgbe ọ dị gị mkpa igosi otu akụkụ kpọmkwem ihe ị nwere, ma ọ bụ ihe ị zitere? Adreesị akpa ego ọ bụla nke e chebere echebe nwere viewing key nke na-enye ohere ịgụ na-enweghị inye ikike imefu ego. E webatara viewing keys na [ZIP 310](https://zips.z.cash/zip-0310) ma tinye ha na protocol n'ime Sapling network upgrade.
 
-Igodo nlele bụ ngwaọrụ maka ikpughe ihe dị iche iche: ị na-ahọrọ onye na-ahụ ihe, ị naghịkwa enye ikike imefu ihe iji mee ya.
+Viewing key bụ ngwá ọrụ maka Mpughe ahọpụtara [selective disclosure]: ị na-ahọrọ onye ga-ahụ ihe, ọ dịghịkwa mgbe ị na-enyefe ikike imefu ego iji mee ya.
 
-## Gịnị mere e ji eji igodo nlele?
+## Nchịkọta ngwa ngwa
 
-Electric Coin Company's writing on the subject sets out the situations that come up most often, and they are still the common ones today:
+Viewing key na-enye ohere **ịgụ naanị** n'ihe omume nke Adreesị akpa ego nke e chebere echebe Zcash ma ọ bụ akaụntụ: onye ọbụla ji ya nwere ike ịhụ Azụmahia na-abata (na, maka full viewing keys, Azụmahia na-apụ), mana ọ nweghị mgbe ọ ga-enwe ike imefu ego.
 
-- **Ịgbanwe ego na-ele anya maka ego e tinyere.** Mgbanwe ahụ na-ebunye igodo nlele na-abata na ebe nchọpụta ịntanetị ka o wee nwee ike ịhụ ego ndị ahịa na-etinye na adreesị echekwara, ebe igodo mmefu na-anọgide na ngwaike nke na-emetụghị netwọk ahụ aka.
-- **Onye nlekọta na-egosi na o nwere ihe ọ bụla.** Onye nlekọta na-enye onye nyocha igodo nlele zuru oke maka adreesị ọ bụla e chebere. Onye nyocha nwere ike ịlele nguzozi ndị ahụ ma nyochaa ihe ndị mere n'oge gara aga gaa na site na adreesị ndị ahụ, ọ nweghịkwa ike ime ihe ọ bụla ọzọ.
-- **Nlebara anya kwesịrị ekwesị na onye ọzọ.** Ebe mgbanwe ego kwesịrị inyocha akụkọ ihe mere eme nke onye ahịa dị ka akụkụ nke nyocha ka mma, ọ nwere ike ịrịọ maka igodo nlele kama ịchọ ego ahụ.
+- **Ihe ọ bụ:** ngwá ọrụ Mpughe ahọpụtara nke pools ndị e chebere echebe. E webatara ya na [ZIP 310](https://zips.z.cash/zip-0310), ma tinye ya na protocol n'ime Sapling network upgrade.
+- **Ihe ọ na-enye:** ịchọpụta nkwụnye ego (`uivk…` incoming keys) ma ọ bụ ọhụhụ zuru ezu nke ihe na-abata/na-apụ maka akaụntụ (`uview…` unified full viewing keys), yana legacy Sapling `zxviews…` keys.
+- **Ihe ọ naghị enye:** ikike imefu ego. Ọ nweghị ihe onye ji viewing key mee nwere ike ibugharị ego.
+- **Ebe ọ na-arụ ọrụ taa:** mbupụ/mwebata na [Zallet](https://github.com/zcash/zallet) (v0.1.0-beta.2+, `z_exportviewingkey` / `z_importviewingkey`) yana akaụntụ watch-only n'ime e-akpa ego dịka Zkool; lee ibe [Wallets](/using-zcash/wallets) maka matriks nkwado dị ugbu a.
+- **Iwu isi mkpịsị aka:** họrọ key kacha warara nke na-aza ajụjụ a jụrụ, ma cheta na key e nyefere enweghị ike ịweghachi — naanị ibugharị ego nwere ike ime ka ọ kwụsị ịdị mkpa.
 
-## Ihe igodo nlele na-eme na ihe ọ naghị ekpughe
+---
 
-E nwere ihe karịrị otu ụdị isi, ọdịiche dị na ya na-ekpebi ego ole ị na-enye.
+## Gịnị mere eji viewing key?
 
-| Igodo | Ndozi Okwu | Onyinye |
+Ihe Electric Coin Company dere gbasara isiokwu a na-akọwa ọnọdụ ndị na-emekarị, ha ka bụkwa ndị a na-ahụkarị taa:
+
+- **Exchange na-ele nkwụnye ego anya.** Exchange ahụ na-ebunye incoming viewing key n'elu node nchọpụta nke jikọtara na ịntanetị ka ọ nwee ike ịhụ nkwụnye ego ndị ahịa na Adreesị akpa ego nke e chebere echebe, ebe Igodo ego na-anọ na hardware nke na-adịghị emetụ network aka.
+- **Onye nlekọta ego na-egosi ihe o ji.** Onye nlekọta ego ahụ na-enye onye nyocha full viewing key maka Adreesị akpa ego ọ bụla nke e chebere echebe. Onye nyocha ahụ nwere ike nyochaa nguzo ego ndị ahụ ma lelee ọrụ gara aga gaa na si na adreesị ndị ahụ apụta, ma ọ nweghị ihe ọzọ ọ pụrụ ime.
+- **Nyocha kwesịrị ekwesị maka onye mmekọ.** Ebe exchange chọrọ inyocha akụkọ nke e chebere echebe nke onye ahịa dịka akụkụ nke nyocha siri ike, ọ nwere ike ịrịọ viewing key kama ego ahụ.
+
+## Ihe viewing key na-ekpughe na ihe ọ naghị ekpughe
+
+E nwere ihe karịrị otu ụdị key, ọdịiche dị n'etiti ha na-ekpebi ókè ihe ị na-enye.
+
+| Key | Prefix | Ihe ọ na-enye |
 |---|---|---|
-| Unified full viewing key (UFVK) | `uview…` | Na-ahụ azụmahịa **na** na-abata maka ọdọ mmiri ọ bụla dị na akaụntụ ahụ |
-| Unified incoming viewing key (UIVK) | `uivk…` | Na-ahụ naanị azụmahịa na-abata, maka ọdọ mmiri ọ bụla dị na akaụntụ ahụ |
-| Sapling extended full viewing key | `zxviews…` | Na-ahụ ọrụ Sapling na-abata na nke na-apụ apụ maka adreesị igodo ahụ |
+| Unified full viewing key (UFVK) | `uview…` | Na-ahụ Azụmahia na-abata **na** na-apụ maka pool ọ bụla dị n'akaụntụ |
+| Unified incoming viewing key (UIVK) | `uivk…` | Na-ahụ naanị Azụmahia na-abata, maka pool ọ bụla dị n'akaụntụ |
+| Sapling extended full viewing key | `zxviews…` | Na-ahụ ihe omume Sapling na-abata na na-apụ maka adreesị nke key ahụ |
 
-Ọ dịghị nke ọ bụla n'ime ihe ndị a nwere ike imefu ego. Ha niile na-adịgide adịgide n'ụzọ dị mkpa: a pụghị icheta igodo ị nyere, naanị ihe ị ga-eme bụ ịbufe ego gaa na akaụntụ nke igodo onye nke ọzọ na-ejideghị.
+Ọ nweghị nke ndị a nwere ike imefu ego. Ha niile bụ ndị na-adịgide adịgide n'ụzọ dị mkpa: key ị nyefegoro enweghị ike ịweghachi, naanị ibugharị ego gaa n'akaụntụ nke akụkụ ọzọ enweghị keys ya pụrụ ime ka ọ ghara ịdị irè.
 
-Ọ dị mkpa ka ị mara ihe abụọ gbasara mkpughe tupu ị gwa ha ihe ọ bụla.
+E nwere ọnyà mkpughe abụọ kwesịrị ịma tupu ịkekọrịta ihe ọbụla.
 
-**Ịbata apụtaghị obere.** A na-eji igodo nlele abata eme ihe n'otu aka na akaụntụ ahụ dum, ọ bụghị n'otu adreesị a jụrụ gị. Ịbupụ UIVK maka otu adreesị Sapling ka na-enye ohere ịhụ ihe na-abata n'ime ọdọ mmiri ọ bụla dị na akaụntụ ahụ, yabụ ọ na-ekpughe ihe karịrị adreesị ọ kpọrọ aha. [Akwụkwọ Zallet](https://zcash.github.io/zallet/zcashd/json_rpc.html) na-ekwu nke a nke ọma.
+**Incoming apụtaghị warara.** Unified incoming viewing key metụtara akaụntụ dum, ọ bụghị naanị otu adreesị a jụrụ gị maka ya. Ịbupụ UIVK maka otu Adreesị akpa ego Sapling ka na-enye ọhụhụ nke ihe na-abata n'ofe pool ọ bụla dị n'akaụntụ ahụ, ya mere ọ na-ekpughe karịa adreesị ọ kpọrọ aha. [Zallet Book](https://zcash.github.io/zallet/zcashd/json_rpc.html) na-ekwu nke a hoo haa.
 
-**Adreesị ebipụtara ekpugheela ụzọ ikiri ya na-abata nye onye iro ga-abịa n'ọdịnihu.** [ZIP 326](https://zips.z.cash/zip-0326) na-ekwu na onye iro nwere kọmputa quantum nwere ike nweta igodo nlele na-abata site na adreesị dị iche iche ebipụtara, nke a ga-ekwe omume n'ụzọ nke na-eme ka ị nweta igodo nullifier ghara ịdị. Ibipụta adreesị abụghị otu ihe ahụ dị ka ibipụta igodo nlele taa, mana ha abụọ nọdụrụ nso n'elu mbara igwe dị ogologo.
+**Adreesị e bipụtara ekpugheela incoming viewing key ya nye onye iro n'ọdịnihu.** [ZIP 326](https://zips.z.cash/zip-0326) na-ekwu na onye iro nwere quantum computer nwere ike ịweghachi incoming viewing key site n'adreesị diversified e bipụtara, nke ga-ekwe omume n'ụzọ iweghachite nullifier key na-adịghị ekwe omume. Ibipụta adreesị abụghị otu ihe na ibipụta viewing key taa, mana ha abụọ na-adịwanye nso n'ime ogologo oge.
 
-## Ịlele igodo mgbe Ironwood gasịrị
+## Viewing keys mgbe Ironwood gasịrị
 
-NU6.3 webatara ọdọ mmiri Ironwood nke e ji ihe nchebe kpuchie ma mee ka ọdọ mmiri Orchard bụrụ naanị ihe a na-emefu, ka ego wee si n'otu gaa na nke ọzọ na-agafe ka oge na-aga. [Ironwood](/zcash-tech/ironwood) na [Ogwe aka ahụ](/zcash-tech/the-turnstile) maka mmelite ahụ n'onwe ya.
+NU6.3 webatara Ironwood pool nke e chebere echebe ma mee Orchard pool ka ọ bụrụ nke a pụrụ iji naanị mee mmefu, yabụ ego na-akwaga site n'otu gaa n'ọzọ ka oge na-aga. Lee [Ironwood](/zcash-tech/ironwood) na [The turnstile](/zcash-tech/the-turnstile) maka upgrade ahụ n'onwe ya.
 
-**E nyere igodo nlele tupu Ironwood agaa n'ihu na-arụ ọrụ mgbe njem ahụ gasịrị.** ZIP 326 na-akọwapụta na a na-eji usoro *protocol* nke onye nnata na-anabata ihe, na igodo nlele ya na-abata, enyocha ya na Orchard kama ịbanye n'ọdọ mmiri: otu igodo nlele ahụ na-abata na-akọwapụta ma ederede ederede Orchard-pool na nke Ironwood-pool. Zallet na-eme ya n'ụzọ ahụ, na-akọwa ndetu Ironwood dị ka nke Orchard ma jiri igodo nlele Orchard nke akaụntụ ahụ decryption n'okpuru ngalaba nzuzo note-encryption nke Ironwood.
+**Viewing key ewepụtara tupu Ironwood ka na-arụ ọrụ mgbe mbugharị gasịrị.** ZIP 326 na-akọwa na receiver, yana incoming viewing key kwekọrọ na ya, metụtara Orchard *protocol* kama pool: otu incoming viewing key ahụ na-anwale-nzobe ederede ma Orchard-pool ma Ironwood-pool note ciphertexts. Zallet na-emejuputa ya otú ahụ, na-akọwa Ironwood notes dị ka ndị Orchard nwere ọdịdị ma na-eji Orchard viewing keys nke akaụntụ anwale-nzobe ederede ha n'okpuru mpaghara nzobe note Ironwood.
 
-Ihe atọ ga-esi na ya pụta nye onye ọ bụla ji ma ọ bụ nye igodo:
+Nsonaazụ atọ maka onye ọbụla ji ma ọ bụ na-enye key:
 
-1. **Nhazi na-agagharị n'etiti ọdọ mmiri, onye na-ekiri ya na-ahụkwa ka ọ na-eme.** [ZIP 318](https://zips.z.cash/zip-0318) na-akọwapụta mbugharị dị ka usoro obere azụmahịa Orchard-to-Ironwood nke e mere n'oge a na-anaghị ahazi, nke ọ bụla na-emefu otu akwụkwọ Orchard ma na-emepụta otu mmepụta Ironwood nke otu akwụkwọ iwu. Onye nyocha na-ekiri ihe na-ekiri na-ahụ na ihe ndị e ji ejide ihe na-agbanwe site n'otu ọdọ mmiri gaa na nke ọzọ n'ime izu ole na ole, ọ bụghị n'otu mmegharị. Akpa ego nwere ike imegharị ọganihu mbugharị nke ya site na data yinye site na iji igodo nlele ya.
-2. **Nzọụkwụ mbugharị ọ bụla na-egosi uru ọ na-eme.** Nke ahụ bụ ihe dị n'ime ịgafe ebe a na-atụgharị ihe, ọ bụkwa ya mere a ga-eji nyochaa mbugharị ahụ. Ikewa nguzozi ahụ n'ime otu okpukpe pụtara na ọ dịghị otu azụmahịa na-egosi nguzozi niile nke ọdọ mmiri Orchard.
-3. **Akaụntụ e mepụtara mgbe Ironwood gasịrị nwere ike ịchọta igodo ha n'ụzọ dị iche iche.** [ZIP 2005](https://zips.z.cash/zip-2005) na-agbakwụnye `use_qsk` ọkọlọtọ maka igodo ndị a na-agbanwe agbanwe nke quantum, ọ na-agbanwekwa otu esi enweta igodo ndị na-abata, ndị na-apụ apụ na ndị na-agbanwe ihe, yabụ `use_qsk = true` igodo bụ igodo dị iche n'ezie. ZIP 326 chọrọ ka ọkọlọtọ ahụ dịrị otu n'ofe akaụntụ ma gbochie imepụta `use_qsk = true` igodo tupu NU6.3 arụ ọrụ na Mainnet. Ya mere, e si na akaụntụ dịbu adị tupu Ironwood ebupụ igodo `use_qsk = false` igodo, ma na-anọgide na-adị mma maka akaụntụ ahụ. Echela na igodo e si n'otu akaụntụ wepụta na-akọwa nke ọzọ.
+1. **Nguzo ego na-agagharị n'etiti pools, onye na-ekiri na-ahụkwa ka nke a na-eme.** [ZIP 318](https://zips.z.cash/zip-0318) na-akọwa mbugharị dị ka usoro Azụmahia nta Orchard-gaa-Ironwood nwere ụma ịdị otu, nke a na-agbasa n'usoro oge e mere random, nke ọ bụla na-emefu otu note Orchard ma mepụta otu output Ironwood nke canonical denomination. Onye nyocha ji viewing key na-ekiri na-ahụ ihe o ji na-esi n'otu pool aga n'ọzọ n'usoro nzọụkwụ n'ime ọtụtụ izu, ọ bụghị n'otu mbugharị. E-akpa ego nwere ike iji viewing keys ya rụgharịa ọganihu mbugharị nke ya site na data chain.
+2. **Nzọụkwụ mbugharị ọ bụla na-ekpughe uru ọ na-ebuga.** Nke a dị n'ime ịgafe turnstile, ọ bụkwa ihe na-eme ka mbugharị ahụ bụrụ nke a pụrụ inyocha. Ikewa nguzo ego n'ime canonical denominations pụtara na ọ nweghị otu Azụmahia na-ekpughe nguzo ego pool Orchard dum.
+3. **Akaụntụ e kere mgbe Ironwood gasịrị nwere ike isi n'ụzọ dị iche nweta keys ha.** [ZIP 2005](https://zips.z.cash/zip-2005) na-agbakwunye flag `use_qsk` maka keys quantum-recoverable, ọ na-agbanwekwa ka esi enweta incoming, outgoing na diversifier keys, yabụ keys `use_qsk = true` bụ keys dị iche n'ezie. ZIP 326 chọrọ ka flag ahụ bụrụ otu n'ofe akaụntụ ma machibido ịmepụta keys `use_qsk = true` tupu NU6.3 amalite na Mainnet. Ya mere, key e bubatara n'akaụntụ dị tupu Ironwood bụ key `use_qsk = false`, ma ọ ka ziri ezi maka akaụntụ ahụ. Echela na key ewepụtara n'otu akaụntụ na-akọwa akaụntụ ọzọ.
 
-## Mbupụ igodo nlele
+## Ịbupụ viewing key
 
 ### Zallet
 
-[Zallet](https://github.com/zcash/zallet) bụ obere akpa zuru oke nke dochie obere akpa dị n'ime zcashd. Mbupụ na mbubata nke Viewing-key rutere na **v0.1.0-beta.2 (28 Julaị 2026)**, yabụ lelee ụdị gị mbụ; ihe owuwu mbụ enweghị usoro ndị a. Arụmụka ọ bụla mgbe aha usoro ahụ gasịrị ga-abụrịrị JSON ziri ezi, nke pụtara na uru eriri na-edebe nhota abụọ nke ha. [Nduzi Ntụaka Ngwa Ngwa Zallet](/using-zcash/zallet-quick-reference-guide) kpuchiri ụdị iwu izugbe.
+[Zallet](https://github.com/zcash/zallet) bụ e-akpa ego full-node dochiri e-akpa ego dị n'ime zcashd. Mbupụ na mwebata viewing-key bịara na **v0.1.0-beta.2 (28 Julaị 2026)**, yabụ buru ụzọ lelee version gị; builds ndị tupu ya enweghị methods ndị a. Argument ọ bụla dị mgbe aha method gasịrị ga-abụrịrị JSON ziri ezi, nke pụtara na string values na-edobe double quotes nke ha. [Zallet Quick Reference Guide](/using-zcash/zallet-quick-reference-guide) na-akọwa usoro command n'ozuzu.
 
-Depụta ihe akpa ego ahụ nwere:
+Depụta ihe e-akpa ego ji:
 
 ```bash
 zallet rpc listaddresses
 ```
 
-Bupụ igodo nlele zuru oke nke akaụntụ ahụ site na ịgafe adreesị ejikọtara ọnụ:
+Bupụ unified full viewing key nke akaụntụ site n'inye unified address:
 
 ```bash
 zallet rpc z_exportviewingkey '"<unified address>"'
 ```
 
-Bupụ igodo nlele nke akaụntụ ahụ, site na iji nhọrọ `ivk` arụmụka:
+Bupụ unified incoming viewing key nke akaụntụ kama, jiri argument nhọrọ `ivk`:
 
 ```bash
 zallet rpc z_exportviewingkey '"<unified address>"' true
 ```
 
-Inyefe adreesị Sapling na-eweghachi igodo nlele zuru oke nke akaụntụ ahụ (`zxviews…`), kwekọrọ na omume zcashd ochie. Oke abụọ edere ede: A jụrụ adreesị Sprout, enweghịkwa ike ibupụ igodo nlele zuru oke nke Sapling site na akaụntụ nke e bubatara n'onwe ya dị ka echiche-naanị, n'ihi na obere akpa ahụ enweghị ike iwughachi ya. `ivk` ụdị ahụ na-arụ ọrụ maka akaụntụ nlele-naanị ebubata.
+Ịnye adreesị Sapling na-eweghachite extended full viewing key Sapling nke akaụntụ ahụ (`zxviews…`), kwekọrọ n'omume ochie nke zcashd. E nwere oke abụọ edere: a na-ajụ adreesị Sprout, na enweghị ike ibupụ extended full viewing key Sapling n'akaụntụ e bubatara n'onwe ya dị ka view-only, n'ihi na e-akpa ego enweghị ike ịrụgharịa ya. Ụdị `ivk` na-arụ ọrụ maka akaụntụ view-only e bubatara.
 
-### Obere akpa ego ndị na-ebupụ igodo nlele site na interface nke ha
+### E-akpa ego na-ebupụ viewing keys site na interface nke ha
 
-Ihe [Obere akpa](/using-zcash/wallets) Ibe akwụkwọ ahụ na-egosi nkwado igodo nlele na njikere Ironwood maka obere akpa ọ bụla. N'oge a na-ede ihe a, obere akpa nwere ihe nkwado igodo nlele na **Ironwood: Njikere** gụnyere ZODL, Zingo!, Zkool, Achịcha, Zallet, zecd na Nozy. Lelee ibe ahụ kama nke a tupu ị dabere na obere akpa ọ bụla, n'ihi na njikere na-agbanwe.
+Ibe [Wallets](/using-zcash/wallets) na-enyocha nkwado viewing-key na njikere Ironwood maka e-akpa ego ọ bụla. N'oge a na-ede ihe, e-akpa ego depụtara ma nkwado viewing-key na **Ironwood: Ready** gụnyere ZODL, Zingo!, Zkool, Cake, Zallet, zecd na Nozy. Lelee ibe ahụ kama ibe a tupu ịdabere na e-akpa ego ọ bụla, n'ihi na njikere na-agbanwe.
 
-## Ibubata igodo nlele dị ka akaụntụ elekere naanị
+## Ịwebata viewing key dịka akaụntụ watch-only
 
 ### Zkool
 
-[Zkool](https://github.com/hhanh00/zkool2) bụ nhọrọ kachasị mfe ebe a, n'ihi na ọ na-anabata igodo ndị ejikọtara ọnụ yana ndị ochie. README ya na-edekọ akaụntụ ndị na-elele naanị nke e mepụtara site na **igodo nlele jikọtara ọnụ** ma ọ bụ igodo nlele ogologo Sapling**, yana igodo ndị echekwara ochie nke e si na zcashd zipụ. Tinye akaụntụ ọhụrụ, họrọ ụzọ nlele naanị, ma mado ya. `uview…` or `zxviews…` igodo; akaụntụ ahụ na-emekọrịta ma na-akọ akụkọ ihe mere eme na-enweghị ikike mmefu ego.
+[Zkool](https://github.com/hhanh00/zkool2) bụ nhọrọ kacha agbanwe agbanwe ebe a, n'ihi na ọ na-anabata unified keys yana legacy ones. README ya na-edepụta akaụntụ view-only e kere site na **unified viewing key** ma ọ bụ **Sapling extended viewing key**, tinyere legacy shielded extended keys e bubatara site na zcashd. Tinye akaụntụ ọhụrụ, họrọ ụzọ view-only, ma mado key `uview…` ma ọ bụ `zxviews…`; akaụntụ ahụ ga-emekọrịta ma kọọ nguzo ego na akụkọ na-enweghị ikike imefu ego.
 
-Nkwado usoro Ironwood na njem Orchard-to-Ironwood rutere na Zkool 6.24.0 (20 Julaị 2026), yana 6.26.1 (2 Ọgọst 2026) edoziri nchọpụta azụmahịa Ironwood na mempool. Gbaa 6.26.1 ma ọ bụ karịa.
+Nkwado protocol Ironwood na mbugharị Orchard-gaa-Ironwood batara na Zkool 6.24.0 (20 Julaị 2026), ma 6.26.1 (2 Ọgọọst 2026) doziri nchọpụta Azụmahia Ironwood na mempool. Jiri 6.26.1 ma ọ bụ nke mechara.
 
 ### Zallet
 
@@ -90,31 +102,89 @@ Nkwado usoro Ironwood na njem Orchard-to-Ironwood rutere na Zkool 6.24.0 (20 Jul
 zallet rpc z_importviewingkey '"<zxviews… key>"' '"whenkeyisnew"' 0
 ```
 
-Arụmụka nke abụọ bụ amụma nyochagharị: `"whenkeyisnew"` (ndabara), `"yes"` or `"no"`Nke atọ bụ ogologo blọk ahụ ị ga-enyocha ọzọ. Zallet na-ebubata igodo ahụ dị ka akaụntụ nlele naanị ma na-esochi azụmahịa na-abata na nke na-apụ maka adreesị ya na-enweghị ikike imefu ego.
+Argument nke abụọ bụ iwu rescan: `"whenkeyisnew"` (ndabara), `"yes"` ma ọ bụ `"no"`. Nke atọ bụ elu block a ga-esi rescan. Zallet na-ebubata key ahụ dị ka akaụntụ view-only ma na-enyocha Azụmahia na-abata na na-apụ maka adreesị ya na-enweghị ikike imefu ego.
 
-**Zallet na-ebubata Sapling naanị igodo nlele zuru oke.** Ọ gaghị ebubata `uview…` igodo nlele zuru oke, ọbụlagodi na ọ nwere ike ibupụ otu. Iji nye ohere ịgụ akwụkwọ na akaụntụ ejikọtara ọnụ, bupụ UFVK site na Zallet wee bubata ya n'ime obere akpa nke na-anabata igodo ejikọtara ọnụ, dịka Zkool.
+**Zallet na-ebubata naanị Sapling extended full viewing keys.** Ọ gaghị ebubata unified full viewing key `uview…`, n'agbanyeghị na ọ nwere ike ibupụ otu. Iji nye ohere ịgụ akaụntụ unified dum, bupụ UFVK site na Zallet ma bubata ya n'ime e-akpa ego na-anabata unified keys, dịka Zkool.
 
-Iji gbanwee igodo ebubatara ka ọ bụrụ faịlụ akụkọ ihe mere eme azụmahịa zuru oke, yana txids, ụgwọ na memos, lee [Exporting Transaction History from a Viewing Key](/guides/viewing-key-transaction-export).
+Iji gbanwee key e bubatara ka ọ bụrụ faịlụ akụkọ Azụmahia zuru ezu, nwere txids, ugwo na memos, lee [Exporting Transaction History from a Viewing Key](/guides/viewing-key-transaction-export).
 
 ## Ihe gbanwere, na ihe ị ga-akwụsị ịchọ
 
-Ọ bụrụ na ị soro ụdị ochie nke ibe a, ma ọ bụ nsụgharị ya, ụzọ atọ agaghị arụ ọrụ ọzọ.
+Ọ bụrụ na ị gbasoro version ochie nke ibe a, ma ọ bụ ntụgharị asụsụ ya, ụzọ atọ anaghịzi arụ ọrụ.
 
-- **`zcash-cli z_exportviewingkey` na `z_importviewingkey`.** zcashd ruru nkwụsị nkwado ya na 18 Julaị 2026 ma ọ naghịzi arụ ọrụ. Ụzọ Zallet kpọrọ aha otu ihe ahụ bụ nnọchi; lee [ntuziaka mbugharị](/guides/migration-guide-zcashd-to-zebrad-zallet).
-- **Nlele Ywallet.** Peeji Wallets na-egosi Ywallet **Ironwood: Adịghị njikere**, yabụ ọ bụghị obere akpa ahụ ka e ji atụ ndị mmadụ aka maka igodo nlele nke oge Ironwood. Zkool, sitere n'aka otu onye nrụpụta ahụ, na-anabata otu ụdị igodo ahụ ma tinye akara ya na Ready.
-- **zcashblockexplorer.com/vk.** Ọrụ ahụ na-eweghachi HTTP 503 na asambodo na-adịghị mma, a tụfukwara ya kama ịgbanwe ya. Ịmanye igodo nlele na weebụsaịtị na-enye akụkọ azụmahịa gị niile nye onye ọ bụla na-agba weebụsaịtị ahụ, nke bụ mgbe niile nhọrọ atọ kachasị adịghị ike na ibe ochie. Bubata igodo ahụ na obere akpa ị na-agba.
+- **`zcash-cli z_exportviewingkey` na `z_importviewingkey`.** zcashd ruru nkwụsị njedebe nkwado ya na 18 Julaị 2026 ma ọ naghịzi arụ ọrụ. Methods ndị nwere otu aha nke Zallet bụ ndị dochiri ya; lee [migration guide](/guides/migration-guide-zcashd-to-zebrad-zallet).
+- **Nduzi Ywallet.** Ibe Wallets na-akara Ywallet dịka **Ironwood: Not Ready**, yabụ ọ bụghị e-akpa ego a ga-atụnye ndị mmadụ aka maka viewing keys nke oge Ironwood. Zkool, sitere n'aka otu onye mmepụta, na-anabata otu ụdị keys ahụ ma akara ya bụ Ready.
+- **zcashblockexplorer.com/vk.** Ọrụ ahụ na-eweghachite HTTP 503 yana certificate na-adịghị irè, e wepụwokwa ya kama dochie ya. Ịmado viewing key n'ime weebụsaịtị na-enye onye na-agba weebụsaịtị ahụ akụkọ Azụmahia gị dum, nke bụ mgbe niile nhọrọ kacha esighi ike n'ime atọ dị n'ibe ochie ahụ. Kama nke ahụ, bubata key ahụ n'ime e-akpa ego ị na-agba.
 
-## akụrụngwa
+## Ihe ngosi / Ntụnyere
 
-Jiri igodo nlele dịka ọ dị mkpa, họrọkwa igodo kacha dị warara nke na-aza ajụjụ a na-ajụ.
+### Windo onye nyocha
 
-- [Mkpughe ịkwụ ụgwọ](/zcash-tech/payment-disclosures) - igosi nkọwa ahọpụtara nke otu ịkwụ ụgwọ na-enweghị inye ohere na-aga n'ihu na akaụntụ
-- [ZIP 326: NU6.3 Ihe ga-esi na obere akpa pụta](https://zips.z.cash/zip-0326) - otu igodo nlele si eme omume n'ofe ọdọ mmiri Orchard na Ironwood
-- [ZIP 229: Ụdị nke 6 Usoro Azụmahịa](https://zips.z.cash/zip-0229) - na-akọwa ọdọ mmiri Orchard na Ironwood
-- [Ndekọ mgbanwe Zallet](https://github.com/zcash/zallet/blob/main/CHANGELOG.md) - nke ewepụtara gbakwunyere usoro RPC nke
-- [Zkool README](https://github.com/hhanh00/zkool2/blob/main/README.md) - akaụntụ akwadoro na ụdị isi okwu
-- [ECC, Nkọwa Igodo Ilele](https://electriccoin.co/blog/explaining-viewing-keys/)
-- [ECC, Mkpughe na Igodo Nlele Nhọrọ](https://electriccoin.co/blog/viewing-keys-selective-disclosure/)
-- [ECC, Zcash Viewing Key Video Presentation](https://www.youtube.com/watch?v=NXjK_Ms7D5U&t=199s)
+Chee maka akaụntụ nke e chebere echebe dịka ụlọ nchekwa n'ụlọ akụ:
 
-Lee kwa: [Adreesị Ndị Ejikọtara Ọnụ](./Unified_Addresses.md)
+- **Igodo ego** bụ igodo ụlọ ahụ. Onye ọbụla ji ya nwere ike imeghe igbe ma wepụta ihe dị n'ime ha.
+- **Viewing key** bụ windo onye nyocha na-ele n'ime ụlọ ahụ. Onye nyocha nwere ike ile igbe ọ bụla ka ọ na-abanye ma na-apụ, gụọ labels, ma debe ledger — mana windo ahụ enweghị handle. Onye na-ele n'ime ya enweghị ike ibugharị ihe ọbụla dị n'ime ụlọ ahụ.
+
+### Ihe windo ahụ enweghị ike igosi
+
+Windo ahụ na-eche ụlọ ahụ ihu, ọ bụghị ụwa dị n'èzí ya. Ọ na-egosi ọrụ e chebere echebe nke akaụntụ a na-ele anya; ọ naghị eme onye na-ekiri ya onye na-ekiri blockchain dum, ọ naghịkwa ekwe ka ọ jikọta ọrụ akaụntụ ahụ na akụkọ Oha nke onye ọzọ. Ma n'ihi na a wụnyere windo ahụ n'ogo akaụntụ, inye mmadụ oghere nlele maka otu igbe nkwụnye ego (otu adreesị) ka na-enye ya ọhụhụ nke ihe na-abata n'ime ụlọ dum — nke ahụ kpọmkwem bụ ihe mere iwu key kacha warara ji dị.
+
+### Ihe mere ị na-enweghị ike iweghachi windo ahụ
+
+Viewing key bụ mpempe ozi, ọ bụghị ndenye ikike. Ozugbo e depụtachara ya, ọ na-adị ruo mgbe ego hapụrụ akaụntụ ọ na-ele. Ngwọta bara uru bụ ntụgharị: bugharịa nguzo ego gaa n'akaụntụ ọhụrụ nke akụkụ ọzọ enwetaghị keys ya, windo ochie ahụ ga-eche ụlọ efu ihu.
+
+## Nnyocha miri emi
+
+### Trial decryption: otu ikiri si arụ ọrụ n'ezie
+
+Azụmahia ọ bụla nke e chebere echebe na-ezo note plaintexts ya nye onye e bu n'obi nata ha. E-akpa ego ji viewing key na-eme **trial decryption**: maka Azụmahia ọ bụla ọ hụrụ na chain, ọ na-anwa iwepụ nzobe note ciphertexts site na key ahụ. Ihe gara nke ọma na-ekpughe uru note ahụ, diversifier onye nata ya na memo; ihe dara ada anaghị efu ihe ọbụla. Nke a bụ ihe mere otu incoming viewing key ji nọgide na-arụ ọrụ n'ofe pools Orchard na Ironwood — [ZIP 326](https://zips.z.cash/zip-0326) na-ejikọta receiver na Orchard *protocol*, ya mere note ciphertexts Ironwood nwere ọdịdị Orchard ma jiri viewing keys Orchard nke akaụntụ anwale-nzobe ederede ha n'okpuru mpaghara nzobe note Ironwood.
+
+### Full megide incoming: ihe derivation na-ekpebi
+
+Viewing key **zuru ezu** nwere ike isi na ya nweta ikike outgoing-viewing, nke bụ ihe na-eme ka onye nyocha rụgharịa akụkụ *onye zitere* nke mbufe ozugbo ewepụrụ nzobe Azụmahia ahụ. Viewing key **incoming** na-akwụsị n'ebumnuche: ọ na-achọpụta ma na-ewepụ nzobe notes na-abata mana enweghị ike ịrụgharịa njikọ na-apụ. Derivation dị n'etiti ikike ndị a bụ otu ụzọ — a na-enweta incoming key *site na* full key, ọ dịghị mgbe ọ bụ n'ụzọ ọzọ — nke bụ ihe na-eme “incoming only” ka ọ bụrụ mbenata n'ezie kama nkwa. Flag `use_qsk` sitere na [ZIP 2005](https://zips.z.cash/zip-2005) na-agbanwe derivation ahụ n'onwe ya, yabụ keys quantum-recoverable bụ ezinụlọ key dị iche kpamkpam, ọ bụghị ụdị nke ochie.
+
+### Ihe mbugharị dị ka nye onye na-ekiri
+
+Ebe ọ bụ na mbugharị [ZIP 318](https://zips.z.cash/zip-0318) bụ usoro random nke Azụmahia nta Orchard-gaa-Ironwood nwere ụma ịdị otu, onye na-ekiri ji key ahụ na-ahụ steepụ: ọtụtụ nzọụkwụ uru canonical-denomination kama otu nnukwu mmali. Ọ nweghị otu nzọụkwụ na-ekpughe nguzo ego dum a na-ebuga, mana *usoro ahụ* na-adị mfe ịmata — nke bụ mgbanwe a tụrụ anya ya maka turnstile a pụrụ inyocha.
+
+## Mmetụta bara uru
+
+- **Maka exchanges na ndị nhazi payment:** bunye incoming viewing key nke akaụntụ (ma ọ bụ UFVK maka mkpuchi zuru ezu) n'elu node nchọpụta ma mezie nkwụnye ego ndị ahịa na akpaka, dịka ị ga-esi mee ya na Adreesị akpa ego Oha — mana Igodo ego onye ahịa ahụ anaghị apụ na nchekwa oyi.
+- **Maka ndị nyocha na proof-of-reserves:** full viewing key na-agbanwe “tukwasị anyị obi” ka ọ bụrụ “nyochaa nke a”: nguzo ego na akụkọ Azụmahia zuru ezu maka akaụntụ a na-ele, na-enweghị ikike ọbụla imetụ ha aka. Jikọta ya na [Payment disclosures](/zcash-tech/payment-disclosures) maka proofs otu ugboro gbasara otu payment.
+- **Maka nyocha kwesịrị ekwesị:** nye onye mmekọ key maka akaụntụ metụtara mmekọrịta ahụ, ọ bụghị e-akpa ego gị dum. Ọ bụrụ na mmekọrịta ahụ akwụsị, tụgharịa akaụntụ ahụ.
+- **Maka nhọrọ ngwá ọrụ:** Zallet na-ebupụ UFVKs ma na-ebubata Sapling extended full viewing keys; Zkool na-anabata unified na legacy keys dịka akaụntụ watch-only. Lelee ibe [Wallets](/using-zcash/wallets) maka matriks njikere Ironwood dị ugbu a tupu ịhazi otu e-akpa ego dịka ọkọlọtọ.
+- **Ọnụ mkpughe na-adịgide adịgide:** onye ọ bụla ọzọ ji key bụ akara kredit Nzuzo na-adịgide adịgide nke ị na-enweghị ike imechi. Nye keys kwa-mmekọrịta, mee ka ha metụta otu akaụntụ, ma detuo onye ji ihe.
+
+## Njehie a na-ahụkarị
+
+| Nkwenkwe a na-ahụkarị | Ihe bụ eziokwu n'ezie |
+| --- | --- |
+| "Viewing key nwere ike imefu ego ma ọ bụrụ na ọ dapụ." | Ọ nweghị ike. Viewing keys enweghị ikike imefu ego; ihe kacha njọ ntapu nwere ike ime bụ ikpughe akụkọ. |
+| "Enwere m ike ịkagbu viewing key ma emechaa." | Ị nweghị ike. Key e nyefere na-arụ ọrụ ruo mgbe ego kwagara n'akaụntụ nke akụkụ ọzọ enweghị keys ya. |
+| "Ịbupụ UIVK maka otu adreesị na-egosi naanị adreesị ahụ." | Viewing keys metụtara akaụntụ. UIVK na-egosi ọrụ na-abata maka pool ọ bụla dị n'akaụntụ ahụ. |
+| "`zcash-cli z_exportviewingkey` ka na-arụ ọrụ." | Mba. zcashd ruru nkwụsị njedebe nkwado ya na 18 Julaị 2026; jiri Zallet's `z_exportviewingkey` / `z_importviewingkey` kama. |
+| "Ịmado viewing key n'ime ngwá ọrụ weebụ dị nchebe n'ihi na ọ bụ naanị ịgụ." | Ịgụ naanị ka pụtara na e nyefere onye na-agba saịtị ahụ akụkọ Azụmahia gị dum maka akaụntụ ahụ. Bubata key ahụ n'ime e-akpa ego ị na-agba. |
+| "Zallet nwere ike ibubata viewing key ọ bụla Zallet nwere ike ibupụ." | Mba. Zallet na-ebubata naanị Sapling extended full viewing keys; unified `uview…` keys ga-aga n'ime e-akpa ego na-anabata unified keys, dịka Zkool. |
+
+## Ibe ndị metụtara ya
+
+- [Payment Disclosures](/zcash-tech/payment-disclosures) — igosi nkọwa ahọpụtara nke otu payment na-enweghị inye ohere na-aga n'ihu n'akaụntụ
+- [Unified Addresses](/zcash-tech/unified-addresses) — oyi akwa adreesị nke na-ebu receivers viewing-key
+- [Ironwood](/zcash-tech/ironwood) — pool nke e chebere echebe NU6.3 nke Orchard na-akwaga n'ime ya
+- [The Turnstile](/zcash-tech/the-turnstile) — usoro mbugharị Orchard-gaa-Ironwood ndị na-ekiri nwere ike ile
+- [Wallets](/using-zcash/wallets) — ndekọ zuru ezu nke e-akpa ego, nkwado viewing-key na njikere Ironwood
+- [Exporting Transaction History from a Viewing Key](/guides/viewing-key-transaction-export) — ịgbanwe key e bubatara ka ọ bụrụ faịlụ akụkọ txid/ugwo/memo zuru ezu
+
+## Akụrụngwa
+
+Jiri viewing keys naanị mgbe ọ dị mkpa, ma họrọ key kacha warara nke na-aza ajụjụ a jụrụ.
+
+- [Payment disclosures](/zcash-tech/payment-disclosures) - igosi nkọwa ahọpụtara nke otu payment na-enweghị inye ohere na-aga n'ihu n'akaụntụ
+- [ZIP 326: Nsonaazụ NU6.3 maka e-akpa ego](https://zips.z.cash/zip-0326) — otu viewing keys si arụ ọrụ n'ofe pools Orchard na Ironwood
+- [ZIP 229: Ụdị Azụmahia Version 6](https://zips.z.cash/zip-0229) — na-akọwa pools Orchard na Ironwood
+- [ZIP 310](https://zips.z.cash/zip-0310) — nkọwapụta viewing key
+- [Zallet changelog](https://github.com/zcash/zallet/blob/main/CHANGELOG.md) — release nke gbakwunyere RPC method ọ bụla
+- [Zkool README](https://github.com/hhanh00/zkool2/blob/main/README.md) — ụdị akaụntụ na key akwadoro
+- [ECC, Ịkọwa Viewing Keys](https://electriccoin.co/blog/explaining-viewing-keys/)
+- [ECC, Mpughe ahọpụtara na Viewing Keys](https://electriccoin.co/blog/viewing-keys-selective-disclosure/)
+- [ECC, Zcash Viewing Key Ngosi Vidio](https://www.youtube.com/watch?v=NXjK_Ms7D5U&t=199s)

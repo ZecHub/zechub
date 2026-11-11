@@ -4,109 +4,109 @@
 
 # Canopy
 
-> Canopy はブロック 1,046,400（2020年11月18日 UTC）で Zcash メインネット上で有効化されました。
+> Canopyは、Zcashメインネットのブロック1,046,400で2020年11月18日（UTC）に稼働開始しました。
 
-ここで学べること: 創設者報酬が終了した後も Zcash がどのように自らの開発資金を確保し続けたのか、そして Canopy が後続のアップグレードでも土台として使われる資金配分をどのように整えたのか。
+ここで学べること: 創設者報酬の終了後にZcashがどのように自らの開発資金を確保し続けたか、また後続のアップグレードの基盤となった資金配分をCanopyがどのように整えたかを学びます。
 
-Canopy は Zcash における5回目のネットワークアップグレードで、Network Upgrade 4（NU4）とも呼ばれます。これは [ZIP 251](https://zips.z.cash/zip-0251) によって導入され、2020年11月18日（UTC）のメインネットのブロック 1,046,400 で有効化されました。これは Zcash における最初のブロック報酬半減とまったく同じタイミングでした。Canopy は主にガバナンスと通貨設計に関するアップグレードでした。これにより当初の創設者報酬は終了し、新たに Zcash Development Fund が開始されました。この基金は Electric Coin Company、Zcash Foundation、そして独立した助成金受給者に支払われます。この基金の方針は、2019年に行われた長期のコミュニティ・ガバナンス・プロセスから生まれました。
+CanopyはZcashの5番目のネットワークアップグレード（network upgrade）であり、ネットワークアップグレード4（NU4）とも呼ばれます。これは[ZIP 251](https://zips.z.cash/zip-0251)によって展開され、Zcashの初めてのブロック報酬半減期と同時の2020年11月18日（UTC）、メインネットのブロック1,046,400で有効化されました。Canopyは主にガバナンス（governance）および金融面のアップグレードでした。これにより元の創設者報酬が終了し、Zcash開発基金（Development Fund）が開始されました。この基金はElectric Coin Company、Zcash Foundation、および独立した助成金（grant）受給者に支払われます。この基金の方針は、2019年にわたる長期的なコミュニティ・ガバナンスのプロセスから生まれました。
 
-これが重要な理由。Zcash には背後に企業が存在しないため、ブロック報酬から自らの開発資金を賄っています。初期の数年間の開発費を支えた創設者報酬は、最初の半減時に終了する予定でした。Canopy はその置き換えでした。各ブロック報酬の一定割合を Development Fund に振り向け、その受け取り先を定めたのです。このモデルは後続のアップグレードでさらに洗練され、[NU6.1](../zcash-tech/nu6-1) にまで引き継がれています。
+これが重要である理由。Zcashには背後に企業がないため、ブロック報酬から自らの開発資金を賄っています。初期の数年間を支えた創設者報酬は、最初の半減期に終了するよう設定されていました。Canopyはその代替となるものでした。各ブロック報酬の一定割合を開発基金に振り向け、受給者を定めました。このモデルは、[NU6.1](../zcash-tech/nu6-1)に至るまで後続のアップグレードによって改善されました。
 
-![Canopy 以前は創設者報酬が開発資金を賄っており、最初の半減時に終了する予定でした。Canopy 以後は Development Fund が各ブロック報酬の20パーセントを受け取り、2024年の2回目の半減まで続きます](/content-images/canopy-founders-to-devfund-010676e799.webp)
+![Before Canopy the founders reward funded development and was set to end at the first halving. After Canopy the Development Fund takes 20 percent of each block reward and runs to the second halving in 2024](/content-images/canopy-founders-to-devfund-010676e799.webp)
 
 ## 開発基金
 
-Canopy は当初の創設者報酬を終了させ、それを Zcash Development Fund に置き換えました。この変更は、Zcash 最初の半減によってブロック報酬が 6.25 ZEC から 3.125 ZEC に下がるのと同じブロックで実施されました。つまりマイナーは、報酬が半分になるのと同じ日に、その小さくなった報酬の新たな一部が開発に流れ始めることになったのです。
+Canopyは元の創設者報酬を終了し、Zcash開発基金に置き換えました。この変更は、ブロック報酬が6.25 ZECから3.125 ZECへ低下した、Zcashの最初の半減期と同じブロックで実施されました。そのためマイナー（miner）は、より少額となった報酬の新たな一部が開発へ流れ始めたその日に、報酬が半減しました。
 
-この基金は4年間、2020年11月のこの最初の半減から2024年の2回目の半減まで継続するよう設定されました。合意された方針は [ZIP 1014](https://zips.z.cash/zip-1014) として文書化されています。実際に資金を動かすコンセンサス上の仕組みは funding stream メカニズムです。[ZIP 207](https://zips.z.cash/zip-0207) はブロック補助金の一部を定義済みの受取人に割り当てる一般的な方法を導入し、[ZIP 214](https://zips.z.cash/zip-0214) は Development Fund の具体的なルールと受取アドレスを定めました。
+この基金は、2020年11月の最初の半減期から2024年の2回目の半減期まで、4年間運用される予定でした。合意された方針は[ZIP 1014](https://zips.z.cash/zip-1014)として文書化されました。実際に資金を移動させるコンセンサス（consensus）の仕組みは資金ストリーム（funding stream）メカニズムです。[ZIP 207](https://zips.z.cash/zip-0207)は、ブロック補助金の一部を定義済みの受取人へ振り向ける一般的な方法を導入し、[ZIP 214](https://zips.z.cash/zip-0214)は開発基金に関する具体的なルールおよび受取アドレス（address）を定めました。
 
-## 資金はどう分配されるか
+## 資金の配分方法
 
-Development Fund は各ブロック報酬の20パーセントを受け取ります。マイナーは残りの80パーセントを受け取ります。その20パーセントは、ZIP 1014 に従ってさらに3つに分配されます。
+開発基金は、各ブロック報酬の20パーセントを受け取ります。マイナーは残りの80パーセントを受け取ります。この20パーセントは、ZIP 1014に従って3通りに配分されます。
 
-1. 35パーセントは Bootstrap Project（Electric Coin Company の親組織）へ。
-2. 25パーセントは Zcash Foundation へ。
-3. 40パーセントは Major Grants へ。これは独立した活動に資金を提供し、Zcash Foundation によって運営されます。Major Grants は後に Zcash Community Grants (ZCG) になりました。
+1. Bootstrapプロジェクトへ35パーセント。この組織はElectric Coin Companyの親組織です。
+2. Zcash Foundationへ25パーセント。
+3. 独立した活動に資金を提供し、Zcash Foundationが管理するMajor Grantsへ40パーセント。Major Grantsは後にZcash Community Grants（ZCG）となりました。
 
-基金全体ではなくブロック報酬全体に対して換算すると、これらの割合は Electric Coin Company に7パーセント、Zcash Foundation に5パーセント、Major Grants に8パーセントとなります。どちらの言い方でも、数字としては同じです。
+基金だけでなくブロック報酬全体に対する割合で測ると、Electric Coin Companyは7パーセント、Zcash Foundationは5パーセント、Major Grantsは8パーセントとなります。どちらの説明でも数値は同じです。
 
-![Development Fund は各ブロック報酬の20パーセントであり、その内訳は Bootstrap と Electric Coin Company に35パーセント、Zcash Foundation に25パーセント、Major Grants に40パーセントです](/content-images/canopy-dev-fund-split-005bf6f2dd.webp)
+![The Development Fund is 20 percent of each block reward, split 35 percent to Bootstrap and the Electric Coin Company, 25 percent to the Zcash Foundation, and 40 percent to Major Grants](/content-images/canopy-dev-fund-split-005bf6f2dd.webp)
 
-## Sprout プールの変更
+## Sproutプール（pool）の変更
 
-Canopy はまた、最も古いシールド化プールの段階的な終了も開始しました。Sprout は Zcash 最初のシールド化プールであり、Canopy は [ZIP 211](https://zips.z.cash/zip-0211) を通じてその縮小を始めました。
+Canopyは、最も古いシールドされた（shielded）プールの廃止も開始しました。SproutはZcashの最初のシールドされたプールであり、Canopyは[ZIP 211](https://zips.z.cash/zip-0211)を通じてその段階的な縮小を始めました。
 
-Canopy が有効化された瞬間から、Sprout プールには新しい価値を追加できなくなりました。技術的には、すべての JoinSplit における vpub_old フィールドは 0 でなければなりません。すでに Sprout にある資金は引き出せるため、誰かが締め出されることはありませんが、この先このプールは縮小する一方になります。これは、従来の Sprout プールを最終的に新しいシールド化プールへ置き換えて廃止するための第一歩です。
+Canopyが有効化された時点から、新たな価値をSproutプールへ追加することはできません。技術的には、すべてのJoinSplitのvpub_oldフィールドはゼロでなければなりません。すでにSproutにある資金は引き出せるため、誰も利用不能にはなりませんが、この先プールは縮小するだけです。これは、レガシーのSproutプールを、より新しいシールドされたプールへ移行して最終的に廃止するための第一歩です。
 
-![Canopy 以前は価値を Sprout プールに入れることも出すこともできました。Canopy 以後は新しい価値を入れることはできませんが、引き出しは引き続き可能です](/content-images/canopy-sprout-pool-f5166aa049.webp)
+![Before Canopy, value could both enter and leave the Sprout pool. After Canopy, no new value can enter but withdrawals are still allowed](/content-images/canopy-sprout-pool-f5166aa049.webp)
 
 ## 技術的な追加事項
 
-資金面の変更に加えて、Canopy には2つの比較的小さな技術的 ZIP も含まれていました。[ZIP 212](https://zips.z.cash/zip-0212) は受取人が Sapling の ephemeral secret を導出する方法を変更し、それを note plaintext から導出するようにしました。[ZIP 215](https://zips.z.cash/zip-0215) は Ed25519 署名を検証するための明示的なルールを定め、すべてのノードがどの署名を有効とみなすかについて正確に一致するようにしました。
+資金調達に関する変更に加え、Canopyには2つの小規模な技術的ZIPが含まれていました。[ZIP 212](https://zips.z.cash/zip-0212)は、受取人がSaplingの一時的な秘密情報を導出する方法を変更し、ノート（note）の平文から導出するようにしました。[ZIP 215](https://zips.z.cash/zip-0215)は、Ed25519署名（signature）を検証するための明示的なルールを定め、すべてのノード（node）がどの署名を有効と見なすかについて正確に合意できるようにしました。
 
 ## 用語集
 
-| 用語 | わかりやすい意味 |
+| 用語 | 平易な説明 |
 |---|---|
-| Founders reward | 初期の Zcash 開発費を支えた当初の資金モデルで、最初の半減時に終了する予定だったもの |
-| Development Fund | Canopy が開発向けに振り向けた各ブロック報酬の20パーセント分で、2回目の半減まで続くもの |
-| Block reward (subsidy) | 各ブロックが採掘されるたびに新たに作られ、支払われる ZEC |
-| Halving | ブロック報酬が半分に減る予定されたイベント |
-| Funding stream | ブロック補助金の一部を定義済みの受取アドレスへ振り向けるコンセンサス上の仕組み（ZIP 207） |
-| Sprout pool | Zcash の当初のシールド化プールで、Canopy によって新しい価値の受け入れが停止されたもの |
+| Founders reward | 初期のZcash開発に支払われた元の資金調達モデルで、最初の半減期に終了する予定でした |
+| Development Fund | Canopyが開発へ振り向けた各ブロック報酬の20パーセントで、2回目の半減期まで運用されました |
+| Block reward (subsidy) | 各ブロックがマイニング（mining）される際に新たに作成され、支払われるZEC |
+| Halving | ブロック報酬が半分に削減される予定されたイベントです |
+| Funding stream | ブロック補助金の一部を定義済みの受取アドレスに振り向けるコンセンサスの仕組み（ZIP 207）です |
+| Sprout pool | Zcashの元のシールドされたプールであり、Canopyが新たな価値の追加を停止しました |
 
-## FAQ
+## よくある質問
 
-Canopy は私の ZEC やプライバシーを変えますか？ いいえ。Canopy は開発資金の調達方法と、いくつかの技術的ルールに関するものです。あなたの残高やシールド化トランザクションには影響しません。
+Canopyは私のZECやプライバシーを変更しますか？ いいえ。Canopyは、開発資金の調達方法と、いくつかの技術的ルールに関するものです。残高およびシールドされたトランザクション（transaction）には影響しません。
 
-Canopy はブロック報酬を減らしましたか？ Canopy は Zcash 最初の半減と同じブロックで有効化され、その半減により報酬は 6.25 ZEC から 3.125 ZEC に減りました。半減は Zcash の通貨政策の一部です。Canopy の役割は、その小さくなった報酬の一部をどのように使うかを決めることでした。
+Canopyはブロック報酬を削減しましたか？ Canopyは、報酬を6.25 ZECから3.125 ZECへ削減したZcashの最初の半減期と同じブロックで有効化されました。半減期はZcashの金融政策の一部です。Canopyの役割は、その少額となった報酬の一部をどのように使うかを決めることでした。
 
-Development Fund は何のためのものですか？ Zcash を構築する人々に資金を提供するためです。資金は Electric Coin Company（Bootstrap Project を通じて）、Zcash Foundation、そして独立した活動を支援する Major Grants に送られます。
+開発基金は何のためのものですか？ Zcashを構築する人々に資金を提供します。資金はElectric Coin Company（Bootstrapプロジェクトを通じて）、Zcash Foundation、および独立した活動を支援するMajor Grantsへ送られます。
 
-Sprout プール内の資金はまだ使えますか？ はい。すでに Sprout にある資金は引き続き引き出せます。ただし Canopy 以後は新しい価値を追加することはできません。
+Sproutプール内の資金はまだ使用できますか？ はい。すでにSproutにある資金は引き出せます。ただし、Canopy以降、新たな価値をそこへ追加することはできません。
 
-Development Fund は恒久的なものですか？ いいえ。2020年11月の最初の半減から2024年の2回目の半減まで、4年間運用されるよう設定されていました。これによりコミュニティは、再検討する前にその仕組みがどのように機能するかを見る時間を得られました。
+開発基金は恒久的なものですか？ いいえ。2020年11月の最初の半減期から2024年の2回目の半減期までの4年間運用されるように設定されており、再検討する前にコミュニティがその仕組みを確認する時間を設けていました。
 
-Canopy は NU6 や NU6.1 とどう関係していますか？ Canopy は3者への資金配分と funding stream の仕組みを整えました。その後の NU6 や NU6.1 を含むアップグレードは、その土台の上に構築された Development Fund を見直し、再構成しました。
+CanopyはNU6およびNU6.1とどのような関係がありますか？ Canopyは、3方向の資金配分と資金ストリームの仕組みを整えました。NU6およびNU6.1を含む後続のアップグレードでは、その基盤の上に構築された開発基金が再検討され、再構成されました。
 
 ## 理解度チェック
 
-Canopy は Zcash 最初の半減とまったく同じブロックで有効化されました。なぜそのタイミングが選ばれたのでしょうか。また、Canopy がなければ開発資金はどうなっていたでしょうか？
+CanopyはZcashの最初の半減期とまったく同じブロックで有効化されました。なぜこのタイミングが選ばれたのでしょうか。また、Canopyがなければ開発資金はどうなっていたでしょうか。
 
 <details>
-<summary>答え</summary>
+<summary>回答</summary>
 
-当初の創設者報酬は、最初の半減時に終了する予定でした。Canopy がなければ、半減後の小さくなったブロック報酬はすべてマイナーに渡り、プロトコルレベルの開発資金は一切残らないことになっていました。Canopy はまさにそのブロックで創設者報酬を Development Fund に置き換えたため、資金供給は途切れることなく継続しました。
+元の創設者報酬は、最初の半減期に終了する予定でした。Canopyがなければ、半減期後のより少額なブロック報酬はすべてマイナーに送られ、開発のためのプロトコルレベルの資金はなくなっていたでしょう。Canopyは、まさにそのブロックで創設者報酬を開発基金へ置き換えたため、資金提供は中断なく継続しました。
 </details>
 
 ### リソース
 
-[ZIP 251: Canopy Network Upgrade の導入](https://zips.z.cash/zip-0251)
+[ZIP 251: Canopyネットワークアップグレードの展開](https://zips.z.cash/zip-0251)
 
-[ZIP 1014: ECC、ZF、Major Grants のための Dev Fund の設立](https://zips.z.cash/zip-1014)
+[ZIP 1014: ECC、ZF、およびMajor Grantsのための開発基金の設立](https://zips.z.cash/zip-1014)
 
-[ZIP 207: Funding Streams](https://zips.z.cash/zip-0207)
+[ZIP 207: 資金ストリーム](https://zips.z.cash/zip-0207)
 
-[ZIP 214: Zcash Development Fund のコンセンサスルール](https://zips.z.cash/zip-0214)
+[ZIP 214: Zcash開発基金のコンセンサスルール](https://zips.z.cash/zip-0214)
 
-[ZIP 211: Sprout Chain Value Pool への新しい価値の追加を無効化する](https://zips.z.cash/zip-0211)
+[ZIP 211: Sproutチェーン（chain）価値プールへの新たな価値追加の無効化](https://zips.z.cash/zip-0211)
 
-[Canopy Network Upgrade](https://z.cash/upgrade/canopy/)
+[Canopyネットワークアップグレード](https://z.cash/upgrade/canopy/)
 
-### あわせて読む
+### 関連項目
 
-[Zcash Network Upgrades](../start-here/network-upgrades)
+[Zcashネットワークアップグレード](../start-here/network-upgrades)
 
-[Development Fund](../start-here/development-fund)
+[開発基金](../start-here/development-fund)
 
-[Zcash Monetary Policy](../start-here/zcash-monetary-policy)
+[Zcash金融政策](../start-here/zcash-monetary-policy)
 
-[Shielded Pools](../using-zcash/shielded-pools)
+[シールドされたプール](../using-zcash/shielded-pools)
 
 [NU6.1](../zcash-tech/nu6-1)
 
-[Zcash Governance](../zcash-community/zcash-governance)
+[Zcashガバナンス](../zcash-community/zcash-governance)
 
 ---
 
-シリーズ: [Network Upgrades index](../start-here/network-upgrades) · 前: [Heartwood](../zcash-tech/heartwood) · 次: [NU5](../zcash-tech/nu5)
+シリーズ: [ネットワークアップグレード索引](../start-here/network-upgrades) · 前へ: [Heartwood](../zcash-tech/heartwood) · 次へ: [NU5](../zcash-tech/nu5)

@@ -1,99 +1,99 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Zcash_Tech/Blossom.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Hariri Ukurasa"/>
 </a>
 
 # Blossom
 
-> Blossom alienda kuishi kwenye Zcash mainnet katika block 653,600 (Desemba 11, 2019 UTC).
+> Blossom ilianza kutumika kwenye mainnet ya Zcash katika block 653,600 (Desemba 11, 2019 UTC).
 
-Nini wewe kuchukua mbali: jinsi Blossom alifanya Zcash vitalu kufika kuhusu mara mbili kwa kasi bila kubadilisha kiasi gani ZEC mtandao inajenga baada ya muda.
+Utajifunza: jinsi Blossom ilivyofanya block za Zcash zifike kwa kasi takriban mara mbili bila kubadilisha kiasi cha ZEC ambacho mtandao huunda kadiri muda unavyopita.
 
-Blossom ni Zcash [kuboresha mtandao](../start-here/network-upgrades). Ilikuwa deployed na [ZIP 206 - Msaada wa posta.](https://zips.z.cash/zip-0206), na mabadiliko yake kuu makubaliano ni maalum katika [ZIP 208 - Ujumbe wa posta.](https://zips.z.cash/zip-0208)Blossom ilikuwa ni kuboresha scalability: ilifupisha muda lengo kati ya vitalu kutoka sekunde 150 kwa 75 sekunde, hivyo vitalu kufika juu mara mbili kama kawaida. Electric Coin Company aliongoza na alitangaza Blossum.
+Blossom ni Zcash [uboreshaji wa mtandao](../start-here/network-upgrades). Ilitekelezwa kupitia [ZIP 206](https://zips.z.cash/zip-0206), na mabadiliko yake makuu ya makubaliano yamefafanuliwa katika [ZIP 208](https://zips.z.cash/zip-0208). Blossom ulikuwa uboreshaji wa kupanua uwezo: ulipunguza muda lengwa kati ya block kutoka sekunde 150 hadi sekunde 75, hivyo block hufika takriban mara mbili zaidi. Electric Coin Company iliongoza na kutangaza Blossom.
 
-Kwa nini hii ni muhimu. Wakati kutuma ZEC, wewe kusubiri kwa mtandao kuthibitisha katika block. Kama vitalu ni polepole, unangojea muda mrefu zaidi. Kabla ya Blossom, kuzuia mpya ilitarajiwa kuhusu kila sekunde 150. maua kukata kwamba lengo nusu, hadi 75 sekunde hivyo uthibitisho kuja mapema na mlolongo inaweza kubeba shughuli zaidi katika kiasi hicho cha wakati. Ni alifanya hili bila kujenga zaidi ZEC au kuhamisha ratiba ya halving baadaye.
+Kwa nini hili ni muhimu. Unapotuma ZEC, unasubiri mtandao uthibitishe katika block. Ikiwa block ni za polepole, unasubiri kwa muda mrefu zaidi. Kabla ya Blossom, block mpya ilitarajiwa takriban kila sekunde 150. Blossom ilipunguza lengo hilo kwa nusu, hadi sekunde 75, hivyo uthibitisho hupatikana mapema na mnyororo unaweza kubeba miamala mingi zaidi katika muda uleule. Ilifanya hivi bila kuunda ZEC zaidi au kubadilisha muda wa kupunguzwa kwa nusu siku zijazo.
 
-## Vitalu vya haraka zaidi
+## Block za kasi zaidi
 
-Blossom ya msingi mabadiliko ni rahisi. Zcash lengo block spacing, wakati mtandao inalenga kwa kati ya kuzuia moja na ijayo, imeshuka kutoka 150 sekunde 75 sekunde ([ZIP 208 - Ujumbe wa posta.](https://zips.z.cash/zip-0208)Vipande hupatikana kwa uthibitisho wa kazi, hivyo pengo halisi kati yao inatofautiana, lakini mtandao sasa unalenga kuzuia kuhusu kila sekunde 75 badala ya kila 150.
+Mabadiliko ya msingi ya Blossom ni rahisi. Muda lengwa kati ya block wa Zcash [target block spacing], yaani muda ambao mtandao hulenga kati ya block moja na inayofuata, ulipungua kutoka sekunde 150 hadi sekunde 75 ([ZIP 208](https://zips.z.cash/zip-0208)). Block hupatikana kwa thibitisho la kazi [proof of work], hivyo pengo halisi kati yake hutofautiana, lakini mtandao sasa hulenga block moja takriban kila sekunde 75 badala ya kila sekunde 150.
 
-Mambo mawili yanafuata:
+Mambo mawili hufuata:
 
-1. Vitalu kufika kuhusu mara mbili kama kawaida, hivyo mlolongo inaweza kubeba takriban mara mbili ya shughuli kwa kitengo cha muda.
-2. shughuli yako anapata uthibitisho wake wa kwanza mapema, kwa sababu huna kusubiri muda mrefu kwa ajili ya kuzuia ijayo.
+1. Block hufika takriban mara mbili zaidi, hivyo mnyororo unaweza kubeba takriban miamala mara mbili kwa kila kipimo cha muda.
+2. Muamala wako hupata uthibitisho wake wa kwanza mapema, kwa sababu husubiri kwa muda mfupi zaidi block inayofuata.
 
 ![Before Blossom the block target was 150 seconds with slower confirmations and lower throughput. After Blossom the target is 75 seconds with faster confirmations and roughly double the throughput](/content-images/blossom-block-spacing-50b6bfbacc.webp)
 
-## Kuweka utoaji imara
+## Kudumisha utoaji thabiti
 
-Kwa hivyo, ikiwa Zcash ilifanya vitalu mara mbili na kila block bado inalipa thawabu sawa, mtandao ungeunda ZEC haraka zaidi. Blossom anaepuka hiyo. Ilipunguza nusu ya tuzo iliyolipiwa kwa kila kizuizi, na ikaongeza maradufu muda wa kupunguzwa-mshahara kutoka 840,000 hadi 1,680,000 blocks (kwa mfano wakati ambapo mtu alipewa zawadi kubwa sana).[ZIP 208 - Ujumbe wa posta.](https://zips.z.cash/zip-0208)Mara mbili kama vitalu, kila kulipa nusu ya kiasi hicho, kazi nje kwa idadi sawa ya ZEC kuundwa kwa kitengo cha muda. jumla ugavi ratiba na wakati wa halving baadaye, kipimo katika muda halisi, si iliyopita.
+Block za kasi zaidi huibua swali. Ikiwa Zcash ingetengeneza block mara mbili zaidi na kila block bado ilipewa zawadi ileile, mtandao ungeunda ZEC kwa kasi mara mbili zaidi. Blossom huepusha hilo. Ilipunguza kwa nusu zawadi inayolipwa kwa kila block, na ikaongeza kwa mara mbili kipindi cha kupunguzwa kwa nusu cha zawadi ya block kutoka block 840,000 hadi 1,680,000 ([ZIP 208](https://zips.z.cash/zip-0208)). Block mara mbili zaidi, kila moja ikilipa nusu ya kiasi, husababisha kiasi kilekile cha ZEC kuundwa kwa kila kipimo cha muda. Ratiba ya jumla ya ugavi na muda wa kupunguzwa kwa nusu siku zijazo, unapopimwa kwa muda halisi, haukubadilika.
 
 ![How Blossom keeps issuance steady: 75 second blocks arrive twice as often, the per-block reward is halved, the halving interval is doubled, so total emission over time stays the same](/content-images/blossom-emission-balance-f2443e29ab.webp)
 
-## A lazima kuboresha
+## Uboreshaji wa lazima
 
-Blossom ilikuwa mabadiliko ya makubaliano pande mbili, ambayo ina maana kila node alikuwa na kuboresha kuendelea kufuata mlolongo ([ZIP 206 - Msaada wa posta.](https://zips.z.cash/zip-0206)Blossom ilianzishwa katika block ya msingi 653,600 na hubeba id yake mwenyewe ya tawi la makubaliano, lebo ambayo inaruhusu nodes na shughuli kuthibitisha kuwa ziko kwenye sheria za Blossum. Uboreshaji ulitumia utaratibu wa kawaida wa kuboresha mtandao wa Zcash ([ZIP 200 - Ujumbe wa posta.](https://zips.z.cash/zip-0200)).
+Blossom ulikuwa mabadiliko ya makubaliano ya pande mbili [bilateral consensus change], ambayo yanamaanisha kila node ilipaswa kuboreshwa ili iendelee kufuata mnyororo ([ZIP 206](https://zips.z.cash/zip-0206)). Haikuwa hiari kwa mwendeshaji wa node aliyetaka kuendelea kusawazishwa. Blossom iliwashwa katika block 653,600 ya mainnet na ina kitambulisho chake cha tawi la makubaliano [consensus branch id], lebo inayoruhusu node na miamala kuthibitisha kuwa ziko kwenye kanuni za Blossom. Uboreshaji ulitumia utaratibu wa kawaida wa uboreshaji wa mtandao wa Zcash ([ZIP 200](https://zips.z.cash/zip-0200)).
 
-## Mahali Ambapo Blossom Anafaa
+## Nafasi ya Blossom
 
-Blossom was Zcash's third network upgrade. It followed Overwinter and Sapling, and it came before Heartwood and Canopy. Unlike Sapling, which reworked Zcash's shielded cryptography, Blossom was focused on scale and speed. Its main job was block timing, not new privacy features.
+Blossom ulikuwa uboreshaji wa tatu wa mtandao wa Zcash. Ulifuata Overwinter na Sapling, na ulikuja kabla ya Heartwood na Canopy. Tofauti na Sapling, ambao ulifanyia upya kriptografia ya faragha ya Zcash, Blossom ulilenga uwezo na kasi. Jukumu lake kuu lilikuwa muda wa block, si vipengele vipya vya faragha.
 
-## Orodha ya maneno
+## Faharasa
 
-| Muhula | Maana ya Kiingereza cha kawaida |
+| Istilahi | Maana kwa lugha rahisi |
 |---|---|
-| Block target spacing | Muda ambao mtandao unalenga kati ya kizuizi kimoja na kingine |
-| Block reward | ZEC mpya iliundwa na kulipwa kadri kila kitalu kinavyochimbwa |
-| Halving interval | Ni vitalu vingapi vinavyopita kati ya kila nusu ya zawadi ya vitalu |
-| Consensus branch id | Lebo inayoashiria ni seti gani ya sheria za mtandao ambazo nodi au muamala unafuata |
-| Bilateral consensus change | Mabadiliko ya sheria ambayo kila nodi lazima ipitishe ili kubaki kwenye mtandao |
-| Network upgrade (NU) | Mabadiliko yaliyoratibiwa kwa sheria za makubaliano Zcash's, yaliyoamilishwa kwa urefu wa block uliowekwa |
+| Block target spacing | Muda ambao mtandao hulenga kati ya block moja na inayofuata |
+| Block reward | ZEC mpya inayoundwa na kulipwa block inapochimbwa |
+| Halving interval | Idadi ya block zinazopita kati ya kila kupunguzwa kwa nusu kwa zawadi ya block |
+| Consensus branch id | Lebo inayoonyesha seti ipi ya kanuni za mtandao ambayo node au muamala inafuata |
+| Bilateral consensus change | Mabadiliko ya kanuni ambayo kila node lazima ikubali ili ibaki kwenye mtandao |
+| Network upgrade (NU) | Mabadiliko yaliyoratibiwa kwa kanuni za makubaliano za Zcash, yanayowashwa katika urefu maalumu wa block |
 
-## FAQs
+## Maswali Yanayoulizwa Mara kwa Mara
 
-Je, Blossom mabadiliko kiasi gani ZEC ipo au wakati halving kutokea? La. Tuzo kwa kila block ilikuwa nusu na katikati ya muda wa kupasuliwa mara mbili katika wakati huo huo, hivyo kiwango cha ZEC umba kwa kitengo cha muda, na ratiba ya Halvings baadaye, alibakia sawa.
+Je, Blossom hubadilisha kiasi cha ZEC kilichopo au wakati kupunguzwa kwa nusu hutokea? Hapana. Zawadi kwa kila block ilipunguzwa kwa nusu na kipindi cha kupunguzwa kwa nusu kikaongezwa mara mbili kwa wakati mmoja, hivyo kiasi cha ZEC kinachoundwa kwa kila kipimo cha muda, pamoja na muda wa kupunguzwa kwa nusu siku zijazo, kilibaki kilekile.
 
-Je, Blossom kubadilisha ZEC yangu au faragha? Hapana. Blossem iliyopita block muda na malipo ya hisabati. Si kugusa mizani yako au shughuli zako kulindwa.
+Je, Blossom hubadilisha ZEC yangu au faragha yangu [privacy]? Hapana. Blossom ilibadilisha muda wa block na hesabu za zawadi. Haikugusa salio lako wala miamala yako ya faragha [shielded transactions].
 
-Ni nini 75 sekunde kweli maana? ni lengo, si dhamana. vitalu hupatikana kwa ushahidi wa kazi, hivyo pengo halisi kati ya vitalu inatofautiana. mtandao ina lengo la moja kuhusu kila baada ya dakika 75 badala ya kila 150.
+Sekunde 75 zinamaanisha nini hasa? Ni lengo, si hakikisho. Block hupatikana kwa thibitisho la kazi, hivyo pengo halisi kati ya block hutofautiana. Mtandao hulenga moja takriban kila sekunde 75 badala ya kila sekunde 150.
 
-Je, mimi alikuwa na kufanya kitu chochote wakati Blossom kuanzishwa? Kama wewe mbio full node, unahitaji kuboresha ni kwa sababu Blossum ilikuwa lazima. kama matumizi mkoba, ulihitaji toleo kwamba mkono sheria mpya.
+Je, nilipaswa kufanya jambo lolote Blossom ilipowashwa? Ikiwa uliendesha full node, ulihitaji kuiboresha, kwa sababu Blossom ulikuwa wa lazima. Ikiwa ulitumia pochi, ulihitaji toleo lililounga mkono kanuni mpya.
 
-Kwa nini nusu block tuzo hata? kwa sababu vitalu sasa kuja mara mbili haraka. Halving per-block malipo anaendelea mtandao kutoka kujenga ZEC mara mbili kama haraka.
+Kwa nini kupunguza zawadi ya block kwa nusu? Kwa sababu block sasa hufika kwa kasi mara mbili zaidi. Kupunguza zawadi kwa kila block kwa nusu huzuia mtandao kuunda ZEC kwa kasi mara mbili zaidi.
 
-Wakati Blossom kuanzishwa? Katika block 653,600, Desemba 11, 2019 UTC.
+Blossom iliwashwa lini? Katika block 653,600 ya mainnet, Desemba 11, 2019 UTC.
 
-## Jaribu uelewevu wako
+## Jaribu uelewa wako
 
-Blossom alifanya Zcash vitalu kufika kuhusu mara mbili kama kawaida. Kwa nini kwamba si mara mbili kiwango ambacho mpya ZEC ni kuundwa?
+Blossom ilifanya block za Zcash zifike takriban mara mbili zaidi. Kwa nini hilo halikuongeza mara mbili kiwango ambacho ZEC mpya huundwa?
 
 <details>
-<summary>Answer</summary>
+<summary>Jibu</summary>
 
-Kwa sababu Blossom pia nusu tuzo kulipwa kwa block na mara mbili ya kupunguza muda wa kati kutoka 840,000 hadi 1,680,000 blocks. Blocks maradufu, kila kulipa nusu kiasi hicho, kuongeza juu ya kiasi sawa cha ZEC per unit of time, hivyo uzalishaji ratiba kipimo katika wakati halisi si iliyopita.
+Kwa sababu Blossom pia ilipunguza kwa nusu zawadi inayolipwa kwa kila block na ikaongeza kwa mara mbili kipindi cha kupunguzwa kwa nusu kutoka block 840,000 hadi 1,680,000. Block mara mbili zaidi, kila moja ikilipa nusu ya kiasi, hujumlisha kiasi kilekile cha ZEC kwa kila kipimo cha muda, hivyo ratiba ya utoaji inayopimwa kwa muda halisi haikubadilika.
 </details>
 
 ### Rasilimali
 
-[ZIP 208: Shorter Block Target Spacing (Mbali ya Lengo la Mzunguko wa Muda mfupi)](https://zips.z.cash/zip-0208)
+[ZIP 208: Muda Lengwa Mfupi Zaidi Kati ya Block](https://zips.z.cash/zip-0208)
 
-[ZIP 206: kupelekwa kwa Blossom Network Upgrade](https://zips.z.cash/zip-0206)
+[ZIP 206: Utekelezaji wa Uboreshaji wa Mtandao wa Blossom](https://zips.z.cash/zip-0206)
 
-[Blossom Network Kuboresha](https://z.cash/upgrade/blossom/)
+[Blossom Uboreshaji wa Mtandao](https://z.cash/upgrade/blossom/)
 
-[Blossom Upgrade inaboresha kasi, Scalability, uwezo (Electric Coin Company)](https://electriccoin.co/blog/blossom-upgrade-improves-speed-scalability-capacity/)
+[Blossom Uboreshaji Huongeza Kasi, Uwezo wa Kupanua, na Uwezo wa Kubeba (Electric Coin Company)](https://electriccoin.co/blog/blossom-upgrade-improves-speed-scalability-capacity/)
 
-### Angalia pia:
+### Tazama pia
 
-[Zcash Network Upgrades (Ubadilishaji wa Mtandao)](../start-here/network-upgrades)
+[Maboresho ya Mtandao wa Zcash](../start-here/network-upgrades)
 
-[Zcash Sera ya Fedha](../start-here/zcash-monetary-policy)
+[Sera ya Kifedha ya Zcash](../start-here/zcash-monetary-policy)
 
-[ZEC na Zcash ni nini?](../start-here/what-is-zec-and-zcash)
+[ZEC ni nini na Zcash](../start-here/what-is-zec-and-zcash)
 
-[Nodes kamili](../zcash-tech/full-nodes)
+[Full Nodes](../zcash-tech/full-nodes)
 
 [NU6.1](../zcash-tech/nu6-1)
 
 ---
 
-Mfululizo: [Kiwango cha Upgrades Network](../start-here/network-upgrades) · Zamani: [Sapling](../zcash-tech/sapling) · Kisha: [Heartwood](../zcash-tech/heartwood)
+Mfululizo: [Faharasa ya Maboresho ya Mtandao](../start-here/network-upgrades) · Iliyotangulia: [Sapling](../zcash-tech/sapling) · Inayofuata: [Heartwood](../zcash-tech/heartwood)

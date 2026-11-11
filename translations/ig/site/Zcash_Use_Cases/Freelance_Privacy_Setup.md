@@ -1,128 +1,128 @@
-# <img src="/content-images/programmer-software-engineer-coder-softw-bce5a0cb5b.svg" width="24" height="24" alt="Freelancer icon"/> Freelancer Privacy Setup with Zcash
+# <img src="/content-images/programmer-software-engineer-coder-softw-bce5a0cb5b.svg" width="24" height="24" alt="Freelancer icon"/> Nhazi Nzuzo [Privacy] maka Freelancer na Zcash
 
 <span className="inline-flex items-center gap-[6px]">
   <span className="inline-block w-[12px] h-[12px] bg-green-500 rounded-full"></span>
-  Onye mbido - 6 min.
+  Onye mbido - nkeji 6
 </span>
 
 ## TL;DR
 
-- Nweta ịkwụ ụgwọ site na adreesị echekwara.
-- Nkọwapụta nke onwe onye maka ndị ahịa (ma ọ bụrụ na achọrọ)
-- Jiri ihe ncheta maka nsuso n'ime ụlọ
-- Ekwela ka ndị mmadụ mara ego ole ị na-akpata.
+- Nata Kwụọ ụhwọ [payments] site na Adreesị akpa ego [address] nke e chebere echebe [shielded]
+- Kewapụ njirimara maka onye ahịa ọ bụla (ọ bụrụ na achọrọ)
+- Jiri memo maka ịchụso ihe n'ime
+- Debe ego ị na-akpata na nzuzo
 
 
 <br/>
 
-## <img src="/content-images/user-svgrepo-com-21adf62b7c.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="user icon"/> Who is this for?
+## <img src="/content-images/user-svgrepo-com-21adf62b7c.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="user icon"/> Ònye ka nke a bụ maka ya?
 
-- Ndị nweere onwe ha na ndị ọrụ nkwekọrịta.
-- Ndị ọrụ na-arụ ọrụ site n'ebe dị anya a kwụrụ ụgwọ crypto.
-- Ndị ọkachamara na-echebara ihe nzuzo ha echiche
+- Ndị freelancer na ndị ọrụ nkwekọrịta
+- Ndị ọrụ n'ebe dị anya a na-akwụ ụgwọ na crypto
+- Ndị ọkachamara na-echebara Nzuzo echiche
 
 <br/>
 
-## <img src="/content-images/warning-error-svgrepo-com-b7ea8a50da.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="warning icon"/> The Problem
+## <img src="/content-images/warning-error-svgrepo-com-b7ea8a50da.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="warning icon"/> Nsogbu ahụ
 
-Ndị nweere onwe ha na-eji crypto ọha ekpughe:
+Ndị freelancer na-eji crypto Oha [transparent] na-ekpughe:
 - Ego ha na-akpata
-- Ndị ahịa ha .
-- Akụkọ ego ha .
+- Ndị ahịa ha
+- Akụkọ ego ha
 
-Nke a pụrụ iduga:
-- Mfu nke ikike nkwekọrịta
-- Ihe ize ndụ nzuzo
-- Ọhụhụ a na-achọghị
+Nke a nwere ike ibute:
+- Ọnwụ ike ịkparịta ụka
+- Ihe ize ndụ Nzuzo
+- Nhụpụta a na-achọghị
   
 
 <br/>
 
-## <img src="/content-images/icons8-lock-2f8e221321.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> Why Zcash?
+## <img src="/content-images/icons8-lock-2f8e221321.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> Gịnị kpatara Zcash?
 
 Zcash na-enye gị ohere:
-- Na-enweta ego na nzuzo.
-- Zochie ego ị na- akpata .
-- Chebe mmekọrịta ndị ahịa gị na ha
+- Ịnata Kwụọ ụhwọ na nzuzo
+- Izobe ego ị na-akpata
+- Ichekwa mmekọrịta gị na ndị ahịa
 
 <br/>
 
-## <img src="/content-images/icons8-toolbox-9bebbb1619.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> What You Need
+## <img src="/content-images/icons8-toolbox-9bebbb1619.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> Ihe Ị Chọrọ
 
-- Akpa ego Zcash nwere nkwado memo
-- Nghọta nke adreesị echekwara
+- Otu e-akpa ego [wallet] Zcash nke na-akwado memo
+- Nghọta bụ isi banyere Adreesị akpa ego nke e chebere echebe
 
 
 <br/>
 
-## <img src="/content-images/ladder-svgrepo-com-7232bf46ed.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="step icon"/> Step-by-Step Guide
+## <img src="/content-images/ladder-svgrepo-com-7232bf46ed.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="step icon"/> Ntuziaka Nzọụkwụ-site-na-Nzọụkwụ
 
-### Nzọụkwụ 1: Mepụta Adreesị Ịkwụ Ụgwọ
+### Nzọụkwụ 1: Mepụta Adreesị akpa ego Kwụọ ụhwọ
 
-Mepụta adreesị ezoro ezo (z).
+Mepụta Adreesị akpa ego (z) nke e chebere echebe.
 
-Nhọrọ:
-- Jiri adreesị dị iche maka ndị ahịa dịgasị iche
+Ọ bụrụ na ịchọrọ:
+- Jiri Adreesị akpa ego dị iche iche maka ndị ahịa dị iche iche
 
 
-### Nzọụkwụ 2: Kekọrịta Adreesị na Onye ahịa
+### Nzọụkwụ 2: Kekọrịta Adreesị akpa ego na Onye Ahịa
 
-Ziga adreesị z gị kpọmkwem nye onye ahịa gị.
+Ziga z-adreesị gị ozugbo nye onye ahịa gị.
 
 Zere:
-- Ikwusa ya n'ihu ọha ma ọ bụrụ na ọ dịghị mkpa.
+- Ibipụta ya n'ihu ọha ma ọ bụrụ na ọ dịghị mkpa
 
-### Nzọụkwụ 3: Jiri Memos maka Ndepụta
+### Nzọụkwụ 3: Jiri Memo maka Ịchụso Ihe
 
-Mgbe ị na-enweta ego:
-- Jụọ ndị ahịa ka ha tinye ihe ncheta (dịka, ID akwụkwọ ọnụahịa)
+Mgbe ị na-anata Kwụọ ụhwọ:
+- Rịọ ndị ahịa ka ha tinye memo (dịka ọmụmaatụ, ID akwụkwọ ọnụahịa)
 
-Nke a ga - enyere gị aka:
-- Chọpụta ịkwụ ụgwọ na-enweghị ekpughe data n'ihu ọha.
+Nke a na-enyere gị:
+- Ịchụso Kwụọ ụhgwọ n'ekpugheghị data n'ihu ọha
 
 
-### Nzọụkwụ nke 4: Mee Ka A Ghara Ịmata Onye Gị Bụ
+### Nzọụkwụ 4: Debe Nkewa Njirimara
 
-Ọ bụrụ na ọ dị mkpa:
-- Jiri obere akpa ego dị iche ma ọ bụ adreesị maka onye ahịa ọ bụla
-- Zere ijikọta njirimara ọnụ.
-
-<br/>
-
-## <img src="/content-images/icons8-cancel-7f786be3c1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="cancel icon"/> Common Mistakes to Avoid
-
-- Iji adreesị doro anya maka ịkwụ ụgwọ 
-- Ịgbanwe otu adreesị ahụ n'etiti ndị ahịa niile 
-- Ijikọ obere akpa na njirimara n'ihu ọha 
-- Ịgbaso ụgwọ (na-eduga ná mgbagwoju anya)
-
+Ọ bụrụ na achọrọ:
+- Jiri e-akpa ego ma ọ bụ Adreesị akpa ego dị iche maka onye ahịa ọ bụla
+- Zere ijikọ njirimara ọnụ
 
 <br/>
 
-## <img src="/content-images/checked-checkbox-svgrepo-com-7ea19022da.svg" width="28" height="28" className="inline-block align-middle mr-1 p-[2px]" alt="done icon"/> Result
+## <img src="/content-images/icons8-cancel-7f786be3c1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="cancel icon"/> Njehie Ndị A Na-ahụkarị I Kwesịrị Izere
 
-I nwere ike:
-- Na-enweta ego na nzuzo.
-- Chebe data ego gị na-enweta
-- Na-agbanwe agbanwe n'ọrụ gị.
+- Iji Adreesị akpa ego Oha maka Kwụọ ụhwọ  
+- Ijigharị otu Adreesị akpa ego maka ndị ahịa niile  
+- Ijikọ e-akpa ego na njirimara n'ihu ọha  
+- Ịghara ịchụso Kwụọ ụhgwọ (nke na-eduga n'ọgba aghara)
 
-<br/>
-
-## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="chain-links icon"/> Related
-
-- [Akpa ego](/wallets)
 
 <br/>
 
-## <img src="/content-images/progress-arrows-svgrepo-com-aad76739e5.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="progress icon"/> Progress
+## <img src="/content-images/checked-checkbox-svgrepo-com-7ea19022da.svg" width="28" height="28" className="inline-block align-middle mr-1 p-[2px]" alt="done icon"/> Nsonaazụ
 
-**Nzọụkwụ 3 nke 6**
-
-Ị ghọtara ugbu a etu esi enweta ego n'onwe gị.
+Ị nwere ike:
+- Ịnata Kwụọ ụhwọ na nzuzo
+- Ichekwa data ego ị na-akpata
+- Idebe mgbanwe n'ọrụ ọkachamara
 
 <br/>
 
-## Nzọụkwụ Ọzọ
+## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="chain-links icon"/> Nke Metụtara Ya
 
-- [Ịnabata Ụgwọ Dị Ka Onye Na-ere Ahịa](/zcash-use-cases/accept-payments-as-a-merchant)
+- [E-akpa ego](/wallets)
+
+<br/>
+
+## <img src="/content-images/progress-arrows-svgrepo-com-aad76739e5.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="progress icon"/> Ọganihu
+
+**Nzọụkwụ 3 n'ime 6**
+
+Ị ghọtara ugbu a otu esi anata ego ị na-akpata na nzuzo.
+
+<br/>
+
+## Nzọụkwụ Na-esote
+
+- [Nabata Kwụọ ụhwọ dịka Onye Ahịa](/zcash-use-cases/accept-payments-as-a-merchant)
 <br/>

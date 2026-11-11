@@ -2,15 +2,15 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-Nchịkọta nke ndekọ Zcash Engineering Office Hours.
+Nchịkọta ndekọ Zcash Engineering Office Hours.
 
 # Zcash Engineering Office Hours
 
-Oge ọmụmụ ihe na-ekpuchi usoro Zcash, nyocha nke enweghị ihe ọmụma, mmepe ngwa, ZIPs, yana isiokwu injinịa gburugburu ebe obibi. Onye isi ya bụ Mark Henderson [](https://x.com/shieldedmark) with participation from Shielded Labs, ZcashMe, Edge, and other contributors. Live sessions are typically held on Zcash Discord stages (often via Luma); recordings are published by [Zcash Brazil](https://www.youtube.com/@zcashbrasil).
+Oge nzukọ nka na ụzụ mgbe niile nke na-ekpuchi protocol Zcash, proof zero-knowledge, mmepe ngwa, ZIP, na isiokwu injinia nke gburugburu usoro. Ọ bụ Mark Henderson [](https://x.com/shieldedmark) na-ahazi ha nke ukwuu, yana Shielded Labs, ZcashMe, Edge, na ndị ọzọ na-atụnye aka na-esonye. A na-eme nnọkọ dị ndụ na ogbo Zcash Discord (ọtụtụ mgbe site na Luma); [Zcash Brasil](https://www.youtube.com/@zcashbrasil) na-ebipụta ndekọ ndị ahụ.
 
-Usoro a gụnyere ma ndị na-eme ihe omimi dị omimi nakwa usoro ** Protocol Study** nke na-aga n'ihu (ịgụ akwụkwọ ntuziaka nke Zcash Protocol Specification).
+Usoro a gụnyere ma nyocha miri emi kwụụrụ onwe ya ma obere-usoro **Ọmụmụ Protocol [Protocol Study]** na-aga n'ihu (ịgụ ntụzịaka nke Nkọwapụta Protocol Zcash).
 
-[Zcash Engineering Office Hours Playlist (Aha egwu nke ụlọ ọrụ)](https://www.youtube.com/playlist?list=PLez2pAhViAI3zb2wnXomrdr3Qmf3lRTiY)
+[Zcash Engineering Office Hours Ndepụta egwu Playlist](https://www.youtube.com/playlist?list=PLez2pAhViAI3zb2wnXomrdr3Qmf3lRTiY)
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe

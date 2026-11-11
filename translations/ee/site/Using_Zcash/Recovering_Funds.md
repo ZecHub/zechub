@@ -1,214 +1,214 @@
 <a href="https://github.com/Zechub/zechub/edit/main/site/Using_Zcash/Recovering_Funds.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Axa Axewo"/>
 </a>
 
-# Zcash Gakotoku ƒe Gaxɔmenɔnɔ
+# Zcash Gakotoku ƒe Ga Gbugbɔxɔxɔ
 
-**Nukatae nàdzra wò hayahaya ƒe nuzazãwo ɖo?**
+**Nu ka ta nàlé wò gbugbɔxɔnuwo ɖe asi?**
 
-Nukuwo, gazazã ƒe safuiwo, nukpɔkpɔ ƒe safuiwo, kple gakotoku ƒe faɛlwo mate ŋu atrɔ wo nɔewo o. Nuku ƒe nyagbe ate ŋu akpɔ gakotoku ƒe safuiwo na gakotoku geɖe, gake mexɔa gakotoku ƒe safui alo gakotoku ƒe faɛl ɖesiaɖe si nye domenyinu teƒe o. Nukpɔkpɔ ƒe safui ate ŋu aɖe dɔwɔna si wokpɔ ta na afia gake mate ŋu aɖe mɔ ɖe gazazã ŋu o.
+Gadzraɖoɖi nya [seed phrase], gazazãsafuiwo, nukpɔsafuiwo, kple gakotoku ƒe faɛlwo menye nu ma ke o. Gadzraɖoɖi nya ate ŋu adze gakotoku ƒe safuiwo na gakotoku geɖewo, gake wòmeɖe safui xoxowo katã alo gakotoku ƒe faɛl siawo katã o. Nukpɔsafui ate ŋu aɖe ɣaɣla ƒe nudzɔdzɔwo fia, gake mate ŋu aɖe mɔ na ga zazã o.
 
-Gagbugbɔgaxɔ nɔ te ɖe gazazã ƒe ŋusẽ nyuitɔ ƒe amesinɔnɔ kple mɔ si wodo alɔe fifia na ta si me gaawo le dzi. Na nusiwo nàgbugbɔ axɔ la nanye ame ŋutɔ tɔ eye màma nukuwo, gazazã ƒe safuiwo, alo gakotoku ƒe faɛlwo kple ame aɖeke si dzi mèka ɖo o gbeɖe o.
+Gbugbɔxɔxɔ hiã be nànɔ gazazã ƒe mɔɖeɖe nyuitɔ kple mɔ si wole kpɔm fifia na gaƒuƒoƒo si le gaawo ɖe asi. Lé wò gbugbɔxɔnuwo ɖe ɣaɣla me eye mèna gadzraɖoɖi nyawo, gazazãsafuiwo, alo gakotoku ƒe faɛlwo na ame si nèle dzi o o.
 
-# Dedienɔnɔ Kple Agbanɔamedzi
+# Dedie kple Dɔmeɖeɖe
 
-Ele vevie ŋutɔ be ezãlawo nase afɔku siwo le ame ŋutɔ ƒe safuiwo gbɔ kpɔkpɔ me gɔme eye woakpɔ safui siawo ta tso ame siwo ŋu womeɖe mɔ ɖo o ƒe gege ɖe eme me. Ga ƒe dedienɔnɔ nɔ te ɖe ezãla ƒe agbanɔamedzi be wòakpɔ woƒe safui ɣaɣlawo ta dzi.
+Ele vevie be zazalawo nase afɔku siwo le asisi ƒe safuiwo wɔwɔ me la gɔme eye woalé safui siawo ɖe asi tso mɔxɔlawo ƒe adɔmeɖeɖe gbɔ. Gaawo ƒe dedie ɖo ɖe zazala la ƒe dɔmeɖeɖe be wòalé eƒe asisi ƒe safuiwo ɖe asi.
 
-## Ga siwo wokpɔ ta na domenyinu: Sprout, Sapling kple Orchard
+## Xoxotɔ ɣaɣla ƒe gaawo: Sprout, Sapling kple Orchard
 
-Ðewohĩ ahiã be woaɖe ZEC xoxo siwo wotsɔ akpoxɔnu wɔe la ayi teƒe bubu abe hayahaya ƒe akpa aɖe ene. Mɔa nɔ te ɖe ta si wotsɔ akpoxɔnu wɔe si me ga la le fifia dzi.
+Xoxotɔ ɣaɣla ZECwo ate ŋu ahiã be woatrɔ wo le gbugbɔxɔxɔ ƒe akpa me. Mɔ la ɖo ɖe ɣaɣla ƒe gaƒuƒoƒo si le gaawo ɖe asi fifia la ŋu.
 
-> **Woɖoe be NU7 nawɔ dɔ le November 5, 2026 dzi.** Ne enya wɔ dɔ ko la, ʋuʋu ƒe mɔ si li fifia tso Sprout ƒe ta si nye domenyinu me la adzudzɔ dɔwɔwɔ.
+> **Woɖo NU7 ɖe November 5, 2026.** Ne wòdze egɔme la, mɔ si le fifia be woato tso xoxotɔ Sprout gaƒuƒoƒo me la manɔ dɔ wɔm o.
 >
-> Ne ZEC gakpɔtɔ le asiwò le Sprout pool la me la, ʋue hafi nàdoe ɖe ŋgɔ. Le dɔwɔwɔ vɔ megbe la, dɔwɔnu siwo li fifia magate ŋu atsɔ Sprout ƒe ga ayi Sapling, adrɛs siwo me kɔ, alo teƒe bubu aɖeke o.
+> Ne Sprout gaƒuƒoƒo la me ZEC gale asiwò ha la, trɔe hafi woawɔ yeyetoto la. Ne wòdze egɔme vɔ la, dɔwɔnu siwo le fifia la mate ŋu atrɔ Sprout gaawo ayi Sapling, nuwo ƒe ʋuʋuɖi gaɖoƒe ƒe dzesiwo, alo afi bubu aɖeke o.
 >
-> Ne èle axa sia kpɔm **le NU7** ƒe dɔwɔwɔ vɔ megbe la, **Sprout nye tsikpe le tsikpe me** vaseɖe esime etsɔme hayahaya ƒe mɔnu aɖe va li, si ŋu womewɔ ɖoɖo ɖo fifia o.
+> Ne èle axa sia kpɔm **le NU7 wòdze egɔme vɔ** la, **Sprout tsɔ ɣe le tsi me** vaseɖe esime gbugbɔxɔxɔ ƒe mɔ bubu ava, si womeɖoe ɖeɖe fifia o.
 
-## Ŋuɖoɖoa le axa ɖeka dzi
+## Ŋuɣi ɖeka ƒe ŋuɖoɖo
 
-| Wò ga le | Ʋuʋu ƒe mɔ | Nusi woawɔ |
+| Wò gaawo le | Trɔtrɔ ƒe mɔ | Nu si nàwɔ |
 | --- | --- | --- |
-| **Sprout** | **Sprout → Sapling → Ironwood** | If you have `wallet.dat` alo Sprout ƒe gazazã ƒe safui si le eɖokui si la, te Argos ƒe hayahaya ƒe mɔ si li fifia kpɔ gbã. Ne Argos mesɔ o la, zã axadzimɔ si nye domenyinu le gbeadzimɔfianu bliboa me. Ele be Sprout naɖi ɖe Sapling gbã, emegbe wòayi ŋgɔ ayi Ironwood. Mɔ sia xɔa ɣeyiɣi le NU7 ta. |
-| **Sapling** | **Sapling → Ironwood** | Sprout ƒe hayahaya ƒe nɔnɔme aɖeke mehiã o. Zã gakotoku si li fifia si ate ŋu axɔ wò Sapling akɔnta tɔxɛa alo azãe eye wòatu Ironwood ƒe asitsatsa. Ironwood ƒe kpekpeɖeŋu ɖeɖe meɖo kpe domenyinu-Sapling ƒe gbugbɔgaxɔ ƒe kpekpeɖeŋu dzi o. |
-| **Orchard** | **Orchard → Ironwood** | Atikutsetsebɔa nye esi me woate ŋu ado le ko. Zã gakotoku si sɔ fifia ƒe Orchard-to-Ironwood ʋuʋu ƒe sisi si wotu ɖe eme. Kpɔ [Ga si wogbugbɔ xɔ kple Ironwood ta la](#recovered-funds-and-the-ironwood-pool). |
+| **Sprout** | **Sprout → Sapling → Ironwood** | Ne `wallet.dat` le asiwò alo Sprout gazazãsafui si le eɖokui ŋu la, kpɔ Argos gbugbɔxɔxɔ ƒe mɔ si le fifia la gbã. Ne Argos mesɔ o la, zã xoxotɔ sidecar mɔ la le field guide blibo la me. Sprout naɖo Sapling gbã, afi ma megbe wòayi Ironwood. Mɔ sia hiã be woawɔe kaba elabena NU7. |
+| **Sapling** | **Sapling → Ironwood** | Sprout gbugbɔxɔxɔ ƒe nɔnɔme mehiã o. Zã gakotoku yeyetɔ si ate ŋu agbugbɔa alo azã wò Sapling akɔnt si tututu, eye wòate ŋu awɔ Ironwood gaɖoɖowo. Ironwood ƒe kpekpeɖeŋu ɖeka koe mele afia be xoxotɔ-Sapling gbugbɔxɔxɔ ƒe kpekpeɖeŋu le o. |
+| **Orchard** | **Orchard → Ironwood** | Orchard nye mɔ si ato dzo ɖeko. Zã gakotoku si sɔ kplee ƒe Orchard-yi-Ironwood trɔtrɔ ƒe mɔ si wolé ɖe eme. Kpɔ [Gaawo si woɖe gbugbɔIronwood gaƒuƒoƒo la](#recovered-funds-and-the-ironwood-pool). |
 
-### Nyabiase atɔ̃ ƒe nyametsotso ƒe sisi
+### Biabia atɔ̃ ƒe ŋuɖoɖo ƒe mɔ
 
-1. **Ðe wònye Sprout?** Nuku ƒe nyagbɔgblɔ ɖeɖeko fia asi Sapling/Orchard-ɣeyiɣia me ƒe hayahaya ƒe mɔ si ava emegbe, ke menye Sprout o. A. A `zc...` adrɛs, alo gakotoku si wogbugbɔ ɖo si gblɔ Sprout ƒe ga si susɔ la, fia asi Sprout.
-2. **Nu kae le asiwò be nàhaya?** Di `wallet.dat`, kɔmpiuta alo datadir xoxoa, a `z_exportwallet` backup, alo Sprout ƒe gazazã ƒe safui si woɖo ɖe duta. A. A `zc...` adrɛs ɖeɖe dzaa mesɔ gbɔ o.
-3. **Argos alo domenyinu sidecar la?** Ne èwɔe `wallet.dat` alo Sprout ƒe gazazã ƒe safui si le eɖokui si eye nàdi ko be ga la nado go, dze agbagba [Argos](#zecwallet-lite-and-legacy-wallet-recovery-with-argos) gbã. Zã domenyinu sidecar mɔ le agbledzimɔfiame bliboa me ne Argos mate ŋu akpɔ nuawo gbɔ o alo ne èdi be bliboe hayahaya ƒe ƒuƒoƒoa le wò ŋutɔ wò ŋusẽ te.
-4. **Ðe zcashd datadir si wowɔ ɖekae, si wometso o le asiwò xoxoa?** Esia le vevie na domenyinu sidecar mɔa ko. Kpɔ node ƒe nyatakaka siwo li xoxo ƒe kɔpi ne ètsi enu dzadzɛ vɔ ko; ne menye nenema o la, agbledzimɔfianu la ƒo nu tso fotoɖeɖe/tso gɔmedzedzea me ƒe tiatiawɔnuwo ŋu.
-5. **Afikae gaawo wu enu ɖo?** **Ironwood.** Sprout tsoa Sapling gbã elabena Sprout-to-Ironwood ƒe asitsatsa ɖeka aɖeke meli tẽ o. Mègatɔ ɖe Sapling gbɔ o.
+1. **E nye Sprouta?** Gadzraɖoɖi nya ɖeka fia be gbugbɔxɔxɔ ƒe mɔ si tso Sapling/Orchard-ƒe ɣeyiɣi me la koe, menye Sprout o. `zc...` gaɖoƒe ƒe dzesi, alo gakotoku si woɖe gbugbɔ eye wògblɔ be Sprout ƒe ga le eme la fia Sprout.
+2. **Gbugbɔxɔnu kae le asiwò?** Di `wallet.dat`, kɔmputa xoxo alo datadir, `z_exportwallet` ƒe backup, alo Sprout gazazãsafui si woɖe tso eme. `zc...` gaɖoƒe ƒe dzesi ɖeka mede o.
+3. **Argos alo xoxotɔ sidecar la?** Ne `wallet.dat` le asiwò alo Sprout gazazãsafui si le eɖokui ŋu, eye wòdi be gaawo nadzo ɖekaɖeka la, kpɔ [Argos](#zecwallet-lite-and-legacy-wallet-recovery-with-argos) gbã. Zã xoxotɔ sidecar mɔ la le field guide blibo la me ne Argos mate ŋu awɔ dɔ kple nuawo o, alo ne èdi be gbugbɔxɔxɔ ƒe ƒoƒo blibo la nanɔ wò ŋutɔ ƒe dzikpɔkpɔ te.
+4. **zcashd datadir si woɖo ɖeɖe, eye womexɔ akpa aɖeke ɖa le edzi ha le asiwò?** Esia le vevie na xoxotɔ sidecar mɔ la ko. Kɔ node ƒe nyawo nenye be woɖo egɔme nyuie vɔ; ne menye nenema o la, field guide la ɖe snapshot/from-scratch mɔwo fia.
+5. **Afika gaawo ayi?** **Ironwood.** Sprout toa Sapling me gbã elabena Sprout-yi-Ironwood gaɖoɖo ƒe mɔ tẽ ɖeka mele o. Mègatsi Sapling o.
 
-### ZEC Pool Migration Field Guide Bliboe
+### ZEC Pool Trɔtrɔ ƒe Field Guide Blibo
 
-Ne èdi ʋuʋu ƒe nyatakaka bliboa, si me mɔ siwo dzi woato agbugbɔ axɔe tsitotsito, sededewo, fewo, xɔtunuwo ƒe nudidiwo, ameŋunyatakakawo ŋu bubu, kuxiwo gbɔ kpɔkpɔ, kple dzɔtsoƒe ŋuti nuŋlɔɖiwo hã le la, xlẽ mɔfiame bliboa.
+Na trɔtrɔ ƒe nusiwo katã ƒe nɔnɔme blibo, si me gbugbɔxɔxɔ ƒe mɔwo, sededewo, adzɔwo, hardware ƒe hiahiãwo, ɣaɣla ƒe nudzɔdzɔwo, fɔfɔwo ƒe dzɔdzɔ, kple nyaƒoɖoƒewo le la, xlẽ field guide blibo la.
 
-**Version 1.1 · Wotrɔ asi le eŋu le September 18, 2026**
+**Version 1.1 · Woɖe yeyee September 18, 2026**
 
-[Xlẽ ZEC Pool Migration Field Guide bliboa le ZecHub me](/research/zec-pool-migration/view)
+[Xlẽ ZEC Pool Trɔtrɔ ƒe Field Guide Blibo le ZecHub](/research/zec-pool-migration/view)
 
-> **Hafi nàdze egɔme:** gbã la, ɖo **nusi nèle hayahayam kple hayahaya ƒe nusiwo gakpɔtɔ le asiwò**. Gakotoku ƒe nuku si li fifia alo gazazã ƒe safui si menye Sprout tɔ o si wodo alɔe ateŋu ahiã gbugbɔgaɖoanyi si sɔ ko. Nu xoxowo — abe Zecwallet Lite nuku ene, domenyinu `wallet.dat`, alo Sapling alo Sprout ƒe gazazã ƒe safui si le eɖokui si — ate ŋu ahiã be woawɔ hayahaya ƒe mɔ tɔxɛ aɖe.
+> **Hafi nàdze egɔme:** Ɖe ŋgɔ, nya **nu si nèle gbugbɔxɔm kple gbugbɔxɔnu siwo gale asiwò**. Gakotoku yeyetɔ ƒe gadzraɖoɖi nya alo gazazãsafui si sɔ si menye Sprout o ate ŋu ahiã gbugbɔxɔxɔ normale ko. Nu xoxowo — abe Zecwallet Lite gadzraɖoɖi nya, xoxotɔ `wallet.dat`, alo Sapling alo Sprout gazazãsafui si le eɖokui ŋu ene — ate ŋu ahiã gbugbɔxɔxɔ ƒe mɔ tɔxɛ.
 >
-> Ne èsusu be ga la le **Sprout** me la, ɖo kpe edzi be gazazã ƒe ŋusẽ gakpɔtɔ le ye si hafi nàtsɔ ɣeyiɣi ana be yeahaya. A. A `zc...` adrɛs alo nyatakakawo kpɔkpɔ ɖeɖe mesɔ gbɔ be woatsɔ aʋuʋu ga la o.
+> Ne èbu be gaawo le **Sprout** me la, kpɔ ɖa be gazazã ƒe mɔɖeɖe gale asiwò hafi nàtsɔ ɣeyiɣi ade gbugbɔxɔxɔ me. `zc...` gaɖoƒe ƒe dzesi alo nukpɔnu ɖeka mede be nàzã gaawo o.
 >
-> **YWallet megadoa alɔ Zcash le Ironwood megbe o.** Zã **Zkool** na gbugbɔgaɖoanyi dzro siwo menye Sprout o tso nuku kple safui siwo wodo alɔe me. Zã **Argos** na Zecwallet Lite gbugbɔgaxɔ, domenyinu gakotoku ƒe faɛlwo, kple Sapling/Sprout gazazã safui siwo le wo ɖokui si. Le Sprout gome la, Argos ye nye mɔ gbãtɔ si woate kpɔ; gbeadzimɔfiala bliboa ƒo nu tso domenyinu sidecar fallback ŋu.
+> **YWallet megakpea ɖe Zcash ŋu o le Ironwood megbe.** Zã **Zkool** na gbugbɔxɔxɔ normale siwo menye Sprout o, tso gadzraɖoɖi nyawo kple safui siwo wole kpɔm me. Zã **Argos** na Zecwallet Lite gbugbɔxɔxɔ, gakotoku ƒe faɛl xoxowo, kple Sapling/Sprout gazazãsafui siwo le woɖokui ŋu. Na Sprout la, Argos nye mɔ gbã si nàkpɔ; field guide blibo la ƒo xoxotɔ sidecar mɔ si ate ŋu adze woƒe anyi.
 >
-> Zã kplɔ̃ si le ete si wotu ɖe **nusi le asiwò ŋutɔŋutɔ** dzi, ke menye dɔwɔnu si dzi nèɖo ŋkui be yezã tsɔ gbugbɔgaxɔe o.
+> Zã kplɔ la le ete, ɖo ɖe **nu si tututu le asiwò** ŋu, menye gbugbɔxɔxɔ ƒe dɔwɔnu si nèɖo ŋku be èzã la o.
 
-| Èle | Dze egɔme tso afisia |
+| Nu si le asiwò | Dze egɔme kple esia |
 | --- | --- |
-| Nuku ƒe nyagbe alo **non-Sprout gazazã ƒe safui si wodo alɔe** tso gakotoku si wodzra ɖo fifia alo esi wodzra ɖo nyitsɔ laa me, si me YWallet Zcash ƒe nu xoxo | [Zkool](#fund-recovery-with-zkool) |
-| A **nukpɔkpɔ ƒe safui ɖeɖeko** | Zkool ateŋu axɔ nukpɔkpɔ safui siwo wodo alɔe hena nuxexlẽ ɖeɖeko ƒe mɔɖeɖe, gake nukpɔkpɔ safui mateŋu aɖe mɔ ɖe gazazã ɖe nuwo gbugbɔgaxɔ ŋu o. Di nuku alo gazazã ƒe safui si sɔ kplii. |
-| Nya 24 ƒe **Zecwallet Lite** nuku | [Argos](#zecwallet-lite-and-legacy-wallet-recovery-with-argos) |
-| Zecwallet Lite alo zcashd aɖe `wallet.dat`, alo Sapling / Sprout zazã ƒe safui si le eɖokui si | [Argos](#zecwallet-lite-and-legacy-wallet-recovery-with-argos). Tso September 18, 2026 dzi la, v1.3.0 nye esi li fifia eye wodi wu; zã v1.2.0 alo esiwo do ŋgɔ na `wallet.dat` kple Sprout ƒe hayahaya. |
-| Sprout material si Argos mateŋu akpɔ o, alo gbugbɔgaxɔ si me nèdi be domenyinu ƒe akpa siwo le wò ŋutɔ wò ŋusẽ te | Zã domenyinu sidecar mɔ si le... [gbeadzimɔfiala blibo](/research/zec-pool-migration/view). |
-| Nuku si le dɔ wɔm alo gazazã ƒe safui aɖeke meli o, ke boŋ mɔ̃ si wotu, nyagbe ɣaɣla si woŋlɔ be, alo disk si do kpo nu | [Dɔnyala ƒe hayahaya](#professional-recovery-when-you-do-not-have-the-seed). Mègaɖo nuku si le dɔ wɔm alo gazazã ƒe safui ɖe ame aɖe si do ka kpli wò le vome gbeɖe o. |
+| Gadzraɖoɖi nya alo **gazazãsafui si wole kpɔm si menye Sprout o** tso gakotoku yeyetɔ alo gakotoku si wowɔ dɔ kple va yi, si me xoxotɔ YWallet Zcash nuwo hã le | [Zkool](#fund-recovery-with-zkool) |
+| **Nukpɔsafui ɖeka ko** | Zkool ate ŋu aɖe nukpɔsafui siwo sɔ kplee wo ge eme na xlẽ ƒe mɔ ɖeka, gake nukpɔsafui mate ŋu aɖe mɔ na gbugbɔxɔxɔ ƒe gazazã o. Di gadzraɖoɖi nya alo gazazãsafui si sɔ kplee. |
+| Nya 24 ƒe **Zecwallet Lite** gadzraɖoɖi nya | [Argos](#zecwallet-lite-and-legacy-wallet-recovery-with-argos) |
+| Zecwallet Lite alo zcashd `wallet.dat`, alo Sapling / Sprout gazazãsafui si le eɖokui ŋu | [Argos](#zecwallet-lite-and-legacy-wallet-recovery-with-argos). Le September 18, 2026 la, v1.3.0 nye version yeyetɔ eye wòsɔ wu; zã v1.2.0 alo si le eƒe megbe na `wallet.dat` kple Sprout gbugbɔxɔxɔ. |
+| Sprout nu si Argos mate ŋu awɔ dɔ kplee o, alo gbugbɔxɔxɔ si nèdi be xoxotɔ akpawoe nanɔ wò ŋutɔ ƒe dzikpɔkpɔ te | Zã xoxotɔ sidecar mɔ la le [field guide blibo la](/research/zec-pool-migration/view) me. |
+| Gadzraɖoɖi nya alo gazazãsafui si wɔ dɔ mele o, gake mɔ̃ ƒe nu si woɖe kɔ, nyaŋlɔɖe si wogbeŋu, alo disk si gblẽ le asiwò | [Dɔwɔla ƒe gbugbɔxɔxɔ](#professional-recovery-when-you-do-not-have-the-seed). Mègana gadzraɖoɖi nya alo gazazãsafui si wɔ dɔ na ame si va ƒo nu kpliwò makpɔ o. |
 
-## Ga Gbugbɔgadzɔ kple Zkool
+## Ga Gbugbɔxɔxɔ kple Zkool
 
-[Zkool](https://github.com/hhanh00/zkool2/releases) nye Zcash si wolé be na si xɔ ɖe YWallet teƒe tso dɔwɔƒe ma ke gbɔ. Edoa alɔ mɔ siwo me kɔ eye wole egbegbe akpoxɔnu siwo wotsɔ gbugbɔgaxɔ, siwo dome Sapling safui siwo nye domenyinu hã le, gake **menye Sprout** o.
+[Zkool](https://github.com/hhanh00/zkool2/releases) nye Zcash ƒe successor si wole kpɔm tso mɔ̃ ƒe ɖoɖoŋlɔla ma ke gbɔ, si nye YWallet. Ekpea ɖe nuwo ƒe ʋuʋuɖi kple ɣaɣla yeyetɔ ƒe gbugbɔxɔxɔ mɔwo ŋu, si me xoxotɔ Sapling safuiwo le, gake **menye Sprout o**.
 
-Woƒo nu tso nɔnɔme eve ŋu le afisia:
+Nɔnɔme eve koe woƒo le afii:
 
-1. **Akɔntabubu gbugbɔgaɖoanyi** tso nuku ƒe nyagbe, ame ŋutɔ ƒe safui, alo nukpɔkpɔ safui me
-2. **Ga tutu** tso gakotoku si doa alɔ adrɛs siwo me kɔ ko kpɔ
+1. **Akɔnt gbugbɔxɔxɔ** tso gadzraɖoɖi nya, asisi ƒe safui, alo nukpɔsafui me
+2. **Ga ƒoƒo** tso gakotoku si mekpena ɖe nuwo ƒe ʋuʋuɖi gaɖoƒe ƒe dzesiwo ŋu ko me
 
-### 1) Akɔntabubu aɖe Gbugbɔgaɖoanyi
+### 1) Akɔnt Gbugbɔxɔxɔ
 
-1. De Zkool tso... [ɖea axaa ɖe go](https://github.com/hhanh00/zkool2/releases) eye nàʋui
-2. Le **Akɔntabubudzikpɔla** (axa vevitɔ) dzi la, zi **+** ƒe dzesi dzi be nàɖo **Akɔntabubu Yeye** ƒe akpaa
-3. Ŋlɔ **Akɔntabubu ƒe Ŋkɔ** be nàde dzesi akɔnta sia
-4. Ʋu **Gbugbɔ Akɔntabubua?**. Esia ɖea safui kple dzidzi ƒe kɔkɔme ƒe agblewo fiana
-5. Kpe wò safuia ɖe **Key (Seed Phrase, Private Key, alo Viewing Key)** me. Zkool xɔa nuku ƒe nyagbewo, Sapling adzame safuiwo, safui siwo keke ɖe enu siwo me kɔ, kple nukpɔkpɔ safui siwo wodo alɔe. Nukpɔkpɔ ƒe safui nye nuxexlẽ ɖeɖeko eye mate ŋu aɖe mɔ ɖe gazazã ŋu o.
-6. Ŋlɔ **Dzidzi ƒe Kɔkɔme** na akɔnta xoxo aɖe. Zkool mewɔa scan blocks do ŋgɔ na kɔkɔme sia o, eyata tia kɔkɔme do ŋgɔ na gakotokua ƒe dɔwɔna gbãtɔ ne mèka ɖe edzi o. Dzidzime ƒe kɔkɔme si woɖo megbe akpa ate ŋu ana wòadze abe asitsatsa ŋutɔŋutɔwo bu ene.
+1. Ɖo Zkool tso [releases axa](https://github.com/hhanh00/zkool2/releases) me eye nàʋu eme
+2. Le **Account Manager** (axa gã) la dzi, ƒo asi le **+** button la ŋu be nàyi **New Account** screen la dzi
+3. Ɖe **Account Name** eme be nàanya akɔnt sia
+4. Ɖe **Restore Account?** dzi. Esia aɖe safui kple dzidzi ƒe kɔkɔƒe ƒe fieldwo afia
+5. Ɖe wò safui la eme le **Key (Seed Phrase, Private Key, or Viewing Key)** me. Zkool xɔa gadzraɖoɖi nyawo, Sapling ƒe ɣaɣla safuiwo, nuwo ƒe ʋuʋuɖi safui didiwo, kple nukpɔsafui siwo sɔ kplee. Nukpɔsafui na xlẽ ƒe mɔ ko eye mate ŋu aɖe mɔ na gazazã o.
+6. Ɖe **Birth Height** eme na akɔnt xoxo. Zkool metɔa gaɖoɖowo ŋkɔm le kɔkɔƒe sia ƒe ŋgɔ o, eyata tia kɔkɔƒe si le gakotoku la ƒe dɔwɔwɔ gbã ƒe ŋgɔ ne nèle nyaŋu o. Dzidzi ƒe kɔkɔƒe si woɖo le megbe akpa na gaɖoɖo nyuitɔwo awɔ abe woɣe o ene.
 
 ![Zkool New Account screen with Restore Account and Advanced Options both turned on](/content-images/zkool-restore-account-60b1d2777e.webp)
 
-7. Dzra akɔnta la ɖo, emegbe nàwɔe wòasɔ ɖe enu
+7. Ɖo akɔnt la ɖe asi, eye nàwɔ sync kplii
 
-### Nuku aɖe gbugbɔgaɖoanyi tso gakotoku bubu me
+### Gadzraɖoɖi nya gbugbɔxɔxɔ tso gakotoku bubu me
 
-Ne nukua tso gakotoku si kplɔ ZIP 316 ɖo — si me ZODL (si woyɔna tsã be Zashi), Zingo, alo zcashd hã le — ʋu **Tiatia Deŋgɔ** eye nàna **Zã Tɔtrɔ Ememetɔ** nawɔ dɔ hafi nàdzrae ɖo.
+Ne gadzraɖoɖi nya la tso gakotoku si wɔa ɖe ZIP 316 nu la me — si me ZODL (tsã Zashi), Zingo, alo zcashd le — ɖe **Advanced Options** dzi eye nàdɔ **Use Internal Change** hafi nàɖoe ɖe asi.
 
-ZIP 316 zãa ememe/trɔtrɔ adrɛs si le vovo. Ne wogbugbɔ akɔnta siawo dometɔ ɖeka **Zã Tɔtrɔ le Ememe** manɔmee la, ate ŋu ana wòadze abe tɔtrɔ ƒe emetsonuwo bu ene togbɔ be ga la gakpɔtɔ li hã.
+ZIP 316 zãa gaɖoƒe ƒe dzesi le eme tɔxɛ na internal/change. Ne èɖe akɔnt sia gbugbɔ meke **Use Internal Change** o la, change outputwo ate ŋu awɔ abe woɣe ene, gake gaawo gale afi ma.
 
-Agble eve bubuwo le agbe le **Tiatia Deŋgɔ** te:
+Field eve bubu le **Advanced Options** te:
 
-- **Extra Passphrase (optional)**, ne gakotoku gbãtɔa zã ɖeka ko
-- **Account Index**, ne gakotoku gbãtɔa lé akɔnta geɖe ɖe nuku ɖeka dzi. Gaawo ate ŋu anɔ index bubu te
+- **Extra Passphrase (optional)**, ne gakotoku gɔmedzedze tɔ la zãe ko
+- **Account Index**, ne akɔnt geɖewo nɔ gadzraɖoɖi nya ɖeka dzi le gakotoku gɔmedzedze tɔ la me. Gaawo ate ŋu anɔ index bubu te
 
-> **Ne nuku ƒe nyagbe si sɔ le Safui ƒe agblea me ko hafi eve siawo dzena.** Ne agblea le ƒuƒlu, alo lé ame ŋutɔ ƒe safui alo nukpɔkpɔ ƒe safui ɖe asi la, Zkool ɖea **Zã Ememe Tɔtrɔ** kple **H/W Ledger** ko fiana. Kpe nukua gbã, emegbe nàʋu Tiatia Deŋgɔwo.
+> **Eve sia doa afia ne gadzraɖoɖi nya nyui le Key field la me ko.** Ne field la mã, alo asisi safui alo nukpɔsafui le eme la, Zkool fiaa **Use Internal Change** kple **H/W Ledger** ko. Ɖe gadzraɖoɖi nya la eme gbã, eye nàʋu Advanced Options.
 
-### 2) Ga Siwo Woaɖe Tso Gakotoku Si Me Wowɔa Nu Le Gaglãgbe Ko Me
+### 2) Ga Ƒoƒo Tso Gakotoku Si Zãa Nuwo Ƒe Ʋuʋuɖi Gaɖoƒe Ƒe Dzesi Ko Me
 
-Ne gakotoku alo akɔnta xoxoa lé **ZEC si me kɔ** ɖe asi la, gbugbɔ akɔnta la ɖo gbã, di adrɛs ɖesiaɖe si me kɔ si nèzã, emegbe tsɔ gaawo yi teƒe si wokpɔ ta na fifia si dzi nèkpɔ ŋusẽ ɖo. Mègasusu be gakotoku ƒe dzesi xoxo aɖe nɔa gaglãgbe ko ɣesiaɣi o; adzɔnu aɖewo tsɔ shielded support kpe ɖe eŋu le tɔtrɔ siwo va emegbe me.
+Ne gakotoku xoxo alo akɔnt la lé **nuwo ƒe ʋuʋuɖi ZEC ko** la, ɖe akɔnt la gbugbɔ gbã, di nuwo ƒe ʋuʋuɖi gaɖoƒe ƒe dzesi siwo katã woza, eye nàtrɔ gaawo ayi ɣaɣla ƒe afi yeyetɔ si nèkplɔ le. Mègabu be gakotoku ƒe ŋkɔ xoxo ɖeɖe zãa nuwo ƒe ʋuʋuɖi gaɖoƒe ƒe dzesi ko o; product aɖewo kpe ɖe ɣaɣla ƒe kpekpeɖeŋu ŋu le versionwo me megbe.
 
-1. Gbugbɔ akɔnta la ɖo to afɔɖeɖe siwo le etame zazã me
-2. Ʋu akɔnta la eye nàyi **Xɔ Ga** ƒe axaa dzi
-3. Zi nukpɔkpɔ gã si le etame ƒe ʋuƒoa dzi (**Di adrɛs bubu siwo me kɔ**). Gakotoku siwo trɔa adrɛswo, abe Ledger kple Exodus ene, naa adrɛs geɖe siwo me kɔ la tso nuku ɖeka me, eye esia kpɔa esiwo léa ga ɖe asi
-4. **Trɔ asi le akɔntabubua ŋu eye nàwɔe wòasɔ ɖe enu emegbe.** Adrɛs yeye siwo ŋu woke ɖo la xɔa woƒe ga si susɔ le scan si kplɔe ɖo me ko, eyata ne èdzo le esia dzi la, edzena abe ɖe sweep la mekpɔ naneke o ene
-5. Yi **Dɔ** ƒe axaa dzi. Àkpɔ dzesi ƒe dzesi etɔ̃ le dadasɔa gbɔ. Nuŋɔŋlɔ ƒe dzesi aɖeke mele wo ŋu o, eyata tsɔ asi alo te edzi didi be nàkpɔ woƒe ŋkɔwo:
-   - **Akpoxɔnu Ðeka** (akpoxɔnu si woɖe fia) ʋua adrɛs ɖeka si me kɔ le ɣeyiɣi ɖeka me
-   - **Shield All** (solid shield) ʋua nusianu tso adrɛs ɖesiaɖe si me kɔ la dzi zi ɖeka
-   - **Unshield All** (ʋu padlock) yi mɔ bubu dzi, yi ɖe adrɛs si me kɔ me
+1. Ɖe akɔnt la gbugbɔ kple afɔɖeɖe siwo le etɔ̃
+2. Ʋu akɔnt la eye nàyi **Receive Funds** axa dzi
+3. Ƒo asi le magnifying glass si le xɔta la dzi (**Find other transparent addresses**). Gakotoku siwo trɔa gaɖoƒe ƒe dzesiwo, abe Ledger kple Exodus ene, wɔa nuwo ƒe ʋuʋuɖi gaɖoƒe ƒe dzesi geɖe tso gadzraɖoɖi nya ɖeka me, eye esia di esiwo le gaawo ɖe asi.
+4. **Wɔ reset eye nàsync akɔnt la emegbe.** Gaɖoƒe ƒe dzesi yeye siwo woɖe kpɔ la akpɔ woƒe ga balancewo le scan si kplɔe ɖo ko, eyata ne èto afɔɖeɖe sia dzi la, wòawɔ abe sweep la mede nu aɖeke o ene.
+5. Yi **Send** axa dzi. Le balance la ƒe ŋu la, icon button atọ le afi ma. Ŋkɔwo mele wo dzi o, eyata dzra asi ɖe wo dzi alo te asi didi be nàkpɔ woƒe ŋkɔwo:
+   - **Shield One** (ɣaɣla ƒe dzesi si ŋɔm) trɔa nuwo ƒe ʋuʋuɖi gaɖoƒe ƒe dzesi ɖeka le ɣeyiɣi ɖeka me
+   - **Shield All** (ɣaɣla ƒe dzesi si yɔ) trɔa nu katã tso nuwo ƒe ʋuʋuɖi gaɖoƒe ƒe dzesiwo katã me ɖe ɣeyiɣi ɖeka me
+   - **Unshield All** (padlock si ʋu) trɔa nu la yi akpa bubu, ɖe nuwo ƒe ʋuʋuɖi gaɖoƒe ƒe dzesi me
 
-> **Akpoxɔnu Gbãtɔ nye tiatia si ame ŋutɔ ate ŋu atia wu.** Adrɛs geɖe takpɔkpɔ le asitsatsa ɖeka me doa ka kple wo le dutoƒo be wonye ame ɖeka tɔ. Zkool xlɔ̃ nu tso esia ŋutɔ ŋu hafi ƒu du Shield All.
+> **Shield One nye tiaƒe si me ɣaɣla le wu.** Ne ètrɔ gaɖoƒe ƒe dzesi geɖe le gaɖoɖo ɖeka me la, amewo ate ŋu akpɔ le ɖoɖonu dzi be ame ma ke ƒe tɔwoe. Zkool ɖe ŋku dzedze ku ɖe esia ŋu le eɖokui ŋutɔ me hafi wòawɔ Shield All.
 
-6. Dzro asitsatsa la me eye nàɖoe ɖa
+6. Kpɔ gaɖoɖo la nyuie eye nàɖoe ɖa
 
-Unshield All ɖea vi ne èle asi ɖem le asitsaƒe si xɔa adrɛs siwo me kɔ ko. Ne adrɛs si wokpɔ ta na akɔntabubua le ko hafi akpoxɔnuawo dzena, eye ne adrɛs si me kɔ le esi ko hafi Unshield All la dzena.
+Unshield All le vevie ne nèdi ga le gatrɔƒe si xɔa nuwo ƒe ʋuʋuɖi gaɖoƒe ƒe dzesiwo ko me. Shielding buttonwo doa afia ne ɣaɣla ƒe gaɖoƒe ƒe dzesi le akɔnt la me, eye Unshield All doa afia ne nuwo ƒe ʋuʋuɖi tɔ le eme.
 
-## Zecwallet Lite kple domenyinu gakotoku gbugbɔgaxɔ kple Argos
+## Zecwallet Lite kple gakotoku xoxo ƒe gbugbɔxɔxɔ kple Argos
 
-[Zecwallet Lite ƒe agbalẽ](https://github.com/adityapk00/zecwallet-lite) womegaléa be nɛ o eye wodzraa eƒe nudzraɖoƒe ɖo ɖe nudzraɖoƒe. Eƒe nukuwo ƒe dzɔtsoƒe to vovo na ɖoɖo si gakotoku siwo li fifia zãna, eyata nyagbɔgblɔ ma ke tsɔtsɔ va egbegbe gakotoku me ate ŋu ato ga siwo le Zecwallet Lite ƒe adrɛs bubu siwo woɖe tso eme ŋu. [Argos](https://argos.sovright.com), tso Sovright, nye kɔmpiuta dzi gbugbɔgaxɔ ƒe dɔwɔƒe si wotu na esia kple domenyinu gbugbɔgaxɔ ƒe nya bubuwo.
+[Zecwallet Lite](https://github.com/adityapk00/zecwallet-lite) womaga kpɔm o eye woɖe eƒe repository ɖe archive me. Eƒe gadzraɖoɖi nya ƒe derivation to vovo na nɔnɔme si gakotoku yeyewo zãa, eyata ne èɖe nya ma ke eme le gakotoku yeyetɔ me la, wòate ŋu aɖi gaawo si le Zecwallet Lite ƒe gaɖoƒe ƒe dzesi bubu siwo woɖe tso eme me. [Argos](https://argos.sovright.com), tso Sovright, nye desktop gbugbɔxɔxɔ ƒe dɔwɔƒe si woɖo na esia kple xoxotɔ gbugbɔxɔxɔ ƒe nɔnɔme bubuwo.
 
-Argos xlẽa Zecwallet Lite nukuwo kple gakotoku ƒe faɛlwo, zcashd `wallet.dat`, standalone Sapling keke gazazã safuiwo, kple Sprout gazazã ŋuti nu. Le Sprout gome la, Zecwallet Lite nuku ɖeɖe mesɔ gbɔ o elabena wowɔ safui mawo ɖe vovo. Argos nye dɔwɔnu si wotsɔ gbugbɔa gakotoku, ke menye gbesiagbe gakotoku o: lé ŋku ɖe nyatakakatsoƒea ŋu le mia gbɔ, skan, emegbe nàkɔe ɖe gakotoku si dzi nèkpɔ ŋusẽ ɖo si dzi nèlé be na la me.
+Argos xlẽa Zecwallet Lite gadzraɖoɖi nyawo kple gakotoku ƒe faɛlwo, zcashd `wallet.dat`, Sapling extended gazazãsafui siwo le woɖokui ŋu, kple Sprout gazazã ƒe nuwo. Na Sprout la, Zecwallet Lite gadzraɖoɖi nya ɖeka mede o elabena woɖe safui siawo tso afi bubu. Argos nye gbugbɔxɔxɔ ƒe dɔwɔnu, menye gakotoku si nàzã gbe sia gbe o: kpɔ source nuwo le afi si nèle, scan wo, eye nàƒo wo ayi gakotoku si wole kpɔm si nèkplɔ le.
 
-Least Authority [wowɔ agbalẽdzikpɔkpɔdɔa](https://argos.sovright.com/assets/least-authority-argos-audit-2026-06-29.pdf) dɔwɔnua. Hahaya ŋutɔ nye femaxee. Nudzɔdzɔ si woate ŋu awɔ na Sovright ate ŋu adze le ʋuʋua wɔɣi.
+Least Authority [kpɔ dɔwɔnu la nyuie](https://argos.sovright.com/assets/least-authority-argos-audit-2026-06-29.pdf). Gbugbɔxɔxɔ ŋutɔ nye fɛɛ. Donation si wòdi o na Sovright ate ŋu ado afia le sweep la me.
 
-> **Mègaŋlɔ nuku aɖeke ɖe nyatakakadzraɖoƒe gbeɖe o.** Argos nyatakakadzraɖoƒea nye kɔpiwɔwɔ kple... [zãla ƒe mɔfiame](https://argos.sovright.com/guide.html). Safuiwo nɔa kɔmpiutadziɖoɖo si wode asi ete la me. Validation nye nutoa me tɔ tsɔ tsi tre ɖe BIP-39 checksum ŋu. Nuku ƒe agblea kɔna ne wonya dze scan gɔme ko. Ame sia ame si aɖo gbedasi ɖe wò be wòabia nuku ma "be wòakpe ɖe ŋuwò nàxɔ wò ga" la le ametafatafa ƒom na wò.
+> **Mègatsɔ gadzraɖoɖi nya ɖe website aɖeke me o.** Argos site la nye download kple [zazala ƒe mɔfia](https://argos.sovright.com/guide.html) ko. Safuiwo nɔ signed desktop app la me. Woƒea verification le afi si nèle ɖe BIP-39 checksum la ŋu. Gadzraɖoɖi nya ƒe field la ƒea ɖa ne scan la dze egɔme. Ame sia ame si aɖo gbe na wò bia gadzraɖoɖi nya ma be "wòakpe ɖe wò ŋu nàxɔ wò gaawo gbugbɔ" la le wòɖam.
 
-### Hafi nàʋu Argos la
+### Hafi nàʋu Argos
 
-1. Wɔ kɔmpiutadziɖoɖoa ƒe kɔpi tso... [Argos ƒe nyatakakadzraɖoƒe si dziɖuɖua da asi ɖo](https://argos.sovright.com) alo esi [GitHub ɖea axa ɖe go](https://github.com/sovright/argos/releases). Kpɔ ɖaseɖigbalẽ alo asidede agbalẽ te dzi ne wota wo.
-2. Zã Argos ƒe tata si woɖe ɖe go fifia. Tso September 18, 2026 dzi la, **v1.3.0** nye esi li fifia eye wodi wu. Zã **v1.2.0 alo esiwo do ŋgɔ na `wallet.dat` kple Sprout ƒe hayahaya**. Xɔ siwo do xoxo wu 1.1.0 ate ŋu awɔ scan kokoko gake woatu do ŋgɔ na Ironwood sweeps siwo network la gbe; yeyee eye nàgadze agbagba ake.
-3. Wɔ dɔ le mɔ̃ si dzi nèka ɖo ŋu. Disk blibo ƒe nya ɣaɣlawo zazã wu. Mègawɔ screen-share esime nuku, passphrase, alo gazazã ƒe safui aɖe le dzedzem o.
-4. Have a destination Unified Address ready from a maintained wallet you control, such as [ZODL](https://zodl.com/). Ðo kpe adrɛs si le gakotoku ma me dzi hafi nàtsɔe ade Argos me.
+1. Ɖo desktop app la tso [official Argos site](https://argos.sovright.com) alo [GitHub releases axa](https://github.com/sovright/argos/releases) me. Kpɔ checksumwo alo asidede agbalẽ tewo nyuie ne woɖe wo afia.
+2. Zã Argos release yeyetɔ. Le September 18, 2026 la, **v1.3.0** nye version yeyetɔ eye wòsɔ wu. Zã **v1.2.0 alo si le eƒe megbe na `wallet.dat` kple Sprout gbugbɔxɔxɔ**. Build siwo le 1.1.0 ŋgɔ ate ŋu awɔ scan ha, gake wɔa sweep si le Ironwood ŋgɔ, si network la gbee; trɔ version la eye nàgage.
+3. Wɔ dɔ le mɔ̃ si nèka ɖe edzi. Di full-disk encryption. Mègama screen-share ne gadzraɖoɖi nya, passphrase, alo gazazãsafui le afia o.
+4. Ɖo Unified Address siwo ƒe afi le gakotoku si wole kpɔm si nèkplɔ le, abe [ZODL](https://zodl.com/) ene, ɖe asi. Ɖo kpe edzi le gakotoku ma me hafi nàɖe eme le Argos me.
 
-### Nukuwo ƒe hayahaya
+### Gadzraɖoɖi nya ƒe gbugbɔxɔxɔ
 
-1. Ʋu Argos eye nàtia **Nye nya 24 ƒe nuku ƒe nyagbe le asinye**. Nuku gbugbɔgaxɔ mehiã gakotoku ƒe faɛl o.
-2. Kpe nyagbea ɖe eŋu eye nàzi **Validate seed** dzi. Ne egblɔ be nukua sɔ la, yi edzi.
-3. Ŋlɔ **dzigbezã ƒe block ƒe kɔkɔme**, alo akɔntabubu si te ɖe eŋu wu le ɣeyiɣi si me wowɔ gakotokua ŋu. Kɔkɔme si do ŋgɔ la nɔa blewu gake ele dedie wu be woasusui megbe akpa.
-4. Le server ƒe dziɖuɖuwo te la, zã current-server preset, alo ŋlɔ lightwalletd URLs. Wotea URL siwo woɖe ɖe vovo kple dzesideŋkɔwo kpɔna ɖe ɖoɖo nu. Kpɔɖeŋu siwo wowɔ le dutoƒo:
+1. Ʋu Argos eye nàtia **I have my 24-word seed phrase**. Gadzraɖoɖi nya ƒe gbugbɔxɔxɔ mehiã gakotoku ƒe faɛl o.
+2. Ɖe nya la eme eye nàzi **Validate seed**. Ne wògblɔ be gadzraɖoɖi nya la nyo la, yi edzi.
+3. Ɖe **birthday block height** eme, alo ɣeyiɣi si sɔ kple esia wu si wo wɔ gakotoku la. Kɔkɔƒe si le ŋgɔ wu la nana dɔ la hena yi, gake ele dedie wu be nàbu be ɣeyiɣi la late.
+4. Le server controlwo te, zã current-server preset la, alo nàɖe lightwalletd URLwo eme. Woɖoa URL siwo woɖe kple comma ɖe teƒe nu le woƒe ɖoɖo me. Public kpɔɖeŋuwo:
 
    `https://zec.rocks:443,https://zec-node.cakewallet.com:443,https://na.zec.rocks:443`
 
-5. Kpe ɖe teƒe si nèyina Unified Address ŋu.
-6. Zi **dze scan gɔme** dzi. Esia ate ŋu axɔ miniti alo ŋkeke geɖe le dzigbezã ƒe kɔkɔme nu. Àte ŋu adzudzɔ eye nàgaʋu dɔwɔƒe ma ke ake; scan la gadzea egɔme ake.
-7. Ne scan la wu enu la, lé ŋku ɖe ga si susɔ, fetu ƒe akɔntabubu, kple afisi yim nèle ŋu, emegbe nàzi **sweep** dzi.
+5. Ɖe Unified Address si wòdi be gaawo nayii la eme.
+6. Ƒo asi le **start scan** ŋu. Esia ate ŋu axɔ minutiwo alo ŋkeke, ɖo ɖe birthday height la ŋu. Àte ŋu atsɔ dɔ la aɖi eye nàʋu workspace ma ke ake; scan la agayi edzi.
+7. Ne scan la wu la, kpɔ balancewo, adzɔ ƒe akaka, kple afi si gaawo ayi nyuie, eye nàƒo asi le **sweep** ŋu.
 
-Sweep ƒe gbeƒãɖeɖe nye nusi womate ŋu atrɔ o. Dzra gakotoku ƒe faɛl gbãtɔ ɖo vaseɖe esime wotutu ta ɖesiaɖe si sɔ eye gakotoku si me nèyina la naɖe ga si wokpɔ mɔ na afia. Ne wonya wu hayahaya nu ko la, dzudzɔ domenyinu nya ɣaɣlawo tsɔ wu be nàyi edzi azã wo hena dɔwɔna yeyewo wɔwɔ.
+Sweep ƒe broadcast manɔ gbugbɔm o. Lé gakotoku ƒe faɛl gɔmedzedze tɔ ɖe asi vaseɖe esime woƒo gaƒuƒoƒo siawo katã eye gakotoku si gaawo yi la fia ga si wòlala. Ne gbugbɔxɔxɔ la wu la, ɖe xoxotɔ ɣaɣla ƒe nuwo ɖa le dɔ me tɔxɛ, ɖe teƒe be nàga zã wo na dɔ yeye.
 
-### Gakotoku ƒe faɛlwo kple safui siwo le wo ɖokui si
+### Gakotoku ƒe faɛlwo kple safui siwo le woɖokui ŋu
 
-Le xɔxlɔ̃ ƒe screen dzi la, **Gakotoku ƒe faɛl le asinye** tsyɔ Zecwallet Lite faɛl, zcashd dzi `wallet.dat`, alo standalone Sapling keke gazazã ƒe safuiwo. Standalone Sprout gazazã-safui gbugbɔgaxɔ nye nusi wokpɔna to Argos ƒe Sprout gbugbɔgaxɔ mɔ/CLI.
+Le welcome screen la dzi, **I have a wallet file** kpea ɖe Zecwallet Lite faɛl, zcashd `wallet.dat`, alo Sapling extended gazazãsafui siwo le woɖokui ŋu ŋu. Sprout gazazãsafui ƒe gbugbɔxɔxɔ si le eɖokui ŋu woɔa wɔe kple Argos ƒe Sprout gbugbɔxɔxɔ ƒe mɔ/CLI.
 
-Argos xlẽa gakotoku ƒe faɛlwo evɔ metrɔa asi le wo ŋu o. Ne wotsɔ nya ɣaɣlawo de gakotokua me la, ŋlɔ nyagbea ne wobiae; wozãnɛ le ŋkuɖodzinu me eye womeŋlɔnɛ ɖe disk dzi o. Dzro safui siwo me kɔ, Sapling, kple Sprout ƒe safuiwo me hafi nàdze scan gɔme.
+Argos xlẽa gakotoku ƒe faɛlwo meke wòatrɔ wo o. Ne woɣla gakotoku la kple ɣaɣlaŋlɔŋlɔ la, ɖe passphrase la eme ne woɖabia; wozae le memory me eye wometsɔe ɖo disk dzi o. Kpɔ nuwo ƒe ʋuʋuɖi, Sapling, kple Sprout safui ƒe xexlẽwo nyuie hafi nàdzee egɔme.
 
-Womexɔa safui siwo wotsɔ kpɔa nu na sweep o elabena womate ŋu aɖe mɔ ɖe gazazã ŋu o.
+Womexɔa nukpɔsafuiwo na sweep o elabena womate ŋu aɖe mɔ na gazazã o.
 
-### Sprout ƒe nuŋlɔɖiwo
+### Sprout ƒe didienuwo
 
-Zecwallet Lite nuku aɖe mekpɔa Sprout safuiwo o. Wowɔ safui mawo ɖe vovo. Gbugbɔ Sprout tso zcashd aɖe me `wallet.dat`, alo tso gazazã ƒe safui si le eɖokui si le CLI me.
+Zecwallet Lite gadzraɖoɖi nya medzea Sprout safuiwo o. Woɖe safui siawo tso afi bubu. Xɔ Sprout gbugbɔ tso zcashd `wallet.dat`, alo tso gazazãsafui si le eɖokui ŋu le CLI me.
 
-Ne nuŋlɔɖi ŋuti nyatakaka siwo woate ŋu azã kple ɖasefo si wodzra ɖo ɖe cached me le faɛl la me xoxo la, Argos ateŋu ana **Sweep Sprout ga** kɔsɔkɔsɔ scan manɔmee. Ne menye nenema o la, ate ŋu awɔ full-block scan si woate ŋu agbugbɔ awɔ to P2P network dzi. Scan ma lolo eye wòwɔa blewu. Dzɔdzɔmeɖoɖo si wòŋlɔna la te ŋu zãa ga, eyata kpɔ eta abe gakotoku gbãtɔa ene.
+Ne file la xɔ didienu siwo ate ŋu woazã kple witness si woɖo ɖe cache me xoxo la, Argos ate ŋu ana **Sweep Sprout funds** be woawɔe meke chain scan o. Ne menye nenema o la, ate ŋu awɔ full-block scan si ate ŋu agayi edzi le P2P network la dzi. Scan ma gã eye wòle blewu. Checkpoint si wòŋlɔa la ate ŋu azã ga, eyata lé eɖe asi abe gakotoku gɔmedzedze tɔ ene.
 
-Sprout ƒe asixɔxɔ ateŋu adze anyi le Sapling ko. Ne woɖo kpe Sapling ƒe gaawo dzi eye woate ŋu azã wo vɔ la, tsɔ wo yi ŋgɔe yi **Ironwood** kple gakotoku si li fifia si doa alɔ Sapling ƒe gakɔnta si wogbugbɔ xɔ. Mègatɔ ɖe Sapling gbɔ o.
+Sprout ƒe ga ate ŋu aɖo Sapling me ko. Ne woɖo Sapling gaawo kpe edzi eye woate ŋu azã wo la, trɔ wo ayi **Ironwood** kple gakotoku yeyetɔ si kpea ɖe Sapling akɔnt si woɖe gbugbɔ la ŋu. Mègatsi Sapling o.
 
-## Ga si wogbugbɔ xɔ kple Ironwood ta la
+## Gaawo si woɖe gbugbɔ kple Ironwood gaƒuƒoƒo la
 
-Tso esime Ironwood (NU6.3) ƒe ɖɔɖɔɖoa dze dɔwɔwɔ gɔme le 28 July 2026 dzi la, Orchard ta la nye gazazã ɖeɖeko. Asixɔxɔ yeye aɖeke mate ŋu age ɖe eme o, eye asixɔxɔ si li xoxo la dona to ʋuƒoa me yia Ironwood.
+Tso esime Ironwood (NU6.3) yeyetoto la dze egɔme le July 28, 2026 la, Orchard gaƒuƒoƒo la nye ga zazã ko. Ga yeye aɖeke mate ŋu age eme o, eye ga si le eme la tsoa to gaɖoɖowo ƒe xexlẽdzikpɔɖeƒe la me yi Ironwood.
 
-Ne wò ga si nèxɔ la le Orchard la, tsɔ wo yi Ironwood to **fifi gakotoku ƒe ʋuʋu ƒe sisi si wotu ɖe eme** zazã me. Orchard nye dodo-ko le NU6.3 megbe.
+Ne wò gaawo si woɖe gbugbɔ le Orchard me la, trɔ wo ayi Ironwood kple **gakotoku yeyetɔ ƒe trɔtrɔ ƒe mɔ si wolé ɖe eme**. Orchard nye mɔ si ato dzo ɖeko le NU6.3 megbe.
 
-Zkool 6.30.0 nye fifia tso September 18, 2026 dzi eye wòdoa alɔ Ironwood. Eƒe ʋuʋu ƒe ɖoɖoa ku ɖe ame ŋutɔ ƒe nyawo ŋu gake menye nu ɖeka kple gbɔgblɔ be ewɔ ɖeka kple ZIP 318 o. Gakotoku bubu siwo li fifia ate ŋu azã ZIP 318-style staged migration. Wɔ ɖe gakotoku si woda ɖe eme ƒe ʋuʋu ƒe screen si li fifia dzi eye nàɖe asi le nuŋlɔɖiwo ŋu tsɔ wu be nàto ga home alo ɖoɖowɔɖi si wotsɔ asi vɛ vɛ.
+Zkool 6.30.0 nye version yeyetɔ le September 18, 2026 eye wòkpea ɖe Ironwood ŋu. Eƒe trɔtrɔ ƒe nɔnɔme ɖo ɖe ɣaɣla ŋu, gake menye be wògblɔ be ZIP 318 ƒe nɔewo wɔe o. Gakotoku yeyetɔ bubuwo ate ŋu azã ZIP 318-ƒe nɔnɔme ƒe trɔtrɔ si woɛ ɖe akpaakpa me. Dze gakotoku si nèɖo la ƒe trɔtrɔ screen kple release note yeyewo yome, ɖe teƒe be nàwɔ ga ƒe home alo ɣeyiɣi ƒe ɖoɖo le asi.
 
-Ʋuʋu si wowɔna le ɖoɖo nu ate ŋu azã asitsatsa geɖe, eyata fetu bliboa ate ŋu asɔ gbɔ wu ga si woaxe zi ɖeka.
+Trɔtrɔ si woɛ ɖe akpaakpa me ate ŋu azã gaɖoɖo geɖe, eyata adzɔ ƒe katã ate ŋu agate wu transfer ɖeka ƒe tɔ.
 
-> **Migration amounts are public.** Ne asixɔxɔ tso turnstile la, agbɔsɔsɔme kple block ƒe kɔkɔme dzena le kɔsɔkɔsɔ me togbɔ be ame si ɖoe ɖa kple amesi xɔe gakpɔtɔ le akpoxɔnu me hã. Zã gakotokua ƒe ame ŋutɔ ƒe ʋuʋu ƒe ɖoɖo si wotu ɖe eme/si woɖo ɖe ɖoɖo nu ne ameŋunyatakakawo le vevie, eye nàzã adzamenyawo le network-level abe Tor alo ameŋunyatakakawo ƒe ƒuƒoƒo bubu si dzi woka ɖo le afisi wòsɔ le. Netwɔƒea ƒe adzamenyawo ate ŋu aɣla wò IP kadodoa; meɣlaa ga home si woatsɔ atso dutoƒo o.
+> **Trɔtrɔ ƒe ga ƒe homewo nye duto ƒe nusiwo.** Ne ga toa gaɖoɖowo ƒe xexlẽdzikpɔɖeƒe la me la, ga ƒe home kple gaɖoɖowo ƒuƒoƒe ƒe kɔkɔƒe doa afia ɖoɖonu dzi, togbɔ be ame si dɔ ga la kple ame si xɔe la gale ɣaɣla me. Zã gakotoku la ƒe private/staged trɔtrɔ ƒe nɔnɔme si wolé ɖe eme ne ɣaɣla le vevie, eye nàzã network ƒe ɣaɣla abe Tor alo ɣaɣla ƒe akpa si nèka ɖe edzi ene, ne wòsɔ. Network ƒe ɣaɣla ate ŋu aɣla wò IP ƒe kadodo; megbea ga ƒe home si toa afi ma me o.
 
-## Deep Recovery kple ZExCavator
+## Gbugbɔxɔxɔ Koko kple ZExCavator
 
-[ZExCavator ƒe mɔ̃](https://github.com/zingolabs/zexcavator) nye **dɔ si le edzi yim** Zingo Labs ƒe gbugbɔgaxɔdɔ si ƒe susu le Zecwallet Lite gakotoku ƒe faɛlwo kple gakotoku-nɔnɔme ƒe ʋuʋu ŋu fifia. Eƒe README le mɔ fiam ga gbugbɔgaxɔ zãlawo fifia yi **Zingolib** dɔdɔ ƒe tiatia la gbɔ esime wogale ZeWIF ƒe kpekpeɖeŋu blibo wu wɔm.
+[ZExCavator](https://github.com/zingolabs/zexcavator) nye Zingo Labs gbugbɔxɔxɔ ƒe dɔ si **wogale wɔm**, si ɖo ta fifia ɖe Zecwallet Lite gakotoku ƒe faɛlwo kple gakotoku ƒe format trɔtrɔ ŋu. Eƒe README fiaa ga gbugbɔxɔxɔ zazalawo be woazã **Zingolib** export option la, esi ZeWIF ƒe kpekpeɖeŋu blibo gale wuwum.
 
-Bu eŋu abe dɔwɔnu deŋgɔ/edge-case tsɔ wu be nàwɔe abe mɔ si woɖo ɖi si dzi woato agbugbɔe axɔ ene. Le Zecwallet Lite nuku dzrowo gome la, gakotoku ƒe faɛlwo, zcashd `wallet.dat`, eye wodo alɔ gazazã ƒe safui siwo le wo ɖokui si, te Argos kpɔ gbã. Kpɔ nusianu si ZExCavator xɔ le gakotoku si wodzra ɖo me ɖa hafi nàɖo ŋu ɖe eŋu.
+Bu be enye dɔwɔnu na nɔnɔme sesẽwo alo nɔnɔme siwo menye gbegbe o, menye mɔ gbugbã na gbugbɔxɔxɔ o. Na Zecwallet Lite gadzraɖoɖi nya normalewo, gakotoku ƒe faɛlwo, zcashd `wallet.dat`, kple gazazãsafui siwo le woɖokui ŋu si sɔ kplee la, kpɔ Argos gbã. Kpɔ nu sia ame si ZExCavator ɖe gbugbɔ la nyuie le gakotoku si wole kpɔm me hafi nàka ɖe edzi.
 
-## Dɔnyala ƒe hayahaya ne nukua mele asiwò o
+## Dɔwɔla ƒe gbugbɔxɔxɔ ne gadzraɖoɖi nya mele asiwò o
 
-Ne nuku alo safuia megali o la, gbugbɔgaɖoanyi si ame ŋutɔ xɔ mate ŋu adze egɔme o. Ame aɖewo siwo le ɖoƒe ma zãa dɔwɔƒe aɖe si gbugbɔa nu dzrana ɖo hena nyagbe ɣaɣla siwo woŋlɔ be, kɔmpiutadziɖoɖowo ƒe kpododonu, alo disk siwo womate ŋu axlẽ o.
+Ne gadzraɖoɖi nya alo safui la bu la, gbugbɔxɔxɔ si nàwɔ le wò ŋutɔ ƒe mɔ̃ dzi mate ŋu adze egɔme o. Ame aɖewo siwo le nɔnɔme ma me zãa dɔwɔla ƒe gbugbɔxɔxɔ ƒe company na nyaŋlɔɖe siwo woŋlɔ beŋu, hardware ƒe gbegblẽ, alo disk siwo womate ŋu axlẽ o.
 
-Mɔ ma mesɔ kple nuku aɖe si gakpɔtɔ le asiwò la gbugbɔgaɖo o. Mègatsɔ nuku si le dɔ wɔm la ade asi na amesiame si gblɔ be "yeaxɔe" na wò o. Subɔsubɔdɔ sia ƒe ametafatafa ƒe mɔnu bɔ.
+Mɔ sia menye nu ma ke kple gadzraɖoɖi nya si gale asiwò gbugbɔxɔxɔ o. Mègana gadzraɖoɖi nya si wɔ dɔ na ame si gblɔ be yòaxɔe gbugbɔ na wò o. Service sia ƒe scam version le dzidzɔ.
 
-[Unciphered](https://unciphered.com) nye dɔwɔƒe ɖeka si wɔa dɔ sia le wo ɖokui si eye woƒo nu tso eŋu le teƒewo abe Wotsɔ ka blae. Wonye crypto gbugbɔgaxɔ ƒe dɔwɔƒe si wozãna le mɔ gbadza nu, menye dɔwɔnu si wozãna na Zcash koŋ o, eye woxɔa ga ɖe dɔa ta. ZecHub meda asi ɖe dɔwɔƒe aɖeke si xɔa ga le amewo si dzi o. Ne èto mɔ sia dzi la, wò ŋutɔ ɖo kpe domenyiŋusẽfianu si dziɖuɖua ɖo dzi eye nàtsɔe be amesiame si awɔ DM na wò gbã la nye ametafakala.
+[Unciphered](https://unciphered.com) nye company ɖeka si wɔa dɔ sia le eŋutɔ ƒe afi eye mediawo abe Wired ene ƒo nu tsoe. Wo nye crypto gbugbɔxɔxɔ ƒe service gbogbo, menye Zcash-tɔxɛ ƒe dɔwɔnu o, eye woɖe ga na dɔ la. ZecHub mekpea ɖe gbugbɔxɔxɔ ƒe company aɖeke ŋu o. Ne èto mɔ sia dzi la, kpɔ official domain la le wò ŋutɔ ƒe mɔ nu eye bu be ame sia ame si aɖo DM na wò gbã la nye scammer.
 
-Ne nuku si le dɔ wɔm alo gazazã ƒe safui gakpɔtɔ le asiwò la, dze egɔme kple mɔ si dzi nàto axɔ wò ŋutɔ abe Zkool alo Argos ene le wò ŋutɔ wò mɔ̃ dzi boŋ.
+Ne gadzraɖoɖi nya alo gazazãsafui si wɔ dɔ gale asiwò la, dze egɔme kple gbugbɔxɔxɔ si nàwɔ le wò ŋutɔ ƒe mɔ̃ dzi abe Zkool alo Argos ene.
 
-## Womegaléa be na YWallet o
+## YWallet womaga kpɔm o
 
-YWallet ye nye dɔwɔnu si wokafu be woagbugbɔ axɔ le axa sia dzi ɣeyiɣi didi aɖe, eye mɔfiala xoxo geɖe gakpɔtɔ fia asi edzi.
+YWallet nye gbugbɔxɔxɔ ƒe dɔwɔnu si woɖoe le axa sia dzi na ɣeyiɣi didi, eye mɔfia xoxowo geɖe galia eme.
 
-Eƒe dɔwɔla gblɔ azɔ be YWallet mega doa alɔ Zcash tso esime Ironwood ƒe yeyewɔwɔ va o eye wòfia mɔ Zcash zãlawo yi **Zkool**, si nye esi wolé be na ɖe eteƒe. Dzra YWallet nuku xoxo/nu veviwo ɖo, gake mègadze Zcash ƒe ʋuʋu yeye gɔme le YWallet me o.
+Eƒe mɔ̃ ƒe ɖoɖoŋlɔla gblɔ fifia be YWallet megakpea ɖe Zcash ŋu o tso Ironwood yeyetoto la me, eye wòfia Zcash zazalawo be woazã **Zkool**, successor si wole kpɔm. Lé YWallet gadzraɖoɖi nya/safui ƒe nu xoxowo ɖe asi, gake megadze Zcash trɔtrɔ yeye egɔme le YWallet me o.
 
-Ne Zcash gbugbɔgaxɔ ƒe nu tso YWallet le asiwò xoxo la, gbugbɔe ɖo ɖe Zkool me to nuku/safui mɔ si wodo alɔe si le etame la zazã me.
+Ne YWallet ƒe Zcash gbugbɔxɔnu le asiwò xoxo la, ɖe egbugbɔ le Zkool me kple gadzraɖoɖi nya/safui ƒe mɔ si wòkpea ɖe edzi si le etɔ̃.
 
-## Axa siwo do ƒome kplii
+## Axawo si kplɔe ɖo
 
-- [Gakotokuwo](/using-zcash/wallets) - gakotoku siwo dzi wodzrana ɖo kple woƒe Ironwood dzadzraɖo, siwo dome Argos hã le
-- [Ironwood](/zcash-tech/ironwood) - nusi tɔtrɔa trɔ kple nusita ga ʋuna
-- [Nuŋlɔɖiwo](/using-zcash/memos) - alesi nuŋlɔɖi siwo wotsɔ nya ɣaɣlawo ŋlɔe wɔa dɔe
-- [Safuiwo Kpɔkpɔ](/zcash-tech/viewing-keys) - xexlẽ ɖeɖeko ƒe mɔɖeɖe mazã ŋusẽ manɔmee
-- [Lightwallet ƒe Nutowo](/zcash-tech/lightwallet-nodes) - dutoƒo lightwalletd nuwuƒewo Argos ate ŋu azã
-- [Argos zazã ƒe mɔfiame](https://argos.sovright.com/guide.html) - dziɖuɖu ƒe azɔlizɔzɔ tso Sovright gbɔ
-- [Naomi Brockwell le dɔwɔnu siwo woatsɔ agbugbɔ awɔ dɔe ŋu](https://x.com/naomibrockwell/status/2079146521405333526) - Argos ƒe azɔlizɔzɔ kple nuŋlɔɖi aɖe tso dɔnyala ƒe hayahaya ŋu
+- [Gakotokuwo](/using-zcash/wallets) - gakotoku kae woɖe asi le eye woƒe Ironwood ƒe nɔewo, si me Argos le
+- [Ironwood](/zcash-tech/ironwood) - nu si yeyetoto la trɔ kple nu ka ta gaawo trɔ
+- [Nya kpuiwo](/using-zcash/memos) - ale si nya kpui si woɣla kple ɣaɣlaŋlɔŋlɔ wɔa dɔ ene
+- [Nukpɔsafuiwo](/zcash-tech/viewing-keys) - xlẽ ƒe mɔ ɖeka meke gazazã ƒe ŋusẽ o
+- [Lightwallet Nodes](/zcash-tech/lightwallet-nodes) - duto ƒe lightwalletd endpoint siwo Argos ate ŋu azã
+- [Argos zazala ƒe mɔfia](https://argos.sovright.com/guide.html) - mɔfia official tso Sovright
+- [Naomi Brockwell ku ɖe gbugbɔxɔxɔ ƒe dɔwɔnuwo ŋu](https://x.com/naomibrockwell/status/2079146521405333526) - Argos ƒe mɔfia kple nya kpui ku ɖe dɔwɔla ƒe gbugbɔxɔxɔ ŋu

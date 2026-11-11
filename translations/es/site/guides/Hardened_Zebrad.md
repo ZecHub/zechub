@@ -1,29 +1,29 @@
-# Nodo completo de Zebra reforzado
+# Nodo completo [Full Node] reforzado de Zebra
 
-- Usa un usuario dedicado sin privilegios + aislamiento con sandboxing de systemd a nivel de kernel (el mismo aislamiento que Docker).  
-- RPC es solo para localhost con autenticación segura por cookie (predeterminado y recomendado).  
+- Usa un usuario dedicado sin privilegios y sandboxing de systemd a nivel de kernel (el mismo aislamiento que Docker).  
+- RPC solo está disponible en localhost con autenticación segura mediante cookie (predeterminada y recomendada).  
 
 
 ---
 
 ## Requisitos previos
 
-- cualquier distro basada en Ubuntu
-- cadena de herramientas de Rust instalada (`rustup` + `cargo`)
+- Cualquier distribución basada en Ubuntu
+- Cadena de herramientas de Rust instalada (`rustup` + `cargo`)
 - Al menos 300 GB de espacio libre en disco (partición `/var`)
 
 
 ---
 
-## Configuración inicial (ejecutar como tu usuario normal)
+## Configuración única (Ejecutar como usuario normal)
 
-### 1. Actualiza el sistema e instala las dependencias de compilación
+### 1. Actualizar el sistema e instalar dependencias de compilación
 
 ```
 sudo apt update && sudo apt install -y build-essential pkg-config libclang-dev clang libssl-dev protobuf-compiler
 ```
 
-## Actualiza Rust e instala la última versión de zebrad (v4.3.0+)
+## Actualizar Rust e instalar la última versión de zebrad (v4.3.0+)
 
 ```
 rustup update
@@ -34,14 +34,14 @@ sudo chmod 755 /usr/local/bin/zebrad
 zebrad --version
 ```
 
-## Crea un usuario zebra dedicado sin privilegios
+## Crear un usuario dedicado sin privilegios para zebra
 
 ```
 sudo adduser --system --group --no-create-home --shell /usr/sbin/nologin zebra
 ```
 
 
-## Crea un directorio de datos seguro
+## Crear un directorio de datos seguro
 
 ```
 sudo mkdir -p /var/lib/zebrad
@@ -49,7 +49,7 @@ sudo chown zebra:zebra /var/lib/zebrad
 sudo chmod 700 /var/lib/zebrad
 ```
 
-## Crea una configuración segura (/etc/zebrad/zebrad.toml)
+## Crear una configuración segura (/etc/zebrad/zebrad.toml)
 
 ```
 sudo mkdir -p /etc/zebrad
@@ -73,7 +73,7 @@ sudo chown zebra:zebra /etc/zebrad/zebrad.toml
 sudo chmod 600 /etc/zebrad/zebrad.toml
 ```
 
-## Crea un servicio systemd reforzado
+## Crear un servicio systemd reforzado
 
 ```
 sudo tee /etc/systemd/system/zebrad.service > /dev/null <<EOF
@@ -110,7 +110,7 @@ EOF
 sudo systemctl daemon-reload
 ```
 
-## Uso diario - flujo de trabajo con un solo comando
+## Uso diario - Flujo de trabajo con un solo comando
 
 | Acción                  | Comando                                      | Notas |
 |-------------------------|----------------------------------------------|-------|
@@ -120,7 +120,7 @@ sudo systemctl daemon-reload
 | **Registros en vivo**   | `journalctl -u zebrad -f -o short-precise`  | Sustituye a `screen -r` |
 | **Obtener cookie RPC**  | `sudo cat /var/lib/zebrad/.cookie`           | Solo mientras está en ejecución |
 
-**Alias de conveniencia** (añade a `~/.bashrc` o `~/.zshrc`):
+**Alias convenientes** (añadir a `~/.bashrc` o `~/.zshrc`):
 ```
 alias zebra-start='sudo systemctl start zebrad'
 alias zebra-stop='sudo systemctl stop zebrad'

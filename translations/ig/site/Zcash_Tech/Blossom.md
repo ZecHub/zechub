@@ -4,96 +4,96 @@
 
 # Blossom
 
-> Blossom gara ndụ na Zcash mainnet na ngọngọ 653,600 (December 11, 2019 UTC).
+> Blossom bidoro ịrụ ọrụ na mainnet Zcash na block 653,600 (December 11, 2019 UTC).
 
-Ihe ị ga-ewepụ: otú Blossom si mee ka Zcash blocks rute ihe dịka okpukpu abụọ ngwa ngwa n'agbanweghị ole ZEC netwọk ahụ na -emepụta oge.
+Ihe ị ga-amụta: otu Blossom siri mee ka blocks Zcash bịarute ihe dị ka ugboro abụọ ọsọ, n’agbanweghị oke ZEC nke network ahụ na-emepụta ka oge na-aga.
 
-Blossom bụ Zcash. [nkwalite netwọkụ.](../start-here/network-upgrades)Ọ bụ ndị ọrụ nchekwa wụnye ya . [ZIP 206 Ụlọ ọrụ](https://zips.z.cash/zip-0206), na isi mgbanwe nkwekọrịta ya ka akọwapụtara n'ime . [ZIP 208 Ụlọ ọrụ](https://zips.z.cash/zip-0208)Blossom bụ nkwalite scalability: ọ belatara oge ebumnuche n'etiti ngọngọ site na 150 sekọnd ruo 75 sekọnda, yabụ blocks rutere ihe dị ka okpukpu abụọ. The Electric Coin Company duru ma kwupụta Blossum .
+Blossom bụ Zcash [network upgrade](../start-here/network-upgrades). E tinyere ya n’ọrụ site na [ZIP 206](https://zips.z.cash/zip-0206), a kọwakwara mgbanwe consensus ya bụ isi na [ZIP 208](https://zips.z.cash/zip-0208). Blossom bụ upgrade maka scaling: o mere ka oge e lekwasịrị anya n’etiti blocks dị mkpụmkpụ site na sekọnd 150 ruo sekọnd 75, ya mere blocks na-abịa ihe dị ka ugboro abụọ karịa. Electric Coin Company duziri ma kwupụta Blossom.
 
-Why this matters. When you send ZEC, you wait for the network to confirm it in a block. If blocks are slow, you wait longer. Before Blossom, a new block was expected about every 150 seconds. Blossom cut that target in half, to 75 seconds, so confirmations come sooner and the chain can carry more transactions in the same amount of time. It did this without creating more ZEC or moving the timing of future halvings.
+Ihe kpatara nke a ji dị mkpa. Mgbe ị zitere ZEC, ị na-eche ka network kwado ya n’ime block. Ọ bụrụ na blocks adịghị ọsọ, ị ga-eche ogologo oge. Tupu Blossom, a na-atụ anya block ọhụrụ ihe dị ka kwa sekọnd 150. Blossom belatara ebumnuche ahụ ọkara, ruo sekọnd 75, ya mere nkwenye na-abịa ngwa ngwa ma chain nwere ike ibu Azụmahia ndị ọzọ n’otu oge ahụ. O mere nke a n’emepụtaghị ZEC ọzọ ma ọ bụ gbanwee oge halving ndị ga-abịa.
 
-## Ihe na-agba ọsọ ngwa ngwa.
+## Blocks ọsọ karịa
 
-Mgbanwe isi nke Blossom dị mfe. Zcash lekwasịrị anya na ngọngọ, oge netwọk ahụ chọrọ n'etiti otu ogige na ọzọ, si 150 sekọnd ruo 75 sekọnda ([ZIP 208 Ụlọ ọrụ](https://zips.z.cash/zip-0208)A na-achọta ngọngọ site n'ihe akaebe nke ọrụ, yabụ ọdịiche dị iche n'etiti ha dịgasị iche, mana netwọkụ ahụ ugbu a chọrọ maka otu ogige kwa sekọnd 75 kama ọ bụla 150.
+Mgbanwe bụ isi nke Blossom dị mfe. Oghere oge ezubere n’etiti block [target block spacing] nke Zcash, ya bụ oge network na-achọ ka ọ dị n’etiti otu block na nke na-esote, si na sekọnd 150 daa ruo sekọnd 75 ([ZIP 208](https://zips.z.cash/zip-0208)). A na-achọta blocks site n’ọrụ proof [proof of work], ya mere ezigbo oghere oge dị n’etiti ha na-adịgasị iche, mana network ugbu a na-achọ block ihe dị ka kwa sekọnd 75 kama kwa sekọnd 150.
 
-Ihe abụọ na-eso:
+Ihe abụọ na-esite na nke a:
 
-1. Ihe mgbochi na-abata ihe dị ka okpukpu abụọ, yabụ yinye ahụ nwere ike ibute azụmahịa ugboro abụọ kwa oge.
-2. Mmekọrịta gị na-enweta nkwenye mbụ ya ngwa ngwa, n'ihi na ị naghị echere ogologo oge maka ngọngọ ọzọ.
+1. Blocks na-abịa ihe dị ka ugboro abụọ karịa, ya mere chain nwere ike ibu Azụmahia ihe dị ka okpukpu abụọ n’otu nkeji oge.
+2. Azụmahia gị na-enweta nkwenye mbụ ya ngwa ngwa, n’ihi na ị naghị eche ogologo oge maka block na-esote.
 
 ![Before Blossom the block target was 150 seconds with slower confirmations and lower throughput. After Blossom the target is 75 seconds with faster confirmations and roughly double the throughput](/content-images/blossom-block-spacing-50b6bfbacc.webp)
 
-## Ịnọgide na-ebipụta akwụkwọ ahụ mgbe niile.
+## Idebe mwepụta n’otu ọkwa
 
-Faster blocks raise a question. If Zcash made twice as many blocks and each block still paid the same reward, the network would create ZEC twice as fast. Blossom avoids that. It halved the reward paid per block, and it doubled the block-reward halving interval from 840,000 to 1,680,000 blocks ([ZIP 208 Ụlọ ọrụ](https://zips.z.cash/zip-0208)) Ugboro abụọ dị ka ọtụtụ blocks, onye ọ bụla na-akwụ ụgwọ ọkara karịa, arụ ọrụ ruo otu ego nke ZEC kere kwa nkeji oge. ngụkọta usoro iheomume ọkọnọ na oge nke ọdịnihu halvings, tụrụ ya n'oge ahụ, agbanweghị agbanwe.
+Blocks ọsọ karịa na-ebute ajụjụ. Ọ bụrụ na Zcash mepụtara blocks okpukpu abụọ karịa, block ọ bụla akwụkwaa otu ụgwọ ọrụ block [block reward], network ahụ ga-emepụta ZEC ọsọ okpukpu abụọ. Blossom na-egbochi nke ahụ. Ọ kewara ụgwọ a na-akwụ kwa block ọkara, ma mụbaa etiti halving ụgwọ ọrụ block [halving interval] site na 840,000 ruo 1,680,000 blocks ([ZIP 208](https://zips.z.cash/zip-0208)). Blocks okpukpu abụọ karịa, nke ọ bụla na-akwụ ọkara, na-eduga n’otu oke ZEC a na-emepụta n’otu nkeji oge. Usoro ngụkọta mwepụta na oge halving ndị ga-adị n’ọdịnihu, mgbe a tụrụ ha n’oge n’ezie, agbanweghị.
 
 ![How Blossom keeps issuance steady: 75 second blocks arrive twice as often, the per-block reward is halved, the halving interval is doubled, so total emission over time stays the same](/content-images/blossom-emission-balance-f2443e29ab.webp)
 
-## Nkwalite iwu kwadoro.
+## Upgrade amanyere amanye
 
-Blossom bụ mgbanwe nkwekọrịta abụọ, nke pụtara na ọnụ ọ bụla ga-emelite iji nọgide na-agbaso agbụ ([ZIP 206 Ụlọ ọrụ](https://zips.z.cash/zip-0206)). It was not optional for a node operator who wanted to stay in sync. Blossom activated at mainnet block 653,600 and carries its own consensus branch id, a tag that lets nodes and transactions confirm they are on the Blossom rules. The upgrade used Zcash's standard network upgrade mechanism ([ZIP 200 Ụlọ ọrụ](https://zips.z.cash/zip-0200)).
+Blossom bụ mgbanwe consensus abụọ na ibe ya [bilateral consensus change], nke pụtara na node ọ bụla ga-eme upgrade iji nọgide na-eso chain ([ZIP 206](https://zips.z.cash/zip-0206)). Ọ bụghị nhọrọ nye onye na-arụ node chọrọ ịnọgide na-adị na sync. Blossom malitere ịrụ ọrụ na mainnet block 653,600 ma nwee njirimara alaka consensus [consensus branch id] nke ya, akara na-enyere nodes na Azụmahia aka ikwenye na ha na-eso iwu Blossom. Upgrade ahụ jiri usoro network upgrade ọkọlọtọ nke Zcash ([ZIP 200](https://zips.z.cash/zip-0200)).
 
-## Ebe Blossom dabara adaba
+## Ebe Blossom dabara
 
-Blossom bụ nke atọ netwọk nkwalite Zcash. Ọ sochiri Overwinter na Sapling, ọ bịakwara tupu Heartwood na Canopy. N'adịghị ka Sapling , nke rụgharịrị ihe mkpuchi nzuzo Zcash kpuchie ya, a lekwasịrị anya n'ịdị elu na ọsọ. Ọrụ ya bụ isi bụ oge ngọngọ, ọ bụghị atụmatụ nzuzo ọhụrụ.
+Blossom bụ network upgrade nke atọ nke Zcash. Ọ bịara mgbe Overwinter na Sapling gasịrị, ọ bịakwara tupu Heartwood na Canopy. N’adịghị ka Sapling, nke hazigharịrị cryptography nke e chebere echebe [shielded] nke Zcash, Blossom lekwasịrị anya na scaling na ọsọ. Ọrụ ya bụ isi bụ oge block, ọ bụghị atụmatụ Nzuzo ọhụrụ.
 
-## Akwụkwọ ọkọwa okwu
+## Nkọwa okwu
 
-| Oge okwu | Nkọwa Bekee dị mfe |
+| Okwu | Ihe ọ pụtara n’asụsụ dị mfe |
 |---|---|
-| Block target spacing | Oge netwọk ahụ na-achọ n'etiti otu ngọngọ na nke ọzọ |
-| Block reward | ZEC ọhụrụ ahụ mepụtara ma kwụọ ụgwọ ka a na-egwupụta blọk ọ bụla |
-| Halving interval | Blọk ole gafere n'etiti ọkara nke ụgwọ ọrụ blọk ọ bụla |
-| Consensus branch id | Akara nke na-egosi usoro netwọk nke na-achịkwa node ma ọ bụ azụmahịa na-eso |
-| Bilateral consensus change | Mgbanwe iwu nke nodu ọ bụla ga-agbaso iji nọrọ na netwọk ahụ |
-| Network upgrade (NU) | Mgbanwe nhazi na iwu nkwekọrịta Zcash's, nke a na-arụ ọrụ na elu blọk edobere |
+| Block target spacing | Oge network na-achọ ka ọ dị n’etiti otu block na nke na-esote |
+| Block reward | ZEC ọhụrụ e mepụtara ma kwụọ mgbe a na-agwụpụta block ọ bụla |
+| Halving interval | Ọnụọgụ blocks na-agafe n’etiti halving ọ bụla nke ụgwọ ọrụ block |
+| Consensus branch id | Akara na-egosi usoro iwu network nke node ma ọ bụ Azụmahia na-eso |
+| Bilateral consensus change | Mgbanwe iwu nke node ọ bụla ga-anabata iji nọrọ na network |
+| Network upgrade (NU) | Mgbanwe a haziri ahazi n’iwu consensus nke Zcash, nke na-amalite ịrụ ọrụ n’ogo block e debere |
 
-## Ajụjụ ndị a na-ajụkarị
+## FAQ
 
-Blossom ọ gbanwere ole ZEC dị maọbụ mgbe halving na-eme? Mba. E belatara ụgwọ ọrụ kwa ngọngọ, e mekwara ka oge nkewa okpukpu abụọ n'otu oge ahụ, ya mere ego ZEC mepụtara maka nkeji oge, yana usoro ịhazi ọdịnihu ga - adịgide otu ihe ahụ.
+Blossom ọ na-agbanwe oke ZEC dị ma ọ bụ mgbe halving na-eme? Mba. E kewara ụgwọ ọrụ kwa block ọkara ma mụbaa etiti halving okpukpu abụọ n’otu oge, ya mere oke ZEC a na-emepụta n’otu nkeji oge, na oge halving ndị ga-adị n’ọdịnihu, nọgidere otu.
 
-Does Blossom change my ZEC or my privacy? No. Blossom changed block timing and reward math. It did not touch your balances or your shielded transactions.
+Blossom ọ na-agbanwe ZEC m ma ọ bụ Nzuzo [privacy] m? Mba. Blossom gbanwere oge block [block] na mgbakọ ụgwọ ọrụ. Ọ metụghị nguzozi gị ma ọ bụ Azụmahia [transaction] nke e chebere echebe [shielded] gị.
 
-Kedu ihe 75 sekọnd pụtara n'ezie? Ọ bụ ebumnuche, ọ bụghị nkwa. A na-achọta ngọngọ site na akaebe nke ọrụ, yabụ ezigbo ọdịiche dị n'etiti blocks dịgasị iche. Ntanetị ahụ chọrọ otu maka ihe dịka nkeji iri asaa na ise kama ịbụ 150 ọbụla.
+Gịnị ka sekọnd 75 pụtara n’ezie? Ọ bụ ebumnuche, ọ bụghị nkwa. A na-achọta blocks site n’ọrụ proof, ya mere ezigbo oghere oge n’etiti blocks na-adịgasị iche. Network na-achọ otu ihe dị ka kwa sekọnd 75 kama kwa sekọnd 150.
 
-Enwere m ihe ọ bụla mgbe Blossom na-arụ ọrụ? Ọ bụrụ na ị gbara ọsọ zuru ezu, ịkwesịrị ịkwalite ya n'ihi na Blossum bụ iwu. Ọ bụrụ n 'iji obere akpa ego mee ihe, ịchọrọ ụdị nke kwadoro usoro ọhụrụ ahụ.
+Ọ dị m mkpa ime ihe ọ bụla mgbe Blossom malitere ịrụ ọrụ? Ọ bụrụ na ị na-arụ full node, ị ga-eme ya upgrade, n’ihi na Blossom bụ amanyere amanye. Ọ bụrụ na ị ji e-akpa ego, ị chọrọ ụdị na-akwado iwu ọhụrụ ahụ.
 
-Kedu ihe kpatara ị ga-eji belata ụgwọ ọrụ nke ngọngọ? N'ihi na ugbu a, blọọgụ na-abịa okpukpu abụọ ngwa ngwa. Ịgba ụgwọ maka nkwụsịtụ ọ bụla na - eme ka netwọk ghara ịmepụta ZEC ugboro abụọ karịa ọsọ.
+Gịnị mere e ji kee ụgwọ ọrụ block ọkara? N’ihi na blocks ugbu a na-abịa ọsọ okpukpu abụọ. Ikewa ụgwọ ọrụ kwa block ọkara na-egbochi network imepụta ZEC ọsọ okpukpu abụọ.
 
-Kedu mgbe Blossom malitere ọrụ? Na blọọgụ 653,600, na Disemba 11, 2019 UTC.
+Kedu mgbe Blossom malitere ịrụ ọrụ? Na mainnet block 653,600, na December 11, 2019 UTC.
 
-## Nwalee nghọta gị .
+## Nwale nghọta gị
 
-Blossom mere ka Zcash blocks rute ihe dịka okpukpu abụọ. Gini kpatara na nke ahụ ejighi okpukpu abuo ọnụego a na-ekepụta ọhụrụ ZEC?
+Blossom mere ka blocks Zcash bịarute ihe dị ka ugboro abụọ karịa. Gịnị mere nke ahụ ejighị mee ka ọnụego e si emepụta ZEC ọhụrụ bụrụ okpukpu abụọ?
 
 <details>
-<summary>Answer</summary>
+<summary>Azịza</summary>
 
-N'ihi na Blossom belatara ụgwọ ọrụ a kwụrụ maka otu ngọngọ ma mee ka oge nkewa ahụ site n'ihe dị ka 840,000 ruo 1,680,000. Ugboro abụọ karịa ọtụtụ blocks, onye ọ bụla na-akwụ ọkara ego, gbakwunyere ọnụ ọgụgụ ZEC kwa nkeji oge, ya mere usoro nhazi emission e lere anya na ezigbo oge agbanweghị.
+N’ihi na Blossom kekwara ụgwọ a na-akwụ kwa block ọkara ma mụbaa etiti halving site na blocks 840,000 ruo 1,680,000. Blocks okpukpu abụọ karịa, nke ọ bụla na-akwụ ọkara, na-agbakọta ruo n’otu oke ZEC n’otu nkeji oge, ya mere usoro mwepụta a tụrụ n’oge n’ezie agbanweghị.
 </details>
 
-### Akụnụba
+### Akụrụngwa
 
-[ZIP 208: Obere Block Target Spacing](https://zips.z.cash/zip-0208)
+[ZIP 208: Oghere Oge Ebumnuche Block Dị Mkpirikpi](https://zips.z.cash/zip-0208)
 
-[ZIP 206: Ịkwado nke Blossom Network Upgrade](https://zips.z.cash/zip-0206)
+[ZIP 206: Ntinye n’ọrụ nke Network Upgrade Blossom](https://zips.z.cash/zip-0206)
 
-[Blossom Network Upgrade (Nkezi nke netwọkụ)](https://z.cash/upgrade/blossom/)
+[Blossom Network Upgrade](https://z.cash/upgrade/blossom/)
 
-[Blossom Upgrade Na-eme Ka Ọsọ, Ịdị Elu, Ike (Electric Coin Company) Dịkwuo Mma](https://electriccoin.co/blog/blossom-upgrade-improves-speed-scalability-capacity/)
+[Blossom Upgrade Na-eme Ka Ọsọ, Scaling, na Ikike Ka Mma (Electric Coin Company)](https://electriccoin.co/blog/blossom-upgrade-improves-speed-scalability-capacity/)
 
-### Lee kwa nke a.
+### Hụkwa
 
-[Nwelite netwọk Zcash](../start-here/network-upgrades)
+[Zcash Network Upgrades](../start-here/network-upgrades)
 
-[Zcash Monetary Policy Ụgwọ ego nke ụlọ akụ na-akwụ ụgwọ.](../start-here/zcash-monetary-policy)
+[Zcash Iwu Ego](../start-here/zcash-monetary-policy)
 
-[Gịnị bụ ZEC na Zcash?](../start-here/what-is-zec-and-zcash)
+[Gịnị bụ ZEC na Zcash](../start-here/what-is-zec-and-zcash)
 
-[Nọmba zuru ezu](../zcash-tech/full-nodes)
+[Full Nodes](../zcash-tech/full-nodes)
 
 [NU6.1](../zcash-tech/nu6-1)
 
 ---
 
-Usoro: [Nhazi nke netwọkụ na-emelite.](../start-here/network-upgrades) · Nke gara aga: [Sapling](../zcash-tech/sapling) · Nke ọzọ: [Heartwood](../zcash-tech/heartwood)
+Usoro: [Ndepụta Network Upgrades](../start-here/network-upgrades) · Nke gara aga: [Sapling](../zcash-tech/sapling) · Nke na-esote: [Heartwood](../zcash-tech/heartwood)

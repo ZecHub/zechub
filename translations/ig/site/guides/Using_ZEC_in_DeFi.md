@@ -7,7 +7,7 @@
 
 ## NEAR Intents 
 
-E tinyela Zcash na NEAR Intents, nke na-enye ndị ọrụ ohere ịgbanwe Zcash (ZEC) na altcoins ndị ọzọ dị elu, gụnyere Bitcoin, Solana, NEAR, na XRP, na-akwụghị ụgwọ ọ bụla. Njikọ a bụ akụkụ nke mbọ NEAR Protocol iji mepụta akụrụngwa nke bots AI nwere onwe ha na nke a pụrụ ịtụkwasị obi, nke na-ewetakwa uru na Zcash site n'inyere ụzọ ịkwụ ụgwọ nke AI na-arụ ọrụ. Ndị ọrụ Zcash nwere ike ugbu a ịnweta nkwekọrịta smart na ndị ọzọ [Ngwa DeFi](https://nym.com/blog/what-is-defi) ka ha na-echekwa nzuzo ha site na [NEAR Intents](https://app.near-intents.org).
+Zcash na NEAR Intents ejikọtala, na-enye ndị ọrụ ohere ịgbanwe Zcash (ZEC) na altcoin ndị ọzọ dị elu, gụnyere Bitcoin, Solana, NEAR, na XRP, na-enweghị ịkwụ ugwo ọ bụla. Njikọta a bụ akụkụ nke mbọ Protocol NEAR na-eme iji wuo akụrụngwa nke AI bots kwụụrụ onwe ha ma bụrụ nke a pụrụ ịchọpụta, nke na-ewetakwara Zcash uru site n'ikwe ka e nwee ụzọ Kwụọ ụhwọ nke AI na-akwado. Ndị ọrụ Zcash enweela ike ịnweta smart contract na ngwa DeFi [sara mbara](https://nym.com/blog/what-is-defi), ebe ha na-echekwa Nzuzo [privacy] ha site na [NEAR Intents](https://app.near-intents.org).
 
 <div class="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -24,7 +24,7 @@ E tinyela Zcash na NEAR Intents, nke na-enye ndị ọrụ ohere ịgbanwe Zcash
 
 ## Maya Protocol 
 
-Maya Protocol ejikọtala Zcash iji mee ka nzuzo nkesa, ego mmiri, na azụmahịa dịkwuo mma. Njikọ a na-enye ndị ọrụ Zcash ohere irite uru site na mgbanwe ndị a na-agbanweghị agbanwe, na-enye ha ohere ka ukwuu na ego mmiri na-ebelata ebe ha na-echekwa nzuzo. Mụtakwuo: [https://www.mayaprotocol.com/blog-maya-academy/zcash-integrates-maya](https://www.mayaprotocol.com/blog-maya-academy/zcash-integrates-maya)
+Maya Protocol ejikọtala Zcash iji kwalite decentralization [decentralization], liquidity, na Nzuzo Azụmahia [transaction] ya. Njikọta a na-enye ndị ọrụ Zcash ohere irite uru na Mgbawe [swap] decentralized, na-enye ha mgbanwe na liquidity ka ukwuu, ebe ha na-echekwa Nzuzo. Mụtakwuo: [https://www.mayaprotocol.com/blog-maya-academy/zcash-integrates-maya](https://www.mayaprotocol.com/blog-maya-academy/zcash-integrates-maya)
 
 
 <div class="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
@@ -39,37 +39,37 @@ Maya Protocol ejikọtala Zcash iji mee ka nzuzo nkesa, ego mmiri, na azụmah�
 </div>
 
 
-**Rịba ama**: O nwekwara ike ijikọ ETH ọ bụla ị nwere na ụlọ ahịa nkeonwe dị ka Shielded Zcash site na iji Tab "Release" wee tinye adreesị Transparent gị. I nwekwara ike iji 'Autoshield' dị na obere akpa ekwentị/desktọpụ gị. Maka ngwa a ka ọ bụrụ nkeonwe, a na-atụ aro ka ị ghara ịgbanwe site na ZEC > ETH wee laghachi na ETH > ZEC. 
+**Rịba ama [Note]**: Ọ ga-ekwe omume ịnyefe ETH ọ bụla i nwere na mbụ site na bridge ka echekwaa ya na nzuzo dị ka Zcash nke e chebere echebe [shielded], site n'iji taabụ “Release” ma tinye Adreesị Oha gị. Mgbe ahụ, ị nwere ike iji “Autoshield” n'ime e-akpa ego [wallet] mkpanaka/desktop gị. Iji mee ka ngwa a nọgide na-adị nzuzo, a na-atụ aro ka ị ghara ịgbanwe site na ZEC > ETH ma laghachi site na ETH > ZEC. 
 
 ---
 
 ## Kamino
 
-[Kamino](https://kamino.com/earn/lend) bụ otu n'ime usoro DeFi kachasị elu na gburugburu Solana, na-enye ọrụ dịka ịgbazinye ego, ịgbazinye ego, ebe nchekwa ego mmiri, na njikwa ego mmiri akpaaka. Site na njikọta na gburugburu Solana, ndị ọrụ Zcash (ZEC) nwere ike iji akụ Wrapped ZEC Solana-based iji mekọrịta ihe na ngwa DeFi dị iche iche.
+[Kamino](https://kamino.com/earn/lend) bụ otu n'ime protocol DeFi ndị na-eduga n'ime gburugburu Solana, na-enye ọrụ dịka ịgbazinye ego, ịnata ego mgbazinye, vault liquidity, na njikwa liquidity akpaghị aka. Site na njikọta na gburugburu Solana, ndị ọrụ Zcash (ZEC) nwere ike iji akụ Solana-dabere na ya, Wrapped ZEC, soro ngwa DeFi dị iche iche rụọ ọrụ.
 
-Site na iji Solana Wrapped ZEC, ndị ọrụ nwere ike ịnweta atụmatụ Kamino's Earn and Lending, na-enye ohere ka ejiri ZEC mee ihe dị ka ihe bara uru site na usoro inye ego na mgbazinye ego. Nke a na-agbasa ọrụ Zcash's site na akụ ịkwụ ụgwọ nkeonwe gaa na nke nwere ike isonye na ọrụ ego na-agbasaghị.
+Site n'iji Solana Wrapped ZEC, ndị ọrụ nwere ike ịnweta atụmatụ Earn na Lending nke Kamino, na-ekwe ka eji ZEC dị ka akụ na-arụpụta uru site n'inye liquidity decentralized na usoro ịgbazinye ego. Nke a na-agbasawanye ọrụ Zcash site n'ịbụ akụ Kwụọ ụhwọ nzuzo gaa n'akụ nwere ike isonye n'ọrụ ego decentralized.
 
-Njikọta ya na Kamino na-emepe ohere maka Zcash ịbanye na usoro Solana DeFi, nke nwere azụmahịa ngwa ngwa, obere ụgwọ, na ọtụtụ ngwa ego dabere na nkwekọrịta amamihe.
+Njikọta na Kamino na-emepe ohere maka Zcash ịbanye na gburugburu DeFi nke Solana, nke nwere Azụmahia ọsọ ọsọ, ugwo dị ala, na ọtụtụ ngwa ego dabere na smart contract.
 
-Mụtakwuo: [Mụta Kamino](https://kamino.com/docs/learn/guides)
+Mụtakwuo: [Kamino Mụta](https://kamino.com/docs/learn/guides)
 
 
-> Nweta kredit ZEC-backed na Solana. Ahịa Zcash na Kamino etoola ruo ihe karịrị $2M, na-enye ndị nwere ZEC ohere ịnweta ego USDC megide $ZEC n'ahịa dịpụrụ adịpụ nke @AllezLabs hiwere.
+> Nweta kredit nke ZEC kwadoro na Solana. Ahịa Zcash na Kamino etoola karịa $2M, na-enye ndị ji ZEC liquidity USDC megide $ZEC n'ahịa kewapụrụ kpamkpam nke @AllezLabs haziri.
 >
 > — [Kamino na X](https://x.com/kamino/status/2098485250816946322)
 
 
 ---
 
-## Àkwà mmiri ZenRock
+## Bridge ZenRock
 
-[Àkwà mmiri ZenRock](https://zenrocklabs.io/) na-enye ngwọta njikọta blockchain nke na-enye ohere maka nnyefe akụ dị nchebe na nke dị irè n'ofe netwọk.
+Bridge [ZenRock](https://zenrocklabs.io/) na-enye ngwọta interoperability blockchain nke na-enyere nnyefe akụ n'enweghị nsogbu ma rụọ ọrụ nke ọma gafee netwọk dị iche iche.
 
-N'ihe gbasara Zcash, teknụzụ akwa dịka ZenRock na-enye ohere ka akụ ZEC jikọọ na usoro blockchain ndị ọzọ nke na-akwado nkwekọrịta smart na ngwa DeFi. Nke a na-enye ndị ọrụ ohere iweta uru nke Zcash na netwọk dị iche iche na-enweghị mgbanwe n'otú ha si eji akụ ha.
+N'ihe gbasara Zcash, teknụzụ bridge dịka ZenRock na-eme ka akụ ZEC jikọọ na gburugburu blockchain ndị ọzọ na-akwado smart contract na ngwa DeFi. Nke a na-enye ndị ọrụ ohere iburu uru Zcash gaa netwọk dị iche iche na-enweghị ida mgbanwe n'otú ha si eji akụ ha.
 
-Mmekọrịta bụ akụkụ dị oke mkpa na mmepe nke DeFi n'ihi na ọ na-enye ohere ka akụ sitere na blockchain kpọmkwem sonyere na akụnụba dijitalụ nke netwọk. 
+Interoperability bụ akụkụ dị oke mkpa n'ịzụlite DeFi n'ihi na ọ na-ekwe ka akụ sitere n'otu blockchain sonye na akụnụba dijitalụ cross-network. 
 
-Mụtakwuo Ihe Banyere: [Mụta ZenRock Bridge](https://docs.zenrocklabs.io/)
+Mụtakwuo na : [ZenRock Bridge Mụta](https://docs.zenrocklabs.io/)
 
 <div class="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/GUczWBmO74M?si=fzuxS1HzshFqxNHc" title="ZR Talks Ep.10, ZenRock co-founders Aditya Dave and Jack Krevitt discuss Zcash on Solana." allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -77,66 +77,66 @@ Mụtakwuo Ihe Banyere: [Mụta ZenRock Bridge](https://docs.zenrocklabs.io/)
 
 ---
 
-## Sistemụ ZEC Solana Wrapped (Meteora, Orca, na Raydium)
+## Gburugburu Solana Wrapped ZEC (Meteora, Orca, na Raydium)
 
-Solana Wrapped ZEC na-eme ka e jiri Zcash mee ihe n'ime usoro Solana site na nnọchite anya akụ nke dabara na ọkọlọtọ netwọk Solana.
+Solana Wrapped ZEC na-eme ka e nwee ike iji Zcash n'ime gburugburu Solana site n'onyonyo akụ kwekọrọ na ụkpụrụ netwọk Solana.
 
-Site na ZEC, ndị ọrụ nwere ike ịmekọrịta na usoro DeFi dị iche iche dịka:
+Site na Wrapped ZEC, ndị ọrụ nwere ike soro protocol DeFi dị iche iche rụọ ọrụ dịka:
 
-- Ọdọ mmiri mmiri
-- Mgbanwe ndị a na-agbanweghị agbanwe (DEX)
-- Ọrụ ugbo mmepụta ihe
-- Mmepụta ahịa akpaghị aka
+- pool liquidity
+- exchange decentralized (DEX)
+- ịkọ ugbo yield
+- ime ahịa akpaghị aka
 
-Usoro dịka [Meteora](https://www.meteora.ag/), [Orca](https://www.orca.so/), na [Raydium](https://raydium.io/swap/?inputMint=sol&outputMint=4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R) nye akụrụngwa mmiri mmiri nke na-enyere ZEC aka isonye na azụmaahịa na ọrụ inye mmiri mmiri.
+Protocol dịka [Meteora](https://www.meteora.ag/), [Orca](https://www.orca.so/), na [Raydium](https://raydium.io/swap/?inputMint=sol&outputMint=4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R) na-enye akụrụngwa liquidity nke na-eme ka ZEC sonye n'ọrụ azụmaahịa na inye liquidity.
 
-Njikọ a na-ejikọta uru nzuzo Zcash's na ọsọ na arụmọrụ nke netwọk Solana, na-emepụta ọnọdụ ojiji ọhụrụ maka akụ nkeonwe n'ime usoro DeFi nke oge a.
+Njikọta a na-ejikọta uru Nzuzo nke Zcash na ọsọ na arụmọrụ netwọk Solana, na-emepụta Ojiji [use case] ọhụrụ maka akụ nzuzo n'ime gburugburu DeFi ọgbara ọhụrụ.
 
-Mụtakwuo Ihe Banyere: <br /> 1. [Mụta Meteora](https://docs.meteora.ag/get-started). <br />
-               2. [Mụta Orca](https://docs.orca.so/developers/overview). <br />
+Mụtakwuo na: <br /> 1. [Meteora Mụta](https://docs.meteora.ag/get-started). <br />
+               2. [Orca Mụta](https://docs.orca.so/developers/overview). <br />
                3. [Raydium Mụta](https://docs.raydium.io/).
 
 ---
 
 ## THORChain / THORSwap
 
-[THORChain](https://thorchain.org/) bụ usoro nnyefe ego nke na-enye ndị ọrụ ohere ịgbanwe akụ obodo site na blockchain dị iche iche na-adabereghị na ihe ndị e ji aka kee.
+[THORChain](https://thorchain.org/) bụ protocol liquidity cross-chain nke na-enye ndị ọrụ ohere ịgbanwe akụ ala sitere na blockchain dị iche iche na-enweghị ịdabere na token wrapped ọdịnala.
 
-Site na [THORChain](https://thorchain.org/) na [THORSwap](https://thorswap.finance/), ndị ọrụ nwere ike ịgbanwe akụ n'ofe blockchains, gụnyere Zcash (ZEC). Njikọ a na-enye Zcash ohere ozugbo ịnweta mmiri mmiri na-adịghị agbanwe agbanwe site na netwọk THORChain, na-enye ndị ọrụ ohere ijigide njirimara nke akụ ala na-enweghị iji ndị ogbugbo etiti.
+Site na [THORChain](https://thorchain.org/) na [THORSwap](https://thorswap.finance/), ndị ọrụ nwere ike ịgbanwe akụ gafee blockchain, gụnyere Zcash (ZEC). Njikọta a na-enye Zcash ohere ịnweta liquidity decentralized ozugbo site na netwọk THORChain, na-eme ka ndị ọrụ jigide njirimara nke akụ ala n'enweghị iji ndị etiti centralized.
 
-Site na ntinye nke ọdọ mmiri ZEC na [THORChain](https://thorchain.org/), the [THORChain](https://thorchain.org/) netwọk na-akwado ọrụ Zcash na-enweghị ikike ugbu a. [THORChain](https://thorchain.org/) nodes nwere ike inyocha blockchain Zcash ma nye akụrụngwa maka azụmaahịa dị iche iche n'etiti ZEC na akụ blockchain ndị ọzọ.
+Site na iwebata pool ZEC na [THORChain](https://thorchain.org/), netwọk [THORChain](https://thorchain.org/) na-akwado ugbu a ọrụ liquidity permissionless Zcash. node [THORChain](https://thorchain.org/) nwere ike nyochaa blockchain Zcash ma nye akụrụngwa maka azụmaahịa cross-chain n'etiti ZEC na akụ blockchain ndị ọzọ.
 
-Njikọ a na-enye ọtụtụ uru maka usoro Zcash:
+Njikọta a na-enye gburugburu Zcash ọtụtụ uru:
 
-- Inweta ohere ịnweta mmiri mmiri nke cross-blockchain;
-- Azụmaahịa ZEC na-enweghị ntụkwasị obi na mgbanwe etiti;
-- Mmeziwanye mmekọrịta na akụ blockchain ndị ọzọ;
-- Ojiji ZEC gbasaara n'ime usoro DeFi multichain.
+- Ịnweta liquidity cross-blockchain;
+- Ahịa ZEC na-enweghị ịdabere na exchange centralized;
+- Interoperability ka mma na akụ blockchain ndị ọzọ;
+- Ojiji ZEC gbasaa n'ime gburugburu DeFi multichain.
 
-Mụtakwuo ihe gbasara: <br /> 1. [Ọhụụ THORChain](https://thorchain.org/vision) <br />
-               2. [Mụta THORSwap](https://docs.thorswap.finance/thorswap)
+Mụtakwuo na: <br /> 1. [THORChain Vision](https://thorchain.org/vision) <br />
+               2. [THORSwap Mụta](https://docs.thorswap.finance/thorswap)
 
 ---
 
-## Usoro Templar
+## Protocol Templar
 
-[Usoro Templar](https://www.templarfi.org/) bụ usoro DeFi nke lekwasịrị anya n'ịmepụta ngwọta ego na-echekwa nzuzo.
+Protocol [Templar](https://www.templarfi.org/) bụ protocol DeFi lekwasịrị anya n'ịzụlite ngwọta ego na-echekwa Nzuzo.
 
-Site na ijikọta echiche DeFi na teknụzụ nzuzo blockchain, Templar Protocol na-achọ ịmepụta ngwa ego nke na-emeghe ma na-echebe data dị mkpa nke ndị ọrụ.
+Site n'ijikọta echiche DeFi na teknụzụ Nzuzo blockchain, Protocol Templar chọrọ imepụta ngwa ego na-anọgide na-emeghe ebe ha na-echekwa data nzuzo ndị ọrụ.
 
-Maka usoro Zcash, ụzọ a kwekọrọ na ọhụụ nke ịmepụta ego nchekwa nzuzo dabere na teknụzụ enweghị ihe ọmụma. Njikọta nke teknụzụ nzuzo na DeFi na-eme ka e nwee ọrụ ego ndị ka nchebe, nkeonwe, na nke onye ọrụ na-elekwasị anya.
+Maka gburugburu Zcash, usoro a kwekọrọ n'ọhụụ nke ịzụlite ego na-echekwa Nzuzo dabere na teknụzụ zero-knowledge. Njikọta teknụzụ Nzuzo na DeFi na-eme ka e nwee ike ịmepụta ọrụ ego ka nchebe, nzuzo, ma lekwasị anya n'onye ọrụ.
 
-Mụtakwuo ihe gbasara: [Mụta Usoro Templar](https://docs.templarfi.org/guide/)
+Mụtakwuo na : [Templar Protocol Mụta](https://docs.templarfi.org/guide/)
 
 ---
 
 ## Iji cbZEC na DeFi Base
 
-cbZEC na-ewebata mmiri Zcash n'ime usoro ihe owuwu Base site n'ikwe ka ndị ọrụ ZEC nwee ike iso ọtụtụ ngwa ego na-enweghị usoro (DeFi) na-akpakọrịta n'enweghị ịkwụsị ikpughe ha na usoro ihe owuwu Zcash.
+cbZEC na-ebubata liquidity Zcash n'ime gburugburu Base site n'ikwe ka ndị ọrụ ZEC soro ngwa ego decentralized (DeFi) dị iche iche rụọ ọrụ na-enweghị ịhapụ njikọ ha na gburugburu Zcash.
 
-Site na [Netwọk Base](https://www.base.org/), cbZEC na-eje ozi dị ka ihe nnọchiteanya nke ZEC nke enwere ike iji mee ihe n'ime gburugburu Ethereum Layer-2. Nke a na-enye ndị ọrụ ohere ịgbanwe akụ, inye ego mmiri, nweta ahịa mgbazinye ego, ma jiri ọrụ DeFi dị iche iche nwere obere ụgwọ azụmahịa na nkwenye ngwa ngwa ma e jiri ya tụnyere netwọk Ethereum bụ isi.
+Site na netwọk [Base](https://www.base.org/), cbZEC na-arụ ọrụ dị ka nnọchiteanya ZEC nke a pụrụ iji n'ime gburugburu Ethereum Layer-2. Nke a na-enye ndị ọrụ ohere ịgbanwe akụ, nye liquidity, nweta ahịa mgbazinye ego, ma jiri ọrụ DeFi dị iche iche nwere ugwo Azụmahia dị ala na nkwenye ọsọ ọsọ karịa netwọk Ethereum bụ isi.
 
-[Njikọta ahụ](https://x.com/base/status/2094848959986409953?s=20) nke cbZEC n'ime ọtụtụ ikpo okwu Base DeFi na-agbasawanye uru Zcash's site na naanị akụ ịkwụ ụgwọ gaa na nke enwere ike iji na ọtụtụ ọrụ ego na-enweghị usoro.
+Njikọta [](https://x.com/base/status/2094848959986409953?s=20) nke cbZEC n'ime platform DeFi Base dị iche iche na-agbasawanye uru Zcash site n'ịbụ naanị akụ Kwụọ ụhwọ gaa n'iji ya rụọ ọtụtụ ọrụ ego decentralized.
 
 <div class="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   
@@ -144,41 +144,41 @@ Site na [Netwọk Base](https://www.base.org/), cbZEC na-eje ozi dị ka ihe nn�
 
 </div>
 
-N'okpuru ebe a bụ nyiwe DeFi dị na Base nke na-akwado cbZEC 
+N'okpuru bụ platform DeFi ndị dị na Base na-akwado cbZEC 
 
 ---
 
-### Slipstream Aerodrome
+### Aerodrome Slipstream
 
-[Slipstream Aerodrome](https://aerodrome.finance/) bụ otu n'ime nnukwu ọdọ mmiri mmiri mmiri dị na netwọk Base. Aerodrome na-eji ụdị ve(3,3) nke na-ejikọta usoro ntuli aka escrow na mkpali mmiri mmiri iji mepụta ahịa dị irè.
+[Aerodrome Slipstream](https://aerodrome.finance/) bụ otu n'ime pool liquidity kachasị ukwuu na netwọk Base. Aerodrome na-eji ụdị ve(3,3) nke na-ejikọta usoro ịtụ vootu escrow na mkpali liquidity iji mepụta ahịa na-arụ ọrụ nke ọma.
 
-Aerodrome Slipstream na-ewebata echiche nke mmiri mmiri dị n'otu, nke yiri Uniswap V3, na-enye ndị na-enye mmiri mmiri ohere ịkọwapụta oke ọnụahịa kpọmkwem ka e wee nwee ike iji isi obodo rụọ ọrụ nke ọma.
+Aerodrome Slipstream na-ewebata echiche liquidity etinyere n'otu ebe, yiri Uniswap V3, nke na-enye ndị na-enye liquidity ohere ịkọwa oke ọnụahịa kpọmkwem ka e wee jiri isi ego rụọ ọrụ nke ọma karịa.
 
 Site na nkwado cbZEC, ndị ọrụ nwere ike:
 
-- Gbanwee cbZEC maka akụ ndị ọzọ dị na netwọk Base.
-- Nye ego mmiri cbZEC iji nweta ụgwọ azụmahịa.
-- Soro na usoro mmiri mmiri nke isi Base's.
+- Gbanwee cbZEC maka akụ ndị ọzọ na netwọk Base.
+- Nye liquidity cbZEC iji nweta ugwo Azụmahia.
+- Sonye n'ime gburugburu liquidity bụ isi nke Base.
 
-Njikọ a na-eme ka Aerodrome bụrụ otu n'ime ụzọ ndị bụ isi maka ndị ọrụ Zcash iji nweta ahịa Base DeFi.
+Njikọta a na-eme Aerodrome ka ọ bụrụ otu n'ime ụzọ mbụ ndị ọrụ Zcash si enweta ahịa DeFi Base.
 
-Mụtakwuo : [Slipstream Aerodrome](https://aerodrome.finance/swap?from=0x833589fcd6edb6e08f4c7c32d4f71b54bda02913&to=0xb2000000000000000000008501b13360000cb2ec&chain0=8453&chain1=8453)
+Mụtakwuo : [Aerodrome Slipstream](https://aerodrome.finance/swap?from=0x833589fcd6edb6e08f4c7c32d4f71b54bda02913&to=0xb2000000000000000000008501b13360000cb2ec&chain0=8453&chain1=8453)
 
 ---
 
 ### Uniswap V3 (Base)
 
-[Uniswap V3](https://app.uniswap.org/?intro=true) bụ otu n'ime usoro mgbanwe kachasị ukwuu nke na-eji ụdị onye na-emepụta ahịa akpaaka (AMM).
+[Uniswap V3](https://app.uniswap.org/?intro=true) bụ otu n'ime protocol exchange decentralized kachasị ukwuu nke na-eji ụdị automated market maker (AMM).
 
-Na netwọk Base, Uniswap V3 na-enye usoro mmiri mmiri nke na-enye ndị na-enye mmiri mmiri ohere ikenye isi obodo n'ime oke ọnụahịa akọwapụtara.
+Na netwọk Base, Uniswap V3 na-enye usoro liquidity etinyere n'otu ebe nke na-enye ndị na-enye liquidity ohere itinye isi ego n'ime oke ọnụahịa kpọmkwem.
 
 Nkwado maka cbZEC na Uniswap V3 Base na-enye ndị ọrụ ohere:
 
-- Zụọ ahịa cbZEC n'enweghị ikike.
-- Nye ego mmiri maka ụzọ abụọ cbZEC.
-- Nweta akụrụngwa mmiri mmiri nke ọtụtụ ngwa DeFi na-eji.
+- Ire ahịa cbZEC n'enweghị ikike.
+- Nye liquidity maka ụzọ abụọ cbZEC.
+- Ịnweta akụrụngwa liquidity nke ọtụtụ ngwa DeFi ji arụ ọrụ.
 
-Ụdị ego a na-etinye n'ime ya na-eme ka arụmọrụ isi obodo ka mma ma e jiri ya tụnyere ụdị AMM ọdịnala.
+Ụdị liquidity etinyere n'otu ebe na-eme ka arụmọrụ isi ego ka mma ma e jiri ya tụnyere ụdị AMM ọdịnala.
 
 Mụtakwuo : [Uniswap V3](https://app.uniswap.org/swap)
 
@@ -186,17 +186,17 @@ Mụtakwuo : [Uniswap V3](https://app.uniswap.org/swap)
 
 ### Uniswap V4 (Base)
 
-[Uniswap V4](https://app.uniswap.org/?intro=true) bụ ọgbọ kachasị ọhụrụ nke usoro Uniswap, na-ewebata usoro owuwu dabere na "nko".
+[Uniswap V4](https://app.uniswap.org/?intro=true) bụ ọgbọ kachasị ọhụrụ nke protocol Uniswap, na-ewebata nhazi dabere na “hooks”.
 
-Nko na-enye ndị mmepe ohere ịmepụta ọrụ ndị ọzọ n'ime ọdọ mmiri mmiri, dị ka atụmatụ azụmaahịa akpaaka, usoro ụgwọ omenala, na usoro nhazi ọdọ mmiri.
+Hooks na-enye onye mmepụta [developer] ohere imepụta ọrụ ndị ọzọ n'ime pool liquidity, dịka atụmatụ azụmaahịa akpaghị aka, usoro ugwo ahaziri ahazi, na logic pool nke a pụrụ ịhazi.
 
 Maka cbZEC, njikọta na Uniswap V4 na-emepe ohere maka:
 
-- Ọdọ mmiri mmiri nwere usoro mgbanwe karịa.
-- Atụmatụ DeFi dị mgbagwoju anya karị.
-- Njikọta na ngwa ego nke ọgbọ na-abịa nke na-agbasaghị nke ọma.
+- pool liquidity nwere usoro mgbanwe karịrị.
+- Atụmatụ DeFi mgbagwoju anya karịrị.
+- Njikọta na ngwa ego decentralized nke ọgbọ na-abịa.
 
-Uniswap V4 na-enye ntọala ka mma maka akụ dịka cbZEC iji too nke ọma n'ime gburugburu Base obibi.
+Uniswap V4 na-enye ntọala nwere ike ịhazi karịa maka akụ dịka cbZEC ito nke ọma n'ime gburugburu Base.
 
 Mụtakwuo:[Uniswap V4](https://app.uniswap.org/swap)
 
@@ -204,17 +204,17 @@ Mụtakwuo:[Uniswap V4](https://app.uniswap.org/swap)
 
 ### Hydrex Integral
 
-[Hydrex Integral](https://www.hydrex.fi/) bụ ikpo okwu mgbanwe nke na-enweghị usoro nke lekwasịrị anya na ime ka ụzọ azụmahịa ka mma.
+[Hydrex Integral](https://www.hydrex.fi/) bụ platform exchange decentralized lekwasịrị anya n'ịkwalite ụzọ Azụmahia si aga.
 
-Ikpo okwu a na-enyere ndị ọrụ aka inweta mmezu mgbanwe dị irè karị site n'ịchọta ebe kacha mma isi nweta ego.
+Platform ahụ na-enyere ndị ọrụ aka ime Mgbawe nke ọma karị site n'ịchọta ebe liquidity kacha mma dị.
 
 Site na nkwado cbZEC, ndị ọrụ nwere ike:
 
-- Gbanwee cbZEC maka akụ ndị ọzọ Base.
+- Gbanwee cbZEC maka akụ Base ndị ọzọ.
 - Nweta ọnụahịa azụmaahịa kacha mma.
-- Nweta isi mmalite mmiri dị iche iche site na otu interface.
+- Nweta ebe liquidity dị iche iche site n'otu interface.
 
-Hydrex na-agbasawanye ohere ịnweta cbZEC site n'ime ka usoro azụmaahịa dị mfe n'ime usoro gburugburu ebe obibi Base.
+Hydrex na-agbasawanye ohere ịnweta cbZEC site n'ime ka usoro azụmaahịa dị mfe n'ime gburugburu Base.
 
 Mụtakwuo: [Hydrex Integral](https://www.hydrex.fi/swap?inputCurrency=0xb2000000000000000000008501b13360000cb2ec&outputCurrency=0x833589fcd6edb6e08f4c7c32d4f71b54bda02913&tokenIn=0x833589fcd6edb6e08f4c7c32d4f71b54bda02913&tokenOut=0xb2000000000000000000008501b13360000cb2ec)
 
@@ -222,17 +222,17 @@ Mụtakwuo: [Hydrex Integral](https://www.hydrex.fi/swap?inputCurrency=0xb200000
 
 ### Curve (Base)
 
-[Curve Finance](https://www.curve.finance/dex/base/swap) bụ mgbanwe nke a na-ahazighị ahazi maka azụmaahịa akụ nwere njirimara yiri ya site na iji usoro AMM emelitere iji belata mmịfe.
+[Curve Finance](https://www.curve.finance/dex/base/swap) bụ exchange decentralized e mere maka ịzụ ahịa akụ nwere njirimara yiri ibe ha site n'iji usoro AMM e mere iji belata slippage.
 
-Na netwọk Base, Curve na-enye akụrụngwa mmiri mmiri nke ọtụtụ akụ DeFi nwere ike iji.
+Na netwọk Base, Curve na-enye akụrụngwa liquidity nke akụ DeFi dị iche iche nwere ike iji.
 
-Njikọta nke cbZEC na Curve na-enye ohere:
+Njikọta cbZEC na Curve na-enye ohere:
 
-- Mgbanwe akụ na obere mmịfe.
-- Ntinye ego dị irè karịa.
-- Mmepe nke ahịa cbZEC kwụsiri ike karị.
+- Mgbawe akụ nwere slippage dị ala.
+- Inye liquidity nke ọma karị.
+- Ịzụlite ahịa cbZEC kwụsiri ike karị.
 
-Curve na-enyere aka mee ka mmiri cbZEC dị n'ime usoro Base DeFi sie ike.
+Curve na-enyere aka iwusi liquidity cbZEC ike n'ime gburugburu DeFi Base.
 
 Mụtakwuo: [Curve (Base)](https://www.curve.finance/dex/base/pools/0xDEcb02dbB077a21C91CA122B97FeC756c1bBbB04)
 
@@ -240,17 +240,17 @@ Mụtakwuo: [Curve (Base)](https://www.curve.finance/dex/base/pools/0xDEcb02dbB0
 
 ### DZap
 
-[DZap](https://www.dzap.io/) bụ ikpo okwu nchịkọta DeFi nke na-enye ohere dị mfe ịnweta ọrụ azụmaahịa dị iche iche na njikwa akụ dijitalụ.
+[DZap](https://www.dzap.io/) bụ platform aggregator DeFi na-enye ohere dị mfe maka ọrụ azụmaahịa dị iche iche na njikwa akụ dijitalụ.
 
-Na [nkwado cbZEC](https://x.com/dzap_io/status/2095199808177021031?s=20), ndị ọrụ nwere ike ime azụmahịa na-enweghị ịgbanwee n'etiti ikpo okwu mgbanwe nkewa.
+Site na nkwado [cbZEC](https://x.com/dzap_io/status/2095199808177021031?s=20), ndị ọrụ nwere ike ime Azụmahia na-enweghị ịgbanwe n'etiti platform exchange decentralized.
 
-Atụmatụ dịnụ:
+Atụmatụ dị:
 
-- Gbanwee cbZEC site na nchịkọta mmiri mmiri.
-- Inweta ebe azụmaahịa dị iche iche.
-- Ahụmịhe azụmahịa dị mfe maka ndị ọrụ.
+- Gbanwee cbZEC site n'ịchịkọta liquidity.
+- Nweta ebe azụmaahịa dị iche iche.
+- Ahụmịhe Azụmahia dị mfe karị maka ndị ọrụ.
 
-Njikọta DZap na-enyere aka ịgbasa nnabata nke cbZEC site n'inye ohere dị mfe ịnweta ndị ọrụ DeFi.
+Njikọta DZap na-enyere aka ịgbasawanye nnabata cbZEC site n'inye ndị ọrụ DeFi ohere dị mfe karị.
 
 Mụtakwuo: [Dzap](https://app.dzap.io/trade?fromChain=8453&fromToken=0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913&toChain=8453&toToken=0xB2000000000000000000008501b13360000cb2EC)
 
@@ -258,17 +258,17 @@ Mụtakwuo: [Dzap](https://app.dzap.io/trade?fromChain=8453&fromToken=0x833589fC
 
 ### Clearstar cbAssets Vault na Morpho
 
-[Morpho](https://markets.morpho.org/fixed) bụ usoro mgbazinye ego nke na-enye ahịa mgbazinye ego nke na-arụ ọrụ nke ọma na isi obodo.
+[Morpho](https://markets.morpho.org/fixed) bụ protocol mgbazinye ego decentralized na-enye ahịa mgbazinye ego na-arụ ọrụ nke ọma nke ukwuu n'isi ego.
 
-[Ụlọ nyocha Clearstar](clearstar.xyz) ewebata cbAssets Vault site na Morpho, na-eme ka e nwee ike iji akụ dịka cbZEC mee ihe n'ahịa mbinye ego.
+[Clearstar Labs](clearstar.xyz) na-ewebata cbAssets Vault site na Morpho, na-eme ka e jiri akụ dịka cbZEC n'ahịa mgbazinye ego.
 
-Site na nchekwa a, ndị ọrụ nwere ike:
+Site na vault a, ndị ọrụ nwere ike:
 
-- Nye cbZEC dị ka ego mgbazinye ego.
-- Nweta uru site na ọrụ mbinye ego.
-- Jiri cbZEC dịka akụkụ nke ahịa kredit nke a na-achịkwaghị achịkwa.
+- Nye cbZEC dị ka liquidity mgbazinye ego.
+- Nweta yield site n'ọrụ mgbazinye ego.
+- Jiri cbZEC dịka akụkụ nke ahịa kredit decentralized.
 
-[Njikọ a](https://x.com/ClearstarLabs/status/2102035274096361747?s=20) bụ nzọụkwụ dị mkpa n'ihi na ọ na-eme ka cbZEC bụrụ ihe onwunwe azụmaahịa, kamakwa ihe bara uru n'ime usoro DeFi.
+Njikọta [](https://x.com/ClearstarLabs/status/2102035274096361747?s=20) bụ nzọụkwụ dị mkpa n'ihi na ọ na-eme cbZEC ka ọ ghara ịbụ naanị akụ azụmaahịa, kama bụrụkwa akụ na-arụpụta uru n'ime gburugburu DeFi.
 
 Mụtakwuo: [Clearstar cbAssets Vault na Morpho](https://app.morpho.org/base/variable/0xe458a501c1103ca3b256f2bcb45d223263fb34b6349d82675494ce3a94ce1327/usdc-cbzec)
 
@@ -276,17 +276,17 @@ Mụtakwuo: [Clearstar cbAssets Vault na Morpho](https://app.morpho.org/base/var
 
 ### Bankr
 
-[Bankr](https://bankr.bot/terminal) bụ ikpo okwu azụmaahịa crypto nke na-ejikọta teknụzụ AI na ohere ịnweta DeFi.
+[Bankr](https://bankr.bot/terminal) bụ platform azụmaahịa crypto nke na-ejikọta teknụzụ AI na ohere ịnweta DeFi.
 
-[Site na nkwado cbZEC](https://x.com/bankrbot/status/2094853589546258776?s=20), ndị ọrụ nwere ike ịzụ ahịa cbZEC site na interface dị mfe.
+Site na nkwado [cbZEC](https://x.com/bankrbot/status/2094853589546258776?s=20), ndị ọrụ nwere ike ire ahịa cbZEC site na interface dị mfe karị.
 
-Isi atụmatụ:
+Atụmatụ bụ isi:
 
-- Azụmaahịa nke ejiri AI rụọ.
-- Mmezi mgbanwe dị mfe.
-- Nweta ozugbo na ahịa Base.
+- Azụmaahịa nke AI na-akwado.
+- Ime Mgbawe dị mfe.
+- Ịnweta ahịa Base ozugbo.
 
-Bankr na-enyere ma ndị ọrụ ọhụrụ ma ndị nwere ahụmịhe aka iso cbZEC na-akpakọrịta n'enweghị usoro DeFi dị mgbagwoju anya.
+Bankr na-enyere ma ndị ọrụ ọhụrụ ma ndị nwere ahụmịhe aka isoro cbZEC rụọ ọrụ n'enweghị ịgafe usoro DeFi mgbagwoju anya.
 
 Mụtakwuo: [Bankr](https://bankr.bot/terminal/trade?in=0x833589fcd6edb6e08f4c7c32d4f71b54bda02913&out=0xb2000000000000000000008501b13360000cb2ec&chain=base)
 
@@ -294,17 +294,17 @@ Mụtakwuo: [Bankr](https://bankr.bot/terminal/trade?in=0x833589fcd6edb6e08f4c7c
 
 ### Matcha
 
-[Matcha](https://matcha.xyz/) bụ ihe nchịkọta mgbanwe nke na-eji teknụzụ 0x Protocol chọta ọnụahịa kacha mma site na isi mmalite mmiri dị iche iche.
+[Matcha](https://matcha.xyz/) bụ aggregator exchange decentralized nke na-eji teknụzụ 0x Protocol chọta ọnụahịa kacha mma site na ebe liquidity dị iche iche.
 
-[Site na nkwado cbZEC](https://x.com/matchaxyz/status/2094870175313281203?s=20)Matcha na-enye ndị ọrụ ohere ịnụ ụtọ ahụmịhe mgbanwe dị irè karị.
+Site na nkwado [cbZEC](https://x.com/matchaxyz/status/2094870175313281203?s=20), Matcha na-eme ka ndị ọrụ nwee ahụmịhe Mgbawe na-arụ ọrụ nke ọma karị.
 
-Uru nke iji Matcha:
+Uru iji Matcha:
 
-- Nchịkọta nke isi mmalite dị iche iche nke mmiri mmiri.
-- Nhazi ọnụahịa azụmahịa.
-- Na-ebelata mkpa ọ dị ịchọ ọdọ mmiri aka.
+- Ịchịkọta ebe liquidity dị iche iche.
+- Ịkwalite ọnụahịa Azụmahia.
+- Na-ebelata mkpa ịchọ pool n'onwe gị.
 
-Njikọ a na-eme ka ohere cbZEC's nwere na netwọk azụmaahịa DeFi sara mbara.
+Njikọta a na-agbasawanye ohere cbZEC n'ime netwọk azụmaahịa DeFi sara mbara.
 
 Mụtakwuo: [Matcha](https://matcha.xyz/swap/base/0xb2000000000000000000008501b13360000cb2ec?buyAddress=0xb2000000000000000000008501b13360000cb2ec&buyChain=8453&sellAddress=0x833589fcd6edb6e08f4c7c32d4f71b54bda02913&sellChain=8453)
 
@@ -312,66 +312,66 @@ Mụtakwuo: [Matcha](https://matcha.xyz/swap/base/0xb2000000000000000000008501b1
 
 ### Banana Gun
 
-[Banana Gun](https://bananagun.io/) bụ ikpo okwu azụmaahịa dabere na bot nke na-enye ndị ọrụ ohere ịme azụmahịa crypto site na Telegram.
+[Banana Gun](https://bananagun.io/) bụ platform azụmaahịa dabere na bot nke na-enye ndị ọrụ ohere ime Azụmahia crypto site na Telegram.
 
-[Site na nkwado cbZEC](https://x.com/bananagun/status/2094898512676991129?s=20), ndị ọrụ nwere ike ịnweta azụmaahịa cbZEC site na sistemụ akpaaka.
+Site na nkwado [cbZEC](https://x.com/bananagun/status/2094898512676991129?s=20), ndị ọrụ nwere ike ịnweta azụmaahịa cbZEC site na usoro akpaghị aka.
 
 Atụmatụ:
 
-- Mgbanwe ngwa ngwa nke token.
-- Azụmaahịa akpaaka.
-- Njikọta na obodo azụmaahịa Telegram-based.
+- Mgbawe token ọsọ ọsọ.
+- Azụmaahịa akpaghị aka.
+- Njikọta na obodo azụmaahịa dabere na Telegram.
 
-Njikọ Banana Gun na-eme ka cbZEC dịkwuo nso na ndị ọrụ na-eji ngwaọrụ azụmaahịa akpaaka.
+Njikọta Banana Gun na-eme ka cbZEC bịaruo ndị ọrụ na-eji ngwá ọrụ azụmaahịa akpaghị aka nso.
 
 Mụtakwuo: [Banana Gun](https://pro.bananagun.io/app)
 
 ---
 
-### Obere akpa Bitget
+### E-akpa ego Bitget
 
-[Obere akpa Bitget](https://web3.bitget.com/) bụ obere akpa Web3 nke nwere ọtụtụ yinye nke na-enye nchekwa akụ, mgbanwe token, na ohere ịnweta ngwa ego na-adịghị ike (DeFi).
+[Bitget Wallet](https://web3.bitget.com/) bụ e-akpa ego multi-chain Web3 na-enye nchekwa akụ, Mgbawe token, na ohere ịnweta ngwa ego decentralized (DeFi).
 
-[Site na nkwado cbZEC](https://x.com/BitgetWallet/status/2095375820772815248?s=20), ndị ọrụ nwere ike:
+Site na nkwado [cbZEC](https://x.com/BitgetWallet/status/2095375820772815248?s=20), ndị ọrụ nwere ike:
 
 - Chekwaa cbZEC.
-- Mee mgbanwe ozugbo site na obere akpa.
+- Mee Mgbawe ozugbo site na e-akpa ego.
 - Nweta ngwa DeFi Base.
 
-Njikọ a na-eme ka ndị ọrụ Web3 gbasaa ohere cbZEC's.
+Njikọta a na-agbasawanye iru cbZEC gaa n'aka ndị ọrụ Web3 gburugburu ụwa.
 
-Mụtakwuo: [Obere akpa Bitget](https://web3.bitget.com/)
+Mụtakwuo: [Bitget Wallet](https://web3.bitget.com/)
 
 
 ---
 
-## Mmepụta ihe ọhụrụ gbasara Zcash DeFi 
+## Mmepụta ọhụrụ gbasara DeFi Zcash 
 
-**Ngwọta nke oyi akwa 1**
+**Ngwọta Layer 1**
 
-A na-enyocha nhọrọ ugbu a iji mee ka ngwa DeFi dị n'ime usoro Zcash site na iji Layer 1 dị ugbu a. Nke a nwere ike ime site na ịkọwapụta ọtụtụ ọrụ nkwekọrịta n'enweghị usoro na onye na-eme ihe nhazi ma nwee nkwenye nke ihe ndị a na-eme na yinye. E mepụtara ụdị nke a na mmekorita ya na JP Morgan na blockchain ụlọ ọrụ ha. Dịka ọ dị na NU5 e nwere usoro (TZE) iji tinye ụdị ndọtị a na Zcash. 
+A na-enyocha ugbu a nhọrọ iji mee ka ngwa DeFi nwee ike ịrụ ọrụ n'ime gburugburu Zcash site n'iji Layer 1 dị ugbu a. Nke a nwere ike ime site n'ịrụ ọtụtụ ọrụ contract off-chain na sequencer, wee mee nkwado nke omume ndị ahụ on-chain. E mepụtara ụdị nke a na mmekorita JP Morgan na enterprise blockchain ha. Site na NU5, usoro (TZE) dị iji tinye ụdị mgbatị a na Zcash. 
 
 **zkEVM**
 
-Nke a ga-eme ka Zcash nwee ike ime mmemme site na iji igwe mebere emebere nke dakọtara na EVM nke na-akwado mgbakọ na mwepụ ihe akaebe efu. Nke a ga-enye Zcash ohere ịchọta uto site na obodo ndị mmepe dị iche iche ma kwalite usoro ihe omume nke ngwa na tokens nchekwa nzuzo. Nke a ga-eme ka ọ yie ihe ngwọta nzuzo L2 ndị ọzọ dị adị. 
+Nke a ga-eweta programmability ala na Zcash site na igwe virtual kwekọrọ na EVM nke na-akwado mgbako proof zero-knowledge. Nke a ga-enye Zcash ohere ito site n'obodo onye mmepụta dị iche iche ma kwalite gburugburu ngwa na token na-echekwa Nzuzo. Nke a ga-eme ka ọ dị ka ngwọta Nzuzo L2 ndị ọzọ dị ugbu a. 
 
-ECC na-eduzi nnyocha na-aga n'ihu na Protocol Protocol Nkwukọrịta nke Cosmos Interblockchain ECC. A na-enyocha usoro ndị ọzọ yana ihe ịga nke ọma nke Ethereum Merge to PoS na nsogbu ọ bụla nwere ike ibilite. 
+Nnyocha na-aga n'ihu gbasara Proof-of-Stake na Protocol Interblockchain Communication Cosmos ka ECC na-edu. A na-atụle usoro ọzọ tinyere ihe ịga nke ọma Ethereum Merge gaa PoS na nsogbu ọ bụla nwere ike ibilite. 
 
 **ZSA/UDA**
 
-Akụ Zcash Shielded Assets / User Defined Assets are initiated site n'enyemaka nke otu raara onwe ya nye. Mgbe emelitere usoro NU5, ha dị nso na mmezu. Usoro maka njikọ nke akụ ndị a na-enweghị ntụkwasị obi na nkeonwe na-eme ka mmekọrịta dị n'etiti. Njikọ na ngosipụta Zcon3 na nke a n'okpuru. 
+A na-arụpụta Zcash Shielded Assets / User Defined Assets site n'enyemaka otu raara onwe ya nye. Mgbe nkwalite protocol NU5 gasịrị, ha adịla nso nke ukwuu n'ịga nke ọma. Usoro maka bridge cross-chain ntụkwasị obi na-enweghị mkpa na nke nzuzo nke akụ ndị a, na-enyere interoperability aka, ka a na-arụ ugbu a. Njikọ nke ihe ngosi Zcon3 gbasara nke a dị n'okpuru. 
 
 
 ### Akụrụngwa:
 
-[Zcon3 Nnyefe Cross-Chain nkeonwe](https://youtu.be/vCvMk2-CJN8)
+[Zcon3 Nnyefe Cross-Chain Nzuzo](https://youtu.be/vCvMk2-CJN8)
 
-[Ngosipụta Zcon3 QEDIT na Defi](https://youtu.be/EGjcYhovty0) / [Bọọdụ eserese](https://miro.com/app/board/uXjVOhuveHo=/)
+[Zcon3 QEDIT Ihe ngosi banyere Defi](https://youtu.be/EGjcYhovty0) / [Drawing Board](https://miro.com/app/board/uXjVOhuveHo=/)
 
-[Ian Miers na ZSA's na Stablecoins](https://www.youtube.com/watch?v=hJMWE3zLIcs)
+[Ian Miers banyere ZSA na Stablecoins](https://www.youtube.com/watch?v=hJMWE3zLIcs)
 
-[Nnyocha Ihe Akaebe nke Ọnọdụ](https://electriccoin.co/blog/proof-of-stake-research-overview-1/)
+[Nnyocha Proof-of-Stake](https://electriccoin.co/blog/proof-of-stake-research-overview-1/)
 
 __
 
-Uru doro anya Zcash nwere karịa nyiwe nkwekọrịta smart ndị ọzọ dị adị bụ na ọ bụ nkeonwe ya bụ Layer 1. Nke a na-ewepụ ohere ọ bụla nke ntapu ozi mgbe ị na-eji ngwa Layer 2 ọ bụla. Na-enye ohere maka ngwa dị mfe ma dịkwa nchebe nke nwere ike inye ohere ịnweta ozi mfe karịa. 
+Uru doro anya Zcash nwere karịa platform smart contract ndị ọzọ dị ugbu a bụ Layer 1 ya nke bụ nzuzo n'ụzọ ala. Nke a na-ewepụ kpamkpam ohere ọ bụla nke mwepụta ozi mgbe a na-eji ngwa Layer 2 ọ bụla. Nke a na-enye ohere maka oyi akwa ngwa dị mfe n'ụzọ bụ isi ma bụrụkwa nke nchebe karị, nke nwere ike inye ohere ịnweta ozi n'ụzọ dị mfe karị.

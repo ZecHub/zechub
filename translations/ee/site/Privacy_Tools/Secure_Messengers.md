@@ -1,56 +1,56 @@
 [![Edit Page](https://img.shields.io/badge/Edit-blue)](https://github.com/zechub/zechub/edit/main/site/Privacy_Tools/Secure_Messengers.md)
 
-# Dɔla Siwo Le Dedie
+# Dɔmeme ƒe dɔmedɔwo
 
-## Nya ɣaɣlawo tsɔtsɔ ɣla tso nuwuwu vaseɖe nuwuwu
+## Ɣaɣlaŋlɔŋlɔ tso nuwuwu yi nuwuwu
 
-Le amedɔdɔ siwo le dedie ta la, nya ɣaɣlawo tsɔtsɔ ɣla tso nuwuwu vaseɖe nuwuwu li be wòanye dedienɔnɔ ƒe mɔnu si ana dzeɖoɖo nanɔ dedie. Esi gbedasiwo le mɔ zɔm tso mɔ̃ ɖeka dzi yi bubu dzi la, ame aɖeke mate ŋu axlẽ gbedasi siwo dze, siwo dome kadodomɔnu si dzi nèle gbedasia ɖom tsoe hã le o, eye ame bubuwo hã mate ŋu axlẽ gbedasi siwo dze o. Tsɔ kpe ɖe eŋu la, gbedasiwo ɖoɖoɖa dɔwɔƒe yeye geɖe siwo xɔ ŋkɔ abe Facebook, Whatsapp, kple Zoom ene le mɔ̃ɖaŋununya si wotsɔ ɣlaa nyatakakawo tso nuwuwu vaseɖe nuwuwu zãm xoxo. 
+Le dɔmeme ƒe dɔmedɔwo ŋu la, ɣaɣlaŋlɔŋlɔ tso nuwuwu yi nuwuwu [end-to-end encryption] nye dedienɔnɔ ƒe mɔ si dea dɔmedidi me. Ne gbedeasiwo le zɔm tso mɔ̃ aɖe dzi yi bubu dzi la, ame aɖeke, si me wò dɔmedɔ ƒe app si dzi nèdze gbedeasia ɖo kple ame bubuwo hã le o, mate ŋu axlẽ gbedeasi siwo woɖo ɖa o. Kpe ɖe eŋu la, gbedeasi ƒe dɔwɔha gãwo kple siwo ame geɖe nya, abe Facebook, Whatsapp, kple Zoom ene la, le ɖoɖo ɣaɣlaŋlɔŋlɔ tso nuwuwu yi nuwuwu ƒe mɔ dzi xoxo.
 
-## Susu siwo tae E2EE hiã ɖo?
+## Nu ka ta E2EE hiã?
 
-Be wòaɖe vi geɖe wu la, mɔ̃ɖaŋununya si wotsɔ ɣlaa nyatakakawo tso nuwuwu vaseɖe nuwuwu wɔa akpa vevi aɖe le nɔnɔme siwo me nyatakakawo ƒe dedienɔnɔ hiã le, siwo dometɔ aɖewoe nye ganyawo, kadodomɔnu, kple lãmesẽnyawo gbɔ kpɔkpɔ dɔwɔƒewo, gake menye woawo koe o. Enaa habɔbɔwo te ŋu wɔa ɖe nyatakakawo ƒe adzamenyawo, dedienɔnɔ ŋuti sewo kpakple sewo dzi bɔbɔe.
+Ne woatsɔ viɖe geɖe ava la, ɣaɣlaŋlɔŋlɔ tso nuwuwu yi nuwuwu ƒe mɔ wɔ dɔ vevi le afia siwo me nyawo ƒe dedienɔnɔ hiã, siwo ƒe kpɔɖeŋu nye ga ƒe dɔwɔwɔ, dɔmedidi, kple lãmesẽ ƒe dɔwɔwɔ. Ena dɔwɔhawo ɖoa nyawo ƒe ɣaɣla, dedienɔnɔ ƒe sewo, kple dɔmenyawo dzi bɔbɔe.
 
-**Nyatakakawo Ŋuti Nyatakakawo**: Ne wozã nya ɣaɣla tso nuwuwu vaseɖe nuwuwu la, wogblɔna be amesi woɖo be wòaxɔ gbedasi alo nyatakaka aɖe koe ate ŋu age ɖe eme ahaɖe wo gɔme. Efia be gbedasiwo ɖoɖoɖa dɔwɔƒe gɔ̃ hã, abe Facebook kple WhatsApp ene, mate ŋu axlẽ emenyawo o. Nyatakakawo ƒe adzamenyawo ƒe ɖoɖo sia si me wotsɔa nu nyrɔna ɖo la le vevie na ezãlawo kple habɔbɔ siwo medi be woaɖe nyatakaka veviwo ɖe go o, ate ŋu anye ganyawo, asitsatsa ƒe kadodowo, alo ame ŋutɔ ƒe dzeɖoɖo siwo ŋu nya ku ɖo tso mɔɖeɖe si ŋu womeɖe mɔ ɖo o me.
+**Nyawo Ƒe Ɣaɣla [Data Privacy]**: Kple ɣaɣlaŋlɔŋlɔ tso nuwuwu yi nuwuwu, ame si woɖo gbedeasi alo nya na koe ate ŋu akpɔe eye wòaɖe ɣaɣlaŋlɔŋlɔ le eŋu. Esia fia be, gbedeasi ƒe dɔwɔha, abe Facebook kple WhatsApp ene hã, mate ŋu axlẽ eme nu o. Nyawo ƒe ɣaɣla ƒe deka sesẽ sia le vevie na zãlawo kple dɔwɔha siwo medi be woaɖe nyawo siwo xɔ asi na o, eye wòate ŋu anye gaɖoɖowo, asitsotso ƒe dɔmedidiwo, alo ame ŋutɔ ƒe dɔmedidi siwo woɣla tso mɔ si me mɔɖeɖe mele o.
 
-**Nyatakakawo ƒe Dedienɔnɔ**: Mɔ̃ɖaŋununya sesẽ sia ɖea mɔ be woakpɔ nyatakakawo ta tso sedzidada siwo ate ŋu adzɔ me ne wogale mɔ dzi alo le ɖiɖim ɖe eme gɔ̃ hã.
-Ne nyatakakawo le zɔzɔm to server alo internet dzi la, wodoa go nu geɖe siwo wɔnɛ be woate ŋu axe mɔ na wo to ame siwo ŋu womeɖe mɔ ɖo o dzi, abe kɔmpiutadzidzelawo ene. Ne wozã nya ɣaɣlawo ƒe mɔ̃ɖaŋununya tso nuwuwu vaseɖe nuwuwu la, woate ŋu axe nyatakaka siwo woɖo ɖa gake, womate ŋu axlẽ wo o zi alesi ame si ɖoe ɖa alo amesi xɔe melé nya ɣaɣla ƒe safuia o. Esia ate ŋu aɖe agbɔsɔsɔme kple nyatakakawo dzi dada dzi akpɔtɔ esime wòle ekpɔm be ame ɖekaɖekawo kple habɔbɔwo ƒe kadodowo le dedie.
+**Nyawo Ƒe Dedienɔnɔ [Data Security]**: Mɔ sia sesẽ dea nyawo me tso teƒe siwo woate ŋu adze eme, esi wole zɔm alo wogbɔna hã.
+Ne nyawo le zɔm to serverwo alo internet dzi la, nu geɖe ate ŋu ana woava bɔbɔe na ame siwo me mɔɖeɖe mele o ƒe tsitoto, abe hackers ene. Kple ɣaɣlaŋlɔŋlɔ tso nuwuwu yi nuwuwu ƒe mɔ, woate ŋu akpɔ nya si wodo ɖa, gake womate ŋu axlẽe o ne ɣaɣlaŋlɔŋlɔ ƒe kɔkɔe mele edɔla alo exɔla si o. Esia ate ŋu aɖe nyawo ƒe dzedze eme ƒe fɔfɔɖevi kpɔtɔ, eye wòana ame ŋutɔwo kple dɔwɔhawo ƒe dɔmedidiwo nakpɔ dedienɔnɔ.
 
-**Kakaɖedzi Kple Zãla Dzi Kpɔkpɔ**: Ne wozã nya ɣaɣlawo tso nuwuwu vaseɖe nuwuwu la, wonaa ŋusẽ ame ɖekaɖekawo kple habɔbɔwo be woaɖo dze faa elabena wonya be wodzraa yewoƒe gbedasiwo, faɛlwo, kple nyatakaka vevi bubuwo ɖo dedie tso ame siwo ŋu womeɖe mɔ ɖo o ƒe gege ɖe wo me. Nenema ke mɔ̃ɖaŋununya la kpena ɖe ame ɖekaɖekawo kple habɔbɔwo ta tso dziɖuɖu ƒe kpekpeɖeŋunana kple ŋkuléle ɖe wo ŋu me.
+**Dzixɔse Kple Zãla Ƒe Dziɖuɖu [Trust and User Control]**: Kple ɣaɣlaŋlɔŋlɔ tso nuwuwu yi nuwuwu, womena ame ŋutɔwo kple dɔwɔhawo ŋuɖoɖo be woaɖo dɔme ablɔɖe me, elabena wonya be woƒe gbedeasiwo, filewo, kple nyawo bubu siwo xɔ asi le dedie tso mɔ si me mɔɖeɖe mele o. Nenema ke hã, mɔ sia kpena ɖe ame ŋutɔwo kple dɔwɔhawo ŋu be woaxɔ woƒe ŋutinya tso dzikpɔkpɔ kple seƒoƒo ƒe dɔwɔwɔ.
 
-### Dɔla Dedienɔnɔ Xɔŋkɔ Aɖewo
+### Dɔmeme Ƒe Dɔmedɔ Siwo Ame Geɖe Zã
 
-**Zcash Nyatakaka Siwo Wotsɔ Nya Ɣaɣla**
+**Zcash Ɣaɣlaŋlɔŋlɔ ƒe Nya Kpuiwo**
 
-Zcash Desktop & Mobile gakotokuwo ƒe nɔnɔme aɖe le wo me si na be ezãlawo te ŋu ɖoa gbedasi siwo wotsɔ nya ɣaɣlawo ŋlɔ kple ame ŋutɔ ƒe asitsatsa siwo wokpɔ ta na. Memo/gbedasi ƒe lolome ateŋu adidi va ɖo byte 512 le asitsatsa ɖesiaɖe me eye asitsatsa ƒe fetu mede United States cent 1 o. Le adzamenyawo takpɔkpɔ ƒe mɔnu si dzi wotona dea dzesi asitsatsa kple ɣeyiɣi si woxea mɔ na network la ta la, gbedasiwo ate ŋu axɔ miniti 1 alo esi wu nenema hafi woaxɔ. 
+Zcash Desktop & Mobile gakotokuwo le ŋutilã me ƒe nɔnɔ aɖe si na zãlawo ate ŋu adze gbedeasi ɣaɣlaŋlɔŋlɔ me kple ɣaɣla gaɖoɖowo. Nya kpui/gbedeasi ƒe lolome ate ŋu anɔ bytes 512 va se ɖe gaɖoɖo ɖeka me, eye gaɖoɖo ƒe adzɔwo menɔa US cent 1 gɔ̃ hã o. Le ale si woate ŋu ade dzesi gaɖoɖowo le ɣaɣla me kple network ƒe gaɖoɖowo ƒuƒoƒe ƒe ƒomeɖeɖe ƒe ɣeyiɣi ta la, gbedeasiwo ate ŋu axɔ miniti 1 alo sã wu nenye hafi woaxɔ wo.
 
-Tee kpɔ: https://z.cash/wallets 
+Ɖe kpɔ: https://z.cash/wallets 
 
 ![Zcash Encrypted Memos](/content-images/Zcash-1177103374-7bca37eb4d.webp)
 
-**Dzesi ƒe dɔwɔnu**
+**Signal app**
 
 ![Signal App](/content-images/signal-app-logo-scaled-454032876-81b24a0421.webp)
 
-Signal private messenger nye gbedasiwo ɖoɖoɖa ƒe dɔwɔnu si le dedie eye nyatakakawo ƒe adzamenyawo le eƒe kɔkɔƒe. Signal private messenger app la nye femaxee eye eŋudɔwɔwɔ le bɔbɔe, ezãlawo mehiã nuteƒekpɔkpɔ aɖeke do ŋgɔ o. Mɔ̃ɖaŋununya aɖe le Signal dɔwɔnua si tso nuwuwu vaseɖe nuwuwu si kpɔa egbɔ be wò kadodoa nye ame ŋutɔ tɔ keŋkeŋ. Ele be amesiame si le didim be yeaɖo ame ŋutɔ ƒe gbedasiwo ɖa dedie nabu Signal private messenger dɔwɔnua zazã ŋu elabena aɖe wò kɔmpiuta dzi dedienɔnɔ ƒe afɔkuwo kple wò nyatakakawo ƒe afɔɖoƒe siaa dzi akpɔtɔ ŋutɔ.
+Signal ame ŋutɔ ƒe dɔmedɔ nye dɔmedɔ ƒe app dedie si me nyawo ƒe ɣaɣla le dzidziƒe. Signal ame ŋutɔ ƒe dɔmedɔ ƒe app menye ga o eye wòle bɔbɔe be woazãe; zãlawo mehiã be woanya nu tso egɔme o. Signal app ƒe ɣaɣlaŋlɔŋlɔ tso nuwuwu yi nuwuwu ƒe mɔ dea dɔmedidiwò katã me ɣaɣla. Ame si di be yeaɖo ame ŋutɔ ƒe gbedeasiwo le dedie me la, ehiã be wòaɖo ŋku Signal ame ŋutɔ ƒe dɔmedɔ ƒe app ŋu, elabena wòaɖe woƒe cyberdedienɔnɔ ƒe bɔbɔɖevi kple woƒe nyawo ƒe afɔmeɖeɖe kpɔtɔ vevie.
 
-Tee kpɔ: [https://signal.org/download/](https://signal.org/download/)
+Ɖe kpɔ: [https://signal.org/download/](https://signal.org/download/)
 
-**BisonRelay** ƒe ɣeyiɣia
+**BisonRelay**
 
 ![Bison Relay](/content-images/ogimg-v1-1000556235-9390372d1e.webp)
 
-Bison Relay app la wɔ eƒe ŋgɔdonya le ƒe 2022. Bison Relay menɔ te ɖe ezãlawo si si akɔntabubuwo le dzi o - Insanely unbelievable! Le afisia la, woxea fe ɖe gbedasi ɖesiaɖe si woɖo ɖa kple esi woxɔ la ɖekaɖeka to Decred Lightning Network dzi. Taɖodzinu ɖeka kolia si le dɔwɔnu sia ŋue nye be wòaɖe akɔntabubuwo ƒe hiahiã ɖa keŋkeŋ esime wòle metadata dzi ɖem kpɔtɔ. Le go bubu me la, Bison Relay tɔ te alesi wowɔa mɔxexeɖedɔa nu zi geɖe. 
+Bison Relay app va do ŋgɔ le 2022 me. Bison Relay mele be zãlawo nakpɔ account o — Enye nu si sesẽ be amesiamɛ akpɔ! Afisia la, woƒoa adzɔ le Decred Lightning Network dzi ɖe gbedeasi sia gbedeasi si wodo ɖa eye woxɔ la ta. App sia ƒe taɖodzinu ɖeka koe nye be wòaɖe accountwo ƒe hiahiã katã ɖa, esi wòle metadata ƒe agbɔsɔsɔ wɔm sue. Le akpa bubu dzi la, Bison Relay tsɔ nuwuwu de ale si woɖoa dɔmedɔ ƒe mɔ dzoa ɖa zi geɖe la.
 
-Tee kpɔ: [https://bisonrelay.org/download](https://bisonrelay.org/download)
+Ɖe kpɔ: [https://bisonrelay.org/download](https://bisonrelay.org/download)
 
-**Session ƒe Dɔwɔnu**
+**Session App**
 
 ![Session App](/content-images/logo-black-9e799f2b06.webp)
 
-Ne mènya nusi Session app nye xoxo o la, mègatsi dzi o! Nukpɔkpɔ sue aɖee nye esi, Session nye dɔla siwo wotsɔ nya ɣaɣlawo ŋlɔ tso nuwuwu yi nuwuwu siwo le ho ʋlim la dometɔ ɖeka. Wotu dɔwɔnua be wòaɖe metadata veviwo dzi akpɔtɔ. Wotrɔ asi le session app la ŋu na ame ɖekaɖeka siwo di be yewoanɔ adzame bliboe, kple ablɔɖe tso ŋkuléle ɖe ame ŋu ƒomevi ɖesiaɖe me. Le Session app la dzi la, ezãlawo ateŋu awɔ akɔnta si me telefon xexlẽdzesi alo e-mail adrɛs manɔmee si fia be ŋkɔ mele eŋu kura o. Zãlawo ateŋu aɖo gbedasiwo ɖa dedie to woƒe network dzi dzesi aɖeke manɔmee eyata, naneke meli si ado go o.
+Ne menye be nènya nu tso Session app ŋu kpɔ o la, megblɔe be nàvɔ̃ o! Kpɔ nya sue aɖe tso eŋu, Session nye ɣaɣlaŋlɔŋlɔ tso nuwuwu yi nuwuwu ƒe dɔmedɔ siwo le dzidzem dome tɔ aɖe. Woɖo app sia be wòaɖe metadata siwo xɔ asi ƒe agbɔsɔsɔe ɖe eme. Woŋlɔ Session app na ame siwo di ɣaɣla bliboa kple ablɔɖe tso dzikpɔkpɔ ƒe mɔ sia mɔ nu. Le Session app dzi la, zãlawo ate ŋu awɔ account manɔ phone number alo email address o, esia fia be woaɣla wɔnɔƒe bliboa. Zãlawo ate ŋu aɖo gbedeasiwo le dedie me to woƒe network dzi manɔ dzesi aɖeke o, eyata nu aɖeke mele be woaɖe ɖa o.
 
-Tee kpɔ: [https://getsession.org](https://getsession.org)
+Ɖe kpɔ: [https://getsession.org](https://getsession.org)
 
-## Totoɖeme
+## Nya Ƒe Ƒometoto
 
-Encryption tso End-to-End le vevie elabena edoa ameŋunyatakakawo takpɔkpɔ sesẽ ɖe ŋgɔ, edoa ŋusẽ nyatakakawo ƒe dedienɔnɔ vaseɖe eƒe gɔmedzedze, eye wònana ezãlawo te ŋu tsɔa woawo ŋutɔ ƒe nyatakakawo dzi kpɔkpɔ bliboe ne wole mɔ zɔm to kɔmpiutadziɖoɖowo kple mɔ̃wo dzi, si wɔnɛ be wokpɔa nusiwo ŋu wotsi dzi ɖo vevie le dijitaal ƒe ɣeyiɣia me gbɔ.
+Ɣaɣlaŋlɔŋlɔ tso nuwuwu yi nuwuwu le vevie elabena wòna nyawo ƒe ɣaɣla ƒe kpɔɖeŋu sesẽ li, wòse nyawo ƒe dedienɔnɔ ɖe eƒe dzidziƒe, eye wòna zãlawo ŋuɖoɖo be woakpɔ woawo ŋutɔ ƒe nyawo ƒe dziɖuɖu bliboa esi wole zɔm to networkwo kple mɔ̃wo dzi, alea wòɖoa nya vevi siwo le digital ƒe ɣeyiɣi sia me la ŋu.

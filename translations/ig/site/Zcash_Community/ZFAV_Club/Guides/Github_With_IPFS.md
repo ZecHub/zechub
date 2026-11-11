@@ -2,73 +2,73 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Na-eje ozi GitHub Repo na IPFS 
+# Jiri IPFS nye GitHub Repo
 
-## Okwu Mmalite
+## Mmalite
 
-N'ime ntuziaka a, anyị na-amụta otu esi emepụta git cloneable URL maka ebe nchekwa GitHub gị nke ejiri IPFS CID rụọ ọrụ. Nke a bara uru iji hụ na ọdịnaya dị n'agbanyeghị mpaghara mpaghara, nkwụsị nkwụsị na dịka nkwado ndabere nke ozi bara uru!
+N'ime nduzi a, anyị ga-amụta otu esi emepụta URL nke a pụrụ iji git clone maka ebe nchekwa [repository] GitHub gị, nke a na-enye site n'iji IPFS CID. Nke a bara uru iji hụ na ọdịnaya dị n'agbanyeghị mpaghara ala, iguzogide mmachibido, nakwa dị ka nkwado ndabere na-adịgide adịgide maka ozi bara uru!
 
-Rịba ama: Data ebugote na IPFS dị maka * ndị ọrụ netwọk niile. Ị nwere ike ịchọrọ izochi data nkeonwe / ihe nzuzo.
+Note: Data e tinyere na IPFS dịịrị *ndị ọrụ netwọk [network]* niile. Ị nwere ike ịchọ iji Nzobe ederede [encryption] zoo data nkeonwe/nwere mmetụta n'ógbè gị.
 
 
 ## Wụnye IPFS Kubo
 
-Soro ntuziaka ntinye nyere [ebe a](https://docs.ipfs.tech/install/command-line/#install-official-binary-distributions)
+Soro ntuziaka nrụnye e nyere [ebe a](https://docs.ipfs.tech/install/command-line/#install-official-binary-distributions)
 
-N'ihe atụ a, anyị na-eji Linux, nsụgharị OS ndị ọzọ dị. 
+N'ihe atụ a, anyị na-eji Linux, ụdị OS ndị ọzọ dịkwa.
 
-Lelee nrụnye gara nke ọma site na iji "ipfs --version" 
+Lelee na nrụnye gara nke ọma site n'iji "ipfs --version"
 
 
-## Ebe nchekwa clone 
+## Clone Ebe nchekwa
 
-Iji malite, họrọ ebe nchekwa Git ịchọrọ ịnabata & mepụta ya:
+Iji malite, họrọ ebe nchekwa Git ịchọrọ ịnabata ma mee clone ya:
 
 Gbaa Iwu: "git clone https://github.com/zechub/zechub"
 
 ![](/content-images/Screenshot-from-2023-05-20-14-14-46-8503afccc3.webp)
 
 
-Ugbu a, iji nweta ya njikere ka cloned site IPFS.
+Ugbu a, iji mee ka ọ dị njikere ka e mee clone ya site na IPFS.
 
 cd zechub
 git update-server-info
 
 
-Kpọghe ihe Git:
+Kọwaa objects Git:
 
-mv ihe / mkpọ / * mkpọ .
-git unpack-objects < *. pack
-rm -f *.pack ihe/pack/*
+mv objects/pack/*.pack .
+git unpack-objects < *.pack
+rm -f *.pack objects/pack/*
 
-Ime nke a ga-ekwe ka IPFS wepụ ihe ndị ahụ ma ọ bụrụ na ị melite ebe nchekwa Git mgbe e mesịrị.
+Ime nke a ga-ekwe ka IPFS wepụ ihe ndị oyiri ma ọ bụrụ na ị melite ebe nchekwa Git ma emechaa.
 
 
-## Tinye na IPFS 
+## Tinye na IPFS
 
-Ozugbo i mere nke ahụ, ebe nchekwa ahụ dị njikere ka a na-eje ozi. Ihe niile fọdụrụ ime bụ ịgbakwunye ya na IPFS:
+Ozugbo i mechara nke ahụ, ebe nchekwa ahụ adịla njikere ka e nye ya. Ihe fọdụrụ bụ itinye ya na IPFS:
 
 $ pwd
 
 /code/myrepo
 
-$ ipfs gbakwunye -r .
+$ ipfs add -r .
 
 ![](/content-images/Screenshot-from-2023-05-20-14-22-38-3fc2f72d91.webp)
 
-Ihe si na CID pụta: Qmbgqox5g3614gjTb43s5mdSmmk95aGWWA9EHksL2T91A2
+CID sitere na ya: Qmbgqox5g3614gjTb43s5mdSmmk95aGWWA9EHksL2T91A2
 
 ![](/content-images/Screenshot-from-2023-05-20-14-26-34-6e00fee828.webp)
 
-Ọmarịcha! Ugbu a, a na-ebugote ebe nchekwa gị na netwọkụ.
+Ọmarịcha! Ugbu a e tinyela ebe nchekwa gị na netwọk.
 
 
-## Klọọ iji IPFS 
+## Clone site na IPFS
 
-Ị ga-enwe ike iweghachite ebe nchekwa github site na iji:
+Ị ga-enwe ike ugbu a iweghachite ebe nchekwa github site n'iji:
 
-git mmepụta oyiri http://ipfs.io/ipfs/"yourCID"
+git clone http://ipfs.io/ipfs/"yourCID"
 
-N'aka nke ọzọ ị nwere ike ịchọ & weghachite site na iji mpaghara IPFS gị. 
+N'aka nke ọzọ, ị nwere ike ịchọ ma weghachite ya site n'iji node IPFS dị n'ógbè gị.
 
-Nkọwa ikpeazụ: nchekwa nchekwa na IPFS anaghị enweta mmelite n'akụkụ ezigbo ụlọ nkwakọba ihe github. A na-atụ aro ka ị weghachite nchekwa ahụ mgbe niile. 
+Note ikpeazụ: Folda repo dị na IPFS anaghị anata mmelite n'otu oge na ebe nchekwa github n'ezie. A na-atụ aro ka itinyeghachi folda ahụ n'oge oge.

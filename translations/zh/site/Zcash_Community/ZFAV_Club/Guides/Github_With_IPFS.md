@@ -1,21 +1,21 @@
 <a href="https://github.com/Zechub/zechub/edit/main/site/Zcash_Community/ZFAV_Club/Guides/Github_With_IPFS.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="编辑页面"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# 使用 IPFS 提供 GitHub 仓库
+# 通过 IPFS 提供 GitHub Repo
 
 ## 简介
 
-在本指南中，我们将学习如何为你的 GitHub 仓库创建一个可通过 git 克隆的 URL，并使用 IPFS CID 提供服务。这对于确保内容无论在任何地理区域都可访问、具备抗审查能力，以及作为有价值信息的持久备份都非常有用！
+在本指南中，我们将学习如何为通过 IPFS CID 提供服务的 GitHub 仓库 [repository] 创建一个可通过 git 克隆的 URL。这有助于确保内容无论身处何种地理区域都可用、具备抗审查性，并可作为宝贵信息的持久备份！
 
-注意：上传到 IPFS 的数据对*所有*网络用户都可用。你可能希望在本地加密个人/敏感数据。
+注意：上传到 IPFS 的数据对*所有*网络用户均可用。你可能希望在本地加密个人/敏感数据。
 
 
 ## 安装 IPFS Kubo
 
-按照[此处](https://docs.ipfs.tech/install/command-line/#install-official-binary-distributions)提供的安装说明进行操作
+请按照[此处](https://docs.ipfs.tech/install/command-line/#install-official-binary-distributions)提供的安装说明操作
 
-在本示例中，我们使用 Linux，其他操作系统版本也可用。
+在此示例中，我们使用 Linux，也可使用其他 OS 版本。
 
 使用 "ipfs --version" 检查安装是否成功
 
@@ -29,7 +29,7 @@
 ![](/content-images/Screenshot-from-2023-05-20-14-14-46-8503afccc3.webp)
 
 
-现在，为了让它能够通过 IPFS 被克隆。
+现在，使其准备好通过 IPFS 被克隆。
 
 cd zechub
 git update-server-info
@@ -41,12 +41,12 @@ mv objects/pack/*.pack .
 git unpack-objects < *.pack
 rm -f *.pack objects/pack/*
 
-这样做可以让 IPFS 在你稍后更新 Git 仓库时对对象进行去重。
+这样做将使 IPFS 在你稍后更新 Git 仓库时能够对对象进行去重。
 
 
-## 添加到 IPFS
+## 添加至 IPFS
 
-完成这些操作后，该仓库就可以提供服务了。剩下要做的就是将其添加到 IPFS：
+完成后，该仓库即可提供服务。剩下要做的就是将其添加到 IPFS：
 
 $ pwd
 
@@ -60,15 +60,15 @@ $ ipfs add -r .
 
 ![](/content-images/Screenshot-from-2023-05-20-14-26-34-6e00fee828.webp)
 
-太棒了！现在你的仓库已经上传到网络中了。
+太好了！现在你的仓库已上传至网络。
 
 
 ## 使用 IPFS 克隆
 
-你现在应该可以通过以下方式获取该 github 仓库：
+现在你应该能够使用以下命令获取 github 仓库：
 
 git clone http://ipfs.io/ipfs/"yourCID"
 
-或者，你也可以使用本地 IPFS 节点进行搜索和获取。
+或者，你可以使用本地 IPFS 节点进行搜索和获取。
 
-最后说明：IPFS 上的仓库文件夹不会随着实际的 github 仓库同步更新。建议定期重新上传该文件夹。
+最后注意：IPFS 上的 repo 文件夹不会随实际 github 仓库一同更新。建议定期重新上传该文件夹。

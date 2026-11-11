@@ -1,14 +1,14 @@
-# Ịnyefe zcashd na Akash site n'aka Console
+# Ịnyefe zcashd na Akash site na Console
 
-> ** Echefuola. Esola ntuziaka a iji tinye ọnụ ị na-ezube iji.**
+> **Agwụla ojiji. Esokwala ntuziaka a iji nyefe node ị na-achọ iji.**
 >
-> zcashd reached its automatic End-of-Support halt on July 18, 2026. A zcashd node deployed today will not sync to the chain tip, so the deployment costs money every month and produces nothing.
+> zcashd rutere nkwụsị Nkwụsị-Nkwado ya na-akpaghị aka na Julaị 18, 2026. Node zcashd e nyefere taa agaghị emekọrịta na njedebe chain, ya mere nnyefe ahụ na-efu ego kwa ọnwa ma ghara ịmepụta ihe ọ bụla.
 >
-> Tinye Zebra kama: [Esi agba ọsọ Zebra na Akash Network](/guides/akash-network-zebra), nke na-ekpuchi otu ọrụ Akash Console ma chọọ ihe dịka ụzọ atọ n'ime diski. Ọ bụrụ na ị na-ebugharị ntọala dị, lee Ntuziaka Nhazi . [zcashd na Zebra na Zallet ntughari nduzi.](/guides/migration-guide-zcashd-to-zebrad-zallet).
+> Nyefee **Zebra** kama: [Otu esi agba Zebra na Akash Network](/guides/akash-network-zebra), nke na-ekpuchi otu usoro Akash Console ahụ ma chọọ ihe dị ka otu ụzọ n'ụzọ atọ nke diski. Ọ bụrụ na ị na-ebufe nhazi dị adị, lee ntuziaka mbufe [zcashd gaa Zebra na Zallet](/guides/migration-guide-zcashd-to-zebrad-zallet).
 >
-> A na-edebe ibe a dịka ihe ndekọ akụkọ banyere nkesa zcashd.
+> A na-edobe ibe a dịka ndekọ akụkọ ihe mere eme nke nnyefe zcashd.
 
-Guide for deploying a zcashd Zcash full node (Electric Coin Co implementation) using [Akash Console (Nke a na-akpọ)](https://console.akash.network)N'okpuru ebe a bụ nkuzi vidiyo. Enwere ike ịchọta nduzi miri emi n'okpuru.
+Ntuziaka maka inyefe full node zcashd Zcash (mmejuputa Electric Coin Co) site na [Akash Console](https://console.akash.network). Lee nkuzi vidio dị n'okpuru. A pụkwara ịhụ ntuziaka zuru ezu karị n'okpuru.
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -22,159 +22,159 @@ Guide for deploying a zcashd Zcash full node (Electric Coin Co implementation) u
 </div>
 
 
-## Ihe Ị Na-eme Ka Ọ Dị Mkpa
+## Ihe Ị Na-enye
 
-Nchịkọta zcashd zuru ezu nke ga-eme:
+Full node zcashd nke ga-eme:
 
--> Mmekọrịta dum Zcash blockchain (350GB+ maka mainnet, ~ 40GB maka testnet)
+-> Mekọrịta blockchain Zcash dum (350GB+ maka mainnet, ~ 40GB maka testnet)
 
--> Ọnụ ego ruru $ 15 / ọnwa dabere na ọnụahịa akara ngosi AKT.
+-> Na-efu ihe dị ka $15/ọnwa dabere na ọnụahịa token AKT
 
 -> Were ọtụtụ awa ruo ụbọchị iji mekọrịta kpamkpam
 
--> Jiri 4 vCPUs, 16GB RAM, 350GB nchekwa (mainnet) ma ọ bụ 2 vCPU, 8GB RAM , 50GB (testnet)
+-> Jiri 4 vCPU, 16GB RAM, nchekwa 350GB (mainnet) ma ọ bụ 2 vCPU, 8GB RAM, 50GB (testnet)
 
--> Nbudata ihe nzuzo nke cryptographic na mbụ (~ 2GB, otu oge)
+-> Budata paramenta kriptogafik na mbido mbụ (~ 2GB, otu ugboro)
 
-**zcashd vs Zebra:**
+**zcashd megide Zebra:**
 
--> zcashd bụ mmejuputa mbụ nke Zcash site na Electric Coin Co, kwụsịrị kemgbe July 18, 2026
+-> zcashd bụ mmejuputa node Zcash mbụ nke Electric Coin Co, nke kwụsịrị kemgbe Julaị 18, 2026
 
--> Zebra, site na Zcash Foundation, bụ ọnụ zuru oke eji eme ihe taa.
+-> Zebra, sitere na Zcash Foundation, bụ full node a na-eji taa
 
--> Naanị Zebra na-agbaso agbụ nke ugbu a; otu zcashd node enweghị ike iru n'isi ya
+-> Naanị Zebra na-agbaso chain dị ugbu a; node zcashd enweghị ike iru njedebe
 
--> e jirila obere akpa zcashd dochie ya. [Zallet](/using-zcash/zallet-quick-reference-guide)
+-> E-akpa ego zcashd ejirila [Zallet](/using-zcash/zallet-quick-reference-guide) dochie
 
--> Jiri zcashd ma ọ bụrụ na ịchọrọ ọrụ akpa ego ma ọ bụ RPC API kpọmkwem
-
-
-### **Mkpa: Imepụta ọdụ ụgbọ mmiri na Akash**
-
-When you expose a port on Akash (e.g., port 8233 for zcashd P2P), it **does NOT bind to that exact port** on the provider's public IP. Instead, the provider assigns a random high port (like 31234 or 42567) and reverse-proxies it to your container's port 8233.
-
-This is by design - providers run multiple deployments, and they'd have conflicts if everyone tried to use port 8233 directly.
-
-** Ihe nke a pụtara nye gị:**
-
--> Ị hazie ọdụ ụgbọ mmiri 8233 na SDL (zcashd si ọkọlọtọ P2P n'ọdụ ụgbọ mmiri)
-
--> Akash na-enye gị URI dị ka *provider.com:31234*
-
--> Ndị ọzọ Zcash nodes jikọọ gị na * provider.com:31234*
-
--> N'ime akpa gị, zcashd ka na-ege ntị 8233
+-> Jiri zcashd ma ọ bụrụ na ị chọrọ ọrụ e-akpa ego ma ọ bụ API RPC pụrụ iche
 
 
-A na-edozi nke a n'onwe ya. Jiri URI Akash nyere gị mee ihe.
+### **Dị Mkpa: Nhazi Ọdụ ụgbọ mmiri na Akash**
 
-## Ihe ndị a chọrọ iji mee ya bụ:
+Mgbe ị kpughere ọdụ ụgbọ mmiri na Akash (dịka ọmụmaatụ, ọdụ 8233 maka P2P zcashd), ọ **adịghị ejikọ na kpọmkwem ọdụ ahụ** na IP ọha nke onye na-eweta ya. Kama, onye na-eweta ya na-ekenye ọdụ dị elu na-enweghị usoro (dịka 31234 ma ọ bụ 42567) ma jiri reverse-proxy jikọọ ya na ọdụ 8233 nke container gị.
 
--> ** Keplr Wallet** ihe nchọgharị mgbakwunye arụnyere (Chrome/Brave/Firefox)
+Nke a bụ atụmatụ e mere nke ọma - ndị na-eweta ya na-agba ọtụtụ nnyefe, ha ga-enwe esemokwu ma ọ bụrụ na onye ọ bụla anwaa iji ọdụ 8233 ozugbo.
 
--> ** AKT tokens** - Nweta 50-100 AKT site na mgbanwe (Coinbase, Kraken, Osmosis)
+**Ihe nke a pụtara nye gị:**
 
--> ** 5 nkeji** iji pịa site na UI Njikwa
+-> Ị na-ahazi ọdụ 8233 na SDL (ọdụ P2P ọkọlọtọ nke zcashd)
 
+-> Akash na-enye gị URI dịka *provider.com:31234*
 
-## Nzọụkwụ 1: Jikọọ obere akpa gị
+-> Node Zcash ndị ọzọ na-ejikọ na gị na *provider.com:31234*
 
--> Go to [https://console.akash.network](https://console.akash.network)
-
--> Pịa **"Jikọọ obere akpa ego"** n'elu aka nri.
-
--> Họrọ ** Keplr** (ma ọ bụ obere akpa Cosmos gị kachasị mma)
-
--> Kwado njikọ ahụ mgbe Keplr gbapụta
+-> N'ime container gị, zcashd ka na-ege ntị na 8233
 
 
-AKT gị kwesịrị ịpụta n'elu aka nri. Ọ bụrụ na ọ bụ efu, buru ụzọ tinye ego gị n'akpa uwe.
+A na-elekọta nke a na-akpaghị aka. Jiri naanị URI Akash nyere gị.
 
-## Nzọụkwụ 2: Mepụta Ntinye aka
+## Ihe Ndị A Chọrọ Tupu Ebidoro
 
--> Pịa **"Deploy"** bọtịnụ (nnukwu acha anụnụ anụnụ button, center nke page)
+-> Agbatị ihe nchọgharị **Keplr Wallet** arụnyere (Chrome/Brave/Firefox)
 
--> Họrọ ** "Mee ndebiri gị"** (ma ọ bụ wepu ozugbo na-ebugote SDL)
+-> **Token AKT** - Nweta 50-100 AKT n'aka exchange (Coinbase, Kraken, Osmosis)
 
-### Nhọrọ A: Bulite SDL File (Atụ aro)
+-> **Nkeji 5** iji pịa na UI Console
 
-> ** bọtịnụ a deploys a kwụsịrị ọnụ.** Ọ na-akwụ ụgwọ megide gị AKT itule maka otu node nke nwere ike sync. Jiri ihe ahụ [Onye ndu Zebra](/guides/akash-network-zebra) kama nke ahụ.
+
+## Nzọụkwụ 1: Jikọọ E-akpa Ego Gị
+
+-> Gaa na [https://console.akash.network](https://console.akash.network)
+
+-> Pịa **"Connect Wallet"** n'akụkụ aka nri elu
+
+-> Họrọ **Keplr** (ma ọ bụ e-akpa ego Cosmos ị họọrọ)
+
+-> Kwenye njikọ ahụ mgbe Keplr pụtara
+
+
+Nguzozi AKT gị kwesịrị igosi n'akụkụ aka nri elu. Ọ bụrụ na ọ bụ efu, buru ụzọ tinye ego n'ime e-akpa ego gị.
+
+## Nzọụkwụ 2: Mepụta Nnyefe
+
+-> Pịa bọtịnụ **"Deploy"** (nnukwu bọtịnụ anụnụ, etiti ibe)
+
+-> Họrọ **"Build your template"** (ma ọ bụ gaa ozugbo ibugo SDL)
+
+### Nhọrọ A: Bulite Faịlụ SDL (Akwadoro)
+
+> **Bọtịnụ a na-enye node kwụsịrị.** Ọ na-akwụ ụgwọ site na nguzozi AKT gị maka node nke enweghị ike imekọrịta. Jiri ntuziaka [Zebra](/guides/akash-network-zebra) kama.
 
 [![Deploy on Akash](/content-images/deploy-with-akash-btn-74abb88d44.svg)](https://console.akash.network/new-deployment?step=edit-deployment&templateId=akash-network-awesome-akash-zcash-zcashd)
 
 ### Nhọrọ B: Jiri SDL Editor
 
-Ọ bụrụ na ịchọrọ iji aka tinye SDL:
+Ọ bụrụ na ịchọrọ iji aka gị mado SDL:
 
--> Detuo ọdịnaya nke * zcashd-akash.yml*
+-> Detuo ọdịnaya *zcashd-akash.yml*
 
--> Tinye na SDL nchịkọta akụkọ
+-> Mado ya n'ime SDL editor
 
--> Gbanwee dị ka mkpa (lee nhazi ngalaba n'okpuru)
+-> Gbanwee dịka ọ dị mkpa (lee ngalaba nhazi dị n'okpuru)
 
--> Pịa **"Mepụta Ntinye aka"**
-
-
-## Nzọụkwụ 3: Nyochaa ma kwado nkwụnye ego ahụ .
-
-Ihe ngosi ga-egosi gị:
-
--> **Nkwụnye ego ntinye**: ~ 5 AKT (ị ga-enweta nke a mgbe ị mechiri nkenye ọnọdụ)
-
--> **Echere na ọnụahịa**: Dabere na gị SDL ịnye ọnụahịa.
+-> Pịa **"Create Deployment"**
 
 
-Pịa **"Kweere"** ma debanye azụmahịa ahụ na Keplr.
+## Nzọụkwụ 3: Lelee ma Kwenye Nkwụnye Ego
 
-## Nke Anọ: Họrọ Onye Ga-enye Gị Ihe Ndị Na-akpa Mkpa n'Ụlọ Unu
+Console ga-egosi gị:
 
-Mgbe ~ 30 sekọnd, ị ga-ahụ ọnụahịa site n'aka ndị na enye ọrụ. Ọnụ ego ọ bụla gosipụtara:
+-> **Nkwụnye ego nnyefe**: ~ 5 AKT (ị ga-enweta nke a azụ mgbe ị mechiri nnyefe ahụ)
 
--> ** Ọnụahịa kwa ngọngọ** (na AKT ma ọ bụ USDC)
-
--> **Atụmatụ ego a na-akwụ kwa ọnwa**
-
--> **Nkọwa nke onye na-enye ọrụ** (oge oge, mpaghara, wdg.)
+-> **Ọnụ ego a tụrụ anya ya**: Dabere na ọnụahịa SDL gị
 
 
-**Adịla na-ahọrọ ndị dị ọnụ ala.** Lelee:
+Pịa **"Approve"** ma bịanye aka na Azụmahia ahụ na Keplr.
 
--> Oge % (gbalịa maka > 95%)
+## Nzọụkwụ 4: Họrọ Onye Na-eweta
 
--> Mpaghara (dị nso na gị = oge dị mma, ma ọ dịghị mkpa maka ọnụ ọgụgụ nke blockchain)
+Mgbe ~ 30 sekọnd gasịrị, ị ga-ahụ bids sitere n'aka ndị na-eweta. Bid ọ bụla na-egosi:
 
--> Ọnọdụ nyocha (akara ahịhịa ndụ = ntụkwasị obi karịa)
+-> **Ọnụahịa kwa block** (na AKT ma ọ bụ USDC)
 
+-> **Ọnụ ego kwa ọnwa a tụrụ anya ya**
 
-Pịa **"Nabata Onyinye ahụ"** na onye ọrụ ị họọrọ ma banye Keplr.
-
-## Nzọụkwụ 5: Chere maka nkenye ọnọdụ
-
-Ihe njikwa ga:
-
--> Mepụta nkwekọrịta mgbazinye na onye ọrụ ị họọrọ
-
--> Zipu ihe ngosi (na-agwa onye na-enye ọrụ ihe ị ga - agba ọsọ)
-
--> Malite akpa gị
+-> **Nkọwa onye na-eweta** (oge ọrụ, mpaghara, wdg.)
 
 
-Nke a na-ewe 1-2 nkeji. Ị ga-ahụ mmelite ọnọdụ n'ime UI.
+**Ahọkwala naanị nke dị ọnụ ala.** Lelee:
 
-## Nzọụkwụ 6: Nyochaa Ọ Na-agba ọsọ
+-> % oge ọrụ (gbaa mbọ karịrị 95%)
 
-Ozugbo e depụtara ya, ị ga-ahụ:
+-> Mpaghara (nke dị gị nso = latency ka mma, ma ọ dịghị mkpa nke ukwuu maka node blockchain)
 
--> **Ọrụ** taabụ: Na-egosi gị *zcashd* ọrụ na ọnọdụ
-
--> ** Logs tab: Live log si gị zcashd ọnụ
-
--> **Leases** taabụ: Nkọwa banyere gị nkenye ọnọdụ (DSEQ, na-eweta, eri)
+-> Ọnọdụ enyochara (akara nlele ndụ ndụ = a pụrụ ịtụkwasị obi karịa)
 
 
-### Lelee Ihe Ndekọ ahụ .
+Pịa **"Accept Bid"** n'ebe onye na-eweta ị họọrọ nọ ma bịanye aka na Keplr.
 
-Pịa na ** Logs** ma ị ga-ahụ zcashd amalite:
+## Nzọụkwụ 5: Chere Nnyefe
+
+Console ga-eme:
+
+-> Mepụta lease na onye na-eweta ị họọrọ
+
+-> Ziga manifest (na-agwa onye na-eweta ihe ọ ga-agba)
+
+-> Malite container gị
+
+
+Nke a na-ewe nkeji 1-2. Ị ga-ahụ mmelite ọkwa na UI.
+
+## Nzọụkwụ 6: Nyochaa na Ọ Na-agba
+
+Ozugbo e nyefere ya, ị ga-ahụ:
+
+-> Taabụ **Services**: Na-egosi ọrụ *zcashd* gị na ọkwa
+
+-> Taabụ **Logs**: Log dị ndụ sitere na node zcashd gị
+
+-> Taabụ **Leases**: Nkọwa gbasara nnyefe gị (DSEQ, onye na-eweta, ọnụ ego)
+
+
+### Lelee Logs
+
+Pịa **Logs**, ị ga-ahụ zcashd ka ọ na-amalite:
 
 ```bash
 [zcashd]: ZCASHD_NETWORK=mainnet
@@ -182,47 +182,47 @@ Pịa na ** Logs** ma ị ga-ahụ zcashd amalite:
 ...
 ```
 
-**Mgba ọsọ mbụ ga-ebudata zcash-params (~ 2GB).** Nke a bụ ọrụ otu oge ma were 5-10 nkeji dabere na bandwidth onye na-eweta. Ntinye ọzọ ndị ọzọ ga-agafe nke a.
+**Mbido mbụ ga-ebudata zcash-params (~2GB).** Nke a bụ ọrụ otu ugboro ma were nkeji 5-10 dabere na bandwidth onye na-eweta. Mmalite ọzọ ga-amapụ nke a.
 
-Mmekọrịta ga-ewe ** awa ruo ụbọchị** dabere na netwọk. Lelee maka:
+Mmekọrịta ahụ ga-ewe **ọtụtụ awa ruo ụbọchị** dabere na netwọk. Lezie anya maka:
 
--> Ịbawanye elu nke blocks
+-> Ọdị elu block na-abawanye
 
--> Njikọ ndị ọgbọ (kwesịrị ịbụ 10-30 ibe)
+-> Njikọ peer (kwesịrị ịbụ peer 10-30)
 
--> Enweghị mmejọ ugboro ugboro
+-> Enweghị njehie na-emegharị
 
 
-## Nzọụkwụ 7: Nweta Adreesị Node gị
+## Nzọụkwụ 7: Nweta Adreesị Node Gị
 
-Pịa na taabụ **Leases**, mgbe ahụ **URIs**.
+Pịa taabụ **Leases**, mesịa **URIs**.
 
-Ị ga-ahụ ihe dị ka:
+Ị ga-ahụ ihe dịka:
 
 ```
 zcashd-8233: provider-hostname.com:31234
 ```
 
-Nke a bụ ọnụ gị ** njedebe P2P ọha. Ọnụ ndị ọzọ Zcash ga-ejikọ gị na adreesị a.
+Nke a bụ **ebe njedebe P2P ọha** node gị. Node Zcash ndị ọzọ ga-ejikọ na gị na Adreesị akpa ego a.
 
-**Note the port mapping:** You configured port 8233 in the SDL, but Akash assigned it to a different public port (31234 in this example). This is normal - see the "Port Mapping on Akash" section at the top if this confuses you. Your node is accessible at whatever port Akash shows here, not necessarily 8233.
+**Rịba ama nhazi ọdụ ụgbọ mmiri:** Ị haziri ọdụ 8233 na SDL, mana Akash kenyere ya ọdụ ọha dị iche (31234 n'ihe atụ a). Nke a bụ ihe nkịtị - lee ngalaba "Nhazi Ọdụ ụgbọ mmiri na Akash" dị n'elu ma ọ bụrụ na nke a na-agbagwoju gị anya. Node gị nwere ike iru na ọdụ ọ bụla Akash gosiri ebe a, ọ bụghị n'ezie 8233.
 
-Ọ bụrụ na ị kwadoro RPC (kwuru site na ndabara na SDL), ị ga-ahụkwa njedebe nke RPC ebe a nwere ọdụ ụgbọ mmiri ya.
+Ọ bụrụ na ị mere RPC ka ọ rụọ ọrụ (a gbanwere ya na ndabara na SDL), ị ga-ahụkwa ebe njedebe RPC ebe a, nke nwere ọdụ ya e kenyesiri.
 
-## Nhọrọ nhazi
+## Nhọrọ Nhazi
 
 ### Ịgbanwe gaa na Testnet
 
-SDL na-agbanye aka n'ime Mainnet. Iji jiri Testnet kama:
+SDL na-eji Mainnet dịka ndabara. Iji Testnet kama:
 
--> ** Gbanwee netwọk na ngalaba * env:**
+-> **Gbanwee netwọk na ngalaba *env*:**
 
    ```yaml
    # - "ZCASHD_NETWORK=mainnet"
    - "ZCASHD_NETWORK=testnet"
    ```
 
--> ** Melite ọdụ ụgbọ mmiri ekpughere** na ngalaba * kpughee:
+-> **Melite ọdụ ekpughere** na ngalaba *expose*:
 
    ```yaml
    # Comment out Mainnet port:
@@ -240,7 +240,7 @@ SDL na-agbanye aka n'ime Mainnet. Iji jiri Testnet kama:
      proto: tcp
    ```
 
--> ** Nhọrọ: Belata ihe onwunwe** maka Testnet na *profiles.compute.zcashd.resources*:
+-> **Nhọrọ: Belata akụrụngwa** maka Testnet na *profiles.compute.zcashd.resources*:
 
    ```yaml
    cpu:
@@ -251,21 +251,21 @@ SDL na-agbanye aka n'ime Mainnet. Iji jiri Testnet kama:
      - size: 50Gi  # Down from 150Gi
    ```
 
--> ** Nhọrọ: Ọnụahịa dị ala karịa na profaịlụ.ebe a ga-etinye ya,akash.ọnụego*:
+-> **Nhọrọ: Wedata ọnụahịa** na *profiles.placement.akash.pricing*:
 
    ```yaml
    amount: 5000  # Down from 10000
    ```
 
-> Cheta na-agbadata ahịa nwere ike iyo anyị enye ụdị bidding. ahụmahụ a uru, ma ọ bụ jiri eweta endpiont iji chọpụta ma ha ga-enye (nyochaa eweta API akwụkwọ)
+> note lowering prices may filter our providers form bidding. experiement with this value, or use the provider endpiont to check if they would bid. (review provider api documentation)
 
-### Kwado RPC Access
+### Mee Nnweta RPC Ka Ọ Rụọ Ọrụ
 
-RPC bụ nkwarụ maka nchekwa. Iji mee ka ọ rụọ ọrụ:
+A na-agbanyụ RPC na ndabara maka nchekwa. Iji mee ka ọ rụọ ọrụ:
 
-**KWESỊRỊ: Tinye nzere siri ike.** zcashd RPC na-eziga aha njirimara / paswọọdụ site na HTTP (ọ bụghị HTTPS). Naanị kpughee RPC ma ọ bụrụ na ị ghọtara ihe nchebe.
+**DỊ MKPA: Tọọ nzere siri ike.** RPC zcashd na-eziga aha njirimara/password site na HTTP (ọ bụghị HTTPS). Kpughee RPC naanị ma ọ bụrụ na ị ghọtara ihe nchekwa metụtara ya.
 
--> Uncomment na ngalaba * env:
+-> Wepụ nkọwa na ngalaba *env*:
 
    ```yaml
    - "ZCASHD_RPCUSER=yourusername"
@@ -276,9 +276,9 @@ RPC bụ nkwarụ maka nchekwa. Iji mee ka ọ rụọ ọrụ:
    - "ZCASHD_ALLOWIP=0.0.0.0/0"  # Allow from anywhere (use with caution)
    ```
 
--> Uncomment na RPC n'ọdụ ụgbọ mmiri * kpughere*:
+-> Wepụ nkọwa nke ọdụ RPC na *expose*:
 
-   ** Maka Mainnet:**
+   **Maka Mainnet:**
 
    ```yaml
    - port: 8232
@@ -288,7 +288,7 @@ RPC bụ nkwarụ maka nchekwa. Iji mee ka ọ rụọ ọrụ:
      proto: tcp
    ```
 
-   ** Maka Testnet:**
+   **Maka Testnet:**
 
    ```yaml
    - port: 18232
@@ -298,46 +298,46 @@ RPC bụ nkwarụ maka nchekwa. Iji mee ka ọ rụọ ọrụ:
      proto: tcp
    ```
 
-**Ịdọ aka ná ntị**: Ọ bụrụ na ịtọlite *global: true* maka RPC, ị ga-ekpughe ya n'ịntanetị site na isi edemede. Nke a bụ echiche ọjọọ. Jiri *glonal: false* ma nweta RPC site na netwọkụ nke Akash ma ọ bụ mepụta oghere echekwara.
+**Ịdọ aka ná ntị**: Ọ bụrụ na ị tọọ *global: true* maka RPC, ị na-ekpughe ya n'ịntanetị site na basic auth. Nke a bụ echiche ọjọọ. Jiri *global: false* ma nweta RPC site na netwọk ime Akash, ma ọ bụ hazie tunnel echekwara.
 
-** Ihe ncheta nke mapping ọdụ ụgbọ mmiri: Ọbụna ma ọ bụrụ na ị kpughere RPC n'ụwa niile, Akash ga-atụ ya gaa n'ọdụ ụgbọ elu dị elu (ọ bụghị 8232/18232). Lelee URI gị iji hụ njedebe ọha mmadụ. Maka * ụwa dum: ụgha* (akwadoro), a pụrụ ịnweta njedebe RPC naanị n'ime netwọk nkesa Akash, ọ bụghị site na ịntanetị ọhaneze.
+**Ncheta nhazi ọdụ ụgbọ mmiri**: Ọbụna ma ọ bụrụ na ị kpughere RPC n'ụwa niile, Akash ga-edobe ya n'ọdụ dị elu na-enweghị usoro (ọ bụghị 8232/18232). Lelee URIs na nnyefe gị iji hụ ebe njedebe ọha n'ezie. Maka *global: false* (akwadoro), ebe njedebe RPC nwere ike iru naanị n'ime netwọk nnyefe Akash, ọ bụghị site na ịntanetị ọha.
 
-### Kpọtụrụ ndị na- eme ihe ngosi .
+### Mee Transaction Index Ka Ọ Rụọ Ọrụ
 
-Nhazi azụmahịa na-enye gị ohere ịjụ ajụjụ ọ bụla site n'aka ID ya site na RPC. Na -eji nchekwa karịa (~ 20% mmụba).
+Ndepụta Azụmahia na-enye gị ohere iji RPC jụọ Azụmahia ọ bụla site na ID ya. Ọ na-eji nchekwa karịa (~ mmụba 20%).
 
-Uncomment na *env*:
+Wepụ nkọwa na *env*:
 
 ```yaml
 - "ZCASHD_TXINDEX=1"
 ```
 
-**Ịdọ aka ná ntị**: Ịnye txindex na otu node synced dị mkpa ka ị degharịa blockchain dum, nke ga-ewe ọtụtụ awa.
+**Ịdọ aka ná ntị**: Ịgbanye txindex na node mekọrịtara adịworị chọrọ ịdepụta blockchain dum ọzọ, nke na-ewe ọtụtụ awa.
 
-### Kwado onye nyocha Insight Explorer
+### Mee Insight Explorer Ka Ọ Rụọ Ọrụ
 
-Insight Explorer na-enye ndị ọzọ REST API endpoints maka data blockchain (bara uru maka block explorers).
+Insight Explorer na-enye ebe njedebe REST API ndị ọzọ maka data blockchain (bara uru maka ndị na-enyocha block).
 
-Uncomment na *env*:
+Wepụ nkọwa na *env*:
 
 ```yaml
 - "ZCASHD_INSIGHTEXPLORER=1"
 ```
 
-Nke a na-eme ka txindex rụọ ọrụ ma tinye usoro RPC ọzọ.
+Nke a na-agbanye txindex na-akpaghị aka ma tinye usoro RPC ndị ọzọ.
 
-### Kwado Metrics Prometheus
+### Mee Prometheus Metrics Ka Ọ Rụọ Ọrụ
 
-Iji kpochapụ metrics maka nlekota:
+Iji kpokọta metrics maka nlekota:
 
--> Uncomment na * env:
+-> Wepụ nkọwa na *env*:
 
    ```bash
    - "ZCASHD_PROMETHEUSPORT=9969"
    - "ZCASHD_METRICSIP=0.0.0.0/0"
    ```
 
--> Uncomment metrics n'ọdụ ụgbọ mmiri na * kpughere*:
+-> Wepụ nkọwa nke ọdụ metrics na *expose*:
 
    ```bash
    - port: 9969
@@ -347,65 +347,65 @@ Iji kpochapụ metrics maka nlekota:
      proto: tcp
    ```
    
-Metrics ga-adị na: http://yourendpoint:9969/metrics na usoro Prometheus.
+Metrics ga-adị na http://yourendpoint:9969/metrics n'ụdị Prometheus.
 
-### Gbanwee Akụrụngwa/Ịnye ọnụahịa
+### Gbanwee Akụrụngwa/Ọnụahịa
 
-Ọ bụrụ na ị naghị enweta ọnụahịa ma ọ bụ chọọ ịkwalite ego:
+Ọ bụrụ na ị naghị enweta bids ma ọ bụ na ịchọrọ imezi ọnụ ego:
 
-** Maka ndị na-enye ọrụ dị ala**, belata ngalaba *profiles.compute.zcashd.resources*:
+**Maka ndị na-eweta nwere nkọwa dị ala**, belata na ngalaba *profiles.compute.zcashd.resources*:
 
--> CPU: *units: 2* (nke kacha nta maka ezi uche sync ọsọ)
+-> CPU: *units: 2* (opekata mpe maka ọsọ mmekọrịta kwesịrị ekwesị)
 
--> Ncheta: * size: 12Gi* (nke kacha nta maka nkwụsi ike)
+-> Ebe nchekwa: *size: 12Gi* (opekata mpe maka nkwụsi ike)
 
--> Nchekwa: * size: 120Gi* (nke kacha nta maka mainnet)
-
-
-** Iji dọta ọnụ ahịa ndị ọzọ**, mụbaa na *profiles.placement.akash.pricing*:
-
--> Mainnet: Gbalịa * ego: 15000* uakt/block
-
--> Testnet: Gbalịa * ego: 7500* uakt/block
+-> Nchekwa: *size: 120Gi* (opekata mpe maka mainnet)
 
 
-A na-edozi ụkpụrụ SDL dị elu. Ọtụtụ ndị na - enye ha ga - arịọ obere ego karịa nke ahụ.
+**Iji dọta bids karịa**, bulie na *profiles.placement.akash.pricing*:
 
-## Ịmelite Ntinye Aka Gị
+-> Mainnet: Nwaa *amount: 15000* uakt/block
 
-Mkpa ịgbanwe nhazi mgbe e deployed?
-
--> Gaa na ** My Deployments** n'ime Njikwa
-
--> Chọta gị zcashd nkenye ọnọdụ
-
--> Pịa **"Mgbanwe Mmelite"**
-
--> Dezie SDL ahụ
-
--> Pịa **"Mgbanwe"** ma kwado na Keplr
+-> Testnet: Nwaa *amount: 7500* uakt/block
 
 
-**Cheta**: Imelite ga-amaliteghachi akpa gị. Akụkụ ahụ ga - amalite site na ọnọdụ echekwara ya (nchekwa nchekwa), mana atụ anya 1-2 nkeji nke nkwụsị oge.
+E debere ụkpụrụ SDL n'ogo dị elu nlezianya. Ọtụtụ ndị na-eweta ga-enye bid dị ala.
 
-## Nlekota oru
+## Imelite Nnyefe Gị
+
+Ị chọrọ ịgbanwe nhazi mgbe i nyefechara?
+
+-> Gaa na **My Deployments** na Console
+
+-> Chọta nnyefe zcashd gị
+
+-> Pịa **"Update Deployment"**
+
+-> Dezie SDL
+
+-> Pịa **"Update"** ma kwado ya na Keplr
+
+
+**Rịba ama**: Imelite ga-amalite container gị ọzọ. Node ga-aga n'ihu site n'ọnọdụ echekwara ya (nchekwa na-adịgide), mana tụọ anya nkeji 1-2 nke enweghị ọrụ.
+
+## Nlekota
 
 ### Site na Console
 
--> **Logs tab**: Live container logs (ndekọ ihe ndị dị ndụ)
+-> **Taabụ Logs**: Logs container dị ndụ
 
--> **Shell tab**: Nweta shei n'ime akpa (bara uru maka debugging)
+-> **Taabụ Shell**: Nweta shell n'ime container (bara uru maka nchọpụta nsogbu)
 
--> **Ihe omume tab**: Ihe ndị Kubernetes (ọtụtụ na-abaghị uru ọ gwụla ma ihe mebiri)
+-> **Taabụ Events**: Ihe omume Kubernetes (ọtụtụ mgbe enweghị uru belụsọ ma ihe adịghị arụ ọrụ)
 
 
-### Site na RPC (ma ọ bụrụ na enyere ya)
+### Site na RPC (ọ bụrụ na agbanyere)
 
-Ọ bụrụ na ị kwadoro RPC, ịnwere ike ịjụ ọnụ gị dịka zcashd zuru oke (n'ihi na ọ bụ!)
+Ọ bụrụ na ị gbanyere RPC, ị nwere ike jụọ node gị dịka full node zcashd nkịtị (n'ihi na ọ bụ otu!)
 
-### zcash-cli Nhọrọ ọzọ
+### Nhọrọ zcash-cli
 
-Ọ bụrụ na ị nwere ohere shell site na Console, ịnwere ike iji *zcash-cli* ozugbo:
+Ọ bụrụ na ị nwere ohere shell site na Console, ị nwere ike iji *zcash-cli* ozugbo:
 
 ```bash
 # From the Shell tab in Console
@@ -414,113 +414,113 @@ zcash-cli getpeerinfo
 zcash-cli getinfo
 ```
 
-## Ịkwụsị Ọrụ Gị
+## Imechi Nnyefe Gị
 
-Mgbe ị kwụsịrị maọbụ chọọ ịkwụsị akwụ ụgwọ:
+Mgbe ị mechara ma ọ bụ ịchọrọ ịkwụsị ịkwụ ụgwọ:
 
--> Gaa na ** My Deployments**
+-> Gaa na **My Deployments**
 
--> Chọta gị zcashd nkesa
+-> Chọta nnyefe zcashd gị
 
--> Pịa **"Mechie Ntinye aka"**
+-> Pịa **"Close Deployment"**
 
--> Kwado ma banye na Keplr
+-> Kwenye ma bịanye aka na Keplr
 
 
-A ga-akwụghachi gị ego nkwụnye ego AKT 5 gị. ** Nchekwa na-adịgide adịgide** kwesịrị ịchekwa onye ọrụ ahụ, mana adaberekwala ya - jiri ya dị ka ndị ọzọ na-enye igwe ojii ọ bụla.
+A ga-akwụghachi nkwụnye ego AKT 5 gị. Onye na-eweta kwesịrị idobe **nchekwa na-adịgide**, mana atụkwasịla ya obi - were ya dịka onye na-eweta cloud ọ bụla ọzọ.
 
-## Nchọpụta nsogbu
+## Nchọpụta Nsogbu
 
-### "Ego ezughi oke" njehie.
+### Njehie "Insufficient funds"
 
-Ị chọkwuru AKT. Zụlite akpa ego Keplr gị.
+Ị chọrọ AKT karịa. Tinye ego n'ime e-akpa ego Keplr gị.
 
-### Enweghị ọnụ ahịa na-egosi.
+### Enweghị bids na-apụta
 
 Ma ọ bụ:
 
--> Ọnụahịa gị dị oke ala (mụbaa * ego* na SDL)
+-> Ọnụahịa gị dị ala nke ukwuu (bulie *amount* na SDL)
 
--> Ihe ndị ị chọrọ maka ihe onwunwe dị oke elu maka ndị na-enye ọrụ (belata CPU / ebe nchekwa / nchekwa)
+-> Ihe akụrụngwa ị chọrọ dị elu nke ukwuu maka ndị na-eweta dị (belata CPU/ebe nchekwa/nchekwa)
 
--> Chere ogologo oge (mgbe ụfọdụ na-ewe 60-90 sekọnd maka ọnụahịa ịpụta)
-
-
-### Ntinye na "na-echere"
-
-Onye na enye ya nwere ike inwe nsogbu. Mechie nkenye ma nwalee onye ọzọ nyere ọrụ.
-
-### Ihe ndekọ zcashd na-egosi "Ọ dịghị ndị ọgbọ jikọtara"
-
-Ebe ọ bụ na njedebe nke nkwado kwụsịrị na July 18, 2026, nke a bụ ọnọdụ echere mgbe niile kama ịbịakwute oge mmalite, ma enweghị ọnụ ọgụgụ ichere ma ọ bụ redistribution ga-edozi ya. Ntinye [Zebra](/guides/akash-network-zebra) kama nke ahụ.
-
-### Njehie "N'echeta" na ndekọ
-
-I jirila RAM dị ọnụ ala mechie nkesa ahụ ma tinyegharịa ya na ọ dịkarịa ala 12Gi ebe nchekwa (16Gi akwadoro).
-
-### Nhazi na-ewe oge dị ukwuu.
-
-Kọwaa ihe "ruo mgbe ebighị ebi" pụtara:
-
--> ** Oge awa**: Ọ dị mma.
-
--> **Days**: Ọ dịkwa mma maka mainnet site na ncha.
-
--> **Izu**: Ihe adịghị mma, lelee ndekọ maka njehie.
+-> Chere ogologo oge (mgbe ụfọdụ ọ na-ewe sekọnd 60-90 ka bids pụta)
 
 
-### "Njehie na-enweta zcash-params"
+### Nnyefe rapaara na "pending"
 
-Onye na enye ya nwere ike inwe nsogbu netwọk ma ọ bụ nwayọ bandwidth. Nke a ga-edozi onwe ya. Ọ bụrụ na ọ dịgide ruo ihe karịrị nkeji 30, gbalịa ịnyefe onye ọrụ ọzọ.
+Onye na-eweta nwere ike inwe nsogbu. Mechie nnyefe ahụ ma nwaa onye na-eweta ọzọ.
 
-### Nsogbu nkwenye RPC
+### Logs zcashd na-egosi "No peers connected"
 
--> Lelee na `ZCASHD_RPCUSER` na * ZCASHD _ RPCPASSWORD* ka edoziri nke ọma.
+Ebe ọ bụ na nkwụsị Nkwụsị-Nkwado na Julaị 18, 2026, nke a bụ ọnọdụ na-adịgide adịgide a tụrụ anya ya kama ịbụ igbu oge mbido, ọ dịghịkwa oke ichere ma ọ bụ inyefe ọzọ ga-edozi ya. Nyefee [Zebra](/guides/akash-network-zebra) kama.
 
--> Nyochaa na ị na-eji ọdụ ụgbọ mmiri ziri ezi (8232 maka mainnet, 18232 n'ihi testnet)
+### Njehie "Out of memory" na logs
 
--> Cheta ọdụ ụgbọ mmiri na-maped site Akash - iji URI si gị nkenye ọnọdụ, bụghị 8232 ozugbo
+Ị chekwabara ego nke ukwuu na RAM. Mechie nnyefe ahụ ma nyefee ọzọ na ebe nchekwa opekata mpe 12Gi (akwadoro 16Gi).
 
+### Mmekọrịta na-ewe ogologo oge
 
-## Njikwa ego
+Kọwaa "ogologo oge":
 
-Nyochaa mmefu gị na Console:
+-> **Awa**: Nkịtị
 
--> ** My Deployments** -> Your deployment -> Na-egosi "Ego kwa ọnwa" atụmatụ.
+-> **Ụbọchị**: Ọ dịkwa nkịtị maka mainnet malite na mmalite
 
--> Nkwụnye ego Keplr gị ga-ebelata ka oge na-aga.
-
-
-Mgbe ego gị gwụrụ, Akash ga-emechi nkenye gi. ** Tinye obere akpa gị oge niile** ma ọ bụ melite ọkwa.
-
-### Ịbelata Ụgwọ Ndị A Na-akwụ Maka Ya
-
--> **Jiri Testnet** maka ule na-abụghị nke mmepụta (50% dị ọnụ ala)
-
--> ** CPU / ebe nchekwa dị ala** ma ọ bụrụ na ịchọghị ngwa sync ọsọ ọsọ
-
--> **Họrọ ndị na-enye ego dị ọnụ ala** (ọ bụghị mgbe niile ka ọ maara ihe - oge ọrụ)
-
--> **Jiri USDC kama AKT** ma ọ bụrụ na ọnụahịa nke AKT bụ volatile (chọrọ mgbanwe SDL ịnye ọnụahịa)
-
--> ** Gbanyụọ txindex** ma ọ bụrụ na ị dịghị mkpa ya (azọpụta ~ 20% nchekwa)
+-> **Izu**: Ihe adịghị mma, lelee logs maka njehie
 
 
-### Ihe Ndị Ọzọ E Nwere Ike Iji Nyere Anyị Aka
+### "Error fetching zcash-params"
 
-**Akash Console**: Ọ bụ ihe a na-akpọ ya. [https://console.akash.network](https://console.akash.network)
+Onye na-eweta nwere ike inwe nsogbu netwọk ma ọ bụ bandwidth nwayọ. Nke a na-edozikarị onwe ya. Ọ bụrụ na ọ ga-adịgide karịa nkeji 30, gbalịa inyefe ọzọ n'aka onye na-eweta ọzọ.
 
-** Akash Docs**: Onye na-eme ihe nkiri a bụ onye isi. [https://akash.network/docs/](https://akash.network/docs/)
+### Ọdịda nyocha RPC
 
-** Ndị na-enyocha Zcash**: [https://zechub.wiki/guides/blockchain-explorers](https://zechub.wiki/guides/blockchain-explorers)
+-> Lelee na `ZCASHD_RPCUSER` na `ZCASHD_RPCPASSWORD` edobere nke ọma
 
-**Akash Discord**: Onye na-agba egwu, onye na-egwu egwú. [https://discord.akash.network](https://discord.akash.network) (maka nsogbu ndị na-enye ọrụ)
+-> Nyochaa na ị na-eji ọdụ ziri ezi (8232 maka mainnet, 18232 maka testnet)
 
-## Ihe Ndị E Kwuru ná Ngwụcha
+-> Cheta na Akash na-edepụta ọdụ - jiri URI sitere na nnyefe gị, ọ bụghị 8232 ozugbo
 
-- ** Ihe nchekwa na-adịgide adịgide.** Emela * persistent: true ma ọ bụ jiri klas beta2. Jiri beta3.
-- **Mmemme mbụ na-adị nwayọ.** Nwee ndidi. Nke a bụ ihe dị mma maka ọnụ ọgụgụ blockchain.
-- **Jide ego gị.** Ntinye aka na-emechi onwe ya mgbe AKT gwụrụ.
-- ** Ndabere abụghị akpaka.** Ọ bụrụ na ị hụrụ data n'anya, chee na ọ nwere ike ikpochapụ ma mee atụmatụ dịka.
-- **Nchebe RPC dị oke mkpa.** Ekpughela RPC na ịntanetị n'enweghị usoro nchekwa kwesịrị ekwesị.
-- **zcash-params na echekwa.** Mbụ ọsọ downloads ~ 2GB nke cryptographic parameters. Nke a bụ nkịtị ma naanị otu ugboro emee.
+
+## Njikwa Ọnụ Ego
+
+Lelee mmefu gị na Console:
+
+-> **My Deployments** -> Nnyefe gị -> Na-egosi atụmatụ "Cost per month"
+
+-> Nguzozi e-akpa ego Keplr gị ga-ebelata ka oge na-aga
+
+
+Mgbe nguzozi gị dị ala, Akash ga-emechi nnyefe gị na-akpaghị aka. **Tinye ego n'ime e-akpa ego gị mgbe ụfọdụ** ma ọ bụ hazie ọkwa.
+
+### Ibelata Ọnụ Ego
+
+-> **Jiri Testnet** maka nnwale na-abụghị mmepụta (50% dị ọnụ ala)
+
+-> **Belata CPU/ebe nchekwa** ma ọ bụrụ na ị chọghị mmekọrịta ọsọ ọsọ
+
+-> **Họrọ ndị na-eweta dị ọnụ ala** (ọ bụghị mgbe niile amamihe - oge ọrụ dị mkpa)
+
+-> **Jiri USDC kama AKT** ma ọ bụrụ na ọnụahịa AKT na-agbanwe agbanwe (chọrọ mgbanwe ọnụahịa SDL)
+
+-> **Gbanyụọ txindex** ma ọ bụrụ na ị chọghị ya (na-echekwa ~ 20% nchekwa)
+
+
+### Akụrụngwa Ndị Ọzọ
+
+**Akash Console**: [https://console.akash.network](https://console.akash.network)
+
+**Akash Docs**: [https://akash.network/docs/](https://akash.network/docs/)
+
+**Ndị Nyocha Zcash**: [https://zechub.wiki/guides/blockchain-explorers](https://zechub.wiki/guides/blockchain-explorers)
+
+**Akash Discord**: [https://discord.akash.network](https://discord.akash.network) (maka nsogbu onye na-eweta)
+
+## Ihe Ndị Ikpeazụ
+
+- **Nchekwa na-adịgide dị mkpa.** Awụpụla *persistent: true* ma ọ bụ jiri klaasị *beta2*. Jiri *beta3*.
+- **Mmekọrịta mbụ na-adị nwayọ.** Nwee ndidi. Nke a bụ ihe nkịtị maka node blockchain.
+- **Debe e-akpa ego gị n'ego.** Nnyefe na-emechi na-akpaghị aka mgbe AKT gị gwụrụ.
+- **A naghị eme ndabere na-akpaghị aka.** Ọ bụrụ na data ahụ dị gị mkpa, were ya na ọ nwere ike ịla n'iyi ma mee atụmatụ kwekọrọ.
+- **Nchekwa RPC dị oke mkpa.** Ekpughela RPC n'ịntanetị na-enweghị usoro nchekwa kwesịrị ekwesị.
+- **A na-echekwa zcash-params.** Mbido mbụ na-ebudata ~2GB nke paramenta kriptogafik. Nke a bụ ihe nkịtị ma na-eme naanị otu ugboro.

@@ -5,83 +5,99 @@
 
 # Ihe Mere Nzuzo Ji Dị Mkpa
 
-N'oge dijitalụ, ị na-echekwa echiche gị [nzuzo](https://www.privacyguides.org/en/) adịla mkpa nke ukwuu. Ọ bụ ezie na ụfọdụ nwere ike ile nzuzo anya dị ka ihe efu, ọ bụghị ya. Nzuzo gị dị n'ihe ize ndụ ma kwesị ịbụ ihe na-echegbu onwe gị. Nzuzo nwere uru dị ukwuu n'ihe gbasara ike, na ijide n'aka na ejiri ike mee ihe n'ụzọ kwesịrị ekwesị dị oke mkpa.
+## Na Nkenke
+
+- **Tor** na-eduga okporoụzọ data gị site na relay atọ ma na-arụ ọrụ maka web nkịtị na ọrụ onion — taa ọ bụ nhọrọ bara uru ndabara maka ime ka njikọ e-akpa ego ghara ikpughe onye nwe ya na maka nchọgharị web
+- **I2P** bụ netwọk overlay zuru ezo nke ndị ibe ha na ibe ha, e mere maka ọrụ nke ya dị n'ime; **ọ dịghị node Zcash ọ bụla ugbu a na-ekwu I2P n'onwe ya**
+- **Na ekwentị mkpanaaka:** jiri Orbot ("Tor Enabled Apps") duzie e-akpa ego Zcash site na Tor site na mmetụ ole na ole
+- **Ịgba node Zcash site na Tor agaghị ekwe omume ugbu a:** `zcashd` ruru njedebe nkwado na 18 Julaị 2026, atụmatụ Tor nke Zebra ka na-agbanyụghị n'akụkụ upstream
+- Tor na-ezo *ebe ị nọ*, ọ bụghị *ihe ị na-eme on-chain* — Azụmahia [transaction] Oha [transparent] ka na-ahụ ọha
+
+N'oge dijitalụ, ichekwa [Nzuzo](https://www.privacyguides.org/en/) gị aghọwo ihe dị mkpa karị. Ọ bụ ezie na ụfọdụ nwere ike ile nzuzo anya dị ka ihe na-enweghịzi olileanya, ọ bụghị otú ahụ. Nzuzo gị nọ n'ihe ize ndụ, ọ kwesịrị ịbụ ihe gbasara gị. Nzuzo bara uru nke ukwuu n'ihi na ọ metụtara ike, ọ dịkwa mkpa ịhụ na eji ike ahụ eme ihe n'ụzọ kwesịrị ekwesị.
 
 ## Teknụzụ Tor na I2P
 
 ## Tor
 
-[Tor](https://www.privacyguides.org/en/tor/?h=tor) bụ ngwa ọrụ proxy nke na-akwado netwọk Tor iji guzobe njikọ maka ngwa. Torbot na-eme nke a site na ịhazi okporo ụzọ ha site na Tor, si otú a na-eme ka ọ dịkwuo mma [nzuzo na aha onye a na-amaghị](https://www.torproject.org/) maka ngwa ndị a.
+[Tor](https://www.privacyguides.org/en/tor/?h=tor) bụ ngwá ọrụ proxy nke na-eji netwọk Tor emepụta njikọ maka ngwa. Tor na-eme nke a site n'ịduzi data ha site na Tor, si otú a na-eme ka [nzuzo na amaghị onye](https://www.torproject.org/) dị elu maka ngwa ndị a.
 
 ## Netwọk I2P
 
-Netwọk I2P, nke a makwaara dịka [Ọrụ Ịntanetị A Na-anaghị Ahụ Anya](https://geti2p.net/en/about/intro), bụ netwọk mkpuchi peer-to-peer nke e zoro ezo nke ọma. Ọ na-eme ka a hụ na ihe dị n'ime, ebe isi mmalite, na ebe ozi na-aga ezochiri ndị na-ekiri ya. N'ikwu ya n'ụzọ ọzọ, ọ dịghị onye nwere ike ịhụ ebe okporo ụzọ ahụ si ma ọ bụ ebe ọ na-aga ma ọ bụ ihe dị n'ime ozi ndị a na-eziga. Nzochi ezo ejiri na I2P na-eme ka ndị ọrụ ya nwee nzuzo na ahaghị aha dị elu.
+Netwọk I2P, nke a makwaara dịka [Invisible Internet Project](https://geti2p.net/en/about/intro), bụ netwọk overlay nke ndị ibe ha na ibe ha, e zoro ezo kpamkpam. Ọ na-ahụ na ndị na-ekiri anaghị ahụ ọdịnaya, isi mmalite, na ebe ozi na-aga. N'okwu ọzọ, ọ dịghị onye nwere ike ịhụ ebe data si abịa ma ọ bụ ebe ọ na-aga, ma ọ bụ ọdịnaya ozi ndị a na-ebufe n'ezie. Nzobe ederede [encryption] eji na I2P na-eme ka ndị ọrụ ya nwee ọkwa Nzuzo na amaghị onye dị elu.
 
 ### Ịwụnye I2P
 
-E nwere ihe abụọ e ji eme ya. Nke mbụ [Java I2P](https://geti2p.net/en/download) ọ na-arụ ọrụ na Windows, macOS, Linux na Android. [i2pd](https://i2pd.website/), nke e dere na C++, dị mfe ma bụrụkwa nhọrọ a na-ahọrọkarị na sava ma ọ bụ igwe nwere obere ike.
+E nwere mmejuputa abụọ. [Java I2P](https://geti2p.net/en/download) mbụ na-agba na Windows, macOS, Linux na Android. [i2pd](https://i2pd.website/), nke e dere na C++, dị mfe karị ma bụrụ nhọrọ a na-emekarị na sava ma ọ bụ igwe na-enweghị ike dị ukwuu.
 
-Ozugbo ọ na-agba ọsọ, I2P na-ekpughe njikwa mpaghara na `127.0.0.1:7657` na ndị nnọchiteanya na `127.0.0.1:4444` (HTTP) na `127.0.0.1:4447` (SỌKỤ). Atụla anya na ọ ga-ewe nkeji ole na ole na mmalite mbụ: I2P ga-arụ ọwara site na netwọk tupu ihe ọ bụla arụọ, ọ na-emekwa ngwa ngwa ka ọ na-anọ n'ịntanetị ogologo oge.
+Ozugbo ọ na-agba, I2P na-ewepụta console mpaghara na `127.0.0.1:7657` na proxy na `127.0.0.1:4444` (HTTP) na `127.0.0.1:4447` (SOCKS). Tụọ anya na ọ ga-ewe nkeji ole na ole mgbe mbụ ị malitere ya: I2P ga-ewu tunnels site na netwọk tupu ihe ọ bụla arụ ọrụ, ọ na-adịkwa ngwa karịa ka ọ na-anọ ogologo oge n'ịntanetị.
 
 ### Iji I2P na Zcash
 
-Mara na **enweghị Zcash node dị ugbu a na-asụ I2P n'asụsụ obodo.** Zebra enweghị nkwado I2P, zcashd. Ọ bụrụ na ị hụ ntuziaka na-ekwu na ọ na-agba Zcash node n'elu I2P, ọ na-akọwa ihe ngwanrọ ahụ na-anaghị eme.
+Mara na **ọ dịghị node Zcash ọ bụla ugbu a na-ekwu I2P n'onwe ya.** Zebra enweghị nkwado I2P, zcashd enwekwaghị ya. Ọ bụrụ na ị hụ ntụziaka na-ekwu na a ga-agba node Zcash site na I2P, ọ na-akọwa ihe sọftụwia ahụ anaghị eme.
 
-Ihe I2P bara ezigbo uru ebe a bụ ihe niile gbasara obere akpa ego: iru ebe nrụọrụ weebụ, ebe mkparịta ụka ma ọ bụ ọrụ n'ekpugheghị adreesị gị. Iji mee ka njikọ obere akpa ego ghara ịdị n'otu, Tor bụ nhọrọ bara uru taa, ngalaba ndị dị n'okpuru na-ekpuchi ya.
+Ihe I2P bara n'ezie uru maka ya ebe a bụ ihe niile gbara e-akpa ego gburugburu: iru saịtị, ọgbakọ, ma ọ bụ ọrụ na-ekpugheghị Adreesị akpa ego [address] gị. Maka ime ka njikọ e-akpa ego n'onwe ya ghara ikpughe onye nwe ya, Tor bụ nhọrọ bara uru taa, akụkụ ndị dị n'okpuru na-akọwa ya.
 
-## Tor na I2P nwere otu atụmatụ mana ha nwekwara nnukwu ọdịiche. 
+## Tor na I2P nwere atụmatụ ha na-ekekọrịta, mana ha nwekwara nnukwu ọdịiche. 
 
-Ma Tor na I2P bụ netwọk ndị ọgbọ na ibe ha na-enweghị aha, mana I2P na-enye nchekwa dị elu ma e jiri ya tụnyere Tor. Agbanyeghị, e mere I2P maka ịnweta ọrụ dịka email, nkata, na torrenting n'ime netwọk ya, a pụghịkwa iji ya nweta ịntanetị nkịtị. N'aka nke ọzọ, Tor na-enye ndị ọrụ ohere ịnweta weebụ miri emi, dịka I2P, mana ọ na-arụkwa ọrụ dị ka ihe nchọgharị nkịtị maka ịnweta weebụsaịtị na weebụ elu.
+Ma Tor ma I2P bụ netwọk decentralized [decentralized] na nke ndị ibe ha na ibe ha na-amaghị onye, mana I2P na-enye ọkwa nchebe dị elu karịa Tor. Agbanyeghị, e mere I2P nke mbụ maka ịnweta ọrụ dịka email, mkparịta ụka, na torrenting n'ime netwọk ya, enweghị ike iji ya nweta ịntanetị nkịtị. N'aka nke ọzọ, Tor na-enye ndị ọrụ ohere ịnweta deep web, dịka I2P, mana ọ na-arụkwa ọrụ dịka browser nkịtị maka ịnweta weebụsaịtị na surface web.
 
-*Rịba ama: Maka ozi ndị ọzọ gbasara myirịta na ọdịiche dị na Tor & I2P, gaa na [Ebe a](https://geti2p.net/en/comparison/tor)*
+*Rịba ama: Maka ozi ndị ọzọ gbasara myirịta na ọdịiche dị n'etiti Tor na I2P, gaa [ebe a](https://geti2p.net/en/comparison/tor)*
 
-## Iji Orbot mee njem obere akpa mkpanaka site na Tor
+## Iduzi e-akpa ego mkpanaaka site na Tor na Orbot
 
-Orbot bụ netwọọkụ nkeonwe mebere emebere nke na-anaghị efu ọnụ (VPN) nke e mere maka ekwentị mkpanaaka nke na-eduzi okporo ụzọ site na ngwa niile dị na ngwaọrụ gị site na netwọkụ Tor.
+Orbot bụ virtual private network (VPN) n'efu e mere maka smartphones, nke na-eduga data sitere na ngwa niile dị na ngwaọrụ gị site na netwọk Tor.
 
-Soro ntuziaka ndị a iji bufee obere akpa Zcash site na Tor. Mara na YWallet, nke ụdị ntuziaka a jiri na mbụ, anaghịzi elekọta ma agaghị eso netwọk ahụ mgbe Ironwood, yabụ họrọ obere akpa echekwara site na [Obere akpa](/using-zcash/wallets) peeji.
+Soro ntuziaka ndị a iji duzie e-akpa ego Zcash site na Tor. Rịba ama na YWallet, nke ụdị mbụ nke ntụziaka a jiri, anaghịzi elekọta ya, ọ gaghịkwa eso netwọk mgbe Ironwood gasịrị, yabụ họrọ e-akpa ego a na-elekọta site na ibe [E-akpa ego](/using-zcash/wallets).
 
-1.  Budata ma wụnye *Orbot* na ụlọ ahịa ngwa.
+1.  Budata ma wụnye *Orbot* site na ụlọ ahịa ngwa.
 
-2.  Mgbe echichara ya, ozi ekele ga-apụta. Gaa n'ihu na ibe mbụ *Orbot* wee pịa *'Tor nyeere aka'.* 
+2.  Mgbe nwụnye gasịrị, ozi nnabata ga-apụta. Gaa n'ihu na peeji mbido *Orbot* ma pịa *'Tor Enabled Apps'.*              
 
-3. Nke a ga-eme ka peeji dị na ihuenyo na-egosi ngwa ndị Tor-compatible. Chọta obere akpa Zcash gị na ndepụta ahụ wee hụ na ahọpụtara ya.
+3. Nke a ga-eme ka peeji pụta na ihuenyo nke na-egosi ngwa ndị dabara na Tor. Chọta e-akpa ego Zcash gị na ndepụta ahụ ma hụ na ahọpụtara ya.
 
-4. Arịrịọ njikọ iji hazie VPN ga-apụta, nke ga-enye *Orbot* ohere inyocha okporo ụzọ netwọk ahụ. *Orbot* ga-amalite ozugbo enyere ikike a. 
+4. Arịrịọ njikọ iji hazie VPN ga-apụta, nke ga-enye *Orbot* ohere inyocha data netwọk. *Orbot* ga-amalite ozugbo akwadoro ikike a. 
 
-5. Lelee taskbar ma ọ bụ ibe mbụ nke Orbot iji hụ na Tor na-agba ọsọ, a na-akwado nke a mgbe ị hụrụ 'Jikọrọ na netwọk Tor '.
+5. Lelee taskbar ma ọ bụ peeji mbido Orbot iji gosi na Tor na-agba; a na-akwado nke a mgbe ị hụrụ 'Connected to the Tor network'.
 
-*Rịba ama: Ọ bụrụ na netwọk ekwentị gị egbochi Tor, ị nwere ike iji Bridge Server dị ka ụzọ ọzọ iji jikọọ.*
+*Rịba ama: Ọ bụrụ na netwọk mkpanaaka gị egbochie Tor, ị nwere ike iji Bridge Server dịka ụzọ ọzọ isi jikọọ.*
 
 
-## Ịwụnye Tor na kọmputa ma ọ bụ desktọpụ
+## Ịwụnye Tor na PC ma ọ bụ desktop
 
-* Enwere ike ibudata ihe nchọgharị Tor na weebụsaịtị gọọmentị, ị nwere ike ịnweta njikọ ahụ [Ebe a](https://download.torproject.org/).
+* Enwere ike ibudata browser Tor site na weebụsaịtị gọọmentị, ị nwere ike nweta njikọ ahụ [ebe a](https://download.torproject.org/).
 
- Ụzọ kachasị mma isi wụnye Tor bụ site na Tor Browser Bundle. Ọ bụrụ na ịchọrọ itinye Tor na-enweghị isi, ị nwere ike ịhọrọ itinye Tor daemon iche. 
+ Ụzọ kachasị adaba iji wụnye Tor bụ site na Tor Browser Bundle. Ọ bụrụ na ị họrọ nrụnye headless, ị nwere ike ịhọrọ ịwụnye daemon Tor iche. 
 
-*Rịba ama: Dịka ọ dị na mbụ, ngwugwu Tor Browser na-ekpughe onye na-ege SOCKS na tcp/9150 ebe Tor daemon na-ekpughe onye na-ege SOCKS na tcp/9050.*
+*Rịba ama: Site na ndabara, bundle Browser Tor na-ewepụta onye na-ege SOCKS na tcp/9150, daemon Tor na-ewepụtakwa onye na-ege SOCKS na tcp/9050.*
 
-* Lee anya na ntinye ahụ [ntuziaka](https://support.torproject.org/little-t-tor/getting-started/installing/) kpọmkwem na sistemụ arụmọrụ gị dịka Tor Project si nye.
+* Rụtụ aka na [ntuziaka nrụnye](https://support.torproject.org/little-t-tor/getting-started/installing/) kpọmkwem maka sistemụ arụmọrụ gị dịka Tor Project nyere.
 
-## Na-agba ọsọ n'elu Tor
+## Ịgba node site na Tor
 
-Nke a bụ akụkụ nke gbanwere ọtụtụ ihe, azịza eziokwu bụ na ọ siri ike ugbu a karịa ka ọ dịbu.
+Nke a bụ akụkụ gbanwere nke ukwuu, azịza eziokwu bụ na ọ siri ike ugbu a karịa ka ọ dị na mbụ.
 
-**zcashd apụọla.** O ruru njedebe nke nkwado wee kwụsị na 18 Julaị 2026 na ngọngọ 3,417,100. Ọ gaghị amaliteghachi, ibe nbudata ya na-eweghachi 404, a naghịzi enye ebe nchekwa apt. Ntuziaka ọ bụla gwara gị ka ị gbaa ọsọ `zcashd -proxy=127.0.0.1:9050` anaghịzi emetụta ihe ọ bụla.
+**zcashd adịkwaghị.** Ọ ruru njedebe nkwado ma kwụsị na 18 Julaị 2026 na block 3,417,100. Ọ gaghị amalite ọzọ, peeji nbudata ya na-eweghachi 404, a naghịenyekwa apt repository. Ntuziaka ọ bụla na-agwa gị ka ị gbaa `zcashd -proxy=127.0.0.1:9050` anaghịzi emetụta ihe ọ bụla.
 
-**Zebra enweghịkwa ike ime ya.** Zebra bụ ebe a na-elekọta ya, ebe nchekwa netwọk ya nwekwara koodu njikọ dịpụrụ adịpụ maka Tor, mana a kọwara atụmatụ ahụ na `zebra-network/Cargo.toml`:
+**Zebra enweghịkwa ike ime ya.** Zebra bụ node a na-elekọta, network crate ya nwere koodu njikọ kewapụrụ iche maka Tor, mana atụmatụ ahụ ka ekwuru okwu ya n'ime `zebra-network/Cargo.toml`:
 
 ```
 # tor = ["arti-client", "tor-rtcompat"]
 ```
 
-Akwụkwọ ndekọ igbe ahụ kwuru otu ihe ahụ nke ọma: *"Tor ruo mgbe `arti-client`ndabere nke `x25519-dalek v1.2.0` emelitere."* `connect_isolated_tor` A na-akọwa ọrụ ahụ yana ya. Ya mere, enweghị ụzọ a na-akwado iji mee ka node Zcash rụọ ọrụ karịa Tor taa.
+Akwụkwọ crate na-ekwu otu ihe ahụ n'ụzọ doro anya: *"Njikọ Tor agbanyụghị ugbu a ruo mgbe emelitere dependency `x25519-dalek v1.2.0` nke `arti-client`."* A na-ekwukwa okwu na ọrụ `connect_isolated_tor` ọnụ na ya. Ya mere, enweghị ụzọ akwadoro iji gbaa node Zcash site na Tor taa.
 
-Ọ bụrụ na ịchọrọ ka aha njirimara nke ọkwa node dị ugbu a, ụzọ dị irè bụ itinye igwe ahụ dum n'azụ Tor ma ọ bụ VPN n'ọkwa sistemụ arụmọrụ kama ịhazi node ahụ n'onwe ya. Nke ahụ na-echebe ebe netwọk gị na-adabereghị na atụmatụ node nke na-abụghị nke e wuru.
+Ọ bụrụ na ịchọrọ amaghị onye n'ọkwa node ugbu a, ụzọ na-arụ ọrụ bụ itinye igwe ahụ dum n'azụ Tor ma ọ bụ VPN n'ọkwa sistemụ arụmọrụ kama ịhazi node n'onwe ya. Nke ahụ na-echebe ebe netwọk gị nọ n'adabereghị n'atụmatụ node ndị a na-ewubeghị.
 
 ### Ihe ị ka nwere ike ime taa
 
-- **Jiri Orbot mee obere akpa gị site na Tor** na ekwentị mkpanaaka, dịka akọwara n'elu. Nke a bụ nhọrọ bara uru maka ọtụtụ mmadụ, ọ na-ezochikwa IP gị na sava lightwalletd obere akpa gị na-agwa okwu
-- **Jiri Tor Browser** maka ndị na-eme nchọgharị na ngọngọ, ebe mkparịta ụka na ihe ọ bụla ọzọ ebe ị na-achọghị ka e jikọọ gị site na adreesị
-- **Cheta ihe Tor anaghị ezo ezo.** Ọ na-eme ka aha ebe netwọk gị dị, ọ bụghị ihe omume gị n'usoro. Izipu ozi site na adreesị doro anya ka bụ ihe ọha na eze, ebe uru gafere n'etiti ọdọ mmiri ndị a na-echebe ka na-ebipụta ego ahụ. Lee [Ọdọ Mmiri E Kpuchiri Ekpuchi](/using-zcash/shielded-pools) maka ihe na-anọgide na-ahụ anya
+- **Duzie e-akpa ego gị site na Tor** na Orbot na ekwentị mkpanaaka, dịka akọwara n'elu. Nke a bụ nhọrọ bara uru maka ọtụtụ mmadụ, ọ na-ezokwa IP gị n'aka sava lightwalletd nke e-akpa ego gị na-ekwu okwu na ya
+- **Jiri Tor Browser** maka ndị na-enyocha block, ọgbakọ, na ihe ọ bụla ọzọ ị na-achọghị ka e jikọta gị na ya site na Adreesị akpa ego gị
+- **Cheta ihe Tor anaghị ezo.** Ọ na-eme ka ebe netwọk gị ghara ikpughe onye nwe ya, ọ bụghị ọrụ gị on-chain. Izipu site na Adreesị akpa ego Oha ka bụ ihe ọhaneze, uru na-agafe n'etiti pool nke e chebere echebe [shielded] ka na-ebipụta ego ahụ. Lee [Pool E Chebere Echebe](/using-zcash/shielded-pools) maka ihe ka na-ahụ anya
+
+## Peeji ndị metụtara ya
+
+- [VPN na DVPN](VPN_and_DVPN.md) — ụzọ ọzọ maka VPN na otu esi atụnyere ha
+- [Web Browsers](Web_Browsers.md) — ime ka browser sie ike maka Nzuzo kwa ụbọchị
+- [Secure Messengers](Secure_Messengers.md) — ngwá ọrụ nkwukọrịta nzuzo
+- [Ihe Block Explorer Nwere Ike Ịhụ](../Zcash_Tech/What_a_Block_Explorer_Can_See.md) — ihe Nzuzo gị n'ọkwa node na-echebe na ihe ọ naghị echebe
+- [Pool E Chebere Echebe](/using-zcash/shielded-pools) — ihe ka na-ahụ on-chain ọbụna mgbe amaghị onye nọ n'ọkwa netwọk

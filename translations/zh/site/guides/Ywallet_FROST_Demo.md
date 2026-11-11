@@ -1,12 +1,12 @@
 # Ywallet FROST 演示
 
-> **Ywallet 已不再维护。** 其开发者已确认不会为 Ironwood (NU6.3) 更新，因此它无法再跟随链，且以下步骤无法在主网上完成。本页面仅供参考。同一开发者推出的 Zkool 是仍在维护的后继产品，并支持 FROST 多重签名。
+> **Ywallet 已不再维护。**其开发者 [developer] 已确认不会为 Ironwood（NU6.3）更新它，因此它无法再跟随链 [chain]，且无法在主网上完成以下步骤。本页面仅供参考。来自同一开发者的 Zkool 是仍在维护的后继版本，并支持 FROST 多重签名。
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
     className="w-full h-full"
     src="https://www.youtube.com/embed/3IZgxDqQNbw"
-    title="FROST + Ywallet Transaction Demo"
+    title="FROST + Ywallet 交易 [Transaction] 演示"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowFullScreen
     loading="lazy"
@@ -18,7 +18,7 @@
 
 [GitHub 链接](https://github.com/ZcashFoundation/frost-zcash-demo)
 
-使用上述仓库并按照编译说明操作： 
+使用上述仓库并按照编译说明操作：
 
 ```bash
 cargo build --bin trusted-dealer
@@ -27,7 +27,7 @@ cargo build --bin coordinator
 cargo build --bin participant
 ```
 
-二进制文件将位于 target 文件夹中。
+二进制文件将位于目标文件夹中。
 
 ## 创建 FROST UA
 
@@ -41,21 +41,21 @@ cargo build --bin participant
 
 ## 使用 Ywallet 创建交易
 
-粘贴任意 UA 并发送一笔交易。保存文件。
+粘贴任意 UA 并发送一笔交易。保存该文件。
 
-## 启动 FROST 签名流程 
+## 开始 FROST 签名流程
 
 `./signFROST_tx.sh rawtxs/mytx signedtxs/mysignedtx`
 
-第一个输入是上一步中原始交易的位置
-第二个输入是你想要广播的已签名交易的位置和名称
-这是你告诉 FROST 希望所有人签署哪笔交易的部分
+第一个输入项是上一步中原始交易的位置
+第二个输入项是你想要广播的已签名交易的位置和名称
+这是你告知 FROST 希望所有人签名哪笔交易的部分
 
 ## 启动协调器
 
 `./runCoordinator.sh`
 
-这会协调每位参与者的签名并创建群组签名
+这会协调每位参与者的签名，并创建群组签名
 
 ## 让每位参与者为此交易签名
 
@@ -66,12 +66,12 @@ cargo build --bin participant
 
 ## 完成已签名交易
 
-在协调器窗口中，复制输出的群组签名并将其粘贴到 FROST 签名窗口中。
+在协调器窗口中，复制输出的群组签名，并将其粘贴到 FROST 签名窗口中。
 这将完成 FROST 签名并输出“mysingedtx”
 
 
 ## 使用 Ywallet 广播你的交易
 
-点击 Ywallet 右下角的“更多”，然后找到“广播”。找到“mysignedtx”并点击确定。
+点击 Ywallet 右下角的“More”，然后找到“Broadcast”。找到“mysignedtx”并点击确定。
 
-如果一切顺利，你将获得一个交易 ID :)
+如果一切正常，你将获得一个交易 ID :)

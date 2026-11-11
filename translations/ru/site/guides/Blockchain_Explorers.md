@@ -80,6 +80,8 @@
 
 - [SoChain](https://sochain.com/zec) ([тестовая сеть](https://sochain.com/zectest))
 
+- [ZecZcash Эксплорер](https://zeczcash.com/explorer)
+
 ### Визуальное руководство
 
 Вот четыре хороших примера различных обозревателей блокчейна:

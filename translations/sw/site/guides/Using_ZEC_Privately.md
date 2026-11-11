@@ -2,40 +2,40 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Kutumia ZEC, binafsi
+# Kutumia ZEC, kwa faragha [privately]
 
-#### Shielded (Private) dhidi ya Transparent
+#### Ya faragha [Shielded] dhidi ya Uwazi [Transparent]
 
-As it currently stands, there are two addresses and transaction types in Zcash, shielded and transparent. The difference between shielded and transparent ZEC is very simple. Shielded ZEC keeps your money and your transactions private, as where transparent ZEC operates like Bitcoin, completely transparent. This means that someone can view your balance and all of your transactions if they know your address.
+Kwa hali ilivyo sasa, kuna aina mbili za anwani [addresses] na miamala [transactions] katika Zcash, za faragha [shielded] na za uwazi [transparent]. Tofauti kati ya ZEC ya faragha na ya uwazi ni rahisi sana. ZEC ya faragha huweka pesa zako na miamala yako kuwa ya faragha, ilhali ZEC ya uwazi hufanya kazi kama Bitcoin, kwa uwazi kamili. Hii inamaanisha kwamba mtu anaweza kuona salio lako na miamala yako yote ikiwa anajua anwani yako.
 
-Wakati watu kwanza kuanza kutumia ZEC, wanaweza si kutambua aina ya anwani wanatumia. Hii ni kwa sababu sio kubadilishana wote msaada shielded ZEC na / au kuondolewa shields ZEC. 
+Watu wanapoanza kutumia ZEC kwa mara ya kwanza, huenda wasitambue ni aina gani ya anwani wanayotumia. Hii ni kwa sababu si masoko yote ya kubadilishana sarafu [exchanges] yanaunga mkono ZEC za faragha na/au utoaji wa ZEC za faragha. 
 
-Hivyo, kwa mfano, kama mtu anatumia Coinbase na wao kununua ZEC, wangeweza kununua uwazi ZEC na tu kuwa na uwezo wa kuondoa kwamba ZEC anwani ya wazi katika mkoba. pochi kama vile [Zodl](https://zodl.com/) unaweza kulinda fedha kutumwa kwa anwani ya uwazi ili kutatua hili, lakini si kila mtu anajua kwamba. watu wengi, kuweka tu, kutumia ZEC katika njia kubadilishana yao au mkoba msingi inaruhusu kwao.
+Kwa hiyo, kwa mfano, ikiwa mtu anatumia Coinbase na kununua ZEC, angenunua ZEC ya uwazi na angeweza tu kutoa ZEC hiyo kwenye anwani ya uwazi katika pochi [wallet]. Pochi kama [Zodl](https://zodl.com/) zinaweza kufanya fedha zilizotumwa kwenye anwani ya uwazi kuwa za faragha ili kutatua hili, lakini si kila mtu anayefahamu hilo. Kwa ufupi, watu wengi hutumia ZEC kwa namna ambayo soko lao la kubadilishana sarafu au pochi yao kuu inawaruhusu kutumia.
 
-#### Kuhakikisha ZEC yako ni kulindwa
+#### Kuhakikisha kwamba ZEC yako ni ya faragha
 
-We recommend that everyone self-custodies their ZEC. Meaning, move your ZEC from an exchange to a wallet. The best way to know if you're using shielded, a.k.a private, ZEC is by looking at the address the balance sits in. If the address starts with a "z" or "u1" , then your balance is shielded. If the address starts with a "t", then the balance is transparent.
+Tunapendekeza kila mtu ajihifadhie ZEC yake mwenyewe. Hii inamaanisha kuhamisha ZEC yako kutoka kwenye soko la kubadilishana sarafu hadi kwenye pochi. Njia bora ya kujua ikiwa unatumia ZEC ya faragha, yaani ya binafsi, ni kuangalia anwani ambamo salio lako lipo. Ikiwa anwani inaanza kwa “z” au “u1”, basi salio lako ni la faragha. Ikiwa anwani inaanza kwa “t”, basi salio ni la uwazi.
 
-Kwa kawaida kuna njia mbili za kufika kwenye ZEC iliyo na ngao.
+Kwa ujumla kuna njia mbili za kupata ZEC ya faragha.
 
-Kutoka kubadilishana kwamba inasaidia ** shielded** uondoaji:
+Kutoka kwenye soko la kubadilishana sarafu linalounga mkono utoaji wa **faragha**:
 
-  1. Kununua ZEC katika kubadilishana
-  2. Kuanza mchakato wa uondoaji katika kubadilishana
-  3. Fungua mkoba wako ZEC ulinzi na kuhakikisha anwani kupokea huanza kwa "u1" au "z"
-  4. Run uondoaji kutoka kubadilishana yako
+  1. Nunua ZEC kwenye soko la kubadilishana sarafu
+  2. Anzisha mchakato wa utoaji kwenye soko la kubadilishana sarafu
+  3. Fungua pochi yako ya ZEC ya faragha na uhakikishe kuwa anwani ya kupokea inaanza kwa “u1” au “z”
+  4. Tekeleza utoaji kutoka kwenye soko lako la kubadilishana sarafu
 
-Kutoka kubadilishana kwamba inasaidia ** uwazi** pesa kutolewa:
-
-
-  1. Kununua ZEC katika kubadilishana
-  2. Kuanza mchakato wa uondoaji katika kubadilishana
-  3. Fungua yako autoshielding ZEC mkoba na kutumia uwazi kupokea anwani
-  4. Run uondoaji kutoka kubadilishana yako
-  5. Kusubiri kumi uthibitisho, na kisha shield ZEC kutoka anwani yako ya uwazi kwa anwani ulinzi
+Kutoka kwenye soko la kubadilishana sarafu linalounga mkono utoaji wa **uwazi**:
 
 
-Hapa ni mafunzo ya jinsi ya kuondoa ZEC kutoka kubadilishana. Kumbuka kwamba hii ni uondoaji shielded.
+  1. Nunua ZEC kwenye soko la kubadilishana sarafu
+  2. Anzisha mchakato wa utoaji kwenye soko la kubadilishana sarafu
+  3. Fungua pochi yako ya ZEC inayoweka fedha kiotomatiki kuwa za faragha [autoshielding] na utumie anwani ya uwazi ya kupokea
+  4. Tekeleza utoaji kutoka kwenye soko lako la kubadilishana sarafu
+  5. Subiri uthibitisho 10, kisha fanya ZEC kutoka anwani yako ya uwazi kuwa ya faragha katika anwani ya faragha
+
+
+Hapa kuna mafunzo ya jinsi ya kutoa ZEC kutoka kwenye soko la kubadilishana sarafu. Kumbuka kwamba huu ni utoaji wa faragha.
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -50,7 +50,7 @@ Hapa ni mafunzo ya jinsi ya kuondoa ZEC kutoka kubadilishana. Kumbuka kwamba hii
     
 
 ---
-Hapa ni mafunzo ya jinsi ya kulinda ZEC yako kutoka anwani uwazi kwa anwani ulinzi.
+Hapa kuna mafunzo ya jinsi ya kufanya ZEC yako kutoka anwani ya uwazi kuwa ya faragha katika anwani ya faragha.
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -65,7 +65,7 @@ Hapa ni mafunzo ya jinsi ya kulinda ZEC yako kutoka anwani uwazi kwa anwani ulin
 
 
 ---
-Hapa ni mafunzo ya jinsi ya kununua ZEC juu Coinbase na kutuma kwa Zodl.
+Hapa kuna mafunzo ya jinsi ya kununua ZEC kwenye Coinbase na kuituma kwa Zodl.
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -79,18 +79,18 @@ Hapa ni mafunzo ya jinsi ya kununua ZEC juu Coinbase na kutuma kwa Zodl.
 </div>
 
 
-#### Shughuli za biashara
+#### Miamala
 
-Baada ya kuhakikisha kwamba ZEC yako ni katika mkoba kulindwa ambayo inasaidia anwani za ulinzi, sasa unaweza kuamua kama ungependa kufanya manunuzi na hiyo ZEC. Transacting kwa ZEC ni super rahisi. Unaweza kutuma ZEC ama kusitiri au wazi anwani kulingana na upendeleo wa mtu huyo. Kama ilivyo kwa shughuli yoyote fedha, kuna nafasi ndogo ambazo watu wanaweza kuvuja data. ZEC bora katika kupambana dhidi uvujaji wa data, lakini haina maana lazima kutumia bila uangalifu. Hapa ni baadhi ya mambo utasikia wanataka kuepuka wakati transacting na ZEC .
+Baada ya kuhakikisha kwamba ZEC yako iko katika pochi ya faragha inayounga mkono anwani za faragha, sasa unaweza kuamua ikiwa ungependa kufanya miamala kwa kutumia ZEC hiyo. Kufanya miamala kwa kutumia ZEC ni rahisi sana. Unaweza kutuma ZEC kwenye anwani za faragha au za uwazi kulingana na upendeleo wa mtu anayepokea. Kama ilivyo kwa muamala wowote wa kifedha, kuna uwezekano mdogo wa watu kuvuja data. ZEC ni bora zaidi katika kupambana na uvujaji wa data, lakini hiyo haimaanishi kwamba unapaswa kuitumia bila uangalifu. Haya ni baadhi ya mambo unayopaswa kuepuka unapofanya miamala kwa kutumia ZEC.
 
-- Kufunua anwani yako ya ulinzi
-- Kutumia anwani kulindwa kama kupita kwa ajili ya t-anwani (aka "mixing")
-- Running, na kutoa taarifa yako mbio ya, idadi kubwa ya ulinzi kwa shughuli uwazi
-- Mara kwa mara kuruhusu watu kujua ambapo wewe kutumia ZEC ulinzi
+- Kufichua anwani yako ya faragha
+- Kutumia anwani ya faragha kama njia ya kupitisha kwa anwani za uwazi (yaani “uchanganyaji” [mixing])
+- Kuendesha, na kufichua kuwa unaendesha, idadi kubwa ya miamala ya kutoka faragha kwenda uwazi
+- Kuwajulisha watu mara kwa mara mahali unapotumia ZEC ya faragha
 
 
-Kimsingi, jambo bora kufanya na ZEC yako ni kushikilia katika mkoba shielded, shughuli kati ya anwani za ulinzi, na kuwa makini kuhusu jinsi matumizi ZEC hadharani (yaani. duka la kahawa). kuhakikisha faragha huja na kiwango cha wajibu . 
+Kimsingi, jambo bora la kufanya kwa ZEC yako ni kuihifadhi katika pochi ya faragha, kufanya miamala kati ya anwani za faragha, na kuwa makini kuhusu jinsi unavyotumia ZEC hadharani (yaani, kwenye duka la kahawa). Kuhakikisha faragha kunakuja na kiwango fulani cha wajibu. 
 
 #### Rasilimali
 
-[Zcash shughuli](https://zechub.wiki/using-zcash/transactions)
+[Zcash miamala](https://zechub.wiki/using-zcash/transactions)

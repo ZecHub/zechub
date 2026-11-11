@@ -1,0 +1,2337 @@
+{
+  "locale": "ig",
+  "version": 2,
+  "meta": {
+    "language_name": "Igbo",
+    "native_name": "Asụsụ Igbo",
+    "engine": "gt",
+    "script": "Latn",
+    "dir": "ltr",
+    "language_lead": [],
+    "last_review": "2026-11-09"
+  },
+  "style": {
+    "variety": "natural, fluent Igbo",
+    "register": {
+      "default": "formal",
+      "ui": "formal",
+      "text": {
+        "formal": "Address the reader formally. No difference between tutorials and technical pages."
+      }
+    },
+    "english_in_brackets": "first-use",
+    "loanwords": "keep-english",
+    "loanwords_text": "Keep established crypto loanwords (e.g. blockchain, token); explain them briefly in Igbo at first use. The terminology list below wins over this rule.",
+    "capitalise_kept_english_at_sentence_start": false,
+    "numerals": "western",
+    "decimal_separator": ".",
+    "quotes": "\"…\"",
+    "abbreviations_with_full_stop": [],
+    "writing_rules": [
+      "Never put English in brackets inside a Markdown link label: [Igbo text](url) is correct, [Igbo text [English]](url) is wrong and breaks the link.",
+      "Add the English term in brackets only the FIRST time it appears in each page, not every time."
+    ],
+    "notes": "Reviewer (register): Formal\nReviewer (loanwords): yes\nReviewer (numerals): Native Digits\nReviewer (decimal_separator): 0.5\nReviewer (quotes): Yes\nReviewer (abbreviations_with_full_stop): No"
+  },
+  "terms": {
+    "wallet": {
+      "target": "e-akpa ego",
+      "forms": [
+        "e-akpa ego",
+        "E-akpa ego"
+      ],
+      "context": "\"e-akpa ego\" for a crypto wallet (app/device). In compounds \"hardware wallet\" and \"Nym Mixnet Wallet Setup\" keep English.",
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@Hybridthegeek"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "glossary-review-ig.md#terms-1"
+    },
+    "shielded": {
+      "target": "nke e chebere echebe",
+      "forms": [
+        "nke e chebere echebe"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Best Translates the contextual meaningof the word Shielded",
+      "reviewed_by": [
+        "@Hybridthegeek"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "glossary-review-ig.md#terms-2"
+    },
+    "transaction": {
+      "target": "Azụmahia",
+      "forms": [
+        "Azụmahia"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Translates the word as an executed exchange between parties",
+      "reviewed_by": [
+        "@Hybridthegeek"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "glossary-review-ig.md#terms-3"
+    },
+    "privacy": {
+      "target": "Nzuzo",
+      "forms": [
+        "Nzuzo"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "The translation gives thecontextual meaning \"Not visible to general public\"",
+      "reviewed_by": [
+        "@Hybridthegeek"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "glossary-review-ig.md#terms-5"
+    },
+    "pool": {
+      "target": "pool",
+      "keep_english": true,
+      "forms": [
+        "pool",
+        "pools",
+        "Pool",
+        "Pools"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "No Igbo word captures the crypto pool sense",
+      "reviewed_by": [
+        "@Hybridthegeek"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "glossary-review-ig.md#terms-6"
+    },
+    "proof": {
+      "target": "proof",
+      "keep_english": true,
+      "forms": [
+        "proof",
+        "proofs",
+        "Proof",
+        "Proofs"
+      ],
+      "rejected": [
+        {
+          "text": "Akara Azụmahia"
+        }
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Hybrid: 'Akara Azụmahia' = receipt, wrong sense for cryptographic proof",
+      "reviewed_by": [
+        "@Hybridthegeek"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "glossary-review-ig.md#terms-10"
+    },
+    "node": {
+      "target": "node",
+      "keep_english": true,
+      "forms": [
+        "node",
+        "nodes",
+        "Node",
+        "Nodes"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Technical term, no suitable Igbo equivalent",
+      "reviewed_by": [
+        "@Hybridthegeek"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "glossary-review-ig.md#terms-9"
+    },
+    "transparent": {
+      "target": "Oha",
+      "forms": [
+        "Oha"
+      ],
+      "context": "\"Oha\" for transparent in page text. In compound \"Transparent Exchange Addresses\" the full phrase is kept in English.",
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Translates as something visible to the public",
+      "reviewed_by": [
+        "@Hybridthegeek"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "glossary-review-ig.md#terms-12"
+    },
+    "exchange": {
+      "target": "exchange",
+      "keep_english": true,
+      "forms": [
+        "exchange",
+        "exchanges",
+        "Exchange",
+        "Exchanges"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Technical term; ahịa (market) also possible but English preferred",
+      "reviewed_by": [
+        "@Hybridthegeek"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "glossary-review-ig.md#terms-16"
+    },
+    "memo": {
+      "target": "memo",
+      "keep_english": true,
+      "forms": [
+        "memo",
+        "memos",
+        "Memo",
+        "Memos"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Technical term",
+      "reviewed_by": [
+        "@Hybridthegeek"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "glossary-review-ig.md#terms-19"
+    },
+    "viewing-key": {
+      "target": "viewing key",
+      "keep_english": true,
+      "forms": [
+        "viewing key",
+        "viewing keys",
+        "view key",
+        "view keys"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Technical term",
+      "reviewed_by": [
+        "@Hybridthegeek"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "glossary-review-ig.md#terms-26"
+    },
+    "fee": {
+      "target": "ugwo",
+      "forms": [
+        "ugwo"
+      ],
+      "rejected": [
+        {
+          "text": "Obere ugwo"
+        }
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Hybrid: drop 'obere' prefix; ugwo = fee/charge",
+      "reviewed_by": [
+        "@Hybridthegeek"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "glossary-review-ig.md#terms-22"
+    },
+    "swap": {
+      "target": "Mgbawe",
+      "forms": [
+        "Mgbawe"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Translates the word as \"To change one asset to another\"",
+      "reviewed_by": [
+        "@Hybridthegeek"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "glossary-review-ig.md#terms-27"
+    },
+    "custodial": {
+      "target": "Onye nlekota",
+      "forms": [
+        "Onye nlekota"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Translates the word in context to an ordinary igbo user",
+      "reviewed_by": [
+        "@Hybridthegeek"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "glossary-review-ig.md#terms-18"
+    },
+    "zero-knowledge": {
+      "target": "zero-knowledge",
+      "keep_english": true,
+      "forms": [
+        "zero-knowledge",
+        "Zero-knowledge",
+        "Zero-Knowledge",
+        "zero knowledge",
+        "Zero Knowledge"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Technical term, keep as-is",
+      "reviewed_by": [
+        "@Hybridthegeek"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "glossary-review-ig.md#terms-23"
+    },
+    "network-upgrade": {
+      "target": "network upgrade",
+      "keep_english": true,
+      "forms": [
+        "network upgrade",
+        "network upgrades",
+        "Network upgrade",
+        "Network Upgrade",
+        "Network Upgrades"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Technical term",
+      "reviewed_by": [
+        "@Hybridthegeek"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "glossary-review-ig.md#terms-32"
+    },
+    "mining": {
+      "target": "ịgwụputa",
+      "forms": [
+        "ịgwụputa"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Both reviewers agree: drop 'crypto' from proposed 'ịgwụputa crypto'",
+      "reviewed_by": [
+        "@Hybridthegeek"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "glossary-review-ig.md#terms-20"
+    },
+    "miner": {
+      "target": "onye na-egwụputa",
+      "forms": [
+        "onye na-egwụputa"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Hybrid: drop 'crypto' from proposed; singular form",
+      "reviewed_by": [
+        "@Hybridthegeek"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "glossary-review-ig.md#terms-39"
+    },
+    "full-node": {
+      "target": "full node",
+      "keep_english": true,
+      "forms": [
+        "full node",
+        "full nodes",
+        "Full node",
+        "Full Node",
+        "Full Nodes"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Technical term",
+      "reviewed_by": [
+        "@Hybridthegeek"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "glossary-review-ig.md#terms-34"
+    },
+    "turnstile": {
+      "target": "turnstile",
+      "keep_english": true,
+      "forms": [
+        "turnstile",
+        "turnstiles",
+        "Turnstile",
+        "Turnstiles"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Technical term",
+      "reviewed_by": [
+        "@Hybridthegeek"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "glossary-review-ig.md#terms-37"
+    },
+    "spending-key": {
+      "target": "Igodo ego",
+      "forms": [
+        "Igodo ego"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "The translation is most appropriate for the contextual meaning of the Englishword",
+      "reviewed_by": [
+        "@Hybridthegeek"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "glossary-review-ig.md#terms-38"
+    },
+    "seed-phrase": {
+      "target": "Mkpuru mgbake",
+      "forms": [
+        "Mkpuru mgbake",
+        "mkpuru mgbake"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@Hybridthegeek"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "glossary-review-ig.md#terms-50"
+    },
+    "light-client": {
+      "target": "light client",
+      "keep_english": true,
+      "forms": [
+        "light client",
+        "Light client",
+        "light clients",
+        "Light clients"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@Hybridthegeek"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "glossary-review-ig.md#terms-55"
+    },
+    "token": {
+      "target": "token",
+      "keep_english": true,
+      "forms": [
+        "token",
+        "tokens",
+        "Token",
+        "Tokens"
+      ],
+      "rejected": [
+        {
+          "text": "Mkpuru ego"
+        }
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Mkpuru ego means kobo/cents/small change — wrong sense for crypto token",
+      "reviewed_by": [
+        "@Hybridthegeek"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "glossary-review-ig.md#terms-28"
+    },
+    "chain": {
+      "target": "chain",
+      "keep_english": true,
+      "forms": [
+        "chain",
+        "chains",
+        "Chain"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Short for blockchain, keep English",
+      "reviewed_by": [
+        "@Hybridthegeek"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "glossary-review-ig.md#terms-11"
+    },
+    "cross-chain": {
+      "target": "cross-chain",
+      "keep_english": true,
+      "forms": [
+        "cross-chain",
+        "Cross-chain"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@Hybridthegeek"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "glossary-review-ig.md#terms-52"
+    },
+    "faucet": {
+      "target": "faucet",
+      "keep_english": true,
+      "forms": [
+        "faucet",
+        "Faucet",
+        "faucets",
+        "Faucets"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@Hybridthegeek"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "glossary-review-ig.md#terms-49"
+    },
+    "developer": {
+      "target": "onye mmepụta",
+      "forms": [
+        "onye mmepụta"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Hybrid: lowercase; singular onye mmepụta, plural ndị mmepụta",
+      "reviewed_by": [
+        "@Hybridthegeek"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "glossary-review-ig.md#terms-33"
+    },
+    "dashboard": {
+      "target": "dashboard",
+      "keep_english": true,
+      "forms": [
+        "dashboard",
+        "Dashboard",
+        "dashboards",
+        "Dashboards"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@Hybridthegeek"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "glossary-review-ig.md#terms-51"
+    },
+    "visualizer": {
+      "target": "Ihe ngosiputa",
+      "forms": [
+        "Ihe ngosiputa",
+        "ihe ngosiputa"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@Hybridthegeek"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "glossary-review-ig.md#terms-62"
+    },
+    "use-case": {
+      "target": "Ojiji",
+      "forms": [
+        "Ojiji",
+        "ojiji"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@Hybridthegeek"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "glossary-review-ig.md#terms-53"
+    },
+    "brand": {
+      "target": "Akara ngosi",
+      "forms": [
+        "Akara ngosi",
+        "akara ngosi"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@Hybridthegeek"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "glossary-review-ig.md#terms-61"
+    },
+    "treasury": {
+      "target": "Ebe nchekwa ego",
+      "forms": [
+        "Ebe nchekwa ego",
+        "ebe nchekwa ego"
+      ],
+      "context": "\"Ebe nchekwa ego\" for treasury in page text. In compound \"Private Community Treasury\" keep English.",
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@Hybridthegeek"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "glossary-review-ig.md#terms-57"
+    },
+    "top-up": {
+      "target": "Ntinye ego",
+      "forms": [
+        "Ntinye ego",
+        "ntinye ego"
+      ],
+      "context": "\"Ntinye ego\" for top-up in page text. In compound \"Mobile Top Ups\" keep English.",
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@Hybridthegeek"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "glossary-review-ig.md#terms-58"
+    },
+    "tools": {
+      "target": "ngwá ọrụ",
+      "forms": [
+        "ngwá ọrụ"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Best fit for the contextual meaning of the word \"Tools\"",
+      "reviewed_by": [
+        "@Hybridthegeek"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "glossary-review-ig.md#terms-25"
+    },
+    "close-ui": {
+      "target": "Close",
+      "keep_english": true,
+      "forms": [
+        "Close"
+      ],
+      "context": "UI close button label, keep English.",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@Hybridthegeek"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "manual"
+    },
+    "newsletter": {
+      "target": "Akwụkwọ Akụkọ",
+      "forms": [
+        "Akwụkwọ Akụkọ",
+        "akwụkwọ akụkọ"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Hybrid preferred over proposed 'Letà akụkọ'",
+      "reviewed_by": [
+        "@Hybridthegeek"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "glossary-review-ig.md#terms-45"
+    },
+    "sitemap": {
+      "target": "Sitemap",
+      "keep_english": true,
+      "forms": [
+        "Sitemap",
+        "sitemap"
+      ],
+      "context": "Technical web term, keep English.",
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@Hybridthegeek"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "manual"
+    },
+    "address": {
+      "target": "Adreesị akpa ego",
+      "forms": [
+        "Adreesị akpa ego"
+      ],
+      "context": "\"Adreesị akpa ego\" for a crypto address. In compound \"Transparent Exchange Addresses\" and \"Visualizing Zcash Addresses\" the short form \"Adreesị\" is used.",
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "The translation suits the contextual meaning of the word",
+      "reviewed_by": [
+        "@Hybridthegeek"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "glossary-review-ig.md#terms-4"
+    },
+    "block": {
+      "target": "block",
+      "keep_english": true,
+      "forms": [
+        "block",
+        "Block",
+        "blocks",
+        "Blocks"
+      ],
+      "rejected": [
+        {
+          "text": "mgbochi"
+        }
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "mgbochi means prevent/stop, wrong sense for blockchain block",
+      "reviewed_by": [
+        "@Hybridthegeek"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "glossary-review-ig.md#terms-7"
+    },
+    "blockchain": {
+      "target": "blockchain",
+      "keep_english": true,
+      "forms": [
+        "blockchain",
+        "Blockchain",
+        "blockchains",
+        "Blockchains"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Technical term, widely understood",
+      "reviewed_by": [
+        "@Hybridthegeek"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "glossary-review-ig.md#terms-15"
+    },
+    "signature": {
+      "target": "signature",
+      "keep_english": true,
+      "forms": [
+        "signature",
+        "Signature",
+        "signatures",
+        "Signatures"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Cryptographic signature, no suitable Igbo equivalent",
+      "reviewed_by": [
+        "@Hybridthegeek"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "glossary-review-ig.md#terms-17"
+    },
+    "commitment": {
+      "target": "commitment",
+      "keep_english": true,
+      "forms": [
+        "commitment",
+        "Commitment",
+        "commitments",
+        "Commitments"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Cryptographic commitment, no suitable Igbo equivalent",
+      "reviewed_by": [
+        "@Hybridthegeek"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "glossary-review-ig.md#terms-21"
+    },
+    "nullifier": {
+      "target": "nullifier",
+      "keep_english": true,
+      "forms": [
+        "nullifier",
+        "Nullifier",
+        "nullifiers",
+        "Nullifiers"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Technical term",
+      "reviewed_by": [
+        "@Hybridthegeek"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "glossary-review-ig.md#terms-40"
+    },
+    "note": {
+      "target": "note",
+      "keep_english": true,
+      "forms": [
+        "note",
+        "Note",
+        "notes",
+        "Notes"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Zcash-specific meaning (shielded unit of value), no suitable Igbo word",
+      "reviewed_by": [
+        "@Hybridthegeek"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "glossary-review-ig.md#terms-13"
+    },
+    "trusted-setup": {
+      "target": "trusted setup",
+      "keep_english": true,
+      "forms": [
+        "trusted setup",
+        "Trusted setup"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@Hybridthegeek"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "glossary-review-ig.md#terms-46"
+    },
+    "consensus": {
+      "target": "consensus",
+      "keep_english": true,
+      "forms": [
+        "consensus",
+        "Consensus"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Technical term",
+      "reviewed_by": [
+        "@Hybridthegeek"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "glossary-review-ig.md#terms-29"
+    },
+    "governance": {
+      "target": "Gọọmentị",
+      "forms": [
+        "Gọọmentị"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "The translation will be easy to understand to the ordinary igbo user",
+      "reviewed_by": [
+        "@Hybridthegeek"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "glossary-review-ig.md#terms-36"
+    },
+    "grant": {
+      "target": "ikike",
+      "forms": [
+        "ikike"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Suits the context perfectly",
+      "reviewed_by": [
+        "@Hybridthegeek"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "glossary-review-ig.md#terms-24"
+    },
+    "halving": {
+      "target": "halving",
+      "keep_english": true,
+      "forms": [
+        "halving",
+        "Halving",
+        "halvings",
+        "Halvings"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@Hybridthegeek"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "glossary-review-ig.md#terms-43"
+    },
+    "staking": {
+      "target": "Mkpọchi ego dijitalụ",
+      "forms": [
+        "Mkpọchi ego dijitalụ"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "The translation should be easy to understand to an ordinary Igbo speaking user",
+      "reviewed_by": [
+        "@Hybridthegeek"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "glossary-review-ig.md#terms-30"
+    },
+    "finalizer": {
+      "target": "finalizer",
+      "keep_english": true,
+      "forms": [
+        "finalizer",
+        "Finalizer",
+        "finalizers",
+        "Finalizers"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "egwuregwu ikpeazụ means 'last game', wrong sense for PoS finalizer",
+      "reviewed_by": [
+        "@Hybridthegeek"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "glossary-review-ig.md#terms-44"
+    },
+    "bond": {
+      "target": "bond",
+      "keep_english": true,
+      "forms": [
+        "bond",
+        "Bond",
+        "bonds",
+        "Bonds",
+        "bonding",
+        "Bonding"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@Hybridthegeek"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "glossary-review-ig.md#terms-47"
+    },
+    "encryption": {
+      "target": "Nzobe ederede",
+      "forms": [
+        "Nzobe ederede"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Translates  the contextual meaning of the word",
+      "reviewed_by": [
+        "@Hybridthegeek"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "glossary-review-ig.md#terms-14"
+    },
+    "decentralized": {
+      "target": "decentralized",
+      "keep_english": true,
+      "forms": [
+        "decentralized",
+        "Decentralized",
+        "decentralised",
+        "Decentralised",
+        "decentralization",
+        "Decentralization",
+        "decentralisation",
+        "Decentralisation"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "No suitable Igbo equivalent",
+      "reviewed_by": [
+        "@Hybridthegeek"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "glossary-review-ig.md#terms-31"
+    },
+    "on-chain": {
+      "target": "on-chain",
+      "keep_english": true,
+      "forms": [
+        "on-chain",
+        "On-chain",
+        "off-chain",
+        "Off-chain",
+        "onchain",
+        "Onchain",
+        "offchain",
+        "Offchain"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Technical term",
+      "reviewed_by": [
+        "@Hybridthegeek"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "glossary-review-ig.md#terms-35"
+    },
+    "bridge": {
+      "target": "bridge",
+      "keep_english": true,
+      "forms": [
+        "bridge",
+        "Bridge",
+        "bridges",
+        "Bridges"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Technical term, not physical bridge",
+      "reviewed_by": [
+        "@Hybridthegeek"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "glossary-review-ig.md#terms-42"
+    },
+    "payment": {
+      "target": "Kwụọ ụhwọ",
+      "forms": [
+        "Kwụọ ụhwọ"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Gives the contextualtranslationto send money/coin to pay someone",
+      "reviewed_by": [
+        "@Hybridthegeek"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "glossary-review-ig.md#terms-8"
+    },
+    "smart-contract": {
+      "target": "smart contract",
+      "keep_english": true,
+      "forms": [
+        "smart contract",
+        "Smart contract",
+        "smart contracts",
+        "Smart contracts"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@Hybridthegeek"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "glossary-review-ig.md#terms-54"
+    },
+    "unlinkable": {
+      "target": "Ihe na-apughi ijikọ ọnụ",
+      "forms": [
+        "Ihe na-apughi ijikọ ọnụ",
+        "ihe na-apughi ijikọ ọnụ"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@Hybridthegeek"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "glossary-review-ig.md#terms-60"
+    },
+    "permissionless": {
+      "target": "permissionless",
+      "keep_english": true,
+      "forms": [
+        "permissionless",
+        "Permissionless"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@Hybridthegeek"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "glossary-review-ig.md#terms-59"
+    },
+    "scaling": {
+      "target": "scaling",
+      "keep_english": true,
+      "forms": [
+        "scaling",
+        "Scaling",
+        "scalability",
+        "Scalability"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@Hybridthegeek"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "glossary-review-ig.md#terms-48"
+    },
+    "selective-disclosure": {
+      "target": "Mpughe ahọpụtara",
+      "forms": [
+        "Mpughe ahọpụtara",
+        "mpughe ahọpụtara"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@Hybridthegeek"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "glossary-review-ig.md#terms-56"
+    },
+    "hardware-wallet": {
+      "target": "hardware wallet",
+      "keep_english": true,
+      "forms": [
+        "hardware wallet",
+        "Hardware wallet",
+        "hardware wallets",
+        "Hardware wallets"
+      ],
+      "context": "Keep English for the full compound \"hardware wallet\".",
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@Hybridthegeek"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "glossary-review-ig.md#terms-41"
+    }
+  },
+  "phrases": {
+    "Akash Network": {
+      "target": "Akash Network",
+      "keep_english": true,
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "The word is best kept English",
+      "reviewed_by": [
+        "@Hybridthegeek"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ig.md#navigation-60"
+    },
+    "Akash Network Zebra": {
+      "target": "Akash Network Zebra",
+      "keep_english": true,
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "Best word  is kept English",
+      "reviewed_by": [
+        "@Hybridthegeek"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ig.md#menuLabels-2"
+    },
+    "Avalanche RedBridge": {
+      "target": "Avalanche RedBridge",
+      "keep_english": true,
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "The  word in context is best English The  word in context has no suitable  igbo translation so it's best kept English",
+      "reviewed_by": [
+        "@Hybridthegeek"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ig.md#navigation-61"
+    },
+    "Block Explorers": {
+      "target": "Ndị na-enyocha Block",
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "Appropriate  translation for the word in context",
+      "reviewed_by": [
+        "@Hybridthegeek"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ig.md#navigation-20"
+    },
+    "Blockchain Explorers": {
+      "target": "Ndị na-enyocha Blockchain",
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "This translation  is suitable  for the word in context The  translation is suitable for the word in context",
+      "reviewed_by": [
+        "@Hybridthegeek"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ig.md#navigation-64"
+    },
+    "Brand": {
+      "target": "Akara",
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "This works well too or better still \" Akara Ngosi\" Best Translates as \"Akara Ngosi\"",
+      "reviewed_by": [
+        "@Hybridthegeek"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ig.md#navigation-50"
+    },
+    "BTCPayServer Plugin": {
+      "target": "BTCPayServer Plugin",
+      "keep_english": true,
+      "rejected": [
+        {
+          "text": "Ihe mgbakwunye BTCPayServer"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "This translation doesn't give the correct meaning to the word in context — keep English (no suitable Igbo translation)",
+      "reviewed_by": [
+        "@Hybridthegeek"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ig.md#navigation-65"
+    },
+    "BTCPayServer Zcash Plugin": {
+      "target": "BTCPayServer Zcash Plugin",
+      "keep_english": true,
+      "rejected": [
+        {
+          "text": "BTCPayServer Zcash Ntinye"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "The word  is best kept English as this translation is not suitable for the word in context",
+      "reviewed_by": [
+        "@Hybridthegeek"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ig.md#menuLabels-4"
+    },
+    "Buying ZEC": {
+      "target": "Ịzụta ZEC",
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "The translation should  be easy for an ordinary user to understand This is a suitable  translation for the word in context",
+      "reviewed_by": [
+        "@Hybridthegeek"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ig.md#navigation-16"
+    },
+    "Community Blogs": {
+      "target": "Community Blogs",
+      "keep_english": true,
+      "rejected": [
+        {
+          "text": "Blọọgụ Obodo"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "The translation proposed doesn't give the correct meaning to the word in context The translation of the word Community here doesn’t match the context",
+      "reviewed_by": [
+        "@Hybridthegeek"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ig.md#navigation-40"
+    },
+    "Community Building": {
+      "target": "Community Building",
+      "keep_english": true,
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "The  word is best kept English",
+      "reviewed_by": [
+        "@Hybridthegeek"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ig.md#menuLabels-80"
+    },
+    "Community Forum": {
+      "target": "Community Forum",
+      "keep_english": true,
+      "rejected": [
+        {
+          "text": "Nzukọ Ndị Isi Obodo"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "The translation  proposed  doesn't give the correct translation of the word in context The translation of the word  Community here doesn't suit the context",
+      "reviewed_by": [
+        "@Hybridthegeek"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ig.md#navigation-42"
+    },
+    "Community Links": {
+      "target": "Community Links",
+      "keep_english": true,
+      "rejected": [
+        {
+          "text": "Njikọ nke Community"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "The translation  doesn't  give the correct translation to the word in context The  translation of links here doesn't suit the context",
+      "reviewed_by": [
+        "@Hybridthegeek"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ig.md#navigation-41"
+    },
+    "Contribute": {
+      "target": "Na-enye aka",
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "The translation gives an easy to understand contextual meaning of the word The  translation is easy for an ordinary user to understand The translation is easy for an ordinary user to understand",
+      "reviewed_by": [
+        "@Hybridthegeek"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ig.md#navigation-12"
+    },
+    "Cypherpunk Zero NFT": {
+      "target": "Cypherpunk Zero NFT",
+      "keep_english": true,
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "The word in context has no suitable Igbo translation The word in context is best kept English",
+      "reviewed_by": [
+        "@Hybridthegeek"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ig.md#navigation-47"
+    },
+    "DAO": {
+      "target": "DAO",
+      "keep_english": true,
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "Best kept English The  word is best kept English",
+      "reviewed_by": [
+        "@Hybridthegeek"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ig.md#navigation-6"
+    },
+    "Dashboard": {
+      "target": "Ogwe njikwa",
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "This gives the closest contextual meaning to the English word",
+      "reviewed_by": [
+        "@Hybridthegeek"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ig.md#navigation-13"
+    },
+    "Developers": {
+      "target": "Ndị Mmepụta",
+      "context": "Plural of onye mmepụta (developer). Menu label.",
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "Reviewer correction: Ndị Mmepụta is more accurate than Ndị mmepe",
+      "reviewed_by": [
+        "@Hybridthegeek"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ig.md#menuLabels-15"
+    },
+    "Donate": {
+      "target": "Nye onyinye",
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "This is an appropriate translation for the word in context",
+      "reviewed_by": [
+        "@Hybridthegeek"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ig.md#navigation-8"
+    },
+    "Donations": {
+      "target": "Onyinye E Nyere",
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "This gives the best  translation  to the word in context The  translation is easy for an ordinary user to understand",
+      "reviewed_by": [
+        "@Hybridthegeek"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ig.md#navigation-37"
+    },
+    "Ecosystem": {
+      "target": "Ecosystem",
+      "keep_english": true,
+      "rejected": [
+        {
+          "text": "Ihe Ndị Dị n'Eluigwe"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "The translation  proposed doesn't give the suitable meaning to the word in context",
+      "reviewed_by": [
+        "@Hybridthegeek"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ig.md#navigation-39"
+    },
+    "Explore": {
+      "target": "Nyochaa",
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "Best Translates the word in context This translation is suitable for the word in context",
+      "reviewed_by": [
+        "@Hybridthegeek"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ig.md#navigation-9"
+    },
+    "Extras": {
+      "target": "Ihe ndị ọzọ",
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "The  translation is easy for an ordinary user to understand",
+      "reviewed_by": [
+        "@Hybridthegeek"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ig.md#menuLabels-18"
+    },
+    "Faucets": {
+      "target": "Faucets",
+      "keep_english": true,
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "Best kept English Best  kept English",
+      "reviewed_by": [
+        "@Hybridthegeek"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ig.md#navigation-17"
+    },
+    "For Forks & Maintainers": {
+      "target": "For Forks & Maintainers",
+      "keep_english": true,
+      "rejected": [
+        {
+          "text": "N'ihi na ndụdụ & Maintainers"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "The  word  is best kept English",
+      "reviewed_by": [
+        "@Hybridthegeek"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ig.md#exploreMenu-13"
+    },
+    "Fork zechub": {
+      "target": "Fork zechub",
+      "keep_english": true,
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "The word is best kept English",
+      "reviewed_by": [
+        "@Hybridthegeek"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ig.md#exploreMenu-15"
+    },
+    "Fork zechub-wiki": {
+      "target": "Fork zechub-wiki",
+      "keep_english": true,
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "The  word is best kept English",
+      "reviewed_by": [
+        "@Hybridthegeek"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ig.md#exploreMenu-14"
+    },
+    "Free2z Live": {
+      "target": "Free2z Live",
+      "keep_english": true,
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "The word in context is best kept English The word is best kept English",
+      "reviewed_by": [
+        "@Hybridthegeek"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ig.md#navigation-53"
+    },
+    "Full Explore": {
+      "target": "Nyochaa zuru ezu",
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "The  translation  is easy for an ordinary user to understand",
+      "reviewed_by": [
+        "@Hybridthegeek"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ig.md#exploreMenu-1"
+    },
+    "Glossary & FAQ's": {
+      "target": "Glossary & Ajụjụ Ndị A Na-ajụghị",
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "The translation is easy for an ordinary user to understand",
+      "reviewed_by": [
+        "@Hybridthegeek"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ig.md#menuLabels-78"
+    },
+    "Glossary & FAQs": {
+      "target": "Glossary & Ajụjụ Ọnụ A Na-ajụkarị",
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "The translation is suitable for the word in context",
+      "reviewed_by": [
+        "@Hybridthegeek"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ig.md#exploreMenu-11"
+    },
+    "Governance": {
+      "target": "Ọchichi",
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "very suitable  translation to the contextual meaning of the English word The translation is suitable for the word in context",
+      "reviewed_by": [
+        "@Hybridthegeek"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ig.md#navigation-4"
+    },
+    "Guides": {
+      "target": "Akwụkwọ ntuziaka",
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "The translation should be very easy for an ordinary user to understand The translation  is easy for an ordinary user to understand The translation is easy for an ordinary user to understand",
+      "reviewed_by": [
+        "@Hybridthegeek"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ig.md#navigation-2"
+    },
+    "How to Participate": {
+      "target": "Ụzọ Isi Kere Òkè",
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "The  translation is suitable for the word in context",
+      "reviewed_by": [
+        "@Hybridthegeek"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ig.md#menuLabels-24"
+    },
+    "Journalist Privacy": {
+      "target": "Nzuzo nke Onye nta akụkọ",
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "The  translation  gives the correct meaning to the word The  translation  is easy for an ordinary user to understand",
+      "reviewed_by": [
+        "@Hybridthegeek"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ig.md#navigation-34"
+    },
+    "Keeping Records": {
+      "target": "Idebe Ihe ndekọ",
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "Best fit translation to the word in context The  translation is suitable for the word in context",
+      "reviewed_by": [
+        "@Hybridthegeek"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ig.md#navigation-35"
+    },
+    "Memos": {
+      "target": "Ihe ncheta",
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "The translation is very appropriate for the word in context The translation is easy for an ordinary user to understand",
+      "reviewed_by": [
+        "@Hybridthegeek"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ig.md#navigation-24"
+    },
+    "Mobile Top Ups": {
+      "target": "Mobile Top Ups",
+      "keep_english": true,
+      "rejected": [
+        {
+          "text": "Ngwaọrụ Mobile Top Ups"
+        }
+      ],
+      "context": "Keep English; standalone \"top-up\" = \"Ntinye ego\".",
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "The translationis not an appropriate igbo word, it is best kept English — keep English (no suitable Igbo translation) Best kept English",
+      "reviewed_by": [
+        "@Hybridthegeek"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ig.md#navigation-25"
+    },
+    "More": {
+      "target": "Ọzọ",
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "This is the correct igbo translation for the English word",
+      "reviewed_by": [
+        "@Hybridthegeek"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ig.md#navigation-14"
+    },
+    "Navigation": {
+      "target": "Navigation",
+      "keep_english": true,
+      "rejected": [
+        {
+          "text": "Ụgbọ mmiri"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "This  translation  doesn't give the contextual meaning of the English word, best kept English",
+      "reviewed_by": [
+        "@Hybridthegeek"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ig.md#sideMenu-1"
+    },
+    "Newsletter": {
+      "target": "Akwụkwọ akụkọ",
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "This is also an appropriate translation of the English word The  translation is easy for an ordinary user to understand",
+      "reviewed_by": [
+        "@Hybridthegeek"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ig.md#navigation-7"
+    },
+    "Nym Mixnet Wallet Setup": {
+      "target": "Nym Mixnet Wallet Setup",
+      "keep_english": true,
+      "context": "Keep English; standalone \"wallet\" = \"e-akpa ego\".",
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "The  word  is best kept English",
+      "reviewed_by": [
+        "@Hybridthegeek"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ig.md#menuLabels-81"
+    },
+    "Nym VPN": {
+      "target": "Nym VPN",
+      "keep_english": true,
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "There is no suitable igbo translation to the word in context There's no suitable translation for the word in context",
+      "reviewed_by": [
+        "@Hybridthegeek"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ig.md#navigation-54"
+    },
+    "Overview": {
+      "target": "Nkọwapụta",
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "This translation is suitable for the word in context",
+      "reviewed_by": [
+        "@Hybridthegeek"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ig.md#navigation-72"
+    },
+    "Pay for AI": {
+      "target": "Ịkwụ Ụgwọ AI",
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "The  translation is suitable for the word in context",
+      "reviewed_by": [
+        "@Hybridthegeek"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ig.md#menuLabels-79"
+    },
+    "Podcast": {
+      "target": "Podcast",
+      "keep_english": true,
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "The  word is best kept English",
+      "reviewed_by": [
+        "@Hybridthegeek"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ig.md#menuLabels-33"
+    },
+    "Private Community Treasury": {
+      "target": "Private Community Treasury",
+      "keep_english": true,
+      "rejected": [
+        {
+          "text": "Ụlọ Akụ nke Onwe Onye"
+        }
+      ],
+      "context": "Keep English; standalone \"treasury\" = \"Ebe nchekwa ego\".",
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "The proposed translation doesn't givethe correct meaning to the word in context The translation  doesn't give the contextual meaning of the English word",
+      "reviewed_by": [
+        "@Hybridthegeek"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ig.md#navigation-36"
+    },
+    "Raspberry Pi 4 Full Node": {
+      "target": "Raspberry Pi 4 Full Node",
+      "keep_english": true,
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "The  word is best kept English",
+      "reviewed_by": [
+        "@Hybridthegeek"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ig.md#menuLabels-35"
+    },
+    "Raspberry pi 4 Zebra Node": {
+      "target": "Raspberry pi 4 Zebra Node",
+      "keep_english": true,
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "The  word has no suitable igbo translation",
+      "reviewed_by": [
+        "@Hybridthegeek"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ig.md#menuLabels-36"
+    },
+    "Raspberry Pi Zcashd Node": {
+      "target": "Raspberry Pi Zcashd Node",
+      "keep_english": true,
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "The word is best kept English",
+      "reviewed_by": [
+        "@Hybridthegeek"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ig.md#navigation-57"
+    },
+    "Raspberry Pi Zebra Node": {
+      "target": "Raspberry Pi Zebra Node",
+      "keep_english": true,
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "The word in context has no suitable igbo translation",
+      "reviewed_by": [
+        "@Hybridthegeek"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ig.md#navigation-59"
+    },
+    "Raspberry pi5 Zebra Lightwalletd Zingo": {
+      "target": "Raspberry pi5 Zebra Lightwalletd Zingo",
+      "keep_english": true,
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "The word in context is best kept English The  word is best kept English",
+      "reviewed_by": [
+        "@Hybridthegeek"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ig.md#navigation-58"
+    },
+    "Recovering Funds": {
+      "target": "Nkwụghachi Ego",
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "The translation gives the appropriate meaning to the word in context",
+      "reviewed_by": [
+        "@Hybridthegeek"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ig.md#navigation-28"
+    },
+    "Research": {
+      "target": "Nnyocha",
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "The translation is suitable for the word in context The  translation  is easy for an ordinary user to understand",
+      "reviewed_by": [
+        "@Hybridthegeek"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ig.md#menuLabels-39"
+    },
+    "Send Money Privately": {
+      "target": "Send Money Privately",
+      "keep_english": true,
+      "rejected": [
+        {
+          "text": "Na-ezipụ Ego n'Ebe Ọ Bụla"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "The translation proposed doesn't give the correct meaning to the word in context This doesn’t  translate correctly  the word  in context",
+      "reviewed_by": [
+        "@Hybridthegeek"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ig.md#navigation-38"
+    },
+    "Shop": {
+      "target": "Ụlọ ahịa",
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "The translation is easy for an ordinary igbo user to understand",
+      "reviewed_by": [
+        "@Hybridthegeek"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ig.md#navigation-73"
+    },
+    "Sitemap": {
+      "target": "Sitemap",
+      "keep_english": true,
+      "rejected": [
+        {
+          "text": "Site map"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "The word is best kept English",
+      "reviewed_by": [
+        "@Hybridthegeek"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ig.md#menuLabels-42"
+    },
+    "Start Here": {
+      "target": "Malite Ebe a",
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "Gives the correct translation of the English word The translation is easy for an ordinary user to understand The translation  is easy for an ordinary user to understand",
+      "reviewed_by": [
+        "@Hybridthegeek"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ig.md#navigation-31"
+    },
+    "Store": {
+      "target": "Ụlọ ahịa",
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "The translation  gives  the  suitable  meaning  to  the  word  in  context",
+      "reviewed_by": [
+        "@Hybridthegeek"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ig.md#menuLabels-44"
+    },
+    "Transactions": {
+      "target": "Transactions",
+      "keep_english": true,
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "Keep English — Mmekọrịta doesn't give contextual meaning",
+      "reviewed_by": [
+        "@Hybridthegeek"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ig.md#navigation-23"
+    },
+    "Transparent Exchange Addresses": {
+      "target": "Transparent Exchange Addresses",
+      "keep_english": true,
+      "context": "Keep English for this compound; standalone \"transparent\" = \"Oha\", standalone \"address\" = \"Adreesị akpa ego\".",
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "Translation doesn't give appropriate meaning; keep English",
+      "reviewed_by": [
+        "@Hybridthegeek"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ig.md#navigation-22"
+    },
+    "Tutorials": {
+      "target": "Nkuzi",
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "The translation gives the suitable contextual meaning of the word The translation is most appropriate for the word in context The  translation is suitable for the word in context",
+      "reviewed_by": [
+        "@Hybridthegeek"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ig.md#navigation-3"
+    },
+    "Use Zcash": {
+      "target": "Jiri Zcash",
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "This gives a very  suitable translation to the English word",
+      "reviewed_by": [
+        "@Hybridthegeek"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ig.md#navigation-15"
+    },
+    "Using Zcash": {
+      "target": "Iji Zcash",
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "The  translation is suitable for the word in context",
+      "reviewed_by": [
+        "@Hybridthegeek"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ig.md#menuLabels-52"
+    },
+    "Using ZEC in DeFi": {
+      "target": "Iji ZEC na DeFi",
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "The translation  is easy for an ordinary user to understand The translation is easy for an ordinary user to understand",
+      "reviewed_by": [
+        "@Hybridthegeek"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ig.md#navigation-55"
+    },
+    "Using ZEC Privately": {
+      "target": "Iji ZEC eme ihe na nzuzo",
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "The translation  is suitable  for the word in context The translation is suitable for the word in context",
+      "reviewed_by": [
+        "@Hybridthegeek"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ig.md#navigation-56"
+    },
+    "Visual Identity": {
+      "target": "Visual Identity",
+      "keep_english": true,
+      "rejected": [
+        {
+          "text": "Njirimara Anya"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "The translation doesn't give the contextual meaning of the English word",
+      "reviewed_by": [
+        "@Hybridthegeek"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ig.md#menuLabels-53"
+    },
+    "Visualizer": {
+      "target": "Visualizer",
+      "keep_english": true,
+      "rejected": [
+        {
+          "text": "Onye na-ahụ anya"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "As regards the contextual meaning this might not be the most suitable translation — keep English (no suitable Igbo translation) The  translation  doesn't give the contextual meaning to the word in context, hence its best kept English",
+      "reviewed_by": [
+        "@Hybridthegeek"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ig.md#navigation-5"
+    },
+    "Visualizing the Zcash Network": {
+      "target": "N'ichepụta Netwọk Zcash",
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "This translation is easy for an ordinary user to understand The  translation is suitable for the word in context",
+      "reviewed_by": [
+        "@Hybridthegeek"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ig.md#navigation-66"
+    },
+    "Wallets": {
+      "target": "Akpa ego",
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "Best Translates the word wallet to an ordinary igbo user Gives the suitable translation to the word \"Wallet\" The translation is suitable for the word in context",
+      "reviewed_by": [
+        "@Hybridthegeek"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ig.md#navigation-1"
+    },
+    "Ywallet FROST Demo": {
+      "target": "Ywallet FROST Demo",
+      "keep_english": true,
+      "rejected": [
+        {
+          "text": "Ywallet FROST Ihe ngosi"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "The word is best kept English — keep English (no suitable Igbo translation) The  word  is best kept English",
+      "reviewed_by": [
+        "@Hybridthegeek"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ig.md#navigation-63"
+    },
+    "Zcash Community": {
+      "target": "Zcash Community",
+      "keep_english": true,
+      "rejected": [
+        {
+          "text": "Obodo Zcash"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "The translation doesn't give the contextual meaning to the English word",
+      "reviewed_by": [
+        "@Hybridthegeek"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ig.md#menuLabels-60"
+    },
+    "Zcash Ecosystem Security": {
+      "target": "Nchebe nke Zcash Ecosystem",
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "This is a suitable translation for the word in context The  translation is suitable for  the word in context",
+      "reviewed_by": [
+        "@Hybridthegeek"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ig.md#navigation-46"
+    },
+    "Zcash Improvement Proposals": {
+      "target": "Nkwupụta Mmezi Zcash",
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "This translation  is suitable  for the word in context The  translation is easy for an ordinary user to understand",
+      "reviewed_by": [
+        "@Hybridthegeek"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ig.md#navigation-68"
+    },
+    "Zcash Media": {
+      "target": "Zcash Mgbasa Ozi",
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "This gives  a correct translation  for the word in context The translation is suitable for the word in context",
+      "reviewed_by": [
+        "@Hybridthegeek"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ig.md#navigation-44"
+    },
+    "Zcash Podcasts": {
+      "target": "Zcash Podcasts",
+      "keep_english": true,
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "Best kept  English The word is best kept English",
+      "reviewed_by": [
+        "@Hybridthegeek"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ig.md#navigation-45"
+    },
+    "Zcash Tech": {
+      "target": "Zcash Tech",
+      "keep_english": true,
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "The  word is best kept English",
+      "reviewed_by": [
+        "@Hybridthegeek"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ig.md#menuLabels-76"
+    },
+    "Zcon Archive": {
+      "target": "Zcon Archive",
+      "keep_english": true,
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "The word in context  is best kept English The  word is best kept English",
+      "reviewed_by": [
+        "@Hybridthegeek"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ig.md#navigation-48"
+    },
+    "Zcon Vozes Archive": {
+      "target": "Zcon Vozes Archive",
+      "keep_english": true,
+      "rejected": [
+        {
+          "text": "Zcon Vozes Archives"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "The word is best kept English",
+      "reviewed_by": [
+        "@Hybridthegeek"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ig.md#menuLabels-68"
+    },
+    "Zenith Installation": {
+      "target": "Zenith Installation",
+      "keep_english": true,
+      "rejected": [
+        {
+          "text": "Mwepụ Zenith"
+        },
+        {
+          "text": "Ntinye Zenith"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "This is not a suitable  translation to the word in context — keep English (no suitable Igbo translation) The word is best kept English",
+      "reviewed_by": [
+        "@Hybridthegeek"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ig.md#navigation-70"
+    },
+    "Zero Knowledge vs Decoy Systems": {
+      "target": "Zero Knowledge vs Decoy Systems",
+      "keep_english": true,
+      "rejected": [
+        {
+          "text": "Ihe Ọmụma efu vs. Decoy Systems"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "This translation is a wrong translation to the word in context — keep English (no suitable Igbo translation)",
+      "reviewed_by": [
+        "@Hybridthegeek"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ig.md#navigation-71"
+    },
+    "Zero-Knowledge vs Decoys": {
+      "target": "Zero-Knowledge vs Decoys",
+      "keep_english": true,
+      "rejected": [
+        {
+          "text": "Ihe Ọmụma Na-adịghị Banyere Ya na Ihe A Na-ejighị Ama Mee"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "The word is best kept English",
+      "reviewed_by": [
+        "@Hybridthegeek"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ig.md#menuLabels-70"
+    },
+    "Zingolib and Zaino Tutorial": {
+      "target": "Ntuziaka Zingolib na Zaino",
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "This translation is easy for an ordinary user to understand The word Tutorial  is best translated as \"Nkuzi\"",
+      "reviewed_by": [
+        "@Hybridthegeek"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ig.md#navigation-69"
+    },
+    "Zkool Multisig": {
+      "target": "Zkool Multisig",
+      "keep_english": true,
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "The word is best kept  English The  word is best kept English",
+      "reviewed_by": [
+        "@Hybridthegeek"
+      ],
+      "reviewed_at": "2026-11-09",
+      "source": "menus-review-ig.md#navigation-62"
+    }
+  },
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-11-09",
+      "terms": [
+        "address",
+        "block",
+        "blockchain",
+        "bond",
+        "brand",
+        "bridge",
+        "chain",
+        "close-ui",
+        "commitment",
+        "consensus",
+        "cross-chain",
+        "custodial",
+        "dashboard",
+        "decentralized",
+        "developer",
+        "encryption",
+        "exchange",
+        "faucet",
+        "fee",
+        "finalizer",
+        "full-node",
+        "governance",
+        "grant",
+        "halving",
+        "hardware-wallet",
+        "light-client",
+        "memo",
+        "miner",
+        "mining",
+        "network-upgrade",
+        "newsletter",
+        "node",
+        "note",
+        "nullifier",
+        "on-chain",
+        "payment",
+        "permissionless",
+        "pool",
+        "privacy",
+        "proof",
+        "scaling",
+        "seed-phrase",
+        "selective-disclosure",
+        "shielded",
+        "signature",
+        "sitemap",
+        "smart-contract",
+        "spending-key",
+        "staking",
+        "swap",
+        "token",
+        "tools",
+        "top-up",
+        "transaction",
+        "transparent",
+        "treasury",
+        "trusted-setup",
+        "turnstile",
+        "unlinkable",
+        "use-case",
+        "viewing-key",
+        "visualizer",
+        "wallet",
+        "zero-knowledge"
+      ],
+      "phrases": [],
+      "summary": "Imported all 62 terms from Igbo glossary review kit (glossary-review-ig.md). Two native reviewers: first reviewer + Hybridthegeek.sol. 30 terms translated into Igbo; 32 kept in English. Key changes: mining/miner (drop crypto), token (keep English), proof (keep English), newsletter (Akwụkwọ Akụkọ), fee (ugwo). First-use English brackets."
+    },
+    {
+      "version": 2,
+      "date": "2026-11-09",
+      "terms": [],
+      "phrases": [
+        "Akash Network",
+        "Akash Network Zebra",
+        "Avalanche RedBridge",
+        "BTCPayServer Plugin",
+        "BTCPayServer Zcash Plugin",
+        "Block Explorers",
+        "Blockchain Explorers",
+        "Brand",
+        "Buying ZEC",
+        "Community Blogs",
+        "Community Building",
+        "Community Forum",
+        "Community Links",
+        "Contribute",
+        "Cypherpunk Zero NFT",
+        "DAO",
+        "Dashboard",
+        "Developers",
+        "Donate",
+        "Donations",
+        "Ecosystem",
+        "Explore",
+        "Extras",
+        "Faucets",
+        "For Forks & Maintainers",
+        "Fork zechub",
+        "Fork zechub-wiki",
+        "Free2z Live",
+        "Full Explore",
+        "Glossary & FAQ's",
+        "Glossary & FAQs",
+        "Governance",
+        "Guides",
+        "How to Participate",
+        "Journalist Privacy",
+        "Keeping Records",
+        "Memos",
+        "Mobile Top Ups",
+        "More",
+        "Navigation",
+        "Newsletter",
+        "Nym Mixnet Wallet Setup",
+        "Nym VPN",
+        "Overview",
+        "Pay for AI",
+        "Podcast",
+        "Private Community Treasury",
+        "Raspberry Pi 4 Full Node",
+        "Raspberry Pi Zcashd Node",
+        "Raspberry Pi Zebra Node",
+        "Raspberry pi 4 Zebra Node",
+        "Raspberry pi5 Zebra Lightwalletd Zingo",
+        "Recovering Funds",
+        "Research",
+        "Send Money Privately",
+        "Shop",
+        "Sitemap",
+        "Start Here",
+        "Store",
+        "Transactions",
+        "Transparent Exchange Addresses",
+        "Tutorials",
+        "Use Zcash",
+        "Using ZEC Privately",
+        "Using ZEC in DeFi",
+        "Using Zcash",
+        "Visual Identity",
+        "Visualizer",
+        "Visualizing the Zcash Network",
+        "Wallets",
+        "Ywallet FROST Demo",
+        "Zcash Community",
+        "Zcash Ecosystem Security",
+        "Zcash Improvement Proposals",
+        "Zcash Media",
+        "Zcash Podcasts",
+        "Zcash Tech",
+        "Zcon Archive",
+        "Zcon Vozes Archive",
+        "Zenith Installation",
+        "Zero Knowledge vs Decoy Systems",
+        "Zero-Knowledge vs Decoys",
+        "Zingolib and Zaino Tutorial",
+        "Zkool Multisig"
+      ],
+      "summary": "Imported 84 UI menu phrases from Igbo menus review kit (menus-review-ig.md). Reviewer: Hybridthegeek.sol."
+    }
+  ]
+}

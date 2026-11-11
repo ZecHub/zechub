@@ -1,45 +1,46 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Start_Here/What_is_ZEC_and_Zcash.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="ページを編集"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Zcashの基礎知識
+# Zcashの基礎
 
-## TL;DR
+## 要約
 
-- **ZEC**は、Zcashブロックチェーン上で構築されたプライバシー重視のデジタル通貨です
-- ビットコインとは異なり、ZECはゼロ知識証明を使用して完全に**暗号化（プライベート）な取引**をサポートします
-- あなた自身が財務的なプライバシーを制御できます：開示する内容と対象を選択できます
-- Zcashはオープンソース、権限なし、分散型です
+- **ZEC**は、Zcashブロックチェーン上に構築された、プライバシー（privacy）を最優先するデジタル通貨です
+- Bitcoinとは異なり、ZECはゼロ知識（zero-knowledge）proofを用いた完全に**シールドされた（非公開の）トランザクション（transaction）**をサポートします
+- 財務上のプライバシーを管理でき、何を誰に開示するかを選べます
+- Zcashはオープンソースで、パーミッションレス（permissionless）かつ分散型（decentralized）です
 
 ---
 
 ## ZECとは？
 
+
 <iframe width="640" height="360" src="https://www.youtube.com/embed/J1Nr1VL5dGU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ---
 
-ZECは、Zcashブロックチェーンに基づいたデジタル通貨です。インターネット上での現金に最も近い存在です。ビットコインと多くの類似点を持っていますが、ユーザーが完全なプライベートな取引を実行できるようにすることで、ビットコインの最大の欠点を解決しています。
+ZECは、Zcashブロックチェーンを基盤とするデジタル通貨です。ウェブ上で現金に最も近いものです。Bitcoinと多くの共通する特徴を持つ一方、完全にプライベートな金銭トランザクションを行えるようにすることで、Bitcoin最大の欠点を解決します。
 
-#### なぜプライバシーのある通貨は重要ですか？
+#### プライベートな通貨が重要なのはなぜですか？
 
-ZECは人々にデータを権限なしで転送する機会を与えます。ピアツーピアで、権限なしのお金システムを持つことは、人々が中央集権的なエンティティに依存することなく、価値を保管したり、他者と取引を行ったりできる能力を与えてくれます。ZECは、人々がいつ情報を他人と共有したいかを選択することができるようになります。
+ZECは、人々にデータをパーミッションレスに転送する機会を与えます。ピアツーピアでパーミッションレスな貨幣システムにより、人々は中央集権的な組織に依存せず、価値を保存したり、他者とトランザクションを行ったりできます。ZECは、人々が自身の財務情報をいつ他者に開示するかを選べるようにします。
 
 #### リソース
 
-[Zcashとプライバシーのケース](https://www.zcashzeal.org/blog/the-case-for-zcash-amp-privacy)
+[Zcashとプライバシーの事例](https://www.zcashzeal.org/blog/the-case-for-zcash-amp-privacy)
 
 [シールドされたエコシステム](https://web.archive.org/web/20260903010654/https://electriccoin.co/blog/shielded-ecosystem/)
 
-[Zcashプライバシー推奨事項](https://z.cash/support/security/privacy-security-recommendations/)
+[Zcashのプライバシーに関する推奨事項](https://z.cash/support/security/privacy-security-recommendations/)
 
 ## Zcashとは？
 
-Zcashは「ゼロキャッシュ（Zerocash）」プロトコルの実装です。オープンソースで、ブロックチェーンベースの帳簿であり、高度なゼロ知識証明システムを特徴としています。ビットコインのコードに基づいており、取引の[メタデータ](https://nym.com/blog/what-is-metadata)の機密性を保つことで、プライバシーの標準を提供することに専門化しています。その核心では、取引が行われるときに権限なしで転送されるプライベートなデータ所有権です。
+Zcashは、「Zerocash」プロトコルの実装です。高度なゼロ知識proofシステムを特徴とする、オープンソースのブロックチェーンベースの台帳です。Bitcoinのコードを基盤とし、[トランザクションメタデータ](https://nym.com/blog/what-is-metadata)の機密性を維持するproofシステムを通じて、より高い水準のプライバシーを提供することに特化しています。その本質は、Zcashがトランザクションの実行時にパーミッションレスに転送されるプライベートなデータ所有権であることです。 
 
 #### なぜ重要ですか？
 
-Zcashはビットコインの最大の欠点である、データのプライバシーと転送を解決します。ブロックチェーンアプリケーションや暗号資産がますます広く受け入れられるようになった世界では、擬名取引はユーザーのプライバシーを保護するための実現可能な選択肢ではなくなりました。監視アプリケーションはブロックチェーン取引を分析するためにより多く使われるようになっています。
+Zcashは、Bitcoin最大の欠点であるデータのプライベートな所有と転送を解決します。ブロックチェーンアプリケーションと暗号資産が広く受け入れられるようになっている世界では、仮名によるトランザクションはユーザーのプライバシーを保護するための有効な選択肢ではなくなっています。ブロックチェーンのトランザクションを分析するための監視アプリケーションも、より広く利用されるようになっています。
 
 <a href="">
     <img src="/content-images/Zcash-logo-1-26747e0dd3.webp" alt="" width="60" height="60"/>
@@ -47,7 +48,7 @@ Zcashはビットコインの最大の欠点である、データのプライバ
 
 #### リソース
 
-[基礎知識](https://z.cash/the-basics/)
+[基礎](https://z.cash/the-basics/)
 
 [仕組み](https://z.cash/technology/)
 
@@ -55,8 +56,8 @@ Zcashはビットコインの最大の欠点である、データのプライバ
 
 ## 関連ページ
 
-- [新規ユーザーガイド](/start-here/new-user-guide) — 新しいZEC保有者向けのステップごとの導入ガイド
-- [ウォレット](/using-zcash/wallets) — ZECを保有するためのシールドされたウォレットを選ぶ
-- [ZECの購入](/using-zcash/buying-zec) — ZECを入手する場所と方法
-- [シールドプール](/using-zcash/shielded-pools) — Zcashプールが取引のプライバシーを守る仕組み
+- [新規ユーザーガイド](/start-here/new-user-guide) — 新しいZEC保有者向けのステップバイステップの導入ガイド
+- [ウォレット](/using-zcash/wallets) — ZECを保管するためのシールドされたウォレットを選びます
+- [ZECの購入](/using-zcash/buying-zec) — ZECを取得できる場所と方法
+- [シールドされたプール](/using-zcash/shielded-pools) — Zcashプールがトランザクションをプライベートに保つ仕組み
 - [zk-SNARKs](/zcash-tech/zk-snarks) — Zcashのプライバシーを支える暗号技術

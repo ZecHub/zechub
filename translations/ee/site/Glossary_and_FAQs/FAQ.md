@@ -1,198 +1,198 @@
-# Nya Siwo Wobia Enuenu
+# Ɖe biabia siwo dzi wokpɔa zi geɖe
 
-Nyabiase siwo bɔ wu tso Zcash. Ne èdi Zcash asitsaha la ƒe kuxiwo gbɔ kpɔkpɔ la, taflatse kpɔ [dziɖuɖua ƒe kuxiwo gbɔ kpɔkpɔ ƒe mɔfiame](https://zcash.readthedocs.io/en/latest/rtd_pages/troubleshooting_guide.html).
+Biabia siwo dzi wokpɔa zi geɖe tso Zcash ŋu ƒe xexlẽ. Ne wòdi be yeanɔ ŋku ɖe Zcash client ŋu la, mekpɔe ɖe [official troubleshooting guide](https://zcash.readthedocs.io/en/latest/rtd_pages/troubleshooting_guide.html) me.
 
-### Mɔzɔzɔ Kabakaba
+### Mɔ kpui ƒe kplɔɖeƒe
 
 <div className="flex flex-wrap gap-2 my-4">
-  <a href="#what-is-zcash" className="inline-flex px-3 py-1.5 rounded-full border border-border bg-card text-sm no-underline hover:bg-accent">What is Zcash?</a>
-  <a href="#how-can-i-acquire-zcash" className="inline-flex px-3 py-1.5 rounded-full border border-border bg-card text-sm no-underline hover:bg-accent">How can I acquire Zcash?</a>
-  <a href="#what-is-the-difference-between-zcash-and-other-cryptocurrencies" className="inline-flex px-3 py-1.5 rounded-full border border-border bg-card text-sm no-underline hover:bg-accent">Difference from other cryptocurrencies?</a>
-  <a href="#how-is-the-zcash-protocol-governed" className="inline-flex px-3 py-1.5 rounded-full border border-border bg-card text-sm no-underline hover:bg-accent">Protocol governance?</a>
-  <a href="#where-is-my-transaction" className="inline-flex px-3 py-1.5 rounded-full border border-border bg-card text-sm no-underline hover:bg-accent">Where is my transaction?</a>
-  <a href="#is-zcash-really-private" className="inline-flex px-3 py-1.5 rounded-full border border-border bg-card text-sm no-underline hover:bg-accent">Is Zcash really private?</a>
-  <a href="#a-few-common-misconceptions" className="inline-flex px-3 py-1.5 rounded-full border border-border bg-card text-sm no-underline hover:bg-accent">Common misconceptions</a>
-  <a href="#zcashd-stopped-working-what-do-i-run-now" className="inline-flex px-3 py-1.5 rounded-full border border-border bg-card text-sm no-underline hover:bg-accent">zcashd stopped working?</a>
-  <a href="#how-do-i-move-my-zcashd-wallet-to-zallet" className="inline-flex px-3 py-1.5 rounded-full border border-border bg-card text-sm no-underline hover:bg-accent">Move my wallet to Zallet?</a>
-  <a href="#what-is-ironwood-and-do-i-need-to-do-anything" className="inline-flex px-3 py-1.5 rounded-full border border-border bg-card text-sm no-underline hover:bg-accent">What is Ironwood?</a>
-  <a href="#which-full-node-should-i-run" className="inline-flex px-3 py-1.5 rounded-full border border-border bg-card text-sm no-underline hover:bg-accent">Which full node?</a>
-  <a href="#where-do-i-look-up-a-term-from-a-release-note" className="inline-flex px-3 py-1.5 rounded-full border border-border bg-card text-sm no-underline hover:bg-accent">Look up a term?</a>
+  <a href="#what-is-zcash" className="inline-flex px-3 py-1.5 rounded-full border border-border bg-card text-sm no-underline hover:bg-accent">Nu kae nye Zcash?</a>
+  <a href="#how-can-i-acquire-zcash" className="inline-flex px-3 py-1.5 rounded-full border border-border bg-card text-sm no-underline hover:bg-accent">Aleke mate ŋu axɔ Zcash?</a>
+  <a href="#what-is-the-difference-between-zcash-and-other-cryptocurrencies" className="inline-flex px-3 py-1.5 rounded-full border border-border bg-card text-sm no-underline hover:bg-accent">Vovototo le crypto ga bubuwo ŋu?</a>
+  <a href="#how-is-the-zcash-protocol-governed" className="inline-flex px-3 py-1.5 rounded-full border border-border bg-card text-sm no-underline hover:bg-accent">Protocol dziɖuɖu?</a>
+  <a href="#where-is-my-transaction" className="inline-flex px-3 py-1.5 rounded-full border border-border bg-card text-sm no-underline hover:bg-accent">Afika nye gaɖoɖo le?</a>
+  <a href="#is-zcash-really-private" className="inline-flex px-3 py-1.5 rounded-full border border-border bg-card text-sm no-underline hover:bg-accent">Zcash nye ɣaɣla vavã oa?</a>
+  <a href="#a-few-common-misconceptions" className="inline-flex px-3 py-1.5 rounded-full border border-border bg-card text-sm no-underline hover:bg-accent">Nususu siwo menyo o siwo kpɔa zi geɖe</a>
+  <a href="#zcashd-stopped-working-what-do-i-run-now" className="inline-flex px-3 py-1.5 rounded-full border border-border bg-card text-sm no-underline hover:bg-accent">zcashd megawɔa dɔ o?</a>
+  <a href="#how-do-i-move-my-zcashd-wallet-to-zallet" className="inline-flex px-3 py-1.5 rounded-full border border-border bg-card text-sm no-underline hover:bg-accent">Matrɔ nye gakotoku yi Zallet me oa?</a>
+  <a href="#what-is-ironwood-and-do-i-need-to-do-anything" className="inline-flex px-3 py-1.5 rounded-full border border-border bg-card text-sm no-underline hover:bg-accent">Nu kae nye Ironwood?</a>
+  <a href="#which-full-node-should-i-run" className="inline-flex px-3 py-1.5 rounded-full border border-border bg-card text-sm no-underline hover:bg-accent">Ɣaɣla dzesi ŋɔŋlɔ blibo kae manɔ wɔm?</a>
+  <a href="#where-do-i-look-up-a-term-from-a-release-note" className="inline-flex px-3 py-1.5 rounded-full border border-border bg-card text-sm no-underline hover:bg-accent">Madi nyagbalẽ aɖe ƒe gɔme oa?</a>
 </div>
 
 ---
 
-## Nukae nye Zcash?
+## Nu kae nye Zcash?
 
 <div className="rounded-2xl border border-border bg-card p-5 my-4">
 
-Zcash nye dijitaal ga si ƒe asitsatsa kabakaba, nya ɣaɣlawo kple fetu suewo. Ame ŋutɔ ƒe nyawo gbɔ kpɔkpɔe nye Zcash. Ewɔ mɔɖela be woazã kpeɖodzi siwo me sidzedze aɖeke mele o atsɔ aɣla asitsatsa ɖesiaɖe.
+Zcash nye digital ga si wɔa gaɖoɖowo kabakaba, siwo nye ɣaɣla [privacy], eye adzɔ le eme sue. Ɣaɣla nye Zcash ƒe nɔnɔme vevi aɖe. Eyae wɔ dɔ gbã be wozã zero-knowledge ɖaseɖigbalɛwo [proofs] be woaŋlɔ gaɖoɖo blibo ɣaɣla.
 
-Gakotoku geɖewo li na fexexe enumake, asitelefon dzi, dedie kple ame ŋutɔ ƒe fexexe: [Gakotokuwo](/using-zcash/wallets)
+Gakotoku geɖewo le afi sia be woawɔ fexexe kabakaba, le asimekplɔdzi, dedie, eye le ɣaɣla me: [Wallets](/using-zcash/wallets)
 
 </div>
 
-## Aleke mawɔ axɔ Zcash?
+## Aleke mate ŋu axɔ Zcash?
 
 <div className="rounded-2xl border border-border bg-card p-5 my-4">
 
-Àte ŋu aƒle ZEC le [vidzikpɔkpɔ ƒe asitɔtrɔwo](/using-zcash/custodial-exchanges), [DEX-wo](/using-zcash/dex), or [centralized swap platforms ƒe mɔnuwo](/using-zcash/centralized-swaps).
+Àte ŋu aƒle ZEC le [asikplɔ-dzralá gatrɔƒewo](/using-zcash/custodial-exchanges), [DEXs](/using-zcash/dex), alo [centralized ɖɔli ɖɔli ƒe platformwo](/using-zcash/centralized-swaps) dzi.
 
-Àte ŋu aƒle Zcash hatiwo hã alo axɔe to tomenukuƒewo me.
+Àte ŋu aƒle Zcash tso ame aɖe gbɔ na ame aɖe hã, alo nàxɔe to nukuku me.
 
 </div>
 
-## Vovototo kae le Zcash kple cryptocurrencies bubuwo dome?
+## Vovototo kae le Zcash kple crypto ga bubuwo dome?
 
 <div className="rounded-2xl border border-border bg-card p-5 my-4">
 
-Zcash nye ame ŋutɔ tɔ le gɔmedzedzea me wu Bitcoin alo Ethereum. Enaa block times kabakaba (sɛkɛnd 75), fe suewo, kple asitɔtrɔ edziedzi.
+Zcash nye ɣaɣla wu Bitcoin alo Ethereum le gɔme vevie. Eƒe gaɖoɖowo ƒe gaƒuƒoƒe ƒe ɣeyiɣi nye kabakaba (sekondi 75), adzɔ le eme sue, eye woɖea eƒe mɔ̃ ƒe sewo trɔtrɔ zi geɖe.
 
-Zãlawo ateŋu atia **Transparent** alo **Shielded** ƒe asitsatsa. Ne èdi nyatakaka bubuwo la, kpɔ [Nu gbagbewo ƒe agbenɔnɔ ƒe ɖoɖo si ŋu wokpɔ akpoxɔnu le](https://electriccoin.co/blog/shielded-ecosystem).
+Zãlawo ate ŋu atia **Nuwo ƒe ʋuʋuɖi** alo **Ɣaɣla** gaɖoɖowo. Ne wòdi nyanya bubu la, kpɔ [A Shielded Ecosystem](https://electriccoin.co/blog/shielded-ecosystem).
 
 </div>
 
-## Aleke wokpɔa Zcash ɖoɖowɔɖia dzii?
+## Aleke wodzi ɖu Zcash protocol dzi?
 
 <div className="rounded-2xl border border-border bg-card p-5 my-4">
 
-**Zcash Improvement Proposal (ZIP)** ƒe ɖoɖoae kpɔa ɖoɖowɔɖia dzi. Ame sia ame ate ŋu atsɔ ZIP. Nutoa me tɔwo ʋlia nya le nuŋlɔɖiawo ŋu eye ZIP ƒe nuŋlɔlawo xɔa wo alo gbea wo:
+Wodzi ɖu protocol la dzi to **Zcash Improvement Proposal (ZIP)** ƒe mɔ nu. Ame sia ame ate ŋu aɖo ZIP ƒe tata gbãtɔ. Hamea doa woƒe nya me na tata gbãtɔawo, eye ZIP ƒe nuŋlɔlaawo xɔ wo alo gbee wo:
 
-- [Daira Hopwood ƒe agbalẽa](https://twitter.com/feministPLT) (Electric Coin Company)
-- [Deirdre Connolly ƒe agbalẽa](https://twitter.com/durumcrustulum) (Zcash Foundation)
+- [Daira Hopwood](https://twitter.com/feministPLT) (Electric Coin Company)
+- [Deirdre Connolly](https://twitter.com/durumcrustulum) (Zcash Foundation)
 
-Woŋlɔa nyametsotsowo ɖe nɔnɔmeawo me eye woda asi ɖe wo dzi le kɔsɔkɔsɔ me ne network la xɔ wo.
+Wona tsitreɖoɖowo ge ɖe specification la me, eye woxɔ wo ɖoɖonu dzi ne network la xɔ wo.
 
 </div>
 
-## Afikae nye Asitsatsa le?
+## Afika nye nye Gaɖoɖo le?
 
 <div className="rounded-2xl border border-border bg-card p-5 my-4">
 
-Xlẽe gbã [míaƒe mɔfiala si xea mɔ na anyigbayeyedilawo](/guides/blockchain-explorers). Emegbe nàlé ŋku ɖe eŋu [Zcash Block ƒe Ʋuʋudedi](https://mainnet.zcashexplorer.app).
+Xlẽ [míaƒe mɔfiame tso gaƒuƒoƒe ƒe nukpɔlaawo ŋu](/guides/blockchain-explorers) gbã. Emegbe, kpɔ [Zcash Block Explorer](https://mainnet.zcashexplorer.app).
 
-Asitsatsaawo wu enu le abe miniti 25 (blok 20) megbe eye wotrɔa ga la le wo ɖokui si.
+Gaɖoɖowo ƒe ɣeyiɣi ƒu le miniti 25 (gaɖoɖowo ƒuƒoƒe 20) megbe, eye woɖoa gaawo ɖe megbe le eɖokui si.
 
-**Susu siwo bɔ siwo tae asitsatsa aɖe mate ŋu adze o:**
+**Ta siwo ta gaɖoɖo aɖe mate ŋu aɖe fia o le zi geɖe:**
 
-- Kadodo ƒe bu
-- Asitsatsa ƒe fetu bɔbɔ akpa
-- Network ƒe agba si wu tsɔtsɔ
-- Nusiwo wotsɔ dea eme si me kɔ akpa (lolo akpa)
+- Kadodo ƒe gbagbe
+- Gaɖoɖo ƒe adzɔ le sue akpa
+- Network la ƒe dɔ geɖe akpa
+- Nu siwo wotsɔa de gaɖoɖo me le nuwo ƒe ʋuʋuɖi me sɔ gbɔ (eƒe lolome gã akpa)
 
-**Aɖaŋuɖoɖo siwo ana nàkpɔ dzidzedze:**
+**Nu siwo ana wòawɔ edzi:**
 
-- Zã kadodo si li ke
-- Xe fe si woɖo ɖi (alo esi lolo wu ne wotsɔe ɖo nɔƒe gbãtɔ)
-- Lala eye nàgadze agbagba ake emegbe
-- Zã nusiwo wotsɔ de eme ʋɛ aɖewo be asitsatsa la nanɔ sue
+- Zã kadodo si le dedie
+- Xe adzɔ si wode ɖo (alo gã wu ne nàdi be woade ŋgɔ na wò)
+- Le mɔ kpɔ eye nàte ŋu agate wòawɔe emegbe
+- Zã nu siwo wotsɔa de gaɖoɖo me sue wu be gaɖoɖo la ƒe lolome nanɔ sue
 
 </div>
 
-## Ðe Zcash nye Ame ŋutɔ tɔ nyateƒea?
+## Zcash nye Ɣaɣla vavã oa?
 
 <div className="rounded-2xl border border-border bg-card p-5 my-4">
 
-**Ẽ.** Zcash ɣlaa ame si ɖoe ɖa, ga home, kple amesi xɔe ƒe nyatakakawo hena asitsatsa siwo wokpɔ ta na.
+**Ẽ.** Zcash ɣaɣlaŋlɔŋlɔa ame si dɔe, ga home, kple ame si xɔe ƒe nyawo na ɣaɣla gaɖoɖowo.
 
-Zcash mewɔa **me** o:
+Zcash **menɔa**:
 
-- Encrypt multisignature transactions (FROST ƒe ƒoƒo ɖekae le lalam)
-- Takpɔkpɔ tso kadodo siwo le asitsatsa siwo me kɔ la me
-- Ɣla IP adrɛswo
+- Ɣaɣlaŋlɔŋlɔa asidede ƒe dzesi geɖe ƒe gaɖoɖowo o (FROST ƒe kadodo le mɔ kpɔm)
+- Dea ɣaɣla na kadodo siwo le kple nuwo ƒe ʋuʋuɖi gaɖoɖowo o
+- Ɣlaa IP gaɖoƒe ƒe dzesiwo o
 
-Nuxexlẽ bubuwo: [Nu gbagbewo ƒe agbenɔnɔ ƒe ɖoɖo si ŋu wokpɔ akpoxɔnu le](https://web.archive.org/web/20260903010654/https://electriccoin.co/blog/shielded-ecosystem/)
+Xexlẽ bubu: [A Shielded Ecosystem](https://web.archive.org/web/20260903010654/https://electriccoin.co/blog/shielded-ecosystem/)
 
 </div>
 
-## zcashd dzudzɔ dɔwɔwɔ, nukae maƒu du fifia?
+## zcashd megawɔa dɔ o, nu kae manɔ wɔm fifia?
 
 <div className="rounded-2xl border border-border bg-card p-5 my-4">
 
-zcashd xɔ dzudzɔ le dɔme. Version 6.20.0 tu eɖokui le block 3417100 le 18 July 2026 dzi, eye medo alɔ Ironwood (NU6.3), eyata tɔtrɔ yeye aɖeke meli si woawɔ yeyee o.
+zcashd le dɔ me o azɔ. Version 6.20.0 tɔ eɖokui ɖe gaɖoɖowo ƒuƒoƒe 3417100 dzi le 18 July 2026, eye mekpɔ Ironwood (NU6.3) ƒe kpekpeɖeŋu kpɔ gbeɖe o, eyata version bubu aɖeke mele be nàtsɔ awɔ upgrade o.
 
-Du Z3 ƒe ƒuƒoƒoa boŋ. Ðoɖo etɔ̃ ma dɔ si zcashd ɖeka wɔna tsã la me:
+Wɔ Z3 stack la dɔ ɖe teƒe. Program etɔ mawo ma wɔ dɔ si zcashd wɔ ena ɖe eɖokui me:
 
-- **[Zebra](/zcash-tech/zebra-full-node)** ɖo kpe kɔsɔkɔsɔa dzi
-- **[Zaino](/zcash-tech/zaino)** indexes eŋu eye wòsubɔa gakotoku me nyatakakawo
-- **[Zallet](/zcash-tech/zallet)** lé wò ga ɖe asi
+- **[Zebra](/zcash-tech/zebra-full-node)** dea ɖoɖonu la ƒe nyateƒe
+- **[Zaino](/zcash-tech/zaino)** ƒoa eƒe index eye wònaa gakotoku ƒe data
+- **[Zallet](/zcash-tech/zallet)** kpɔa wò gaawo dzi
 
-[Zakura](/zcash-tech/zakura-node) nye node blibo bubu si woate ŋu azã. Ewɔa zcashd hã ɖe eɖokui dzi, si kpena ɖe ame ŋu ne kɔmpiutadziɖoɖo bubuwo gakpɔtɔ le mɔ kpɔm na ŋgɔdonya xoxoa.
+[Zakura](/zcash-tech/zakura-node) nye ɣaɣla dzesi ŋɔŋlɔ blibo bubu. Eya hã wɔa zcashd dɔ le eɖokui dzi, si kpena ɖe wò ŋu ne software bubuwo gale interface xoxoa dim.
 
-Dze egɔme kple.. [ʋuʋu yi teƒe bubuwo ŋuti mɔfiame](/guides/migration-guide-zcashd-to-zebrad-zallet).
+Dze egɔme kple [migration guide](/guides/migration-guide-zcashd-to-zebrad-zallet).
 
 </div>
 
-## Aleke mawɔ atsɔ nye zcashd gakotokua ayi Zallet?
+## Aleke matrɔ nye zcashd gakotoku ayi Zallet me?
 
 <div className="rounded-2xl border border-border bg-card p-5 my-4">
 
-Zallet ʋua esi li xoxo `wallet.dat`, ale be nèdzraa wò ga kple adrɛswo ɖo.
+Zallet trɔa `wallet.dat` si le xoxo, eyata nàgaɖo wò gaawo kple wò gaɖoƒe ƒe dzesiwo.
 
-Trɔ yi megbe `wallet.dat` gbã, emegbe nàkplɔe ɖo [ʋuʋu yi teƒe bubuwo ŋuti mɔfiame](/guides/migration-guide-zcashd-to-zebrad-zallet). Dzra backup ma ɖo vaseɖe esime nàɖo kpe wò ga si susɔ dzi le Zallet.
+Wɔ `wallet.dat` ƒe backup gbã, eye nàdze ɖe [migration guide](/guides/migration-guide-zcashd-to-zebrad-zallet) yome. Lé backup ma ɖe asi vaseɖe esi nàkɔ wò ga home le Zallet me.
 
-The [Zallet ƒe nufiame kabakaba](/using-zcash/zallet-quick-reference-guide) ƒoa nu tso gbesiagbe sededewo ŋu ne ènya ɖo afima ko.
+[Zallet quick reference](/using-zcash/zallet-quick-reference-guide) ƒe nya me wɔa dɔ kple gbe sia gbe ƒe sewo ne nàva yi vɔ.
 
 </div>
 
-## Nukae nye Ironwood, eye ɖe wòhiã be mawɔ nanea?
+## Nu kae nye Ironwood, eye hia be mawɔ nu aɖe oa?
 
 <div className="rounded-2xl border border-border bg-card p-5 my-4">
 
-Ironwood nye network upgrade NU6.3, live on mainnet tso block 3,428,143 le 28 July 2026. Etsɔ shielded pool si wotu ɖe circuit si woɖɔ ɖo dzi kpena ɖe eŋu eye wòtrea xoxotɔ nu [Orchard](/using-zcash/shielded-pools) pool, ale be ame sia ame ate ŋu aɖo kpe edzi be womewɔ aʋatso ZEC aɖeke o.
+Ironwood nye mɔ̃ ƒe sewo trɔtrɔ [network upgrade] NU6.3, si le mainnet dzi tso gaɖoɖowo ƒuƒoƒe 3,428,143 dzi le 28 July 2026. Etsɔ ɣaɣla gaƒuƒoƒo yeye va, si wowɔ tso circuit si woɖo ɖo emegbe me, eye wotu xoxo [Orchard](/using-zcash/shielded-pools) gaƒuƒoƒo la, ale be ame sia ame ate ŋu akpɔe ɖa be ZEC aɖeke menye ɖe dzodzro o.
 
-**Ne èlé ga siwo wokpɔ ta na la, ate ŋu ahiã be woaʋu.** Value leaves Orchard only through [ʋuƒo si wotsɔ trɔa asi le nu ŋu](/zcash-tech/the-turnstile), eye gakotokuwo kpɔa ʋuʋua gbɔ le ɣeyiɣi vovovowo me kple le mɔ vovovowo nu. Bia wò gakotokudzikpɔla hafi nàtsɔ asi aʋuʋu nane.
+**Ne èle ɣaɣla gaawo ɖe asi la, ele be woatrɔ wo yi teƒe bubu.** Ga ƒe asixɔxɔ doa le Orchard me to [gaɖoɖowo ƒe xexlẽdzikpɔɖeƒe](/zcash-tech/the-turnstile) ko, eye gakotokuwo trɔa wo le ɣeyiɣi vovovowo kple mɔ vovovowo nu. Ɖoe ɖe wò gakotoku ƒe nudzraɖola gbɔ hafi nàtsɔ asi atrɔ nu aɖeke.
 
-Xlẽ [Ironwood](/zcash-tech/ironwood) le nusi trɔ kple nusitae ta.
+Xlẽ [Ironwood](/zcash-tech/ironwood) be nànya nu si trɔ kple ta si ta etrɔ.
 
 </div>
 
-## Node blibo kae wòle be maƒu du?
+## Ɣaɣla dzesi ŋɔŋlɔ blibo kae manɔ wɔm?
 
 <div className="rounded-2xl border border-border bg-card p-5 my-4">
 
-**[Zebra](/zcash-tech/zebra-full-node)** nye zcashd kple node si ʋuʋu ƒe mɔfiala la tsɔ ɖo eteƒe tẽ. Tiae negbe ɖe susu aɖe le asiwò be màtiae o.
+**[Zebra](/zcash-tech/zebra-full-node)** nye nu si ɖe teƒe na zcashd tẽ, eye migration guide la bua be yeanɔ wɔm. Tiae negbe wòta bubu aɖeke mele na wò o.
 
-**[Zakura](/zcash-tech/zakura-node)** nye dɔwɔwɔ evelia si woɖo ɖe dzidzenu ŋu, kple sync kabakaba wu kple native block pruning. Tiae ne èhiã esiawo, alo ne èɖoa ŋu ɖe kɔmpiutadziɖoɖo siwo gakpɔtɔ ƒoa nu na zcashd.
+**[Zakura](/zcash-tech/zakura-node)** nye dɔwɔwɔ bubu si ƒe tame nye be wòanɔ gã, si ƒe sync le kabakaba wu eye wòate ŋu atso gaɖoɖowo ƒuƒoƒewo xoxo le eɖokui me. Tiae ne èhia esiawo, alo ne èle software si gale ƒo nu kple zcashd zãm.
 
-Wo ame evea siaa ɖo kpe kɔsɔkɔsɔ ɖeka dzi, eyata esia nye dɔwɔwɔ ƒe tiatia tsɔ wu be wòanye esi dzi woda asi ɖo.
+Evea kata dea ɖoɖonu ma ke ƒe nyateƒe, eyata dɔwɔwɔ ƒe tiatae nye, menye gbegbɔgblɔ ɖi ƒe tiatae o.
 
 </div>
 
-## Afikae makpɔ nya aɖe tso agbalẽ si woɖe ɖe go me?
+## Afika mate ŋu adi nyagbalẽ aɖe si tso release note me ƒe gɔme?
 
 <div className="rounded-2xl border border-border bg-card p-5 my-4">
 
-Kpɔ nya si [Zcash Agbalẽdzraɖoƒe](/glossary-and-faqs/zcash-library). Eƒo nu tso node kple wallet software, shielded pools, kple ZIP xexlẽdzesi siwo trɔna zi geɖe ŋu.
+Kpɔ [Zcash Library](/glossary-and-faqs/zcash-library). Eƒe nya me le ɣaɣla dzesi ŋɔŋlɔ kple gakotoku ƒe software, ɣaɣla gaƒuƒoƒowo, kple ZIP ƒe xexlẽwo siwo doa go zi geɖe.
 
 </div>
 
-## Nukpɔsusu totro ʋɛ aɖewo siwo bɔ
+## Nususu siwo menyo o aɖe siwo kpɔa zi geɖe
 
 <div className="rounded-2xl border border-border bg-card p-5 my-4 overflow-x-auto">
 
 <table className="w-full border-collapse">
   <thead>
     <tr className="border-b border-border bg-amber-100 dark:bg-zinc-800">
-      <th className="py-4 px-5 text-left font-bold text-amber-800 dark:text-white">Misconception</th>
-      <th className="py-4 px-5 text-left font-bold text-amber-800 dark:text-white">Correct Answer</th>
+      <th className="py-4 px-5 text-left font-bold text-amber-800 dark:text-white">Nususu si menyo o</th>
+      <th className="py-4 px-5 text-left font-bold text-amber-800 dark:text-white">Ɖoɖo blibo</th>
     </tr>
   </thead>
   <tbody>
     <tr className="border-b border-border hover:bg-amber-50 dark:hover:bg-zinc-700">
-      <td className="py-4 px-5 font-medium text-foreground">Is Zcash a centralised coin?</td>
-      <td className="py-4 px-5 text-foreground">No. A trademark agreement prevents the Zcash Foundation or ECC from acting against community consensus. Governance is proven decentralised (see [Messari report](https://messari.io/report/decentralizing-zcash)). Community polls, ZecHub, and Zcash Foundation A/V Club all enable broad participation.</td>
+      <td className="py-4 px-5 font-medium text-foreground">Zcash nye coin si wodzi ɖu le teƒe ɖeka oa?</td>
+      <td className="py-4 px-5 text-foreground">Ao. Trademark ƒe agreement aɖe tɔa Zcash Foundation alo ECC ɖe mɔ be woanɔ wɔm tsitre ɖe hamea ƒe gbegbɔgblɔ ɖi ŋu o. Woɖe ɖoɖo be dziɖuɖu la nye ha nuɖo agni (kpɔ [Messari ƒe report](https://messari.io/report/decentralizing-zcash)). Hamea ƒe vote, ZecHub, kple Zcash Foundation A/V Club wɔa mɔ na ame geɖe ƒe hatsotso.</td>
     </tr>
     <tr className="border-b border-border hover:bg-amber-50 dark:hover:bg-zinc-700">
-      <td className="py-4 px-5 font-medium text-foreground">Does Zcash have a backdoor?</td>
-      <td className="py-4 px-5 text-foreground">No. Neither Zcash nor any cryptographic software we have built contains a backdoor, and never will.</td>
+      <td className="py-4 px-5 font-medium text-foreground">Zcash ƒe mɔ megbe aɖe le eme oa?</td>
+      <td className="py-4 px-5 text-foreground">Ao. Zcash alo crypto ƒe software aɖeke si míetu kpɔ o le mɔ megbe aɖeke, eye makpɔe gbeɖe o.</td>
     </tr>
     <tr className="border-b border-border hover:bg-amber-50 dark:hover:bg-zinc-700">
-      <td className="py-4 px-5 font-medium text-foreground">Is Zcash controlled by a corporation?</td>
-      <td className="py-4 px-5 text-foreground">Incorrect. While we partner with companies for research, Zcash remains committed to decentralisation. Multiple autonomous organisations work together toward self-custody and privacy rights.</td>
+      <td className="py-4 px-5 font-medium text-foreground">Company aɖe le Zcash dziɖum oa?</td>
+      <td className="py-4 px-5 text-foreground">Esia menye nyateƒe o. Togbɔ be míewɔa dɔ kple companywo le numekpɔkpɔ me hã la, Zcash gale ha nuɖo agni ƒe dzadzraɖo. Hame siwo ƒe dziɖuɖu le wo ŋutɔ ƒe asi me geɖe wɔa dɔ ɖekae be woaƒo asikplɔ le wo ŋutɔ ƒe asi me eye woakpɔ ɣaɣla ƒe katãtɔwo dzi.</td>
     </tr>
     <tr className="hover:bg-amber-50 dark:hover:bg-zinc-700">
-      <td className="py-4 px-5 font-medium text-foreground">Zcash has limited privacy compared to other privacy coins</td>
-      <td className="py-4 px-5 text-foreground">No. Monero/Grin-style privacy relies on decoys (which can be defeated). Zcash encrypts all shielded transaction data so every transaction in the pool is indistinguishable. See [Not Private Enough?](https://electriccoin.co/blog/not-private-enough-mixers-and-decoys-wont-protect-you-for-long/).</td>
+      <td className="py-4 px-5 font-medium text-foreground">Zcash ƒe ɣaɣla le sue sɔ kple ɣaɣla coin bubuwo</td>
+      <td className="py-4 px-5 text-foreground">Ao. Monero/Grin ƒe ɣaɣla ɖoa dzi ɖe decoywo ŋu (siwo ate ŋu aɖe wɔnuku). Zcash ɣaɣlaŋlɔŋlɔa ɣaɣla gaɖoɖo ƒe data blibo, ale be gaɖoɖo sia ame si le gaƒuƒoƒo la me mate ŋu adze to o. Kpɔ [Not Private Enough?](https://electriccoin.co/blog/not-private-enough-mixers-and-decoys-wont-protect-you-for-long/).</td>
     </tr>
   </tbody>
 </table>
@@ -201,5 +201,5 @@ Kpɔ nya si [Zcash Agbalẽdzraɖoƒe](/glossary-and-faqs/zcash-library). Eƒo n
 
 ---
 
-**Wotrɔ asi le eŋu zi mamlɛtɔ:** October 2026
-**Àdi be yeadzɔ nua?** [Trɔ asi le axa sia ŋu le GitHub](https://github.com/ZecHub/zechub/edit/main/site/Glossary_and_FAQs/FAQ.md)
+**Wotrɔe mlɔeba:** October 2026
+**Èdi be yeawɔ kpekpeɖeŋu oa?** [Trɔ axa sia le GitHub](https://github.com/ZecHub/zechub/edit/main/site/Glossary_and_FAQs/FAQ.md)

@@ -3,100 +3,100 @@ published: 2025-08-02
 ---
 
 <a href="https://github.com/Zechub/zechub/edit/main/site/Research/Namada_Privacy_and_Best_Practices.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Atria Axɔ"/>
 </a>
 
 ![Namada Logo](/content-images/nam-078c7b6883.webp)
 
-# Namada Privacy Best Practices (Nyamedzodzro Nyuitɔ)
+# Namada Ɣaɣla [Privacy] Ƒe Nɔnɔme Kɔkɔewo
 
-> Mɔfiame nyui aɖe si dzi woate ŋu ato awɔ nu le Namada ƒe dedienɔnɔ ŋudɔ bliboe - eye woase afisi eƒe ametakpɔkpɔa se ɖo la gɔme nyuie.
+> Fiƒi ƒe kpekpeɖeŋu siwo wòate ŋu awɔ la, eye woana nàkpɔ ɣaɣla si le Namada dzi kple afisi eƒe dzodzrowo va se tututu.
 
-** Ame ƒe agbe nye nu vevi.** Wowɔ Namada be wòakpɔ ame ta to numekugbalẽ siwo me nunya mele o dzi. Mɔfiagbalẽ sia ƒo nu tso mɔnu nyui si zãlawo kple dɔwɔƒe siwo kpɔa amewo ƒe agbe gbɔ la zãna ŋu.
-
----
-
-## Alesi Namada Kpɔa Wò Nyawo Tae
-
-Namada nyea blockchain si ŋu bubu le, eye eƒe nuŋɔŋlɔwo kple ga siwo woazã atsɔ awɔ dɔe la nɔa ɣaɣla to kpeɖodzi siwo me sidzedze aɖeke mele o (zk-SNARKs) dzi.
-
-### Ame Ŋuti Nyawo Gbɔ Kpɔkpɔ Ƒe Mɔfiame Veviwo
-
-- **Gbeɖoɖowo si Wotsɔna le Mɔ̃ Dzi** - Eɣla ameɖoɖola, amesi xɔe kple ga homeawo keŋkeŋ.
-- **Multi-Asset Shielded Pool (MASP)** - Ameɖokui ƒe ga si woxɔna le ame bubuwo dome, kple nu siwo wotsɔ ɖɔa li eƒe nuwo.
-- ** Cross-Chain Privacy** - Kpo si dzi woato ato IBC (Ethereum kple Solana ƒe kpekpeɖeŋu ava kpuie).
-- **Ðeɖekpɔkpɔ tso Nunana si Wotsɔna Ðe Asixɔxɔa Me ŋu** - Na NAM tokens to asitsatsa siwo wotsɔ kpɔa wo ɖokui ta dzi ko.
-- ** Fewo Mele Ʋɛ O** - Ameɖokui ƒe dedienɔnɔ si mebɔ o evɔ womete ŋu le nu gblẽm le eŋu hã.
+**Ɣaɣla nye amegbetɔ ƒe gomegã vevi aɖe.** Namada wotu tsitre vevie be wòaɣlae to zero-knowledge cryptography ŋu. Mɔfiafia sia ƒo nɔnɔme kɔkɔe siwo amewo kple mɔ̃ ƒe ɖoɖoŋlɔlawo zãna be woaɣla wo ŋutɔ ƒe nuwo kple woƒe ŋusẽ katã.
 
 ---
 
-## Seɖoƒe Vevi Aɖewo Li
+## Ale Si Namada Ɣea Wò Ɣaɣla
 
-Ame siwo zãa Internet la ƒe nuwɔnawo alo nu bubu aɖewo ate ŋu agblẽ ameŋkumekpɔkpɔ si le internet dzi hahoo kadodo sesẽtɔ kekeake gɔ̃ hã me.
+Namada nye gaɖoɖowo ƒuƒoƒo ƒe ɖoɖonu [blockchain] si woɖo ɣaɣla tsã na, eye wòɣlana gakotoku [wallet] ƒe gaɖoƒe ƒe dzesiwo, gaɖoɖo ƒe asimewo, kple balans wo to **zero-knowledge ɖaseɖigbalɛwo [proofs] (zk-SNARKs)** ŋu.
+
+### Ɣaɣla Ƒe Nɔnɔme Veviwo
+
+- **Ɣaɣla Gaɖoɖowo [Shielded Transactions]** - Ɛɣlana sedzila, xɔla, kple asimewo blibo.
+- **Nu Geɖe Ƒe Ɣaɣla Gaƒuƒoƒo [Multi-Asset Shielded Pool] (MASP)** - Ɣaɣla me ƒe gaɖoɖowo, ɖɔli ɖɔli, kple ga ƒe lẽdodo le nu sia nu ƒe dome.
+- **Ðoɖonu Geɖe Dome Ɣaɣla [Cross-Chain Privacy]** - Ɣaɣla me ƒe ga ƒe lẽdodo to IBC dzi (Ethereum kple Solana ƒe kpekpeɖeŋu ava enumake).
+- **Ɣaɣla Ƒe Dzidzɔ Ƒe Fetuwɔwɔ Ƒe Nunana** - Xɔ NAM tokens to gaɖoɖowo ɣaɣlaɣaɣla ko ta.
+- **Adzɔ Suewo** - Ɣaɣla sesẽ si me zãzã ƒe bɔbɔe menɔ o.
+
+---
+
+## Dzodzro Veviwo
+
+Ɣaɣla si seseŋu wu le ɖoɖonu dzi hã ate ŋu agbã to ezãla ƒe nɔnɔme alo nu siwo le ɖoɖonu me o ta.
 
 <div class="border-l-4 border-yellow-400 bg-yellow-400/10 p-6 my-8 rounded-r-xl text-sm">
 
-** Namada MEKPƆA ame ta tso:**
+**Namada meɣlana wò tso nu siawo gbɔ O:**
 
-- Ƒo ka VPN alo Tor manɔmee (woaɖe wò IP address ɖe go)
-- Adrɛs siwo ŋu wotrɔ asi le la zazã edziedzi
-- Dɔwɔƒe siwo me woɖea ga le (siwo ŋu wometsɔa nuŋɔŋlɔdzesi aɖeke tsonɛ o) wɔwɔ
-- Namada ƒe adrɛs la kple social media alo xexeame ŋutɔŋutɔ ŋuti nyatakakawo dome kadodo
-- Ne èdi be yeawɔ dɔ le KYC dɔwɔƒe si zãa Internet la, ke wɔ ɖe mɔfiame siwo dzi wòdzea agbagba ɖo la dzi.
+- Kakaɖedzi si me VPN alo Tor mele o (wò IP address doa ɖe go)
+- Ɣaɣla gaɖoƒe ƒe dzesiwo zãzã zi geɖe
+- Nuwo ƒe ʋuʋuɖi (matsɔ ɣaɣla na o) gaɖoɖowo wɔwɔ
+- Wò Namada gaɖoƒe ƒe dzesi ƒoƒo kple social media alo wò amegbetɔ ƒe nɔnɔme le xexeme
+- KYC gatrɔƒe siwo le amesia ame ƒe dzikpɔkpɔ te zãzã na gaɖoɖo alo gaɖeɖe
 
 </div>
 
 ---
 
-## Nu Siwo Woate Ŋu Awɔ Be Ame Sia Me Nanya Nanɔ Kplii Ale Gbegbe Wu
+## Nɔnɔme Kɔkɔewo Na Ɣaɣla Si Seseŋu Wu
 
-### 1. Gɔmemɔfiamewo
-- Ne èwɔ dɔ sia la, ele be nàzã "shielded transactions" le esi nèdi be yeawɔ nu vɔ̃a ta.
-- Mègazã adrɛs siwo dzi wotre ɖo la le taɖodzinu bubuwo ta gbeɖe o.
-- Mègatsɔ nu siwo me woɣla kple esiwo le gaglãa wɔ dɔe ɖekae o.
+### 1. Gbegbe Ƒe Gɔmeɖeɖewo
+- Zã **ɣaɣla gaɖoɖowo** na wɔwɔ sia wɔwɔ.
+- Mègazã ɣaɣla gaɖoƒe ƒe dzesiwo na ta vovovowo o.
+- Nàtsi ɣaɣla kple nuwo ƒe ʋuʋuɖi ƒe nudzɔdzɔwo ƒe tsɔtsɔ ƒu le keke ɖeka me o.
 
-### 2. Aset Siwo Le Kpo Ði La
-- Zã adrɛs si me wodzena le nyuie ** ko** na tɔdzisasrã siwo gbɔna.
-- Ne míeva ɖo teƒea la, ele be míaxɔ wo le mɔ̃awo dzi enumake.
-- Ne anya wɔ la, ɖe mɔxeɖenu si nàtsɔ ado Namada ɖa dzi kpɔtɔ.
+### 2. Nuwo Ƒe Ga Ƒe Lẽdodo
+- Zã nuwo ƒe ʋuʋuɖi gaɖoƒe ƒe dzesi aɖe **ko** na ga ƒe lẽwo siwo va ge ɖo.
+- Ɖo nuwo ɣaɣla enumake ne woɖe ga ƒe lẽ va ge ɖo.
+- Nàwɔ ga ƒe lẽ adzo tso Namada me vie ne wòate ŋu.
 
-### 3. MASP (Nusiwo Dzi Woato Akpɔ Ŋusẽ Ðe Ame dzi)
-- Le esi wònye be MASP la me koe woazã woƒe nunɔamesiwo katã le ta.
-- Tsɔ wò MASP ga si susɔ la abe ɖokuiwò tɔ koŋ ene.
+### 3. MASP (Nu Geɖe Ƒe Ɣaɣla Gaƒuƒoƒo)
+- Dzro nuwo katã ɖe MASP me le gɔmedzedze me.
+- Bu wò MASP balans be enye wò gakotoku si tɔxɛ le ɣaɣla me.
 
-### 4. Nuwo Kpɔkpɔ ƒe Mɔfianuwo
-- Ame siwo dzi nèka ɖo bliboe koe nàtsɔ mɔfianuwo ana.
-- Mègaɖe mɔ be ame aɖeke nakpɔ video siwo nèdi be yeakpɔ la o.
+### 4. Nukpɔsafuiwo
+- Na nukpɔsafuiwo **ko** amewo siwo dzi wòka ɖe blibo.
+- Mègblɔ nukpɔsafuiwo le ame katã ƒe ŋkume alo nàtsɔ wo ade internet dzi o.
 
-### 5. Nuwɔnawo Ŋuti Dzadzɛnyenye
-- Wɔ ɖoɖo ɖe ɣeyiɣi kple ga home si nàzã le nuxexlẽawo me ŋu.
-- Ne anya wɔ la, dzra nu geɖe ɖo ɖekae.
-- Mègaɖo ga gbogbo aɖe si dzi woate ŋu akpɔ adze sii bɔbɔe la ɖe ame aɖeke o.
+### 5. Gaɖoɖo Ƒe Dzadzɛnyenye
+- Trɔ ɣeyiɣi kple asimewo le gaɖoɖowo dome.
+- Ƒo gaɖoɖo geɖewo ƒu ne wòate ŋu.
+- Nàtsi ga ƒe asime blibo alo asime siwo amewo ate ŋu aka ɖe ame aɖe ŋu o.
 
-### 6. Dɔwɔƒewo ƒe Dedienɔnɔ
-- Zã VPN ɣesiaɣi (Tor koŋ) ne èle nu wɔm kple gaɖabawo alo dApps.
-- Mègaɖe foto siwo me adrɛswo alo ga si susɔ la le fia ame bubuwo gbeɖe o.
-- Zã gaɖakawo le teƒe vovovowo na nu vovovo wɔwɔ (ƒle, nunana kple ame ŋutɔ ƒe zazã).
-
----
-
-## Ame Ŋuti Nyawo Gbɔ Kpɔdɔ Kpɔkpɔ ƒe Numetoto Gbadza
-
-1. **Ðeviwo ƒe dedienɔnɔ koŋue nye nu vevitɔ ɣesiaɣi** - tsɔ ga yi MASP me hafi nàwɔ asitsatsa.
-2. **Trɔa adrɛs siwo ŋu wotɔ ŋku ɖo la edziedzi ɖe wo zazã ƒe mɔnu vovovowo nu.
-3. **Ðe ga le asitsatsaƒe siwo ŋu wotrɔ asi le tẽ la ƒe adrɛswo dzi** ne anya wɔ.
-4. **Traduction timing** ƒe tɔtrɔ be wòagblẽ nu le ɖoɖo siwo ŋu woate ŋu akpɔ la ŋu.
-5. ** Zã ga si wotsɔna wɔa dɔe la na dɔwɔƒe siwo me nuwo sɔ gbɔ ɖo.
-6. ** Na software nanɔ ɖoɖo nu ɣesiaɣi** - zã Namada client yeyea ko.
-7. **Ðɔ wò mɔ̃a ŋu** kple nuŋɔŋlɔ sesẽwo kpakple nya ɣaɣla siwo dzi woazã.
-8. **Ðo ŋu vevie** le metadata siwo dona ɖe dzeɖoɖowo alo nyatakaka gbogbo aɖewo me la ŋuti.
+### 6. Dɔwɔwɔ Ƒe Dedienɔnɔme
+- Zã **VPN** ɣesiaɣi (vevie Tor) ne nèle gakotokuwo alo dApps zãm.
+- Mègana screenshot siwo me gaɖoƒe ƒe dzesiwo alo balanswo le o.
+- Zã gakotoku vovovowo na dɔwɔwɔ vovovowo (asitsɔasitsɔ, nunana, ŋutɔ ƒe zãzã).
 
 ---
 
-## Kpekpeɖeŋu nana ame bubuwo
+## Ɣaɣla Ƒe Nudzodzro Didime
 
-Ðe mɔnu nyui alo nyaŋuɖoɖo bubuwo lia? 
-[De nu dzeɖoɖo si le Discord dzi la me.](https://discord.gg/srC76aE6)
+1. **Ɖo ɣaɣla ɖe nuwo ŋu ɣesiaɣi gbã** - tsɔ nuwo ge ɖe MASP me hafi nàwɔ gaɖoɖo.
+2. **Trɔ ɣaɣla gaɖoƒe ƒe dzesiwo** ɣesiaɣi na zã nyawo vovovowo.
+3. **Ɖe ga ɖe ɣaɣla gaɖoƒe ƒe dzesiwo dzi tẽ** tso gatrɔƒewo me ne wòate ŋu.
+4. **Trɔ gaɖoɖo ƒe ɣeyiɣi** be nàtsrɔ nɔnɔme siwo amewo ate ŋu akpɔ.
+5. **Zã asikplɔwo dzra mɔ** na nu siwo sɔ ga geɖe.
+6. **Na software nadzɔ ɣeyiɣi sia ɣeyiɣi** - zã Namada client yeyeetɔ ɣesiaɣi.
+7. **Ɖe wò mɔdziƒe ɖe dzidzedze me** kple ɣaɣlaŋlɔŋlɔ sesẽ kple nyagblɔɖeƒe dzikpɔlawo.
+8. **Kpɔ eŋu vevie ŋutɔ** le metadata ƒe ɖeɖe go le dzeɖoɖo alo ŋkume ƒe logwo me ŋu.
 
 ---
-*Wodoe ɖe go zi mamlɛtɔ le March 2026 me*
+
+## Ɖe Asi Kpee
+
+Ðe nɔnɔme kɔkɔe bubuwo alo nyaɖeɖe le asiwòa?  
+[Va ɖo nya le Discord dzi](https://discord.gg/srC76aE6)
+
+---
+*Woɖe egbe: March 2026*

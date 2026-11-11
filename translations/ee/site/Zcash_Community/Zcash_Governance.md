@@ -1,136 +1,136 @@
-# Zcash Gadodo & Dziɖuɖu ƒe Kpɔɖeŋu
+# Zcash Gaɖoɖo kple dziɖuɖu [Governance] ƒe nyatakaka
 
-Zcash ƒe on-chain funding model, block-reward mechanics, kple akpa siwo habɔbɔ gãwo wɔna
+Zcash ƒe ɖoɖonu dzi [on-chain] gaɖoɖo ƒe mɔnu, gaɖoɖowo ƒuƒoƒe [block] ƒe fetuɖoɖo ƒe mɔnuwo, kple habɔbɔwo ƒe gãtɔwo ƒe dɔwɔwɔ
 
-## 1. Alesi Zcash Block ƒe Teƒeɖoɖowo Wɔa Dɔe
+## 1. Ale si Zcash ƒe gaɖoɖowo ƒuƒoƒe ƒe fetuwo wɔa dɔe
 
-Zcash nye Kpeɖodzi-ɖe-Dɔwɔwɔ ƒe cryptocurrency. Block ɖesiaɖe si woɖe la maa eƒe **block subsidy** (ZEC yeye si wowɔ) kpe ɖe asitsatsa ƒe fewo ŋu le ɖoɖowɔɖi ƒe se si woɖo ɖi si network ƒe ŋgɔyiyiwo ɖo nu.
+Zcash nye dɔwɔwɔ ƒe ɖaseɖigbalɛ [Proof-of-Work] crypto ga. Gaɖoɖowo ƒuƒoƒe sia sia si woku la maa wɔna be woama **gaɖoɖowo ƒuƒoƒe ƒe kpekpeɖeŋu** (ZEC si wo wɔ yeyee) kple gaɖoɖo [transaction] ƒe adzɔ [fee]wo le mɔ̃ ƒe sewo trɔtrɔ [network upgrade] ƒe se si wode ɖo la nu.
 
-- **Fifi ƒe kpɔɖeŋu (NU6 megbe / November 2024 yi ŋgɔe)** 
-  Tso April 2026 me la, emamae nye:
+- **Mɔnu si le azɔ (le NU6 megbe / tso November 2024 yi ɖe edzi)**  
+  Le April 2026 me la, mamae nye:
 
-| Ame si xɔe | Alafa memamã | Nusi wòdzɔna na / ɖoƒe |
+| Nusi xɔa | Fetuƒe | Nusi wònaa ga na / eƒe nɔnɔme |
 |--------------------------------|------------|-------------------------------------------------------------|
-| Tomenukulawo | 80% ƒe xexlẽme | Tsã block fetu na tomenukulawo |
-| Zcash Hadome Gakpekpeɖeŋunana (ZCG) | 8% ƒe xexlẽme | Nutoa me ƒe kpekpeɖeŋunana (yi edzi vaseɖe ~2028) |
-| Lockbox (si dzi wokpɔna kple ɖoɖowɔɖi) | 12% ƒe xexlẽme | Gawo ƒoa ƒu; gazazã ƒe mɔnu aɖeke meli haɖe o; etsɔme nutoa me ƒe akɔdada hiã |
+| Nukulawo [Miners] | 80% | Gaɖoɖowo ƒuƒoƒe ƒe fetu si wòɖo ɖe nukulawo tẽe |
+| Zcash Community Grants (ZCG) | 8% | Hame ƒe ga ƒe kpekpeɖeŋu [grant]wo (eyi edzi va se ɖe ~2028) |
+| Lockbox (protocol si wɔe) | 12% | Gaawo ƒoa nu; mɔnu aɖeke mele be woatsɔ azã o hafi; hame ƒe akɔntaɖeɖe si ava la hiã |
 
-- **Do ŋgɔ na NU6 ŋutinya dev ga (2020-Nov 2024)** 
-  Block subsidy ɖesiaɖe ƒe 20% yi na ŋgɔyiyihabɔbɔwo tẽ:
+- **NU6 megbeɖeɖe ƒe dev fund xoxo (2020-Nov 2024)**  
+  Gaɖoɖowo ƒuƒoƒe ƒe kpekpeɖeŋu sia sia ƒe 20% yi ɖe mɔ̃ ƒe ɖoɖoŋlɔla [developer] habɔbɔwo gbɔ tẽe:
 
   - 7% -> Electric Coin Company (ECC) / Bootstrap Project  
   - 5% -> Zcash Foundation (ZF)  
-  - 8% -> Zcash Hadome Gakpekpeɖeŋunana (ZCG) .
+  - 8% -> Zcash Community Grants (ZCG)
 
-Wotsɔ 8% ZCG + 12% lockbox model via ɖɔ li 20% "dev fund" sia to [ZIP 1015 ƒe xexlẽdzesi](https://zips.z.cash/zip-1015).
+Woɖe "dev fund" 20% sia ɖe le ZCG + lockbox 12% ƒe mɔnu te ŋu to [ZIP 1015](https://zips.z.cash/zip-1015) me.
 
-### Nɔnɔmetɔtrɔ si wodo ɖa: ZIP 1016 - Nutoa me kple Gaxɔlawo ƒe Gadodo ƒe Kpɔɖeŋu
-ZIP 1016 (si wodo ɖa le February 2025 me, nɔnɔme: Wodoe ɖa) to gazazã ƒe ɖoɖo si me woɖe mɔ ɖe nu ŋu le wu vɛ. Awɔe be:
-- Yi 8% ƒe mama dzi na ZCG.
-- Trɔ 12% ƒe lockbox la wòazu "Coinholder-Controlled Fund" (si wotsɔ lockbox ga siwo li xoxo + 12% block subsidy si yi edzi la ƒo nukui).
-- Wɔ kpɔɖeŋu sia ŋudɔ vaseɖe esime wòaɖe afã etɔ̃lia (anɔ abe ƒe 3 ene).
-- Do ŋusẽ ZEC gakuxɔlawo be woada akɔ le gakpekpeɖeŋunana me ƒe etɔ̃ ɖesiaɖe to ɖoɖo si nutoa me tɔwo ɖe fia dzi (ame akpa gãtɔ bɔbɔe, ZEC ƒe xexlẽme suetɔ kekeake si nye 420,000).
-- Bia tso Key-Holder Habɔbɔwo si (fifia ZF kple Shielded Labs hã le eme, kple Bootstrap/ECC si ŋu woƒo nu tsoe le kpekpeɖeŋunana ƒe nyawo me) be woakpɔ gadodowo dzi to multisig dzi, si wobla ɖe se ƒe nubablawo kple gaku-xɔlawo ƒe nyametsotsowo dzi.
-- Lé ZIP 1015 ƒe nudidiwo katã me ɖe asi le lockbox zazã ŋu (gadodo na lãwo ƒe agbenɔnɔ ƒe kpekpeɖeŋunana).
+### Mɔ̃ ƒe se si woɖo ɖa: ZIP 1016 - Hame kple Coinholder ƒe gaɖoɖo ƒe mɔnu
+ZIP 1016 (woɖo ɖa le February 2025, eƒe nɔnɔme: Proposed) doa gaɖoɖo ƒe mɔnu si wu ha nuɖo agni [decentralized] ɖe eme. Eya:
+- Ayi edzi awɔ 8% ƒe mama na ZCG.
+- Atrɔ lockbox 12% lae wòazu "Coinholder-Controlled Fund" (si wotu tso lockbox ƒe ga si le xoxo kple gaɖoɖowo ƒuƒoƒe ƒe kpekpeɖeŋu 12% si ayi edzi la me).
+- Awɔ mɔnu sia va se ɖe fetu ƒe afãmama [halving] etɔ̃lia dzi (le ƒe 3 kɔe).
+- Ana ZEC coin ƒe nɔlawo nakpɔ ga ƒe kpekpeɖeŋuwo dzi kplɔm le dzinu sia dzinu me to hame ƒe mɔnu si woɖo la dzi (ame geɖe ƒe akɔntaɖeɖe bɔbɔe, ame 420,000 ZEC ƒe xɔseɖeɖe le eme).
+- Ana Key-Holder Organizations (si woƒo ZF kple Shielded Labs ɖe eme fifia, eye woƒo Bootstrap/ECC ƒe ŋkɔ le ga ƒe kpekpeɖeŋu ƒe nɔnɔmewo me) nakpɔ ga ƒe mama dzi to multisig me, si se ƒe nubabla kple coin ƒe nɔlawo ƒe nyametsotsowo de asi le.
+- Ayi edzi awɔ ZIP 1015 ƒe hiãhiãwo katã siwo ku ɖe lockbox ƒe zazã ŋu la (ecosystem ƒe ga ƒe kpekpeɖeŋuwo ƒe gaɖoɖo).
 
-Aɖaŋuɖoɖo sia ƒe taɖodzinue nye be yeatrɔ tso habɔbɔ ƒe dziɖuɖu si dzi wokpɔna gbɔ ayi gakuxɔlawo ƒe dziɖuɖu tẽ gbɔ hena 12% ƒe mama. Metrɔa ZIP ƒe ɖoɖoa alo asitsadzesiwo ƒe sewo o.
+Nunyaɖoɖo sia di be wòatrɔ tso habɔbɔ si kpɔa nu dzi yi ɖe coin ƒe nɔlawo ƒe dziɖuɖu tẽe, le mama 12% la ŋu. Menye be wòatrɔ ZIP ƒe mɔnu alo trademark ƒe sewo o.
 
-## 2. Habɔbɔ Veviwo & Woƒe Gadzɔdzɔtsoƒewo
+## 2. Habɔbɔ gãtɔwo kple woƒe gaɖoɖo ƒe teƒewo
 
 **Electric Coin Company (ECC) / Bootstrap Project**  
-- Zcash (2016) ƒe wɔlawo gbãtɔwo. 
-- Le ŋutinya me la, exɔ ~7% le dev ga me vaseɖe November 2024. 
-- Le January 2026 me la, mɔ̃ɖaŋu kple adzɔnuwo ƒe ƒuƒoƒo vevitɔ ɖe asi le Bootstrap/ECC ŋu le dziɖuɖu ŋuti nyaʋiʋliwo ta eye woɖo Zcash Open Development Lab (ZODL). 
-- ECC/Bootstrap megaxɔa protocol ƒe gakpekpeɖeŋu tẽ o eye megaxɔa ŋgɔyiyi ƒe ƒuƒoƒo gbãtɔ ɖe dɔ me o. Eɖoa ŋu ɖe nudzɔdzɔwo, gakpekpeɖeŋunana, kple eya ŋutɔ ƒe gaxɔmenu ŋu. 
-- Elé ŋutinya me vevienyenye ɖe asi gake meganye ɖoɖowɔɖiwo wɔwɔ ƒe habɔbɔ si le dɔ dzi o. 
--> Kpɔ nyatakaka bliboa: [Electric Coin Company](https://zechub.wiki/zcash-organizations/electric-coin-company)
+- Wo nye Zcash ƒe wɔlawo gbãtɔ (2016).  
+- Le ɣeyiɣi si va yi me la, wonɔ dev fund la ƒe ~7% xɔm va se ɖe November 2024.  
+- Le January 2026 me la, engineering kple product team gãtɔ la dze le Bootstrap/ECC ŋu ɖe dziɖuɖu ƒe kpekpeɖeŋuwo ta eye woƒo Zcash Open Development Lab (ZODL).  
+- ECC/Bootstrap megaxɔ protocol ƒe gaɖoɖo tẽe o eye megale mɔ̃ ƒe ɖoɖoŋlɔla team gãtɔ la ƒe dɔwɔƒe o. Etsɔ donationwo, sponsorshipwo, kple eya ŋutɔ ƒe gadzraɖoƒe [treasury] doa eɖokui.  
+- Esi eteƒe gã le ŋutinya me, gake menye protocol ƒe mɔ̃ ƒe ɖoɖoŋlɔla habɔbɔ si wɔa dɔ fifia o.  
+-> Kpɔ eƒe nyatakaka bliboa: [Electric Coin Company](https://zechub.wiki/zcash-organizations/electric-coin-company)
 
-**Zcash Ʋuʋu ƒe Ŋgɔyiyi Dɔwɔƒe (ZODL)** 
-- Woɖoe le January 2026 me to Zcash protocol developers gbãtɔwo (ECC ƒe mɔ̃ɖaŋudɔwɔwɔ kple adzɔnuwo ƒe ƒuƒoƒo vevitɔ) dzi le esi wodzo le Bootstrap/ECC megbe. 
-- Wofɔ ga si wu dɔlar miliɔn 25 le nukuwo ƒe ga me tso gadelawo gãwo gbɔ siwo dometɔ aɖewoe nye a16z Crypto kple Coinbase Ventures. 
-- Ƒuƒoƒoa, si me Zcash ɖoɖowɔɖi ƒe nutovɛla gbãtɔwo kple ewɔlawo le, yi edzi le ɖoɖowɔɖi veviwo wɔwɔ, ZIP nudzɔdzɔwo, kple dɔwɔnu siwo léa ŋku ɖe ame ŋutɔ ƒe nyawo ŋu siwo dome Zodl asitelefon gakotoku (si wogbugbɔ ŋkɔ na tso Zashi) hã le. 
-- Gakpekpeɖeŋu aɖeke meli tẽ le kɔsɔkɔsɔwo dzi ɖoɖowɔɖi me o; wɔa dɔ abe dɔwɔƒe si le eɖokui si si VC le megbe na si ƒe susu le Zcash ƒe ameŋunyatakakawo ƒe xɔtuɖoɖowo dodo ɖe ŋgɔ ŋu ene. 
--> Kpɔ nyatakaka bliboa: [ZODL](https://zechub.wiki/zcash-organizations/ZODL)  
--> Nyatakakadzraɖoƒe si dziɖuɖua da asi ɖo: [zodl.com dzi](https://zodl.com/)
+**Zcash Open Development Lab (ZODL)**  
+- Woƒoe le January 2026 me tso Zcash protocol ƒe mɔ̃ ƒe ɖoɖoŋlɔlawo (ECC engineering kple product team gãtɔ la) gbɔ le esi wodze le Bootstrap/ECC ŋu megbe.  
+- Woxɔ seed funding si wu dollar million 25 tso investorlawo gbɔ, eye a16z Crypto kple Coinbase Ventures le wo dome.  
+- Team la, si me Zcash protocol ƒe wɔlawo kple mɔ̃ ƒe ɖoɖoŋlɔlawo gbãtɔwo le, yi edzi le protocol gãtɔ ƒe mɔ̃ ƒe ɖoɖo, ZIP ƒe kpekpeɖeŋuwo, kple ɣaɣla [privacy] dɔwɔnuwo me, eye Zodl mobile gakotoku [wallet] le wo dome (woɖe eƒe ŋkɔ tso Zashi).  
+- Protocol ƒe gaɖoɖo tẽe mele o; ewɔa dɔ abe lab si VC doa ga me kple eɖokui ene, eye wòtsɔa ŋku dea Zcash ƒe ɣaɣla ƒe teƒeƒe siwo ŋgɔna dzi.  
+-> Kpɔ eƒe nyatakaka bliboa: [ZODL](https://zechub.wiki/zcash-organizations/ZODL)  
+-> Official site: [zodl.com](https://zodl.com/)
   
 **Zcash Foundation (ZF)**  
-- Independent 501(c)(3) nonprofit léa fɔ ɖe xɔtuɖaŋuwo, node software, numekuku, kple lãwo ƒe agbenɔnɔ ƒe lãmesẽ ŋu. 
-- Le ŋutinya me la, exɔ 5% le dev ga la me. 
-- Megaxɔa protocol ƒe gakpekpeɖeŋu tẽ le NU6 megbe o. Eɖoa ŋu ɖe nudzɔdzɔwo kple kpekpeɖeŋunana ŋu. 
-- Zcash ƒe asitsadzesi (si ECC tsɔ na le ƒe 2019 me) le esi eye wòwɔa akpa vevi aɖe le dziɖuɖu me. 
-- Ekpɔa Zcash Nutome Aɖaŋuɖoha (ZCAP) dzi eye wòkpena ɖe nutoa me ƒe nyametsotsowɔwɔ ŋu. 
-- Ewɔa dɔ abe Habɔbɔ si me Safuiwo Le ene le ZIP 1016 si wodo ɖa la te. 
--> Kpɔ nyatakaka bliboa: [Zcash Foundation](https://zechub.wiki/zcash-organizations/zcash-foundation)  
--> Nyatakakadzraɖoƒe si dziɖuɖua da asi ɖo: [zfnd.org dzi](https://zfnd.org/)
+- 501(c)(3) nonprofit si tso eɖokui gbɔ, si tsɔa ŋku dea infrastructure, ɣaɣla dzesi ŋɔŋlɔ [node] ƒe software, research, kple ecosystem ƒe nɔnɔme nyui dzi.  
+- Le ɣeyiɣi si va yi me la, exɔ dev fund la ƒe 5%.  
+- Megaxɔ protocol ƒe gaɖoɖo tẽe o le NU6 megbe. Edzea donationwo kple ga ƒe kpekpeɖeŋuwo ŋu.  
+- Exɔ Zcash ƒe trademark (ECC naa e le 2019) eye eƒe dɔ gã le dziɖuɖu me.  
+- Ewɔa Zcash Community Advisory Panel (ZCAP) ƒe dɔ eye ekpena ɖe hame ƒe akɔntaɖeɖe ƒe dɔwɔwɔ ŋu.  
+- Ewɔa dɔ abe Key-Holder Organization ene le ZIP 1016 si woɖo ɖa la te.  
+-> Kpɔ eƒe nyatakaka bliboa: [Zcash Foundation](https://zechub.wiki/zcash-organizations/zcash-foundation)  
+-> Official site: [zfnd.org](https://zfnd.org/)
 
-**Zcash Hadome Gakpekpeɖeŋunana (ZCG)** 
-- Zcash Nutome Gakpekpeɖeŋunaɖoɖoa naa ga ƒuƒoƒo siwo le wo ɖokui si kple dɔwo be woawɔ ŋgɔyiyi gã siwo yia edzi kple dɔ bubuwo hena Zcash ƒe lãwo ƒe agbenɔnɔ ƒe nyonyo na dukɔa. 
-- Kɔmiti si nutoa me tɔwo tiae tsoa nya me le kpekpeɖeŋunana ŋu. 
-- Eyi edzi le block ƒe teƒeɖoɖowo ƒe 8% bliboa xɔm (le NU6 megbe), si wokpɔa edzi to Ganyawo ƒe Adzamenyawo Gbɔkpɔha dzi. 
-- Wotoa dɔbiagbalẽvi kple akɔdada ƒe ɖoɖo si me kɔ si woʋu ɖi na nutoa me tɔwo dzi naa kpekpeɖeŋu. 
--> Kpɔ nyatakaka bliboa: [Zcash Nutome ƒe Gakpekpeɖeŋunana](https://zechub.wiki/zcash-organizations/zcash-community-grants)  
--> Nyatakakadzraɖoƒe si dziɖuɖua da asi ɖo: [zcashhamea ƒe kpekpeɖeŋunalawo.org/](https://zcashcommunitygrants.org/)
+**Zcash Community Grants (ZCG)**  
+- Zcash Community Grants ƒe ɖoɖo naa team siwo tso wo ŋutɔ gbɔ kple projectwo ga be woawɔ mɔ̃ ƒe ɖoɖo gã si ayi edzi kple dɔ bubuwo na Zcash ecosystem ƒe nyui.  
+- Hame si woɖe to akɔntaɖeɖe me lae tsɔa nyametsotso wɔa le ga ƒe kpekpeɖeŋuwo ŋu.  
+- Eyi edzi xɔa gaɖoɖowo ƒuƒoƒe ƒe fetuwo ƒe 8% blibo (le NU6 megbe), eye Financial Privacy Foundation kpɔa edzi.  
+- Wonana ga ƒe kpekpeɖeŋuwo to application kple akɔntaɖeɖe ƒe mɔnu si le nu ƒe ʋuʋuɖi [transparent] me, si hame la katã ate ŋu adze eme.  
+-> Kpɔ eƒe nyatakaka bliboa: [Zcash Community Grants](https://zechub.wiki/zcash-organizations/zcash-community-grants)  
+-> Official site: [zcashcommunitygrants.org/](https://zcashcommunitygrants.org/)
 
-**Ganyawo Ŋuti Nyatakakawo Ŋuti Dɔwɔƒe (FPF)** 
-- Habɔbɔ aɖe si mekpɔa viɖe aɖeke tso eme o si wotsɔ de Cayman Ƒukpowo dzi. 
-- Exɔa 8% ƒe block subsidy allocation tẽ tso protocol (le ZIP 1015 nu) eye wòkpɔa se, ganyawo, kple dɔwɔnawo katã dzi na Zcash Community Grants ɖoɖoa. 
-- Enaa atsyɔ̃ɖoɖo ƒe ɖoɖo kple dɔdzikpɔkpɔ ƒe kpekpeɖeŋu na ZCG ƒe dɔwɔnawo, si me gadodo, nubablawo, kple sedziwɔwɔ hã le. 
-- ZCG wɔa dɔ abe habɔbɔ si le eɖokui si si nutoa me tɔwo tia ene le FPF ƒe atsyɔ̃ɖoɖo te. 
--> Kpɔ nyatakaka bliboa: [Ganyawo Ŋuti Nyatakakawo Ŋuti Ðoɖowɔha](https://zechub.wiki/zcash-organizations/financial-privacy-foundation)  
--> Nyatakakadzraɖoƒe si dziɖuɖua da asi ɖo: [ganyawo ŋuti nyatakakawo gɔmeɖoanyi.org/](https://www.financialprivacyfoundation.org/)
+**Financial Privacy Foundation (FPF)**  
+- Non-profit habɔbɔ si woŋlɔ ɖe Cayman Islands me.  
+- Exɔa gaɖoɖowo ƒuƒoƒe ƒe kpekpeɖeŋu ƒe mama 8% tẽe tso protocol la gbɔ (le ZIP 1015 nu) eye wòwɔa se, ga, kple dɔwɔwɔ ƒe kpɔɖeŋuwo katã na Zcash Community Grants ƒe ɖoɖo.  
+- Ena hame gã ƒe nɔnɔme kple administrative kpekpeɖeŋu na ZCG ƒe dɔwɔwɔwo, eye ga ƒe mama, contractwo, kple se ƒe ɖoɖowɔwɔ le wo dome.  
+- ZCG wɔa dɔ abe hame si woɖe to akɔntaɖeɖe me, si le FPF ƒe hame gã la te ene.  
+-> Kpɔ eƒe nyatakaka bliboa: [Financial Privacy Foundation](https://zechub.wiki/zcash-organizations/financial-privacy-foundation)  
+-> Official site: [financialprivacyfoundation.org/](https://www.financialprivacyfoundation.org/)
 
-**Nudzraɖoƒe Siwo Kpɔa Akpoxɔnuwo Gbɔ** 
-- Zcash kpekpeɖeŋunahabɔbɔ si le eɖokui si, si dzɔa ga tso nudzɔdzɔwo me, si le Switzerland. 
-- Habɔbɔ gbãtɔ le Zcash ƒe lãwo ƒe agbenɔnɔ ƒe ɖoɖoa me si mexɔ ga tẽ alo esi mele tẽ o tso Ŋgɔyidɔwo ƒe Gaxɔ alo block rewards gbɔ kpɔ o. 
-- Eléa fɔ ɖe ɖoɖo siwo ɖea vi na ZEC xɔlawo ŋu eye wòtsɔa xɔlawo ƒe gbe ɖoa nɔƒe gbãtɔ le Zcash ƒe mɔfiame tɔtrɔ me. 
-- Ewɔa dɔ abe Habɔbɔ si me Safuiwo Le ene le ZIP 1016 si wodo ɖa hena Gaxɔdzikpɔlawo ƒe Ga si Dzi Wokpɔna ƒe dzikpɔkpɔ te. 
-- Ewɔa akpa aɖe le ɖoɖowɔɖiwo wɔwɔ, ZIP ƒe dɔwɔwɔ, kple dziɖuɖu (ZIP nuŋlɔla teƒenɔla) me. 
--> Kpɔ nyatakaka bliboa: [Labs Siwo Wotsɔ Akpoxɔnu Wɔe](https://zechub.wiki/zcash-organizations/shielded-labs)  
--> Nyatakakadzraɖoƒe si dziɖuɖua da asi ɖo: [shieldedlabs.net ƒe agbalẽ](https://shieldedlabs.net/)
+**Shielded Labs**  
+- Zcash ƒe kpekpeɖeŋu habɔbɔ si tso eɖokui gbɔ, si donationwoe doa ga le, eye le Switzerland.  
+- Nye habɔbɔ gbãtɔ le Zcash ecosystem me si mexɔ Development Fund alo gaɖoɖowo ƒuƒoƒe ƒe fetuwo ƒe ga tẽe alo le mɔ aɖe nu o.  
+- Ewɔa dɔ le dɔwɔwɔwo siwo naa ZEC ƒe nɔlawo ƒe nyui ŋu, eye wòtsɔa holderwo ƒe gbe nana woɖo Zcash ƒe mɔ si wòato la dzi.  
+- Ewɔa dɔ abe Key-Holder Organization ene le ZIP 1016 si woɖo ɖa la te, na Coinholder-Controlled Fund ƒe kpɔɖeŋu.  
+- Ekpena ɖe protocol ƒe mɔ̃ ƒe ɖoɖo, ZIP ƒe mɔnu, kple dziɖuɖu (ZIP editor ƒe nɔƒe) ŋu.  
+-> Kpɔ eƒe nyatakaka bliboa: [Shielded Labs](https://zechub.wiki/zcash-organizations/shielded-labs)  
+-> Official site: [shieldedlabs.net](https://shieldedlabs.net/)
 
-## 3. Dziɖuɖu - Alesi Wowɔa Nyametsotsowoe
+## 3. Dziɖuɖu - Ale si woɖoa nyametsotsowo
 
-Zcash dziɖuɖu nye "on-chain protocol rules" kple "off-chain social consensus" ƒe tsakatsaka:
+Zcash ƒe dziɖuɖu nye "protocol ƒe sewo si le ɖoɖonu dzi" kple "hame ƒe gbegbɔgblɔ ɖi [consensus] si le ɖoɖonu ŋu o" ƒe akpaƒoƒo:
 
-1. **ZIP Dɔwɔna (Zcash ƒe Ŋgɔyiyi ƒe Aɖaŋuɖoɖowo)** 
-   - Ame sia ame ate ŋu atsɔ ZIP aɖo ɖa. 
-   - Dutoƒo nyaʋiʋli le nyamedzroƒewo, Discord, GitHub. 
-   - ZIP Nuŋlɔlawo (fifia Jack Grigg, Daira-Emma Hopwood, Kris Nuttycombe le ame ɖekaɖekawo ƒe ɖoƒe me, Arya tso ZF, kple eteƒenɔlawo tso Shielded Labs) léa ŋku ɖe eŋu eye wotsoa nya me be woaxɔe. 
-   - ZIP siwo dzi woda asi ɖo la le network ƒe tɔtrɔ si kplɔe ɖo me.
+1. **ZIP ƒe Mɔnu (Zcash Improvement Proposals)**  
+   - Ame sia sia ate ŋu aɖo ZIP ɖa.  
+   - Dzeɖoɖo le forumwo, Discord, GitHub dzi.  
+   - ZIP ƒe Editors (fifia Jack Grigg, Daira-Emma Hopwood, Kris Nuttycombe le wo ŋutɔ ƒe nɔnɔme me, Arya tso ZF, kple amewo tso Shielded Labs) kpɔa nu eye woɖoa nyametsotso be woaxɔe alo o.  
+   - ZIPs si woaxɔ la woɖea wo tsɔa dea mɔ̃ ƒe sewo trɔtrɔ si kplɔe ɖo me.
 
-2. **Asitsatsa ƒe Dzesiwo ƒe Nubabla (2019-2024)** 
-   - ECC tsɔ Zcash ƒe asitsadzesi la na ZF le ƒe 2019 me. 
-   - Le gɔmedzedzea me la, nubabla la bia be ECC kple ZF siaa nalɔ̃ ɖe edzi le network ƒe tɔtrɔ ɖesiaɖe si awɔ ɖekawɔwɔ ƒe ɖoɖo yeye aɖe ta. 
-   - Le April 2024 me la, ECC ɖe gbeƒãe be yewoɖoe be yewoadzudzɔ dɔa; woɖe gbeƒãe le se nu be woadzudzɔ dɔa wɔwɔ le August 2024 me. 
-   - Tso ƒe 2025 me la, ZF koe nye Zcash ƒe asitsadzesi la dzikpɔla eye wòxɔ asitsadzesi ƒe ɖoɖo yeye si ɖe mɔ ɖe eŋu si ɖe lãwo ƒe agbenɔnɔ ƒe ɖoɖowo ƒe mamadede asi fia. Adzɔnudzesi la megawɔa dɔ abe dziɖuɖu ƒe mɔxexeɖedɔléle nu ƒe mɔnu ene o.
+2. **Trademark ƒe Nubabla (2019-2024)**  
+   - ECC naa Zcash ƒe trademark ZF le 2019.  
+   - Nubabla la hia be ECC kple ZF ƒe akɔntaɖeɖe nana le mɔ̃ ƒe sewo trɔtrɔ siwo adze gbegbɔgblɔ ɖi protocol yeye aɖe ŋu la katã ŋu.  
+   - Le April 2024 me la, ECC gblɔ be yedi be wòadzudzɔe; wona dzidzi ƒe nyagblɔɖi le August 2024.  
+   - Tso 2025 me la, ZF koe nye Zcash ƒe trademark ƒe kpɔla eye wòxɔ trademark ƒe ɖoɖo yeye si na mɔ geɖe, si fia be ecosystem la zu ha nuɖo agni. Trademark la megawɔa dɔ abe dziɖuɖu ƒe veto mɔnu o.
 
-3. **Zcash Nutome Aɖaŋuɖoha (ZCAP)** 
-   - Lɔlɔ̃nu faa dɔwɔlawo ƒe ƒuƒoƒo si me lãwo ƒe agbenɔnɔ ŋuti nunyalawo le. 
-   - Wozãnɛ na nutoa me ƒe numekuku si mebla ame o le nyametsotso gãwo ŋu.
+3. **Zcash Community Advisory Panel (ZCAP)**  
+   - Ecosystem ƒe nunyalawo ƒe volunteer group.  
+   - Wozae na hame ƒe akɔntaɖeɖe si mawoa ame dzi o le nyametsotso gãwo ŋu.
 
-4. **Dzidzedzekpɔkpɔ le kɔsɔkɔsɔ dzi** 
-   - Ne wonya de network upgrade ko la, ele be network hash rate ƒe akpa gãtɔ naxɔe (hard-fork risk aɖeke manɔ eme ne woda asi ɖe edzi o).
+4. **Ɖoɖonu dzi ƒe xɔseɖeɖe**  
+   - Ne woɖe mɔ̃ ƒe sewo trɔtrɔ la ɖe go la, network hash rate ƒe akpa gãtɔ la fanele be wòaxɔe (hard-fork ƒe afɔku mele o ne gbegbɔgblɔ ɖi le eme).
 
-5. **Etsɔme Mɔfiame - The Lockbox & ZIP 1016** 
-   - 12% lockbox ga la le ƒoƒom ƒu ɖe protocol la me. 
-   - ZIP 1016 do susua ɖa be woatrɔ esia wòazu Gaxɔdzikpɔlawo ƒe Gaxɔ si me gakuxɔlawo ƒe akɔdada le ɣleti etɔ̃ ɖesiaɖe me eye Key-Holder Habɔbɔwo (ZF kple Shielded Labs de dzesii fifia) akpɔ dzesi geɖe dzi.
+5. **Mɔ si wòato le ŋgɔ - Lockbox kple ZIP 1016**  
+   - Lockbox ƒe ga 12% lawo le protocol la me fom.  
+   - ZIP 1016 ɖoa ɖa be woatrɔe wòazu Coinholder-Controlled Fund, eye coin ƒe nɔlawo akpɔ vote dzi le dzinu sia dzinu me, eye Key-Holder Organizations (ZF kple Shielded Labs si woŋlɔ tso fifia) akpɔe dzi to multisig me.
 
-## 4. Nufiame Tabla Kaba - Gazazã ƒe Nɔnɔmetɔtrɔ
+## 4. Kakaɖedzi ƒe Table - Gaɖoɖo ƒe tɔtrɔwo
 
-| Ɣeyiɣi si me | Tomenukulawo | ECC/Afɔdzideƒe | ZF | ZCG | Lockbox | De dzesiiwo |
+| Ɣeyiɣi | Nukulawo | ECC/Bootstrap | ZF | ZCG | Lockbox | Nyaŋlɔɖiwo |
 |------------------|--------|---------------|------|------|---------|--------------------------------------------|
-| 2020 - Nov 2024 | 80% ƒe xexlẽme | 7% ƒe xexlẽme | 5% ƒe xexlẽme | 8% ƒe xexlẽme | - | Klasik dev gaxɔ |
-| Nov 2024 - fifia | 80% ƒe xexlẽme | 0% ƒe xexlẽme | 0% ƒe xexlẽme | 8% ƒe xexlẽme | 12% ƒe xexlẽme | NU6 ƒe kpɔɖeŋu + ZCG ƒe kekeɖenudɔ |
-| Wodoe ɖa (ZIP 1016) | 80% ƒe xexlẽme | 0% ƒe xexlẽme | 0% ƒe xexlẽme | 8% ƒe xexlẽme | 12% (Gakuxɔla-dziɖuɖu) | Vaseɖe esime woawɔ afã 3 lia; gakuxɔla ƒe akɔdada |
+| 2020 - Nov 2024 | 80% | 7% | 5% | 8% | - | Dev fund xoxo |
+| Nov 2024 - azɔ | 80% | 0% | 0% | 8% | 12% | NU6 ƒe mɔnu + ZCG ƒe tsitsi |
+| Si woɖo ɖa (ZIP 1016) | 80% | 0% | 0% | 8% | 12% (Coinholder-Controlled) | Va se ɖe fetu ƒe afãmama etɔ̃lia; coinholder ƒe vote |
 
-## 5. Dɔwɔnu Siwo Do Ƒome Kplii
+## 5. Nusiwo kplɔe ɖo
 
-- Ganyawo ŋuti numeɖela si dziɖuɖua ɖo -> [z.ga/network ƒe gazazã ƒe akpa](https://z.cash/network/?funding=#funding)  
-- ZIP 1015 (NU6 ƒe gazazã ƒe tɔtrɔ) -> [zips.z.ga/zip-1015 ƒe ɣeyiɣia](https://zips.z.cash/zip-1015)  
-- ZIP 1016 (gakudzraɖoƒe ƒe kpɔɖeŋu si wodo ɖa) -> [zips.z.ga/zip-1016 ƒe ɣeyiɣia](https://zips.z.cash/zip-1016)  
-- Zcash ƒe Ŋgɔyiyi ƒe Aɖaŋuɖoɖowo -> [zips.z.ga si wotsɔna xɔa gae](https://zips.z.cash)  
-- Zcash Hadome Gakpekpeɖeŋunana ƒe nyatakakadzraɖoƒe -> [zcashhamea ƒe kpekpeɖeŋunalawo.org](https://zcashcommunitygrants.org)
+- Gaɖoɖo ƒe nyatakaka si nye official -> [z.cash/network funding section](https://z.cash/network/?funding=#funding)  
+- ZIP 1015 (NU6 ƒe gaɖoɖo ƒe tɔtrɔ) -> [zips.z.cash/zip-1015](https://zips.z.cash/zip-1015)  
+- ZIP 1016 (coinholder ƒe mɔnu si woɖo ɖa) -> [zips.z.cash/zip-1016](https://zips.z.cash/zip-1016)  
+- Zcash Improvement Proposals -> [zips.z.cash](https://zips.z.cash)  
+- Zcash Community Grants ƒe portal -> [zcashcommunitygrants.org](https://zcashcommunitygrants.org)
 
-## 6. Ʋuʋudedi ƒe Dashboard
+## 6. Lockbox ƒe ɖoɖowo ƒuƒopé [dashboard]
 
-ZecHub Dashboard abe ZEC ƒe ga home si le Lockbox kple Coinholders ƒe ga me fifia ene [afi sia](https://zechub.wiki/dashboard?tab=lockbox).
+ZecHub ƒe Dashboard fia ZEC si le Lockbox kple Coinholders fund me fifia ƒe home [here](https://zechub.wiki/dashboard?tab=lockbox).

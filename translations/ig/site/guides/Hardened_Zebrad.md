@@ -1,23 +1,23 @@
-# Zebra siri ike Full Node
+# Full Node Ewusiri Ike Zebra
 
-- Na-eji onye ọrụ na-enweghị ihe ùgwù + kernel-level systemd sandboxing (otu iche dị ka Docker). 
-- RPC bụ naanị localhost na nchekwa kuki (ndabara & akwadoro). 
+- Ọ na-eji onye ọrụ raara nye nke enweghị ikike pụrụ iche yana sandboxing systemd n'ogo kernel [kernel] (otu ikewapụ ahụ dịka Docker).  
+- RPC dị naanị na localhost ma jiri kuki [cookie] nchekwa maka nyocha (ndabara ma akwadoro).  
 
 
 ---
 
 ## Ihe ndị a chọrọ
 
-- ọ bụla Ubuntu dabeere distro
-- Rust toolchain arụnyere (`rustup` + `cargo`)
-- Ọ dịkarịa ala 300 GB ohere disk (`/var` nkebi)
+- distro ọ bụla dabere na Ubuntu
+- arụnyere toolchain Rust (`rustup` + `cargo`)
+- Opekempe 300 GB nke oghere diski efu (partition `/var`)
 
 
 ---
 
-## Otu-Oge Mbido (Run dị ka gị nkịtị ọrụ)
+## Nhazi Otu Oge (Gbaa dịka onye ọrụ nkịtị gị)
 
-### 1. Melite usoro & wụnye wuru dependencies
+### 1. Melite sistemụ ma wụnye ihe ndabere maka iwulite
 
 ```
 sudo apt update && sudo apt install -y build-essential pkg-config libclang-dev clang libssl-dev protobuf-compiler
@@ -34,14 +34,14 @@ sudo chmod 755 /usr/local/bin/zebrad
 zebrad --version
 ```
 
-## Mepụta onye ọrụ zebra raara onwe ya nye na enweghị ikike
+## Mepụta onye ọrụ zebra raara nye nke enweghị ikike pụrụ iche
 
 ```
 sudo adduser --system --group --no-create-home --shell /usr/sbin/nologin zebra
 ```
 
 
-## Mepụta nchekwa data nchekwa
+## Mepụta ndekọ data nchekwa
 
 ```
 sudo mkdir -p /var/lib/zebrad
@@ -49,7 +49,7 @@ sudo chown zebra:zebra /var/lib/zebrad
 sudo chmod 700 /var/lib/zebrad
 ```
 
-## Mepụta nhazi nchekwa (/etc/zebrad/zebrat.toml)
+## Mepụta nhazi nchekwa (/etc/zebrad/zebrad.toml)
 
 ```
 sudo mkdir -p /etc/zebrad
@@ -73,7 +73,7 @@ sudo chown zebra:zebra /etc/zebrad/zebrad.toml
 sudo chmod 600 /etc/zebrad/zebrad.toml
 ```
 
-## Mepụta ọrụ systemd siri ike
+## Mepụta ọrụ systemd ewusiri ike
 
 ```
 sudo tee /etc/systemd/system/zebrad.service > /dev/null <<EOF
@@ -110,17 +110,17 @@ EOF
 sudo systemctl daemon-reload
 ```
 
-## Ojiji kwa ụbọchị - Single-Command Workflow
+## Ojiji Kwa Ụbọchị - Usoro Ọrụ Nwere Otu Iwu
 
-| Ihe omume                  | Iwu                                      | Ihe ndetu |
+| Omume                  | Iwu                                      | Nkọwa |
 |-------------------------|----------------------------------------------|-------|
-| **Malite**               | `sudo systemctl start zebrad`                | Otu iwu |
+| **Bido**               | `sudo systemctl start zebrad`                | Otu iwu |
 | **Kwụsị**                | `sudo systemctl stop zebrad`                 | Otu iwu |
-| **Ọnọdụ**              | `sudo systemctl status zebrad`               | Na-egosi ma ọ bụrụ na ọ na-agba ọsọ |
+| **Ọnọdụ**              | `sudo systemctl status zebrad`               | Na-egosi ma ọ na-arụ ọrụ |
 | **Ndekọ ndụ**           | `journalctl -u zebrad -f -o short-precise`  | Na-anọchi `screen -r` |
-| **Nweta kuki RPC**      | `sudo cat /var/lib/zebrad/.cookie`           | Naanị mgbe ị na-agba ọsọ |
+| **Nweta kuki RPC**      | `sudo cat /var/lib/zebrad/.cookie`           | Naanị mgbe ọ na-arụ ọrụ |
 
-**Ebe dị mma aha** (tinye na `~/.bashrc` or `~/.zshrc`):
+**Aliases dị mfe** (tinye na `~/.bashrc` ma ọ bụ `~/.zshrc`):
 ```
 alias zebra-start='sudo systemctl start zebrad'
 alias zebra-stop='sudo systemctl stop zebrad'

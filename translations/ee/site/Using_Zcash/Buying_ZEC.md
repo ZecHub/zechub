@@ -3,38 +3,38 @@
 </a>
 
 
-# Zcash xɔxɔ
+# Zcash Ƒe Nudzɔdzɔ
 
 ## TL;DR
 
-- Ƒle ZEC le asitɔtrɔ si doa alɔ **shielded withdrawals** (Gemini, BitcoinVN, flyp.me) ne anya wɔ
-- Akpa gãtɔ gã centralized exchanges (Coinbase, Kraken, Binance) doa alɔ **transparent gaɖeɖe** ɖeɖeko — takpɔ wò ZEC le exɔxlɔ̃ vɔ megbe
-- Decentralized exchanges ɖea mɔ ɖe non-custodial exchanges gake zi geɖe la, woɖea asi le wo ŋu yia adrɛs siwo me kɔ
-- Mehiã be **mehiã** be nàƒle ZEC blibo o — akpa suewo wɔa dɔ nyuie
+- Ne wòate ŋu la, ƒle ZEC le gatrɔƒe (exchange) si doa asi ɖe **ɣaɣla (shielded) ƒe gahehe** ŋu (Gemini, BitcoinVN, flyp.me)
+- Gatrɔƒe gã siwo katã wɔnɔa te ɖe ame geɖe ƒe asi me (Coinbase, Kraken, Binance) doa asi ɖe **nuwo ƒe ʋuʋuɖi (transparent) ƒe gahehe** ŋu ko — ƒo ɣaɣla na wò ZEC le esi nèkplɔe vɔ megbe
+- Ha nuɖo agni (decentralized) ƒe gatrɔƒewo na ɖɔli ɖɔli (swap) si me asikplɔ-dzralá (custodial) mele o, gake zi geɖe wohe ga ɖe nuwo ƒe ʋuʋuɖi ƒe gaɖoƒe dzesiwo dzi
+- Ele be nàƒle ZEC blibo o — akpaŋkekewo hã wɔa dɔ nyuie
 
 ---
 
-Be nàte ŋu azã Zcash le ame ŋutɔ ƒe (shielded) asitsatsa me la, ele be ZEC nanɔ asiwò. Be ZEC nasu asiwò la, ahiã be nàƒlee. Àte ŋu aƒle ZEC tso asitsaƒe vovovo geɖe, siwo míaŋlɔ ɖe ete. Wokafui be nàzã asitɔtrɔ si doa alɔ gaɖeɖe siwo ŋu wokpɔa akpoxɔnu le.
+Be nàte ŋu azã Zcash le gaɖoɖo (transaction) ɣaɣla me la, ele be ZEC nanɔ asiwò. Be nàkpɔ ZEC la, ele be nàƒlee. Àte ŋu aƒle ZEC tso gatrɔƒe vovovowo gbɔ, eye míaxlɔ wo ɖe anyi le afisia. Woɖe eƒe aɖaŋu be nàzã gatrɔƒe si doa asi ɖe ɣaɣla ƒe gahehe ŋu.
 
-_Àte ŋu aku ZEC hã, gake zi geɖe la, ema manya wɔ na nuƒlela mamã dedie o. Nya bubuwo tso ema ŋu [le afisia](https://forum.zcashcommunity.com/t/mining-to-shielded-addresses-community-mining-pool/50281) eye [le afisia](https://zec.suprnova.cc/StartMining)_.
+_Àte ŋu akuku (mining) ZEC hã, gake zi geɖe mègava dzɔ nametɔxɛlawo o. Nu geɖe le eŋu [afisia](https://forum.zcashcommunity.com/t/mining-to-shielded-addresses-community-mining-pool/50281) kple [afisia](https://zec.suprnova.cc/StartMining)_.
 
-## Exchange siwo doa alɔ gaɖeɖe si wokpɔ ta na
+## Gatrɔƒewo siwo doa asi ɖe ɣaɣla ƒe gahehe ŋu
 
 **[Gemini](https://www.gemini.com)**
 
-Gemini nye cryptocurrency exchange, gakotoku, kple nudzrala si ŋu wowɔ ɖoɖo ɖo si na wòle bɔbɔe eye wòle dedie be woaƒle ZEC, Ether, kple cryptocurrency bubuwo. Àte ŋu aƒle ZEC kple fiat alo cryptocurrencies bubuwo.
+Gemini nye cryptocurrency gatrɔƒe si wode se ɖe eŋu, gakotoku, kple asikplɔ-dzralá si wɔnɛ be wòatsɔ ZEC, Ether, kple cryptocurrency bubuwo afle bɔbɔe kple dedie. Àte ŋu aƒle ZEC kple fiat alo cryptocurrency bubuwo.
 
 **[BitcoinVN](https://bitcoinvn.io)**
 
-BitcoinVN nye asitɔtrɔ enumake si menye nudzraɖoƒe o si doa alɔ shielded (z-address) deposits kple gaɖeɖe na ZEC — exchange ʋee ŋutɔwo dometɔ ɖeka le xexeame katã kple z-address ƒe kpekpeɖeŋu blibo. Esi nèle dɔ wɔm tso ƒe 2014 me ta la, àte ŋu aɖɔli BTC, ETH, USDT, kple cryptocurrencies bubuwo na ZEC tẽe ɖe wò gakotoku si ŋu wokpɔ ta na la me.
+BitcoinVN nye gatrɔƒe si me asikplɔ-dzralá mele o, eye wòate ŋu awɔ ɖɔli ɖɔli enumake; wòdoa asi ɖe ɣaɣla (z-address) ƒe gaɖeɖe kple gahehe na ZEC ŋu — enye gatrɔƒe ʋɛ aɖewo dome le xexeame katã siwo katã doa asi ɖe z-address ŋu. Esi wòdze dɔ le 2014 me la, àte ŋu atsɔ BTC, ETH, USDT, kple cryptocurrency bubuwo aɖɔli na ZEC tɔŋ, ahenae ɖe wò gakotoku ɣaɣla me.
 
-**[flyp.me. ƒe agbalẽ](https://flyp.me)**
+**[flyp.me](https://flyp.me)**
 
-flyp.me nye crypto exchange si me womedea asi agbalẽ te o. Enye mɔ siwo le dedie wu eye wole ɣaɣla wu dometɔ ɖeka si dzi nàto aɖɔli cryptocurrencies 30+ tẽe ɖe wò gakotokua me. Àte ŋu aƒle ZEC kple cryptocurrencies bubuwo.
+flyp.me nye crypto gatrɔƒe si me wòle be nàŋlɔ ŋkɔ o. Enye mɔ dedie kple ɣaɣla tɔxɛ wu geɖe si woatsɔ atrɔ cryptocurrency 30+ tɔŋ ahenae ɖe wò gakotoku me. Àte ŋu aƒle ZEC kple cryptocurrency bubuwo.
 
-## Exchange siwo doa alɔ gaɖeɖe le gaglãgbe
+## Gatrɔƒewo siwo doa asi ɖe nuwo ƒe ʋuʋuɖi ƒe gahehe ŋu
 
-Exchange gã akpa gãtɔ doa alɔ Zcash. Kpɔ afisia hena xexlẽdzesi tsitotsito: [afisia](https://zechub.wiki/using-zcash/custodial-exchanges).
+Gatrɔƒe gã siwo katã doa asi ɖe Zcash ŋu. Kpɔ xexlẽme detɔ aɖe le afisia: [afisia](https://zechub.wiki/using-zcash/custodial-exchanges).
 
 
 **[Coinbase](https://www.coinbase.com)**
@@ -50,17 +50,17 @@ Exchange gã akpa gãtɔ doa alɔ Zcash. Kpɔ afisia hena xexlẽdzesi tsitotsit
   />
 </div>
 
-## Decentralized Exchanges siwo doa alɔ gaɖeɖe le gaglãgbe
+## Ha nuɖo agni ƒe Gatrɔƒewo siwo doa asi ɖe nuwo ƒe ʋuʋuɖi ƒe gahehe ŋu
 
-Nu siawo ɖɔliɖɔli doa alɔ gaɖeɖe le gaglãgbe. Esia fia be ne èɖe ZEC ɖe wò gakotoku me la, ele be nàɖoe ɖe wò adrɛs si me kɔ, wò dutoƒo ZEC adrɛs. 
-Zi [afisia](https://zechub.wiki/using-zcash/non-custodial-exchanges) na nye nyawo tsitotsito.
+Gatrɔƒe siawo doa asi ɖe nuwo ƒe ʋuʋuɖi ƒe gahehe ŋu. Esia fia be ne nèhe ZEC ɖe wò gakotoku me la, ele be nàhe ɖe wò nuwo ƒe ʋuʋuɖi ƒe gaɖoƒe dzesi me, wò dukɔ bliboa ƒe ZEC gaɖoƒe dzesi. 
+Zi [afisia](https://zechub.wiki/using-zcash/non-custodial-exchanges) be nàkpɔ nyatakaka bubuwo.
 
 ![dex](/content-images/bfe2e9cf-2def-4593-b790-152e14b23da3-f94f97c7e6.webp)
 
 
-Ne èle esia wɔm la, míeɖo aɖaŋu be nàzã [gakotoku] siwo gbɔna la dometɔ ɖeka](https://zechub.wiki/wallets). 
+Ne wòle esia wɔm la, míeɖe aɖaŋu be nàzã [gakotokowo](https://zechub.wiki/wallets) dometɔ aɖe. 
 
-![si tsana](/content-images/8b7618f5-dec6-4e6b-9804-db75be5c1e2f-14fa53d3bd.webp)
+![mobile](/content-images/8b7618f5-dec6-4e6b-9804-db75be5c1e2f-14fa53d3bd.webp)
 
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
@@ -74,18 +74,18 @@ Ne èle esia wɔm la, míeɖo aɖaŋu be nàzã [gakotoku] siwo gbɔna la domet�
   />
 </div>
 
-## Vodada Siwo Wòaƒo Asa na Zi geɖe
+## Vodadawo siwo Wòle Be Nàƒle Agbɔ na
 
-- **Adzɔɖeɖe yi adrɛs si me kɔ** ne asitɔtrɔa do alɔ gaɖeɖe siwo wokpɔ ta na — zã wò z-adrɛs ɣesiaɣi ne ele
-- **Tsi le akpoxɔnu ƒe afɔɖeɖea dzi** le xɔxlɔ̃ yi adrɛs si me kɔ vɔ megbe — zã wò gakotoku ƒe "Akpoxɔnu ƒe Ga" ƒe nɔnɔme enumake
-- **Ƒle nu geɖe wu alesi wòhiã le gɔmedzedzea me** — dze egɔme tso sue dzi be nàsrɔ̃ sisi hafi nàƒle nu gãwo
+- **Gahehe ɖe nuwo ƒe ʋuʋuɖi ƒe gaɖoƒe dzesi me** ne gatrɔƒea doa asi ɖe ɣaɣla ƒe gahehe ŋu — Zã wò z-address ɣesiaɣi ne wòli
+- **Ɣeɣle ɣaɣla ƒe afɔɖeɖe la ta** le esi nèkplɔe ɖe nuwo ƒe ʋuʋuɖi ƒe gaɖoƒe dzesi me megbe — Zã wò gakotoku me "Shield Funds" dɔwɔnu enumake
+- **Nu si wu esi wòhiã gbãtɔ la ƒle** — Dze egɔme kple ga sue aɖe be nàsrɔ̃ mɔa gɔme hafi nàƒle nu geɖe
 
 ---
 
-## Axa Siwo Do Ƒome Kplii
+## Axɔnyawo siwo Ɖo kple Eŋu
 
-- [Gakotokuwo](/using-zcash/wallets) — Tia gakotoku hafi nàɖe ga le gaɖɔliɖɔli aɖe me
-- [Nu Siwo Menye Viɖewo ƒe Asitɔtrɔ O](/using-zcash/non-custodial-exchanges) — DEXE siwo doa alɔ ZEC ƒe xexlẽdzesi bliboa
-- [Custodial ƒe asitɔtrɔwo](/using-zcash/custodial-exchanges) — CEX siwo doa alɔ ZEC ƒe xexlẽdzesi bliboa
-- [Ta Siwo Wotsɔ Akpoxɔnu Wɔe](/using-zcash/shielded-pools) — Nusitae ga si woɖena le ga me si ŋu akpoxɔnu le le vevie
-- [Zazãla ƒe Mɔfiame Yeye](/start-here/new-user-guide) — Onboarding checklist blibo na Zcash zãla yeyewo
+- [Gakotokowo](/using-zcash/wallets) — Tia gakotoku hafi nàhe ga tso gatrɔƒe aɖe me
+- [Gatrɔƒewo si me asikplɔ-dzralá mele o](/using-zcash/non-custodial-exchanges) — DEXwo ƒe xexlẽme blibo siwo doa asi ɖe ZEC ŋu
+- [Asikplɔ-dzralá ƒe Gatrɔƒewo](/using-zcash/custodial-exchanges) — CEXwo ƒe xexlẽme blibo siwo doa asi ɖe ZEC ŋu
+- [Ɣaɣla ƒe Gaƒuƒoƒowo](/using-zcash/shielded-pools) — Nu ka ta ɣaɣla ƒe gahehe le vevie
+- [Zãla Yeye ƒe Mɔfia](/start-here/new-user-guide) — Gɔmedzedze ƒe xexlẽme blibo na Zcash ƒe zãla yeyewo

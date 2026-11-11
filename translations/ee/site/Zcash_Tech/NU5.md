@@ -4,110 +4,110 @@
 
 # NU5
 
-> NU5 yi agbe le Zcash mainnet dzi le block 1,687,104 (May 31, 2022 UTC).
+> NU5 de dze egɔme le Zcash mainnet dzi le gaɖoɖowo ƒuƒoƒe 1,687,104 (May 31, 2022 UTC).
 
-Nusi nàtsɔ adzoe: alesi NU5 na Zcash takpɔƒe yeye si wokpɔ ta na si mehiã ɖoɖo si dzi woka ɖo o, tsɔ kpe ɖe adrɛs ƒomevi ɖeka si wɔa dɔ le tadeaguƒewo katã me ŋu.
+Nu si nànya le esia me nye: ale si NU5 na Zcash gaƒuƒoƒo ɣaɣla yeye si me mɔ̃ ƒe ɖoɖo xexlẽnuwo mele o, kple gaɖoƒe ƒe dzesi ƒomekuku ɖeka si wɔa dɔ le gaƒuƒoƒowo katã me.
 
-NU5 (Network Upgrade 5) nye Zcash adelia [network ƒe ŋgɔyiyi](../start-here/network-upgrades), si woɖo ɖe dɔ me to [ZIP 252 ƒe xexlẽdzesi](https://zips.z.cash/zip-0252). Enye nya ɣaɣlawo ƒe asitɔtrɔ gã aɖe. Eto Orchard shielded payment protocol vɛ, si wotu ɖe Halo 2 proving system dzi, tsɔ kpe ɖe Address siwo wɔ ɖeka kple version 5 ƒe asitsatsa ƒe ɖoɖo yeye ŋu. NU5 si woɖo ɖe Electric Coin Company's zcashd v5.0.0 ƒe dodo me.
+NU5 (Network Upgrade 5) nye Zcash ƒe [mɔ̃ ƒe sewo trɔtrɔ](../start-here/network-upgrades) ene, si [ZIP 252](https://zips.z.cash/zip-0252) wɔ. E nye cryptography ƒe mɔ̃trɔ gã aɖe. Etsɔ Orchard fexexe ɣaɣla ƒe protocol va, si wotu ɖe Halo 2 ɖaseɖigbalɛ wɔwɔ ƒe ɖoɖo dzi, kple Unified Addresses kple gaɖoɖo ƒe ƒome 5 ƒe nɔnɔme yeye. NU5 do go le Electric Coin Company ƒe zcashd v5.0.0 ƒe tatã me.
 
-Nusitae esia le vevie ɖo. Ðeko woate ŋu aka ɖe ta si wotsɔ akpoxɔnu wɔe dzi abe ɖoɖo si wɔe ene. Zcash's ta eve gbãtɔ siwo ŋu wokpɔ akpoxɔnu le, Sprout kple Sapling, ɖesiaɖe hiã na ɖoɖowɔwɔ ƒe kɔnu si dzi woka ɖo zi ɖeka be woawɔ woƒe adzame nɔnɔmetatawo. Ne ɖe wolé parameter mawo me ɖe asi gbeɖeka tsɔ wu be woatsrɔ̃ wo la, anye ne ame aɖe ate ŋu ata ZEC aʋatso la ame aɖeke makpɔe hafi. NU5's Orchard ta la wua dzimaɖitsitsi ma nu to Halo 2 ƒe kpeɖodziɖoɖoa zazã me, si mehiã be woawɔ kɔnu ma tɔgbe aɖeke o.
+Nu ka tae esia le vevie. Gaƒuƒoƒo ɣaɣla ƒe dzideƒo le abe mɔ̃ ƒe ɖoɖo xexlẽnuwo si wɔe ene. Zcash ƒe gaƒuƒoƒo ɣaɣla gbãtɔ eve, Sprout kple Sapling, hiã mɔ̃ ƒe ɖoɖo xexlẽnuwo ƒe kɔnu ɖeka ƒe kpekpe be woawɔ wo ƒe nya siwo le ɣa me. Ne womegbã nya mawo kpɔ o eye wotsɔe ɖe asi ɖe te, ame aɖe ate ŋu awɔ ZEC ƒe atsyɔ̃tso siwo menye vavã o, eye ame aɖeke makpɔe o. NU5 ƒe Orchard gaƒuƒoƒo na ŋɔdzi ma yi le Halo 2 ɖaseɖigbalɛ wɔwɔ ƒe ɖoɖo si me kpekpe ma ƒomevi aɖeke mele o la zazã me.
 
-## Ðoɖo si dzi woka ɖo
+## Mɔ̃ ƒe ɖoɖo xexlẽnuwo
 
-Orchard nye shielded protocol si NU5, si gɔme woɖe le [ZIP 224 ƒe xexlẽdzesi](https://zips.z.cash/zip-0224). Wotue ɖe Halo 2 kpeɖodziɖoɖoa dzi, si zãa mɔnu aɖe si woyɔna be PLONKish akɔntabubu le Pallas kple Vesta ƒe ʋuʋudedi ƒe tsatsam dzi. Fetu ŋutɔŋutɔ le bɔbɔe: Halo 2 mehiã ɖoɖo si dzi woka ɖo o eye mehiã be woawɔ nufiame ka si woɖo ɖe ɖoɖo nu o, eyata adzame parameter aɖeke meli si woate ŋu azã le mɔ gbegblẽ nu gbeɖe o.
+Orchard nye protocol ɣaɣla si NU5 tsɔ va, si woɖe fia le [ZIP 224](https://zips.z.cash/zip-0224) me. Wotu e ɖe Halo 2 ɖaseɖigbalɛ wɔwɔ ƒe ɖoɖo dzi, si zazãa mɔ aɖe si woyɔna be PLONKish arithmetization le Pallas kple Vesta curve cycle dzi. Nu si míaate ŋu akpɔ tso eme kɔŋ nye: Halo 2 me mɔ̃ ƒe ɖoɖo xexlẽnuwo kple structured reference string mele o, ale nya ɣa aɖeke si woate ŋu azã vɔ̃ o mele o.
 
-Sprout kple Sapling siaa nɔ te ɖe ɖoɖo si dzi woka ɖo dzi. Amewo ƒe ƒuƒoƒo aɖe wɔ kɔnu aɖe tsɔ tu ta ɖesiaɖe ƒe nɔnɔmewo ɖo, eye ele be amesiame naka ɖe edzi be yewo dometɔ ɖeka ya teti tsrɔ̃ yewoƒe nya ɣaɣla la ƒe akpa aɖe. Orchard ɖea susu ma ɖa. Ta xoxoawo gakpɔtɔ li le NU5, eyata ɖoɖo aɖeke mawɔmawɔ ƒe kakaɖedzia ku ɖe ga siwo nèlé ɖe Orchard ta la me ŋu.
+Sprout kple Sapling katã ɖo asi ɖe mɔ̃ ƒe ɖoɖo xexlẽnuwo dzi. Ameha aɖe wɔ kpekpe be woawɔ gaƒuƒoƒo siawo ƒe nya, eye womia be ame mawo dome atɔ̃ ɖeka koe gbã eƒe akpa si le ɣa. Orchard ɖe susu ma ɖa. Gaƒuƒoƒo xoxoawo gali le NU5 megbe hã, eyata mɔ̃ ƒe ɖoɖo xexlẽnuwo manɔ o ƒe laylayla la ku ɖe ga si nèle Orchard gaƒuƒoƒo me la dzi.
 
 ![Before NU5, Sprout and Sapling needed a trusted setup ceremony. After NU5, the Orchard pool uses the Halo 2 system and needs no trusted setup](/content-images/nu5-trusted-setup-5447dbe3f2.webp)
 
-## Nusi NU5 trɔ
+## Nu si NU5 trɔ
 
-NU5 ƒoa tɔtrɔ geɖe siwo dzi woda asi ɖo nu ƒu, siwo katã wowɔ dɔ ɖekae le block 1,687,104.
+NU5 na gbegbɔgblɔ ɖi ƒe tɔtrɔ geɖe va ƒoƒo, eye wo katã dze egɔme ɖeka le gaɖoɖowo ƒuƒoƒe 1,687,104.
 
-1. Etsɔ Orchard shielded pool (ZIP 224), si nye Halo 2 based protocol si ŋu míeƒo nu tsoe le etame la kpe ɖe eŋu.
-2. Etsɔ version 5 transaction format (ZIP 225) kpe ɖe eŋu, si nye ɖoɖo si wogbugbɔ trɔ asi le si me nuto vovovowo le na Orchard nyatakaka siwo me kɔ, Sapling, kple yeyewo. Woɖe Sprout fields ɖa, eye version 4 ƒe nɔnɔme xoxoa nɔ dɔ wɔm le dɔwɔwɔ vɔ megbe.
-3. Eto Adrɛs Ðeka kple nukpɔkpɔ ƒe safui siwo wowɔ ɖekae (ZIP 316) vɛ, siwo ŋu woƒo nu tsoe le akpa si kplɔe ɖo me.
-4. Exɔ transaction identifier non-malleability (ZIP 244), si nye mɔnu yeye aɖe si dzi woato abu asitsatsa ƒe id si ma nusi asitsatsa wɔna tso kpeɖodzi kple asidede agbalẽ te siwo ɖe mɔ nɛ gbɔ.
-5. Exɔ Jubjub point encodings si le se nu (ZIP 216) be yeaɖe encodings siwo mele ɖoɖo nu o ɖa eye wòase se siwo wobu be enye asitsatsa si sɔ la me sesĩe.
-6. Ena wowɔ asitɔtrɔ le version 5 ƒe asitsatsa ŋu le peer-to-peer network (ZIP 239) dzi.
+1. Etsɔ Orchard gaƒuƒoƒo ɣaɣla (ZIP 224) va, si nye Halo 2 dzi wotu ƒe protocol si woɖe fia le afisia.
+2. Etsɔ gaɖoɖo ƒe ƒome 5 nɔnɔme (ZIP 225) va, si nye nɔnɔme si woɖo ɖe ɖoɖo yeye me, kple teƒe vovovo na nuwo ƒe ʋuʋuɖi, Sapling, kple Orchard ƒe nyawo. Woɖe Sprout ƒe ƒeƒewo ɖa, eye ƒome 4 xoxo la gaɖo dzi ɖe dɔmedzoe megbe.
+3. Etsɔ Unified Addresses kple nukpɔsafui siwo woɖo ƒoƒo va (ZIP 316), si míaadzro le akpa si kplɔe ɖo me.
+4. Etsɔ gaɖoɖo ƒe dzesi ƒe non-malleability (ZIP 244) de dɔme, si nye mɔ̃ yeye si me wowɔna gaɖoɖo ƒe id, si ma wonu si gaɖoɖo la wɔ la tso ɖaseɖigbalɛwo kple asidede agbalẽ te siwo na mɔ̃e la gbɔ.
+5. Etsɔ Jubjub point encodings siwo le standard me (ZIP 216) de dɔme be woaɖe encoding siwo menye standard o ɖa eye woana sewo siwo gblɔ nu si woxɔ abe gaɖoɖo vavã ene la nakpɔ ŋusẽ.
+6. Ena mɔ̃ be woaɖe gaɖoɖo ƒome 5 dzi le peer-to-peer network la katã (ZIP 239).
 
-NU5 hã trɔ asi le ZIP geɖe siwo li fifia ŋu (32, 203, 209, 212, 213, 221, kple 401) ale be woawoe bua akɔnta le Orchard ta yeyea ŋu.
+NU5 hã trɔ ZIP xoxowo dometɔ geɖe (32, 203, 209, 212, 213, 221, kple 401) be woabu Orchard gaƒuƒoƒo yeye la ɖe eme.
 
-## Adrɛs Siwo Wowɔ Ðekae
+## Unified Addresses
 
-Do ŋgɔ na NU5, adrɛs ƒomevi nɔa ta ɖesiaɖe si, eye ele be amesi ɖoe ɖa nanya ƒomevi si nèdi. Adrɛs Siwo Wowɔ Ðeka, si gɔme woɖe le [ZIP 316 ƒe xexlẽdzesi](https://zips.z.cash/zip-0316), trɔ ema. Adrɛs ɖeka si nye Unified ate ŋu aƒo xɔlawo nu ƒu na ta si wu ɖeka, eyata ɖeko amesi ɖoe ɖa ƒe gakotokua tiaa nyuitɔ kekeake si wòdo alɔe.
+Do ŋgɔ na NU5, gaƒuƒoƒo ɖe sia ɖe nɔ gaɖoƒe ƒe dzesi ƒomekuku tɔe, eye ele be ame si le ga dzom na wò la nanya ƒomekuku si nèdi. Unified Addresses, si woɖe fia le [ZIP 316](https://zips.z.cash/zip-0316) me, trɔ esia. Unified Address ɖeka ate ŋu aɖo receiverwo ƒoƒo na gaƒuƒoƒo ɖeka kple bubuwo, ale ame si le ga dzom la ƒe gakotoku ti ɖeka si wòate ŋu awɔ dɔ kpli.
 
 ![A unified address bundles receivers for several pools: a transparent receiver, a Sapling receiver, and a new Orchard receiver](/content-images/nu5-unified-address-6e2c84f66e.webp)
 
-Nukpɔkpɔ ƒe safui siwo wowɔ ɖekae wɔa dɔ nenema ke na nukpɔkpɔ. Wonana nuxexlẽ ɖeɖeko kpɔa nu le ta siwo ŋu adrɛs aɖe ƒo nu tsoe la dzi. Ne èdi nyatakaka bubuwo tso ema ŋu la, kpɔ.. [Safuiwo Kpɔkpɔ](../zcash-tech/viewing-keys) axa 10.
+Nukpɔsafui siwo woɖo ƒoƒo la wɔa dɔ nenema hã na nukpɔkpɔ. Wona mɔ̃ be woakpɔ nuwo le gaƒuƒoƒo siwo gaɖoƒe ƒe dzesi aɖe ɖo ƒoƒo la katã me, gake womate ŋu atrɔ naneke o. Ne nàdi nya bubu tso esia ŋu la, kpɔ [Nukpɔsafuiwo](../zcash-tech/viewing-keys) ƒe axa.
 
-## Afisi NU5 bɔbɔ nɔ
+## Afisi NU5 le
 
-NU5 kplɔ Zcash's tɔtrɔ siwo wòwɔ do ŋgɔ ɖo: Overwinter, Sapling, Blossom, Heartwood, kple Canopy. Ewɔ dɔ le mainnet dzi le May 31, 2022. Wotia Orchard's curve cycle elabena edoa alɔ recursion, si nye gɔmeɖoanyi na scaling dɔwɔwɔ emegbe. NU5 nye ŋgɔdola tẽ na NU6 kple NU6.x fli ƒe tɔtrɔwo, si tu ɖe Orchard ta la dzi eye emegbe woɖɔe ɖo.
+NU5 va de Zcash ƒe mɔ̃trɔ siwo va do ŋgɔ la yome: Overwinter, Sapling, Blossom, Heartwood, kple Canopy. Ede dɔme le mainnet dzi le May 31, 2022. Wotia Orchard ƒe curve cycle elabena ekpe ɖe recursion ŋu, si nye gɔmedzedze na nu ƒe dziyiyi ƒe dɔ siwo ava emegbe. NU5 nye mɔ̃trɔ si do ŋgɔ ŋutɔ na NU6 kple NU6.x ƒe mɔ̃trɔwo, siwo tu ɖe Orchard gaƒuƒoƒo dzi eye wotrɔe emegbe.
 
-## Nyagɔmeɖegbalẽ
+## Nyagɔme ƒe agbalẽ
 
-| Nya | Gɔmesese si le Eŋlisigbe me gbadzaa |
+| Nyagɔme | Gɔ̃me si bɔbɔe |
 |---|---|
-| Network upgrade (NU) | Tɔtrɔ si wowɔ ɖekae ɖe Zcash's se siwo dzi woda asi ɖo ŋu, si wowɔ dɔ le block ƒe kɔkɔme si woɖo ɖi me |
-| Orchard | Akpoxɔnu ta si NU5 to vɛ, si wotu ɖe Halo 2 kpeɖodziɖoɖoa dzi |
-| Halo 2 | Kpeɖodziɖoɖo si le megbe Orchard si mehiã ɖoɖo si dzi woka ɖo o |
-| Trusted setup | Kɔnu si wowɔna zi ɖeka si wɔa ta aɖe ƒe nya ɣaɣlawo eye ele be woaka ɖe edzi be wòatsrɔ̃ wo |
-| Unified Address | Adrɛs ɖeka si ate ŋu aƒo xɔlawo nu ƒu na ta si wu ɖeka (ZIP 316) |
-| Consensus branch id | Dzesidenu si dea dzesi se siwo me asitsatsa aɖe le |
+| Network upgrade (NU) | Tɔtrɔ si woɖo ɖe ɖoɖo ɖeka me le Zcash ƒe gbegbɔgblɔ ɖi ƒe sewo ŋu, si dzea dɔme le gaɖoɖowo ƒuƒoƒe ƒe teƒe si woɖo ɖi |
+| Orchard | Gaƒuƒoƒo ɣaɣla si NU5 tsɔ va, si wotu ɖe Halo 2 ɖaseɖigbalɛ wɔwɔ ƒe ɖoɖo dzi |
+| Halo 2 | Ɖaseɖigbalɛ wɔwɔ ƒe ɖoɖo si le Orchard megbe, si me mɔ̃ ƒe ɖoɖo xexlẽnuwo mele o |
+| Trusted setup | Kpekpe ɖeka si wɔa gaƒuƒoƒo ƒe nya siwo le ɣa, eye ele be woaxɔe ase be wogbãe |
+| Unified Address | Gaɖoƒe ƒe dzesi ɖeka si ate ŋu aɖo receiverwo ƒoƒo na gaƒuƒoƒo ɖeka kple bubuwo (ZIP 316) |
+| Consensus branch id | Dzesi si fia se ƒe ƒoƒo si gaɖoɖo aɖe le teƒe la |
 
-## Nyabiasewo ƒe Nyabiasewo
+## Nyabiase siwo wonyaa zi geɖe
 
-Ðe NU5 trɔa nye ZEC alo nye adzamenyawoa? Ao NU5 tsɔ shielded pool yeye kple adrɛs ƒe ɖoɖo yeye kpee. Wò ZEC si li fifia mekpɔ ŋusẽ ɖe edzi o, eye womeɖe wò nyatakakawo dzi kpɔtɔ o. Ga ʋuʋu yi Orchard naa ta aɖe si mehiã ɖoɖo si dzi woka ɖo o la sua asiwò.
+Ðe NU5 trɔ nye ZEC alo nye ɣaɣla? Ao. NU5 tsɔ gaƒuƒoƒo ɣaɣla yeye kple gaɖoƒe ƒe dzesi ƒe nɔnɔme yeye va. Wò ZEC si nèxɔ ɖe asi kpɔ la metɔ o, eye wò ɣaɣla menɔ gbɔna o. Ne nàtsɔ ga ade Orchard me la, nàkpɔ gaƒuƒoƒo si me mɔ̃ ƒe ɖoɖo xexlẽnuwo mele o.
 
-Nukae nye Orchard? Orchard nye Zcash's shielded protocol si NU5. Ewɔa dɔ le Halo 2 kpeɖodziɖoɖoa dzi, eyata mehiã be woawɔ ɖoɖo ƒe wɔna si dzi woka ɖo o.
+Nu kae nye Orchard? Orchard nye Zcash ƒe protocol ɣaɣla si NU5 tsɔ va. Ewɔa dɔ le Halo 2 ɖaseɖigbalɛ wɔwɔ ƒe ɖoɖo dzi, eyata mɔ̃ ƒe ɖoɖo xexlẽnuwo ƒe kpekpe aɖeke mehiãe o.
 
-Ðe wòle be mawɔ nanea? Ao, gakotoku si wodo alɔe la kpɔa NU5 gbɔ na wò. Àte ŋu ayi edzi anɔ adrɛs xoxowo zãm, eye àte ŋu adze Adrɛs siwo wowɔ ɖekae zazã gɔme ne wò gakotokua tsɔ wo na.
+Ðe ele be mawɔ nu aɖe? Ao. Gakotoku si wòde asi ɖe la wɔa NU5 na wò. Àte ŋu azã gaɖoƒe ƒe dzesi xoxowo yi edzi, eye nàte ŋu adze Unified Addresses zazã gɔme ne wò gakotoku tsɔe na wò.
 
-Nukae nye Adrɛs si wɔ ɖeka? Adrɛs ɖeka si ate ŋu alé receivers na pool siwo wu ɖeka. Amesi ɖoe ɖa ƒe gakotokua tiaa ta si wòdoa alɔe, eyata mehiã be nàna adrɛs vovovo na ƒomevi ɖesiaɖe o.
+Nu kae nye Unified Address? E nye gaɖoƒe ƒe dzesi ɖeka si ate ŋu axɔ receiverwo na gaƒuƒoƒo ɖeka kple bubuwo. Ame si le ga dzom la ƒe gakotoku tia gaƒuƒoƒo si wòde asi ɖe, eyata mele be nàtsɔ gaɖoƒe ƒe dzesi vovovo na ƒomekuku ɖe sia ɖe o.
 
-Ðe NU5 ɖea ɖoɖo si dzi woka ɖo la ɖa le nye ga xoxowo mea? Menye le megbedede me o. Orchard mehiã ɖoɖo si dzi woka ɖo o, gake Sapling pool ƒe parameters do ŋgɔ gakpɔtɔ li le NU5. Kakaɖedzi si nye be womaɖoe o la ku ɖe ga siwo le Orchard ta la me ŋu.
+Ðe NU5 ɖe mɔ̃ ƒe ɖoɖo xexlẽnuwo ɖa le nye ga xoxowo me? Menye ɣeyiɣi si va yi la me o. Orchard me mɔ̃ ƒe ɖoɖo xexlẽnuwo mele o, gake Sapling gaƒuƒoƒo la ƒe nya xoxoawo gali le NU5 megbe. Mɔ̃ ƒe ɖoɖo xexlẽnuwo manɔ o ƒe laylayla la ku ɖe ga si nèle Orchard gaƒuƒoƒo me la dzi.
 
-Ðe asitsatsa ƒe ɖoɖo xoxoa dzudzɔ dɔwɔwɔa? Ao, NU5 tsɔ version 5 ƒe nɔnɔme kpee, eye version 4 ƒe nɔnɔme xoxoa gakpɔtɔ nɔ dɔ wɔm le dɔwɔwɔ vɔ megbe.
+Ðe gaɖoɖo ƒe nɔnɔme xoxo la tɔ dɔwɔwɔ? Ao. NU5 tsɔ ƒome 5 ƒe nɔnɔme va, eye ƒome 4 ƒe nɔnɔme xoxo la gaɖo dzi ɖe dɔmedzoe megbe.
 
-## Do wò nugɔmesese kpɔ
+## Do wò nufiame kpɔ
 
-Sprout kple Sapling siaa hiã ɖoɖowɔwɔ ƒe wɔna si dzi woka ɖo. Nukae NU5's Orchard pool trɔ le ema ŋu, eye nukatae wòle vevie?
+Sprout kple Sapling katã hiã mɔ̃ ƒe ɖoɖo xexlẽnuwo ƒe kpekpe. Nu kae NU5 ƒe Orchard gaƒuƒoƒo trɔ tso esia ŋu, eye nu ka tae esia le vevie?
 
 <details>
-<summary>Answer</summary>
+<summary>Ðoɖo</summary>
 
-Wotu Orchard ɖe Halo 2 kpeɖodziɖoɖoa dzi, si mehiã ɖoɖo si dzi woka ɖo o eye mehiã be woaɖo nufiame ka si woɖo ɖe ɖoɖo nu o. Ema ɖea afɔku si nye be woate ŋu azã nya ɣaɣla siwo susɔ atsɔ awɔ aʋatso ZEC. Kakaɖedzia ku ɖe ga siwo le Orchard ta la me ŋu. Sapling nɔnɔmetata xoxoawo gakpɔtɔ li le NU5.
+Orchard wotu ɖe Halo 2 ɖaseɖigbalɛ wɔwɔ ƒe ɖoɖo dzi, si me mɔ̃ ƒe ɖoɖo xexlẽnuwo kple structured reference string mele o. Esia ɖea afɔku si be woate ŋu azã nya ɣa siwo woɖe ɖe asi ɖe te be woawɔ ZEC ƒe atsyɔ̃tso siwo menye vavã o la ɖa. Laylayla la ku ɖe ga si nèle Orchard gaƒuƒoƒo me la dzi. Sapling ƒe nya xoxoawo gali le NU5 megbe.
 </details>
 
-### Nunɔamesiwo
+### Nu siwo nàte ŋu azã
 
-[ZIP 252: NU5 Network Upgrade ƒe dɔwɔwɔ](https://zips.z.cash/zip-0252)
+[ZIP 252: NU5 Network Upgrade ƒe dɔmedzoe](https://zips.z.cash/zip-0252)
 
-[ZIP 224: Orchard ƒe Ðoɖowɔɖi](https://zips.z.cash/zip-0224)
+[ZIP 224: Orchard Ƒe Protocol ɣaɣla](https://zips.z.cash/zip-0224)
 
-[ZIP 225: Version 5 ƒe Asitsatsa ƒe Nɔnɔme](https://zips.z.cash/zip-0225)
+[ZIP 225: Gaɖoɖo ƒome 5 ƒe nɔnɔme](https://zips.z.cash/zip-0225)
 
-[ZIP 316: Adrɛs Siwo Wowɔ Ðeka Kple Nukpɔkpɔ ƒe Safui Siwo Wowɔ Ðeka](https://zips.z.cash/zip-0316)
+[ZIP 316: Unified Addresses kple Unified Viewing Keys](https://zips.z.cash/zip-0316)
 
-[Netwɔƒe ƒe Ðɔɖɔɖo 5](https://z.cash/upgrade/nu5/)
+[Network Upgrade 5](https://z.cash/upgrade/nu5/)
 
-[Electric Coin Company: zcashd 5.0.0 ƒe dodo](https://electriccoin.co/blog/new-release-5-0-0/)
+[Electric Coin Company: zcashd 5.0.0 ƒe tatã](https://electriccoin.co/blog/new-release-5-0-0/)
 
-### Kpɔe hã
+### Kpɔ hã
 
-[Zcash Network ƒe Ðɔɖɔɖowo](../start-here/network-upgrades)
+[Zcash Network Upgrades](../start-here/network-upgrades)
 
-[Ta Siwo Wotsɔ Akpoxɔnu Wɔe](../using-zcash/shielded-pools)
+[Gaƒuƒoƒo ɣaɣlawo](../using-zcash/shielded-pools)
 
 [Halo](../zcash-tech/halo)
 
 [zk-SNARKs](../zcash-tech/zk-snarks)
 
-[Safuiwo Kpɔkpɔ](../zcash-tech/viewing-keys)
+[Nukpɔsafuiwo](../zcash-tech/viewing-keys)
 
 [NU6.1](../zcash-tech/nu6-1)
 
 ---
 
-Siwo kplɔ wo nɔewo ɖo: [Network Upgrades ƒe dzesi](../start-here/network-upgrades) · Si do ŋgᴐ: [Canopy](../zcash-tech/canopy) · Esi kplᴐe ɖo: [NU6](../zcash-tech/nu6)
+Series: [Network Upgrades ƒe index](../start-here/network-upgrades) · Si do ŋgɔ: [Canopy](../zcash-tech/canopy) · Si kplɔe ɖo: [NU6](../zcash-tech/nu6)

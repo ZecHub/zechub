@@ -2,480 +2,480 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Zallet ƒe Mɔfiame Kabakaba
+# Zallet Ƒoƒoɖoɖo ƒe Kpuiɖoɖo
 
 ## TL;DR
 
-- Zallet nye Zcash gakotoku si me node blibo le si woŋlɔ ɖe Rust me. Exɔ ɖe gakotoku si nɔ zcashd me tsã la teƒe.
-- zcashd ɖo eƒe End-of-Support ƒe tɔtrɔ gbɔ le 18 July 2026 dzi eye megale dɔ wɔm o. Zebra kpɔa node ƒe akpa dzi azɔ; Zallet kpɔa gakotokua ƒe akpa dzi.
-- Èku Zallet tso sedede ƒe fli dzi kple `zallet rpc <command>`, abe alesi nèzãe ene `zcash-cli` do ŋgɔ.
-- Ele be nyaʋiʋli ɖesiaɖe si le sedede ƒe ŋkɔ megbe nanye JSON si sɔ, si fia be ka ƒe asixɔxɔwo nalé woƒe nyayɔyɔ eve ɖe te.
-- Zallet gakpɔtɔ le alfa me. Sededewo ateŋu atrɔ le asiɖeɖe le wo ŋu dome, eye menye zcashd RPC ɖesiaɖee wotsɔ yi ŋgɔe haɖe o.
+- Zallet nye ɣaɣla dzesi ŋɔŋlɔ blibo [full node] Zcash gakotoku [wallet] si woŋlɔ kple Rust. Eɖe gakotoku si nɔ zcashd me tsã la teƒe.
+- zcashd va ɖo eƒe Kpekpeɖeŋu ƒe Nuɖoɖo ƒe nuwuwu le 18 July 2026, eye menɔa dɔ o azɔ. Zebra kpɔa ɣaɣla dzesi ŋɔŋlɔ [node] ƒe akpa dzi azɔ; Zallet kpɔa gakotoku ƒe akpa dzi.
+- Èkplɔa Zallet le command line dzi kple `zallet rpc <command>`, abe ale si nèkplɔa `zcash-cli` kple etsɔme ene.
+- Argument siawo katã siwo va command ƒe ŋkɔ megbe la ele be woanye JSON si le ete, si fia be string ƒe asixɔxɔwo nawo ƒe double quote nawo li ɖe eme.
+- Zallet le beta me. Commands ate ŋu atrɔ le release vovovowo me, eye zcashd RPC siawo katã mede asi va o haɖe.
 
-## Numeɖeɖe Vevitɔ
+## Nya Si Le Eme
 
-Zallet ɖea eƒe dɔwɔwɔ ɖe go to JSON-RPC, si nye ŋgɔdonya ƒe atsyã ma ke si zcashd gakotoku zã. Nusianu si nèdi be gakotokua nawɔ — akpɔ ga si susɔ, awɔ akɔnta, aɖo fexexe si wokpɔ ta na — nye sedede si dzi nèto `zallet rpc`.
+Zallet tsɔa JSON-RPC doa eƒe dɔwɔwɔ ɖe afia, si nye interface ƒe ƒomevi ma ke zcashd gakotoku tsɔna. Nusi ke wòdi be gakotoku la nawɔ — be nàkpɔ balance, awɔ account, alo nàdɔ ɣaɣla [shielded] fexexe [payment] — nye command si nàtsɔ ade `zallet rpc` ŋu.
 
-Nu eve to vovo tso xoxoa gbɔ `zcash-cli` numame eye wobua vodada gbãtɔ akpa gãtɔ ƒe akɔnta. Gbã la, ele be nyaʋiʋliwo nanye JSON si sɔ tsɔ wu be woanye nuŋɔŋlɔ ƒuƒlu, eyata ka ƒe nyaʋiʋli tsɔa eya ŋutɔ ƒe nyayɔyɔdzesiwo le shell nyayɔyɔawo me. Evelia, sedede siwo li ƒe hatsotso nɔ te ɖe alpha ƒe tata si nèle wɔwɔm dzi, eyata xexlẽdzesi si wotu ɖe wò binary me la nye esi ŋu kakaɖedzi le wu axa ɖesiaɖe si woŋlɔ, si me esia hã le.
+Nu eve to vovo tso `zcash-cli` ƒe tsɔtsɔ si nɔ tsã la me, eye woe nana vodadawo geɖe dzena le gɔmedzedze. Gbãtɔ, argumentwo ele be woanye JSON si le ete, menye nya ƒuƒu ko o, eyata string argument aɖe tsɔa eƒe quotation mark nawo le shell ƒe quote me. Evelia, command siwo li la ƒe xexlẽme ɖoa ŋu be beta release kae nèle wɔm, eyata list si le wò binary me la le nuteƒe wu nuŋɔŋlɔ aɖeke, halɔ page sia hã.
 
-Be nàŋlɔ RPC siwo katã li la:
+Be nàxlẽ RPC siwo katã li la:
 
 ```bash
 zallet rpc help
 ```
 
-Be nàxɔ kpekpeɖeŋu tsitotsito na RPC aɖe koŋ:
+Be nàxɔ kpekpeɖeŋu blibo tso RPC aɖe ŋu:
 
 ```bash
 zallet rpc help '"<command>"'
 ```
 
-> **Vevietɔ:** Nyaʋiʋli ɖesiaɖe si le mɔnu ƒe ŋkɔ megbe **ele be wòanye JSON si sɔ**. 
-> Ele be woaŋlɔ ka ƒe asixɔxɔwo abe `"value"` (si me nyayɔyɔ eve siwo woyɔ hã le).
+> **Nuxaxa:** Argument siawo katã siwo va method ƒe ŋkɔ megbe la **ele be woanye JSON si le ete**.  
+> Ele be woaŋlɔ string ƒe asixɔxɔwo abe `"value"` ene (double quote nawo hã le eme).
 
-## Vodada Siwo Bɔ
+## Vodadawo Si Wodzena Zi Geɖe
 
-- **Ememe nyayɔyɔwo tsɔtsɔ ƒu gbe ɖe ka ƒe nyaʋiʋliwo dzi.** `zallet rpc validateaddress u1abc...` do kpo nu, elabena ele be adrɛs la nava ɖo abe JSON ene. Ehiã be woaŋlɔe `'"u1abc..."'`.
-- **Ne míetsɔe be zcashd RPC ɖesiaɖe li le afisia.** Porting gakpɔtɔ le edzi yim. Mɔnu aɖewo wɔa nu ɖekae, ɖewo hiã be woazã wo le mɔ vovovowo nu, eye womatsɔ ɖewo ayi ŋgɔe kura o.
-- **Axa sia wɔwɔ abe ŋusẽ le wò binary dzi.** Zallet le alpha me eye wòʋãna kabakaba. Ne sedede aɖe si le afisia mewɔ dɔ o la, ke lé ŋku ɖe eŋu `zallet rpc help` hafi atsɔe be nane gblẽ.
-- **Mɔkpɔkpɔ be Zallet nanye node.** Enye gakotoku ƒe afã le eveawo me. Zebra ƒua du node la, eye Zallet ƒoa nu kplii.
+- **Metsɔa quotation mark si le eme la o le string argumentwo ŋu.** `zallet rpc validateaddress u1abc...` medzea o, elabena ele be gaɖoƒe ƒe dzesi [address] la nava abe JSON ene. Ele be woaŋlɔe abe `'"u1abc..."'` ene.
+- **Wobu be RPC siawo katã le afisia.** Tsɔtsɔ va fifia le edzi yim. Method aɖewo wɔa dɔ ɖeka pɛ, aɖewo hia be woatsɔ wo differently, eye womeatsɔ aɖewo ava o kura.
+- **Wotsɔa page sia wɔa nuteƒe tso wò binary ŋu.** Zallet le beta me eye wotrɔna kaba. Ne command aɖe si le afisia medzea o la, kpɔ `zallet rpc help` gbã hafi nàbu be nu aɖe gblẽ.
+- **Wole ŋu be Zallet nye ɣaɣla dzesi ŋɔŋlɔ.** Enye gakotoku ƒe akpa le pair la me. Zebra wɔa ɣaɣla dzesi ŋɔŋlɔ ƒe dɔ, eye Zallet doa nuƒoƒo kplee.
 
-## RPC ƒe Sededewo
+## RPC Commands
 
-### decoderaw ƒe asitsatsa
+### decoderawtransaction
 
 ```bash
 zallet rpc decoderawtransaction '"<hexstring>"'
 ```
 
-| Parameter | Ƒomevi | Wobia tso esi | Numeɖeɖe |
+| Parameter   | Ƒomevi   | Hiãa | Gɔmeɖeɖe              |
 |-------------|--------|----------|--------------------------|
-| hexstring   | ka | ẽ | Asitsatsa hex ka |
+| hexstring   | string | eo      | Gaɖoɖo ƒe hex string   |
 
 ---
 
-### decodescript ƒe nuŋɔŋlɔ
+### decodescript
 
 ```bash
 zallet rpc decodescript '"<hexstring>"'
 ```
 
-| Parameter | Ƒomevi | Wobia tso esi | Numeɖeɖe |
+| Parameter   | Ƒomevi   | Hiãa | Gɔmeɖeɖe     |
 |-------------|--------|----------|-----------------|
-| hexstring   | ka | ẽ | Script hex |
+| hexstring   | string | eo      | Script ƒe hex      |
 
 ---
 
-### gettraw ƒe asitsatsa
+### getrawtransaction
 
 ```bash
 zallet rpc getrawtransaction '"<txid>"' [verbose] ['"<blockhash>"']
 ```
 
-| Parameter | Ƒomevi | Wobia tso esi | Default | Numeɖeɖe |
+| Parameter  | Ƒomevi   | Hiãa | Default | Gɔmeɖeɖe                          |
 |------------|--------|----------|---------|--------------------------------------|
-| txid | ka | ẽ |         | Asitsatsa ƒe ID |
-| verbose    | xexlẽdzesi | ao | 0 | `0` = hex, non-zero = JSON nu |
-| blockhash  | ka | ao |         | Seɖoƒe na didi ɖe mɔxenu sia |
+| txid       | string | eo      |         | Gaɖoɖo ƒe ID                       |
+| verbose    | number | ao       | 0       | `0` = hex, non-zero = JSON object    |
+| blockhash  | string | ao       |         | Ɖe didi la ŋu ɖe block sia ko me        |
 
 ---
 
-### getwalletinfo ƒe nyatakakawo
+### getwalletinfo
 
 ```bash
 zallet rpc getwalletinfo
 ```
 
-Parameters aɖeke meli o.
+Parameter aɖeke mele o.
 
 ---
 
-### getwallet ƒe nɔnɔme
+### getwalletstatus
 
 ```bash
 zallet rpc getwalletstatus
 ```
 
-Parameters aɖeke meli o.
+Parameter aɖeke mele o.
 
 ---
 
-### listadrɛswo ƒe xexlẽdzesiwo
+### listaddresses
 
 ```bash
 zallet rpc listaddresses
 ```
 
-Parameters aɖeke meli o.
+Parameter aɖeke mele o.
 
 ---
 
-### rpc.ke ɖe eŋu
+### rpc.discover
 
 ```bash
 zallet rpc rpc.discover
 ```
 
-Parameters aɖeke meli o. Trɔ OpenRPC ƒe ɖoɖowɔɖia.
+Parameter aɖeke mele o. Etrɔa OpenRPC schema la.
 
 ---
 
-### tᴐ
+### stop
 
 ```bash
 zallet rpc stop
 ```
 
-Parameters aɖeke meli o. (Ŋkɔŋlɔɖi ɖeɖeko)
+Parameter aɖeke mele o. (Regtest ko)
 
 ---
 
-### validateaddress dzi
+### validateaddress
 
 ```bash
 zallet rpc validateaddress '"<address>"'
 ```
 
-| Parameter | Ƒomevi | Wobia tso esi | Numeɖeɖe |
+| Parameter | Ƒomevi   | Hiãa | Gɔmeɖeɖe             |
 |-----------|--------|----------|-------------------------|
-| address   | ka | ẽ | Adrɛs si me kɔ nyuie |
+| address   | string | eo      | Nuwo ƒe ʋuʋuɖi [transparent] gaɖoƒe ƒe dzesi     |
 
 ---
 
-### ɖo kpe gbedasi dzi
+### verifymessage
 
 ```bash
 zallet rpc verifymessage '"<address>"' '"<signature>"' '"<message>"'
 ```
 
-| Parameter | Ƒomevi | Wobia tso esi | Numeɖeɖe |
+| Parameter  | Ƒomevi   | Hiãa | Gɔmeɖeɖe             |
 |------------|--------|----------|-------------------------|
-| address    | ka | ẽ | Adrɛs si me kɔ nyuie |
-| signature  | ka | ẽ | Base64 ƒe asidede agbalẽ te |
-| message    | ka | ẽ | Gbedasi gbãtɔ |
+| address    | string | eo      | Nuwo ƒe ʋuʋuɖi gaɖoƒe ƒe dzesi     |
+| signature  | string | eo      | Base64 asidede agbalẽ te [signature]        |
+| message    | string | eo      | Gbãtɔ nya        |
 
 ---
 
-### gakotoku ƒe gakotoku
+### walletlock
 
 ```bash
 zallet rpc walletlock
 ```
 
-Parameters aɖeke meli o.
+Parameter aɖeke mele o.
 
 ---
 
-### gakotoku ƒe nyagbegbɔgblɔ
+### walletpassphrase
 
 ```bash
 zallet rpc walletpassphrase '"<passphrase>"' <timeout>
 ```
 
-| Parameter | Ƒomevi | Wobia tso esi | Numeɖeɖe |
+| Parameter   | Ƒomevi   | Hiãa | Gɔmeɖeɖe                          |
 |-------------|--------|----------|--------------------------------------|
-| passphrase  | ka | ẽ | Gakotoku ƒe nyagbegbɔgblɔ |
-| timeout     | xexlẽdzesi | ẽ | Sɛkɛnd be woana gakotokua nanɔ ʋuʋu ɖi |
+| passphrase  | string | eo      | Gakotoku ƒe passphrase                    |
+| timeout     | number | eo      | Sekondi siwo gakotoku anɔ unlocked me  |
 
 ---
 
-### z_trɔtrɔ ƒe nuŋɔŋlɔ
+### z_converttex
 
 ```bash
 zallet rpc z_converttex '"<transparent_address>"'
 ```
 
-| Parameter | Ƒomevi | Wobia tso esi | Numeɖeɖe |
+| Parameter             | Ƒomevi   | Hiãa | Gɔmeɖeɖe                |
 |-----------------------|--------|----------|----------------------------|
-| transparent_address   | ka | ẽ | P2PKH adrɛs be woatrɔ |
+| transparent_address   | string | eo      | P2PKH gaɖoƒe ƒe dzesi si woatrɔ   |
 
 ---
 
-### z_exportkey ƒe safui
+### z_exportkey
 
 ```bash
 zallet rpc z_exportkey '"<sapling_address>"'
 ```
 
-| Parameter | Ƒomevi | Wobia tso esi | Numeɖeɖe |
+| Parameter | Ƒomevi   | Hiãa | Gɔmeɖeɖe                                      |
 |-----------|--------|----------|--------------------------------------------------|
-| address   | ka | ẽ | Sapling adrɛs si ƒe gazazã ƒe safui be woatsɔ aɖo duta |
+| address   | string | eo      | Sapling gaɖoƒe ƒe dzesi si ƒe gazazãsafui [spending key] woaɖe ado go     |
 
-> Ele be woaʋu gakotokua. Sapling ƒe gazazã ƒe safuia koe wòɖona ɖe duta.
+> Ele be gakotoku la nanɔ unlocked me. Eɖea Sapling gazazãsafui ko ado go.
 
 ---
 
-### z_getakɔntabubu
+### z_getaccount
 
 ```bash
 zallet rpc z_getaccount '"<account_uuid>"'
 ```
 
-| Parameter | Ƒomevi | Wobia tso esi | Numeɖeɖe |
+| Parameter     | Ƒomevi   | Hiãa | Gɔmeɖeɖe     |
 |---------------|--------|----------|-----------------|
-| account_uuid  | ka | ẽ | Akɔntabubu UUID |
+| account_uuid  | string | eo      | Account UUID    |
 
 ---
 
-### z_getaddressfor akɔnta
+### z_getaddressforaccount
 
 ```bash
 zallet rpc z_getaddressforaccount <account> ['["p2pkh","sapling","orchard"]'] [<diversifier_index>]
 ```
 
-| Parameter | Ƒomevi | Wobia tso esi | Numeɖeɖe |
+| Parameter          | Ƒomevi            | Hiãa | Gɔmeɖeɖe                              |
 |--------------------|-----------------|----------|------------------------------------------|
-| account            | ka / xexlẽdzesi | ẽ | Akɔntabubu UUID alo ZIP-32 akɔnta ƒe xexlẽdzesi |
-| receiver_types     | ƒuƒoƒo si me ka | ao | Xɔla ƒomeviwo be woade |
-| diversifier_index  | xexlẽdzesi | ao | Diversifier ƒe dzesi tɔxɛ aɖe |
+| account            | string / number | eo      | Account UUID alo ZIP-32 account index     |
+| receiver_types     | array of string | ao       | Receiver ƒomevi siwo woatsɔ ade eme                |
+| diversifier_index  | number          | ao       | Diversifier index si ƒo xlã                   |
 
 ---
 
-### z_getbalancefor akɔnta
+### z_getbalanceforaccount
 
 ```bash
 zallet rpc z_getbalanceforaccount <account> [<minconf>]
 ```
 
-| Parameter | Ƒomevi | Wobia tso esi | Default | Numeɖeɖe |
+| Parameter | Ƒomevi            | Hiãa | Default | Gɔmeɖeɖe                      |
 |-----------|-----------------|----------|---------|----------------------------------|
-| account   | ka / xexlẽdzesi | ẽ |         | Akɔntabubu UUID alo ZIP-32 ƒe xexlẽdzesi |
-| minconf   | xexlẽdzesi | ao | 1 | Kpeɖodzi suetɔ kekeake |
+| account   | string / number | eo      |         | Account UUID alo ZIP-32 index     |
+| minconf   | number          | ao       | 1       | Confirmation ƒe xexlẽme si le anyi            |
 
 ---
 
-### z_getbalances ƒe xexlẽme
+### z_getbalances
 
 ```bash
 zallet rpc z_getbalances [<minconf>]
 ```
 
-| Parameter | Ƒomevi | Wobia tso esi | Default | Numeɖeɖe |
+| Parameter | Ƒomevi   | Hiãa | Default | Gɔmeɖeɖe               |
 |-----------|--------|----------|---------|---------------------------|
-| minconf   | xexlẽdzesi | ao | 1 | Kpeɖodzi suetɔ kekeake |
+| minconf   | number | ao       | 1       | Confirmation ƒe xexlẽme si le anyi     |
 
 ---
 
-### z_getnewakɔntabubu
+### z_getnewaccount
 
 ```bash
 zallet rpc z_getnewaccount '"<account_name>"' ['"<seedfp>"']
 ```
 
-| Parameter | Ƒomevi | Wobia tso esi | Numeɖeɖe |
+| Parameter     | Ƒomevi   | Hiãa | Gɔmeɖeɖe                              |
 |---------------|--------|----------|------------------------------------------|
-| account_name  | ka | ẽ | Ŋkɔ si amegbetɔ ate ŋu axlẽ |
-| seedfp        | ka | ao | Ehiã ne gakotokua me nuku geɖe le |
+| account_name  | string | eo      | Ame ƒe ŋkɔ si wòate ŋu axlẽ                      |
+| seedfp        | string | ao       | Ehiã ne gakotoku la ƒe seedwo sɔ gbɔ    |
 
 ---
 
-### z_getnotescount ƒe xexlẽme
+### z_getnotescount
 
 ```bash
 zallet rpc z_getnotescount [<minconf>] [<as_of_height>]
 ```
 
-| Parameter | Ƒomevi | Wobia tso esi | Default | Numeɖeɖe |
+| Parameter     | Ƒomevi   | Hiãa | Default | Gɔmeɖeɖe                          |
 |---------------|--------|----------|---------|--------------------------------------|
-| minconf       | xexlẽdzesi | ao | 1 | Kpeɖodzi suetɔ kekeake |
-| as_of_height  | xexlẽdzesi | ao |         | Nyabiase tso kɔkɔƒe sia (`-1` = aɖaŋuɖoɖo) |
+| minconf       | number | ao       | 1       | Confirmation ƒe xexlẽme si le anyi                |
+| as_of_height  | number | ao       |         | Biabia le height sia dzi (`-1` = tip) |
 
 ---
 
-### z_getdɔwɔwɔ ƒe emetsonu
+### z_getoperationresult
 
 ```bash
 zallet rpc z_getoperationresult ['["opid1","opid2"]']
 ```
 
-| Parameter | Ƒomevi | Wobia tso esi | Numeɖeɖe |
+| Parameter    | Ƒomevi            | Hiãa | Gɔmeɖeɖe                              |
 |--------------|-----------------|----------|------------------------------------------|
-| operationid  | ƒuƒoƒo si me ka | ao | Dɔwɔwɔ ƒe IDwo (ɖe asi le wo katã ŋu na esiwo wowu enu) |
+| operationid  | array of string | ao       | Operation IDwo (meɖea ɖa na siwo wu enu katã)    |
 
 ---
 
-### z_getdɔwɔwɔ ƒe nɔnɔme
+### z_getoperationstatus
 
 ```bash
 zallet rpc z_getoperationstatus ['["opid1","opid2"]']
 ```
 
-| Parameter | Ƒomevi | Wobia tso esi | Numeɖeɖe |
+| Parameter    | Ƒomevi            | Hiãa | Gɔmeɖeɖe                    |
 |--------------|-----------------|----------|--------------------------------|
-| operationid  | ƒuƒoƒo si me ka | ao | Dɔwɔwɔ ƒe IDwo (ɖe asi le wo katã ŋu) |
+| operationid  | array of string | ao       | Operation IDwo (meɖea ɖa na katã)   |
 
 ---
 
-### z_gettotaldadasɔ
+### z_gettotalbalance
 
 ```bash
 zallet rpc z_gettotalbalance [<minconf>] [<include_watchonly>]
 ```
 
-| Parameter | Ƒomevi | Wobia tso esi | Default | Numeɖeɖe |
+| Parameter          | Ƒomevi    | Hiãa | Default | Gɔmeɖeɖe                     |
 |--------------------|---------|----------|---------|---------------------------------|
-| minconf            | xexlẽdzesi | ao | 1 | Kpeɖodzi suetɔ kekeake |
-| include_watchonly | boolean | ao | alakpa | De gaƒoɖokui ɖeɖeko ƒe dadasɔwo eme |
+| minconf            | number  | ao       | 1       | Confirmation ƒe xexlẽme si le anyi           |
+| include_watchonly  | boolean | ao       | false   | Tsɔ watch-only balancewo ade eme     |
 
 ---
 
-### z_importaddress ƒe adrɛs
+### z_importaddress
 
 ```bash
 zallet rpc z_importaddress '"<account_uuid>"' '"<hex_data>"' [<rescan>]
 ```
 
-| Parameter | Ƒomevi | Wobia tso esi | Default | Numeɖeɖe |
+| Parameter  | Ƒomevi    | Hiãa | Default | Gɔmeɖeɖe                          |
 |------------|---------|----------|---------|--------------------------------------|
-| account    | ka | ẽ |         | Akɔntabubu UUID |
-| hex_data   | ka | ẽ |         | Hex dutoƒo safui alo xɔname ŋɔŋlɔdzesi |
-| rescan | boolean | ao | nyateƒe | Gbugbɔ scan le import megbe |
+| account    | string  | eo      |         | Account UUID                         |
+| hex_data   | string  | eo      |         | Hex public key alo redeem script      |
+| rescan     | boolean | ao       | true    | Ɖe asi le eŋu ake le import megbe                  |
 
 ---
 
-### z_importkey ƒe safui
+### z_importkey
 
 ```bash
 zallet rpc z_importkey '"<key>"' ['"<rescan>"'] [<start_height>]
 ```
 
-| Parameter | Ƒomevi | Wobia tso esi | Default | Numeɖeɖe |
+| Parameter     | Ƒomevi   | Hiãa | Default        | Gɔmeɖeɖe                              |
 |---------------|--------|----------|----------------|------------------------------------------|
-| key           | ka | ẽ |                | Sapling keke gazazã ƒe safui |
-| rescan | ka | ao | `"whenkeyisnew"` | `"yes"`, `"no"`, or `"whenkeyisnew"`   |
-| start_height  | xexlẽdzesi | ao | 0 | Rescan gɔmedzedze ƒe kɔkɔme |
+| key           | string | eo      |                | Sapling extended gazazãsafui            |
+| rescan        | string | ao       | `"whenkeyisnew"` | `"yes"`, `"no"`, alo `"whenkeyisnew"`   |
+| start_height  | number | ao       | 0              | Height si rescan adze egɔme le                      |
 
 ---
 
-### z_listaakɔntabubuwo
+### z_listaccounts
 
 ```bash
 zallet rpc z_listaccounts [<include_addresses>]
 ```
 
-| Parameter | Ƒomevi | Wobia tso esi | Default | Numeɖeɖe |
+| Parameter          | Ƒomevi    | Hiãa | Default | Gɔmeɖeɖe                              |
 |--------------------|---------|----------|---------|------------------------------------------|
-| include_addresses  | boolean | ao | nyateƒe | Trɔ adrɛswo hã na akɔnta ɖesiaɖe |
+| include_addresses  | boolean | ao       | true    | Hã trɔa gaɖoƒe ƒe dzesiwo na account ɖesiaɖe   |
 
 ---
 
-### z_listdɔwɔwɔ ƒe dzesiwo
+### z_listoperationids
 
 ```bash
 zallet rpc z_listoperationids ['"<status>"']
 ```
 
-| Parameter | Ƒomevi | Wobia tso esi | Numeɖeɖe |
+| Parameter | Ƒomevi   | Hiãa | Gɔmeɖeɖe                          |
 |-----------|--------|----------|--------------------------------------|
-| status    | ka | ao | Klɔe le nɔnɔme nu (e.g. `"success"`)  |
+| status    | string | ao       | Ɖe filter le status dzi (kp. `"success"`)  |
 
 ---
 
-### z_list ƒe adzɔnuwo
+### z_listtransactions
 
 ```bash
 zallet rpc z_listtransactions ['"<account_uuid>"'] [<start_height>] [<end_height>] [<offset>] [<limit>]
 ```
 
-| Parameter | Ƒomevi | Wobia tso esi | Numeɖeɖe |
+| Parameter      | Ƒomevi   | Hiãa | Gɔmeɖeɖe                  |
 |----------------|--------|----------|------------------------------|
-| account_uuid   | ka | ao | Seɖoƒe li na akɔnta ɖeka |
-| start_height   | xexlẽdzesi | ao | Nusiwo katã le ete ƒe liƒo |
-| end_height     | xexlẽdzesi | ao | Exclusive dzigbe seɖoƒe |
-| offset | xexlẽdzesi | ao | Skip esia geɖe ƒe emetsonuwo |
-| limit          | xexlẽdzesi | ao | Nusiwo do tso eme si sɔ gbɔ wu be woatrɔ |
+| account_uuid   | string | ao       | Ɖo limit ɖe account ɖeka ŋu         |
+| start_height   | number | ao       | Lower bound si woade eme        |
+| end_height     | number | ao       | Upper bound si womade eme    |
+| offset         | number | ao       | Ɖo resultwo siawo ƒe xexlẽme to       |
+| limit          | number | ao       | Resultwo ƒe xexlẽme gãtɔ si woatrɔ    |
 
 ---
 
-### z_listunifiedxɔlawo
+### z_listunifiedreceivers
 
 ```bash
 zallet rpc z_listunifiedreceivers '"<unified_address>"'
 ```
 
-| Parameter | Ƒomevi | Wobia tso esi | Numeɖeɖe |
+| Parameter         | Ƒomevi   | Hiãa | Gɔmeɖeɖe                  |
 |-------------------|--------|----------|------------------------------|
-| unified_address   | string | Ɛ̃      | Unified Address be woalé ŋku ɖe eŋu   |
+| unified_address   | string | eo      | Unified Address si woakpɔ   |
 
 ---
 
-### z_listunspent ye nye ema
+### z_listunspent
 
 ```bash
 zallet rpc z_listunspent [<minconf>] [<maxconf>] [<include_watchonly>] ['["addr1","addr2"]'] [<as_of_height>]
 ```
 
-| Parameter | Ƒomevi | Wobia tso esi | Default | Numeɖeɖe |
+| Parameter          | Ƒomevi            | Hiãa | Default | Gɔmeɖeɖe                          |
 |--------------------|-----------------|----------|---------|--------------------------------------|
-| minconf            | xexlẽdzesi | ao | 1 | Kpeɖodzi suetɔ kekeake |
-| maxconf            | xexlẽdzesi | ao | ∞ ∞ | Kpeɖodzinya siwo sɔ gbɔ wu |
-| include_watchonly | boolean | ao | alakpa | De gaƒoɖokui ɖeɖeko ƒe |
-| addresses          | ƒuƒoƒo si me ka | ao |         | Filter ɖe adrɛs siawo dzi |
-| as_of_height       | xexlẽdzesi | ao |         | Nyabiase tso kɔkɔƒe sia |
+| minconf            | number          | ao       | 1       | Confirmation ƒe xexlẽme si le anyi                |
+| maxconf            | number          | ao       | ∞       | Confirmation ƒe xexlẽme gãtɔ                |
+| include_watchonly  | boolean         | ao       | false   | Tsɔ watch-only ade eme                   |
+| addresses          | array of string | ao       |         | Ɖe filter ɖe gaɖoƒe ƒe dzesi siawo ŋu            |
+| as_of_height       | number          | ao       |         | Biabia le height sia dzi              |
 
 ---
 
-### z_recoveraccounts ƒe akɔntabubuwo
+### z_recoveraccounts
 
 ```bash
 zallet rpc z_recoveraccounts '[{"name":"...","seedfp":"...","zip32_account_index":0,"birthday_height":123456}]'
 ```
 
-| Parameter | Ƒomevi | Wobia tso esi | Numeɖeɖe |
+| Parameter | Ƒomevi  | Hiãa | Gɔmeɖeɖe                                                                 |
 |-----------|-------|----------|-----------------------------------------------------------------------------|
-| accounts  | ƒuƒoƒo | ẽ | Nu siwo woɖo ɖe ɖoɖo nu: `name`, `seedfp`, `zip32_account_index`, `birthday_height` |
+| accounts  | array | eo      | Objectwo ƒe array: `name`, `seedfp`, `zip32_account_index`, `birthday_height` |
 
 ---
 
-### z_ɖo ame geɖe ɖa
+### z_sendmany
 
 ```bash
 zallet rpc z_sendmany '"<fromaddress>"' '[{"address":"...","amount":1.23,"memo":"..."}]' [<minconf>] [null] ['"<privacy_policy>"']
 ```
 
-| Parameter | Ƒomevi | Wobia tso esi | Default | Numeɖeɖe |
+| Parameter        | Ƒomevi            | Hiãa | Default         | Gɔmeɖeɖe                                      |
 |------------------|-----------------|----------|-----------------|--------------------------------------------------|
-| fromaddress      | ka | ẽ |                 | Dzɔtsoƒe ƒe adrɛs alo `"ANY_TADDR"`                  |
-| amounts          | nu ƒe ƒuƒoƒo | ẽ |                 | Amesiwo xɔe (`address`, `amount`, le tiatia me `memo`)|
-| minconf          | xexlẽdzesi | ao |                 | Kpeɖodzi suetɔ kekeake |
-| fee              | null | ao |                 | Ele be wòanɔ nenema `null` (ZIP-317 ɖeɖeko) |
-| privacy_policy   | ka | ao | `"FullPrivacy"` | Ameŋunyatakakawo ŋuti ɖoɖowo ƒe ka |
+| fromaddress      | string          | eo      |                 | Dzeaƒe ƒe gaɖoƒe ƒe dzesi alo `"ANY_TADDR"`                  |
+| amounts          | array of object | eo      |                 | Ame siwo anɔ xɔm (`address`, `amount`, `memo` si menye mandatory o)|
+| minconf          | number          | ao       |                 | Confirmation ƒe xexlẽme si le anyi                            |
+| fee              | null            | ao       |                 | Ele be wòanye `null` (ZIP-317 ko)                    |
+| privacy_policy   | string          | ao       | `"FullPrivacy"` | Ɣaɣla [privacy] ƒe policy string                            |
 
 ---
 
-### z_shieldcoinbase ƒe gɔmeɖoanyi
+### z_shieldcoinbase
 
 ```bash
 zallet rpc z_shieldcoinbase '"<fromaddress_or_account_uuid>"' '"<toaddress>"' [null] [<limit>] ['"<memo_hex>"'] ['"<privacy_policy>"']
 ```
 
-| Parameter | Ƒomevi | Wobia tso esi | Numeɖeɖe |
+| Parameter        | Ƒomevi   | Hiãa | Gɔmeɖeɖe                                      |
 |------------------|--------|----------|--------------------------------------------------|
-| fromaddress      | ka | ẽ | Adrɛs alo akɔnta si me kɔ UUID |
-| toaddress        | ka | ẽ | Teƒe si woɖo tae si wotsɔ akpoxɔnu ɖo |
-| fee              | null | ao | Ele be wòanɔ nenema `null`                                   |
-| limit            | xexlẽdzesi | ao | Max xexlẽme si le coinbase UTXOs be woakpɔ akpoxɔnu |
-| memo | ka | ao | Hex-encoded memo |
-| privacy_policy   | ka | ao | `AllowRevealedSenders` or `AllowLinkingAccountAddresses` |
+| fromaddress      | string | eo      | Nuwo ƒe ʋuʋuɖi gaɖoƒe ƒe dzesi alo account UUID              |
+| toaddress        | string | eo      | Ɣaɣla ƒe teƒe si woado ɖo                             |
+| fee              | null   | ao       | Ele be wòanye `null`                                   |
+| limit            | number | ao       | Coinbase UTXO ƒe xexlẽme gãtɔ si woaɣla           |
+| memo             | string | ao       | Hex-encoded nya kpui [memo]                                 |
+| privacy_policy   | string | ao       | `AllowRevealedSenders` alo `AllowLinkingAccountAddresses` |
 
 ---
 
-### z_view ƒe asitsatsa
+### z_viewtransaction
 
 ```bash
 zallet rpc z_viewtransaction '"<txid>"'
 ```
 
-| Parameter | Ƒomevi | Wobia tso esi | Numeɖeɖe |
+| Parameter | Ƒomevi   | Hiãa | Gɔmeɖeɖe     |
 |-----------|--------|----------|-----------------|
-| txid | ka | ẽ | Asitsatsa ƒe ID |
+| txid      | string | eo      | Gaɖoɖo ƒe ID  |
 
 ---
 
-## Axa Siwo Do Ƒome Kplii
+## Page Siwo Kplɔe ɖo
 
-- [Ʋuʋu ƒe Mɔfiame: Zcashd yi Zebrad kple Zallet](/guides/migration-guide-zcashd-to-zebrad-zallet) — afɔɖeɖe ɖesiaɖe ʋuʋu tso zcashd ɖoɖo si li xoxo gbɔ
-- [Zebra ƒe Node Bliboe](/zcash-tech/zebra-full-node) — node ƒe dɔwɔwɔ Zallet wɔa dɔ kpe ɖe eŋu
-- [Nodes Blibowo](/zcash-tech/full-nodes) — nusi node blibo ƒe duƒuƒu bia kple nusita nàte ŋu adi ɖeka
-- [Gakotokuwo](/using-zcash/wallets) — gakotoku ƒe tiatia siwo le bɔbɔe wu ne node blibo aɖe sɔ gbɔ wu esi nèhiã
-- [Asitsatsa](/using-zcash/transactions) — alesi asitsatsa siwo ŋu wokpɔa akpoxɔnu le eye wowɔa nu le gaglãgbe to vovoe
+- [Habuɖoɖo ƒe Mɔfiame: zcashd yi Zebrad kple Zallet](/guides/migration-guide-zcashd-to-zebrad-zallet) — yi ɖe afɔɖeafɔ me tso zcashd ƒe setup si le xoxo me
+- [Zebra Ɣaɣla Dzesi Ŋɔŋlɔ Blibo](/zcash-tech/zebra-full-node) — ɣaɣla dzesi ŋɔŋlɔ ƒe implementation si Zallet wɔa dɔ kplii
+- [Ɣaɣla Dzesi Ŋɔŋlɔwo Blibo](/zcash-tech/full-nodes) — nusi ɣaɣla dzesi ŋɔŋlɔ blibo ƒe wɔwɔ hia kple nu si ta nàdi be yèawɔe
+- [Gakotokuwɔwo](/using-zcash/wallets) — gakotoku ƒe mɔ bɔbɔe siwo nàtsɔ ne ɣaɣla dzesi ŋɔŋlɔ blibo gã wu nu si wòhia
+- [Gaɖoɖowo](/using-zcash/transactions) — ale si ɣaɣla kple nuwo ƒe ʋuʋuɖi gaɖoɖowo to vovo

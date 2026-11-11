@@ -6,6 +6,11 @@
 // Run: node --test link-health/false-positives.test.mjs
 import assert from "node:assert/strict";
 import { existsSync, readFileSync } from "node:fs";
+import { spawnSync } from "node:child_process";
+import { mkdir, mkdtemp, readFile, rm, writeFile } from "node:fs/promises";
+import { tmpdir } from "node:os";
+import { dirname, join } from "node:path";
+import { fileURLToPath } from "node:url";
 import test from "node:test";
 
 const source = readFileSync(new URL("./check-links.mjs", import.meta.url), "utf8");
@@ -63,3 +68,50 @@ test("documentation placeholders are never probed", () => {
     assert.equal(isPlaceholderHost(h), false, h);
   }
 });
+
+// Run the actual offline CLI: a shorter slug must not inherit a sibling's page.
+// Normalized equality is the fallback used by zechub-wiki/authAndFetch.ts.
+for (const scope of ["default", "relative subset", "absolute subset"]) {
+  test(`route substring rejection preserves valid routes (${scope})`, async () => {
+    const dir = await mkdtemp(join(tmpdir(), "zechub-fuzzy-"));
+    try {
+      const missing = [
+        "/zcash-tech/zakura", "/zcash-tech/node", "/zcash-tech/kura-no",
+        "/zcash-tech/zakura-node-extra", "/zcash-tech/missing",
+        "/other/zakura-node", "/ZCASH-TECH/zakuranode",
+      ];
+      const valid = ["/zcash-tech/zakura-node", "/", "/wallets"];
+      // Absolute --root has a pre-existing relative/absolute fallback mismatch;
+      // keep this control on exact routes rather than changing root semantics.
+      if (scope !== "absolute subset") valid.push(
+        "/zcash-tech/zakuranode", "/zcash-tech/ZAKURA_NODE",
+        "/zcash-tech/zakura_node/?a=1#section",
+      );
+      const files = {
+        "site/Zcash_Tech/Index.md": [...valid, ...missing].map((u) => `[link](${u})`).join("\n"),
+        "site/Zcash_Tech/Zakura_Node.md": "# Zakura Node\n",
+        "deny-fetch.mjs": 'globalThis.fetch = () => { process.exit(97); };\n',
+      };
+      for (const [name, content] of Object.entries(files)) {
+        const path = join(dir, name);
+        await mkdir(dirname(path), { recursive: true });
+        await writeFile(path, content);
+      }
+      const args = ["--import", join(dir, "deny-fetch.mjs"),
+        fileURLToPath(new URL("./check-links.mjs", import.meta.url)), "--offline",
+        "--json", join(dir, "report.json"), "--markdown", join(dir, "report.md")];
+      if (scope !== "default") args.push("--root", scope === "relative subset"
+        ? "site/Zcash_Tech" : join(dir, "site/Zcash_Tech"));
+      const result = spawnSync(process.execPath, args, { cwd: dir, encoding: "utf8", timeout: 15_000 });
+      assert.ifError(result.error);
+      assert.equal(result.status, 0, result.stderr || result.stdout);
+      const report = JSON.parse(await readFile(join(dir, "report.json"), "utf8"));
+      assert.equal(report.filesScanned, 2);
+      assert.equal(report.linksFound, valid.length + missing.length);
+      assert.equal(report.uniqueExternalChecked, 0);
+      assert.deepEqual(report.findings.filter((f) => f.kind === "route").map((f) => f.url), missing);
+    } finally {
+      await rm(dir, { recursive: true, force: true });
+    }
+  });
+}

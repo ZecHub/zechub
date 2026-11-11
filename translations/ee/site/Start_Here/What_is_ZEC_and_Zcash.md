@@ -2,62 +2,62 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Zcash ƒe Gɔmeɖosewo
+# Zcash ƒe Gɔmedzedzeawo
 
 ## TL;DR
 
-- **ZEC** nye adzame-gbãtɔ dijitaal ga si wotu ɖe Zcash blockchain dzi
-- To vovo na Bitcoin la, ZEC doa alɔ **sidzedze (ame ŋutɔ tɔ) ƒe asitsatsa** bliboe to sidzedze zero-sidzedze ƒe kpeɖodziwo zazã me
-- Wòe kpɔa ŋusẽ ɖe wò ganyawo ƒe adzamenyawo dzi: tia nusi nàɖe afia, kple amesi nàɖe afia
-- Zcash nye dɔwɔƒe si woate ŋu azã faa, mɔɖeɖe mele eŋu o, eye woɖe asi le eŋu
+- **ZEC** nye dzidzime ga si wotu ɖe Zcash gaɖoɖowo ƒuƒoƒo ƒe ɖoɖonu [blockchain] dzi
+- To vovo na Bitcoin, ZEC ƒe ŋuɖoɖo li be wòawɔ **ɣaɣla [shielded] (ame ƒe eme) gaɖoɖo [transaction]wo** bliboe kple zero-knowledge ɖaseɖigbalɛ [proof]wo
+- Èle wò ga ƒe ɣaɣla [privacy] ƒe dziɖuɖu me: tia nu si nàfia, kple ame si nàfia na
+- Zcash ƒe nɔnɔme nye dɔwɔwɔ ƒe aʋaʋa, zãzã faa [permissionless], eye wòe nye ha nuɖo agni [decentralized]
 
 ---
 
-## Nukae nye ZEC?
+## Nu kae nye ZEC?
 
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/J1Nr1VL5dGU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ---
 
-ZEC nye dijitaal ga si wotu ɖe Zcash blockchain dzi. Enye nusi te ɖe ga ŋu wu le nyatakakadzraɖoƒea. Togbɔ be ewɔa nu geɖe siwo sɔ kple Bitcoin tɔ hã la, ekpɔa Bitcoin ƒe vodada gãtɔ gbɔ to ena be ezãlawo te ŋu wɔa ga ƒe asitsatsa siwo nye ame ŋutɔ tɔ bliboe.
+ZEC nye dzidzime ga si wotu ɖe Zcash gaɖoɖowo ƒuƒoƒo ƒe ɖoɖonu dzi. Eyae nye ga si sɔ keke na cash le internet dzi. Ne eɖo wɔnɔnu geɖe kple Bitcoin hã la, eɖɔ Bitcoin ƒe kuxi gãtɔ ɖe ete be eɖe mɔ na ezalawo be woawɔ ga ƒe gaɖoɖowo le ame ƒe eme bliboe.
 
-#### Nukatae ame ŋutɔ ƒe ga le vevie?
+#### Nu ka tae ame ƒe eme ga le vevie?
 
-ZEC naa mɔnukpɔkpɔ amewo be woatsɔ nyatakakawo ayi teƒe bubu mɔɖeɖe manɔmee. Gaɖoɖo si me mɔɖeɖe mele o si tso hatiwo gbɔ ƒe amesinɔnɔ naa ŋutete amewo be woadzra asixɔxɔ ɖo, alo awɔ asitsadɔ kple ame bubuwo, le wo ɖokui si le dɔwɔƒe siwo le titina. ZEC nana amewo te ŋu tiaa ɣeyiɣi si wodi be yewoaɖe yewoƒe ganyawo ŋuti nyatakakawo afia ame bubuwo.
+ZEC ƒe mɔɖeɖe na amewo be woatsɔ nyatakakawo aɖo ɖe mɔ si zãzã faa. Ne peer-to-peer, zãzã faa ga ƒe ɖoɖo li la, ekpena ŋusẽ amewo be woaɖe asi le asixɔxɔ ŋu alo woawɔ gaɖoɖo kple amewo, le ha siwo ɖe asi le nuwo ŋu ƒe wɔnɔ ɖe aga. ZEC na amewo be woatia ɣeyiɣi si me woadze be woaɖe woƒe ga ƒe nyatakakawo fia amewo.
 
-#### Nunɔamesiwo
+#### Nudzɔdzɔwo
 
-[Zcash Kple Ameŋunyatakakawo Ŋuti Nya](https://www.zcashzeal.org/blog/the-case-for-zcash-amp-privacy)
+[Zcash Kple ɣaɣla ƒe ƒoɖoɖo](https://www.zcashzeal.org/blog/the-case-for-zcash-amp-privacy)
 
-[Nu gbagbewo ƒe agbenɔnɔ ƒe ɖoɖo si ŋu wokpɔ akpoxɔnu le](https://web.archive.org/web/20260903010654/https://electriccoin.co/blog/shielded-ecosystem/)
+[ɣaɣla ƒe ƒomea](https://web.archive.org/web/20260903010654/https://electriccoin.co/blog/shielded-ecosystem/)
 
-[Zcash ƒe Ameŋunyatakakawo Ŋuti Kafukafunyawo](https://z.cash/support/security/privacy-security-recommendations/)
+[Zcash ƒe ɣaɣla ƒe aɖaŋuwo](https://z.cash/support/security/privacy-security-recommendations/)
 
-## Nukae nye Zcash?
+## Nu kae nye Zcash?
 
-Zcash nye "Zerocash" ɖoɖowɔɖi ƒe dɔwɔwɔ. Enye agbalẽ gã si woate ŋu azã le mɔ gbadza nu, si wotu ɖe blockchain dzi, si me sidzedze zero-sidzedze ƒe kpeɖodziɖoɖo deŋgɔ aɖe le. Wotu ɖe Bitcoin ƒe sedede dzi, etɔxɛ le adzamenyawo ƒe dzidzenu kɔkɔtɔ nana me to eƒe kpeɖodziɖoɖo si kpɔa nya ɣaɣlawo ta dzi [asitsatsa ƒe metadata](https://nym.com/blog/what-is-metadata). Le eƒe taɖodzinu vevitɔ me la, Zcash nye ame ŋutɔ ƒe nyatakakawo ƒe amesinɔnɔ si wotsɔna yia teƒe bubu mɔɖeɖe manɔmee ne wole asitsadɔwo wɔm. 
+Zcash nye "Zerocash" protocol ƒe wɔwɔ. Enye blockchain-dzi ƒe ledger si nye dɔwɔwɔ ƒe aʋaʋa, eye zero-knowledge ɖaseɖigbalɛɖeɖe ƒe ɖoɖo si me nu geɖe le. Wotu eƒe code ɖe Bitcoin ƒe code dzi, eye eƒe dɔ veviee nye be wòana ɣaɣla ƒe se si le dzi ɖe mɔ si eƒe ɖaseɖigbalɛɖeɖe ƒe ɖoɖo le [gaɖoɖo ƒe metadata](https://nym.com/blog/what-is-metadata) ƒe ame ƒe eme ƒomeɖeɖe ŋu. Le eƒe dzitsinya me la, Zcash nye ame ƒe eme nyatakaka ƒe nutome si wotsɔa ɖoa ɖe mɔ si zãzã faa ne woawɔ gaɖoɖo.
 
-#### Nukatae wòle vevie?
+#### Nu ka tae esɔ na mía?
 
-Zcash kpɔa Bitcoin ƒe vodada gãtɔ gbɔ; ame ŋutɔ ƒe nutɔnyenye kple nyatakakawo tsɔtsɔ yi teƒe bubu. Le xexe si me blockchain dɔwɔɖoɖowo kple cryptocurrencies va le xɔm ɖe edzi me la, ŋkɔ bubu ƒe asitsatsa meganye tiatia si woate ŋu awɔ atsɔ akpɔ ezãlawo ƒe nyatakakawo ta o. Wole ŋkuléleɖenuŋu ƒe dɔwɔɖoɖowo zãm geɖe wu tsɔ le ŋku lém ɖe blockchain ƒe asitsatsa ŋu.
+Zcash ɖɔ Bitcoin ƒe kuxi gãtɔ ɖe ete; nyatakaka ƒe ame ƒe eme nutome kple eƒe tsɔtsɔ. Le xexe si me blockchain ƒe dɔwɔwɔwo kple cryptocurrencywo le dzidzime vevie geɖe la, gaɖoɖowo siwo wɔnɔ abe ame si me womeka ŋkɔ na ene la megblɔ be woate ŋu aɖa ezala ƒe ɣaɣla o. Wozãa ŋkuɖodzinuwo geɖe be woakpɔ blockchain ƒe gaɖoɖowo ƒe nɔnɔme.
 
 <a href="">
     <img src="/content-images/Zcash-logo-1-26747e0dd3.webp" alt="" width="60" height="60"/>
 </a>
 
-#### Nunɔamesiwo
+#### Nudzɔdzɔwo
 
-[Nu Veviawo](https://z.cash/the-basics/)
+[Gɔmedzedzeawo](https://z.cash/the-basics/)
 
-[Ale Si Wòwɔa Dɔe](https://z.cash/technology/)
+[Aleke Wòwɔa Dɔe](https://z.cash/technology/)
 
 ---
 
-## Axa Siwo Do Ƒome Kplii
+## Axɔsewo Siwo Kplɔe ɖo
 
-- [Zãla ƒe Mɔfiame Yeye](/start-here/new-user-guide) — Afɔɖeɖe ɖesiaɖe ƒe onboarding na ZEC xɔla yeyewo
-- [Gakotokuwo](/using-zcash/wallets) — Tia gakotoku si ŋu akpoxɔnu le be nàlé wò ZEC ɖe te
-- [ZEC ƒeƒle](/using-zcash/buying-zec) — Afisi kple alesi woawɔ axɔ ZEC
-- [Ta Siwo Wotsɔ Akpoxɔnu Wɔe](/using-zcash/shielded-pools) — Alesi Zcash pools naa asitsatsa nɔa ɣaɣla
-- [zk-SNARKs](/zcash-tech/zk-snarks) — Nya ɣaɣla siwo le megbe na Zcash ƒe ameŋunyatakakawo
+- [Yɔyɔ ƒe Mɔfiame](/start-here/new-user-guide) — Mɔfiame ɖe afɔ me afɔ me na ZEC ƒe nutome tɔwo
+- [Gakotokuwo](/using-zcash/wallets) — Tia ɣaɣla gakotoku be nàtsɔ wò ZEC anɔ eme
+- [ZEC ƒe Ɛnu](/using-zcash/buying-zec) — Afisi kple ale si nàxɔ ZEC
+- [Ɣaɣla Gaƒuƒoƒowo](/using-zcash/shielded-pools) — Aleke Zcash gaƒuƒoƒowo le gaɖoɖowo ɖea ame ƒe eme
+- [zk-SNARKs](/zcash-tech/zk-snarks) — Cryptography si le Zcash ƒe ɣaɣla megbe

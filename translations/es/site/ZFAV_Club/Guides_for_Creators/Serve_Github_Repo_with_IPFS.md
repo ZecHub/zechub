@@ -2,33 +2,33 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Editar página"/>
 </a>
 
-# Servir repositorio de GitHub con IPFS
+# Servir el repositorio [Repo] de GitHub con IPFS
 
-## Introducción
+## Introducción [Introduction]
 
-En esta guía aprenderemos cómo crear una URL clonable con git para tu repositorio de GitHub servido usando un CID de IPFS. 
+En esta guía [guide] aprenderemos a crear una URL clonable con git para tu repositorio GitHub servido mediante un CID de IPFS. 
 
-Esto es útil para garantizar la disponibilidad del contenido independientemente de la región geográfica, la resistencia a la censura y como copia de seguridad persistente de información valiosa.
+¡Esto resulta útil para garantizar la disponibilidad del contenido independientemente de la región geográfica, la resistencia a la censura y como copia de seguridad persistente de información valiosa!
 
-Nota: Los datos subidos a IPFS están disponibles para todos los usuarios de la red. Puede que quieras cifrar localmente los datos personales/sensibles.
+Nota [Note]: Los datos cargados en IPFS están disponibles para todos los usuarios de la red. Puede que desees cifrar [encrypt] localmente los datos personales o sensibles.
 
 ## Instalar IPFS Kubo
 
 Sigue las instrucciones de instalación proporcionadas [aquí](https://docs.ipfs.tech/install/command-line/#install-official-binary-distributions)
 
-En este ejemplo usamos Linux, hay disponibles versiones para otros sistemas operativos.
+En este ejemplo usamos Linux; hay disponibles otras versiones de sistemas operativos.
 
-Comprueba que la instalación se haya realizado correctamente usando   ipfs –version
+Comprueba que la instalación se realizó correctamente usando   ipfs –version
 
-## Clonar repositorio
+## Clonar el repositorio
 
-Para empezar, selecciona un repositorio Git que quieras alojar y clónalo:
+Para comenzar, selecciona un repositorio de Git que quieras alojar y clónalo:
 
-Ejecuta el comando: “git clone https://github.com/zechub/zechub”
+Ejecuta el comando: «git clone https://github.com/zechub/zechub”
 
-![/content-images/Screenshot-from-2023-05-20-14-14-46-8503afccc3.webp](/content-images/Screenshot-from-2023-05-20-14-14-46-8503afccc3.webp)
+![https://i.ibb.co/HxFX37b/Screenshot-from-2023-05-20-14-14-46.png](/content-images/Screenshot-from-2023-05-20-14-14-46-8503afccc3.webp)
 
-Ahora, para dejarlo listo para que pueda clonarse mediante IPFS.
+Ahora, prepáralo para que pueda clonarse mediante IPFS.
 
 cd zechub git update-server-info
 
@@ -36,11 +36,11 @@ Desempaqueta los objetos de Git:
 
 ![](/content-images/image-2024-04-20-175848513-2ceb90dd7b.webp)
 
-Hacer esto permitirá que IPFS deduplique objetos si actualizas el repositorio Git más adelante.
+Hacer esto permitirá que IPFS deduplique los objetos si actualizas el repositorio de Git más adelante.
 
 ## Añadir a IPFS
 
-Una vez que hayas hecho eso, ese repositorio estará listo para ser servido. Todo lo que queda por hacer es añadirlo a IPFS:
+Una vez hecho esto, ese repositorio estará listo para ser servido. Solo queda añadirlo a IPFS:
 
 $ pwd
 
@@ -48,20 +48,20 @@ $ pwd
 
 $ ipfs add -r 
 
-![/content-images/Screenshot-from-2023-05-20-14-22-38-3fc2f72d91.webp](/content-images/Screenshot-from-2023-05-20-14-22-38-3fc2f72d91.webp)
+![https://i.ibb.co/LJgK1q3/Screenshot-from-2023-05-20-14-22-38.png](/content-images/Screenshot-from-2023-05-20-14-22-38-3fc2f72d91.webp)
 
 El CID resultante: Qmbgqox5g3614gjTb43s5mdSmmk95aGWWA9EHksL2T91A2
 
-![/content-images/Screenshot-from-2023-05-20-14-26-34-6e00fee828.webp](/content-images/Screenshot-from-2023-05-20-14-26-34-6e00fee828.webp)
+![https://i.ibb.co/GvhCLwn/Screenshot-from-2023-05-20-14-26-34.png](/content-images/Screenshot-from-2023-05-20-14-26-34-6e00fee828.webp)
 
-¡Excelente! Ahora tu repositorio está subido a la red.
+¡Excelente! Ahora tu repositorio está cargado en la red.
 
 ## Clonar usando IPFS
 
-Ahora deberías poder recuperar el repositorio de GitHub usando:
+Ahora deberías poder recuperar el repositorio GitHub usando:
 
 git clone http://ipfs.io/ipfs/yourCID
 
-Como alternativa, puedes buscarlo y recuperarlo usando tu nodo local de IPFS.
+Como alternativa, puedes buscar y recuperar usando tu nodo local de IPFS.
 
-Nota final: La carpeta del repositorio en IPFS no recibe actualizaciones junto con el repositorio real de github. Se recomienda volver a subir la carpeta a intervalos regulares.
+Nota final: La carpeta del repositorio en IPFS no recibe actualizaciones junto con el repositorio real de github. Se recomienda volver a cargar la carpeta a intervalos regulares.

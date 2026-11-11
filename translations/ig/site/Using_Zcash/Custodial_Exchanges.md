@@ -2,9 +2,9 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# <img src="/content-images/image-2024-02-03-173258092-a5440e5ee2.webp" alt="Alt Text" width="50"/>   Custodial Exchanges
+# <img src="/content-images/image-2024-02-03-173258092-a5440e5ee2.webp" alt="Alt Text" width="50"/>   Exchanges Onye nlekota [Custodial Exchanges]
 
-Ironwood bụ ọdọ mmiri e ji ihe nchebe kpuchie nke rutere na mmelite netwọk nke ọnwa Julaị afọ 2026. Mgbanwe ndị na-ejikwa naanị adreesị T doro anya anaghị emetụ ya aka, yabụ a na-akara ha akara na ha adịghị mkpa. Ebe mgbanwe na-ejikwa adreesị echekwara mana ekwughị ọdọ mmiri ọ na-eji, ahịrị ahụ na-ekwu ya kama ịkọ nkọ.
+Ironwood bụ pool nke e chebere echebe [shielded] nke bịara na network upgrade nke Julaị 2026. Exchanges ndị na-ejizi naanị t-address Oha [transparent] anaghị emetụ ya aka, ya mere a kara ha dị ka ndị na-adịghị emetụta. Ebe exchange na-ejizi Adreesị akpa ego nke e chebere echebe mana ekwubeghị pool ọ na-eji, ahịrị ahụ na-ekwu nke ahụ kama ịkọ nkọ.
 
 ---
 
@@ -15,10 +15,10 @@ Ironwood bụ ọdọ mmiri e ji ihe nchebe kpuchie nke rutere na mmelite netw�
 </a>
 
 - Weebụsaịtị: [Backpack](https://backpack.exchange)
-- Abụọ abụọ: ZEC/USDC | ZEC-PERP
-- Nkwado: Enyere ego na mwepụ ego. Ekwughị ụdị adreesị
-- Oge nkwụnye ego: Ekwughị ya
-- Ironwood: Ekwughị ya
+- Ụzọ abụọ: ZEC/USDC | ZEC-PERP
+- Nkwado: Emeela ka nkwụnye ego na mwepụ ego rụọ ọrụ. Ekwubeghị ụdị Adreesị akpa ego
+- Oge nkwụnye ego: Ekwubeghị
+- Ironwood: Ekwubeghị
 ___
 
 ### [Binance](https://binance.com)
@@ -28,10 +28,10 @@ ___
 </a>
 
 - Weebụsaịtị: [Binance](https://binance.com)
-- Abụọ abụọ: ALL/ZEC
-- Nkwado: Transparent (Nkwụnye ego adreesị TEX)
-- Oge nkwụnye ego: nkeji iri abụọ
-- Ironwood: Anaghị emetụta ya, naanị adreesị doro anya
+- Ụzọ abụọ: ALL/ZEC
+- Nkwado: Oha (Nkwụnye ego Adreesị TEX)
+- Oge nkwụnye ego: Nkeji 20
+- Ironwood: Ọ naghị emetụta ya, naanị Adreesị akpa ego Oha
 ___
 
 ### [BitcoinVN](https://bitcoinvn.io)
@@ -41,10 +41,10 @@ ___
 </a>
 
 - Weebụsaịtị: [BitcoinVN](https://bitcoinvn.io)
-- Abụọ abụọ: BTC/ZEC, ETH/ZEC, USDT/ZEC, XMR/ZEC, LTC/ZEC, DASH/ZEC
-- Nkwado: Transparent | Echekwara (ntinye ego na mwepụ adreesị z)
-- Oge Mgbazinye Ego: Ozugbo (mgbanwe na-abụghị nke nchekwa)
-- Ironwood: Ekwughị ya
+- Ụzọ abụọ: BTC/ZEC, ETH/ZEC, USDT/ZEC, XMR/ZEC, LTC/ZEC, DASH/ZEC
+- Nkwado: Oha | Nke e chebere echebe (Nkwụnye ego na mwepụ ego z-address)
+- Oge nkwụnye ego: Ozugbo (Mgbawe na-enweghị Onye nlekota)
+- Ironwood: Ekwubeghị
 ___
 
 ### [Bitfinex](https://bitfinex.com)
@@ -54,10 +54,10 @@ ___
 </a>
 
 - Weebụsaịtị: [Bitfinex](https://bitfinex.com)
-- Abụọ abụọ: ALL/ZEC
-- Nkwado: Transparent
-- Oge Nkwụnye Ego: Nkeji iri abụọ na ise 
-- Ironwood: Anaghị emetụta ya, naanị adreesị doro anya
+- Ụzọ abụọ: ALL/ZEC
+- Nkwado: Oha
+- Oge nkwụnye ego: Nkeji 25 
+- Ironwood: Ọ naghị emetụta ya, naanị Adreesị akpa ego Oha
 ___
 
 ### [Coinbase](https://coinbase.com)
@@ -67,10 +67,10 @@ ___
 </a>
 
 - Weebụsaịtị: [Coinbase](https://coinbase.com)
-- Abụọ abụọ: ALL/ZEC
-- Nkwado: Transparent
-- Oge nkwụnye ego: nkeji 150
-- Ironwood: Anaghị emetụta ya, naanị adreesị doro anya
+- Ụzọ abụọ: ALL/ZEC
+- Nkwado: Oha
+- Oge nkwụnye ego: Nkeji 150
+- Ironwood: Ọ naghị emetụta ya, naanị Adreesị akpa ego Oha
 ___
 
  ### [Gemini](https://gemini.com)
@@ -80,10 +80,10 @@ ___
 </a>
 
 - Weebụsaịtị: [Gemini](https://gemini.com)
-- Abụọ abụọ: ALL/ZEC
-- Nkwado: Transparent | Mwepụ nchekwa na nke ejikọtara ọnụ, Orchard kemgbe Nọvemba 2025
-- Oge nkwụnye ego: Nkeji iri ise 
-- Ironwood: A na-akwado mwepụ nchekwa, a naghị akọwapụta ọdọ mmiri
+- Ụzọ abụọ: ALL/ZEC
+- Nkwado: Oha | Mwepụ ego nke e chebere echebe na nke jikọtara ọnụ, Orchard kemgbe Nọvemba 2025
+- Oge nkwụnye ego: Nkeji 50 
+- Ironwood: A na-akwado mwepụ ego nke e chebere echebe, ekwubeghị pool
 ___
 
 ### [Huobi](https://huobi.com)
@@ -93,10 +93,10 @@ ___
 </a>
 
 - Weebụsaịtị: [Huobi](https://huobi.com)
-- Abụọ abụọ: ALL/ZEC
-- Nkwado: Transparent
-- Oge Nkwụnye Ego: Nkeji 35 
-- Ironwood: Anaghị emetụta ya, naanị adreesị doro anya
+- Ụzọ abụọ: ALL/ZEC
+- Nkwado: Oha
+- Oge nkwụnye ego: Nkeji 35 
+- Ironwood: Ọ naghị emetụta ya, naanị Adreesị akpa ego Oha
 ___
 
 ### [Kraken](https://kraken.com)
@@ -106,10 +106,10 @@ ___
 </a>
 
 - Weebụsaịtị: [Kraken](https://kraken.com)
-- Abụọ abụọ: ALL/ZEC
-- Nkwado: Transparent
-- Oge nkwụnye ego: nkeji iri isii
-- Ironwood: Anaghị emetụta ya, naanị adreesị doro anya
+- Ụzọ abụọ: ALL/ZEC
+- Nkwado: Oha
+- Oge nkwụnye ego: Nkeji 60
+- Ironwood: Ọ naghị emetụta ya, naanị Adreesị akpa ego Oha
 ___
 
 ### [KuCoin](https://kucoin.com)
@@ -119,23 +119,23 @@ ___
 </a>
 
 - Weebụsaịtị: [KuCoin](https://kucoin.com)
-- Abụọ abụọ: ALL/ZEC
-- Nkwado: Transparent
-- Oge nkwụnye ego: Nkeji iri abụọ 
-- Ironwood: Anaghị emetụta ya, naanị adreesị doro anya
+- Ụzọ abụọ: ALL/ZEC
+- Nkwado: Oha
+- Oge nkwụnye ego: Nkeji 20 
+- Ironwood: Ọ naghị emetụta ya, naanị Adreesị akpa ego Oha
 ___
 
-## [OKX (nke bụbu OKEx)](https://www.okx.com)
+## [OKX (nke a na-akpọbu OKEx)](https://www.okx.com)
 
 <a href="https://www.okx.com">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/8/89/Official_logo_of_OKEx.png" alt="OKX logo (shown under its former OKEx branding)" width="200" height="100"/>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/8/89/Official_logo_of_OKEx.png" alt="OKX logo (egosiri n'okpuru aha OKEx ya mbụ)" width="200" height="100"/>
 </a>
 
 - Weebụsaịtị: [OKX](https://www.okx.com)
-- Abụọ abụọ: ALL/ZEC
-- Nkwado: Transparent
-- Oge Nkwụnye Ego: Nkeji iri abụọ na ise 
-- Ironwood: Anaghị emetụta ya, naanị adreesị doro anya
+- Ụzọ abụọ: ALL/ZEC
+- Nkwado: Oha
+- Oge nkwụnye ego: Nkeji 25 
+- Ironwood: Ọ naghị emetụta ya, naanị Adreesị akpa ego Oha
 ___
 
 ### [Robinhood](https://robinhood.com)
@@ -145,8 +145,8 @@ ___
 </a>
 
 - Weebụsaịtị: [Robinhood](https://robinhood.com)
-- Abụọ abụọ: USD/ZEC | EUR/ZEC
-- Nkwado: Mwepụ ego na adreesị t doro anya naanị. Anaghị akwado nkwụnye ego ZEC
-- Oge nkwụnye ego: Anaghị akwado nkwụnye ego
-- Ironwood: Anaghị emetụta ya, naanị adreesị doro anya
+- Ụzọ abụọ: USD/ZEC | EUR/ZEC
+- Nkwado: Naanị mwepụ ego gaa na t-address Oha. A naghị akwado nkwụnye ego ZEC
+- Oge nkwụnye ego: A naghị akwado nkwụnye ego
+- Ironwood: Ọ naghị emetụta ya, naanị Adreesị akpa ego Oha
 ___

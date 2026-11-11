@@ -6,232 +6,232 @@
 
 ---
 
-**Zcash Labs** is an independent organization focused on the practical implementation, integration, and adoption of **Zcash** and its digital asset, **ZEC**. Zcash Labs helps businesses, institutions, developers, and independent projects that want to use Zcash technology in products, services, payment systems, or applications that can be used in real-world scenarios.
+**Zcash Labs** bụ otu nzukọ nọọrọ onwe ya nke lekwasịrị anya n'itinye n'ọrụ, ijikọta, na ịnabata **Zcash** na akụ dijitalụ ya, **ZEC**. Zcash Labs na-enyere azụmahịa, ụlọ ọrụ, ndị mmepụta, na ọrụ nọọrọ onwe ha chọrọ iji teknụzụ Zcash na ngwaahịa, ọrụ, usoro Kwụọ ụgwọ, ma ọ bụ ngwa ndị a pụrụ iji n'ọnọdụ ụwa n'ezie.
 
-Zcash Labs positions itself as a **go to market** organization for Zcash. In the context of **go to market**, this means helping bring Zcash technology from existing technical capabilities to implementations that can be used by businesses and users. To achieve this goal, Zcash Labs combines consulting, solutions engineering, technical integration, infrastructure operations, product management, early-stage funding, financial underwriting, and co-marketing into a single approach oriented toward product launches and real-world use.
+Zcash Labs na-akọwa onwe ya dị ka nzukọ **go to market** maka Zcash. N'ọnọdụ **go to market**, nke a pụtara inyere aka ibuga teknụzụ Zcash site n'ikike nka dị ugbu a ruo n'itinye ya n'ọrụ nke azụmahịa na ndị ọrụ pụrụ iji. Iji mezuo ebumnuche a, Zcash Labs na-ejikọta ndụmọdụ, injinịa ngwọta, njikọta nka, ịrụ ọrụ akụrụngwa, njikwa ngwaahịa, ego mmalite, nkwado ego, na ịre ahịa ọnụ n'otu usoro lekwasịrị anya na mmalite ngwaahịa na ojiji n'ụwa n'ezie.
 
-Zcash Labs states that the organization is independent and not affiliated with the **Zcash Foundation**. This independent position allows Zcash Labs to determine on its own which projects, integrations, and infrastructure it wants to support using the resources and capital under the organization's responsibility.
-
----
-
-## Ihe Ndị E Merela Ya
-
-Zcash Labs was introduced to the public through its official website on **August 6, 2026**. On **August 12, 2026**, Zcash Labs then introduced its activities to the community through the Zcash Community Forum in an announcement titled **Announcing Zcash Labs A Zcash Go To Market Company**.
-
-Although the public announcement was made in August 2026, Zcash Labs states that its activities had been underway before that announcement. Zcash Labs had been working with projects that use Zcash and assisting in the development process before the Zcash Labs identity was widely introduced. One early example that was later announced to the public is its involvement in the development of **zcashtocash**.
-
-The emergence of Zcash Labs is related to the need to narrow the gap between available Zcash technology and the ability of businesses or developers to use it. A company may have needs that align with Zcash but not yet know the required technology, how to integrate, or the infrastructure to use. At the same time, a new project may have a promising concept but require technical assistance, product management, seed capital, or support to reach the production stage. Zcash Labs works in that space by providing support that connects business and developer needs with **Zcash** technology.
-
-Zcash Labs' approach begins with understanding the problem or needs of an organization. Once those needs are understood, Zcash Labs assesses whether Zcash is a suitable technology. If there is a match, Zcash Labs helps determine the technical approach that can be used to build the integration. This stage may include selecting available Zcash technologies, designing architecture, determining infrastructure requirements, and developing additional components if existing solutions are insufficient.
-
-With this approach, Zcash Labs can be involved from initial discussions about a use case to a system actually running. This forms the basis of Zcash Labs' position as an independent organization in the Zcash ecosystem that goes to market, because its work does not stop at planning or technical development, but also includes the process of bringing solutions to real-world use.
+Zcash Labs na-ekwu na nzukọ a nọọrọ onwe ya, ọ bụghịkwa onye mmekọ nke **Zcash Foundation**. Ọnọdụ nnwere onwe a na-enye Zcash Labs ohere ikpebi n'onwe ya ọrụ, njikọta, na akụrụngwa ọ chọrọ ịkwado site n'iji ihe onwunwe na ego dị n'okpuru ọrụ nzukọ a.
 
 ---
 
-## Ebumnuche bụ isi nke Zcash Labs
+## Ndabere
 
-Zcash Labs’ primary goal is to drive broader adoption of Zcash by providing support that is immediately usable by service builders. This objective is pursued through several key avenues: helping businesses and institutions determine whether Zcash is suitable for their needs, assisting with the technical integration process, providing infrastructure support, and offering seed funding for projects with the potential to expand Zcash’s adoption.
+E webatara Zcash Labs n'ihu ọha site na weebụsaịtị gọọmentị ya na **August 6, 2026**. Na **August 12, 2026**, Zcash Labs wee webata ọrụ ya n'obodo site na Zcash Community Forum n'ọkwa a kpọrọ **Announcing Zcash Labs A Zcash Go To Market Company**.
 
-Zcash Labs aims not only to increase the number of projects using Zcash but also to lower the barriers to entry for those without in-depth technical experience. To that end, they offer a comprehensive process that begins with consultation, followed by strategy development, technical implementation, and, if the project is deemed promising, funding support.
+N'agbanyeghị na e mere ọkwa ọha na August 2026, Zcash Labs na-ekwu na ọrụ ya amalitelarị tupu ọkwa ahụ. Zcash Labs na-arụkọ ọrụ na ọrụ ndị ji Zcash ma na-enyere na usoro mmepe tupu ewebata njirimara Zcash Labs n'ụzọ sara mbara. Otu ihe atụ mbụ e mechara kpọsaara ọha bụ itinye aka ya na mmepe **zcashtocash**.
 
----
+Mpụta nke Zcash Labs metụtara mkpa iji belata oghere dị n'etiti teknụzụ Zcash dị ugbu a na ikike azụmahịa ma ọ bụ ndị mmepụta iji ya. Otu ụlọ ọrụ pụrụ inwe mkpa kwekọrọ na Zcash mana ọ maghị teknụzụ a chọrọ, otu esi ejikọta ya, ma ọ bụ akụrụngwa iji ya. N'otu oge ahụ, ọrụ ọhụrụ pụrụ inwe echiche na-ekwe nkwa mana chọọ enyemaka nka, njikwa ngwaahịa, ego mkpụrụ, ma ọ bụ nkwado iji ruo n'ogo mmepụta. Zcash Labs na-arụ ọrụ n'ebe ahụ site n'inye nkwado nke na-ejikọta mkpa azụmahịa na ndị mmepụta na teknụzụ **Zcash**.
 
-## Zcash Labs 'Isi Ọrụ Mpaghara
+Usoro Zcash Labs na-amalite site n'ịghọta nsogbu ma ọ bụ mkpa otu nzukọ. Ozugbo aghọtara mkpa ndị ahụ, Zcash Labs na-enyocha ma Zcash bụ teknụzụ dabara adaba. Ọ bụrụ na ha kwekọrọ, Zcash Labs na-enyere aka ikpebi usoro nka a pụrụ iji wuo njikọta ahụ. Oge a pụrụ ịgụnye ịhọrọ teknụzụ Zcash dị, ịmepụta nhazi usoro, ikpebi mkpa akụrụngwa, na imepụta akụkụ ndị ọzọ ma ọ bụrụ na ngwọta ndị dị ugbu a ezughị.
 
-Dị ka ** ya si dị.[ebe nrụọrụ weebụ gọọmentị.](https://zcashlabs.org/)**, Zcash Labs lists four main ways it supports the use of Zcash. First, it provides consulting and advice to assess whether Zcash aligns with an organization’s business or operational needs. Second, they provide technical support and implementation solutions for institutions that are currently integrating or planning to integrate Zcash. Third, they distribute seed grants and assist with co-marketing coordination so that projects can reach the right audience. Fourth, they implement a “coinholder retroactive grants” approach, which involves covering project costs upfront and then seeking reimbursement through a coinholder-based grant process.
-
-Dabere na ọkwa sitere n'aka **[Nzukọ Obodo Zcash Forum](https://forum.zcashcommunity.com/t/announcing-zcash-labs-a-zcash-go-to-market-company/56975)**, the organization’s initial focus is more specifically described as the integration of the Zcash blockchain for businesses and institutions, the operation of independent infrastructure services, and support for new projects that expand the practical use of Zcash. This explanation demonstrates that Zcash Labs operates at the intersection of technical development, market needs, and ecosystem growth.
+Site n'usoro a, Zcash Labs pụrụ itinye aka site na mkparịta ụka mbụ gbasara Ojiji ruo mgbe usoro na-arụ ọrụ n'ezie. Nke a bụ ntọala ọnọdụ Zcash Labs dị ka nzukọ nọọrọ onwe ya n'ime gburugburu Zcash nke na-abanye n'ahịa, n'ihi na ọrụ ya anaghị akwụsị na nhazi ma ọ bụ mmepe nka, kama ọ gụnyekwara usoro iweta ngwọta n'ojiji ụwa n'ezie.
 
 ---
 
-## Otu Zcash Labs si arụ ọrụ na ndị mmekọ na onye ọrụ Candidates
+## Ebumnuche Kacha Mkpa nke Zcash Labs
 
-Zcash Labs explains a fairly simple workflow. The process begins by understanding the needs of those who approach them, then honestly assessing whether Zcash is indeed suitable for that use case. If it is, they help map out the usage flow, technical requirements, and various trade-offs or design implications that need to be considered. After that, they can assist in building the technical solution and, where relevant, help with funding and co-marketing activities.
+Ebumnuche bụ isi Zcash Labs nwere bụ ịkwalite nnabata sara mbara nke Zcash site n'inye nkwado ndị na-ewu ọrụ pụrụ iji ozugbo. A na-achụ ebumnuche a site n'ọtụtụ ụzọ dị mkpa: inyere azụmahịa na ụlọ ọrụ aka ikpebi ma Zcash dabara mkpa ha, inyere aka na usoro njikọta nka, inye nkwado akụrụngwa, na inye ego mkpụrụ maka ọrụ nwere ike ịgbasa nnabata Zcash.
 
-Usoro a dị mkpa n'ihi na ọ bụghị ọrụ niile dabara adaba maka Zcash. Site n'itinye usoro nyocha ahụ na mbido, ụlọ ọrụ Zcash Labs na-agba mbọ ịbụ onye mmekọ mmejuputa ihe bara uru, kama ị bụrụ naanị ndị nkwado nke nnabata nke leghaara mkpa ụwa anya.
-
----
-
-## Ọrụ akụrụngwa site na Zcash Labs.
-
-In addition to facilitating third-party integrations, Zcash Labs also operates and develops the infrastructure that supports access to the Zcash network. When it was introduced to the public, the organization stated that it operates a **Shielded Vote Validator** and is developing services that include a **Zcash full node**, **lightwalletd**, and **RPC** infrastructure.
-
-Full nodes are used to connect directly to the network and verify blockchain data. lightwalletd helps wallets and lightweight applications retrieve the necessary data from the network without running the entire blockchain locally. Meanwhile, RPC provides a way for external software to communicate with blockchain nodes or services.
-
-Operating this infrastructure is directly tied to Zcash Labs’ integration efforts. Businesses and developers building Zcash applications require reliable access to the network. By running these services independently, Zcash Labs can expand the range of available infrastructure options while gaining firsthand experience with the technical requirements of the integrations it facilitates.
-
-Zcash Labs also stated that additional RPC services will be developed as its infrastructure grows. This indicates that Zcash Labs’ activities are not only focused on building applications on top of Zcash, but also on providing the technical infrastructure that enables those applications or projects to communicate with the Zcash network.
+Zcash Labs na-achọ ọ bụghị naanị ịbawanye ọnụ ọgụgụ ọrụ ndị ji Zcash, kamakwa ibelata ihe mgbochi ntinye maka ndị enweghị ahụmịhe nka miri emi. Maka nke ahụ, ha na-enye usoro zuru ezu nke na-amalite n'ịnata ndụmọdụ, soro ya bụ mmepe atụmatụ, itinye nka n'ọrụ, ma, ọ bụrụ na ewere ọrụ ahụ dị ka nke na-ekwe nkwa, nkwado ego.
 
 ---
 
-## Nkwado maka Zcash Project
+## Mpaghara Ọrụ Isi nke Zcash Labs
 
-Zcash Labs na-akwado ọrụ ndị nweere onwe ha nke a hụrụ ka enwere ike ịgbasa ojiji nke Zcash. Enwere ike inye nkwado site n'oge mmalite, mgbe oru ngo ahụ bụ naanị echiche ma enweghi ihe niile achọrọ iji malite mmepe.
+Dị ka **[weebụsaịtị gọọmentị](https://zcashlabs.org/)** ya si kwuo, Zcash Labs depụtara ụzọ anọ isi akwado iji Zcash. Nke mbụ, ọ na-enye ndụmọdụ na ntụziaka iji nyochaa ma Zcash kwekọrọ na mkpa azụmahịa ma ọ bụ ọrụ otu nzukọ. Nke abụọ, ha na-enye nkwado nka na ngwọta itinye n'ọrụ maka ụlọ ọrụ ndị na-ejikọta ugbu a ma ọ bụ na-eme atụmatụ ijikọta Zcash. Nke atọ, ha na-ekesa ikike mkpụrụ ma na-enyere aka ịhazi ịre ahịa ọnụ ka ọrụ wee ruo ndị na-ege ntị kwesịrị ekwesị. Nke anọ, ha na-etinye usoro “ikike azụghachi azụ nke ndị ji coin”, nke gụnyere ikpuchi ụgwọ ọrụ tupu oge eruo, ma mesịa chọọ ka akwụghachi ya site n'usoro ikike dabere na ndị ji coin.
 
-N'ime usoro a, Zcash Labs nwere ike inye aka chọpụta ụzọ teknụzụ, jikwaa mmepe ngwaahịa, dozie mkpa mwekota, nye akụrụngwa ma nyekwa ego mbido. Ebumnuche bụ inyere otu ìgwè aka ịkwaga site na echiche nke ihe eji emepụta ya.
-
-In a public discussion on the Zcash Community Forum, Zcash Labs stated that initial funding for startups in the early stages of organizational activity generally ranges from **5 to 10 ZEC**. This amount is not a fixed limit, as Zcash Labs also considers larger funding amounts for integrations deemed to have strategic value for the adoption of Zcash.
-
-Usoro a na-enye ohere ka Zcash Labs bụrụ ihe dị mma n'ịchọ ohere ọ ga - aba uru. Ọ dịghị mkpa ka Z Cash Labs chere maka ọrụ iji nweta ego tupu inye aka, ebe ụfọdụ ọrụ nwere ike ịkwụ ụgwọ site na iji isi obodo nke Zcash Lab  .
+Dị ka ọkwa sitere na **[Zcash Community Forum](https://forum.zcashcommunity.com/t/announcing-zcash-labs-a-zcash-go-to-market-company/56975)** si kwuo, a kọwara isi elekwasị anya mbụ nke nzukọ a kpọmkwem dịka ijikọta blockchain Zcash maka azụmahịa na ụlọ ọrụ, ịrụ ọrụ akụrụngwa nọọrọ onwe ya, na ịkwado ọrụ ọhụrụ na-agbasa ojiji bara uru nke Zcash. Nkọwa a na-egosi na Zcash Labs na-arụ ọrụ n'ebe mmepe nka, mkpa ahịa, na uto gburugburu na-ezukọta.
 
 ---
 
-## Ụdị ego na usoro azụmahịa site n'aka Zcash Labs
+## Otu Zcash Labs Si Eso Ndị Mmekọ na Ndị Nwere Ike Ịghọ Ndị Ọrụ Arụkọ Ọrụ
+
+Zcash Labs na-akọwa usoro ọrụ dị mfe nke ọma. Usoro a na-amalite site n'ịghọta mkpa ndị na-abịakwute ha, wee jiri eziokwu nyochaa ma Zcash dabara Ojiji ahụ n'ezie. Ọ bụrụ na ọ dabara, ha na-enyere aka ịdepụta usoro ojiji, mkpa nka, na mgbanwe dị iche iche ma ọ bụ ihe nhazi pụtara nke ekwesịrị ịtụle. Mgbe nke ahụ gasịrị, ha pụrụ inyere aka wuo ngwọta nka na, ebe ọ dị mkpa, nyere aka na ego na ọrụ ịre ahịa ọnụ.
+
+Usoro a dị mkpa n'ihi na ọ bụghị ọrụ ọ bụla dabara Zcash ozugbo. Site n'itinye oge nyocha na mbido, Zcash Labs na-agbalị ịbụ onye mmekọ itinye n'ọrụ nke bara uru, kama ịbụ naanị onye na-akwado nnabata nke na-eleghara ndaba na mkpa ụwa n'ezie anya.
 
 ---
 
-### Ụdị ego a ga-eji na-akwụ ụgwọ ya.
+## Ịrụ Ọrụ Akụrụngwa nke Zcash Labs
 
-Otu n'ime njirimara ndị dị mkpa nke Zcash Labs bụ iji usoro ** ego na-akwụ ụgwọ. N'okpuru ụdị a, nzukọ ahụ nwere ike ịkwado ọrụ tupu oge eruo site na iji isi obodo ya, yabụ otu agaghị echere mgbe niile ka e mezue usoro inye onyinye tupu ịmalite mmepe ngwaahịa.
+Na mgbakwunye na ime ka njikọta ndị ọzọ kwe omume, Zcash Labs na-arụkwa ma na-emepụta akụrụngwa na-akwado ịnweta netwọk Zcash. Mgbe e webatara ya n'ihu ọha, nzukọ ahụ kwuru na ọ na-arụ **Shielded Vote Validator** ma na-emepụta ọrụ gụnyere **Zcash full node**, **lightwalletd**, na akụrụngwa **RPC**.
 
-This funding can be used for new projects, business and institutional integrations, infrastructure development, and co-marketing activities. Zcash Labs determines on its own whether a project is deemed compelling enough to receive initial funding. Since these decisions involve capital for which the organization is responsible, Zcash Labs bears the financial consequences of the choices made.
+A na-eji full node ejikọta kpọmkwem na netwọk ma nyochaa data blockchain. lightwalletd na-enyere e-akpa ego na ngwa ndị dị fechaa aka iweghachite data dị mkpa site na netwọk na-enweghị ịrụ blockchain dum na mpaghara. Ka ọ dịgodị, RPC na-enye usoro ka sọftụwia dị n'èzí nwee ike ikwurịta okwu na node blockchain ma ọ bụ ọrụ.
 
-Once the work is completed and has produced something that can be evaluated, Zcash Labs can submit the expenses incurred through the **Coinholder Directed Retroactive Grants** mechanism. Thus, providing capital to builders and deciding on reimbursement are two separate processes that occur at different times.
+Ịrụ akụrụngwa a nwere njikọ kpọmkwem na mgbalị njikọta Zcash Labs. Azụmahịa na ndị mmepụta na-ewu ngwa Zcash chọrọ ohere a pụrụ ịdabere na ya ịnweta netwọk. Site n'ịrụ ọrụ ndị a n'onwe ya, Zcash Labs nwere ike ịgbasa ụdị nhọrọ akụrụngwa dị, ma n'otu oge ahụ nweta ahụmịhe kpọmkwem banyere mkpa nka nke njikọta ọ na-eme ka kwe omume.
 
-N'ime usoro inye onyinye azụ, a na-enyocha ọrụ mgbe arụchara ihe nwere ike ịtụle. Zcash Labs buru ụzọ nye ego iji kwado mmepe ahụ, wee tinye nsonaazụ nke ọrụ ahụ n'aka ndị nwe mkpụrụ ego ZEC.
-
-Zcash Labs kọwara na arịrịọ nkwụghachi ụgwọ bụ iji kpuchie mmefu ndị emeworị tinyere ** pasent 20 markup. Ego a ọzọ dị ka ego maka ihe ize ndụ ego na ọrụ arụmọrụ nke nzukọ ahụ mere mgbe ọ na-akwado oru ngo ahụ.
-
-Dịka ọmụmaatụ, ọ bụrụ na Zcash Labs jiri ** $ 5,000** n'isi obodo iji kwado ọrụ a, nzukọ ahụ nwere ike itinye arịrịọ maka ** $ 6,000 ** dabere na ụdị ihe atụ a. $ 5000 nọchiri anya ụgwọ mbido, yana $ 1,000 bụ mgbakwunye 20 pasent ọzọ.
-
-A naghị anabata arịrịọ nkwụghachi ụgwọ ndị a na-akpaghị aka. Ndị nwere ego ga - ekpebi ma ọrụ arụpụtara bara uru iji kwado nkwado. Ọ bụrụ na ajụla arịrịọrọ, isi obodo ejirilarị bụ Zcash Labs ka dị n'aka ya.
+Zcash Labs kwukwara na a ga-emepụta ọrụ RPC ndị ọzọ ka akụrụngwa ya na-eto. Nke a na-egosi na ọrụ Zcash Labs anaghị elekwasị anya naanị n'ịwube ngwa n'elu Zcash, kamakwa n'inye akụrụngwa nka na-enyere ngwa ma ọ bụ ọrụ ndị ahụ aka ikwurịta okwu na netwọk Zcash.
 
 ---
 
-### Ihe ize ndụ na ịkwụ ụgwọ ego .
+## Nkwado Maka Ọrụ Zcash
 
-Ebe ọ bụ na akwụghị ụgwọ, Zcash Labs na-eme dị ka ** onye nkwado ego. N'okwu a, onye nwe ụlọ ọrụ ahụ nwere ike inye isi obodo ma buru ihe ndị metụtara ego n'ihu iji nwee ike ịmalite oru ngo.
+Zcash Labs na-akwado ọrụ nọọrọ onwe ha a na-ahụ nwere ike ịgbasa ojiji Zcash. Enwere ike inye nkwado ahụ site n'oge mbụ, mgbe ọrụ ka bụ naanị echiche ma nwebeghị ihe onwunwe niile dị mkpa iji malite mmepe.
 
-Builders who receive support do not have to bear the entire risk while waiting for the results of retroactive funding. They can receive payments based on the agreed-upon work, while Zcash Labs assumes the risk of whether those expenses will eventually be reimbursed.
+N'ime usoro a, Zcash Labs pụrụ inyere aka ikpebi ntụziaka nka, ijikwa mmepe ngwaahịa, idozi mkpa njikọta, inye akụrụngwa, na inye ego mkpụrụ. Ebumnuche bụ inyere otu aka isi n'ọkwa echiche gaa na ngwaahịa a pụrụ iji.
 
-This structure creates an incentive for Zcash Labs to be cautious when selecting projects. Zcash Labs must consider whether a product has a clear use case, is feasible, has the potential for adoption, and provides benefits that can be assessed by ZEC holders. If that assessment is inaccurate and reimbursement is denied, Zcash Labs bears the financial consequences of that decision.
+N'ime mkparịta ụka ọha na Zcash Community Forum, Zcash Labs kwuru na ego mbụ maka ụlọ ọrụ mmalite n'oge mbụ nke ọrụ nzukọ na-adịkarị n'etiti **5 ruo 10 ZEC**. Ọnụ ego a abụghị oke a kapịrị ọnụ, n'ihi na Zcash Labs na-atụlekwa ego buru ibu maka njikọta a na-ahụ nwere uru atụmatụ maka nnabata Zcash.
+
+Usoro a na-enye Zcash Labs ohere ịrụsi ọrụ ike karịa n'ịchọ ohere ọ na-ahụ bara uru. Zcash Labs ekwesịghị ichere ka otu ọrụ nweta ego tupu ọnye aka, ebe ọ bụ na a pụrụ iji isi ego Zcash Labs kwụọ ụgwọ ụfọdụ ọrụ.
+
+---
+
+## Ụdị Ego na Usoro Azụmahịa nke Zcash Labs
+
+---
+
+### Ụdị Ego
+
+Otu n'ime njirimara dị mkpa Zcash Labs nwere bụ iji ụdị **ego a na-enye tupu oge eruo**. N'okpuru usoro a, nzukọ ahụ nwere ike iji isi ego nke ya kwụọ ọrụ tupu oge eruo, ya mere otu anaghị aghaghị ichere ka usoro ikike gwụ tupu ọ malite mmepe ngwaahịa.
+
+Enwere ike iji ego a maka ọrụ ọhụrụ, njikọta azụmahịa na ụlọ ọrụ, mmepe akụrụngwa, na ọrụ ịre ahịa ọnụ. Zcash Labs na-ekpebi n'onwe ya ma ewere ọrụ dị ka nke na-adọrọ mmasị nke ga-enweta ego mbụ. Ebe mkpebi ndị a metụtara isi ego nzukọ ahụ ji arụ ọrụ, Zcash Labs na-ebu nsonaazụ ego nke nhọrọ e mere.
+
+Ozugbo arụchara ọrụ ahụ ma mepụta ihe a pụrụ inyocha, Zcash Labs nwere ike itinye mmefu ndị emere site na usoro **Coinholder Directed Retroactive Grants**. N'ihi ya, inye ndị na-ewu ihe isi ego na ikpebi ma a ga-akwụghachi ego bụ usoro abụọ dị iche iche na-eme n'oge dị iche iche.
+
+N'ime usoro ikike azụghachi azụ, a na-enyocha ọrụ mgbe ọrụ ahụ mepụtara ihe a pụrụ ilele anya. Zcash Labs na-enye ego mbụ iji kwado mmepe, wee nyefee nsonaazụ ọrụ ahụ n'aka ndị ji coin ZEC.
+
+Zcash Labs kọwara na arịrịọ ịkwụghachi ego bụ iji kpuchie mmefu emeworị tinyere **mmụba pasent 20**. Ọnụ ego agbakwunyere a na-arụ ọrụ dịka ụgwọ maka ihe ize ndụ ego na ọrụ arụmọrụ nzukọ ahụ mere mgbe ọ na-akwado ọrụ ahụ.
+
+Dịka ọmụmaatụ, ọ bụrụ na Zcash Labs ejiri **$5,000** nke isi ego kwụọ otu ọrụ, nzukọ ahụ nwere ike itinye arịrịọ maka **$6,000** dabere n'usoro a. $5,000 na-anọchi anya ụgwọ mbụ, ebe $1,000 bụ ụgwọ agbakwunyere nke pasent 20.
+
+Anaghị anabata arịrịọ ịkwụghachi ego ndị dị otu a ozugbo. Ndị ji coin na-ekpebi ma ọrụ emepụtara bara uru nke ọma iji kwado ego. Ọ bụrụ na ajụ arịrịọ, isi ego a mefuru na-anọgide n'ọrụ Zcash Labs.
+
+---
+
+### Ihe Ize Ndụ na Nkwado Ego
+
+Ebe ọ bụ na akwụghachi ego anaghị ekwe nkwa, Zcash Labs na-arụ ọrụ dịka **onye na-akwado ego**. N'ọnọdụ a, onye na-akwado ego bụ onye dị njikere inye isi ego ma buru amaghị ama ego tupu oge eruo ka ọrụ nwee ike ịmalite.
+
+Ndị na-ewu ihe na-enweta nkwado agaghị ebu ihe ize ndụ dum mgbe ha na-eche nsonaazụ ego azụghachi azụ. Ha nwere ike ịnata ụgwọ dabere n'ọrụ ma ọ bụ ihe a ga-enye e kwetara, ebe Zcash Labs na-ewere ihe ize ndụ nke ma a ga-emecha kwụghachi mmefu ndị ahụ.
+
+Nhazi a na-eme ka Zcash Labs nwee mkpali ịkpachara anya mgbe ọ na-ahọrọ ọrụ. Zcash Labs ga-atụle ma ngwaahịa nwere Ojiji doro anya, ọ ga-ekwe omume, ọ nwere ike ịnata nnabata, ma na-enye uru ndị ji ZEC nwere ike inyocha. Ọ bụrụ na nyocha ahụ ezighi ezi ma jụọ ịkwụghachi ego, Zcash Labs na-ebu nsonaazụ ego nke mkpebi ahụ.
 
 ---
 
 ### Nhọrọ na Mmepe Ọrụ
 
-Zcash Labs anaghị echere ka ọrụ ndị ahụ bịa na ha ịchọ ego.Zcash Labs nwekwara ike ịchọpụta nsogbu ọ chere dị mkpa, chọọ ìgwè ma ọ bụ ndị mmepe nwere ike ịnye ngwọta, wee nye nkwado ma ọ bụrụ na e lere usoro a chọrọ anya dịka ihe ga-ekwe omume.
+Zcash Labs anaghị naanị echere ka ọrụ bịakwute ya ịchọ ego. Zcash Labs nwekwara ike ịchọpụta nsogbu ọ na-ahụ dị mkpa, chọọ otu ma ọ bụ ndị mmepụta nwere ike inye ngwọta, wee nye nkwado ma ọ bụrụ na ewere usoro a tụrụ aro dị ka nke ga-ekwe omume.
 
-Ụzọ a pụtara ìhè na Zcash Labs  ọha **[ọrụ na X](https://x.com/zcashlabs)**. Zcash Labs choro ngwọta maka nsogbu nke ahụhụ na mmepe ọgụgụ isi ma kwuo na ego dị maka ihe ndị e weere dịka ike idozi nsogbu ahụ.
+A na-ahụ usoro a n'ọrụ ọha **Zcash Labs na X[** nke ](https://x.com/zcashlabs). Zcash Labs kpọtụrụla oge ụfọdụ ngwọta maka okwu bug bounty na mmepe ọgụgụ isi aka mmadụ ma kwuo na ego dị maka ngwọta a na-ahụ nwere ike idozi nsogbu ahụ.
 
-Usoro a na-enye Zcash Labs ọrụ dịkwuo ike n'ime mmepe nke usoro okike.Zcash Labs nwere ike ịchọpụta mkpa ngwa ngwa, chọpụta ma ọ bụrụ na ihe ndị ahụ dị mkpa, chọta ndị nrụpụta kwesịrị ekwesị, wee jiri isi obodo nyere aka nweta ngwọta iji ruo ọkwa ntinye.
-
----
-
-### Ụzọ Azụmaahịa, Ikike Ịkwụ Ọmụrụ Mmadụ n'Isi na Inwe Onye Nọchiri Anya Ya
-
-Zcash Labs' mbụ nlereanya dị iche na nke omenala venture isi obodo ụlọ ọrụ. Na a ụka banyere **[Nzukọ Obodo Zcash Forum](https://forum.zcashcommunity.com/t/announcing-zcash-labs-a-zcash-go-to-market-company/56975)**, Zcash Labs kwuru na ọ naghị ewere oke ego n'ọrụ ndị o kwadoro. A na-akwụkarị otu ahụ ụgwọ dabere na ọrụ ekwekọrịtara ma ọ bụ ihe a rụpụtara.
-
-Thus, receiving funding from Zcash Labs does not automatically make the organization a partial owner of a project. Zcash Labs also stated that equity is not the primary mechanism they use to align interests with the projects they support.
-
-If Zcash Labs were to make an equity investment in the future, the organization stated that the cost of acquiring that equity would not be reimbursed through a retroactive grant. Any relevant ownership relationships would also be disclosed should such a situation arise.
+Usoro a na-enye Zcash Labs ọrụ na-arụsi ike karịa na mmepe gburugburu. Zcash Labs nwere ike ịchọpụta mkpa n'oge mbụ, kpebie ma mkpa ndị ahụ dị mkpa, chọta ndị na-ewu ihe dabara adaba, wee jiri isi ego nyere ngwọta aka iru ọkwa itinye n'ọrụ.
 
 ---
 
-## ZcashToCash (Nke a bụ ego)
+### Usoro Azụmahịa, Equity, na Nwe
 
-**[ZcashToCash (Nke a bụ ego)](https://zcashto.cash/)** is one of the earliest projects publicly known to have received support from Zcash Labs. The project was created to help users convert ZEC into fiat currency through peer-to-peer transactions.
+Ụdị mbụ Zcash Labs dị iche na nke ụlọ ọrụ venture capital ọdịnala. N'ime mkparịta ụka na **[Zcash Community Forum](https://forum.zcashcommunity.com/t/announcing-zcash-labs-a-zcash-go-to-market-company/56975)**, Zcash Labs kwuru na ọ nabeghị equity n'ime ọrụ ọ kwadoro. A na-akwụ ndị otu ahụ ụgwọ n'ozuzu dabere n'ọrụ ma ọ bụ ihe a ga-enye e kwetara.
 
-zcashtocash uses infrastructure from **Peer**. This system is used to verify fiat payments before ZEC is released in a transaction. When Zcash Labs was introduced to the public, the service already supported **Cash App**, **Chime**, **Monzo**, **Revolut**, **Venmo**, and **Zelle**.
+N'ihi ya, ịnata ego site na Zcash Labs anaghị eme ka nzukọ ahụ bụrụ onye nwe otu akụkụ nke ọrụ ozugbo. Zcash Labs kwukwara na equity abụghị usoro mbụ ha ji eme ka ọdịmma ha na nke ọrụ ha na-akwado kwekọrịta.
 
-Dabere na ozi enyere mgbe ekwuputara oru ngo a, njikọta nke ọrụ ịkwụ ụgwọ a nwere ike ikpuchi ihe karịrị ** 100 mpaghara ala. Ndị otu ahụ na-ezube ịgbasa ọnụ ọgụgụ ngwa ọdịnala na mpaghara akwụmụgwọ akwadoro.
-
-Zcash Labs na-arụ ọrụ n'otu ìgwè zcashtocash tupu mmalite nke oru ngo ahụ. Ntinye aka ya gụnyere ego yana nkwado teknụzụ na njikwa ngwaahịa. Dị ka nsonaazụ, zcash to cash ghọrọ otu n'ime ihe atụ mbụ gosipụtara etu Zcash labs si ejikọta isi obodo, mmepe ngwaahịa, na ntinye nkwado n'etiti usoro Zcash.
-
-N'okwu a, Zcash Labs nyeere aka mee ka echiche gaa n'ihu na mmejuputa ya, nyere ihe ndị dị mkpa mgbe ọ na-emepe emepe ma jiri nsonaazụ rụzuru dịka ntọala maka itinye akwụkwọ maka nkwụghachi azụ.
+Ọ bụrụ na Zcash Labs etinye ego n'ime equity n'ọdịnihu, nzukọ ahụ kwuru na agaghị akwụghachi ụgwọ inweta equity ahụ site n'ikike azụghachi azụ. A ga-ekwupụtakwa mmekọrịta nwe ọ bụla dị mkpa ma ọ bụrụ na ọnọdụ dị otú ahụ emee.
 
 ---
 
-## Nchịkwa Ngwaahịa
+## ZcashToCash
 
-Njikwa ngwaahịa bụ akụkụ ọzọ nke nkwado Zcash Labs na-enye ndị ọrụ. Ọrụ a na - enyere otu aka ịkọwapụta ihe achọrọ maka ngwaahịa, setịpụ usoro mmepe, dozie ọdịiche dị n'etiti mkpa onye ọrụ yana ntinye teknụzụ ma hụ na oru ngo ahụ gara n'ihu iji nweta ngwa ahịa njikere ịmalite.
+**[ZcashToCash](https://zcashto.cash/)** bụ otu n'ime ọrụ izizi a maara n'ihu ọha na ọ nwetara nkwado sitere na Zcash Labs. E kere ọrụ a iji nyere ndị ọrụ aka ịgbanwe ZEC ka ọ bụrụ ego fiat site n'Azụmahia n'etiti mmadụ na mmadụ.
 
-This role complements solutions engineering. Solutions engineering focuses on how to solve a technical problem, while product management helps ensure that the solution built aligns with the product’s goals and reaches users.
+zcashtocash na-eji akụrụngwa sitere na **Peer**. A na-eji usoro a enyocha Kwụọ ụhwọ fiat tupu ahapụpụta ZEC n'ime Azụmahia. Mgbe e webatara Zcash Labs n'ihu ọha, ọrụ ahụ akwadoworị **Cash App**, **Chime**, **Monzo**, **Revolut**, **Venmo**, na **Zelle**.
 
-Njikọ nke abụọ a na-enye ohere ka Zcash Labs rụọ ọrụ ọ bụghị naanị dị ka otu ndị mmepe ngwanrọ, kama dịka nzukọ na - enyere oru aka ịnyagharịa usoro site n'echiche gaa ngwaahịa arụ ọrụ zuru oke.
+Dịka ozi e nyere mgbe a mara ọkwa ọrụ ahụ si dị, nchikọta ọrụ ịkwụ ụgwọ a nwere ike ikpuchi ihe karịrị **mpaghara ala 100**. Ndị otu ahụ na-ezube ịgbasawanye ọnụọgụ ngwa ịkwụ ụgwọ na mpaghara ndị a na-akwado.
 
----
+Zcash Labs na ndị otu zcashtocash arụkọworị ọrụ tupu e malite ọrụ ahụ. Ntinye aka ya gụnyere ego nkwado yana nkwado teknụzụ na njikwa ngwaahịa. N'ihi nke a, zcashtocash ghọrọ otu n'ime ihe atụ izizi na-egosi otu Zcash Labs si ejikọta isi obodo, mmepe ngwaahịa, na nkwado mmejuputa n'ime ọrụ Zcash.
 
-## Co-Marketing na ahịa.
-
-Zcash Labs na-enyekwa ** co-marketing** maka ụfọdụ ọrụ. Co-marketin bụ mgbalị ahịa a gbakọtara ọnụ iji nyere ngwaahịa ndị dị ugbu a aka iru ndị ọrụ dị mkpa.
-
-Ọrụ a bụ akụkụ nke go-na-ahịa obibia n'ihi na ihe ịga nke ọma nke mwekota adịghị kpebisiri ike nanị site softwareâ € TM s ikike ịrụ ọrụ. A ngwaahịa kwesịkwara inweta nkesa, chọpụtara site nri ọrụ, ma nwere ụzọ iji ezigbo ụwa doo.
-
-Site na itinye aka ahịa n'ahịa ya, Zcash Labs nwere ike ịnọnyere ọbụna mgbe usoro mmepe teknụzụ zuru ezu. Nzukọ ahụ nwere ike inyere ọrụ mgbanwe site na ọkwa nke mmepe gaa na ntinye oge.
+N'ọnọdụ a, Zcash Labs nyere aka ịkwaga echiche n'ihu ruo n'ime mmejuputa, nye ihe ndị dị mkpa n'oge mmepe, ma jiri nsonaazụ arụchara dịka ntọala iji tinye akwụkwọ maka nkwụghachi azụ.
 
 ---
 
-## Mmekọrịta Ya na Ndị Ji Ego ZEC Eme Ihe
+## Njikwa Ngwaahịa
 
-N'ime ụdị Zcash Labs, nzukọ na ndị nwere mkpụrụ ego nke ZEC nwere ọrụ dị iche.Zcash Labs na-ekpebi ma ọ ga - adị njikere iburu ihe ize ndụ nke inye isi obodo maka oru ngo ahụ, ebe ndị nwe ya kpebiri ma nsonaazụ ha rụpụtara kwadoro nkwụghachi azụ.
+Njikwa ngwaahịa bụ akụkụ ọzọ nke nkwado Zcash Labs na-enye ọrụ. Ọrụ a na-enyere otu aka ịkọwa ihe ngwaahịa chọrọ, ịhazi ihe ndị mmepe ga-ebute ụzọ, ijikọ ọdịiche dị n'etiti mkpa ndị ọrụ na mmejuputa teknụzụ, na ịhụ na ọrụ ahụ na-aga n'ihu ruo n'ahịa ngwaahịa dị njikere ịmalite.
 
-Nkewa a na-enye ohere ka mmepe malite n'ebughị ụzọ nweta nkwenye nke onye nwe ego. Zcash Labs nwere ike ịme mkpebi dabere na nyocha dị n'ime ya ma jiri isi obodo ya rụọ ọrụ ahụ. Ozugbo nsonaazụ ndị enwere ike ịchọpụta, ndị na - ejide mkpụrụ ego nwere ohere ịtụle ma ọrụ ahụ enyela uru zuru oke. Nchịkọta ọnụahịa bụ ihe kachasị mkpa maka ụlọ ahịa zụrụ azụ iji mepụta ngwaahịa ha chọrọ ịzụlite.
+Ọrụ a na-akwado injinia ngwọta. Injinia ngwọta na-elekwasị anya n'otú e si edozi nsogbu teknụzụ, ebe njikwa ngwaahịa na-enyere aka ịhụ na ngwọta e wuru dabara na ebumnuche ngwaahịa ahụ ma rute ndị ọrụ.
 
-N'ụzọ dị otú a, ndị na-eburu mkpụrụ ego anaghị ekpebi ọrụ Zcash Labs nwere ike ịmalite. Ha kpebiri ma ọrụ ahụ agwụla ruru eru maka nkwụghachi site na usoro ntinye aka azụmaahịa.
-
----
-
-## Nnwere onwe nke Zcash Labs
-
-Zcash Labs ekwuputala n'ihu ọha na ọ bụ ** nzukọ nọọrọ onwe ya** ma esoghị **Zcash Foundation. Mkpebi gbasara ọrụ ndị a ga-akwado site na Zcash labs, yana ego ejiri dị n'okpuru ibu ọrụ nke nzukọ ahụ.
-
-Zcash Labs therefore does not operate as a committee that allocates funds belonging to the Zcash Foundation. Interaction with the community funding mechanism occurs after the work is completed, when the organization can submit a request for retroactive reimbursement to coinholders.
-
-Ọdịnaya a na-enye Zcash Labs ohere ime ihe n'adabereghị mgbe ị na-ahọrọ ọrụ ma nwalee usoro ọhụụ, ebe ọ ka na-enweta nzaghachi akụnụba sitere n'aka ndị nwere ZEC gbasara ọrụ arụzuru.
+Nchikọta ha abụọ na-eme ka Zcash Labs nwee ike ịrụ ọrụ ọ bụghị naanị dịka otu mmepe sọftụwia, kama dịka nzukọ na-enyere ọrụ aka ịgafe usoro site n'echiche ruo na ngwaahịa na-arụ ọrụ nke ọma.
 
 ---
 
-## Mkpa Zcash Labs dị na Ecosystem
+## Mgbasa Ozi Ọnụ
 
-Zcash Labs’ role can be understood as a bridge between Zcash technology and the practical needs of adoption. Many blockchain projects have robust technology but struggle to achieve widespread adoption due to integration barriers, a lack of technical support, or uncertainty regarding initial funding. Zcash Labs aims to fill that gap by offering a more agile combination of consulting, implementation, infrastructure, and funding.
+Zcash Labs na-enyekwa **mgbasa ozi ọnụ [co-marketing]** maka ọrụ ụfọdụ. Mgbasa ozi ọnụ bụ mgbalị mgbasa ozi jikọrọ ọnụ nke ebumnuche ya bụ inyere ngwaahịa ndị dị adị aka iru ndị ọrụ kwesịrị ekwesị.
 
-Ọ bụrụ na ụdị ha ga-aga nke ọma, Zcash Labs nwere ike ịbụ ihe atụ etu otu nzukọ nọọrọ onwe ya nwere ike isi mee ka ndị mmadụ were zcash site n'enyemaka metụtara kpọmkwem nyocha obodo coinholders. N'ihi ya, Z Cash Labs dị mkpa ọ bụghị naanị dịka onye ọrụ kamakwa dị ka nnwale nhazi maka ego na uto nke usoro okike Zcash .
+Ọrụ a bụ akụkụ nke ụzọ isi abanye n'ahịa [go-to-market] n'ihi na ọganiihu njikọta anaghị adabere naanị n'ikike sọftụwia ịrụ ọrụ. Ngwaahịa kwesịkwara inweta nkesa, ka ndị ọrụ kwesịrị ekwesị chọpụta ya, ma nwee ụzọ isi nweta nnabata n'ụwa n'ezie.
 
----
-
-## Ụzọ A Ga-esi Na-eme Ka Ọganihu Gaa n'Ime Ihe
-
-Mgbe e webatara nzukọ ahụ n'ihu ọha, Zcash Labs kwuru na enwere ọrụ ndị ọzọ na njikọta dị iche iche ma ekwuputabeghị. A na-eme atụmatụ ịhapụ ozi gbasara ọrụ a nke nta nke nta ka ọ bụla oru ngo dị njikere ịmebata ya.
-
-In the area of infrastructure, Zcash Labs also plans to expand available services by providing additional RPCs. In terms of funding, the organization is starting with relatively small grants while observing how coinholders respond to requests for retroactive reimbursement.
-
-Ọ bụrụ na ụdị a enweta traction, Zcash Labs nwere ike ịbawanye ego nke isi obodo etinyere ma buru ihe ize ndụ n'ime nnukwu ọrụ ma ọ bụ njikọta. Ihe ndị a ga - agụnye nkwado maka ọtụtụ azụmaahịa, mmalite, akụrụngwa, yana ọrụ ndị jiri Zcash mee ihe.
-
-As of **[Ọgọst 2026](https://x.com/ZcashLabs/status/2087561557253267919?s=20)**, Zcash Labs ka nọ na mmalite nke ọrụ ọha ya, n'ihi ya ọnụ ọgụgụ nke oru ngo, njikọta, na akụrụngwa ka na-eto eto.
+Site n'itinye mgbasa ozi ọnụ n'ime usoro nkwado ya, Zcash Labs nwere ike ịnọgide na-etinye aka ọbụna mgbe usoro mmepe teknụzụ gwụchara. Nzukọ ahụ nwere ike inyere ọrụ aka ịgbanwe site n'usoro mmepe gaa n'usoro nnabata.
 
 ---
 
-## Ịkpọtụrụ Ọha na Eze
+## Mmekọrịta Ya na Ndị Nwepụta Ego ZEC
 
-Zcash Labs na-eji **[zcashlabs.org (n'asụsụ Bekee)](https://zcashlabs.org/)** dị ka isi weebụsaịtị ya iji kọwaa ọrụ, ụdị ego, oru ngo na mmepe nhazi. A na-ebipụta ozi zuru ezu banyere usoro ntinye ego ya na ibe raara onwe ya nye gbasara ụdị ego ahụ yana isiokwu mgbasa ozi nzukọ.
+N'ime ụdị Zcash Labs, nzukọ ahụ na ndị nwepụta ego ZEC nwere ọrụ dị iche. Zcash Labs na-ekpebi ma ọ dị njikere iburu ihe ize ndụ nke inye ọrụ isi obodo, ebe ndị nwepụta ego na-ekpebi ma nsonaazụ e mepụtara ọ kwesịrị nkwụghachi azụ.
 
-Zcash Labs na-ejikwa **[Nzukọ Obodo Zcash Forum](https://forum.zcashcommunity.com/t/announcing-zcash-labs-a-zcash-go-to-market-company/56975)** iji soro ndị obodo kwurịta etu nzukọ ahụ si arụ ọrụ. Ihe ngosi ọkwa na-enye nkọwa ndị ọzọ gbasara oke onyinye mbụ, ịkwụ ụgwọ ego, ihe egwu nkwụghachi, ụzọ isi nweta ikike, yana atụmatụ ịgbasa mmemme ma ọ bụrụ na ụdị a enweta nkwado.
+Nkewa a na-enye ohere ka mmepe malite na-enweghị ibu ụzọ nweta nkwado ndị nwepụta ego. Zcash Labs nwere ike ime mkpebi dabere na nyocha ime ụlọ ma jiri isi obodo ya rụọ ọrụ ahụ. Ozugbo nsonaazụ a pụrụ ịlele dị, ndị nwepụta ego nwere ohere ịtụle ma ọrụ ahụ enyela uru zuru ezu.
 
-Na soshal midia, nzukọ a na-eji ** eme ihe.[@ZcashLabs (Nkeji nke abụọ)](https://x.com/zcashlabs)** akaụntụ na X iji bipụta mmelite, ọrụ, ohere ego, yana mkpa maka ngwọta e weere dị ka ihe gbasara Zcash.
-
----
-
-## Nchịkọta nke ihe ndị a na-ekwu
-
-**Zcash Labs is an independent organization focused on Zcash’s go-to-market strategy, integration, and practical adoption.** Zcash Labs helps businesses, institutions, developers, and independent projects use Zcash technology to build products, services, and infrastructure that can be used in the real world.
-
-Zcash Labs nlereanya na-ejikọta nka teknụzụ yana ego. Nzukọ ahụ nwere ike inye aka chepụta ma wuo njikọta, nye akụrụngwa, jikwaa mmepe ngwaahịa, wee jiri isi obodo ya kwado ọrụ tupu ị nweta nkwụghachi ụgwọ.
-
-Once a project produces something of value, Zcash Labs can submit a request for reimbursement through the Coinholder Directed Retroactive Grants mechanism, with a 20 percent markup added as compensation for risk and operational expenses. If the request is not approved, the financial risk remains with Zcash Labs.
-
-Site na usoro a, Zcash Labs chọrọ ịmepụta ụzọ dị mfe site n'ọchịchọ ma ọ bụ echiche gaa na mmejuputa nke Zcash zuru oke.
+N'ụzọ a, ndị nwepụta ego anaghị ekpebi ọrụ ndị Zcash Labs nwere ike ịmalite. Ha na-ekpebi ma ọrụ e mechara ruru eru maka nkwụghachi site na usoro ego nkwado azụ.
 
 ---
 
-## Ihe ndị e dere na ya
+## Nnwere Onwe nke Zcash Labs
+
+Zcash Labs ekwupụtala n'ihu ọha na ọ bụ **nzukọ nọọrọ onwe ya [independent organization]** nakwa na ọ nweghị njikọ na **Zcash Foundation**. Zcash Labs na-eme mkpebi gbasara ọrụ a ga-akwado, ego a na-eji dịkwa n'okpuru ọrụ nzukọ ahụ.
+
+Ya mere, Zcash Labs anaghị arụ ọrụ dịka kọmitii na-ekesa ego nke Zcash Foundation. Mmekọrịta na usoro ego nkwado obodo na-eme mgbe arụchara ọrụ ahụ, mgbe nzukọ ahụ nwere ike itinye arịrịọ maka nkwụghachi azụ n'aka ndị nwepụta ego.
+
+Usoro a na-enye Zcash Labs ohere ime ihe n'onwe ya mgbe ọ na-ahọrọ ọrụ ma na-anwale ụzọ ọhụrụ, ebe ọ ka na-anata nzaghachi akụnụba sitere n'aka ndị ji ZEC gbasara ọrụ e mechara.
+
+---
+
+## Mkpa Zcash Labs Dị n'Usoro Obibi
+
+Enwere ike ịghọta ọrụ Zcash Labs dịka bridge [bridge] n'etiti teknụzụ Zcash na mkpa bara uru nke nnabata. Ọtụtụ ọrụ blockchain nwere teknụzụ siri ike ma na-esiri ha ike iru nnabata sara mbara n'ihi ihe mgbochi njikọta, enweghị nkwado teknụzụ, ma ọ bụ ejighị n'aka banyere ego nkwado mbụ. Zcash Labs chọrọ imeju oghere ahụ site n'inye nchikọta ndụmọdụ, mmejuputa, akụrụngwa, na ego nkwado nke na-agbanwe ngwa ngwa.
+
+Ọ bụrụ na ụdị ha aga nke ọma, Zcash Labs nwere ike ịbụ ihe atụ nke otú nzukọ nọọrọ onwe ya nwere ike isi kwalite nnabata Zcash site na mkpali ndị jikọtara kpọmkwem na nyocha obodo ndị nwepụta ego. Ya mere, Zcash Labs dị mkpa ọ bụghị naanị dịka onye na-enye ọrụ kamakwa dịka nnwale nzukọ n'ịkwado ego na uto nke usoro obibi Zcash.
+
+---
+
+## Ụzọ Maka Mmepe
+
+Mgbe e webatara nzukọ ahụ n'ihu ọha, Zcash Labs kwuru na e nwere ọrụ na njikọta ndị ọzọ a na-arụ mana a kabeghị mara ọkwa ha. A na-ezube iwepụta ozi gbasara ọrụ a nwayọọ nwayọọ ka ọrụ ọ bụla dị njikere ka e webata ya.
+
+N'akụkụ akụrụngwa, Zcash Labs na-ezukwa ịgbasawanye ọrụ ndị dị site n'inye RPC ndị ọzọ. N'akụkụ ego nkwado, nzukọ ahụ na-amalite site n'ikike nta [grants] ebe ọ na-eleba anya n'otú ndị nwepụta ego si anabata arịrịọ nkwụghachi azụ.
+
+Ọ bụrụ na ụdị a enweta nkwado, Zcash Labs nwere ike ịbawanye isi obodo a na-etinye n'ọrụ ma buru ihe ize ndụ n'ime ọrụ ma ọ bụ njikọta buru ibu. Mmepe ndị a nwere ike ịgụnye nkwado maka azụmahịa ndị ọzọ, ụlọ ọrụ mmalite, akụrụngwa, na ọrụ na-eji Zcash.
+
+Ruo **[Ọgọọst 2026](https://x.com/ZcashLabs/status/2087561557253267919?s=20)**, Zcash Labs ka nọ n'oge mbụ nke ọrụ ọha ya, ya mere ọnụọgụ ọrụ, njikọta, na akụrụngwa ka na-eto.
+
+---
+
+## Mgbasa Ozi Ọha
+
+Zcash Labs na-eji **[zcashlabs.org](https://zcashlabs.org/)** dịka weebụsaịtị ya bụ isi iji kọwaa ọrụ ya, ụdị ego nkwado, ọrụ, na mmepe nzukọ. A na-ebipụtakwa ozi zuru ezu gbasara ụzọ ego nkwado ya na ibe pụrụ iche gbasara ụdị ego nkwado ahụ na n'isiokwu nkwupụta nzukọ.
+
+Zcash Labs na-ejikwa **[Zcash Community Forum](https://forum.zcashcommunity.com/t/announcing-zcash-labs-a-zcash-go-to-market-company/56975)** kparịta ụka na obodo gbasara otu nzukọ ahụ si arụ ọrụ. Eriri nkwupụta na-enye nkọwa ndị ọzọ gbasara nha ikike mbụ, nkwado ego, ihe ize ndụ nkwụghachi, ụzọ e si ele nhatanha anya, na atụmatụ ịgbasawanye ọrụ ma ọ bụrụ na ụdị ahụ enweta nkwado.
+
+N'ọrụ mgbasa ozi ọha, nzukọ ahụ na-eji akaụntụ **[@ZcashLabs](https://x.com/zcashlabs)** na X ebipụta mmelite, ọrụ, ohere ego nkwado, na mkpa maka ngwọta e chere na ha dị mkpa maka Zcash.
+
+---
+
+## Nchịkọta
+
+**Zcash Labs bụ nzukọ nọọrọ onwe ya lekwasịrị anya na atụmatụ isi abanye n'ahịa, njikọta, na nnabata bara uru nke Zcash.** Zcash Labs na-enyere azụmahịa, ụlọ ọrụ, ndị mmepụta, na ọrụ nọọrọ onwe ha aka iji teknụzụ Zcash wuo ngwaahịa, ọrụ, na akụrụngwa a pụrụ iji n'ụwa n'ezie.
+
+Ụdị Zcash Labs na-ejikọta nka teknụzụ na ego nkwado. Nzukọ ahụ nwere ike inye aka chepụta ma wuo njikọta, nye akụrụngwa, jikwaa mmepe ngwaahịa, ma jiri isi obodo ya kwado ọrụ tupu ọ nata nkwụghachi.
+
+Ozugbo ọrụ mepụtara ihe bara uru, Zcash Labs nwere ike itinye arịrịọ maka nkwụghachi site na usoro Coinholder Directed Retroactive Grants, tinyere mmụba pasent 20 dịka ụgwọ maka ihe ize ndụ na mmefu ọrụ. Ọ bụrụ na akwadoghị arịrịọ ahụ, ihe ize ndụ ego ahụ ga-anọgide n'aka Zcash Labs.
+
+Site n'ụzọ a, Zcash Labs chọrọ ịmepụta ụzọ kwụ ọtọ karịa site na mkpa ma ọ bụ echiche ruo na mmejuputa Zcash na-arụ ọrụ nke ọma ma dị mfe iji.
+
+---
+
+## Ntụtụaka
 
 [Zcash Labs](https://zcashlabs.org/)
 
-[Na-ekwupụta Zcash Labs: Ụlọ ọrụ na-aga ahịa nke Zcash](https://forum.zcashcommunity.com/t/announcing-zcash-labs-a-zcash-go-to-market-company/56975)
+[Ịkpọsa Zcash Labs: Ụlọ ọrụ Zcash Isi Abanye n'ahịa](https://forum.zcashcommunity.com/t/announcing-zcash-labs-a-zcash-go-to-market-company/56975)
 
-[Zcash Labs na X.](https://x.com/zcashlabs)
+[Zcash Labs na X](https://x.com/zcashlabs)
 
 [Zcash Labs na GitHub](https://github.com/zcashlabs)
 
-[Zcash Labs na blọọgụ weebụ](https://zcashlabs.org/blog)
+[Zcash Labs na Blọọgụ Weebụ](https://zcashlabs.org/blog)

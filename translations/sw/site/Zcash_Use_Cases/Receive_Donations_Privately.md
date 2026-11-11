@@ -1,121 +1,121 @@
-# <img src="/content-images/money-business-and-finance-svgrepo-com-eac0e054bd.svg" width="24" height="24" alt="finance icon"/> Receive Donations Privately with Zcash
+# <img src="/content-images/money-business-and-finance-svgrepo-com-eac0e054bd.svg" width="24" height="24" alt="finance icon"/> Pokea Michango kwa Faragha ukitumia Zcash
 
 <span className="inline-flex items-center gap-[6px]">
   <span className="inline-block w-[12px] h-[12px] bg-green-500 rounded-full"></span>
-  Mwanzoni - dakika 5
+  Anayeanza - Dakika 5
 </span>
 
 
-## TL;DR
+## Kwa Ufupi Sana
 
-- Tumia ** kinga (z) anwani**
-- Kamwe kushiriki wazi (t) anwani hadharani
-- Kuhimiza wafadhili kutuma kutoka wallets shielded
-- Epuka kuunganisha utambulisho wako na shughuli za kibiashara
-
-<br/>
-
-## <img src="/content-images/user-svgrepo-com-21adf62b7c.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="user icon"/> Who is this for?
-- Waumbaji kukubali michango
-- Waandishi wa chanzo wazi
-- Jumuiya zinazokusanya fedha
-- Mtu yeyote ambaye anataka msaada binafsi wa kifedha
+- Tumia **anwani ya faragha (shielded) ya (z)**
+- Usishiriki kamwe hadharani anwani ya uwazi (transparent) ya (t)
+- Wahimize wafadhili kutuma kutoka pochi za faragha
+- Epuka kuhusisha utambulisho wako na miamala
 
 <br/>
 
-## <img src="/content-images/warning-error-svgrepo-com-b7ea8a50da.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="warning icon"/> The Problem
-
-Wengi cryptocurrencies kufichua kila kitu:
-- Usawa wako wa mkoba
-- Ni nani aliyekupa pesa?
-- historia yako yote ya shughuli
-
-Hii inaleta hatari kubwa:
-- Kupoteza faragha ya kifedha
-- Lengo au ufuatiliaji
-- Kufunua umma wa watoaji
+## <img src="/content-images/user-svgrepo-com-21adf62b7c.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="user icon"/> Hii ni kwa ajili ya nani?
+- Watayarishi wanaopokea michango
+- Wachangiaji wa miradi ya programu huria
+- Jamii zinazokusanya fedha
+- Mtu yeyote anayetaka msaada wa kifedha wa faragha
 
 <br/>
 
-## <img src="/content-images/icons8-lock-2f8e221321.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> Why Zcash?
+## <img src="/content-images/warning-error-svgrepo-com-b7ea8a50da.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="warning icon"/> Tatizo
 
-Zcash ulinzi shughuli kuficha:
+Sarafu-fiche nyingi hufichua kila kitu:
+- Salio la pochi yako
+- Aliyekutumia fedha
+- Historia yako yote ya miamala (transactions)
+
+Hili huleta hatari kubwa:
+- Kupoteza faragha ya kifedha (privacy)
+- Kulengwa au kufuatiliwa
+- Kufichuliwa hadharani kwa wafadhili
+
+<br/>
+
+## <img src="/content-images/icons8-lock-2f8e221321.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> Kwa nini Zcash?
+
+Miamala ya faragha ya Zcash huficha:
 - Anwani ya mtumaji
 - Anwani ya mpokeaji
-- kiasi cha shughuli
+- Kiasi cha muamala
 
-Hii inaruhusu kupokea fedha **bila ya kufichua grafu yako kifedha**.
+Hii hukuruhusu kupokea fedha **bila kufichua mtandao wako wa kifedha**.
 
 <br/>
 
-## <img src="/content-images/icons8-toolbox-9bebbb1619.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> What You Need
+## <img src="/content-images/icons8-toolbox-9bebbb1619.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> Unachohitaji
 
-- Zcash mkoba kwamba inasaidia anwani shielded:
+- Pochi ya Zcash inayotumia anwani za faragha:
   - Zodl
   - Zingo!
-  - Mkoba mwingine ulioungwa mkono
+  - Pochi nyingine zinazotumika
 
 <br/>
 
-## <img src="/content-images/ladder-svgrepo-com-7232bf46ed.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="step icon"/> Step-by-Step Guide
+## <img src="/content-images/ladder-svgrepo-com-7232bf46ed.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="step icon"/> Mwongozo wa Hatua kwa Hatua
 
-### Hatua ya 1: Unda anwani iliyohifadhiwa
-Fungua mkoba wako na kuzalisha ** z-anwani. ***
-Kwa kawaida huanza kwa: `zs...`
+### Hatua ya 1: Unda Anwani ya Faragha
+Fungua pochi yako na utengeneze **anwani ya z**.
+Kwa kawaida hii huanza na: `zs...`
 
 
-### Hatua ya 2: Shiriki Anwani Yako Iliyohifadhiwa Tu
+### Hatua ya 2: Shiriki Anwani Yako ya Faragha Pekee
 
-- Kuchapisha yako z-anwani juu ya:
-  - Tovuti ya mtandao
-  - Mitandao ya Kijamii
+- Chapisha anwani yako ya z kwenye:
+  - Tovuti
+  - Mitandao ya kijamii
   - Kurasa za michango
 
-** Usishiriki wazi anwani.**
+**USISHIRIKI anwani ya uwazi ya (t).**
 
-### Hatua ya 3: Mwongozo wa Wafadhili (Si lazima lakini inapendekezwa)
+### Hatua ya 3: Waelekeze Wafadhili (Si Lazima Lakini Inapendekezwa)
 
-Kuhimiza wafadhili:
-- Matumizi pochi kwamba msaada shughuli ulinzi
-- Tuma kutoka mabwawa shielded (si uwazi)
+Wahimize wafadhili:
+- Kutumia pochi zinazotumia miamala ya faragha
+- Kutuma kutoka mabwawa ya faragha (si ya uwazi)
 
-### Hatua ya 4: Dumisha Usafi wa Msingi Kuhusu Faragha Yako
+### Hatua ya 4: Dumisha Taratibu za Msingi za Faragha
 
-- Epuka kutumia tena anwani sawa katika vitambulisho visivyohusiana
-- Usiruhusu anwani yako iambatane na utambulisho wako isipokuwa iwe lazima kufanya hivyo
-
-<br/>
-
-## <img src="/content-images/icons8-cancel-7f786be3c1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="cancel icon"/> Common Mistakes to Avoid
-
-- Kushiriki uwazi (t) anwani 
-- Kuweka mfuko wako kando ya kitambulisho chako cha kibinafsi 
-- Kukubali fedha kutoka vyanzo uwazi bila shielding 
-- Reusing anwani hiyo katika mazingira mbalimbali 
+- Epuka kutumia tena anwani ileile katika utambulisho usiohusiana
+- Usiunganishe hadharani anwani yako na utambulisho binafsi isipokuwa inapohitajika
 
 <br/>
 
-## <img src="/content-images/checked-checkbox-svgrepo-com-7ea19022da.svg" width="28" height="28" className="inline-block align-middle mr-1 p-[2px]" alt="done icon"/> Result
+## <img src="/content-images/icons8-cancel-7f786be3c1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="cancel icon"/> Makosa ya Kawaida ya Kuepuka
+
+- Kushiriki anwani ya uwazi ya (t)  
+- Kuchapisha pochi yako pamoja na utambulisho binafsi  
+- Kukubali fedha kutoka vyanzo vya uwazi bila kuzihamisha kwenye faragha  
+- Kutumia tena anwani ileile katika miktadha mingi  
+
+<br/>
+
+## <img src="/content-images/checked-checkbox-svgrepo-com-7ea19022da.svg" width="28" height="28" className="inline-block align-middle mr-1 p-[2px]" alt="done icon"/> Matokeo
 
 Unaweza:
-- Pokea michango binafsi
-- Walinde wafuasi wako.
-- Epuka kufunua shughuli zako za kifedha
+- Kupokea michango kwa faragha
+- Kuwalinda wafuasi wako
+- Kuepuka kufichua shughuli zako za kifedha
 
 <br/>
 
-## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="chain-links icon"/> Related
+## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="chain-links icon"/> Yanayohusiana
 
-- [Faragha - Kulindwa dhidi ya Uwazi](/zcash-tech/what-a-block-explorer-can-see)
-- [Mkoba](/wallets)
+- [Kile Ambacho Kichunguzi cha Block Kinaweza Kuona](/zcash-tech/what-a-block-explorer-can-see)
+- [Pochi](/wallets)
 
 <br/>
 
-## <img src="/content-images/progress-arrows-svgrepo-com-aad76739e5.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="progress icon"/> Progress
+## <img src="/content-images/progress-arrows-svgrepo-com-aad76739e5.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="progress icon"/> Maendeleo
 
-** Hatua ya 1 kati ya 6**
+**Hatua ya 1 kati ya 6**
 
-Umejifunza jinsi ya kupokea fedha kwa siri.
+Umejifunza jinsi ya kupokea fedha kwa faragha.
 
 <br/>
 
@@ -123,6 +123,6 @@ Umejifunza jinsi ya kupokea fedha kwa siri.
 
 Endelea na safari yako:
 
-- [Tuma Pesa Bila Kuficha Utambulisho Wako](/zcash-use-cases/send-money-without-linking-identity)
+- [Tuma Fedha Bila Kuunganisha Utambulisho](/zcash-use-cases/send-money-without-linking-identity)
   
 <br/>

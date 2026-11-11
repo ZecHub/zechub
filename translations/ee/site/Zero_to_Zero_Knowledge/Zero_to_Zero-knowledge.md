@@ -1,23 +1,23 @@
 # Zero to Zero Knowledge
 
-Nu kpui siwo kplɔ wo nɔewo ɖo ku ɖe susu siwo le megbe na ame ŋutɔ ƒe dijitaal ga ŋu. Dze egɔme tso etame.
+Nudzodzro ŋkekevi aɖe tso susuwo si le asigbalẽ ga si ɣaɣla le megbe. Dze egɔme tso etɔgbi.
 
-| # | Nyati | Nusiwo nàsrɔ̃ |
+| # | Tanyigba | Nusi wòasrɔ |
 |---|-------|---------------------|
-| 1 | [Hash ƒe Dɔwɔwɔwo](/zero-to-zero-knowledge/hash-functions) | Nusianu si wotsɔ dea eme la zua nusi dona tso eme si woɖo ɖi. Nɔnɔme etɔ̃ siwo wòle be hash nanɔ esi. |
-| 2 | [Gbugbɔgadzɔ ƒe Nuku ƒe Nyagbewo](/zero-to-zero-knowledge/mnemonic-seed-phrases) | Alesi nyawo ƒe xexlẽdzesiwo va zua safui siwo léa wò ga ɖe te. |
-| 3 | [Zcash ƒe Adrɛswo](/zero-to-zero-knowledge/zcash-addresses) | Asitsatsa siwo me kɔ eye wokpɔa wo ta, kple Adrɛs Siwo Wowɔ Ðeka. |
-| 4 | [Amewuwu ƒe Nɔnɔme Siwo Dzi Woka Ðo](/zero-to-zero-knowledge/tees) | Hardware si naa akɔntabubu nɔa ɣaɣla, kple afisi wòdzena le. |
-| 5 | [Cryptonote si wotsɔ ŋlɔa nu](/zero-to-zero-knowledge/cryptonote) | Adzamenyawo ƒe ɖoɖo si le megbe na Monero, kple alesi wòto vovo tso Zcash. |
-| 6 | [Lelantus ƒe ŋkɔ](/zero-to-zero-knowledge/lelantus) | Protocol si le megbe na Firo, kple alesi wòtsɔe sɔ kple Zcash. |
+| 1 | [Hash ƒe dɔwɔnu](/zero-to-zero-knowledge/hash-functions) | Nusi ɖe sia ɖe si wòna la zu emetsonu si ƒe didime menoa vɔvɔ o. Nɔnɔme atọ si hash aɖe nakpɔ. |
+| 2 | [Gadzraɖoɖi nya](/zero-to-zero-knowledge/mnemonic-seed-phrases) | Ale si nyaƒiɖa aɖe zu keywo siwo le wòga ɖo. |
+| 3 | [Zcash Gaɖoƒe ƒe dzesi](/zero-to-zero-knowledge/zcash-addresses) | Nuwo ƒe ʋuʋuɖi kple ɣaɣla gaɖoɖowo, kple Unified Addresses. |
+| 4 | [Dɔwɔƒe si wòka ɖe dziɣa me](/zero-to-zero-knowledge/tees) | Mɔ̃ si dzɔdzɔ le ɣaɣla me kple afi si wòmesɔ o. |
+| 5 | [Cryptonote](/zero-to-zero-knowledge/cryptonote) | Mɔnu si le Monero ƒe ɣaɣla ƒe megbe, kple ale si wòto vovo na Zcash. |
+| 6 | [Lelantus](/zero-to-zero-knowledge/lelantus) | Protocol si le Firo ƒe megbe, kple ale si wòtsɔe sɔ kple Zcash. |
 
-## Ka gbãtɔwo
+## Gbãtɔ ƒe nyadzɔdzɔwo
 
-Woƒoe nu ƒu tso Zero to Zero Knowledge ka siwo le X dzi.
+Woƒo nu sia nu tso Zero to Zero Knowledge ƒe nyadzɔdzɔwo le X dzi.
 
-- [Hash ƒe Dɔwɔwɔwo](https://x.com/ZecHub/status/1621240109663227906)
-- [Gbugbɔgadzɔ ƒe Nuku ƒe Nyagbewo](https://x.com/ZecHub/status/1624125037945946145)
-- [Zcash ƒe Adrɛswo](https://x.com/ZecHub/status/1628498645627666432)
-- [Amewuwu ƒe Nɔnɔme Siwo Dzi Woka Ðo](https://x.com/ZecHub/status/1633579659282587651)
-- [Cryptonote si wotsɔ ŋlɔa nu](https://x.com/ZecHub/status/1636473585781948416)
-- [Lelantus ƒe ŋkɔ](https://x.com/ZecHub/status/1641902859800150017)
+- [Hash ƒe dɔwɔnu](https://x.com/ZecHub/status/1621240109663227906)
+- [Gadzraɖoɖi nya](https://x.com/ZecHub/status/1624125037945946145)
+- [Zcash Gaɖoƒe ƒe dzesi](https://x.com/ZecHub/status/1628498645627666432)
+- [Dɔwɔƒe si wòka ɖe dziɣa me](https://x.com/ZecHub/status/1633579659282587651)
+- [Cryptonote](https://x.com/ZecHub/status/1636473585781948416)
+- [Lelantus](https://x.com/ZecHub/status/1641902859800150017)

@@ -3,160 +3,160 @@
 </a>
 
 
-# Zcash Nodes Lightwallet
+# Node za Lightwallet Zcash
 
-## TL;DR
+## Kwa Muhtasari
 
-* Watu wengi kutumia Zcash kupitia mkoba mwanga, ambayo haina kushusha blockchain nzima. Badala yake, anaongea na server kwamba tayari amefanya kazi hiyo.
-* vipande mbili za programu kutumika mwanga pochi leo: ** lightwalletd, huduma ya awali iliyoandikwa katika Go, na Zaino**, mpya indexer imeandikwa katika kutu.
-* Funguo zako kamwe kuondoka kifaa yako, na server hawezi kutumia fedha yako au kusoma kiasi cha pesa na memos ndani ya shughuli kamili ulinzi.
-* Nini server ni vizuri kuwekwa kujifunza anwani yako ya IP na muda wa shughuli zako  ulinzi manunuzi kulinda nini huenda juu blockchain, si uhusiano wako kwa seva.
-* Tor huondoa kitambulisho cha IP; inapatikana katika pochi zilizojengwa kwenye `zcash_client_backend`, na katika ZODL ni kuweka katika Advanced Settings.
-* Unaweza kubadilisha ambayo server mkoba wako anatumia, au kukimbia yako mwenyewe  wote lightwalletd na Zaino ni wazi chanzo.
+* Watu wengi hutumia Zcash kupitia pochi nyepesi [light wallet], ambayo haipakui blockchain yote. Badala yake, huwasiliana na seva ambayo tayari imefanya kazi hiyo.
+* Vipande viwili vya programu huhudumia pochi nyepesi leo: **lightwalletd**, huduma ya awali iliyoandikwa kwa Go, na **Zaino**, kiorodheshi kipya zaidi kilichoandikwa kwa Rust.
+* Funguo zako haziondoki kamwe kwenye kifaa chako, na seva haiwezi kutumia fedha zako wala kusoma kiasi na jumbe ndani ya miamala ya faragha kamili.
+* Kile ambacho seva iko katika nafasi nzuri ya kujifunza ni anwani yako ya IP na muda wa shughuli zako — miamala ya faragha hulinda kinachotokea kwenye blockchain, si muunganisho wako kwa seva.
+* Tor huondoa kitambulishi cha IP; inapatikana katika pochi zilizoundwa kwenye `zcash_client_backend`, na katika ZODL ni mpangilio katika Mipangilio ya Kina.
+* Unaweza kubadilisha seva ambayo pochi yako hutumia, au kuendesha yako mwenyewe — lightwalletd na Zaino zote ni chanzo huria.
 
-## Maelezo ya msingi
+## Maelezo ya Msingi
 
-Watu wengi kutumia Zcash kupitia mkoba mwanga, ambayo haina download blockchain nzima. Badala yake, anaongea na server kwamba tayari amefanya kazi hiyo. Ukurasa huu inaelezea nini wale servers ni, kile wanaweza kuona na hawawezi kuhusu wewe, jinsi ya kuelekeza uhusiano wako juu Tor, na jinsi ya kubadilisha seva yako mfuko hutumia.
+Watu wengi hutumia Zcash kupitia pochi nyepesi, ambayo haipakui blockchain yote. Badala yake, huwasiliana na seva ambayo tayari imefanya kazi hiyo. Ukurasa huu unaeleza seva hizo ni nini, zinaweza na haziwezi kuona nini kukuhusu, jinsi ya kupitisha muunganisho wako kupitia Tor, na jinsi ya kubadilisha seva ambayo pochi yako hutumia.
 
-vipande mbili vya programu kutumika mwanga pochi leo. ** lightwalletd** ni huduma ya awali, imeandikwa katika Go. ** Zaino ** ni mpya indexer iliyoandikwa katika kutu, kujengwa kama sehemu ya kazi zcashd deprecation.
+Vipande viwili vya programu huhudumia pochi nyepesi leo. **lightwalletd** ni huduma ya awali, iliyoandikwa kwa Go. **Zaino** ni kiorodheshi kipya zaidi kilichoandikwa kwa Rust, kilichoundwa kama sehemu ya kazi ya kusitisha zcashd.
 
-### Nini mwanga mkoba server gani
+### Seva ya pochi nyepesi hufanya nini
 
-Mwanga mkoba server anakaa kati ya mfuko wako na blockchain Zcash na inatoa bandwidth-ufanisi mtazamo wa mlolongo. Ni anafanya mambo matatu kwa ajili yenu.
+Seva ya pochi nyepesi hukaa kati ya pochi yako na blockchain ya Zcash na kuipa mtazamo wa mnyororo unaotumia data kidogo. Hukufanyia mambo matatu.
 
-Badala ya kuwa na vipande vya vitabu, inatuma fomu ndogo yenye habari tu inayohitajika ili kuchunguza malipo kwenye anwani yake iliyofichwa, kugundua matumizi ya noti zake, na kuwasilisha taarifa kwa mashahidi wake.
+Hutoa block zilizofinyazwa. Badala ya block kamili, hutuma muundo mfupi unaobeba tu kile ambacho pochi inahitaji ili kutambua malipo kwa anwani yake ya faragha, kutambua matumizi ya madokezo yake, na kusasisha thibitisho zake.
 
-Wakati kutuma, mkoba wako mikono ya kumaliza shughuli kwa server ambayo matangazo yake kwenye mtandao.
+Husambaza miamala yako. Unapotuma, pochi yako hukabidhi muamala uliokamilika kwa seva, ambayo huutangaza kwa mtandao.
 
-Inajibu maswali ya mnyororo, kama vile urefu wa sasa na habari za ada ambayo mkoba wako unahitaji.
+Hujibu hoja za mnyororo, kama vile urefu wa sasa na maelezo ya ada [fee] ambayo pochi yako inahitaji.
 
-Pochi yako bado inafanya kazi ya kibinafsi ndani. Inaweka funguo zako, jaribio-kufuta vitalu kupata maelezo yako na kujenga na kusaini shughuli kwenye kifaa chako.
+Pochi yako bado hufanya kazi za faragha kwenye kifaa chako. Huhifadhi funguo zako, husimbua block kwa majaribio ili kupata madokezo yako, na huunda na kutia sahihi miamala kwenye kifaa chako.
 
-### Nini server unaweza na hawezi kuona
+### Kile ambacho seva inaweza na haiwezi kuona
 
-Hii ni sehemu ambayo ni rahisi kupata makosa. funguo yako kamwe kuondoka kifaa chako, lakini hiyo si sawa kama server kujifunza chochote kuhusu wewe.
+Hii ndiyo sehemu ambayo ni rahisi kuielewa vibaya. Funguo zako haziondoki kamwe kwenye kifaa chako, lakini hiyo si sawa na kusema seva haijifunzi chochote kukuhusu.
 
-rejea hapa ni ya [Zcash mkoba programu tishio mfano wa](https://zcash.readthedocs.io/en/latest/rtd_pages/wallet_threat_model.html), which is worth reading in full if you care about this. It sets out several kinds of adversary. The one that matters for this page is an adversary who can watch traffic between your wallet and the internet, and between the server and the internet. Whoever runs the server is inherently in part of that position, because your wallet connects to them directly.
+Marejeleo hapa ni muundo wa vitisho wa programu ya pochi ya [Zcash](https://zcash.readthedocs.io/en/latest/rtd_pages/wallet_threat_model.html), ambao unastahili kusomwa kikamilifu ikiwa unajali suala hili. Unaainisha aina kadhaa za wapinzani. Anayohusika kwa ukurasa huu ni mpinzani anayeweza kufuatilia trafiki kati ya pochi yako na intaneti, na kati ya seva na intaneti. Anayeendesha seva yuko kwa asili katika sehemu ya nafasi hiyo, kwa sababu pochi yako huunganishwa nao moja kwa moja.
 
-Start with what is protected. Against every adversary in the model, including one who has compromised the server, it "can't learn any of the user's cryptographic key material (spending keys, viewing keys, seed phrase, etc.)", cannot steal your funds, and cannot make you send funds you did not intend to send. The amounts and memos inside fully shielded transactions stay encrypted.
+Anza na kile kinacholindwa. Dhidi ya kila mpinzani katika muundo huo, akiwemo yule ambaye amehujumu seva, “hawezi kujifunza nyenzo zozote za funguo za kriptografia za mtumiaji (funguo za kutumia pesa, funguo za kutazama, maneno ya kurejesha pochi, n.k.)”, hawezi kuiba fedha zako, wala hawezi kukufanya utume fedha ambazo hukukusudia kutuma. Kiasi na jumbe ndani ya miamala ya faragha kamili hubaki zimesimbwa fiche.
 
-Kisha kuna kile ambacho si ulinzi. tishio mfano orodha hizi kama udhaifu inayojulikana dhidi ya trafiki-kuangalia adui:
+Kisha kuna kile kisicholindwa. Muundo wa vitisho unaorodhesha haya kama udhaifu unaojulikana dhidi ya mpinzani anayefuatilia trafiki:
 
-| Udhaifu | Jinsi gani |
+| Udhaifu | Jinsi |
 |:--|:--|
-| Kusema wewe ni nani | "Adui anajua anwani ya IP ya mtumiaji, ambayo inaweza kumpeleka kwenye utambulisho halisi wa mtumiaji" |
-| Kusema kwa ukali uko wapi | Kutafuta IP yako "katika hifadhidata ya eneo ili kukadiria eneo lake" |
-| Kusema hivyo na wakati ulituma au kupokea muamala uliolindwa | Kutuma "hutumia kipimo data zaidi, ambacho kinaonekana hata kama muunganisho umesimbwa kwa njia fiche". Mfano unabainisha kuwa kitendo cha kutuma na kupokea kinaonekana kwa seva yenyewe |
-| Kuhesabu miamala mingapi umefanya baada ya muda | Mifumo sawa ya kipimo data, iliyozingatiwa kwa muda mrefu zaidi |
-| Kugundua mifumo ya malipo inayojirudia | Kuangalia wakati shughuli inapotokea |
-| Kuchunguza kama anwani ni yako | Adui ambaye tayari anajua anwani "anaweza kutuma pesa kwenye anwani hiyo na kuangalia kama kuna ongezeko la kipimo data" kutoka kwenye pochi yako akiichukua |
+| Kujua wewe ni nani | “Mpinzani anajua anwani ya IP ya mtumiaji, ambayo inaweza kumwongoza kwenye utambulisho halisi wa mtumiaji” |
+| Kujua kwa makadirio ulipo | Kutafuta IP yako “katika hifadhidata ya eneo la kijiografia ili kukadiria mahali walipo” |
+| Kujua kwamba na wakati ulituma au kupokea muamala wa faragha | Kutuma “hutumia data zaidi, jambo linaloonekana ingawa muunganisho umesimbwa fiche”. Muundo huo unabainisha kwamba tendo la kutuma na kupokea linaonekana kwa seva yenyewe |
+| Kuhesabu miamala mingapi umefanya baada ya muda | Mienendo ileile ya data, inayofuatiliwa kwa kipindi kirefu zaidi |
+| Kugundua mienendo ya malipo inayojirudia | Kufuatilia wakati shughuli inatokea |
+| Kubaini kama anwani ni yako | Mpinzani ambaye tayari anajua anwani “anaweza kutuma fedha kwa anwani hiyo na kufuatilia kuona kama kuna ongezeko la matumizi ya data” kutoka kwenye pochi yako ikiichukua |
 
-Mfano pia anabainisha kuwa kesi ya kawaida inachukua "uhusiano wa uaminifu kati ya mtumiaji na lightwalletd server operator".
+Muundo huo pia unabainisha kwamba hali ya kawaida huchukulia “uhusiano wa uaminifu kati ya mtumiaji na mwendeshaji wa seva ya lightwalletd”.
 
-Kwa hiyo muhtasari wa uaminifu ni huu. Seva nyepesi ya mkoba haiwezi kutumia pesa zako, na haiwezi kusoma kiasi au kumbukumbu katika shughuli zako za ulinzi. Kinachowekwa vizuri kujifunza ni anwani yako ya IP na wakati wa shughuli yako, na hizo mbili pamoja zinaweza kusema mengi juu ya mtu. Shughuli zilizohifadhiwa zinalinda kile kinachoendelea kwenye blockchain. Hazifichi peke yake unganisho lako kwa seva.
+Kwa hiyo, muhtasari wa kweli ni huu. Seva ya pochi nyepesi haiwezi kutumia fedha zako, na haiwezi kusoma kiasi au jumbe katika miamala yako ya faragha. Kile ilicho katika nafasi nzuri ya kujifunza ni anwani yako ya IP na muda wa shughuli zako, na vitu hivyo viwili kwa pamoja vinaweza kusema mengi kuhusu mtu. Miamala ya faragha hulinda kinachotokea kwenye blockchain. Haifichi, yenyewe pekee, muunganisho wako kwa seva.
 
-## Visual / Ulinganisho
+## Taswira / Mfano
 
-Fikiria maktaba ya umma ambayo ana kila gazeti milele kuchapishwa. node kamili ni msomaji ambaye inachukua nyumbani archive nzima. mkoba mwanga ni msomi ambao aliuliza mwandishi wa vitabu kwa ajili ya digest siku badala  karatasi nyembamba kubeba tu kutosha kutambua kama kitu chochote wasiwasi yao.
+Fikiria maktaba ya umma inayohifadhi kila gazeti lililowahi kuchapishwa. Full node ni msomaji anayechukua kumbukumbu nzima kwenda nyumbani. Pochi nyepesi ni msomaji anayemwomba msimamizi wa maktaba muhtasari wa kila siku badala yake — karatasi nyembamba yenye taarifa za kutosha tu kugundua kama kuna chochote kinachomhusu.
 
-Digest imefungwa: Mkurugenzi wa maktaba anaikusanya bila kuwa na uwezo wa kusoma vitu ambavyo ni muhimu kwako, nawe unaifungua nyumbani kwa ufunguo wako mwenyewe. Hiyo ndiyo block ya compact, na kufungua ni jaribio la kutenganisha kwenye kifaa chako.
+Muhtasari umefungwa: msimamizi wa maktaba huukusanya bila kuweza kusoma ni habari zipi ni muhimu kwako, nawe huufungua nyumbani kwa ufunguo wako mwenyewe. Hiyo ndiyo block iliyofinyazwa, na kufungua huko ni usimbuaji wa majaribio kwenye kifaa chako.
 
-Lakini maktaba bado anaona ambayo msomaji kutembea katika, wakati gani, na jinsi nene kifungu wao uliofanywa nje. Hiyo ni anwani ya IP na timing  inayoonekana kutoka dawati, bila kujali vizuri muhuri bahasha ni. Tor ni sawa na kupeleka mjumbe asiyejulikana: maktaba inaendelea mikono juu ya mfuko huo, lakini tena anajua ambaye nyumba huenda kwa.
+Lakini msimamizi wa maktaba bado huona msomaji gani aliingia, kwa wakati gani, na kifurushi alichobeba kilikuwa kinene kiasi gani. Hiyo ndiyo anwani ya IP na muda — unaoonekana kwenye dawati, bila kujali bahasha imefungwa vizuri kiasi gani. Tor ni sawa na kutuma mjumbe asiyejulikana: msimamizi wa maktaba bado hukabidhi kifurushi kilekile, lakini hajui tena kinaenda kwenye nyumba ya nani.
 
-## Kuzama kwa Kina Chini ya Maji
+## Uchambuzi wa Kina
 
-### Kuelekeza juu ya Tor
+### Kupitisha muunganisho kupitia Tor
 
-Tor breaks kiungo kati ya anwani yako IP na mkoba wako trafiki, ambayo huondoa nguvu zaidi kitambulisho katika meza hapo juu.
+Tor hukata kiungo kati ya anwani yako ya IP na trafiki ya pochi yako, jambo linaloondoa kitambulishi chenye nguvu zaidi katika jedwali hapo juu.
 
-Msaada ipo katika maktaba Rust kwamba wengi Zcash pochi kujenga juu ya. zcash_client_backend ni pamoja na moduli Tor kujengwa kwenye [Arti](https://tpo.pages.torproject.net/core/arti/), Rust utekelezaji wa Tor, hivyo mkoba unaweza njia ya usawazishaji, shughuli matangazo na bei utafutaji kupitia Tor bila meli tofauti Tor wateja.
+Usaidizi upo katika maktaba za Rust ambazo pochi nyingi za Zcash hujengwa juu yake. zcash_client_backend inajumuisha moduli ya Tor iliyojengwa kwenye [Arti](https://tpo.pages.torproject.net/core/arti/), utekelezaji wa Rust wa Tor, hivyo pochi inaweza kupitisha ulandanishi, utangazaji wa miamala, na utafutaji wa bei kupitia Tor bila kusafirisha mteja tofauti wa Tor.
 
-Watengenezaji wa Zaino kufanya hoja hiyo, akitoa mfano tishio moja kwa moja: kuna "uhitaji wa kutumia zisizojulikana usafiri itifaki (kama vile Nym au Tor) kuficha utambulisho wateja kutoka Zcash ya indexing seva".
+Wasanidi programu wa Zaino wanatoa hoja hiyo hiyo, wakinukuu moja kwa moja muundo wa vitisho: kuna “haja ya kutumia itifaki za usafirishaji zisizotambulisha (kama Nym au Tor) ili kuficha utambulisho wa wateja dhidi ya seva za kuorodhesha za Zcash”.
 
-Katika ** ZODL**, Tor ni kuweka katika Advanced Settings. kuchapishwa noti mkoba wa pointi watumiaji kwa mode mwongozo uhusiano "pamoja kuwezesha Tor katika Mipangilio ya juu" kama wao "kupendelea kupunguza yatokanayo metadata", na programu inatoa kugeuka kwenye Tor kabla kurejesha mfuko wa fedha, ambayo ni wakati mpya IP ingekuwa vinginevyo amefungwa historia nzima mkoba.
+Katika **ZODL**, Tor ni mpangilio katika Mipangilio ya Kina. Maelezo ya toleo la pochi yanaelekeza watumiaji kwenye hali ya muunganisho wa mkono “pamoja na kuwezesha Tor katika Mipangilio ya Kina” ikiwa “wanapendelea kupunguza ufichuzi wa metadata”, na programu hutoa kuwezesha Tor kabla ya kurejesha pochi, ambao ni wakati IP mpya ingeunganishwa vinginevyo na historia nzima ya pochi.
 
-Tor huficha IP yako kutoka kwa seva, lakini haibadilishi kile ambacho server inafundisha kutokana na maombi unayofanya. Na njia ya vitunguu inaongeza latency, hivyo usawazishaji unachukua muda mrefu zaidi. Kuendesha seva yako mwenyewe huepuka swali la uaminifu tofauti, kwani basi mwendeshaji ni wewe.
+Tahadhari mbili. Tor huficha IP yako kutoka kwa seva, lakini haibadilishi kile ambacho seva hujifunza kutoka kwa maombi unayofanya. Na uelekezaji wa onion huongeza muda wa kusubiri, hivyo ulandanishi huchukua muda mrefu zaidi. Kuendesha seva yako mwenyewe huepuka swali la uaminifu kwa njia tofauti, kwa kuwa mwendeshaji basi ni wewe.
 
-### Zaino, indexer Rust
+### Zaino, kiorodheshi cha Rust
 
-[Zaino](/zcash-tech/zaino) ni indexer iliyoandikwa katika kutu na timu Zingo, kujengwa kuchukua nafasi ya lightwalletd kama sehemu ya kazi zcashd deprecation. Ni mtumishi mwanga wateja, wateja kamili, na block explorers, kusoma data mlolongo uliofanyika kwa "ama Zebra au zcashd full validator".
+[Zaino](/zcash-tech/zaino) ni kiorodheshi kilichoandikwa kwa Rust na timu ya Zingo, kilichoundwa kuchukua nafasi ya lightwalletd kama sehemu ya kazi ya kusitisha zcashd. Huhudumia light client, wateja kamili, na vivinjari vya block, kikisoma data ya mnyororo iliyohifadhiwa na “aidha Zebra au kithibitishaji kamili cha zcashd”.
 
-Ni chini ya maendeleo hai, na toleo 0.8.0 iliyotolewa katika Agosti 2026. ni inalenga kukaa nyuma sambamba na lightwalletd ambapo inawezekana, hivyo pochi unaweza kuashiria bila kuwa rewritten.
+Kiko katika maendeleo hai, na toleo la 0.8.0 lilitolewa Agosti 2026. Kinalenga kubaki sambamba na lightwalletd kwa kadiri iwezekanavyo, ili pochi ziweze kuelekezwa kukitumia bila kuandikwa upya.
 
-Zaino ina ukurasa wake mwenyewe na michoro usanifu, hivyo ukurasa huu inashughulikia tu jukumu lake kama mwanga mkoba server.
+Zaino kina ukurasa wake wenye michoro ya usanifu, hivyo ukurasa huu unashughulikia tu jukumu lake kama seva ya pochi nyepesi.
 
-### Kuendesha biashara yako mwenyewe
+### Kuendesha yako mwenyewe
 
-Chaguo nguvu ni kuwa operator yako mwenyewe, ambayo huondoa swali uaminifu kabisa. Watumishi wote wawili ni wazi chanzo: [lightwalletd](https://github.com/zcash/lightwalletd) katika Go na [Zaino](https://github.com/zingolabs/zaino) Wote kusoma kutoka validator kamili, hivyo wewe pia wanataka [Zebra](/zcash-tech/zebra-full-node).
+Chaguo imara zaidi ni kuwa mwendeshaji wako mwenyewe, jambo linaloondoa swali la uaminifu kabisa. Seva zote mbili ni chanzo huria: [lightwalletd](https://github.com/zcash/lightwalletd) katika Go na [Zaino](https://github.com/zingolabs/zaino) katika Rust. Zote husoma kutoka kwa kithibitishaji kamili, hivyo utahitaji pia [Zebra](/zcash-tech/zebra-full-node).
 
-## Matokeo ya Kimatendo
+## Athari za Kivitendo
 
 ### Orodha ya seva
 
-Makala ya kwanza. [hosh.zec.rocks (mawe ya mawe)](https://hosh.zec.rocks/zec) Dashibodi hufuatilia seva za umma na afya zao, na ni mahali pa kuangalia kile ambacho kwa kweli kinaendelea. [status.zec.rocks](https://status.zec.rocks/) inaonyesha hali ya huduma.
+Dashibodi ya [hosh.zec.rocks](https://hosh.zec.rocks/zec) hufuatilia seva za umma na hali yake, na ndiyo mahali pa kuangalia kinachoendesha kwa kweli. [status.zec.rocks](https://status.zec.rocks/) huonyesha hali ya huduma.
 
-Seva zilizoorodheshwa kwenye dashibodi wakati wa kuandika:
+Seva zilizoorodheshwa kwenye dashibodi hiyo wakati wa kuandika:
 
-| Seva | Vidokezo |
+| Seva | Maelezo |
 |:--|:--|
-| zec.rocks:443 | Sehemu za mwisho za kikanda zimeorodheshwa kando yake katika na.zec.rocks, eu.zec.rocks, ap.zec.rocks na sa.zec.rocks |
-| zec-node.cakewallet.com:443 | Kwenye kikoa cha Cake Pollet |
-| zec.0xrpc.io:443 | Inaendeshwa na 0xRPC, ambayo hutoa vituo vya umma bila malipo kwa minyororo kadhaa na inaomba michango ili kufidia uwezo |
-| zaino.unsafe.zec.rocks:443 | Mfano wa Zaino. Kumbuka jina la mwenyeji, lichukulie kama la majaribio |
-| testnet.zec.rocks:443 | Testnet, ikiwa na mfano wa Zaino testnet ulioorodheshwa katika zaino.testnet.unsafe.zec.rocks |
+| zec.rocks:443 | Vituo vya kikanda vimeorodheshwa kando yake katika na.zec.rocks, eu.zec.rocks, ap.zec.rocks na sa.zec.rocks |
+| zec-node.cakewallet.com:443 | Kwenye kikoa cha Wallet ya Cake |
+| zec.0xrpc.io:443 | Inaendeshwa na 0xRPC, ambayo hutoa vituo vya umma bila malipo kwa minyororo kadhaa na kuomba michango kufidia uwezo |
+| zaino.unsafe.zec.rocks:443 | Toleo la Zaino. Zingatia jina la mwenyeji, lichukulie kama la majaribio |
+| testnet.zec.rocks:443 | Testnet, yenye toleo la testnet la Zaino lililoorodheshwa katika zaino.testnet.unsafe.zec.rocks |
 
-Angalia dashibodi badala ya kuamini orodha hii. Waendeshaji huja na kwenda, na ukurasa kama huu umri.
+Angalia dashibodi badala ya kuamini orodha hii. Waendeshaji huja na kuondoka, na ukurasa kama huu hupitwa na wakati.
 
-### Kubadilisha seva katika mkoba wako
+### Kubadilisha seva katika pochi yako
 
-Worth kufanya kama unataka kuchagua operator unaowaamini, kuenea shughuli katika waendeshaji mbalimbali, au uhakika juu yako mwenyewe.
+Inafaa kufanya hivyo ikiwa unataka kuchagua mwendeshaji unayemwamini, kusambaza shughuli kati ya waendeshaji, au kuelekeza kwenye seva yako mwenyewe.
 
-Njia ya menyu chini walikuwa sahihi wakati ukurasa huu updated, lakini mkoba interfaces hoja, hivyo kutibu yao kama dokezo badala ya njia halisi. Tafuta Advanced Settings au chaguo server.
+Njia za menyu hapa chini zilikuwa sahihi wakati ukurasa huu ulisasishwa, lakini miolesura ya pochi hubadilika, kwa hiyo ichukulie kama dokezo badala ya njia kamili. Tafuta Mipangilio ya Kina au chaguo la seva.
 
 #### ZODL
 
-ZODL pia inatoa kubadili server njia ya mkato wakati ushirikiano kushindwa ni unasababishwa na seva kuwa nje ya tarehe. Tor inaendelea kuendesha mfumo wa uhamisho kwa ajili ya watumiaji wote, lakini si katika hali yoyote kama ilivyo sasa.
+Hapo awali ilikuwa Zashi. Gonga ikoni ya gia kwenye kona ya juu kulia, kisha Mipangilio ya Kina. Tor ipo katika skrini hiyo hiyo. ZODL pia hutoa njia ya mkato ya Kubadilisha seva wakati hitilafu ya ulandanishi imesababishwa na seva kupitwa na wakati.
 
 #### Ywallet
 
-cog katika kona ya juu kulia, kisha tab Zcash.
+Gonga ikoni ya gia kwenye kona ya juu kulia, kisha kichupo cha Zcash.
 
 ![Ywallet server settings](/content-images/b0a2910b-dbdf-4292-8e69-af5a386aa183-f51f098d19.webp)
 
 #### Zingo
 
-Burger orodha katika kona ya juu kushoto, kisha Mipangilio, basi scroll chini.
+Gonga menyu ya hamburger kwenye kona ya juu kushoto, kisha Mipangilio, halafu telezesha chini.
 
 ![Zingo server settings](/content-images/ea8f7672-e644-41a5-a422-db131740404a-2626f5fa79.webp)
 
 #### eZcash
 
-Burger orodha katika kona ya juu kushoto, kisha Mipangilio, basi Advanced.
+Gonga menyu ya hamburger kwenye kona ya juu kushoto, kisha Mipangilio, halafu Kina.
 
 ![eZcash server settings](/content-images/655c0172-61a0-4322-b8cf-4eee4bb53b51-0b93df2e71.webp)
 
-Picha hizo zilipigwa mwezi Machi 2025, na programu zimekuwa zikiwasilisha matoleo tangu wakati huo, kwa hivyo vifungo vinaweza kuwa vimehamishwa.
+Picha hizo za skrini zilichukuliwa Machi 2025, na programu zimetoa matoleo tangu wakati huo, kwa hiyo vitufe vinaweza kuwa vimehamishwa.
 
 ## Makosa ya Kawaida
 
-** Kufikiri server unaweza kusoma shughuli yako** Haiwezi. funguo zako kukaa kwenye kifaa chako, na kiasi cha fedha na memos ndani ya mikataba kikamilifu ulinzi kubaki encrypted hata dhidi adui ambaye ina compromised seva.
+**Kufikiri seva inaweza kusoma miamala yako**. Haiwezi. Funguo zako hubaki kwenye kifaa chako, na kiasi pamoja na jumbe ndani ya miamala ya faragha kamili hubaki zimesimbwa fiche — hata dhidi ya mpinzani ambaye amehujumu seva.
 
-** Kusoma "kuhifadhiwa" kama "unganisho bila majina".** shughuli Shielded kulinda nini huenda juu ya blockchain. anwani yako IP na muda wa shughuli zako ni safu tofauti, na kwamba safu ni hasa kile server anaona.
+**Kusoma “shielded” kama “muunganisho usiojulikana”**. Miamala ya faragha hulinda kinachotokea kwenye blockchain. Anwani yako ya IP na muda wa shughuli zako ni safu tofauti, na safu hiyo ndiyo hasa seva huona.
 
-** Kufikiria Tor huondoa kila kufuatilia**. Tor anaficha IP yako kutoka server, lakini haina kubadilisha nini seva kujifunza kutokana na maombi ya kufanya wewe, na ni kuongeza latency kwa syncing.
+**Kudhani Tor huondoa kila athari**. Tor huficha IP yako kutoka kwa seva, lakini haibadilishi kile ambacho seva hujifunza kutoka kwa maombi unayofanya, na huongeza muda wa kusubiri katika ulandanishi.
 
-** Kuamini orodha ya seva kwenye ukurasa wa wiki**. Waendeshaji kuja na kwenda. Angalia [hosh.zec.rocks (mawe ya mawe)](https://hosh.zec.rocks/zec) kwa nini ni kweli inaendesha kabla ya lengo mkoba wako katika kitu chochote.
+**Kuamini orodha ya seva kwenye ukurasa wa wiki**. Waendeshaji huja na kuondoka. Angalia [hosh.zec.rocks](https://hosh.zec.rocks/zec) ili kujua kinachoendesha kwa kweli kabla ya kuelekeza pochi yako kwenye chochote.
 
 ## Muhtasari
 
-Wallets mwanga kukupa hifadhi kulindwa bila nafasi disk, ambayo ni biashara nzuri. Tu kuwa wazi kuhusu nini wewe ni biashara. server haiwezi kuchukua fedha yako au kusoma kiasi wako shielded, lakini vizuri kuwekwa kuona anwani yako ya IP na wakati transact. Njia juu Tor, kuchagua operator yako makusudi, au kukimbia mwenyewe.
+Pochi nyepesi hukupa bwawa la faragha [shielded pool] bila nafasi ya diski, ambayo ni ubadilishanaji mzuri. Elewa tu kwa wazi kile unachobadilishana. Seva haiwezi kuchukua fedha zako wala kusoma kiasi chako cha faragha, lakini iko katika nafasi nzuri ya kuona anwani yako ya IP na wakati unapofanya muamala. Pitisha muunganisho kupitia Tor, chagua mwendeshaji wako kwa makusudi, au endesha yako mwenyewe.
 
 ## Kurasa Zinazohusiana
 
-- [Nani anaweza kuona malipo yako ya Zcash?](/start-here/who-can-see-your-zcash-payment)  mtazamo wa kiwango cha mwanzoni kwa swali moja.
-- [Kile Ambacho Mtafutaji wa Majengo ya Kijumba Aweza Kuona](/zcash-tech/what-a-block-explorer-can-see)  nini ni inayoonekana kwenye mnyororo, kinyume na katika seva.
-- [Zaino](/zcash-tech/zaino)  usanifu michoro na jukumu pana ya indexer Rust.
-- [Zebra Full Node (Njia ya Kuunganisha)](/zcash-tech/zebra-full-node)  validator mwanga mkoba server anasoma kutoka.
-- [Zcash Wallet Syncing (Usawazishaji wa Pochi za Kifedha)](/zcash-tech/zcash-wallet-syncing)  jinsi ya vitalu compact server hutuma ni kusindika na mkoba wako.
+- [Nani Anaweza Kuona Malipo Yako ya Zcash](/start-here/who-can-see-your-zcash-payment) — mtazamo wa kiwango cha wanaoanza kuhusu swali lilelile.
+- [Kile Ambacho Kivinjari cha Block Kinaweza Kuona](/zcash-tech/what-a-block-explorer-can-see) — kile kinachoonekana on-chain, kinyume na kinachoonekana kwenye seva.
+- [Zaino](/zcash-tech/zaino) — michoro ya usanifu na jukumu pana la kiorodheshi cha Rust.
+- [Zebra Full Node](/zcash-tech/zebra-full-node) — kithibitishaji ambacho seva ya pochi nyepesi husoma kutoka kwake.
+- [Ulandanishi wa Pochi wa Zcash](/zcash-tech/zcash-wallet-syncing) — jinsi block zilizofinyazwa ambazo seva hutuma huchakatwa na pochi yako.
 
-** Mwisho updated:** Agosti 2026
+**Ilisasishwa mwisho:** Agosti 2026

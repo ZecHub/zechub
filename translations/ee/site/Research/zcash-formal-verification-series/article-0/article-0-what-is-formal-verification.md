@@ -1,185 +1,185 @@
 ![alt text](image-1.png)
-# Nukae Nye Dzɔdzɔmeŋutinunya Ƒe Kpeɖodzinya?
+# Nu Ka Nye Tsitreɖoɖo Ƒomevi Ɖaseɖigbalɛ?
 
-### Ale si nàɖee afia be ɖoɖowɔɖi aɖe le eteƒe, ke menye ɖeko nànɔ mɔ kpɔm ko be ele eme o.
+### Ale si nàɖo ɖase be mɔ̃ɖaŋlɔ̃ ƒe wɔwɔ le nyuie, eye menye be nèle mɔ kpɔm ko o
 
-> **Nɔnɔmetatawo:** *Aʋawɔwɔ Ŋuti Mɔkpɔkpɔ Kɔkɔtɔ ƒe Ðoɖoƒia* · **Tome 1 le 3 me**
-> Ame yeyewo koe wonye, womenya nu tso akɔntabubu, ɖoɖowɔɖi alo nya ɣaɣla ŋɔŋlɔ ŋu o.
-> Nusi nàva kpɔ: gɔmesese si me kɔ nyuie le nusi wòfia be woaɖo kpe edzi na kɔmpiutaɖoɖowo be wole eteƒe, nukatae ema to vovo tso wo dodokpɔ gbɔ kurae la ŋu, nuka nye mɔ̃ ƒe ɖaseɖiɖi kple afisi tututu (kple anukwareɖiɖidɔ) seɖoƒe li na nusiwo woate ŋu aka ɖo.
+> **Series:** *Tsitreɖoɖo Ƒomevi Ɖaseɖigbalɛ Ƒe Series* · **Akpa 1 le 3 me**
+> **Ame siwo wòŋlɔ na:** Ame siwo wɔ dzeɖoɖo gbãtɔ. Womedi mathematics, mɔ̃ɖaŋlɔ̃ alo cryptography ƒe nyanya ŋgɔ o.
+> **Nu si nàdzo kplee:** Nyagɔme fɛfɛ si ana nàse nyuie nu si wònye be wòaɖo ɖase be software le nyuie, nu ka ta esia to vovo tso dodokpɔ tso gɔme, nu si nye machine-checked ɖaseɖigbalɛ, kple teƒe siwo dzi ɖase ma ate ŋu adzɔ ɖaa hã.
 
-Most software is trusted because it has been *tested*: we run it on many inputs and watch it behave. Formal verification asks a bolder question. Can we *prove*, with mathematical certainty, that a system does what it should for **every** possible input, including the ones no one ever thought to try? This article builds that idea from the ground up. Intuition first, no symbols until they are earned.
-
----
-
-## 1. Nu ka tae wòle be wò hã nàtsɔ ɖe le eme?
-
-Esia nye ŋutinya si dzɔ ŋutɔŋutɔ, eye ema tae míeyɔ nyati siawo ɖo.
-
-In 2022, the privacy-focused cryptocurrency Zcash launched a new shielded pool named Orchard, letting people transact with the amounts hidden. For four years it worked flawlessly and passed repeated professional audits. Then, in May 2026, a security researcher reasoning carefully about the underlying mathematics (with help from AI tooling) found a single **under-constrained** spot in the system's math. That one gap could have let an attacker create an *unlimited* amount of counterfeit money, and because the amounts were hidden, nobody would have seen it happen. The flaw had been present the entire time.
-
-Womexɔe to dodokpɔ me o. Dodokpɔ ɖesiaɖe va yi ƒe ene sɔŋ. Ame aɖe si nɔ nu ƒom tso akɔntabubu ŋu lae xɔe.* Eye esi ƒuƒoƒo la ɖɔ eŋu ɖo la, womedzudzɔ egbɔkpɔnu ko dzi wɔwɔ o. Woŋlɔ kpeɖodzi siwo wotsɔ mɔ̃wo kpɔna be wonye nyateƒe le akɔntaa gome ɖi wu 2,700 kple edzivɔ, eye wogblɔ be vodada mawo mate ŋu anɔ teƒea kura o.
-
-Esia nye numekuku le mɔ si sɔ nu, eye esiae wòxɔna na mí: menye "míedze nyaa ŋu zi geɖe eye wòkpɔ dzidzedze o", ke boŋ "míekpɔ be esɔ ɖe nya sia nya dzi". Le ɖoɖo siwo me ne womebu eŋu kpɔ o la ate ŋu ahe afɔku vɛ (ga, yameʋuwo, atikewɔwɔmɔnuwo, nugbegblẽŋɔŋlɔ), vovototo ma wɔa akpa vevi aɖe.
-
-Woyɔ kɔmpiuta ŋuti nunyala Edsger Dijkstra ƒe ŋkɔ na teƒe makpɔnuteƒe si le dodokpɔ me la, eye egale eteƒe kokoko:
-
-> *Teteŋuɖoɖo ate ŋu aɖe nugbagbevi aɖewo ƒe anyinɔnɔ afia, gake womate ŋu aɖee fia be wogbɔna anyi o.**
-
-Ne èto dodokpɔ aɖe me la, ke nèva nya be nu si wòdi ye wɔ.* Mènya naneke tso nusiwo mète kpɔ o ŋu o eye nugbegblẽ vɔ̃ɖiwo nɔa teƒe siwo ame aɖeke mete kpɔ le ɣesiaɣi.
+Woxɔ se na software geɖe elabena wo*doe kpɔ*: míetsɔe wɔ dɔ kple emenyawo geɖe eye míekpɔ ale si wɔa nu. Tsitreɖoɖo ƒomevi Ɖaseɖigbalɛ [Formal verification] bia biabia si sesẽ wu. Miate ŋu aɖo ɖase, kple mathematics ƒe kaɖedzi bliboa, be system a wɔ nu si wòle be wòawɔ na **emenu siawo katã** si ate ŋu anɔ anyi, hã esiwo ame aɖeke mebu be yeadɔ kpɔ o? Nuŋɔŋlɔ sia atu susu ma tso gɔmedzeƒe. Gɔmesese gbã, dzesi aɖeke va se ɖe esi woɖo ƒe xa.
 
 ---
 
-## 2. Dzɔdzɔenyenye: Ʋɔtruwo kpɔkpɔ ɖe xɔa ŋu kple xɔa me nɔnɔ ƒe kpeɖodziwɔwɔ
+## 1. Nu ka ta ele be nàxɔe ƒe gbe?
 
-Tsɔe be xɔ aɖe si ƒe ʋɔtruwo sɔ gbɔ ŋutɔ la dzi kpɔlae nènye, eye wò dɔ enye be nàkpɔ egbɔ be wo katã nu xe le zã me.
+Esia nye nya si dzɔ vavã, eye eyae nye ta si ta series sia li.
 
-- **Teteŋuɖoɖo si le dodokpɔa me:** zɔ mɔ kpɔ ʋɔtruwo dometɔ aɖewo. Dze agbagba nàkpɔe be woxe blaatɔ̃, alafa ɖeka alo atɔ̃ hã o. Ne èdze agbagba la, aʋu ɖe sia ɖe eye wò dzi dzea eme na wò geɖe wu. Gake mète ŋu dze wo katã gɔme haɖe o, eye ate ŋu adzɔ be ʋɔa ƒe akpa aɖe si womeke nu ɖo o lae nèdo kpoo.
-- **Azɔ mehiã be nàdo ʋɔtru ɖe sia ɖe kpɔ o. Èɖee fia be *woate ŋu aɖe ʋɔtrua ƒe akpa aɖeke le eme* elabena mɔ̃a ŋutɔ na wòte ŋui kura.
+Le 2022 me, ɣaɣla-crypto ga Zcash ɖe gaƒuƒoƒo ɣaɣla yeye aɖe si woyɔ be Orchard kpe, si na ameawo wɔ asitsɔtsɔ kple gaƒe siwo woɣla. Ƒe ene megbe la, eƒe dɔ wɔ nyuie fũ, eye wodo professional audit geɖe kpɔe. Ke le May 2026 me la, dedienyawo ƒe nudzɔdzɔla aɖe si bu susu nyuie tso mathematics si le te la ŋu (kple kpekpeɖeŋu si tso AI dɔwɔnuwo gbɔ) kpɔ teƒe ɖeka si **womeɖo nudzraɖoɖo de eme akpa blibo o** le system a ƒe mathematics me. Teƒe ɖeka ma ate ŋu ana atacatɔ aɖe wɔ ga maɖiɖi si meɖoɖo aɖeke mele o, eye elabena woɣla gaƒeawo la, ame aɖeke mate ŋu akpɔe be edzɔ o. Vodada la nɔ afi ma le ɣeyiɣi bliboa me.
 
-Vovototo le nusiwo dzɔ ŋutɔŋutɔ ƒe kpɔɖeŋu xɔxɔ kple alesi woana nane si wowɔ la nazu nyateƒe dome. Kpɔɖeŋuwo dodokpɔ, ɖaseɖiɖi anukwaretɔe nye nusi me susu bliboa nɔ eye nu bubu ɖesiaɖe enye mɔ̃ siwo dzi wotona wɔa nusia pɛpɛpɛ ko.
+Womekpɔe to dodokpɔ me o. Dodokpɔ siawo katã va yi nyuie le ƒe ene me. Ame aɖe *bu susu tso mathematics la ŋu* he kpɔe. Eye esi team la trɔe la, womede patch de eme ko eye wodzo o. Woŋlɔ **machine-checked mathematics ƒe ɖaseɖigbalɛ**, si ƒe theorem 2,700 kple afɔ aɖe, be nusɔɔ yeye la mate ŋu anɔ vodada ƒomevi ma o.
+
+Eyae nye tsitreɖoɖo ƒomevi ɖaseɖigbalɛ, eye esiae wòna wò: menye "mído dzesi geɖe kpɔ eye wowɔ dɔ" o, ke boŋ "míeɖo ɖase be ewɔ dɔ na dzesi siawo katã." Na system siwo me dzesi ɖeka si womekpɔ o ate ŋu ana gbegblẽ gã ava (ga, dzikpɔlawo, kɔkɔe dɔwɔnuwo, cryptography), vovototo sia nye nu katã.
+
+Edsger Dijkstra, computer scientist, yɔ teƒe si dodokpɔ mete ŋu akpɔ o ƒe ŋkɔ xoxotɔ, eye eganye vavã va se egbe:
+
+> **Dodokpɔ ate ŋu afi vodada ƒe *nɔnɔ* fia, ke wòmate ŋu afi woƒe *manganɔnɔ* fia gbeɖe o.**
+
+Ne dodokpɔ aɖe yi nyuie la, nèsrɔ be system la wɔ dɔ *le emenu ma dzi*. Mesrɔ naneke tso emenyawo siwo mèdo kpɔ o ŋu o, eye vodada vɔ̃wo le dzesi siwo ame aɖeke medo kpɔ o me zi geɖe.
+
+---
+
+## 2. Gɔmesese: Aƒe ƒe agbo dodokpɔ kple aƒe bliboa ƒe ɖaseɖoɖo
+
+Bu be wòe nye ame si kpɔa aƒe gã aɖe si ƒe agbo akpe le ŋu, eye wòƒe dɔe nye be nàɖo kpeɖeŋu be agbo siawo katã ƒo le zã me.
+
+- **Dodokpɔ ƒe mɔ:** Zɔ le afi sia kple afi sia eye nàdo agbo aɖewo kpɔ. Do agbo blaene, alafa, alo alafa atɔ̃ kpɔ. Agbo siawo katã si nèdo kpɔ la ƒo, eyata wòƒe kaɖedzi ƒoa nu. Ke mèdo wo katã kpɔ o, eye agbo si meƒo o la ate ŋu anye ɖeka si nèdzoe.
+- **Tsitreɖoɖo-ƒomevi ɖaseɖigbalɛ ƒe mɔ:** Le agboƒoƒe system la *ŋutɔ* me nyuie eye nàɖo ɖase tso eƒe ŋɔnɔ me be ne wozi "ƒo" ƒe button la, ele be agbo siawo katã nakɔ ɖe eƒe teƒe. Azɔ mele be nàdo agbo ɖeka ɖeka kpɔ o. Èfia be *agbo aɖeke mate ŋu anɔ mƒo o*, elabena mɔ si nuwɔwɔŋu la wɔe meɖe mɔ na esia o.
+
+Vovototo le **vavã ƒe kpɔkpɔ le akpa aɖe dzi** kple **ŋɔnɔ ƒe nɔnɔ aɖe ƒe ɖaseɖoɖo** dome. Dodokpɔ ƒe akpa aɖewo koe wòkpɔa. Tsitreɖoɖo ƒomevi ɖaseɖigbalɛ ɖoa ɖase. Eyae nye susu bliboa, eye nu bubu siawo katã nye mɔnu siwo ana wòawɔe kple dzodzro nyuie.
 
 ![alt text](image-2.png)
 
 ---
 
-## 3. Nu etɔ̃ siwo dzi wotua mɔfianu ɖesiaɖe ɖo la
+## 3. Tsitreɖoɖo ƒomevi ɖaseɖigbalɛ siawo katã ƒe tikpɔtɔ atọ
 
-Nu etɔ̃ koŋ dzie wotua nu sia nu si dzi woda asi ɖo la ɖo, eɖanye aleke kee wòɖaxɔ ŋgɔe o. Wɔ esiawo nyuie eye susɔea nye nya sue aɖe ko.
+Tsitreɖoɖo ƒomevi ɖaseɖigbalɛ siawo katã, togbɔ be eƒe sesẽ le aleke o, wotu wo tso nu etɔ pɛ me. Ɖe asi ɖe esiawo ŋu nyuie eye nu bubu la nye nyatakakadzraɖoɖo pɛ.
 
-| Sɔti | Gɔmesese si me kɔ | Nusɔsrɔ̃ tutuɖo |
+| Tikpɔtɔ | Gɔmesese bɔbɔe | Aƒetoto ƒe kpɔɖeŋu |
 |---|---|---|
-| **Nyatakakawo** | Nyagbɔgblɔ si sɔ pɛpɛpɛ tso nusi "dzɔdzɔe" *fia* ŋu | "Ele be woatu ʋɔtru ɖesiaɖe le zã me" |
-| **Mɔnu** | Nu ŋutɔŋutɔ si ŋu wole ŋku lém ɖo (ɖoɖowɔɖi aɖe, nutome sue aɖe, ɖoɖowɔɖi aɖe) | Xɔa kple eƒe gaƒoɖokui ƒe mɔ̃ |
-| **Kpeɖodzi** | Nyaʋiʋli sesẽ aɖe si nye be ɖoɖoa ɖoa nusi woɖo ɖi la gbɔ ɣesiaɣi | Ðeɖefia si me susu le be "lock" teti xea ʋɔtruwo katã |
+| **Nudzraɖoɖo** | Nya si me tsitotsito le le nu si "nyuie" *gɔmee* ŋu | "Agbo siawo katã le be woaƒo le zã me" |
+| **System** | Nu vavã si wole kpɔm (mɔ̃ɖaŋlɔ̃, circuit, alo protocol) | Aƒe la kple eƒe agboƒoƒe mɔnu |
+| **Ɖaseɖigbalɛ** | Ɖoɖo sesẽ si fia be system la dea nudzraɖoɖo la eme ɣesiaɣi | Ɖoɖo si me logic le, si fia be ne wozi "ƒo" la agbo siawo katã ƒoa |
 
-Eye nu enelia si na be woɖoa ŋu ɖe eŋu wu la:
+Eye nu eneawo aɖe si meɖe gbe na o na nu bliboa xɔa nane:
 
-- **Aʋatrɔdzikpɔla.** Menye amegbetɔ ye ŋlɔa kpeɖodzia o eye ɖeko wònɔa ŋku dzi ko. Wonae ɖo ɖe ɖoɖowɔɖi aɖe (si woyɔna be **dziɖuɖɔnumɔnuvi**, si wogayɔna hã be **teorem prover**) me hena *ɖoɖoɖaŋu ƒe afɔɖeɖe ɖesiaɖe dzikpɔkpɔ*. Amegbetɔwo ate ŋu akplɔ asi alo awɔ vodada suesuesuewo; mɔ̃ la malɔ̃ axɔ afɔɖoƒe siwo mewɔ ɖeka kple eƒe mɔfiamewo tututu o. Esia tae míeyɔnɛ be nuɖoɖoa nye **madzinu-kpeɖeŋutɔ**.
+- **Machine checker aɖe.** Ame meŋlɔa ɖaseɖigbalɛ la eye wometsɔ ŋku kpɔe ko o. Wonae mɔ̃ɖaŋlɔ̃ aɖe (nye **ɖaseɖigbalɛ ƒe kpeɖeŋu**, si woɣe dɔ be **theorem prover** hã) si doa *logic ƒe afɔ ɖeka ɖeka katã* kpɔ. Ame ate ŋu aɖe asi alo awɔ vodada si ŋutilã mekpɔ o; machine la maxɔ afɔ si mete ɖe nu si va yi doŋgɔ tɔgbi o. Esiae ta míegblɔ be result la nye **machine-checked**.
 
 ![alt text](image-3.png)
 
-Proof assistants you may hear named include **Lean**, **Rocq** (formerly Coq), and **Isabelle**. They are, in effect, extraordinarily strict logic-checking engines. The Zcash proof in our opening story was written in **Lean**. Notably, modern AI models are increasingly used to help *write* these proofs, with humans guiding them, which has shortened efforts that once took years down to weeks. The machine still checks every step, so the speed-up does not cost any certainty.
+Ɖaseɖigbalɛ ƒe kpeɖeŋu siwo ƒe ŋkɔ wòase la ƒe dometɔe nye **Lean**, **Rocq** (tsã be Coq), kple **Isabelle**. Wo nye logic-dodokpɔ ƒe engine siwo me tsitotsito le vevie. Zcash ƒe ɖaseɖigbalɛ si le míatɔgbi ƒe nya me la woŋlɔe le **Lean** me. Le esia ŋu la, wotsɔ AI model yeyeawo le ɣeyiɣi sia me kpekpeɖeŋu na wo be woaŋlɔ ɖaseɖigbalɛ siawo, eye amewo hea wo, si tsɔ dɔ si xɔa ƒe geɖe va zu kɔsiɖa aɖewo. Machine la hã doa afɔ ɖeka ɖeka katã kpɔ, eyata mɔaƒoƒo sia meɖea kaɖedzi aɖeke le eme o.
 
 ---
 
-## 4. Nu si kpeɖodzi nye ŋutɔŋutɔ la
+## 4. Nu si ɖaseɖigbalɛ nye vavã
 
-Nya "ɖaseɖiɖi" tea ŋu doa vɔvɔ̃ na ame, eyata mina míatsɔ kpɔɖeŋu si me kɔ eye woate ŋu adzro eme atsɔ aɖe nya sia ɖa. Menye asinuŋɔŋlɔe o ke sukunusɔsrɔ̃ koe wònye.
+Nya "ɖaseɖigbalɛ" ate ŋu ana ame nakpɔ vɔvɔ̃, eyata míana wòagakpɔa eƒe ɣeɣe kple kpɔɖeŋu si wòate ŋu ado kpɔ. Cryptography aɖeke mele o, school arithmetic ko.
 
-** Nyagblɔɖi:** na xexlẽdzesi blibo ɖesiaɖe. `n`, ga home si woxɔna la `0 + 1 + 2 + ... + n` woasɔ kple ame nɔewo `n(n+1)/2`.
+**Nya si míeɖoa ɖase:** Na whole number `n` siawo katã, ƒoƒo `0 + 1 + 2 + ... + n` sɔ kple `n(n+1)/2`.
 
-Àte ŋu *ado* esia kpɔ. `n = 5` enana be ame sia wɔa nu nyui. `0+1+2+3+4+5 = 15`, kple `5 × 6 / 2 = 15`. ✓ Ewɔ ɖeka. Te mɔnu sia kpɔ `n = 10`: ga si woxɔ la nye: `55`, eye mɔnu sia naa míeva nya be: `10 × 11 / 2 = 55`(Woklẽ wo eye woɖo kpe edzi; le nyateƒe me la, nya si wogblɔna nye be ame sia ame ate ŋu axɔ dɔdamɔnu aɖe. `n` tso 0 va ɖo 999 ne wokpɔe tẽ.)
+Àte ŋu *ado esia kpɔ*. `n = 5` nana `0+1+2+3+4+5 = 15`, eye `5 × 6 / 2 = 15`. ✓ Esɔ. Do `n = 10` hã kpɔ: ƒoƒo la nye `55`, eye formula la nana `10 × 11 / 2 = 55`. ✓ (Woxɔ wo ƒe nɔnɔ eye wodo ɖase na wo; nya la ɖoa anyi na `n` siawo katã tso 0 yi 999 me ne wodoe kpɔ tẽ.)
 
-Gake numekuku ƒe dzidzenuwo, ne woade akpe ɖeka hã la, wometea ŋu ɖoa "ƒome blibo ɖesiaɖe" o. Wole xexlẽdzesi gbogbo aɖe me le afisia si mele se nu o. Kpeɖodzi tsɔa mɔnu aɖe si woyɔna be induction ƒoa nya ta heɖoa kpe edzii be enye nusianu si li:
+Ke dzesiwo dodokpɔ, togbɔ be wonye akpe, mate ŋu ayi "na whole number **siawo katã**" o. Woƒe xexlẽ mele nu o. **Ɖaseɖigbalɛ** ƒoa gap si menɔ gbegbe o ma le ɖoɖo ƒe ɣeyiɣi kpui aɖe me, kple mɔnu si woɣe dɔ be **induction**:
 
-1. ** Numeɖeɖe:** na `n = 0`, ga homea ƒe agbɔsɔsɔ nye: `0`, eye mɔnu sia naa míeva nya be: `0 × 1 / 2 = 0`Wo katã wolɔ̃ ɖe edzi. ✓
-2. ** Nu si wòfia be ame nanɔ te ɖe nya aɖe dzi awɔ dɔ:** *woagblɔ* be xexlẽdzesi aɖewo dzie woazã mɔnu sia le. `k`Azɔ tsɔ xexlẽdzesi si kplɔe ɖo kpe edzi, `k+1`. Ðaseɖiɖi si ade: `k+1` is `(sum up to k) + (k+1) = k(k+1)/2 + (k+1)`. Algebra ƒe fli aɖe trɔ asi le esia ŋu be wòanye `(k+1)(k+2)/2`, si nye alesi tututu woɖɔe le afisia la. `k+1` le teƒe na: `k`. ✓
+1. **Base ƒe nɔnɔ:** Na `n = 0`, ƒoƒo la nye `0` ko, eye formula la nana `0 × 1 / 2 = 0`. Wosɔ. ✓
+2. **Induction ƒe afɔ:** *Bu be* formula la le nyuie na number aɖe `k`. Azɔ tsɔ number si kplɔe ɖo, `k+1`. Ƒoƒo yi `k+1` nye `(sum up to k) + (k+1) = k(k+1)/2 + (k+1)`. Algebra ƒe fli ɖeka trɔ esia zu `(k+1)(k+2)/2`, si nye formula la tututu kple `k+1` le `k` teƒe. ✓
 
-Esi wònye be ele eme le gɔmedzedze (0) eye afɔɖeɖe ɖesiaɖe kplɔa ame yia xexlẽdzesi si kplɔe ɖo me ta la, enɔa anyi na **xexlẽ blibowo katã** tegbee le numeɖenu ɖeka aɖe si seɖoƒe li nɛ me. Esia nye kpeɖodzi. Kpeɖeŋutɔ ƒe kpeɖeŋu wɔa nuŋububu sia tututu gake wòdzea agbagba dea dzesie ɣesiaɣi be afɔɖeɖe ɖe sia ɖe, siwo dome "algebra line" hã nɔna la dzɔ tso nusi do ŋgɔ ŋutɔŋutɔ dzi.
+Elabena eɖoa anyi le gɔmedzeƒe (0) eye afɔ ɖeka ɖeka tsɔe yia number si kplɔe gbɔ la, eɖoa anyi na whole number **siawo katã**, ɣesiaɣi, le ɖoɖo kpui ɖeka me. Eyae nye ɖaseɖigbalɛ. Ɖaseɖigbalɛ ƒe kpeɖeŋu wɔa susu ma ke, ke wòkpa doa ɖase be afɔ ɖeka ɖeka, hã "algebra ƒe fli" la, va tso nu si va doŋgɔ me vavã.
 
-> Nu si wòle be nàlé ɖe asi: Kpeɖodzi aɖe ana "nyateƒenya gbogbo aɖewo" nazu nya siwo ŋu woate ŋu akpɔ mɔ ɖo. Esiae nye nu vevi si gbɔdzɔgbɔdzɔmekuwo me dzodzro ƒe ŋutete mele o.
+> Nudzɔdzɔ si wòle be nàxɔ: ɖaseɖigbalɛ trɔa "nɔnɔ siwo me xexlẽ mele o" zu **ɖoɖo kpui si wòate ŋu ado kpɔ**. Eyae nye ŋusẽ si dodokpɔ metrɔa gbɔgbɔme o.
 
 ---
 
-## 5. Afi si nudzodzoeviwo le ŋutɔŋutɔ
+## 5. Teƒe si vodadawo nɔa vavã
 
-Kpeɖodziwɔwɔ le se nu nye ŋusẽdɔ aɖe, elabena enana míekpɔnɛ be *afi kae* vodadawo tsona gbã. Mɔnu ɖesiaɖe si dzi woato akpɔ nyawo gbɔ la ate ŋu ava nɔ te ɖe nɔnɔme etɔ̃ siawo dometɔ ɖeka dzi:
+Tsitreɖoɖo ƒomevi ɖaseɖigbalɛ xɔ ŋusẽa, le akpa aɖe me, tso gɔmesese si klẽ nu tso *teƒe si* vodadawo tsoe vɛ le gɔmedzeƒe la ŋu. Vodada ɖe sia ɖe si le rule-checking system me tsoa teƒe etɔ dometɔ ɖeka:
 
-| Nudzodzoe aɖe tsoƒe | Nusi wòfia | Ðe míate ŋu aɖo kpe edzi be wòadzoa? |
+| Vodada ƒe teƒe | Nu si wògɔmee | Miate ŋu aɖo ɖase be mele o? |
 |---|---|---|
-| **Ame ƒe nɔnɔme si wogblɔ** | Akɔntabubu alo seawo ŋutɔ mesɔ o (nɔnɔme si bu, gɔmesese gbegblẽ) | **Ẽ**, tẽ, esia nye formal verification ƒe aƒeme turf |
-| **Dɔwɔwɔa** | Sededea do kpo nudidi si sɔ la wɔwɔ nuteƒewɔwɔtɔe | Eƒe akpa aɖe; zi geɖe la, kpododonu mawo gblẽa kpeɖodzi siwo woate ŋu ade dzesii ɖi |
-| **Nukpɔsusu si gblẽ** | Nane si dzi nuɖoanyi bliboa ɖoa ŋu ɖo la va zua alakpa | Ao; susuwoe nye gɔmeɖoanyi si dzi womate ŋu aɖe akpɔtɔ o |
+| **Nudzraɖoɖo** | Mathematics alo rulewo ŋutɔ le vodada (nɔnɔ aɖe bɔ, gɔgɔme vɔ̃ aɖe) | **Ɛ̃**, tẽ, afi siae tsitreɖoɖo ƒomevi ɖaseɖigbalɛ ƒe dɔƒe le |
+| **Dɔwɔwɔ** | Code la mewɔ nudzraɖoɖo si le nyuie la ɖe vavã o | Le akpa aɖe me; zi geɖe vodada mawo dea dzesi si wòate ŋu akpɔ ɖe megbe |
+| **Bubu si gbã** | Nu si system bliboa ɖo ƒe eŋu la va zu dzodzro vɔ̃ | Ao; bubuwo nye teƒe si womeate ŋu akpɔ ɖe eme o |
 
-Nuwo ƒe ɖoɖo sia le vevie wu alesi wòdze, eye akpa 2 kple 3 trɔ ɖe eŋu. Gbegblẽ siwo goglo wu si ate ŋu anɔ ɣaɣla ɖaa la nɔa **fefenu** me: nusi wòle be nuɖoɖoa nawɔe ŋuti akɔntabubuŋutise. Eye fefea nye nusiwo tututu mɔ̃ aɖe kpɔna dzea sii tẽa, nudzɔdzɔawo katã zi ɖeka kolia. Esia tae agbagba ɖesiaɖe si wodze tsɔ lé ŋku ɖe wo dzi gbã ɖo.
+Mame sia le vevie wu ale si wòɖe fia, eye Akpa 2 kple 3 ƒe tatɔ le eŋu. Vodada siwo le tsitsini, siwo wɔa vɔ̃ vevie, siwo ate ŋu aɣla ɣesiaɣi, zi geɖe le **nudzraɖoɖo** me: mathematics ƒe numeɖeɖe si gblɔa nu si system la le be wòawɔ. Eye nudzraɖoɖo lae machine-checked ɖaseɖigbalɛ ate ŋu akpɔ tẽ, nɔnɔ siawo katã ɣeyiɣi ɖeka. Esiae ta tsitreɖoɖo ƒomevi ɖaseɖigbalɛ ƒe dɔ gãwo dea ta ɖe afi ma gbã.
 
 ![alt text](image-4.png)
 
 ---
 
-## 6. Nu vevitɔ kekeake si wòle be woatsri le dɔ sia wɔwɔ me enye:
+## 6. Nyakpɔkpɔ gãtɔ le field bliboa me
 
-Ŋusẽ le nyatakakawo ŋu, gake woƒe ŋugbedodoa nye nyateƒe eye ne womese wo gɔme nyuie o la, ate ŋu ana amewo nabu mɔ. Eya ta gblɔe kple ŋkubiã:
+Tsitreɖoɖo ƒomevi ɖaseɖigbalɛ xɔ ŋusẽ, ke eƒe ŋugbedodo me tsitotsito le, eye ne ame mese esia gɔme o la, wòatsɔ ame ayi mɔ vɔ̃ dzi. Eyata míagblɔe kple dzodzro:
 
-> **Ðeɖenuname na kakaɖedzi be *mɔ̃a* ɖo *nɔnɔme si wofia la gbɔ,* le ɖoɖo siwo woɖo nu.* Menye esia ɖeɖe ko o.
+> **Ɖaseɖigbalɛ ɖoa kpeɖeŋu be *system* la dea *nudzraɖoɖo* la eme, le *bubuwo* si woɖo ɖa me. Nu bubu aɖeke o.**
 
-Nu ene siwo do tso emee nye esi, eye wo dometɔ ɖesiaɖe le vevie:
+Nu ene doa ɖe esia ŋu, eye wo katã le vevie:
 
-- Ne mɔnu si dzi nèto ɖo kpe edzi be ʋɔtruwo katã ƒe gameti le eme, gake nu ŋutɔŋutɔ si wòbiae nye "window* ɖesiaɖe ƒe gametiti" la, ke èɖo kpe nane ŋu vɔ̃ɖi. Ðiɖename léa ŋku ɖe alesi nàtu *nu siwo me nède dzesii,* menye esi gblɔ nya nyuitɔ o.
-- **Ne nya aɖe me tɔtɔ le nu sue aɖewo ko la, kakaɖedzi si li be woadae dzi ɖena kpɔtɔ.** Ne ète ŋu ɖo kpe "dzidzenu" ƒe gɔmeɖeɖe gbegblẽa dzi evɔ wònya kpɔna hã la, ɖewohĩ màkpɔ eƒe nyateƒenyenye o. Esia tae wòle be gɔmesese siwo nye vevienyenye ŋuti nuŋlɔɖi naɖe vi boo aɖeke o eye ele be amegbetɔwo nate ŋu adzro eme nyuie hafi ate ŋui.
-- **If the assumptions fail, the guarantee lapses.** Proofs rest on assumptions ("the lock hardware is not physically broken"). If an assumption is false in reality, the conclusion need not hold.
-- **Mele fiafiam be "nu gblẽkuwo manɔ anyi o".**Efia be "nuku siwo ŋu nya sia tsi tre ɖo la mele afi aɖeke le esi míebua nuwo alea ta." Nya si me kɔ wu, enye nyateƒenya eye wòɖea vi geɖe wu.
+- **Ne nudzraɖoɖo la le vodada la, ɖaseɖigbalɛ la meƒe naneke o.** Ne nàɖo ɖase be "agbo siawo katã ƒoa" ke requirement vavã la nye be "fesi siawo katã *ƒoa*" la, èɖo ɖase na nu si mele be wòanye o, ke èwɔe nyuie blibo. Verification kpɔa be ètu *nu si nèɖo ɖa*, menye be èɖo nu si le nyuie ɖa o.
+- **Ne woɖe gɔgɔme aɖe fia kple vodada sue aɖe la, kaɖedzi la ƒe teƒe ɖea ɣla.** Ɖaseɖigbalɛ tso "balance" ƒe gɔgɔme si me vodada sue aɖe le ŋu ate ŋu aɖo ɖase na nu si sɔ kple nu si nèbu, ke wòava yi dodokpɔ siawo katã me hã. Esiae ta ele be gɔgɔme siwo le verification ƒe dzi la nanɔ kpui, nanɔ standard, eye amewo nakpɔ wo kple ŋku le wazi me.
+- **Ne bubuwo gbã la, kaɖedzi la metsɔa dɔ o.** Ɖaseɖigbalɛwo ɖoa bubuwo ŋu ("agboƒoƒe hardware la megbã le ŋutilã me o"). Ne bubu aɖe menye vavã le anyigba dzi o la, ɖoɖo la mele be wòanye vavã o.
+- **Emegɔme menye "vodada aɖeke megali gbeɖe" o.** Egɔmee nye "vodada aɖeke mele ƒomevi si nudzraɖoɖo sia meɖe mɔ na o, ne bubu siawo le nyuie." Eganye nya si kɔ kpɔ, si me nyateƒe le, eye si wɔa dɔ nyuie wu.
 
-Far from weakening formal verification, this precision is its strength. It tells you *exactly* what you are getting. As we will see in Part 3, the Zcash team stating their scope and assumptions plainly ("we proved supply soundness, under these named assumptions, and not privacy") is a model of that honesty.
+Nu si wɔna tsitreɖoɖo ƒomevi ɖaseɖigbalɛ ƒe ŋusẽ va sesẽ wu menye be esia ɖea eƒe ŋusẽ le eme o. Efia wò *tututu* nu si nèxɔm. Ale si míakpɔe le Akpa 3 me la, Zcash ƒe team si gblɔ wɔnɔƒe kple bubuwo kple nyateƒe ("míeɖo ɖase be supply le nyuie, le bubu siwo woŋlɔ ŋkɔ na me, eye menye ɣaɣla o") nye nyateƒe ma ƒe kpɔɖeŋu.
 
 ![alt text](image-5.png)
 
 ---
 
-## 7. Ame si gblɔna be yemele ɖeke wɔm le yeƒe agbawo me o.
+## 7. Nya si me nyateƒe le
 
-To keep this readable we simplified. Real specifications are written in precise formal languages, not English sentences; there are several *styles* of formal verification (interactive theorem proving, model checking, SMT-based methods) suited to different problems; and writing these proofs remains skilled, effortful work even with AI assistance. We also skipped how a proof assistant represents logic internally. None of this changes the core: a specification, a system, and a machine-checked proof that the two agree, under stated assumptions. The detail returns as we need it.
-
----
-
-## 8. Kpuie ko la,
-
-- **Tete** doa nugbagbevi aɖewo kpɔna eye wòtea ŋu ɖea dzesi be dɔlékui aɖe li, ke menye ɖe wogblẽa nu le eŋu o. Dɔlékuiawo nɔa ɣaɣlaƒe siwo me womewɔa numekuku aɖeke le o la me.
-- **Azɔdzidede le mɔ dzi** ɖo kpe edzi be nɔnɔme aɖe nye nyateƒe na *aƒenya sia ƒenya si li, eye woate ŋu adzro eme.
-- Nu etɔ̃e kpea asi ɖe numekuku ɖesiaɖe ŋu: nya si wogblɔna (alesi tututu wòle be woawɔ), ɖoɖo aɖe (nu siwo dzi wolé ŋku ɖo) kple kpeɖodzi* be wo katã lɔ̃, kpakple kpeɖeŋutɔ si léa ŋku ɖe nu siawo ŋu (abe Lean ene) si dzroa afɔɖeɖe sia afɔɖeɖe me.
-- Kpeɖodzi (le kpɔɖeŋu me, to mɔ̃ si wotsɔna ƒoa nya ta na ame dzi) tsɔa nu gbogbo aɖewo wɔa numekuku ɖeka.
-- Bugwo nɔa ** specification**, le **implementation** alo le **broken assumption** me. Formal verification la ƒe taɖodzinu enye be woade dzesi nu si tututu wònye, eye afi mae bug siwo goglo wu kple esiwo ɣla ɖe edzi nɔna zi geɖe.
-- Kakaɖedzinya la nye nu si me kɔ: ɖoɖowɔɖia ɖo **numeɖeɖewo** gbɔ, le *nu siwo wogblɔ ɖi te.* Numeɖeɖe gbegblẽ aɖe, gɔmesese bubu aɖe alo nyagbɔgblɔ aɖewo ƒe nugbegblẽ gblẽa eŋu eye esia mefia be "madzigbãnya aɖeke meganɔ anyi o".
+Be nuŋɔŋlɔ sia nanɔ bɔbɔe na nuxlẽ la, míede wɔwɔ sue. Woaŋlɔa nudzraɖoɖo vavãwo le gbegbɔgblɔ siwo me tsitotsito le me, menye English ƒe nyagblɔɖiwo me o; tsitreɖoɖo ƒomevi ɖaseɖigbalɛ ƒe *styles* geɖe le (interactive theorem proving, model checking, SMT-based methods) si sɔ na kuxi vovovowo; eye ɖaseɖigbalɛ siawo ŋlɔŋlɔ hã nye dɔ si bia ŋutifafa kple dɔ sesẽ, hã ne AI kpe ɖe ŋu. Míedzo ale si ɖaseɖigbalɛ ƒe kpeɖeŋu wɔa logic le eŋutilã me hã. Esia aɖeke metrɔa nu vevi la o: nudzraɖoɖo, system, kple machine-checked ɖaseɖigbalɛ si fia be wo sɔ, le bubu siwo woɖo ɖa me. Nyatakakadzraɖoɖo la atrɔ gbɔ ne míahi afi si míehiaa.
 
 ---
 
-## Nyagbewo ƒe hatsotsoa
+## 8. Nuxlẽ ƒe fufu
 
-| Nya | Gɔmesese si le Eŋlisigbe me gbadzaa |
+- **Dodokpɔ** kpɔa emenyawo aɖe tɔwo eye wòate ŋu afi vodada ƒe nɔnɔ fia, ke wòmate ŋu afi be vodadawo mele o. Vodada vɔ̃wo ɣlaa le nɔnɔ siwo ame aɖeke mekpɔ o me.
+- **Tsitreɖoɖo ƒomevi ɖaseɖigbalɛ** ɖoa ɖase be nɔnɔ aɖe ɖoa anyi na nɔnɔ siawo **katã** si ate ŋu anɔ anyi, le ɖoɖo kpui si wòate ŋu ado kpɔ me.
+- Verification ɖe sia ɖe ƒe tikpɔtɔ atọ le: **nudzraɖoɖo** (nu si nyuie gɔmee), **system** (nu si wole kpɔm), kple **ɖaseɖigbalɛ** be wo sɔ, kple **ɖaseɖigbalɛ ƒe kpeɖeŋu** (abe **Lean** ene) si doa machine-check na afɔ ɖeka ɖeka.
+- **Ɖaseɖigbalɛ** (kpɔɖeŋu, to **induction** me) ɖea nɔnɔ siwo me xexlẽ mele o katã ɖe ɖoɖo kpui ɖeka me.
+- Vodadawo le **nudzraɖoɖo**, **dɔwɔwɔ**, alo **bubu si gbã** me. Tsitreɖoɖo ƒomevi ɖaseɖigbalɛ dea ta ɖe nudzraɖoɖo la ŋu tẽ, afi si vodada siwo ɣla vevie naŋutɔ naa wɔnɔa.
+- Kaɖedzi la me tsitotsito le: system la dea **nudzraɖoɖo la** eme, le **bubu siwo woɖo ɖa** me. Spec si le vodada, gɔgɔme si woɖe fia vɔ̃, alo bubu si gbã ana kaɖedzi la akpɔ mɔ o, eye egɔme menye "vodada aɖeke megali gbeɖe" o.
+
+---
+
+## Nyagɔme ƒe agbalẽ
+
+| Nyagɔme | English ƒe gɔmesese bɔbɔe |
 |---|---|
-| **Formal verification** | Eɖo kpe edzi, le akɔntabubu nu, be ɖoɖo aɖe ɖoa nɔnɔme aɖe si woɖo ɖi na nyawo katã gbɔ |
-| **Specification** | Nyagbɔgblɔ si sɔ pɛpɛpɛ tso nusi "nuwɔna nyuitɔ" fia ŋu |
-| **System** | Ðoɖowɔɖi, nutome sue, alo ɖoɖowɔɖi ŋutɔŋutɔ si ŋu wole ŋku lém ɖo |
-| **Proof** | Afɔɖeɖe siwo me susu le ƒe kɔsɔkɔsɔ si seɖoƒe li na si ɖoa nya aɖe anyi na nyawo katã |
-| **Proof assistant / theorem prover** | Kɔmpiutadziɖoɖo (Lean, Rocq, Isabelle) si léa ŋku ɖe kpeɖodzi aɖe ƒe afɔɖeɖe ɖesiaɖe ŋu |
-| **Machine-checked** | Woɖo kpe edzi afɔɖeɖe ɖesiaɖe to kɔmpiuta dzi, ke menye to amegbetɔ ƒe nuxexlẽ ɖeɖeko dzi o |
-| **Induction** | Kpeɖodzimɔnu aɖe: nyateƒee le gɔmedzedzea me, eye afɔɖeɖe ɖesiaɖe tsɔnɛ yia bubu dzi |
-| **Assumption** | Nɔnɔme si dzi kpeɖodzia nɔ te ɖo; ne alakpae la, kakaɖedzinya la mate ŋu anɔ anyi o |
+| **Formal verification** | Ɖoɖo ɖase, to mathematics me, be system aɖe dea nudzraɖoɖo aɖe eme na nɔnɔ siawo katã |
+| **Specification** | Nya si me tsitotsito le si gblɔa nu si "wɔwɔ nyuie" gɔmee |
+| **System** | Mɔ̃ɖaŋlɔ̃, circuit, alo protocol vavã si wole kpɔm |
+| **Proof** | Logic ƒe afɔwo ƒe ɖoɖo kpui si ɖoa nya aɖe ɖase na nɔnɔ siawo katã |
+| **Proof assistant / theorem prover** | Software (Lean, Rocq, Isabelle) si doa ɖaseɖigbalɛ ƒe afɔ ɖeka ɖeka kpɔ |
+| **Machine-checked** | Computer doa kpɔe afɔ ɖeka ɖeka, menye ame ƒe nuxlẽ ko o |
+| **Induction** | Ɖaseɖoɖo ƒe mɔnu: enye vavã le gɔmedzeƒe, eye afɔ ɖeka ɖeka tsɔe yia si kplɔe gbɔ |
+| **Assumption** | Nɔnɔ si ɖaseɖigbalɛ ɖoa eŋu; ne menye vavã o la, kaɖedzi la ate ŋu mado anyi o |
 
 ---
 
-## Nya Siwo Amewo Biana Edziedzi
+## Biabia siwo wobia zi geɖe
 
-**Ðe agbalẽdzraɖoƒewo ɖoa kpe edzi be wole mɔ kpɔm na ame bubuwo ƒe dzitsinya le wo gbɔa?**
-Ao. Wotsɔa wo nɔewo dea eme na wo nɔewo. Dodokpɔa ɖea kuxi siwo le dɔwɔwɔ me kple nukpɔsusu gbegblẽwo fiana bɔbɔe; dodokpɔ lɔ vodada ƒomevi blibo aɖewo si ɖewohĩ womate ŋu akpɔ gbeɖe o la ɖe aga.
+**Tsitreɖoɖo ƒomevi ɖaseɖigbalɛ tea dodokpɔ teƒe?**  
+Ao. Woƒoa nu kple wo nɔewo. Dodokpɔ kpɔa dɔ siwo dzɔa le agbe me kple bubu siwo le vodada kple ga sue; verification ɖea vodada ƒomevi blibo aɖewo si dodokpɔ mate ŋu akpɔ gbeɖe o ɖa.
 
-**Ne ŋusẽ le eŋu nenema gbegbe la, ke nukatae womeléa ŋku ɖe nusianu ŋu o?**
-Exɔ asi eye ebia be woanye aɖaŋuwɔla bibiwo, togbɔ be amegbetɔ ƒe nunyanya ŋutete le kpekpem ɖe eŋu wòle ga home ma dzi ɖum hã. Wozãe na ɖoɖo siwo me nugbegblẽ suesuesu aɖe ate ŋu ahe afɔku vɛ la ko, si nye afisi eƒe gazazãa ɖea vi tututu le.
+**Ne exɔ ŋusẽ alea la, nu ka ta wometsɔ tsitreɖoɖo ƒomevi ɖaseɖigbalɛ kpɔa nu siawo katã o?**  
+Exɔ ga eye wòbia amedzraɖoɖo tɔxɛ, togbɔ be AI ƒe kpekpeɖeŋu le ga ma gbɔm. Woɖea eɖe system siwo me vodada sue aɖe ate ŋu ana gbegblẽ gã ava, afi si eƒe ga nɔa teƒe.
 
-**Ðe ɖoɖo aɖe si ŋu wowɔ numekuku le la agate ŋu ada?**
-Ẽ, ne nya si wogblɔ le agbalẽa me la mele eteƒe o, woɖɔe be enye nyateƒe o alo nu bubu aɖe mesɔ kple susu si dzi woɖo kpee o. Ne kpeɖodzia ku ɖe nane ŋu ko hafi wòate ŋui.
+**System si woɖo ɖase na le tsitreɖoɖo ƒomevi me ate ŋu ava gbã hã?**  
+Ɛ̃, ne nudzraɖoɖo la le vodada, woɖe gɔgɔme aɖe fia vɔ̃, bubu aɖe meɖo anyi o, alo gbegblẽ la le nu si womeɖo ɖa o. Ɖaseɖigbalɛ la kpɔa nu si wògblɔ be yele kpɔm ko.
 
-**Ðe mɔ̃ aɖe ƒe kpeɖodziwo nyo wu amegbetɔ tɔa?**
-Ne wole kpeɖodzi siwo lolo eye wo me mekɔ o ɖem la, zi geɖe wonɔa te ɖe edzi. Mɔ̃a maŋe aɖaba aƒu nu suesuesue aɖe dzi alo axɔ asi ƒe ʋɔʋui si wowɔ nɛ ya o, togbɔ be egaɖoa ŋu ɖe ɖoɖo kple gɔmesese siwo wonae la ŋu hã.
+**Machine-checked ɖaseɖigbalɛ xɔ kaɖedzi wu ame tɔ?**  
+Na ɖaseɖigbalɛ gã siwo me nuwo tsɔ nɔewo me la, zi geɖe ɛ̃. Machine la makpɔ gap si mekpɔ o alo axɔ asiɖeɖe, togbɔ be wòkaɖe eɖokui ɖe nudzraɖoɖo kple gɔgɔme si wonae ŋu hã.
 
-**Ne AI kpe ɖe mía ŋu míeŋlɔ ɖaseɖiawo la, ke nu ka tae míaka ɖe edzi?**
-Elabena kpeɖeŋutɔ si kpɔa mɔfianuwo ƒe dɔwɔwɔ dzi la léa ŋku ɖe afɔɖeɖe ɖesiaɖe ŋu le eɖokui si. Amegbetɔŋutete Ŋusẽdɔwɔlaa ɖoa afɔɖoƒe; eye mɔ̃a hã léa wo me kpɔna. Ne ame aɖe wɔ vodada la, ɖeko wògbee be yemele eme o, eyata amegbetɔwo ƒe ŋuteteŋutetea tea dɔ wɔwɔ kabakaba evɔ medea asixɔxɔ eƒe adzɔgbeɖeɖea ŋu kura o.
+**Ne AI kpe ɖe ɖaseɖigbalɛ ŋlɔŋlɔ ŋu la, nu ka ta míaxɔe ase?**  
+Elabena ɖaseɖigbalɛ ƒe kpeɖeŋu la doa afɔ ɖeka ɖeka kpɔ kple machine. AI la tsɔa afɔwo vɛ; machine la kpa doa wo kpɔ. Afɔ si me nyateƒe mele o la, wogbea ɖe megbe ko, eyata AI le dɔ la ƒe kabakaba kpɔm, ke meɖea kaɖedzi la le eme o.
 
 ---
 
-### Do Wò Seselelãmewo Kpɔe Ði
+### Do wòƒe gɔmesese kpɔ
 
-Èɖo kpe edzi be gadzraɖoƒe ƒe kɔmpiutaɖoɖo "maɖe mɔ gbeɖe be ga si le yeƒe asitsatsa me nagblẽ o". Ƒe ɖeka megbe la, gakpɔtɔ nyea gaa. Aleke wòate ŋu adzɔe be nu eveawo siaa nanye nyateƒe? * (Ðo eŋu le ete.) *
+Èɖo ɖase be bank aɖe ƒe software "meɖea mɔ na account balance aɖeke be woayi le zero te o." Ƒe ɖeka megbe la, ga gale buɖum. Aleke wòate ŋu anye be nya eve siawo le vavã le ɣeyiɣi ɖeka me? *(Ɖoɖo la le ete.)*
 
-<details><summary>Answer</summary>
+<details><summary>Ɖoɖo</summary>
 
-The proof guaranteed exactly one property: balances never go negative. Money can go missing in ways that property never addressed, for example a bug that moves funds to the wrong (still non-negative) account, or a flaw in a part of the system that was never specified. The verification did precisely what it promised and nothing more. This is the Section 6 caveat in action: a proof covers the specification, not every conceivable notion of "correct."
+Ɖaseɖigbalɛ la ɖo kpeɖeŋu na nɔnɔ ɖeka pɛ: balances mayi le zero te o. Ga ate ŋu abuɖu to mɔ siwo nɔnɔ ma mekpɔ o me, abe vodada si tsɔ funds yia account si mele be woayi o (ke eƒe balance hã mele zero te o), alo vodada le system la ƒe akpa si womeɖo ɖa gbeɖe o me ene. Verification la wɔ tututu nu si wògblɔ be yeawɔ, eye womewɔ nu bubu aɖeke o. Esia nye Akpa 6 ƒe nyakpɔkpɔ le dɔ wɔm: ɖaseɖigbalɛ kpɔa nudzraɖoɖo la, menye gɔgɔme sia ɖe sia ɖe si ate ŋu anɔ be "nyuie" o.
 </details>
 
 ---
 
-### Nu kae kplɔe ɖo?
+### Nu si kplɔe ɖo
 
-**Part 2 · The Orchard Bug:** we turn to the real 2026 story in full. A privacy system hid amounts using cryptographic proofs, and one under-constrained line in its math meant those proofs could be made to lie, allowing unlimited invisible counterfeiting. We will see exactly what "an under-constrained circuit" means, why this class of bug can hide forever, and why it has happened more than once.
+**Akpa 2 · Orchard Vodada:** Míatrɔ míade 2026 ƒe nya vavã la blibo me. Ɣaɣla system aɖe ɣla gaƒeawo kple cryptography ƒe ɖaseɖigbalɛwo, eye fli ɖeka si womeɖo nudzraɖoɖo de eme akpa blibo o le eƒe mathematics me na ɖaseɖigbalɛwo be woagblɔ alakpa, si na ga maɖiɖi si womeate ŋu akpɔ o wɔwɔ. Míakpɔ tututu nu si "circuit si womeɖo nudzraɖoɖo de eme akpa blibo o" gɔmee, nu ka ta vodada ƒomevi sia ate ŋu aɣla ɣesiaɣi, kple nu ka ta edzɔ kpɔ zi geɖe.
 
-*Enye* Formal Verification ƒe akpa aɖe na: [ZecHub](https://zechub.org).*
+*Enye akpa le* Formal Verification *series na [ZecHub](https://zechub.org).*

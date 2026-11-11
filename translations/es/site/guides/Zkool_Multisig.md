@@ -1,6 +1,6 @@
-# Guía de Multisig de Zkool
+# Guía de multifirma [Multisig] de Zkool
 
-Esta guía ofrece un recorrido paso a paso sobre cómo realizar transacciones multisig usando Zkool. Incluye la creación de cuentas, el envío o la recepción de fondos y la configuración de la generación distribuida de claves (DKG) para multisig. Se incluyen capturas de pantalla para cada paso principal.
+Esta guía ofrece un recorrido paso a paso sobre cómo realizar transacciones multifirma usando Zkool. Incluye la creación de cuentas, el envío o la recepción de fondos y la configuración de la generación distribuida de claves (DKG) para multifirma. Se incluyen capturas de pantalla para cada paso principal.
 
 ## Tutorial
 
@@ -16,21 +16,21 @@ Esta guía ofrece un recorrido paso a paso sobre cómo realizar transacciones mu
 </div>
 
 
-## 1. Crear una cuenta
+## 1. Creación de una cuenta
 
 
-1. Abre la **app de Zkool** y ve a **New Account**.
+1. Abre la **aplicación Zkool** y ve a **Nueva cuenta**.
 
 
 ![img1](/content-images/ee906e49-361a-49b6-9484-904897fe2e3f-074e400a9c.webp)
 
-3. Introduce un **Nombre de cuenta** (p. ej., Anabelle).  
+3. Introduce un **Nombre de cuenta** (por ejemplo, Anabelle).  
    
 
 ![img2](/content-images/e9c325d3-8507-433a-a0c6-6e8c1ea2a254-a637810ed5.webp)
 
 
-4. Opcionalmente, activa **Use Internal Change** o **Restore Account** si es necesario.
+4. Opcionalmente, activa **Usar cambio interno** o **Restaurar cuenta** si es necesario.
 
 
 5. Después de crearla, la cuenta aparecerá en tu **Lista de cuentas**.  
@@ -39,20 +39,20 @@ Esta guía ofrece un recorrido paso a paso sobre cómo realizar transacciones mu
 ![img3](/content-images/c446cbca-fb3e-49b9-b1d4-fd727cd1b0fb-971cf76b33.webp)
 
 
-## 2. Recibir fondos
+## 2. Recepción de fondos
 
 Cada cuenta genera varios tipos de direcciones:
 
-**Unified Address**
+**Dirección unificada [Unified Address]**
 
 **Dirección solo Orchard**
 
 **Dirección Sapling**
   
-**Dirección transparente**
+**Dirección transparente [Transparent Address]**
 
 
-Selecciona el tipo que quieres usar y compártelo para recibir fondos.  
+Selecciona el tipo que deseas usar y compártelo para recibir fondos.  
 
 
 ![img4](/content-images/c9de5dfe-e9d7-423d-8d90-35c1a08ffd5d-a0d6a4e7b7.webp)
@@ -61,35 +61,35 @@ Selecciona el tipo que quieres usar y compártelo para recibir fondos.
 
 
 
-## 3. Enviar fondos
+## 3. Envío de fondos
 
-1. Ve a la sección **Recipient**.  
+1. Ve a la sección **Destinatario**.  
 
 
 ![img5](/content-images/9f3a03b9-dd56-450c-a8dc-4370f9289138-3217d846b7.webp)
 
 
-3. Introduce la **dirección del destinatario**.  
+3. Introduce la **dirección de los destinatarios**.  
 
 4. Especifica la **cantidad** y el **memo** opcional.  
 
 5. Revisa los detalles de la transacción y **confirma**.  
 
 
-Una vez completado, el saldo se actualiza en tu lista de cuentas.  
+Una vez completada, el saldo se actualiza en tu lista de cuentas.  
 
 
 ![img6](/content-images/6e6da76b-cd18-4567-a5c0-74f07ddefc64-78dc3362dc.webp)
 
 
-## 4. Realizar transacciones Multisig: Configurar la generación distribuida de claves (Multisig)
+## 4. Realización de transacciones multifirma: configuración de la generación distribuida de claves (Multisig)
 
-El multisig en Zkool usa **Distributed Key Generation (DKG)** para garantizar que varios participantes controlen una cuenta compartida.
+La multifirma en Zkool usa la **Generación distribuida de claves (DKG)** para garantizar que varios participantes controlen una cuenta compartida.
 
 
 
 ### Paso 1: Iniciar DKG
-Elige un **Nombre** para la billetera compartida (p. ej., Anabelle).
+Elige un **Nombre** para la billetera compartida (por ejemplo, Anabelle).
 
 Establece el **Número de participantes**.
   
@@ -104,17 +104,17 @@ Selecciona la **Cuenta de financiación**.
 
 
 
-### Paso 2: Agregar direcciones de los participantes
-- Introduce la **Unified Address** de cada participante (recomendado).
+### Paso 2: Añadir direcciones de participantes
+- Introduce la **Dirección unificada** de cada participante (recomendado).
 
 
-**Nota:** Si usas una dirección solo Orchard o solo Sapling, el multisig quedará limitado únicamente a ese pool (Orchard o Sapling).  
-Esto significa que la billetera compartida no podrá recibir fondos de otros pools.  
-Para lograr la máxima compatibilidad y flexibilidad, usa siempre **Unified Addresses**.  
+**Nota:** Si utilizas una dirección solo Orchard o solo Sapling, la multifirma estará limitada únicamente a ese pool (Orchard o Sapling).  
+Esto significa que la billetera compartida no puede recibir fondos de otros pools.  
+Para obtener la máxima compatibilidad y flexibilidad, utiliza siempre **Direcciones unificadas**.  
 
 
 ### Paso 3: Ejecutar las rondas de DKG
-Espera a que todos los participantes intercambien los paquetes de **ronda 1** y **ronda 2**.  
+Espera a que todos los participantes intercambien los paquetes de la **ronda 1** y la **ronda 2**.  
 
 
 ![img8](/content-images/cdaf6e00-3cb0-4774-8a96-5ded19bf31c4-b6bb50bbab.webp)
@@ -131,4 +131,4 @@ Una vez completado, se genera una **dirección compartida**.
 
 ## Conclusión
 
-Con Zkool, puedes: crear cuentas, enviar y recibir fondos, y configurar una **billetera multisig** usando Distributed Key Generation. Esto garantiza **mayor seguridad** y una **gestión colaborativa y privada de los fondos**.
+Con Zkool, puedes crear cuentas, enviar y recibir fondos, y configurar una **billetera multifirma** mediante la generación distribuida de claves. Esto garantiza **mayor seguridad** y una **gestión colaborativa y privada de fondos**.

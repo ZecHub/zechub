@@ -1,93 +1,93 @@
-# Zaino Indexer (Nkọwapụta)
+# Zaino Onye ndepụta
 
-Zaino is a Rust indexer for the Zcash blockchain. It reads chain data from a Zebra full node and serves the data that wallets, explorers, faucets, and other services need without making Zebra itself responsible for every client-facing index.
+Zaino bụ onye ndepụta [indexer] Rust maka Zcash blockchain. Ọ na-agụ data chain sitere na Zebra full node ma na-enye data ndị e-akpa ego [wallet], ndị nyocha, faucet, na ọrụ ndị ọzọ chọrọ, na-enweghị ime ka Zebra n'onwe ya bụrụ onye na-ahụ maka ndepụta ọ bụla chere ndị ahịa ihu.
 
-## TL;DR
+## Na nkenke
 
-* **Zebra** na-akwado usoro Zcash.
-* **Zaino** na-edepụta data Zebra's chain ma kpughee API ndị ahịa.
-* **Zallet** bụ akpa ego na Z3 stack. Na ndabara ntọala nke Z3, Zallet na-agwa Zebra okwu ozugbo ma ọ chọghị ọrụ Zaino kwụ ọtọ.
-* Ọrụ Zaino kwụ ọtọ bara uru mgbe ndị ọrụ chọrọ njedebe gRPC nke kwekọrọ na lightwalletd, onye nnọchi anya JSON-RPC ma ọ bụ akụrụngwa maka obere akpa ego dị mfe, ndị nchọpụta, ọkpọkọ mmiri, yana ọrụ yiri ya.
-* Zaino bụ akụrụngwa na-arụ ọrụ, mana ndị ọkwọ ụgbọ ala kwesịrị ịlele akwụkwọ gọọmentị nke Zaino na Z3 maka nkọwapụta nkenye ugbu a tupu ha arụ ya.
+* **Zebra** na-akwado chain Zcash.
+* **Zaino** na-edepụta data chain nke Zebra ma na-ekpughe API ndị chere ndị ahịa ihu.
+* **Zallet** bụ akụrụngwa e-akpa ego na nchịkọta Z3. N'ime nhazi Z3 ndabara, Zallet na-ekwurịta okwu na Zebra ozugbo, ọ dịghịkwa achọ ọrụ Zaino kwụụrụ onwe ya.
+* Ọrụ Zaino kwụụrụ onwe ya bara uru mgbe ndị na-arụ ọrụ chọrọ njedebe gRPC kwekọrọ na lightwalletd, proxy JSON-RPC, ma ọ bụ akụrụngwa maka e-akpa ego dị mfe, ndị nyocha, faucet, na ọrụ ndị yiri ya.
+* Zaino bụ akụrụngwa na-arụ ọrụ, mana ndị na-arụ ọrụ kwesịrị ilele akwụkwọ Zaino gọọmentị na nke Z3 maka nkọwa mbugharị dị ugbu a tupu ha agba ya n'ime mmepụta.
 
 ## Ihe Zaino Na-eme
 
-Zaino sits between Zebra and client software. Zebra is the consensus node: it downloads, verifies, and follows the Zcash blockchain. Zaino uses Zebra as its source of chain data, then prepares indexed views that client applications can query efficiently.
+Zaino nọ n'etiti Zebra na sọftụwia onye ahịa. Zebra bụ consensus node: ọ na-ebudata, na-enyocha, ma na-esochi Zcash blockchain. Zaino na-eji Zebra dị ka ebe data chain ya si abịa, wee kwadebe echiche ndị edepụtara nke ngwa ndị ahịa pụrụ ịjụ nke ọma.
 
-Nkewa a na-eme ka ọrụ dị iche iche doo anya:
+Nkewa a na-eme ka ọrụ ndị ahụ doo anya:
 
-| Akụkụ | Ọrụ |
+| Akụrụngwa | Ọrụ |
 |:--|:--|
-| Zebra | Ọnụego zuru oke na ihe nkwado |
-| Zaino | Ọrụ API nke na-egosi ndị ahịa na ndị na-egosi indexer na ndị ahịa |
-| Zallet | Ọrụ obere akpa |
-| lightwalletd | Ihe nkesa obere akpa ego ochie nke Zaino mere iji dochie ma ọ bụ mejuo ya |
+| Zebra | Full node na onye nkwado |
+| Zaino | Onye ndepụta na ọrụ API chere ndị ahịa ihu |
+| Zallet | Ọrụ e-akpa ego |
+| lightwalletd | Sava e-akpa ego dị mfe ochie nke e mere Zaino iji dochie ma ọ bụ kwado |
 
-Zaino na-enye ọrụ maka ndị ahịa ọkụ, ndị ahịa zuru oke ma ọ bụ obere akpa ego, yana onye nchọpụta ngọngọ. Ọ na - enye ohere ịnweta agbụ nke emechara, agbụ kachasị mma a rụzuru arụzu, yana data mempool nke Zebra nwere.
+Zaino na-enye arụmọrụ maka light client, full client ma ọ bụ e-akpa ego, na ndị nyocha block. Ọ na-enye ohere ịnweta chain emechara, chain kacha mma nke emechabeghị, na data mempool nke Zebra jidere.
 
-## Otu O Si Dabara Na Zcash Stack Ugbu A
+## Otu O Si Daba n'Usoro Zcash Dị Ugbu A
 
-A na-ewu Z3 ugbu a gburugburu Zebra, Zallet, yana Zaino nhọrọ.
+A na-ewu usoro Z3 dị ugbu a gburugburu Zebra, Zallet, na Zaino nhọrọ.
 
-Na ndabara Z3 nkesa, Zebra na Zallet agba ọsọ ọnụ. Zallet ruru Zebra ozugbo, yabụ onye ọrụ na-agba naanị obere akpa ego adịghị mkpa ịmalite ọrụ Zaino kwụ ọtọ.
+N'ime mbugharị Z3 ndabara, Zebra na Zallet na-agba ọnụ. Zallet na-eru Zebra ozugbo, yabụ onye na-arụ ọrụ nke na-agba naanị nchịkọta e-akpa ego mpaghara adịghị mkpa ịmalite ọrụ Zaino kwụụrụ onwe ya.
 
-Zaino is added when the operator wants to serve external clients. In Z3, it runs behind the `indexer` Kọwaa profaịlụ ma tinye:
+A na-agbakwunye Zaino mgbe onye na-arụ ọrụ chọrọ ijere ndị ahịa mpụga ozi. Na Z3, ọ na-agba n'azụ profaịlụ Compose `indexer` ma na-agbakwunye:
 
-* a lightwalletd-dakọtara gRPC njedebe maka ndị ahịa obere akpa ego dị mfe.
-* onye nnọchi anya JSON-RPC maka ndị na - eme nchọpụta, ọkpọkọ mmiri, yana azụ ọrụ.
-* nchekwa data indexer dị iche na ọnọdụ agbụ Zebra.
+* njedebe gRPC kwekọrọ na lightwalletd maka ndị ahịa e-akpa ego dị mfe
+* proxy JSON-RPC maka ndị nyocha, faucet, na azụ ọrụ
+* nchekwa data onye ndepụta dị iche na ọnọdụ chain nke Zebra
 
-Nke a na-eme ka Zaino dị mkpa maka azụ nke obere akpa, ndị ọrụ akụrụngwa ọha, ndị nyocha, ọkpọkọ mmiri, yana ndị mmepe na-anwale ọrụ chọrọ data Zcash indexed.
+Nke a na-eme Zaino ka ọ dị mkpa karịsịa maka azụ ọrụ e-akpa ego, ndị na-arụ akụrụngwa ọha, ndị nyocha, faucet, na ndị mmepụta na-anwale ọrụ chọrọ data chain Zcash edepụtara.
 
 ## Zaino na lightwalletd
 
-lightwalletd bụ ihe nkesa akpa ego mbụ. Zaino bụ ụzọ Rust-based nke ga - esochi ọrụ a. Ebumnuche ya bụ ịnye API dakọtara ebe enwere ike ka obere akpa na ọrụ nwee ike ibugharị n'enweghị edegharịrị kpamkpam ozugbo.
+lightwalletd bụ sava e-akpa ego dị mfe mbụ. Zaino bụ ụzọ onye ga-anọchi ya dabere na Rust maka ọrụ a. Ebumnuche ya bụ inye API kwekọrọ ebe o kwere omume, ka e-akpa ego na ọrụ nwee ike ịkwaga n'enweghị idegharị ha kpamkpam n'otu oge.
 
-Nke ahụ apụtaghị na nkesa ọ bụla nke lightwalletd agafeela Zaino. Ndị ọrụ kwesịrị ịgwọ Zaino dị ka akụkụ nke nchịkọta Zebra ugbu a ma lelee akwụkwọ oru ngo kachasị ọhụrụ, ntọhapụ, yana dashboard ọrụ tupu ịhọrọ ihe ga-agba ọsọ.
+Nke ahụ apụtaghị na mbugharị lightwalletd ọ bụla akwagala na Zaino. Ndị na-arụ ọrụ kwesịrị iwere Zaino dịka akụkụ nke usoro dabere na Zebra dị ugbu a ma lelee akwụkwọ ọrụ kachasị ọhụrụ, mwepụta, na dashboard ọrụ tupu ha ahọrọ ihe ha ga-agba.
 
-## Ihe Ndị Na-ahụ Maka Ọrụ Ahụ Ga-edepụta
+## Ihe Ndị Na-arụ Ọrụ Kwesịrị Ịmara
 
-Ụzọ kachasị mfe maka nkesa bụ ebe nchekwa Z3. Z3 gụnyere Zaino dịka ọrụ nhọrọ:
+Ụzọ mbugharị kachasị mfe na nke nwere ikike bụ ebe nchekwa Z3. Z3 gụnyere Zaino dịka ọrụ nhọrọ:
 
 ```bash
 docker compose --env-file .env.<network> --profile indexer up -d
 ```
 
-Gbaa nhazi Z3 mbụ ma chere ka Zebra mekọrịta tupu ịmalite ọrụ ndị dabere na mainnet ma ọ bụ testnet.
+Buru ụzọ gbaa nhazi Z3 nkịtị ma chere ka Zebra mekọrịta tupu ịmalite ọrụ ndị dabere na ya na mainnet ma ọ bụ testnet.
 
-Zaino na-ekpughe ụdị ọrụ netwọk abụọ. Ọrụ gRPC bụ API nke dị n'ihu lightwallet. A na -ezube JSON-RPC maka loopback ma ọ bụ tụkwasịrị obi netwọọdụ nzuzo belụsọ ma akwa mpụga nyere nchebe. Ekwela ka njedebe JSON RPC a kwadoghị ma ọ bụkwanụ ezoro ezo gaa na ịntanetị ọha mmadụ.
+Zaino na-ekpughe ụdị ọrụ netwọk abụọ. Ọrụ gRPC bụ API chere e-akpa ego dị mfe ihu. Ọrụ JSON-RPC bụ maka loopback ma ọ bụ netwọk nzuzo a tụkwasịrị obi, ọ gwụla ma oyi akwa mpụga na-enye nchebe. Ekwela ka njedebe JSON-RPC na-enweghị nkwenye ma ọ bụ na-enweghị nzuzo pụta n'ihu ịntanetị ọha.
 
-## Ụfọdụ eserese na-egosi etu Zaino si arụ ọrụ.
+## Ụfọdụ eserese na-egosi otu Zaino si arụ ọrụ
 
-### Ụlọ ihe owuwu dị n'ime Zaino.
+### Ihe Owuwu Ime Zaino
 
 ![Zaino Internal Architecture](/content-images/image-2025-01-02-190143429-3f3cc78fa5.webp)
 
-### Zaino Live Service Architecture (Ụdị ọrụ ndụ)
+### Ihe Owuwu Ọrụ Dị Ndụ Zaino
 
 ![Zebra Live Service Architecture](/content-images/image-2025-01-02-190349017-892cb409ea.webp)
 
-### Zaino System Architecture (Ụdị Ụlọ Ọrụ)
+### Ihe Owuwu Usoro Zaino
 
 ![Zaino System Architecture](/content-images/image-2025-01-02-190448037-1e4e675ccb.webp)
 
-## Ihe Ndị A Na-emekarịhie Emeghị
+## Njehie A Na-ahụkarị
 
-** Na-emeso Zaino dị ka ọnụ zuru oke.** Zaino abụghị onye nyocha. Zebra na - enyocha agbụ; Zaino index data sitere na Zebra.
+**Iwere Zaino dị ka full node.** Zaino abụghị onye nkwado. Zebra na-akwado chain; Zaino na-edepụta data sitere na Zebra.
 
-** Iche na nkenye nke Z3 ọ bụla chọrọ Zaino kwụ ọtọ.** Zallet nwere ike iru Zebra ozugbo n'ime ndabara Z3. Malite Zaino mgbe ịchọrọ ọrụ indexer dịpụrụ adịpụ maka ndị ahịa mpụga.
+**Iche na mbugharị Z3 ọ bụla chọrọ Zaino kwụụrụ onwe ya.** Zallet nwere ike iru Zebra ozugbo n'ime usoro Z3 ndabara. Malite Zaino mgbe ịchọrọ ọrụ onye ndepụta kwụụrụ onwe ya maka ndị ahịa mpụga.
 
-** Na-eweta atụmatụ ndị a na-eme atụmatụ dị ka nke e depụtarala.** Zaino bụ ihe mmepe siri ike, yabụ lelee ndetu ntọhapụ ugbu a na akwụkwọ tupu ịkọwapụta njirimara dịka enwere.
+**Igosipụta atụmatụ e zubere dịka ndị ebularị.** A na-emepụta Zaino n'ọrụ, yabụ lelee ndetu mwepụta na akwụkwọ dị ugbu a tupu ịkọwa atụmatụ dịka nke dị.
 
-** Na-ekpughe JSON-RPC n'emeghị ihe ọ bụla.** Zaino si interface JSON RPC bụ maka loopback ma ọ bụ tụkwasịrị obi netwọkụ nzuzo belụsọ na echedoro ya site na oyi akwa ọzọ.
+**Ikpughe JSON-RPC n'enweghị nlezianya.** Ihe nkenye JSON-RPC nke Zaino bụ maka loopback ma ọ bụ netwọk nzuzo a tụkwasịrị obi, ọ gwụla ma oyi akwa ọzọ chebere ya.
 
-## Olee ebe m nwere ike isi mụtakwuo ihe ndị ọzọ?
+## Ebee ka m nwere ike ịmụtakwu?
 
-* [Zaino GitHub ebe nchekwa](https://github.com/zingolabs/zaino)
-* [Ihe ndị Zaino na-ewepụta](https://github.com/zingolabs/zaino/releases)
-* [Akwụkwọ e ji emepụta Zaino](https://zingolabs.github.io/zaino/)
-* [Ebe nchekwa Z3 nke nkesa.](https://github.com/ZcashFoundation/z3)
-* [Akwụkwọ Zebra](https://zebra.zfnd.org/)
-* [Onyinye ego Zaino na mkparịta ụka oru ngo ahụ](https://forum.zcashcommunity.com/t/zingo-labs-accelerates-zcashd-deprecation-with-zaino/48545)
+* [ebe nchekwa Zaino GitHub](https://github.com/zingolabs/zaino)
+* [mwepụta Zaino](https://github.com/zingolabs/zaino/releases)
+* [akwụkwọ emepụtara Zaino](https://zingolabs.github.io/zaino/)
+* [ebe nchekwa mbugharị Z3](https://github.com/ZcashFoundation/z3)
+* [akwụkwọ Zebra](https://zebra.zfnd.org/)
+* [mkparịta ụka ikike na ọrụ Zaino](https://forum.zcashcommunity.com/t/zingo-labs-accelerates-zcashd-deprecation-with-zaino/48545)
 
-**Emelitere ikpeazụ:** Ọgọstụ 2026
+**Emelitere ikpeazụ:** Ọgọọst 2026

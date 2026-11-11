@@ -1,86 +1,86 @@
-# Nuŋlɔɖiwo wɔwɔ kple ZEC si wotsɔ akpoxɔnu wɔe
+# Kpɔmɔ ɖe nuŋlɔɖiwo ŋu kple ɣaɣla [shielded] ZEC
 
 ## TL;DR
 
-- Ga siwo wokpɔ ta na la nye ame ŋutɔ tɔ, gake àte ŋu awɔ ga ŋuti nuŋlɔɖi dzadzɛ siwo de blibo kokoko
-- Memowo wɔa dɔ abe fli me nyawo ene le wò agbalẽ gã me, abe adzɔxegbalẽvi ƒe xexlẽdzesi alo nusi ta woxe fe aɖe ɖo ene
-- Nukpɔkpɔ ƒe safui nana wò, alo ame aɖe si nètia abe akɔntanyala ene, léa ŋku ɖe wò ŋutinya ŋu evɔ màɖee afia le dutoƒo o
-- Àte ŋu aƒo ga si nèkpɔ kple gazazã nu ƒu hena ɣeyiɣi ɖesiaɖe, si nye nusi nèhiã na akɔntabubu alo adzɔxexe
-- Esiawo dometɔ aɖeke megblẽa wò adzamenyawo me o, elabena wòe tsoa nya me le amesi akpɔ nusi akpɔ ŋu
+- ɣaɣla ga le asinye, gake àte ŋu akpɔ nuŋlɔɖi siwo le dzadzɛ eye wowɔ bliboe le wò gaƒe nuwo ŋu
+- Nya kpui [memo] wɔa abe nudzraɖoƒe ƒe fli me nuwo ene, abe invoice ƒe xexlẽme alo nu si ta wowɔ fexexe ene
+- Nukpɔsafui [viewing key] na wò alo ame si nètsɔ, abe akɔnta ene, wòakpɔ wò nuŋlɔɖiwo me ne womagaɖe fia ame blibo o
+- Àte ŋu aɖe ga si woxɔ kple ga si wozã ƒe ƒuƒoƒo na ɣeyiɣi sia ɣeyiɣi, si nye nu si wòhia na nyatakakawɔwɔ alo asike
+- Nu siawo katã magbɔ wò ɣaɣla [privacy] o, elabena wòe ƒoa ame si akpɔ nu ka la ƒe ta
 
 <br/>
 
-## Ameka tae esia le?
+## Ame kae wòwɔe na?
 
-- Freelancers kple dɔwɔƒe suewo xea fe le ZEC
-- Amesiame si hiã be wòadzra agbalẽwo ɖo esime wòle eɖokui si
-- Amewo le nuŋlɔɖiwo dzram ɖo na akɔntanyala alo adzɔxexe
-
-<br/>
-
-## Kuxia
-
-Ame ŋutɔ ƒe nyawo tsɔtsɔ aɣla kple nuŋlɔɖiwo wɔwɔ ate ŋu ase le wo ɖokui me abe ɖe wotsi tre ɖe wo nɔewo ŋu ene. Ne wokpɔ wò asitsatsa ta la, woɣlaa ga homeawo kple adrɛsawo ɖe amewo, eyata aleke nàwɔ adzra agbalẽ siwo sɔ ɖo alo aɖe wò gakpɔkpɔ afia akɔntanyala?
-
-Le Zcash gome la, esia nye alakpa asitsatsa. Asitsatsa siwo wokpɔ ta na la ɣlaa wò dɔwɔna ɖe amesiame le gɔmedzedzea me, gake Zcash naa dɔwɔnuwo hã wò be nàɖe wò ŋutɔ wò nuŋlɔɖiwo afia ame siwo hiã wo, le wò ɖoɖowo nu. Ènɔa adzame na xexeame eye nèʋua wò akɔntanyala le ɣeyiɣi ma ke me.
+- Dɔwɔlawo kple bizinessu suewo siwo woxea woƒe fetu ɖe ZEC me
+- Ame sia ame si hia be wòakpɔ agbalẽwo me esi wòle ɣaɣla me
+- Ame siwo le nuŋlɔɖiwo dzram na akɔnta alo na asike
 
 <br/>
 
-## Memos nye wò ledger
+## Kuxi la
 
-Asitsatsa ɖesiaɖe si wokpɔ ta na (z vaseɖe z) ate ŋu atsɔ [memo](/using-zcash/memos). Le nuŋlɔɖiwo wɔwɔ gome la, nuŋlɔɖia nye afisi nèŋlɔa nusi ta woxe fea ɖo: adzɔxegbalẽvi ƒe xexlẽdzesi, asisi ƒe ŋkɔ, dɔa ƒe kɔpi, alo nuŋlɔɖi kpui aɖe abe "March rent" ene.
+Ɣaɣla kple nuŋlɔɖi kpɔkpɔ ate ŋu adze abe nu siwo to vovo ene. Ne wò gaɖoɖowo le ɣaɣla me la, woɣe gaƒe kple gaɖoƒe ƒe dzesiwo meɣe fia dukɔ blibo o, eyata alekee nàkpɔ agbalẽwo me nyuie alo afia wò ga si nèxɔ na akɔnta?
 
-Esi wònye be nuŋlɔɖia zɔa mɔ kple asitsatsa la eye amesiwo ŋu nyaa ku ɖo koe ate ŋu axlẽe ta la, eva zua nya si ame ŋutɔ ŋlɔna le wò agbalẽwo me. Ne wò alo wò asisi tsɔ nuŋlɔɖi si me kɔ de ga si nèxe ɖesiaɖe me la, wò asitsatsa ŋutinya trɔna zua agbalẽ gã si woate ŋu azã tsɔ wu be wòanye ga home siwo woŋlɔ ɖi si me nya siwo ƒo xlãe aɖeke mele o.
-
-Numame bɔbɔe aɖe: lɔ̃ ɖe asisiwo ƒe nya dzi be nàde gaxɔgbalẽvi ƒe xexlẽdzesi nuŋlɔɖia me ɣesiaɣi. Emegbe la, fexexe ƒe sɔsɔ kple adzɔxegbalẽviwo va nɔa bɔbɔe.
+Kple Zcash la, esia nye tiaƒo si menye nyateƒe o. Ɣaɣla gaɖoɖowo ɣla wò dɔwɔwɔ le ame gbogbo ŋkume le gɔmedzedze me, gake Zcash hã naa dɔwɔnuwo wò be nàɖe wò ŋutɔ wò nuŋlɔɖiwo afia ame siwo hia wo, le wò ŋutɔ wò mɔ nu. Nèle ɣaɣla me na xexeame eye nèʋu ʋu na wò akɔnta le ɣeyiɣi ma ke me.
 
 <br/>
 
-## Wò ŋutɔ wò ŋutinya me toto
+## Nya kpuiwo nye wò nudzraɖoƒe
 
-Be nàte ŋu adzra agbalẽwo ɖo la, ele be nàkpɔ wò ŋutɔ wò dɔwɔna. Wò gakotokua léa safui siwo ɖea wò adzɔnu siwo nèkpɔ ta na la me, ale be wò gakotokua ate ŋu afia nɔnɔmetata bliboa wò: ŋkeke siwo dzi nèxɔ, ga home siwo nèxɔ, esiwo woɖo ɖa, kple nuŋlɔɖi siwo kpe ɖe eŋu.
+Ɣaɣla (z to z) gaɖoɖo ɖe sia ɖe ate ŋu atsɔ ɣaɣlaŋlɔŋlɔ [nya kpui](/using-zcash/memos). Na nuŋlɔɖi kpɔkpɔ la, nya kpui lae nye afi si nèŋlɔa nu si ta wowɔ fexexe la ɖo: invoice ƒe xexlẽme, klient ƒe ŋkɔ, dɔ ƒe kɔd, alo nya kpui abe "March ƒe xɔme" ene.
 
-Esiae nye akpa si dukɔa mate ŋu akpɔ o, gake àte ŋu akpɔe, elabena tɔwòe nyatakakaawo nye. Wò ŋutinya me toto edziedzi, ke menye le ƒea ƒe nuwuwu o, nana wò nuŋlɔɖiwo dea pɛpɛpɛ eye wònana vodadawo léle nɔa bɔbɔe.
+Elabena nya kpui la zɔa kple gaɖoɖo la eye ame siwo le eme koe ate ŋu axlẽe, ezu fli me nu si le ɣaɣla me le wò agbalẽwo me. Ne wò alo wò klient dea nya kpui si me nyateƒe le ɖe fexexe sia ɖe ŋu la, wò gaɖoɖo ƒe nuŋlɔɖi trɔa zu nudzraɖoƒe si wòate ŋu azã, menye gaƒe ƒe xexlẽmewo ƒe lista si me nɔnɔme mele o ko o.
 
-<br/>
-
-## Nuŋlɔɖiwo mama kple akɔntanyala
-
-Ne èhiã ame bubu be wòakpɔ wò dɔwɔna si ŋu wokpɔ ta na, abe akɔntanyala alo agbalẽdzikpɔla ene la, mehiã be nàtsɔ wò gazazã ƒe safuiwo ade asi na ame alo aɖe naneke afia le dutoƒo o. Èma [nukpɔkpɔ ƒe safui](/zcash-tech/viewing-keys).
-
-Woxlẽa nukpɔkpɔ ƒe safui bliboa ko. Enaa amesi si ga le la kpɔa asitsatsa siwo va kple esiwo dona hena adrɛs aɖe, siwo dome ga homewo kple nuŋlɔɖiwo hã le, gake meɖea mɔ na wo be woaʋu wò ga gbeɖe o. Ema na wònye nusi le dedie be woana nu akɔntanyala. Wokpɔa nukpɔkpɔ si tututu wohiã, wò ga nɔa wò ŋusẽ te, eye xexeame ƒe akpa mamlɛa mekpɔa naneke kokoko o.
-
-Woyɔa esia be nyatakakaɖeɖefia tiatia, eye wònye susu nyui siwo ta Zcash si wokpɔ ta na wɔa dɔ na agbalẽdzikpɔkpɔ anukwaretɔe tsɔ wu be wòatsi tre ɖe eŋu la dometɔ ɖeka.
+Nɔnɔme bɔbɔe aɖe: Miaeɖo kple klientwo be woatsɔ invoice ƒe xexlẽme ade nya kpui la me ɣesiaɣi. Megbe la, fexexewo kple invoicewo ƒe sɔsɔ zu nu bɔbɔe.
 
 <br/>
 
-## Nuƒoƒoƒu ɖekae hena ɣeyiɣi aɖe
+## Wò ŋutɔ wò nuŋlɔɖi ƒe kpɔkpɔ
 
-Le nyatakaka akpa gãtɔ gome la, èhiã na xexlẽme bliboa le ɣeyiɣi aɖe me: ga home si nèxɔ le ƒe ene sia me, ga home si nèɖo ɖa, wò ɖoƒe si nèle. Esi wònye be àte ŋu ato wò ŋutɔ wò ŋutinya bliboa me ta la, àte ŋu aƒo esiawo nu ƒu na ɣeyiɣi ɖesiaɖe si nèdi, ɣleti ɖeka, ƒe enelia, alo ƒe ɖeka.
+Be nàkpɔ agbalẽwo me la, ele be nàkpɔ wò ŋutɔ wò dɔwɔwɔ. Wò gakotoku [wallet] le safuiwo siwo ɖea wò ɣaɣla gaɖoɖowo ƒe ɣaɣlaŋlɔŋlɔ la asi, eyata wò gakotoku ate ŋu afia na wò nu blibo: ŋkekeawo, gaƒewo, esiwo woxɔ, esiwo wodzi ɖa, kple nya kpuiwo siwo wotsɔ kpee.
 
-Ne èna nuŋlɔɖiwo nawɔ ɖeka la, esia nana esia nɔa bɔbɔe, elabena àte ŋu aƒo fexexewo nu ƒu ɖe nusi ta woxe fe ɖo nu, ke menye ɖe ŋkeke kple ga home ko nu o.
-
-<br/>
-
-## Nuŋlɔɖi aɖe si ku ɖe adzɔxexe ŋu
-
-Adzɔxexe ŋuti sewo toa vovo le dukɔ ɖesiaɖe me eye wotrɔna le ɣeyiɣi aɖe megbe, eyata esia nye nyatakaka siwo ku ɖe nusianu ŋu ke menye adzɔxexe ŋuti aɖaŋuɖoɖo o. Le teƒe geɖe la, cryptocurrency xɔxɔ alo etsɔtsɔ ƒu gbe ate ŋu ahe adzɔxexe me tsonuwo vɛ, eye woate ŋu akpɔ mɔ be nàwɔ nuŋlɔɖi tso nusiwo nèxɔ, ɣeyiɣi si nèxɔ, kple eƒe asixɔxɔ ɣemaɣi ŋu.
-
-Nya nyuiae nye be Zcash si wokpɔ ta na la mexea mɔ na wò be màgawɔ agbanɔamedzi siawo dzi o. You can keep complete private records, total them for the period your tax authority requires, and disclose them to an accountant or tax authority using a viewing key, without making your activity public. Ne mèka ɖe nusiwo nye wò agbanɔamedziwo dzi o la, ƒo nu kple dɔnyala bibi aɖe le miaƒe dukɔa me.
+Esiae nye akpa si dukɔ blibo mate ŋu akpɔ o, gake wòate ŋu akpɔe elabena data la nye tɔwò. Ne nèkɔ ɖe wò nuŋlɔɖi ŋu ɣesiaɣi, le ƒe ƒe nuwuwu teƒe o la, ena wò nuŋlɔɖiwo nɔ nyuie eye wòawɔ be akɔntabubu vɔ̃wo ƒe kpɔkpɔ nasɔ.
 
 <br/>
 
-## Vodada siwo bɔ siwo wòle be woaƒo asa na
+## Nuŋlɔɖiwo ƒe mama na akɔnta
 
-- Skipping memos, si gblẽa ga homewo ɖi na wò eye nya siwo ƒo xlãe aɖeke menɔa asiwò le ƒea ƒe nuwuwu o
-- Adrɛs ɖeka zazã ake na nusianu, si wɔnɛ be esesẽna be woama asisiwo alo taɖodzinuwo dome
-- Lala vaseɖe adzɔxexe ƒe ɣeyiɣia me be nàto ƒe ɖeka ƒe ŋutinya me tsɔ wu be nàwɔ nuŋlɔɖiwo ne èle yiyim
-- Gazazã ƒe safui mamã ne nuxexlẽ ɖeɖeko ƒe nukpɔkpɔ ƒe safui nye nusi ko akɔntanyala hiã
+Ne wòhia be ame bubu nakpɔ wò ɣaɣla dɔwɔwɔ, abe akɔnta alo akɔntakpɔla ene la, mele be nàtsɔ wò gazazãsafuiwo [spending key] ana alo nàɖe naneke afia dukɔ blibo o. Nèmaa [nukpɔsafui](/zcash-tech/viewing-keys).
+
+Nukpɔsafui blibo nye nu si woate ŋu axlẽ ko. Ena ame si le esi la kpɔ gaɖoɖowo siwo va ɖo kple esiwo do goe na gaɖoƒe ƒe dzesi aɖe, kple gaƒewo kple nya kpuiwo, gake metsɔa mɔ na wo be woatsɔ wò ga aɖo te o. Esiae nye nu dedie si nàtsɔ ana akɔnta. Wokpɔ nu siwo hia wo tututu, wò ga nɔ wò ŋutɔ wò ase, eye xexeame ƒe akpa bubu la mekɔ naneke o.
+
+Woyɔe be nyatakaka tɔxɛ ɣaɣla [selective disclosure], eye enye nyateƒe ƒe tata aɖe si ta ɣaɣla Zcash wɔa dɔ na nuŋlɔɖi nyuitɔ kpɔkpɔ, menye be wòatsi tsitre ɖe eŋu o.
 
 <br/>
 
-## Axa siwo do ƒome kplii
+## Ga ƒe ƒuƒoƒo na ɣeyiɣi aɖe
 
-- [Ŋkuɖodzinyawo](/using-zcash/memos) - alesi nuŋlɔɖi siwo wotsɔ nya ɣaɣlawo ŋlɔe wɔa dɔe
-- [Nukpɔkpɔ ƒe Safuiwo](/zcash-tech/viewing-keys) - alesi woawɔ aɖo ɖe duta eye woama nuxexlẽ ɖeɖeko ƒe mɔɖeɖe
-- [Freelancer ƒe Nyatakakawo Ŋuti Ðoɖowɔwɔ](/zcash-use-cases/freelance-privacy-setup) - gakpɔkpɔ xɔxɔ le ame ŋutɔ gbɔ, afɔɖeɖe si woawɔ hafi awɔ nuŋlɔɖiwo
+Na nyatakakawɔwɔ geɖe la, wòhia ga ƒe ƒuƒoƒo le ɣeyiɣi didi aɖe me: ga si nèxɔ le kota sia me, ga si nèdzi ɖa, kple wò gaƒe nɔnɔ le nuwuwu. Elabena àte ŋu akpɔ wò ŋutɔ wò nuŋlɔɖi blibo me la, àte ŋu aɖe esiawo ƒe ƒuƒoƒo na ɣeyiɣi sia ɣeyiɣi si nètsɔ, ɣleti aɖe, kota aɖe, alo ƒe aɖe.
+
+Nya kpuiwo ƒe wɔwɔ ɖeka hã wɔa be esia nasɔ, elabena àte ŋu aƒo fexexewo ƒu le nu si ta wowɔ wo ƒe nu, menye ŋkeke kple gaƒe ƒe nu ko o.
+
+<br/>
+
+## Nya kpui aɖe tso asike ŋu
+
+Asike ƒe sewo vovoa le dukɔ sia dukɔ me eye wotrɔa le ɣeyiɣi me, eyata esia nye nyatakaka gbogblɔ ko menye asike ƒe aɖaŋu o. Le teƒe geɖewo, cryptocurrency ƒe xɔxɔ alo dzadzra ɖa ate ŋu atsɔ asike ƒe nuva vɛ, eye ate ŋu be woalé mɔ na wò be nàkpɔ nuŋlɔɖi le nu si nèxɔ, ɣeyiɣi si nèxɔe, kple eƒe asixɔxɔ le ɣeyiɣi ma me ŋu.
+
+Nya nyui lae nye be ɣaɣla Zcash metsa mɔ na wò be nàwɔ wò dɔdeasiwo o. Àte ŋu akpɔ nuŋlɔɖi blibo siwo le ɣaɣla me, aɖe wo ƒe ƒuƒoƒo na ɣeyiɣi si wò asike ƒe amedzraƒo bia, eye nàɖe wo afia akɔnta alo asike ƒe amedzraƒo kple nukpɔsafui, ne mèɖe wò dɔwɔwɔ afia dukɔ blibo o. Ne wòme nya o be dɔdeasi kae le asiwò la, ƒo nu kple amedɔwɔnyui aɖe le wò dukɔ me.
+
+<br/>
+
+## Vodada siwo wòle be nàdze sii
+
+- Nya kpuiwo ƒe dzikpɔ, si ana wòanɔ kple gaƒewo ko eye nɔnɔme manɔ anyi le ƒe ƒe nuwuwu o
+- Gaɖoƒe ƒe dzesi ɖeka ƒe zã na nu sia nu, si ana klientwo alo ta vovowo ƒe mama vovo nasɔ o
+- Asike ƒe ɣeyiɣi va ɖo hafi nàkɔ ɖe ƒe ƒe nuŋlɔɖi ŋu le nuŋlɔɖi kpɔkpɔ le mɔ dzi teƒe o
+- Gazazãsafui mama esi nukpɔsafui si woate ŋu axlẽ ko koe akɔnta hia
+
+<br/>
+
+## Axawo siwo tsɔ ɖo eŋu
+
+- [Nya kpuiwo](/using-zcash/memos) - ale si ɣaɣlaŋlɔŋlɔ nya kpuiwo wɔa dɔe
+- [Nukpɔsafuiwo](/zcash-tech/viewing-keys) - ale si nàdo kpo eye nàma mɔ si woate ŋu axlẽ ko
+- [Freelancer ƒe Ɣaɣla Ɖoɖowɔwɔ](/zcash-use-cases/freelance-privacy-setup) - ga si woxɔ le ɣaɣla me, afɔɖeɖe si le nuŋlɔɖi kpɔkpɔ ŋgɔ

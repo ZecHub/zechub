@@ -1,6 +1,6 @@
-# MetaMask Zcash Snap ƒe Ðekawɔwɔ Mɔfiame
+# MetaMask Zcash Snap ƒe ƒoƒo ƒe mɔfia
 
-Ne èdi azɔlizɔzɔ bliboa kple numeɖeɖe si wokpɔna la, kpɔ esia [**YouTube mɔfiame**](https://www.youtube.com/watch?v=UJh9Ilkohdw): 
+Ne nàdi mɔfia bliboa kple nukpɔkpɔ ƒe gɔmeɖeɖe la, kpɔ [**YouTube mɔfia**](https://www.youtube.com/watch?v=UJh9Ilkohdw) sia: 
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -14,28 +14,27 @@ Ne èdi azɔlizɔzɔ bliboa kple numeɖeɖe si wokpɔna la, kpɔ esia [**YouTube
 </div>
      
 
-MetaMask doa alɔ **shielded Zcash (ZEC)** fifia to **ChainSafe-developed Zcash Snap** dzi, si na be nàte ŋu aɖo ZEC si nye ame ŋutɔ tɔ, axɔe, eye nàkpɔ edzi tẽ le wò browser gakotoku me. **Hacken** ye lé ŋku ɖe eŋu eye woŋlɔe ɖe **MetaMask Snaps Directory si dziɖuɖua ɖo** me, mehiã **Zcash kɔmpiuta dɔwɔɖoɖo aɖeke si le vovo o** - MetaMask kple Snap koe.
+MetaMask doa alɔ ɖe **ɣaɣla [shielded] Zcash (ZEC)** dzi fifia to **ChainSafe wɔ Zcash Snap** la me, eye wòate ŋu aɖo, naxɔ, eye nàdzra ZEC siwo nye ame ƒe nusiwo le eme kple wò browser gakotoku [wallet] me tɔxɛ. **Hacken** wɔ dɔmeɖeɖe le eŋu eye woɖe eƒe ŋkɔ ɖe **oficial MetaMask Snaps Directory** la me; ehiã be nàtsɔ Zcash ƒe software bubu aɖeke o - MetaMask kple Snap koe nàhiã.
 
 ---
 
-## **Nudidi gbãtɔwo**
+## **Nusiwo wòhia ɖoɖo**
 
+> [**MetaMask Extension**](https://snaps.metamask.io/snap/npm/chainsafe/webzjs-zcash-snap/) (desktop koe) - Chrome, Edge, alo Firefox.
+> MetaMask Account - Wò gadzraɖoɖi nya [seed phrase] nanɔ dzidzedze; Snap la atsa Zcash ƒe keys tso eŋu.  
+> Internet ƒoɖoɖo si le te - Be wòawɔ sync kple Zcash network la.  
+> Ga - ETH si nàtsɔ awɔ ɖɔli ɖɔli [swap] na ZEC alo ZEC tso gatrɔƒe [exchange] aɖe me.
 
-> [**MetaMask Kekeɖenudɔwɔwɔ**](https://snaps.metamask.io/snap/npm/chainsafe/webzjs-zcash-snap/) (desktop ɖeɖeko) - Chrome, Edge, alo Firefox.
-> MetaMask Account - Nuku ƒe nyagbe si le dedie; Snap xɔa Zcash safuiwo tso eme. 
-> Internet Kadodo si Li Ke - Na nuwɔwɔ ɖekae kple Zcash network. 
-> Gawo - ETH be woaɖɔli ZEC alo ZEC tso asitɔtrɔ aɖe me.
-
-> **Aɖaŋuɖoɖo:** Takpɔ wò MetaMask gbugbɔgawɔ nyagbe - ekpɔa ETH kple ZEC.
+> **Nuxlɔ̃ame:** Léa ŋkuléle nyuie ɖe wò MetaMask recovery phrase ŋu - Eyae kpɔa ETH kple ZEC siaa dzi.
 
 ---
 
-## **1. De Zcash Snap** la ɖe wò kɔmpiuta dzi
+## **1. Ɖo Zcash Snap**
 
-1. Yi ɖawɔ [**MetaMask Snaps ƒe Nyatakakadzraɖoƒe**](https://snaps.metamask.io/snap/npm/chainsafe/webzjs-zcash-snap/).  
-2. Di nu le [**"Zcash Shielded Gakotoku"**](https://snaps.metamask.io/snap/npm/chainsafe/webzjs-zcash-snap/) or [**"WebZjs Zcash nɔnɔmetata"**](https://snaps.metamask.io/snap/npm/chainsafe/webzjs-zcash-snap/).  
-3. Zi **De/Tsɔe kpe ɖe MetaMask**.
-4. Da asi ɖe mɔɖeɖewo abe:
+1. Yi ɖe [**MetaMask Snaps Directory**](https://snaps.metamask.io/snap/npm/chainsafe/webzjs-zcash-snap/) la dzi.  
+2. Di [**"Zcash Shielded Wallet"**](https://snaps.metamask.io/snap/npm/chainsafe/webzjs-zcash-snap/) alo [**"WebZjs Zcash Snap"**](https://snaps.metamask.io/snap/npm/chainsafe/webzjs-zcash-snap/).  
+3. Zi **Install/Add to MetaMask** dzi.
+4. Ɖe asi ɖe mɔ naɖeɖe siwo ƒe kpɔɖeŋuwoe nye:
    ```
       Manage Zcash accounts 
       Store data on your device
@@ -48,9 +47,9 @@ MetaMask doa alɔ **shielded Zcash (ZEC)** fifia to **ChainSafe-developed Zcash 
 
 ## **2. (Ne èdi) Tsɔ Zcash Network kpee**
 
-Le MetaMask, tia **Add Network** eye nàŋlɔ:
+Le MetaMask me la, tia **Add Network** eye nàŋlɔ esiawo:
 
-Le **BNB SmartChain** gome la;
+Na **BNB SmartChain**;
 ```markdown
 -  Name: BNB Smart Chain
 -  RPC URL: https://bsc-dataseed.binance.org
@@ -58,71 +57,71 @@ Le **BNB SmartChain** gome la;
 -  Symbol: BNB
 -  Block Explorer URL: https://bscscan.com
 ```
-Esia wɔnɛ be network info kple explorer ƒe kadodowo te ŋu wɔa dɔ.
+Esia ana network ƒe nyatakakawo kple explorer ƒe linkwo nava.
 ![Add-a-custom-Net....](/content-images/S1hq7f2Oel-e1ca8b9044.webp)
 
-Le **Zcash Mainnet** gome la;
+Na **Zcash Mainnet**;
 ```markdown
 - Name: Zcash Mainnet  
 - RPC URL: https://zjs.zec.rocks 
 - Symbol: ZEC
 ```
-`https://zjs.zec.rocks` nye WebZjs-si sɔ (gRPC-web) lightwalletd dɔdzikpɔla si dzi [zec.rocks](https://zec.rocks) (@emersonian ƒe nyatakakadzraɖoƒea). Le testnet gome la, zãe `https://zjs.zec.rocks/testnet`. Ne wò ŋutɔ nèwɔ WebZjs web gakotokua la, esiae nye asixɔxɔ si nàɖo abe `LIGHTWALLETD_PROXY`.
+`https://zjs.zec.rocks` nye WebZjs-compatible (gRPC-web) lightwalletd server si [zec.rocks](https://zec.rocks) (@emersonian) wɔ. Na testnet la, zã `https://zjs.zec.rocks/testnet`. Ne èwɔ WebZjs web gakotoku la wò ŋutɔ la, esiae nye asixɔxɔ si nàɖo abe `LIGHTWALLETD_PROXY` ene.
 
 ---
 
-## **3. Do ka kple ChainSafe WebZjs Gakotoku**
+## **3. Ƒo ƒome kple ChainSafe WebZjs Wallet**
 
-1. Sasrã [webzjs.kɔsɔkɔsɔwo ƒe dedienɔnɔ.dev](https://webzjs.chainsafe.dev).  
-2. Zi **Do ka kple MetaMask Snap**. 
+1. Yi ɖe [webzjs.chainsafe.dev](https://webzjs.chainsafe.dev).  
+2. Zi **Connect MetaMask Snap** dzi.  
 
 ![Zcash-web-wallet](/content-images/Sk8nSz3dgl-98ce36cc67.webp)
 
-3. Da asi ɖe kadodoa dzi. 
-4. Kpɔ wò Zcash akɔnta ƒe kpukpui, siwo dometɔ aɖewoe nye:
-   - Adrɛs siwo wowɔ ɖekae kple Adrɛs si me kɔ
+3. Ɖe asi ɖe ƒoƒo la ŋu.  
+4. Kpɔ wò Zcash account ƒe nyatakaka bliboa, si me nusiawo le:
+   - Unified addresses kple Transparent address
 
 ![Account-summary-unif....](/content-images/r17c_Mhdel-f4963826d5.webp)
 
 
-5. Lala be woawɔ ɖekawɔwɔa nawu enu.
+5. Lala va se ɖe sync wɔwɔ ƒe nuwuwu.
 
 
 
 
 ---
 
-## **4. Ga Na Wò Gakotoku**
+## **4. Tsɔ Ga Ɖe Wò Gakotoku Me**
 
-> **Trɔ ETH -> ZEC** - Zã subɔsubɔdɔwo abe **LeoDex** eye nàɖoe ɖe wò adrɛs si wokpɔ ta na. 
-> **Exchange Withdrawal** - Ðe ZEC si nèƒle la ɖa ɖe wò WebZjs ƒe adrɛs si wokpɔ ta na la dzi. 
+> **Wɔ ETH -> ZEC Ɖɔli Ɖɔli** - Zã dɔwɔƒewo abe **LeoDex** ene eye nàɖo ga la ɖe wò ɣaɣla gaɖoƒe ƒe dzesi [address] dzi.  
+> **Gatrɔƒe ƒe Ga Ɖeɖe** - Ɖe ZEC si nèxɔ la ɖe wò WebZjs ɣaɣla gaɖoƒe ƒe dzesi dzi.  
 
 ![LeoDex-SWAP](/content-images/HyLQ0G2ugg-8d82ef24f6.webp)
 
 
-> => Zã adrɛs siwo wokpɔ ta na (z) hena **adzamenyawo blibo**.
+> => Zã ɣaɣla (z) gaɖoƒe ƒe dzesiwo ne nàxɔ **ɣaɣla [privacy] bliboa**.
 
 ---
 
-## **5. Ðo / Xɔ ZEC**
+## **5. Ɖo / Xɔ ZEC**
 
-1. Le **WebZjs** me la, yi **Transfer Balance**. 
-2. Geɖe eme:
+1. Le **WebZjs** me la, yi ɖe **Transfer Balance**.  
+2. Ŋlɔ:
 ```
    - Shielded recipient address  
    - Amount
 ```
    ![Transfer-Balance](/content-images/rkvcFfhdex-bd55d079eb.webp)
 
-4. Ðo kpe asitsatsa dzi le MetaMask (de asi asitsatsa la te). 
-5. Ga siwo woxɔ la adze le WebZjs me le kpeɖodzinana megbe.
+4. Ɖe asi ɖe gaɖoɖo [transaction] la ŋu le MetaMask me (de asi ɖe gaɖoɖo la ŋu).  
+5. Ga si nèxɔ la ava WebZjs me le ƒoɖoɖo megbe.
 
 ---
 
-## **6. Kpɔe ɖa / Kpɔ kuxiwo gbɔ**
+## **6. Ɖe Kpɔ / Ɖo Kuxiwo Ɖa**
 
-> Kpɔ **WebZjs** ɖa hena ga si susɔ yeyee **(MetaMask meŋlɔ ZEC tẽ o)** . 
-> Ne nyawo do mo ɖa la:
+> Kpɔ **WebZjs** me be balance siwo woɖe yeyee le **(MetaMask menya ZEC tɔxɛ haɖe o)** .  
+> Ne kuxi aɖe va:
   ```
   - Confirm you have the official ChainSafe Snap.  
   - Check correct network settings.  
@@ -130,16 +129,16 @@ Le **Zcash Mainnet** gome la;
   - Reconnect via **Connect Snap** if needed.
   ``` 
 
-> **Dedienɔnɔ Ŋuti Aɖaŋuɖoɖo:** Ðeko nàde **ChainSafe Snap si wodzro la me**; to mɔɖeɖewo me hafi woada asi ɖe edzi.
+> **Dedienɔnɔ ƒe Nuxlɔ̃ame:** Ɖo **ChainSafe Snap si woɖe kpɔ** la koe; kpɔ mɔ naɖeɖewo me hafi nàɖe asi.
 
 ---
 
-## **7. Kpɔ Adrɛs ƒe Akpawo**
+## **7. Kpɔ Gaɖoƒe Ƒe Dzeƒewo**
 
-1. Yi **Xɔ** ƒe akpaa dzi - wò Unified Address adze le gɔmedzedzea me. 
-2. Kpɔ Unified Address la ƒe kɔpi eye nàɖi tsa ayi [Zcash Block Explorer](https://mainnet.zcashexplorer.app/).  
-3. Kpe wò Unified Address ɖe didiƒea. 
-4. Fifia àkpɔ Unified Address, siwo dometɔ aɖewoe nye:
+1. Yi ɖe **Receive** ƒe akpa - Wò Unified Address ana woɖe afia wò le gɔmedzedze me.  
+2. Kɔpi Unified Address eye nàyi ɖe [Zcash Block Explorer](https://mainnet.zcashexplorer.app/) la dzi.  
+3. Ɖe wò Unified Address ɖe didi ƒe afea me.  
+4. Fifia àkpɔ Unified Address la ƒe dzeƒe siawo katã, siwo nye:
 ``` 
    Orchard Address  
    Sapling Address  
@@ -152,21 +151,10 @@ Le **Zcash Mainnet** gome la;
 
 ---
 
-## **Nya Bubuwo**
+## **Nyalɛŋlɔ Kpeɖeŋu Bubuwo**
 
-> Zã nya sia [**MetaMask ƒe tɔtrɔ yeyetɔ**](https://chromewebstore.google.com/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn?hl=en) - dutoƒo dodo doa alɔ Snaps. 
-> Kpeɖodzi siwo wokpɔ ta na ate ŋu axɔ ɣeyiɣi, WebAssembly kpɔa akɔntabubu gbɔ le web-browser me. 
-> Gbugbɔgaxɔ le bɔbɔe,de MetaMask kple Snap, emegbe tsɔ wò nuku si li xoxo la vɛ. 
-> Snap la nye **shielded ZEC**, adrɛs siwo me kɔ la nye **menye nusi ŋu wole ŋku lém ɖo o**. 
-> Zã [mainnet.zcashexplorer.app ƒe nyatakakadzraɖoƒea](https://mainnet.zcashexplorer.app) hena asitsatsa ƒe kpeɖodziwo.
-
-
-
-
-
-
-
-
-
-
-
+> Zã [**MetaMask ƒe version yeye**](https://chromewebstore.google.com/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn?hl=en) - public release la doa alɔ ɖe Snaps ŋu.  
+> Ɣeaɖewo la, ɣaɣla ɖaseɖigbalɛ [proof] wo ate ŋu axɔ gaƒoƒo; WebAssembly wɔ akɔnta le browser la me.  
+> Gaxɔxɔ le bɔbɔe, ɖo MetaMask kple Snap la, eye nàtsɔ wò gadzraɖoɖi nya si le asixɔxɔ xɔe va.  
+> Snap la ƒe gɔmedzedze nye **ɣaɣla ZEC**, nuwo ƒe ʋuʋuɖi [transparent] gaɖoƒe ƒe dzesiwo **menye esi woɖo ŋku ɖo o**.  
+> Zã [mainnet.zcashexplorer.app](https://mainnet.zcashexplorer.app) na gaɖoɖo ƒe ƒoɖoɖo.

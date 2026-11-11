@@ -2,94 +2,94 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Zcash Wallet Syncing (Usawazishaji wa Pochi za Kifedha)
+# Ulandanishaji wa pochi [wallet] wa Zcash
 
-## TL;DR
+## Kwa kifupi
 
-* Kwa sababu shughuli za Zcash zilizohifadhiwa huficha maelezo yao, seva haiwezi tu kuangalia salio la mkoba kama inavyoweza kwa sarafu wazi kama Bitcoin au Ethereum.
-* Pochi nyepesi hupakua ndogo  vitalu vyenye nguvu ?? kutoka kwa seva maalum (lightwalletd) na kufuta data husika wenyewe na funguo zao za kibinafsi.
-* Kufuta na kuchakata vitalu hivyo huchukua muda, kwa hiyo pochi hutumia mbinu za upatanisho wa haraka zaidi ili kukuwezesha kutumia fedha zako mapema.
-* Njia mashuhuri: Warp Sync (YWallet), Spend-before-sync (Zcash Mobile Wallet SDK V2), Blaze Sync, na DAGSync iliyopendekezwa.
-* Mbinu hizi kwa ujumla biashara ya kumbukumbu ziada au nguvu za usindikaji wa upatanisho haraka.
+* Kwa sababu miamala ya faragha [shielded transactions] ya Zcash huficha maelezo yake, seva haiwezi kutafuta tu salio la pochi kama inavyoweza kwa sarafu za uwazi [transparent] kama Bitcoin au Ethereum.
+* Pochi nyepesi hupakua “block fupi” kutoka kwa seva maalumu (lightwalletd) na husimbua data husika zenyewe kwa funguo zao binafsi.
+* Kusimbua na kuchakata block hizo huchukua muda, kwa hivyo pochi hutumia mbinu za ulandanishaji wa haraka zaidi ili kukuwezesha kutumia fedha zako mapema.
+* Mbinu mashuhuri: Warp Sync (YWallet), Spend-before-sync (Zcash Mobile Wallet SDK V2), Blaze Sync (Zecwallet), na DAGSync inayopendekezwa.
+* Mbinu hizi kwa ujumla hubadilisha kumbukumbu ya ziada au nguvu ya uchakataji kwa ulandanishaji wa haraka zaidi.
 
-## Maelezo ya msingi
+## Maelezo ya Msingi
 
-### Jinsi Zcash syncing kazi
+### Jinsi ulandanishaji wa Zcash unavyofanya kazi
 
-Zcash uses zero-knowledge proofs to shield transaction details from unauthorized parties. This privacy makes syncing harder for light wallets because they do not store the full blockchain locally and instead rely on a server for the necessary information. With Bitcoin or Ethereum, servers can index the blockchain and return account data quickly. But with Zcash, the server cannot see transaction details. So how can a light wallet sync its balance and history without downloading and decrypting the entire blockchain itself?
+Zcash hutumia mathibitisho ya maarifa sifuri [zero-knowledge] kuficha maelezo ya muamala kutoka kwa wahusika wasioidhinishwa. Faragha hii hufanya ulandanishaji kuwa mgumu zaidi kwa pochi nyepesi kwa sababu hazihifadhi blockchain nzima ndani ya kifaa na badala yake hutegemea seva kwa taarifa zinazohitajika. Kwa Bitcoin au Ethereum, seva zinaweza kuorodhesha blockchain na kurejesha data ya akaunti haraka. Lakini kwa Zcash, seva haiwezi kuona maelezo ya muamala. Hivyo pochi nyepesi inaweza vipi kusawazisha salio na historia yake bila kupakua na kusimbua blockchain nzima yenyewe?
 
-Zcash solves this problem by combining multiple approaches. It has a specialized server, lightwalletd, that filters data from a full node and keeps only what's needed for transaction identification. This data is called compact blocks, and it is much smaller than the original blocks. Light wallets first download these compact blocks from the lightwalletd server and then decrypt them with their private keys.
+Zcash hutatua tatizo hili kwa kuchanganya mbinu nyingi. Ina seva maalumu, lightwalletd, inayochuja data kutoka kwa full node na kuweka tu kinachohitajika kwa utambuzi wa miamala. Data hii huitwa block fupi, na ni ndogo zaidi kuliko block za awali. Pochi nyepesi kwanza hupakua block hizi fupi kutoka kwa seva ya lightwalletd na kisha kuzisimbua kwa funguo zao binafsi.
 
-Hata decrypting na usindikaji hizi vitalu compact inaweza kuchukua muda mkubwa, hasa wakati kuna shughuli nyingi kwa block. Hivyo pochi kutumia mbinu tofauti ili kuharakisha usawazishaji na basi wewe matumizi ya fedha yako haraka iwezekanavyo.
+Hata kusimbua na kuchakata block hizi fupi kunaweza kuchukua muda mwingi, hasa kunapokuwa na miamala mingi kwa kila block. Kwa hivyo pochi hutumia mbinu tofauti kuharakisha ulandanishaji na kukuwezesha kutumia fedha zako haraka iwezekanavyo.
 
-## Visual / Ulinganisho
+## Taswira / Mfano
 
-Fikiria blockchain kama mailroom kubwa kamili ya masanduku imefungwa. Kwa sarafu uwazi, ofisi wa chumba cha barua wanaweza kusoma maandiko na mara moja kukuambia ambayo sanduku ni yako. Pamoja Zcash, lebo zimefichwa  hivyo mkoba wako ina kuchukua funguo zake na kimya kuangalia masanduko yenyewe kupata wale inaweza kufungua. mbinu za kusawazisha chini ni mikakati tofauti kwa ajili ya kuangalia masandaoni hizo haraka zaidi.
+Fikiria blockchain kama chumba kikubwa cha posta kilichojaa masanduku yaliyofungwa. Kwa sarafu ya uwazi, karani wa chumba cha posta anaweza kusoma lebo na kukuambia mara moja masanduku gani ni yako. Kwa Zcash, lebo zimefichwa — kwa hivyo pochi yako inapaswa kuchukua funguo zake na kukagua masanduku yenyewe kwa utulivu ili kupata yale inayoweza kufungua. Mbinu za ulandanishaji zilizo hapa chini ni mikakati tofauti ya kukagua masanduku hayo kwa haraka zaidi.
 
-## Kuzama kwa Kina Chini ya Maji
+## Uchambuzi wa Kina
 
-### Utaratibu wa Warp
+### Warp Sync
 
-Warp sync ni kipengele YWallet kwamba skips hatua za kati ya decrypting na usindikaji kila block compact, kuruka moja kwa moja matokeo ya mwisho.
+Warp sync ni kipengele cha YWallet kinachoruka hatua za kati za kusimbua na kuchakata kila block fupi, na kwenda moja kwa moja kwenye matokeo ya mwisho.
 
-Ili kufanya hivyo, hutumia hesabu na maandishi ya siri ili kukadiria matokeo bila kupitia kila hatua.
+Ili kufanya hivyo, hutumia hesabu na kriptografia kukokotoa matokeo ya mwisho bila kupitia kila hatua.
 
-Warp sync inaweza mchakato maelfu ya vitalu kwa sekunde, kasi zaidi kuliko kawaida njia ushirikiano. Hii ina maana kwamba watumiaji YWallet wanaweza kufurahia utendaji wa haraka na laini, hata pamoja mamia ya maelfu za shughuli na noti kupokea katika akaunti zao.
+Warp sync inaweza kuchakata maelfu ya block kwa sekunde, haraka zaidi kuliko mbinu ya kawaida ya ulandanishaji. Hii inamaanisha kuwa watumiaji wa YWallet wanaweza kufurahia utendaji wa haraka na laini, hata wakiwa na mamia ya maelfu ya miamala na madokezo [notes] yaliyopokelewa katika akaunti zao.
 
-Mbali na mbinu hii ya kuruka hatua, YWallet inaweza mchakato vitalu mbalimbali kwa wakati mmoja, kusambaza mzigo katika vifaa yako inapatikana kufanya mchakati hata kasi.
+Kando na mbinu hii ya kuruka hatua, YWallet inaweza kuchakata block nyingi kwa wakati mmoja, ikisambaza mzigo kwenye vifaa vyako vinavyopatikana ili kufanya mchakato kuwa wa haraka zaidi.
 
-Soma Zaidi juu ya [Utaratibu wa Warp](https://ywallet.app/warp/)
+Soma Zaidi kuhusu [Warp Sync](https://ywallet.app/warp/)
 
-> Warp sync ni ilivyoelezwa hapa kama mbinu ya kusawazisha. Ywallet yenyewe tena kudumishwa na si itakuwa updated kwa Ironwood, hivyo siyo mkoba wa kufunga leo.
+> Warp sync inaelezewa hapa kama mbinu ya ulandanishaji. Ywallet yenyewe haitunzwii tena na haitasasishwa kwa Ironwood, kwa hivyo si pochi ya kusakinisha leo.
 
-### Matumizi-kabla ya usawazishaji
+### Spend-before-sync
 
-Kutumia-kabla ya usawazishaji ni kipengele mpya katika Zcash Simu Wallet SDK V2 ambayo inaruhusu watumiaji kutumia fedha mara moja juu ya kufungua mkoba wao, bila kusubiri kwa ajili ya mfuko wa fedha kamili kusawazisha. Kipengele hiki huongeza kasi ugunduzi wa wallet za spendable salio na kuboresha uzoefu user.
+Spend-before-sync ni kipengele kipya katika Zcash Mobile Wallet SDK V2 kinachowawezesha watumiaji kutumia fedha mara moja wanapofungua pochi yao, bila kusubiri ulandanishaji kamili wa pochi. Kipengele hiki huharakisha ugunduzi wa salio linaloweza kutumika la pochi na kuboresha uzoefu wa mtumiaji.
 
-Spend-before-sync works by using a compact-blocks synchronization algorithm that processes blocks from the lightwalletd server in a non-linear order. This means that instead of waiting for one block to be fully processed before moving on, wallets can use a bit more memory and processing power to scan different sections of the blockchain. Usually, it scans different ranges, looking for newer transactions while the older blocks are downloaded and processed. If a recent, unspent note is discovered, it will be made available immediately.
+Spend-before-sync hufanya kazi kwa kutumia algoriti ya ulandanishaji wa block fupi inayochakata block kutoka seva ya lightwalletd kwa mpangilio usio wa mstari. Hii inamaanisha kwamba badala ya kusubiri block moja ichakatwe kikamilifu kabla ya kuendelea, pochi zinaweza kutumia kumbukumbu na nguvu ya uchakataji zaidi kidogo kuchanganua sehemu tofauti za blockchain. Kwa kawaida, huchanganua masafa tofauti, zikitafuta miamala mipya huku block za zamani zikishushwa na kuchakatwa. Ikiwa dokezo la hivi karibuni ambalo halijatumika litagunduliwa, litapatikana mara moja.
 
 <a href="">
     <img src="/content-images/363d08df-b7b7-461b-a386-251d9ad702ca-a857cd8385.webp" alt="" width="140" height="150"/>
 </a>
 
-### Ulinganisho wa Blaze
+### Blaze Sync
 
-Zilizotengenezwa na timu Zecwallet, Blaze sync ni ushirikiano algorithm kwa ajili ya mkoba mwanga kwamba scans blockchain nyuma, kuanzia juu zaidi, karibuni kuzuia na kufanya kazi kurudi.
+Iliyotengenezwa na timu ya Zecwallet, Blaze sync ni algoriti ya ulandanishaji kwa pochi nyepesi inayochanganua blockchain kwa kurudi nyuma, ikianzia block ya juu zaidi na ya hivi karibuni zaidi na kuendelea kurudi nyuma.
 
-Hii inaruhusu mkoba kupata noti zilizotumika kabla ya zile zilizopokelewa, wakati wa kufanya maelezo ambayo hayajatumiwa hapo awali yapatikane bila kusubiri mchakato kamili wa usawazishaji kumaliza.
+Hii huwezesha pochi kupata madokezo yaliyotumika kabla ya yale yaliyopokelewa, huku ikifanya madokezo ambayo hayakuwa yametumika hapo awali yapatikane bila kusubiri mchakato mzima wa ulandanishaji ukamilike.
 
-Besides that, it uses Out-of-Order Sync by decoupling the components of the sync from each other — downloading blocks, performing trial decryptions, and updating witnesses — and processing them in parallel. This takes more memory and CPU resources but increases sync speed by X5.
+Zaidi ya hayo, hutumia Out-of-Order Sync kwa kutenganisha vipengele vya ulandanishaji kutoka kwa kila kimoja — kupakua block, kufanya usimbuaji wa majaribio, na kusasisha mashahidi — na kuvichakata sambamba. Hii hutumia kumbukumbu na rasilimali zaidi za CPU lakini huongeza kasi ya ulandanishaji kwa X5.
 
 ### DAGSync
 
-DAGSync ni mapendekezo ya ushirikiano algorithm ambayo inalenga kuboresha uzoefu wa mtumiaji wa Zcash wallets kulindwa kwa kuongeza kasi upatanisho.
+DAGSync ni algoriti ya ulandanishaji inayopendekezwa inayolenga kuboresha uzoefu wa mtumiaji wa pochi za faragha za Zcash kwa kuharakisha ulandanishaji.
 
-Inatumia a [Directed Acyclic Graph (DAG) - Mchoro wa Kiwango cha Uzunguko Unaoelekezwa](https://words.str4d.xyz/dagsync-graph-aware-zcash-wallets/) kuwakilisha utegemezi kati ya noti, mashahidi na nullifiers katika mkoba Zcash.
+Hutumia [Grafu Elekezi Isiyo na Mizunguko (DAG)](https://words.str4d.xyz/dagsync-graph-aware-zcash-wallets/) kuwakilisha utegemezi kati ya madokezo, mashahidi, na nullifier katika pochi ya Zcash.
 
-DAG ni muundo wa data ambayo inajumuisha nodes na kingo, ambapo kila makali ina mwelekeo unaoonyesha uhusiano kati ya nodes mbili. A DAG haina mizunguko, maana yake kwamba hakuna njia ya kuanza kutoka node na kufuata pembe nyuma kwa Node sawa.
+DAG ni muundo wa data unaojumuisha node na kingo, ambapo kila ukingo una mwelekeo unaoonyesha uhusiano kati ya node mbili. DAG haina mizunguko, kumaanisha kuwa hakuna njia ya kuanzia kwenye node na kufuata kingo kurudi kwenye node hiyo hiyo.
 
 <a href="">
     <img src="/content-images/eee7e08d-5c98-4c88-a48e-12f7a92a195f-316493530f.webp" alt="" width="110" height="230"/>
 </a>
 
-## Matokeo ya Kimatendo
+## Athari za Kivitendo
 
-Kwa kushangaza, taratibu hizi zote lengo la kushughulikia maswali yaliyozushwa na Zcash Usalama katika post yake juu ya tarehe 12 Mei. [Scalable Private Ujumbe](https://zecsec.com/posts/scalable-private-money-needs-scalable-private-messaging/) and its relationship with private payment systems. Some even take the extra step of downloading all memo data from servers, except for data exclusive to an address, increasing privacy at the cost of a bit of extra resources.
+Kwa kuvutia, mifumo hii yote inalenga kushughulikia maswali yaliyoibuliwa na Zcash Security katika chapisho lake kuhusu [Ujumbe Binafsi Unaoweza Kupanuliwa](https://zecsec.com/posts/scalable-private-money-needs-scalable-private-messaging/) na uhusiano wake na mifumo ya malipo ya faragha. Baadhi hata huchukua hatua ya ziada ya kupakua data yote ya jumbe kutoka kwenye seva, isipokuwa data inayohusu anwani pekee, na kuongeza faragha kwa gharama ya rasilimali zaidi kidogo.
 
-Pia, Zcash Foundation imekuwa kuangalia njia nyingine za kuboresha utendaji wa mikoba nyepesi. Hiyo ni kesi na [Ujumbe Oblivious Retrieval (OMR)](https://zfnd.org/oblivious-message-retrieval/), ujenzi wa msingi imekuwa kusoma kuamua kama inatoa suluhisho uwezo kwa matatizo ya utendaji hivi karibuni kwamba kuwa na walioathirika Zcash wallet watumiaji.
+Pia, Zcash Foundation imekuwa ikichunguza njia mbadala za kuboresha utendaji wa pochi nyepesi. Hivi ndivyo ilivyo kwa [Urejeshaji wa Ujumbe Usiofahamu (OMR)](https://zfnd.org/oblivious-message-retrieval/), muundo ambao foundation imekuwa ikiuchunguza “ili kubaini kama unatoa suluhisho linalowezekana kwa matatizo ya hivi karibuni ya utendaji yaliyoathiri watumiaji wa pochi wa Zcash.”
 
 ## Makosa ya Kawaida
 
-** Kufikiria lightwalletd server anajua usawa wako.** Server tu hutoa vitalu compact; mkoba yako decrypts na tafsiri yao ndani ya nchi kwa funguo zako mwenyewe.
+**Kudhani seva ya lightwalletd inajua salio lako.** Seva huwasilisha block fupi pekee; pochi yako huzisimbua na kuzitafsiri ndani ya kifaa kwa funguo zako mwenyewe.
 
-**Kukomesha usawazishaji mapema sana.** Mbinu fulani hufanya fedha za hivi karibuni zinazotumika zipatikane kabla ya kusawazisha kamili kukamilika, lakini historia na maelezo ya zamani yanaweza kuwa bado yanaendelea.
+**Kusimamisha ulandanishaji mapema sana.** Baadhi ya mbinu hufanya fedha za hivi karibuni zinazoweza kutumika zipatikane kabla ya ulandanishaji kamili kukamilika, lakini historia na madokezo ya zamani huenda bado yanachakatwa.
 
-**Kulinganisha Zcash usawazishaji moja kwa moja na uwazi-mnyororo wa kusawazisha.** Njia polepole inaweza kuwa gharama ya kuhifadhi faragha, si kasoro  mkoba ni kufanya kazi ambayo umma sarafu server ingekuwa vinginevyo kufanya kusoma akaunti yako wazi.
+**Kulinganisha ulandanishaji wa Zcash moja kwa moja na ulandanishaji wa mnyororo wa uwazi.** Njia ya polepole zaidi inaweza kuwa gharama ya kuhifadhi faragha, si kasoro — pochi inafanya kazi ambayo seva ya sarafu ya umma ingefanya kwa kusoma akaunti yako waziwazi.
 
 
 ## Kurasa Zinazohusiana
 
-- [Nodes Lightwallet](/zcash-tech/lightwallet-nodes)  lightwalletd miundombinu ambayo mwanga pochi kutegemea.
-- [Kuangalia funguo za kuvinjari](/zcash-tech/viewing-keys)  funguo pochi kutumia kugundua na decrypt noti zao wenyewe.
-- [Pepper Sync Kiungo cha Uzalishaji wa Maudhui ya Kimwili](/zcash-tech/pepper-sync)  mbinu nyingine ya Zcash mkoba usawazishaji.
-- [FROST](/zcash-tech/frost)  kusambazwa kusaini mamlaka kwa ZEC shielded.
+- [Node za Lightwallet](/zcash-tech/lightwallet-nodes) — miundombinu ya lightwalletd ambayo pochi nyepesi hutegemea.
+- [Funguo za kutazama](/zcash-tech/viewing-keys) — funguo ambazo pochi hutumia kugundua na kusimbua madokezo yake yenyewe.
+- [Pepper Sync](/zcash-tech/pepper-sync) — mbinu nyingine ya ulandanishaji wa pochi wa Zcash.
+- [FROST](/zcash-tech/frost) — mamlaka ya usaini iliyosambazwa kwa ZEC ya faragha.

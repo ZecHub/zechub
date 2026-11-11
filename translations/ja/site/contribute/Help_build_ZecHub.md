@@ -2,40 +2,40 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# ZecHub の構築を手伝う
+# ZecHubの構築にご協力ください 
 
-あなたが Zcash コミュニティのメンバーで、ZecHub の構築に貢献したいと考えているなら、とても役立つことがいくつかあります。
+Zcashコミュニティのメンバーで、ZecHubの構築に貢献したい場合は、非常に役立つことがいくつかあります。
 
-ニュースレター向けのリンクをキュレーションし、ニュースレターの GitHub ページに追加する: -> [手順はこちらをクリック](https://github.com/ZecHub/zechub/blob/main/site/contribute/ZecWeekly_Newsletter.md)
+ニュースレター（newsletter）向けのリンクをキュレーションし、ニュースレターのGitHubページに追加してください： -> [手順についてはこちらをクリックしてください](https://github.com/ZecHub/zechub/blob/main/site/contribute/ZecWeekly_Newsletter.md)
 
-Wiki ドキュメントの事実確認を行い、編集を提案し、GitHub で新しいページを提案する
+ウィキのドキュメントをファクトチェックし、編集を提案し、GitHubで新しいページを提案してください。
 
-以下のカテゴリの動画コンテンツを作成する:
+以下のカテゴリーで動画コンテンツを作成してください：
 ```
 * Zcash explainer videos
 * Zcash wallet guide/tutorials
 * Third-party application demos
 ```
 
-Zcash とプライバシーのエコシステム向けに、ポスター／グラフィック／アニメーションなどのデザインを制作する
+Zcashおよびプライバシー（Privacy）エコシステム向けに、ポスター、グラフィック、アニメーションなどのデザインを制作してください。
 
-既存の wiki ページを翻訳する。
+既存のウィキページを翻訳してください。
 
-バグを報告する
+バグの報告
 
 ### 報酬
 
-ZECの金額は固定されていません。[報奨金額ポリシー](https://bounties.zechub.wiki/docs/bounty-amounts)に従ってください。作業の分類に応じた米ドルの範囲を選び、スポット価格で換算し、ボードにZECを入力します。このポリシーが唯一の正しい情報源です。
+ZECでは金額は固定されていません。[報奨金額ポリシー](https://bounties.zechub.wiki/docs/bounty-amounts)を使用してください。作業の種類に応じたUSDの範囲を選び、スポット価格で換算し、ボードにZECを入力してください。このポリシーが唯一の正確な情報源です。
 
 貢献者のワークフローと作業の種類：[ZecHubへの貢献](https://zechub.wiki/contribute/contributing-guide)。
 
-プラットフォームの使い方：
+プラットフォームの解説：
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
     className="w-full h-full"
     src="https://www.youtube.com/embed/Lb5Bvl1GkRQ"
-    title="ZecBountiesの解説 | 貢献してZECを獲得"
+    title="ZecBounties Explained | Earn ZEC by Contributing"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowFullScreen
     loading="lazy"
@@ -50,17 +50,19 @@ ZECの金額は固定されていません。[報奨金額ポリシー](https://
 
 [ZEC Bounties](https://bounties.zechub.wiki/)
 
-[ZecHub GitHub Issues](https://github.com/ZecHub/zechub/issues)
+[ZecHub GitHubの課題](https://github.com/ZecHub/zechub/issues)
 
-[ZecHub-Wiki GitHub Issues](https://github.com/ZecHub/zechub-wiki/issues)
+[ZecHub-Wiki GitHubの課題](https://github.com/ZecHub/zechub-wiki/issues)
 
-ほかにも貢献したい方法があれば、Twitter で ZecHub ([@ZecHub](https://twitter.com/zechub)) にメッセージを送るか、[Discord](https://discord.gg/zcash) に参加してください。
+
+
+ほかにも貢献したい方法がある場合は、TwitterでZecHub（[@ZecHub](https://twitter.com/zechub)）にメッセージを送るか、[Discord](https://discord.gg/zcash)に参加してください。
 
 ____
 
-**支払いを行うために、ZecHub はすべてのコントリビューターに対し、氏名と Shielded を記載した申告フォームの記入を求めています:**
+**支払いを行うため、ZecHubではすべての貢献者に氏名とシールドされた（Shielded）情報を含む申告フォームへの記入を求めています：**
 
-**( Zcash | Namada | Penumbra | Ycash ) アドレス**
+**（ Zcash | Namada | Penumbra | Ycash ）アドレス（address）**
 
 ____
 

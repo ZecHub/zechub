@@ -1,107 +1,107 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Start_Here/Developer_Resources.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Dezie Peeji"/>
 </a>
 
 
-# Akụrụngwa Onye Mmepụta
+# Ngwá ọrụ [Resources] Onye mmepụta [Developer]
 
-Ihe ndị ị chọrọ iji wuo na Zcash, nke a chịkọtara site n'ihe onye ọ bụla bụ maka kama edepụtara ya n'otu ikpo.
+Ngwá ọrụ ndị ị chọrọ iji wuo ihe na Zcash, ekewara ha dabere n'ihe nke ọ bụla ji arụ ọrụ kama idepụta ha n'otu ikpo.
 
-zcashd, nke na-agba ọsọ netwọkụ maka ọtụtụ akụkọ ihe mere eme ya, ruru njedebe ndụ ya na 18 July 2026 na ngọngọ dị elu 3417100, yana ọnụ ọ bụla a gbanwere agbanwe ga -emechi n'ogologo ahụ ma jụ ịmaliteghachi. Ntuziaka edere maka zcashd bụ akụkọ ntolite ugbu a kama ịbụ ebe mbido, yabụ edepụtara ibe a gburugburu ihe dochie anya ya.
+Nchịkọta teknụzụ ahụ gbanwere nke ukwuu n'afọ 2026. zcashd, nke na-agba netwọk [network] ahụ n'ọtụtụ akụkọ ndụ ya, rutere ngwụcha ndụ ya na 18 Julaị 2026 n'ịdị elu block 3417100, node ọ bụla a na-agbanweghị emechiri n'ịdị elu ahụ ma ga-ajụ ịmalite ọzọ. Nduzi e dere maka zcashd bụzi akụkọ ihe mere eme kama ịbụ ebe a ga-amalite, ya mere a haziri peeji a gburugburu ihe dochiri ya.
 
-## Ihe ndị dị n'elu na-egosi otu ihe.
+## Nchịkọta teknụzụ ahụ n'ile anya
 
-| Akwa oyi akwa | Ihe a ga-eji | Malite na |
+| Oyi akwa | Ihe ị ga-eji | Malite na |
 |:--|:--|:--|
-| Ọnụ zuru ezu | Zebra ma ọ bụ Zakura | [Akwụkwọ Zebra](https://zebra.zfnd.org/), [zakura.com](https://zakura.com/) |
-| Obere akpa nodu zuru oke | Zallet, na beta | [Akwụkwọ Zallet](https://zcash.github.io/zallet/) |
-| Ihe nkesa obere akpa ego | Zaino ma ọ bụ lightwalletd | [Zaino](https://github.com/zingolabs/zaino), [lightwalletd](https://github.com/zcash/lightwalletd) |
-| Ọbá akwụkwọ obere akpa | Igbe librustzcash | [librustzcash](https://github.com/zcash/librustzcash) |
-| Mkpanaka | SDKs gam akporo na iOS | [Android](https://github.com/zcash/zcash-android-wallet-sdk), [iOS](https://github.com/zcash/zcash-swift-wallet-sdk) |
-| Nkọwapụta | Nkọwapụta usoro na ZIP | [zips.z.cash](https://zips.z.cash) |
+| Full node | Zebra ma ọ bụ Zakura | [Akwụkwọ Zebra](https://zebra.zfnd.org/), [zakura.com](https://zakura.com/) |
+| E-akpa ego [wallet] full node | Zallet, nọ na beta | [Akwụkwọ Zallet](https://zcash.github.io/zallet/) |
+| Sava e-akpa ego light | Zaino ma ọ bụ lightwalletd | [Zaino](https://github.com/zingolabs/zaino), [lightwalletd](https://github.com/zcash/lightwalletd) |
+| Ọbá akwụkwọ e-akpa ego | Crates librustzcash | [librustzcash](https://github.com/zcash/librustzcash) |
+| Mkpanaaka | SDKs Android na iOS | [Android](https://github.com/zcash/zcash-android-wallet-sdk), [iOS](https://github.com/zcash/zcash-swift-wallet-sdk) |
+| Nkọwapụta | Nkọwapụta protocol na ZIPs | [zips.z.cash](https://zips.z.cash) |
 
-## Nọmba ndị dị na ya
+## Nodes
 
-Otu ọnụ na-akwado nkwekọrịta ma jide agbụ. E nwere mmejuputa abụọ a zụlitere nke ọma.
+Node na-enyocha consensus ma na-edobe chain. E nwere mmejuputa abụọ a ka na-emepụta nke ọma.
 
-[Zebra](/zcash-tech/zebra-full-node) bụ Zcash Foundation's node, nke e dere na Rust, ọ bụkwa ya ka ọtụtụ ndị nduzi ugbu a chere. [Akwụkwọ Zebra ahụ](https://zebra.zfnd.org/) na-ekpuchi wụnye ya ma rụọ ọrụ, nakwa ndị ọzọ. [ebe nchekwa data](https://github.com/ZcashFoundation/zebra) bụ ebe mmepe na-eme.
+[Zebra](/zcash-tech/zebra-full-node) bụ node nke Zcash Foundation, edere ya na Rust, ma bụrụkwa nke ọtụtụ nduzi na-eche ugbu a. [Akwụkwọ Zebra](https://zebra.zfnd.org/) na-akọwa otu esi wụnye ma gbaa ya, ebe [repository](https://github.com/ZcashFoundation/zebra) bụ ebe mmepe na-eme.
 
-[Zakura](/zcash-tech/zakura-node) is a newer node, described by its authors as a "consensus-compatible Zcash full node, built for scale", with faster sync, block pruning and a zcashd compatibility mode. It is led by Sean Bowe, a Zcash cofounder, and Dev Ojha. It is open source under Apache 2.0 at [zakura-core/zakura (nke a na-akpọ 'Zakura' n'asụsụ Igbo)](https://github.com/zakura-core/zakura).
+[Zakura](/zcash-tech/zakura-node) bụ node ọhụrụ, nke ndị dere ya kọwara dịka “full node Zcash kwekọrọ na consensus, nke e wuru maka ogo”, nwere sync ngwa ngwa, ịkpụchapụ block na ọnọdụ ndakọrịta zcashd. Ọ bụ Sean Bowe, onye na-arụkọ Zcash, na Dev Ojha na-edu ya. Ọ bụ open source n'okpuru Apache 2.0 na [zakura-core/zakura](https://github.com/zakura-core/zakura).
 
-ZecHub nwere a [Nọmba zuru ezu](/zcash-tech/full-nodes) peeji nke na-ekpuchi ahia n'etiti ha.
+ZecHub nwere peeji [Full Nodes](/zcash-tech/full-nodes) nke na-akọwa ọdịiche dị n'etiti ha.
 
-## Akpa ego zuru oke nke node ahụ
+## E-akpa ego full node
 
-zcashd gbakọtara obere akpa ego na ọnụ ahụ. Akpaego a apụla, ma [Zallet](https://github.com/zcash/zallet) bụ ihe nnọchianya. Akwụkwọ Zallet na-akọwa ya dị ka "akpa ego Zcash zuru oke nke edere na Rust" a na -ewu dịka onye ga -anọchite anya akpa zcashd".
+zcashd jikọtara e-akpa ego na node. E-akpa ego ahụ adịkwaghị, ma [Zallet](https://github.com/zcash/zallet) bụ ihe dochiri ya. Akwụkwọ Zallet kọwara ya dịka “e-akpa ego Zcash full-node e dere na Rust” nke “a na-ewu dịka ihe dochiri e-akpa ego zcashd”.
 
-Gụọ ịdọ aka ná ntị nche tupu ịdabere na ya. Zallet nọ na beta, "a nyochaghi nke ọma", imebi mgbanwe nwere ike ịme n'oge ọ bụla, chọrọ ka ihichapụ ma mepụta akpa ego gị Zallet ", a kabeghịkwa usoro zcashd RPC niile.
+Gụọ ịdọ aka ná ntị gbasara nchekwa tupu ịdabere na ya. Zallet nọ na beta, “enyochabeghị ya nke ọma”, mgbanwe na-emebi emebi “nwere ike ime n'oge ọ bụla, chọrọ ka ị hichapụ ma mepụta ọzọ e-akpa ego Zallet gị”, ọ bụghịkwa ụzọ RPC zcashd ọ bụla ka e bugorola.
 
-Ọ bụrụ na ị na-akpụ akpụ ẹdude ntọlite gafee, ZecHub nwere a [ntuziaka mbugharị site na zcashd gaa Zebra na Zallet.](/guides/migration-guide-zcashd-to-zebrad-zallet) na a [Zallet ngwa-ngwa ntụaka.](/using-zcash/zallet-quick-reference-guide).
+Ọ bụrụ na ị na-ebufe nhazi dị adị, ZecHub nwere nduzi [mbufe site na zcashd gaa na Zebra na Zallet](/guides/migration-guide-zcashd-to-zebrad-zallet) yana ntụaka ngwa ngwa [Zallet](/using-zcash/zallet-quick-reference-guide).
 
-## Ndị na-enye ihe ntanetị akpa ego dị mfe
+## Sava e-akpa ego light
 
-Ọtụtụ obere akpa anaghị agba ọsọ. Ha na-agwa onye nkesa nke na-ejide agbụ ma nyeghachi ya echiche kọmpat banyere ya.
+Ọtụtụ e-akpa ego anaghị agba node. Ha na-agwa sava na-edobe chain okwu, nke na-eweghachikwara ha nlele kọmpat nke ya.
 
-[lightwalletd](https://github.com/zcash/lightwalletd) bụ ọrụ mbụ, nke e dere na Go, akọwapụtara dị ka "ọrụ azụ-azụ nke na-enye interface bandwidth arụmọrụ maka Zcash blockchain". [Zaino](/zcash-tech/zaino) bụ ihe ọhụrụ indexer, e dere na Rust, ma gụọ site na onye nyocha zuru ezu kama ibute akwụkwọ nke ya.
+[lightwalletd](https://github.com/zcash/lightwalletd) bụ ọrụ mbụ, edere na Go, nke akọwara dịka “ọrụ backend na-enye ihu ọma na-echekwa bandwidth nye blockchain Zcash”. [Zaino](/zcash-tech/zaino) bụ indexer ọhụrụ, edere na Rust, ma na-agụ site na full validator kama iburu nke ya nke chain.
 
-Ihe ahụ bụ: [Usoro Nkwado Ndị Ahịa Dị Mfe](https://zcash.readthedocs.io/en/latest/lightwalletd/index.html) akwụkwọ na-ekpuchi protocol onwe ya. The [Lightwallet Nodes (Nọmba nke obere akpa ego)](/zcash-tech/lightwallet-nodes) peeji na-ekpuchi ihe ndị a sava nwere ike ma ghara ịhụ banyere onye ọrụ, nke bara uru ịghọta tupu ị họrọ otu.
+Akwụkwọ [Light Client Protocol](https://zcash.readthedocs.io/en/latest/lightwalletd/index.html) na-akọwa protocol ahụ n'onwe ya. Peeji [Lightwallet Nodes](/zcash-tech/lightwallet-nodes) na-akọwa ihe sava ndị a nwere ike ịhụ na ihe ha na-enweghị ike ịhụ gbasara onye ọrụ, nke kwesịrị ka a ghọta tupu ịhọrọ otu.
 
-## Ịmepụta obere akpa ego
+## Iwulite e-akpa ego
 
-Ọtụtụ ọrụ ego na-eme n'ime igbe nchara dị n'okpuru. [librustzcash](https://github.com/zcash/librustzcash), nke SDKs mobile na ọtụtụ desktọọpụ wallets wuru. A na-edepụta igbe ọ bụla n'elu akwụkwọ ozi dị mkpa maka nchekwa data ha, ma nwee ike ịnweta ya site na iji ihe nchọgharị weebụ . [akwụkwọ.rs](https://docs.rs).
+Ọtụtụ ọrụ e-akpa ego na-eme na crates Rust dị n'okpuru [librustzcash](https://github.com/zcash/librustzcash), nke SDK mkpanaaka na ọtụtụ e-akpa ego desktọpụ na-ewukwasị. A na-edepụta crate ọ bụla na [docs.rs](https://docs.rs).
 
-| Kretị | Ihe ọ bụ maka ya |
+| Crate | Ihe ọ bụ maka ya |
 |:--|:--|
-| zcash_client_backend | "APIs maka imepụta ndị ahịa Zcash na-echebe", gụnyere mmekọrịta na owuwu azụmahịa |
-| zcash_client_sqlite | "Onye ahịa ọkụ Zcash nke dabeere na SQLite", oyi akwa nchekwa maka ihe dị n'elu |
-| zcash_keys | "Zcash na njikwa adreesị" |
-| zcash_primitives | "Mmejuputa nchara nke Zcash primitives" |
-| zcash_protocol | "Zcash protocol" |
-| orchard | "Usoro azụmahịa nke Orchard kpuchiri" |
-| sapling-crypto | "Ọbá akwụkwọ cryptographic maka Zcash Sapling" |
-| pczt | "Ngwaọrụ maka ịrụ ọrụ na azụmahịa Zcash e kere n'ime akụkụ", nke eji maka mbinye aka ngwaike na ngwaọrụ dị iche iche |
-| zip321 | URI arịrịọ ịkwụ ụgwọ, dịka akọwara na ZIP 321 |
+| zcash_client_backend | “APIs maka imepụta light clients Zcash nke e chebere echebe [shielded]”, gụnyere sync na iwu Azụmahia [transaction] |
+| zcash_client_sqlite | “Light client Zcash dabere na SQLite”, oyi akwa nchekwa maka nke dị n'elu |
+| zcash_keys | “Njikwa igodo na Adreesị akpa ego [address] Zcash” |
+| zcash_primitives | “Mmejuputa Rust nke primitives Zcash” |
+| zcash_protocol | “Constants netwọk protocol Zcash na ụdị uru” |
+| orchard | “Protocol Azụmahia nke e chebere echebe Orchard” |
+| sapling-crypto | “Ọbá akwụkwọ cryptographic maka Zcash Sapling” |
+| pczt | “Ngwá ọrụ maka ịrụ ọrụ na Azụmahia Zcash e mepụtara akụkụ ụfọdụ”, eji maka hardware na ịbinye signature n'ọtụtụ ngwaọrụ |
+| zip321 | URIs arịrịọ Kwụọ ụhwọ [payment], dịka e kwuru na ZIP 321 |
 
-Maka mobile, ndị na-ahụ maka ihe nkiri. [Android SDK](https://github.com/zcash/zcash-android-wallet-sdk) na ndị ọzọ. [iOS SDK](https://github.com/zcash/zcash-swift-wallet-sdk) a na-akpọbu ebe nchekwa iOS ZcashLightClientKit, ya mere njikọ ndị okenye na isiokwu jiri aha ahụ.
+Maka mkpanaaka, SDK [Android](https://github.com/zcash/zcash-android-wallet-sdk) na [iOS SDK](https://github.com/zcash/zcash-swift-wallet-sdk) na-ekpuchi ọbá akwụkwọ ndị ahụ. A na-akpọbu repository iOS ahụ ZcashLightClientKit, ya mere njikọ na isiokwu ochie na-eji aha ahụ.
 
 ## Nkọwapụta na cryptography
 
-Ihe ahụ bụ: [nkọwapụta protocol](https://zips.z.cash/protocol/protocol.pdf) bụ ikike na etu Zcash si arụ ọrụ, gụnyere: [adreesị na igodo nzuzo.](https://zips.z.cash/protocol/protocol.pdf#5.6%20Encodings%20of%20Addresses%20and%20Keys).
+[Nkọwapụta protocol](https://zips.z.cash/protocol/protocol.pdf) bụ ikike kacha elu gbasara otu Zcash si arụ ọrụ, gụnyere [nkowa Adreesị akpa ego na igodo](https://zips.z.cash/protocol/protocol.pdf#5.6%20Encodings%20of%20Addresses%20and%20Keys).
 
-[ZIPs (nkwado ndị na-eme ihe)](https://zips.z.cash) na-egosi ihe ndị e mere atụmatụ ha ga-eme ma ọ bụ nke a kagburu. Mgbanwe dị iche iche a na-enwe n'otu oge ahụ, nakwa mgbanwe ndị ọzọ a chọrọ ime ná ngwụsị afọ gara aga, socha ebe niile ZecHub nọ mee nchọpụta maka ya. [Nwelite netwọkụ](/start-here/network-upgrades) peeji nke.
+[ZIPs](https://zips.z.cash) bụ ebe a na-atụpụta ma na-akọwapụta mgbanwe, index ahụ na-egosikwa nke bụ drafts na nke bụ final. Mgbanwe consensus na-apụta na network upgrade, ZecHub na-esochikwa ndị ahụ na peeji [Network Upgrades](/start-here/network-upgrades).
 
-Maka ihe nzuzo dị n'okpuru, gụọ [Akwụkwọ Halo2 Book](https://zcash.github.io/halo2/index.html) na nke a: [Akwụkwọ Bekee a na-akpọ The Orchard Book.](https://zcash.github.io/orchard/), na ndị a: [halo2 (ihe na-acha anụnụ anụnụ)](https://docs.rs/halo2_proofs/latest/halo2_proofs/) na nke a: [ubi mkpụrụ osisi](https://docs.rs/orchard/latest/orchard/) igbe dọkụmentị n'akụkụ. [The FROST Book](https://frost.zfnd.org/) na-ekpuchi ihe nkesa, ZecHub nwere a [FROST](/zcash-tech/frost) peeji nke.
+Maka cryptography dị n'okpuru, gụọ [Akwụkwọ halo2](https://zcash.github.io/halo2/index.html) na [Akwụkwọ Orchard](https://zcash.github.io/orchard/), tinyere docs crate [halo2](https://docs.rs/halo2_proofs/latest/halo2_proofs/) na [orchard](https://docs.rs/orchard/latest/orchard/). [Akwụkwọ FROST](https://frost.zfnd.org/) na-akọwa signatures n'ọkwa, ZecHub nwekwara peeji [FROST](/zcash-tech/frost).
 
-## Nnyocha nyocha
+## Testnet
 
-Testnet bụ usoro dị iche na mkpụrụ ego enweghị uru, akpọrọ TAZ. Ma Zebra ma Zakura nwere ike ịgba ọsọ megide ya, ndị ọzọ ga-abụkwa onye isi nke ụlọ ọrụ ahụ. [akwụkwọ ntuziaka ule netiti.](https://zcash.readthedocs.io/en/latest/rtd_pages/testnet_guide.html) na-ekpuchi nhazi nke node.
+Testnet bụ chain dị iche nwere mkpụrụ ego [coins] na-enweghị uru, nke a na-akpọ TAZ. Ma Zebra na Zakura nwere ike ịgba megide ya, nduzi [testnet](https://zcash.readthedocs.io/en/latest/rtd_pages/testnet_guide.html) na-akọwakwa nhazi node.
 
-[testnet.zcashexplorer.app (n'asụsụ Igbo)](https://testnet.zcashexplorer.app/) bụ a na-arụ ọrụ testnet ngọngọ explorer, na a mainnet counterpart n'oge [mainnet.zcashexplorer.app](https://mainnet.zcashexplorer.app/).
+[testnet.zcashexplorer.app](https://testnet.zcashexplorer.app/) bụ block explorer testnet na-arụ ọrụ, nke nwere nke mainnet kwekọrọ na ya na [mainnet.zcashexplorer.app](https://mainnet.zcashexplorer.app/).
 
-Inweta TAZ bụ akụkụ na-adịghị mma, n'ihi na ọkpọkọ ndị jikọtara site na akwụkwọ ochie akwụsịla ịzaghachi. [zcashfaucet.jinolabs.xyz ụlọọrụ na-ahụ maka ihe ndị dị ndụ](https://zcashfaucet.jinolabs.xyz) is a community-run faucet that runs "its own node, wallet and miner", pays "shielded z2z drips", and gates claims with "browser proof of work instead of a captcha vendor". It is open source under MIT. If it is unavailable, ask in the Zcash R&D Discord, which is what the Zcash documentation itself suggests.
+Inweta TAZ bụ akụkụ siri ike, n'ihi na faucets ejikọrọ na akwụkwọ ochie akwụsịla ịza. [zcashfaucet.jinolabs.xyz](https://zcashfaucet.jinolabs.xyz) bụ faucet obodo na-agba “node, e-akpa ego na onye na-egwụputa [miner] nke ya”, na-akwụ “ntapụ z2z nke e chebere echebe”, ma jiri “proof [proof] ọrụ ihe nchọgharị kama onye na-enye captcha” chekwaa arịrịọ. Ọ bụ open source n'okpuru MIT. Ọ bụrụ na ọ naghị adị, jụọ na Zcash R&D Discord, nke bụ ihe akwụkwọ Zcash n'onwe ya tụrụ aro.
 
-## Akwụkwọ ndekọ ahụ dum
+## Akwụkwọ nkuzi izugbe
 
-[Akwụkwọ Zcash](https://zcash.readthedocs.io/en/latest/) bụ ka ọ bụrụ isi mmalite kachasị, na-ekpuchi echiche nke usoro iwu, njikọta na igwupụta. Gụọ ya nlezianya ụfọdụ. Ọ dị iche megide zcashd, yabụ akụkụ ya kọwara ọnụ ahụ anaghịzi agba ọsọ, ebe ngalaba protocol na ọkụ ndị ahịa nọgidere bara uru. [Ihe Egwu Ngwa Zcash Wallet App Model](https://zcash.readthedocs.io/en/latest/rtd_pages/wallet_threat_model.html) nke bi n'ebe ahụ kwesịrị ịgụ tupu emebe ihe ọ bụla na-emetụ nzuzo onye ọrụ.
+[Zcash Documentation](https://zcash.readthedocs.io/en/latest/) ka bụ otu ebe kasị saa mbara, na-ekpuchi echiche protocol, njikọta na ịgwụputa [mining]. Jiri nlezianya gụọ ya. E debere ụdị ya dabere na zcashd, ya mere akụkụ ụfọdụ ya na-akọwa node na-adịghị agba ọzọ, ebe akụkụ protocol na light client ka bara uru. [Ihe Nlereanya Egwu App E-akpa ego Zcash](https://zcash.readthedocs.io/en/latest/rtd_pages/wallet_threat_model.html) dị ebe ahụ kwesịrị ịgụ tupu ịmepụta ihe ọ bụla metụtara Nzuzo [privacy] onye ọrụ.
 
-Ọ bụrụ na ị bụ ọhụrụ ka blockchains n'ozuzu, [Ịmụta Bitcoin nke Ọma](https://github.com/bitcoinbook/bitcoinbook) bụ ihe a na-emekarị maka isi ihe ndị ahụ, ọ dịkwa n'efu ịgụ ya kpamkpam. Ọ naghị ekpuchi azụmahịa echekwara.
+Ọ bụrụ na ị bụ onye ọhụrụ na blockchains n'ozuzu, [Mastering Bitcoin](https://github.com/bitcoinbook/bitcoinbook) bụ nkwado a na-enyekarị maka ntọala ha na-ekekọrịta, ọ bụkwa n'efu ịgụ ya dum. Ọ naghị ekpuchi Azụmahia nke e chebere echebe.
 
-## Ngwaọrụ ndị ọzọ na-emepụta ihe ekwuola.
+## Ngwá ọrụ ndị ọzọ ndị onye mmepụta kwuru maka ha
 
-[Arti na-ekwu, sị:](https://docs.rs/arti/latest/arti/) bụ mmejuputa Rust nke Tor, eji zcash_client_backend iji mee ka okporo ụzọ akpa ego. [Ọkpụkpụ azụ](https://github.com/tailscale/tailscale) na-abịa maka ijikọ ọnụ ị na-agba onwe gị. [warp2 (nke abụọ)](https://github.com/hhanh00/warp2) bụ ngwa ngwa Hanh na-emejuputa, ọ bụ ezie na emelitebeghị ya kemgbe 2023.
+[Arti](https://docs.rs/arti/latest/arti/) bụ mmejuputa Rust nke Tor, nke zcash_client_backend ji eziga okporo ụzọ e-akpa ego. [Tailscale](https://github.com/tailscale/tailscale) na-apụta maka ijikọta na node ị na-agba n'onwe gị. [warp2](https://github.com/hhanh00/warp2) bụ mmejuputa sync ngwa ngwa nke Hanh, n'agbanyeghị na emelitebeghị ya kemgbe 2023.
 
-## Obodo na ihe omume
+## Obodo na mmemme
 
-Ihe ahụ bụ: [Zcash R&D Discord](https://discord.gg/6AK7keWFaK) bụ ebe a na-atụle usoro iwu na mmepe wallet, yana ihe ndị ọzọ. [Nzukọ Obodo Zcash Forum](https://forum.zcashcommunity.com/) na-ebu ogologo oge atụmatụ ma kwado eri.
+[Zcash R&D Discord](https://discord.gg/6AK7keWFaK) bụ ebe a na-atụle mmepe protocol na e-akpa ego, ebe [Zcash Community Forum](https://forum.zcashcommunity.com/) na-eburu atụmatụ ogologo na eriri nkwado.
 
-Nsonaazụ hackathon ndị na-adịbeghị anya bụ ezigbo ihe osise nke ihe ndị mmadụ na-ewu: [ZecHub 2024](https://x.com/ZecHub/status/1845212469809033489), [ZecHub 2025](https://x.com/ZecHub/status/1975565960661635283) na ndị ọzọ. [Zypherpunk Hackathon 2025 (Nkeji nke 2025)](https://forum.zcashcommunity.com/t/zypherpunk-hackathon-winners/53985).
+Nsonaazụ hackathon ndị na-adịbeghị anya bụ ezigbo ihe osise nke ihe ndị mmadụ na-ewu: [ZecHub 2024](https://x.com/ZecHub/status/1845212469809033489), [ZecHub 2025](https://x.com/ZecHub/status/1975565960661635283) na [Zypherpunk Hackathon 2025](https://forum.zcashcommunity.com/t/zypherpunk-hackathon-winners/53985).
 
-## Akwụsịrị ego ndị a na-akwụ ụgwọ ha.
+## Akụrụngwa a kwụsịrị
 
-E debere ha n'ihi na isiokwu ndị ochie jikọtara ya, nakwa maka na ọ ka bụ ihe e ji ama etu ọnụ ahụ lara ezumike nká si akpa agwa. Amalitela ebe a.
+Edobere ha n'ihi na isiokwu ochie na-ejikọ ha, nakwa n'ihi na ha ka bụ ntụaka maka otu node ahụ a kwụsịrị si akpa àgwà. Amaliterela ebe a.
 
-[Akwụkwọ zcashd ahụ .](https://zcash.github.io/zcash/) na ndị ọzọ. [zcashd RPC ntụaka](https://zcash.github.io/rpc/) akwụkwọ software na ruru [ngwụcha ndụ ya.](https://zcash.github.io/zcash/user/end-of-life.html) na July 2026. The [zcash/zcash](https://github.com/zcash/zcash) a na-echekwa nchekwa data.
+[Akwụkwọ zcashd](https://zcash.github.io/zcash/) na ntụaka RPC [zcashd](https://zcash.github.io/rpc/) na-edepụta software rutere [ngwụcha ndụ](https://zcash.github.io/zcash/user/end-of-life.html) na Julaị 2026. Repository [zcash/zcash](https://github.com/zcash/zcash) ka edebere.
 
-Ọ bụrụ na ị nwere akụ iji tinye, ma ọ bụ hụ ihe ebe a nke ga-agwụla oge, mepee nsogbu ma ọ bụkwanụ rịọ arịrịọ. Ndị otu anaghị enwe ike idobe ihe niile ugbu a, yana ịkọwapụta ihe ị zutere na -enyere aka iduzi ndị nduzi ahụ.
+Ọ bụrụ na ị nwere akụrụngwa ị ga-agbakwunye, ma ọ bụ hụ ihe ebe a nke ochiela, mepee issue ma ọ bụ pull request. Ndị otu anaghị enwe ike mgbe niile idebe ihe niile n'oge, ịkọkwa ihe ị zutere na-enyere aka iduzi nduzi ndị ahụ.
 
-**Emelitere ikpeazụ:** Ọgọstụ 2026
+**Emelitere ikpeazụ:** Ọgọọst 2026

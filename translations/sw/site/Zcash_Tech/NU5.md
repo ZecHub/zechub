@@ -1,113 +1,113 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Zcash_Tech/NU5.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Hariri ukurasa"/>
 </a>
 
 # NU5
 
-> NU5 ilianza kuonekana kwenye mtandao mkuu wa Zcash katika kitalu namba 1,687,104 (Mei 31, 2022 UTC).
+> NU5 ilianza kutumika kwenye mainnet ya Zcash katika block 1,687,104 (Mei 31, 2022 UTC).
 
-Utakachochukua: jinsi NU5 ilivyompa Zcash bwawa jipya lililolindwa ambalo halihitaji usanidi unaoaminika, pamoja na aina moja ya anwani inayofanya kazi katika mabwawa yote.
+Utakachojifunza: jinsi NU5 ilivyoipa Zcash bwawa jipya la faragha [shielded pool] lisilohitaji usanidi unaoaminika, pamoja na aina moja ya anwani inayofanya kazi katika mabwawa mbalimbali.
 
-NU5 (Uboreshaji wa Mtandao 5) ni Zcash ya sita [uboreshaji wa mtandao](../start-here/network-upgrades), iliyotumwa na [ZIP 252](https://zips.z.cash/zip-0252)Ni uboreshaji mkubwa wa kriptografia. Ilianzisha itifaki ya malipo yenye ulinzi wa Orchard, iliyojengwa kwenye mfumo wa kuthibitisha Halo 2, pamoja na Anwani zilizounganishwa na umbizo jipya la muamala wa toleo la 5. NU5 ilisafirishwa katika toleo zcashd v5.0.0 Electric Coin Company's.
+NU5 (Uboreshaji wa Mtandao 5) ni uboreshaji wa sita wa mtandao wa Zcash [](../start-here/network-upgrades), uliotekelezwa na [ZIP 252](https://zips.z.cash/zip-0252). Ni uboreshaji mkubwa wa kriptografia. Ulianzisha itifaki ya malipo ya faragha ya Orchard, iliyojengwa kwa mfumo wa uthibitishaji wa Halo 2, pamoja na Anwani Zilizounganishwa na umbizo jipya la muamala la toleo la 5. NU5 ilitolewa katika toleo la v5.0.0 la Electric Coin Company la zcashd.
 
-Kwa nini hii ni muhimu? Bwawa lililolindwa linaaminika tu kama mpangilio ulioliunda. Bwawa mbili za kwanza zilizolindwa Zcash's, Sprout na Sapling, kila moja ilihitaji sherehe ya usanidi inayoaminika mara moja ili kutoa vigezo vyake vya siri. Kama vigezo hivyo vingehifadhiwa badala ya kuharibiwa, mtu angeweza kuchapisha ZEC bandia bila mtu yeyote kuiona. Bwawa Orchard NU5's linafunga wasiwasi huo kwa kutumia mfumo wa kuthibitisha Halo 2, ambao hauhitaji sherehe kama hiyo.
+Kwa nini hili ni muhimu. Bwawa la faragha linaaminika tu kadiri usanidi uliolitengeneza unavyoaminika. Mabwawa mawili ya kwanza ya faragha ya Zcash, Sprout na Sapling, kila moja lilihitaji sherehe ya mara moja ya usanidi unaoaminika ili kutengeneza vigezo vyake vya siri. Kama vigezo hivyo vingehifadhiwa badala ya kuharibiwa, mtu angeweza kutengeneza ZEC bandia bila mtu yeyote kutambua. Bwawa la Orchard la NU5 linaondoa wasiwasi huo kwa kutumia mfumo wa uthibitishaji wa Halo 2, ambao hauhitaji sherehe kama hiyo.
 
-## Mpangilio unaoaminika
+## Usanidi unaoaminika
 
-Orchard ni itifaki iliyolindwa iliyoanzishwa na NU5, iliyofafanuliwa katika [ZIP 224](https://zips.z.cash/zip-0224)Imejengwa juu ya mfumo wa kuthibitisha Halo 2, ambao hutumia mbinu inayoitwa PLONKish arithmetization kwenye mzunguko wa mkunjo wa Pallas na Vesta. Faida ya vitendo ni rahisi: Halo 2 haihitaji usanidi unaoaminika na hakuna mfuatano wa marejeleo uliopangwa, kwa hivyo hakuna kigezo cha siri ambacho kinaweza kutumika vibaya.
+Orchard ni itifaki ya faragha iliyoanzishwa na NU5, iliyofafanuliwa katika [ZIP 224](https://zips.z.cash/zip-0224). Imejengwa kwa mfumo wa uthibitishaji wa Halo 2, unaotumia mbinu iitwayo arithmetization ya PLONKish kwenye mzunguko wa mikunjo ya Pallas na Vesta. Faida ya kiutendaji ni rahisi: Halo 2 haihitaji usanidi unaoaminika wala mfuatano wa marejeleo uliopangwa, hivyo hakuna kigezo cha siri kinachoweza kutumika vibaya.
 
-Sprout na Sapling zote zilitegemea mpangilio unaoaminika. Kundi la watu liliendesha sherehe ya kujenga vigezo vya kila bwawa la kuogelea, na kila mtu alilazimika kuamini kwamba angalau mmoja wao aliharibu sehemu yake ya siri. Orchard huondoa dhana hiyo. Mabwawa ya kuogelea ya zamani bado yapo baada ya NU5, kwa hivyo dhamana ya kutoweka inatumika kwa fedha unazomiliki katika bwawa la kuogelea Orchard.
+Sprout na Sapling zote zilitegemea usanidi unaoaminika. Kundi la watu lilifanya sherehe ili kujenga vigezo vya kila bwawa, na kila mtu alipaswa kuamini kuwa angalau mmoja wao aliharibu sehemu yake ya siri. Orchard linaondoa dhana hiyo. Mabwawa ya zamani bado yapo baada ya NU5, kwa hiyo dhamana ya kutohitaji usanidi inatumika kwa fedha unazoshikilia katika bwawa la Orchard.
 
 ![Before NU5, Sprout and Sapling needed a trusted setup ceremony. After NU5, the Orchard pool uses the Halo 2 system and needs no trusted setup](/content-images/nu5-trusted-setup-5447dbe3f2.webp)
 
-## Kilichobadilika NU5
+## Mabadiliko yaliyofanywa na NU5
 
-NU5 huunganisha mabadiliko kadhaa ya makubaliano, yote yakiwashwa pamoja katika kitalu namba 1,687,104.
+NU5 huunganisha mabadiliko kadhaa ya makubaliano, yote yakianzishwa pamoja katika block 1,687,104.
 
-1. Iliongeza bwawa la kuogelea lililolindwa na Orchard (ZIP 224), itifaki ya Halo 2 iliyoelezwa hapo juu.
-2. Iliongeza umbizo la muamala wa toleo la 5 (ZIP 225), mpangilio uliorekebishwa upya wenye maeneo tofauti kwa ajili ya data ya uwazi, Sapling, na Orchard mpya. Sehemu za Sprout ziliondolewa, na umbizo la toleo la 4 la zamani liliendelea kuwa halali baada ya kuamilishwa.
-3. Ilianzisha Anwani Zilizounganishwa na funguo za kutazama zilizounganishwa (ZIP 316), zitakazojadiliwa katika sehemu inayofuata.
-4. Ilipitisha kitambulisho cha muamala kisichoweza kubadilika (ZIP 244), njia mpya ya kukokotoa kitambulisho cha muamala kinachotenganisha kile muamala hufanya kutoka kwa uthibitisho na sahihi zinazoidhinisha.
-5. Ilipitisha usimbaji wa nukta za Jubjub (ZIP 216) ili kuondoa usimbaji usio wa kawaida na kukaza sheria kuhusu kile kinachohesabiwa kama muamala halali.
-6. Iliwezesha uwasilishaji wa miamala ya toleo la 5 katika mtandao wa rika-kwa-rika (ZIP 239).
+1. Iliongeza bwawa la faragha la Orchard (ZIP 224), itifaki inayotegemea Halo 2 iliyoelezwa hapo juu.
+2. Iliongeza umbizo la muamala la toleo la 5 (ZIP 225), mpangilio ulioundwa upya wenye maeneo tofauti ya data ya uwazi, Sapling, na Orchard mpya. Sehemu za Sprout ziliondolewa, na umbizo la zamani la toleo la 4 lilibaki halali baada ya uanzishaji.
+3. Ilianzisha Anwani Zilizounganishwa na funguo za kutazama zilizounganishwa (ZIP 316), zinazofafanuliwa katika sehemu inayofuata.
+4. Ilikubali kutoweza kubadilishwa kwa kitambulishi cha muamala (ZIP 244), njia mpya ya kukokotoa kitambulisho cha muamala inayotenganisha kile ambacho muamala hufanya na mathibitisho na sahihi zinazoidhinisha muamala huo.
+5. Ilikubali usimbaji wa kanoni wa nukta za Jubjub (ZIP 216) ili kuondoa usimbaji usio wa kawaida na kuimarisha kanuni za kile kinachohesabika kama muamala halali.
+6. Iliwezesha usambazaji wa miamala ya toleo la 5 katika mtandao wa rika-kwa-rika (ZIP 239).
 
-NU5 pia imesasisha idadi ya ZIP zilizopo (32, 203, 209, 212, 213, 221, na 401) kwa hivyo zinawakilisha bwawa jipya Orchard.
+NU5 pia ilisasisha ZIP kadhaa zilizopo (32, 203, 209, 212, 213, 221, na 401) ili zizingatie bwawa jipya la Orchard.
 
 ## Anwani Zilizounganishwa
 
-Kabla ya NU5, kila bwawa lilikuwa na aina yake ya anwani, na mtumaji alipaswa kujua ni aina gani unayotaka. Anwani Zilizounganishwa, zilizofafanuliwa katika [ZIP 316](https://zips.z.cash/zip-0316), badilisha hilo. Anwani moja ya Unified inaweza kuunganisha vipokezi kwa zaidi ya kundi moja, kwa hivyo pochi ya mtumaji huchagua ile bora zaidi inayounga mkono.
+Kabla ya NU5, kila bwawa lilikuwa na aina yake ya anwani, na mtumaji alipaswa kujua aina uliyotaka. Anwani Zilizounganishwa, zilizofafanuliwa katika [ZIP 316](https://zips.z.cash/zip-0316), zinabadilisha hali hiyo. Anwani moja Iliyounganishwa inaweza kuunganisha vipokezi vya mabwawa zaidi ya moja, hivyo pochi ya mtumaji huchagua tu iliyo bora zaidi inayounga mkono.
 
 ![A unified address bundles receivers for several pools: a transparent receiver, a Sapling receiver, and a new Orchard receiver](/content-images/nu5-unified-address-6e2c84f66e.webp)
 
-Funguo za kutazama zilizounganishwa hufanya kazi vivyo hivyo kwa kutazama. Hutoa mwonekano wa kusoma pekee katika mabwawa na vifuniko vya anwani. Kwa maelezo zaidi kuhusu hilo, tazama [Funguo za Kutazama](../zcash-tech/viewing-keys) ukurasa.
+Funguo za kutazama zilizounganishwa hufanya kazi kwa njia hiyo hiyo kwa ajili ya kutazama. Hutoa uwezo wa kusoma pekee katika mabwawa yanayofunikwa na anwani. Kwa maelezo zaidi kuhusu hilo, tazama ukurasa wa [Funguo za kutazama](../zcash-tech/viewing-keys).
 
-## Ambapo NU5 iko
+## Nafasi ya NU5
 
-NU5 ilifuata maboresho ya awali Zcash's: Overwinter, Sapling, Blossom, Heartwood, na Canopy. Iliamilishwa kwenye mainnet mnamo Mei 31, 2022. Mzunguko wa mkunjo Orchard's ulichaguliwa kwa sababu unaunga mkono kujirudia, ambayo ni msingi wa kazi ya kuongeza ukubwa baadaye. NU5 ni mtangulizi wa moja kwa moja wa safu ya maboresho NU6 na NU6.x, ambayo ilijengwa kwenye bwawa Orchard na baadaye kuirekebisha.
+NU5 ilifuata maboresho ya awali ya Zcash: Overwinter, Sapling, Blossom, Heartwood, na Canopy. Ilianzishwa kwenye mainnet tarehe Mei 31, 2022. Mzunguko wa mikunjo wa Orchard ulichaguliwa kwa sababu unaunga mkono urejeleaji, ambao ni msingi wa kazi za baadaye za kupanua uwezo. NU5 ni mtangulizi wa moja kwa moja wa mstari wa maboresho wa NU6 na NU6.x, ambao ulijengwa juu ya bwawa la Orchard na baadaye kulirekebisha.
 
-## Faharasa
+## Fahirisi ya istilahi
 
-| Muhula | Maana ya Kiingereza-rahisi |
+| Istilahi | Maana kwa lugha rahisi |
 |---|---|
-| Network upgrade (NU) | Mabadiliko yaliyoratibiwa kwa sheria za makubaliano Zcash's, yaliyoamilishwa kwa urefu wa block uliowekwa |
-| Orchard | Bwawa la kuogelea lenye ulinzi NU5 lilianzishwa, limejengwa kwenye mfumo wa kuthibitisha Halo 2 |
-| Halo 2 | Mfumo wa kuthibitisha nyuma ya Orchard ambao hauhitaji usanidi unaoaminika |
-| Trusted setup | Sherehe ya mara moja ambayo hufanya vigezo vya siri vya bwawa la kuogelea na lazima viaminiwe kuviharibu |
-| Unified Address | Anwani moja inayoweza kuunganisha vipokezi kwa zaidi ya kundi moja (ZIP 316) |
-| Consensus branch id | Kitambulisho kinachoashiria ni seti gani ya sheria ambazo muamala unamiliki |
+| Network upgrade (NU) | Mabadiliko yaliyoratibiwa kwa kanuni za makubaliano za Zcash, yanayoanzishwa katika urefu maalumu wa block |
+| Orchard | Bwawa la faragha lililoanzishwa na NU5, lililojengwa kwa mfumo wa uthibitishaji wa Halo 2 |
+| Halo 2 | Mfumo wa uthibitishaji unaotumika na Orchard ambao hauhitaji usanidi unaoaminika |
+| Trusted setup | Sherehe ya mara moja inayotengeneza vigezo vya siri vya bwawa na ambayo lazima iaminke kwamba vigezo hivyo vitaharibiwa |
+| Unified Address | Anwani moja inayoweza kuunganisha vipokezi vya mabwawa zaidi ya moja (ZIP 316) |
+| Consensus branch id | Kitambulishi kinachoonyesha seti ya kanuni ambayo muamala ni sehemu yake |
 
-## Maswali Yanayoulizwa Mara kwa Mara
+## Maswali yanayoulizwa mara kwa mara
 
-Je, NU5 inabadilisha ZEC yangu au faragha yangu? Hapana. NU5 imeongeza bwawa jipya lililolindwa na umbizo jipya la anwani. ZEC yako iliyopo haiathiriwi, na faragha yako haipunguzwi. Kuhamisha fedha kwenye Orchard hukupa bwawa ambalo halihitaji usanidi unaoaminika.
+Je, NU5 hubadilisha ZEC yangu au faragha yangu? Hapana. NU5 iliongeza bwawa jipya la faragha na umbizo jipya la anwani. ZEC yako iliyopo haiathiriki, na faragha yako haipunguzwi. Kuhamisha fedha hadi Orchard hukupa bwawa lisilohitaji usanidi unaoaminika.
 
-Orchard? Orchard ni itifaki iliyolindwa Zcash's iliyoanzishwa na NU5. Inaendeshwa kwenye mfumo wa kuthibitisha Halo 2, kwa hivyo haihitaji sherehe ya usanidi inayoaminika.
+Orchard ni nini? Orchard ni itifaki ya faragha ya Zcash iliyoanzishwa na NU5. Inatumia mfumo wa uthibitishaji wa Halo 2, hivyo haihitaji sherehe ya usanidi unaoaminika.
 
-Je, ni lazima nifanye chochote? Hapana. Pochi inayotumika inashughulikia NU5 kwa ajili yako. Unaweza kuendelea kutumia anwani za zamani, na unaweza kuanza kutumia Anwani zilizounganishwa pochi yako inapozitoa.
+Je, ninapaswa kufanya chochote? Hapana. Pochi inayoungwa mkono hushughulikia NU5 kwa ajili yako. Unaweza kuendelea kutumia anwani za zamani, na unaweza kuanza kutumia Anwani Zilizounganishwa wakati pochi yako inapozitoa.
 
-Anwani Iliyounganishwa ni nini? Anwani moja ambayo inaweza kuhifadhi vipokezi kwa zaidi ya kundi moja la watu. Pochi ya mtumaji huchagua kundi linalounga mkono, kwa hivyo huna haja ya kutoa anwani tofauti kwa kila aina.
+Anwani Iliyounganishwa ni nini? Ni anwani moja inayoweza kuwa na vipokezi vya mabwawa zaidi ya moja. Pochi ya mtumaji huchagua bwawa linaloliunga mkono, hivyo huhitaji kutoa anwani tofauti kwa kila aina.
 
-Je, NU5 huondoa usanidi unaoaminika kutoka kwa fedha zangu za zamani? Sio kwa kurudi nyuma. Orchard haihitaji usanidi unaoaminika, lakini vigezo vya awali vya bwawa la Sapling bado vipo baada ya NU5. Dhamana ya kutoweka inatumika kwa fedha zilizohifadhiwa katika bwawa Orchard.
+Je, NU5 huondoa usanidi unaoaminika kutoka kwenye fedha zangu za zamani? Si kwa athari ya nyuma. Orchard haihitaji usanidi unaoaminika, lakini vigezo vya awali vya bwawa la Sapling bado vipo baada ya NU5. Dhamana ya kutohitaji usanidi inatumika kwa fedha zinazoshikiliwa katika bwawa la Orchard.
 
-Je, umbizo la muamala wa zamani liliacha kufanya kazi? Hapana. NU5 iliongeza umbizo la toleo la 5, na umbizo la toleo la 4 la zamani likabaki halali baada ya kuamilishwa.
+Je, umbizo la zamani la muamala liliacha kufanya kazi? Hapana. NU5 iliongeza umbizo la toleo la 5, na umbizo la zamani la toleo la 4 lilibaki halali baada ya uanzishaji.
 
 ## Jaribu uelewa wako
 
-Sprout na Sapling yote ilihitaji sherehe ya kuaminiwa ya usanidi. Bwawa Orchard NU5's lilibadilisha nini kuhusu hilo, na kwa nini ni muhimu?
+Sprout na Sapling zote zilihitaji sherehe ya usanidi unaoaminika. Bwawa la Orchard la NU5 lilibadilisha nini kuhusu hilo, na kwa nini ni muhimu?
 
 <details>
-<summary>Answer</summary>
+<summary>Jibu</summary>
 
-Orchard imejengwa juu ya mfumo wa kuthibitisha Halo 2, ambao hauhitaji usanidi unaoaminika na hakuna mfuatano wa marejeleo uliopangwa. Hiyo huondoa hatari kwamba vigezo vya siri vilivyobaki vinaweza kutumika kughushi ZEC. Dhamana hiyo inatumika kwa fedha zilizohifadhiwa katika bwawa la Orchard. Vigezo vya zamani Sapling bado vipo baada ya NU5.
+Orchard imejengwa kwa mfumo wa uthibitishaji wa Halo 2, ambao hauhitaji usanidi unaoaminika wala mfuatano wa marejeleo uliopangwa. Hilo linaondoa hatari kwamba vigezo vya siri vilivyosalia vinaweza kutumiwa kutengeneza ZEC bandia. Dhamana hiyo inatumika kwa fedha zinazoshikiliwa katika bwawa la Orchard. Vigezo vya zamani vya Sapling bado vipo baada ya NU5.
 </details>
 
 ### Rasilimali
 
-[ZIP 252: Utekelezaji wa Uboreshaji wa Mtandao NU5](https://zips.z.cash/zip-0252)
+[ZIP 252: Utekelezaji wa Uboreshaji wa Mtandao wa NU5](https://zips.z.cash/zip-0252)
 
-[ZIP 224: Itifaki Iliyolindwa na Bustani Orchard](https://zips.z.cash/zip-0224)
+[ZIP 224: Itifaki ya Faragha ya Orchard](https://zips.z.cash/zip-0224)
 
 [ZIP 225: Umbizo la Muamala la Toleo la 5](https://zips.z.cash/zip-0225)
 
-[ZIP 316: Anwani Zilizounganishwa na Funguo Zilizounganishwa za Kutazama](https://zips.z.cash/zip-0316)
+[ZIP 316: Anwani Zilizounganishwa na Funguo za Kutazama Zilizounganishwa](https://zips.z.cash/zip-0316)
 
 [Uboreshaji wa Mtandao 5](https://z.cash/upgrade/nu5/)
 
-[Electric Coin Company: zcashd 5.0.0 kutolewa](https://electriccoin.co/blog/new-release-5-0-0/)
+[Electric Coin Company: Toleo la 5.0.0 la zcashd](https://electriccoin.co/blog/new-release-5-0-0/)
 
 ### Tazama pia
 
 [Maboresho ya Mtandao wa Zcash](../start-here/network-upgrades)
 
-[Mabwawa ya Kuogelea Yenye Ngao](../using-zcash/shielded-pools)
+[Mabwawa ya Faragha](../using-zcash/shielded-pools)
 
 [Halo](../zcash-tech/halo)
 
 [zk-SNARKs](../zcash-tech/zk-snarks)
 
-[Funguo za Kutazama](../zcash-tech/viewing-keys)
+[Funguo za kutazama](../zcash-tech/viewing-keys)
 
 [NU6.1](../zcash-tech/nu6-1)
 
 ---
 
-Mfululizo: [Faharasa ya Uboreshaji wa Mtandao](../start-here/network-upgrades) · Iliyotangulia: [Canopy](../zcash-tech/canopy) · Inayofuata: [NU6](../zcash-tech/nu6)
+Mfululizo: [Faharasa ya Maboresho ya Mtandao](../start-here/network-upgrades) · Iliyotangulia: [Canopy](../zcash-tech/canopy) · Inayofuata: [NU6](../zcash-tech/nu6)

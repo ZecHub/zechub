@@ -1,6 +1,6 @@
-# Zenith GUI フルノードウォレットのインストール  
+# Zenith GUI フルノード（Full Node）ウォレット（Wallet）のインストール  
 
-## 動画チュートリアル
+## ビデオチュートリアル
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -48,11 +48,11 @@
 > nano ~/.config/zebrad.toml
 
 
-#### localhost で RPC クエリを受信する
+#### localhost で RPC クエリを待ち受けます
 
 > listen_addr = "127.0.0.1:8232"
 
-#### 自動的に複数の CPU スレッドを使用する
+#### 複数の CPU スレッドを自動的に使用します
 
 parallel_cpu_threads = 0
 
@@ -60,7 +60,7 @@ enable_cookie_auth = false
 
 ## Zenith のインストール
 
-**tar.gz をダウンロードし、ホームディレクトリに展開**
+**tar.gz をダウンロードしてホームディレクトリに展開します**
 
 > wget https://code.vergara.tech/Vergara_Tech/zenith/archive/0.7.2.0-beta.tar.gz
 
@@ -88,15 +88,15 @@ enable_cookie_auth = false
 > source ~/.bashrc
 
 
-### aarch64 用のソース調整
+### aarch64 向けにソースを調整します
 
 > nano configure
 
-**両方の行で triple を "aarch64-unknown-linux-gnu" に変更します。**
+**両方の行で triple を「aarch64-unknown-linux-gnu」に変更します。**
 
 > nano Setup.hs
  
- **zcash-haskell フォルダと zenith フォルダの Setup.hs を編集してください**
+ **zcash-haskell フォルダと zenith フォルダの両方で Setup.hs を変更します**
 
 ### コンパイル 
 
@@ -117,7 +117,7 @@ enable_cookie_auth = false
 - cp -r ~/zenith/assets ~/Zenith/assets
 
 
-### zenith.cfg の調整
+### zenith.cfg を調整します
 
 nodeUser = yourusername
 
@@ -134,21 +134,21 @@ zebraPort = 8232
 
 > cd ~/Zenith
 
-## raspi-config
+## Raspi-config
 
-> [最新の gldriver-test をダウンロード](https://archive.raspberrypi.org/debian/pool/main/g/gldriver-test/)
+> [download latest gldriver-test](https://archive.raspberrypi.org/debian/pool/main/g/gldriver-test/)
   
 > sudo dpkg - gldriver-test_0.15_all.deb
   
 > sudo raspi-config
 
-  **advance に移動し、opengl => GL (Full KMS) を選択**
+  **「advance」に移動し、opengl => GL (Full KMS) を選択します**
 
-  **再起動**
+  **再起動します**
 
 
 
-## Zenith の実行
+## zenith の実行
 
  ./zenith gui
  または

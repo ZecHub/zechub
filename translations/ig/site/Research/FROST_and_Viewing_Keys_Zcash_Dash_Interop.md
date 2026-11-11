@@ -1,183 +1,183 @@
-# Igodo FROST na Nlele: Nkọwa Nnyocha Zcash/Dash Interop
+# FROST & Viewing Keys: Nchịkọta Nnyocha Mmekọrịta Zcash/Dash
 
-*Akwadebela maka ZecHub · Emegharịrị ya na 27 Septemba 2026 · E si n'ịntanetị nweta nkwupụta niile
+*Edebere maka ZecHub · E degharịrị ya 27 Septemba 2026 · E tinyere ebe isi okwu nkwado maka nkwupụta niile*
 
-## Nchịkọta onye isi
+## Nchịkọta nchịkwa
 
-ZecHub jụrụ ajụjụ a mgbe o tinyere DASH echekwara dị ka nhọrọ onyinye wiki: igodo nlele Zcash-style, ma ọ bụ mbinye aka njedebe FROST, ò nwere ike ịtụgharị gaa na Dash?
+ZecHub welitere ajụjụ a mgbe ọ gbakwụnyere Azụmahia nke e chebere echebe DASH dị ka nhọrọ onyinye wiki: à ga-enwe ike ịtụgharị viewing keys nke ụdị Zcash, ma ọ bụ signature oke FROST, gaa na Dash?
 
-Nnyocha ahụ gbanwere ya. Ihu igodo abụghị ajụjụ mepere emepe — Dash zigara ya [Ọdọ mmiri e ji kpuchie Zcash Orchard](https://www.dash.org/news/shielded-transactions-are-live-on-the-dash-evolution-mainnet/) n'ime usoro Evolution ya, usoro isi Orchard's gụnyere igodo nlele site na owuwu [map ụzọ](https://www.dash.org/roadmap/) e tinyere ha maka ikpughe ndị na-enyocha ego na ịgbaso Iwu Njem. A na-etinye ọkara ahụ n'ọrụ, ọ bụghị echiche efu.
+Nnyocha ahụ gbanwere usoro e si ele ya anya. Viewing keys abụghị ajụjụ mepere emepe — Dash etinyela pool nke e chebere echebe [Zcash Orchard](https://www.dash.org/news/shielded-transactions-are-live-on-the-dash-evolution-mainnet/) n'ime Evolution chain ya, na usoro nhazi igodo Orchard nwere viewing keys site na nhazi ya. Dash's [roadmap](https://www.dash.org/roadmap/) na-etinye ha maka mpughe nye onye nyocha na irube isi n’Iwu Njem. E tinyela ọkara ahụ n’ọrụ, ọ bụghị echiche naanị.
 
-**FROST bụ ebe oghere dị adị.** Dash na-agba mbọ hụ na BLS edebanyere aha ha [Ndị Ọgbakọ Masternode Na-adị Ndụ Ogologo Ndụ](https://docs.dash.org/projects/core/en/stable/docs/guide/dash-features-masternode-quorums.html), mana ndị ahụ na-enye nkwekọrịta ọkwa netwọk — ChainLocks na InstantSend. [ZIP 312](https://zips.z.cash/zip-0312) na-elekwasị anya n'ihe dị iche: ikike mmefu ego n'elu otu akaụntụ echekwara nke obere otu ndị ji igodo nwere. Ha abụọ enweghị ike ịgbanwe agbanwe. Ebe ọ bụ na ZIP 312 ka bụ **Draft**, enweghị mmejuputa ntụaka na agbụ abụọ ahụ gaa na ọdụ ụgbọ mmiri, yabụ nke a ga-abụ ọrụ ọhụrụ n'akụkụ ọ bụla wuru ya.
-
----
-
-## Usoro iheomume: ihe kpatara ntụnyere a ji dị iche ugbu a
-
-Ihe omume abụọ e ji ihe mkpuchi kpuchie mere n'ime izu ole na ole tupu ibe ha n'etiti afọ 2026.
-
-**Zcash si Orchard.** Onye nchọpụta bụ́ Taylor Hornby kpughere nsogbu sekit dị na Orchard nke enwere ike iji mee ka ọkọnọ ahụ buru ibu n'enweghị ike ịchọpụta. Zcash zara site n'ịgbalite **Ironwood (NU6.3)** na **28 Julaị 2026**, webatara ọdọ mmiri ọhụrụ nwere usoro mbugharị turnstile.
-
-**Dash kwagara Orchard.** Dash kwupụtara atụmatụ ahụ na [19 Febụwarị 2026](https://www.dash.org/blog/dash-is-adding-shielded-transactions-to-evolution/) — *"Anyị na-atụ anya na anyị ga-enwe ike ịmalite mbufe echekwara n'oge na-adịghị anya, n'ezie anyị na-echere nyocha nchekwa na nyocha koodu ọzọ."* Dash's [map ụzọ](https://www.dash.org/roadmap/) dekọọ Shielded Balances dịka **mechara na Julaị 2026** na Dash Platform **v4.0**, e bipụtakwara Dash [*"Azụmahịa ndị e ji ihe nchekwa kpuchie dị ndụ na isi ihe Dash Evolution"*](https://www.dash.org/news/shielded-transactions-are-live-on-the-dash-evolution-mainnet/) na **4 Ọgọst 2026**.
-
-> **Ndetu gbasara ịtụ ihe.** Ụfọdụ mkpuchi tinyere mmalite ọrụ nke isi netwọk Dash na 17 Julaị 2026, nke ga-ebute ya tupu Ironwood. Ụbọchị ahụ yiri ka ọ bụ akụkọ mgbasa ozi banyere ọkwa ahụ kama ịgbalite ya. Site na isi mmalite Dash, atụmatụ ahụ mechara na Julaị ma kwupụta ya ozugbo na 4 Ọgọst — mgbe Ironwood. Agbụ abụọ ahụ gafere ụzọ n'ime izu ole na ole; nhazi kpọmkwem dabere na ọkwa a ga-agụta, akwụkwọ a anaghịkwa ekwu maka ya.
-
-N'ụzọ dị mkpa, Dash eketaghị ahụhụ ahụ. Nkwupụta ha doro anya: *"anyị tinyere ụdị Orchard n'ọrụ n'enweghị nsogbu mmụba ọnụ ahịa a maara. Ụdị gara aga nwere ahụhụ nke enwere ike iji mee ka ọkọnọ Zcash's ghara ịba ụba nke ọma."*
-
-Ya mere, Dash na-agba ọsọ ugbu a na-eji usoro nzuzo Zcash n'onwe ya ewepụla na oyi akwa ntọala, ebe ọdọ mmiri ọgbọ ọhụrụ (Ironwood) na atụmatụ ikike mmefu ọgbọ ọhụrụ (FROST) Zcash's ka dị ọhụrụ ma ka dị na Draft.
+**FROST bụ ebe ọdịiche n’ezie dị.** Dash na-agba BLS signature oke site na [Long-Living Masternode Quorums](https://docs.dash.org/projects/core/en/stable/docs/guide/dash-features-masternode-quorums.html), mana ndị a na-eje ozi consensus n’ogo netwọkụ — ChainLocks na InstantSend. [ZIP 312](https://zips.z.cash/zip-0312) na-elekwasị anya n’ihe dị iche: nnabata imefu ego nke ọtụtụ mmadụ kwekọrịtara maka otu akaụntụ nke e chebere echebe nke obere ìgwè ndị ji igodo n’otu n’otu nwere. Ha abụọ anaghị anọchi ibe ha. Ebe ZIP 312 ka bụ **Draft**, enweghị mmejuputa ntụaka n’otu chain ọ bụla a ga-ebufe, ya mere nke a ga-abụ ọrụ ọhụrụ n’agbanyeghị akụkụ ga-ewu ya.
 
 ---
 
-## Igodo ndị a na-elele: etinyere ya, ọ bụghị oghere nyocha
+## Usoro oge: ihe mere ntụnyere a ji bụrụ ihe pụrụ iche ugbu a
 
-Ọdọ mmiri Dash nke e ji ihe nchebe kpuchie bụ [Orchard](https://zips.z.cash/zip-0224), nke e wuru na Halo 2 zk-SNARKs nke na-achọghị ntọala a pụrụ ịtụkwasị obi. Usoro isi Orchard's etinyela mgbe niile Igodo Ilele zuru oke na Igodo Ilele Na-abata dịka akụkụ nke imewe ya kama ịbụ mgbakwunye - yabụ ikike ahụ rutere na koodu ahụ, ọ bụghị dịka ọdụ ụgbọ mmiri ọ bụla ga-akparịta ụka.
+Ihe omume abụọ metụtara pool e chebere echebe mere n’ime izu ole na ole n’etiti 2026.
 
-Ụzọ Dash si kọwaa ebumnuche ya ozugbo:
+**Zcash si na Orchard pụọ.** Onye nchọpụta Taylor Hornby kpughere adịghị ike circuit dị na Orchard nke a pụrụ iji bulie ọnụọgụ akụ n’amaghị ama. Zcash zara site n’ịgbalite **Ironwood (NU6.3)** na **28 Julaị 2026**, ma webata pool ọhụrụ e chebere echebe nke nwere usoro mbugharị turnstile.
 
-> *"N'adịghị ka sistemụ nzuzo dị mkpa nke na-eche mgbanwe mgbanwe na esemokwu iwu ihu, Shielded Balances na-akwado mkpughe nhọrọ site na igodo nlele - na-enye ndị ọrụ na azụmaahịa ohere ịkekọrịta nkọwa azụmahịa na ndị na-enyocha ma ọ bụ rube isi na iwu njem mgbe ọ dị mkpa, na-emebighị nzuzo maka ojiji kwa ụbọchị."*
+**Dash batara na Orchard.** Dash kwupụtara atụmatụ ahụ na [19 Febrụwarị 2026](https://www.dash.org/blog/dash-is-adding-shielded-transactions-to-evolution/) — *“Anyị na-atụ anya na anyị ga-enwe ike iwepụta mbufe e chebere echebe n’oge adịghị anya, dabere n’ụzọ kwesịrị ekwesị na nyocha nchekwa na nyocha koodu ọzọ.”* Dash's [roadmap](https://www.dash.org/roadmap/) depụtara Shielded Balances dị ka ihe **emechara na Julaị 2026** site na Dash Platform **v4.0**, na Dash bipụtara [*“Azụmahia e chebere echebe amalitela na Dash Evolution mainnet”*](https://www.dash.org/news/shielded-transactions-are-live-on-the-dash-evolution-mainnet/) na **4 Ọgọọst 2026**.
 
-Ihe abụọ e kwesịrị idekọ:
+> **Ndetu gbasara usoro.** Ụfọdụ akụkọ tinyeela ịgbalite mainnet Dash na 17 Julaị 2026, nke ga-eme ka ọ bụrụ tupu Ironwood. Ụbọchị ahụ yiri ka o sitere n’akụkọ mgbasa ozi banyere ọkwa ahụ kama ịbụ ịgbalite ya. N’ebe isi mmalite nke Dash n’onwe ya dị, emechara atụmatụ ahụ na Julaị ma kpọsa na ọ dị ndụ na 4 Ọgọọst — mgbe Ironwood gasịrị. Chain abụọ ahụ gbakọrọ n’ime izu ole na ole; usoro ziri ezi dabere n’akara ngosi a gụrụ, nchịkọta a anaghị ekwu na otu dị tupu nke ọzọ.
 
-**Dash na-etinye igodo nlele gburugburu ebe a na-eji ihe nrụpụta eme ihe karịa ka ngwaọrụ Zcash's ruru.** Ngwaọrụ ikpughe ịkwụ ụgwọ Zcash's ka bụ nke nnwale ma na-abanye na obere akpa ego. Dash bụ igodo nlele mbupu dị ka atụmatụ nnabata na ikpe ojiji akpọrọ aha, na agbụ nke na-enyekwa ihe dị ka otu sekọnd mkpebi na ihe dị ka mmekọrịta obere akpa ego nke abụọ dịka ọkwa nke ya si dị.
+N’ụzọ dị oke mkpa, Dash eketaghị ntụpọ ahụ. Ọkwa ha doro anya: *“anyị mejuputara ụdị Orchard nke enweghị ntụpọ mmụba a maara. Ụdị gara aga nwere ntụpọ a pụrụ iji bulie akụ Zcash n’amaghị ama.”*
 
-**Ihe mepere emepe bụ mgbanwe ndakọrịta, ọ bụghị ikike.** Ma mmejuputa igodo nlele Dash ga-anọgide na-adaba na usoro igodo nlele Zcash's Orchard ka agbụ abụọ ahụ na-agbanwe n'onwe ha kwesịrị ịgbaso. Ọ bụ ajụjụ nlekota kama ọrụ nyocha.
+Ya mere Dash ugbu a na-agba fork emeziworo nke cryptography nke Zcash n’onwe ya siri na ya pụọ n’ogo ntọala, ebe pool ọgbọ ọzọ Zcash (Ironwood) na usoro nnabata imefu ego ọgbọ ọzọ (FROST) ka dị ọhụrụ n’ọrụ ma ka bụ Draft n’otu n’otu.
 
 ---
 
-## Isi ihe dị mkpa: tụnyere Zcash na Dash
+## Viewing keys: etinyelarị n’ọrụ, ọ bụghị oghere nyocha
 
-Nkebi a na-aza ajụjụ onye nyocha ahụ ozugbo. Azịza dị mkpirikpi bụ na osisi *ihe nchekwa* yiri ibe ha n'ihi na koodu ahụ na-ekerịta — ọdịiche dị mkpa dị n'otú agbụ ígwè ọ bụla si enweta mgbọrọgwụ **osisi ahụ dị n'ime oghere igodo obere akpa ya, na ihe ndị ọzọ dị n'ime oghere ahụ.
+Pool e chebere echebe Dash bụ [Orchard](https://zips.z.cash/zip-0224), nke e wuru n’elu Halo 2 zk-SNARKs nke na-achọghị trusted setup. Usoro nhazi igodo Orchard na-enwe Full Viewing Keys na Incoming Viewing Keys kemgbe mbụ dịka akụkụ nke nhazi ya, ọ bụghị ihe agbakwunyere — ya mere ike ahụ bịara na koodu, ọ bụghị dịka mbugharị chain ọ bụla ga-akparịta ụka.
+
+Roadmap Dash na-ekwu nzube ahụ kpọmkwem:
+
+> *“N’adịghị ka usoro Nzuzo iwu kwadoro nke chere nsogbu iwepu na exchange na esemokwu usoro iwu ihu, Shielded Balances na-akwado Mpughe ahọpụtara site na view keys — na-enye ndị ọrụ na azụmahịa ohere ịkekọrịta nkọwa Azụmahia na ndị nyocha ma ọ bụ irube isi n’ihe Iwu Njem chọrọ mgbe ọ dị mkpa, na-emebighị Nzuzo maka ojiji kwa ụbọchị.”*
+
+Nleba anya abụọ kwesiri idekọ:
+
+**Dash na-edobe viewing keys n’akụkụ Ojiji mmepụta doro anya karịa ebe ngwaọrụ Zcash n’onwe ya ruru.** Ngwaọrụ mpughe Kwụọ ụhwọ nke Zcash ka nọkarị na nnwale ma bụrụ ihe onye ọrụ họọrọ n’ofe e-akpa ego. Dash na-ewepụta view keys dịka atụmatụ irube isi nke nwere Ojiji akpọrọ aha, na chain nke na-enyekwa mmezi kpebisiri ike nke ihe dị ka otu sekọnd na mmekọrịta e-akpa ego nke ihe dị ka sekọnd iri abụọ dịka ọkwa ya si kwuo.
+
+**Ihe mepere emepe bụ mgbanwe ndakọrịta, ọ bụghị ike.** Ọ bara uru ileba anya ma mmejuputa viewing key Dash ga-anọgide dakọtara n’ụdị waya nke viewing key Zcash Orchard ka chain abụọ ahụ na-etolite n’adabereghị na ibe ha. Ọ bụ ajụjụ nlekota, ọ bụghị ọrụ nyocha.
+
+---
+
+## Nwepụta igodo: atụnyere Zcash na Dash
+
+Akụkụ a na-aza ajụjụ onye nyocha kpọmkwem. Azịza dị mkpirikpi bụ na osisi igodo *e chebere echebe* fọrọ nke nta ka ha yie n’ihi na e kesara koodu ahụ — ọdịiche bara uru dị n’otú chain ọ bụla si **gbanye mgbọrọgwụ** osisi ahụ n’ime oghere igodo e-akpa ego ya, na n’ihe ọzọ dị n’oghere ahụ.
 
 ### Zcash
 
-Ojiji Zcash [ZIP 32, *Akara akpa njirimara nke e ji ihe nchekwa kpuchie*](https://zips.z.cash/zip-0032), nke nwere ọnọdụ **Ikpeazụ**. Kama itinye igodo ndị a na-echebe n'ime otu osisi BIP 32, ZIP 32 na-enye ọdọ mmiri ọ bụla nwere igodo ukwu ya na ụzọ nke ya:
+Zcash na-eji [ZIP 32, *E-akpa ego Hierarchical Deterministic e chebere echebe*](https://zips.z.cash/zip-0032), nke ọnọdụ ya bụ **Final**. Kama itinye igodo e chebere echebe n’ime otu osisi BIP 32, ZIP 32 na-enye pool ọ bụla e chebere echebe master key nke ya na ụzọ nke ya:
 
 ```
 m_Orchard / purpose' / coin_type' / account'
 m_Sapling / purpose' / coin_type' / account'
 ```
 
-`purpose` a na-edozi na `32'` (0x80000020) kwa BIP 43, na `coin_type` na-eso SLIP 44, ya na ndeksi nkekọrịta testnets niile `1`.
+`purpose` ka edobere na `32'` (0x80000020) dịka BIP 43 si dị, na `coin_type` na-agbaso SLIP 44, ebe testnet niile na-ekekọrịta index `1`.
 
-N'ime akaụntụ Orchard, usoro nhazi ahụ bụ naanị otu ụzọ - ọkwa ọ bụla nwere ike ịpụta ihe niile dị n'okpuru ya na ihe ọ bụla dị n'elu:
+N’ime akaụntụ Orchard, usoro nhazi ahụ na-aga naanị n’otu ụzọ — ọkwa ọ bụla nwere ike iwepụta ihe niile dị n’okpuru ya ma ọ nweghị ihe dị n’elu ya:
 
-| Igodo | Enwere ike ime | Na-enweta |
+| Igodo | Ihe ọ pụrụ ime | Ihe ọ na-ewepụta |
 |---|---|---|
-| Spending key | Ihe ndetu mmefu | `ask`, `nk`, `rivk` |
-| Spend authorizing key (`ask`) | Kwe ka emefu ego | — |
-| Full Viewing Key (`ak`, `nk`, `rivk`) | Lee ụgwọ ndị na-abata na **na** na-apụ apụ | IVK, OVK |
-| Incoming Viewing Key | Lee naanị ịkwụ ụgwọ na-abata | Adreesị dị iche iche |
-| Outgoing Viewing Key | Weghachite nkọwa ịkwụ ụgwọ na-apụ apụ | — |
+| Spending key | Mefuo note | `ask`, `nk`, `rivk` |
+| Spend authorizing key (`ask`) | Nye ikike imefu ego | — |
+| Full Viewing Key (`ak`, `nk`, `rivk`) | Hụ Kwụọ ụhwọ na-abata **na** nke na-apụ | IVK, OVK |
+| Incoming Viewing Key | Hụ naanị Kwụọ ụhwọ na-abata | Adreesị akpa ego dịgasị iche |
+| Outgoing Viewing Key | Nweta nkọwa Kwụọ ụhwọ na-apụ ọzọ | — |
 | Diversified address | Nata | — |
 
-Orchard mere ka nke a dị mfe ma e jiri ya tụnyere Sapling: [Akwụkwọ Osisi Orchard](https://zcash.github.io/orchard/design/keys.html), igodo nzuzo nke na-emebi ihe `nsk` ewepụrụ ya, `nk` ghọrọ ihe ubi kama isi ihe dị n'okpuru, na `ovk` ugbu a, a na-esi na igodo nlele zuru oke ewepụta kama ijide ya iche.
+Orchard mere ka nke a dị mfe ma e jiri ya tụnyere Sapling: dịka [Orchard Book](https://zcash.github.io/orchard/design/keys.html) si kwuo, e wepụrụ igodo nzuzo nullifier `nsk`, `nk` ghọrọ ihe dị n’ubi kama ịbụ ebe dị n’akụkụ curve, ma ugbu a a na-ewepụta `ovk` site na full viewing key kama ijide ya iche.
 
-N'elu nke a ka ọ nọdụrụ [ZIP 316, *Adreesị Ndị E Jikọtara Ọnụ na Igodo Ndị Na-elele Ọnụ*](https://zips.z.cash/zip-0316) — Ndezigharị 0 Active, Ndezigharị 1 Weputara, Ndezigharị 2 Draft — nke na-ejikọta igodo kwa ọdọ mmiri n'ime **Full Viewing Key** ("na-ejikọta ọtụtụ Full Viewing Key… ihe") na **Incoming Viewing Key**. Ihe dị iche nke onye na-emepụta obere akpa ga-asọpụrụ: UFVK na-ekpughe ma ihe na-abata ma ihe na-apụ apụ, UIVK na-abata naanị.
+N’elu nke a dị [ZIP 316, *Adreesị akpa ego jikọtara ọnụ na Unified Viewing Keys*](https://zips.z.cash/zip-0316) — Revision 0 Active, Revision 1 Withdrawn, Revision 2 Draft — nke na-achịkọta igodo kwa pool n’ime **Unified Full Viewing Key** (“na-ejikọta ọtụtụ Full Viewing Key… Items”) na **Unified Incoming Viewing Key**. Ọdịiche onye mmepụta e-akpa ego ga-asọpụrụ: UFVK na-ekpughe ọrụ na-abata na nke na-apụ, UIVK na-ekpughe naanị nke na-abata.
 
 ### Dash
 
-Dash gbanyere mkpọrọgwụ ihe niile n'ime osisi BIP 32 nkịtị, nwere ụdị mkpụrụ ego SLIP 44 `5'`, ma tinye mgbakwunye mmepụta abụọ nke ya.
+Dash na-agbanye ihe niile n’osisi BIP 32 a na-ahụkarị, nke nwere ụdị ego SLIP 44 `5'`, ma gbakwunye mgbatị nwepụta igodo abụọ nke ya.
 
-[DIP-0009, *Ụzọ Mmepụta Atụmatụ*](https://docs.dash.org/projects/core/en/stable/docs/dips/dip-0009.html) na-etinye ọkwa **atụmatụ** nke na-ekewa oghere isi site na ọrụ mkpụrụ ego kpọmkwem:
+[DIP-0009, *Ụzọ Nwepụta Atụmatụ*](https://docs.dash.org/projects/core/en/stable/docs/dips/dip-0009.html) na-etinye ọkwa **atụmatụ** nke na-ekewa oghere igodo site n’ọrụ pụrụ iche nke ego:
 
 ```
 m / purpose' / coin_type' / feature' / *
 ```
 
-na `purpose` edoziri na `9'` (0x80000009) na `coin_type` at `5'` (0x80000005). Ihe DIP kwuru bụ ihe na-akpali ya — *"ọ ga-adị mma ka e debe ego agwakọtara agwakọta n'ụzọ e kewapụrụ na ego agwakọtara agwakọta."*
+ebe `purpose` ka edobere na `9'` (0x80000009), na `coin_type` na `5'` (0x80000005). Ebumnuche DIP ahụ kwuru bụ ikewapụ — *“ọ pụrụ ịdị mma idobe ego agwakọtara n’ụzọ a kewapụrụ na ego a na-agwakọtaghị.”*
 
-[DIP-0014, *Mwepụta igodo agbatịworo site na iji ọnụọgụgụ 256-bit Unsigned*](https://github.com/dashpay/dips/blob/master/dip-0014.md) na-aga n'ihu, na-ebuli oke ndeksi 31 nke BIP 32 ka ihe ndị dị n'ụzọ wee nwee ike ibu uru 256-bit zuru oke. Nke ahụ na-enye ohere maka ụzọ ndị sitere na njirimara dịka:
+[DIP-0014, *Nwepụta Igodo Agbatịpụtara site na Integer Enweghị Akara nke 256-bit*](https://github.com/dashpay/dips/blob/master/dip-0014.md) na-aga n’ihu, na-ebuli oke index 31-bit BIP 32 ka akụkụ ụzọ wee nwee ike iburu uru 256-bit zuru ezu. Nke ahụ na-enye ohere maka ụzọ sitere na njirimara dịka:
 
 ```
 m(userA)/9'/5'/15'/0'/(userA's unique id)/(userB's unique id)
 ```
 
-ebe akụkụ abụọ ikpeazụ bụ hashes njirimara onye ọrụ. Zcash enweghị ihe yiri ya: ZIP 32 enweghị echiche nke inweta ụzọ dị mkpa site na njirimara onye ọzọ.
+ebe akụkụ abụọ ikpeazụ bụ hash njirimara onye ọrụ. Zcash enweghị ihe kwekọrọ na ya: ZIP 32 enweghị echiche iwepụta ụzọ igodo site na njirimara onye ọzọ.
 
-### Ebe ha abụọ dị iche n'ezie
+### Ebe ha abụọ si dị iche n’ezie
 
-**Osisi dị n'okpuru osisi ahụ bụ otu.** Igodo ndị a na-echebe Dash bụ igodo Orchard, n'ihi na ọdọ mmiri Dash bụ Orchard. Onye na-emepụta obere akpa ego na-agagharị n'etiti ha abụọ na-arụ ọrụ na otu usoro igodo mmefu-na-elele anya.
+**Osisi nta e chebere echebe bụ otu.** Igodo e chebere echebe Dash bụ igodo Orchard, n’ihi na pool e chebere echebe Dash bụ Orchard. Onye mmepụta e-akpa ego na-akwaga n’etiti ha abụọ na-arụ ọrụ n’otu nhazi sitere n’igodo ego gaa na viewing key.
 
-**Mgbọrọgwụ dị iche.** Zcash na-ewepụ ọdọ mmiri ọ bụla e ji kpuchie n'okpuru isi igodo nke ya na nzube ya `32'`Dash kwụgidere ihe e ji kpuchie n'otu osisi dị n'otu n'okpuru nzube `9'`, tinyere ihe ndị ọzọ niile. Nkewa Zcash's bụ site na nchịkọta ihe odide; Dash bụ site na njirimara ngwaahịa.
+**Ịgbanye mgbọrọgwụ dị iche.** Zcash na-ekewapụ pool ọ bụla e chebere echebe n’okpuru master key nke ya nwere nzube `32'`. Dash na-ekonye atụmatụ e chebere echebe n’otu osisi jikọtara ọnụ n’okpuru nzube `9'`, n’akụkụ atụmatụ ọ bụla ọzọ. Nkewa Zcash bụ site na pool cryptography; nke Dash bụ site na atụmatụ ngwaahịa.
 
-**Oghere igodo Dash nwere ihe Zcash's anaghị eme: ngalaba BLS dị iche.** Igodo onye ọrụ Masternode, igodo ntuli aka na igodo quorum nke LLMQs na-eji bụ igodo BLS, ọ bụghị igodo ezinụlọ Schnorr, ha bikwa n'èzí osisi BIP 32 akọwara n'elu. Nke a bụ kpọmkwem ebe ntinye aka Dash dị ugbu a dị ndụ - na kpọmkwem ihe kpatara na ọ naghị ede na ikike mmefu Orchard, dịka ngalaba na-esote si kwuo.
+**Oghere igodo Dash nwere ihe oghere Zcash enweghị: ngalaba BLS dị iche.** Igodo ndị ọrụ Masternode, igodo ntuli aka, na igodo quorum nke LLMQs na-eji bụ igodo BLS, ọ bụghị igodo ezinụlọ Schnorr, ma ha dị kpamkpam n’èzí osisi BIP 32 akọwara n’elu. Nke a bụ kpọmkwem ebe mbinye aka oke dị ugbu a nke Dash dị — na kpọmkwem ihe mere na ọ naghị ejikọta na nnabata imefu ego Orchard, dịka akụkụ na-esote si depụta.
 
-**Nhazi njikọ njirimara bụ naanị Dash.** Ụzọ 256-bit DIP-0014 dị iji nweta igodo site na mmekọrịta dị n'etiti njirimara. Nke ahụ bụ echiche Dash Platform na-enweghị ihe nhata Zcash, ọ bụkwa ikpe kacha doo anya nke atụmatụ abụọ ahụ kewara n'uche kama ịbụ site na mberede.
+**Nwepụta ejikọtara na njirimara bụ naanị nke Dash.** Ụzọ 256-bit DIP-0014 dị iji wepụta igodo site na mmekọrịta dị n’etiti njirimara. Nke ahụ bụ echiche Dash Platform nke enweghị ihe kwekọrọ na Zcash, ọ bụkwa ihe atụ kachasị doo anya na atụmatụ nwepụta abụọ ahụ kewara ụzọ n’ama ụma, ọ bụghị na mberede.
 
-*Lee eserese nke 1 maka usoro mgbọrọgwụ abụọ ahụ na-agbakọta n'okpuru osisi Orchard nke a na-ekerịta.*
+*Lee Figure 1 maka atụmatụ ịgbanye mgbọrọgwụ abụọ ahụ na-abịakọta n’osisi nta Orchard kesara.*
 
 ---
 
-## FROST: ajụjụ doro anya
+## FROST: ajụjụ mepere emepe n’ezie
 
-Dash nwere sistemụ mbinye aka tozuru oke na **BLS-based LLMQs** (Long-Living Masternode Quorums), nke ejiri maka nkwekọrịta nkwenye ChainLocks, InstantSend, na Dash Platform.
+Dash nwere usoro signature oke toro eto na **LLMQs dabere na BLS** (Long-Living Masternode Quorums), nke eji maka ChainLocks, InstantSend, na consensus validator Dash Platform.
 
-[ZIP 312, *FROST maka ikike mmefu ọtụtụ mbinye aka*](https://zips.z.cash/zip-0312), ọnọdụ **Draft**, na-eme ihe ọzọ. Ọ na-eme ka mbinye aka ikike mmefu dabere na Schnorr nke Sapling na Orchard kọwaralarị — **RedJubjub** na **RedPallas** n'otu n'otu — nke mere na, n'usoro ZIP's nkeonwe, *"ndị ọrụ na ndị ọrụ nke atọ na-ekerịta nchekwa nke obere akpa, ma ọ bụ otu ndị na-achịkwa ego ekekọrịtara"* nwere ike ịchọ nkwenye oke dị ka 2-n'ime-3 tupu mmefu. A na-ekewa ya dị ka ZIP: ọ na-emepụta mbinye aka dakọtara na ikike mmefu dị ugbu a kama ịgbanwe nkwekọrịta. Ọ na-ejigide ọrụ Onye nhazi, nke ZIP jụrụ iwepụ kpamkpam, ọ na-atụlekwa ma mmepụta isi onye na-ere ahịa a tụkwasịrị obi na mmepụta isi kesaa.
+[ZIP 312, *FROST maka Spend Authorization Multisignatures*](https://zips.z.cash/zip-0312), nke ọnọdụ ya bụ **Draft**, na-eme ihe ọzọ. Ọ na-eme ka signature nnabata imefu ego dabere na Schnorr nke Sapling na Orchard kọwaralarị — **RedJubjub** na **RedPallas** n’otu n’otu — bụrụ nke ọtụtụ mmadụ ga-ekwenyerịrị, nke mere na, dịka nhazi ZIP si dị, *“ndị ọrụ na ọrụ ndị ọzọ na-ekekọrịta nlekọta e-akpa ego, ma ọ bụ ìgwè mmadụ na-ejikwa ego kesara”* nwere ike ịchọ nkwado oke dịka 2-of-3 tupu imefu ego. A na-ahazi ya dịka atụmatụ **e-akpa ego** ZIP: ọ na-emepụta signature dakọtara na nnabata imefu ego dị ugbu a kama ịgbanwe consensus. Ọ na-edobe ọrụ Coordinator, nke ZIP jụrụ iwepụ, ma kwurịta ma mmepụta igodo nke onye a tụkwasịrị obi na mmepụta igodo kesara.
 
-Ihe dị iche na ihe kpatara ya, na ihe kpatara ya abụghị ihe nnọchi anya:
+Ọdịiche dị mkpa, na ihe kpatara na ndị a abụghị ndị dochie ibe ha:
 
 | | Dash BLS / LLMQ | Zcash FROST (ZIP 312) |
 |---|---|---|
-| Atụmatụ mbinye aka | BLS | Schnorr - RedJubjub / RedPallas |
-| Onye na-eme akara | Ọnụọgụgụ nke masternodes | Obere otu ndị ji igodo nkeonwe |
-| Ihe enyere ikike | Eziokwu netwọk: mkpọchi ngọngọ, mkpọchi azụmahịa | Mbinye ego site na otu akaụntụ echekwara |
-| Akwa oyi akwa | Nkwekọrịta | Obere akpa |
-| Oghere igodo | Ngalaba BLS dị iche | Igodo ikike mmefu ego nke Orchard/Sapling |
-| Ọnọdụ | Ebugharịla | Edemede, enweghị mmejuputa ntụaka |
+| Usoro signature | BLS | Schnorr — RedJubjub / RedPallas |
+| Onye na-abanye signature | Quorum nke masternodes | Obere ìgwè ndị ji igodo n’otu n’otu |
+| Ihe a na-enye ikike | Eziokwu netwọkụ: mkpọchi block, mkpọchi Azụmahia | Imefu ego site n’otu akaụntụ e chebere echebe |
+| Ọkwa | Consensus | E-akpa ego |
+| Oghere igodo | Ngalaba BLS dị iche | Igodo nnabata imefu ego Orchard/Sapling |
+| Ọnọdụ | Etinyelarị n’ọrụ | Draft, enweghị mmejuputa ntụaka |
 
-Dash nwere mbinye aka BLS apụtaghị na ọ nwere, ma ọ bụ chọrọ, FROST. Mana ọ pụtara na ndị injinia Dash maara nke ọma na mbinye aka, mmepụta isi kesaa na nhazi quorum - ahụmịhe enwere ike ibufe ma ọ bụrụ na ha ahọrọ iwuli nke a.
+Inwe BLS signature oke Dash apụtaghị na o nwere, ma ọ bụ na ọ chọrọ, FROST. Mana ọ pụtara na ndị injinia Dash nwere ahụmịhe n’ime ụlọ gbasara mbinye aka oke, mmepụta igodo kesara, na nhazi quorum — ahụmịhe a pụrụ ibufe n’ezie ma ọ bụrụ na ha ahọrọ iwulite nke a.
 
-*Lee eserese nke abụọ maka ihe atụmatụ ọ bụla na-egosi n'ezie.*
+*Lee Figure 2 maka ihe usoro ọ bụla na-abanye signature n’elu ya n’ezie.*
 
-### Ihe FROST ga-achọ na ndụdụ Orchard nke Dash, na ngafe mbụ
+### Ihe FROST dị na fork Dash Orchard ga-achọ, na nyocha mbụ
 
-1. **Ememme FROST DKG na emume mbinye aka maka RedPallas**, atụmatụ ikike mmefu ego Orchard's — ụdị Schnorr n'elu usoro Pallas. Nke a dị iche na, ọ bụghịkwa mbelata na, BLS DKG nke Dash dị ugbu a maka LLMQs.
-2. **Nkwado obere akpa ego na UX maka ịbanye aka n'otu akaụntụ echekwara ọtụtụ mmadụ**, nke bụ usoro mmekọrịta dị iche na ngwaọrụ masternode-quorum ma chọọ onye nhazi nhata.
-3. **Mkpebi dị na oyi akwa.** O yikarịrị ka ọ bụ naanị ọkwa akpa ego, ebe ọ bụ na a na-enyocha ZIP 312 dị ka atụmatụ akpa ego karịa ihe ndị dị adị karịa mgbanwe nkwekọrịta - mana nke a kwesịrị ịkwado kpọmkwem megide ndụdụ Orchard nke Dash, ọ bụghị site na nhazi Zcash's.
-
----
-
-## Nkwanye
-
-**Ịlele igodo — detuo, emela nnyocha.** A na-eziga ikike a n'agbụ abụọ ahụ. Obere ihe ndekọ wiki nke na-egosi na ọdọ mmiri Dash nwere igodo nlele, yana ijikọ ụzọ Dash, na-egbochi ndị na-ege ntị ZecHub's iche na ọ ka bụ echiche efu. Soro ndakọrịta usoro waya ka agbụ abụọ ahụ na-agbanwe.
-
-**FROST — ezigbo ohere, a kpọchiri ya n'elu iyi.** Ọ dabere na ZIP 312 ruru mmejuputa ntụaka, ma ọ bụ Dash ịhọrọ iwuli ya n'otu oge. ZecHub enweghị ike ime ka ọ dị ngwa ngwa ozugbo.
-
-**Nzọụkwụ kachasị elu nke na-esote bụ mkparịta ụka, ọ bụghị nyocha tebụl karịa.** Ndị ga-ewu nke a bụ ndị a pụrụ iru. Shielded Labs na-eduzi ZIP 312; Ndị otu injinia Dash etinyela aka na nke ọma na nhazi "e gbaziri site na Zcash" gburugburu njikọta Orchard. Eriri obodo na-ejikọta ha abụọ ga-apụta karịa agba ọzọ nke ọgụgụ, akụkọ a erutekwala oke nke ebe ọha na eze nwere ike idozi.
+1. **Emume DKG na mbinye signature FROST n’elu RedPallas**, usoro nnabata imefu ego Orchard — ụdị Schnorr dị n’elu curve Pallas. Nke a dị iche na, ọ dịghịkwa ebelata n’ime, BLS DKG dị ugbu a Dash maka LLMQs.
+2. **Nkwado e-akpa ego na UX maka mbinye signature nke ọtụtụ mmadụ na otu akaụntụ e chebere echebe**, nke bụ usoro mmekọrịta dị iche na ngwaọrụ masternode-quorum ma chọọ ihe kwekọrọ na Coordinator.
+3. **Mkpebi banyere ọkwa.** O yikarịrị ka ọ ga-adị n’ogo e-akpa ego naanị, ebe ZIP 312 nwere oke dịka atụmatụ e-akpa ego n’elu primitives dị ugbu a kama ịbụ mgbanwe consensus — mana a ghaghị ikwenye nke a kpọmkwem megide fork Dash Orchard, ọ bụghị iche na ọ bụ otú ahụ n’ihi oke Zcash.
 
 ---
 
-## Ọnụọgụ
+## Nkwado
 
-**Foto nke 1 — Mgbọrọgwụ isi: Zcash ZIP 32 na Dash DIP-0009/0014, na-agbakọta na obere osisi Orchard a na-ekerịta.**
+**Viewing keys — dekọọ ha, enwela nyocha.** E tinyelarị ike ahụ n’ọrụ na chain abụọ ahụ. Ndetu wiki dị mkpirikpi nke na-edekọ na pool e chebere echebe Dash gụnyere view keys, ma jikọta roadmap Dash, na-egbochi ndị na-ege ntị ZecHub iche na ọ ka bụ echiche naanị. Soro ndakọrịta wire-format ka chain abụọ ahụ na-etolite.
+
+**FROST — ezigbo ohere, mana upstream egbochila ya.** Ọ dabere na ZIP 312 iru mmejuputa ntụaka, ma ọ bụ Dash ịhọrọ iwu ya n’otu oge. ZecHub enweghị ike ime ka ọ dị ngwa kpọmkwem.
+
+**Nzọụkwụ ọzọ bara uru kacha elu bụ mkparịta ụka, ọ bụghị nyocha desk ọzọ.** Ndị ga-ewu nke a dị mfe iru. Shielded Labs na-akwọ ZIP 312; ndị otu injinia Dash ejirila nkwado zaghachi usoro “e si na Zcash gbaziri” gbasara njikọta Orchard. Eriri mkparịta ụka n’etiti obodo abụọ ahụ ga-ekpughe ihe karịa ntụgharị ọgụgụ ọzọ, nchịkọta a eruola oke nke ebe isi mmalite ọha nwere ike idozi.
+
+---
+
+## Figures
+
+**Figure 1 — Ịgbanye mgbọrọgwụ nke nwepụta igodo: Zcash ZIP 32 na Dash DIP-0009/0014, na-abịakọta n’osisi nta Orchard kesara.**
 `assets/Zcash_Dash_Key_Derivation.svg`
 
-**Foto nke 2 — Ihe atụmatụ njedebe ọ bụla na-egosi: quorum masternode nke na-agba akaebe na netwọk bụ eziokwu, megide otu onye ji igodo na-enye ikike maka otu mmefu echekwara.**
+**Figure 2 — Ihe usoro oke ọ bụla na-abanye signature n’elu ya: quorum masternode na-akwado eziokwu netwọkụ, megide ìgwè ndị ji igodo na-enye ikike otu mmefu e chebere echebe.**
 `assets/FROST_vs_BLS_LLMQ.svg`
 
 ---
 
-## Isi mmalite
+## Ebe isi mmalite
 
-**Zcash — usoro iwu**
-- [ZIP 32: Akpa Deterministic nke e ji ihe nchekwa kpuchie](https://zips.z.cash/zip-0032) — ọkwa Ikpeazụ
-- [ZIP 224: Usoro Nchekwa Orchard](https://zips.z.cash/zip-0224)
-- [ZIP 312: FROST maka ikike mmefu ọtụtụ mbinye aka](https://zips.z.cash/zip-0312) - Nhazi ọkwa
-- [ZIP 316: Adreesị Ndị E Jikọtara Ọnụ na Igodo Ndị Na-elele Ọnụ](https://zips.z.cash/zip-0316)
-- [Akwụkwọ Orchard - Igodo na adreesị](https://zcash.github.io/orchard/design/keys.html)
-- [Nkọwapụta Usoro Zcash](https://zips.z.cash/protocol/protocol.pdf) — ihe ndị dị mkpa, §5.6.4
+**Zcash — protocol**
+- [ZIP 32: E-akpa ego Hierarchical Deterministic e chebere echebe](https://zips.z.cash/zip-0032) — ọnọdụ Final
+- [ZIP 224: Protocol e chebere echebe Orchard](https://zips.z.cash/zip-0224)
+- [ZIP 312: FROST maka Spend Authorization Multisignatures](https://zips.z.cash/zip-0312) — ọnọdụ Draft
+- [ZIP 316: Adreesị akpa ego jikọtara ọnụ na Unified Viewing Keys](https://zips.z.cash/zip-0316)
+- [The Orchard Book — Igodo na adreesị akpa ego](https://zcash.github.io/orchard/design/keys.html)
+- [Nkọwapụta Protocol Zcash](https://zips.z.cash/protocol/protocol.pdf) — akụkụ igodo, §5.6.4
 
-**Dash — usoro na ọkwa**
-- [Azụmahịa ndị a na-echebe dị ndụ na isi iyi Dash Evolution](https://www.dash.org/news/shielded-transactions-are-live-on-the-dash-evolution-mainnet/) — 4 Ọgọst 2026
-- [Dash Na-agbakwụnye azụmahịa echekwara na Evolution](https://www.dash.org/blog/dash-is-adding-shielded-transactions-to-evolution/) — 19 Febụwarị 2026
-- [Maapụ Ụzọ Dash](https://www.dash.org/roadmap/) — Nchekwa Nha, emechara na Julaị 2026, Platform v4.0; emelitere na Septemba 12, 2026
-- [DIP-0009: Ụzọ Mmepụta Atụmatụ](https://docs.dash.org/projects/core/en/stable/docs/dips/dip-0009.html)
-- [DIP-0014: Mgbakwunye igodo agbagoro site na iji ọnụọgụgụ Unsigned 256-bit](https://github.com/dashpay/dips/blob/master/dip-0014.md)
-- [Akwụkwọ Dash Core — Masternode Quorums (LLMQ)](https://docs.dash.org/projects/core/en/stable/docs/guide/dash-features-masternode-quorums.html)
-- [ebe nchekwa dashpay/dips](https://github.com/dashpay/dips)
+**Dash — protocol na ọkwa**
+- [Azụmahia e chebere echebe amalitela na Dash Evolution mainnet](https://www.dash.org/news/shielded-transactions-are-live-on-the-dash-evolution-mainnet/) — 4 Ọgọọst 2026
+- [Dash Na-agbakwunye Azụmahia e chebere echebe na Evolution](https://www.dash.org/blog/dash-is-adding-shielded-transactions-to-evolution/) — 19 Febrụwarị 2026
+- [Dash Roadmap](https://www.dash.org/roadmap/) — Shielded Balances, emechara na Julaị 2026, Platform v4.0; emelitere 12 Septemba 2026
+- [DIP-0009: Ụzọ Nwepụta Atụmatụ](https://docs.dash.org/projects/core/en/stable/docs/dips/dip-0009.html)
+- [DIP-0014: Nwepụta Igodo Agbatịpụtara site na Integer Enweghị Akara nke 256-bit](https://github.com/dashpay/dips/blob/master/dip-0014.md)
+- [Dash Ndekọ Core — Masternode Quorums (LLMQ)](https://docs.dash.org/projects/core/en/stable/docs/guide/dash-features-masternode-quorums.html)
+- [dashpay/dips repository](https://github.com/dashpay/dips)
 
-**Akụkọ nke oge a**
-- [Dash weputara teknụzụ Orchard Zcash's na nkwalite nzuzo](https://www.cryptopolitan.com/dash-launch-zcash-orchard-technology/) — Cryptopolitan
-- [Dash Na-eweta Nzuzo Zcash Orchard na Chain Evolution maka Azụmahịa Ekpuchiri Echekwa](https://hackernoon.com/dash-brings-zcash-orchard-privacy-to-evolution-chain-for-shielded-transactions) — HackerNoon
+**Akụkọ e mere n’oge ahụ**
+- [Dash wepụtara teknụzụ Zcash Orchard n’ime nkwalite Nzuzo](https://www.cryptopolitan.com/dash-launch-zcash-orchard-technology/) — Cryptopolitan
+- [Dash Webatara Nzuzo Zcash Orchard na Evolution Chain maka Azụmahia e chebere echebe](https://hackernoon.com/dash-brings-zcash-orchard-privacy-to-evolution-chain-for-shielded-transactions) — HackerNoon
 
-*E lere anya na isi mmalite na 27 Septemba 2026. Dash Platform na ZIP 312 na-agagharị; a ga-enyocha ọnụọgụgụ na ọnọdụ tupu e mepụta republication.*
+*E nyochara ebe isi mmalite na 27 Septemba 2026. Dash Platform na ZIP 312 na-agagharị; a ghaghị nyochaghachi ọnụ ọgụgụ na ọnọdụ tupu ebipụta ya ọzọ.*

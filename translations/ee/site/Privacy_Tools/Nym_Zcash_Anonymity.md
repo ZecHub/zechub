@@ -1,64 +1,64 @@
 <a href="https://github.com/ZecHub/zechub/edit/main/site/Privacy_Tools/Nym_Zcash_Anonymity.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Aɖe Axɔse Ɖe Axa Dzi"/>
 </a>
 
-# Nym Mixnet Ŋkɔmaɖemaɖe na Zcash
+# Nym Mixnet Ƒomevi Manya Ƒe Ɣaɣla na Zcash
 
-> Woɖo kpe edzi zi mamlɛtɔ: October 18, 2026
+> Wokpɔe mlɔeba le: October 18, 2026
 
-Zcash shielded pools ɣlaa ga homewo, dɔdzikpɔlawo, kple amesiwo xɔe le kɔsɔkɔsɔ me. Womeɣlaa network mɔ si le gakotoku kple lightwallet server dome o. Nym's mixnet tsɔ network-layer takpɔkpɔ ma si bu kpee. Tso October 2026 me la, ɖekawɔwɔa le agbe le ewɔwɔ gakotokuwo (Zingo, Zkool).
+Zcash ɣaɣla [shielded] gaƒuƒoƒowo [pools] fia gaƒuƒowo, ametɔwo, kple xɔlawo le ɖoɖonu dzi [on-chain]. Woɖe asi le network ƒe mɔ si le gakotoku [wallet] kple lightwallet server dome ŋu o. Nym ƒe mixnet kplɔ network ƒe ɣaɣla si gbɔna la ɖe eŋu. Le October 2026 me la, wɔwɔa le dɔ wɔm le production gakotokuwɔwo me (Zingo, Zkool).
 
-Dzᴐtsoƒe: [Alesi Nym tsɔa ŋkɔmaɖemaɖe kpena ɖe Zcash gakotokuwo ŋu](https://nym.com/blog/zcash-mixnet-anonymity) (Nym, 13 Dzove 2026).
+Tsoƒe: [Alekee Nym kplɔ ƒomevi manya ɖe Zcash gakotokuwɔ ŋu](https://nym.com/blog/zcash-mixnet-anonymity) (Nym, 13 October 2026).
 
-## Nusi wokpɔ ta na
+## Nu si woɣe ɣa
 
-Nym gbãa asitsatsa ƒe agbalẽviwo (zi geɖe la, 7–15 KB ƒe gazazã ŋuti nyatakakawo kple ZK kpeɖodziwo) ɖe Sphinx ƒe agbalẽviwo me eye wòɖoa wo to mixnet la dzi. Nu sia:
+Nym mae transaction packets (zi geɖe la, 7–15 KB ƒe fexexe nyatakakawo kple ZK ɖaseɖigbalɛwo [proofs]) me le Sphinx packets me eye woto wo ɖe mixnet la me. Esia:
 
-- Ɣla amesi ɖoe ɖa ƒe IP tso lightwallet server la me
-- Tsɔ ʋuwo tsakana kple Nym ʋu bubuwo
-- Enaa entropy bits 17 lɔƒo le ɖoɖo gbãtɔwo nu, kple ŋkɔmaɖemaɖe si woyɔ si woɖo wu ezãla 100,000
+- Ƒia dɔlila ƒe IP tso lightwallet server la gbɔ
+- Ƒoa asitsotso la kple Nym ƒe asitsotsowo
+- Na entropy ƒe bits 17 kple default ƒe ɖoɖowɔwɔwo, eye woƒo ɖase be ƒomevi manya ƒe ameha la wu amewo 100,000
 
-Fexexe kple asixɔxɔ biabia le Zingo v7 me zɔna ɖe mɔ sia dzi le gɔmedzedzea me.
+Fexexewo kple asixɔxɔ ƒe biabiawo le Zingo v7 me to mɔ sia dzi le woƒe gɔmedzedze nu.
 
-## Nusiwo womekpɔ ta na o
+## Nu si wometsɔ ɣe ɣa o
 
-Kɔsɔkɔsɔ ƒe wɔwɔ ɖekae, nullifier biabia, asitsatsa ƒe xɔxlɔ̃, kple mempool ʋuɖoɖo zãa indexer kadodo si sɔ fifia. Device-level alo application-level metadata si le mixed packets godo hã le Nym's ŋutete godo.
+Ɖoɖonu ƒe sync, nullifier [gaɣaɣla ɖeɖe dzesi] ƒe biabiabiawo, transaction [gaɖoɖo] xɔxɔwo, kple mempool ƒe asitsotso wɔa indexer ƒe kadodo ɖe sia ɖe me. Device-level alo application-level metadata si le packets si woƒo la ŋu wu la hã mele Nym ƒe dɔwɔƒe me o.
 
-Ne wò ŋɔdzidoname ƒe kpɔɖeŋu bia be nàɣla sync traffic la, ƒo native-mixnet gakotoku kple system-level NymVPN. Kpɔ [Nym VPN ƒe dɔwɔwɔ](/guides/nym-vpn).
+Ne wò threat model hia be woɣe sync ƒe asitsotso ɣa la, ƒo native-mixnet gakotoku kple system-level NymVPN. Kpɔ [Nym VPN](/guides/nym-vpn).
 
-## Gakotokuwo
+## Gakotokuwɔ
 
-| Gakotoku | Ɖoƒe | De dzesii |
+| Gakotoku | Nɔnɔme | Nyatakakawo |
 | --- | --- | --- |
-| Zingo v7 | Live, default | `makers run-cli` bablawo ƒe ƒuƒoƒo `nym-proxy`. Session dzea egɔme le internet dzi; `--online`, `--remember-online`, or `--server` na lɔlɔ̃ ɖe edzi. |
-| Zkool | Nɔ agbe | Native mixnet ƒe ƒoƒo ɖekae. |
-| Ame bubuwo | To NymVPN dzi | Mɔ gakotokua to system-level Mixnet mode dzi. |
+| Zingo v7 | Le dɔ wɔm, le gɔmedzedze nu | `makers run-cli` tsɔ `nym-proxy` dea eŋu. Session ƒe gɔmedzedze mele internet dzi o; `--online`, `--remember-online`, alo `--server` na mɔɖeɖe. |
+| Zkool | Le dɔ wɔm | Native mixnet ƒe wɔwɔ. |
+| Bubuwo | Tso NymVPN | To gakotoku la ɖe system-level Mixnet mode me. |
 
-Ðoɖowɔwɔ ŋuti nyatakakawo na gakotoku-dzidzenu mɔa le [Mɔ Zcash Gakotoku Ʋuʋu To Nym Mixnet](/guides/nym-mixnet-wallet-setup).
+Ɖoɖowɔwɔ ƒe nyatakakawo na gakotoku ƒe mɔ la le [To Zcash Wallet ƒe Asitsotso Dze Nym Mixnet Ŋu](/guides/nym-mixnet-wallet-setup) me.
 
-## Asitsatsa ƒe asitsatsa
+## Nu si nàtsɔ asɔ
 
-Nym-routed gbeƒãɖeɖe le blewu abe 12.5× ene wu clearnet (~3.4 s). Tor zɔna kabakaba wu (~3.7×) gake ezãa FIFO tɔsisiwo tsakatsaka manɔmee, eyata xexeame katã ƒe futɔ ateŋu awɔ ɖeka kokoko. Nym zãla ƒe ƒuƒoƒo si woama ƒe dzidziɖedzi dzia ŋkɔmaɖemaɖe ɖe edzi nyuie wu heheɖemegbe bubu tsɔtsɔ kpee.
+Broadcast si woto Nym me la ble ɣeyiɣi wu clearnet teƒe 12.5 (~3.4 s). Tor le kabakaba wu (~3.7×), gake ewɔ FIFO streams si me amesiamɛxɛxɛ mele o, eyata adversary si kpɔ xexlẽ blibo la ate ŋu akɔrelate wo hã. Ne Nym ƒe amewo geɖe la ƒe xexeame tɔxɛ geɖe la, ekplɔ ƒomevi manya ɖe eŋu nyuie wu ɣeyiɣi bubu tsɔtsɔ kpe ɖe eŋu.
 
-## Dzadzɛnyenye le dɔwɔwɔ-layer: nym-swizzle-zcash
+## Application-layer ƒe dɔwɔ nyuie: nym-swizzle-zcash
 
-Network-layer takpɔkpɔ mesɔ gbɔ o. Ne mixnet alo VPN deblibo le esi gɔ̃ hã la, lightwallet server ate ŋu atsɔ ɣeyiɣiwo aɖo kadodo me kokoko to ŋkuléle ɖe application-layer ƒe nɔnɔmewo ŋu me:
+Network-layer ƒe ɣaɣla [privacy] ɖe eɖokui me mede o. Ke hã ne mixnet alo VPN de bliboa, lightwallet server ate ŋu akɔrelate sessions to application-layer ƒe nɔnɔmewo kpɔkpɔ:
 
-- Resume-point chaining: asisiwo gbugbɔ dzea sync gɔme tso tututu `previous end + 1`, ale be server la ate ŋu atsɔ kɔsɔkɔsɔ aƒo ɣeyiɣiwo nu ƒu to block ƒe kɔkɔme ɖeɖeko dzi.
-- Sync-then-send: gakotokuwo wɔa ɖeka enumake hafi woɖea gbeƒã, si wɔnɛ be dɔwɔƒea nagblɔ be asitsatsa aɖe tso ɖekawɔwɔ ƒe ɣeyiɣi si do ŋgɔ gbɔ.
+- Resume-point ƒe tsatsam: Clients gatrɔ sync tso `previous end + 1` tututu, eyata server la ate ŋu akɔ sessions kple block [gaɖoɖowo ƒuƒoƒe] ƒe teƒe ko.
+- Sync-nenye-send: Gakotokuwɔ wɔa sync enumake hafi woado broadcast, eye esia na server la nàde transaction la ɖe sync session si va do ŋgɔ la ŋu.
 
-The [`nym-swizzle-zcash`](https://nym.com/docs/developers/swizzle/zcash) crate wɔa dzadzɛnyenye ŋuti ɖoɖo si Zcash-specific si kpɔa evea siaa gbɔ. Eblaa aʋafiagã la ɖe agba me `nym-swizzle` primitives va zu kɔsɔkɔsɔ-sidzedze ɖoɖo na kekeli ƒe asisiwo.
+[`nym-swizzle-zcash`](https://nym.com/docs/developers/swizzle/zcash) crate la wɔa hygiene policy si tutɔ na Zcash eye wòɖo nya siawo me. Ewɔa `nym-swizzle` ƒe primitives gbogblɔ la ƒe package le policy si nya ɖoɖonu la me na light clients [nyatakaka si hiã ƒe mɔ].
 
-**Quantised sync ranges.** Wokeke biabiawo ɖe enu ɖe network-wide grid si me ŋkeke ƒe lolome ƒe lãmenugbagbeviwo le. Woƒoa gɔmedzedzea nu ƒu ɖe anyi eye woƒoa nuwuwu la godoo. Towo ƒe didime nye nusiwo woɖo ɖi, esiwo le dzi yim, eye womewɔ ɖeka o. Reorg ƒe ɖaseɖigbalẽwo nɔa teƒe si wokeke ɖe enu la me ale be womeɖea teƒe si tututu woagbugbɔ adze egɔme tsoe la fiana o. Ŋkɔmaɖemaɖe tsoa gododo (gakotoku geɖe siwo doa liƒo ɖeka mawo ke) gbɔ tsɔ wu toɣliɖeɖe.
+**Quantised sync ƒe ranges.** Wofafa biabiawo ɖe network blibo ƒe grid si ƒe cells le gbe ƒe lolome. Wotsɔa gɔmedzedze la ɖea anyi eye wotsɔa nuwuwu la doa dzi. Ranges la le ɖoɖo me, wotsɔa dzi yina, eye womema kplii o. Reorg ƒe checks le range si wofafa la me, ale be womafia resume point tututu o. Ƒomevi manya tso collision me (gakotokuwɔ geɖe do boundaries ma ke) eye menye tso noise me o.
 
-**Decoupled broadcasts.** Wohea asitsatsa dɔdɔwo ɖe megbe to exponential distribution (mamã dedie 144 blocks ≈ gaƒoƒo 3, cap 576 blocks ≈ gaƒoƒo 12) si sɔ kple ZIP 318 transfer scheduling. Heheɖemegbe wu dɔwɔwɔ ƒe agbenɔƒe si wozãna ɖaa, eyata ɖoɖowɔɖiwo nɔa anyi. Dzodoɣi koe wotua asitsatsa la ɖe gaxɔgbalẽvi yeye aɖe ŋu. Ele be sync kple broadcast nazã server vovovowo.
+**Broadcasts si woɖe teƒe vovovo.** Wotsɔa exponential distribution (mean blocks 144 ≈ gaƒoƒo 3, cap blocks 576 ≈ gaƒoƒo 12) dea transaction ƒe dodo megbe, si sɔ kple ZIP 318 transfer scheduling. Ɣeyiɣi si woɖe le megbe la wu process ƒe agbe ƒe ɣeyiɣi si wɔa zi geɖe, eyata wole schedules la ɖom ɖe teƒe me. Wotu transaction la le fire time ko, eye wotsɔa tip yeye. Sync kple broadcast ele be woazã servers vovovo.
 
-Aɖaka la ɖea nu fiana `BlockSource` kple `TxBroadcaster` nɔnɔmewo, ƒo ƒu na `wasm32-unknown-unknown`, eye network stack aɖeke mele esi le eɖokui si o. Kpɔ nya si [Nym nuŋlɔɖiwo](https://nym.com/docs/developers/swizzle/zcash) na API bliboa kple kpɔɖeŋuwo.
+Crate la fia `BlockSource` kple `TxBroadcaster` traits, ewɔ compilation na `wasm32-unknown-unknown`, eye network stack aɖeke mele eɖokui si o. Kpɔ [Nym docs](https://nym.com/docs/developers/swizzle/zcash) na API blibo kple kpɔɖeŋuwo.
 
-## Dzɔtsoƒewo
+## Tsoƒewo
 
-- [Alesi Nym tsɔa ŋkɔmaɖemaɖe kpena ɖe Zcash gakotokuwo ŋu](https://nym.com/blog/zcash-mixnet-anonymity) — Nym, 13 October 2026. Eƒe dukɔ nye United States of America
-- [nym-swizzle-zcash: Dzadzɛnyenye Ŋuti Ðoɖo na Zcash Light ƒe Asitsalawo](https://nym.com/docs/developers/swizzle/zcash) — Nym Nuŋlɔɖiwo
+- [Alekee Nym kplɔ ƒomevi manya ɖe Zcash gakotokuwɔ ŋu](https://nym.com/blog/zcash-mixnet-anonymity) — Nym, 13 October 2026
+- [nym-swizzle-zcash: Hygiene Policy na Zcash Light Clients](https://nym.com/docs/developers/swizzle/zcash) — Nym Docs
 - [Zingo + Nym](https://zingolabs.org/zingo/blog/zingo-nym/) — Zingo Labs
-- [Mɔ Zcash Gakotoku Ʋuʋu To Nym Mixnet](/guides/nym-mixnet-wallet-setup) — ZecHub
-- [Nym VPN ƒe dɔwɔwɔ](/guides/nym-vpn) — ZecHub
+- [To Zcash Wallet ƒe Asitsotso Dze Nym Mixnet Ŋu](/guides/nym-mixnet-wallet-setup) — ZecHub
+- [Nym VPN](/guides/nym-vpn) — ZecHub

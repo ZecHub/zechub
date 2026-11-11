@@ -1,34 +1,34 @@
-# **SOL/USDC -> ZEC Gbanwee site na iji Encrypt.trade** 
+# **Mgbawe [Swap] SOL/USDC -> ZEC site na Encrypt.trade**  
 
 
 ![img1](/content-images/Bkbg5alCll-7a02545c00.webp)
 
 
-*Gbanwee site na Solana gaa na Zcash, jiri usoro agbụ ígwè gafere na NEAR Intents.* 
+*Gbanwee site na Solana gaa na Zcash, ebe a na-ebugharị nzọụkwụ cross-chain site na NEAR Intents.*  
 
 ---
 
-###  Okwu Mmalite 
-[**zoo ezo.azụmaahịa**](https://encrypt.trade/zec) bụ ngwa Solana nke JMD Labs Inc. na-arụ. Ọ na-enye gị ohere ịgbanwe **SOL ma ọ bụ USDC** na Solana ka ọ bụrụ **Zcash (ZEC)**. A na-ebu ụzọ kechie tokens gị n'ụdị ezoro ezo ka e wee zoo ego ole ahụ na Solana, wee gbanwee ya na ZEC site na NEAR Intents.
+###  Mmalite  
+[**encrypt.trade**](https://encrypt.trade/zec) bụ app Solana nke JMD Labs Inc. na-arụ. Ọ na-enye gị ohere ịgbanwe **SOL ma ọ bụ USDC** na Solana gaa na **Zcash (ZEC)**. A na-ebu ụzọ kechie token [tokens] gị n'ime ụdị ezoro ezo ka e wee zoo ọnụọgụ ha na Solana, emesịa gbanwee ha gaa na ZEC site na NEAR Intents.
 
-Mgbanwe ahụ bụ nkeonwe n'ụzọ ụfọdụ mana ọ bụghị ihe niile. Ngwa ahụ bụ nke ya [akwụkwọ](https://docs.encifher.io/docs) Kwuo na mmekọrịta gị na agbụ ígwè abụghị ihe a na-amaghị aha ya: ndị mmadụ nwere ike ịhụ na obere akpa gị jiri ngwa ahụ, mana ọ bụghị otú i si kwaga. ZEC na-abịakwa na adreesị doro anya, ya mere ọ na-anọgide na-apụta ìhè na agbụ Zcash ruo mgbe ị ga-echebe ya.
+Mgbawe ahụ bụ nke Nzuzo [privacy] n'akụkụ ụfọdụ, ma ọ bụghị n'akụkụ niile. [docs](https://docs.encifher.io/docs) nke app ahụ kwuru na mmekọrịta gị na chain [chain] abụghị nke a na-amaghị onye mere ya: mmadụ nwere ike ịhụ na e-akpa ego [wallet] gị ji app ahụ, mana ha agaghị ahụ ego ole ị bufere. ZEC na-erutekwa na Adreesị akpa ego Oha [transparent address], ya mere ọ na-anọgide na-apụta ìhè na chain Zcash ruo mgbe i chebere ya.
 
 
 ![img2](/content-images/ByQ2qpeRee-67fce2814c.webp)
 
 ---
 
-###  Ihe Ị Ga-ama Tupu Ị Gbanwee 
-- **Akụkụ Solana.** Ịkpachi ihe na-ezochi ego ole a na-akwụ, mana adreesị obere akpa gị na ojiji ya bụ nke ọha [omume kacha mma](https://docs.encifher.io/docs/best-practices) dọọ aka ná ntị na ihe mkpuchi dị mfe, mgbanwe na iwepụ ihe mkpuchi ahụ na-eme ka azụmahịa gị nwee ike ijikọ.
-- **Nzuzo.** A na-ahazi nguzozi ezoro ezo n'ime ebe nchekwa ngwaike (TEE). Ndị mmepe ahụ [akwụkwọ](https://eprint.iacr.org/2026/1504) na-ekwu na nke a dabere na iguzosi ike n'ezi ihe nke TEE, njikwa igodo ọnụ ụzọ eziokwu na mgbọrọgwụ ihe akaebe nke igwe ojii, ọ bụghị naanị na cryptography.
-- **Nzọụkwụ agbụ ígwè.** A na-agafe mgbanwe ahụ gaa ZEC site na NEAR Intents, ebe ndị na-edozi onwe ha na-ejupụta usoro ahụ.
-- **Zcash.** NEAR Intents depụtara ZEC dịka akwadoro maka ya [naanị adreesị doro anya](https://docs.near-intents.org/resources/chain-support), na ubi ZEC na encrypt.trade na-anabata naanị adreesị doro anya (t1 ma ọ bụ t3) mgbe a lere ntuziaka a anya na Septemba 2026. Adreesị doro anya na-egosi nguzozi ya na mbufe na-abata n'ihu ọha ruo mgbe ị ga-echebe ya.
-- **Ịchọpụta ihe.** Ngwa a na-enyocha njikọ obere akpa na nchekwa data dịka TRM na Chainalysis, na ya [ibe nnabata](https://docs.encifher.io/docs/compliance) kwuru na enwere ike inyocha ndekọ ezoro ezo ma ọ bụrụ na enwere ihe kpatara iwu ziri ezi. NEAR Intents na-arụ ọrụ nke ya [nyocha](https://docs.near-intents.org/security-compliance/risk-and-compliance) kwa.
+###  Ihe Ị Kwesịrị Ịmata Tupu Ị Gbanwee  
+- **Akụkụ Solana.** Ichi ihe ezoro ezo na-ezo ọnụọgụ, mana Adreesị akpa ego gị na otu o si eji app ahụ bụ nke ọha. [best practices](https://docs.encifher.io/docs/best-practices) ya na-adọ aka ná ntị na ịkechie, gbanwee, ma kpọghee ihe n'otu ụzọ dị mfe na-eme ka e nwee ike ijikọ Azụmahia [transaction] gị.
+- **Nzobe ederede [encryption].** A na-ahazi nguzozi ezoro ezo off-chain n'ime ngwaike nchekwa (TEE). [paper](https://eprint.iacr.org/2026/1504) ndị onye mmepụta [developer] dere kwuru na nke a dabere na iguzosi ike n'ezi ihe nke TEE, njikwa igodo threshold nke eziokwu, na mgbọrọgwụ nkwenye cloud, ọ bụghị naanị na cryptography.
+- **Nzọụkwụ cross-chain.** A na-ebugharị Mgbawe gaa na ZEC site na NEAR Intents, ebe ndị solver nọọrọ onwe ha na-emezu iwu ahụ.
+- **Akụkụ Zcash.** NEAR Intents depụtara ZEC dị ka nke a kwadoro naanị maka [transparent addresses only](https://docs.near-intents.org/resources/chain-support), na mpaghara ZEC na encrypt.trade nabatara naanị Adreesị akpa ego Oha (t1 ma ọ bụ t3) mgbe enyochara ntụzịaka a na Septemba 2026. Adreesị akpa ego Oha na-egosi nguzozi ya na mbufe ego na-abata n'ihu ọha ruo mgbe i chebere ya.
+- **Nyocha.** App ahụ na-enyocha e-akpa ego ndị na-ejikọ megide nchekwa data dịka TRM na Chainalysis, na [compliance page](https://docs.encifher.io/docs/compliance) ya kwuru na enwere ike inyocha ndekọ ezoro ezo ma ọ bụrụ na e nwere ezi ihe kpatara iwu. NEAR Intents na-agbakwa [screening](https://docs.near-intents.org/security-compliance/risk-and-compliance) nke ya.
 
 ---
 
-###  Nzọụkwụ nke 1: Jikọọ obere akpa Solana gị 
-Gaa leta [zoo.azụmaahịa](https://encrypt.trade/zec) jiri **Chrome ma ọ bụ Firefox**, ma jikọọ obere akpa **Phantom**, **Solflare**, ma ọ bụ **Slope** gị. Hụ na obere akpa gị nwere **SOL** zuru oke maka ụgwọ mmanụ ụgbọala na ihe nrịbama ịchọrọ ịzụ ahịa. Ozugbo ejikọtara ya, ị dị njikere ijikọta akụ gị. 
+###  Nzọụkwụ 1: Jikọọ E-akpa ego Solana Gị  
+Gaa na [encrypt.trade](https://encrypt.trade/zec) site na iji **Chrome ma ọ bụ Firefox**, ma jikọọ e-akpa ego **Phantom**, **Solflare**, ma ọ bụ **Slope** gị. Gbaa mbọ hụ na e-akpa ego gị nwere **SOL** zuru ezu maka ugwo gas na token ndị ịchọrọ ịzụ ahịa. Ozugbo ejikọrọ ya, ị dịla njikere ikechie akụ gị.  
 
 
 ![img3](/content-images/SyVOs6lRxx-cbd8193e84.webp)
@@ -44,8 +44,8 @@ Gaa leta [zoo.azụmaahịa](https://encrypt.trade/zec) jiri **Chrome ma ọ b�
 
 ---
 
-###  Nzọụkwụ nke 2: Kechie akara ngosi gị 
-Gaa na ngalaba **Wrap**. Họrọ **SOL** ma ọ bụ **USDC**, tinye ego ahụ, wee kwado ya. Ngwa ahụ na-akpọchi ihe onwunwe gị ma na-ewepụta ụdị **encrypted (eSOL ma ọ bụ eUSDC)**. Ịkechi ego dị iche karịa mgbanwe na-eme ka ọ sie ike ịha nhata ha abụọ site na ego, mana ọ naghị ezo na obere akpa gị ejirila ngwa ahụ. 
+###  Nzọụkwụ 2: Kechie Token Gị  
+Gaa na ngalaba **Wrap**. Họrọ **SOL** ma ọ bụ **USDC**, tinye ọnụọgụ ahụ, ma kwado. App ahụ na-akpọchi akụ gị wee wepụta **ụdị ezoro ezo (eSOL ma ọ bụ eUSDC)**. Iji ọnụọgụ dị iche na nke ị na-agbanwe na-eme ka ọ sie ike ijikọta ha abụọ site n'ọnụọgụ, mana ọ naghị ezo na e-akpa ego gị ji app ahụ.  
 
 
 
@@ -61,8 +61,8 @@ Gaa na ngalaba **Wrap**. Họrọ **SOL** ma ọ bụ **USDC**, tinye ego ahụ,
 
 ---
 
-###  Nzọụkwụ nke 3: Kwadebe obere akpa ZODL gị 
-Budata [**ZODL**](https://zodl.com), obere akpa Zcash nke ZODL. Na ihuenyo nnata, detuo adreesị doro anya nke **Zcash** gị (ọ na-amalite site na t1). encrypt.trade anaghị anabata adreesị echekwara ma ọ bụ nke ejikọtara ọnụ maka ZEC ugbu a. Chekwaa mkpụrụ okwu gị nke ọma tupu ịga n'ihu. 
+###  Nzọụkwụ 3: Kwadebe E-akpa ego ZODL Gị  
+Budata [**ZODL**](https://zodl.com), e-akpa ego Zcash nke ZODL na-elekọta. Na ihuenyo Receive, detuo **Zcash Transparent Address** gị (ọ na-amalite na t1). encrypt.trade anaghị anabata Adreesị akpa ego nke e chebere echebe [shielded] ma ọ bụ nke jikọtara ọnụ maka ZEC ugbu a. Chekwaa Mkpuru mgbake [seed phrase] gị n'enweghị nsogbu tupu ịga n'ihu.  
 
 
 ![img7](/content-images/SykjhpgRll-60d19f6979.webp)
@@ -70,8 +70,8 @@ Budata [**ZODL**](https://zodl.com), obere akpa Zcash nke ZODL. Na ihuenyo nnata
 
 ---
 
-###  Nzọụkwụ nke 4: Gbanwee 
-Laghachi na **encrypt.trade**, gaa na **Swap**. Họrọ **eSOL/eUSDC -> ZEC**, mado adreesị ZODL gị doro anya, lelee nkọwa ya, wee kwado ya.
+###  Nzọụkwụ 4: Mgbawe  
+Laghachi na **encrypt.trade**, gaa na **Swap**. Họrọ **eSOL/eUSDC -> ZEC**, mado Adreesị akpa ego Oha ZODL gị, nyochaa nkọwa, ma kwado.
 
 
 
@@ -83,7 +83,7 @@ Laghachi na **encrypt.trade**, gaa na **Swap**. Họrọ **eSOL/eUSDC -> ZEC**, 
 ![img9](/content-images/S1yoapgRle-6d2031a62c.webp)
 
 
-**NEAR Intents** na-ejikwa ụzọ agbụ ígwè ma na-eziga **ZEC** na obere akpa ZODL gị. O nwere ike were nkeji ole na ole. NEAR Intents na-atụ aro ka o kwe ka nkeji iri na ise maka mgbanwe agbụ ígwè. 
+**NEAR Intents** na-ahụ maka ibugharị cross-chain ma ziga **ZEC** na e-akpa ego ZODL gị. Nke a nwere ike iwe nkeji ole na ole. NEAR Intents na-atụ aro ka ị kwe ka nkeji 15 gafee maka Mgbawe cross-chain.  
 
 
 
@@ -91,17 +91,17 @@ Laghachi na **encrypt.trade**, gaa na **Swap**. Họrọ **eSOL/eUSDC -> ZEC**, 
 
 ---
 
-###  Nzọụkwụ nke 5: Chebe ZEC gị 
-Ozugbo ZEC rutere, jiri nhọrọ **Shield** ZODL's iji bufee ya n'ime [ọdọ mmiri echebe](/using-zcash/shielded-pools). Ruo mgbe ahụ, ọ dị n'adreesị doro anya ebe onye ọ bụla nwere ike ịhụ nguzozi. Ihe nchekwa na-echebe ihe ị na-eme na-esote, mana mbufe na-abata na azụmahịa nchekwa na-anọgide na-apụta ìhè na agbụ ígwè. Na-enyocha njikọ mgbe niile, zere iji adreesị ọzọ, ma nwalee obere ego mbụ. 
+###  Nzọụkwụ 5: Chebe ZEC Gị  
+Ozugbo ZEC rutere, jiri nhọrọ **Shield** nke ZODL bugharịa ya n'ime [shielded pool](/using-zcash/shielded-pools). Ruo mgbe ahụ, ọ na-anọdụ na Adreesị akpa ego Oha ebe onye ọ bụla pụrụ ịhụ nguzozi ya. Ichebe ya na-echekwa ihe ị na-eme ọzọ, mana mbufe ego na-abata na Azụmahia ichebe ya na-anọgide na-ahụ anya na chain. Na-enyocha njikọ mgbe niile, zere iji Adreesị akpa ego ọzọ ugboro ugboro, ma buru ụzọ nwalee obere ọnụọgụ.  
 
 ---
 
-###  Ònye so na ya na ebee ka a ga-esi nweta enyemaka? 
-- **encrypt.trade** bụ ngwa ahụ, nke JMD Labs Inc. na-arụ [amụma nzuzo](https://encrypt.trade/privacy) na-ekwu na ọ na-anakọta data teknụzụ dịka IP, ihe nchọgharị na nkọwa ngwaọrụ, na-eziga adreesị obere akpa gị, akụkọ ihe mere eme na nguzozi ọhụrụ nye ndị na-enye ọrụ nnabata tupu mgbanwe, ma nwee ike idobe ndekọ na nsonaazụ nyocha AML ruo afọ ise [usoro](https://encrypt.trade/terms) machibido iji VPN ma ọ bụ proxy zoo ebe ị nọ. Nkwado: help@encifher.io ma ọ bụ [Otu Telegram](https://t.me/+ZWHGMW4ZHXQwYTZl) ejikọtara site na ngwa ahụ.
-- **N'obi Dị Nso** na-aga nzọụkwụ agbụ ígwè ma na-ebuga ZEC. Lee ya [Usoro API 1Click](https://docs.near-intents.org/security-compliance/terms-of-service) na amụma nzuzo dị na near.com/privacy, soro mgbanwe na [Ihe Nchọgharị Nso Intents](https://explorer.near-intents.org), ma rịọ maka enyemaka n'ime [Telegram dị nso](https://t.me/near_intents).
+###  Ndị Metụtara Ya na Ebe Ị Ga-enweta Enyemaka  
+- **encrypt.trade** bụ app ahụ, nke JMD Labs Inc. na-arụ. [privacy policy](https://encrypt.trade/privacy) ya kwuru na ọ na-anakọta data teknụzụ dịka IP, nchọgharị na nkọwa ngwaọrụ, na-eziga Adreesị akpa ego gị, akụkọ ihe mere eme na-adịbeghị anya na nguzozi gị n'aka ndị na-enye ọrụ nyocha irube isi tupu Mgbawe, ma nwee ike idobe ndekọ na nsonaazụ nyocha AML ruo afọ ise. [terms](https://encrypt.trade/terms) ya machibidoro iji VPN ma ọ bụ proxy zoo ebe ị nọ. Nkwado: help@encifher.io ma ọ bụ otu [Telegram group](https://t.me/+ZWHGMW4ZHXQwYTZl) ejikọrọ na app ahụ.
+- **NEAR Intents** na-ebugharị nzọụkwụ cross-chain ma nyefee ZEC. Lee [1Click API terms](https://docs.near-intents.org/security-compliance/terms-of-service) ya na iwu Nzuzo na near.com/privacy, soro Mgbawe na [NEAR Intents Explorer](https://explorer.near-intents.org), ma rịọ enyemaka na [NEAR Intents Telegram](https://t.me/near_intents).
 
-Usoro na adreesị akwadoro nwere ike ịgbanwe, yabụ lelee ụdị ndị dị ugbu a tupu mgbanwe buru ibu. Maka ozi ndị ọzọ gbasara foto sara mbara, lee [Mgbanwe Ndị Na-abụghị nke Ụlọọrụ Nchekwa](/using-zcash/non-custodial-exchanges).
+Usoro na Adreesị akpa ego ndị akwadoro nwere ike ịgbanwe, ya mere lelee ụdị dị ugbu a tupu nnukwu Mgbawe. Maka ihe ndị ọzọ gbasara nnukwu onyinyo a, lee [Non-Custodial Exchanges](/using-zcash/non-custodial-exchanges).
 
 ---
 
-Site na ijikọta **Solana**, **Zcash** na **NEAR Intents**, **encrypt.trade** na-enye gị ụzọ dị ngwa site na SOL ma ọ bụ USDC gaa na ZEC. Ọ na-ezochi ego na Solana mana ọ bụghị nkeonwe, yabụ chebe ZEC gị ozugbo ọ dara.
+Site n'ijikọta **Solana**, **Zcash** na **NEAR Intents**, **encrypt.trade** na-enye gị ụzọ ngwa ngwa site na SOL ma ọ bụ USDC gaa na ZEC. Ọ na-ezo ọnụọgụ na Solana mana ọ bụghị nke Nzuzo site na mmalite ruo na njedebe, ya mere chebe ZEC gị ozugbo ọ rutere.

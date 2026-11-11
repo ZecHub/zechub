@@ -4,6 +4,16 @@
 
 # <img src="/content-images/ZEC-USD-a2189a84b9.webp" alt="Alternativtext" width="50"/>   Nicht-verwahrende Börsen
 
+## Kurz gesagt
+
+* Eine nicht-verwahrende Börse ermöglicht dir, Coins aus deiner eigenen Wallet zu tauschen. Du behältst deine privaten Schlüssel, und kein Börsenkonto verwahrt deine Gelder.
+* Das Behalten deiner Schlüssel schützt dich vor Hacks und Ausfällen von Börsen. Privatsphäre ist eine separate Frage.
+* Die Einzahlung, die du von einer anderen Chain sendest, etwa Solana oder Ethereum, ist auf dieser Chain öffentlich. Der Swap-Service sieht außerdem deine Adressen und Verbindungsdaten.
+* Einige Swap-Routen liefern ZEC an eine transparente Adresse, die öffentlich ist.
+* Deine ZEC werden privat, sobald sie sich in einer abgeschirmten Adresse befinden. Schirme sie in deiner eigenen Wallet ab, bevor du sie ausgibst.
+
+## Grundlegende Erklärung
+
 [Zcash Nicht-verwahrende Börsen](/dex)
 
 In der sich ständig weiterentwickelnden Welt des Kryptowährungshandels ermöglichen nicht-verwahrende Börsen, auch bekannt als dezentrale Börsen oder DEXs, Nutzern zu handeln, ohne ihre Gelder einem Börsenkonto anzuvertrauen. Du behältst deine eigenen Schlüssel, doch das bedeutet nicht, dass sonst niemand beteiligt ist. Je nach Route kann ein Swap über eine Website oder Wallet-App, einen Routing-Service, Smart Contracts, Solver und Bridges laufen.
@@ -12,7 +22,7 @@ Die oben aufgeführten Börsen ermöglichen es dir, Zcash aus deiner eigenen Wal
 
 ### **Nicht-verwahrende Börsen verstehen**
 
-Nicht-verwahrende Börsen, auch bekannt als dezentrale Börsen (DEXs), sind Plattformen, die den Handel mit Kryptowährungen ermöglichen, ohne dass Nutzer ihre Gelder bei der Börse selbst einzahlen müssen. Stattdessen behalten Nutzer die Kontrolle über ihre privaten Schlüssel und handeln aus ihren eigenen Wallets. Cross-Chain-Swaps sind weiterhin auf andere Parteien angewiesen, um den Handel zu quotieren, weiterzuleiten und abzuwickeln (siehe unten).
+Nicht-verwahrende Börsen, auch bekannt als Decentralized Exchanges (DEXs), sind Plattformen, die den Handel mit Kryptowährungen ermöglichen, ohne dass Nutzer ihre Mittel bei der Börse selbst einzahlen müssen. Stattdessen behalten Nutzer die Kontrolle über ihre privaten Schlüssel und handeln aus ihren eigenen Wallets. Cross-chain Swaps sind weiterhin auf andere Parteien angewiesen, um den Handel zu quotieren, weiterzuleiten und abzuwickeln (siehe unten).
 
 Dies kann die Sicherheit verbessern, da Nutzer nicht darauf angewiesen sind, dass die Börse ihre Vermögenswerte verwahrt, wodurch das Risiko von Hacks oder Fehlmanagement sinkt. Ein Swap wird dadurch jedoch nicht automatisch privat. Transaktionen auf nicht-verwahrenden Börsen verwenden häufig Smart Contracts, die öffentlich sind, und der von dir genutzte Service kann weiterhin deine Adressen und Verbindungsdetails sehen.
 
@@ -22,11 +32,11 @@ Ein wesentlicher Vorteil nicht-verwahrender Kryptowährungsbörsen liegt in der 
 
 **#1 Sicherheit**: Nicht-verwahrende Börsen machen es überflüssig, Gelder auf einem zentralen Börsenkonto zu halten. Nutzer behalten die Kontrolle über ihre privaten Schlüssel, wodurch das Risiko von Hacks, Insider-Angriffen und Plattformausfällen, die bei verwahrenden Börsen auftreten können, sinkt. Cross-Chain-Swaps können Gelder dennoch für kurze Zeit in einer Einzahlungsadresse oder Bridge halten, während der Handel abgewickelt wird.
 
-**#2 Privatsphäre**: Nicht-verwahrende Swaps benötigen normalerweise kein Börsenkonto, sodass du die Anmeldung mit E-Mail oder Ausweis oft überspringst. Das ist nicht dasselbe wie Anonymität. Die Einzahlung, die du im Quellnetzwerk sendest (zum Beispiel Solana oder Ethereum), ist auf dieser Chain öffentlich, und der Service kann weiterhin deine Wallet-Adressen, IP-Adresse und Swap-Details sehen. Die Privatsphäre auf der Zcash-Seite hängt davon ab, wo dein ZEC landet (siehe unten).
+**#2 Datenschutz**: Für nicht-verwahrende Swaps ist in der Regel kein Börsenkonto erforderlich, sodass du dich oft nicht mit einer E-Mail-Adresse oder einem Ausweis anmelden musst. Das ist nicht dasselbe wie Anonymität. Die Einzahlung, die du im Quellnetzwerk sendest (zum Beispiel Solana oder Ethereum), ist auf dieser Chain öffentlich, und der Dienst kann weiterhin deine Wallet-Adressen, IP-Adresse und Swap-Details sehen. Der Datenschutz auf der Zcash-Seite hängt davon ab, wo deine ZEC landet (siehe unten).
 
 **#3 Dezentralisierung**: Nicht-verwahrende Börsen entsprechen stärker dem dezentralen Ethos von Kryptowährungen. Nutzer haben mehr Autonomie und Kontrolle über ihre Handelsaktivitäten, im Einklang mit den umfassenderen Prinzipien der Blockchain-Technologie.
 
-Bei verwahrenden Börsen ist der Grad der Dezentralisierung bei den meisten zentralisierten Börsen oft sehr gering, wodurch das Börsenteam oder Verantwortliche Nutzerdaten beziehungsweise Informationen auf der Börse verwalten.
+Bei verwahrenden Börsen ist der Grad der Dezentralisierung bei den meisten zentralisierten Börsen oft sehr gering, sodass das Börsenteam oder Verantwortliche die Nutzerdaten bzw. -informationen auf der Börse verwalten.
 
 **#4 Anpassungsfähigkeit an sich ändernde Vorschriften**: Nicht-verwahrende Börsen sind häufig besser an sich ändernde regulatorische Rahmenbedingungen anpassbar. Da sie keine Nutzergelder halten, könnten sie im Vergleich zu verwahrenden Börsen weniger Compliance-Herausforderungen haben.
 
@@ -67,6 +77,16 @@ NEAR Intents [prüft integrierte Angebotsabläufe](https://docs.near-intents.org
 - Verbindungsdaten. In den 1Click-Bedingungen heißt es, dass Intents Technology Anfragemetadaten, IP-Adressen und Wallet-Adressen erfassen kann; die Datenschutzerklärung auf near.com nennt IP-Adresse, Standort, Browser- und Geräteinformationen.
 - Alles, was die App zusätzlich hinzufügt, etwa weitere verbundene Wallet-Adressen. Apps können deine Wallet auch eigenen Compliance-Prüfungen unterziehen.
 
+## Visuell / Analogie
+
+Eine verwahrende Börse funktioniert wie eine Bank. Du eröffnest ein Konto, lässt dein Geld in ihrem Tresor und beauftragst sie, für dich zu handeln.
+
+Ein nicht-verwahrender Swap funktioniert wie ein Wechselstubenfenster an einer belebten Straße. Du reichst Bargeld durch das Fenster, erhältst eine andere Währung zurück und lässt dein Geld niemals beim Schalterbeamten. Menschen auf der Straße können sehen, wie du hingehst und dein Bargeld übergibst, genauso wie jeder deine Einzahlung auf der Quell-Chain sehen kann. Der Schalterbeamte sieht dein Gesicht und den Betrag.
+
+Was nach Ablauf des Zeitfensters geschieht, liegt bei dir. Lege die neuen Coins in einen versiegelten Umschlag, verwende eine abgeschirmte Adresse, und niemand kann sie von dort aus nachverfolgen.
+
+## Praktische Auswirkungen
+
 ### **Wo du Bedingungen und Support prüfen kannst**
 
 Bedingungen ändern sich; lies daher vor einem großen Swap die aktuellen Versionen.
@@ -85,3 +105,23 @@ Nicht-verwahrende Börsen oder DEXs ermöglichen dir den Handel aus deiner eigen
 Nicht-verwahrende Börsen bieten zwar überzeugende Vorteile, doch es ist wichtig anzuerkennen, dass sie auch Nachteile mit sich bringen können, etwa potenzielle Liquiditätsprobleme und eine steilere Lernkurve für weniger erfahrene Nutzer.
 
 Wie bei jeder finanziellen Entscheidung sollten Händler ihre Prioritäten, Risikotoleranz und Vertrautheit mit der Technologie sorgfältig bewerten, bevor sie zwischen nicht-verwahrenden und verwahrenden Börsenoptionen wählen.
+
+## Häufige Fehler
+
+- **„Nicht verwahrend“ mit „privat“ gleichzusetzen.** Das Behalten deiner Schlüssel schützt deine Mittel vor dem Ausfall einer Börse. Die Einzahlung auf der Quell-Chain ist öffentlich, und der Dienst sieht deine Adressen und IP-Adresse.
+- **Getauschte ZEC auf einer transparenten Adresse zu lassen.** Wenn die Route an eine t1- oder t3-Adresse auszahlt, verschiebe die ZEC auf eine shielded Adresse in deiner eigenen wallet, bevor du sie ausgibst.
+- **Die Prüfung der Rückerstattungsadresse zu überspringen.** Ein fehlgeschlagener Tausch kann an die von dir angegebene Rückerstattungsadresse zurückgehen, und Rückerstattungen sind nicht garantiert. Prüfe diese Adresse, bevor du sendest.
+- **„Kein KYC“ als „keine Prüfungen“ zu verstehen.** Die meisten Dienste prüfen wallet-Adressen anhand von Compliance-Datenbanken, sodass ein markierter Tausch verzögert oder blockiert werden kann.
+
+## Verwandte Seiten
+
+- [DEX](/using-zcash/dex): nicht-verwahrende Börsen, die ZEC unterstützen.
+- [Zentralisierte Swaps](/using-zcash/centralized-swaps): sofortige Swap-Dienste, die ohne Börsenkonto funktionieren.
+- [Verwahrende Börsen](/using-zcash/custodial-exchanges): Börsen, die deine Gelder in einem Konto verwahren.
+- [Shielded Pools](/using-zcash/shielded-pools): wo dein ZEC nach einem Swap privat wird.
+- [Unified Addresses](/using-zcash/unified-addresses): die `u1`-Adresse, die dir die meisten Wallets zum Empfang von ZEC geben.
+- [Solana ZEC zu Shielded](/using-zcash/solana-zec-to-shielded): Verschieben von ZEC aus Solana in eine Shielded-Adresse.
+- [ZEC privat verwenden](/guides/using-zec-privately): was du mit deinem ZEC tun kannst, sobald es angekommen ist.
+- [Wer deine Zcash-Zahlung sehen kann](/start-here/who-can-see-your-zcash-payment): was auf jeder Seite einer Zahlung sichtbar bleibt.
+
+**Letzte Aktualisierung:** Oktober 2026

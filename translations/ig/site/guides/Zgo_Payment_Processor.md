@@ -2,129 +2,129 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# ZGo Payment Processor: Ịnabata Zcash na-enweghị Nchebe
+# ZGo Onye nhazi Kwụọ ụhwọ [Payment Processor]: Ịnabata Zcash Na-enweghị Onye nlekota
 
-ZGo is a non-custodial payment processor for Zcash. A customer pays in ZEC from their own wallet, ZGo monitors the Zcash blockchain for the transaction, and the funds arrive directly in the merchant's wallet through a shielded transfer. ZGo never holds the money in between.
+ZGo bụ onye nhazi Kwụọ ụhwọ na-enweghị Onye nlekota maka Zcash. Onye ahịa na-akwụ ụgwọ na ZEC site n’e-akpa ego [wallet] nke ha, ZGo na-enyocha blockchain Zcash maka Azụmahia [transaction], ego ahụ eruo e-akpa ego onye ọchụnta ego ozugbo site na nnyefe nke e chebere echebe [shielded]. ZGo anaghị ejide ego ahụ n’etiti.
 
-This guide explains how the payment flow works, how to set up an account, and how to integrate ZGo with Xero and WooCommerce. It also covers the two mistakes that cause most first-time setup problems.
+Ntuziaka a na-akọwa otú usoro Kwụọ ụhwọ si arụ ọrụ, otú e si ahazi akaụntụ [account], na otú e si ejikọta ZGo na Xero na WooCommerce. Ọ na-ekpuchikwa mmejọ abụọ na-akpata ọtụtụ nsogbu n’oge nhazi mbụ.
 
-## Na peeji a
+## N’ibe a
 
-1. [Gịnị mere iji ZGo](#why-use-zgo)
-2. [Otú ZGo si arụ ọrụ](#how-zgo-works)
-3. [Ịmepe akaụntụ](#setting-up-an-account)
+1. [Ihe kpatara iji ZGo](#why-use-zgo)
+2. [Otu ZGo si arụ ọrụ](#how-zgo-works)
+3. [Ịhazi akaụntụ](#setting-up-an-account)
 4. [ZGo na Xero](#zgo-with-xero)
 5. [ZGo na WooCommerce](#zgo-with-woocommerce)
-6. [Ihe ndị e ji mara](#features)
-7. [Mmehie ndị a na-emekarị](#common-mistakes)
-8. [Nkwubi okwu](#conclusion)
-9. [Ebe e si enweta ego](#resources)
+6. [Njirimara](#features)
+7. [Mmejọ ndị a na-ahụkarị](#common-mistakes)
+8. [Mmechi](#conclusion)
+9. [Akụrụngwa](#resources)
 
-## Ihe mere ị ga-eji jiri ZGo
+## Ihe kpatara iji ZGo
 
-Most cryptocurrency payment processors are custodial. Funds first land in the processor's account and are forwarded to the merchant later, which means a third party temporarily controls the money and can freeze, delay, or report on it.
+Ọtụtụ ndị nhazi Kwụọ ụhwọ cryptocurrency bụ Onye nlekota [custodial]. Ego ahụ na-ebu ụzọ abanye n’akaụntụ onye nhazi, e mesịa eziga ya n’aka onye ọchụnta ego; nke a pụtara na ndị ọzọ na-achịkwa ego ahụ nwa oge, ha nwekwara ike ifriizi, igbu oge, ma ọ bụ kọọ maka ya.
 
-ZGo takes the opposite approach. Payments move from the customer's wallet directly to the merchant's wallet through a Zcash shielded transaction. The processor only generates the invoice and watches the blockchain for confirmation. There is no intermediary balance, no withdrawal flow, and no third party that can hold up settlement.
+ZGo na-eji ụzọ dị iche kpamkpam. Kwụọ ụhwọ [Payments] na-esi n’e-akpa ego [wallet] nke onye ahịa ozugbo gaa n’e-akpa ego nke onye na-ere ahịa site n’Azụmahia nke e chebere echebe [shielded transaction] nke Zcash. Onye nhazi ahụ na-emepụta naanị invoice ma na-ele blockchain anya maka nkwenye. Enweghị nguzozi etiti, usoro iwepụ ego, ma ọ bụ onye nke atọ nwere ike igbu oge na mmecha.
 
-For a merchant, this means three practical things: full custody of incoming ZEC, shielded transaction privacy by default, and no dependency on a centralized provider staying online or solvent.
+Maka onye ọchụnta ego, nke a pụtara ihe atọ bara uru: njide zuru oke nke ZEC na-abata, Nzuzo [privacy] nke Azụmahia nke e chebere echebe site na ndabara, na enweghị ịdabere na onye na-eweta ọrụ etiti ịnọ n’ịntanetị ma ọ bụ ịnọgide nwee ike ịkwụ ụgwọ.
 
-## Otú ZGo si arụ ọrụ
+## Otu ZGo si arụ ọrụ
 
-Usoro ịkwụ ụgwọ bụ otu ihe ahụ n'agbanyeghị ma ZGo na-eji standalone, site na Xero, ma ọ bụ site na WooCommerce:
+Usoro Kwụọ ụhwọ bụ otu, n’agbanyeghị ma ejiri ZGo naanị ya, site na Xero, ma ọ bụ site na WooCommerce:
 
-1. The merchant generates a payment request in ZGo, which renders as a QR code with the amount, the invoice ID, and a Zcash receiving address.
-2. The customer scans the QR with a Zcash wallet (Orchard, Sapling, and Transparent address types are all supported on the WordPress plugin) and approves the payment.
-3. The transaction is broadcast to the Zcash network as a shielded transfer from the customer's wallet to the merchant's wallet.
-4. ZGo na-enyocha Zcash blockchain maka azụmahịa ahụ.
-5. Mgbe nkwenye ise gachara, ZGo na-egosi ịkwụ ụgwọ ahụ dị ka nke ikpeazụ ma na-agwa njikọ ọ bụla jikọtara (Xero, WooCommerce, ma ọ bụ webhook).
+1. Onye ọchụnta ego na-emepụta arịrịọ Kwụọ ụhwọ na ZGo, nke na-apụta dị ka koodu QR nwere ego ole, ID invoice, na Adreesị akpa ego [address] nnata Zcash.
+2. Onye ahịa na-eji e-akpa ego Zcash enyocha QR ahụ (Orchard, Sapling, na ụdị Adreesị Oha [transparent] niile ka akwadoro na plugin WordPress) wee kwado Kwụọ ụhwọ ahụ.
+3. A na-ebipụta Azụmahia ahụ na netwọk Zcash dịka nnyefe nke e chebere echebe sitere n’e-akpa ego onye ahịa gaa n’e-akpa ego onye ọchụnta ego.
+4. ZGo na-enyocha blockchain Zcash maka Azụmahia ahụ.
+5. Mgbe nkwenye ise gachara, ZGo na-akara Kwụọ ụhwọ ahụ akara ikpeazụ wee gwa njikọta ọ bụla e jikọrọ (Xero, WooCommerce, ma ọ bụ webhook).
 
-Nkwado nkwenye ise bụ nọmba isi. Ihe ọ bụla dị n'ihu bụ ịkwụ ụgwọ na-aga n'iru, ọ bụghị ụgwọ a natara. Mmezu nke iwu, mmelite ngwaahịa, na ihe ọ bụla na-enweghị ike ịgbanwe agbanwe n'akụkụ onye ahịa kwesịrị ichere maka nzọụkwụ 5.
+Ọnụ ọgụgụ nkwenye ise bụ isi ihe dị mkpa. Ihe ọ bụla tupu ya bụ Kwụọ ụhwọ na-aga n’ihu, ọ bụghị Kwụọ ụhwọ anabatara. Mmezu iwu, mmelite ngwa ahịa, na omume ọ bụla a na-apụghị ịgbanwe n’akụkụ onye ọchụnta ego kwesịrị ichere nzọụkwụ 5.
 
-ZGo runs in any modern browser on desktop or mobile, with no install on either side. The customer needs a Zcash wallet; the merchant needs a Zcash wallet and a ZGo account.
+ZGo na-arụ ọrụ n’ihe nchọgharị ọ bụla nke oge a na kọmputa ma ọ bụ ekwentị, na-enweghị nrụnye n’akụkụ abụọ ahụ. Onye ahịa chọrọ e-akpa ego Zcash; onye ọchụnta ego chọrọ e-akpa ego Zcash na akaụntụ ZGo.
 
 <img width="672" height="378" alt="ZGo payment request and blockchain monitoring overview" src="/content-images/de50885b-b068-4157-bbda-0981ca23efc8-a00a274776.webp" />
 
-## Ịmepụta akaụntụ
+## Ịhazi akaụntụ
 
-To create a ZGo account, a Zcash wallet with a small amount of ZEC is required. The small ZEC balance covers the on-chain fee for the account-initialization transaction. Any major Zcash wallet works for this; see [ZecHub Wallets](https://zechub.wiki/wallets) maka nhọrọ ndị dị ugbu a.
+Iji mepụta akaụntụ ZGo, a chọrọ e-akpa ego Zcash nwere obere ego ZEC. Obere nguzozi ZEC ahụ na-ekpuchi ugwo [fee] on-chain maka Azụmahia mmalite akaụntụ. E-akpa ego Zcash ọ bụla a ma ama na-arụ ọrụ maka nke a; lee [ZecHub Wallets](https://zechub.wiki/wallets) maka nhọrọ ndị dị ugbu a.
 
-Ntọala ntọala:
+Nhazi bụ isi:
 
-1. Mepee [zgo.cash](https://zgo.cash/) na ihe nchọgharị.
-2. Mepụta akaụntụ site na iji obere akpa Zcash n'okpuru njikwa onye ahịa. obere akpa a ga-ejide igodo. adreesị nkwụnye ego mgbanwe agaghị arụ ọrụ (lee [Ihe ndị a na-emekarị](#common-mistakes)).
-3. Nyochaa obere akpa ahụ site na izipu obere azụmahịa mmalite.
-4. Hazie adreesị nnata. Ịkwụ ụgwọ niile a na-eme site na akaụntụ a ga-adaba na obere akpa a.
+1. Mepee [zgo.cash](https://zgo.cash/) n’ihe nchọgharị.
+2. Jiri e-akpa ego Zcash nke onye ọchụnta ego na-achịkwa mepụta akaụntụ. E-akpa ego a ga-enwerịrị mkpịsị ugodi. Adreesị nkwụnye ego exchange agaghị arụ ọrụ (lee [Mmejọ ndị a na-ahụkarị](#common-mistakes)).
+3. Kwenye e-akpa ego ahụ site n’iziga obere Azụmahia mmalite.
+4. Hazie Adreesị akpa ego nnata. Kwụọ ụhwọ niile a na-ahazi site n’akaụntụ a ga-abanye n’e-akpa ego a.
 
-Once the account is active, the same merchant can use ZGo for one-off payments (a single QR code at a pop-up event) or wire it into a permanent setup through Xero or WooCommerce.
+Ozugbo akaụntụ ahụ rụọ ọrụ, otu onye ọchụnta ego ahụ nwere ike iji ZGo maka Kwụọ ụhwọ otu oge (otu koodu QR n’mmemme pop-up) ma ọ bụ jikọọ ya na nhazi na-adịgide adịgide site na Xero ma ọ bụ WooCommerce.
 
 ## ZGo na Xero
 
-[Xero](https://www.xero.com/) is a cloud accounting platform used by many small and mid-size businesses. The ZGo–Xero integration lets a merchant issue an invoice in Xero, have the customer pay it in ZEC, and have Xero automatically mark the invoice as paid once the transaction confirms.
+[Xero](https://www.xero.com/) bụ ikpo okwu ndekọ ego nke igwe ojii ọtụtụ obere azụmahịa na azụmahịa ọkara na-eji. Njikọta ZGo–Xero na-ekwe ka onye ọchụnta ego wepụta invoice na Xero, onye ahịa kwụọ ya na ZEC, ka Xero wee kaa invoice ahụ akara na akwụla ya ozugbo Azụmahia ahụ kwadoro.
 
-Otú o si arụ ọrụ:
+Otu o si arụ ọrụ:
 
-1. Onye ahịa ahụ na-emepụta akwụkwọ ọnụahịa na Xero dị ka ọ dị na mbụ.
-2. ZGo na-agbakwunye nhọrọ ịkwụ ụgwọ Zcash na akwụkwọ ọnụahịa ahụ.
-3. Onye ahịa na-akwụ ụgwọ na ZEC site na obere akpa ha.
-4. ZGo na-enyocha [Zcash blockchain](https://z.cash/) maka azụmahịa ahụ.
-5. Mgbe nkwenye ise gasịrị, ZGo na-akọghachi ụgwọ ahụ na Xero, nke na-egosi akwụkwọ ọnụahịa ahụ dị ka akwụ ụgwọ.
+1. Onye ọchụnta ego na-emepụta invoice na Xero dịka ọ na-adị.
+2. ZGo na-agbakwunye nhọrọ Kwụọ ụhwọ Zcash na invoice ahụ.
+3. Onye ahịa na-akwụ na ZEC site n’e-akpa ego ha.
+4. ZGo na-enyocha [Zcash blockchain](https://z.cash/) maka Azụmahia ahụ.
+5. Mgbe nkwenye ise gachara, ZGo na-akọpụta Kwụọ ụhwọ ahụ na Xero, nke na-akara invoice ahụ akara dị ka nke edoziworo.
 
-The ZEC lands in the merchant's wallet, not in any ZGo-controlled or Xero-controlled account. The accounting record in Xero stays in sync with the on-chain settlement automatically.
+ZEC na-abanye n’e-akpa ego onye ọchụnta ego, ọ bụghị n’akaụntụ ọ bụla ZGo na-achịkwa ma ọ bụ Xero na-achịkwa. Ndekọ ndekọ ego dị na Xero na-anọgide na-emekọrịta onwe ya na mmezu on-chain.
 
-Maka oge mbụ ịtọlite, soro usoro ije ije a raara nye: [Xero Integration Configuration](https://hedgedoc.vergara.tech/s/4iXC67fmb).
+Maka nhazi mbụ, soro ntụziaka pụrụ iche a: [Nhazi Njikọta Xero](https://hedgedoc.vergara.tech/s/4iXC67fmb).
 
 ## ZGo na WooCommerce
 
-Maka ụlọ ahịa dị n'ịntanetị na-agba ọsọ na [WooCommerce](https://woocommerce.com/) na [WordPress](https://wordpress.org/), ZGo provides a dedicated plugin. The plugin adds Zcash as a payment method at checkout and handles the order state automatically when the payment confirms.
+Maka ụlọ ahịa n’ịntanetị na-arụ na [WooCommerce](https://woocommerce.com/) na [WordPress](https://wordpress.org/), ZGo na-enye plugin pụrụ iche. Plugin ahụ na-agbakwunye Zcash dịka usoro Kwụọ ụhwọ n’oge checkout ma na-ahụ ọnọdụ iwu ahụ anya ozugbo Kwụọ ụhwọ kwadoro.
 
 <img width="672" height="378" alt="ZGo WooCommerce plugin checkout and order flow" src="/content-images/55a791bb-1947-4f55-b5b9-55083be8ed49-2bc8d2571e.webp" />
 
-Ọgwụgwụ-na-ọgwụgwụ na-aga n'ime ụlọ ahịa WooCommerce:
+Usoro zuru ezu n’ime ụlọ ahịa WooCommerce:
 
-1. Onye ahịa ahụ na-eru ego ma họrọ Zcash dị ka usoro ịkwụ ụgwọ.
-2. Ihe mgbakwunye ahụ na-ewepụta arịrịọ ịkwụ ụgwọ ma gosipụta koodu QR na ibe ndenye ọpụpụ.
-3. Onye ahịa ahụ na-akwụ ụgwọ site n'akpa ego ya.
-4. The transaction broadcasts to the Zcash network and ZGo begins monitoring it.
-5. Mgbe nkwenye ise gasịrị, ZGo na-akọ ụgwọ ahụ dị ka nke ikpeazụ na ngwa mgbakwunye.
-6. Ihe mgbakwunye ahụ na-egosi iwu WooCommerce dị ka akwụ ụgwọ ma melite nchekwa data iwu.
+1. Onye ahịa ruru checkout wee họrọ Zcash dịka usoro Kwụọ ụhwọ.
+2. Plugin ahụ na-emepụta arịrịọ Kwụọ ụhwọ ma gosi koodu QR na ibe checkout.
+3. Onye ahịa na-akwụ site n’e-akpa ego ha.
+4. Azụmahia ahụ na-ebipụta na netwọk Zcash, ZGo amalite inyocha ya.
+5. Mgbe nkwenye ise gachara, ZGo na-akọpụta Kwụọ ụhwọ ahụ dị ka nke ikpeazụ nye plugin ahụ.
+6. Plugin ahụ na-akara iwu WooCommerce akara na akwụla ya wee melite nchekwa data iwu.
 
-The order is only paid when step 6 completes. Earlier states (broadcast, first confirmations) can be shown to the customer as "payment received, awaiting confirmation," but inventory, fulfilment, and any downstream automation should wait for the final state.
+A na-akwụ iwu ahụ naanị mgbe nzọụkwụ 6 mechara. Enwere ike igosi onye ahịa ọnọdụ ndị mbụ (ebipụtara, nkwenye mbụ) dịka “a nabatara Kwụọ ụhwọ, na-eche nkwenye,” mana ngwa ahịa, mmezu, na akpaaka ọ bụla na-esochi kwesịrị ichere ọnọdụ ikpeazụ.
 
-The plugin also installs an administrative dashboard inside WordPress, where the merchant can monitor orders and incoming ZEC payments alongside the normal WooCommerce order view. The plugin supports all current Zcash address types: Orchard, Sapling, and Transparent. Customers paying from any compliant wallet can complete the transaction.
+Plugin ahụ na-etinyekwa dashboard nchịkwa n’ime WordPress, ebe onye ọchụnta ego nwere ike inyocha iwu na Kwụọ ụhwọ ZEC na-abata n’akụkụ nlele iwu WooCommerce nkịtị. Plugin ahụ na-akwado ụdị Adreesị Zcash niile dị ugbu a: Orchard, Sapling, na Oha. Ndị ahịa na-akwụ site n’e-akpa ego ọ bụla na-agbaso ụkpụrụ nwere ike mezue Azụmahia ahụ.
 
 ## Njirimara
 
-**Non-custodial.** Payments move directly from the customer's wallet to the merchant's wallet through shielded transactions. ZGo never holds the funds in between, and the merchant retains full control throughout.
+**Na-enweghị Onye nlekota.** Kwụọ ụhwọ na-esi n’e-akpa ego onye ahịa abanye ozugbo n’e-akpa ego onye ọchụnta ego site na Azụmahia nke e chebere echebe. ZGo anaghị ejide ego ahụ n’etiti, onye ọchụnta ego na-edobe njikwa zuru oke n’oge niile.
 
-** Ntinye mgbanwe.** Enwere ike iji ZGo mee ihe maka otu ehihie n'ahịa ahịa, maka nhazi nke ire ere, ma ọ bụ dị ka ndabere maka ụlọ ahịa dị n'ịntanetị site na Xero maọbụ WooCommerce integrations.
+**Nzipụta na-agbanwe agbanwe.** Enwere ike iji ZGo maka otu ehihie n’ahịa pop-up, maka nhazi ebe ire ahịa na-adịgide adịgide, ma ọ bụ dịka backend maka ụlọ ahịa n’ịntanetị site na njikọta Xero ma ọ bụ WooCommerce.
 
-**Browser-based.** No install on either the customer or the merchant side. ZGo runs in any modern browser on desktop or mobile.
+**Dabere n’ihe nchọgharị.** Enweghị nrụnye n’akụkụ onye ahịa ma ọ bụ onye ọchụnta ego. ZGo na-arụ ọrụ n’ihe nchọgharị ọ bụla nke oge a na kọmputa ma ọ bụ ekwentị.
 
-** Ngwakọta akpa ego.** Nnukwu akpa ego Zcash, gụnyere ndị na-akwado ụdị adreesị Orchard, Sapling, na Transparent, nwere ike ịkwụ ụgwọ akwụkwọ ọnụahịa ZGo na-enweghị nhazi ọzọ n'akụkụ onye ahịa.
+**Ndakọrịta e-akpa ego.** E-akpa ego Zcash ndị a ma ama, gụnyere ndị na-akwado Orchard, Sapling, na ụdị Adreesị Oha, nwere ike ịkwụ invoice ZGo na-enweghị nhazi ọzọ n’akụkụ onye ahịa.
 
-**Integrations.** Direct integrations with Xero (accounting) and WooCommerce (e-commerce) cover the two most common merchant workflows out of the box.
+**Njikọta.** Njikọta ozugbo na Xero (ndekọ ego) na WooCommerce (azụmahịa elektrọnik) na-ekpuchi usoro ọrụ abụọ ndị ọchụnta ego na-ejikarị eme ihe site na mbido.
 
-## Mmehie ndị a na-emekarị
+## Mmejọ ndị a na-ahụkarị
 
-**Treating the order as paid before five confirmations.** A broadcast transaction is not the same as a confirmed payment. The transaction can still fail to confirm or be replaced. Only after five confirmations does ZGo report the payment as final, and only then should the order be marked paid downstream. If a merchant configures inventory or fulfilment to trigger on the broadcast event, fraudulent or failed payments will cause real losses.
+**Iwere iwu ahụ dịka nke akwụgoro tupu nkwenye ise.** Azụmahia e bipụtara abụghị otu na Kwụọ ụhwọ ekwenyere. Azụmahia ahụ ka nwere ike ghara ikwenye ma ọ bụ jiri nke ọzọ dochie ya. Ọ bụ naanị mgbe nkwenye ise gachara ka ZGo na-akọpụta Kwụọ ụhwọ ahụ dị ka nke ikpeazụ, ọ bụkwa mgbe ahụ ka ekwesịrị ịkara iwu ahụ akara akwụgoro n’usoro ndị na-esochi. Ọ bụrụ na onye ọchụnta ego ahazie ngwa ahịa ma ọ bụ mmezu ka ọ malite n’oge e bipụtara Azụmahia, Kwụọ ụhwọ aghụghọ ma ọ bụ nke dara ada ga-akpata ezigbo mfu.
 
-**Pointing ZGo at an exchange deposit address.** It looks like a Zcash address, but exchange deposit addresses are controlled by the exchange, not the merchant. The exchange holds the keys, which means the exchange holds the funds, which defeats the reason for using a non-custodial processor. The wallet address configured in ZGo must be a wallet whose seed phrase the merchant controls directly.
+**Ịtụ ZGo aka na Adreesị nkwụnye ego exchange.** Ọ dị ka Adreesị akpa ego Zcash, mana Adreesị nkwụnye ego exchange dị n’okpuru njikwa exchange, ọ bụghị onye ọchụnta ego. Exchange nwere mkpịsị ugodi, nke pụtara na exchange nwere ego ahụ; nke a na-emebi ihe mere eji onye nhazi na-enweghị Onye nlekota. Adreesị e-akpa ego ahaziri na ZGo ga-abụrịrị nke e-akpa ego onye ọchụnta ego na-achịkwa Mkpuru mgbake [seed phrase] ya ozugbo.
 
-**Treating ZGo as a wallet.** ZGo is a payment processor, not a wallet. It does not store keys, hold balances, or let the merchant spend funds. A separate Zcash wallet under the merchant's control is required to receive the money that ZGo routes.
+**Iwere ZGo dịka e-akpa ego.** ZGo bụ onye nhazi Kwụọ ụhwọ, ọ bụghị e-akpa ego. Ọ naghị echekwa mkpịsị ugodi, ejide nguzozi, ma ọ bụ kwe ka onye ọchụnta ego mefuo ego. A chọrọ e-akpa ego Zcash dị iche n’okpuru njikwa onye ọchụnta ego iji nata ego ZGo na-edu.
 
 ## Mmechi
 
-ZGo gives merchants a way to accept Zcash payments without giving up custody, without depending on an intermediary, and without exposing transaction details on a public chain. The two integrations (Xero and WooCommerce) cover the most common merchant workflows; for everything else, ZGo can be used standalone from any browser.
+ZGo na-enye ndị ọchụnta ego ụzọ ha ga-esi anabata Kwụọ ụhwọ Zcash na-enweghị ịhapụ njide, na-enweghị ịdabere n’onye etiti, na-enweghị ikpughe nkọwa Azụmahia na chain Oha. Njikọta abụọ ahụ (Xero na WooCommerce) na-ekpuchi usoro ọrụ ndị ọchụnta ego na-ejikarị eme ihe; maka ihe ndị ọzọ niile, enwere ike iji ZGo naanị ya site n’ihe nchọgharị ọ bụla.
 
-Maka nhazi, ụzọ dị mkpirikpi: nweta obere akpa Zcash, mepụta akaụntụ na [zgo.cash](https://zgo.cash/), ma malite ịmepụta arịrịọ ịkwụ ụgwọ ozugbo ma ọ bụ wụnye njikọta dị mkpa.
+Maka nhazi, ụzọ ahụ dị mkpirikpi: nweta e-akpa ego Zcash, mepụta akaụntụ na [zgo.cash](https://zgo.cash/), wee malite imepụta arịrịọ Kwụọ ụhwọ ozugbo ma ọ bụ wụnye njikọta dị mkpa.
 
-## Akụnụba
+## Akụrụngwa
 
-- [Ebe nrụọrụ weebụ gọọmentị ZGo](https://zgo.cash/)
-- [Xero Integration Configuration walkthrough](https://hedgedoc.vergara.tech/s/4iXC67fmb)
+- [weebụsaịtị gọọmentị ZGo](https://zgo.cash/)
+- [ntụziaka Nhazi Njikọta Xero](https://hedgedoc.vergara.tech/s/4iXC67fmb)
 - [WooCommerce](https://woocommerce.com/) na [WordPress](https://wordpress.org/)
 - [Xero](https://www.xero.com/)
-- [Zcash oru ngo homepage](https://z.cash/)
-- [ZecHub Wallets](https://zechub.wiki/wallets), ndepụta nke obere akpa Zcash dakọtara
-- [ZecHub Ịkwụ Ụgwọ Processors nnyocha](https://zechub.wiki/payment-processors), ZGo n'ihe gbasara nhọrọ ịkwụ ụgwọ Zcash ndị ọzọ
-- [BTCPayServer Zcash Plugin](https://zechub.wiki/guides/btcpayserver-zcash-plugin), nduzi ZecHub metụtara ya maka ihe ọzọ na-akwado onwe ya
+- [ibe mbụ ọrụ Zcash](https://z.cash/)
+- [ZecHub Wallets](https://zechub.wiki/wallets), ndepụta e-akpa ego Zcash dakọtara
+- [nchịkọta Ndị nhazi Kwụọ ụhwọ ZecHub](https://zechub.wiki/payment-processors), ZGo n’ọdịnaya nhọrọ Kwụọ ụhwọ Zcash ndị ọzọ
+- [BTCPayServer Zcash Plugin](https://zechub.wiki/guides/btcpayserver-zcash-plugin), ntụziaka ZecHub metụtara ya maka ụzọ ọzọ a na-akwado onwe ya

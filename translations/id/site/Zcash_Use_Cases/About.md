@@ -47,6 +47,9 @@ Gunakan alamat terlindungi untuk menyimpan dana bersama dan membatasi visibilita
 ###  [Terima Donasi Privat sebagai Organisasi Nirlaba AS](/zcash-use-cases/accept-private-donations-as-a-us-nonprofit)
 Terima ZEC terlindungi sebagai organisasi 501(c)(3) dan tetap berikan donor tanda terima dan formulir IRS yang mereka butuhkan
 
+### [Tempat Berdonasi ZEC](/zcash-use-cases/where-to-donate-zec)
+Temukan organisasi nirlaba yang menerima ZEC, serta yang menerima donasi terlindungi
+
 ### [Pengaturan Privasi Jurnalis](/zcash-use-cases/journalist-privacy-setup)   
 Gunakan alamat terlindungi untuk semua transaksi dan lindungi sumber berita dengan menghindari pembayaran yang dapat dilacak. Gunakan memo dengan hati-hati untuk komunikasi yang aman
 

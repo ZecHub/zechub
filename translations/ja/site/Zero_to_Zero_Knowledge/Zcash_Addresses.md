@@ -1,35 +1,35 @@
-# Zero to Zero Knowledge: Transparent vs Shielded Transactions と Unified Addresses
+# Zero to Zero Knowledge：公開型トランザクションとシールドされたトランザクション、および統合アドレス
 
-**シリーズ:** Zero to Zero Knowledge
+**シリーズ：** Zero to Zero Knowledge
 
-Zcash について初めて学ぶ方は、利用できるトランザクションに 2 つの種類があることに気づくでしょう。**Transparent** と **Shielded** です。  
+Zcashについて初めて学ぶ場合、利用可能なトランザクションには、**公開型**と**シールドされた**の2種類があることが分かります。  
 
-今回はそれらについて学び、#Zcash エコシステムの新機能の 1 つである **Unified Addresses** を取り上げます。
+本日はこれらについて学び、#Zcashエコシステムの新機能の1つである**統合アドレス（Unified Addresses）**を取り上げます。
 
 ---
 
-## Transparent vs Shielded Transactions
+## 公開型トランザクションとシールドされたトランザクション
 
-- **Transparent Transactions** は **t-addresses**（Base58 エンコード）を使用します。すべてが Bitcoin と同じように公開されます。  
-- **Shielded Transactions** は **Sapling** または **Orchard** プール向けにエンコードされたアドレスを使用します。これらはゼロ知識証明を使って、送信者、受信者、金額を隠します。
+- **公開型トランザクション**は、Base58でエンコードされた**t-アドレス**を使用します。Bitcoinと同様に、すべてが公開されています。  
+- **シールドされたトランザクション**は、**Sapling**または**Orchard**プール向けにエンコードされたアドレスを使用します。これらはゼロ知識プルーフ（zero-knowledge proofs）を用いて、送信者、受信者、金額を隠します。
 
-**Shielded Transaction** とは、Sapling/Orchard プール向けにエンコードされたアドレスを含むあらゆるトランザクションを指します。
+**シールドされたトランザクション**とは、Sapling/Orchardプール向けにエンコードされたアドレスを含むトランザクションを指します。
 
 ![Transparent vs Shielded intro](/content-images/FpmW00HWIAIZpQD-a244cfd85d.webp)
 
-**Unified Addresses (UAs)** は、shielded または transparent のトランザクションを 1 つのアドレスに**統合**するために設計されています。
+**統合アドレス（UAs）**は、シールドされたトランザクションまたは公開型トランザクションを単一のアドレスに**統合**するよう設計されています。
 
 ---
 
-## Zcash におけるアドレスの種類
+## Zcashのアドレス種類
 
-使用されているアドレスには 3 つの種類があります:
+使用されているアドレスには3種類あります。
 
-1. **(T) Transparent** – Base58  
+1. **(T) 公開型** – Base58  
 2. **(Z) Sapling** – Bech32  
-3. **(UA) Unified Address** – Bech32m  
+3. **(UA) 統合アドレス** – Bech32m  
 
-種類が増えるごとに、文字数（したがって QR コードのサイズ）も大きくなります。
+文字数（したがってQRコードのサイズ）は、種類ごとに増加します。
 
 ![Address types comparison](/content-images/FpmXe5bXsAEFeLY-704048927f.webp)
 
@@ -37,44 +37,44 @@ Zcash について初めて学ぶ方は、利用できるトランザクショ�
 
 ---
 
-## Unified Addresses の仕組み
+## 統合アドレスの仕組み
 
-アドレスとキーはバイト列（**Raw Encoding**）としてエンコードされます。  
-**Receiver Encoding** には、特定のプロトコルを用いて資産を送るために必要なすべての情報が含まれます。
+アドレスとキーは、バイト列（**Raw Encoding**）としてエンコードされます。  
+**Receiver Encoding**には、特定のプロトコルを使用して資産を転送するために必要なすべての情報が含まれます。
 
-Unified Address の raw encoding は、receiver のエンコード（typecode、length、addr）を組み合わせたものです:
+統合アドレスのRaw Encodingは、受信者のエンコード（typecode、length、addr）を組み合わせたものです。
 
-- UA: `0x03`  
-- Sapling: `0x02`  
-- Transparent: `0x01`  
+- UA：`0x03`  
+- Sapling：`0x02`  
+- 公開型：`0x01`  
 
-**重要**: すべての UA には、**少なくとも 1 つの shielded payment address** が含まれていなければなりません。（Sprout アドレスは Canopy アップグレード以降サポートされていません。）
+**重要**：すべてのUAには、**少なくとも1つのシールドされた支払いアドレス**が必要です。（Sproutアドレスは、Canopyアップグレード以降サポートされなくなりました。）
 
 ![UA encoding structure](/content-images/FpmYW1ZXgAAvALT-70903e29c6.webp)
 
-完全な仕様: **[ZIP-316: Unified Addresses](https://zips.z.cash/zip-0316)**
+完全な仕様：**[ZIP-316：統合アドレス](https://zips.z.cash/zip-0316)**
 
 ---
 
-## Unified Addresses の利点
+## 統合アドレスの利点
 
-- **取引所にとってより簡単** - これにより、shielded の入出金をより安全にサポートできるようになりました。  
-- **将来に対応** - 新しい shielded プールを、ウォレットを壊すことなく追加できます。  
-- **Shielded-by-Default** - すべての UA には少なくとも 1 つの shielded アドレスが含まれるため、プライバシーは常に利用可能です。
+- **取引所にとって容易** - より安全にシールドされた入金・出金をサポートできるようになります。  
+- **将来性** - ウォレットを壊すことなく、新しいシールドされたプールを追加できます。  
+- **デフォルトでシールド** - すべてのUAには少なくとも1つのシールドされたアドレスが含まれているため、プライバシーを常に利用できます。
 
-これは、すでにより多くの ZEC が shielded プールへ移動する助けとなっている、根本的な変化です。
+これは、より多くのZECがシールドされたプールへ移行する助けとなっている根本的な変化です。
 
 ---
 
-## Orchard Transactions & Actions
+## Orchardトランザクションとアクション
 
-Orchard は **Actions** と呼ばれる新しい概念を導入しました:
+Orchardは、**アクション（Actions）**と呼ばれる新しい概念を導入しました。
 
-- トランザクション内のすべての Actions に対して **single anchor** を使用することで、メタデータの漏えいを減らします。  
-- (V4) Spend + Output のフィールドを、単一の value commitment に統合します。  
-- これにより、Halo2 証明システムのパフォーマンス最適化が可能になります。
+- トランザクション内のすべてのアクションに**単一のアンカー**を使用することで、メタデータの漏えいを減らします。  
+- （V4）のSpend + Outputのフィールドを、単一のvalue commitmentに統合します。  
+- これにより、Halo2プルーフシステムのパフォーマンス最適化が可能になります。
 
-Daira による Anchor の位置の解説 (zcon3):
+Dairaがアンカー位置について説明します（zcon3）：
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -89,31 +89,31 @@ Daira による Anchor の位置の解説 (zcon3):
 
 ---
 
-## Value Balance とプライバシー
+## Value Balanceとプライバシー
 
-場合によっては（たとえばクロスプール・トランザクションなど）、金額が外部の観察者に見えることがあります。しかし、`valueBalanceSapling` と `valueBalanceOrchard` は**準同型コミットメント**を使って shielded プール内の ZEC 総量を証明し、偽造を防ぎます。
+一部の場合（例：プール間トランザクション）では、金額が外部の観察者に見えることがあります。しかし、`valueBalanceSapling`と`valueBalanceOrchard`は**準同型コミットメント**を使用して、シールドされたプール内のZECの合計を証明し、偽造を防止します。
 
-詳しくはこちら: [ZIP 209: 範囲外のチェーン・バリュープール残高を禁止](https://zips.z.cash/zip-0209)
+詳細：[ZIP 209：範囲外のチェーンValue Pool残高を禁止する](https://zips.z.cash/zip-0209)
 
 ---
 
 ## 今後の改善
 
-ECC チームは `zcashd` の新しい RPC メソッド（`z_sendmany` を置き換えるもの）に取り組んでおり、ユーザーは提案されたトランザクションのプライバシー特性にもとづいて、事前確認し、受け入れるか拒否するかを選べるようになります。
+ECCチームは、`zcashd`（`z_sendmany`を置き換えるもの）の新しいRPCメソッドに取り組んでいます。これによりユーザーは、プライバシー特性に基づいて提案されたトランザクションをプレビューし、承認または拒否できるようになります。
 
 ---
 
 ## 推奨
 
-このスレッドは元々、送信ボタンを押す前に表示されるトランザクション計画のために **YWallet** を案内していました。YWallet はすでにメンテナンスされておらず、Ironwood 向けに更新されることもないため、もはやチェーンを追跡できません。代わりに[ウォレット](https://zechub.wiki/wallets)ページからメンテナンスされているウォレットを選び、送信前にトランザクションで何が明らかになるかを教えてくれるものを優先してください。
+このスレッドはもともと、送信を押す前にトランザクション計画を表示する**YWallet**を紹介していました。YWalletは現在メンテナンスされておらず、Ironwood向けに更新されることもないため、チェーンを追跡できなくなっています。代わりに[ウォレット](https://zechub.wiki/wallets)ページからメンテナンスされているウォレットを選び、送信前にトランザクションで何が明らかになるかを示してくれるものを優先してください。
 
-トランザクションのプライバシーに関する素晴らしい記事: https://medium.com/@hanh.huynh/
+トランザクションのプライバシーに関する優れた記事：https://medium.com/@hanh.huynh/
 
 ---
 
-**ZecHub (@ZecHub) による元スレッド**  
+**ZecHub（@ZecHub）による元のスレッド**  
 https://x.com/ZecHub/status/1628498645627666432
 
 ---
 
-*このページは、ZecHub wiki のために元の Zero to Zero Knowledge スレッドをもとに編集されたものです。*
+*このページは、ZecHub wiki向けに元のZero to Zero Knowledgeスレッドから編集されました。*

@@ -2,187 +2,187 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Zcash Asixɔxɔ Tawo 
+# Zcash Asigame ƒe Gaƒuƒoƒowo [Value Pools]
 
-## TL;DR
+## Nyatakaka kpuie
 
-- Zcash fifia ** asixɔxɔ ƒe ƒuƒoƒo 5** le esi: Sprout (domenyinu), Sapling, Orchard (gazazã ɖeɖeko), Ironwood, kple Transparent.
-- **Ironwood** nye fifia gbãtɔ si wokpɔ ta na, si le agbe tso esime wowɔ NU6.3 ƒe tɔtrɔ le 28 July 2026.
-- **Orchard** nye **gazazã ɖeɖeko** fifia: asixɔxɔ yeye aɖeke mateŋu age ɖe eme o, eye ga siwo li fifia ʋuna yia Ironwood.
-- **Sapling** (z-adrɛs siwo dzea egɔme kple `zs`) gakpɔtɔ le megbe na ame geɖe eye wòyi edzi le ZEC si ŋu wokpɔ ta na ƒe agbɔsɔsɔ gã aɖe kpɔm.
-- **Adrɛs siwo me kɔ** (t...) menaa asitsatsa ƒe nya ɣaɣla aɖeke o eye wowɔa dɔ abe Bitcoin ene.
-- **Sprout** nye domenyinu si wokpɔ ta na si woxɔ dzudzɔ le dɔwɔwɔ vevie me.
-- Orchard yi Ironwood ʋuʋu le **le edzi yim** eye wole edzi kpɔm le dutoƒo to turnstile dzi.
-- Le ameŋunyatakaka ƒe kakaɖedzi sesẽtɔ kekeake ta la, ele be ezãlawo nayi edzi alɔ̃ **shielded-to-shielded (z → z)** ƒe asitsatsa ɣesiaɣi si wòanya wɔ.
+- Zcash fifia le **asixɔxɔ ƒe gaƒuƒoƒo 5**: Sprout (xoxo), Sapling, Orchard (atsɔe axɔ asi ko), Ironwood, kple Nuwo ƒe ʋuʋuɖi.
+- **Ironwood** nye fifia ƒe vevitɔ ɣaɣla [shielded] gaƒuƒoƒo [pool], eye wòdze agbe tso NU6.3 mɔ̃ ƒe sewo trɔtrɔ [upgrade] dzi le 28 July 2026 dzi.
+- **Orchard** fifia nye **atsɔe axɔ asi ko**: asixɔxɔ yeye aɖeke mate ŋu age ɖe eƒe eme o, eye ga siwo li xoxo la trɔ yi Ironwood me.
+- **Sapling** (z-gaɖoƒe ƒe dzesiwo siwo dze egɔme kple `zs`) gale kpekpeɖeŋu geɖe ŋutɔ, eye wòle ɣaɣla ZEC geɖe aɖe dzɔdzɔe.
+- **Nuwo ƒe ʋuʋuɖi** gaɖoƒe ƒe dzesiwo (t...) meɖea gaɖoɖo [transaction] ƒe ɣaɣla [privacy] aɖeke o, eye wòwɔa dɔ abe Bitcoin ene.
+- **Sprout** nye xoxo ɣaɣla gaƒuƒoƒo si wodze le dɔwɔwɔ active me o.
+- Tso Orchard yi Ironwood ƒe trɔtrɔ le edzi yim, eye turnstile le kpɔkpɔe kple ame sia ame ƒe nukpɔkpɔ.
+- Ne wòdi ɣaɣla ƒe ɖoɖo sesẽtɔwo la, ele be zazãlawo nakpɔ **ɣaɣla yi ɣaɣla (z → z)** gaɖoɖowo dzi ɣesiaɣi si wòate ŋu.
 
 
 <br/>
 
-## Zcash Value Pools gɔmesese
+## Zcash Asigame ƒe Gaƒuƒowo ƒe Gɔmesese
 
-Zcash ma ga ɖe akɔntabubu ƒe ɖoɖo vovovo siwo woyɔna be asixɔxɔ ƒe ƒuƒoƒo me. Ta ɖesiaɖe kple eƒe nya ɣaɣlawo ƒe sewo kple ameŋunyatakakawo ƒe nɔnɔmewo, esime ɖoɖowɔɖia léa ŋku ɖe asixɔxɔ bliboa si le zɔzɔm le wo dome ŋu.
+Zcash ma ga siwo le eme la ɖe xexlẽ ƒe ɖoɖo vovovowo me, siwo woyɔna be asigame ƒe gaƒuƒoƒowo. Gaƒuƒoƒo ɖe sia ɖe ƒe eya ŋutɔ ƒe crypto sewo kple ɣaɣla ƒe nɔnɔwo le, ke hã protocol la le asigame blibo si le yiyi le wo dome la ƒe kpɔkpɔ wɔm.
 
-Egbea la, asixɔxɔ vevi atɔ̃ ƒe ƒuƒoƒo atɔ̃ le network la me:
+Egbe la, gaƒuƒoƒo vevitɔ atɔ̃ le network la me:
 
-- Transparent — Dutoƒo kple bliboe dzedze le kɔsɔkɔsɔ.
-- Sapling — Egbegbe ta gbãtɔ si ame geɖe xɔna si ŋu wokpɔa akpoxɔnu le, si gakpɔtɔ le dɔ wɔm.
-- Orchard — The previous primary shielded pool, now spend-only.
-- Ironwood — Fifia gbãtɔ si wokpɔ ta na, si NU6.3 to vɛ.
-- Sprout — Gbãtɔ si wotsɔ akpoxɔnu ta la dze egɔme kple Zcash le ƒe 2016 me.
+- Nuwo ƒe ʋuʋuɖi — Le ɖoɖonu dzi [on-chain] le amewo katã ƒe ŋkume, eye wòɖe fia blibo.
+- Sapling — Ɣaɣla ƒe gaƒuƒoƒo modern gbãtɔ si amewo zã akpa gã, eye wòle dɔ wɔm haɖe.
+- Orchard — Ɣaɣla ƒe gaƒuƒoƒo vevitɔ si nɔ anyi tsã, si fifia wòate ŋu azã ko.
+- Ironwood — Ɣaɣla ƒe gaƒuƒoƒo vevitɔ si le fifia, si NU6.3 va kplɔ ɖe eme.
+- Sprout — Ɣaɣla ƒe gaƒuƒoƒo gɔmedzedze si Zcash kplɔ va le 2016.
   
 
 
-Esi Zcash le ŋgɔ yim la, woate ŋu ato tadeaguƒe yeye siwo ŋu wokpɔa ta ɖo vɛ be woatsɔ ana dedienɔnɔ, ame ŋutɔ ƒe nyawo gbɔ kpɔkpɔ, zazã, kple agbalẽdzikpɔkpɔ nanyo ɖe edzi esime wole ɖekawɔwɔ me kple ga siwo li fifia.
+Ne Zcash le ɣeyiyi la, woate ŋu akplɔ ɣaɣla ƒe gaƒuƒoƒo yeyeawo ɖe eme be woana dzidzɔkpɔkpɔ, ɣaɣla, zãzã bɔbɔe, kple xexlẽkpɔkpɔ nanɔ nyuie, esi woagana mɔ̃ ƒe ƒomevi kple ga siwo li xoxo la.
 
 <br/>
 
 ![img1](/content-images/4ba8cca2-cea5-42d2-8ec2-2122b26f5144-9db37e245e.webp)
-Fig 1: Tabla si ɖe ta etɔ̃ siwo wokpɔ ta na (Sprout, Sapling kple Orchard) fia va se ɖe 29 October, 2025, hafi Ironwood nadze dɔwɔwɔ gɔme
+Nɔnɔmetata 1: Nɔnɔmetata aɖe si fia ɣaɣla ƒe gaƒuƒoƒo etɔ̃wo (Sprout, Sapling kple Orchard) va se ɖe dzome 29 lia 2025, hafi Ironwood dze dɔ wɔwɔ gɔme
 
 <br/>
 
-## Ta Siwo Wotsɔ Akpoxɔnu Wɔe 
+## Ɣaɣla ƒe Gaƒuƒowo
 
 
-1. <h3 id="ironwood" class="text-3xl font-bold my-4">Ironwood Pool</h3>
+1. <h3 id="ironwood" class="text-3xl font-bold my-4">Ironwood Gaƒuƒoƒo</h3>
 
-Ironwood ye nye ta vevitɔ si ŋu wokpɔa akpoxɔnu le fifia. Ewɔ dɔ le 28 July 2026 dzi le block 3,428,143 abe NU6.3 network upgrade ƒe akpa aɖe ene, eye afimae nye afisi shielded value yeye le fifia.
+Ironwood nye ɣaɣla ƒe gaƒuƒoƒo vevitɔ si le fifia. Wòdze dɔ wɔwɔ gɔme le dzome 28 lia 2026 le gaɖoɖowo ƒuƒoƒe [block] 3,428,143 me abe NU6.3 mɔ̃ ƒe sewo trɔtrɔ ƒe akpa ene, eye ɣaɣla ƒe asigame yeye le afi sia fifia.
 
-Eli elabena wokpɔ afɔku aɖe le Orchard ƒe kpeɖodziɖoɖoa me le May 2026. Kpeɖodzi aɖeke meli be wowɔ eŋudɔ kpɔ o, gake vodadaa fia be womate ŋu atsɔ kpeɖodziawo ɖeɖeko aɖo kpe edzi be nusi wotsɔ akpoxɔnu na la sɔ o. Le esi teƒe be woatsɔ patch aɖo teƒea la, network la wɔ ta yeye aɖe si me nutome sue si woɖɔ ɖo eye wòtsɔ asixɔxɔ to turnstile si xlẽa gaku ɖesiaɖe le dutoƒo la dzi. Akɔntabubu mae gbugbɔa kakaɖedzi si nye be woda megbe na nusiwo wotsɔ akpoxɔnu na la bliboe.
+Eli le esi woɖe gbegblẽ aɖe fia le Orchard ƒe ɖaseɖigbalɛ [proof] wɔwɔ ƒe ɖoɖo me le dama 2026. Ɖase aɖeke mele be wozãe kpɔ o, gake gbegblẽ la fia be ɣaɣla ƒe asigame ƒe nyateƒe mate ŋu ana ɖase ɖekaɖeka ko atia o. Le teƒe si woatsɔ akpɔe le eƒe nɔƒe la, network la wɔ gaƒuƒoƒo yeye aɖe si me circuit sɔsɔ le, eye wòtsɔ asigame va to turnstile aɖe me, si le gaɖekaɖeka ƒe xexlẽ wɔm le amewo katã ƒe ŋkume. Xexlẽkpɔkpɔ siae na ŋugbedodo be ɣaɣla ƒe asigame wɔ ɖe ga blibo dzi la trɔ va.
 
-Ironwood gbugbɔ zãa Orchard ƒe Action model kple Halo 2 ƒe kpeɖodziwo, eyata ewɔa nu ɖekae gbesiagbe. Nu eve nye yeye: asitsatsa zãa v6 ƒe nɔnɔme, eye Ironwood ƒe nuŋlɔɖiwo nye **quantum-recoverable** te [ZIP ƒe 2005](https://zips.z.cash/zip-2005), si fia be gaku aɖe ƒe kɔsɔkɔsɔ me nuŋlɔɖi nɔa anyi si woate ŋu agbugbɔ axɔ ne quantum kɔmpiuta si ava va gblẽ egbegbe nya ɣaɣlawo me. Ema nye mɔ si dzi woato ahaya, ke menye quantum resistance o, eye meku ɖe ta xoxowo ŋu o.
+Ironwood zã Orchard ƒe Action model kple Halo 2 ɖaseɖigbalɛwo, eyata wòwɔ dɔ ɖe sia ɖe abe ale si wòwɔna tsã ene. Nu eve koe nye yeye: gaɖoɖowo zã v6 ƒe ɖoɖo, eye Ironwood didienuwo [note] le **quantum-recoverable** nɔnɔ me le [ZIP 2005](https://zips.z.cash/zip-2005) nu, si fia be ne quantum computer aɖe va gbã egbe ƒe cryptography la, ga aɖe ƒe nuŋlɔɖi si le ɖoɖonu dzi la ate ŋu akpɔe gake. Mɔ sia nye gbɔgbɔxɔmɔ, menye quantum ƒe ŋutete ɖe nu o, eye menye gaƒuƒoƒo xoxowo tɔ o.
 
-Mehiã be nàzã adrɛs yeye o. Adrɛs siwo wowɔ ɖekae la ƒoa xɔla geɖe nu ƒu, eye gakotokuwo tiaa ta si sɔ na wò.
+Gaɖoƒe ƒe dzesi yeye mele be nàhiã o. Unified addresses ƒoa receiver geɖewo ɖekae, eye gakotokuwò la tia gaƒuƒoƒo si sɔ na wò.
 
 ____
 
-2. <h3 id="orchard" class="text-3xl font-bold my-4">Orchard Pool</h3>
+2. <h3 id="orchard" class="text-3xl font-bold my-4">Orchard Gaƒuƒoƒo</h3>
 
 
 ![img2](/content-images/a672e001-6dbc-4e76-ab31-0ed7d7d2ff72-93b5a23e5d.webp)
-Fig 2: Tabla si ɖe Orchard ta la fia va se ɖe 29 October, 2025, hafi Ironwood nadze dɔwɔwɔ gɔme
+Nɔnɔmetata 2: Nɔnɔmetata aɖe si fia Orchard ƒe gaƒuƒoƒo va se ɖe dzome 29 lia 2025, hafi Ironwood dze dɔ wɔwɔ gɔme
 
 <br/>
 
-Wowɔ Orchard Shielded Pool la ŋudɔ le May 31, 2022 dzi abe NU5 ƒe network ƒe tɔtrɔ ƒe akpa aɖe ene. Orchard to shielded protocol yeye aɖe vɛ si ɖe ɖoɖo si dzi woka ɖo ƒe hiahiã ɖa eye wòva zu shielded pool vevitɔ si Unified Addresses (UAs) zãna.
+Wòdze Orchard Ɣaɣla ƒe Gaƒuƒoƒo ƒe dɔ wɔwɔ gɔme le dama 31, 2022 abe NU5 mɔ̃ ƒe sewo trɔtrɔ ƒe akpa ene. Orchard va kple ɣaɣla ƒe protocol yeye si ɖe mɔ̃ ƒe ɖoɖo xexlẽnuwo [trusted setup] ƒe hiahiã ɖa, eye wòzu ɣaɣla ƒe gaƒuƒoƒo vevitɔ si Unified Addresses (UAs) zãna.
 
-Orchard na zazã, dɔwɔwɔ nyuie, kple adzamenyawo nyo ɖe edzi ŋutɔ to asitsatsa ƒe metadata ƒe sisi dzi ɖeɖe kpɔtɔ kple asitsatsa ƒe kpɔɖeŋu si te ŋu trɔna bɔbɔe wu si wotu ɖe Nuwɔnawo dzi tsɔ wu nusiwo wotsɔ de eme kple nusiwo woɖe tso eme siwo wokpɔ ta na tsã la dodo ɖe ŋgɔ me.
+Orchard na zãzã bɔbɔe, dɔwɔwɔ ƒe ŋusẽ, kple ɣaɣla nɔ nyuie ŋutɔ, esi wògbɔ gaɖoɖo ƒe metadata ƒe ɖeɖefia dzi, eye wòva kple gaɖoɖo ƒe ɖoɖo bɔbɔe wu si tu ɖe Actions dzi le teƒe si woatu ɖe ɣaɣla ƒe input kple output blemawo dzi.
 
-Tso esime Ironwood ƒe ɖɔɖɔɖoa dze dɔ le 28 July 2026 dzi la, **Orchard nye gazazã ɖeɖeko**. Asixɔxɔ yeye aɖeke mate ŋu age ɖe ta la me o. Woate ŋu azã ga siwo le afima xoxo la kokoko, eye wole ʋuʋum yina Ironwood to mɔ si dzi woatrɔ asi le la dzi. Gakotokuwo kpɔa esia gbɔ na wò, togbɔ be wo dometɔ akpa gãtɔ nana nèkpɔa ŋusẽ aɖe ɖe alesi nèle du dzii dzi hã.
+Tso esi Ironwood mɔ̃ ƒe sewo trɔtrɔ dze dɔ wɔwɔ gɔme le dzome 28 lia 2026 la, **Orchard nye be wòate ŋu azã ko**. Asigame yeye aɖeke mate ŋu age ɖe gaƒuƒoƒo la me o. Ga si nɔ eme xoxo la ate ŋu akpɔe gake, eye wole dzo yim ɖe Ironwood me to turnstile la dzi. Gakotokuwòwo wɔa esia na wò, ke hã deŋgɔ wɔnɔa mɔ aɖe na wò be nàkpɔ ale si wòdi be wòanɔ kple etsɔtsɔ la. Ne ga ɖe sia ɖe le dzo yim tso Orchard me la, wòƒe home ɖena fia le gaɖoɖowo ƒuƒoƒo ƒe ɖoɖonu dzi, eyata ale si gakotoku aɖe ma ga la eye wòɖo ɣeyiɣi na tɔtrɔ la le vevie na ɣaɣla.
 
-Ne Orchard ƒe ga le asiwò la, kpɔ ɖa [Ironwood](/zcash-tech/ironwood) le nusi ʋuʋua fia le nuwɔna me ta.
+Ne Orchard ƒe ga le asiwò la, kpɔ [Ironwood](/zcash-tech/ironwood) be nànya nu si tɔtrɔ la fia le dɔwɔwɔ me.
 
 ____
 
-3. <h3 id="sapling" class="text-3xl font-bold my-4">Sapling Pool</h3>
+3. <h3 id="sapling" class="text-3xl font-bold my-4">Sapling Gaƒuƒoƒo</h3>
 
 
 ![img3](/content-images/b1c6bb71-9356-45eb-8e4a-19d7cf1790ae-5e3051b082.webp)
-Fig 3: Tabla si ɖe Sapling ta la fia va se ɖe 29 October, 2025, hafi Ironwood nadze dɔwɔwɔ gɔme
+Nɔnɔmetata 3: Nɔnɔmetata aɖe si fia Sapling ƒe gaƒuƒoƒo va se ɖe dzome 29 lia 2025, hafi Ironwood dze dɔ wɔwɔ gɔme
 
 <br/>
 
-[Zcash Sapling](https://z.cash/upgrade/sapling) nye tɔtrɔ gã aɖe na Zcash ɖoɖowɔɖi si woto vɛ le 28th of October, 2018. Enye ŋgɔyiyi gã aɖe wu esi woyɔna be Sprout ƒe tɔtrɔ si do ŋgɔ si seɖoƒe aɖewo nɔ le adzamenyawo, dɔwɔwɔ nyuie kple zazã gome. 
+[Zcash Sapling](https://z.cash/upgrade/sapling) nye vovototo si wòwɔ na Zcash ƒe protocol le kele 28, 2018. Enye nyonyo gã aɖe wu version blema si woyɔna be Sprout, si me ɣaɣla, dɔwɔwɔ ƒe ŋusẽ, kple zãzã bɔbɔe ƒe nuwɔwɔ xɔtɛ aɖewo nɔ. 
 
-Dodoɖeŋgɔ aɖewo dometɔ aɖewoe nye dɔwɔwɔ nyuie wu na adrɛs siwo wokpɔ ta na, Nukpɔkpɔ ƒe safui siwo nyo wu be wòana zãlawo nate ŋu akpɔ asitsatsa siwo va kple esiwo dona evɔ womaɖe zãla ƒe safui ɣaɣlawo ɖe go o kple Independent Zero Knowledge safuiwo na hardware gakotoku le asitsatsa ƒe asidede agbalẽ te me. 
+Vovototoawo ƒe akpa aɖewo nye dɔwɔwɔ nɔ nyuie na ɣaɣla gaɖoƒe ƒe dzesiwo, nukpɔsafuiwo [viewing key] si nyo wu be ezãlawo nate ŋu akpɔ gaɖoɖo siwo ge va kple siwo do go ne woɖe ezãla ƒe private keys fia o, kple Zero Knowledge key siwo tsitre ɖe wo ŋu na asikplɔwo dzra mɔ [hardware wallet] ne wole gaɖoɖo ƒe asidede agbalẽ te [signature] wɔm. 
 
-Zcash Sapling na be ezãlawo te ŋu wɔa ame ŋutɔ ƒe asitsatsa le sɛkɛnd ʋee aɖewo ko me ne wotsɔe sɔ kple ɣeyiɣi didi si wòxɔ le Sprout Series me. 
+Zcash Sapling na ezãlawo ate ŋu awɔ gaɖoɖo ɣaɣla le sekondi ʋee ko me, ne woatsɔe sɔ kple ɣeyiɣi didi si wòxɔna le Sprout Series me. 
 
-Asitsatsa ƒe ametakpɔkpɔ nana ame ŋutɔ ƒe nyatakakawo nyona ɖe edzi, si wɔnɛ be ame etɔ̃lia mate ŋu atsɔ asitsatsa aƒo ƒui ahanya ZEC ƒe agbɔsɔsɔ si woatsɔ aɖo ame bubu gbɔ o. Sapling hã naa zazã nyona ɖe edzi to akɔntabubu ƒe nudidi siwo hiã hena ame ŋutɔ ƒe asitsatsa wɔwɔ dzi ɖeɖe kpɔtɔ to ewɔwɔ be ezãlawo nate ŋu akpɔe nyuie wu me.
+Gaɖoɖo ƒe ɣaɣla nana ɣaɣla nɔa anyi, eye wòna ame etɔ̃wo mata ŋu akaka gaɖoɖowo ƒe kadodo kple asigame ZEC si wole trɔm la ƒe home o. Sapling hã nana zãzã bɔbɔe nɔa anyi, esi wògbɔ computer ƒe hiahiãwo siwo le ɣaɣla gaɖoɖowo ƒe wɔwɔ me dzi, eye wòna ezãlawo katã ate ŋu azãe.
 
-Sapling gakotoku ƒe adrɛswo dzea egɔme kple "zs" eye woateŋu akpɔ esia le Zcash Shielded Wallet (Zkool, Zingo Wallet, Nighthawk kple bubuawo) siwo katã wodo alɔe si me Sapling adrɛswo le la me. Zcash Sapling tsi tre ɖi na ŋgɔyiyi ɖedzesi aɖe le mɔ̃ɖaŋununya me ne wole nu ƒom tso adzamenyawo kple asitsatsa ƒe dɔwɔwɔ nyuie ŋu si na Zcash nye cryptocurrency si wɔa dɔ eye wòwɔa dɔ nyuie na ezãla siwo dea asixɔxɔ adzamenyawo kple dedienɔnɔ ŋu.
+Sapling gakotoku ƒe gaɖoƒe ƒe dzesiwo dzena kple "zs", eye woate ŋu akpɔ esia le Zcash Ɣaɣla Gakotoku si woʋlɔna katã (Zkool, Zingo Wallet, Nighthawk kple bubuwo) si me Sapling ƒe gaɖoƒe ƒe dzesiwo li. Zcash Sapling fia mɔ̃ ƒe nyonyo gã aɖe le ɣaɣla kple gaɖoɖowo ƒe dɔwɔwɔ ŋusẽ ƒe gome, si na Zcash zu cryptocurrency si wɔa dɔ nyuie eye wòle dɔ wɔm na ezãlawo siwo dea ɣaɣla kple dediea ƒe asixɔxɔ dzi.
 
 ____
 
-4. <h3 id="sprout" class="text-3xl font-bold my-4">Sprout Pool</h3>
+4. <h3 id="sprout" class="text-3xl font-bold my-4">Sprout Gaƒuƒoƒo</h3>
 
 
 ![img4](/content-images/956eceed-f4d6-4087-99d0-32a770449dda-a3cc45305e.webp)
-Fig 4: Tabla si ɖe Sprout ta la fia va se ɖe 29 October, 2025, hafi Ironwood nadze dɔwɔwɔ gɔme
+Nɔnɔmetata 4: Nɔnɔmetata aɖe si fia Sprout ƒe gaƒuƒoƒo va se ɖe dzome 29 lia 2025, hafi Ironwood dze dɔ wɔwɔ gɔme
 
-Sprout ye nye Zero Knowledge ƒe ameŋunyatakakawo ŋuti ɖoɖo gbãtɔ si ŋu mɔɖeɖe mele o si woʋu kpɔ. Wodze egɔme le October 28th, 2016 dzi.
+Sprout nye open zãzã faa [permissionless] Zero Knowledge ɣaɣla ƒe protocol gbãtɔ si wodo ɖa kpɔ. Wodo ɖae le kele 28, 2016.
 
-Wodea dzesi sprout adrɛswo to woƒe ŋɔŋlɔdzesi eve gbãtɔ siwo nye "zc" ɣesiaɣi. Wotsɔ ŋkɔ nɛ be "Sprout" kple taɖodzinu vevitɔ be woate gbe ɖe edzi be kɔmpiutadziɖoɖoa nye sɔhɛ, blockchain si le tsitsim si si ŋutete gã aɖe le be wòatsi eye wòʋu na ŋgɔyiyi. 
+Sprout ƒe gaɖoƒe ƒe dzesiwo nye ale si wo ƒe agbalẽ gbãtɔ eve, si nye "zc" ɣesiaɣi, doa fia wo. Woyɔe be "Sprout" be yewo atsɔ afi vevie si si be software la nye gaɖoɖowo ƒuƒoƒo ƒe ɖoɖonu bibi aɖe si le mɔ̃ me, si ƒe ŋusẽ gã le be wòagbe ɖe edzi, eye wòʋu na mɔ̃ ƒe ɣeyiyi. 
 
-Wozã Sprout abe dɔwɔnu gbãtɔ ene na... [Zcash blewu dze Mining gɔme](https://electriccoin.co/blog/slow-start-and-mining-ecosystem/) si he ZEC kple Block ƒe teƒeɖoɖowo mama na Tomenukulawo vɛ. 
+Sprout nɔ dɔ wɔm abe dɔwɔnu gɔmedzedze aɖe ene na [Zcash slow start Nukuku](https://electriccoin.co/blog/slow-start-and-mining-ecosystem/), si kplɔ ZEC kple gaɖoɖowo ƒuƒoƒe ƒe fetuwo va na nukulawo [miner]. 
 
-Esi Zcash ƒe lãwo ƒe agbenɔnɔ ƒe ɖoɖoa yi edzi le kekem ɖe enu kple asitsatsa siwo wokpɔ ta na ƒe xexlẽme si le dzidzim ɖe edzi la, wode dzesii be Zcash Sprout Series va zu seɖoƒe eye megawɔa dɔ nyuie o ne wole nu ƒom tso zãla ƒe adzamenyawo, asitsatsa ƒe dzidziɖedzi kple dɔwɔwɔ ŋu. Esia na wotrɔ asi le network la ŋu eye wowɔ Sapling Upgrade. 
+Ne Zcash ƒe ecosystem yi ɖe edzi kple ɣaɣla gaɖoɖowo ƒe xexlẽ si le dzidzɔm la, wòva dze eme be Zcash Sprout Series la ƒe ŋusẽ do go eye wòwɔ dɔ nyuie o le ezãla ƒe ɣaɣla, gaɖoɖo ƒe nu ƒe dziyiyi [scaling], kple wɔwɔ ƒe gome. Esiae kplɔ network la ƒe trɔtrɔ kple Sapling Upgrade va. 
 
 ---
-5. <h3 id="transparent" class="text-3xl font-bold my-4">Transparent Pool</h3>
+5. <h3 id="transparent" class="text-3xl font-bold my-4">Nuwo ƒe ʋuʋuɖi ƒe Gaƒuƒoƒo</h3>
 <br/>
 
 ![img5](/content-images/01de2907-b62d-4421-83d7-ea4908faa828-6f74b724ed.webp)
-Fig 5: Tabla si ɖe Transparent ta la fia va se ɖe 29 October, 2025, hafi Ironwood nadze dɔwɔwɔ gɔme
+Nɔnɔmetata 5: Nɔnɔmetata aɖe si fia Nuwo ƒe ʋuʋuɖi ƒe gaƒuƒoƒo va se ɖe dzome 29 lia 2025, hafi Ironwood dze dɔ wɔwɔ gɔme
 
 <br/>
 
-Zcash Transparent ta la nye esi womekpɔ ta na o eye menye ame ŋutɔ tɔ o. Gakotoku ƒe adrɛs si me kɔ le Zcash dzi dzea egɔme kple ŋɔŋlɔdzesi "t", adzamenyawo le sue ŋutɔ le adrɛs ƒomevi sia zazã na asitsatsa me.
+Zcash ƒe Nuwo ƒe ʋuʋuɖi ƒe gaƒuƒoƒo menye ɣaɣla tɔ o eye ɣaɣla mele eme o. Nuwo ƒe ʋuʋuɖi gakotoku ƒe gaɖoƒe ƒe dzesiwo le Zcash dzi dzena kple agbalẽ "t", eye ɣaɣla le sue ŋutɔ ne wòzã gaɖoƒe ƒe dzesi ƒome sia na gaɖoɖowo.
 
-Asitsatsa siwo me kɔ le Zcash me sɔ kple Bitcoin ƒe asitsatsa si doa alɔ asitsatsa siwo me wode asi geɖe te eye wòwɔa dutoƒo adrɛs siwo wozãna ɖaa ŋudɔ.
+Nuwo ƒe ʋuʋuɖi gaɖoɖowo le Zcash me sɔ kple Bitcoin ƒe gaɖoɖowo, siwo nɔa mɔ na asidede agbalẽ te geɖe ƒe gaɖoɖowo eye wozãa amewo katã ƒe gaɖoƒe ƒe dzesi siwo wozãna ɣesiaɣi.
 
-Zcash Transparent la nye esiwo wozãna zi geɖe to centralized exchanges dzi be woakpɔ egbɔ be there’s high transparency and network confirmation ne wole ZEC ɖom ɖa hele exɔm le ezãlawo dome.
+Zcash ƒe Nuwo ƒe ʋuʋuɖi ƒe gaƒuƒoƒo la, gatrɔƒe [exchange] siwo wodzi ɖe ɖoɖo aɖe ŋu zãa eŋuti akpa gã be ʋuʋuɖi nɔ anyi nyuie kple network ƒe kpeɖeŋu ne woɖo ZEC ɖa kple ne woxɔe le ezãlawo dome.
 
-Ele vevie hã be míade dzesii be togbɔ be Zcash Shielded adrɛswo naa adzamenyawo gbɔ kpɔkpɔ deŋgɔ le asitsatsa me hã la, wobiaa akɔntabubu dɔwɔnu geɖe wu hã be woatsɔ awɔ asitsatsa ŋudɔ. Eyata, ezãla aɖewo ate ŋu axɔ Adrɛs siwo me kɔ na asitsatsa siwo mehiã be woatsɔ ame ŋutɔ ƒe nyawo aɣla ƒe ɖoɖo ɖeka ma ke o.
-
-<br/>
-
-## Pool Transfer Nuwɔna si Wokafu
-
-Ne eva hiã be nàbu ameŋunyatakakawo ƒe ɖoƒe kɔkɔ ŋu le asitsatsa me le Zcash Network dzi la, eɖo aɖaŋu be nàwɔ ɖe nuwɔna siwo le ete dzi;
-
-Asitsatsa si yia edzi le "z vaseɖe z" gakotokuwo dome le Zcash blockchain dzi la ƒe akpa gãtɔ nyea ametakpɔnu eye woyɔnɛ ɣeaɖewoɣi be Ame ŋutɔ ƒe Asitsatsa le Adzamenyawo ƒe ɖoɖo gã si wowɔ ta. Zi geɖe la, esiae nye mɔ nyuitɔ kple esi wokafu wu si dzi woato aɖo $ZEC ɖa ahaxɔe ne ehiã be woazã ame ŋutɔ ƒe nyawo. 
-
----
-
-Ne èɖo ZEC tso "Z-adrɛs" dzi yi "T-adrɛs" dzi la, ɖeko wòfia Deshielding ƒe asitsatsa ƒomevi aɖe. Le asitsatsa sia ƒomevi me la, ameŋunyatakakawo ƒe seƒe mekɔna ɣesiaɣi o elabena nyatakaka aɖewo adze le blockchain la dzi le ŋusẽ si ZEC ɖoɖo ɖe Adrɛs si me kɔ dzi ta. Menye ɣesiaɣie wokafua adzɔnuwo ɖeɖeɖa ne ehiã be woaɣla ame ŋutɔ ƒe nyawo o. 
-
----
-
-ZEC tsɔtsɔ tso Adrɛs si me kɔ (T-adrɛs) me yi Z-adrɛs dzi koe woyɔna be Shielding. Le asitsatsa sia ƒomevi me la, adzamenyawo ƒe seƒe mekɔna ɣesiaɣi ne wotsɔe sɔ kple z-z asitsatsa tɔ o gake wokafui hã ne wobia adzamenyawo. 
-
----
-
-ZEC ɖoɖo tso Adrɛs si me kɔ (T-adrɛs) yi Adrɛs si me kɔ (T-adrɛs) bubu me le Zcash Network (T-T asitsatsa) dzi sɔ kple Bitcoin ƒe asitsatsa tɔ ŋutɔ eye esia tae woyɔa T-T asitsatsa le Zcash dzi ɣesiaɣi be Dutoƒo asitsatsa elabena ame si ɖoe ɖa kple amesi xɔe siaa ƒe asitsatsa ŋuti nyatakakawo va dzena na dukɔa si wɔnɛ be Adzamenyawo ƒe seƒe bɔbɔ ŋutɔ le asitsatsa ma tɔgbe me. 
-
-Cryptocurrency Centralized exchange akpa gãtɔ wɔa Transparent Address ("T-address) ŋudɔ ne eva le asitsatsa le Zcash blockchain dzi gake asitsatsa sia ƒomevi (T-T) makpɔ ame ŋutɔ ƒe nunɔamesi aɖeke o.
+Ele vevie be nànɔ ŋku edzi be, togbɔ be Zcash Ɣaɣla ƒe gaɖoƒe ƒe dzesiwo nana ɣaɣla nɔa anyi nyuie le gaɖoɖowo me hã la, wo hia computer ƒe nuƒoƒo geɖe wu be woawɔ gaɖoɖowo. Eyata ezãla aɖewo ate ŋu atsɔ Nuwo ƒe ʋuʋuɖi ƒe gaɖoƒe ƒe dzesiwo awɔ gaɖoɖo siwo me ɣaɣla ƒe sesẽ ma hia o.
 
 <br/>
 
-## The Orchard to Ironwood Migration
+## Nuwɔwɔ Nyuitɔ Si Wòele Be Wòawɔ Ne Wòle Gaƒuƒoƒo Tɔtrɔ Wɔm
 
-The migration is happening now. Orchard is sealed to new deposits, and the value still sitting there is moving into Ironwood a transaction at a time. You can watch the totals at [ironwood.le agbe](https://ironwood.live/).
+Ne wòle ɣaɣla ƒe sesẽ ƒe ŋutete dzrom to gaɖoɖo me le Zcash Network la dzi la, wòle be nàwɔ nu siawo;
 
-Nusi esia fia nɔ te ɖe afisi wò ga le dzi:
-
-1. **Dɔwɔna yeye si wokpɔ ta na** yia Ironwood me le eɖokui si. Naneke meli woawɔ o.
-2. **Ehiã be Orchard ga siwo li fifia** naʋu ayi teƒe bubu. Gakotoku siwo ŋu wodzra ɖo la wɔa esia na wò, zi geɖe la, wowɔa esia le afɔɖeɖewo me tsɔ wu be woawɔe zi ɖeka.
-3. **Sapling mekpɔ ŋusẽ ɖe edzi o** eye wògaxɔa ga kokoko. Orchard koe wotre nu na.
-4. **Tɔtrɔmɔ̃a xlẽa nusianu** si toa tawo dome, si nye nusi ɖo kpe edzi be wometo gaku aɖeke vɛ le mɔa dzi o.
-
-> **Adzamenyawo ŋuti nuxlɔ̃ame ɖeka si dze be nànya.** Turstile la taa *agbɔsɔsɔ* si tso tadeaguƒewo dome, tsɔ kpe ɖe block ƒe kɔkɔme ŋu. Ame si ɖoe ɖa kple amesi xɔe la nɔa ɣaɣla abe alesi wònɔna ɖaa ene, gake woate ŋu atsɔ ga home tɔxɛ aɖe aɖo kadodo me kpli wò. Esia tae gakotokuwo ʋuna le afɔɖeɖe vovovowo me to ga home siwo wozãna ɖaa zazã me tsɔ wu be woaʋuʋu wò ga si susɔ ɖe ƒuƒoƒo ɖeka si woate ŋu ade dzesii me. Na wò gakotokua nazɔ eɖokui, eye nàbu Tor alo VPN zazã ŋu ale be wò IP nagabla ɖe ga home siwo nèʋuna ŋu o.
-
-Kpɔ [Ironwood](/zcash-tech/ironwood) na ŋgɔyiyia ŋutɔ, eye [Turnstile ƒe ʋuƒoa](/zcash-tech/the-turnstile) le alesi akɔntabubua wɔa dɔe ta.
-
-<br/>
-
-## Vodada Siwo Wòaƒo Asa na Zi geɖe
-
-- **Dɔdɔ tso t-adrɛs dzi yi t-adrɛs dzi** — dutoƒo bliboe, ame ŋutɔ ƒe nya aɖeke mele eme o. Kpɔ ga ta gbã ɣesiaɣi.
-- **Ne míetsɔe be Orchard gakpɔtɔ xɔa ga** — enye gazazã ɖeɖeko tso 28 July 2026. Asixɔxɔ ateŋu adzo, gake nu yeye aɖeke megena ɖe eme o
-- **Tɔtɔ Sapling kple Unified adrɛswo** — Sapling adrɛswo dzea egɔme kple `zs`. Adrɛs siwo wowɔ ɖekae dzea egɔme tso `u1` eye nàƒo gaxɔla geɖe nu ƒu, eyata ta si me wò fexexea adze ɖo la nɔ te ɖe xɔla siwo adrɛs ma tsɔna dzi
-- **Gagblẽ ɖe Sprout-ta la me** — Woɖe asi le Sprout ŋu ƒe geɖe enye sia; tsɔ ga mawo do goe
-- **Mɔkpɔkpɔ be ʋuʋu aɖe nanye nusi womate ŋu akpɔ keŋkeŋ o** — ga home si tso turnstile la nye dutoƒo, togbɔ be ame si ɖoe ɖa kple amesi xɔe menye nenema o hã
-- **Ne míetsɔe be t → z (ametakpɔnu) nye ame ŋutɔ tɔ bliboe** — ametakpɔnu ŋutɔ ƒe nuwɔna dzena le kɔsɔkɔsɔ me; emenyawo mele nenema o
+Gaɖoɖo siwo dzena le "z yi z" gakotokuwòwo dome le Zcash gaɖoɖowo ƒuƒoƒo ƒe ɖoɖonu dzi la le ɣaɣla me akpa gã, eye woŋlɔa be Nyeŋutɔ ƒe Gaɖoɖo zi aɖewo, elabena ɣaɣla le eme nyuie. Esiae nye mɔ nyuitɔ kple mɔ si woɖoa ŋu vevie wu na $ZEC ƒe ɖoɖo kple xɔxɔ ne ɣaɣla hia. 
 
 ---
 
-## Axa Siwo Do Ƒome Kplii
+Ne nàɖo ZEC ɖa tso "Z-address" yi "T-address" la, esia fia be wòwɔ ɣaɣlaɖeɖa ƒe gaɖoɖo. Le gaɖoɖo ƒome sia me la, ɣaɣla ƒe sesẽ menɔa anyi ɣesiaɣi o elabena nyatakaka aɖewo ana woakpɔ le gaɖoɖowo ƒuƒoƒo ƒe ɖoɖonu dzi, esi nèɖo ZEC ɖa yi Nuwo ƒe ʋuʋuɖi ƒe gaɖoƒe ƒe dzesi dzi ta. Wometsɔ ɣaɣlaɖeɖa ƒe gaɖoɖo doa ŋgɔ ɣesiaɣi o ne ɣaɣla sesẽ hia. 
 
-- [Ironwood](/zcash-tech/ironwood) — Dodoɖeŋgɔ si wɔ fifi ta la
-- [Turnstile ƒe ʋuƒoa](/zcash-tech/the-turnstile) — Alesi wodzroa asixɔxɔ si le ʋuʋum le tadeaguƒewo dome la me
-- [Gakotokuwo](/using-zcash/wallets) — Gakotoku kawoe wodzrana ɖo eye Ironwood le klalo
-- [Adzɔnuwo ƒe asitsatsa](/using-zcash/transactions) — Alesi woaɖo asitsatsa siwo ŋu wokpɔ akpoxɔnu le ɖa
-- [ZEC ƒeƒle](/using-zcash/buying-zec) — ZEC xɔxɔ hafi azãe le tadeaguƒewo
-- [zk-SNARKs](/zcash-tech/zk-snarks) — Ta siwo ŋu wokpɔ akpoxɔnu le ƒe gɔmeɖoanyi si wotsɔa nya ɣaɣlawo ŋlɔnae
-- [Nukae nye ZEC kple Zcash](/start-here/what-is-zec-and-zcash) — Zcash ƒe ameŋunyatakakawo ŋuti nyatakakawo
+---
+
+Ne wòtsɔ ZEC tso Nuwo ƒe ʋuʋuɖi ƒe gaɖoƒe ƒe dzesi (T-address) yi Z-address la, woyɔe be ɣaɣlaɖoɖo ko. Le gaɖoɖo ƒome sia me la, ɣaɣla ƒe sesẽ menɔa anyi ɣesiaɣi o ne woatsɔe sɔ kple z-z ƒe gaɖoɖo, gake wòle be wòawɔe hã ne ɣaɣla hia. 
+
+---
+
+Ne wòɖo ZEC ɖa tso Nuwo ƒe ʋuʋuɖi ƒe gaɖoƒe ƒe dzesi (T-address) yi Nuwo ƒe ʋuʋuɖi ƒe gaɖoƒe ƒe dzesi bubu (T-address) le Zcash Network la dzi (T-T gaɖoɖo) la, esɔ ŋutɔ kple Bitcoin ƒe gaɖoɖo, eye esiae ta woyɔa T-T gaɖoɖowo le Zcash dzi be Amewo Katã ƒe Gaɖoɖowo, elabena ame si ɖo ga la kple ame si xɔe la ƒe gaɖoɖo ƒe nyatakakawo ɖena fia na amewo katã, si na ɣaɣla nɔa anyi le sue ŋutɔ le gaɖoɖo sia me. 
+
+Cryptocurrency ƒe gatrɔƒe siwo wodzi ɖe ɖoɖo aɖe ŋu la zãa Nuwo ƒe ʋuʋuɖi ƒe gaɖoƒe ƒe dzesi ("T-address) ne wole gaɖoɖo wɔm le Zcash gaɖoɖowo ƒuƒoƒo ƒe ɖoɖonu dzi, gake gaɖoɖo ƒome sia (T-T) ƒe ɣaɣla ƒe nɔnɔ aɖeke manɔ eme o.
+
+<br/>
+
+## Orchard Yi Ironwood Me Tɔtrɔ
+
+Tɔtrɔ la le dzem fifia. Wotu Orchard na deposit yeyeawo, eye asigame si gale eme la le yiyi ɖe Ironwood me gaɖoɖo ɖeka ɖeka. Àte ŋu akpɔ xexlẽ blibowo le [ironwood.live](https://ironwood.live/).
+
+Nu si esia fia la te ŋu ato afi si wòƒe ga le:
+
+1. **Ɣaɣla ƒe dɔwɔwɔ yeye** yia ɖe Ironwood me le eɖokui si. Nu aɖeke mele be nàwɔ o.
+2. **Orchard ƒe ga siwo li xoxo** hia be woatrɔ wo. Gakotokuwò siwo woŋlɔ ɖe edzi la wɔa esia na wò, zi geɖe woƒe akpa akpa le teƒe si woawɔe blibo zi ɖeka.
+3. **Sapling me tɔtrɔ aɖeke mede o**, eye wògale ga xɔm. Orchard koe wotu.
+4. **Turnstile la xlea nu sia nu** si to le gaƒuƒoƒowo dome, eye esiae na ɖase be wometsɔ ga aɖeke wɔ ɖe mɔa dzi o.
+
+> **Ɣaɣla ƒe nyatakaka ɖeka si wòle be nànya.** Turnstile la ɖea *home* si to gaƒuƒoƒowo dome la fia, kple gaɖoɖowo ƒuƒoƒe ƒe kɔkɔe. Ame si ɖo ga la kple ame si xɔe la ƒe dzesiwo gale ɣaɣla me abe ale si wònɔna ɣesiaɣi ene, gake ga ƒe home si le vovo aɖe ate ŋu atrɔ ayɔ wo atsɔe akaka ɖe wò ŋu. Esiae ta gakotokuwòwo trɔa ga la le akpa akpa, esi wozãa ga ƒe home siwo wozãna ɣesiaɣi le teƒe si woatsɔ wòƒe balance blibo akɔ yi ɖekae. Na gakotokuwò la naɖo eɖokui ƒe ɣeyiɣi, eye bu Tor alo VPN ƒe zãzã ŋu be wòƒe IP madɔ kadodo kple ga ƒe home siwo nèle trɔm la o.
+
+Kpɔ [Ironwood](/zcash-tech/ironwood) be nànya mɔ̃ ƒe sewo trɔtrɔ ŋutɔ, eye kpɔ [The Turnstile](/zcash-tech/the-turnstile) be nànya ale si xexlẽkpɔkpɔ la wɔ dɔ.
+
+<br/>
+
+## Vodada Siwo Wòle Be Nàƒo Ɖa
+
+- **Ɖoɖo tso t-address yi t-address** — Le amewo katã ƒe ŋkume blibo, ɣaɣla mele eme o. Ɖo ga la ɖe ɣaɣla me gbã.
+- **Bu be Orchard gale ga xɔm** — Wòzu be wòate ŋu azã ko tso dzome 28 lia 2026. Asigame ate ŋu ado go, gake asigame yeye aɖeke mate ŋu age eme o
+- **Ƒo Sapling kple Unified addresses ɖekae** — Sapling ƒe gaɖoƒe ƒe dzesiwo dzena kple `zs`. Unified addresses dzena kple `u1` eye woƒoa receiver geɖewo ɖekae, eyata gaƒuƒoƒo si wòƒe fexexe [payment] adze ɖo eme la to receiver siwo gaɖoƒe ƒe dzesi ma tsɔ la ŋu
+- **De ga ɖe Sprout ƒe gaƒuƒoƒo me** — Wogblẽ Sprout tso zãzã me le ƒe geɖewo va yi; tsɔ ga mawo ado go
+- **Bu be tɔtrɔ la mate ŋu akpɔe kura o** — Ga ƒe home si to turnstile la me la le amewo katã ƒe ŋkume, togbɔ be ame si ɖo ga la kple ame si xɔe la mele amewo ƒe ŋkume o
+- **Bu be t → z (ɣaɣlaɖoɖo) nye nyeŋutɔ blibo** — Ɣaɣlaɖoɖo ƒe wɔwɔ ŋutɔ le ɖoɖonu dzi le amewo katã ƒe ŋkume; nu siwo le eme la menɔa amewo ƒe ŋkume o
+
+---
+
+## Axawo Siwo Kplɔe ɖo
+
+- [Ironwood](/zcash-tech/ironwood) — Mɔ̃ ƒe sewo trɔtrɔ si wɔ gaƒuƒoƒo si le fifia
+- [The Turnstile](/zcash-tech/the-turnstile) — Ale si wole ga si le yiyi le gaƒuƒoƒowo dome ƒe kpɔkpɔ wɔm
+- [Gakotokuwòwo](/using-zcash/wallets) — Gakotokuwò kawoe woɖe asi ɖe edzi, eye Ironwood ƒe mɔrawo le wo si
+- [Gaɖoɖowo](/using-zcash/transactions) — Ale si nàɖo ɣaɣla gaɖoɖowo ɖa
+- [ZEC Ƒleƒle](/using-zcash/buying-zec) — ZEC ƒe xɔxɔ hafi nàzãe le gaƒuƒoƒowo me
+- [zk-SNARKs](/zcash-tech/zk-snarks) — Crypto ƒe gɔmeɖoƒe si tu ɣaɣla ƒe gaƒuƒoƒowo ɖo
+- [ZEC nye nu ka eye Zcash](/start-here/what-is-zec-and-zcash) — Nyatakaka si le Zcash ƒe ɣaɣla ŋu

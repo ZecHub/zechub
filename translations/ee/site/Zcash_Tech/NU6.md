@@ -1,119 +1,119 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Zcash_Tech/NU6.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Atria axa"/>
 </a>
 
 # NU6
 
-> NU6 yi agbe le Zcash mainnet dzi le block 2,726,400 (November 23, 2024 UTC).
+> NU6 de dzi le Zcash mainnet dzi le gaɖoɖowo ƒuƒoƒe 2,726,400 (November 23, 2024 UTC).
 
-Nusi nàtsɔ adzoe: alesi Zcash yi edzi le ga nam eya ŋutɔ ƒe ŋgɔyiyi le eƒe afã dzi ɖeɖe kpɔtɔ megbe, nusita wòɖo ga si wodzra ɖo ɖi si menya alesi wòazãe haɖe o, kple alesi wòna ZEC ƒe nuzazã bliboa te ŋu gblɔe ɖi pɛpɛpɛ.
+Nu si nànyae: Ale si Zcash yina edzi doa ga na eya ŋutɔ ƒe ŋgɔyiyi le fetu ƒe afãmama megbe, nusita wòɖo gaƒeɖeɖe ɖi si wòmenya ale si wòazãe haɖe o, kple ale si wòwɔ ZEC ƒe xexlẽdidime katã zu nu si woate ŋu anya tututu.
 
-NU6 nye Zcash [network ƒe ŋgɔyiyi](../start-here/network-upgrades), si woɖo ɖe dɔ me to [ZIP 253 ƒe xexlẽdzesi](https://zips.z.cash/zip-0253), si wɔ dɔ le mainnet dzi le November 2024 me le block 2,726,400. Enye ga kple... [ŋgɔyiyi-gadodo](../start-here/development-fund) upgrade: ena block subsidy ƒe akpa aɖe yi ŋgɔyiyi dzi to November 2024 ƒe afã dzi ɖeɖe kpɔtɔ megbe, eɖo in-protocol reserve na etsɔme nutoa me tɔwo ƒe nyametsotso be woazã, eye wòsẽ alesi woxlẽa ZEC yeyewoe me. Electric Coin Company kple Zcash Foundation siaa da asi ɖe NU6 dzi.
+NU6 nye Zcash [mɔ̃ ƒe sewo trɔtrɔ](../start-here/network-upgrades), si [ZIP 253](https://zips.z.cash/zip-0253) wɔ, eye wòdzra edzi le mainnet dzi le November 2024 me le gaɖoɖowo ƒuƒoƒe 2,726,400. Enye ga ƒe kple [ŋgɔyiyi ƒe gadodo](../start-here/development-fund) ƒe mɔ̃ ƒe sewo trɔtrɔ: Ewɔe be gaƒeɖeɖe si yina le gaɖoɖowo ƒuƒoƒe ƒe fetu me yi ŋgɔyiyi me nanɔ anyi le November 2024 ƒe fetu ƒe afãmama megbe, wòɖo gaƒeɖeɖe le protocol me na emegbe ƒe nɔnɔ si hatsotso la aɖo ŋu, eye wòsẽ ale si woexlẽ ZEC yeye ɖe eme. NU6 kpɔ dzidzɔ le Electric Coin Company kple Zcash Foundation siaa gbɔ.
 
-Nusitae esia le vevie ɖo. Zcash tɔe [Hlɔ̃nyawo Gbɔkpɔha](../zcash-tech/canopy) woɖoe be wòawu enu le November 2024 ƒe afã dzi ɖeɖe kpɔtɔ lɔƒo, si nye evelia le eƒe ŋutinya me. NU6 na ga ma nɔ edzi yim, gake le esi teƒe be wòatsɔ gaku ɖesiaɖe ade asi na amesiwo woɖo ɖi la, edzra akpa aɖe ɖo ɖe ɖoɖowɔɖia me ale be nutoa me tɔwo nate ŋu atso nya me emegbe le nusi woawɔ kplii ŋu. Etu akɔntabubu ƒe vovototo si me ɖoɖoezizi le hã, eyata woate ŋu agblɔ ZEC ƒe agbɔsɔsɔ bliboa si anɔ anyi gbeɖeka ɖi pɛpɛpɛ azɔ.
+Nusita esia le vevie. Woɖo ɖe Zcash ƒe [ŋgɔyiyi ƒe Gaƒuƒoƒo](../zcash-tech/canopy) nu be wòakpɔ nu le November 2024 ƒe fetu ƒe afãmama ŋu, si nye evelia le eƒe ŋutinya me. NU6 wɔe be gadodo ma yi edzi, gake teƒe be wòana ga sia katã na amesiwo woɖo ɖi la, wòɖo eƒe akpa ɖe protocol la me be hatsotso la nate ŋu aɖo ŋu emegbe be alekee woazãe. Ewɔe hã be xexlẽ ƒe vovototo si menɔ gbeɖe o nɔ o, ale be ZEC si anɔ anyi gbeɖeka katã ƒe lolome ate ŋu woanya tututu fifia.
 
-## Nusi NU6 trɔ
+## Nu si NU6 trɔ
 
-NU6 yi edzi ɖo block ƒe kpekpeɖeŋunana ƒe 20% ɖe ŋgɔyiyi ƒe gakpekpeɖeŋu le November 2024 ƒe afã dzi ɖeɖe kpɔtɔ megbe, se si gɔme woɖe le [ZIP 1015 ƒe xexlẽdzesi](https://zips.z.cash/zip-1015). Ema 20% ma ɖe mɔ eve nu.
+NU6 yi edzi nɔ ɖom gaɖoɖowo ƒuƒoƒe ƒe fetu ƒe 20% na ŋgɔyiyi ƒe gadodo le November 2024 ƒe fetu ƒe afãmama megbe, se si woɖe fia le [ZIP 1015](https://zips.z.cash/zip-1015) me. Wòmama 20% ma me le mɔ eve.
 
-1. Block ƒe kpekpeɖeŋunana ƒe 8% yia Zcash Community Grants (ZCG), si nye ga si nutoa me tɔwo wɔa dɔ na eye wowɔa dɔ na wo.
-2. 12% yia gaxɔɖaka yeye si le ɖoɖowɔɖia me, si wolé ɖe asi be woazãe le etsɔme si nutoa me tɔwo atso nya me le.
+1. Gaɖoɖowo ƒuƒoƒe ƒe fetu ƒe 8% yina na Zcash Community Grants (ZCG), si doa ga na dɔ si hatsotso la wɔ kple dɔ si woewɔ na hatsotso la.
+2. 12% yina ɖe gaƒeɖeɖe yeyee si le protocol me me, si woɖo ɖi na emegbe ƒe zãzã si hatsotso la aɖo ŋu.
 
-Block subsidy susɔea, kpakple asitsatsa ƒe fewo, yia tomenukulawo si kpɔa network la ta. NU6 hã trɔ asi le gazazã ƒe ɖoɖo kple dev-ga ƒe se siwo li fifia (ZIP 207 kple ZIP 214) ŋu be woasɔ ɖe ɖoɖo yeye sia nu.
+Gaɖoɖowo ƒuƒoƒe ƒe fetu ƒe akpa si susɔ, kple gaɖoɖo ƒe adzɔwo, yina na nukulawo siwo le network la ŋu ɖaa. NU6 trɔ gadodo ƒe ƒliawo kple dev-fund ƒe se siwo nɔ anyi xoxo (ZIP 207 kple ZIP 214) hã be woawɔ ɖeka kple ɖoɖo yeye sia.
 
 ![NU6 development-fund split: 20 percent of the block subsidy goes to development, with 8 percent to Zcash Community Grants and 12 percent into the Deferred Dev Fund Lockbox](/content-images/nu6-dev-fund-split-08bc73e317.webp)
 
-## Aɖaka si wohe ɖe megbe la
+## Gaƒeɖeɖe si woɖo ɖe emegbe
 
-12% ƒe gomekpɔkpɔ nye susu yeye si le NU6 me. Le esi teƒe be woaxee ɖe adrɛs si dzi woaxee ɖo la, wotsɔa asixɔxɔ ma dea ɖoɖowɔɖia me ƒe ƒuƒoƒo si woyɔna be Deferred Dev Fund Lockbox, si woɖe fia le... [ZIP ƒe 2001](https://zips.z.cash/zip-2001).
+12% ƒe akpa lae nye susu yeye le NU6 me. Teƒe be woaxe ga na ame aɖe ƒe gaɖoƒe ƒe dzesi, woɖo ga ma ɖe gaƒuƒoƒo si le protocol me tẽ, si woyɔ be Deferred Dev Fund Lockbox, eye woɖe fia le [ZIP 2001](https://zips.z.cash/zip-2001) me.
 
-1. lockbox nye gadodo-tɔsisi ƒomevi yeye (DEFERRED_POOL), afisi block-reward ƒe asixɔxɔ yia ɖoɖowɔɖia ŋutɔ me, ke menye na ame alo habɔbɔ o.
-2. Netwɔƒea léa ŋku ɖe eŋu abe eya ŋutɔ ƒe kɔsɔkɔsɔ ƒe asixɔxɔ ƒe tadeaguƒe ƒe dadasɔ ene, abe alesi wòléa ŋku ɖe tsita siwo ŋu wokpɔ akpoxɔnu le ƒe dadasɔ ŋu ene.
-3. NU6 ɖoe koŋ wɔ gaƒoɖokui la gake wogblẽ nyabiase sesẽa ɖi: amekae kpɔa ga mawo dzi, eye aleke woɖea asi le wo ŋui?
+1. Lockbox la nye gadodo ƒe ƒomevi yeye (DEFERRED_POOL), afi si gaɖoɖowo ƒuƒoƒe ƒe fetu ƒe ga yina ɖe protocol la ŋutɔ me, menye ame alo habɔbɔ aɖe gbɔ o.
+2. Network la le exlẽm abe eya ŋutɔ ƒe ɖoɖonu ƒe ga ƒuƒoƒo ƒe nɔnɔ ene, abe ale si wòle ɣaɣla gaƒuƒoƒowo ƒe nɔnɔwo xlem ene.
+3. NU6 wɔ lockbox la le ta me, gake wòde biabia sesẽ la ɖe aƒe: Ame kae dziɖuɖu le ga mawo ŋu, eye alekee woaɖe woaɖa?
 
-Woɖo biabia ma ŋu emegbe to... [NU6.1](../zcash-tech/nu6-1), which set the governance: it continued the 8% block-subsidy stream to Zcash Community Grants and directed a 12% stream into a coin-holder-controlled fund seeded by the lockbox.
+Woɖo ŋu biabia ma emegbe to [NU6.1](../zcash-tech/nu6-1) me, si ɖo dziɖuɖu la ɖi: Ewɔ 8% ƒe gaɖoɖowo ƒuƒoƒe ƒe fetu ƒe ƒli si yina na Zcash Community Grants yi edzi, eye wòɖo 12% ƒe ƒli ɖe gaƒuƒoƒo si coin-holderwo le dziɖuɖu le eme, si lockbox la na dze egɔme.
 
-## Agbalẽawo ƒe dadasɔ
+## Agbalẽwo ƒe sɔsɔ
 
-NU6 hã tu akɔntabubu ƒe vovototo aɖe le alesi wowɔa ZEC yeyee me, si gɔme woɖe le [ZIP 236 ƒe xexlẽdzesi](https://zips.z.cash/zip-0236). Coinbase ƒe asitsatsa nye asitsatsa tɔxɛ siwo xea block ɖesiaɖe ƒe ZEC yeye kple fewo.
+NU6 tu xexlẽ ƒe vovototo le ale si woewɔ ZEC yeye me hã, si woɖe fia le [ZIP 236](https://zips.z.cash/zip-0236) me. Coinbase gaɖoɖowo nye gaɖoɖo tɔxɛ siwo le xa gaɖoɖowo ƒuƒoƒe ɖe sia ɖe ƒe ZEC yeye kple adzɔwo.
 
-1. Do ŋgɔ na NU6 la, ɖeko wòle be coinbase ƒe asitsatsa mabia nusi wu fe si wònyi o. Tomenukulawo ate ŋu abia be mede gakpekpeɖeŋu bliboa nu o, si fiã ZEC ma kpoo.
-2. Le NU6 megbe la, ele be coinbase ƒe asitsatsa nada sɔ pɛpɛpɛ: ele be nusiwo wowɔ ƒe asixɔxɔ bliboa nasɔ kple tomenukulawo ƒe kpekpeɖeŋu kpe ɖe fewo ŋu, megasɔ gbɔ o eye megaɖiɖi o.
-3. Esi tomenukulawo magate ŋu axɔ ZEC ƒe nu sue aɖe eye woatɔ dzoe le vo me o ta la, woate ŋu agblɔ ZEC ƒe agbɔsɔsɔ bliboa si anɔ anyi gbeɖeka la ɖi pɛpɛpɛ azɔ.
+1. Do ŋgɔ na NU6, coinbase gaɖoɖo aɖe mebia be wòadzɔ ga geɖe wu esi wòle eƒe gome o ko. Nukula aɖe ate ŋu adzɔ ga sue wu fetu blibo la, eye esia ato mɔ gbegbe tso ZEC ma.
+2. Le NU6 megbe, coinbase gaɖoɖo aɖe ele be wòasɔ tututu: Ga si yina tsoe katã nanɔ sɔsɔ kple nukula ƒe fetu kple adzɔwo, menɔ geɖe o eye menɔ sue o.
+3. Esi nukulawo mate ŋu agaɖo ga sue wu ale si wòle be woaxɔ eye woato ZEC le vodada me o ta la, ZEC si anɔ anyi gbeɖeka katã ƒe lolome ate ŋu woanya tututu fifia.
 
 ![Coinbase balancing before and after NU6: before, coinbase could under-claim and burn ZEC so supply was not exactly predictable. After, coinbase must balance exactly so issuance is exactly predictable](/content-images/nu6-coinbase-balance-0fa2394799.webp)
 
-## Alesi gazazã va trɔe
+## Ale si gadodo trɔ
 
-NU6 nye ta ɖeka le ŋutinya didi aɖe me ku ɖe alesi Zcash xea fe na eɖokui ŋu.
+NU6 nye ta aɖe le ŋutinya didi aɖe me, si gblɔ ale si Zcash doa ga na eya ŋutɔ.
 
-1. Canopy (2020) wu gɔmeɖolawo ƒe fetu gbãtɔ nu eye wòwɔ... [ŋgɔyiyi ƒe gaxɔ](../start-here/development-fund).
-2. NU6 (November 2024) gbugbɔ trɔ asi le gadodo ma ŋu le afã evelia megbe eye wòɖo Deferred Dev Fund Lockbox, eye wòdzra ga si woaɖe ɖe go ƒe akpa aɖe ɖo na gakpekpeɖeŋu siwo nutoa me tɔwo atso nya me le etsɔme.
-3. NU6.1 (2025) ɖo biabia si NU6 gblẽ ɖi ʋuʋu ɖi, amesi kpɔa ga siwo wodzra ɖo ɖi dzi, to block subsidy ƒe 8% dzi yiyi na Zcash Community Grants eye wòfia mɔ 12% yi gaku si dzi gakuxɔlawo kpɔna si lockbox la xe nuku me.
+1. Canopy (2020) wu founders reward gɔmedzedze la nu, eye wòwɔ [ŋgɔyiyi ƒe gaƒuƒoƒo](../start-here/development-fund).
+2. NU6 (November 2024) trɔ gadodo ma ɖe ɖoɖo yeye me le fetu ƒe afãmama evelia megbe, eye wòɖo Deferred Dev Fund Lockbox la ɖi, si ɖo ga ƒe akpa aɖe ɖi na emegbe ƒe ga ƒe kpekpeɖeŋu si hatsotso la aɖo ŋu.
+3. NU6.1 (2025) ɖo ŋu biabia si NU6 de ɖe aƒe la, ame siwo le dziɖuɖu le ga si woɖo ɖi la ŋu, to 8% ƒe gaɖoɖowo ƒuƒoƒe ƒe fetu ƒli si yina na Zcash Community Grants yi edzi kple 12% si wòɖo ɖe gaƒuƒoƒo si coin-holderwo le dziɖuɖu le eme, si lockbox la na dze egɔme.
 
 ![How Zcash funding evolved: Canopy created the development fund, NU6 set up the lockbox, and NU6.1 set the rules for who controls it](/content-images/nu6-funding-timeline-2427db58c0.webp)
 
-## Nyagɔmeɖegbalẽ
+## Nyagɔmeɖeɖe
 
-| Nyagbe | Plain-Eŋlisigbe me gɔmesese |
+| Nyagɔme | Gɔmesese le English bɔbɔe me |
 |---|---|
-| Block subsidy | ZEC yeye si wowɔ kple block ɖesiaɖe si woɖe |
-| Coinbase transaction | Asitsatsa tɔxɛ si xea block aɖe ƒe kpekpeɖeŋu kple fewo |
-| Deferred Dev Fund Lockbox | Nudzraɖoƒe si le ɖoɖowɔɖi me si léa ga si woɖe ɖe go ƒe akpa aɖe ɖe asi hena etsɔme si nutoa me tɔwo tso nya me le be woazã |
-| Zcash Community Grants (ZCG) | Kɔmiti si naa ga dɔwɔwɔ si Zcash nutoa me tɔwo wɔna eye wowɔa dɔ na wo |
-| Consensus branch id | Dzesidede nodes zãna tsɔ gblɔa upgrade ƒe se siwo dzi block zɔna ɖo |
-| Network upgrade (NU) | Tɔtrɔ si wowɔ ɖekae ɖe Zcash ƒe se siwo dzi woda asi ɖo ŋu, si wowɔ dɔ le block ƒe kɔkɔme si woɖo ɖi |
+| Block subsidy | ZEC yeye si wowɔ kple gaɖoɖowo ƒuƒoƒe sia ɖe si wonuku |
+| Coinbase transaction | Gaɖoɖo tɔxɛ si le xa gaɖoɖowo ƒuƒoƒe ƒe fetu kple adzɔwo |
+| Deferred Dev Fund Lockbox | Gaƒeɖeɖe si le protocol me, si le ɖe ga ƒe akpa aɖe ɖi na emegbe ƒe zãzã si hatsotso la aɖo ŋu |
+| Zcash Community Grants (ZCG) | Hame aɖe si doa ga na dɔ si Zcash ƒe hatsotso la wɔ kple dɔ si woewɔ na hatsotso la |
+| Consensus branch id | Dzesi si ɣaɣla dzesi ŋɔŋlɔwo zãna be woanya mɔ̃ ƒe sewo trɔtrɔ kae ƒe sewo gaɖoɖowo ƒuƒoƒe aɖe doalɔ̃ |
+| Network upgrade (NU) | Tɔtrɔ si network la katã wɔ ɖekae le Zcash ƒe gbegbɔgblɔ ɖi ƒe sewo me, si woedzrae dzi le gaɖoɖowo ƒuƒoƒe ƒe teƒe si woɖo ɖi me |
 
-## Nyabiasewo ƒe Nyabiasewo
+## Biabia si woɖona zi geɖe
 
-Ðe NU6 trɔa nye ZEC alo nye adzamenyawoa? Ao, NU6 ku ɖe alesi wokpɔa ga na ŋgɔyiyi kple alesi wobua ga si woɖe ɖe goe ŋu, ke menye wò asitsatsa alo wò adzamenyawo ŋu o. Wò ga kple asitsatsa siwo ŋu wokpɔ ta na la mekpɔa ŋusẽ ɖe edzi o.
+Ðe NU6 trɔ nye ZEC alo nye ɣaɣla? Ao. NU6 le ŋgɔyiyi ƒe gadodo kple ale si woexlẽ ga ƒe dodo me ŋu, menye wòƒe gaɖoɖowo alo ɣaɣla ŋu o. Wòƒe ga kple ɣaɣla gaɖoɖowo metrɔ o.
 
-Afikae ga si wodzɔna la tsona? Tso block subsidy dzi la, ZEC yeye si woɖe ɖe go esime woɖe blocks. Woɖoa gome 20% ɖe ŋgɔyiyi ŋu tsɔ wu be wo katã nayi tomenukulawo gbɔ.
+Afikae gadodo la tso? Tso gaɖoɖowo ƒuƒoƒe ƒe fetu la me, si nye ZEC yeye si wowɔ ne wonuku gaɖoɖowo ƒuƒoƒowo. Woɖoa 20% ƒe akpa ɖe ŋgɔyiyi me le teƒe be woana wo katã na nukulawo.
 
-Nukae wotsɔa gaƒoɖokui ƒe aɖaka la wɔa? Edzraa ga si woɖe ɖe go ƒe akpa aɖe ɖo ɖe ɖoɖowɔɖia me ale be nutoa me tɔwo nate ŋu atso nya me emegbe le alesi woazãe ŋu. NU6 tsɔ nusi wodzra ɖo ɖi la ɖe vovo, eye NU6.1 ɖo se siwo ku ɖe amesi akpɔ edzi ŋu.
+Nukae lockbox la ƒe ta? Ele ga ƒe akpa aɖe ɖem ɖi le protocol la me be hatsotso la nate ŋu aɖo ŋu emegbe be ale si woazãe. NU6 ɖo gaƒeɖeɖe la ɖi, eye NU6.1 ɖo sewo ɖi na ame siwo le dziɖuɖu le eŋu.
 
-Ðe se si nye be woada asɔ pɛpɛpɛ la trɔa nye gakuwoa? Ao, ɖeko wòbia tso block ɖesiaɖe ƒe coinbase asitsatsa si be wòaxe fe si tututu wònyi. Ekpɔa ŋusẽ ɖe gadodo yeyewo ƒe akɔntabubu dzi, ke menye ga si susɔ xoxo o.
+Ðe sɔsɔ-tututu ƒe se la trɔ nye ga? Ao. Ele be gaɖoɖowo ƒuƒoƒe ƒe coinbase gaɖoɖo ɖe sia ɖe na ga tututu ale si wòle be wòana ko. Eku ɖe ga yeye ƒe xexlẽ ŋu, menye nɔnɔ siwo nɔ anyi xoxo ŋu o.
 
-Nukae ɖe NU6 gɔme le mɔ̃ɖaŋununya nu? NU6 nye dɔwɔwɔ to ZIP 253 dzi, si ɖo eƒe mainnet dɔwɔwɔ ɖe block 2,726,400 kple eƒe consensus branch id. Tɔtrɔ siwo dzi woda asi ɖo ŋutɔ la tso ZIP 236, ZIP 1015, kple ZIP 2001 gbɔ, eye wowɔ ZIP 207 kple ZIP 214 yeyee be woasɔ.
+Nukae ɖe NU6 fia le mɔ̃ ƒe se me? NU6 nye nu si ZIP 253 wɔ, si ɖo eƒe mainnet ƒe didzra dzi le gaɖoɖowo ƒuƒoƒe 2,726,400 kple eƒe consensus branch id. Gbegbe tɔtrɔwo ŋutɔ tso ZIP 236, ZIP 1015, kple ZIP 2001 me, eye woetrɔ ZIP 207 kple ZIP 214 be woawɔ ɖeka kple eŋu.
 
-Aleke NU6 to vovo tso NU6.1 gbɔe? NU6 gbugbɔ trɔ asi le gazazã ŋu eye wòwɔ gaƒoɖokuiɖaka la. NU6.1 tso nya me le amesi kpɔa ga si le gaxɔa me dzi kple alesi woama gome si wodzra ɖo ɖi la ŋu.
+Alekee NU6 to vovo le NU6.1 ŋu? NU6 trɔ gadodo ɖe ɖoɖo yeye me, eye wòwɔ lockbox la. NU6.1 ɖo ame siwo le dziɖuɖu le lockbox ƒe gawo ŋu kple ale si woemama akpa si woɖo ɖi la ŋu.
 
-## Do wò nugɔmesese kpɔ
+## Do kpe ɖe wò gɔmesese ŋu
 
-NU6 ɖo Deferred Dev Fund Lockbox gake megblɔ amesi kpɔ ŋusẽ ɖe edzi o. Nukatae asitɔtrɔ aɖe ana woawɔ nudzraɖoƒe aɖe eye wòaɖoe koŋ agblẽ eƒe dziɖuɖu ɖi na emegbe?
+NU6 ɖo Deferred Dev Fund Lockbox la ɖi gake megblɔ ame si le dziɖuɖu le eŋu o. Nusitae mɔ̃ ƒe sewo trɔtrɔ aɖe awɔ gaƒeɖeɖe eye wòade eƒe dziɖuɖu ɖe emegbe?
 
 <details>
-<summary>Answer</summary>
+<summary>Ðoɖo</summary>
 
-Woawɔ reserve si wotu ɖe eme be woaɖe ga si woɖe ɖe go ƒe akpa aɖe ɖe vovo le ɖoɖowɔɖia me tsɔ wu be woaxee na amesiwo woɖo ɖi. Nyametsotso le amesi kpɔ ŋusẽ ɖe ga mawo dzi kple alesi woaɖe asi le wo ŋui ŋu nye dziɖuɖu ƒe nyabiase sesẽ aɖe. NU6 ɖoe koŋ gblẽ ema ɖi ʋuʋu, eye NU6.1 ɖo eŋu be: 8% le block subsidy la yi edzi na Zcash Community Grants, eye 12% yi na gaku-xɔla-dzikpɔkpɔ ƒe ga si woƒã to lockbox.
+Gaƒeɖeɖe la ƒe wɔwɔ na wòzu kplikpli be woaɖo ga ƒe akpa aɖe ɖi le protocol la me le teƒe be woaxe wo na ame siwo woɖo ɖi. Ame siwo le dziɖuɖu le ga mawo ŋu kple ale si woaɖe woaɖa nye dziɖuɖu ƒe biabia si sesẽ wu. NU6 de esia ɖe aƒe le ta me, eye NU6.1 ɖo ŋu: Gaɖoɖowo ƒuƒoƒe ƒe fetu ƒe 8% yina na Zcash Community Grants yi edzi, eye 12% yina ɖe gaƒuƒoƒo si coin-holderwo le dziɖuɖu le eme, si lockbox la na dze egɔme.
 </details>
 
-### Nunɔamesiwo
+### Nuɖoɖowo
 
-[ZIP 253: NU6 Network Upgrade ƒe dɔwɔwɔ](https://zips.z.cash/zip-0253)
+[ZIP 253: NU6 Mɔ̃ ƒe sewo trɔtrɔ](https://zips.z.cash/zip-0253) ƒe didzra dzi
 
-[ZIP 236: Ele be blockwo nada asɔ pɛpɛpɛ](https://zips.z.cash/zip-0236)
+[ZIP 236: Gaɖoɖowo ƒuƒoƒowo ele be woasɔ tututu](https://zips.z.cash/zip-0236)
 
-[ZIP 1015: Block Subsidy Allocation na ŋgɔyiyi ƒe Gakpekpeɖeŋu si Metso Tsã o](https://zips.z.cash/zip-1015)
+[ZIP 1015: Gaɖoɖowo ƒuƒoƒe ƒe fetu ƒe mama na ŋgɔyiyi ƒe gadodo si menye tẽ o](https://zips.z.cash/zip-1015)
 
-[ZIP 2001: Lockbox Gadodo ƒe Tɔsisiwo](https://zips.z.cash/zip-2001)
+[ZIP 2001: Lockbox ƒe gadodo ƒliwo](https://zips.z.cash/zip-2001)
 
-[Netwɔƒe ƒe Ðɔɖɔɖo 6 (NU6) .](https://z.cash/upgrade/nu6/)
+[Mɔ̃ ƒe sewo trɔtrɔ 6 (NU6)](https://z.cash/upgrade/nu6/)
 
-### Kpɔe hã
+### Kpɔ hã
 
-[Zcash Network ƒe Ðɔɖɔɖowo](../start-here/network-upgrades)
+[Zcash Mɔ̃ ƒe sewo trɔtrɔwo](../start-here/network-upgrades)
 
-[Hlɔ̃nyawo Gbɔkpɔha](../start-here/development-fund)
+[Ŋgɔyiyi ƒe Gaƒuƒoƒo](../start-here/development-fund)
 
-[Zcash Ganyawo Ŋuti Ðoɖo](../start-here/zcash-monetary-policy)
+[Zcash Ga ƒe ɖoɖo](../start-here/zcash-monetary-policy)
 
 [NU6.1](../zcash-tech/nu6-1)
 
 [NU6.2](../zcash-tech/nu6-2)
 
-[Nukae nye ZEC kple Zcash](../start-here/what-is-zec-and-zcash)
+[Nukae nye ZEC eye Zcash](../start-here/what-is-zec-and-zcash)
 
 ---
 
-Siwo kplɔ wo nɔewo ɖo: [Network Upgrades ƒe dzesi](../start-here/network-upgrades) · Si do ŋgᴐ: [NU5](../zcash-tech/nu5) · Esi kplᴐe ɖo: [NU6.1](../zcash-tech/nu6-1)
+Series: [Mɔ̃ ƒe sewo trɔtrɔwo ƒe index](../start-here/network-upgrades) · Do ŋgɔ: [NU5](../zcash-tech/nu5) · Emegbe: [NU6.1](../zcash-tech/nu6-1)

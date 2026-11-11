@@ -1,10 +1,10 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Using_Zcash/Creators_and_Tips.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Editar página"/>
 </a>
 
-# Herramientas de Zcash para creadores: propinas y plataformas de perfiles
+# Zcash Herramientas [Tools] para creadores: Plataformas de propinas y perfiles
 
-> **Una guía completa sobre herramientas de propinas y perfiles que preservan la privacidad, creadas sobre Zcash para creadores de contenido, cypherpunks y la comunidad consciente de la privacidad.**
+> **Una guía completa sobre herramientas de propinas y perfiles que preservan la privacidad, creadas en Zcash para creadores de contenido, cypherpunks y la comunidad consciente de la privacidad [privacy].**
 
 ---
 
@@ -18,9 +18,9 @@
 
 ---
 
-## TL;DR
+## En resumen
 
-* Dos herramientas de Zcash ayudan a los creadores a recibir pagos de forma privada. Zcash.me te ofrece una página de perfil con tu dirección blindada, y TIPZ permite que los seguidores te envíen propinas.
+* Dos herramientas Zcash ayudan a los creadores a recibir pagos de forma privada. Zcash.me te ofrece una página de perfil con tu dirección blindada [shielded], y TIPZ permite que los seguidores te envíen propinas.
 * Con Zcash.me, compartes un enlace, `zcash.me/[username]`, que muestra tu dirección unificada y tus cuentas sociales.
 * Con TIPZ, los seguidores pueden dar propinas en otras criptomonedas, y cada propina te llega como ZEC blindado.
 * Ambas herramientas solicitan tu dirección unificada (`u1...`).
@@ -34,7 +34,7 @@
 
 #### Descripción general
 
-**Zcash.me** es un directorio de perfiles y plataforma de descubrimiento que facilita que cualquiera encuentre y envíe ZEC a usuarios de Zcash. Sirve como el «Linktree para Zcash»: una forma sencilla de compartir tu dirección blindada y presencia social con un solo enlace.
+**Zcash.me** es un directorio de perfiles y plataforma de descubrimiento que facilita a cualquiera encontrar y enviar ZEC a usuarios de Zcash. Funciona como el «Linktree para Zcash»: una forma sencilla de compartir tu dirección blindada y tu presencia social con un único enlace.
 
 | Elemento              | Detalles |
 |-------------------|---------|
@@ -45,16 +45,16 @@
 
 #### Características principales
 
-##### Disponible actualmente
+##### Actualmente disponibles
 - **Páginas de perfil personalizadas** - Página personalizada con nombre de usuario, biografía, avatar y ubicación
-- **Visualización de dirección blindada** - Botón de copia con un clic para tu dirección unificada
+- **Visualización de dirección blindada** - Botón para copiar con un clic tu dirección unificada
 - **Integración de enlaces sociales** - X, LinkedIn, Telegram y sitios web personalizados
 - **Sistema de verificación** - Insignia de verificación para la confianza de la comunidad
 - **Clasificación de referidos** - Sigue a los principales referidores y líderes de la comunidad
 - **Estado de actividad** - Muestra la última hora de actividad.
 
 ##### Próximamente
-| Característica            | Descripción |
+| Función            | Descripción |
 |--------------------|-------------|
 | Mapa de ubicaciones       | Encuentra usuarios de Zcash cercanos |
 | Estadísticas de la plataforma| Consulta métricas de crecimiento |
@@ -65,7 +65,7 @@
 
 #### Primeros pasos
 1. Visita [https://zcash.me/](https://zcash.me/) y haz clic en **Unirse**.
-2. Elige un nombre de usuario único y añade una biografía y una foto de perfil.
+2. Elige un nombre de usuario único, añade una biografía y una foto de perfil.
 3. Pega tu dirección unificada de Zcash (`u1...`)
 4. Conecta tus cuentas sociales.
 5. Comparte tu enlace: `zcash.me/[yourusername]`
@@ -87,23 +87,23 @@
 | **Formato de perfil**| `tipz.cash/@[username]` |
 | **Estado**        | Activo |
 
-> *"tipz.cash es un protocolo privado de propinas para creadores y cypherpunks."*
+> *«tipz.cash es un protocolo privado de propinas para creadores y cypherpunks.»*
 
 #### Por qué la privacidad es importante para los creadores
 
 ##### Libertad financiera
-- 0 % de comisiones de plataforma
+- 0 % de tarifas de plataforma
 - Sin custodia y autocustodia
 - Sin intermediarios
 
 ##### Diseño centrado en la privacidad
 - Cada propina llega como ZEC blindado.
-- Saldo de wallet privado
-- Mensajería cifrada con las propinas
-- Opción de anonimato total para creadores
+- Saldo privado de la billetera [wallet]
+- Mensajería cifrada [encryption] con propinas
+- Opción de anonimato completo para el creador
 
-##### Pagos entre cadenas
-| Moneda | Red |
+##### Pagos cross-chain
+| Moneda | Red [chain] |
 |----------|---------|
 | ETH      | Ethereum |
 | USDC     | Múltiples cadenas |
@@ -111,7 +111,7 @@
 | ZEC      | Zcash directo |
 
 ##### Protección del creador
-- Sin riesgo de desmonetización
+- Sin riesgo de desplatformación
 - Resistente a la censura
 - No se requiere KYC
 
@@ -119,9 +119,9 @@
 
 ## Visual / Analogía
 
-Un tarro de propinas sobre el mostrador de una cafetería es de cristal. Todas las personas en la sala ven quién deja una moneda y qué tan lleno está el tarro.
+Un tarro de propinas sobre el mostrador de una cafetería es de vidrio. Todos en la sala ven quién deja una moneda y cuán lleno está el tarro.
 
-Una dirección blindada funciona como un buzón cerrado con una ranura. Los seguidores depositan un sobre con una moneda y una nota, y solo el creador abre la caja. TIPZ añade un cambio de divisas en la puerta: un seguidor puede llegar con ETH o SOL, y lo que aterriza en el buzón es ZEC.
+Una dirección blindada funciona como un buzón cerrado con una ranura. Los seguidores dejan un sobre con una moneda y una nota [note], y solo el creador abre la caja. TIPZ añade un exchange de divisas en la puerta: un seguidor puede llegar con ETH o SOL, y lo que termina en el buzón es ZEC.
 
 ```
 TIPZ Payment Flow
@@ -134,9 +134,9 @@ Fan selects amount + message -> Protocol auto-converts -> Creator receives priva
 ## Páginas relacionadas
 
 - [Direcciones unificadas](/using-zcash/unified-addresses): la dirección de `u1...` que solicitan ambas herramientas.
-- [Wallets](/using-zcash/wallets): elige una wallet para recibir propinas blindadas.
+- [Billeteras](/using-zcash/wallets): elige una billetera para recibir propinas blindadas.
 - [Memos](/using-zcash/memos): cómo una nota privada viaja con un pago blindado.
-- [URI de solicitud de pago](/using-zcash/payment-request-uris): un enlace o código QR de `zcash:` que solicita una cantidad determinada.
+- [URI de solicitud de pago](/using-zcash/payment-request-uris): un enlace de `zcash:` o código QR que solicita una cantidad determinada.
 - [Procesadores de pago](/using-zcash/payment-processors): herramientas para vender bienes y servicios por ZEC.
 
-**Última actualización:** octubre de 2026
+**Última actualización:** Octubre de 2026
