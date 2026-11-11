@@ -149,7 +149,7 @@ NEAR's Bridge ṣe atẹjade iye owo ZEC ti o kere ju 0.01 ati 0.00047 ZEC fun a
 
 Gbogbo ipa ọ̀nà tí ó jáde láti Solana gbẹ́kẹ̀lé OmniBridge, nítorí pé afárá náà di ZEC tí ó ń ṣe àtìlẹ́yìn fún àmì ìdánimọ̀ rẹ mú. Lókè èyí:
 
-- **Ọ̀nà tí ó wà lókè** gbẹ́kẹ̀lé NEAR Intents. Ìfọwọ́sowọ́pọ̀ rẹ fún àṣẹ láti gbé ìgbésẹ̀ náà, àwọn olùdáhùn fi ZEC ránṣẹ́ ní ẹ̀gbẹ́ Zcash, NEAR Intents sì lè gba owó fún àtúnyẹ̀wò ìlànà; ní ọdún 2026, ẹni tí ó ni Zcash [royin paṣipaarọ nla kan ti o waye fun awọn ọsẹ](https://www.cryptotimes.io/2026/09/11/zcash-holder-says-589k-usdt-stuck-on-near-intents-50-days-after-zodl-swap/)O tun so apamọwọ rẹ pọ mọ awọn oju opo wẹẹbu meji, nitorinaa ṣayẹwo ọpa adirẹsi ni gbogbo igba.
+- **Ọ̀nà tí ó wà lókè** gbẹ́kẹ̀lé NEAR Intents. Ìfọwọ́sowọ́pọ̀ rẹ fún àṣẹ láti gbé ìgbésẹ̀ náà, àwọn olùdáhùn fi ZEC ránṣẹ́ ní ẹ̀gbẹ́ Zcash, NEAR Intents sì lè gba owó fún àtúnyẹ̀wò ìlànà; ní ọdún 2026, ẹni tí ó ni Zcash [royin paṣipaarọ nla kan ti o waye fun awọn ọsẹ](https://www.cryptotimes.io/2026/09/11/zcash-holder-says-589k-usdt-stuck-on-near-intents-50-days-after-zodl-swap/). O tun so apamọwọ rẹ pọ mọ awọn oju opo wẹẹbu meji, nitorinaa ṣayẹwo ọpa adirẹsi ni gbogbo igba.
 - **Àwọn àpò ìfowópamọ́ pẹ̀lú NEAR Intents tí a kọ́ sínú** (wá ẹ̀yà NEAR Intents nínú [àkójọ ìwé àkójọ](/wallets)) lo eto kanna lati inu apamọwọ Zcash. Igbẹkẹle kanna, awọn oju opo wẹẹbu diẹ. A ko ṣe idanwo eyi pẹlu ZEC lori Solana.
 - **Paṣipaarọ**, kìkì tí ó bá gba owó ìdókòwò àmì yìí lórí nẹ́tíwọ́ọ̀kì Solana, èyí tí ọ̀pọ̀lọpọ̀ kò gbà. O fi ìtọ́jú àti ìdámọ̀ rẹ sílẹ̀, àti pé ọ̀pọ̀lọpọ̀ àwọn paṣipaaro nìkan ni o fi ZEC ránṣẹ́ sí `t1` Àwọn àdírẹ́sì. Wo [awọn paṣipaarọ abojuto](/using-zcash/custodial-exchanges).
 

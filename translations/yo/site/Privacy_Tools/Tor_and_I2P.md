@@ -10,7 +10,7 @@
 - **Tor** darí ìrìnnà rẹ nípasẹ̀ àwọn relays mẹ́ta ó sì ń ṣiṣẹ́ fún àwọn iṣẹ́ wẹ́ẹ̀bù àti àwọn iṣẹ́ alubosa déédéé — lónìí ó jẹ́ àyípadà tó wúlò fún pípa àwọn ìsopọ̀ àpò ìpamọ́ mọ́ra àti wíwá kiri
 - **I2P** jẹ́ nẹ́tíwọ́ọ̀kì ìbòjú-ẹgbẹ́-sí-ẹgbẹ́ tí a fi ìkọ̀kọ̀ pamọ́ pátápátá tí a ṣe fún àwọn iṣẹ́ inú rẹ̀; **kò sí nọ́ńbà Zcash lọ́wọ́lọ́wọ́ tí ó ń sọ̀rọ̀ I2P ní ìbílẹ̀**
 - **Lórí fóònù alágbéka:** gbé àpò owó Zcash kan gba Tor kọjá ní ìgbà díẹ̀ pẹ̀lú Orbot ("Tor Ṣiṣẹ́")
-- **Ṣíṣiṣẹ́ nódù Zcash lórí Tor kò ṣeé ṣe ní báyìí:** `zcashd` dé òpin ìrànlọ́wọ́ ní ọjọ́ kejìdínlógún oṣù keje ọdún 2026, àti pé ẹ̀yà ara ẹ̀rọ Zebra's Tor ṣì wà ní ìdúró ní òkè odò
+- **Ṣíṣiṣẹ́ nódù Zcash lórí Tor kò ṣeé ṣe ní báyìí:** `zcashd` dé òpin ìrànlọ́wọ́ ní ọjọ́ 18 oṣù keje ọdún 2026, àti pé ẹ̀yà ara ẹ̀rọ Zebra's Tor ṣì wà ní ìdúró ní òkè odò
 - Tor fi *ibi tí o wà* pamọ́, kì í ṣe *ohun tí o ṣe lórí ẹ̀wọ̀n* — àwọn ìṣòwò tí ó ṣe kedere yóò wà ní gbangba
 
 Ni akoko oni-nọmba, aabo aabo rẹ [ìpamọ́](https://www.privacyguides.org/en/) ti di ohun tó ṣe pàtàkì sí i. Bó tilẹ̀ jẹ́ pé àwọn kan lè wo ìpamọ́ gẹ́gẹ́ bí ohun tó ti sọnù, kò rí bẹ́ẹ̀. Ìpamọ́ rẹ wà nínú ewu, ó sì yẹ kó jẹ́ ohun tó ń fa àníyàn. Ìpamọ́ ní ìníyelórí pàtàkì ní ti agbára, àti rírí i dájú pé a lo agbára lọ́nà tó bójú mu ṣe pàtàkì.
@@ -76,7 +76,7 @@ Tẹ̀lé àwọn ìtọ́ni wọ̀nyí láti darí àpò Zcash kan gba Tor. Ṣ
 
 Èyí ni apá tó ti yípadà jùlọ, ìdáhùn òtítọ́ ni pé ó ṣòro ju bí ó ti rí lọ lọ́wọ́lọ́wọ́.
 
-**zcashd ti lọ.** Ó dé òpin ìrànlọ́wọ́ ó sì dáwọ́ dúró ní ọjọ́ kejìdínlógún oṣù keje ọdún 2026 ní block 3,417,100. Kò ní tún bẹ̀rẹ̀, ojú ìwé ìgbàsílẹ̀ rẹ̀ yóò dá 404 padà, a kò sì ní fi ibi ìpamọ́ apt sí i mọ́. Ìlànà èyíkéyìí tó bá sọ fún ọ láti ṣiṣẹ́ ni kí o lo `zcashd -proxy=127.0.0.1:9050` kò tún kan ohunkóhun mọ́.
+**zcashd ti lọ.** Ó dé òpin ìrànlọ́wọ́ ó sì dáwọ́ dúró ní ọjọ́ 18 oṣù keje ọdún 2026 ní block 3,417,100. Kò ní tún bẹ̀rẹ̀, ojú ìwé ìgbàsílẹ̀ rẹ̀ yóò dá 404 padà, a kò sì ní fi ibi ìpamọ́ apt sí i mọ́. Ìlànà èyíkéyìí tó bá sọ fún ọ láti ṣiṣẹ́ ni kí o lo `zcashd -proxy=127.0.0.1:9050` kò tún kan ohunkóhun mọ́.
 
 **Zebra ko le ṣe e sibẹsibẹ.** Zebra ni node ti a n ṣetọju, ati apoti nẹtiwọọki rẹ ni koodu asopọ ti a ya sọtọ fun Tor, ṣugbọn ẹya naa ni a ṣe akiyesi ninu `zebra-network/Cargo.toml`:
 

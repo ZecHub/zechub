@@ -4,13 +4,13 @@
 
 # Sprout
 
-> Zcash bẹ̀rẹ̀ ní ọjọ́ kejìdínlọ́gbọ̀n oṣù kẹwàá ọdún 2016, pẹ̀lú adágún tí a dáàbò bo Sprout.
+> Zcash bẹ̀rẹ̀ ní ọjọ́ 28 oṣù kẹwàá ọdún 2016, pẹ̀lú adágún tí a dáàbò bo Sprout.
 
 > **Ìkìlọ̀:** NU7 mú kí ZEC ṣì wà nínú adágún Sprout láìsí owó tí ó bá ti ṣiṣẹ́ (gíga ìṣiṣẹ́ mainnet 3,543,405, tí a fojú sí fún 5 Oṣù kọkànlá ọdún 2026; wo [ZIP 259](https://zips.z.cash/zip-0259)) Tí o bá ní owó Sprout, ka [Gbigba awọn owo pada](../using-zcash/recovering-funds) kí o sì kọ́kọ́ ṣí wọn lọ.
 
 Ohun tí o máa mú kúrò: Sprout ni ibi tí Zcash ti bẹ̀rẹ̀, ìgbà àkọ́kọ́ tí owó ìkọ̀kọ̀, tí a lè fìdí rẹ̀ múlẹ̀, ń ṣiṣẹ́ lórí blockchain aláàyè.
 
-Sprout ni ifilọlẹ atilẹba ti nẹtiwọọki Zcash, kii ṣe nigbamii [igbesoke nẹtiwọọki](../start-here/network-upgrades)Ó bẹ̀rẹ̀ sí í ṣiṣẹ́ ní ibi ìṣẹ̀dá genesis ní ọjọ́ kejìdínlọ́gbọ̀n oṣù kẹwàá ọdún 2016. Kò sí ZIP tí ó ní nọ́mbà tó túmọ̀ Sprout: ìlànà ZIP náà bẹ̀rẹ̀ pẹ̀lú Overwinter, nítorí náà, a ṣe àpèjúwe Sprout nípasẹ̀ Zcash Protocol Specification àtilẹ̀wá àti ìkọ́lé Zerocash tí a kọ́ ọ [Electric Coin Company](../zcash-organizations/electric-coin-company) (nígbà náà ni Zerocoin Electric Coin Company), tí Zooko Wilcox, ló kọ́ ọ, tí wọ́n sì fi ránṣẹ́ sí i. Sprout ṣe àgbékalẹ̀ àwọn ìṣòwò àkọ́kọ́ tí a fi ààbò zk-SNARK ṣe àti adágún ààbò àkọ́kọ́, kí àwọn ènìyàn lè fi ZEC ránṣẹ́ pẹ̀lú olùránṣẹ́, olùgbà, àti iye tí a fi pamọ́ nígbà tí nẹ́tíwọ́ọ̀kì náà ṣì ń ṣàyẹ̀wò pé ìwọ̀n náà pọ̀ sí i. Orúkọ náà fi hàn pé ẹ̀wọ̀n kékeré kan tí ẹgbẹ́ náà retí pé yóò pọ̀ sí i.
+Sprout ni ifilọlẹ atilẹba ti nẹtiwọọki Zcash, kii ṣe nigbamii [igbesoke nẹtiwọọki](../start-here/network-upgrades). Ó bẹ̀rẹ̀ sí í ṣiṣẹ́ ní ibi ìṣẹ̀dá genesis ní ọjọ́ 28 oṣù kẹwàá ọdún 2016. Kò sí ZIP tí ó ní nọ́mbà tó túmọ̀ Sprout: ìlànà ZIP náà bẹ̀rẹ̀ pẹ̀lú Overwinter, nítorí náà, a ṣe àpèjúwe Sprout nípasẹ̀ Zcash Protocol Specification àtilẹ̀wá àti ìkọ́lé Zerocash tí a kọ́ ọ lé. [Electric Coin Company](../zcash-organizations/electric-coin-company) (nígbà náà ni Zerocoin Electric Coin Company), tí Zooko Wilcox, ló kọ́ ọ, tí wọ́n sì fi ránṣẹ́ sí i. Sprout ṣe àgbékalẹ̀ àwọn ìṣòwò àkọ́kọ́ tí a fi ààbò zk-SNARK ṣe àti adágún ààbò àkọ́kọ́, kí àwọn ènìyàn lè fi ZEC ránṣẹ́ pẹ̀lú olùránṣẹ́, olùgbà, àti iye tí a fi pamọ́ nígbà tí nẹ́tíwọ́ọ̀kì náà ṣì ń ṣàyẹ̀wò pé ìwọ̀n náà pọ̀ sí i. Orúkọ náà fi hàn pé ẹ̀wọ̀n kékeré kan tí ẹgbẹ́ náà retí pé yóò pọ̀ sí i.
 
 Kí ló dé tí èyí fi ṣe pàtàkì? Gbogbo blockchain gbogbogbòò kí Sprout tó fi àwọn ìsanwó rẹ hàn: ẹnikẹ́ni lè rí ẹni tó sanwó fún àti iye tí ó san. Sprout ni nẹ́tíwọ́ọ̀kì àkọ́kọ́ tí kò ní àṣẹ láti fi àwọn kúlẹ̀kúlẹ̀ wọ̀nyẹn pamọ́ tí ó sì tún fi hàn pé kò sí ẹni tó ń ṣe àrékérekè. Èyí ṣe pàtàkì fún ìpamọ́ owó lásán, irú èyí tí o ń retí láti owó tàbí àkọsílẹ̀ báńkì tí ẹnikẹ́ni kò lè kà. Ó tún fi hàn pé ìpamọ́ tó lágbára lórí ẹ̀rọ lè ṣiṣẹ́ ní ìṣe, ju àwòrán ìwé lọ. Ayẹyẹ ìṣètò tí a gbẹ́kẹ̀lé tí ó mú kí ó ṣeé ṣe di ibi ìtọ́kasí fún iṣẹ́ ìkọ̀kọ̀ nígbà tó yá, àti ètò ìfìdí múlẹ̀ tí ó lọ́ra, tí ó sì ní ìrántí tí Sprout fi ránṣẹ́ ni ohun tó tì ẹgbẹ́ náà láti kọ́ Sapling ní ọdún méjì lẹ́yìn náà.
 
@@ -28,7 +28,7 @@ Sprout ṣẹ̀dá irú àdírẹ́sì méjì. Àwọn àdírẹ́sì tí ó hà
 
 ## Ìpilẹ̀ṣẹ̀ náà
 
-Sprout ni ipilẹ̀ tí gbogbo ìyípadà tí ó tẹ̀lé e máa ń gbé kalẹ̀. Nígbà tí ẹ̀rọ ìdàgbàsókè nẹ́tíwọ́ọ̀kì dé pẹ̀lú Overwinter, ó pe àwọn òfin àtilẹ̀wá ní ẹ̀ka ìfohùnṣọ̀kan id 0, èyí tí ó túmọ̀ sí pé kò sí ìdàgbàsókè tí a ti lò. Gbogbo nǹkan láti ìgbà náà (Overwinter, Sapling, Blossom, Heartwood, Canopy, NU5, NU6, àti síwájú) wà lórí ẹ̀wọ̀n Sprout tí a bẹ̀rẹ̀. Wọ́n kéde ìfilọ́lẹ̀ náà ní oṣù kẹjọ ọdún 2016 fún ìṣẹ̀dá ọjọ́ kẹrìndínlọ́gbọ̀n oṣù kẹwàá, ayẹyẹ náà wáyé ní ọ̀sẹ̀ díẹ̀ ṣáájú, àti àmì àkókò tí a fi kọ àkọlé genesis block kọ ní ọjọ́ kẹrìndínlọ́gbọ̀n oṣù kẹwàá ọdún 2016, ní agogo méje àti ìṣẹ́jú mẹ́rìndínlọ́gbọ̀n oṣù kẹwàá ọdún 2016.
+Sprout ni ipilẹ̀ tí gbogbo ìyípadà tí ó tẹ̀lé e máa ń gbé kalẹ̀. Nígbà tí ẹ̀rọ ìdàgbàsókè nẹ́tíwọ́ọ̀kì dé pẹ̀lú Overwinter, ó pe àwọn òfin àtilẹ̀wá ní ẹ̀ka ìfohùnṣọ̀kan id 0, èyí tí ó túmọ̀ sí pé kò sí ìdàgbàsókè tí a ti lò. Gbogbo nǹkan láti ìgbà náà (Overwinter, Sapling, Blossom, Heartwood, Canopy, NU5, NU6, àti síwájú) wà lórí ẹ̀wọ̀n Sprout tí a bẹ̀rẹ̀. Wọ́n kéde ìfilọ́lẹ̀ náà ní oṣù kẹjọ ọdún 2016 fún ìṣẹ̀dá ọjọ́ 28 oṣù kẹwàá, ayẹyẹ náà wáyé ní ọ̀sẹ̀ díẹ̀ ṣáájú, àti àmì àkókò tí a fi kọ àkọlé genesis block kọ ní ọjọ́ 28 oṣù kẹwàá ọdún 2016, ní 07:56 UTC.
 
 ![Timeline from the August 2016 announcement through the parameter Ceremony to the October 28, 2016 Sprout launch](/content-images/sprout-timeline-348766352a.webp)
 
@@ -62,7 +62,7 @@ A sábà máa ń pe Sprout ní ìdàgbàsókè nẹ́tíwọ́ọ̀kì pẹ̀lú
 <details>
 <summary>Answer</summary>
 
-Sprout ni ìfilọ́lẹ̀ àkọ́kọ́ ti Zcash, kìí ṣe ìfilọ́lẹ̀ lẹ́yìn náà. Ó ti ń ṣiṣẹ́ láti ìgbà tí block genesis (block 0) ti bẹ̀rẹ̀ ní October 28, 2016, nítorí náà kò sí gíga ìṣiṣẹ́ láti tọ́ka sí. Ọ̀nà ìfilọ́lẹ̀ nẹ́tíwọ́ọ̀kì náà wá lẹ́yìn náà ó sì pe àwọn òfin Sprout's ní ẹ̀ka ìfọwọ́sowọ́pọ̀ id 0, ìpìlẹ̀ ṣáájú ìfilọ́lẹ̀ èyíkéyìí.
+Sprout ni ìfilọ́lẹ̀ àkọ́kọ́ ti Zcash, kìí ṣe ìfilọ́lẹ̀ lẹ́yìn náà. Ó ti ń ṣiṣẹ́ láti ìgbà tí block genesis (block 0) ti bẹ̀rẹ̀ ní ọjọ́ 28 oṣù kẹwàá ọdún 2016, nítorí náà kò sí gíga ìṣiṣẹ́ láti tọ́ka sí. Ọ̀nà ìfilọ́lẹ̀ nẹ́tíwọ́ọ̀kì náà wá lẹ́yìn náà ó sì pe àwọn òfin Sprout ní ẹ̀ka ìfọwọ́sowọ́pọ̀ id 0, ìpìlẹ̀ ṣáájú ìfilọ́lẹ̀ èyíkéyìí.
 </details>
 
 ### Àwọn ohun àlùmọ́nì

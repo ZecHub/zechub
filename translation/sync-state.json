@@ -477,7 +477,7 @@
       "src_commit": "45bf9bad053e2227c25d8ab4aef19c0f22792bc3",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "gt-static+handfix",
       "edited": false
     },
     "Using_Zcash/Payment_Processors.md": {
@@ -33513,7 +33513,7 @@
       "src_commit": "45bf9bad053e2227c25d8ab4aef19c0f22792bc3",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "gt-static+handfix",
       "edited": false
     },
     "Privacy_Tools/VPN_and_DVPN.md": {
@@ -33921,7 +33921,7 @@
       "src_commit": "45bf9bad053e2227c25d8ab4aef19c0f22792bc3",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "gt-static+handfix",
       "edited": false
     },
     "Using_Zcash/Solswap.md": {
@@ -33961,7 +33961,7 @@
       "src_commit": "45bf9bad053e2227c25d8ab4aef19c0f22792bc3",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "gt-static+handfix",
       "edited": false
     },
     "Using_Zcash/Zallet_Quick_Reference_Guide.md": {
@@ -34369,7 +34369,7 @@
       "src_commit": "45bf9bad053e2227c25d8ab4aef19c0f22792bc3",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "gt-static+handfix",
       "edited": false
     },
     "Zcash_Tech/Heartwood.md": {
@@ -34513,7 +34513,7 @@
       "src_commit": "45bf9bad053e2227c25d8ab4aef19c0f22792bc3",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "gt-static+handfix",
       "edited": false
     },
     "Zcash_Tech/The_Turnstile.md": {

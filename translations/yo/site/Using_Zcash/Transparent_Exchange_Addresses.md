@@ -66,7 +66,7 @@ Tí àpò rẹ bá rí àmì náà, yóò yọ owó náà kúrò nínú àpótí
 
 Apẹrẹ ti o rọrun naa jẹ ibeere lati ọdọ Binance: iyipada naa gbọdọ ṣiṣẹ pẹlu awọn ile-ikawe Base58Check ati Bech32m nikan ninu koodu iwaju-opin paṣipaarọ naa. Akọsilẹ ZIP 320 ti tẹlẹ kọ imọran naa sinu Awọn adirẹsi Unified, ati pe ẹya yẹn ni a fi silẹ fun idi eyi.
 
-Àwọn àdírẹ́sì TEX yá ìkọ̀wé Bech32m láti inú ìrísí Àdírẹ́sì Unified ṣùgbọ́n kò ní ìrísí kankan nínú rẹ̀. Tí o bá jẹ́ ẹni tuntun sí Bech32m àti bí a ṣe ń fi àwọn àdírẹ́sì Zcash hàn, [Àwọn Àdírẹ́sì Ìṣọ̀kan](/using-zcash/unified-addresses) ojú ìwé náà bo àwọn ìpìlẹ̀ lábẹ́ [ZIP 316](https://zips.z.cash/zip-0316)Àdírẹ́sì TEX yàtọ̀ sí Àdírẹ́sì Ìṣọ̀kan ní ọ̀nà mẹ́rin pàtó:
+Àwọn àdírẹ́sì TEX yá ìkọ̀wé Bech32m láti inú ìrísí Àdírẹ́sì Unified ṣùgbọ́n kò ní ìrísí kankan nínú rẹ̀. Tí o bá jẹ́ ẹni tuntun sí Bech32m àti bí a ṣe ń fi àwọn àdírẹ́sì Zcash hàn, [Àwọn Àdírẹ́sì Ìṣọ̀kan](/using-zcash/unified-addresses) ojú ìwé náà bo àwọn ìpìlẹ̀ lábẹ́ [ZIP 316](https://zips.z.cash/zip-0316). Àdírẹ́sì TEX yàtọ̀ sí Àdírẹ́sì Ìṣọ̀kan ní ọ̀nà mẹ́rin pàtó:
 
 | | Àdírẹ́sì Ìṣọ̀kan (ZIP 316) | Àdírẹ́sì TEX (ZIP 320) |
 |---|---|---|
@@ -90,7 +90,7 @@ Ni kukuru, adirẹsi TEX kan ni ohun elo Bech32m ti o rọrun julọ: hash bọt
 * A gbọ́dọ̀ lo àdírẹ́sì tuntun fún ìgbà díẹ̀ ní gbogbo ìgbà, nítorí náà, a kò gbọdọ̀ so àwọn ìsanwó ọ̀tọ̀ọ̀tọ̀ pọ̀ mọ́ ara wọn.
 * Iṣòwò kejì yẹ kí ó ná àwọn ohun tí a fi ń ṣí sílẹ̀ nìkan, kí pàṣípààrọ̀ náà lè rí owó ìdókòwò tí ó mọ́ tónítóní sí tí ó ṣe kedere.
 
-Ìyípadà àti ìṣàn ìgbésẹ̀ méjì ni a fihàn nínú [Ìmúṣe ìtọ́kasí ZIP 320](https://zips.z.cash/zip-0320#reference-implementation). Gbèsè èyí jẹ́ ìṣòro gidi kan láìpẹ́ yìí: ní oṣù kẹwàá ọdún 2026, XChainJS `zcash-js` ìkàwé tí a kọ̀ sílẹ̀ wúlò `tex1` àwọn olùgbà tí wọ́n ní àṣìṣe "Àdírẹ́sì 'láti' tí kò tọ́", nítorí pé olùdánilójú rẹ̀ kàn gba Base58Check nìkan `t1` fọọmu, eyiti o fọ awọn idogo ZEC si awọn iṣẹ ti o tẹjade `tex1` àdírẹ́sì ([Àtẹ̀jáde #1782](https://github.com/xchainjs/xchainjs-lib/issues/1782)A ṣe àtúnṣe rẹ̀ nípa kíkọ́ olùdámọ̀ràn láti gba ìṣàkójọ ZIP 320 ([PR #1783](https://github.com/xchainjs/xchainjs-lib/pull/1783)).
+Ìyípadà àti ìṣàn ìgbésẹ̀ méjì ni a fihàn nínú [Ìmúṣe ìtọ́kasí ZIP 320](https://zips.z.cash/zip-0320#reference-implementation). Gbèsè èyí jẹ́ ìṣòro gidi kan láìpẹ́ yìí: ní oṣù kẹwàá ọdún 2026, XChainJS `zcash-js` ìkàwé tí a kọ̀ sílẹ̀ wúlò `tex1` àwọn olùgbà tí wọ́n ní àṣìṣe "Àdírẹ́sì 'láti' tí kò tọ́", nítorí pé olùdánilójú rẹ̀ kàn gba Base58Check nìkan `t1` fọọmu, eyiti o fọ awọn idogo ZEC si awọn iṣẹ ti o tẹjade `tex1` àdírẹ́sì ([Àtẹ̀jáde #1782](https://github.com/xchainjs/xchainjs-lib/issues/1782)). A ṣe àtúnṣe rẹ̀ nípa kíkọ́ olùdámọ̀ràn láti gba ìṣàkójọ ZIP 320 ([PR #1783](https://github.com/xchainjs/xchainjs-lib/pull/1783)).
 
 ### Ohun ti fifiranṣẹ TEX fihan
 

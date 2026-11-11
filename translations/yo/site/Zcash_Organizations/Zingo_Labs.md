@@ -23,7 +23,7 @@ Zaino jẹ́ olùtọ́ka Rust fún ẹ̀rọ Zcash blockchain, tí ẹgbẹ́ Z
 
 Zaino n pese awọn ẹya pataki fun awọn alabara ina, gẹgẹbi awọn apamọwọ ati awọn ohun elo ti ko nilo itan-akọọlẹ blockchain kikun, ati awọn alabara kikun tabi awọn apamọwọ. O tun ṣe atilẹyin fun awọn oluwadi bulọọki, fifun ni iwọle si blockchain ti a pari ati pq ti ko pari ati mempool ti ko pari ti a ṣakoso nipasẹ Zebra full validator.
 
-`zcashd` dé ìdádúró End-of-Support rẹ̀ ní ọjọ́ kejìdínlógún oṣù keje ọdún 2026 ní block 3,417,100 kò sì ṣètìlẹ́yìn fún Ironwood (NU6.3). Zaino ka ẹ̀rọ ìfàṣẹsí Zebra kan.
+`zcashd` dé ìdádúró End-of-Support rẹ̀ ní ọjọ́ 18 oṣù keje ọdún 2026 ní block 3,417,100 kò sì ṣètìlẹ́yìn fún Ironwood (NU6.3). Zaino ka ẹ̀rọ ìfàṣẹsí Zebra kan.
 
 ###  ZLN (zcash-local-net) ([GitHub](https://github.com/zingolabs/infrastructure/tree/dev/zcash_local_net))
 

@@ -63,7 +63,7 @@ Fa ZEC kɔ sika kotoku a wohwɛ so na bɔ ho ban ansa na woasɛe sika. [ZEC a W�
 Fa swap a wɔde fa NEAR Intents 1Click dwumadie no so sɛ nhwɛsoɔ. Ɛyɛ [API nsɛmfua](https://docs.near-intents.org/security-compliance/terms-of-service) fa eyinom di dwuma sɛ afã horow a ɛsono emu biara:
 
 - **Interface**: wɛbsaet anaa sika kotoku a wode di dwuma. Intents Technology anaasɛ obi foforo a ɔwɔ n’ankasa nsɛm betumi adi so.
-- **1Klik**: ɔkwan a wɔfa so ne nneɛma a wɔde siesie adwuma a Intents Technology Limited na ɛhwɛ so. Wode sika kɔ address a wɔde sie a wɔayɛ ama wo quote no so. Docs no se 1Click nnye custody, nanso nsɛm no hyɛ no nsow sɛ wobetumi de agyapade asie anaasɛ wɔatoto mu wɔ bridge infrastructure mu bere a wɔreyɛ transfer.
+- **1Click**: ɔkwan a wɔfa so ne nneɛma a wɔde siesie adwuma a Intents Technology Limited na ɛhwɛ so. Wode sika kɔ address a wɔde sie a wɔayɛ ama wo quote no so. Docs no se 1Click nnye custody, nanso nsɛm no hyɛ no nsow sɛ wobetumi de agyapade asie anaasɛ wɔatoto mu wɔ bridge infrastructure mu bere a wɔreyɛ transfer.
 - **Protocol no**: NEAR Intents nyansa apam ahorow no.
 - **Solvers**: nnipa a wɔto so abiɛsa a wɔde wɔn ho a wɔhyɛ quote no ma.
 - **Bridges**: native ZEC tu fa PoA Bridge, a Intents Technology na ɛyɛ adwuma.
@@ -92,7 +92,7 @@ Nea ɛbɛba wɔ mfɛnsere no akyi no gyina wo so. Fa sika foforo no gu krataa a 
 Nsɛmfua sesa, enti kenkan mprempren nkyerɛase ahorow no ansa na woasesa kɛse.
 
 - **Fi ase fa app a wode di dwuma no so.** Ɛyɛ wo beae titiriw a wo ne no di nkitaho. 1Click API nsɛmfua no ka sɛ Intents Technology nni abusuabɔ biara tẽẽ ne wɔn a wɔde app ahorow a wɔasi wɔ so di dwuma no ntam.
-- **NEAR Intents:** nsɛm ne kokoam nsɛm ho nhyehyɛe a ɛwɔ near.com/terms ne near.com/privacy, ne.. [1Klik API nsɛmfua so](https://docs.near-intents.org/security-compliance/terms-of-service) ne [asiane ne nea wodi so](https://docs.near-intents.org/security-compliance/risk-and-compliance).
+- **NEAR Intents:** nsɛm ne kokoam nsɛm ho nhyehyɛe a ɛwɔ near.com/terms ne near.com/privacy, ne.. [1Click API nsɛmfua so](https://docs.near-intents.org/security-compliance/terms-of-service) ne [asiane ne nea wodi so](https://docs.near-intents.org/security-compliance/risk-and-compliance).
 - **Tracking ne mmoa:** hwehwɛ swap bi wɔ [NEAR Intents Nhwehwɛmufoɔ](https://explorer.near-intents.org) anaa bisa wɔ [NEAR Intents Telegram Ɛbɛn](https://t.me/near_intents).
 - **Refunds:** wobetumi de swap a entumi ayɛ adwuma asan akɔ refund address a wode mae no so, nanso near.com nsɛm ka sɛ wɔmfa sika a wɔde bɛsan ama no nni guaranteed. 1Click nsɛm no nso ka sɛ wɔmfa recovery requests a ɛfa user mfomsoɔ a ɛwɔ USD 300 ase no ho.
 
